@@ -1,0 +1,49 @@
+---
+title: 権限の管理
+seo-title: 権限の管理
+description: 権限の管理
+seo-description: null
+page-status-flag: never-activated
+uuid: 07039fec-c957-4548-acc7-22dc7827a54b
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: workflow
+content-type: reference
+topic-tags: advanced-management
+discoiquuid: f78603e9-f6ff-4ebe-941b-b3fbd1924b71
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+
+---
+
+
+# 権限の管理{#managing-rights}
+
+管理者でない Adobe Campaign オペレーターは、ワークフローの作成や実行、変更でアクセス権が必要になります。
+
+一般的には、ワークフローを操作するオペレーターは、各種アクティビティ（受信者、受信者リスト、購読、配信など）の実行時に、使用するデータが含まれているファイルと、通常はそのサブファイルにもアクセスする必要があります。
+
+また、影響するワークフロー（受信者インポート、ファイルアクセス、統合、SQL スクリプト実行など）によって実行されるアクションと一致するネームド権限にマッピングされている必要があります。
+
+オペレーターの管理と権限について詳しくは、この[節](../../platform/using/access-management.md)を参照してください。
+
+## オペレーターグループ {#operator-groups}
+
+次のオペレーターグループは、ワークフローに関連付けられています。
+
+* The **[!UICONTROL Workflow execution]** group lets you control the execution and approval of targeting workflows: the WORKFLOW named right is mapped to this group&#39;s operators. データファイルへのアクセス権に加えて、これは、ワークフローのすべてのアクションに必要です。By default, the **[!UICONTROL Workflow execution]** group has read-only access to standard targeting workflow files and workflow templates. このグループのオペレーターは、保留中の承認ファイルに対して読み取りと書き込みのアクセスができます。
+* The **[!UICONTROL Workflow supervisors]** group lets operators manage workflow approvals.
+* キャンペーン **[!UICONTROL Operation Managers]** ワークフローにアクセスするためのグループ。
+
+## ネームド権限 {#named-rights}
+
+ワークフローに固有のネームド権限は、WORKFLOW ネームド権限だけです。この権限により、ワークフローを作成、開始、および停止できます。ネームド権限が適用するには、ワークフローの読み取り権限が必要です。For targeting workflows, the reading right on the **[!UICONTROL Profiles and Targets]** file is necessary.
+
+## ワークフロー実行アカウント {#workflow-execution-account}
+
+ワークフローのテンプレートレベルで使用される実行アカウントを設定できます。ワークフロー実行アカウントでは、Adobe Campaign オペレーターが処理の実行を開始しているかどうかに関係なく、ワークフローに直接、認証をマッピングすることができます。デフォルトでは、ワークフローはすべて、ワークフローを起動したオペレーターの権限で実行されます。
+
+実行アカウントをワークフローにマッピングするには、ワークフローテンプレートのリストに移動し、ワークフローにリンクしたテンプレートを右クリックします。を選択 **[!UICONTROL Action > Change execution account...]** し、使用するアカウントを選択します。

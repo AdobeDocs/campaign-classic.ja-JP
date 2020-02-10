@@ -1,0 +1,52 @@
+---
+title: 連続配信
+seo-title: 連続配信
+description: 連続配信
+seo-description: null
+page-status-flag: never-activated
+uuid: af8b4582-299e-47f9-9819-987b35db94ab
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: workflow
+content-type: reference
+topic-tags: action-activities
+discoiquuid: 9d80be19-8dde-4278-ab5f-23f364fe422e
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+
+---
+
+
+# 連続配信{#continuous-delivery}
+
+「**連続配信**」タイプアクションでは、既存の配信に新しい受信者を追加できます。この配信タイプを使用すると、次のような場合に毎回新しい配信を作成する必要がなくなります。このモードは、多くの場合、特に、必要に応じて送信される低ボリュームのアラートや通知に対して、より効率的です。 配信テンプレートレベルで、関連する配信のラベル（およびキャンペーンフォルダー）を計算するスクリプトを指定できます。スクリプトがまだ存在しない配信を計算すると、その配信が計算中に作成されます。
+
+![](assets/edit_diffusion_fil.png)
+
+The **[!UICONTROL Process errors]** option displays a particular transition which will be activated if an error is generated. この場合、ワークフローはエラーモードに入らず、実行は継続されます。
+
+対象となるエラーは、ファイルシステムエラーです（ファイルを移動できない、ディレクトリにアクセスできない、など）。
+
+このオプションは、無効な値など、アクティビティの設定に関するエラーは処理しません。
+
+## 入力パラメーター {#input-parameters}
+
+* tableName
+* schema
+
+各インバウンドイベントは、これらのパラメーターによって定義されるターゲットを指定する必要があります。
+
+このオプションが選択さ **[!UICONTROL Specified by the inbound event]** れている場合のみ。
+
+## 出力パラメーター {#output-parameters}
+
+* tableName
+* schema
+* recCount
+
+この 3 つの値セットは、オンザフライ配信によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記憶するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
+
+補集合に関連付けられたトランジションは、同じパラメーターを持ちます。

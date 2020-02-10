@@ -1,0 +1,72 @@
+---
+title: ワークフローについて
+seo-title: ワークフローについて
+description: ワークフローについて
+seo-description: null
+page-status-flag: never-activated
+uuid: 19adb0e5-042d-47a0-9f92-24e4b3045dbe
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: workflow
+content-type: reference
+topic-tags: introduction
+discoiquuid: 868940d1-f19d-4e9a-bffa-8654abb4441c
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+
+---
+
+
+# ワークフローについて{#about-workflows}
+
+Adobe Campaign には、アプリケーションサーバーの様々なモジュールのプロセスおよびタスク全体にわたって調整できるワークフローモジュールが含まれています。この包括的なグラフィカル環境を使用すると、セグメント化、キャンペーン実行、ファイル処理、人の参加などを含むプロセスを設計できます。ワークフローエンジンは、これらのプロセスを実行およびトラッキングします。
+
+例えば、ワークフローを使用して、サーバーからファイルをダウンロードしたり、ファイルを解凍したり、ファイルに含まれるレコードを Adobe Campaign データベースにインポートしたりできます。
+
+また、通知したり、プロセスを選択および承認したりできる 1 人または複数のオペレーターをワークフローに参加させることもできます。この方法では、配信アクションを作成し、1 人または複数のオペレーターにタスクを割り当てて、コンテンツに取り組んだり、ターゲットを指定したり、配信開始前に配達確認を承認したりできます。
+
+ワークフローは、キャンペーン管理プロセスの様々なコンテキストおよびステージで発生します。
+
+Adobe Campaign では、ワークフローを使用して次のことをおこないます。
+
+* キャンペーンのターゲティングの実行。For more on this, refer to [Implementation steps](../../workflow/using/building-a-workflow.md#implementation-steps-).
+* Build campaigns: for each campaign, the **[!UICONTROL Workflow]** tab lets you build the target and create the deliveries. For more on this, refer to [Campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows).
+* テクニカルプロセスの実行：クリーンアップ、トラッキング情報の収集または試算。For more on this, refer to [Technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows).
+
+ワークフローは、プロセス定義（想定される結果を表すワークフローモデル）と、このプロセスのインスタンス（実際に実行中の処理を表すワークフローインスタンス）の両方を意味します。
+
+ワークフローテンプレートは、実行されるさまざまなタスクと、タスク同士の関係を示すものです。タスクテンプレートは、アクティビティと呼ばれ、アイコンで表されます。タスクテンプレートは、トランジションによって相互にリンクされています。
+
+![](assets/example1.png)
+
+各ワークフローには次が含まれます。
+
+* **[!UICONTROL Activities]**
+
+   アクティビティは、タスクテンプレートを図示したものです。使用可能な各種アクティビティは、ダイアグラム内にアイコンで示されます。各タイプは、共通のプロパティと固有のプロパティを持ちます。For example, while all activities have a name and label, only the **[!UICONTROL Approval]** activity has an assignment.
+
+   ワークフローのダイアグラムでは、指定されたアクティビティが、特にループまたは繰り返し（定期的）アクションがある場合に複数のタスクを生成できます。
+
+   すべてのワークフローアクティビティのリストは、使用例やサンプルとともに[この節](../../workflow/using/about-activities.md)で確認できます。
+
+* **[!UICONTROL Transitions]**
+
+   トランジションを使用して、アクティビティをリンクし、アクティビティのシーケンスを定義できます。トランジションは、ソースアクティビティを宛先アクティビティにリンクします。ソースアクティビティに応じて、トランジションにはいくつかの種類があります。一部のトランジションには、期間や条件、フィルターなどの追加のパラメータがあります。
+
+   宛先アクティビティにリンクされていないトランジションはオレンジ色で示され、矢じりはひし形になります。
+
+   >[!NOTE]
+   >
+   >未終了のトランジションを含んでいても、ワークフローは実行可能です。その場合、警告メッセージが生成され、トランジションに到達するとワークフローはいったん一時停止しますが、エラーは生成されません。つまり、トランジションを終了せずにワークフローを開始したり、未終了のトランジションをワークフローに追加することができます。
+
+   ワークフローの構築方法について詳しくは、[この節](../../workflow/using/building-a-workflow.md)を参照してください。
+
+* **[!UICONTROL Worktables]**
+
+   作業用テーブルには、トランジションによって実行されるすべての情報が含まれます。各ワークフローは、複数の作業用テーブルを使用します。作業用テーブルに伝達されたデータは、パージされない限り、ワークフローをスムースに処理するためにライフサイクル全体で使用されます。不要なテーブルは、ワークフローが休止状態になるたびにパージされます。また、最大のワークフローの実行中にサーバーの過負荷を回避する目的でパージされることがあります。
+
+   ワークフローのデータおよびテーブルについて詳しくは、[この節](../../workflow/using/how-to-use-workflow-data.md)を参照してください。
+

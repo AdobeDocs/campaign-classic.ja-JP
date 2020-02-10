@@ -1,0 +1,173 @@
+---
+title: 分散型マーケティングについて
+seo-title: 分散型マーケティングについて
+description: 分散型マーケティングについて
+seo-description: null
+page-status-flag: never-activated
+uuid: 7f7ece67-c644-4072-a06c-c5b49f3acb5d
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: campaign
+content-type: reference
+topic-tags: distributed-marketing
+discoiquuid: 6d694f5c-1d1f-4686-b3bf-8697d919a0c8
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+
+---
+
+
+# 分散型マーケティングについて{#about-distributed-marketing}
+
+## はじめに {#introduction}
+
+Adobe Campaign では、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（店舗、地域のエージェントなど）が協調キャンペーンを展開できる、**分散型マーケティング**&#x200B;アプリケーションを活用できます。This cooperation is based on a shared workspace known as the **[!UICONTROL list of campaign packages]**, where centrally created campaign templates and instances are offered to local entities.
+
+セントラルエンティティは、ローカルエンティティに提供するキャンペーンをセットアップし、ローカルキャンペーンまたは協調キャンペーンのいずれかのパッケージを作成します。ローカルエンティティがキャンペーンを使用するには、キャンペーンをオーダーし、承認を受けなければなりません。
+
+>[!CAUTION]
+>
+>分散型マーケティングモジュールは、**キャンペーン**&#x200B;のオプションとして提供されます。使用許諾契約書を確認してください。
+
+## 用語 {#terminology}
+
+### セントラルエンティティ {#central-entities}
+
+セントラルエンティティは、マーケティングのオペレーターによって構成されます。コミュニケーションを指定し、ローカルエンティティによるマーケティングキャンペーンの展開をサポートする役割を果たします。
+
+分散型マーケティングモジュールでは、セントラルエンティティは次の操作を実行できます。
+
+* ローカルエンティティに提供するマーケティングキャンペーンのパッケージをセットアップします。
+* 顧客／見込み客とのコミュニケーション、ターゲティング、コンテンツの選定などに関して、ローカルエンティティの裁量範囲を広げます。
+* コストを管理し、コントロールします。
+* エージェントのネットワークを管理します。
+
+### ローカルエンティティ {#local-entities}
+
+ローカルエンティティは、エージェント、店舗または特定のローカルオペレーターグループ（国または地域のマネージャー、ブランドマネージャーなど）です。
+
+分散型マーケティングでは、実行コストを最適化しつつ、ローカルエンティティにより大きな裁量を与えることができます。
+
+### ローカライゼーション {#localization}
+
+ローカライゼーションにより、ローカルエンティティはキャンペーンのターゲットやコンテンツに変更を加えることができます。どの程度のローカライゼーションが可能かは、キャンペーンのタイプや実装によって異なります。
+
+### キャンペーンパッケージのリスト {#list-of-campaign-packages}
+
+キャンペーンパッケージのリストには、ローカルエンティティが使用できるキャンペーンが含まれます。
+
+### キャンペーンパッケージ {#campaign-package}
+
+セントラルエンティティが作成し、ローカルエンティティに提供されるテンプレート（またはキャンペーンインスタンス）です。
+
+### ローカルキャンペーン {#local-campaign}
+
+A local campaign is an instance created from a template referenced in the list of **[!UICONTROL campaign packages]** with a **specific execution schedule**. ローカルキャンペーンの目的は、セントラルエンティティによって設定されたテンプレートを使用して、ローカルのコミュニケーションのニーズを満たすキャンペーンを展開することです。
+
+ローカルエンティティの自立度は実装によって異なります。
+
+詳しくは、「ローカ [ルキャンペーンの作成」を参照してくださ](../../campaign/using/creating-a-local-campaign.md)い。
+
+### 協調キャンペーン {#collaborative-campaign}
+
+協調キャンペーンは、ローカルエンティティが使用できるキャンペーンです。ただし、**実行スケジュールはセントラルエンティティによって定義**&#x200B;されます。すべてのローカルエンティティに同じコンテンツが提供されますが、コストは共有です。ローカルエンティティが協調キャンペーンに参加するには、登録が必要です。
+
+* **[!UICONTROL Collaborative campaign (by form)]**:最大300個のローカルエンティティを含むキャンペーンに推奨されます。 ローカルエンティティは、ターゲティングやコンテンツのパーソナライゼーションに関係するあらかじめ定義されたパラメーターを Web フォームに入力できます。Web フォームは、Adobe Campaign のフォームまたは外部のフォーム（エクストラネットのクライアント）のいずれかです。機能管理者は、インテグレーターによって定義されたフォームテンプレートに基づいて、フォームを定義および設定できます。Web へのアクセスが可能であれば、ローカルエンティティはキャンペーンをオーダーできます。
+* **[!UICONTROL Collaborative campaign (by campaign)]**:多数のローカルエンティティを対象としたキャンペーンに推奨されます。 このタイプのキャンペーンでは、ローカルエンティティごとに子キャンペーンが作成されます。Once the **[!UICONTROL collaborative campaign (by campaign)]** is approved by the central entity, the campaign is made available to the local entity, who can modify it. 親キャンペーンと子キャンペーンの実行は、自動的に同期されます。ローカルエンティティがキャンペーンをオーダーし、キャンペーンに参加するには、インスタンスへのアクセス権が必要です。
+* **[!UICONTROL Collaborative campaign (by target approval)]**:数千の地域団体を対象としたキャンペーンに推奨。 ローカルエンティティは、セントラルエンティティによってあらかじめ定義された連絡先リストを受け取り、キャンペーンのコンテンツに基づいて、どの連絡先を保持するかを Web フォーム上で指定します。ローカルエンティティは、選択した連絡先リストの中から選ばれます。Web へのアクセスが可能であれば、ローカルエンティティはキャンペーンに参加できます。
+* **[!UICONTROL Collaborative campaign (simple)]**:このモードは、以前のバージョンの特定の実行プロセスとの互換性を確保します。
+
+「コラボレーシ [ョンキャンペーンの作成」を参照](../../campaign/using/creating-a-collaborative-campaign.md)。
+
+### キャンペーンパッケージのオーダー {#ordering-campaign-packages}
+
+ローカルエンティティがキャンペーンに登録すると、オーダーが作成されます。オーダーには、キャンペーンのローカライゼーションに関連する情報がすべて格納されます。
+
+## ワークスペース {#workspace}
+
+The list of campaign packages can be accessed from the **Campaigns** universe: click the **[!UICONTROL Campaign packages]** link.
+
+![](assets/mkg_dist_home_local_op.png)
+
+ローカルオペレーターには、ローカルエージェントが使用できるキャンペーンが表示されます。
+
+セントラルエージェントには、キャンペーンパッケージのリストに含まれるすべてのパッケージと、リストを編集するためのリンクが表示されます。
+
+## オペレーターとエンティティ {#operators-and-entities}
+
+Start by specifying the central and local entity operators via the **[!UICONTROL Access management]** folder.
+
+![](assets/s_advuser_mkg_dist_tree.png)
+
+### オペレーター {#operators}
+
+セントラルオペレーターとローカルオペレーターを作成します。
+
+Central operators must belong to the **[!UICONTROL Central management]** operator group or have the **[!UICONTROL CENTRAL]** named right.
+
+Local operators must belong to the **[!UICONTROL Local management]** operator group or have the **[!UICONTROL LOCAL]** named right. また、ローカルオペレーターは、ローカルエンティティに関連付けられている必要があります。
+
+![](assets/s_advuser_mkg_dist_local_create.png)
+
+### 組織エンティティ {#organizational-entities}
+
+組織エンティティを作成するには、ノードをクリ **[!UICONTROL Administration > Access management > Organizational entities]** ックし、エンティティのリ **[!UICONTROL New]** ストの上にあるアイコンをクリックします。
+
+![](assets/s_advuser_mkg_dist_local_list.png)
+
+各組織エンティティには、識別情報（ラベル、内部名、連絡先情報など）とオーダーの承認プロセスに関係するグループの情報が格納されます。これらは、タブのセクシ **[!UICONTROL Notifications and approvals]** ョンで定義され **[!UICONTROL General]** ます。
+
+* パッケージの通知グループを定義します。このグループのオペレーターは、キャンペーンパッケージのリストに新しいパッケージが追加されるか、キャンペーンの提供が開始されるたびに通知を受け取ります。
+* オーダーを承認するレビュー担当者のグループを選択します。このグループは、ローカルエンティティによってオーダーされたキャンペーンの承認を担当します。
+* 最後に、ローカルキャンペーン（ターゲット、コンテンツ、予算など）を承認するレビュー担当者のグループを選択します。このグループは、テンプレートによってはキャンペーンのオーダー時に追加できます。
+
+>[!NOTE]
+>
+>The approval process is presented in the [Approval process](../../campaign/using/creating-a-local-campaign.md#approval-process) section.
+
+## 実装 {#implementation}
+
+分散型マーケティングのキャンペーンは、セントラルエンティティによって作成およびパブリッシュされます。作成されたキャンペーンは、必要に応じて、ローカルとセントラルの両方のエンティティを使用できます。
+
+実装の手順は、使用するキャンペーンパッケージのタイプとローカルエンティティのデリゲーションレベルによって異なります。
+
+### インテグレーターの手順 {#integrator-side}
+
+1. ローカルエンティティを作成します。
+1. ローカルエンティティを管理するオペレーターに受信者をリンクします。
+
+   ![](assets/mkg_dist_local_entity_association.png)
+
+1. ローカルエンティティの権限と参照ルールを指定します。
+1. キャンペーンのローカライゼーションで使用される次の情報を指定します。
+
+   * ターゲットの定義と最大サイズ
+   * コンテンツ定義
+   * 実行スケジュール（コンタクト日と抽出日）。**ローカルオペレーターのみ**
+   * オーダースキーマの拡張（その他の必要なフィールドすべて）
+
+1. Web フォーム（Adobe または外部）を作成します。Web フォームでは、ローカライゼーションパラメーターの表示、ターゲットと予算の評価に加え、コンテンツのプレビューやオーダーの承認を実行できます。
+
+   **協調キャンペーン（ターゲットの承認）**&#x200B;の場合は、各ローカルエンティティの承認を保存するテーブルを作成します。
+
+### 機能管理者の手順 {#functional-administrator-side}
+
+以下の手順は、各キャンペーンの作成時に実行する必要があります。
+
+1. キャンペーンのローカライゼーションに使用されるフィールドで、フォームを更新します。
+1. 適切なキャンペーンテンプレートからインスタンス（協調キャンペーン）を作成するか、キャンペーンテンプレートの複製（ローカルキャンペーン）を作成します。
+1. ローカライゼーションフィールドとフォームの参照を指定して、キャンペーンを設定します。
+1. キャンペーンをパブリッシュします。
+
+### ローカルオペレーターの手順 {#local-operator-side}
+
+以下の手順は、キャンペーンごとに実行する必要があります。
+
+1. 使用可能なキャンペーンパッケージについて通知を受け取ったら、キャンペーンのロケーション（オプション）を指定します。
+1. ターゲットや予算などを評価します。
+1. キャンペーンのコンテンツをプレビューします。
+1. キャンペーンをオーダーします。
+

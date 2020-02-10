@@ -1,0 +1,116 @@
+---
+title: キューブについて
+seo-title: キューブについて
+description: キューブについて
+seo-description: null
+page-status-flag: never-activated
+uuid: 429bd5e9-288a-4c71-9b01-c4c5690f5abe
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: reporting
+content-type: reference
+topic-tags: designing-reports-with-cubes
+discoiquuid: 42db3be8-ee02-4158-adcd-846420a32460
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+
+---
+
+
+# キューブについて{#about-cubes}
+
+データベースに格納されているデータの調査は、**マーケティング分析**&#x200B;モジュールを通じて提供されます。これにより、データの分析と測定、統計の計算、レポートの作成と計算のシンプル化および最適化が可能になります。それに加え、マーケティング分析では、レポートの作成とターゲット母集団の定義も可能です。ターゲット母集団は、一旦特定されると、Adobe Campaign で使用できるリスト（ターゲティングやセグメント化など）に格納されます。
+
+キューブは、配信レポート（配信トラッキング、クリック、開封など）を始めとする、特定の組み込みレポートの生成に使用されます。キューブに基づいたレポートは、500 万ファクト行未満のデータ量に対する標準としてのみ使用できます。
+
+データベースの調査および分析機能を拡張できると同時に、最終ユーザーがレポートやテーブルを設定しやすくなります。計算、測定および統計を処理するレポートやテーブルを作成する際に、既存の（完全に設定された）キューブを選択するだけです。
+
+キューブが作成および設定されると、レポートのクエリボックスや Web アプリケーションで使用されます。キューブをピボットテーブル内で使用して操作できます。
+
+>[!CAUTION]
+>
+>**マーケティング分析**&#x200B;は Adobe Campaign のモジュールです。後述の機能を使用するには、このモジュールをインスタンスにインストールする必要があります。
+
+マーケティング分析モジュールにより、Campaign に以下の機能が加わります。
+
+1. 次のことを考慮したキューブの作成
+
+   * データを集計して作業用テーブルに保存し、必要に応じて指標を事前に計算すること。
+   * レポートやクエリに使用する様々な計算に関係するデータの量を減らすことで、指標の計算時間を大幅に最適化すること。
+   * データへのアクセスを簡素化して、（データが事前に集計されているかどうかによらず）ユーザーが様々なディメンションに応じてデータを操作できるようにすること。
+   For more on this, refer to [Creating indicators](../../reporting/using/creating-indicators.md).
+
+1. 次のことを考慮したピボットテーブルの作成
+
+   * 計算済みのデータや設定済みの測定の調査
+   * 表示するデータとその表示モードの選択
+   * 使用する測定や指標のパーソナライズ
+   * 技術的なバックグラウンドを持たないユーザーへのインタラクティブな分析ツールの提供
+   詳細については、「キューブを使用したデ [ータの調査」を参照してください](../../reporting/using/using-cubes-to-explore-data.md)。
+
+1. キューブで計算および集計したデータを使用したクエリの作成
+1. 母集団の特定とリストでの参照
+
+## 用語 {#terminology}
+
+キューブを扱う場合は、次の概念を理解している必要があります。
+
+* キューブ
+
+   キューブは、多次元情報を表現したもので、エンドユーザーにインタラクティブなデータ分析のための構造を提供します。
+
+* ファクトテーブル／スキーマ
+
+   ファクトテーブル（またはファクトスキーマ）には、分析の基になる生データまたは基本データが含まれています。主に大規模なテーブル（場合によって、リンクされたテーブルを伴う）で、長い計算が必要になる可能性があります。
+
+   例えば、broadLog テーブルや購入テーブルなどがファクトテーブルになります。
+
+* ディメンション
+
+   ディメンションを使用すると、データをグループに分割できます。ディメンションは、一旦作成されると、分析軸として機能します。ほとんどの場合、指定されたディメンションに対して、複数のレベルが定義されます。例えば、時間ディメンションの場合は、月、日、時間、分などのレベルがあります。この一連のレベルはディメンション階層を表し、様々なレベルのデータ分析を可能にします。
+
+* ビニング
+
+   一部のフィールドについては、ビニングを定義して値をグループ化し、情報を読み取りやすくすることができます。ビニングは、レベルに適用されます。
+
+   多数の異なる値を扱う可能性がある場合は、ビニングを定義することをお勧めします。
+
+* 測定
+
+   最も頻度の高い測定は、合計、平均、最大、最小、標準偏差などです。
+
+   測定は計算できます。例えば、オファーの許可率は、オファーの提供回数と承認回数の比率です。
+
+## キューブワークスペース {#cube-workspace}
+
+キューブはノードに格納さ **[!UICONTROL Administration > Configuration > Cubes]** れます。
+
+![](assets/s_advuser_cube_node.png)
+
+キューブを使用する主なコンテキストは次のとおりです。
+
+* Data exports can be carried out directly in a report, designed in the **[!UICONTROL Reports]** universe of the Adobe Campaign platform.
+
+   それには、新しいレポートを作成し、使用するキューブを選択します。
+
+   ![](assets/cube_create_new.png)
+
+   キューブは、作成するレポートの基になるテンプレートのように表示されます。Once you have chosen a template, click **[!UICONTROL Create]** to configure and view the matching report.
+
+   測定の適合化、表示モードの変更またはテーブルの設定をおこなってから、メインボタンを使用してレポートを表示できます。
+
+   ![](assets/cube_display_new.png)
+
+* You can also reference a cube in the **[!UICONTROL Query]** box of a report to use its indicators, as shown below:
+
+   ![](assets/s_advuser_query_using_a_cube.png)
+
+* キューブに基づいたピボットテーブルをレポートの任意のページに挿入することもできます。To do this, reference the cube to be used in the **[!UICONTROL Data]** tab of the pivot table on the concerned page.
+
+   ![](assets/s_advuser_cube_in_report.png)
+
+   詳しくは、「レポート内のデ [ータの詳細」を参照してください](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report)。
+

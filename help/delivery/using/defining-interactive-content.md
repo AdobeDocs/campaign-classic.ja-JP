@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc248ef0eacb802b49295cbb1104a1d866bd355e
+source-git-commit: 1815f9fc6063ec86d6c12ef492396e5afb82b3e1
 
 ---
 
@@ -22,18 +22,17 @@ source-git-commit: bc248ef0eacb802b49295cbb1104a1d866bd355e
 
 Adobe Campaignでは、特定の条件下で動的な電子メールの送信を可能にする、新しい [](https://amp.dev/about/email/) Email用インタラクティブAMP形式を試すことができます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* この機能は、Adobe Campaignのベータ版機能です。
->* 電子メール用AMPは、開発者が動的でインタラクティブな電子メールを作成できる新しいオープンソースフォーマットです。 現在、2つの電子メールプロバイダーがサポートしています。GmailとOutlook。
->
->
-その結果、次の操作のみが可能になります。
->* 適切に設定された特定のGmailアドレスまたはOutlookアドレスにAMP電子メールを配信するテスト。
->* Googleに登録した後でAMP電子メールを任意のGmailアドレスに、Microsoftに登録した後でOutlookアドレスに配信します。
->
->
-詳しくは、AMP [電子メールのターゲット設定を参照してくださ](#targeting-amp-email)い。
+>* 電子メール用AMPは、開発者が動的でインタラクティブな電子メールを作成できる新しいオープンソースフォーマットです。 現在、いくつかの電子メールプロバイダーでサポートされています。Gmail、Outlook、Mail.ru。
+
+
+現在、次の操作のみ可能です。
+* 適切に設定された特定のアドレスにAMP電子メールを配信するテスト。
+* 対応するプロバイダーに登録した後、AMP電子メールをGmail、OutlookまたはMail.ruアドレスに配信します。
+
+AMP電子メールのテストと送信について詳しくは、AMP電子メールのターゲ [ット設定を参照してください](#targeting-amp-email)。
 
 この機能は、Adobe Campaignの専用パッケージを通じて使用できます。 このパッケージを使用するには、このパッケージをインストールする必要があります。 完了したら、パッケージを考慮するためにサーバーを再起動します。
 
@@ -59,21 +58,17 @@ Eメール **用AMPは** 、新しい形式で、メッセージ内にAMPコン�
 Adobe CampaignでAMP電子メールを正常にテストして送信するには、次の手順に従います。
 1. パッケージをインスト **[!UICONTROL AMP support (Beta)]** ールします。 詳しくは、Campaign標 [準パッケージのインストールを参照してくださ](../../installation/using/installing-campaign-standard-packages.md)い。
 1. 電子メールを作成し、Adobe Campaign内でAMPコンテンツを作成します。 詳しくは、 [Adobe CampaignでAMP電子メールコンテンツを作成するを参照してください](#build-amp-email-content)。
-1. AMP形式をサポートする電子メールプロバイダーからのすべての配信要件に従っていることを確認します。
+1. AMP形式をサポートする電子メールプロバイダーからのすべての配信要件に従っていることを確認します。 電子メー [ル配信の要件については、AMPを参照してください](#amp-for-email-delivery-requirements)。
 
    >[!NOTE]
    >
-   >電子メール用AMPは、テスト用にベータ版機能として使用できます。 現在、この形式のテストをサポートしている電子メールプロバイダーは2つだけです（GmailとOutlook）。
+   >電子メール用AMPは、テスト用にベータ版機能として使用できます。 現在、この形式のテストをサポートしている電子メールプロバイダーは少数です。
 
-   電子メー [ル配信の要件については、AMPを参照してください](#amp-for-email-delivery-requirements)。
-
-1. ターゲットを定義する場合は、AMP形式を表示できる受信者を選択していることを確認してください。
+1. ターゲットを定義する場合は、AMP形式を表示できる受信者を選択していることを確認してください。 詳しくは、AMP [電子メールのターゲット設定を参照してくださ](#targeting-amp-email)い。
 
    >[!NOTE]
    >
    >現在、AMPベータプログラムに参加する電子メールプロバイダーに対して、適切に設定された、または登録後に、特定の電子メールアドレスに対するAMP電子メールの配信をテストすることができます。
-
-   詳しくは、AMP [電子メールのターゲット設定を参照してくださ](#targeting-amp-email)い。
 
 1. 普段通りにメールを送ってください。 AMP電子メ [ールの送信を参照してください](#sending-amp-email)。
 
@@ -81,7 +76,7 @@ Adobe CampaignでAMP電子メールを正常にテストして送信するには
 
 AMP形式を使用して電子メールを作成するには、次の手順に従います。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >電子メールの要件と仕様については、 [AMP開発者ドキュメントで詳しく説明されているAMPに従ってください](https://amp.dev/documentation/guides-and-tutorials/learn/email_fundamentals/?format=email)。 また、電子メールのベストプラクティ [スについてAMPを参照することもできます](https://amp.dev/documentation/guides-and-tutorials/develop/amp_email_best_practices/?format=email)。
 
@@ -141,7 +136,7 @@ AMP形式を使用して電子メールを作成するには、次の手順に�
 
 1. またはタブに切り **[!UICONTROL HTML content]** 替え **[!UICONTROL Text content]** て、これら2つの形式の少なくとも1つに対してコンテンツを定義します。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >電子メールにAMPコンテンツに加えてHTMLまたはプレーンテキストバージョンが含まれていない場合、その電子メールは送信できません。
 
@@ -149,12 +144,12 @@ AMP形式を使用して電子メールを作成するには、次の手順に�
 
 Adobe CampaignでAMPコンテンツを作成する場合、動的な電子メールが配信されるための条件（受信者の電子メールプロバイダーに固有）を満たす必要があります。
 
-現在、2つの電子メールプロバイダーがこの形式のテストをサポートしています。GmailとOutlook。
+現在、3つの電子メールプロバイダーがこの形式のテストをサポートしています。Gmail、Outlook、Mail.ru。
 
-GmailアカウントでAMP形式で配信をテストするために必要な手順と仕様は、対応する [Gmail開発者用ドキュメントと](https://developers.google.com/gmail/ampemail?) Outlook開発者用ドキュメ [ントに詳しく記載されています](https://docs.microsoft.com/en-gb/outlook/amphtml/)。
+GmailアカウントでAMP形式で配信をテストするために必要な手順と仕様は、対応する [Gmail](https://developers.google.com/gmail/ampemail?)、 [Outlook、 ](https://docs.microsoft.com/en-gb/outlook/amphtml/) Mail.ruの開発者ドキュメントに詳しく説明されています [](https://postmaster.mail.ru/amp) 。
 
 特に、以下の要件を満たす必要があります。
-* [Gmailおよび](https://developers.google.com/gmail/ampemail/security-requirements) Outlookに固有のAMPセキュリティ要件に従います [](https://docs.microsoft.com/en-gb/outlook/amphtml/security-requirements)。
+* [Gmail](https://developers.google.com/gmail/ampemail/security-requirements)、 [Outlook](https://docs.microsoft.com/en-gb/outlook/amphtml/security-requirements) 、 [Mail.ruに固有のAMPセキュリティ要件に従います](https://postmaster.mail.ru/amp/?lang=en#howto)。
 * AMP MIMEパートには、有効なAMPドキュメントが含まれ [ている必要がありま](https://amp.dev/documentation/guides-and-tutorials/learn/validation-workflow/validate_emails/?format=email)す。
 * AMP MIMEパートは100 KBより小さい必要があります。
 
@@ -173,18 +168,19 @@ Adobe Campaignから選択した電子メールアドレスへの動的なメッ
 
 >[!NOTE]
 >
->現在、AMP形式のテストは、GmailとOutlookでのみサポートされています。
+>現在、AMP形式のテストは、Gmail、Outlook、およびMail.ruでのみサポートされています。
 
-その前に、対象とするGmailおよびOutlookアカウント用にAdobe Campaignから配信する送信者のアドレスをホワイトリストに登録する必要があります。
+GmailおよびOutlookの場合、まず、対象とするGmailおよびOutlookアカウント用にAdobe Campaignから配信するために使用する送信者のアドレスをホワイトリストに登録する必要があります。
 
 手順は次のとおりです。
 1. 動的な電子メールを有効にするオプションが、関連する電子メールプロバイダーに対してオンになっていることを確認します。
 1. 配信のフィールドに表示された送信者のアドレスをコピーし、 **[!UICONTROL From]** 電子メールプロバイダーのアカウント設定の適切なセクションに貼り付けます。
 
-詳しくは、 [Gmail開発者用ドキュメントおよび](https://developers.google.com/gmail/ampemail/testing-dynamic-email) Outlook開発者用ドキュメント [](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#individual-mailbox-registration)を参照してください。
-
+詳しくは、 [Gmail](https://developers.google.com/gmail/ampemail/testing-dynamic-email) and [](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#individual-mailbox-registration) Outlook開発者向けドキュメントを参照してください。
 
 ![](assets/amp_from_field.png)
+
+Mail.ruアドレスへのAMP電子メールの送信をテストするには、 [Mail.ru開発者ドキュメント](https://postmaster.mail.ru/amp/?lang=en#howto) (**If you are a user** section)の手順に従います。
 
 ### 電子メールプロバイダーに登録してAMP電子メールを配信する {#delivering-amp-emails-by-registering}
 
@@ -192,19 +188,19 @@ Adobe Campaignから選択した電子メールアドレスへの動的なメッ
 
 >[!NOTE]
 >
->現在、AMP形式はGmailとOutlookでのみサポートされています。
+>現在、AMP形式はGmail、Outlook、およびMail.ruでのみサポートされています。
 
-いくつかのアドレスでテストが完了すると、AMP電子メールを任意のGmailまたはOutlookアドレスに送信できます。 これを行うには、GoogleまたはMicrosoftに丁重に登録し、彼らの回答を待つ必要があります。
+いくつかのアドレスでテストが完了すると、AMP電子メールを任意のGmailまたはOutlookアドレスに送信できます。 これを行うには、GoogleまたはMicrosoftに丁重に登録し、彼らの回答を待つ必要があります。 Gmailおよび [Outlook開発者向けドキュメントに記載されている手順に従います](https://developers.google.com/gmail/ampemail/register)[](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#global-registration) 。 登録が完了すると、許可された送信者になります。
 
-Gmail開発者用ドキュメントおよび [Outlook開発者用ドキュメント](https://developers.google.com/gmail/ampemail/register)[に記載されている手順に従います](https://docs.microsoft.com/en-gb/outlook/amphtml/register-outlook#global-registration)。 登録が完了すると、許可された送信者になります。
+Mail.ruアドレスにAMP電子メールを送信するには、 [Mail.ru開発者ドキュメント](https://postmaster.mail.ru/amp/?lang=en#howto) (**Email senderの場合** )に記載されている要件と手順に従います。
 
 ## AMP電子メールの送信 {#sending-amp-email}
 
 AMPコンテンツとフォールバックの準備が整い、互換性のあるターゲットを定義したら、通常どおりに電子メールを送信できます。
 
-現在、特定の条件下でAMP形式をサポートしているのはGmailとOutlookのみです。 他の電子メールプロバイダーからのアドレスをターゲットにすることはできますが、電子メールのHTMLまたはプレーンテキストバージョンを受け取ります。
+現在、特定の条件下でAMP形式をサポートしているのは、Gmail、Outlook、およびMail.ruのみです。 他の電子メールプロバイダーからのアドレスをターゲットにすることはできますが、電子メールのHTMLまたはプレーンテキストバージョンを受け取ります。
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >電子メールにAMPコンテンツに加えてHTMLまたはプレーンテキストバージョンが含まれていない場合、その電子メールは送信できません。
 

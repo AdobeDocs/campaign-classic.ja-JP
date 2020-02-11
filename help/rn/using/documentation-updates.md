@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f7f59e2341d7b68b8b28869efc5bfb04cd5ba14
+source-git-commit: c7521a076418d8f162d241cd883d10b1ed543d35
 
 ---
 
@@ -25,6 +25,10 @@ Adobe Campaign Classicドキュメントの最新のすべての更新につい�
 このページには、Adobe Campaign Classicの各リリースに関するすべての新機能とドキュメントの更新の一覧が記載されています。
 
 また、 [Adobe Campaign Classicリリースノートを参照することもできます](../../rn/using/latest-release.md)。
+
+## February 2020 {#february-2020}
+
+3つの電子メールプロバイダー(Gmail、Outlook、Mail.ru)によって電子メール用のAMPがサポートされるようになりました。AMPを使用してインタラクティブコンテンツを定義する方法を説明する節が更新されました。 [詳細を表示](../../delivery/using/defining-interactive-content.md)
 
 ## 2020 年 1 月{#january-2020}
 

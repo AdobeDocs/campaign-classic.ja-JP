@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3a4eb0cf49b81d720fa3925d48cd250e0c3fde32
+source-git-commit: 0291f464c2b4db51e1e56cefe83aa9e751e680a9
 
 ---
 
@@ -78,7 +78,7 @@ DKIM は、Yahoo! の DomainKeys と Cisco の Identified Internet Mail とい�
 
 DKIM が **DomainKeys** 認証方式の後継となりました。
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >ホストインストールまたはハイブリッドインストールの場合、拡張MTAにアップグレードした場合、DKIM電子メール認証の署名は拡張MTAによって行われます。 ネイティブCampaign MTAによるDKIM署名は、拡張MTAアップグレードの一 **[!UICONTROL Domain management]** 環として、テーブル内で無効になります。
 >

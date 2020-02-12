@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e795cd352aed2f2fc51bf52342d611913265d590
+source-git-commit: 03cba38dc2c9e10396feddc38cca6a6073e932d5
 
 ---
 
@@ -41,7 +41,16 @@ source-git-commit: e795cd352aed2f2fc51bf52342d611913265d590
 
 ここをク [リックし](../../rn/using/release--19-1.md#release-19-1-4-build-9032) 、最後の安 **定ビルド** (GA)を表示します。
 
-## ![](assets/blue2.png) リリース19.2 — ビルド9080 {#release-19-2-build-9080}
+## ![](assets/orange2.png) リリース19.2.2 — ビルド9081 {#release-19-2-2-build-9081}
+
+2020年2月7日_
+
+**強化点**
+
+* SSL証明書の導入によるWindowsサーバーでのユーザー接続の失敗による問題を修正しました。 （NEO-20629）
+* バージョン情報メニューに誤ったバージョンタグ番号が表示される問題を修 **正し** ました。
+
+## ![](assets/orange2.png) リリース19.2 — ビルド9080 {#release-19-2-build-9080}
 
 _2019年12月2日_
 

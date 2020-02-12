@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03cba38dc2c9e10396feddc38cca6a6073e932d5
+source-git-commit: 37946a63a0cd0312de31b26dd4d115895d959638
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 03cba38dc2c9e10396feddc38cca6a6073e932d5
 
 ここをク [リックし](../../rn/using/release--19-1.md#release-19-1-4-build-9032) 、最後の安 **定ビルド** (GA)を表示します。
 
-## ![](assets/orange2.png) リリース19.2.2 — ビルド9081 {#release-19-2-2-build-9081}
+## ![](assets/orange2.png) リリース19.2.3 — ビルド9081 {#release-19-2-2-build-9081}
 
 2020年2月7日_
 

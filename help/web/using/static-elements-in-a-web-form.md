@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 ---
 
@@ -64,7 +64,7 @@ HTML エディターを使用すると、コンテンツを入力して、フォ
 ![](assets/s_ncs_admin_survey_add_link.png)
 
 * The **[!UICONTROL Label]** is the content of the hypertext link as it will be displayed on the form page.
-* は **[!UICONTROL URL]** 目的のアドレスです。例：https://www.adobe.com [(Webサイトの場合](https://www.adobe.com) )またはmailto:info@adobe.com [(メッセージを送信する場合](mailto:info@adobe.com) )。
+* は **[!UICONTROL URL]** 目的のアドレスです。例：https://www.adobe.com [(Webサイトの場合](https://www.adobe.com) )またはinfo@adobe.com [(メッセージを送信する場合](mailto:info@adobe.com) )。
 * The **[!UICONTROL Window]** field lets you select the display mode for the link in the case of a site. リンクを新しいウィンドウで開いたり、現在のウィンドウで開いたり、別のウィンドウで開いたりできます。
 * 次に示すように、ツールチップを追加できます。
 

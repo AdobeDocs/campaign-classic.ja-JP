@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dcefad5aade740c8f5e5a7a7f6602b4ee0bf5f8d
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: dcefad5aade740c8f5e5a7a7f6602b4ee0bf5f8d
 
 Social Marketingでは、様々なFacebookページやTwitterアカウントに、受信者のプロファイルに対して配信を送信できます。 Facebookでは、配信コンテンツはページウォール上のパブリケーションの形式で表示され、すべてのページファンのニュースフィードにも表示されます。 Twitterでは、配信コンテンツはツイートとして表示され、アカウントのフォロワーのホームページに表示されます。 また、ダイレクトメッセージを収集したアカウントのフォロワーに送信することもできます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Adobe Campaignは、メッセージ配信に関してFacebookやTwitterから伝えられたサービス規約に従うように要求します。
 >

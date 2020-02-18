@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
+source-git-commit: c25e2a4f2280cdcc61e0522f8235149410b5dacf
 
 ---
 
@@ -32,13 +32,12 @@ Adobe Campaignの様々なコンポーネントとの接続が可能な限り、
 
 ネイティブクライアントは、Adobe Campaignアプリケーションサーバーにインストールする必要があります。
 
-ODBCドライバ設定パネルの **SQL Native Client** （Microsoft SQL Server 2005クライアントの場合）または **SQL Server Native Client 10.0** （Microsoft SQL Server 2008および2008 R2クライアントの場合）で、サーバ上のネイティブクライアントを確認できます。また **はSQL Server Native Client 11.0** （Microsoft SQL Server 2012クライアント用）。
+SQL Server Native Client 10.0 **（Microsoft SQL Server 2008および2008 R2クライアントの場合）または** SQL Server Native Client 11.0 **** （Microsoft SQL Server 20の場合）で、ODBCドライバー設定パネルを使用して、サーバー上のネイティブクライアントを確認できます12、2014、2016、2017の各クライアント)。
 
 次のアクセスDLLが必要です：
 
-* **microsoft SQL Server 2005クライアント用のsqlncli.dll** 、
 * **microsoft SQL Server 2008および** 2008 R2クライアントの場合はsqlncli10.dll、
-* **microsoft SQL Server 2012クライアントの場合は** 、sqlncli11.dllを使用します。
+* **microsoft SQL Server 2012** 、2014、2016および2017クライアント用のsqlncli11.dll。
 
    アクセスDLLは、MicrosoftのWebサイトで見つかります。
 

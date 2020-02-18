@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3946d97e786423bf831d17e486186660db403709
+source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
 
 ---
 
@@ -103,7 +103,7 @@ Adobe ID を使用して Adobe Campaign に直接接続することもできま�
 
 >[!NOTE]
 >
->The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. 詳細については、「フェデレーテッドデータア [クセスについて](../../platform/using/accessing-an-external-database.md#about-federated-data-access)」を参照してください。
+>The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. 詳細については、「フェデレーテッドデータア [クセスについて](../../platform/using/about-fda.md)」を参照してください。
 
 ### オペレーターのタイムゾーン {#time-zone-of-the-operator}
 

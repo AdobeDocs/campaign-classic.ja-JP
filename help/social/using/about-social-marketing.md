@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dcefad5aade740c8f5e5a7a7f6602b4ee0bf5f8d
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: dcefad5aade740c8f5e5a7a7f6602b4ee0bf5f8d
 
    また、Adobe Campaign Social Marketingでは、Facebookを使用して新しい連絡先を簡単に取得できます。ユーザーに連絡し、プロファイル情報を共有するかどうかを尋ねます。 ユーザーが受け入れた場合、Adobe Campaignはデータを自動的に回復します。これにより、ターゲット設定キャンペーンを実行し、可能であれば、クロスチャネル戦略を導入できます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >FacebookとTwitterは、画面とプロセスを定期的に変更します。 このドキュメントは適宜更新されます。
 >

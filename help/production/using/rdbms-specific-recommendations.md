@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9662e88578747a519df2e68e5a7d7987cc3ffdd4
+source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 ---
 
@@ -368,7 +368,7 @@ function sqlGetMemo(strSql)
 
 >[!NOTE]
 >
->Microsoft SQL serverの場合は、このページで詳しく説明するメンテナンスプラン [を使用できます](http://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html)。
+>Microsoft SQL serverの場合は、このページで詳しく説明するメンテナンスプラン [を使用できます](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html)。
 
 以下の例は、Microsoft SQL Server 2005に関するものです。 別のバージョンを使用している場合は、データベース管理者に問い合わせて、メンテナンス手順を確認してください。
 

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f5062117b5cefbdd2570018f6803f114c14a3fae
+source-git-commit: a37daa8e31afd3d2ab7d5b70bd8ae02c59ce9ee0
 
 ---
 
@@ -210,7 +210,7 @@ source-git-commit: f5062117b5cefbdd2570018f6803f114c14a3fae
    <td> 受信ボックスレンダリング (IR)<br /> </td> 
    <td> 様々な状況で送信されたメッセージをプレビューし、受信可能なメッセージを主要なデスクトップおよびアプリケーションで互換性を確認できます。 リトマスアカウントが必要です。<br /> </td> 
    <td> マーケティング<br /> </td> 
-   <td> オプション、 <a href="../../delivery/using/about-deliverability.md#inbox-rendering">詳細情報</a> </td> 
+   <td> オプション、 <a href="../../delivery/using/inbox-rendering.md">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> セントラル / ローカルマーケティング (分散型マーケティング)<br /> </td> 
@@ -250,9 +250,9 @@ source-git-commit: f5062117b5cefbdd2570018f6803f114c14a3fae
   </tr> 
   <tr> 
    <td> プライバシーデータ保護規則<br /> </td> 
-   <td> Campaign ClassicでプロジェクトがGDPRに準拠するよう支援する追加機能が含まれています。<br /> </td> 
+   <td> Campaign Classicのプライバシーコンプライアンスに役立つ追加機能が含まれています。<br /> </td> 
    <td> すべて</td> 
-   <td> <a href="https://helpx.adobe.com/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html">詳細情報</a> </td> 
+   <td> <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> ミッドソーシング転送 <br /> </td> 

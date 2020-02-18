@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+source-git-commit: ac3a0ca00591943d79563e9fd4d85d71fa0ba81a
 
 ---
 
@@ -26,9 +26,9 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 事前に Adobe Target で次のアクションを実行する必要があります。
 
-* 1 つ以上の[リダイレクションオファー](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Redirect_Offer.html)を作成します。使用する画像の URL をそこで指定します。
+* 1 つ以上の[リダイレクションオファー](https://docs.adobe.com/help/en/target/using/experiences/offers/offer-redirect.html)を作成します。使用する画像の URL をそこで指定します。
 * 1 つ以上の[オーディエンス](https://marketing.adobe.com/resources/help/en_US/target/target/t_create-audience.html)を作成します。アクティビティのターゲットをそこで定義します。
-* [フォームベースのエクスペリエンス作成ツール](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_an_A_B_Test.html)を作成します。そこで、エクスペリエンス作成ツールでローボックスを 1 つ選択し、作成したリダイレクションオファーの数に応じて、複数のエクスペリエンスを指定します。エクスペリエンスごとに、作成したリダイレクションオファーの 1 つを選択する必要があります。
+* [フォームベースのエクスペリエンス作成ツール](https://docs.adobe.com/content/help/en/target/using/activities/abtest/create/test-create-ab.html)を作成します。そこで、エクスペリエンス作成ツールでローボックスを 1 つ選択し、作成したリダイレクションオファーの数に応じて、複数のエクスペリエンスを指定します。エクスペリエンスごとに、作成したリダイレクションオファーの 1 つを選択する必要があります。
 
    これらのエクスペリエンスを指定するには、Adobe Campaign からの情報を使用して、セグメントを作成することができます。オファーの選択ルールで Adobe Campaign からのデータを使用するには、Adobe Target のローボックスでデータを指定する必要があります。
 

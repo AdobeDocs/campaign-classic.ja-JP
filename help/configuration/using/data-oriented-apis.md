@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9b3508fee3b441752648258b1bc9d5d2b919791
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -392,7 +392,7 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
 
 パラメーターのバインドを避けるには、「noSqlBind」属性に値「true」を入力する必要があります。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >クエリに「order-by」または「group-by」命令が含まれる場合、データベースエンジンは値を「バインド」できません。 @noSqlBind=&quot;true&quot;属性は、クエリの「select」命令または「where」命令に配置する必要があります。
 

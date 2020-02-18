@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14690ab1435f291679e643ee4240ae9df7e86356
+source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 
 ---
 
@@ -111,7 +111,7 @@ source-git-commit: 14690ab1435f291679e643ee4240ae9df7e86356
     <ul> 
      <li> <p>アクセス権限：データ主体は、データ管理者により取得された自分の個人データのコピーを受け取ることができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。</p> </li> 
      <li> <p>削除権限：データ主体は、データ管理者により取得された自分の個人データを消去することができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。</p> </li> 
-    </ul> 詳しくは、<a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html">詳細ドキュメント</a>を参照してください。<br /> </td> 
+    </ul> 詳しくは、<a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> アクティブなプロファイル<br /> </td> 
@@ -119,7 +119,7 @@ source-git-commit: 14690ab1435f291679e643ee4240ae9df7e86356
   </tr> 
   <tr> 
    <td> Android プッシュコネクタの機能強化<br /> </td> 
-   <td> <p>Android コネクタが高スループットに対応するように強化されました。 </p> <p>詳しくは、<a href="../../delivery/using/setting-up-mobile-app-channel.md#android-connectors">詳細ドキュメント</a>を参照してください。</p> </td> 
+   <td> <p>Android コネクタが高スループットに対応するように強化されました。 </p> <p>詳しくは、<a href="../../delivery/using/configuring-the-mobile-application.md">詳細ドキュメント</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,7 +141,7 @@ source-git-commit: 14690ab1435f291679e643ee4240ae9df7e86356
 * コマンドラインを使ってパッケージをインポートする新しいモードが使用可能になり、循環依存関係（サイズの大きいパッケージでは推奨されません）に対応できるようになりました。詳しくは、「技術面の変更点」の節を参照してください。（NEO-8979）
 * Teradata で大量のデータを読み込む際のパフォーマンスが向上し、処理されたデータの適切な値がログに表示されない問題が解決されました。（NEO-10429）
 * Audience Manager からのオーディエンスのインポートが分割ファイルで正しく機能するようになりました。これまでは、importSharedAudience テクニカルワークフローによってセグメントの最後のファイルのみがインポートされていました。（NEO-10156）
-* Windows で、Campaign サーバーのデフォルトインストールパスが変更されました。64ビットバージョンのセットアップを起動すると、デフォルトのインストールパスが次のようになりました。 **C:Program FilesC:Program Files(x86)AdobeAdobe Campaign Classic v7** ( **C:Program Filesの代わりにAdobe Campaign Classic v7)**
+* Windows で、Campaign サーバーのデフォルトインストールパスが変更されました。64ビットバージョンのセットアップを起動すると、デフォルトのインストールパスが次のようになりました。C:\Program Files\Adobe\Adobe Campaign Classic v7 **(x86)****\Adobe\Adobe Campaign Classic v7の代わりにC:\Program Files**
 * デフォルトの MX ルールが強化され、含まれるドメイン数が増えると共にスループットが最適化されています。
 * デプロイウィザードの SOAP 呼び出しに対する強制的なアクセス制限（xtk:serverOptions#SaveOptions）。
 * 古い weka.jar ライブラリが削除され、OpenSSL ライブラリがセキュリティの最適化のために更新されました。

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaignアプリケーションサーバーは、ますます多様化し
 
 Adobe Campaign APIは、アプリケーション内のJavaScriptと、その外部のSOAPで使用されます。 これらは、強化可能な汎用関数のライブラリを構成しています。 詳しくは、「SOAPメソッドの実装」を [参照してください](../../configuration/using/implementing-soap-methods.md)。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >1日あたりの認定エンジンコール数は、ライセンス契約によって異なります。 詳しくは、[このページ](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html)を参照してください。\
 >詳細な説明を含むすべてのAPIのリストは、この専用ドキュメントで [入手できます](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html)。
@@ -154,7 +154,7 @@ SOAPメ `<soap-env:fault>` ッセージの本文内の要素は、Webサービ�
 
 サービス呼び出しの成功または失敗は、要素が検証されると `<faultcode>` 識別されます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >すべてのAdobe Campaign webサービスはエラーを処理します。 したがって、返されたエラーを処理するために各呼び出しをテストすることを強くお勧めします。
 

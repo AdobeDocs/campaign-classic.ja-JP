@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
 
@@ -68,4 +68,4 @@ source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
 
 「 **Federated Data Access - FDA** 」オプションを使用すると、外部データベースに保存されているデータにアクセスできます。
 
-外部データベースのデータにアクセスするためにスキーマに対して実行する設定については、このページで [詳しく説明しま](../../platform/using/accessing-an-external-database.md#creating-the-data-schema)す。
+外部データベースのデータにアクセスするためにスキーマに対して実行する設定については、このページで [詳しく説明しま](../../platform/using/creating-data-schema.md)す。

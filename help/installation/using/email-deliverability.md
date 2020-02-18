@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0291f464c2b4db51e1e56cefe83aa9e751e680a9
+source-git-commit: 21d808695bfde2fb3220964c066558ad30952443
 
 ---
 
@@ -28,7 +28,8 @@ source-git-commit: 0291f464c2b4db51e1e56cefe83aa9e751e680a9
 
 >[!NOTE]
 >
->一部の設定は、アドビがホストするデプロイメントに対してのみ実行できます。 例えば、サーバーおよびインスタンスの設定ファイルにアクセスする場合です。 各デプロイメントの詳細については、「ホスティングモデル」の節 [または](../../installation/using/hosting-models.md) 、この記事を参照 [してください](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)。
+>一部の設定は、アドビがホストするデプロイメントに対してのみ実行できます。 例えば、サーバーおよびインスタンスの設定ファイルにアクセスする場合です。 各デプロイメントの詳細については、「ホスティングモデル」の節 [または](../../installation/using/hosting-models.md) 、この記事を参照 [してください](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)。\
+>Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) that presents the concepts and best practices related to deliverability.
 
 配信品質に関連する概念とベストプラクティスについて詳しくは、この節を参照してく [ださい](../../delivery/using/about-deliverability.md)。
 
@@ -379,19 +380,24 @@ Adobe Campaignプラットフォーム（データベースを含む）を構成
 
 * **アドレス**:使用するMTAホストマシンのIPアドレス。
 * **heloHost**:この識別子は、SMTPサーバーが認識するIPアドレスを表します。
+
 * **publicId**:この情報は、NATルーターの背後にある複数のAdobe CampaignマタによってIPアドレスが共 **有される** 場合に役立ちます。 統計サーバは、この識別子を用いて、この始点と対象サーバとの間の接続と送信の統計を記憶する。
 * **重み**:アドレスの相対的な使用頻度を定義できます。 デフォルトでは、すべてのアドレスの重みは1に等しくなります。
 
-   前の例では、通常の条件で、アドレスは次のように配布されます。
+>[!NOTE]
+>
+>serverConf.xmlファイルで、1つのIPが一意の識別子(public_id)を持つ単一のhelohostに対応していることを確認する必要があります。 複数のヘロホストにマップできないため、配信のスロットリングの問題が発生する可能性があります。
 
-   * &quot;1&quot;: 5 / (5+5+1) = 45%
-   * &quot;2&quot;: 5 / (5+5+1) = 45%
-   * &quot;3&quot;: 1 / (5+5+1) = 10%
-   例えば、最初のアドレスを特定のMXに対して使用できない場合、次のようなメッセージが送信されます。
+前の例では、通常の条件で、アドレスは次のように配布されます。
 
-   * &quot;2&quot;: 5 / (5+1) = 83%
-   * &quot;3&quot;: 1 / (5+1) = 17%
+    * &quot;1&quot;: 5 / (5+5+1) = 45%
+    * &quot;2&quot;: 5 / (5+5+1) = 45%
+    * &quot;3&quot;: 1 / (5+5+1) = 10%
 
+例えば、最初のアドレスを特定のMXに対して使用できない場合、次のようなメッセージが送信されます。
+
+    * &quot;2&quot;: 5 / (5+1) = 83%
+    * &quot;3&quot;: 1 / (5+1) = 17%
 
 * **includeDomains**:このIPアドレスは、特定のドメインに属する電子メールに対して予約できます。 1つ以上のワイルドカード(&#39;*&#39;)を含むことができるマスクのリストです。 属性を指定しない場合、すべてのドメインでこのIPアドレスを使用できます。
 

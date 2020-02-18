@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a5072ba55690d4d88c12ac7ff647f163deddbf32
+source-git-commit: c25e2a4f2280cdcc61e0522f8235149410b5dacf
 
 ---
 
@@ -41,7 +41,6 @@ Adobe Campaignには、展開の寸法を記入するための2つのセット�
 パワーブースターとパワークラスタのオプションは、次のアプリケーションで使用できます。
 
 * キャンペーン
-* リード
 * 配信
 * Message Center
 

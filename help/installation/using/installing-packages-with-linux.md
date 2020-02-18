@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8ad1a83d40f5a841b01aaeb17fe271b44f2480dd
+source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
 
 ---
 
@@ -30,9 +30,7 @@ Adobe Campaignには、これらの各バージョンに対して1つのパッ�
 
 * ファイルを/usr/local/ **neolaneにコピーします。**
 * Adobe Campaign linuxアカウント（および関連するグループ）を作成します。このアカウントは、 **/usr/local/neolaneをホームディレクトリとして** 作成します。
-* 起動時に使用する自動 **スクリプト/etc/init.d** /nlserver6を作成する
-
-このパッケージはGCC 4を使ってコンパイルされています。これは、特定のバージョンのライブラリとの依存関係を意味し、インストールプラットフォームでは必ずしも利用できないことを意味します。
+* 起動時に使用する自動 **スクリプト/etc/init.d/nlserver6** を作成するか、システムユニット（20.1以降）を作成します。
 
 >[!NOTE]
 >
@@ -76,72 +74,7 @@ CentOSでは、bc.x86_64パッケージをインストールする必要があ�
 yum install bc.x86_64
 ```
 
-**SLES 11 SP2へのインストールの例：**
-
-* 無効にする **[!UICONTROL libboost_regex]** :
-
-   ```
-   zypper remove libboost_regex1_36_0
-   ```
-
-* Oracle javaまたはOpenJDKをインストールします(詳しくは、 [Java開発キット — JDK](../../installation/using/application-server.md#java-development-kit---jdk)を参照)。
-
-   ```
-   ./jdk-6uxx-linux-x64-rpm.bin
-   ```
-
-* OpenSSL 1.0をインストールします(詳しくは、「 [Libraries](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#libraries)」を参照)。
-
-   ```
-   yast -i libopenssl1_0_0-1.0.0c-18.42.1.x86_64.rpm
-   ```
-
-   OpenSSLライブラリのファイルを指すエイリアスを作成する必要があります。
-
-   ```
-   ln -s /lib64/libssl.so.1.0.0 /lib64/libssl.so.10
-   ln -s /lib64/libcrypto.so.1.0.0 /lib64/libcrypto.so.10
-   ```
-
-* libicu 4.2をインストールします(詳しくは、 [Librariesを参照](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#libraries))。
-
-   ```
-   yast -i libicu-4.2-7.3.1.x86_64.rpm
-   ```
-
-* Adobe Campaignサーバーのパッケージをインストールします。
-
-   ```
-   yast -i nlserver6-v7-xxx-x.x86_64.rpm
-   ```
-
 ## APTに基づく配布(Debian) {#distribution-based-on-apt--debian-}
-
-### Debian 32ビット {#in-debian-32-bits}
-
-Debian 32ビットオペレーティングシステムにAdobe Campaign 32ビットをインストールするには、次の手順を適用します。
-
-1. 最初に、2つのAdobe Campaignパッケージを入手する必要があります。
-
-   * **nlserver6-v7-XXXX-linux-2.6-intel.deb** for v7.
-   * **v6.1の場合は、nlserver6-XXXX-linux-2.6-intel.deb** 。
-   **XXXXは** 、Adobe Campaignのビルド番号です。
-
-   >[!CAUTION]
-   >
-   >この節のコマンドサンプルで、お使いのバージョンのAdobe Campaignの正しいファイル名を使用してください。
-
-1. インストールするには、 **root** として接続し、次のコマンドを実行します( **XXXX** はAdobe Campaignビルド番号です)。
-
-   ```
-   dpkg -i nlserver6-v7-XXXX-linux-2.6-intel.deb
-   ```
-
-   依存関係がない場合は、次のコマンドを実行します。
-
-   ```
-   apt-get install -f
-   ```
 
 ### Debian 64ビット {#in-debian-64-bits}
 
@@ -163,15 +96,21 @@ Debian 64ビットオペレーティングシステムにAdobe Campaign 64ビッ
    dpkg -i nlserver6-v7-XXXX-linux-2.6-amd64.deb
    ```
 
-**Debian 7/8の詳細**
-
-Debian 7オペレーティングシステムにAdobe Campaignをインストールする場合は、次の点を考慮してください。
-
-* OpenSSLは事前にインストールする必要があります。
-* 次のコマンドを使用して、libicu48 (Debian 7)、libicu52 (Debian 8)、libicu57 (Debian 9)、libprotobuf9 (Debian8)、およびlibc-ares2をインストールします。
+   依存関係がない場合は、次のコマンドを実行します。
 
    ```
-   aptitude install libicu48 (Debian 7) libicu52 (Debian 8) libicu57 (Debian 9)
+   apt-get install -f
+   ```
+
+**Debian 8/9の詳細**
+
+Debian 8/9オペレーティングシステムにAdobe Campaignをインストールする場合は、次の点を考慮してください。
+
+* OpenSSLは事前にインストールする必要があります。
+* 次のコマンドを使用して、libicu52 (Debian 8)またはlibicu57 (Debian 9)、libprotobuf9 (Debian8)およびlibc-ares2をインストールします。
+
+   ```
+   aptitude install libicu52 (Debian 8) libicu57 (Debian 9)
    ```
 
    ```
@@ -179,13 +118,13 @@ Debian 7オペレーティングシステムにAdobe Campaignをインストー�
    ```
 
    ```
-   aptitude install libprotobuf9 (only Debian 7/8)
+   aptitude install libprotobuf9 (only Debian 8)
    ```
 
 * 次のコマンドを使用してJDK7をインストールします。
 
    ```
-   aptitude install openjdk-7-jdk (Debian 7/8)
+   aptitude install openjdk-7-jdk (Debian 8)
    ```
 
    ```
@@ -309,6 +248,13 @@ export neolane_LANG=fra
 /etc/init.d/nlserver6 start
 ```
 
+20.1からは、代わりに次のコマンドを使用することをお勧めします。
+
+```
+systemctl stop nlserver
+systemctl start nlserver
+```
+
 ### LinuxのOracleクライアント {#oracle-client-in-linux}
 
 Adobe CampaignでOracleを使用する場合は、LinuxでOracleクライアントレイヤーを設定する必要があります。
@@ -340,7 +286,7 @@ Adobe CampaignでOracleを使用する場合は、LinuxでOracleクライアン�
    ln -s libclntsh.so.10.1 libclntsh.so
    ```
 
-問題が発生した場合は、 [Oracleインストールドキュメントに記載されているパッケージが正しくインストールされてい](http://www.oracle.com/pls/db112/portal.portal_db?selected=11) ることを確認してください。
+問題が発生した場合は、 [Oracleインストールドキュメントに記載されているパッケージが正しくインストールされてい](https://www.oracle.com/pls/db112/portal.portal_db?selected=11) ることを確認してください。
 
 ## インストールの確認 {#installation-checks}
 

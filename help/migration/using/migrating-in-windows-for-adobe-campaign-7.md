@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 Windowsの場合、移行手順は次のとおりです。
 
-1. サービスの停止：サービス停 [止を参照](#service-stop)、
-1. データベースのバックアップ：詳しくは、デ [ータベースと現在のインストールのバックアップ](#back-up-the-database-and-the-current-installation)、
-1. プラットフォームの移行：詳しくは、 [Adobe Campaign v7の導入](#deploying-adobe-campaign-v7)、
-1. リダイレクトサーバー(IIS)を移行します：リダイレク [トサーバー(IIS)の移行を参照](#migrating-the-redirection-server--iis-)。
-1. サービスの再開：詳しくは、 [サービスの再起動](#re-starting-the-services)、
+1. サービスの停止：サービス停 [止を参照](#service-stop)。
+1. データベースのバックアップ：詳しくは、「デ [ータベースと現在のインストールのバックアップ」を参照してくださ](#back-up-the-database-and-the-current-installation)い。
+1. プラットフォームの移行：詳しくは、『Adobe [Campaign v7の導入』を参照してください](#deploying-adobe-campaign-v7)。
+1. リダイレクトサーバー(IIS)を移行します：「リダイレク [トサーバー(IIS)の移行」を参照してくださ](#migrating-the-redirection-server--iis-)い。
+1. サービスの再開：詳しくは、サ [ービスの再起動を参照してください](#re-starting-the-services)。
 1. 以前のAdobe Campaignバージョンを削除してクリーンアップします。詳しくは、前 [のバージョンのAdobe Campaignの削除とクレンジングを参照してください](#deleting-and-cleansing-adobe-campaign-previous-version)。
 
 ## サービス停止 {#service-stop}
@@ -101,7 +101,7 @@ Windowsの場合、移行手順は次のとおりです。
    ren "Neolane v5" "Neolane v5.back"
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >予防策として、 **Neolane v5.backフォルダーをzip圧縮し** 、サーバー以外の安全な場所に保存することをお勧めします。
 
@@ -141,7 +141,7 @@ Windowsの場合、移行手順は次のとおりです。
    ren "Neolane v6" "Neolane v6.back"
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >予防策として、 **Neolane v6.backフォルダーをzip圧縮し** 、サーバー以外の安全な場所に保存することをお勧めします。
 
@@ -181,7 +181,7 @@ Windowsの場合、移行手順は次のとおりです。
    ren "Adobe Campaign v6" "Adobe Campaign v6.back"
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >予防策として、 **Adobe Campaign v6.backフォルダーをzip圧縮し** 、サーバー以外の安全な場所に保存することをお勧めします。
 
@@ -246,7 +246,7 @@ Adobe Campaignを導入するには、次の手順を適用します。
    copy "Adobe Campaign v6.back"/var/* "Adobe Campaign v7"/var/
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >上記の最初のコマンドでは、 **config-default.xmlファイルをコピーしないでください** 。
 
@@ -268,7 +268,7 @@ Adobe Campaignを導入するには、次の手順を適用します。
    nlserver config -postupgrade -instance:<instance name>
    ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >まだAdobe Campaignサービスを開始しない：iisでは、一部の変更を行う必要があります。
 

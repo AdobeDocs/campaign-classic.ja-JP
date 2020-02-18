@@ -5,7 +5,7 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
+source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ---
 
@@ -17,6 +17,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
 + リリースノート{#release-notes}
    + [最新リリース](rn/using/latest-release.md)
    + 以前のリリース {#previous-releases}
+      + [リリース19.2](rn/using/release--19-2.md)
       + [リリース19.1](rn/using/release--19-1.md)
       + [リリース18.10](rn/using/release--18-10.md)
       + [リリース18.6](rn/using/release--18-6.md)
@@ -64,9 +65,17 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [データパッケージの使用](platform/using/working-with-data-packages.md)
       + [列挙の管理](platform/using/managing-enumerations.md)
       + [外部アカウント](platform/using/external-accounts.md)
+   + 外部データベース{#accessing-external-database}
+      + [FDAについて](platform/using/about-fda.md)
+      + [データベースタイプ別の特定の設定](platform/using/specific-configuration-database.md)
+      + [リモートデータベースのアクセス権](platform/using/remote-database-access-rights.md)
+      + [データベースへの接続](platform/using/connecting-to-database.md)
+      + [データスキーマの作成](platform/using/creating-data-schema.md)
+      + [データマッピングの削除](platform/using/defining-data-mapping.md)
+      + [追加のオプション](platform/using/additional-options.md)
+      + [ワークフローでの外部データベースからのデータの使用](platform/using/data-external-database-workflow.md)
    + コネクタ {#connectors}
       + [コネクタについて](platform/using/about-connectors.md)
-      + [外部データベースへのアクセス](platform/using/accessing-an-external-database.md)
       + [CRM コネクタ](platform/using/crm-connectors.md)
       + [Adobe Analytics Data コネクタ](platform/using/adobe-analytics-data-connector.md)
 + Sending Messages {#sending-messages}
@@ -92,7 +101,8 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [LINE チャネル](delivery/using/line-channel.md)
    + プッシュ通知の送信 {#sending-push-notifications}
       + [モバイルアプリチャネルについて](delivery/using/about-mobile-app-channel.md)
-      + [モバイルアプリチャネルの設定](delivery/using/setting-up-mobile-app-channel.md)
+      + [Campaign SDK をモバイルアプリケーションに統合する](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+      + [Adobe Campaign でモバイルアプリケーションを設定する](delivery/using/configuring-the-mobile-application.md)
       + [通知の作成](delivery/using/creating-notifications.md)
       + [トラブルシューティング](delivery/using/troubleshooting.md)
    + ダイレクトメールの送信 {#sending-direct-mail}
@@ -122,7 +132,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [使用例：フィールド置換の設定](delivery/using/use-case--configuring-the-field-substitution.md)
    + 購読と紹介 {#subscriptions-and-referrals}
       + [サービスと購読について](delivery/using/about-services-and-subscriptions.md)
-      + [購読の管理](delivery/using/managing-subscriptions.md)
+      + [サブスクリプションの管理](delivery/using/managing-subscriptions.md)
       + [バイラルおよびソーシャルマーケティング](delivery/using/viral-and-social-marketing.md)
    + 配信の監視 {#monitoring-deliveries}
       + [配信の監視](delivery/using/monitoring-a-delivery.md)
@@ -213,7 +223,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
    + 母集団の分析 {#analyzing-populations}
       + [記述的分析について](reporting/using/about-descriptive-analysis.md)
       + [記述的分析ウィザードの使用](reporting/using/using-the-descriptive-analysis-wizard.md)
-      + [分析レポートの使用](reporting/using/processing-a-report.md)
+      + [レポートの処理](reporting/using/processing-a-report.md)
       + [使用例](reporting/using/use-cases.md)
    + 新しいレポートの作成 {#creating-new-reports}
       + [Campaign でのレポート作成について](reporting/using/about-reports-creation-in-campaign.md)
@@ -332,7 +342,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [重複排除](workflow/using/deduplication.md)
       + [ディメンションを変更](workflow/using/change-dimension.md)
       + [リスト更新](workflow/using/list-update.md)
-      + [購読サービス](workflow/using/subscription-services.md)
+      + [サブスクリプションサービス](workflow/using/subscription-services.md)
       + [データ更新](workflow/using/update-data.md)
       + [CRM コネクタ](workflow/using/crm-connector.md)
    + フロー制御アクティビティ {#flow-control-activities}
@@ -427,7 +437,7 @@ source-git-commit: 6903548c1b6912daa825e98adc8467d56f937478
       + [マーケティングリソース（MRM）](workflow/using/marketing-resources--mrm-.md)
       + [ソーシャルマーケティング](workflow/using/social-marketing.md)
       + [Adobe Experience Cloud ソリューションとの統合](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-      + [一般データ保護規則（GDPR）](workflow/using/general-data-protection-regulation--gdpr-.md)
+      + [プライバシーデータ保護規則](workflow/using/general-data-protection-regulation--gdpr-.md)
       + [ミッドソーシング転送](workflow/using/transfer-to-mid-sourcing.md)
       + [ミッドソーシングプラットフォーム](workflow/using/mid-sourcing-platform.md)
 + オファーの管理 {#managing-offers}

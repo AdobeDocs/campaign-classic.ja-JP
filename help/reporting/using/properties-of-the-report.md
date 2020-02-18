@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: af768da6ee8cc0ca2ea1f24f297239b974c113a5
+source-git-commit: b2222b2997105801164f930428c7b05ae7d11336
 
 ---
 
@@ -86,7 +86,7 @@ Web フォームプロパティについては、[このページ](../../web/usi
 
 ## 追加設定の定義 {#defining-additional-settings}
 
-The **[!UICONTROL Settings]** tab lets you create additional settings for the report: these settings will be passed into the URL during the call up.
+The **[!UICONTROL Parameters]** tab lets you create additional settings for the report: these settings will be passed into the URL during the call up.
 
 Web フォームプロパティについては、[このページ](../../web/using/about-web-forms.md)を参照してください。
 
@@ -110,6 +110,14 @@ Web フォームプロパティについては、[このページ](../../web/usi
    データは、エンティティレベルで直接リカバリされます。 **ctx/recipient/@account**.
 
    The **[!UICONTROL Variable]** option lets you create or select a variable which will be passed as a parameter of the URL and can be used in the filters.
+
+を使用 **[!UICONTROL Response HTTP headers]** すると、iframeを使用してレポートのページをHTMLページに含める際のクリックジャックを防ぐことができます。 クリックジャックを避けるには、次の動作を選択 **[!UICONTROL X-Frame-options header]** します。
+
+* **[!UICONTROL None]**:報告書にはない **[!UICONTROL X-Frame-options header]**。
+* **[!UICONTROL Same as origin]**:新しいレポートおよび再公開されたレポートに対してデフォルトで設定されます。 ホスト名は、レポートのURLと同じになります。
+* **[!UICONTROL Deny]**:iframeを使用してHTMLページにレポートを含めることはできません。
+
+![](assets/s_ncs_advuser_report_properties_09c.png)
 
 ## 変数の追加 {#adding-variables}
 

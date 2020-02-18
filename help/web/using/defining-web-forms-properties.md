@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
+source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 ---
 
@@ -141,7 +141,7 @@ The **[!UICONTROL Use a specific account]** option lets you limit the read or wr
 * **origin** は、回答者の接触チャネルを指定します。
 * **_uuid** は、パブリッシュ前のフォーム表示とエラートラッキングを有効にします。このパラメーターは、内部でのみ使用されます（作成およびデバッグ）。この URL を使用して Web フォームにアクセスすると、作成されたレコードはトラッキング（レポート）で考慮されません。The origin is forced to the **[!UICONTROL Adobe Campaign]** value.
 
-   It is used with the **_preview** parameters and/or ** _debug**:
+   これは、**_preview** パラメーターまたは **_debug** と共に使用されます。
 
    **_preview** は、最後に保存されたバージョンを表示します。このパラメーターは、テストフェーズでのみ使用される必要があります。
 

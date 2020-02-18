@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
 
 # スキーマの拡張{#extending-a-schema}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >一部の組み込みスキーマは拡張できません。主に、次の設定が定義されます。\
 >**dataSource=&quot;file&quot;** and **mappingType=&quot;xmlFile&quot;**.\
@@ -38,7 +38,7 @@ source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
 
    拡張スキーマに独自のスキーマがありません：ソーススキーマから生成されたスキーマは、拡張スキーマのフィールドに入力されます。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >アプリケーションの組み込みスキーマを変更する代わりに、スキーマ拡張メカニズムを変更することはできません。 標準スキーマを変更すると、今後アプリケーションのアップグレード時にスキーマが更新されなくなり、これは、Adobe Campaignの使用に誤りが生じる可能性があります。
 
@@ -66,7 +66,7 @@ source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
 
    フィールド **のbelongsTo** 属性は、宣言されたスキーマを入力します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >変更を考慮するには、スキーマを再生成する必要があります。 For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.\
 >変更がデータベースの構造に影響を与える場合は、更新を実行する必要があります。 詳しくは、「データベース構造の更新 [」の節を参照してください](../../configuration/using/updating-the-database-structure.md) 。

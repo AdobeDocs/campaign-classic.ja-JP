@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -37,7 +37,7 @@ v6.02では、「マルチタイムゾーン」モードはPostgreSQLデータ�
 
 TIMESTAMP WITH TIMEZONEモードを使用するには、 **-userTimestamptz:1** オプションをpostupgradeコマンドラインに追加する必要もあります。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >-usetimestamptz:1 **** パラメータが互換性のないデータベースエンジンで使用されている場合、データベースは破損し、データベースのバックアップを復元し、上記のコマンドを再実行する必要があります。
 
@@ -87,7 +87,7 @@ TIMESTAMP WITH TIMEZONEモードを使用するには、 **-userTimestamptz:1** 
 
 ### Security zones {#security-zones}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >セキュリティ上の理由から、Adobe Campaignプラットフォームはデフォルトでアクセスできなくなりました。セキュリティゾーンを設定し、オペレータのIPアドレスを収集する必要があります。
 
@@ -107,7 +107,7 @@ v7では、内部と **管理者の****演算子の接続は** 、パスワー�
 nlserver config -internalpassword
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >内部パ **スワードは** 、すべてのトラッキングサーバーで同じにする必要があります。 詳しくは、この節とこの節 [を参照](../../installation/using/campaign-server-configuration.md#internal-identifier) し [てください](../../platform/using/access-management.md#about-permissions)。
 
@@ -170,7 +170,7 @@ v5では、sessiontokenパラメー **ターは** 、クライアント側（概
 /nl/jsp/logon.jsp?login=<trusted login>&action=submit&target=/view/recipientOverview
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >信頼されたIPマスクにリンクされた演算子を使用する場合は、その演算子に最小限の権限があり、 **sessionTokenOnlyモードのセキュリティゾーンにあることを確** 認します。
 
@@ -178,7 +178,7 @@ v5では、sessiontokenパラメー **ターは** 、クライアント側（概
 
 不明なSQL関数呼び出しが、自動的にサーバーに送信されることはなくなりました。 現在、すべてのSQL関数は **xtk:funcList** スキーマに追加する必要があります(詳しくは、この節を参 [照してください](../../configuration/using/adding-additional-sql-functions.md))。 移行時に、アップグレード後に、古い非宣言のSQL関数との互換性を維持できるオプションが追加されます。 これらの関数を引き続き使用する場合は、XtkPassUnknownSQLFunctionsToRDBMS **()オプションがノードレベルで定義されていることを確****[!UICONTROL Administration > Platform > Options]** 認します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >セキュリティ上のリスクがあるので、このオプションの使用を強くお勧めしません。
 
@@ -460,7 +460,7 @@ Aggregate関数（コレクション）
 * **[!UICONTROL Accept the new version]**:adobe Campaignで提供されるリソースがユーザーによって変更されていない場合に推奨されます。
 * **[!UICONTROL Keep the current version]**:は、更新が拒否されたことを意味します。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    この解像度モードを選択すると、新しいバージョンでパッチが失われる可能性があります。 したがって、このオプションは、エキスパート演算子のみに使用したり、予約したりしないことを強くお勧めします。
 
 競合を手動で解決する場合は、次の手順に従います。
@@ -506,7 +506,7 @@ $(XTK_INSTALL_DIR)/tomcat-7/lib/el-api.jar
 
 v7では、オファーのコンテンツが移動されました。 v6.02では、コンテンツは各表現スキーマ(**nms:emailOfferView**)にありました。 v7では、コンテンツはオファースキーマに追加されました。 したがって、アップグレード後には、コンテンツはインターフェイスに表示されません。 アップグレード後に、オファーコンテンツを再作成するか、コンテンツを表現スキーマからオファースキーマに自動的に移動するスクリプトを作成する必要があります。
 
->[!CAUTION]
+>[!IMPORTANT]
 移行後に、設定済みオファーを使用する一部の配信を送信する必要がある場合は、これらの配信をすべてv7で削除して再作成する必要があります。 それができない場合は、「互換性モード」が提供されます。 Interaction v7のすべての新機能からメリットが得られるわけではないので、このモードはお勧めしません。 これは移行モードで、実際の6.1への移行前に進行中のキャンペーンを完了できます。 このモードの詳細については、弊社までお問い合わせください。
 
 移動スクリプトの例(**interactionTo610_full_XX.js**)は、Adobe Campaign v7フォルダー内の **Migration** （移行）フォルダーにあります。 このファイルは、オファーごとに1つの電子メール表現（およびフィールド）を使用するクライアント用のスクリプト **[!UICONTROL htmlSource]** の例を **[!UICONTROL textSource]** 示しています。 NmsEmailOfferViewテーブル内のコンテ **ンツは** 、オファーテーブルに移動されました。

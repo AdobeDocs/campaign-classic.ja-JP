@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -77,7 +77,7 @@ source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
    >
    >nms:seedMemberスキーマの拡張は **** 、Adobe Campaignのキャンペーンと配信の構造に準拠している必要があります。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >
    >    

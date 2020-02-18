@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 アクティビティを設定する前に、以下の前提条件を満たしていることを確認してください。
 
-* このアクティビティは、リモートデータソースに対してのみ使用できます。そのため、インスタンスに **[!UICONTROL FDA]**（Federated Data Access）パッケージをインストールする必要があります（[この節](../../platform/using/accessing-an-external-database.md)を参照）。
+* このアクティビティは、リモートデータソースに対してのみ使用できます。そのため、インスタンスに **[!UICONTROL FDA]**（Federated Data Access）パッケージをインストールする必要があります（[この節](../../platform/using/about-fda.md)を参照）。
 * アウトバウンドスキーマがデータベースに存在し、FDA データベースにリンクされている必要があります（データスキーマについて詳しくは、[この節](../../configuration/using/about-schema-reference.md)を参照）。
 * The operator executing the workflow must have the **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** named right. ネームド権限について詳しくは、[この節](../../platform/using/access-management.md#named-rights)を参照してください。
 

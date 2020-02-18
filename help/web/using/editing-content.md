@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 ---
 
@@ -135,13 +135,14 @@ These conditions adopt the XTK expression syntax (for example **ctx.recipient.@e
 >各タイプのリンクについて、開くモードを設定できます。**ターゲット**&#x200B;ドロップダウンリストでターゲットウィンドウを選択します。This value corresponds to the **`<target>`** HTML tag.
 >
 >利用可能な&#x200B;**ターゲット**&#x200B;のリストは、次のとおりです。
-
+>
 >* その他 (IFrame)
 >* 最上位のウィンドウ (_top)
-* 親ウィンドウ (_parent)
-* 新しいウィンドウ (_blank)
-* 現在のウィンドウ (_self)
-* ブラウザーのデフォルト動作
+>* 親ウィンドウ (_parent)
+>* 新しいウィンドウ (_blank)
+>* 現在のウィンドウ (_self)
+>* ブラウザーのデフォルト動作
+>
 
 
 
@@ -170,7 +171,8 @@ The list of suggested Web applications corresponds to the available applications
 ![](assets/dce_toolbar_imgblock_action.png)
 
 >[!NOTE]
-使用可能なアクションについて詳しくは、「ボ [タンへのアクションの追加](#adding-an-action-to-a-button) 」を参照してください。
+>
+>使用可能なアクションについて詳しくは、「ボ [タンへのアクションの追加](#adding-an-action-to-a-button) 」を参照してください。
 
 ### リンクの削除 {#delete-a-link}
 
@@ -180,7 +182,8 @@ The list of suggested Web applications corresponds to the available applications
 * **[!UICONTROL Break the link]** 確認後に、リンクとすべての関連パラメーターを削除できます。
 
 >[!NOTE]
-リンクが削除されても、コンテンツは保持されます。
+>
+>リンクが削除されても、コンテンツは保持されます。
 
 ## フォント属性の変更 {#changing-font-attributes}
 
@@ -202,8 +205,10 @@ The list of suggested Web applications corresponds to the available applications
 * **テキストカラーアイコンの変更** :選択したブロックの文字色または選択した文字のみを変更できます(`<span style="color: #CODE">`)
 
 >[!NOTE]
-* **削除**&#x200B;アイコン：ブロックおよびそのすべてのコンテンツを削除します。
-
+>
+>* **削除**&#x200B;アイコン：ブロックおよびそのすべてのコンテンツを削除します。
+   >
+   >
 * **複製**&#x200B;アイコン：ブロックおよびブロックに関連するすべてのスタイルを複製します。
 
 
@@ -223,7 +228,8 @@ DCE と互換性を保つには、次のように、**「Flash」タイプのア
 ```
 
 >[!CAUTION]
-You must not call up external files in a **script** tag of the HTML page. これらのファイルは、Adobe Campaign サーバーにインポートされません。
+>
+>You must not call up external files in a **script** tag of the HTML page. これらのファイルは、Adobe Campaign サーバーにインポートされません。
 
 ### 画像の追加／削除／複製 {#adding---deleting---duplicating-an-image}
 
@@ -240,7 +246,8 @@ The **Delete** icon deletes the ![]() tag containing the image.
 The **Duplicate** icon duplicates the ![]() tag and its content.
 
 >[!CAUTION]
-画像を複製すると、新しい画像に関連する識別子は削除されます。
+>
+>画像を複製すると、新しい画像に関連する識別子は削除されます。
 
 ### 画像プロパティの編集 {#editing-image-properties}
 

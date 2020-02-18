@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e04eb83a7c2e29f8d3ea6458dd3f0e780dfb9c3
+source-git-commit: 202f571f5c348ca4ab617821cd1ec24cefa8c504
 
 ---
 
@@ -259,26 +259,23 @@ instance.vars.isRunning = false
 
 ## ステータスに従ったワークフローのフィルタリング{#filtering-workflows-status}
 
-Campaign Classicインターフェイスを使用すると、事前定義されたビューを使用して、インスタンス上のすべてのワークフローの実行ステータスを監視&#x200B;**できま**&#x200B;す。 これらのビューにアクセスするには、**管理**/監査&#x200B;**/ワー**&#x200B;クフローステー&#x200B;**タスノードを開きます**。
+Campaign Classicインターフェイスを使用すると、事前定義されたビューを使用して、インスタンス上のすべてのワークフローの実行ステータスを監視&#x200B;**できま**&#x200B;す。 これらのビューにアクセスするには、/**[!UICONTROL Administration]**/ノード&#x200B;**[!UICONTROL Audit]**&#x200B;を開&#x200B;**[!UICONTROL Workflows Status]**&#x200B;きます。
 
 次のビューを使用できます。
 
-* **実行中**：実行中のすべてのワークフローを表示します。
-* **一時停止**：一時停止したすべてのワークフローを表示します。
-* **失敗**：失敗したすべてのワークフローを表示します。
-
-<!--Start Pending: lists all workflows that are waiting to be started by the operationMgt process.-->
+* **[!UICONTROL Running]**：実行中のすべてのワークフローを表示します。
+* **[!UICONTROL Paused]**：一時停止したすべてのワークフローを表示します。
+* **[!UICONTROL Failed]**：失敗したすべてのワークフローを表示します。
+* **[!UICONTROL Start Pending]**:operationMgtプロセスが開始するのを待機しているすべてのワークフローを表示します。 このビューは、**Marketing campaignsパッケージでのみ使用できます**(Campaign標準パッケージのイ [ンストールを参照](../../installation/using/installing-campaign-standard-packages.md))。
 
 ![](assets/workflow-monitoring-views.png)
 
-<!--The Start Pending view is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
-
-デフォルトでは、これらのビューは&#x200B;**Audit**&#x200B;フォルダー内でアクセスできます。 ただし、フォルダツリーで選択した場所に再作成できます。 これにより、管理権限のない標準ユーザーも利用できるようになります。
+デフォルトでは、これらのビューはフォルダ内でアクセスで&#x200B;**[!UICONTROL Audit]**&#x200B;きます。 ただし、フォルダツリーで選択した場所に再作成できます。 これにより、管理権限のない標準ユーザーも利用できるようになります。
 
 これを行うには：
 
 1. ビューを追加するフォルダを右クリックします。
-1. 「新し **いフォルダー**/管&#x200B;**理を追加**」で、追加するビューを選択します。
+1. / **[!UICONTROL Add new folder]**&#x200B;で、追&#x200B;**[!UICONTROL Administration]**&#x200B;加するビューを選択します。
 1. フォルダをツリーに追加したら、元のフォルダが何であれ、すべてのワークフローが表示されるように、ビューとして設定します。ビューの設定方法の詳細については、この節を参照して [ください](../../platform/using/access-management.md#adding-folders-and-creating-views)。
 
 また、これらのビューに加えて、実行ステータスに従ってワークフローのリストをフィルタリングできるフィルターフォルダーを設定できます。 手順は次のとおりです。
@@ -293,6 +290,3 @@ Campaign Classicインターフェイスを使用すると、事前定義され�
 
 * [アドバンスフィルターの作成](../../platform/using/creating-filters.md#creating-an-advanced-filter)
 * [フィルターの保存](../../platform/using/creating-filters.md#saving-a-filter)
-
-<!-- need to check if pending status filter will be implemented or not in january release, note, Additionally to these views, a prefedefined filter is available in workflow-type folders. It allows you to display in the list workflows that are waiting to be started by the operationMgt process only.This filter is available with the Marketing campaigns package only. See Installing Campaign standard packages../../installation/using/installing-campaign-standard-packages.md.-->
-

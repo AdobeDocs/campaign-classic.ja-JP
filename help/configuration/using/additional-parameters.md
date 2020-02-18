@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Campaignプラットフォームでは、標準として2つのTRANSACTION
 
 サーバー設定では、Webトラッキングパラメーターに考慮する最大文字数を定義できます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >考慮に入れる最大文字数を増やすと、プラットフォームのWebトラッキングのパフォーマンスに影響を与える可能性があります。
 
@@ -76,15 +76,25 @@ webTrackingParamSize="64"/>
 
 * リダイレクトモジュールをホストするWebサーバー（Apache、IISなど）を停止し、
 * Adobe Campaignサーバーを停止します。 **net stop nlserver6** (Windows)、 **/etc/init.d/nlserver6 stop** (Linux)、
+
+   >[!NOTE]
+   >
+   >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）。systemctl **stop nlserver**
+
 * Linuxでは、 **ipcrmコマンドを使用して共有メモリセグメントを削除します** 。
 * Adobe Campaignサーバーを再起動します。Windowsで **は** net start nlserver6 **、** Linuxでは/etc/init.d/nlserver6 start、
+
+   >[!NOTE]
+   >
+   >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）。 **systemctl start nlserver**
+
 * Webサーバーを再起動します。
 
 **例**:Linuxの設定を考慮に入れて
 
 ```
-adobe@selma:~$ /etc/init.d/nlserver6 stop
-adobe@selma:~$ /etc/init.d/apache stop
+adobe@selma:~$ systemctl stop nlserver
+adobe@selma:~$ systemctl stop apache2
 adobe@selma:~$ ipcs shm
 
 ------ Shared Memory Segments --------
@@ -100,8 +110,8 @@ key        msqid      owner      perms      used-bytes   messages
 
 adobe@selma:~$ ipcrm shm 2097153                             
 1 resource(s) deleted
-adobe@selma:~$ /etc/init.d/nlserver6 start
-adobe@selma:~$ /etc/init.d/apache start
+adobe@selma:~$ systemctl start nlserver
+adobe@selma:~$ systemctl start apache2
 ```
 
 >[!NOTE]

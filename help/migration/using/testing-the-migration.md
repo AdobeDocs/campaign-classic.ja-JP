@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f8a13e3788b99ff4214e00dec1f88fdef0cb964
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: 4f8a13e3788b99ff4214e00dec1f88fdef0cb964
 
 1. 開発環境の移行に成功した場合は、実稼働環境を移行できます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >データ構造が変更されたため、v5プラットフォームとv7プラットフォームの間でデータパッケージの読み込みと書き出しを行うことはできません。
 

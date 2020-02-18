@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4437d2ea4e4044245a2b9a5a870267cd1f1c0bc9
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 4437d2ea4e4044245a2b9a5a870267cd1f1c0bc9
 
 v6.02では、「マルチタイムゾーン」モードはPostgreSQLデータベースエンジンでのみ使用可能でした。 どのタイプのデータベースエンジンが使用されても提供されるようになりました。 ベースを「マルチタイムゾーン」ベースに変換することを強くお勧めします。 詳しくは、タイムゾーンの節を参照し [てください](../../migration/using/general-configurations.md#time-zones) 。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Adobe Campaign 5.11および6.02でサポートされているソフトウェアバージョンの一部は、Adobe Campaign v7ではサポートされなくなりました。
 >

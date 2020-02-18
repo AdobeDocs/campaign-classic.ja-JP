@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 30803bde7be6073895fcea4b6c70655a27111f55
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -64,7 +64,7 @@ To find out how to insert and use personalization fields, refer to [About person
 
 >[!CAUTION]
 >
->プライバシー保護のために、すべての外部リソースに対して HTTPS を使用することをお勧めします。
+>プライバシー上の理由から、すべての外部リソースに対してHTTPSを使用することをお勧めします。
 
 メッセージの内容は、配信設定ウィンドウの下部のセクションで定義します。
 

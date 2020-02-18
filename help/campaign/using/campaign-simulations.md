@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -78,11 +78,11 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
    ![](assets/simu_campaign_opti_edit_scope_save.png)
 
-   必要に応じて、リンクを介して動的条件を使用できま **[!UICONTROL Edit the dynamic condition...]** す
+   必要に応じて、リンクを介して動的条件を使用でき **[!UICONTROL Edit the dynamic condition...]** ます。
 
    Click **[!UICONTROL Save]** to approve this configuration.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >シミュレーション(ステータス： **Target readyまたは** Ready to deliver ****)。
 
@@ -215,13 +215,13 @@ The **[!UICONTROL Calculations]** tab lets you define reporting axes on the targ
 
    * **[!UICONTROL Generate target overlap statistics]** シミュレーションレポート内の重複する統計情報をすべて復元できます。 重複とは、ターゲット受信者が 1 回のシミュレーションで 2 つ以上の配信に含まれていることを指します。
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >このオプションを選択すると、シミュレーションの実行時間が長くなります。
 
    * **[!UICONTROL Keep the simulation work table]** シミュレーショントレースを保持できます。
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >これらのテーブルを自動的に保存する場合は、大容量のストレージを確保する必要があります。必ずデータベースの容量を確認してください。
 

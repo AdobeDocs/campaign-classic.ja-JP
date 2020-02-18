@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62e6537ba306956cac3bf6e1dd18567bc1414917
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 62e6537ba306956cac3bf6e1dd18567bc1414917
 * **配信のメイン受信者**。 [詳細を表示](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
 * **検証サイクルを設定するため**、証明メッセージの受信者。 [詳細を表示](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
-また、シードアドレスや制御グル [ープを定義す](../../delivery/using/about-seed-addresses.md)るこ [ともできます](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)。 配信がマーケティングキャンペーンに含まれる場合。
+また、シードアドレスや制御グ [ループを定義す](../../delivery/using/about-seed-addresses.md)るこ [ともできます](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)。 配信がマーケティングキャンペーンに含まれる場合。
 
 ## 配信のメイン受信者の選択 {#selecting-the-main-target}
 

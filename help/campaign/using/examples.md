@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -29,8 +29,6 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 >[!NOTE]
 >
 >詳しくは、API のドキュメントを参照してください。参照できるドキュメントは、契約によって異なります。[API](../../configuration/using/about-web-services.md) を参照してください。
-
->[!NOTE]
 >
 >この例で使用する Web アプリケーションは、Adobe Campaign に付属している Web アプリケーションではありません。キャンペーンでフォームを使用するには、専用の Web アプリケーションを構築する必要があります。
 
@@ -159,7 +157,7 @@ In the **[!UICONTROL Edit]** tab, select the **Campaign order** activity and ope
 
    * 通知としてローカルエンティティに送信するメッセージの内容
    * 承認のリマインダー
-   * 想定されるキャンペーンの処理
+   * 想定されるキャンペーンの処理.
    ![](assets/mkg_dist_use_case_target_valid7.png)
 
 1. レコードを保存します。

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -49,7 +49,7 @@ nms:recipientスキーマ受 **信者テーブルを拡張するには** 、次�
 
    この例では、インデックス付きフィールド(**fidelity**)が追加され、 **location要素(** nms:recipient **スキーマに既に存在していた要素)に列挙型フィールド(****** areaField)が追加されます。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >拡張スキーマを参照する **には** 、extendedSchema属性を必ず追加してください。
 

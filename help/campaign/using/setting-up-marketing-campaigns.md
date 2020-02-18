@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -148,14 +148,14 @@ To open and configure a campaign, select it from the schedule and click **[!UICO
 
 The configuration mode of the execution schedule coincides with the **[!UICONTROL Scheduler]** object of the Workflow. 詳しくは、[この節](../../workflow/using/executing-a-workflow.md#architecture)を参照してください。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >データベースをオーバーロードしないよう、実行スケジュールの設定は慎重におこなう必要があります。繰り返しキャンペーンは、指定されたスケジュールに従って、キャンペーンテンプレートのワークフローを複製します。ワークフローの作成を頻繁に実施しすぎると、データベースの動作が妨げられることがあります。
 
 1. Specify a value in the **[!UICONTROL Create in advance for]** field in order to create the corresponding workflows for the period indicated.
 1. ターゲティングパラメーターと 1 つ以上の汎用的な配信を使用して、このテンプレートをベースとするキャンペーンで使用するワークフローテンプレートを作成します。
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >このワークフローは、繰り返しワークフローテンプレートとして保存する必要があります。To do this, edit the workflow properties and select the **[!UICONTROL Recurring workflow template]** option in the **[!UICONTROL Execution]** tab.
 
@@ -174,7 +174,7 @@ The configuration mode of the execution schedule coincides with the **[!UICONTRO
 
    行ごとに、以下のオプションを追加できます。
 
-   * **[!UICONTROL To be approved]** :ワークフロー内の配信承認リクエストを強制できます
+   * **[!UICONTROL To be approved]** :ワークフロー内の配信承認リクエストを強制できます。
    * **[!UICONTROL To be started]** :開始日に達したら、ワークフローを開始できます。
    このフ **[!UICONTROL Create in advance for]** ィールドでは、入力した期間を対象とするすべてのワークフローを作成できます。
 
@@ -211,7 +211,7 @@ The configuration mode of the execution schedule coincides with the **[!UICONTRO
 
 1. テンプレートのプロパティを入力します。
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >テンプレートを割り当てるオペレーターは、選択されたプログラム内にキャンペーンを作成するのに適した権限を持っている必要があります。
 
@@ -227,7 +227,7 @@ The configuration mode of the execution schedule coincides with the **[!UICONTRO
 
    ![](assets/s_ncs_user_op_template_period_planning_add.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >定期的なキャンペーンテンプレートは、上記で定義したスケジュールに従って、新しいキャンペーンを作成します。そのため、Adobe Campaign データベースがオーバーロードしないよう、慎重に入力する必要があります。
 

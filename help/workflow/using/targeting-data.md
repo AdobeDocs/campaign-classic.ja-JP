@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
 
@@ -182,7 +182,7 @@ The **[!UICONTROL Split]** activity is a standard activity which lets you create
 
    ![](assets/split-subset-config-add_external_data.png)
 
-   詳しくは、[この節](../../platform/using/accessing-an-external-database.md)を参照してください。
+   詳しくは、[この節](../../platform/using/about-fda.md)を参照してください。
 
 次に、新しいサブセットを追加する必要があります。
 

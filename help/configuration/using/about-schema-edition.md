@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58b69ae83d0ff2bece26cb3ff0604cd92e3c20f4
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -90,7 +90,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 xpath属 **性は** 、インデックスを作成するスキーマ内のフィールドを指します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >インデックスによって提供されるSQLクエリの読み取りパフォーマンスの向上には、レコードの書き込みに対するパフォーマンスの低下も伴う点に注意してください。 したがって、インデックスは用心して使用する必要があります。
 
@@ -112,7 +112,7 @@ xpath属 **性は** 、インデックスを作成するスキーマ内のフィ
 
 この例では、 **** @autopk属性で「id」という名前のデフォルトの主キーを作成する代わりに、独自の「householdId」主キーを指定します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >新しいスキーマを作成するときや、スキーマ拡張の際には、スキーマ全体で同じプライマリキーシーケンス値（@pkSequence）を維持する必要があります。
 
@@ -171,7 +171,7 @@ XMLフィールドの例は、SQLフィールドにも格納され、 **@dataPol
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ほとんどの属性は、1 ～ 1の基数に従ってデータベースの物理フィールドにリンクされますが、XMLフィールドや計算済みフィールドには該当しません。\
 >XMLフィールドは、テーブルのメモ型フィールド(「mData」)に格納されます。\

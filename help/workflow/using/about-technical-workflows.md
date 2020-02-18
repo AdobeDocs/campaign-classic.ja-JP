@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1bd878c45576932e085b579f91eb72f5d36d6fd
+source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
 
 ---
 
@@ -47,6 +47,6 @@ For more on how to monitor technical workflows, refer to the [dedicated section]
 * [マーケティングリソース（MRM）](../../workflow/using/marketing-resources--mrm-.md)
 * [ソーシャルマーケティング](../../workflow/using/social-marketing.md)
 * [Adobe Experience Cloud ソリューションとの統合](../../workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-* [一般データ保護規則（GDPR）](../../workflow/using/general-data-protection-regulation--gdpr-.md)
+* [プライバシーデータ保護規則](../../workflow/using/general-data-protection-regulation--gdpr-.md)
 * [ミッドソーシング転送](../../workflow/using/transfer-to-mid-sourcing.md)
 * [ミッドソーシングプラットフォーム](../../workflow/using/mid-sourcing-platform.md)

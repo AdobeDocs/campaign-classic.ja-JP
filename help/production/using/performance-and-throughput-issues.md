@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
+source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
 
 * MTAおよびMTAChildのプロセスとメモリ：mtaモジュール **は** 、メッセージをmtachild子モジュールに **配信します** 。 各mtchildは **** 、統計サーバーから認証を要求して送信する前に、メッセージを準備します。 Refer to this [page](../../installation/using/email-deliverability.md) for more information.
 * TLS設定：tlsをグローバルに有効にすることは、スループットを低下させる可能性があるので、お勧めしません。 その代わり、配信品質チームが管理するドメインごとのTLS設定は、ニーズに応じて調整する必要があります。 Refer to this [page](../../installation/using/email-deliverability.md#mx-configuration) for more information.
-* DKIM:dkimのセキュリティレベルを確保するために、1024bは暗号化の推奨サイズであるベストプラクティスです。 これより小さいサイズの DKIM 鍵は、大多数のアクセスプロバイダーには有効とはみなされません。このページとこ [のテクノ](../../delivery/using/technical-recommendations.md#domainkeys-identified-mail--dkim-) ートを参照し [てください](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)。
+* DKIM:dkimのセキュリティレベルを確保するために、1024bは暗号化の推奨サイズであるベストプラクティスです。 これより小さいサイズの DKIM 鍵は、大多数のアクセスプロバイダーには有効とはみなされません。このページとこ [のテクノ](../../delivery/using/technical-recommendations.md#dkim) ートを参照し [てください](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)。
 
 ## 配信品質の問題 {#deliverability-issues}
 
@@ -66,7 +66,7 @@ source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
 * IPの評判：ipの評判が十分でない場合は、パフォーマンスに影響を与えます。 配信品質監 **視モジュールは** 、プラットフォームの配信品質パフォーマンスを追跡するための様々なツールを提供します。 この[ページ](../../delivery/using/technical-monitoring.md)を参照してください。
 * IPウォームアップ：ipウォームアップは配信品質チームによって実行されます。 これには、数週間にわたって新しいIPを介した電子メールの数が徐々に増えていきます。
 * IP親和性の設定：ip親和性の設定が正しくないと、電子メールが完全に停止する（設定での演算子/親和性の名前が正しくない）か、スループットが低下する（親和性内のIPの数が少ない）可能性があります。 この[ページ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
-* 電子メールサイズ：電子メールのサイズは、スループットに重要な役割を果たします。 電子メールの最大サイズは60 KBにすることをお勧めします。 この[ページ](https://helpx.adobe.com/legal/product-descriptions/campaign.html)を参照してください。[配信スル [ープット](../../reporting/using/reports-on-deliveries.md#delivery-throughput) ]レポートで、1時間ごとに転送されたバイト数を確認します。
+* 電子メールサイズ：電子メールのサイズは、スループットに重要な役割を果たします。 電子メールの最大サイズは60 KBにすることをお勧めします。 この[ページ](https://helpx.adobe.com/legal/product-descriptions/campaign.html)を参照してください。[配信スル [ープット](../../reporting/using/delivery-reports.md#delivery-throughput) ]レポートで、1時間ごとに転送されたバイト数を確認します。
 * 無効な受信者の数が多い：無効な受信者の数が多いと、スループットに影響を与える可能性があります。 MTAは、無効な受信者への電子メールの送信を再試行し続けます。 データベースのメンテナンスが良好であることを確認してください。
 * パーソナライゼーションの量：配信が「パーソナライゼーション中」のままの場合は、パーソナライゼーションブロックで使用されるJavaScriptを確認します。
 

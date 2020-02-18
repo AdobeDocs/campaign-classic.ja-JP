@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -81,7 +81,7 @@ Click **[!UICONTROL Preview]** and select a recipient to view the conditional co
 
 ## 多言語の E メールの作成 {#creating-multilingual-email}
 
-以下の例では、多言語の E メールを作成する方法について説明します。コンテンツは、受信者の優先言語に基づいて、いずれかの言語で表示されます。
+以下の例では、多言語の E メールを作成する方法について説明します。受信者の好みの言語に応じて、コンテンツが1つの言語で表示されます。
 
 1. E メールを作成し、ターゲット母集団を選択します。この例では、表示するバージョンを決定する条件は、受信者のプロファイルの&#x200B;**言語**&#x200B;の値に基づいています。この例では、これらの値は **EN**、**FR**、**ES** に設定されています。
 1. In the email HTML content, click the **[!UICONTROL Source]** tab and paste the following code:

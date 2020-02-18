@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -46,7 +46,7 @@ Nlserver javascript -instance:[instance_name] -file [installation_path]/datakit/
 
 ## 使いやすさ：ホームページとナビゲーション {#user-friendliness--home-page-and-navigation}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >v6.02の概要タイプのWebアプリケーションを引き続き使用する場合は、アップグレード後に、様々なセキュリティゾーンで **allowSQLInjection** オプションをアクティブにする必要があります。 「 [Webアプリケーション](#web-applications)」を参照。
 

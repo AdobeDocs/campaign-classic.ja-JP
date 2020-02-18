@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62553344f557206443fa2de0499df42d8b771e21
+source-git-commit: ac3a0ca00591943d79563e9fd4d85d71fa0ba81a
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 62553344f557206443fa2de0499df42d8b771e21
 * 送信者ドメイン別：スパムを送信しているか誤って設定された送信者ドメイン（バウンスメールアドレスのフルドメイン）をリストアップします。
 * Web ドメイン別：スパムコンテンツに含まれているリンクや画像の URL にあるドメイン（登録機関に登録されている高レベルのドメイン）をリストアップします。Adobe Campaign では、通常、考慮に入れるべきドメインは、トラッキングに使用されるアドレスです。
 
-次に、最も広く使用されている RBL のリストを示します。より包括的なリストについては、[https://www.declude.com/Articles.asp?ID=97](https://www.declude.com/Articles.asp?ID=97) または [https://www.dnsstuff.com/](https://www.dnsstuff.com/)（「Spam Database Lookup」フォームの「IP Tools」節）を参照してください。
+次に、最も広く使用されている RBL のリストを示します。詳細なリストについては、https://www.dnsstuff.com/ [](https://tools.dnsstuff.com/) （「Spam Blacklist Lookup」フォーム）を参照してください。
 
 * **Spamhaus**
 

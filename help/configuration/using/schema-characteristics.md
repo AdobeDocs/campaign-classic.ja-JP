@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 * テーブルと列の名前は、明示的に指定する必要があります。
 * インデックスを宣言する必要があります。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >標準受信者テーブルのフィールドは、役に立たない場合でも削除しないでください。 これは、Adobe Campaignデータベースで動作エラーが発生する可能性があります。
 

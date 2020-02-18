@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -51,7 +51,7 @@ This information is also offered in the **[!UICONTROL Campaign orders]** view wh
 
 セントラルオペレーターは、それには、次の 2 つの方法があります。
 
-1. オーダーの名前をクリックして編集を実行します。オーダーの詳細が表示されます。
+1. 演算子は、注文名をクリックして編集できます。注文の詳細が表示されます。
 
    ![](assets/mkg_dist_catalog_op_command_edit1.png)
 

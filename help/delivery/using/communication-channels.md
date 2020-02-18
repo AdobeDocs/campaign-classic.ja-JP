@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign は次の配信チャネルを提供します。
 1. **E メールチャネル**：E メール配信によって、ターゲット母集団にパーソナライズされた E メールを送信できます。「電子メールチャ [ネルについて」を参照してくださ](../../delivery/using/about-email-channel.md)い。
 1. **ダイレクトメールチャネル**：ダイレクトメール配信によって、ターゲット母集団に関するデータを含む抽出ファイルを生成できます。「ダイレクトメ [ールチャネルについて](../../delivery/using/about-direct-mail-channel.md)」を参照。
 1. **モバイルチャネル**：モバイルチャネル経由の配信によって、ターゲット母集団にパーソナライズされた SMS または LINE メッセージを送信できます。「 [SMSチャネル](../../delivery/using/sms-channel.md)」を参照。
-1. **モバイルアプリケーションチャネル**：モバイルアプリ配信では通知を iOS システムおよび Android システムに送信できます。[モバイルアプリチャネル](../../delivery/using/about-mobile-app-channel.md)の章を参照してください。
+1. **モバイルアプリケーションチャネル**:モバイルアプリの配信では、iOSおよびAndroidシステムに通知を送信できます。 [モバイルアプリチャネル](../../delivery/using/about-mobile-app-channel.md)の章を参照してください。
 
    他のチャネルについて詳しくは、[このページ](../../delivery/using/other-channels.md)を参照してください。
 

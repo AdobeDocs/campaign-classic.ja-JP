@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -100,7 +100,7 @@ Twitterに固有の制約には、次の制限があります。
 >
 >配信テンプレート **[!UICONTROL Tweet]** では、トラッキングはデフォルトで有効になっています。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ツイートを分析するロボットと実際にクリックしているユーザーの違いは分かりません
 
@@ -134,7 +134,7 @@ Twitterに固有の制約には、次の制限があります。
 
 ![](assets/social_twitter_visitors_001.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ワークフローでTwitterのフォロワーリストを回復するには、アカウントにリンクされ **[!UICONTROL Synchronize Twitter accounts]** たサービスの編集画面でこのボックスをオンにする必要があります。 詳しくは、次を参照してください。書き込 [みアクセスのAdobe Campaignへの委任](../../social/using/configuring-publishing-on-twitter.md#delegating-write-access-to-adobe-campaign)。
 
@@ -181,7 +181,7 @@ Twitterに固有の制約には、次の制限があります。
 
    * すべてのア **[!UICONTROL Twitter subscribers]** カウントのフォロワーにダイレクトメッセージを送信する場合に選択します。
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >1日に250件を超えるメッセージを送信することはできません。 Twitterアカウントに250人を超えるフォロワーがいる場合は、頻繁に配信することを強くお勧めします。 これには、電子メール配信と同じプロセスが含まれます。 [この節](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)を参照してください。
 

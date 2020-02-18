@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 
 ---
 
@@ -34,6 +34,6 @@ Apacheユーザーが提供された **apache_neolane.conf**
 
 IISユーザー(Windows)の場合、ビルドの更新後、コンソールに複数のアイコンが表示されません。 追加のIISの更新手順が必要です：
 
-1. ビルドの更新後、Campaignのインストールディレクトリにある **iis_neolane_setup.vbs** をダブルクリックします。 デフォルトのパスは、C:Program Files (x86)AdobeAdobe Campaign v7tomcat-7confです。
+1. ビルドの更新後、Campaignのインストールディレクトリにある **iis_neolane_setup.vbs** をダブルクリックします。 デフォルトのパスはC:\Program Files (x86)\Adobe\Adobe Campaign v7\tomcat-7\confです。
 1. 前の手順で更新したIISサイトを再起動します。
 

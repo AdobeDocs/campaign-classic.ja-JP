@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f46b499e4b81cf500baa84cf683a6e0273f802a7
+source-git-commit: 9a1db0fbced3550621c5520656a34344128ee13f
 
 ---
 
@@ -73,58 +73,3 @@ Campaign の最新ビルドでサポートされているすべてのシステ�
 
 [詳しくはここをクリック](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)してください。
 
-管理者ユーザーは、Campaignのコントロールパネルでアドビへの完全なドメイン委任を設定できます。 [詳細を表示](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html).
-
-## 10. How to get emails in the recipient&#39;s inbox? {#how-to-get-emails-in-the-recipient-s-inbox-}
-
-「[E メール配信品質の設定](https://helpx.adobe.com/campaign/kb/acc-deliverability.html)」では、配信品質に関する概念とベストプラクティス、E メールの送信を最適化するためのツールについて理解できます。
-
-## その他の類似点 {#more-faq}
-
-特定のトピックに関するより一般的な質問を読みます。
-
-<table>
-<tr>
-<td>
-        <a href="../../platform/using/faq-key-concepts.md"><img alt="conditions" src="assets/icon_start.png"/></a>
-        <div><a href="../../platform/using/faq-key-concepts.md"><strong>重要な概念</strong></a></div>
-        <em>グローバルFAQ</em>
-    </td>
-    <td>
-        <a href="../../platform/using/faq-audiences.md"><img alt="conditions" src="assets/icon_audience.png"/></a>
-        <div><a href="../../platform/using/faq-audiences.md"><strong>受信者</strong></a></div>
-        <em>オーディエンスFAQ</em>
-    </td>
-    <td>
-        <a href="../../platform/using/faq-designing.md"><img alt="conditions" src="assets/icon_content.png"/></a>
-        <div><a href="../../platform/using/faq-designing.md"><strong>設計</strong></a></div>
-        <em>メッセージデザインFAQ</em>
-    </td>
-    <td>
-        <a href="../../platform/using/faq-messages.md"><img alt="conditions" src="assets/icon_delivery.png"/></a>
-        <div><a href="../../platform/using/faq-messages.md"><strong>送信</strong></a></div>
-        <br/><em>メッセージのテストと送信に関するFAQ</em>
-    </td>
-</tr>
-<tr>
-    <td>
-        <a href="../../platform/using/faq-workflows.md"><img alt="conditions" src="assets/icon_process.png"/></a>
-        <div><a href="../../platform/using/faq-workflows.md"><strong>ワークフロー</strong></a></div>
-        <em>プロセスの自動化に関するFAQ</em>
-    </td>
-    <td>
-        <a href="../../platform/using/faq-reporting.md"><img alt="conditions" src="assets/icon_report.png"/></a>
-        <div><a href="../../platform/using/faq-reporting.md"><strong>レポート</strong></a></div>
-        <em>キャンペーンレポートFAQ</em>
-    </td>
-    <td>
-        <a href="../../platform/using/faq-campaign-config.md"><img alt="conditions" src="assets/icon_config.png"/></a>
-        <div><a href="../../platform/using/faq-campaign-config.md"><strong>設定</strong></a></div>
-        <em>インスタンス設定FAQ</em>
-    </td>
-    <td>
-        <a href="../../platform/using/faq-developers.md"><img alt="conditions" src="assets/icon_server.png"/></a>
-        <div><a href="../../platform/using/faq-developers.md"><strong>開発</strong></a></div>
-        <br/><em>開発者向けFAQ</em>
-    </td>
-    </tr></table>

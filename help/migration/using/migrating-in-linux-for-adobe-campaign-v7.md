@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -26,10 +26,10 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 Linuxでの移行手順は次のとおりです。
 
-1. サービスの停止：「サー [ビス停止](#service-stop)、
-1. データベースの保存：詳しく [は、データベースと既存のインストールのバックアップ](#back-up-the-database-and-the-existing-installation)、
-1. 以前のAdobe Campaignバージョンパッケージのアンインストール：「Adobe Campaign以 [前のバージョンのパッケージのアンインストール](#uninstalling-adobe-campaign-previous-version-packages)、
-1. プラットフォームの移行：詳しくは、 [Adobe Campaign v7の導入](#deploying-adobe-campaign-v7)、
+1. サービスの停止：「サービ [ス停止](#service-stop)」を参照。
+1. データベースの保存：詳しくは、 [データベースと既存のインストールのバックアップを参照してください](#back-up-the-database-and-the-existing-installation)。
+1. 以前のAdobe Campaignバージョンパッケージのアンインストール：詳しくは、「Adobe Campaign [以前のバージョンのパッケージのアンインストール](#uninstalling-adobe-campaign-previous-version-packages)」を参照してください。
+1. プラットフォームの移行：詳しくは、『Adobe [Campaign v7の導入』を参照してください](#deploying-adobe-campaign-v7)。
 1. サービスの再開：詳しくは、サ [ービスの再起動を参照してください](#re-starting-services)。
 
 ## サービス停止 {#service-stop}
@@ -90,7 +90,7 @@ Linuxでの移行手順は次のとおりです。
    mv nl5 nl5.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >予防策として、 **nl5.backフォルダーを圧縮し** 、サーバー以外の安全な場所に保存することをお勧めします。
 
@@ -125,7 +125,7 @@ Linuxでの移行手順は次のとおりです。
    mv nl6 nl6.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >予防策として、 **nl6.backフォルダーを圧縮し** 、サーバー以外の安全な場所に保存することをお勧めします。
 
@@ -160,7 +160,7 @@ Linuxでの移行手順は次のとおりです。
    mv nl6 nl6.back
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >予防策として、 **nl6.backフォルダーを圧縮し** 、サーバー以外の安全な場所に保存することをお勧めします。
 
@@ -264,15 +264,15 @@ Adobe Campaignを導入するには、次の手順を適用します。
    * Debian **の場**&#x200B;合：
 
       ```
-      dpkg -i nlserver6-v7-XXXX-linux-2.6-intel.deb
+      dpkg -i nlserver6-XXXX-linux-2.6-intel.deb
       ```
 
    * In **Red Hat**:
 
       ```
-      rpm -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
+      rpm -Uvh nlserver6-XXXX-0.x86_64.rpm
       ```
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >次の手順に進む前に、パッケージを正常にインストールする必要があります。
 
@@ -308,13 +308,13 @@ Adobe Campaignを導入するには、次の手順を適用します。
 1. 次のコマンドを使用し **て** 、rootとしてログインし、インスタンスを準備します。
 
    ```
-   /etc/init.d/nlserver6-v7 start   
-   Starting nlserver6-v7: [  OK  ]
+   /etc/init.d/nlserver6 start   
+   Starting nlserver6: [  OK  ]
    ```
 
    ```
-   /etc/init.d/nlserver6-v7 stop
-   Stopping nlserver6-v7: [  OK  ]
+   /etc/init.d/nlserver6 stop
+   Stopping nlserver6: [  OK  ]
    ```
 
    >[!NOTE]
@@ -323,7 +323,7 @@ Adobe Campaignを導入するには、次の手順を適用します。
 
 1. nl5.back **** backupフォルダーに移動し、各インスタンスの設定ファイルとサブフォルダーをコピー（上書き）します。 neolaneとしてログイン **し** 、次のコマンドを実行します。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >次の最初のコマンドでは、 **config-default.xmlファイルをコピーしないでください** 。
 
@@ -348,7 +348,7 @@ Adobe Campaignを導入するには、次の手順を適用します。
    <trackinglogd autoStart="true"/>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >トラッキング **ログ** サービスがトラッキングサーバーで開始されていない場合、トラッキング情報は転送されません。
 
@@ -365,7 +365,7 @@ Adobe Campaignを導入するには、次の手順を適用します。
    nlserver config -timezone:<time zone> -postupgrade -instance:<instance name>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >アップグレード後に参照として使用するタイムゾーンを指定する必要があります( **-timezone** オプションを使用)。 この場合、ヨーロッパ/パリのタイムゾーンを使用し **ています。「ヨーロッパ/パリ」**。
 
@@ -373,7 +373,7 @@ Adobe Campaignを導入するには、次の手順を適用します。
    >
    >ベースを「マルチタイムゾーン」にアップグレードすることを強くお勧めします。 タイムゾーンオプションの詳細については、タイムゾーンの節を [参照してくださ](../../migration/using/general-configurations.md#time-zones) い。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >まだAdobe Campaignサービスを開始しない：変更はApacheで行う必要があります。
 
@@ -391,15 +391,15 @@ Adobe Campaignを導入するには、次の手順を適用します。
    * Debian **の場**&#x200B;合：
 
       ```
-      dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+      dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
    * In **Red Hat**:
 
       ```
-      rpm -Uvh nlserver6-v7-XXXX-x86_64_rhX.rpm
+      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >次の手順に進む前に、パッケージを正常にインストールする必要があります。
 
@@ -423,7 +423,7 @@ Adobe Campaignを導入するには、次の手順を適用します。
    <trackinglogd autoStart="true"/>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >トラッキング **ログ** サービスがトラッキングサーバーで開始されていない場合、トラッキング情報は転送されません。
 
@@ -469,15 +469,15 @@ Adobe Campaignを導入するには、次の手順を適用します。
    * Debian **の場**&#x200B;合：
 
       ```
-      dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+      dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
    * In **Red Hat**:
 
       ```
-      rpm -Uvh nlserver6-v7-XXXX-x86_64_rhX.rpm
+      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >次の手順に進む前に、パッケージを正常にインストールする必要があります。
 
@@ -563,13 +563,6 @@ Adobe Campaignを導入するには、次の手順を適用します。
    * In **Red Hat**:
 
       /usr/local/apache2/conf **ディレクトリに移動し、** http.confファイルを編集して、 **nl5** nl6 ******** を次の行に置き換えます。
-
-      RHEL 6 **/Debian 7の場合**:
-
-      ```
-      LoadModule requesthandler22_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
-      Include /usr/local/neolane/nl6/tomcat-6/conf/apache_neolane.conf
-      ```
 
       RHEL 7 **/Debian 8では**:
 

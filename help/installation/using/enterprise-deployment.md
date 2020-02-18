@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
+source-git-commit: 6b631f8456ad1f61cec1630334d76752f6af9866
 
 ---
 
@@ -178,6 +178,11 @@ source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
    * Windowsの場合：Windows向けの [クライアントコンソールの可用性](../../installation/using/client-console-availability-for-windows.md)。
 
 1. Adobe Campaignサーバー(**net start nlserver6** (Windows)、 **/etc/init.d/nlserver6 start** (Linux))を起動し、もう一度コマンドnlserver pdump **(nlserver pdump** )を実行して、すべての有効なモジュールの存在を確認します。
+
+   >[!NOTE]
+   >
+   >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）。 **systemctl start nlserver**
+
 
    ```
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY

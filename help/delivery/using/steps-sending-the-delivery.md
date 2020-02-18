@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -42,7 +42,7 @@ Before sending the delivery, you can define the sending parameters in the delive
    >
    >配信が重複した場合はパラメーターがリセットされます。
 
-* **[!UICONTROL Send using multiple waves]**:詳しくは、「複数の波を使用し [た送信」を参照してください](#sending-using-multiple-waves)。
+* **[!UICONTROL Send using multiple waves]**:この詳細については、「複数の波を使用 [した送信」を参照してください](#sending-using-multiple-waves)。
 
 * **[!UICONTROL Test SMTP delivery]**:このオプションを使用すると、SMTP経由での配信の送信をテストできます。 配信は、SMTP サーバーに接続するところまで進められますが、送信されません。
 

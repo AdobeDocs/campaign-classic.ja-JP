@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Campaignでは、ユーザーはSQL関数にアクセスでき **る独自
 
 これらの関数が追加されると、その他の定義済み関数と同様に、式エディターに表示されます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >コンソール内のSQL関数呼び出しが、自動的にサーバーに送信されることはなくなりました。 したがって、ここで説明するメカニズムは、 **予期しないSQLファンクション** ・サーバを呼び出す唯一の方法となります。
 
@@ -40,7 +40,7 @@ Adobe Campaignでは、ユーザーはSQL関数にアクセスでき **る独自
 
 コンソールからインストールするには、メニューから **Tools/Advanced/Import package** （ツール）オプションを選択し、次に **[!UICONTROL Install from file]** 、インポートウィザードの指示に従います。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >警告：読み込んだ関数のリストが関数エディターにすぐに表示されても、Adobe Campaignを再起動するまで使用できません。
 
@@ -92,7 +92,7 @@ Adobe Campaignでは、ユーザーはSQL関数にアクセスでき **る独自
      name="window"          ( label="Windowing functions" )
    ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >@label属性を必ず完成させます。これは、使用可能な関数のリストに表示される名前です。 何も入力しないと、グループに名前は付きません。 ただし、既存の名前以外の名前を入力すると、グループ全体の名前が変更されます。
 

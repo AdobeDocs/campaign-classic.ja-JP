@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9b3508fee3b441752648258b1bc9d5d2b919791
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -123,7 +123,7 @@ The XML document of a data schema must contain the **`<srcschema>`** root elemen
 
 * および **`<element>`** は、 **`<attribute>`** name属性を使用して名前で識別する必要が **あります** 。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >要素の名前は簡潔で、できれば英語で記述し、XML命名規則に従って許可された文字のみを含める必要があります。
 

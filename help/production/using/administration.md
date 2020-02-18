@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 779d9162b7296339a796512838612ede1186ddcc
+source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 
 ---
 
@@ -37,6 +37,10 @@ Adobe Campaignサービスを手動で起動および停止するには、次の
 
    * **/etc/init.d/nlserver6 start**
    * **/etc/init.d/nlserver6 stop**
+
+>[!NOTE]
+>
+>20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）。 **systemctl start nlserver** / **systemctl stop nlserver**
 
 Linux( **Adobe Campaign**)でアクセス可能な通常の管理コマンドを以下に示します。
 
@@ -76,24 +80,22 @@ Linux( **Adobe Campaign**)でアクセス可能な通常の管理コマンドを
    **nlserver再起動Web**
 
    >[!NOTE]
-
-   >* インスタンスを指定しない場合は、「デフォルト」インスタンスが使用されます。
-   >    
-   >    
+   > 
+   >    * インスタンスを指定しない場合は、「デフォルト」インスタンスが使用されます。
    >    * 緊急の場合は、 **-immediate** オプションを使用して、プロセスを強制的に即時停止します(Unixコマンド **kill -9**&#x200B;と同じ)。
-   * 起動したモジュ **ールがコンソールに何も表示されないようにするには、** -noconsoleオプションを使用します。 ログは、 **syslogdモジュールを介してディスクに書き込ま** れます。
-   * プロセスアクシ **** ョンに関する追加情報を表示するには、-verboseオプションを使用します。
-
-
+   >    * 起動したモジュ **ールがコンソールに何も表示されないようにするには、** -noconsoleオプションを使用します。 ログは、 **syslogdモジュールを介してディスクに書き込ま** れます。
+   >    * プロセスアクシ **** ョンに関する追加情報を表示するには、-verboseオプションを使用します。
+      >    
+      >      
       例：
-
-
+      >    
+      >      
       **nlserver再起動web - verbose**
-
-
+      >    
+      >      
       **nlserver start mta@myinstance - verbose**
-
-
+      >    
+      >      
       このオプションは、ログを追加します。 必要な情報が見つかったら、 **-verboseオプションを使用せずにプロセスを再び開始して** 、ログのオーバーロードを防ぐことをお勧めします。
 
 
@@ -110,5 +112,6 @@ Linux( **Adobe Campaign**)でアクセス可能な通常の管理コマンドを
    **nlserver config -reload**
 
    >[!NOTE]
-   一部の設定変更は動的には考慮されません。Adobe Campaignをシャットダウンしてから再起動する必要があります。
+   >
+   >一部の設定変更は動的には考慮されません。Adobe Campaignをシャットダウンしてから再起動する必要があります。
 

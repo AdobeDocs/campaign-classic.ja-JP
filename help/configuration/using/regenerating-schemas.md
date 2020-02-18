@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -33,8 +33,7 @@ source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
 >[!NOTE]
 >
 >例えば、逆リンクの依存関係の問題を解決するために、すべてのスキーマを強制的に再生成する必要がある場合は、Adobe Campaignアプリケーションサーバーから次のコマンドを起動できます。
-
+>
 >**nlserver config -postupgrade -instance:`&lt;インスタンス名>&#39; -force**
-
+>
 >その後、Adobe Campaignアプリケーションサーバーを再起動し、クライアントコンソールから切断/再接続する必要があります。
-

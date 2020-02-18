@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaignをページのウォールに投稿できるようにするには
 1. ページの管理に使用するFacebookアカウントにログオンします。
 1. ブラウザーに次のアドレスを入力します。https://developers.facebook.com/apps [](https://developers.facebook.com/apps).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >所有しているアカウントの種類に応じて、1つ以上の承認が必要な場合があります。
    >
@@ -87,7 +87,7 @@ Adobe Campaignに対する書き込みアクセス権を委任してページの
 
 この手順では、Adobe Campaignコンソールと、ページ管理に使用するFacebookアカウントにログオンしているインターネットブラウザーの両方にアクセスする必要があります。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >この設定を行うには、Adobe Campaign演算子に管理者権限が必要です。
 
@@ -107,7 +107,7 @@ Adobe Campaignに対する書き込みアクセス権を委任してページの
 
    ![](assets/social_facebook_external_account_006.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >どのような状況でも、保護されていないURLを使用してはいけません。
 

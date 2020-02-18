@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 この節では、「購読」、「購読解除」および「配信」サービスの使用について詳しく説明します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >[キャンペーンJSAPIドキュメントには](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html) 、SOAP呼び出しとAdobe CampaignでのJavascriptの使用に関する追加情報に加え、アプリケーションで使用されるすべてのメソッドと関数への完全な参照が含まれています。
 

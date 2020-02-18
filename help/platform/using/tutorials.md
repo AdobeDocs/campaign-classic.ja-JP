@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 681e6ec5fc9ed8c7e46af04f0ed62927b30e1b2e
+source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 681e6ec5fc9ed8c7e46af04f0ed62927b30e1b2e
 Adobe Campaign の使用を開始する際は、アドビの詳細でわかりやすい手順ガイドを参照してください。
 
 * [Adobe Experience Manager での E メールコンテンツの編集](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html)：Adobe Campaign と Experience Manager を統合して開始するための基礎について説明します。
-* [一般データ保護規則（GDPR）](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html)：GDPR を遵守しながらアドビのサービスを利用するための Adobe Campaign Classic の機能について説明します。
+* [プライバシー管理](https://helpx.adobe.com/campaign/kb/acc-privacy.html):アドビのサービスを使用する際にプライバシーコンプライアンスに役立つAdobe Campaign Classicの機能を紹介します。
 * [E メールへの動的なコンテンツの統合](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/target.html)：Campaign Classic と Target Standard の統合を開始するための基礎について説明します。
 * [配信品質の管理](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html)：配信品質に関する概念とベストプラクティス、配信の送信を最適化するために Adobe Campaign Classic で提供されるツールについて説明します。
 * [配信のベストプラクティス](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html)：Adobe Campaign Classic での配信のデザインと送信に関するベストプラクティスについて学習します。

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 194d2263de0bf98afa0efc7e2e0b4ca433c95b6d
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 194d2263de0bf98afa0efc7e2e0b4ca433c95b6d
 
 配信は、配信リストから作成したり、ワークフロー内で[配信](../../workflow/using/delivery.md)アクティビティを介して作成したりできます。
 
-ワークフローには、使用するチャネルのタイプに応じた特定の配信アクティビティも用意されています。これらのアクティビティについて詳しくは、[この節](../../workflow/using/cross-channel-deliveries.md)を参照してください。
+ワークフローには、使用するチャネルのタイプに応じた特定の配信アクティビティも用意されています。For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
 
 ## 繰り返し配信 {#recurring-delivery}
 

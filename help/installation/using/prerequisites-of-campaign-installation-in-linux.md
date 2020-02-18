@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8ad1a83d40f5a841b01aaeb17fe271b44f2480dd
+source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
 
 ---
 
@@ -53,15 +53,13 @@ LinuxにAdobe Campaignをインストールするには、必要なライブラ�
 
 * OpenSSLのバー **ジョン0.9.8** または **1.0** が必要です。
 
-   RHEL 7およびCentOS 6ディストリビューションの場合は、OpenSSLのバージョン1.0が必要です。
+   RHEL 7配布の場合は、OpenSSLのバージョン1.0が必要です。
 
 * Adobe Campaignを使用するには、libicuライブラリをインストール **する** 必要があります。
 
    次のバージョンの **libicu** （32bitまたは64bit）がサポートされています。
 
-   * RHEL 6、SLES、CentOS 6:libicu4.2
    * RHEL 7、CentOS 7:libicu50
-   * Debian 7:libicu48
    * Debian 8:libicu52
    * Debian 9:libicu57
    Adobe Campaignを使用するには、libc-aresライブラリをインストールする必要があります。 RHEL/CentOSで、次のコマンドを実行します。

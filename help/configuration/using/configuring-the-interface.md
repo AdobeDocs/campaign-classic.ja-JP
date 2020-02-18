@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Campaignでは、「Nms_DefaultRcpSchema」グローバル変数を使用�
 
 新しいフォームを作成すると、外部受信者テーブルのデータを表示および編集できます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >フォームの名前は、対象となるスキーマの名前と同じにする必要があります。
 

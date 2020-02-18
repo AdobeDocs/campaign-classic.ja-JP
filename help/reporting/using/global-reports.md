@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
+source-git-commit: c4e6a9273c920c9d125ec3fb18a0628109475a4e
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 ![](assets/s_ncs_user_report_global_list.png)
 
->[!CAUTION]
+>[!NOTE]
 >
 >この節では、配信にリンクされたレポートのみを表示しています。
 
@@ -104,7 +104,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
    >
    >この指標は、モバイルチャネルでの配信のみに該当します。詳しくは、[この節](../../delivery/using/sms-channel.md)を参照してください。
 
-   You can open up each line of the value table by clicking the [+] symbol. それぞれのエラータイプについて、ドメインごとにエラーメッセージの分類を表示できます。
+   You can open up each line of the value table by clicking the `[+]` symbol. それぞれのエラータイプについて、ドメインごとにエラーメッセージの分類を表示できます。
 
    ![](assets/s_ncs_user_errors_report_detail.png)
 
@@ -295,7 +295,7 @@ The **[!UICONTROL Breakdown by version]** chart represents the breakdown of visi
    >ハードバウンスおよびソフトバウンスについて詳しくは、[強制隔離管理](../../delivery/using/understanding-quarantine-management.md)を参照してください。
 
 * **[!UICONTROL Opens]** :正常に処理されたメッセージの数と比較して、少なくとも1回メッセージを開いたターゲット受信者の数の割合。
-* **[!UICONTROL Clicks]** : percentage of the number of people who clicked in a delivery at least once compared to the number of messages processed successfully.
+* **[!UICONTROL Clicks]** :正常に処理されたメッセージの数と比較した、少なくとも1回配信をクリックした人の数の割合。
 * **[!UICONTROL Unsubscription]** :正常に処理されたメッセージ数と比較した、購読解除リンクのクリック数の割合。
 
 ## 開封の分類 {#breakdown-of-opens}

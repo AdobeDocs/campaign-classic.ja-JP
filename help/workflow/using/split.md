@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 463d2d60e8776fc0414fdb8c91dbf257e119d823
+source-git-commit: afe286211c21f4fc178ffb5f9f30baed96ebfeab
 
 ---
 
@@ -45,7 +45,7 @@ To configure this activity, define the subset content and label in the **[!UICON
 
    プロセスは、「**クエリ**」タイプアクティビティの場合と同じです。
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >最大 2 個の外部データベース（FDA）のデータをフィルターできます。
 
@@ -59,7 +59,7 @@ To configure this activity, define the subset content and label in the **[!UICON
 
    ![](assets/s_user_segmentation_partage_add.png)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >このオプシ **[!UICONTROL Enable overlapping of output populations]** ョンを選択しない場合、サブセットはタブの順序で作成されます。 ウィンドウの右上にある矢印を使用して、タブ間を移動できます。例えば、最初のサブセットが初期母集団の 70% を取り出す場合、次のサブセットの選択条件は残りの 30% のみに適用されます。
 
@@ -135,7 +135,7 @@ For instance, if you select the **[!UICONTROL Language]** field as a group field
 
 ![](assets/s_user_segmentation_partage_wz6.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >この機能を利用するには、キャンペーンのオプション、分散型マーケティングモジュールを購入する必要があります。使用許諾契約書を確認してください。
 
@@ -200,7 +200,7 @@ For instance, if you select the **[!UICONTROL Language]** field as a group field
 
       In case of a simple limitation by data grouping without local approval, you do not need to enter the **[!UICONTROL Group or operator]** field.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >オペレーターには必ず適切な権限を付与するようにしてください。
 

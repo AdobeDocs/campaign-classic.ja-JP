@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -77,7 +77,7 @@ v7では、内部と **管理者の****演算子の接続は** 、パスワー�
 nlserver config -internalpassword
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >内部パ **スワードは** 、すべてのトラッキングサーバーで同じにする必要があります。 詳しくは、「内部識別子」および「権限に [ついて](../../installation/using/campaign-server-configuration.md#internal-identifier) 」の節を [参照してください](../../platform/using/access-management.md#about-permissions) 。
 

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -90,7 +90,7 @@ Twitterアプリごとに、アプリの設定を含む異なるタイプのサ 
 
    ![](assets/social_twitter_service_009.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >サー **[!UICONTROL Internal name]** ビスの名前は、Twitterアカウントの名前と同じにする必要があります。 エントリエラーがないことを確認するには、次の手順を適用します。
 
@@ -124,7 +124,7 @@ Twitterアプリごとに、アプリの設定を含む異なるタイプのサ 
 
 ## Twitterアカウントの同期 {#synchronizing-twitter-accounts}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ワークフローでTwitter購読者のリストを回復するには、アカウントにリンクされ **[!UICONTROL Twitter account synchronization]** たサービスの編集セクションで、このボックスをチェックする必要があります。 詳しくは、「Adobe Campaignへの書き込みアク [セスの委任」を参照してください](#delegating-write-access-to-adobe-campaign)。
 

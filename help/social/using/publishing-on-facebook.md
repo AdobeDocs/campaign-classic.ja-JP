@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -78,7 +78,7 @@ Facebookには次の制限が付属しています。
 * **[!UICONTROL Cities]**
 * **[!UICONTROL Languages]**
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >この関数は注意して使用してください。 配信レポートでは、インジケー **[!UICONTROL Number of fans]** ターはこれらのFacebookフィルターを考慮しません。
 >
@@ -115,7 +115,7 @@ Facebookには次の制限が付属しています。
 
 次の各フィールドを入力します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >すべてのURLは、「http://」ま **たは「https://」で始まる****必要があります**。
 
@@ -136,7 +136,7 @@ Facebookには次の制限が付属しています。
 
 1. このフ **[!UICONTROL Image]** ィールドに、パブリケーションの左側に表示する画像のURLを入力します。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Facebookが画像をアップロードできるようにするには、公開インターネットサイトで画像をホストする必要があります。
 

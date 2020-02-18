@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
 
@@ -31,4 +31,4 @@ Adobe Campaign では、Federated Data Access（FDA）オプションを利用�
 * エンリッチメント
 * データの読み込み
 
-FDA オプションを使用するには、Adobe Campaign のライセンスが必要です。このオプションの設定やベストプラクティス、利用に関する制限については、この[節](../../platform/using/accessing-an-external-database.md)で詳しく説明しています。
+FDA オプションを使用するには、Adobe Campaign のライセンスが必要です。このオプションの設定やベストプラクティス、利用に関する制限については、この[節](../../platform/using/about-fda.md)で詳しく説明しています。

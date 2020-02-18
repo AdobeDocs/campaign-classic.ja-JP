@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 Adobe Campaignを使用すると、収集したWebトラッキング情報を受信者が匿名でサイトを閲覧する際に、受信者にリンクさせることができます。 ユーザーがWebサイトのタグ付きページを閲覧すると、この閲覧情報が収集され、Adobe Campaignから送信される電子メールをクリックすると、その情報が識別され、情報が自動的にリンクされます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Webサイトで匿名トラッキングを設定すると、大量のトラッキングログの収集がトリガーされ、データベースの操作に影響を与える可能性があります。 注意して設定します。\
 >追跡ログは、追跡データが削除されるまでデータベースに保存されます。 展開ウィザードを使用して、削除の頻度を設定します。 詳しくは、[この節](../../installation/using/deploying-an-instance.md#purging-data)を参照してください。

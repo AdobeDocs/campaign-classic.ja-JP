@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab2c133aaa2f754e56fe8fdfc76d10526d4d1ce2
+source-git-commit: f8cf2f72dcf2ab48a42faf7931ca831b6431548d
 
 ---
 
@@ -24,11 +24,11 @@ source-git-commit: ab2c133aaa2f754e56fe8fdfc76d10526d4d1ce2
 
 ## クエリの作成 {#creating-a-query}
 
-クエリを使用することで、基準に応じてターゲットを選択できます。セグメントコードをクエリの結果に関連付け、結果に追加データを挿入することができます。
+クエリを使用することで、基準に応じてターゲットを選択できます。セグメントコードをクエリの結果に関連付け、結果に追加データを挿入することができます。クエリーサンプルの詳細については、この節を参照 [してください](../../workflow/using/querying-recipient-table.md)。
 
 >[!NOTE]
 >
->クエリのサンプルについては、[この節](../../workflow/using/querying-recipient-table.md)を参照してください。
+>Oracleを使用する場合、クエリーアクティビティはCLOBフィールドと互換性がありません。
 
 ![](assets/s_user_segmentation_wizard_9.png)
 
@@ -112,7 +112,7 @@ Adobe Campaign データベースからデータを追加するには：
 
    * If a single element of the collection coincides with the filtering conditions for this collection, select **[!UICONTROL Single row]** in the **[!UICONTROL Data collected]** field.
 
-      >[!CAUTION]
+      >[!IMPORTANT]
       >
       >このモードでは、コレクション要素を直接結合することで、生成される SQL クエリを最適化します。
       >

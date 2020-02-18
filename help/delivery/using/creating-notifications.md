@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6d503847787f2a8e0c4efdef0fa2f5769ea6035b
+source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: 6d503847787f2a8e0c4efdef0fa2f5769ea6035b
    >「**サイレントプッシュ**」モードは、iOS 7 以降で利用できます。このモードでは、モバイルアプリケーションに「無音の」通知を送信します。ユーザーは、通知が到着したことを知らされません。通知は、アプリケーションに直接転送されます。
 
 1. In the **[!UICONTROL Title]** field, enter the label of the title that you want to appear on the notification. このタイトルは、通知センターから使用可能な通知のリストにのみ表示されます。このフィールドを使用して、iOS 通知ペイロードの **title** パラメーターの値を定義できます。
-1. HTTP/2 コネクタを使用する場合、サブタイトル（iOS 通知ペイロードの **subtitle** パラメーター）を追加できます。Refer to the [Connectors](../../delivery/using/setting-up-mobile-app-channel.md#connectors) section.
+1. HTTP/2 コネクタを使用する場合、サブタイトル（iOS 通知ペイロードの **subtitle** パラメーター）を追加できます。詳しくは、「Adobe Campaignのモ [バイルアプリケーションの設定](../../delivery/using/configuring-the-mobile-application.md) 」を参照してください。
 1. 次に、選択した通 **[!UICONTROL Message]** 知タイプに **[!UICONTROL Value of the badge]** 基づいて、とを入力します。
 
    ![](assets/nmac_delivery_ios_5.png)
@@ -77,13 +77,13 @@ source-git-commit: 6d503847787f2a8e0c4efdef0fa2f5769ea6035b
 
    >[!NOTE]
    >
-   >サウンドは、アプリケーションに含まれている必要があり、サービスが作成されたときに定義される必要があります。アプリケーション [サウンドを参照](../../delivery/using/setting-up-mobile-app-channel.md#application-sounds)。
+   >サウンドは、アプリケーションに含まれている必要があり、サービスが作成されたときに定義される必要があります。「iOS外部アカ [ウントの設定」を参照してください](../../delivery/using/configuring-the-mobile-application.md#configuring-external-account-ios)。
 
 1. In the **[!UICONTROL Application variables]** field, enter the value of each variable. アプリケーション変数によって、通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに特定のアプリケーション画面が表示されるように設定できます。
 
    >[!NOTE]
    >
-   >アプリケーション変数は、モバイルアプリケーションのコードで定義され、サービスの作成中に入力される必要があります。For more on this, refer to: [General information](../../delivery/using/setting-up-mobile-app-channel.md#general-information).
+   >アプリケーション変数は、モバイルアプリケーションのコードで定義され、サービスの作成中に入力される必要があります。詳しくは、次を参照してください。Adobe Campaign [でのモバイルアプリの設定](../../delivery/using/configuring-the-mobile-application.md)。
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification.
 
@@ -129,7 +129,7 @@ source-git-commit: 6d503847787f2a8e0c4efdef0fa2f5769ea6035b
 
    >[!NOTE]
    >
-   >アプリケーション変数は、モバイルアプリケーションのコードで定義され、サービスの作成中に入力される必要があります。For more on this, refer to: [General information](../../delivery/using/setting-up-mobile-app-channel.md#general-information).
+   >アプリケーション変数は、モバイルアプリケーションのコードで定義され、サービスの作成中に入力される必要があります。詳しくは、次を参照してください。Adobe Campaign [でのモバイルアプリの設定](../../delivery/using/configuring-the-mobile-application.md)。
 
 1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification.
 

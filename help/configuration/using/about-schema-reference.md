@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5130802f3723311bcd09e21fc405d298923dd20e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -79,7 +79,7 @@ Campaignの組み込みテーブルとそのインタラクションについて
 
 名前空間を使用すると、一連のスキーマを目的の領域別にグループ化できます。 例えば、 **cus** namespaceは、顧客固有の設定(customers **)に使用さ**&#x200B;れます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >標準として、名前空間の名前は簡潔で、XML命名規則に従って許可された文字のみを含める必要があります。
 >

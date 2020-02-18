@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 12f4237c34560257901ae210d4e22a7d152a795d
+source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 
 ---
 
@@ -128,7 +128,7 @@ source-git-commit: 12f4237c34560257901ae210d4e22a7d152a795d
      <li> <p>iOS でのサイレント通知のトラッキング </p> </li> 
      <li> <p>iOS での登録呼び出しに関するフィードバックの実装</p> </li> 
      <li> <p>iOS 配信準備の時間の短縮</p> </li> 
-    </ul> <p>Google の GCM 廃止予定に伴い、Android V2 コネクタは FCM サーバーにのみ接続可能になりました。</p><p>詳しくは、<a href="../../delivery/using/setting-up-mobile-app-channel.md#integrating-campaign-sdk-into-the-mobile-application">詳細ドキュメント</a>を参照してください。FCM への手動アップグレードの詳細については、<a href="https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html">記事</a>で説明しています。 </p> </td> 
+    </ul> <p>Google の GCM 廃止予定に伴い、Android V2 コネクタは FCM サーバーにのみ接続可能になりました。</p><p>詳しくは、<a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">詳細ドキュメント</a>を参照してください。FCM への手動アップグレードの詳細については、<a href="https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html">記事</a>で説明しています。 </p> </td> 
   </tr> 
   <tr> 
    <td> SQL データ管理アクティビティ<br /> </td> 

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
+source-git-commit: 6b631f8456ad1f61cec1630334d76752f6af9866
 
 ---
 
@@ -181,7 +181,7 @@ source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
    * Linuxの場合：Linux [用のWebサーバーへの統合](../../installation/using/integration-into-a-web-server-for-linux.md)
    * Windowsの場合：Windows [用Webサーバーへの統合](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. Webサイトを開始し、次のURLを使用してリダイレクトをテストします。https://tracking.campaign.net/r/test [](https://tracking.campaign.net/r/test).
+1. Webサイトを開始し、次のURLを使用してリダイレクトをテストします。https://tracking.campaign.net/r/test.
 
    ブラウザーに次のメッセージを表示する必要があります。
 
@@ -196,6 +196,10 @@ source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
 
 1. Adobe Campaignサーバー(**net start nlserver6** (Windows)、 **/etc/init.d/nlserver6 start** (Linux))を起動し、もう一度コマンドnlserver pdump **(nlserver pdump** )を実行して、すべての有効なモジュールの存在を確認します。
 
+   >[!NOTE]
+   >
+   >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）。 **systemctl start nlserver**
+
    ```
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    syslogd@default (7611) - 9.2 MB
@@ -209,7 +213,7 @@ source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
 
    また、このコマンドを使用すると、コンピューターにインストールされているAdobe Campaignサーバーのバージョンとビルド番号を知ることができます。
 
-1. 次のURLを使用し **て、nlserver Web** moduleをテストします。https://console.campaign.net/nl/jsp/logon.jsp [](https://tracking.campaign.net/r/test)
+1. 次のURLを使用し **て、nlserver Web** moduleをテストします。https://console.campaign.net/nl/jsp/logon.jsp
 
    このURLを使用すると、クライアントセットアッププログラムのダウンロードページにアクセスできます。
 
@@ -222,7 +226,7 @@ source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
    * Linuxの場合：Linux用のク [ライアントコンソールの可用性](../../installation/using/client-console-availability-for-linux.md)
    * Windowsの場合：Windows向け [クライアントコンソールの可用性](../../installation/using/client-console-availability-for-windows.md)
 
-1. Adobe Campaignクライアントコンソールを起動し（前のダウンロードページから、またはWindowsインストールの場合はサーバー上で直接起動）、サーバー接続URLをhttps://console.campaign.net [に設定し](https://console.campaign.net) 、内部ログインを使用 **して** 接続します。
+1. Adobe Campaignクライアントコンソールを起動し（前のダウンロードページから、またはWindowsインストールの場合はサーバー上で直接起動）、サーバー接続URLをhttps://console.campaign.netに設定し、内部ログインを使用して **接続** します。
 
    詳しくは、イン [スタンスの作成とログオン](../../installation/using/creating-an-instance-and-logging-on.md) 、および内部識別 [子を参照してください](../../installation/using/campaign-server-configuration.md#internal-identifier)。
 

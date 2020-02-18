@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6ae45cbd87fc0152fc654202e03501fc8d2abd06
+source-git-commit: e7df1f73dd454f826096ce4d5fe430e10fe407ad
 
 ---
 
@@ -113,8 +113,8 @@ The **[!UICONTROL Routing]** external account allows you to configure each chann
 * [エージェンシー](../../delivery/using/other-channels.md)
 * [Facebook](../../social/using/publishing-on-facebook-walls.md#delegating-write-access-to-adobe-campaign)
 * [Twitter](../../social/using/configuring-publishing-on-twitter.md)
-* [iOS チャネル](../../delivery/using/setting-up-mobile-app-channel.md#ios-connectors)
-* [Android チャネル](../../delivery/using/setting-up-mobile-app-channel.md#android-connectors)
+* [iOS チャネル](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-ios)
+* [Android チャネル](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-android)
 
 ## FTP 外部アカウント {#ftp-external-account}
 
@@ -154,10 +154,9 @@ Adobe Campaign には、外部のアプリケーションとの通信やデー�
 
 次の接続タイプを設定できます。
 
-* Oracle. 詳しくは、この[ページ](../../platform/using/accessing-an-external-database.md#configure-access-to-oracle)を参照してください。
-* MySQL. MYSQLへのアクセスを設定するには、このページを参照して [ください](../../platform/using/accessing-an-external-database.md#configure-access-to-mysql)。
-* Netezza. 詳しくは、この[ページ](../../platform/using/accessing-an-external-database.md#configure-access-to-netezza)を参照してください。
-* SAP HANA. 詳しくは、この[ページ](../../platform/using/accessing-an-external-database.md#configure-access-to-sap-hanaa)を参照してください。
+* Oracle. 詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-oracle)を参照してください。
+* Netezza. 詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-netezza)を参照してください。
+* SAP HANA. 詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-sap-hana)を参照してください。
 * InfiniDB
 * Microsoft SQL Server
 * AsterData
@@ -168,9 +167,33 @@ Adobe Campaign には、外部のアプリケーションとの通信やデー�
 * ODBC（Sybase ASE、Sybase IQ）
 * リモートデータベースへの HTTP リレー
 
+### スノーフレーク外部勘定 {#snowflake-external-account}
+
+The **Snowflake** external account allows you to connect your Campaign instance to your Snowflake external database. For more information on how to configure Campaign Classic with Snowflake, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
+
+この外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報を提供する必要があります。
+
+* **[!UICONTROL Server]**
+
+       雪片サーバのURL。
+   
+* **[!UICONTROL Account]**
+
+       ユーザーの名前。
+   
+* **[!UICONTROL Password]**
+
+       アカウントのパスワード
+   
+* **[!UICONTROL Database]**
+
+       データベースの名前。
+   
+![](assets/snowflake.png)
+
 ### Teradata 外部アカウント {#teradata-external-account}
 
-**Teradata** 外部アカウントを使用すれば、Campaign インスタンスを Teradata 外部データベースに接続することができます。For more information on how to configure Campaign Classic with Teradata, refer to this [page](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) or this [section](../../platform/using/accessing-an-external-database.md#configure-access-to-teradata).
+**Teradata** 外部アカウントを使用すれば、Campaign インスタンスを Teradata 外部データベースに接続することができます。For more information on how to configure Campaign Classic with Teradata, refer to this [page](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) or this [section](../../platform/using/specific-configuration-database.md#configure-access-to-teradata).
 
 ![](assets/ext_account_19.png)
 
@@ -198,11 +221,11 @@ Adobe Campaign には、外部のアプリケーションとの通信やデー�
 
 * **[!UICONTROL Options]**
 
-   Teradata にパスするーするオプション
+   Teradata にパスするーするオプション.
 
 * **[!UICONTROL Timezone]**
 
-   Teradata で設定されたタイムゾーン
+   Teradata で設定されたタイムゾーン.
 
 ![](assets/ext_account_20.png)
 
@@ -244,7 +267,7 @@ Facebook アプリケーションごとに、**[!UICONTROL Facebook Connect]** �
 
 * **[!UICONTROL Application secret]**
 
-   Facebook アプリケーションのアプリケーション秘密鍵。
+   Facebookアプリのアプリの秘密。
 
 「このインスタンスでホストする」モードを使用した場合、セキュアキャンバス URL を Facebook の **Facebook Web ゲーム（https）**&#x200B;フィールドに貼り付ける必要があります。
 
@@ -290,11 +313,11 @@ To connect to the Adobe Campaign console using an Adobe ID, you must configure t
 
 * **[!UICONTROL IMS client secret]**
 
-   IMS クライアント秘密鍵の資格情報
+   IMS クライアント秘密鍵の資格情報.
 
 * **[!UICONTROL Callback server]**
 
-   Adobe Campaign インスタンスのアクセス URL
+   Adobe Campaign インスタンスのアクセス URL.
 
 * **[!UICONTROL IMS organization ID]**
 
@@ -408,7 +431,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 ## Hadoop 外部アカウント {#hadoop-external-account}
 
-**[!UICONTROL Hadoop]** 外部データベースへの接続を有効にすると、この接続がアクティブである限り、データベースは Adobe Campaign 経由でアクセスできます。Hadoopへのアクセスを設定する方法について詳しくは、この節を参照してく [ださい](../../platform/using/accessing-an-external-database.md#configure-access-to-hadoop)。
+**[!UICONTROL Hadoop]** 外部データベースへの接続を有効にすると、この接続がアクティブである限り、データベースは Adobe Campaign 経由でアクセスできます。Hadoopへのアクセスを設定する方法について詳しくは、この節を参照してく [ださい](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop)。
 
 ![](assets/ext_account_16.png)
 

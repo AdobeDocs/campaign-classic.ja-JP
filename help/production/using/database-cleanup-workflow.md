@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5813af76e3cad16d9094a19509dcb855e36c01f
+source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ---
 
@@ -152,13 +152,13 @@ source-git-commit: d5813af76e3cad16d9094a19509dcb855e36c01f
 
       ここ **で、** $(l)は配信の識別子です。
 
-   * 配信ログテーブル(**NmsBroadlogXxx**)では、一括削除は10,000件のレコードのバッチで実行されます。
-   * オファー提案テーブル(**NmsPropositionXxx**)では、一括削除は10,000件のレコードのバッチで実行されます。
-   * トラッキングログテーブル(**NmsTrackinglogXxx**)では、大量削除は5,000件のレコードのバッチで実行されます。
-   * 配信フラグメントテーブル(**NmsDeliveryPart**)では、5,000件のレコードのバッチで大量削除が実行されます。 この表には、配信される残りのメッセージに関するパーソナライゼーション情報が含まれています。
-   * ミラーページデータフラグメントテーブル(**NmsMirrorPageInfo**)では、5,000件のレコードのバッチで大量削除が実行されます。 この表には、ミラーページの生成に使用されるすべてのメッセージに関するパーソナライゼーション情報が含まれています。
-   * ミラーページ検索テーブル(**NmsMirrorPageSearch**)では、5,000件のレコードのバッチで大量削除が実行されます。 このテーブルは、NmsMirrorPageInfoテーブルに保存されたパーソナライゼーション情報にアクセスできる検索イ **ンデックス** 。
-   * バッチ処理ログテーブル(**XtkJobLog**)では、5,000件のレコードのバッチで大量削除が実行されます。 この表には、削除する配信のログが含まれます。
+   * 配信ログテーブル(**NmsBroadlogXxx**)では、大量削除は20,000件のレコードのバッチで実行されます。
+   * オファー提案テーブル(**NmsPropositionXxx**)では、20,000件のレコードのバッチで大量削除が実行されます。
+   * トラッキングログテーブル(**NmsTrackinglogXxx**)では、20,000件のレコードのバッチで大量削除が実行されます。
+   * 配信フラグメントテーブル(**NmsDeliveryPart**)では、500,000件のレコードのバッチで大量削除が実行されます。 この表には、配信される残りのメッセージに関するパーソナライゼーション情報が含まれています。
+   * ミラーページデータフラグメントテーブル(**NmsMirrorPageInfo**)では、期限切れの配信部品と、完了またはキャンセルされた配信部品に対して、20,000件のレコードのバッチで一括削除が実行されます。 この表には、ミラーページの生成に使用されるすべてのメッセージに関するパーソナライゼーション情報が含まれています。
+   * ミラーページ検索テーブル(**NmsMirrorPageSearch**)では、20,000件のレコードのバッチで大量削除が実行されます。 このテーブルは、NmsMirrorPageInfoテーブルに保存されたパーソナライゼーション情報にアクセスできる検索イ **ンデックス** 。
+   * バッチ処理ログテーブル(**XtkJobLog**)では、20,000件のレコードのバッチで大量削除が実行されます。 この表には、削除する配信のログが含まれます。
    * 配信URL追跡テーブル(**NmsTrackingUrl**)では、次のクエリが使用されます。
 
       ```
@@ -576,6 +576,26 @@ DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FRO
    DROP TABLE wkSimu_456831_aggr
    ```
 
+### 監査証跡のクリーンアップ {#cleanup-of-audit-trail}
+
+次のクエリが使用されます。
+
+```
+DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
+```
+
+ここで **$(tsDate)** は、XtkCleanup_AuditTrailPurgeDelayオプションに対して定義された期間が停止された、現在のサー **** バーの日付です。
+
+### Nmsaddressのクリーンアップ {#cleanup-of-nmsaddress}
+
+次のクエリが使用されます。
+
+```
+DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WHERE iStatus=STATUS_QUARANTINE AND tsLastModified < $(NmsCleanup_AppSubscriptionRcpPurgeDelay + 5d) AND iType IN (MESSAGETYPE_IOS, MESSAGETYPE_ANDROID ) LIMIT 5000)
+```
+
+このクエリーは、iOSおよびAndroidに関連するすべてのエントリを削除します。
+
 ### 統計の更新とストレージの最適化 {#statistics-update}
 
 XtkCleanup_NoStats **オプションを使用すると** 、クリーンアップワークフローのストレージ最適化手順の動作を制御できます。
@@ -590,13 +610,15 @@ XtkCleanup_NoStats **** オプションが存在しない場合、またはそ�
 
 このタスクは、削除されたサービスまたはモバイルアプリケーションに関連する購読をすべて削除します。
 
-1. ブロードログスキーマのリストを回復するには、次のクエリーを使用します。
+ブロードログスキーマのリストを回復するには、次のクエリーを使用します。
 
-   ```
-   SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL
-   ```
+```
+SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL
+```
 
-1. 次に、タスクは、appSubscriptionリンクにリンクされたテーブルの名前を回復し **、** これらのテーブルを削除します。
+次に、タスクは、appSubscriptionリンクにリンクされたテーブルの名前を回復し **、** これらのテーブルを削除します。
+
+また、このクリーンアップワークフローは、NmsCleanup_AppSubscriptionRcpPurgeDelayオプションで設定された時間以降に更新されていない、無効な1を持つすべてのエン **トリも削除します** 。
 
 ### セッション情報のクレンジング {#cleansing-session-information}
 
@@ -613,13 +635,3 @@ XtkCleanup_NoStats **** オプションが存在しない場合、またはそ�
 ### 洗浄反応 {#cleansing-reactions}
 
 このタスクは、仮説自体が削除さ **れた反応(表NmsRemaMatchRcp**)を洗浄します。
-
-### 監査証跡のクリーンアップ {#cleanup-of-audit-trail}
-
-次のクエリが使用されます。
-
-```
-DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
-```
-
-ここで **$(tsDate)** は、XtkCleanup_AuditTrailPurgeDelayオプションに対して定義された期間が停止された、現在のサー **** バーの日付です。

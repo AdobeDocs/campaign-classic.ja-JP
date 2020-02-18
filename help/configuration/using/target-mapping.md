@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b3ab02d1fd90c3f14314508a8fa7d99df82436c
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -105,7 +105,7 @@ source-git-commit: 8b3ab02d1fd90c3f14314508a8fa7d99df82436c
 
    ![](assets/mapping_diffusion_wizard_3.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Adobe Campaignは、複数の受信者スキーマ（ターゲティングスキーマ）をサポートしません。同じブロードログスキーマまたはトラッキングログスキーマにリンクされています。 そうでないと、後でデータ調整の異常が発生する可能性があります。 この詳細については、「推奨と制限」ページ [を参照してください](../../configuration/using/about-custom-recipient-table.md) 。
 

@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: aa941e4f8803f65ce9d5f7567206b1fcc20a6dc6
 
 ---
 
 
-# 一般データ保護規則（GDPR）{#general-data-protection-regulation-gdpr}
+# プライバシーデータ保護規則{#general-data-protection-regulation-gdpr}
 
-以下に説明するワークフローは、デフォルトで&#x200B;**一般データ保護規則（GDPR）**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html)を参照してください。
+The workflows detailed below are installed with the **Privacy Data Protection Regulation** module by default. For more on this module, refer to this [article](https://helpx.adobe.com/campaign/kb/acc-privacy.html).
 
 <table> 
  <tbody> 

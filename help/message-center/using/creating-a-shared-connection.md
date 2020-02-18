@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
 
 ---
 
@@ -75,11 +75,15 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
    データ収集は、HTTP/HTTPS アクセスを使用する Web サービス経由または Federated Data Access（FDA） モジュール経由のいずれかでおこなわれます。
 
+   >[!NOTE]
+   >
+   >HTTP経由でFDAを使用する場合、Postgresデータベースを使用する実行インスタンスのみがサポートされることに注意してください。 MSSQLまたはOracleデータベースはサポートされていません。
+
    コントロールインスタンスから実行インスタンスのデータベースへ直接接続できる場合には、後者の接続方法を推奨します。直接接続できない場合は、Web サービス経由の接続を選択します。FDA アカウントには、コントロールインスタンス上に作成した個々の実行インスタンスのデータベースに接続する場合と同じアカウントを指定します。
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   Federated Data Access（FDA） について詳しくは、[外部データベースへのアクセス](../../platform/using/accessing-an-external-database.md)を参照してください。
+   Federated Data Access（FDA） について詳しくは、[外部データベースへのアクセス](../../platform/using/about-fda.md)を参照してください。
 
 1. Click **[!UICONTROL Test the connection]** to make sure the control instance and the execution instance are linked up.
 

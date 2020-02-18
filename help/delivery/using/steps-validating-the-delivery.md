@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62e6537ba306956cac3bf6e1dd18567bc1414917
+source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
 
@@ -82,7 +82,7 @@ The delivery parameters **[!UICONTROL Analysis]** tab lets you define a set of i
 
 * **[!UICONTROL Label and code of the delivery]** :画面のこのセクションに関するオプションを使用して、配信分析段階でこれらのフィールドの値を計算します。 このフ **[!UICONTROL Calculate the execution folder during the delivery analysis]** ィールドは、分析段階でこの配信アクションを含むフォルダーの名前を計算します。
 * **[!UICONTROL Approval mode]** :このフィールドでは、配信承認のタイプを選択できます。 承認モードは、検証プロセスでタ [イポロジと共に表示されます](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)。
-* **[!UICONTROL Prepare the personalization data with a workflow]** :このオプションを使用すると、配信に含まれるパーソナライゼーションデータを自動ワークフローで準備できます。 これにより、大量のデータを処理する場合（特にパーソナライゼーションデータが FDA を通じて外部テーブルから提供される場合）、配信分析のパフォーマンスを大幅に向上させることが可能です。[外部データベース](../../platform/using/accessing-an-external-database.md#optimizing-email-personalization-with-external-data)の節を参照してください。
+* **[!UICONTROL Prepare the personalization data with a workflow]** :このオプションを使用すると、配信に含まれるパーソナライゼーションデータを自動ワークフローで準備できます。 これにより、大量のデータを処理する場合（特にパーソナライゼーションデータが FDA を通じて外部テーブルから提供される場合）、配信分析のパフォーマンスを大幅に向上させることが可能です。[外部データベース](../../platform/using/additional-options.md#optimizing-email-personalization-with-external-data)の節を参照してください。
 * **[!UICONTROL Start job in a detached process]** :このオプションを使用すると、別のプロセスで配信分析を開始できます。 分析機能は、デフォルトでは、Adobe Campaign アプリケーションサーバープロセス（web nlserver）を使用します。このオプションを選択すると、アプリケーションサーバーにエラーが発生した場合でも分析を完了できます。
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]** :このオプションは、分析フェーズ中にSQLクエリログを配信仕訳帳に追加します。
 * **[!UICONTROL Ignore personalization scripts during sending]** :このオプションを使用すると、HTMLコンテンツ内のJavaScriptディレクティブの解釈を回避できます。 このオプションを選択すると、配信されるコンテンツ内に、These directives are introduced with the **&lt;%=** tag).

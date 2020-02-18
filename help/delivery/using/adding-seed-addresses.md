@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
 
@@ -38,7 +38,7 @@ To add specific seed addresses for a delivery, click the **[!UICONTROL To]** lin
 
    To do this, click the **[!UICONTROL Import seed templates...]** link and select the folder which contains the address templates. 詳しくは、シードアドレステンプレートの作 [成を参照してください](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates)。
 
-   If necessary, once they are added, you can doucle-click them or click the **[!UICONTROL Detail...]** button to adapt the content of each address.
+   If necessary, once they are added, you can double-click them or click the **[!UICONTROL Detail...]** button to adapt the content of each address.
 
 1. 挿入する制御アドレスを動的に選択する条件を作成する。
 

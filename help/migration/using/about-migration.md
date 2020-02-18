@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -28,11 +28,10 @@ source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
 
 移行は、事前に開発環境でテストし、エラーなくスムーズに実行されることを確認する必要があります。 本番環境の移行は、移行した開発環境が完全に承認された後にのみ行う必要があります。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >移行を開始する前に、このガイド全体をお読み **ください**。
 
 >[!NOTE]
 >
 >Adobe Campaign v7の新機能と進化については、このページを参照し [てください](https://docs.campaign.adobe.com/doc/AC/en/RN.html)。
-

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 31f30db6eaf1fee43f9f757124e3fa8ed1d0075f
 
 ---
 
@@ -95,7 +95,7 @@ AEM 外部アカウントを設定するには、以下の手順に従います�
 
 ### AEM リソースフィルターの設定 {#configure-aem-resources-filtering}
 
-**AEMResourceTypeFilter **オプションは、Adobe Campaignで使用できるExperience Managerリソースのタイプをフィルターするために使用します。 これにより、Adobe Campaign は、Adobe Campaign のみで使用するように特別に設計された Experience Manager コンテンツを取得することができます。
+**AEMResourceTypeFilter** オプションは、Adobe Campaign で使用できる Experience Manager リソースのタイプをフィルターするために使用します。これにより、Adobe Campaign は、Adobe Campaign のみで使用するように特別に設計された Experience Manager コンテンツを取得することができます。
 
 **[!UICONTROL AEMResourceTypeFilter]** オプションが設定されているかどうかを確認するには：
 
@@ -122,7 +122,7 @@ AEM 外部アカウントを設定するには、以下の手順に従います�
 
 1. AEM オーサリングインスタンスから AEM パブリッシュインスタンスにレプリケートするように&#x200B;**レプリケーション**&#x200B;を設定します。
 
-   レプリケーションの設定方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/replication.html)を参照してください。
+   レプリケーションの設定方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/replication.html)を参照してください。
 
 1. オーサーインスタンスに統合 **FeaturePack** をインストールし、パブリッシュインスタンスにインストールをレプリケートします（AEM バージョン 5.6.1 および 6.0 のみ）。
 
@@ -130,9 +130,9 @@ AEM 外部アカウントを設定するには、以下の手順に従います�
 
 1. 専用の&#x200B;**クラウドサービス**&#x200B;を設定し、Adobe Experience Manager を Adobe Campaign に接続します。
 
-   クラウドサービス経由で両方のソリューションを接続する方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager)を参照してください。
+   クラウドサービス経由で両方のソリューションを接続する方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager)を参照してください。
 
 1. **Externalizer サービス**&#x200B;を設定します。
 
-   設定方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/externalizer.html)を参照してください。
+   設定方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/externalizer.html)を参照してください。
 

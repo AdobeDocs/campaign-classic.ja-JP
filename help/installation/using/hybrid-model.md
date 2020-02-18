@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
 * パッケージのインストール：本項を参照 [](../../installation/using/installing-campaign-standard-packages.md)。
 * 配信品質：mxルール [と電子メー](../../installation/using/email-deliverability.md#mx-configuration) ル形式の設定 [](../../installation/using/email-deliverability.md#managing-email-formats)。 配信品質ツールとベストプラクティスの詳細については、「はじめに」ガイド [と詳細なドキュメン](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) トを [参照してください](../../delivery/using/about-deliverability.md)。
 * キャンペーンオプションの設定：本項を参照 [](../../installation/using/configuring-campaign-options.md)。
-* 外部データベース(FDA)の設定：本項を参照 [](../../platform/using/accessing-an-external-database.md)。
+* 外部データベース(FDA)の設定：本項を参照 [](../../platform/using/about-fda.md)。
 * CRMコネクタの設定：本項を参照 [](../../platform/using/crm-connectors.md)。
 * ミッドソーシングのデプロイメントの原則の詳細については、この節を参照して [くださ](../../installation/using/mid-sourcing-deployment.md)い。
 

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 463d2d60e8776fc0414fdb8c91dbf257e119d823
+source-git-commit: 80b500653f5cfe216b32db045974b18d85838d9a
 
 ---
 
@@ -74,11 +74,11 @@ The variables are the free properties of the **[!UICONTROL instance]**, **[!UICO
 
 ### インスタンス変数 {#instance-variables}
 
-インスタンス変数(**[!UICONTROL instance.vars.xxx]**)は、グローバル変数と同等です。すべてのアクティビティで共有されます。
+The instance variables (**[!UICONTROL instance.vars.xxx]**) are comparable to global variables. この変数はすべてのアクティビティが共有します。
 
 ### タスク変数 {#task-variables}
 
-タスク変数(**[!UICONTROL task.vars.xxx]**)は、ローカル変数と同等です。これらは、現在のタスクでのみ使用されます。 この変数は、永続的なアクティビティでデータの維持に使用されるほか、同じアクティビティの別々のスクリプトでデータを交換する場合に使用されることもあります。
+The task variables (**[!UICONTROL task.vars.xxx]**) are comparable to local variables. 現在のタスクのみが使用します。この変数は、永続的なアクティビティでデータの維持に使用されるほか、同じアクティビティの別々のスクリプトでデータを交換する場合に使用されることもあります。
 
 ### イベント変数 {#event-variables}
 

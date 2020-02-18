@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: c25e2a4f2280cdcc61e0522f8235149410b5dacf
 
 ---
 
@@ -166,6 +166,6 @@ net stop nlserver6
 次の環境変数を追加します。
 
 ```
-OOO_BASIS_INSTALL_DIR="C:\Program Files (x86)\LibreOffice 5\"
+OOO_BASIS_INSTALL_DIR="C:\Program Files (x86)\LibreOffice 6\"
 ```
 

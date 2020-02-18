@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9b3508fee3b441752648258b1bc9d5d2b919791
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -171,7 +171,7 @@ _operation (string)、advanced (boolean)、applicableIf (string)、autoIncrement
 * **userEnum (string)**:は、「open」列挙の内部名を受け取ります。 列挙の値は、インターフェイス内のユーザーによって定義できます。
 * **visibleIf (string)**:属性の表示/非表示を切り替える条件をXTK式の形式で定義します。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >属性は非表示ですが、そのデータにはアクセスできます。
 

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -304,7 +304,7 @@ XMLフィールドを使用すると、データベースの物理構造を変�
 
 ACC 18.10からは、 **XtkNewIdは** 、あらかじめ用意されているスキーマのシーケンスのデフォルト値ではなくなりました。 これで、スキーマを作成したり、専用のシーケンスを使用して既存のスキーマを拡張したりできるようになりました。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >新しいスキーマを作成するときや、スキーマ拡張の際には、スキーマ全体で同じプライマリキーシーケンス値（@pkSequence）を維持する必要があります。
 
@@ -346,7 +346,7 @@ ACC 18.10からは、 **XtkNewIdは** 、あらかじめ用意されているス
 
 キーとそのインデックスの定義に加えて、自動生成された主キーを含めるために、拡張スキーマに「id」と呼ばれる数値フィールドが追加されました。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >主キーが0に設定されたレコードは、テーブルの作成時に自動的に挿入されます。 このレコードは、ボリュームテーブルで有効でない外部結合を避けるために使用されます。 デフォルトでは、すべての外部キーは値0で初期化され、データ項目が入力されていない場合に結果を常に結合時に返すことができます。
 
@@ -373,7 +373,7 @@ ACC 18.10からは、 **XtkNewIdは** 、あらかじめ用意されているス
 * ![](assets/join_fda_11.png) :基数1-1
 * ![](assets/join_fda_1m.png) :基数1-N
 
-For more information on FDA tables, refer to [Accessing an external database](../../platform/using/accessing-an-external-database.md).
+For more information on FDA tables, refer to [Accessing an external database](../../platform/using/about-fda.md).
 
 リンクは、メイン要素を介してリンクされたテーブルの外部キーを含むスキーマで宣言する必要があります。
 

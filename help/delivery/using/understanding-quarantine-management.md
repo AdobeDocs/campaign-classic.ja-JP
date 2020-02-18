@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 16e7266a101b4abea3271c32fcc403e7d7fbaa2d
 
 ---
 
@@ -116,15 +116,23 @@ Adobe Campaignは、配信失敗タイプと、エラーメッセージの資格
 
 * **無視のエラー**：アドレスを強制隔離しません。
 * **ハードエラー**：対応する E メールアドレスがただちに強制隔離されます。
-* **ソフトエラー**：ただちにアドレスが強制隔離されることはありませんが、エラーカウンターがインクリメントされます。エラーカウンターが制限しきい値に達すると、アドレスが強制隔離されます。デフォルトの設定では、しきい値はエラー 5 回に設定されています。2 つのエラーは、24 時間以上間隔を開けて発生する場合に意味を持ちます。6 回目のエラー発生時にアドレスが強制隔離されます。エラーカウンターのしきい値は変更できます。この詳細については、「配信の一時的な失敗後 [の再試行」を参照してください](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
-
-   再試行後に配信が成功すると、成功前は強制隔離されていたアドレスのエラーカウンターが再初期化されます。アドレスのステータスが「**有効**」に変わり、**データベースクリーンアップ**&#x200B;ワークフローによって、2 日後に強制隔離のリストから削除されます。
+* **ソフトエラー**：ただちにアドレスが強制隔離されることはありませんが、エラーカウンターがインクリメントされます。詳しくは、「ソフトエラー管理」を [参照してください](#soft-error-management)。
 
 ユーザーが E メールをスパム（**フィードバックループ**）と評価した場合、メッセージはアドビが管理するテクニカルメールボックスに自動的にリダイレクトされます。さらに、その E メールアドレスは自動的に強制隔離されます。
 
 In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. Adobe Campaignでの検疫では、大文字と小文字が区別されます。 後で再ターゲット設定されないように、電子メールアドレスは小文字でインポートしてください。
 
 ![](assets/tech_quarant_error_reasons.png)
+
+### ソフトエラー管理 {#soft-error-management}
+
+ハードエラーとは異なり、ソフトエラーは直ちに検疫にアドレスを送信せず、代わりにエラーカウンターを増分します。
+
+* エラーカウンターが制限しきい値に達すると、アドレスは検疫に入ります。
+* デフォルトの設定では、しきい値はエラー 5 回に設定されています。2 つのエラーは、24 時間以上間隔を開けて発生する場合に意味を持ちます。6 回目のエラー発生時にアドレスが強制隔離されます。
+* エラーカウンターのしきい値は変更できます。この詳細については、「配信の一時的な失敗後 [の再試行」を参照してください](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
+
+エラーカウンターは、最後の重大なエラーが10日以上前に発生した場合に再初期化されます。 The address status then changes to **Valid** and it is deleted from the list of quarantines by the **Database cleanup** workflow.
 
 ## プッシュ通知の強制隔離 {#push-notification-quarantines}
 

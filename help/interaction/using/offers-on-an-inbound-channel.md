@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: aa0eb7acfb5d3b622475544735aed37d6beea892
 
 ---
 
@@ -30,9 +30,9 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
 1. [匿名環境の作成](#creating-an-anonymous-environment)
 1. [匿名オファースペースの作成](#creating-anonymous-offer-spaces)
-1. [オファーカテゴリとテーマを作成します](#creating-an-offer-category-and-a-theme)。
-1. [匿名オファーを作成します](#creating-anonymous-offers)。
-1. [Web サイト上の Web オファースペースの設定](#configure-the-web-offer-space-on-the-website).
+1. [オファーカテゴリとテーマの作成](#creating-an-offer-category-and-a-theme)
+1. [匿名オファーを作成します。](#creating-anonymous-offers)
+1. [Web サイト上の Web オファースペースの設定](#configure-the-web-offer-space-on-the-website)
 
 ### 匿名環境の作成 {#creating-an-anonymous-environment}
 

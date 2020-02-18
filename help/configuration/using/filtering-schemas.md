@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -103,7 +103,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 * xtk:strings
 * xtk:xslt
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >xtk:sessionInfoスキーマの読み取り権限と書き込み権限は **** 、Adobe Campaignインスタンスの内部アカウントからのみアクセスできます。
 

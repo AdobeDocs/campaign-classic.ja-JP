@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed5390b4f620c3cddaf9b856f3354dc5f06f4d98
+source-git-commit: 33bf5c5a08613cf88eaace91b85a76157cac7ba1
 
 ---
 
@@ -24,13 +24,21 @@ source-git-commit: ed5390b4f620c3cddaf9b856f3354dc5f06f4d98
 
 ## プライバシーと同意について {#about-privacy-and-consent}
 
-Adobe Campaign は、個人情報を含む膨大な量のデータを収集および処理するための強力なツールです。当社では、Adobe Campaign のすべてのユーザーに対し、法律（DPA、CAN-SPAM、プライバシーと電子通信に関する EU 指令、欧州 GDPR など）の範囲内で使用すること、個人情報の倫理的な使用に責任を持つこと、未承諾の電子メールやプッシュ通知、SMS メッセージ（「スパム」）の送信を控えることを奨励しています。当社は、顧客の生涯価値およびロイヤリティを促進するうえで許可型マーケティングの原則を重要視しています。したがって、未承諾メッセージの送信に Adobe Campaign を使用することを固く禁止しています。
+Adobe Campaign は、個人情報を含む膨大な量のデータを収集および処理するための強力なツールです。アドビは、Adobe Campaignの全ユーザーに対し、法制（DPA、CAN-SPAM、欧州プライバシーと電子通信に関する指令、欧州GDPR、CCPAなど）の範囲内での作業、個人情報の責任ある倫理的な使用、および迷惑メール、プッシュ通知、SMSメッセージ（「スパム」）の送信を禁止するよう勧めます。 当社は、顧客の生涯価値およびロイヤリティを促進するうえで許可型マーケティングの原則を重要視しています。したがって、未承諾メッセージの送信に Adobe Campaign を使用することを固く禁止しています。
 
 詳しくは、[Adobe Experience Cloud のプライバシー](https://www.adobe.com/privacy/marketing-cloud.html)を参照してください。
 
-Adobe Campaign は、GDPR を遵守しながらアドビのサービスを利用するためのツールと機能、ベストプラクティスを提供します。[このドキュメント](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/ACC_GDPR.html)を参照してください。
-
 ここで、[セキュリティとプライバシーチェックリスト](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html)を参照して、セキュリティとプライバシーに関してチェックすべき重要な要素を確認します。
+
+## プライバシーの管理 {#privacy-management}
+
+GDPR(General Data Protection Regulation)は、データ保護要件を調和し、最新化するEUプライバシー法です。 GDPR は、EU に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。
+
+CCPA（カリフォルニア消費者プライバシー法）は、カリフォルニア州在住者に対して個人情報に関する新たな権利を提供し、カリフォルニア州でビジネスを行う特定の事業者に対するデータ保護責任を課します。
+
+同意管理、データ保持設定、権限管理に加えて、Data Processorとしての役割に、特定のプライバシー要求に対するData Controllerとしての準備を容易にする追加機能を提供します。
+
+この記事で [は](https://helpx.adobe.com/campaign/kb/acc-privacy.html)、Adobe Campaignが各種プライバシーキー機能の管理に役立つ方法について説明します。アクセス権、忘れ去られる権利、同意、データ保存、ユーザの役割 また、アドビのサービスを使用する際にプライバシーコンプライアンスに関するサポートを受けるためのベストプラクティスもご覧いただけます。
 
 ## Cookie とトラッキング機能 {#cookies-and-tracking-capabilities}
 

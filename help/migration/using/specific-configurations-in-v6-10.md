@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 305906f001203f1922266ab370fcc942458f9e8d
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 305906f001203f1922266ab370fcc942458f9e8d
 
 6.10プラットフォームから移行する場合、クライアントコンソールが8104ビルドより古い場合は、アップデートする必要があります。 移行前にこの操作を行わない場合は、再接続時にクライアントコンソールを更新するように求められます。 クリック **[!UICONTROL Yes]**.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >更新を拒否すると、接続できなくなります。
 

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 703fa6e5d5e6f1c8c512bd65ebadad724f02ded3
+source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign v5.11のホームページは使用できなくなりました。
 
 ## MySQL {#mysql}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >MySQLは、バージョン6.02または5.11からこのエンジンを使用して移行する場合に、メインデータベースエンジンとしてv7でのみサポートされます。
 

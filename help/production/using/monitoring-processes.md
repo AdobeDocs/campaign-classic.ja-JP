@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 954018e1016fc924064bd795066f80704499f6a7
 
 ---
 
@@ -417,7 +417,7 @@ XML形式で次のような行が表示されます。
 
 #### /nl/jsp/monitor.jsp {#nl-jsp-monitor-jsp}
 
-これは、オペレーターがWebページを介してAdobe Campaignサーバーにアクセスできるかどうかを確認するテストです。クライアントコンソールメニューからアクセスしたのと同じWebページ。 監視ツール（Tivoli、Nagiosなど）に含めることをお勧めします。
+これは、オペレーターがWebページを介してAdobe Campaignサーバーにアクセスできるかどうかを確認するテストです。クライアントコンソールメニューからアクセスしたのと同じWebページ。 このページは、監視ツール（Tivoli、Nagiosなど）から呼び出すことができます。
 
 ![](assets/ncs_monitoring_web.png)
 

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9d7cbe5f2407deb8fd2e00a60bf9e3789101e6ff
+source-git-commit: 09fa3751d94fd71a68470174dd0b4a48d94d3f44
 
 ---
 
@@ -1555,6 +1555,12 @@ mtaノードの様々なパラメーターを次に **示します** 。 これ�
    <td> 未定義の場合は、最新バージョンが使用されます。 <br /> </td> 
   </tr> 
   <tr> 
+   <td> useMomentum<br /> </td> 
+   <td> 「true」に設定した場合、インスタンスは拡張MTAを使 <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html" target="_blank">用します</a>。<br /> </td> 
+   <td> ブール値<br /> </td> 
+   <td> <br /> </td>b 
+  </tr>
+  <tr> 
    <td> verifyMode<br /> </td> 
    <td> Verification mode: activates the verify mode (no physical transmission of messages; used for simulation and tests).<br /> </td> 
    <td> ブール値<br /> </td> 
@@ -1571,7 +1577,7 @@ mtaノードの様々なパラメーターを次に **示します** 。 これ�
    <td> X-Mailer field: value of field 'X-Mailer' in SMTP mail header.<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'nlserver, Build $(PRODUCT_VERSION)'<br /> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 

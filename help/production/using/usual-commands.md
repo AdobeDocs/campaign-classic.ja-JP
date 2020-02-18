@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
+source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
 
 ---
 
@@ -108,6 +108,10 @@ Adobe Campaignサービスを停止するには、次のいずれかのコマン
       /etc/init.d/nlserver6 stop
       ```
 
+      >[!NOTE]
+      >
+      >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）。systemctl **stop nlserver**
+
    * Windowsの場合：
 
       ```
@@ -127,6 +131,11 @@ Adobe Campaignサービスを停止するには、次のいずれかのコマン
 * rootまたは管理者アクセス権を持っている場合：
 
    * Linuxの場合：/etc/init.d/nlserver6 start
+
+      >[!NOTE]
+      >
+      >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）。 **systemctl start nlserver**
+
    * Windowsの場合：net start nlserver6
 
 * それ以外の場合は、Adobe Campaignアカウントで次の操作を行います。 **nlserver watchdog -svc -noconsole**

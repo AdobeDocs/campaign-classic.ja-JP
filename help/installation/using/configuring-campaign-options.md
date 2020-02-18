@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 93a19c765e8d3de0fcbc29e27202fcbd2da6d32f
+source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
 
 ---
 
@@ -223,8 +223,8 @@ source-git-commit: 93a19c765e8d3de0fcbc29e27202fcbd2da6d32f
    <td> E メールアドレスで有効な文字.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span><br /> </td> 
-   <td> 同期ワークフローが実行されるたびにリカバリされるブロードログの数を制限するために、最大期間（時間単位）を指定できます。 <a href="../../platform/using/accessing-an-external-database.md#cloud-messaging---fda-synchronization">この節</a>を参照してください。<br /> </td> 
+   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span><br /> </td>
+   <td> 同期ワークフローが実行されるたびにリカバリされるブロードログの数を制限するために、最大期間（時間単位）を指定できます。</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span><br /> </td> 

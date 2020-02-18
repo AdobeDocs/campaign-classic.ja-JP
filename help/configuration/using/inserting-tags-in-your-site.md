@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
 
 このメソッドは、追跡するWebページのHTMLソースコードに **`<img>`** HTMLタグを挿入することによって、リダイレクトサーバーにHTTP呼び出しを送信することから構成されます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >この方法では、Webブラウザーから送信されたcookieを使用して受信者を識別しますが、信頼性は100 %ではありません。
 

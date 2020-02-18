@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
+source-git-commit: 4a71d93e7e3284eaeb36b3536204474947d695f5
 
 ---
 
@@ -36,7 +36,11 @@ Adobe Campaign で E メールまたはランディングページを編集中�
 * Adobe Experience Manager **パブリッシュ**&#x200B;インスタンス
 * Adobe Campaign インスタンス
 
-Adobe Campaignは、Adobe Experience Manager 6.1、6.2、6.3および6.4と互換性があります。以下の各項では、統合の概要について説明します。
+Adobe Campaignは、Adobe Experience Manager 6.1、6.2、6.3、6.4および6.5と互換性があります。以下の各項では、統合の概要について説明します。
+
+>[!NOTE]
+>
+>Adobe Campaign Classicテンプレートは、Adobe Experience Manager 6.5では使用できなくなりました。
 
 詳しくは、お使いの Adobe Experience Manager のバージョンで提供されるドキュメントを参照してください。
 
@@ -44,4 +48,4 @@ Adobe Campaignは、Adobe Experience Manager 6.1、6.2、6.3および6.4と互�
 * [Adobe Experience Manager 6.2 の場合はここをクリックしてください。](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/campaign/campaignonpremise.html)
 * [Adobe Experience Manager 6.3 の場合はここをクリックしてください。](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/campaignonpremise.html)
 * [Adobe Experience Manager 6.4 の場合はここをクリックしてください。](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.html)
-
+* [Adobe Experience Manager 6.5 の場合はここをクリックしてください。](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html)

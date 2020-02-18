@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
+source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
@@ -72,7 +72,7 @@ To create a delivery linked to a campaign, click the **[!UICONTROL Add a deliver
 
 [ワークフローによる自動化](../../workflow/using/executing-a-workflow.md#architecture)ガイドでは、ワークフローモジュールの仕組みについて、詳しく説明しています。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >同じキャンペーン内に 28 を超えるワークフローを設定することはできません。この上限を超えると、追加のワークフローはインターフェイスに表示されず、エラーが発生する可能性があります。
 
@@ -233,7 +233,7 @@ Targeting workflows can be launched manually via the **[!UICONTROL Start]** butt
    ![](assets/s_ncs_user_edit_op_target_del.png)
 
 1. タブをクリッ **[!UICONTROL Control group]** クし、を選択しま **[!UICONTROL Enable and edit control group configuration]**&#x200B;す。
-1. クリックし **[!UICONTROL Edit...]** てコントロールグループを構成します
+1. をクリック **[!UICONTROL Edit...]** して、コントロールグループを構成します。
 
 構成手順は、「メインターゲッ [トからの制御グループの抽出](#extracting-the-control-group-from-the-main-target) 」と「母集団の [追加」で説明します](#adding-a-population)。
 
@@ -353,7 +353,7 @@ Once all approvals have been granted, the delivery status changes to **[!UICONTR
 
 レポート、写真、Web ページ、ダイアグラムなど、様々なドキュメントをキャンペーンに関連付けることができます。これらのドキュメントには、あらゆるフォーマット（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDF など）を使用できます。To link documents with a campaign, see [Adding documents](#adding-documents).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >このモードはサイズの小さいドキュメント専用です。
 

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f03e1fbb94bbd5b00fa0094a0b5e9be45629ec7
+source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 7f03e1fbb94bbd5b00fa0094a0b5e9be45629ec7
 
 ![](assets/social_webapp_fb_000.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Facebookアプリケーションの作成で説明されている設定手 [順に従ってください](../../social/using/creating-a-facebook-application.md)。
 
@@ -44,7 +44,7 @@ source-git-commit: 7f03e1fbb94bbd5b00fa0094a0b5e9be45629ec7
 * 設定をFacebookアプリケーションに転送する方法を説明します。 設定をFacebookア [プリに転送する方法を参照してください](#how-to-forward-settings-to-a-facebook-application-)。
 * ファンデータの取得方法。 ファンデ [ータの取得方法を参照](#how-to-acquire-fan-data-)。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >以下の単純な使用例は、FacebookタイプのWebアプリケーションの機能を示す例として提供されています。
 
@@ -97,7 +97,7 @@ App01アプリのタブがFacebookページに表 **示される** ことを確�
 
 ## 設定をFacebookアプリケーションに転送する方法を教えてください。 {#how-to-forward-settings-to-a-facebook-application-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >「Facebookアプリケーションの作成」で詳しく説 [明されている設定手順に従います](../../social/using/creating-a-facebook-application.md)。
 

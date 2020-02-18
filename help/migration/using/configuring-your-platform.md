@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34cd6e6cf5652c9e2163848c2b1ef32f53ee6ca4
+source-git-commit: 40391fbea53757decb48fd937f5e74e8ba6fb207
 
 ---
 
@@ -45,8 +45,6 @@ Adobe Campaign v7に移行する際は、次の要素を設定する必要があ
    「マルチタイムゾーン」モードを使用する場合は、タイムゾーンの節を参照 [してください](../../migration/using/general-configurations.md#time-zones) 。
 
    Oracleをデータベースとして使用する場合は、Oracleタイムゾーン・ファイルがアプリケーション・サーバーとデータベース・サーバーの間で正しく同期されていることを確認します。 For more on this, refer to the [Oracle](../../migration/using/general-configurations.md#oracle) section.
-
-   さらに、v.5.11プラットフォームからの移行中に、MySQLで追加の設定を実行する必要があります。 For more information, refer to the [MySQL](../../migration/using/specific-configurations-in-v5-11.md#mysql) section.
 
 * セキュリティゾーン
 

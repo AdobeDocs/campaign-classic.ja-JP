@@ -47,11 +47,11 @@ By default, Interaction comes with a **[!UICONTROL Design]** environment and a *
 
 デフォルトでは、インタラクションには、受信者テーブルをターゲットとするように事前設定された環境（識別されたオファー）が 1 つ用意されています。別のテーブル（匿名オファー用の訪問者テーブルや特定の受信者テーブル）をターゲットにするには、次の設定を適用する必要があります。
 
-1. > >ノードにカーソルを **[!UICONTROL Administration]** 置き **[!UICONTROL Campaign management]** ま **[!UICONTROL Delivery mappings]** す。 使用する配信マッピングを右クリックし(匿名オファー&#x200B;**[!UICONTROL Visitors]** を使用する場合)、/を選択 **[!UICONTROL Actions]** します **[!UICONTROL Modify the options of the targeting dimension]**。
+1. **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Delivery mappings]** ノードにカーソルを置きます。 使用する配信マッピングを右クリックし(匿名オファー&#x200B;**[!UICONTROL Visitors]** を使用する場合)、 **[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]** を選択します。
 
    ![](assets/offer_env_anonymous_001.png)
 
-1. をクリ **[!UICONTROL Next]** ックして、ウィザードの次の画面に進み、ボックスをオンにし **[!UICONTROL Generate a storage schema for propositions]** てをクリックしま **[!UICONTROL Save]**&#x200B;す。
+1. **[!UICONTROL Next]** をクリックして、ウィザードの次の画面に進み、 **[!UICONTROL Generate a storage schema for propositions]** ボックスをオンにして **[!UICONTROL Save]**&#x200B;をクリックしま す。
 
    ![](assets/offer_env_anonymous_002.png)
 

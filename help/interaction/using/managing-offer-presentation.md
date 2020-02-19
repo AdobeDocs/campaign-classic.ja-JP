@@ -38,7 +38,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
    ![](assets/offer_typology_002.png)
 
 1. ルールの適用条件を設定します。詳しくは、「プレゼンテーションルールの設定」 [を参照してください](#presentation-rule-settings)。
-1. > > > **[!UICONTROL Administration]** > **[!UICONTROL Campaign execution]** nodeに移動し、すべてのタイ **[!UICONTROL Typology management]** プルールをグループ化するタイポロジを **[!UICONTROL Typologies]****[!UICONTROL Offer presentation]** 作成します。
+1. **[!UICONTROL Administration]** > **[!UICONTROL Campaign execution]** nodeに移動し、すべてのタイ **[!UICONTROL Typology management]** プルールをグループ化するタイポロジを **[!UICONTROL Typologies]****[!UICONTROL Offer presentation]** 作成します。
 
    ![](assets/offer_typology_003.png)
 

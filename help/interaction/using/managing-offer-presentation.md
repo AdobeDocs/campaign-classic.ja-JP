@@ -28,7 +28,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## オファープレゼンテーションルールの作成および参照 {#creating-and-referencing-an-offer-presentation-rule}
 
-1. > > **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** nodeに移動し **[!UICONTROL Typology rules]** ます。
+1. \> > **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** nodeに移動し **[!UICONTROL Typology rules]** ます。
 1. Create a typology rule and choose the **[!UICONTROL Offer presentation]** type.
 
    ![](assets/offer_typology_001.png)

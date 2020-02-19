@@ -38,7 +38,7 @@ Campaign Standard でレプリケートされない追加データを必要と�
 
 これをおこなうには、以下が必要です。
 
-* Campaign v7 データベースに格納され、Campaign Standard と同期された受信者。「プロファイルの同 [期](../../integrations/using/synchronizing-profiles.md) 」を参照。
+* Campaign v7 データベースに格納され、Campaign Standard と同期された受信者。「[プロファイルの同期](../../integrations/using/synchronizing-profiles.md) 」を参照。
 * Campaign v7 データベースの nms:recipients に関連するテーブルに格納された購読またはトランザクションなどの追加データ。これらのデータは、Campaign v7 OOB スキーマまたはカスタムテーブルから取得されます。これらは同期されないので、デフォルトでは Campaign Standard では使用できません。
 * Campaign v7 と Campaign Standard の両方でワークフローを実行するための権限。
 * Campaign Standard で配信を作成および実行するための権限。
@@ -55,7 +55,7 @@ Campaign Standard でレプリケートされない追加データを必要と�
 
 最終オーディエンスおよびその追加データを取得するには
 
-1. > >から新しいワークフ **[!UICONTROL Profiles and Targets]** ローを作 **[!UICONTROL Jobs]** 成しま **[!UICONTROL Targeting workflows]**&#x200B;す。
+1. **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**&#x200B;から新しいワークフローを作成します。
 1. Add a **[!UICONTROL Query]** activity and select the recipients that you want to send final email to. （例：18 ～ 30 歳のフランス在住のすべての受信者）。
 
    ![](assets/acs_connect_query1.png)
@@ -64,19 +64,19 @@ Campaign Standard でレプリケートされない追加データを必要と�
 
    この例では、受信者が 1 年間に受け取った配信数の集計を追加する方法を示します。
 
-   で、を選 **[!UICONTROL Query]**&#x200B;択します **[!UICONTROL Add data...]**。
+   **[!UICONTROL Query]**&#x200B;で、 **[!UICONTROL Add data...]** を選 択します。
 
    ![](assets/acs_connect_query2.png)
 
-1. を選択し、 **[!UICONTROL Data linked to the filtering dimension]** をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. **[!UICONTROL Data linked to the filtering dimension]** を選択し、 **[!UICONTROL Next]**&#x200B;をクリックします。
 
    ![](assets/acs_connect_query3.png)
 
-1. を選択 **[!UICONTROL Data linked to the filtering dimension]** し、ノードを選択してを **[!UICONTROL Recipient delivery logs]** クリックしま **[!UICONTROL Next]**&#x200B;す。
+1. **[!UICONTROL Data linked to the filtering dimension]** を選択し、**[!UICONTROL Recipient delivery logs]** ノードを選択して **[!UICONTROL Next]**&#x200B;をクリックします。
 
    ![](assets/acs_connect_query4.png)
 
-1. フィールド **[!UICONTROL Aggregates]** 内でを選択し、 **[!UICONTROL Data collected]** をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. フィールド **[!UICONTROL Data collected]** 内で **[!UICONTROL Aggregates]** を選択し、 **[!UICONTROL Next]**&#x200B;をクリックします。
 
    ![](assets/acs_connect_query5.png)
 
@@ -87,11 +87,12 @@ Campaign Standard でレプリケートされない追加データを必要と�
 1. 出力列を定義します。ここで必要な列は、配信数を集計する列のみです。方法は次のとおりです。
 
    * Select **[!UICONTROL Add]** on the right of the window.
-   * ウィンドウで、 **[!UICONTROL Select field]** をクリックしま **[!UICONTROL Advanced selection]**&#x200B;す。
-   * を選択 **[!UICONTROL Aggregate]**&#x200B;し、次に **[!UICONTROL Count]**。 オプションを **[!UICONTROL Distinct]** 選択し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
+   * ウィンドウで **[!UICONTROL Select field]** 、 **[!UICONTROL Advanced selection]**&#x200B;をクリックします。
+   * を選択 **[!UICONTROL Aggregate]**&#x200B;し、次に **[!UICONTROL Count]** オプションを **[!UICONTROL Distinct]** 選択し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
    * フィールドのリストで、**Count** 関数で使用したフィールドを選択します。Choose a field that will always be populated, for example the **[!UICONTROL Primary key]** field, and click **[!UICONTROL Finish]**.
    * Change the expression in the **[!UICONTROL Alias]** column. このエイリアスを使用すると、最終配信で追加された列を簡単に取得できます（例：**NBdeliveries**）。
    * をクリック **[!UICONTROL Finish]** し、アクティビティ設定 **[!UICONTROL Query]** を保存します。
+   
    ![](assets/acs_connect_query7.png)
 
 1. ワークフローを保存します。次の節では母集団を ACS と共有する方法について説明します。
@@ -102,7 +103,7 @@ Once the target population is defined, you can share it with ACS through a **[!U
 
 1. In the workflow created previously, add a **[!UICONTROL List update]** activity and specify the list you want to update or create.
 
-   Campaign v7 でリストを保存するフォルダーを指定します。リストは実装時に定義されたフォルダーマッピングに依存します。Campaign Standard で共有すると、表示に影響する可能性があります。「権利変換」の節 [を参照](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion) 。
+   Campaign v7 でリストを保存するフォルダーを指定します。リストは実装時に定義されたフォルダーマッピングに依存します。Campaign Standard で共有すると、表示に影響する可能性があります。「[権利変換](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion)」の節を参照 。
 
 1. このオプションがオンにな **[!UICONTROL Share with ACS]** っていることを確認します。 デフォルトでオンになっています。
 
@@ -112,7 +113,7 @@ Once the target population is defined, you can share it with ACS through a **[!U
 
    ターゲットおよびその追加データは Campaign v7 のリストに保存され、即座に Campaign Standard でリストオーディエンスとして共有されます。ACS と共有されるのは既にレプリケートされているプロファイルのみです。
 
-If an error occurs on the **[!UICONTROL List update]** activity, it means that the synchronization with Campaign Standard may have failed. 問題の詳細を確認するには、//に移動 **[!UICONTROL Administration]** し **[!UICONTROL ACS Connector]** ま **[!UICONTROL Process]** す **[!UICONTROL Diagnosis]**。 This folder contains synchronization workflows triggered by the **[!UICONTROL List update]** activity execution. 「ACSコネクタのトラブ [ルシューティング](../../integrations/using/troubleshooting-the-acs-connector.md) 」の項を参照してください。
+If an error occurs on the **[!UICONTROL List update]** activity, it means that the synchronization with Campaign Standard may have failed. 問題の詳細を確認するには、に移動 **[!UICONTROL Administration]** / **[!UICONTROL ACS Connector]** / **[!UICONTROL Process]** / **[!UICONTROL Diagnosis]** します。 This folder contains synchronization workflows triggered by the **[!UICONTROL List update]** activity execution. 「[ACSコネクタのトラブ ルシューティング](../../integrations/using/troubleshooting-the-acs-connector.md)」の項を参照してください。
 
 ## Campaign Standard でのデータの取得と配信での使用 {#retrieve-the-data-in-campaign-standard-and-use-it-in-a-delivery}
 
@@ -149,7 +150,7 @@ Campaign Standard で配信ワークフローを作成することで、この�
 1. 配信ダッシュボードから、配信を送信できることを手動で確認します。
 1. 配信のレポートとログを監視します。
 
-   * **Campaign Standard**:配信に関 [連するレ](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html) ポート [](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html) 、および配信に関連するログにアクセスします。
+   * **Campaign Standard**:配信に関 連する[レポート](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html)、および配信に関連する[ログ](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html)にアクセスします。
    * **campaign v7 and Campaign Standard**:配信ID、電子メールの部分一致ログ、電子メールの追跡ログが、Campaign v7と同期されます。 Campaign v7 からマーケティングキャンペーンの包括的なビューを得ることができます。
 
       強制隔離は、Campaign v7 に自動的に同期されます。これにより、Campaign v7 で実行される次のターゲティングで、配信不能情報を考慮できます。

@@ -128,29 +128,29 @@ The task variables (**[!UICONTROL task.vars.xxx]**) are comparable to local vari
 
 1. 前の例のワークフローを利用します。「**JavaScript コード**」アクティビティのスクリプトを以下のスクリプトと入れ替えます。
 
-   ```
-   instance.vars.foo = "bar1"
-   vars.foo = "bar2"
-   task.vars.foo = "bar3"
-   ```
+    ```
+    instance.vars.foo = "bar1"
+    vars.foo = "bar2"
+    task.vars.foo = "bar3"
+    ```
 
 1. 以下のスクリプトを、「**終了**」アクティビティの初期化スクリプトに追加します。
 
-   ```
-   logInfo("instance.vars.foo = " + instance.vars.foo)
-   logInfo("vars.foo = " + vars.foo)
-   logInfo("task.vars.foo = " + task.vars.foo)
-   ```
+    ```
+    logInfo("instance.vars.foo = " + instance.vars.foo)
+    logInfo("vars.foo = " + vars.foo)
+    logInfo("task.vars.foo = " + task.vars.foo)
+    ```
 
 1. ワークフローを起動し、ログを確認します。
 
-   ```
-   Workflow finished
-   task.vars.foo = undefined
-   vars.foo = bar2
-   instance.vars.foo = bar1
-   Starting workflow (operator 'admin')
-   ```
+    ```
+    Workflow finished
+    task.vars.foo = undefined
+    vars.foo = bar2
+    instance.vars.foo = bar1
+    Starting workflow (operator 'admin')
+    ```
 
 この例では、**JavaScript コード**&#x200B;に続くアクティビティがインスタンス変数とイベント変数にアクセスします。一方、外部（「未定義」）からタスク変数にアクセスすることはできません。
 

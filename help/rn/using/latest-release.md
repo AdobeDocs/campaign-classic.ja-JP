@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78c94268723e172b4a4e3c3a965877978b075b82
+source-git-commit: 1206b2dcee8a4b0e95a005e47b947b00388e7e43
 
 ---
 
@@ -56,7 +56,7 @@ _2020年2月17日_
  <tbody> 
   <tr> 
    <td> <p>雪片は完全に管理されたクラウドデータウェアハウスで、ストレージとコンピューティングの両方のレベルで拡張可能に構築されています。 この新しいコネクターを使用して、Adobe Campaignはスノーフレークの機能を活用してビッグデータセグメント化を実行できるようになりました。 このコネクタは、アドビがホストするユーザーを含め、すべてのお客様が利用できます。</p>
-    <p>詳しくは、<a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">詳細ドキュメント</a>を参照してください。</p>
+    <p>For more information, refer to the <a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">detailed documentation</a> and <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html.">tutorial video</a>.</p>
    </td> 
   </tr> 
  </tbody> 

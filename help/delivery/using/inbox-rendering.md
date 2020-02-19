@@ -42,8 +42,8 @@ Adobe Campaign の「**受信ボックスレンダリング**」で使用でき�
 
 オンプレミスインストールの場合は、次の手順に従ってインボックスのレンダリングを設定します。
 
-1. > >メニューか **[!UICONTROL Inbox rendering (IR)]** らパッケージをイ **[!UICONTROL Tools]** ンスト **[!UICONTROL Advanced]** ール **[!UICONTROL Import package]** します。 詳しくは、「Campaign Classic標準パッケージのイ [ンストール」を参照してください](../../installation/using/installing-campaign-standard-packages.md)。
-1. HTTPタイプの外部アカウントは、> > **[!UICONTROL Administration]** nodeを使用して **[!UICONTROL Platform]** 設定し **[!UICONTROL External Accounts]** ます。 詳しくは、「外部アカウントの [作成」を参照してください](../../platform/using/external-accounts.md#creating-an-external-account)。
+1. メニューか **[!UICONTROL Inbox rendering (IR)]** らパッケージをイ **[!UICONTROL Tools]** ンスト **[!UICONTROL Advanced]** ール **[!UICONTROL Import package]** します。 詳しくは、「[Campaign Classic標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)」を参照してください。
+1. HTTPタイプの外部アカウントは、 **[!UICONTROL Administration]** を使用して **[!UICONTROL Platform]** 設定し **[!UICONTROL External Accounts]** node ます。 詳しくは、「[外部アカウントの 作成](../../platform/using/external-accounts.md#creating-an-external-account)」を参照してください。
 1. 外部アカウントのパラメーターを次のように設定します。
    * **[!UICONTROL Label]**: 配信品質サーバー情報
    * **[!UICONTROL Internal name]**:deliverabilityInstance
@@ -51,10 +51,11 @@ Adobe Campaign の「**受信ボックスレンダリング**」で使用でき�
    * **[!UICONTROL Server]**:https://deliverability-app.neolane.net/deliverability
    * **[!UICONTROL Encryption]**: なし
    * オプションをオン **[!UICONTROL Enabled]** にします。
+   
    ![](assets/s_tn_inbox_rendering_external-account.png)
 
-1. > > **[!UICONTROL Administration]** nodeに移 **[!UICONTROL Platform]** 動し **[!UICONTROL Options]** ます。 オプションを検索 **[!UICONTROL DmRendering_cuid]** し、サポートに連絡して、フィールドにコピーする必要のある配信レポートの識別子を取得し **[!UICONTROL Value (text)]** ます。
-1. serverConf.xmlフ **ァイルを編集して** 、Litmusサーバーへの呼び出しを許可します。 次の行をセクションに追加し `<urlPermission>` ます。
+1. **[!UICONTROL Administration]** に移 **[!UICONTROL Platform]** 動し **[!UICONTROL Options]** node ます。 オプションを検索 **[!UICONTROL DmRendering_cuid]** し、サポートに連絡して、フィールドにコピーする必要のある配信レポートの識別子を取得し **[!UICONTROL Value (text)]** ます。
+1. **serverConf.xml** ファイルを編集して 、Litmusサーバーへの呼び出しを許可します。 次の行をセクションに追加し `<urlPermission>` ます。
 
    ```
    <url dnsSuffix="deliverability-app.neolane.net" urlRegEx="https://.*"/>
@@ -92,7 +93,7 @@ Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, ea
 
 
 
-使用可能な残りのトークン数は、「インボックスレンダリング」レ **[!UICONTROL General summary]** ポートの [に表示されます](#inbox-rendering-report)。
+使用可能な残りのトークン数は、[「インボックスレンダリング」レポート](#inbox-rendering-report)の **[!UICONTROL General summary]** に表示されます。
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -106,7 +107,7 @@ Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, ea
 
 ## 受信ボックスレンダリングレポートへのアクセス {#accessing-the-inbox-rendering-report}
 
-E メール配信を作成し、そのコンテンツとターゲット母集団を定義したら、以下の手順に従います。
+電子メール配信を作成し、そのコンテンツとターゲット母集団を定義したら、以下の手順に従います。
 
 配信の作成、デザインおよびターゲティングについて詳しくは、[この節](../../delivery/using/about-email-channel.md)を参照してください。
 
@@ -131,7 +132,7 @@ E メール配信を作成し、そのコンテンツとターゲット母集団
 
 このレポートには、受信者に表示される受信ボックスレンダリングが表示されます。レンダリングは、ブラウザー、モバイルデバイス、E メールアプリケーションなど、受信者がどの方法で E メール配信を開くかによって異なります。
 
-「**[!UICONTROL General summary]**」には、受信済みメッセージ、不要なメッセージ（スパム）、受信されていないメッセージまたは受信が保留されているメッセージの数がリストとしてグラフィカルに色分けされて表示されます。
+**[!UICONTROL General summary]** には、受信済みメッセージ、不要なメッセージ（スパム）、受信されていないメッセージまたは受信が保留されているメッセージの数がリストとしてグラフィカルに色分けされて表示されます。
 
 ![](assets/s_tn_inbox_rendering_summary.png)
 

@@ -66,7 +66,7 @@ source-git-commit: 4869eb41f942a89c48bc213913c44b70ae777bfc
 * PostgreSQL **または** DB2 **** エンジンの場合は、データベースサーバーにアクセスするために、アプリケーションサーバーで定義されたDNS名（またはIPアドレス）を指定する必要があります。
 * **Microsoft SQL serverエンジンの場合** 、次の項目を定義する必要があります。
 
-   1. データベースサーバーにアクセスするためにアプリケーションサーバー上で定義されているDNS名（またはIPアドレス）。 **DNS** または **DNS\`<instance>`**（インスタンスモード）、
+   1. データベースサーバーにアクセスするためにアプリケーションサーバー上で定義されているDNS名（またはIPアドレス）。 **DNS** または **DNS\ `<instance>`**（インスタンスモード）、
    1. microsoft SQL serverへのアクセスに使用する認証方法：ま **[!UICONTROL SQL Server authentication]** た **[!UICONTROL Windows NT authentication]**&#x200B;は
 
       ![](assets/s_ncs_install_db_mssql_creation01.png)

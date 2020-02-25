@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4e6a9273c920c9d125ec3fb18a0628109475a4e
+source-git-commit: 18309c190c351cc57f7af24f48b2a772c1840319
 
 ---
 
@@ -39,12 +39,12 @@ source-git-commit: c4e6a9273c920c9d125ec3fb18a0628109475a4e
 * **[!UICONTROL Sharing to social networks]** :ソーシャルネッ [トワークへの共有を参照してください](#sharing-to-social-networks)。
 * **[!UICONTROL Statistics on sharing activities]** :共有アクティビティ [に関する統計情報を参照してください](#statistics-on-sharing-activities)。
 * **[!UICONTROL Operating systems]** :オペレーティングシス [テムを参照してくださ](#operating-systems)い。
-* **[!UICONTROL URLs and click streams]** :URLを参照し、 [ストリームをクリックします](#urls-and-click-streams)。
-* **[!UICONTROL Tracking indicators]** :トラッキングインジケ [ーターを参照してくださ](#tracking-indicators)い。
+* **[!UICONTROL URLs and click streams]** :URLを参照し、 [ストリームをクリックします](../../reporting/using/delivery-reports.md#urls-and-click-streams)。
+* **[!UICONTROL Tracking indicators]** :トラッキングインジケ [ーターを参照してくださ](../../reporting/using/delivery-reports.md#tracking-indicators)い。
 * **[!UICONTROL Non-deliverables and bounces]** :配信不能件 [数とバウンスを参照](#non-deliverables-and-bounces)。
 * **[!UICONTROL User activities]** :詳しくは、ユーザーア [クティビティを参照し](#user-activities)。
 * **[!UICONTROL Subscription tracking]** :購読の追跡を [参照してください](#subscription-tracking)。
-* **[!UICONTROL Delivery summary]** :「配信の概 [要」を参照](#delivery-summary)。
+* **[!UICONTROL Delivery summary]** :「配信の概 [要」を参照](../../reporting/using/delivery-reports.md#delivery-summary)。
 * **[!UICONTROL Delivery statistics]** :詳しくは、配信統計 [情報を参照してください](#delivery-statistics)。
 * **[!UICONTROL Breakdown of opens]** :詳しくは、「開 [く内訳」を参照してください](#breakdown-of-opens)。
 
@@ -64,7 +64,7 @@ source-git-commit: c4e6a9273c920c9d125ec3fb18a0628109475a4e
 
 次のオプションを使用できます。
 
-* **[!UICONTROL Opens]** :開かれたメッセージの合計数です。 テキスト形式の E メールは考慮されません。For more information on tracking opens, refer to [Tracking opens](#tracking-opens-).
+* **[!UICONTROL Opens]** :開かれたメッセージの合計数です。 テキスト形式の E メールは考慮されません。For more information on tracking opens, refer to [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-).
 * **[!UICONTROL Clicks]** :配信内のリンクの合計クリック数。 購読解除のリンクおよびミラーページでのクリック数は考慮されません。
 * **[!UICONTROL Transactions]** :メッセージの受信後のトランザクションの合計数。 トランザクションが考慮されるようにするには、トランザクションのタイプの Web トラッキングタグを対応する Web ページに挿入する必要があります。Web トラッキングの設定は、[この節](../../configuration/using/about-web-tracking.md)で説明しています。
 
@@ -302,7 +302,7 @@ The **[!UICONTROL Breakdown by version]** chart represents the breakdown of visi
 
 このレポートは、該当する期間中の、オペレーティングシステム、デバイスおよびブラウザーごとの開封の分類を表示します。それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目のグラフはモバイルデバイスでの開封数のみに関する統計を示しています。
 
-開封数は、開封されたメッセージの合計数に対応しています。テキスト形式の E メールはカウントされません。For more information on Tracking opens, refer to the [Tracking opens](#tracking-opens-) section.
+開封数は、開封されたメッセージの合計数に対応しています。テキスト形式の E メールはカウントされません。For more information on Tracking opens, refer to the [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-) section.
 
 ![](assets/dlv_useragent_report.png)
 

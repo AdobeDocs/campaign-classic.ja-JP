@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+source-git-commit: 3641e438784d40aa097f8c89ca19bdbb52f4bc7d
 
 ---
 
 
 # 通信チャネル{#communication-channels}
 
-Adobe Campaign では、E メール、SMS、LINE メッセージ、プッシュ通知およびダイレクトメールを含むクロスチャネルキャンペーンを送信し、各種の専用[レポート](../../reporting/using/reports-on-deliveries.md#accessing-existing-reports)を使用してそれらの有効性を評価できます。これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズすることができます。
+Adobe Campaign では、E メール、SMS、LINE メッセージ、プッシュ通知およびダイレクトメールを含むクロスチャネルキャンペーンを送信し、各種の専用[レポート](../../reporting/using/delivery-reports.md)を使用してそれらの有効性を評価できます。これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズすることができます。
 
 コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。機能への主なアクセスポイントは、配信ウィザードです。ここから、Adobe Campaign で提供されるいくつかの機能にアクセスします。
 

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4969c5e56f1911b3abfd770ca4f8f5ed25784a52
+source-git-commit: cb081f893b7da13cda5892409b063b8781e93b2a
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 4969c5e56f1911b3abfd770ca4f8f5ed25784a52
 
 >[!CAUTION]
 >
->Adobe Campaign ユーザーが外部データベースのデータを処理するには、外部データベースおよび Adobe Campaign アプリケーションサーバーに対する特定の権限が必要です。詳細については、「リモート・データベース・アク [セス権」の節を参照してくださ](#remote-database-access-rights) い。
+>Adobe Campaign ユーザーが外部データベースのデータを処理するには、外部データベースおよび Adobe Campaign アプリケーションサーバーに対する特定の権限が必要です。詳細については、「リモート・データベース・アク [セス権」の節を参照してくださ](../../platform/using/remote-database-access-rights.md) い。
 >
 >誤作動を回避するために、リモートの共有データにアクセスするオペレーターは分離された環境で作業をおこなう必要があります。
 
@@ -38,7 +38,7 @@ source-git-commit: 4969c5e56f1911b3abfd770ca4f8f5ed25784a52
 1. ボタンをクリ **[!UICONTROL New]** ックし、タイプを選択 **[!UICONTROL External database]** します。
 1. Define the **[!UICONTROL Connection]** parameters of the external database.
 
-   For connections to an **ODBC** type database the **[!UICONTROL Server]** field must contain the name of the ODBC data source and not the server name. また、使用するデータベースによっては、追加の設定が必要になることがあります。「データベースタ [イプ別の設定」の節を参照](#specific-configurations-by-database-type) 。
+   For connections to an **ODBC** type database the **[!UICONTROL Server]** field must contain the name of the ODBC data source and not the server name. また、使用するデータベースによっては、追加の設定が必要になることがあります。「データベースタ [イプ別の設定」の節を参照](../../platform/using/specific-configuration-database.md) 。
 
 1. Once the parameters are entered, click the **[!UICONTROL Test the connection]** button to approve them.
 

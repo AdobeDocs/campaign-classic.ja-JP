@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ce2a1a55e244180a4e62d6f3b5a5ed5bb8aff6e
+source-git-commit: b7fa53a0463c5752a5fe4d11262dbf7b8ad77144
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaignデータベースの概念データモデルは、一連の組み
 
 ![](assets/data-model_documentation-tab.png)
 
-デフォルトのCampaign Classicデータモデルの詳細については、このドキュメントを参照して [ください](https://final-docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html)。
+デフォルトのCampaign Classicデータモデルの詳細については、このドキュメントを参照してく [ださい](https://final-docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html)。
 
 アプリケーションに格納されるデータの物理的な構造と論理的な構造は、XMLで記述されます。 スキーマと呼ばれるAdobe Campaign固有の文法に従います。 Adobe Campaignスキーマについて詳しくは、この節を参照してく [ださい](../../configuration/using/about-schema-reference.md)。
 

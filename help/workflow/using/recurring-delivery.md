@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b836ca3179b85877ec917a3bf28c94dbbac7772
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -36,7 +36,7 @@ This activity is only available from the **[!UICONTROL Targeting and workflows]*
 
 このアクティビティの設定プロセスで使用できるオプションは、配信テンプレートの作成プロセスで使用できるオプションとほぼ同じです。詳しくは、[この節](../../delivery/using/about-templates.md)を参照してください。
 
-このアクティビティの使用例については、この[節](../../campaign/using/marketing-campaign-deliveries.md#creating-a-recurring-delivery-in-a-targeting-workflow)を参照してください。
+このアクティビティの使用例については、この[節](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)を参照してください。
 
 >[!NOTE]
 >

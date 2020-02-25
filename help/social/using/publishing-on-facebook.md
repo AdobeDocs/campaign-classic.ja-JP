@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -159,7 +159,7 @@ Facebookには次の制限が付属しています。
 
 1. フィールド **[!UICONTROL Status]** に、ページ名の下に表示するテキストを入力します。
 1. フィールド **[!UICONTROL Name]** に、パブリケーションのタイトルを入力します。
-1. フィールド **[!UICONTROL Video code]** に、YouTubeビデオのコードを入力します。 例えば、「http://www.youtube.com/watch?v=abc123456&#39;」リンクの場合、ビデオコードは「abc123456」です。
+1. フィールド **[!UICONTROL Video code]** に、YouTubeビデオのコードを入力します。 例えば、「https://www.youtube.com/watch?v=abc123456&#39;」リンクの場合、ビデオコードは「abc123456」です。
 1. フィールド **[!UICONTROL Caption]** に、文書の末尾に表示するテキストを入力します。
 1. フィールドに移 **[!UICONTROL Description]** 動し、タイトルの下に表示するテキストを入力します。
 

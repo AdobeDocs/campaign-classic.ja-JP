@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -63,7 +63,7 @@ LAN内のアプリケーションサーバーは、エンドユーザーに対�
 
 ### アプリケーションサーバーのインストール {#installing-the-application-server}
 
-Adobe Campaignアプリケーションサーバーからデータベースの作成までスタンドアロンインスタンスをインストールする手順に従います（手順12）。 『インストー [ルと設定（シングルマシン）』を参照してくださ](#installing-and-configuring--single-machine-)い。
+Adobe Campaignアプリケーションサーバーからデータベースの作成までスタンドアロンインスタンスをインストールする手順に従います（手順12）。 『インストー [ルと設定（シングルマシン）』を参照してくださ](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-)い。
 
 コンピュータはトラッキングサーバではないので、ウェブサーバとの統合を考慮しないでください。
 

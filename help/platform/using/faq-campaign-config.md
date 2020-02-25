@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7aa381654805798fcdd24f588160bed15e037a2b
+source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign の配信機能と高度なキャンペーン管理機能を、�
 
 ## How to configure email deliverability? {#how-to-configure-email-deliverability-}
 
-[配信品質に関するはじめにガイド](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html)のほか、E メール配信品質の設定に関する節も参照すると、Campaign の配信機能を最大化するインスタンスの設定方法を理解できます。
+[配信品質に関するはじめにガイド](https://docs.adobe.com/content/help/en/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)のほか、E メール配信品質の設定に関する節も参照すると、Campaign の配信機能を最大化するインスタンスの設定方法を理解できます。
 
 [詳しくはここをクリック](../../installation/using/email-deliverability.md)してください。
 

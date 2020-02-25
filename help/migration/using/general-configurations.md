@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -61,7 +61,7 @@ TIMESTAMP WITH TIMEZONEモードを使用するには、 **-userTimestamptz:1** 
 
 1. タイムゾーンファイルが両方のサーバーで同じであることを確認します。
 
-詳しくは、次を参照してください。https://download.oracle.com/docs/cd/E11882_01/server.112/e10729/ch4datetime.htm [](http://download.oracle.com/docs/cd/E11882_01/server.112/e10729/ch4datetime.htm).
+詳しくは、次を参照してください。https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004 [](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004).
 
 また、クライアントとサーバー間のタイムゾーンのずれによって、一部の遅延が生じる場合があります。 そのため、クライアント側とサーバー側で同じバージョンのOracleライブラリを使用することをお勧めします。両方のタイムゾーンを同じにする必要があります。
 
@@ -188,7 +188,7 @@ v5では、sessiontokenパラメー **ターは** 、クライアント側（概
 
 匿名JSSPを使用する場合は、JSSP （ファイル）のリレー規則に **httpAllowed=&quot;true&quot;** パラメーターを追加する必要があ&#x200B;**[!UICONTROL serverConf.xml]** ります。
 
-次に例を示します。
+例：
 
 ```
 <url IPMask="" deny="" hostMask="" httpAllowed="true" relayHost="true" relayPath="true"
@@ -430,7 +430,7 @@ Aggregate関数（コレクション）
 
 同期結果は、次の2つの方法で表示できます。
 
-* In the command-line interface, errors are materialized by a triple chevron **>>>** and synchronization is stopped automatically. Warnings are materialized by a double chevron **>>** and must be resolved once synchronization is complete. ポストアップグレードの最後に概要がコマンドプロンプトで表示されます。次に例を示します。
+* In the command-line interface, errors are materialized by a triple chevron **>>>** and synchronization is stopped automatically. Warnings are materialized by a double chevron **>>** and must be resolved once synchronization is complete. ポストアップグレードの最後に概要がコマンドプロンプトで表示されます。例：
 
    ```
    2013-04-09 07:48:39.749Z        00002E7A          1     info    log     =========Summary of the update==========

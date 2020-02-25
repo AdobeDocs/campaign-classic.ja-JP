@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7c2b5ce9afa45b472f161d6d62517513888e062e
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -103,5 +103,5 @@ Adobe Campaignデータベースにアクセスする外部ツールとの互換
 * Europe/London,
 * America/New_Yorkなど
 
-   これらの値は、tz(Olson)データベースから取得されます。 詳しくは、http://en.wikipedia.org/wiki/List_of_tz_database_time_zonesを参照してく [ださい](http://en.wikipedia.org/wiki/List_of_tz_database_time_zones)。
+   これらの値は、tz(Olson)データベースから取得されます。 詳しくは、https://en.wikipedia.org/wiki/List_of_tz_database_time_zonesを参照してく [ださい](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)。
 

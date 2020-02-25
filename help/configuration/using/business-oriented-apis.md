@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
 
 >[!IMPORTANT]
 >
->[キャンペーンJSAPIドキュメントには](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html) 、SOAP呼び出しとAdobe CampaignでのJavascriptの使用に関する追加情報に加え、アプリケーションで使用されるすべてのメソッドと関数への完全な参照が含まれています。
+>[キャンペーンJSAPIドキュメントには](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) 、SOAP呼び出しとAdobe CampaignでのJavascriptの使用に関する追加情報に加え、アプリケーションで使用されるすべてのメソッドと関数への完全な参照が含まれています。
 
 ## 購読(nms:subscription) {#subscribe--nms-subscription-}
 

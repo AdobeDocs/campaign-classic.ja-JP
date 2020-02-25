@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 912507f25c5bc3c1ca7121b0df8182176900f4c0
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -96,7 +96,7 @@ XMLドキュメントには、ドキュメント名と名 **`<navtree>`** 前空
 
 コマンドセパレーターを使用すると、コマンド間に区切りバーを表示できます。 この値は、コマンドラ **ベルに含まれる** &#39;-&#39;値で識別されます。
 
-入力パラメーターを含むタ **`<soapcall>`** グのオプションの存在は、実行するSOAPメソッドの呼び出しを定義します。 SOAP APIについて詳しくは、「キャンペーンJSAPIドキュメント」 [を参照してください](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html)。
+入力パラメーターを含むタ **`<soapcall>`** グのオプションの存在は、実行するSOAPメソッドの呼び出しを定義します。 SOAP APIについて詳しくは、「キャンペーンJSAPIドキュメント」 [を参照してください](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)。
 
 初期化時に、タグからフォームコンテキストを更新で **`<enter>`** きます。 このタグの詳細については、入力フォームに関するドキュメントを参照してください。
 
@@ -269,7 +269,7 @@ name属性と **label属** 性は **、メニューに表示される要素の�
 
 コマンドセパレーターを使用すると、コマンド間に区切りバーを表示できます。 この値は、コマンドラ **ベルに含まれる** &#39;-&#39;値で識別されます。
 
-入力パラメーターを含むタ **`<soapcall>`** グのオプションの存在は、実行するSOAPメソッドの呼び出しを定義します。 SOAP APIについて詳しくは、「キャンペーンJSAPIドキュメン [ト」を参照してください](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html)。
+入力パラメーターを含むタ **`<soapcall>`** グのオプションの存在は、実行するSOAPメソッドの呼び出しを定義します。 SOAP APIについて詳しくは、「キャンペーンJSAPIドキュメン [ト」を参照してください](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)。
 
 フォームコンテキストは、タグを使用した初期化時に更新で **`<enter>`** きます。 このタグの詳細については、入力フォームのドキュメントを参照してください。
 

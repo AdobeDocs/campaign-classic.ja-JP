@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+source-git-commit: a358da7c499b5ee780563b4aef0eb2f4463186cf
 
 ---
 
@@ -125,7 +125,7 @@ iOS の場合、2 種類のコネクタを使用できます。
 
 1. をクリック **[!UICONTROL Next]** して、開発アプリケーションの設定を開始します。
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. 詳しくは、次を参照してください。モバイ [ルアプリケーションへのCampaign SDKの統合](#integrating-campaign-sdk-into-the-mobile-application)。 この統合キーは、各アプリケーションに対して固有で、モバイルアプリケーションを Adobe Campaign プラットフォームにリンクできます。
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. 詳しくは、次を参照してください。モバイ [ルアプリケーションへのCampaign SDKの統合](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)。 この統合キーは、各アプリケーションに対して固有で、モバイルアプリケーションを Adobe Campaign プラットフォームにリンクできます。
 
    >[!NOTE]
    >
@@ -256,7 +256,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
 1. aと入力しま **[!UICONTROL Label]**&#x200B;す。
 
-1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. 詳しくは、次を参照してください。モバイ [ルアプリケーションへのCampaign SDKの統合](#integrating-campaign-sdk-into-the-mobile-application)。
+1. Make sure the same **[!UICONTROL Integration key]** is defined in Adobe Campaign and in the application code via the SDK. 詳しくは、次を参照してください。モバイ [ルアプリケーションへのCampaign SDKの統合](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)。
 
    >[!NOTE]
    >
@@ -280,7 +280,7 @@ Android の場合、2 種類のコネクタを使用できます。
 1. タブでマッピングを定義し **[!UICONTROL Subscription parameters]** ます。
    >[!CAUTION]
    >
-   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. 「モバイルアプリケ [ーションへのCampaign SDKの統合」の節を参照してください](#integrating-campaign-sdk-into-the-mobile-application) 。
+   >Make sure the configuration names in the **[!UICONTROL Subscription parameters]** tab are the same as those in the mobile application code. 「モバイルアプリケ [ーションへのCampaign SDKの統合」の節を参照してください](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) 。
 
 ### 手順4:Androidリッチ通知の作成 {#creating-android-delivery}
 

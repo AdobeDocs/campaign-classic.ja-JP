@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -376,7 +376,7 @@ Captcha は、ビジュアルの下に配置された入力フィールドでペ
 
 To insert an upload field to a form page, select the **[!UICONTROL Advanced controls > File...]** menu in the toolbar of the page editor.
 
-By default, the uploaded files are stored in resource files accessible via the **[!UICONTROL Resources > Online > Public resources]** menu. この動作は、スクリプトを使用して変更できます。このスクリプトは、[Campaign JSAPI ドキュメント](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html)で定義された関数を使用できます。これには、ファイル操作に関連する関数が含まれます。
+By default, the uploaded files are stored in resource files accessible via the **[!UICONTROL Resources > Online > Public resources]** menu. この動作は、スクリプトを使用して変更できます。このスクリプトは、[Campaign JSAPI ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)で定義された関数を使用できます。これには、ファイル操作に関連する関数が含まれます。
 
 ローカル変数またはデータベースフィールドで、これらのファイルにリンクを格納できます。例えば、受信者スキーマを拡張して、ファイルベースのリソースにリンクを追加できます。
 

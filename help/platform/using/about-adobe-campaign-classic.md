@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed5390b4f620c3cddaf9b856f3354dc5f06f4d98
+source-git-commit: 3641e438784d40aa097f8c89ca19bdbb52f4bc7d
 
 ---
 
@@ -62,7 +62,7 @@ Adobe Campaign では、ターゲティングおよびパーソナライズさ�
 
 ### 分析とレポート {#analysis-and-reporting}
 
-Adobe Campaign では、顧客のデータおよびプロファイルを段階的にエンリッチメントすることによって、顧客の行動を監視および解釈できます。レポートおよび分析ツールを使用すると、各新規キャンペーンから利益を得たり、マーケティング戦略のターゲティングを向上させたり、投資への影響および投資利益率を最適化したりできます。詳しくは、[このページ](../../reporting/using/reports-on-deliveries.md#accessing-existing-reports)を参照してください。
+Adobe Campaign では、顧客のデータおよびプロファイルを段階的にエンリッチメントすることによって、顧客の行動を監視および解釈できます。レポートおよび分析ツールを使用すると、各新規キャンペーンから利益を得たり、マーケティング戦略のターゲティングを向上させたり、投資への影響および投資利益率を最適化したりできます。詳しくは、[このページ](../../reporting/using/delivery-reports.md)を参照してください。
 
 ### Adobe Experience Cloud 統合 {#adobe-experience-cloud-integrations}
 

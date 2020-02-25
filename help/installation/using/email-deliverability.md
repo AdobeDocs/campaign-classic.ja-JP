@@ -15,25 +15,24 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21d808695bfde2fb3220964c066558ad30952443
+source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
 
 ---
 
 
-# Email deliverability{#email-deliverability}
+# 技術的な電子メール設定{#email-deliverability}
 
 ## 概要 {#overview}
 
-次の節では、メッセージを配信する際にAdobe Campaignインスタンスの出力を制御するために必要な設定の概要を説明します。
+次の節では、電子メールを配信する際にAdobe Campaignインスタンスの出力を制御するために必要な設定の概要を説明します。
 
 >[!NOTE]
 >
->一部の設定は、アドビがホストするデプロイメントに対してのみ実行できます。 例えば、サーバーおよびインスタンスの設定ファイルにアクセスする場合です。 各デプロイメントの詳細については、「ホスティングモデル」の節 [または](../../installation/using/hosting-models.md) 、この記事を参照 [してください](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)。\
->Refer to the [getting started guide](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) that presents the concepts and best practices related to deliverability.
+>一部の設定は、アドビがホストするデプロイメントに対してのみ実行できます。例えば、サーバーおよびインスタンスの設定ファイルにアクセスする場合などです。 各デプロイメントの詳細については、「ホスティングモデル」の節 [または](../../installation/using/hosting-models.md) 、この記事を参照 [してください](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)。
 
 配信品質に関連する概念とベストプラクティスについて詳しくは、この節を参照してく [ださい](../../delivery/using/about-deliverability.md)。
 
-Adobe Campaignプラットフォームによるメッセージの効率的な送受信に関する技術的な推奨事項は、すべてこの節で説明 [します](../../delivery/using/technical-recommendations.md)。
+Adobe Campaignプラットフォームによる電子メールの効率的な送受信に関する技術的な推奨事項はすべて、この節で説明 [します](../../delivery/using/technical-recommendations.md)。
 
 ## 動作の仕組み {#operating-principle}
 

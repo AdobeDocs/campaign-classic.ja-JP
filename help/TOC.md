@@ -5,7 +5,7 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
+source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
 
 ---
 
@@ -584,7 +584,7 @@ source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
    + 任意の追加設定 {#additional-configurations}
       + [Campaign サーバーの設定](installation/using/configuring-campaign-server.md)
       + [LDAPを使用した接続](installation/using/connecting-through-ldap.md)
-      + [電子メールの配信品質](installation/using/email-deliverability.md)
+      + [技術的な電子メール設定](installation/using/email-deliverability.md)
       + [E メールのアーカイブ](installation/using/email-archiving.md)
       + [タイムゾーン管理](installation/using/time-zone-management.md)
       + [スパムアサシンの設定](installation/using/configuring-spamassassin.md)

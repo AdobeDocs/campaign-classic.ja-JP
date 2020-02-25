@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71662675e347e5f5b289afa03e2898e6ce0ecaa9
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 71662675e347e5f5b289afa03e2898e6ce0ecaa9
 
 ワークフローアクティビティはカテゴリごとにグループ分けされます。同時に 4 つのタブを使用できます。
 
-In the campaign workflows, the **[!UICONTROL Events]** tab is replaced by the **[!UICONTROL Deliveries]** tab. The activities in this tab are detailed in the [Action activities](#action-activities) section.
+In the campaign workflows, the **[!UICONTROL Events]** tab is replaced by the **[!UICONTROL Deliveries]** tab. The activities in this tab are detailed in the [Action activities](../../workflow/using/about-action-activities.md) section.
 
 ![](assets/wf-activity-tabs.png)
 

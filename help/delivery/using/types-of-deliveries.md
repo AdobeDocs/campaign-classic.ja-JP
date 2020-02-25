@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 例えば、このタイプのアクティビティを月に 1 回実行した場合、1 年後の配信の数は 12 個です。
 
-Recurring deliveries are created within workflows via the [Recurring delivery activity](../../workflow/using/recurring-delivery.md). この節では、このアクティビティの使用例を示します。ターゲ [ット設定ワークフローでの定期配信の作成](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-recurring-delivery-in-a-targeting-workflow)。
+Recurring deliveries are created within workflows via the [Recurring delivery activity](../../workflow/using/recurring-delivery.md). この節では、このアクティビティの使用例を示します。ターゲ [ット設定ワークフローでの定期配信の作成](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)。
 
 ## 連続配信 {#continuous-delivery}
 

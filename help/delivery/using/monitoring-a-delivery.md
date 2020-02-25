@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
+source-git-commit: 4c4e2cfaa9603c42e5e97de1e13318f8541921ca
 
 ---
 
@@ -92,11 +92,11 @@ You can modify the information displayed in this window (and that of the **[!UIC
 一部の指標またはステータスが間違っていたり、最新ではないことがあります。これは、次の解決策で解消できる場合があります。
 
 * 配信ステータスが間違っている場合は、この配信に対して必要なすべての承認がおこなわれていることと、**[!UICONTROL operationMgt]** および **[!UICONTROL deliveryMgt]** ワークフローがエラーなしで実行されていることを確認します。これは、送信インスタンスで設定されていないアフィニティを配信で使用していることが原因である可能性もあります。
-* If your delivery indicators are still at zero and if you are on a mid-sourcing configuration, check the **[!UICONTROL Mid-sourcing (delivery counters)]** technical workflow. Start it if its status is not **[!UICONTROL Started]**. You can then try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]**. トラッキング指標について詳しくは、この[節](../../reporting/using/reports-on-deliveries.md#tracking-indicators)を参照してください。
-* If your delivery counter does not match your delivery, try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** to resynchronize. トラッキング指標について詳しくは、この[節](../../reporting/using/reports-on-deliveries.md#tracking-indicators)を参照してください。
+* If your delivery indicators are still at zero and if you are on a mid-sourcing configuration, check the **[!UICONTROL Mid-sourcing (delivery counters)]** technical workflow. Start it if its status is not **[!UICONTROL Started]**. You can then try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]**. トラッキング指標について詳しくは、この[節](../../reporting/using/delivery-reports.md#tracking-indicators)を参照してください。
+* If your delivery counter does not match your delivery, try to recompute the indicators by right-clicking the relevant delivery in the Adobe Campaign explorer and selecting **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** to resynchronize. トラッキング指標について詳しくは、この[節](../../reporting/using/delivery-reports.md#tracking-indicators)を参照してください。
 * If your delivery counter is not up-to-date for mid-sourcing deployments, check that the **[!UICONTROL Mid-Sourcing (Delivery counters)]** technical workflow is running. 詳しくは、この[ページ](../../installation/using/mid-sourcing-deployment.md)を参照してください。
 
-配信ダッシュボードで各種レポートの配信をトラッキングすることもできます。詳しくは、[この節](../../reporting/using/reports-on-deliveries.md#accessing-existing-reports)を参照してください。
+配信ダッシュボードで各種レポートの配信をトラッキングすることもできます。詳しくは、[この節](../../reporting/using/delivery-reports.md)を参照してください。
 
 ## パフォーマンスの問題 {#performance-issues}
 
@@ -118,7 +118,7 @@ After clicking the **[!UICONTROL Send]** button, your delivery seems to take lon
 * 迅速に処理するには配信が大きすぎる可能性があります。これは、JavaScript の高度なパーソナライゼーションで、または配信が 60KB を超えている場合に発生することがあります。コンテンツのガイドラインについて詳しくは、Adobe Campaign の[配信のベストプラクティス](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html)を参照してください。
 * Adobe Campaign MTA 内でスロットルが発生している可能性があります。これは次の原因で発生します。
 
-   * Messages pended (**[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. このメッセージについて詳しくは、[このページ](../../delivery/using/technical-recommendations.md#quota-met)を参照してください。MX ルールについて詳しくは、[このページ](../../delivery/using/technical-recommendations.md#mx-rules)を参照してください。
+   * Messages pended (**[!UICONTROL quotas met]** message): quotas declared by the declarative MX rules defined in Campaign have been met. このメッセージについて詳しくは、[このページ](https://helpx.adobe.com/campaign/kb/acc-deliverability-faq.html#FAQ)を参照してください。MX ルールについて詳しくは、[このページ](../../delivery/using/technical-recommendations.md#mx-rules)を参照してください。
    * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential blacklisting.
 
 * システムの問題によってサーバー間のインタラクションが妨げられることがあります。これにより、送信処理全体が低速になります。サーバーにメモリまたはリソースの問題がないことを確認します。これは、例えば、Campaign によるパーソナライゼーションデータの取得処理に影響することがあります。

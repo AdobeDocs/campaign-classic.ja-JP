@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 994ec35e37a1c26e83a8dd2ae31f6594cadd4c45
+source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
 
 ---
 
@@ -106,7 +106,7 @@ Campaign Classic でのメッセージのトラッキング方法について[�
 
 Adobe Campaign には、配信を監視し、メッセージをトラッキングするための一連のレポートが用意されています。
 
-[組み込みレポートについて詳しくは、ここをクリック](../../reporting/using/reports-on-deliveries.md#delivery-reports)してください。
+[組み込みレポートについて詳しくは、ここをクリック](../../reporting/using/delivery-reports.md)してください。
 
 ### How does Adobe Campaign qualify and manage quarantine addresses? {#how-does-adobe-campaign-qualify-and-manage-quarantine-addresses-}
 

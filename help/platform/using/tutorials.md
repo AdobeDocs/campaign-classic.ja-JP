@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -56,4 +56,4 @@ Adobe Campaign の主な機能については、ハウツービデオをご覧�
 * [E メールのシードと配達確認の管理](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html)：Adobe Campaign でシードと配達確認を既存の E メールに追加する方法を説明します。
 * [Adobe Campaign と Microsoft Dynamics 365 の統合](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/integrating/dynamics365-integration.html)：CRM コネクタの機能を使用して Adobe Campaign と Microsoft Dynamics を連携させ、同期する方法を説明します。
 
-これらの短く詳しいビデオに加えて、アドビの Web サイトで、[トレーニングコース](https://training.adobe.com/training/courses.html)や[プレゼンテーションビデオ](https://www.adobe.com/training/video.html)を利用することもできます。
+これらの短く詳しいビデオに加えて、アドビの Web サイトで、[トレーニングコース](https://learning.adobe.com/catalog.html)や[プレゼンテーションビデオ](https://www.adobe.com/training/video.html)を利用することもできます。

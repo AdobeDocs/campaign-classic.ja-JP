@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -35,7 +35,7 @@ Adobe CampaignがTwitterアカウントにツイートを送信できるよう�
 
 まず、ツイートの送信先の1つ以上のTwitterアカウントを作成します。
 
-Twitterアカウントを作成するには、http://twitter.comにアクセス [します](http://twitter.com)。
+Twitterアカウントを作成するには、https://twitter.comにアクセス [します](https://twitter.com)。
 
 ## Twitterでのテストアカウントの作成 {#creating-a-test-account-on-twitter}
 

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7c4e4c7d7433f782f810fdc2ecdeeedacd72b6c6
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -52,6 +52,6 @@ When building your workflow, never use more than one **[!UICONTROL Scheduler]** 
 
    ![](assets/s_user_segmentation_scheduler5.png)
 
-スケジューラーアクティビティを使用すると、同時に複数のワークフローが実行される場合があります。 例えば、1 時間ごとにワークフローの実行をトリガーするようにスケジューラーを設定できますが、ワークフロー全体の実行に 1 時間以上かかる場合があります。ワークフローが既に実行中の場合、実行をスキップしたいことがあります。ワークフローの同時実行を防ぐ方法の詳細については、このページを参照 [してください](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-execution)。
+スケジューラーアクティビティを使用すると、同時に複数のワークフローが実行される場合があります。 例えば、1 時間ごとにワークフローの実行をトリガーするようにスケジューラーを設定できますが、ワークフロー全体の実行に 1 時間以上かかる場合があります。ワークフローが既に実行中の場合、実行をスキップしたいことがあります。ワークフローの同時実行を防ぐ方法の詳細については、このページを参照 [してください](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)。
 
 なお、ワークフローがインポートなどの長期タスクを実行している場合、または wfserver が当分の間停止している場合は、トランジションを数時間後に有効化することもできます。この場合、スケジューラーによって有効化されるタスクの実行の制限が一定期間必要になることがあります。

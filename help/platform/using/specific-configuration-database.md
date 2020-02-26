@@ -165,10 +165,12 @@ Adobe Campaign から外部データベースにアクセスできるように�
 
 1. ODBCドライバーをダウンロードしてインストールした後、Campaign Classicを再起動する必要があります。 これを行うには、次のコマンドを実行します。
 
-   ```
-   /etc/init.d/nlserver6 stop
-   /etc/init.d/nlserver6 start
-   ```
+
+     ```
+    /etc/init.d/nlserver6 stop
+    /etc/init.d/nlserver6 start
+     ```
+
 1. Campaign Classicで、Campaign Classicのスノーフレーク外部アカウントを設定します。 から、メニ **[!UICONTROL Explorer]**&#x200B;ューを展開し **[!UICONTROL Administration]** ます。
 
 1. メニューを展開し **[!UICONTROL Platform]** 、をクリックしま **[!UICONTROL External accounts]**&#x200B;す。

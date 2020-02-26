@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 994ec35e37a1c26e83a8dd2ae31f6594cadd4c45
+source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
 
 ---
 
@@ -106,7 +106,7 @@ Adobe Campaign デジタルコンテンツエディターを使用すると、�
 
 ## How can I track deliveries? {#how-can-i-track-deliveries-}
 
-Campaign Classic で送られた配信を専用の[配信レポート](../../reporting/using/reports-on-deliveries.md#delivery-reports)によってトラッキングし、さらに配信を監視することができます。
+Campaign Classic で送られた配信を専用の[配信レポート](../../reporting/using/delivery-reports.md)によってトラッキングし、さらに配信を監視することができます。
 
 キャンペーンのトラッキング管理について詳 [しくは](https://helpx.adobe.com/campaign/kb/acc-tracking.html)、
 

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
    >[!NOTE]
    >
-   >サーバー側では、スクリプトは、Adobe Campaign が提供する [Campaign JSAPI ドキュメント](http://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html)で定義された関数を使用できます。
+   >サーバー側では、スクリプトは、Adobe Campaign が提供する [Campaign JSAPI ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)で定義された関数を使用できます。
 
 ## HTML コンテンツの挿入 {#inserting-html-content}
 

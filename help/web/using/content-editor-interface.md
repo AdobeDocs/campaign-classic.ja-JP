@@ -16,7 +16,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
 
@@ -29,7 +29,7 @@ DCE 編集ウィンドウは、3 つの異なるセクションに分類され�
 
 ![](assets/dce_decoupe_window_nb.png)
 
-1. **上部**&#x200B;のセクションは、ユーザーに対するメッセージの表示領域です。これらのメッセージは、Web アプリケーションのステータスや作成される配信、およびコンテンツに関連する警告やエラーメッセージを示します。詳しくは、 [HTMLコンテンツのステータスを参照してください](#html-content-statuses)。
+1. **上部**&#x200B;のセクションは、ユーザーに対するメッセージの表示領域です。これらのメッセージは、Web アプリケーションのステータスや作成される配信、およびコンテンツに関連する警告やエラーメッセージを示します。詳しくは、 [HTMLコンテンツのステータスを参照してください](../../web/using/content-editing-best-practices.md#html-content-statuses)。
 1. ウィンドウの&#x200B;**左側**&#x200B;のセクションは、コンテンツを編集するための領域です。この領域から、ユーザーはポップアップツールバーを使用してコンテンツを直接操作できます。画像へのリンクの挿入、フォントの変更、フィールドの削除など For more on this refer to [Editing forms](../../web/using/editing-content.md#editing-forms).
 1. ウィンドウの&#x200B;**右側**&#x200B;のセクションは、コントロールパネル領域です。この領域では、エディタの様々なオプション、特にブロックのページ見出しや一般オプションの設定に関連するオプションをグループ化します。枠線の追加、データベースフィールドと入力ゾーンのリンク、Webページのプロパティへのアクセスなど For more on this, refer to the [Global options](#global-options) and [Editing content](../../web/using/editing-content.md) sections.
 

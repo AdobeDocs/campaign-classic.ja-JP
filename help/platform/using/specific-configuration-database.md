@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a0698ad55afb391bdc652a00b43b20df6fb9851b
+source-git-commit: 47fd157e369ddf6c67f0b2b467799cecc6e5a822
 
 ---
 
@@ -169,7 +169,6 @@ Adobe Campaign から外部データベースにアクセスできるように�
    /etc/init.d/nlserver6 stop
    /etc/init.d/nlserver6 start
    ```
-
 1. Campaign Classicで、Campaign Classicのスノーフレーク外部アカウントを設定します。 から、メニ **[!UICONTROL Explorer]**&#x200B;ューを展開し **[!UICONTROL Administration]** ます。
 
 1. メニューを展開し **[!UICONTROL Platform]** 、をクリックしま **[!UICONTROL External accounts]**&#x200B;す。
@@ -393,7 +392,7 @@ For more information on how to configure your Hadoop external database in FDA, r
    User/Password: admin/<your password here>
    ```
 
-1. 「共有接続の作成」の節に従って、Hadoop外部ア [カウントを作成します](#creating-a-shared-connection) 。
+1. 「共有接続の作成」の節に従って、Hadoop外部ア [カウントを作成します](../../message-center/using/creating-a-shared-connection.md) 。
 
 ### Linux の場合 {#for-linux}
 
@@ -448,7 +447,7 @@ For more information on how to configure your Hadoop external database in FDA, r
    >
    >ここで、**UseNativeQuery** パラメーターは非常に重要です。Campaign は Hive 対応ですが、UseNativeQuery を設定しないと正しく機能しません。通常、ドライバーまたは Hive SQL コネクタがクエリを上書きして列の順序を勝手に変更してしまいます。
 
-   認証設定は Hive や Hadoop の構成に依存します。例えば HD Insight では、[ここ](http://www.simba.com/products/Spark/doc/ODBC_InstallGuide/unix/content/odbc/hi/configuring/authenticating/azuresvc.htm)で説明しているように、ユーザー／パスワード認証に AuthMech=6 を使用します。
+   認証設定は Hive や Hadoop の構成に依存します。例えば HD Insight では、[ここ](https://www.simba.com/products/Spark/doc/ODBC_InstallGuide/unix/content/odbc/hi/configuring/authenticating/azuresvc.htm)で説明しているように、ユーザー／パスワード認証に AuthMech=6 を使用します。
 
 1. 変数をエクスポートします。
 
@@ -480,7 +479,7 @@ For more information on how to configure your Hadoop external database in FDA, r
    isql vorac -v
    ```
 
-1. 「共有接続の作成」の節に従って、Hadoop外部ア [カウントを作成します](#creating-a-shared-connection) 。
+1. 「共有接続の作成」の節に従って、Hadoop外部ア [カウントを作成します](../../message-center/using/creating-a-shared-connection.md) 。
 
 ## Netezza へのアクセスの設定 {#configure-access-to-netezza}
 
@@ -529,7 +528,7 @@ FDA で Netezza 外部データベースに接続するには、Adobe Campaign �
    * **ODBCINI**:odbc.iniファイルの場所(/etc/odbc.iniなど)。
    * **NZ_ODBC_INI_PATH**:odbc.iniファイルの場所。 Netezza で odbc.ini ファイルを使用するには、この 2 番目の変数も必要になります。
 
-1. 「共有接続の作成」の節に従って、Netezza外部ア [カウントを作成します](#creating-a-shared-connection) 。
+1. 「共有接続の作成」の節に従って、Netezza外部ア [カウントを作成します](../../message-center/using/creating-a-shared-connection.md) 。
 
 >[!NOTE]
 >
@@ -625,7 +624,7 @@ FDA で Sybase IQ 16 外部データベースに接続するには、Adobe Campa
    * customer.sh ファイルを使用してパスを宣言する場合は、パス /opt/sybase/IQ-16_0/lib64 を LD_LIBRARY_PATH 変数に追加します。
    * それ以外の場合は、Unix コマンドを使用します。
 
-1. 「共有接続の作成」の説明に従って、新しいFDA外部ア [カウントを作成します](#creating-a-shared-connection) 。 For Sybase IQ, the server name corresponds to the ODBC connection (`<server_alias>`) defined in step 5. 必ずしもサーバー自体の名前であるとは限りません。
+1. 「共有接続の作成」の説明に従って、新しいFDA外部ア [カウントを作成します](../../message-center/using/creating-a-shared-connection.md) 。 For Sybase IQ, the server name corresponds to the ODBC connection (`<server_alias>`) defined in step 5. 必ずしもサーバー自体の名前であるとは限りません。
 
 >[!NOTE]
 >
@@ -635,7 +634,7 @@ FDA で Sybase IQ 16 外部データベースに接続するには、Adobe Campa
 
 FDA で Teradata 外部データベースに接続するには、Adobe Campaign サーバーで追加の設定が必要になります。Teradata データベースの設定方法については、[この記事](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html)を参照してください。
 
-1. [Teradata 用の ODBC ドライバー](http://downloads.teradata.com/download/connectivity/odbc-driver/linux)をインストールします。
+1. [Teradata 用の ODBC ドライバー](https://downloads.teradata.com/download/connectivity/odbc-driver/linux)をインストールします。
 
    これは 3 つのパッケージで構成され、Red Hat（または CentOS）／Suse に次の順序でインストールできます。
 
@@ -712,4 +711,4 @@ FDA で SAP HANA 外部データベースに接続するには、Adobe Campaign 
    * **LD_LIBRARY_PATH**:デフォルトでは、SAP Hanaクライアント(/usr/sap/hdbclient/libodbcHDB.so)へのリンクが含まれている必要があります。
    * **ODBCINI**:odbc.iniファイルの場所(/etc/odbc.iniなど)。
 
-1. 「共有接続の作成」の節に従って、SAP Hana外部ア [カウントを作成します](#creating-a-shared-connection) 。
+1. 「共有接続の作成」の節に従って、SAP Hana外部ア [カウントを作成します](../../message-center/using/creating-a-shared-connection.md) 。

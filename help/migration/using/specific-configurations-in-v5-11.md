@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
+source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
 
@@ -71,7 +71,7 @@ mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
 
 >[!NOTE]
 >
->詳しくは、http://dev.mysql.com/doc/refman/5.5/en/time-zone-support.htmlページを参照して [ください](http://dev.mysql.com/doc/refman/5.5/en/time-zone-support.html) 。
+>詳しくは、https://dev.mysql.com/doc/refman/8.0/en/time-zone-support.htmlページを参照して [ください](https://dev.mysql.com/doc/refman/8.0/en/time-zone-support.html) 。
 
 データベース構造に変更が加えられた場合は、設定中（特定のインデックスの作成、SQLビューの作成など）、移行時に一定の注意を払う必要があります。 実際に、移行手順との互換性のない変更が生じる可能性があります。 例えば、 **Timestampフィールドを含むSQLビューを作成する場合** 、usetimestamptzオプションとは互換性が **ありません** 。 したがって、以下の推奨事項に従うことをお勧めします。
 

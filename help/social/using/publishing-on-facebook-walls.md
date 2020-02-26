@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
+source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
 
 ---
 
@@ -42,7 +42,7 @@ Adobe CampaignでFacebookのウォールにパブリケーションを送信す�
 
 ## テスト用Facebookページの作成 {#creating-a-test-facebook-page}
 
-公開の証明を配信するためのプライベートFacebookページを作成することをお勧めします(詳しくは、「証明 [の送信](#sending-the-proof)」を参照)。
+公開の証明を配信するためのプライベートFacebookページを作成することをお勧めします(詳しくは、「校正刷りの送信」を [参照してください](../../social/using/publishing-on-facebook.md#sending-the-proof)。
 
 1. ページの管理に使用するFacebookアカウントにログオンします。
 1. 新しいFacebookページを作成します。

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 80b500653f5cfe216b32db045974b18d85838d9a
+source-git-commit: 9d36192a768fd0162f2301a5fe0437074d0fda58
 
 ---
 
@@ -114,7 +114,9 @@ The task variables (**[!UICONTROL task.vars.xxx]**) are comparable to local vari
 
 1. Splitアクティビティの「詳細」タブの「初期化スクリプト」セクション内で、JS条件を定義します。 JS条件は、Splitアクティビティから発生する最初のトランジションのランダムサンプリング率を選択し、前に作成したインスタンス変数によって設定された値に更新します。
 
-   ```activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;```
+   ```
+   activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;
+   ```
 
    ![](assets/js_ex3.png)
 
@@ -128,29 +130,29 @@ The task variables (**[!UICONTROL task.vars.xxx]**) are comparable to local vari
 
 1. 前の例のワークフローを利用します。「**JavaScript コード**」アクティビティのスクリプトを以下のスクリプトと入れ替えます。
 
-    ```
-    instance.vars.foo = "bar1"
-    vars.foo = "bar2"
-    task.vars.foo = "bar3"
-    ```
+   ```
+   instance.vars.foo = "bar1"
+   vars.foo = "bar2"
+   task.vars.foo = "bar3"
+   ```
 
 1. 以下のスクリプトを、「**終了**」アクティビティの初期化スクリプトに追加します。
 
-    ```
-    logInfo("instance.vars.foo = " + instance.vars.foo)
-    logInfo("vars.foo = " + vars.foo)
-    logInfo("task.vars.foo = " + task.vars.foo)
-    ```
+   ```
+   logInfo("instance.vars.foo = " + instance.vars.foo)
+   logInfo("vars.foo = " + vars.foo)
+   logInfo("task.vars.foo = " + task.vars.foo)
+   ```
 
 1. ワークフローを起動し、ログを確認します。
 
-    ```
-    Workflow finished
-    task.vars.foo = undefined
-    vars.foo = bar2
-    instance.vars.foo = bar1
-    Starting workflow (operator 'admin')
-    ```
+   ```
+   Workflow finished
+   task.vars.foo = undefined
+   vars.foo = bar2
+   instance.vars.foo = bar1
+   Starting workflow (operator 'admin')
+   ```
 
 この例では、**JavaScript コード**&#x200B;に続くアクティビティがインスタンス変数とイベント変数にアクセスします。一方、外部（「未定義」）からタスク変数にアクセスすることはできません。
 
@@ -160,7 +162,7 @@ The task variables (**[!UICONTROL task.vars.xxx]**) are comparable to local vari
 
 変数「**instance.vars.xxx = &quot;yyy&quot;**」をフィルターで呼び出すには、「**$(instance/vars/xxx)**」と入力します。
 
-次に例を示します。
+例：
 
 1. Create an instance variable that defines a delivery&#39;s internal name via the **[!UICONTROL JavaScript code]**: **instance.vars.deliveryIN = &quot;DM42&quot;**.
 

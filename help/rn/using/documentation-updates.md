@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 230ff1a8453cf512b7da828cdcdd49edca59331c
+source-git-commit: 7082ff9c8ce18f12734831bc4f00c9a1b71376b3
 
 ---
 
@@ -25,6 +25,10 @@ Adobe Campaign Classicドキュメントの最新のすべての更新につい�
 このページには、Adobe Campaign Classicの各リリースに関するすべての新機能とドキュメントの更新の一覧が記載されています。
 
 また、 [Adobe Campaign Classicリリースノートを参照することもできます](../../rn/using/latest-release.md)。
+
+## March 2020 {#march-2020}
+
+データモデルのベストプラクティスのページが更新され、 [Sequences](../../configuration/using/data-model-best-practices.md#sequences)、 [Performance](../../configuration/using/data-model-best-practices.md#performance) 、 [Largeの各テーブルなどの新しいセクションが追加されました](../../configuration/using/data-model-best-practices.md#large-tables)。 [詳細を表示](../../configuration/using/data-model-best-practices.md)
 
 ## February 2020 {#february-2020}
 
@@ -64,7 +68,7 @@ HTTPを使用したFDAに関する制限が、トランザクションメッセ�
 
 新しいオプションに情報が追加され、およびワークフローアクティビティのタイムアウト期間を定義で **[!UICONTROL JavaScript code]** きるよう **[!UICONTROL Advanced JavaScript code]** になりました。 [詳細を表示](../../workflow/using/sql-code-and-javascript-code.md)
 
-ノードにある新しいビュ **[!UICONTROL Start Pending]** ーに情報が追加さ **[!UICONTROL Administration]** れま > **[!UICONTROL Audit]** した > **[!UICONTROL Workflows Status]** 。 [詳細を表示](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+> >ノードにある新しいビュ **[!UICONTROL Start Pending]** ーに情報が追加さ **[!UICONTROL Administration]** れま **[!UICONTROL Audit]** した **[!UICONTROL Workflows Status]** 。 [詳細を表示](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
 プッシュ [通知の送信ガイドは](../../delivery/using/about-mobile-app-channel.md) 、移動され、整理および改善され、明確な情報が提供されました。
 

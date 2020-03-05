@@ -15,14 +15,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+source-git-commit: 44d8ba19f2e79d30229239312e6a5148d247fb28
 
 ---
 
 
 # キャンペーンタイポロジについて{#about-campaign-typologies}
 
-キャンペーンの最適化は、配信状況を制御、フィルターおよび監視する Adobe Campaign のモジュールです。キャンペーン間の競合を回避するために、Adobe Campaign では制限ルールを適用して、様々な組み合わせをテストできます。このテストにより、企業のコミュニケーションポリシーに準拠しつつ、顧客のニーズと期待に応える最適なメッセージを送信できます。
+キャンペーンの最適化は、配信の送信を制御、フィルタリング、監視できるAdobe Campaignモジュールです。 キャンペーン間の競合を回避するために、Adobe Campaign では制限ルールを適用して、様々な組み合わせをテストできます。これにより、送信されるメッセージが顧客のニーズや期待、会社のコミュニケーションポリシーを満たすことが保証されます。
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ The **[!UICONTROL Rules]** tab lets you add, delete or view the typology rules t
 
    ノードにタイポロジルールがあ **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** ります。
 
-   Campaignで使用できる様々なルールについて、以下の節で説明します。販売 [圧力ルール](../../campaign/using/pressure-rules.md)、容 [量ルール](../../campaign/using/consistency-rules.md#controlling-capacity)、管理ルール [、](../../campaign/using/control-rules.md)[](../../campaign/using/filtering-rules.md)フィルタリングルール
+   キャンペーンで使用できる様々なルールについて、以下の節で説明します。営業 [圧力ルール](../../campaign/using/pressure-rules.md)、能力ル [ール](../../campaign/using/consistency-rules.md#controlling-capacity)、制御ルール [、フィルタ](../../campaign/using/control-rules.md)[](../../campaign/using/filtering-rules.md)リングルール。
 
 1. タイポロジを作成し、作成したルールをその中で参照する。
 
@@ -68,4 +68,4 @@ The **[!UICONTROL Rules]** tab lets you add, delete or view the typology rules t
 
 **関連トピック**
 
-* [任意のチャネルの配信に自動ビジネスルールを適用](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
+* [任意のチャネルの配信に対する自動ビジネスルールの適用](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)

@@ -68,7 +68,7 @@ HTTPを使用したFDAに関する制限が、トランザクションメッセ�
 
 新しいオプションに情報が追加され、およびワークフローアクティビティのタイムアウト期間を定義で **[!UICONTROL JavaScript code]** きるよう **[!UICONTROL Advanced JavaScript code]** になりました。 [詳細を表示](../../workflow/using/sql-code-and-javascript-code.md)
 
-> >ノードにある新しいビュ **[!UICONTROL Start Pending]** ーに情報が追加さ **[!UICONTROL Administration]** れま **[!UICONTROL Audit]** した **[!UICONTROL Workflows Status]** 。 [詳細を表示](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
+&#x200B;> >ノードにある新しいビュ **[!UICONTROL Start Pending]** ーに情報が追加さ **[!UICONTROL Administration]** れま **[!UICONTROL Audit]** した **[!UICONTROL Workflows Status]** 。 [詳細を表示](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
 プッシュ [通知の送信ガイドは](../../delivery/using/about-mobile-app-channel.md) 、移動され、整理および改善され、明確な情報が提供されました。
 

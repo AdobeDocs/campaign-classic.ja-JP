@@ -14,7 +14,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ee1912e0de2841867d0ffb5420cc9810aa1083e
+source-git-commit: 2ca8fb051dce9abfcb8987c4d4527d997b480f96
 
 ---
 
@@ -44,10 +44,6 @@ Adobe Campaign で電子メールを作成して送信するために、既存�
 ## How to use Campaign DCE to create an email content? {#how-to-use-campaign-dce-to-create-an-email-content-}
 
 [Campaign デジタルコンテンツエディターでの E メールのデザイン](../../web/using/use-case--creating-an-email-delivery.md)：Campaign DCE を使用して E メールをデザインする方法を、例を通して理解できます。
-
-## How can I add a barcode in an email? {#how-can-i-add-a-barcode-in-an-email-}
-
-パーソナライズされた E メールに簡単に[バーコードを追加](../../delivery/using/inserting-a-barcode-in-an-email.md)できます。
 
 ## How can I create a subscription-based newsletter in Campaign? {#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
 

@@ -148,7 +148,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [配信品質について](delivery/using/about-deliverability.md)
       + [確認する主なポイント](delivery/using/deliverability-key-points.md)
       + [新しいプラットフォームの開始](delivery/using/starting-new-platform.md)
-      + [制御メッセージの内容](delivery/using/control-message-content.md)
+      + [メッセージの内容の制御](delivery/using/control-message-content.md)
       + [レピュテーションの向上](delivery/using/improve-reputation.md)
       + [再関与のベストプラクティス](delivery/using/re-engagement-best-practices.md)
       + [技術的な推奨事項](delivery/using/technical-recommendations.md)
@@ -174,7 +174,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
    + キャンペーンの調整 {#orchestrate-campaigns}
       + [マーケティングキャンペーンの設定](campaign/using/setting-up-marketing-campaigns.md)
       + [マーケティングキャンペーンテンプレート](campaign/using/marketing-campaign-templates.md)
-      + [マーケティングキャンペーン配信](campaign/using/marketing-campaign-deliveries.md)
+      + [マーケティングキャンペーンの配信](campaign/using/marketing-campaign-deliveries.md)
       + [マーケティングキャンペーンの承認](campaign/using/marketing-campaign-approval.md)
       + [マーケティングキャンペーンの監視](campaign/using/marketing-campaign-monitoring.md)
       + [プロバイダー、在庫、予算](campaign/using/providers--stocks-and-budgets.md)
@@ -401,7 +401,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
          + [配信情報に対するクエリ](workflow/using/querying-delivery-information.md)
          + [集計計算の実行](workflow/using/performing-aggregate-computing.md)
          + [グループ化管理を使用したクエリ](workflow/using/querying-using-grouping-management.md)
-         + [多対多の関係を使用したクエリ](workflow/using/querying-using-many-to-many-relationship.md)
+         + [多対多の関係を使用したクエリー](workflow/using/querying-using-many-to-many-relationship.md)
          + [列挙型の計算済みフィールドの追加](workflow/using/adding-enumeration-type-calculated-field.md)
          + [フィルターの作成](workflow/using/creating-a-filter.md)
          + [重複した受信者のフィルタリング](workflow/using/filtering-duplicated-recipients.md)
@@ -555,25 +555,25 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [データベース](installation/using/database.md)
       + [アプリケーションサーバー](installation/using/application-server.md)
       + [メッセージングサーバ](installation/using/messaging-server.md)
-      + [ネットワーク構成](installation/using/network-configuration.md)
+      + [ネットワークの設定](installation/using/network-configuration.md)
    + 展開の種類 {#deployment-types-}
       + [展開の種類について](installation/using/about-deployment-types.md)
       + [スタンドアロンの展開](installation/using/standalone-deployment.md)
       + [標準導入](installation/using/standard-deployment.md)
       + [エンタープライズでの導入](installation/using/enterprise-deployment.md)
-      + [中間調査の導入](installation/using/mid-sourcing-deployment.md)
+      + [ミッドソーシング導入](installation/using/mid-sourcing-deployment.md)
       + [パワーブースタとパワークラスタ](installation/using/power-booster-and-power-cluster.md)
-   + WindowsでのCampaignのインストール {#installing-campaign-in-windows-}
+   + Windowsでのキャンペーンのインストール {#installing-campaign-in-windows-}
       + [WindowsでのCampaignのインストールの前提条件](installation/using/prerequisites-of-campaign-installation-in-windows.md)
       + [サーバーのインストール](installation/using/installing-the-server.md)
       + [Windows用のWebサーバーへの統合](installation/using/integration-into-a-web-server-for-windows.md)
-      + [Windows向けクライアントコンソールの可用性](installation/using/client-console-availability-for-windows.md)
+      + [Windows向けのクライアントコンソールの可用性](installation/using/client-console-availability-for-windows.md)
       + [クライアントコンソールのインストール](installation/using/installing-the-client-console.md)
    + LinuxでのCampaignのインストール {#installing-campaign-in-linux-}
       + [LinuxでのCampaignのインストールの前提条件](installation/using/prerequisites-of-campaign-installation-in-linux.md)
       + [Linuxでのパッケージのインストール](installation/using/installing-packages-with-linux.md)
       + [Linux用のWebサーバーへの統合](installation/using/integration-into-a-web-server-for-linux.md)
-      + [Linux用クライアントコンソールの可用性](installation/using/client-console-availability-for-linux.md)
+      + [Linux用のクライアントコンソールの可用性](installation/using/client-console-availability-for-linux.md)
    + 初期設定 {#initial-configuration}
       + [初期設定について](installation/using/about-initial-configuration.md)
       + [インスタンスの作成とログオン](installation/using/creating-an-instance-and-logging-on.md)
@@ -583,25 +583,25 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [Campaign Classic標準パッケージのインストール](installation/using/installing-campaign-standard-packages.md)
    + 任意の追加設定 {#additional-configurations}
       + [Campaign サーバーの設定](installation/using/configuring-campaign-server.md)
-      + [LDAPを使用した接続](installation/using/connecting-through-ldap.md)
-      + [技術的な電子メール設定](installation/using/email-deliverability.md)
+      + [LDAP経由の接続](installation/using/connecting-through-ldap.md)
+      + [技術的な電子メールの設定](installation/using/email-deliverability.md)
       + [E メールのアーカイブ](installation/using/email-archiving.md)
       + [タイムゾーン管理](installation/using/time-zone-management.md)
       + [スパムアサシンの設定](installation/using/configuring-spamassassin.md)
       + [ミッドソーシングサーバー](installation/using/mid-sourcing-server.md)
-      + [インタラクション — データバッファー](installation/using/interaction---data-buffer.md)
+      + [インタラクション — データバッファ](installation/using/interaction---data-buffer.md)
    + 付録 {#appendices}
       + [サーバー設定ファイル](installation/using/the-server-configuration-file.md)
       + [コマンドライン](installation/using/command-lines.md)
       + [新しいインスタンスの作成](installation/using/creating-new-instances.md)
       + [Campaign Classicオプションのリスト](installation/using/configuring-campaign-options.md)
-      + [Campaignのアンインストール](installation/using/uninstalling-campaign.md)
+      + [キャンペーンのアンインストール](installation/using/uninstalling-campaign.md)
 + Monitoring Campaign Classic {#monitoring-campaign-classic}
    + はじめに {#introduction}
       + [前書き](production/using/foreword.md)
       + [一般的なアーキテクチャ](production/using/general-architecture.md)
-   + 生産手順 {#production-procedures}
-      + [設定原則](production/using/configuration-principle.md)
+   + 生産手続 {#production-procedures}
+      + [設定の原則](production/using/configuration-principle.md)
       + [動作の仕組み](production/using/operating-principle.md)
       + [管理](production/using/administration.md)
       + [設定](production/using/configuration.md)
@@ -613,7 +613,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [バックアップ](production/using/backup.md)
       + [復元](production/using/restoration.md)
       + [環境の複製](production/using/duplicating-environments.md)
-      + [データベースクリーンアップワークフロー](production/using/database-cleanup-workflow.md)
+      + [データベースのクリーンアップワークフロー](production/using/database-cleanup-workflow.md)
    + Adobe Campaign の更新 {#updating-adobe-campaign}
       + [はじめに](production/using/introduction.md)
       + [アップグレード](production/using/upgrading.md)
@@ -622,9 +622,9 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
    + データベースメンテナンス {#database-maintenance}
       + [推奨事項](production/using/recommendations.md)
       + [保守するテーブル](production/using/tables-to-maintain.md)
-      + [保守の種類](production/using/types-of-maintenance.md)
+      + [メンテナンスの種類](production/using/types-of-maintenance.md)
       + [RDBMS固有の推奨事項](production/using/rdbms-specific-recommendations.md)
-      + [Applicationオブジェクト](production/using/application-objects.md)
+      + [アプリケーションオブジェクト](production/using/application-objects.md)
    + トラブルシューティング {#troubleshooting}
       + [パフォーマンスとスループットの問題](production/using/performance-and-throughput-issues.md)
       + [画像が見つかりません](production/using/images-missing.md)
@@ -662,7 +662,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [スキーマのフィルタ](configuration/using/filtering-schemas.md)
       + [PIIビューの制限](configuration/using/restricting-pii-view.md)
       + [データベース構造の更新](configuration/using/updating-the-database-structure.md)
-      + [新規フィールドウィザード](configuration/using/new-field-wizard.md)
+      + [新しいフィールドウィザード](configuration/using/new-field-wizard.md)
       + [データスキーマの構造](configuration/using/structure-of-a-data-schema.md)
       + [スキーマの再生成](configuration/using/regenerating-schemas.md)
       + [スキーマエディションの例](configuration/using/examples-of-schemas-edition.md)
@@ -692,8 +692,8 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [ワークフローを使用したプロファイルリストの作成](configuration/using/creating-a-profile-list-with-a-workflow.md)
       + [ワークフローの管理](configuration/using/managing-workflows.md)
       + [レポートの管理](configuration/using/managing-reports.md)
-   + Webトラッキングの設定 {#setting-up-web-tracking}
-      + [Webトラッキングについて](configuration/using/about-web-tracking.md)
+   + Web追跡の設定 {#setting-up-web-tracking}
+      + [Web追跡について](configuration/using/about-web-tracking.md)
       + [Web トラッキングモード](configuration/using/web-tracking-mode.md)
       + [Webトラッキングタグ：定義](configuration/using/web-tracking-tag--definition.md)
       + [設定ステージ](configuration/using/setup-stages.md)
@@ -713,13 +713,13 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
       + [プラットフォームの設定](migration/using/configuring-your-platform.md)
    + Adobe Campaignへの移行7 {#migrating-to-adobe-campaign-7}
       + [Adobe Campaign 7への移行の前提条件](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
-      + [WindowsでのAdobe Campaignへの移行7](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
+      + [WindowsでのAdobe Campaign 7への移行](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
       + [LinuxでのAdobe Campaign v7への移行](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
    + 設定 {#configuration}
       + [一般設定](migration/using/general-configurations.md)
       + [v5.11での具体的な設定](migration/using/specific-configurations-in-v5-11.md)
-      + [v6.02での具体的な設定](migration/using/specific-configurations-in-v6-02.md)
-      + [v6.10での具体的な設定](migration/using/specific-configurations-in-v6-10.md)
+      + [v6.02の固有の設定](migration/using/specific-configurations-in-v6-02.md)
+      + [v6.10の固有の設定](migration/using/specific-configurations-in-v6-10.md)
    + ロールバック {#rollback}
       + [ロールバックについて](migration/using/about-rollback.md)
       + [v5.11の復元](migration/using/restoring-v5-11.md)

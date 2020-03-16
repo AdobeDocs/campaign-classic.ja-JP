@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
+source-git-commit: defbe3793be531eeb5c7aab913607ff094a624c7
 
 ---
 
@@ -40,6 +40,10 @@ source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 </table>
 
 最後 **の安定ビルドは** 9032 (205c981c3)です。 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+
+## リリース20.1.2 — ビルド9123 {#release-20-1-2-build-9123}
+
+* Red Hat 7サーバーでバージョンをデプロイできない問題を修正しました。 （NEO-23332）
 
 ## ![](assets/blue_2.png) リリース20.1 — ビルド9122 {#release-20-1-build-9122}
 
@@ -145,7 +149,7 @@ _2020年2月17日_
 
 * 連続配信のコンテンツ内のURLを解析する際に、URLがクラッシュする可能性がある問題を修正しました。 （NEO-16910）
 
-* 新しいキャンペーンを作成する **際に** 、「開始」と「終 **了** 」のフィールドが計算されない問題を修正しました。
+* 新しいキャンペーンを作成する **際に** 、「開始 **日」と「終了日** 」フィールドが計算されない問題を修正しました。
 
 * URLを使用する場合の「ファイルのダウ **ンロード** 」ワークフローアクティビティの問題を修正しました。
 

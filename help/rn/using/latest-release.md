@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: defbe3793be531eeb5c7aab913607ff094a624c7
+source-git-commit: 1d08730421c598873e272f305a819e3fb4509d90
 
 ---
 
@@ -41,11 +41,13 @@ source-git-commit: defbe3793be531eeb5c7aab913607ff094a624c7
 
 最後 **の安定ビルドは** 9032 (205c981c3)です。 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## リリース20.1.2 — ビルド9123 {#release-20-1-2-build-9123}
+## ![](assets/blue_2.png) リリース20.1.2 — ビルド9123 {#release-20-1-2-build-9123}
+
+_2020年3月13日_
 
 * Red Hat 7サーバーでバージョンをデプロイできない問題を修正しました。 （NEO-23332）
 
-## ![](assets/blue_2.png) リリース20.1 — ビルド9122 {#release-20-1-build-9122}
+## ![](assets/orange_2.png) リリース20.1 — ビルド9122 {#release-20-1-build-9122}
 
 _2020年2月17日_
 

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
+source-git-commit: 1d08730421c598873e272f305a819e3fb4509d90
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
 
 最後 **の安定ビルドは** 9032 (205c981c3)です。 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/blue_2.png) リリース19.2.3 — ビルド9081 {#release-19-2-3-build-9081}
+## ![](assets/orange_2.png) リリース19.2.3 — ビルド9081 {#release-19-2-3-build-9081}
 
 _2020年2月7日_
 
@@ -131,7 +131,7 @@ _2019年12月2日_
 * Microsoft Dynamics CRM外部アカウントは、パスワード資格情報（パスワード+ユーザー名）または証明書（秘密鍵）を使用して構成できるようになりました。 [詳細を表示](../../platform/using/external-accounts.md#microsoft-dynamics-crm-external-account)
 * 信頼性を向上させるため、Hadoop FDAコネクタにいくつかの機能が追加されました。
 * サーバー上のパブリックリソースのアップロードを許可する前に、ディスク領域をチェックする特定のガードレールが追加されました。
-* 新しいキ [ャンペーンオプション](../../installation/using/configuring-campaign-options.md) が追加されました。
+* 新しいキ [ャンペーン](../../installation/using/configuring-campaign-options.md) オプションが追加されました。
    * WdbcKillSessionPolicy構成オ **プションを使用すると** 、すべてのワークフローとPostgreSQLデータベースクエリに対し **** て、無条件停止動作に影響を与えることができます。
    * NmsOperation_ **DeliveryPreparationWindowオプションを使用すると** 、ステータスが矛盾する配信が実行中の配信の数から除外される日数を定義できます。
    * WdbcOptions_ **TempDbName** オプションを使用すると、Microsoft SQL Server上でテーブルを作成するための別のデータベースを設定できます。 これにより、バックアップとレプリケーションが最適化されます。 [詳細を表示](../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)

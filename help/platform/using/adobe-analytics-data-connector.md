@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20174427735b90129cd4cbd9ee1ba5fd705fa302
+source-git-commit: becdffadaaaa40359b61a6ad786b9fd8ebecc6e9
 
 ---
 
@@ -67,8 +67,12 @@ Data コネクタを設定するには、Adobe Campaign インスタンスに接
 
    ![](assets/adobe_genesis_install_013.png)
 
-1. タブで、を **[!UICONTROL Admin]** 選択します **[!UICONTROL Data Connectors]**。
+1. タブから、を **[!UICONTROL Admin]** 選択します **[!UICONTROL Data Connectors]**。
 
+   メニューにアクセスするには、次のAnalyticsツールの権限が必要 **[!UICONTROL Data Connectors]** です。 For more on this, refer to this [page](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/analytics-tools.html)
+   * 統合（作成）
+   * 統合（更新）
+   * 統合（削除）
    ![](assets/adobe_genesis_install_002.png)
 
 1. From the list of partners, select **[!UICONTROL Neolane - Enterprise Marketing Platform]**.
@@ -76,7 +80,7 @@ Data コネクタを設定するには、Adobe Campaign インスタンスに接
    ![](assets/adobe_genesis_install_014.png)
 
 1. ダイアログで、 **[!UICONTROL Add integration]** をクリックしま **[!UICONTROL Activate]**&#x200B;す。
-1. この統 **[!UICONTROL I accept these terms and conditions]** 合にリンクされ **[!UICONTROL Report suite]** ているを選択し、コネクタのラベルを入力します。
+1. この統合 **[!UICONTROL I accept these terms and conditions]** にリンクされて **[!UICONTROL Report suite]** いるをチェックして選択し、コネクタのラベルを入力します。
 
    完了したら、をクリックしま **[!UICONTROL Create and configure this integration]**&#x200B;す。
 
@@ -86,7 +90,7 @@ Data コネクタを設定するには、Adobe Campaign インスタンスに接
 
    ![](assets/adobe_genesis_install_005.png)
 
-1. E メールキャンペーンの影響を測定するために必要な ID として、キャンペーン名（cid）および iNmsBroadlog（bid）テーブル ID を指定します。収集されるイベントの指標も指定する必要があります。
+1. E メールキャンペーンの影響を測定するために必要な ID として、キャンペーン名（cid）および iNmsBroadlog（bid）テーブル ID を指定します。収集されるイベントの指標も指定する必要があります。お使いのタイプが数値 **[!UICONTROL Events]** 型であることを確認してください。数値型でない場合は、ドロップダウンメニューに表示されません。
 
    ![](assets/adobe_genesis_install_006.png)
 
@@ -143,8 +147,8 @@ Adobe Campaign は、コネクタにより分析プラットフォームと統�
 
 1. The **[!UICONTROL Advanced]** tab lets you configure or modify more technical settings.
 
-   * **[!UICONTROL Lifespan]**:技術的なワークフローによってAdobe CampaignでWebイベントが回復されるまでの遅延時間（日単位）を指定できます。 デフォルト：180日。
-   * **[!UICONTROL Persistence]**:すべてのWebイベント（例えば、購入）をリマーケティングキャンペーンに関連付けることができる期間、デフォルト：7日。
+   * **[!UICONTROL Lifespan]**:を使用すると、技術的なワークフローによってAdobe CampaignでWebイベントが回復されるまでの遅延（日単位）を指定できます。 デフォルト：180日。
+   * **[!UICONTROL Persistence]**:すべてのWebイベント（例えば、購入）を再マーケティングキャンペーンに関連付けることができる期間、デフォルトです。7日。
 
 >[!NOTE]
 >
@@ -160,7 +164,7 @@ Adobe Campaign は、コネクタにより分析プラットフォームと統�
 
    ![](assets/webanalytics_ext_account_setting_001.png)
 
-1. リンクをクリック **[!UICONTROL Approve connection]** します。
+1. リンクをクリッ **[!UICONTROL Approve connection]** クします。
 
    ![](assets/webanalytics_ext_account_setting_002.png)
 
@@ -189,13 +193,13 @@ Data コネクタウィザードで追加セグメントを設定した場合は
 
 Adobe Campaign と Adobe Analytics - Data コネクタとの間のデータ交換は、バックグラウンドタスクとして実行される 4 つのテクニカルワークフローによって処理されます。
 
-Adobe Campaignツリーのフォルダーの下に表示され **[!UICONTROL Administration > Production > Technical workflows > Web analytics process]** ます。
+これらは、Adobe Campaignツリーのフォルダーの下に表示さ **[!UICONTROL Administration > Production > Technical workflows > Web analytics process]** れます。
 
 ![](assets/webanalytics_workflows.png)
 
-* **[!UICONTROL Recovering of web events]**:1時間後に、このワークフローは、特定のサイトでのユーザーの行動に関するセグメントをダウンロードし、Adobe Campaignデータベースに含めて、再マーケティングワークフローを開始します。
-* **[!UICONTROL Event purge]**:このワークフローを使用すると、フィールドで設定した期間に応じて、データベースからすべてのイベントを削除で **[!UICONTROL Lifespan]** きます。 詳細については、手順2を参照し [てください。Campaignで外部アカウントを作成します](#step-2--create-the-external-account-in-campaign)。
-* **[!UICONTROL Identification of converted contacts]**:リマーケティングキャンペーン後に購入を行った訪問者のディレクトリ。 The data collected by this workflow is accessible in the **[!UICONTROL Re-marketing efficiency]** report, refer to this [page](#creating-a-re-marketing-campaign).* **[!UICONTROL Sending of indicators and campaign attributes]**: lets you send email campaign indicators via Adobe Campaign to the Adobe Experience Cloud using Adobe Analytics - Data connector. このワークフローは毎日午前 4 時にトリガーされ、データを Analysis に送信するには 24 時間かかります。
+* **[!UICONTROL Recovering of web events]**:1時間後、このワークフローは、特定のサイトでのユーザーの行動に関するセグメントをダウンロードし、Adobe Campaignデータベースに含めて、再マーケティングワークフローを開始します。
+* **[!UICONTROL Event purge]**:このワークフローを使用すると、フィールドで設定した期間に応じて、データベースからすべてのイベントを削除で **[!UICONTROL Lifespan]** きます。 詳しくは、手順2を参照し [てください。Campaignで外部アカウントを作成します](#step-2--create-the-external-account-in-campaign)。
+* **[!UICONTROL Identification of converted contacts]**:リマーケティングキャンペーン後に購入した訪問者のディレクトリ。 The data collected by this workflow is accessible in the **[!UICONTROL Re-marketing efficiency]** report, refer to this [page](#creating-a-re-marketing-campaign).* **[!UICONTROL Sending of indicators and campaign attributes]**: lets you send email campaign indicators via Adobe Campaign to the Adobe Experience Cloud using Adobe Analytics - Data connector. このワークフローは毎日午前 4 時にトリガーされ、データを Analysis に送信するには 24 時間かかります。
 
    ワークフローは再起動しないでください。再起動すると、以前のデータがすべて再送され、Analytics の結果に歪みが生じる可能性があります。
 
@@ -238,7 +242,7 @@ Adobe Campaign で配信を送信した後、Adobe Experience Cloud でサイト
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. 配信プロパティを開きます。
-1. タブに移動し、以 **[!UICONTROL Web Analytics]** 前に作成した外部アカウントを選択します。 手順2を参 [照してください。Campaignで外部アカウントを作成します](#step-2--create-the-external-account-in-campaign))。
+1. タブに移動し、 **[!UICONTROL Web Analytics]** 以前に作成した外部アカウントを選択します。 手順2を参 [照してください。Campaignで外部アカウントを作成します](#step-2--create-the-external-account-in-campaign))。
 
    ![](assets/webanalytics_delivery_properties_002.png)
 

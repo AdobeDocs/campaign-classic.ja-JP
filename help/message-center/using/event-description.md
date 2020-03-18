@@ -15,16 +15,16 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7c57fb0f2d9867b5ea96185c1984e0b1baeb056a
+source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
 
 ---
 
 
 # イベントの説明{#event-description}
 
-## トランザクションメッセージのデータモデルについて {#about-transactional-messaging-datamodel}
+## トランザクションメッセージングデータモデルについて {#about-transactional-messaging-datamodel}
 
-トランザクションメッセージは Campaign データモデルに依存し、2 つの追加の別個のテーブルを使用します。同じフィールドが含まれるこれらの **NmsRtEvent** テーブルと **NmsBatchEvent** テーブルを使用して、一方でリアルタイムイベントを管理し、もう一方でバッチイベントを管理できます。
+トランザクションメッセージングは、Adobe Campaignのデータモデルに依存し、2つの別々のテーブルを使用します。 These [tables](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** and **NmsBatchEvent**, contain the same fields and let you manage real time events on the one hand and batch events on the other.
 
 ## SOAP メソッド {#soap-methods}
 
@@ -108,7 +108,7 @@ PushEvents の使用例：
 </urn:PushEvents>
 ```
 
-要素と **`<rtevent>`** 要素に **`<batchevent>`** は、属性のセットと必須の子要素が含まれます。メッセ **`<ctx>`** ージデータの統合。
+要素と **`<rtevent>`** 要素 **`<batchevent>`** には、属性のセットと必須の子要素が含まれます。メッセー **`<ctx>`** ジデータの統合。
 
 >[!NOTE]
 >

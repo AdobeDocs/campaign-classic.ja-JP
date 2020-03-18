@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d2758b5e81d1720a4f01a610e51c4a33995d88d1
+source-git-commit: ae44e38e9d05478e8ebfacb1e063cdfd5d7ff30c
 
 ---
 
@@ -52,4 +52,4 @@ source-git-commit: d2758b5e81d1720a4f01a610e51c4a33995d88d1
 
 >[!NOTE]
 >
->データベース管理者は、これらの権限を各データベースエンジン特有の権限に対応付ける必要があります。詳しくは、[RDBMS 特有の権限](https://docs.campaign.adobe.com/doc/AC6.1/en/technicalResources/technicalResources.html)を参照してください。
+>データベース管理者は、これらの権限を各データベースエンジン特有の権限に対応付ける必要があります。詳しくは、[RDBMS 特有の権限](https://docs.adobe.com/content/help/en/campaign-classic/using/assets/fda_rdbms_rights.pdf)を参照してください。

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16e7266a101b4abea3271c32fcc403e7d7fbaa2d
+source-git-commit: 527d2dd2296d18c8ca26745b9f87d65c6fdf480a
 
 ---
 
@@ -60,7 +60,7 @@ Quarantined addresses for a specific delivery are listed during the delivery pre
 
 ### プラットフォーム全体の強制隔離アドレスの識別 {#identifying-quarantined-addresses-for-the-entire-platform}
 
-管理者は、ノードからプラットフォーム全体の検疫済みアドレスをリストで **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** きます。
+管理者は、ノードからプラットフォーム全体の検疫済みのアドレスを一覧表示で **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** きます。
 
 >[!NOTE]
 >
@@ -74,8 +74,8 @@ Quarantined addresses for a specific delivery are listed during the delivery pre
 >
 >強制隔離数の増加は、データベースの「老朽化」に関連する、正常な影響です。例えば、E メールアドレスの寿命が 3 年と考えられ、受信者テーブルが毎年 50％増加する場合、強制隔離の増加は次のように計算できます。
 >
->1年目の終わり：(1*0.33)/(1+0.5)=22%
-2年目の終わり：((1.22*0.33)+0.33)/(1.5+0.75)=32.5%
+>1年目の終わり：(1*0.33)/(1+0.5)=22%。
+2年目の終わり：(1.22*0.33)+0.33)/(1.5+0.75)=32.5%.
 
 ### 配信レポートでの強制隔離アドレスの識別 {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -112,7 +112,7 @@ If you change the status to **[!UICONTROL Whitelisted]**, the address will be ta
 
 ## アドレスを強制隔離する条件 {#conditions-for-sending-an-address-to-quarantine}
 
-Adobe Campaignは、配信失敗タイプと、エラーメッセージの資格認定(バウンスメールの資格認定を参照 [)および配信失敗タイプと](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)理由に従って検疫を管理します [](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)。
+Adobe Campaignは、配信失敗のタイプと、エラーメッセージの資格(バウンスメールの資格を参照 [)および配信失敗のタイプと理由に従って、](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)検疫を管理します [](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)。
 
 * **無視のエラー**：アドレスを強制隔離しません。
 * **ハードエラー**：対応する E メールアドレスがただちに強制隔離されます。
@@ -120,23 +120,23 @@ Adobe Campaignは、配信失敗タイプと、エラーメッセージの資格
 
 ユーザーが E メールをスパム（**フィードバックループ**）と評価した場合、メッセージはアドビが管理するテクニカルメールボックスに自動的にリダイレクトされます。さらに、その E メールアドレスは自動的に強制隔離されます。
 
-In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. Adobe Campaignでの検疫では、大文字と小文字が区別されます。 後で再ターゲット設定されないように、電子メールアドレスは小文字でインポートしてください。
+In the list of quarantined addresses, the **[!UICONTROL Error reason]** field indicates why the selected address was placed in quarantine. Adobe Campaignでの検疫では、大文字と小文字が区別されます。 後で再ターゲットされないように、電子メールアドレスは小文字でインポートしてください。
 
 ![](assets/tech_quarant_error_reasons.png)
 
 ### ソフトエラー管理 {#soft-error-management}
 
-ハードエラーとは異なり、ソフトエラーは直ちに検疫にアドレスを送信せず、代わりにエラーカウンターを増分します。
+ハードエラーとは異なり、ソフトエラーは、検疫のためのアドレスを直ちに送信せず、代わりにエラーカウンターを増分します。
 
-* エラーカウンターが制限しきい値に達すると、アドレスは検疫に入ります。
-* デフォルトの設定では、しきい値はエラー 5 回に設定されています。2 つのエラーは、24 時間以上間隔を開けて発生する場合に意味を持ちます。6 回目のエラー発生時にアドレスが強制隔離されます。
-* エラーカウンターのしきい値は変更できます。この詳細については、「配信の一時的な失敗後 [の再試行」を参照してください](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
+* エラーカウンターが制限しきい値に達すると、アドレスは検疫の対象になります。
+* デフォルトの設定では、しきい値はエラー 5 回に設定されています。2 つのエラーは、24 時間以上間隔を開けて発生する場合に意味を持ちます。5回目の誤りで住所が検疫中です。
+* エラーカウンターのしきい値は変更できます。この詳細については、「配信の一時的な失 [敗後の再試行」を参照してください](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)。
 
-エラーカウンターは、最後の重大なエラーが10日以上前に発生した場合に再初期化されます。 The address status then changes to **Valid** and it is deleted from the list of quarantines by the **Database cleanup** workflow.
+最後の重大なエラーが10日以上前に発生した場合、エラーカウンターが再初期化されます。 The address status then changes to **Valid** and it is deleted from the list of quarantines by the **Database cleanup** workflow.
 
 ## プッシュ通知の強制隔離 {#push-notification-quarantines}
 
-プッシュ通知の強制隔離メカニズムは、全体として通常のプロセスと同じものです。「隔離につ [いて」を参照してくださ](#about-quarantines)い。 ただし、プッシュ通知では一部のエラーの管理方法が異なります。例えば、一部のソフトエラーでは、同じ配信の再試行は実行されません。プッシュ通知特有の方式を以下に示します。再試行の方式（再試行の回数、頻度）は E メールの場合と同じです。
+プッシュ通知の強制隔離メカニズムは、全体として通常のプロセスと同じものです。「検疫につ [いて」を参照してくださ](#about-quarantines)い。 ただし、プッシュ通知では一部のエラーの管理方法が異なります。例えば、一部のソフトエラーでは、同じ配信の再試行は実行されません。プッシュ通知特有の方式を以下に示します。再試行の方式（再試行の回数、頻度）は E メールの場合と同じです。
 
 強制隔離される項目はデバイストークンです。
 
@@ -321,7 +321,7 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
    <td> ×<br /> </td> 
   </tr> 
   <tr> 
-   <td> FCMメッセージの拒否：デバイスのクォータを超えました<br /> </td> 
+   <td> FCMメッセージの拒否：デバイスの割り当てを超えました<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> </td> 
    <td> ソフト<br /> </td> 
@@ -351,7 +351,7 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
 
 **標準コネクタの場合**
 
-SMS メッセージの強制隔離メカニズムは、全体として通常のプロセスと同じものです。「隔離につ [いて」を参照してくださ](#about-quarantines)い。 SMS 特有の方式を以下に示します。
+SMS メッセージの強制隔離メカニズムは、全体として通常のプロセスと同じものです。「検疫につ [いて」を参照してくださ](#about-quarantines)い。 SMS 特有の方式を以下に示します。
 
 >[!NOTE]
 The **[!UICONTROL Delivery log qualification]** table does not apply to the **Extended generic SMPP** connector.
@@ -407,7 +407,7 @@ The **[!UICONTROL Delivery log qualification]** table does not apply to the **Ex
 
 SMPP プロトコルを使用して SMS メッセージを送信する場合のエラー管理の方法は異なります。拡張された汎用 SMPP コネクタについて詳しくは、[このページ](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)を参照してください。
 
-SMPP コネクタは、返された SR（ステータスレポート）メッセージからデータを取得し、正規表現（regex）を使用して、そのコンテンツをフィルター処理します。次に、このデータは、テーブルにある情報と一致します(// **[!UICONTROL Delivery log qualification]** メニューから **[!UICONTROL Administration]** 利用 **[!UICONTROL Campaign Management]** でき **[!UICONTROL Non deliverables Management]** ます)。
+SMPP コネクタは、返された SR（ステータスレポート）メッセージからデータを取得し、正規表現（regex）を使用して、そのコンテンツをフィルター処理します。次に、このデータは表に示されている情報と一致します(// **[!UICONTROL Delivery log qualification]** メニューから **[!UICONTROL Administration]** 利用で **[!UICONTROL Campaign Management]** きます **[!UICONTROL Non deliverables Management]** )。
 
 新しいタイプのエラーが検証される前に、エラーの理由はデフォルトで常に「**拒否**」に設定されます。
 
@@ -440,6 +440,6 @@ SR Generic DELIVRD 000|#MESSAGE#
 
    デフォルトでは、**SMPP 3.4 仕様**&#x200B;の&#x200B;**付録 B** に規定されているとおり、**err:** フィールドが抽出されます。
 
-* Everything that comes after the pipe symbol (|) is only displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Delivery log qualification]** table. このコンテンツは、常に、メッセージが正規化された後に **#MESSAGE#** で置き換えられます。これにより、同じようなエラーに対して複数のエントリが含まれるのを防ぐことができます。これは、E メールの場合と同じです。詳しくは、「バウンスメールの資格 [情報」を参照してください](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)。
+* Everything that comes after the pipe symbol (|) is only displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Delivery log qualification]** table. このコンテンツは、常に、メッセージが正規化された後に **#MESSAGE#** で置き換えられます。これにより、同じようなエラーに対して複数のエントリが含まれるのを防ぐことができます。これは、E メールの場合と同じです。詳しくは、「バウンスのメール認 [定」を参照してください](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)。
 
 拡張された汎用 SMPP コネクタは、ヒューリスティックを適用して実用的なデフォルト値を見つけます。例えば、**DELIV** で始まるステータスは、ほとんどのプロバイダーでよく使用されている **DELIVRD** または **DELIVERED** と一致するので、成功とみなされます。これ以外のステータスはハードエラーとみなされます。

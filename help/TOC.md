@@ -5,7 +5,7 @@ index: y
 product: adobe campaign
 sub-product: adobe campaign classic
 translation-type: tm+mt
-source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
+source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
 
 ---
 
@@ -645,9 +645,7 @@ source-git-commit: e8de8441303cb9d5102db2a95742ec7d38b16fc2
 + Campaign Classicの設定 {#configuring-campaign-classic}
    + データモデル {#data-model}
       + [データモデルについて](configuration/using/about-data-model.md)
-      + [デフォルトの受信者テーブルの使用](configuration/using/default-recipient-table.md)
-      + [データモデルの拡張](configuration/using/extending-data-model.md)
-      + [カスタム受信者テーブルの使用](configuration/using/custom-recipient-table.md)
+      + [データモデルの説明](configuration/using/data-model-description.md)
       + [ベストプラクティス](configuration/using/data-model-best-practices.md)
    + スキーマ参照 {#schema-reference}
       + [スキーマ参照について](configuration/using/about-schema-reference.md)

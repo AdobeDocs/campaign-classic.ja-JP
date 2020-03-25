@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7eef2b9bdee51d6684d4dff5b08f50ec79a33af6
+source-git-commit: b0cd40d4616f7b55a1d655a1717b9c7ce8d8b6c6
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Experience Cloud 内での Adobe Campaign と Adobe Target（Classic お�
 
 これは、Adobe Campaign を使用して送信された E メールを受信者が開封すると、Adobe Target が呼び出され、コンテンツの動的バージョンが表示されるという仕組みになっています。この動的バージョンは、E メールを作成したときに事前に指定したルールに応じて自動生成されます。
 
-Adobe CampaignとAdobe targetの統合に関する4つのヒントとテクニ [ックについて説明します](https://www.adobe.com/content/dam/www/us/en/marketing/campaign/pdfs/Adobe_Campaign_for_Target_Tips_and_Tricks.pdf)。
+Adobe CampaignとAdobe Targetの統合に関する4つのヒントとテクニ [ックについて詳しく説明します](https://www.adobe.com/content/dam/www/us/en/marketing/campaign/pdfs/Adobe_Campaign_for_Target_Tips_and_Tricks.pdf)。
 >[!NOTE]
 >
 >この統合が対応するのは、静的画像だけです。残りのコンテンツをパーソナライズすることはできません。
@@ -40,4 +40,3 @@ Adobe Target は複数のタイプのデータを使用できます。
 >[!NOTE]
 >
 >Adobe Campaign と Adobe Target 間の統合に関する情報は、[Adobe Target ヘルプページ](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)を参照してください。
-

@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2de7987a0e5089a9023c0cf3b4c6c61a758a5e5f
+source-git-commit: 295dcd0ac302194df5e202ccabb579f006ed5651
 
 ---
 
@@ -32,6 +32,14 @@ Adobe Campaign Classicドキュメントの最新の更新をすべて紹介し�
 
 Adobe Campaignの事前定義データモデルとあらかじめ用意されている表のインタラクションについて説明する新しい節が利用できるようになりました。 [詳細を表示](../../configuration/using/data-model-description.md)
 
+ドキュメントのホームページに、その他のリソースが追加されました。 [詳細を表示](../../campaign-classic-home.md)
+
+Adobe Targetの動的なオファーをAdobe Campaignの電子メールに統合する方法に関する使用例が追加されました。 [詳細を表示](../../integrations/using/inserting-a-dynamic-image.md)
+
+Adobe Campaignで使用できる様々な言語の詳細を説明する新しいセクションが提供されました。 [詳細を表示](../../platform/using/adobe-campaign-workspace.md#languages)
+
+アクセス管理ページが更新され、名前付き権限に関する詳細情報が追加されました。 [詳細を表示](../../platform/using/access-management.md#named-rights)
+
 ## February 2020 {#february-2020}
 
 Adobe Campaignデータモデルのデザイン時に、ベストプラクティスと主要な推奨事項の概要を示す新しい節が利用できるようになりました。 [詳細を表示](../../configuration/using/data-model-best-practices.md)
@@ -43,8 +51,6 @@ Adobe Campaignデータモデルのデザイン時に、ベストプラクティ
 3つの電子メールプロバイダー(Gmail、Outlook、Mail.ru)によってEmail用のAMPがサポートされるようになりました。AMPを使用してインタラクティブコンテンツを定義する方法を説明する節が更新されました。 [詳細を表示](../../delivery/using/defining-interactive-content.md)
 
 「電子メールのアーカイブ」の節が明確になりました。 [詳細を表示](../../installation/using/email-archiving.md#recommendations-and-limitations)
-
-
 
 ## 20.1 - 17/02/2020{#release-20-1}
 
@@ -202,7 +208,7 @@ Adobe Campaign Classicでの追跡の一般的なガイドラインに関する�
 
 新しいビルドアップグレードFAQが作成されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/build-upgrade-faq.html)
 
-The [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) has been updated. サポートされるデータベースシステムのリスト、Android/iOSのバージョン、および関連するSDKが更新されました。 The [19.0 Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-0.html) has been archived.
+The [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) has been updated. サポートされるデータベースシステムのリスト、およびAndroid/iOSのバージョンと関連SDKが更新されました。 The [19.0 Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix-19-0.html) has been archived.
 
 「Campaign Classicの非推奨および削除された機能」ページが更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 

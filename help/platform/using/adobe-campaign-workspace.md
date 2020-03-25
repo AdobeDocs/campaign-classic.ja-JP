@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00351a7a108f74741fa15546d9bd5cf68699e5c1
+source-git-commit: 443c119593e9ba4c3cdf6a6d2ee742a0a17830c5
 
 ---
 
@@ -51,6 +51,22 @@ Web アクセス用のインターフェイスはコンソールに似ていま�
 一方、Web アクセスで見たときには、次のようなオプションが表示されます。
 
 ![](assets/operation_from_web.png)
+
+### 言語 {#languages}
+
+この言語は、Adobe Campaign Classicインスタンスのインストール時に選択され、後で変更することはできません。 インスタンスの作成方法の詳細については、このページを参照してく [ださい](../../installation/using/creating-an-instance-and-logging-on.md)。
+
+![](assets/language.png)
+
+次の5種類の言語から選択できます。
+
+* 英語（米国）
+* 英語（英国）
+* フランス語
+* ドイツ語
+* 日本語
+
+Adobe Campaign Classicインスタンスに選択した言語は、日付と時間の形式に影響する場合があります。 詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#date-and-time)を参照してください。
 
 ## ナビゲーションの基本 {#navigation-basics}
 
@@ -124,7 +140,7 @@ In the **[!UICONTROL Explorer]** workspace, if some parts of the **[!UICONTROL D
 >
 >Configuration and personalization of list content are presented in [Configuring lists](#configuring-lists).
 >
->データを並べ替えたりフィルターしたりすることもできます。詳しくは、フ [ィルタリングオプションを参照](../../platform/using/filtering-options.md)。
+>データを並べ替えたりフィルターしたりすることもできます。詳しくは、フ [ィルタオプションを参照](../../platform/using/filtering-options.md)。
 
 ### レコードのカウント {#counting-records}
 
@@ -189,12 +205,12 @@ To change the default number of records loaded, click **[!UICONTROL Configure li
    >
    >ラベルは、テーブルごとに、その後はアルファベット順に表示されます。
    >
-   >「**検索**」フィールドを使用して、使用可能フィールドで検索を実行できます。詳しくは、「リストの並べ替え」 [を参照してください](#sorting-a-list)。
+   >「**検索**」フィールドを使用して、使用可能フィールドで検索を実行できます。詳しくは、リストの並べ替えを [参照してください](#sorting-a-list)。
    >
    >フィールドは、次の特定のアイコンで識別されます。SQLフィールド、リンクテーブル、計算フィールドなど 選択した各フィールドの説明が、使用可能なフィールドのリストの下に表示されます。
    [リストの設定](#configuring-lists).
    >
-   >データを並べ替えたりフィルターしたりすることもできます。詳しくは、フ [ィルタリングオプションを参照](../../platform/using/filtering-options.md)。
+   >データを並べ替えたりフィルターしたりすることもできます。詳しくは、フ [ィルタオプションを参照](../../platform/using/filtering-options.md)。
 
 1. 表示する列ごとにこの手順を繰り返します。
 1. 矢印を使用して&#x200B;**表示順序**&#x200B;を変更します。最も上にある列が、レコードのリストで左になります。
@@ -275,7 +291,7 @@ Click **[!UICONTROL Save]** in the folder properties window. リストの表示�
 
 リストからデータをエクスポートするには、エクスポートウィザードを使用する必要があります。To access it, select the elements to be exported from the list, right-click and select **[!UICONTROL Export...]**.
 
-インポートおよびエクスポート機能の使用については、「一般的なインポ [ートおよびエクスポート](../../platform/using/generic-imports-and-exports.md)」で説明します。
+インポート機能とエクスポート機能の使用については、「一般的なインポ [ートとエクスポート」で説明しま](../../platform/using/generic-imports-and-exports.md)す。
 
 >[!CAUTION]
 >
@@ -289,7 +305,7 @@ Click **[!UICONTROL Save]** in the folder properties window. リストの表示�
 
 並べ替えの設定をおこなったり、並べ替え基準を組み合わせることもできます。これをおこなうには、以下の手順に従います。
 
-1. **[!UICONTROL Configure list]** リストの下と右に表示されます。
+1. **[!UICONTROL Configure list]** リストの下と右。
 
    ![](assets/s_ncs_user_configure_list.png)
 
@@ -312,7 +328,7 @@ You can run a search of the available fields in an editor using the **[!UICONTRO
 
 >[!NOTE]
 >
->フィルターを作成して、リストのデータの一部のみを表示できます。詳しくは、フ [ィルターの作成を参照してくださ](../../platform/using/creating-filters.md)い。
+>フィルターを作成して、リストのデータの一部のみを表示できます。フィルターの [作成を参照してくださ](../../platform/using/creating-filters.md)い。
 
 ## フォーマットと単位 {#formats-and-units}
 
@@ -320,7 +336,7 @@ You can run a search of the available fields in an editor using the **[!UICONTRO
 
 Adobe Campaign Classic インスタンスは、言語によって日時の形式が異なります。
 
-言語は Campaign をインストールする際に選択し、後から変更することはできません。次の項目を選択できます。英語（米国）、英語(EN)、フランス語、ドイツ語または日本語。 詳しくは、[このページ](../../installation/using/creating-an-instance-and-logging-on.md)を参照してください。
+言語は Campaign をインストールする際に選択し、後から変更することはできません。次を選択できます。英語（米国）、英語(EN)、フランス語、ドイツ語または日本語。 詳しくは、[このページ](../../installation/using/creating-an-instance-and-logging-on.md)を参照してください。
 
 米国英語と英国英語の主な違いは次のとおりです。
 

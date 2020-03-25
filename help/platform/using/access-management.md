@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
+source-git-commit: 92f4047628eca0fc1d71aded0329720c094463bd
 
 ---
 
@@ -37,19 +37,19 @@ Adobe Campaign は、様々なオペレーターに割り当てる一連の権�
 ユーザーに付与できる権限には次の 2 種類があります。
 
 * グループを使用する場合は、権利の付与対象とするオペレーターのグループを定義し、オペレーターを 1 つまたは複数のグループに関連付けます。これにより、権利を再利用することや、複数のオペレーターに一貫性の高いプロファイルを設定することができます。また、プロファイルの管理やメンテナンスをおこなう上でも便利な方法です。Group creation and management are presented in [Operator groups](#operator-groups).
-* ネームド権限は、ユーザーに対して直接付与することができ、グループ経由で付与された権利を上書きする目的で使用することもできます。これらの権限は、「固有の権限」 [で表示されます](#named-rights)。
+* ネームド権限は、ユーザーに対して直接付与することができ、グループ経由で付与された権利を上書きする目的で使用することもできます。これらの権限は、「固有の権限」で [表示されます](#named-rights)。
 
 >[!NOTE]
 >
 >権限の定義を開始する前に、[セキュリティ設定チェックリスト](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html)を読むことをお勧めします。
 
-## オペレーター {#operators}
+## 演算子 {#operators}
 
 ### オペレーターについて {#about-operators}
 
 オペレーターは、ログインしてアクションを実行する権限を持つ Adobe Campaign ユーザーです。
 
-デフォルトでは、演算子はノードに保存され **[!UICONTROL Administration > Access management > Operators]** ます。
+デフォルトでは、演算子はノードに格納さ **[!UICONTROL Administration > Access management > Operators]** れます。
 
 ![](assets/s_ncs_user_list_operators.png)
 
@@ -103,7 +103,7 @@ Adobe ID を使用して Adobe Campaign に直接接続することもできま�
 
 >[!NOTE]
 >
->The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. 詳細については、「フェデレーテッドデータア [クセスについて](../../platform/using/about-fda.md)」を参照してください。
+>The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. 詳しくは、フェデレーテッドデータアクセスに [ついてを参照してください](../../platform/using/about-fda.md)。
 
 ### オペレーターのタイムゾーン {#time-zone-of-the-operator}
 
@@ -162,7 +162,7 @@ The **[!UICONTROL Audit]** tab lets you view information related to the operator
 
    >[!NOTE]
    >
-   >詳しくは、「フォルダーアクセス管理」を [参照してください](#folder-access-management)。
+   >詳しくは、「フォルダアクセス管理」を [参照してください](#folder-access-management)。
 
 * オペレーター承認ログ。
 
@@ -174,7 +174,7 @@ The **[!UICONTROL Audit]** tab lets you view information related to the operator
 
 ### デフォルトのオペレーター {#default-operators}
 
-Adobe Campaignは、次の技術的なオペレーターを使用し、デフォルトで設定されたプロファイルを使用します。管理者(&#39;admin&#39;)、課金(&#39;billing&#39;)、監視、Webアプリケーションエージェント(&#39;webapp&#39;)など これらの一部は、プラットフォームにインストールされているアプリケーションとオプションに依存します。例えば、「central」演算子と「local」演算子は、「Distributed Marketing」オプションがインストールされている場合にのみ表示されます。
+Adobe Campaignは、次の技術的なオペレーターを使用し、デフォルトで設定されたプロファイルを使用します。管理者(&#39;admin&#39;)、課金(&#39;billing&#39;)、監視、Webアプリケーションエージェント(&#39;webapp&#39;)など。 これらの一部は、プラットフォームにインストールされているアプリケーションとオプションに依存します。例えば、&#39;central&#39;および&#39;local&#39;演算子は、分散マーケティングオプションがインストールされている場合にのみ表示されます。
 
 >[!CAUTION]
 >
@@ -190,7 +190,7 @@ Adobe Campaignは、次の技術的なオペレーターを使用し、デフォ
 
    Named rights are detailed in the [Named rights](#named-rights) section.
 
-1. ノードから、 **[!UICONTROL Administration > Access management > Operators]** Webアプリケーションエージェント演算子(「webapp」)を選択します。
+1. ノードか **[!UICONTROL Administration > Access management > Operators]** ら、Webアプリケーションエージェント演算子(「webapp」)を選択します。
 
    Select the **[!UICONTROL Edit]** tab, then the **[!UICONTROL Access rights]** tab and delete the ADMINISTRATION named right from the list.
 
@@ -212,7 +212,7 @@ Adobe Campaignは、次の技術的なオペレーターを使用し、デフォ
 
 ## オペレーターグループ {#operator-groups}
 
-演算子グループは、ツリー内のノー **[!UICONTROL Administration > Access management > Operator groups]** ドを介して作成されます。
+ツリー内のノードを介して、演算子 **[!UICONTROL Administration > Access management > Operator groups]** グループが作成されます。
 
 ### 新しいオペレーターグループの作成 {#creating-a-new-operator-group}
 
@@ -287,26 +287,45 @@ Adobe Campaignは、次の技術的なオペレーターを使用し、デフォ
 
 デフォルトで用意されているネームド権限は以下のとおりです。
 
-* 管理：汎用管理権限は、コンソール上のすべてのフォルダーに適用されます。
-* 承認管理：レビュー担当者の割り当て権限。
-* 中央：中央管理権（分散マーケティング）
-* フォルダの削除：フォルダを削除する権限。
-* フォルダの編集：フォルダのプロパティを変更する権限：名前、ラベル、関連する画像など
-* エクスポート：データのエクスポート権。
-* ファイルアクセス：スクリプトを使用したファイルの読み取りおよび書き込みアクセス権。
-* インポート：汎用データインポートの権限。
-* フォルダの挿入：フォルダを挿入する権限。
-* ローカル：ローカル管理権（分散マーケティング）
-* マージ：レコードのマージ権。
-* 配信の準備：配信分析を作成、編集および開始する権限。
-* プライバシーデータの権利：プライバシーデータを収集および削除する権利。 詳しくは、この[ページ](https://helpx.adobe.com/campaign/kb/acc-privacy.html)を参照してください。
-* プログラムの実行：外部プログラムを実行する権利。
-* 受信者のインポート：受信者をインポートする権限。
-* SQLスクリプトの実行：データベースでSQLスクリプトを実行する権限。
-* 配信を開始：前に分析された配信を承認する権利。
-* USE SQL DATA MANAGEMENT ACTIVITY: Right to write your own SQL scripts using the SQL Data Management activity, in order to create and populate work tables (see [this section](../../workflow/using/sql-data-management.md)).
-* ワークフロー：ワークフローの使用権
-* WEBAPP:Webアプリケーションを使用する権利。
+* **[!UICONTROL ADMINISTRATION]**:右側の演算子は、イ **[!UICONTROL ADMINISTRATION]** ンスタンスに対してフルアクセス権を持ちます。 管理者ユーザーは、ワークフロー、配信、スクリプトなどの任意のオブジェクトを実行/作成/編集/削除できます。
+
+* **[!UICONTROL APPROVAL ADMINISTRATION]**:ワークフローと配信内で複数の承認手順を設定し、割り当てられたオペレーターまたはグループが現在の状態を承認したことを確認できます。 権限を持つユーザー **[!UICONTROL APPROVAL ADMINISTRATION]** は、承認手順を設定し、その手順を承認する必要のある演算子または演算子グループを割り当てることもできます。
+
+* **[!UICONTROL CENTRAL]**:中央管理権（分散マーケティング）。
+
+* **[!UICONTROL DELETE FOLDER]**: フォルダーを削除する権限. この権限を持つユーザーは、エクスプローラビューからフォルダを削除できます。
+
+* **[!UICONTROL EDIT FOLDERS]**:内部名、ラベル、関連する画像、サブフォルダーの順序など、フォルダーのプロパティを変更する権利。
+
+* **[!UICONTROL EXPORT]**:ユーザーは、ワークフローアクティビティを使用して、Adobe Campaignインスタンスのデータをサーバー上またはローカルマシン上のファイルにエクスポ **[!UICONTROL EXPORT]** ートできます。
+
+* **[!UICONTROL FILES ACCESS]**:サーバー上のファイルの読み取り/書き込みを行うために、ワークフローアクティビティで書き込むことができるスクリプトを介し **[!UICONTROL JavaScript]** て、ファイルの読み取り/書き込みアクセス権を付与する権限。
+
+* **[!UICONTROL IMPORT]**:汎用データインポートの権限。 **[!UICONTROL IMPORT]** 権限を持つユーザーは受信者テーブルにのみインポートできるのに対し、 **[!UICONTROL RECIPIENT IMPORT]** 他のテーブルにデータをインポートすることができます。
+
+* **[!UICONTROL INSERT FOLDERS]**:フォルダを挿入する権限。 右側のユーザーは、エ **[!UICONTROL INSERT FOLDERS]** クスプローラビューのフォルダツリーで新しいフォルダを作成できます。
+
+* **[!UICONTROL LOCAL]**:ローカル管理権（分散マーケティング）。
+
+* **[!UICONTROL MERGE]**:選択したレコードを1つに結合する権限。 受信者が重複として存在する場合は、 **[!UICONTROL MERGE]** 右側のユーザーが重複を選択し、プライマリ受信者に結合できます。
+
+* **[!UICONTROL PREPARE DELIVERIES]**:配信を作成、編集および保存する権限。 権限を持つユーザ **[!UICONTROL PREPARE DELIVERIES]** ーは、配信分析プロセスを開始することもできます。
+
+* **[!UICONTROL PRIVACY DATA RIGHT]**:プライバシーデータを収集および削除する権利。 詳しくは、この[ページ](https://helpx.adobe.com/campaign/kb/acc-privacy.html)を参照してください。
+
+* **[!UICONTROL PROGRAM EXECUTION]**:様々なプログラミング言語でコマンドを実行する権利。
+
+* **[!UICONTROL RECIPIENT IMPORT]**:受信者をインポートする権限。 権限を持つユーザーは、 **[!UICONTROL RECIPIENT IMPORT]** ローカルファイルを受信者テーブルにインポートできます。
+
+* **[!UICONTROL SQL SCRIPT EXECUTION]** 任意のSQLコマンドをデータベース上で直接実行する権限。
+
+* **[!UICONTROL START DELIVERIES]**:以前に分析された配信を承認する権利。 配信分析の後、配信は様々な承認手順で一時停止し、再開するには承認が必要になります。 権限を持つユーザ **[!UICONTROL START DELIVERIES]** ーは配信を承認できます。
+
+* **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**:SQL Data Managementアクティビティを使用して、作業表を作成して入力する独自のSQLスクリプトを作成する権限(この節 [を参照](../../workflow/using/sql-data-management.md))。
+
+* **[!UICONTROL WORKFLOW]**:ワークフローの実行権 この権限がないと、ユーザーはワークフローを開始、停止または再開できません。
+
+* **[!UICONTROL WEBAPP]**:Webアプリケーションの使用権限
 
 >[!NOTE]
 >
@@ -372,7 +391,7 @@ In the **[!UICONTROL Security]** tab, if the **[!UICONTROL System folder]** opti
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-それらのフォルダーには、ツリー内にあるその他すべてのフォルダーと同じく、権限を付与できます。「フォルダ [ーアクセス管理」を参照](#folder-access-management)。
+それらのフォルダーには、ツリー内にあるその他すべてのフォルダーと同じく、権限を付与できます。「フォルダ [ーアクセス管理](#folder-access-management)」を参照。
 
 また、必要に応じて、データアクセスの制限やツリー内のコンテンツの整理を目的としたビューを作成できます。それらのビューにはアクセス権を設定できます。
 

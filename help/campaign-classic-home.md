@@ -5,7 +5,7 @@ solution: Campaign Classic
 title: Adobe Campaign Classic製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 08f697afc1630f275188dc86ca39d7841f922ed9
+source-git-commit: d674d8a0cabb72a8a344019de688ad7027cb3e8d
 
 ---
 
@@ -16,15 +16,13 @@ source-git-commit: 08f697afc1630f275188dc86ca39d7841f922ed9
 
 ## 新着情報
 
-* **[プライバシー管](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>理Adobe Campaignがプライバシーコンプライアンスを支援する方法について説明します。
+* **[プライバシー管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Adobe Campaignがプライバシーコンプライアンスを支援する方法を説明します。
 
-* **[トラッキングガイ](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/>ドキャンペーンのトラッキング機能の理解
+* **[トラッキングガイド](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/>Campaignのトラッキング機能を理解する
 
-* **[メンテナンスガイド](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)**<br/>Campaignインスタンスとプロセスを監視する方法について説明します。
+* **[メンテナンスガイド](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)**<br/>Campaignのインスタンスとプロセスを監視する方法について説明します。
 
-* **[AMPを使用したインタラクティブコンテ](delivery/using/defining-interactive-content.md)**<br/>ンツ新しい電子メール用[AMP形式で動的な電子メールを送信する方法を説明します](https://amp.dev/about/email/)。
-
-* **[コントロール](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)**<br/>パネル設定を管理し、キャンペーンインスタンスの使用状況を追跡する方法について説明します。
+* **[AMPを使用したインタラクティブコン](delivery/using/defining-interactive-content.md)**<br/>テンツ電子メール用の新しい[AMP形式で動的な電子メールを送信する方法](https://amp.dev/about/email/)。
 
 [更新情報についてはここをクリック](/help/rn/using/documentation-updates.md)
 
@@ -42,19 +40,19 @@ source-git-commit: 08f697afc1630f275188dc86ca39d7841f922ed9
     </a>
     </div>
     <p>
-    <em>Campaign Classicを使用する場合のよくある質問への回答を検索する</em>
+    <em>Campaign Classicを使用する際のよくある質問への回答を検索する</em>
     <p>
   </td>
    <td>
     <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
-      <img alt="ビルドアップグレード" src="platform/using/assets/upgrade.png" />
+      <img alt="アップグレードの構築" src="platform/using/assets/upgrade.png" />
     </a>
     <div>
       <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
     最新の <strong>ビルドにアップグレード</strong></a>
     </div>
     <p>
-    <em>ビルドアップグレードを実行するための主要な手順とベストプラクティスを説明します。</em>
+    <em>ビルドのアップグレードを実行するための主な手順とベストプラクティスを学ぶ</em>
     <p>
   </td>
   <td>
@@ -63,7 +61,7 @@ source-git-commit: 08f697afc1630f275188dc86ca39d7841f922ed9
     </a>
     <div>
        <a href="delivery/using/creating-notifications.md">
-    プッシ <strong>ュ通知の送信</strong></a>
+    プッシュ <strong>通知の送信</strong></a>
     </div>
     <p>
     <em>モバイルでのパーソナライズされたプッシュ通知のデザインと送信</em>
@@ -72,15 +70,13 @@ source-git-commit: 08f697afc1630f275188dc86ca39d7841f922ed9
 </tr>
 </table>
 
-
 ## その他のリソース
 
-* [リリースノート](/help/rn/using/latest-release.md)
-
-* [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
-
-* [互換性マトリックス](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
-
-* [導入ガイド](https://helpx.adobe.com/campaign/kb/acc-implementation.html)
-
-* [テクニカルノート](https://helpx.adobe.com/campaign/kb/article-list.html)
+<table>
+<tr>
+  <td valign="top"><strong>役に立つページ</strong>* [リリースノート](/help/rn/using/latest-release.md) * [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) * [互換性マトリックス](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) * [Getting started with Campaign Classic](../../platform/using/about-adobe-campaign-classic.md) * [Gold Standard upgrade](https://helpx.adobe.com/campaign/kb/gold-standard.html) * [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) * [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+  </td>
+  <td valign="top"><strong>開発者向け</strong>* [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) * [Campaign Classicデータモデル](../../configuration/using/about-data-model.md) * [JSAPIドキュメント](../../configuration/using/about-web-services.md) * [導入ガイド](https://helpx.adobe.com/campaign/kb/acc-implementation.html) * [追跡ガイド](https://helpx.adobe.com/campaign/kb/acc-tracking.html) * [セキュリティとプライバシーのチェックリスト](https://helpx.adobe.com/campaign/kb/acc-security.html) * [テクニカルノート](https://helpx.adobe.com/campaign/kb/article-list.html)
+  </td>
+</tr>
+</table>

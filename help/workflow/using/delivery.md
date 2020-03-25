@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
       After selecting the delivery action, you can display the content by clicking the **[!UICONTROL Edit link]** icon.
 
-   * 配信を自動生成するスクリプトを作成します。これを行うには、オプションを選択し **[!UICONTROL Calculated by a script]** てスクリプトを入力します。 You can open an input window by clicking the **[!UICONTROL Edit...]** option. 次の例では、配信の ID を収集します。
+   * 配信を自動生成するスクリプトを作成します。これを行うには、オプションを選択 **[!UICONTROL Computed by a script]** し、スクリプトを入力します。 You can open an input window by clicking the **[!UICONTROL Edit...]** option. 次の例では、配信の ID を収集します。
 
       ![](assets/diffusion_edit_3.png)
 
@@ -83,10 +83,10 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
    実行するアクションのタイプを選択します。
 
    * **[!UICONTROL Save]**:このオプションを使用すると、配信を作成して保存できます。 配信の分析や配信はおこないません。
-   * **[!UICONTROL Estimate the target]**:このオプションを使用すると、配信ターゲットを計算して、その潜在能力（最初の分析段階）を評価できます。 This action is the equivalent of selecting the **[!UICONTROL Estimate the population to be targeted]** option and clicking **[!UICONTROL Analyze]** when sending a delivery to the main target via **Delivery**.
+   * **[!UICONTROL Estimate the target]**:このオプションを使用すると、配信ターゲットを計算して、その潜在性（最初の分析段階）を評価できます。 This action is the equivalent of selecting the **[!UICONTROL Estimate the population to be targeted]** option and clicking **[!UICONTROL Analyze]** when sending a delivery to the main target via **Delivery**.
    * **[!UICONTROL Prepare]**:このオプションを使用すると、完全な分析プロセス（ターゲットの計算とコンテンツの準備）を実行できます。 配信は送信されません。This action is the equivalent of selecting the **[!UICONTROL Deliver as soon as possible]** option and clicking **[!UICONTROL Analyze]** when sending a delivery to the main target with **Delivery**.
    * **[!UICONTROL Send a proof]**:このオプションを使用すると、配信の証明を送信できます。 This action is the equivalent of clicking the **[!UICONTROL Send a proof]** button in the toolbar of a delivery with **Delivery**
-   * **[!UICONTROL Prepare and start]**:このオプションは、完全な分析プロセス（ターゲットの計算とコンテンツの準備）を起動し、配信を送信します。 このアクションは、配信をメインターゲ **[!UICONTROL Deliver as soon as possible]**&#x200B;ットに **[!UICONTROL Analyze]**&#x200B;送信する **[!UICONTROL Confirm delivery]** 際にクリック、オプション、オプションと同 **じです**。
+   * **[!UICONTROL Prepare and start]**:このオプションは、完全な分析プロセス（ターゲットの計算とコンテンツの準備）を開始し、配信を送信します。 このアクションは、配信をメインターゲ **[!UICONTROL Deliver as soon as possible]**&#x200B;ットに **[!UICONTROL Analyze]**&#x200B;送信する際 **[!UICONTROL Confirm delivery]** に、配信をクリック、オプションと同じ **です**。
    The **[!UICONTROL Act on a delivery]** activity used further on in the workflow lets you launch all remaining steps required for starting the delivery (target calculation, content preparation, delivery). For more on this, refer to [Delivery control](../../workflow/using/delivery-control.md).
 
    さらに、次のオプションを使用できます。
@@ -114,9 +114,9 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 「**配信**」アクティビティを開き、次の手順でプロパティを定義します。
 
-* セクション **[!UICONTROL Delivery]** で、配信テンプ **[!UICONTROL New, created from a template]** レートを選択します。
+* 「」セクション **[!UICONTROL Delivery]** で、配信テンプ **[!UICONTROL New, created from a template]** レートを選択します。
 * セクション **[!UICONTROL Recipients]** で、を選択しま **[!UICONTROL Specified in the delivery]**&#x200B;す。
-* セクションで、 **[!UICONTROL Action to execute]** このオプションはそのままに **[!UICONTROL Prepare]** します。
+* セクションでは、 **[!UICONTROL Action to execute]** オプションをそのままにし **[!UICONTROL Prepare]** てください。
 
 ![](assets/new-workflow-param-delivery.png)
 
@@ -131,7 +131,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
    Do you wish to approve delivery (<%= vars.recCount %> recipient(s))?
    ```
 
-   次に、JavaScriptで記述された式を含むメッセージを示します。前の **[!UICONTROL vars.recCount]** タスクの配信のターゲットとなる受信者の数を表します。 JavaScript式について詳しくは、 [JavaScriptスクリプトとテンプレートを参照してください](../../workflow/using/javascript-scripts-and-templates.md)。
+   次のメッセージには、JavaScriptで記述された式が含まれています。前のタ **[!UICONTROL vars.recCount]** スクの配信のターゲットとなる受信者の数を表します。 JavaScript式について詳しくは、 [JavaScriptのスクリプトとテンプレートを参照してください](../../workflow/using/javascript-scripts-and-templates.md)。
 
    ![](assets/new-workflow-param-validation.png)
 
@@ -139,7 +139,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ## 入力パラメーター {#input-parameters}
 
-配信識別子(セクションでこ **[!UICONTROL Specified in the transition]** のオプションが選択されてい **[!UICONTROL Delivery]** る場合)。
+配信識別子(セクションでオ **[!UICONTROL Specified in the transition]** プションが選択されてい **[!UICONTROL Delivery]** る場合)。
 
 * deliveryId
 * tableName
@@ -153,11 +153,11 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 * filename
 
-   セクションでこのオプションを選択した場合に生 **[!UICONTROL File(s) specified by inbound event(s)]** 成されるファイルのフルネ **[!UICONTROL Recipients]** ーム。
+   セクションでオプションが選択されている場合 **[!UICONTROL File(s) specified by inbound event(s)]** に生成されるファイルの完 **[!UICONTROL Recipients]** 全な名前。
 
 * contentId
 
-   セクションでこのオプション **[!UICONTROL Specified by inbound events]** が選択されている場合は、コンテンツ識 **[!UICONTROL Content]** 別子。
+   セクションでこのオプシ **[!UICONTROL Specified by inbound events]** ョンが選択されている場合は、コンテンツ **[!UICONTROL Content]** 識別子。
 
 ## 出力パラメーター {#output-parameters}
 

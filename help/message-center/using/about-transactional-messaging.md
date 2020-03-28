@@ -14,7 +14,7 @@ discoiquuid: 97df4bd5-a8e3-48f4-87c8-fa090ea3f771
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 833907c7a7b84b94a00b131738c73ff54a744a40
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 833907c7a7b84b94a00b131738c73ff54a744a40
 
 >[!CAUTION]
 >
->トランザクションメッセージングには特定のライセンスが必要です。 使用許諾契約書を確認してください。
+>トランザクションメッセージを利用するには特定のライセンスが必要です。使用許諾契約書を確認してください。
 
 Adobe Campaign Message Center モジュールは、情報システムに統合され、その情報システムが返すイベントをパーソナライズされたトランザクションメッセージへと変換します。これらのメッセージは、個々に、またはまとめて、E メール、SMS またはプッシュ通知経由で送信することができます。
 

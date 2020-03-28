@@ -14,7 +14,7 @@ discoiquuid: f324afa5-304c-470e-a592-290f76a11ccb
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 >[!NOTE]
 >
->クーポン管理は、インストールが必要なパッケージです。クーポン管理を使用していることを確認するには、 **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
+>クーポン管理は、インストールが必要なパッケージです。クーポン管理があることを確認するには、**[!UICONTROL 管理／設定／パッケージ管理／インストールしたパッケージ]**&#x200B;をチェックします。
 >
 >クーポンデータは、CSV および XML フォーマットを使用してインポートおよびエクスポートできます。インポートとエクスポートについて詳しくは、[この節](../../platform/using/generic-imports-and-exports.md)を参照してください。
 
@@ -34,31 +34,31 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 クーポンモジュールには、次の 2 つのクーポン作成オプションがあります。
 
-* **匿名**:選択した受信者または受信者のリストの汎用クーポンです。
-* **個人**:選択した受信者向けにパーソナライズされたクーポン。
+* **匿名**：限定された受信者または受信者のリスト向けの汎用のクーポン。
+* **個人**：限定された受信者向けのパーソナライズされたクーポン。
 
 次の手順に従う前に、作成するクーポンのタイプについて確実に把握しておきます。
 
-1. キャンペーンツリーで、に進みま **[!UICONTROL Resources > Campaign management > Coupons]**&#x200B;す。
+1. Campaign ツリーで、**[!UICONTROL リソース／キャンペーン管理／クーポン]**&#x200B;に移動します。
 
    ![](assets/deliv_coup_01.png)
 
-1. ボタンをクリッ **[!UICONTROL New]** クします。
-1. Enter the name of the coupon in **[!UICONTROL Label]** field. A unique code has been automatically entered in **[!UICONTROL Coupon code]**. コードをそのまま使用するか、新しいコードを入力することができます。
+1. 「**[!UICONTROL 新規]**」ボタンをクリックします。
+1. 「**[!UICONTROL ラベル]**」フィールドに、クーポンの名前を入力します。「**[!UICONTROL クーポンコード]**」に一意のコードが自動的に入力されます。コードをそのまま使用するか、新しいコードを入力することができます。
 
    ![](assets/deliv_coup_02.png)
 
-1. とを選 **[!UICONTROL Start date]** 択し **[!UICONTROL End date]** て、クーポンが有効な期間を設定します。
-1. で、「 **[!UICONTROL Coupon type]**&#x200B;匿名」または「個人」を選択します。
+1. 「**[!UICONTROL 開始日]**」および「**[!UICONTROL 終了日]**」を選択して、クーポンが有効な期間を設定します。
+1. 「**[!UICONTROL クーポンタイプ]**」で、「匿名」または「個人」を選択します。
 
-   **[!UICONTROL Anonymous coupons]** :匿名クーポンは、すべての受信者に対して同じです。 **クーポンタイプ**&#x200B;メニューで「匿名」が選択されていることを確認し、「**保存**」をクリックして、クーポンを生成します。
+   **[!UICONTROL 匿名クーポン]**：匿名クーポンは、すべての受信者で同一です。**クーポンタイプ**&#x200B;メニューで「匿名」が選択されていることを確認し、「**保存**」をクリックして、クーポンを生成します。
 
-   **[!UICONTROL Individual coupons]** :個々のクーポンは、追加のクーポンコードを使用してさらにパーソナライズできます。 例えば、スポーツ用品店でのセール用に個人クーポンを作成するとします。しかし、受信者のリストは長く、1 つの競技に対する情熱は人それぞれです。競技（例えば、サッカー、フットボール、野球など）に基づいて個人クーポンのコード名を追加して、各コードを適切な受信者に送信できます。
+   **[!UICONTROL 個人クーポン]**：個人クーポンは、追加のクーポンコードでさらにパーソナライズできます。例えば、スポーツ用品店でのセール用に個人クーポンを作成するとします。しかし、受信者のリストは長く、1 つの競技に対する情熱は人それぞれです。競技（例えば、サッカー、フットボール、野球など）に基づいて個人クーポンのコード名を追加して、各コードを適切な受信者に送信できます。
 
-   1. 「個人」を選択すると、「クーポン」という新しいタブが左下に表示されます。タブに移動し、を **[!UICONTROL Coupons]** クリックしま **[!UICONTROL Add]**&#x200B;す。
+   1. 「個人」を選択すると、「クーポン」という新しいタブが左下に表示されます。「**[!UICONTROL クーポン]**」タブに移動して、「**[!UICONTROL 追加]**」をクリックします。
    1. 入力を促すポップアップウィンドウが表示されたら、個人クーポンの一意のコードを入力します。
-   1. Click **[!UICONTROL Save]** to generate the coupon.
-   「クーポン」タブについて詳しくは、「個々のクーポンの設 [定」を参照してくださ](#configuring-individual-coupons)い。
+   1. 「**[!UICONTROL 保存]**」をクリックして、クーポンを生成します。
+   「クーポン」タブについて詳しくは、[個人クーポンの設定](#configuring-individual-coupons)を参照してください。
 
    >[!NOTE]
    >
@@ -70,25 +70,25 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 「クーポン」タブは、個人クーポンでのみ使用できます。クーポンを配信に関連付けると、「クーポン」タブに次の詳細が表示されます。
 
-* **[!UICONTROL Status]** :クーポンの利用可能性。
-* **[!UICONTROL Redeemed on]** :クーポンが償還された日付です。
-* **[!UICONTROL Channel]** :クーポンの送信に使用するチャネルです。
-* **[!UICONTROL Address]** :受信者の電子メールアドレス。
+* **[!UICONTROL ステータス]**：クーポンの利用可能性。
+* **[!UICONTROL 引き換え日]**：クーポンの引き換え日。
+* **[!UICONTROL チャネル]**：クーポンを送信するために使用されるチャネル。
+* **[!UICONTROL アドレス]**：受信者の E メールアドレス。
 
-、およ **[!UICONTROL status]**&#x200B;びの値 **[!UICONTROL channel]**&#x200B;は自動的 **[!UICONTROL address]** に完了します。 However, the values for **[!UICONTROL redeemed on]** are not recovered by Campaign. クーポン引き換えの詳細を含むファイルをインポートすることで、入力できます。
+**[!UICONTROL ステータス]**、**[!UICONTROL チャネル]**&#x200B;および&#x200B;**[!UICONTROL アドレス]**&#x200B;の値は、自動的に入力されます。ただし、**[!UICONTROL 引き換え日]**&#x200B;の値は、Campaign によって復元されません。クーポン引き換えの詳細を含むファイルをインポートすることで、入力できます。
 
 ## クーポンの E メール配信への挿入 {#inserting-a-coupon-into-an-email-delivery}
 
 次の例では、配信をホームページから作成します。配信の作成方法について詳しくは、[この節](../../delivery/using/about-email-channel.md)を参照してください。また、ワークフローの配信にクーポンを追加することもできます。
 
-1. に移動し、を **[!UICONTROL Campaigns]** 選択しま **[!UICONTROL Deliveries]**&#x200B;す。
-1. クリック **[!UICONTROL Create]**.
+1. **[!UICONTROL Campaigns]** に移動し、「**[!UICONTROL 配信]**」を選択します。
+1. 「**[!UICONTROL 作成]**」をクリックします。
 
    ![](assets/deliv_coup_04.png)
 
-1. に名前を入力し、をク **[!UICONTROL Label]** リックしま **[!UICONTROL Continue]**&#x200B;す。
-1. Click **[!UICONTROL To]** to add recipients.
-1. Click **[!UICONTROL Add]** to choose recipients for the delivery. 受信者を選択したら、「**[!UICONTROL Ok]**」をクリックして配信に戻ります。
+1. 「**[!UICONTROL ラベル]**」に名前を入力し、「**[!UICONTROL 続行]**」をクリックします。
+1. 「**[!UICONTROL 宛先]**」をクリックして受信者を追加します。
+1. 「**[!UICONTROL 追加]**」をクリックして、配信の受信者を選択します。受信者を選択したら、「**[!UICONTROL OK]**」をクリックして配信に戻ります。
 
    ![](assets/deliv_coup_05.png)
 
@@ -96,12 +96,12 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
    ![](assets/deliv_coup_06.png)
 
-1. In the toolbar, click **[!UICONTROL Properties]** and choose the **[!UICONTROL Advanced]** tab.
-1. のフォルダアイコンをクリックしま **[!UICONTROL Coupon management]**&#x200B;す。
+1. ツールバーで、「**[!UICONTROL プロパティ]**」をクリックし、「**[!UICONTROL 詳細設定]**」タブを選択します。
+1. 「**[!UICONTROL クーポン管理]**」のフォルダーアイコンをクリックします。
 
    ![](assets/deliv_coup_07.png)
 
-1. クーポンを選択し、「**[!UICONTROL Ok]**」をクリックします。Click **[!UICONTROL Ok]** again.
+1. クーポンを選択し、「**[!UICONTROL OK]**」をクリックします。もう一度「**[!UICONTROL OK]**」をクリックします。
 
    ![](assets/deliv_coup_08.png)
 
@@ -111,18 +111,18 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 1. パーソナライゼーションアイコンをクリックして、クーポンのタイプに基づいて次のどちらかを選択します。
 
-   * Anonymous coupon: **[!UICONTROL Coupon > Coupon code]**
+   * 匿名クーポン：**[!UICONTROL クーポン／クーポンコード]**
 
       ![](assets/deliv_coup_10.png)
 
-   * Individual coupon: **[!UICONTROL Coupon value > Coupon code]**
+   * 個人クーポン：**[!UICONTROL クーポン値／クーポンコード]**
 
       ![](assets/deliv_coup_11.png)
 
       クーポンは、割り当てた名前ではなくコードとしてメッセージに挿入されます。コードは、Campaign 標準データモデル内で使用されます。
    ![](assets/deliv_coup_12.png)
 
-1. テストを実行して、クーポンに割り当てた名前を確認します。タブに移動し、を **[!UICONTROL Preview]** クリックしま **[!UICONTROL Test personalization]**&#x200B;す。 テストする受信者を選択します。
+1. テストを実行して、クーポンに割り当てた名前を確認します。「**[!UICONTROL プレビュー]**」タブに移動し、「**[!UICONTROL パーソナライゼーションをテスト]**」をクリックします。テストする受信者を選択します。
 
    ![](assets/deliv_coup_13.png)
 
@@ -130,26 +130,26 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
    ![](assets/deliv_coup_14.png)
 
-1. In the toolbar, click **[!UICONTROL Send]** (upper left) and choose how you want to send the delivery.
+1. ツールバーで、「**[!UICONTROL 送信]**」（左上）をクリックし、配信の送信方法を選択します。
 
    ![](assets/deliv_coup_15.png)
 
-1. クリック **[!UICONTROL Analyze]**. If the analysis log confirms that there are enough coupons for all recipients, click **[!UICONTROL Confirm delivery]** to send it.
+1. 「**[!UICONTROL 分析]**」をクリックします。分析ログですべての受信者に対して十分なクーポンがあることを確認したら、「**[!UICONTROL 配信を確定]**」をクリックして送信します。
 
    ![](assets/deliv_coup_16.png)
 
 >[!NOTE]
 >
->For instructions on how to manage insufficient coupons for a delivery, see [Managing insufficient coupons](#managing-insufficient-coupons)
+>配信に不十分なクーポンを管理する方法について詳しくは、[不十分なクーポンの管理](#managing-insufficient-coupons)を参照してください。
 
 配信が成功したことを確認するには：
 
-1. 移動 **[!UICONTROL Explorer > Resources > Campaign management > Coupons]**.
-1. タブをクリック **[!UICONTROL Deliveries]** します。
+1. **[!UICONTROL エクスプローラー／リソース／キャンペーン管理／クーポン]**&#x200B;に移動します。
+1. 「**[!UICONTROL 配信]**」タブをクリックします。
 
    ![](assets/deliv_coup_17.png)
 
-   The status reads as **[!UICONTROL Finished]** for a successful delivery.
+   配信に成功している場合、ステータスに&#x200B;**[!UICONTROL 完了]**&#x200B;と表示されます。
 
 >[!NOTE]
 >
@@ -160,13 +160,13 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 メッセージよりもクーポンが少ない場合、配信分析が停止します。このような場合、より多くのクーポンをインポートするか、メッセージの数を制限することができます。メッセージの数を制限する場合は、次の手順に従います。
 
 1. E メール配信ウィンドウに移動します。
-1. クリック **[!UICONTROL To]**.
-1. で、 **[!UICONTROL Select target]**&#x200B;タブに移動し **[!UICONTROL Exclusions]** ます。
+1. 「**[!UICONTROL 宛先]**」をクリックします。
+1. 「**[!UICONTROL ターゲットを選択]**」で、「**[!UICONTROL 除外]**」タブに移動します。
 
    ![](assets/deliv_coup_18.png)
 
-1. In the exclusion settings section, click **[!UICONTROL Edit]**.
-1. Enter the number of messages you want to send in **[!UICONTROL Limit delivery to...messages]** and click **[!UICONTROL Ok]**. 配信を送信できます。
+1. 「除外設定」セクションで、「**[!UICONTROL 編集]**」をクリックします。
+1. 「**[!UICONTROL 配信数上限...メッセージ]**」に送信するメッセージの数を入力し、「**[!UICONTROL OK]**」をクリックします。配信を送信できます。
 
    ![](assets/deliv_coup_19.png)
 

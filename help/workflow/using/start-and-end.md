@@ -14,7 +14,7 @@ discoiquuid: 8b239d5e-2317-42c8-9fee-7d40bea624da
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -22,17 +22,17 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # 開始および終了{#start-and-end}
 
-The **[!UICONTROL Start]** and **[!UICONTROL End]** activities allow you to graphically mark the start and end of a workflow. これらのアクティビティは、機能上の影響はないので、省略可能です。
+「**[!UICONTROL 開始]**」アクティビティおよび「**[!UICONTROL 終了]**」アクティビティを使用して、ワークフローの開始と終了を視覚的に示します。これらのアクティビティは、機能上の影響はないので、省略可能です。
 
-* **[!UICONTROL Start]**
+* **[!UICONTROL 開始]**
 
    ワークフローの実行は、インバウンドトランジションのないアクティビティと、「開始」タイプアクティビティから開始します。
 
    ![](assets/s_user_segmentation_start_stop.png)
 
-* **[!UICONTROL End]**
+* **[!UICONTROL 終了]**
 
-   You can configure the **[!UICONTROL End]** activity to interrupt all tasks that are in progress. それには、アクティビティをダブルクリックしてプロパティを標示し、適切なオプションを選択します。
+   進行中のすべてのタスクを中断する「**[!UICONTROL 終了]**」アクティビティを設定できます。それには、アクティビティをダブルクリックしてプロパティを標示し、適切なオプションを選択します。
 
    ![](assets/s_user_segmentation_end.png)
 

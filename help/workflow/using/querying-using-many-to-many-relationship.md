@@ -1,6 +1,6 @@
 ---
 title: 多対多関係を使用したクエリ
-description: 多対多の関係を使用してクエリを実行する方法を説明します。
+description: 多対多関係を使用したクエリを実行する方法を説明します。
 page-status-flag: never-activated
 uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
 この例では、過去 7 日間連絡されていない受信者を収集します。このクエリは、すべての配信を対象とします。
 
-この例では、任意に選択したコレクション要素（オレンジ色のノード）に関連するフィルターを設定する方法も示します。ウィンドウでコレクション要素を使用で **[!UICONTROL Field to select]** きます。
+この例では、任意に選択したコレクション要素（オレンジ色のノード）に関連するフィルターを設定する方法も示します。コレクション要素は、**[!UICONTROL 選択するフィールド]**&#x200B;ウィンドウで使用できます。
 
 * どのテーブルを選択する必要がありますか。
 
@@ -38,8 +38,8 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
 次の手順に従います。
 
-1. Open the Generic query editor and select the Recipient table **[!UICONTROL (nms:recipient)]**.
-1. ウィンドウ **[!UICONTROL Data to extract]** で、、、、およ **[!UICONTROL Primary key]**&#x200B;びを **[!UICONTROL First name]**&#x200B;選択 **[!UICONTROL Last name]** します **[!UICONTROL Email]**。
+1. 汎用クエリエディターを開き、受信者テーブル&#x200B;**[!UICONTROL （nms:recipient）]**&#x200B;を選択します。
+1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL プライマリキー]**」、「**[!UICONTROL 名]**」、「**[!UICONTROL 姓]**」および「**[!UICONTROL E メール]**」を選択します。
 
    ![](assets/query_editor_nveau_33.png)
 
@@ -47,20 +47,20 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
    ![](assets/query_editor_nveau_34.png)
 
-1. ウィンドウで、 **[!UICONTROL Data filtering]** を選択しま **[!UICONTROL Filtering conditions]**&#x200B;す。
-1. In the **[!UICONTROL Target element]** window, the filtering condition for extracting profiles with no tracking log for the last 7 days involves two steps. 選択する必要がある要素は多対多のリンクです。
+1. **[!UICONTROL データのフィルター]**&#x200B;ウィンドウで、「**[!UICONTROL フィルター条件]**」を選択します。
+1. **[!UICONTROL ターゲット要素]**&#x200B;ウィンドウで、過去 7 日間トラッキングログがないプロファイルを抽出するためのフィルター条件には、2 つの手順が必要です。選択する必要がある要素は多対多のリンクです。
 
-   * 最初の列のコレクション **[!UICONTROL Recipient delivery logs (broadlog)]** 要素（オレンジ色のノード）を選択して開始 **[!UICONTROL Value]** します。
+   * まず、最初の「**[!UICONTROL 式]**」列に対して、**[!UICONTROL 受信者配信ログ（broadlog）]**&#x200B;コレクション要素（オレンジ色のノード）を選択します。
 
       ![](assets/query_editor_nveau_67.png)
 
-      演算子を選択 **[!UICONTROL do not exist as]** します。 このラインで 2 番目の値を選択する必要はありません。
+      「**[!UICONTROL 次の場合には存在しません]**」演算子を選択します。このラインで 2 番目の値を選択する必要はありません。
 
-   * 2 番目のフィルター条件の内容は、最初のフィルター条件によって異なります。Here, the **[!UICONTROL Event date]** field is offered directly in the **[!UICONTROL Recipient delivery logs]** table since there is a link to this table.
+   * 2 番目のフィルター条件の内容は、最初のフィルター条件によって異なります。ここでは、**[!UICONTROL 受信者配信ログ]**&#x200B;テーブルへのリンクがあるので、このテーブルの「**[!UICONTROL イベントの日付]**」フィールドが直接提供されます。
 
       ![](assets/query_editor_nveau_36.png)
 
-      演算子 **[!UICONTROL Event date]** を使用して選 **[!UICONTROL greater than or equal to]** 択します。 Select the **[!UICONTROL DaysAgo (7)]** value. これを行うには、フィールド内 **[!UICONTROL Edit expression]** をクリック **[!UICONTROL Value]** します。 ウィンドウ **[!UICONTROL Formula type]** で、とを選択 **[!UICONTROL Process on dates]** し、 **[!UICONTROL Current date minus n days]**&#x200B;値として「7」を指定します。
+      「**[!UICONTROL イベントの日付]**」を「**[!UICONTROL 以降]**」演算子とともに選択します。**[!UICONTROL DaysAgo（7）]**&#x200B;の値を選択します。そのためには、「**[!UICONTROL 値]**」フィールドで&#x200B;**[!UICONTROL 式を編集]**&#x200B;をクリックします。**[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウで「**[!UICONTROL 日付で処理]**」および「**[!UICONTROL 現在の日付 - n 日]**」を選択し、値に &quot;7&quot; を指定します。
 
       ![](assets/query_editor_nveau_37.png)
 
@@ -68,13 +68,13 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
       ![](assets/query_editor_nveau_38.png)
 
-1. In the **[!UICONTROL Data formatting]** window, switch the last names to upper-case. 列の線をク **[!UICONTROL Last name]** リックし、ド **[!UICONTROL Transformation]** ロップダウ **[!UICONTROL Switch to upper case]** ンメニューでを選択します。
+1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、列の変換はおこなう必要はありません。次のステップに進みます。************
 
    ![](assets/query_editor_nveau_39.png)
 
-1. この関数を使 **[!UICONTROL Add a calculated field]** 用して、データプレビューウィンドウに列を挿入します。
+1. **[!UICONTROL 計算フィールドを追加]**&#x200B;機能を使用して、列をデータのプレビューウィンドウに追加します。
 
-   この例では、受信者の名と姓を含む計算フィールドを単一の列で追加します。関数をクリック **[!UICONTROL Add a calculated field]** します。 ウィンドウ **[!UICONTROL Export calculated field definition]** で、ラベルと内部名を入力し、タイプを選択し **[!UICONTROL JavaScript Expression]** ます。 次の式を入力します。
+   この例では、受信者の名と姓を含む計算フィールドを単一の列で追加します。**[!UICONTROL 計算フィールドを追加]**&#x200B;機能をクリックします。**[!UICONTROL 計算済みフィールドの定義をエクスポート]**&#x200B;ウィンドウでラベルと内部名を入力し、「**[!UICONTROL JavaScript 式]**」タイプを選択します。次の式を入力します。
 
    ```
    var rep = source._firstName+" - "+source._lastName
@@ -83,10 +83,10 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
    ![](assets/query_editor_nveau_40.png)
 
-   クリック **[!UICONTROL OK]**. ウィン **[!UICONTROL Data formatting]** ドウが設定されます。
+   「**[!UICONTROL OK]**」をクリックします。**[!UICONTROL データフォーマット]**&#x200B;ウィンドウが設定されました。
 
    計算フィールドの追加について詳しくは、この節を参照してください。
 
-1. The result is shown in the **[!UICONTROL Data preview]** window. 過去7日間連絡されていない受信者が表示されます。名と姓の列が作成されました。
+1. **[!UICONTROL データのプレビュー]**&#x200B;ウィンドウに結果が表示されます。過去7日間連絡されていない受信者が表示されます。名と姓の列が作成されました。
 
    ![](assets/query_editor_nveau_41.png)

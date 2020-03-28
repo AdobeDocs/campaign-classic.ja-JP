@@ -14,7 +14,7 @@ discoiquuid: 7453d768-31eb-4372-aae3-27527cd5c79b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -22,9 +22,9 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 # JavaScript による統合（クライアント側）{#integration-via-javascript-client-side}
 
-Web ページでインタラクションエンジンを呼び出すには、ページに JavaScript コードを直接挿入します。この呼び出しは、ターゲット設定された
+Web ページでインタラクションエンジンを呼び出すには、ページに JavaScript コードを直接挿入します。この呼び出しにより、ターゲットの
 
-エレメント。
+要素にオファーコンテンツが返されます。
 
 アドビでは、JavaScript 統合方法の使用をお勧めします。
 
@@ -54,9 +54,9 @@ URL を呼び出すスクリプトは、次のようになります。
 
 1. **HTML ページのコンテンツ**
 
-   HTMLページには、
+   HTML ページには、作成したオファースペースの内部名の値（&quot;i_スペースの内部名&quot;）を持つ @id 属性のある
 
-   要素に@id属性を割り当て、作成したオファースペースの内部名の値(「i_internal name space」)を含める。 オファーは、インタラクションによってこの要素に挿入されます。
+   要素を含める必要があります。オファーは、インタラクションによってこの要素に挿入されます。
 
    この例では、@id 属性は、値 &quot;i_SPC12&quot; を受け取ります（「SPC12」が先ほど作成したオファースペースの内部名）。
 
@@ -72,7 +72,7 @@ URL を呼び出すスクリプトは、次のようになります。
 
    >[!CAUTION]
    >
-   >The `<script>` tag must not be self-closing.
+   >`<script>` タグは、自己終了タグにすることはできません。
 
    この静的呼び出しは、インタラクションエンジンに必要なすべてのパラメーターを含む動的呼び出しを自動的に生成します。
 
@@ -106,7 +106,7 @@ URL を呼び出すスクリプトは、次のようになります。
 
 ### 識別されたオファーの提示 {#presenting-an-identified-offer}
 
-To present an offer to an identified contact, the process is similar as the one detailed here: [Presenting an anonymous offer](#presenting-an-anonymous-offer). で説明する手順とほぼ同じです。エンジン呼び出し中に連絡先を識別する次のスクリプトを Web ページのコンテンツに追加する必要があります。
+識別された連絡先に対してオファーを提示する手順は、[匿名オファーの提示](#presenting-an-anonymous-offer)で説明する手順とほぼ同じです。エンジン呼び出し中に連絡先を識別する次のスクリプトを Web ページのコンテンツに追加する必要があります。
 
 ```
 <script type="text/javascript">
@@ -114,7 +114,7 @@ To present an offer to an identified contact, the process is similar as the one 
 </script>
 ```
 
-1. Go to the offer space that will be called up by the web page, click **[!UICONTROL Advanced parameters]** and add one or more identification keys.
+1. Web ページから呼び出されるオファースペースに移動して、「**[!UICONTROL 詳細設定パラメーター]**」をクリックし、1 つまたは複数の識別キーを追加します。
 
    ![](assets/interaction_htmlmode_001.png)
 
@@ -134,9 +134,9 @@ To present an offer to an identified contact, the process is similar as the one 
 
 HTML のオファー表示域を自動的に生成するには、レンダリング関数を使用できます。
 
-1. Go to the offer space and click the **[!UICONTROL Edit functions]** link.
-1. 選択 **[!UICONTROL Overload the HTML rendering function]**.
-1. Go to the **[!UICONTROL HTML rendering]** tab and insert the variables that match the fields defined for the offer content in the offer space.
+1. オファースペースに移動し、「**[!UICONTROL 関数を編集]**」リンクをクリックします。
+1. 「**[!UICONTROL HTML レンダリング関数をオーバーロード]**」を選択します。
+1. 「**[!UICONTROL HTML レンダリング]**」タブに移動し、オファースペースのオファーコンテンツ用に定義されたフィールドに合致する変数を挿入します。
 
    ![](assets/interaction_htmlmode_002.png)
 
@@ -181,13 +181,13 @@ HTML のオファー表示域を自動的に生成するには、レンダリン
 
 1. **環境とオファースペースの作成**
 
-   環境の作成について詳しくは、 [Live/Design環境を参照してください](../../interaction/using/live-design-environments.md)。
+   環境の作成について詳しくは、[ライブ／デザイン環境](../../interaction/using/live-design-environments.md)を参照してください。
 
-   For more on creating an offer space, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
+   オファースペースの作成について詳しくは、[オファースペースの作成](../../interaction/using/creating-offer-spaces.md)を参照してください。
 
 1. **オファースキーマの拡張による新しいフィールドの追加**
 
-   このスキーマは、次のフィールドを定義します。タイトル番号2と価格。
+   このスキーマは、「Title 2」（タイトル 2）および「Price」（価格）フィールドを定義します。
 
    この例のスキーマの名前は **cus:offer** です。
 
@@ -266,17 +266,17 @@ HTML のオファー表示域を自動的に生成するには、レンダリン
 
    >[!CAUTION]
    >
-   >The fields of the ( `<input>`) form must point to the CDATA type elements defined in the created schema.
+   >（`<input>`）フォームのフィールドは、作成したスキーマに定義された CDATA タイプの要素を指している必要があります。
 
    オファー表示域フォームのレンダリングは、次のようになります。
 
    ![](assets/interaction_xmlmode_form.png)
 
-   The **[!UICONTROL Title 2]** and **[!UICONTROL Price]** fields have been added and the **[!UICONTROL Destination URL]** field is no longer displayed.
+   「**[!UICONTROL Title 2]**」および「**[!UICONTROL Price]**」フィールドが追加され、「**[!UICONTROL 宛先 URL]**」フィールドは表示されません。
 
 1. **オファーの作成**
 
-   オファーの作成について詳しくは、「オファーの作成」 [を参照してくださ](../../interaction/using/creating-an-offer.md)い。
+   オファーの作成について詳しくは、[オファーの作成](../../interaction/using/creating-an-offer.md)を参照してください。
 
    この例では、オファーは次のように入力されます。
 
@@ -317,9 +317,9 @@ HTML のオファー表示域を自動的に生成するには、レンダリン
 
 XML レンダリング関数を使用して、オファーのプレゼンテーションを作成できます。この関数は、エンジンの呼び出し中に HTML ページに返された XML ノードを修正します。
 
-1. Go to the offer space and click the **[!UICONTROL Edit functions]** link.
-1. 選択 **[!UICONTROL Overload the XML rendering function]**.
-1. Go to the **[!UICONTROL XML rendering]** tab and insert the desired function.
+1. オファースペースに移動し、「**[!UICONTROL 関数を編集]**」リンクをクリックします。
+1. 「**[!UICONTROL XML レンダリング関数をオーバーロード]**」を選択します。
+1. 「**[!UICONTROL XML レンダリング]**」タブに移動し、目的の関数を挿入します。
 
    関数は、次のようになります。
 

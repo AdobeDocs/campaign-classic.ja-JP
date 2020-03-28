@@ -14,7 +14,7 @@ discoiquuid: 67d1d39b-3a5f-4ed6-8fcf-570891043b10
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 コンテナを使用すると、ページのフィールドを組み合わせたり、レイアウトを設定したりして、ページの要素を整理できます。
 
-For each page of the form, containers are created via the **[!UICONTROL Containers]** button of the toolbar.
+フォームの各ページで、ツールバーの&#x200B;**[!UICONTROL コンテナ]**&#x200B;ボタンを使用してコンテナを作成します。
 
 ![](assets/s_ncs_admin_survey_containers_add.png)
 
@@ -36,7 +36,7 @@ For each page of the form, containers are created via the **[!UICONTROL Containe
 
 ![](assets/s_ncs_admin_survey_containers_std_arbo.png)
 
-ラベルの位置は、階層のコンテナの下に配置された要素に適用されます。必要に応じて、各要素についてオーバーロードできます。列を追加または削除して、レイアウトを変更します。See [Positioning the fields on the page](#positioning-the-fields-on-the-page).
+ラベルの位置は、階層のコンテナの下に配置された要素に適用されます。必要に応じて、各要素についてオーバーロードできます。列を追加または削除して、レイアウトを変更します。[ページへのフィールドの配置](#positioning-the-fields-on-the-page)を参照してください。
 
 上記の例では、レンダリングは次のようになります。
 
@@ -74,7 +74,7 @@ Web フォームのレイアウトは、各コンテナのページごとに定�
 
 ![](assets/s_ncs_admin_survey_container_ex2_rend.png)
 
-タイトルとリストは、それぞれ 1 つのセル（つまりコンテナの行全体）を占有し、チェックボックスは 2 つのセルをまたがっています。The number of cells attributed to the input field is defined in the **[!UICONTROL General]** tab or the **[!UICONTROL Advanced]** tab, according to the type of field:
+タイトルとリストは、それぞれ 1 つのセル（つまりコンテナの行全体）を占有し、チェックボックスは 2 つのセルをまたがっています。入力フィールドに属するセルの数は、フィールドのタイプに従って、「**[!UICONTROL 一般]**」タブまたは「**[!UICONTROL 詳細設定]**」タブで定義されます。
 
 ![](assets/s_ncs_admin_survey_container_ex2.png)
 
@@ -84,11 +84,11 @@ Web フォームのレイアウトは、各コンテナのページごとに定�
 
 デフォルトでは、ページのフィールドおよびその他のコンテンツの表示パラメーターは、フォームの全般設定、ページの設定、または存在する場合は親コンテナの設定から継承されます。
 
-フォーム全体のグローバルな表示パラメーターは、フォームプロパティボックスで指定されます。The **[!UICONTROL Rendering]** tab lets you select the position of labels.
+フォーム全体のグローバルな表示パラメーターは、フォームプロパティボックスで指定されます。「**[!UICONTROL レンダリング]**」タブを使用すると、ラベルの位置を選択できます。
 
 ![](assets/s_ncs_admin_survey_label_position.png)
 
-This position can be overloaded for each page, each container, and each field, via the **[!UICONTROL Advanced]** tab.
+この位置は、「**[!UICONTROL 詳細設定]**」タブで、各ページ、各コンテナおよび各フィールドに対してオーバーロードできます。
 
 次の整列がサポートされます。
 

@@ -14,7 +14,7 @@ discoiquuid: 39d8ddcd-7fae-44fa-8a49-c3ad999e7903
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -34,7 +34,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ![](assets/mkg_dist_local_op_edit_new_op1.png)
 
-The campaign remains accessible in the Campaign overview, located via the **[!UICONTROL Campaigns]** link on the home page.
+キャンペーンには、その後もキャンペーンの概要からアクセスできます。キャンペーンの概要は、ホームページの「**[!UICONTROL キャンペーン]**」リンクから表示できます。
 
 ## 使用できる設定 {#available-settings}
 

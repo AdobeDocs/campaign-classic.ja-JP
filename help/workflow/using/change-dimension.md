@@ -14,7 +14,7 @@ discoiquuid: 61583062-2349-4ab3-a3bf-310d21894f34
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -32,7 +32,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 「ディメンションの変更」アクティビティを設定するには、次の手順に従います。
 
-1. Select the new targeting dimension via the **[!UICONTROL Change dimension]** field.
+1. 新しいターゲティングディメンションを「**[!UICONTROL ディメンションを変更]**」フィールド経由で選択します。
 
    ![](assets/s_user_change_dimension_param1.png)
 
@@ -40,9 +40,9 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
    ![](assets/s_user_change_dimension_limit.png)
 
-   レコードを1つだけ保持する場合は、コレクションが作業スキーマに表示されます。このコレクションは、最終結果でターゲットにならないすべてのレコードを表します（1つのレコードのみが保持されるため）。 ほかのすべてのコレクションと同様に、このコレクションを使用して、集計を自動生成したり、列内の情報を取得したりできます。
+   レコードを 1 つだけ保持する場合は、1 つのコレクションが作業スキーマに表示されます。このコレクションは、最終結果でターゲットにならないすべてのレコードを表します（1 つのレコードのみが保持されるため）。ほかのすべてのコレクションと同様に、このコレクションを使用して、集計を自動生成したり、列内の情報を取得したりできます。
 
-   For example, if you change the **[!UICONTROL Customers]** dimension to the **[!UICONTROL Recipients]** dimension, it will be possible to target customers of a specific store, while adding the number of purchases made.
+   例えば、「**[!UICONTROL 顧客]**」ディメンションを「**[!UICONTROL 受信者]**」ディメンションに変更すると、購入数を追加するだけでなく、特定の店舗の顧客のターゲティングが可能になります。
 
 1. この情報の一部のみを保持するように選択する場合、重複管理モードで設定できます。
 
@@ -52,23 +52,23 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
    上の例では、受信者はまず E メールアドレスに基づいて重複排除され、次に必要に応じてアカウント番号に基づいて重複排除されます。
 
-1. The **[!UICONTROL Result]** tab lets you add additional information.
+1. 「**[!UICONTROL 結果]**」タブで、追加情報を追加できます。
 
    例えば、**Substring**&#x200B;タイプ関数を使用して、郵便番号に基づいて国を収集できます。手順は次のとおりです。
 
-   * リンクをクリ **[!UICONTROL Add data...]** ックし、を選択しま **[!UICONTROL Data linked to the filtering dimension]**&#x200B;す。
+   * 「**[!UICONTROL データを追加...]**」リンクをクリックし、「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」を選択します。
 
       ![](assets/wf_change-dimension_sample_01.png)
 
       >[!NOTE]
       >
-      >For information on creating and managing additional columns, refer to [Adding data](../../workflow/using/query.md#adding-data).
+      >追加列の作成と管理について詳しくは、[データの追加](../../workflow/using/query.md#adding-data)を参照してください。
 
-   * Select the previous targeting dimension (before axis switch) and select the **[!UICONTROL Zip Code]** in the recipient&#39;s **[!UICONTROL Location]** sub-tree, then click **[!UICONTROL Edit expression]**.
+   * 以前のターゲティングディメンション（軸変更の前）を選択し、受信者の「**[!UICONTROL 場所]**」サブツリーで「**[!UICONTROL 郵便番号]**」を選択して「**[!UICONTROL 式を編集]**」をクリックします。
 
       ![](assets/wf_change-dimension_sample_02.png)
 
-   * をクリック **[!UICONTROL Advanced selection]** し、を選択しま **[!UICONTROL Edit the formula using an expression]**&#x200B;す。
+   * 「**[!UICONTROL 詳細選択]**」をクリックし、「**[!UICONTROL 式を使用して数式を編集]**」を選択します。
 
       ![](assets/wf_change-dimension_sample_03.png)
 

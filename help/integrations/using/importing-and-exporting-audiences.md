@@ -14,7 +14,7 @@ discoiquuid: f26cc65a-76be-4b7a-bde3-d0cbe3eedaaf
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ---
@@ -26,19 +26,19 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 受信者リストを使用して、Audience Manager または People コアサービスから Adobe Campaign にオーディエンスとセグメントをインポートできます。
 
-1. Adobe Campaignエクスプロ **[!UICONTROL Profiles and Targets]** ーラーで **[!UICONTROL Lists]** 「>」ノードに移動します。
-1. アクションバーで、/を選 **[!UICONTROL New]** 択しま **[!UICONTROL Create a shared audience...]**&#x200B;す。
+1. Adobe Campaign のエクスプローラーで、**[!UICONTROL プロファイルとターゲット]**／**[!UICONTROL リスト]**&#x200B;ノードに移動します。
+1. アクションバーで、 **[!UICONTROL 新規]**／**[!UICONTROL 共有オーディエンスを作成]**&#x200B;を選択します。
 
    ![](assets/aam_import_audience.png)
 
-1. In the window that opens, click **[!UICONTROL Select a shared audience]** to go to the list of shared audiences/segments available from the other Adobe Experience Cloud solutions.
+1. 表示されるウィンドウで、「**[!UICONTROL 共有オーディエンスを選択]**」をクリックして、他の Adobe Experience Cloud ソリューションから使用可能な共有オーディエンスおよびセグメントに移動します。
 1. オーディエンスを選択し、確定します。オーディエンスの情報は自動的に追加されます。
 
-   Please note that to be able to import shared audience, you should be assigned the **[!UICONTROL Audience library]** product in the admin console and be an administrator in Audience Manager. 詳しくは、[Admin Console のドキュメント](https://helpx.adobe.com/enterprise/managing/user-guide.html)を参照してください。
+   共有オーディエンスをインポートするには、Admin Console で&#x200B;**[!UICONTROL オーディエンスライブラリ]**&#x200B;製品を割り当てられた、Audience Manager の管理者である必要があります。詳しくは、[Admin Console のドキュメント](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください。
 
    ![](assets/aam_import_audience_3.png)
 
-1. Select the AMC Data source from the **[!UICONTROL AMC Data source]** field to define the type of data expected.
+1. 「**[!UICONTROL AMC データソース]**」フィールドから AMC データソースを選択し、予測されるデータタイプを定義します。
 
    ![](assets/aam_import_audience_2.png)
 
@@ -52,7 +52,7 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 >
 >Adobe Analytics から Adobe Campaign にオーディエンスをインポートする場合は、最初に People コアサービスまたは Audience Manager でそれらのオーディエンスを共有する必要があります。このプロセスには 12～24 時間を要し、Campaign との同期にはさらに 24～36 時間が必要です。
 >
->場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、この[ドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html)を参照してください。
+>場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、この[ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/t_publish_audience_segment.html)を参照してください。
 
 オーディエンスデータは、同期されるたびに完全に置き換えられます。インポートできるのはセグメントのみです。キーと値のペア、特徴、ルールなどの詳細データはサポートされません。
 
@@ -62,19 +62,19 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 1. 新しいターゲティングワークフローを作成します。
 1. 使用可能な異なるアクティビティを使い、一連の受信者をターゲティングします。
-1. After the targeting, drag and drop an **[!UICONTROL Update shared audience]** activity, then open it.
+1. ターゲティングした後、**[!UICONTROL 共有オーディエンスを更新]**&#x200B;アクティビティをドラッグ＆ドロップして開きます。
 
    ![](assets/aam_export_example.png)
 
-1. オプションを使用して書き出すオーディエンスを定義し **[!UICONTROL Select a shared audience]** ます。 表示されるウィンドウで、既存オーディエンスを選択したり、新規オーディエンスを作成したりできます。
+1. 「**[!UICONTROL 共有オーディエンスを選択]**」オプションを使用して、エクスポートするオーディエンスを定義します。表示されるウィンドウで、既存オーディエンスを選択したり、新規オーディエンスを作成したりできます。
 
    既存オーディエンスを選択した場合、新規レコードだけがオーディエンスに追加されます。
 
-   To export your recipient list in a new audience, complete the **[!UICONTROL Segment name]** field then click **[!UICONTROL Create]** before selecting the newly created audience.
+   受信者リストを新規オーディエンスにエクスポートするには、「**[!UICONTROL セグメント名]**」フィールドを入力し、新しく作成されたオーディエンスを選択する前に「**[!UICONTROL 作成]**」をクリックします。
 
    ウィンドウの右上にあるチェックマークをクリックし、次に「**[!UICONTROL OK]**」ボタンをクリックして操作を終了します。
 
-1. を選択して、 **[!UICONTROL AMC Data source]** 必要なデータタイプを指定します。 スキーマは自動的に決定されます。
+1. 予測されるデータタイプを指定するには、「**[!UICONTROL AMC データソース]**」を選択します。スキーマは自動的に決定されます。
 
    ![](assets/aam_export_audience_activity.png)
 
@@ -82,7 +82,7 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 オーディエンスがエクスポートされます。オーディエンス保存アクティビティには、アウトバンドトランジションが 2 種類あります。主なトランジションは、エクスポートに成功した受信者を含みます。追加トランジションは、訪問者 ID または宣言済み ID でマッピングできなかった受信者を含みます。
 
-Adobe Campaign と People コアサービス間の同期には、24～36 時間かかります。同期が終了すると、People コアサービスで新しいオーディエンスを検索できるようになり、そのオーディエンスを他の Adobe Experience Cloud ソリューションで再利用することができます。Adobe People コアサービスで Adobe Campaign の共有オーディエンスを使用する方法について詳しくは、この[ドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/t_audience_create.html)を参照してください。
+Adobe Campaign と People コアサービス間の同期には、24～36 時間かかります。同期が終了すると、People コアサービスで新しいオーディエンスを検索できるようになり、そのオーディエンスを他の Adobe Experience Cloud ソリューションで再利用することができます。Adobe People コアサービスで Adobe Campaign の共有オーディエンスを使用する方法について詳しくは、この[ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/t_audience_create.html)を参照してください。
 
 >[!NOTE]
 >

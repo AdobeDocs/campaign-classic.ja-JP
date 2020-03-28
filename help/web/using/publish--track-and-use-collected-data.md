@@ -14,7 +14,7 @@ discoiquuid: 434a4bda-0907-42a7-8a75-2db658bba046
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 # 収集したデータのパブリッシュ、トラッキングおよび使用{#publish-track-and-use-collected-data}
 
-フォームが作成、設定および発行されたら、リンクをオーディエンスと共有し、回答を追跡できます。
+フォームの作成、設定、パブリッシュが完了したら、オーディエンスとリンクを共有して反応をトラッキングできます。
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## 調査ダッシュボード {#survey-dashboard}
 
-各調査には、ステータス、説明、パブリック URL および利用スケジュールを表示できる独自のダッシュボードがあります。また、利用可能なレポートを表示できます。For more on this, refer to [Reports on surveys](#reports-on-surveys).
+各調査には、ステータス、説明、パブリック URL および利用スケジュールを表示できる独自のダッシュボードがあります。また、利用可能なレポートを表示できます。詳しくは、[調査のレポート](#reports-on-surveys)を参照してください。
 
 調査のパブリック URL は、ダッシュボードに表示されます。
 
@@ -42,11 +42,11 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ### 調査ログ {#survey-logs}
 
-For each survey delivered, you can track the responses in the **[!UICONTROL Logs]** tab. このタブには、調査を完了したユーザーとその接触チャネルのリストが表示されます。
+配信された各調査について、「**[!UICONTROL ログ]**」タブで回答をトラッキングできます。このタブには、調査を完了したユーザーとその接触チャネルのリストが表示されます。
 
 ![](assets/s_ncs_admin_survey_logs.png)
 
-行をダブルクリックして、回答者が入力した調査フォームを表示します。すべての調査を参照して、すべての回答にアクセスできます。これらは、外部ファイルにエクスポートできます。For more on this, refer to [Exporting answers](#exporting-answers).
+行をダブルクリックして、回答者が入力した調査フォームを表示します。すべての調査を参照して、すべての回答にアクセスできます。これらは、外部ファイルにエクスポートできます。詳しくは、[回答のエクスポート](#exporting-answers)を参照してください。
 
 接触チャネルは、次の文字を追加することで、調査 URL に示されます。
 
@@ -54,7 +54,7 @@ For each survey delivered, you can track the responses in the **[!UICONTROL Logs
 ?origin=xxx
 ```
 
-while the survey is being edited, its URL contains the parameter **[!UICONTROL __uuid]**, which indicates that it is in a test phase and not yet online. この URL で調査にアクセスする場合、作成されたレコードは、トラッキング（レポート）で考慮されません。The origin is forced to the value **[!UICONTROL Adobe Campaign]**.
+調査が編集されている間、その URL にはパラメーター **[!UICONTROL __uuid]** が含まれます。これは、テストフェーズにあり、まだオンラインでないことを示しています。この URL で調査にアクセスする場合、作成されたレコードは、トラッキング（レポート）で考慮されません。origin の値は、強制的に **[!UICONTROL Adobe Campaign]** になります。
 
 URL パラメーターについて詳しくは、[このページ](../../web/using/defining-web-forms-properties.md#form-url-parameters)を参照してください。
 
@@ -64,9 +64,9 @@ URL パラメーターについて詳しくは、[このページ](../../web/usi
 
 ![](assets/s_ncs_admin_survey_report_doc.png)
 
-The structure of the survey is visible in the **[!UICONTROL Documentation]** report.
+調査の構造は、**[!UICONTROL ドキュメント]**&#x200B;レポートに表示されます。
 
-Two other reports on Web surveys are available in the **[!UICONTROL Reports]** tab of the surveys: **[!UICONTROL General]** and **[!UICONTROL Breakdown of responses]**.
+調査の「**[!UICONTROL レポート]**」タブでは Web 調査に関するレポートがほかにも 2 つ利用できます。**[!UICONTROL 一般]**&#x200B;および&#x200B;**[!UICONTROL 回答の分類]**&#x200B;です。
 
 * 一般
 
@@ -78,7 +78,7 @@ Two other reports on Web surveys are available in the **[!UICONTROL Reports]** t
 
 * 回答の分類
 
-   このレポートには、各質問に関する回答の分類が表示されます。This breakdown is only available for answers given to fields stored in **[!UICONTROL Question]** type containers. 選択コントロールに対してのみ有効です（例えば、テキストフィールドは分類されません）。
+   このレポートには、各質問に関する回答の分類が表示されます。この分類は、**[!UICONTROL 質問]**&#x200B;タイプのコンテナに格納されたフィールドに提供された回答でのみ利用できます。選択コントロールに対してのみ有効です（例えば、テキストフィールドは分類されません）。
 
    ![](assets/s_ncs_admin_survey_report_2.png)
 
@@ -88,13 +88,13 @@ Two other reports on Web surveys are available in the **[!UICONTROL Reports]** t
 
 1. レポートデータのエクスポート
 
-   To export report data, click the **[!UICONTROL Export]** button and choose the export format.
+   レポートデータをエクスポートするには、「**[!UICONTROL エクスポート]**」ボタンをクリックして、エクスポート形式を選択します。
 
    レポートデータのエクスポートについて詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
 
 1. 回答のエクスポート
 
-   To export answers, click the **[!UICONTROL Responses]** tab of the survey and right-click. 選択 **[!UICONTROL Export...]**.
+   回答をエクスポートするには、調査の「**[!UICONTROL 回答]**」タブをクリックして、右クリックします。「**[!UICONTROL エクスポート]**」をクリックします。
 
    ![](assets/s_ncs_admin_survey_logs_export_menu.png)
 
@@ -107,11 +107,11 @@ Two other reports on Web surveys are available in the **[!UICONTROL Reports]** t
    * 出力ファイルに列を追加し、（データベースに格納された）受信者の情報を復元する
    * エクスポートしたデータの形式を設定する
    * ファイルの情報のエンコード形式を選択する
-   If the survey you want to export contains several **[!UICONTROL Multi-line text]** or **[!UICONTROL HTML text]** fields, it has to be exported in **[!UICONTROL XML]** format. To do this, select this format in the drop-down list of the **[!UICONTROL Output format]** field, as shown below:
+   エクスポートする調査にいくつかの「**[!UICONTROL 複数ラインテキスト]**」または「**[!UICONTROL HTML テキスト]**」フィールドが含まれている場合、**[!UICONTROL XML]** 形式でエクスポートする必要があります。これをおこなうには、次に示すように、**[!UICONTROL 出力フォーマット]**&#x200B;ドロップダウンリストで、この形式を選択します。
 
    ![](assets/s_ncs_admin_survey_logs_export_xml.png)
 
-   Click **[!UICONTROL Start]** to run the export.
+   「**[!UICONTROL 開始]**」をクリックして、エクスポートを実行します。
 
    >[!NOTE]
    >
@@ -119,19 +119,19 @@ Two other reports on Web surveys are available in the **[!UICONTROL Reports]** t
 
 ## 収集されたデータの使用 {#using-the-collected-data}
 
-オンライン調査で収集された情報は、ターゲティングワークフローのフレームワーク内で復元できます。これを行うには、ボックスを使用 **[!UICONTROL Survey responses]** します。
+オンライン調査で収集された情報は、ターゲティングワークフローのフレームワーク内で復元できます。これをおこなうには、**[!UICONTROL 調査の回答]**&#x200B;ボックスを使用します。
 
 次の例では、少なくとも 2 人の子供を含む、オンライン調査で最高スコアを獲得した 5 人の受信者に特別に Web オファーを実行します。この回答の調査は、次のようになります。
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_4.png)
 
-In the targeting workflow, the **[!UICONTROL Survey responses]** will be configured as follows:
+ターゲティングワークフローで、**[!UICONTROL 調査の回答]**&#x200B;は、次のように設定されます。
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_1.png)
 
 最初に、関連する調査を選択してから、ウィンドウの中央のセクションで、抽出するデータを選択します。この場合、5 つの最高スコアを復元するために分割ボックスで使用するので、少なくともスコア列を抽出する必要があります。
 
-Indicate the filtering conditions for answers by clicking the **[!UICONTROL Edit query...]** link.
+「**[!UICONTROL クエリを編集]**」リンクをクリックして、回答のフィルター条件を示します。
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_2.png)
 
@@ -147,23 +147,23 @@ Indicate the filtering conditions for answers by clicking the **[!UICONTROL Edit
 
 分割ボックスを編集して、次のように設定します。
 
-* Start by selecting the adequate schema in the **[!UICONTROL General]** tab, then configure the sub-set:
+* 最初に、「**[!UICONTROL 一般]**」タブで適切なスキーマを選択して、次にサブセットを設定します。
 
    ![](assets/s_ncs_admin_survey_responses_wf_box_6b.png)
 
-* タブに移動し、 **[!UICONTROL Sub-sets]** オプションを選択 **[!UICONTROL Limit the selected records]** して、リンクをクリックし **[!UICONTROL Edit...]** ます。
+* 「**[!UICONTROL サブセット]**」タブに移動して、「**[!UICONTROL 選択レコード数の制限]**」オプションを選択し、「**[!UICONTROL 編集]**」リンクをクリックします。
 
    ![](assets/s_ncs_admin_survey_responses_wf_box_7.png)
 
-* このオプション **[!UICONTROL Keep only the first records after sorting]** を選択し、並べ替え列を選択します。 オプションをオン **[!UICONTROL Descending sort]** にします。
+* 「**[!UICONTROL 並べ替えの後に最初のレコードのみ保持]**」オプションを選択して、並べ替える列を選択します。「**[!UICONTROL 降順で並べ替え]**」オプションをチェックします。
 
    ![](assets/s_ncs_admin_survey_responses_wf_box_8.png)
 
-* Click the **[!UICONTROL Next]** button and limit the number of records to 5.
+* 「**[!UICONTROL 次へ]**」ボタンをクリックして、レコードの数を 5 に制限します。
 
    ![](assets/s_ncs_admin_survey_responses_wf_box_9.png)
 
-* Click **[!UICONTROL Finish]** then restart the workflow to approve targeting.
+* 「**[!UICONTROL 完了]**」をクリックしてから、ワークフローを再起動してターゲティングを承認します。
 
 ## データの標準化 {#standardizing-data}
 

@@ -14,7 +14,7 @@ discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
 
 ---
@@ -34,7 +34,7 @@ source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
 
 >[!CAUTION]
 >
->The XML schema and the form that concerns the fields in the profiles table are accessed via the **[!UICONTROL Administration > Configuration > Data schemas]** node of the Adobe Campaign tree. これらのスキーマを変更できるのは、エキスパートユーザーのみです。
+>プロファイルテーブルのフィールドに関係する XML スキーマおよびフォームにアクセスするには、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードを選択します。これらのスキーマを変更できるのは、エキスパートユーザーのみです。
 >
 >詳しくは、[このページ](../../configuration/using/about-schema-edition.md)を参照してください。
 
@@ -46,7 +46,7 @@ source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
 
 >[!NOTE]
 >
->When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is blacklisted, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). このようなプロファイルは、どのチャネルの配信（E メール、ダイレクトメールなど）のターゲットにもなりません。詳しくは、[このページ](../../delivery/using/understanding-quarantine-management.md)を参照してください。
+>「**[!UICONTROL 今後の連絡は不要（すべてのチャネル）]**」オプションが選択されている場合は、プロファイルがブラックリストに登録されていることを意味します。つまり、プロファイルは、ニュースレター内の購読解除リンクをクリックするなどして配信を受け取らないことを希望しています。このようなプロファイルは、どのチャネルの配信（E メール、ダイレクトメールなど）のターゲットにもなりません。詳しくは、[このページ](../../delivery/using/understanding-quarantine-management.md)を参照してください。
 
 ## 「連絡先情報」タブ{#contact-information-tab}
 
@@ -58,7 +58,7 @@ source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
 
 ## 「その他」タブ{#other-tab}
 
-この画面には、要件に基づいてパーソナライズできるユーザー定義のフィールドが表示されます。You can also change the names of the fields and define their format, via **[!UICONTROL Field properties...]**, as shown below:
+この画面には、要件に基づいてパーソナライズできるユーザー定義のフィールドが表示されます。次に示すように、「**[!UICONTROL フィールドプロパティ...]**」を使用して、フィールドの名前を変更したり、フィールドのフォーマットを定義したりすることもできます。
 
 ![](assets/s_ncs_user_profile_others_tab.png)
 
@@ -68,11 +68,11 @@ source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
 
 ## 「リスト」タブ{#lists-tab}
 
-この画面には、選択したプロファイルが属しているグループが表示されます。Click **[!UICONTROL Add]** to subscribe the profile to a list. Click **[!UICONTROL Detail]** to display the description and the list of profiles in the selected list.
+この画面には、選択したプロファイルが属しているグループが表示されます。プロファイルをリストに登録するには、「**[!UICONTROL 追加]**」をクリックします。選択したリスト内のプロファイルの説明およびリストを表示するには、「**[!UICONTROL 詳細]**」をクリックします。
 
 ![](assets/s_ncs_user_profile_groups_tab_details.png)
 
-詳細については、「リストの作成と管 [理」を参照してください](../../platform/using/creating-and-managing-lists.md)。
+詳しくは、[リストの作成および管理](../../platform/using/creating-and-managing-lists.md)を参照してください。
 
 ## 「購読」タブ{#subscriptions-tab}
 
@@ -80,7 +80,7 @@ source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
 
 ![](assets/s_ncs_user_profile_subscript_tab_details.png)
 
-The **[!UICONTROL Detail]** button displays the properties of the selected subscription. The **[!UICONTROL Add]** button is used to add a new subscription manually.
+「**[!UICONTROL 詳細]**」ボタンでは、選択した購読のプロパティが表示されます。「**[!UICONTROL 追加]**」ボタンは、新しい購読を手動で追加する場合に使用します。
 
 詳しくは、[このページ](../../delivery/using/managing-subscriptions.md)を参照してください。
 

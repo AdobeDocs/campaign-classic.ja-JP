@@ -14,7 +14,7 @@ discoiquuid: ad1ce80d-8976-430d-9964-e50d548b2822
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -22,16 +22,16 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 # トラッキングログへのアクセス{#accessing-the-tracking-logs}
 
-When the delivery has been sent and tracking activated, the **[!UICONTROL Tracking]** technical workflow is in charge of retrieving the tracking data. デフォルトでは 1 時間ごとに取得されます。
+配信が送信され、トラッキングが有効化されると、**[!UICONTROL トラッキング]**&#x200B;テクニカルワークフローでトラッキングデータが取得されます。デフォルトでは 1 時間ごとに取得されます。
 
-This information appears in the **[!UICONTROL Tracking]** tab of the profile of recipients targeted by the delivery, as in the following example:
+次の例に示すように、この情報は、配信のターゲットとなっている受信者のプロファイルの「**[!UICONTROL トラッキング]**」タブに表示されます。
 
 ![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
-It is also accessible via the **[!UICONTROL Tracking]** tab of the delivery.
+配信の「**[!UICONTROL トラッキング]**」タブからもアクセスできます。
 
 ![](assets/s_ncs_user_select_tracking_tab_from_del.png)
 
 >[!NOTE]
 >
->If you cannot see the **[!UICONTROL Tracking]** tab of a delivery, it means that tracking has not been activated. [この節](../../delivery/using/how-to-configure-tracked-links.md)を参照してください。
+>配信の「**[!UICONTROL トラッキング]**」タブが表示されない場合は、トラッキングが有効化されていないことを意味します。[この節](../../delivery/using/how-to-configure-tracked-links.md)を参照してください。

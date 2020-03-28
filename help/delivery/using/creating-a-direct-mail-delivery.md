@@ -14,7 +14,7 @@ discoiquuid: d6eae7e3-0d57-457e-99a2-1ed7b10474e6
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
 
 ---
@@ -33,5 +33,5 @@ source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
 
    ![](assets/direct_mail.png)
 
-1. ラベル、コードおよび説明を設定して配信を識別します。For more on this, refer to [this section](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery)
+1. ラベル、コードおよび説明を設定して配信を識別します。詳しくは、[この節](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery)を参照してください。
 1. 「**続行**」をクリックすると、入力した情報が確定され、メッセージ設定ウィンドウが表示されます。

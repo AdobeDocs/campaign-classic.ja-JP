@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classicを使用する場合の評判の向上
-description: Adobe Campaign Classicを使用する場合の評判の向上について説明します。
+title: Adobe Campaign Classic を使用する場合の評判の向上
+description: Adobe Campaign Classic を使用する場合の評判の向上について説明します。
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68756f920fbc8658cff552615adbf023b4c5e3aa
 
 ---
@@ -29,7 +29,7 @@ source-git-commit: 68756f920fbc8658cff552615adbf023b4c5e3aa
 * 自動インポート時は注意する
 * プロファイルは異なるフォルダーに分類する
 
-Quarantine management is presented in [this section](../../delivery/using/understanding-quarantine-management.md).
+強制隔離の管理について詳しくは、[この節](../../delivery/using/understanding-quarantine-management.md)を参照してください。
 
 以下に重複および強制隔離の管理の詳細を示します。
 
@@ -57,4 +57,4 @@ Quarantine management is presented in [this section](../../delivery/using/unders
 
 Adobe Campaign では、強制隔離されたアドレスのリストを管理します。アドレスが強制隔離されている受信者は、配信分析時にデフォルトで除外され、ターゲティングされません。例えば、受信ボックスの容量が超過している場合や、アドレスが存在しない場合などに、E メールアドレスを強制隔離できます。どの場合でも、強制隔離は以降で説明する特定のルールに従います。
 
-Quarantine management is presented in [this section](../../delivery/using/understanding-quarantine-management.md).
+強制隔離の管理について詳しくは、[この節](../../delivery/using/understanding-quarantine-management.md)を参照してください。

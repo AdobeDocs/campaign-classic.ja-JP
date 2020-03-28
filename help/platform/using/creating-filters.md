@@ -14,7 +14,7 @@ discoiquuid: 066e730b-2527-4257-b11f-2e73f746a8a5
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -24,11 +24,11 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## はじめに {#introduction}
 
-When you navigate in the Adobe Campaign tree (from the **[!UICONTROL Explorer]** menu in the home page), the data contained in the database is displayed in lists. これらのリストは、オペレーターが必要とするデータのみが表示されるように設定できます。これにより、フィルターされたデータに対してアクションを起動できます。Filter configuration lets you select data from a list **[!UICONTROL dynamically]**. データが変更されると、フィルターされたデータは更新されます。
+ホームページの&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;メニューから Adobe Campaign ツリー内を移動すると、データベースに含まれているデータがリストに表示されます。これらのリストは、オペレーターが必要とするデータのみが表示されるように設定できます。これにより、フィルターされたデータに対してアクションを起動できます。フィルター設定を使用すると、リストから&#x200B;**[!UICONTROL 動的に]**&#x200B;データを選択できます。データが変更されると、フィルターされたデータは更新されます。
 
 >[!NOTE]
 >
->表示設定は、ワークステーションレベルでローカルに定義されます。これは非表示のファイルに保存されていますが、このデータのクリーンアップが必要になることがあります（特に、データの更新時に問題が発生した場合）。これを行うには、メニューを使用 **[!UICONTROL File > Clear the local cache]** します。
+>表示設定は、ワークステーションレベルでローカルに定義されます。これは非表示のファイルに保存されていますが、このデータのクリーンアップが必要になることがあります（特に、データの更新時に問題が発生した場合）。そのためには、**[!UICONTROL ファイル／ローカルキャッシュをクリア]**&#x200B;メニューを使用します。
 
 ## 使用可能なフィルターのタイポロジ {#typology-of-available-filters}
 
@@ -48,7 +48,7 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
   >
   >The **%** character replaces any character string. For example, the string `%@yahoo.com` lets you display all the profiles with an e-mail address in the domain "yahoo.com".
 -->
-リストのデフォルトのフィルターを変更できます。詳しくは、デフォルトフィルターの変 [更を参照してください](#altering-the-default-filter)。
+リストのデフォルトのフィルターを変更できます。詳しくは、[デフォルトのフィルターの変更](#altering-the-default-filter)を参照してください。
 
 * 標準フィルター
 
@@ -58,15 +58,15 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
 
    ![](assets/filters_recipient_simple_filter.png)
 
-   シンプルフィルターについて詳しくは、シン [プルフィルターの作成を参照してくださ](#creating-a-simple-filter)い。
+   標準フィルターについて詳しくは、[標準フィルターの作成](#creating-a-simple-filter)で説明しています。
 
 * 詳細フィルター
 
    **詳細フィルター**&#x200B;は、データに対する単一のクエリや連結したクエリを使用して作成されます。
 
-   アドバンスフィルターの作成について詳しくは、「アドバンスフィ [ルターの作成」を参照してくださ](#creating-an-advanced-filter)い。
+   詳細フィルターの作成について詳しくは、[詳細フィルターの作成](#creating-an-advanced-filter)を参照してください。
 
-   関数を使用してフィルターのコンテンツを定義できます。詳しくは、「関数を使用したアドバンスフ [ィルターの作成」を参照してください](#creating-an-advanced-filter-with-functions)。
+   関数を使用してフィルターのコンテンツを定義できます。詳しくは、[関数を使用した詳細フィルターの作成](#creating-an-advanced-filter-with-functions)を参照してください。
 
    >[!NOTE]
    >
@@ -76,18 +76,18 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
 
    **アプリケーションフィルター**&#x200B;は、その設定を他のオペレーターと使用および共有するために保存された詳細フィルターです。
 
-   The **[!UICONTROL Filters]** button located above the lists offers a set of application filters that can be combined to refine the filtering. The method for creating these filters is presented in [Saving a filter](#saving-a-filter).
+   リストの上にある「**[!UICONTROL フィルター]**」ボタンを使用すると、組み合わせてフィルターを絞り込むことができる一連のアプリケーションフィルターが表示されます。これらのフィルターを作成する方法については、[フィルターの保存](#saving-a-filter)で説明しています。
 
 ## デフォルトのフィルターの変更 {#altering-the-default-filter}
 
-受信者リストの既定のフィルタを変更するには、ツリーのノ **[!UICONTROL Profiles and Targets > Pre-defined filters]** ードをクリックします。
+受信者リストのデフォルトのフィルターを変更するには、ツリーの&#x200B;**[!UICONTROL プロファイルとターゲット／定義済みフィルター]**&#x200B;ノードをクリックします。
 
-For all other types of data, configure the default filter via the **[!UICONTROL Administration > Configuration > Predefined filters]** node.
+その他のすべてのタイプのデータについては、**[!UICONTROL 管理／設定／定義済みフィルター]**&#x200B;ノードを使用してデフォルトのフィルターを設定します。
 
 次の手順に従います。
 
 1. デフォルトで使用するフィルターを選択します。
-1. タブをクリッ **[!UICONTROL Parameters]** クし、を選択しま **[!UICONTROL Default filter for the associated document type]**&#x200B;す。
+1. 「**[!UICONTROL パラメーター]**」タブをクリックし、「**[!UICONTROL 関連付けられたドキュメントタイプのデフォルトのフィルター]**」を選択します。
 
    ![](assets/s_ncs_user_default_filter.png)
 
@@ -95,17 +95,17 @@ For all other types of data, configure the default filter via the **[!UICONTROL 
    >
    >デフォルトのフィルターが既にリストに適用されている場合は、新しいフィルターを適用する前に無効にする必要があります。そのためには、フィルターフィールドの右側にある赤色のバツ印をクリックします。
 
-1. Click **[!UICONTROL Save]** to apply the filter.
+1. 「**[!UICONTROL 保存]**」をクリックしてフィルターを適用します。
 
    >[!NOTE]
    >
-   >フィルター定義ウィンドウの詳細は、アドバ [ンスフィルターの作成](#creating-an-advanced-filter) とフ [ィルターの保存です](#saving-a-filter)。
+   >フィルター定義ウィンドウについて詳しくは、[詳細フィルターの作成](#creating-an-advanced-filter)および[フィルターの保存](#saving-a-filter)で説明しています。
 
 ## 標準フィルターの作成 {#creating-a-simple-filter}
 
 **標準フィルター**&#x200B;を作成するには、次の手順に従います。
 
-1. フィルタリングするフィールドを右クリックし、選択しま **[!UICONTROL Filter on this field]**&#x200B;す。
+1. フィルターするフィールドを右クリックし、「**[!UICONTROL このフィールドでフィルター]**」を選択します。
 
    ![](assets/s_ncs_user_sort_this_field.png)
 
@@ -119,7 +119,7 @@ For all other types of data, configure the default filter via the **[!UICONTROL 
 
 データをフィルターするフィールドがプロファイルのフォームに表示されていない場合、表示される列にそのフィールドを追加すると、その列でフィルターできます。手順は次のとおりです。
 
-1. アイコンをクリッ **[!UICONTROL Configure the list]** クします。
+1. **[!UICONTROL リストを設定]**&#x200B;アイコンをクリックします。
 
    ![](assets/s_ncs_user_configure_list.png)
 
@@ -127,7 +127,7 @@ For all other types of data, configure the default filter via the **[!UICONTROL 
 
    ![](assets/s_ncs_user_select_fields_to_display.png)
 
-1. 受信者リストの **Age** （年齢）列を右クリックし、を選択します **[!UICONTROL Filter on this column]**。
+1. 受信者リストで「**年齢**」列を右クリックし、「**[!UICONTROL この列でフィルター]**」を選択します。
 
    ![](assets/s_ncs_user_sort_this_column.png)
 
@@ -139,22 +139,22 @@ For all other types of data, configure the default filter via the **[!UICONTROL 
 
 **詳細フィルター**&#x200B;を作成するには、次の手順に従います。
 
-1. ボタンをクリ **[!UICONTROL Filters]** ックし、を選択しま **[!UICONTROL Advanced filter...]**&#x200B;す。
+1. 「**[!UICONTROL フィルター]**」ボタンをクリックして、「**[!UICONTROL 詳細フィルター...]**」を選択します。
 
    ![](assets/filters_recipient_create_adv_filter.png)
 
-   You can also right-click the list of data to filter and select **[!UICONTROL Advanced filter...]**.
+   フィルターするデータのリストを右クリックして、「**[!UICONTROL 詳細フィルター...]**」を選択することもできます。
 
    フィルター条件定義ウィンドウが表示されます。
 
-1. Click the **[!UICONTROL Expression]** column to define the input value.
-1. Click **[!UICONTROL Edit expression]** to select the field to which the filter will be applied.
+1. 「**[!UICONTROL 式]**」列をクリックして、入力値を定義します。
+1. **[!UICONTROL 式を編集]**&#x200B;をクリックして、フィルターを適用するフィールドを選択します。
 
    ![](assets/s_user_filter_choose_field.png)
 
-1. リストから、データをフィルターする基準となるフィールドを選択します。Click **[!UICONTROL Finish]** to confirm.
-1. Click the **[!UICONTROL Operator]** column and select the operator to be applied from the drop-down list.
-1. Select an expected value from the **[!UICONTROL Value]** column. 複数のフィルターを組み合わせてクエリを絞り込むことができます。To add a filter condition, click **[!UICONTROL Add]**.
+1. リストから、データをフィルターする基準となるフィールドを選択します。「**[!UICONTROL 完了]**」をクリックして確定します。
+1. 「**[!UICONTROL 演算子]**」列をクリックして、適用する演算子をドロップダウンリストから選択します。
+1. 期待される値を「**[!UICONTROL 値]**」列から選択します。複数のフィルターを組み合わせてクエリを絞り込むことができます。フィルター条件を追加するには、「**[!UICONTROL 追加]**」をクリックします。
 
    ![](assets/s_ncs_user_filter_add_button_alone.png)
 
@@ -171,33 +171,33 @@ For all other types of data, configure the default filter via the **[!UICONTROL 
 
 このフィルターを編集または変更するには、そのラベルをクリックします。
 
-To cancel this filter, click the **[!UICONTROL Remove this filter]** icon to the right of the filter.
+このフィルターをキャンセルするには、フィルターの右側にある&#x200B;**[!UICONTROL このフィルターを削除]**&#x200B;アイコンをクリックします。
 
 ![](assets/s_ncs_user_filter_adv_remove.png)
 
-詳細フィルターを保存して、今後の使用のために保持できます。For further information about this type of filter, see [Saving a filter](#saving-a-filter).
+詳細フィルターを保存して、今後の使用のために保持できます。このタイプのフィルターについて詳しくは、[フィルターの保存](#saving-a-filter)を参照してください。
 
 ### 関数を使用した詳細フィルターの作成 {#creating-an-advanced-filter-with-functions}
 
 詳細フィルターでは関数を使用できます。**関数を使用したフィルター**&#x200B;は式エディターを使用して作成されますが、式エディターでは、データベースデータと高度な関数を使用して数式を作成できます。関数を使用してフィルターを作成するには、詳細フィルターの作成手順の 1、2 および 3 を繰り返してから、次の手順に従います。
 
-1. In the field selection window, click **[!UICONTROL Advanced selection]**.
+1. フィールドの選択ウィンドウで、「**[!UICONTROL 詳細選択]**」をクリックします。
 1. 使用する数式のタイプ（集計、既存のユーザーフィルターまたは式）を選択します。
 
    ![](assets/s_ncs_user_filter_formula_select.png)
 
    次のオプションを使用できます。
 
-   * **[!UICONTROL Field only]** フィールドを選択します。 これはデフォルトのモードです。
-   * **[!UICONTROL Aggregate]** をクリックして、使用する集計式（数、合計、平均、最大、最小）を選択します。
-   * **[!UICONTROL User filter]** をクリックして、既存のユーザーフィルターの1つを選択します。 ユーザーフィルターについて詳しくは、 [フィルターの保存を参照してくださ](#saving-a-filter)い。
-   * **[!UICONTROL Expression]** をクリックして、式エディターにアクセスします。
+   * 「**[!UICONTROL フィールドのみ]**」は、フィールドを選択する場合に使用します。これはデフォルトのモードです。
+   * 「**[!UICONTROL 集計]**」は、使用する集計数式（カウント、合計、平均、最大、最小）を選択する場合に使用します。
+   * 「**[!UICONTROL ユーザーフィルター]**」は、既存のユーザーフィルターのいずれかを選択する場合に使用します。ユーザーフィルターについて詳しくは、[フィルターの保存](#saving-a-filter)で説明しています。
+   * 「**[!UICONTROL 式]**」は、式エディターにアクセスする場合に使用します。
 
       式エディターでは、詳細フィルターを定義できます。次のような画面です。
 
       ![](assets/s_ncs_user_create_exp_exple01.png)
 
-      データベーステーブル内のフィールドを選択し、それらに高度な機能を追加できます。で使用する関数を選択します **[!UICONTROL List of functions]**。 使用できる関数は、関数のリス [トで詳しく説明します](../../platform/using/defining-filter-conditions.md#list-of-functions)。 次に、関数の対象となるフィールド（複数可）を選択し、「**[!UICONTROL OK]**」をクリックして式を承認します。
+      データベーステーブル内のフィールドを選択し、それらに高度な機能を追加できます。**[!UICONTROL 関数のリスト]**&#x200B;で使用する関数を選択します。使用できる関数について詳しくは、[関数のリスト](../../platform/using/defining-filter-conditions.md#list-of-functions)で説明しています。次に、関数の対象となるフィールド（複数可）を選択し、「**[!UICONTROL OK]**」をクリックして式を承認します。
 
       >[!NOTE]
       >
@@ -207,29 +207,29 @@ To cancel this filter, click the **[!UICONTROL Remove this filter]** icon to the
 
 フィルターは各オペレーター専用であり、オペレーターがクライアントコンソールのキャッシュをクリアするたびに再初期化されます。
 
-You can create an **application filter** by saving an advanced filter: it can be re-used by right-clicking in any list or via the **[!UICONTROL Filters]** button located above the lists.
+詳細フィルターを保存することによって、**アプリケーションフィルター**&#x200B;を作成できます。アプリケーションフィルターは、リスト内を右クリックするか、リストの上にある「**[!UICONTROL フィルター]**」ボタンを使用して再利用できます。
 
 これらのフィルターには、配信ウィザードのターゲット選択ステージで直接アクセスすることもできます（配信の作成について詳しくは、[この節](../../delivery/using/creating-an-email-delivery.md)を参照してください）。アプリケーションフィルターを作成するには、次の操作をおこなうことができます。
 
-* 詳細フィルターをアプリケーションフィルターに変換します。To do this, click **[!UICONTROL Save]** before closing the advanced filter editor.
+* 詳細フィルターをアプリケーションフィルターに変換します。そのためには、詳細フィルターエディターを閉じる前に、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/s_ncs_user_filter_save.png)
 
-* ツリーの（または受信者用の）ノ **[!UICONTROL Administration > Configuration > Predefined filters]** ードを使用して、こ **[!UICONTROL Profiles and targets > Predefined filters]** のアプリケーションフィルターを作成します。 To do this, right-click the list of filters, and select **[!UICONTROL New...]**. 手順は、詳細フィルターを作成する場合と同じです。
+* このアプリケーションフィルターを、ツリーの&#x200B;**[!UICONTROL 管理／設定／定義済みフィルター]**（または受信者の&#x200B;**[!UICONTROL プロファイルとターゲット／定義済みフィルター]**）ノードを使用して作成します。そのためには、フィルターのリストを右クリックして、「**[!UICONTROL 新規...]**」を選択します。手順は、詳細フィルターを作成する場合と同じです。
 
-   The **[!UICONTROL Label]** field enables you to name this filter. This name will appear in the combo box of the **[!UICONTROL Filters...]** button.
+   「**[!UICONTROL ラベル]**」フィールドで、このフィルターに名前を付けることができます。この名前は、「**[!UICONTROL フィルター]**」ボタンのコンボボックス内に表示されます。
 
    ![](assets/user_filter_apply.png)
 
-You can delete all filters on the current list by right-clicking and selecting **[!UICONTROL No filter]** or via the **[!UICONTROL Filters]** icon located above the list.
+現在のリストにあるすべてのフィルターを削除できます。右クリックして「**[!UICONTROL フィルターなし]**」を選択するか、リストの上にある「**[!UICONTROL フィルター]**」アイコンを使用します。
 
-You can combine filters by clicking the **[!UICONTROL Filters]** button and using the **[!UICONTROL And...]** menu.
+「**[!UICONTROL フィルター]**」ボタンをクリックして「**[!UICONTROL および]**」メニューを使用することで、フィルターを組み合わせることができます。
 
 ![](assets/s_ncs_user_filter_combination.png)
 
 ## 受信者のフィルター {#filtering-recipients}
 
-Predefined filters (see [Saving a filter](#saving-a-filter)) enable you to filter the profiles of recipients contained in the database. ツリーのノードからフィルタ **[!UICONTROL Profiles and Targets > Predefined filters]** ーを編集できます。 The filters are listed in the upper section of the workspace, via the **[!UICONTROL Filters]** button.
+定義済みフィルター（[フィルターの保存](#saving-a-filter)を参照）を使用すれば、データベースに含まれている受信者のプロファイルをフィルターできます。フィルターは、ツリーの&#x200B;**[!UICONTROL プロファイルとターゲット／定義済みフィルター]**&#x200B;ノードから編集できます。「**[!UICONTROL フィルター]**」ボタンを使用すると、ワークスペースの上部セクションにフィルターが表示されます。
 
 フィルターを選択してその定義を表示し、フィルターされたデータのプレビューにアクセスします。
 
@@ -237,7 +237,7 @@ Predefined filters (see [Saving a filter](#saving-a-filter)) enable you to filte
 
 >[!NOTE]
 >
->For a detailed example of predefined filter creation, refer to [Use case](../../platform/using/use-case.md).
+>定義済みフィルターの作成の詳細な例については、[使用例](../../platform/using/use-case.md)を参照してください。
 
 定義済みフィルターは、次のとおりです。
 
@@ -366,20 +366,20 @@ Predefined filters (see [Saving a filter](#saving-a-filter)) enable you to filte
 
 ## データフィルターの詳細設定 {#advanced-settings-for-data-filters}
 
-Click the **[!UICONTROL Settings]** tab to access the following options:
+「**[!UICONTROL パラメーター]**」タブをクリックして、次のオプションにアクセスします。
 
-* **[!UICONTROL Default filter for the associated document type]**:このオプションを使用すると、デフォルトでこのフィルターをソートに関連するリストのエディターで提案できます。
+* **[!UICONTROL 関連付けられたドキュメントタイプのデフォルトのフィルター]**：このオプションにより、並べ替えの対象となるリストのエディターで、デフォルトでこのフィルターを利用できます。
 
-   例えば、フィルターは **[!UICONTROL By name or login]** 演算子に適用されます。 このオプションを選択すると、このフィルターがすべてのオペレーターリストで常に利用できます。
+   例えば、**[!UICONTROL 名前またはログイン別]**&#x200B;フィルターがオペレーターに適用されている場合、このオプションを選択すると、このフィルターがすべてのオペレーターリストで常に利用できます。
 
-* **[!UICONTROL Filter shared with other operators]**:このオプションを使用すると、現在のデータベースの他のすべての演算子でフィルターを使用できます。
-* **[!UICONTROL Use parameter entry form]**:このオプションを使用すると、このフィルターが選択されている場合にリストの上に表示されるフィルターフィールドを定義できます。 これらのフィールドでフィルター設定を定義できます。This form must be entered in XML format via the **[!UICONTROL Form]** button. For example, the preconfigured filter **[!UICONTROL Recipients who have opened]**, available from the recipients list, displays a filter field that lets you select the delivery at which the filter is aimed.
+* **[!UICONTROL 他のオペレーターと共有するフィルター]**：このオプションにより、他のすべてのオペレーターが現在のデータベースに対してこのフィルターを使用できます。
+* **[!UICONTROL パラメーター入力フォームを使用する]**：このオプションにより、このフィルターが選択されている場合にリストの上に表示されるフィルターフィールドを定義できます。これらのフィールドでフィルター設定を定義できます。このフォームは、「**[!UICONTROL フォーム]**」ボタンを使用して XML フォーマットで入力する必要があります。例えば、受信者リストから使用可能な定義済みフィルター「**[!UICONTROL 開封済み]**」では、フィルターの対象の配信を選択できるフィルターフィールドが表示されます。
 
-   The **[!UICONTROL Preview]** button displays the result of the selected filter.
+   「**[!UICONTROL プレビュー]**」ボタンを使用すると、選択したフィルターの結果が表示されます。
 
-* The **[!UICONTROL Advanced parameters]** link lets you define additional settings. 特に、SQL テーブルをフィルターに関連付けて、そのテーブルを共有するすべてのエディターでそのフィルターを共通にすることができます。
+* 「**[!UICONTROL 詳細設定パラメーター]**」リンクを使用すると、追加設定を定義できます。特に、SQL テーブルをフィルターに関連付けて、そのテーブルを共有するすべてのエディターでそのフィルターを共通にすることができます。
 
-   このフィルタ **[!UICONTROL Do not restrict the filter]** ーの上書きをユーザーが停止する場合は、このオプションを選択します。
+   このフィルターがユーザーにより上書きされないようにする場合は、「**[!UICONTROL フィルターを制限しない]**」オプションを選択します。
 
    このオプションは、配信ウィザードで提供される多重定義できない「配信の受信者」および「フォルダーに属する配信の受信者」フィルターに対して有効です。
 

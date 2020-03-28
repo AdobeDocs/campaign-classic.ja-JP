@@ -14,7 +14,7 @@ discoiquuid: a5fc6c78-b4fb-41fd-a072-7be4ece3c554
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -26,10 +26,10 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 キューブを作成するには、次の手順に従います。
 
-1. 作業用テーブルを選択します。詳しくは、作 [業テーブルの選択を参照してください](#selecting-the-work-table)。
-1. ディメンションを定義します。詳しくは、ディメンシ [ョンの定義を参照](#defining-dimensions)。
-1. 測定を定義します。詳しくは、「インジケータ [の作成」を参照してくださ](#building-indicators)い。
-1. 集計を作成します（オプション）。集計の計算 [と使用を参照してください](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates)。
+1. 作業用テーブルを選択します。[作業用テーブルの選択](#selecting-the-work-table)を参照してください。
+1. ディメンションを定義します。[ディメンションの定義](#defining-dimensions)を参照してください。
+1. 測定を定義します。[指標の構築](#building-indicators)を参照してください。
+1. 集計を作成します（オプション）。[集計の計算と使用](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates)を参照してください。
 
 この例では、レポートにシンプルなキューブをすばやく作成して、そのキューブの測定をエクスポートする方法を示します。
 
@@ -37,7 +37,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ## 作業用テーブルの選択 {#selecting-the-work-table}
 
-To create a cube, click the **[!UICONTROL New]** button above the list of cubes.
+キューブを作成するには、キューブのリストの上にある「**[!UICONTROL 新規]**」ボタンをクリックします。
 
 ![](assets/s_advuser_cube_create.png)
 
@@ -45,9 +45,9 @@ To create a cube, click the **[!UICONTROL New]** button above the list of cubes.
 
 ![](assets/s_advuser_cube_wz_02.png)
 
-Click **[!UICONTROL Save]** to create the Cube: it will appear on the list of Cubes and may then be configured using the appropriate tabs.
+「**[!UICONTROL 保存]**」をクリックして、キューブを作成します。そのキューブはキューブのリストに表示され、その後、適切なタブを使用して設定できます。
 
-Click the **[!UICONTROL Filter the source data...]** link to apply the calculations of this Cube to a select of data in the database.
+「**[!UICONTROL ソースデータをフィルター]**」リンクをクリックして、データベースから選択した一部のデータに、このキューブの計算を適用します。
 
 ![](assets/s_advuser_cube_wz_03.png)
 
@@ -55,21 +55,21 @@ Click the **[!UICONTROL Filter the source data...]** link to apply the calculati
 
 ディメンションは、関連するファクトスキーマに基づいたキューブごとに定義された分析軸と一致します。これらが、分析で調査されるディメンションです。例えば、時間（年、月、日など）、製品や契約の分類（ファミリー、参照など）、母集団のセグメント（市区町村別、年齢別、グループ別、ステータス別など）といったものです。
 
-These analysis axes are defined in the **[!UICONTROL Dimension]** tab of the Cube.
+これらの分析軸は、キューブの「**[!UICONTROL ディメンション]**」タブで定義します。
 
-Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[!UICONTROL Expression field]**, click the **[!UICONTROL Edit expression]** icon to select the field that contains the concerned data.
+「**[!UICONTROL 追加]**」ボタンをクリックして新しいディメンションを作成した後、「**[!UICONTROL 式]**」フィールドで「**[!UICONTROL 式を編集]**」アイコンをクリックして、該当するデータを格納したフィールドを選択します。
 
 ![](assets/s_advuser_cube_wz_04.png)
 
 * まず最初に、受信者の&#x200B;**年齢**&#x200B;を選択します。このフィールドに対して、ビニングを定義して年齢をグループ化し、情報を読み取りやすくすることができます。いくつかの独立した値を扱う可能性がある場合は、ビニングを使用することをお勧めします。
 
-   これを行うには、オプションをオンに **[!UICONTROL Enable binning]** します。 ビニングモードは、データビニングで [詳しく説明しま](../../reporting/using/concepts-and-methodology.md#data-binning)す。
+   それには、「**[!UICONTROL ビニングを有効にする]**」オプションにチェックを入れます。ビニングモードについて詳しくは、[データビニング](../../reporting/using/concepts-and-methodology.md#data-binning)を参照してください。
 
    ![](assets/s_advuser_cube_wz_05.png)
 
 * **日付**&#x200B;タイプのディメンションを追加します。ここでは、受信者プロファイルの作成日を表示します。
 
-   To do this, click **[!UICONTROL Add]** and select the **[!UICONTROL Creation date]** field in the recipient table.
+   それには、「**[!UICONTROL 追加]**」をクリックし、受信者テーブルの&#x200B;**[!UICONTROL 作成日]**&#x200B;フィールドを選択します。
 
    ![](assets/s_advuser_cube_wz_06.png)
 
@@ -81,7 +81,7 @@ Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[
 
 * 別のディメンションを作成して、受信者の市区町村に関連するデータを分析します。
 
-   To do this, add a new dimension and select the city in the **[!UICONTROL Location]** node of the recipient schema.
+   それには、新しいディメンションを追加し、受信者スキーマの&#x200B;**[!UICONTROL 場所]**&#x200B;ノードに属している「市区町村」を選択します。
 
    ![](assets/s_advuser_cube_wz_08.png)
 
@@ -93,24 +93,24 @@ Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[
 
    ![](assets/s_advuser_cube_wz_10.png)
 
-   その列挙の値のみ表示されます。その他のものは、フィールドに定義されたラベルの下にグループ化さ **[!UICONTROL Label of the other values]** れます。
+   その列挙の値のみ表示されます。それ以外は、「**[!UICONTROL 他の値のラベル]**」フィールドで定義したラベルの下にグループ化されます。
 
-   詳しくは、ビンの動的な管理を参 [照してください](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins)。
+   詳しくは、[bin の動的管理](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins)を参照してください。
 
 ## 指標の構築 {#building-indicators}
 
-ディメンションを定義したら、セルに表示する値の計算モードを指定する必要があります。To do this, create the matching indicators in the **[!UICONTROL Measures]** tab: create as many measures as there are columns to display in the report which will use the cube.
+ディメンションを定義したら、セルに表示する値の計算モードを指定する必要があります。それには、対応する指標を「**[!UICONTROL 測定]**」タブで作成します。キューブを使用するレポートに表示する列と同じ数の測定を作成します。
 
 それには、次の手順に従います。
 
-1. ボタンをクリッ **[!UICONTROL Add]** クします。
+1. 「**[!UICONTROL 追加]**」ボタンをクリックします。
 1. 測定のタイプと適用する式を選択します。ここでは、女性の受信者の数をカウントします。
 
-   Our measure is based on the fact schema and uses the **[!UICONTROL Count]** operator.
+   この場合の測定はファクトスキーマに基づいたもので、使用する演算子は&#x200B;**[!UICONTROL カウント]**&#x200B;です。
 
    ![](assets/s_advuser_cube_wz_11.png)
 
-   このリン **[!UICONTROL Filter the measure data...]** クでは、女性のみを選択できます。 For more on defining measures and the available options, refer to [Defining measures](../../reporting/using/concepts-and-methodology.md#defining-measures).
+   「**[!UICONTROL 測定データをフィルター]**」リンクをたどって、女性だけを選択できます。測定と使用可能なオプションの定義について詳しくは、[測定の定義](../../reporting/using/concepts-and-methodology.md#defining-measures)を参照してください。
 
    ![](assets/s_advuser_cube_wz_12.png)
 
@@ -126,17 +126,17 @@ Click the **[!UICONTROL Add]** button to create a new dimension, then in the **[
 
 手順は次のとおりです。
 
-1. Click the **[!UICONTROL Create]** button of the **[!UICONTROL Reports]** universe and select the cube you have just created.
+1. **[!UICONTROL レポート]**&#x200B;ウィンドウの「**[!UICONTROL 作成]**」ボタンをクリックし、先ほど作成したキューブを選択します。
 
    ![](assets/s_advuser_cube_wz_14.png)
 
-1. Click the **[!UICONTROL Create]** button to confirm: this will take you to the report configuration and viewing page.
+1. 「**[!UICONTROL 作成]**」ボタンをクリックして確定します。これにより、レポート設定および表示ページが開きます。
 
    デフォルトでは、使用可能な最初の 2 つのディメンションは行と列で提供されますが、値はテーブルには表示されません。テーブルを生成するには、メインアイコンをクリックします。
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. ディメンションの軸を切り替えたり、軸を削除したり、新しい測定を追加したりできます。可能な操作の詳細は次のとおりです。キュー [ブを使用したデータの調査](../../reporting/using/using-cubes-to-explore-data.md)。
+1. ディメンションの軸を切り替えたり、軸を削除したり、新しい測定を追加したりできます。可能な操作について詳しくは、[キューブを使用したデータ調査](../../reporting/using/using-cubes-to-explore-data.md)を参照してください。
 
    それには、該当するアイコンを使用します。
 

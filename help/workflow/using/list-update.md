@@ -14,7 +14,7 @@ discoiquuid: ca2cd5bf-78a2-4e43-955d-206f4474d1e0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -28,34 +28,34 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 リストは、既存のグループのリストから選択することもできます。
 
-また、とのオプションを使用して作成する **[!UICONTROL Create the list if necessary (Computed name)]** こともで **[!UICONTROL Create the list if necessary (Computed Folder and Name)]** きます。 これらのオプションにより、任意のラベルを選択してリストを作成し、リストを保存するフォルダーを後で選択できます。ラベルは、スクリプトに動的フィールドを挿入することで自動生成できます。異なる動的フィールドは、ラベルの右側のポップアップメニューで使用できます。
+また、「**[!UICONTROL 必要に応じてリストを作成（名前を自動生成）]**」および「**[!UICONTROL 必要に応じてリストを作成（フォルダーおよび名前を自動生成）]**」を使用して作成することもできます。これらのオプションにより、任意のラベルを選択してリストを作成し、リストを保存するフォルダーを後で選択できます。ラベルは、スクリプトに動的フィールドを挿入することで自動生成できます。異なる動的フィールドは、ラベルの右側のポップアップメニューで使用できます。
 
 ![](assets/s_user_segmentation_update_list_calc.png)
 
-リストが既に存在する場合は、このオプションを選択しない限り、受信者が既存のコンテンツに追加さ **[!UICONTROL Purge the list if it exists (otherwise add to the list)]** れます。 この場合、リストのコンテンツは更新前に削除されます。
+リストが既に存在する場合、「**[!UICONTROL 存在する場合、リストをパージして再利用（存在しない場合、リストに追加）]**」オプションを選択していなければ、受信者は既存のコンテンツに追加されます。この場合、リストのコンテンツは更新前に削除されます。
 
-作成または更新されたリストで受信者テーブル以外のテーブルを使用する場合は、このオプションをオンにし **[!UICONTROL Create or use a list with its own table]** ます。
+作成または更新したリストで、受信者テーブル以外のテーブルを使用する場合、「**[!UICONTROL 独自のテーブルを持つリストを作成または使用]**」オプションをチェックします。
 
 このオプションを使用するには、Adobe Campaign インスタンス内でその特定のテーブルが設定されている必要があります。
 
-一般に、ターゲットをリストに保存することは、ワークフローの終わりを示すことになります。By default, the **[!UICONTROL List update]** activity therefore does not have an outbound transition. 追加するオプシ **[!UICONTROL Generate an outbound transition]** ョンを選択します。
+一般に、ターゲットをリストに保存することは、ワークフローの終わりを示すことになります。このため、デフォルトでは、「**[!UICONTROL リスト更新]**」アクティビティに、アウトバウンドトランジションはありません。アウトバウンドトランジションを追加するには、「**[!UICONTROL アウトバウンドトランジションを生成]**」オプションをチェックします。
 
 ## 例：リストの更新 {#example--list-update}
 
 次の例では、リスト更新アクティビティは、フランスに住む 30 歳以上の男性をターゲットにするクエリに従っています。最初のリストは、クエリの結果から作成されます。その後、リストがワークフローから起動されるたびに更新されます。このリストは、例えば、ターゲティングしたキャンペーンの特典のオファーに定期的に使用できます。
 
-1. Add a **[!UICONTROL list update activity]** directly after a query then open it up to edit it.
+1. クエリの後に「**[!UICONTROL リスト更新]**」アクティビティを直接追加し、開いて編集することができます。
 
-   For more on creating a query in a workflow, refer to [Query](../../workflow/using/query.md).
+   ワークフローでのクエリの作成について詳しくは、[クエリ](../../workflow/using/query.md)を参照してください。
 
 1. アクティビティのラベルを選択する必要があります。
-1. Select the **[!UICONTROL Create the list if necessary (Calculated name)]** option to show that the list will be created once the first workflow has been executed, then updated with the following executions.
+1. 「**[!UICONTROL 必要に応じてリストを作成（名前を自動生成）]**」オプションを選択します。このオプションでは、最初のワークフローが実行されるとリストが作成され、それ以降ワークフローが実行されるたびに更新されます。
 1. リストを保存するフォルダーを選択します。
 1. リストのラベルを入力します。動的フィールドを挿入して、リストから名前を自動的に生成することもできます。この例では、コンテンツを見つけやすくするために、リストの名前をクエリと同じにしてあります。
-1. ターゲット **[!UICONTROL Purge the list if it exists (otherwise add to the list)]** 条件に一致しない受信者を削除し、新しい受信者をリストに挿入する場合は、このオプションを選択したままにします。
-1. また、このオプションはチェ **[!UICONTROL Create or use a list with its own table]** ックしたままにします。
-1. このオプションはオフ **[!UICONTROL Generate an outbound transition]** のままにします。
-1. 「**[!UICONTROL Ok]**」をクリックして、ワークフローを開始します。
+1. 「**[!UICONTROL 存在する場合、リストをパージして再利用（存在しない場合、リストに追加）]**」オプションを選択しておくと、ターゲット条件に一致しない受信者は削除され、新しい受信者がリストに追加されます。
+1. また、「**[!UICONTROL 独自のテーブルを持つリストを作成または使用]**」オプションも選択した状態にしておきます。
+1. 「**[!UICONTROL アウトバウンドトランジションを生成]**」オプションは選択を解除します。
+1. 「**[!UICONTROL OK]**」をクリックして、ワークフローを開始します。
 
    ![](assets/s_user_segmentation_update_list_calc_example.png)
 

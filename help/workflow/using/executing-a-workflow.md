@@ -14,7 +14,7 @@ discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4b4ec97e52a494dd88b2516650ae514294f00934
 
 ---
@@ -22,71 +22,71 @@ source-git-commit: 4b4ec97e52a494dd88b2516650ae514294f00934
 
 # ワークフローの実行{#executing-a-workflow}
 
-ワークフローの実行に関するトラブルシューティングガイドラインにつ [いては、この節](../../production/using/workflow-execution.md)。
+ワークフローの実行に関するトラブルシューティングのガイドラインについては、[この節](../../production/using/workflow-execution.md)を参照してください。
 
 ## ワークフローの開始 {#starting-a-workflow}
 
-ワークフローは、必ず手動で開始します。When started, it can however remain inactive depending on the information specified via a scheduler (see [Scheduler](../../workflow/using/scheduler.md)) or activity scheduling.
+ワークフローは、必ず手動で開始します。開始しても、スケジューラー（[スケジューラー](../../workflow/using/scheduler.md)を参照）経由で指定された情報またはアクティビティのスケジュール設定に基づいて、ワークフローが非アクティブのままになることもあります。
 
 ターゲティングワークフローの実行に関連するアクション（開始、停止、一時停止など）は、**非同期**&#x200B;プロセスです。プロセスの実行順序は記録され、サーバーが順序を適用できるようになるとすぐに実行されます。
 
 ツールバーを使用して、ワークフローの実行を開始およびトラッキングできます。
 
-The list of options available in the **[!UICONTROL Actions]** menu and the right-click menu are detailed below.
+**[!UICONTROL アクション]**&#x200B;メニューおよび右クリックメニューから選択できる各オプションについては、次項で詳しく説明します。
 
 ### アクションツールバー {#actions-toolbar}
 
-ツールバーのボタンについて詳しくは、この[節](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)を参照してください。The **[!UICONTROL Actions]** button gives you access to additional execution options for acting on selected workflows. You can also use the **[!UICONTROL File > Actions]** menu, or right-click a workflow and select **[!UICONTROL Actions]**.
+ツールバーのボタンについて詳しくは、この[節](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)を参照してください。「**[!UICONTROL アクション]**」ボタンを使用して、選択したワークフローに対して実行する追加の実行オプションにアクセスできます。または、**[!UICONTROL ファイル／アクション]**&#x200B;メニューを選択するか、ワークフローを右クリックして「**[!UICONTROL アクション]**」を選択することもできます。
 
 ![](assets/purge_historique.png)
 
-* **[!UICONTROL Start]**
+* **[!UICONTROL 開始]**
 
    このアクションは、ワークフローの実行を開始します。「**終了**」、「**編集中**」、「**一時停止**」のワークフローのステータスが、「**開始済み**」に変わります。続いて、ワークフローエンジンが、ワークフローの実行を処理します。ワークフローが一時停止していた場合は再開します。それ以外の場合は、ワークフローが最初から開始し、初期のアクティビティが有効化されます。
 
-   開始は非同期プロセスです。リクエストが保存され、ワークフローサーバーによって可能な限り早く処理されます。
+   開始は非同期プロセスです。リクエストは保存され、ワークフローサーバーでただちに処理されます。
 
-* **[!UICONTROL Pause]**
+* **[!UICONTROL 一時停止]**
 
    このアクションは、ワークフローのステータスを「**一時停止**」に設定します。ワークフローが再開するまでは、一切のアクティビティは有効化されません。ただし、進行中の操作は一時停止されません。
 
-* **[!UICONTROL Stop]**
+* **[!UICONTROL 停止]**
 
    このアクションは、現在実行中のワークフローを停止します。インスタンスのステータスは「**終了**」に設定されます。可能な場合、進行中の操作を中止します。インポートおよび SQL クエリはただちにキャンセルされます。
 
    停止は非同期プロセスです。停止リクエストが登録されると、ワークフローサーバーは進行中の操作をキャンセルします。このため、ワークフローインスタンスの停止には時間がかかります。特に、ワークフローが複数のサーバーで実行されている場合は、各サーバーがそれぞれ進行中のタスクのキャンセルを処理する必要があるので、時間がかかります。
 
-* **[!UICONTROL Restart]**
+* **[!UICONTROL 再起動]**
 
    ワークフローを停止したあとに、再起動します。多くの場合、この操作をおこなうことでワークフローの再起動が高速化されます。また、停止にある程度の時間がかかるときに、再起動を自動化するのに便利です。再起動を自動化する理由は、ワークフローの停止中は「停止」コマンドを利用できないからです。
 
-   アクション **[!UICONTROL Start / Pause / Stop / Restart]** は、ツールバーの実行アイコンからも使用できます。 詳しくは、[この節](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow)を参照してください。
+   **[!UICONTROL 開始 / 一時停止 / 停止 / 再起動]**&#x200B;の各アクションは、ツールバーの実行アイコンから実行できます。詳しくは、[この節](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow)を参照してください。
 
-* **[!UICONTROL Purge history]**
+* **[!UICONTROL 履歴をパージ]**
 
-   このアクションでは、ワークフローの履歴をパージできます。For more on this, refer to [Purging the logs](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
+   このアクションでは、ワークフローの履歴をパージできます。詳しくは、[ログのパージ](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs)を参照してください。
 
-* **[!UICONTROL Start in simulation mode]**
+* **[!UICONTROL シミュレーションモードで開始]**
 
-   ワークフローを、リアルモードとは対照的なシミュレーションモードで開始できます。This means that when you enable this mode, only activities that do not impact the database or the file system are executed (e.g. **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). 影響を与えるアクティビティ(例： **[!UICONTROL Export]**、 **[!UICONTROL Import]**&#x200B;など)（同じブランチ内の）後のものは実行されない。
+   ワークフローを、リアルモードとは対照的なシミュレーションモードで開始できます。つまり、このモードを有効にした場合、データベースおよびファイルシステムに影響のないアクティビティ（**[!UICONTROL クエリ]**、**[!UICONTROL 和集合]**、**[!UICONTROL インタラクション]**&#x200B;など）だけが実行されます。影響のあるアクティビティ（「**[!UICONTROL エクスポート]**」、「**[!UICONTROL インポート]**」など）とそれらのアクティビティと同じ分岐にある後続のアクティビティは、実行されません。
 
-* **[!UICONTROL Execute pending tasks now]**
+* **[!UICONTROL 保留中のタスクを今すぐ実行]**
 
-   このアクションでは、保留中のタスクをただちに開始できます。特定のタスクを開始するには、そのタスクのアクティビティを右クリックし、を選択しま **[!UICONTROL Execute pending task(s) now]**&#x200B;す。
+   このアクションでは、保留中のタスクをただちに開始できます。特定のタスクを開始するには、そのタスクのアクティビティを右クリックして、「**[!UICONTROL 保留中のタスクを今すぐ実行]**」を選択します。
 
-* **[!UICONTROL Unconditional stop]**
+* **[!UICONTROL 条件なしの停止]**
 
-   This option changes the workflow status to **[!UICONTROL Finished]**. 通常の停止プロセスが実施数分後に失敗する場合にのみ、最終手段として使用します。条件なしの停止を使用できるのは、進行中の実際のワークフロージョブが何もないことを確認できている場合だけです。
+   このオプションは、ワークフローのステータスを「**[!UICONTROL 終了]**」に変更します。通常の停止プロセスが実施数分後に失敗する場合にのみ、最終手段として使用します。条件なしの停止を使用できるのは、進行中の実際のワークフロージョブが何もないことを確認できている場合だけです。
 
    >[!CAUTION]
    >
    >このオプションはエキスパートユーザー向け機能として予約されています。
 
-* **[!UICONTROL Save as template]**
+* **[!UICONTROL テンプレートとして保存]**
 
-   このアクションは、選択したワークフローに基づいて、新しいワークフローテンプレートを作成します。You need to specify the folder where it will be saved (in the **[!UICONTROL Folder]** field).
+   このアクションは、選択したワークフローに基づいて、新しいワークフローテンプレートを作成します。作成したテンプレートを保存するフォルダーを、指定する必要があります（「**[!UICONTROL フォルダー]**」フィールドで指定）。
 
-   とのオプシ **[!UICONTROL Mass update of selected lines]** ョンは、す **[!UICONTROL Merge selected lines]** べてのメニューで使用できる汎用プラットフォームオプシ **[!UICONTROL Actions]** ョンです。 詳しくは、[この節](../../platform/using/updating-data.md)を参照してください。
+   「**[!UICONTROL 選択したラインを一括更新]**」と「**[!UICONTROL 選択した行を結合]**」の各オプションは、すべての&#x200B;**[!UICONTROL アクション]**&#x200B;メニューから選択できる一般的なプラットフォームオプションです。詳しくは、[この節](../../platform/using/updating-data.md)を参照してください。
 
 ### 右クリックメニュー {#right-click-menu}
 
@@ -96,21 +96,21 @@ The list of options available in the **[!UICONTROL Actions]** menu and the right
 
 右クリックメニューでは、次のオプションを使用できます。
 
-**[!UICONTROL Open]**:このオプションを使用すると、アクティビティのプロパティにアクセスできます。
+**[!UICONTROL 開く]**：アクティビティのプロパティを開きます。
 
-**[!UICONTROL Display logs:]** このオプションを使用すると、選択したアクティビティのタスク実行ログを表示できます。 ログの表示を参 [照してください](../../workflow/using/monitoring-workflow-execution.md#displaying-logs)。
+**[!UICONTROL ログを表示]**：選択したアクティビティのタスク実行ログを表示します。[ログの表示](../../workflow/using/monitoring-workflow-execution.md#displaying-logs)を参照してください。
 
-**[!UICONTROL Execute pending task(s) now:]** この操作により、可能な限り早く保留中のタスクを開始できます。
+**[!UICONTROL 保留中のタスクを今すぐ実行]**：保留中のタスクをただちに開始します。
 
-**[!UICONTROL Workflow restart from a task:]** このオプションを使用すると、このアクティビティに対して以前に保存された結果を使用してワークフローを再開できます。
+**[!UICONTROL タスクからワークフローを再起動]**：このアクティビティ用に以前に保存しておいた結果を使用して、ワークフローを再起動します。
 
-**[!UICONTROL Cut/Copy/Paste/Delete:]** これらのオプションを使用すると、アクティビティの切り取り、コピー、貼り付けおよび削除を行うことができます。
+**[!UICONTROL 切り取り / コピー / 貼り付け / 削除]**：アクティビティを切り取り、コピー、貼り付け、削除します。
 
-**[!UICONTROL Copy as bitmap:]** このオプションを使用すると、すべてのアクティビティのスクリーンショットを取得できます。
+**[!UICONTROL ビットマップとしてコピー]**：すべてのアクティビティのスクリーンショットを撮ることができます。
 
-**[!UICONTROL Normal execution / Enable but do not execute / Do not enable:]** これらのオプションは、アクティビティのプ **[!UICONTROL Advanced]** ロパティのタブでも使用できます。 They are detailed in [Execution](../../workflow/using/advanced-parameters.md#execution).
+**[!UICONTROL 通常の実行 / 有効にするが実行しない / 有効にしない]**：これらのオプションは、「**[!UICONTROL 詳細設定]**」タブからも選択できます。詳しくは、[実行](../../workflow/using/advanced-parameters.md#execution)を参照してください。
 
-**[!UICONTROL Save / Cancel:]** ワークフローに対する変更を保存またはキャンセルできます。
+**[!UICONTROL 保存 / キャンセル]**：ワークフローに加えた変更を保存またはキャンセルします。
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ The list of options available in the **[!UICONTROL Actions]** menu and the right
 
 * **編集中**
 
-   初期設計段階は次のとおりです。が新しいワークフローを作成すると、そのステータスは「編集中」になります。 ワークフローのサーバーによる処理はまだ開始されず、編集しても問題は発生しません。
+   これは、最初のデザインフェーズです。新規ワークフローが作成されると、ステータスは「編集中」となります。ワークフローのサーバーによる処理はまだ開始されず、編集しても問題は発生しません。
 
 * **開始済み**
 
@@ -146,7 +146,7 @@ The list of options available in the **[!UICONTROL Actions]** menu and the right
 
 オペレーターの管理について詳しくは、この[節](../../platform/using/access-management.md)を参照してください。
 
-ワークフローの監視方法について詳しくは、この節を参照 [してください](../../workflow/using/monitoring-workflow-execution.md)。
+ワークフローの監視方法について詳しくは、[この節](../../workflow/using/monitoring-workflow-execution.md)を参照してください。
 
 ## データのライフサイクル {#data-life-cycle}
 
@@ -162,11 +162,11 @@ The list of options available in the **[!UICONTROL Actions]** menu and the right
 
 * ターゲットを表示
 
-   This menu displays the available data on the target population as well as the structure of the work table (**[!UICONTROL Schema]** tab).
+   このメニューは、ターゲット母集団に対して使用可能なデータと、作業用テーブルの構造を表示します（「**[!UICONTROL スキーマ]**」タブ）。
 
    ![](assets/wf-right-click-display.png)
 
-   詳しくは、「ワークテーブルとワークフ [ロースキーマ」を参照してくださ](../../workflow/using/monitoring-workflow-execution.md#worktables-and-workflow-schema)い。
+   詳しくは、[作業用テーブルとワークフローのスキーマ](../../workflow/using/monitoring-workflow-execution.md#worktables-and-workflow-schema)を参照してください。
 
 * ターゲットを分析
 
@@ -174,13 +174,13 @@ The list of options available in the **[!UICONTROL Actions]** menu and the right
 
    詳しくは、[この節](../../reporting/using/using-the-descriptive-analysis-wizard.md)を参照してください。
 
-ワークフローが実行されると、ターゲットデータはパージされます。最後の作業用テーブルだけにアクセスできます。ワークフローを設定して、すべての作業テーブルにアクセスできるようにします。ワークフロープロ **[!UICONTROL Keep the result of interim populations between two executions]** パティのオプションをオンにします。
+ワークフローが実行されると、ターゲットデータはパージされます。最後の作業用テーブルだけにアクセスできます。ワークフローを設定し、すべての作業用テーブルをアクセス可能なまま維持することもできます。それには、「**[!UICONTROL 2 つの実行間の中間母集団の結果を保存]**」オプションを選択します。
 
 ただし、データが大量にある場合、このオプションを有効化しないことをお勧めします。
 
 ![](assets/wf-purge-data-option.png)
 
-### データをターゲット {#target-data}
+### ターゲットデータ {#target-data}
 
 ワークフローの作業用テーブルに保存されたデータは、パーソナライゼーションフィールドからアクセスできます。
 
@@ -190,9 +190,9 @@ The list of options available in the **[!UICONTROL Actions]** menu and the right
 %= targetData.FIELD %
 ```
 
-**[!UICONTROL Target extension]** (targetData)タイプのパーソナライゼーション要素は、ターゲット設定ワークフローでは使用できません。 配信ターゲットは、ワークフロー内に作成され、配信のインバウンドトランジション内に指定される必要があります。
+「**[!UICONTROL ターゲット式]**」（targetData）タイプのパーソナライゼーション要素は、ターゲティングワークフローには使用できません。配信ターゲットは、ワークフロー内に作成され、配信のインバウンドトランジション内に指定される必要があります。
 
-If you want to create delivery proofs, the proof target needs to be built based on the **[!UICONTROL Address substitution]** mode so that the personalization data can be entered. 詳しくは、[この節](../../delivery/using/steps-defining-the-target-population.md#using-address-substitution-in-proof)を参照してください。
+配信の配達確認を作成するには、パーソナライゼーションデータが入力できるように、配達確認のターゲットが&#x200B;**[!UICONTROL アドレス置換]**&#x200B;モードに基づいて作成される必要があります。詳しくは、[この節](../../delivery/using/steps-defining-the-target-population.md#using-address-substitution-in-proof)を参照してください。
 
 次の例では、パーソナライズしたメールで使用するために、顧客に関する情報のリストを収集しようとしています。
 
@@ -218,23 +218,23 @@ If you want to create delivery proofs, the proof target needs to be built based 
 
    ![](assets/wf-targetdata-sample-2.png)
 
-1. Configure the **[!UICONTROL Enrichment]** type activity to reconcile the collected data with that already in the Adobe Campaign database.
+1. 「**[!UICONTROL エンリッチメント]**」タイプアクティビティを設定し、収集したデータを、既に Adobe Campaign データベース内にあるデータと紐付けします。
 
    ここでは、紐付けキーがアカウント番号です。
 
    ![](assets/wf-targetdata-sample-3.png)
 
-1. Then configure the **[!UICONTROL Delivery]**: it is created based on a template, and the recipients are specified by the inbound transition.
+1. 次に、テンプレートに基づいて作成され、インバウンドトランジションによって受信者が指定された「**[!UICONTROL 配信]**」を設定します。
 
    ![](assets/wf-targetdata-sample-4.png)
 
    >[!CAUTION]
    >
-   >トランジションに含まれているデータのみが、配信のパーソナライズに使用されます。**targetData型のパーソナライゼーションフィールドは** 、アクティビティの受信訪問者に対してのみ使用 **[!UICONTROL Delivery]** できます。
+   >トランジションに含まれているデータのみが、配信のパーソナライズに使用されます。「**targetData**」タイプのパーソナライゼーションフィールドは、「**[!UICONTROL 配信]**」アクティビティのインバウンドの母集団用にのみ使用可能です。
 
 1. 配信テンプレートで、ワークフローで収集したフィールドを使用します。
 
-   To do this, insert **[!UICONTROL Target extension]** type personalization fields.
+   それには、「**[!UICONTROL ターゲット式]**」タイプのパーソナライゼーションフィールドを挿入します。
 
    ![](assets/wf-targetdata-sample-5.png)
 
@@ -244,7 +244,7 @@ If you want to create delivery proofs, the proof target needs to be built based 
 
    ![](assets/wf-targetdata-sample-6.png)
 
-   **[!UICONTROL Target extension]** (targetData)タイプのデータは、すべてのパーソナライゼーションフィールドと同じ特性を使用して配信に挿入されます。 これらのデータは、本文、リンクラベル、またはリンク自体に使用されます。
+   「**[!UICONTROL ターゲット式]**」（targetData）タイプのデータが、すべてのパーソナライゼーションフィールドと同じ特性を使用して、配信に挿入されます。これらのデータは、本文、リンクラベル、またはリンク自体に使用されます。
 
    収集された受信者宛てのメッセージには、次のデータが含まれます。
 
@@ -278,15 +278,15 @@ Web ページへのリンクが記載された承認メッセージを受け取�
 
 オペレーターの管理について詳しくは、この[節](../../platform/using/access-management.md)を参照してください。
 
-承認の E メールは、継続的に送信されます。デフォルトの配信テンプレートは次のとおりで **[!UICONTROL notifyAssignee]**&#x200B;す。フォルダーに保存され **[!UICONTROL Administration > Campaign management > Technical delivery templates]** ます。 このシナリオは、カスタマイズ可能です。テンプレートのコピーを作成して、アクティビティごとに編集することをお勧めします。
+承認の E メールは、継続的に送信されます。デフォルトの配信テンプレートは **[!UICONTROL notifyAssignee]** です。**[!UICONTROL 管理／キャンペーン管理／テクニカル配信テンプレート]**&#x200B;フォルダーに保存されています。このシナリオは、カスタマイズ可能です。テンプレートのコピーを作成して、アクティビティごとに編集することをお勧めします。
 
-このテンプレートを使用して作成された配信は、フォルダーに保存 **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]** されます。
+このテンプレートを使用して作成された配信は、**[!UICONTROL 管理／プロダクション／自動作成オブジェクト／テクニカル配信／ワークフロー通知]**&#x200B;フォルダーに保存されます。
 
 ### コンソールからの承認 {#approval-via-the-console}
 
 操作では、承認される要素はキャンペーンダッシュボードに表示されます。
 
-技術的なワークフローでは、ユーザーが承認できるタスクは、フォルダー内のツリー構造からアクセスで **[!UICONTROL Administration > Production > Objects created automatically > Pending approvals]** きます。
+テクニカルワークフローについては、ユーザーが承認できるタスクは、**[!UICONTROL 管理／プロダクション／自動作成オブジェクト／承認待ち]**&#x200B;フォルダーのツリー構造からアクセスできます。
 
 ![](assets/validation-node.png)
 
@@ -295,7 +295,7 @@ Web ページへのリンクが記載された承認メッセージを受け取�
 承認は、フィルター条件を使用して選択されたオペレーターのグループ、1 人のオペレーター、またはオペレーターセットに割り当てられます。
 
 1. 最もシンプルな承認形態は、オペレーターの応答と同時にタスクが完了することです。その他のオペレーターが応答を試みた場合、既に別のオペレータによって応答済みであると通知されます。
-1. 複数の承認については、複数の承認を参 [照してください](#multiple-approval)。
+1. 複数の承認について詳しくは、[複数の承認](#multiple-approval)を参照してください。
 
 承認をおこなうオペレーターグループには、個人ではなく、役割または機能を指名します。例えば、「ハリーのグループ」ではなく、「キャンペーンの予算」グループの方が適切です。グループには、タスクを承認するオペレーターを最低でも 2 人以上含めることをお勧めします。オペレーターが 2 人いれば、1 人が不在の場合にもう 1 人が応答できます。
 
@@ -307,23 +307,23 @@ Web ページへのリンクが記載された承認メッセージを受け取�
 
 ![](assets/expiration.png)
 
-To add a new expiration, click **[!UICONTROL Add]**. 作成される有効期限ごとに、トランジションが追加されます。次の操作をおこなうことができます。
+新しい有効期限を追加するには、「**[!UICONTROL 追加]**」をクリックします。作成される有効期限ごとに、トランジションが追加されます。次の操作をおこなうことができます。
 
 * リスト内でセルをクリックする（または F2 キーを押す）ことで、代表的なパラメーターを変更できます。
-* or edit the expression by clicking the **[!UICONTROL Detail...]** button.
+* または、「**[!UICONTROL 詳細...]**」ボタンをクリックすることで、式を編集できます。
 
 >[!NOTE]
 >
 >有効期限は時系列で処理されるので、順序を指定する必要はありません。
 
-このオプ **[!UICONTROL Do not terminate the task]** ションは、遅延がオーバーランの場合に、承認をアクティブなままにします。 このモードでは、承認をアクティブにしたまま、リマインダーを管理をできます。オペレーターは引き続き応答できます。このオプションはデフォルトでは無効になっています。有効期限に達したタスクは完了したと見なされ、期限後にオペレーターが応答することはありません。
+「**[!UICONTROL タスクを終了しない]**」オプションを選択した場合、遅延の発生時に承認がアクティブのままになります。このモードでは、承認をアクティブにしたまま、リマインダーを管理をできます。オペレーターは引き続き応答できます。このオプションはデフォルトでは無効になっています。有効期限に達したタスクは完了したと見なされ、期限後にオペレーターが応答することはありません。
 
 次の 4 つのタイプの有効期限を作成できます。
 
-* **タスク開始後の遅延**:有効期限は、承認がアクティブ化された日付に指定した時間を追加して計算されます。
-* **指定した日付以降の遅延**:有効期限は、指定した日付に時間を追加して計算されます。
-* **指定日より前の遅延**:有効期限は、指定した日付から時間を引いて計算されます。
-* **有効期限の計算元スクリプト**:有効期限はJavaScriptを使用して計算されます。
+* **タスク開始後の遅延**：指定された長さの時間を、承認が有効化された日付に追加することで、有効期限が計算されます。
+* **指定した日付の後の遅延**：指定された長さの時間を、指定した日付に追加することで、有効期限が計算されます。
+* **指定した日付の前の遅延**：指定された長さの時間を、指定した日付から引くことで、有効期限が計算されます。
+* **スクリプトによって有効期限を計算**：有効期限は、JavaScript を使用して計算されます。
 
    次の例では、（**vars.deliveryId** によって識別される）配信開始日付の 24 時間前に有効期限を計算します。
 
@@ -356,7 +356,7 @@ To add a new expiration, click **[!UICONTROL Add]**. 作成される有効期限
 
 ![](assets/architecture.png)
 
-* ‘Workflow Instance Runner&#39;（runwf）プロセスは、所定のワークフローインスタンスのすべてのタスクを実行します。一定期間、実行されるタスクがない場合、プロセスは「passive」になります。つまり、データベース内でステータスを保存し、停止します。
-* &#39;Workflow Server&#39;（wfserver）モジュールは、現在のワークフローインスタンスを監視します。実行するタスクがある場合、このモジュールは対応するインスタンスを有効化（または再有効化）するプロセスを作成します。
+* 「ワークフローインスタンスランナー」（runwf）プロセスは、所定のワークフローインスタンスのすべてのタスクを実行します。一定期間、実行されるタスクがない場合、プロセスは「passive」になります。つまり、データベース内でステータスを保存し、停止します。
+* 「ワークフローサーバー」（wfserver）モジュールは、現在のワークフローインスタンスを監視します。実行するタスクがある場合、このモジュールは対応するインスタンスを有効化（または再有効化）するプロセスを作成します。
 
 オペレーターがワークフローに対するアクションを実行すると（開始、停止、一時停止など）、アクションは nlserver モジュールによって即座に実行されるのではなく、ワークフローモジュールに処理されるまでキューに入れられます。

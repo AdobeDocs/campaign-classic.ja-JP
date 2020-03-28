@@ -14,7 +14,7 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -24,27 +24,27 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## キャンペーントラッキング {#tracking-a-campaign}
 
-For each campaign, the **[!UICONTROL Tracking]** tab lets you view all jobs and their statuses. このサブタブから次の情報にアクセスできます。
+キャンペーンごとに、「**[!UICONTROL 監査]**」タブを使用して、すべてのジョブとそのステータスを表示できます。このサブタブから次の情報にアクセスできます。
 
 * ワークフローの作成または開始、承認、抽出など、一般的にキャンペーンに関して実行されるジョブがアクティビティログに表示されます。
 
    ![](assets/s_ncs_user_op_edit_exe_tab_a.png)
 
-* The **[!UICONTROL Deliveries]** sub-tab contains all the deliveries of the campaign which can be edited from this view. To do so, select the delivery and click the **[!UICONTROL Detail]** icon.
+* 「**[!UICONTROL 配信]**」サブタブには、このビューから編集できるキャンペーンのすべての配信が表示されます。編集するには、配信を選択し、「**[!UICONTROL 詳細]**」アイコンをクリックします。
 
    ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
-* The **[!UICONTROL Tasks]** sub-tab groups all tasks linked to the campaign. このビューを使用して、タスクを編集または削除できます。タスクは MRM アプリケーションで使用できます。詳しくは、タスクの作 [成と管理を参照してください](../../campaign/using/creating-and-managing-tasks.md)。
+* 「**[!UICONTROL タスク]**」サブタブには、キャンペーンにリンクされているすべてのタスクがまとめられます。このビューを使用して、タスクを編集または削除できます。タスクは MRM アプリケーションで使用できます。詳しくは、[タスクの作成と管理](../../campaign/using/creating-and-managing-tasks.md)を参照してください。
 
    ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
-* The workflows created to generate messages for service providers are displayed in the **[!UICONTROL Jobs on service providers]** sub-tab. Click the **[!UICONTROL Detail]** icon to display the selected workflow.
+* サービスプロバイダー向けのメッセージを生成するために作成されたワークフローは、「**[!UICONTROL サービスプロバイダーのジョブ]**」サブタブに表示されます。選択したワークフローを表示するには、「**[!UICONTROL 詳細]**」アイコンをクリックします。
 
    ![](assets/s_ncs_user_op_edit_exe_tab_d.png)
 
 ## 配信トラッキング {#delivery-tracking}
 
-The list of deliveries is available via the **[!UICONTROL Deliveries]** link of the Campaign node.
+配信のリストは、キャンペーンノードの「**[!UICONTROL 配信]**」リンクから表示できます。
 
 ![](assets/s_ncs_user_op_del_state_from_homepage.png)
 
@@ -58,6 +58,6 @@ The list of deliveries is available via the **[!UICONTROL Deliveries]** link of 
 
 ## 実行のトラッキング {#execution-tracking}
 
-You can look up the status of deliveries by clicking the **[!UICONTROL Deliveries]**, which is accessible via the Adobe Campaign home page. 「配信トラッ [キング」を参照してくださ](#delivery-tracking)い。
+Adobe Campaign のホームページから「**[!UICONTROL 配信]**」をクリックして、配信のステータスを調べることができます。[配信トラッキング](#delivery-tracking)を参照してください。
 
-Information concerning the processes executed in a campaign are collected in the **[!UICONTROL Edit > Audit]** tab of the campaign. このタブにキャンペーンの配信のリストを表示できます。詳しくは、キ [ャンペーンの追跡を参照してください](#tracking-a-campaign)。
+キャンペーンで実行されるプロセスに関連する情報は、キャンペーンの&#x200B;**[!UICONTROL 編集／「監査」]**&#x200B;タブに収集されます。このタブにキャンペーンの配信のリストを表示できます。[キャンペーンのトラッキング](#tracking-a-campaign)を参照してください。

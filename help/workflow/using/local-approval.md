@@ -14,7 +14,7 @@ discoiquuid: a223641e-93e1-42ef-bb6b-8e1a0f8f6a65
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 # ローカルの承認{#local-approval}
 
-When integrated into a targeting workflow, the **[!UICONTROL Local approval]** activity lets you set up a recipient approval process before the delivery is sent.
+ターゲティングワークフローに統合する場合、「**[!UICONTROL ローカルの承認]**」アクティビティでは、配信が送信される前に受信者の承認プロセスを設定できます。
 
 ![](assets/local_validation_0.png)
 
@@ -30,23 +30,23 @@ When integrated into a targeting workflow, the **[!UICONTROL Local approval]** a
 >
 >このアクティビティを使用するには、キャンペーンオプションの 1 つである分散型マーケティングモジュールを購入する必要があります。使用許諾契約書を確認してください。
 
-配布テンプレートを使用したア **[!UICONTROL Local approval]** クティビティの例については、「ローカル承認ア [クティビティの使用」を参照してください](../../workflow/using/using-the-local-approval-activity.md)。
+配分テンプレートを使用した「**[!UICONTROL ローカルの承認]**」アクティビティの例については、[ローカルの承認アクティビティの使用](../../workflow/using/using-the-local-approval-activity.md)を参照してください。
 
-Start by entering a label for the activity and the **[!UICONTROL Action to execute]** field:
+まず、アクティビティのラベルを入力し、「**[!UICONTROL 実行するアクション]**」フィールドを指定します。
 
 ![](assets/local_validation_1.png)
 
-* Select the **[!UICONTROL Target approval notification]** option to send a notification email to local supervisors before the delivery, asking them to approve the recipients assigned to them.
+* 「**[!UICONTROL ターゲットの承認通知]**」オプションを選択し、配信前にローカルのスーパーバイザーに通知メールを送信し、それらのスーパーバイザーに割り当てられている受信者の承認を依頼します。
 
    ![](assets/local_validation_intro_2.png)
 
-* **増分クエリ**：クエリを実行し、実行を計画します。「 [Incremental query](../../workflow/using/incremental-query.md) 」の項を参照。
+* **増分処理クエリ**：クエリを実行し、実行を計画します。[増分処理クエリ](../../workflow/using/incremental-query.md)の節を参照してください。
 
    ![](assets/local_validation_intro_3.png)
 
 ## ターゲットの承認通知 {#target-approval-notification}
 
-In this case, the **[!UICONTROL Local approval]** activity is placed between upstream targeting and the delivery:
+この例では、「**[!UICONTROL ローカルの承認]**」アクティビティは、アップストリームターゲティングと配信の間に配置されています。
 
 ![](assets/local_validation_2.png)
 
@@ -54,22 +54,22 @@ In this case, the **[!UICONTROL Local approval]** activity is placed between ups
 
 ![](assets/local_validation_3.png)
 
-* **[!UICONTROL Distribution context]**:タイプアクテ **[!UICONTROL Specified in the transition]** ィビティを使用してターゲット母集団を **[!UICONTROL Split]** 制限する場合は、このオプションを選択します。 この場合、配分テンプレートは分割アクティビティに入力されます。If you are not limiting the targeted population, select the **[!UICONTROL Explicit]** option here and enter the distribution template in the **[!UICONTROL Data distribution]** field.
+* **[!UICONTROL 配分のコンテキスト]**：「**[!UICONTROL 分割]**」タイプアクティビティを使用してターゲット母集団を限定する場合、「**[!UICONTROL トランジションで指定]**」オプションを選択します。この場合、配分テンプレートは分割アクティビティに入力されます。ターゲット母集団を限定しない場合、ここで「**[!UICONTROL 手動で指定]**」オプションを選択し、「**[!UICONTROL データ配分]**」フィールドに配分テンプレートを入力します。
 
-   データ配信テンプレートの作成について詳しくは、「データ配信ご [とのサブセットレコード数の制限」を参照してください](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution)。
+   データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution)を参照してください。
 
-* **[!UICONTROL Approval management]**
+* **[!UICONTROL 承認管理]**
 
-   * E メール通知に使用する配信テンプレートと件名を選択します。A default template is available: **[!UICONTROL Local approval notification]**. また、承認通知およびフィードバック通知内の受信者リストの上に表示される説明を追加できます。
-   * Specify the **[!UICONTROL Approval type]** that corresponds to the approval deadline (date or deadline from the start of the approval). この日付をもって、ワークフローが再開し、それまでに承認されなかった受信者はターゲティング対象から外れます。通知が送信されると、ローカルのスーパーバイザーが連絡先を承認できるように、アクティビティはキューに入ります。
+   * E メール通知に使用する配信テンプレートと件名を選択します。デフォルトテンプレートの「**[!UICONTROL ローカルの承認通知]**」を使用できます。また、承認通知およびフィードバック通知内の受信者リストの上に表示される説明を追加できます。
+   * 承認期限（日付または承認の開始日からの日数で指定）に対応する「**[!UICONTROL 承認タイプ]**」を指定します。この日付をもって、ワークフローが再開し、それまでに承認されなかった受信者はターゲティング対象から外れます。通知が送信されると、ローカルのスーパーバイザーが連絡先を承認できるように、アクティビティはキューに入ります。
 
       >[!NOTE]
       >
       >デフォルトでは、承認プロセスが開始されると、アクティビティは 3 日間保留されます。
 
-      リマインダーを 1 つ以上設定し、承認期限が迫っていることをローカルのスーパーバイザーに知らせることができます。これを行うには、リンクをクリック **[!UICONTROL Add a reminder]** します。
+      リマインダーを 1 つ以上設定し、承認期限が迫っていることをローカルのスーパーバイザーに知らせることができます。それには、「**[!UICONTROL リマインダーを追加]**」リンクをクリックします。
 
-* **[!UICONTROL Complementary set]**:このオ **[!UICONTROL Generate complement]** プションを使用すると、承認されていないすべてのターゲットを含む2番目のセットを生成できます。
+* **[!UICONTROL 補集合]**：「**[!UICONTROL 補集合を生成]**」オプションでは、未承認のターゲットをすべて集めた 2 番目のセットを生成できます。
 
    >[!NOTE]
    >
@@ -77,7 +77,7 @@ In this case, the **[!UICONTROL Local approval]** activity is placed between ups
 
 ## 配信のフィードバックレポート {#delivery-feedback-report}
 
-In this case, the **[!UICONTROL Local approval]** activity is placed after the delivery:
+この例では、「**[!UICONTROL ローカルの承認]**」アクティビティは、配信の後に配置されています。
 
 ![](assets/local_validation_4.png)
 
@@ -85,12 +85,12 @@ In this case, the **[!UICONTROL Local approval]** activity is placed after the d
 
 ![](assets/local_validation_workflow_4.png)
 
-* 以前のアクティビティ **[!UICONTROL Specified in the transition]** 中に配信が入力された場合は、このオプションを選択します。 Select **[!UICONTROL Explicit]** to specify the delivery in the local approval activity.
-* 配信テンプレートと、通知 E メールのオブジェクトを選択します。There is a default template: **[!UICONTROL Local approval notification]**.
+* 配信が先行アクティビティ中に入力された場合「**[!UICONTROL トランジションで指定]**」オプションを選択します。「**[!UICONTROL 手動で指定]**」を選択して、「ローカルの承認」アクティビティでの配信を指定します。
+* 配信テンプレートと、通知 E メールのオブジェクトを選択します。デフォルトテンプレートの「**[!UICONTROL ローカルの承認通知]**」を選択します。
 
-## Example: Approving a workflow delivery {#example--approving-a-workflow-delivery}
+## 例：ワークフロー配信の承認 {#example--approving-a-workflow-delivery}
 
-この例では、ワークフロー配信の承認プロセスのセットアップ方法を示します。For more information about creating delivery workflows, refer to the [Example: delivery workflow](../../workflow/using/delivery.md#example--delivery-workflow) section.
+この例では、ワークフロー配信の承認プロセスのセットアップ方法を示します。配信ワークフローの作成について詳しくは、[例：配信ワークフロー](../../workflow/using/delivery.md#example--delivery-workflow)の節を参照してください。
 
 オペレーターは、2 つの方法（メールメッセージ内にリンクされた Web ページを使用するか、コンソール経由）のいずれかで、配信を承認できます。
 
@@ -102,20 +102,20 @@ In this case, the **[!UICONTROL Local approval]** activity is placed after the d
 
    ![](assets/new-workflow-valid-webaccess.png)
 
-   Make a choice and click the **[!UICONTROL Submit]** button.
+   承認するかどうかを選択して、「**[!UICONTROL 送信]**」をクリックします。
 
    ![](assets/new-workflow-valid-webaccess-confirm.png)
 
 * コンソールからの承認
 
-   ツリー構造では、ノードに **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** は、現在接続されている演算子によって承認されるタスクのリストが含まれます。 このリストは、1 行で表示されます。応答するには、この行をダブルクリックします。次のウィンドウが表示されます。
+   ツリー構造の、**[!UICONTROL 管理／プロダクション／自動作成オブジェクト／承認待ち]**&#x200B;ノードに、現在接続中のオペレーターから承認されたタスクのリストが含まれています。このリストは、1 行で表示されます。応答するには、この行をダブルクリックします。次のウィンドウが表示されます。
 
 ![](assets/new-workflow-7.png)
 
-Select **Yes**, then click **[!UICONTROL Approve]**. 応答が記録されたことを通知するメッセージが表示されます。
+「**はい**」を選択し、「**[!UICONTROL 承認]**」をクリックします。応答が記録されたことを通知するメッセージが表示されます。
 
-ワークフロー画面に戻ります。10秒後、図は次のように表示されます。
+ワークフロー画面に戻ります。10 秒ほど経過すると、ダイアグラムの表示が以下のようになります。
 
 ![](assets/new-workflow-8.png)
 
-The workflow has executed the **[!UICONTROL Delivery control]** task, which in this case means starting the delivery previously created. ワークフローは、エラーを生成せずに完了しました。
+ワークフローによって「**[!UICONTROL 配信コントロール]**」タスクが実行されます。ここでは、以前に作成された配信を開始します。ワークフローは、エラーを生成せずに完了しました。

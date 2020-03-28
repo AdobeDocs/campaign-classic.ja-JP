@@ -14,7 +14,7 @@ discoiquuid: c143d8c3-c3ce-470c-8812-4b19cdb8afbf
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 # ローカルの承認アクティビティの使用{#using-the-local-approval-activity}
 
-The **[!UICONTROL Local approval]** activity integrated into a targeting workflow lets you set up a recipient approval process before the delivery is sent.
+ターゲティングワークフローに統合されている&#x200B;**[!UICONTROL ローカルの承認]**&#x200B;アクティビティでは、配信の前に受信者の認証プロセスを設定することができます。
 
 >[!CAUTION]
 >
@@ -34,15 +34,15 @@ The **[!UICONTROL Local approval]** activity integrated into a targeting workflo
 
 ローカルの承認プロセスの主な手順は次のとおりです。
 
-1. The population resulting from targeting can be limited thanks to a **[!UICONTROL Split]** type activity using a data distribution model.
+1. データ配分モデルを使用する「**[!UICONTROL 分割]**」タイプのアクティビティにより、ターゲティングによって生じる母集団の数を制限します。
 
    ![](assets/local_validation_intro_1.png)
 
-1. The **[!UICONTROL Local approval]** activity then takes over and sends a notification email to each local supervisor. ローカルの個々のスーパーバイザーが各自に割り当てられた受信者を承認するまでは、アクティビティは保留されます。
+1. 「**[!UICONTROL ローカルの承認]**」アクティビティは通知メールを引き継ぎ、ローカルの個々のスーパーバイザーに送信します。ローカルの個々のスーパーバイザーが各自に割り当てられた受信者を承認するまでは、アクティビティは保留されます。
 
    ![](assets/local_validation_intro_4.png)
 
-1. 承認の期限を過ぎると、ワークフローが再度開始されます。In this example, the **[!UICONTROL Delivery]** activity starts and the delivery is sent to the approved targets.
+1. 承認の期限を過ぎると、ワークフローが再度開始されます。この例では、「**[!UICONTROL 配信]**」アクティビティが開始された後に、承認済みターゲットに配信がおこなわれています。
 
    >[!NOTE]
    >
@@ -50,49 +50,49 @@ The **[!UICONTROL Local approval]** activity integrated into a targeting workflo
 
    ![](assets/local_validation_intro_6.png)
 
-1. A few days later, the second **[!UICONTROL Local approval]** type activity sends a notification email to each local supervisor with a summary of the actions carried out by their contacts (clicks, opens, etc.).
+1. 数日が経過した後、2 番目の「**[!UICONTROL ローカルの承認]**」アクティビティがローカルの各スーパーバイザーに通知メールを送信します。このメールには、各受信者がおこなったアクションの概要（クリック、開封など）が記載されています。
 
    ![](assets/local_validation_intro_5.png)
 
-## Step 1: Creating the data distribution template {#step-1--creating-the-data-distribution-template-}
+## 手順 1：データ配分テンプレートの作成 {#step-1--creating-the-data-distribution-template-}
 
-データ配分テンプレートを使用すると、ターゲティングによって生じる母集団の数をデータのグループ別に制限できるほか、個々の値をローカルのスーパーバイザーに割り当てることが可能です。In this example, we have defined the **[!UICONTROL Email address domain]** field as a distribution field and assigned a domain to each local supervisor
+データ配分テンプレートを使用すると、ターゲティングによって生じる母集団の数をデータのグループ別に制限できるほか、個々の値をローカルのスーパーバイザーに割り当てることが可能です。この例では、配分フィールドとして「**[!UICONTROL E メールアドレスドメイン]**」フィールドを定義し、各ローカルスーパーバイザーにドメインを割り当てています。
 
-データ配信テンプレートの作成について詳しくは、「データ配信ご [とのサブセットレコード数の制限」を参照してください](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution)。
+データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution)を参照してください。
 
-1. データ配布テンプレートを作成するには、ノードに移動し、を **[!UICONTROL Resources > Campaign management > Data distribution]** クリックしま **[!UICONTROL New]**&#x200B;す。
+1. データ配分テンプレートを作成するには、**[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;の順にノードを移動し、「**[!UICONTROL 新規]**」をクリックします。
 
    ![](assets/local_validation_data_distribution_1.png)
 
-1. タブを選択 **[!UICONTROL General]** します。
+1. 「**[!UICONTROL 一般]**」タブを選択します。
 
    ![](assets/local_validation_data_distribution_2.png)
 
-1. とを入力 **[!UICONTROL Label]** します **[!UICONTROL Distribution context]**。 In this example, we have selected the **[!UICONTROL Recipient]** targeting schema and the **[!UICONTROL Email domain]** field as a distribution field. 受信者のリストが、ドメインごとに分割されます。
-1. In the **[!UICONTROL Distribution type]** field, select how the target limitation value will be expressed in the **[!UICONTROL Distribution]** tab. Here, we have chosen **[!UICONTROL Percentage]**.
-1. In the **[!UICONTROL Approval storage]** field, enter the storage schema of the approvals that match the targeting schema in use. Here we are going to use the default storage schema: **[!UICONTROL Local approval of recipients]**.
-1. Then click the **[!UICONTROL Advanced parameters]** link.
+1. 「**[!UICONTROL ラベル]**」と「**[!UICONTROL 配分のコンテキスト]**」の内容を入力します。この例では、配分フィールドとして、「**[!UICONTROL 受信者]**」ターゲティングスキーマと「**[!UICONTROL E メールドメイン]**」フィールドを選択しています。受信者のリストが、ドメインごとに分割されます。
+1. 「**[!UICONTROL 配分]**」タブの「**[!UICONTROL 配分タイプ]**」フィールドで、ターゲットの制限値の表示形式を選択します。ここでは「**[!UICONTROL 割合]**」を選択します。
+1. 「**[!UICONTROL 承認ストレージ]**」フィールドに、使用中のターゲティングスキーマと一致する承認のストレージスキーマを入力します。ここでは、デフォルトのストレージスキーマである、「**[!UICONTROL 受信者のローカル承認]**」を使用します。
+1. 「**[!UICONTROL 詳細設定パラメーター]**」リンクをクリックします。
 
    ![](assets/local_validation_data_distribution_3.png)
 
-1. Keep the **[!UICONTROL Approve the targeted messages]** option checked so that all recipients are pre-selected from the list of recipients to approve.
-1. In the **[!UICONTROL Delivery label]** field, we&#39;ve left the default expression (compute string of the delivery). フィードバックの通知には、標準の配信ラベルを使用します。
-1. In the **[!UICONTROL Grouping field]** section, we have selected the **[!UICONTROL Gender]** field as a grouping field for displaying recipients in the approval and feedback notifications.
-1. この節で **[!UICONTROL Edit targeted messages]** は、Webアプリケーションとパラメ **[!UICONTROL Edit recipients]** ーターを選択し **[!UICONTROL recipientId]** ました。 承認およびフィードバックの通知で受信者をクリックできるようになります。受信者は、Web アプリケーションの URL をポイントします。追加の URL パラメーターは、**[!UICONTROL recipientId]** になります。
-1. Then click the **[!UICONTROL Distribution]** tab. 各ドメインについて、以下のフィールドの内容を入力します。
+1. 承認対象の受信者のリストからすべての受信者が事前に選択されるよう、「**[!UICONTROL ターゲティングされたメッセージを承認]**」オプションはチェックしたままにします。
+1. 「**[!UICONTROL 配信ラベル]**」フィールドで、式をデフォルト（配信文字列の計算）のままにします。フィードバックの通知には、標準の配信ラベルを使用します。
+1. 承認およびフィードバックの通知で受信者を表示するためのグループ化フィールドとして、「**[!UICONTROL グループ化フィールド]**」セクションで、「**[!UICONTROL 性別]**」フィールドを選択します。
+1. 「**[!UICONTROL ターゲットメッセージを編集]**」セクションで、「**[!UICONTROL 受信者を編集]**」Web アプリケーションと「**[!UICONTROL recipientId]**」パラメーターを選択します。承認およびフィードバックの通知で受信者をクリックできるようになります。受信者は、Web アプリケーションの URL をポイントします。追加の URL パラメーターは、**[!UICONTROL recipientId]** になります。
+1. 「**[!UICONTROL 配分]**」タブをクリックします。各ドメインについて、以下のフィールドの内容を入力します。
 
    ![](assets/local_validation_data_distribution_4.png)
 
-   * **[!UICONTROL Value]**:ドメイン名の値を入力します。
-   * **[!UICONTROL Percentage / Fixed]**:各ドメインに対して、最大値を入力します。 配信先の受信者数。 この例では、ドメインあたりの配信を 10% に制限します。
-   * **[!UICONTROL Label]**:承認およびフィードバック通知に表示するドメインのラベルを入力します。
-   * **[!UICONTROL Group or operator]**:ドメインに割り当てられている演算子または演算子のグループを選択します。
+   * **[!UICONTROL 値]**：ドメイン名の値を入力します。
+   * **[!UICONTROL 割合／固定]**：各ドメインについて、配信対象の受信者の最大数を入力します。この例では、ドメインあたりの配信を 10% に制限します。
+   * **[!UICONTROL ラベル]**：承認およびフィードバックの通知で表示するドメインのラベルを入力します。
+   * **[!UICONTROL グループまたはオペレーター]**：ドメインに割り当てるオペレーターまたはオペレーターのグループを選択します。
 
       >[!CAUTION]
       >
       >オペレーターには必ず適切な権限を付与するようにしてください。
 
-## Step 2: Creating the targeting workflow {#step-2--creating-the-targeting-workflow}
+## 手順 2：ターゲティングワークフローの作成 {#step-2--creating-the-targeting-workflow}
 
 この使用例を設定するうえで、以下のターゲティングワークフローを作成しました。
 
@@ -100,36 +100,36 @@ The **[!UICONTROL Local approval]** activity integrated into a targeting workflo
 
 以下のアクティビティを追加します。
 
-* 2つ **[!UICONTROL Query]** の活動
-* 1つのア **[!UICONTROL Intersection]** クティビティ、
-* 1つのア **[!UICONTROL Split]** クティビティ、
-* 1つのア **[!UICONTROL Local approval]** クティビティ、
-* 1つのア **[!UICONTROL Delivery]** クティビティ、
-* 1つのア **[!UICONTROL Wait]** クティビティ、
-* 2つ目のア **[!UICONTROL Local approval]** クティビティ
-* 1つのア **[!UICONTROL End]** クティビティ。
+* 2 つの&#x200B;**[!UICONTROL クエリ]**&#x200B;アクティビティ
+* 1 つの&#x200B;**[!UICONTROL 積集合]**&#x200B;アクティビティ
+* 1 つの&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティ
+* 1 つの&#x200B;**[!UICONTROL ローカルの承認]**&#x200B;アクティビティ
+* 1 つの&#x200B;**[!UICONTROL 配信]**&#x200B;アクティビティ
+* 1 つの&#x200B;**[!UICONTROL 待機]**&#x200B;アクティビティ
+* 2 つ目の&#x200B;**[!UICONTROL ローカルの承認]**&#x200B;アクティビティ
+* 1 つの&#x200B;**[!UICONTROL 終了]**&#x200B;アクティビティ
 
 ### クエリ、積集合、および分割 {#queries--intersection-and-split}
 
-上流のターゲティングは、2 つのクエリ、1 つの積集合、1 つの分割で構成されます。The population resulting from targeting can be limited using a **[!UICONTROL Split]** activity using a data distribution template.
+上流のターゲティングは、2 つのクエリ、1 つの積集合、1 つの分割で構成されます。データ配分テンプレートを使用する&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティでは、ターゲティングによって生じる母集団の数を制限することができます。
 
-For more on configuring a split activity, refer to [Split](../../workflow/using/split.md). データ配信テンプレートの作成について詳しくは、データ配信ご [とのサブセットレコード数の制限を参照してください](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution)。
+分割アクティビティの設定について詳しくは、[分割](../../workflow/using/split.md)を参照してください。データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution)を参照してください。
 
-If you do not want to limit the population from the query, you do not have to use the **[!UICONTROL Query]**, **[!UICONTROL Intersection]**, and **[!UICONTROL Split]** activities. In this case, complete the data distribution template in the first **[!UICONTROL Local approval]** activity.
+クエリによる母集団の数を制限しない場合は、「**[!UICONTROL クエリ]**」、「**[!UICONTROL 積集合]**」、および「**[!UICONTROL 分割]**」アクティビティを使用する必要はありません。このケースでは、1 つ目の「**[!UICONTROL ローカルの承認]**」アクティビティで、データ配分テンプレートの作成を完了させます。
 
-1. セクション **[!UICONTROL Record count limitation]** で、オプションを選択 **[!UICONTROL Limit the selected records]** し、リンクをクリック **[!UICONTROL Edit]** します。
+1. 「**[!UICONTROL レコード数の制限]**」セクションで「**[!UICONTROL 選択レコード数の制限]**」オプションを選択し、「**[!UICONTROL 編集]**」リンクをクリックします。
 
    ![](assets/local_validation_split_1.png)
 
-1. オプションを選 **[!UICONTROL Keep only the first records after sorting]** 択し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. 「**[!UICONTROL 並べ替えの後に最初のレコードのみ保持]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/local_validation_split_1bis.png)
 
-1. In the **[!UICONTROL Sort columns]** section, add the field which the sort is applied to. Here, we have chosen the **[!UICONTROL Email]** field. クリック **[!UICONTROL Next]**.
+1. 「**[!UICONTROL 列を並べ替え]**」セクションで、並べ替えを適用するフィールドを追加します。ここでは、「**[!UICONTROL E メール]**」フィールドを選択します。「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/local_validation_split_2.png)
 
-1. このオプション **[!UICONTROL By data distribution]** を選択し、前に作成した配布テンプレートを選択します(手順1 [を参照)。データ配布テンプレートの作成](#step-1--creating-the-data-distribution-template-))をクリックし、をクリックしま **[!UICONTROL Finish]**&#x200B;す。
+1. 「**[!UICONTROL データ配分別]**」オプションで、前に作成した配分テンプレート（[手順 1：データ配分テンプレートの作成](#step-1--creating-the-data-distribution-template-)を参照）を選択し、「**[!UICONTROL 完了]**」をクリックします。
 
    ![](assets/local_validation_split_3.png)
 
@@ -139,45 +139,45 @@ If you do not want to limit the population from the query, you do not have to us
 
 ### 承認通知 {#approval-notification}
 
-The **[!UICONTROL Local approval]** activity lets you send a notification to each local supervisor.
+「**[!UICONTROL ローカルの承認]**」アクティビティでは、ローカルの個々のスーパーバイザーに通知を送信できます。
 
-アクティビティの設定について詳し **[!UICONTROL Local approval]** くは、「ローカル承認」を [参照してくださ](../../workflow/using/local-approval.md)い。
+「**[!UICONTROL ローカルの承認]**」アクティビティの設定について詳しくは、[ローカルの承認](../../workflow/using/local-approval.md)を参照してください。
 
 ![](assets/local_validation_workflow_2.png)
 
 以下のフィールドの内容を入力する必要があります。
 
-1. セクション **[!UICONTROL Action to execute]** で、オプションを選択 **[!UICONTROL Target approval notification]** します。
-1. セクション **[!UICONTROL Distribution context]** で、オプションを選択 **[!UICONTROL Specified in the transition]** します。
+1. 「**[!UICONTROL 実行するアクション]**」セクションで、「**[!UICONTROL ターゲットの承認通知]**」オプションを選択します。
+1. 「**[!UICONTROL 配分のコンテキスト]**」セクションで、「**[!UICONTROL トランジションで指定]**」オプションを選択します。
 
-   If you don&#39;t want to limit the targeted population, select the **[!UICONTROL Explicit]** option here and enter the distribution template created previously in the **[!UICONTROL Data distribution]** field.
+   ターゲット母集団の数を制限しない場合は、ここで「**[!UICONTROL 明示]**」オプションを選択し、「**[!UICONTROL データ配分]**」フィールドで前に作成した配分テンプレートを入力します。
 
-1. In the **[!UICONTROL Notification]** section, select the delivery template and the subject to be used for the notification email. Here, we have chosen the default template: **[!UICONTROL Local approval notification]**.
-1. In the **[!UICONTROL Approval schedule]** section, we&#39;ve kept the default approval deadline (3 days) and added a reminder. 承認が開始されてから 3 日間、配信が有効になります。承認期限が経過すると、承認されていない受信者はターゲティングの対象から除外されます。
+1. 「**[!UICONTROL 通知]**」セクションで、配分テンプレートと、通知 E メールで使用する件名を選択します。ここでは、デフォルトのテンプレートである「**[!UICONTROL ローカルの承認通知]**」を選択します。
+1. 「**[!UICONTROL 承認されたスケジュール]**」セクションで、承認期限をデフォルトのまま（3 日）にして、リマインダーを追加します。承認が開始されてから 3 日間、配信が有効になります。承認期限が経過すると、承認されていない受信者はターゲティングの対象から除外されます。
 
-The notification email sent by the **[!UICONTROL Local approval]** activity to local supervisors is as follows:
+「**[!UICONTROL ローカルの承認]**」アクティビティによってローカルのスーパーバイザーに送信される通知 E メールを以下に示します。
 
 ![](assets/local_validation_intro_2.png)
 
 ### 待機 {#wait}
 
-「待機」アクティビティを使用すると、フィードバック通知を配信する 2 つ目の「ローカルの承認」アクティビティの開始を延期することができます。In the **[!UICONTROL Duration]** field, we have entered the **[!UICONTROL 5d]** value (5 days). 配信後の 5 日間に受信者がおこなったアクションがフィードバック通知に記載されます。
+「待機」アクティビティを使用すると、フィードバック通知を配信する 2 つ目の「ローカルの承認」アクティビティの開始を延期することができます。「**[!UICONTROL 待機期間]**」フィールドで、値「**[!UICONTROL 5d]**」（5 日）を入力します。配信後の 5 日間に受信者がおこなったアクションがフィードバック通知に記載されます。
 
 ![](assets/local_validation_workflow_3.png)
 
 ### フィードバック通知 {#feedback-notification}
 
-The second **[!UICONTROL Local approval]** activity lets you send a delivery feedback notification to each local supervisor.
+2 つ目の「**[!UICONTROL ローカルの承認]**」アクティビティでは、ローカルの個々のスーパーバイザーにフィードバック通知を送信できます。
 
 ![](assets/local_validation_workflow_4.png)
 
 以下のフィールドの内容を入力する必要があります。
 
-1. セクションで、 **[!UICONTROL Action to execute]** を選択しま **[!UICONTROL Delivery feedback report]**&#x200B;す。
-1. セクションで、 **[!UICONTROL Delivery]** を選択しま **[!UICONTROL Specified in the transition]**&#x200B;す。
-1. In the **[!UICONTROL Notification]** section, select the delivery template and the subject to be used for the notification email.
+1. 「**[!UICONTROL 実行するアクション]**」セクションで、「**[!UICONTROL 配信のフィードバックレポート]**」を選択します。
+1. 「**[!UICONTROL 配信]**」セクションで、「**[!UICONTROL トランジションで指定]**」を選択します。
+1. 「**[!UICONTROL 通知]**」セクションで、配分テンプレートと、通知 E メールで使用する件名を選択します。
 
-Once the deadline configured in the wait activity is reached, the second **[!UICONTROL Local approval]** type activity sends the following notification email to each local supervisor:
+「待機」アクティビティで設定した期限を経過すると、2 つ目の「**[!UICONTROL ローカルの承認]**」アクティビティはローカルの個々のスーパーバイザーに、
 
 ![](assets/local_validation_intro_3.png)
 
@@ -185,15 +185,15 @@ Once the deadline configured in the wait activity is reached, the second **[!UIC
 
 「ローカルの承認」アクティビティが起動されるごとに、承認タスクが作成されます。管理者は、これらの承認タスクを個々に管理することができます。
 
-Go to the targeting workflow of your campaign and click the **[!UICONTROL Local approval tasks]** tab.
+キャンペーンのターゲティングワークフローに移動して、「**[!UICONTROL ローカルの承認タスク]**」タブをクリックします。
 
 ![](assets/local_validation_admin_1.png)
 
-The list of local approval tasks can also be accessed via the **[!UICONTROL Approval tasks]** tab of the data distribution template.
+「データ配分」テンプレートの「**[!UICONTROL 承認タスク]**」タブからは、ローカルの承認タスクのリストにアクセスすることができます。
 
 ![](assets/local_validation_admin_2.png)
 
-Select the task you want to monitor and click the **[!UICONTROL Detail]** button. The **[!UICONTROL General]** tab of the local approval task lets you view information on the task. 必要に応じて、承認の日付やリマインダーの日付を変更することもできます。
+監視するタスクを選択し、「**[!UICONTROL 詳細]**」ボタンをクリックします。ローカルの承認タスクの「**[!UICONTROL 一般]**」タブでは、タスクに関する情報を確認できます。必要に応じて、承認の日付やリマインダーの日付を変更することもできます。
 
 ![](assets/local_validation_admin_3.png)
 
@@ -205,23 +205,23 @@ Select the task you want to monitor and click the **[!UICONTROL Detail]** button
 * リンク先のワークフローとキャンペーン
 * タスクのスケジュール
 
-The **[!UICONTROL Distribution]** tab for the task lets you view the approval logs, their status, the number of messages targeted, the approval date, as well as the operator who approved the delivery.
+タスクの「**[!UICONTROL 配分]**」タブでは、承認ログとそのステータス、ターゲットメッセージの数、承認日のほか、配信を承認したオペレーターを確認することができます。
 
 ![](assets/local_validation_admin_4.png)
 
-Select an approval log and click the **[!UICONTROL Detail]** button to display more information. The **[!UICONTROL General]** tab of the local approval log lets you view general log information. ここでは、承認ステータスを変更することもできます。
+承認ログを選択し、「**[!UICONTROL 詳細]**」ボタンをクリックして、詳細情報を表示します。ローカル承認ログの「**[!UICONTROL 一般]**」タブでは、ログの一般的な情報を表示できます。ここでは、承認ステータスを変更することもできます。
 
 ![](assets/local_validation_admin_5.png)
 
 このタブには、以下の情報が表示されます。
 
 * リンク先の承認タスク
-* 承認ステータス(**[!UICONTROL Approved]** または **[!UICONTROL Pending]**)
+* 承認ステータス（「**[!UICONTROL 承認済み]**」または「**[!UICONTROL 保留中]**」）
 * 使用する配分テンプレート
 * 承認をおこなったローカルのスーパーバイザーと承認日
 * ターゲットメッセージの数と承認済みメッセージの数
 
-The **[!UICONTROL Targeted]** tab of the approval log displays the list of targeted recipients and their approval status. このステータスは必要に応じて変更できます。
+承認ログの「**[!UICONTROL ターゲット]**」タブには、ターゲットの受信者とその承認ステータスが一覧表示されます。このステータスは必要に応じて変更できます。
 
 ![](assets/local_validation_admin_6.png)
 

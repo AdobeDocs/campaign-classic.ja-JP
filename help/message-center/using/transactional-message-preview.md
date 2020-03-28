@@ -14,7 +14,7 @@ discoiquuid: 3bc88f9c-cc42-4bf6-a318-0093c73e4d82
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -24,11 +24,11 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 1 つまたは複数のシードアドレスとメッセージ本文を作成したら、メッセージをプレビューして、パーソナライゼーションを確認することができます。
 
-1. In the message template, click the **[!UICONTROL Preview]** tab.
+1. メッセージテンプレートで、「**[!UICONTROL プレビュー]**」タブをクリックします。
 
    ![](assets/messagecenter_preview_001.png)
 
-1. ドロッ **[!UICONTROL A seed address]** プダウンリストでを選択します。
+1. ドロップダウンリストから「**[!UICONTROL シードアドレス]**」を選択します。
 
    ![](assets/messagecenter_preview_002.png)
 

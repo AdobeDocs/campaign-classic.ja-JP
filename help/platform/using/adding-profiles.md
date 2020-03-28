@@ -14,7 +14,7 @@ discoiquuid: 299f84e6-f6ff-4ca0-9799-b56d57e1752b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -22,10 +22,10 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # プロファイルの追加{#adding-profiles}
 
-ほとんどの場合、プロファイルは[ワークフローを使用して Campaign にインポート](../../workflow/using/importing-data.md)されます。However, you can add one or more profiles directly from the interface, by clicking the **[!UICONTROL Create]** button. それにより、プロファイルはデータベースに追加されます。
+ほとんどの場合、プロファイルは[ワークフローを使用して Campaign にインポート](../../workflow/using/importing-data.md)されます。ただし、「**[!UICONTROL 作成]**」ボタンをクリックして、1 つ以上のプロファイルをインターフェイスから直接追加することもできます。それにより、プロファイルはデータベースに追加されます。
 
 ![](assets/s_ncs_user_profile_add.png)
 
-このプロファイルに関する情報を入力します。The tabs and fields to be completed are described in [Editing a profile](../../platform/using/editing-a-profile.md).
+このプロファイルに関する情報を入力します。入力が必要なタブおよびフィールドについては、[プロファイルの編集](../../platform/using/editing-a-profile.md)で説明しています。
 
-Click **[!UICONTROL Save]** to validate profile creation. プロファイルが Adobe Campaign データベースに追加されます。
+「**[!UICONTROL 保存]**」をクリックしてプロファイルの作成を確認します。プロファイルが Adobe Campaign データベースに追加されます。

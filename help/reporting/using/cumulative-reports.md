@@ -14,7 +14,7 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 ---
@@ -28,6 +28,6 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 リストから連続しない配信を選択するには、Ctrl キーを押したまま選択をおこないます。
 
-To select deliveries saved in a different folder click **[!UICONTROL Display sub-levels]** (accessible via the toolbar). これで同じリストに表示されるようになります。
+異なるフォルダーに保存された配信を選択するには、「**[!UICONTROL サブレベルを表示]**」（ツールバーからアクセス可能）をクリックします。これで同じリストに表示されるようになります。
 
 ![](assets/s_ncs_user_display_children_icon.png)

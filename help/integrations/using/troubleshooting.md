@@ -14,7 +14,7 @@ discoiquuid: f3ff8c8e-22b0-4d61-9f26-11f5ca3bc0be
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ---
@@ -26,13 +26,13 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 * **外部アカウント**
 
-   で、以 **[!UICONTROL Administration > Platform > External accounts]**&#x200B;下の外部SFTPアカウントが正しく設定されていることを確認します。 この SFTP サーバーは、担当のコンサルタントによって Adobe Experience Cloud で設定されているはずです。
+   **[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;で、次の外部 SFTP アカウントが正しく設定されていることを確認します。この SFTP サーバーは、担当のコンサルタントによって Adobe Experience Cloud で設定されているはずです。
 
-   * **[!UICONTROL importSharedAudience]** :オーディエンスのインポート専用のSFTPアカウント。
-   * **[!UICONTROL exportSharedAudience]** :オーディエンスの書き出し専用のSFTPアカウント。
+   * **[!UICONTROL importSharedAudience]**：オーディエンスのインポート専用の SFTP アカウント。
+   * **[!UICONTROL exportSharedAudience]**：オーディエンスのエクスポート専用の SFTP アカウント。
 
 * **AMC データソース**
 
-   で、AMC **[!UICONTROL Administration > Platform > AMC Data sources]**&#x200B;データソースが正しく設定されていることを確認します。
+   **[!UICONTROL 管理／プラットフォーム／AMC データソース]**&#x200B;で、AMC データソースが正しく設定されていることを確認します。
 
 People コアサービス経由でオーディエンスを共有したり、オーディエンスをインポートしたりすると、データが一部失われることがあります。ID（「訪問者 ID」または「宣言済み ID」）をプロファイルディメンションに紐付けることができたレコードだけが転送されます。Adobe Campaign によって認識されない People コアサービスセグメントからの ID はインポートされません。

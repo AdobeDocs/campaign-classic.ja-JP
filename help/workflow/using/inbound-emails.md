@@ -14,7 +14,7 @@ discoiquuid: 4c0530b1-0292-45bc-8730-668bc5b8550b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -28,37 +28,37 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 「**インバウンド E メール**」アクティビティの最初のタブで、POP3 サーバーのパラメーターとメール受信時に実行するスクリプトを入力できます。2 番目のタブではアクティビティのスケジュールを設定でき、3 番目のタブではアクティビティの有効期限を設定できます。
 
-1. **[!UICONTROL Inbound Emails]**
+1. **[!UICONTROL インバウンド E メール]**
 
-   * **[!UICONTROL Use an external account]**
+   * **[!UICONTROL 外部アカウントを使用]**
 
-      このオプションが有効化されている場合、ネットワーク接続のパラメーターを入力せずに外部 POP3 アカウントを選択できます。The **[!UICONTROL External account]** field specifies the external POP3 account to be used to connect to the email service. このオプションは、「外部アカウントを使用」オプションが有効にされている場合のみ表示されます。
+      このオプションが有効化されている場合、ネットワーク接続のパラメーターを入力せずに外部 POP3 アカウントを選択できます。「**[!UICONTROL 外部アカウント]**」フィールドに、メールサービスの接続に使用する外部 POP3 アカウントを指定します。このオプションは、「外部アカウントを使用」オプションが有効にされている場合のみ表示されます。
 
       このオプションを選択しない場合は、次のパラメーターを指定する必要があります。
 
       ![](assets/email_rec_edit_1b.png)
 
-      * **[!UICONTROL POP3 server]**
+      * **[!UICONTROL POP3 サーバー]**
 
          POP3 サーバーの名前
 
-      * **[!UICONTROL POP3 account]**
+      * **[!UICONTROL POP3 アカウント]**
 
          ユーザーの名前。
 
-      * **[!UICONTROL Password]**
+      * **[!UICONTROL パスワード]**
 
          アカウントのパスワード
 
-      * **[!UICONTROL Port]**
+      * **[!UICONTROL ポート]**
 
          POP3 接続のポート番号デフォルトのポート番号は 110 です。
-   * **[!UICONTROL Stop as soon as email is processed]**
+   * **[!UICONTROL E メールが処理されたらすぐに停止します]**
 
       このオプションを設定すると E メールが 1 個ずつ処理されます。このアクティビティは、トランジションを 1 回のみ有効化した後、処理を完了し、未処理の E メールをサーバー上に残します。
 
 
-1. **[!UICONTROL Script]**
+1. **[!UICONTROL スクリプト]**
 
    このスクリプトは、E メールを処理し、メールの内容に応じて様々な処理を実行します。スクリプトは E メールごとに実行されます。また、E メールに実行される処理（放置または削除）およびアウトバウンドトランジションの有効化を指定できます。
 
@@ -70,17 +70,17 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
    * 4 - サーバーに E メールを残します。
    E メールのコンテンツには、グローバル変数 **[!UICONTROL mailMessage]** からアクセスできます。
 
-1. **[!UICONTROL Schedule]**
+1. **[!UICONTROL スケジュール]**
 
-   To define a schedule for the activity, click the **[!UICONTROL Scheduling]** tab and check **[!UICONTROL Plan execution]**. Click the **[!UICONTROL Change]** button to configure the schedule.
+   アクティビティのスケジュールを設定するには、「**[!UICONTROL スケジュール設定]**」タブをクリックして、「**[!UICONTROL プランの実行]**」を選択します。「**[!UICONTROL 変更]**」ボタンをクリックして、スケジュールを設定します。
 
-   スケジュールの設定は、スケジュール設定アクティビティの場合と同じです。「スケジューラ [ー](../../workflow/using/scheduler.md)」を参照。
+   スケジュールの設定は、スケジュール設定アクティビティの場合と同じです。[スケジューラー](../../workflow/using/scheduler.md)を参照してください。
 
-1. **[!UICONTROL Expiration]**
+1. **[!UICONTROL 有効期限]**
 
-   You can define expiration delays via the **[!UICONTROL Expiration]** tab.
+   「**[!UICONTROL 有効期限]**」タブで、有効期限の延長を設定できます。
 
    ![](assets/email_rec_edit_3.png)
 
-   有効期限の設定は、スケジュール設定アクティビティの場合と同じです。「有効期限」を参 [照してくださ](../../workflow/using/executing-a-workflow.md#expirations)い。
+   有効期限の設定は、スケジュール設定アクティビティの場合と同じです。[有効期限](../../workflow/using/executing-a-workflow.md#expirations)を参照してください。
 

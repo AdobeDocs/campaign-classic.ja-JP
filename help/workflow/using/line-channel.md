@@ -14,7 +14,7 @@ discoiquuid: 367314a2-eb6d-4710-8a47-5a51049ad924
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -43,7 +43,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MID から LINE ユーザー ID への移行</span> <br /> </td> 
-   <td> <span class="uicontrol">MIDToUserIDMigration</span><br /> </td> 
+   <td> <span class="uicontrol">MIDToUserIDMigration</span> <br /> </td> 
    <td> このワークフローは、LINE V1 から LINE V2 へ移行用に、LINE V2 ユーザーの ID を生成します。<br /> </td> 
   </tr> 
  </tbody> 

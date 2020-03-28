@@ -14,7 +14,7 @@ discoiquuid: 4113c3fe-a279-4fe1-be89-ea43c96edc34
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -34,47 +34,47 @@ E メール配信の複数のコンテンツがあり、どのバージョンが
 
 A/B テストを作成するには、次の手順に従います
 
-* [手順1:ターゲット設定ワークフローの作成](#step-1--creating-a-targeting-workflow)
-* [手順2:母集団サンプルの設定](#step-2--configuring-population-samples)
-* [手順3:2つの配信テンプレートの作成](#step-3--creating-two-delivery-templates)
-* [手順4:ワークフローでの配信の設定](#step-4--configuring-the-deliveries-in-the-workflow)
-* [手順5:スクリプトの作成](#step-5--creating-the-script)
-* [手順7:ワークフローの開始](#step-7--starting-the-workflow)
-* [手順8:結果を分析しています](#step-8--analyzing-the-result)。
+* [手順 1：ターゲティングワークフローの作成](#step-1--creating-a-targeting-workflow)
+* [手順 2：母集団サンプルの設定](#step-2--configuring-population-samples)
+* [手順 3：2 つの配信テンプレートの作成](#step-3--creating-two-delivery-templates)
+* [手順 4：ワークフローでの配信の設定](#step-4--configuring-the-deliveries-in-the-workflow)
+* [手順 5：スクリプトの作成](#step-5--creating-the-script)
+* [手順 7：ワークフローの開始](#step-7--starting-the-workflow)
+* [手順 8：結果の分析](#step-8--analyzing-the-result)
 
-## Step 1: Creating a targeting workflow {#step-1--creating-a-targeting-workflow}
+## 手順 1：ターゲティングワークフローの作成 {#step-1--creating-a-targeting-workflow}
 
-You need to create your workflow in the **[!UICONTROL Targeting and Workflows]** tab of a campaign. アクティビティとは、2つのアクティビティ( **[!UICONTROL Query]** アクティビティ、アクティビティ、アクテ **[!UICONTROL Split]** ィビティ、アク **[!UICONTROL Email delivery]** ティビティ)にリンクされたア **[!UICONTROL Wait]** クティビティで構成さ **[!UICONTROL JavaScript code]****[!UICONTROL Delivery]** れます。
+キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブでワークフローを作成する必要があります。このワークフローは、1 つの「**[!UICONTROL クエリ]**」アクティビティ、2 つの「**[!UICONTROL E メール配信]**」アクティビティとリンクした 1 つの「**[!UICONTROL 分割]**」アクティビティ、1 つの「**[!UICONTROL 待機]**」アクティビティ、1 つの「**[!UICONTROL JavaScript コード]**」アクティビティ、1 つの「**[!UICONTROL 配信]**」アクティビティから構成されます。
 
 1. まだ作成していない場合は、キャンペーンを作成します（詳細は、この[節](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)を参照してください）。
 
    ![](assets/use_case_abtesting_targetwkfl_001.png)
 
-1. Go to the **[!UICONTROL Targeting and Workflows]** tab.
+1. 「**[!UICONTROL ターゲティングとワークフロー]**」タブに移動します。
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. Change the label of the existing workflow or click **[!UICONTROL Add]** to create a new one (for more on this, refer to this [section](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)).
+1. 既存のワークフローのラベルを変更するか、「**[!UICONTROL 追加]**」をクリックして、新しいラベルを作成します（これについて詳細は、この[節](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)を参照してください）。
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 
-1. （タブ）、（タブ）、2（タブ）、2（タブ）、 **[!UICONTROL Query]****[!UICONTROL Target]****[!UICONTROL Split]****[!UICONTROL Target]****[!UICONTROL Email deliveries]****[!UICONTROL Deliveries]****[!UICONTROL Wait]****[!UICONTROL Flow Control]****[!UICONTROL JavaScript code]****[!UICONTROL Actions]****[!UICONTROL Delivery]****[!UICONTROL Actions]** （タブ）、アクティビティ（タブ）、アクティビティ（タブ）、アクティビティ（タブ）、アクティビティ（タブ）、アクティビティ（タブ）を含むワークフロー図にマウスを使用してアクティビティをドラッグ&amp;ドロップします。
+1. マウスを使用してワークフローダイアグラムにアクティビティをドラッグ＆ドロップします。対象となるアクティビティには、1 つの「**[!UICONTROL クエリ]**」アクティビティ（「**[!UICONTROL ターゲット]**」タブ）、1 つの「**[!UICONTROL 分割]**」アクティビティ（「**[!UICONTROL ターゲット]**」タブ）、2 つの「**[!UICONTROL E メール配信]**」アクティビティ（「**[!UICONTROL 配信]**」タブ）、1 つの「**[!UICONTROL 待機]**」アクティビティ（「**[!UICONTROL フロー制御]**」タブ）、1 つの「**[!UICONTROL JavaScript コード]**」アクティビティ（「**[!UICONTROL アクション]**」タブ）、1 つの「**[!UICONTROL 配信]**」アクティビティ（「**[!UICONTROL アクション]**」タブ）などがあります。
 
 ![](assets/use_case_abtesting_targetwkfl_004.png)
 
-## 手順2:母集団サンプルの設定 {#step-2--configuring-population-samples}
+## 手順 2：母集団サンプルの設定 {#step-2--configuring-population-samples}
 
 ### 「クエリ」アクティビティの設定{#configuring-the-query-activity}
 
-* アクティビティをダブルクリ **[!UICONTROL Query]** ックします。
+* 「**[!UICONTROL クエリ]**」アクティビティをダブルクリックします。
 
    ![](assets/use_case_abtesting_createrecipients_001.png)
 
-* Click the **[!UICONTROL Edit query]** link and select the recipients you want to target.
+* 「**[!UICONTROL クエリを編集]**」リンクをクリックし、ターゲティング対象の受信者を選択します。
 
    ![](assets/use_case_abtesting_createrecipients_002.png)
 
-* アクティビティを **[!UICONTROL Query]** アクティビティにリン **[!UICONTROL Split]** クします。
+* 「**[!UICONTROL クエリ]**」アクティビティを「**[!UICONTROL 分割]**」アクティビティとリンクします。
 
    ![](assets/use_case_abtesting_createrecipients_003.png)
 
@@ -84,7 +84,7 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
 1. 母集団 A の作成
 
-   * アクティビティをダブルクリ **[!UICONTROL Split]** ックします。
+   * 「**[!UICONTROL 分割]**」アクティビティをダブルクリックします。
 
       ![](assets/use_case_abtesting_createrecipients_004.png)
 
@@ -92,21 +92,21 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
       ![](assets/use_case_abtesting_createrecipients_005.png)
 
-   * オプションを選 **[!UICONTROL Limit the selected records]** 択します。
+   * 「**[!UICONTROL 選択レコード数の制限]**」オプションを選択します。
 
       ![](assets/use_case_abtesting_createrecipients_006.png)
 
-   * リンクをクリ **[!UICONTROL Edit]** ックし、を選択し **[!UICONTROL Activate random sampling]**&#x200B;てをクリックしま **[!UICONTROL Next]**&#x200B;す。
+   * 「**[!UICONTROL 編集]**」リンクをクリックし、「**[!UICONTROL ランダムサンプリングを有効化]**」を選択して、「**[!UICONTROL 次へ]**」をクリックします。
 
       ![](assets/use_case_abtesting_createrecipients_007.png)
 
-   * Set the threshold to 10%, then click **[!UICONTROL Finish]**.
+   * しきい値を 10% に設定して、「**[!UICONTROL 完了]**」をクリックします。
 
       ![](assets/use_case_abtesting_createrecipients_008.png)
 
 1. 母集団 B の作成
 
-   * Click **[!UICONTROL Add]** to create a new tab for population B.
+   * 「**[!UICONTROL 追加]**」をクリックして、母集団 B に使用する新しいタブを作成します。
 
       ![](assets/use_case_abtesting_createrecipients_009.png)
 
@@ -116,11 +116,11 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
 1. その他の母集団の作成
 
-   * Go to the **[!UICONTROL General]** tab.
+   * 「**[!UICONTROL 一般]**」タブに移動します。
 
       ![](assets/use_case_abtesting_createrecipients_011.png)
 
-   * 選択 **[!UICONTROL Generate complement]**.
+   * 「**[!UICONTROL 補集合を生成]**」を選択します。
 
       ![](assets/use_case_abtesting_createrecipients_012.png)
 
@@ -128,12 +128,12 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
       ![](assets/use_case_abtesting_createrecipients_013.png)
 
-## Step 3: Creating two delivery templates {#step-3--creating-two-delivery-templates}
+## 手順 3：2 つの配信テンプレートの作成 {#step-3--creating-two-delivery-templates}
 
-ここでは、2 つの配信テンプレートを作成します。Each template will be referenced in an **[!UICONTROL Email delivery]** activity linked to the **[!UICONTROL Split]** activity. 詳しくは、[この節](../../delivery/using/about-templates.md)を参照してください。
+ここでは、2 つの配信テンプレートを作成します。各テンプレートは、「**[!UICONTROL 分割]**」アクティビティとリンクした「**[!UICONTROL E メール配信]**」アクティビティで参照されます。詳しくは、[この節](../../delivery/using/about-templates.md)を参照してください。
 
-1. フォルダに移動 **[!UICONTROL Resources > Delivery template]** します。
-1. Duplicate the **[!UICONTROL Email]** delivery template.
+1. **[!UICONTROL リソース／配信テンプレート]**&#x200B;フォルダーへ移動します。
+1. 「**[!UICONTROL E メール]**」配信テンプレートを複製します。
 
    ![](assets/use_case_abtesting_deliverymodel_001.png)
 
@@ -145,11 +145,11 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
    ![](assets/use_case_abtesting_deliverymodel_003.png)
 
-## Step 4: Configuring the deliveries in the workflow {#step-4--configuring-the-deliveries-in-the-workflow}
+## 手順 4：ワークフローでの配信の設定 {#step-4--configuring-the-deliveries-in-the-workflow}
 
-次のステップで配信を設定します。前の段階で作成された3つの集団に対する運命を定めています。手 [順2:母集団サンプルの設定](#step-2--configuring-population-samples)。 最初の 2 つの配信では、母集団 A と母集団 B にそれぞれ異なるコンテンツを送信することができます。一方、3 番目の配信は、A の配信も B の配信も受信しない母集団用のものです。このコンテンツはスクリプトで割り出します。A のコンテンツと B のコンテンツのどちらかと同一のものになり、どちらのコンテンツの開封率が高いかに応じて決まります。We need to configure a wait period for the third delivery, to find out the outcome of deliveries A and B. This is why the third delivery includes a **[!UICONTROL Wait]** activity.
+次のステップで配信を設定します。設定する配信は、前のステージの[手順 2：母集団サンプルの設定](#step-2--configuring-population-samples)で作成した 3 つの母集団用のものです。最初の 2 つの配信では、母集団 A と母集団 B にそれぞれ異なるコンテンツを送信することができます。一方、3 番目の配信は、A の配信も B の配信も受信しない母集団用のものです。このコンテンツはスクリプトで割り出します。A のコンテンツと B のコンテンツのどちらかと同一のものになり、どちらのコンテンツの開封率が高いかに応じて決まります。3 番目の配信の待機期間を設定し、配信 A、配信 B の結果を特定する必要があります。そのため、3 番目の配信には「**[!UICONTROL 待機]**」アクティビティを実装します。
 
-1. Go to the **[!UICONTROL Split]** activity and link the transition destined for population A to one of the email deliveries already in the workflow.
+1. 「**[!UICONTROL 分割]**」アクティビティに移動し、母集団 A 用のトランジションを、既にワークフローにある E メール配信のトランジションとリンクします。
 
    ![](assets/use_case_abtesting_createdeliveries_001.png)
 
@@ -158,11 +158,11 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
    ![](assets/use_case_abtesting_createdeliveries_003.png)
 
-1. Click **[!UICONTROL Continue]** to view the delivery, then save it.
+1. 「**[!UICONTROL 続行]**」をクリックして配信を表示し、保存します。
 
    ![](assets/use_case_abtesting_createdeliveries_002.png)
 
-1. Link the transition of the **[!UICONTROL Split]** activity destined for population B to the second email delivery.
+1. 母集団 B 用の「**[!UICONTROL 分割]**」アクティビティのトランジションを 2 番目の E メール配信にリンクします。
 
    ![](assets/use_case_abtesting_createdeliveries_004.png)
 
@@ -170,25 +170,25 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
    ![](assets/use_case_abtesting_createdeliveries_005.png)
 
-1. Link the transition destined for the remaining population to the **[!UICONTROL Wait]** activity.
+1. その他の母集団用のトランジションを「**[!UICONTROL 待機]**」アクティビティとリンクします。
 
    ![](assets/use_case_abtesting_createdeliveries_006.png)
 
-1. Open the **[!UICONTROL Wait]** activity and configure a 5-day waiting period.
+1. **[!UICONTROL 待機]**&#x200B;アクティビティを開き、5 日の待機期間を設定します。
 
    ![](assets/use_case_abtesting_createdeliveries_007.png)
 
-1. アクティビティを **[!UICONTROL Wait]** アクティビティにリン **[!UICONTROL JavaScript code]** クします。
+1. 「**[!UICONTROL 待機]**」アクティビティを「**[!UICONTROL JavaScript コード]**」アクティビティとリンクします。
 
    ![](assets/use_case_abtesting_createdeliveries_008.png)
 
-## 手順5:スクリプトの作成 {#step-5--creating-the-script}
+## 手順 5：スクリプトの作成 {#step-5--creating-the-script}
 
 その他の母集団用の配信コンテンツを、スクリプトで割り出します。このスクリプトでは、最も開封率の高い配信について情報を復元し、その内容を最終の配信にコピーします。
 
 ### スクリプトの例 {#example-of-a-script}
 
-ターゲティングワークフローで、以下のようにスクリプトを使用します。For more on this, refer to [Implementation](#implementation).
+ターゲティングワークフローで、以下のようにスクリプトを使用します。詳しくは、[実装](#implementation)を参照してください。
 
 ```
  // query the database to find the winner (best open rate)
@@ -234,16 +234,16 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
    vars.deliveryId = delivery.id
 ```
 
-スクリプトの詳細については、「スクリプトの [詳細」を参照してください](#details-of-the-script)。
+スクリプトについて詳しくは、[スクリプトの詳細](#details-of-the-script)を参照してください。
 
 ### 実装 {#implementation}
 
-1. アクティビティを **[!UICONTROL JavaScript code]** 開きます。
-1. 「スクリプトの例」で提供さ [れたスクリプトを](#example-of-a-script) 、ウィンドウにコピ **[!UICONTROL JavaScript code]** ーします。
+1. 「**[!UICONTROL JavaScript コード]**」アクティビティを開きます。
+1. [スクリプトの例](#example-of-a-script)で提供されたスクリプトを **[!UICONTROL JavaScript コード]**&#x200B;ウィンドウにコピーします。
 
    ![](assets/use_case_abtesting_configscript_002.png)
 
-1. In the **[!UICONTROL Label]** field, enter the name of the script, i.e.
+1. 「**[!UICONTROL ラベル]**」フィールドに、次のようなスクリプト名を入力します。
 
    ```
    <%= vars.deliveryId %>
@@ -251,7 +251,7 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
    ![](assets/use_case_abtesting_configscript_003.png)
 
-1. アクティビティを閉 **[!UICONTROL JavaScript code]** じます。
+1. 「**[!UICONTROL JavaScript コード]**」アクティビティを閉じます。
 1. ワークフローの保存
 
 ### スクリプトの詳細 {#details-of-the-script}
@@ -329,30 +329,30 @@ You need to create your workflow in the **[!UICONTROL Targeting and Workflows]**
 
 上記の例では、E メールの開封率に応じて配信するコンテンツを選択することができます。次のようなその他の配信固有の指標を基にすることが可能です。
 
-* Best click throughput: `[indicators/@recipientClickRatio]`,
-* Highest reactivity rate (email open and clicks in the message): `[indicators/@reactivity]`,
-* 最低苦情率： `[indicators/@refusedRatio]` （sortDesc属性にはfalse値を使用）、
-* Highest conversion rate: `[indicators/@transactionRatio]`,
-* Number of pages visited following the reception of a message: `[indicators/@totalWebPage]`,
-* Lowest unsubscription rate: `[indicators/@optOutRatio]`,
+* 最も高いクリックスルー率：`[indicators/@recipientClickRatio]`
+* 最も高い反応率（E メールの開封やメッセージのクリック）：`[indicators/@reactivity]`
+* 最も低いクレーム率：`[indicators/@refusedRatio]`（sortDesc 属性には、値 false を使用）
+* 最も高いコンバージョン率：`[indicators/@transactionRatio]`
+* メッセージの受信後に訪問のあったページの数：`[indicators/@totalWebPage]`
+* 最も低い購読解除率：`[indicators/@optOutRatio]`
 * トランザクション金額: `[indicators/@amount]`.
 
-## Step 6: Defining the final delivery {#step-6--defining-the-final-delivery}
+## 手順 6：最終配信の定義 {#step-6--defining-the-final-delivery}
 
 A/B テストの勝者を選択するスクリプトの作成後は、最終配信のパラメーターを定義できます。
 
-1. アクティビティ **[!UICONTROL JavaScript code]** を残りのアクティビティに接 **[!UICONTROL Delivery]** 続します。
-1. Open the **[!UICONTROL Delivery]** activity.
-1. このアクティビティ **[!UICONTROL Generate an outbound transition]** でワークフローを終了するには、このオプションの選択を解除します。
+1. 「**[!UICONTROL JavaScript コード]**」アクティビティを残りの「**[!UICONTROL 配信]**」アクティビティに接続します。
+1. 「**[!UICONTROL 配信]**」アクティビティを開きます。
+1. このアクティビティによってワークフローを終了するために「**[!UICONTROL アウトバウンドトランジションを生成]**」オプションをオフにします。
 1. その他のオプションはデフォルト値のままにしておきます。
 
    ![](assets/ab_test_final_delivery.png)
 
-By preparing the delivery specified in the transition (defined via the **[!UICONTROL Javascript Code]** activity), you will be then able to approve it and to start the sending, as described in the next step.
+（「**[!UICONTROL Javascript コード]**」アクティビティで定義された）トランジションで指定された配信を準備することで、次の手順で説明する、承認と配信の開始が可能になります。
 
-## 手順7:ワークフローの開始 {#step-7--starting-the-workflow}
+## 手順 7：ワークフローの開始 {#step-7--starting-the-workflow}
 
-1. ワークフロー **[!UICONTROL Start]** をクリックします。
+1. 「**[!UICONTROL 開始]**」ワークフローをクリックします。
 
    ![](assets/use_case_abtesting_startwkfl_001.png)
 
@@ -366,15 +366,15 @@ By preparing the delivery specified in the transition (defined via the **[!UICON
 
 1. 3 番目の配信のコンテンツが決定したら、ターゲットとコンテンツを承認します。
 
-## 手順8:結果の分析 {#step-8--analyzing-the-result}
+## 手順 8：結果の分析 {#step-8--analyzing-the-result}
 
 テストの配信が完了したら、どの受信者に配信をおこなったかをチェックし、開封の有無を確認します。
 
-* To find out which recipients have been targeted, open a delivery via the campaign dashboard and click the **[!UICONTROL Delivery]** tab.
+* どの受信者がターゲットになっていて、キャンペーンダッシュボードから配信を開封したのかを確認するには、「**[!UICONTROL 配信]**」タブをクリックします。
 
    ![](assets/use_case_abtesting_analysis_001.png)
 
-* To find out whether the delivery has been opened, go to the **[!UICONTROL Tracking]** tab.
+* 配信が開封されたかどうかを確認するには、「**[!UICONTROL トラッキング]**」タブに移動します。
 
    ![](assets/use_case_abtesting_analysis_002.png)
 

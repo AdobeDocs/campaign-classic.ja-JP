@@ -14,7 +14,7 @@ discoiquuid: 64d87bea-2376-4684-ac93-6ca56fe0f262
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -40,12 +40,12 @@ ACS コネクタを使用すると、デジタルマーケターが Campaign Sta
 
 このドキュメントでは、ACS コネクタの機能について説明します。以下の節では、この機能を使用したデータのレプリケート方法に関する情報と、レプリケートされたプロファイルの操作方法を説明します。
 
-* [プロセス](#process):ACSコネクタの概要とデータ複製の管理方法。
-* [実装](#implementation):ACSコネクタの使い始め方の概要と、基本データと詳細データの複製方法の説明。
-* [プロファイルの同期](../../integrations/using/synchronizing-profiles.md):プロファイルの複製方法とプロファイルを使用した配信の作成方法に関する説明。
-* [オーディエンスの同期](../../integrations/using/synchronizing-audiences.md):Campaign v7で受信者のリストをターゲットにし、オーディエンスとしてCampaign Standardにリストを複製する方法について説明します。
-* [Webアプリケーションの同期](../../integrations/using/synchronizing-web-applications.md):Campaign v7 webアプリケーションをCampaign Standardにリンクする方法について説明します。
-* [ACSコネクタのトラブルシューティング](../../integrations/using/troubleshooting-the-acs-connector.md):一般的な問題に対する回答を確認します。
+* [プロセス](#process)：ACS コネクタの概要とデータレプリケーションの管理方法。
+* [実装](#implementation)：ACS コネクタを使い始める方法の概要と基本データおよび高度なデータのレプリケート方法に関する手順。
+* [プロファイルの同期](../../integrations/using/synchronizing-profiles.md)：プロファイルのレプリケート方法とそれらを使用した配信の作成方法に関する手順。
+* [オーディエンスの同期](../../integrations/using/synchronizing-audiences.md)：Campaign v7 での受信者のリストのターゲティング方法と、その後のリストのオーディエンスとしての Campaign Standard へのレプリケート方法に関する手順。
+* [Web アプリケーションの同期](../../integrations/using/synchronizing-web-applications.md)：Campaign v7 Web アプリケーションの Campaign Standard へのリンク方法に関する手順。
+* [ACS コネクタのトラブルシューティング](../../integrations/using/troubleshooting-the-acs-connector.md)：よくある問題に対する回答の確認。
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ ACS コネクタは、Campaign v7 から Campaign Standard に以下の項目を
 
 デフォルトでは、ACS コネクタの定期的なレプリケーションは、15 分ごとに 1 回です。定期的なレプリケーションの長さは、ニーズに合わせて調整できます。変更が必要な場合は、コンサルタントにお問い合わせください。
 
-受信者、購読、サービス、ランディングページのデータレプリケーションは、増分です。つまり、新しい受信者と既存の受信者に対する変更が、Campaign v7 から Campaign Standard にレプリケートされます。ただし、オーディエンスのレプリケーションが単一のインスタンスで発生します。Campaign v7 でオーディエンスを作成したら、Campaign Standard に 1 回レプリケートできます。レプリケーションはただちにおこなわれ、定期的な更新は設定できません。手順については、オーディエンスの同 [期を参照してくださ](../../integrations/using/synchronizing-audiences.md)い。
+受信者、購読、サービス、ランディングページのデータレプリケーションは、増分です。つまり、新しい受信者と既存の受信者に対する変更が、Campaign v7 から Campaign Standard にレプリケートされます。ただし、オーディエンスのレプリケーションが単一のインスタンスで発生します。Campaign v7 でオーディエンスを作成したら、Campaign Standard に 1 回レプリケートできます。レプリケーションはただちにおこなわれ、定期的な更新は設定できません。手順については、[オーディエンスの同期](../../integrations/using/synchronizing-audiences.md)を参照してください。
 
 >[!NOTE]
 >
@@ -74,9 +74,9 @@ ACS コネクタは、Campaign v7 から Campaign Standard に以下の項目を
 
 ACS コネクタは、Campaign Standard から Campaign v7 に以下の項目を定期的にレプリケートします。
 
-* **[!UICONTROL Delivery IDs]**
-* **[!UICONTROL Email broad logs]**
-* **[!UICONTROL Email tracking logs]**
+* **[!UICONTROL 配信 ID]**
+* **[!UICONTROL E メール配信ログ]**
+* **[!UICONTROL E メールトラッキングログ]**
 
 配信 ID および E メールログをレプリケートすることで、Campaign v7 から v7 受信者の配信の履歴およびトラッキングデータにアクセスできます。
 
@@ -90,23 +90,23 @@ ACS コネクタは、Campaign Standard から Campaign v7 に以下の項目を
 
 ACS コネクタは、Campaign v7 と Campaign Standard の間で強制隔離を同期します。
 
-例えば、Campaign v7 から Campaign Standard にレプリケートされたプロファイルには、E メールアドレスが含まれます。E メールアドレスが Campaign Standard によって強制隔離されると、次の同期時にデータが Campaign v7 に渡されます。強制隔離について詳しくは、[強制隔離の管理](../../delivery/using/understanding-quarantine-management.md)および [Campaign Standard の強制隔離](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html)を参照してください。
+例えば、Campaign v7 から Campaign Standard にレプリケートされたプロファイルには、E メールアドレスが含まれます。E メールアドレスが Campaign Standard によって強制隔離されると、次の同期時にデータが Campaign v7 に渡されます。強制隔離について詳しくは、[強制隔離の管理](../../delivery/using/understanding-quarantine-management.md)および [Campaign Standard の強制隔離](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html)を参照してください。
 
 ### レプリケートされたプロファイルの使用 {#using-replicated-profiles}
 
 レプリケートされたプロファイルは、Campaign Standard および Campaign v7 でマーケティングキャンペーンのワークフローをターゲティングするために使用できます。
 
-For instruction on how to send a delivery in Campaign Standard using replicated profiles, see [Synchronizing profiles](../../integrations/using/synchronizing-profiles.md). Campaign v7 と Campaign Standard の間の購読解除データを共有する手順が追加されています。
+レプリケートされたプロファイルを使用して Campaign Standard で配信を送信する手順については、[プロファイルの同期](../../integrations/using/synchronizing-profiles.md)を参照してください。Campaign v7 と Campaign Standard の間の購読解除データを共有する手順が追加されています。
 
 ### 制限事項 {#limitations}
 
 レプリケートされたプロファイルは、すぐに配信に使用できますが、Campaign Standard でいくつかの制限があります。以下の項目を参照して、最善の管理方法を確認してください。
 
-* **Campaign Standardの読み取り専用プロファイル**:レプリケートされたプロファイルは、Campaign Standardでは読み取り専用です。 ただし、Campaign v7 で受信者を編集できます。その変更は ACS コネクタによって Campaign Standard で自動的に更新されます。
-* **Campaign Standardで作成されたプロファイル**:ACSコネクタは、Campaign v7からCampaign Standardへ、受信者データを一方向に複製します。 そのため、Campaign Standard に由来するプロファイルは、Campaign v7 にレプリケートされません。
-* **Campaign Standardの基本受信者データ**:ACSコネクタは、キャンペーン標準に適した受信者データを複製します。 このデータには、受信者の名前、住所、E メールアドレス、携帯電話番号、自宅電話番号、その他関連のある連絡先情報が含まれます。Campaign v7 で使用できる追加の受信者フィールドおよびカスタムターゲティングテーブルがワークフローで重要な場合、コンサルタントにお問い合わせください。
-* **検疫済みプロファイルのインポート**:連絡を受けたくないプロファイルのリストは、隔離されたプロファイルとしてCampaign v7またはCampaign Standardにインポートできます。 プロファイルのステータスは、アプリケーション間の強制隔離の同期に含まれ、配信には使用されません。
-* **Campaign Standardでのサービスの購読解除**:配信の購読を解除する選択がCampaign StandardからCampaign v7に同期されません。 ただし、Campaign Standard の配信の購読解除リンクを Campaign v7 宛てにするように設定できます。購読解除リンクをクリックする受信者のプロファイルは、Campaign v7 で更新され、そのデータは Campaign Standard にレプリケートされます。See [Changing the unsubscription link](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
+* **Campaign Standard の読み取り専用プロファイル**：レプリケートされたプロファイルは、Campaign Standard では読み取り専用です。ただし、Campaign v7 で受信者を編集できます。その変更は ACS コネクタによって Campaign Standard で自動的に更新されます。
+* **Campaign Standard で作成されたプロファイル**：ACS コネクタは、Campaign v7 から Campaign Standard への一方向で受信者データをレプリケートします。そのため、Campaign Standard に由来するプロファイルは、Campaign v7 にレプリケートされません。
+* **Campaign Standard の基本的な受信者データ**：ACS コネクタは、Campaign Standard に適した受信者データをレプリケートします。このデータには、受信者の名前、住所、E メールアドレス、携帯電話番号、自宅電話番号、その他関連のある連絡先情報が含まれます。Campaign v7 で使用できる追加の受信者フィールドおよびカスタムターゲティングテーブルがワークフローで重要な場合、コンサルタントにお問い合わせください。
+* **強制隔離プロファイルのインポート**：連絡を希望しないプロファイルのリストは、強制隔離されたプロファイルとして Campaign v7 または Campaign Standard にインポートできます。プロファイルのステータスは、アプリケーション間の強制隔離の同期に含まれ、配信には使用されません。
+* **Campaign Standard のサービスの購読解除**：配信の購読解除の選択は、Campaign Standard から Campaign v7 に同期されません。ただし、Campaign Standard の配信の購読解除リンクを Campaign v7 宛てにするように設定できます。購読解除リンクをクリックする受信者のプロファイルは、Campaign v7 で更新され、そのデータは Campaign Standard にレプリケートされます。[購読解除リンクの変更](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link)を参照してください。
 * Campaign Standard から Campaign v7 にレプリケートされるのは、E メール配信ログとトラッキングログのみです。
 
 ### 請求 {#billing}
@@ -125,17 +125,17 @@ ACS コネクタには、2 つのタイプの実装があります。どちら�
 
 **基本的な実装**&#x200B;により、受信者（標準のフィールド）、サービスと購読、Web アプリケーションおよびオーディエンスをレプリケートできます。これは、Campaign v7 から Campaign Standard の一方向のレプリケーションです。
 
-**高度な実装**&#x200B;により、例えば、追加の受信者フィールドまたはカスタム受信者テーブル（トランザクションテーブルなど）がある場合など、より複雑な使用例を実行できます。詳しくは、 [高度な実装を参照してくださ](#advanced-implementation)い。
+**高度な実装**&#x200B;により、例えば、追加の受信者フィールドまたはカスタム受信者テーブル（トランザクションテーブルなど）がある場合など、より複雑な使用例を実行できます。[高度な実装](#advanced-implementation)を参照してください。
 
 ### パッケージのインストール {#installing-the-package}
 
-To use the feature, the **[!UICONTROL ACS Connector]** package needs to be installed. これは、常にアドビの技術管理者またはコンサルタントによって実行されます。
+この機能を使用するには、**[!UICONTROL ACS コネクタ]**&#x200B;パッケージをインストールする必要があります。これは、常にアドビの技術管理者またはコンサルタントによって実行されます。
 
-All the technical elements related to ACS Connector are available in the **[!UICONTROL Administration > ACS Connector]** node of the explorer.
+ACS コネクタに関連するすべての技術要素は、エクスプローラーの&#x200B;**[!UICONTROL 管理／ACS コネクタ]**&#x200B;ノードで使用できます。
 
 ### テクニカルワークフローおよびレプリケーションワークフロー {#technical-and-replication-workflows}
 
-After the installation of the package, two technical workflows are available under **[!UICONTROL Administration > ACS Connector > Process]**.
+このパッケージをインストールしたら、**[!UICONTROL 管理／ACS コネクタ／プロセス]**&#x200B;で、テクニカルワークフローを使用できます。
 
 >[!CAUTION]
 >
@@ -143,24 +143,24 @@ After the installation of the package, two technical workflows are available und
 
 ![](assets/acs_connect_implementation_3.png)
 
-* **[!UICONTROL `[ACS] Quarantine synchronization`]** （検疫同期）:このワークフローは、すべての検疫情報を同期します。 Campaign v7 のすべての新しい強制隔離は、Campaign Standard にレプリケートされます。Campaign Standard からのすべての新しい強制隔離は、Campaign v7 にレプリケートされます。これにより、すべての除外ルールが Campaign v7 と Campaign Standard との間で必ず同期されます。
-* **[!UICONTROL `[ACS] Security group synchronization`]** (securityGroupSync):このワークフローは、権限の変換に使用されます。 詳しくは、権 [利変換を参照してください](#rights-conversion)。
+* **[!UICONTROL `[ACS] Quarantine synchronization`]**（quarantineSync）：このワークフローは、すべての強制隔離情報を同期します。Campaign v7 のすべての新しい強制隔離は、Campaign Standard にレプリケートされます。Campaign Standard からのすべての新しい強制隔離は、Campaign v7 にレプリケートされます。これにより、すべての除外ルールが Campaign v7 と Campaign Standard との間で必ず同期されます。
+* **[!UICONTROL `[ACS] Security group synchronization`]**（securityGroupSync）：このワークフローは、権限の変換に使用されます。[権限の変換](#rights-conversion)を参照してください。
 
 以下のレプリケーションワークフローが「使用準備完了」テンプレートとして使用できます。Adobe Campaign コンサルタントによって実装される必要があります。
 
 ![](assets/acs_connect_implementation_2.png)
 
-* **[!UICONTROL `[ACS] Profile replication`]** (newProfileReplication):この増分ワークフローは、受信者をCampaign Standardに複製します。 デフォルトでは、すべての標準の受信者フィールドをレプリケートします。デフォルトの受 [信者フィールドを参照してくださ](#default-recipient-fields)い。
-* **[!UICONTROL `[ACS] Service replication`]** (newServiceReplication):この増分ワークフローは、選択したサービスをCampaign Standardに複製します。 「Webアプリケーションの同期」の使 [用例を参照してくださ](../../integrations/using/synchronizing-web-applications.md)い。
-* **[!UICONTROL `[ACS] Landing pages replication`]** (newLandingPageReplication):この増分ワークフローは、選択したWebアプリケーションをCampaign Standardに複製します。 Campaign v7 Web アプリケーションは、Campaign Standard でランディングページとして表示されます。「Webアプリケーションの同期」の使 [用例を参照してくださ](../../integrations/using/synchronizing-web-applications.md)い。
-* **[!UICONTROL `[ACS] New replication`]** (newReplication):この増分ワークフローは、カスタムテーブルの複製に使用できる例です。 詳しくは、 [高度な実装を参照してくださ](#advanced-implementation)い。
-* **[!UICONTROL `[ACS] Delivery-mesage replication`]** (newDlvMsgQualification):この増分ワークフローは、配信メッセージをCampaign StandardからCampaign v7に複製します。
-* **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication):この増分ワークフローは、配信ID、電子メールの部分的なログ、電子メールの追跡ログをCampaign StandardからCampaign v7に複製します。 ここでは、Campaign Standard から Campaign v7 の nms:recipients テーブルの一部であるプロファイルに送信された配信のみが考慮されます。
-* **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication):この増分ワークフローは、配信ID、電子メールの部分的なログ、電子メールの追跡ログをCampaign StandardからCampaign v7に複製します。 ここでは、Campaign Standard から Campaign v7 の（nms:recipient 以外の定義する）特定のテーブルの一部であるプロファイルに送信された配信のみが考慮されます。
+* **[!UICONTROL `[ACS] Profile replication`]**（newProfileReplication）：この増分ワークフローは、受信者を Campaign Standard にレプリケートします。デフォルトでは、すべての標準の受信者フィールドをレプリケートします。[デフォルトの受信者フィールド](#default-recipient-fields)を参照してください。
+* **[!UICONTROL `[ACS] Service replication`]**（newServiceReplication）：この増分ワークフローは、選択したサービスを Campaign Standard にレプリケートします。使用例の [Web アプリケーションの同期](../../integrations/using/synchronizing-web-applications.md)を参照してください。
+* **[!UICONTROL `[ACS] Landing pages replication`]**（newLandingPageReplication）：この増分ワークフローは、選択した Web アプリケーションを Campaign Standard にレプリケートします。Campaign v7 Web アプリケーションは、Campaign Standard でランディングページとして表示されます。使用例の [Web アプリケーションの同期](../../integrations/using/synchronizing-web-applications.md)を参照してください。
+* **[!UICONTROL `[ACS] New replication`]**（newReplication）：この増分ワークフローは、カスタムテーブルのレプリケートに使用できる例です。[高度な実装](#advanced-implementation)を参照してください。
+* **[!UICONTROL `[ACS] Delivery-mesage replication`]**（newDlvMsgQualification）：この増分ワークフローは、配信メッセージを Campaign Standard から Campaign v7 にレプリケートします。
+* **[!UICONTROL `[ACS] Profile delivery log replication`]**（newRcpDeliveryLogReplication）：この増分ワークフローは、配信 ID、E メール配信ログおよび E メールトラッキングログを Campaign Standard から Campaign v7 にレプリケートします。ここでは、Campaign Standard から Campaign v7 の nms:recipients テーブルの一部であるプロファイルに送信された配信のみが考慮されます。
+* **[!UICONTROL `[ACS] New delivery log replication`]**（newRcpDeliveryLogReplication）：この増分ワークフローは、配信 ID、E メール配信ログおよび E メールトラッキングログを Campaign Standard から Campaign v7 にレプリケートします。ここでは、Campaign Standard から Campaign v7 の（nms:recipient 以外の定義する）特定のテーブルの一部であるプロファイルに送信された配信のみが考慮されます。
 
 ### デフォルトの受信者フィールド {#default-recipient-fields}
 
-追加のフィールドまたはカスタムテーブル（トランザクションテーブルなど）がある場合、デフォルトではレプリケートされません。実行するには、高度な設定が必要です。詳しくは、 [高度な実装を参照してくださ](#advanced-implementation)い。
+追加のフィールドまたはカスタムテーブル（トランザクションテーブルなど）がある場合、デフォルトではレプリケートされません。実行するには、高度な設定が必要です。[高度な実装](#advanced-implementation)を参照してください。
 
 次に、基本的な実装でレプリケートされた受信者フィールドのリストを示します。これらは標準のフィールドです。
 
@@ -273,11 +273,11 @@ After the installation of the package, two technical workflows are available und
 
 権限は、Campaign v7 と Campaign Standard で扱いが異なります。Campaign v7 では、権限管理は、フォルダーベースであるのに対して、Campaign Standard では、単位アクセス（組織／地理的単位）に基づいています。Campaign Standard ユーザーは、制限コンテキストのセキュリティグループに属します。そのため、Campaign v7 権限システムは、Campaign Standard のシステムに合わせて変換される必要があります。権限の変換を実行するには、いくつかの方法があります。次に実装の例を示します。
 
-1. で、こ **[!UICONTROL Administration > ACS Connector > Rights management > Security groups]**&#x200B;のボタンを使 **[!UICONTROL Synchronize]** 用して、Campaign Standardのすべてのセキュリティグループを取得します。 標準の Campaign Standard グループは除外されます。
+1. **[!UICONTROL 管理／ACS コネクタ／権限管理／セキュリティグループ]**&#x200B;で、「**[!UICONTROL 同期]**」ボタンを使用して、すべての Campaign Standard セキュリティグループを取得します。標準の Campaign Standard グループは除外されます。
 
    ![](assets/acs_connect_implementation_4.png)
 
-1. 権限管理がフォルダーベースの場合は、に進み、必要な各フォ **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]** ルダーをセキュリティグループにマッピングします。
+1. 権限管理がフォルダーベースの場合、**[!UICONTROL 管理／ACS コネクタ／権限管理／フォルダーマッピング]**&#x200B;に移動して、必要な各フォルダーをセキュリティグループにマッピングします。
 
    ![](assets/acs_connect_implementation_5.png)
 
@@ -304,7 +304,7 @@ After the installation of the package, two technical workflows are available und
 
 基本的な実装では、標準の受信者フィールドがレプリケートされます。受信者スキーマに追加したカスタムフィールドをレプリケートする場合は、それらを識別する必要があります。
 
-1. の下で、 **[!UICONTROL Administration > ACS Connector > Data mapping]**&#x200B;テーブルにターゲットマッピングを作成 **[!UICONTROL nms:recipient]** します。
+1. **[!UICONTROL 管理／ACS コネクタ／データマッピング]**&#x200B;で、**[!UICONTROL nms:recipient]** テーブルのターゲティングマッピングを作成します。
 
    ![](assets/acs_connect_implementation_6.png)
 
@@ -312,7 +312,7 @@ After the installation of the package, two technical workflows are available und
 
    ![](assets/acs_connect_implementation_7.png)
 
-1. 専用のプロファイルレプリケーションワークフロー（テンプレートではなく、ワークフローインスタンス自体）を開きます。これらのフィールド **[!UICONTROL Query]** を含めるに **[!UICONTROL Update data]** は、アクティビティとを変更します。 See [Technical and replication workflows](#technical-and-replication-workflows).
+1. 専用のプロファイルレプリケーションワークフロー（テンプレートではなく、ワークフローインスタンス自体）を開きます。「**[!UICONTROL クエリ]**」および「**[!UICONTROL 更新日]**」アクティビティを変更して、これらのフィールドを含めます。[テクニカルワークフローおよびレプリケーションワークフロー](#technical-and-replication-workflows)を参照してください。
 
    ![](assets/acs_connect_implementation_8.png)
 
@@ -322,7 +322,7 @@ After the installation of the package, two technical workflows are available und
 
 基本的な実装では、標準の受信者テーブルがレプリケートされます。カスタム受信者テーブルを追加した場合、ここに、それらを識別する方法を示します。
 
-1. の下で、カ **[!UICONTROL Administration > ACS Connector > Data mapping]**&#x200B;スタムプロファイルテーブルにターゲットマッピングを作成します。
+1. **[!UICONTROL 管理／ACS コネクタ／データマッピング]**&#x200B;で、カスタムプロファイルテーブルのターゲティングマッピングを作成します。
 
    ![](assets/acs_connect_implementation_10.png)
 
@@ -330,6 +330,6 @@ After the installation of the package, two technical workflows are available und
 
    ![](assets/acs_connect_implementation_10.png)
 
-1. 権限管理がフォルダベースの場合は、に進み、カスタムテ **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]**&#x200B;ーブルにリンクされたフォルダのセキュリティグループを定義します。 詳しくは、権 [利変換を参照してください](#rights-conversion)。
-1. Use the **[!UICONTROL New replication]** workflow (not the template, but the workflow instance itself) to include the custom table and the fields to replicate. See [Technical and replication workflows](#technical-and-replication-workflows).
+1. 権限管理がフォルダーベースの場合、**[!UICONTROL 管理／ACS コネクタ／権限管理／フォルダーマッピング]**&#x200B;に移動して、カスタムテーブルにリンクされたフォルダーのセキュリティグループを定義します。[権限の変換](#rights-conversion)を参照してください。
+1. **[!UICONTROL 新規レプリケーション]**&#x200B;ワークフロー（テンプレートではなく、ワークフローインスタンス自体）を使用して、レプリケートするカスタムテーブルおよびフィールドを含めます。[テクニカルワークフローおよびレプリケーションワークフロー](#technical-and-replication-workflows)を参照してください。
 

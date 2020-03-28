@@ -14,7 +14,7 @@ discoiquuid: efe09c66-b74b-48f0-9042-5da4342e014e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cfb1b02a6261c001392b5cc6430f00206e802bb8
 
 ---
@@ -48,11 +48,11 @@ source-git-commit: cfb1b02a6261c001392b5cc6430f00206e802bb8
 
 1. 「**いいえ**」の分岐に&#x200B;**終了**&#x200B;アクティビティを追加します。これにより、既にワークフローが実行している場合は、何も実行されません。
 1. 「**はい**」の分岐に、必要なアクティビティを追加します。この例では、**クエリ**&#x200B;アクティビティおよび&#x200B;**データを更新**&#x200B;アクティビティです。
-1. Open the first activity, then add the **instance.vars.isRunning = true** command in the **[!UICONTROL Advanced]** tab. これにより、インスタンス変数が実行中に設定されます。
+1. 最初のアクティビティを開き、「**[!UICONTROL 詳細設定]**」タブで **instance.vars.isRunning = true** コマンドを追加します。これにより、インスタンス変数が実行中に設定されます。
 
    ![](assets/uc_dataupdate_query.png)
 
-1. Add an **End** activity at the end of the **[!UICONTROL Yes]** fork, then add the **instance.vars.isRunning = false** command in the **[!UICONTROL Advanced]** tab.
+1. **終了**&#x200B;アクティビティを「**[!UICONTROL はい]**」の分岐の最後に追加し、「**[!UICONTROL 詳細設定]**」タブで **instance.vars.isRunning = false** コマンドを追加します。
 
    これにより、ワークフローが実行している間は、何も実行されません。
 

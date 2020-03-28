@@ -14,7 +14,7 @@ discoiquuid: d678db05-cc44-4086-98a5-e5296e8e5de8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -50,7 +50,7 @@ JavaScript テンプレートは、スキーマやフォームと同様に、名
 
 様々な JavaScript ディレクティブが次の形式で表現されます。
 
-* Merge fields: displays the content of the data with the **`<%= <source> %>`** syntax where `<source>`is the source field of the data to be displayed.
+* 結合フィールド：**`<%= <source> %>`** 構文を使用してデータのコンテンツを表示します。`<source>` は表示するデータのソースフィールドです。
 * 命令ブロック：&lt;% タグと %> タグの間に含まれる一連の JavaScript 命令を実行します。
 
 **content** オブジェクトは、入力 XML ドキュメントのメイン要素を表します。
@@ -61,7 +61,7 @@ JavaScript テンプレートは、スキーマやフォームと同様に、名
 <h1><%= content.@name %></h1>
 ```
 
-The following code iterates on the `<chapter>` collection element:
+次のコードは、`<chapter>` コレクションの各要素に対して反復処理をおこないます。
 
 ```
 <% for each(var chapter in content.chapter) { %>
@@ -73,18 +73,18 @@ The following code iterates on the `<chapter>` collection element:
 
 **例**：
 
-* **コンテンツ。@name**: retrieves the value of the &quot;name&quot; attribute of the main element
-* **コンテンツ。@`['name']`**:コンテンツと同**&#x200B;じです。@name構文&#x200B;**
-* **content.chapter.length**:コレクション要素の要素数を返 `<chapter` します
-* **content.chapter`[0]`.@name**: retrieves the name of the first `<chapter>` element
-* **chapter.name()**:要素の名前を返しま `<chapter>` す
-* **chapter.parent().name()**:親要素の名前を返す `<chapter>`
+* **content.@name**：メイン要素の「name」属性の値を取得します。
+* **content.@`['name']`**：** content.@name **構文と同一です。
+* **content.chapter.length**：`<chapter` コレクション要素にある要素数を返します。
+* **content.chapter`[0]`.@name**：最初の `<chapter>` 要素の名前を取得します。
+* **chapter.name()**：`<chapter>` 要素の名前を返します。
+* **chapter.parent().name()**：`<chapter>` の親要素の名前を返します。
 
 >[!CAUTION]
 >
->Because the &#39;-&#39; character is reserved in the JavaScript language, the recovery of the value of any attribute or element containing this character must be carried out via the `['<field>']` syntax.
+>「-」文字は JavaScript 言語で予約されているので、この文字を含む属性または要素の値の復元は `['<field>']` 構文を使用して実行する必要があります。
 >
->For example: `content.@['offer-id']`.
+>例：`content.@['offer-id']`
 
 プログラミング言語のすべての機能（変数、ループ、条件付きテスト、関数など）を使用して、出力ドキュメントを構築できます。SOAP API にアクセスして、出力ドキュメントを高度なものにすることができます。
 
@@ -182,7 +182,7 @@ The following code iterates on the `<chapter>` collection element:
 >
 >JavaScript オブジェクトを初期化するために、関連付けられたデータモデルスキーマを入力する必要があります。
 
-To generate the preview of the output document at any time, select a content and an output format (HTML, Text, XML), then click **[!UICONTROL Generate]** :
+出力ドキュメントのプレビューを生成するには、コンテンツと出力フォーマット（HTML、テキスト、XML）を選択して、「**[!UICONTROL 生成]**」をクリックします。
 
 ![](assets/d_ncs_content_form17.png)
 
@@ -198,7 +198,7 @@ JavaScript テンプレートを使用して、次のコンテンツ管理を実
 
 この例では、次の手順に従います。
 
-1. Create the following schema (in this case: **neo:news**):
+1. 次のスキーマを作成します（この場合 **neo:news**）。
 
    ```
    <srcSchema _cs="Invitation (neo)"   entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Invitation" mappingType="sql" name="news" namespace="neo" xtkschema="xtk:srcSchema">
@@ -237,7 +237,7 @@ JavaScript テンプレートを使用して、次のコンテンツ管理を実
    </srcSchema>
    ```
 
-1. Create the linked **[!UICONTROL Content management]** type form (**neo:news**)
+1. リンクされた&#x200B;**[!UICONTROL コンテンツ管理]**&#x200B;タイプのフォーム（**neo:news**）を作成します。
 
    ```
    <form _cs="News (neo)" entitySchema="xtk:form"  img="xtk:form.png" label="News"  name="news" namespace="neo" type="contentForm" xtkschema="xtk:form">
@@ -371,7 +371,7 @@ JavaScript テンプレートを使用して、次のコンテンツ管理を実
 
 1. このコンテンツテンプレートを配信で使用できます。
 
-   For more on this, refer to [Using a content template](../../delivery/using/using-a-content-template.md).
+   詳しくは、[コンテンツテンプレートの使用](../../delivery/using/using-a-content-template.md)を参照してください。
 
 ## XSL スタイルシート {#xsl-stylesheets}
 
@@ -383,7 +383,7 @@ XSLT 言語を使用して、XML ドキュメントを出力ドキュメント�
 
 スタイルシートは、スキーマやフォームと同様に、名前と名前空間で識別されます。ただし、スタイルシートの名前には **.xsl** 拡張子を追加することをお勧めします。
 
-The identification key of a stylesheet is a string formed by the namespace and the name separated by a colon; for example: **cus:book.xsl**.
+スタイルシートの識別キーは、コロンで分けられた名前空間と名前によって形成される文字列です。例：**cus:book.xsl**
 
 ### スタイルシートの構造 {#structure-of-a-stylesheet}
 
@@ -415,16 +415,16 @@ The identification key of a stylesheet is a string formed by the namespace and t
 
 * 属性の値は引用符で囲む
 * 要素には開始マーカーと終了マーカーがなければならない
-* replace the &#39;&lt;&#39; or &#39;&amp;&#39; characters with the **&#39;&lt;&#39;** or **&#39;&amp;&#39;** entities,
+* 「&lt;」文字または「&amp;」文字は&#x200B;**「&lt;」**&#x200B;エンティティまたは&#x200B;**「&amp;」**&#x200B;エンティティで置き換える
 * 各 XSL 要素は **xsl** 名前空間を使用する必要がある
 
-A stylesheet must start with the XSL root element marker **`<xsl:stylesheet>`** and end with the **`</xsl:stylesheet>`** marker. XSL 名前空間は、次のように開始マーカー内で定義する必要があります。
+スタイルシートは、XSL ルート要素マーカー **`<xsl:stylesheet>`** で始まり、**`</xsl:stylesheet>`** マーカーで終了する必要があります。XSL 名前空間は、次のように開始マーカー内で定義する必要があります。
 
 ```
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 ```
 
-The **`<xsl:output>`** element specifies the format of the document generated. 目的の文字セットと出力フォーマットを指定します。
+**`<xsl:output>`** 要素で、生成するドキュメントのフォーマットを指定します。目的の文字セットと出力フォーマットを指定します。
 
 ```
 <xsl:output encoding="ISO-8859-1" method="html"/>
@@ -459,9 +459,9 @@ The **`<xsl:output>`** element specifies the format of the document generated. �
 
 ### HTML／XML の表示 {#displaying-html-xml}
 
-To display an **html** field, use the **disable-output-escaping=&quot;yes&quot;** option from the **`<xsl:value-of>`** directive. これにより、文字をXMLエンティティ（例えば、&lt;と&lt;）で置き換えるのを防ぐことができます。
+**html** フィールドを表示するには、**`<xsl:value-of>`** ディレクティブの **disable-output-escaping=&quot;yes&quot;** オプションを使用します。このオプションを使用すると、文字が XML エンティティに置き換えられる（例えば、&lt; が &lt; に置き換えられる）ことを回避できます。
 
-The **`<xsl:text>`** directive with the **disable-output-escaping=&quot;yes&quot;** option lets you insert JavaScript tags for personalization fields or conditional tests.
+**disable-output-escaping=&quot;yes&quot;** オプションの **`<xsl:text>`** ディレクティブを使用して、パーソナライゼーションフィールド用または条件付きテスト用の JavaScript タグを挿入できます。
 
 例：
 
@@ -487,7 +487,7 @@ The **`<xsl:text>`** directive with the **disable-output-escaping=&quot;yes&quot
 
 テンプレートまたは変数のライブラリを構築して、複数のスタイルシートで共有できます。上述の「longMonth」**テンプレート**&#x200B;は、後で再利用できるように、スタイルシート内の離れた場所にテンプレートを配置する典型的な有効事例です。
 
-The **`<xsl:include>`** directive indicates the name of the stylesheet to be included in the document.
+**`<xsl:include>`** ディレクティブは、ドキュメントに取り込むスタイルシートの名前を示します。
 
 **例**：「common.xsl」スタイルシートの取り込み
 
@@ -510,7 +510,7 @@ The **`<xsl:include>`** directive indicates the name of the stylesheet to be inc
 
 ![](assets/d_ncs_content_form14.png)
 
-To generate a preview of the output document at any time, select a content instance and the format (HTML, Text, XML), and then click **[!UICONTROL Generate]** :
+出力ドキュメントのプレビューを生成するには、コンテンツインスタンスとフォーマット（HTML、テキスト、XML）を選択して、「**[!UICONTROL 生成]**」をクリックします。
 
 ![](assets/d_ncs_content_form15.png)
 
@@ -526,7 +526,7 @@ HTML 出力ドキュメントに入力する画像は、絶対参照または相
 
 相対参照を使用して、画像を格納しているサーバーの URL を **NcmRessourcesDir** オプションおよび **NcmRessourcesDirPreview** オプションに入力できます。これらのオプションに、Adobe Campaign のクライアントコンソールでパブリッシュおよびプレビューする画像の場所が格納されます。
 
-These two options are accessible via the option management screen in the **[!UICONTROL Administration > Platform > Options]** folder.
+これら 2 つのオプションには、**[!UICONTROL 管理／プラットフォーム／オプション]**&#x200B;フォルダー内のオプション管理画面からアクセスできます。
 
 **例**：
 
@@ -547,7 +547,7 @@ These two options are accessible via the option management screen in the **[!UIC
 
 ### パブリックリソースの使用 {#using-public-resources}
 
-You can also use **[!UICONTROL Public resources]** to declare images and upload them onto the server depending on the instance settings entered in the deployment wizard.
+**[!UICONTROL パブリックリソース]**&#x200B;を使用して、デプロイウィザードに入力したインスタンス設定に応じて画像を宣言し、サーバー上にアップロードすることもできます。
 
 その後、その画像をコンテンツに呼び出すことができます。そのためには、次の構文をコンテンツ管理スキーマで使用します。
 
@@ -567,17 +567,17 @@ You can also use **[!UICONTROL Public resources]** to declare images and upload 
 
 >[!NOTE]
 >
->For more on **[!UICONTROL Public resources]** and how to configure and use them, refer to [this section](../../installation/using/deploying-an-instance.md#managing-public-resources).
+>**[!UICONTROL パブリックリソース]**&#x200B;とその設定および使用方法について詳しくは、[この節](../../installation/using/deploying-an-instance.md#managing-public-resources)を参照してください。
 
 ## 日付の表示 {#date-display}
 
-XML入力ドキュメントでは、日付は内部XML形式で保存されます。 **YYYY/MM/DD HH:MM:SS** （例：2018/10/01 12:23:30）。
+XML 入力ドキュメントでは、日付は内部 XML 形式（**YYYY/MM/DD HH:MM:SS**）で保存されます。例：2018/10/01 12:23:30
 
 Adobe Campaign では、以下に詳しく説明するように、JavaScript テンプレートと XSL スタイルシート用の日付の書式設定関数を提供しています。
 
 ### JavaScript の日付の書式設定 {#javascript-date-formatting}
 
-To display a date in the desired format, Adobe Campaign provides the **formatDate** function that takes as input the content of the date and a string specifying the output format with the following syntax: **%4Y/%2M/%2D %2H%2N%2S**
+目的のフォーマットで日付を表示するには、**formatDate** 関数を使用します。この関数は、日付のコンテンツと出力フォーマットを指定する文字列（構文は **%4Y/%2M/%2D %2H%2N%2S**）を入力として取得します。
 
 例：
 
@@ -608,7 +608,7 @@ To display a date in the desired format, Adobe Campaign provides the **formatDat
 
 ### XSL の日付の書式設定 {#xsl-date-formatting}
 
-XSLT 構文に標準の日付管理関数はありません。目的のフォーマットで日付を表示するには、外部関数 **date-format** を使用します。This function takes as its input the content of the date and a string specifying the output format with the following syntax: **%4Y/%2M/%2D %2H%2N%2S**
+XSLT 構文に標準の日付管理関数はありません。目的のフォーマットで日付を表示するには、外部関数 **date-format** を使用します。この関数は、日付のコンテンツと出力フォーマットを指定する文字列（構文は **%4Y/%2M/%2D %2H%2N%2S**）を入力として取得します。
 
 例：
 

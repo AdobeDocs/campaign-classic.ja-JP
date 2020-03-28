@@ -14,7 +14,7 @@ discoiquuid: 3af763ad-6b0d-4f4c-aed1-c5e12efd4760
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 ---
@@ -34,9 +34,9 @@ Adobe Campaign では、データベースのデータを使用して動的で�
 >
 >プライバシー保護のために、すべての外部リソースに対して HTTPS を使用することをお勧めします。
 
-## Webアプリケーションの範囲 {#web-application-scope}
+## Web アプリケーションのスコープ {#web-application-scope}
 
-Adobe CampaignのWebアプリケーションは、次の機能にアクセスできます。
+Adobe Campaign の Web アプリケーションでは、次の機能を利用できます。
 
 * 複数ページのフォームの作成
 * 統合された翻訳ツールによる多言語の調査の管理
@@ -51,7 +51,7 @@ Adobe CampaignのWebアプリケーションは、次の機能にアクセスで
 * 画像、ビデオ、ハイパーテキストリンク、Captcha などの使用
 * リアルタイムの応答の監視
 
-The optional **Survey** creation module offers the following additional functionalities:
+オプションの&#x200B;**調査**&#x200B;作成モジュールは、次の追加機能を提供します。
 
 * データベースの動的な拡張（最初のデータテンプレートに含まれない応答の作成）
 * 専用レポートの生成
@@ -64,7 +64,7 @@ Web アプリケーションと比較すると、調査は、シンプルなグ�
 >
 >Adobe Campaign の Web フォームの全体的な機能について詳しくは、[この節](../../web/using/about-web-forms.md)を参照してください。
 
-## Webアプリケーションの実装 {#web-application-implementation}
+## Web アプリケーションの実装 {#web-application-implementation}
 
 Web アプリケーションを作成および投稿するには、次を実行する必要があります。
 
@@ -75,14 +75,14 @@ Web アプリケーションを作成および投稿するには、次を実行�
 1. 必要に応じて、プリロード、テストおよび保存手順を追加したり、アクセス制御システムを設定したりすることができます（主にエクストラネットに公開するフレームワーク内で）。
 1. Web アプリケーションをパブリッシュして、エクストラネットまたは Adobe Campaign で利用できるようにします。
 
-## Webアプリケーションの初期設定 {#web-application-initial-configuration}
+## Web アプリケーションの初期設定 {#web-application-initial-configuration}
 
-Webアプリケーションは、のリンクと **[!UICONTROL Web Applications]** タブで作成 **[!UICONTROL Campaigns]** され **[!UICONTROL Profiles and targets]** ます。
+Web アプリケーションは、「**[!UICONTROL キャンペーン]**」および「**[!UICONTROL プロファイルとターゲット]**」タブの「**[!UICONTROL Web アプリケーション]**」リンクを使用して作成されます。
 
-Webアプリケーションは、Adobe Campaignツ **[!UICONTROL Resources > Online > Web Applications]** リーのノードに保存されます。 設定は、次のフォルダーに分類されます。
+Web アプリケーションは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／オンライン／Web アプリケーション]**&#x200B;ノードに格納されます。設定は、次のフォルダーに分類されます。
 
-* **[!UICONTROL Administration > Configuration > Form renderings]**:Webフォームプレゼンテーション（アプリケーションおよび調査）用のレンダリングテンプレートが含まれます。 テンプレートを使用すると、フォームを生成できます。また、CSS スタイルシートを使用します。このスタイルシートは、テンプレートレベルでオーバーロードできます。詳しくは、[このページ](../../web/using/form-rendering.md#selecting-the-form-rendering-template)を参照してください。
-* **[!UICONTROL Resources > Templates > Web application templates]**:フォームテンプレートが含まれます。 フォームまたは Web アプリケーションを作成するには、テンプレートから開始する必要があります。
+* **[!UICONTROL 管理／設定／フォームのレンダリング]**：Web フォームプレゼンテーションのレンダリングテンプレートが含まれます（アプリケーションおよび調査）。テンプレートを使用すると、フォームを生成できます。また、CSS スタイルシートを使用します。このスタイルシートは、テンプレートレベルでオーバーロードできます。詳しくは、[このページ](../../web/using/form-rendering.md#selecting-the-form-rendering-template)を参照してください。
+* **[!UICONTROL リソース／テンプレート／Web アプリケーションテンプレート]**：フォームテンプレートが含まれます。フォームまたは Web アプリケーションを作成するには、テンプレートから開始する必要があります。
 
 ## Web アプリケーションテンプレート {#web-application-templates}
 
@@ -90,9 +90,9 @@ Webアプリケーションは、Adobe Campaignツ **[!UICONTROL Resources > Onl
 
 >[!NOTE]
 >
->既存の Web アプリケーションをテンプレートに変換できます。そのためには、フォームを選択して右クリックし、選択 **[!UICONTROL Actions > Save as template...]**.
+>既存の Web アプリケーションをテンプレートに変換できます。そのためには、フォームを選択して右クリックし、**[!UICONTROL アクション／テンプレートとして保存]**&#x200B;を選択します。
 
-Adobe Campaignツリーのノードを使用して、新し **[!UICONTROL Resources > Templates > Web Application templates]** いテンプレートを作成できます。
+Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／テンプレート／Web アプリケーションテンプレート]**&#x200B;ノードで、新しいテンプレートを作成できます。
 
 以下に示すように、作成ウィザードを使用して、有効にするオプションを選択できます。
 

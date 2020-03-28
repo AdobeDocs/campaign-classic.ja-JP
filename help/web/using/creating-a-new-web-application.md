@@ -14,7 +14,7 @@ discoiquuid: 84f9dbad-365f-405d-88a0-14171fbb805f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 作成時に Web アプリケーションの種類が選択されます。
 
-「キャンペーン」タブ **に移動し** 、メニューを選択 **[!UICONTROL Web Applications]** します。 ボタンをクリッ **[!UICONTROL Create]** クします。 使用する Web アプリケーションテンプレートを選択します。
+「**キャンペーン**」タブに移動し、**[!UICONTROL Web アプリケーション]**&#x200B;メニューを選択します。「**[!UICONTROL 作成]**」ボタンをクリックします。使用する Web アプリケーションテンプレートを選択します。
 
 ![](assets/webapp_create_from_campaign.png)
 

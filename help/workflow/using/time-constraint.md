@@ -14,7 +14,7 @@ discoiquuid: 798409af-b236-4bb5-ac0f-90f0a19db345
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 アクティビティのラベルを入力し、ワークフロータスクを一時停止する期間を指定します。
 
-このオプシ **[!UICONTROL Try again later if outside of execution period]** ョンを選択すると、実行時間枠外でタスクを再開できます。 ワークフローアクションを停止後に正常に破棄する場合は、このオプションの選択を解除します。
+「**[!UICONTROL 実行期間外の場合は後で再試行]**」オプションが選択されている場合、実行期間外でも、タスクを再起動できます。停止期間の後で、ワークフローのアクションを完全に中止する場合、このオプションの選択を解除します。
 
 ![](assets/s_user_scheduled_wait.png)
 

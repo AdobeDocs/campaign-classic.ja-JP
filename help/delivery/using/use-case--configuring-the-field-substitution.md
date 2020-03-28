@@ -14,7 +14,7 @@ discoiquuid: a104fcab-75e6-4d73-bc3d-88570de6df7f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 003bac4c5d89290b9d3653d6ddfab7284b68642d
 
 ---
@@ -39,7 +39,7 @@ source-git-commit: 003bac4c5d89290b9d3653d6ddfab7284b68642d
 
 ## 配信の作成 {#step-1---creating-a-delivery}
 
-配信の作成手順について詳しくは、「電子メール配信の [作成」の節を参照してください](../../delivery/using/creating-an-email-delivery.md) 。
+配信の作成手順について詳しくは、[E メール配信の作成](../../delivery/using/creating-an-email-delivery.md)の節で説明しています。
 
 以下は、配信責任者がニュースレターを作成した例です。
 
@@ -58,7 +58,7 @@ source-git-commit: 003bac4c5d89290b9d3653d6ddfab7284b68642d
 
 この列挙は、顧客が好む読み物のジャンルを指定するためのものです。
 
-データスキーマに加えたこの変更がシードアドレスの&#x200B;**入力フォーム**&#x200B;に表示されるようにするには、入力フォームを更新する必要があります。「入力フォーム [の更新」の節を参照](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) 。
+データスキーマに加えたこの変更がシードアドレスの&#x200B;**入力フォーム**&#x200B;に表示されるようにするには、入力フォームを更新する必要があります。[入力フォームの更新](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form)の節を参照してください。
 
 ## パーソナライゼーションの設定 {#configuring-personalization}
 
@@ -68,7 +68,7 @@ source-git-commit: 003bac4c5d89290b9d3653d6ddfab7284b68642d
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. 配信リストとシードアドレスを設定します。ターゲットの [訪問者の識別を参照](../../delivery/using/steps-defining-the-target-population.md)。
+1. 配信リストとシードアドレスを設定します。[ターゲット母集団の特定](../../delivery/using/steps-defining-the-target-population.md)を参照してください。
 
    この例では、**SF ジャンルを好んで読む**&#x200B;顧客をメインターゲット母集団にします。
 
@@ -80,9 +80,9 @@ source-git-commit: 003bac4c5d89290b9d3653d6ddfab7284b68642d
 
    >[!NOTE]
    >
-   >リンクの詳細については、 **[!UICONTROL Edit the dynamic condition...]** 「使用例」を参照し [てください。条件のシードアドレスの選択](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)。
+   >**[!UICONTROL 動的条件を編集...]**&#x200B;リンクについて詳しくは、[使用例：条件によるシードアドレスの選択](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)を参照してください。
 
-1. Click the **[!UICONTROL Preview]** tab then select a seed address to test the personalization.
+1. 「**[!UICONTROL プレビュー]**」タブをクリックし、いずれかのシードアドレスを選択して、パーソナライゼーションをテストします。
 
    ![](assets/dlv_seeds_usecase_28.png)
 
@@ -90,7 +90,7 @@ source-git-commit: 003bac4c5d89290b9d3653d6ddfab7284b68642d
 
    フィールドのランダムな置換は、**配信時**&#x200B;に実行されます。
 
-1. ボタンをクリッ **[!UICONTROL Send]** クします。
+1. 「**[!UICONTROL 送信]**」ボタンをクリックします。
 1. 配信を分析し、**配信を確定**&#x200B;します。
 
    シードアドレスに含まれるユーザーの受信ボックスに配信が届きます。

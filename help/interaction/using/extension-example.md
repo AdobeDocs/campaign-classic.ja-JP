@@ -14,7 +14,7 @@ discoiquuid: 990b6cbc-9b7b-4278-a635-653d5abafe87
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -36,5 +36,5 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
    ![](assets/s_ncs_configuration_offer_context.png)
 
-* SOAP 呼び出しを設定する際に、**context** XML 要素を挿入し、インタラクションスキーマに追加されたコンテキスト情報を参照します。詳しくは、「SOAP（サーバー側） [を使用した統合」を参照してください](../../interaction/using/integration-via-soap--server-side-.md)。
+* SOAP 呼び出しを設定する際に、**context** XML 要素を挿入し、インタラクションスキーマに追加されたコンテキスト情報を参照します。詳しくは、[SOAP による統合（サーバーサイド）](../../interaction/using/integration-via-soap--server-side-.md)を参照してください。
 

@@ -14,7 +14,7 @@ discoiquuid: 145c26cc-c868-4b7b-904d-6af577fbcb83
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -38,7 +38,7 @@ Web アプリケーションは、編集言語で設計されます。これは�
 
 ## 言語の選択{#choosing-languages}
 
-To define one or more translation languages, click the **[!UICONTROL Properties]** button of the Web application, then the **[!UICONTROL Localization]** tab. Click the **[!UICONTROL Add]** button to define a new translation language for the Web application.
+1 つまたは複数の翻訳言語を定義するには、Web アプリケーションの「**[!UICONTROL プロパティ]**」ボタンをクリックし、「**[!UICONTROL ローカライゼーション]**」タブをクリックします。**[!UICONTROL 追加]**&#x200B;ボタンをクリックして、Web アプリケーションの新しい翻訳言語を定義します。
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ To define one or more translation languages, click the **[!UICONTROL Properties]
 
 ![](assets/s_ncs_admin_survey_add_lang.png)
 
-When you add translation languages for a Web application (or when the default language and the editing language are different), a **[!UICONTROL Translation]** sub-tab is added to the **[!UICONTROL Edit]** tab to manage translations.
+Web アプリケーションの翻訳言語を追加する場合（またはデフォルト言語と編集言語が異なる場合）、翻訳を管理するための「**[!UICONTROL 翻訳]**」サブタブが「**[!UICONTROL 編集]**」タブに追加されます。
 
 Adobe Campaign には、複数言語の翻訳を実行および管理するためのツールが含まれています。このエディターを使用すると、翻訳または承認する文字列を表示したり、インターフェイスに直接翻訳を入力したり、外部翻訳に対して文字列をインポート／エクスポートしたりできます。
 
@@ -54,11 +54,11 @@ Adobe Campaign には、複数言語の翻訳を実行および管理するた�
 
 ### 文字列の収集 {#collecting-strings}
 
-The **[!UICONTROL Translations]** tab lets you enter translations for the character strings that make up the Web application.
+「**[!UICONTROL 翻訳]**」タブを使用すると、Web アプリケーションを構成する文字列の翻訳を入力できます。
 
-このタブを初めて開いたときは、何のデータも含まれていません。リンクをクリ **[!UICONTROL Collect the strings to translate]** ックして、Webアプリケーション内の文字列を更新します。
+このタブを初めて開いたときは、何のデータも含まれていません。**[!UICONTROL 翻訳する文字列を収集]**&#x200B;リンクをクリックし、Web アプリケーションの文字列を更新します。
 
-Adobe Campaign collects labels of fields and strings defined in the **[!UICONTROL Texts]** tabs of all static elements: HTML blocks, Javascript, etc. 静的要素について詳しくは、[Web フォームの静的要素](../../web/using/static-elements-in-a-web-form.md)で説明しています。
+Adobe Campaign はフィールドのラベルとすべての静的要素（HTML ブロック、Javascript など）の「**[!UICONTROL テキスト]**」タブで定義された文字列を収集します。静的要素について詳しくは、[Web フォームの静的要素](../../web/using/static-elements-in-a-web-form.md)で説明しています。
 
 ![](assets/s_ncs_admin_survey_trad_tab.png)
 
@@ -70,19 +70,19 @@ Adobe Campaign collects labels of fields and strings defined in the **[!UICONTRO
 
 文字列が翻訳されるたびに、その翻訳が翻訳辞書に追加されます。
 
-When the collection process detects that a translation already exists, this translation is displayed in the **[!UICONTROL Text]** column of the string. The status of the string is turned to **[!UICONTROL Translated]**.
+翻訳が既に存在していることを収集プロセスが検出すると、文字列の&#x200B;**[!UICONTROL テキスト]**&#x200B;列に翻訳が表示されます。文字列のステータスは、「**[!UICONTROL 翻訳済み]**」に変わります。
 
-For characters strings which have never been translated, the **[!UICONTROL Text]** field is empty and the status is **[!UICONTROL To translate]**.
+翻訳されたことのない文字列の場合、「**[!UICONTROL テキスト]**」フィールドは空になり、ステータスは「**[!UICONTROL 翻訳する]**」になります。
 
 ### 文字列のフィルタリング {#filtering-strings}
 
-デフォルトでは、Web アプリケーションの各翻訳言語が表示されます。デフォルトでは、フィルターには、言語とステータスの 2 つがあります。ボタンをクリ **[!UICONTROL Filters]** ックし、をクリックし **[!UICONTROL By language or status]** て、一致するドロップダウンボックスを表示します。 また、詳細フィルターを作成することもできます。詳しくは、[このページ](../../platform/using/creating-filters.md#creating-an-advanced-filter)を参照してください。
+デフォルトでは、Web アプリケーションの各翻訳言語が表示されます。デフォルトでは、フィルターには、言語とステータスの 2 つがあります。「**[!UICONTROL フィルター]**」ボタンをクリックし、「**[!UICONTROL 言語別またはステータス別]**」をクリックして、ドロップダウンボックスに一致するものを表示します。また、詳細フィルターを作成することもできます。詳しくは、[このページ](../../platform/using/creating-filters.md#creating-an-advanced-filter)を参照してください。
 
 ![](assets/s_ncs_admin_survey_trad_tab_en.png)
 
-Go to the **[!UICONTROL Language]** drop-down box to select the translation language.
+**[!UICONTROL 言語]**&#x200B;ドロップダウンボックスに移動して、翻訳言語を選択します。
 
-To display only untranslated strings, select **[!UICONTROL To translate]** in the **[!UICONTROL Status]** drop-down box. また、翻訳済みまたは承認済みの文字列のみを表示することもできます。
+未翻訳の文字列のみを表示するには、**[!UICONTROL ステータス]**&#x200B;ドロップダウンボックスで「**[!UICONTROL 翻訳する]**」を選択します。また、翻訳済みまたは承認済みの文字列のみを表示することもできます。
 
 ### 文字列の翻訳 {#translating-strings}
 
@@ -92,13 +92,13 @@ To display only untranslated strings, select **[!UICONTROL To translate]** in th
 
    ソース文字列が、ウィンドウの上のセクションに表示されます。
 
-1. 下のセクションに翻訳を入力します。承認するには、このオプションをオンに **[!UICONTROL Translation approved]** します。
+1. 下のセクションに翻訳を入力します。承認するには、「**[!UICONTROL 翻訳承認済み]**」オプションをチェックします。
 
    >[!NOTE]
    >
    >翻訳承認済みはオプションで、処理をブロックしません。
 
-   Non-approved translations are displayed as **[!UICONTROL Translated]**. Approved translations are displayed as **[!UICONTROL Approved]**.
+   未承認の翻訳は、「**[!UICONTROL 翻訳済み]**」と表示されます。承認済みの翻訳は、「**[!UICONTROL 承認済み]**」と表示されます。
 
 ## 外部での翻訳 {#externalizing-translation}
 
@@ -110,34 +110,34 @@ To display only untranslated strings, select **[!UICONTROL To translate]** in th
 
 ### ファイルのエクスポート {#exporting-files}
 
-1. 文字列を読み込むWebアプリケーションを選択し、右クリックして、 **[!UICONTROL Actions > Export strings for translation...]**
+1. 文字列をインポートする Web アプリケーションを選択して、右クリックし、**[!UICONTROL アクション／翻訳の文字列をエクスポート]**&#x200B;を選択します。
 
    ![](assets/s_ncs_admin_survey_trad_export.png)
 
-1. 次のいずれかを選択しま **[!UICONTROL Export strategy]** す。
+1. 「**[!UICONTROL エクスポート戦略]**」を選択します。
 
-   * **[!UICONTROL One file per language]**:書き出しでは、翻訳言語ごとに1つのファイルが生成されます。 各ファイルは、選択したすべての Web アプリケーションで共通です。
-   * **[!UICONTROL One file per Web application]**:エクスポートでは、選択したWebアプリケーションごとに1つのファイルが生成されます。 各ファイルには、すべての翻訳言語が含まれます。
-
-      >[!NOTE]
-      >
-      >このタイプのエクスポートは、XLIFF エクスポートでは使用できません。
-
-   * **[!UICONTROL One file per language and per Web application]**:書き出しでは複数のファイルが生成されます。 各ファイルには、Web アプリケーションごとに 1 つの翻訳言語が含まれます。
-   * **[!UICONTROL One file for all]**:書き出しにより、すべてのWebアプリケーション用に単一の多言語ファイルが生成されます。 選択したすべての Web アプリケーションのすべての翻訳言語が含まれます。
+   * **[!UICONTROL 言語ごとに 1 ファイル]**：エクスポートは、翻訳言語ごとに 1 ファイルを生成します。各ファイルは、選択したすべての Web アプリケーションで共通です。
+   * **[!UICONTROL 各 Web アプリケーションにつき 1 ファイル]**：エクスポートは、選択した Web アプリケーションごとに 1 ファイルを生成します。各ファイルには、すべての翻訳言語が含まれます。
 
       >[!NOTE]
       >
       >このタイプのエクスポートは、XLIFF エクスポートでは使用できません。
 
-1. Then chose the **[!UICONTROL Target folder]** where files will be recorded.
-1. Select the file format ( **[!UICONTROL CSV]** or **[!UICONTROL XLIFF]** ) and click **[!UICONTROL Start]**.
+   * **[!UICONTROL 言語および Web アプリケーションごとに 1 ファイル]**：エクスポートは、複数のファイルを生成します。各ファイルには、Web アプリケーションごとに 1 つの翻訳言語が含まれます。
+   * **[!UICONTROL 全部で 1 つのファイル]**：エクスポートは、すべての Web アプリケーションに対して 1 つの複数言語ファイルを生成します。選択したすべての Web アプリケーションのすべての翻訳言語が含まれます。
+
+      >[!NOTE]
+      >
+      >このタイプのエクスポートは、XLIFF エクスポートでは使用できません。
+
+1. 次に、ファイルが記録される「**[!UICONTROL ターゲットフォルダー]**」を選択します。
+1. ファイル形式（**[!UICONTROL CSV]** または **[!UICONTROL XLIFF]**）を選択して、「**[!UICONTROL 開始]**」をクリックします。
 
 ![](assets/s_ncs_admin_survey_trad_export_start.png)
 
 >[!NOTE]
 >
->エクスポートファイルの名前は、自動的に生成されます。同じエクスポートを複数回実行すると、既存のファイルは新しいファイルに置き換えられます。If you need to keep the previous files, change the **[!UICONTROL Target folder]** , then click **[!UICONTROL Start]** again to run the export.
+>エクスポートファイルの名前は、自動的に生成されます。同じエクスポートを複数回実行すると、既存のファイルは新しいファイルに置き換えられます。前のファイルを保持する必要がある場合は、「**[!UICONTROL ターゲットフォルダー]**」を変更してから、「**[!UICONTROL 開始]**」を再びクリックして、エクスポートを実行します。
 
 **CSV 形式**&#x200B;でファイルをエクスポートする場合、各言語はステータスおよび承認ステータスにリンクされます。**承認**&#x200B;列を使用すると、翻訳を承認できます。この列には、値 **Yes** または **No** が含まれることがあります。統合エディター（[エディターでの翻訳の管理](#managing-translations-in-the-editor)を参照）については、翻訳の承認はオプションで、処理をブロックしません。
 
@@ -145,7 +145,7 @@ To display only untranslated strings, select **[!UICONTROL To translate]** in th
 
 外部翻訳が完了したら、翻訳済みファイルをインポートできます。
 
-1. Webアプリケーションのリストに移動し、右クリックして、「 **[!UICONTROL Actions > Import translated strings...]**
+1. Web アプリケーションのリストに移動して、右クリックし、**[!UICONTROL アクション／翻訳済み文字列をインポート]**&#x200B;を選択します。
 
    >[!NOTE]
    >
@@ -153,7 +153,7 @@ To display only untranslated strings, select **[!UICONTROL To translate]** in th
 
    ![](assets/s_ncs_admin_survey_trad_import.png)
 
-1. Select the file to import, then click **[!UICONTROL Upload]**.
+1. インポートするファイルを選択し、「**[!UICONTROL アップロード]**」をクリックします。
 
    ![](assets/s_ncs_admin_survey_trad_import_start.png)
 
@@ -163,7 +163,7 @@ To display only untranslated strings, select **[!UICONTROL To translate]** in th
 
 ## フォームの表示言語の変更 {#changing-forms-display-language}
 
-Web forms are displayed in the default language specified in the **[!UICONTROL Localization]** tab of the Web application properties. 言語を変更するには、URL の末尾に次の文字列を追加する必要があります（**xx** は、言語のシンボルです）。
+Web フォームは、Web アプリケーションプロパティの「**[!UICONTROL ローカライゼーション]**」タブで指定されたデフォルト言語で表示されます。言語を変更するには、URL の末尾に次の文字列を追加する必要があります（**xx** は、言語のシンボルです）。
 
 ```
 ?lang=xx
@@ -419,7 +419,7 @@ URL の言語の前に他のパラメーターがある場合。例：**https://
 
 ## 例：いくつかの言語での Web アプリケーションの表示 {#example--displaying-a-web-application-in-several-languages}
 
-次の Web フォームは、英語、フランス語、ドイツ語、スペイン語の 4 つの言語で使用できます。The character strings have all been translated via the **[!UICONTROL Translation]** tab of the Web form. デフォルト言語が英語なので、調査がパブリッシュされる際には、英語で表示するための標準 URL が使用されます。
+次の Web フォームは、英語、フランス語、ドイツ語、スペイン語の 4 つの言語で使用できます。文字列は、すべて Web フォームの「**[!UICONTROL 翻訳]**」タブで翻訳されています。デフォルト言語が英語なので、調査がパブリッシュされる際には、英語で表示するための標準 URL が使用されます。
 
 ![](assets/s_ncs_admin_survey_trad_sample_fr.png)
 
@@ -446,7 +446,7 @@ URL の言語の前に他のパラメーターがある場合。例：**https://
 
 ### システム文字列の翻訳 {#translating-the-system-strings}
 
-システム文字列は、すべての Web アプリケーションで標準の文字列です。例：、 **[!UICONTROL Next]** ボタ **[!UICONTROL Previous]**&#x200B;ン、メ **[!UICONTROL Approve]** ッセ **[!UICONTROL Loading]** ージなど デフォルトでは、一部の言語には、これらの文字列の翻訳を含む辞書が含まれています。言語のリストについて詳しくは、[フォームの表示言語の変更](#changing-forms-display-language)を参照してください。
+システム文字列は、すべての Web アプリケーションで標準の文字列です。例：「**[!UICONTROL 次へ]**」、「**[!UICONTROL 前へ]**」、「**[!UICONTROL 承認]**」の各ボタン、**[!UICONTROL 読み込み中]**&#x200B;メッセージなど。デフォルトでは、一部の言語には、これらの文字列の翻訳を含む辞書が含まれています。言語のリストについて詳しくは、[フォームの表示言語の変更](#changing-forms-display-language)を参照してください。
 
 システム辞書が翻訳されていない言語に Web アプリケーションを翻訳する場合、一部の翻訳が見つからないことを知らせる警告メッセージが表示されます。
 
@@ -454,12 +454,12 @@ URL の言語の前に他のパラメーターがある場合。例：**https://
 
 言語を追加するには、次の手順に従います。
 
-1. Adobe Campaignツリーに移動し、をクリックします **[!UICONTROL Administration > Configuration > Global dictionary > System dictionary]** 。
-1. In the upper section of the window, select the system string to translate, then click **[!UICONTROL Add]** in the lower section.
+1. Adobe Campaign ツリーに移動して、**[!UICONTROL 管理／設定／グローバル辞書／システム辞書]**&#x200B;をクリックします。
+1. ウィンドウの上部のセクションで、翻訳するシステム文字列を選択して、下部のセクションの「**[!UICONTROL 追加]**」をクリックします。
 
    ![](assets/s_ncs_admin_survey_trad_system_translation.png)
 
-1. 翻訳言語を選択して、その文字列の翻訳を入力します。You can approve the translation by checking the **[!UICONTROL Translation validated]** option.
+1. 翻訳言語を選択して、その文字列の翻訳を入力します。「**[!UICONTROL 翻訳検証済み]**」オプションをクリックすることで、翻訳を承認できます。
 
    ![](assets/s_ncs_admin_survey_trad_system_translation2.png)
 
@@ -475,11 +475,11 @@ URL の言語の前に他のパラメーターがある場合。例：**https://
 
 Web アプリケーションをデフォルト以外の言語に翻訳するには（[フォームの表示言語の変更](#changing-forms-display-language)を参照）、新しい翻訳言語を追加する必要があります。
 
-1. Adobe Campaignツリー **[!UICONTROL Administration > Platform > Itemized lists]** のノードをクリックし、リストから **[!UICONTROL Languages available for translation]** 選択します。 使用できる翻訳のリストが、ウィンドウの下部のセクションに表示されます。
+1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／定義済みリスト]**&#x200B;ノードをクリックして、リストから&#x200B;**[!UICONTROL 翻訳に使用できる言語]**&#x200B;を選択します。使用できる翻訳のリストが、ウィンドウの下部のセクションに表示されます。
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
 
-1. ボタンを **[!UICONTROL Add]** クリックし、画像の **[!UICONTROL Internal name]** ID( **[!UICONTROL Label]** フラグ)とIDを入力します。 新しい画像を追加するには、管理者にお問い合わせください。
+1. 「**[!UICONTROL 追加]**」ボタンをクリックして、「**[!UICONTROL 内部名]**」、「**[!UICONTROL ラベル]**」および画像の識別子（フラグ）を入力します。新しい画像を追加するには、管理者にお問い合わせください。
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)
 

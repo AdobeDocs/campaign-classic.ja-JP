@@ -14,7 +14,7 @@ discoiquuid: a3834828-4d39-4699-b648-d399797b8ea7
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -24,17 +24,17 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 次の例では、概要タイプの Web アプリケーションを作成して、データベースのすべての Web アプリケーションを表示します。次の要素を設定します。
 
-* フォルダ上のフィルタ(フォ [ルダ上のフィルタの追加](#adding-a-filter-on-a-folder))、
-* 新しいWebアプリケーションを作成するためのボタン( [新しいWebアプリケーションを設定するためのボタンの追加](#adding-a-button-to-configure-a-new-web-application))、
-* 詳細表示をリスト内の各エントリに対して行う(詳 [細のリストへの追加](#adding-detail-to-a-list))、
-* リンク編集ツールごとに1つのフィルター(リ [ンクエディターを使用したフィルターの作成](#creating-a-filter-using-a-link-editor))、
-* 更新リンク(更新リン [クの作成を参照](#creating-a-refresh-link))。
+* フォルダーのフィルター（[フォルダーのフィルターの追加](#adding-a-filter-on-a-folder)を参照）
+* 新しい Web アプリケーションを作成するためのボタン（[新しい Web アプリケーションを設定するためのボタンの追加](#adding-a-button-to-configure-a-new-web-application)を参照）
+* リスト内の各エントリ用の詳細表示（[リストへの詳細の追加](#adding-detail-to-a-list)を参照）
+* 各リンク編集ツールごとのフィルター（[リンクエディターを使用したフィルターの作成](#creating-a-filter-using-a-link-editor)を参照）
+* 更新リンク（[更新リンクの作成](#creating-a-refresh-link)を参照）
 
 ![](assets/s_ncs_configuration_webapp_overview.png)
 
 ## 単一ページ Web アプリケーションの作成 {#creating-a-single-page-web-application}
 
-1. Create a single **[!UICONTROL Page]** Web application and disable outbound transitions and transitions to the next page.
+1. 単一&#x200B;**[!UICONTROL ページ]** Web アプリケーションを作成し、アウトバウンドトランジションおよび次のページへのトランジションを無効にします。
 
    ![](assets/s_ncs_configuration_webapp_create.png)
 
@@ -42,17 +42,17 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
    このタイトルは、概要ヘッダーおよび Web アプリケーションの概要に表示されます。
 
-1. In the Web application properties, modify the rendering of your application by selecting the **[!UICONTROL Single-page Web application]** template.
+1. Web アプリケーションプロパティで、**[!UICONTROL 単一ページ Web アプリケーション]**&#x200B;テンプレートを選択することで、アプリケーションのレンダリングを修正します。
 
    ![](assets/s_ncs_configuration_webapp_rendering.png)
 
-1. Webアプリケー **[!UICONTROL Page]** ションのアクティビティを開き、リストを開きま&#x200B;**[!UICONTROL Static element > List]**&#x200B;す()。
-1. リストの **[!UICONTROL Data]** タブで、ドキュメントのタイプ、お **[!UICONTROL Web applications]** よび出力 **[!UICONTROL Label]** 列を **[!UICONTROL Creation date]** 選択 **[!UICONTROL Type of application]** します。
-1. In the **[!UICONTROL Filter]** sub-tab, create the following filter as shown below in order to display Web applications only and exclude templates from your view.
+1. Web アプリケーションの&#x200B;**[!UICONTROL ページ]**&#x200B;アクティビティを開いて、リストを開きます（**[!UICONTROL 静的要素／リスト]**）。
+1. リストの「**[!UICONTROL データ]**」タブで、**[!UICONTROL Web アプリケーション]**&#x200B;ドキュメントタイプを選択し、**[!UICONTROL ラベル]**、**[!UICONTROL 作成日]**&#x200B;および&#x200B;**[!UICONTROL アプリケーションのタイプ]**&#x200B;出力列を選択します。
+1. 「**[!UICONTROL フィルター]**」サブタブで、次に示すように、Web アプリケーションのみを表示して、表示からテンプレートを除外するために、次のフィルターを作成します。
 
    ![](assets/s_ncs_configuration_webapp_filter.png)
 
-1. Close the configuration window of your page and click **[!UICONTROL Preview]**.
+1. ページの設定ウィンドウを閉じて、「**[!UICONTROL プレビュー]**」をクリックします。
 
    データベースで使用可能な Web アプリケーションのリストが表示されます。
 
@@ -62,8 +62,8 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 概要では、Adobe Campaign ツリーでの場所に応じてデータにアクセスすることを選択できます。これが、フォルダーのフィルターです。フォルダーのフィルターを概要に追加するには、次の手順に従います。
 
-1. カーソルをウェブアプリケ **[!UICONTROL Page]** ーションのノードに置き、要素を追 **[!UICONTROL Select folder]** 加します(**[!UICONTROL Advanced controls > Select folder]**)。
-1. 表示され **[!UICONTROL Storage]** るウィンドウで、リンクをクリック **[!UICONTROL Edit variables]** します。
+1. Web アプリケーションの&#x200B;**[!UICONTROL ページ]**&#x200B;ノードにカーソルを置いて、**[!UICONTROL フォルダーを選択]**&#x200B;要素を追加します（**[!UICONTROL 高度なコントロール／フォルダーを選択]**）。
+1. 表示される&#x200B;**[!UICONTROL ストレージ]**&#x200B;ウィンドウで、「**[!UICONTROL 変数を編集]**」リンクをクリックします。
 1. ニーズに合わせて変数ラベルを変更します。
 1. 値 **folder** で変数名を変更します。
 
@@ -75,11 +75,11 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
    ![](assets/s_ncs_configuration_webapp_variable_xml.png)
 
-1. インタラクションを **[!UICONTROL Refresh page]** 選択します。
+1. **[!UICONTROL ページを更新]**&#x200B;インタラクションを選択します。
 
    ![](assets/s_ncs_configuration_webapp_variable.png)
 
-1. Place your cursor on your list, and in the **[!UICONTROL Advanced]** tab, reference the variable previously created in the **[!UICONTROL Folder filter XPath]** tab of the list. フォルダーリンクに関係している要素の名前（つまり **folder**）を使用する必要があります。
+1. リストにカーソルを置いて、「**[!UICONTROL 詳細設定]**」タブで、リストの「**[!UICONTROL フォルダーのフィルター XPath]**」タブで前に作成した変数を参照します。フォルダーリンクに関係している要素の名前（つまり **folder**）を使用する必要があります。
 
    ![](assets/s_ncs_configuration_webapp_variable002.png)
 
@@ -89,12 +89,12 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## 新しい Web アプリケーションを設定するためのボタンの追加 {#adding-a-button-to-configure-a-new-web-application}
 
-1. 要素にカーソルを置 **[!UICONTROL Page]** き、リンクを追加しま&#x200B;**[!UICONTROL Static elements > Link]**&#x200B;す()。
+1. **[!UICONTROL ページ]**&#x200B;要素にカーソルを置いて、リンクを追加します（**[!UICONTROL 静的要素／リンク]**）。
 1. 概要のボタンに表示されるので、リンクラベルを修正します。
 
    この例では、ラベルは &quot;**New**&quot; です。
 
-1. 「URL」フィールドに次のURLを挿入します。xtk://open/?schema=nms:webApp&amp;form=nms:newWebApp ****.
+1. 「URL」フィールドに URL（**xtk://open/?schema=nms:webApp&amp;form=nms:newWebApp**）を挿入します。
 
    >[!NOTE]
    >
@@ -103,13 +103,13 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
    >**nms:newWebApp** は、新しい Web アプリケーション作成ウィザードと一致します。
 
 1. URL を同じウィンドウで表示することを選択します。
-1. 画像フィールドにWebアプリケーションアイコンを追加します。/nms/img/webApp.png ****.
+1. 「画像」フィールドに Web アプリケーションアイコン **/nms/img/webApp.png** を追加します。
 
-   This icon will appear on the **[!UICONTROL New]** button.
+   このアイコンは、「**[!UICONTROL 新規]**」ボタンに表示されます。
 
-1. Enter **button** in the **[!UICONTROL Style]** field.
+1. 「**[!UICONTROL スタイル]**」フィールドに &quot;**button**&quot; と入力します。
 
-   This style is referred to in the **[!UICONTROL Single-page Web application]** template selected previously.
+   このスタイルは、前に選択した&#x200B;**[!UICONTROL 単一ページ Web アプリケーション]**&#x200B;テンプレートで参照されます。
 
    ![](assets/s_ncs_configuration_webapp_link.png)
 
@@ -118,17 +118,17 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 概要でリストを設定する場合、リストの各エントリに関する追加の詳細を表示することを選択できます。
 
 1. 前に作成したリスト要素にカーソルを置きます。
-1. タブのド **[!UICONTROL General]** ロップダウンリスト **[!UICONTROL Columns and additional detail]** で表示モードを選択します。
+1. 「**[!UICONTROL 一般]**」タブで、ドロップダウンリストから&#x200B;**[!UICONTROL 列と追加詳細]**&#x200B;表示モードを選択します。
 
    ![](assets/s_ncs_configuration_webapp_detail.png)
 
-1. タブで、 **[!UICONTROL Data]** 列、および列を追 **[!UICONTROL Primary key]** 加し **[!UICONTROL Internal name]** 、各 **[!UICONTROL Description]** オプション **[!UICONTROL Hidden field]** を選択します。
+1. 「**[!UICONTROL データ]**」タブで、**[!UICONTROL プライマリキー]**、**[!UICONTROL 内部名]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;列を追加して、各列に対して「**[!UICONTROL 非表示フィールド]**」オプションを選択します。
 
    ![](assets/s_ncs_configuration_webapp_detail002.png)
 
    これで、この情報は、各エントリの詳細にのみ表示されます。
 
-1. In the **[!UICONTROL Additional detail]** tab, add the following code:
+1. 「**[!UICONTROL 追加の情報]**」タブで、次のコードを追加します。
 
    ```
    <div class="detailBox">
@@ -171,7 +171,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 これら 2 つの要素は、概要で視覚的にグループ化させるために、同じコンテナにグループ化されます。
 
-1. カーソルを要素に合わせ、 **[!UICONTROL Page]** を選択します **[!UICONTROL Container > Standard]**。
+1. **[!UICONTROL ページ]**&#x200B;要素にカーソルを置いて、**[!UICONTROL コンテナ／標準]**&#x200B;を選択します。
 1. 列数を &quot;**2**&quot; に設定し、リンクエディターおよびリンクがお互い隣になるようにします。
 
    ![](assets/s_ncs_configuration_webapp_container.png)
@@ -180,31 +180,31 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 1. **dottedFilter** を適用します。
 
-   This style is referred to in the **[!UICONTROL Single-page Web applicatio]** n template selected previously.
+   このスタイルは、前に選択した&#x200B;**[!UICONTROL 単一ページ Web アプリケーション]**&#x200B;テンプレートで参照されます。
 
    ![](assets/s_ncs_configuration_webapp_container002.png)
 
 ### リンクエディターを使用したフィルターの作成 {#creating-a-filter-using-a-link-editor}
 
-1. Place your cursor on the container created during the previous stage and insert a link editor via the **[!UICONTROL Advanced controls]** menu.
-1. In the storage window which opens automatically, select the **[!UICONTROL Variables]** option, then click the **[!UICONTROL Edit variables]** link and create an XML variable for filtering data.
+1. 前のステージで作成したコンテナにカーソルを置いて、**[!UICONTROL 高度なコントロール]**&#x200B;メニューからリンクエディターを挿入します。
+1. 自動的に開くストレージウィンドウで、「**[!UICONTROL 変数]**」オプションを選択してから、「**[!UICONTROL 変数を編集]**」リンクをクリックして、データをフィルターするための XML 変数を作成します。
 
    ![](assets/s_ncs_configuration_webapp_variable003.png)
 
 1. ラベルを修正します。
 
-   It will appear next to the **[!UICONTROL Filter]** field in the overview.
+   概要の「**[!UICONTROL フィルター]**」フィールドの隣に表示されます。
 
 1. アプリケーションスキーマとしてオペレーターテーブルを選択します。
 
    ![](assets/s_ncs_configuration_webapp_linkeditor.png)
 
-1. Place your cursor on the list element and create a filter via the **[!UICONTROL Data > Filter]** tab:
+1. リスト要素にカーソルを置いて、**[!UICONTROL データ／「フィルター」]**&#x200B;タブでフィルターを作成します。
 
-   * **** 式：「作成者」リンクの外部キー
+   * **式：**「作成者」リンクの外部キー
    * **演算子：**&#x200B;等しい
-   * **** 値：変数（変数）
-   * **** 次の場合に考慮します。&#39;$(var2/@id)&#39;!=&quot;
+   * **値：**&#x200B;変数
+   * **次の場合に考慮：**&#39;$(var2/@id)&#39;!=&quot;
    ![](assets/s_ncs_configuration_webapp_filter002.png)
 
 >[!CAUTION]
@@ -213,19 +213,19 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ### 更新リンクの作成 {#creating-a-refresh-link}
 
-1. Place the cursor on the container and insert a **[!UICONTROL Link]** via the **[!UICONTROL Static elements]** menu.
+1. コンテナにカーソルを置いて、**[!UICONTROL 静的要素]**&#x200B;メニューで&#x200B;**[!UICONTROL リンク]**&#x200B;を挿入します。
 1. ラベルを修正します。
-1. 選択 **[!UICONTROL Refresh data in a list]**.
+1. **[!UICONTROL リスト内のデータを更新]**&#x200B;を選択します。
 1. 前に作成したリストを追加します。
 
    ![](assets/s_ncs_configuration_webapp_refreshlink.png)
 
-1. フィールドに更新アイコンを追加 **[!UICONTROL Image]** します。**/xtk/img/refresh.png **.
+1. 「**[!UICONTROL 画像]**」フィールドに更新アイコン **/xtk/img/refresh.png ** を追加します。
 1. 次に示すように、並べ替え矢印を使用して、Web アプリケーションの様々な要素を認識します。
 
    ![](assets/s_ncs_configuration_webapp_orderelements.png)
 
-これで、Web アプリケーションが設定されました。You can click the **[!UICONTROL Preview]** tab to preview it.
+これで、Web アプリケーションが設定されました。「**[!UICONTROL プレビュー]**」タブをクリックしてプレビューします。
 
 ![](assets/s_ncs_configuration_webapp_result.png)
 

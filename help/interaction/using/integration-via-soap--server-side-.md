@@ -14,7 +14,7 @@ discoiquuid: 477a2c31-0403-4db1-a372-c75dca58380d
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -30,7 +30,7 @@ SOAP によるオファーの提案の場合、**nms:proposition#Propose** コ�
 
 * **targetId**：受信者のプライマリキー（複合キーも使用可能）。
 * **maxCount**：そのコンタクト先に対するオファーの提案の数を指定します。
-* **context**：スペーススキーマにコンテキスト情報を追加できます。If the schema used is **nms:interaction**, **`<empty>`** should be added.
+* **context**：スペーススキーマにコンテキスト情報を追加できます。使用されるスキーマが **nms:interaction** の場合、**`<empty>`** を追加する必要があります。
 * **categories**：オファーが属する必要があるカテゴリを指定します。
 * **themes**：オファーが属する必要があるテーマを指定します。
 * **uuid**：Adobe Campaign の永続 Cookie の値です（&quot;uuid230&quot;）。
@@ -43,16 +43,16 @@ SOAP によるオファーの提案の場合、**nms:proposition#Propose** コ�
 
 クエリに対するの応答では、SOAP サービスは、次のパラメーターを返します。
 
-* **interactionId**:インタラクションのID。
-* **提案**:XML要素には、それぞれ独自のIDとHTML表現を持つ提案のリストが含まれます。
+* **interactionId**：インタラクションの ID。
+* **propositions**：提案のリストを含む XML 要素。それぞれに提案自体の ID と HTML 表現が含まれます。
 
 ## オファーの更新 {#offer-update}
 
 URL に **nms:interaction#UpdateStatus** コマンドを追加し、その後に次のパラメーターが続きます。
 
-* **proposition**：文字列。オファー提案中の出力として取得した提案 ID が含まれます。「オファーの提 [案」を参照](#offer-proposition)。
+* **proposition**：文字列。オファー提案中の出力として取得した提案 ID が含まれます。[オファーの提案](#offer-proposition)を参照してください。
 * **status**：文字列。オファーの新しいステータスを指定します。使用可能な値のリストについては、**nms:common** スキーマの **propositionStatus** 列挙を参照してください。例えば、デフォルトでは、数字の 3 が&#x200B;**許可済み**&#x200B;ステータスに対応します。
-* **context**:XML要素を使用して、スペーススキーマにコンテキスト情報を追加できます。 If the schema used is **nms:interaction**, **`<empty>`** should be added.
+* **context**：XML 要素。スペーススキーマにコンテキスト情報を追加できます。使用されるスキーマが **nms:interaction** の場合、**`<empty>`** を追加する必要があります。
 
 ## SOAP 呼び出しの使用例 {#example-using-a-soap-call}
 

@@ -14,7 +14,7 @@ discoiquuid: 4abce633-647f-4ae4-9419-859f6e2e8628
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -26,14 +26,14 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 Adobe Campaign のクライアントインターフェイスで設定したワークフローを使用して、コンテンツの作成、編集およびパブリッシュを自動化できます。
 
-The **Content management** activity is accessed via the **[!UICONTROL Tools]** toolbar of the workflow diagram.
+**コンテンツ管理**&#x200B;アクティビティには、ワークフローダイアグラムの&#x200B;**[!UICONTROL ツール]**&#x200B;ツールバーからアクセスします。
 
 アクティビティのプロパティは、次の 4 つの手順に分類されます。
 
-* **[!UICONTROL Content]** :既存のコンテンツを入力したり、コンテンツを作成したりできます。
-* **[!UICONTROL Update content]** :では、コンテンツの件名を変更したり、XMLデータフラックスを使用してコンテンツを更新したりできます。
-* **[!UICONTROL Action to execute]** :コンテンツを保存または生成できます。
-* **[!UICONTROL Transition]** :出力トランジションを生成するかどうかを選択し、名前を付けます。
+* **[!UICONTROL コンテンツ]**：既存のコンテンツを入力することも、コンテンツを作成することもできます。
+* **[!UICONTROL コンテンツを更新]**：XML データの流れを利用してコンテンツの件名を変更したり、コンテンツを更新したりできます。
+* **[!UICONTROL 実行するアクション]**：コンテンツを保存または生成できます。
+* **[!UICONTROL トランジション]**：出力トランジションを生成するかどうかを選択し、名前を付けることができます。
 
 ![](assets/d_ncs_content_wf.png)
 
@@ -79,7 +79,7 @@ The **Content management** activity is accessed via the **[!UICONTROL Tools]** t
 
 ### トランジション {#transition}
 
-The **Generate an output transition** option lets you add an output transition to the **[!UICONTROL Content management]** activity to link a new activity to workflow execution. このオプションをオンにしてから、トランジションのラベルを入力します。
+「**アウトバウンドトランジションを生成**」オプションを使用して、**[!UICONTROL コンテンツ管理]**&#x200B;アクティビティに出力トランジションを追加し、新しいアクティビティをワークフローの実行にリンクできます。このオプションをオンにしてから、トランジションのラベルを入力します。
 
 ## 例 {#examples}
 
@@ -95,7 +95,7 @@ The **Generate an output transition** option lets you add an output transition t
 
 新しいコンテンツインスタンスは、パブリッシュモデルとコンテンツ文字列のフォルダーを使用して作成されます。
 
-この例では、配信の件名がオーバーロードされています。It will be taken into account instead of the one entered in the **[!UICONTROL Delivery]** template.
+この例では、配信の件名がオーバーロードされています。この件名が、**[!UICONTROL 配信]**&#x200B;テンプレートに入力された件名の代わりに使用されるようになります。
 
 コンテンツは、入力された URL から呼び出される XML フィードで自動的に設定されます。
 
@@ -108,7 +108,7 @@ The **Generate an output transition** option lets you add an output transition t
 </book>
 ```
 
-The data format does not match the data schema entered in the publication template (**cus:book** in our example); the **`<section>`** element must be replaced with the **`<chapter>`** element. 「cus:book-workflow.xsl」スタイルシートを適用して、必要な変更をおこなう必要があります。
+データフォーマットがパブリッシュテンプレート（この例では **cus:book**）に入力したデータスキーマと一致していないので、**`<section>`** 要素を **`<chapter>`** 要素で置き換える必要があります。「cus:book-workflow.xsl」スタイルシートを適用して、必要な変更をおこなう必要があります。
 
 使用する XSLT スタイルシートのソースコード：
 
@@ -177,7 +177,7 @@ The data format does not match the data schema entered in the publication templa
 
 >[!NOTE]
 >
->The **[!UICONTROL Publication]** tab of the transformation templates window must be populated with the location of the target to be generated.
+>変換テンプレートウィンドウの「**[!UICONTROL パブリッシュ]**」タブに、生成するターゲットのロケーションを設定する必要があります。
 
 次のトランジションを 1 週間一時停止するために、待機アクティビティを追加します。
 
@@ -233,11 +233,11 @@ FTP または SFTP サーバー上の HTML ファイルに配信コンテンツ�
 
 データ復元の有効化は、入力フォームから手動で実行します。
 
-The aim is to declare an **editBtn** type **`<input>`** field in the form. このコントロールは、編集領域と、処理を開始するためのボタンで構成されます。
+その目的は、フォーム内に **editBtn** タイプの **`<input>`** フィールドを宣言することです。このコントロールは、編集領域と、処理を開始するためのボタンで構成されます。
 
 編集領域では、取得するデータの XML フィードの URL を生成するために使用する可変データを入力できます。
 
-The button executes the **GetAndTransform** SOAP method populated under the **`<input>`** tag.
+ボタンは、**`<input>`** タグの下に入力された **GetAndTransform** SOAP メソッドを実行します。
 
 フォーム内のコントロールの宣言は、次のようになります。
 
@@ -253,11 +253,11 @@ The button executes the **GetAndTransform** SOAP method populated under the **`<
 </input>
 ```
 
-The **GetAndTransform** method must be declared under the **`<enter>`** element of the **`<input>`** tag. このタグは、動的に生成される式から、XML データを復元する URL をパラメーターとして取得します。この関数の 2 番目のパラメーター設定は任意で、取得した XML データがコンテンツと同じフォーマットではない場合に、中間変換で使用されるスタイルシートを参照します。
+**GetAndTransform** メソッドは、**`<input>`** タグの **`<enter>`** 要素の下で宣言する必要があります。このタグは、動的に生成される式から、XML データを復元する URL をパラメーターとして取得します。この関数の 2 番目のパラメーター設定は任意で、取得した XML データがコンテンツと同じフォーマットではない場合に、中間変換で使用されるスタイルシートを参照します。
 
 出力では、最後のパラメーターに入力されたパスをベースとして、コンテンツを更新します。
 
-**例**:この例を示すために、「cus:book」スキーマから開始します。
+**例**：この例を、「cus:book」スキーマを使用して説明します。
 
 半自動更新編集コントロールの入力フォームを追加します。
 

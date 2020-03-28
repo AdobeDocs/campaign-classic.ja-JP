@@ -14,7 +14,7 @@ discoiquuid: d10624ea-d961-4162-879b-1754f897d763
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ---
@@ -33,7 +33,7 @@ Adobe Campaign で E メール配信またはランディングページを編�
 
 利用可能な各種ライブラリについて詳しくは、[このドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html)を参照してください。
 
-Consult the [Configuring access to Assets](../../integrations/using/configuring-access-to-assets.md) section to find out more about the specifics linked to each library.
+各ライブラリに関連する特性について詳しくは、[Assets へのアクセスの設定](../../integrations/using/configuring-access-to-assets.md)の節を参照してください。
 
 >[!NOTE]
 >

@@ -14,7 +14,7 @@ discoiquuid: 0e67d9dd-3ee8-4c06-98a4-3a2c644b6c0a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -24,17 +24,17 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ## テンプレートへの既存の配信の変換 {#converting-an-existing-delivery-to-a-template}
 
-配信をテンプレートに変換すると、新しい繰り返し配信アクションの作成に使用できます。To convert a delivery to a template, select it from the delivery list, accessible via the **[!UICONTROL Campaign management]** node of the tree.
+配信をテンプレートに変換すると、新しい繰り返し配信アクションの作成に使用できます。配信をテンプレートに変換するには、ツリーの&#x200B;**[!UICONTROL キャンペーン管理]**&#x200B;ノードからアクセスできる配信リストで、配信を選択し、
 
-Right-click and select **[!UICONTROL Actions > Save as template...]**.
+右クリックして&#x200B;**[!UICONTROL アクション／テンプレートとして保存]**&#x200B;を選択します。
 
 ![](assets/s_ncs_user_campaign_save_as_scenario.png)
 
-これにより、選択した配信から配信テンプレートが作成されます。You must enter the folder where it is saved (in the **[!UICONTROL Folder]** field) as well as the folder where the deliveries created based on this template are created (in the **[!UICONTROL Execution folder]** field).
+これにより、選択した配信から配信テンプレートが作成されます。テンプレートの保存先フォルダーを「**[!UICONTROL フォルダー]**」フィールドで指定し、そのテンプレートに基づいて作成される配信の保存先フォルダーを「**[!UICONTROL 実行フォルダー]**」フィールドで指定する必要があります。
 
 ![](assets/s_ncs_user_campaign_save_as_scenario_a.png)
 
-設定モードについて詳しくは、「テンプレートの配信へ [のリンク」を参照してください](../../delivery/using/creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery)。
+設定モードについて詳しくは、[テンプレートと配信とのリンク](../../delivery/using/creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery)を参照してください。
 
 ## 新しいテンプレートの作成 {#creating-a-new-template}
 

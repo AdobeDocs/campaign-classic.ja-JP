@@ -14,7 +14,7 @@ discoiquuid: a9eb6627-2e51-42d0-9b29-5b798bdf5b33
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 Adobe Campaign では、コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行および分析できます。Adobe Campaign により、マーケティング戦略の指示や実行を一元的におこなうことができます。詳しくは、[キャンペーンへのアクセス](../../campaign/using/accessing-campaigns.md)および[キャンペーンの設定](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
 
-In addition, the **Marketing Resource Management (MRM)** module lets you control marketing actions in a collaborative mode by providing complete management and real-time tracking of the tasks, budgets and marketing resources involved. マーケティングリソース管理では、社内および社外のプロセス、リソース、マーケティングキャンペーンの管理に加えて、サードパーティ（エージェントや印刷業者など）との関係性も最適化および調整できます。詳しくは、[この節](../../campaign/using/about-marketing-resource-management.md)を参照してください。
+また、**マーケティングリソース管理（MRM）**&#x200B;モジュールでは、関連するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調モードで制御できます。マーケティングリソース管理では、社内および社外のプロセス、リソース、マーケティングキャンペーンの管理に加えて、サードパーティ（エージェントや印刷業者など）との関係性も最適化および調整できます。詳しくは、[この節](../../campaign/using/about-marketing-resource-management.md)を参照してください。
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ In addition, the **Marketing Resource Management (MRM)** module lets you control
 
    キャンペーンは、配信、ターゲット設定ルール、コスト、エクスポートファイル、関連ドキュメントなど、マーケティングキャンペーンに関連するすべての要素を集中管理します。各キャンペーンは 1 つのプログラムに関連付けられます。
 
-   For more on this, refer to [Adding a campaign](../../campaign/using/setting-up-marketing-campaigns.md#adding-a-campaign).
+   詳しくは、[キャンペーンの追加](../../campaign/using/setting-up-marketing-campaigns.md#adding-a-campaign)を参照してください。
 
 * **プログラム**
 
@@ -49,7 +49,7 @@ In addition, the **Marketing Resource Management (MRM)** module lets you control
 
    マーケティングプランには複数のプログラムを含めることができます。マーケティングプランは 1 つのカレンダー期間にリンクされ、予算が割り当てられています。また、ドキュメントや目標にリンクすることもできます。
 
-   For more on this, refer to [Campaign calendar](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar).
+   詳しくは、[キャンペーンカレンダー](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar)を参照してください。
 
 * **ワークフロー**
 
@@ -65,4 +65,4 @@ In addition, the **Marketing Resource Management (MRM)** module lets you control
 
    配信の概要は、配信の内容を構造的に記述したものです。すべての配信は、関連するオファー、添付するドキュメント、店舗へのリンクなどを含む配信の概要を参照できます。選択した配信の概要に従って、配信内でオファーを参照できます。
 
-   詳しくは、「配信の概要を介してリンクさ [れたリソースの関連付けと構造化」を参照してください](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)。
+   詳しくは、[配信の概要からのリンク済みリソースの関連付けと構造化](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)を参照してください。

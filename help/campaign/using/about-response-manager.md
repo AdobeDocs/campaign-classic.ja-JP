@@ -14,7 +14,7 @@ discoiquuid: a4669fee-4512-455f-b495-ebd5a0746b76
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -40,7 +40,7 @@ Adobe Campaign には応答管理アプリケーション（Response Manager）�
 
 >[!CAUTION]
 >
->Response Manager is a **[!UICONTROL Campaign]** option. 使用許諾契約書を確認してください。
+>Response Manager は&#x200B;**[!UICONTROL キャンペーン]**&#x200B;のオプションです。使用許諾契約書を確認してください。
 
 配信またはオファーを受け取った受信者全世帯のすべての反応を計算することもできます。
 
@@ -48,19 +48,19 @@ Adobe Campaign には応答管理アプリケーション（Response Manager）�
 
 ## 方法 {#method}
 
-Before you start using Response Manager, refer to [Configuration](../../campaign/using/configuration.md) and carry out the necessary configurations.
+Response Manager の使用を開始する前に、[設定](../../campaign/using/configuration.md)を参照して必要な設定を実行してください。
 
 配信またはオファーで仮説を開始するには、作成する各仮説に使用するテンプレートでコンテキストを定義する必要があります。
 
 測定の仮説を定義および作成するには、以下の手順に従います。
 
-1. 仮説モデルを定義します。仮説モデ [ルの作成を参照](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)。
-1. 既存の配信で 1 つまたは複数の仮説を作成します。Refer to [Referencing a hypothesis in a campaign delivery](../../campaign/using/creating-hypotheses.md#referencing-a-hypothesis-in-a-campaign-delivery).
+1. 仮説モデルを定義します。[仮説モデルの作成](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)を参照してください。
+1. 既存の配信で 1 つまたは複数の仮説を作成します。[キャンペーン配信での仮説の参照](../../campaign/using/creating-hypotheses.md#referencing-a-hypothesis-in-a-campaign-delivery)を参照してください。
 
    または
 
-   オファーで 1 つまたは複数の仮説を作成します。詳しくは、オフ [ァーに関する仮説の作成を参照してください](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-an-offer)。
+   オファーで 1 つまたは複数の仮説を作成します。[オファーの仮説の作成](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-an-offer)を参照してください。
 
-1. 仮説の結果を確認します。仮説追跡を [参照](../../campaign/using/hypothesis-tracking.md)。
-1. 必要に応じて仮説を再度開始します。Refer to [Creating a hypothesis on the fly on a delivery](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery).
+1. 仮説の結果を確認します。[仮説のトラッキング](../../campaign/using/hypothesis-tracking.md)を参照してください。
+1. 必要に応じて仮説を再度開始します。[オンザフライでの配信の仮説の作成](../../campaign/using/creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)を参照してください。
 

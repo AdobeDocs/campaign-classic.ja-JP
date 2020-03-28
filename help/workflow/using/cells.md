@@ -14,7 +14,7 @@ discoiquuid: f7187d42-56e9-4681-b172-22abd43ecd29
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -22,15 +22,15 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # セル{#cells}
 
-The **[!UICONTROL Cells]** activity provides a view of the various subsets in the form of data columns. このアクティビティは、サブセットの操作を容易にし、パーソナライゼーションの可能性を拡大しやすいように設計されています。
+「**[!UICONTROL セル]**」アクティビティは、フォームのデータ列内の各種サブセットのビューを提供します。このアクティビティは、サブセットの操作を容易にし、パーソナライゼーションの可能性を拡大しやすいように設計されています。
 
 ![](assets/wf_split_cells.png)
 
-ユーザーのニーズに基づく特定のパラメーターを入力することで設定できます。By default, the detail of each subset is detailed in a dedicated window via the **[!UICONTROL Selection]** and **[!UICONTROL Advanced]** tabs. In the example below, the form has been modified: a **[!UICONTROL Data]** tab has been added to enable the association of an offer and a priority level for each subset.
+ユーザーのニーズに基づく特定のパラメーターを入力することで設定できます。デフォルトでは、各サブセットの詳細は、「**[!UICONTROL 選択]**」タブと「**[!UICONTROL 詳細設定]**」タブ経由で専用ウィンドウに表示されます。以下の例では、フォームは変更されています。オファーと各サブセットの優先度レベルの関連付けを有効にする「**[!UICONTROL データ]**」タブが追加されています。
 
 ![](assets/wf_split_cells_with_customization.png)
 
-For this configuration, the following information was added to the workflow form (in the **[!UICONTROL Administration > Configurations > Input forms]** node of the Adobe Campaign tree):
+この設定では、次の情報がワークフローフォームに追加されました（Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／設定／入力フォーム]**&#x200B;ノード）。
 
 ```
 <container img="nms:miniatures/mini-enrich.png" label="Data">

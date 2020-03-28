@@ -14,7 +14,7 @@ discoiquuid: d47017a3-a342-4758-a700-b8e88aa724f2
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
 
 ---
@@ -26,11 +26,11 @@ source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
 
 フィルターを作成するには、次の手順に従います。
 
-1. フォルダに移動し **[!UICONTROL Administration]** 、を選択しま **[!UICONTROL Pre-defined offer filters]**&#x200B;す。
+1. **[!UICONTROL 管理]**&#x200B;フォルダーに移動して、「**[!UICONTROL 定義済みオファーフィルター]**」を選択します。
 
    ![](assets/offer_filter_create_005.png)
 
-1. クリック **[!UICONTROL New]**.
+1. 「**[!UICONTROL 新規]**」をクリックします。
 
    ![](assets/offer_filter_create_001.png)
 
@@ -46,10 +46,10 @@ source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
 
    ![](assets/offer_filter_create_004.png)
 
-1. Click **[!UICONTROL Preview]** to view the result of the filter.
+1. 「**[!UICONTROL プレビュー]**」をクリックし、フィルターの適用結果を表示します。
 
    ![](assets/offer_filter_create_006.png)
 
 **関連トピック**
 
-* [頻繁に使用するクエリを編集可能な定義済みフィルターとして保存](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Savefrequentlyusedqueriesaseditablepredefinedfilters)
+* [頻繁に使用するクエリを編集可能な定義済みフィルターとして保存](https://helpx.adobe.com/jp/campaign/kb/simplifying-campaign-management-acc.html#Savefrequentlyusedqueriesaseditablepredefinedfilters)

@@ -1,6 +1,6 @@
 ---
 title: CRM コネクタ
-description: CRM Connectorの詳細と、Adobe Campaignとのデータ同期の設定を参照してください。
+description: CRM コネクタについて説明し、Adobe Campaign とのデータ同期を設定します。
 page-status-flag: never-activated
 uuid: b3856a82-b1dc-4e36-a2d0-14edc5b66b3b
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: af7c0d1d-10ac-427b-8d12-b97eb91b30a1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c01a16a19516da6598b2d32a9408460c48aabf7b
 
 ---
@@ -26,10 +26,10 @@ Adobe Campaign の CRM コネクタについて詳しくは、この[節](../../
 
 変更できる設定内容は次のとおりです。
 
-* CRMからのインポート(CRMから [のインポートを参照](#importing-from-the-crm))、
-* CRMへのエクスポート(CRM [へのエクスポート](#exporting-to-the-crm)を参照)、
-* CRMで削除されたオブジェクトのインポート(CRMで削 [除されたオブジェクトのインポート](#importing-objects-deleted-in-the-crm))、
-* CRM内のオブジェクトを削除します(CRM内の [オブジェクトの削除を参照](#deleting-objects-in-the-crm))。
+* CRM からインポート（[CRM からのインポート](#importing-from-the-crm)を参照）。
+* CRM にエクスポート（[CRM へのエクスポート](#exporting-to-the-crm)を参照）。
+* CRM で削除されたオブジェクトをインポート（[CRM で削除されたオブジェクトのインポート](#importing-objects-deleted-in-the-crm)を参照）。
+* CRM のオブジェクトを削除（[CRM でのオブジェクトの削除](#deleting-objects-in-the-crm)を参照）。
 
 ![](assets/crm_task_select_op.png)
 
@@ -47,15 +47,15 @@ Adobe Campaign の CRM コネクタについて詳しくは、この[節](../../
 
 インポートアクティビティの場合、「**CRM コネクタ**」アクティビティの設定手順は次のとおりです。
 
-1. 操作を選択 **[!UICONTROL Import from the CRM]** します。
-1. Go to the **[!UICONTROL Remote object]** drop-down list and select the object concerned by the process. このオブジェクトは、コネクタの設定時に Adobe Campaign で作成されたテーブルのいずれかと一致します。
-1. Go to the **[!UICONTROL Remote fields]** section and enter the fields to be imported.
+1. 「**[!UICONTROL CRM からインポート]**」操作を選択します。
+1. **[!UICONTROL リモートオブジェクト]**&#x200B;ドロップダウンリストに移動し、プロセスの対象となるオブジェクトを選択します。このオブジェクトは、コネクタの設定時に Adobe Campaign で作成されたテーブルのいずれかと一致します。
+1. 「**[!UICONTROL リモートフィールド]**」セクションに移動し、インポートするフィールドを入力します。
 
-   To add a field, click the **[!UICONTROL Add]** button in the toolbar, then click the **[!UICONTROL Edit expression]** icon.
+   フィールドを追加するには、ツールバーの&#x200B;**[!UICONTROL 追加]**&#x200B;ボタンをクリックし、**[!UICONTROL 式を編集]**&#x200B;アイコンをクリックします。
 
    ![](assets/crm_task_import_add_field.png)
 
-   If necessary, alter the data format via the drop-down list of the **[!UICONTROL Conversion]** columns. 使用可能なコンバージョンタイプについて詳しくは、この[ページ](../../platform/using/crm-connectors.md#data-format)を参照してください。
+   必要に応じて、「**[!UICONTROL コンバージョン]**」列のドロップダウンリストでデータフォーマットを変更します。使用可能なコンバージョンタイプについて詳しくは、この[ページ](../../platform/using/crm-connectors.md#data-format)を参照してください。
 
    >[!CAUTION]
    >
@@ -63,21 +63,21 @@ Adobe Campaign の CRM コネクタについて詳しくは、この[節](../../
    > 
    >増分データインポートの場合は、CRM 側での最終変更日も必須です。
 
-1. 必要に応じて、インポートするデータをフィルターすることもできます。これを行うには、リンクをクリック **[!UICONTROL Edit the filter...]** します。
+1. 必要に応じて、インポートするデータをフィルターすることもできます。そのためには、「**[!UICONTROL フィルターを編集...]**」リンクをクリックします。
 
    次の例では、2012 年 7 月 31 日以降にアクティビティが記録された連絡先のみが Adobe Campaign によってインポートされます。
 
    ![](assets/crm_task_import_filter.png)
 
-   The limitations linked to data filtering modes are detailed in [Filter on data](#filter-on-data) section.
+   データのフィルターモードに関連する制限について詳しくは、[データのフィルター](#filter-on-data)の節を参照してください。
 
-1. The **[!UICONTROL Use automatic index]** option enables you to automatically manage incremental object synchronization between the CRM and Adobe Campaign, depending on the date and their last modification.
+1. 「**[!UICONTROL 自動インデックスを使用]**」オプションを使用すると、CRM と Adobe Campaign の間の増分オブジェクト同期を日付と最終変更に応じて自動的に管理できます。
 
-   For more on this, refer to [Variable management](#variable-management).
+   詳しくは、[変数管理](#variable-management)を参照してください。
 
 ## 変数管理 {#variable-management}
 
-Enabling the **[!UICONTROL Automatic index]** option lets you collect only objects modified since the last import.
+「**[!UICONTROL 自動インデックス]**」オプションを使用すると、最後のインポート以降に変更されたオブジェクトのみを収集できます。
 
 ![](assets/crm_task_import_option.png)
 
@@ -91,17 +91,17 @@ LASTIMPORT_<%=instance.internalName%>_<%=activityName%>
 
 デフォルトでは、次のフィールドが（指定した順序で）使用されます。
 
-* Microsoft Dynamicsの場合： **modifiedon**、
-* Oracle On Demandの場合： **LastUpdate**、 **ModifiedDate**、 **LastLoggedIn**、
-* Salesforce.comの場合： **LastModifiedDate**、SystemModstamp ****。
+* Microsoft Dynamics の場合：**modifiedon**。
+* Oracle On Demand の場合：**LastUpdated**、**ModifiedDate**、**LastLoggedIn**。
+* Salesforce.com の場合：**LastModifiedDate**、**SystemModstamp**。
 
-Activating the **[!UICONTROL Automatic index]** option generates three variables that can be used in the synchronization workflow via a **[!UICONTROL JavaScript code]** type activity. これらのアクティビティは、次のとおりです。
+「**[!UICONTROL 自動インデックス]**」オプションをオンにすると、「**[!UICONTROL JavaScript コード]**」タイプのアクティビティによって、同期ワークフローで使用できる 3 つの変数が生成されます。これらのアクティビティは、次のとおりです。
 
 * **varscrmOptionName**：最後のインポート日を含むオプションの名前を表します。
 * **vars.crmStartImport**：最後のデータ収集の開始日（この日を含む）を表します。
 * **vars.crmEndDate**：最後のデータ収集の終了日（この日を含まない）を表します。
 
-   これらの日付は、次の形式で表示されます。 **yyyy/MM/dd hh:mm:ss**.
+   これらの日付は、**yyyy/MM/dd hh:mm:ss** というフォーマットで表示されます。
 
 ## データのフィルター {#filter-on-data}
 
@@ -109,8 +109,8 @@ Activating the **[!UICONTROL Automatic index]** option generates three variables
 
 * 各フィルターレベルでは、1 つのタイプの論理演算子のみを使用できます。
 * EXCEPT (AND NOT) 演算子はサポートされていません。
-* 比較は、null 値（「空である」／「空でない」タイプ）または数値にのみ関係します。This means that once the **[!UICONTROL Value]** column (right-hand column) is assessed, the result of this assessment must be a number.
-* The data in the **[!UICONTROL Value]** column is assessed in JavaScript.
+* 比較は、null 値（「空である」／「空でない」タイプ）または数値にのみ関係します。つまり、**[!UICONTROL 値]**（右側の列）が評価された場合、この評価の結果は数値である必要があります。
+* 「**[!UICONTROL 値]**」列のデータは、JavaScript で評価されます。
 * JOIN 比較はサポートされていません。
 * 左側の列の式は、フィールドである必要があります。複数の式の組み合わせ、数値などは使用できません。
 
@@ -125,7 +125,7 @@ Activating the **[!UICONTROL Automatic index]** option generates three variables
 
 Microsoft Dynamics および Salesforce.com では、インポートされるリモートフィールドを昇順または降順で並べ替えることができます。
 
-To do this, click the **[!UICONTROL Order by]** link and add the columns to the list.
+そのためには、「**[!UICONTROL 並べ替え順]**」リンクをクリックし、列をリストに追加します。
 
 リストでの列の順序が、並べ替え順です。
 
@@ -135,7 +135,7 @@ To do this, click the **[!UICONTROL Order by]** link and add the columns to the 
 
 CRM に含まれる（フィルターされた可能性がある）要素をインポートするのではなく、ワークフローで事前に計算された母集団を使用できます。
 
-これを行うには、オプションを選択 **[!UICONTROL Use the population calculated upstream]** し、リモート識別子を含むフィールドを指定します。
+そのためには、「**[!UICONTROL アップストリームを計算した母集団を使用]**」オプションを選択し、リモート識別子を含むフィールドを指定します。
 
 次に、インポートするインバウンドの母集団のフィールドを次に示すように選択します。
 
@@ -151,22 +151,22 @@ Adobe Campaign データを CRM にエクスポートすると、コンテンツ
 
 エクスポートの場合、次の設定を「**CRM コネクタ**」アクティビティに適用します。
 
-1. 操作を選択 **[!UICONTROL Export to CRM]** します。
-1. Go to the **[!UICONTROL Remote object]** drop-down list and select the object concerned by the process. このオブジェクトは、コネクタの設定時に Adobe Campaign で作成されたテーブルのいずれかと一致します。
+1. 「**[!UICONTROL CRM にエクスポート]**」操作を選択します。
+1. **[!UICONTROL リモートオブジェクト]**&#x200B;ドロップダウンリストに移動し、プロセスの対象となるオブジェクトを選択します。このオブジェクトは、コネクタの設定時に Adobe Campaign で作成されたテーブルのいずれかと一致します。
 
    >[!CAUTION]
    >
    >「**CRM コネクタ**」アクティビティのエクスポート機能では、CRM 側のフィールドを挿入または更新できます。CRM でのフィールド更新を有効にするには、リモートテーブルのプライマリキーを指定する必要があります。キーがない場合、データは（更新ではなく）挿入されます。
 
-1. In the **[!UICONTROL Mapping]** section, specify the fields to be exported and their mapping in the CRM.
+1. 「**[!UICONTROL マッピング]**」セクションで、エクスポートされるフィールドと CRM でのそれらのマッピングを指定します。
 
    ![](assets/crm_export_config.png)
 
-   To add a field, click the **[!UICONTROL Add]** button in the toolbar, then click the **[!UICONTROL Edit expression]** icon.
+   フィールドを追加するには、ツールバーの&#x200B;**[!UICONTROL 追加]**&#x200B;ボタンをクリックし、**[!UICONTROL 式を編集]**&#x200B;アイコンをクリックします。
 
    特定のフィールドについて、CRM 側で対応が定義されていない場合は、値を更新できません。値は CRM に直接挿入されます。
 
-   If necessary, alter the data format via the drop-down list of the **[!UICONTROL Conversion]** columns. 使用可能なコンバージョンタイプについて詳しくは、この[節](../../platform/using/crm-connectors.md#data-format)を参照してください。
+   必要に応じて、「**[!UICONTROL コンバージョン]**」列のドロップダウンリストでデータフォーマットを変更します。使用可能なコンバージョンタイプについて詳しくは、この[節](../../platform/using/crm-connectors.md#data-format)を参照してください。
 
    エクスポートされるレコードのリストとエクスポートの結果は、ワークフローが終了または再開されるまでアクセス可能な一時ファイルに保存されます。これにより、同じレコードを複数回エクスポートしたりデータを失ったりすることなく、エラーが発生した場合にプロセスを再度開始できます。
 
@@ -178,17 +178,17 @@ CRM へのインポートまたは CRM からのインポート中にデータ�
 
 ![](assets/crm_task_import.png)
 
-The **[!UICONTROL Default]** mode applies automatic data conversion, which in most cases equals a copy/paste of the data. ただし、タイムゾーン管理が適用されます。
+「**[!UICONTROL デフォルト]**」モードでは、自動データ変換が適用されます。ほとんどの場合、これはデータのコピー／貼り付けと同じです。ただし、タイムゾーン管理が適用されます。
 
 その他の使用可能な変換は、次のとおりです。
 
-* **[!UICONTROL Date only]**:このモードでは、日付+時間タイプのフィールドが削除されます。
-* **[!UICONTROL Without time offset]**:このモードは、デフォルトモードで適用されたタイムゾーン管理をキャンセルします。
-* **[!UICONTROL Copy/Paste]**:このモードでは、文字列などの生データを使用します（変換なし）。
+* **[!UICONTROL 日付のみ]**：このモードでは、日付 + 時刻タイプのフィールドは削除されます。
+* **[!UICONTROL 時間オフセットなし]**：このモードでは、デフォルトモードで適用されるタイムゾーン管理がキャンセルされます。
+* **[!UICONTROL コピー／貼り付け]**：このモードでは、文字列などの生データが使用されます（変換なし）。
 
 ![](assets/crm_export_options.png)
 
-データのインポートまたはエクスポートのフレームワーク内で、エラーおよび却下に対して特定のプロセスを適用できます。これを行うには、タブのと **[!UICONTROL Process rejects]** オプション **[!UICONTROL Process errors]** を選択し **[!UICONTROL Behavior]** ます。
+データのインポートまたはエクスポートのフレームワーク内で、エラーおよび却下に対して特定のプロセスを適用できます。そのためには、「**[!UICONTROL 行動]**」タブで「**[!UICONTROL 却下を処理]**」および「**[!UICONTROL エラーを処理]**」オプションを選択します。
 
 これらのオプションを使用すると、対応するアウトバウンドトランジションが配置されます。
 
@@ -200,12 +200,12 @@ The **[!UICONTROL Default]** mode applies automatic data conversion, which in mo
 
 却下は、エラーコードおよび関連メッセージとともに収集されます。つまり、却下のトラッキングを設定して同期プロセスを最適化できます。
 
-Even when the **[!UICONTROL Process rejects]** option isn&#39;t enabled, a warning is generated for each rejected column with an error code and message.
+「**[!UICONTROL 却下を処理]**」オプションがオフの場合でも、却下された列ごとに警告がエラーコードおよびメッセージとともに生成されます。
 
-The **[!UICONTROL Reject]** outbound transition lets you access the output schema that contains the specific columns relevant to error messages and codes. これらの列は、次のとおりです。
+「**[!UICONTROL 却下]**」アウトバウンドトランジションでは、エラーメッセージおよびコードに関連する特定の列を含む出力スキーマにアクセスできます。これらの列は、次のとおりです。
 
-* For Oracle On Demand: **errorLogFilename** (name of the log file on the Oracle side), **errorCode** (error code), **errorSymbol** (error symbol, different from the error code), **errorMessage** (description of the error context).
-* For Salesforce.com: **errorSymbol** (error symbol, different from the error code), **errorMessage** (description of the error context).
+* Oracle On Demand の場合：**errorLogFilename**（Oracle 側でのログファイルの名前）、**errorCode**（エラーコード）、**errorSymbol**（エラーコードとは別のエラー記号）、**errorMessage**（エラーコンテキストの説明）。
+* Salesforce.com の場合：**errorSymbol**（エラーコードとは別のエラー記号）、**errorMessage**（エラーコンテキストの説明）。
 
 ## CRM で削除されたオブジェクトのインポート {#importing-objects-deleted-in-the-crm}
 
@@ -213,9 +213,9 @@ The **[!UICONTROL Reject]** outbound transition lets you access the output schem
 
 それには、次の手順に従います。
 
-1. 操作を選択 **[!UICONTROL Import objects deleted in the CRM]** します。
-1. Go to the **[!UICONTROL Remote object]** drop-down list and select the object concerned by the process. このオブジェクトは、コネクタの設定時に Adobe Campaign で作成されたテーブルのいずれかと一致します。
-1. Specify the deletion period to be taken into account in the **[!UICONTROL Start date]** and the **[!UICONTROL End date]** fields. これらの日付も期間に含まれます。
+1. 「**[!UICONTROL CRM で削除されたオブジェクトをインポート]**」操作を選択します。
+1. **[!UICONTROL リモートオブジェクト]**&#x200B;ドロップダウンリストに移動し、プロセスの対象となるオブジェクトを選択します。このオブジェクトは、コネクタの設定時に Adobe Campaign で作成されたテーブルのいずれかと一致します。
+1. 考慮する削除期間を「**[!UICONTROL 開始日]**」および「**[!UICONTROL 終了日]**」フィールドで指定します。これらの日付も期間に含まれます。
 
    ![](assets/crm_import_deleted_obj.png)
 
@@ -229,9 +229,9 @@ CRM 側でオブジェクトを削除するには、削除するリモート要�
 
 ![](assets/crm_delete_in_crm.png)
 
-The **[!UICONTROL Behavior]** tab lets you enable the processing of rejects. This option generates a second output transition for the **[!UICONTROL CRM connector]** activity. 詳しくは、[この節](../../platform/using/crm-connectors.md#error-processing)を参照してください。
+「**[!UICONTROL 行動]**」タブで、却下の処理を有効にすることができます。このオプションを使用すると、「**[!UICONTROL CRM コネクタ]**」アクティビティの 2 つ目の出力トランジションが生成されます。詳しくは、[この節](../../platform/using/crm-connectors.md#error-processing)を参照してください。
 
-Even when the **[!UICONTROL Process rejects]** option is disabled, a warning is generated for each rejected column.
+「**[!UICONTROL 却下を処理]**」オプションがオフの場合でも、却下された列ごとに警告が生成されます。
 
 ## 連絡先インポートの設定例 {#example-of-how-to-configure-a-contact-import}
 

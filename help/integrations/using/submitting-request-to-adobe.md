@@ -14,7 +14,7 @@ discoiquuid: 6d19a5a6-98e5-4b1a-a56a-67cfead152bd
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ee483a8ed8d04fec561f8d4e96b630890209793c
 
 ---
@@ -40,19 +40,19 @@ IMS を有効にすると、People コアサービス／Audience Manager と Cam
   </tr> 
   <tr> 
    <td> <strong>IMS Org ID</strong><br /> </td> 
-   <td> 組織の IMS Org ID. <br> IMS組織IDは、Experience cloudの管理メニューで確認できます。 これは、Adobe Experience Cloud への初回接続時に付与されるものです。 </td> 
+   <td> 組織の IMS Org ID.<br> IMS Org ID は、Adobe Experience Cloud の管理メニューで確認できます。これは、Adobe Experience Cloud への初回接続時に付与されるものです。 </td> 
   </tr> 
   <tr> 
    <td> <strong>環境：</strong><br /> </td> 
-   <td> 例：実稼働環境 </td> 
+   <td> 例：本番環境 </td> 
   </tr> 
   <tr> 
    <td> <strong>AAM または People コアサービス</strong><br /> </td> 
-   <td> 例：Adobe Audience Managerを参照してください。 プロビジョニングチームに、Audience Managerライセンスを所有しているかどうかに関わらず、必ず言及してください。</td> 
+   <td> 例： Adobe Audience Managerプロビジョニングチームに Audience Manager のライセンスを所有しているかどうかを確認してください。</td> 
   </tr> 
   <tr> 
    <td> <strong>宣言済み ID または訪問者 ID</strong><br /> </td> 
-   <td> 例：宣言済みID </td> 
+   <td> 例：宣言済み ID </td> 
   </tr> 
   <tr> 
    <td> <strong>追加情報</strong><br /> </td> 

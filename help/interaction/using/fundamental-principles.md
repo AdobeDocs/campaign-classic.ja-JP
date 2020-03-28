@@ -14,7 +14,7 @@ discoiquuid: 695cf33f-1cc7-4ae8-8ef6-05aa65219411
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
    カテゴリは、オンライン環境に手動でパブリッシュすることもできます。
 
-   オファーの承認プロセスの詳細は、「オファーの承認 [とアクティブ化](../../interaction/using/approving-and-activating-an-offer.md) 」の節を参照してください。
+   オファーの承認プロセスについて詳しくは、[オファーの承認と有効化](../../interaction/using/approving-and-activating-an-offer.md)の節を参照してください。
 
 * ライブ環境：デザイン環境からの承認済みオファーに加えて、デザイン環境で設定された様々なオファースペース、フィルター、カテゴリおよびルールは、すべてこの環境にあります。オファーエンジンの呼び出し時、エンジンは常にライブ環境からのオファーを使用します。
 

@@ -14,7 +14,7 @@ discoiquuid: 81090be2-3ed4-4f35-948b-e21af6e19999
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
 
 ---
@@ -26,12 +26,12 @@ source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
 
 配達確認の送信は、通常の配信と同じ手順となります（詳しくは、[この節](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)を参照してください）。ただし、Message Center 内から配達確認を送信するためには、事前に次の操作をおこなってください。
 
-* テストデータを使用して1つ以上のシードアドレスを作成( [トランザクションメッセージでのシードアドレスの管理](../../message-center/using/managing-seed-addresses-in-transactional-messages.md)を参照 [)し(パーソナライゼ](../../message-center/using/personalization-data.md)ーションデータを参照)、
-* メッセージコンテンツの作成(メッセ [ージコンテンツの作成](../../message-center/using/creating-message-content.md))
+* シードアドレスを少なくとも 1 つ作成し（[トランザクションメッセージ内のシードアドレスの管理](../../message-center/using/managing-seed-addresses-in-transactional-messages.md)を参照）、テストデータを割り当てます（[パーソナライゼーションデータ](../../message-center/using/personalization-data.md)を参照）。
+* メッセージコンテツを作成します（[メッセージコンテンツの作成](../../message-center/using/creating-message-content.md)を参照）。
 
 配達確認を送信するには：
 
-1. [配信]ウィン **[!UICONTROL Send a proof]** ドウのボタンをクリックします。
+1. 配信ウィンドウで、「**[!UICONTROL 配達確認を送信]**」ボタンをクリックします。
 1. 配信を分析します。
 1. エラーを修正し、配信を確認します。
 
@@ -41,7 +41,7 @@ source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
 
    ![](assets/messagecenter_send_proof_002.png)
 
-Proofs can be accessed in each template via the **[!UICONTROL Audit]** tab.
+配達確認は、各テンプレートの「**[!UICONTROL 監査]**」タブからアクセスできます。
 
 ![](assets/messagecenter_send_proof_003.png)
 

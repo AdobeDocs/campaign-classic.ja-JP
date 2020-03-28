@@ -14,7 +14,7 @@ discoiquuid: 76922657-2c0d-467e-acee-c1a61677fb44
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # しきい値の監視{#monitoring-thresholds}
 
-**Message Centerのサービスレベルおよび** Message Centerの処理時間レポートに表示されるインジケータの警告しきい値（オレンジ色）とアラートしきい値（赤色）を設定できます **(トランザクションメッセージレポート** についてを参照 [](../../message-center/using/about-transactional-messaging-reports.md))。 これには、実行インスタンスのデプロイウィザードを開き、**[!UICONTROL Message Center]** のページに移動し、矢印を使用してしきい値を変更します。
+**Message Center のサービスレベル**&#x200B;と **Message Center の処理時間**&#x200B;のレポートに表示される指標について、警告しきい値（オレンジ）とアラートしきい値（赤）を設定できます（[トランザクションメッセージレポートについて](../../message-center/using/about-transactional-messaging-reports.md)を参照）。これには、実行インスタンスのデプロイウィザードを開き、**[!UICONTROL Message Center]** のページに移動し、矢印を使用してしきい値を変更します。
 
 ![](assets/messagecenter_monitor_events_001.png)
 

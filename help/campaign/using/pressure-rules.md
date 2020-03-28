@@ -14,7 +14,7 @@ discoiquuid: 3710768e-ab7f-40a4-9c48-830695adc990
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -30,8 +30,8 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 キャンペーンは、定義されたしきい値とメッセージの重み付けに基づいて判別されます。
 
-* しきい値とは、特定の期間内に特定の受信者に送信することが許される配信の最大数であり、定数または変数を指定することができます。しきい値は、タイポロジルールの設定で定義または計算されます。詳しくは、 [メッセージの最大数を参照](#maximum-number-of-messages)。
-* 配信に重みを付けることで、頻度管理のフレームワーク内で最も優先順位の高い配信を指定できます。最も大きな重みを付けられたメッセージが、最優先されます。「メッセージの重 [み」を参照](#message-weight)。
+* しきい値とは、特定の期間内に特定の受信者に送信することが許される配信の最大数であり、定数または変数を指定することができます。しきい値は、タイポロジルールの設定で定義または計算されます。詳しくは、[メッセージの最大数](#maximum-number-of-messages)を参照してください。
+* 配信に重みを付けることで、頻度管理のフレームワーク内で最も優先順位の高い配信を指定できます。最も大きな重みを付けられたメッセージが、最優先されます。[メッセージの重み付け](#message-weight)を参照してください。
 
 判別ルールを適用すれば、予約されているキャンペーンの重みが現在進行中のキャンペーンより大きい場合に、プロファイルに対する過度の勧誘が実施されないよう配信を制御できます。この場合は、特定のプロファイルが配信から除外されます。
 
@@ -40,27 +40,27 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 * 受信者の環境設定：ニュースレターの購読、受信者のステータス（顧客または見込み客）などの叙述情報
 * 受信者の行動：購入、リンクの訪問など
 
-送信するメッセージを決定する判別ルールは、分析の段階で適用されます。次の式が真の場合、各受信者および関連期間に対してメッセージが送信されます。 **（送信されたメッセージの数） + （より大きな重みを持つメッセージの数） &lt;しきい値**。
+送信するメッセージを決定する判別ルールは、分析の段階で適用されます。次の数式が成り立つ場合、考慮する期間において各受信者にメッセージが送信されます。**（送信されたメッセージの数） + （より大きな重みを持つメッセージの数） &lt; しきい値**。
 
-それ以外の場合は、受信者はになりま **[!UICONTROL Excluded by arbitration]**&#x200B;す。 詳しくは、「調停後の除外」を [参照してください](#exclusion-after-arbitration)。
+式が成り立たない場合、その受信者は&#x200B;**[!UICONTROL 判別によって除外]**&#x200B;され、メッセージは送信されません。詳しくは、[判別後の除外](#exclusion-after-arbitration)を参照してください。
 
 ## 頻度ルールの作成 {#creating-a-pressure-rule}
 
 Adobe Campaign でキャンペーンの判別を設定するには、まずキャンペーンタイポロジを作成し、リンクするタイポロジルール（**頻度**&#x200B;ルール）を定義します。
 
-To create and configure a **[!UICONTROL Pressure]** typology rule, apply the following steps:
+**[!UICONTROL 頻度]**&#x200B;タイポロジルールを作成および設定するには、次の手順に従います。
 
-1. In the list of campaign typology rules, click the **[!UICONTROL New]** icon above the list.
+1. キャンペーンのタイポロジルールリストで、リスト上部にある&#x200B;**[!UICONTROL 新規]**&#x200B;アイコンをクリックします。
 
    ![](assets/campaign_opt_create_a_rule_01.png)
 
-1. In the **[!UICONTROL General]** tab of the new rule, select a **Pressure** type rule and enter a name and description for it.
+1. 新しいルールの「**[!UICONTROL 一般]**」タブで、ルールタイプの「**頻度**」を選択し、名前と説明を入力します。
 
    ![](assets/campaign_opt_create_a_rule_02.png)
 
-1. 必要に応じて実行順序を変更します。When multiple typology rules are applied as a **[!UICONTROL Typology]** set, the lower ordered rules are applied first. For more on this, refer to [Execution order](../../campaign/using/applying-rules.md#execution-order).
-1. In the **[!UICONTROL Calculation parameters]** section, define a frequency if you want to save targeting beyond the next daily re-arbitration execution. 詳しくは、計算頻度の調整を参 [照してください](../../campaign/using/applying-rules.md#adjusting-calculation-frequency)。
-1. Click the **[!UICONTROL Pressure]** tab and choose the calendar period during which the typology rule applies.
+1. 必要に応じて実行順序を変更します。複数のタイポロジルールを&#x200B;**[!UICONTROL タイポロジ]**&#x200B;セットとして適用する場合、下位にあるルールが最初に適用されます。詳しくは、[実行順序](../../campaign/using/applying-rules.md#execution-order)を参照してください。
+1. 次の日次再判別の実行を超えてターゲティングを保存する場合は、「**[!UICONTROL 計算パラメーター]**」セクションで頻度を定義します。詳しくは、[計算頻度の調整](../../campaign/using/applying-rules.md#adjusting-calculation-frequency)を参照してください。
+1. 「**[!UICONTROL 頻度]**」タブをクリックし、タイポロジルールを適用する期間を選択します。
 
    ![](assets/campaign_opt_create_a_rule_03.png)
 
@@ -68,7 +68,7 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
    >[!NOTE]
    >
-   >Scheduled deliveries are only taken into account if the **[!UICONTROL Take the deliveries into account in the provisional calendar]** option is selected. For more on this, refer to [Setting the period](#setting-the-period).
+   >スケジュールされた配信は、「**[!UICONTROL 暫定カレンダーで配信を考慮]**」オプションが選択されている場合にのみ考慮されます。詳しくは、[期間の設定](#setting-the-period)を参照してください。
 
 1. メッセージの最大数を計算する方法を定義します。
 
@@ -78,17 +78,17 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
    ![](assets/campaign_opt_create_a_rule_03b.png)
 
-   To define a variable threshold, select the **[!UICONTROL Depends on the recipient]** value in the **[!UICONTROL Type of threshold]** field and use the icon on the right to open the expression editor.
+   変数のしきい値を定義する場合は、「**[!UICONTROL しきい値のタイプ]**」フィールドで「**[!UICONTROL 受信者に依存]**」を選択し、右側のアイコンを使用して式エディターを開きます。
 
    ![](assets/campaign_opt_create_a_rule_04.png)
 
-   詳しくは、「メッセージの最 [大数」を参照してください](#maximum-number-of-messages)。
+   詳しくは、[メッセージの最大数](#maximum-number-of-messages)を参照してください。
 
 1. 配信の重み付けを計算する方法を指定します。
 
-   すべての配信には重みが付けられます。重みとは優先順位を表す値であり、この重みに基づいてキャンペーンの判別が実施されます。重みは、タイポロジルールまたはプロパティで定義される数式を使用して計算されます。For more on this, refer to [Message weight](#message-weight).
+   すべての配信には重みが付けられます。重みとは優先順位を表す値であり、この重みに基づいてキャンペーンの判別が実施されます。重みは、タイポロジルールまたはプロパティで定義される数式を使用して計算されます。詳しくは、[メッセージの重み付け](#message-weight)を参照してください。
 
-1. デフォルトでは、しきい値の計算にはすべてのメッセージが考慮されます。The **[!UICONTROL Restriction]** tab lets you filter the messages concerned by the typology rule:
+1. デフォルトでは、しきい値の計算にはすべてのメッセージが考慮されます。「**[!UICONTROL カウントするメッセージ]**」セクションにあるクエリ定義を使用すると、タイポロジルールの対象となるメッセージをフィルタリングできます。
 
    * 「ターゲティングディメンションからクエリを編集」では、対象となる受信者を制限できます。
    * このタブの下部セクションでは、カウントするメッセージをフィルタリングできます。
@@ -96,7 +96,7 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
       以下の例では、**NewContacts** フォルダーに保存されている受信者のみが対象となり、「**Newsletter**」で始まる配信のみが考慮されます。
    ![](assets/campaign_opt_create_a_rule_05.png)
 
-1. The **[!UICONTROL Typologies]** tab lets you view the campaign typologies which apply this rule or link the rule to one or more existing typologies. 詳しくは、[タイポロジの適用](../../campaign/using/about-campaign-typologies.md#applying-typologies)を参照してください。
+1. 「**[!UICONTROL タイポロジ]**」タブでは、このルールが適用されるキャンペーンタイポロジを表示したり、ルールを 1 つ以上の既存のタイポロジにリンクしたりできます。詳しくは、[タイポロジの適用](../../campaign/using/about-campaign-typologies.md#applying-typologies)を参照してください。
 
 ## しきい値と重みの定義 {#defining-thresholds-and-weights}
 
@@ -114,13 +114,13 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
 **例：**
 
-受信者が所属するセグメントによって、許可するメッセージの数を変えることができます。例えば、Web セグメントに所属する受信者に、他の受信者より多くのメッセージを送信できるようにするには、An **[!UICONTROL Iif (@origin='Web', 5, 3)]** type formula authorizes the delivery of 5 messages to recipients and 3 for other segments. 設定の手順は以下のとおりです。
+受信者が所属するセグメントによって、許可するメッセージの数を変えることができます。例えば、Web セグメントに所属する受信者に、他の受信者より多くのメッセージを送信できるようにするには、「**[!UICONTROL Iif (@origin=&#39;Web&#39;, 5, 3)]**」という数式を指定します。この数式では、Web セグメントの受信者に 5 つのメッセージ、その他のセグメントに 3 つのメッセージを配信できます。設定の手順は以下のとおりです。
 
 ![](assets/campaign_opt_pressure_sample.png)
 
 しきい値を定義する際には、ターゲティングディメンションにリンクされているディメンションを使用できます。例えば、訪問者テーブルに格納されている受信者プロファイルへのメッセージを含めることができます（訪問者テーブルについて詳しくは、[この節](../../web/using/use-case--creating-a-refer-a-friend-form.md)を参照）。または、同一世帯へのメッセージの配信（複数の E メールアドレスが関係する）を週に一度までに制限することもできます。この場合、同一世帯かどうかは、受信者のディメンションにリンクされているディメンションによって判断されます。
 
-その場合は、このオプションを選択 **[!UICONTROL Count messages on a linked dimension]** し、訪問者または連絡先テーブルを選択します。
+これをおこなうには、「**[!UICONTROL リンクされたディメンションに関するメッセージをカウント]**」オプションをオンにし、訪問者または連絡先のテーブルを選択します。
 
 ### メッセージの重み付け {#message-weight}
 
@@ -130,7 +130,7 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
 >[!CAUTION]
 >
->The weight defined in a typology rule can be overloaded individually for each delivery, in the **[!UICONTROL Properties]** tab. Click the **[!UICONTROL Typology]** tab to select the campaign typology and, if necessary, specify the weight to be applied.\
+>タイポロジルールで重みが定義されている場合、「**[!UICONTROL プロパティ]**」タブで、個々の配信に重複して重みが適用される可能性があります。「**[!UICONTROL タイポロジ]**」タブをクリックして、キャンペーンタイポロジを選択し、必要に応じて適用する重みを指定します。\
 >ただし、タイポロジルール A で宣言されている重みがタイポロジルール B の計算で使用されることはありません。この重みはルール A を使用する配信でのみ使用されます。
 
 **例：**
@@ -148,24 +148,24 @@ To create and configure a **[!UICONTROL Pressure]** typology rule, apply the fol
 
 頻度ルールは、**n** 日周期で定義されます。
 
-The period is configured in the **[!UICONTROL Pressure]** tab of the rule. 日数を指定し、必要に応じて、適用するグループ化のタイプ（日、週、月、四半期など）を選択します。
+この期間は、ルールの「**[!UICONTROL 頻度]**」タブで設定します。日数を指定し、必要に応じて、適用するグループ化のタイプ（日、週、月、四半期など）を選択します。
 
-The grouping type lets you extend the **[!UICONTROL Period considered]** field to the whole day, calendar week, calendar month or calendar year for dates for the period.
+グループ化のタイプを選択すると、「**[!UICONTROL 考慮する期間]**」フィールドで指定した期間を 1 日、暦週、暦月または暦年まで延長できます。
 
 例えば、頻度ルールで 1 週間に 2 つのメッセージというしきい値が定義されている場合、「暦月ごとのグループ化」を選択すると、その 1 週間だけでなく、同じ暦月内にメッセージが 3 つ以上配信されないようにすることができます。警告：考慮する期間が 2 ヶ月にまたがっている場合は、その 2 つの暦月内の配信がしきい値の計算の対象となるので、2 ヶ月目の新しい配信はすべて実行できなくなる可能性があります。
 
 >[!NOTE]
 >
->デフォルトのしきい値の計算では、送信済みの配信のみが考慮されます。該当期間に **[!UICONTROL Take the deliveries into account in the provisional calendar]** スケジュールされた配信も考慮する場合は、このオプションを選択します。 オンにすると、対象の期間が 2 倍になり、過去の配信に加えて、今後予定されている配信も考慮されます。\
+>デフォルトのしきい値の計算では、送信済みの配信のみが考慮されます。対象の期間内に予約されている配信も考慮するには、「**[!UICONTROL 暫定カレンダーで配信を考慮]**」オプションをオンにしてください。オンにすると、対象の期間が 2 倍になり、過去の配信に加えて、今後予定されている配信も考慮されます。\
 >考慮する配信を 2 週間以内に制限するには、次のいずれかを実行します。
 >
->* Enter **15d** in the **[!UICONTROL Concerned period]** field: deliveries sent up to two weeks before the date of the delivery which the rule is applied to will be taken into account in the calculation,
+>* 「**[!UICONTROL 考慮する期間]**」フィールドに「**15 日**」と入力します。ルールが適用される配信日から過去 2 週の間に送信された配信が計算に含められます。
 >
 >  
 または
 >
->* フィ **ールドに** 7dと入力 **[!UICONTROL Period considered]** し、 **[!UICONTROL Take the deliveries into account in the provisional calendar]**\
-   >オプション：配信日の7日前までに送信され、ルールが適用される配信日から7日後までにスケジュールされた配信は、計算に考慮されます。
+>* 「**[!UICONTROL 考慮する期間]**」フィールドに **7d** と入力し、さらに「**[!UICONTROL 暫定カレンダーで配信を考慮]**」オプションを選択します。\
+   >オプション：配信日から過去 7 日の間に送信された配信および配信日から 7 日後までスケジュールされている配信が計算に含められます。
 >
 >
 期間の開始日は、データベースの設定によって異なります。
@@ -175,7 +175,7 @@ The grouping type lets you extend the **[!UICONTROL Period considered]** field t
 >[!CAUTION]
 >
 >**よくある事例**
->To make sure that deliveries for the current calendar week are not taken into account, as well as not to risk also taking into account those from the previous week for the calculation threshold, specify the **[!UICONTROL Period considered]** at &#39;0&#39; and select &#39;Grouping per calendar week&#39; as the **[!UICONTROL Period type]**.
+>現在の暦週および前の週の配信をしきい値の計算に含めたくない場合は、「**[!UICONTROL 考慮する期間]**」で「0」を指定し、「**[!UICONTROL 期間タイプ]**」として「暦週ごとのグループ化」を選択します。
 > 
 >「考慮する期間」に 0 より大きい値（1 など）を指定すると、しきい値の計算では前日の配信も考慮されることがあります。この前日がカレンダー上で前の週に区分される場合、期間タイプとして「暦週ごとのグループ化」を選択していると、前の週の配信はすべてしきい値の計算に含められます。
 
@@ -203,13 +203,13 @@ The grouping type lets you extend the **[!UICONTROL Period considered]** field t
 
 >[!NOTE]
 >
->タイポロジルールの定義を変更するときには、**シミュレーション**&#x200B;を作成することで、変更が配信に与える影響をコントロールし、他の配信にどのように影響するかを監視できます。For more on this, refer to [Campaign simulations](../../campaign/using/campaign-simulations.md).
+>タイポロジルールの定義を変更するときには、**シミュレーション**&#x200B;を作成することで、変更が配信に与える影響をコントロールし、他の配信にどのように影響するかを監視できます。詳しくは、[キャンペーンのシミュレーション](../../campaign/using/campaign-simulations.md)を参照してください。
 
 ## 判別後の除外 {#exclusion-after-arbitration}
 
-Arbitration is re-applied every night via the **[!UICONTROL Forecasting]** technical workflow and the **[!UICONTROL Campaign jobs]** workflow.
+判別は、毎晩&#x200B;**[!UICONTROL 予測]**&#x200B;テクニカルワークフローおよび&#x200B;**[!UICONTROL キャンペーンのジョブ]**&#x200B;ワークフローで再適用されます。
 
-The **[!UICONTROL Forecasting]** workflow pre-calculates the data for the period in progress (from its start date to the current date), which lets typology rules be applied during the analysis. また、判別の除外カウンターも毎晩再計算されます。
+**[!UICONTROL 予測]**&#x200B;ワークフローでは、分析フェーズで適用されるタイポロジルールのために、期間中のデータ（開始日から現在の日付まで）が事前に計算されます。また、判別の除外カウンターも毎晩再計算されます。
 
 このように Adobe Campaign では、考慮する期間内の送信済みのメッセージの数を確認して、送信するメッセージ数がしきい値を超えないよう受信者ごとに制御します。この情報は&#x200B;**指標**&#x200B;であり、すべての計算は配信時に更新されます。
 
@@ -227,36 +227,36 @@ The **[!UICONTROL Forecasting]** workflow pre-calculates the data for the period
 
 顧客へのメッセージ配信を週に 4 回まで、見込み客への配信を週に 2 回までに制限するタイポロジルールを作成します。
 
-To identify customers and prospects, use the **[!UICONTROL Status]** field, which contains 0 for prospects and 1 for customers.
+顧客と見込み客を識別するには、「**[!UICONTROL ステータス]**」フィールドを使用します。このフィールドでは、見込み客の場合は「0」、顧客の場合は「1」が指定されます。
 
 ルールを作成するには、次の手順に従います。
 
 1. **頻度**&#x200B;タイプのタイポロジルールを新規作成します。
-1. Edit the **[!UICONTROL Pressure]** tab: in the **[!UICONTROL Maximum number of messages]** section, we want to create a formula to calculate the threshold depending on each recipient. フィールド **[!UICONTROL Depends on the recipient]** 内の値を選択 **[!UICONTROL Threshold type]** し、フィールドの **[!UICONTROL Edit expression]** 右側にあるをクリックし **[!UICONTROL Formula]** ます。
+1. 「**[!UICONTROL 頻度]**」タブに移動します。「**[!UICONTROL メッセージの最大数]**」セクションで、各受信者のしきい値を計算する数式を作成します。「**[!UICONTROL しきい値のタイプ]**」フィールドで「**[!UICONTROL 受信者に依存]**」を選択し、「**[!UICONTROL 数式]**」フィールドの右にある「**[!UICONTROL 式を編集]**」をクリックします。
 
-   Click the **[!UICONTROL Advanced parameters]** button to define the calculation formula.
+   「**[!UICONTROL 詳細選択]**」ボタンをクリックして、計算式を定義します。
 
    ![](assets/campaign_opt_pressure_sample_1_1.png)
 
-1. オプションを選 **[!UICONTROL Edit the formula using an expression]** 択し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. 「**[!UICONTROL 式を使用して数式を編集]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/campaign_opt_pressure_sample_1_2.png)
 
-1. In the list of functions, double-click the **Iif** function in the **[!UICONTROL Others]** node.
+1. 関数のリストで、**その他**&#x200B;ノードにある **[!UICONTROL Iif]** 関数をダブルクリックします。
 
-   Then select the recipients&#39; **Status** in the **[!UICONTROL Available fields]** section.
+   次に、「**使用可能フィールド**」セクションで、受信者の「**[!UICONTROL ステータス]**」を選択します。
 
    ![](assets/campaign_opt_pressure_sample_1_3.png)
 
-   次の式を入力します。 **Iif(@status=0,2,4)**
+   次の式を入力します。**Iif(@status=0,2,4)**
 
    ![](assets/campaign_opt_pressure_sample_1_4.png)
 
    この数式により、受信者のステータスが 0 の場合は 2、その他のステータスの場合は 4 が割り当てられます。
 
-   Click **[!UICONTROL Finish]** to approve the formula.
+   「**[!UICONTROL 完了]**」をクリックして、数式を承認します。
 
-1. ルールを適用する期間を指定します。この場合、7日間（1週間あたりのメッセージ数をカウント）。
+1. ルールを適用する期間を指定します。この例では、1 週間あたりのメッセージ数をカウントするよう 7 日間にします。
 
    ![](assets/campaign_opt_pressure_sample_1_5.png)
 
@@ -265,13 +265,13 @@ To identify customers and prospects, use the **[!UICONTROL Status]** field, whic
 次に、作成したルールをタイポロジとリンクして、配信に適用します。手順は次のとおりです。
 
 1. キャンペーンタイポロジを作成します。
-1. Go to the **[!UICONTROL Rules]** tab, click the **[!UICONTROL Add]** button and select the rule you have just created.
+1. 「**[!UICONTROL ルール]**」タブに移動し、「**[!UICONTROL 追加]**」ボタンをクリックして、作成したルールを選択します。
 
    ![](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. タイポロジを保存して、既存のタイポロジのリストに追加します。
 
-To use this typology in your deliveries, select it in the delivery properties, in the **[!UICONTROL Typology]** tab as shown below:
+配信でこのタイポロジを使用するには、配信プロパティの「**[!UICONTROL タイポロジ]**」タブでこのタイポロジを選択します（以下の図を参照）。
 
 ![](assets/campaign_opt_pressure_sample_1_7.png)
 
@@ -285,11 +285,11 @@ To use this typology in your deliveries, select it in the delivery properties, i
 
    ![](assets/campaign_opt_pressure_sample_1_8.png)
 
-* Edit the delivery and click the **[!UICONTROL Delivery]** tab and the **[!UICONTROL Exclusions]** sub-tab:
+* 配信を編集し、「**[!UICONTROL 配信]**」タブの「**[!UICONTROL 除外]**」サブタブをクリックします。
 
    ![](assets/campaign_opt_pressure_sample_1_9.png)
 
-* Click the **[!UICONTROL Audit]** tab, then the **[!UICONTROL Causes of exclusions]** sub-tab to display the number of exclusions and the applied typology rules:
+* 「**[!UICONTROL 監査]**」タブをクリックし、「**[!UICONTROL 除外の原因]**」サブタブをクリックして、除外された数と適用されたタイポロジルールを表示します。
 
    ![](assets/campaign_opt_pressure_sample_1_10.png)
 
@@ -304,7 +304,7 @@ To use this typology in your deliveries, select it in the delivery properties, i
 次の設定手順を実行します。
 
 1. **頻度**&#x200B;タイプのタイポロジルールを新規作成します。
-1. タブを編集 **[!UICONTROL Pressure]** します。 We want to create a threshold formula which will be based on each individual recipient: click the **[!UICONTROL Edit expression]** icon to the right of the **[!UICONTROL Weight formula]** field.
+1. 「**[!UICONTROL 頻度]**」タブで編集を実行します。各受信者に基づいてしきい値を計算する数式を作成します。「**[!UICONTROL 重み付け数式]**」フィールドの右にある「**[!UICONTROL 式を編集]**」アイコンをクリックします。
 
    ![](assets/campaign_opt_pressure_sample_2_1.png)
 
@@ -316,7 +316,7 @@ To use this typology in your deliveries, select it in the delivery properties, i
 
    ![](assets/campaign_opt_pressure_sample_2_3.png)
 
-1. Click **[!UICONTROL Finish]** to save this rule.
+1. 「**[!UICONTROL 完了]**」をクリックして、ルールを保存します。
 1. ルールをキャンペーンタイポロジにリンクし、配信でこのタイポロジを参照して承認します。
 
 ### 最も大きな重みを付けられたメッセージのみの送信 {#sending-only-the-highest-weighted-messages}
@@ -327,49 +327,49 @@ To use this typology in your deliveries, select it in the delivery properties, i
 
 最初に、頻度ルールを設定します。
 
-1. 頻度ルールを作成します。For more on this, refer to [Creating a pressure rule](#creating-a-pressure-rule).
-1. タブで、オ **[!UICONTROL General]** プションを選択 **[!UICONTROL Re-apply the rule at the start of personalization]** します。
+1. 頻度ルールを作成します。詳しくは、[頻度ルールの作成](#creating-a-pressure-rule)を参照してください。
+1. 「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL パーソナライゼーションの開始時にルールを再適用]**」オプションを選択します。
 
    ![](assets/campaign_opt_pressure_example_5.png)
 
-   This option overrules the value defined in the **[!UICONTROL Frequency]** field and automatically applies the rule during the personalization phase. 詳しくは、計算頻度の調整を参 [照してください](../../campaign/using/applying-rules.md#adjusting-calculation-frequency)。
+   このオプションは、「**[!UICONTROL 頻度]**」フィールドに定義された値を無視し、パーソナライゼーションフェーズ中にルールを自動的に適用します。詳しくは、[計算頻度の調整](../../campaign/using/applying-rules.md#adjusting-calculation-frequency)を参照してください。
 
-1. タブで、 **[!UICONTROL Pressure]** をととし **[!UICONTROL 7d]** て選択 **[!UICONTROL Period considered]** します **[!UICONTROL Grouping per day]****[!UICONTROL Period type]**。
-1. 配信スケジュール **[!UICONTROL Take the deliveries into account in the provisional calendar]** を含めるオプションを選択します。
+1. 「**[!UICONTROL 頻度]**」タブで、「**[!UICONTROL 考慮する期間]**」で「**[!UICONTROL 7 日]**」を選択し、「**[!UICONTROL 期間タイプ]**」として「**[!UICONTROL 1 日あたりのグループ化]**」を選択します。
+1. 「**[!UICONTROL 暫定カレンダーで配信を考慮]**」オプションを選択してスケジュールされた配信を含めます。
 
    ![](assets/campaign_opt_pressure_example_1.png)
 
-   配信日から過去 7 日の間に送信された配信および配信日から 7 日後までスケジュールされている配信が計算に含められます。For more on this, refer to [Setting the period](#setting-the-period).
+   配信日から過去 7 日の間に送信された配信および配信日から 7 日後までスケジュールされている配信が計算に含められます。詳しくは、[期間の設定](#setting-the-period)を参照してください。
 
-1. In the **[!UICONTROL Typologies]** tab, link the rule to a campaign typology.
+1. 「**[!UICONTROL タイポロジ]**」タブで、ルールをキャンペーンタイポロジにリンクします。
 1. 変更を保存します。
 
 次に、頻度ルールを適用するそれぞれの配信のワークフローを作成して設定します。
 
 1. キャンペーンを作成します。詳しくは、[この節](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)を参照してください。
-1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, add a **Query** activity to your workflow. このアクティビティの使用について詳しくは、[この節](../../workflow/using/query.md)を参照してください。
-1. Add an **[!UICONTROL Email delivery]** activity to the workflow and open it. このアクティビティの使用について詳しくは、[この節](../../workflow/using/delivery.md)を参照してください。
-1. Go to the **[!UICONTROL Approvals]** tab of the **[!UICONTROL Delivery properties]** and disable all approvals.
+1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、ワークフローに&#x200B;**クエリ**&#x200B;アクティビティを追加します。このアクティビティの使用について詳しくは、[この節](../../workflow/using/query.md)を参照してください。
+1. **[!UICONTROL E メール配信]**&#x200B;アクティビティをワークフローに追加して開きます。このアクティビティの使用について詳しくは、[この節](../../workflow/using/delivery.md)を参照してください。
+1. **[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL 承認]**」タブに移動し、すべての承認を無効にします。
 
    ![](assets/campaign_opt_pressure_example_2.png)
 
-1. In the **[!UICONTROL Typology]** tab of the **[!UICONTROL Delivery properties]**, reference the campaign typology to apply the rule on. 配信の重み付けを定義します。
+1. **[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL タイポロジ]**」タブで、ルールを適用するキャンペーンタイポロジを参照します。配信の重み付けを定義します。
 
    ![](assets/campaign_opt_pressure_example_3.png)
 
-1. 配信で、をクリックして **[!UICONTROL Scheduling]** 選択しま **[!UICONTROL Schedule delivery (automatic execution when the scheduled date is reached)]**&#x200B;す。 この例では、オプションを選択 **[!UICONTROL Use a calculation formula]** します。
+1. 配信内で、「**[!UICONTROL スケジュール設定]**」をクリックし、「**[!UICONTROL 予約配信 (予約された日になると自動実行)]**」を選択します。この例では、「**[!UICONTROL 計算式を使用]**」オプションを選択します。
 1. 抽出日を 10 分（現在の日付 + 10 分）に設定します。
 1. コンタクト日を翌日（現在の日付 + 1 日）に設定します。
 
    ![](assets/campaign_opt_pressure_example_4.png)
 
-   頻度ルールの除外を適切に実装するには、コンタクト日時より前で、かつ夜間の判別が再適用される前の日時に抽出日時を設定します。詳しくは、「調停後の除外」を [参照してください](#exclusion-after-arbitration)。
+   頻度ルールの除外を適切に実装するには、コンタクト日時より前で、かつ夜間の判別が再適用される前の日時に抽出日時を設定します。詳しくは、[判別後の除外](#exclusion-after-arbitration)を参照してください。
 
-1. このオプションを **[!UICONTROL Confirm the delivery before sending]** 選択解除し、変更を保存します。
+1. 「**[!UICONTROL 送信前に配信を確定する]**」オプションの選択を解除し、変更を保存します。
 1. 送信するそれぞれの配信について、同様の手順を実行します。それぞれの配信に必要な重み付けを設定してください。
 1. 関連するワークフローを実行して、配信を準備して送信します。
 
-夜間の判別が適用されると、同じ受信者に対する重みが小さい配信が除外されます。最も大きな重みを付けられた配信のみが、送信の対象とみなされます。For more on this, refer to [Message weight](#message-weight).
+夜間の判別が適用されると、同じ受信者に対する重みが小さい配信が除外されます。最も大きな重みを付けられた配信のみが、送信の対象とみなされます。詳しくは、[メッセージの重み付け](#message-weight)を参照してください。
 
 次の表に、週の前半に対象となる受信者に E メールが既に送信されたと仮定した場合にもう 2 つの配信に適用できる設定の例を示します。
 
@@ -400,7 +400,7 @@ To use this typology in your deliveries, select it in the delivery properties, i
    <td> 除外済み<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivery 2<br /> </td> 
+   <td> 配信 2<br /> </td> 
    <td> 無効<br /> </td> 
    <td> 10<br /> </td> 
    <td> 午後 4 時<br /> </td> 

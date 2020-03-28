@@ -14,7 +14,7 @@ discoiquuid: 3fd7a1ef-b0e2-4a7e-9e36-044d997db785
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e37be4f764feadb49c70a9d598f8f3b8f864380
 
 ---
@@ -22,29 +22,29 @@ source-git-commit: 8e37be4f764feadb49c70a9d598f8f3b8f864380
 
 # 匿名インタラクション{#anonymous-interactions}
 
-このビデオで [は](https://helpx.adobe.com/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) 、特定された匿名ターゲットにオファーが配信される方法の概要を説明します。
+識別された匿名ターゲットへのオファーの配信方法の概要については、この[ビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com)をご覧ください。
 
 ## 匿名インタラクション向け環境のターゲティングと格納 {#targeting-and-storing-an-environment-for-anonymous-interactions}
 
-デフォルトでは、インタラクションには、受信者テーブルをターゲットとするように事前設定された環境（識別されたオファー）が 1 つ用意されています。別のテーブル（匿名オファー用の訪問者テーブルや特定の受信者テーブル）をターゲットにする場合、ターゲットマッピングウィザードを使用して環境を作成する必要があります。詳しくは、「オファー環境の [作成」を参照してください](../../interaction/using/live-design-environments.md#creating-an-offer-environment)。
+デフォルトでは、インタラクションには、受信者テーブルをターゲットとするように事前設定された環境（識別されたオファー）が 1 つ用意されています。別のテーブル（匿名オファー用の訪問者テーブルや特定の受信者テーブル）をターゲットにする場合、ターゲットマッピングウィザードを使用して環境を作成する必要があります。詳しくは、[オファー環境の作成](../../interaction/using/live-design-environments.md#creating-an-offer-environment)を参照してください。
 
-マッピング作成ウィザードを使用して匿名環境を作成すると、環境のタ **[!UICONTROL Environment dedicated to incoming anonymous interactions]** ブでこのボックスが自動的にチェックさ **[!UICONTROL General]** れます。
+マッピング作成ウィザードで匿名環境を作成する場合、環境の「**[!UICONTROL 一般]**」タブにある「**[!UICONTROL 受信する匿名インタラクション専用の環境]**」ボックスが自動的にオンになります。
 
-が自 **[!UICONTROL Targeting dimension]** 動的に完了します。 デフォルトでは、このフィールドは訪問者テーブルにリンクされます。
+「**[!UICONTROL ターゲティングディメンション]**」は自動的に入力されます。デフォルトでは、このフィールドは訪問者テーブルにリンクされます。
 
-フィールド **[!UICONTROL Visitor folder]** が表示されます。 It is automatically completed to link to the **[!UICONTROL Visitors]** folder. このフィールドでは、訪問者プロファイルを格納する場所を選択できます。
+「**[!UICONTROL 訪問者フォルダー]**」フィールドが表示され、**[!UICONTROL 訪問者]**&#x200B;フォルダーへのリンクが自動的に入力されます。このフィールドでは、訪問者プロファイルを格納する場所を選択できます。
 
 ![](assets/anonymous_environment_option.png)
 
 >[!NOTE]
 >
->If you want to filter several types of visitors, for instance in the case of anonymous offers presented for one or more brands, you need to create an environment for each brand, and a **[!UICONTROL Visitors]** type folder for each environment.
+>1 つまたは複数のブランドを提供する匿名オファーの場合など、複数のタイプの訪問者にフィルターするには、各ブランドに環境を作成して、各環境用に&#x200B;**[!UICONTROL 訪問者]**&#x200B;タイプのフォルダーを作成する必要があります。
 
 ## 匿名インタラクション用のオファーカタログ {#offer-catalog-for-anonymous-interactions}
 
 アウトバウンドインタラクションの場合と同様、インバウンドインタラクションも、カテゴリやオファーで構成されたオファーカタログで管理されます。
 
-カテゴリとスペースを作成するには、特定した訪問者に対して同じプロセスを適用します(「オファー [カテゴリの作成](../../interaction/using/creating-offer-categories.md) 」および「オ [ファー環境の作成](../../interaction/using/live-design-environments.md#creating-an-offer-environment)」を参照)。
+カテゴリやスペースを作成するには、識別された訪問者の場合と同じ手順を適用します（[オファーカテゴリの作成](../../interaction/using/creating-offer-categories.md)および[オファー環境の作成](../../interaction/using/live-design-environments.md#creating-an-offer-environment)を参照）。
 
 ## 匿名の訪問者 {#anonymous-visitors}
 
@@ -52,7 +52,7 @@ source-git-commit: 8e37be4f764feadb49c70a9d598f8f3b8f864380
 
 この手順では、Cookie から復元されたデータとデータベースのデータの比較がおこなわれます。その結果、訪問者が認識される（暗黙的に推測される）場合もあれば、認識されない（その結果、匿名のままの）場合もあります。
 
-この分析を実行するには、オファースペースに対して、オプションをオンに **[!UICONTROL Implicitly identify the individual based on their browser history]** します。
+この分析を実行するには、オファースペースで、「**[!UICONTROL ブラウザー履歴に基づいて個人を暗示的に識別]**」オプションをオンにします。
 
 ![](assets/identification_anonymous_visitors.png)
 
@@ -62,7 +62,7 @@ source-git-commit: 8e37be4f764feadb49c70a9d598f8f3b8f864380
 
 コンタクト先を識別できる要素がない場合や、暗黙的な推測が可能なコンタクト先に識別済みオファーを提案する意思がない場合は、匿名環境のフォールバックを実行できます。
 
-これを行うには、をチェック **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]**&#x200B;し、オファースペースを指定する際に、これらの未識別訪問者専用の **[!UICONTROL Linked anonymous space]** 環境を指定します。
+それには、「**[!UICONTROL 個人が識別されなかった場合、匿名環境にフォールバックします]**」をオンにして、オファースペースを指定する際に、「**[!UICONTROL リンクされた匿名スペース]**」で識別されない訪問者専用の環境を指定します。
 
 ![](assets/anonymous_to_anonymous_environment.png)
 

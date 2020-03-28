@@ -14,7 +14,7 @@ discoiquuid: 0ca5e0f6-cc81-4da9-aecf-a095cc1a19f9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -24,9 +24,9 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 レポートの特定の項目やページの表示に条件を付けることができます。
 
-特定の項目を条件付きにするには、それらの項目の表示設定を調整します。For more on this, refer to [Conditioning item display](#conditioning-item-display).
+特定の項目を条件付きにするには、それらの項目の表示設定を調整します。詳しくは、[項目表示の条件付け](#conditioning-item-display)を参照してください。
 
-To make the display of one or more pages conditional, use a **[!UICONTROL Test]** type activity. 詳しくは、[ページ表示の条件付け](#conditioning-page-display)を参照してください。
+1 つまたは複数のページの表示を条件付きにするには、**[!UICONTROL テスト]**&#x200B;タイプのアクティビティを使用します。詳しくは、[ページ表示の条件付け](#conditioning-page-display)を参照してください。
 
 ## 項目表示の条件付け {#conditioning-item-display}
 
@@ -42,21 +42,21 @@ To make the display of one or more pages conditional, use a **[!UICONTROL Test]*
 
 ## ページ表示の条件付け {#conditioning-page-display}
 
-In the chart of a report, the **[!UICONTROL Test]** activity lets you change the sequence of pages depending on one or more conditions.
+レポートのチャートで、**[!UICONTROL テスト]**&#x200B;アクティビティを使用すると、1 つまたは複数の条件に応じて、ページの順序を変更できます。
 
 このアクティビティの動作の仕組みは次のとおりです。
 
-1. Place a **[!UICONTROL Test]** in a chart and edit it.
-1. Click the **[!UICONTROL Add]** button to create the various possible cases.
+1. チャートに&#x200B;**[!UICONTROL テスト]**&#x200B;アクティビティを追加し、それを編集します。
+1. 「**[!UICONTROL 追加]**」ボタンをクリックして、考えられる様々なケースを作成します。
 
    ![](assets/reporting_test_sample.png)
 
-   For each case, an output transition is added to the **[!UICONTROL Test]** activity.
+   これらのケースごとに、出力トランジションが&#x200B;**[!UICONTROL テスト]**&#x200B;アクティビティに追加されます。
 
    ![](assets/reporting_test_transitions.png)
 
-1. Select the **[!UICONTROL Enable default transition]** to add a transition, in case one of the configured conditions isn&#39;t met.
+1. 「**[!UICONTROL デフォルト分岐を有効化]**」オプションを選択すると、設定した条件のどれも満たされない場合のトランジションを追加できます。
 
    詳しくは、[この節](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display)を参照してください。
 
-A **[!UICONTROL Test]** activity can be placed at the start of the chart to condition the display depending on context or operator profile for instance.
+チャートの先頭に&#x200B;**[!UICONTROL テスト]**&#x200B;アクティビティを配置して、例えばコンテキストやオペレータープロファイルによって表示を条件付けることができます。

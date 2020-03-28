@@ -14,7 +14,7 @@ discoiquuid: 74084618-2b35-42c5-8a86-87ce137abb71
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -28,11 +28,11 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ## グループ化されたリストの作成 {#creating-a-list-with-group}
 
-A **[!UICONTROL List with group]** type table lets you group data in the table and produce statistics on it. 例えば、データの合計と小計を作成できます。グループごとに、専用のヘッダー行、詳細行、フッター行があります。
+**[!UICONTROL グループ化されたリスト]**&#x200B;タイプのテーブルでは、テーブルのデータをグループ化し、それに関する統計を生成できます。例えば、データの合計と小計を作成できます。グループごとに、専用のヘッダー行、詳細行、フッター行があります。
 
 >[!CAUTION]
 >
->The **[!UICONTROL Page]** activity containing the table must be preceded by a **[!UICONTROL Query]** or **[!UICONTROL Script]** activity to collect the data to be analyzed in the report. これらのアクティビティについて詳しくは、「分析およびスクリプ [トするデータの収集](../../reporting/using/collecting-data-to-analyze.md) 」アクティビティ [を参照してくださ](../../reporting/using/advanced-functionalities.md#script-activity)い。
+>テーブルを含む&#x200B;**[!UICONTROL ページ]**&#x200B;アクティビティの前に、レポートで分析するデータを収集するための&#x200B;**[!UICONTROL クエリ]**&#x200B;または&#x200B;**[!UICONTROL スクリプト]**&#x200B;アクティビティが必要です。これらのアクティビティについて詳しくは、[分析するデータの収集](../../reporting/using/collecting-data-to-analyze.md)および[スクリプトアクティビティ](../../reporting/using/advanced-functionalities.md#script-activity)を参照してください。
 
 ### 動作の仕組み {#operating-principle}
 
@@ -40,30 +40,30 @@ A **[!UICONTROL List with group]** type table lets you group data in the table a
 
 次の例では、グループは、データベース内のすべてのキャンペーン、配信、および配信ごと／キャンペーンごとに送信されたメッセージ数を表示します。
 
-It lets you list the campaigns (**[!UICONTROL Label (Campaign)]**, the list of deliveries (**[!UICONTROL Label]** ) linked to the campaign, and lets you count the number of messages sent per delivery (**[!UICONTROL Processed)]**, before adding them up for each campaign (**[!UICONTROL Sum(@processed)]** ).
+キャンペーン（**[!UICONTROL ラベル (キャンペーン)]**）、キャンペーンにリンクされた配信（**[!UICONTROL ラベル]**）のリスト、配信ごとに送信されたメッセージの数（**[!UICONTROL 処理済み]**）、それらをキャンペーンごとに合計した総数（**[!UICONTROL Sum(@processed)]**）を一覧表示できます。
 
 ![](assets/s_advuser_ergo_listgroup_005.png)
 
 ### 実装の手順 {#implementation-steps}
 
-完全な実装例を次に示します。使 [用例：グループリストを使用してレポートを作成します](#use-case--create-a-report-with-a-group-list)。
+完全な実装例は、[使用例：グループリストを含むレポートの作成](#use-case--create-a-report-with-a-group-list)で説明しています。
 
 「グループ化されたリスト」タイプのテーブルを作成するには、次の手順に従ってください。
 
-1. Go to the report chart and place a **[!UICONTROL Query]** activity. 「分析するデ [ータの収集」を参照](../../reporting/using/collecting-data-to-analyze.md)。
+1. レポートのチャートに移動し、**[!UICONTROL クエリ]**&#x200B;アクティビティを追加します。[分析するデータの収集](../../reporting/using/collecting-data-to-analyze.md)を参照してください。
 1. ソーステーブルを入力し、そのテーブルのフィールドのうち、統計に関係するものを選択します。
-1. Place a **[!UICONTROL Page]** activity in the chart. 詳しくは、[静的要素](../../reporting/using/creating-a-new-report.md#static-elements)を参照してください。
-1. ページにテ **[!UICONTROL List with group]** ーブルを挿入します。
+1. フローチャートに&#x200B;**[!UICONTROL ページ]**&#x200B;アクティビティを追加します。詳しくは、[静的要素](../../reporting/using/creating-a-new-report.md#static-elements)を参照してください。
+1. ページに&#x200B;**[!UICONTROL グループ化されたリスト]**&#x200B;タイプのテーブルを挿入します。
 1. データパス、またはクエリでデータソースとして選択されたテーブルを指定します。
 
    後でソーステーブルのフィールドを復元し、それらをテーブルのセルに挿入する場合、この手順は必須です。
 
 1. テーブルとその内容を作成します。
-1. Display the finalized report in the **[!UICONTROL Preview]** tab. その後は、レポートをパブリッシュしたり、必要に応じてレポートを別のフォーマットにエクスポートしたりできます。詳しくは、[レポートのエクスポート](../../reporting/using/actions-on-reports.md#exporting-a-report)を参照してください。
+1. 最終決定したレポートを「**[!UICONTROL プレビュー]**」タブに表示します。その後は、レポートをパブリッシュしたり、必要に応じてレポートを別のフォーマットにエクスポートしたりできます。詳しくは、[レポートのエクスポート](../../reporting/using/actions-on-reports.md#exporting-a-report)を参照してください。
 
 ### 行や列の追加 {#adding-lines-and-columns}
 
-By default, a **[!UICONTROL List with group]** type table includes a header, a detail line, and a footer line.
+デフォルトでは、**[!UICONTROL グループ化されたリスト]**&#x200B;タイプのテーブルには、ヘッダー行、詳細行、フッター行が含まれています。
 
 グループ自体に、ヘッダー行、詳細行、フッター行が含まれています。
 
@@ -89,11 +89,11 @@ By default, a **[!UICONTROL List with group]** type table includes a header, a d
 
 ![](assets/s_advuser_ergo_listgroup_006.png)
 
-追加する行の特性は、カーソルの位置によって決まります。For example, to add a header line, place your cursors on a header, then click **[!UICONTROL Add > A line above/below]**.
+追加する行の特性は、カーソルの位置によって決まります。例えば、ヘッダー行を追加するには、ヘッダーにカーソルを置き、**[!UICONTROL 追加／上に 1 行（または下に 1 行）]**&#x200B;を選択します。
 
 ![](assets/s_advuser_ergo_listgroup_006a.png)
 
-The width of the columns can be modified via the **[!UICONTROL Column format]** item.
+列の幅は&#x200B;**[!UICONTROL 列のフォーマット]**&#x200B;項目で変更できます。
 
 **グループ**：グループを追加するには、対象となる行に移動し、ドロップダウンメニューから該当する項目を選択します。
 
@@ -103,7 +103,7 @@ The width of the columns can be modified via the **[!UICONTROL Column format]** 
 
 テーブルのセルを編集してセルの内容とフォーマットを定義するには、対象となるセルに移動し、右クリックメニューを使用します。
 
-Use the **[!UICONTROL Expression]** menu entry to select the values to display.
+**[!UICONTROL 式]**&#x200B;メニューエントリを使用すると、表示する値を選択できます。
 
 ![](assets/s_advuser_ergo_listgroup_010.png)
 
@@ -115,11 +115,11 @@ Use the **[!UICONTROL Expression]** menu entry to select the values to display.
 
 * セル（例えばヘッダーセル）のラベルを入力します。
 
-   それには、データベースにフィールドを挿入する場合と同様の手順に従いますが、式は選択しません。Enter the label in the **[!UICONTROL Label]** field. それがそのまま表示されます。
+   それには、データベースにフィールドを挿入する場合と同様の手順に従いますが、式は選択しません。「**[!UICONTROL ラベル]**」フィールドにラベルを入力します。それがそのまま表示されます。
 
 * 集計（平均や合計など）を計算し、それをセルに表示します。
 
-   To do this, use the **[!UICONTROL Aggregates]** menu entry and select the desired campaign.
+   それには、**[!UICONTROL 集計]**&#x200B;メニューエントリを使用し、目的とするキャンペーンを選択します。
 
    ![](assets/s_advuser_ergo_listgroup_008.png)
 
@@ -127,24 +127,24 @@ Use the **[!UICONTROL Expression]** menu entry to select the values to display.
 
 ![](assets/s_advuser_ergo_listgroup_017.png)
 
-To define the cell format, the **[!UICONTROL Cell format...]** menu lets you access all formatting options available for the selected cell.
+セルのフォーマットを定義する場合は、**[!UICONTROL セルのフォーマット...]** メニューを使用して、選択したセルに使用できるすべての書式設定オプションにアクセスできます。
 
 これらのオプションを使用すると、レポートの最終的なレンダリングをパーソナライズし、情報を読み取りやすくすることができます。
 
-Use the **[!UICONTROL Carriage return]** field when exporting data to Excel: select the **[!UICONTROL Yes]** value to force the carriage return. この値はエクスポート時に保持されます。詳しくは、[レポートのエクスポート](../../reporting/using/actions-on-reports.md#exporting-a-report)を参照してください。
+データを Excel にエクスポートする場合は、「**[!UICONTROL CR]**」フィールドを使用します。「**[!UICONTROL はい]**」の値を選択すると、強制的に復帰改行されます。この値はエクスポート時に保持されます。詳しくは、[レポートのエクスポート](../../reporting/using/actions-on-reports.md#exporting-a-report)を参照してください。
 
-The **[!UICONTROL Cell format]** window lets you access the following tab:
+**[!UICONTROL セルのフォーマット]**&#x200B;ウィンドウでは、次のタブにアクセスできます。
 
-* タ **[!UICONTROL Value]** ブ
-* タ **[!UICONTROL Borders]** ブ
-* タ **[!UICONTROL Click]** ブ
-* タ **[!UICONTROL Extra]** ブ
+* 「**[!UICONTROL 値]**」タブ
+* 「**[!UICONTROL 境界線]**」タブ
+* 「**[!UICONTROL クリック]**」タブ
+* 「**[!UICONTROL 追加]**」タブ
 
-The **[!UICONTROL Value]** tab lets you change the font and the various value attributes or to define a format based on their nature.
+「**[!UICONTROL 値]**」タブでは、フォントおよび様々な値属性を変更したり、値の性質に基づいてフォーマットを定義したりできます。
 
 ![](assets/s_advuser_ergo_listgroup_009.png)
 
-The format changes data display: for example, the **[!UICONTROL Number]**, **[!UICONTROL Monetary]** and **[!UICONTROL Percentage]** formats allow you to align the figures on the right and display decimal points.
+フォーマットによってデータの表示が変わります。例えば、「**[!UICONTROL 数]**」、「**[!UICONTROL 通貨]**」、「**[!UICONTROL 割合]**」の各フォーマットを使用すると、数字を右詰めにして小数点を表示できます。
 
 通貨フォーマットの設定方法の例：値の表示に使用される通貨を指定し、3 桁区切り記号を使用するかどうかを選択し、負の値を赤で表示できます。通貨記号の位置は、オペレーターのプロファイルに定義されている言語に依存します。
 
@@ -158,7 +158,7 @@ The format changes data display: for example, the **[!UICONTROL Number]**, **[!U
 
 ![](assets/s_advuser_ergo_listgroup_014.png)
 
-必要に応じて、テーブルテンプレート(**[!UICONTROL Administration > Configuration > Form rendering]** )で境界線を定義できます。
+必要に応じて、テーブルテンプレート（**[!UICONTROL 管理／設定／フォームのレンダリング]**）で境界線を定義できます。
 
 その場合、使用する構文は次のようになります。
 
@@ -192,17 +192,17 @@ The format changes data display: for example, the **[!UICONTROL Number]**, **[!U
  </style> 
 ```
 
-The **[!UICONTROL Click]** tab lets you define an action when the user clicks the content of a cell or of the table.
+「**[!UICONTROL クリック]**」タブでは、ユーザーがセルやテーブルの内容をクリックしたときに実行されるアクションを定義できます。
 
 次の例では、セルの値をクリックするとレポートの 2 番目のページが表示されるようになります。配信時の情報がセルに格納されます。
 
 ![](assets/s_advuser_ergo_listgroup_015.png)
 
-「**追加**」タブでは、色付きマークや棒グラフなどのビジュアルをデータにリンクできます。色付きのマークは、テーブルが凡例としてグラフに表示される場合に使用されます。この詳細については、実装例を参照してください。手 [順5 - 2ページ目を作成する](#step-5---create-the-second-page)
+「**追加**」タブでは、色付きマークや棒グラフなどのビジュアルをデータにリンクできます。色付きのマークは、テーブルが凡例としてグラフに表示される場合に使用されます。詳しくは、[手順 5 - 2 番目のページの作成](#step-5---create-the-second-page)の実装例を参照してください。
 
 ![](assets/s_advuser_ergo_listgroup_016.png)
 
-## Use case: Create a report with a group list {#use-case--create-a-report-with-a-group-list}
+## 使用例：グループリストを含むレポートの作成 {#use-case--create-a-report-with-a-group-list}
 
 この例では、2 ページから成るレポートを作成します。最初のページには、キャンペーンのリストとキャンペーンごとの合計配信数のほか、送信されたメッセージの数が表示されます。配信名はクリック可能なリンクになっており、それをクリックすると、レポートの 2 番目のページに移動し、テーブルやグラフで選択した配信の E メールドメインごとの配信の分類が表示されます。2 番目のページでは、テーブルはグラフの凡例になります。
 
@@ -210,11 +210,11 @@ The **[!UICONTROL Click]** tab lets you define an action when the user clicks th
 
 ### 手順 1 - レポートの作成 {#step-1---create-a-report}
 
-Create a new report that concerns the campaign schema, **[!UICONTROL Campaigns (nms)]**.
+キャンペーンスキーマに関する新しいレポート、「**[!UICONTROL キャンペーン (nms)]**」を作成します。
 
 ![](assets/s_advuser_report_listgroup_001.png)
 
-Click **[!UICONTROL Save]** to create the report.
+「**[!UICONTROL 保存]**」ボタンをクリックして、レポートを作成します。
 
 チャートに移動し、レポートのコンテンツを設計するための最初のコンポーネント、つまり、最初のクエリと最初のページを追加します。
 
@@ -226,8 +226,8 @@ Click **[!UICONTROL Save]** to create the report.
 
 最初のクエリをダブルクリックして編集してから、次の手順に従ってクエリを設定します。
 
-1. Start by changing the schema on which the query&#39;s source is applied: select the **[!UICONTROL Deliveries (nms)]** schema.
-1. Click the **[!UICONTROL Edit query]** link and display the advanced fields.
+1. 最初に、クエリのソースのスキーマを変更します。「**[!UICONTROL 配信 (nms)]**」スキーマを選択します。
+1. 「**[!UICONTROL クエリを編集]**」リンクをクリックして、詳細フィールドを表示します。
 
    ![](assets/reporting_quick_start_query-1.png)
 
@@ -245,41 +245,41 @@ Click **[!UICONTROL Save]** to create the report.
 
    この例の場合は、次のエイリアスを使用します。
 
-   * Label: **@label**
-   * 主キー： **@deliveryId**
-   * ラベル（キャンペーン）: **@label1**
-   * Processed: **@processed**
-   * Foreign key of the &#39;Campaign&#39; (&#39;id&#39; field) link: **@operationId**
-   * エラー率： **@errorRatio**
+   * ラベル：**@label**
+   * プライマリキー：**@deliveryId**
+   * ラベル（キャンペーン）：**@label1**
+   * 処理済み：**@processed**
+   * 「キャンペーン」リンク (&#39;id&#39; フィールド) の外部キー：**@operationId**
+   * エラー率：**@errorRatio**
 
 
-1. ボタンを2 **[!UICONTROL Next]** 回クリックして、手順に進み **[!UICONTROL Data filtering]** ます。
+1. 「**[!UICONTROL 次へ]**」ボタンを 2 回クリックして、**[!UICONTROL データのフィルター]**&#x200B;手順に移動します。
 
    キャンペーンにリンクされた配信のみを収集するためのフィルター条件を追加します。
 
-   このフィルターの構文は次のとおりです。&quot;0より大きい&quot;キャンペーン&quot;リンクの外部キー&quot;。
+   このフィルターの構文は「&quot;キャンペーン&quot; リンクの外部キーが 0 より大きい」です。
 
    ![](assets/reporting_quick_start_query_filter.png)
 
-1. Click **[!UICONTROL Finish]** to save these conditions, then click **[!UICONTROL Ok]** to close the query editor.
+1. 「**[!UICONTROL 完了]**」をクリックしてこれらの条件を保存した後、「**[!UICONTROL OK]**」をクリックしてクエリエディターを閉じます。
 
-### Step 3: Create the first page {#step-3--create-the-first-page}
+### 手順 3：最初のページの作成 {#step-3--create-the-first-page}
 
 この手順では、レポートの最初のページを設定します。設定するには、次の手順に従います。
 
-1. Open the **[!UICONTROL Page]** activity and enter its title, for instance **Deliveries** in this case.
+1. **[!UICONTROL ページ]**&#x200B;アクティビティを開き、そのタイトルを、例えばこの場合は &quot;**Deliveries**&quot; と入力します。
 
    ![](assets/s_advuser_report_listgroup_003.png)
 
-1. ツールバーからグループ付きリストを挿入し、そのラベルを入力します。例：キャンペーンごとの配信のリスト。
+1. ツールバーからグループ化されたリストを挿入し、そのラベルを入力します。例：キャンペーンごとの配信のリスト。
 
    ![](assets/s_advuser_report_listgroup_004.png)
 
-1. リンクをク **[!UICONTROL Table data XPath...]** リックし、配信リンク( `[query/delivery]`.
+1. 「**[!UICONTROL テーブルデータ Xpath...]**」リンクをクリックし、`[query/delivery]` のような配信リンクを選択します。
 
    ![](assets/s_advuser_report_listgroup_005.png)
 
-1. Click the **[!UICONTROL Data]** tab and change layout of the table: add three columns on the right.
+1. 「**[!UICONTROL データ]**」タブをクリックし、テーブルのレイアウトを変更します。右側に 3 列を追加します。
 
    ![](assets/s_advuser_report_listgroup_006.png)
 
@@ -293,31 +293,31 @@ Click **[!UICONTROL Save]** to create the report.
 
    ![](assets/s_advuser_report_listgroup_007.png)
 
-1. Edit the first cell of the group header and insert the **[!UICONTROL Label]** field of the campaigns as an expression.
+1. グループヘッダーの最初のセルを編集し、式としてキャンペーンの&#x200B;**[!UICONTROL ラベル]**&#x200B;フィールドを挿入します。
 
    ![](assets/s_advuser_report_listgroup_009.png)
 
-1. Edit the second cell of the details line and select the deliveries **[!UICONTROL Label]**.
+1. 詳細行の 2 番目のセルを編集し、配信の&#x200B;**[!UICONTROL ラベル]**&#x200B;を選択します。
 
    ![](assets/s_advuser_report_listgroup_011.png)
 
-1. Edit the format of this cell and open the **[!UICONTROL Click]** tab. ユーザーが配信の名前をクリックしたときにその配信が同じウィンドウに開くように、適切なオプションを設定します。
+1. このセルのフォーマットを編集し、「**[!UICONTROL クリック]**」タブを開きます。ユーザーが配信の名前をクリックしたときにその配信が同じウィンドウに開くように、適切なオプションを設定します。
 
    ![](assets/s_advuser_report_listgroup_0111.png)
 
-   これを行うには、タイプアクション **[!UICONTROL Next page]** を選択し、「開く」オプ **[!UICONTROL In the same window]** ションとして選択します。
+   それには、**[!UICONTROL 次のページ]**&#x200B;タイプのアクションを選択し、「**[!UICONTROL 同じウィンドウで]**」をウィンドウオプションとして選択します。
 
    ![](assets/s_advuser_report_listgroup_0112.png)
 
-1. In the lower section of the window, click **[!UICONTROL Add]** and specify the **`/vars/selectedDelivery`** path and the **[!UICONTROL @deliveryId]** expression that matches the alias of the primary key of the delivery, as defined in the query created previously. この式を使用すると、選択した配信にアクセスできます。
+1. ウィンドウ下部の「**[!UICONTROL 追加]**」をクリックし、先に作成したクエリで定義したとおり、**`/vars/selectedDelivery`**&#x200B;パスおよび配信のプライマリキーのエイリアスに一致する **[!UICONTROL @deliveryId]** の式を指定します。この式を使用すると、選択した配信にアクセスできます。
 
    ![](assets/s_advuser_report_listgroup_010.png)
 
-1. グループのフッター行の 2 番目のセルを編集し、ラベルとして &quot;**[!UICONTROL Total per campaign]**&quot; を入力します。
+1. グループのフッター行の 2 番目のセルを編集し、ラベルとして &quot;**[!UICONTROL Total per Campaign]**&quot; を入力します。
 
    ![](assets/s_advuser_report_listgroup_012.png)
 
-1. Edit the third cell of the header line of the group and enter **[!UICONTROL Number of messages sent]** as a label.
+1. グループのヘッダー行の 3 番目のセルを編集し、ラベルとして &quot;**[!UICONTROL Number of messages sent]**&quot; を入力します。
 
    ![](assets/s_advuser_report_listgroup_013.png)
 
@@ -327,7 +327,7 @@ Click **[!UICONTROL Save]** to create the report.
 
    ![](assets/s_advuser_report_listgroup_014.png)
 
-1. Edit the third cell of the footer line of the group, select the processed delivery indicator and apply the **[!UICONTROL Sum]** aggregate to it.
+1. グループのフッター行の 3 番目のセルを編集して、処理された配信の指標を選択し、それに対して&#x200B;**[!UICONTROL 合計]**&#x200B;の集計を適用します。
 
    ![](assets/s_advuser_report_listgroup_015.png)
 
@@ -337,21 +337,21 @@ Click **[!UICONTROL Save]** to create the report.
 
 1. このセルを選択して、配信のエラー率を表す棒グラフを表示するように設定します。
 
-   To do this, access the cell format, then go to the **[!UICONTROL More]** tab. ドロップダ **[!UICONTROL Value bar]** ウンリストでエントリを選択し、オプションを選択 **[!UICONTROL Hide the cell value]** します。
+   それには、セルのフォーマットにアクセスし、「**[!UICONTROL 追加]**」タブを開きます。ドロップダウンリストの&#x200B;**[!UICONTROL 棒グラフ]**&#x200B;を選択し、「**[!UICONTROL セル値を非表示]**」オプションを選択します。
 
    ![](assets/s_advuser_report_listgroup_023.png)
 
-   これでレポートのレンダリングを表示できます。Click the **[!UICONTROL Preview]** tab and select the **[!UICONTROL Global]** option: this shows the list of all deliveries in the Adobe Campaign database that are linked to a campaign.
+   これでレポートのレンダリングを表示できます。「**[!UICONTROL プレビュー]**」タブをクリックし、「**[!UICONTROL グローバル]**」オプションを選択します。これで、キャンペーンにリンクされている Adobe Campaign データベースのすべての配信のリストが表示されます。
 
    ![](assets/s_advuser_report_listgroup_025.png)
 
-   We recommend using the **[!UICONTROL Preview]** tab to make sure the data in your table is properly selected and configured. それが済めば、テーブルの書式設定に進むことができます。
+   「**[!UICONTROL プレビュー]**」タブを使用して、テーブル内のデータが正しく選択および設定されていることを確認することをお勧めします。それが済めば、テーブルの書式設定に進むことができます。
 
-1. Apply the **[!UICONTROL Bold]** style to the cells that show the total per campaign and the total number of messages processed.
+1. キャンペーンごとの合計配信数と処理されたメッセージの総数を表示するセルに&#x200B;**[!UICONTROL 太字]**&#x200B;スタイルを適用します。
 
    ![](assets/s_advuser_report_listgroup_024.png)
 
-1. Click the 1st cell of the group header line, the one that displays the campaign name, and select **[!UICONTROL Edit > Merge to right]**.
+1. グループのヘッダー行の最初のセル（キャンペーン名を表示するセル）をクリックし、**[!UICONTROL 編集／右に結合]**&#x200B;を選択します。
 
    ![](assets/s_advuser_report_listgroup_026.png)
 
@@ -367,7 +367,7 @@ Click **[!UICONTROL Save]** to create the report.
 
 レポートのユーザーが配信をクリックしたきにその配信の詳細が表示されるように、2 番目のクエリと 2 番目のページを追加します。クエリを追加する前に、作成したページを編集し、クエリにリンクできるように出力トランジションを有効にします。
 
-1. Add a new query after the **[!UICONTROL Page]** activity and edit its schema: select the **[!UICONTROL Recipient delivery logs]** schema.
+1. **[!UICONTROL ページ]**&#x200B;アクティビティの後に新しいクエリを追加し、そのクエリのスキーマを編集して&#x200B;**[!UICONTROL 受信者配信ログ]**&#x200B;スキーマを選択します。
 
    ![](assets/reporting_quick_start_query-2.png)
 
@@ -377,22 +377,22 @@ Click **[!UICONTROL Save]** to create the report.
 
       ![](assets/reporting_quick_start_query-2_count.png)
 
-   * collect recipient email domains and group information on this field: to do this, select the **[!UICONTROL Group]** option in the domain name column.
+   * 受信者の E メールドメインを収集し、このフィールドに関する情報をグループ化します。それには、出力列で「**[!UICONTROL グループ]**」オプションを選択します。
    ![](assets/reporting_quick_start_query-2_filter.png)
 
    フィールドに次のエイリアスをリンクします。
 
-   * count（プライマリキー）: **@count**
-   * 電子メールドメイン（受信者）: **@domain**
+   * カウント（プライマリキー）：**@count**
+   * E メールドメイン（受信者）：**@domain**
 
       ![](assets/reporting_quick_start_query-2_alias.png)
 
 
-1. Click the **[!UICONTROL Next]** button twice: this takes you to the **[!UICONTROL Data filtering]** step.
+1. 「**[!UICONTROL 次へ]**」ボタンを 2 回クリックします。これで、**[!UICONTROL データのフィルター]**&#x200B;の手順に移動します。
 
    選択した配信にリンクされている情報のみを収集するフィルター条件を追加します。
 
-   構文は次のとおりです。「配信」リンクの外部キーが設定の値と等しい `$([vars/selectedDelivery])`
+   構文は「&quot;配信&quot; リンクの外部キーが設定の値と等しい」です。 `$([vars/selectedDelivery])`
 
    ![](assets/s_advuser_report_listgroup_017.png)
 
@@ -400,49 +400,49 @@ Click **[!UICONTROL Save]** to create the report.
 
 ### 手順 5 - 2 番目のページの作成 {#step-5---create-the-second-page}
 
-1. Edit the page and enter its label: **Email domains**.
-1. Uncheck the **[!UICONTROL Enable output transitions]** option: this is the last page of the report and will not be followed by another activity.
+1. ページを編集し、そのラベルを「**E メールドメイン**」と入力します。
+1. 「**[!UICONTROL アウトバウンドトランジションを有効にする]**」オプションのチェックをオフにします。これがレポートの最後のページであり、この後に別のアクティビティが続くことはありません。
 
    ![](assets/s_advuser_report_listgroup_028.png)
 
 1. 右クリックメニューを使用して、グループ化されたリストを新しく追加し、名前を &quot;**Email domain per recipient**&quot; とします。
-1. をクリックし **[!UICONTROL Table data XPath...]** 、リンクを選択 **[!UICONTROL Recipient delivery logs]** します。
+1. 「**[!UICONTROL テーブルデータ Xpath]**」をクリックし、「**[!UICONTROL 受信者配信ログ]**」リンクを選択します。
 
    ![](assets/s_advuser_report_listgroup_029.png)
 
-1. In the **[!UICONTROL Data]** tab, adapt the table as follows:
+1. 「**[!UICONTROL データ]**」タブで、テーブルを次のように調整します。
 
    * 右側に 2 列を追加します。
-   * 詳細行の最初のセルに、行数をカウントする式 **[!UICONTROL rowNum()-1]** を追加します。Then alter the format of the cell: in the **[!UICONTROL Extra]** tab, select **[!UICONTROL Color tab]** and click **[!UICONTROL Ok]**.
+   * 詳細行の最初のセルに、行数をカウントする式 **[!UICONTROL rowNum()-1]** を追加します。その次に、セルのフォーマットを変更します。「**[!UICONTROL 追加]**」タブで、「**[!UICONTROL 「カラー」タブ]**」を選択し、「**[!UICONTROL OK]**」をクリックします。
 
       ![](assets/s_advuser_report_listgroup_018.png)
 
       この設定によって、テーブルをグラフのキャプションとして使用できるようになります。
 
-   * In the second cell of the detail line, add the **[!UICONTROL Email domain(Recipient)]** expression.
-   * In the third cell of the detail line, add the **[!UICONTROL count(primary key)]** expression.
+   * 詳細行の 2 番目のセルに、式 **[!UICONTROL Email domain(Recipient)]** を追加します。
+   * 詳細行の 3 番目のセルに、式 **[!UICONTROL count(primary key)]** を追加します。
    ![](assets/s_advuser_report_listgroup_019.png)
 
-1. 右クリックメニューを使用してページに円グラフを追加し、そのラベルを &quot;**Email domains**&quot; にします。For more information, refer to [Chart types and variants](../../reporting/using/creating-a-chart.md#chart-types-and-variants).
-1. リンクをクリ **[!UICONTROL Variants]** ックし、とオプション **[!UICONTROL Display label]** の選択を解除 **[!UICONTROL Display caption]** します。
+1. 右クリックメニューを使用してページに円グラフを追加し、そのラベルを &quot;**Email domains**&quot; にします。詳しくは、[グラフのタイプとバリエーション](../../reporting/using/creating-a-chart.md#chart-types-and-variants)を参照してください。
+1. 「**[!UICONTROL バリエーション]**」リンクをクリックし、「**[!UICONTROL ラベルを表示]**」オプションと「**[!UICONTROL キャプションを表示]**」オプションの選択を解除します。
 1. 値の並べ替えが設定されていないことを確認します。詳しくは、[この節](../../reporting/using/processing-a-report.md#configuring-the-layout-of-a-descriptive-analysis-report)を参照してください。
 
    ![](assets/s_advuser_report_listgroup_0191.png)
 
-1. In the **[!UICONTROL Data]** tab, change the data source: select **[!UICONTROL Context data]** from the drop-down list.
+1. 「**[!UICONTROL データ]**」タブで、データソースを変更します。それには、ドロップダウンリストから「**[!UICONTROL コンテキストデータ]**」を選択します。
 
    ![](assets/s_advuser_report_listgroup_020.png)
 
-1. Then click **[!UICONTROL Advanced settings]** and select the link to the recipient delivery logs.
+1. 次に、「**[!UICONTROL 詳細設定パラメーター]**」をクリックし、受信者配信ログへのリンクを選択します。
 
    ![](assets/s_advuser_report_listgroup_0201.png)
 
-1. セクション **[!UICONTROL Chart type]** で、変数を選択し **[!UICONTROL Email domain]** ます。
+1. 「**[!UICONTROL グラフタイプ]**」セクションで、**[!UICONTROL E メールドメイン]**&#x200B;変数を選択します。
 1. 次に、実行する計算を追加します。合計を演算子として選択します。
 
    ![](assets/s_advuser_report_listgroup_0202.png)
 
-1. Click the **[!UICONTROL Detail]** button to select the field which the count will concern, then close the configuration window.
+1. 「**[!UICONTROL 詳細]**」ボタンをクリックして、カウントに関係するフィールドを選択した後、設定ウィンドウを閉じます。
 
    ![](assets/s_advuser_report_listgroup_030.png)
 
@@ -452,7 +452,7 @@ Click **[!UICONTROL Save]** to create the report.
 
 ### 手順 6 - レポートの表示 {#step-6---viewing-the-report}
 
-To view the result of this configuration, click the **[!UICONTROL Preview]** tab and select the **[!UICONTROL Global]** option.
+この設定の結果を表示するには、「**[!UICONTROL プレビュー]**」タブをクリックし、「**[!UICONTROL グローバル]**」オプションを選択します。
 
 レポートの最初のページに、データベースに含まれるすべての配信のリストが詳しく表示されます。
 

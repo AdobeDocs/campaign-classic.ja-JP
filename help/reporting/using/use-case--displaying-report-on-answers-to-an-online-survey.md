@@ -14,7 +14,7 @@ discoiquuid: 5404a227-6cfb-463b-9a56-af46a022eb38
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -42,9 +42,9 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 調査への回答を収集するには、次の手順に従います。
 
-1. ワークフローを作成し、アクティビティを配 **[!UICONTROL Answers to a survey]** 置します。 このアクティビティの使用について詳しくは、[この節](../../web/using/publish--track-and-use-collected-data.md#using-the-collected-data)を参照してください。
+1. ワークフローを作成し、**[!UICONTROL 調査の回答]**&#x200B;アクティビティを追加します。このアクティビティの使用について詳しくは、[この節](../../web/using/publish--track-and-use-collected-data.md#using-the-collected-data)を参照してください。
 1. このアクティビティを編集し、分析対象となる回答が得られた調査を選択します。
-1. すべての情報を収 **[!UICONTROL Select all the answer data]** 集するには、このオプションを有効にします。
+1. 「**[!UICONTROL すべての回答データを選択]**」オプションを有効にして、すべての情報を収集します。
 
    ![](assets/reporting_usecase_1_01.png)
 
@@ -52,11 +52,11 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
    ![](assets/reporting_usecase_1_02.png)
 
-1. Once the answer collection box is configured, position a **[!UICONTROL List update]** type activity to save the data.
+1. 回答収集ボックスを設定したら、データを保存するための&#x200B;**[!UICONTROL リスト更新]**&#x200B;タイプのアクティビティを追加します。
 
    ![](assets/reporting_usecase_1_04.png)
 
-   このアクティビティで、更新するリストを指定し、オプションのチェックを解除 **[!UICONTROL Purge and re-use the list if it exists (otherwise add to the list)]** します。既存の表に回答が追加されます。 このオプションを選択すると、キューブ内のリストを参照できるようになります。このリストにリンクされたスキーマは、更新のたびに再生成されることはありません。これにより、このリストを使用しているキューブの整合性が保証されます。
+   このアクティビティで、更新するリストを指定し、「**[!UICONTROL 存在する場合、リストをパージして再利用 (存在しない場合、リストに追加)]**」オプションのチェックをオフにします。回答は既存のテーブルに追加されます。このオプションを選択すると、キューブ内のリストを参照できるようになります。このリストにリンクされたスキーマは、更新のたびに再生成されることはありません。これにより、このリストを使用しているキューブの整合性が保証されます。
 
    ![](assets/reporting_usecase_1_03.png)
 
@@ -68,11 +68,11 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 1. スケジューラーを追加して、毎日の回答収集とリストの更新を自動化します。
 
-   アクティビテ **[!UICONTROL List update]** ィとア **[!UICONTROL Scheduler]** クティビティの詳細については、を参照してください。
+   **[!UICONTROL リスト更新]**&#x200B;アクティビティと&#x200B;**[!UICONTROL スケジューラー]**&#x200B;アクティビティについて詳しくは、次を参照してください。
 
 ## 手順 2 - キューブおよびその測定と指標の作成 {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-次に、キューブを作成し、その測定を設定できます。これらの測定は、レポートに表示される指標の作成に使用されます。For more on creating and configuring cubes, refer to [About cubes](../../reporting/using/about-cubes.md).
+次に、キューブを作成し、その測定を設定できます。これらの測定は、レポートに表示される指標の作成に使用されます。キューブの作成と設定について詳しくは、[キューブについて](../../reporting/using/about-cubes.md)を参照してください。
 
 この例では、キューブは、先ほど作成したワークフローから提供されるリスト内のデータに基づいています。
 
@@ -82,7 +82,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ![](assets/reporting_usecase_2_02.png)
 
-The **[!UICONTROL Preview]** tab lets you control the rendering of the report.
+「**[!UICONTROL プレビュー]**」タブでは、レポートのレンダリングを制御できます。
 
 ## 手順 3 - レポートの作成とテーブル内のデータレイアウトの設定 {#step-3---creating-the-report-and-configuring-the-data-layout-within-the-table}
 

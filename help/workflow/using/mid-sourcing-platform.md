@@ -14,7 +14,7 @@ discoiquuid: a5c54b06-390c-4f4e-9f09-d9a53a529149
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -33,7 +33,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
   </tr> 
   <tr> 
    <td> <span class="uicontrol">配信指標</span> <br /> </td> 
-   <td> <span class="uicontrol">deliveryIndicators</span><br /> </td> 
+   <td> <span class="uicontrol">deliveryIndicators</span> <br /> </td> 
    <td> 配達の配信トラッキング指標を更新します。デフォルトでは、1 時間おきにトリガーされます。<br /> </td> 
   </tr> 
  </tbody> 

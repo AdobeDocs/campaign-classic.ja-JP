@@ -14,7 +14,7 @@ discoiquuid: 6aae6a10-b03e-41f1-a6e9-29100800bae1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # オファー分析レポート{#offer-analysis-report}
 
-The **[!UICONTROL Offer analysis]** report provides you with an overview of the number of accepted or rejected propositions.
+**[!UICONTROL オファー分析]**&#x200B;レポートでは、承認または却下された提案の件数の概要を提供します。
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ The **[!UICONTROL Offer analysis]** report provides you with an overview of the 
 
    ![](assets/offer_report_perdeliveries.png)
 
-レポートの上部で使用できる様々な条件に基づいて、データをフィルタリングできます。Once you have selected the desired criteria, click the **[!UICONTROL Refresh]** link to apply them to the report.
+レポートの上部で使用できる様々な条件に基づいて、データをフィルタリングできます。目的の基準を選択して、「**[!UICONTROL 更新]**」リンクをクリックすると、レポートに適用されます。
 
 ![](assets/offer_report_criteria.png)
 

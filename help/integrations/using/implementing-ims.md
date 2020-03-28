@@ -14,7 +14,7 @@ discoiquuid: 3999577b-0460-4898-a4ec-a7b0e5002065
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ## IMS 接続の有効化 {#enabling-the-ims-connection}
 
-1. IMSを使用した接続を有効にするには、コンソ **[!UICONTROL Connect with an Adobe ID]** ールの接続ウィンドウをチェックインします。
+1. IMS を使用した接続を有効にするには、コンソールの接続ウィンドウで「**[!UICONTROL Adobe ID で接続]**」をオンにします。
 
    ![](assets/ims_1.png)
 
@@ -34,7 +34,7 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ## IMS 接続の無効化 {#disabling-the-ims-connection}
 
-Adobe IDを使用した接続を無効にするには、接続を解除し、をクリックしてオフ **[!UICONTROL File > Connections]** にしてくださ **[!UICONTROL Connect with an Adobe ID]**&#x200B;い。
+Adobe ID を使用した接続を無効にするには、接続を切断し、「**[!UICONTROL ファイル／接続]**」をクリックして、「**[!UICONTROL Adobe ID で接続]**」のチェックを外します。
 
 ![](assets/ims_4.png)
 

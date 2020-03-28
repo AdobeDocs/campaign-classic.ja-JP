@@ -14,7 +14,7 @@ discoiquuid: 2f643080-93b4-4c9f-80cf-b1770b149e6c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 デプロイウィザードを使用し、データをデータベース上に保存する期間の設定をおこなうことができます。
 
-Event purging is carried out automatically by the **[!UICONTROL Database cleanup]** workflow. このワークフローは、実行インスタンスが受信し保存したイベントおよびコントロールインスタンスがアーカイブしたイベントをパージします。
+イベントのパージは、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローによって自動的に実行されます。このワークフローは、実行インスタンスが受信し保存したイベントおよびコントロールインスタンスがアーカイブしたイベントをパージします。
 
 矢印を使用し、必要に応じてパージの設定を変更します。
 

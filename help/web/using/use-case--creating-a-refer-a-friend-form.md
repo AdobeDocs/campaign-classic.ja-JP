@@ -14,7 +14,7 @@ discoiquuid: bbb1154f-2818-489c-9860-0e860596cbf7
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
 
 ---
@@ -70,7 +70,7 @@ source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
 
    ![](assets/s_ncs_admin_survey_viral_sample_4b.png)
 
-1. 次に、手順 1 で作成した情報サービスにリンクされた配信テンプレートを作成します。It will be selected in the **[!UICONTROL Choose scenario]** field of the information service.
+1. 次に、手順 1 で作成した情報サービスにリンクされた配信テンプレートを作成します。情報サービスの「**[!UICONTROL シナリオを選択]**」フィールドで選択されます。
 
    紹介オファーメッセージを作成するために使用される配信テンプレートには、次の情報が含まれます。
 
@@ -126,7 +126,7 @@ source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
 
    ![](assets/s_ncs_admin_survey_viral_sample_8.png)
 
-   The referee is added to the visitor folder in the **[!UICONTROL Administration > Visitors node]**:
+   被紹介者が&#x200B;**[!UICONTROL 管理／訪問者ノード]**&#x200B;にある訪問者フォルダーに追加されます。
 
    ![](assets/s_ncs_admin_survey_viral_sample_9.png)
 

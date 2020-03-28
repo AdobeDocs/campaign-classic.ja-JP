@@ -14,7 +14,7 @@ discoiquuid: 08efa472-d090-404d-9ad7-47adb3489c30
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 ---
@@ -22,17 +22,17 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 # Web アプリケーションの設計{#designing-a-web-application}
 
-Web applications are created and managed according to the same principle as [online surveys](../../web/using/about-surveys.md).
+Web アプリケーションは、[オンライン調査](../../web/using/about-surveys.md)と同じ原則に従って作成および管理されます。
 
 ただし、機能的な違いは次のとおりです。
 
 * Web アプリケーションは、アーカイブされたフィールドを使用しません。データは、そのため、データベースフィールドまたはローカル変数にのみ格納されます。
-* Webアプリケーションに関する組み込みレポートはありません。
-* 追加のフィールドは、主にテーブルやグラフを作成する場合に使用します。
+* Web アプリケーションには組み込みレポートはありません。
+* 主にテーブルおよびグラフの作成のために、追加のフィールドが提供されます。
 
 >[!CAUTION]
 >
->Web アプリケーション構築プロセスで早期にエラーを検出するために、適用した設定を継続的にチェックすることを強くお勧めします。To check the rendering of a modification, save the application, then click the **[!UICONTROL Preview]** sub-tab.
+>Web アプリケーション構築プロセスで早期にエラーを検出するために、適用した設定を継続的にチェックすることを強くお勧めします。修正のレンダリングをチェックするには、アプリケーションを保存してから、「**[!UICONTROL プレビュー]**」サブタブをクリックします。
 >
 >Web アプリケーションがパブリッシュされるまで、変更はエンドユーザーには表示されません。
 
@@ -42,7 +42,7 @@ Web アプリケーションにグラフを含めることができます。そ�
 
 ![](assets/s_ncs_admin_webapps_bar_graph.png)
 
-メニューを選択することもで **[!UICONTROL Add a chart]** きます。
+また、**[!UICONTROL グラフを追加]**&#x200B;メニューを選択することもできます。
 
 ![](assets/s_ncs_admin_webapps_graph.png)
 
@@ -62,9 +62,9 @@ Adobe Campaign インターフェイスは、受信者、配信、キャンペ�
 
 それらは、1 ページのみのダッシュボードの形のインターフェイスで表示されます。
 
-そのまま使用できるWebアプリケーションは、ノードに保存され **[!UICONTROL Administration > Configuration > Web applications]** ます。
+標準の Web アプリケーションは、**[!UICONTROL 管理／設定／Web アプリケーション]**&#x200B;ノードに格納されています。
 
-## フォームタイプのWebアプリケーションの編集 {#edit-forms-type-web-applications}
+## フォームタイプの Web アプリケーションの編集 {#edit-forms-type-web-applications}
 
 エクストラネット用のフォームを編集 Web アプリケーションには、次の特徴があります。
 

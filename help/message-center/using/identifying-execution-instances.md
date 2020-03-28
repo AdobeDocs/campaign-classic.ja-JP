@@ -14,7 +14,7 @@ discoiquuid: c4b3f1f1-4be7-441e-b348-35d0e26b57d8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # 実行インスタンスの識別{#identifying-execution-instances}
 
-コントロールインスタンスから各実行インスタンスの履歴を閲覧した際にそれぞれを区別できるよう、各実行インスタンスには一意の識別子を割り当てなければなりません。コントロールインスタンスと実行インスタンスが同じマシンにインストールされている場合でもこの手順は必須です。This identifier can be manually attributed on each execution instance, via the deployment wizard, or automatically by clicking the **Initialize connection** button from the control instance (see [Control instance](../../message-center/using/creating-a-shared-connection.md#control-instance)).
+コントロールインスタンスから各実行インスタンスの履歴を閲覧した際にそれぞれを区別できるよう、各実行インスタンスには一意の識別子を割り当てなければなりません。コントロールインスタンスと実行インスタンスが同じマシンにインストールされている場合でもこの手順は必須です。各実行インスタンスへの識別子の割り当ては、デプロイウィザードを使用して手動でおこなうか、コントロールインスタンスから「**接続を初期化**」ボタンをクリックして自動でおこなうことができます（[コントロールインスタンス](../../message-center/using/creating-a-shared-connection.md#control-instance)を参照）。
 
 手動で識別子を割り当てるには、各実行インスタンスにてデプロイウィザードを開き、**[!UICONTROL Message Center]** ウィンドウに移動し、インスタンスに任意の識別子を指定します。
 

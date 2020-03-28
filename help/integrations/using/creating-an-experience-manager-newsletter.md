@@ -14,7 +14,7 @@ discoiquuid: 627ade78-96b3-4a6e-9ace-74610a3c8d1a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ---
@@ -24,43 +24,43 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 この統合を利用して、例えば、Adobe Experience Manager で作成したニュースレターを Adobe Campaign で E メールキャンペーンの一部として使用できます。
 
-この統合を利用する方法の詳細な例については、この[詳細な手順ガイド](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html)を参照してください。
+この統合を利用する方法の詳細な例については、この[詳細な手順ガイド](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/aem.html)を参照してください。
 
 **Adobe Experience Manager から：**
 
-1. From your AEM author instance, click the **Adobe Experience** logo in the upper left side of the page and select **[!UICONTROL Sites]**.
+1. AEM オーサーインスタンスから、ページの左上にある **Adobe Experience** ロゴをクリックし、「**[!UICONTROL サイト]**」を選択します。
 
    ![](assets/aem_uc_1.png)
 
-1. 選択 **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Master Area > Email campaigns]**.
-1. Click the **[!UICONTROL Create]** button in the upper right side of the page then select **[!UICONTROL Page]**.
+1. **[!UICONTROL キャンペーン／ブランド名（ここでは We.Retail）／マスター領域／電子メールキャンペーン]**&#x200B;を選択します。
+1. ページの右上にある「**[!UICONTROL 作成]**」ボタンをクリックし、「**[!UICONTROL ページ]**」を選択します。
 
    ![](assets/aem_uc_2.png)
 
-1. テンプレートを選 **[!UICONTROL Adobe Campaign Email (AC 6.1)]** 択し、ニュースレターに名前を付けます。
-1. ページを作成したら、メニューにアクセスし **[!UICONTROL Page information]** てをクリックしま **[!UICONTROL Open Properties]**&#x200B;す。
+1. 「**[!UICONTROL Adobe Campaign 電子メール (AC 6.1)]**」テンプレートを選択し、ニュースレターに名前を付けます。
+1. ページが作成されたら、**[!UICONTROL ページ情報]**&#x200B;メニューにアクセスし、「**[!UICONTROL プロパティを開く]**」をクリックします。
 
    ![](assets/aem_uc_3.png)
 
-1. タブで、2 **[!UICONTROL Cloud Services]** つ目のドロッ **[!UICONTROL Adobe Campaign]** プダウン **[!UICONTROL Cloud service configuration]** から「as」を選択し、Adobe Campaignインスタンスを選択します。
+1. 「**[!UICONTROL クラウドサービス]**」タブで、「**[!UICONTROL クラウドサービスの設定]**」として「**[!UICONTROL Adobe Campaign]**」を、2 番目のドロップダウンで Adobe Campaign インスタンスを選択します。
 
    ![](assets/aem_uc_4.png)
 
 1. Adobe Campaign のパーソナライゼーションフィールドなどのコンポーネントを追加して E メールコンテンツを編集します。
-1. 電子メールの準備が整ったら、メニューにアクセスし **[!UICONTROL Page information]** てをクリックしま **[!UICONTROL Start workflow]**&#x200B;す。
+1. E メールが準備できたら、**[!UICONTROL ページ情報]**&#x200B;メニューにアクセスし、「**[!UICONTROL ワークフローを開始]**」をクリックします。
 
    ![](assets/aem_uc_5.png)
 
-1. 最初のドロップダウンから、「ワークフローモデル」 **[!UICONTROL Publish to Adobe Campaign]** を選択し、をクリックしま **[!UICONTROL Start workflow]**&#x200B;す。
+1. 最初のドロップダウンから、ワークフローモデルとして「**[!UICONTROL Adobe Campaign に公開]**」を選択し、「**[!UICONTROL ワークフローを開始]**」をクリックします。
 
    ![](assets/aem_uc_6.png)
 
-1. 次に、前の手順として、ワークフローを起動 **[!UICONTROL Approve for Campaign]** します。
-1. ページの上部に免責事項が表示されます。Click **[!UICONTROL Complete]** to confirm the review and click **[!UICONTROL Ok]**.
+1. 次に、前の手順と同じように、**[!UICONTROL Campaign 用に承認]**&#x200B;ワークフローを開始します。
+1. ページの上部に免責事項が表示されます。「**[!UICONTROL 完了]**」をクリックしてレビューを確認し、「**[!UICONTROL OK]**」をクリックします。
 
    ![](assets/aem_uc_7.png)
 
-1. もう一度クリ **[!UICONTROL Complete]** ックし、ド **[!UICONTROL Newsletter approval]** ロップダウ **[!UICONTROL Next Step]** ンでを選択します。
+1. もう一度「**[!UICONTROL 完了]**」をクリックし、「**[!UICONTROL 次のステップ]**」ドロップダウンで「**[!UICONTROL ニュースレターの承認]**」を選択します。
 
    ![](assets/aem_uc_8.png)
 
@@ -68,23 +68,23 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 **Adobe Campaign から：**
 
-1. タブで、「 **[!UICONTROL Campaigns]** 次へ」をクリッ **[!UICONTROL Deliveries]** クしま **[!UICONTROL Create]**&#x200B;す。
+1. 「**[!UICONTROL キャンペーン]**」タブで、「**[!UICONTROL 配信]**」、「**[!UICONTROL 作成]**」の順にクリックします。
 
    ![](assets/aem_uc_9.png)
 
-1. ドロップダウ **[!UICONTROL Delivery template]** ンで、テンプレートを選択 **[!UICONTROL Email delivery with AEM content (mailAEMContent)]** します。
+1. 「**[!UICONTROL 配信テンプレート]**」ドロップダウンで、「**[!UICONTROL AEM コンテンツで E メール配信 (mailAEMContent)]**」テンプレートを選択します。
 
    ![](assets/aem_uc_10.png)
 
-1. Add a **[!UICONTROL Label]** to your delivery and click **[!UICONTROL Continue]**.
-1. ボタンをクリッ **[!UICONTROL Synchronize]** クします。
+1. 配信に&#x200B;**[!UICONTROL ラベル]**&#x200B;を追加し、「**[!UICONTROL 続行]**」をクリックします。
+1. 「**[!UICONTROL 同期]**」ボタンをクリックします。
 
-   If this button does not appear in your interface, click the **[!UICONTROL Properties]** button and select the **[!UICONTROL Advanced]** tab. このフ **[!UICONTROL Content editing mode]** ィールドは、フィールド内のAEM **[!UICONTROL AEM]** インスタンスを使用してに設定する必要があ **[!UICONTROL AEM account]** ります。
+   このボタンがインターフェイスに表示されていない場合は、「**[!UICONTROL プロパティ]**」ボタンをクリックし、「**[!UICONTROL 詳細設定]**」タブを選択します。「**[!UICONTROL コンテンツ編集モード]**」フィールドを「**[!UICONTROL AEM]**」に、「**[!UICONTROL AEM アカウント]**」フィールドを AEM インスタンスに設定する必要があります。
 
    ![](assets/aem_uc_11.png)
 
-1. 以前に Adobe Experience Manager で作成した配信を選択し、「**[!UICONTROL Ok]**」をクリックします。
-1. Click the **[!UICONTROL Refresh content]** button as soon as some changes are made to your AEM delivery.
+1. 以前に Adobe Experience Manager で作成した配信を選択し、「**[!UICONTROL OK]**」をクリックします。
+1. AEM 配信に変更を加えたら、すぐに「**[!UICONTROL コンテンツを更新]**」ボタンをクリックします。
 
    ![](assets/aem_uc_12.png)
 

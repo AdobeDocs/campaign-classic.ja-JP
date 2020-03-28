@@ -14,7 +14,7 @@ discoiquuid: 9a3f1dc9-71ef-4039-94b4-a217996f6a80
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -24,22 +24,22 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 インタラクションを使用するオペレーターには、オファーマネージャーと配信責任者という 2 つのタイプがあります。それぞれが異なる権限を持ち、ツリーやプラットフォームの一部にのみアクセスできます。
 
-* **[!UICONTROL Offer manager]** :オファーを作成し、維持します
-* **[!UICONTROL Delivery manager]** :オファーの承認と使用
+* **[!UICONTROL オファーマネージャー]**：オファーの作成と管理
+* **[!UICONTROL 配信責任者]**：オファーの承認と使用
 
 インタラクションに特化したオペレーターを作成する手順は、このプラットフォームの他のすべてのオペレーターを作成する手順と同じです。詳しくは、[この節](../../platform/using/access-management.md#creating-an-operator)を参照してください。権限は、オペレーターの作成時に設定します。
 
 ## オファーマネージャー {#offer-manager}
 
 1. 新しいオペレーターを作成します。
-1. ウィンドウに移動し **[!UICONTROL Groups and named rights]** 、をクリックし **[!UICONTROL Add]** てグループを選択 **[!UICONTROL Offer manager]** します。
+1. **[!UICONTROL グループとネームド権限]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL オファーマネージャー]**」グループを選択します。
 
    ![](assets/offer_operators_create_001.png)
 
 オファーマネージャーに割り当てられる権限で実行できるタスクは次のとおりです。
 
-* 環境を変 **[!UICONTROL Design]** 更します。
-* 環境を表 **[!UICONTROL Live]** 示します。
+* **[!UICONTROL デザイン]**&#x200B;環境を修正する。
+* **[!UICONTROL ライブ]**&#x200B;環境を表示する。
 * 管理機能（定義済みスペースおよびフィルター）を設定する。
 * カテゴリを作成および変更する。
 * オファーを作成する。
@@ -53,13 +53,13 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 ## 配信責任者 {#delivery-manager}
 
 1. 新しいオペレーターを作成します。
-1. ウィンドウに移動し **[!UICONTROL Groups and named rights]** 、をクリックし **[!UICONTROL Add]** てグループを選択 **[!UICONTROL Delivery manager]** します。
+1. **[!UICONTROL グループとネームド権限]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 配信責任者]**」グループを選択します。
 
    ![](assets/offer_operators_create_002.png)
 
 配信責任者に割り当てられる権限で実行できるタスクは次のとおりです。
 
-* 表示 **[!UICONTROL Live]** 環境。
+* **[!UICONTROL ライブ]**&#x200B;環境を表示する。
 * オファーカテゴリを表示および修正する。
 * 自分がレビュー担当者として割り当てられている場合、オファーを承認する。
 

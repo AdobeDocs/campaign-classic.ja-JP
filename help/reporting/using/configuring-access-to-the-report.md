@@ -14,7 +14,7 @@ discoiquuid: dd50ca25-8fa2-48fa-84cc-a63e476701a0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -24,25 +24,25 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## レポートの表示コンテキスト {#report-display-context}
 
-Define the display context of the report in the Adobe Campaign platform using the **[!UICONTROL Display]** tab. レポートへのアクセスは、レポートの選択タイプ、表示条件、アクセス認証によって決まります。
+「**[!UICONTROL 表示]**」タブを使用して、Adobe Campaign プラットフォームにおけるレポートの表示コンテキストを定義します。レポートへのアクセスは、レポートの選択タイプ、表示条件、アクセス認証によって決まります。
 
 ### 選択タイプ {#selection-type}
 
-レポートへのアクセスは、配信、受信者、選択した受信者など、特定のコンテキストまたはオファースペースに制限できます。 このアクセスは、タブのセクシ **[!UICONTROL Selection type]** ョンで設定し **[!UICONTROL Display]** ます。
+レポートへのアクセスを、特定のコンテキストまたはオファースペース（例えば、配信、受信者、選ばれた一連の受信者など）に制限できます。このようなアクセスは、「**[!UICONTROL 表示]**」タブの「**[!UICONTROL 選択タイプ]**」セクションで設定します。
 
 ![](assets/s_ncs_advuser_report_visibility_4.png)
 
-* **[!UICONTROL Single selection]** :レポートにアクセスできるのは、特定のエンティティが選択されている場合のみです。
-* **[!UICONTROL Multiple selection]** :複数のエンティティが選択されると、レポートにアクセスします。
-* **[!UICONTROL Global]** :レポートには、「レポート」領域で使用可能なレポートのリストを通じてアクセスします。
+* 「**[!UICONTROL 単一選択]**」：レポートは、特定のエンティティが選択されたときにのみアクセス可能です。
+* 「**[!UICONTROL 複数選択]**」：レポートは、複数のエンティティが選択されたときにアクセスされます。
+* 「**[!UICONTROL グローバル]**」：レポートは、使用可能なレポートのリスト（レポートウィンドウ内）を通じてアクセスされます。
 
 ### 表示順序 {#display-sequence}
 
-The **[!UICONTROL Sequence]** field lets you enter a numeric value that specifies the display sequence of the report in the list.
+「**[!UICONTROL 順序]**」フィールドでは、リストにおけるレポートの表示順序を指定する数値を入力できます。
 
 デフォルトでは、レポートは関連度の順に表示されます。このフィールドに入力された値によって、関連度が最も高いもの（最大の入力値）から最も低いもの（最小の入力値）へとレポートを並べ替えることができます。
 
-必要に応じて、使用するスケールを選択できます。1 ～ 10、0 ～ 100、-10 ～ 10など
+1 から 10 まで、0 から 100 まで、-10 から 10 までなど、必要に応じて、使用するスケールを選択できます。
 
 ### 表示条件 {#display-conditions}
 
@@ -60,7 +60,7 @@ The **[!UICONTROL Sequence]** field lets you enter a numeric value that specifie
 
 レポートは、他のオペレーターと共有できます。
 
-レポートをアクセシブルにするには、このオプションを選 **[!UICONTROL Report shared with other operators]** 択します。 このオプションが選択されていない場合は、このレポートを作成したオペレーターのみ、このレポートにアクセスできます。
+レポートにアクセスできるようにするには、「**[!UICONTROL 他のオペレーターと共有するレポート]**」オプションを選択します。このオプションが選択されていない場合は、このレポートを作成したオペレーターのみ、このレポートにアクセスできます。
 
 認証ウィンドウを通じて追加した特定のオペレーターやオペレーターグループと、レポートを共有することもできます。
 
@@ -68,7 +68,7 @@ The **[!UICONTROL Sequence]** field lets you enter a numeric value that specifie
 
 ### フィルターオプションの定義 {#defining-the-filtering-options}
 
-The **[!UICONTROL Reports]** universe displays all available reports in the platform and for which the connected operator has an access right.
+**[!UICONTROL レポート]**&#x200B;ウィンドウには、プラットフォームで使用可能なすべてのレポートが表示され、接続したオペレーターには、それらのレポートに対するアクセス権があります。
 
 デフォルトでは、レポートは関連度の順に並べ替えられますが、他のタイプのフィルター（アルファベット順、年齢順など）を適用することもできます。
 
@@ -76,7 +76,7 @@ The **[!UICONTROL Reports]** universe displays all available reports in the plat
 
 ![](assets/report_ovv_select_type.png)
 
-To define the category of a report, select it via the **[!UICONTROL Display]** tab, as shown below:
+レポートのカテゴリを定義するには、次に示すように、「**[!UICONTROL 表示]**」タブで、該当するカテゴリを選択します。
 
 ![](assets/report_select_category.png)
 
@@ -88,7 +88,7 @@ To define the category of a report, select it via the **[!UICONTROL Display]** t
 
 一例として、レポートへのリンクを作成して、受信者リストを使用してそれにアクセスできるようにします。
 
-1. をクリ **[!UICONTROL New]** ックし、レポ **[!UICONTROL Create a link to an existing report]** ート作成ウィザードでを選択します。
+1. 「**[!UICONTROL 新しいレポート]**」をクリックし、レポート作成ウィザードで「**[!UICONTROL 既存のレポートにリンクを作成]**」を選択します。
 
    ![](assets/s_ncs_advuser_report_wizard_link_01.png)
 
@@ -108,21 +108,21 @@ To define the category of a report, select it via the **[!UICONTROL Display]** t
    ![](assets/s_ncs_advuser_report_wizard_link_04.png)
 
 1. レポートをパブリッシュします。
-1. Go to one of your recipient lists and click the **[!UICONTROL Reports]** link: the report you have just created is accessible.
+1. 受信者リストの 1 つにアクセスし、「**[!UICONTROL レポート]**」リンクをクリックします。先ほど作成したレポートがアクセス可能です。
 
    ![](assets/s_ncs_advuser_report_wizard_link_05.png)
 
 ## レポートのプレビュー {#preview-of-the-report}
 
-Before publishing your report, make sure it is displayed correctly in the **[!UICONTROL Preview]** tab.
+レポートをパブリッシュする前に、正しく表示されるかどうかを「**[!UICONTROL プレビュー]**」タブで確認します。
 
 ![](assets/s_ncs_advuser_report_preview_01.png)
 
-To display the preview of the report, select the **[!UICONTROL Global]** or the **[!UICONTROL Selection]** option.
+レポートのプレビューを表示するには、「**[!UICONTROL グローバル]**」オプションか「**[!UICONTROL 選択]**」オプションを選択します。
 
-これら 2 つのオプションのどちらかを、レポートの表示設定に基づいて選択します。If the display setting is **[!UICONTROL Global]**, you need to select the **[!UICONTROL Global]** preview option. 表示設定がまたはの場合は、プレ **[!UICONTROL Single selection]** ビューオ **[!UICONTROL Multiple selection]**&#x200B;プション **[!UICONTROL Selection]** を選択する必要があります。
+これら 2 つのオプションのどちらかを、レポートの表示設定に基づいて選択します。表示設定が「**[!UICONTROL グローバル]**」の場合は、プレビューオプションとして「**[!UICONTROL グローバル]**」を選択する必要があります。表示設定が「**[!UICONTROL 単一選択]**」か「**[!UICONTROL 複数選択]**」の場合は、「**[!UICONTROL 選択]**」をプレビューオプションとして選択してくだい。
 
-詳しくは、「レポート表示コンテキスト」 [を参照してください](#report-display-context)。
+詳しくは、[レポートの表示コンテキスト](#report-display-context)を参照してください。
 
 特定の設定では、エラーを制御できます。レポートの URL には **_uuid** 設定が含まれています。それに **&amp;_preview** 設定や **&amp;_debug** 設定を追加できます。
 
@@ -130,15 +130,15 @@ To display the preview of the report, select the **[!UICONTROL Global]** or the 
 
 ## レポートのパブリッシュ {#publishing-the-report}
 
-Publishing the report is mandatory in order to share them with other operators and display them in the list of available reports (also refer to [Report display context](#report-display-context)). レポートを変更するたびに、この操作を再度実行する必要があります。
+レポートを他のオペレーターと共有したり、利用可能なレポートのリストにレポートを表示するには、レポートをパブリッシュする必要があります（[レポートの表示コンテキスト](#report-display-context)も参照してください）。レポートを変更するたびに、この操作を再度実行する必要があります。
 
-1. Open the publishing wizard by clicking **[!UICONTROL Publish]** in the toolbar.
+1. ツールバーで「**[!UICONTROL パブリッシュ]**」をクリックして、パブリッシュウィザードを開きます。
 
    ![](assets/s_ncs_advuser_report_publish_01.png)
 
-1. をクリッ **[!UICONTROL Start]** クして公開します。
+1. 「**[!UICONTROL 開始]**」をクリックして、パブリッシュします。
 
    ![](assets/s_ncs_advuser_report_publish_02.png)
 
-1. Click the **[!UICONTROL Enlarge]** icon to open the report in a web browser.
+1. **[!UICONTROL 拡大]**&#x200B;アイコンをクリックすると、レポートが Web ブラウザーで開かれます。
 

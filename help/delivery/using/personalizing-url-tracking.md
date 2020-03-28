@@ -14,7 +14,7 @@ discoiquuid: f0e8a50b-d4a4-4271-87f7-802ef410a0f9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -22,11 +22,11 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 # パーソナライズされた URL のトラッキング{#personalizing-url-tracking}
 
-Advanced message tracking settings are accessible via the **[!UICONTROL Tracking & Images]** icon in the toolbar of the delivery wizard.
+メッセージトラッキングの詳細設定には、配信ウィザードのツールバーにある&#x200B;**[!UICONTROL トラッキング＆画像]**&#x200B;アイコンからアクセスできます。
 
 >[!NOTE]
 >
->E メール内の画像の管理もこのウィンドウで設定します。詳しくは、 [画像の追加を参照してくださ](../../delivery/using/defining-the-email-content.md#adding-images)い。
+>E メール内の画像の管理もこのウィンドウで設定します。[画像の追加](../../delivery/using/defining-the-email-content.md#adding-images)を参照してください。
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 
@@ -36,7 +36,7 @@ Advanced message tracking settings are accessible via the **[!UICONTROL Tracking
 
    >[!CAUTION]
    >
-   >配信で追跡が有効になっていない場合(つまり、オプションが選択さ **[!UICONTROL Activate tracking]** れていない場合)、追跡に関連するレポートおよびデータは使用できません。[開く]、[ホットクリックと追跡されたURL]の各レポートにはデータが表示されず、 **[!UICONTROL Tracking logs]** この配信に関するタブは表示されません。
+   >配信でトラッキングが有効化されていない場合（「**[!UICONTROL トラッキングを有効化]**」オプションが選択されていない場合）、トラッキングに関連するレポートとデータは使用できません。開封数、ホットクリックおよびトラッキングされる URL のレポートにはデータが表示されず、この配信では「**[!UICONTROL トラッキングログ]**」タブが表示されません。
 
 * メッセージ開封のトラッキングを有効化または無効化
 
@@ -46,7 +46,7 @@ Advanced message tracking settings are accessible via the **[!UICONTROL Tracking
 
 メッセージの URL ごとに個別にトラッキングを有効化または無効化できます。詳しくは、[この節](../../delivery/using/how-to-configure-tracked-links.md)を参照してください。
 
-The **[!UICONTROL Advanced]** tab lets you personalize the calculation formulas of the tracked URLs and the opening URL.
+「**[!UICONTROL 詳細設定]**」タブで、トラッキングされる URL と開封された URL の計算式をパーソナライズできます。
 
 ![](assets/s_ncs_user_email_del_tracking_param_adv.png)
 

@@ -14,7 +14,7 @@ discoiquuid: 72fe6df0-0271-48f9-bd6d-bb1ff25fbdf3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -22,17 +22,17 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 # コンテキストの使用{#using-the-context}
 
-またはの形式でデータを表す場合、2つ **[!UICONTROL tables]** のソ **[!UICONTROL charts]**&#x200B;ースからデータを取得できます。新しいクエリー(「データに対する直接 [フィルターの定義](#defining-a-direct-filter-on-data)」を参照)またはレポートコンテキスト [(「コンテキストデータの使用](#using-context-data)」を参照)。
+データを&#x200B;**[!UICONTROL テーブル]**&#x200B;や&#x200B;**[!UICONTROL グラフ]**&#x200B;の形式で表す場合は、新しいクエリ（[データに対する直接フィルターの定義](#defining-a-direct-filter-on-data)を参照）またはレポートコンテキスト（[コンテキストデータの使用](#using-context-data)を参照）の 2 つのソースからデータを取得できます。
 
 ## データに対する直接フィルターの定義 {#defining-a-direct-filter-on-data}
 
 ### データのフィルター {#filtering-data}
 
-Using a **[!UICONTROL Query]** type activity isn&#39;t mandatory when building a report. レポートを構成するテーブルやグラフで、データを直接フィルターできます。
+レポートを作成する際、**[!UICONTROL クエリ]**&#x200B;タイプのアクティビティの使用は、必須ではありません。レポートを構成するテーブルやグラフで、データを直接フィルターできます。
 
-This enables you to select the data to display in the report directly via the **[!UICONTROL Page]** activity of the report.
+これによって、レポートに表示するデータを、レポートの&#x200B;**[!UICONTROL ページ]**&#x200B;アクティビティを通じて直接選択できます。
 
-To do this, click the **[!UICONTROL Filter data...]** link in the **[!UICONTROL Data]** tab: this link lets you access the expressions editor to define a query on the data to be analyzed.
+それには、「**[!UICONTROL データ]**」タブの「**[!UICONTROL データをフィルター]**」リンクをクリックします。式エディターが開き、分析対象となるデータに対するクエリを定義できます。
 
 ![](assets/reporting_filter_data_from_page.png)
 
@@ -40,7 +40,7 @@ To do this, click the **[!UICONTROL Filter data...]** link in the **[!UICONTROL 
 
 次の例では、フランスに居住し、この 1 年間に買い物をした受信者のプロファイルのみを表示するグラフを作成します。
 
-このフィルターを定義するには、チャートにページアクティビティを追加し、それを編集します。Click the **[!UICONTROL Filter data]** link and create the filter that matches the data you want to display. Adobe Campaign でのクエリの作成について詳しくは、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。
+このフィルターを定義するには、チャートにページアクティビティを追加し、それを編集します。「**[!UICONTROL データをフィルター]**」リンクをクリックし、表示するデータに合致するフィルターを作成します。Adobe Campaign でのクエリの作成について詳しくは、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。
 
 ![](assets/s_ncs_advuser_report_wizard_029.png)
 
@@ -60,8 +60,8 @@ To do this, click the **[!UICONTROL Filter data...]** link in the **[!UICONTROL 
 
 1. チャートにページアクティビティを追加し、編集します。
 1. ピボットテーブルを作成します。
-1. Go to the **[!UICONTROL Data]** tab and select the cube to be used.
-1. Click the **[!UICONTROL Filter data...]** link and define the following query to remove Adobe from the list of companies.
+1. 「**[!UICONTROL データ]**」タブに移動し、使用するキューブを選択します。
+1. 「**[!UICONTROL データをフィルター]**」リンクをクリックし、会社のリストから ADOBE を削除するように次のようなクエリを定義します。
 
    ![](assets/s_ncs_advuser_report_display_03.png)
 
@@ -71,20 +71,20 @@ To do this, click the **[!UICONTROL Filter data...]** link in the **[!UICONTROL 
 
 ## コンテキストデータの使用 {#using-context-data}
 
-To represent data in the form of a **[!UICONTROL table]** or a **[!UICONTROL chart]**, the data can come from the report context.
+データを&#x200B;**[!UICONTROL テーブル]**&#x200B;や&#x200B;**[!UICONTROL グラフ]**&#x200B;の形式で表す場合は、そのデータをレポートコンテキストから取得できます。
 
-In the page that contains the table or the chart, the **[!UICONTROL Data]** tab lets you select the data source.
+テーブルやグラフを含んだページでは、「**[!UICONTROL データ]**」タブでデータソースを選択できます。
 
 ![](assets/s_ncs_advuser_report_datasource_3.png)
 
-* The **[!UICONTROL New query]** option lets you build a query to collect data. 詳しくは、「データに対する直接フィ [ルターの定義」を参照してください](#defining-a-direct-filter-on-data)。
-* The **[!UICONTROL Context data]** option lets you use the input data: the context of the report coincides with the information contained in the inbound transition of the page that contains the chart or the table. This context may, for instance, contain data collected via a **[!UICONTROL Query]** activity placed before the **[!UICONTROL Page]** activity and for which you need to specify the table and the fields that the report concerns.
+* 「**[!UICONTROL 新しいクエリ]**」オプションを選択すると、データを収集するためのクエリを作成できます。詳しくは、[データに対する直接フィルターの定義](#defining-a-direct-filter-on-data)を参照してください。
+* 「**[!UICONTROL コンテキストデータ]**」オプションを選択すると、入力データを使用できます。レポートのコンテキストは、グラフやテーブルを含むページのインバウンドトランジションに含まれる情報と一致します。このコンテキストには、例えば、**[!UICONTROL ページ]**&#x200B;アクティビティの前に配置された&#x200B;**[!UICONTROL クエリ]**&#x200B;アクティビティで収集されたデータが含まれている可能性があります。その場合、レポートに関係のあるテーブルやフィールドを指定する必要があります。
 
 例えば、クエリボックスで、受信者に次のようなクエリを作成します。
 
 ![](assets/s_ncs_advuser_report_datasource_2.png)
 
-Then indicate the source of the data in your report, in this case: **[!UICONTROL Data from the context]**.
+次に、レポートのデータソースを指定します。ここでは、「**[!UICONTROL コンテキストのデータ]**」とします。
 
 データの場所は自動的に推測されます。必要に応じて、データパスを指定できます。
 

@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classicの配信品質について
-description: Adobe Campaign Classicでの配信品質の管理について説明します。
+title: Adobe Campaign Classic の配信品質について
+description: Adobe Campaign Classic の配信品質管理について説明します。
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68756f920fbc8658cff552615adbf023b4c5e3aa
 
 ---
@@ -20,16 +20,16 @@ source-git-commit: 68756f920fbc8658cff552615adbf023b4c5e3aa
 
 # 配信品質について{#about-deliverability}
 
-Adobe Campaignには、お使いのプラットフォームの配信品質パフォーマンスを追跡するためのツールがいくつか用意されています。 また、配信品質を管理および最適化する際に考慮すべき主な原則についても説明します。
+Adobe Campaign には、プラットフォームの配信品質のパフォーマンスをトラッキングするツールがいくつか用意されています。また、配信品質を管理および最適化する際に考慮すべき主な原則についても説明します。
 
 ## 設定 {#configuration}
 
-この機能は、Adobe Campaignの専用パッケージを通じて使用できます。 このパッケージを使用するには、このパッケージをインストールする必要があります。 完了したら、パッケージを考慮するためにサーバーを再起動します。
-* ホストクライアントおよびハイブリッドクラ **イアントの場合** 、配信品質監視はアドビのテクニカルサポートおよびコンサルタントによってインスタンスに設定されます。 詳しくは、アドビのアカウント担当者にお問い合わせください。
+この機能は、Adobe Campaign の専用パッケージで使用できます。使用するには、このパッケージをインストールする必要があります。インストールしたら、サーバーを再起動してパッケージを有効にします。
+* ホストクライアントおよびハイブリッドクライアントの場合、**配信品質の監視**&#x200B;はアドビのテクニカルサポートおよびコンサルタントがインスタンスに設定します。詳しくは、アドビのアカウント担当者にお問い合わせください。
 
-* オンプレミスインストールの場合は、> >メニューを使用し **[!UICONTROL Deliverability monitoring (Email Deliverability)]** てパッケージをインスト **[!UICONTROL Tools]** ールす **[!UICONTROL Advanced]** る必要があ **[!UICONTROL Import package]** ります。 詳しくは、「Campaign Classic標準パッケージのイ [ンストール」を参照してください](../../installation/using/installing-campaign-standard-packages.md)。
+* オンプレミスでのインストールの場合は、**[!UICONTROL ツール]**／**[!UICONTROL 詳細設定]**／**[!UICONTROL パッケージをインポート]**&#x200B;メニューから&#x200B;**[!UICONTROL 配信品質の監視 (E メールの配信品質)]** パッケージをインストールする必要があります。詳しくは、[Campaign Classic 標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
-Adobe Campaign Classicでは、配信品質の監視は **ワークフロー** で管理さ **[!UICONTROL Refresh for deliverability]** れます。 デフォルトでは、すべてのインスタンスにインストールされ、バウンスメールの資格ルールのリスト、ドメインのリスト、MXのリストを初期化できます。 パッケージがイ **[!UICONTROL Deliverability monitoring (Email Deliverability)]** ンストールされると、このワークフローは夜間に実行され、ルールのリストを定期的に更新し、プラットフォームの配信品質をアクティブに管理できます。
+Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!UICONTROL 配信品質の更新]**&#x200B;ワークフローが管理します。このワークフローは、デフォルトですべてのインスタンスにインストールされ、バウンスメールの検証ルールのリスト、ドメインのリストおよび MX のリストを初期化できます。**[!UICONTROL 配信品質の監視 (E メールの配信品質)]** パッケージをインストールすると、このワークフローが毎日夜間に実行されてルールリストを定期的に更新し、プラットフォームの配信品質の積極的管理が可能になります。
 
 ## 背景 {#background}
 

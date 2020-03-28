@@ -14,7 +14,7 @@ discoiquuid: f3666c12-5e6f-452e-b1d6-b69a7e9f6f6e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06f2106c7c37fd5f115d15f3530997571f1f8e70
 
 ---
@@ -27,44 +27,44 @@ source-git-commit: 06f2106c7c37fd5f115d15f3530997571f1f8e70
 E メール配信には 1 つまたは複数のファイルを添付できます。次の 2 つの場合が考えられます。
 
 * ファイルを選択し、そのまま配信に添付する。
-* 添付ファイルのコンテンツを受信者ごとにパーソナライズする。In this case, you need to create a **calculated attachment**: the name of the attachment is computed at the time of delivery for each message depending on the recipient. また、**Variable Digital Printing** オプションがインストールされている場合は、コンテンツをパーソナライズし、配信時に PDF 形式に変換して添付することもできます。
+* 添付ファイルのコンテンツを受信者ごとにパーソナライズする。この場合、**計算済み添付ファイル**&#x200B;を作成する必要があります。添付ファイルの名前は、各メッセージの送信時に、受信者に応じて自動生成されます。また、**Variable Digital Printing** オプションがインストールされている場合は、コンテンツをパーソナライズし、配信時に PDF 形式に変換して添付することもできます。
 
 >[!NOTE]
 >
->多くの場合、このタイプの設定は配信テンプレートを使用して実行されます。For more on this, refer to [About templates](../../delivery/using/about-templates.md).
+>多くの場合、このタイプの設定は配信テンプレートを使用して実行されます。詳しくは、[テンプレートについて](../../delivery/using/about-templates.md)を参照してください。
 
 ## ローカルファイルの添付 {#attaching-a-local-file}
 
-ローカルファイルを配信に添付するには、次の手順に従います。
+ローカルファイルを配信に添付するには、以下の手順に従います。
 
 >[!NOTE]
 >
->配信には複数のファイルを添付できます。 添付ファイルは、任意の形式（Zip形式を含む）で指定できます。
+>配信には複数個のファイルを添付できます。添付ファイルは、任意のフォーマット（zip 形式を含む）で指定できます。
 
-1. リンクをクリック **[!UICONTROL Attachments]** します。
-1. ボタンをク **[!UICONTROL Add]** リックし、をク **[!UICONTROL File...]** リックして、配信に添付するファイルを選択します。
+1. 「**[!UICONTROL 添付ファイル]**」リンクをクリックします。
+1. 「**[!UICONTROL 追加]**」ボタンをクリックし、「**[!UICONTROL ファイル...]**」をクリックして、配信に添付するファイルを選択します。
 
 ![](assets/s_ncs_user_wizard_email_attachement.png)
 
-また、「配信」フィールドにファイルを直接ドラッグ&amp;ドロップする **[!UICONTROL Attachments]** ことも、配信ウィザードのツー **[!UICONTROL Attach]** ルバーからアイコンを使用することもできます。
+また、配信の「**[!UICONTROL 添付ファイル]**」フィールドにファイルを直接ドラッグ＆ドロップしたり、配信ウィザードのツールバーから&#x200B;**[!UICONTROL 添付]**&#x200B;アイコンを使用したりできます。
 
 ![](assets/s_ncs_user_wizard_add_file_ico.png)
 
-1. ファイルを選択すると、そのファイルは直ちにサーバーにアップロードされ、配信時に使用できるようになります。 フィールドにリスト表示さ **[!UICONTROL Attachments]** れます。
+1. 配信の際に利用できるよう、選択したファイルは、ただちにサーバー上へとアップロードされます。「**[!UICONTROL 添付ファイル]**」フィールドに一覧表示されます。
 
 ![](assets/s_ncs_user_wizard_email_attachement_e.png)
 
-## 自動生成添付ファイルの作成 {#creating-a-calculated-attachment}
+## 計算済み添付ファイルの作成 {#creating-a-calculated-attachment}
 
-自動生成添付ファイルを作成する際には、各メッセージの分析または配信時にファイル名を生成させることができ、受信者に応じて異なるファイル名を付けることができます。また、内容をパーソナライズして PDF に変換することもできます。
+計算済み添付ファイルを作成する際には、各メッセージの分析または配信時にファイル名を生成させることができ、受信者に応じて異なるファイル名を付けることができます。また、内容をパーソナライズして PDF に変換することもできます。
 
 ![](assets/s_ncs_user_wizard_attachment.png)
 
 パーソナライズされた添付ファイルを作成するには、次の手順に従います。
 
-1. リンクをクリック **[!UICONTROL Attachments]** します。
-1. ボタンをクリ **[!UICONTROL Add]** ックし、を選択しま **[!UICONTROL Calculated attachment]**&#x200B;す。
-1. Select the type of calculation from the **[!UICONTROL Type]** drop-down list:
+1. 「**[!UICONTROL 添付ファイル]**」リンクをクリックします。
+1. 「**[!UICONTROL 追加]**」ボタンをクリックし、「**[!UICONTROL 計算済み添付ファイル]**」を選択します。
+1. **[!UICONTROL タイプ]**&#x200B;ドロップダウンリストから、使用する計算のタイプを選択します。
 
 ![](assets/s_ncs_user_wizard_email01_136.png)
 
@@ -77,22 +77,22 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 
 ### ローカルファイルの添付 {#attach-a-local-file}
 
-If the attachment is a local file, select the option: **[!UICONTROL File name is specified when creating the delivery template]**. ファイルはローカルで選択され、サーバーにアップロードされます。次の手順に従います。
+添付ファイルがローカルファイルの場合は、「**[!UICONTROL 配信テンプレートの作成時にファイル名を生成]**」オプションを選択します。ファイルはローカルで選択され、サーバーにアップロードされます。次の手順に従います。
 
-1. Select the file to upload in the **[!UICONTROL Local file]** field.
+1. アップロードするファイルを、「**[!UICONTROL ローカルファイル]**」フィールドで選択します。
 1. 必要な場合はラベルを指定します。このラベルは、メッセージングシステム上でファイル名の代わりに表示されます。指定しない場合はデフォルトでファイル名が表示されます。
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
 
-1. 必要に応じて、を選択 **[!UICONTROL Upload file on the server]**&#x200B;し、をクリックして **[!UICONTROL Update on server]** 転送を開始します。
+1. 必要に応じて、「**[!UICONTROL ファイルをサーバーにアップロード]**」を選択し、「**[!UICONTROL サーバーで更新]**」をクリックして転送を開始します。
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
    このファイルは、サーバー上で、このテンプレートから作成された別の配信に添付できるようになります。
 
-### パーソナライズされたメッセージの添付 {#attach-a-personalized-message}
+### パーソナライズ済みメッセージの添付 {#attach-a-personalized-message}
 
-このオプション **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** を使用すると、対象の受信者の姓と名など、パーソナライゼーションフィールドの罰金を選択できます。
+「**[!UICONTROL 各メッセージの配信時に、ファイルコンテンツをパーソナライズして PDF 形式に変換します]**」オプションを使用すると、パーソナライゼーションフィールドで詳細を選択できます（対象の受信者の姓と名など）。
 
 ![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 
@@ -105,7 +105,7 @@ If the attachment is a local file, select the option: **[!UICONTROL File name is
    >ソースファイルは LibreOffice で作成する必要があります。インスタンスは、[この節](../../installation/using/before-starting.md)で説明されている前提条件に沿って設定されている必要があります。
 
 1. 必要な場合はラベルを指定します。
-1. を選択 **[!UICONTROL Upload file on the server]**&#x200B;し、をクリックして転 **[!UICONTROL Update on server]** 送を開始します。
+1. 「**[!UICONTROL ファイルをサーバーにアップロード]**」を選択し、「**[!UICONTROL サーバーで更新]**」をクリックして転送を開始します。
 1. プレビューを表示するには、受信者を選択します。
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
@@ -116,9 +116,9 @@ If the attachment is a local file, select the option: **[!UICONTROL File name is
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
-### 計算ファイルの添付 {#attach-a-calculated-file}
+### 計算済みファイルの添付 {#attach-a-calculated-file}
 
-配信の準備中に添付ファイルの名前を計算できます。To do this, select the option **[!UICONTROL The file name is calculated during delivery analysis (it cannot depend on the recipient)]**.
+配信の準備中に添付ファイルの名前を計算できます。これをおこなうには、「**[!UICONTROL 配信分析時にファイル名を生成（受信者プロファイルは利用不可）]**」オプションを選択します。
 
 >[!NOTE]
 >
@@ -139,9 +139,9 @@ If the attachment is a local file, select the option: **[!UICONTROL File name is
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
 
-### パーソナライズされたファイルの添付 {#attach-a-personalized-file}
+### パーソナライズ済みファイルの添付 {#attach-a-personalized-file}
 
-添付ファイルを選択する際に、このオプションを選択できま **[!UICONTROL The file name is calculated during delivery for each recipient (it can depend on the recipient)]**&#x200B;す。 その後、送信するファイル名と受信者のパーソナライズデータをマップできます。
+添付ファイルを選択するときに、「**[!UICONTROL メッセージの配信中にファイル名を生成（受信者プロファイルを利用可）]**」オプションを選択できます。その後、送信するファイル名と受信者のパーソナライズデータをマップできます。
 
 >[!NOTE]
 >
@@ -164,7 +164,7 @@ If the attachment is a local file, select the option: **[!UICONTROL File name is
 
 ### 添付ファイルの設定 {#attachment-settings}
 
-最初の2つのオプションは、適切なオプションを選 **[!UICONTROL Upload file on the server]** 択することで選択できます。 このリン **[!UICONTROL Update the file on the server]** クを使用して、アップロードを開始できます。
+1 番目と 2 番目のオプションについては、「**[!UICONTROL ファイルをサーバーにアップロード]**」を選択し、適切なオプションを設定します。「**[!UICONTROL サーバーで更新...]**」リンクをクリックすると、アップロードが開始されます。
 
 ![](assets/s_ncs_user_wizard_email01_137.png)
 
@@ -176,9 +176,9 @@ If the attachment is a local file, select the option: **[!UICONTROL File name is
 
 ![](assets/s_ncs_user_wizard_email01_1372.png)
 
-The **[!UICONTROL Advanced]** tab lets you define advanced options on attached files:
+「**[!UICONTROL 詳細設定]**」タブでは、添付ファイルについて次のような詳細設定オプションを指定できます。
 
-* フィルターオプションを指定すると、添付ファイルの送り先とする受信者を限定できます。このオプション **[!UICONTROL Enable filtering of recipients who will receive the attachment]** は、受信者選択スクリプトの定義に使用する入力フィールドをアクティブにします。このフィールドはJavaScriptで入力する必要があります。
+* フィルターオプションを指定すると、添付ファイルの送り先とする受信者を限定できます。「**[!UICONTROL 添付ファイルを受信する受信者のフィルターを有効にする]**」オプションを選択すると、受信者選択用スクリプトを記述するための入力フィールドが有効になります。このスクリプトは JavaScript で記述する必要があります。
 * ファイル名をパーソナライズするためのスクリプトを指定できます。
 
    ウィンドウにテキストを入力し、ドロップダウンリストから使用可能なパーソナライゼーションフィールドを選択します。次の例では、ファイル名がパーソナライズされ、今日の日付と受信者の名前が含まれています。

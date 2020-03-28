@@ -14,7 +14,7 @@ discoiquuid: 4d72db10-29bd-4b3c-adb3-bead02890271
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -24,20 +24,20 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 この例では、ニュースレターを開封したがそれに含まれるリンクをクリックしなかったプロファイルの名前を記載したアラートをオペレーターに送信します。
 
-The profiles&#39; first and last name fields are linked to the **[!UICONTROL Recipients]** targeting dimension, whereas the **[!UICONTROL Alert]** activity is linked to the **[!UICONTROL Operator]** targeting dimension. 結果として、2 つのターゲティングディメンション間で、紐付けを実行し、氏名フィールドを取得して、アラートアクティビティに表示するのに使用できるフィールドはありません。
+プロファイルの氏名フィールドは&#x200B;**[!UICONTROL 受信者]**&#x200B;ターゲティングディメンションにリンクされているのに対して、**[!UICONTROL アラート]**&#x200B;アクティビティは&#x200B;**[!UICONTROL オペレーター]**&#x200B;ターゲティングディメンションにリンクされています。結果として、2 つのターゲティングディメンション間で、紐付けを実行し、氏名フィールドを取得して、アラートアクティビティに表示するのに使用できるフィールドはありません。
 
 このプロセスでは、次のようにワークフローを構築できます。
 
-1. Use a **[!UICONTROL Query]** activity to target data.
-1. Add a **[!UICONTROL JavaScript code]** activity into the workflow to save the population form the query to the instance variable.
-1. Use a **[!UICONTROL Test]** activity to check the population count.
-1. Use an **[!UICONTROL Alert]** activity to send an alert to an operator, depending on the **[!UICONTROL Test]** activity result.
+1. **[!UICONTROL クエリ]**&#x200B;アクティビティを使用して、データをターゲットにします。
+1. **[!UICONTROL JavaScript コード]**&#x200B;アクティビティをワークフローに追加して、クエリからインスタンス変数に母集団を保存します。
+1. **[!UICONTROL テスト]**&#x200B;アクティビティを使用して、母集団の数を確認します。
+1. **[!UICONTROL アラート]**&#x200B;アクティビティを使用して、**[!UICONTROL テスト]**&#x200B;アクティビティの結果に応じて、オペレーターにアラートを送信します。
 
 ![](assets/uc_operator_1.png)
 
 ## 母集団のインスタンス変数への保存 {#saving-the-population-to-the-instance-variable}
 
-Add the code below into the **[!UICONTROL JavaScript code]** activity.
+以下のコードを **[!UICONTROL JavaScript コード]**&#x200B;アクティビティに追加します。
 
 ```
 var query = xtk.queryDef.create(  
@@ -60,11 +60,11 @@ JavaScript コードがワークフロー情報に対応していることを確
 
 これらの情報を取得するには、以下の手順に従います。
 
-1. アクティビティからのアウトバウンドトランジションを右 **[!UICONTROL Query]** クリックし、を選択しま **[!UICONTROL Display the target]**&#x200B;す。
+1. **[!UICONTROL クエリ]**&#x200B;アクティビティからアウトバウンドトランジションを右クリックし、「**[!UICONTROL ターゲットを表示]**」を選択します。
 
    ![](assets/uc_operator_4.png)
 
-1. リストを右クリックし、を選択しま **[!UICONTROL Configure list]**&#x200B;す。
+1. リストを右クリックして、「**[!UICONTROL リストを設定]**」を選択します。
 
    ![](assets/uc_operator_5.png)
 
@@ -74,7 +74,7 @@ JavaScript コードがワークフロー情報に対応していることを確
 
 ## 母集団の数のテスト {#testing-the-population-count}
 
-Add the code below into the **[!UICONTROL Test]** activity to check if the targeted population contains at least 1 profile.
+以下のコードを&#x200B;**[!UICONTROL テスト]**&#x200B;アクティビティに追加して、ターゲットにした母集団が少なくとも 1 つのプロファイルを含むかどうかを確認します。
 
 ```
 var.recCount>0
@@ -84,9 +84,9 @@ var.recCount>0
 
 ## アラートの設定 {#setting-up-the-alert}
 
-Now that the population has been added into the instance variable with the desired fields, you can add these information into the **[!UICONTROL Alert]** activity.
+これで、母集団が目的のフィールドを含むインスタンス変数に追加されたので、これらの情報を&#x200B;**[!UICONTROL アラート]**&#x200B;アクティビティに追加できます。
 
-To do this, add into the **[!UICONTROL Source]** tab the code below:
+そのためには、「**[!UICONTROL ソース]**」タブに以下のコードを追加します。
 
 ```
 <ul>
@@ -101,7 +101,7 @@ for each (var item in items){
 
 >[!NOTE]
 >
->The **[!UICONTROL <%= item.target.recipient.@fieldName %>]** command lets you add one of the fields that have been saved to the instance variable through the **[!UICONTROL JavaScript code]** activity.\
+>**[!UICONTROL &lt;%= item.target.recipient.@fieldName %>]** コマンドを使用すると、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティでインスタンス変数に保存したフィールドのいずれかを追加できます。\
 >フィールドが JavaScript コードに追加されている限り、フィールドを好きな数だけ追加できます。
 
 ![](assets/uc_operator_8.png)

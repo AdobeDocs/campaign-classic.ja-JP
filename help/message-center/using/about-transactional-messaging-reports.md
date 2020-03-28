@@ -14,7 +14,7 @@ discoiquuid: 716de3cb-7ec9-454b-9e8f-0b134388687c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # トランザクションメッセージレポートについて{#about-transactional-messaging-reports}
 
-Adobe Campaign では、実行インスタンスのスムーズな運用とアクティビティのコントロールを可能にするレポートが複数用意されています。These Message Center reports can be accessed from the **[!UICONTROL Reports]** tab of the control instance.
+Adobe Campaign では、実行インスタンスのスムーズな運用とアクティビティのコントロールを可能にするレポートが複数用意されています。これらの Message Center レポートは、コントロールインスタンスの「**[!UICONTROL レポート]**」タブからアクセスすることができます。
 
 ![](assets/messagecenter_reporting_002.png)
 

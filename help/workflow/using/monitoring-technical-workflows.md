@@ -14,7 +14,7 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d60f47f03949177b97509166a8d9e640849e5fd7
 
 ---
@@ -24,11 +24,11 @@ source-git-commit: d60f47f03949177b97509166a8d9e640849e5fd7
 
 テクニカルワークフローは監視する必要があり、失敗した場合にアクションをおこなう必要があります。
 
-様々なキャンペーンプロセスを監視するその他の方法については、このページ [を参照しま](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)す。
+様々なキャンペーンプロセスを監視するその他の方法については、[このページ](https://helpx.adobe.com/jp/campaign/kb/acc-maintenance.html)で説明しています。
 
 ## インスタンスの監視ダッシュボード {#instance-monitoring-dashboard}
 
-The instance monitoring dashboard can be accessed via the **[!UICONTROL Monitoring]** universe.
+インスタンスの監視ダッシュボードは、**[!UICONTROL 監視]**&#x200B;ウィンドウからアクセスできます。
 
 ![](assets/monitoring_technical_workflows1.png)
 
@@ -40,35 +40,35 @@ The instance monitoring dashboard can be accessed via the **[!UICONTROL Monitori
 
 ## テクニカルワークフロー {#technical-workflows}
 
-技術的なワークフローは、> >か **[!UICONTROL Administration]** ら入手 **[!UICONTROL Production]** できま **[!UICONTROL Technical workflows]**&#x200B;す。
+テクニカルワークフローは、**[!UICONTROL 管理]**／**[!UICONTROL プロダクション]**／**[!UICONTROL テクニカルワークフロー]**&#x200B;から使用できます。
 
 正常に動作するようにするには、テクニカルワークフローに応じて次で詳しく説明されている手順を実行します。
 
 各テクニカルワークフローで実行される処理について詳しく理解するには、この[節](../../workflow/using/about-technical-workflows.md)を参照してください。
 
-For **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
+**[!UICONTROL データベースクリーンアップワークフロー（「cleanup」）]**&#x200B;の場合：
 
-1. Check that the **[!UICONTROL Database Cleanup]** workflow runs and finishes successfully every day. 詳しくは、この[ページ](../../workflow/using/delivery.md)を参照してください。
+1. 毎日、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローが実行され、正常に完了していることを確認します。詳しくは、この[ページ](../../workflow/using/delivery.md)を参照してください。
 1. ジャーナルを確認して、経過時間が長期間、比較的一定していて、他のワークフローに干渉していないことを検証します。
 1. 詳しくは、この[ページ](../../production/using/database-cleanup-workflow.md)を確認してください。
 
-For **[!UICONTROL Tracking workflow (‘tracking’)]**:
+**[!UICONTROL トラッキングワークフロー（「tracking」）]**&#x200B;の場合：
 
 トラッキングワークフローがスケジュールどおりに実行され（デフォルトでは 1 時間ごと）、繰り返し発生するエラーがジャーナルにハイライト表示されていないことを確認します。詳しくは、[この節](../../workflow/using/delivery.md)を参照してください。
 
-For **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
+**[!UICONTROL 配信品質の更新（「deliverabilityUpdate」）]**&#x200B;の場合：
 
-1. Check that the **[!UICONTROL Deliverability update]** workflow runs and finishes successfully every day. 詳しくは、この[ページ](../../workflow/using/delivery.md)を参照してください。
+1. 毎日、**[!UICONTROL 配信品質の更新]**&#x200B;ワークフローが実行され、正常に完了していることを確認します。詳しくは、この[ページ](../../workflow/using/delivery.md)を参照してください。
 1. ルールが定期的に更新されていることをジャーナルで検証します。
 
-For **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...)]**:
+**[!UICONTROL キャンペーンプロセス（「operationMgt」、「deliveryMgt」など]**）の場合：
 
-1. Look at all the workflows located under the **[!UICONTROL Campaign process]** folder. 詳しくは、この[ページ](../../workflow/using/campaign.md)を参照してください。
+1. **[!UICONTROL キャンペーンプロセス]**&#x200B;フォルダーにあるすべてのワークフローを確認します。詳しくは、この[ページ](../../workflow/using/campaign.md)を参照してください。
 1. ワークフローがスケジュールどおりに実行され、繰り返し発生するエラーがジャーナルにハイライト表示されていないことを確認します。
 
 ## ワークフロー監視 {#workflow-supervision}
 
-The **[!UICONTROL Workflow supervisors]** group should contain operators that need to be kept informed of failures and who can take action in time.
+**[!UICONTROL ワークフロースーパーバイザー]**&#x200B;グループは、必ず失敗を知らせる必要があり、時間内に対処できるオペレーターを含む必要があります。
 
 ![](assets/monitoring_technical_workflows3.png)
 

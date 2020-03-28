@@ -14,7 +14,7 @@ discoiquuid: 667746cb-b553-4a71-8523-6b2695047ab6
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 62b2f1f6cfcaadd10880d428b8b94d73d2addcdb
 
 ---
@@ -26,11 +26,11 @@ source-git-commit: 62b2f1f6cfcaadd10880d428b8b94d73d2addcdb
 
 適切な権限がある場合は、テンプレートから作成した分析レポートを保存できます。また、Excel、PDF、OpenOffice のいずれかのフォーマットでレポートをエクスポートすることもできます。
 
-To save your report, click **[!UICONTROL Save]** and give your report a label.
+レポートを保存するには、「**[!UICONTROL 保存]**」をクリックし、レポートにラベルを設定します。
 
-Select **[!UICONTROL Also save data]** if you wish to create a history of your report and see the values of the report at the time of saving. For more on this, refer to [Archiving analysis reports](#archiving-analysis-reports).
+レポートの履歴を作成して保存時にレポートの値を確認する場合は、「**[!UICONTROL データも保存]**」を選択します。詳しくは、[分析レポートのアーカイブ](#archiving-analysis-reports)を参照してください。
 
-このオプシ **[!UICONTROL Share this report]** ョンを使用すると、他の演算子もレポートにアクセスできます。
+「**[!UICONTROL このレポートの共有]**」オプションを選択すると、他のオペレーターがレポートにアクセスできるようになります。
 
 ![](assets/s_ncs_user_report_wizard_010.png)
 
@@ -38,7 +38,7 @@ Select **[!UICONTROL Also save data]** if you wish to create a history of your r
 
 ![](assets/s_ncs_user_report_wizard_08a.png)
 
-To make changes to this report, edit the **[!UICONTROL Administration > Configuration > Adobe Campaign tree reports]** node of the Adobe Campaign tree (or the first &#39;Reports&#39; type folder for which the operator has editing rights). 詳しくは、「分析レポートのレ [イアウトの設定」を参照してください](#configuring-the-layout-of-a-descriptive-analysis-report)。
+このレポートに変更を加えるには、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／設定／レポート]**&#x200B;ノード（オペレーターに編集権限がある最初の「レポート」タイプフォルダー）を編集します。詳しくは、[記述的分析レポートのレイアウトの設定](#configuring-the-layout-of-a-descriptive-analysis-report)を参照してください。
 
 ## 分析レポートの追加設定 {#analysis-report-additional-settings}
 
@@ -50,15 +50,15 @@ To make changes to this report, edit the **[!UICONTROL Administration > Configur
 
 ## 記述的分析レポートのレイアウトの設定 {#configuring-the-layout-of-a-descriptive-analysis-report}
 
-記述的分析のグラフやテーブルにおけるデータの表示やレイアウトをパーソナライズできます。All options are accessed via the Adobe Campaign tree, in the **[!UICONTROL Edit]** tab of each report.
+記述的分析のグラフやテーブルにおけるデータの表示やレイアウトをパーソナライズできます。すべてのオプションには、Adobe Campaign ツリーを通じて、各レポートの「**[!UICONTROL 編集]**」タブでアクセスします。
 
 ### 分析レポートの表示モード {#analysis-report-display-mode}
 
-When you create a report using the **[!UICONTROL qualitative distribution]** template, table and chart display modes are selected by default. 1 つの表示モードだけでよい場合は、それ以外のボックスのチェックをオフにします。つまり、チェックを入れた表示モードのタブだけが使用可能になります。
+**[!UICONTROL 定性配分]**&#x200B;テンプレートを使用してレポートを作成する場合、テーブルとグラフの表示モードがデフォルトで選択されています。1 つの表示モードだけでよい場合は、それ以外のボックスのチェックをオフにします。つまり、チェックを入れた表示モードのタブだけが使用可能になります。
 
 ![](assets/s_ncs_advuser_report_display_01.png)
 
-To change the schema of the report, click the **[!UICONTROL Select the link]** and select another table from the database.
+レポートのスキーマを変更するには、「**[!UICONTROL リンクを選択]**」をクリックし、データベースの別のテーブルを選択します。
 
 ![](assets/s_ncs_advuser_report_display_02.png)
 
@@ -92,12 +92,12 @@ To change the schema of the report, click the **[!UICONTROL Select the link]** a
 
 記述的分析テーブルで直接データのレイアウトをパーソナライズできます。それには、対象となる変数を右クリックします。以下のうち、使用可能なオプションをドロップダウンメニューから選択します。
 
-* **[!UICONTROL Pivot]** をクリックして、変数の軸を変更します。
-* **[!UICONTROL Up]** /を指定 **[!UICONTROL Down]** すると、変数が行で置き換えられます。
-* **[!UICONTROL Move to the right]** /を指定 **[!UICONTROL Move to the left]** すると、列内の変数が置き換えられます。
-* **[!UICONTROL Turn]** を使用して、変数軸を反転させます。
-* **[!UICONTROL Sort from A to Z]** を使用して、変数の値を低い順に並べ替えます。
-* **[!UICONTROL Sort from Z to A]** を使用して、変数の値を高い順に並べ替えます。
+* 「**[!UICONTROL ピボット]**」：変数の軸を変更します。
+* 「**[!UICONTROL 上]**」／「**[!UICONTROL 下]**」：異なる行の変数を交換します。
+* 「**[!UICONTROL 右へ移動]**」／「**[!UICONTROL 左へ移動]**」：異なる列の変数を交換します。
+* 「**[!UICONTROL 回転]**」：変数の軸を反転させます。
+* 「**[!UICONTROL A から Z の順に並べ替え]**」：変数値を昇順に並べ替えます。
+* 「**[!UICONTROL Z から A の順に並べ替え]**」：変数値を降順に並べ替えます。
 
    ![](assets/s_ncs_advuser_report_wizard_016.png)
 
@@ -105,20 +105,20 @@ To change the schema of the report, click the **[!UICONTROL Select the link]** a
 
 ### 分析レポートのグラフオプション {#analysis-report-chart-options}
 
-グラフにおけるデータの表示をパーソナライズできます。To do this, click the **[!UICONTROL Variables...]** link available during the chart type selection stage.
+グラフにおけるデータの表示をパーソナライズできます。それには、グラフタイプの選択段階で使用可能な「**[!UICONTROL バリエーション]**」リンクをクリックします。
 
 ![](assets/s_ncs_advuser_report_wizard_3c.png)
 
 次のオプションを使用できます。
 
 * ウィンドウの上部のセクションでグラフの表示領域を変更できます。
-* デフォルトでは、グラフにラベルが表示されます。You can hide them by un-checking the **[!UICONTROL Show values]** option.
-* The **[!UICONTROL Accumulate values]** option lets you add up values from one series to another.
+* デフォルトでは、グラフにラベルが表示されます。「**[!UICONTROL ラベルを表示]**」オプションのチェックをオフにすることで、ラベルを非表示にすることができます。
+* 「**[!UICONTROL 値を累積]**」オプションでは、系列間で値を合計できます。
 * グラフの凡例を表示するかどうかを決めることができます。凡例を非表示にするには、該当するオプションのチェックをオフにします。デフォルトでは、凡例はグラフの外側の右上隅に表示されます。
 
-   表示スペースの節約のために、凡例をグラフの上部に表示することもできます。To do this, select the option **[!UICONTROL Include in the chart]**
+   表示スペースの節約のために、凡例をグラフの上部に表示することもできます。それには、「**[!UICONTROL グラフに含める]**」オプションを選択します。
 
-   Select the vertical and horizontal alignment in the **[!UICONTROL Caption position]** drop-down list.
+   **[!UICONTROL キャプションの位置]**&#x200B;ドロップダウンリストで垂直および水平方向の整列を選択します。
 
    ![](assets/s_ncs_advuser_report_wizard_3d.png)
 
@@ -134,11 +134,11 @@ To change the schema of the report, click the **[!UICONTROL Select the link]** a
 
 Adobe Campaign に既に格納されている既存のレポートを使用して、データに関する記述的分析レポートを作成できます。このモードが可能なのは、分析が既に保存されている場合か、レポートが既に作成されて記述的分析ウィザードでアクセスできるように設定されている場合です。
 
-詳細分析の保存方法については、「分析レポートの保 [存」を参照してください](#saving-an-analysis-report)。
+記述的分析の保存方法については、[分析レポートの保存](#saving-an-analysis-report)を参照してください。
 
-To create descriptive analysis reports, the descriptive analysis wizard must be executed via a workflow transition or via the **[!UICONTROL Tools > Descriptive analysis]** menu.
+記述的分析レポートを作成するには、ワークフロートランジションか&#x200B;**[!UICONTROL ツール／記述的分析]**&#x200B;メニューを使用して、記述的分析ウィザードを実行する必要があります。
 
-1. を選択し、 **[!UICONTROL Existing analyses and reports]** をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. 「**[!UICONTROL 既存の分析またはレポート]**」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 1. これで、使用可能なレポートのリストにアクセスできます。生成するレポートを選択します。
 
    ![](assets/s_ncs_user_report_wizard_01.png)

@@ -14,7 +14,7 @@ discoiquuid: 2df82006-dcc3-4b07-bc36-b646b1c27aaa
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -38,13 +38,13 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## 手順 1 - 調査の作成 {#step-1---creating-a-survey}
 
-新しい調査を作成するには、「または」タブに移動し **[!UICONTROL Campaigns]** てメ **[!UICONTROL Profiles and targets]** ニューをクリック **[!UICONTROL Web Applications]** します。 Click the **[!UICONTROL Create]** button above the list of forms.
+新しい調査を作成するには、「**[!UICONTROL キャンペーン]**」または「**[!UICONTROL プロファイルとターゲット]**」タブに移動して、**[!UICONTROL Web アプリケーション]**&#x200B;メニューをクリックします。フォームのリストの上にある「**[!UICONTROL 作成]**」ボタンをクリックします。
 
 ![](assets/s_ncs_admin_survey_create.png)
 
 ## 手順 2 - テンプレートの選択 {#step-2---selecting-the-template}
 
-調査テンプレートを選択し、調査に名前を付けます。この名前はエンドユーザーには表示されませんが、Adobe Campaign内で調査を識別できます。 Click **[!UICONTROL Save]** to add the survey to the list of Web applications.
+調査テンプレートを選択して、調査に名前を付けます。この名前は、エンドユーザーには表示されませんが、Adobe Campaign 内で調査を識別するのに使用できます。「**[!UICONTROL 保存]**」をクリックして、調査を Web アプリケーションのリストに追加します。
 
 ![](assets/s_ncs_admin_survey_wz_00.png)
 
@@ -52,36 +52,36 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 調査は、ダイアグラムで構築されます。ダイアグラムには、コンテンツが作成されるページ、データがプリロードおよび保存される手順およびテストフェーズの各要素が配置されます。また、スクリプトおよびクエリも挿入できます。
 
-To build the chart, click the **[!UICONTROL Edit]** form of the survey.
+グラフを構築するには、調査のフォームの「**[!UICONTROL 編集]**」をクリックします。
 
 調査には、**少なくとも**、ページ、ストレージボックス、終了ページの 3 つのコンポーネントが含まれている必要があります。
 
-* To create a page, select the **[!UICONTROL Page]** object in the left-hand section of the editor and deposit it in the middle section, as shown below:
+* ページを作成するには、次に示すように、エディターの左側のセクションで「**[!UICONTROL ページ]**」オブジェクトを選択し、中央のセクションに移動させます。
 
    ![](assets/s_ncs_admin_survey_new_page.png)
 
-* Next, select the **[!UICONTROL Storage]** object and place it on the output transition of the page.
-* Finally, select the **[!UICONTROL End]** object and place it on the end of the output transition of the storage box to obtain the following diagram:
+* 次に、「**[!UICONTROL ストレージ]**」オブジェクトを選択し、ページのアウトバウンドトランジション上に配置します。
+* 最後に、「**[!UICONTROL 終了]**」オブジェクトを選択し、次のダイアグラムのように、ストレージボックスのアウトバウンドトランジションの終わりに配置ます。
 
    ![](assets/s_ncs_admin_survey_end.png)
 
 ## 手順 4 - ページコンテンツの作成 {#step-4---creating-the-page-content}
 
-In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]** type page. This type of page is accessed via the advanced menu of the **[!UICONTROL Edit]** tab.
+次の例では、**[!UICONTROL ページ（v5 互換）]**&#x200B;タイプのページを使用します。このタイプのページは、「**[!UICONTROL 編集]**」タブの詳細設定メニューからアクセスします。
 
 ![](assets/s_ncs_admin_survey_pagev5.png)
 
 * 入力フィールドの追加
 
-   To create the content of the page, you must edit it: to do this, double-click the **[!UICONTROL Page]** object. ツールバーの最初のアイコンをクリックし、フィールド作成ウィザードを開きます。To create an entry field for the user name to be stored in the matching field of the recipient&#39;s profile, select **[!UICONTROL Edit a recipient]**.
+   ページのコンテンツを作成するには、ページを編集する必要があります。これをおこなうには、**[!UICONTROL ページ]**&#x200B;オブジェクトをダブルクリックします。ツールバーの最初のアイコンをクリックし、フィールド作成ウィザードを開きます。ここでは、ユーザーの名前用の入力フィールドを作成し、受信者のプロファイルの一致するフィールドにデータが格納されるようにします。これには、「**[!UICONTROL 受信者を編集]**」を選択します。
 
    ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
-   Click the **[!UICONTROL Next]** button to select the field for data storage in the database. この場合、「姓」フィールドです。
+   「**[!UICONTROL 次へ]**」ボタンをクリックして、データベースのデータ格納のフィールドを選択します。この場合、「姓」フィールドです。
 
    ![](assets/s_ncs_admin_survey_choose_field.png)
 
-   Click **[!UICONTROL Finish]** to confirm field creation.
+   「**[!UICONTROL 完了]**」をクリックして、フィールドの作成を確認します。
 
    デフォルトでは、既にデータベースに存在するフィールドに情報が格納されると、そのフィールドは、選択したフィールドの名前になります（つまり、この例では「姓」）。このラベルは、次に示すように修正できます。
 
@@ -91,11 +91,11 @@ In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]*
 
    同じ手順を実行して、ユーザーが E メールアドレスを入力するためのフィールドを追加します。
 
-* To create a question, right-click the last element in the tree, and select **[!UICONTROL Containers > Question]** , or click the **[!UICONTROL Containers]** icon and select **[!UICONTROL Question]**.
+* 質問を作成するには、ツリーの最後の要素を右クリックし、**[!UICONTROL コンテナ／質問]**&#x200B;を選択するか、**[!UICONTROL コンテナ]**&#x200B;アイコンをクリックして&#x200B;**[!UICONTROL 質問]**&#x200B;を選択します。
 
    ![](assets/s_ncs_admin_survey_add_qu.png)
 
-   質問のラベルを入力し、回答フィールドを質問のサブブランチとして挿入します。これを行うには、回答フィールドを作成する際に、質問にリンクされたノードを選択する必要があります。 次に示すよ **[!UICONTROL drop-down listx]** うに、ア **[!UICONTROL Selection controls]** イコンを使用するか、右クリックしてを追加します。
+   質問のラベルを入力して、質問のサブ分岐として回答フィールドを挿入します。これをおこなうには、回答フィールドを作成する際に、質問にリンクされたノードが選択されている必要があります。**[!UICONTROL 選択コントロール]**&#x200B;アイコンまたは次のように右クリックで、**[!UICONTROL ドロップダウンリスト]**&#x200B;を追加します。
 
    ![](assets/s_ncs_admin_survey_add_list.png)
 
@@ -103,17 +103,17 @@ In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]*
 
    ![](assets/s_ncs_admin_survey_add_itz_list.png)
 
-   タブで、リ **[!UICONTROL General]** ンクをクリックし **[!UICONTROL Initialize the list of values from the database]** ます。値のテーブルは自動的に入力されます。
+   「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL データベースからの値のリストを初期化]**」リンクをクリックします。値のテーブルが自動的に入力されます。
 
    ![](assets/s_ncs_admin_survey_add_value.png)
 
-   Click **[!UICONTROL OK]** to close the editor, and **[!UICONTROL Save]** to save changes.
+   「**[!UICONTROL OK]**」をクリックしてエディターを閉じ、「**[!UICONTROL 保存]**」をクリックして変更を保存します。
 
    >[!NOTE]
    >
-   >For each field or question, you can adapt the page layout to suit your needs, thanks to the options in the **[!UICONTROL Advanced]** tab. 調査画面のレイアウトについて詳しくは、[この節](../../web/using/about-web-forms.md)を参照してください。
+   >各フィールドまたは質問では、「**[!UICONTROL 詳細設定]**」タブのオプションを使用して、ニーズに合わせてページレイアウトを適応できます。調査画面のレイアウトについて詳しくは、[この節](../../web/using/about-web-forms.md)を参照してください。
 
-   In the detail screen, click the **[!UICONTROL Preview]** tab to view the rendering of the survey you have just created.
+   詳細画面で、「**[!UICONTROL プレビュー]**」タブをクリックして、今作成した調査のレンダリングを表示します。
 
    ![](assets/s_ncs_admin_survey_preview.png)
 
@@ -127,14 +127,14 @@ In the following example, we are using a **[!UICONTROL Page (v5 compatibility)]*
 
 ![](assets/s_ncs_admin_survey_save_edit.png)
 
-Click **[!UICONTROL OK]** to confirm, then click **[!UICONTROL Save]** to save the survey
+「**[!UICONTROL OK]**」をクリックして確認し、「**[!UICONTROL 保存]**」をクリックして調査を保存します。
 
 ## 手順 6 - ページのパブリッシュ {#step-6---publishing-the-pages}
 
 ユーザーが HTML ページにアクセスできるようにするには、アプリケーションを使用可能にする必要があります。編集中の状態から本番にしなければなりません。調査を本番に移行するには、パブリッシュする必要があります。これには、以下の手順に従います。
 
-* Click the **[!UICONTROL Publish]** button located above the survey dashboard.
-* Click **[!UICONTROL Start]** to launch publication and close the wizard.
+* 調査ダッシュボードの上にある「**[!UICONTROL パブリッシュ]**」ボタンをクリックします。
+* 「**[!UICONTROL 開始]**」をクリックして、パブリッシュを開始し、ウィザードを閉じます。
 
    ![](assets/s_ncs_admin_survey_start_publ.png)
 

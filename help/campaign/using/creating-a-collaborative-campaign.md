@@ -14,7 +14,7 @@ discoiquuid: 01d8be92-7312-4386-b5f5-651af31308f7
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d30de91002862b664249c5a704b7c0f521dd30f2
 
 ---
@@ -26,33 +26,33 @@ source-git-commit: d30de91002862b664249c5a704b7c0f521dd30f2
 
 ## 協調キャンペーンの作成 {#creating-a-collaborative-campaign}
 
-コラボレーションキャンペーンを設定するには、ノードを **[!UICONTROL Campaign management > Campaigns]** クリックしてからアイコンをクリ **[!UICONTROL New]** ックします。
+協調キャンペーンを設定するには、**[!UICONTROL キャンペーン管理／キャンペーン]**&#x200B;ノードをクリックし、**[!UICONTROL 新規]**&#x200B;アイコンをクリックします。
 
 >[!NOTE]
 >
->Apart from **[!UICONTROL collaborative campaigns (by campaign)]**, these campaigns can be configured and executed via a web interface.
+>**[!UICONTROL 協調キャンペーン（キャンペーン）]**&#x200B;以外の協調キャンペーンは、Web インターフェイスから設定および実行できます。
 
 協調キャンペーンの設定プロセスは、ローカルキャンペーンのテンプレートの設定プロセスと類似しています。以下の節では、タイプごとに協調キャンペーンの作成について説明します。
 
 ### フォーム {#by-form}
 
-コラボレーションキャンペーンを作成するには（フォーム別に）、テンプレート **[!UICONTROL Collaborative campaign (by form)]** を選択する必要があります。
+協調キャンペーン（フォーム）を作成するには、**[!UICONTROL 協調キャンペーン（フォーム）]**&#x200B;テンプレートを選択します。
 
 ![](assets/mkg_dist_mutual_op_form2.png)
 
-In the **[!UICONTROL Edit]** tab, click the **[!UICONTROL Advanced campaign settings...]** link to access the **Distributed Marketing** tab.
+「**[!UICONTROL 編集]**」タブで、「**[!UICONTROL キャンペーンの詳細設定...]**」リンクをクリックして、「**分散型マーケティング**」タブにアクセスします。
 
-**フォーム** Web インターフェイスを選択します。フォームのインターフェイスでは、キャンペーンのオーダー時にローカルエンティティが使用するパーソナライゼーションフィールドを作成できます。詳しくは、「ロ [ーカルキャンペーンの作成（フォーム別）」を参照してくださ](../../campaign/using/examples.md#creating-a-local-campaign--by-form-)い。
+**フォーム** Web インターフェイスを選択します。フォームのインターフェイスでは、キャンペーンのオーダー時にローカルエンティティが使用するパーソナライゼーションフィールドを作成できます。[ローカルキャンペーン（フォーム）の作成](../../campaign/using/examples.md#creating-a-local-campaign--by-form-)を参照してください。
 
-キャンペーンを保存します。You can now use it from the **Campaign packages** view in the **Campaign** universe, by clicking the **[!UICONTROL Create]** button.
+キャンペーンを保存します。これにより、**キャンペーン**&#x200B;ウィンドウの&#x200B;**キャンペーンパッケージ**&#x200B;ビューで、このキャンペーンを使用できるようになります。使用するには、「**[!UICONTROL 作成]**」ボタンをクリックしてください。
 
-The **[!UICONTROL Campaign Package]** view allows you to use local campaign templates (out-of-the-box or duplicated), as well as reference campaigns for collaborative campaigns, with the aim of creating campaigns for your different organizational entities.
+**[!UICONTROL キャンペーンパッケージ]**&#x200B;ビューでは、ローカルキャンペーンのテンプレート（デフォルトまたは複製されたもの）を使用できるほか、協調キャンペーンの参照キャンペーンを使用して、他の組織エンティティも使用できるキャンペーンを作成できます。
 
 ![](assets/mkg_dist_mutual_op_form1b.png)
 
 ### キャンペーン {#by-campaign}
 
-共同キャンペーンを作成するには（キャンペーン別に）、テンプレートを選 **[!UICONTROL Collaborative campaign (by campaign) (opCollaborativeByCampaign)]** 択する必要があります。
+協調キャンペーン（キャンペーン）を作成するには、**[!UICONTROL 協調キャンペーン（キャンペーン）（opCollaborativeByCampaign）]**&#x200B;テンプレートを選択します。
 
 ![](assets/mkg_dist_mutual_op_by_op2.png)
 
@@ -66,13 +66,13 @@ The **[!UICONTROL Campaign Package]** view allows you to use local campaign temp
 
 ローカルエンティティは、子キャンペーンを実行します。セントラルエンティティは、親キャンペーンを実行します。
 
-The central entity can view all child campaigns linked with a **Collaborative campaign (by campaign)** from this dashboard (via the **[!UICONTROL List of associated campaigns]** link).
+セントラルエンティティは、このダッシュボードから&#x200B;**[!UICONTROL リンクされたキャンペーンのリスト]**&#x200B;リンクを使用して、**協調キャンペーン（キャンペーン）**&#x200B;にリンクされている子キャンペーンをすべて表示できます。
 
 ![](assets/mkg_dist_mutual_op_by_op.png)
 
 ### ターゲットの承認 {#by-target-approval}
 
-共同キャンペーンを作成するには（ターゲットの承認によって）、テンプレートを選 **[!UICONTROL Collaborative campaign (by target approval)]** 択する必要があります。
+協調キャンペーン（ターゲットの承認）を作成するには、**[!UICONTROL 協調キャンペーン（ターゲットの承認）]**&#x200B;テンプレートを選択します。
 
 ![](assets/mkg_dist_mutual_op_by_valid.png)
 
@@ -82,17 +82,17 @@ The central entity can view all child campaigns linked with a **Collaborative ca
 
 キャンペーンワークフローに、**ローカルの承認**&#x200B;タイプのアクティビティを組み込む必要があります。次のようなアクティビティパラメーターがあります。
 
-* **[!UICONTROL Action to perform]** : ターゲットの承認通知.
-* **[!UICONTROL Distribution context]** : 明示.
-* **[!UICONTROL Data distribution]** :ローカルエンティティの配分。
+* **[!UICONTROL 実行するアクション]**：ターゲットの承認通知。
+* **[!UICONTROL 配分のコンテキスト]**：手動で指定。
+* **[!UICONTROL データ配分]**：ローカルエンティティの配分。
 
-**ローカルエンティティ配分**&#x200B;タイプのデータ配分を作成する必要があります。データ配分テンプレートを使用すると、グループ値のリストから抽出されるレコードの数を制限できます。で、ア **[!UICONTROL Resources > Campaign management > Data distribution]**&#x200B;イコンをク **[!UICONTROL New]** リックして新しいを作成しま **[!UICONTROL Data distribution]**&#x200B;す。 データ配分について詳しくは、[ワークフロー](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-)ガイドを参照してください。
+**ローカルエンティティ配分**&#x200B;タイプのデータ配分を作成する必要があります。データ配分テンプレートを使用すると、グループ値のリストから抽出されるレコードの数を制限できます。**[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;で、「**[!UICONTROL 新規]**」アイコンをクリックして、新しい&#x200B;**[!UICONTROL データ配分]**&#x200B;を作成します。データ配分について詳しくは、[ワークフロー](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-)ガイドを参照してください。
 
 ![](assets/mkg_dist_data_distribution.png)
 
-Select the **Targeting dimension** and the **[!UICONTROL Distribution field]**. の場合は、「 **[!UICONTROL Assignment type]** Local entity」を **選択します**。
+**ターゲティングディメンション**&#x200B;と&#x200B;**[!UICONTROL 配分フィールド]**&#x200B;を選択します。「**[!UICONTROL 割り当てタイプ]**」で、「**ローカルエンティティ**」を選択します。
 
-In the **[!UICONTROL Distribution]** tab, add a field for each local entity and specify the value.
+「**[!UICONTROL 配分]**」タブで、各ローカルエンティティのフィールドを追加し、値を指定します。
 
 ![](assets/mkg_dist_data_distribution2.png)
 
@@ -108,7 +108,7 @@ In the **[!UICONTROL Distribution]** tab, add a field for each local entity and 
 
 ### シンプル {#simple}
 
-To create a simple collaborative campaign, the **[!UICONTROL Collaborative campaign (simple)]** template must be selected.
+協調キャンペーン（シンプル）を作成するには、**[!UICONTROL 協調キャンペーン（シンプル）]**&#x200B;テンプレートを選択します。
 
 ## 協調キャンペーンパッケージの作成 {#creating-a-collaborative-campaign-package}
 
@@ -116,9 +116,9 @@ To create a simple collaborative campaign, the **[!UICONTROL Collaborative campa
 
 次の手順に従います。
 
-1. In the **[!UICONTROL Navigation]** section on the **Campaigns** page, click the **[!UICONTROL Campaign packages]** link.
-1. ボタンをクリッ **[!UICONTROL Create]** クします。
-1. The section at the top of the window lets you select the **[!UICONTROL New collaborative package (mutualizedEmpty)]** template.
+1. **キャンペーン**&#x200B;ページの&#x200B;**[!UICONTROL ナビゲーション]**&#x200B;セクションで、「**[!UICONTROL キャンペーンパッケージ]**」リンクをクリックします。
+1. 「**[!UICONTROL 作成]**」ボタンをクリックします。
+1. ウィンドウ上部のセクションで、**[!UICONTROL 新しい協調パッケージ（mutualizedEmpty）]**&#x200B;テンプレートを選択します。
 1. 参照キャンペーンを選択します。
 1. キャンペーンパッケージのラベル、フォルダーおよび実行スケジュールを指定します。
 
@@ -130,7 +130,7 @@ To create a simple collaborative campaign, the **[!UICONTROL Collaborative campa
 
 >[!NOTE]
 >
->The **[!UICONTROL Personalization deadline]** allows the central entity to choose a deadline by which the local entities must have delivered the documents (spreadsheets, images) to be used to configure the campaign. これは必須オプションではありません。この日付を指定しなくても、キャンペーンの実装に影響はありません。
+>「**[!UICONTROL パーソナライゼーションの期限]**」では、キャンペーンの設定に使用するドキュメント（スプレッドシート、画像）の提出期限を指定できます。ローカルエンティティは、この期限までにドキュメントを提出する必要があります。これは必須オプションではありません。この日付を指定しなくても、キャンペーンの実装に影響はありません。
 
 ![](assets/s_advuser_mkg_dist_create_mutual_entry.png)
 
@@ -142,7 +142,7 @@ To create a simple collaborative campaign, the **[!UICONTROL Collaborative campa
 
 >[!CAUTION]
 >
->**[!UICONTROL Simple, by form and by campaign collaborative campaign kits]** 関連するローカルエンティティが指定されていない場合は、承認できません。
+>**[!UICONTROL シンプル、フォーム、キャンペーンの協調キャンペーンキット]**&#x200B;は、ローカルエンティティが指定されていない場合、承認できません。
 
 ### 承認モード {#approval-modes}
 
@@ -176,7 +176,7 @@ To create a simple collaborative campaign, the **[!UICONTROL Collaborative campa
 
 ![](assets/mkg_dist_mutual_op_valid_command.png)
 
-For more on this, refer to the [Approval process](../../campaign/using/creating-a-local-campaign.md#approval-process) section.
+詳しくは、[承認プロセス](../../campaign/using/creating-a-local-campaign.md#approval-process)の節を参照してください。
 
 ## オーダーの承認 {#approving-an-order}
 

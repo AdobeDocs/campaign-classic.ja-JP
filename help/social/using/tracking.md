@@ -14,7 +14,7 @@ discoiquuid: 1755ab4f-b655-48da-bf9a-426807bd85fd
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -22,17 +22,17 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # トラッキング{#tracking}
 
-Social Marketingは、FacebookおよびTwitterの配信の反応率を測定し、Facebookプロファイルの獲得を分析できるレポートを提供します。 次のレポートを使用できます。
+ソーシャルマーケティングは、Facebook および Twitter の配信の反応率を測定したり、Facebook のプロフィールの獲得を分析したりできるレポートを提供します。次のレポートを使用できます。
 
-* レポ **[!UICONTROL Reactivity rate]** ートは、FacebookまたはTwitter **[!UICONTROL Summary]** 配信のタブで使用できます。
+* **[!UICONTROL 反応率]**&#x200B;レポート（Facebook または Twitter 配信の「**[!UICONTROL 概要]**」タブから利用可能）。
 
    ![](assets/social_report_3.png)
 
-* レポ **[!UICONTROL Reactivity rate]** ートは、TwitterまたはFacebookサ **[!UICONTROL Dashboard]** ービスのタブで使用できます。
+* **[!UICONTROL 反応率]**&#x200B;レポート（Twitter または Facebook サービスの「**[!UICONTROL ダッシュボード]**」タブから利用可能）。
 
    ![](assets/social_report_2.png)
 
-* レポ **[!UICONTROL Fan acquisition]** ートは、Facebookサービスのタ **[!UICONTROL Dashboard]** ブから利用できます。
+* **[!UICONTROL ファン獲得]**&#x200B;レポート（Facebook サービスの「**[!UICONTROL ダッシュボード]**」タブから利用可能）。
 
    ![](assets/social_report_1.png)
 

@@ -14,7 +14,7 @@ discoiquuid: 010c88f4-9444-448f-bb7b-7191517d2e23
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ---
@@ -26,11 +26,11 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 オファーを作成するには、次の手順に従います。
 
-1. Go to the **[!UICONTROL Campaigns]** universe and click the **[!UICONTROL Offers]** link.
+1. **[!UICONTROL キャンペーン]**&#x200B;ウィンドウに移動し、「**[!UICONTROL オファー]**」リンクをクリックします。
 
    ![](assets/offer_create_001.png)
 
-1. ボタンをクリッ **[!UICONTROL Create]** クします。
+1. 「**[!UICONTROL 作成]**」ボタンをクリックします。
 
    ![](assets/offer_create_005.png)
 
@@ -38,7 +38,7 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
    ![](assets/offer_create_002.png)
 
-1. Click **[!UICONTROL Save]** to create the offer.
+1. 「**[!UICONTROL 保存]**」をクリックして、オファーを作成します。
 
    ![](assets/offer_create_003.png)
 
@@ -48,7 +48,7 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ## オファーの実施要件の設定 {#configuring-offer-eligibility}
 
-In the **[!UICONTROL Eligibility]** tab, define the period the offer will be valid for and can be presented, the filters to apply to the target and the offer weight.
+「**[!UICONTROL 実施要件]**」タブで、そのオファーが有効で提示可能である期間、ターゲットに適用するフィルター、オファーの重み付けを定義します。
 
 ### 実施期間の定義 {#defining-the-eligibility-period-of-an-offer}
 
@@ -62,11 +62,11 @@ In the **[!UICONTROL Eligibility]** tab, define the period the offer will be val
 
 オファーターゲットにはフィルターを適用できます。
 
-To do this, click the **[!UICONTROL Edit query]** link and select the filter you want to apply. （[この節](../../platform/using/steps-to-create-a-query.md#step-4---filter-data)を参照）。
+フィルターを適用するには、「**[!UICONTROL クエリを編集]**」リンクをクリックし、適用するフィルターを選択します（[この節](../../platform/using/steps-to-create-a-query.md#step-4---filter-data)を参照）。
 
 ![](assets/offer_eligibility_create_003.png)
 
-定義済みフィルターが既にある場合は、ユーザーフィルターのリストから選択できます。For more on this, refer to [Creating predefined filters](../../interaction/using/creating-predefined-filters.md).
+定義済みフィルターが既にある場合は、ユーザーフィルターのリストから選択できます。詳しくは、[定義済みフィルターの作成](../../interaction/using/creating-predefined-filters.md)を参照してください。
 
 ![](assets/offer_eligibility_create_004.png)
 
@@ -80,11 +80,11 @@ To do this, click the **[!UICONTROL Edit query]** link and select the filter you
 
 >[!NOTE]
 >
->オファーに割り当てた重み付けの値を、そのオファーが属するカテゴリのパラメーターに従って一時的に修正させることもできます。For more on this, refer to [Creating offer categories](../../interaction/using/creating-offer-categories.md).
+>オファーに割り当てた重み付けの値を、そのオファーが属するカテゴリのパラメーターに従って一時的に修正させることもできます。詳しくは、[オファーカテゴリの作成](../../interaction/using/creating-offer-categories.md)を参照してください。
 
 オファーの重み付けを作成するには、次の手順に従います。
 
-1. クリック **[!UICONTROL Add]**.
+1. 「**[!UICONTROL 追加]**」をクリックします。
 
    ![](assets/offer_weight_create_001.png)
 
@@ -120,22 +120,22 @@ To do this, click the **[!UICONTROL Edit query]** link and select the filter you
 
 設定が完了すると、実施要件ルールの概要をオファーダッシュボードで利用できるようになります。
 
-表示するには、リンクをクリック **[!UICONTROL Schedule and eligibility rules]** します。
+概要を表示するには、「**[!UICONTROL スケジュールおよび実施要件ルール]**」リンクをクリックします。
 
 ![](assets/offer_eligibility_create_005.png)
 
 ## オファーコンテンツの作成 {#creating-the-offer-content}
 
-1. Click the **[!UICONTROL Edit]** tab, then click the **[!UICONTROL Content]** tab.
+1. 「**[!UICONTROL 編集]**」タブをクリックし、「**[!UICONTROL コンテンツ]**」タブをクリックします。
 
    ![](assets/offer_content_create_001.png)
 
 1. オファーコンテンツの各種フィールドに値を入力します。
 
-   * **[!UICONTROL Title]** :オファーに表示するタイトルを指定します。 Warning: this is not referring to the offer&#39;s label, which is defined in the **[!UICONTROL General]** tab.
-   * **[!UICONTROL Destination URL]** :オファーのURLを指定します。 正しく処理されるようにするには、「http://」または「https://」で始める必要があります。
-   * **[!UICONTROL Image URL]** :オファーの画像へのURLまたはアクセスパスを指定します。
-   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** :希望するタブにオファーの本文を入力します。 To generate tracking, the **[!UICONTROL HTML content]** must be composed of HTML elements that can be enclosed in a `<div>` type element. For example, the result of a `<table>` element in the HTML page will be as followed:
+   * **[!UICONTROL タイトル]**：オファーに表示させるタイトルを指定します。警告：これは、「**[!UICONTROL 一般]**」タブで定義されるオファーのラベルとは異なります。
+   * **[!UICONTROL 宛先 URL]**：オファーの URL を指定します。正しく処理されるようにするには、「http://」または「https://」で始める必要があります。
+   * **[!UICONTROL 画像 URL]**：オファーの画像を示す URL またはアクセスパスを指定します。
+   * **[!UICONTROL HTML コンテンツ]**／**[!UICONTROL テキストコンテンツ]**：オファーの本文を、目的のタブに入力します。トラッキングを生成するには、**[!UICONTROL HTML コンテンツ]**&#x200B;が、`<div>` タイプの要素に含めることができる HTML 要素で構成されている必要があります。例えば、HTML ページ内の `<table>` 要素の結果は次のようになります。
 
    ```
       <div> 
@@ -152,11 +152,11 @@ To do this, click the **[!UICONTROL Edit query]** link and select the filter you
       </div>
    ```
 
-   承認URLの定義は、「提案が受け入れられたと [きのステータスの設定」の節に記載されています](../../interaction/using/creating-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted) 。
+   承認 URL の定義について詳しくは、[提案承認時のステータス設定](../../interaction/using/creating-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted)の節で説明しています。
 
    ![](assets/offer_content_create_002.png)
 
-   To find the required fields as they were defined during offer space configuration, click the **[!UICONTROL Content definitions]** link to display the list. For more on this, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
+   オファースペースの設定時に定義された必須フィールドを確認するには、「**[!UICONTROL コンテンツ定義]**」リンクをクリックします。詳しくは、[オファースペースの作成](../../interaction/using/creating-offer-spaces.md)を参照してください。
 
    ![](assets/offer_content_create_003.png)
 
@@ -166,7 +166,7 @@ To do this, click the **[!UICONTROL Edit query]** link and select the filter you
 
 コンテンツの設定が完了すると、そのオファーが受信者にどのように表示されるかをプレビューできるようになります。手順は次のとおりです。
 
-1. タブをクリック **[!UICONTROL Preview]** します。
+1. 「**[!UICONTROL プレビュー]**」タブをクリックします。
 
    ![](assets/offer_preview_create_001.png)
 
@@ -186,7 +186,7 @@ To do this, click the **[!UICONTROL Edit query]** link and select the filter you
 >
 >仮説は Response Manager を使用して実行されます。使用許諾契約書を確認してください。
 
-Hypotheses carried out on an offer proposition are referenced in their **[!UICONTROL Measure]** tab.
+オファーの提案に対して実行された仮説は、「**[!UICONTROL 測定]**」タブで参照できます。
 
 仮説の作成について詳しくは、[このページ](../../campaign/using/about-response-manager.md)を参照してください。
 

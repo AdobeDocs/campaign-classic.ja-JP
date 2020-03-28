@@ -14,7 +14,7 @@ discoiquuid: a9fad813-3256-4a00-ba74-7dbaba9e8e23
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -22,21 +22,21 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # オファーカテゴリの作成{#creating-offer-categories}
 
-The creation of offer categories can only take place in the **[!UICONTROL Design]** environment. They are deployed automatically in the **[!UICONTROL Live]** environment (i.e. made available) when the created/modified offer(s) they contain are approved. By default, the **[!UICONTROL Design]** environment contains a category to receive all offers. サブカテゴリを作成すると、カタログオファーに階層を追加できます。
+オファーカテゴリの作成は、**[!UICONTROL デザイン]**&#x200B;環境でのみ実行できます。オファーカテゴリで作成／修正されたオファーが承認されると、オファーカテゴリは、自動的に&#x200B;**[!UICONTROL ライブ]**&#x200B;環境にデプロイされます（つまり、利用できるようになります）。デフォルトでは、**[!UICONTROL デザイン]**&#x200B;環境には、すべてのオファーを受け取るカテゴリが含まれています。サブカテゴリを作成すると、カタログオファーに階層を追加できます。
 
 各カテゴリには実施日を定義できます（この日付を過ぎると、カテゴリに含まれるオファーはターゲットに提示されなくなります）。特定のカテゴリのオファーがオファーエンジンによって優先的に選択されるようにする（例えば、商品の露出度を高める）には、一定期間、カテゴリに乗数の重み付けを追加して重み付けを増加できます。
 
 追加のカテゴリを作成するには、次の手順に従います。
 
-1. フォルダに移動 **[!UICONTROL Offer catalog]** します。
+1. **[!UICONTROL オファーカタログ]**&#x200B;フォルダーに移動します。
 
    ![](assets/offer_cat_create_001.png)
 
-1. 右クリックし、ドロッ **[!UICONTROL Create a new "Offer category" folder]** プダウンリストから選択します。
+1. 右クリックし、ドロップダウンリストから「**[!UICONTROL 新しい「オファーカテゴリ」フォルダーを作成]**」を選択します。
 
    ![](assets/offer_cat_create_002.png)
 
-1. カテゴリの名前を変更します。You can edit the label later using the **[!UICONTROL General]** tab.
+1. カテゴリの名前を変更します。「**[!UICONTROL 一般]**」タブを使用して、後でラベルを編集することもできます。
 
    ![](assets/offer_cat_create_003.png)
 
@@ -46,11 +46,11 @@ The creation of offer categories can only take place in the **[!UICONTROL Design
 
    その後、必要に応じて次の操作を実行します。
 
-   * assign eligibility dates from the **[!UICONTROL Eligibility]** tab.
+   * 「**[!UICONTROL 実施要件]**」タブで、実施日を割り当てます。
 
       ![](assets/offer_cat_create_004.png)
 
-   * enter key words that may be used to select offers from within this category, using the **[!UICONTROL Themes]** field.
+   * 「**[!UICONTROL テーマ]**」フィールドで、このカテゴリからオファーを選択するのに使用できるキーワードを入力します。
 
       ![](assets/offer_cat_create_005.png)
 
@@ -58,11 +58,11 @@ The creation of offer categories can only take place in the **[!UICONTROL Design
       >
       >オファーエンジンの呼び出し時には、テーマやカテゴリがパラメーターに合致したカタログの一部分のみが選択されます。
 
-   * You can temporarily &quot;boost&quot; the offer weight of a category for a given period via the **[!UICONTROL Multiplier weight]** field.
+   * 「**[!UICONTROL 乗数の重み付け]**」フィールドを使用して、一定期間、カテゴリのオファーの重み付けを一時的に「増加」させます。
 
       ![](assets/offer_cat_create_006.png)
 
-カテゴリに含まれるオファーのダッシュボードでは、実施要件ルールの概要を確認できます。リンクをクリックすると、リンクが表示さ **[!UICONTROL Schedule and eligibility rules of the offer]** れます。
+カテゴリに含まれるオファーのダッシュボードでは、実施要件ルールの概要を確認できます。表示するには、オファーの「**[!UICONTROL スケジュールおよび実施要件ルール]**」リンクをクリックします。
 
 ![](assets/offer_create_006.png)
 

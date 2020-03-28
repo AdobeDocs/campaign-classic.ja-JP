@@ -14,7 +14,7 @@ discoiquuid: 3e593527-5580-44ea-93dc-9084d862537e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 ---
@@ -159,7 +159,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
   </tr> 
   <tr> 
    <td> トラッキング指標（operationFeedback）<br /> </td> 
-   <td> 主要追跡インジケーターの概要：開封数、クリック数およびトランザクション数はキャンペーンに依存します。<br /> </td> 
+   <td> 重要なトラッキング指標の概要 : 開封数、クリック数、トランザクション数（Campaign に依存）。<br /> </td> 
   </tr> 
   <tr> 
    <td> ソーシャルネットワークへの共有（operationForward）<br /> </td> 
@@ -246,7 +246,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
   </tr> 
   <tr> 
    <td> 予算の累積変化（budgetCumulativeEvolution）<br /> </td> 
-   <td> Evolution of the cumulated budget costs broken down by commi<br /> tment level. </td> 
+   <td> コミットメントレベルで分類した累積予算コストの変化。<br /> </td> 
    <td> nms:budget<br /> </td> 
   </tr> 
   <tr> 

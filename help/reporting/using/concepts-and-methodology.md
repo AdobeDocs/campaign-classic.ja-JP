@@ -14,7 +14,7 @@ discoiquuid: 4655ad65-7eba-44d5-b3f9-f4b8f44d9d5c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 62b2f1f6cfcaadd10880d428b8b94d73d2addcdb
 
 ---
@@ -28,9 +28,9 @@ source-git-commit: 62b2f1f6cfcaadd10880d428b8b94d73d2addcdb
 
 概して、使用可能なビニングは、次の 3 タイプです。
 
-1. 定義された値範囲を手動で使用する。例えば、年齢、平均的なショッピングカート、開封された配信の数などです。詳しくは、各ビンの定義を参照 [してください](#defining-each-bin)。
-1. 列挙の値に応じて動的に管理する。列挙に含まれている値のみ表示し、その他のすべての値は「その他」にまとめられます。詳しくは、ビンの動的な管理を参 [照してください](#dynamically-managing-bins)。
-1. 値の範囲を使用し、その他はすべて 1 つにグループ化する。例えば、18～25 歳、26～59 歳、その他などです。For more on this, refer to [Creating value ranges](#creating-value-ranges).
+1. 定義された値範囲を手動で使用する。例えば、年齢、平均的なショッピングカート、開封された配信の数などです。詳しくは、[各 bin の定義](#defining-each-bin)を参照してください。
+1. 列挙の値に応じて動的に管理する。列挙に含まれている値のみ表示し、その他のすべての値は「その他」にまとめられます。詳しくは、[bin の動的管理](#dynamically-managing-bins)を参照してください。
+1. 値の範囲を使用し、その他はすべて 1 つにグループ化する。例えば、18～25 歳、26～59 歳、その他などです。詳しくは、[値範囲の作成](#creating-value-ranges)を参照してください。
 
 ビニングを有効にするには、ディメンションの作成時に適切なボックスにチェックを入れます。
 
@@ -42,19 +42,19 @@ Adobe Campaign には自動ビニングのアシスタントも用意されて�
 
 ### 各 bin の定義 {#defining-each-bin}
 
-To create each bin individually, select the **[!UICONTROL Define each bin]** option and use the table to create the various bins.
+各 bin を個別に作成するには、「**[!UICONTROL 各 bin を定義]**」オプションを選択し、テーブルを使用して様々な bin を作成します。
 
 ![](assets/s_advuser_cube_class_01.png)
 
-Click the **[!UICONTROL Add]** button to create a new bin and list the values which will be grouped into the bin.
+「**[!UICONTROL 追加]**」ボタンをクリックすると、新しい bin を作成でき、その bin にグループ化される値を一覧表示できます。
 
 ![](assets/s_advuser_cube_class_02.png)
 
-次の例では、言語が3つのカテゴリにグループ化されています。英語/ドイツ語/オランダ語、フランス語/イタリア語/スペイン語、その他。
+次の例では、言語が 3 つのカテゴリ（英語／ドイツ語／オランダ語、フランス語／イタリア語／スペイン語、その他）にグループ化されています。
 
 ![](assets/s_advuser_cube_class_03.png)
 
-SQL マスクを使用して、複数の値を組み合わせてフィルターにすることができます。これを行うには、列を **[!UICONTROL Yes]** チェックイ **[!UICONTROL Use an SQL mask]** ンし、列に適用するSQLフィルタを入力し **[!UICONTROL Value or expression]** ます。
+SQL マスクを使用して、複数の値を組み合わせてフィルターにすることができます。それには、「**[!UICONTROL SQL マスクを使用]**」列で「**[!UICONTROL はい]**」にチェックを入れ、適用する SQL フィルターを「**[!UICONTROL 値または式]**」列に入力します。
 
 下図の例では、**yahoo** で始まる E メールドメイン（yahoo.fr、yahoo.com、yahoo.be など）や、**ymail** で始まる E メールドメイン（ymail.com、ymail.eu など）および **rocketmail.com** ドメインのアドレスはすべて、**YAHOO!** というラベルでグループ化されます。
 
@@ -67,7 +67,7 @@ SQL マスクを使用して、複数の値を組み合わせてフィルター�
 このタイプの値ビニング例を作成するには、次の手順に従います。
 
 1. 新しいディメンションを作成し、ビニングを有効にします。
-1. オプションを **[!UICONTROL Dynamically link the values to an enumeration]** 選択し、一致する列挙を選択します。
+1. 「**[!UICONTROL 値を列挙に動的にリンク]**」オプションを選択し、対応する列挙を選択します。
 
    ![](assets/s_advuser_cube_class_04.png)
 
@@ -77,15 +77,15 @@ SQL マスクを使用して、複数の値を組み合わせてフィルター�
 
 所定の区間に基づいて、値を範囲にグループ化できます。
 
-範囲を手動で定義するには、ボタンをクリ **[!UICONTROL Add]** ックし、次を選択しま **[!UICONTROL Define a range]** す。
+範囲を手動で定義するには、「**[!UICONTROL 追加]**」ボタンをクリックし、「**[!UICONTROL 範囲を定義]**」を選択します。
 
 ![](assets/s_advuser_cube_class_05.png)
 
-次に、上限と下限を指定し、「**[!UICONTROL Ok]**」をクリックして確定します。
+次に、上限と下限を指定し、「**[!UICONTROL OK]**」をクリックして確定します。
 
 ### bin の自動生成 {#generating-bins-automatically}
 
-bin を自動的に生成することもできます。これを行うには、リンクをクリック **[!UICONTROL Generate bins...]** します。
+bin を自動的に生成することもできます。それには、「**[!UICONTROL bin を生成]**」リンクをクリックします。
 
 ![](assets/s_advuser_cube_class_06.png)
 
@@ -113,7 +113,7 @@ bin を自動的に生成することもできます。これを行うには、�
 
 ![](assets/nmx_enum_domain.png)
 
-To create a report using this enumeration, create a Cube using the **[!UICONTROL Email domain]** dimension. 次に、このオプション **[!UICONTROL Enable binning]** を選択しま **[!UICONTROL Dynamically link the values to an enumeration]**&#x200B;す。 次に、先ほど示した&#x200B;**ドメイン**&#x200B;列挙を選択します。エイリアスが指定されていない値はすべて、**その他**&#x200B;というラベルでグループ化し直されます。
+この列挙を使用してレポートを作成するには、**[!UICONTROL E メールドメイン]**&#x200B;ディメンションを使用してキューブを作成します。「**[!UICONTROL ビニングを有効にする]**」オプションを選択してから、「**[!UICONTROL 値を列挙に動的にリンク]**」を選択します。次に、先ほど示した&#x200B;**ドメイン**&#x200B;列挙を選択します。エイリアスが指定されていない値はすべて、**その他**&#x200B;というラベルでグループ化し直されます。
 
 ![](assets/nmx_add_dimension.png)
 
@@ -123,7 +123,7 @@ To create a report using this enumeration, create a Cube using the **[!UICONTROL
 
 ![](assets/nmx_add_alias.png)
 
-The **[!UICONTROL Domains]** enumeration is used to generate built-in reports that display the list of domains. これらのレポートの内容を調整するには、このリストを編集します。
+**[!UICONTROL ドメイン]**&#x200B;列挙は、ドメインのリストを表示する組み込みレポートの生成に使用されています。これらのレポートの内容を調整するには、このリストを編集します。
 
 ビニング用に確保される他の列挙を作成し、それらを他のキューブで使用できます。最初の列挙タブで指定された bin に、すべてのエイリアス値がグループ化し直されます。
 
@@ -143,7 +143,7 @@ The **[!UICONTROL Domains]** enumeration is used to generate built-in reports th
 
 新しい集計を作成するには、次の手順に従います。
 
-1. Click the **[!UICONTROL Aggregates]** tab of the cube, then click the **[!UICONTROL Add]** button.
+1. キューブの「**[!UICONTROL 集計]**」タブをクリックした後、「**[!UICONTROL 追加]**」ボタンをクリックします。
 
    ![](assets/s_advuser_cube_agregate_02.png)
 
@@ -152,12 +152,12 @@ The **[!UICONTROL Domains]** enumeration is used to generate built-in reports th
    ![](assets/s_advuser_cube_agregate_03.png)
 
 1. ディメンションとレベルを選択します。ディメンションおよびレベルごとに、この手順を繰り返します。
-1. Click the **[!UICONTROL Workflow]** tab to create the aggregation workflow.
+1. 「**[!UICONTROL ワークフロー]**」タブをクリックして、集計ワークフローを作成します。
 
    ![](assets/s_advuser_cube_agregate_04.png)
 
-   * The **[!UICONTROL Scheduler]** activity lets you define the frequency of calculation updates. スケジューラーについて詳しくは、[この節](../../workflow/using/scheduler.md)を参照してください。
-   * The **[!UICONTROL Aggregate update]** activity lets you select the update mode which you want to apply: full or partial.
+   * **[!UICONTROL スケジューラー]**&#x200B;アクティビティでは、計算の更新の頻度を定義できます。スケジューラーについて詳しくは、[この節](../../workflow/using/scheduler.md)を参照してください。
+   * **[!UICONTROL 集計の更新]**&#x200B;アクティビティでは、適用する更新モード（完全更新または部分的更新）を選択できます。
 
       デフォルトでは、各計算時に完全更新が実行されます。部分的更新を有効にするには、該当するオプションを選択し、更新の条件を定義します。
 
@@ -165,39 +165,39 @@ The **[!UICONTROL Domains]** enumeration is used to generate built-in reports th
 
 ## 測定の定義 {#defining-measures}
 
-The types of measures are defined in the **[!UICONTROL Measures]** tab of the cube. 合計、平均、偏差などを計算できます。
+測定のタイプは、キューブの「**[!UICONTROL 測定]**」タブで定義します。合計、平均、偏差などを計算できます。
 
 測定を必要な数だけ作成できます。その後、テーブルに表示または非表示にする測定を選択します。詳しくは、[測定の表示](#displaying-measures)を参照してください。
 
 新しい測定を定義するには、次の手順に従います。
 
-1. Click the **[!UICONTROL Add]** button above the list of measures and select the type of measure and the formula to be calculated.
+1. 測定のリストの上にある「**[!UICONTROL 追加]**」ボタンをクリックし、測定のタイプと計算する式を選択します。
 
    ![](assets/s_advuser_cube_create_a_measure.png)
 
 1. 必要に応じて、および演算子によっては、演算に関係する式を選択します。
 
-   The **[!UICONTROL Advanced selection]** button lets you create complex calculation formulas. 詳しくは、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。
+   「**[!UICONTROL 詳細選択]**」ボタンをクリックすると、複雑な計算式を作成できます。詳しくは、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。
 
    ![](assets/s_advuser_cube_create_a_measure_01.png)
 
-1. The **[!UICONTROL Filter the measure data...]** link lets you restrict the calculation field and only apply it to specific data in the database.
+1. 「**[!UICONTROL 測定データをフィルター]**」リンクをクリックすると、計算フィールドを制限し、データベース内の特定のデータにのみ適用できます。
 
    ![](assets/s_advuser_cube_create_a_measure_02.png)
 
-1. Enter the label of the measure and add a description, then click **[!UICONTROL Finish]** to create it.
+1. 測定のラベルを入力し、説明を追加した後、「**[!UICONTROL 完了]**」をクリックして測定を作成します。
 
 ## 測定の表示 {#displaying-measures}
 
 必要に応じて、テーブルでの測定の表示を設定できます。
 
-* the display sequence of measures (refer to [Display sequence](#display-sequence)),
-* the information to show/hide in the report (refer to [Configuring the display](#configuring-the-display))
-* 表示する指標割合、合計、小数点以下の桁数など (表示され [る測定のタイプの変更を参照](#changing-the-type-of-measure-displayed))。
+* 測定の表示順（[表示順](#display-sequence)を参照）
+* レポートに表示する／非表示にする情報（[表示の設定](#configuring-the-display)を参照）
+* 表示する測定：割合、合計、小数点以下の桁数など（[表示される測定のタイプの変更](#changing-the-type-of-measure-displayed)を参照）
 
 ### 表示順序 {#display-sequence}
 
-The measures calculated in the cube are configured via the **[!UICONTROL Measures]** button.
+キューブ内の計算済みの測定を、「**[!UICONTROL 測定]**」ボタンを通じて設定します。
 
 行を前後に移動して、表示順序を変更します。次の例では、フランス語のデータをリストの末尾に移動しています。つまり、最後の列に表示されるようになります。
 
@@ -207,7 +207,7 @@ The measures calculated in the cube are configured via the **[!UICONTROL Measure
 
 測定、行および列の設定は、測定ごとに個別に実行することも、全部まとめて実行することもできます。特定のアイコンをクリックすると、表示モード選択ウィンドウにアクセスできます。
 
-* アイコンをクリ **[!UICONTROL Edit the configuration of the pivot table]** ックして、設定ウィンドウにアクセスします。
+* 「**[!UICONTROL ピボットテーブルの設定を編集]**」アイコンをクリックして、設定ウィンドウにアクセスします。
 
    測定のラベルを表示するかどうかを選択できるほか、ラベルのレイアウト（行または列）を設定できます。
 
@@ -227,7 +227,7 @@ The measures calculated in the cube are configured via the **[!UICONTROL Measure
 
 レポートを設定したら、それを保存して他のオペレーターと共有できます。
 
-To do this, click the **[!UICONTROL Show the report properties]** icon and enable the **[!UICONTROL Share this report]** option.
+それには、「**[!UICONTROL レポートのプロパティを表示]**」アイコンをクリックし、「**[!UICONTROL レポートを共有]**」オプションを有効にします。
 
 ![](assets/cube_share_option.png)
 
@@ -243,7 +243,7 @@ To do this, click the **[!UICONTROL Show the report properties]** icon and enabl
 
 手順は次のとおりです。
 
-1. アイコンをクリッ **[!UICONTROL Add a filter]** クします。
+1. 「**[!UICONTROL フィルターを追加]**」アイコンをクリックします。
 
    ![](assets/neolap_add_filter.png)
 
@@ -269,7 +269,7 @@ To do this, click the **[!UICONTROL Show the report properties]** icon and enabl
 
 フィルターを変更（追加、削除、編集）するたびに、レポートを再計算する必要があります。
 
-選択した項目に基づいてフィルターを作成することもできます。To do this, select your source cells, lines and columns, then click the **[!UICONTROL Add a filter]** icon.
+選択した項目に基づいてフィルターを作成することもできます。それには、ソースとなるセル、行および列を選択した後、「**[!UICONTROL フィルターを追加]**」アイコンをクリックします。
 
 行、列またはセルを選択するには、それを左クリックします。選択を解除するには、もう一度クリックします。
 

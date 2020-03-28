@@ -14,7 +14,7 @@ discoiquuid: 7b1c58a0-6fd6-4c9d-b1c4-f3dffda42523
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ---
@@ -42,11 +42,11 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 オファーコンテンツを承認するには、次の手順に従います。
 
-1. ボタンをクリック **[!UICONTROL Approval]** し、ポップアップで **[!UICONTROL Approve content]** 選択します。
+1. 「**[!UICONTROL 承認]**」ボタンをクリックし、ポップアップから&#x200B;**[!UICONTROL コンテンツを承認]**&#x200B;を選択します。
 
    ![](assets/offer_validate_002.png)
 
-1. Using the drop-down list, select the representations you want to keep editing or those you want to publish to the live environment, then click **[!UICONTROL Content approval]**.
+1. ドロップダウンリストを使用して、編集を続行する表示域を選択するか、ライブ環境にパブリッシュする表示域を選択して「**[!UICONTROL コンテンツの承認]**」をクリックします。
 
    ![](assets/offer_validate_003.png)
 
@@ -56,7 +56,7 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Content approved]** mention does not mean that all the offer representations have been enabled and approved. すべてのオファーが有効になり承認されているかどうかに関わらず、コンテンツの承認プロセスが達成されたことを示しています。
+   >**[!UICONTROL 承認コンテンツ]**&#x200B;という表示は、すべてのオファー表示域が有効で承認済みであることを意味しません。すべてのオファーが有効になり承認されているかどうかに関わらず、コンテンツの承認プロセスが達成されたことを示しています。
 
 ## オファーの実施要件の承認 {#approving-offer-eligibility}
 
@@ -66,11 +66,11 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 >
 >オファーのコンテンツおよび実施要件が承認されると、パブリッシュワークフロー（オファー通知）が自動的に実行されてオファーがライブ環境に移行し、すべての有効化されたスペース上で利用できるようになります。
 
-* ルールの完全なリストは、をクリックすると表示できま **[!UICONTROL Schedule and eligibility rules]**&#x200B;す。
+* 「**[!UICONTROL スケジュールおよび実施要件ルール]**」をクリックすると、すべてのルールを記載したリストが表示されます。
 
    ![](assets/offer_validate_005.png)
 
-* 適格性ルールを変更するには、をクリックし、 **[!UICONTROL Reject]**&#x200B;をクリックしま **[!UICONTROL Eligibility approval]**&#x200B;す。
+* 実施要件ルールを変更するには、「**[!UICONTROL 却下]**」をクリックし、「**[!UICONTROL 実施要件の承認]**」をクリックします。
 
    ![](assets/offer_validate_007.png)
 
@@ -78,11 +78,11 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
    ![](assets/offer_validate_006.png)
 
-* To accept the offer eligibility, click **[!UICONTROL Approve eligibility]**.
+* オファーの実施要件を承認するには、「**[!UICONTROL 実施要件を承認]**」をクリックします。
 
    ![](assets/offer_validate_008.png)
 
-   Approve eligibility, add a comment if necessary, then click **[!UICONTROL Eligibility approval]**.
+   実施要件を承認し、必要に応じてコメントを追加してから、「**[!UICONTROL 実施要件の承認]**」をクリックします。
 
    ![](assets/offer_validate_009.png)
 
@@ -92,27 +92,27 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ## 承認トラッキング {#approval-tracking}
 
-オファーダッシュボードでは、承認をトラッキングできます。をクリック **[!UICONTROL Hide/display logs]** してアクセスします。
+オファーダッシュボードでは、承認をトラッキングできます。この機能にアクセスするには、「**[!UICONTROL ログを非表示 / 表示]**」をクリックします。
 
 ![](assets/offer_validate_012.png)
 
 >[!NOTE]
 >
->Tracking is also available in the **[!UICONTROL Audit]** tab of the offer, with details of reviewers&#39; comments.
+>トラッキングは、オファーの「**[!UICONTROL 監査]**」タブでも、レビュー担当者の詳細なコメント付きで利用できます。
 
 ## 承認の再開 {#restart-the-approval}
 
 承認が開始された後で、承認を再開できます。それには、次の手順に従います。
 
-1. オファーダ **[!UICONTROL Content approved]** ッシュボードのをクリックします。
-1. 表示される **[!UICONTROL Edit]** ウィンドウで、再起動する承認を選択し、をクリックしま **[!UICONTROL Re-initialize approval to submit it again]**&#x200B;す。
-1. Confirm by clicking **[!UICONTROL Ok]**.
+1. オファーダッシュボードの「**[!UICONTROL 承認コンテンツ]**」をクリックします。
+1. **[!UICONTROL 編集]**&#x200B;ウィンドウが表示されます。再開する承認処理を選択し、「**[!UICONTROL 承認を再初期化して再送信]**」をクリックします。
+1. 「**[!UICONTROL OK]**」をクリックして確定します。
 
 ![](assets/offer_validate_013.png)
 
 ## オファーのパブリッシュ {#publishing-the-offer}
 
-コンテンツと実施要件が両方とも承認されると、承認サイクルが完了した各オファーに対して自動実行されるワークフローによって、オファーがパブリッシュされます。The **[!UICONTROL Offer notification]** workflow also runs every hour in order to synchronize (if necessary) the spaces and categories contained in the offer catalog from the design environment to the live environment.
+コンテンツと実施要件が両方とも承認されると、承認サイクルが完了した各オファーに対して自動実行されるワークフローによって、オファーがパブリッシュされます。また、オファーカタログに含まれるスペースやカテゴリをデザイン環境からライブ環境に（必要に応じて）同期するために、**[!UICONTROL オファー通知]**&#x200B;ワークフローが 1 時間ごとに実行されます。
 
 デザイン環境で利用可能なオファーのダッシュボードには、ライブ環境の対応するオファーの名前など、パブリッシュに関する情報が含まれます。
 
@@ -126,9 +126,9 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 承認済みのオファーは無効化できます。
 
-To do this, go to the dashboard for an online offer or an offer waiting to go online, then click **[!UICONTROL Disable offer]**.
+それには、オンラインになっているオファーまたはオンライン待ちオファーのダッシュボードに移動し、「**[!UICONTROL オファーを無効にする]**」をクリックします。
 
-You can also directly disable a category by going to the **[!UICONTROL Eligibility]** tab and checking the **[!UICONTROL Enabled]** box.
+また、カテゴリの「**[!UICONTROL 実施要件]**」タブで「**[!UICONTROL 有効]**」ボックスをクリックして、直接カテゴリを無効にすることもできます。
 
 >[!NOTE]
 >

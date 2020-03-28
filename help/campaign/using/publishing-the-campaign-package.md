@@ -14,7 +14,7 @@ discoiquuid: 8653d4fc-e47f-451a-95f2-c9209a252664
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d30de91002862b664249c5a704b7c0f521dd30f2
 
 ---
@@ -22,17 +22,17 @@ source-git-commit: d30de91002862b664249c5a704b7c0f521dd30f2
 
 # パッケージのパブリッシュ{#publishing-the-campaign-package}
 
-Central entity operators publish campaigns they wish to offer to local entities in the **[!UICONTROL list of campaign packages]**.
+セントラルエンティティのオペレーターは、ローカルエンティティに提供するキャンペーンを&#x200B;**[!UICONTROL キャンペーンパッケージのリスト]**&#x200B;にパブリッシュします。
 
-キャンペーンパッケージのリストにパブリッシュできるのは、セントラルエンティティによって承認されたキャンペーンパッケージのみです。To do this, you can specify a reviewer or group of reviewers via the **[!UICONTROL Approval parameters]** link in the campaign package.
+キャンペーンパッケージのリストにパブリッシュできるのは、セントラルエンティティによって承認されたキャンペーンパッケージのみです。まずは、キャンペーンパッケージの「**[!UICONTROL 承認パラメーター]**」リンクからレビュー担当者またはレビュー担当者のグループを指定します。
 
 ## レビュー担当者の割り当て {#assigning-a-reviewer}
 
-To select the reviewer, click the **[!UICONTROL Approval parameters]** link from the campaign package and choose the relevant reviewer from the drop-down list.
+レビュー担当者を指定するには、キャンペーンパッケージの「**[!UICONTROL 承認パラメーター]**」リンクをクリックし、ドロップダウンリストからレビュー担当者を選択します。
 
 ![](assets/s_advuser_mkg_dist_define_valid.png)
 
-You may then begin the approval process by clicking **[!UICONTROL Submit for approval]**.
+「**[!UICONTROL パッケージを承認]**」をクリックして、承認プロセスを開始します。
 
 ![](assets/s_advuser_mkg_dist_valid_process.png)
 
@@ -42,11 +42,11 @@ You may then begin the approval process by clicking **[!UICONTROL Submit for app
 
 >[!NOTE]
 >
->組織エンティティのレベルで、オーダーを承認するレビュー担当者を指定することもできます。For more on this, refer to [Organizational entities](../../campaign/using/about-distributed-marketing.md#organizational-entities).
+>組織エンティティのレベルで、オーダーを承認するレビュー担当者を指定することもできます。詳しくは、[組織エンティティ](../../campaign/using/about-distributed-marketing.md#organizational-entities)を参照してください。
 
 ## 他のレビュー担当者の追加 {#adding-other-reviewers}
 
-You can add other reviewers from the **[!UICONTROL Edit...]** link, found in the campaign package&#39;s **[!UICONTROL Approval parameters...]** tab.
+キャンペーンパッケージの「**[!UICONTROL 承認パラメーター...]**」タブにある「**[!UICONTROL 編集...]**」リンクを使用すると、他のレビュー担当者を追加することができます。
 
 ![](assets/s_advuser_mkg_dist_select_op_valid.png)
 
@@ -54,18 +54,18 @@ You can add other reviewers from the **[!UICONTROL Edit...]** link, found in the
 
 デフォルトでは、レビュー担当者には登録日から 3 日間、承認を処理するための期間が与えられます。
 
-レビュー担当者を編集ウィンドウでリマインダーを設定すると、キャンペーンパッケージの承認が実行されていない場合に 1 つ以上のメッセージを送信することができます。これを行うには、リンクをクリッ **[!UICONTROL Add reminder]** クしてからボタンをクリック **[!UICONTROL Add]** します。
+レビュー担当者を編集ウィンドウでリマインダーを設定すると、キャンペーンパッケージの承認が実行されていない場合に 1 つ以上のメッセージを送信することができます。リマインダーを設定するには、「**[!UICONTROL リマインダーを追加]**」リンクをクリックして、「**[!UICONTROL 追加]**」ボタンをクリックします。
 
-リマインダーは、指定する日に送信するか、登録日の **x** 日後に送信することができます。リマインダーのタイプは、リマインダーのテーブルの最初の列で設定できます。In the example below, the reviewers will receive a reminder message on the on the 29/01/2014, i.e. two days before the date selected in the **[!UICONTROL Date]** column, and a second reminder one day before the end of the approval period, i.e. two days after the submission for approval date.
+リマインダーは、指定する日に送信するか、登録日の **x** 日後に送信することができます。リマインダーのタイプは、リマインダーのテーブルの最初の列で設定できます。以下の例では、レビュー担当者には 2014 年 1 月 29 日（**[!UICONTROL 日付]**&#x200B;列で選択されている日付の 2 日前）にリマインダーメッセージが送信されます。さらに、承認期間が終了する 1 日前（登録日の 2 日後）にも 2 回目のリマインダーが送信されます。
 
 ![](assets/s_advuser_mkg_dist_reminder_planning.png)
 
-Once it is defined and the package has been submitted for approval, the execution schedule is displayed in the **[!UICONTROL Audit]** tab. スケジュールには、現在の設定に基づいて算出された処理期限と設定されたすべてのリマインダーの日付が含まれます。
+承認の期間が定義され、パッケージの承認が申請されると、実行スケジュールが「**[!UICONTROL 監査]**」タブに表示されます。スケジュールには、現在の設定に基づいて算出された処理期限と設定されたすべてのリマインダーの日付が含まれます。
 
 ## Adobe Campaign コンソールを使用する承認 {#approving-via-the-adobe-campaign-console}
 
-If no reviewer has been specified or if none of the notified operators have approved the package, the **[!UICONTROL Approve the package]** button lets you proceed directly to the approval from the campaign package **[!UICONTROL Dashboard]** or from the packages overview.
+レビュー担当者が一人も指定されていないか、通知を受けたオペレーターが誰もパッケージを承認していない場合、「**[!UICONTROL パッケージを承認]**」ボタンを使用して、キャンペーンパッケージの&#x200B;**[!UICONTROL ダッシュボード]**&#x200B;またはパッケージの概要から直接、承認の段階に進むことができます。
 
 ![](assets/s_advuser_mkg_dist_valid_button.png)
 
-承認が完了すると、キャンペーンはパブリッシュされ、リストに追加されます。使用可能な日付になると、ローカルエンティティはキャンペーンを使用できます。キャンペーンの作成時にローカルエンティティが指定されている場合は、通知グループのオペレーターにメッセージが送信され、キャンペーンが使用可能であることが通知されます。事前に指定されているエンティティが存在しない場合は、デフォルトで、すべてのローカルエンティティにキャンペーンが提供されます。For more on this, refer to [Organizational entities](../../campaign/using/about-distributed-marketing.md#organizational-entities).
+承認が完了すると、キャンペーンはパブリッシュされ、リストに追加されます。使用可能な日付になると、ローカルエンティティはキャンペーンを使用できます。キャンペーンの作成時にローカルエンティティが指定されている場合は、通知グループのオペレーターにメッセージが送信され、キャンペーンが使用可能であることが通知されます。事前に指定されているエンティティが存在しない場合は、デフォルトで、すべてのローカルエンティティにキャンペーンが提供されます。詳しくは、[組織エンティティ](../../campaign/using/about-distributed-marketing.md#organizational-entities)を参照してください。

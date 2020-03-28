@@ -14,7 +14,7 @@ discoiquuid: 3bd113c3-da67-4f4f-aa40-f4c7860a8569
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
    ![](assets/offer_delivery_example_001.png)
 
-1. Edit the email delivery and click the **[!UICONTROL Offers]** icon.
+1. E メール配信を編集し、**[!UICONTROL オファー]**&#x200B;アイコンをクリックします。
 
    ![](assets/offer_delivery_example_002.png)
 
@@ -58,18 +58,18 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
    ![](assets/offer_delivery_example_008.png)
 
-1. Click **[!UICONTROL Preview]** to preview your offers in the delivery then select a recipient to preview the offers as they will receive them.
+1. 配信に含まれるオファーを確認するために、「**[!UICONTROL プレビュー]**」をクリックします。受信者を選択して、そのユーザーが受け取るオファーのプレビューを表示します。
 
    ![](assets/offer_delivery_example_009.png)
 
 1. 配信を保存し、ターゲティングワークフローを開始します。
-1. Open your delivery and click the **[!UICONTROL Audit]** tab of your delivery: you can see that the offer engine has selected the propositions to be made from the various offers in the catalog.
+1. 配信を開き、配信の「**[!UICONTROL 監査]**」タブをクリックします。カタログに格納されている様々なオファーの中からオファーエンジンによって選択された提案を確認できます。
 
    ![](assets/offer_delivery_example_010.png)
 
 ## オファーシミュレーションの実行 {#perform-an-offer-simulation}
 
-1. 宇宙で、 **[!UICONTROL Profiles and Targets]** リンクをクリック **[!UICONTROL Simulations]** し、ボタンをクリックし **[!UICONTROL Create]** ます。
+1. **[!UICONTROL プロファイルとターゲット]**&#x200B;ウィンドウで、「**[!UICONTROL シミュレーション]**」リンクをクリックし、「**[!UICONTROL 作成]**」ボタンをクリックします。
 
    ![](assets/offer_simulation_001.png)
 
@@ -81,7 +81,7 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
    ![](assets/offer_simulation_example_003.png)
 
-1. タブをクリ **[!UICONTROL Edit]** ックし、次に **[!UICONTROL Scope]**。
+1. 「**[!UICONTROL 編集]**」タブをクリックし、「**[!UICONTROL スコープ]**」をクリックします。
 
    ![](assets/offer_simulation_example_004.png)
 
@@ -110,21 +110,21 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
    ![](assets/offer_simulation_example_009.png)
 
-1. Save your settings, then click **[!UICONTROL Start]** in the **[!UICONTROL Dashboard]** tab to run the simulation.
+1. 設定を保存し、「**[!UICONTROL ダッシュボード]**」タブの「**[!UICONTROL 開始]**」をクリックしてシミュレーションを実行します。
 
    ![](assets/offer_simulation_example_010.png)
 
-1. Once the simulation is finished, consult the **[!UICONTROL Results]** for a detailed breakdown of propositions per offer.
+1. シミュレーションが完了したら、「**[!UICONTROL 結果]**」タブで、提案の詳しい分類をオファーごとに確認します。
 
    この例では、オファーエンジンによって 3 件の提案を基にした分類が表示されています。
 
    ![](assets/offer_simulation_example_011.png)
 
-1. オファーを表 **[!UICONTROL Breakdown of offers by rank]** 示して、オファーエンジンによって選択されたオファーのリストを表示します。
+1. 「**[!UICONTROL オファーの分類（ランク別）]**」を表示し、オファーエンジンによって選択されたオファーのリストを確認します。
 
    ![](assets/offer_simulation_example_012.png)
 
-1. If necessary, you can change the scope settings and run the simulation again by clicking **[!UICONTROL Start simulation]**.
+1. 必要な場合は、スコープ設定を変更し、「**[!UICONTROL シミュレーションを開始]**」をクリックしてシミュレーションを再実行できます。
 
    ![](assets/offer_simulation_example_010.png)
 

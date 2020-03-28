@@ -14,7 +14,7 @@ discoiquuid: 4452bfc6-9ac4-4d81-a63c-879a163c13ee
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ### 指標 {#indicators}
 
-仮説が計算されると、いくつかの測定指標が自動的に更新されます。These are available in the **[!UICONTROL General]** tab of the hypothesis.
+仮説が計算されると、いくつかの測定指標が自動的に更新されます。これらの指標は、仮説の「**[!UICONTROL 一般]**」タブで確認できます。
 
 ![](assets/response_hypothesis_delivery_example_010.png)
 
@@ -40,7 +40,7 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 * **コントロール母集団の反応率**：回答者コントロール母集団のコンタクト先の数÷配信コントロール母集団の総数。
 * **反応数**：個人、仮説およびトランザクションテーブル間の関係を含むテーブル内のレコード数。
 
-インジケーターの完全なリストを表示するには、次のリンクをクリック **[!UICONTROL Display the list]** します。
+すべての指標のリストについては、「**[!UICONTROL リストを表示]**」リンクをクリックします。
 
 ![](assets/response_hypothesis_indicators_002.png)
 
@@ -54,8 +54,8 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 * **コントロール母集団の合計利益**：合計利益÷コントロール母集団。
 * **コンタクト先ごとの平均利益**：合計利益÷コンタクト先。
 * **コントロール母集団の平均利益**：合計利益÷コントロール母集団。
-* **追加の売上高**:（連絡先の平均売上高 — 対照群の平均売上高）*連絡先の数
-* **追加利益**:（平均連絡利益率 — 対照群の平均利益率）/連絡数
+* **追加の売上高**：（コンタクト先の平均売上高 - コントロール母集団の平均売上高）x コンタクト先数
+* **追加のマージン**：（コンタクト先の平均利益 - コントロール母集団の平均利益）÷ コンタクト先数
 * **コンタクト先あたり平均コスト**：計算済み配信コスト÷コンタクト先数。
 * **ROI**：配信の計算されたコスト÷コンタクト先ごとの合計利益
 * **効果的な ROI**：計算済み配信コスト÷追加利益。
@@ -63,21 +63,21 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ### 反応 {#reactions}
 
-You can view recipients&#39; reactions to the hypotheses via the **[!UICONTROL Reactions]** tab.
+仮説に対する受信者の反応は、「**[!UICONTROL 反応]**」タブで確認できます。
 
-1. Once hypothesis calculation is complete, go to the **[!UICONTROL Campaign management > Measurement hypotheses]** node of the Adobe Campaign tree.
-1. Select the desired hypothesis and click the **[!UICONTROL Reactions]** tab to view the list of recipients likely to purchase something following the marketing campaign.
+1. 仮説の計算が完了したら、Adobe Campaign ツリーの&#x200B;**[!UICONTROL キャンペーン管理／測定の仮説]**&#x200B;ノードに移動します。
+1. 仮説を選択し、「**[!UICONTROL 反応]**」タブをクリックして、マーケティングキャンペーン後に何かを購入する可能性がある受信者のリストを確認します。
 
    ![](assets/response_hypothesis_reactions_001.png)
 
 ## レポート {#reports}
 
-The **[!UICONTROL Hypothesis report]** lets you view the results of the hypotheses performed on campaigns and deliveries. This report contains the indicators calculated by the hypothesis (for more on this, refer to [Indicators](#indicators)).
+「**[!UICONTROL 仮説レポート]**」では、キャンペーンおよび配信で実行した仮説の結果を確認できます。このレポートには、仮説によって計算された指標が含まれます（詳しくは、[指標](#indicators)を参照）。
 
-* **キャンペーンレベル**:関連するキ **[!UICONTROL Reports]** ャンペーンのリンクをクリックし、を選択しま **[!UICONTROL Hypothesis report]**&#x200B;す。 このレポートには、キャンペーン配信と、各配信に計算された仮説のリストが含まれます。
+* **キャンペーンレベルで確認する場合**：キャンペーンの「**[!UICONTROL レポート]**」リンクをクリックし、「**[!UICONTROL 仮説レポート]**」を選択します。このレポートには、キャンペーン配信と、各配信に計算された仮説のリストが含まれます。
 
    ![](assets/response_hypothesis_campaign_report_001.png)
 
-* **配信レベル**:レポートにアクセスするには、該当する配信を開き、タブのを **[!UICONTROL Reports]** クリック **[!UICONTROL Summary]** して、を選択しま **[!UICONTROL Hypothesis report]**&#x200B;す。 同一の配信に複数の仮説が計算された場合は、すべての仮説がレポートに表示されます。
+* **配信レベルで確認する場合**：レポートにアクセスするには、配信を開き、「**[!UICONTROL 概要]**」タブの「**[!UICONTROL レポート]**」をクリックし、「**[!UICONTROL 仮説レポート]**」を選択します。同一の配信に複数の仮説が計算された場合は、すべての仮説がレポートに表示されます。
 
    ![](assets/response_hypothesis_delivery_report_001.png)

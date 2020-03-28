@@ -14,7 +14,7 @@ discoiquuid: 0fae2149-0980-466d-ac9e-8afec2e278be
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ---
@@ -24,9 +24,9 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 オファースペースの作成を実行できるのは、オファースペースのサブフォルダーへのアクセス権を持つ&#x200B;**技術管理者**&#x200B;のみです。オファースペースは、デザイン環境にのみ作成でき、オファーの承認時にライブ環境に自動的に複製されます。
 
-カタログオファーのコンテンツは、オファースペースで設定します。By default, the content can include the following fields: **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** and **[!UICONTROL Text content]**. フィールドの順序は、オファースペースで設定します。
+カタログオファーのコンテンツは、オファースペースで設定します。デフォルトでは、コンテンツに含めることができるフィールドは、**[!UICONTROL タイトル]**、**[!UICONTROL 宛先 URL]**、**[!UICONTROL 画像 URL]**、**[!UICONTROL HTML コンテンツ]**&#x200B;および&#x200B;**[!UICONTROL テキストコンテンツ]**&#x200B;です。フィールドの順序は、オファースペースで設定します。
 
-詳細設定パラメーターでは、コンタクト先の識別キーを指定できます（識別キーは、名前や E メールフィールドなど、様々な要素を同時に使用して作成できます）。詳しくは、「特定されたオファーの提示」の節 [を参照してください](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer) 。
+詳細設定パラメーターでは、コンタクト先の識別キーを指定できます（識別キーは、名前や E メールフィールドなど、様々な要素を同時に使用して作成できます）。詳しくは、[識別されたオファーの提示](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer)の節を参照してください。
 
 レンダリング関数を使用して、HTML レンダリングまたは XML レンダリングが作成されます。レンダリング関数で定義するフィールドの順序は、コンテンツに設定した順序と同じである必要があります。
 
@@ -34,7 +34,7 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 新しいオファースペースを作成するには、次の手順に従います。
 
-1. Go to the list of offer spaces and click **[!UICONTROL New]**.
+1. オファースペースのリストに移動して、「**[!UICONTROL 新規]**」をクリックします。
 
    ![](assets/offer_space_create_001.png)
 
@@ -42,20 +42,20 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
    ![](assets/offer_space_create_002.png)
 
-1. Check the **[!UICONTROL Enable unitary mode]** box if one of the following cases applies to you:
+1. 次のいずれかに該当する場合は、「**[!UICONTROL 単一モードを有効にする]**」ボックスをオンにします。
 
    * インタラクションを Message Center と組み合わせて使用する場合
    * インタラクションの単一モードを使用する場合（インバウンドインタラクション）
 
-1. ウィンドウに移動し、 **[!UICONTROL Content field]** をクリックしま **[!UICONTROL Add]**&#x200B;す。
+1. **[!UICONTROL コンテンツフィールド]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックします。
 
    ![](assets/offer_space_create_003.png)
 
-1. ノードに移動 **[!UICONTROL Content]** し、次の順序でフィールドを選択します。そ **[!UICONTROL Title]**&#x200B;れ **[!UICONTROL Image URL]**&#x200B;から **[!UICONTROL HTML content]**、それ **[!UICONTROL Destination URL]**&#x200B;で
+1. **[!UICONTROL コンテンツ]**&#x200B;ノードに移動して、フィールドを「**[!UICONTROL タイトル]**」、「**[!UICONTROL 画像 URL]**」、「**[!UICONTROL HTML コンテンツ]**」、「**[!UICONTROL 宛先 URL]**」の順に選択します。
 
    ![](assets/offer_space_create_004.png)
 
-1. Check the **[!UICONTROL Required]** box to make each field mandatory.
+1. 各フィールドの「**[!UICONTROL 必須]**」ボックスをオンにして、必須フィールドにします。
 
    >[!NOTE]
    >
@@ -63,18 +63,18 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
    ![](assets/offer_space_create_005.png)
 
-1. をクリック **[!UICONTROL Edit functions]** して、レンダリング関数を作成します。
+1. 「**[!UICONTROL 関数を編集]**」をクリックし、レンダリング関数を作成します。
 
-   これは、オファースペース上にオファー表示域を生成するために使用される関数です。使用可能な形式はいくつかあります。アウトバウンドインタラクションのHTMLまたはテキスト、インバウンドインタラクションのXML。
+   これは、オファースペース上にオファー表示域を生成するために使用される関数です。形式には複数のタイプがあり、アウトバウンドインタラクションには HTML またはテキストを、インバウンドインタラクションには XML を使用できます。
 
    ![](assets/offer_space_create_006.png)
 
-1. タブに移動し、 **[!UICONTROL HTML rendering]** を選択します **[!UICONTROL Overload the HTML rendering function]**。
+1. 「**[!UICONTROL HTML レンダリング]**」タブに移動して、「**[!UICONTROL HTML レンダリング関数をオーバーロード]**」を選択します。
 1. レンダリング関数を挿入します。
 
    ![](assets/offer_space_create_007.png)
 
-必要に応じて、インバウンドインタラクション用の XML レンダリング関数をオーバーロードできます。また、アウトバウンドインタラクション用の HTML およびテキストレンダリング関数をオーバーロードすることもできます。For more on this, refer to [About inbound channels](../../interaction/using/about-inbound-channels.md).
+必要に応じて、インバウンドインタラクション用の XML レンダリング関数をオーバーロードできます。また、アウトバウンドインタラクション用の HTML およびテキストレンダリング関数をオーバーロードすることもできます。詳しくは、[インバウンドチャネルについて](../../interaction/using/about-inbound-channels.md)を参照してください。
 
 ## オファーの提案ステータス {#offer-proposition-statuses}
 
@@ -88,12 +88,12 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 インタラクションには、オファーの提案のステータスを検証するために使用できる、次のような値が用意されています。
 
-* **[!UICONTROL Accepted]**&#x200B;を参照してください。
-* **[!UICONTROL Scheduled]**&#x200B;を参照してください。
-* **[!UICONTROL Generated]**&#x200B;を参照してください。
-* **[!UICONTROL Interested]**&#x200B;を参照してください。
-* **[!UICONTROL Presented]**&#x200B;を参照してください。
-* **[!UICONTROL Rejected]**&#x200B;を参照してください。
+* **[!UICONTROL 許可済み]**
+* **[!UICONTROL スケジュール済み]**
+* **[!UICONTROL 生成済み]**
+* **[!UICONTROL 関心あり]**
+* **[!UICONTROL 提示済み]**
+* **[!UICONTROL 却下]**
 
 これらの値はデフォルトでは適用されず、設定する必要があります。
 
@@ -103,13 +103,13 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ### 提案作成時のステータス設定 {#configuring-the-status-when-the-proposition-is-created}
 
-インタラクションエンジンによってオファーの提案が作成されると、ステータスは、インタラクションがインバウンドかアウトバウンドかによって変更されます。The choice between these two values depends on the way the offer spaces were configured in the **[!UICONTROL Design]** environment
+インタラクションエンジンによってオファーの提案が作成されると、ステータスは、インタラクションがインバウンドかアウトバウンドかによって変更されます。これら 2 つのうち、どちらの値が選択されるかは、そのオファースペースが&#x200B;**[!UICONTROL デザイン]**&#x200B;環境でどのように設定されたかによって決まります。
 
 各スペースでは、オファーレポートに表示する情報に応じて、提案が作成される際に適用するステータスを設定できます。
 
 それには、次の手順に従います。
 
-1. Go to the **[!UICONTROL Storage]** tab of the desired space.
+1. 目的のスペースの「**[!UICONTROL ストレージ]**」タブに移動します。
 1. 提案の作成時に適用するステータスを選択します。
 
    ![](assets/offer_update_status_001.png)
@@ -120,14 +120,14 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 それには、次の手順に従います。
 
-1. Go to the **[!UICONTROL Storage]** tab of the desired space.
+1. 目的のスペースの「**[!UICONTROL ストレージ]**」タブに移動します。
 1. 提案が承認されたときに提案に適用するステータスを選択します。
 
    ![](assets/offer_update_status_002.png)
 
 **インバウンドインタラクション**
 
-The **[!UICONTROL Storage]** tab lets you define statuses for **proposed** and **accepted** offer propositions only. インバウンドインタラクションでは、オファーの提案のステータスが、インターフェイスによってではなく、オファーエンジンを呼び出すための URL で直接指定されている必要があります。こうすることで、オファーの提案が却下された場合など、その他の場合に適用されるステータスを指定できるようになります。
+「**[!UICONTROL ストレージ]**」タブでは、**提案**&#x200B;および&#x200B;**承認**&#x200B;されたオファーの提案に対してのみステータスを定義できます。インバウンドインタラクションでは、オファーの提案のステータスが、インターフェイスによってではなく、オファーエンジンを呼び出すための URL で直接指定されている必要があります。こうすることで、オファーの提案が却下された場合など、その他の場合に適用されるステータスを指定できるようになります。
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
@@ -139,17 +139,17 @@ The **[!UICONTROL Storage]** tab lets you define statuses for **proposed** and *
 <BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">
 ```
 
-As soon as a visitor clicks the offer, and therefore the URL, the **[!UICONTROL Accepted]** status (value **3**) is applied to the proposition and the visitor is redirected to a new page of the **Neobank** site to take out the insurance contract.
+訪問者がこのオファー（URL）をクリックすると、**[!UICONTROL 許可済み]**&#x200B;ステータス（値 **3**）が提案に適用され、訪問者は、保険契約に関する **Neobank** サイトの新しいページにリダイレクトされます。
 
 >[!NOTE]
 >
->URL で別のステータスを指定する場合（オファーの提案が却下された場合など）は、望ましいステータスに対応する値を使用します。例： **[!UICONTROL Rejected]** = &quot;5&quot;、 **[!UICONTROL Presented]** = &quot;1&quot;など。
+>URL で別のステータスを指定する場合（オファーの提案が却下された場合など）は、望ましいステータスに対応する値を使用します。例：**[!UICONTROL 却下]** = &quot;5&quot;、**[!UICONTROL 提示済み]** = &quot;1&quot; など。
 >
->Statuses and their values can be retrieved in the **[!UICONTROL Offer propositions (nms)]** data schema. 詳しくは、[このページ](../../configuration/using/data-schemas.md)を参照してください。
+>ステータスとその値は、「**[!UICONTROL オファーの提案（nms）]**」 データスキーマで取得できます。詳しくは、[このページ](../../configuration/using/data-schemas.md)を参照してください。
 
 **アウトバウンドインタラクション**
 
-In case of an outbound interaction, you can automatically apply the **[!UICONTROL Interested]** status to an offer proposition when the delivery contains a link. 単に **_urlType=&quot;11&quot;** という値をリンクに付加します。
+アウトバウンドインタラクションの場合、配信にリンクを含める際に、オファーの提案に&#x200B;**[!UICONTROL 関心あり]**&#x200B;ステータスを自動的に適用できます。単に **_urlType=&quot;11&quot;** という値をリンクに付加します。
 
 ```
 <a _urlType="11" href="<DEST_URL>">Link inserted into the delivery</a>
@@ -165,4 +165,4 @@ In case of an outbound interaction, you can automatically apply the **[!UICONTRO
 
 ![](assets/offer_space_overview_001.png)
 
-1 つのスペースのみに限定されている場合、プレビューではコンテキストを無視できます。This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to [Extension example](../../interaction/using/extension-example.md)).
+1 つのスペースのみに限定されている場合、プレビューではコンテキストを無視できます。これは、インバウンドチャネルを使用して 1 つのスペースで参照されるフィールドを追加するようにインタラクションスキーマが拡張される場合です（詳しくは、[拡張の例](../../interaction/using/extension-example.md)を参照）。

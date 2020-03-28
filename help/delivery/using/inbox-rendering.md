@@ -14,7 +14,7 @@ discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 30f313cecf1c3d7c65f6524a3f86a1c28b35f679
 
 ---
@@ -34,28 +34,27 @@ Adobe Campaign の「**受信ボックスレンダリング**」で使用でき�
 
 >[!NOTE]
 >
->受信ボックスレンダリングは、配信のパーソナライゼーションをテストするには必要ありません。Personalization can be checked with Adobe Campaign tools such as **[!UICONTROL Preview]** and [Proofs](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+>受信ボックスレンダリングは、配信のパーソナライゼーションをテストするには必要ありません。パーソナライゼーションは、**[!UICONTROL プレビュー]**&#x200B;および[配達確認](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)などの Adobe Campaign ツールで確認できます。
 
-## インボックスのレンダリングを有効にする{#activating-inbox-rendering}
+## 受信ボックスレンダリングを有効にする {#activating-inbox-rendering}
 
-ホストクライアントおよびハイブリッドクライアントの場合、インボックスレンダリングは、アドビのテクニカルサポートおよびコンサルタントによってインスタンスに設定されます。 詳しくは、アドビのアカウント担当者にお問い合わせください。
+ホストクライアントおよびハイブリッドクライアントの場合、受信ボックスレンダリングはアドビのテクニカルサポートおよびコンサルタントがインスタンスに設定します。詳しくは、アドビのアカウント担当者にお問い合わせください。
 
-オンプレミスインストールの場合は、次の手順に従ってインボックスのレンダリングを設定します。
+オンプレミスインストールの場合は、次の手順に従って受信ボックスレンダリングを設定します。
 
-1. メニューか **[!UICONTROL Inbox rendering (IR)]** らパッケージをイ **[!UICONTROL Tools]** ンスト **[!UICONTROL Advanced]** ール **[!UICONTROL Import package]** します。 詳しくは、「[Campaign Classic標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)」を参照してください。
-1. HTTPタイプの外部アカウントは、 **[!UICONTROL Administration]** を使用して **[!UICONTROL Platform]** 設定し **[!UICONTROL External Accounts]** node ます。 詳しくは、「[外部アカウントの 作成](../../platform/using/external-accounts.md#creating-an-external-account)」を参照してください。
+1. **[!UICONTROL 受信ボックスレンダリング（IR）]**&#x200B;パッケージをインストールするには、**[!UICONTROL ツール]**／**[!UICONTROL 詳細設定]**／**[!UICONTROL パッケージをインポート]**&#x200B;メニューを使用します。詳しくは、[Campaign Classic 標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+1. HTTP タイプの外部アカウントは、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;ノードで設定します。詳しくは、[外部アカウントの作成](../../platform/using/external-accounts.md#creating-an-external-account)を参照してください 。
 1. 外部アカウントのパラメーターを次のように設定します。
-   * **[!UICONTROL Label]**: 配信品質サーバー情報
-   * **[!UICONTROL Internal name]**:deliverabilityInstance
-   * **[!UICONTROL Type]**: HTTP
-   * **[!UICONTROL Server]**:https://deliverability-app.neolane.net/deliverability
-   * **[!UICONTROL Encryption]**: なし
-   * オプションをオン **[!UICONTROL Enabled]** にします。
-   
+   * **[!UICONTROL ラベル]**：配信品質サーバー情報
+   * **[!UICONTROL 内部名]**： deliverabilityInstance
+   * **[!UICONTROL タイプ]**： HTTP
+   * **[!UICONTROL サーバー]**： https://deliverability-app.neolane.net/deliverability
+   * **[!UICONTROL 暗号化]**：なし
+   * 「**[!UICONTROL 有効]**」オプションをオンにします。
    ![](assets/s_tn_inbox_rendering_external-account.png)
 
-1. **[!UICONTROL Administration]** に移 **[!UICONTROL Platform]** 動し **[!UICONTROL Options]** node ます。 オプションを検索 **[!UICONTROL DmRendering_cuid]** し、サポートに連絡して、フィールドにコピーする必要のある配信レポートの識別子を取得し **[!UICONTROL Value (text)]** ます。
-1. **serverConf.xml** ファイルを編集して 、Litmusサーバーへの呼び出しを許可します。 次の行をセクションに追加し `<urlPermission>` ます。
+1. **[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;ノードに移動します。「**[!UICONTROL DmRendering_cuid]**」オプションを検索します。サポートに連絡して、**[!UICONTROL 値 (テキスト)]** フィールドにコピーする必要のある、配信レポートの識別子を取得します。
+1. **serverConf.xml** ファイルを編集して、Litmus サーバーへの呼び出しを許可します。次の行を `<urlPermission>` セクションに追加します。
 
    ```
    <url dnsSuffix="deliverability-app.neolane.net" urlRegEx="https://.*"/>
@@ -69,7 +68,7 @@ Adobe Campaign の「**受信ボックスレンダリング**」で使用でき�
 
 >[!NOTE]
 >
->インボックスのレンダリングを使用するには、コンソールからログアウトし、再度ログインする必要がある場合があります。
+>受信ボックスレンダリングを使用するには、コンソールからログアウトし、再度ログインする必要がある場合があります。
 
 ## Litmus トークンについて {#about-litmus-tokens}
 
@@ -81,7 +80,7 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 >
 >使用可能な Litmus トークンの数は、購入した Campaign ライセンスによって異なります。ライセンス契約を確認してください。
 
-Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, each rendering generated decreases your available tokens by one.
+配信で&#x200B;**[!UICONTROL 受信ボックスレンダリング]**&#x200B;機能を使用して各レンダリングを生成するたびに、使用可能なトークンが 1 つずつ減ります。
 
 >[!IMPORTANT]
 >
@@ -93,7 +92,7 @@ Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, ea
 
 
 
-使用可能な残りのトークン数は、[「インボックスレンダリング」レポート](#inbox-rendering-report)の **[!UICONTROL General summary]** に表示されます。
+残りの使用可能なトークンの数は、[受信ボックスレンダリングレポート](#inbox-rendering-report)の&#x200B;**[!UICONTROL 一般概要]**&#x200B;に表示されます。
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -107,12 +106,12 @@ Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, ea
 
 ## 受信ボックスレンダリングレポートへのアクセス {#accessing-the-inbox-rendering-report}
 
-電子メール配信を作成し、そのコンテンツとターゲット母集団を定義したら、以下の手順に従います。
+E メール配信を作成し、そのコンテンツとターゲット母集団を定義したら、以下の手順に従います。
 
 配信の作成、デザインおよびターゲティングについて詳しくは、[この節](../../delivery/using/about-email-channel.md)を参照してください。
 
-1. On the top bar of the delivery, click the **[!UICONTROL Inbox rendering]** button.
-1. Select **[!UICONTROL Analyze]** to start the capture process.
+1. 配信の上部のバーで、「**[!UICONTROL 受信ボックスレンダリング]**」ボタンをクリックします。
+1. 「**[!UICONTROL 分析]**」を選択してキャプチャプロセスを開始します。
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
@@ -132,13 +131,13 @@ Each time you use the **[!UICONTROL Inbox rendering]** feature in a delivery, ea
 
 このレポートには、受信者に表示される受信ボックスレンダリングが表示されます。レンダリングは、ブラウザー、モバイルデバイス、E メールアプリケーションなど、受信者がどの方法で E メール配信を開くかによって異なります。
 
-**[!UICONTROL General summary]** には、受信済みメッセージ、不要なメッセージ（スパム）、受信されていないメッセージまたは受信が保留されているメッセージの数がリストとしてグラフィカルに色分けされて表示されます。
+「**[!UICONTROL General summary]**」には、受信済みメッセージ、不要なメッセージ（スパム）、受信されていないメッセージまたは受信が保留されているメッセージの数がリストとしてグラフィカルに色分けされて表示されます。
 
 ![](assets/s_tn_inbox_rendering_summary.png)
 
 グラフに上にマウスポインターを置くと、各色の詳細が表示されます。
 
-The body of the report is divided into three parts: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]**, and **[!UICONTROL Webmails]**. レポートを下へスクロールすると、これらの 3 つのカテゴリにグループ化されたすべてのレンダリングが表示されます。
+レポートの本文は、**[!UICONTROL モバイル]**、**[!UICONTROL メッセージクライアント]**、**[!UICONTROL Web メール]**&#x200B;の 3 つの部分に分けられています。レポートを下へスクロールすると、これらの 3 つのカテゴリにグループ化されたすべてのレンダリングが表示されます。
 
 ![](assets/s_tn_inbox_rendering_report.png)
 

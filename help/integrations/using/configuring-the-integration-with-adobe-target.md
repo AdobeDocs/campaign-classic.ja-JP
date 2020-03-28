@@ -14,7 +14,7 @@ discoiquuid: 378d5ff9-88c0-43f1-beb8-454701e9f1d1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ---
@@ -33,11 +33,11 @@ Adobe Campaign と Adobe Target 間の統合を使用するには、次が必要
 
 Adobe Campaign を設定するには：
 
-1. 標準パッケージをイ **[!UICONTROL Integration with the Adobe Experience Cloud]** ンストールします。 統合パッケージのインストール方法は、標準パッケージのインストール方法と同じです。詳しくは、[パッケージのインポート](../../platform/using/working-with-data-packages.md#importing-packages)の節で説明しています。インストールすると、Digital Asset Manager を使用して共有アセットにアクセスすることができます。
+1. **[!UICONTROL Adobe Experience Cloud との統合]**&#x200B;標準パッケージをインストールします。統合パッケージのインストール方法は、標準パッケージのインストール方法と同じです。詳しくは、[パッケージのインポート](../../platform/using/working-with-data-packages.md#importing-packages)の節で説明しています。インストールすると、Digital Asset Manager を使用して共有アセットにアクセスすることができます。
 1. Adobe Experience Cloud を使用して共有された画像を電子メールで使用するには、IMS（Adobe ID 接続サービス）での接続を有効にします。[IMS](../../integrations/using/about-adobe-id.md) についての節を参照してください。
-1. In **[!UICONTROL Administration > Platform > Options]**, configure the server and organization (Tenant) options for Adobe Target:
+1. **[!UICONTROL 管理／プラットフォーム／オプション]**&#x200B;で、Adobe Target のサーバーと組織（テナント）オプションを設定します。
 
-   * **[!UICONTROL TNT_EdgeServer]** :統合に使用するAdobe targetサーバー。 このオプションは、デフォルトで選択されています。This value corresponds to the Adobe Target **[!UICONTROL Domain Server]**, followed by the value **/m2**. 例：tt.omtrdc.net/m2 ****.
-   * **[!UICONTROL TNT_TenantName]** :Adobe target組織名。 This value corresponds to the name of the Adobe Target **[!UICONTROL Client]**.
+   * **[!UICONTROL TNT_EdgeServer]**：統合に使用される Adobe Target のサーバー。このオプションは、デフォルトで選択されています。この値は Adobe Target の&#x200B;**[!UICONTROL ドメインサーバー]**&#x200B;に対応し、値 **/m2** が続きます。例：**tt.omtrdc.net/m2**。
+   * **[!UICONTROL TNT_TenantName]**：Adobe Target の組織名。この値は Adobe Target の&#x200B;**[!UICONTROL クライアント]**&#x200B;名に対応します。
    ![](assets/tar_options.png)
 

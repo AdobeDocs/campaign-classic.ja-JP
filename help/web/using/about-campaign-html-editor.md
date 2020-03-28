@@ -14,7 +14,7 @@ discoiquuid: 1ffe9f58-7258-4794-a314-524065f8a33b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 ---
@@ -44,25 +44,25 @@ DCE を使用すると、ページ要素を挿入および書式設定したり�
 
 ![](assets/dce_schema.png)
 
-シンプルなWebアプリケーションを作成する手順は次のとおりです。
+シンプルな Web アプリケーションを作成する手順を次に示します。
 
-* Webアプリケーションの作成を参照してください。詳しくは、「ランディ [ングページの作成](../../web/using/creating-a-landing-page.md)、
-* Select existing content or creating content from a standard template, for more on this, refer to [Template management](../../web/using/template-management.md),
-* コンテンツの編集と設定を行う場合、詳しくは「コンテンツの編集 [](../../web/using/editing-content.md)、
-* Publish the Web application, for more on this, refer to [Publishing content](../../web/using/creating-a-landing-page.md#step-3---publishing-content) and [this page](../../web/using/publishing-a-web-form.md#managing-web-forms-delivery-and-tracking).
+* Web アプリケーションを作成します（詳しくは、[ランディングページの作成](../../web/using/creating-a-landing-page.md)を参照）。
+* 既存のコンテンツを選択するか、標準テンプレートからのコンテンツを作成します（詳しくは、[テンプレート管理](../../web/using/template-management.md)を参照）。
+* コンテンツを編集および設定します（詳しくは、[コンテンツの編集](../../web/using/editing-content.md)を参照）。
+* Web アプリケーションをパブリッシュします（詳しくは、[コンテンツのパブリッシュ](../../web/using/creating-a-landing-page.md#step-3---publishing-content)および[このページ](../../web/using/publishing-a-web-form.md#managing-web-forms-delivery-and-tracking)を参照）。
 
 >[!NOTE]
 >
->For a complete example detailing the implementation of the DCE within the framework of a Web application, refer to [Creating a landing page](../../web/using/creating-a-landing-page.md).
+>Web アプリケーションのフレームワーク内での DCE の実装の完全な例について詳しくは、[ランディングページの作成](../../web/using/creating-a-landing-page.md)を参照してください。
 
 E メール配信を作成する手順は、次のとおりです。
 
-* DCEがアクティブな電子メールタイプテンプレートから配信を作成します。
-* 既存のコンテンツを選択するか、標準テンプレートからコンテンツを作成する、
-* オンラインコンテンツの編集と設定、
-* 配信を送信します。詳しくは、この節を参 [照してください](../../delivery/using/communication-channels.md)。
+* DCE がアクティブな E メールタイプのテンプレートから配信を作成します。
+* 既存のコンテンツを選択するか、標準テンプレートからコンテンツを作成します。
+* オンラインコンテンツを編集および設定します。
+* 配信を送信します（詳しくは、[この節](../../delivery/using/communication-channels.md)を参照）。
 
 >[!NOTE]
 >
->For a complete example detailing the implementation of the DCE within the framework of an email delivery, refer to [this use case](../../web/using/use-case--creating-an-email-delivery.md).
+>E メール配信のフレームワーク内での DCE の実装の完全な例について詳しくは、[この使用例](../../web/using/use-case--creating-an-email-delivery.md)を参照してください。
 

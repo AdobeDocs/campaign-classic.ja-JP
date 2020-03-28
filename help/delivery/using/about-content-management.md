@@ -14,7 +14,7 @@ discoiquuid: 9f4e8d10-7387-4716-aa85-a6b012ad14ef
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e0ab9a3545b5c688975c32075c41e3987da5cf37
 
 ---
@@ -22,13 +22,13 @@ source-git-commit: e0ab9a3545b5c688975c32075c41e3987da5cf37
 
 # コンテンツ管理について{#about-content-management}
 
-Adobe Campaign Content Managerモジュールは、定期的なニュースレターやWebサイトを作成す [るために](../../installation/using/installing-campaign-standard-packages.md) 、Campaign Classicの標準パッケージとしてインストールできます。 このモジュールを使用して、メッセージを作成、検証、パブリッシュできます。
+Adobe Campaign コンテンツマネージャーモジュールは、定期的ニュースレターや Web サイトを作成するためにインストールできる、Campaign Classic の[標準パッケージ](../../installation/using/installing-campaign-standard-packages.md)の 1 つです。このモジュールを使用して、メッセージを作成、検証、パブリッシュできます。
 
 >[!NOTE]
 >
->この節では、コンテンツ管理モジュールについて説明します。 電子メール配信コンテンツの設計方法について詳しくは、この節を参照 [してください](../../delivery/using/defining-the-email-content.md)。
+>この節では、コンテンツ管理モジュールについて説明します。E メール配信コンテンツのデザイン方法について詳しくは、[この節](../../delivery/using/defining-the-email-content.md)を参照してください。
 
-コンテンツ管理モジュールは、作業グループ、ワークフロー、およびコンテンツ集約機能を組み込んでいます。 そのため、メッセージを自動的に書式設定できます（E メール、郵便、SMS、Web など）。
+コンテンツ管理モジュールには、作業グループ、ワークフローおよびコンテンツ集計機能が含まれます。そのため、メッセージを自動的に書式設定できます（E メール、郵便、SMS、Web など）。
 
 配信でコンテンツ管理を利用すると、コンテンツの作成を担当するオペレーターに入力フィールドまたは選択フィールドを提供できます。このコンテンツのレイアウトと表示、変更は、スタイルシートを使用して自動的に管理されます。
 

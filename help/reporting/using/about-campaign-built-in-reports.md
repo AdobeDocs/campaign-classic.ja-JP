@@ -14,7 +14,7 @@ discoiquuid: 8e4028f8-055a-435c-b226-3d8e0a352f92
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 >[!NOTE]
 >
->また、タブに独自のレポートを追加する方法も学びま **[!UICONTROL Reports]** す。 詳しくは、この[ページ](../../reporting/using/configuring-access-to-the-report.md#defining-the-filtering-options)を参照してください。
+>また、「**[!UICONTROL レポート]**」タブに独自のレポートを追加する方法についても説明します。詳しくは、この[ページ](../../reporting/using/configuring-access-to-the-report.md#defining-the-filtering-options)を参照してください。
 
 これらのレポートとその内容について詳しくは、それらに含まれる機能に関するドキュメントを参照してください。
 
@@ -34,15 +34,15 @@ Adobe Campaign は、お客様のコンソールまたはインターネット�
 
 使用可能なレポートのタイプは次のとおりです。
 
-* Reports on the entire platform, see [Global reports](../../reporting/using/global-reports.md).
-* 配信レポートを参照して [ください](../../reporting/using/delivery-reports.md)。
-* 累積レポートを参照し [てください](../../reporting/using/cumulative-reports.md)。
+* プラットフォーム全体のレポートについては、[グローバルレポート](../../reporting/using/global-reports.md)を参照してください。
+* 配信レポートについては、[配信レポート](../../reporting/using/delivery-reports.md)を参照してください。
+* 累積レポートについては[累積レポート](../../reporting/using/cumulative-reports.md)を参照してください。
 
 レポートには、クライアントコンソールのホームページ、レポートダッシュボードまたは配信リストからアクセスできます。レポートの表示モードはそのコンテキストに依存します。メインレポートのリストはホームページで使用でき、配信データにすばやくアクセスできます。このリストは、ニーズに合わせて変更可能です。詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
 
-Campaignの組み込みレポートにアクセスするには：
+Campaign の組み込みレポートにアクセスするには次の手順に従います。
 
-1. Adobe Campaignインター **[!UICONTROL Reports]** フェイスのタブを選択します。
+1. Adobe Campaign インターフェイスの「**[!UICONTROL レポート]**」タブを選択します。
 
    ![](assets/reporting_access_from_home.png)
 
@@ -52,7 +52,7 @@ Campaignの組み込みレポートにアクセスするには：
 
    ![](assets/reporting_edit_a_report.png)
 
-1. Click the **[!UICONTROL Back]** link at the top of the screen takes you back to the list of reports.
+1. 画面上部にある「**[!UICONTROL 戻る]**」リンクをクリックすると、レポートのリストに戻ります。
 
    ![](assets/reporting_back_button.png)
 

@@ -14,7 +14,7 @@ discoiquuid: 22c92ddf-fbea-49d3-afd4-1ba427be399d
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -24,20 +24,20 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 レポートを作成するには、次の手順に従います。
 
-1. Open the Adobe Campaign Explorer and from the **[!UICONTROL Administration > Configuration]** node, then select the **[!UICONTROL Reports]** folder.
-1. Click the **[!UICONTROL New]** button above the list of reports.
-1. を選択し、 **[!UICONTROL Create a new report from a template]** をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. Adobe Campaign エクスプローラーを開き、**[!UICONTROL 管理／設定]**&#x200B;ノードから&#x200B;**[!UICONTROL レポート]**&#x200B;フォルダーを選択します。
+1. レポートのリストの上の「**[!UICONTROL 新規]**」ボタンをクリックします。
+1. 「**[!UICONTROL テンプレートから新しいレポートを作成]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/s_ncs_advuser_report_wizard_new_01.png)
 
 1. ドロップダウンリストからレポートテンプレートを選択します。
 
-   * The **[!UICONTROL Extended report]** lets you create a report configured using a chart.
-   * The **[!UICONTROL Qualitative distribution]** report lets you create statistics based on all types of data (company name, email domain, etc.).
-   * The **[!UICONTROL Quantitative distribution]** report lets you create statistics on data that can be measured or counted (invoice amount, recipient age, etc.).
+   * 「**[!UICONTROL 拡張レポート]**」では、グラフを使用して設定するレポートを作成できます。
+   * 「**[!UICONTROL 定性配分]**」レポートでは、あらゆるタイプのデータ（会社名、E メールドメインなど）に基づいて統計資料を作成できます。
+   * 「**[!UICONTROL 定量配分]**」レポートでは、測定またはカウント可能なデータ（請求書の金額、受取人の年齢など）に関する統計資料を作成できます。
    これらのレポートテンプレートについて詳しくは、[この節](../../reporting/using/about-descriptive-analysis.md)を参照してください。
 
-1. レポートの名前と説明をそれぞれ該当するフィールドに入力します。Specify the **[!UICONTROL schema]** on which the report will be applied.
+1. レポートの名前と説明をそれぞれ該当するフィールドに入力します。レポートの「**[!UICONTROL スキーマ]**」を指定します。
 
    ![](assets/s_ncs_advuser_report_wizard_020.png)
 
@@ -115,15 +115,15 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 >
 >レポートが Excel 形式でエクスポートするように設計されている場合は、複雑な HTML 書式設定を使用しないことをお勧めします。詳しくは、[レポートのエクスポート](../../reporting/using/actions-on-reports.md#exporting-a-report)を参照してください。
 
-A **[!UICONTROL Page]** can include the following elements:
+**[!UICONTROL ページ]**&#x200B;には、次の要素を含めることができます。
 
-* Bar, pie, curve type **[!UICONTROL charts]**, etc.
-* Pivot; List with group, or Breakdown **[!UICONTROL tables]**.
-* テキストまたは数値の種 **[!UICONTROL Input controls]**&#x200B;類。
-* Drop-down list, checkbox, radio button, multiple choice, date, or Matrix type **[!UICONTROL Selection controls]**.
-* Link editor, Constant, Folder selection type **[!UICONTROL Advanced controls]**.
-* 値、リンク、HTML、画像など **[!UICONTROL Static elements]**.
-* **[!UICONTROL Containers]** コンポーネントのレイアウトを制御できる
+* **[!UICONTROL グラフ]**（棒グラフ、円グラフ、曲線など）。
+* **[!UICONTROL テーブル]**（ピボットテーブル、グループ化されたリスト、分類テーブル）。
+* **[!UICONTROL 入力コントロール]**（テキストタイプまたは数値タイプ）。
+* **[!UICONTROL 選択コントロール]**（ドロップダウンリスト、チェックボックス、ラジオボタン、複数選択、日付、マトリックスなど）。
+* **[!UICONTROL 高度なコントロール]**（リンクエディター、定数、フォルダー選択）。
+* **[!UICONTROL 静的要素]**（値、リンク、HTML、画像など）。
+* **[!UICONTROL コンテナ]**（コンポーネントレイアウトの制御に使用）。
 
 ページおよびページコンポーネントの設定モードについて詳しくは、[この節](../../web/using/about-web-forms.md)で説明しています。
 

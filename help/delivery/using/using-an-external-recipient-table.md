@@ -14,7 +14,7 @@ discoiquuid: 92c32b2d-d8bf-41ab-9349-ef4a15f10521
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # 外部の送信者テーブルの使用{#using-an-external-recipient-table}
 
-配信テーブルが外部のテーブルの場合は、追加設定が必要です。The **[!UICONTROL nms:seedmember]** schema must be extended. 次のように、適切なフィールドを定義するためのタブがシードアドレスに追加されます。
+配信テーブルが外部のテーブルの場合は、追加設定が必要です。**[!UICONTROL nms:seedmember]** スキーマを拡張する必要があります。次のように、適切なフィールドを定義するためのタブがシードアドレスに追加されます。
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 

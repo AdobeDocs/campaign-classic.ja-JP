@@ -14,7 +14,7 @@ discoiquuid: 328e5b2f-8596-4eda-8ac5-57cb29bfb691
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 ---
@@ -22,13 +22,13 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 # Web アプリケーションの翻訳{#translating-a-web-application}
 
-Adobe Campaignデジタルコンテンツエディター(DCE)で作成したWebアプリケーションページを翻訳できます。
+Adobe Campaign デジタルコンテンツエディター（DCE）で作成した Web アプリケーションページを翻訳できます。
 
-If you select at least one additional language via the **[!UICONTROL Localization]** tab in the **[!UICONTROL Properties]** of a Web application, a new option becomes available when adding an HTML content block in a page edited with DCE.
+Web アプリケーションの&#x200B;**[!UICONTROL プロパティ]**&#x200B;の「**[!UICONTROL ローカライゼーション]**」タブで少なくとも 1 つの追加言語を選択すると、DCE で編集したページに HTML コンテンツブロックを追加する際に、新しいオプションが利用できるようになります。
 
 このオプションを使用すると、ブロックコンテンツを翻訳する必要があるかどうかを示すことができます。
 
-Strings to be translated are collected the same way as the other strings of the Web application, via the **[!UICONTROL Translations]** tab of the application. 詳しくは、[このページ](../../web/using/translating-a-web-form.md)を参照してください。
+翻訳される文字列は、アプリケーションの「**[!UICONTROL 翻訳]**」タブを使用して、Web アプリケーションの他の文字列と同じ方法で収集されます。詳しくは、[このページ](../../web/using/translating-a-web-form.md)を参照してください。
 
 翻訳する文字列にフラグを設定するには：
 
@@ -37,7 +37,7 @@ Strings to be translated are collected the same way as the other strings of the 
    ![](assets/dce_translation_3.png)
 
 1. HTML ブロックを選択します。
-1. In the parameters block on the right, the **[!UICONTROL Localization]** option lets you flag the content of the selected block. デフォルトでは、ページタイトルのみが翻訳されます。
+1. 右側のパラメーターブロックで、「**[!UICONTROL ローカライゼーション]**」オプションを使用すると、選択したブロックのコンテンツにフラグを設定できます。デフォルトでは、ページタイトルのみが翻訳されます。
 
    ![](assets/dce_translation_1.png)
 
@@ -45,7 +45,7 @@ Strings to be translated are collected the same way as the other strings of the 
    >
    >文字列は、1,023 文字以下にする必要があります。
 
-   具体的には、次の3つのケースがあります。
+   3 つの特殊なケースがあります。
 
    * 選択したブロックに複数の文字列／ブロックが含まれる場合、翻訳する単一の文字列としてフラグされます。そのため、文字列には、このブロック内の要素の HTML コードが含まれます。
    * 複数の文字列を含むブロックにフラグを設定する場合、それらの文字列のうち少なくとも 1 つに既にフラグが設定されていると、警告が表示されます。独立した文字列からフラグを削除して、ブロック全体にフラグを追加できます。
@@ -56,8 +56,8 @@ Strings to be translated are collected the same way as the other strings of the 
 
       ![](assets/dce_translation_2.png)
 
-1. Once you have finished flagging the strings, go back to the Web application and select the **[!UICONTROL Translations]** tab.
-1. 選択 **[!UICONTROL Collect the strings to translate]**. DCE でフラグを設定した文字列は、Web アプリケーションの文字列に追加されます。
+1. 文字列のフラグ設定が終了したら、Web アプリケーションに戻って、「**[!UICONTROL 翻訳]**」タブを選択します。
+1. 「**[!UICONTROL 翻訳する文字列を収集]**」を選択します。DCE でフラグを設定した文字列は、Web アプリケーションの文字列に追加されます。
 
    >[!NOTE]
    >
@@ -65,5 +65,5 @@ Strings to be translated are collected the same way as the other strings of the 
 
 1. 文字列を翻訳して承認します。
 
-   You can then preview the translations by selecting the desired language from the **[!UICONTROL Preview]** tab in the Web application.
+   そうすると、Web アプリケーションの「**[!UICONTROL プレビュー]**」タブで目的の言語を選択することで、翻訳をプレビューできます。
 

@@ -14,7 +14,7 @@ discoiquuid: 733576d2-505f-4598-89eb-a10e7331bf7e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -22,13 +22,13 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 # スキーマを編集{#edit-schema}
 
-Data can be transformed, normalized and, if necessary, enriched in the workflow using the **[!UICONTROL Edit schema]** activity. このアクティビティは通常はデータ構造の正規化に使用されます。例えば、フィールドまたは集計の平均値を算出することで、出力列の名前を変更するか、出力列のコンテンツを変更できます。
+「**[!UICONTROL スキーマを編集]**」アクティビティを使用して、データをワークフロー内で変換、正規化および必要に応じてエンリッチメントできます。このアクティビティは通常はデータ構造の正規化に使用されます。例えば、フィールドまたは集計の平均値を算出することで、出力列の名前を変更するか、出力列のコンテンツを変更できます。
 
 このアクティビティは作業用テーブルのデータを変更せずに、スキーマのみ（データの論理ビューなど）を変更します。
 
 ![](assets/wf_manipulation_box.png)
 
-You can also create joins with other worktables, via the **[!UICONTROL Links]** tab.
+また、「**[!UICONTROL リンク]**」タブを使用して、他の作業用テーブルとの結合を作成できます。
 
 ![](assets/wf_manipulation_box_link_tab.png)
 

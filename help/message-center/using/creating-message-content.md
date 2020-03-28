@@ -14,7 +14,7 @@ discoiquuid: 1f420652-c9af-4a49-8d5c-a640e960aced
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2c0d4054fbc15a88ea0370269b62c7d647aea033
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 2c0d4054fbc15a88ea0370269b62c7d647aea033
 >[!CAUTION]
 >
 >メッセージに含まれる画像は、公的にアクセス可能でなければなりません。Adobe Campaign には、トランザクションメッセージ用の画像アップロードのメカニズムがありません。\
->Unlike in JSSP or webApp, `<%=` doesn’t have any default escaping.
+>JSSP や Web アプリとは異なり、`<%=` にはデフォルトのエスケープ機能がありません。
 >
 >こうした場合は、イベントから取得されるそれぞれのデータを適切にエスケープする必要があります。このエスケープ方法は、このフィールドの使用方法によって異なります。例えば、URL 内では、encodeURIComponent を使用します。HTML に表示する場合は、escapeXMLString を使用できます。
 
@@ -36,17 +36,17 @@ source-git-commit: 2c0d4054fbc15a88ea0370269b62c7d647aea033
 ![](assets/messagecenter_create_content_001.png)
 
 * すべてのパーソナライゼーションフィールドはペイロードから取得されます。
-* トランザクションメッセージ内の1つまたは複数のパーソナライゼーションブロックを参照できます。 ブロックコンテンツは、パブリケーション中に実行インスタンスに追加されます。
+* トランザクションメッセージ内では、1 つまたは複数のパーソナライゼーションブロックを参照できます。ブロックコンテンツは、実行インスタンスへのパブリッシュ中に配信コンテンツに追加されます。
 
 パーソナライゼーションタグを E メールメッセージの本文に挿入するには、次の手順に従います。
 
 1. メッセージのテンプレートで、E メールのフォーマットに合うタブをクリックします（HTML またはテキスト）。
 1. メッセージの本文を入力します。
-1. テキストの本文に、メニューを使用してタグを挿入し **[!UICONTROL Real time events>Event XML]** ます。
+1. テキスト本文に&#x200B;**[!UICONTROL リアルタイムイベント／イベント XML]** メニューを使用してタグを挿入します。
 
    ![](assets/messagecenter_create_custo_002.png)
 
-1. Fill in the tag using the following syntax: **element name**.@**attribute name** （以下に示す）。
+1. 下記に示すように、タグの入力には次の構文を利用します。**要素名**.@**属性名**
 
    ![](assets/messagecenter_create_custo_003.png)
 

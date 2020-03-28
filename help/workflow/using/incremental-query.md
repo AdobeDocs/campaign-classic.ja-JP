@@ -14,7 +14,7 @@ discoiquuid: 31071cd2-7d97-4a4f-a6cc-5ac5b6178be5
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ターゲット済みの母集団は、ワークフローインスタンス別およびアクティビティ別にメモリに保存されています。例えば、同じテンプレートから開始される 2 つのワークフローは、同じログを共有しません。一方、同じワークフローインスタンスの同じ増分クエリに基づく 2 つのタスクは、同じログを共有します。
 
-The query is defined in the same way as for standard queries (refer to [Creating a query](../../workflow/using/query.md#creating-a-query)), but its execution is scheduled.
+増分クエリは、標準クエリと同じ方法で定義しますが（[クエリの作成](../../workflow/using/query.md#creating-a-query)を参照）、実行がスケジュールされる点で異なります。
 
 >[!CAUTION]
 >
@@ -34,30 +34,30 @@ The query is defined in the same way as for standard queries (refer to [Creating
 
 手順は次のとおりです。
 
-1. タブで、オ **[!UICONTROL Scheduling & History]** プションを選択 **[!UICONTROL Schedule execution]** します。 一旦作成されたタスクはアクティブなままになり、クエリの実行スケジュールに指定された時間になるとトリガーされます。ただし、このオプションを無効にした場合、**一度に全部**&#x200B;のクエリがただちに実行されます。
-1. ボタンをクリッ **[!UICONTROL Change]** クします。
+1. 「**[!UICONTROL スケジュール設定と履歴]**」タブで、「**[!UICONTROL 実行をスケジュールする]**」オプションを選択します。一旦作成されたタスクはアクティブなままになり、クエリの実行スケジュールに指定された時間になるとトリガーされます。ただし、このオプションを無効にした場合、**一度に全部**&#x200B;のクエリがただちに実行されます。
+1. 「**[!UICONTROL 変更]**」ボタンをクリックします。
 
-   In the **[!UICONTROL Schedule editing wizard]** window, you can configure the type of frequency, event recurrence and event validity period.
+   **[!UICONTROL スケジュール編集ウィザード]**&#x200B;ウィンドウで、頻度のタイプと、イベントの繰り返し、イベントの有効期間を設定します。
 
    ![](assets/s_user_segmentation_wizard_11.png)
 
-1. Click **[!UICONTROL Finish]** to save the schedule.
+1. 「**[!UICONTROL 完了]**」をクリックしてスケジュールを保存します。
 
    ![](assets/s_user_segmentation_wizard_valid.png)
 
-1. The lower section of the **[!UICONTROL Scheduling & History]** tab allows you to select the number of days to be taken into account in the history.
+1. 「**[!UICONTROL スケジュール設定と履歴]**」タブの下部セクションで、履歴として残す日数を選択できます。
 
    ![](assets/edit_request_inc.png)
 
-   * **[!UICONTROL History in days]**
+   * **[!UICONTROL 履歴（日数）]**
 
       既にターゲット済みの受信者は、ターゲットされた日から履歴の最大日数に達する日まで、ログに履歴として保持されます。値がゼロの場合、受信者がログからパージされることはありません。
 
-   * **[!UICONTROL Keep history when starting]**
+   * **[!UICONTROL 開始時に履歴を保持]**
 
       アクティビティが有効になったときに、ログがパージされないようにします。
 
-   * **[!UICONTROL SQL table name]**
+   * **[!UICONTROL SQL テーブル名]**
 
       このパラメーターは、履歴データを保持するデフォルトの SQL テーブルをオーバーロードします。
 
@@ -70,18 +70,18 @@ The query is defined in the same way as for standard queries (refer to [Creating
 ![](assets/incremental_query_example.png)
 
 1. 新しいワークフローに、増分クエリとリスト更新アクティビティを追加します。
-1. クエリーの作 **[!UICONTROL Incremental query]** 成で指定したアクティビティのタ [ブを設定します](../../workflow/using/query.md#creating-a-query)。
-1. Select the **[!UICONTROL Scheduling & History]** tab and then specify a 270-day history. この指定により、既にターゲットされた受信者は、今後 270 日間（およそ 9 ヶ月間）はターゲットされません。
+1. アクティビティの「**[!UICONTROL 増分クエリ]**」タブを](../../workflow/using/query.md#creating-a-query)クエリの作成[の説明に従って設定します。
+1. 「**[!UICONTROL スケジュール設定と履歴]**」タブを選択し、履歴の日数を 270 日と指定します。この指定により、既にターゲットされた受信者は、今後 270 日間（およそ 9 ヶ月間）はターゲットされません。
 
-   Then click the **[!UICONTROL Change...]** button.
+   次に、「**[!UICONTROL 変更]**」ボタンをクリックします。
 
-1. To ensure the list is updated before the start of each season, select **[!UICONTROL Monthly]**.
+1. 次の季節が始まる前にリストが確実に更新されるようにするには、「**[!UICONTROL 毎月]**」を選択します。
 1. 次の画面で、「3 月」、「6 月」、「9 月」、「12 月」を選択します。毎月「20 日」を選択し、ワークフローの開始時刻を選択します。
-1. 次に、クエリの有効期間を選択します。For example, if you want this activity to be permanently active, select **[!UICONTROL Permanent validity]**.
+1. 次に、クエリの有効期間を選択します。例えば、このアクティビティを永続的にアクティブにしたい場合、「**[!UICONTROL 永続的な有効性]**」を選択します。
 
    ![](assets/incremental_query_example_2.png)
 
-1. After approving the incremental query, configure the list update activity as explained in [List update](../../workflow/using/list-update.md).
+1. 増分クエリを承認した後で、[リストの更新](../../workflow/using/list-update.md)の説明に従って、リスト更新アクティビティを設定します。
 
 このように設定しておくことで、次の季節が始まる直前にワークフローが自動的に開始されます。リストは更新され、オファーを受ける資格のある新しい受信者が含められます。
 

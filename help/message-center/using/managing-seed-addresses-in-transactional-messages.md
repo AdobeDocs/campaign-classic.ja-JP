@@ -14,7 +14,7 @@ discoiquuid: 12e7043e-e8b5-48a9-8a2f-99e2e6040c3c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## シードアドレスの作成 {#creating-a-seed-address}
 
-1. In the transactional message template, click the **[!UICONTROL Seed addresses]** tab.
+1. トランザクションメッセージテンプレートで、「**[!UICONTROL シードアドレス]**」タブをクリックします。
 
    ![](assets/messagecenter_create_seedaddr_001.png)
 
@@ -42,19 +42,19 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
    ![](assets/messagecenter_create_seedaddr_003bis.png)
 
-1. テストデータを挿入します(パーソナライ [ゼーションデータ](../../message-center/using/personalization-data.md))。
+1. テストデータを挿入します（[パーソナライゼーションデータ](../../message-center/using/personalization-data.md)を参照）。
 
    ![](assets/messagecenter_create_custo_001.png)
 
 ## 複数のシードアドレスの作成 {#creating-several-seed-addresses}
 
-1. リンクをクリ **[!UICONTROL Add other seed addresses]** ックし、ボタンをクリック **[!UICONTROL Add]** します。
+1. 「**[!UICONTROL 他のシードアドレスを追加]**」リンクをクリックし、「**[!UICONTROL 追加]**」ボタンをクリックします。
 
    ![](assets/messagecenter_create_seedaddr_004.png)
 
-1. Follow the configuration steps for a seed address detailed in the [Creating a seed address](#creating-a-seed-address) section.
+1. [シードアドレスの作成](#creating-a-seed-address)の節で説明されているシードアドレスの設定手順に従ってください。
 1. この手順を繰り返して、必要な数のアドレスを作成します。
 
    ![](assets/messagecenter_create_seedaddr_008.png)
 
-アドレスを作成したら、プレビューとパーソナライゼーションを表示することができます。トランザクションメ [ッセージのプレビューを参照](../../message-center/using/transactional-message-preview.md)。
+アドレスを作成したら、プレビューとパーソナライゼーションを表示することができます。[トランザクションメッセージのプレビュー](../../message-center/using/transactional-message-preview.md)を参照してください。

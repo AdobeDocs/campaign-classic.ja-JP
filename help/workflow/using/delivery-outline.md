@@ -14,7 +14,7 @@ discoiquuid: a2a65f97-425b-44b2-8cf4-beea850423bc
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 67dce820b7a90163032ee72263a9dd23b521ea69
 
 ---
@@ -28,7 +28,7 @@ Adobe Campaign の配信の概要について詳しくは、この[節](../../ca
 
 アクティビティを設定するには、概要と計画された連絡日を任意に選択するだけです。フィルタリングルールを追加するには、タイポロジまたはタイポロジルールを追加します。
 
-## Example: Inserting an offer via a delivery outline {#example--inserting-an-offer-via-a-delivery-outline}
+## 例：配信の概要を使用したオファーの挿入 {#example--inserting-an-offer-via-a-delivery-outline}
 
 キャンペーンワークフローで使用可能な配信の概要アクティビティでは、現在進行中のキャンペーンの配信の概要で参照されているオファーを提示できます。
 
@@ -44,7 +44,7 @@ Adobe Campaign の配信の概要について詳しくは、この[節](../../ca
 1. 配信に従って、使用可能なフィールドに入力します。
 1. 次の 2 つの場合が考えられます。
 
-   * オファーエンジンを呼び出す場合は、ボックスをオンにし **[!UICONTROL Restrict the number of propositions selected]** ます。 オファースペースを指定し、配信で提示される提案の数を設定します。
+   * オファーエンジンを呼び出す場合は、「**[!UICONTROL 選択する提案数を制限]**」ボックスをオンにします。オファースペースを指定し、配信で提示される提案の数を設定します。
 
       オファーエンジンによって、オファーの重み付けと実施要件ルールが考慮されます。
 

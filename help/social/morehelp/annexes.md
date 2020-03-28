@@ -1,6 +1,6 @@
 ---
-title: 附属書
-seo-title: 附属書
+title: 付録
+seo-title: 付録
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -11,11 +11,11 @@ iscontainer: true
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
 
 
-# 附属書{#annexes}
+# 付録{#annexes}
 

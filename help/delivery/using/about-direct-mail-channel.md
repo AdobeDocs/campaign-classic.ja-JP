@@ -14,7 +14,7 @@ discoiquuid: 33fe5a57-55db-4cd7-b1fd-0dc3691909ab
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70f51ba3937d0f20d9a488c61b52b7ec4396fa5e
 
 ---
@@ -29,4 +29,4 @@ Adobe Campaign では、パーソナライズした文書を大量配送する�
 >郵送先住所は、計算フィールドです。1 つのアドレスは、デフォルトで最大 6 つの行から構成されます。最初の行には名前の姓および名、続く数行には郵送先住所の番地など、最後の行には、郵便番号や市区町村が含まれます。\
 >名前、郵便番号、市区町村フィールドが空でない場合、アドレスは完全に入力されているとみなされます。
 
-以下のセクションでは、ダイレクトメールチャネルに固有の情報を提供します。 配信の作成および送信方法のグローバル情報については、この節を参照し[てください](../../delivery/using/steps-about-delivery-creation-steps.md)。
+以下の節では、ダイレクトメールチャネルに関する情報を提供します。 配信の作成および送信方法に関する全般的な情報については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。

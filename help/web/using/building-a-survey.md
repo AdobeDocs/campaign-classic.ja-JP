@@ -14,7 +14,7 @@ discoiquuid: 6850851d-1dbe-44f0-bbff-18dbac2cad9a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -26,13 +26,13 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ここでは、Adobe Campaign を使用した&#x200B;**調査**&#x200B;タイプのフォームのデザインと、利用可能なオプションおよび設定について説明します。Adobe Campaign を使用して、作成した調査をユーザーが利用できるようにし、回答を収集してデータベースにアーカイブします。
 
-Webフォームは、ツリーのノードを介 **[!UICONTROL Resources > Online > Web applications]** してアクセスします。 To create a survey, click the **[!UICONTROL New]** button above the list of applications, or right-click the list and choose **[!UICONTROL New]**.
+Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンライン／Web アプリケーション]**&#x200B;ノードからアクセスできます。調査を作成するには、アプリケーションのリストの上にある「**[!UICONTROL 新規]**」ボタンをクリックするか、リストを右クリックして、「**[!UICONTROL 新規]**」を選択します。
 
 調査テンプレートを選択します（デフォルトは **[!UICONTROL newSurvey]**）。
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-フォームのページは、入力ゾーン（テキスト）、選択フィールド（リスト、チェックボックスなど）および静的要素（画像、HTML コンテンツなど）を定義および設定できる、特別なエディターで作成されます。They can be collected in &quot;containers&quot; and laid out according to requirements (see [Adding questions](#adding-questions)).
+フォームのページは、入力ゾーン（テキスト）、選択フィールド（リスト、チェックボックスなど）および静的要素（画像、HTML コンテンツなど）を定義および設定できる、特別なエディターで作成されます。フォームのページは、「コンテナ」に収集でき、要件に応じてレイアウトできます（[質問の追加](#adding-questions)を参照）。
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Webフォームは、ツリーのノードを介 **[!UICONTROL Resources > Onlin
 
 ## フィールドの追加 {#adding-fields}
 
-フォームのフィールドは、ユーザーによる情報の入力とオプションの選択を可能にします。For each page in the form, they are created via the first button in the toolbar using the **[!UICONTROL Add using the wizard]** menu.
+フォームのフィールドは、ユーザーによる情報の入力とオプションの選択を可能にします。フォームの各ページでは、ツールバーの最初のボタンから&#x200B;**[!UICONTROL ウィザードを使用して追加]**&#x200B;メニューを使用して作成されます。
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
@@ -52,16 +52,16 @@ Webフォームは、ツリーのノードを介 **[!UICONTROL Resources > Onlin
 
 調査にフィールドを追加する場合、タイプを選択する必要があります。次のオプションを使用できます。
 
-1. **[!UICONTROL Answer a question]**:このオプションを使用すると、回答を保存する新しいフィールド（「アーカイブ済みフィールド」と呼ばれます）を宣言できます。 この場合、参加者が複数回フォームに入力した場合を含め、収集したすべての値が保存されます。このストレージモードは、**調査**&#x200B;でのみ使用できます。「収集した回答 [の保存」を参照](../../web/using/managing-answers.md#storing-collected-answers)。
-1. **[!UICONTROL Edit a recipient]**:このオプションを使用すると、データベース内のフィールドを選択できます。 この場合、ユーザーの回答は、このフィールドに格納されます。各参加者では、保存した最後の値のみが保持され、プロファイルデータに追加されます。
-1. **[!UICONTROL Add a variable]**:このオプションを使用すると、情報がデータベースに保存されないように設定を作成できます。 ローカル変数はアップストリームを宣言できます。また、フィールドを作成する際に、直接追加できます。
-1. **[!UICONTROL Import an existing question]**:このオプションを使用すると、他の調査で作成された既存の質問をインポートできます。
+1. **[!UICONTROL 質問に回答]**：このオプションを使用すると、新しいフィールド（「アーカイブされたフィールド」）を宣言して、回答を格納できます。この場合、参加者が複数回フォームに入力した場合を含め、収集したすべての値が保存されます。このストレージモードは、**調査**&#x200B;でのみ使用できます。[収集した回答の格納](../../web/using/managing-answers.md#storing-collected-answers)を参照してください。
+1. **[!UICONTROL 受信者を編集]**：このオプションを使用すると、データベースのフィールドを選択できます。この場合、ユーザーの回答は、このフィールドに格納されます。各参加者では、保存した最後の値のみが保持され、プロファイルデータに追加されます。
+1. **[!UICONTROL 変数を追加]**：このオプションを使用すると、情報がデータベースに格納されないように、セットアップを作成できます。ローカル変数はアップストリームを宣言できます。また、フィールドを作成する際に、直接追加できます。
+1. **[!UICONTROL 既存の質問をインポート]**：このオプションを使用すると、他の調査で作成した既存の質問をインポートできます。
 
    >[!NOTE]
    >
-   >ストレージモードとフィールドインポートの詳細については、「収集した回 [答の保存」を参照してくださ](../../web/using/managing-answers.md#storing-collected-answers)い。
+   >ストレージモードとフィールドインポートについて詳しくは、「[収集した回答の格納](../../web/using/managing-answers.md#storing-collected-answers)」を参照してください。
 
-追加するフィールドの特性（ドロップダウンリスト、テキストフィールド、チェックボックスなど）は、選択したストレージモードに適応されます。You can change it using the **[!UICONTROL Type]** field of the **[!UICONTROL General]** tab, but make sure to remain consistent with the data type.
+追加するフィールドの特性（ドロップダウンリスト、テキストフィールド、チェックボックスなど）は、選択したストレージモードに適応されます。「**[!UICONTROL 一般]**」タブの「**[!UICONTROL タイプ]**」フィールドを使用してフィールドの特性を変更できますが、データタイプの整合性を維持するようにしてください。
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
@@ -73,7 +73,7 @@ Webフォームは、ツリーのノードを介 **[!UICONTROL Resources > Onlin
 
 ### 複数選択 {#multiple-choice}
 
-For **[!UICONTROL Multiple choice]** type controls, you can define a minimum and maximum number of selections. 例えば、このオプションを使用すると、利用可能なオプションから、少なくとも **2** つの値、最大でも **4** つの値の選択を強制できます。
+**[!UICONTROL 複数選択]**&#x200B;タイプのコントロールについて、選択肢の最小数および最大数を定義できます。例えば、このオプションを使用すると、利用可能なオプションから、少なくとも **2** つの値、最大でも **4** つの値の選択を強制できます。
 
 ![](assets/s_ncs_admin_survey_multichoice_ex1.png)
 
@@ -89,14 +89,14 @@ For **[!UICONTROL Multiple choice]** type controls, you can define a minimum and
 
 ![](assets/s_ncs_admin_survey_multichoice_ex3.png)
 
-In addition, the storage location for this input field must be a **[!UICONTROL Multiple values]** type **archived field**:
+さらに、この入力フィールドのストレージの場所は、**[!UICONTROL 複数値]**&#x200B;タイプの&#x200B;**アーカイブされたフィールド**&#x200B;である必要があります。
 
 ![](assets/s_ncs_admin_survey_multiple_values_field.png)
 
 >[!CAUTION]
 >
 >* この機能は、**調査**&#x200B;タイプのフォームでのみ使用できます。
->* このオプションは、ランダムな質問の表示とは互換性がありません。For more on this, refer to [Adding questions](#adding-questions).
+>* このオプションは、ランダムな質問の表示とは互換性がありません。詳しくは、[質問の追加](#adding-questions)を参照してください。
 
 
 ### 質問の追加 {#adding-questions}
@@ -111,7 +111,7 @@ In addition, the storage location for this input field must be a **[!UICONTROL M
 
 ![](assets/s_ncs_admin_question_label.png)
 
-質問のラベルは、ラベルフィールドに入力されます。この場合、フォームのスタイルシートからのスタイルが適用されます。パーソナライズする **[!UICONTROL Enter the title in HTML format]** オプションを選択します。 これにより、HTML エディターにアクセスできるようになります。
+質問のラベルは、ラベルフィールドに入力されます。この場合、フォームのスタイルシートからのスタイルが適用されます。「**[!UICONTROL HTML 形式でタイトルを入力]**」オプションを選択してパーソナライズします。これにより、HTML エディターにアクセスできるようになります。
 
 >[!NOTE]
 >
@@ -141,5 +141,5 @@ Adobe Campaign による質問のランダムな抽選を有効にできます�
 
 >[!CAUTION]
 >
->When you display a question randomly (**[!UICONTROL Display randomly]** option checked on the page), be careful not to use multiple choice questions for which one or more selections are mandatory.
+>質問をランダムに表示する（ページの「**[!UICONTROL ランダムに表示]**」オプションがチェックされている）場合、1 つ以上の選択肢が必須となる複数選択の質問を使用しないように注意してください。
 

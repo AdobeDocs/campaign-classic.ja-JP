@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classicトランザクションメッセージングアーキテクチャ
-description: ここでは、Adobe Campaign Classicのトランザクションメッセージングアーキテクチャについて説明します。
+title: Adobe Campaign Classic トランザクションメッセージのアーキテクチャ
+description: ここでは、Adobe Campaign Classic トランザクションメッセージのアーキテクチャについて説明します。
 page-status-flag: never-activated
 uuid: a8fe7a37-6df7-49f4-838f-97a72e4a38f3
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: a910d5fe-cef4-47d8-b3bc-0055ef0d1afd
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 25ae29490f8b4c58dad499669f5bccff43de8b7a
 
 ---
@@ -37,7 +37,7 @@ Adobe Campaign のトランザクションメッセージ機能（Message Center
 
 >[!CAUTION]
 >
->複数の制御インスタンスでの実行クラスターの共有は、オンプレミス環境でのみサポートされます。
+>複数のコントロールインスタンスでの実行クラスターの共有は、オンプレミス環境でのみサポートされます。
 
 1 つの実行クラスターを複数のコントロールインスタンスで共有することができます。例えば、複数の専門店舗を管理している場合、ブランドごとにそれぞれ 1 つずつコントロールセンターを設定し、すべてのコントロールセンターを同じ実行クラスターにリンクすることができます。
 
@@ -45,7 +45,7 @@ Adobe Campaign のトランザクションメッセージ機能（Message Center
 
 >[!NOTE]
 >
->必要な設定の詳細については、「複数のコントロールインスタ [ンスの使用」を参照してくださ](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances)い。
+>必要な設定について詳しくは、[複数のコントロールインスタンスの使用](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances)を参照してください。
 
 ## インスタンスのインストール {#installing-instances}
 
@@ -55,13 +55,13 @@ Adobe Campaign のトランザクションメッセージ機能（Message Center
 >
 >コントロールインスタンスおよび実行インスタンスは、異なるマシンにインストールする必要があります。同じ Campaign インスタンスを共有できなくなります。
 
-複数のチャネルを使用する場合は、トランザクションメッセージパッケージをインストールする前に関連パッケージをインストールして設定する必要があります。「配信チャ [ネルの追加」を参照](#adding-a-delivery-channel)。
+複数のチャネルを使用する場合は、トランザクションメッセージパッケージをインストールする前に関連パッケージをインストールして設定する必要があります。[配信チャネルの追加](#adding-a-delivery-channel)を参照してください。
 
-* To install the control instance on your machine, select the **[!UICONTROL Transactional message control]** module.
+* コントロールインスタンスをインストールするには、「**[!UICONTROL トランザクションメッセージコントロール]**」モジュールを選択します。
 
    ![](assets/messagecenter_install_controlinstance_001.png)
 
-* To install the execution instance on your machine, select the **[!UICONTROL Transactional message execution]** module.
+* 実行インスタンスをインストールするには、「**[!UICONTROL トランザクションメッセージ実行]**」モジュールを選択します。
 
    ![](assets/messagecenter_install_executioninstance_001.png)
 
@@ -69,9 +69,9 @@ Adobe Campaign のトランザクションメッセージ機能（Message Center
 
 配信チャネル（モバイルチャネル、モバイルアプリチャネルなど）の追加は、トランザクションメッセージパッケージのインストール前におこなう必要があります。E メールチャネルのトランザクションメッセージプロジェクトを開始し、プロジェクトの最中に新規でチャネルを追加することにした場合は、次の手順に従います。
 
-1. Install the channel you need, for example the **Mobile channel**, using the package import wizard ( **[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]** ).
-1. ファイルのインポート( **[!UICONTROL Tools > Advanced > Import package... > File]** )を実行し、datakitnmspacemessageCenter.xml ****`[Your language]`**ファイルを選択します** 。
-1. では、追加 **[!UICONTROL XML content of the data to import]** したチャネルに対応する配信テンプレートのみを保持します。 For example, if you have added the **Mobile channel**, keep only the **entities** element that corresponds to the **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). **モバイルアプリチャネル**&#x200B;を追加した場合は、**iOS トランザクションメッセージ**（iosTriggerMessage）と **Android トランザクションメッセージ**（androidTriggerMessage）のみを残します。
+1. パッケージインポートウィザードを使用し、追加したいチャネル、例えば&#x200B;**モバイルチャネル**&#x200B;をインストールします（**[!UICONTROL ツール／詳細設定／パッケージをインポート／Adobe Campaign パッケージ]**）。
+1. ファイルをインポートし（**[!UICONTROL ツール／詳細設定／パッケージをインポート／ファイル]**）、**datakitnms **`[Your language]`**packagemessageCenter.xml** ファイルを選択します。
+1. 「**[!UICONTROL インポートするデータの XML コンテンツ]**」には、追加したチャネルに対応する配信テンプレートのみを残します。例えば、**モバイルチャネル**&#x200B;を追加した場合には、**[!UICONTROL モバイルトランザクションメッセージ]**（smsTriggerMessage）に対応する **entities** 要素のみを残します。**モバイルアプリチャネル**&#x200B;を追加した場合は、**iOS トランザクションメッセージ**（iosTriggerMessage）と **Android トランザクションメッセージ**（androidTriggerMessage）のみを残します。
 
    ![](assets/messagecenter_install_channel.png)
 
@@ -127,7 +127,7 @@ E メールキャンペーン用に作成するのと同様に、配信テンプ
 
 * モバイルデバイス ID（Android では **registrationId**、iOS では **deviceToken**）。この ID が、通知を送信する宛先の「アドレス」を表します。
 * モバイルアプリケーションへのリンクまたは統合キー（**uuid**）。アプリケーション固有の接続情報を復元することができます。
-* 通知の送信先のチャネル(**whisedChannel**):iOSの場合41、Androidの場合42
+* 通知が送信されるチャネル（**wishedChannel**）：iOS は 41、Android は 42 です
 * パーソナライズに役立つすべてのデータ。
 
 以下は、この情報を含むイベントの例です。
@@ -163,68 +163,68 @@ LINE チャネルとトランザクションメッセージを組み合わせる
 
 トランザクションメッセージモジュールを LINE と共に使用するには、**マーケティング**&#x200B;インスタンスと&#x200B;**実行**&#x200B;インスタンスの設定で次の要素が必要になります。
 
-* 両方のインスタンスに **[!UICONTROL LINE Connect]** パッケージをインストールします。
-* マーケティング **[!UICONTROL Transactional message control]** インスタンスにパッケージを、実行インスタンス **[!UICONTROL Transactional message execution]** にパッケージをインストールします。
+* **[!UICONTROL LINE コネクト]**&#x200B;パッケージを両方のインスタンスにインストールします。
+* **[!UICONTROL トランザクションメッセージコントロール]**&#x200B;パッケージをマーケティングインスタンスに、**[!UICONTROL トランザクションメッセージ実行]**&#x200B;パッケージを実行インスタンスに、それぞれインストールします。
 * 両方のインスタンスで LINE の&#x200B;**外部アカウント**&#x200B;と&#x200B;**サービス**&#x200B;を作成します。このとき、同じ名前を使用してこれらが同期されるようにします。LINE の外部アカウントとサービスの作成方法について詳しくは、[この節](../../delivery/using/line-channel.md#creating-a-line-account-and-an-external-account-)を参照してください。
 
-Then, from the **[!UICONTROL Explorer]** , in **[!UICONTROL Platform]** > **[!UICONTROL External account]** , you need to configure different external accounts on both instances:
+次に、**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;を選択して、それぞれのインスタンスで異なる外部アカウントを設定する必要があります。
 
-1. Create an **[!UICONTROL External database]** external account in your **execution** instance with the following configuration:
+1. **実行**&#x200B;インスタンスでは、**[!UICONTROL 外部データベース]**&#x200B;外部アカウントを次の設定で作成します。
 
    ![](assets/line_config_mc.png)
 
-   * **[!UICONTROL Label]** および **[!UICONTROL Internal name]** :必要に応じて外部アカウントに名前を付けます。
-   * **[!UICONTROL Type]** :を選択し **[!UICONTROL External database]** ます。
-   * **[!UICONTROL Enabled]** ボックスをオンにする必要があります。
-   カテゴリか **[!UICONTROL Connection]** ら：
+   * **[!UICONTROL ラベル]**&#x200B;および&#x200B;**[!UICONTROL 内部名]**：必要に応じて外部アカウントに名前を付けます。
+   * **[!UICONTROL タイプ]**：「**[!UICONTROL 外部データベース]**」を選択します。
+   * 「**[!UICONTROL 有効]**」ボックスをオンにする必要があります。
+   **[!UICONTROL 接続]**&#x200B;カテゴリで、以下の設定をおこないます。
 
-   * **[!UICONTROL Type]** :データベースサーバ（PostgresSQLなど）を選択します。
-   * **[!UICONTROL Server]** :データベースサーバーのURLを入力します。
-   * **[!UICONTROL Account]** :データベースアカウントを入力します。
+   * **[!UICONTROL タイプ]**：データベースサーバー（例：PostgresSQL）を選択します。
+   * **[!UICONTROL サーバー]**：データベースサーバーの URL を入力します。
+   * **[!UICONTROL アカウント]**：データベースアカウントを入力します。
 
       >[!NOTE]
       >
-      >データベースユーザーは、FDA接続に関して、次の表の読み取り権限を持っている必要があります。XtkOption、NmsVisitor、NmsVisitorSub、NmsService、NmsBroadLogRtEvent、NmsTrackingLogRtEvent、NmsTrackingLogBatchEvent、NmsNmsVisitorrtEvent、NmsBatchEvent、NmsBroadLogMsg、NmsTrackingUrl、NmsDelivery、NmsWebTrackingLogXtkFolder。
+      >データベースユーザーは、FDA 接続に関するテーブル（XtkOption、NmsVisitor、NmsVisitorSub、NmsService、NmsBroadLogRtEvent、NmsBroadLogBatchEvent、NmsTrackingLogRtEvent、NmsTrackingLogBatchEvent、NmsRtEvent、NmsBatchEvent、NmsBroadLogMsg、NmsTrackingUrl、NmsDelivery、NmsWebTrackingLogXtkFolder）の読み取り権限を持っている必要があります。
 
-   * **[!UICONTROL Password]** :データベースアカウントのパスワードを入力します。
-   * **[!UICONTROL Database]** :実行インスタンスのデータベース名を入力します。
-   * **[!UICONTROL Target of an HTTP relay to remote database's account]** ボックスをオンにする必要があります。
+   * **[!UICONTROL パスワード]**：データベースアカウントのパスワードを入力します。
+   * **[!UICONTROL データベース]**：実行インスタンスのデータベース名を入力します。
+   * 「**[!UICONTROL リモートデータベースへの HTTP リレーアカウントのターゲット]**」 ボックスをオンにする必要があります。
 
 
-1. Create an **[!UICONTROL External Database]** account in your **marketing** instance with the following configuration.
+1. **マーケティング**&#x200B;インスタンスでは、**[!UICONTROL 外部データベース]**&#x200B;アカウントを次の設定で作成します。
 
    ![](assets/line_config_mc_1.png)
 
-   * **[!UICONTROL Label]** および **[!UICONTROL Internal name]** :必要に応じて外部アカウントに名前を付けます。
-   * **[!UICONTROL Type]** :を選択し **[!UICONTROL External database]** ます。
+   * **[!UICONTROL ラベル]**&#x200B;および&#x200B;**[!UICONTROL 内部名]**：必要に応じて外部アカウントに名前を付けます。
+   * **[!UICONTROL タイプ]**：「**[!UICONTROL 外部データベース]**」を選択します。
    * 「有効」ボックスをオンにする必要があります。
-   カテゴリか **[!UICONTROL Connection]** ら：
+   **[!UICONTROL 接続]**&#x200B;カテゴリで、以下の設定をおこないます。
 
-   * **[!UICONTROL Type]** :を選択し **[!UICONTROL HTTP relay to remote Database]** ます。
-   * **[!UICONTROL Server]** :キャンペーンの実行インスタンスのサーバーURLを入力します。
-   * **[!UICONTROL Account]** : enter the account used to access your execution instance.
-   * **[!UICONTROL Password]** : enter the password for the account used to access your execution instance.
-   * **[!UICONTROL Data Source]** :次の構文を入力しま **[!UICONTROL nms:extAccount:ID of your external database account in the execution instance]** す。
+   * **[!UICONTROL タイプ]**：「**[!UICONTROL リモートデータベースへの HTTP リレー]**」を選択します。
+   * **[!UICONTROL サーバー]**：キャンペーンのサーバー URL（実行インスタンスのもの）を入力します。
+   * **[!UICONTROL アカウント]**：実行インスタンスへのアクセスに使用するアカウントを入力します。
+   * **[!UICONTROL パスワード]**：実行インスタンスへのアクセスに使用するアカウントのパスワードを入力します。
+   * **[!UICONTROL データソース]**：**[!UICONTROL nms:extAccount:ID]** という構文で、実行インスタンスの外部データベースアカウントを入力します。
 
 
-1. Create an **[!UICONTROL Execution instance]** external account in your **marketing** instance using the following configuration to create the data synchronization workflow:
+1. **マーケティング**&#x200B;インスタンスで、して、データ同期ワークフローを作成するための&#x200B;**[!UICONTROL 実行インスタンス]**&#x200B;外部アカウントを次の設定で作成します。
 
    ![](assets/line_config_mc_2.png)
 
-   * **[!UICONTROL Label]** および **[!UICONTROL Internal name]** :必要に応じて外部アカウントに名前を付けます。
-   * **[!UICONTROL Type]** :を選択し **[!UICONTROL Execution instance]** ます。
+   * **[!UICONTROL ラベル]**&#x200B;および&#x200B;**[!UICONTROL 内部名]**：必要に応じて外部アカウントに名前を付けます。
+   * **[!UICONTROL タイプ]**：**[!UICONTROL 実行インスタンス]**&#x200B;を選択します。
    * 「有効」ボックスをオンにする必要があります。
-   カテゴリか **[!UICONTROL Connection]** ら：
+   **[!UICONTROL 接続]**&#x200B;カテゴリで、以下の設定をおこないます。
 
    * **[!UICONTROL URL]**：実行インスタンスの URL を入力します。
-   * **[!UICONTROL Account]** :実行インスタンスへのアクセスに使用するアカウントを入力します。
-   * **[!UICONTROL Password]** :実行インスタンスへのアクセスに使用するアカウントのパスワードを入力します。
-   カテゴリか **[!UICONTROL Account connection method]** ら：
+   * **[!UICONTROL アカウント]**：実行インスタンスへのアクセスに使用するアカウントを入力します。
+   * **[!UICONTROL パスワード]**：実行インスタンスへのアクセスに使用するアカウントのパスワードを入力します。
+   **[!UICONTROL アカウント接続方法]**&#x200B;カテゴリで、以下の設定をおこないます。
 
-   * **[!UICONTROL Method]** :を選択し **[!UICONTROL Federated Data Access (FDA)]** ます。
-   * **[!UICONTROL FDA account]** :ドロップダウンからFDAアカウントを選択します。
-   * ボタンをクリッ **[!UICONTROL Create the archiving workflow]** クします。
-   * LINEデータ同期ワ **[!UICONTROL Create data synchronization workflow]** ークフローを作成するには、このボタンをクリックします。
+   * **[!UICONTROL 方法]**：「**[!UICONTROL Federated Data Access（FDA）]**」を選択します。
+   * **[!UICONTROL FDA アカウント]**：ドロップダウンからお使いの FDA アカウントを選択します。
+   * 「**[!UICONTROL アーカイブワークフローを作成]**」ボタンをクリックします。
+   * 「**[!UICONTROL データ同期ワークフローを作成]**」ボタンをクリックして、LINE データ同期ワークフローを作成します。
 
 
 

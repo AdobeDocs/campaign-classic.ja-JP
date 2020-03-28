@@ -14,7 +14,7 @@ discoiquuid: c89926b6-488e-4c72-8f67-b6af388bade3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -24,29 +24,29 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## 回答ストレージフィールド {#response-storage-fields}
 
-フォームへの回答は、データベースのフィールドか、一時的にローカル変数に保存できます。回答のストレージモードは、フィールド作成時に選択されます。It can be edited via the **[!UICONTROL Edit storage...]** link.
+フォームへの回答は、データベースのフィールドか、一時的にローカル変数に保存できます。回答のストレージモードは、フィールド作成時に選択されます。これは、「**[!UICONTROL ストレージを編集]**」リンクを使用して編集できます。
 
 フォームの各入力フィールドについて、次のストレージオプションを使用できます。
 
 ![](assets/s_ncs_admin_survey_select_storage.png)
 
-* **[!UICONTROL Edit a recipient]**
+* **[!UICONTROL 受信者を編集]**
 
-   データベースのフィールドを選択できます。ユーザーの回答はこのフィールドに格納されます。各ユーザーに対して、最後に入力した値のみが保存されます。プロファイルに追加されます。データベー [スへのデータの格納を参照](#storing-data-in-the-database)。
+   データベースのフィールドを選択できます。ユーザーの回答はこのフィールドに格納されます。各ユーザーごとに、最後に入力した値のみが保存され、プロファイルに追加されます。[データベースへのデータの格納](#storing-data-in-the-database)を参照してください。
 
-* **[!UICONTROL Variable]**
+* **[!UICONTROL 変数]**
 
-   情報をデータベースに格納したくない場合、変数を使用できます。ローカル変数はアップストリームを宣言できます。詳しくは、デ [ータのローカル変数への格納を参照してください](#storing-data-in-a-local-variable)。
+   情報をデータベースに格納したくない場合、変数を使用できます。ローカル変数はアップストリームを宣言できます。[ローカル変数へのデータの格納](#storing-data-in-a-local-variable)を参照してください。
 
-### Storing data in the database {#storing-data-in-the-database}
+### データベースへのデータの格納 {#storing-data-in-the-database}
 
-To save the data in an existing field of the database, click the **[!UICONTROL Edit expression]** icon and select it from the list of available fields.
+データベースの既存のフィールドにデータを保存するには、**[!UICONTROL 式を編集]**&#x200B;アイコンをクリックして、利用可能なフィールドのリストから選択します。
 
 ![](assets/s_ncs_admin_survey_storage_type1.png)
 
 >[!NOTE]
 >
->デフォルトの参照ドキュメントは、**nms:recipient** スキーマです。To view it or to choose a new one, select the form from the list, and click the **[!UICONTROL Properties]** button.
+>デフォルトの参照ドキュメントは、**nms:recipient** スキーマです。それを表示するか新しく選択するには、リストからフォームを選択して、**[!UICONTROL プロパティ]**&#x200B;ボタンをクリックします。
 
 ### ローカル変数へのデータの格納 {#storing-data-in-a-local-variable}
 
@@ -56,11 +56,11 @@ To save the data in an existing field of the database, click the **[!UICONTROL E
 
 ![](assets/s_ncs_admin_survey_no_storage_variable.png)
 
-It is stored in a variable which must be selected when the drop-down box is created, or via the **[!UICONTROL Edit storage...]** link.
+ドロップダウンボックスが作成される際に選択される必要がある変数か、「**[!UICONTROL ストレージを編集]**」リンクを使用して格納されます。
 
 ![](assets/s_ncs_admin_survey_no_storage_variable2.png)
 
-You can display existing variables and create new ones via the **[!UICONTROL Edit variables...]** link. Click the **[!UICONTROL Add]** button to create a new variable.
+既存の変数を表示して、「**[!UICONTROL 変数を編集]**」リンクから新しい変数を作成できます。「**[!UICONTROL 追加]**」ボタンをクリックして、新しい変数を作成します。
 
 ![](assets/s_ncs_admin_survey_add_a_variable.png)
 
@@ -68,7 +68,7 @@ You can display existing variables and create new ones via the **[!UICONTROL Edi
 
 >[!NOTE]
 >
->各フォームについて、変数のアップストリームを作成できます。To do this, select the form and click the **[!UICONTROL Properties]** button. The **[!UICONTROL Variables]** tab contains the local variables for the form.
+>各フォームについて、変数のアップストリームを作成できます。これをおこなうには、フォームを選択して、**[!UICONTROL プロパティ]**&#x200B;ボタンをクリックします。「**[!UICONTROL 変数]**」タブには、フォームのローカル変数が含まれます。
 
 **条件が設定されたローカルストレージの例**
 
@@ -112,7 +112,7 @@ You can display existing variables and create new ones via the **[!UICONTROL Edi
 
    >[!NOTE]
    >
-   >Unlike the other fields for which `<%=` characters are replaced with escape characters, the HTML content is saved as is by using the `<%==` syntax.
+   >`<%=` 文字がエスケープ文字に置き換わるその他のフィールドと異なり、HTML コンテンツは、`<%==` 構文を使用することで、そのまま保存されます。
 
 ## Web フォームの回答の保存 {#saving-web-forms-answers}
 
@@ -122,9 +122,9 @@ You can display existing variables and create new ones via the **[!UICONTROL Edi
 
 このボックスを使用するには、次の 2 つの方法があります。
 
-* If the Web form is accessed via a link sent in an email, and if the user accessing the application is already in the database, you can check the **[!UICONTROL Update the preloaded record]** option. 詳しくは、「電子メールでのフォーム [の配信」を参照してください](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email)。
+* Web フォームが E メールで送信したリンクでアクセスできる場合で、アプリケーションにアクセスするユーザーが既にデータベースにある場合、「**[!UICONTROL プリロードされたレコードを更新]**」オプションをチェックできます。詳しくは、[E メールによるフォームの配信](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email)を参照してください。
 
-   この場合、Adobe Campaign は、ユーザープロファイルの暗号化されたプライマリキー（Adobe Campaign が各プロファイルに割り当てた一意の識別子）を使用します。プリロードボックスを使用して情報をプリロードするように設定する必要があります。詳しくは、「フォームデータのプリロ [ード」を参照してください](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data)。
+   この場合、Adobe Campaign は、ユーザープロファイルの暗号化されたプライマリキー（Adobe Campaign が各プロファイルに割り当てた一意の識別子）を使用します。プリロードボックスを使用して情報をプリロードするように設定する必要があります。詳しくは、[フォームデータのプリロード](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data)を参照してください。
 
    >[!CAUTION]
    >
@@ -134,7 +134,7 @@ You can display existing variables and create new ones via the **[!UICONTROL Edi
 
    ![](assets/s_ncs_admin_survey_save_box_edit.png)
 
-By default, the data is imported into the database by an **[!UICONTROL Update or insertion]** operation: if it exists in the database, the element is updated (for example, the selected newsletter or the e-mail address entered). 存在しない場合、情報は追加されます。
+デフォルトでは、データは、**[!UICONTROL 更新または挿入]**&#x200B;操作によってデータベースにインポートされます。データベースに存在する場合、要素は更新されます（例えば、選択されたニュースレターまたは入力された E メールアドレス）。存在しない場合、情報は追加されます。
 
 ただし、この動作を変更できます。これをおこなうには、要素のルートを選択して、ドロップダウンリストから実行する操作を選択します。
 
@@ -144,7 +144,7 @@ By default, the data is imported into the database by an **[!UICONTROL Update or
 
 >[!NOTE]
 >
->Possible operations are: **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.\
+>実行できる操作は、**[!UICONTROL シンプルな紐付け]**、**[!UICONTROL 更新または挿入]**、**[!UICONTROL 挿入]**、**[!UICONTROL 更新]**、**[!UICONTROL 削除]**&#x200B;です。\
 >オペレーターのデフォルトのフォルダーは、オペレーターが書き込み権限を持つ最初のフォルダーです。\
 >[この節](../../platform/using/access-management.md)を参照してください。
 

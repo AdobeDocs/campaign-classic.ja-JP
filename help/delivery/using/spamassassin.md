@@ -14,7 +14,7 @@ discoiquuid: d41658ab-ee79-4a5c-a165-d94b81eb2b33
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -46,7 +46,7 @@ E メール配信を作成して、そのコンテンツを定義したら、以
 
 配信の作成およびデザインについて詳しくは、[この節](../../delivery/using/about-email-channel.md)を参照してください。
 
-1. Go to the **[!UICONTROL Preview]** tab.
+1. 「**[!UICONTROL プレビュー]**」タブに移動します。
 1. 配信をプレビューする受信者を選択します。
 
    ![](assets/s_tn_del_preview_spamassassin_recipient.png)
@@ -59,12 +59,12 @@ E メール配信を作成して、そのコンテンツを定義したら、以
 
    ![](assets/s_tn_del_preview_spamassassin_ko.png)
 
-1. Click the **[!UICONTROL More...]** link next to the warning.
-1. タブを選択 **[!UICONTROL Anti-spam checking]** します。
-1. Go to the **[!UICONTROL Points / Rule / Description]** section to view the reasons for this risk.
+1. 警告の隣にある&#x200B;**[!UICONTROL 詳細...]** リンクをクリックします。
+1. 「**[!UICONTROL スパム対策チェック]**」タブを選択します。
+1. 「**[!UICONTROL ポイント / ルール / 説明]**」セクションに移動して、このリスクの原因を表示します。
 
    ![](assets/s_tn_del_msg_spamassassin_ko.png)
 
 >[!NOTE]
 >
->Each time you click the **[!UICONTROL Anti-spam checking]**, the SpamAssassin service is called and the message is analyzed again for anti-spam detection. コンテンツを変更してから、スパム対策分析を再実行するようにしてください。
+>「**[!UICONTROL スパム対策チェック]**」をクリックするたびに、SpamAssassin サービスが呼び出され、スパム対策検出のためにメッセージが再分析されます。コンテンツを変更してから、スパム対策分析を再実行するようにしてください。

@@ -14,7 +14,7 @@ discoiquuid: dc3d8998-9493-4d71-b3e2-6f9531cb9bac
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -35,7 +35,7 @@ Message Center モジュールに関連するテクニカルワークフロー�
   </tr> 
   <tr> 
    <td> <span class="uicontrol">イベントステータスを更新</span> <br /> </td> 
-   <td> <span class="uicontrol">updateEventsStatus</span><br /> </td> 
+   <td> <span class="uicontrol">updateEventsStatus</span> <br /> </td> 
    <td> イベントにステータスを割り当てます。イベントのステータスには次のものがあります。<br /> 
     <ul> 
      <li> <p><strong>保留中</strong>：イベントはキューで待機中です。イベントはまだメッセージテンプレートと関連付けられていません。</p> </li> 
@@ -48,13 +48,13 @@ Message Center モジュールに関連するテクニカルワークフロー�
   </tr> 
   <tr> 
    <td> <span class="uicontrol">バッチイベントを処理中</span> <br /> </td> 
-   <td> <span class="uicontrol">batchEventsProcessing</span><br /> </td> 
-   <td> This workflow lets you put batch events into a queue before associating them with a message template. <br /> </td> 
+   <td> <span class="uicontrol">batchEventsProcessing</span> <br /> </td> 
+   <td> メッセージテンプレートに関連付ける前に、バッチイベントをキューに入れます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">リアルタイムイベントの処理</span> <br /> </td> 
-   <td> <span class="uicontrol">rtEventsProcessing</span><br /> </td> 
-   <td> This workflow lets you put real-time events into a queue before associating them with a message template. <br /> </td> 
+   <td> <span class="uicontrol">rtEventsProcessing</span> <br /> </td> 
+   <td> メッセージテンプレートに関連付ける前に、リアルタイムイベントをキューに入れます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -14,7 +14,7 @@ discoiquuid: d52c3e72-bac0-48d9-9750-0a30aa816b83
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ---
@@ -27,8 +27,8 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 カテゴリが常にレコメンデーションに含められるようにするには、次の手順に従います。
 
 1. エクスプローラーを開き、ツリー構造のオファーカタログをクリックします。
-1. タブをクリック **[!UICONTROL Eligibility]** し、ボックスに目盛りを **[!UICONTROL Always include this category in the recommendations]** 付けます。
-1. Finish and approve by clicking **[!UICONTROL Save]**.
+1. 「**[!UICONTROL 実施要件]**」タブをクリックし、「**[!UICONTROL レコメンデーションにこのカテゴリを常に含める]**」チェックボックスをオンにします。
+1. 「**[!UICONTROL 保存]**」をクリックして確定し、操作を完了します。
 
    ![](assets/offer_cat_default_001.png)
 

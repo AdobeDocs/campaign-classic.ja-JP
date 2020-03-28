@@ -1,7 +1,7 @@
 ---
 title: よくある質問
 seo-title: よくある質問
-description: Campaign Classic FAQ
+description: Campaign Classic に関する FAQ
 page-status-flag: never-activated
 uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
 contentOwner: sauviat
@@ -13,25 +13,25 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 994ec35e37a1c26e83a8dd2ae31f6594cadd4c45
 
 ---
 
 
-# 開発者向けFAQ {#dev-faq}
+# 開発者向け FAQ {#dev-faq}
 
 オープンなソリューションである Adobe Campaign は、カスタマイズと高度なアプリケーション開発ができるようになっています。
 
-## Campaignデータモデルとは何ですか。 {#what-is-the-campaign-data-model}
+## Campaign データモデルとは何ですか？{#what-is-the-campaign-data-model}
 
-Adobe Campaignデータベースの概念データモデルは、一連の組み込みテーブルとそのインタラクションで構成されます。 アプリケーションに格納されるデータの物理的な構造と論理的な構造は、XMLで記述されます。 スキーマと呼ばれるAdobe Campaign固有の文法に従います。 Adobe Campaignスキーマについて詳しくは、こ [の節を参照してください](../../configuration/using/about-schema-edition.md)。
+Adobe Campaign データベースの概念データモデルは、一連の組み込みテーブルとそのインタラクションで構成されます。アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。スキーマと呼ばれる Adobe Campaign 特有の文法に従います。Adobe Campaign スキーマについて詳しくは、[この節](../../configuration/using/about-schema-edition.md)を参照してください。
 
-[Campaignデータモデルの詳細については、ここをクリックしてください](https://helpx.adobe.com/campaign/kb/acc-datamodel.html)。
+Campaign データモデルについて詳しくは、[ここをクリック](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html)してください。
 
-ベストプラクティスにつ [いては、この記事](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html)。
+ベストプラクティスについては、[この記事](https://helpx.adobe.com/jp/campaign/kb/acc-data-model-best-practices.html)を参照してください。
 
-## How to work with Campaign schemas? {#how-to-work-with-campaign-schemas-}
+## Campaign スキーマの操作方法は？{#how-to-work-with-campaign-schemas-}
 
 Adobe Campaign では、以下のためにデータスキーマが使用されます。
 
@@ -41,13 +41,13 @@ Adobe Campaign では、以下のためにデータスキーマが使用され�
 
 データスキーマの操作方法やニーズに対処するための Campaign の拡張およびカスタマイズの方法については、[テーブルとスキーマの概要](../../configuration/using/about-schema-edition.md)を参照してください。
 
-## How to use a custom recipient table? {#how-to-use-a-custom-recipient-table-}
+## カスタム受信者テーブルの使用方法は？{#how-to-use-a-custom-recipient-table-}
 
 メッセージを送信するために、Campaign で標準以外の受信者テーブルを作成および実装できます。
 
 [詳しくはここをクリック](../../configuration/using/about-custom-recipient-table.md)
 
-## What are the best practices to define queries in Campaign? {#what-are-the-best-practices-to-define-queries-in-campaign-}
+## Campaign でクエリを定義するためのベストプラクティスは？{#what-are-the-best-practices-to-define-queries-in-campaign-}
 
 Adobe Campaign クエリエディターは、データの調査やセグメントの作成をおこなうための強力なツールです。
 
@@ -57,9 +57,9 @@ Adobe Campaign のクエリツールは、ターゲット母集団の作成、�
 
 クエリは、選択したテーブルのフィールドを使用するか、数式を使用して作成します。Campaign データベースに対するクエリを作成する際の主な原則については、[このページ](../../platform/using/about-queries-in-campaign.md)を参照してください。
 
-[ここをクリックして](../../workflow/using/query.md) 、Campaignクエリエディターを検出します。
+[ここをクリック](../../workflow/using/query.md)して、Campaign クエリエディターを開きます。
 
-## How can I import a data package? {#how-can-i-import-a-data-package-}
+## データパッケージはどうすればインポートできますか？{#how-can-i-import-a-data-package-}
 
 Adobe Campaign では、パッケージシステムを通じて、プラットフォーム設定とデータをエクスポートまたはインポートできます。データパッケージを使用すると、XML 形式のファイル経由で Adobe Campaign データベース内のエンティティを表示できます。パッケージに含まれる 1 つのエンティティは、それに該当するすべてのデータによって表現されます。
 
@@ -67,6 +67,6 @@ Adobe Campaign では、パッケージシステムを通じて、プラット�
 
 Campaign の設定をインポートおよびエクスポートするためにデータパッケージを使用する方法については、[ここをクリック](../../platform/using/working-with-data-packages.md)してください。
 
-## Campaign Classic APIのリストはどこで入手できますか。 {#where-can-i-find-the-list-of-campaign-classic-apis}
+## Campaign Classic API のリストはどこにありますか？{#where-can-i-find-the-list-of-campaign-classic-apis}
 
-詳細な説明を含むすべてのCampaign APIは、この専用ドキュメントで [入手できます](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)。
+詳細な説明を含むすべての Campaign API は、この[専用ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)で利用できます。

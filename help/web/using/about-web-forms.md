@@ -14,7 +14,7 @@ discoiquuid: 3b8e4691-fcbc-48ef-b529-11c9a9a9d788
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -36,11 +36,11 @@ Adobe Campaign には、Web フォームを定義して公開するためのグ�
 
 >[!CAUTION]
 >
->WebアプリケーションおよびWebフォームを設定する場合は、最低900ピクセルの垂直解像度が必要です(例：1600 x 900)。
+>Web アプリケーションおよび Web フォームを設定する場合、縦の解像度は 900 ピクセル以上必要です（例：1600 x 900）。
 
-Web forms are accessed via the Web Applications menu of the **Campaigns** tab. Adobe Campaignツリーでは、ノードの下にグループ化され **[!UICONTROL Resources > Online > Web Applications]** ます。
+Web フォームには、「**キャンペーン**」タブの Web アプリケーションメニューからアクセスします。Adobe Campaign ツリーで、**[!UICONTROL リソース／オンライン／Web アプリケーション]**&#x200B;ノードにグループ化されています。
 
-To create a Web form, click the **[!UICONTROL Create]** button above the list of Web applications.
+Web フォームを作成するには、Web アプリケーションのリストの上の「**[!UICONTROL 作成]**」ボタンをクリックします。
 
 ![](assets/webapp_create_new.png)
 
@@ -52,7 +52,7 @@ Web フォームテンプレートを選択します（デフォルトは **[!UI
 
 ![](assets/webapp_empty_dashboard.png)
 
-The **[!UICONTROL Edit]** tab lets you create your content.
+「**[!UICONTROL 編集]**」タブを使用すると、コンテンツを作成できます。
 
 ![](assets/webapp_edit_tab.png)
 
@@ -64,15 +64,15 @@ Web フォームの設定とコンテンツを定義するには、次の手順�
 
 * ページの順番を定義し、表示を調節します。
 
-   この手順の詳細は、「Webフォーム [ページの順序付けの定義」で説明します](../../web/using/defining-web-forms-page-sequencing.md)。
+   この手順について詳しくは、[Web フォームページの順番の定義](../../web/using/defining-web-forms-page-sequencing.md)を参照してください。
 
 * 必要に応じて、コンテンツを翻訳します。
 
-   この手順は、Webフォームの [翻訳で詳しく説明します](../../web/using/translating-a-web-form.md)。
+   この手順について詳しくは、[Web フォームの翻訳](../../web/using/translating-a-web-form.md)を参照してください。
 
 ## Web フォームの設計について {#about-web-forms-designing}
 
-フォームのページは、入力ゾーン（テキスト）、選択フィールド（リスト、チェックボックスなど）および静的要素（画像、HTLM コンテンツなど）を定義および設定できる、専用のエディターで作成されます。They can be grouped into containers and their layout altered to suit your needs (for more on this, refer to [Creating containers](../../web/using/defining-web-forms-layout.md#creating-containers)).
+フォームのページは、入力ゾーン（テキスト）、選択フィールド（リスト、チェックボックスなど）および静的要素（画像、HTLM コンテンツなど）を定義および設定できる、専用のエディターで作成されます。フォームのページは、コンテナにグループ化したり、ニーズに合わせてレイアウトを変更したりできます（詳しくは、[コンテナの作成](../../web/using/defining-web-forms-layout.md#creating-containers)を参照）。
 
 以降の節では、フォーム画面のコンテンツとレイアウトの定義方法について説明します。
 
@@ -83,8 +83,8 @@ Web フォームの設定とコンテンツを定義するには、次の手順�
 
 >[!NOTE]
 >
->* During page design, you can view the final rendering in the **[!UICONTROL Preview]** tab. 変更を表示するには、最初にフォームを保存します。Any errors are displayed in the **[!UICONTROL Log]** tab.
->* ページの表示と情報ストレージが適切な順序でおこなわれることを確認するには、Web フォームのデバッグモードを有効にします。To do this, go to the **[!UICONTROL Preview]** sub-tab and check the **[!UICONTROL Enable debug mode]** box: all collected information and possible execution errors will be displayed at the bottom of each page.
+>* ページデザイン中に、「**[!UICONTROL プレビュー]**」タブで最終的なレンダリングを表示できます。変更を表示するには、最初にフォームを保存します。すべてのエラーが「**[!UICONTROL ログ]**」タブに表示されます。
+>* ページの表示と情報ストレージが適切な順序でおこなわれることを確認するには、Web フォームのデバッグモードを有効にします。これをおこなうには、「**[!UICONTROL プレビュー]**」サブタブに移動し、「**[!UICONTROL デバッグモードを有効にする]**」チェックボックスをオンにして、すべての収集された情報と可能性のある実行エラーが各ページの下部に表示されるようにします。
 >
 
 
@@ -99,7 +99,7 @@ Web フォームの設定とコンテンツを定義するには、次の手順�
 
 ![](assets/s_ncs_admin_webform_select_storage.png)
 
-「**[!UICONTROL Ok]**」をクリックして、選択を承認します。
+「**[!UICONTROL OK]**」をクリックして、選択を承認します。
 
 ![](assets/s_ncs_admin_webform_confirm_storage.png)
 

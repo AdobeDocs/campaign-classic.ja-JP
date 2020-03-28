@@ -1,6 +1,6 @@
 ---
 title: データ抽出 (ファイル)
-description: データ書き出し（ファイル）ワークフローアクティビティの詳細を表示します。
+description: データ抽出 (ファイル) ワークフローアクティビティについて説明します。
 page-status-flag: never-activated
 uuid: c1e3fde3-183c-4602-9cef-760e4648fcf7
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: fe4e6f64-eb0a-44bc-8221-6c9bfb99871f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5eb82bb5dae589cb18d42695565b25dad36006bd
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 5eb82bb5dae589cb18d42695565b25dad36006bd
 
 # データ抽出 (ファイル){#extraction-file}
 
-You can extract data from a workflow table in an external file using the **[!UICONTROL Data extraction (file)]** activity.
+「**[!UICONTROL データ抽出 (ファイル)]**」アクティビティを使用して、ワークフローテーブルから外部ファイルにデータを抽出できます。
 
 >[!CAUTION]
 >
@@ -29,21 +29,21 @@ You can extract data from a workflow table in an external file using the **[!UIC
 データ抽出を設定するには、次の手順に従います。
 
 1. 出力ファイルの名前を指定します。この名前には、フィールドの右側にあるパーソナライゼーションボタン経由で挿入される変数を含めることができます。
-1. 抽出す **[!UICONTROL Edit the file format...]** るデータをクリックして選択します。
+1. 「**[!UICONTROL ファイルフォーマットを編集...]**」をクリックして、抽出するデータを選択します。
 
    ![](assets/s_advuser_extract_file_param.png)
 
-   The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** option adds an extra step to filter the final result of the aggregate, for example on a given purchase order type, customers who have ordered more than 10 times, etc.
+   「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」オプションでは、集計の最終結果をフィルターする手順が追加されます。例えば、所定の注文タイプについて、10 回以上注文した顧客などをフィルターできます。
 
-1. 必要に応じて、結果ファイルの出力用に、「計算結果」や「処理結果」などの新しい列を追加します。To do this, click the **[!UICONTROL Add]** icon
+1. 必要に応じて、結果ファイルの出力用に、「計算結果」や「処理結果」などの新しい列を追加します。それには、「**[!UICONTROL 追加]**」ボタンをクリックします。
 
    ![](assets/s_advuser_extract_file_add_col.png)
 
-   In the additional line, click the **[!UICONTROL Edit expression]** icon to define the content of the new column.
+   追加した行で、「**[!UICONTROL 式を編集]**」アイコンをクリックして新しい列のコンテンツを定義します。
 
    ![](assets/s_advuser_extract_file_add_exp.png)
 
-   次に、選択ウィンドウにアクセスします。Click **[!UICONTROL Advanced selection]** to choose the process to be applied to the data.
+   次に、選択ウィンドウにアクセスします。「**[!UICONTROL 詳細選択]**」をクリックし、データに適用するプロセスを選択します。
 
    ![](assets/s_advuser_extract_file_advanced_selection.png)
 
@@ -55,12 +55,12 @@ You can extract data from a workflow table in an external file using the **[!UIC
 
 使用可能な集計関数のリストは以下のとおりです。
 
-* **[!UICONTROL Count]** （集計フィールドの）重複する値を含む、集計するフィールドのnull以外の値をすべてカウントするには、
+* **[!UICONTROL カウント]**：集計フィールドの重複値など、集計するフィールドの null ではない値を計算します。
 
-   **[!UICONTROL Distinct]** を使用して、集計するフィールドの異なる値およびnull以外の値の合計数をカウントします（重複する値は計算の前に除外されます）。
+   **[!UICONTROL ユニーク]**：集計するフィールドの異なる非 null 値の合計値を計算します（重複する値は計算の前に除外されます）。
 
-* **[!UICONTROL Sum]** 数値フィールドの値の合計を計算するには
-* **[!UICONTROL Minimum value]** フィールドの最小値（数値以外）を計算するには、
-* **[!UICONTROL Maximum value]** フィールドの最大値を計算するには（数値以外の場合）、
-* **[!UICONTROL Average]** を使用して、数値フィールドの値の平均を計算します。
+* **[!UICONTROL 合計]**：数値フィールドの値の合計を計算します。
+* **[!UICONTROL 最小値]**：フィールド（数値その他）の最小値を計算します。
+* **[!UICONTROL 最大値]**：フィールド（数値その他）の最大値を計算します。
+* **[!UICONTROL 平均]**：数値フィールドの値の平均を計算します。
 

@@ -14,7 +14,7 @@ discoiquuid: 18ba04d9-7bab-4eea-8dbb-6c2c138c5293
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -26,15 +26,15 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## データベース内のデータの分析 {#analyzing-data-in-the-database}
 
-The descriptive analysis wizard can be launched via the **[!UICONTROL Tools > Descriptive analysis]** menu: in this case, the analysis concerns recipients by default (**nms:recipient**). 分析は、Adobe Campaign データベース内のすべてのデータに適用されます。
+記述的分析ウィザードは、**[!UICONTROL ツール／記述的分析]**&#x200B;メニューで起動できます。その場合は、デフォルトで、受信者に関係する分析になります（**nms:recipient**）。分析は、Adobe Campaign データベース内のすべてのデータに適用されます。
 
 ![](assets/reporting_descriptive_wz_launch.png)
 
-To analyze a table other than the standard recipients one (**nms:recipient**), click the **[!UICONTROL Advanced settings...]** link in the last stage of the wizard and select the table that matches your settings, in this case **cus:individual**:
+標準の受信者テーブル（**nms:recipient**）以外のテーブルを分析するには、ウィザードの最後の段階で「**[!UICONTROL 詳細設定]**」リンクをクリックし、設定に一致するテーブル（この場合は **cus:individual**）を選択します。
 
 ![](assets/reporting_descriptive_other_schema.png)
 
-If you want to produce statistics on part of the data, you can define a filter: to do this, click the **[!UICONTROL Advanced settings...]** link and define the filter to apply, as shown below:
+データの一部に関する統計を生成する場合は、フィルターを定義できます。それには、次のように、「**[!UICONTROL 詳細設定]**」リンクをクリックし、適用するフィルターを定義します。
 
 ![](assets/reporting_descriptive_wz_filter.png)
 
@@ -50,25 +50,25 @@ If you want to produce statistics on part of the data, you can define a filter: 
 
 ![](assets/reporting_descriptive_from_recipients.png)
 
-* For a set of **recipients**, select the recipients to be analyzed, then right-click and select **[!UICONTROL Actions > Explore...]**, as shown above. 受信者のリストにフィルターを適用する場合は、その内容のみ分析されます。
+* 一連の&#x200B;**受信者**&#x200B;の場合は、上に示すように、分析対象となる受信者を選択し、右クリックして&#x200B;**[!UICONTROL アクション／参照]**&#x200B;を選択します。受信者のリストにフィルターを適用する場合は、その内容のみ分析されます。
 
    フォルダーまたは現在のフィルター内のすべての受信者を選択するには、Ctrl + A キーを使用します。つまり、表示されていない受信者でも選択されます。
 
-   For an example of the descriptive analysis of recipients, refer to: [Qualitative data analysis](../../reporting/using/use-cases.md#qualitative-data-analysis).
+   受信者の記述的分析の例については、[定性的データ分析](../../reporting/using/use-cases.md#qualitative-data-analysis)を参照してください。
 
-* In the context of a **workflow**, place the cursor on a transition that points towards the recipients table, right-click and select **[!UICONTROL Analyze target]**. 詳しくは、「ワークフローでの移行ターゲットの分析」 [の例を参照してください](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow)。
+* **ワークフロー**&#x200B;のコンテキストでは、受信者テーブルを指すトランザクションにカーソルを置き、右クリックして「**[!UICONTROL ターゲットを分析]**」を選択します。詳しくは、[ワークフローのトランジションターゲットの分析](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow)の例を参照してください。
 * **リスト**&#x200B;の場合は、1 つ以上のリストを選択し、受信者の場合と同じ手順を適用します。
-* In the context of a **delivery**, select the deliveries whose target you want to analyze, right-click and select **[!UICONTROL Actions > Explore the target]**, as shown below:
+* **配信**&#x200B;の場合は、次に示すように、分析対象をターゲットとする配信を選択し、右クリックして&#x200B;**[!UICONTROL アクション／ターゲットを参照]**&#x200B;を選択します。
 
    ![](assets/reporting_descriptive_from_deliveries.png)
 
-   配信の詳細分析の例を次に示します。母 [集団の分析](../../reporting/using/use-cases.md#analyzing-a-population) :受信者 [追跡ログを分析しています](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs)。
+   配信の記述的分析の例については、[母集団の分析](../../reporting/using/use-cases.md#analyzing-a-population)および[受信者トラッキングログの分析](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs)を参照してください。
 
 ## 定性配分テンプレートの設定 {#configuring-the-qualitative-distribution-template}
 
-The **[!UICONTROL Qualitative distribution]** template lets you create statistics on all types of data (e.g. company name, email domain).
+**[!UICONTROL 定性配分]**&#x200B;テンプレートでは、あらゆるタイプのデータ（会社名、E メールドメインなど）に関する統計を作成できます。
 
-テンプレートを使用して作成されたレポートに使用できる設定オ **[!UICONTROL Qualitative distribution]** プションについて詳しくは、 [表にデータを表示するを参照してくださ](#displaying-data-in-the-table)い。 完全な例は、「母集団の分析」 [で説明します](../../reporting/using/use-cases.md#analyzing-a-population)。
+**[!UICONTROL 定性配分]**&#x200B;テンプレートを基に作成したレポートに使用可能な設定オプションについて詳しくは、[テーブルでのデータ表示](#displaying-data-in-the-table)を参照してください。完全な例の詳細は、[母集団の分析](../../reporting/using/use-cases.md#analyzing-a-population)で説明しています。
 
 記述的分析ウィザードを使用してデータを分析する場合、使用可能なオプションは、選択した設定によって異なります。次に、それらについて説明します。
 
@@ -80,20 +80,20 @@ The **[!UICONTROL Qualitative distribution]** template lets you create statistic
 
 >[!NOTE]
 >
->When the field concerned by the calculation is computed using an aggregate, check **[!UICONTROL The data is already aggregated]** to improve performances.
+>計算に関係するフィールドを集計を使用して計算する場合は、パフォーマンスを向上させるために「**[!UICONTROL データは既に集計済み]**」をチェックします。
 
 オプションはフィールドの内容によって異なります。
 
-* **[!UICONTROL None]** :このオプションを使用すると、バインニングを行わずに、変数で使用可能なすべての値を表示できます。
+* 「**[!UICONTROL なし]**」オプション：変数に割り当て可能なすべての値をビニングなしで表示できます。
 
    >[!CAUTION]
    >
    >このオプションは慎重に使用してください。レポートおよびマシンのパフォーマンスに重大な影響を及ぼすおそれがあります。
 
-* **[!UICONTROL Auto]** :このオプションを使用すると、最も頻繁に表示される値をn個表示できます。 これらは自動的に計算され、それぞれ、bin の数と比べた変数の割合を表します。数値の場合は、データを分類する n 個のクラスが Adobe Campaign によって自動的に生成されます。
-* **[!UICONTROL Manual]** :このオプションは、手動で **[!UICONTROL Auto]** これらの値を設定できる点を除いて、オプションと同様に機能します。 To do this, click the **[!UICONTROL Add]** button to the right of the value table.
+* 「**[!UICONTROL 自動]**」オプション：最も頻繁に表された n 個の値を表示できます。これらは自動的に計算され、それぞれ、bin の数と比べた変数の割合を表します。数値の場合は、データを分類する n 個のクラスが Adobe Campaign によって自動的に生成されます。
+* 「**[!UICONTROL 手動]**」オプション：「**[!UICONTROL 自動]**」オプションと似た動作をしますが、これらの値を手動で設定できる点が異なります。それには、値テーブルの右にある「**[!UICONTROL 追加]**」ボタンをクリックします。
 
-   Values can be initialized automatically by Adobe Campaign before personalization: to do this, enter the number of bins you want to generate and click the **[!UICONTROL Initialize with]** link, as shown below:
+   値は、パーソナライゼーションの前に Adobe Campaign によって自動的に初期化できます。それには、次に示すように、生成する bin の数を入力し、「**[!UICONTROL 初期化の条件]**」リンクをクリックします。
 
    ![](assets/reporting_descriptive_initialize.png)
 
@@ -105,7 +105,7 @@ The **[!UICONTROL Qualitative distribution]** template lets you create statistic
 
    ![](assets/reporting_descriptive_group_by_year.png)
 
-* **[!UICONTROL Modulo]** :数値の場合に値のグループを作成できます。 例えば、剰余の値が 10 の場合は、10 ずつ変わる値の区間を作成できます。
+* 「**[!UICONTROL 剰余]**」オプション：数値の場合に値のグループを作成できます。例えば、剰余の値が 10 の場合は、10 ずつ変わる値の区間を作成できます。
 
    ![](assets/reporting_descriptive_initialize_modulo.png)
 
@@ -121,7 +121,7 @@ The **[!UICONTROL Qualitative distribution]** template lets you create statistic
 
 ウィンドウの上部のセクションで表示設定を選択できます。
 
-統計の名前や小計の表示／非表示を切り替えたり、統計の方向を選択したりできます。詳しくは、分析レポートの表示設 [定を参照してください](../../reporting/using/processing-a-report.md#analysis-report-display-settings)。
+統計の名前や小計の表示／非表示を切り替えたり、統計の方向を選択したりできます。詳しくは、[分析レポートの表示設定](../../reporting/using/processing-a-report.md#analysis-report-display-settings)を参照してください。
 
 ### グラフでのデータ表示 {#displaying-data-in-the-chart}
 
@@ -135,9 +135,9 @@ The **[!UICONTROL Qualitative distribution]** template lets you create statistic
 
 >[!NOTE]
 >
->変数をグラフとテーブルに同時に表示できます。To do this, enter the variables in the **[!UICONTROL Table configuration]** window. Click **[!UICONTROL Next]** and select the type of chart in the chart configuration window. テーブルにサブディメンションが定義されている場合、それらはグラフには表示されません。
+>変数をグラフとテーブルに同時に表示できます。それには、**[!UICONTROL テーブル設定]**&#x200B;ウィンドウに変数を入力します。「**[!UICONTROL 次へ]**」をクリックし、グラフ設定ウィンドウでグラフのタイプを選択します。テーブルにサブディメンションが定義されている場合、それらはグラフには表示されません。
 
-Click the **[!UICONTROL Variants]** link to modify the chart properties.
+「**[!UICONTROL バリエーション]**」リンクをクリックすると、グラフのプロパティを変更できます。
 
 ![](assets/reporting_descriptive_graphe_options.png)
 
@@ -147,27 +147,27 @@ Click the **[!UICONTROL Variants]** link to modify the chart properties.
 
 記述的分析ウィザードでは、データに関する複数のタイプの統計を計算できます。デフォルトでは、単純カウントのみ設定されています。
 
-Click **[!UICONTROL Add]** to create a new statistic.
+「**[!UICONTROL 追加]**」をクリックすると、新しい統計を作成できます。
 
 ![](assets/reporting_descriptive_create_stat.png)
 
 次の演算が可能です。
 
-* **[!UICONTROL Count]** （集計フィールドの）重複する値を含む、集計するフィールドのnull以外の値をすべてカウントするには、
-* **[!UICONTROL Average]** 数値フィールドの値の平均を計算するには
-* **[!UICONTROL Minimum]** 数値フィールドの値の最小値を計算するには、
-* **[!UICONTROL Maximum]** 数値フィールドの値の最大値を計算するには、
-* **[!UICONTROL Sum]** 数値フィールドの値の合計を計算するには、
-* **[!UICONTROL Standard deviation]** を使用して、返される値が平均の周りにどのように分散されるかを計算します。
-* **[!UICONTROL Row percentage distribution]** 列内の値と行内の値の比率を計算するには（テーブルに対してのみ使用可能）、
-* **[!UICONTROL Column percentage distribution]** 行内の値と列内の値の比率を計算するには（テーブルにのみ使用可能）、
-* **[!UICONTROL Total percentage distribution]** を使用して、関連する受信者の配分を値で計算します。
+* **[!UICONTROL カウント]**：フィールドの null でない値をすべて数えて集計します。（集計フィールドの）重複値を含めます。
+* **[!UICONTROL 平均]**：数値フィールドの値の平均を計算します。
+* **[!UICONTROL 最小]**：数値フィールドの値の最小値を計算します。
+* **[!UICONTROL 最大]**：数値フィールドの値の最大値を計算します。
+* **[!UICONTROL 合計]**：数値フィールドの値の合計を計算します。
+* **[!UICONTROL 標準偏差]**：返された値が平均値からどれだけばらついているかを計算します。
+* **[!UICONTROL 行の割合の配分]**：列の値の行の値に対する比を計算します（テーブルの場合のみ使用可能）。
+* **[!UICONTROL 列割合配分]**：行の値の列の値に対する比を計算します（テーブルの場合のみ使用可能）。
+* **[!UICONTROL 合計割合配分]**：関係する受信者の値別の配分を計算します。
 
    ![](assets/s_ncs_user_report_wizard_026.png)
 
-* **[!UICONTROL Calculated field]** パーソナライズされた演算子を作成する場合（表に対してのみ使用可能）。 The **[!UICONTROL User function]** field lets you enter the calculation to be applied to the data.
+* **[!UICONTROL 計算されたフィールド]**：パーソナライズした演算子を作成します（テーブルの場合のみ使用可能）。「**[!UICONTROL ユーザー関数]**」フィールドでは、データに適用する計算を入力できます。
 
-   例：国と出発地に基づく顧客ごとの平均購入金額の計算
+   例：国別および部門別に顧客ごとの平均購入額を計算
 
    ![](assets/report_compute_data_sample1.png)
 
@@ -179,11 +179,11 @@ Click **[!UICONTROL Add]** to create a new statistic.
 
       ![](assets/report_compute_data_sample2.png)
 
-   1. この統計はテーブルには表示されません。タブのオプションをオフに **[!UICONTROL Display in the table]** する必要があ **[!UICONTROL Advanced]** ります。
+   1. この統計はテーブルには表示されません。「**[!UICONTROL 詳細設定]**」タブの「**[!UICONTROL テーブルで表示]**」オプションのチェックをオフにする必要があります。
 
       ![](assets/report_compute_data_sample3.png)
 
-   1. 新しいタイプの統 **[!UICONTROL Calculated field]** 計を作成し、次の数式をフィールドに入力 **[!UICONTROL User function]** します。 **@purchases/@count**.
+   1. **[!UICONTROL 計算されたフィールド]**&#x200B;タイプの統計を新しく作成し、「**[!UICONTROL ユーザー関数]**」フィールドに数式、**@purchases/@count** を入力します。
 
       ![](assets/report_compute_data_sample4.png)
 
@@ -207,9 +207,9 @@ Click **[!UICONTROL Add]** to create a new statistic.
 
 記述的分析を手動で生成するには、「**テンプレートからの新しい記述的分析**」オプションを選択します（デフォルトで設定されていない場合）。
 
-The **[!UICONTROL Quantitative distribution]** template that lets you generate statistics on data which can be measured or counted (e.g. invoice amount, age of recipients).
+**[!UICONTROL 定量配分]**&#x200B;テンプレートでは、測定可能またはカウント可能なデータ（請求書の金額、受信者の年齢など）に関する統計を生成できます。
 
-The configuration mode of an analysis report created via the **[!UICONTROL Quantitative distribution]** template is detailed in an implementation example [Quantitative data analysis](../../reporting/using/use-cases.md#quantitative-data-analysis).
+**[!UICONTROL 定量配分]**&#x200B;テンプレートを基に作成した分析レポートの設定モードについて詳しくは、[定量的データ分析](../../reporting/using/use-cases.md#quantitative-data-analysis)の実装例を参照してください。
 
 次に、記述的分析ウィザードを使用して定量的なレポートを作成する際に使用可能なオプションについて説明します。
 
@@ -221,17 +221,17 @@ Adobe Campaign には、デフォルトで、選択されたデータを計算�
 
 次の演算が可能です。
 
-* **[!UICONTROL Count]** （集計フィールドの）重複する値を含む、集計するフィールドのnull以外の値をすべてカウントするには、
-* **[!UICONTROL Average]** 数値フィールドの値の平均を計算するには
-* **[!UICONTROL Minimum]** 数値フィールドの値の最小値を計算するには、
-* **[!UICONTROL Maximum]** を使用して、数値フィールドの値の最大値を計算します。
-* **[!UICONTROL Sum]** 数値フィールドの値の合計を計算するには、
-* **[!UICONTROL Standard deviation]** を使用して、平均を基準にして戻り値の分布を計算します。
-* **[!UICONTROL Number of missing values]** を使用して、値が定義されていない数値フィールドの数を計算します。
-* **[!UICONTROL Decile distribution]** を指定します。
-* **[!UICONTROL Custom distribution]** を使用して、ユーザー定義のしきい値に基づいて返される値を配分します。
+* **[!UICONTROL カウント]**：フィールドの null でない値をすべて数えて集計します。（集計フィールドの）重複値を含めます。
+* **[!UICONTROL 平均]**：数値フィールドの値の平均を計算します。
+* **[!UICONTROL 最小]**：数値フィールドの値の最小値を計算します。
+* **[!UICONTROL 最大]**：数値フィールドの値の最大値を計算します。
+* **[!UICONTROL 合計]**：数値フィールドの値の合計を計算します。
+* **[!UICONTROL 標準偏差]**：返された値が平均値からどれだけばらついているかを計算します。
+* **[!UICONTROL 足りない値の数]**：値が確定していない数値フィールドの数を計算します。
+* **[!UICONTROL 十分位数の配分]**：返された値を、それぞれが数値フィールドの値の 1/10 を表すように配分します。
+* **[!UICONTROL カスタム配分]**：返された値をユーザー定義のしきい値に基づいて配分します。
 
-   The **[!UICONTROL Detail...]** button lets you edit a statistic and, if needed, personalize its calculation or its display:
+   次に示すように、**[!UICONTROL 詳細]**&#x200B;ボタンをクリックすると、統計を編集でき、必要に応じて統計の計算や表示をパーソナライズできます。
 
    ![](assets/s_ncs_user_report_wizard_030.png)
 
@@ -239,5 +239,5 @@ Adobe Campaign には、デフォルトで、選択されたデータを計算�
 
    ![](assets/reporting_descriptive_view_report.png)
 
-   レポートを変更するには、「レポートの処理」を [参照してください](../../reporting/using/processing-a-report.md)。
+   レポートを変更するには、[レポートの処理](../../reporting/using/processing-a-report.md)を参照してください。
 

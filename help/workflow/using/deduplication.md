@@ -14,7 +14,7 @@ discoiquuid: 83b915bd-7e23-41b5-9f9a-f7eb72026376
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -39,7 +39,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 重複排除を設定するには、ラベル、メソッド、重複排除条件、および結果に関するオプションを入力します。
 
-Click the **[!UICONTROL Edit configuration...]** link to define the deduplication mode.
+「**[!UICONTROL 設定を編集...]**」リンクをクリックし、データの重複排除モードを定義します。
 
 ![](assets/s_user_segmentation_dedup_param.png)
 
@@ -49,7 +49,7 @@ Click the **[!UICONTROL Edit configuration...]** link to define the deduplicatio
 
    ![](assets/s_user_segmentation_dedup_param2.png)
 
-   In the next step, the **[!UICONTROL Other]** option lets you select the criterion or criteria to be used:
+   次の手順で、「**[!UICONTROL その他]**」オプションで使用される基準または条件を選択できます。
 
    ![](assets/s_user_segmentation_dedup_param3.png)
 
@@ -61,19 +61,19 @@ Click the **[!UICONTROL Edit configuration...]** link to define the deduplicatio
 
    次のメソッドを使用できます。
 
-   * **[!UICONTROL Choose for me]**:重複を除外するレコードをランダムに選択します。
-   * **[!UICONTROL Following a list of values]**:1つ以上のフィールドの値の優先順位を定義できます。 優先度の値を定義するには、フィールドを選択するか式を作成し、適切なフィールドに値を追加します。To define a new field, click the **[!UICONTROL Add]** button located above the list of values.
+   * **[!UICONTROL 自動選択]**：保持するレコードが重複からランダムに選択されます。
+   * **[!UICONTROL 値のリストの使用]**：1 つまたは複数のフィールドの優先度の値を定義します。優先度の値を定義するには、フィールドを選択するか式を作成し、適切なフィールドに値を追加します。新しいフィールドを定義するには、値のリストの上の「**[!UICONTROL 新規]**」ボタンをクリックします。
 
       ![](assets/s_user_segmentation_dedup_param5.png)
 
-   * **[!UICONTROL Non-empty value]**:これにより、選択した式の値が空でないレコードを優先度として保持できます。
+   * **[!UICONTROL 空でない値]**：選択した式の値が空でないレコードを優先して保持できます。
 
       ![](assets/s_user_segmentation_dedup_param6.png)
 
-   * **[!UICONTROL Using an expression]**:指定した式の最も低い（または最も高い）値を持つレコードを保持できます。
+   * **[!UICONTROL 式の使用]**：所定の式の値が、最小（または最大）であるレコードを保持します。
 
       ![](assets/s_user_segmentation_dedup_param7.png)
-   Click **[!UICONTROL Finish]** to approve the selected deduplication method.
+   「**[!UICONTROL 完了]**」をクリックして、選択した重複排除メソッドを承認します。
 
    ウィンドウの中央部に定義した設定の概要が表示されます。
 
@@ -81,11 +81,11 @@ Click the **[!UICONTROL Edit configuration...]** link to define the deduplicatio
 
    ![](assets/s_user_segmentation_dedup_param8.png)
 
-   Check the **[!UICONTROL Generate complement]** option if you wish to exploit the remaining population. 補集合はすべての重複から構成されます。その後、次の図のように、追加のトランジションがアクティビティに追加されます。
+   残りの母集団を利用するには、「**[!UICONTROL 補集合を生成]**」オプションをチェックします。補集合はすべての重複から構成されます。その後、次の図のように、追加のトランジションがアクティビティに追加されます。
 
    ![](assets/s_user_segmentation_dedup_param9.png)
 
-## Example: Identify the duplicates before a delivery {#example--identify-the-duplicates-before-a-delivery}
+## 例：配信前の重複の特定 {#example--identify-the-duplicates-before-a-delivery}
 
 次の例では、重複排除は 3 つのクエリの重複排除を処理します。
 
@@ -97,17 +97,17 @@ Click the **[!UICONTROL Edit configuration...]** link to define the deduplicatio
 
 1. 上の図に示すように、ワークフローの操作に必要な各種アクティビティを追加してリンクします。
 
-   ここで使用される和集合アクティビティは、3 つのクエリを 1 つのトランジションに統合します。このため、重複排除は各クエリに個別に作用するのではなく、クエリ全体に対して作用します。For more on this subject, refer to [Best practices](#best-practices).
+   ここで使用される和集合アクティビティは、3 つのクエリを 1 つのトランジションに統合します。このため、重複排除は各クエリに個別に作用するのではなく、クエリ全体に対して作用します。詳しくは、[ベストプラクティス](#best-practices)を参照してください。
 
-1. Open the deduplication activity then click the **[!UICONTROL Edit configuration...]** link to define the deduplication mode.
-1. 新しいウィンドウで、を選択しま **[!UICONTROL Database schema]**&#x200B;す。
+1. 重複排除アクティビティを開き、「**[!UICONTROL 設定を編集...]**」リンクをクリックして、重複排除モードを定義します。
+1. 新規ウィンドウで、「**[!UICONTROL データベーススキーマ]**」を選択します。
 1. 「**受信者**」をターゲティングとフィルタリングディメンションを選択します。
-1. Select the ID field for the **[!UICONTROL Email]** duplicates, to send the delivery only once to every email address, then click **[!UICONTROL Next]**.
+1. 各 E メールアドレスに対して配信が 1 回だけ送信されるように、**[!UICONTROL E メール]**&#x200B;の重複用の ID フィールドを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   If you wish to base the duplicate IDs on a specific field, select **[!UICONTROL Other]** to access the list of available fields.
+   特定のフィールドの重複 ID をベースにしたい場合、「**[!UICONTROL その他]**」を選択して使用可能なフィールドのリストを表示します。
 
 1. 複数の受信者に対して同じメールアドレスが検出された場合、1 つのエントリのみを保持するように選択します。
-1. Select the **[!UICONTROL Choose for me]** deduplication mode so that the records saved in case of identified duplicates are randomly chosen, then click **[!UICONTROL Finish]**.
+1. 重複の検出時に保存されるレコードがランダムに選択されるように「**[!UICONTROL 自動選択]**」重複排除モードを選択して「**[!UICONTROL 完了]**」をクリックします。
 
 ワークフローを実行した場合、重複が検出されたすべての受信者は結果から除外され（結果的に配信からも除外される）、重複リストに追加されます。このリストを再利用することで、重複を再度検出しなくてもすみます。
 

@@ -14,7 +14,7 @@ discoiquuid: 82e67697-5dc7-4013-a00d-be8cdad31354
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ---
@@ -28,15 +28,15 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 >
 >この機能は、オンラインでのみ表示され、配信責任者のみが使用できます。
 
-* At the offer level, in the **[!UICONTROL Edit]** tab, click **[!UICONTROL Propositions]**.
+* オファーのレベルで、「**[!UICONTROL 編集]**」タブの「**[!UICONTROL 提案]**」をクリックします。
 
    ![](assets/offer_followup_006.png)
 
-* From a recipient&#39;s profile, click the **[!UICONTROL Propositions]** tab.
+* 受信者のプロファイルから、「**[!UICONTROL 提案]**」タブをクリックします。
 
    ![](assets/offer_followup_002.png)
 
-* At the offer space level, click the **[!UICONTROL Propositions]** tab.
+* オファースペースのレベルで、「**[!UICONTROL 提案]**」タブをクリックします。
 
    ![](assets/offer_space_prop_001_b.png)
 

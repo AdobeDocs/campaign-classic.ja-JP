@@ -14,7 +14,7 @@ discoiquuid: a4c62580-664d-47fe-87f5-cfe608b05e6f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -65,15 +65,15 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 >
 >Adobe Campaign でのデータスキーマの作成と設定について詳しくは、[この節](../../configuration/using/about-schema-edition.md)を参照してください。
 >
->Configuration elements specific to content management are detailed in [Data schemas](../../delivery/using/data-schemas.md).
+>コンテンツ管理に関する設定要素について詳しくは、[データスキーマ](../../delivery/using/data-schemas.md)で説明しています。
 
 データスキーマを作成するには、次の手順に従います。
 
-1. Open the Adobe Campaign Explorer and select the **[!UICONTROL Administration > Configuration > Data schemas]** node.
+1. Adobe Campaign エクスプローラーを開き、**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードを選択します。
 
-   Click the **[!UICONTROL New]** icon located above the list of data schemas.
+   データスキーマのリストの上にある&#x200B;**[!UICONTROL 新規]**&#x200B;アイコンをクリックします。
 
-1. コンテンツ管 **[!UICONTROL Create a schema]** 理のオプションを選択し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. 「**[!UICONTROL コンテンツ管理用にスキーマを作成]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/s_ncs_content_create_schema.png)
 
@@ -81,15 +81,15 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 
    ![](assets/s_ncs_content_param_schema.png)
 
-   Click **[!UICONTROL Next]** to validate.
+   「**[!UICONTROL 次へ]**」をクリックして確認します。
 
-1. Enter the content of the schema in the **[!UICONTROL Edit schema]** window.
+1. **[!UICONTROL スキーマ編集]**&#x200B;ウィンドウにスキーマのコンテンツを入力します。
 
-   Use the **[!UICONTROL Insert]** button to create the schema content.
+   「**[!UICONTROL 挿入]**」ボタンを使用して、スキーマコンテンツを作成します。
 
    ![](assets/s_ncs_content_param_schema_step2.png)
 
-   For more on this, refer to [Editing schemas](../../delivery/using/data-schemas.md#editing-schemas).
+   詳しくは、[スキーマの編集](../../delivery/using/data-schemas.md#editing-schemas)を参照してください。
 
    コンテンツ内で参照されている要素ごとに、対応するタイプを選択する必要があります。
 
@@ -98,10 +98,10 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>コンテンツ</strong><br /> </th> 
-   <th> <strong>形式</strong><br /> </th> 
-   <th> <strong>タイプ</strong><br /> </th> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>コンテンツ</strong> <br /> </th> 
+   <th> <strong>フォーマット</strong> <br /> </th> 
+   <th> <strong>タイプ</strong> <br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -165,7 +165,7 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
   </element>
 ```
 
-1. Click **[!UICONTROL Save]** to create the data schema.
+1. 「**[!UICONTROL 保存]**」をクリックしてデータスキーマを作成します。
 
 ## 手順 3 - 入力フォームの作成 {#step-3---creating-the-input-form}
 
@@ -177,21 +177,21 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 >
 >Adobe Campaign でのフォームの作成と設定について詳しくは、[この節](../../configuration/using/identifying-a-form.md)を参照してください。
 >
->Configuration elements specific to content management are detailed in [Input forms](../../delivery/using/input-forms.md).
+>コンテンツ管理に関する設定要素について詳しくは、[入力フォーム](../../delivery/using/input-forms.md)で説明しています。
 
 コンテンツ管理用の入力フォームを作成するには、次の手順に従います。
 
-1. Open the Adobe Campaign Explorer and select the **[!UICONTROL Administration > Configuration > Input forms]** node.
+1. Adobe Campaign エクスプローラーを開き、**[!UICONTROL 管理／設定／入力フォーム]**&#x200B;ノードを選択します。
 
-   Click the **[!UICONTROL New]** icon above the list of forms.
+   フォームのリストの上にある&#x200B;**[!UICONTROL 新規]**&#x200B;アイコンをクリックします。
 
-1. Enter the name of the form and the label linked to the form, then select the **[!UICONTROL Content management]** type.
+1. フォームの名前とフォームにリンクするラベルを入力し、**[!UICONTROL コンテンツ管理]**&#x200B;タイプを選択します。
 
    ![](assets/s_ncs_content_param_form_edit.png)
 
    >[!NOTE]
    >
-   >両方の要素が自動的に一致するように、リンクされているデータスキーマと同じ名前を使用することをお勧めします。Use the **[!UICONTROL Insert]** button above the input zone to add fields from the schema linked to the form.
+   >両方の要素が自動的に一致するように、リンクされているデータスキーマと同じ名前を使用することをお勧めします。入力領域の上の「**[!UICONTROL 挿入]**」ボタンを使用して、フォームにリンクされているスキーマからフィールドを追加します。
 
    ![](assets/s_ncs_content_param_form_edit_step2.png)
 
@@ -213,11 +213,11 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
      </input>
    ```
 
-   The **[!UICONTROL Preview]** tab lets you check the rendering of the form while you are editing it:
+   「**[!UICONTROL プレビュー]**」タブを使用して、フォームのレンダリングを編集中に確認できます。
 
    ![](assets/s_ncs_content_param_form_preview.png)
 
-1. Click **[!UICONTROL Save]** to create the input form.
+1. 「**[!UICONTROL 保存]**」をクリックして入力フォームを作成します。
 
 ## 手順 4 - 構成テンプレートの作成 {#step-4---creating-the-construction-template}
 
@@ -227,18 +227,18 @@ XSLT 言語を使用して、XML ドキュメントを別の出力ドキュメ�
 
 >[!NOTE]
 >
->Constraints linked to document building (JavaScript or XSL template) are detailed in [Formatting](../../delivery/using/formatting.md).
+>ドキュメントの構成（JavaScript テンプレートまたは XSL テンプレート）に関連する制約については、[フォーマット設定](../../delivery/using/formatting.md)で詳しく説明しています。
 
 Adobe Campaign で JavaScript テンプレートを使用するには、次の手順に従います。
 
-1. Open the Adobe Campaign Explorer and select the **[!UICONTROL Administration > Configuration > JavaScript Templates]** node.
+1. Adobe Campaign エクスプローラーを開き、**[!UICONTROL 管理／設定／JavaScript テンプレート]**&#x200B;ノードを選択します。
 
-   Click the **[!UICONTROL New]** icon above the list of templates.
+   テンプレートのリストの上の&#x200B;**[!UICONTROL 新規]**&#x200B;アイコンをクリックします。
 
 1. テンプレート名を入力し、コンテンツ管理用に作成したスキーマを選択します。
 1. メッセージに表示したいセットコンテンツをインポートします。
 
-   Add the variable elements while respecting the syntax detailed in [JavaScript templates](../../delivery/using/formatting.md#javascript-templates).
+   [JavaScript テンプレート](../../delivery/using/formatting.md#javascript-templates)で詳しく説明している構文を順守しつつ、可変要素を追加します。
 
    今回の例のコンテンツを表示するには、JavaScript テンプレートに次の要素を含める必要があります。
 
@@ -331,7 +331,7 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
    </html>
    ```
 
-   テンプレートの冒頭で関数を呼び出すことによって、Adobe Campaign データベースからパーソナライゼーションデータを取得する呼び出し（この場合は recipient.firstName と recipient.lastName）を設定でき、配信時にも利用できます。For more on this, refer to [Including a JavaScript template](../../delivery/using/formatting.md#including-a-javascript-template).
+   テンプレートの冒頭で関数を呼び出すことによって、Adobe Campaign データベースからパーソナライゼーションデータを取得する呼び出し（この場合は recipient.firstName と recipient.lastName）を設定でき、配信時にも利用できます。詳しくは、[JavaScript テンプレートの取り込み](../../delivery/using/formatting.md#including-a-javascript-template)を参照してください。
 
    今回の例では、次のようなコードが関数に含まれます。
 
@@ -350,7 +350,7 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
    }
    ```
 
-   In order for the JavaScript template to be valid, this function must be created beforehand from the **[!UICONTROL JavaScript codes]** node in the tree structure, as below:
+   JavaScript テンプレートを有効にするためには、次に示すツリーの **[!UICONTROL JavaScript コード]**&#x200B;ノードから事前にこの関数を作成しておく必要があります。
 
    ![](assets/contentmgt_jscode_perso_sample.png)
 
@@ -360,11 +360,11 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
 
 >[!NOTE]
 >
->For more on content publication templates, refer to [Publication templates](../../delivery/using/publication-templates.md).
+>コンテンツパブリッシュテンプレートについて詳しくは、[パブリッシュテンプレート](../../delivery/using/publication-templates.md)を参照してください。
 
 手順は次のとおりです。
 
-1. ノードを使用して新しいパブリケーションテンプレートを作 **[!UICONTROL Administration > Configuration > Publication templates]** 成します。
+1. **[!UICONTROL 管理／設定／パブリッシュテンプレート]**&#x200B;ノードから、新しいパブリッシュテンプレートを作成します。
 1. 名前とラベルを入力し、使用するスキーマとフォームを選択します。
 1. テンプレートの名前を入力し、適用するレンダリングモードを選択します。ここでは、上記で作成したテンプレートに基づいて、「**[!UICONTROL JavaScript]**」タイプのレンダリングを選択します。
 
@@ -372,13 +372,13 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
 
    >[!NOTE]
    >
-   >The **[!UICONTROL DOM interface]** option is checked by default and this means that this document will not be accessible if you use the E4X syntax. このオプションがオンになっている場合は DOM インターフェイスを使用する必要があり、これが推奨される構文です。
+   >「**[!UICONTROL DOM インターフェイス]**」オプションはデフォルトでオンになっています。これは、E4X 構文を使用している場合はこのドキュメントにアクセスできなくなることを意味します。このオプションがオンになっている場合は DOM インターフェイスを使用する必要があり、これが推奨される構文です。
    >
    >これまでどおりに E4X 構文を使用することもできます。その場合は、このオプションをオフにしてください。
 
-   Use the **[!UICONTROL Add]** button to create other transformation templates.
+   「**[!UICONTROL 追加]**」ボタンを使用して、他の変換テンプレートを作成します。
 
-1. Click **[!UICONTROL Save]** to create the publication template.
+1. 「**[!UICONTROL 保存]**」をクリックしてパブリッシュテンプレートを作成します。
 
 ## 手順 6 - コンテンツの作成 {#step-6---creating-contents}
 
@@ -386,13 +386,13 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
 
 >[!NOTE]
 >
->コンテンツの作成について詳しくは、「コンテンツテンプレ [ートの使用」を参照してくださ](../../delivery/using/using-a-content-template.md)い。
+>コンテンツの作成について詳しくは、[コンテンツテンプレートの使用](../../delivery/using/using-a-content-template.md)を参照してください。
 
 ### 配信ウィザードでのコンテンツの作成 {#creating-content-in-the-delivery-wizard}
 
 配信内で直接コンテンツを作成するには、次の手順に従います。
 
-1. Start by referencing the publication template via the **[!UICONTROL Advanced]** tab of the delivery properties.
+1. まず、配信プロパティの「**[!UICONTROL 詳細設定]**」タブからパブリッシュテンプレートを参照します。
 
    ![](assets/s_ncs_content_in_delivery.png)
 
@@ -402,6 +402,6 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
 
    ![](assets/s_ncs_content_in_delivery_edition_tab.png)
 
-1. Click the **[!UICONTROL HTML preview]** tab to view the rendering. パーソナライゼーションをテストするには、受信者を選択する必要があります。
+1. 「**[!UICONTROL HTML プレビュー]**」タブをクリックして、レンダリングを確認します。パーソナライゼーションをテストするには、受信者を選択する必要があります。
 
    ![](assets/s_ncs_content_use_in_delivery_preview.png)

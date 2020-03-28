@@ -14,7 +14,7 @@ discoiquuid: 9b937d4d-55ae-4bd4-8dc6-eea42f15b69f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -30,41 +30,41 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ## プロパティ {#properties}
 
-The first tab of the **[!UICONTROL File collector]** activity lets you select the source directory and, if necessary, filter the collected files. その他のタブは、「受信電子メ [ール](../../workflow/using/inbound-emails.md) (およびタ&#x200B;**[!UICONTROL Schedule]** ブ)」 **[!UICONTROL Expiry]** で詳細です。
+「**[!UICONTROL ファイルコレクター]**」アクティビティの最初のタブで、ソースディレクトリを選択し、必要に応じて、収集したファイルをフィルターします。他のタブ（「**[!UICONTROL スケジュール]**」タブおよび「**[!UICONTROL 期日]**」タブ）については、[インバウンド E メール](../../workflow/using/inbound-emails.md)を参照してください。
 
 ![](assets/file_collect_edit.png)
 
 1. **ファイルのダウンロード**
 
-   * **[!UICONTROL Directory]**
+   * **[!UICONTROL ディレクトリ]**
 
       ダウンロードするファイルが含まれているディレクトリ。このディレクトリは、あらかじめサーバー上に作成しておく必要があります。サーバー上に存在しない場合、エラーが発生します。
 
-   * **[!UICONTROL Filter]**
+   * **[!UICONTROL フィルター]**
 
-      このフィルター条件と一致するファイルのみがダウンロードされます。それ以外のディレクトリ内のファイルは無視されます。フィルターを指定しない場合、ディレクトリ内のすべてのファイルがダウンロードの対象となります。フィルターの例： ***.zip**、 **import-*.txt**.
+      このフィルター条件と一致するファイルのみがダウンロードされます。それ以外のディレクトリ内のファイルは無視されます。フィルターを指定しない場合、ディレクトリ内のすべてのファイルがダウンロードの対象となります。フィルターの例：***.zip**、**import-*.txt**。
 
-   * **[!UICONTROL Stop as soon as a file has been processed]**
+   * **[!UICONTROL ファイルが処理されたらすぐに停止します]**
 
       このオプションを選択すると、最初のファイルを受信した直後にタスクが終了します。フィルターの条件に一致する複数のファイルがディレクトリ内にあっても、ダウンロードされるのは 1 つのファイルのみです。このオプションにより、1 つのイベントのみが送信されます。対象となるファイルは、アルファベット順に並べたリストの先頭に表示されます。
 
-      For an unscheduled activity, if no file matching the filter is found in the specified directory, and if the **[!UICONTROL Process file nonexistence]** option is not enabled, an error will be raised.
+      スケジュール設定されていないアクティビティについては、フィルター条件に一致するファイルが指定ディレクトリになく、かつ「**[!UICONTROL プロセスファイルなし]**」オプションが選択されていない場合、エラーが発生します。
 
-   * **[!UICONTROL Execution schedule]**
+   * **[!UICONTROL 実行スケジュール]**
 
-      Determines the frequency of the file presence check via the parameters of the **[!UICONTROL Schedule]** tab.
+      「**[!UICONTROL スケジュール]**」タブのパラメーターで、ファイルの有無を確認する頻度を確認します。
 
 1. **エラー処理**
 
    次の 2 つのオプションを使用できます。
 
-   * **[!UICONTROL Process file nonexistence]**
+   * **[!UICONTROL プロセスファイルなし]**
 
       このオプションは、フィルター条件に一致するファイルが指定ディレクトリにないことが検出されると、そのたびに特別なトランジションを開始します。
 
       タスクがスケジュール設定されていない場合、このトランジションが有効化されるのは 1 回のみです。
 
-   * **[!UICONTROL Processing errors]**
+   * **[!UICONTROL エラーを処理]**
 
       このオプションは、エラーが発生したときに有効化される特殊なトランジションを生成します。この場合、ワークフローはエラーステータスに変更されず、実行は継続されます。
 
@@ -74,9 +74,9 @@ The first tab of the **[!UICONTROL File collector]** activity lets you select th
 
 1. **履歴化**
 
-   次の手順を参照し **[!UICONTROL File historization]** てください。 [Webダウンロード](../../workflow/using/web-download.md)。
+   **[!UICONTROL ファイルの履歴化]**&#x200B;の手順について詳しくは、[Web ダウンロード](../../workflow/using/web-download.md)を参照してください。
 
-ファイルを処理する順番は指定できません。一連のファイルを順番に処理するには、このオプションを **[!UICONTROL Stop as soon as a file has been processed]** 使用してループを作成します。 このようにすると、ファイルはアルファベット順に処理されます。このオ **[!UICONTROL Process file nonexistence]** プションを使用して、繰り返しを完了できます。
+ファイルを処理する順番は指定できません。複数のファイルを順番に処理するには、「**[!UICONTROL ファイルが処理されたらすぐに停止します]**」オプションを設定し、反復処理をおこないます。このようにすると、ファイルはアルファベット順に処理されます。「**[!UICONTROL プロセスファイルなし]**」を設定すると、この反復処理を終了できます。
 
 ![](assets/file_collect_loop.png)
 

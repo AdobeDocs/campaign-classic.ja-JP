@@ -14,7 +14,7 @@ discoiquuid: da0779dc-b734-483b-81e9-ff4706a2b6de
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e1bd878c45576932e085b579f91eb72f5d36d6fd
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: e1bd878c45576932e085b579f91eb72f5d36d6fd
 
 # 配信品質の監視 (E メールの配信品質){#email-deliverability}
 
-以下に示すワークフローはデフォルトですべてのインスタンスにインストールされ、バウンスメールの資格ルールのリスト、ドメインのリスト、MXのリストを初期化できます。 配信品質監視( **電子メールの配信品質)パッケージをインストールすると** 、このワークフローは夜間に実行されます。 配信品質の監視の詳細については、このセクションを参照して [ください](../../delivery/using/about-deliverability.md)。
+以下に詳述しているワークフローは、デフォルトですべてのインスタンスにインストールされ、バウンスメールの検証ルールのリスト、ドメインのリストおよび MX のリストを初期化できます。**配信品質の監視 (E メールの配信品質)** パッケージをインストールすると、このワークフローは毎日夜間に実行されます。配信品質の監視について詳しくは、この[セクション](../../delivery/using/about-deliverability.md)を参照してください。
 
 <table> 
  <tbody> 
@@ -33,8 +33,8 @@ source-git-commit: e1bd878c45576932e085b579f91eb72f5d36d6fd
   </tr> 
   <tr> 
    <td> <strong>配信品質の更新</strong><br /> </td> 
-   <td> <span class="uicontrol">deliverabilityUpdate</span><br /> </td> 
-   <td>  配信品質監視( <strong>電子メール配信品質)パッケージをインストールすると</strong> 、このワークフローが夜間に実行され、ルールのリストが定期的に更新され、プラットフォームの配信品質を積極的に管理できます。<br /> </td> 
+   <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
+   <td>  <strong>配信品質の監視 (E メールの配信品質)</strong> パッケージをインストールすると、このワークフローが毎日夜間に実行されてルールのリストを定期的に更新し、プラットフォームの配信品質の積極的管理が可能になります。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

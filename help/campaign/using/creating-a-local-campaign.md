@@ -14,7 +14,7 @@ discoiquuid: bd057441-8524-49e6-b5d5-fbd0ec5bca85
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 # ローカルキャンペーンの作成{#creating-a-local-campaign}
 
-A local campaign is an instance created from a template referenced in the list of **[!UICONTROL campaign packages]** with a **specific execution schedule**. ローカルキャンペーンの目的は、セントラルエンティティによって設定されたテンプレートを使用して、ローカルのコミュニケーションのニーズを満たすキャンペーンを展開することです。ローカルキャンペーンの実装手順は、大きく以下の段階に分かれます。
+ローカルキャンペーンとは、**[!UICONTROL キャンペーンパッケージ]**&#x200B;のリストで参照されているテンプレートから作成されたインスタンスであり、**実行スケジュール**&#x200B;を指定できます。ローカルキャンペーンの目的は、セントラルエンティティによって設定されたテンプレートを使用して、ローカルのコミュニケーションのニーズを満たすキャンペーンを展開することです。ローカルキャンペーンの実装手順は、大きく以下の段階に分かれます。
 
 **セントラルエンティティ**
 
@@ -38,9 +38,9 @@ A local campaign is an instance created from a template referenced in the list o
 
 ## ローカルキャンペーンのテンプレートの作成 {#creating-a-local-campaign-template}
 
-To create a campaign package, you must first create the **campaign template** via the **[!UICONTROL Resources > Templates]** node.
+キャンペーンパッケージを作成するには、まず&#x200B;**[!UICONTROL リソース／テンプレート]**&#x200B;ノードに移動して、**キャンペーンのテンプレート**&#x200B;を作成する必要があります。
 
-To create a new local template, duplicate the default **[!UICONTROL Local campaign (opLocal)]** template.
+新しいローカルテンプレートを作成するには、デフォルトの&#x200B;**[!UICONTROL ローカルキャンペーン（opLocal）]**&#x200B;テンプレートの複製を作成します。
 
 ![](assets/mkg_dist_local_op_creation.png)
 
@@ -48,7 +48,7 @@ To create a new local template, duplicate the default **[!UICONTROL Local campai
 
 ![](assets/mkg_dist_local_op_creation1.png)
 
-キャンペーンウィンドウで、タブをク **[!UICONTROL Edit]** リックし、リンクをクリック **[!UICONTROL Advanced campaign settings...]** します。
+キャンペーンウィンドウで、「**[!UICONTROL 編集]**」タブをクリックし、「**[!UICONTROL キャンペーンの詳細設定...]**」リンクをクリックします。
 
 ![](assets/mkt_distr_4.png)
 
@@ -64,15 +64,15 @@ Web インターフェイスは、キャンペーンのオーダー時にロー�
 
 Web インターフェイスには、次の 4 つのタイプがあります。
 
-* **[!UICONTROL By brief]** :ローカルエンティティは、キャンペーンの設定を説明する説明を提供する必要があります。 オーダーが承認されたら、セントラルエンティティがキャンペーン全体を設定および実行します。
+* **[!UICONTROL 概要]**：ローカルエンティティは、キャンペーンの設定に関する説明を入力します。オーダーが承認されたら、セントラルエンティティがキャンペーン全体を設定および実行します。
 
    ![](assets/mkt_distr_6.png)
 
-* **[!UICONTROL By form]** :ローカルエンティティはWebフォームにアクセスでき、Webフォームは使用するテンプレートに応じて、コンテンツ、ターゲット、最大サイズ、およびパーソナライゼーションフィールドを使用した作成日と抽出日を編集できます。 この Web フォームからは、ターゲットを評価したり、コンテンツをプレビューしたりすることも可能です。
+* **[!UICONTROL フォーム]**：ローカルエンティティは Web フォームにアクセスし、テンプレートの設定に基づいて、コンテンツ、ターゲット、最大サイズを編集します。パーソナライゼーションフィールドを使用して、作成日や抽出日を編集することもできます。この Web フォームからは、ターゲットを評価したり、コンテンツをプレビューしたりすることも可能です。
 
    ![](assets/mkt_distr_8.png)
 
-   The form offered is specified in a Web application that must be selected in a drop-down list from the **[!UICONTROL Web Interface]** field in the template&#39;s **[!UICONTROL Advanced campaign settings...]** link. 詳しくは、「ロ [ーカルキャンペーンの作成（フォーム別）」を参照してくださ](../../campaign/using/examples.md#creating-a-local-campaign--by-form-)い。
+   ローカルエンティティに表示されるフォームは、Web アプリケーションで指定されます。Web アプリケーションは、テンプレートの「**[!UICONTROL キャンペーンの詳細設定...]**」リンクにある「**[!UICONTROL Web インターフェイス]**」フィールドのドロップダウンリストで選択します。[ローカルキャンペーン（フォーム）の作成](../../campaign/using/examples.md#creating-a-local-campaign--by-form-)を参照してください。
 
    >[!NOTE]
    >
@@ -80,27 +80,27 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
    ![](assets/mkt_distr_7.png)
 
-* **[!UICONTROL By external form]** :ローカルエンティティは、エクストラネット（Adobe Campaignではなく）のキャンペーンパラメーターにアクセスできます。 これらのパラメーターは、**ローカルキャンペーン（フォーム）**&#x200B;のパラメーターと同一です。
-* **[!UICONTROL Pre-set]** :ローカルエンティティは、ローカライズせずにデフォルトのフォームを使用してキャンペーンを注文します。
+* **[!UICONTROL 外部フォーム]**：ローカルエンティティは、エクストラネットの（Adobe Campaign 以外の）キャンペーンパラメーターにアクセスできます。これらのパラメーターは、**ローカルキャンペーン（フォーム）**&#x200B;のパラメーターと同一です。
+* **[!UICONTROL プリセット]**：ローカルエンティティは、デフォルトのフォームを使用し、ローカライズせずにキャンペーンをオーダーします。
 
    ![](assets/mkt_distr_5.png)
 
 ### デフォルト値 {#default-values}
 
-Select the **[!UICONTROL Default values]** to be completed by local entities. 次に例を示します。
+ローカルエンティティが入力する&#x200B;**[!UICONTROL デフォルト値]**&#x200B;を選択します。次に例を示します。
 
 * コンタクト日と抽出日
 * ターゲットの特性（年齢セグメントなど）
 
 ![](assets/mkg_dist_local_op_creation2.png)
 
-フィールドに **[!UICONTROL Parent marketing program]** 入力し **[!UICONTROL Charge]** ます。
+「**[!UICONTROL 親マーケティングプログラム]**」と「**[!UICONTROL 請求]**」フィールドに入力します。
 
 ![](assets/mkg_dist_local_op_creation3.png)
 
 ### 承認 {#approvals}
 
-このリンク **[!UICONTROL Advanced parameters for campaign entry]** から、レビュー担当者の最大数を指定できます。
+「**[!UICONTROL キャンペーンのエントリ用の詳細設定パラメーター]**」リンクから、レビュー担当者の最大数を指定できます。
 
 ![](assets/s_advuser_mkg_dist_add_valid_op1.png)
 
@@ -112,7 +112,7 @@ Select the **[!UICONTROL Default values]** to be completed by local entities. �
 
 ### ドキュメント {#documents}
 
-オーダーを作成するローカルエンティティオペレーターに対して、ローカルキャンペーンへのドキュメントのリンク（テキストファイル、スプレッドシート、画像、キャンペーンの説明など）を許可できます。このリ **[!UICONTROL Advanced parameters for campaign entry...]** ンクを使用して、ドキュメント数を制限できます。 To do this, simply enter the maximum number allowed in the **[!UICONTROL Number of documents]** field.
+オーダーを作成するローカルエンティティオペレーターに対して、ローカルキャンペーンへのドキュメントのリンク（テキストファイル、スプレッドシート、画像、キャンペーンの説明など）を許可できます。「**[!UICONTROL キャンペーンのエントリ用の詳細設定パラメーター...]**」リンクを使用すると、リンクするドキュメントの数を制限できます。「**[!UICONTROL ドキュメント数]**」フィールドで、許可する最大数を指定してください。
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 
@@ -120,31 +120,31 @@ Select the **[!UICONTROL Default values]** to be completed by local entities. �
 
 ![](assets/s_advuser_mkg_dist_add_docs.png)
 
-If you do not wish to display a document upload field, enter **[!UICONTROL 0]** in the **[!UICONTROL Number of documents]** field.
+ドキュメントのアップロードフィールドを表示しない場合は、「**[!UICONTROL ドキュメント数]**」フィールドに **[!UICONTROL 0]** を入力してください。
 
 >[!NOTE]
 >
->を非アク **[!UICONTROL Advanced parameters for campaign entry]** ティブにするには、を確認しま **[!UICONTROL Do not display the page used to enter the campaign parameters]**&#x200B;す。
+>**[!UICONTROL キャンペーンのエントリ用の詳細設定パラメーター]**&#x200B;は、「**[!UICONTROL キャンペーンパラメーターの入力に使用するページを表示しない]**」をオンにすると、無効になります。
 
 ![](assets/s_advuser_mkg_dist_disable_op_parameters.png)
 
 ### ワークフロー {#workflow}
 
-タブで、で指 **[!UICONTROL Targeting and workflows]** 定したを収集し、配信を作成するキャンペーン **[!UICONTROL Default values]** ワークフロー **[!UICONTROL Advanced campaign settings...]** を作成します。
+「**[!UICONTROL ターゲティングとワークフロー]**」タブでは、「**[!UICONTROL キャンペーンの詳細設定...]**」で指定された&#x200B;**[!UICONTROL デフォルト値]**&#x200B;を収集して配信を作成する、キャンペーンワークフローを作成できます。
 
 ![](assets/mkg_dist_local_op_creation4b.png)
 
-Double click the **[!UICONTROL Query]** activity to configure it according to the specified **[!UICONTROL Default values]**.
+**[!UICONTROL クエリ]**&#x200B;アクティビティをダブルクリックし、指定されている&#x200B;**[!UICONTROL デフォルト値]**&#x200B;に従ってクエリを設定します。
 
 ![](assets/mkt_dist_local_campaign_localize_query.png)
 
 ### 配信 {#delivery}
 
-In the **[!UICONTROL Audit]** tab, click the **[!UICONTROL Detail...]** icon to view the **[!UICONTROL Scheduling]** for the selected delivery.
+「**[!UICONTROL 監査]**」タブで、「**[!UICONTROL 詳細...]**」アイコンをクリックして、選択した配信の&#x200B;**[!UICONTROL スケジュール]**&#x200B;を表示します。
 
 ![](assets/mkg_dist_local_op_creation4c.png)
 
-The **[!UICONTROL Scheduling]** icon lets you configure the delivery&#39;s contact and execution date.
+「**[!UICONTROL スケジュール設定]**」アイコンをクリックすると、配信のコンタクト日と実行日を設定できます。
 
 ![](assets/mkg_dist_local_op_creation4d.png)
 
@@ -152,17 +152,17 @@ The **[!UICONTROL Scheduling]** icon lets you configure the delivery&#39;s conta
 
 ![](assets/mkg_dist_local_op_creation4e.png)
 
-配信の HTML を特定します。例えば、では、こ **[!UICONTROL Delivery > Current order > Additional fields]**&#x200B;のフィールドを **[!UICONTROL Age segment]** 使用して、ターゲットの年齢に応じた配信を検索します。
+配信の HTML を特定します。例えば、**[!UICONTROL 配信／現在のオーダー ID／追加のフィールド]**&#x200B;にある「**[!UICONTROL 年齢セグメント]**」フィールドを使用すると、ターゲットの年齢に応じて配信を特定できます。
 
 ![](assets/mkt_dist_local_campaign_localize_html.png)
 
-キャンペーンのテンプレートを保存します。You can now use it from the **Campaign packages** view in the **Campaigns** universe, by clicking the **[!UICONTROL Create]** button.
+キャンペーンのテンプレートを保存します。これにより、**キャンペーン**&#x200B;ウィンドウの&#x200B;**キャンペーンパッケージ**&#x200B;ビューで「**[!UICONTROL 作成]**」ボタンをクリックすると、このテンプレートを選択できるようになります。
 
 ![](assets/mkt_distr_9.png)
 
 >[!NOTE]
 >
->Campaign templates and their general configuration are detailed in [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>キャンペーンのテンプレートと一般的な設定について詳しくは、[キャンペーンテンプレート](../../campaign/using/marketing-campaign-templates.md#campaign-templates)で説明しています。
 
 ## キャンペーンパッケージの作成 {#creating-the-campaign-package}
 
@@ -170,14 +170,14 @@ The **[!UICONTROL Scheduling]** icon lets you configure the delivery&#39;s conta
 
 次の手順に従います。
 
-1. In the **[!UICONTROL Navigation]** section on the **Campaigns** page, click the **[!UICONTROL Campaign packages]** link.
-1. ボタンをクリッ **[!UICONTROL Create]** クします。
+1. **キャンペーン**&#x200B;ページの&#x200B;**[!UICONTROL ナビゲーション]**&#x200B;セクションで、「**[!UICONTROL キャンペーンパッケージ]**」リンクをクリックします。
+1. 「**[!UICONTROL 作成]**」ボタンをクリックします。
 
    ![](assets/mkg_dist_add_an_entry.png)
 
 1. ウィンドウ上に表示されるセクションで、[前述の手順](#creating-a-local-campaign-template)で作成したキャンペーンパッケージのテンプレートを選択します。
 
-   デフォルトでは、テンプレート **[!UICONTROL New local campaign package (localEmpty)]** はローカルキャンペーンに使用されます。
+   デフォルトでは、ローカルキャンペーンには「**[!UICONTROL 新規キャンペーンパッケージ（localEmpty）]**」テンプレートが使用されます。
 
 1. キャンペーンパッケージのラベル、フォルダーおよび実行スケジュールを指定します。
 
@@ -197,19 +197,19 @@ The **[!UICONTROL Scheduling]** icon lets you configure the delivery&#39;s conta
 
 ### オーディエンス {#audience}
 
-ローカルキャンペーンの場合、中央エンティティは、を確認することで、関連するローカルエンティティを指定できま **[!UICONTROL Limit the package to a set of local entities]**&#x200B;す。
+セントラルエンティティは、「**[!UICONTROL パッケージをローカルエンティティセットに制限]**」をオンにすることで、ローカルキャンペーンを使用するローカルエンティティを限定できます。
 
 ![](assets/s_advuser_mkg_dist_create_mutual_entry3.png)
 
 ### その他の設定 {#additional-settings}
 
-Once the package is saved, the central entity can edit it from the **[!UICONTROL Edit]** tab.
+セントラルエンティティは、保存したパッケージを「**[!UICONTROL 編集]**」タブから編集することができます。
 
 ![](assets/mkg_dist_edit_kit.png)
 
-From the **[!UICONTROL General]** tab, the central entity can:
+「**[!UICONTROL 一般]**」タブで、セントラルエンティティは、以下の操作を実行できます。
 
-* configure the campaign package reviewer(s) from the **[!UICONTROL Approval parameters...]** link,
+* 「**[!UICONTROL 承認パラメーター...]**」リンクから、キャンペーンパッケージのレビュー担当者を設定します。
 * 実行スケジュールを確認します。
 * ローカルエンティティを追加または削除します。
 
@@ -217,13 +217,13 @@ From the **[!UICONTROL General]** tab, the central entity can:
 >
 >デフォルトでは、各エンティティが&#x200B;**ローカルキャンペーン**&#x200B;をオーダーできるのは 1 回のみです。
 >   
->Check the **[!UICONTROL Enable multiple creation]** option to allow several local campaigns to be created from the campaign package.
+>キャンペーンパッケージから複数のローカルキャンペーンを作成できるようにするには、「**[!UICONTROL 複数作成を有効にする]**」オプションをオンにしてください。
 
 ![](assets/mkg_dist_local_op_multi_crea.png)
 
 ### 通知 {#notifications}
 
-キャンペーンが使用可能になる、または登録の期限が切れると、ローカル通知グループのオペレーターにメッセージが送信されます。For more on this, refer to [Organizational entities](../../campaign/using/about-distributed-marketing.md#organizational-entities).
+キャンペーンが使用可能になる、または登録の期限が切れると、ローカル通知グループのオペレーターにメッセージが送信されます。詳しくは、[組織エンティティ](../../campaign/using/about-distributed-marketing.md#organizational-entities)を参照してください。
 
 ## キャンペーンのオーダー {#ordering-a-campaign}
 
@@ -239,7 +239,7 @@ From the **[!UICONTROL General]** tab, the central entity can:
 
 キャンペーンをオーダーするには：
 
-1. Click **[!UICONTROL Order campaign]** in the notification message, or the corresponding button in Adobe Campaign.
+1. 通知メッセージの「**[!UICONTROL キャンペーンをオーダー]**」をクリックするか、Adobe Campaign の該当するボタンをクリックします。
 
    ID とパスワードを入力して、キャンペーンをオーダーします。インターフェイスは、Web アプリケーションで定義されている一連のページで構成されます。
 
@@ -247,7 +247,7 @@ From the **[!UICONTROL General]** tab, the central entity can:
    >
    >Web アプリケーションについて詳しくは、[Web 機能](../../web/using/about-web-applications.md)ガイドを参照してください。
 
-1. Enter the necessary information in the first page (order label and comment) and click **[!UICONTROL Next]**.
+1. 最初のページで必要な情報（オーダーのラベルとコメント）を入力し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/mkg_dist_subscribe_step1.png)
 
@@ -265,7 +265,7 @@ From the **[!UICONTROL General]** tab, the central entity can:
 
    ![](assets/mkg_dist_local_op_catalog_detail_1.png)
 
-   The **[!UICONTROL Edit]** tab contains information entered by the local entity when ordering the campaign.
+   「**[!UICONTROL 編集]**」タブには、キャンペーンのオーダー時にローカルエンティティによって入力された情報が表示されます。
 
    ![](assets/mkg_dist_local_op_catalog_detail_1b.png)
 
@@ -273,11 +273,11 @@ From the **[!UICONTROL General]** tab, the central entity can:
 
    ![](assets/mkg_dist_local_op_catalog_detail_3.png)
 
-   For more on this, refer to the [Approval process](#approval-process) section.
+   詳しくは、[承認プロセス](#approval-process)の節を参照してください。
 
-1. 承認が完了すると、キャンペーンが使用可能になったことがローカルオペレーターに通知されます。キャンペーンの可用性は、**キャンペーン**&#x200B;ウィンドウのキャンペーンパッケージのリストで確認できます。これで、キャンペーンの使用が可能になりました。For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md).
+1. 承認が完了すると、キャンペーンが使用可能になったことがローカルオペレーターに通知されます。キャンペーンの可用性は、**キャンペーン**&#x200B;ウィンドウのキャンペーンパッケージのリストで確認できます。これで、キャンペーンの使用が可能になりました。詳しくは、[キャンペーンへのアクセス](../../campaign/using/accessing-campaigns.md)を参照してください。
 
-   The **[!UICONTROL Start targeting with order approval]** option lets the local entity run the campaign as soon as the order has been approved.
+   「**[!UICONTROL オーダーを承認してターゲティングを開始]**」オプションを使用すると、ローカルエンティティはオーダーが承認されしだい、すぐにキャンペーンを実行できます。
 
    ![](assets/mkg_dist_local_op_catalog_use.png)
 
@@ -285,7 +285,7 @@ From the **[!UICONTROL General]** tab, the central entity can:
 
 キャンペーンのオーダーを確定するには、セントラルエンティティがオーダーを承認する必要があります。
 
-The **[!UICONTROL Campaign orders]** overview, accessed via the **Campaigns** universe lets you view the status of campaign orders and approve them.
+**キャンペーン**&#x200B;ウィンドウから表示できる&#x200B;**[!UICONTROL キャンペーンオーダー]**&#x200B;の概要で、オーダーのステータスを確認し、承認することができます。
 
 >[!NOTE]
 >
@@ -301,19 +301,19 @@ The **[!UICONTROL Campaign orders]** overview, accessed via the **Campaigns** un
 
 >[!NOTE]
 >
->Selecting reviewers is presented in the [Reviewers](#reviewers) section. レビュー担当者は、オーダーを許可または却下できます。
+>レビュー担当者の選択について詳しくは、[レビュー担当者](#reviewers)の節で説明しています。レビュー担当者は、オーダーを許可または却下できます。
 
 ![](assets/mkg_dist_command_valid_web.png)
 
 #### Adobe Campaign コンソールを使用する承認 {#approving-via-the-adobe-campaign-console}
 
-オーダーの承認は、キャンペーンのオーダーの概要で、コンソールから実行することもできます。注文を承認するには、注文を選択してをクリックしま **[!UICONTROL Approve the order]**&#x200B;す。
+オーダーの承認は、キャンペーンのオーダーの概要で、コンソールから実行することもできます。オーダーを承認するには、オーダーを選択して、「**[!UICONTROL オーダーを承認]**」をクリックします。
 
 ![](assets/mkg_dist_local_order_valid.png)
 
 >[!NOTE]
 >
->キャンペーンは、キャンペーンを使用可能な日まで編集および再設定が可能です。Local entities can also reject the campaign by clicking the **[!UICONTROL Cancel]** button.
+>キャンペーンは、キャンペーンを使用可能な日まで編集および再設定が可能です。ローカルエンティティも、「**[!UICONTROL キャンセル]**」ボタンをクリックすれば、キャンペーンを却下できます。
 
 #### キャンペーンの作成 {#creating-a-campaign}
 
@@ -321,7 +321,7 @@ The **[!UICONTROL Campaign orders]** overview, accessed via the **Campaigns** un
 
 ![](assets/mkg_dist_mutual_op_created.png)
 
-For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-campaigns.md).
+詳しくは、[キャンペーンへのアクセス](../../campaign/using/accessing-campaigns.md)を参照してください。
 
 ### 承認の却下 {#rejecting-an-approval}
 
@@ -335,7 +335,7 @@ For more on this, refer to [Accessing campaigns](../../campaign/using/accessing-
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 
-They can view the related comment in the campaign package&#39;s **[!UICONTROL Edit]** tab.
+キャンペーンパッケージの「**[!UICONTROL 編集]**」タブで、コメントを表示できます。
 
 ![](assets/mkg_dist_do_not_valid_tab.png)
 
@@ -343,7 +343,7 @@ They can view the related comment in the campaign package&#39;s **[!UICONTROL Ed
 
 承認が必要になると、レビュー担当者に E メールで通知が送信されます。
 
-ローカルエンティティごとに、キャンペーンのオーダーおよびキャンペーンを承認するレビュー担当者が選ばれます。For more information on selecting local reviewers, refer to [Organizational entities](../../campaign/using/about-distributed-marketing.md#organizational-entities).
+ローカルエンティティごとに、キャンペーンのオーダーおよびキャンペーンを承認するレビュー担当者が選ばれます。ローカルエンティティのレビュー担当者の選択について詳しくは、[組織エンティティ](../../campaign/using/about-distributed-marketing.md#organizational-entities)を参照してください。
 
 >[!NOTE]
 >
@@ -351,8 +351,8 @@ They can view the related comment in the campaign package&#39;s **[!UICONTROL Ed
 
 ### オーダーのキャンセル {#canceling-an-order}
 
-The central agency can cancel an order using the **[!UICONTROL Delete]** button, located on the order dashboard.
+セントラルエージェントは、オーダーのダッシュボードにある「**[!UICONTROL 削除]**」ボタンを使用して、オーダーをキャンセルできます。
 
 ![](assets/mkg_dist_local_op_cancel.png)
 
-This cancels the campaign in the **[!UICONTROL Campaign orders]** view.
+この操作により、**[!UICONTROL キャンペーンのオーダー]**&#x200B;ビューに表示されているキャンペーンがキャンセルされます。

@@ -14,7 +14,7 @@ discoiquuid: 4404c21e-0a89-4762-af20-384ad7071916
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ## 汎用クエリ {#generic-queries}
 
-Queries are configured via the publication template in the **[!UICONTROL Aggregator]** tab.
+クエリは、「**[!UICONTROL 集約]**」タブでパブリッシュテンプレートを使用して設定します。
 
 XML 出力ドキュメントのメイン要素を使用して、取得したデータでこのドキュメントをエンリッチメントします。
 
@@ -42,7 +42,7 @@ XML 出力ドキュメントのメイン要素を使用して、取得したデ�
 </book>
 ```
 
-The **`<collection-recipient>`** element represents the input element of the document resulting from a query. 取得したデータは、この要素の下に返されます（この例では受信者リスト）。
+**`<collection-recipient>`** 要素は、クエリ結果のドキュメントの入力要素を表します。取得したデータは、この要素の下に返されます（この例では受信者リスト）。
 
 ### クエリの追加 {#adding-a-query}
 
@@ -85,9 +85,9 @@ The **`<collection-recipient>`** element represents the input element of the doc
 <element expandSchemaTarget="cus:chapter" label="Main chapter" name="mainChapter" type="string"/>
 ```
 
-The definition of the link is populated on a **string**-type **`<element>`**, and the **expandSchemaTarget** attribute references the target schema (&quot;cus:chapter&quot; in our example). 参照するスキーマは、コンテンツスキーマである必要があります。
+リンクの定義は **string** タイプの **`<element>`** に対して設定され、**expandSchemaTarget** 属性がターゲットスキーマ（この例では「cus:chapter」）を参照します。参照するスキーマは、コンテンツスキーマである必要があります。
 
-The content of the targeted element enriches the link element, i.e. the **`<chapter>`** element in our example schema:
+ターゲット要素のコンテンツは、リンク要素（この例のスキーマでは **`<chapter>`** 要素）をエンリッチメントします。
 
 ```
 <mainChapter computeString="Introduction" id="7011" title="Introduction" xtkschema="cus:chapter">    
@@ -107,7 +107,7 @@ The content of the targeted element enriches the link element, i.e. the **`<chap
 
 ![](assets/d_ncs_content_link.png)
 
-The **[!UICONTROL Magnifier]** icon enables you to open the edit form of the linked element.
+**[!UICONTROL 虫眼鏡]**&#x200B;アイコンを使用して、リンクされている要素の編集フォームを開くことができます。
 
 #### リンクコレクション {#link-collection}
 
@@ -143,11 +143,11 @@ The **[!UICONTROL Magnifier]** icon enables you to open the edit form of the lin
 <element label="Main contact" name="mainContact" target="nms:recipient" type="link"/>
 ```
 
-The definition of the link is populated on a **link**-type **`<element>`**, and the **target** attribute references the target schema (&quot;nms:recipient&quot; in our example).
+リンクの定義は **link** タイプの **`<element>`** に対して設定され、**target** 属性がターゲットスキーマ（この例では「nms:recipient」）を参照します。
 
 慣例によって、リンクはデータスキーマのメイン要素から宣言する必要があります。
 
-The **Compute string** and the key of the targeted element enrich the **`<name>-id`** and **`<name>-cs`** attributes on the main element.
+ターゲット要素の&#x200B;**計算文字列**&#x200B;とキーが、メイン要素の **`<name>-id`** 属性と **`<name>-cs`** 属性をエンリッチメントします。
 
 この例では、リンクは「cus:book」スキーマ内に入力され、リンクデータのコンテンツは「mainContact-id」属性と「mainContact-cs」属性に格納されます。
 
@@ -163,7 +163,7 @@ The **Compute string** and the key of the targeted element enrich the **`<name>-
 
 ![](assets/d_ncs_content_link3.png)
 
-You can restrict the choice of target elements by adding the **`<sysfilter>`** element via the link definition in the input form:
+入力フォーム内のリンク定義を使用して **`<sysfilter>`** 要素を追加することによって、ターゲット要素の選択肢を制限できます。
 
 ```
 <input xpath="mainContact">
@@ -215,7 +215,7 @@ You can restrict the choice of target elements by adding the **`<sysfilter>`** e
 
 JavaScript スクリプトを使用して、SOAP クエリによってリンクのコンテンツをエンリッチメントします。
 
-**例**:「mainContact」リンクと「contact」コレクションリンクに受信者名を追加します。
+**例**：「mainContact」リンクおよび「contact」コレクションリンクに受信者名を追加：
 
 ```
 // Update <mainContact> link
@@ -262,7 +262,7 @@ for each(var contact in content.contact)
 <contact id="11504982510" lastName="Martinez" recipient-cs="Martinez Peter (peter.martinez@adobe.com)" recipient-id="3013"/> 
 ```
 
-The content of the JavaScript code is added via the **[!UICONTROL Administration > Configuration > Content management > JavaScript Codes]** folder and must be populated in the publication template for each transformation.
+JavaScript コードのコンテンツが&#x200B;**[!UICONTROL 管理／設定／コンテンツ管理／JavaScript コード]**&#x200B;フォルダーを使用して追加されます。また、コンテンツは変換ごとにパブリッシュテンプレートに追加される必要があります。
 
 ![](assets/d_ncs_content_link5.png)
 

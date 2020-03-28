@@ -14,7 +14,7 @@ discoiquuid: affecd87-00a3-4d50-92d3-31ac6228948b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -32,15 +32,15 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 ### アーカイブされたフィールドへの格納 {#storing-in-an-archived-field}
 
-調査で提供された回答を保存するための新しいストレージスペースを追加することで、データテンプレートを簡単に拡張できます。これを行うには、入力フィールドを作 **[!UICONTROL Store answers to a question]** 成する際にこのオプションを選択します。 Click the **[!UICONTROL New field...]** link and give its properties:
+調査で提供された回答を保存するための新しいストレージスペースを追加することで、データテンプレートを簡単に拡張できます。これをおこなうには、入力フィールドを作成する際に、「**[!UICONTROL 質問に対する回答を保存]**」オプションを選択します。「**[!UICONTROL 新しいフィールド]**」リンクをクリックして、プロパティを指定します。
 
 ![](assets/s_ncs_admin_survey_new_space.png)
 
-フィールドのラベルと名前を入力し、フィールドの種類を選択します。テキスト、ブール値、整数または10進数、日付など
+フィールドのラベルと名前を入力し、フィールドのタイプ（テキスト、ブール値、整数または 10 進数、日付など）を選択します。
 
-選択したフィールドのタイプは、回答がユーザーによって入力される際の、データの制御に作用します。テキ **ストフィールドの場合** 、制約（大文字と小文字の区別、書式）を追加したり、既存の列挙にリンクを追加して、強制的に選択することができます。
+選択したフィールドのタイプは、回答がユーザーによって入力される際の、データの制御に作用します。**テキスト**&#x200B;フィールドの場合、制約（大文字と小文字の区別、書式）を追加したり、既存の列挙にリンクを追加したりして、強制的に選択させることができます。
 
-拘束を追加するには、ドロップダウンリストから拘束を選択します。 2 つのタイプの制約があります。
+制約を追加するには、ドロップダウンリストから選択します。2 つのタイプの制約があります。
 
 1. 大文字と小文字
 
@@ -48,25 +48,25 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 1. データフォーマット
 
-If this field is used in a list, the values of the enumeration can be retrieved automatically in the table of values using the **[!UICONTROL Initialize the list of values from the database]** link above the list of values.
+このフィールドがリストで使用されると、列挙の値は、値のリストの上にある&#x200B;**[!UICONTROL データベースからの値のリストを初期化]**&#x200B;リンクを使用して、値のテーブルで自動的に再初期化できます。
 
 例えば、ユーザーが母国語を選択するためのドロップダウンリストを作成できます。対応するアーカイブされたフィールドは、言語のリストを含む&#x200B;**言語**&#x200B;の列挙と関連付けることができます。
 
 ![](assets/s_ncs_admin_survey_database_values_2b.png)
 
-The **[!UICONTROL Edit link]** icon located to the right of the field lets you edit the content of this enumeration:
+フィールドの右側にある&#x200B;**[!UICONTROL リンクを編集]**&#x200B;アイコンを使用すると、この列挙のコンテンツを編集できます。
 
 ![](assets/s_ncs_admin_survey_database_values_2c.png)
 
-フィールド **[!UICONTROL General]** のタブで、リンクを使用 **[!UICONTROL Initialize the list of values from the database]** して、提供されるラベルのリストを自動的に入力できます。
+フィールドの「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL データベースからの値のリストを初期化]**」リンクを使用すると、提供されるラベルのリストを自動的に入力できます。
 
 ![](assets/s_ncs_admin_survey_database_values_2.png)
 
 **例**：受信者の契約を 1 つのフィールドに格納します。
 
-1つのフィールドに異なるタイプの契約を保存するには、入力フィールドを作 **[!UICONTROL Text]** 成し、このオプションを選択 **[!UICONTROL Store answers to a question]** します。
+異なるタイプの契約を 1 つのフィールドに格納するには、**[!UICONTROL テキスト]**&#x200B;入力フィールドを作成し「**[!UICONTROL 質問に対する回答を保存]**」オプションを選択します。
 
-Click the **[!UICONTROL New field...]** link and enter the field properties. Select the **[!UICONTROL Multiple values]** option to enable several values to be stored.
+「**[!UICONTROL 新しいフィールド]**」リンクをクリックして、フィールドプロパティを入力します。「**[!UICONTROL 複数値]**」オプションを選択して、複数の値の格納を有効にします。
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex1.png)
 
@@ -74,7 +74,7 @@ Click the **[!UICONTROL New field...]** link and enter the field properties. Sel
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex2.png)
 
-When users approve the survey, their answers will be stored in the **[!UICONTROL Contracts]** field.
+ユーザーが調査を承認すると、その回答が「**[!UICONTROL 契約]**」フィールドに格納されます。
 
 この例では、次の回答が格納されます。
 
@@ -82,11 +82,11 @@ When users approve the survey, their answers will be stored in the **[!UICONTROL
 
 回答者のプロファイルには、入力された 4 つの契約が含まれます。
 
-They can be viewed in the **[!UICONTROL Answers]** tab of the survey by displaying the relevant columns.
+それらは、関連する列を表示することで、調査の「**[!UICONTROL 回答]**」タブで表示できます。
 
 ![](assets/s_ncs_admin_survey_storage_multi_ex4.png)
 
-また、回答に基づいて受信者をフィルターして、関心のあるユーザーのみを表示できます。To do this, create a targeting workflow and use the **[!UICONTROL Survey responses]** box.
+また、回答に基づいて受信者をフィルターして、関心のあるユーザーのみを表示できます。これをおこなうには、ターゲティングワークフローを作成し、「**[!UICONTROL 調査の回答]**」ボックスを使用します。
 
 ![](assets/s_ncs_admin_survey_read_responses_wf.png)
 
@@ -106,7 +106,7 @@ They can be viewed in the **[!UICONTROL Answers]** tab of the survey by displayi
 
 ### ストレージ設定 {#storage-settings}
 
-調査の回答を XML 形式でアーカイブできます。This lets you save a raw copy of the answers collected, which can be useful in case of excessive standardization of the data in an itemized list (for more on this, refer to [Standardizing data](../../web/using/publish--track-and-use-collected-data.md#standardizing-data)).
+調査の回答を XML 形式でアーカイブできます。これにより、収集した回答の生のコピーを保存できます。これは、定義済みリストのデータが過度に標準化される場合に便利です（詳しくは、[データの標準化](../../web/using/publish--track-and-use-collected-data.md#standardizing-data)を参照）。
 
 >[!CAUTION]
 >
@@ -114,8 +114,8 @@ They can be viewed in the **[!UICONTROL Answers]** tab of the survey by displayi
 
 手順は次のとおりです。
 
-* Edit the survey properties via the **[!UICONTROL Properties]** button of the **[!UICONTROL Edit]** tab.
-* リンクをクリック **[!UICONTROL Advanced parameters]** し、オプションをオンに **[!UICONTROL Save a copy of raw answers]** します。
+* 「**[!UICONTROL 編集]**」タブの「**[!UICONTROL プロパティ]**」ボタンをクリックして、調査プロパティを編集します。
+* 「**[!UICONTROL 詳細設定パラメーター]**」リンクをクリックして、「**[!UICONTROL 生の回答のコピーを保存]**」オプションをチェックします。
 
 ![](assets/s_ncs_admin_survey_xml_archive_option.png)
 
@@ -133,7 +133,7 @@ They can be viewed in the **[!UICONTROL Answers]** tab of the survey by displayi
 
 ![](assets/s_ncs_admin_survey_score_create.png)
 
-The scores are accumulated and saved on the server side when the page is confirmed, i.e. when the user clicks the **[!UICONTROL Next]** or **[!UICONTROL Finish]** button.
+スコアは、ページが確認されると（つまり、ユーザーが「**[!UICONTROL 次へ]**」または「**[!UICONTROL 完了]**」ボタンをクリックすると）、サーバー側に蓄積および保存されます。
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ The scores are accumulated and saved on the server side when the page is confirm
 >
 >スコアは、同じページにあるフィールドの表示条件には使用できません。ただし、後続のページでは使用できます。
 
-* To use scores in tests, use the **[!UICONTROL Score]** field in the test calculation formula, as shown below:
+* スコアをテストで使用するには、次に示すように、テストの計算式の「**[!UICONTROL スコア]**」フィールドを使用します。
 
    ![](assets/s_ncs_admin_survey_score_in_a_test.png)
 
@@ -161,7 +161,7 @@ The scores are accumulated and saved on the server side when the page is confirm
 
    ![](assets/s_ncs_admin_survey_score_exb.png)
 
-* When the user clicks the **[!UICONTROL Next]** button, the two values are added up.
+* ユーザーが「**[!UICONTROL 次へ]**」ボタンをクリックすると、2 つの値が加算されます。
 
    ![](assets/s_ncs_admin_survey_score_exe.png)
 

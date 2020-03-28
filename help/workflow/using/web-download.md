@@ -14,7 +14,7 @@ discoiquuid: 8590cc75-11c8-450d-90e8-56744e12ac70
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cfb1b02a6261c001392b5cc6430f00206e802bb8
 
 ---
@@ -30,44 +30,44 @@ source-git-commit: cfb1b02a6261c001392b5cc6430f00206e802bb8
 
    インターネット経由でファイルをダウンロードする方法としては、ファイルの URL を直接指定する方法、ファイルが保存されている外部の HTTP アカウントを使用する方法、Adobe Campaign インスタンスからファイルをダウンロードする方法があります。使用できるパラメーターは以下のとおりです。
 
-   * To directly enter the URL of the file to be downloaded, select the **[!UICONTROL Explicit URL]** option and specify the URL in the appropriate field. この URL は変数データで構成することもできます。
+   * ダウンロードするファイルの URL を直接指定するには、「**[!UICONTROL 明示的 URL]**」オプションを選択し、該当するフィールドに URL を入力します。この URL は変数データで構成することもできます。
 
       ![](assets/download_web_edit.png)
 
-   * To use an **[!UICONTROL External account]**, select the account from the drop-down list, and specify the file to be downloaded.
+   * 「**[!UICONTROL 外部アカウント]**」を使用する場合は、ドロップダウンからアカウントを選択し、ダウンロードするファイルを指定します。
 
-      外部アカウントは、Adobe Campaignツリー **[!UICONTROL Administration > Platform > External accounts]** のノードから設定します。 The account parameters can be edited via the **[!UICONTROL Edit link]** icon.
+      外部アカウントは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;ノードで設定できます。**[!UICONTROL リンクを編集]**&#x200B;アイコンをクリックすると、外部アカウントのパラメーターを編集できます。
 
       ![](assets/download_web_edit_external.png)
 
-   * To download the file from the Adobe Campaign instance, select the **[!UICONTROL Adobe Campaign Instance]** option.
+   * Adobe Campaign インスタンスからファイルをダウンロードするには、「**[!UICONTROL Adobe Campaign インスタンス]**」オプションを選択します。
 
       ![](assets/download_web_edit_instance.png)
 
 1. **ファイルの履歴化**
 
-   The **[!UICONTROL File historization settings...]** link lets you specify the file storage directory and the purge frequency of this directory.
+   「**[!UICONTROL ファイル履歴化設定...]**」リンクを使用して、ファイルのストレージディレクトリとこのディレクトリのパージ頻度を指定できます。
 
    ![](assets/download_web_edit_hist.png)
 
    次のオプションを使用できます。
 
-   * **[!UICONTROL Use a default storage directory]**:ファイルは常に処理前に移動されます。 このオプションを選択すると、ファイルはデフォルトのストレージディレクトリ（Adobe Campaign インストールフォルダーの **vars** ディレクトリ）に移されます。To specify a storage directory, uncheck the box and enter its path in the **[!UICONTROL Storage directory]** field
-   * **[!UICONTROL Number of files]**:ストレージディレクトリに保存するファイルの最大数を入力します。
-   * **[!UICONTROL Maximum size (in Mb)]**:ストレージディレクトリの最大容量をMB単位で入力します。
+   * **[!UICONTROL デフォルトストレージディレクトリを使用]**：ファイルの処理がおこなわれる前に、必ずファイルを移動します。このオプションを選択すると、ファイルはデフォルトのストレージディレクトリ（Adobe Campaign インストールフォルダーの **vars** ディレクトリ）に移されます。ストレージディレクトリを指定するには、チェックボックスの選択を解除し、「**[!UICONTROL ストレージディレクトリ]**」フィールドにディレクトリのパスを入力します。
+   * **[!UICONTROL ファイル数]**：ストレージディレクトリに保持するファイルの最大数を入力します。
+   * **[!UICONTROL 最大サイズ（MB 単位）]**：ストレージディレクトリの最大容量（MB）を指定します。
    各ファイルは、定義したパージルールが適用されるまで、ディレクトリに 24 時間保持されます。パージはアクティビティの開始直前におこなわれるので、作業中のワークフローファイルには影響しません。
 
    ファイルは、作成日にしたがって古いものから削除されます。最も古いファイルは、両方のパージルールが確定するまでパージされます。したがって、ファイルの最大数を 100 に設定した場合、ワークフローが開始される前に、常に最新の 100 個のファイルがストレージディレクト内に存在し、それらのファイルが進行中のワークフローで処理されていきます。
 
-   オプションとオプションの制限を設定しな **[!UICONTROL Number of files]** い場 **[!UICONTROL Maximum size (in Mb)]** 合は、値として0を入力します。
+   ファイルの数とディレクトリの容量を制限しない場合は、「**[!UICONTROL ファイル数]**」と「**[!UICONTROL 最大サイズ（MB 単位）]**」オプションの値をそれぞれ 0 に設定します。
 
 1. **詳細設定パラメーター**
 
-   The **[!UICONTROL Advanced parameters...]** link lets you specify the additional options shown below:
+   「**[!UICONTROL 詳細設定パラメーター]**」リンクを使用して、次の追加オプションを設定できます。
 
    ![](assets/download_web_edit_advanced.png)
 
-   このオ **[!UICONTROL Process errors]** プションは「処理エラー」 [で詳しく説明します](../../workflow/using/monitoring-workflow-execution.md#processing-errors)。
+   「**[!UICONTROL エラーを処理]**」オプションについて詳しくは、[エラーを処理](../../workflow/using/monitoring-workflow-execution.md#processing-errors)を参照してください。
 
 ## 出力パラメーター {#output-parameters}
 

@@ -14,7 +14,7 @@ discoiquuid: 12b2d22b-ac6d-4ddd-a8cb-57bc56df4281
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ![](assets/dce_popup_templatechoice.png)
 
-To add a template, refer to [Global options](../../web/using/content-editor-interface.md#global-options).
+テンプレートを追加するには、[グローバルオプション](../../web/using/content-editor-interface.md#global-options)を参照してください。
 
 ## 配信をテンプレートとして保存 {#saving-a-delivery-as-a-template}
 

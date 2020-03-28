@@ -14,7 +14,7 @@ discoiquuid: 8ef303b4-d9ce-40ee-a6c6-ed5012ab8eb8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
 
 ---
@@ -28,8 +28,8 @@ source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
 
 そこで、カナダ旅行のオファーを受信者 1 人につき 1 回のみ送信し、拒否された場合は二度と送信しないようにルールを設定します。
 
-1. Adobe Campaignツリーで、///ノードに **[!UICONTROL Administration]** 移動 **[!UICONTROL Campaign management]** し **[!UICONTROL Typology management]** ま **[!UICONTROL Typology rules]** す。
-1. 新しいタイプルール **[!UICONTROL Offer presentation]** を作成します。
+1. Adobe Campaign のツリーで、**[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL タイポロジ管理]**／**[!UICONTROL タイポロジルール]**&#x200B;ノードに移動します。
+1. 「**[!UICONTROL オファーのプレゼンテーション]**」タイプのルールを新規作成します。
 
    ![](assets/offer_typology_example_001.png)
 
@@ -37,11 +37,11 @@ source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
 
    ![](assets/offer_typology_example_002.png)
 
-1. Choose the **[!UICONTROL All channels]** option to extend the rule to all channels.
+1. 「**[!UICONTROL すべてのチャネル]**」オプションを選択して、ルールをすべてのチャネルに拡大します。
 
    ![](assets/offer_typology_example_003.png)
 
-1. Click the **[!UICONTROL Edit expression]** link and choose the **[!UICONTROL Category]** node as an expression.
+1. 「**[!UICONTROL 式を編集]**」リンクをクリックし、式として「**[!UICONTROL カテゴリ]**」ノードを選択します。
 
    ![](assets/offer_typology_example_004.png)
 
@@ -49,7 +49,7 @@ source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
 
    ![](assets/offer_typology_example_005.png)
 
-1. In the **[!UICONTROL Offer presentation]** tab, choose the same dimensions as those configured in the environment.
+1. 「**[!UICONTROL オファーのプレゼンテーション]**」タブで、環境内に設定されているのと同じディメンションを選択します。
 
    ![](assets/offer_typology_example_006.png)
 
@@ -61,11 +61,11 @@ source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
 
    ![](assets/offer_typology_example_008.png)
 
-1. フィルターを選 **[!UICONTROL Offers for the same category]** 択して、カナダのカテゴリからすべてのオファーを **除外します** 。
+1. 「**[!UICONTROL 同じカテゴリのオファー]**」を選択して、「**Canada**」（カナダ）カテゴリに属するすべてのオファーを除外します。
 
    ![](assets/offer_typology_example_020.png)
 
-1. Select the **[!UICONTROL Rejected propositions]** filter to take into account only propositions rejected by the recipient.
+1. 「**[!UICONTROL 却下された提案]**」フィルターを選択して、受信者に拒否された提案のみが考慮されるようにします。
 
    ![](assets/offer_typology_example_021.png)
 
@@ -79,7 +79,7 @@ source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
 
    ![](assets/offer_typology_example_013.png)
 
-1. Go to the offer environment, (**Environment - Recipient** in this case) and reference the new typology just created using the drop-down list in the **[!UICONTROL Eligibility]** tab.
+1. オファー環境に移動し（この例では「**環境 - 受信者**」）、「**[!UICONTROL 実施要件]**」タブのドロップダウンリストで、先ほど作成した新しいタイポロジを参照します。
 
    ![](assets/offer_typology_example_014.png)
 
@@ -89,7 +89,7 @@ source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
 
 これから、カナダのカテゴリに属する最初のオファー提案を送信しようとしています。ただし、このオファーを既に拒否したことがある受信者には再送しません。
 
-1. In the **Frequent travelers** recipient folder, choose one of the profiles to check the offers for which they are eligible: click the **[!UICONTROL Propositions]** tab, then the **[!UICONTROL Preview]** tab.
+1. 受信者フォルダー「**Frequent travelers**」からプロファイルを 1 つ選択します。実施要件を満たすオファーをチェックするために、「**[!UICONTROL 提案]**」タブをクリックし、「**[!UICONTROL プレビュー]**」タブをクリックします。
 
    この例の場合、**Tim Ramsey** というプロファイルは、「**Americas**」（南北アメリカ）カテゴリに属するオファーの実施要件を満たしています。
 
@@ -102,7 +102,7 @@ source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
 
    ![](assets/offer_typology_example_016.png)
 
-1. メッセージの本文にオファーを挿入し、配信を送信します。For more on this, refer to [About outbound channels](../../interaction/using/about-outbound-channels.md).
+1. メッセージの本文にオファーを挿入し、配信を送信します。詳しくは、[アウトバウンドチャネルについて](../../interaction/using/about-outbound-channels.md)を参照してください。
 
    受信者に、実施要件を満たすオファーが届きます。
 
@@ -118,4 +118,4 @@ source-git-commit: 28614a6b0c45deef17d9b3275a16e65bdff4538b
 
 **関連トピック**
 
-* [オファーを管理し、チャネル間の冗長性を制御](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Manageoffersandcontrolredundancyacrosschannels)
+* [チャネル間のオファーおよびコントロールの冗長性の管理](https://helpx.adobe.com/jp/campaign/kb/simplifying-campaign-management-acc.html#Manageoffersandcontrolredundancyacrosschannels)

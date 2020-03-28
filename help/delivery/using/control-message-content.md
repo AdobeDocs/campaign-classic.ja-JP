@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classicの配信品質について
-description: Adobe Campaign Classicでの配信品質の管理について説明します。
+title: Adobe Campaign Classic の配信品質について
+description: Adobe Campaign Classic の配信品質管理について説明します。
 page-status-flag: never-activated
 uuid: 2681042b-3018-42ae-b252-2367b56616bd
 contentOwner: sauviat
@@ -12,25 +12,25 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68756f920fbc8658cff552615adbf023b4c5e3aa
 
 ---
 
 
-# メッセージ内容の制御{#control-message-content}
+# メッセージコンテンツの制御 {#control-message-content}
 
-電子メールの配信品質を向上させ、電子メールが確実に受信者に届くようにするには、電子メールは以下に説明する一定の数のルールを守る必要があります。
+E メール配信品質の割合を向上させ、E メールを確実に受信者に到達させるために、E メールは以下のようなルールに従う必要があります。
 
 ## 送信者のアドレス {#sender-address}
 
-特定の ISP は、メッセージを受け付ける前に、送信者アドレス（From）の有効性をチェックします。正しくない形式のアドレスは、受信サーバーによって拒否される可能性があります。You must make sure a correct address is given at the instance level (menu **[!UICONTROL Tools > Advanced > Deployment wizard...]**) or in the most frequently-used scenarios.
+特定の ISP は、メッセージを受け付ける前に、送信者アドレス（From）の有効性をチェックします。正しくない形式のアドレスは、受信サーバーによって拒否される可能性があります。インスタンスレベル（**[!UICONTROL ツール／詳細設定／デプロイウィザード...]**...）または最も頻繁に使用されるシナリオで、正しいアドレスが指定されていることを確認する必要があります。
 
 ## オプトアウトリンクとフォーム {#opt-out}
 
 デフォルトでは、メッセージが分析される場合、タイポロジルールでオプトアウトリンクが含まれているかどうかがチェックされ、見つからない場合は警告が表示されます。このルールを変更して、単純な警告ではなくエラーを表示し、このリンクなしに配信がおこなわれないようにすることができます。
 
-毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。For example, when sending the proof, make sure the link is valid, that the form is on-line and that validating this changes the value of the **[!UICONTROL No longer contact this recipient]** field to **[!UICONTROL Yes]**. リンクの入力時やフォームの変更時にヒューマンエラーが発生する可能性は常にあるので、このチェックは体系的におこなう必要があります。
+毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。例えば、配達確認を送信する際に、リンクが有効であること、フォームがオンラインであること、「**[!UICONTROL 今後のこの受信者への連絡は不要]**」フィールドが「**[!UICONTROL はい]**」に変更されることを確認します。リンクの入力時やフォームの変更時にヒューマンエラーが発生する可能性は常にあるので、このチェックは体系的におこなう必要があります。
 
 オプトアウトリンクをクリックした受信者が選択を確認できないとしても、配信開始後に購読解除に関する問題が検出された場合は購読解除を手動で実行できます（一括更新機能を使用するなど）。
 
@@ -42,4 +42,4 @@ SpamAssassin と連携するように Adobe Campaign を設定できます。連
 
 配信を開始する前に、「プレビュー」タブでリスクを評価できます。テストの結果が警告メッセージとして表示されます。
 
-Learn more in this [section](../../delivery/using/spamassassin.md).
+詳しくは、[この節](../../delivery/using/spamassassin.md)を参照してください。

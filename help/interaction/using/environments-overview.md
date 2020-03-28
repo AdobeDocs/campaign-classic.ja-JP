@@ -14,7 +14,7 @@ discoiquuid: c7b4103d-99b2-4e64-a457-ee0e3326b172
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5489e09303920bf5bd3dcd08263dc3c945d151c1
 
 ---
@@ -30,4 +30,4 @@ source-git-commit: 5489e09303920bf5bd3dcd08263dc3c945d151c1
 >
 >次の設定は、**技術管理者**&#x200B;が実行する必要があります。
 
-このビデオで [は](https://helpx.adobe.com/campaign/classic/how-to/architecture-of-acs-v6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) 、キャンペーンインタラクションのアーキテクチャと、オファーエンジンの仕組みを確認してください。
+この[ビデオ](https://helpx.adobe.com/campaign/classic/how-to/architecture-of-acs-v6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com)を見て、Campaign のインタラクションのアーキテクチャについて学び、オファーエンジンの仕組みを確認してください。

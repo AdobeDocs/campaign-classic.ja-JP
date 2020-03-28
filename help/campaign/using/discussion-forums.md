@@ -14,7 +14,7 @@ discoiquuid: 88eb17b6-5206-4064-9cd9-b4645a85c609
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d30de91002862b664249c5a704b7c0f521dd30f2
 
 ---
@@ -28,7 +28,7 @@ Adobe Campaign のオペレーターは、ディスカッションフォーラ�
 
 ## フォーラムへのアクセス {#accessing-a-forum}
 
-To visit the forum of a campaign, an operator, etc., go to its dashboard and click the **[!UICONTROL Forum]** link in the top right-hand corner. このリンクにはフォーラムのメッセージの総数も表示されます。
+キャンペーンやオペレーターなどのフォーラムにアクセスするには、対応するダッシュボードに移動し、右上隅にある「**[!UICONTROL フォーラム]**」リンクをクリックします。このリンクにはフォーラムのメッセージの総数も表示されます。
 
 ![](assets/mrm_forum_access_link.png)
 
@@ -42,13 +42,13 @@ To visit the forum of a campaign, an operator, etc., go to its dashboard and cli
 
 **新しいディスカッションを開始する**
 
-To start a new discussion, click the **[!UICONTROL Add a discussion]** button in the top right-hand corner. 箱が **[!UICONTROL Discussion forum]** 上がる（下記を参照）。
+新しいディスカッションを開始するには、右上隅にある「**[!UICONTROL ディスカッションを追加]**」ボタンをクリックします。「**[!UICONTROL ディスカッションフォーラム]**」ボックスが表示されます（下の図を参照）。
 
 ![](assets/mrm_forum_new_thread.png)
 
 **既存のディスカッションにメッセージを投稿する**
 
-To post a message to an existing discussion, open the message that you want to answer, then click the **[!UICONTROL Reply]** link in the top left-hand corner. 箱が **[!UICONTROL Discussion forum]** 上がる（下記を参照）。
+既存のディスカッションにメッセージを投稿するには、回答するメッセージを開き、左上隅にある「**[!UICONTROL 返信]**」リンクをクリックします。「**[!UICONTROL ディスカッションフォーラム]**」ボックスが表示されます（下の図を参照）。
 
 ![](assets/mrm_forum_answer_msg.png)
 
@@ -56,18 +56,18 @@ To post a message to an existing discussion, open the message that you want to a
 
 **メッセージを送信する**
 
-ボックス内 **[!UICONTROL Discussion forum]** で、
+「**[!UICONTROL ディスカッションフォーラム]**」ボックスで以下の手順に従います。
 
-1. Enter your text in the **[!UICONTROL Message]** field and a discussion title in the **[!UICONTROL Subject]** field.
+1. 「**[!UICONTROL メッセージ]**」フィールドにテキストを、「**[!UICONTROL 件名]**」フィールドにディスカッションのタイトルを入力します。
 
    ![](assets/mrm_forum_edit_msg.png)
 
 1. 必要に応じて以下を実行します。
 
-   * If you want someone to take part in the discussion who isn&#39;t subscribed to the forum, use the **[!UICONTROL Operator to notify]** field. このメッセージに関する通知 E メールがオペレーターに送信されます（オペレーターがフォーラムに登録されることはありません）。複数のオペレーターに通知を送信する場合は、オペレーターのグループを選択します。
-   * To add an attachment to the message, click **[!UICONTROL Browse]**. 添付ファイルは通知 E メールにも添付されます。添付ファイルは個別に送信することしかできません。複数のファイルを送信するには、zip ファイルにまとめる必要があります。
+   * フォーラムに購読登録していないオペレーターをディスカッションに参加させたい場合は、「**[!UICONTROL 通知するオペレーター]**」フィールドを使用します。このメッセージに関する通知 E メールがオペレーターに送信されます（オペレーターがフォーラムに登録されることはありません）。複数のオペレーターに通知を送信する場合は、オペレーターのグループを選択します。
+   * メッセージに添付ファイルを追加するには、「**[!UICONTROL 参照]**」をクリックします。添付ファイルは通知 E メールにも添付されます。添付ファイルは個別に送信することしかできません。複数のファイルを送信するには、zip ファイルにまとめる必要があります。
 
-1. をクリ **[!UICONTROL Create the message]** ックして、フォーラムに投稿します。
+1. 「**[!UICONTROL メッセージを作成]**」をクリックしてメッセージをフォーラムに投稿します。
 
 >[!NOTE]
 >
@@ -79,30 +79,30 @@ To post a message to an existing discussion, open the message that you want to a
 
 オペレーターのフォーラムにアクセスするには、以下を実行します。
 
-* If you have the necessary rights to access the **[!UICONTROL Administration > Access management > Operators]** node of the explorer, open the dashboard of the desired operator and click the **[!UICONTROL Forum]** link in the top right-hand corner.
+* エクスプローラーの&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーター]**&#x200B;ノードへのアクセス権がある場合は、該当するオペレーターのダッシュボードを開き、右上隅にある「**[!UICONTROL フォーラム]**」リンクをクリックします。
 * アクセス権がない場合は、Adobe Campaign でオペレーターの名前を見つけます（そのオペレーターがフォーラムに投稿したメッセージやそのオペレーターに割り当てられたタスクを使用）。名前をクリックすると、そのオペレーターのダッシュボードにアクセスできます。オペレーターのフォルダーのビューを作成するよう管理者に依頼することもできます。
 
 ## フォーラムの購読 {#subscribing-to-a-forum}
 
 フォーラムを購読すると、ディスカッションをフォローできます。フォーラムにメッセージが投稿されるたびに、E メール通知が届きます。この E メールには、メッセージの本文と添付ファイルが含まれます。メッセージに回答するには、E メールの本文をクリックし、Adobe Campaign の Web インターフェイスにログインします。フォーラムに購読登録すると、この情報はすべてのオペレーターに表示されます。
 
-* To subscribe to a forum, click the **[!UICONTROL Follow discussions]** button in the top right hand section above the list of messages.
+* フォーラムを購読するには、メッセージリストの上のセクション内の右上にある「**[!UICONTROL ディスカッションをフォロー]**」ボタンをクリックします。
 
    ![](assets/mrm_forum_subscribe.png)
 
    フォーラムに購読登録すると、セクションが青になります。
 
-* To unsubscribe from a forum, click the **[!UICONTROL Unsubscribe]** button.
+* フォーラムを購読解除するには、「**[!UICONTROL 購読解除]**」ボタンをクリックします。
 
    ![](assets/mrm_forum_unsubscribe.png)
 
-* 個人用ダッシュボードに、購読済みのフォーラムのリストが表示されます。Click the **[!UICONTROL Subscription to discussion forums]** link to display the list, then click the item that interests you to access its forum.
+* 個人用ダッシュボードに、購読済みのフォーラムのリストが表示されます。「**[!UICONTROL ディスカッションフォーラムの購読]**」リンクをクリックしてリストを表示し、関心がある項目をクリックしてフォーラムにアクセスします。
 
    ![](assets/platform_dashboard_operator_subscr_forums.png)
 
    個人用ダッシュボードについて詳しくは、[この節](../../platform/using/access-management.md#operators)を参照してください。
 
-* フォーラムの登録者を確認するには、メッセージのリストの **[!UICONTROL List of subscribers to this discussion forum]** 上にあるリンクをクリックします。
+* フォーラムの購読者を確認するには、メッセージリストの上にある「**[!UICONTROL このディスカッションフォーラムの購読者のリスト]**」リンクをクリックします。
 
    ![](assets/mrm_forum_subscribers.png)
 
@@ -111,10 +111,10 @@ To post a message to an existing discussion, open the message that you want to a
 フォーラムを購読しているにも関わらず、オペレーターに通知が届かない場合は、以下の手順を実行します。
 
 * オペレーターのプロファイルに E メールアドレスが入力されていることを確認します。
-* ノードに移動し、 **[!UICONTROL Administration > Production > Technical workflows > Campaign processes]** ワークフローが開始され、エ **[!UICONTROL Jobs in discussion forums]** ラーがないことを確認します。
+* **[!UICONTROL 管理／プロダクション／テクニカルワークフロー／キャンペーンプロセス]**&#x200B;ノードに移動し、「**[!UICONTROL ディスカッションフォーラムのジョブ]**」ワークフローが開始済みでエラーがないことを確認します。
 * 配信ログを表示します。
 
-   * Adobe Campaignのホームページでに移動し、 **[!UICONTROL Campaigns > Navigation > Deliveries]**&#x200B;配信を開き **[!UICONTROL Discussion forum notification]** ます。
-   * エクスプローラで、に移動し、 **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**&#x200B;をクリックしま **[!UICONTROL Discussion forum notifications]**&#x200B;す。
-   ボックス **[!UICONTROL Discussion forum notifications]** 内の配信ログはタブにあり **[!UICONTROL Edit > Delivery]** ます。 また、とのタブも表 **[!UICONTROL Tracking > Log]** 示でき **[!UICONTROL Exclusion causes]** ます。
+   * Adobe Campaign のホームページで、**[!UICONTROL キャンペーン／ブラウジング／配信]**&#x200B;に移動し、「**[!UICONTROL ディスカッションフォーラムの通知]**」の配信を開きます。
+   * エクスプローラーで、**[!UICONTROL 管理／プロダクション／自動作成されたオブジェクト／テクニカル配信／ワークフローの通知]**&#x200B;に移動し、「**[!UICONTROL ディスカッションフォーラムの通知]**」をクリックします。
+   「**[!UICONTROL ディスカッションフォーラムの通知]**」ボックスの「**[!UICONTROL 編集／配信]**」タブで配信ログを確認します。「**[!UICONTROL トラッキング／ログ]**」および「**[!UICONTROL 除外の原因]**」タブを確認することもできます。
 

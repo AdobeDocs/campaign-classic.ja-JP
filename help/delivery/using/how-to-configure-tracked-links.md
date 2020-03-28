@@ -14,7 +14,7 @@ discoiquuid: 9cae3861-88eb-447a-aa23-9d1de0710eec
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -32,7 +32,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 メッセージトラッキングは、デフォルトで有効になっています。URL のトラッキング方法をパーソナライズするには、以下の手順に従います。
 
-1. Select the **[!UICONTROL Display URLs]** option in the lower section of the delivery wizard, under the message content.
+1. 配信ウィザードの下部のセクションで、メッセージコンテンツの下にある「**[!UICONTROL URL を表示]**」オプションを選択します。
 
    ![](assets/s_ncs_user_email_del_display_urls.png)
 
@@ -54,17 +54,17 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
    >
    >トラッキングされる URL のラベルとラベルを変更して、配信のトラッキング時に情報を見やすくすることができます。クリック数の計算時には、同じ名前を持つ 2 つの URL または 2 つのラベルがまとめられます。
 
-1. If needed, change the tracking mode, select a new mode in the **[!UICONTROL Tracking]** column which matches the targeted link, as shown below:
+1. 必要に応じて、トラッキングモードを変更します。それには、次のように、ターゲットとするリンクに対応する&#x200B;**[!UICONTROL トラッキング]**&#x200B;列で新しいモードを選択します。
 
    ![](assets/s_ncs_user_select_tracking_mode.png)
 
    URL ごとに、トラッキングモードを次のいずれかの値に設定できます。
 
-   * **[!UICONTROL Enabled]** :このURLの追跡をアクティブにします。
-   * **[!UICONTROL Not tracked]** :このURLの追跡を有効にします。
-   * **[!UICONTROL Always enabled]** :常にこのURLの追跡をアクティブにします。 この情報は保存されるので、次回この URL が将来のメッセージコンテンツに再び表示された場合にそのトラッキングが自動的に有効化されます。
-   * **[!UICONTROL Never tracked]** :は、このURLの追跡をアクティブにしません。 この情報は保存されるので、次回この URL が将来のメッセージに再び表示された場合にそのトラッキングが自動的に無効化されます。
-   * **[!UICONTROL Opt-out]** :は、このURLをオプトアウトURLまたは購読解除URLと見なします。
-   * **[!UICONTROL Mirror page]** :は、このURLをミラーページURLと見なします。
+   * **[!UICONTROL 有効]**：この URL のトラッキングを有効化します。
+   * **[!UICONTROL トラッキングしない]**：この URL のトラッキングを無効化します。
+   * **[!UICONTROL 常に有効]**：この URL のトラッキングを常に有効化します。この情報は保存されるので、次回この URL が将来のメッセージコンテンツに再び表示された場合にそのトラッキングが自動的に有効化されます。
+   * **[!UICONTROL 一度もトラッキングされてない]**：この URL のトラッキングを有効化しません。この情報は保存されるので、次回この URL が将来のメッセージに再び表示された場合にそのトラッキングが自動的に無効化されます。
+   * **[!UICONTROL オプトアウト]**：この URL をオプトアウトまたは購読解除 URL とみなします。
+   * **[!UICONTROL ミラーページ]**：この URL をミラーページの URL とみなします。
 
-1. In addition, you can select a category for each tracked URL in the drop-down list of the **[!UICONTROL Category]** column. These categories can be displayed reports, as for example in **[!UICONTROL URLs and click streams]** (see [this section](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). カテゴリは特定の列挙で定義されます。 **[!UICONTROL urlCategory]** (列挙の [管理を参照](../../platform/using/managing-enumerations.md))。
+1. 加えて、**[!UICONTROL カテゴリ]**&#x200B;列のドロップダウンリストで、トラッキングする URL のそれぞれに対してカテゴリを選択できます。これらのカテゴリは、「**[!UICONTROL URL とクリックストリーム]**」の例に示すように、レポートに表示できます（[この節](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)を参照）。カテゴリは特定の列挙 **[!UICONTROL urlCategory]** で定義されます（[列挙の管理](../../platform/using/managing-enumerations.md)を参照）。

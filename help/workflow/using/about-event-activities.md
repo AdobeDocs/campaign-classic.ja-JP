@@ -14,7 +14,7 @@ discoiquuid: 7714d028-018e-4728-8c92-42021ed280e0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -24,8 +24,8 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 これらのアクティビティの主なタスクは、イベントの待機です。例えば、ファイルや E メール、またはプログラムからの信号の受信です。
 
-* ファイルコレクター：ディレクトリへの 1 つまたは複数のファイルの到着を監視し、それぞれの受信ファイルのトランジションを有効化します。「ファイルコレ [クタ](../../workflow/using/file-collector.md)」を参照。
-* ファイル転送：サーバーへファイルを転送します。詳しくは、 [File transferを参照してください](../../workflow/using/file-transfer.md)。
-* Web ダウンロード：Web からファイルをダウンロードします。「 [Webダウンロード](../../workflow/using/web-download.md)」を参照。
-* E メール受信 &amp; SMS：E メールまたは SMS メッセージを収集して処理します。「受信SMS [と受信電子メール](../../workflow/using/inbound-sms.md) 」を [参照してください](../../workflow/using/inbound-emails.md)。
+* ファイルコレクター：ディレクトリへの 1 つまたは複数のファイルの到着を監視し、それぞれの受信ファイルのトランジションを有効化します。[ファイルコレクター](../../workflow/using/file-collector.md)を参照してください。
+* ファイル転送：サーバーへファイルを転送します。[ファイル転送](../../workflow/using/file-transfer.md)を参照してください。
+* Web ダウンロード：Web からファイルをダウンロードします。[Web ダウンロード](../../workflow/using/web-download.md)を参照してください。
+* E メール受信 &amp; SMS：E メールまたは SMS メッセージを収集して処理します。[インバウンド SMS](../../workflow/using/inbound-sms.md) および[インバウンド E メール](../../workflow/using/inbound-emails.md)を参照してください。
 

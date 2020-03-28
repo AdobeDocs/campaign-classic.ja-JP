@@ -14,7 +14,7 @@ discoiquuid: 1d3cc650-3c79-4a1d-b2bc-e7eb6d59d2f1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
 
 ---
@@ -30,7 +30,7 @@ LINE は、オンプレミスインストールまたは管理されたサービ
 
 ![](assets/line_message.png)
 
-以下のセクションでは、LINEチャネルに固有の情報を提供します。 For global information on how to create a delivery, refer to [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
+以下の節では、LINE チャネルに固有の情報を提供します。 配信の作成方法に関する全般的な情報については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。
 
 LINE チャネルを使用する手順は次のとおりです。
 
@@ -52,7 +52,7 @@ LINE チャネルを使用する手順は次のとおりです。
 
 LINE アカウントを作成して設定するには、[https://developers.line.me/](https://developers.line.me/) を参照してください。
 
-To create and configure a LINE service, see [Managing subscriptions](../../delivery/using/managing-subscriptions.md).
+LINE サービスを作成して設定するには、[購読の管理](../../delivery/using/managing-subscriptions.md)を参照してください。
 
 ![](assets/line_service.png)
 
@@ -64,22 +64,22 @@ Adobe Campaign で外部アカウントを作成する手順は次のとおり�
    ![](assets/line_config.png)
 
 1. 「**ラベル**」フィールドと「**内部名**」フィールドに入力します。
-1. In the **[!UICONTROL Type]** field, select Routing and in the **Channel** field, select LINE.
-1. Click **[!UICONTROL Save]** to create your LINE external account.
+1. 「**[!UICONTROL タイプ]**」フィールドで「ルーティング」を選択し、「**チャネル**」フィールドで「LINE」を選択します。
+1. 「**[!UICONTROL 保存]**」をクリックして LINE 外部アカウントを作成します。
 1. 「**一般**」アイコンの下に **LINE** のパーソナライゼーションフィールドが表示されます。次のフィールドに入力します。
 
    ![](assets/line_config_2.png)
 
-   * **チャネルエイリアス**:は、「>」タブのLINEアカウントを通じて提供 **[!UICONTROL Channels]** され **[!UICONTROL Technical configuration]** ます。
+   * **Channel のエイリアス**：**[!UICONTROL チャネル]**／「**[!UICONTROL 技術的設定]**」タブの LINE アカウント経由で提供されます。
    * **Channel ID**：**チャネル**／**基本情報パネル**&#x200B;タブの LINE アカウント経由で提供されます。
    * **Channel 秘密鍵**：**チャネル**／「**基本情報パネル」**&#x200B;タブの LINE アカウント経由で提供されます。
-   * **アクセストークン**:は、開発者ポータルのLINEアカウントまたはボタンをクリックして提供さ **[!UICONTROL Get access token]** れます。
+   * **アクセストークン**：開発者ポータルの LINE アカウント経由で提供されるか、または「**[!UICONTROL アクセストークンを取得]**」ボタンをクリックすることで提供されます。
    * **アクセストークンの有効期限**：アクセストークンの有効期限日を指定できます。
    * **LINE 購読サービス**：ユーザーがどのサービスを購読するかを指定できます。
 
 >[!NOTE]
 >
->およびワークフローが開始され **[!UICONTROL LINE access token update (updateLineAccessToken)]** たこと **[!UICONTROL Delete blocked LINE users (deleteBlockedLineUsers)]** を確認する必要があります。 エクスプローラで、をクリックし **[!UICONTROL Administration > Production > Technical workflows > LINE workflows]** てワークフローのステータスを確認します。
+>**[!UICONTROL LINE アクセストークンの更新（updateLineAccessToken）]**&#x200B;と&#x200B;**[!UICONTROL ブロックした LINE ユーザーを削除（deleteBlockedLineUsers）]**&#x200B;のワークフローが開始されたことを確認する必要があります。エクスプローラーから、**[!UICONTROL 管理／プロダクション／テクニカルワークフロー／LINE ワークフロー]**&#x200B;をクリックして、ワークフローのステータスを確認します。
 
 ## 配信の作成 {#creating-the-delivery}
 
@@ -89,13 +89,13 @@ Adobe Campaign で外部アカウントを作成する手順は次のとおり�
 >
 >配信の作成に関するグローバルな概念については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)で説明しています。
 
-1. タブからを選 **[!UICONTROL Campaigns]** 択し、ボタン **[!UICONTROL Deliveries]** をクリックし **[!UICONTROL Create]** ます。
-1. In the window that appears, select **[!UICONTROL LINE V2 delivery]** delivery template.
+1. 「**[!UICONTROL キャンペーン]**」タブで、「**[!UICONTROL 配信]**」を選択し、「**[!UICONTROL 作成]**」ボタンをクリックします。
+1. 表示されるウィンドウで、「**[!UICONTROL LINE V2 配信]**」配信テンプレートを選択します。
 
    ![](assets/line_message_01.png)
 
 1. ラベル、コードおよび説明を設定して配信を識別します。詳しくは、[この節](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery)を参照してください。
-1. Click **[!UICONTROL Continue]** to create your delivery.
+1. 「**[!UICONTROL 続行]**」をクリックして配信を作成します。
 
 ## コンテンツの定義 {#defining-the-content}
 
@@ -147,11 +147,11 @@ LINE 配信のコンテンツを定義するには、最初にメッセージタ
 
    次に、受信者のモバイルデバイスにポップアップ表示される代替テキストを追加する必要があります。
 
-* および **[!UICONTROL Links]**.
+* **[!UICONTROL リンク]**
 
    ![](assets/line_message_05.png)
 
-   The **[!UICONTROL Links]** section allows you to choose between different layouts that will divide your image in multiple clickable regions. 次に、そのそれぞれに専用のリンクを割り当てることができます。
+   「**[!UICONTROL リンク]**」セクションでは、画像を複数のクリック可能な領域に分割する様々なレイアウトから選択できます。次に、そのそれぞれに専用のリンクを割り当てることができます。
 
 >[!NOTE]
 >
@@ -159,11 +159,11 @@ LINE 配信のコンテンツを定義するには、最初にメッセージタ
 
 ### 推奨事項 {#recommendations}
 
-* 新しい受信者に LINE 配信を初めて送信する場合は、利用条件と配信への同意に関する公式 LINE メッセージを追加する必要があります。公式メッセージは、次のリンクから入手できます。https://terms.line.me/OA_privacy/ [](https://terms.line.me/OA_privacy/sp?lang=fr).
+* 新しい受信者に LINE 配信を初めて送信する場合は、利用条件と配信への同意に関する公式 LINE メッセージを追加する必要があります。公式メッセージは、[https://terms.line.me/OA_privacy/](https://terms.line.me/OA_privacy/sp?lang=fr) から入手できます。
 
 ## ターゲット母集団の選択 {#selecting-the-target-population}
 
-LINE 配信の受信者の選択は、E メール配信の受信者の定義に類似しています。詳しくは、「ターゲット訪問者の識 [別」を参照してください](../../delivery/using/steps-defining-the-target-population.md)。
+LINE 配信の受信者の選択は、E メール配信の受信者の定義に類似しています。詳しくは、[ターゲット母集団の識別](../../delivery/using/steps-defining-the-target-population.md)を参照してください。
 
 ターゲティングは、**訪問者**&#x200B;に対して実行されます。
 
@@ -171,15 +171,15 @@ LINE 配信の受信者の選択は、E メール配信の受信者の定義に�
 
 配信を正しく作成して設定すると、事前に定義したターゲットに送信することができます。
 
-LINE 配信の送信は、E メール配信の送信に類似しています。For more information on sending a delivery, refer to [Sending messages](../../delivery/using/sending-messages.md).
+LINE 配信の送信は、E メール配信の送信に類似しています。配信の送信について詳しくは、[メッセージの送信](../../delivery/using/sending-messages.md)を参照してください。
 
 ## レポートへのアクセス {#accessing-reports}
 
-エクスプローラ内をクリックすると、LINEサービスのレポート **[!UICONTROL Profiles and Targets > Services and Subscriptions > LINE]** を表示できます。 Then click the **[!UICONTROL Reports]** icon in the LINE service.
+エクスプローラーで&#x200B;**[!UICONTROL プロファイルとターゲット／サービスと購読／LINE]** をクリックすると、LINE サービスでレポートを表示できます。次に LINE サービスで「**[!UICONTROL レポート]**」アイコンをクリックします。
 
 ![](assets/line_reports.png)
 
-To view reports on LINE deliveries, click **[!UICONTROL Campaign Management > Deliveries]** then select the delivery you want. トラッキングレポートはクリックスルー率を示しています。LINE では開封率は考慮されません。
+LINE 配信でレポートを表示するには、**[!UICONTROL キャンペーン管理／配信]**&#x200B;をクリックしてから、目的の配信を選択します。トラッキングレポートはクリックスルー率を示しています。LINE では開封率は考慮されません。
 
 ![](assets/line_reports_01.png)
 
@@ -187,11 +187,11 @@ To view reports on LINE deliveries, click **[!UICONTROL Campaign Management > De
 
 この例では、受信者に応じてパーソナライズされるデータを含むテキストメッセージと画像を作成して設定します。
 
-1. Create your LINE delivery by clicking the **[!UICONTROL Create]** button from the **[!UICONTROL Campaign]** tab.
+1. 「**[!UICONTROL キャンペーン]**」タブから「**[!UICONTROL 配信]**」メニューをクリックします。「作成」ボタンをクリックして LINE 配信を作成します。
 
    ![](assets/line_usecase.png)
 
-1. Select the **[!UICONTROL LINE V2 delivery]** delivery template and name your delivery.
+1. 「**[!UICONTROL LINE V2 配信]**」配信テンプレートを選択して、配信に名前を付けます。
 
    ![](assets/line_usecase_01.png)
 
@@ -199,28 +199,28 @@ To view reports on LINE deliveries, click **[!UICONTROL Campaign Management > De
 
    ![](assets/line_usecase_02.png)
 
-1. をクリック **[!UICONTROL Add]** してメッセージを作成し、を選択しま **[!UICONTROL Message type]**&#x200B;す。
+1. 「**[!UICONTROL 追加]**」をクリックしてメッセージを作成し、**[!UICONTROL メッセージタイプ]**&#x200B;を選択します。
 
    ここでは、最初にテキストメッセージを作成します。
 
    ![](assets/line_usecase_03.png)
 
-1. Place your cursor in the place where you want to insert the personalized text and click the drop-down icon then select **[!UICONTROL Visitor > First name]**.
+1. パーソナライズされたテキストを挿入する位置にカーソルを置き、ドロップダウンアイコンをクリックして&#x200B;**[!UICONTROL 訪問者／名]**&#x200B;を選択します。
 
    ![](assets/line_usecase_05.png)
 
-1. 同じ手順で、ドロップダウンからを選択して画像 **[!UICONTROL Image and links]** を追加す **[!UICONTROL Message type]** ることもできます。
+1. 画像を追加するために同じ手順を繰り返し、「**[!UICONTROL メッセージタイプ]**」ドロップダウンで「**[!UICONTROL 画像とリンク]**」を選択します。
 
    画像の URL を追加します。
 
    ![](assets/line_usecase_07.png)
 
-1. In the **[!UICONTROL Links]** section, select the layout that will divide your image in multiple clickable regions.
+1. 「**[!UICONTROL リンク]**」セクションで、画像を複数のクリック可能な領域に分割するレイアウトを選択します。
 1. 画像の各領域に URL を割り当てます。
 
    ![](assets/line_usecase_08.png)
 
-1. Save your delivery then click **[!UICONTROL Send]** to analyze and send it to the target.
+1. 配信を保存してから「**[!UICONTROL 送信]**」をクリックし、分析を実行してターゲットに送信します。
 
    配信がターゲットに送信されます。
 

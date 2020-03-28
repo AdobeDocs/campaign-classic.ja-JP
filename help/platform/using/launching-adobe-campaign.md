@@ -14,7 +14,7 @@ discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
 
 ## Adobe Campaign の起動 {#starting-adobe-campaign}
 
-Adobe Campaignは、を選択して起動できま **[!UICONTROL Start / All Programs / Adobe Campaign v.X / Adobe Campaign client console]**&#x200B;す。
+Adobe Campaign を起動するには、**[!UICONTROL スタート／すべてのプログラム／Adobe Campaign v.X／Adobe Campaign クライアントコンソール]**&#x200B;を選択します。
 
 クライアントコンソール接続ウィンドウで、既存のデータベースを選択するか設定し、ユーザー名およびパスワードを使用してデータベースに接続できます。
 
@@ -36,15 +36,15 @@ Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[
 
 専用のログイン／パスワードを使用して接続することもできます。
 
-1. Enter the operator account identifier in the **[!UICONTROL login]** field.
+1. 「**[!UICONTROL ログイン]**」フィールドに、オペレーターのアカウント ID を入力します。
 
    ID は、Adobe Campaign プラットフォームの管理者から付与されます。
 
-1. Enter your password in the **[!UICONTROL Password]** field.
+1. 「**[!UICONTROL パスワード]**」フィールドにパスワードを入力します。
 
-   データベースに最初にアクセスする際のパスワードは、管理者が指定したものになります。Once you are connected, you can change your password via the **[!UICONTROL Tools > Change password...]** menu. Details on operators and connections are available in [Access management](../../platform/using/access-management.md).
+   データベースに最初にアクセスする際のパスワードは、管理者が指定したものになります。接続すると、**[!UICONTROL ツール／パスワードを変更...]** メニューからパスワードを変更できます。オペレーターおよび接続について詳しくは、[アクセス管理](../../platform/using/access-management.md)を参照してください。
 
-1. Click **[!UICONTROL Log in]** to confirm.
+1. 「**[!UICONTROL ログイン]**」をクリックして確定します。
 
 これで、[Adobe Campaign ワークスペース](../../platform/using/adobe-campaign-workspace.md)にアクセスできるようになります。
 
@@ -54,26 +54,26 @@ Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[
 
 ![](assets/s_ncs_user_connections_management.png)
 
-ウィンドウで、 **[!UICONTROL Connections]** をクリックしま **[!UICONTROL Add > Connection]**&#x200B;す。
+**[!UICONTROL 接続]**&#x200B;ウィンドウで、**[!UICONTROL 追加／接続]**&#x200B;をクリックします。
 
 ![](assets/s_ncs_user_add_connexion.png)
 
 次に、接続設定を定義する必要があります。手順は次のとおりです。
 
-* Enter a **[!UICONTROL Label]** to assign a name to your database connection.
+* 「**[!UICONTROL ラベル]**」を入力して、データベース接続に名前を割り当てます。
 * 「**[!UICONTROL URL]**」フィールドで、アプリケーションサーバーのアドレスを追加します。接続 URL が不明な場合は、管理者にお問い合わせください。
-* オペレー **[!UICONTROL Connect with an Adobe ID]** ターがAdobe IDを使用してコンソールに接続しているかどうかを確認します。 詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
-* Click **[!UICONTROL OK]** to validate.
+* オペレーターが Adobe ID を使用してコンソールに接続するには、「**[!UICONTROL Adobe ID を使用して接続]**」をオンにします。詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
+* 「**[!UICONTROL OK]**」をクリックして検証します。
 
 >[!NOTE]
 >
->The **[!UICONTROL Add]** button lets you create **[!UICONTROL folders]** to organize all your connections. 各接続をフォルダーにドラッグ＆ドロップします。
+>「**[!UICONTROL 追加]**」ボタンを使用すると、すべての接続を整理する&#x200B;**[!UICONTROL フォルダー]**&#x200B;を作成できます。各接続をフォルダーにドラッグ＆ドロップします。
 
 ## オペレーターと権限 {#operators-and-permissions}
 
-The identifiers and passwords of operators with access to the software and their respective permissions are defined by your Adobe Campaign system administrator in the **[!UICONTROL Administration > Access management > Operators]** node of the Adobe Campaign tree.
+ソフトウェアにアクセスできるオペレーターの識別子とパスワードおよびそれぞれの権限は、Adobe Campaign システム管理者が Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーター]**&#x200B;ノードで定義します。
 
-This functionality is detailed in the [Access management](../../platform/using/access-management.md) section.
+この機能について詳しくは、[アクセス管理](../../platform/using/access-management.md)の節で説明しています。
 
 ## Adobe Campaign からの切断 {#disconnecting-from-adobe-campaign}
 
@@ -87,7 +87,7 @@ Adobe Campaign から切断するには、アイコンバーの最初のアイ�
 
 ## Campaign のバージョンの確認 {#getting-your-campaign-version}
 
-The **[!UICONTROL Help > About...]** menu lets you access the following information:
+**[!UICONTROL ヘルプ／バージョン情報...]** メニューから、次の情報にアクセスできます。
 
 * **バージョン**&#x200B;番号
 * **ビルド**&#x200B;番号

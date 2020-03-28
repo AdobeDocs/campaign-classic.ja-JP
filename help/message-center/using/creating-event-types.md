@@ -14,7 +14,7 @@ discoiquuid: 5c0a428f-a3e7-4848-8c47-b72832ba97c2
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # イベントタイプの作成{#creating-event-types}
 
-Adobe Campaign が処理するイベントのタイプは、コントロールインスタンスで作成する必要があります。This can be done via the **[!UICONTROL Administration > Platform > Enumerations]** folder of the tree. **[!UICONTROL eventType]** 列挙の値が、各イベントタイプに該当します。オーダー確認、パスワード変更またはオーダー配送変更などがイベントタイプとして考えられます。
+Adobe Campaign が処理するイベントのタイプは、コントロールインスタンスで作成する必要があります。作成は、ツリー内の&#x200B;**[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;フォルダーからおこなうことができます。**[!UICONTROL eventType]** 列挙の値が、各イベントタイプに該当します。オーダー確認、パスワード変更またはオーダー配送変更などがイベントタイプとして考えられます。
 
 ![](assets/messagecenter_eventtype_enum_001.png)
 

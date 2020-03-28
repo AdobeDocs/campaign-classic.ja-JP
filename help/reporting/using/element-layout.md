@@ -14,7 +14,7 @@ discoiquuid: 8fdda764-3e42-4972-a9c9-63567588931e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 # 要素のレイアウト{#element-layout}
 
-以下に示す様々なグラフに加えて、グラフ [のタイプとバリアントは](../../reporting/using/creating-a-chart.md#chart-types-and-variants)、表示を適応させたり、レポートページに要素を追加したりできます。
+[グラフのタイプとバリエーション](../../reporting/using/creating-a-chart.md#chart-types-and-variants)で説明する様々なグラフに加えて、表示を適応させたり、レポートページに要素を追加したりできます。
 
 コンテナを使用すると、ページの複数の要素をリンクし、それらのレイアウトを列やセルで設定できます。それらの使用方法について詳しくは、[この節](../../web/using/defining-web-forms-layout.md#creating-containers)を参照してください。
 
@@ -32,31 +32,31 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 レポートの各ページでオプションを使用できます。
 
-The **[!UICONTROL General]** tab lets you change the title of the page, as well as configure legend positions and browsing between the report pages.
+「**[!UICONTROL 一般]**」タブでは、ページのタイトルを変更できるほか、凡例の位置やレポートページ間のナビゲーションを設定できます。
 
 ![](assets/s_ncs_advuser_report_wizard_022.png)
 
-The **[!UICONTROL Title]** field lets you personalize the label in the header of the report page. The title of the window can be configured via the **[!UICONTROL Properties]** window of the report. 詳しくは、ヘッダーとフッターの [追加を参照してください](#adding-a-header-and-a-footer)。
+「**[!UICONTROL タイトル]**」フィールドでは、レポートページのヘッダーのレベルをパーソナライズできます。ウィンドウのタイトルは、レポートの&#x200B;**[!UICONTROL プロパティ]**&#x200B;ウィンドウで設定できます。詳しくは、[ヘッダーやフッターの追加](#adding-a-header-and-a-footer)を参照してください。
 
-The **[!UICONTROL Display settings]** options enable you to select the position of the control caption within a report page and to define the number of columns on the page. ページレイアウトについて詳しくは、[この節](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page)の&#x200B;**項目のレイアウト**&#x200B;に関する節を参照してください。
+「**[!UICONTROL 表示設定]**」オプションでは、レポートページ内のコントロールキャプションの位置を選択したり、ページの列数を定義したりできます。ページレイアウトについて詳しくは、[この節](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page)の&#x200B;**項目のレイアウト**&#x200B;に関する節を参照してください。
 
-Select the various options in the **[!UICONTROL Browse]** section to authorize browsing from one report page to another. またはオプシ **[!UICONTROL Disable next page]** ョンを選択 **[!UICONTROL Disable previous page]** すると、レポートペ **[!UICONTROL Next]** ージか **[!UICONTROL Previous]** らボタンとボタンが表示されなくなります。
+「**[!UICONTROL ナビゲーション]**」セクションで様々オプションを選択すると、レポートページ間の移動を許可することができます。「**[!UICONTROL 次のページを無効にする]**」オプションまたは「**[!UICONTROL 前のページに戻ることを許可しない]**」オプションを選択すると、「**[!UICONTROL 次のページ]**」ボタンまたは「**[!UICONTROL 前のページ]**」ボタンがレポートページに表示されなくなります。
 
 ## ヘッダーやフッターの追加 {#adding-a-header-and-a-footer}
 
 レポートのプロパティウィンドウでは、レイアウト要素（ウィンドウのタイトルやヘッダーおよびフッターの HTML コンテンツなど）も定義できます。
 
-To access the properties window, click the **[!UICONTROL Properties]** button of the report.
+プロパティウィンドウにアクセスするには、レポートの「**[!UICONTROL プロパティ]**」ボタンをクリックします。
 
 ![](assets/reporting_properties.png)
 
-The **[!UICONTROL Page]** tab enables you to personalize your display.
+「**[!UICONTROL ページ]**」タブでは、表示をパーソナライズできます。
 
 ![](assets/s_ncs_advuser_report_properties_04.png)
 
 このタブで設定したコンテンツは、すべてのレポートページに表示されます。
 
-The **[!UICONTROL Texts]** sub-tab enables you to define variable content: it will be taken into account during the translation cycle if the report is designed for use in several languages.
+「**[!UICONTROL テキスト]**」サブタブでは、変数コンテンツを定義できます。レポートが複数の言語で使用されるように設計されている場合は、翻訳サイクルでこの変数コンテンツが考慮されます。
 
 このサブタブでは、テキスト断片のリストを作成し、それらを識別子に関連付けることができます。
 

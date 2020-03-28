@@ -14,7 +14,7 @@ discoiquuid: 679b9ae2-362c-483d-acb8-47bc01928541
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 顧客側の基準を基に定義された値を使用して、バーコードをビットマップとして動的に生成できます。パーソナライズしたバーコードを E メールキャンペーンに含めることができます。受信者は、メッセージを印刷したり、（チェックアウト時などに）発行会社に提示してスキャンしたりできます。
 
-バーコードを E メールに挿入するには、表示したいコンテンツ内にカーソルを置いて、パーソナライゼーションボタンをクリックします。選択 **[!UICONTROL Include > Barcode...]**.
+バーコードを E メールに挿入するには、表示したいコンテンツ内にカーソルを置いて、パーソナライゼーションボタンをクリックします。**[!UICONTROL 含める／バーコード]**&#x200B;を選択します。
 
 ![](assets/barcode_insert_14.png)
 
@@ -34,7 +34,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 1. バーコードのタイプを選択します。
 
-   * 1D形式の場合、Adobe Campaignでは次のタイプを使用できます。Codabar、Code 128、GS1-128（旧EAN-128）、UPC-A、UPC-E、ISBN、EAN-8、Code39、Interleaved 2 of 5、POSTNET、Royal Mail(RM4SCC)。
+   * 1D フォーマットの場合、Adobe Campaign で使用できるタイプは、Codabar、コード 128、GS1-128（以前の EAN-128）、UPC-A、UPC-E、ISBN、EAN-8、Code39、インターリーブ 2/5、POSTNET および Royal Mail（RM4SCC）です。
 
       1D バーコードの例：
 
@@ -55,13 +55,13 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
       ![](assets/barcode_insert_12.png)
 
 1. E メールに挿入したいバーコードのサイズを入力します。縮尺を設定することによって、バーコードのサイズを 1 倍から 10 倍まで拡大または縮小できます。
-1. The **[!UICONTROL Value]** field enables you to define the value of the barcode. 値は、特別オファーに対応させたり、ある基準の関数にすることができます。顧客にリンクされているデータベースフィールドの値にすることも可能です。
+1. 「**[!UICONTROL 値]**」フィールドを使用して、バーコードの値を定義できます。値は、特別オファーに対応させたり、ある基準の関数にすることができます。顧客にリンクされているデータベースフィールドの値にすることも可能です。
 
-   次の例は、受信者のアカウント番号が追加された EAN-8 タイプのバーコードを示しています。To add this account number, click the personalization button to the right of the **[!UICONTROL Value]** field and select **[!UICONTROL Recipient > Account number]**.
+   次の例は、受信者のアカウント番号が追加された EAN-8 タイプのバーコードを示しています。このアカウント番号を追加するには、「**[!UICONTROL 値]**」フィールドの右側のパーソナライゼーションボタンをクリックして、**[!UICONTROL 受信者／アカウント番号]**&#x200B;を選択します。
 
    ![](assets/barcode_insert_15.png)
 
-1. The **[!UICONTROL Height]** field lets you configure the height of the barcode without changing its width, by altering the amount of space between each bar.
+1. 「**[!UICONTROL 高さ]**」フィールドを使用すると、それぞれの線の間のスペース量を変更することによって、バーコードの幅を変更することなく、バーコードの高さを設定できます。
 
    バーコードのタイプによる入力コントロールの制限はありません。バーコードの値が正しくない場合、バーコードは&#x200B;**プレビュー**&#x200B;モードで赤色の x 印で消された状態で表示されます。
 
@@ -69,11 +69,11 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
    >
    >バーコードに割り当てる値は、バーコードのタイプによって異なります。例えば、EAN-8 タイプは 8 桁でなければなりません。
    >
-   >The personalization button to the right of the **[!UICONTROL Value]** field lets you add data in addition to the value itself. バーコードの基準に則っていれば、これによりバーコードを充実させることができます。
+   >「**[!UICONTROL 値]**」フィールドの右側のパーソナライゼーションボタンを使用して、値自体に加えてデータを追加できます。バーコードの基準に則っていれば、これによりバーコードを充実させることができます。
    >
-   >For example, if you are using a GS1-128 type barcode and want to enter the account number of a recipient in addition to the value, click the personalization button and select **[!UICONTROL Recipient > Account number]**. 選択した受信者のアカウント番号が正しく入力された場合、バーコードはこのアカウント番号を処理します。
+   >例えば、GS1-128 タイプのバーコードを使用していて、値以外に受信者のアカウント番号を入力したい場合は、パーソナライゼーションボタンをクリックして、**[!UICONTROL 受信者／アカウント番号]**&#x200B;を選択します。選択した受信者のアカウント番号が正しく入力された場合、バーコードはこのアカウント番号を処理します。
 
-これらの要素を設定したら、E メールを仕上げて送信できます。To avoid errors, always make sure your content is displayed correctly before performing a delivery by clicking the **[!UICONTROL Preview]** tab.
+これらの要素を設定したら、E メールを仕上げて送信できます。エラーを避けるには、「**[!UICONTROL プレビュー]**」タブをクリックして、配信を実行する前にコンテンツが正しく表示されることを常に確認します。
 
 ![](assets/barcode_insert_10.png)
 

@@ -14,7 +14,7 @@ discoiquuid: 96a7aea4-4799-4ac7-8dff-666b075a1c43
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -24,9 +24,9 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ワークフローで処理されるデータは、（前回のセグメント化またはファイルアップロード後に）あらかじめデータが準備されたか構造化されたリストから取得されます。
 
-The **[!UICONTROL Read list]** activity lets you copy the data from a list in the workflow worktable, like data from a query. その後、コピーされたデータにワークフロー全体を通じてアクセスできます。
+「**[!UICONTROL リストの読み込み]**」アクティビティでは、クエリからデータをコピーするのと同様、ワークフロー作業用テーブル内のリストからデータをコピーできます。その後、コピーされたデータにワークフロー全体を通じてアクセスできます。
 
-The list to be processed can be specified explicitly, computed by a script or localized dynamically, according to options selected and parameters defined in a **[!UICONTROL Read list]** activity.
+処理されるリストは、選択したオプションまたは「**[!UICONTROL リスト更新]**」アクティビティで定義したパラメーターに応じて、明示的に指定されるか、スクリプトで自動生成するか、動的にローカライズされます。
 
 ![](assets/list_edit_select_option_01.png)
 
@@ -34,7 +34,7 @@ The list to be processed can be specified explicitly, computed by a script or lo
 
 ![](assets/s_advuser_list_template_select.png)
 
-Once the list selection has been configured, you can add a filter using the **[!UICONTROL Edit query]** option to keep one part of the population for the next workflow.
+リストの選択が設定されたら、「**[!UICONTROL クエリを編集]**」オプションを使用してフィルターを追加することで、母集団の特定の部分を次のワークフローのために保持できます。
 
 ![](assets/wf_readlist_1.png)
 
@@ -42,7 +42,7 @@ Once the list selection has been configured, you can add a filter using the **[!
 >
 >リストの読み込みアクティビティ内にフィルターを作成するには、関連するリストが「ファイル」タイプである必要があります。
 
-The lists can be created directly in Adobe Campaign via the **[!UICONTROL Profiles and Targets > Lists]** link of the home page. They can also be created in a workflow using the **[!UICONTROL List update]** activity.
+このリストは、ホームページの&#x200B;**[!UICONTROL プロファイルとターゲット／リスト]**&#x200B;リンク経由で、Adobe Campaign 内で直接作成できます。また、「**[!UICONTROL リスト更新]**」アクティビティを使用して、ワークフロー内でも作成できます。
 
 **例：送信アドレスのリストの除外**
 
@@ -64,13 +64,13 @@ The lists can be created directly in Adobe Campaign via the **[!UICONTROL Profil
 
    ![](assets/s_advuser_list_read_sample_3.png)
 
-   除外ルールは、編集ツールの中央部に設定されています。Click the **[!UICONTROL Add]** button to define the type of exclusion to be applied.
+   除外ルールは、編集ツールの中央部に設定されています。「**[!UICONTROL 追加]**」ボタンをクリックして、提供される除外のタイプを定義します。
 
    アクティビティの受信トランジションの数に応じて、複数の除外を定義できます。
 
-1. In the **[!UICONTROL Exclusion set]** field, select the **[!UICONTROL Read list]** activity: the data in this activity is to be excluded from the main set.
+1. 「**[!UICONTROL 除外セット]**」フィールドで、「**[!UICONTROL リストの読み込み]**」アクティビティを選択します。このアクティビティ内のデータはメインセットから除外されます。
 
-   この例では、結合に対する除外があります。リストに含まれるデータは、E メールアドレスを含んでいるフィールド経由でメインセットのデータと紐付けされます。結合を設定するには、フィールド **[!UICONTROL Joins]** でを選択 **[!UICONTROL Change dimension]** します。
+   この例では、結合に対する除外があります。リストに含まれるデータは、E メールアドレスを含んでいるフィールド経由でメインセットのデータと紐付けされます。結合を設定するには、「**[!UICONTROL ディメンションを変更]**」フィールドで「**[!UICONTROL 結合]**」を選択します。
 
    ![](assets/s_advuser_list_read_sample_4.png)
 

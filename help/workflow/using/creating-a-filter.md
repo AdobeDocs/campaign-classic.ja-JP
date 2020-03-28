@@ -12,7 +12,7 @@ discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
 ---
@@ -26,17 +26,17 @@ Adobe Campaign で使用可能なフィルターは、クエリと同じ操作�
 >
 >フィルターの作成について詳しくは、[この節](../../platform/using/filtering-options.md)を参照してください。
 
-ノード **[!UICONTROL Administration > Configuration > Predefined filters]** には、リストおよびオーバービューで使用されるすべてのフィルターが含まれます。
+**[!UICONTROL 管理／設定／定義済みフィルター]**&#x200B;ノードには、リストおよび概要で使用するすべてのフィルターが含まれています。
 
-For example, the list of operators can be filtered by **[!UICONTROL Active accounts]**:
+例えば、オペレーターのリストを「**[!UICONTROL アクティブなアカウント]**」でフィルターできます。
 
 ![](assets/query_editor_filter_sample_1.png)
 
-The matching filter contains the query on the **[!UICONTROL Account disabled]** value of the **[!UICONTROL Operators]** schema:
+対応するフィルターには、「**[!UICONTROL オペレーター]**」スキーマの「**[!UICONTROL 無効なアカウント]**」の値に対するクエリが含まれています。
 
 ![](assets/query_editor_filter_sample_2.png)
 
-For the same list, the **[!UICONTROL By login or label]** filter lets you filter the data on the list based on the value entered in the filter field:
+同じリストで、「**[!UICONTROL ログインまたはラベル別]**」フィルターを使用して、フィルターフィールドに入力した値に基づいてリストのデータをフィルターできます。
 
 ![](assets/query_editor_filter_sample_3.png)
 
@@ -54,7 +54,7 @@ For the same list, the **[!UICONTROL By login or label]** filter lets you filter
 >
 >**[!UICONTROL Upper]** 関数を使用すると、大文字と小文字を区別する機能を無効にすることができます。
 
-この列 **[!UICONTROL Taken into account if]** では、これらのフィルター条件の適用条件を定義できます。 ここでは、文字 **$(/tmp/@text)** は、フィルターにリンクされた入力フィールドの内容を表します。
+「**[!UICONTROL 次の場合に考慮]**」列では、これらのフィルター条件の適用基準を定義できます。ここでは、文字 **$(/tmp/@text)** は、フィルターにリンクされた入力フィールドの内容を表します。
 
 ![](assets/query_editor_filter_sample_5.png)
 

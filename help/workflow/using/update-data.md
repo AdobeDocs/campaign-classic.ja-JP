@@ -14,7 +14,7 @@ discoiquuid: c94ce5b7-aa8a-4ea2-845d-68c9c7dc2a7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -26,25 +26,25 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ## 操作のタイプ {#operation-type}
 
-The **[!UICONTROL Operation type]** field lets you choose the process to be carried out on the data in the database:
+「**[!UICONTROL 操作のタイプ]**」フィールドで、データベース内のデータに実行する処理を選択します。
 
-* **[!UICONTROL Insert or update]**:データを追加するか、既に追加されている場合は更新します。
-* **[!UICONTROL Insert]**:データのみを追加します。
-* **[!UICONTROL Update]**:データの更新のみ。
-* **[!UICONTROL Update and merge collections]**:データを更新して「マスター」レコードを選択し、このマスターレコード内の重複にリンクされた要素をリンクします。 重複レコードは、孤立した接続要素を作成することなく、削除できます。
-* **[!UICONTROL Delete]**:データを削除します。
+* **[!UICONTROL 挿入または更新]**：データを追加するか、既に追加されているデータを更新する場合。
+* **[!UICONTROL 挿入]**：データを追加する場合のみ。
+* **[!UICONTROL 更新]**：データを更新する場合のみ。
+* **[!UICONTROL コレクションを更新して結合]**：データを更新して &quot;master&quot; レコードを選択した後、このマスターレコード内の重複レコードに関係付けられた要素にリンクさせる場合。重複レコードは、孤立した接続要素を作成することなく、削除できます。
+* **[!UICONTROL 削除]**：データを削除する場合。
 
 ![](assets/s_advuser_update_data_1.png)
 
-The **[!UICONTROL Batch size]** field lets you select the number of inbound transition elements to be updated. 例えば 500 を選択すると、処理される最初の 500 レコードが更新されます。
+「**[!UICONTROL バッチサイズ]**」フィールドで、更新するインバウンドトランジション要素の数を選択できます。例えば 500 を選択すると、処理される最初の 500 レコードが更新されます。
 
 ## レコード識別 {#record-identification}
 
 データベース内のレコードを識別する方法を指定します。
 
-* データエントリが既存のターゲットディメンションに関連付けられている場合は、こ **[!UICONTROL By directly using the targeting dimension]** のオプションを選択し、フィールドで選択 **[!UICONTROL Updated dimension]** します。
+* データエントリが既存のターゲティングディメンションに関係する場合は、「**[!UICONTROL ターゲティングディメンションを直接使用]**」オプションを選択し、「**[!UICONTROL 更新するディメンション]**」フィールドで、そのターゲティングディメンションを選択します。
 
-   You can display the fields for the selected dimension using the **[!UICONTROL Edit this link]** magnifying glass button.
+   「**[!UICONTROL リンクを編集]**」ボタン（虫眼鏡のアイコン）を使用して、選択したディメンションのフィールドを表示できます。
 
 * または、データベース内のデータの識別または紐付けキーの直接使用を可能にするリンクを 1 つまたは複数指定します。
 
@@ -52,40 +52,40 @@ The **[!UICONTROL Batch size]** field lets you select the number of inbound tran
 
 ## 更新するフィールドの選択 {#selecting-the-fields-to-be-updated}
 
-このオプション **[!UICONTROL Automatically associate fields with the same name]** を使用すると、Adobe Campaignで更新するフィールドが自動的に識別されます。
+「**[!UICONTROL フィールドに同じ名前を自動で関連付け]**」オプションを使用して、更新するフィールドを Adobe Campaign に自動選択させることができます。
 
 ![](assets/s_advuser_update_data_3b.png)
 
-You can also use the **[!UICONTROL Insert]** icon to manually select the database fields to be updated.
+また、「**[!UICONTROL 挿入]**」アイコンを使用して、更新するフィールドを手動で選択することもできます。
 
 ![](assets/s_advuser_update_data_3.png)
 
-更新するフィールドを選択したら、必要に応じて、更新を実行する条件を追加します。これを行うには、列を使用し **[!UICONTROL Taken into account if]** ます。 条件は 1 つずつ、リストの順番に適用されます。更新の順番を変更するには、右側の矢印を使用します。
+更新するフィールドを選択したら、必要に応じて、更新を実行する条件を追加します。そのためには、「**[!UICONTROL 次の場合に考慮]**」列を使用します。条件は 1 つずつ、リストの順番に適用されます。更新の順番を変更するには、右側の矢印を使用します。
 
 同じ方向のフィールドを何度も使用できます。
 
-Within an **[!UICONTROL Insert or update]** operation, you can select the campaign to be applied, either individually or for each field. To do this, select the desired value in the **[!UICONTROL Operation]** column.
+「**[!UICONTROL 挿入または更新]**」の処理では、適用されるキャンペーンを、1 つひとつ、またはフィールドごとに選択します。そのためには、必要な値を「**[!UICONTROL 操作]**」列で選択します。
 
 ![](assets/s_advuser_update_data_5.png)
 
-The **[!UICONTROL modifiedDate]**, **[!UICONTROL modifiedBy]**, **[!UICONTROL createdDate]** and **[!UICONTROL createdBy]** fields are updated automatically during data updates, unless their management mode is configured specifically in the field update table.
+**[!UICONTROL modifiedDate]**、**[!UICONTROL modifiedBy]**、**[!UICONTROL createdDate]** および **[!UICONTROL createdBy]** の各フィールドは、フィールド更新テーブルでそれらの管理モードが特に設定されていない限り、データの更新時に自動的に更新されます。
 
 レコードの更新は、異なる値がレコードに少なくとも 1 つ含まれている場合のみ実行されます。すべての値が同じ場合は、更新はおこなわれません。
 
-The **[!UICONTROL Advanced parameters]** link lets you specify additional options to deal with updating data as well as managing duplicates. また以下のオプションも設定できます。
+「**[!UICONTROL 詳細設定パラメーター]**」リンクで、データを更新し、重複データを管理するための追加オプションを指定できます。また以下のオプションも設定できます。
 
-* **[!UICONTROL Disable automatic key management]**&#x200B;を参照してください。
-* **[!UICONTROL Disable audit]**&#x200B;を参照してください。
-* **[!UICONTROL Empty the destination value if the source value is empty (NULL)]**. このオプションはデフォルトで選択されています。
-* **[!UICONTROL Update all columns with matching names]**&#x200B;を参照してください。
-* Specify conditions that consider source elements using an expression in the **[!UICONTROL Enabled if]** field.
-* 式を使用して重複データを考慮する条件を指定する。このオプションを **[!UICONTROL Ignore records which concern the same target]** 選択すると、式のリストの最初のものだけが考慮されます。
+* **[!UICONTROL 自動キー管理を無効にする]**。
+* **[!UICONTROL 監査を無効にする]**。
+* **[!UICONTROL ソースの値が空（NULL）の場合は宛先の値を空にする]**。このオプションはデフォルトで選択されています。
+* **[!UICONTROL 名前が一致する列をすべて更新]**。
+* 「**[!UICONTROL 次の場合に有効にする]**」フィールドに式を入力して、ソースの要素を考慮する条件を指定する。
+* 式を使用して重複データを考慮する条件を指定する。「**[!UICONTROL 同じターゲットに関係するレコードを無視]**」オプションを選択した場合は、式のリスト内の最初に出現するレコードのみが考慮されます。
 
-**[!UICONTROL Generate an outbound transition]**
+**[!UICONTROL アウトバウンドトランジションを生成]**
 
 実行の終了時に有効化される出力トランジションを生成します。通常は、更新によってターゲティングワークフローの終了が示されるので、このオプションはデフォルトでは有効化されません。
 
-**[!UICONTROL Generate an outbound transition for the rejects]**
+**[!UICONTROL リジェクトされた項目のアウトバウンドトランジションを生成]**
 
 更新後、（例えば、重複レコードが存在するなどで）正しく処理されなかったレコードを含むアウトバウンドトランジションを生成します。通常は、更新によってターゲティングワークフローの終了が示されるので、このオプションはデフォルトでは有効化されません。
 
@@ -97,7 +97,7 @@ The **[!UICONTROL Advanced parameters]** link lets you specify additional option
 >
 >このオプションで、ワークフローの作業用テーブル（targetWorkflow）、配信（targetDelivery）およびリスト（targetList）からのセカンダリレコードへの参照を処理できます。必要に応じて、これらのリンクは、フィールドとコレクションを選択するリストに表示されます。
 
-1. 操作を選択 **[!UICONTROL Update and merge collections]** します。
+1. 「**[!UICONTROL コレクションを更新して結合]**」の処理を選択します。
 
    ![](assets/update_and_merge_collections1.png)
 
@@ -115,15 +115,15 @@ The **[!UICONTROL Advanced parameters]** link lets you specify additional option
 
    例えば、受信者用の購読リストなど、異種のデータが含まれるコレクションの結合を設定できます。また、ルールを使用して、セカンダリレコードの購読から購読履歴を新しく作成したり、セカンダリレコードからプライマリレコードへ購読リストを移動させることもできます。
 
-1. Specify the order in which you would like the secondary records to be processed, by selecting **[!UICONTROL Advanced parameters]** > **[!UICONTROL Duplicates]**.
+1. **[!UICONTROL 詳細設定パラメーター]**／**[!UICONTROL 重複]**&#x200B;を選択し、セカンダリレコードの処理順序を指定します。
 
    ![](assets/update_and_merge_collections3.png)
 
 定義したルールに該当する場合、セカンダリレコードのデータはメインレコードに関連付けられます。選択した更新のタイプに従って、セカンダリレコードは削除されることもあります。
 
-## Example: Update data following an enrichment {#example--update-data-following-an-enrichment}
+## 例：エンリッチメントに続くデータ更新 {#example--update-data-following-an-enrichment}
 
-手 [順2:リンチアクティビティ後のデータ更新の例としては](../../workflow/using/creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table) 、リンチアップリストの作成の詳細を示すユースケースの「購入」テーブルセクションにリンチデータを書き込む方法があります。
+エンリッチメントアクティビティの後にデータ更新例を提供する要約リストを作成する方法については、使用例の[手順 2：「購入品」テーブルへのエンリッチメントされたデータの書き込み](../../workflow/using/creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table)の節を参照してください。
 
 ## 入力パラメーター {#input-parameters}
 

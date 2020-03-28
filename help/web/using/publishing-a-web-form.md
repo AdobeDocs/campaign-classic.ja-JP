@@ -14,7 +14,7 @@ discoiquuid: f4322902-c72d-4443-9c30-09add4c615a3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -28,29 +28,29 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 次の識別方法が可能です。
 
-* **[!UICONTROL Adobe Campaign Encryption]**
+* **[!UICONTROL Adobe Campaign の暗号化]**
 
    この暗号化方法は、暗号化された Adobe Campaign 識別子（ID）を使用します。この方法は、Adobe Campaign オブジェクトにのみ適用でき、暗号化された ID は、Adobe Campaign プラットフォームでのみ生成できます。
 
-   When using this method, you need to adapt the URL of the form to deliver to the email address by adding the **`<%=escapeUrl(recipient.cryptedId) %>`** parameter. 詳しくは、「電子メールでのフォーム [の配信」を参照してください](#delivering-a-form-via-email)。
+   この方法を使用する場合、パラメーター **`<%=escapeUrl(recipient.cryptedId) %>`** を追加することで、フォームの URL を適応させて、E メールアドレスに配信する必要があります。詳しくは、[E メールによるフォームの配信](#delivering-a-form-via-email)を参照してください。
 
-* **[!UICONTROL DES encryption]**
+* **[!UICONTROL DES 暗号化]**
 
    ![](assets/s_ncs_admin_survey_preload_methods_001.png)
 
-   この暗号化方法は、外部的に提供される識別子（ID）を使用し、Adobe Campaign および外部プロバイダーによって共有されるキーにリンクされます。The **[!UICONTROL Des key]** field lets you enter this encryption key.
+   この暗号化方法は、外部的に提供される識別子（ID）を使用し、Adobe Campaign および外部プロバイダーによって共有されるキーにリンクされます。**[!UICONTROL DES キー]**&#x200B;フィールドを使用すると、この暗号化キーを入力できます。
 
-* **[!UICONTROL List of fields]**
+* **[!UICONTROL フィールドのリスト]**
 
    このオプションを使用すると、フォームの現在のコンテキストのフィールドから選択でき、データベースの対応するプロファイルを検索するために使用されます。
 
    ![](assets/s_ncs_admin_survey_preload_methods_002.png)
 
-   Fields can be added to the form properties via the **[!UICONTROL Parameters]** tab (refer to [Adding parameters](../../web/using/defining-web-forms-properties.md#adding-parameters)). フォーム URL または入力ゾーンに配置されます。
+   フィールドは、「**[!UICONTROL パラメーター]**」タブを使用してフォームプロパティに追加できます（[パラメーターの追加](../../web/using/defining-web-forms-properties.md#adding-parameters)を参照）。フォーム URL または入力ゾーンに配置されます。
 
    >[!CAUTION]
    >
-   >選択されたフィールドのデータは、暗号化されません。It must not be provided in an encrypted form because Adobe Campaign will not be able to decrypt it if the **[!UICONTROL Field list]** option is selected.
+   >選択されたフィールドのデータは、暗号化されません。「**[!UICONTROL フィールドリスト]**」オプションが選択されている場合、Adobe Campaign で復号化できないので、暗号化されたフォームで提供しないようにする必要があります。
 
    次の例では、プリロードされるプロファイルは E メールアドレスに基づいています。
 
@@ -68,11 +68,11 @@ Web フォームを使用して、データベースに格納されたプロフ�
    > 
    >この機能は、Web アプリケーションで特に便利ですが、パブリックフォームにはお勧めしません。選択したアクセス制御オプションは、「アクセス制御を有効にする」が選択されている必要があります。
 
-プロフ **[!UICONTROL Skip preloading if identification is empty]** ァイルを更新しない場合は、このオプションを選択する必要があります。 この場合、入力した各プロファイルは、フォームの承認後にデータベースに追加されます。例えば、フォームが Web サイトに投稿される際に、このオプションが使用されます。
+プロファイルを更新しない場合、「**[!UICONTROL ID がない場合にプリロードをスキップ]**」オプションが選択されている必要があります。この場合、入力した各プロファイルは、フォームの承認後にデータベースに追加されます。例えば、フォームが Web サイトに投稿される際に、このオプションが使用されます。
 
-このオ **[!UICONTROL Auto-load data referenced in the form]** プションを使用すると、フォーム内の入力フィールドとマージフィールドに一致するデータを自動的に事前に読み込むことができます。 However, data referenced in **[!UICONTROL Script]** and **[!UICONTROL Test]** activities is not concerned. If this option isn&#39;t selected, you need to define the fields using the **[!UICONTROL Load additional data]** option.
+「**[!UICONTROL フォームで参照されるデータを自動読み込み]**」オプションを使用すると、フォームの入力および結合フィールドに一致するデータを自動的にプリロードします。ただし、**[!UICONTROL スクリプト]**&#x200B;および&#x200B;**[!UICONTROL テスト]**&#x200B;アクティビティで参照されるデータは、関係ありません。このオプションが選択されていない場合、「**[!UICONTROL 追加データを読み込み]**」オプションを使用するフィールドを定義する必要があります。
 
-The **[!UICONTROL Load additional data]** option lets you add information which is not used in the pages of the form, but will nonetheless be preloaded.
+「**[!UICONTROL 追加データを読み込み]**」オプションを使用すると、フォームのページで使用しない情報を追加できますが、それにも関わらずプリロードされます。
 
 例えば、受信者の性別をプリロードして、テストボックスを使用して適切なページに自動的に導くことができます。
 
@@ -88,7 +88,7 @@ The **[!UICONTROL Load additional data]** option lets you add information which 
 
 1. **フォーム編集中**
 
-   これは、最初のデザインフェーズです。新しいフォームが作成されると、編集フェーズになります。Access to the form, for testing purposes only, then requires the parameter **[!UICONTROL __uuid]** to be used in its URL. This URL is accessible in the **[!UICONTROL Preview]** sub-tab. フォームURL [パラメーターを参照してくださ](../../web/using/defining-web-forms-properties.md#form-url-parameters)い。
+   これは、最初のデザインフェーズです。新しいフォームが作成されると、編集フェーズになります。テスト目的でのみ、フォームにアクセスし、パラメーター **[!UICONTROL __uuid]** をその URL で使用する必要があります。この URL は、「**[!UICONTROL プレビュー]**」サブタブでアクセスできます。[フォーム URL パラメーター](../../web/using/defining-web-forms-properties.md#form-url-parameters)を参照してください。
 
    >[!CAUTION]
    >
@@ -96,19 +96,19 @@ The **[!UICONTROL Load additional data]** option lets you add information which 
 
 1. **フォームオンライン**
 
-   デザインフェーズが完了すると、フォームは配信できます。最初に、パブリッシュする必要があります。For more on this, refer to [Publishing a form](#publishing-a-form).
+   デザインフェーズが完了すると、フォームは配信できます。最初に、パブリッシュする必要があります。詳しくは、[フォームのパブリッシュ](#publishing-a-form)を参照してください。
 
-   The form will be **[!UICONTROL Live]** until it expires.
+   フォームは、有効期限が切れるまで、**[!UICONTROL ライブ]**&#x200B;になります。
 
    >[!CAUTION]
    >
-   >To be delivered, the URL of the survey must not contain the **[!UICONTROL __uuid]** parameter.
+   >配信するには、調査の URL には、**[!UICONTROL __uuid]** パラメーターを含めないようにする必要があります。
 
 1. **フォーム使用不可**
 
    フォームが閉じられると、配信フェーズが終了し、フォームは使用できなくなり、ユーザーはフォームにアクセスできなくなります。
 
-   期日は、フォームプロパティウィンドウで定義できます。詳しくは、「フォームをオンラインで使 [用できるようにする」を参照してください](#making-a-form-available-online)
+   期日は、フォームプロパティウィンドウで定義できます。詳しくは、[フォームをオンラインで利用できるようにする](#making-a-form-available-online)を参照してください。
 
 フォームのパブリッシュステータスがフォームのリストに表示されます。
 
@@ -116,47 +116,47 @@ The **[!UICONTROL Load additional data]** option lets you add information which 
 
 ### フォームのパブリッシュ {#publishing-a-form}
 
-フォームの状態を変更するには、パブリッシュする必要があります。To do this, click the **[!UICONTROL Publication]** button above the list of Web forms and select the state in the drop-down box.
+フォームの状態を変更するには、パブリッシュする必要があります。これをおこなうには、Web フォームのリストの上にある「**[!UICONTROL パブリケーション]**」ボタンをクリックして、ドロップダウンボックスで状態を選択します。
 
 ![](assets/webapp_publish_webform.png)
 
 ### フォームをオンラインで利用できるようにする {#making-a-form-available-online}
 
-ユーザーがアクセスできるようにするためには、フォームは、本番で開始される必要があります。つまり、有効期間内にある必要があります。The validity dates are entered via the **[!UICONTROL Properties]** link of the form.
+ユーザーがアクセスできるようにするためには、フォームは、本番で開始される必要があります。つまり、有効期間内にある必要があります。有効な日付は、フォームの「**[!UICONTROL プロパティ]**」リンクを使用して入力します。
 
-* Use the fields in the **[!UICONTROL Project]** section to enter start and end dates for the form.
+* 「**[!UICONTROL プロジェクト]**」セクションのフィールドを使用して、フォームの開始および終了日を入力します。
 
    ![](assets/webapp_availability_date.png)
 
-* リンクをク **[!UICONTROL Personalize the message displayed if the form is closed...]** リックして、無効な状態でユーザーがフォームにアクセスしようとした場合に表示されるエラーメッセージを定義します。
+* 「**[!UICONTROL フォームが閉じられた場合に表示するメッセージをパーソナライズ...]**」リンクをクリックし、有効となっていないフォームにユーザーがアクセスしようとした場合に表示するエラーメッセージを定義します。
 
-   See [Accessibility of the form](../../web/using/defining-web-forms-properties.md#accessibility-of-the-form).
+   [フォームのアクセシビリティ](../../web/using/defining-web-forms-properties.md#accessibility-of-the-form)を参照してください。
 
 ### E メールによるフォームの配信 {#delivering-a-form-via-email}
 
-When you deliver an invitation via email, you can use the **[!UICONTROL Adobe Campaign Encryption]** option for data reconciliation. これをおこなうには、配信ウィザードに移動して、次のパラメーターを追加することで、リンクをフォームに適応させます。
+E メールで招待状を配信する場合、データの紐付けに「**[!UICONTROL Adobe Campaign の暗号化]**」オプションを使用できます。これをおこなうには、配信ウィザードに移動して、次のパラメーターを追加することで、リンクをフォームに適応させます。
 
 ```
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">
 ```
 
-この場合、データストレージの紐付けキーは、受信者の暗号化された識別子である必要があります。詳しくは、「フォームデータのプリロ [ード」を参照してください](#pre-loading-the-form-data)。
+この場合、データストレージの紐付けキーは、受信者の暗号化された識別子である必要があります。詳しくは、[フォームデータのプリロード](#pre-loading-the-form-data)を参照してください。
 
-In this case, you need to check the **[!UICONTROL Update the preloaded record]** option in the record box. 詳しくは、「Webフォームの回答の保存」 [を参照してください](../../web/using/web-forms-answers.md#saving-web-forms-answers)。
+この場合、レコードボックスの「**[!UICONTROL プリロードされたレコードを更新]**」オプションをチェックする必要があります。詳しくは、[Web フォームの回答の保存](../../web/using/web-forms-answers.md#saving-web-forms-answers)を参照してください。
 
 ![](assets/s_ncs_admin_survey_save_box_option.png)
 
 ### 応答をログに記録 {#log-responses}
 
-回答のトラッキングを専用のタブで有効化すると、Web フォームの影響を監視することができます。To do this, click the **[!UICONTROL Advanced parameters...]** link in the form properties window and select the **[!UICONTROL Log responses]** option.
+回答のトラッキングを専用のタブで有効化すると、Web フォームの影響を監視することができます。これをおこなうには、フォームプロパティウィンドウの「**[!UICONTROL 詳細設定パラメーター]**」リンクをクリックして、「**[!UICONTROL 回答をログに記録]**」オプションを選択します。
 
 ![](assets/s_ncs_admin_survey_trace.png)
 
-The **[!UICONTROL Responses]** tab appears to let you view the identity of respondents.
+「**[!UICONTROL 回答]**」タブが表示され、回答者の ID を表示できます。
 
 ![](assets/s_ncs_admin_survey_trace_tab.png)
 
-Select a recipient and click the **[!UICONTROL Detail...]** button to view the responses provided.
+受信者を選択し、「**[!UICONTROL 詳細...]**」ボタンをクリックして提供された回答を表示します。
 
 ![](assets/s_ncs_admin_survey_trace_edit.png)
 

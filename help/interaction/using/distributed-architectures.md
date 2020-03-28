@@ -14,7 +14,7 @@ discoiquuid: 811a42a4-552c-49cb-bffd-7e124ef83735
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ---
@@ -69,7 +69,7 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 >
 >パッケージをインストールする際、**nms:proposition** テーブルに含まれる **long** タイプのフィールド（提案 ID など）は、**int64** タイプのフィールドになります。このタイプのデータについて詳しくは、[この節](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data)を参照してください。
 
-The data retention duration must be configured on each instance (via the **[!UICONTROL Data purge]** window in the deployment wizard). 実行インスタンスでは、この期間が、タイポロジルールに必要な履歴深度（スライド期間）および計算される実施要件ルールに対応している必要があります。
+データ保持期間は、（デプロイウィザードの&#x200B;**[!UICONTROL データパージ]**&#x200B;ウィンドウから）インスタンスごとに設定する必要があります。実行インスタンスでは、この期間が、タイポロジルールに必要な履歴深度（スライド期間）および計算される実施要件ルールに対応している必要があります。
 
 コントロールインスタンス上で、次の手順を実行します。
 
@@ -78,11 +78,11 @@ The data retention duration must be configured on each instance (via the **[!UIC
    ![](assets/interaction_powerbooster1.png)
 
    * ラベルを入力し、短くて明示的な内部名を追加します。
-   * を選択しま **[!UICONTROL Execution instance]**&#x200B;す。
-   * オプションをオン **[!UICONTROL Enabled]** にします。
+   * 「**[!UICONTROL 実行インスタンス]**」を選択します。
+   * 「**[!UICONTROL 有効]**」オプションをオンにします。
    * その実行インスタンス用の接続パラメーターを入力します。
-   * すべての実行インスタンスは、ID にリンクされている必要があります。This ID is assigned when you click on the **[!UICONTROL Initialize connection]** button.
-   * 使用するアプリケーションの種類の確認： **[!UICONTROL Message Center]**、 **[!UICONTROL Interaction]**&#x200B;または両方
+   * すべての実行インスタンスは、ID にリンクされている必要があります。この ID は、「**[!UICONTROL 接続を初期化]**」ボタンをクリックすると割り当てられます。
+   * 使用するアプリケーションのタイプとして、「**[!UICONTROL Message Center]**」と「**[!UICONTROL インタラクション]**」のどちらか、または両方を選択します。
    * 使用する FDA アカウントを入力します。オペレーターは、実行インスタンスで作成し、次のように、該当するインスタンスのデータベースの読み取り権限と書き込み権限を付与する必要があります。
 
       ```
@@ -104,7 +104,7 @@ The data retention duration must be configured on each instance (via the **[!UIC
       >
       >エラーが発生した場合は、同期ワークフローおよびオファー通知を確認してください。これらはアプリケーションのテクニカルワークフローにあります。
 
-最適化のために、実行インスタンスでマーケティングデータベースの一部のみを複製する場合、その実行インスタンスで利用できるデータのみをユーザーに使用させるよう、環境にリンクした制約付きスキーマを指定できます。オファーの作成には、実行インスタンスでは利用できないデータも使用できます。To do this, you must deactivate the rule on the other channels by limiting this rule on the outbound channel (**[!UICONTROL Taken into account if]** field).
+最適化のために、実行インスタンスでマーケティングデータベースの一部のみを複製する場合、その実行インスタンスで利用できるデータのみをユーザーに使用させるよう、環境にリンクした制約付きスキーマを指定できます。オファーの作成には、実行インスタンスでは利用できないデータも使用できます。それには、このルールをアウトバウンドチャネルのみに制限することで、他のチャネルに対しては無効にする必要があります（「**[!UICONTROL 次の場合に考慮]**」フィールド）。
 
 ![](assets/ita_filtering.png)
 
@@ -116,8 +116,8 @@ The data retention duration must be configured on each instance (via the **[!UIC
 >
 >これらのオプションは、特定のメンテナンス事例にのみ使用できます。
 
-* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**:特定のインスタンスで環境が同期された最後の日付。
-* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**:特定のスキーマの提案が別のインスタンスと同期された最後の日付。
+* **`NmsInteraction_LastOfferEnvSynch_<offerEnvId>_<executionInstanceId>`**：特定のインスタンスで環境が同期された直近の日付。
+* **`NmsInteraction_LastPropositionSynch_<propositionSchema>_<executionInstanceIdSource>_<executionInstanceIdTarget>`**：特定のスキーマの提案があるインスタンスから別のインスタンスに同期された直近の日付。
 * **`NmsInteraction_MapWorkflowId`**：生成されるすべての同期ワークフローのリストを含むオプション。
 
 次のオプションは、実行インスタンスで使用できます。

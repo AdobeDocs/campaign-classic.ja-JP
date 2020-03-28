@@ -14,7 +14,7 @@ discoiquuid: aeaa9475-3715-40a4-8864-29d126883272
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -28,7 +28,7 @@ Adobe Campaign でのデータスキーマの作成と設定について詳し�
 
 ## スキーマの構造 {#schema-structure}
 
-The XML document of a data schema must contain the **`<srcschema>`** root element with the **name** and **namespace** attributes to populate the schema name and its namespace.
+データスキーマの XML ドキュメントには、**name** 属性と **namespace** 属性が設定された **`<srcschema>`** ルート要素が必要です。これにより、スキーマの名前と名前空間が指定されます。
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -78,7 +78,7 @@ The XML document of a data schema must contain the **`<srcschema>`** root elemen
 
 ## プロパティ {#properties}
 
-Various properties can be used to enrich the **`<element>`** and **`<attribute>`** elements of the data schema.
+様々なプロパティを使用して、データスキーマの **`<element>`** 要素と **`<attribute>`** 要素をエンリッチメントできます。
 
 コンテンツ管理で使用する主なプロパティには次のものがあります。
 
@@ -115,7 +115,7 @@ Various properties can be used to enrich the **`<element>`** and **`<attribute>`
 
 コレクションは、同じ名前と同じ階層レベルを持つ要素のリストです。
 
-In our example, the **`<chapter>`** and **`<page>`** elements are collection elements. したがって、**unbound** 属性をこれらの要素の定義に追加する必要があります。
+次の例では、**`<chapter>`** 要素と **`<page>`** 要素がコレクション要素です。したがって、**unbound** 属性をこれらの要素の定義に追加する必要があります。
 
 ```
 <element name="chapter" label="Chapter" unbound="true" ordered="true">
@@ -131,11 +131,11 @@ In our example, the **`<chapter>`** and **`<page>`** elements are collection ele
 
 ## 要素の参照 {#element-referencing}
 
-コンテンツスキーマでは、要素の参照が多用されます。It enables you to factorize the definition of an **`<element>`** element so that it can be referenced on other elements with the same structure.
+コンテンツスキーマでは、要素の参照が多用されます。これにより、同じ構造を持つ他の要素でも参照できるように、**`<element>`** 要素の定義を分解できます。
 
 参照先要素の **ref** 属性には、参照元要素のパス（XPath）を設定する必要があります。
 
-**例**:例のスキーマの **要素と同じ構造を持つ付録** (Appendix **`<chapter>`** )セクションの追加を参照してください。
+**例**：サンプルのスキーマの **`<chapter>`** 要素と同じ構造を持つ **Appendix** 節の追加。
 
 ```
 <srcSchema name="book" namespace="cus">

@@ -14,7 +14,7 @@ discoiquuid: 98706258-0621-4aa9-bf14-f92f14946308
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -32,6 +32,6 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ## 調査のデータストレージ {#survey-data-storage}
 
-デフォルトでは、Web フォームフィールドは、受信者テーブルに格納されます。To use another table, select it in the **[!UICONTROL Document type]** field. The **[!UICONTROL Zoom]** icon lets you view the content of the selected table.
+デフォルトでは、Web フォームフィールドは、受信者テーブルに格納されます。別のテーブルを使用するには、「**[!UICONTROL ドキュメントタイプ]**」フィールドで選択します。**[!UICONTROL ズーム]**&#x200B;アイコンを使用すると、選択したテーブルの内容を表示できます。
 
-フィールドに格納されていない（ただしローカル変数に格納されている）ユーザーによって提供された調査の回答は、「**調査への回答**」テーブルに格納されます。You can change the schema used based on the **[!UICONTROL Library]** field. このフィールドは、**調査**&#x200B;でのみ使用できます。
+フィールドに格納されていない（ただしローカル変数に格納されている）ユーザーによって提供された調査の回答は、「**調査への回答**」テーブルに格納されます。「**[!UICONTROL ライブラリ]**」フィールドに基づいて、使用するスキーマを変更できます。このフィールドは、**調査**&#x200B;でのみ使用できます。

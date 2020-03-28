@@ -14,7 +14,7 @@ discoiquuid: 3ad38469-8e22-4bfc-8029-5d360f76d6bb
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 * Adobe Campaign で **HTML ページテンプレートをインポートする**&#x200B;前に、様々なブラウザーでテンプレートを開いて適切に表示されることを確認してください。
 * HTML ページに **JavaScript スクリプト**&#x200B;が含まれている場合、エディターの外部で&#x200B;**エラーなしで**&#x200B;実行する必要があります。
-* When building a template, we recommend adding a **&#39;type&#39;** attribute to `<input>` tags. この情報はエディターで処理され、Web アプリケーションを設定する際に、ユーザーがデータベースのフィールドをフォームのフィールドにリンクするのに便利です。
+* テンプレートを作成する場合、`<input>` タグに「**type**」属性を追加することをお勧めします。この情報はエディターで処理され、Web アプリケーションを設定する際に、ユーザーがデータベースのフィールドをフォームのフィールドにリンクするのに便利です。
 
    テンプレート内の HTML コードの例：
 
@@ -38,13 +38,13 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
    ![](assets/dce_sidebar_inputtypechanges.png)
 
-   「type」属性の正式なリストは、このWebサイトで [入手できます](https://www.w3schools.com/tags/att_input_type.asp)。
+   「type」属性の公式なリストについては、[この Web サイト](https://www.w3schools.com/tags/att_input_type.asp)を参照してください。
 
 * DCE での終了ページのシミュレーションの手順：
 
    ![](assets/dce_enchainement.png)
 
-* Make sure that there is only one `<body> </body>` in the page.
+* ページに 1 組の `<body> </body>` のみ存在することを確認してください。
 * CSS または JS ファイルがアップロードされても、.zip ファイルに含まれる画像はアップロードされません。したがって、CSS に存在するこれらの画像への参照は更新されません。
 
 ## コンテンツエディターでサポートされる形式 {#content-editor-supported-formats}
@@ -56,7 +56,7 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 * CSS：.zip ファイルに含まれる画像はインポートされません。CSS のこれらの画像への参照は、更新されません。
 * JS：.zip ファイルに含まれる画像はインポートされません。JS のこれらの画像への参照は、更新されません。
 * IFrame：リンクされたページは、インポートされません。
-* ランディングページおよび Web アプリ： **form** タグが見つからない場合、警告が表示されます。A `<form> </form>` must always be present in the message body.
+* ランディングページおよび Web アプリ： **form** タグが見つからない場合、警告が表示されます。`<form> </form>` が常にメッセージ本文に存在する必要があります。
 
 デジタルコンテンツエディターは、次のコードページの編集もサポートします。
 
@@ -89,7 +89,7 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 * HTML コンテンツは機能しています。
 * この Web アプリケーションはパブリッシュされていないので、オンラインでアクセスできません。
 * Web アプリケーションがオンラインです。変更を適用するには、再度パブリッシュする必要があります。
-* ページコンテンツが機能しません。It must include an HTML form (`<form>`)
+* ページコンテンツが機能しません。HTML フォーム（`<form>`）を含める必要があります。
 * 設定する入力ゾーンまたはボタンがありません。
 * 次のページへのトランジションを有効にするには、現在のページ上のボタンまたはリンクに「次のページ」アクションをリンクする必要があります。
 

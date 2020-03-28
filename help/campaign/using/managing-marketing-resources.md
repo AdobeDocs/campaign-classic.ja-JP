@@ -14,7 +14,7 @@ discoiquuid: 069dbc6b-4019-4d66-85a8-0e4de6b66f18
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e09692e316a92a67632201e5691e8b4df42cc341
 
 ---
@@ -30,30 +30,30 @@ Adobe Campaign では、管理するマーケティングリソースそれぞ�
 
 マーケティングリソースにはキャンペーンウィンドウからアクセスします。
 
-To add a resource, click the **[!UICONTROL Create]** button.
+リソースを追加するには、「**[!UICONTROL 作成]**」ボタンをクリックします。
 
 ![](assets/s_ncs_user_mkg_resource_add.png)
 
-リソースを Adobe Campaign サーバーで利用するには、そのリソースをエディターの中央部にドラッグ&amp;ドロップして追加する必要があります。リンクをクリックすることもで **[!UICONTROL Upload file to server...]** きます。
+リソースを Adobe Campaign サーバーで利用するには、そのリソースをエディターの中央部にドラッグ&amp;ドロップして追加する必要があります。「**[!UICONTROL サーバーにファイルをアップロード...]**」リンクをクリックすることもできます。
 
 ![](assets/s_ncs_user_mkg_resource_file.png)
 
 確認メッセージが表示され、アップロードを開始できます。
 
-アップロードが完了すると、使用可能なリソースのリストにリソースが追加され、Adobe Campaign オペレーターがアクセスできるようになります。They can view it (via the **[!UICONTROL Preview]** tab), make a copy to modify it, or update the file on the server (using the **[!UICONTROL Edit]** tab).
+アップロードが完了すると、使用可能なリソースのリストにリソースが追加され、Adobe Campaign オペレーターがアクセスできるようになります。オペレーターはリソースを表示できるだけでなく（「**[!UICONTROL プレビュー]**」タブを使用）、コピーして修正することや、サーバー上のファイルを更新することもできます（「**[!UICONTROL 編集]**」タブを使用）。
 
 ![](assets/s_ncs_user_mkg_resource_extract.png)
 
-Click the **[!UICONTROL General]** tab to select the operators or groups of operators in charge of monitoring, tracking and approving this resource. Selecting the reviewer is done via the **[!UICONTROL Advanced parameters]** link.
+リソースの監視、トラッキングおよび承認を担当するオペレーターまたはオペレーターのグループを選択するには、「**[!UICONTROL 一般]**」タブをクリックします。レビュー担当者を選択するには、「**[!UICONTROL 詳細設定パラメーター]**」リンクを使用します。
 
 * リソースを割り当てられたオペレーターは、そのリソースのトラッキングを担当します。
 * 承認オペレーターはマーケティングリソースの承認を担当します。リソースの検証プロセスが開始すると、これらのオペレーターに通知が送信されます。
 
-   If no reviewer is selected, the resource **[!UICONTROL cannot be]** subject to approval.
+   レビュー担当者が選択されていない場合は、リソースを承認&#x200B;**[!UICONTROL できません]**。
 
 * 必要に応じて、校正者を指定することもできます。
 
-リソースに使用可能な日付（目安）を指定できます。Beyond this date, it will appear with **[!UICONTROL Late]** status.
+リソースに使用可能な日付（目安）を指定できます。この日付を超えると、リソースは「**[!UICONTROL 遅延]**」ステータスになります。
 
 ## リソースの共同作業 {#collaborative-work-on-resources}
 
@@ -65,7 +65,7 @@ Click the **[!UICONTROL General]** tab to select the operators or groups of oper
 
 >[!NOTE]
 >
->The **[!UICONTROL History]** tab contains the download and update log for the resource. The **[!UICONTROL Details]** button lets you view the selected version:
+>「**[!UICONTROL 履歴]**」タブでは、リソースのダウンロードと更新のログを確認できます。「**[!UICONTROL 詳細]**」ボタンでは、選択したバージョンを表示することができます。
 
 ### リソースのロックとロック解除 {#locking-unlocking-a-resource}
 
@@ -77,15 +77,15 @@ Click the **[!UICONTROL General]** tab to select the operators or groups of oper
 
 ![](assets/s_ncs_user_mkg_resource_locked.png)
 
-The **[!UICONTROL Tracking]** tab indicates the name of the operator who locked the resource and the planned update date.
+「**[!UICONTROL 監査]**」タブに、リソースをロックしたオペレーターの名前と予定更新日が表示されます。
 
 ![](assets/s_ncs_user_mkg_resource_locked_date.png)
 
-To lock a resource, you must click the resource followed by the **[!UICONTROL Lock]** button in the resource dashboard.
+リソースをロックするには、リソースをクリックし、リソースのダッシュボードで「**[!UICONTROL ロック]**」ボタンをクリックします。
 
 ![](assets/s_ncs_user_mkg_resource_lock.png)
 
-You can indicate the planned return date in the **[!UICONTROL Tracking]** tab of the resource.
+リソースの「**[!UICONTROL 監査]**」タブで、予定の返却日を指定できます。
 
 ![](assets/s_ncs_user_mkg_resource_lock_date.png)
 
@@ -101,33 +101,33 @@ You can indicate the planned return date in the **[!UICONTROL Tracking]** tab of
 
 ### ディスカッションフォーラム {#discussion-forums}
 
-For each resource, the **[!UICONTROL Forum]** tab lets participants exchange information.
+各リソースにある「**[!UICONTROL フォーラム]**」タブでは、参加者が情報を交換することができます。
 
-[ディスカッションフォーラムで](../../campaign/using/discussion-forums.md) 、Adobe Campaignでディスカッションフォーラムがどのように機能するかについて説明します。
+[ディスカッションフォーラム](../../campaign/using/discussion-forums.md)で、Adobe Campaign のディスカッションフォーラムの機能について説明しています。
 
 ## マーケティングリソースのライフサイクル {#life-cycle-of-a-marketing-resource}
 
 リソースを作成すると、Adobe Campaign のオペレーターに、リソースのデザイン、校正、承認およびパブリッシュが割り当てられます。キャンペーンには期間を指定することができます。
 
-The **[!UICONTROL Tracking]** tab lets you monitor any actions carried out on the resource: approvals, approval refusals, related comments, or publications.
+「**[!UICONTROL 監査]**」タブでは、承認、承認の却下、関連するコメント、パブリッシュなど、リソースに実行されたあらゆるアクションを監視できます。
 
-The **[!UICONTROL History]** tab displays file transfers carried out for this resource.
+「**[!UICONTROL 履歴]**」タブには、このリソースに対して実行されたファイル転送の履歴が表示されます。
 
 ### 承認プロセス {#approval-process}
 
-The expected availability date is displayed in the resource details, if it was specified in the **[!UICONTROL Tracking]** tab. Once this date is reached, you can execute the approval process using the **[!UICONTROL Submit for approval]** button in the resource dashboard. その後、リソースのステータスがに変わりま **[!UICONTROL Approval in progress]**&#x200B;す。
+「**[!UICONTROL 監査]**」タブで指定してある場合は、使用可能な日付がリソースの詳細に表示されます。この日付に達すると、リソースダッシュボードにある「**[!UICONTROL 承認用に送信]**」ボタンを使用して、承認プロセスを実行できるようになります。リソースのステータスは「**[!UICONTROL 承認中]**」になります。
 
-A resource can be approved via the **[!UICONTROL Approve resource]** button on its dashboard.
+リソースを承認するには、リソースダッシュボードの「**[!UICONTROL リソースを承認]**」ボタンを使用します。
 
 ![](assets/s_ncs_user_task_valid_date.png)
 
-権限のあるオペレーターは、承認または却下できます。This action is possible either: via the email message sent (by clicking the link in the notification message) or via the console (by clicking the **[!UICONTROL Approve]** ) button.
+権限のあるオペレーターは、承認または却下できます。承認または却下するには、送信された E メールメッセージを使用（通知メッセージ内のリンクをクリック）するか、コンソールを使用（「**[!UICONTROL 承認]**」ボタンをクリック）します。
 
 承認ウィンドウが表示され、コメントを入力できます。
 
 ![](assets/s_ncs_user_mkg_resource_valid_ok.png)
 
-The **[!UICONTROL Tracking]** tab enables all operators to track the various stages of the approval process.
+すべてのオペレーターは、「**[!UICONTROL 監査]**」タブで承認プロセスの様々なステージをトラッキングできます。
 
 ![](assets/s_ncs_user_mkg_resource_log.png)
 
@@ -139,7 +139,7 @@ The **[!UICONTROL Tracking]** tab enables all operators to track the various sta
 
 マーケティングリソースを承認したら、パブリッシュする必要があります。パブリッシュプロセスは、企業の要件に応じて実装ごとに異なります。例えば、リソースをエクストラネット上またはその他のサーバー上にパブリッシュできる場合もあれば、特定の情報を外部のサービスプロバイダーに送信できる場合もあります。
 
-To publish a resource, click the **[!UICONTROL Publish]** button in the editing zone of the marketing resource dashboard.
+リソースをパブリッシュするには、マーケティングリソースダッシュボードの編集ゾーンにある「**[!UICONTROL パブリッシュ]**」ボタンをクリックします。
 
 ![](assets/s_ncs_user_mkg_resource_available.png)
 
@@ -147,16 +147,16 @@ To publish a resource, click the **[!UICONTROL Publish]** button in the editing 
 
 リソースのパブリッシュとは、リソースを（その他のタスクなどで）使用可能にすることです。パブリッシュ自体は、リソースの特性により異なります。例えば、チラシの場合、パブリッシュとはファイルを印刷業者に送信することを意味します。Web 媒体の場合は Web サイトに公開することを意味します。
 
-Adobe Campaign でパブリッシュするには、適切なワークフローを作成してリソースにリンクする必要があります。To do this, open the **[!UICONTROL Advanced settings]** box of the resource, then select the desired workflow in the **[!UICONTROL Post-processing]** field.
+Adobe Campaign でパブリッシュするには、適切なワークフローを作成してリソースにリンクする必要があります。ワークフローを作成するには、リソースの「**[!UICONTROL 詳細設定]**」ボックスを開き、「**[!UICONTROL 後処理]**」フィールドで適切なワークフローを選択します。
 
 ![](assets/mrm_asset_postprocessing_workflow.png)
 
 ワークフローは以下の場合に実行されます。
 
-* When the reviewer clicks the **[!UICONTROL Publish resource]** link (or, if no reviewer was defined, the person in charge of the resource).
-* If the resource is managed via a marketing resource creation task, it will be executed when the task is set to **[!UICONTROL Finished]**, as long as the **[!UICONTROL Publish the marketing resource]** box is checked in the task (Refer to [Marketing resource creation task](../../campaign/using/creating-and-managing-tasks.md#marketing-resource-creation-task))
+* レビュー担当者（レビュー担当者が定義されていない場合はリソースの担当者）が「**[!UICONTROL リソースのパブリッシュ]**」リンクをクリックしたとき。
+* マーケティングリソース作成タスクでリソースを管理している場合は、タスクが「**[!UICONTROL 完了]**」になったとき。ただし、タスクで「**[!UICONTROL マーケティングリソースをパブリッシュ]**」ボックスがオンになっている必要があります（[マーケティングリソース作成タスク](../../campaign/using/creating-and-managing-tasks.md#marketing-resource-creation-task)を参照）。
 
-If a workflow isn&#39;t started immediately (if the workflow is stopped for instance), the status of the resource changes to **[!UICONTROL Pending publication]**. Once the workflow is started, the status of the resource changes to **[!UICONTROL Published]**. このステータスには、パブリッシュプロセス中のエラーは反映されません。パブリッシュが適切に実行されたかどうかを確認するには、ワークフローのステータスを確認します。
+ワークフローをすぐに開始しない場合（ワークフローを停止した場合など）、リソースのステータスは「**[!UICONTROL パブリッシュ保留中]**」になります。ワークフローを開始すると、リソースのステータスは「**[!UICONTROL パブリッシュ済み]**」になります。このステータスには、パブリッシュプロセス中のエラーは反映されません。パブリッシュが適切に実行されたかどうかを確認するには、ワークフローのステータスを確認します。
 
 ## キャンペーンへのリソースのリンク {#linking-a-resource-to-a-campaign}
 
@@ -166,9 +166,9 @@ If a workflow isn&#39;t started immediately (if the workflow is stopped for inst
 
 >[!NOTE]
 >
->For details on how to create and configure campaign templates, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>キャンペーンテンプレートの作成と設定方法について詳しくは、[キャンペーンテンプレート](../../campaign/using/marketing-campaign-templates.md#campaign-templates)を参照してください。
 
-Click the **[!UICONTROL Documents > Resources]** tab in the campaign dashboard, then click **[!UICONTROL Add]** to select the resource concerned.
+キャンペーンダッシュボードで「**[!UICONTROL ドキュメント／リソース]**」タブをクリックし、「**[!UICONTROL 追加]**」をクリックしてリソースを選択します。
 
 ![](assets/s_ncs_user_mkg_resource_ref.png)
 
@@ -178,7 +178,7 @@ Click the **[!UICONTROL Documents > Resources]** tab in the campaign dashboard, 
 
 「**[!UICONTROL OK]**」をクリックし、このキャンペーンで参照されているマーケティングリソースのリストにリソースを追加します。
 
-The **[!UICONTROL Details]** button lets you edit and view it.
+「**[!UICONTROL 詳細]**」ボタンをクリックすると、リソースを編集および表示できます。
 
 追加したリソースはダッシュボードに表示されます。リソースはダッシュボードでも編集できます。
 
@@ -190,7 +190,7 @@ The **[!UICONTROL Details]** button lets you edit and view it.
 
 >[!NOTE]
 >
->配信の概要の詳細については、「配信の概要を介してリ [ンクされたリソースの関連付けと構造化」を参照してください](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)。
+>配信の概要について詳しくは、[配信の概要からのリンク済みリソースの関連付けと構造化](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)を参照してください。
 
 ## 在庫管理 {#stock-management}
 
@@ -198,13 +198,13 @@ The **[!UICONTROL Details]** button lets you edit and view it.
 
 >[!NOTE]
 >
->For more information on stock management in Adobe Campaign, refer to [Stock management](../../campaign/using/providers--stocks-and-budgets.md#stock-management).
+>Adobe Campaign での在庫管理について詳しくは、[在庫管理](../../campaign/using/providers--stocks-and-budgets.md#stock-management)を参照してください。
 
 マーケティングリソースを在庫と関連付けるには、在庫マップを編集し、在庫を編集または作成します。在庫品目を追加し、対応するマーケティングリソースを選択します。
 
 ![](assets/s_ncs_user_task_in_a_stock.png)
 
-If necessary, you can edit the selected resource via the **[!UICONTROL Edit the link]** icon (magnifying glass) located to the right of the resource once it has been selected.
+必要に応じ、リソースを選択した後、リソースの右側にある&#x200B;**[!UICONTROL リンクを編集]**&#x200B;アイコン（拡大鏡）をクリックして選択したリソースを編集できます。
 
 初期在庫とアラートレベルを指定し、保存します。
 
@@ -216,9 +216,9 @@ If necessary, you can edit the selected resource via the **[!UICONTROL Edit the 
 
 ## 高度な機能 {#advanced-functions}
 
-マーケティングリソースダッシュボードでは、追加、編集、ロックとロック解除、承認およびパブリッシュなど、通常の操作を実行します。その他のタイプのマーケティングリソースを作成して、Adobe Campaign ツリーから高度な機能にアクセスすることもできます。To do this, click **[!UICONTROL Explorer]** in the Adobe Campaign home page.
+マーケティングリソースダッシュボードでは、追加、編集、ロックとロック解除、承認およびパブリッシュなど、通常の操作を実行します。その他のタイプのマーケティングリソースを作成して、Adobe Campaign ツリーから高度な機能にアクセスすることもできます。作成するには、Adobe Campaign ホームページで「**[!UICONTROL エクスプローラー]**」をクリックします。
 
-By default, marketing resources are stored in the **[!UICONTROL MRM > Marketing resources]** node of the tree.
+デフォルトでは、ツリーの **[!UICONTROL MRM／マーケティングリソース]**&#x200B;ノードにマーケティングリソースが格納されます。
 
 ![](assets/s_ncs_user_mkg_resource_create_from_list.png)
 

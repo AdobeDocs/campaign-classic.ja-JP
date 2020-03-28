@@ -14,7 +14,7 @@ discoiquuid: 978cbe62-f06a-46a6-b8a1-e30a65b8470a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cfb1b02a6261c001392b5cc6430f00206e802bb8
 
 ---
@@ -33,16 +33,16 @@ source-git-commit: cfb1b02a6261c001392b5cc6430f00206e802bb8
 
 1. 監視ワークフローの作成
 1. ワークフローが一時停止、停止、エラーありの状態であるかどうかを判断するための JavaScript の記述
-1. アクティビティを作 **[!UICONTROL Test]** 成します。
+1. **[!UICONTROL テスト]**&#x200B;アクティビティの作成
 1. 配信テンプレートの準備
 
 >[!NOTE]
 >
 >ワークフローに加え、キャンペーン&#x200B;**ワークフローヒートマップ**&#x200B;を使用することで、現在実行中のワークフローの詳細を分析することができます。詳しくは、[該当する節](../../workflow/using/heatmap.md)を参照してください。
 >
->ワークフローの実行を監視 **する方法について詳しくは**、この節を参照し [てください](../../workflow/using/monitoring-workflow-execution.md)。
+>**ワークフローの実行を監視**&#x200B;する方法について詳しくは、[この節](../../workflow/using/monitoring-workflow-execution.md)を参照してください。
 
-## Step 1: Creating the monitoring workflow {#step-1--creating-the-monitoring-workflow}
+## 手順 1：監視ワークフローの作成 {#step-1--creating-the-monitoring-workflow}
 
 監視対象のワークフローフォルダーは「**CustomWorkflows**」フォルダーです。このフォルダーは&#x200B;**管理／プロダクション／テクニカルワークフロー**&#x200B;ノードに保存されています。このフォルダーには、ビジネスワークフローのセットが含まれています。
 
@@ -60,7 +60,7 @@ source-git-commit: cfb1b02a6261c001392b5cc6430f00206e802bb8
 * メッセージのレイアウトをおこなう 1 つの「**配信**」アクティビティ
 * ワークフローの反復処理の間のリードタイムを制御する 1 つの「**待機**」アクティビティ
 
-## 手順2:JavaScriptの記述 {#step-2--writing-the-javascript}
+## 手順 2：JavaScript の記述 {#step-2--writing-the-javascript}
 
 JavaScript コードの 1 番目の箇所は、ワークフローが「一時停止」（@state == 13）、「エラー」（@failed == 1）、「停止」（@state == 20）の状態であるかどうかを特定する&#x200B;**クエリ（queryDef）**&#x200B;に相当します。
 
@@ -122,7 +122,7 @@ vars.strWorkflowPaused = strPaused;
 vars.strWorkflowStop = strStop;
 ```
 
-## Step 3: Creating the &#39;Test&#39; activity {#step-3--creating-the--test--activity}
+## 手順 3：「テスト」アクティビティの作成 {#step-3--creating-the--test--activity}
 
 「テスト」アクティビティでは、配信をおこなう必要があるかどうか、「待機」アクティビティに基づき監視ワークフローで別のサイクルを実行する必要があるかどうかを判断できます。
 
@@ -134,7 +134,7 @@ vars.strWorkflowStop = strStop;
 
 ![](assets/uc_monitoring_workflow_attente.png)
 
-## 手順4:配信の準備 {#step-4--preparing-the-delivery}
+## 手順 4：配信の準備 {#step-4--preparing-the-delivery}
 
 「**配信**」アクティビティは、**リソース／テンプレート／配信テンプレート**&#x200B;ノードに保存されている配信テンプレートに基づき実行されます。
 

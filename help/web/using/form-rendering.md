@@ -14,7 +14,7 @@ discoiquuid: 669635bd-868b-4550-b075-6294ccb71297
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## フォームレンダリングテンプレートの選択 {#selecting-the-form-rendering-template}
 
-フォーム設定により、ページ生成に使用するテンプレートを選択できます。To access them, click the **[!UICONTROL Settings]** button in the form detail toolbar, and select the **[!UICONTROL Rendering]** tab. デフォルトで、多数のテンプレート（スタイルシート）を使用できます。
+フォーム設定により、ページ生成に使用するテンプレートを選択できます。これらにアクセスするには、フォームの詳細ツールバーの&#x200B;**[!UICONTROL 設定]**&#x200B;ボタンをクリックして、「**[!UICONTROL レンダリング]**」タブを選択します。デフォルトで、多数のテンプレート（スタイルシート）を使用できます。
 
 ![](assets/s_ncs_admin_survey_rendering_select.png)
 
@@ -34,7 +34,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ![](assets/s_ncs_admin_survey_render_edit.png)
 
-これらのテンプレートを修正または上書きできます。To do this, click the **[!UICONTROL Page layout...]** link and personalize the information.
+これらのテンプレートを修正または上書きできます。これをおこなうには、「**[!UICONTROL ページレイアウト]**」リンクをクリックして、情報をパーソナライズします。
 
 ![](assets/s_ncs_admin_survey_render_edit_param.png)
 
@@ -43,26 +43,26 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 * ロゴとして使用する画像を変更し、サイズを適応させます。
 * また、ユーザーがこのレンダリングテンプレートを選択する際にプレビュー画像にアクセスするためのパスを指定します。
 
-The **[!UICONTROL Headers/Footers]** tab lets you change the information displayed in the headers and footers of each form page using this template.
+「**[!UICONTROL ヘッダー／フッター]**」タブを使用すると、このテンプレートを使用する各フォームページのヘッダーおよびフッターに表示される情報を変更できます。
 
 ![](assets/s_ncs_admin_survey_render_edit_header.png)
 
-Each line of the **[!UICONTROL Page headers]** and **[!UICONTROL Page footers]** section corresponds to a line in the HTML page. Click **[!UICONTROL Add]** to create a new line.
+「**[!UICONTROL ページヘッダー]**」および「**[!UICONTROL ページフッター]**」セクションの各行は、HTML ページの各行に対応します。新しい行を作成するには、「**[!UICONTROL 追加]**」をクリックします。
 
-Select an existing line and click the **[!UICONTROL Detail]** button to personalize it.
+既存の行を選択して、「**[!UICONTROL 詳細]**」ボタンをクリックしてパーソナライズします。
 
 ![](assets/s_ncs_admin_survey_render_edit_header_detail.png)
 
 各タブで、行のコンテンツを変更したり、境界線を追加したり、フォント属性を変更したりできます。「**[!UICONTROL OK]**」をクリックして、これらの変更を確定します。
 
-The **[!UICONTROL Position]** fields let you define the position of elements in the page header and footer.
+「**[!UICONTROL 位置]**」フィールドを使用すると、ページヘッダーおよびフッターの要素の位置を定義できます
 
 ![](assets/s_ncs_admin_survey_render_edit_header_position.png)
 
 >[!NOTE]
 >
->レンダリングテンプレートはノードに保存 **[!UICONTROL Administration > Configuration > Form rendering]** されます。\
->詳しくは、「フォームレンダリングのカスタマ [イズ」を参照してください](#customizing-form-rendering)
+>レンダリングテンプレートは、**[!UICONTROL 管理／設定／フォームレンダリング]**&#x200B;ノードに格納されます。\
+>詳しくは、[フォームのレンダリングのカスタマイズ](#customizing-form-rendering)を参照してください。
 
 ## フォームのレンダリングのカスタマイズ {#customizing-form-rendering}
 
@@ -70,20 +70,20 @@ The **[!UICONTROL Position]** fields let you define the position of elements in 
 
 フォームの各要素（入力フィールド、画像、ラジオボタンなど）について、スタイルシートをオーバーロードできます。
 
-To do this, use the **[!UICONTROL Advanced]** tab.
+これをおこなうには、「**[!UICONTROL 詳細設定]**」タブを使用します。
 
 ![](assets/s_ncs_admin_survey_advanced_tab.png)
 
 次のプロパティを定義できます。
 
-* **[!UICONTROL Label position]**:詳しく [は、ラベルの位置の定義](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels)、
-* **[!UICONTROL Label format]**:折り返し、または折り返しなし、
-* **[!UICONTROL Number of cells]** :詳しく [は、ページ上でのフィールドの配置を参照してください](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page)。
-* **[!UICONTROL Horizontal alignment]** （左、右、中央揃え） **[!UICONTROL Vertical alignment]** と（高、低、中央）、
-* **[!UICONTROL Width]** の領域：これは、パーセンテージ、またはem、ポイント、またはピクセル（デフォルト値）で表すことができます。
-* Maximum **[!UICONTROL Length]**: Maximum number of characters allowed (for Text, Number and Password type controls),
-* **[!UICONTROL Lines]**:タイプゾーンの **[!UICONTROL Multi-line text]** 行数、
-* **[!UICONTROL Style inline]**:を使用すると、CSSスタイルシートに追加の設定をオーバーロードできます。 これらは、次の例のように、**;** 文字を使用して区切られます。
+* **[!UICONTROL ラベルの位置]**：[ラベルの位置の定義](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels)を参照
+* **[!UICONTROL ラベルのフォーマット]**：テキストを折り返す、または折り返さない
+* **[!UICONTROL セル数]**：[ページへのフィールドの配置](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page)を参照
+* **[!UICONTROL 水平方向の整列]**（左、右、中央揃え）および&#x200B;**[!UICONTROL 垂直方向の整列]**（高、低、中央）。
+* ゾーンの&#x200B;**[!UICONTROL 幅]**：これは、パーセンテージまたは em、point、pixel（デフォルト値）で表示できます。
+* 最大の&#x200B;**[!UICONTROL 長さ]**：許容される最大文字数（テキスト、数値およびパスワードタイプのコントロール）
+* **[!UICONTROL ライン]**：**[!UICONTROL 複数ラインテキスト]**&#x200B;タイプのゾーンのライン数。
+* **[!UICONTROL スタイルインライン]**：CSS スタイルシートを追加の設定でオーバーロードできます。これらは、次の例のように、**;** 文字を使用して区切られます。
 
    ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
@@ -91,13 +91,13 @@ To do this, use the **[!UICONTROL Advanced]** tab.
 
 フィールドは、ルートがページと同じ名前のツリー構造で並んでいます。フィールドを選択して、名前を修正します。
 
-The title of the window must be entered in the **[!UICONTROL Page]** tab of the form property window. また、ページヘッダーとフッターにセットコンテンツを追加できます（この情報は、すべてのページに表示されます）。This content is entered in the matching sections of the **[!UICONTROL Texts]** tab, as shown below:
+ウィンドウのタイトルは、フォームプロパティウィンドウの「**[!UICONTROL ページ]**」タブに入力されている必要があります。また、ページヘッダーとフッターにセットコンテンツを追加できます（この情報は、すべてのページに表示されます）。このコンテンツは、次に示すように、「**[!UICONTROL テキスト]**」タブの一致するセクションに入力されます。
 
 ![](assets/s_ncs_admin_survey_titles_config.png)
 
 ### HTML ヘッダーへの要素の追加 {#adding-elements-to-html-header}
 
-フォームページの HTML ヘッダーに挿入する追加の要素を入力できます。To do this, enter the elements in the **[!UICONTROL Header]** tab of the relevant page.
+フォームページの HTML ヘッダーに挿入する追加の要素を入力できます。これをおこなうには、関連するページの「**[!UICONTROL ヘッダー]**」タブに要素を入力します。
 
 これにより、例えば、ページのタイトルバーに表示されるアイコンを参照できます。
 
@@ -105,7 +105,7 @@ The title of the window must be entered in the **[!UICONTROL Page]** tab of the 
 
 ## コントロール設定の定義 {#defining-control-settings}
 
-ユーザーがフォームに入力する際に、形式または設定に応じて、特定のフィールドに対するチェックが自動的に実行されます。This lets you make certain fields mandatory (refer to [Defining mandatory fields](#defining-mandatory-fields)) or check the format of the data entered (refer to [Checking data format](#checking-data-format)). （アウトバウンドトランジションを有効にするリンクまたはボタンをクリックすることで）ページの承認中にチェックが実行されます。
+ユーザーがフォームに入力する際に、形式または設定に応じて、特定のフィールドに対するチェックが自動的に実行されます。これにより、特定のフィールドを必須にしたり（[必須フィールドの定義](#defining-mandatory-fields)を参照）、入力されたデータの形式をチェックしたり（[データフォーマットのチェック](#checking-data-format)を参照）できます。（アウトバウンドトランジションを有効にするリンクまたはボタンをクリックすることで）ページの承認中にチェックが実行されます。
 
 ### 必須フィールドの定義 {#defining-mandatory-fields}
 
@@ -117,7 +117,7 @@ The title of the window must be entered in the **[!UICONTROL Page]** tab of the 
 
 ![](assets/s_ncs_admin_survey_required_default_msg.png)
 
-このメッセージは、リンクをクリックしてパーソナライズで **[!UICONTROL Personalize this message]** きます。
+「**[!UICONTROL メッセージをパーソナライズ]**」リンクをクリックすることで、このメッセージをパーソナライズできます。
 
 ![](assets/s_ncs_admin_survey_required_custom_msg.png)
 
@@ -131,7 +131,7 @@ The title of the window must be entered in the **[!UICONTROL Page]** tab of the 
 
 その値が変数に格納されるフォームのチェックの場合、承認ルールは変数の形式によって異なります。
 
-For example, if you create a **[!UICONTROL Number]** check to store the client number, as shown below:
+例えば、**[!UICONTROL 数値]**&#x200B;チェックを作成してクライアント番号をチェックする場合、次のようになります。
 
 ![](assets/s_ncs_admin_survey_choose_format.png)
 
@@ -141,7 +141,7 @@ For example, if you create a **[!UICONTROL Number]** check to store the client n
 
 ユーザーが選択した値に基づいて表示されるページでのフィールドの表示を設定できます。これは、1 つのフィールドまたはフィールドグループ（コンテナでグループ化されている場合）に適用できます。
 
-For each element of the page, the **[!UICONTROL Visibility]** section lets you define the display conditions.
+グループの各要素について、「**[!UICONTROL 表示]**」セクションを使用して表示条件を定義できます。
 
 ![](assets/s_ncs_admin_survey_condition_edit.png)
 
@@ -155,15 +155,15 @@ For each element of the page, the **[!UICONTROL Visibility]** section lets you d
 
    詳しくは、この[ページ](../../web/using/defining-web-forms-properties.md#form-url-parameters)を参照してください。
 
-* The **[!UICONTROL Recipients]** sub-tree contains the input fields inserted into the form and stored in the database.
+* **[!UICONTROL 受信者]**&#x200B;サブツリーには、フォームに挿入され、データベースに格納された入力フィールドが含まれます。
 
-   詳しくは、「データベースへのデ [ータの格納」を参照してください](../../web/using/web-forms-answers.md#storing-data-in-the-database)。
+   詳しくは、[データベースへのデータの格納](../../web/using/web-forms-answers.md#storing-data-in-the-database)を参照してください。
 
-* The **[!UICONTROL Variables]** sub-tree contains the available variables for this form. 詳しくは、「ローカル変数へのデ [ータの格納」を参照してください](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable)。
+* **[!UICONTROL 変数]**&#x200B;サブツリーには、このフォームで使用可能な変数が含まれます。詳しくは、[ローカル変数へのデータの格納](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable)を参照してください。
 
-詳しくは、次の使用例を参照してください。選択し [た値に応じて異なるオプションを表示](../../web/using/use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values)。
+詳しくは、[選択した値に応じた異なるオプションの表示](../../web/using/use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values)で説明されている使用例を参照してください。
 
-You can also condition the display of form pages using the **[!UICONTROL Test]** object. 詳しくは、この[ページ](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display)を参照してください。
+また、**[!UICONTROL テスト]**&#x200B;オブジェクトを使用するフォームページの表示に条件を設定することもできます。詳しくは、この[ページ](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display)を参照してください。
 
 ## 既存のフォームからの要素のインポート {#importing-elements-from-an-existing-form}
 
@@ -171,7 +171,7 @@ You can also condition the display of form pages using the **[!UICONTROL Test]**
 
 要素をフォームに挿入するには、次の手順に従います。
 
-1. Edit the page which you want to insert one or more elements into, then click **[!UICONTROL Import an existing block]** in the toolbar.
+1. 1 つまたは複数の要素を挿入するページを編集し、ツールバーの&#x200B;**[!UICONTROL 既存のブロックをインポート]**&#x200B;をクリックします。
 
    ![](assets/s_ncs_admin_survey_import_block.png)
 
@@ -181,9 +181,9 @@ You can also condition the display of form pages using the **[!UICONTROL Test]**
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Edit link]** icon to the right of the source form name lets you view the selected Web form.
+   >ソースフォーム名の右側にある&#x200B;**[!UICONTROL リンクを編集]**&#x200B;アイコンを使用すると、選択した Web フォームを表示できます。
 
-1. Click **[!UICONTROL Ok]** to confirm insertion.
+1. 「**[!UICONTROL OK]**」をクリックして、挿入を確定します。
 
    ![](assets/s_ncs_admin_survey_import_block_rendering.png)
 

@@ -14,7 +14,7 @@ discoiquuid: 868940d1-f19d-4e9a-bffa-8654abb4441c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -32,9 +32,9 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 Adobe Campaign では、ワークフローを使用して次のことをおこないます。
 
-* キャンペーンのターゲティングの実行。For more on this, refer to [Implementation steps](../../workflow/using/building-a-workflow.md#implementation-steps-).
-* Build campaigns: for each campaign, the **[!UICONTROL Workflow]** tab lets you build the target and create the deliveries. For more on this, refer to [Campaign workflows](../../workflow/using/building-a-workflow.md#campaign-workflows).
-* テクニカルプロセスの実行：クリーンアップ、トラッキング情報の収集または試算。For more on this, refer to [Technical workflows](../../workflow/using/building-a-workflow.md#technical-workflows).
+* キャンペーンのターゲティングの実行。詳しくは、[実装の手順](../../workflow/using/building-a-workflow.md#implementation-steps-)を参照してください。
+* キャンペーンの作成：キャンペーンごとに、「**[!UICONTROL ワークフロー]**」タブを使用してターゲットを作成したり、配信を作成したりできます。詳しくは、[キャンペーンワークフロー](../../workflow/using/building-a-workflow.md#campaign-workflows)を参照してください。
+* テクニカルプロセスの実行：クリーンアップ、トラッキング情報の収集または試算。詳しくは、[テクニカルワークフロー](../../workflow/using/building-a-workflow.md#technical-workflows)を参照してください。
 
 ワークフローは、プロセス定義（想定される結果を表すワークフローモデル）と、このプロセスのインスタンス（実際に実行中の処理を表すワークフローインスタンス）の両方を意味します。
 
@@ -44,15 +44,15 @@ Adobe Campaign では、ワークフローを使用して次のことをおこ�
 
 各ワークフローには次が含まれます。
 
-* **[!UICONTROL Activities]**
+* **[!UICONTROL アクティビティ]**
 
-   アクティビティは、タスクテンプレートを図示したものです。使用可能な各種アクティビティは、ダイアグラム内にアイコンで示されます。各タイプは、共通のプロパティと固有のプロパティを持ちます。For example, while all activities have a name and label, only the **[!UICONTROL Approval]** activity has an assignment.
+   アクティビティは、タスクテンプレートを図示したものです。使用可能な各種アクティビティは、ダイアグラム内にアイコンで示されます。各タイプは、共通のプロパティと固有のプロパティを持ちます。例えば、すべてのアクティビティには共通して名前とラベルがありますが、「**[!UICONTROL 承認]**」アクティビティには固有の「割り当て」があります。
 
    ワークフローのダイアグラムでは、指定されたアクティビティが、特にループまたは繰り返し（定期的）アクションがある場合に複数のタスクを生成できます。
 
    すべてのワークフローアクティビティのリストは、使用例やサンプルとともに[この節](../../workflow/using/about-activities.md)で確認できます。
 
-* **[!UICONTROL Transitions]**
+* **[!UICONTROL トランジション]**
 
    トランジションを使用して、アクティビティをリンクし、アクティビティのシーケンスを定義できます。トランジションは、ソースアクティビティを宛先アクティビティにリンクします。ソースアクティビティに応じて、トランジションにはいくつかの種類があります。一部のトランジションには、期間や条件、フィルターなどの追加のパラメータがあります。
 
@@ -64,7 +64,7 @@ Adobe Campaign では、ワークフローを使用して次のことをおこ�
 
    ワークフローの構築方法について詳しくは、[この節](../../workflow/using/building-a-workflow.md)を参照してください。
 
-* **[!UICONTROL Worktables]**
+* **[!UICONTROL 作業用テーブル]**
 
    作業用テーブルには、トランジションによって実行されるすべての情報が含まれます。各ワークフローは、複数の作業用テーブルを使用します。作業用テーブルに伝達されたデータは、パージされない限り、ワークフローをスムースに処理するためにライフサイクル全体で使用されます。不要なテーブルは、ワークフローが休止状態になるたびにパージされます。また、最大のワークフローの実行中にサーバーの過負荷を回避する目的でパージされることがあります。
 

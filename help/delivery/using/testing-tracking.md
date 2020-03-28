@@ -14,7 +14,7 @@ discoiquuid: 4ed23249-4ecf-4e57-91b3-6fae1387bd6a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -29,8 +29,8 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 1. ミラーページ（MirrorPage）パーソナライゼーションブロックを E メールのコンテンツに追加します。
 1. リンクが含まれている配信をミラーページに送信します。
 1. この E メールを受信したら、開いてミラーページのリンクをクリックします。
-1. After you are correctly redirected to the mirror page, access the **Administration > Technical workflows** folder and open the **Tracking** workflow.
-1. Start the workflow, right click the **Scheduler** activity and select **Execute pending task now**.
+1. ミラーページに正しくリダイレクトされたら、**管理／テクニカルワークフロー**&#x200B;フォルダーにアクセスして、**トラッキング**&#x200B;ワークフローを開きます。
+1. ワークフローを開始して、**スケジューラー**&#x200B;アクティブティを右クリックし、「**保留中のタスクを今すぐ実行**」を選択します。
 1. 約 30 秒待ってから、「**監査**」タブを選択します。少なくとも 1 つのトラッキングログレコードがあることを確認します。
 
    新しいログが表示されていない場合は、「**更新**」をクリックします。
@@ -39,9 +39,9 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
    >[!NOTE]
    >
-   >The recipient&#39;s profile page is located in the **Profiles and Targets > Recipients** folder by default.
+   >受信者のプロファイルページは、デフォルトでは、**プロファイルとターゲット／受信者**&#x200B;フォルダーにあります。
 
-   To check the email log tracking, look for the values **Open** and **[!UICONTROL Email click]** in the **Type** column.
+   E メールログのトラッキングを確認するには、「**タイプ**」列で「**開く**」と「**[!UICONTROL E メールのクリック]**」という値を検索します。
 
-   If the open logs do not appear, go to the delivery and access its **Properties** to make sure that both **Activate tracking** and **[!UICONTROL Opens tracking]** options are checked.
+   開いているログが表示されない場合は、配信を開いて&#x200B;**プロパティ**&#x200B;にアクセスし、「**トラッキングを有効化**」と「**[!UICONTROL 開封数のトラッキング]**」の両方のオプションがオンになっていることを確認します。
 

@@ -14,7 +14,7 @@ discoiquuid: 66f2b229-92d9-4db1-97a4-2d9eb2270446
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -42,7 +42,7 @@ Adobe Campaign では、バイラルマーケティングを促進するツー�
 
 >[!NOTE]
 >
->デフォルトでは、このリンクはブロックリストに表示されません。これにアクセスするには、をクリック **[!UICONTROL Other...]**&#x200B;し、ブロックを選択 **[!UICONTROL Social network sharing links]** します。
+>デフォルトでは、このリンクはブロックリストに表示されません。このリンクにアクセスするには、「**[!UICONTROL その他]**」をクリックし、「**[!UICONTROL ソーシャルネットワーク共有リンク]**」ブロックを選択します。
 
 ![](assets/s_ncs_user_viral_add_link_via_others.png)
 
@@ -54,7 +54,7 @@ Adobe Campaign では、バイラルマーケティングを促進するツー�
 
 >[!NOTE]
 >
->このパーソナライゼーションブロックには、メッセージの送信やソーシャルネットワークでの共有をおこなうためのリンクが含まれます。ブロックの内容はニーズに合わせて変更できます。ただし、設定できるのは上級ユーザーに限られます。一致するパーソナライゼーションブロックを編集するには、Adobe Campaign **[!UICONTROL Resources > Campaign management > Personalization blocks]** ツリーのノードに移動します。
+>このパーソナライゼーションブロックには、メッセージの送信やソーシャルネットワークでの共有をおこなうためのリンクが含まれます。ブロックの内容はニーズに合わせて変更できます。ただし、設定できるのは上級ユーザーに限られます。対応するパーソナライゼーションブロックを編集するには、Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／キャンペーン管理／パーソナライゼーションブロック]**&#x200B;ノードに移動します。
 
 ## バイラルマーケティング：友人への転送 {#viral-marketing--forward-to-a-friend}
 
@@ -64,8 +64,8 @@ Adobe Campaign では、バイラルマーケティングを促進するツー�
 
 次のような流れになります。
 
-1. オリジナルメ **[!UICONTROL Social network sharing links]** ッセージの本文にパーソナライゼーションブロックを追加します。
-1. The message recipient can click the **[!UICONTROL Email]** icon to send this message to one or more friends.
+1. メッセージの本文に「**[!UICONTROL ソーシャルネットワーク共有リンク]**」パーソナライゼーションブロックを追加します。
+1. メッセージの受信者は、**[!UICONTROL E メール]**&#x200B;アイコンをクリックして、このメッセージを 1 人以上の友人に送信できます。
 
    ![](assets/s_ncs_user_viral_email_link.png)
 
@@ -73,13 +73,13 @@ Adobe Campaign では、バイラルマーケティングを促進するツー�
 
    ![](assets/s_ncs_user_viral_email_msg.png)
 
-   The message is sent to them when the main recipient clicks the **[!UICONTROL Next]** button.
+   メッセージの受信者が「**[!UICONTROL 次へ]**」ボタンをクリックすると、メッセージが送信されます。
 
    >[!NOTE]
    >
-   >このメッセージのコンテンツは、ニーズに合わせてパーソナライズできます。このテンプレートは、ノードに保 **[!UICONTROL Transfer of original message]** 存されているテンプレートに基づいて作成さ **[!UICONTROL Administration > Campaign management > Technical delivery templates]** れます。
+   >このメッセージのコンテンツは、ニーズに合わせてパーソナライズできます。このメッセージは、**[!UICONTROL 元のメッセージを転送]**&#x200B;テンプレートをベースとして作成されます。このテンプレートは、**[!UICONTROL 管理／キャンペーン管理／テクニカル配信テンプレート]**&#x200B;ノードに保存されています。
    >
-   >It is also possible to change the message forward form made available to the referrer To do this, you need to change the **Viral form** Web application stored in the **[!UICONTROL Resources > Online > Web applications]** node.
+   >メッセージ転送フォームを変更して、被転送者が使用できるようにすることも可能です。そのためには、**[!UICONTROL リソース／オンライン／Web アプリケーション]**&#x200B;ノードに保存されている&#x200B;**共有用のフォーム** Web アプリケーションを変更する必要があります。
 
 1. 転送されたメッセージ内には、被転送者が自分のプロファイルをデータベースに保存できるリンクが含まれており、そのためのフォームが表示されます。
 
@@ -87,11 +87,11 @@ Adobe Campaign では、バイラルマーケティングを促進するツー�
 
    >[!NOTE]
    >
-   >この設定はカスタマイズできます。To do this, you need to modify the **Recipient subscription** Web application stored in the **[!UICONTROL Resources > Online > Web applications]** node.
+   >この設定はカスタマイズできます。そのためには、**[!UICONTROL リソース／オンライン／Web アプリケーション]**&#x200B;ノードに保存されている&#x200B;**受信者を登録** Web アプリケーションを変更する必要があります。
    >
    >Web アプリケーションについて詳しくは、[この節](../../web/using/about-web-applications.md)を参照してください。
 
-   被転送者が承認すると、確認メッセージが送信されます。確認メッセージ内のリンクを有効化すると、被転送者の情報が登録されます。このメッセージは、ノードに保存され **[!UICONTROL Registration confirmation]** ているテンプレートに基づいて作成さ **[!UICONTROL Administration > Campaign management > Technical delivery templates]** れます。
+   被転送者が承認すると、確認メッセージが送信されます。確認メッセージ内のリンクを有効化すると、被転送者の情報が登録されます。このメッセージは、**[!UICONTROL 登録の確認]**&#x200B;テンプレートをベースとして作成されます。このテンプレートは、**[!UICONTROL 管理／キャンペーン管理／テクニカル配信テンプレート]**&#x200B;ノードに保存されています。
 
    被転送者がデータベースの&#x200B;**受信者**&#x200B;フォルダーに追加され、（デフォルトでは）**ニュースレター**&#x200B;情報サービスに購読登録されます。
 
@@ -99,11 +99,11 @@ Adobe Campaign では、バイラルマーケティングを促進するツー�
 
 共有と、共有された情報へのアクセスがトラッキングされます。Adobe Campaign が収集するこの情報には、次の 2 つの場所でアクセスできます。
 
-* in the **[!UICONTROL Tracking]** tab of the delivery (or individually for each recipient):
+* （個別または受信者ごとの）配信の「**[!UICONTROL トラッキング]**」タブ
 
    ![](assets/s_ncs_user_network_del_tracking_tab.png)
 
-* 専用のレポート **[!UICONTROL Sharing to social networks]** では：
+* 専用の&#x200B;**[!UICONTROL ソーシャルネットワークへの共有アクティビティ]**&#x200B;レポート
 
    ![](assets/s_ncs_user_viral_report.png)
 

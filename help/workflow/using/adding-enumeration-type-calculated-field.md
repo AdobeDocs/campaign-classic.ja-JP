@@ -1,6 +1,6 @@
 ---
 title: 列挙タイプ計算フィールドの追加
-description: 列挙型の計算済みフィールドを追加する方法を説明します。
+description: 列挙タイプ計算フィールドの追加方法を説明します。
 page-status-flag: never-activated
 uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
 # 列挙タイプ計算フィールドの追加 {#adding-an-enumeration-type-calculated-field}
 
-Here we want to create a query with an **[!UICONTROL Enumerations]** type calculated field. このフィールドでは、データのプレビューウィンドウに追加の列が生成されます。この列では、各受信者について結果として返される数値（0、1 および 2）を指定します。新しい列の各値に性別が割り当てられます。&quot;1&quot;は&quot;Male&quot;、&quot;2&quot;は&quot;Female&quot;、&quot;0&quot;と等しい場合は&quot;Not indicated&quot;です。
+ここでは、「**[!UICONTROL 列挙]**」タイプの計算フィールドを使用してクエリを作成します。このフィールドでは、データのプレビューウィンドウに追加の列が生成されます。この列では、各受信者について結果として返される数値（0、1 および 2）を指定します。新しい列の各値に性別を割り当てます。「1」は「男性」、「2」は「女性」、値が「0」の場合は「不明」です。
 
 * どのテーブルを選択する必要がありますか。
 
@@ -37,40 +37,40 @@ Here we want to create a query with an **[!UICONTROL Enumerations]** type calcul
 次の手順に従います。
 
 1. 汎用クエリエディターを開き、受信者テーブル（**[!UICONTROL nms:recipient]**）を選択します。
-1. ウィンドウ **[!UICONTROL Data to extract]** で、とを選 **[!UICONTROL Last name]**&#x200B;択し **[!UICONTROL First name]** ます **[!UICONTROL Gender]**。
+1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL 姓]**」、「**[!UICONTROL 名]**」および「**[!UICONTROL 性別]**」を選択します。
 
    ![](assets/query_editor_nveau_73.png)
 
-1. In the **[!UICONTROL Sorting]** window, click **[!UICONTROL Next]**: no sort is necessary for this example.
-1. で、を **[!UICONTROL Data filtering]**&#x200B;選択しま **[!UICONTROL Filtering conditions]**&#x200B;す。
-1. In the **[!UICONTROL Target element]** window, set a filter condition to collect recipients who speak English.
+1. **[!UICONTROL 並べ替え]**&#x200B;ウィンドウで、「**[!UICONTROL 次へ]**」をクリックします。この例では並べ替えは必要ありません。
+1. **[!UICONTROL データのフィルター]**&#x200B;で、「**[!UICONTROL フィルター条件]**」を選択します。
+1. **[!UICONTROL ターゲット要素]**&#x200B;ウィンドウで、英語を話す受信者を収集するフィルター条件を設定します。
 
    ![](assets/query_editor_nveau_74.png)
 
-1. ウィンドウで、 **[!UICONTROL Data formatting]** をクリックしま **[!UICONTROL Add a calculated field]**&#x200B;す。
+1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、**[!UICONTROL 計算フィールドを追加]**&#x200B;をクリックします。
 
    ![](assets/query_editor_nveau_75.png)
 
-1. ウィンドウのウ **[!UICONTROL Type]** ィンドウに移動し、 **[!UICONTROL Export calculated field definition]** を選択しま **[!UICONTROL Enumerations]**&#x200B;す。
+1. **[!UICONTROL 計算済みフィールドの定義をエクスポート]**&#x200B;ウィンドウの「**[!UICONTROL タイプ]**」フィールドに移動し、「**[!UICONTROL 列挙]**」を選択します。
 
-   新しい計算フィールドで参照する列を定義します。To do this, select the **[!UICONTROL Gender]** column in the drop-down menu of the **[!UICONTROL Source column]** field: the destination values will coincide with the **[!UICONTROL Gender]** column.
+   新しい計算フィールドで参照する列を定義します。そのためには、「**[!UICONTROL ソース列]**」フィールドのドロップダウンメニューで「**[!UICONTROL 性別]**」列を選択します。宛先の値は「**[!UICONTROL 性別]**」列と一致します。
 
    ![](assets/query_editor_nveau_76.png)
 
    「**ソース**」および「**宛先**」の値を定義します。宛先の値によってクエリ結果が読みやすくなります。このクエリは受信者の性別を返し、結果は 0、1 または 2 のいずれかになります。
 
-   「source-destination」行を入力するたびに、次の行をクリ **[!UICONTROL Add]** ックしま **[!UICONTROL List of enumeration values]**&#x200B;す。
+   入力する「ソース - 宛先」のラインごとに、「**[!UICONTROL 列挙値のリスト]**」で「**[!UICONTROL 追加]**」をクリックします。
 
-   * In the **[!UICONTROL Source]** column, enter the source value for each gender (0,1,2) in a new line.
-   * 列に、次 **[!UICONTROL Destination]** の値を入力します。行「0」の「未指定」、行「1」の「男性」、行「2」の「女性」。
-   関数を選択 **[!UICONTROL Keep the source value]** します。
+   * 「**[!UICONTROL ソース]**」列で、新しいラインに各性別のソースの値（0、1、2）を入力します。
+   * 「**[!UICONTROL 宛先]**」列で、値を入力します。ライン「0」に &quot;不明&quot;、ライン「1」に &quot;男性&quot;、ライン「2」に &quot;女性&quot; と入力します。
+   「**[!UICONTROL ソースの値を保持]**」機能を選択します。
 
    「**[!UICONTROL OK]**」をクリックして計算フィールドを承認します。
 
    ![](assets/query_editor_nveau_77.png)
 
-1. ウィンドウで、 **[!UICONTROL Data formatting]** をクリックしま **[!UICONTROL Next]**&#x200B;す。
-1. プレビューウィンドウで、を選択しま **[!UICONTROL start the preview of the data]**&#x200B;す。
+1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、「**[!UICONTROL 次へ]**」をクリックします。
+1. プレビューウィンドウで、「**[!UICONTROL データのプレビューを開始]**」をクリックします。
 
    追加の列で 0、1 および 2 の性別が定義されます。
 
@@ -79,10 +79,10 @@ Here we want to create a query with an **[!UICONTROL Enumerations]** type calcul
    * 2 は「女性」
    ![](assets/query_editor_nveau_78.png)
 
-   例えば、に性別「2」を入力せず、フィールドの機能が選択さ **[!UICONTROL List of enumeration values]**&#x200B;れている場 **[!UICONTROL Generate a warning and continue]** 合、警 **[!UICONTROL In other cases]** 告ログが表示されます。 このログは、性別「2」（女性）が入力されていないことを示します。データプレビューウィンドウの **[!UICONTROL Logs generated during export]** フィールドに表示されます。
+   例えば、「**[!UICONTROL 列挙値のリスト]**」で性別「2」を入力せず、「**[!UICONTROL 他のケースの場合]**」フィールドで「**[!UICONTROL 警告を生成して続行]**」機能を選択した場合、警告ログが生成されます。このログは、性別「2」（女性）が入力されていないことを示します。ログは、データのプレビューウィンドウの「**[!UICONTROL エクスポート中に生成されたログ]**」フィールドに表示されます。
 
    ![](assets/query_editor_nveau_79.png)
 
-   もう 1 つの例では、列挙値「2」が入力されていないとします。関数を選択し **[!UICONTROL Generate an error and reject the line]** ます。すべての性別「2」の受信者は、異常値や、行内の他の情報（姓と名など）を引き上げます。はエクスポートされません。 An error log is displayed in the **[!UICONTROL Logs generated during export]** field of the data preview window. このログは、列挙値「2」が入力されていないことを示します。
+   もう 1 つの例では、列挙値「2」が入力されていないとします。「**[!UICONTROL エラーを生成してラインを却下]**」機能を選択します。すべての性別「2」の受信者で例外が発生し、ライン内の他の情報（名と姓など）はエクスポートされません。エラーログは、データのプレビューウィンドウの「**[!UICONTROL エクスポート中に生成されたログ]**」フィールドに表示されます。このログは、列挙値「2」が入力されていないことを示します。
 
    ![](assets/query_editor_nveau_80.png)

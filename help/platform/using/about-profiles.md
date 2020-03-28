@@ -14,7 +14,7 @@ discoiquuid: 5addada8-0185-488f-9825-83f60981c139
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
 
 ---
@@ -44,45 +44,45 @@ Adobe Campaign では、作成、インポート、ターゲティング、ア�
 
 >[!NOTE]
 >
->To find out how files and web forms are imported, refer to [Generic imports and exports](../../platform/using/generic-imports-and-exports.md).
+>ファイルおよび Web フォームのインポート方法を確認するには、[一般的なインポートおよびエクスポート](../../platform/using/generic-imports-and-exports.md)を参照してください。
 
 ## プロファイルとターゲット {#profiles-and-targets}
 
-The **[!UICONTROL Profiles and targets]** link lets you display recipients stored in Adobe Campaign database. 新規受信者の作成、既存の受信者の編集およびそのプロファイルへのアクセスをおこなうことができます。詳しくは、[このページ](../../platform/using/editing-a-profile.md)を参照してください。
+「**[!UICONTROL プロファイルとターゲット]**」リンクをクリックすると、Adobe Campaign データベースに保存されている受信者を表示できます。新規受信者の作成、既存の受信者の編集およびそのプロファイルへのアクセスをおこなうことができます。詳しくは、[このページ](../../platform/using/editing-a-profile.md)を参照してください。
 
 ![](assets/d_ncs_user_interface_target_link.png)
 
 次のものにアクセスすることもできます。
 
-* リスト；詳しく [は、リストの作成と管理](../../platform/using/creating-and-managing-lists.md)、
+* リスト：[リストの作成および管理](../../platform/using/creating-and-managing-lists.md)を参照してください。
 * 購読サービス：[このページ](../../delivery/using/managing-subscriptions.md)を参照してください。
 * Web アプリケーション：[このページ](../../web/using/about-web-applications.md)を参照してください。
-* 輸出入（ジョブ）一般的なイ [ンポートとエクスポートを参照](../../platform/using/generic-imports-and-exports.md)。
+* インポートおよびエクスポート（ジョブ）：[一般的なインポートおよびエクスポート](../../platform/using/generic-imports-and-exports.md)を参照してください。
 * ターゲティングワークフロー：[このページ](../../workflow/using/building-a-workflow.md#implementation-steps-)を参照してください。
 
 受信者ページでは、編集、更新、追加、削除、並べ替えなど、頻繁におこなう操作をプロファイルに対して実行できます。
 
-プロファイルをより詳細に操作するには、Adobe Campaign ツリーを編集する必要があります。To do this, click the **[!UICONTROL Explorer]** link on the Adobe Campaign home page.
+プロファイルをより詳細に操作するには、Adobe Campaign ツリーを編集する必要があります。そのためには、Adobe Campaign のホームページで「**[!UICONTROL エクスプローラー]**」リンクをクリックします。
 
-デフォルトでは、受信者はツリーのノード **[!UICONTROL Profiles and Targets > Recipients]** に保存されます。 このビューでは、受信者の作成のほか、次の操作を実行できます。
+デフォルトでは、受信者はツリーの&#x200B;**[!UICONTROL プロファイルとターゲット／受信者]**&#x200B;ノードに保存されています。このビューでは、受信者の作成のほか、次の操作を実行できます。
 
-* sort and filter the profiles of the database; see [Filtering options](../../platform/using/filtering-options.md),
-* move, copy or delete profiles from the database; see [Managing profiles](../../platform/using/managing-profiles.md),
-* プロファイルの更新；データ [の更新、](../../platform/using/updating-data.md)
-* 受信者のエクスポート；詳しくは、 [プロファイルの書き出しと読み込み](../../platform/using/exporting-and-importing-profiles.md)、
-* 受信者グループの作成；詳しくは、 [リストの作成と管理を参照してください](../../platform/using/creating-and-managing-lists.md)。
+* データベースのプロファイルの並べ替えおよびフィルター：[フィルターオプション](../../platform/using/filtering-options.md)を参照してください。
+* データベースからのプロファイルの移動、コピーまたは削除：[プロファイルの管理](../../platform/using/managing-profiles.md)を参照してください。
+* プロファイルの更新：[データの更新](../../platform/using/updating-data.md)を参照してください。
+* 受信者のエクスポート：[プロファイルのエクスポートとインポート](../../platform/using/exporting-and-importing-profiles.md)を参照してください。
+* 受信者グループの作成：[リストの作成および管理](../../platform/using/creating-and-managing-lists.md)を参照してください。
 
-To access advanced functionalities and configurations, you need to click the **[!UICONTROL Explorer]** icon.
+高度な機能および設定にアクセスするには、「**[!UICONTROL エクスプローラー]**」アイコンをクリックする必要があります。
 
 ![](assets/d_ncs_user_interface01.png)
 
-Adobe Campaignエクスプローラーの一般的なレイアウトは、「Adobe Campaignエクスプ [ローラーの使用](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)」です。
+Adobe Campaign エクスプローラーの一般的なレイアウトについては、[Adobe Campaign エクスプローラーの使用](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)で説明しています。
 
 >[!NOTE]
 >
->You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. リスト表示は、ニーズに合わせて設定できます。列の追加または削除、列の順序の定義、データの並べ替えなどを行うことができます。 リスト表示の設定については、Adobe Campaignエクスプ [ローラーの使用を参照してくださ](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)い。
+>**[!UICONTROL プロファイルとターゲット／受信者]**&#x200B;リンクをクリックして、Adobe Campaign ツリーからこのリストの詳細ビューを表示することもできます。リスト表示は、ニーズに合わせて設定できます。列の追加または削除、列の順序の定義、データの並べ替えなどをおこなうことができます。リストの表示設定は、[Adobe Campaign エクスプローラーの使用](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)で説明しています。
 >
->受信者ビューを定義することもできます。この機能の詳細については、「フォルダとビュー」を [参照してください](../../platform/using/access-management.md#folders-and-views)。
+>受信者ビューを定義することもできます。この機能について詳しくは、[フォルダーとビュー](../../platform/using/access-management.md#folders-and-views)を参照してください。
 
 ## アクティブなプロファイル {#active-profiles}
 
@@ -96,8 +96,8 @@ Adobe Campaignエクスプローラーの一般的なレイアウトは、「Ado
 >
 >ただし、Facebook および Twitter チャネルは考慮されません。
 
-の概要は、メニューから確 **[!UICONTROL Number of active profiles]** 認でき **[!UICONTROL Administration > Campaign Management > Customer metrics]** ます。
+**[!UICONTROL アクティブなプロファイルの数]**&#x200B;の概要は、**[!UICONTROL 管理／キャンペーン管理／顧客指標]**&#x200B;メニューから表示できます。
 
-The actual count is performed by the **[!UICONTROL Number of active billing profiles]** (**[!UICONTROL billingActiveContactCount]**) [technical workflow](../../workflow/using/delivery.md), which runs every day and adds the new data to the existing report for the current period in the **[!UICONTROL Customer metrics]** menu. 各期間は 12 ヶ月続きます。
+実際のカウントは、**[!UICONTROL アクティブな請求プロファイルの数]**（**[!UICONTROL billingActiveContactCount]**）[テクニカルワークフロー](../../workflow/using/delivery.md)がおこないます。このワークフローは毎日実行され、新しいデータを&#x200B;**[!UICONTROL 顧客指標]**&#x200B;メニューの現在の期間に対する既存のレポートに追加します。各期間は 12 ヶ月続きます。
 
 配信の準備中に（タイポロジルール、強制隔離によって）除外されたプロファイルは、考慮されません。プロファイルは、複数の配信のターゲットになっていても一度しかカウントされません。

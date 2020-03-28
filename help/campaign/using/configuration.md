@@ -14,7 +14,7 @@ discoiquuid: ed4afa5e-c184-4c8e-a086-41d87b863190
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d30de91002862b664249c5a704b7c0f521dd30f2
 
 ---
@@ -66,18 +66,18 @@ source-git-commit: d30de91002862b664249c5a704b7c0f521dd30f2
 
 購入テーブルスキーマへのリンクを追加するために、**[!UICONTROL nms:remaMatchRcp]** 受信者の反応ログのテーブルを拡張します。以下の例では、購入テーブルを **demo:purchase** と呼びます。
 
-1. Adobe Campaignエクスプローラーで、//を選 **[!UICONTROL Administration]** 択し **[!UICONTROL Campaign management]** ます **[!UICONTROL Target mappings]**。
-1. 「 **Recipient** 」を右クリックし、「 **[!UICONTROL Actions]** 」と「」を選択しま **[!UICONTROL Modify the options of the targeting dimensions]**&#x200B;す。
+1. Adobe Campaign エクスプローラーで、**[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL ターゲットマッピング]**&#x200B;を選択します。
+1. **受信者**&#x200B;を右クリックし、**[!UICONTROL アクション]**／**[!UICONTROL ターゲティングディメンションのオプションを変更]**&#x200B;を選択します。
 
    ![](assets/delivery_mapping1.png)
 
-1. You can personalize the **[!UICONTROL Extension namespace]** in the next window, then click **[!UICONTROL Next]**.
+1. 次のウィンドウで「**[!UICONTROL 拡張名前空間]**」をパーソナライズできます。パーソナライズしたら、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/delivery_mapping2.png)
 
-1. カテゴリ **[!UICONTROL Response management]** で、ボックスがチェック済みであるこ **[!UICONTROL Generate a storage schema for reactions]** とを確認します。
+1. 「**[!UICONTROL 反応管理]**」カテゴリで、「**[!UICONTROL 反応のストレージスキーマを生成]**」ボックスがオンになっていることを確認します。
 
-   Then click **[!UICONTROL Define additional fields...]** to select the related transaction tables and add the desired fields to the extension of the nms:remaMatchRcp schema.
+   その後、「**[!UICONTROL 追加フィールドを指定...]**」をクリックし、関連するトランザクションテーブルを選択して、nms:remaMatchRcp スキーマの拡張にフィールドを追加します。
 
    ![](assets/delivery_mapping3.png)
 
@@ -132,7 +132,7 @@ name="remaMatchRcp" namespace="cus">
    </srcSchema>
    ```
 
-* Modifying the hypothesis form in the **[!UICONTROL nms:remaHypothesis]** schema.
+* **[!UICONTROL nms:remaHypothesis]** スキーマの仮説フォームを修正する。
 
    デフォルトでは、反応ログのリストは受信者ログに表示されます。上述の手順で作成した新しい反応ログを表示するには、仮説フォームを修正する必要があります。
 

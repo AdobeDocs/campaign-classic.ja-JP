@@ -14,7 +14,7 @@ discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -28,13 +28,13 @@ Adobe Campaign には、顧客または（例えば、ターゲティング操�
 
 >[!NOTE]
 >
->Exports and imports are configured in dedicated templates executed through workflows via the **[!UICONTROL Import]** and **[!UICONTROL Export]** activities. これらのキャンペーンは、例えば複数の情報システム間でデータ交換を自動化するために、スケジュールに従って自動的に繰り返すことができます。必要に応じて、Adobe Campaignツリーのノードを介して、インポートやエクスポ **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** ートをときどき作成できます。
+>エクスポートとインポートは、ワークフローで「**[!UICONTROL インポート]**」アクティビティおよび「**[!UICONTROL エクスポート]**」アクティビティ経由で実行される専用のテンプレートで設定します。これらのキャンペーンは、例えば複数の情報システム間でデータ交換を自動化するために、スケジュールに従って自動的に繰り返すことができます。必要に応じて、Adobe Campaign ツリーの&#x200B;**[!UICONTROL プロファイルとターゲット／ジョブ／一般的なインポートおよびエクスポート]**&#x200B;ノードを使用して、不定期のインポートまたはエクスポートを作成できます。
 
 次の操作をおこなうことができます。
 
 * インポートまたはエクスポートテンプレートを作成して設定します（以下を参照）。
-* インポートまたはエクスポートの作成：詳しくは、データのエク [スポートまたはデータのインポ](../../platform/using/exporting-data.md) ートを参照してくださ [](../../platform/using/importing-data.md)い。
-* インポートまたはエクスポートを起動し、実行を監視します。 詳しくは、実行トラッ [キングを参照してください](#execution-tracking)。
+* インポートまたはエクスポートの作成については、[データのエクスポート](../../platform/using/exporting-data.md)または[データのインポート](../../platform/using/importing-data.md)を参照してください。
+* インポートまたはエクスポートを開始して、その実行を監視します。[実行のトラッキング](#execution-tracking)を参照してください。
 
 >[!CAUTION]
 >
@@ -42,21 +42,21 @@ Adobe Campaign には、顧客または（例えば、ターゲティング操�
 
 ## ジョブテンプレートの作成 {#creating-a-job-template}
 
-Import and export templates are stored in the **[!UICONTROL Resources > Templates > Job templates]** directory of the Adobe Campaign tree.
+インポートおよびエクスポートテンプレートは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／テンプレート／ジョブテンプレート]**&#x200B;ディレクトリに保存されています。
 
 ![](assets/s_ncs_user_export_wizard_template.png)
 
-このディレクトリには、デフォルトで 3 つのインポートテンプレートと 1 つのエクスポートテンプレートがあります。これらを変更することはできません。You can duplicate them to create your own templates or create a new template via the **[!UICONTROL New > Import template]** / **[!UICONTROL Export template]** menu.
+このディレクトリには、デフォルトで 3 つのインポートテンプレートと 1 つのエクスポートテンプレートがあります。これらを変更することはできません。これらを複製して独自のテンプレートを作成するか、**[!UICONTROL 新規／インポートテンプレート]**&#x200B;または&#x200B;**[!UICONTROL エクスポートテンプレート]**&#x200B;メニューを使用して新しいテンプレートを作成できます。
 
 ![](assets/s_ncs_user_export_wizard_template_create.png)
 
-プロセステンプレートの作成手順は、エクスポートウィザードとインポ [ートウィザ](../../platform/using/exporting-data.md#export-wizard) ードで [表示されます](../../platform/using/importing-data.md#import-wizard)。
+プロセステンプレートの作成手順は、[エクスポートウィザード](../../platform/using/exporting-data.md#export-wizard)および[インポートウィザード](../../platform/using/importing-data.md#import-wizard)で説明しています。
 
 >[!NOTE]
 >
->The native template **[!UICONTROL Import blacklist]** is already configured to import a list of blacklisted e-mail addresses.
+>ネイティブテンプレートの「**[!UICONTROL ブラックリストをインポート]**」は、ブラックリストに登録されている E メールアドレスのリストをインポートするように設定されています。
 > 
->テンプレ **[!UICONTROL New text import]** ートとテ **[!UICONTROL New text export]** ンプレートを使用して、新規に読み込みまたは書き出しを設定できます。
+>「**[!UICONTROL 新しいテキストのインポート]**」および「**[!UICONTROL 新しいテキストのエクスポート]**」テンプレートを使用して、インポートまたはエクスポートをゼロから設定することができます。
 
 ## 新しいインポート／エクスポートの作成 {#creating-a-new-import-export}
 
@@ -64,9 +64,9 @@ Import and export templates are stored in the **[!UICONTROL Resources > Template
 
 いずれの操作でも、[インポート](../../platform/using/importing-data.md)または[エクスポート](../../platform/using/exporting-data.md#export-wizard)ウィザードが開きます。
 
-* In the **[!UICONTROL Profiles and targets]** section of Adobe Campaign workspace, click the **[!UICONTROL Jobs]** link: this takes you to the list of existing imports and exports.
+* Adobe Campaign ワークスペースの「**[!UICONTROL プロファイルとターゲット]**」セクションで、「**[!UICONTROL ジョブ]**」リンクをクリックします。これにより、既存のインポートおよびエクスポートのリストが表示されます。
 
-   Click the **[!UICONTROL Create]** button and select the type of job you want to perform.
+   「**[!UICONTROL 作成]**」ボタンをクリックして、実行するジョブのタイプを選択します。
 
    ![](assets/s_ncs_user_import_from_home.png)
 
@@ -76,7 +76,7 @@ Import and export templates are stored in the **[!UICONTROL Resources > Template
 
 * インポートおよびエクスポートは、Adobe Campaign エクスプローラーから開始することもできます。
 
-   データを書き出し/読み込むには、ノードをク **[!UICONTROL Profiles and Targets > Jobs > Generic imports and exports]** リックし、アイコンをク **[!UICONTROL New]** リックして、またはを選 **[!UICONTROL Export]** 択しま **[!UICONTROL Import]**&#x200B;す。 これにより、適切なウィザードが開きます。
+   データをエクスポートまたはインポートするには、**[!UICONTROL プロファイルとターゲット／ジョブ／一般的なインポートおよびエクスポート]**&#x200B;ノードをクリックしてから&#x200B;**[!UICONTROL 新規]**&#x200B;アイコンをクリックし、「**[!UICONTROL エクスポート]**」または「**[!UICONTROL インポート]**」を選択します。これにより、適切なウィザードが開きます。
 
    ![](assets/s_ncs_user_export_wizard_launch_from_menu.png)
 
@@ -86,10 +86,10 @@ Import and export templates are stored in the **[!UICONTROL Resources > Template
 
 ![](assets/s_ncs_user_export_list_and_details.png)
 
-* The **[!UICONTROL Log]** tab lets you look at log messages concerning execution.
-* The **[!UICONTROL Rejects]** tab contains the rejected records. See [Behavior in the event of an error](../../platform/using/importing-data.md#behavior-in-the-event-of-an-error).
+* 「**[!UICONTROL ジャーナル]**」タブでは、実行に関するログメッセージを確認できます。
+* 「**[!UICONTROL 却下]**」タブには、却下されたレコードが表示されます。[エラーの場合の動作](../../platform/using/importing-data.md#behavior-in-the-event-of-an-error)を参照してください。
 
 >[!NOTE]
 >
->Import/export job statuses are presented in [Job statuses](../../platform/using/importing-data.md#job-statuses).
+>インポートまたはエクスポートジョブのステータスについて詳しくは、](../../platform/using/importing-data.md#job-statuses)ジョブステータス[で説明しています。
 

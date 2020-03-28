@@ -14,7 +14,7 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ---
@@ -27,16 +27,16 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 >[!NOTE]
 >
->レビュー担当者が承認に対して適切な権限を持っていることを確認する必要があります。 また、セキュリティゾーンが正しく定義されていることも確認してください。
+>承認をおこなうための適切な権限がレビュー担当者に付与されていることを確認する必要があります。また、セキュリティゾーンが正しく定義されていることも確認してください。
 
 承認リクエストを通知するために、レビュー担当者として指定されている Adobe Campaign オペレーターに通知 E メールが送信されます。
 
-承認手順は、「配信の確認と承 [認」に示されます](#checking-and-approving-deliveries)。
+承認手順については、[配信の確認と承認](#checking-and-approving-deliveries)で説明しています。
 
 >[!NOTE]
 >
->配信のオーナーのみが配信を開始できます。In order for another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the **[!UICONTROL Delivery start:]** field.\
->「レビュー担当者の選 [択」も参照](#selecting-reviewers)。
+>配信のオーナーのみが配信を開始できます。別のオペレーター（またはオペレーターグループ）が配信を開始できるようにするには、レビュー担当者として「**[!UICONTROL 配信開始：]**」フィールドに追加する必要があります。\
+>[レビュー担当者の選択](#selecting-reviewers)も参照してください。
 
 ### 動作の仕組み {#operating-principle-}
 
@@ -52,7 +52,7 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ![](assets/s_user_validation_link_in_op_board.png)
 
-The information is also available in the approval logs of the campaign (Accessed via the **[!UICONTROL Edit > Tracking > Approvals]** tab):
+この情報は、キャンペーンの承認ログにも表示されます（**[!UICONTROL 編集／監査／「承認」]**&#x200B;タブからアクセス）。
 
 ![](assets/s_user_validation_log_in_op_edit_tab.png)
 
@@ -60,9 +60,9 @@ The information is also available in the approval logs of the campaign (Accessed
 
 承認は、キャンペーンテンプレート、個々の各キャンペーンまたは配信に対して有効にできます。
 
-承認が必要なジョブは、承認を担当する演算子と同様に、キャンペーンテンプレートですべて選択されます(「> **[!UICONTROL Properties]** > **[!UICONTROL Advanced campaign settings...]****[!UICONTROL Approvals]** 」タブ)（このオプションが有効になっていない場合は、通知を受け取ります）。 For more on this, refer to [Approving processes](#approving-processes).
+承認を必要とするすべてのジョブをキャンペーンテンプレート内で選択します（**[!UICONTROL プロパティ]**／**[!UICONTROL キャンペーンの詳細設定...]**／「**[!UICONTROL 承認]**」タブ）。承認を担当するオペレーターも選択します（このオプションが無効でない限り、このオペレーターが通知を受け取ります）。詳しくは、[プロセスの承認](#approving-processes)を参照してください。
 
-These settings can be overridden for each campaign created using this template, and individually for each campaign delivery: click the **[!UICONTROL Properties]** button, then the **[!UICONTROL Approvals]** tab.
+これらの設定は、このテンプレートを使用して作成されたキャンペーンごとまたはキャンペーンの配信ごとに個別に上書きできます。「**[!UICONTROL プロパティ]**」ボタンをクリックし、「**[!UICONTROL 承認]**」タブをクリックします。
 
 次の例では、配信コンテンツに承認は必要ありません。
 
@@ -70,17 +70,17 @@ These settings can be overridden for each campaign created using this template, 
 
 ### レビュー担当者の選択 {#selecting-reviewers}
 
-承認のタイプごとに、承認を担当するオペレーターまたはオペレーターグループを配信のドロップダウンリストから選択します。Additional operators can be added using the **[!UICONTROL Edit...]** link. このウィンドウでは承認期日を編集することもできます。
+承認のタイプごとに、承認を担当するオペレーターまたはオペレーターグループを配信のドロップダウンリストから選択します。「**[!UICONTROL 編集...]**」リンクを使用して、オペレーターを追加できます。このウィンドウでは承認期日を編集することもできます。
 
 ![](assets/s_user_validation_add_operator.png)
 
-レビュー担当者を指定しない場合は、キャンペーンマネージャーが承認を担当し、通知を受け取ります。The campaign manager is specified in the **[!UICONTROL Edit > Properties]** tab of the campaign:
+レビュー担当者を指定しない場合は、キャンペーンマネージャーが承認を担当し、通知を受け取ります。キャンペーンマネージャーは、キャンペーンの&#x200B;**[!UICONTROL 編集／「プロパティ」]**&#x200B;タブで指定します。
 
 ![](assets/s_user_op_manager_field.png)
 
 >[!NOTE]
 >
->All other Adobe Campaign operators with **[!UICONTROL Administrator]** rights can also approve jobs, but they will not receive notifications.\
+>**[!UICONTROL 管理者]**&#x200B;権限を持つその他すべての Adobe Campaign オペレーターもジョブを承認できますが、通知は受け取りません。\
 >デフォルトでは、承認オペレーターが定義されている場合に、キャンペーンマネージャーが承認を実行したり、配信を開始することはできません。この動作を変更し、キャンペーンマネージャーによる配信の承認または開始を許可するには、**NmsCampaign_Activate_OwnerConfirmation** オプションを **1** の値で作成します。
 
 ### 承認モード {#approval-modes}
@@ -91,7 +91,7 @@ These settings can be overridden for each campaign created using this template, 
 
 ![](assets/s_user_validation_from_console.png)
 
-承認する情報を確認し、承認するか却下するかを選択し、必要に応じてコメントを入力します。Click **[!UICONTROL Ok]** to save.
+承認する情報を確認し、承認するか却下するかを選択し、必要に応じてコメントを入力します。「**[!UICONTROL OK]**」をクリックして保存します。
 
 >[!NOTE]
 >
@@ -99,15 +99,15 @@ These settings can be overridden for each campaign created using this template, 
 
 #### 通知メッセージからの承認 {#approval-via-notification-messages}
 
-Click the link available in the notification message (see [Notifications](#notifications)). 以下に示すように、ログイン名およびパスワードを入力するように求められます。
+通知メッセージに表示されるリンクをクリックします（[通知](#notifications)を参照）。以下に示すように、ログイン名およびパスワードを入力するように求められます。
 
 ![](assets/s_user_validation__log_in.png)
 
-Select **[!UICONTROL Accept]** or **[!UICONTROL Reject]** and enter a comment if necessary.
+「**[!UICONTROL 許可]**」または「**[!UICONTROL 却下]**」を選択し、必要に応じてコメントを入力します。
 
 ![](assets/s_user_validation_save_target_validation.png)
 
-クリック **[!UICONTROL Validate]**.
+「**[!UICONTROL ターゲットの承認]**」をクリックします。
 
 >[!NOTE]
 >
@@ -117,19 +117,19 @@ Select **[!UICONTROL Accept]** or **[!UICONTROL Reject]** and enter a comment if
 
 この情報は数か所に表示されます。
 
-* キャンペーン承認ログで、 **[!UICONTROL Approvals]** タブのサブタブを選択し **[!UICONTROL Edit > Tracking]** ます。
+* キャンペーン承認ログでは、**[!UICONTROL 編集／「監査」]**&#x200B;タブの「**[!UICONTROL 承認]**」サブタブに表示されます。
 
    ![](assets/s_user_validation_log_from_op.png)
 
-* キャンペーン配信ログで、 **[!UICONTROL Deliveries]** タブのサブタブを選択し **[!UICONTROL Edit > Tracking]** ます。
+* キャンペーン配信ログでは、**[!UICONTROL 編集／「監査」]**&#x200B;タブの「**[!UICONTROL 配信]**」サブタブに表示されます。
 
    ![](assets/s_user_validation_log_from_delivery_list.png)
 
-* The approval status for each delivery can be viewed by clicking the **[!UICONTROL Hide/show log]** option of the **[!UICONTROL Summary]** tab.
+* 各配信の承認ステータスは、「**[!UICONTROL 概要]**」タブの「**[!UICONTROL ログを非表示／表示]**」オプションをクリックすると表示できます。
 
    ![](assets/s_user_validation_log_delivery.png)
 
-* This information can also be accessed via the **[!UICONTROL Tracking > Approvals]** tab of each delivery:
+* この情報には、各配信の&#x200B;**[!UICONTROL 監査／「承認」]**&#x200B;タブからもアクセスできます。
 
    ![](assets/s_user_validation_log_from_exe_tab.png)
 
@@ -141,7 +141,7 @@ Select **[!UICONTROL Accept]** or **[!UICONTROL Reject]** and enter a comment if
 
 ターゲティングワークフローの作成時に承認が自動になっていると（デフォルトモード）、Adobe Campaign は承認リンクを表示するか、承認が必要になるとすぐに通知を送信します。
 
-To choose the approval mode (manual or automatic), click the **[!UICONTROL Edit > Properties]** tab of the campaign or campaign template, then click **[!UICONTROL Advanced campaign settings...]** and finally the **[!UICONTROL Approvals]** tab.
+承認モード（手動または自動）を選択するには、キャンペーンまたはキャンペーンテンプレートの&#x200B;**[!UICONTROL 編集／「プロパティ」]**&#x200B;タブをクリックし、「**[!UICONTROL キャンペーンの詳細設定...]**」をクリックして、「**[!UICONTROL 承認]**」タブをクリックします。
 
 ![](assets/s_user_validation_select_mode.png)
 
@@ -149,9 +149,9 @@ To choose the approval mode (manual or automatic), click the **[!UICONTROL Edit 
 >
 >選択した承認モードは、キャンペーンのすべての配信に適用されます。
 
-ターゲティングワークフローを作成する際に、手動承認を使用して、承認リンクの作成や、通知の自動送信をおこなわないようにすることができます。The campaign dashboard then offers a **[!UICONTROL Submit targeting for approval]** link to launch the approval process manually.
+ターゲティングワークフローを作成する際に、手動承認を使用して、承認リンクの作成や、通知の自動送信をおこなわないようにすることができます。キャンペーンダッシュボードには、手動で承認プロセスを開始するための「**[!UICONTROL ターゲットを承認用に送信]**」リンクが表示されます。
 
-確認メッセージを使用して、この配信用に選択したジョブの承認を承認できます。
+確認メッセージによって、この配信用に選択されたジョブに対する承認を許可できます。
 
 すると、「承認」ボタンが（この配信の）キャンペーンダッシュボード、配信ダッシュボードおよび配信トラッキングに表示されます。通知が有効な場合、通知も同時に送信されます。
 
@@ -161,46 +161,46 @@ To choose the approval mode (manual or automatic), click the **[!UICONTROL Edit 
 
 通知は、プロセスが承認待ちであることをレビュー担当者に知らせるために送信される、特定の E メールメッセージです。オペレーターがメッセージ内のリンクをクリックすると、認証ページが表示され、ログイン後に情報を確認して、ジョブを承認または却下できます。承認ウィンドウでコメントを入力することもできます。
 
-通知 E メールの内容はパーソナライズできます。詳しくは、通 [知コンテンツを参照してくださ](#notification-content)い。
+通知 E メールの内容はパーソナライズできます。[通知コンテンツ](#notification-content)を参照してください。
 
 #### 通知の有効化／無効化 {#enabling-disabling-notification}
 
 デフォルトでは、キャンペーンテンプレート、キャンペーンまたは配信で関連ジョブの承認が有効になっている場合に通知メッセージが送信されます。ただし、コンソールからのみ承認を許可するように、通知を無効にすることができます。
 
-これを行うには、キャンペーンまたはキャンペーンテンプレートの承認ウィンドウを編集し( > **[!UICONTROL Edit > Properties]** > **[!UICONTROL Advanced campaign settings...]** > **[!UICONTROL Approvals]** tab)、を選択しま **[!UICONTROL Do not enable notification sending]**&#x200B;す。
+そのためには、キャンペーンまたはキャンペーンテンプレートの承認ウィンドウを編集し（**[!UICONTROL 編集／プロパティ]**／**[!UICONTROL キャンペーンの詳細設定...]**／「**[!UICONTROL 承認]**」タブ）、「**[!UICONTROL 通知の送信を有効にしない]**」を選択します。
 
 ![](assets/s_user_validation_notif_desactivate.png)
 
 #### 通知コンテンツ {#notification-content}
 
-Notification content is defined in a specific template: **[!UICONTROL Notification of validations for the marketing campaign]**. このテンプレートは、Adobe Campaignツリ **[!UICONTROL Administration > Campaign management > Technical delivery templates]** ーのフォルダーに保存されます。
+通知コンテンツは、特定のテンプレート「**[!UICONTROL マーケティングキャンペーンの検証の通知]**」で定義されます。このテンプレートは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／キャンペーン管理／テクニカル配信テンプレート]**&#x200B;フォルダーに保存されています。
 
 ## 配信の確認と承認 {#checking-and-approving-deliveries}
 
-Adobe Campaignでは、マーケティングキャンペーンの主要なステージの承認プロセスをコラボレーションモードで設定できます。
+Adobe Campaign では、マーケティングキャンペーンのメインステージの承認プロセスを協調モードで設定できます。
 
-ダイレクトメール配信の場合、Adobe Campaign のオペレーターは、抽出ファイルを発送担当に送信する前に確認できます。また、必要に応じてフォーマットを変更し、抽出を再開できます。See [Approving an extraction file](#approving-an-extraction-file).
+ダイレクトメール配信の場合、Adobe Campaign のオペレーターは、抽出ファイルを発送担当に送信する前に確認できます。また、必要に応じてフォーマットを変更し、抽出を再開できます。[抽出ファイルの承認](#approving-an-extraction-file)を参照してください。
 
-各キャンペーンについて、配信ターゲット、コンテンツ(「コンテンツの承認 [](#approving-content)」を参照)およびコストを承認できます。 承認を担当する Adobe Campaign オペレーターは、E メールで通知を受け、コンソールから、または Web 接続を介して、承認を許可または却下できます。「プロセ [スの承認](#approving-processes)」を参照。
+キャンペーンごとに、配信ターゲット、コンテンツ（[コンテンツの承認](#approving-content)を参照）およびコストを承認できます。承認を担当する Adobe Campaign オペレーターは、E メールで通知を受け、コンソールから、または Web 接続を介して、承認を許可または却下できます。[プロセスの承認](#approving-processes)を参照してください。
 
-この検証フェーズが完了したら、配信を開始できます。詳しくは、 [配信の開始を参照してください](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)。
+この検証フェーズが完了したら、配信を開始できます。[配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)を参照してください。
 
 >[!NOTE]
 >
->For further information about approval modes and tracking, see [Approval process](#approval-process).
+>承認モードとトラッキングについて詳しくは、[承認プロセス](#approval-process)を参照してください。
 
 ### プロセスの承認 {#approving-processes}
 
-承認が必要なステージは、（Webインターフェイスのコンソールを介して）キャンペーンダッシュボードに表示されます。 配信トラッキングテーブルと配信ダッシュボードにも表示されます。
+承認が必要なステージが、（Web インターフェイスのコンソールを介して）キャンペーンダッシュボードに表示されます。配信トラッキングテーブルと配信ダッシュボードにも表示されます。
 
-At this point, the status of the campaign is **[!UICONTROL To validate]**.
+この時点で、キャンペーンのステータスは「**[!UICONTROL 承認する]**」です。
 
 >[!NOTE]
 >
->* 承認を受ける必要があるプロセスを選択するには、キャンペーンテンプレートを変更します。For more on this, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+>* 承認を受ける必要があるプロセスを選択するには、キャンペーンテンプレートを変更します。詳しくは、[キャンペーンテンプレート](../../campaign/using/marketing-campaign-templates.md#campaign-templates)を参照してください。
    >
    >
-* Also refer to the section on the [Approval process](#approval-process).
+* [承認プロセス](#approval-process)の節も参照してください。
 
 
 
@@ -208,7 +208,7 @@ At this point, the status of the campaign is **[!UICONTROL To validate]**.
 
 >[!NOTE]
 >
->In a targeting workflow, if an error linked to a configuration issue occurs during message preparation, the **[!UICONTROL Restart message preparation]** link is shown on the dashboard. ターゲティングステージを回避しながらメッセージの準備を再開するには、エラーを修正してこのリンクをクリックします。
+>ターゲティングワークフローで、メッセージの準備中に設定の問題に関連するエラーが発生した場合は、ダッシュボードに「**[!UICONTROL メッセージの準備を再開]**」リンクが表示されます。ターゲティングステージを回避しながらメッセージの準備を再開するには、エラーを修正してこのリンクをクリックします。
 
 ![](assets/s_user_validation_relaunch_message_preparation.png)
 
@@ -216,21 +216,21 @@ At this point, the status of the campaign is **[!UICONTROL To validate]**.
 
 * **ターゲティング、コンテンツ、予算**
 
-   ジョブ承認設 **[!UICONTROL Enable target approval]**&#x200B;定ウィンドウ **[!UICONTROL Enable content approval]** で、 **[!UICONTROL Enable budget approval]** 、またはのオプションを選択すると、該当する配信に関する関連リンクがキャンペーンダッシュボードに表示されます。
+   ジョブの承認設定ウィンドウで「**[!UICONTROL ターゲットの承認を有効にする]**」、「**[!UICONTROL コンテンツの承認を有効にする]**」または「**[!UICONTROL 予算承認を有効にする]**」オプションが選択されている場合は、関連する配信のキャンペーンダッシュボードに関連リンクが表示されます。
 
    >[!NOTE]
    >
    >「予算の承認」は、承認設定ウィンドウでターゲティングの承認が有効な場合にのみ表示されます。予算承認のリンクは、ターゲットが分析済みの場合にのみ表示されます。また、このリンクはターゲットの承認のリンクと共に表示されます。
 
-   承認設定ウ **[!UICONTROL Assign content editing]** ィンドウ **[!UICONTROL External content approval]** でオプションまたはを選択した場合、ダッシュボードにとリンクが表 **[!UICONTROL Available content]** 示され **[!UICONTROL External content approval]** ます。
+   承認設定ウィンドウで「**[!UICONTROL コンテンツ編集を割り当てる]**」または「**[!UICONTROL 外部コンテンツの承認]**」オプションが選択されている場合は、ダッシュボードに「**[!UICONTROL 使用可能コンテンツ]**」リンクと「**[!UICONTROL 外部コンテンツの承認]**」リンクが表示されます。
 
    コンテンツを承認すると、送信済みの配達確認にアクセスできます。
 
 * **抽出の承認（ダイレクトメール配信）**
 
-   When **[!UICONTROL Enable extraction approval]** is selected in the approval settings window, the extracted file must be approved before the router can be notified.
+   承認設定ウィンドウで「**[!UICONTROL 抽出の承認を有効にする]**」が選択されている場合は、抽出ファイルを承認してからでなければ発送担当に通知できません。
 
-   An **[!UICONTROL Approve content]** link is available on the campaign dashboard as shown below:
+   次のように、キャンペーンダッシュボードに「**[!UICONTROL コンテンツを承認]**」リンクが表示されます。
 
    ![](assets/s_ncs_user_edit_file_valid.png)
 
@@ -244,13 +244,13 @@ At this point, the status of the campaign is **[!UICONTROL To validate]**.
 
 * **関連する配信の承認**
 
-   このオ **[!UICONTROL Enable individual approval of each associated delivery]** プションは、セカンダリ配信に関連付けられた1つのメイン配信に使用されます。 デフォルトでは、このオプションは選択されていないので、メインの配信全体を承認できます。このオプションを選択した場合、各配信を個別に承認する必要があります。
+   「**[!UICONTROL 関連する配信ごとに個別の承認を有効にする]**」オプションは、複数のセカンダリ配信に関連付けられている 1 つのメインの配信に使用します。デフォルトでは、このオプションは選択されていないので、メインの配信全体を承認できます。このオプションを選択した場合、各配信を個別に承認する必要があります。
 
    ![](assets/s_ncs_user_task_valid_associate.png)
 
 #### 承認するプロセスの選択 {#choosing-the-processes-to-be-approved}
 
-承認フェーズは、キャンペーンに関連付けられたテンプレートを使用して定義されます。 承認する要素をテンプレートから選択し、その承認をおこなう Adobe Campaign オペレーターを指定する必要があります。For more on this, refer to [Campaign templates](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+承認フェーズは、キャンペーンに関連付けられたテンプレートで定義されます。承認する要素をテンプレートから選択し、その承認をおこなう Adobe Campaign オペレーターを指定する必要があります。詳しくは、[キャンペーンテンプレート](../../campaign/using/marketing-campaign-templates.md#campaign-templates)を参照してください。
 
 >[!NOTE]
 >
@@ -258,11 +258,11 @@ At this point, the status of the campaign is **[!UICONTROL To validate]**.
 
 この情報は、キャンペーンごとおよび配信ごとに上書きできます。
 
-For a campaign, click the **[!UICONTROL Edit > Properties]** tab, then the **[!UICONTROL Advanced campaign settings...]** link, and finally the **[!UICONTROL Approvals]** sub-tab to access the approvals configuration page.
+キャンペーンの場合は、**[!UICONTROL 編集／「プロパティ」]**&#x200B;タブ、「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンク、「**[!UICONTROL 承認]**」サブタブの順にクリックして承認設定ページにアクセスします。
 
 承認するプロセスを選択／選択解除したり、承認を担当する Adobe Campaign オペレーターを指定したりできます。個人のオペレーター、オペレーターのグループ、オペレーターのリストを指定できます。
 
-To select a list of operators, click the **[!UICONTROL Edit...]** link to the right of the field designating the first reviewer and add as many operators as necessary, as shown below:
+オペレーターのリストを選択するには、下図のように、1 人目のレビュー担当者を指定するフィールドの右側の「**[!UICONTROL 編集...]**」リンクをクリックし、必要な人数のオペレーターを追加します。
 
 ![](assets/s_user_validation_add_operator.png)
 
@@ -277,7 +277,7 @@ To select a list of operators, click the **[!UICONTROL Edit...]** link to the ri
 
 ![](assets/s_ncs_user_edit_op_valid_calendar.png)
 
-For each delivery, click the **[!UICONTROL Audit]** button and the **[!UICONTROL Approvals]** tab to view and edit approval dates and automatic reminders.
+配信ごとに承認日と自動リマインダーを表示および編集するには、「**[!UICONTROL 監査]**」ボタンをクリックし、「**[!UICONTROL 承認]**」タブをクリックします。
 
 ![](assets/s_ncs_user_edit_del_valid.png)
 
@@ -293,15 +293,15 @@ For each delivery, click the **[!UICONTROL Audit]** button and the **[!UICONTROL
 >
 >以下に詳しく説明するコンテンツ承認機能は、配達確認に追加するようにデザインされています。
 
-コンテンツの承認サイクルを設定できます。 To do this, select the **[!UICONTROL Enable content approval]** option in the approval settings window. コンテンツ承認サイクルの主な手順は次のとおりです。
+コンテンツ承認サイクルを設定できます。設定するには、承認設定ウィンドウで「**[!UICONTROL コンテンツの承認を有効にする]**」オプションを選択します。コンテンツ承認サイクルの主な手順は次のとおりです。
 
-1. After creating a new delivery, the campaign manager clicks the **[!UICONTROL Submit content]** link on the campaign dashboard to start the content approval cycle.
+1. 新しい配信を作成した後、キャンペーンマネージャーがキャンペーンダッシュボードの「**[!UICONTROL コンテンツを送信]**」リンクをクリックして、コンテンツ承認サイクルを開始します。
 
    ![](assets/s_ncs_user_validation_submit_content_validation.png)
 
    >[!NOTE]
    >
-   >承認設定ウ **[!UICONTROL Enable the sending of proofs]** ィンドウで（電子メール配信の場合）また **[!UICONTROL Enable the sending and approval of proofs]** は（ダイレクトメール配信の場合）オプションが選択されている場合、プルーフが自動的に送信されます。
+   >承認設定ウィンドウで「**[!UICONTROL 配達確認の送信を有効にする]**」オプション（E メール配信の場合）または「**[!UICONTROL 配達確認の送信と検証を有効にする]**」オプション（ダイレクトメール配信の場合）を選択した場合、配達確認が自動的に送信されます。
 
 1. 通知 E メールがコンテンツの担当者に送信されます。この担当者は、コンテンツを承認するかどうかを選択できます。
 
@@ -319,23 +319,23 @@ For each delivery, click the **[!UICONTROL Audit]** button and the **[!UICONTROL
 
       >[!NOTE]
       >
-      >This campaign dashboard lets you view the list of proofs that have been sent, by clicking the **[!UICONTROL Inbox rendering...]** link. To view their content, click the **[!UICONTROL Detail]** icon to the right of the list.
+      >このキャンペーンダッシュボードで「**[!UICONTROL 受信ボックスレンダリング...]**」リンクをクリックして、送信済みの配達確認のリストを表示できます。配達確認の内容を表示するには、リストの右側にある「**[!UICONTROL 詳細]**」アイコンをクリックします。
 
       ![](assets/s_ncs_user_validation_content_BAT_details.png)
 
-1. キャンペーンの担当者に、コンテンツが承認されたかどうかを知らせる通知電子メールが送信されます。
+1. コンテンツが承認されたかどうかを知らせる通知 E メールがキャンペーンの担当者に送信されます。
 
    >[!NOTE]
    >
-   >キャンペーンの担当者は、コンテンツ承認サイクルをいつでも再開できます。これを行うには、キャンペーンダッシュボードの行(配 **[!UICONTROL Content status]** 信レベル)にあるリンクをクリックし、をクリックしま **[!UICONTROL Reset content approval to submit it again]**&#x200B;す。
+   >キャンペーンの担当者は、コンテンツ承認サイクルをいつでも再開できます。再開するには、（配信レベルで）キャンペーンダッシュボードの「**[!UICONTROL コンテンツのステータス]**」行のリンクをクリックし、「**[!UICONTROL 再送信のためコンテンツの承認をリセット]**」をクリックします。
 
    ![](assets/s_user_validation_relaunch_content_validation.png)
 
 #### コンテンツ編集を割り当てる {#assign-content-editing}
 
-このオプションを使用して、Web マスターなどコンテンツ編集の担当者を定義できます。If the **[!UICONTROL Assign content editing]** option is selected in the approval settings window, several approval steps are added between delivery creation and delivery of the notification email to the person in charge of content:
+このオプションを使用して、Web マスターなどコンテンツ編集の担当者を定義できます。承認設定ウィンドウで「**[!UICONTROL コンテンツ編集を割り当てる]**」オプションを選択した場合、配信の作成からコンテンツ担当者への通知 E メールの配信までの間に以下の承認手順が追加されます。
 
-1. After creating a new delivery, the person responsible for the campaign clicks the **[!UICONTROL Submit content editing]** link in the campaign dashboard to start the content editing cycle.
+1. 新しい配信を作成した後、キャンペーン担当者がキャンペーンダッシュボードの「**[!UICONTROL コンテンツ編集を送信]**」リンクをクリックして、コンテンツ編集サイクルを開始します。
 
    ![](assets/s_ncs_user_validation_submit_content_edition.png)
 
@@ -349,13 +349,13 @@ For each delivery, click the **[!UICONTROL Audit]** button and the **[!UICONTROL
 
    >[!NOTE]
    >
-   >承認設定ウ **[!UICONTROL Enable the sending of proofs]** ィンドウで（電子メール配信の場合）また **[!UICONTROL Enable the sending and approval of proofs]** は（ダイレクトメール配信の場合）オプションが選択されている場合、プルーフが自動的に送信されます。
+   >承認設定ウィンドウで「**[!UICONTROL 配達確認の送信を有効にする]**」オプション（E メール配信の場合）または「**[!UICONTROL 配達確認の送信と検証を有効にする]**」オプション（ダイレクトメール配信の場合）を選択した場合、配達確認が自動的に送信されます。
 
 1. 配信コンテンツの変更を完了したら、コンテンツ編集担当者はコンテンツを使用可能にすることができます。
 
    次のどちらかの方法を実行します。
 
-   * click the **[!UICONTROL Available content]** link via the Adobe Campaign console.
+   * Adobe Campaign のコンソールから「**[!UICONTROL 使用可能コンテンツ]**」リンクをクリックします。
 
       ![](assets/s_ncs_user_validation_submit_content_available.png)
 
@@ -373,7 +373,7 @@ For each delivery, click the **[!UICONTROL Audit]** button and the **[!UICONTROL
 
 #### 外部コンテンツの承認 {#external-content-approval}
 
-このオプションを使用すると、ブランド通信の一貫性、料金など、配信レンダリングの承認を担当する外部演算子を定義できます。 承認設定ウ **[!UICONTROL External content approval]** ィンドウでこのオプションを選択すると、コンテンツの承認と、キャンペーンの担当者への通知の配信との間に、いくつかの承認手順が追加されます。
+このオプションを使用して、ブランドコミュニケーションの一貫性、割合などの配信レンダリングの承認を担当する外部オペレーターを定義できます。承認設定ウィンドウで「**[!UICONTROL 外部コンテンツの承認]**」オプションを選択した場合は、コンテンツの承認からキャンペーン担当者への通知の配信までの間に、以下の承認手順が追加されます。
 
 1. コンテンツが承認されたことを知らせ、外部の承認をリクエストする通知 E メールを外部コンテンツマネージャーが受け取ります。
 1. 通知 E メールには、送信された配達確認へのリンクが含まれています。このリンクを使用して、配信レンダリングと、配信コンテンツを承認または却下するためのボタンを表示できます。
@@ -388,14 +388,14 @@ For each delivery, click the **[!UICONTROL Audit]** button and the **[!UICONTROL
 
 オフライン配信の場合は、設定に応じて、発送担当に送信する抽出ファイルが生成されます。抽出ファイルのコンテンツは、使用するエクスポートテンプレートによって異なります。
 
-When the content, targeting and budget have been approved, the delivery changes to **[!UICONTROL Extraction pending]** until the extraction workflow for the campaigns is launched.
+コンテンツ、ターゲティングおよび予算が承認されると、配信ステータスはキャンペーンの抽出ワークフローが開始されるまで「**[!UICONTROL 抽出を保留中]**」に変わります。
 
 ![](assets/s_ncs_user_waiting_file_extraction.png)
 
-On the extraction request date, the extraction file is created and the delivery status changes to **[!UICONTROL File to approve]**.
+抽出リクエスト日に抽出ファイルが作成されると、配信ステータスは「**[!UICONTROL 承認するファイル]**」に変わります。
 
 ![](assets/s_ncs_user_file_extract_to_valid.png)
 
 抽出されたファイルのコンテンツを（ファイル名をクリックして）確認したり、抽出ファイルを承認したり、必要であればダッシュボードのリンクを使用してフォーマットを変更し、抽出を再開できます。
 
-ファイルが承認されたら、通知 E メールを発送担当に送信できます。詳しくは、「オフライン配信の開始 [」を参照してください](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery)。
+ファイルが承認されたら、通知 E メールを発送担当に送信できます。詳しくは、[オフライン配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery)を参照してください。

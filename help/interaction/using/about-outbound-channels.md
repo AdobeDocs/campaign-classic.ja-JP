@@ -14,7 +14,7 @@ discoiquuid: a22a25bf-e920-4766-a864-00d32b4c8029
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5489e09303920bf5bd3dcd08263dc3c945d151c1
 
 ---
@@ -26,10 +26,10 @@ source-git-commit: 5489e09303920bf5bd3dcd08263dc3c945d151c1
 
 >[!NOTE]
 >
->また、アウトバウンドチャネ [](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-outbound-channel-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) ルでのオファーの配信方法について詳しく説明するビデオも視聴できます。
+>また、アウトバウンドチャネルでのオファーの配信方法について詳しく説明する[ビデオ](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-outbound-channel-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com)もご覧ください。
 
-オファーがオファーエンジンによって選択されるためには、承認され、ライブ環境で利用できる必要があります。詳しくは、「オファーの承認とアクテ [ィブ化」を参照してください](../../interaction/using/approving-and-activating-an-offer.md)。
+オファーがオファーエンジンによって選択されるためには、承認され、ライブ環境で利用できる必要があります。詳しくは、[オファーの承認と有効化](../../interaction/using/approving-and-activating-an-offer.md)を参照してください。
 
-Offer presentation via an outbound communication channel is carried out via direct mail, email, or SMS campaigns etc., generally in batch mode (refer to [Glossary](../../interaction/using/glossary.md)). また、単一モードも（特に Message Center とと共に）使用できます（詳しくは、[Message Center](../../message-center/using/about-transactional-messaging.md) ガイドを参照）。
+アウトバウンドのコミュニケーションチャネルを使用したオファー表示域は、ダイレクトメール、E メール、SMS キャンペーンなどを使用して、通常はバッチモードで実行されます（[用語集](../../interaction/using/glossary.md)を参照）。また、単一モードも（特に Message Center と共に）使用できます（詳しくは、[Message Center](../../message-center/using/about-transactional-messaging.md) ガイドを参照）。
 
 オファーの提示には様々なオプションを利用できます。例えば、配信、キャンペーン、配信の概要、ワークフローアクティビティなどがあります。

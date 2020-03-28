@@ -14,7 +14,7 @@ discoiquuid: 29339aad-fd8e-4dae-8f6e-2db87221ad04
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ## 追加データの設定 {#additional-data-configuration}
 
-環境にリンクされた **nms:interaction** スキーマを拡張し、インタラクションエンジンの呼び出し中に使用される追加フィールドのリストを宣言する必要があります。When creating the eligibility rule or personalizing an offer, these fields will become accessible from the **Interaction** node (refer to [Using additional data](#using-additional-data)).
+環境にリンクされた **nms:interaction** スキーマを拡張し、インタラクションエンジンの呼び出し中に使用される追加フィールドのリストを宣言する必要があります。実施要件ルールを作成したり、オファーをパーソナライズする場合、それらのフィールドには、**インタラクション**&#x200B;ノードからアクセスできるようになります（[追加データの使用](#using-additional-data)を参照）。
 
 インバウンドチャネルの場合、呼び出しデータのフィールドを&#x200B;**インタラクション**&#x200B;ノードに追加する必要があります。
 
@@ -69,9 +69,9 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ## 追加データの実装 {#additional-data-implementation}
 
-### Input channel (Web page) {#input-channel--web-page-}
+### 入力チャネル（Web ページ）{#input-channel--web-page-}
 
-エンジンの呼び出し時に追加データを転送するには、Web ページの JavaScript コードに **interactionGlobalCtx** 変数を追加する必要があります。この変数に、呼び出しデータを含む&#x200B;**インタラクション**&#x200B;ノードを挿入します。その際、**nms:interaction** スキーマと同じ XML 構造に従う必要があります。参照先：追 [加データ設定](#additional-data-configuration)。
+エンジンの呼び出し時に追加データを転送するには、Web ページの JavaScript コードに **interactionGlobalCtx** 変数を追加する必要があります。この変数に、呼び出しデータを含む&#x200B;**インタラクション**&#x200B;ノードを挿入します。その際、**nms:interaction** スキーマと同じ XML 構造に従う必要があります。[追加データの設定](#additional-data-configuration)を参照してください。
 
 ```
 interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
@@ -79,7 +79,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 ### 出力チャネル {#output-channel}
 
-**nms:interaction** スキーマと同じ XML 構造および内部名に従って、作業用テーブルの追加データを読み込むターゲティングワークフローを作成する必要があります。参照先：追 [加データ設定](#additional-data-configuration)。
+**nms:interaction** スキーマと同じ XML 構造および内部名に従って、作業用テーブルの追加データを読み込むターゲティングワークフローを作成する必要があります。[追加データの設定](#additional-data-configuration)を参照してください。
 
 ## 追加データの使用 {#using-additional-data}
 
@@ -93,7 +93,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 >[!NOTE]
 >
->ルールは、データが定義されているチャネルのみに制限する必要があります。In our example, we are limiting the rule on the inbound web channel (**[!UICONTROL Taken into account if]** field).
+>ルールは、データが定義されているチャネルのみに制限する必要があります。この例では、インバウンド Web チャネルのみにルールを制限しています（「**[!UICONTROL 次の場合に考慮]**」フィールド）。
 
 ### パーソナライゼーション {#personalization}
 
@@ -105,11 +105,11 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 >
 >パーソナライゼーションは、データが定義されているチャネルのみに制限する必要があります。この例では、インバウンド Web チャネルのみにルールを制限しています。
 
-追加データを使用してオファーをパーソナライズしている場合、そのデータは、データベースで利用できないので、デフォルトではプレビューに表示されません。In the environment&#39;s **[!UICONTROL Example of call data]** tab, you must add value samples to use in the preview. **nms:interaction** スキーマ拡張と同じ XML 構造に従ってください。詳しくは、「追加のデータ設定」を参 [照してください](#additional-data-configuration)。
+追加データを使用してオファーをパーソナライズしている場合、そのデータは、データベースで利用できないので、デフォルトではプレビューに表示されません。環境の「**[!UICONTROL データ呼び出しの例]**」タブで、プレビューで使用するサンプルの値を追加する必要があります。**nms:interaction** スキーマ拡張と同じ XML 構造に従ってください。詳しくは、[追加データの設定](#additional-data-configuration)を参照してください。
 
 ![](assets/ita_calldata_preview.png)
 
-プレビュー時に、を **[!UICONTROL Content personalization options for the preview]** クリックし、フィールド内の値を選択 **[!UICONTROL Call data]** します。
+プレビュー時に、「**[!UICONTROL プレビュー用のコンテンツのパーソナライゼーションオプション]**」をクリックし、「**[!UICONTROL データ呼び出し]**」フィールドで値を選択します。
 
 ![](assets/ita_calldata_preview2.png)
 
@@ -119,11 +119,11 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 >[!NOTE]
 >
->追加データを格納するには、**nms:propositionRcp** スキーマを拡張し、格納するデータを含めるフィールドを宣言する必要があります。詳しくは、以下を参照してください。追 [加データ設定](#additional-data-configuration)。
+>追加データを格納するには、**nms:propositionRcp** スキーマを拡張し、格納するデータを含めるフィールドを宣言する必要があります。詳しくは、[追加データの設定](#additional-data-configuration)を参照してください。
 
-In the offer space, go to the **[!UICONTROL Storage]** tab and click the **[!UICONTROL Add]** button.
+オファースペースで、「**[!UICONTROL ストレージ]**」タブに移動し、「**[!UICONTROL 追加]**」ボタンをクリックします。
 
-In the **[!UICONTROL Storage path]** column, select the storage field in the proposition table. In the **[!UICONTROL Expression]** column, select the additional field in the **[!UICONTROL Interaction]** node.
+「**[!UICONTROL ストレージパス]**」列で、提案テーブルのストレージフィールドを選択します。「**[!UICONTROL 式]**」列で、**[!UICONTROL インタラクション]**&#x200B;ノードの追加フィールドを選択します。
 
 呼び出しデータは、提案が生成される、または許可される（ユーザーがオファーをクリックする）際に取得できます。
 

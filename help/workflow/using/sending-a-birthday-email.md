@@ -14,7 +14,7 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3006ac7178b4fc3091859ca8a7225864da9524a
 
 ---
@@ -34,55 +34,55 @@ source-git-commit: f3006ac7178b4fc3091859ca8a7225864da9524a
 
 この使用例は、ビデオでも紹介しています。詳しくは、[ワークフローの作成](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html)のビデオを参照してください。
 
-To do this, create a campaign and click the **[!UICONTROL Targeting and workflows]** tab. For more on this, refer to the [Building the main target in a workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) section.
+これをおこなうには、キャンペーンを作成して、「**[!UICONTROL ターゲティングとワークフロー]**」タブをクリックします。詳しくは、[ワークフローのメインターゲットの作成](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)の節を参照してください。
 
 その後、以下の手順に従います。
 
-## 送信のスケジュール {#configuring-the-scheduler}
+## 送信のスケジュール設定 {#configuring-the-scheduler}
 
-1. First, add a **Scheduler** to trigger sending the delivery every day. 以下の例では、毎日午前 6 時に配信が作成されます。
+1. 最初に、「**スケジューラー**」を追加して、毎日の配信タイミングを設定します。以下の例では、毎日午前 6 時に配信が作成されます。
 
    ![](assets/recur_delivery2.png)
 
 
 ## その日が誕生日の受信者の識別 {#identifying-recipients-whose-birthday-it-is}
 
-After configuring the **[!UICONTROL Scheduler]** activity so that the workflow starts every day, identify all of the recipients whose date of birth equals the current date.
+ワークフローが毎日起動するように「**[!UICONTROL スケジューラー]**」アクティビティを設定したら、誕生日が現在の日付の受信者をすべて特定します。
 
 それには、次の手順に従います。
 
-1. Drag and drop a **[!UICONTROL Query]** activity into the workflow and double-click it.
-1. Click the **Edit query** link and select **[!UICONTROL Filtering conditions]**.
+1. ワークフローに「**[!UICONTROL クエリ]**」アクティビティをドラッグ＆ドロップし、ダブルクリックします。
+1. 「**クエリを編集**」リンクをクリックし、「**[!UICONTROL フィルター条件]**」を選択します。
 
    ![](assets/s_ncs_user_create_exp_exple00.png)
 
-1. Click the first cell of the **[!UICONTROL Expression]** column and click **[!UICONTROL Edit expression]** to open the expression editor.
+1. 「**[!UICONTROL 式]**」列の最初のセルをクリックし、**[!UICONTROL 式を編集]**&#x200B;をクリックして式エディターを開きます。
 
    ![](assets/s_ncs_user_create_exp_exple.png)
 
-1. をクリック **[!UICONTROL Advanced selection]** して、フィルタリングモードを選択します。
+1. 「**[!UICONTROL 詳細選択]**」をクリックして、フィルターモードを選択します。
 
    ![](assets/s_ncs_user_create_exp_exple_a.png)
 
-1. を選択し、 **[!UICONTROL Edit the formula using an expression]** をクリックし **[!UICONTROL Next]** て式エディターを表示します。
-1. In the list of functions, double-click **[!UICONTROL Day]**, which is accessible via the **[!UICONTROL Date]** node. この関数は、パラメーターとして渡された日付に対応する日を表す数値を返します。
+1. 「**[!UICONTROL 式を使用して数式を編集]**」を選択し、「**[!UICONTROL 次へ]**」をクリックして式エディターを表示します。
+1. 関数のリストで、「**[!UICONTROL 日付]**」ノードからアクセスできる「**[!UICONTROL 日]**」をダブルクリックします。この関数は、パラメーターとして渡された日付に対応する日を表す数値を返します。
 
    ![](assets/s_ncs_user_create_exp_exple01.png)
 
-1. In the list of available fields, double-click **[!UICONTROL Birth date]**. エディターの上部セクションに、次の数式が表示されます。
+1. 使用可能フィールドのリストで、「**[!UICONTROL 生年月日]**」をダブルクリックします。エディターの上部セクションに、次の数式が表示されます。
 
    ```
    Day(@birthDate)
    ```
 
-   Click **[!UICONTROL Finish]** to confirm.
+   「**[!UICONTROL 完了]**」をクリックして確定します。
 
-1. In the query editor, in the first cell of the **[!UICONTROL Operator]** column, select **[!UICONTROL equal to]**.
+1. クエリエディターで、「**[!UICONTROL 演算子]**」列の最初のセルで「**[!UICONTROL 次と等しい]**」を選択します。
 
    ![](assets/s_ncs_user_create_exp_exple02.png)
 
-1. Next, click the first cell of the second column (**[!UICONTROL Value]**), and click **[!UICONTROL Edit expression]** to open the expression editor.
-1. In the list of functions, double-click **[!UICONTROL Day]**, which is accessible via the **[!UICONTROL Date]** node.
+1. 次に、2 番目の列（「**[!UICONTROL 値]**」）の最初のセルをクリックし、**[!UICONTROL 式を編集]**&#x200B;をクリックして式エディターを開きます。
+1. 関数のリストで、「**[!UICONTROL 日付]**」ノードからアクセスできる「**[!UICONTROL 日]**」をダブルクリックします。
 1. 「**[!UICONTROL GetDate]**」関数をダブルクリックして現在の日付を取得します。
 
    ![](assets/s_ncs_user_create_exp_exple04.png)
@@ -93,17 +93,17 @@ After configuring the **[!UICONTROL Scheduler]** activity so that the workflow s
    Day(GetDate())
    ```
 
-   Click **[!UICONTROL Finish]** to confirm.
+   「**[!UICONTROL 完了]**」をクリックして確定します。
 
-1. この手順を繰り返して、現在の月に対応する誕生月を取得します。To do this, click the **[!UICONTROL Add]** button and repeat steps 3 to 10, replacing **[!UICONTROL Day]** with **[!UICONTROL Month]**.
+1. この手順を繰り返して、現在の月に対応する誕生月を取得します。それには、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL Day]**」を「**[!UICONTROL Month]**」に置き換えて手順 3 から 10 を繰り返します。
 
    完成したクエリは次のようになります。
 
    ![](assets/s_ncs_user_create_exp_exple03.png)
 
-Link the result of the **[!UICONTROL Query]** activity to an **[!UICONTROL Email delivery]** activity to send an email to the list of all of your recipients on their birthday.
+「**[!UICONTROL クエリ]**」アクティビティの結果を、「**[!UICONTROL E メール配信]**」アクティビティにリンクし、リストに記載されている受信者全員に誕生日の E メールを送信します。
 
-## Including recipients born on February 29th (optional) {#including-recipients-born-on-february-29th--optional-}
+## 2 月 29 日に生まれた受信者を含む（オプション）{#including-recipients-born-on-february-29th--optional-}
 
 2 月 29 日に生まれた受信者全員を含めたい場合、この使用例では、閏年かどうかに関わらず、リスト内の受信者に対し、誕生日に繰り返し E メールを送信する方法を示します。
 
@@ -119,9 +119,9 @@ Link the result of the **[!UICONTROL Query]** activity to an **[!UICONTROL Email
 
 現在の年が&#x200B;**閏年でなく**、ワークフローが 3 月 1 日に実行された場合、2 月 29 日が誕生日の受信者すべてを選択して、受信者のリストに追加する必要があります。その他の場合については追加のアクションは不要です。
 
-### 手順1:受信者の選択 {#step-1--selecting-the-recipients}
+### 手順 1：受信者の選択 {#step-1--selecting-the-recipients}
 
-After configuring the **[!UICONTROL Scheduler]** activity so that the workflow starts every day, identify all of the recipients whose anniversary is the current day.
+ワークフローが毎日起動するよう「**[!UICONTROL スケジューラー]**」アクティビティを設定したら、現在の日付が誕生日の受信者をすべて特定します。
 
 >[!NOTE]
 >
@@ -129,15 +129,15 @@ After configuring the **[!UICONTROL Scheduler]** activity so that the workflow s
 
 ![](assets/birthday-workflow_usecase_2.png)
 
-現在の日付に対応する誕生日を持つ受信者を選択する方法については、[誕生日を持つ [受信者の識別]セクションを参照してくだ](#identifying-recipients-whose-birthday-it-is) さい。
+現在の日付に対応する誕生日を持つ受信者の選択については、[その日が誕生日の受信者の識別](#identifying-recipients-whose-birthday-it-is)の節で説明しています。
 
-### Step 2: Select whether or not it is a leap year {#step-2--select-whether-or-not-it-is-a-leap-year}
+### 手順 2：閏年であるかどうかを選択 {#step-2--select-whether-or-not-it-is-a-leap-year}
 
-The **[!UICONTROL Test]** activity allows you to check whether or not it is a leap year and whether the current date is March 1st.
+「**[!UICONTROL テスト]**」アクティビティでは、今年が閏年であるかどうか、また現在の日付が 3 月 1 日であるかどうかの確認ができます。
 
-テストの結果、今年が閏年ではなくて 2 月 29 日は存在せず、さらに現在の日付が 3 月 1 日である場合、「**[!UICONTROL True]**」トランザクションが有効になり、2 月 29 日生まれの受信者が 3 月 1 日の配信に追加されます。そうでない場合は、「**[!UICONTROL False]**」トランザクションが有効になり、3 月 1 日生まれの受信者だけが配信を受け取ります。
+テストの結果、今年が閏年ではなくて 2 月 29 日は存在せず、さらに現在の日付が 3 月 1 日である場合、「**[!UICONTROL TRUE]**」トランザクションが有効になり、2 月 29 日生まれの受信者が 3 月 1 日の配信に追加されます。そうでない場合は、「**[!UICONTROL False]**」トランザクションが有効になり、3 月 1 日生まれの受信者だけが配信を受け取ります。
 
-Copy and paste the code below into the **[!UICONTROL Initialization script]** section of the **[!UICONTROL Advanced]** tab.
+以下のコードを「**[!UICONTROL 詳細設定]**」タブの「**[!UICONTROL 初期化スクリプト]**」セクションにコピー＆ペーストします。
 
 ```
 function isLeapYear(iYear)
@@ -183,7 +183,7 @@ vars.firstOfMarch = 1;
 
 ![](assets/birthday-workflow_usecase_3.png)
 
-Add the following condition in the **[!UICONTROL Conditional forks]** section:
+「**[!UICONTROL 条件付き分岐]**」セクションで以下の条件を追加します。
 
 ```
 vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
@@ -191,26 +191,26 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 
 ![](assets/birthday-workflow_usecase_4.png)
 
-### Step 3: Select any recipients born on February 29th {#step-3--select-any-recipients-born-on-february-29th}
+### 手順 3：2 月 29 日生まれの受信者をすべて選択 {#step-3--select-any-recipients-born-on-february-29th}
 
-Create a **[!UICONTROL Fork]** activity and link one of the outbound transitions to a **[!UICONTROL Query]** activity.
+**[!UICONTROL 分岐]**&#x200B;アクティビティを作成し、アウトバウンドトランジションの 1 つを&#x200B;**[!UICONTROL クエリ]**&#x200B;アクティビティとリンクします。
 
 このクエリで、誕生日が 2 月 29 日の受信者すべてを選択します。
 
 ![](assets/birthday-workflow_usecase_5.png)
 
-Combine the results with a **[!UICONTROL Union]** activity.
+得られた結果を「**[!UICONTROL 和集合]**」アクティビティと結合します。
 
-Link the results of the two **[!UICONTROL Test]** activity branches to an **[!UICONTROL Email delivery]** activity to send an email to the list of all of your recipients on their birthday, even to those born on February 29th during a non-leap year.
+2 つの「**[!UICONTROL テスト]**」アクティビティ分岐の結果を「**[!UICONTROL E メール配信]**」アクティビティとリンクして、リストに記載のすべての受信者に対し、誕生日の E メールを送信します。2 月 29 日が誕生日の受信者には、閏年でない年にも E メールが送信されます。
 
-## 定期的な配信の作成 {#creating-a-recurring-delivery-in-a-targeting-workflow}
+## 繰り返し配信の作成 {#creating-a-recurring-delivery-in-a-targeting-workflow}
 
 送信する誕生日メールテンプレートに基づいて、「**繰り返し配信**」アクティビティを追加します。
 
 >[!CAUTION]
 >
->ワークフローを実行するには、キャンペーンプロセスに関するテクニカルワークフローを開始する必要があります。詳しくは、「キャンペーンプロセスワークフ [ローのリスト](../../workflow/using/campaign.md) 」を参照してください。
+>ワークフローを実行するには、キャンペーンプロセスに関するテクニカルワークフローを開始する必要があります。詳しくは、[キャンペーンプロセスのワークフローのリスト](../../workflow/using/campaign.md)の節を参照してください。
 >
->キャンペーンに対して承認手順が有効になっている場合は、これらの手順が確認された後でのみ配信されます。詳しくは、「承認するプロセスの選 [択」の節を参照してください](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved) 。
+>キャンペーンに対して承認手順が有効になっている場合は、これらの手順が確認された後でのみ配信されます。詳しくは、[承認するプロセスの選択](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved)の節を参照してください。
 
 ![](assets/birthday-workflow_usecase_1.png)

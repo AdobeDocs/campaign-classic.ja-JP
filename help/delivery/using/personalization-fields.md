@@ -14,7 +14,7 @@ discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f5062117b5cefbdd2570018f6803f114c14a3fae
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: f5062117b5cefbdd2570018f6803f114c14a3fae
 
 >[!NOTE]
 >
->パーソナライゼーションフィールドのコンテンツは1024文字を超えることはできません。
+>パーソナライゼーションフィールドのコンテンツは、1024 文字以内である必要があります。
 
 ## データソース {#data-sources}
 
@@ -47,22 +47,22 @@ source-git-commit: f5062117b5cefbdd2570018f6803f114c14a3fae
 
 ![](assets/s_ncs_user_add_custom_field.png)
 
-挿入は、データソース（受信者フィールドまたはファイルフィールド）を選択した後にコマンドを挿入する形でおこなわれます。それらのコマンドが Adobe Campaign によって解釈され、各受信者に関するフィールドの値に置換されます。The physical replacement can then be viewed in the **[!UICONTROL Preview]** tab.
+挿入は、データソース（受信者フィールドまたはファイルフィールド）を選択した後にコマンドを挿入する形でおこなわれます。それらのコマンドが Adobe Campaign によって解釈され、各受信者に関するフィールドの値に置換されます。実際に置換された結果は「**[!UICONTROL プレビュー]**」タブで確認できます。
 
 ## パーソナライゼーションフィールドの例 {#personalization-fields-example}
 
 E メールを作成するとします。まず受信者の名前を挿入し、続いて、メッセージ本文にプロファイルの作成日を挿入することにします。手順は次のとおりです。
 
 1. 新しい配信を作成するか、E メールタイプの既存の配信を開きます。
-1. In the delivery wizard, click **[!UICONTROL Subject]** to edit the subject of the message and enter a subject.
-1. 「**[!UICONTROL Special offer for]**」 」と入力し、ツールバーのボタンを使用してパーソナライゼーションフィールドを挿入します。選択 **[!UICONTROL Recipients>Title]**.
+1. 配信ウィザードで、「**[!UICONTROL 件名]**」をクリックし、メッセージの件名の編集や件名の入力をおこないます。
+1. 「**[!UICONTROL Special offer for]**」と入力し、ツールバーのボタンを使用してパーソナライゼーションフィールドを挿入します。**[!UICONTROL 受信者／タイトル]**&#x200B;を選択します。
 
    ![](assets/s_ncs_user_insert_custom_field.png)
 
 1. 受信者の名前を挿入する操作を繰り返します。各パーソナライゼーションフィールド間にはスペースを挿入します。
-1. Click **[!UICONTROL OK]** to validate.
+1. 「**[!UICONTROL OK]**」をクリックして検証します。
 1. メッセージ本文にパーソナライゼーションを挿入します。そのためには、メッセージコンテンツをクリックし、フィールド挿入ボタンをクリックします。
-1. 選択 **[!UICONTROL Recipient>Other...]**.
+1. **[!UICONTROL 受信者／その他]**&#x200B;を選択します。
 
    ![](assets/s_ncs_user_insert_custom_field_b.png)
 
@@ -70,17 +70,17 @@ E メールを作成するとします。まず受信者の名前を挿入し、
 
    ![](assets/s_ncs_user_insert_custom_field_c.png)
 
-1. Click the **[!UICONTROL Preview]** tab to view the personalization result. 受信者に応じたメッセージを確認するには、受信者を選択する必要があります。
+1. 「**[!UICONTROL プレビュー]**」タブをクリックすると、パーソナライゼーションの結果が表示されます。受信者に応じたメッセージを確認するには、受信者を選択する必要があります。
 
    ![](assets/s_ncs_user_insert_custom_field_d.png)
 
    >[!NOTE]
    >
-   >この配信がワークフローの構成要素である場合は、一時的なワークフローテーブルから取得したデータを使用できます。This data is grouped in the **[!UICONTROL Target extension]** menu. 詳しくは、[この節](../../workflow/using/executing-a-workflow.md#target-data)を参照してください。
+   >この配信がワークフローの構成要素である場合は、一時的なワークフローテーブルから取得したデータを使用できます。このデータは、**[!UICONTROL ターゲット式]**&#x200B;メニュー内にグループ化されています。詳しくは、[この節](../../workflow/using/executing-a-workflow.md#target-data)を参照してください。
 
 ## パーソナライゼーションの最適化 {#optimizing-personalization}
 
-次の専用オプションを使用して、パーソナライゼーションを最適化できます。配信プ **[!UICONTROL Prepare the personalization data with a workflow]**&#x200B;ロパティのタ **[!UICONTROL Analysis]** ブで使用できます。
+配信プロパティの「**[!UICONTROL 分析]**」タブで使用できる専用のオプション、「]**ワークフローを使用してパーソナライゼーションデータを準備**[!UICONTROL 」を使用して、パーソナライゼーションを最適化できます。
 
 このオプションを選択すると、配信の分析時に、一時テーブル内のターゲットにリンクするすべてのデータ（FDA にリンクするテーブルのデータなど）を保存するワークフローが自動的に作成、実行されます。
 
@@ -91,9 +91,9 @@ E メールを作成するとします。まず受信者の名前を挿入し、
 このオプションを使用するには、以下の手順に従います。
 
 1. キャンペーンを作成します。詳しくは、[この節](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)を参照してください。
-1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, add a **Query** activity to your workflow. このアクティビティの使用について詳しくは、[この節](../../workflow/using/query.md)を参照してください。
-1. Add an **[!UICONTROL Email delivery]** activity to the workflow and open it. このアクティビティの使用について詳しくは、[この節](../../workflow/using/delivery.md)を参照してください。
-1. のタブに移動 **[!UICONTROL Analysis]** し、オ **[!UICONTROL Delivery properties]** プションを選択し **[!UICONTROL Prepare the personalization data with a workflow]** ます。
+1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、ワークフローに&#x200B;**クエリ**&#x200B;アクティビティを追加します。このアクティビティの使用について詳しくは、[この節](../../workflow/using/query.md)を参照してください。
+1. **[!UICONTROL E メール配信]**&#x200B;アクティビティをワークフローに追加して開きます。このアクティビティの使用について詳しくは、[この節](../../workflow/using/delivery.md)を参照してください。
+1. **[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL 分析]**」タブで、「**[!UICONTROL ワークフローを使用してパーソナライゼーションデータを準備]**」オプションを選択します。
 
    ![](assets/perso_optimization.png)
 
@@ -103,20 +103,20 @@ E メールを作成するとします。まず受信者の名前を挿入し、
 
 このワークフローは、Adobe Campaign インターフェイスには表示されません。これは、パーソナライゼーションデータを迅速に格納および処理するための単なる技術的な手段です。
 
-Once the analysis is complete, go to the workflow **[!UICONTROL Properties]** and select the **[!UICONTROL Variables]** tab. 一時テーブルの名前が表示されます。この名前を使用して SQL 呼び出しをおこなって、一時テーブルに含まれている ID を表示することができます。
+分析が完了したら、ワークフローの&#x200B;**[!UICONTROL プロパティ]**&#x200B;に移動し、「**[!UICONTROL 変数]**」タブを選択します。一時テーブルの名前が表示されます。この名前を使用して SQL 呼び出しをおこなって、一時テーブルに含まれている ID を表示することができます。
 
 ![](assets/perso_optimization_temp_table.png)
 
-## タイムアウトパーソナライゼーション段階 {#timing-out-personalization}
+## パーソナライゼーションフェーズのタイムアウト {#timing-out-personalization}
 
-配信保護を強化するには、パーソナライゼーション段階のタイムアウト期間を設定します。
+配信の保護を強化するために、パーソナライゼーションフェーズのタイムアウト期間を設定できます。
 
-のタブ **[!UICONTROL Delivery]** で、このオ **[!UICONTROL Delivery properties]**&#x200B;プションの最大値（秒）を選択し **[!UICONTROL Maximum personalization run time]** ます。
+**[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL 配信]**」タブで、「**[!UICONTROL 最長パーソナライゼーション実行時間]**」オプションの最大値（秒）を選択します。
 
-プレビュー中または送信中に、パーソナライゼーション段階がこのフィールドで設定した最大時間を超えると、プロセスはエラーメッセージで中止され、配信は失敗します。
+プレビュー中または送信中に、パーソナライゼーションフェーズがこのフィールドで設定した最大時間を超えると、プロセスはエラーメッセージと共に中止され、配信は失敗します。
 
 ![](assets/perso_time-out.png)
 
-デフォルト値は5秒です。
+デフォルト値は 5 秒です。
 
-このオプションを0に設定した場合、パーソナライゼーション段階に時間制限はありません。
+このオプションを 0 に設定した場合、パーソナライゼーションフェーズに時間制限はなくなります。

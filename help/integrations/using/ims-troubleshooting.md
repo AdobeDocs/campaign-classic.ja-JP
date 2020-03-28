@@ -14,7 +14,7 @@ discoiquuid: e31db11a-ad8e-4fd0-bab7-0df1079231c9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ---
@@ -28,27 +28,27 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 以下の情報で、外部アカウントを **1 つ**&#x200B;のみ設定します。
 
-* **内部名**:Adobe_Marketing_Cloud
-* **タイプ**:Adobe Marketing Cloud
+* **内部名**：Adobe_Marketing_Cloud
+* **タイプ**：Adobe Experience Cloud
 
 同じ設定値を持つ重複した外部アカウントはすべて削除します。
 
 **製品コンテキスト**
 
-If the external account has a **Product Context** field, check that its value is set to: **dma_campaign_classic**
+外部アカウントに「**製品コンテキスト**」フィールドがある場合、その値が **dma_campaign_classic** に設定されていることを確認します。
 
 Campaign と Experience Cloud の製品コンテキストが同じ値であることを確認します。
 
 例えば、「**製品コンテキスト**」が表示されない場合は、Campaign と Experience Cloud の両方でデフォルトの製品コンテキストを **dma_campaign** にする必要があります。「**製品コンテキスト**」が表示される場合は、Campaign と Experience Cloud の両方でデフォルトの製品コンテキストを **dma_campaign_classic** にする必要があります。
 
-**[!UICONTROL IMS Server URL]**
+**[!UICONTROL IMS サーバー URL]**
 
-In the Campaign **Adobe Marketing Cloud** external account, check that the **[!UICONTROL IMS Server URL]** is either [adobeid-na1.services.adobe.com](https://adobeid-na1.services.adobe.com/) or [ims-na1.adobelogin.com](http://ims-na1.adobelogin.com/). また、ステージングと本番用のインスタンスがいずれも、同じ IMS 本番エンドポイントを指していることを確認します。
+Campaign の **Adobe Experience Cloud** 外部アカウントで、**[!UICONTROL IMS サーバー URL]** が [adobeid-na1.services.adobe.com](https://adobeid-na1.services.adobe.com/) または [ims-na1.adobelogin.com](http://ims-na1.adobelogin.com/) であることを確認します。また、ステージングと本番用のインスタンスがいずれも、同じ IMS 本番エンドポイントを指していることを確認します。
 
 **関連付けマスク**
 
 * ログインを試みているユーザーが、Enterprise Dashboard でオペレーターグループの一員であることを確認します。
-* Check that the **[!UICONTROL Association Mask]** is a prefix of the user&#39;s operator group name in the Enterprise Dashboard.
+* **[!UICONTROL 関連付けマスク]**&#x200B;が、Enterprise Dashboard でユーザーのオペレーターグループ名のプレフィックスであることを確認します。
 * スペースが含まれておらず、スペルの誤りがないことを確認します。
 * Campaign のオペレーターグループ名が変更されておらず、以下の構文に従っていることを確認します
 
@@ -78,11 +78,11 @@ Campaign 外部アカウントで上記のいずれかの設定を変更した�
 
 * ユーザーが adobe.com のページにリダイレクトされる。
 
-   There is a problem with the **[!UICONTROL Callback URL]**. Refer to the previous steps to check the **[!UICONTROL Callback URL]** configuration.
+   **[!UICONTROL コールバック URL]** に関する問題が起きています。上記の手順を参考に、**[!UICONTROL コールバック URL]** の設定を確認してください。
 
 * 「ログインには、式に一致する権限がありません」というメッセージが表示される。
 
-   Refer to the previous steps to check the **[!UICONTROL Association Mask]** and operator groups configuration.
+   上記の手順を参考に、**[!UICONTROL 関連付けマスク]**&#x200B;とオペレーターグループの設定を確認してください。
 
 * ユーザーが Adobe ID ログインページにアクセスできない。
 

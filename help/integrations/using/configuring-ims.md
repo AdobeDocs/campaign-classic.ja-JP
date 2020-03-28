@@ -14,7 +14,7 @@ discoiquuid: 279d0548-c876-4d5f-a195-48618bd5e9d1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -26,12 +26,12 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 IMS との統合を使用するには：
 
-* Adobe Marketing Cloud 組織と IMS ID（Adobe Marketing Cloud の初回接続時に付与されます）が必要です。
-* Marketing Cloud にユーザーを追加する必要があります。詳しくは、次のページを参照してください。https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html [](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
+* Adobe Experience Cloud 組織と IMS ID（Adobe Experience Cloud の初回接続時に付与されます）が必要です。
+* Experience Cloud にユーザーを追加する必要があります。詳しくは、このページ（[https://marketing.adobe.com/resources/help/ja_JP/mcloud/admin_getting_started.html](https://marketing.adobe.com/resources/help/ja_JP/mcloud/admin_getting_started.html)）を参照してください。
 
 >[!NOTE]
 >
->Adobe Campaign と同期される Adobe Marketing Cloud グループにユーザーがリンクされているか確認してください。「外部アカウ [ントの設定」を参照してください](#configuring-the-external-account)。
+>Adobe Campaign と同期される Adobe Experience Cloud グループにユーザーがリンクされているか確認してください。[外部アカウントの設定](#configuring-the-external-account)を参照してください。
 
 ## コンソールの更新 {#updating-the-console}
 
@@ -39,13 +39,13 @@ IMS との統合を使用するには：
 
 ## パッケージのインストール {#installing-the-package}
 
-パッケージをインストールする必要が **[!UICONTROL Integration with the Adobe Experience Cloud]** あります。 統合パッケージのインストール方法は、標準パッケージのインストール方法と同じです。詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)で説明しています。
+**[!UICONTROL Adobe Experience Cloud との統合]** パッケージをインストールする必要があります。統合パッケージのインストール方法は、標準パッケージのインストール方法と同じです。詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)で説明しています。
 
 ![](assets/ims_6.png)
 
 ## 外部アカウントの設定 {#configuring-the-external-account}
 
-で **Adobe Experience cloud外部アカウントを設定します****[!UICONTROL Administration > Platform > External accounts]**。
+**Adobe Experience Cloud** 外部アカウントを、**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;で設定します。
 
 >[!CAUTION]
 >
@@ -55,11 +55,11 @@ IMS との統合を使用するには：
 
 次の情報を入力します。
 
-* 使用する IMS サーバーの接続情報（ID および Secret）。この情報は、Adobe サポートから提供されます。詳しくは、[Adobe Experience Cloud 管理者向け FAQ](https://marketing.adobe.com/resources/help/en_US/mcloud/faq.html) を参照してください。
+* 使用する IMS サーバーの接続情報（ID および Secret）。この情報は、Adobe サポートから提供されます。詳しくは、[Adobe Experience Cloud 管理者向け FAQ](https://marketing.adobe.com/resources/help/ja_JP/mcloud/faq.html) を参照してください。
 
-   The **[!UICONTROL Callback server]** address must be specified in **https**. このフィールドは、お客様の Adobe Campaign インスタンスのアクセス URL に対応します。
+   **[!UICONTROL コールバックサーバー]**&#x200B;アドレスは **https** で指定する必要があります。このフィールドは、お客様の Adobe Campaign インスタンスのアクセス URL に対応します。
 
-* IMS organization ID: this information is available on the Experience Cloud (in **[!UICONTROL Administration > Experience Cloud Details]** ) and is provided when you first connect to the Adobe Experience Cloud.
+* IMS 組織 ID：この情報は Experience Cloud（**[!UICONTROL 管理／Experience Cloud 詳細]**）で取得でき、Adobe Experience Cloud への初回接続時に付与されます。
 * 関連付けマスク：このフィールドでは、Enterprise Dashboard の設定名を Adobe Campaign のグループと同期させる構文を定義することができます。「Campaign - tenant_id - (.*)」という構文を使用すると、Adobe Campaign で作成したセキュリティグループが Enterprise Dashboard の設定名「Campaign - tenant_id - internal_name」にリンクされます。
 
    >[!CAUTION]

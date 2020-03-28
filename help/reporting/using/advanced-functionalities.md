@@ -14,7 +14,7 @@ discoiquuid: 0c264783-2775-4ec6-8d49-cd9a45a18d60
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af768da6ee8cc0ca2ea1f24f297239b974c113a5
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: af768da6ee8cc0ca2ea1f24f297239b974c113a5
 
 スクリプトウィンドウにクエリを入力するだけです。
 
-The **[!UICONTROL Texts]** tab enables you to define text strings. They may then be used with the following syntax: **$(Identifier)**. テキストの使用方法の詳細については、「ヘッダーとフ [ッターの追加」を参照してください](../../reporting/using/element-layout.md#adding-a-header-and-a-footer)。
+「**[!UICONTROL テキスト]**」タブでは、テキスト文字列を定義できます。それらを使用するときの構文は、**$(Identifier)** のようになります。テキストの使用について詳しくは、[ヘッダーやフッターの追加](../../reporting/using/element-layout.md#adding-a-header-and-a-footer)を参照してください。
 
 >[!CAUTION]
 >
@@ -48,8 +48,8 @@ if( ctx.@_historyId.toString().length == 0 )
 
 サーバー側やクライアント側で実行される外部スクリプトを使用することもできます。手順は次のとおりです。
 
-1. Edit the report properties and click the **[!UICONTROL Scripts]**.
-1. Click **[!UICONTROL Add]** and select the script to be referenced.
+1. レポートのプロパティを編集し、「**[!UICONTROL スクリプト]**」タブをクリックします。
+1. 「**[!UICONTROL 追加]**」をクリックし、参照するスクリプトを選択します。
 1. 次に、実行モードを選択します。
 
    複数のスクリプトを追加する場合は、ツールバーの矢印を使用して、実行順序を定義します。

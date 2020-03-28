@@ -14,7 +14,7 @@ discoiquuid: 2b799ad7-b729-4b3e-9adc-1df13259f2a9
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -24,11 +24,11 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 インタラクションのフックを使用すると、**エンジンの標準的な動作**&#x200B;を修正できます。
 
-フッ **[!UICONTROL Target loading]** クと **[!UICONTROL Proposition post-processing]** フックは、Adobe Campaignのオファースペースで設定します。
+**[!UICONTROL ターゲットの読み込み]**&#x200B;フックと&#x200B;**[!UICONTROL 提案の後処理]**&#x200B;フックは、Adobe Campaign のオファースペースで設定します。
 
 ![](assets/interaction_hooks_1.png)
 
-The **[!UICONTROL Dynamic offer]** hook is configured with the offer weight in Adobe Campaign:
+**[!UICONTROL ダイナミックオファー]**&#x200B;フックは、Adobe Campaign で重み付けと共に設定します。
 
 ![](assets/interaction_hooks_2.png)
 
@@ -40,7 +40,7 @@ The **[!UICONTROL Dynamic offer]** hook is configured with the offer weight in A
 
 **入力パラメーター:**
 
-* xmlInteraction（xml型）:インタラクションノード
+* xmlInteraction（xml タイプ）：インタラクションノード
 * aTargetId（table タイプ）：ターゲット識別子
 * sUuid230（string タイプ）：uuid230 永続 Cookie の値
 * sNlid（string タイプ）：nlid セッション Cookie の値
@@ -124,7 +124,7 @@ return aReturnedProps;
 
 このフックを使用すると、外部のエンジンを呼び出して、オファーにリンクされた製品のリストを選択できます。オファーの実施要件ルールの後、タイポロジルールの適用の前に設定されます。
 
-インテグレーターは、事前に提案の **PropositionRcp** スキーマを製品に関する追加情報で拡張しておく必要があります。To specify where this data will be stored, a **[!UICONTROL Proposition being processed]** link is available in the **[!UICONTROL Storage]** tab of the space
+インテグレーターは、事前に提案の **PropositionRcp** スキーマを製品に関する追加情報で拡張しておく必要があります。このデータを格納する場所を指定するために、スペースの「**[!UICONTROL ストレージ]**」タブの「**[!UICONTROL 提案を処理中]**」リンクを使用できます。
 
 ![](assets/interaction_hooks_3.png)
 

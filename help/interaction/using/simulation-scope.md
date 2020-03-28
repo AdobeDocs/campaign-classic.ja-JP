@@ -14,7 +14,7 @@ discoiquuid: ef658468-e20b-45d9-a714-c152e55c1c79
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -24,13 +24,13 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ## スコープの定義 {#definition-of-the-scope}
 
-Open the **[!UICONTROL Scope]** tab to choose your settings.
+「**[!UICONTROL スコープ]**」タブを表示し、必要な設定を選択します。
 
 次の項目は必須です。
 
 * 環境またはオファーカテゴリ。
 * オファースペース。
-* コンタクト日. コンタクト日に実施要件を満たしていないオファーは、考慮されません。
+* コンタクト日.コンタクト日に実施要件を満たしていないオファーは、考慮されません。
 * ターゲット母集団。
 
    ターゲットにフィルターを設定しない場合、受信者テーブル全体が考慮されます。
@@ -51,9 +51,9 @@ Open the **[!UICONTROL Scope]** tab to choose your settings.
 
 ## レポートの軸の追加 {#adding-reporting-axes}
 
-You can enhance the simulation analysis by adding reporting axes on the target or the offers themselves via the **[!UICONTROL Calculations]** tab.
+「**[!UICONTROL 計算]**」タブで、ターゲットやオファー自体に対してレポートの軸を追加すると、シミュレーション分析をより充実させることができます。
 
-To do this, click the **[!UICONTROL Add]** button and choose the appropriate fields. 軸は、シミュレーションの計算に使用され、分析レポートに表示されます。For more on this, refer to [Simulation tracking](../../interaction/using/simulation-tracking.md).
+それには、「**[!UICONTROL 追加]**」ボタンをクリックし、適切なフィールドを選択します。軸は、シミュレーションの計算に使用され、分析レポートに表示されます。詳しくは、[シミュレーショントラッキング](../../interaction/using/simulation-tracking.md)を参照してください。
 
 ![](assets/offer_simulation_011.png)
 

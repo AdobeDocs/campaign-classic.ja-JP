@@ -14,7 +14,7 @@ discoiquuid: 3cea2be4-4da4-4ebd-a241-1bbaa5abb16e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -26,32 +26,32 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 インタラクションは、次の 2 つのオファー環境を使用して運用されます。
 
-* **[!UICONTROL Design]** 編集中で変更可能なオファーを含むオファー環境を提供します。 これらのオファーは、承認サイクルを経ておらず、コンタクト先には配信されません。
-* **[!UICONTROL Live]** 承認されたオファーが連絡先に表示されるのと同じ方法で提供される環境を提供します。 この環境のオファーは、読み取り専用です。
+* **[!UICONTROL デザイン環境]**：編集の対象となる、変更可能なオファーを含んだオファー環境。これらのオファーは、承認サイクルを経ておらず、コンタクト先には配信されません。
+* **[!UICONTROL ライブ環境]**：コンタクト先に提示される承認済みのオファーを含んだオファー環境。この環境のオファーは、読み取り専用です。
 
 ![](assets/offer_environments_overview_001.png)
 
-Each **[!UICONTROL Design]** environment is linked to a **[!UICONTROL Live]** environment. オファーの作成が完了すると、そのコンテンツと実施要件ルールは、承認サイクルに進みます。Once this cycle is complete, the concerned offer is automatically deployed to the **[!UICONTROL Live]** environment. その瞬間から、配信できるようになります。
+各&#x200B;**[!UICONTROL デザイン]**&#x200B;環境は、**[!UICONTROL ライブ]**&#x200B;環境にリンクされています。オファーの作成が完了すると、そのコンテンツと実施要件ルールは、承認サイクルに進みます。承認サイクルを完了したオファーは、**[!UICONTROL ライブ]**&#x200B;環境に自動的にデプロイされ、その瞬間から、配信できるようになります。
 
-By default, Interaction comes with a **[!UICONTROL Design]** environment and a **[!UICONTROL Live]** environment linked to it. これらの環境は、標準の受信者テーブルをターゲットとするように事前に設定されています。
+デフォルトでは、インタラクションには、1 つの&#x200B;**[!UICONTROL デザイン]**&#x200B;環境とそれにリンクされた 1 つの&#x200B;**[!UICONTROL ライブ]**&#x200B;環境が用意されています。これらの環境は、標準の受信者テーブルをターゲットとするように事前に設定されています。
 
 >[!NOTE]
 >
->別のテーブル（匿名オファー用の訪問者テーブルや特定の受信者テーブル）をターゲットにするには、ターゲットマッピングウィザードを使用して環境を作成する必要があります。For more on this, refer to [Creating an offer environment](#creating-an-offer-environment).
+>別のテーブル（匿名オファー用の訪問者テーブルや特定の受信者テーブル）をターゲットにするには、ターゲットマッピングウィザードを使用して環境を作成する必要があります。詳しくは、[オファー環境の作成](#creating-an-offer-environment)を参照してください。
 
 ![](assets/offer_environments_overview_002.png)
 
-オファーマネージャーと配信責任者では、アクセスできる環境の表示が異なります。Delivery managers can only view the **[!UICONTROL Live]** offer environment and use offers to deliver them. Offer managers can view and alter the **[!UICONTROL Design]** environment and view the **[!UICONTROL Live]** environment. For more on this, refer to [Operator profiles](../../interaction/using/operator-profiles.md).
+オファーマネージャーと配信責任者では、アクセスできる環境の表示が異なります。配信責任者は、**[!UICONTROL ライブ]**&#x200B;オファー環境のみを表示し、オファーを使用して配信できます。オファーマネージャーは、**[!UICONTROL デザイン]**&#x200B;環境を表示および変更したり、**[!UICONTROL ライブ]**&#x200B;環境を表示したりできます。詳しくは、[オペレーターのプロファイル](../../interaction/using/operator-profiles.md)を参照してください。
 
 ## オファー環境の作成 {#creating-an-offer-environment}
 
 デフォルトでは、インタラクションには、受信者テーブルをターゲットとするように事前設定された環境（識別されたオファー）が 1 つ用意されています。別のテーブル（匿名オファー用の訪問者テーブルや特定の受信者テーブル）をターゲットにするには、次の設定を適用する必要があります。
 
-1. **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Delivery mappings]** ノードにカーソルを置きます。 使用する配信マッピングを右クリックし(匿名オファー&#x200B;**[!UICONTROL Visitors]** を使用する場合)、 **[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]** を選択します。
+1. **[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信マッピング]**&#x200B;ノードにカーソルを置きます。使用する配信マッピング（匿名オファーを使用する場合は「**[!UICONTROL 訪問者]**」）を右クリックし、**[!UICONTROL アクション]**／**[!UICONTROL ターゲティングディメンションのオプションを変更]**&#x200B;を選択します。
 
    ![](assets/offer_env_anonymous_001.png)
 
-1. **[!UICONTROL Next]** をクリックして、ウィザードの次の画面に進み、 **[!UICONTROL Generate a storage schema for propositions]** ボックスをオンにして **[!UICONTROL Save]**&#x200B;をクリックしま す。
+1. 「**[!UICONTROL 次へ]**」をクリックしてウィザードの次の画面に進み、「**[!UICONTROL 提案のストレージスキーマを生成]**」ボックスをオンにして、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/offer_env_anonymous_002.png)
 
@@ -59,17 +59,17 @@ By default, Interaction comes with a **[!UICONTROL Design]** environment and a *
    >
    >このボックスが既にオンになっている場合は、一度オフにしてからもう一度オンにしてください。
 
-1. Adobe Campaign creates two environments (**[!UICONTROL Design]** and **[!UICONTROL Live]** ) with targeting information from the previously enabled target mapping. この環境には、ターゲティング情報があらかじめ設定されています。
+1. 先ほど有効にしたターゲットマッピングからターゲティング情報が取得され、2 つの環境（**[!UICONTROL デザイン]**&#x200B;および&#x200B;**[!UICONTROL ライブ]**）が作成されます。この環境には、ターゲティング情報があらかじめ設定されています。
 
-   マッピングをアクティブ **[!UICONTROL Visitor]** にした場合、 **[!UICONTROL Environment dedicated to incoming anonymous interactions]** 環境のタブでボックスが自動的にチェックされ **[!UICONTROL General]** ます。
+   **[!UICONTROL 訪問者]**&#x200B;マッピングを有効にした場合、環境の「**[!UICONTROL 一般]**」タブにある「**[!UICONTROL 受信する匿名インタラクション専用の環境]**」ボックスが自動的にオンになります。
 
    このオプションを設定すると、（特に環境のオファースペースを設定する際の）匿名インタラクションに特有の機能を有効にできます。また、「識別された」環境を「匿名」環境に切り替えることができるオプションを設定することもできます。
 
-   例えば、受信者環境のオファースペース（識別されたコンタクト先）と訪問者環境に合ったオファースペース（識別されていないコンタクト先）をリンクすると、受信者が識別されている場合とそうでない場合とで異なるオファーを提供できます。For more on this, refer to [Creating offer spaces](../../interaction/using/creating-offer-spaces.md).
+   例えば、受信者環境のオファースペース（識別されたコンタクト先）と訪問者環境に合ったオファースペース（識別されていないコンタクト先）をリンクすると、受信者が識別されている場合とそうでない場合とで異なるオファーを提供できます。詳しくは、[オファースペースの作成](../../interaction/using/creating-offer-spaces.md)を参照してください。
 
    ![](assets/offer_env_anonymous_003.png)
 
 >[!NOTE]
 >
->For more information on anonymous interactions on an inbound channel, refer to [Anonymous interactions](../../interaction/using/anonymous-interactions.md).
+>インバウンドチャネルでの匿名インタラクションについて詳しくは、[匿名インタラクション](../../interaction/using/anonymous-interactions.md)を参照してください。
 

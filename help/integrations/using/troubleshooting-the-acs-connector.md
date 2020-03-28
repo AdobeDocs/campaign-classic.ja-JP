@@ -14,7 +14,7 @@ discoiquuid: 538d3b48-ff39-463f-878d-ebe085057129
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 ---
@@ -79,11 +79,11 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
    デフォルトでは、nms:recipient テーブルからの 20 個のフィールドが Campaign Standard と同期されます。同期されたフィールドの詳細なリストを参照してください。Campaign Standard で取得する必要がある追加のフィールドは、コンサルタントによってマッピングおよび設定される必要があります。
 
-   To make sure the field you want to use is available, you can check the profile resource definition from **[!UICONTROL Administration > Development > Diagnosis > Data schemas]**.
+   使用したいフィールドが利用可能であることを確認する場合は、**[!UICONTROL 管理／開発／診断／データスキーマ]**&#x200B;で、プロファイルリソース定義を確認できます。
 
    さらに、受信者に添付され、nms:recipient に関連するテーブルに格納されたすべてのデータは、デフォルトでは Campaign Standard に同期されません。
 
-   To still be able to use related data, you can perform your targeting in Campaign v7 and add additional data as explained in the [Synchronizing audiences](../../integrations/using/synchronizing-audiences.md) section, or you can refer to your consultant to explore customization possibilities.
+   関連するデータを使用できるようにするには、[オーディエンスの同期](../../integrations/using/synchronizing-audiences.md)の節で説明したように、Campaign v7 でターゲティングを実行して、追加データを追加するか、コンサルタントに問い合わせて、カスタマイズの可能性を探ることができます。
 
 * **Campaign v7 で、デフォルトの nms:recipient ではなく、別のプロファイルディメンションを使用していますが、Campaign Standard と同期するにはどうしたらよいですか。**
 
@@ -93,11 +93,11 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
 * **ワークフローを通じて Campaign Standard でプロファイルのリストを共有したいのですが、Campaign Standard でオーディエンスが見つかりません。**
 
-   Audiences can be found in the **[!UICONTROL Audiences]** menu in Campaign Standard. They have the label specified in the **[!UICONTROL List update]** activity in your Campaign v7 workflow. それらは、実装時に定義されたフォルダーマッピングに依存します。
+   オーディエンスは、Campaign Standard の&#x200B;**[!UICONTROL オーディエンス]**&#x200B;メニューで見つけることができます。Campaign v7 ワークフローの「**[!UICONTROL リストの更新]**」アクティビティで指定したラベルがあります。それらは、実装時に定義されたフォルダーマッピングに依存します。
 
-   最初に確認すべきことは、ワークフローがエラーなしで完了したかどうかです。If you notice an error on the **[!UICONTROL List update]** activity, it means that the synchronization with Campaign Standard may have failed. 問題の詳細を確認するには、//に移動 **[!UICONTROL Administration]** し **[!UICONTROL ACS Connector]** ま **[!UICONTROL Process]** す **[!UICONTROL Diagnosis]**。 This folder contains synchronization workflows triggered by the **[!UICONTROL List update]** activity execution.
+   最初に確認すべきことは、ワークフローがエラーなしで完了したかどうかです。「**[!UICONTROL リストの更新]**」アクティビティにエラーがある場合、Campaign Standard との同期が失敗している可能性があります。問題の詳細を確認するには、**[!UICONTROL 管理]**／**[!UICONTROL ACS コネクタ]**／**[!UICONTROL プロセス]**／**[!UICONTROL 診断]**&#x200B;に移動します。このフォルダーには、「**[!UICONTROL リストの更新]**」アクティビティの実行でトリガーされる同期ワークフローが含まれています。
 
-   Also, make sure that the **[!UICONTROL Share with ACS]** option is checked in the **[!UICONTROL List update]** activity and that the workflow was correctly executed.
+   また、「**[!UICONTROL リストの更新]**」アクティビティで「**[!UICONTROL ACS と共有]**」オプションがオンになっていることと、ワークフローが正しく実行されたことを確認します。
 
    リストに含まれる受信者プロファイルは、ワークフローの実行前に Campaign Standard と同期されている必要があります。Campaign Standard と同期すると、リストの受信者は Campaign Standard プロファイルに紐付けされます。つまり、そこに存在する必要があります。Campaign Standard のプロファイルと紐付けできないリストからの受信者は、無視されます。
 
@@ -107,12 +107,12 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
    接続をテストして、Campaign Standard と Campaign v7 の両方で外部アカウント設定を確認します。
 
-   * **[!UICONTROL acsDefaultRelayAccount]** 」をクリックします。
-   * **[!UICONTROL acsDefaultAccount]** (Campaign v7)を参照してください。
+   * Campaign Standard では **[!UICONTROL acsDefaultRelayAccount]**。
+   * Campaign v7 では **[!UICONTROL acsDefaultAccount]**。
 
 * **Campaign v7 と Campaign Standard の間でフォルダーをマッピングする際に使用可能なセキュリティグループがありません。**
 
-   最初に、からセキュリティグループを同期する必要がありま **[!UICONTROL Administration > ACS Connector > Rights management > Security groups]**&#x200B;す。 この操作により、Campaign Standard で使用可能なセキュリティグループを確認します。同期すると、フォルダーマッピングを設定する際にセキュリティグループを検索できます。
+   最初に、**[!UICONTROL 管理／ACS コネクタ／権限管理／セキュリティグループ]**&#x200B;で、セキュリティグループを同期する必要があります。この操作により、Campaign Standard で使用可能なセキュリティグループを確認します。同期すると、フォルダーマッピングを設定する際にセキュリティグループを検索できます。
 
 * **Campaign Standard で、プロファイル、オーディエンスまたはランディングページキャンペーンを編集できません。これはどういう意味ですか。**
 

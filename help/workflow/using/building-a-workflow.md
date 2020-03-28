@@ -14,7 +14,7 @@ discoiquuid: 2d4ccf81-cd85-4f4c-8ba8-5b5612af1e16
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -34,17 +34,17 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## 新しいワークフローの作成 {#creating-a-new-workflow}
 
-From the **[!UICONTROL Explorer]**, access a workflow folder. デフォルトでは、//を使 **[!UICONTROL Profiles and Targets]** 用で **[!UICONTROL Jobs]** きます **[!UICONTROL Targeting workflows]**。
+**[!UICONTROL エクスプローラー]**&#x200B;から、ワークフローフォルダーにアクセスします。デフォルトでは、**[!UICONTROL プロファイルとターゲット]**／**[!UICONTROL ジョブ]**／**[!UICONTROL ターゲティングワークフロー]**&#x200B;を使用できます。
 
-Click the **[!UICONTROL New]** button located above the list of workflows.
+ワークフローのリストの上にある「**[!UICONTROL 新規]**」ボタンをクリックします。
 
 ![](assets/create_a_wf_icon.png)
 
-Or, you can also use the **[!UICONTROL Create]** button in the workflow overview (**[!UICONTROL Monitoring]** > **[!UICONTROL Workflow]** link).
+または、ワークフローの概要で「**[!UICONTROL 作成]**」ボタンを使用することもできます（**[!UICONTROL 監視]**／**[!UICONTROL ワークフロー]**&#x200B;リンク）。
 
 ![](assets/create_a_wf.png)
 
-Enter a label and click **[!UICONTROL Save]**.
+ラベルを入力して「**[!UICONTROL 保存]**」をクリックします。
 
 >[!NOTE]
 >
@@ -62,10 +62,10 @@ Enter a label and click **[!UICONTROL Save]**.
 
 アクティビティは、パレットのタブごとに、カテゴリ別にグループ分けされます。利用できるタブおよびアクティビティは、ワークフロータイプに応じて異なります（テクニカルワークフロー、ターゲティングワークフロー、キャンペーンワークフロー）。
 
-* 1 番目のタブには、ターゲティングアクティビティとデータ操作アクティビティが含まれています。これらのアクティビティについて詳しくは、ターゲ [ット設定アクティビティ](../../workflow/using/about-targeting-activities.md)。
-* 2 番目のタブには、主に、その他のアクティビティの調整に使用されるスケジューリングアクティビティが含まれます。これらのアクティビティは、フロー制 [御アクティビティで詳しく説明しま](../../workflow/using/about-flow-control-activities.md)す。
-* 3 番目のタブには、ワークフロー内で使用できるツールとアクションが含まれています。これらのアクティビティの詳細は、アクシ [ョンアクティビティ](../../workflow/using/about-action-activities.md)。
-* 4 番目のタブには、メールの受信や、サーバーへのファイルの到着など、所定のイベントに基づくアクティビティが含まれています。これらのアクティビティの詳細は、イベ [ントアクティビティ](../../workflow/using/about-event-activities.md)。
+* 1 番目のタブには、ターゲティングアクティビティとデータ操作アクティビティが含まれています。これらのアクティビティについて詳しくは、[ターゲティングアクティビティ](../../workflow/using/about-targeting-activities.md)で説明しています。
+* 2 番目のタブには、主に、その他のアクティビティの調整に使用されるスケジューリングアクティビティが含まれます。これらのアクティビティについては詳しくは、[フロー制御アクティビティ](../../workflow/using/about-flow-control-activities.md)で説明しています。
+* 3 番目のタブには、ワークフロー内で使用できるツールとアクションが含まれています。これらのアクティビティについて詳しくは、[アクションアクティビティ](../../workflow/using/about-action-activities.md)で説明しています。
+* 4 番目のタブには、メールの受信や、サーバーへのファイルの到着など、所定のイベントに基づくアクティビティが含まれています。これらのアクティビティについて詳しくは、[イベントアクティビティ](../../workflow/using/about-event-activities.md)で説明しています。
 
 ダイアグラムを作成するには
 
@@ -87,7 +87,7 @@ Enter a label and click **[!UICONTROL Save]**.
 
 >[!CAUTION]
 >
->同じワークフロー内でアクティビティをコピーして貼り付けることができます。 ただし、異なるワークフロー間で貼り付けアクティビティをコピーすることはお勧めしません。 配信やスケジューラーなどのアクティビティに関連付けられた一部の設定は、宛先ワークフローの実行中に競合やエラーを引き起こす可能性があります。 代わりに、ワークフローの複製をお勧 **めします** 。 詳しくは、ワークフローの複製を参 [照してください](#duplicating-workflows)。
+>同じワークフロー内でアクティビティをコピーして貼り付けることができます。ただし、異なるワークフロー間でアクティビティをコピーして貼り付けることはお勧めしません。アクティビティに関連付けられた配信やスケジューラーなどの設定が、貼り付け先ワークフローの実行中に競合やエラーの原因となる可能性があります。代わりに、ワークフローを&#x200B;**複製**&#x200B;することをお勧めします。詳しくは、[ワークフローの複製](#duplicating-workflows)を参照してください。
 
 ### 追加のレイアウトオプション {#additional-layout-options}
 
@@ -107,23 +107,23 @@ Enter a label and click **[!UICONTROL Save]**.
 
 * **オブジェクトの整列**
 
-   アイコンを整列するには、アイコンを選択し、アイコンまたはアイコ **[!UICONTROL Align vertically]** ンをクリ **[!UICONTROL Align horizontally]** ックします。
+   アイコンを整列させるには、アイコンを選択して&#x200B;**[!UICONTROL 縦に整列]**&#x200B;アイコンまたは&#x200B;**[!UICONTROL 横に整列]**&#x200B;アイコンをクリックします。
 
    連続していないアクティビティを選択したり、1 つまたは複数アクティビティの選択を解除するには、**Ctrl** キーを同時に押します。すべての選択を解除するには、ダイアグラムの背景をクリックします。
 
 * **画像の管理**
 
-   ダイアグラムの背景画像や、各種アクティビティを表す画像をカスタマイズできます。アクティビティ [画像の管理を参照してください](../../workflow/using/managing-activity-images.md)。
+   ダイアグラムの背景画像や、各種アクティビティを表す画像をカスタマイズできます。[アクティビティ画像の管理](../../workflow/using/managing-activity-images.md)を参照してください。
 
 ## アクティビティの設定 {#configuring-activities}
 
-Double-click an activity to configure it or right-click and select **[!UICONTROL Open...]**.
+アクティビティを設定するには、ダブルクリックして開くか、右クリックして「**[!UICONTROL 開く]**」を選択します。
 
 >[!NOTE]
 >
 >Campaign ワークフローアクティビティについて詳しくは、[この節](../../workflow/using/about-activities.md)を参照してください。
 
-1 番目のタブには、基本設定が含まれます。The **[!UICONTROL Advanced]** tab contains the additional parameters, which are used particularly for defining behavior when an error is encountered, specifying the execution duration for an activity, and for entering an initialization script.
+1 番目のタブには、基本設定が含まれます。「**[!UICONTROL 詳細設定]**」タブには、エラー発生時の動作の定義や、アクティビティの実行時間の指定、初期化スクリプトの入力に使用される追加のパラメータが含まれています。
 
 アクティビティへの理解を深め、ワークフローの読みやすさを改善するには、アクティビティにコメントを入力します。入力したコメントは、オペレーターがアクティビティの上にマウスを置くと表示されます。
 
@@ -133,7 +133,7 @@ Double-click an activity to configure it or right-click and select **[!UICONTROL
 
 ターゲティングワークフローにより、配信ターゲットをいくつか作成できます。ワークフローアクティビティを使用して、クエリを作成し、指定した条件に基づく和集合または除外を定義して、スケジューリングを追加することができます。このターゲティングの結果は、配信アクションのターゲットとして機能するリストに自動転送できます。
 
-これらのアクティビティに加えて、データ管理の各種オプションを使用することで、データを操作して、高度な機能にアクセスし、複雑なターゲティングの問題を解決できます。For more on this, refer to [Data Management](../../workflow/using/targeting-data.md#data-management).
+これらのアクティビティに加えて、データ管理の各種オプションを使用することで、データを操作して、高度な機能にアクセスし、複雑なターゲティングの問題を解決できます。詳しくは、[データ管理](../../workflow/using/targeting-data.md#data-management)を参照してください。
 
 これらのアクティビティはすべて、1 番目のワークフロータブにあります。
 
@@ -141,7 +141,7 @@ Double-click an activity to configure it or right-click and select **[!UICONTROL
 >
 >ターゲティングアクティビティについて詳しくは、この[節](../../workflow/using/about-activities.md)を参照してください。
 
-ターゲット設定ワークフローは、Adobe Campaignツリーのノ **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** ードまたはホームページのメニューを介して作 **[!UICONTROL Profiles and Targets > Targeting workflows]** 成および編集できます。
+ターゲティングワークフローは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL プロファイルとターゲット／ジョブ／ターゲティングワークフロー]**&#x200B;ノード経由、または&#x200B;**[!UICONTROL プロファイルとターゲット／ターゲティングワークフロー]**&#x200B;メニューから作成し、編集できます。
 
 ![](assets/target_wf.png)
 
@@ -151,21 +151,21 @@ Double-click an activity to configure it or right-click and select **[!UICONTROL
 
 ターゲティングデータの作成ステージの手順は、次のとおりです。
 
-1. For identifying data in the database, refer to [Creating queries](../../workflow/using/targeting-data.md#creating-queries).
-1. 配信ニーズを満たすデータを準備する方法については、「データの [強化と変更」を参照してくださ](../../workflow/using/targeting-data.md#enriching-and-modifying-data)い。
-1. For using data to perform updates or within a delivery, refer to [Updating the database](../../workflow/using/how-to-use-workflow-data.md#updating-the-database).
+1. データベース内のデータの識別については、[クエリの作成](../../workflow/using/targeting-data.md#creating-queries)を参照してください。
+1. 配信のニーズを満たすデータを準備する方法について詳しくはは、[データのエンリッチメントと変更](../../workflow/using/targeting-data.md#enriching-and-modifying-data)を参照してください。
+1. 更新を実行するためのデータ使用、または配信内でのデータ使用について詳しくは、[データベースの更新](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)を参照してください。
 
-ターゲティング中に実行されたすべてのエンリッチメントと処理の結果はパーソナライゼーションフィールドに保存され、このフィールド経由でアクセスされます。具体的には、特にパーソナライズしたメッセージの作成などに使用されます。For more on this, refer to [Target data](../../workflow/using/executing-a-workflow.md#target-data)
+ターゲティング中に実行されたすべてのエンリッチメントと処理の結果はパーソナライゼーションフィールドに保存され、このフィールド経由でアクセスされます。具体的には、特にパーソナライズしたメッセージの作成などに使用されます。詳しくは、[ターゲットデータ](../../workflow/using/executing-a-workflow.md#target-data)を参照してください。
 
 ### ターゲティングとフィルタリングディメンション {#targeting-and-filtering-dimensions}
 
 データのセグメント化操作では、ターゲティングキーは、フィルタリングディメンションとマッピングされます。ターゲティングディメンションは、受信者、契約の受益者、オペレーター、購読者など、ターゲットされる母集団を操作ごとに定義します。フィルタリングディメンションを使用して契約の所有者、ニュースレターの購読者など、特定の条件に基いて母集団を選択できます。
 
-例えば、5年以上生命保険の契約を持つ顧客を選択するには、次のターゲットディメンションを選択します。クライ **アント** 、および次のフィルターディメンション：契 **約者**。 次に、クエリアクティビティ内でフィルタリング条件を定義します。
+例えば、5 年以上生命保険の契約を持つ顧客を選択するには、ターゲティングディメンションで&#x200B;**クライアント**&#x200B;を選択し、フィルタリングディメンションで「**契約保持者**」を選択します。次に、クエリアクティビティ内でフィルタリング条件を定義します。
 
 ターゲティングディメンションの選択ステージでは、互換性のあるフィルタリングディメンションだけがインターフェイスに表示されます。
 
-これらの 2 つのディメンションは、関連付けられている必要があります。Thus, the content of the **[!UICONTROL Filtering dimension]** list depends on the targeting dimension specified in the first field.
+これらの 2 つのディメンションは、関連付けられている必要があります。つまり、「**[!UICONTROL フィルタリングディメンション]**」リストの内容は、リストフィールド内に指定されたターゲティングディメンションにより異なります。
 
 例えば、受信者の場合（「**受信者**」）、次のフィルタリングディメンションが使用可能になります。
 
@@ -177,15 +177,15 @@ Double-click an activity to configure it or right-click and select **[!UICONTROL
 
 ## キャンペーンワークフロー {#campaign-workflows}
 
-For each campaign, you can create workflows to be executed from the **[!UICONTROL Targeting and workflows]** tab. これらのワークフローは、各キャンペーンに固有です。
+キャンペーンごとに、「**[!UICONTROL ターゲティングとワークフロー]**」タブから実行されるワークフローを作成できます。これらのワークフローは、各キャンペーンに固有です。
 
 ![](assets/wf-in-op-edit-delivery-tab.png)
 
-このタブには、すべてのワークフロー用のものと同じアクティビティが含まれます。They are presented in the [Implementation steps](#implementation-steps-) section.
+このタブには、すべてのワークフロー用のものと同じアクティビティが含まれます。詳しくは、[実装の手順](#implementation-steps-)の節を参照してください。
 
 ターゲティングキャンペーンに加えて、キャンペーンワークフローにより、すべての使用可能なチャネル用の配信全体を作成して設定できます。ワークフローで作成されたこれらの配信は、キャンペーンのダッシュボードから使用できます。
 
-すべてのキャンペーンワークフローはノードの下に集 **[!UICONTROL Administration > Production > Objects created automatically > Campaign workflows]** 中します。
+すべてのキャンペーンワークフローは、**[!UICONTROL 管理／プロダクション／自動作成されたオブジェクト／キャンペーンワークフロー]**&#x200B;ノードの下に集中管理されます。
 
 ![](assets/campaigns_wf.png)
 
@@ -193,21 +193,21 @@ For each campaign, you can create workflows to be executed from the **[!UICONTRO
 
 ## テクニカルワークフロー {#technical-workflows}
 
-テクニカルワークフローは、Adobe Campaign に付属し、そのまま使用できる形で提供されます。テクニカルワークフローとは、サーバー上で定期的に実行するようにスケジュールされた操作またはジョブです。テクニカルワークフローを使用して、データベースのメンテナンスを実施したり、配信に関するトラッキング情報を転送したり、配信に対する暫定的なプロセスを設定することができます。技術ワークフローはノードを介して設定 **[!UICONTROL Administration > Production > Technical workflows]** されます。
+テクニカルワークフローは、Adobe Campaign に付属し、そのまま使用できる形で提供されます。テクニカルワークフローとは、サーバー上で定期的に実行するようにスケジュールされた操作またはジョブです。テクニカルワークフローを使用して、データベースのメンテナンスを実施したり、配信に関するトラッキング情報を転送したり、配信に対する暫定的なプロセスを設定することができます。テクニカルワークフローは、**[!UICONTROL 管理／プロダクション／テクニカルワークフロー]**&#x200B;ノード経由で設定できます。
 
 ![](assets/navtree.png)
 
 テクニカルワークフローの作成には、ネイティブテンプレートを使用可能です。ニーズに合わせてテンプレートをカスタマイズすることもできます。
 
-The **[!UICONTROL Campaign process]** subfolder centralizes the workflows required for executing processes within the campaigns: task notification, stock management, cost calculation, etc.
+タスク通知や在庫管理、コスト計算といった、キャンペーンでのプロセスの実行に必要なワークフローは、**[!UICONTROL キャンペーンプロセス]**&#x200B;サブフォルダーで集中管理されます。
 
 >[!NOTE]
 >
 >各モジュールにインストールされているテクニカルワークフローのリストは、[専用のセクション](../../workflow/using/about-technical-workflows.md)から使用できます。
 
-You can create other technical workflows in the **[!UICONTROL Administration > Production > Technical workflows]** node of the tree structure. ただし、このプロセスを実行できるのは、エキスパートユーザーに限られます。
+その他のテクニカルワークフローは、ツリー構造の&#x200B;**[!UICONTROL 管理／プロダクション／テクニカルワークフロー]**&#x200B;ノードで作成できます。ただし、このプロセスを実行できるのは、エキスパートユーザーに限られます。
 
-提供されるアクティビティは、ターゲティングワークフローで提供されるものと同じです。For more on this, refer to [Implementation steps](#implementation-steps-).
+提供されるアクティビティは、ターゲティングワークフローで提供されるものと同じです。詳しくは、[実装の手順](#implementation-steps-)を参照してください。
 
 ## ワークフローテンプレート {#workflow-templates}
 
@@ -215,7 +215,7 @@ You can create other technical workflows in the **[!UICONTROL Administration > P
 
 既存のテンプレートに基づいて新規ワークフローテンプレートを作成したり、ワークフローをテンプレートに直接変換することができます。
 
-Workflow templates are stored in the **[!UICONTROL Resources > Templates > Workflow templates]** node of the Adobe Campaign tree.
+ワークフローテンプレートは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／テンプレート／ワークフローテンプレート]**&#x200B;ノードに保存されます。
 
 ![](assets/s_advuser_wf_template_tree.png)
 
@@ -225,44 +225,44 @@ Workflow templates are stored in the **[!UICONTROL Resources > Templates > Workf
 
 ## ワークフローの複製 {#duplicating-workflows}
 
-様々なタイプのワークフローを複製できます。 複製後は、ワークフローの変更はワークフローのコピーに引き継がれません。
+様々なタイプのワークフローを複製できます。複製後は、ワークフローの変更は複製されたワークフローには引き継がれません。
 
 >[!CAUTION]
 >
->コピー&amp;ペーストはワークフローで使用できますが、「複製」を使用することをお勧め **します**。 アクティビティがコピーされると、その設定全体が保持されます。 配信アクティビティ（電子メール、SMS、プッシュ通知など）の場合は、アクティビティに添付された配信オブジェクトもコピーされ、クラッシュする可能性があります。
+>コピー＆ペーストはワークフローで使用できますが、「**複製**」を使用することを推奨します。アクティビティがコピーされると、その設定全体が保持されます。配信アクティビティ（E メール、SMS、プッシュ通知など）の場合は、アクティビティに添付された配信オブジェクトもコピーされ、クラッシュの原因となる可能性があります。
 
 1. ワークフローを右クリックします。
-1. 「複製」を **クリックしま**&#x200B;す。
+1. 「**複製**」をクリックします。
 
    ![](assets/duplicate-workflows.png)
 
 1. ワークフローウィンドウで、ワークフローのラベルを変更します。
 1. 「**保存**」をクリックします。
 
-重複した機能は、キャンペーンのビューでは直接使用できません。
+複製の機能は、キャンペーンのビューでは直接利用できません。
 
-ただし、インスタンス上のすべてのワークフローを表示するビューを作成できます。 このビューでは、「複製先」を使用してワークフローを複 **製できます**。
+ただし、インスタンス上のすべてのワークフローを表示するビューの作成は可能です。このビューでは、**別の場所へ複製**&#x200B;を使用してワークフローを複製できます。
 
 **まず、ビューを作成します。**
 
-1. エクスプ **ローラ**&#x200B;で、ビューを作成するフォルダに移動します。
-1. 右クリックし、新しいフォルダーを追加/ **プロセスに移動し** 、「ワ **ークフロー**」を選 **択します**。
+1. **エクスプローラー**&#x200B;で、ビューを作成するフォルダーに移動します。
+1. 右クリックし、**新しいフォルダーを追加**／**プロセス**&#x200B;に移動し、**ワークフロー**&#x200B;を選択します。
 
    ![](assets/add-new-folder-workflows.png)
 
-新しいフォルダ **ー** 「Workflows」が作成されます。
+新規フォルダー「**ワークフロー**」が作成されます。
 
-1. Right-click and select **Properties**.
-1. 「制限」 **で**、「 **Folder is a view** 」をチェックし、「 **Save**」をクリックします。
+1. 右クリックして、**プロパティ**&#x200B;を選択します。
+1. 「**制限**」で「**フォルダーのビュー化**」をチェックし、「**保存**」をクリックします。
 
    ![](assets/folder-is-a-view.png)
 
-これで、フォルダーにインスタンスのすべてのワークフローが入力されます。
+これで、フォルダーにインスタンスのすべてのワークフローが追加されました。
 
 **キャンペーンワークフローの複製**
 
 1. ワークフロービューでキャンペーンワークフローを選択します。
-1. [複製先]を右ク **リックします**。
+1. 右クリックして&#x200B;**別の場所へ複製**を選択します。
    ![](assets/duplicate-to-right-click.png)
 1. ラベルを変更します。
 1. 「**保存**」をクリックします。

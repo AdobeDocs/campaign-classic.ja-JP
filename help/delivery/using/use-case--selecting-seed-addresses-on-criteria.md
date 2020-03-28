@@ -14,7 +14,7 @@ discoiquuid: fa8aab62-e182-4388-aa23-c255b0dbd42e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 # 使用例：条件によるシードアドレスの選択{#use-case-selecting-seed-addresses-on-criteria}
 
-In the framework of a delivery or a campaign, the **[!UICONTROL Edit the dynamic condition...]** link lets you choose seed addresses based on specific selection criteria.
+配信またはキャンペーンのフレームワーク内で、「**[!UICONTROL 動的条件を編集]**」リンクをクリックすると、特定の選択条件に基づいてシードアドレスを指定できます。
 
 この使用例では、**My online library** というサイトが、顧客の読み物の好みに応じてニュースレターのコンテンツをパーソナライズするとします。
 
@@ -37,7 +37,7 @@ In the framework of a delivery or a campaign, the **[!UICONTROL Edit the dynamic
 
 ## 手順 1 - 配信の作成 {#step-1---creating-a-delivery}
 
-配信の作成手順について詳しくは、「電子メール配信の [作成」の節を参照してください](../../delivery/using/creating-an-email-delivery.md) 。
+配信の作成手順について詳しくは、[E メール配信の作成](../../delivery/using/creating-an-email-delivery.md)の節で説明しています。
 
 この例では、配信責任者がニュースレターを作成し、受信者を選択します。
 
@@ -51,16 +51,16 @@ In the framework of a delivery or a campaign, the **[!UICONTROL Edit the dynamic
 
 スキーマの拡張について詳しくは、[設定ガイド](../../configuration/using/data-schemas.md)を参照してください。
 
-1. ノードで、 **[!UICONTROL Administration > Configuration > Data schemas]** アイコンをクリック **[!UICONTROL New]** します。
-1. ウィンドウ **[!UICONTROL Creation of a data schema]** で、オプションを選択 **[!UICONTROL Extension of a schema]** し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. **[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードで、**[!UICONTROL 新規]**&#x200B;アイコンをクリックします。
+1. **[!UICONTROL データスキーマの作成]**&#x200B;ウィンドウで、「**[!UICONTROL スキーマの拡張]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/dlv_seeds_usecase_09.png)
 
-1. ソーススキーマ **[!UICONTROL Seed addresses]** を選択し、「 **doc** 」と入力してをク **[!UICONTROL Namespace]** リックしま **[!UICONTROL Ok]**&#x200B;す。
+1. 「**[!UICONTROL シードアドレス]**」ソーススキーマを選択し、「**[!UICONTROL 名前空間]**」に「**doc**」と入力して、「**[!UICONTROL OK]**」をクリックします。
 
    ![](assets/dlv_seeds_usecase_10.png)
 
-1. クリック **[!UICONTROL Save]**.
+1. 「**[!UICONTROL 保存]**」をクリックします。
 1. 次に示すコードをコピーし、スキーマ編集ウィンドウで、下のスクリーンショットの場所に貼り付けます。
 
    ```
@@ -74,7 +74,7 @@ In the framework of a delivery or a campaign, the **[!UICONTROL Edit the dynamic
 
    ![](assets/dlv_seeds_usecase_20.png)
 
-   次に、次の行をコピーして要素の下に貼り付け **[!UICONTROL Seed to insert in the export files]** ます。
+   さらに、次のコードをコピーし、「**[!UICONTROL エクスポートファイルに挿入するシード]**」の要素の下に貼り付けます。
 
    ```
        <element aggregate="doc:seedMember:common">
@@ -83,30 +83,30 @@ In the framework of a delivery or a campaign, the **[!UICONTROL Edit the dynamic
 
    ![](assets/dlv_seeds_usecase_29.png)
 
-   In this case, you are specifying that a new enumeration named **[!UICONTROL Department]** has been created in the seed address table, and it is based on the standard **[!UICONTROL @company]** enumeration template (labeled under the name **Company** in the seed address form).
+   これは、シードアドレステーブル内に「**[!UICONTROL 部門]**」という新しい列挙を作成したことと、その列挙が標準の **[!UICONTROL @company]** 列挙テンプレート（シードアドレスフォーム内の「**会社**」という名前の下にラベルがあります）に基づくものであることを示すための変更です。
 
-1. クリック **[!UICONTROL Save]**.
-1. メニューで、 **[!UICONTROL Tools > Advanced]** オプションを選択 **[!UICONTROL Update database structure]** します。
+1. 「**[!UICONTROL 保存]**」をクリックします。
+1. **[!UICONTROL ツール／詳細設定]**&#x200B;メニューで、「**[!UICONTROL データベース構造を更新]**」オプションを選択します。
 
    ![](assets/dlv_seeds_usecase_12.png)
 
-1. When the update wizard is displayed, click the **[!UICONTROL Next]** button to access the Edit tables window: changes carried out in the seed address data schema require a structure update.
+1. 更新ウィザードが表示されたら、「**[!UICONTROL 次へ]**」ボタンをクリックし、テーブルを編集ウィンドウにアクセスします。シードアドレスのデータスキーマに加えた変更に合わせて、構造を更新する必要があります。
 
    ![](assets/dlv_seeds_usecase_13.png)
 
-1. ウィザードの指示に従って、更新を実行するページが表示されるまで操作を進めます。ボタンをクリッ **[!UICONTROL Start]** クします。
+1. ウィザードの指示に従って、更新を実行するページが表示されるまで操作を進めます。「**[!UICONTROL 開始]**」ボタンをクリックします。
 
    ![](assets/dlv_seeds_usecase_14.png)
 
    更新が完了したら、ウィザードを閉じます。
 
-1. Adobe Campaign との接続を一旦切断し、再接続します。これで、シードアドレスのデータスキーマに加えた変更が有効になります。In order for them to be visible from the seed address screen, you must update the associated **[!UICONTROL Input form]**. 「入力フォーム [の更新」の節を参照](#updating-the-input-form) 。
+1. Adobe Campaign との接続を一旦切断し、再接続します。これで、シードアドレスのデータスキーマに加えた変更が有効になります。ただし、変更をシードアドレス画面の表示にも反映させるには、スキーマに対応する&#x200B;**[!UICONTROL 入力フォーム]**&#x200B;を更新する必要があります。[入力フォームの更新](#updating-the-input-form)の節を参照してください。
 
 #### リンクされたテーブルに基づくデータスキーマの拡張 {#extending-the-data-schema-from-a-linked-table}
 
 シードアドレスのデータスキーマでは、受信者データスキーマ「受信者」（nms）にリンクされたテーブル内の値を使用できます。
 
-For example, the user would like to integrate the **[!UICONTROL Internet Extension]** found in the **[!UICONTROL Country]** table that is linked to the recipients schema.
+例えば、受信者スキーマにリンクされている「**[!UICONTROL 国]**」テーブル内の「**[!UICONTROL インターネット拡張]**」を統合する必要があるとします。
 
 ![](assets/dlv_seeds_usecase_06.png)
 
@@ -123,28 +123,28 @@ For example, the user would like to integrate the **[!UICONTROL Internet Extensi
 
 この記述は次のことを示しています。
 
-* that the user wants to create a new element named **[!UICONTROL Internet Extension]**,
-* that this element comes from the **[!UICONTROL Country]** table.
+* 「**[!UICONTROL インターネット拡張]**」という新しい要素を作成しようとしている
+* この要素は「**[!UICONTROL 国]**」テーブルから取得される
 
 >[!CAUTION]
 >
 >リンクされたテーブル名には、そのリンク先テーブルの **xpath-dst** を指定する必要があります。
 >
->This can be found in the **[!UICONTROL Country]** element in the recipients table.
+>これは受信者テーブルの「**[!UICONTROL 国]**」要素に含まれています。
 
 ![](assets/dlv_seeds_usecase_07.png)
 
-The user can then follow from **step 5** of the section, and update the **[!UICONTROL Input form]** of the seed addresses.
+次に、**手順 5** に従ってシードアドレスの&#x200B;**[!UICONTROL 入力フォーム]**&#x200B;を更新します。
 
-「入力フォーム [の更新」の節を参照](#updating-the-input-form) 。
+[入力フォームの更新](#updating-the-input-form)の節を参照してください。
 
 #### 入力フォームの更新 {#updating-the-input-form}
 
-1. ノードで、 **[!UICONTROL Administration > Configuration > Input forms]** 入力フォームのシードアドレスを探します。
+1. **[!UICONTROL 管理／設定／入力フォーム]**&#x200B;ノードで、シードアドレスの入力フォームを見つけます。
 
    ![](assets/dlv_seeds_usecase_19.png)
 
-1. Edit the form and insert the following line in the **[!UICONTROL Recipient]** container.
+1. フォームを編集し、「**[!UICONTROL 受信者]**」コンテナ内に次の行を挿入します。
 
    ```
    <input xpath="@workField"/>
@@ -153,11 +153,11 @@ The user can then follow from **step 5** of the section, and update the **[!UICO
    ![](assets/dlv_seeds_usecase_21.png)
 
 1. 変更を保存します。
-1. いずれかのシードアドレスを開きます。フィールド **[!UICONTROL Department]** がテーブルに表示 **[!UICONTROL Recipient]** されます。
+1. いずれかのシードアドレスを開きます。「**[!UICONTROL 受信者]**」テーブル内に、「**[!UICONTROL 部門]**」フィールドが表示されます。
 
    ![](assets/dlv_seeds_usecase_22.png)
 
-1. Edit the seed addresses that you want to use for the delivery and enter **Purchasing** as the value in the **[!UICONTROL Department]** field.
+1. 配信に使用するシードアドレスを編集し、「**[!UICONTROL 部門]**」フィールドの値として「**購買**」を入力します。
 
 ## 手順 3 - 条件の定義 {#step-3---defining-the-condition}
 
@@ -167,11 +167,11 @@ The user can then follow from **step 5** of the section, and update the **[!UICO
 
    ![](assets/dlv_seeds_usecase_01.png)
 
-1. リンクをクリ **[!UICONTROL To]** ックし、タブをク **[!UICONTROL Seed addresses]** リックしてリンクにアクセス **[!UICONTROL Edit the dynamic condition...]** します。
+1. 「**[!UICONTROL 宛先]**」リンク、「**[!UICONTROL シードアドレス]**」タブの順にクリックし、「**[!UICONTROL 動的条件を編集]**」リンクにアクセスします。
 
    ![](assets/dlv_seeds_usecase_02.png)
 
-1. 目的に合ったシードアドレスを抽出するための式を選択します。ここで、ユーザーが式を選 **[!UICONTROL Department (@workField)]** 択します。
+1. 目的に合ったシードアドレスを抽出するための式を選択します。この例では、「**[!UICONTROL 部門（@workField）]**」式を選択します。
 
    ![](assets/dlv_seeds_usecase_03.png)
 
@@ -183,20 +183,20 @@ The user can then follow from **step 5** of the section, and update the **[!UICO
    >
    >先ほど作成したスキーマ拡張は&#x200B;**受信者**&#x200B;スキーマに基づいており、上図の画面に表示されている値は、**受信者**&#x200B;スキーマの列挙値に基づくものです。
 
-1. クリック **[!UICONTROL Ok]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
 
-   The query is displayed in the **[!UICONTROL Select target]** window.
+   **[!UICONTROL ターゲットを選択]**&#x200B;ウィンドウにクエリが表示されます。
 
    ![](assets/dlv_seeds_usecase_04.png)
 
-1. 「**[!UICONTROL Ok]**」をクリックして、クエリを承認します。
-1. Analyze your delivery then click on the **[!UICONTROL Delivery]** tab to access the delivery logs.
+1. 「**[!UICONTROL OK]**」をクリックして、クエリを承認します。
+1. 配信を分析し、「**[!UICONTROL 配信]**」タブをクリックして配信ログを表示します。
 
    購買部門のシードアドレスは、受信者や他のシードアドレスと同じように、配信待ちとして表示されます。
 
    ![](assets/dlv_seeds_usecase_05.png)
 
-1. Click the **[!UICONTROL Send]** button to start the delivery.
+1. 「**[!UICONTROL 送信]**」ボタンをクリックして配信を開始します。
 
    購買部門のメンバーはこの配信のシードアドレスに含まれているので、購買部門の各メンバーの E メール受信ボックスにも配信が届きます。
 

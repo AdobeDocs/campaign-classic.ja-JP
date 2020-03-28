@@ -14,7 +14,7 @@ discoiquuid: a4441820-1b3d-4bac-a6e3-1c9c14466d19
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 # サブワークフロー{#sub-workflow}
 
-The **[!UICONTROL Sub-workflow]** activity lets you trigger the execution of another workflow and recover the result. このアクティビティにより、簡素化されたインターフェイス経由で、複雑なワークフローを使用できます。
+**[!UICONTROL サブワークフロー]**&#x200B;を使用すれば、別のワークフローの実行をトリガーし、結果を取得できます。このアクティビティにより、簡素化されたインターフェイス経由で、複雑なワークフローを使用できます。
 
 1 つのワークフローで複数のサブワークフローを呼び出すことができます。サブワークフローは、同期して実行されます。
 
@@ -31,31 +31,31 @@ The **[!UICONTROL Sub-workflow]** activity lets you trigger the execution of ano
 >サブワークフローが正常に動作するよう、一番小さい数の「到着」タイプのジャンプを 1 つのみ、一番大きい数の「開始」タイプのジャンプを 1 つのみにする必要があります。例えば、優先度が 1、2、および 3 の「開始」ジャンプタイプがある場合、優先度 3 の「開始」ジャンプタイプを 1 つにする必要があります。
 
 1. 別のワークフローでサブワークフローとして使用するワークフローを作成します。
-1. Insert a **[!UICONTROL Jump (end point)]** activity with a priority of 1 at the beginning of the workflow. 「到着」タイプジャンプが複数ある場合、Adobe Campaign は一番小さい数の「到着」ジャンプを使用します。
+1. ワークフローの最初に、優先度が 1 の&#x200B;**[!UICONTROL ジャンプ (終了点)]** アクティビティを挿入します。「到着」タイプジャンプが複数ある場合、Adobe Campaign は一番小さい数の「到着」ジャンプを使用します。
 
-   Insert a **[!UICONTROL Jump (start point)]** activity with a priority of 2 at the end of the workflow. 「開始」タイプジャンプが複数ある場合、Adobe Campaign は一番大きい数の「開始」ジャンプを使用します。
+   ワークフローの最後に、優先度が 2 の&#x200B;**[!UICONTROL ジャンプ (開始点)]** アクティビティを挿入します。「開始」タイプジャンプが複数ある場合、Adobe Campaign は一番大きい数の「開始」ジャンプを使用します。
 
    ![](assets/subworkflow_jumps.png)
 
    >[!NOTE]
    >
-   >If the sub-workflow activity references a workflow with several **[!UICONTROL Jump]** activities, the sub-workflow is executed between the &quot;arrival&quot; type jump with the lowest number and the &quot;start&quot; type jump with the highest number.
+   >サブワークフローアクティビティが複数の「**[!UICONTROL ジャンプ]**」アクティビティを伴うワークフローを参照している場合、サブワークフローは最小数値の「到着」タイプジャンプと、最大数値の「開始」タイプジャンプの間に実行されます。
 
 1. この「サブワークフロー」を完了して保存します。
 1. 「マスター」ワークフローを作成します。
-1. Insert a **[!UICONTROL Sub-workflow]** activity and open it.
-1. Select the workflow that you want to use from the **[!UICONTROL Workflow template]** drop-down list.
+1. **[!UICONTROL サブワークフロー]**&#x200B;アクティビティを挿入して開きます。
+1. **[!UICONTROL ワークフローテンプレート]**&#x200B;ドロップダウンリストから、使用するワークフローを選択します。
 
    ![](assets/subworkflow_selection.png)
 
 1. さらに、参照先ワークフローを変更するための設定スクリプトを追加することもできます。
-1. クリック **[!UICONTROL Ok]**. It will automatically create an outbound transition with the label of the **[!UICONTROL Jump (start point)]** activity from the selected workflow.
+1. 「**[!UICONTROL OK]**」をクリックします。これにより、選択したワークフローから、**[!UICONTROL ジャンプ (開始点)]** アクティビティラベルのついたアウトバウンドトランジションを自動的に作成します。
 
    ![](assets/subworkflow_outbound.png)
 
 1. ワークフローを実行します。
 
-Once run, the workflow that was called as a sub-workflow is still in **[!UICONTROL Being edited]** status, which means the following:
+実行すると、ワークフローはサブワークフローと呼ばれ、引き続き「**[!UICONTROL 編集中]**」ステータスとなります。
 
 * トランジションを右クリックしてターゲットを表示することはできません。
 * 中間母集団の数は表示できません。
@@ -63,7 +63,7 @@ Once run, the workflow that was called as a sub-workflow is still in **[!UICONTR
 
 実際、このワークフローはテンプレートに過ぎません。「マスター」ワークフローから呼び出すと、このテンプレートに基づいて新しいサブワークフローが作成されます。
 
-## Input parameters (optional) {#input-parameters--optional-}
+## 入力パラメーター（オプション）{#input-parameters--optional-}
 
 * tableName
 * schema

@@ -11,7 +11,7 @@ iscontainer: true
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0cdc8f268bb7478ebb3020dcde7dd33d0819a81
 
 ---

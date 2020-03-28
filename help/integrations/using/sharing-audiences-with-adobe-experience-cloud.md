@@ -14,7 +14,7 @@ discoiquuid: 8f295058-5a78-4512-9bdf-d5f022457e10
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 418a36cd51106dae2b4201c8b5abda9b05285a18
 
 ---
@@ -26,10 +26,10 @@ source-git-commit: 418a36cd51106dae2b4201c8b5abda9b05285a18
 >
 >この統合を使用するには、IMS を実装する必要があります。[IMS](../../integrations/using/about-adobe-id.md) についての節を参照してください。
 
-Adobe Campaign では、Adobe Marketing Cloud ソリューションやコアサービスとオーディエンスおよびセグメントの交換や共有をおこなうことができます。そのためには、**Adobe Campaign** を **People コアサービス**（**Profiles &amp; Audiences コアサービス**&#x200B;とも呼ばれます）または Adobe Audience Manager と統合する必要があります。統合すると、次のことが可能になります。
+Adobe Campaign では、Adobe Experience Cloud ソリューションやコアサービスとオーディエンスおよびセグメントの交換や共有をおこなうことができます。そのためには、**Adobe Campaign** を **People コアサービス**（**Profiles &amp; Audiences コアサービス**&#x200B;とも呼ばれます）または Adobe Audience Manager と統合する必要があります。統合すると、次のことが可能になります。
 
 * 共有されたオーディエンスまたはセグメントを、他の Adobe Experience Cloud ソリューションから Adobe Campaign にインポートします。オーディエンスは Adobe Campaign のリストを使用してインポートできます。
-* Adobe Experience Cloud 共有オーディエンスのフォームでリストをエクスポートします。これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。Audiences can be exported after targeting in a workflow, using a dedicated **[!UICONTROL Update shared audience]** activity.
+* Adobe Experience Cloud 共有オーディエンスのフォームでリストをエクスポートします。これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。オーディエンスは、ワークフローでターゲティングした後、専用の&#x200B;**[!UICONTROL 共有オーディエンスの更新]**&#x200B;アクティビティを使用してエクスポートできます。
 
 >[!CAUTION]
 >

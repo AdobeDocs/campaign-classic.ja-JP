@@ -14,7 +14,7 @@ discoiquuid: e2c6e273-1640-4f46-a80e-0cecb06e2769
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 # ターゲットマッピングの選択{#selecting-a-target-mapping}
 
-By default, delivery templates target **[!UICONTROL Recipients]**. したがって、ターゲットマッピングには **nms:recipient** テーブルのフィールドが使用されます。Adobe Campaign では、必要に応じて、これ以外のターゲットマッピングを配信に使用することもできます。
+配信テンプレートのデフォルトのターゲットは「**[!UICONTROL 受信者]**」です。したがって、ターゲットマッピングには **nms:recipient** テーブルのフィールドが使用されます。Adobe Campaign では、必要に応じて、これ以外のターゲットマッピングを配信に使用することもできます。
 
 ![](assets/delivery_select_mapping.png)
 

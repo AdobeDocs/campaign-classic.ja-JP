@@ -14,7 +14,7 @@ discoiquuid: 4ec34980-62a2-47b9-b103-de4290925624
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
 
 # ユースケース：E メール配信の作成{#use-case-creating-an-email-delivery}
 
-この使用事例では、Adobe Campaignデジタルコンテンツエディター(DCE)を使用して電子メール配信をデザインする手順を学習します。
+この使用例では、Adobe Campaign デジタルコンテンツエディター（DCE）を使用した E メール配信をデザインするための手順を説明します。
 
 最終目標は、次の要素を含むパーソナライズされたテンプレートを使用して配信を作成することです。
 
@@ -35,17 +35,17 @@ source-git-commit: 36beb1eca48c698634c7548e0f931ab3fe17c021
 >
 >将来の配信のコンテンツをホストするために、開始する前に少なくとも 1 つの **HTML テンプレート**&#x200B;が設定されている必要があります。
 >
->配信で、( **[!UICONTROL Properties]** タブ内の)がに設 **[!UICONTROL Content editing mode]** 定されてい **[!UICONTROL Advanced]** ることを確認します **[!UICONTROL DCE]**。 編集者の最適な操作を確実に行うには、「コンテンツ編集のベス [トプラクティス」を参照します](../../web/using/content-editing-best-practices.md)。
+>配信&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、「**[!UICONTROL コンテンツ編集モード]**」（「**[!UICONTROL 詳細]**」タブ）が「**[!UICONTROL DCE]**」に設定されていることを確認します。編集者の最適な操作を確認するには、[コンテンツ編集のベストプラクティス](../../web/using/content-editing-best-practices.md)を参照してください。
 
 ## 手順 1 - 配信の作成 {#step-1---creating-a-delivery}
 
-To create a new delivery, place your cursor in the **Campaigns** tab and click **Deliveries**. 次に、既存の配信のリストの上にある「**作成**」ボタンをクリックします。配信の作成について詳しくは、[このページ](../../delivery/using/about-email-channel.md)を参照してください。
+新しい配信を作成するには、カーソルを「**キャンペーン**」タブに置いて、「**配信**」をクリックします。次に、既存の配信のリストの上にある「**作成**」ボタンをクリックします。配信の作成について詳しくは、[このページ](../../delivery/using/about-email-channel.md)を参照してください。
 
 ![](assets/delivery_step_1.png)
 
 ## 手順 2 - テンプレートの選択 {#step-2---selecting-a-template}
 
-配信テンプレートを選択して、配信に名前を付けます。この名前は、Adobe Campaign コンソールのユーザーにのみ表示され、受信者には表示されません。ただし、この見出しは、配信のリストに表示されます。クリック **[!UICONTROL Continue]**.
+配信テンプレートを選択して、配信に名前を付けます。この名前は、Adobe Campaign コンソールのユーザーにのみ表示され、受信者には表示されません。ただし、この見出しは、配信のリストに表示されます。「**[!UICONTROL 続行]**」をクリックします。
 
 ![](assets/dce_delivery_model.png)
 
@@ -53,15 +53,15 @@ To create a new delivery, place your cursor in the **Campaigns** tab and click *
 
 デジタルコンテンツエディターには、すぐに使用できる様々なテンプレートが付属しています。これらのテンプレートは、多様な要素（列、テキスト領域など）で構成されています
 
-Select the content template that you want to use, then click the **[!UICONTROL Start with the selected content]** button to display the template in the created delivery.
+使用するコンテンツテンプレートを選択したら、「**[!UICONTROL 選択したコンテンツで開始]**」ボタンをクリックして、作成した配信にテンプレートを表示します。
 
 ![](assets/dce_select_model.png)
 
-You can also import an HTML content created outside of Adobe Campaign by selecting **[!UICONTROL From a file]**.
+また、「**[!UICONTROL ファイルから]**」を選択すると、Adobe Campaign 以外で作成した HTML コンテンツをインポートすることもできます。
 
 ![](assets/dce_select_from_file_template.png)
 
-このコンテンツをテンプレートとして保存し、後で利用することもできます。パーソナライズされたコンテンツテンプレートを作成すると、テンプレートのリストからプレビューできるようになります。For more on this, refer to [Template management](../../web/using/template-management.md).
+このコンテンツをテンプレートとして保存し、後で利用することもできます。パーソナライズされたコンテンツテンプレートを作成すると、テンプレートのリストからプレビューできるようになります。詳しくは、[テンプレート管理](../../web/using/template-management.md)を参照してください。
 
 >[!CAUTION]
 >
@@ -71,13 +71,13 @@ You can also import an HTML content created outside of Adobe Campaign by selecti
 
 * 受信者の氏名の表示
 
-   受信者の氏名を配信のテキストフィールドに挿入するには、選択したテキストフィールドをクリックして、表示する場所にマウスポインターを置きます。Click the first icon in the pop-up toolbar, then click **[!UICONTROL Personalization block]**. を選択し **[!UICONTROL Greetings]**、をクリックしま **[!UICONTROL OK]**&#x200B;す。
+   受信者の氏名を配信のテキストフィールドに挿入するには、選択したテキストフィールドをクリックして、表示する場所にマウスポインターを置きます。ポップアップツールバーの最初のアイコンをクリックし、**[!UICONTROL パーソナライゼーションブロック]**&#x200B;をクリックします。「**[!UICONTROL 挨拶]**」を選択し、「**[!UICONTROL OK]**」をクリックします。
 
    ![](assets/dce_personalizationblock_greetings.png)
 
 * リンクを画像に挿入します。
 
-   To take delivery recipients to an external address via an image, click on the relevant image to display the pop-up toolbar, place the cursor on the first icon then click **[!UICONTROL Link to an external URL]**. For more on this, refer to [Adding a link](../../web/using/editing-content.md#adding-a-link).
+   画像を使用して配信の受信者を外部アドレスに導くには、関連する画像をクリックしてポップアップツールバーを表示し、最初のアイコン上にマウスポインターを置いて、**[!UICONTROL 外部 URL へのリンク]**&#x200B;をクリックします。詳しくは、[リンクの追加](../../web/using/editing-content.md#adding-a-link)を参照してください。
 
    ![](assets/dce_externalpage.png)
 
@@ -87,19 +87,19 @@ You can also import an HTML content created outside of Adobe Campaign by selecti
 
 * リンクをテキストに挿入します。
 
-   外部リンクを配信のテキストに統合するには、テキストの一部またはテキストのブロックを選択して、ポップアップツールバーの最初のアイコンをクリックします。をクリ **[!UICONTROL Link to an external URL]**&#x200B;ックし、フィールドにリンクアドレスを入力 **[!UICONTROL URL]** します。 For more on this, refer to [Adding a link](../../web/using/editing-content.md#adding-a-link).
+   外部リンクを配信のテキストに統合するには、テキストの一部またはテキストのブロックを選択して、ポップアップツールバーの最初のアイコンをクリックします。**[!UICONTROL 外部 URL へのリンク]**&#x200B;をクリックして、「**[!UICONTROL URL]**」フィールドにリンクアドレスを入力します。詳しくは、[リンクの追加](../../web/using/editing-content.md#adding-a-link)を参照してください。
 
    リンクは、ウィンドウの右側のセクションを使用して、いつでも変更できます。
 
    >[!CAUTION]
    >
-   >The text entered in the **[!UICONTROL Label]** field replaces the original text.
+   >「**[!UICONTROL ラベル]**」フィールドに入力したテキストは、元のテキストを置き換えます。
 
 * ミラーページの追加
 
    受信者に Web ブラウザーで配信コンテンツを表示するのを許可するには、ミラーページへのリンクを配信に統合します。
 
-   投稿したリンクを表示するテキストフィールドをクリックします。ポップアップツールバーの最初のアイコンをクリックし、を選択 **[!UICONTROL Personalization block]**&#x200B;してから、を選択しま **[!UICONTROL Link to Mirror Page (MirrorPage)]**&#x200B;す。 Click **[!UICONTROL Save]** to confirm.
+   投稿したリンクを表示するテキストフィールドをクリックします。ポップアップツールバーの最初のアイコンをクリックして、**[!UICONTROL パーソナライゼーションブロック]**&#x200B;を選択し、**[!UICONTROL ミラーページへのリンク（MirrorPage）]**&#x200B;を選択します。「**[!UICONTROL 保存]**」をクリックして確定します。
 
    ![](assets/dce_mirrorpage.png)
 
@@ -109,9 +109,9 @@ You can also import an HTML content created outside of Adobe Campaign by selecti
 
 * Web アプリケーションへのリンクの統合
 
-   デジタルコンテンツエディターを使用すると、Adobe Campaign コンソールから Web アプリケーションへのリンクを統合できます（ランディングページやフォームページなど）。詳しくは、「Webアプリケーションへ [のリンク」を参照してください](../../web/using/editing-content.md#link-to-a-web-application)。
+   デジタルコンテンツエディターを使用すると、Adobe Campaign コンソールから Web アプリケーションへのリンクを統合できます（ランディングページやフォームページなど）。詳しくは、[Web アプリケーションへのリンク](../../web/using/editing-content.md#link-to-a-web-application)を参照してください。
 
-   Web アプリケーションへのリンクのテキストフィールドを選択して、最初のアイコンをクリックします。Choose **[!UICONTROL Link to a Web application]**, then select the desired application by clicking the icon at the end of the **Web Application** field.
+   Web アプリケーションへのリンクのテキストフィールドを選択して、最初のアイコンをクリックします。**[!UICONTROL Web アプリケーションへのリンク]**&#x200B;を選択し、「**Web アプリケーション**」フィールドの末尾にあるアイコンをクリックして、目的のアプリケーションを選択します。
 
    ![](assets/dce_webapp.png)
 
@@ -119,8 +119,8 @@ You can also import an HTML content created outside of Adobe Campaign by selecti
 
    >[!NOTE]
    >
-   >この手順では、事前に少なくとも 1 つの Web アプリケーションを保存しておく必要があります。これらは、コンソールのタ **[!UICONTROL Campaigns > Web applications]** ブにあります。
+   >この手順では、事前に少なくとも 1 つの Web アプリケーションを保存しておく必要があります。それらがコンソールの&#x200B;**[!UICONTROL キャンペーン／「Web アプリケーション」]**&#x200B;タブに表示されます。
 
 ## 手順 5 - 配信の保存 {#step-5---saving-the-delivery}
 
-コンテンツを統合したら、「**保存**」をクリックして配信を保存します。It will now be displayed in your list of deliveries, found in the **[!UICONTROL Campaigns > Deliveries]** tab.
+コンテンツを統合したら、「**保存**」をクリックして配信を保存します。これで、**[!UICONTROL キャンペーン／「配信」]**&#x200B;タブにある配信のリストに表示されます。

@@ -14,7 +14,7 @@ discoiquuid: abf097eb-ade5-479e-9e20-8bd6bc9d96aa
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 ---
@@ -28,7 +28,7 @@ Adobe Campaign の入力フォーム使用に関する一般的な原理を一�
 
 ## フォームの構造 {#form-structure}
 
-The XML document of an input form must contain the **`<form>`** root element with the **name** and **namespace** attributes to populate the form name and its namespace, respectively.
+入力フォームの XML ドキュメントには、**name** 属性と **namespace** 属性が設定された **`<form>`** ルート要素が必要です。これにより、フォームの名前と名前空間がそれぞれ指定されます。
 
 ```
 <form name="form_name" namespace="name_space">
@@ -36,7 +36,7 @@ The XML document of an input form must contain the **`<form>`** root element wit
 </form>
 ```
 
-デフォルトでは、フォームは同じ名前と名前空間を持つデータスキーマに関連付けられます。To associate a form with a different name, enter the schema key in the **entity-schema** attribute of the **`<form>`** element.
+デフォルトでは、フォームは同じ名前と名前空間を持つデータスキーマに関連付けられます。フォームを異なる名前に関連付けるには、**`<form>`** 要素の **entity-schema** 属性にスキーマキーを入力します。
 
 入力フォームの構造を説明するために、サンプルのスキーマ「cus:book」をベースとするインターフェイスについて説明します。
 
@@ -52,9 +52,9 @@ The XML document of an input form must contain the **`<form>`** root element wit
 </form>
 ```
 
-The description of the edit elements begins with the **`<form>`** root element.
+編集要素の記述は、**`<form>`** ルート要素で始まります。
 
-An edit control is entered in an **`<input>`** element with the **xpath** attribute containing the path of the field in its schema.
+編集コントロールが、スキーマ内のフィールドのパスを格納した **xpath** 属性を持つ **`<input>`** 要素に入力されます。
 
 **XPath 構文に関する注意：**
 
@@ -67,7 +67,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 例：
 
 * **@date**：「date」という名前の属性を選択
-* **chapter/@title**:要素の下に「title」属性を選択しま `<chapter>` す
+* **chapter/@title**：`<chapter>` 要素の下の「title」属性を選択
 * **../@date**：現在の要素の親要素から date を選択
 
 編集コントロールは、対応するデータタイプに自動的に適応し、スキーマで定義されているラベルを使用します。
@@ -76,7 +76,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 >[!CAUTION]
 >
->The input form must reference a **type=&quot;contentForm&quot;** attribute on the **`<form>`** element to automatically add the frame required for content to be input.
+>入力フォームは、入力するコンテンツに必要なフレームを自動的に追加するために、**`<form>`** 要素の **type=&quot;contentForm&quot;** 属性を参照する必要があります。
 
 ## 書式設定 {#formatting}
 
@@ -103,7 +103,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 リストコントロールは、**type=&quot;list&quot;** 属性を使用して設定する必要があります。リストのパスは、コレクション要素を参照する必要があります。
 
-The columns are declared by the child **`<input>`** elements of the list.
+列は、リストの子の **`<input>`** 要素で宣言します。
 
 >[!NOTE]
 >
@@ -151,9 +151,9 @@ The columns are declared by the child **`<input>`** elements of the list.
 </input>
 ```
 
-The definition of the edit form is specified via the **`<form>`** element under the list element. 編集フォームの構造は、入力フォームの構造と同じです。
+編集フォームの定義は、リスト要素の下の **`<form>`** 要素で指定します。編集フォームの構造は、入力フォームの構造と同じです。
 
-A **[!UICONTROL Detail]** button is automatically added when the **zoom=&quot;true&quot;** attribute is entered in the list definition. このボタンを使用して、選択した行の編集フォームを開くことができます。
+リスト定義に **zoom=&quot;true&quot;** 属性を入力すると、「**[!UICONTROL 詳細]**」ボタンが自動的に追加されます。このボタンを使用して、選択した行の編集フォームを開くことができます。
 
 >[!NOTE]
 >
@@ -179,7 +179,7 @@ A **[!UICONTROL Detail]** button is automatically added when the **zoom=&quot;tr
 
 タブのタイトルには、**xpath-label** 属性で入力したデータの値が設定されます。
 
-The edit controls must be declared under a **`<container>`** element that is a child of the list control.
+編集コントロールは、リストコントロールの子の **`<container>`** 要素の下で宣言する必要があります。
 
 リスト要素を追加または削除するには、ツールバーのボタンを使用します。
 
@@ -189,7 +189,7 @@ The edit controls must be declared under a **`<container>`** element that is a c
 
 ## コンテナ {#containers}
 
-コンテナを使用すると、一連のコントロールをグループ化できます。They exist via the **`<container>`** element. コンテナは、複数の列でのコントロールの書式設定や、タブリストのコントロール用に、既に使用されています。
+コンテナを使用すると、一連のコントロールをグループ化できます。コンテナは、**`<container>`** 要素を使用して作成します。コンテナは、複数の列でのコントロールの書式設定や、タブリストのコントロール用に、既に使用されています。
 
 コンテナおよび入力フォームでのコンテナの使用方法について詳しくは、[この節](../../configuration/using/form-structure.md#containers)を参照してください。
 
@@ -199,6 +199,6 @@ The edit controls must be declared under a **`<container>`** element that is a c
 
 ![](assets/d_ncs_content_form12.png)
 
-The **[!UICONTROL Preview]** tab lets you view the input form:
+「**[!UICONTROL プレビュー]**」タブで、入力フォームを確認できます。
 
 ![](assets/d_ncs_content_form13.png)

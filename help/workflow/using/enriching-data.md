@@ -14,7 +14,7 @@ discoiquuid: f87da08f-68b9-4e2b-821f-b3ff20e390f1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -24,9 +24,9 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ## データのエンリッチメントについて {#about-enriching-data}
 
-This use case details possible uses of the **[!UICONTROL Enrichment]** activity in a targeting workflow. For more on using the **[!UICONTROL Enrichment]** activity, refer to: [Enrichment](../../workflow/using/enrichment.md).
+この使用例では、ターゲティングワークフローの「**[!UICONTROL エンリッチメント]**」アクティビティの使用方法を詳しく説明します。「**[!UICONTROL エンリッチメント]**」アクティビティの使用について詳しくは、[エンリッチメント](../../workflow/using/enrichment.md)を参照してください。
 
-Web アプリケーション経由での競争への参加を案内する内容が、マーケティングデータベースの連絡先に送られます。The results of the competition are recovered in the **[!UICONTROL Competition results]** table. This table is linked to the contact table (**[!UICONTROL Recipients]**). この表に **[!UICONTROL Competition results]** は、次のフィールドが含まれています。
+Web アプリケーション経由での競争への参加を案内する内容が、マーケティングデータベースの連絡先に送られます。競合の結果は、「**[!UICONTROL 競合の結果]**」テーブルに復元されます。このテーブルは、連絡先テーブル（**[!UICONTROL 受信者]**）にリンクされています。「**[!UICONTROL 競合の結果]**」テーブルには、以下のフィールドがあります。
 
 * 競合名（@game）
 * トライアル番号（@trial）
@@ -34,7 +34,7 @@ Web アプリケーション経由での競争への参加を案内する内容�
 
 ![](assets/uc1_enrich_1.png)
 
-A contact found in the **[!UICONTROL Recipients]** table can be linked to several lines in the **[!UICONTROL Competition results]** table. これら 2 つのテーブルの関係は 1 対 n になります。以下に受信者についての結果ログの例を示します。
+「**[!UICONTROL 受信者]**」テーブル内の連絡先は「**[!UICONTROL 競合の結果]**」テーブルの複数の行とリンクしています。これら 2 つのテーブルの関係は 1 対 n になります。以下に受信者についての結果ログの例を示します。
 
 ![](assets/uc1_enrich_2.png)
 
@@ -46,12 +46,12 @@ A contact found in the **[!UICONTROL Recipients]** table can be linked to severa
 
 ワークフローを作成するには、次の手順に従います。
 
-1. Two **[!UICONTROL Query]** activities and one **[!UICONTROL Intersection]** activity are added to target new subscribers who entered last the competition.
-1. The **[!UICONTROL Enrichment]** activity enables us to add data stored in the **[!UICONTROL Competition results]** table. The **[!UICONTROL Score]** field which our delivery personalization will take place on is added to the work table of the workflow.
-1. The **[!UICONTROL Split]** type activity enables us to create recipient subsets based on scores.
-1. For each subset, a **[!UICONTROL Delivery]** type activity is added.
+1. 2 つの「**[!UICONTROL クエリ]**」アクティビティと 1 つの「**[!UICONTROL 積集合]**」アクティビティが、最新の競争に参加した新規のターゲット購読者に追加されます。
+1. 「**[!UICONTROL エンリッチメント]**」アクティビティでは、「**[!UICONTROL 競合の結果]**」テーブルに保存されているデータを追加できます。配信のパーソナライゼーションをおこなう「**[!UICONTROL スコア]**」フィールドをワークフローの作業用テーブルに追加します。
+1. 「**[!UICONTROL 分割]**」タイプアクティビティを使用することで、スコアを基に受信者のサブセットを作成できます。
+1. 各サブセットについて、「**[!UICONTROL 配信]**」タイプアクティビティを 1 つ追加します。
 
-## 手順1:ターゲット設定 {#step-1--targeting}
+## 手順 1：ターゲティング {#step-1--targeting}
 
 1 番目のクエリでは、過去 6 ヶ月以内にデータベースに追加された受信者をターゲティングすることができます。
 
@@ -61,37 +61,37 @@ A contact found in the **[!UICONTROL Recipients]** table can be linked to severa
 
 ![](assets/uc1_enrich_5.png)
 
-An **[!UICONTROL Intersection]** type activity is then added to target the recipients added to the database within the last six months and who entered the last competition.
+次に、過去 6 ヶ月以内にデータベースに追加されかつ最新の競争に参加した受信者をターゲティングする「**[!UICONTROL 積集合]**」タイプアクティビティを追加します。
 
-## 手順2:濃縮 {#step-2--enrichment}
+## 手順 2：エンリッチメント {#step-2--enrichment}
 
-In this example, we want to personalize deliveries according to the **[!UICONTROL Score]** field stored in the **[!UICONTROL Competition results]** table. このテーブルは、受信者テーブルと 1 対 n の関係にあります。The **[!UICONTROL Enrichment]** activity enables us to add data from a table linked to the filtering dimension to the work table of the workflow.
+この例では、「**[!UICONTROL 競合の結果]**」テーブルに保存されている「**[!UICONTROL スコア]**」フィールドに従い、配信をパーソナライズします。このテーブルは、受信者テーブルと 1 対 n の関係にあります。「**[!UICONTROL エンリッチメント]**」アクティビティでは、フィルタリングディメンションにリンクしたテーブルのデータをワークフローの作業用テーブルに追加できます。
 
-1. エンリッチメントアクティビティの編集画面で、を選択し、 **[!UICONTROL Add data]**&#x200B;をクリック **[!UICONTROL Data linked to the filtering dimension]** して選択しま **[!UICONTROL Next]**&#x200B;す。
+1. 「エンリッチメント」アクティビティの編集画面で、「**[!UICONTROL データを追加]**」、「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/uc1_enrich_6.png)
 
-1. 次に、このオプション **[!UICONTROL Data linked to the filtering dimension]** を選択し、テーブルを選択 **[!UICONTROL Competition results]** してをクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. 次に、「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」オプションを選択して「**[!UICONTROL 競合の結果]**」テーブルを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/uc1_enrich_7.png)
 
-1. IDとラベルを入力し、フィールドでオプ **[!UICONTROL Limit the line count]** ションを選択し **[!UICONTROL Data collected]** ます。 フィールド **[!UICONTROL Lines to retrieve]** で、値として「1」を選択します。 For each recipient, the enrichment activity will add a single line from the **[!UICONTROL Competition results]** table to the work table of the workflow. クリック **[!UICONTROL Next]**.
+1. ID とラベルを入力し、「**[!UICONTROL 収集されたデータ]**」フィールドで「**[!UICONTROL ライン数を制限]**」オプションを選択します。「**[!UICONTROL 取得するライン]**」フィールドで、値に「1」を選択します。各受信者について、「エンリッチメント」アクティビティにより、「**[!UICONTROL 競合の結果]**」テーブルからワークフローの作業用テーブルへと単一の行が追加されます。「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/uc1_enrich_8.png)
 
-1. この例では、最新の競合に関してのみ、受信者の最高スコアを復元します。To do this, add a filter to the **[!UICONTROL Competition name]** field to exclude all lines related to previous competitions. クリック **[!UICONTROL Next]**.
+1. この例では、最新の競合に関してのみ、受信者の最高スコアを復元します。これをおこなうには、「**[!UICONTROL 競合名]**」フィールドにフィルターを追加して、以前の競合に関係するすべての行を除外します。「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/uc1_enrich_9.png)
 
-1. Go to the **[!UICONTROL Sort]** screen and click the **[!UICONTROL Add]** button, select the **[!UICONTROL Score]** field and check the box in the **[!UICONTROL descending]** column to sort items of the **[!UICONTROL Score]** fields in descending order. 各受信者について、エンリッチメントアクティビティが最新のゲームの最高スコアに一致する行を追加します。クリック **[!UICONTROL Next]**.
+1. 「**[!UICONTROL 並べ替え]**」画面に移動して「**[!UICONTROL 追加]**」ボタンをクリックし、「**[!UICONTROL スコア]**」フィールドを選択して「**[!UICONTROL 降順]**」列のチェックボックスをオンにします。これで、「**[!UICONTROL スコア]**」フィールドの項目が降順に並べ替えられます。各受信者について、エンリッチメントアクティビティが最新のゲームの最高スコアに一致する行を追加します。「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/uc1_enrich_10.png)
 
-1. ウィンドウ **[!UICONTROL Data to add]** で、フィールドをダブルクリック **[!UICONTROL Score]** します。 For each recipient, the enrichment activity will add only the **[!UICONTROL Score]** field. クリック **[!UICONTROL Finish]**.
+1. **[!UICONTROL 追加するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL スコア]**」フィールドをダブルクリックします。各受信者について「エンリッチメント」アクティビティは「**[!UICONTROL スコア]**」フィールドのみを追加します。「**[!UICONTROL 完了]**」をクリックします。
 
    ![](assets/uc1_enrich_11.png)
 
-Right-click the inbound transition of the enrichment activity and select **[!UICONTROL Display the target]**. 作業用テーブルには、以下のような情報があります。
+「エンリッチメント」アクティビティのインバウンドトランジションを右クリックし、「**[!UICONTROL ターゲットを表示]**」を選択します。作業用テーブルには、以下のような情報があります。
 
 ![](assets/uc1_enrich_13.png)
 
@@ -107,9 +107,9 @@ Right-click the inbound transition of the enrichment activity and select **[!UIC
 
 ![](assets/uc1_enrich_14.png)
 
-## 手順3:分割と配信 {#step-3--split-and-delivery}
+## 手順 3：分割と配信 {#step-3--split-and-delivery}
 
-To sort the recipients based on their scores, a **[!UICONTROL Split]** activity is added after the enrichment.
+スコアに応じて受信者を並べ替えるには、エンリッチメントの完了後に「**[!UICONTROL 分割]**」アクティビティを追加します。
 
 ![](assets/uc1_enrich_18.png)
 
@@ -121,11 +121,11 @@ To sort the recipients based on their scores, a **[!UICONTROL Split]** activity 
 
    ![](assets/uc1_enrich_17.png)
 
-1. 3 番目の（**敗者**）サブセットには、残りのすべての受信者が入ります。Go to the **[!UICONTROL General]** tab and check the **[!UICONTROL Generate complement]** box to target all recipients who did not achieve the two highest scores.
+1. 3 番目の（**敗者**）サブセットには、残りのすべての受信者が入ります。「**[!UICONTROL 一般]**」タブに移動し、「**[!UICONTROL 補集合を生成]**」チェックボックスをオンにして、上位 ２ つのスコアを獲得していない受信者すべてをターゲティングします。
 
    ![](assets/uc1_enrich_19.png)
 
-1. Add a **[!UICONTROL Delivery]** type activity for each subset, using a different delivery template for each.
+1. 各サブセットについて、個々に別々の配信テンプレートを使用して、「**[!UICONTROL 配信]**」タイプアクティビティを追加します。
 
    ![](assets/uc1_enrich_20.png)
 

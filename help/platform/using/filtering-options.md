@@ -14,7 +14,7 @@ discoiquuid: 199eb687-3da6-49c1-9997-ef1cbd2647b6
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -32,14 +32,14 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 表示されるデータをフィルターする方法は複数あります。必要に応じて、これらを組み合わせて使用できます。
 
-* フォルダに対するフィルターを参照して [ください](#filter-by-folder)。
-* ステータスでフィルターする場合は、 [Filter by status](#filter-by-status)、
-* データの並べ替え、 [Order by](#order-by)、
-* 検索については、クイック検索 [を参照してください](#quick-search)。
+* フォルダーのフィルターについては、[フォルダーでフィルター](#filter-by-folder)を参照してください。
+* ステータスのフィルターについては、[ステータスでフィルター](#filter-by-status)を参照してください。
+* データの並べ替えについては、[並び替え順](#order-by)を参照してください。
+* 検索については、[クイック検索](#quick-search)を参照してください。
 
 ## フォルダーでフィルター {#filter-by-folder}
 
-Click the **[!UICONTROL Folder]** icon to select the folder containing the data to display.
+**[!UICONTROL フォルダー]**&#x200B;アイコンをクリックして、表示するデータが含まれているフォルダーを選択します。
 
 ![](assets/filter_web_select_folder.png)
 

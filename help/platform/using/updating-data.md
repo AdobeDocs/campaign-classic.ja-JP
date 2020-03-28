@@ -14,7 +14,7 @@ discoiquuid: 1e196989-b8c1-473a-89c9-bbeb68b98419
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
 
 ## 一括更新の実行 {#performing-a-mass-update}
 
-To perform manual updates, right-click the selected recipient(s) to use the **[!UICONTROL Actions]** shortcut menu, or use the **[!UICONTROL Actions]** icon.
+手動更新を実行するには、選択した受信者を右クリックして「**[!UICONTROL アクション]**」ショートカットメニューを使用するか、**[!UICONTROL アクション]**&#x200B;アイコンを使用します。
 
 ![](assets/s_ncs_user_action_icon.png)
 
@@ -38,23 +38,23 @@ To perform manual updates, right-click the selected recipient(s) to use the **[!
 
 ### 一括更新 {#mass-update}
 
-一括更新の場合は、を使用しま **[!UICONTROL Action > Mass update of selected lines...]**&#x200B;す。 ウィザードを使用して、更新を設定および実行することができます。
+一括更新の場合は、**[!UICONTROL アクション／選択されたラインを一括更新...]**&#x200B;を使用します。ウィザードを使用して、更新を設定および実行することができます。
 
 ウィザードの最初の手順では、更新するフィールドを指定します。
 
-ウィザードの左側のセクションに、使用可能フィールドのリストが表示されます。Use the **[!UICONTROL Find]** field to run a search of these fields. **Enter** キーを押してリストを参照します。次に示すように、入力内容に一致するフィールド名が太字で表示されます。
+ウィザードの左側のセクションに、使用可能フィールドのリストが表示されます。「**[!UICONTROL 検索]**」フィールドを使用して、これらのフィールドの検索を実行します。**Enter** キーを押してリストを参照します。次に示すように、入力内容に一致するフィールド名が太字で表示されます。
 
 更新するフィールドをダブルクリックすると、それらのフィールドがウィザードの右側のセクションに表示されます。
 
 ![](assets/s_ncs_user_update_wizard01_1.png)
 
-In the event of an error, use the **[!UICONTROL Delete]** button to delete a field from the list of fields to be updated.
+エラーが発生した場合は、**[!UICONTROL 削除]**&#x200B;ボタンを使用して、更新するフィールドのリストからフィールドを削除します。
 
 更新するプロファイルに適用する値を選択するか、入力します。
 
 ![](assets/s_ncs_user_update_wizard01_12.png)
 
-You can click **[!UICONTROL Distribution of values]** to display the distribution of values of the selected field for the recipients present in the current folder (not only the recipients affected by the update).
+**[!UICONTROL 値の配分]**&#x200B;をクリックして、（更新の影響を受ける受信者のみではなく）現在のフォルダーに存在する受信者について、選択したフィールドの値の配分を表示できます。
 
 ![](assets/s_ncs_user_update_wizard01_2.png)
 
@@ -62,34 +62,34 @@ You can click **[!UICONTROL Distribution of values]** to display the distributio
 
 ![](assets/s_ncs_user_update_wizard01_3.png)
 
-Close this window and click **[!UICONTROL Next]** to display the second update wizard step. In this step, you can launch the update by clicking **[!UICONTROL Start]**.
+このウィンドウを閉じ、「**[!UICONTROL 次へ]**」をクリックして更新ウィザードの 2 番目の手順を表示します。この手順では、「**[!UICONTROL 開始]**」をクリックして更新を実行できます。
 
 ![](assets/s_ncs_user_update_wizard01_4.png)
 
 更新の実行に関する情報がウィザードの上部セクションに表示されます。
 
-The **[!UICONTROL Stop]** lets you cancel the update, but certain records might have been updated, and stopping the process will not cancel these updates. プログレスバーに操作の進捗状況が表示されます。
+「**[!UICONTROL 停止]**」を使用すると更新をキャンセルできますが、一部のレコードは更新されている場合があり、プロセスを停止してもこれらの更新内容をキャンセルすることはできません。プログレスバーに操作の進捗状況が表示されます。
 
 ### データの結合 {#merge-data}
 
-2つの受 **[!UICONTROL Merge selected lines...]** 信者プロファイルの結合を開始する場合に選択します。 オプションを選択する前に、結合するプロファイルを選択する必要があります。結合の設定および実行には、ウィザードを使用します。
+「**[!UICONTROL 選択した行を結合]**」を選択して、2 つの受信者プロファイルの結合を実行します。オプションを選択する前に、結合するプロファイルを選択する必要があります。結合の設定および実行には、ウィザードを使用します。
 
-ウィザードには、いずれかのソースプロファイルで入力された各フィールドについて取得する値が表示されます。If one or more fields in the profiles to be merged have different values, they are displayed in the **[!UICONTROL List of conflicts]** section. その場合、次の例に示すように、リストの下のラジオボタンを使用してデフォルトプロファイルを選択できます。
+ウィザードには、いずれかのソースプロファイルで入力された各フィールドについて取得する値が表示されます。結合するプロファイルの 1 つ以上のフィールドの値が異なる場合、それらは「**[!UICONTROL 競合のリスト]**」セクションに表示されます。その場合、次の例に示すように、リストの下のラジオボタンを使用してデフォルトプロファイルを選択できます。
 
 ![](assets/s_ncs_user_merge_wizard01_1.png)
 
-Click **[!UICONTROL Compute]** to display the result of your choice.
+「**[!UICONTROL 計算]**」をクリックして、選択の結果を表示します。
 
 ![](assets/s_ncs_user_merge_wizard01_2.png)
 
-Check the **[!UICONTROL Result]** columns of both sections of the window, and click **[!UICONTROL Finish]** to run the merge.
+ウィンドウの両方のセクションの「**[!UICONTROL 結果]**」列を確認し、「**[!UICONTROL 完了]**」をクリックして結合を実行します。
 
 ## データのエクスポート {#exporting-data}
 
 リストのコンテンツをエクスポートできます。エクスポートを設定して実行するには、以下の手順に従います。
 
 1. エクスポートするレコードを選択します。
-1. Right-click and select **[!UICONTROL Export...]**.
+1. 右クリックして、**[!UICONTROL エクスポート...]** を選択します。
 
    ![](assets/s_ncs_user_export_list.png)
 
@@ -97,35 +97,35 @@ Check the **[!UICONTROL Result]** columns of both sections of the window, and cl
 
    ![](assets/s_ncs_user_export_list_start.png)
 
-   For more on how to configure the export wizard, refer to [Export wizard](../../platform/using/exporting-data.md#export-wizard).
+   エクスポートウィザードを設定する方法について詳しくは、[エクスポートウィザード](../../platform/using/exporting-data.md#export-wizard)を参照してください。
 
 ## サービスの購読登録 {#subscribing-to-a-service}
 
 ほとんどの場合、受信者は専用のランディングページからニュースレターを購読します。詳しくは、[この節](../../delivery/using/managing-subscriptions.md)を参照してください。一方で、フィルターを適用した受信者のプロファイルを、手動でサービス（ニュースレターやバイラルサービス）に購読登録することもできます。手順は次のとおりです。
 
 1. 購読登録する受信者を選択して、右クリックします。
-1. 選択 **[!UICONTROL Actions > Subscribe selection to a service]**.
+1. **[!UICONTROL アクション／サービスの購読選択...]** を選択します。
 
    ![](assets/s_ncs_user_selection_subscribe_service.png)
 
-1. Select the desired service and click **[!UICONTROL Next]**:
+1. 目的のサービスを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/s_ncs_user_selection_subscribe_service_2.png)
 
    >[!NOTE]
    >
-   >This editor lets you create a new service: click the **[!UICONTROL Create]** button.
+   >このエディターでは新しいサービスを作成できます。作成するには、**[!UICONTROL 作成]**&#x200B;ボタンをクリックします。
 
-1. 受信者にアク **[!UICONTROL Send a confirmation message]** セスできます。 このメッセージのコンテンツは、選択したサービスにリンクされた購読シナリオで設定できます。
-1. Click the **[!UICONTROL Start]** button to run the subscription process.
+1. 「**[!UICONTROL 確認メッセージを送信]**」をオンにして受信者に確認メッセージを送信できます。このメッセージの内容は、選択したサービスにリンクされた購読シナリオで設定できます。
+1. 「**[!UICONTROL 開始]**」ボタンをクリックして購読登録プロセスを開始します。
 
    ![](assets/s_ncs_user_selection_subscribe_service_3.png)
 
-ウィンドウの上部セクションで実行プロセスを監視できます。The **[!UICONTROL Stop]** button lets you stop the process. ただし、既に処理された受信者は購読登録されます。
+ウィンドウの上部セクションで実行プロセスを監視できます。「**[!UICONTROL 停止]**」ボタンを使用してプロセスを停止できます。ただし、既に処理された受信者は購読登録されます。
 
-このオプションのチェ **[!UICONTROL Do not keep a trace of this job in the database]** ックを外すと、このプロセスの情報を保存する実行フォルダーを選択（または作成）できます。
+「**[!UICONTROL データベースでこのジョブのトレースを保持しない]**」オプションをオフにした場合、このプロセスに関する情報を保存する実行フォルダーを選択（または作成）できます。
 
-To check on the process, go to the **[!UICONTROL Subscriptions]** tab on the profiles of the recipients concerned by this operation, or to the **[!UICONTROL Subscriptions]** tab accessed via the **[!UICONTROL Profiles and Targets > Services and Subscriptions]** node.
+プロセスを確認するには、この操作のターゲットとなる受信者のプロファイルの「**[!UICONTROL 購読]**」タブ、または&#x200B;**[!UICONTROL プロファイルとターゲット／サービスと購読]**&#x200B;ノードからアクセスする「**[!UICONTROL 購読]**」タブに移動します。
 
 ![](assets/s_ncs_user_selection_subscribe_service_4.png)
 

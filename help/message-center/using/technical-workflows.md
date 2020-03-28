@@ -14,7 +14,7 @@ discoiquuid: 2e648e63-06d2-4e8f-9934-066a41d18eac
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -32,13 +32,13 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 **分散アーキテクチャ**
 
-If you have one or several execution instances registered, on the control instance, you must create one archiving workflow for each **[!UICONTROL Message Center execution instance]** external account. このボタンをク **[!UICONTROL Create the archiving workflow]** リックして、ワークフローを作成し、開始します。
+1 つ以上の実行インスタンスが登録されている場合、コントロールインスタンスで、各 **[!UICONTROL Message Center 実行インスタンス]**&#x200B;外部アカウントにつき 1 つのアーカイブワークフローを作成する必要があります。「**[!UICONTROL アーカイブワークフローを作成]**」ボタンをクリックし、ワークフローを作成、開始します。
 
 ![](assets/messagecenter_archiving_002.png)
 
 **最小アーキテクチャ**
 
-同一インスタンス上にコントロールおよび実行インスタンスをインストールしたら、デプロイウィザードを使用してアーカイブワークフローを作成する必要があります。このボタンをク **[!UICONTROL Create the archiving workflow]** リックして、ワークフローを作成し、開始します。
+同一インスタンス上にコントロールおよび実行インスタンスをインストールしたら、デプロイウィザードを使用してアーカイブワークフローを作成する必要があります。「**[!UICONTROL アーカイブワークフローを作成]**」ボタンをクリックし、ワークフローを作成、開始します。
 
 ![](assets/messagecenter_archiving_001.png)
 
@@ -46,16 +46,16 @@ If you have one or several execution instances registered, on the control instan
 
 実行インスタンスでは、**管理／プロダクション／Message Center** フォルダーからトランザクションメッセージのテクニカルワークフローにアクセスできます。必要な操作は、ワークフローを開始することだけです。リストに含まれるワークフローは以下のとおりです。
 
-* **[!UICONTROL Processing batch events]** (内部名： **[!UICONTROL batchEventsProcessing]** ):このワークフローを使用すると、バッチイベントをメッセージテンプレートにリンクする前に、キュー内のバッチイベントを分類できます。
-* **[!UICONTROL Processing real time events]** (内部名： **[!UICONTROL rtEventsProcessing]** ):このワークフローを使用すると、リアルタイムイベントをメッセージテンプレートにリンクする前に、キュー内のリアルタイムイベントを分類できます。
-* **[!UICONTROL Update event status]** (内部名： **[!UICONTROL updateEventStatus]** ):このワークフローでは、イベントにステータスを関連付けることができます。
+* **[!UICONTROL バッチイベントの処理]**（内部名：**[!UICONTROL batchEventsProcessing]**）：このワークフローは、メッセージテンプレートにリンクされる前にキュー内のバッチイベントを分類することができます。
+* **[!UICONTROL リアルタイムイベントの処理]**（内部名：**[!UICONTROL rtEventsProcessing]**）：このワークフローは、メッセージテンプレートにリンクされる前にキュー内のリアルタイムイベントを分類することができます。
+* **[!UICONTROL イベントステータスを更新]**（内部名：**[!UICONTROL updateEventStatus]**）：このワークフローは、ステータスをイベントに関連付けることができます。
 
    イベントステータスには以下のものがあります。
 
-   * **[!UICONTROL Pending]** :イベントがキューにある。 イベントにはまだメッセージテンプレートが割り当てられていません。
-   * **[!UICONTROL Pending delivery]** :イベントがキューにある場合、メッセージテンプレートが割り当てられ、配信によって処理されています。
-   * **[!UICONTROL Sent]** :このステータスは配信ログからコピーされます。 配信が送信されたことを示します。
-   * **[!UICONTROL Ignored by the delivery]** :このステータスは配信ログからコピーされます。 配信が無視されたことを意味しています。
-   * **[!UICONTROL Delivery failed]** :このステータスは配信ログからコピーされます。 配信が失敗したことを意味しています。
-   * **[!UICONTROL Event not taken into account]** :イベントをメッセージテンプレートにリンクできませんでした。 イベントの処理はおこなわれません。
+   * **[!UICONTROL 保留中]**：イベントはキューの中です。イベントにはまだメッセージテンプレートが割り当てられていません。
+   * **[!UICONTROL 配信待ち]**：イベントはキューの中で、メッセージテンプレートが割り当てられ、配信による処理中です。
+   * **[!UICONTROL 送信済み]**：このステータスは配信ログからコピーされます。配信が送信されたことを示します。
+   * **[!UICONTROL 配信で無視]**：このステータスは配信ログからコピーされます。配信が無視されたことを意味しています。
+   * **[!UICONTROL 配信に失敗]**：このステータスは配信ログからコピーされます。配信が失敗したことを意味しています。
+   * **[!UICONTROL 処理不可なイベント]**：イベントをメッセージテンプレートにリンクすることができませんでした。イベントの処理はおこなわれません。
 

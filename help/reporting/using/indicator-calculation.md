@@ -14,7 +14,7 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -55,18 +55,18 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
  </tbody> 
 </table>
 
-This report is based on the **[!UICONTROL Consolidated tracking]** table (nms:trackingStats). This aggregate table is used for performance reasons when displaying reports, in the place of the **[!UICONTROL Recipient tracking logs]** table (nms:trackingLogRcp) and it is not calculated in real-time. テーブルは、トラッキングログを取得して数分後に生成されます。指標が最新である場合は、結果は&#x200B;**トラッキング指標**&#x200B;レポートの指標と同じになります。@totalclicks の指標は、5 分間のクリック総数を示しています。
+このレポートは、**[!UICONTROL 統合されたトラッキング]**&#x200B;テーブル（nms:trackingStats）に基づいています。この集計テーブルは、**[!UICONTROL 受信者トラッキングログ]**&#x200B;テーブル（nms:trackingLogRcp）の代わりにレポートを表示する際のパフォーマンス上の理由で使用され、リアルタイムでは計算されません。テーブルは、トラッキングログを取得して数分後に生成されます。指標が最新である場合は、結果は&#x200B;**トラッキング指標**&#x200B;レポートの指標と同じになります。@totalclicks の指標は、5 分間のクリック総数を示しています。
 
 ## 配信不能件数とバウンス数 {#non-deliverables-and-bounces-1}
 
 **エラータイプ別の分類**
 
-This report is based on the **[!UICONTROL Delivery and tracking statistics]** table (nms:deliveryLogStats).
+このレポートは、**[!UICONTROL 配信およびトラッキング統計]**&#x200B;テーブル（nms:deliveryLogStats）に基づいています。
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -82,25 +82,25 @@ This report is based on the **[!UICONTROL Delivery and tracking statistics]** ta
   <tr> 
    <td> 不明なユーザー<br /> </td> 
    <td> @unknownUser<br /> </td> 
-   <td> Count of all messages with a status equal to "Failed" and a reason equal to "User unknown". <br /> </td> 
+   <td> ステータスが「失敗」に等しく、理由が「不明なユーザー」に等しいすべてのメッセージの数。<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=1)<br /> </td> 
   </tr> 
   <tr> 
    <td> 未到達 <br /> </td> 
    <td> @未到達<br /> </td> 
-   <td> Count of all messages with a status equal to "Failed" and a reason equal to "Unreachable". <br /> </td> 
+   <td> ステータスが「失敗」に等しく、理由が「未到達」に等しいすべてのメッセージの数。<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=3)<br /> </td> 
   </tr> 
   <tr> 
    <td> 却下<br /> </td> 
    <td> @拒否<br /> </td> 
-   <td> Count of all messages with a status equal to "Failed" and a reason equal to "Rejected". <br /> </td> 
+   <td> ステータスが「失敗」に等しく、理由が「却下」に等しいすべてのメッセージの数。<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=20)<br /> </td> 
   </tr> 
   <tr> 
    <td> 無効なドメイン<br /> </td> 
    <td> @invalidDomain<br /> </td> 
-   <td> Count of all messages with a status equal to "Failed" and a reason equal to "Invalid domain". <br /> </td> 
+   <td> ステータスが「失敗」に等しく、理由が「無効なドメイン」に等しいすべてのメッセージの数。<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=2)<br /> </td> 
   </tr> 
   <tr> 
@@ -112,7 +112,7 @@ This report is based on the **[!UICONTROL Delivery and tracking statistics]** ta
   <tr> 
    <td> メールボックス容量超過<br /> </td> 
    <td> @mailBoxFull<br /> </td> 
-   <td> Count of all messages with a status equal to "Failed" and a reason equal to "Inbox full". <br /> </td> 
+   <td> ステータスが「失敗」に等しく、理由が「メールボックス容量超過」に等しいすべてのメッセージの数。<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=5)<br /> </td> 
   </tr> 
   <tr> 
@@ -138,18 +138,18 @@ This report is based on the **[!UICONTROL Delivery and tracking statistics]** ta
 
 **ドメインごとの分類**
 
-レポートの 2 番目の部分では、エラータイプと対照的に、インターネットドメインごとの失敗したメッセージの分類について詳しく説明しています。この場合、エラーインジケ **ーター** (@value)にリンクされている式は次のとおりです。Count(@status=2 and @domain=&quot;Value of the domain name&quot;)。つまり、このドメインの失敗したステータスを持つすべてのメッセージの数です。
+レポートの 2 番目の部分では、エラータイプと対照的に、インターネットドメインごとの失敗したメッセージの分類について詳しく説明しています。この場合の、「**エラー**」の指標（@value）に関する式は、Count(@status=2 and @domain=&quot;ドメイン名の値&quot;) です。つまり、このドメインで失敗のステータスを持つすべてのメッセージの数です。
 
 ## ブラウザー {#browsers-1}
 
-This report is based on the **[!UICONTROL Internet Browser Statistics]** table (nms:userAgentsStats).
+このレポートは、**[!UICONTROL インターネットブラウザーの統計]**&#x200B;テーブル（nms:userAgentsStats）に基づいています。
 
 **グローバル統計**
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -182,7 +182,7 @@ This report is based on the **[!UICONTROL Internet Browser Statistics]** table (
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -212,12 +212,12 @@ This report is based on the **[!UICONTROL Internet Browser Statistics]** table (
 
 ## ソーシャルネットワークへの共有 {#sharing-to-social-networks-1}
 
-This report is based on the **[!UICONTROL Delivery]** (nms:delivery), **[!UICONTROL Consolidated tracking]** (nms:trackingStats), and **[!UICONTROL Web tracking]** (nms:webTrackingLog) tables.
+このレポートは、**[!UICONTROL 配信]**&#x200B;テーブル（nms:delivery）、**[!UICONTROL 統合されたトラッキング]**&#x200B;テーブル（nms:trackingStats）および **[!UICONTROL Web トラッキング]**&#x200B;テーブル（nms:webTrackingLog）に基づいています。
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -286,7 +286,7 @@ This report is based on the **[!UICONTROL Delivery]** (nms:delivery), **[!UICONT
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -319,7 +319,7 @@ This report is based on the **[!UICONTROL Delivery]** (nms:delivery), **[!UICONT
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -349,12 +349,12 @@ This report is based on the **[!UICONTROL Delivery]** (nms:delivery), **[!UICONT
 
 ## 共有アクティビティの統計 {#statistics-on-sharing-activities-1}
 
-This report is based on the **[!UICONTROL Delivery]** (nms:delivery), **[!UICONTROL Consolidated tracking]** (nms:trackingStats), and **[!UICONTROL Web tracking]** (nms:webTrackingLog) tables.
+このレポートは、**[!UICONTROL 配信]**&#x200B;テーブル（nms:delivery）、**[!UICONTROL 統合されたトラッキング]**&#x200B;テーブル（nms:trackingStats）および **[!UICONTROL Web トラッキング]**&#x200B;テーブル（nms:webTrackingLog）に基づいています。
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -365,7 +365,7 @@ This report is based on the **[!UICONTROL Delivery]** (nms:delivery), **[!UICONT
    <td> 新しい連絡先<br /> </td> 
    <td> @newContacts<br /> </td> 
    <td> 受信者にリンクされている訪問者の数。<br /> </td> 
-   <td> 数式：count(@id)<br /> Filter:@recipient-id != 0<br /> </td> 
+   <td> 式：count(@id)<br /> フィルター：@recipient-id ! = 0<br /> </td> 
   </tr> 
   <tr> 
    <td> 開封数<br /> </td> 
@@ -376,7 +376,7 @@ This report is based on the **[!UICONTROL Delivery]** (nms:delivery), **[!UICONT
   <tr> 
    <td> 共有<br /> </td> 
    <td> @shared<br /> </td> 
-   <td> 「email」、「facebook」、「twitter」、「delicious」、「digg」、「google」、「linkedin」に含まれるURLカテゴリ。「email」、「facebook」、「twitter」、「delicious」、「digg」、「google」または「linkedin」に等しいURLカテゴリを持ちます。<br /><br /> </td> 
+   <td> 「email」、「facebook」、「twitter」、「delicious」、「digg」、「google」、「linkedin」に含まれた URL カテゴリ。<br />「email」、「facebook」、「twitter」、「delicious」、「digg」、「google」または「linkedin」に等しい URL カテゴリを含むすべての @totalClicks の数。<br /> </td> 
    <td> count (Iif([url/@category] IN (email' , 'facebook' , 'twitter' , 'delicious' , 'digg' , 'google' , 'linkedin'), @totalClicks, 0))<br /> </td> 
   </tr> 
  </tbody> 
@@ -384,14 +384,14 @@ This report is based on the **[!UICONTROL Delivery]** (nms:delivery), **[!UICONT
 
 ## オペレーティングシステム {#operating-systems-1}
 
-This report is based on the **[!UICONTROL Internet Browser Statistics]** table (nms:userAgentsStats).
+このレポートは、**[!UICONTROL インターネットブラウザーの統計]**&#x200B;テーブル（nms:userAgentsStats）に基づいています。
 
 **グローバル統計**
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -424,7 +424,7 @@ This report is based on the **[!UICONTROL Internet Browser Statistics]** table (
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -454,12 +454,12 @@ This report is based on the **[!UICONTROL Internet Browser Statistics]** table (
 
 ## 購読トラッキング {#subscription-tracking-1}
 
-This report is based on the **[!UICONTROL Services]** table (nms:service).
+このレポートは、**[!UICONTROL サービス]**&#x200B;テーブル（nms:service）に基づいています。
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -501,12 +501,12 @@ This report is based on the **[!UICONTROL Services]** table (nms:service).
 
 ## トラッキング指標 {#tracking-indicators-1}
 
-このレポートは、(nms: **[!UICONTROL Delivery and tracking statistics]** deliveryLogStats)テーブルと **[!UICONTROL Consolidated tracking]** (nms:trackingStats)テーブルに基づいています。
+このレポートは、**[!UICONTROL 配信およびトラッキング統計]**&#x200B;テーブル（nms:deliveryLogStats）および&#x200B;**[!UICONTROL 統合されたトラッキング]**&#x200B;テーブル（nms:trackingStats）に基づいています。
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -576,7 +576,7 @@ This report is based on the **[!UICONTROL Services]** table (nms:service).
   <tr> 
    <td> クリック数<br /> </td> 
    <td> @recipientClick<br /> </td> 
-   <td> Distinct count of @broadLog-ids with a URL type equal to "Email click". <br /> </td> 
+   <td> URL タイプが「E メールのクリック」に等しい @broadLog-ids のユニークカウント数。<br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @broadLog-id, 0))<br /> </td> 
   </tr> 
   <tr> 
@@ -624,7 +624,7 @@ This report is based on the **[!UICONTROL Services]** table (nms:service).
   <tr> 
    <td> 合計金額<br /> </td> 
    <td> @amount<br /> </td> 
-   <td> Sum of webTrackingLog/@amounts with a URL type equal to "Transaction". <br /> </td> 
+   <td> URL タイプが「トランザクション」に等しい webTrackingLog/@amounts の合計。<br /> </td> 
    <td> Sum(Iif([url/@type]=5, webTrackingLog/@amount, 0))<br /> </td> 
   </tr> 
   <tr> 
@@ -698,12 +698,12 @@ This report is based on the **[!UICONTROL Services]** table (nms:service).
 
 ## URL とクリックストリーム {#urls-and-click-streams-1}
 
-このレポートは、**[!UICONTROL Delivery]**&#x200B;配信テーブル（nms:）に基づいています。
+このレポートは、**[!UICONTROL 配信]**&#x200B;テーブル（nms:delivery）に基づいています。
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -745,12 +745,12 @@ This report is based on the **[!UICONTROL Services]** table (nms:service).
 
 ## 配信の概要 {#delivery-summary-1}
 
-このレポートは、**[!UICONTROL Delivery]**&#x200B;配信テーブル（nms:）に基づいています。
+このレポートは、**[!UICONTROL 配信]**&#x200B;テーブル（nms:delivery）に基づいています。
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -798,18 +798,18 @@ This report is based on the **[!UICONTROL Services]** table (nms:service).
 
 ## ホットクリック {#hot-clicks-1}
 
-This report is based on the Delivery(nms:delivery) and **[!UICONTROL Consolidated tracking]** (nms:trackingStats) tables.
+このレポートは、配信テーブル（nms:delivery）および&#x200B;**[!UICONTROL 統合されたトラッキング]**&#x200B;テーブル（nms:trackingStats）に基づいています。
 
 このレポートは、各リンクでのメッセージのコンテンツ（HTML および／またはテキスト）を、リンクでのクリック率と共に表示します。パーソナライゼーションブロックの購読解除リンクおよびミラーページリンクは、累積クリック数の合計では考慮されますが、レポートには表示されません。
 
 ## トラッキング統計 {#tracking-statistics-1}
 
-このレポートは、**[!UICONTROL Delivery]**&#x200B;配信テーブル（nms:）に基づいています。
+このレポートは、**[!UICONTROL 配信]**&#x200B;テーブル（nms:delivery）に基づいています。
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -839,12 +839,12 @@ This report is based on the Delivery(nms:delivery) and **[!UICONTROL Consolidate
 
 ## 配信統計 {#delivery-statistics-1}
 
-This report is based on the **[!UICONTROL Delivery and tracking statistics]** table (nms:deliveryLogStats).
+このレポートは、**[!UICONTROL 配信およびトラッキング統計]**&#x200B;テーブル（nms:deliveryLogStats）に基づいています。
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -884,7 +884,7 @@ This report is based on the **[!UICONTROL Delivery and tracking statistics]** ta
   <tr> 
    <td> クリック数<br /> </td> 
    <td> @personClick<br /> </td> 
-   <td> Total number of @source-ids for which the URL category equals "Email click". <br /> </td> 
+   <td> URL カテゴリが「E メールのクリック」に等しい @source-ids の合計数。<br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0)) <br /> </td> 
   </tr> 
   <tr> 
@@ -903,7 +903,7 @@ This report is based on the **[!UICONTROL Delivery and tracking statistics]** ta
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ラベル</strong><br /> </th> 
+   <th> <strong>ラベル</strong> <br /> </th> 
    <th> <strong>フィールド名</strong> <br /> </th> 
    <th> <strong>指標の説明</strong> <br /> </th> 
    <th> <strong>指標の計算式</strong> <br /> </th> 
@@ -913,7 +913,7 @@ This report is based on the **[!UICONTROL Delivery and tracking statistics]** ta
   <tr> 
    <td> 開封数<br /> </td> 
    <td> @totalRecipientOpen<br /> </td> 
-   <td> Sum of all @id with a URL primary key equal to 1 (open). <br /> </td> 
+   <td> URL のプライマリキーが 1（open）に等しいすべての @id の合計。<br /> </td> 
    <td> count(Iif([@url-id] = 1, @id, 0))<br /> </td> 
   </tr> 
  </tbody> 
@@ -925,7 +925,7 @@ This report is based on the **[!UICONTROL Delivery and tracking statistics]** ta
 
 ## 指標の同期 {#indicator-synchronization}
 
-If you experience desynchronization or inconsistency for certain indicators, select the concerned delivery in the Adobe Campaign explorer, right-click and choose **[!UICONTROL Action>Recompute delivery and tracking indicators]**. をクリック **[!UICONTROL Next]**&#x200B;し、をクリックしま **[!UICONTROL Finish]**&#x200B;す。
+特定の指標に対して非同期または不一致が発生する場合は、Adobe Campaign エクスプローラーで該当する配信を選択し、右クリックして&#x200B;**[!UICONTROL アクション／配信とトラッキング指標を再計算]**&#x200B;を選択してください。**[!UICONTROL 次へ]**／**[!UICONTROL 完了]**&#x200B;をクリックします。
 
 ![](assets/s_ncs_user_recalculate_indicators.png)
 

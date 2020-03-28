@@ -14,7 +14,7 @@ discoiquuid: b7ff47e1-ef12-4f04-afff-1a6c01d7701f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 # エンリッチメント{#enrichment}
 
-The **[!UICONTROL Enrichment]** activity lets you add information to a profile list and links to an existing table (create a new join). データベース内のプロファイルと紐付ける条件も定義できます。
+「**[!UICONTROL エンリッチメント]**」アクティビティでは、プロファイルリストに情報を追加し、リンクを既存のテーブルに追加できます（新しい結合を作成）。データベース内のプロファイルと紐付ける条件も定義できます。
 
 ![](assets/enrichment_design.png)
 
@@ -32,40 +32,40 @@ The **[!UICONTROL Enrichment]** activity lets you add information to a profile l
 
 ![](assets/enrichment_edit.png)
 
-このオプ **[!UICONTROL Data linked to the filtering dimension]** ションを使用すると、次の項目にアクセスできます。
+「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」オプションで、次の設定が可能になります。
 
 * フィルタリングディメンションのデータ：作業用テーブルのデータへのアクセス
 * フィルタリングディメンションに関係付けられたデータ：作業用テーブルに関係付けられたデータへのアクセス
 
 ![](assets/wf_enrich_linkoptions.png)
 
-The **[!UICONTROL A link]** option lets you create a join on any table of the database.
+「**[!UICONTROL リンク]**」オプションにより、データベースのどのテーブルにも結合を作成できます。
 
 ![](assets/wf_enrich_linkstype.png)
 
 次の 4 つのタイプのリンクがあります。
 
-* **[!UICONTROL Define a collection]**:テーブル間のカーディナリティが1-Nのリンクを定義できます。
-* **[!UICONTROL Define a link whose target is still available]**:テーブル間のカーディナリティが1 ～ 1のリンクを定義できます。 結合条件は、ターゲットテーブル内の 1 つのレコードで定義される必要があります。
-* **[!UICONTROL Define a link whose target does not necessarily exist in the base]**:テーブル間のカーディナリティが0 ～ 1のリンクを定義できます。 結合条件は、ターゲットテーブル内のゼロまたは 1 つ（最大）のレコードで定義される必要があります。
+* **[!UICONTROL コレクションを定義]**：テーブル間で 1-N の基数を持つリンクを定義できます。
+* **[!UICONTROL ターゲットが常に使用可能であるリンクを定義]**：テーブル間で 1-1 の基数を持つリンクを定義できます。結合条件は、ターゲットテーブル内の 1 つのレコードで定義される必要があります。
+* **[!UICONTROL データベース内にターゲットが存在しない可能性があるリンクを定義]**：テーブル間で 0-1 の基数を持つリンクを定義できます。結合条件は、ターゲットテーブル内のゼロまたは 1 つ（最大）のレコードで定義される必要があります。
 
-   このオプションは、アクティビティの **[!UICONTROL Simple Join]** リンクを介してアクセスできるタブ **[!UICONTROL Edit additional data]** で設定され **[!UICONTROL Enrichment]** ています。
+   このオプションの設定は、**[!UICONTROL エンリッチメント]**&#x200B;アクティビティの&#x200B;**[!UICONTROL 追加データを編集]**&#x200B;リンクからアクセスできる「**[!UICONTROL 単純結合]**」タブでおこないます。
 
-* **[!UICONTROL Define a link by searching for a reference among several options]**:このタイプのリンクは、一意のレコードに対する調整を定義します。 Adobe Campaign は、一意のレコードへの参照を格納するターゲットテーブルに外部キーを追加する方法で、ターゲットテーブルへのリンクを作成します。
+* **[!UICONTROL 複数のオプションで参照を検索してリンクを定義]**：このタイプのリンクは、一意のレコードに対する紐付けを定義します。Adobe Campaign は、一意のレコードへの参照を格納するターゲットテーブルに外部キーを追加する方法で、ターゲットテーブルへのリンクを作成します。
 
-   このオプションは、アクティビティの **[!UICONTROL Reconciliation and deduplication]** リンクを介してアクセスできるタブ **[!UICONTROL Edit additional data]** で設定され **[!UICONTROL Enrichment]** ています。
+   このオプションの設定は、**[!UICONTROL エンリッチメント]**&#x200B;アクティビティの&#x200B;**[!UICONTROL 追加データを編集]**&#x200B;リンクからアクセスできる「**[!UICONTROL 紐付けと重複排除]**」タブでおこないます。
 
-「デー [タの強化](../../workflow/using/enriching-data.md) 」と「概要 [リストの作成」の使用例では](../../workflow/using/creating-a-summary-list.md) 、エンリッチメントアクティビティの操作の詳細がコンテキスト内に表示されます。
+[データのエンリッチメント](../../workflow/using/enriching-data.md)と[サマリーリストの作成](../../workflow/using/creating-a-summary-list.md)の使用例では、状況に応じたエンリッチメントアクティビティの操作について詳しく説明しています。
 
 ## 情報の追加 {#adding-information}
 
-Use the **[!UICONTROL Enrichment]** activity to add columns to a work table: this activity can be used as a complement to a query activity.
+「**[!UICONTROL エンリッチメント]**」アクティビティを使用して作業用テーブルに列を追加します。このアクティビティは、クエリアクティビティの補完として使用できます。
 
-The configuration of additional columns is detailed in [Adding data](../../workflow/using/query.md#adding-data).
+追加の列の設定について詳しくは、[データの追加](../../workflow/using/query.md#adding-data)を参照してください。
 
-The **[!UICONTROL Primary set]** field lets you select the inbound transition: the data of this activity&#39;s worktable will be enriched.
+「**[!UICONTROL プライマリセット]**」フィールドでは、インバウンドトラジションを選択できます。アクティビティの作業用テーブルのデータはエンリッチメントされます。
 
-リンクをク **[!UICONTROL Add data]** リックし、追加するデータのタイプを選択します。 提供されるデータタイプのリストは、プラットフォームにインストールされているモジュールとオプションによって異なります。 最小構成の場合、いつでもフィルタリングディメンションとリンクへ関係付けられたデータを追加できます。
+「**[!UICONTROL データを追加]**」リンクをクリックして、追加するデータのタイプを選択します。オファーされるデータタイプのリストの内容は、プラットフォームにインストールしたモジュールとオプションによって異なります最小構成の場合、いつでもフィルタリングディメンションとリンクへ関係付けられたデータを追加できます。
 
 ![](assets/enrichment_edit.png)
 
@@ -93,7 +93,7 @@ The **[!UICONTROL Primary set]** field lets you select the inbound transition: t
 
 ## 追加データの管理 {#managing-additional-data}
 
-以前に定義 **[!UICONTROL Keep all additional data from the main set]** した追加データを保持しない場合は、このオプションの選択を解除します。 この場合、エンリッチメントアクティビティで選択した追加の列のみが、送信用作業用テーブルに追加されます。アクティビティのアップストリームに追加された追加情報は保存されません。
+以前に定義した追加データを保持する必要がない場合は、「**[!UICONTROL メインセットからのすべての追加データを維持]**」オプションの選択を解除します。この場合、エンリッチメントアクティビティで選択した追加の列のみが、送信用作業用テーブルに追加されます。アクティビティのアップストリームに追加された追加情報は保存されません。
 
 ![](assets/enrichment_edit_without_additional.png)
 
@@ -126,7 +126,7 @@ The **[!UICONTROL Primary set]** field lets you select the inbound transition: t
 
    ![](assets/enrichment_edit_after_file_box.png)
 
-1. オプションを選 **[!UICONTROL Link definition]** 択し、ボタンをクリック **[!UICONTROL Next]** します。 作成されるリンクのタイプを指定します。この例では、ファイルの受信者の国を、データベースの専用テーブル内の使用可能な国のリストにある国と紐付けします。オプションを選 **[!UICONTROL Define a link by searching for a reference among several options]** 択します。 Select the country table in the **[!UICONTROL Target schema]** field.
+1. 「**[!UICONTROL リンクの定義]**」オプションを選択し、「**[!UICONTROL 次へ]**」ボタンをクリックします。作成されるリンクのタイプを指定します。この例では、ファイルの受信者の国を、データベースの専用テーブル内の使用可能な国のリストにある国と紐付けします。「**[!UICONTROL 複数のオプションで参照を検索してリンクを定義]**」オプションを選択します。「**[!UICONTROL ターゲットスキーマ]**」フィールドで国テーブルを選択します。
 
    ![](assets/enrichment_add_a_link_select_option4.png)
 
@@ -140,9 +140,9 @@ The **[!UICONTROL Primary set]** field lets you select the inbound transition: t
 
 ## データの紐付け {#data-reconciliation}
 
-エンリッチメントアクティビティは、データベース内に読み込まれたコアデータなど、データの紐付けの設定に使用できます。In this case, the **[!UICONTROL Reconciliation]** tab lets you define the link between the data in the Adobe Campaign database and the data in the work table.
+エンリッチメントアクティビティは、データベース内に読み込まれたコアデータなど、データの紐付けの設定に使用できます。この場合、「**[!UICONTROL 紐付け]**」タブで、Adobe Campaign データベース内のデータと作業用テーブル内のデータを結ぶリンクを定義できます。
 
-オプション **[!UICONTROL Identify the targeting document based on work data]** を選択し、リンクを作成するスキーマを指定して、結合条件を定義します。これを行うには、作業データ(**[!UICONTROL Source expression]**)とターゲットディメンション(**[!UICONTROL Destination expression]**)で調整するフィールドを選択します。
+「**[!UICONTROL 作業データからドキュメントを識別]**」オプションを選択し、リンクを作成するスキーマを指定し、結合条件を定義します。それには、作業データ内（**[!UICONTROL ソース式]**）およびターゲティングディメンション内（**[!UICONTROL 宛先の式]**）から紐付けするフィールドを選択します。
 
 1 つまたは複数の紐付け条件を使用できます。
 
@@ -163,27 +163,27 @@ The **[!UICONTROL Primary set]** field lets you select the inbound transition: t
 クエリを設定した後におこなう作業（この[節](../../workflow/using/query.md)を参照）：
 
 1. エンリッチメントアクティビティを追加し、開きます。
-1. タブで、を **[!UICONTROL Enrichment]** 選択します **[!UICONTROL Add data]**。
-1. 追加す **[!UICONTROL An offer proposition]** るデータのタイプを選択します。
+1. 「**[!UICONTROL エンリッチメント]**」タブで、「**[!UICONTROL データを追加]**」を選択します。
+1. 追加するデータタイプで「**[!UICONTROL オファーの提案]**」を選択します。
 
    ![](assets/int_enrichment_offer2.png)
 
 1. 追加される提案の識別子とラベルを指定します。
 1. オファーの選択を指定します。これには、次の 2 つのオプションを使用できます。
 
-   * **[!UICONTROL Search for the best offer in a category]**:このオプションを選択し、オファーエンジン呼び出しパラメーター（オファースペース、カテゴリまたはテーマ、連絡日、保持するオファー数）を指定します。 エンジンは、これらのパラメーターに基づいて、追加するオファーを自動的に計算します。We recommend completing either the **[!UICONTROL Category]** or the **[!UICONTROL Theme]** field, rather than both at the same time.
+   * **[!UICONTROL カテゴリ内で最適なオファーを検索]**：このオプションをオンにして、オファーエンジン呼び出しパラメーター（オファースペース、カテゴリまたはテーマ、コンタクト日、保持するオファーの数）を指定します。エンジンは、これらのパラメーターに基づいて、追加するオファーを自動的に計算します。「**[!UICONTROL カテゴリ]**」フィールドと「**[!UICONTROL テーマ]**」フィールドは、両方同時には使用せず、どちらか一方のみ入力することをお勧めします。
 
       ![](assets/int_enrichment_offer3.png)
 
-   * **[!UICONTROL A predefined offer]**:このオプションを選択し、オファースペース、特定のオファーおよび連絡日を指定して、オファーエンジンを呼び出さずに、追加するオファーを直接設定します。
+   * **[!UICONTROL 事前定義済みオファー]**：このオプションをオンにして、オファースペース、特定のオファーおよびコンタクト日を指定し、オファーエンジンを呼び出すことなく、追加するオファーを直接設定します。
 
       ![](assets/int_enrichment_offer4.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。Refer to [Cross-channel deliveries](../../workflow/using/cross-channel-deliveries.md).
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[クロスチャネル配信](../../workflow/using/cross-channel-deliveries.md)を参照してください。
 
    プレビュー可能な提案の数は、配信で直接実行された設定ではなく、エンリッチメントアクティビティで実行された設定によって決まります。
 
-オファーの提案を指定する際には、オファーへのリンクの参照することにもできます。この詳細については、次の「オファーへのリンクの [参照」を参照してください](#referencing-a-link-to-an-offer)。
+オファーの提案を指定する際には、オファーへのリンクの参照することにもできます。詳しくは、次の節の[オファーへのリンクの参照](#referencing-a-link-to-an-offer)を参照してください。
 
 ## オファーへのリンクの参照 {#referencing-a-link-to-an-offer}
 
@@ -191,8 +191,8 @@ The **[!UICONTROL Primary set]** field lets you select the inbound transition: t
 
 手順は次のとおりです。
 
-1. アクテ **[!UICONTROL Add data]** ィビティのタブでを選択 **[!UICONTROL Enrichment]** します。
-1. In the window where you choose the type of data to add, select **[!UICONTROL A link]**.
+1. アクティビティの「**[!UICONTROL エンリッチメント]**」タブで「**[!UICONTROL データを追加]**」を選択します。
+1. 追加するデータのタイプを選択するウィンドウで、「**[!UICONTROL リンク]**」を選択します。
 1. 設定するリンクのタイプとターゲットを選択します。この場合、ターゲットはオファースキーマです。
 
    ![](assets/int_enrichment_link1.png)
@@ -201,7 +201,7 @@ The **[!UICONTROL Primary set]** field lets you select the inbound transition: t
 
    ![](assets/int_enrichment_link2.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。Refer to [Cross-channel deliveries](../../workflow/using/cross-channel-deliveries.md).
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[クロスチャネル配信](../../workflow/using/cross-channel-deliveries.md)を参照してください。
 
    >[!NOTE]
    >
@@ -211,19 +211,19 @@ The **[!UICONTROL Primary set]** field lets you select the inbound transition: t
 
 デフォルトでは、オファーの配信に「**エンリッチメント**」アクティビティを使用すると、オファーのランク付けと重み付けが提案テーブルに格納されません。
 
-The **[!UICONTROL Offer engine]** activity does store this information by default.
+「**[!UICONTROL オファーエンジン]**」アクティビティは、デフォルトではこの情報を格納しませんが、
 
 次の方法でこの情報を保存することができます。
 
 1. エンリッチメントアクティビティ内で、クエリの後、配信アクティビティの前に、オファーエンジンの呼び出しを作成します。この[節](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine)を参照してください。
-1. アクティビティのメインウィンドウで、を選択しま **[!UICONTROL Edit additional data...]**&#x200B;す。
+1. アクティビティのメインウィンドウで「**[!UICONTROL 追加データを編集...]**」を選択します。
 
    ![](assets/ita_enrichment_rankweight_1.png)
 
-1. Add the **[!UICONTROL @rank]** columns for the ranking and **[!UICONTROL @weight]** for the offer weight.
+1. ランキング用に「**[!UICONTROL @rank]**」列を追加し、オファーの重み付け用に「**[!UICONTROL @weight]**」列を追加します。
 
    ![](assets/ita_enrichment_rankweight_2.png)
 
 1. 追加を確認し、ワークフローを保存します。
 
-これで、オファーのランキングと重み付けが自動的に格納されるようになります。This information is visible in the delivery&#39;s **[!UICONTROL Offers]** tab.
+これで、オファーのランキングと重み付けが自動的に格納されるようになります。この情報は、配信の「**[!UICONTROL オファー]**」タブに表示されます。

@@ -1,6 +1,6 @@
 ---
-title: Facebook/Twitterでの投稿
-seo-title: Facebook/Twitterでの投稿
+title: Facebook／Twitter へのパブリッシュ
+seo-title: Facebook／Twitter へのパブリッシュ
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -11,11 +11,11 @@ iscontainer: true
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
 
 
-# Facebook/Twitterでの投稿{#publishing-on-facebook-twitter}
+# Facebook／Twitter へのパブリッシュ{#publishing-on-facebook-twitter}
 

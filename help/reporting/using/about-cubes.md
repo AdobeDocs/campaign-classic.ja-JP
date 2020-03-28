@@ -14,7 +14,7 @@ discoiquuid: 42db3be8-ee02-4158-adcd-846420a32460
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -41,7 +41,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
    * データを集計して作業用テーブルに保存し、必要に応じて指標を事前に計算すること。
    * レポートやクエリに使用する様々な計算に関係するデータの量を減らすことで、指標の計算時間を大幅に最適化すること。
    * データへのアクセスを簡素化して、（データが事前に集計されているかどうかによらず）ユーザーが様々なディメンションに応じてデータを操作できるようにすること。
-   For more on this, refer to [Creating indicators](../../reporting/using/creating-indicators.md).
+   詳しくは、[指標の作成](../../reporting/using/creating-indicators.md)を参照してください。
 
 1. 次のことを考慮したピボットテーブルの作成
 
@@ -49,7 +49,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
    * 表示するデータとその表示モードの選択
    * 使用する測定や指標のパーソナライズ
    * 技術的なバックグラウンドを持たないユーザーへのインタラクティブな分析ツールの提供
-   詳細については、「キューブを使用したデ [ータの調査」を参照してください](../../reporting/using/using-cubes-to-explore-data.md)。
+   詳しくは、[キューブを使用したデータ調査](../../reporting/using/using-cubes-to-explore-data.md)を参照してください。
 
 1. キューブで計算および集計したデータを使用したクエリの作成
 1. 母集団の特定とリストでの参照
@@ -86,31 +86,31 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ## キューブワークスペース {#cube-workspace}
 
-キューブはノードに格納さ **[!UICONTROL Administration > Configuration > Cubes]** れます。
+キューブは&#x200B;**[!UICONTROL 管理／設定／キューブ]**&#x200B;ノードに格納されます。
 
 ![](assets/s_advuser_cube_node.png)
 
 キューブを使用する主なコンテキストは次のとおりです。
 
-* Data exports can be carried out directly in a report, designed in the **[!UICONTROL Reports]** universe of the Adobe Campaign platform.
+* Adobe Campaign プラットフォームの&#x200B;**[!UICONTROL レポート]**&#x200B;ウィンドウで設計されたレポートでデータエクスポートを直接実行できます。
 
    それには、新しいレポートを作成し、使用するキューブを選択します。
 
    ![](assets/cube_create_new.png)
 
-   キューブは、作成するレポートの基になるテンプレートのように表示されます。Once you have chosen a template, click **[!UICONTROL Create]** to configure and view the matching report.
+   キューブは、作成するレポートの基になるテンプレートのように表示されます。テンプレートを選択したら、「**[!UICONTROL 作成]**」をクリックして、対応するレポートを設定および表示します。
 
    測定の適合化、表示モードの変更またはテーブルの設定をおこなってから、メインボタンを使用してレポートを表示できます。
 
    ![](assets/cube_display_new.png)
 
-* You can also reference a cube in the **[!UICONTROL Query]** box of a report to use its indicators, as shown below:
+* レポートの「**[!UICONTROL クエリ]**」ボックスでキューブを参照して、その指標を使用することもできます（下図参照）。
 
    ![](assets/s_advuser_query_using_a_cube.png)
 
-* キューブに基づいたピボットテーブルをレポートの任意のページに挿入することもできます。To do this, reference the cube to be used in the **[!UICONTROL Data]** tab of the pivot table on the concerned page.
+* キューブに基づいたピボットテーブルをレポートの任意のページに挿入することもできます。それには、該当するページにあるピボットテーブルの「**[!UICONTROL データ]**」タブで、使用するキューブを参照します。
 
    ![](assets/s_advuser_cube_in_report.png)
 
-   詳しくは、「レポート内のデ [ータの詳細」を参照してください](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report)。
+   詳しくは、[レポートのデータの調査](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report)を参照してください。
 

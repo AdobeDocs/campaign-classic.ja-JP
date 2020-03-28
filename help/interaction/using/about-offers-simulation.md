@@ -14,7 +14,7 @@ discoiquuid: 0af021af-2686-4a37-97d9-6d13a851b5dd
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5489e09303920bf5bd3dcd08263dc3c945d151c1
 
 ---
@@ -24,22 +24,22 @@ source-git-commit: 5489e09303920bf5bd3dcd08263dc3c945d151c1
 
 **シミュレーション**&#x200B;モジュールを使用すると、提案を受信者に送信する前に、1 つのカテゴリまたは環境に属するオファーの配分をテストできます。
 
-Simulation takes into account the contexts and eligibility rules previously applied to offers (refer to [Offer catalog overview](../../interaction/using/offer-catalog-overview.md)), as well as their presentation rules (refer to [Managing offer presentation](../../interaction/using/managing-offer-presentation.md)). ターゲットの受信者はシミュレーションの影響を受けないので、これにより、実際にオファーを使用したり、ターゲットを拡大または縮小したりしなくても、オファーの提案の様々なバージョンをテストして調整できます。
+シミュレーションには、オファーにあらかじめ適用されているコンテキストおよび実施要件ルール（[オファーカタログの概要](../../interaction/using/offer-catalog-overview.md)を参照）と、オファーのプレゼンテーションルール（[オファー表示域の管理](../../interaction/using/managing-offer-presentation.md)を参照）が考慮されます。ターゲットの受信者はシミュレーションの影響を受けないので、これにより、実際にオファーを使用したり、ターゲットを拡大または縮小したりしなくても、オファーの提案の様々なバージョンをテストして調整できます。
 
-オファーをシミュレートする方法については、以下の手順を参照してください。 You can also watch this [video](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com).
+オファーをシミュレートする方法については、以下の手順を参照してください。この[ビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&amp;ref=helpx.adobe.com)もご覧ください。
 
 ## シミュレーション作成の主な手順 {#main-steps-for-creating-a-simulation}
 
 オファーのシミュレーションを実行するには、次の手順に従います。
 
-1. 宇宙で、 **[!UICONTROL Profiles and Targets]** リンクをクリック **[!UICONTROL Simulations]** し、ボタンをクリックし **[!UICONTROL Create]** ます。
+1. **[!UICONTROL プロファイルとターゲット]**&#x200B;ウィンドウで、「**[!UICONTROL シミュレーション]**」リンクをクリックし、「**[!UICONTROL 作成]**」ボタンをクリックします。
 
    ![](assets/offer_simulation_001.png)
 
 1. 作成したシミュレーションを保存し、編集します。
-1. Go to the **[!UICONTROL Edit]** tab and specify the execution settings.
+1. 「**[!UICONTROL 編集]**」タブに移動し、実行設定を指定します。
 
-   For more on this, refer to [Execution settings](../../interaction/using/execution-settings.md).
+   詳しくは、[実行設定](../../interaction/using/execution-settings.md)を参照してください。
 
    ![](assets/offer_simulation_003.png)
 
@@ -49,23 +49,23 @@ Simulation takes into account the contexts and eligibility rules previously appl
 
 1. シミュレーションのスコープを指定します。
 
-   詳細については、「スコープの定 [義」を参照してください](../../interaction/using/simulation-scope.md#definition-of-the-scope)。
+   詳しくは、[スコープの定義](../../interaction/using/simulation-scope.md#definition-of-the-scope)を参照してください。
 
    ![](assets/offer_simulation_004.png)
 
-1. レポートの軸を追加してレポートを強 **[!UICONTROL Offer distribution by rank]** 化します（オプション）。
+1. レポートの軸を追加して、**[!UICONTROL オファーの配分（ランク別）]**&#x200B;レポートの内容をより充実させます（オプション）。
 
-   詳しくは、「レポート軸の追加」を参 [照してください](../../interaction/using/simulation-scope.md#adding-reporting-axes)。
+   詳しくは、[レポートの軸の追加](../../interaction/using/simulation-scope.md#adding-reporting-axes)を参照してください。
 
    ![](assets/offer_simulation_005.png)
 
-1. Click **[!UICONTROL Save]** to record the simulation settings.
+1. 「**[!UICONTROL 保存]**」をクリックして、シミュレーションの設定を保存します。
 1. ダッシュボードからシミュレーションを開始します。
 
    ![](assets/offer_simulation_006.png)
 
 1. シミュレーション結果をチェックし、分析レポートを表示します。
 
-   For more on this, refer to [Simulation tracking](../../interaction/using/simulation-tracking.md).
+   詳しくは、[シミュレーショントラッキング](../../interaction/using/simulation-tracking.md)を参照してください。
 
    ![](assets/offer_simulation_007.png)

@@ -14,7 +14,7 @@ discoiquuid: f6e44634-3a13-480e-ab44-f3c744054a96
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ---
@@ -28,8 +28,8 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ## オファープレゼンテーションルールの作成および参照 {#creating-and-referencing-an-offer-presentation-rule}
 
-1. \> > **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** nodeに移動し **[!UICONTROL Typology rules]** ます。
-1. Create a typology rule and choose the **[!UICONTROL Offer presentation]** type.
+1. **[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL タイポロジ管理]**／**[!UICONTROL タイポロジルール]**&#x200B;ノードに移動します。
+1. タイポロジルールを作成し、「**[!UICONTROL オファーのプレゼンテーション]**」タイプを選択します。
 
    ![](assets/offer_typology_001.png)
 
@@ -37,8 +37,8 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
    ![](assets/offer_typology_002.png)
 
-1. ルールの適用条件を設定します。詳しくは、「プレゼンテーションルールの設定」 [を参照してください](#presentation-rule-settings)。
-1. **[!UICONTROL Administration]** > **[!UICONTROL Campaign execution]** nodeに移動し、すべてのタイ **[!UICONTROL Typology management]** プルールをグループ化するタイポロジを **[!UICONTROL Typologies]****[!UICONTROL Offer presentation]** 作成します。
+1. ルールの適用条件を設定します。詳しくは、[プレゼンテーションルールの設定](#presentation-rule-settings)を参照してください。
+1. **[!UICONTROL 管理]**／**[!UICONTROL キャンペーンの実行]**／**[!UICONTROL タイポロジ管理]**／**[!UICONTROL タイポロジ]**&#x200B;ノードに移動し、**[!UICONTROL オファーのプレゼンテーション]**&#x200B;タイプのルールをすべてグループ化するタイポロジを作成します。
 
    ![](assets/offer_typology_003.png)
 
@@ -54,9 +54,9 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 ### 適用条件 {#application-criteria-}
 
-The application criteria available in the **[!UICONTROL General]** tab lets you specify the offers which the presentation rule will apply to. それには、次に説明するように、クエリを作成して、該当するオファーを選択する必要があります。
+「**[!UICONTROL 一般]**」タブの適用条件を使用すると、プレゼンテーションルールを適用するオファーを指定できます。それには、次に説明するように、クエリを作成して、該当するオファーを選択する必要があります。
 
-1. タイポロジルールで、リンクをクリック **[!UICONTROL Edit the rule application conditions...]** してクエリを作成します。
+1. タイポロジルール内で、「**[!UICONTROL ルール適用条件を編集]**」リンクをクリックし、クエリを作成します。
 
    ![](assets/offer_typology_006.png)
 
@@ -68,21 +68,21 @@ The application criteria available in the **[!UICONTROL General]** tab lets you 
 
 ### オファーディメンション {#offer-dimensions}
 
-In the **[!UICONTROL Offer presentation]** tab, you must specify the same dimensions for the presentation rule as those configured in the environment.
+「**[!UICONTROL オファーのプレゼンテーション]**」タブで、環境内に設定されているのと同じディメンションをプレゼンテーションルールにも指定する必要があります。
 
-The **[!UICONTROL Targeting dimension]** coincides with the table of recipients (by default: nms:recipients) who will receive the offer propositions. The **[!UICONTROL Storage dimension]** coincides with the table which contains the proposition history linked to the targeting dimension (by default:nms:propositionRcp).
+「**[!UICONTROL ターゲティングディメンション]**」は、オファーの提案を受け取る受信者のテーブル（デフォルトは nms:recipients）に一致します。「**[!UICONTROL ストレージディメンション]**」は、ターゲティングディメンションにリンクした提案履歴のテーブル（デフォルトでは nms:propositionRcp）に一致します。
 
 ![](assets/offer_typology_009.png)
 
 >[!NOTE]
 >
->標準以外のテーブルを使用することもできます。特定のターゲティングディメンションを使用する場合、ターゲットマッピングを使用したテーブルおよび専用の環境を作成する必要があります。For more on this, refer to [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+>標準以外のテーブルを使用することもできます。特定のターゲティングディメンションを使用する場合、ターゲットマッピングを使用したテーブルおよび専用の環境を作成する必要があります。詳しくは、[オファー環境の作成](../../interaction/using/live-design-environments.md#creating-an-offer-environment)を参照してください。
 
 ### 期間 {#period}
 
 これは、オファーのプレゼンテーション日から始まるスライドする期間です。これによって、オファーの提案が有効な期限が設定されます。この期間を過ぎると、ルールはオファーの提案に適用されなくなります。
 
-The period starts **n** days before the proposition date and ends **n** days afterwards, where **n** corresponds to the number entered in the **[!UICONTROL Period considered]** field:
+期間は、提案日の **n** 日前に始まって **n** 日後に終わります（**n** には、「**[!UICONTROL 考慮する期間]**」フィールドに入力された数値が入ります）。
 
 * インバウンドスペースの場合、提案日は、オファーのプレゼンテーション日です。
 * アウトバウンドスペースの場合、提案日は、配信のコンタクト日（例えば、ターゲティングワークフローに入力された配信日）です。
@@ -101,7 +101,7 @@ The period starts **n** days before the proposition date and ends **n** days aft
 
 ## 提案および受信者の定義 {#defining-propositions-and-recipients}
 
-The **[!UICONTROL Propositions to count]** section lets you specify both the recipients and the propositions which will lead to the exclusion of the offers defined in the **[!UICONTROL General]** tab if they appear a certain number of times in the propositions history.
+「**[!UICONTROL カウントする提案]**」セクションで受信者と提案を指定すると、提案履歴にそれらが所定の回数出現した場合に、「**[!UICONTROL 一般]**」タブで定義されたオファーの除外が適用されます。
 
 ### 提案のフィルタリング {#filtering-propositions}
 
@@ -109,55 +109,55 @@ The **[!UICONTROL Propositions to count]** section lets you specify both the rec
 
 ![](assets/offer_typology_014.png)
 
-これらの条件には、プレゼンテーションルールのうち特に適用頻度が高いものが示されます。To use other criteria, you can create a query using the **[!UICONTROL Limit propositions...]** link. 詳しくは、「提案に対するクエリの作 [成」の節を参照してください](#creating-a-query-on-propositions) 。
+これらの条件には、プレゼンテーションルールのうち特に適用頻度が高いものが示されます。その他の条件を使用するには、「**[!UICONTROL 提案を制限]**」リンクを使用してクエリを作成できます。詳しくは、[提案に関するクエリの作成](#creating-a-query-on-propositions)の節を参照してください。
 
 * **チャネルに対するフィルター**
 
-   **[!UICONTROL On the same channel only]** :タブで指定したチャネルのオファー提案を除外で **[!UICONTROL General]** きます。
+   **[!UICONTROL 同じチャネル上のみ]**：「**[!UICONTROL 一般]**」タブで指定されたチャネルのオファー提案を除外します。
 
-   For instance, the channel specified for the rule in the **[!UICONTROL General]** tab is email. ルールを適用するオファーが、それまでに Web チャネルでしか提供されていない場合、インタラクションエンジンは、E メール配信でオファーを提示できます。ただし、一度 E メールで提示されると、インタラクションエンジンは別のチャネルを選択してそのオファーを提示します。
+   例えば、「**[!UICONTROL 一般]**」タブで、このルール用のチャネルとして E メールが指定されているとします。ルールを適用するオファーが、それまでに Web チャネルでしか提供されていない場合、インタラクションエンジンは、E メール配信でオファーを提示できます。ただし、一度 E メールで提示されると、インタラクションエンジンは別のチャネルを選択してそのオファーを提示します。
 
    >[!NOTE]
    >
    >この説明は、スペースではなく、チャネルに関することである点に注意してください。ルールによって Web チャネルのオファーを除外すると、Web サイト内の 2 つのスペース（例：ページのバナーと本文）で提示されることになっているオファーは、一度これらの場所に提示された後は表示されなくなります。
    >
-   >For a workflow involving offer presentation, the rules are only correctly taken into account if they are configured on **[!UICONTROL All channels]**.
+   >オファープレゼンテーションに関するワークフローでは、ルールは、**[!UICONTROL すべてのチャネル]**&#x200B;に対して設定されている場合にのみ正しく考慮されます。
 
 * **オファーに対するフィルター**
 
    このフィルターを使用すると、カウントされるオファーの提案を、特定のセットのオファーのみに制限できます。
 
-   **[!UICONTROL All offers]** :デフォルト値。 オファーにフィルターは適用されません。
+   **[!UICONTROL すべてのオファー]**：デフォルト値。オファーにフィルターは適用されません。
 
-   **[!UICONTROL Offer being presented]** :タブで指定されたオファー **[!UICONTROL General]** が既に表示されている場合は、そのオファーが除外されます。
+   **[!UICONTROL 提供されているオファー]**：「**[!UICONTROL 一般]**」タブで指定されたオファーは、既に提示されたことがあれば除外されます。
 
-   **[!UICONTROL Offers from the same category]** :同じカテゴリのオファーが既に提示されている場合、オファーは除外されます。
+   **[!UICONTROL 同じカテゴリーのオファー]**：同じカテゴリに属するオファーが既に提示されているオファーは除外されます。
 
-   **[!UICONTROL The offers which the rule applies to]** :タブで複数のオファーが定義されている場合、このオファーのセットの各オファー提案が考慮され、提案のしきい値に達した場合に、すべてのオファーの除外が終了します。 **[!UICONTROL General]**
+   **[!UICONTROL ルールが適用されるオファー]**：いくつかのオファーが「**[!UICONTROL 一般]**」タブで定義されている場合に、それらに基づく各オファーの提案が考慮され、提案しきい値に達するとすべてのオファーが除外されます。
 
-   For instance, offers 2, 3 and 5 are defined in the **[!UICONTROL General]** tab. 提案の最大回数が 2 に設定されているとします。オファー 2 とオファー 5 がそれぞれ 1 回ずつ提示されると、提案回数のカウントは 2 に達します。したがって、以後オファー 3 が提示されることはありません。
+   例えば、オファー 2、3、5 が「**[!UICONTROL 一般]**」タブで定義されており、提案の最大回数が 2 に設定されているとします。オファー 2 とオファー 5 がそれぞれ 1 回ずつ提示されると、提案回数のカウントは 2 に達します。したがって、以後オファー 3 が提示されることはありません。
 
 * **提案ステータスに対するフィルター**
 
    このフィルターを使用すると、提案履歴で考慮に入れる、オファーの提案で最も頻繁に使用されるステータスを選択できます。
 
-   **[!UICONTROL Regardless of the proposition status]** :デフォルト値。 提案のステータスにフィルターは適用されません。
+   **[!UICONTROL 提案のステータスとは無関係]**：デフォルト値。提案のステータスにフィルターは適用されません。
 
-   **[!UICONTROL Accepted or rejected propositions]** :前に提示されたオファーのうち、受け入れられたオファーまたは拒否されたオファーを除外できます。
+   **[!UICONTROL 承認または却下された提案]**：以前に提案されたことがある承認済みまたは却下済みのオファーが除外されます。
 
-   **[!UICONTROL Accepted propositions]** :以前に提示されたオファーを除外して、受け入れられたオファーを除外できます。
+   **[!UICONTROL 承認された提案]**：以前に提案されたことがある承認済みのオファーが除外されます。
 
-   **[!UICONTROL Rejected propositions]** :以前に提示されたオファーを除外し、拒否されたオファーを除外できます。
+   **[!UICONTROL 却下された提案]**：以前に提案されたことがある却下済みのオファーが除外されます。
 
 ### 受信者の定義 {#defining-recipients}
 
-受信者を指定するには、リンクをクリ **[!UICONTROL Edit the query from the targeting dimension...]** ックし、ルールに関連する受信者を選択します。
+受信者を指定するには、「**[!UICONTROL ターゲティングディメンションからクエリを編集]**」リンクをクリックし、そのルールに関係する受信者を選択します。
 
 ![](assets/offer_typology_012.png)
 
 ### 提案に関するクエリの作成 {#creating-a-query-on-propositions}
 
-To specify the propositions to be counted via a query, click the **[!UICONTROL Limit propositions...]** link and specify the criteria to be taken into account.
+カウントする提案をクエリで指定するには、「**[!UICONTROL 提案を制限]**」リンクをクリックし、考慮に入れるための条件を指定します。
 
 次の例では、**Special offers** カテゴリと **Call center** スペースに属し、重み付けが **20** 未満である提案が、2 回のプレゼンテーションの後にカウント対象となります。
 

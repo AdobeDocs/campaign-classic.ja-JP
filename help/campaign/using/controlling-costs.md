@@ -14,7 +14,7 @@ discoiquuid: 892b93ed-cb0e-4af5-a1ae-eff0c8b703c6
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 ---
@@ -36,33 +36,33 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 1. 予算の定義
 
-   For more on this, refer to [Creating a budget](#creating-a-budget).
+   詳しくは、[予算の作成](#creating-a-budget)を参照してください。
 
 1. コスト計算メソッドの定義
 
-   サービスプロバイダーにコスト構造を定義します。See [Creating a service provider and its cost categories](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
+   サービスプロバイダーにコスト構造を定義します。[サービスプロバイダーとそのコストカテゴリの作成](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)を参照してください。
 
 1. キャンペーンコストの定義（配信／タスク）
 
-   配信およびタスクにかかるコストは、個別に入力することも、キャンペーンのテンプレートでグローバルに入力することもできます。See [Calculation of costs and stocks](../../campaign/using/marketing-campaign-deliveries.md#calculation-of-costs-and-stocks).
+   配信およびタスクにかかるコストは、個別に入力することも、キャンペーンのテンプレートでグローバルに入力することもできます。[コストと在庫の計算](../../campaign/using/marketing-campaign-deliveries.md#calculation-of-costs-and-stocks)を参照してください。
 
 1. 統合
 
    コストは、タスク、配信およびキャンペーンの進捗状況ステータスに応じて計算され、対応する予算に紐付けられます。
 
-   When the creation of the campaign is sufficiently advanced, the progress status of the campaign budget can be changed to **[!UICONTROL Specified]**. プログラムの計算されたコストには、キャンペーンの計算されたコストが自動的に入力されます。See [Cost commitment, calculation and charging](#cost-commitment--calculation-and-charging).
+   キャンペーンの作成が順調に進んでいる場合、キャンペーン予算の進捗状況ステータスを「**[!UICONTROL 定義済み]**」に変更することができます。プログラムの計算されたコストには、キャンペーンの計算されたコストが自動的に入力されます。[コストのコミット、計算および請求](#cost-commitment--calculation-and-charging)を参照してください。
 
 ## 予算の作成 {#creating-a-budget}
 
-予算はノードを介してマップに作成され **[!UICONTROL Campaign management > Budgets]** ます。 The **[!UICONTROL New]** button in the toolbar lets you create a budget.
+予算は&#x200B;**[!UICONTROL キャンペーン管理／予算]**&#x200B;ノードを使用し、マップ内で作成します。予算を作成するには、ツールバーにある&#x200B;**[!UICONTROL 新規]**&#x200B;ボタンを使用します。
 
 * 新しい予算の追加
 
-   Click the **[!UICONTROL New]** icon, name and save the budget.
+   **[!UICONTROL 新規]**&#x200B;アイコンをクリックし、名前を付けて予算を保存します。
 
 * 初期金額の入力
 
-   該当するフィールドに割り当てる金額を指定します。その他の金額は自動的に入力されます。金額の計 [算を参照してください](#calculating-amounts)。
+   該当するフィールドに割り当てる金額を指定します。その他の金額は自動的に入力されます。[金額の計算](#calculating-amounts)を参照してください。
 
 * 有効期間の定義
 
@@ -70,7 +70,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 * 費用
 
-   キャンペーンやタスクなどの予算に割り当てられたコストのリンク先費用カテゴリを作成します。経費カテ [ゴリを参照](#expense-categories)。
+   キャンペーンやタスクなどの予算に割り当てられたコストのリンク先費用カテゴリを作成します。[費用カテゴリ](#expense-categories)を参照してください。
 
    ![](assets/s_ncs_user_budget_create_and_save.png)
 
@@ -78,7 +78,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 >
 >関連予算を選択できます。
 >
->詳しくは、「予算の別の予算へ [のリンク」を参照してください](#linking-a-budget-to-another)。
+>詳しくは、[予算のリンク](#linking-a-budget-to-another)を参照してください。
 
 ### 金額の計算 {#calculating-amounts}
 
@@ -86,7 +86,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 >[!NOTE]
 >
->The amounts entered for the categories must match the budget envelope defined in the **[!UICONTROL Allocated]** field.
+>カテゴリに入力した金額は、「**[!UICONTROL 割り当て済み]**」フィールドで定義した予算金額に一致する必要があります。
 
 キャンペーンの場合、コミットメントレベルに応じて、将来のアクション用にコストを計画、コミットまたは予約できます。
 
@@ -94,28 +94,28 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 >[!CAUTION]
 >
->When a campaign is created, the progress status in **[!UICONTROL Budget]** must be set to **[!UICONTROL Defined]** for the costs to be taken into account on execution. If the status is **[!UICONTROL Being edited]**, the costs will not be consolidated.
+>実行時にコストが考慮されるようにするには、キャンペーンの作成時に「**[!UICONTROL 予算]**」の進捗状況ステータスを「**[!UICONTROL 定義済み]**」に設定する必要があります。ステータスが「**[!UICONTROL 編集中]**」の場合、コストは統合されません。
 >   
->The option **[!UICONTROL Commitment level]** represents a projection of costs into the future before they are charged to the budget. キャンペーン、タスクまたは配信の進捗状況に応じ、コンボボックスを使用して、コミットメントレベル（1. 計画済み、2. 予約済み、3. コミット済み）を割り当てることができます。
+>「**[!UICONTROL コミットメントレベル]**」オプションでは、予算を請求するまでのコストの今後の状態を指定します。キャンペーン、タスクまたは配信の進捗状況に応じ、コンボボックスを使用して、コミットメントレベル（1.計画済み、2.予約済み、3.コミット済み）を割り当てることができます。
 
 例えば、Web キャンペーンの概算暫定コストが 45,000 ユーロだとします。
 
 ![](assets/s_user_edit_budget_node_impact_0.png)
 
-For the campaign, when the budget creation status is set to **[!UICONTROL Defined]**, the real cost of the campaign (or, if none, the computed cost) will be carried over into the budget totals.
+このキャンペーンで、予算作成ステータスを「**[!UICONTROL 定義済み]**」に設定すると、キャンペーンの実際のコスト（実際のコストがない場合は計算されたコスト）が予算の合計に使用されます。
 
 ![](assets/s_user_budget_in_op_a.png)
 
-According to the level of commitment of the campaign budget, the amount will be entered in the **[!UICONTROL Planned]**, **[!UICONTROL Reserved]** or **[!UICONTROL Committed]** field.
+キャンペーン予算のコミットメントレベルに応じ、「**[!UICONTROL 計画済み]**」、「**[!UICONTROL 予約済み]**」または「**[!UICONTROL コミット済み]**」フィールドに金額が入力されます。
 
 コミットメントレベルは以下の場所で変更できます。
 
-* in the **campaign** level, in the **[!UICONTROL Budget]** window, found in the **[!UICONTROL Edit]** tab. 予算、コストおよび費用はここで設定します。
-* (タスク **レベル** 、ウィンドウ内 **[!UICONTROL Expenses and revenues]** )。
+* **キャンペーン**&#x200B;レベルで変更する場合は、「**[!UICONTROL 編集]**」タブにある&#x200B;**[!UICONTROL 予算]**&#x200B;ウィンドウ。予算、コストおよび費用はここで設定します。
+* **タスク**&#x200B;レベルで変更する場合は、**[!UICONTROL 費用と売上高]**&#x200B;ウィンドウ。
 
 ![](assets/s_user_op_engagement_level_costs.png)
 
-When the budget is **[!UICONTROL Reserved]**, the update is performed automatically for the charged budget.
+予算が「**[!UICONTROL 予約済み]**」の場合、請求された予算が自動的に更新されます。
 
 ![](assets/s_user_edit_budget_node_impact_2.png)
 
@@ -123,13 +123,13 @@ When the budget is **[!UICONTROL Reserved]**, the update is performed automatica
 
 ![](assets/s_user_edit_budget_node_impact_task.png)
 
-When an expenditure gives rise to an invoice and the invoice is paid, its amount is then entered in the **[!UICONTROL Invoiced]** field.
+支出により請求書が発行され、請求額が支払われると、その金額が「**[!UICONTROL 請求済み]**」フィールドに入力されます。
 
 ### 費用カテゴリ {#expense-categories}
 
-データをよりわかりやすく表示し、マーケティング投資を詳細にレポートするために、金額を複数の費用カテゴリに配分することができます。The expense categories are defined during budget creation, via the **[!UICONTROL Budgets]** node of the tree.
+データをよりわかりやすく表示し、マーケティング投資を詳細にレポートするために、金額を複数の費用カテゴリに配分することができます。費用カテゴリは、予算作成中にツリーの&#x200B;**[!UICONTROL 予算]**&#x200B;ノードで定義します。
 
-To add a category, click the **[!UICONTROL Add]** button in the lower section of the window.
+カテゴリを追加するには、ウィンドウ下部にある「**[!UICONTROL 追加]**」ボタンをクリックします。
 
 ![](assets/s_user_budget_category.png)
 
@@ -137,7 +137,7 @@ To add a category, click the **[!UICONTROL Add]** button in the lower section of
 
 ### 予算のリンク {#linking-a-budget-to-another}
 
-予算をメイン予算にリンクすることができます。To do this, select the main budget in the **[!UICONTROL related budget]** field of the secondary budgets.
+予算をメイン予算にリンクすることができます。リンクするには、セカンダリ予算の「**[!UICONTROL 関連予算]**」フィールドでメイン予算を選択します。
 
 ![](assets/budget_link.png)
 
@@ -163,7 +163,7 @@ To add a category, click the **[!UICONTROL Add]** button in the lower section of
 * 対応する請求書ライン（MRM のみ）
 * コストカテゴリにより計算されたコストのリスト（コスト構造が存在する場合）
 
-上の例では、編集する費用ラインに、「**Loyalty Spring Pack**」キャンペーンの「**New cards**」の配信用に計算されたコストが含まれています。When the delivery is edited, the **[!UICONTROL Direct Mail]** tab lets you see how the expense line is calculated.
+上の例では、編集する費用ラインに、「**Loyalty Spring Pack**」キャンペーンの「**New cards**」の配信用に計算されたコストが含まれています。配信の編集時には、「**[!UICONTROL ダイレクトメール]**」タブで費用ラインの計算方法を確認できます。
 
 この配信の場合、関係するサービスプロバイダーに選択したコストカテゴリに基づいてコストが計算されます。
 
@@ -175,7 +175,7 @@ To add a category, click the **[!UICONTROL Add]** button in the lower section of
 
 >[!NOTE]
 >
->コストカテゴリと構造は、サービスプロバイ [ダとそのコストカテゴリの作成に表示されます](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)。
+>コストカテゴリおよび構造について詳しくは、[サービスプロバイダーとそのコストカテゴリの作成](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)で説明しています。
 
 ## コストのコミット、計算および請求 {#cost-commitment--calculation-and-charging}
 
@@ -187,9 +187,9 @@ To add a category, click the **[!UICONTROL Add]** button in the lower section of
 
 1. 概算暫定コスト
 
-   概算暫定コストは、キャンペーンのプロセスの概算コストです。編集が完了するまで、入力した金額は統合されません。It must have **[!UICONTROL Specified]** status for the amounts input to be taken into account in the calculations.
+   概算暫定コストは、キャンペーンのプロセスの概算コストです。編集が完了するまで、入力した金額は統合されません。入力した金額が計算に考慮されるようにするには、ステータスを「**[!UICONTROL 定義済み]**」にする必要があります。
 
-   金額は手動で入力します。複数の費用カテゴリに内訳を入力することもできます。To bread down a cost, click the **[!UICONTROL Breakdown...]** link, and then the **[!UICONTROL Add]** button to define a new amount.
+   金額は手動で入力します。複数の費用カテゴリに内訳を入力することもできます。コストの内訳を入力するには、「**[!UICONTROL 内訳...]**」リンクをクリックし、「**[!UICONTROL 追加]**」ボタンをクリックして新しい金額を定義します。
 
    ![](assets/s_user_edit_budget_tab_ventil.png)
 
@@ -207,7 +207,7 @@ To add a category, click the **[!UICONTROL Add]** button in the lower section of
    * マーケティングプランの場合は、プログラムの場合と同様、計算されたコストはキャンペーンの計算されたコストの合計になります。キャンペーンの計算されたコストが指定されていない場合は、概算暫定コストが使用されます。
    >[!NOTE]
    >
-   >The **[!UICONTROL Breakdown]** link lets you view the details of the calculation and the last cost calculation date.
+   >「**[!UICONTROL 内訳]**」リンクでは、計算の詳細と最後にコストを計算した日付を確認できます。
 
 1. 実際のコスト
 
@@ -217,7 +217,7 @@ To add a category, click the **[!UICONTROL Add]** button in the lower section of
 
 コストはコスト構造を使用して計算され、関係するキャンペーン、配信またはタスクで選択した予算に請求されます。
 
-予算の承認を使用してキャンペーンにコミットされた金額のチェックを実行できます。その他の承認を設定する場合は、キャンペーンで追加のチェックポイントスタイルタスクを作成できます。タスク [のタイプを参照](../../campaign/using/creating-and-managing-tasks.md#types-of-task)。
+予算の承認を使用してキャンペーンにコミットされた金額のチェックを実行できます。その他の承認を設定する場合は、キャンペーンで追加のチェックポイントスタイルタスクを作成できます。[タスクのタイプ](../../campaign/using/creating-and-managing-tasks.md#types-of-task)を参照してください。
 
 ### 例 ：{#example}
 
@@ -229,19 +229,19 @@ To add a category, click the **[!UICONTROL Add]** button in the lower section of
 
 #### 手順 1 - 予算の作成 {#step-1---creating-the-budget}
 
-ノードを介して新しい予算を作成 **[!UICONTROL Campaign management > Budgets]** します。
+**[!UICONTROL キャンペーン管理／予算]**&#x200B;ノードで新しい予算を作成します。
 
-Define a budget of 10,000 Euros in the **[!UICONTROL Allocated]** field of the **[!UICONTROL Amounts]** section. ウィンドウ下部で費用カテゴリを 2 つ追加します。
+「**[!UICONTROL 金額]**」セクションの「**[!UICONTROL 割り当て済み]**」フィールドで 10,000 ユーロの予算を定義します。ウィンドウ下部で費用カテゴリを 2 つ追加します。
 
 ![](assets/s_user_cost_mgmt_sample_1.png)
 
 #### 手順 2 - サービスプロバイダーの設定とコスト構造の定義 {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-Create a service provider and a service template with its cost structure from the **[!UICONTROL Administration > Campaigns]** node.
+**[!UICONTROL 管理／キャンペーン]**&#x200B;ノードで、サービスプロバイダーとサービステンプレートおよびそのコスト構造を作成します。
 
-詳しくは、「サービスプロバイダーとそ [のコストカテゴリの作成」を参照してください](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)。
+詳しくは、[サービスプロバイダーとそのコストカテゴリの作成](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)を参照してください。
 
-* For direct mail deliveries, create cost categories **[!UICONTROL Envelopes]** (types 114x229 and 162x229), **[!UICONTROL Postage]** and **[!UICONTROL Print]** (types A3 and A4). 以下のコスト構造を作成します。
+* ダイレクトメール配信に、コストカテゴリ「**[!UICONTROL 封筒]**」（タイプ 114 x 229 と 162 x 229）、「**[!UICONTROL 送料]**」および「**[!UICONTROL 印刷]**」（タイプ A3 と A4）を作成します。以下のコスト構造を作成します。
 
    ![](assets/s_user_cost_mgmt_sample_2.png)
 
@@ -251,11 +251,11 @@ Create a service provider and a service template with its cost structure from th
 
 * タスクに以下の 2 つのコストカテゴリを作成します。
 
-   1. **[!UICONTROL Room reservation]** (Small Room and Large Room)、300 Euros **と** 500 Eurosの固定費構造：
+   1. 「**[!UICONTROL 部屋の予約]**」（小部屋と大部屋）：**固定**&#x200B;コスト構造の金額に 300 ユーロと 500 ユーロを指定します。
 
       ![](assets/s_user_cost_mgmt_sample_6.png)
 
-   1. **[!UICONTROL Creation]** (コ&#x200B;**ンテンツテンプレート** ・タイプ **)。日** 額は300ユーロです。
+   1. 「**[!UICONTROL 作成]**」（**コンテンツテンプレート**&#x200B;タイプ）：**日次**&#x200B;コスト構造に 300 ユーロを指定します。
 
       ![](assets/s_user_cost_mgmt_sample_7.png)
 
@@ -273,7 +273,7 @@ Create a service provider and a service template with its cost structure from th
 
 ![](assets/s_user_cost_mgmt_sample_9.png)
 
-Click **[!UICONTROL Ok]** and then **[!UICONTROL Save]** to confirm this information. 計算されたコストが概算暫定コストで更新されます。
+「**[!UICONTROL OK]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックして情報を確認します。計算されたコストが概算暫定コストで更新されます。
 
 #### 手順 4 - ダイレクトメール配信の作成 {#step-4---creating-the-direct-mail-delivery}
 
@@ -297,7 +297,7 @@ Click **[!UICONTROL Ok]** and then **[!UICONTROL Save]** to confirm this informa
 
 ![](assets/s_user_cost_mgmt_sample_10b.png)
 
-The expense line concerning the delivery is added in the **[!UICONTROL Edit > Budget]** tab of the campaign. 編集して計算の詳細を確認します。
+キャンペーンの「**[!UICONTROL 編集／予算]**」タブに配信の費用ラインが追加されます。編集して計算の詳細を確認します。
 
 ![](assets/s_user_cost_mgmt_sample_11.png)
 
@@ -309,21 +309,21 @@ The expense line concerning the delivery is added in the **[!UICONTROL Edit > Bu
 
 #### 手順 5 - タスクの作成 {#step-5---creating-tasks}
 
-このキャンペーンには、前述のコスト構造を作成した2つのタスクを追加します(手順2 — サービスプロバイダーの設定とコスト構造の定義を参照 [](#step-2---configuring-the-service-provider-and-defining-the-cost-structures))。 To do this, in the campaign dashboard, click the **[!UICONTROL Add a task]** button. Name the task and click **[!UICONTROL Save]**.
+このキャンペーンには、前述のコスト構造を作成した 2 つのタスクを追加します（[手順 2 - サービスプロバイダーの設定とコスト構造の定義](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)を参照）。追加するには、キャンペーンダッシュボードで「**[!UICONTROL タスクを追加]**」ボタンをクリックします。タスクに名前を付けて「**[!UICONTROL 保存]**」をクリックします。
 
 タスクリストにタスクが追加されます。タスクを設定するには、編集する必要があります。
 
-In the **[!UICONTROL Properties]** tab, select the service and the corresponding cost category:
+「**[!UICONTROL プロパティ]**」タブで、サービスおよび対応するコストカテゴリを選択します。
 
 ![](assets/s_user_cost_mgmt_sample_14.png)
 
-Next, click the **[!UICONTROL Expenses and revenue]** icon of the task and specify the estimated provisional cost.
+次に、タスクの&#x200B;**[!UICONTROL 費用と売上高]**&#x200B;アイコンをクリックし、概算暫定コストを指定します。
 
 ![](assets/s_user_cost_mgmt_sample_15.png)
 
 タスクを保存すると、計算されたコストは概算暫定コストに入力した値になります。
 
-When the task is completed (status **[!UICONTROL Finished]** ), the calculated cost is automatically updated with the cost of the Large Room as entered in its cost structure. このコストも、内訳でこのカテゴリに表示されます。
+タスクを完了すると（「**[!UICONTROL 完了]**」ステータス）、計算されたコストが自動的に更新され、コスト構造に入力したとおり大部屋のコストになります。このコストも、内訳でこのカテゴリに表示されます。
 
 次に、同様の手順で 2 番目のタスクを作成します。スケジュールを 5 日間、コスト構造には上記で作成したコスト構造を指定します。
 
@@ -335,7 +335,7 @@ When the task is completed (status **[!UICONTROL Finished]** ), the calculated c
 
 #### 手順 6 - キャンペーン予算のステータスの更新 {#step-6---update-the-campaign-budget-status}
 
-When the campaign is configured, its status can be updated by setting it to **[!UICONTROL Specified]**. キャンペーンの計算されたコストに、キャンペーンの配信とタスクの計算されたコストの合計が表示されます。
+キャンペーンを設定すると、キャンペーンのステータスを「**[!UICONTROL 定義済み]**」に設定して更新できます。キャンペーンの計算されたコストに、キャンペーンの配信とタスクの計算されたコストの合計が表示されます。
 
 ![](assets/s_user_cost_mgmt_sample_18.png)
 
@@ -355,7 +355,7 @@ MRM のコンテキストでは、サービスプロバイダーの情報を含�
 
 ### オーダーの作成 {#order-creation}
 
-To save a new order with a service provider, click the **[!UICONTROL MRM > Orders]** node of the tree, and then click the **[!UICONTROL New]** button.
+サービスプロバイダーの情報を含む新しいオーダーを保存するには、ツリーの **[!UICONTROL MRM／オーダー]**&#x200B;ノードをクリックし、**[!UICONTROL 新規]**&#x200B;ボタンをクリックします。
 
 オーダー番号、サービスプロバイダーおよびオーダーの合計金額を指定します。
 
@@ -365,18 +365,18 @@ To save a new order with a service provider, click the **[!UICONTROL MRM > Order
 
 サービスプロバイダーごとに請求書を保存し、請求書のステータスおよび請求予算を定義できます。
 
-Invoices are created and stored in the **[!UICONTROL MRM > Invoices]** node of the Adobe Campaign tree.
+請求書は、Adobe Campaign ツリーの **[!UICONTROL MRM／請求書]**&#x200B;ノードで作成、保存します。
 
 ![](assets/s_user_cost_create_invoice.png)
 
-請求書には、請求書ラインがあります。請求書ラインの合計では、金額が自動的に計算されます。These lines are created manually from the **[!UICONTROL Invoice lines]** tab. ラインをオーダーに関連付けると、情報がオーダーにアップロードされます。
+請求書には、請求書ラインがあります。請求書ラインの合計では、金額が自動的に計算されます。これらのラインは、「**[!UICONTROL 請求書ライン]**」タブで手動で作成します。ラインをオーダーに関連付けると、情報がオーダーにアップロードされます。
 
 ![](assets/s_user_cost_invoice_add_line.png)
 
-The invoices of each service provider are displayed in the **[!UICONTROL Invoices]** tab of the profile:
+各サービスプロバイダーの請求書は、プロファイルの「**[!UICONTROL 請求書]**」タブに表示されます。
 
 ![](assets/s_ncs_user_invoice_from_supplier.png)
 
-The **[!UICONTROL Details]** tab lets you display the content of the invoice.
+「**[!UICONTROL 詳細]**」タブでは、請求書の内容を表示できます。
 
-Click **[!UICONTROL Add]** to create a new invoice.
+新しい請求書を作成するには、「**[!UICONTROL 追加]**」ボタンをクリックします。

@@ -1,6 +1,6 @@
 ---
-title: レガシーリリースノート
-seo-title: レガシーリリースノート
+title: 従来のリリースノート
+seo-title: 従来のリリースノート
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -11,11 +11,11 @@ iscontainer: true
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
 
 
-# レガシーリリースノート{#legacy-release-notes}
+# 従来のリリースノート{#legacy-release-notes}
 

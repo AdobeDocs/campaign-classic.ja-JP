@@ -14,7 +14,7 @@ discoiquuid: 907d82c8-9262-4952-b8df-21144dd55824
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5eac80743d4cc82cdf55aa9287e8bb4fcc84356
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: d5eac80743d4cc82cdf55aa9287e8bb4fcc84356
 
 ## 前提条件 {#prerequisites}
 
-* All of the hosts must be added to the configuration file of the instance (`config-<instance>.xml`).
+* すべてのホストをインスタンスの設定ファイル（`config-<instance>.xml`）に追加する必要があります。
 * 各ブランドはそれぞれ 1 つのサブドメインに割り当てられていなければなりません。
 * HTTPS ページで Web トラッキングをしている場合、すべてのブランドについて HTTPS 証明証を持っていなければなりません。
 
@@ -38,7 +38,7 @@ source-git-commit: d5eac80743d4cc82cdf55aa9287e8bb4fcc84356
 
    >[!NOTE]
    >
-   >Creating an execution instance type external account is presented in the [Control instance](../../message-center/using/creating-a-shared-connection.md#control-instance) section.
+   >実行インスタンスタイプの外部アカウントの作成については、[コントロールインスタンス](../../message-center/using/creating-a-shared-connection.md#control-instance)の節で説明しています。
 
 1. nms:extAccount スキーマを拡張し、トラッキング URL を追加します。
 
@@ -85,5 +85,5 @@ source-git-commit: d5eac80743d4cc82cdf55aa9287e8bb4fcc84356
 
 1. 手順 1 で定義したように、各ブランドにつき外部アカウントを 1 つ作成し、内部名を同一にします。
 1. 各ブランドにつきデフォルトの配信テンプレートを 1 つ作成します。
-1. In the delivery template&#39;s **[!UICONTROL Properties]** , set the routing to the external account of the brand.
+1. 配信テンプレートの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、ルーティングを各ブランドの外部アカウントに設定します。
 

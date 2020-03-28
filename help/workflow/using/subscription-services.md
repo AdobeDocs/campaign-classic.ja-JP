@@ -14,7 +14,7 @@ discoiquuid: 940bec7e-e3f0-4251-b7fe-72bf188743a7
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
 ---
@@ -29,16 +29,16 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 ![](assets/edit_service_inscription.png)
 
 1. アクティビティのラベルを入力します。
-1. Select **[!UICONTROL Generate an outbound transition]** if you wish to create a transition at the end of the execution.
+1. 実行の最後にトランジションを作成する場合は、「**[!UICONTROL アウトバウンドトランジションを生成]**」を選択します。
 
    通常、ターゲットの情報サービスの購読は、ターゲティングワークフローの終わりを示します。そのため、このオプションはデフォルトでは有効にされていません。
 
-1. Click **[!UICONTROL Subscription]** or **[!UICONTROL Unsubscription]** if you wish to subscribe or unsubscribe the specified population to or from the selected information service.
-1. Select **[!UICONTROL Send a confirmation message]** to notify recipients that they are subscribed to or unsubscribed from a service.
+1. 選択した情報サービスに対して、指定した母集団の購読をおこなう場合は「**[!UICONTROL 購読]**」を、購読を解除する場合は「**[!UICONTROL 購読解除]**」を選択します。
+1. 「**[!UICONTROL 確認メッセージを送信]**」を選択すると、サービスの購読または購読解除が受信者に通知されます。
 
-   このメッセージのコンテンツは、情報サービスに関連付けられた配信テンプレートで指定されています。詳しくは、[この節](../../delivery/using/managing-subscriptions.md)を参照してください。
+   このメッセージの内容は、情報サービスに関連付けられた配信テンプレートで指定されています。詳しくは、[この節](../../delivery/using/managing-subscriptions.md)を参照してください。
 
-## Example: Subscribe a list of recipients to a newsletter {#example--subscribe-a-list-of-recipients-to-a-newsletter}
+## 例：受信者リストのニュースレターへの登録 {#example--subscribe-a-list-of-recipients-to-a-newsletter}
 
 次のワークフローは、1 回の操作で、ニュースレター購読の資格のある受信者のリストを作成することを目的としています。パリに住んでいる人々に働きかけ、購読を申し込んでもらうことがねらいです。
 
@@ -59,16 +59,16 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 1. それぞれの結果を相互参照させるために、積集合アクティビティを追加します。
 1. 必要に応じて、リスト更新アクティビティを挿入すれば、購読者のリストを最新状態に維持できます。
 1. 購読サービスアクティビティを挿入したら、これをクリックして設定します。
-1. Enter the activity label and select **[!UICONTROL Subscription]**.
+1. アクティビティのラベルを入力し、「**[!UICONTROL 購読]**」を選択します。
 
-   If you like, you can inform recipients of their newsletter subscription by checking the **[!UICONTROL Send a confirmation message]** box.
+   受信者にニュースレターの購読を通知する必要がある場合は、「**[!UICONTROL 確認メッセージを送信]**」チェックボックスを選択します。
 
 1. ニュースレターが含まれているフォルダーを選択し、フォルダー内のリストからニュースレターを選択します。
-1. Leave the **[!UICONTROL Generate outbound transition]** unchecked so that this activity will mark the end of the workflow, then click **[!UICONTROL Ok]**.
+1. このアクティビティがワークフローの終了をマークできるように、「**[!UICONTROL アウトバウンドトランジションを生成]**」を選択解除しておき、「**[!UICONTROL OK]**」をクリックします。
 
 ワークフローの実行中、この 3 つのすべてのクエリに該当する受信者はリストに追加され、ニュースレターの購読者として登録されます。
 
-You can check that the subscription was successful by going to the **[!UICONTROL Subscription]** tab for your recipients.
+登録が成功したかどうかを確認するには、「**[!UICONTROL 購読]**」タブを開き、該当する受信者を確認します。
 
 ## 入力パラメーター {#input-parameters}
 

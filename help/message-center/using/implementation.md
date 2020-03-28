@@ -14,7 +14,7 @@ discoiquuid: ac1c0a00-41ef-4cc2-bb51-2808ef400bb1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -28,9 +28,9 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 最初に、添付ファイルのデザインから開始します。この[記事](../../delivery/using/attaching-files.md#attach-a-personalized-file)を参照してください。こうすることで、実行インスタンスでホストされていなくても、ファイルを E メールに添付できます。
 
-SOAP メッセージトリガーを介して E メールを送信できます。For more information on SOAP requests, see [Event description](../../message-center/using/event-description.md). SOAP 呼び出しには、URL パラメーター（attachmentURL）があります。
+SOAP メッセージトリガーを介して E メールを送信できます。SOAP リクエストについて詳しくは、[イベントの説明](../../message-center/using/event-description.md)を参照してください。SOAP 呼び出しには、URL パラメーター（attachmentURL）があります。
 
-When designing your email, click on **[!UICONTROL Attachment]** . In the **[!UICONTROL Attachment definition]** screen, enter the SOAP attachment parameter:
+E メールをデザインするときに、「**[!UICONTROL 添付ファイル]**」をクリックします。**[!UICONTROL 添付ファイルの定義]**&#x200B;画面で、SOAP 添付ファイルパラメーターを入力します。
 
 ```
 <%= rtEvent.ctx.attachementUrl %>

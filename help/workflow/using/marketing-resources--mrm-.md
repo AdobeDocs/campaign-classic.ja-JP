@@ -14,7 +14,7 @@ discoiquuid: cf535ff5-f871-4edb-bc05-993cd5b1937b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -33,17 +33,17 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
   </tr> 
   <tr> 
    <td> <span class="uicontrol">マーケティングリソース通知</span> <br /> </td> 
-   <td> <span class="uicontrol">assetMgt</span><br /> </td> 
-   <td> This workflow manages notifications linked to the approval and publication of marketing resources. <br /> </td> 
+   <td> <span class="uicontrol">assetMgt</span> <br /> </td> 
+   <td> マーケティングリソースの承認とパブリッシュにリンクされた通知を管理します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">タスクの通知</span> <br /> </td> 
-   <td> <span class="uicontrol">taskMgt</span><br /> </td> 
+   <td> <span class="uicontrol">taskMgt</span> <br /> </td> 
    <td> マーケティングキャンペーンのタスクに関する通知メッセージを送信できます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">ディスカッションフォーラムプロセス</span> <br /> </td> 
-   <td> <span class="uicontrol">newsgroupMgt</span><br /> </td> 
+   <td> <span class="uicontrol">newsgroupMgt</span> <br /> </td> 
    <td> ディスカッションフォーラムからの通知の配信を管理します。承認シグナルを受信するとトリガーされます。<br /> </td> 
   </tr> 
  </tbody> 

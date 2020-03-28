@@ -14,7 +14,7 @@ discoiquuid: 43908738-a71a-49be-ac00-175f57a0555c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -32,13 +32,13 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 >
 >トランザクションメッセージテンプレートをパブリッシュすると、タイポロジルールが実行インスタンスに自動的にパブリッシュされます。
 
-1. コントロールインスタンスで、ツリーの **[!UICONTROL Message Center > Transactional message templates]** フォルダーに移動します。
+1. コントロールインスタンス内で、ツリーの **[!UICONTROL Message Center／トランザクションメッセージテンプレート]**&#x200B;フォルダーに移動します。
 1. 実行インスタンスにパブリッシュするテンプレートを選択します。
-1. クリック **[!UICONTROL Publication]** .
+1. 「**[!UICONTROL パブリッシュ]**」をクリックします。
 
    ![](assets/messagecenter_publish_model_008.png)
 
-Once publication is complete, both message templates to be applied to batch and real time type events are created in the tree of the production instance in the **[!UICONTROL Administration > Production > Message Center > Default > Transactional message templates]** folder.
+パブリッシュが完了すると、本番インスタンスのツリーの&#x200B;**[!UICONTROL 管理／プロダクション／Message Center／デフォルト／トランザクションメッセージテンプレート]**&#x200B;フォルダー内に、バッチタイプのイベントに適用されるメッセージテンプレートとリアルタイムタイプのイベントに適用されるメッセージテンプレートの両方が作成されます。
 
 ![](assets/messagecenter_deployed_model_001.png)
 

@@ -14,7 +14,7 @@ discoiquuid: a557026c-3b6a-4302-a042-0015449eaca5
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # シミュレーショントラッキング{#simulation-tracking}
 
-Once the simulation is finished, you can analyze its result via the **[!UICONTROL Results]** tab which is added to the simulation window and the **[!UICONTROL Breakdown of offers by rank]** report, available via in the simulation dashboard.
+シミュレーションが完了したら、シミュレーションウィンドウに追加される「**[!UICONTROL 結果]**」タブと、シミュレーションダッシュボードで利用できる&#x200B;**[!UICONTROL オファーの分類（ランク別）]**&#x200B;レポートを使用して、実行結果を分析できます。
 
 シミュレーションの結果には、提案のランク別および受信者別の分類が含まれています。また、レポートの軸も考慮されて、このタブに表示されます。
 

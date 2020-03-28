@@ -14,7 +14,7 @@ discoiquuid: a0e76d27-bedd-4f81-b4d2-1221444e670e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -28,15 +28,15 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 1. キャンペーンタイポロジを作成します。
 
-   タイポロジには、>ノードを使用し **[!UICONTROL Administration > Campaign Management > Typology management]** てアクセス **[!UICONTROL Typologies]** します。
+   タイポロジにアクセスするには、**[!UICONTROL 管理／キャンペーン管理／タイポロジ管理／]****[!UICONTROL タイポロジ]**&#x200B;ノードに移動します。
 
-1. Go to the **[!UICONTROL Rules]** tab, click the **[!UICONTROL Add]** button and select the rules to apply with this typology.
+1. 「**[!UICONTROL ルール]**」タブに移動し、「**[!UICONTROL 追加]**」ボタンをクリックして、このタイポロジによって適用するルールを選択します。
 
    ![](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. タイポロジを保存して、既存のタイポロジのリストに追加します。
 1. このルールを適用する配信を開きます。
-1. Open the delivery properties and access the **[!UICONTROL Typology]** tab.
+1. 配信プロパティを開き、「**[!UICONTROL 配信]**」タブをクリックします。
 1. ドロップダウンリストからタイポロジを選択します。
 
    ![](assets/campaign_opt_pressure_sample_1_7.png)
@@ -51,7 +51,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 例えば、タイポロジルールを設定して、リンク先の特定の配信だけに適用したり、配信のターゲットに含まれる特定の受信者だけに適用したりすることができます。
 
-ルールの適用条件を定義するには、タブのリンク **[!UICONTROL Edit the rule application conditions...]** をクリックし **[!UICONTROL General]** ます。
+ルールの適用条件を定義するには、「**[!UICONTROL 一般]**」タブにある「**[!UICONTROL ルール適用条件を編集...]**」リンクをクリックします。
 
 次に、クエリエディターを使用して、フィルター条件を定義します。以下の図では、ラベルに「offer」という語が含まれる配信または現在の日付以降に作成された配信のみに、処理能力ルールが適用されます。
 
@@ -59,7 +59,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 >[!NOTE]
 >
->フィルタールールでは、配信または配信の概要に基づいて、フィルターの適用条件を指定できます。詳しくは、「フィルタリングルールの条 [件付け」を参照してください](../../campaign/using/filtering-rules.md#conditioning-a-filtering-rule)。
+>フィルタールールでは、配信または配信の概要に基づいて、フィルターの適用条件を指定できます。詳しくは、[フィルタールールの調整](../../campaign/using/filtering-rules.md#conditioning-a-filtering-rule)を参照してください。
 
 ## 計算頻度の調整 {#adjusting-calculation-frequency}
 
@@ -67,11 +67,11 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 実際、計算で使用される値には、毎日変更はされないものもあります。したがって、毎日データを再計算し、データベースの負荷を増やすことは、適切とは言えません。例えば、顧客の傾向スコアと購入情報が週に一度マーケティングデータベースに保存される場合、これらの値に基づくデータを毎日再計算する必要はありません。
 
-To do this, the **[!UICONTROL Frequency]** field of the **[!UICONTROL General]** tab lets you define a maximum period during which targeting is saved. デフォルトの値は **0** です。これは、翌日に判別が再び実行されるときまで、計算値が有効であることを示します。
+このような場合は、「**[!UICONTROL 一般]**」タブの「**[!UICONTROL 頻度]**」フィールドで、ターゲティングを保存する最大期間を定義できます。デフォルトの値は **0** です。これは、翌日に判別が再び実行されるときまで、計算値が有効であることを示します。
 
-To save the results beyond this period, enter a value greater than 12 in the **[!UICONTROL Frequency]** field: once this period expires, all rules are re-applied.
+計算結果を 1 日以上保存するには、「**[!UICONTROL 頻度]**」フィールドに 1 以上の値を入力します。この有効期間を過ぎると、すべてのルールが再適用されます。
 
-このオ **[!UICONTROL Re-apply the rule at the start of personalization]** プションを使用すると、フィールドに指定した期間がまだ有効である場合を含め、パーソナライゼーション段階で自動的にル **[!UICONTROL Frequency]** ールを適用できます。
+「**[!UICONTROL パーソナライゼーションの開始時にルールを再適用]**」オプションを使用すると、パーソナライゼーションのフェーズで自動的にルールを適用できます（「**[!UICONTROL 頻度]**」フィールドで指定されている有効期間内であっても、ルールは再適用されます）。
 
 ## ルールの適用フェーズの選択 {#selecting-the-rule-application-phase}
 
@@ -98,33 +98,33 @@ To save the results beyond this period, enter a value greater than 12 in the **[
 >
 >キャンペーンインタラクションモジュールを操作する場合、オファーの実施要件ルールはフィルタールールと同じタイミングで適用されるか（オファーが配信の概要に含まれる場合）、パーソナライゼーションのフェーズ、オファーエンジンの呼び出し時に適用されます。
 
-You can adapt the execution sequence of rules which have the same type using the appropriate field in the **[!UICONTROL General]** tab of the rule. When several rules are executed during the same message processing phase, you can configure their execution sequence in the **[!UICONTROL Execution sequence]** field.
+タイプが同じルールの実行順序は、ルールの「**[!UICONTROL 一般]**」タブにある適切なフィールドを使用して、調整することができます。複数のルールが同じメッセージ処理フェーズで実行される場合、「**[!UICONTROL 実行順序]**」フィールドで順序を設定できます。
 
 例えば、実行順序が 20 番目の頻度ルールは、実行順序が 30 番目の頻度ルールより先に実行されます。
 
 ### コントロールルール {#control-rules}
 
-For **[!UICONTROL Control]** rules, you can decide at which point of the delivery life cycle the rule will be applied (before or after targeting, at the start of personalization, at the end of the analysis). Select the value to apply in the drop-down list of the **[!UICONTROL Phase]** field, in the **[!UICONTROL General]** tab of the typology rule.
+**[!UICONTROL コントロール]**&#x200B;ルールの場合は、配信ライフサイクルのどの時点でルールを適用するかを指定することができます（ターゲティングの前または後、パーソナライゼーションの開始時、分析の終了時）。タイポロジルールの「**[!UICONTROL 一般]**」タブにある「**[!UICONTROL フェーズ]**」フィールドで、適用する値をドロップダウンリストから選択してください。
 
 ![](assets/campaign_opt_define_control_phase.png)
 
 次のような値を選択できます。
 
-* **[!UICONTROL At the start of targeting]**
+* **[!UICONTROL ターゲティングの開始時]**
 
    エラーが発生した場合にパーソナライゼーションを実行しないようにするには、この段階でコントロールルールを適用します。
 
-* **[!UICONTROL After targeting]**
+* **[!UICONTROL ターゲティングの終了時]**
 
    コントロールルールを適用する前にターゲットのボリュームを把握しておきたい場合は、このフェーズを選択します。
 
-   For example, the **[!UICONTROL Check proof size]** control rule applies after each targeting stage: this rule prevents message personalization if there are too many proof recipients.
+   例えば、**[!UICONTROL 配達確認のターゲットのサイズを検証]**&#x200B;コントロールルールは、各ターゲティングフェーズの後に適用します。このルールにより、配達確認の受信者数が多い場合は、メッセージのパーソナライゼーションがおこなわれないようにすることができます。
 
-* **[!UICONTROL At the start of personalization]**
+* **[!UICONTROL パーソナライゼーションの開始時]**
 
    コントロールルールで、メッセージのパーソナライゼーションの承認を検証する場合は、このフェーズを選択します。メッセージのパーソナライゼーションは、分析フェーズで実行されます。
 
-* **[!UICONTROL At the end of the analysis]**
+* **[!UICONTROL 分析の終了時]**
 
    メッセージのパーソナライゼーションが完了している必要がある場合は、このフェーズを選択します。
 
@@ -132,23 +132,23 @@ For **[!UICONTROL Control]** rules, you can decide at which point of the deliver
 
 ### 送信 SMTP トラフィックの制御 {#control-outgoing-smtp-traffic}
 
-As an option, you can use the **[!UICONTROL Managing affinities with IP addresses]** field to link deliveries to the delivery server (MTA) this affinity. この設定により、コンピューターや出力アドレスに配信される E メールの数を制限できます。
+必要に応じて、「**[!UICONTROL IP アドレスを使用したアフィニティの管理]**」フィールドを使用して、アフィニティを管理する配信サーバー（MTA）と配信を関連付けることができます。この設定により、コンピューターや出力アドレスに配信される E メールの数を制限できます。
 
 ![](assets/campaign_opt_select_ip_affinity.png)
 
 >[!NOTE]
 >
->Affinity management does not apply for **[!UICONTROL Filtering]** typologies.\
+>アフィニティの管理は、**[!UICONTROL フィルター]**&#x200B;タイポロジには適用されません。\
 >アフィニティは、Adobe Campaign サーバーのインスタンス設定ファイルで定義されます。詳しくは、[この節](../../installation/using/about-initial-configuration.md)を参照してください。
 
 ### キャンペーンの最適化と分散型マーケティング {#campaign-optimization-and-distributed-marketing}
 
-The **[!UICONTROL Distributed Marketing]** tab lets you define the re-mapping of typologies and/or rules which applies when a shared campaign is ordered and/or reserved. 分散型マーケティングでは、ローカルエンティティのタイポロジ／ルール（セントラルエンティティ向けに定義されたタイポロジ／ルールにリンクされる）によって、セントラルエンティティのタイポロジ／ルールが置換されます。再マッピングすると、キャンペーンをオーダーするローカルエンティティに応じて、セントラルエンティティのルールを調整することができます。
+「**[!UICONTROL 分散型マーケティング]**」タブでは、共有キャンペーンがオーダーまたは予約されているときに適用されるタイポロジまたはタイポロジルールの再マッピングを定義できます。分散型マーケティングでは、ローカルエンティティのタイポロジ／ルール（セントラルエンティティ向けに定義されたタイポロジ／ルールにリンクされる）によって、セントラルエンティティのタイポロジ／ルールが置換されます。再マッピングすると、キャンペーンをオーダーするローカルエンティティに応じて、セントラルエンティティのルールを調整することができます。
 
 ![](assets/simu_campaign_opti_distrib_mkg.png)
 
 >[!NOTE]
 >
->In typologies and typology rules, the **[!UICONTROL Distributed Marketing]** tab is added if your license includes this option: please check you license agreement.\
->分散マーケティングの詳細については、「分散マーケティングにつ [いて」を参照してください](../../campaign/using/about-distributed-marketing.md)。
+>ライセンスに分散型マーケティングのオプションが含まれていれば、タイポロジおよびタイポロジルールに「**[!UICONTROL 分散型マーケティング]**」タブが追加されます。オプションの有無については、ライセンス契約をお確かめください。\
+>分散型マーケティングについて詳しくは、[分散型マーケティングについて](../../campaign/using/about-distributed-marketing.md)を参照してください。
 

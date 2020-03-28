@@ -14,7 +14,7 @@ discoiquuid: 8f413002-bd32-426f-88b9-44cefae68593
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 
 ---
@@ -36,7 +36,7 @@ Adobe Campaign は、サンプルバナーを提供します（ニーズに合�
 >
 >独自のバナーを作成するには、標準バナーをパーソナライズする必要があります。
 
-バナーを有効化するには、Web アプリケーションプロパティを設定する必要があります。「Webアプリケーシ [ョンの設計」の節を参照](../../web/using/designing-a-web-application.md) 。
+バナーを有効化するには、Web アプリケーションプロパティを設定する必要があります。[Web アプリケーションの設計](../../web/using/designing-a-web-application.md)の節を参照してください。
 
 Web トラッキングが有効化されている場合、次の設定ができます。
 
@@ -81,14 +81,14 @@ cookie の名前は **acoptout** です。共通の値は、以下のとおり�
 
 バナーをカスタマイズするのに利用可能なクライアント側の API は以下のとおりです。
 
-* **NL.ClientWebTracking.allow()**:ウェブトラッキングを許可するオプトアウトcookieの値を設定します。 Web トラッキングは、デフォルトで許可されています。
-* **NL.ClientWebTracking.forbid()**:ウェブトラッキングを禁止するオプトアウトcookieの値を設定します。 Web トラッキングの禁止にはユーザーからのインプットが必要です。
-* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**:ユーザーが「承認」または「拒否」ボタンをクリックした後に、オプトアウトcookieバナーを閉じます。 （クリックイベントバブリング段階の間）。
+* **NL.ClientWebTracking.allow()**：Web トラッキングを許可するようオプトアウト Cookie の値を設定します。Web トラッキングは、デフォルトで許可されています。
+* **NL.ClientWebTracking.forbid()**：Web トラッキングを禁止するようオプトアウト Cookie の値を設定します。Web トラッキングの禁止にはユーザーからのインプットが必要です。
+* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**：許可または拒否ボタンをユーザーがクリックした後、オプトアウト Cookie バナーを閉じます（クリックイベントバブリング段階の間）。
 
    bannerDomElt {DOMElement} 削除しなければならない cookie バナーのルート DOM 要素
 
-* **NL.ClientWebTracking.hasUserPrefs()**:ユーザーがウェブトラッキングの環境設定を選択した場合、trueを返します。
-* **NL.ClientWebTracking.getUserPrefs()**:ユーザーの環境設定を定義するオプトアウトcookieの値を返します。
+* **NL.ClientWebTracking.hasUserPrefs()**：ユーザーが Web トラッキング設定の選択をおこなった場合に true を返します。
+* **NL.ClientWebTracking.getUserPrefs()**：ユーザーの設定を定義するオプトアウト Cookie 値を返します。
 
 JSSP を記述する必要がある場合、サーバー側 API を利用できます。
 

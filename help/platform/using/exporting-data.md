@@ -14,7 +14,7 @@ discoiquuid: fecadb66-b81d-4fb6-9971-7bfd024d70b7
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
 
 ---
@@ -30,35 +30,35 @@ source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
 
 エクスポートウィザードを起動するときは、まずテンプレートを選択する必要があります。例えば、最近登録した受信者のエクスポートを設定するには、以下の手順に従います。
 
-1. フォルダを選択 **[!UICONTROL Profiles and Targets > Job > Generic imports and exports]** します。
+1. **[!UICONTROL プロファイルとターゲット／ジョブ／一般的なインポートおよびエクスポート]**&#x200B;フォルダーを選択します。
 1. 「**新規**」をクリックし、「**エクスポート**」をクリックして、エクスポートテンプレートを作成します。
 
    ![](assets/s_ncs_user_export_wizard01.png)
 
-1. Click the arrow to the right of the **[!UICONTROL Export template]** field to select your template, or click **[!UICONTROL Select link]** to browse the tree.
+1. 「**[!UICONTROL エクスポートテンプレート]**」フィールドの右側にある矢印をクリックしてテンプレートを選択するか、「**[!UICONTROL リンクを選択]**」をクリックしてツリーを参照します。
 
-   ネイティブテンプレートはで **[!UICONTROL New text export]**&#x200B;す。 このテンプレートは変更できませんが、このテンプレートを複製して新しいテンプレートを設定することができます。デフォルトでは、書き出しテンプレートはノードに保存さ **[!UICONTROL Resources > Templates > Job templates]** れます。
+   ネイティブテンプレートは、「**[!UICONTROL 新しいテキストのエクスポート]**」です。このテンプレートは変更できませんが、このテンプレートを複製して新しいテンプレートを設定することができます。エクスポートテンプレートは、デフォルトで、**[!UICONTROL リソース／テンプレート／ジョブテンプレート]**&#x200B;ノードに保存されます。
 
-1. Enter a name for export in the **[!UICONTROL Label]** field. 説明を追加できます。
-1. エクスポートタイプを選択します。書き出しには、次の2つのタイプがあります。1つ以 **[!UICONTROL Simple export]** 上の種類のソースドキュメントから、1 **[!UICONTROL Multiple export]** つのファイルのみをエクスポートし、1回の実行で複数のファイルをエクスポートする場合。
+1. 「**[!UICONTROL ラベル]**」フィールドに、エクスポートの名前を入力します。説明を追加できます。
+1. エクスポートタイプを選択します。利用できるエクスポートタイプは 2 つあります。1 つのファイルのみをエクスポートする「**[!UICONTROL 簡易エクスポート]**」と、1 つ以上のタイプのソースドキュメントから 1 回の実行で複数のファイルをエクスポートする「**[!UICONTROL 複数エクスポート]**」です。
 
 ### 手順 2 - エクスポートするファイルのタイプ {#step-2---type-of-file-to-export}
 
 エクスポートするドキュメントのタイプ、つまりエクスポートするデータのスキーマを選択します。
 
-By default, when the export is launched from the **[!UICONTROL Jobs]** node the data comes from the recipient table. When the export is launched from a list of data (from the **[!UICONTROL right click > Export]** menu), the table to which the data belongs is automatically filled in in the **[!UICONTROL Document type]** field.
+デフォルトでは、エクスポートが「**[!UICONTROL ジョブ]**」ノードから開始された場合、データは受信者テーブルから取得されます。エクスポートがデータのリストから開始された場合（**[!UICONTROL 右クリック／エクスポート]**&#x200B;メニュー）、データが属するテーブルが自動的に「**[!UICONTROL ドキュメントタイプ]**」フィールドに入力されます。
 
 ![](assets/s_ncs_user_export_wizard02.png)
 
-* デフォルトでは、このオ **[!UICONTROL Download the file generated on the server after the export]** プションは選択されています。 In the **[!UICONTROL Local file]** field, fill in the name and path of the file to be created, or browse your local disk by clicking the folder to the right of the field. このオプションの選択を解除して、サーバー出力ファイルのアクセスパスと名前を入力できます。
+* デフォルトでは、「**[!UICONTROL エクスポート後にサーバーで生成されたファイルをダウンロードする]**」オプションが選択されています。「**[!UICONTROL ローカルファイル]**」フィールドで、作成するファイルの名前とパスを入力するか、フィールドの右側にあるフォルダーをクリックしてローカルディスクを参照します。このオプションの選択を解除して、サーバー出力ファイルのアクセスパスと名前を入力できます。
 
    >[!NOTE]
    >
    >自動インポートおよびエクスポートジョブは、常にサーバーで実行されます。
    >
-   >To export only some of the data, click **[!UICONTROL Advanced parameters]** and enter the number of lines to be exported in the appropriate field.
+   >データの一部のみをエクスポートするには、「**[!UICONTROL 詳細設定パラメーター]**」をクリックし、エクスポートするライン数を該当するフィールドに入力します。
 
-* 差分エクスポートを作成して、最終実行以降に変更されたレコードのみをエクスポートできます。これを行うには、リンクをクリ **[!UICONTROL Advanced parameters]** ックし、タブをクリック **[!UICONTROL Differential export]** して、を選択しま **[!UICONTROL Activate differential export]**&#x200B;す。
+* 差分エクスポートを作成して、最終実行以降に変更されたレコードのみをエクスポートできます。そのためには、「**[!UICONTROL 詳細設定パラメーター]**」リンクをクリックし、「**[!UICONTROL 差分エクスポート]**」タブをクリックして、「**[!UICONTROL 差分エクスポートを有効化します]**」を選択します。
 
    ![](assets/s_ncs_user_export_wizard02_b.png)
 
@@ -70,21 +70,21 @@ By default, when the export is launched from the **[!UICONTROL Jobs]** node the 
 
 ![](assets/s_ncs_user_export_wizard03.png)
 
-* For **[!UICONTROL Text]** format, select the delimiters to separate the columns (tabs, commas, semi-colons, or custom) and the strings (single or double quotes, or none).
-* とに対し **[!UICONTROL text]** て、オ **[!UICONTROL CSV]**&#x200B;プションを選択することができま **[!UICONTROL Use first lines as column titles]**&#x200B;す。
-* 日付フォーマットおよび数字のフォーマットを指定します。To do this, click the **[!UICONTROL Edit]** button for the field concerned and use the editor.
-* 列挙値を含むフィールドの場合は、を選択できま **[!UICONTROL Export labels instead of internal values of enumerations]**&#x200B;す。 For example, the title can be stored in the form **1=Mr.**, **2=Miss**,** 3=Mrs.**. このオプションを選択した場合、**Mr.**、**Miss** および **Mrs.** がエクスポートされます。
+* 「**[!UICONTROL テキスト]**」フォーマットの場合、列を区切る区切り記号（タブ、コンマ、セミコロンまたはカスタム）および文字列を区切る区切り記号（シングルコーテーション、ダブルコーテーションまたはなし）を選択します。
+* 「**[!UICONTROL テキスト]**」および「**[!UICONTROL CSV]**」の場合、オプション「**[!UICONTROL 先頭行を列ヘッダーとして使用]**」を選択できます。
+* 日付フォーマットおよび数字のフォーマットを指定します。そのためには、該当するフィールドの「**[!UICONTROL 編集]**」ボタンをクリックし、エディターを使用します。
+* 列挙値が含まれるフィールドの場合、「**[!UICONTROL 列挙の内部値の代わりにラベルをエクスポート]**」を選択できます。例えば、タイトルを **1=Mr.**、**2=Miss**、** 3=Mrs.** の形式で保存できます。このオプションを選択した場合、**Mr.**、**Miss** および **Mrs.** がエクスポートされます。
 
 ### 手順 4 - データ選択 {#step-4---data-selection}
 
 エクスポートするフィールドを選択します。手順は次のとおりです。
 
-1. Double-click the desired fields in the **[!UICONTROL Available fields]** list in order to add them to the **[!UICONTROL Output columns]** section.
+1. 「**[!UICONTROL 出力列]**」セクションに追加するために、「**[!UICONTROL 使用可能フィールド]**」リストで目的のフィールドをダブルクリックします。
 1. リストの右側にある矢印を使用して、出力ファイルでのフィールドの順序を定義します。
 
    ![](assets/s_ncs_user_export_wizard04.png)
 
-1. Click the **[!UICONTROL Add]** button to call on functions. 詳しくは、「関数のリスト」を参 [照してください](../../platform/using/defining-filter-conditions.md#list-of-functions)。
+1. 関数を呼び出すには、**[!UICONTROL 追加]**&#x200B;ボタンをクリックします。詳しくは、[関数のリスト](../../platform/using/defining-filter-conditions.md#list-of-functions)を参照してください。
 
 ### 手順 5 - 列の並べ替え {#step-5---sorting-columns}
 
@@ -103,15 +103,15 @@ By default, when the export is launched from the **[!UICONTROL Jobs]** node the 
 出力ファイルのフィールドの順序およびラベルを変更し、ソースデータに変換を適用できます。
 
 * エクスポートする列の順序を変更するには、該当する列を選択し、テーブルの右側の青色の矢印を使用します。
-* To change the label of a field, click in the cell of the **[!UICONTROL Label]** column that matches the field to be modified, and enter the new label. キーボードの Enter キーを押して確定します。
-* To apply a case transformation to the content of a field, select it from the **[!UICONTROL Transformation]** column. 次の項目を選択できます。
+* フィールドのラベルを変更するには、変更するフィールドに対応する「**[!UICONTROL ラベル]**」列のセル内をクリックし、新しいラベルを入力します。キーボードの Enter キーを押して確定します。
+* フィールドのコンテンツに大文字と小文字の変換を適用するには、「**[!UICONTROL 変換]**」列で選択します。次の項目を選択できます。
 
    * 小文字に切り替え
    * 大文字に切り替え
    * 最初の文字は大文字
    ![](assets/s_ncs_user_export_wizard06.png)
 
-* Click **[!UICONTROL Add a calculated field]** if you want to create a new calculated field (for example, a column containing last name + first name). For more on this, refer to [Calculated fields](../../platform/using/importing-data.md#calculated-fields).
+* 新しい計算フィールド（姓 + 名を含む列など）を作成する場合は、**[!UICONTROL 計算フィールドを追加]**&#x200B;をクリックします。詳しくは、[集計フィールド](../../platform/using/importing-data.md#calculated-fields)を参照してください。
 
 要素のコレクション（受信者の購読、受信者が属するリストなど）をエクスポートする場合は、エクスポートするコレクション内の要素数を指定する必要があります。
 
@@ -119,7 +119,7 @@ By default, when the export is launched from the **[!UICONTROL Jobs]** node the 
 
 ### 手順 8 - データのプレビュー {#step-8---data-preview}
 
-をクリ **[!UICONTROL Start the preview of the data]** ックして、書き出し結果のプレビューを表示します。 デフォルトでは、最初の 200 ラインが表示されます。To change this value, click the arrows to the right of the **[!UICONTROL Lines to display]** field.
+エクスポート結果をプレビューするには、「**[!UICONTROL データのプレビューを開始]**」をクリックします。デフォルトでは、最初の 200 ラインが表示されます。この値を変更するには、「**[!UICONTROL 表示するライン]**」フィールドの右側にある矢印をクリックします。
 
 ![](assets/s_ncs_user_export_wizard07.png)
 
@@ -127,7 +127,7 @@ By default, when the export is launched from the **[!UICONTROL Jobs]** node the 
 
 ### 手順 9 - エクスポートの開始 {#step-9---launching-the-export}
 
-Click **[!UICONTROL Start]** to launch data export.
+「**[!UICONTROL 開始]**」をクリックしてデータエクスポートを開始します。
 
 ![](assets/s_ncs_user_export_wizard08.png)
 

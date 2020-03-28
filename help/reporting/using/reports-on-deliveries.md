@@ -14,7 +14,7 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
 
 ---
@@ -26,9 +26,9 @@ Adobe Campaign は、お客様のコンソールまたはインターネット�
 
 使用可能なレポートのタイプは次のとおりです。
 
-* Reports on the entire platform, see [Global reports](../../reporting/using/global-reports.md).
-* 配信レポートを参照して [ください](../../reporting/using/delivery-reports.md)。
-* 累積レポートを参照し [てください](../../reporting/using/cumulative-reports.md)。
+* プラットフォーム全体のレポートについては、[グローバルレポート](../../reporting/using/global-reports.md)を参照してください。
+* 配信レポートについては、[配信レポート](../../reporting/using/delivery-reports.md)を参照してください。
+* 累積レポートについては、[累積レポート](../../reporting/using/cumulative-reports.md)を参照してください。
 
 レポートには、クライアントコンソールのホームページ、レポートダッシュボードまたは配信リストからアクセスできます。レポートの表示モードはそのコンテキストに依存します。メインレポートのリストはホームページで使用でき、配信データにすばやくアクセスできます。このリストは、ニーズに合わせて変更可能です。詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
 

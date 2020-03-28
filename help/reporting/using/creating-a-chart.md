@@ -14,7 +14,7 @@ discoiquuid: 70e4e63d-354d-4912-b75a-dba38e1c0b03
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -38,15 +38,15 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
    ![](assets/s_ncs_advuser_report_wizard_018.png)
 
-1. Click the **[!UICONTROL Data]** tab to define the data source and the series to be calculated.
+1. 「**[!UICONTROL データ]**」タブをクリックして、データソースと計算対象となる系列を定義します。
 
-   The statistics to be displayed in the chart can be calculated based on a query or on the context data, i.e. the data provided by the inbound transition of the current page (for more on this, refer to [Using context data](../../reporting/using/using-the-context.md#using-context-data)).
+   グラフに表示する統計は、クエリまたはコンテキストデータに基づいて計算できます。コンテキストデータとは、現在のページのインバウンドトランジションで提供されるデータのことです（詳しくは、[コンテキストデータの使用](../../reporting/using/using-the-context.md#using-context-data)を参照）。
 
-   * Click the **[!UICONTROL Filter data...]** link to define filtering criteria for the data in the database.
+   * 「**[!UICONTROL データをフィルター]**」リンクをクリックして、データベースに格納されているデータのフィルター条件を定義します。
 
       ![](assets/reporting_graph_add_filter.png)
 
-   * To used contextual data, select this option and click the **[!UICONTROL Advanced settings...]** link. 次に、統計に関係するデータを選択します。
+   * コンテキストデータを使用する場合は、それをデータソースとして選択し、「**[!UICONTROL 詳細設定パラメーター]**」リンクをクリックします。次に、統計に関係するデータを選択します。
 
       ![](assets/reporting_graph_from_context.png)
 
@@ -62,11 +62,11 @@ Adobe Campaign では、様々なタイプのグラフ表示が可能です。�
 
 ![](assets/s_advuser_report_page_activity_04.png)
 
-It can also be altered via the **[!UICONTROL Chart type]** section of the **[!UICONTROL General]** tab in the chart.
+また、グラフの「**[!UICONTROL 一般]**」タブの「**[!UICONTROL グラフタイプ]**」セクションでタイプを変更することもできます。
 
 ![](assets/reporting_change_graph_type.png)
 
-バリエーションは、選択したグラフタイプによって異なります。They are selected via the **[!UICONTROL Variants...]** link.
+バリエーションは、選択したグラフタイプによって異なります。バリエーションは「**[!UICONTROL バリエーション]**」リンクを介して選択します。
 
 ### 分類：円グラフ {#breakdown--pie-charts}
 
@@ -76,7 +76,7 @@ It can also be altered via the **[!UICONTROL Chart type]** section of the **[!UI
 
 ![](assets/reporting_graph_type_sector_1.png)
 
-The **[!UICONTROL Variants]** link lets you personalize the overall rendering of the chart.
+「**[!UICONTROL バリエーション]**」リンクをたどって、グラフの全体的なレンダリングをパーソナライズできます。
 
 ![](assets/reporting_graph_type_sector_2.png)
 
@@ -106,11 +106,11 @@ The **[!UICONTROL Variants]** link lets you personalize the overall rendering of
 
 ヒストグラムでは、1 つまたは複数の変数の値を比較できます。
 
-For these types of charts, the following options are offered in the **[!UICONTROL Variants]** window:
+このタイプのグラフの場合は、次に示すオプションが&#x200B;**[!UICONTROL グラフのバリエーション]**&#x200B;ウィンドウに用意されています。
 
 ![](assets/reporting_select_graph_var.png)
 
-Check the **[!UICONTROL Display caption]** option to show the caption with the chart and choose its position:
+グラフにキャプションを表示するために「**[!UICONTROL キャプションを表示]**」オプションにチェックを入れ、その位置を選択します。
 
 ![](assets/reporting_select_graph_legend.png)
 
@@ -118,7 +118,7 @@ Check the **[!UICONTROL Display caption]** option to show the caption with the c
 
 ![](assets/reporting_graph_type_histo.png)
 
-必要に応じて、値の表示順を逆にできます。To do this, select the **[!UICONTROL Reverse stacking]** option.
+必要に応じて、値の表示順を逆にできます。それには、「**[!UICONTROL 表示順を逆転]**」オプションを選択します。
 
 ### コンバージョン：ファネル {#conversion--funnel}
 
@@ -134,25 +134,25 @@ Check the **[!UICONTROL Display caption]** option to show the caption with the c
 
 ![](assets/reporting_graph_type_gauge1.png)
 
-* The **[!UICONTROL Value]** field is represented by a black dial in the chart. 進捗状況の計算対象となる要素を表します。表す値は既に保存されている必要があります。
-* The **[!UICONTROL Goal]** field represents the maximum value to achieve.
-* Using the **[!UICONTROL Other mark]** field you can add a second indicator to the chart.
-* The **[!UICONTROL Display range]** fields let you specify the values between which the report is calculated.
-* The **[!UICONTROL Value ranges]** field lets you attribute statuses (None, Bad, Acceptable, Good) to a set of values to better illustrate the progress.
+* 「**[!UICONTROL 値]**」フィールドは、グラフの黒い目盛り盤で表されます。進捗状況の計算対象となる要素を表します。表す値は既に保存されている必要があります。
+* 「**[!UICONTROL 目標]**」フィールドは、達成すべき最大値を表します。
+* 「**[!UICONTROL その他のマーク]**」フィールドを使用すると、グラフに 2 番目の指標を追加できます。
+* 「**[!UICONTROL 開始／終了]**」フィールドでは、グラフの計算範囲を示す値を指定できます。
+* 「**[!UICONTROL 値の範囲]**」フィールドでは、一定の範囲の値に状態（なし、不良、許容可能、良い）を割り当て、進捗状況をわかりやすくすることができます。
 
-In the **[!UICONTROL Display settings]** section, the **[!UICONTROL Change appearance...]** lets you configure the way the chart is displayed.
+「**[!UICONTROL 表示設定]**」セクションでは、「**[!UICONTROL 外観を変更]**」リンクを使用して、グラフの表示方法を設定できます。
 
 ![](assets/reporting_graph_type_gauge2.png)
 
-このオ **[!UICONTROL Display the value below the gauge]** プションを使用すると、値の進行状況をグラフの下に表示できます。
+「**[!UICONTROL ゲージの下に値を表示]**」オプションでは、グラフの下に値の進捗を表示できます。
 
-The **[!UICONTROL Aperture ratio]** field, which must be between 0 and 1, lets you edit the report&#39;s aperture in a more or less complete circle. 上図の例の場合、値 0.50 は半円に対応します。
+「**[!UICONTROL 開口率]**」フィールド（0 から 1 までの値）では、全円を上限としてグラフの開口率を編集できます。上図の例の場合、値 0.50 は半円に対応します。
 
-The **[!UICONTROL Width]** field lets you edit the chart size.
+「**[!UICONTROL 幅]**」フィールドでは、グラフのサイズを編集できます。
 
 ## グラフとのインタラクション {#interaction-with-the-chart}
 
-ユーザーがグラフをクリックしたときのアクションを定義できます。Open the **[!UICONTROL Interaction events]** window and select the action you want to perform.
+ユーザーがグラフをクリックしたときのアクションを定義できます。**[!UICONTROL インタラクションイベント]**&#x200B;ウィンドウを開き、実行するアクションを選択します。
 
 選択可能なインタラクションタイプとそれらの設定について詳しくは、[この節](../../web/using/static-elements-in-a-web-form.md#inserting-html-content)を参照してください。
 
@@ -162,9 +162,9 @@ The **[!UICONTROL Width]** field lets you edit the chart size.
 
 グラフでは、収集したデータに関する統計を表示できます。
 
-These statistics are defined via the **[!UICONTROL Series parameters]** section of the **[!UICONTROL Data]** tab.
+これらの統計は、「**[!UICONTROL データ]**」タブの「**[!UICONTROL 系列パラメーター]**」セクションを使用して定義します。
 
-To create a new statistic, click the **[!UICONTROL Add]** icon and configure the appropriate window. 次に、使用可能な計算タイプについて説明します。
+新しい統計を作成するには、「**[!UICONTROL 追加]**」アイコンをクリックし、該当するウィンドウを設定します。次に、使用可能な計算タイプについて説明します。
 
 ![](assets/reporting_add_statistics.png)
 

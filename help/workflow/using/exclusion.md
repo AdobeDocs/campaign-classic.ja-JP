@@ -14,7 +14,7 @@ discoiquuid: acab51f3-686b-4d2b-bb02-8fbfae36b1ba
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -30,9 +30,9 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 >[!NOTE]
 >
->除外アクティビティの設定と使用について詳しくは、「母集団の除 [外（除外）」を参照してください](../../workflow/using/targeting-data.md#excluding-a-population--exclusion-)。
+>除外アクティビティの設定と使用について詳しくは、[母集団の除外（除外）](../../workflow/using/targeting-data.md#excluding-a-population--exclusion-)を参照してください。
 
-Check the **[!UICONTROL Generate complement]** option if you wish to exploit the remaining population. 補集合には、メインの入力母集団から出力母集団を引いたものが含まれます。その後、次の図のように、追加の出力トランジションがアクティビティに追加されます。
+残りの母集団を利用するには、「**[!UICONTROL 補集合を生成]**」オプションをチェックします。補集合には、メインの入力母集団から出力母集団を引いたものが含まれます。その後、次の図のように、追加の出力トランジションがアクティビティに追加されます。
 
 ![](assets/s_user_segmentation_exclu_compl.png)
 
@@ -40,15 +40,15 @@ Check the **[!UICONTROL Generate complement]** option if you wish to exploit the
 
 次の例では、年齢が 18 歳から 30 歳で、パリに住んでいる人を除く受信者のリストを作成しようとしています。
 
-1. Insert and open an **[!UICONTROL Exclusion]** -type activity following two queries. 1 番目のクエリは、パリに住んでいる受信者をターゲティングしています。2 番目のクエリは、年齢が 18 歳から 30 歳の人をターゲティングしています。
+1. 2 つのクエリの後に、「**[!UICONTROL 除外]**」タイプのアクティビティを挿入して開きます。1 番目のクエリは、パリに住んでいる受信者をターゲティングしています。2 番目のクエリは、年齢が 18 歳から 30 歳の人をターゲティングしています。
 1. メインセットを入力します。ここでは、メインセットは **18 歳から 30 歳**&#x200B;のクエリです。2 番目のセットに属する要素は、最終結果から除外されます。
-1. Check the **[!UICONTROL Generate complement]** option if you wish to exploit the data that remains after the exclusion. この場合の補集合は、パリに住む 18 歳から 30 歳の受信者で構成されます。
+1. 実行後に残った母集団を利用するには、「**[!UICONTROL 補集合を生成]**」オプションをチェックします。この場合の補集合は、パリに住む 18 歳から 30 歳の受信者で構成されます。
 1. 除外設定を承認してから、結果にリスト更新アクティビティを挿入します。必要に応じて、補集合に追加のリスト更新アクティビティを挿入します。
 1. ワークフローを実行します。この例では、結果は 18 歳から 30 歳、パリに住んでいない受信者から構成され、補集合に送られます。
 
    ![](assets/exclusion_example.png)
 
-The blacklist importation example uses an **Exclusion**-type activity which can be found in [Read list](../../workflow/using/read-list.md).
+ブラックリストのインポート例では、「**除外**」タイプのアクティビティを使用します。このアクティビティについては、[リスト読み込み](../../workflow/using/read-list.md)を参照してください。
 
 ## 入力パラメーター {#input-parameters}
 

@@ -14,7 +14,7 @@ discoiquuid: 8b6d5f89-a904-47d8-bfb7-5dd383fc1f63
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ---
@@ -33,7 +33,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
   </tr> 
   <tr> 
    <td> <span class="uicontrol">提案の同期</span> <br /> </td> 
-   <td> <span class="uicontrol">propositionSynch</span><br /> </td> 
+   <td> <span class="uicontrol">propositionSynch</span> <br /> </td> 
    <td> このワークフローは、インタラクションで使用するマーケティングインスタンスと実行インスタンスの間で提案を同期します。<br /> </td> 
   </tr> 
  </tbody> 

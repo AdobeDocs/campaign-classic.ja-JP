@@ -14,7 +14,7 @@ discoiquuid: 0325ab0f-394e-404b-9f4a-db3cc18d2493
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00351a7a108f74741fa15546d9bd5cf68699e5c1
 
 ---
@@ -24,11 +24,11 @@ source-git-commit: 00351a7a108f74741fa15546d9bd5cf68699e5c1
 
 受信者プロファイルは Adobe Campaign データベースにインポートできます。また、データベース外のファイルにエクスポートし、保存することもできます。
 
-To configure and execute data imports and exports, go to the **[!UICONTROL Profiles and targets]** universe and click the **[!UICONTROL Jobs]** link.
+データのインポートとエクスポートを設定、実行するには、**[!UICONTROL プロファイルとターゲット]**&#x200B;ウィンドウに移動し、「**[!UICONTROL ジョブ]**」リンクをクリックします。
 
 ![](assets/s_ncs_user_interface_import_link.png)
 
 >[!NOTE]
 >
->データの読み込みと書き出しは、一般的な読み込みと書き出し [で、またこのビデオで](../../platform/using/generic-imports-and-exports.md) 「読み込みと書き [出し」が表示されます](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html)。
+>データのインポートとエクスポートは、[一般的なインポートおよびエクスポート](../../platform/using/generic-imports-and-exports.md)および[このビデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html)で説明します。
 

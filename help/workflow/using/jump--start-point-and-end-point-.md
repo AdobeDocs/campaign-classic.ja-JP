@@ -14,7 +14,7 @@ discoiquuid: f3cd5409-c301-4580-96e3-9349e18cf42a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -22,9 +22,9 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # ジャンプ（開始ポイントと終了ポイント）{#jump-start-point-and-end-point}
 
-**[!UICONTROL Jump]** 複雑な図、特に交差遷移を持つ図の読みやすさを改善するために、 — タイプのグラフィカルオブジェクトを使用します。
+「**[!UICONTROL ジャンプ]**」タイプのグラフィカルオブジェクトは、特に、交差するトランジションを持つ複雑なダイアグラムの可読性を向上させます。
 
-ジャンプは矢印なしのトランジションです。次の例のように、あるアクティビティから別のアクティビティに移動します。
+ジャンプは、矢印のないトランジションです。ジャンプは、1 つのアクティビティから別のアクティビティに、以下の図のように移動します。
 
 ![](assets/s_user_segmentation_jump_sample.png)
 
@@ -34,4 +34,4 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ![](assets/s_user_segmentation_jump_in.png)
 
-ダイアグラムの可読性を向上させるには、ジャンプに関連付けけられた画像に、そのジャンプの番号が表示されるように変更します。アクティビティ [画像の管理を参照してください](../../workflow/using/managing-activity-images.md)。
+ダイアグラムの可読性を向上させるには、ジャンプに関連付けけられた画像に、そのジャンプの番号が表示されるように変更します。[アクティビティ画像の管理](../../workflow/using/managing-activity-images.md)を参照してください。

@@ -1,6 +1,6 @@
 ---
 title: 重複した受信者のフィルタリング
-description: 重複した受信者をフィルターする方法について説明します。
+description: 重複した受信者をフィルターする方法を説明します。
 page-status-flag: never-activated
 uuid: 0556d53e-0fdf-47b3-b1e0-b52e85e0c662
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
 ---
@@ -24,8 +24,8 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
 この例を作成するには、次の手順に従います。
 
-1. Drag and drop a **[!UICONTROL Query]** activity in a workflow and open the activity.
-1. をクリッ **[!UICONTROL Edit query]** クし、ターゲットディメンションとフィルターディメンションをに設定しま **[!UICONTROL Recipients]**&#x200B;す。
+1. ワークフローに「**[!UICONTROL クエリ]**」アクティビティをドラッグ＆ドロップし、アクティビティを開きます。
+1. 「**[!UICONTROL クエリを編集]**」をクリックし、ターゲットディメンションとフィルタリングディメンションを「**[!UICONTROL 受信者]**」に設定します。
 
    ![](assets/query_recipients_1.png)
 
@@ -33,7 +33,7 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
    ![](assets/query_recipients_2.png)
 
-1. 次のようにフィルター条件を定義して配信をターゲットにします。「式」 **[!UICONTROL Internal name]** 列および「演算子」列 **[!UICONTROL equal to]** でを選択します。
+1. 次のようにフィルター条件を定義して配信をターゲットにします。「式」列で「**[!UICONTROL 内部名]**」を選択し、「オペレーター」列で「**[!UICONTROL 等しい]**」を選択します。
 1. 「値」列にターゲットにした配信の内部名を追加します。
 
    ![](assets/query_recipients_3.png)

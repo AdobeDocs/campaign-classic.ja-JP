@@ -14,7 +14,7 @@ discoiquuid: 762b0233-4b2a-420c-ba28-240cfba362e8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 ---
@@ -28,9 +28,9 @@ source-git-commit: 215e4d1ca78938b38b53cae0357612deebf7727b
 
 オファー管理は、Adobe Campaign のフォルダーツリーを使用して実行されます。
 
-Before creating your offers, you must first specify an environment (see [Environments overview](../../interaction/using/environments-overview.md)). 環境には、一連のオファーのすべての特性（実施要件、ターゲットに対する制約、プレゼンテーションルール）がカテゴリに分類されて、そのスペースのリストと共に含められます。
+オファーを作成する前に、まず環境を指定する必要があります（[環境の概要](../../interaction/using/environments-overview.md)を参照）。環境には、一連のオファーのすべての特性（実施要件、ターゲットに対する制約、プレゼンテーションルール）がカテゴリに分類されて、そのスペースのリストと共に含められます。
 
 >[!CAUTION]
 >
->Creating the offer catalog, i.e. the categories and the offers, is the responsibility of the **[!UICONTROL Offer manager]**.
+>オファーカタログ（つまり、カテゴリおよびオファー）の作成は、**[!UICONTROL オファーマネージャー]**&#x200B;が担当します。
 

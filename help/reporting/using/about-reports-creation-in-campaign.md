@@ -14,7 +14,7 @@ discoiquuid: a21e9c9e-ffc5-40d1-8eac-f4f25da8f21d
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -31,9 +31,9 @@ Campaign データベース内のデータに関する統計情報を生成す�
 データに関する分析レポートを作成、パブリッシュ、配信するには、次の手順に従います。
 
 1. 新しい配信レポートを作成します。[新しいレポートの作成](../../reporting/using/creating-a-new-report.md)を参照してください。
-1. 分析するデータを収集します。詳しくは、 [Collecting data to analyze](../../reporting/using/collecting-data-to-analyze.md) and [Using the context](../../reporting/using/using-the-context.md)、
-1. アクティビティとそのコンテナを使用して、レポートのコンテンツを定義します。詳しくは、表 [の作成](../../reporting/using/creating-a-table.md)、グラフ [と要素のレイアウトの](../../reporting/using/creating-a-chart.md)[](../../reporting/using/element-layout.md)作成、
-1. 表示オプションを設定します。表示タイプ、共有レポート：詳しくは、「レポ [ート表示コンテキスト](../../reporting/using/configuring-access-to-the-report.md#report-display-context)」、「条 [件付きコンテンツの定義](../../reporting/using/defining-a-conditional-content.md) 」 [、「レポートへのアクセスの設定](../../reporting/using/configuring-access-to-the-report.md)」、
-1. レポートを公開します（発行ウィザード）。詳しくは、「レ [ポートの公開](../../reporting/using/configuring-access-to-the-report.md#publishing-the-report)、
-1. Convert the report: export, history, display in a browser: refer to [Actions on reports](../../reporting/using/actions-on-reports.md).
+1. 分析するデータを収集します。[分析するデータの収集](../../reporting/using/collecting-data-to-analyze.md)および[コンテキストの使用](../../reporting/using/using-the-context.md)を参照してください。
+1. レポートの内容と共に、アクティビティとそれらのコンテナを定義します。[テーブルの作成](../../reporting/using/creating-a-table.md)、[グラフの作成](../../reporting/using/creating-a-chart.md)および[要素のレイアウト](../../reporting/using/element-layout.md)を参照してください。
+1. 表示オプション（表示タイプ、共有レポートなど）を設定します。[レポートの表示コンテキスト](../../reporting/using/configuring-access-to-the-report.md#report-display-context)、[条件付きコンテンツの定義](../../reporting/using/defining-a-conditional-content.md)および[レポートへのアクセスの設定](../../reporting/using/configuring-access-to-the-report.md)を参照してください。
+1. レポートをパブリッシュします（パブリッシュウィザードを使用）。[レポートのパブリッシュ](../../reporting/using/configuring-access-to-the-report.md#publishing-the-report)を参照してください。
+1. レポートの変換（エクスポート）、履歴の作成、ブラウザーでの表示などをおこないます。[レポートに対するアクション](../../reporting/using/actions-on-reports.md)を参照してください。
 

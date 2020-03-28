@@ -14,7 +14,7 @@ discoiquuid: 2c2a7196-9183-46b1-b1e2-4a07a53e93b4
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2c0d4054fbc15a88ea0370269b62c7d647aea033
 
 ---
@@ -22,8 +22,8 @@ source-git-commit: 2c0d4054fbc15a88ea0370269b62c7d647aea033
 
 # メッセージテンプレートの作成{#creating-the-message-template}
 
-1. Adobe Campaignツリー **[!UICONTROL Message Center >Transactional message templates]** 内のフォルダーに移動します。
-1. In the list of transactional message templates, right-click and select **[!UICONTROL New]** in the drop-down menu or click the **[!UICONTROL New]** button above the list of transactional message templates.
+1. Adobe Campaign のツリーにて、**[!UICONTROL Message Center／トランザクションメッセージテンプレート]**&#x200B;フォルダーに移動します。
+1. トランザクションメッセージテンプレートのリスト内を右クリックし、ドロップダウンメニューで「**[!UICONTROL 新規]**」を選択するか、トランザクションメッセージテンプレートのリストの上部にある「**[!UICONTROL 新規]**」ボタンをクリックします。
 
    ![](assets/messagecenter_create_model_001.png)
 
@@ -36,13 +36,13 @@ source-git-commit: 2c0d4054fbc15a88ea0370269b62c7d647aea033
 
    ![](assets/messagecenter_create_model_003.png)
 
-   イベントタイプはコンソールで事前に作成しておく必要があります。For more on this, refer to [Creating event types](../../message-center/using/creating-event-types.md).
+   イベントタイプはコンソールで事前に作成しておく必要があります。詳しくは、[イベントタイプの作成](../../message-center/using/creating-event-types.md)を参照してください。
 
    >[!NOTE]
    >
-   >イベントタイプを複数のテンプレートにリンクすることはできません。
+   >イベントタイプを複数のテンプレートにリンクしないでください。
 
-1. Enter a nature and a description, then click **[!UICONTROL Continue]** to create the message body (refer to [Creating message content](../../message-center/using/creating-message-content.md)).
+1. 特性と説明を入力したら、「**[!UICONTROL 続行]**」をクリックしてメッセージの本文を作成します（[メッセージコンテンツの作成](../../message-center/using/creating-message-content.md)を参照）。
 
    ![](assets/messagecenter_create_model_004.png)
 

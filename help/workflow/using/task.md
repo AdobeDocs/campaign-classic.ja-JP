@@ -14,7 +14,7 @@ discoiquuid: ec6f9a10-ad84-4d9f-86e2-490539c2171b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 # タスク{#task}
 
-In a campaign workflow, the **[!UICONTROL Task]** activity lets you specify two scenarios: the first if the task is completed and a second if the task is not completed (if it is manually marked as incomplete or if it expires).
+キャンペーンワークフローでは、「**[!UICONTROL タスク]**」アクティビティで 2 つのシナリオを指定できます。1 つはタスクが完了した場合、もう 1 つはタスクが完了しなかった場合（手動で未完了とマークした場合、または期限切れとなった場合）。
 
 ![](assets/mrm_task_in_workflow.png)
 
@@ -30,4 +30,4 @@ In a campaign workflow, the **[!UICONTROL Task]** activity lets you specify two 
 
 ![](assets/wkf_task_activity.png)
 
-The **[!UICONTROL Resources]** option lets you define several operators as well as an approval schedule for the task. 承認が拒否されても、これによってタスク自体が拒否されることにはなりません。
+「**[!UICONTROL リソース]**」オプションで、複数のオペレーターとタスクの承認スケジュールを定義できます。承認が拒否されても、これによってタスク自体が拒否されることにはなりません。

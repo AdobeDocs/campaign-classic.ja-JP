@@ -14,7 +14,7 @@ discoiquuid: c886bd02-c484-443c-93ca-ca244adbf893
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00351a7a108f74741fa15546d9bd5cf68699e5c1
 
 ---
@@ -26,9 +26,9 @@ Adobe Campaign では、テキスト、CSV、TAB または XML フォーマッ�
 
 >[!NOTE]
 >
->You can import data without mapping it with the database data using the **[!UICONTROL Import a list]** function.
+>「**[!UICONTROL リストをインポート]**」機能を使用して、データベースデータにマッピングせずにデータをインポートできます。
 > 
->The data can then be used exclusively in workflows via the **[!UICONTROL Read list]** object. 詳しくは、[このページ](../../workflow/using/read-list.md)を参照してください。
+>このデータは、ワークフローの「**[!UICONTROL リストの読み込み]**」オブジェクト経由でのみ使用できます。詳しくは、[このページ](../../workflow/using/read-list.md)を参照してください。
 >
 >詳しくは、[プロファイルのインポート](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html)ビデオをご覧ください。
 
@@ -38,7 +38,7 @@ Adobe Campaign では、テキスト、CSV、TAB または XML フォーマッ�
 
 ## インポートウィザード {#import-wizard}
 
-インポートウィザードでは、インポートを設定し、そのオプション（データ変換など）を定義して、実行を開始できます。インポートウィザードは一連の画面です。画面のコンテンツは、インポートのタイプ（シンプルまたは複数）やオペレーターの権限によって異なります。
+インポートウィザードでは、インポートを設定し、そのオプション（データ変換など）を定義して、実行を開始できます。インポートウィザードは一連の画面です。画面のコンテンツは、インポートのタイプ（簡易または複数）やオペレーターの権限によって異なります。
 
 >[!NOTE]
 >
@@ -50,85 +50,85 @@ Adobe Campaign では、テキスト、CSV、TAB または XML フォーマッ�
 
 インポートウィザードを起動するときは、まずテンプレートを選択する必要があります。例えば、ニュースレターを受け取った受信者のインポートを設定するには、以下の手順に従います。
 
-1. フォルダを選択 **[!UICONTROL Profiles and Targets > Job > Generic imports and exports]** します。
+1. **[!UICONTROL プロファイルとターゲット／ジョブ／一般的なインポートおよびエクスポート]**&#x200B;フォルダーを選択します。
 1. 「**新規**」をクリックし、「**インポート**」をクリックして、インポートテンプレートを作成します。
 
    ![](assets/s_ncs_user_import_wizard01_1.png)
 
-1. Click the arrow to the right of the **[!UICONTROL Import template]** field to select your template, or click **[!UICONTROL Select link]** to browse the tree.
+1. 「**[!UICONTROL インポートテンプレート]**」フィールドの右側にある矢印をクリックしてテンプレートを選択するか、「**[!UICONTROL リンクを選択]**」をクリックしてツリーを参照します。
 
-   ネイティブテンプレートはで **[!UICONTROL New text import]**&#x200B;す。 このテンプレートは変更できませんが、必要に応じて、このテンプレートを複製して新しいテンプレートを設定できます。デフォルトでは、インポートテンプレートはノードに保存さ **[!UICONTROL Profiles and targets > Templates > Job templates]** れます。
+   ネイティブテンプレートは、「**[!UICONTROL 新しいテキストのインポート]**」です。このテンプレートは変更できませんが、必要に応じて、このテンプレートを複製して新しいテンプレートを設定できます。インポートテンプレートは、デフォルトで、**[!UICONTROL プロファイルとターゲット／テンプレート／ジョブテンプレート]**&#x200B;ノードに保存されます。
 
-1. Enter a name for this import in the **[!UICONTROL Label]** field. 説明を追加できます。
-1. 該当するフィールドでインポートタイプを選択します。読み込みには、次の2つのタイプがあります。を使 **[!UICONTROL Simple import]** 用すると、1つのファイルのみをインポ **[!UICONTROL Multiple import]** ートし、複数のファイルを1回の実行でインポートできます。
+1. 「**[!UICONTROL ラベル]**」フィールドに、このインポートの名前を入力します。説明を追加できます。
+1. 該当するフィールドでインポートタイプを選択します。インポートには、1 つのファイルのみをインポートする「**[!UICONTROL 簡易インポート]**」と、1 回の実行で複数のファイルをインポートする「**[!UICONTROL 複数インポート]**」の 2 つのタイプがあります。
 
-   For a multiple import, select **[!UICONTROL Multiple import]** from the **[!UICONTROL Import type]** drop-down list in the first screen of the import wizard.
+   複数インポートの場合、インポートウィザードの最初の画面の&#x200B;**[!UICONTROL インポートタイプ]**&#x200B;ドロップダウンリストから「**[!UICONTROL 複数インポート]**」を選択します。
 
    ![](assets/s_ncs_user_import_wizard01_2.png)
 
-1. Specify the fields you want to import by clicking **[!UICONTROL Add]**.
+1. **[!UICONTROL 追加]**&#x200B;をクリックして、インポートするフィールドを指定します。
 
    ![](assets/s_ncs_user_import_wizard01_3.png)
 
-   Each time a file is added, the screen of the **[!UICONTROL File to import]** wizard is displayed. See section [Step 2 - Source file selection](#step-2---source-file-selection) and follow the steps in the wizard to define the import options as for a simple import.
+   ファイルを 1 つ追加するたびに、**[!UICONTROL インポートするファイル]**&#x200B;ウィザードの画面が表示されます。[手順 2 - ソースファイルの選択](#step-2---source-file-selection)の節を参照し、ウィザードの手順に従って、簡易インポートに関するインポートオプションを定義します。
 
    >[!NOTE]
    >
-   >「複数のインポート」は、具体的な必要性があるときにのみ使用してください。通常はお勧めしません。
+   >「複数インポート」は、具体的な必要性があるときにのみ使用してください。通常はお勧めしません。
 
 #### 詳細設定パラメーター {#advanced-parameters}
 
-The **[!UICONTROL Advanced parameters]** link lets you access the following options:
+「**[!UICONTROL 詳細設定パラメーター]**」リンクを使用して、次のオプションにアクセスできます。
 
-* **[!UICONTROL General]** tab
+* 「**[!UICONTROL 一般]**」タブ
 
-   * **[!UICONTROL Stop execution if there are too many rejects]**
+   * **[!UICONTROL 却下が多すぎる場合に実行を停止]**
 
       このオプションは、デフォルトで選択されています。却下の数に関係なくインポートの実行を続行する場合は、選択を解除できます。デフォルトでは、最初の 100 ラインが却下された場合、実行は停止されます。
 
-   * **[!UICONTROL Trace mode]**
+   * **[!UICONTROL トレースモード]**
 
       インポートの実行をラインごとにトラッキングする場合に、このオプションを選択します。
 
-   * **[!UICONTROL Start the job in a detached process]**
+   * **[!UICONTROL プロセスの分離でジョブを開始]**
 
       このオプションは、デフォルトで選択されています。データベースで処理中の他のジョブに影響しないように、インポートの実行を分離できます。
 
-   * **[!UICONTROL Do not update enumerations]**
+   * **[!UICONTROL 列挙を更新しない]**
 
-      データベース内の列挙値のリストをエンリッチメントしない場合に、このオプションを選択します。See [Managing enumerations](../../platform/using/managing-enumerations.md).
+      データベース内の列挙値のリストをエンリッチメントしない場合に、このオプションを選択します。[列挙の管理](../../platform/using/managing-enumerations.md)を参照してください。
 
-* **[!UICONTROL Variables]** tab
+* 「**[!UICONTROL 変数]**」タブ
 
-   クエリエディターおよび計算フィールドでアクセス可能になる、ジョブに関連付けられた変数を定義できます。To create a variable, click **[!UICONTROL Add]** and use the variable editor.
+   クエリエディターおよび計算フィールドでアクセス可能になる、ジョブに関連付けられた変数を定義できます。変数を作成するには、**[!UICONTROL 追加]**&#x200B;をクリックして変数エディターを使用します。
 
    >[!CAUTION]
    >
-   >The **[!UICONTROL Variables]** tab is for Workflow-type programming use only, and should be configured by expert users only.
+   >「**[!UICONTROL 変数]**」タブは、ワークフロータイプのプログラミングの場合にのみ使用するもので、設定するのはエキスパートユーザーのみである必要があります。
 
 ### 手順 2 - ソースファイルの選択 {#step-2---source-file-selection}
 
 ソースファイルは、テキストフォーマット（txt、csv、tab、固定列）または xml です。
 
-デフォルトでは、が選 **[!UICONTROL Upload file on the server]** 択されています。 Click the folder to the right of the **[!UICONTROL Local file]** field to browse the local disk and select the file to import. インポートするファイルがサーバー上にある場合は、このオプションの選択を解除して、そのアクセスパスと名前を入力できます。
+デフォルトでは、「**[!UICONTROL ファイルをサーバーにアップロードします]**」オプションが選択されています。「**[!UICONTROL ローカルファイル]**」フィールドの右側にあるフォルダーをクリックしてローカルディスクを参照し、インポートするファイルを選択します。インポートするファイルがサーバー上にある場合は、このオプションの選択を解除して、そのアクセスパスと名前を入力できます。
 
 ![](assets/s_ncs_user_import_wizard02_1.png)
 
-When the file has been specified, you can view its data in the lower section of the window by clicking **[!UICONTROL Auto-detect format]**. このプレビューでは、ソースファイルの最初の 200 ラインが表示されます。
+ファイルを指定したら、「**[!UICONTROL フォーマットを自動検出]**」をクリックすると、そのデータをウィンドウの下部セクションに表示できます。このプレビューでは、ソースファイルの最初の 200 ラインが表示されます。
 
 ![](assets/s_ncs_user_import_wizard02_2.png)
 
 このビューの上に表示されているオプションを使用して、インポートを設定できます。これらのオプションを使用して定義されたパラメーターは、プレビューに転送されます。次のオプションを使用できます。
 
-* **[!UICONTROL Click here to change the file format...]** ファイル形式を確認し、設定を微調整できます。
-* **[!UICONTROL Update on server...]** ローカルファイルをサーバーに転送できます。 このオプションは、が選択されている場合にの **[!UICONTROL Upload file on the server]** み使用できます。
-* **[!UICONTROL Download]** は、ファイルがサーバー上にアップロードされている場合にのみ使用できます。
-* **[!UICONTROL Auto-detect format]** は、データソースの形式を再初期化するために使用されます。 このオプションを使用すると、オプションを使用してフォーマットされたデータに元の形式を再適用で **[!UICONTROL Click here to change the file format...]** きます。
-* The **[!UICONTROL Advanced parameters]** link lets you filter the source data and access advanced options. この画面から、インポート対象をファイルの一部のみにすることを選択できます。フィルターを定義して、例えば、対応するラインの値に従って、「見込み客」または「顧客」タイプのユーザーのみをインポートすることもできます。これらのオプションを使用するのは、エキスパート JavaScript ユーザーのみである必要があります。
+* 「**[!UICONTROL ファイルフォーマットを変更するには、ここをクリックしてください...]**」では、ファイルフォーマットを確認し、設定を調整できます。
+* 「**[!UICONTROL サーバーで更新...]**」では、ローカルファイルをサーバーに転送できます。このオプションは、「**[!UICONTROL ファイルをサーバーにアップロードします]**」オプションが選択されている場合にのみ使用できます。
+* 「**[!UICONTROL ダウンロード]**」は、ファイルがサーバーにアップロードされている場合にのみ使用できます。
+* 「**[!UICONTROL フォーマットを自動検出]**」は、データソースのフォーマットを再初期化する場合に使用します。このオプションを使用すると、「**[!UICONTROL ファイルフォーマットを変更するには、ここをクリックしてください...]**」オプションで書式設定したデータに、元のフォーマットを再適用できます。
+* 「**[!UICONTROL 詳細設定パラメーター]**」リンクを使用すると、ソースデータをフィルターし、詳細設定オプションにアクセスできます。この画面から、インポート対象をファイルの一部のみにすることを選択できます。フィルターを定義して、例えば、対応するラインの値に従って、「見込み客」または「顧客」タイプのユーザーのみをインポートすることもできます。これらのオプションを使用するのは、エキスパート JavaScript ユーザーのみである必要があります。
 
 #### ファイルフォーマットの変更 {#changing-the-file-format}
 
-The **[!UICONTROL Click here to change the file format...]** option lets you format the data of the source file, and in particular to specify the column separator and the type of data for each field. この設定は、次のウィンドウで実行します。
+「**[!UICONTROL ファイルフォーマットを変更するには、ここをクリックしてください...]**」オプションを使用すると、ソースファイルのデータを書式設定でき、特に列区切り記号および各フィールドのデータタイプを指定できます。この設定は、次のウィンドウで実行します。
 
 ![](assets/s_ncs_user_import_wizard02_3.png)
 
@@ -136,7 +136,7 @@ The **[!UICONTROL Click here to change the file format...]** option lets you for
 
 ウィンドウの下部のプレビューゾーンで、設定の結果を表示できます。
 
-Click **[!UICONTROL OK]** to save the formatting, then click **[!UICONTROL Next]** to display the next step.
+「**[!UICONTROL OK]**」をクリックしてフォーマットを保存し、「**[!UICONTROL 次へ]**」をクリックして次の手順を表示します。
 
 ### 手順 3 - フィールドマッピング {#step-3---field-mapping}
 
@@ -144,18 +144,18 @@ Click **[!UICONTROL OK]** to save the formatting, then click **[!UICONTROL Next]
 
 ![](assets/s_ncs_user_import_wizard03_1.png)
 
-* The **[!UICONTROL Destination schema]** field lets you select the schema in which the data will be imported. この情報は必須です。Click the **[!UICONTROL Select link]** icon to select one of the existing schemas. Click **[!UICONTROL Edit link]** to display the content of the selected table.
+* 「**[!UICONTROL 宛先スキーマ]**」フィールドで、データがインポートされるスキーマを選択できます。この情報は必須です。**[!UICONTROL リンクを選択]**&#x200B;アイコンをクリックして、既存のスキーマのいずれかを選択します。**[!UICONTROL リンクを編集]**&#x200B;をクリックして、選択したテーブルのコンテンツを表示します。
 * 中央のテーブルには、ソースファイルで定義されているすべてのフィールドが表示されます。宛先ファイルを関連付けるために、インポートするフィールドを選択します。これらのフィールドは、手動または自動でマッピングできます。
 
-   フィールドを手動でマッピングするには、チェックボックスをクリックしてソースフィールドを選択し、2 番目の列をクリックして、選択したフィールドに対応するセルを有効にします。Next, click the **[!UICONTROL Edit expression]** icon to display all the fields of the current table. 宛先フィールドを選択し、「**[!UICONTROL OK]**」をクリックしてマッピングを検証します。
+   フィールドを手動でマッピングするには、チェックボックスをクリックしてソースフィールドを選択し、2 番目の列をクリックして、選択したフィールドに対応するセルを有効にします。次に、**[!UICONTROL 式を編集]**&#x200B;アイコンをクリックして、現在のテーブルのすべてのフィールドを表示します。宛先フィールドを選択し、「**[!UICONTROL OK]**」をクリックしてマッピングを検証します。
 
-   To associate the source fields and destination fields automatically, click the **[!UICONTROL Guess the destination fields]** icon to the right of the list of fields. 提案されたフィールドは、必要に応じて変更できます。
+   ソースフィールドと宛先フィールドを自動的に関連付けるには、フィールドのリストの右側にある&#x200B;**[!UICONTROL 宛先フィールドを推測]**&#x200B;アイコンをクリックします。提案されたフィールドは、必要に応じて変更できます。
 
    >[!CAUTION]
    >
    >この操作の結果は、次の手順に進む前に必ず確認する必要があります。
 
-* インポートされるフィールドに変換を適用できます。To do this, click in the cell of the **[!UICONTROL Transformation]** column that relates to the field concerned, and select the transformation to be applied.
+* インポートされるフィールドに変換を適用できます。そのためには、該当するフィールドに対応する「**[!UICONTROL 変換]**」列のセル内をクリックし、適用する変換を選択します。
 
    ![](assets/s_ncs_user_import_wizard03_2.png)
 
@@ -171,14 +171,14 @@ Click **[!UICONTROL OK]** to save the formatting, then click **[!UICONTROL Next]
 
 次の 4 つのタイプの計算フィールドがあります。
 
-* **[!UICONTROL Fixed string]**:計算フィールドの値は、ソースファイルのすべての行で同じです。 挿入または更新されるレコードのフィールドの値を設定できます。例えば、インポートされるすべてのレコードに対して、マーカーを「はい」に設定できます。
-* **[!UICONTROL String with JavaScript tags]**:計算フィールドの値は、JavaScriptコマンドを含む文字列です。
-* **[!UICONTROL JavaScript expression]**:計算済みフィールドの値は、JavaScript関数の評価結果です。 返される値は、数値、日付などです。
-* **[!UICONTROL Enumeration]**:フィールドの値は、ソースファイルに含まれる値に従って属性付けされます。 エディターを使用して、次の例に示すように、ソース列を指定して列挙値のリストを入力できます。
+* **[!UICONTROL 固定文字列]**：計算フィールドの値は、ソースファイルのすべてのラインに対して同じです。挿入または更新されるレコードのフィールドの値を設定できます。例えば、インポートされるすべてのレコードに対して、マーカーを「はい」に設定できます。
+* **[!UICONTROL JavaScript タグを含む文字列]**：計算フィールドの値は、JavaScript コマンドを含む文字列です。
+* **[!UICONTROL JavaScript 式]**：計算フィールドの値は、JavaScript 関数の評価の結果です。返される値は、数値、日付などです。
+* **[!UICONTROL 列挙]**：フィールドの値は、ソースファイルに含まれている値に従って決定されます。エディターを使用して、次の例に示すように、ソース列を指定して列挙値のリストを入力できます。
 
    ![](assets/s_ncs_user_import_wizard03_3.png)
 
-   The **[!UICONTROL Preview]** tab lets you view the result of the defined configuration. Here, the **[!UICONTROL Subscription]** column has been added. 値は「**ステータス**」フィールドから計算されます。
+   「**[!UICONTROL プレビュー]**」タブで、定義した設定の結果を表示できます。ここでは、「**[!UICONTROL サービス]**」列が追加されています。値は「**ステータス**」フィールドから計算されます。
 
    ![](assets/s_ncs_user_import_wizard03_4.png)
 
@@ -190,7 +190,7 @@ Click **[!UICONTROL OK]** to save the formatting, then click **[!UICONTROL Next]
 
 画面の中央のセクションには、データがインポートされる Adobe Campaign データベースのフィールドおよびテーブルのツリーがあります。
 
-ノード（テーブルまたはフィールド）ごとに特別なオプションを使用できます。リスト内の該当するノードをクリックすると、そのパラメーターと簡単な説明が下に表示されます。The behavior defined for each element is displayed in the corresponding **[!UICONTROL Behavior]** column.
+ノード（テーブルまたはフィールド）ごとに特別なオプションを使用できます。リスト内の該当するノードをクリックすると、そのパラメーターと簡単な説明が下に表示されます。各要素に対して定義されている行動が、対応する「**[!UICONTROL 行動]**」列に表示されます。
 
 ![](assets/s_ncs_user_import_wizard04_2.png)
 
@@ -198,17 +198,17 @@ Click **[!UICONTROL OK]** to save the formatting, then click **[!UICONTROL Next]
 
 インポート対象の各テーブルについて、操作のタイプを定義する必要があります。データベースの主要な要素に対して使用可能な操作は次のとおりです。
 
-* **[!UICONTROL Update or insertion]**:レコードがデータベースに存在する場合は更新し、存在しない場合は作成します。
-* **[!UICONTROL Insertion]**:データベースにレコードを挿入します。
-* **[!UICONTROL Update]**:既存のレコードのみを更新します（他のレコードは無視します）。
-* **[!UICONTROL Reconciliation only]**:データベース内のレコードを検索しますが、更新は実行しません。 例えば、フォルダー内のデータを更新せずに、ファイルの列に従って、インポートする受信者のフォルダーを関連付けることができます。
-* **[!UICONTROL Deletion]**:データベース内のレコードを破棄できます。
+* **[!UICONTROL 更新または挿入]**：データベース内にレコードが存在する場合は更新し、存在しない場合は作成します。
+* **[!UICONTROL 挿入]**：データベースにレコードを挿入します。
+* **[!UICONTROL 更新]**：既存のレコードのみを更新します（その他のレコードは無視します）。
+* **[!UICONTROL 紐付けのみ]**：データベース内のレコードを検索しますが、更新は実行しません。例えば、フォルダー内のデータを更新せずに、ファイルの列に従って、インポートする受信者のフォルダーを関連付けることができます。
+* **[!UICONTROL 削除]**：データベース内のレコードを破棄できます。
 
 インポート対象のテーブル内の各フィールドに対して使用可能なオプションは次のとおりです。
 
-* **[!UICONTROL Update (empty) if source value is empty]**:更新の場合、ソースファイル内のフィールドが空の場合、フィールドの値によってデータベースの値が削除されます。 それ以外の場合、データベースフィールドは保持されます。
-* **[!UICONTROL Update only if destination is empty]**:データベースフィールドが空でない場合、ソースファイルの値によってデータベースフィールドの値が上書きされることはありません。 空の場合、ソースファイルの値が取得されます。
-* **[!UICONTROL Update the field only when the record is inserted]**:更新または挿入操作中に、新しいソースファイルレコードのみがインポートされます。
+* **[!UICONTROL ソースの値が空の場合に（空）を更新]**：更新が発生した際に、ソースファイルで該当のフィールドが空の場合、フィールドの値によってデータベースの値が削除されます。それ以外の場合、データベースフィールドは保持されます。
+* **[!UICONTROL 宛先が空の場合にのみ更新]**：データベースフィールドが空の場合を除き、ソースファイルの値によってデータベースフィールドの値が上書きされません。空の場合、ソースファイルの値が取得されます。
+* **[!UICONTROL レコードが挿入された場合にのみフィールドを更新]**：更新または挿入操作中、ソースファイルレコードのうち新規のレコードのみがインポートされます。
 
 >[!NOTE]
 >
@@ -240,20 +240,20 @@ Click **[!UICONTROL OK]** to save the formatting, then click **[!UICONTROL Next]
 >
 >「重複」は、インポートされるファイル内とデータベース内の両方に存在する項目です。
 
-このフィ **[!UICONTROL Management of doubles]** ールドでは、データの重複除外を設定できます。 重複排除は、**ソースファイル内**（複数ファイルのインポートの場合は複数のソースファイル）に複数回存在するレコード、つまり紐付けキーのフィールドが同一であるラインが対象となります。
+「**[!UICONTROL コピーの管理]**」フィールドで、データの重複排除を設定できます。重複排除は、**ソースファイル内**（複数ファイルのインポートの場合は複数のソースファイル）に複数回存在するレコード、つまり紐付けキーのフィールドが同一であるラインが対象となります。
 
-* Duplicate management in **[!UICONTROL Update]** mode (the default mode) does not perform deduplication. 直前のレコードのデータは更新されるので、結果として、最後のレコードが優先されます。このモードでは、重複のカウントは実行されません。
-* Duplicate management in **[!UICONTROL Ignore]** mode or **[!UICONTROL Reject entity]** excludes duplicates from the import. この場合、レコードはインポートされません。
-* In **[!UICONTROL Reject entity]** mode, the element is not imported, and an error is generated in the import logs.
-* In **[!UICONTROL Ignore]** mode, the element is not imported, but no trace of the error is kept. このモードを使用すると、パフォーマンスを最適化できます。
+* 「**[!UICONTROL 更新]**」モード（デフォルトのモード）での重複の管理では、重複排除は実行されません。直前のレコードのデータは更新されるので、結果として、最後のレコードが優先されます。このモードでは、重複のカウントは実行されません。
+* 「**[!UICONTROL 無視]**」モードまたは「**[!UICONTROL エンティティを却下]**」モードでの重複の管理では、重複はインポートから除外されます。この場合、レコードはインポートされません。
+* 「**[!UICONTROL エンティティを却下]**」モードでは、要素はインポートされず、インポートログにエラーが生成されます。
+* 「**[!UICONTROL 無視]**」モードでは、要素はインポートされませんが、エラーのトレースは保持されません。このモードを使用すると、パフォーマンスを最適化できます。
 
 >[!CAUTION]
 >
 >重複排除は、メモリ内のみで実行されます。そのため、重複排除でのインポートのサイズは制限されます。制限は、複数のパラメーター（アプリケーションサーバーの処理能力、アクティビティ、キーのフィールド数など）によって異なります。重複排除の最大サイズは、約 1,000,000 ラインです。
 
-重複排除は、ソースファイルとデータベースの両方に存在するレコードを対象とします。更新のみの操作(または **[!UICONTROL Update and insertion]** )に関 **[!UICONTROL Update]**&#x200B;する。 The **[!UICONTROL Duplicate management]** option lets you update or ignore the record if it is in both the source file and the database. このオ **[!UICONTROL Update or insert based on origin]** プションはオプションのモジュールに属し、標準コンテキストでは使用できません。
+重複排除は、ソースファイルとデータベースの両方に存在するレコードを対象とします。更新を伴う操作（「**[!UICONTROL 更新または挿入]**」または「**[!UICONTROL 更新]**」）のみを対象とします。「**[!UICONTROL 重複の管理]**」オプションを使用すると、レコードがソースファイルとデータベースの両方に存在する場合にレコードを更新または無視できます。「**[!UICONTROL 起源に応じて更新または挿入]**」オプションは、オプションのモジュールに属しており、標準のコンテキストでは使用できません。
 
-The options **[!UICONTROL Reject]** and **[!UICONTROL Ignore]** operate as presented above.
+オプション「**[!UICONTROL 却下]**」および「**[!UICONTROL 無視]**」は、前述のように動作します。
 
 #### エラーの場合の動作 {#behavior-in-the-event-of-an-error}
 
@@ -261,26 +261,26 @@ The options **[!UICONTROL Reject]** and **[!UICONTROL Ignore]** operate as prese
 
 ![](assets/s_ncs_user_import_general_tab.png)
 
-Details of these rejects can be viewed via the **[!UICONTROL Rejects]** tab.
+これらの却下の詳細は、「**[!UICONTROL 却下]**」タブで表示できます。
 
 ![](assets/s_ncs_user_import_rejets_tab.png)
 
-There are two types of rejects (the type is displayed in the **[!UICONTROL Connector]** column):
+次の 2 つのタイプの却下があります（タイプは「**[!UICONTROL コネクタ]**」列に表示されます）。
 
 * テキストコネクタの却下は、ファイルラインの処理中に発生するエラーに関係します（計算フィールド、データ分析など）。この場合、エラーが発生すると、常にライン全体が却下されます。
 * データベースコネクタの却下は、データの紐付けまたはデータベースへの書き込み中に発生するエラーに関係します。複数のテーブルへのインポートの場合は、却下はレコードの一部にのみ関係することがあります（例えば、受信者および関連するイベントのインポートの場合、エラーが発生すると、イベントの更新が回避され、受信者が却下されないことがあります）。
 
 データの紐付けページで、目的のエラー管理タイプをフィールドごとおよびテーブルごとに定義できます。
 
-* **[!UICONTROL Ignore and log a warning]**:エラーが発生したフィールド以外のフィールドは、すべてデータベースにインポートされます。
-* **[!UICONTROL Reject parent element]**:エラーの原因となったフィールドだけでなく、レコードの行全体が拒否されます。
-* **[!UICONTROL Reject all elements]**:インポートが停止し、レコードのすべての要素が拒否されます。
+* **[!UICONTROL 警告を無視してログに保存]**：エラーが発生したフィールドを除き、すべてのフィールドがデータベースにインポートされます。
+* **[!UICONTROL 親要素を却下]**：エラーが発生したフィールドだけでなく、レコードのライン全体が却下されます。
+* **[!UICONTROL すべての要素を却下]**：インポートは停止し、レコードのすべての要素が却下されます。
 
    ![](assets/s_ncs_user_import_wizard04_4.png)
 
 インポートインスタンスの却下画面のツリーには、却下されたフィールドとエラーが発生した場所が示されます。
 
-You can generate a file containing these records via the **[!UICONTROL Export rejects]** icon:
+**[!UICONTROL 却下をエクスポート]**&#x200B;アイコンを使用すると、これらのレコードを含むファイルを生成できます。
 
 ![](assets/s_ncs_user_import_errors_export.png)
 
@@ -294,21 +294,21 @@ You can generate a file containing these records via the **[!UICONTROL Export re
 >
 >この手順は、受信者のみをインポートする場合と、デフォルトの Adobe Campaign 受信者テーブル（**nms:recipient**）を使用する場合に表示されます。
 
-* Click the **[!UICONTROL Edit]** links to select the folder, the list, or the service to which you want to associate or subscribe the recipients.
+* 「**[!UICONTROL 編集]**」リンクをクリックして、受信者の関連付けまたは購読登録をおこなうフォルダー、リストまたはサービスを選択します。
 
    1. フォルダーへのインポート
 
-      The **[!UICONTROL Edit...]** link of the **[!UICONTROL Import into a folder]** section lets you select or create the folder into which the recipients will be imported. デフォルトでは、パーティションが定義されていない場合、データはオペレーターのデフォルトのフォルダーにインポートされます。
+      「**[!UICONTROL フォルダーにインポート]**」セクションの「**[!UICONTROL 編集...]**」リンクを使用して、受信者がインポートされるフォルダーを選択または作成できます。デフォルトでは、パーティションが定義されていない場合、データはオペレーターのデフォルトのフォルダーにインポートされます。
 
       >[!NOTE]
       >
-      >オペレーターのデフォルトのフォルダーは、オペレーターが書き込みアクセス権を持つ最初のフォルダーです。「フォルダ [ーアクセス管理」を参照](../../platform/using/access-management.md#folder-access-management)。
+      >オペレーターのデフォルトのフォルダーは、オペレーターが書き込みアクセス権を持つ最初のフォルダーです。[フォルダーアクセスの管理](../../platform/using/access-management.md#folder-access-management)を参照してください。
 
-      To select the import folder, click the arrow to the right of the **[!UICONTROL Folder]** field and select the folder concerned. You can also use the **[!UICONTROL Select link]** icon to display the tree in a new window or create a new folder.
+      インポートフォルダーを選択するには、「**[!UICONTROL フォルダー]**」フィールドの右側にある矢印をクリックし、関係するフォルダーを選択します。**[!UICONTROL リンクを選択]**&#x200B;アイコンを使用して新しいウィンドウでツリーを表示するか、新しいフォルダーを作成することもできます。
 
       ![](assets/s_ncs_user_import_wizard05_2.png)
 
-      新しいフォルダーを作成するには、フォルダーを追加するノードを選択し、右クリックします。選択 **[!UICONTROL Create a new 'Recipients' folder]**.
+      新しいフォルダーを作成するには、フォルダーを追加するノードを選択し、右クリックします。「**[!UICONTROL 新しい「受信者」フォルダーを作成]**」を選択します。
 
       ![](assets/s_ncs_user_import_wizard05_3.png)
 
@@ -318,11 +318,11 @@ You can generate a file containing these records via the **[!UICONTROL Export re
 
    1. リストへの関連付け
 
-      The **[!UICONTROL Edit...]** link in the **[!UICONTROL Add recipients to a list]** section lets you select or create a list into which the recipients will be imported.
+      「**[!UICONTROL リストに受信者を追加]**」セクションの「**[!UICONTROL 編集...]**」リンクを使用して、受信者がインポートされるリストを選択または作成できます。
 
       ![](assets/s_ncs_user_import_wizard05_5.png)
 
-      You can create a new list for these recipients by clicking **[!UICONTROL Select link]**, then **[!UICONTROL Create]**. リストの作成と管理は、リストの作成と管 [理に表示されます](../../platform/using/creating-and-managing-lists.md)。
+      これらの受信者用に新しいリストを作成するには、**[!UICONTROL リンクを選択]**&#x200B;をクリックしてから、**[!UICONTROL 作成]**&#x200B;をクリックします。リストの作成と管理については、[リストの作成および管理](../../platform/using/creating-and-managing-lists.md)で説明しています。
 
       ![](assets/s_ncs_user_import_wizard05_6.png)
 
@@ -330,19 +330,19 @@ You can generate a file containing these records via the **[!UICONTROL Export re
 
    1. サービスの購読登録
 
-      To subscribe all imported recipients to an information service, click the **[!UICONTROL Edit...]** link of the **[!UICONTROL Subscribe recipients to a service]** section in order to select or create the information service which the recipients will be subscribed to. You can select the **[!UICONTROL Send a confirmation message]** option: The content of this message is defined in the delivery template associated with the subscription service.
+      インポートされたすべての受信者を情報サービスに購読登録するには、受信者を購読登録する対象となる情報サービスを選択または作成するために、「**[!UICONTROL 受信者をサービスに購読登録する]**」セクションの「**[!UICONTROL 編集...]**」リンクをクリックします。「**[!UICONTROL 確認メッセージを送信]**」オプションを選択できます。このメッセージの内容は、購読サービスに関連付けられた配信テンプレートで定義されています。
 
       ![](assets/s_ncs_user_import_wizard05_7.png)
 
-      You can create a new service for these recipients by clicking **[!UICONTROL Select link]** and then the **[!UICONTROL Create]** icon. 情報サービスの管理については、[この節](../../delivery/using/managing-subscriptions.md)で説明しています。
+      これらの受信者用に新しいサービスを作成するには、**[!UICONTROL リンクを選択]**&#x200B;をクリックしてから、**[!UICONTROL 作成]**&#x200B;アイコンをクリックします。情報サービスの管理については、[この節](../../delivery/using/managing-subscriptions.md)で説明しています。
 
-* Use the **[!UICONTROL Origin]** field to add information about the origin of recipients to their profiles. この情報は、複数のインポートのフレームワークで特に役立ちます。
+* 「**[!UICONTROL 接触チャネル]**」フィールドを使用して、受信者の接触チャネルに関する情報をプロファイルに追加します。この情報は、複数インポートのフレームワークで特に役立ちます。
 
-Click **[!UICONTROL Next]** to validate this step and display the following step.
+この手順を検証して次の手順を表示するには、「**[!UICONTROL 次へ]**」をクリックします。
 
 ### 手順 6 - インポートの開始 {#step-6---launching-the-import}
 
-ウィザードの最後の手順では、データのインポートを開始できます。To do this, click the **[!UICONTROL Start]** button.
+ウィザードの最後の手順では、データのインポートを開始できます。そのためには、「**[!UICONTROL 開始]**」ボタンをクリックします。
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 
@@ -362,7 +362,7 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 
 * **キャンセル済み**
 
-   Click the **[!UICONTROL Cancel]** button: the job in progress is cancelled.
+   「**[!UICONTROL キャンセル]**」ボタンがクリックされ、処理中のジョブがキャンセルされています。
 
 * **キャンセル中**
 
@@ -370,11 +370,11 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 
 * **一時停止中**
 
-   Click **[!UICONTROL Pause]**: the job is being suspended.
+   「**[!UICONTROL 一時停止]**」ボタンがクリックされ、ジョブが一時停止中です。
 
 * **一時停止**
 
-   Click **[!UICONTROL Pause]**: the job is suspended. It can be restarted by clicking **[!UICONTROL Start]**.
+   「**[!UICONTROL 一時停止]**」ボタンがクリックされ、ジョブが一時停止しています。「**[!UICONTROL 開始]**」をクリックして再開できます。
 
 * **終了**
 
@@ -390,18 +390,18 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 
 ## 一般的なインポートのサンプル {#generic-import-samples}
 
-### Example: Import from a list of recipients {#example--import-from-a-list-of-recipients}
+### 例：受信者のリストからのインポート {#example--import-from-a-list-of-recipients}
 
 リストの概要から受信者のリストを作成して提供するには、次の手順に従います。
 
 1. リストの作成
 
-   * Adobe Campaignホーム **[!UICONTROL Lists]** ページのメニ **[!UICONTROL Profiles and targets]** ューにあるリンクをクリックします。
-   * ボタンをク **[!UICONTROL Create]** リックし、次にボタンをクリ **[!UICONTROL Import a list]** ックします。
+   * Adobe Campaign ホームページの&#x200B;**[!UICONTROL プロファイルとターゲット]**&#x200B;メニューで「**[!UICONTROL リスト]**」リンクをクリックします。
+   * 「**[!UICONTROL 作成]**」をクリックし、次に「**[!UICONTROL リストをインポート]**」ボタンをクリックします。
 
 1. インポートするファイルの選択
 
-   Click the folder to the right of the **[!UICONTROL Local file]** field and select the file containing the list to import.
+   「**[!UICONTROL ローカルファイル]**」フィールドの右側にあるフォルダーをクリックし、インポートするリストを含むファイルを選択します。
 
    ![](assets/s_ncs_user_import_example00_01.png)
 
@@ -413,7 +413,7 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 
 1. インポートの開始
 
-   Click **[!UICONTROL Next]** and then **[!UICONTROL Start]** to start importing the list.
+   「**[!UICONTROL 次へ]**」をクリックしてから「**[!UICONTROL 開始]**」をクリックし、リストのインポートを開始します。
 
    ![](assets/s_ncs_user_import_example00_03.png)
 
@@ -423,29 +423,29 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 
 1. テンプレートの選択
 
-   * Adobe Campaignのホームページで、リンクをクリックし **[!UICONTROL Profiles and targets]** てから、をクリックしま **[!UICONTROL Jobs]**&#x200B;す。 Above the list of jobs, click **[!UICONTROL New import]**.
-   * デフォルトでは、テ **[!UICONTROL New text import]** ンプレートを選択したままにします。
+   * Adobe Campaign ホームページから、**[!UICONTROL プロファイルとターゲット]**&#x200B;リンクをクリックし、**[!UICONTROL ジョブ]**&#x200B;をクリックします。ジョブのリストの上にある「**[!UICONTROL 新しいインポート]**」をクリックします。
+   * デフォルトで選択されている「**[!UICONTROL 新しいテキストのインポート]**」テンプレートのままにします。
    * ラベルおよび説明を変更します。
-   * 選択 **[!UICONTROL Simple import]**.
+   * 「**[!UICONTROL 簡易インポート]**」を選択します。
    * デフォルトのジョブフォルダーのままにします。
-   * Click **[!UICONTROL Advanced parameters]** and select the **[!UICONTROL Tracking mode]** option to view the details of your import during execution.
+   * 「**[!UICONTROL 詳細設定パラメーター]**」をクリックし、「**[!UICONTROL トレースモード]**」オプションを選択して、実行中にインポートの詳細を表示します。
 
 1. インポートするファイルの選択
 
-   Click the folder to the right of the **[!UICONTROL Local file]** field and select the file you want to import.
+   「**[!UICONTROL ローカルファイル]**」フィールドの右側にあるフォルダーをクリックし、インポートするファイルを選択します。
 
    ![](assets/s_ncs_user_import_example01_01.png)
 
 1. フィールドの関連付け
 
-   アイコンをクリ **[!UICONTROL Guess the destination fields]** ックして、ソーススキーマと宛先スキーマを自動的にマッピングします。 Check the information in this window before clicking **[!UICONTROL Next]**.
+   **[!UICONTROL 宛先フィールドを推測]**&#x200B;アイコンをクリックして、ソースと宛先スキーマを自動的にマッピングします。このウィンドウの情報を確認してから、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/s_ncs_user_import_example03_01.png)
 
 1. 紐付け
 
    * **受信者（nms:recipient）**&#x200B;テーブルに移動します。
-   * Select the **[!UICONTROL Insertion]** operation and leave the default values in the other fields.
+   * 「**[!UICONTROL 挿入]**」操作を選択し、その他のフィールドはデフォルト値のままにします。
 
       ![](assets/s_ncs_user_import_example04_01.png)
 
@@ -457,13 +457,13 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 
 1. インポートの開始
 
-   * クリック **[!UICONTROL Start]**.
+   * 「**[!UICONTROL 開始]**」をクリックします。
 
       エディターの中央の領域で、インポート操作が成功したこと、および処理されたレコード数を確認することができます。
 
       ![](assets/s_ncs_user_import_example06_01.png)
 
-      The **[!UICONTROL Tracking]** mode lets you track the details of the import for each record in the source file. これを行うには、ホームページで「次へ」をク **[!UICONTROL Profiles and Targets]** リック **[!UICONTROL Processes]**&#x200B;し、関連するインポートを選択し、「」、「」、「」 **[!UICONTROL General]**&#x200B;の各タ **[!UICONTROL Journal]** ブを調 **[!UICONTROL Rejects]** べます。
+      「**[!UICONTROL トレース]**」モードでは、ソースファイル内の各レコードのインポートの詳細をトラッキングできます。そのためには、ホームページから「**[!UICONTROL プロファイルとターゲット]**」、「**[!UICONTROL プロセス]**」の順にクリックし、該当するインポートを選択して、「**[!UICONTROL 一般]**」、「**[!UICONTROL ジャーナル]**」および「**[!UICONTROL 却下]**」の各タブを調べます。
 
       * インポートの進捗状況の確認
 
@@ -473,7 +473,7 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 
          ![](assets/s_ncs_user_import_example07_02.png)
 
-### Example: Update and insert recipients {#example--update-and-insert-recipients}
+### 例：受信者の更新および挿入 {#example--update-and-insert-recipients}
 
 データベース内の既存のレコードを更新し、テキストファイルから新しいレコードを作成します。この手順の例を示します。
 
@@ -495,15 +495,15 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 
 1. 紐付け
 
-   * デフォルト **[!UICONTROL Update or insert]** では選択されたままです。
-   * Keep the option **[!UICONTROL Management of duplicates]** in **[!UICONTROL Update]** mode so that existing records in the database will be modified with data from the text file.
-   * フィールドを選択 **[!UICONTROL Birth date]**&#x200B;し、調 **[!UICONTROL Name]** 整キ **[!UICONTROL Company]** ーを割り当てます。
+   * デフォルトで選択されている「**[!UICONTROL 更新または挿入]**」のままにします。
+   * データベース内の既存のデータがテキストファイルのデータで変更されるように、「**[!UICONTROL 重複の管理]**」フィールドは「**[!UICONTROL 更新]**」オプションのままにします。
+   * 「**[!UICONTROL 生年月日]**」、「**[!UICONTROL 名]**」および「**[!UICONTROL 会社]**」の各フィールドを選択し、それらに紐付けキーを割り当てます。
 
       ![](assets/s_ncs_user_import_example04_02.png)
 
 1. インポートの開始
 
-   * クリック **[!UICONTROL Start]**.
+   * 「**[!UICONTROL 開始]**」をクリックします。
 
       トラッキングウィンドウで、インポートが成功したこと、および処理されたレコード数を確認することができます。
 
@@ -513,7 +513,7 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 
       ![](assets/s_ncs_user_import_example06_03.png)
 
-### Example: Enrich the values with those of an external file {#example--enrich-the-values-with-those-of-an-external-file}
+### 例：外部ファイルの値による値のエンリッチメント {#example--enrich-the-values-with-those-of-an-external-file}
 
 データベーステーブル内のフィールドをテキストファイル内の値で更新しますが、その際、データベースに含まれている値が優先されるようにします。
 
@@ -545,18 +545,18 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 
 1. 紐付け
 
-   * Go to the table and select the **[!UICONTROL Update]** operation.
-   * フィールドのオプ **[!UICONTROL Reject entity]** ションを選択 **[!UICONTROL Management of doubles]** します。
-   * Keep the option **[!UICONTROL Management of duplicates]** in **[!UICONTROL Update]** mode so that existing records in the database will be modified with data from the text file.
-   * ノードにカーソルを置き、 **[!UICONTROL Last name (@lastName)]** オプションを選択 **[!UICONTROL Update only if destination is empty]** します。
-   * ノードに対してこの操作を繰り返 **[!UICONTROL Company (@company)]** します。
-   * フィールドに調整キーを割り当て、 **[!UICONTROL Birth date]**&#x200B;およびを **[!UICONTROL E-mail]** 指定しま **[!UICONTROL First name]**&#x200B;す。
+   * テーブルに移動し、「**[!UICONTROL 更新]**」操作を選択します。
+   * 「**[!UICONTROL コピーの管理]**」フィールドのオプション「**[!UICONTROL エンティティを却下]**」を選択します。
+   * データベース内の既存のデータがテキストファイルのデータで変更されるように、「**[!UICONTROL 重複の管理]**」フィールドは「**[!UICONTROL 更新]**」オプションのままにします。
+   * 「**[!UICONTROL 姓（@lastName）]**」ノードにカーソルを置き、「**[!UICONTROL 宛先が空の場合にのみ更新]**」オプションを選択します。
+   * 「**[!UICONTROL 会社（@company）]**」ノードに対して、この操作を繰り返します。
+   * フィールド「**[!UICONTROL 生年月日]**」、「**[!UICONTROL E メール]**」および「**[!UICONTROL 名]**」に紐付けキーを割り当てます。
 
       ![](assets/s_ncs_user_import_example04_03.png)
 
 1. インポートの開始
 
-   クリック **[!UICONTROL Start]**.
+   「**[!UICONTROL 開始]**」をクリックします。
 
    受信者テーブルを調べ、インポートによってレコードが変更されたことを確認します。
 
@@ -564,7 +564,7 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 
    空であった値のみがテキストファイルの値に置き換えられていますが、データベース内の既存の値はインポートファイルの値で上書きされていません。
 
-### Example: Update and enrich the values from those in an external file {#example--update-and-enrich-the-values-from-those-in-an-external-file}
+### 例：外部ファイルの値による値の更新およびエンリッチメント {#example--update-and-enrich-the-values-from-those-in-an-external-file}
 
 データベーステーブル内のフィールドをテキストファイル内の値で更新しますが、その際、テキストファイルに含まれている値が優先されるようにします。
 
@@ -594,22 +594,22 @@ Click **[!UICONTROL Next]** to validate this step and display the following step
 
 1. 紐付け
 
-   * Go to the table and select **[!UICONTROL Update]**.
-   * フィールドのオプ **[!UICONTROL Reject entity]** ションを選択 **[!UICONTROL Management of doubles]** します。
-   * Leave the option **[!UICONTROL Management of duplicates]** in **[!UICONTROL Update]** mode for existing records in the database to be modified with data from the text file.
-   * ノードにカーソルを置き、 **[!UICONTROL Account number (@account)]** オプションを選択しま **[!UICONTROL Take empty values into account]**&#x200B;す。
-   * フィールドを選択 **[!UICONTROL Birth date]**&#x200B;し、調 **[!UICONTROL E-mail]** 整キ **[!UICONTROL First name]** ーを割り当てます。
+   * テーブルに移動し、「**[!UICONTROL 更新]**」を選択します。
+   * 「**[!UICONTROL コピーの管理]**」フィールドのオプション「**[!UICONTROL エンティティを却下]**」を選択します。
+   * データベース内の既存のデータがテキストファイルのデータで変更されるように、「**[!UICONTROL 重複の管理]**」フィールドは「**[!UICONTROL 更新]**」オプションのままにします。
+   * 「**[!UICONTROL アカウント番号（@account）]**」ノードにカーソルを置き、オプション「**[!UICONTROL 空の値を考慮]**」を選択します。
+   * フィールド「**[!UICONTROL 生年月日]**」、「**[!UICONTROL E メール]**」および「**[!UICONTROL 姓]**」を選択し、それらに紐付けキーを割り当てます。
 
       ![](assets/s_ncs_user_import_example04_04.png)
 
 1. インポートの開始
 
-   * クリック **[!UICONTROL Start]**.
+   * 「**[!UICONTROL 開始]**」をクリックします。
    * 受信者テーブルを調べ、操作によってレコードが変更されたことを確認します。
 
       ![](assets/s_ncs_user_import_example06_06.png)
 
-      テキストファイルの空であった値によって、データベースの値は上書きされています。The existing values in the database were updated with those in the import file in keeping with the **[!UICONTROL Update]** option selected for duplicates in step 4.
+      テキストファイルの空であった値によって、データベースの値は上書きされています。データベースの既存の値は、手順 4 で重複について選択した「**[!UICONTROL 更新]**」オプションに従って、インポートファイルの値で更新されました。
 
 ## ワークフローからのデータのインポート {#importing-data-from-a-workflow}
 

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba750d51d31d7783a3fdc5ef6b0bcf4a863c69d4
+source-git-commit: 5e34e49d66f5d943951cd5d9a11d45df9af544ba
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: ba750d51d31d7783a3fdc5ef6b0bcf4a863c69d4
 
 ## 配信エラーについて {#about-delivery-failures}
 
-メッセージ（E メール、SMS、プッシュ通知）をプロファイルに送信できない場合、リモートサーバーは自動的にエラーメッセージを送信します。このメッセージは Adobe Campaign プラットフォームによってピックアップされ、その E メールアドレスまたは電話番号を強制隔離するかどうかを決定するために評価されます。バウンスメ [ール管理を参照してくださ](#bounce-mail-management)い。
+メッセージ（E メール、SMS、プッシュ通知）をプロファイルに送信できない場合、リモートサーバーは自動的にエラーメッセージを送信します。このメッセージは Adobe Campaign プラットフォームによってピックアップされ、その E メールアドレスまたは電話番号を強制隔離するかどうかを決定するために評価されます。[バウンスメールの管理](#bounce-mail-management)を参照してください。
 
 >[!NOTE]
 >
@@ -42,11 +42,11 @@ source-git-commit: ba750d51d31d7783a3fdc5ef6b0bcf4a863c69d4
 
 ## 配信エラーのタイプと理由 {#delivery-failure-types-and-reasons}
 
-メッセージエラーには次の 3 つのタイプがあります。それぞれのエラータイプによって、アドレスが強制隔離されるかどうかが決まります。この詳細については、「検疫へのア [ドレスの送信条件」を参照してください。](../../delivery/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)
+メッセージエラーには次の 3 つのタイプがあります。それぞれのエラータイプによって、アドレスが強制隔離されるかどうかが決まります。詳しくは、[アドレスを強制隔離する条件](../../delivery/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)を参照してください。
 
-* **ハード**:「ハード」エラーは、無効なアドレスを示します。 これには、次のような、アドレスが無効であることを明示的に示すエラーメッセージが含まれます。&quot;不明なユーザー&quot;。
-* **ソフト**:これは一時的なエラー、または分類できなかった次のようなエラーである可能性があります。&quot;無効なドメイン&quot;または&quot;メールボックスがいっぱい&quot;です。
-* **無視**:これは、「不在」や技術的なエラーなど、一時的なエラーであることがわかっているエラーです。例えば、送信者のタイプが「ポストマスター」の場合などです。
+* **ハード**：「ハード」エラーは無効なアドレスの存在を示します。このエラーは、アドレスが無効であることを明示的に示すエラーメッセージ（例：「不明なユーザー」）を伴います。
+* **ソフト**：これは一時的なエラーか、「無効なドメイン」または「メールボックス容量超過」など、分類が不可能なエラーです。
+* **無視**：これは、「外出中」など一時的であることがわかっているエラーまたは送信者タイプが「postmaster」である場合などの技術的エラーです。
 
 配信エラーの理由として考えられるものを以下に示します。
 
@@ -103,7 +103,7 @@ source-git-commit: ba750d51d31d7783a3fdc5ef6b0bcf4a863c69d4
   <tr> 
    <td> 無視されたエラー </td> 
    <td> エラーなし </td> 
-   <td> 2018 年 </td> 
+   <td> 25 </td> 
    <td> アドレスはホワイトリストに含まれています。したがってエラーは無視され、E メールは送信されます。<br /> </td> 
   </tr> 
   <tr> 
@@ -127,13 +127,13 @@ source-git-commit: ba750d51d31d7783a3fdc5ef6b0bcf4a863c69d4
   <tr> 
    <td> メールボックス容量超過 </td> 
    <td> ソフト </td> 
-   <td> 2018 年 </td> 
-   <td> このユーザーのメールボックスはいっぱいになっていて、メッセージをこれ以上受け入れることができません。このプロファイルは、エラーカウントが 5 にならない限り、再びターゲットになります。その後、レコードは強制隔離ステータスに設定され、以降は再試行されなくなります。<br />このタイプのエラーはクリーンアッププロセスによって管理されます。アドレスは 30 日後に有効なステータスに設定されます。<br /> 警告：隔離されたアドレスの一覧からアドレスを自動的に削除するには、データベースクリーンアップの技術ワークフローを開始する必要があります。<br /> </td> 
+   <td> 5 </td> 
+   <td> このユーザーのメールボックスはいっぱいになっていて、メッセージをこれ以上受け入れることができません。このプロファイルは、エラーカウントが 5 にならない限り、再びターゲットになります。その後、レコードは強制隔離ステータスに設定され、以降は再試行されなくなります。<br />このタイプのエラーはクリーンアッププロセスによって管理されます。アドレスは 30 日後に有効なステータスに設定されます。<br />警告：強制隔離されたアドレスのリストからアドレスを自動的に削除するには、データベースクリーンアップテクニカルワークフローを開始する必要があります。<br /> </td> 
   </tr> 
   <tr> 
    <td> 未接続 </td> 
    <td> 無視 </td> 
-   <td> 2018 年 </td> 
+   <td> 6 </td> 
    <td> メッセージが送信されたときに受信者の携帯電話の電源が切れていたか、ネットワークに接続されていませんでした。<br /> </td> 
   </tr> 
   <tr> 
@@ -187,7 +187,7 @@ source-git-commit: ba750d51d31d7783a3fdc5ef6b0bcf4a863c69d4
 
 >[!NOTE]
 >
->Temporarily undelivered messages can only be related to a **Soft** or **Ignored** error, but not a **Hard** error (see [Delivery failure types and reasons](#delivery-failure-types-and-reasons)).
+>一時的に配信できなかったメッセージは、**ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーにのみ関係するもので、**ハード**&#x200B;エラーは関係ありません（[配信エラーのタイプと理由](#delivery-failure-types-and-reasons)を参照）。
 
 配信の期間を変更するには、配信の高度なパラメーターまたは配信テンプレートにアクセスし、対応するフィールドで希望の期間を指定します。高度な配信プロパティについては、[この節](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)で説明しています。
 
@@ -197,7 +197,7 @@ source-git-commit: ba750d51d31d7783a3fdc5ef6b0bcf4a863c69d4
 
 メッセージは、ただちにエラーになることも（同期エラー）、送信後しばらくしてエラーになることも（非同期エラー）あります。
 
-* 同期エラー：Adobe Campaign 配信サーバーによってアクセスされたリモートメールサーバーがエラーメッセージを返します。配信をプロファイルのサーバーに送ることは許可されません。Adobe Campaign が個々のエラーを評価して、その E メールアドレスを強制隔離すべきかどうかを判断します。「バウンス [メールの資格](#bounce-mail-qualification)」を参照。
+* 同期エラー：Adobe Campaign 配信サーバーによってアクセスされたリモートメールサーバーがエラーメッセージを返します。配信をプロファイルのサーバーに送ることは許可されません。Adobe Campaign が個々のエラーを評価して、その E メールアドレスを強制隔離すべきかどうかを判断します。[バウンスメールの選定](#bounce-mail-qualification)を参照してください。
 * 非同期エラー：バウンスメールまたは SR が受信サーバーによって後で再送信された場合です。このメールは、メッセージにエラーのラベルを付けるためにアプリケーションが使用するテクニカルメールボックスに読み込まれます。非同期エラーは、配信の送信から 1 週間が経過するまで発生する可能性があります。
 
    >[!NOTE]
@@ -226,7 +226,7 @@ E メールの配信が失敗すると、Adobe Campaign の配信サーバーは
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
-Adobe Campaignは、このメッセージをフィルタリングして、変数の内容（ID、日付、電子メールアドレス、電話番号など）を削除します。フィルタ結果を列に表示し **[!UICONTROL Text]** ます。 The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
+Adobe Campaignでは、このメッセージをフィルターして、変数の内容（ID、日付、電子メールアドレス、電話番号など）を削除します。フィルタ結果を列に表示し **[!UICONTROL Text]** ます。 変数は、**`#xxx#`** で置き換えられます（ただし、アドレスは **`*`** で置き換えられます）。
 
 このプロセスで同じタイプのすべてのエラーをまとめることにより、同じようなエラーの複数のエントリが配信ログの検証テーブルに含まれないようにすることができます。
 
@@ -237,20 +237,20 @@ Adobe Campaignは、このメッセージをフィルタリングして、変数
 バウンスメールは、次の検証ステータスを持つことができます。
 
 * **[!UICONTROL To qualify]** :バウンスメールが正しくなかった。 選定を配信品質チームに割り当てて、効率的なプラットフォーム配信品質を保証する必要があります。選定されていないバウンスメールは、E メール管理ルールのリストのエンリッチメントには使用されません。
-* **[!UICONTROL Keep]** :バウンスメールは、既存の電子メール管理ルールと比較してリストを強化するために **** 、配信品質のワークフローのために更新で使用される資格があります。
+* **[!UICONTROL Keep]** :バウンスメールは、既存の電子メール管理ルールと比較してリストを強化するために **** 、配信品質のワークフローとして「更新」で使用される資格があります。
 * **[!UICONTROL Ignore]** :バウンスメールは認定されましたが、配信品質のワークフローのために **更新で使用されません** 。 バウンスメールはクライアントインスタンスに送信されません。
 
 ![](assets/deliverability_qualif_status.png)
 
 ホストインストールまたはハイブリッドインストールの場合、拡張MTAにアップグレード済みの場合：
 
-* 表の直帰条件は、同期配 **[!UICONTROL Delivery log qualification]** 信失敗のエラーメッセージに使用されなくなりました。 拡張MTAは、バウンスのタイプと資格を決定し、その情報をCampaignに返します。
+* 表の直帰条件は、同期 **[!UICONTROL Delivery log qualification]** 配信障害のエラーメッセージには使用されません。 拡張MTAは、バウンスのタイプと条件を決定し、その情報をキャンペーンに返します。
 
 * 非同期バウンスは、inMailプロセスでもルールを通じて認定さ **[!UICONTROL Inbound email]** れます。 For more on this, see [Email management rules](#email-management-rules).
 
 * 拡張MTAを ******[!UICONTROL Inbound email]** Webhooks/EFSなしで使用する場合、ルールは、非同期バウンス電子メールと同じ電子メールアドレスを使用して、拡張MTAからの同期バウンス電子メールの処理にも使用されます。
 
-Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)を参照してください。
 
 ### E メール管理ルール {#email-management-rules}
 
@@ -282,9 +282,9 @@ Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参
 
    >[!NOTE]
    >
-   >ホストインストールまたはハイブリッドインストールの場合、拡張MTAにアップグレードした場合、 **[!UICONTROL Inbound email]** 同期配信エラーメッセージにルールは使用されなくなります。 For more on this, see [this section](#bounce-mail-qualification).
+   >ホストインストールまたはハイブリッドインストールの場合、拡張MTAにアップグレードした場合、ルールは同期 **[!UICONTROL Inbound email]** 配信障害のエラーメッセージには使用されなくなります。 詳しくは、[この節](#bounce-mail-qualification)を参照してください。
    >
-   >Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+   >Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)を参照してください。
 
 * **ドメイン管理**
 
@@ -299,14 +299,14 @@ Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参
    **SMTP パラメーター**&#x200B;は、ブロッキングルールに適用されるフィルターの役割を果たします。
 
    * 特定の識別標準や、**送信者 ID**、**DomainKeys**、**DKIM**、**S/MIME** などドメイン名をチェックするための暗号鍵を有効化するかどうかを選択できます。
-   * **SMTP リレー**：特定のドメインのリレーサーバーの IP アドレスおよびポートを設定できます。For more on this, see [this section](../../installation/using/configuring-campaign-server.md#smtp-relay).
-   メッセージが異なるドメイン名でOutlookに表示される場合は、 **[!UICONTROL on behalf of]** Microsoftの独自仕様の電子メール認証標準である **** Sender IDを使用して電子メールに署名しないようにしてください。 このオプションが **[!UICONTROL Sender ID]** 有効な場合は、対応するボックスのチェックを外し、Adobe Campaignサポートにお問い合わせください。 配信品質に影響はありません。
+   * **SMTP リレー**：特定のドメインのリレーサーバーの IP アドレスおよびポートを設定できます。詳しくは、[この節](../../installation/using/configuring-campaign-server.md#smtp-relay)を参照してください。
+   メッセージがOutlookで表示され、送信者のアドレス **[!UICONTROL on behalf of]** が表示される場合は、 **** Sender IDを使用して電子メールに署名しないようにしてください。これは、Microsoftが提供する古い独自の電子メール認証標準です。 このオプションが **[!UICONTROL Sender ID]** 有効な場合は、対応するボックスのチェックを外し、Adobe Campaignサポートにお問い合わせください。 配信品質に影響はありません。
 
    >[!NOTE]
    >
-   >ホストインストールまたはハイブリッドインストールの場合、拡張MTAにアップグレードした場合、 **[!UICONTROL Domain management]** ルールは使用されなくなります。 **DKIM(DomainKeys Identified Mail)電子メール認証の署名は** 、すべてのドメインを持つすべてのメッセージに対して拡張MTAによって行われます。 拡張MTAレベルで特に指定され **ていない限り、** Sender ID **、** DomainKeys **、** S/MIMEを使用して署名することはできません。
+   >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Domain management]** rules are no longer used. **DKIM(DomainKeys Identified Mail)電子メール認証の署名は** 、すべてのドメインを持つすべてのメッセージに対して拡張MTAによって行われます。 拡張MTAレベルで特に指定され **ていない限り、** Sender ID **、** DomainKeys **、** S/MIMEを使用して署名することはできません。
    >
-   >Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+   >Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)を参照してください。
 
 * **MX 管理**
 
@@ -319,9 +319,9 @@ Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参
 
    >[!NOTE]
    >
-   >ホスト型またはハイブリッド型のインストールの場合、拡張MTAにアップグレードした場合、配信スル **[!UICONTROL MX management]** ープットルールは使用されなくなります。 拡張MTAは独自のMXルールを使用し、独自の履歴電子メールの評判や、電子メールを送信するドメインからのリアルタイムのフィードバックに基づいて、ドメイン別にスループットをカスタマイズできます。
+   >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. Enhanced MTA は独自の MX ルールを使用します。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
    >
-   >Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+   >Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)を参照してください。
 
 >[!IMPORTANT]
 >

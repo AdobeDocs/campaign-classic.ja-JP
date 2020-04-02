@@ -5,7 +5,7 @@ solution: Campaign Classic
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 234fffd42829a37a705a9472fe23053c8b8ab03d
+source-git-commit: 53e250cb24d5386e6e9e5d85b52d5eb689b2914c
 
 ---
 
@@ -78,7 +78,7 @@ source-git-commit: 234fffd42829a37a705a9472fe23053c8b8ab03d
 |---|---|
 | [リリースノート](/help/rn/using/latest-release.md) | [エラーリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) | [Campaign Classicデータモデル](configuration/using/about-data-model.md) |
-| [互換性マトリックス](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) | [JSAPIドキュメント](configuration/using/about-web-services.md) |
+| [互換性マトリックス](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) | [JSAPIドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Campaign Classicの概要](platform/using/about-adobe-campaign-classic.md) | [実装ガイド](https://helpx.adobe.com/campaign/kb/acc-implementation.html) |
 | [Gold Standard アップグレード](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [トラッキングガイド](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
 | [廃止および削除された機能](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) | [セキュリティとプライバシーのチェックリスト](https://helpx.adobe.com/campaign/kb/acc-security.html) |

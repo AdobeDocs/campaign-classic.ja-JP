@@ -1,7 +1,7 @@
 ---
-title: リリース19.1
-seo-title: リリース19.1
-description: リリース19.1
+title: リリース 19.1
+seo-title: リリース 19.1
+description: リリース 19.1
 seo-description: null
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -15,90 +15,96 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fd7bc26fe12a26d8fb0dcccd2135b799e76b52bd
+source-git-commit: c1f5217fb45d2ffcb73ad4ec7d32ba6bd7ddbc15
 
 ---
 
 
-# Release 19.1{#release-19-1}
+# リリース 19.1{#release-19-1}
 
-[アップグレードの構築](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) )|コント [ロールパネルのリリース](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |ドキュメ [ントの更新](../../rn/using/documentation-updates.md) |以 [前のリリース](../../rn/using/release--19-1.md) |非推 [奨の機能](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[ビルドアップグレード](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリース](../../rn/using/release--19-1.md) | [廃止された機能](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
   <tr> 
-   <td><img src="assets/green3.png"/><strong>一般公開</strong></td>
-   <td><img src="assets/blue3.png"/><strong>候補をリリース</strong></td> 
-   <td><img src="assets/orange3.png"/><strong>使用できなくなりました</strong></td> 
-   <td><img src="assets/red3.png"/><strong>廃止</strong></td> 
+   <td><img src="assets/green3.png"/><strong>一般公開（GA）</strong></td>
+   <td><img src="assets/blue3.png"/><strong>リリース候補</strong></td> 
+   <td><img src="assets/orange3.png"/><strong>公開停止</strong></td> 
+   <td><img src="assets/red3.png"/><strong>廃止済み</strong></td> 
   </tr> 
    <tr> 
-   <td>最新の安定したビルドが利用可能です。 ビルドは実稼働環境で検証されました。<br> </td>
-   <td>ビルドはアドビによって検証されます。 製品の校正を待っています。<br> </td>
-   <td>新しいビルドにバグ修正が加えられました。 更新が必要です。<br> </td>
-   <td>既知の回帰が含まれます。 更新は必須です。<br> </td>
+   <td>最新の安定したビルド。ビルドは本番環境で検証済みです。<br></td>
+   <td>アドビが検証済みのビルド。本番環境での検証待ちです。<br></td>
+   <td>バグ修正を含む、新しいビルドがあります。更新が必要です。<br></td>
+   <td>新たな不具合を含むことがわかっています。必ず更新が必要です。<br></td>
   </tr> 
  </tbody> 
 </table>
 
 最後 **の安定ビルドは** 9032 (205c981c3)です。 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/orange_2.png) リリース19.1.6 — ビルド9035 {#release-19-1-6-build-9035}
+## ![](assets/orange_2.png) リリース 19.1.6 - ビルド 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
->このビルドは、オンプレミスでのインストールのみを対象としています。 ハイブリッド展開の場合、ホストされたインスタンスは9032ビルドを引き続き実行します。 マーケティングインスタンスは9035ビルドにアップグレードしないでください。9032と互換性がないからです。
+>このビルドは、オンプレミスインストールにのみ使用します。ハイブリッドデプロイメントの場合、ホストされたインスタンスは 9032 ビルドを実行し続けます。9032 と互換性がないので、マーケティングインスタンスを 9035 ビルドにアップグレードしないでください。
 
-_2019年10月3日_
-
-**強化点**
-
-* Salesforce用CRMコネクタを使用する際の問題を修正しました。 （NEO-17712）
-* トランザクションメッセージの送信時にパフォーマンスの問題が発生する可能性があるインデックスの問題を修正しました。
-* メッセージの送信時のパフォーマンスの問題を修正しました。 （NEO-17558）
-* 特定のメッセージがミッドソーシングサーバーで処理されない可能性がある問題を修正しました。 （NEO-12395）
-* SQL Data Managementアクティビティ（「SQL Data Management」という名前のrightが見つからない）を完全に使用できない問題を修正しました。
-
-## ![](assets/orange_2.png) リリース19.1.5 — ビルド9033{#release-19-1-5-build-9033}
-
-_2019年8月13日_
+_2019 年 10 月 3 日_
 
 **強化点**
 
-* Data Managementアクティビティのデータ抽出中にFDAデータベースではなく、デフォルトのデータベースで実行されたSQLステートメント「SELECT COUNT」の問題を修正しました。
-* お客様のインフラストラクチャ機能を改善するために、SFTPプロキシ宣言をサーバー設定ファイルで使用できるようになりました。
+* Salesforce 用 CRM コネクタを使用する際の問題を修正しました。（NEO-17712）
+* トランザクションメッセージの送信時にパフォーマンスの問題を引き起こす可能性があるインデックスの問題を修正しました。
+* メッセージを送信する際のパフォーマンスの問題を修正しました。（NEO-17558）
+* ミッドソーシングサーバーで特定のメッセージが処理されない可能性がある問題を修正しました。（NEO-12395）
+* SQL データ管理アクティビティを十分に利用できない（「SQL データ管理」ネームド権限が見つからない）問題を修正しました。
+
+## ![](assets/orange_2.png) リリース 19.1.5 - ビルド 9033{#release-19-1-5-build-9033}
+
+_2019 年 8 月 13 日_
+
+**強化点**
+
+* データ管理アクティビティのデータ抽出中に、SQL ステートメント「SELECT COUNT」が、FDA データベースではなく、デフォルトデータベースで実行される問題を修正しました。
+* 顧客のインフラストラクチャ機能を強化するために、サーバー設定ファイルで SFTP プロキシ宣言が使用できるようになりました。
 * テーブル名のないデータ読み込み（RDBMS）ワークフローアクティビティで「リンクされたテーブルを追加」すると、クライアントコンソールがクラッシュする問題を修正しました。（NEO-12213）
 * コマンドラインを使用した midEmetter パッケージのインストールで発生する問題を修正しました。
 * Microsoft Dynamics を使用した AC コネクタ内の OAuth 資格情報をサポートするための新しい認証オプションが追加されました。（NEO-11982）
-* UUID(Unique Universal Identifier)の問題を修正すると、Hive FDAでエンリッチメントアクティビティが失敗します。
+* UUID（Unique Universal Identifier）が原因で、Hive FDA を使用したエンリッチメントアクティビティが失敗する問題を修正しました。
 
-## リリース19.1.4 — ビルド9032{#release-19-1-4-build-9032}
+## リリース 19.1.4 - ビルド 9032{#release-19-1-4-build-9032}
 
-![](assets/green_2.png) 2020 **年3月5日**:次の修正を含む新しいビルド(9032-...205c981c3):
+![](assets/green_2.png) 2020 **年4月3日**:新しいビルド(9032-...e8b36257e)を参照してください。次の修正が含まれています。
+
+* 悪意のある使用（フィッシング詐欺）を防ぐために、電子メール内のリンクを追跡する署名メカニズムが導入されました。 これにより、ユーザのリダイレクトに使用されるURLを含む可能性のあるトラッキングパラメータの書き換えを防止できます。 このメカニズムは、現在、デフォルトで無効になっています。 アクティベートが必要な場合は、カスタマーケアにお問い合わせください。
+
+* 以前のビルドまたは署名メカニズムがオフの場合に生成された不正なURLのリダイレクトを防ぐため、補足的なセキュリティ保護が追加されました。 ご利用の際は、カスタマーケアにお問い合わせください。
+
+![](assets/orange_2.png) 2020 **年3月5日**:次の修正を含む新しいビルド(9032-...205c981c3):
 
 * FTP over SSLを使用する外部アカウントの問題を修正しました。 （NEO-20498）
 
 ![](assets/orange_2.png) 2019 **年12月17日**:次の修正を含む新しいビルド(9032-..9d34fb17e):
 
-* 次の通信チャネルでの追跡の問題を修正しました。モバイル(SMS、MMS)、プッシュ(iOS、Android)およびソーシャルネットワーク(Facebook、Twitter)。
+* モバイル（SMS、MMS）、プッシュ（iOS、Android）およびソーシャルネットワーク（Facebook、Twitter）の各通信チャネルでのトラッキングの問題を修正しました。
 （NEO-19595）
 
 ![](assets/orange_2.png) 2019 **年12月11日**:新しいビルド(9032-...e28b428b7)を参照してください。次の修正が含まれています。
 
-* MSSQLデータベースでメッセージを送信する際のパフォーマンスの問題を修正しました。 （NEO-17558）
+* MSSQL データベースでメッセージを送信する際のパフォーマンスの問題を修正しました。（NEO-17558）
 
 ![](assets/orange_2.png) 2019 **年11月20日**:新しいビルド(9032-...3468c7bb5)。次の修正が含まれています。
 
-* IMS認証を使用したログインの問題を修正しました。 （NEO-17312）
-* 複数の配信に関する累積レポートを表示する際の問題を修正しました。 （NEO-18165）
-* Webサーバーがブロックまたはクラッシュする可能性がある問題を修正しました。
+* IMS 認証を使用したログインの問題を修正しました。（NEO-17312）
+* 複数の配信に関する累積レポートを表示する際の問題を修正しました。（NEO-18165）
+* Web サーバーがブロックまたはクラッシュする可能性がある問題を修正しました。
 
 ![](assets/orange_2.png) 2019 **年9月19日**:新しいビルド(9032-...cee805c93)に問題が修正されました。
 
-* Salesforce用CRMコネクタを使用する際の問題を修正しました。 （NEO-17712）
-* トランザクションメッセージの送信時にパフォーマンスの問題が発生する可能性があるインデックスの問題を修正しました。
+* Salesforce 用 CRM コネクタを使用する際の問題を修正しました。（NEO-17712）
+* トランザクションメッセージの送信時にパフォーマンスの問題を引き起こす可能性があるインデックスの問題を修正しました。
 
-![](assets/orange_2.png) 2019 **年8月13日**:最初の19.1.4ビルドには、次の修正が含まれています。
+![](assets/orange_2.png)**2019 年 8 月 13 日**：最初の 19.1.4 ビルド。以下の修正が含まれています。
 
 * スケジューラーアクティビティで、ウィザード設定時に望ましくないエラーメッセージが生成される問題を修正しました。NEO-11662 から、更新を元に戻します。（NEO-17097）
 * テストアクティビティが 2 回実行された際にワークフローが停止する、NEO-12727 が原因の回帰を修正しました。（NEO-16835）
@@ -106,25 +112,25 @@ _2019年8月13日_
 * DKIM キーが E メールに埋め込まれなくなった結果、配信品質が低下していた問題を修正しました。（NEO-16804）
 * スケジューリングワークフローの様々な問題を修正しました。ワークフローは、スケジューラー設定を考慮することなく、1 日 1 回実行されるようにスケジュールされていました。（NEO-16619、NEO-16426）
 
-## ![](assets/orange_2.png) リリース19.1.2 — ビルド9029{#release-19-1-2-build-9029}
+## ![](assets/orange_2.png) リリース 19.1.2 - ビルド 9029{#release-19-1-2-build-9029}
 
-_2019年6月21日_
+_2019 年 6 月 21 日_
 
 **セキュリティの機能強化**
 
-* セキュリティを最適化するため、Javaライブラリ(Netty)が最新バージョン(4.1.34)に更新されました。 （NEO-12788）
+* セキュリティを最適化するために、Java ライブラリ（Netty）が最新バージョン（4.1.34）に更新されました。（NEO-12788）
 
 **強化点**
 
-* 特定の設定で電子メールが送信されなかったドメイン列管理に関連する回帰を修正しました。
-* パフォーマンスを向上させるために、「SELECT FOR UPDATE」リクエストを避けるために、_operation=&quot;none&quot;属性がrtEvent SOAP呼び出しに追加されました。
-* テストアクティビティの後にアウトバウンド遷移が発生するワークフロー表示の問題を修正しました。 （NEO-12727）
+* sDomain 列の管理に関連する、特定の設定で E メールが送信されない不具合を修正しました。
+* パフォーマンスを向上させるために、_operation=&quot;none&quot; 属性が rtEvent SOAP 呼び出しに追加されました。これにより、&quot;SELECT FOR UPDATE&quot; リクエストを回避します。
+* テストアクティビティ後のアウトバウンドトランジションでのワークフローの表示の問題を修正しました。（NEO-12727）
 * ワークフローをインポートする際に Microsoft Dynamics で作成されたダミーレコードを削除できるようになりました。
 * 内部アカウントを使用する際にセキュリティゾーンパッケージを実行するための権限が改善されました。
 
-## ![](assets/orange_2.png) リリース19.1 — ビルド9026{#release-19-1-build-9026}
+## ![](assets/orange_2.png) リリース 19.1 - ビルド 9026{#release-19-1-build-9026}
 
-_2019年5月30日_
+_2019 年 5 月 30 日_
 
 **新機能?**
 
@@ -138,15 +144,15 @@ _2019年5月30日_
  <tbody> 
   <tr> 
    <td> コントロールパネル<br /> </td> 
-   <td> <p>管理ユーザーとしての作業効率を高めるため、ストレージを監視、IP アドレスをホワイトリストに追加、および各インスタンスに SSH キーをインストールすることで、SFTP サーバーの設定を管理します。コントロールパネルは、現時点で AWS 上でホストされているユーザーのみが利用できます（<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud から今すぐログイン</a>）。</p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">ハウツービデオ</a>を参照してください。 </p><p>注意：コントロールパネルにアクセスするために、最新のCampaignビルドにアップグレードする必要はありません。</p> </td> 
+   <td> <p>管理ユーザーとしての作業効率を高めるため、ストレージを監視、IP アドレスをホワイトリストに追加、および各インスタンスに SSH キーをインストールすることで、SFTP サーバーの設定を管理します。コントロールパネルは、現時点で AWS 上でホストされているユーザーのみが利用できます（<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud から今すぐログイン</a>）。</p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">ハウツービデオ</a>を参照してください。 </p><p>注意：最新の Campaign ビルドへのアップグレードには、コントロールパネルへのアクセスは不要です。</p> </td> 
   </tr> 
     <tr> 
-   <td> Audit trail<br /> </td> 
+   <td> 監査記録<br /> </td> 
    <td> <p>管理者は、Adobe Campaign Classic インスタンス内で加えられた変更を監視および管理することで、生産性を高めます。監査証跡は、ソーススキーマ、ワークフローおよびオプションでおこなわれたアクションを記録します。要素が作成、変更または削除されたかどうかをすばやく確認できます。</p><p>詳しくは、<a href="../../production/using/audit-trail.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/monitoring/audit-trail.html">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> Guardrail、堅牢性、および拡張性<br /> </td> 
-   <td> Campaign Classic に対して一連の機能強化が追加されました。Guardrail、堅牢性、および拡張性の機能拡張は以下のとおりです。<br /> </td> 
+   <td> Campaign Classic に対して一連の機能強化が追加されました。以下に、Guardrail、堅牢性および拡張性の強化に関するリストを示します。<br /> </td> 
   </tr> 
   <tr> 
    <td> 互換性マトリックスを更新<br /> </td> 
@@ -164,7 +170,7 @@ _2019年5月30日_
 
 **セキュリティの機能強化**
 
-* セキュリティ上の理由から、ワークフローアクティビティでオプションを使用する場合に任意のコ **[!UICONTROL Pre-process the file]** マンドを挿入できな **[!UICONTROL Data loading (file)]** くなりました。 A drop-down list is now available allowing you to select from 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg). XtkSecurity_Disable_Preproc セキュリティフラグが追加されました。新規ユーザーの場合、このオプションは 0 に設定されます。既存のユーザーの場合、以前の動作を保持するため、アップグレード後にこのオプションは 1 に設定されます。この[節](../../workflow/using/data-loading--file-.md)を参照してください。
+* セキュリティ上の理由から、ワークフローアクティビティでこのオプションを使用する場合に、任意のコマンドを **[!UICONTROL Pre-process the file]** 挿入できなくな **[!UICONTROL Data loading (file)]** りました。 A drop-down list is now available allowing you to select from 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg). XtkSecurity_Disable_Preproc セキュリティフラグが追加されました。新規ユーザーの場合、このオプションは 0 に設定されます。既存のユーザーの場合、以前の動作を保持するため、アップグレード後にこのオプションは 1 に設定されます。この[節](../../workflow/using/data-loading--file-.md)を参照してください。
 * タイムゾーンが設定されていない FDA 外部アカウントの接続をテストする際、パスワード表示に発生していた問題を修正しました。
 * PDFBox ライブラリが削除されました。
 * Tomcat がバージョン 7.0.93 に更新されました。
@@ -176,26 +182,26 @@ _2019年5月30日_
 * ユーザー名が有効な場合と無効な場合のログイン失敗に対し、同じ汎用エラーが表示されるようになりました。
 * アップロードされたファイルの命名を強化しました。
 * setEnv 関数および getEnv 関数の使用を防ぐため、新しい XtkSecurity_Disable_GetSetEnv オプションを追加しました。
-* 機密情報がアプリケーションスタックトレースで非表示になりました。
+* アプリケーションスタックトレースで、機密情報が非表示になりました。
 
-**ガードレール、堅牢性、拡張性の改善**
+**Guardrail、堅牢性および拡張性の強化**
 
 * ライフスパン - XtkNewId シーケンス使用の最適化：最も容量が大きいテーブルを xtkNewId シーケンスから専用シーケンスへ移動させました。[詳細を表示](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA over HTTP v2：FDA over HTTP プロトコルは、ハイブリッドデプロイメント（特に broadLog の取得および配信準備）で広く使用されています。データの取得時やプッシュ時のネットワークの問題と考えられるエラーを防ぐよう、堅牢性を強化しました。これを実現するには、両側のビルドを最新にする必要があります。そうでない場合、古いプロトコルが引き続き使用されます。
-* トラッキングワークフロー：トラッキングワークフローの堅牢性を強化しました。トラッキングログの挿入／更新および URL トラッキングのカスタマイズに関する複数の問題を修正しました。さらに、トラッキングワークフローで、エラーを引き起こす可能性のあるトラッキングログの問題を検出し、ワークフローを停止するようになりました。 これらの問題は、現在は破棄され、処理されません。
+* トラッキングワークフロー：トラッキングワークフローの堅牢性を強化しました。トラッキングログの挿入／更新および URL トラッキングのカスタマイズに関する複数の問題を修正しました。さらに、トラッキングワークフローで、エラーを引き起こし、ワークフローを停止する可能性のあるトラッキングログの問題を検出するようになりました。これらの問題は、現在は破棄され、処理されなくなりました。
 * クリーンアップワークフロー：潜在的なエラーと停止を防ぐため、クリーンアップワークフローを向上させました。これにより、データベースのサイズとパフォーマンスを最適化しました。
 * トランザクションメッセージの埋め込み画像：クラッシュの可能性や画像が欠落するのを防ぐため、トランザクションメッセージの埋め込み画像に対する完全なサポートを追加しました。
 * データベースサイズ - XtkJobLog：このテーブルにパージメカニズムが追加されました。これにより、データベースサイズに良い影響があります。
 * BCC アーカイブ：BCC アーカイブ用のデフォルトのパラメーターを変更し、アーカイブ速度を上げました。[詳細を表示](../../installation/using/email-archiving.md#parameters)
-* データベース構造の更新：データベース構造の更新ウィザードで生成されたSQL要求が改善され、実行時間が短縮されました。
+* データベース構造の更新：データベース構造更新ウィザードによって生成された SQL リクエストを改善し、すばやく実行できるようにしました。
 * オペレーターアクションの Guardrail：プラットフォームの整合性に影響する可能性があるアクションをオペレーターが実行するのを防ぐため、複数の guardrail が実装されました。インターフェイスからビルトインスキーマを削除できなくなりました。また、管理者以外のユーザーはワークフローソース XML を編集できなくなりました。
-* Two new options have been made available: **XtkSecurity_Restrict_EditXML** (allows you to disable the edition of deliveries’ XML code) and **NmsOperation_OperationMgtDebug** (allows you to monitor the operationMgt technical workflow execution). [詳細を表示](../../installation/using/configuring-campaign-options.md)
+* 新しいオプションが使用可能：**XtkSecurity_Restrict_EditXML**（配信の XML コードのエディションを無効化できる）および **NmsOperation_OperationMgtDebug**（operationMgt テクニカルワークフロー実行を監視できる）。[詳細を表示](../../installation/using/configuring-campaign-options.md)
 
 **その他の変更**
 
 * プッシュ通知：iOS のプッシュ用スレッド ID オプションをサポートするようになりました。
 * ポストアップグレード時の問題の原因となっていた長い名前のインデックスの管理を改善しました。
-* 現在は、非電子メール配信の分析中に、パブリケーションモードが展開ウィザードでに設定されてい **[!UICONTROL None]** ると、エラーが記録され、分析が停止します。&quot;パブリケーションモードが&#39;none&#39;に設定されています：画像を埋め込めません。 フィーチャーフォンでは画像を表示できません。」（NEO-12208）
+* Now, during the analysis of a decomail delivery, if the publication mode is set to **[!UICONTROL None]** in the deployment wizard, an error is logged and the analysis is stopped: &quot;Publication mode is set to &#39;none&#39;: Cannot embed image. 画像はフィーチャーフォンに表示されません。」（NEO-12208）
 * トランザクションメッセージでの broadlog 管理を改善しました。実行インスタンスからコントロールインスタンスへ broadlogs を同期すると、@lastModified フィールドがシステムの現在の日付に更新されます。コントロールインスタンスに MC_Update_BlLastModified オプションを追加しました。True の場合、現在の日付はコントロールインスタンス（デフォルトの動作）で使用されます。False の場合、実行インスタンス broadlog の @lastModified 日付を使用します。（NEO-12579）
 * クーポン一時テーブルにインデックスを追加し、配信の送信を最適化しました。（NEO-12437）
 * Analytics 統合で、% 文字を使用した AAM セグメントデータを取得できるようになりました。（NEO-12025）

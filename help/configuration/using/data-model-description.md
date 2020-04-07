@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classicデータモデルの説明
-description: このドキュメントでは、Adobe Campaign Classicデータモデルについて説明します。
+title: Adobe Campaignクラシックデータモデルの説明
+description: このドキュメントでは、Adobe Campaignクラシックデータモデルを説明します。
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -13,14 +13,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 707e16e9e493e175c70af606bf4568a9127cedb2
+source-git-commit: 4406e11e33e14136ea43fc3cc5a92e0d1c466100
 
 ---
 
 
 # キャンペーンデータモデルの説明{#data-model-description}
 
-Adobe Campaignには、事前定義されたデータモデルが付属しています。 この節では、Adobe Campaignデータモデルの組み込みの表とそのインタラクションについて詳しく説明します。
+Adobe Campaignには、事前定義されたデータモデルが付属しています。 この節では、Adobe Campaignデータモデルの組み込みテーブルとその操作について詳しく説明します。
 
 各表の説明にアクセスするには、に進み、リソ **[!UICONTROL Admin > Configuration > Data schemas]**&#x200B;ースをリストから選択し、タブをクリック **[!UICONTROL Documentation]** します。
 
@@ -34,13 +34,13 @@ Adobe Campaignには、事前定義されたデータモデルが付属してい
 
 Adobe Campaignは、相互にリンクされたテーブルを含むリレーショナルデータベースに依存しています。
 
-次の図に、Adobe Campaignデータモデルのメインビジネステーブルと各メインフィールドの結合を示します。
+次の図に、Adobe Campaignデータモデルのメインビジネステーブルと各データのメインフィールドとの結合を示します。
 
 <!--![](assets/data-model_diagram.png)-->
 
 ![](assets/data-model_simplified-diagram.png)
 
-事前定義のAdobe Campaignデータモデルには、次に示す主な表が含まれています。
+事前定義のAdobe Campaignデータモデルには、次に示す主な表が含まれます。
 
 ### NmsRecipient {#NmsRecipient}
 
@@ -73,6 +73,8 @@ NmsRcpGrpRel関係テーブルには、iRecipientIdとiGroupIdのリンクテー
 ### NmsService {#NmsService}
 
 この表は、 **nms:service** スキーマと一致
+
+Adobe Campaignでは、トピック（トピック）への購読を作成および管理できます。 NmsServiceテーブルには、受信者が購読（例えば、ニュースレター）をオファーする情報サービス（トピック）の定義が格納されます。
 
 サービスとは、より多くの情報が流通し、フォームを介して購読や購読解除を簡単に管理できる点を除き、グループ(静的な受信者グループ)に似たエンティティです。
 
@@ -139,7 +141,7 @@ sInternalNameシナリオまたはシナリオの内部名を表す一意のイ�
 * **NmsTypologyRule**:この表は、 **nms:typologyRuleスキーマと一致します** 。 タイポロジに応じて配信に適用されるルールが含まれます。
 * **NmsTypology**:この表は、 **nms:typologyのスキーマと一致します** 。 タイポロジに一致するルールに適用される配信のセットが含まれます。
 * **NmsTypologyRuleRel**:この表は、 **nms:typologyRuleRelスキーマと一致します** 。 タイポロジとルールの関係が含まれます。
-* **NmsVolumeLine**:このテーブルは、 **nms:volumeLineスキーマと一致します** 。 容量ルールの可用性行のセットが含まれます。
+* **NmsVolumeLine**:この表は、 **nms:volumeLineスキーマと一致します** 。 容量ルールの可用性行のセットが含まれます。
 * **NmsVolumeConsumed**:この表は、 **nms:volumeConsumedスキーマと一致します** 。 容量ルールのすべての消費ラインが含まれます。
 
 ## 応答管理 {#response-management}
@@ -254,7 +256,7 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 この表はモバイルアプリチャネルにリンクされ **ているので**、アプリを介してiOSやAndroid端末にパーソナライズされた通知を送信できます。 詳しくは、モバイルアプリの [チャネル](../../delivery/using/about-mobile-app-channel.md)。
 
-* **NmsMobileApp**:この表は、 **** nms:mobileAppのスキーマと一致します。 Adobe Campaignで定義されたモバイルアプリが含まれます。
+* **NmsMobileApp**:この表は、 **** nms:mobileAppのスキーマと一致します。 アプリケーションで定義されたモバイルアプリケーションが含まれているAdobe Campaignです。
 * **NmsAppSubscription**:この表は、 **nms:appSubscriptionスキーマと一致します** 。 1つ以上のアプリケーションに関するサブスクライバー情報が含まれます。
 * **NmsAppSubscriptionRcp**:この表は、 **nms:appSubscriptionRcpスキーマと一致します** 。 このテーブルを使用すると、訪問者を購読しているアプリを受信者表にリンクできます。
 * **NmsExcludeLogAppSubRcp**:この表は、 **nms:excludeLogAppSubRcpスキーマと一致します** 。

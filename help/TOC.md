@@ -1,28 +1,28 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Classic Help
+user-guide-title: Adobe Campaign Classic ヘルプ
 index: y
 product: adobe campaign
-sub-product: adobe campaign classic
+sub-product: adobeキャンペーンクラシック
 translation-type: tm+mt
-source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
+source-git-commit: ce5513c2af9b522919c038e25557634b11e8e3cb
 
 ---
 
 
-# Adobe Campaign Classic Help {#using}
+# Adobe Campaign Classic ヘルプ {#using}
 
 + [製品ドキュメント](campaign-classic-home.md)
-+ [最新のアップデート](rn/using/documentation-updates.md)
++ [最新の更新](rn/using/documentation-updates.md)
 + リリースノート{#release-notes}
    + [最新リリース](rn/using/latest-release.md)
    + 以前のリリース {#previous-releases}
       + [リリース19.2](rn/using/release--19-2.md)
-      + [リリース19.1](rn/using/release--19-1.md)
-      + [リリース18.10](rn/using/release--18-10.md)
-      + [リリース18.6](rn/using/release--18-6.md)
-      + [リリース18.4](rn/using/release--18-4.md)
-+ Getting Started {#getting-started}
+      + [リリース 19.1](rn/using/release--19-1.md)
+      + [リリース 18.10](rn/using/release--18-10.md)
+      + [リリース 18.6](rn/using/release--18-6.md)
+      + [リリース 18.4](rn/using/release--18-4.md)
++ はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic について](platform/using/about-adobe-campaign-classic.md)
       + [プライバシーと推奨事項](platform/using/privacy-and-recommendations.md)
@@ -66,7 +66,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [列挙の管理](platform/using/managing-enumerations.md)
       + [外部アカウント](platform/using/external-accounts.md)
    + 外部データベース{#accessing-external-database}
-      + [FDAについて](platform/using/about-fda.md)
+      + [FDA](platform/using/about-fda.md)
       + [データベースタイプ別の特定の設定](platform/using/specific-configuration-database.md)
       + [リモートデータベースのアクセス権](platform/using/remote-database-access-rights.md)
       + [データベースへの接続](platform/using/connecting-to-database.md)
@@ -78,7 +78,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [コネクタについて](platform/using/about-connectors.md)
       + [CRM コネクタ](platform/using/crm-connectors.md)
       + [Adobe Analytics Data コネクタ](platform/using/adobe-analytics-data-connector.md)
-+ Sending Messages {#sending-messages}
++ メッセージの送信 {#sending-messages}
    + 配信とチャネルについて {#about-deliveries-and-channels}
       + [通信チャネル](delivery/using/communication-channels.md)
       + [配信情報へのアクセス](delivery/using/accessing-deliveries-information.md)
@@ -132,7 +132,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [使用例：フィールド置換の設定](delivery/using/use-case--configuring-the-field-substitution.md)
    + 購読と紹介 {#subscriptions-and-referrals}
       + [サービスと購読について](delivery/using/about-services-and-subscriptions.md)
-      + [サブスクリプションの管理](delivery/using/managing-subscriptions.md)
+      + [購読の管理](delivery/using/managing-subscriptions.md)
       + [バイラルおよびソーシャルマーケティング](delivery/using/viral-and-social-marketing.md)
    + 配信の監視 {#monitoring-deliveries}
       + [配信の監視](delivery/using/monitoring-a-delivery.md)
@@ -146,11 +146,11 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [トラッキングのテスト](delivery/using/testing-tracking.md)
    + 配信品質の管理 {#deliverability-management}
       + [配信品質について](delivery/using/about-deliverability.md)
-      + [確認する主なポイント](delivery/using/deliverability-key-points.md)
+      + [重要なチェックポイント](delivery/using/deliverability-key-points.md)
       + [新しいプラットフォームの開始](delivery/using/starting-new-platform.md)
-      + [メッセージの内容の制御](delivery/using/control-message-content.md)
+      + [メッセージコンテンツの制御](delivery/using/control-message-content.md)
       + [レピュテーションの向上](delivery/using/improve-reputation.md)
-      + [再関与のベストプラクティス](delivery/using/re-engagement-best-practices.md)
+      + [再エンゲージメントのベストプラクティス](delivery/using/re-engagement-best-practices.md)
       + [技術的な推奨事項](delivery/using/technical-recommendations.md)
       + [技術的監視](delivery/using/technical-monitoring.md)
       + [受信ボックスレンダリング](delivery/using/inbox-rendering.md)
@@ -167,14 +167,14 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [コンテンツテンプレートの使用](delivery/using/using-a-content-template.md)
       + [コンテンツのエンリッチメント](delivery/using/enriching-content.md)
       + [ワークフローを使用した自動化](delivery/using/automating-via-workflows.md)
-+ キャンペーンの統合 {#orchestrating-campaigns}
++ キャンペーンの調整 {#orchestrating-campaigns}
    + マーケティングキャンペーンについて {#about-marketing-campaigns}
       + [マーケティングキャンペーンの設計](campaign/using/designing-marketing-campaigns.md)
       + [マーケティングキャンペーンへのアクセス](campaign/using/accessing-marketing-campaigns.md)
    + キャンペーンの調整 {#orchestrate-campaigns}
       + [マーケティングキャンペーンの設定](campaign/using/setting-up-marketing-campaigns.md)
       + [マーケティングキャンペーンテンプレート](campaign/using/marketing-campaign-templates.md)
-      + [マーケティングキャンペーンの配信](campaign/using/marketing-campaign-deliveries.md)
+      + [マーケティングキャンペーン配信](campaign/using/marketing-campaign-deliveries.md)
       + [マーケティングキャンペーンの承認](campaign/using/marketing-campaign-approval.md)
       + [マーケティングキャンペーンの監視](campaign/using/marketing-campaign-monitoring.md)
       + [プロバイダー、在庫、予算](campaign/using/providers--stocks-and-budgets.md)
@@ -244,7 +244,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [キューブを使用したデータ調査](reporting/using/using-cubes-to-explore-data.md)
       + [概念と方法](reporting/using/concepts-and-methodology.md)
       + [ユースケース：オンライン調査への回答に関するレポートの表示](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
-+ Webコンテンツのデザイン {#designing-content}
++ Web コンテンツの設計 {#designing-content}
    + Web アプリケーション {#web-applications}
       + [Web アプリケーションについて](web/using/about-web-applications.md)
       + [新しい Web アプリケーションの作成](web/using/creating-a-new-web-application.md)
@@ -282,7 +282,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [収集したデータのパブリッシュ、トラッキングおよび使用](web/using/publish--track-and-use-collected-data.md)
       + [調査の設定](web/using/configuring-surveys.md)
       + [ユースケース：友達の紹介フォームの作成](web/using/use-case--creating-a-refer-a-friend-form.md)
-+ Integrating with Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
++ Adobe Experience Cloud との統合 {#integrating-with-adobe-experience-cloud}
    + [Campaign 統合について](integrations/using/about-campaign-integrations.md)
    + オーディエンスの共有 {#audience-sharing}
       + [オーディエンスを Adobe Experience Cloud と共有する](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
@@ -342,7 +342,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [重複排除](workflow/using/deduplication.md)
       + [ディメンションを変更](workflow/using/change-dimension.md)
       + [リスト更新](workflow/using/list-update.md)
-      + [サブスクリプションサービス](workflow/using/subscription-services.md)
+      + [購読サービス](workflow/using/subscription-services.md)
       + [データ更新](workflow/using/update-data.md)
       + [CRM コネクタ](workflow/using/crm-connector.md)
    + フロー制御アクティビティ {#flow-control-activities}
@@ -377,7 +377,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [SQL データ管理](workflow/using/sql-data-management.md)
       + [nlserver モジュール](workflow/using/nlserver-module.md)
       + [集計を更新](workflow/using/update-aggregate.md)
-   + イベント関連のアクティビティ {#event-activities}
+   + イベントアクティビティ {#event-activities}
       + [イベントアクティビティについて](workflow/using/about-event-activities.md)
       + [ファイルコレクター](workflow/using/file-collector.md)
       + [ファイル転送](workflow/using/file-transfer.md)
@@ -385,28 +385,31 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [インバウンド E メール](workflow/using/inbound-emails.md)
       + [インバウンド SMS](workflow/using/inbound-sms.md)
    + 使用例 {#use-cases}
-      + [ローカルの承認アクティビティの使用](workflow/using/using-the-local-approval-activity.md)
-      + [リストへのレポートの送信](workflow/using/sending-a-report-to-a-list.md)
-      + [ワークフローの監視](workflow/using/supervising-workflows.md)
-      + [データ更新の調整](workflow/using/coordinating-data-updates.md)
-      + [サマリーリストの作成](workflow/using/creating-a-summary-list.md)
-      + [データのエンリッチメント](workflow/using/enriching-data.md)
-      + [A/B テスト](workflow/using/a-b-testing.md)
-      + [集計の使用](workflow/using/using-aggregates.md)
-      + [誕生日の E メールの送信](workflow/using/sending-a-birthday-email.md)
-      + [配信コンテンツの読み込み](workflow/using/loading-delivery-content.md)
-      + [クロスチャネル配信ワークフロー](workflow/using/cross-channel-delivery-workflow.md)
+      + 配信 {#deliveries}
+         + [ローカルの承認アクティビティの使用](workflow/using/using-the-local-approval-activity.md)
+         + [A/B テスト](workflow/using/a-b-testing.md)
+         + [誕生日の E メールの送信](workflow/using/sending-a-birthday-email.md)
+         + [配信コンテンツの読み込み](workflow/using/loading-delivery-content.md)
+         + [クロスチャネル配信ワークフロー](workflow/using/cross-channel-delivery-workflow.md)
+         + [カスタム日付フィールドを使用した E メールエンリッチメント](workflow/using/email-enrichment-with-custom-date-fields.md)
+      + 監視 {#monitoring}
+         + [リストへのレポートの送信](workflow/using/sending-a-report-to-a-list.md)
+         + [ワークフローの監視](workflow/using/supervising-workflows.md)
+         + [パーソナライズされたアラートのオペレーターへの送信](workflow/using/sending-personalized-alerts-to-operators.md)
+      + データ管理 {#data-management}
+         + [データ更新の調整](workflow/using/coordinating-data-updates.md)
+         + [サマリーリストの作成](workflow/using/creating-a-summary-list.md)
+         + [データのエンリッチメント](workflow/using/enriching-data.md)
+         + [集計の使用](workflow/using/using-aggregates.md)
       + クエリのデザイン {#designing-queries}
          + [受信者テーブルに対するクエリ](workflow/using/querying-recipient-table.md)
          + [配信情報に対するクエリ](workflow/using/querying-delivery-information.md)
          + [集計計算の実行](workflow/using/performing-aggregate-computing.md)
          + [グループ化管理を使用したクエリ](workflow/using/querying-using-grouping-management.md)
-         + [多対多の関係を使用したクエリー](workflow/using/querying-using-many-to-many-relationship.md)
-         + [列挙型の計算済みフィールドの追加](workflow/using/adding-enumeration-type-calculated-field.md)
+         + [多対多の関係を使用したクエリ](workflow/using/querying-using-many-to-many-relationship.md)
+         + [列挙タイプ計算フィールドの追加](workflow/using/adding-enumeration-type-calculated-field.md)
          + [フィルターの作成](workflow/using/creating-a-filter.md)
          + [重複した受信者のフィルタリング](workflow/using/filtering-duplicated-recipients.md)
-      + [パーソナライズされたアラートのオペレーターへの送信](workflow/using/sending-personalized-alerts-to-operators.md)
-      + [カスタム日付フィールドを使用した E メールエンリッチメント](workflow/using/email-enrichment-with-custom-date-fields.md)
    + ワークフローの監視 {#monitoring-workflows}
       + [監視ワークフローの実行](workflow/using/monitoring-workflow-execution.md)
       + [テクニカルワークフローの監視](workflow/using/monitoring-technical-workflows.md)
@@ -491,7 +494,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [プレゼンテーションルール](interaction/using/presentation-rules.md)
       + [インバウンドチャネル](interaction/using/offers-on-an-inbound-channel.md)
       + [アウトバウンドチャネル](interaction/using/offers-on-an-outbound-channel.md)
-+ Transactional Messaging {#transactional-messaging}
++ トランザクションメッセージ {#transactional-messaging}
    + はじめに {#introduction}
       + [トランザクションメッセージについて](message-center/using/about-transactional-messaging.md)
       + [トランザクションメッセージのアーキテクチャ](message-center/using/transactional-messaging-architecture.md)
@@ -509,7 +512,7 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [メッセージテンプレートの作成](message-center/using/creating-the-message-template.md)
       + [メッセージコンテンツの作成](message-center/using/creating-message-content.md)
       + [トランザクションメッセージ内のシードアドレスの管理](message-center/using/managing-seed-addresses-in-transactional-messages.md)
-      + [データのパーソナライゼーション](message-center/using/personalization-data.md)
+      + [パーソナライゼーションデータ](message-center/using/personalization-data.md)
       + [メッセージのプレビュー](message-center/using/transactional-message-preview.md)
       + [配達確認の送信](message-center/using/sending-a-proof.md)
       + [テンプレートのパブリッシュ](message-center/using/template-publication.md)
@@ -527,25 +530,25 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [目的](message-center/using/purpose.md)
       + [重要な注意事項](message-center/using/important-notes.md)
       + [実装](message-center/using/implementation.md)
-+ Socialメディアとの連携 {#integrating-with-social-media}
-   + [Social Marketingについて](social/using/about-social-marketing.md)
++ ソーシャルメディアとの統合 {#integrating-with-social-media}
+   + [ソーシャルマーケティングについて](social/using/about-social-marketing.md)
    + 設定 {#configuration}
       + [ワークフローの開始](social/using/starting-workflows.md)
-      + [Facebookのウォールでの投稿](social/using/publishing-on-facebook-walls.md)
-      + [Facebookアプリの作成](social/using/creating-a-facebook-application.md)
-      + [Twitterでの投稿の設定](social/using/configuring-publishing-on-twitter.md)
-   + Facebook/Twitterでの投稿 {#publishing-on-facebook-twitter}
+      + [Facebook のウォールへのパブリッシュ](social/using/publishing-on-facebook-walls.md)
+      + [Facebook アプリケーションの作成](social/using/creating-a-facebook-application.md)
+      + [Twitter へのパブリッシュの設定](social/using/configuring-publishing-on-twitter.md)
+   + Facebook／Twitter へのパブリッシュ {#publishing-on-facebook-twitter}
       + [概要](social/using/overview.md)
-      + [Facebookでの投稿](social/using/publishing-on-facebook.md)
-      + [Twitterでの投稿](social/using/publishing-on-twitter.md)
-   + 附属書 {#annexes}
-      + [Facebookアプリの例](social/using/examples-of-facebook-apps.md)
+      + [Facebook へのパブリッシュ](social/using/publishing-on-facebook.md)
+      + [Twitter へのパブリッシュ](social/using/publishing-on-twitter.md)
+   + 付録 {#annexes}
+      + [Facebook アプリの例](social/using/examples-of-facebook-apps.md)
       + [トラッキング](social/using/tracking.md)
-+ Campaign Classicのインストール {#installing-campaign-classic}
-   + アーキテクチャとホスティングモデル {#architecture-and-hosting-models}
-      + [読む前に](installation/using/before-reading.md)
++ Campaign Classic のインストール {#installing-campaign-classic}
+   + アーキテクチャとモデルのホスティング {#architecture-and-hosting-models}
+      + [読み進める前に](installation/using/before-reading.md)
       + [一般的なアーキテクチャ](installation/using/general-architecture.md)
-      + [モデルのホスト](installation/using/hosting-models.md)
+      + [モデルのホスティング](installation/using/hosting-models.md)
    + ハイブリッドモデルとホストモデル {#hybrid-and-hosted-models}
       + [ハイブリッドモデルとホストモデルについて](installation/using/about-hybrid-and-hosted-models.md)
       + [ハイブリッドモデル](installation/using/hybrid-model.md)
@@ -554,53 +557,53 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [開始する前に](installation/using/before-starting.md)
       + [データベース](installation/using/database.md)
       + [アプリケーションサーバー](installation/using/application-server.md)
-      + [メッセージングサーバ](installation/using/messaging-server.md)
-      + [ネットワークの設定](installation/using/network-configuration.md)
-   + 展開の種類 {#deployment-types-}
-      + [展開の種類について](installation/using/about-deployment-types.md)
-      + [スタンドアロンの展開](installation/using/standalone-deployment.md)
-      + [標準導入](installation/using/standard-deployment.md)
-      + [エンタープライズでの導入](installation/using/enterprise-deployment.md)
-      + [ミッドソーシング導入](installation/using/mid-sourcing-deployment.md)
-      + [パワーブースタとパワークラスタ](installation/using/power-booster-and-power-cluster.md)
-   + Windowsでのキャンペーンのインストール {#installing-campaign-in-windows-}
-      + [WindowsでのCampaignのインストールの前提条件](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+      + [メッセージングサーバー](installation/using/messaging-server.md)
+      + [ネットワーク設定](installation/using/network-configuration.md)
+   + デプロイメントタイプ {#deployment-types-}
+      + [デプロイメントタイプについて](installation/using/about-deployment-types.md)
+      + [スタンドアロンデプロイメント](installation/using/standalone-deployment.md)
+      + [標準デプロイメント](installation/using/standard-deployment.md)
+      + [企業へのデプロイメント](installation/using/enterprise-deployment.md)
+      + [ミッドソーシングへのデプロイメント](installation/using/mid-sourcing-deployment.md)
+      + [パワーブースターとパワークラスター](installation/using/power-booster-and-power-cluster.md)
+   + Windows での Campaign のインストール {#installing-campaign-in-windows-}
+      + [Windows での Campaign のインストールの前提条件](installation/using/prerequisites-of-campaign-installation-in-windows.md)
       + [サーバーのインストール](installation/using/installing-the-server.md)
-      + [Windows用のWebサーバーへの統合](installation/using/integration-into-a-web-server-for-windows.md)
-      + [Windows向けのクライアントコンソールの可用性](installation/using/client-console-availability-for-windows.md)
+      + [Windows 用 Web サーバーへの統合](installation/using/integration-into-a-web-server-for-windows.md)
+      + [Windows 用クライアントコンソールの可用性](installation/using/client-console-availability-for-windows.md)
       + [クライアントコンソールのインストール](installation/using/installing-the-client-console.md)
-   + LinuxでのCampaignのインストール {#installing-campaign-in-linux-}
-      + [LinuxでのCampaignのインストールの前提条件](installation/using/prerequisites-of-campaign-installation-in-linux.md)
-      + [Linuxでのパッケージのインストール](installation/using/installing-packages-with-linux.md)
-      + [Linux用のWebサーバーへの統合](installation/using/integration-into-a-web-server-for-linux.md)
-      + [Linux用のクライアントコンソールの可用性](installation/using/client-console-availability-for-linux.md)
+   + Linux での Campaign のインストール {#installing-campaign-in-linux-}
+      + [Linux での Campaign のインストールの前提条件](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+      + [Linux でのパッケージのインストール](installation/using/installing-packages-with-linux.md)
+      + [Linux 用 Web サーバーへの統合](installation/using/integration-into-a-web-server-for-linux.md)
+      + [Linux 用クライアントコンソールの可用性](installation/using/client-console-availability-for-linux.md)
    + 初期設定 {#initial-configuration}
       + [初期設定について](installation/using/about-initial-configuration.md)
       + [インスタンスの作成とログオン](installation/using/creating-an-instance-and-logging-on.md)
       + [データベースの作成と設定](installation/using/creating-and-configuring-the-database.md)
-      + [Campaignサーバーの設定](installation/using/campaign-server-configuration.md)
+      + [Campaign サーバーの設定](installation/using/campaign-server-configuration.md)
       + [インスタンスのデプロイ](installation/using/deploying-an-instance.md)
-      + [Campaign Classic標準パッケージのインストール](installation/using/installing-campaign-standard-packages.md)
+      + [Campaign Classic 標準パッケージのインストール](installation/using/installing-campaign-standard-packages.md)
    + 任意の追加設定 {#additional-configurations}
       + [Campaign サーバーの設定](installation/using/configuring-campaign-server.md)
-      + [LDAP経由の接続](installation/using/connecting-through-ldap.md)
+      + [LDAP を介した接続](installation/using/connecting-through-ldap.md)
       + [技術的な電子メールの設定](installation/using/email-deliverability.md)
       + [E メールのアーカイブ](installation/using/email-archiving.md)
       + [タイムゾーン管理](installation/using/time-zone-management.md)
-      + [スパムアサシンの設定](installation/using/configuring-spamassassin.md)
+      + [SpamAssassin の設定](installation/using/configuring-spamassassin.md)
       + [ミッドソーシングサーバー](installation/using/mid-sourcing-server.md)
-      + [インタラクション — データバッファ](installation/using/interaction---data-buffer.md)
+      + [インタラクション - データバッファ](installation/using/interaction---data-buffer.md)
    + 付録 {#appendices}
       + [サーバー設定ファイル](installation/using/the-server-configuration-file.md)
       + [コマンドライン](installation/using/command-lines.md)
-      + [新しいインスタンスの作成](installation/using/creating-new-instances.md)
-      + [Campaign Classicオプションのリスト](installation/using/configuring-campaign-options.md)
-      + [キャンペーンのアンインストール](installation/using/uninstalling-campaign.md)
-+ Monitoring Campaign Classic {#monitoring-campaign-classic}
+      + [新規インスタンスの作成](installation/using/creating-new-instances.md)
+      + [Campaign Classic のオプションのリスト](installation/using/configuring-campaign-options.md)
+      + [Campaign のアンインストール](installation/using/uninstalling-campaign.md)
++ Campaign Classic の監視 {#monitoring-campaign-classic}
    + はじめに {#introduction}
       + [前書き](production/using/foreword.md)
       + [一般的なアーキテクチャ](production/using/general-architecture.md)
-   + 生産手続 {#production-procedures}
+   + 本番環境の場合の手順 {#production-procedures}
       + [設定の原則](production/using/configuration-principle.md)
       + [動作の仕組み](production/using/operating-principle.md)
       + [管理](production/using/administration.md)
@@ -608,47 +611,47 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [ログファイル](production/using/log-files.md)
       + [プロセスの監視](production/using/monitoring-processes.md)
       + [通常のコマンド](production/using/usual-commands.md)
-      + [監査証跡](production/using/audit-trail.md)
+      + [監査記録](production/using/audit-trail.md)
    + データ処理 {#data-processing}
       + [バックアップ](production/using/backup.md)
       + [復元](production/using/restoration.md)
       + [環境の複製](production/using/duplicating-environments.md)
-      + [データベースのクリーンアップワークフロー](production/using/database-cleanup-workflow.md)
+      + [データベースクリーンアップワークフロー](production/using/database-cleanup-workflow.md)
    + Adobe Campaign の更新 {#updating-adobe-campaign}
       + [はじめに](production/using/introduction.md)
       + [アップグレード](production/using/upgrading.md)
-      + [Unicodeへの切り替え](production/using/switching-to-unicode.md)
+      + [Unicode への切り替え](production/using/switching-to-unicode.md)
       + [移行手順](production/using/migration-procedures.md)
    + データベースメンテナンス {#database-maintenance}
       + [推奨事項](production/using/recommendations.md)
-      + [保守するテーブル](production/using/tables-to-maintain.md)
-      + [メンテナンスの種類](production/using/types-of-maintenance.md)
-      + [RDBMS固有の推奨事項](production/using/rdbms-specific-recommendations.md)
+      + [維持するテーブル](production/using/tables-to-maintain.md)
+      + [メンテナンスのタイプ](production/using/types-of-maintenance.md)
+      + [RDBMS に関する推奨事項](production/using/rdbms-specific-recommendations.md)
       + [アプリケーションオブジェクト](production/using/application-objects.md)
    + トラブルシューティング {#troubleshooting}
       + [パフォーマンスとスループットの問題](production/using/performance-and-throughput-issues.md)
-      + [画像が見つかりません](production/using/images-missing.md)
-      + [画像表示の問題](production/using/image-display-issues.md)
+      + [画像が見つからない](production/using/images-missing.md)
+      + [画像の表示の問題](production/using/image-display-issues.md)
       + [一時ファイル](production/using/temporary-files.md)
       + [データベースのパフォーマンス](production/using/database-performances.md)
-      + [モジュールと頻繁な問題](production/using/modules-and-frequent-issues.md)
+      + [モジュールおよびよくある問題](production/using/modules-and-frequent-issues.md)
       + [ログの精度](production/using/log-precision.md)
-      + [ログの問題の追跡](production/using/tracking-logs-issues.md)
+      + [トラッキングログの問題](production/using/tracking-logs-issues.md)
       + [ワークフローの実行](production/using/workflow-execution.md)
-      + [接続に失敗しました](production/using/failure-to-connect.md)
+      + [接続の失敗](production/using/failure-to-connect.md)
       + [接続のしきい値](production/using/connection-thresholds.md)
-      + [Linuxでのスタックトレース](production/using/stack-trace-in-linux.md)
-      + [Oracleデータベースのエンコード](production/using/encoding-of-the-oracle-database.md)
+      + [Linux でのスタックトレース](production/using/stack-trace-in-linux.md)
+      + [Oracle データベースのエンコード](production/using/encoding-of-the-oracle-database.md)
       + [コンソールの更新](production/using/console-update.md)
-      + [パスワードが失われました](production/using/lost-password.md)
-      + [JSPの動作](production/using/jsp-behavior.md)
-+ Campaign Classicの設定 {#configuring-campaign-classic}
+      + [パスワードを忘れた場合](production/using/lost-password.md)
+      + [JSP の動作](production/using/jsp-behavior.md)
++ Campaign Classic の設定 {#configuring-campaign-classic}
    + データモデル {#data-model}
       + [データモデルについて](configuration/using/about-data-model.md)
       + [データモデルの説明](configuration/using/data-model-description.md)
       + [ベストプラクティス](configuration/using/data-model-best-practices.md)
-   + スキーマ参照 {#schema-reference}
-      + [スキーマ参照について](configuration/using/about-schema-reference.md)
+   + スキーマリファレンス {#schema-reference}
+      + [スキーマリファレンスについて](configuration/using/about-schema-reference.md)
       + [スキーマの構造](configuration/using/schema-structure.md)
       + [データベースマッピング](configuration/using/database-mapping.md)
       + [要素と属性](configuration/using/elements-and-attributes.md)
@@ -657,8 +660,8 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [データスキーマ](configuration/using/data-schemas.md)
       + [既存のテーブルのスキーマ](configuration/using/schema-of-an-existing-table.md)
       + [スキーマの拡張](configuration/using/extending-a-schema.md)
-      + [スキーマのフィルタ](configuration/using/filtering-schemas.md)
-      + [PIIビューの制限](configuration/using/restricting-pii-view.md)
+      + [フィルタースキーマ](configuration/using/filtering-schemas.md)
+      + [PII 表示の制限](configuration/using/restricting-pii-view.md)
       + [データベース構造の更新](configuration/using/updating-the-database-structure.md)
       + [新しいフィールドウィザード](configuration/using/new-field-wizard.md)
       + [データスキーマの構造](configuration/using/structure-of-a-data-schema.md)
@@ -669,17 +672,17 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [フォームの編集](configuration/using/editing-forms.md)
       + [フォームの構造](configuration/using/form-structure.md)
    + API {#api}
-      + [Webサービスについて](configuration/using/about-web-services.md)
-      + [Webサービスの呼び出し](configuration/using/web-service-calls.md)
-      + [データ指向API](configuration/using/data-oriented-apis.md)
-      + [ビジネス指向API](configuration/using/business-oriented-apis.md)
-      + [SOAPメソッドの実装](configuration/using/implementing-soap-methods.md)
-      + [JavaScriptでのSOAPメソッド](configuration/using/soap-methods-in-javascript.md)
-      + [SQL関数の追加](configuration/using/adding-additional-sql-functions.md)
+      + [Web サービスについて](configuration/using/about-web-services.md)
+      + [Web サービスの呼び出し](configuration/using/web-service-calls.md)
+      + [データ指向 API](configuration/using/data-oriented-apis.md)
+      + [ビジネス指向 API](configuration/using/business-oriented-apis.md)
+      + [SOAP メソッドの実装](configuration/using/implementing-soap-methods.md)
+      + [JavaScript での SOAP メソッド](configuration/using/soap-methods-in-javascript.md)
+      + [SQL 関数の追加](configuration/using/adding-additional-sql-functions.md)
    + ナビゲーション階層 {#navigation-hierarchy}
       + [ナビゲーション階層について](configuration/using/about-navigation-hierarchy.md)
       + [設定](configuration/using/configuration.md)
-      + [版](configuration/using/edition.md)
+      + [エディション](configuration/using/edition.md)
    + カスタム受信者テーブルの使用 {#use-a-custom-recipient-table}
       + [カスタム受信者テーブルについて](configuration/using/about-custom-recipient-table.md)
       + [スキーマの特性](configuration/using/schema-characteristics.md)
@@ -690,13 +693,13 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [ワークフローを使用したプロファイルリストの作成](configuration/using/creating-a-profile-list-with-a-workflow.md)
       + [ワークフローの管理](configuration/using/managing-workflows.md)
       + [レポートの管理](configuration/using/managing-reports.md)
-   + Web追跡の設定 {#setting-up-web-tracking}
-      + [Web追跡について](configuration/using/about-web-tracking.md)
+   + Web トラッキングの設定 {#setting-up-web-tracking}
+      + [Web トラッキングについて](configuration/using/about-web-tracking.md)
       + [Web トラッキングモード](configuration/using/web-tracking-mode.md)
-      + [Webトラッキングタグ：定義](configuration/using/web-tracking-tag--definition.md)
-      + [設定ステージ](configuration/using/setup-stages.md)
-      + [その他のパラメーター](configuration/using/additional-parameters.md)
-      + [Webトラッキングタグの作成](configuration/using/creating-web-tracking-tags.md)
+      + [Web トラッキングタグ：定義](configuration/using/web-tracking-tag--definition.md)
+      + [ステージの設定](configuration/using/setup-stages.md)
+      + [追加のパラメーター](configuration/using/additional-parameters.md)
+      + [Web トラッキングタグの作成](configuration/using/creating-web-tracking-tags.md)
       + [サイトへのタグの挿入](configuration/using/inserting-tags-in-your-site.md)
       + [すべての訪問の収集](configuration/using/collecting-all-visits.md)
       + [匿名トラッキング](configuration/using/anonymous-tracking.md)
@@ -709,17 +712,17 @@ source-git-commit: f96ba390baaa92ebe4e0ca09b0d897bc3d7f6328
       + [移行を開始する前に](migration/using/before-starting-migration.md)
       + [移行のテスト](migration/using/testing-the-migration.md)
       + [プラットフォームの設定](migration/using/configuring-your-platform.md)
-   + Adobe Campaignへの移行7 {#migrating-to-adobe-campaign-7}
-      + [Adobe Campaign 7への移行の前提条件](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
-      + [WindowsでのAdobe Campaign 7への移行](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
-      + [LinuxでのAdobe Campaign v7への移行](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
+   + Adobe Campaign 7 への移行 {#migrating-to-adobe-campaign-7}
+      + [Adobe Campaign 7 への移行の前提条件](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
+      + [Windows での Adobe Campaign 7 への移行](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
+      + [Linux での Adobe Campaign 7 への移行](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
    + 設定 {#configuration}
       + [一般設定](migration/using/general-configurations.md)
-      + [v5.11での具体的な設定](migration/using/specific-configurations-in-v5-11.md)
-      + [v6.02の固有の設定](migration/using/specific-configurations-in-v6-02.md)
-      + [v6.10の固有の設定](migration/using/specific-configurations-in-v6-10.md)
+      + [v5.11 特有の設定](migration/using/specific-configurations-in-v5-11.md)
+      + [v6.02 特有の設定](migration/using/specific-configurations-in-v6-02.md)
+      + [v6.10 特有の設定](migration/using/specific-configurations-in-v6-10.md)
    + ロールバック {#rollback}
       + [ロールバックについて](migration/using/about-rollback.md)
-      + [v5.11の復元](migration/using/restoring-v5-11.md)
-      + [v6.02の復元](migration/using/restoring-v6-02.md)
-      + [v6.1の復元](migration/using/restoring-v6-1.md)
+      + [v5.11 の復元](migration/using/restoring-v5-11.md)
+      + [v6.02 の復元](migration/using/restoring-v6-02.md)
+      + [v6.1 の復元](migration/using/restoring-v6-1.md)

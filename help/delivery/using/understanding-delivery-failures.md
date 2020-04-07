@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e34e49d66f5d943951cd5d9a11d45df9af544ba
+source-git-commit: e5a2ef47108c6779a744197638e2de9d1072cfe3
 
 ---
 
@@ -102,7 +102,7 @@ source-git-commit: 5e34e49d66f5d943951cd5d9a11d45df9af544ba
   </tr> 
   <tr> 
    <td> 無視されたエラー </td> 
-   <td> エラーなし </td> 
+   <td> 無視 </td> 
    <td> 25 </td> 
    <td> アドレスはホワイトリストに含まれています。したがってエラーは無視され、E メールは送信されます。<br /> </td> 
   </tr> 
@@ -226,7 +226,7 @@ E メールの配信が失敗すると、Adobe Campaign の配信サーバーは
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
-Adobe Campaignでは、このメッセージをフィルターして、変数の内容（ID、日付、電子メールアドレス、電話番号など）を削除します。フィルタ結果を列に表示し **[!UICONTROL Text]** ます。 変数は、**`#xxx#`** で置き換えられます（ただし、アドレスは **`*`** で置き換えられます）。
+Adobe Campaignフィルターは、変数の内容（ID、日付、電子メールアドレス、電話番号など）を削除するためにこのメッセージを送信します。フィルタ結果を列に表示し **[!UICONTROL Text]** ます。 変数は、**`#xxx#`** で置き換えられます（ただし、アドレスは **`*`** で置き換えられます）。
 
 このプロセスで同じタイプのすべてのエラーをまとめることにより、同じようなエラーの複数のエントリが配信ログの検証テーブルに含まれないようにすることができます。
 
@@ -238,25 +238,28 @@ Adobe Campaignでは、このメッセージをフィルターして、変数の
 
 * **[!UICONTROL To qualify]** :バウンスメールが正しくなかった。 選定を配信品質チームに割り当てて、効率的なプラットフォーム配信品質を保証する必要があります。選定されていないバウンスメールは、E メール管理ルールのリストのエンリッチメントには使用されません。
 * **[!UICONTROL Keep]** :バウンスメールは、既存の電子メール管理ルールと比較してリストを強化するために **** 、配信品質のワークフローとして「更新」で使用される資格があります。
-* **[!UICONTROL Ignore]** :バウンスメールは認定されましたが、配信品質のワークフローのために **更新で使用されません** 。 バウンスメールはクライアントインスタンスに送信されません。
+* **[!UICONTROL Ignore]** :バウンスメールはキャンペーンMTAでは無視され、このバウンスによって受信者のアドレスが隔離されることはありません。 配信品質ワークフローのために更新で **は使用されず** 、クライアントインスタンスには送信されません。
 
 ![](assets/deliverability_qualif_status.png)
 
-ホストインストールまたはハイブリッドインストールの場合、拡張MTAにアップグレード済みの場合：
-
-* 表の直帰条件は、同期 **[!UICONTROL Delivery log qualification]** 配信障害のエラーメッセージには使用されません。 拡張MTAは、バウンスのタイプと条件を決定し、その情報をキャンペーンに返します。
-
+>[!NOTE]
+>
+>ホストインストールまたはハイブリッドインストールの場合、拡張MTAにアップグレード済みの場合：
+>
+>* 表の直帰条件は、同期 **[!UICONTROL Delivery log qualification]** 配信障害のエラーメッセージには使用されません。 拡張MTAは、バウンスのタイプと条件を決定し、その情報をキャンペーンに返します。
+   >
+   >
 * 非同期バウンスは、inMailプロセスでもルールを通じて認定さ **[!UICONTROL Inbound email]** れます。 For more on this, see [Email management rules](#email-management-rules).
-
+   >
+   >
 * 拡張MTAを ******[!UICONTROL Inbound email]** Webhooks/EFSなしで使用する場合、ルールは、非同期バウンス電子メールと同じ電子メールアドレスを使用して、拡張MTAからの同期バウンス電子メールの処理にも使用されます。
-
-Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)を参照してください。
+>
+>
+Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)を参照してください。
 
 ### E メール管理ルール {#email-management-rules}
 
 メールルールはノードを介してアクセス **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** されます。 E メール管理ルールがウィンドウの下部に表示されます。
-
-これらのルールには、リモートサーバーが返すことができ、エラー（**ハード**、**ソフト**&#x200B;または&#x200B;**無視**）を検証できる文字列のリストが含まれます。
 
 ![](assets/tech_quarant_rules.png)
 
@@ -264,67 +267,61 @@ Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント
 >
 >プラットフォームのデフォルトのパラメーターは、デプロイウィザードで設定します。詳しくは、[この節](../../installation/using/deploying-an-instance.md)を参照してください。
 
-デフォルトのルールには次のものがあります。
-
-* **インバウンド E メール**
-
-   E メールが失敗すると、リモートサーバーがプラットフォームのパラメーターで指定されたアドレスにバウンスメールを返します。
-
-   Adobe Campaign は、各バウンスメールのコンテンツをルールのリストの文字列と比較して、3 つのエラータイプのいずれかを割り当てます。
-
-   ユーザーは独自のルールを作成できます。
-
-   >[!IMPORTANT]
-   >
-   >パッケージをインポートしたり、**配信品質の更新**&#x200B;ワークフローでデータを更新すると、ユーザーが作成したルールが上書きされます。
-
-   バウンスメールの資格について詳しくは、この節を参 [照してくださ](#bounce-mail-qualification)い。
-
-   >[!NOTE]
-   >
-   >ホストインストールまたはハイブリッドインストールの場合、拡張MTAにアップグレードした場合、ルールは同期 **[!UICONTROL Inbound email]** 配信障害のエラーメッセージには使用されなくなります。 詳しくは、[この節](#bounce-mail-qualification)を参照してください。
-   >
-   >Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)を参照してください。
-
-* **ドメイン管理**
-
-   Adobe Campaign のメッセージングサーバーは、ドメイン独自のルールを適用します。一般的なケース用のルールは、ルールのリストにアスタリスクで表されます。
-
-   デフォルトでは、Adobe Campaign で Hotmail ドメインと MSN ドメイン用のルールを使用できます。
-
-   Click the **[!UICONTROL Detail]** icon to access rule configuration.
-
-   ![](assets/tech_quarant_domain_rules_02.png)
-
-   **SMTP パラメーター**&#x200B;は、ブロッキングルールに適用されるフィルターの役割を果たします。
-
-   * 特定の識別標準や、**送信者 ID**、**DomainKeys**、**DKIM**、**S/MIME** などドメイン名をチェックするための暗号鍵を有効化するかどうかを選択できます。
-   * **SMTP リレー**：特定のドメインのリレーサーバーの IP アドレスおよびポートを設定できます。詳しくは、[この節](../../installation/using/configuring-campaign-server.md#smtp-relay)を参照してください。
-   メッセージがOutlookで表示され、送信者のアドレス **[!UICONTROL on behalf of]** が表示される場合は、 **** Sender IDを使用して電子メールに署名しないようにしてください。これは、Microsoftが提供する古い独自の電子メール認証標準です。 このオプションが **[!UICONTROL Sender ID]** 有効な場合は、対応するボックスのチェックを外し、Adobe Campaignサポートにお問い合わせください。 配信品質に影響はありません。
-
-   >[!NOTE]
-   >
-   >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Domain management]** rules are no longer used. **DKIM(DomainKeys Identified Mail)電子メール認証の署名は** 、すべてのドメインを持つすべてのメッセージに対して拡張MTAによって行われます。 拡張MTAレベルで特に指定され **ていない限り、** Sender ID **、** DomainKeys **、** S/MIMEを使用して署名することはできません。
-   >
-   >Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)を参照してください。
-
-* **MX 管理**
-
-   * MX管理ルールは、特定のドメインの送信電子メールのフローを制御するために使用されます。 このルールは、バウンスメッセージをサンプリングし、必要に応じて送信をブロックします。
-
-   * Adobe Campaign のメッセージングサーバーは、ドメイン独自のルールを適用します。一般的なケース用のルールは、ルールのリストにアスタリスクで表されます。
-
-   * MX管理ルールを設定するには、しきい値を設定し、特定のSMTPパラメーターを選択します。 **しきい値**&#x200B;とは、特定のドメイン宛てのメッセージをブロックする基準となるエラー率です。エラー率がこの値を超えると、特定のドメイン宛てのすべてのメッセージがブロックされます。例えば一般的なケースでは、300 件以上のメッセージに対してエラー率が 90％に達すると、E メールの送信が 3 時間ブロックされます。
-   MX 管理について詳しくは、[この節](../../installation/using/email-deliverability.md#mx-configuration)を参照してください。
-
-   >[!NOTE]
-   >
-   >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. Enhanced MTA は独自の MX ルールを使用します。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
-   >
-   >Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)を参照してください。
+デフォルトのルールは次のとおりです。
 
 >[!IMPORTANT]
 >
 >* パラメーターを変更した場合は、配信サーバー（MTA）を再起動する必要があります。
 >* 管理ルールを変更または作成できるのは、エキスパートユーザーのみです。
 
+
+#### インバウンド E メール {#inbound-email}
+
+これらのルールには、リモートサーバーが返すことができ、エラー（**ハード**、**ソフト**&#x200B;または&#x200B;**無視**）を検証できる文字列のリストが含まれます。
+
+E メールが失敗すると、リモートサーバーがプラットフォームのパラメーターで指定されたアドレスにバウンスメールを返します。Adobe Campaign compares the content of each bounce mail to the strings in the list of rules, and then assigns it one of the three [error types](#delivery-failure-types-and-reasons).
+
+>[!NOTE]
+>
+>ユーザーは独自のルールを作成できます。パッケージをインポートしたり、**配信品質の更新**&#x200B;ワークフローでデータを更新すると、ユーザーが作成したルールが上書きされます。
+
+バウンスメールの資格について詳しくは、この節を参 [照してくださ](#bounce-mail-qualification)い。
+
+>[!IMPORTANT]
+>
+>ホストインストールまたはハイブリッドインストールの場合、拡張MTAにアップグレードし、インスタンスに **Webhooks****[!UICONTROL Inbound email]** /EFS機能がある場合、同期配信障害エラーメッセージにルールは使用されなくなります。 詳しくは、[この節](#bounce-mail-qualification)を参照してください。
+>
+>Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)を参照してください。
+
+#### ドメイン管理 {#domain-management}
+
+Adobe Campaignメッセージングサーバは、すべてのドメ **インに** 1つのドメイン管理規則を適用します。
+
+<!--![](assets/tech_quarant_domain_rules_02.png)-->
+
+* 特定の識別標準や、**送信者 ID**、**DomainKeys**、**DKIM**、**S/MIME** などドメイン名をチェックするための暗号鍵を有効化するかどうかを選択できます。
+* The **SMTP relay** parameters let you configure the IP address and the port of a relay server for a particular domain. 詳しくは、[この節](../../installation/using/configuring-campaign-server.md#smtp-relay)を参照してください。
+
+メッセージがOutlookで表示され、送信者のアドレス **[!UICONTROL on behalf of]** が表示される場合は、 **** Sender IDを使用して電子メールに署名しないようにしてください。これは、Microsoftが提供する古い独自の電子メール認証標準です。 このオプションが有 **[!UICONTROL Sender ID]** 効な場合は、対応するボックスのチェックを外し、Adobe Campaignサポートに連絡します。 配信品質に影響はありません。
+
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Domain management]** rules are no longer used. **DKIM(DomainKeys Identified Mail)電子メール認証の署名は** 、すべてのドメインを持つすべてのメッセージに対して拡張MTAによって行われます。 拡張MTAレベルで特に指定され **ていない限り、** Sender ID **、** DomainKeys **、** S/MIMEを使用して署名することはできません。
+>
+>Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)を参照してください。
+
+#### MX 管理 {#mx-management}
+
+* MX管理ルールは、特定のドメインの送信電子メールのフローを制御するために使用されます。 このルールは、バウンスメッセージをサンプリングし、必要に応じて送信をブロックします。
+
+* Adobe Campaign のメッセージングサーバーは、ドメイン独自のルールを適用します。一般的なケース用のルールは、ルールのリストにアスタリスクで表されます。
+
+* MX管理ルールを設定するには、しきい値を設定し、特定のSMTPパラメーターを選択します。 **しきい値**&#x200B;とは、特定のドメイン宛てのメッセージをブロックする基準となるエラー率です。エラー率がこの値を超えると、特定のドメイン宛てのすべてのメッセージがブロックされます。例えば一般的なケースでは、300 件以上のメッセージに対してエラー率が 90％に達すると、E メールの送信が 3 時間ブロックされます。
+
+MX 管理について詳しくは、[この節](../../installation/using/email-deliverability.md#mx-configuration)を参照してください。
+
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. Enhanced MTA は独自の MX ルールを使用します。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
+>
+>Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)を参照してください。

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17eed4f4ead8ce4f424d4fb2681269e888229692
+source-git-commit: 6143f23e05f4528a9d76aece3a6e41165e2f95d4
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 17eed4f4ead8ce4f424d4fb2681269e888229692
 
 まず、ユーザーが FDA で外部データベースの操作を実行できるように、Adobe Campaign で特定のネームド権限を設定する必要があります。
 
-1. Adobe Campaignエクスプ **[!UICONTROL Administration > Access Management > Named Rights]** ローラーでノードを選択します。
+1. ノードエクスプロー **[!UICONTROL Administration > Access Management > Named Rights]** ラーでAdobe Campaignを選択します。
 1. 任意のラベルを指定して新しい権限を作成します。
 1. The **[!UICONTROL Name]** field must take the following format **user:base@server**, where :
 
@@ -46,7 +46,7 @@ source-git-commit: 17eed4f4ead8ce4f424d4fb2681269e888229692
 * **READ Data**：顧客データが格納されたテーブルへの読み取り専用アクセス
 * **READ &#39;MetaData&#39;**：テーブル構造を取得するためのサーバーデータカタログへのアクセス
 * **LOAD**：作業用テーブルへの一括読み込み（収集や結合の作業で必要）
-* **TABLE/INDEX/PROCEDURE/FUNCTION** の&#x200B;**CREATE/DROP**
+* **CREATE/DROP** for **TABLE/INDEX/PROCEDURE/FUNCTION** (Adobe Campaignで生成されたワークテーブルの場合のみ)、
 * **EXPLAIN**（推奨）：問題が発生した場合にパフォーマンスの監視に使用
 * **WRITE Data**（統合シナリオに応じて）
 
@@ -56,11 +56,11 @@ source-git-commit: 17eed4f4ead8ce4f424d4fb2681269e888229692
 
 |   | Snowflake | Redshift | Oracle | SQLServer | PostgreSQL | MySQL |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **リモート・データベースへの接続** | WAREHOUSEの使用およびデータベース権限の使用 | AWSアカウントにリンクされたユーザーの作成 | CREATE SESSION権限 | CONNECT権限 | CONNECT権限 | すべての権限を持つリモート・ホストに関連付けられたユーザーの作成 |
+| **リモート・データベースへの接続** | 倉庫での使用、データベースでの使用、およびデータベース権限でのスキーマ権限 | AWSアカウントにリンクされたユーザーの作成 | CREATE SESSION権限 | CONNECT権限 | CONNECT権限 | すべての権限を持つリモート・ホストに関連付けられたユーザーの作成 |
 | **テーブルの作成** | CREATE TABLE ONスキーマ権限 | CREATE権限 | CREATE TABLE権限 | CREATE TABLE権限 | CREATE権限 | CREATE権限 |
 | **インデックスの作成** | なし | CREATE権限 | INDEXまたはCREATE ANY INDEX権限 | ALTER権限 | CREATE権限 | INDEX権限 |
 | **関数の作成** | CREATE FUNCTION ONスキーマ権限 | USAGE ON LANGUAGE plpythonu権限で外部のPythonスクリプトを呼び出す | CREATE PROCEDUREまたはCREATE ANY PROCEDURE権限 | CREATE FUNCTION権限 | USAGE権限 | CREATE ROUTINE権限 |
-| **手順の作成** | CREATE PROCEDURE ONスキーマ権限 | USAGE ON LANGUAGE plpythonu権限で外部のPythonスクリプトを呼び出す | CREATE PROCEDUREまたはCREATE ANY PROCEDURE権限 | CREATE PROCEDURE権限 | USAGE権限（プロシージャは関数） | CREATE ROUTINE権限 |
+| **手順の作成** | なし | USAGE ON LANGUAGE plpythonu権限で外部のPythonスクリプトを呼び出す | CREATE PROCEDUREまたはCREATE ANY PROCEDURE権限 | CREATE PROCEDURE権限 | USAGE権限（プロシージャは関数） | CREATE ROUTINE権限 |
 | **オブジェクト（テーブル、インデックス、関数、プロシージャ）の削除** | オブジェクトの所有 | オブジェクトの所有またはスーパーユーザ | DROP ANY &lt; object > privilege | ALTER権限 | 表：テーブルを所有しています。インデックス：インデックスを所有しています。関数：関数の所有 | DROP権限 |
 | **実行の監視** | 必要なオブジェクトに対するMONITOR権限 | EXPLAINコマンドを使用する権限が不要 | EXPLAIN PLANが基づく文を実行するためのINSERTおよびSELECT権限と必要な権限 | SHOWPLAN権限 | EXPLAIN文を使用する権限が不要 | SELECT権限 |
 | **データの書き込み** | INSERT/UPDATE権限（書き込み操作に応じて異なる） | INSERTおよびUPDATE権限 | INSERT AND UPDATEまたはINSERT AND UPDATE ANY TABLE権限 | INSERT and UPDATE permissions | INSERTおよびUPDATE権限 | INSERTおよびUPDATE権限 |

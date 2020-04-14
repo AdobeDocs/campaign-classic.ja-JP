@@ -5,7 +5,7 @@ solution: Campaign Classic
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 53e250cb24d5386e6e9e5d85b52d5eb689b2914c
+source-git-commit: ffaa4d4442448f9d30c4a1ef41b8bd73363088e0
 
 ---
 
@@ -16,11 +16,9 @@ source-git-commit: 53e250cb24d5386e6e9e5d85b52d5eb689b2914c
 
 ## 新着情報
 
-* **[プライバシー管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Adobe Campaign がプライバシーコンプライアンスの遵守に役立つ理由について説明します。
+* **[プライバシーコンプライアンス](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/> Adobe Campaignがプライバシーコンプライアンスを支援する方法を説明します。
 
-* **[トラッキングガイド](https://helpx.adobe.com/campaign/kb/acc-tracking.html)**<br/>Campaign のトラッキング機能について説明します。
-
-* **[メンテナンスガイド](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)**<br/>Campaign インスタンスとプロセスを監視する方法について説明します。
+* **[追跡機能](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html)**<br/>&#x200B;追跡機能のキャンペーン
 
 * **[AMP を使用したインタラクティブコンテンツ](delivery/using/defining-interactive-content.md)**<br/>新しい[AMP for Email](https://amp.dev/about/email/)形式で動的な E メールを送信する方法について説明します。
 
@@ -44,11 +42,11 @@ source-git-commit: 53e250cb24d5386e6e9e5d85b52d5eb689b2914c
     <p>
   </td>
    <td>
-    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html">
       <img alt="ビルドのアップグレード" src="platform/using/assets/upgrade.png" />
     </a>
     <div>
-      <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html">
+      <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html">
     <strong>最新ビルドへのアップグレード</strong>
     </a>
     </div>
@@ -77,9 +75,9 @@ source-git-commit: 53e250cb24d5386e6e9e5d85b52d5eb689b2914c
 | 役に立つページ | 開発者向けリソース |
 |---|---|
 | [リリースノート](/help/rn/using/latest-release.md) | [エラーリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) | [Campaign Classicデータモデル](configuration/using/about-data-model.md) |
-| [互換性マトリックス](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) | [JSAPIドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
-| [Campaign Classicの概要](platform/using/about-adobe-campaign-classic.md) | [実装ガイド](https://helpx.adobe.com/campaign/kb/acc-implementation.html) |
-| [Gold Standard アップグレード](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [トラッキングガイド](https://helpx.adobe.com/campaign/kb/acc-tracking.html) |
-| [廃止および削除された機能](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) | [セキュリティとプライバシーのチェックリスト](https://helpx.adobe.com/campaign/kb/acc-security.html) |
-| [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [テクニカルノート](https://helpx.adobe.com/campaign/kb/article-list.html) |
+| [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) | [キャンペーンデータモデル](configuration/using/about-data-model.md) |
+| [互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html) | [キャンペーンJSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
+| [はじめにCampaign Classic](platform/using/about-adobe-campaign-classic.md) | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/acc-implementation.html) |
+| [Gold Standard アップグレード](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
+| [廃止および削除された機能](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html) | [セキュリティとプライバシーのチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) |
+| [Campaign コントロールパネル](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.translate.html) | [ベストプラクティスの監視](https://helpx.adobe.com/jp/campaign/kb/acc-maintenance.html) |

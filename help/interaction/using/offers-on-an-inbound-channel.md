@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa0eb7acfb5d3b622475544735aed37d6beea892
+source-git-commit: 7c117c549b02cf24b97dc1330e703b711ba14129
 
 ---
 
@@ -28,15 +28,15 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
 このインタラクションを実現するには、次の手順を実行します。
 
-1. [匿名環境の作成](#creating-an-anonymous-environment)
-1. [匿名オファースペースの作成](#creating-anonymous-offer-spaces)
+1. [匿名環境](#creating-an-anonymous-environment)
+1. [匿名オファースペース](#creating-anonymous-offer-spaces)
 1. [オファーカテゴリとテーマの作成](#creating-an-offer-category-and-a-theme)
-1. [匿名オファーを作成します。](#creating-anonymous-offers)
+1. [匿名オファーの作成](#creating-anonymous-offers)
 1. [Web サイト上の Web オファースペースの設定](#configure-the-web-offer-space-on-the-website)
 
 ### 匿名環境の作成 {#creating-an-anonymous-environment}
 
-Follow the procedure detailed in [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment) to create your anonymous environment based on the **Visitors**&#39; dimensions.
+[オファー環境の作成](../../interaction/using/live-design-environments.md#creating-an-offer-environment)で説明されている手順に従って、**訪問者**&#x200B;のディメンションに基づく匿名環境を作成します。
 
 新しい環境を格納したツリー構造ができます。
 
@@ -89,7 +89,7 @@ Follow the procedure detailed in [Creating an offer environment](../../interacti
 ### オファーカテゴリとテーマの作成 {#creating-an-offer-category-and-a-theme}
 
 1. Go to the **[!UICONTROL Offer catalog]** node within the environment you have just created.
-1. ノードを右クリックし **[!UICONTROL Offer catalog]** 、を選択しま **[!UICONTROL Create a new 'Offer category' folder]**&#x200B;す。
+1. ノードを右クリックし **[!UICONTROL Offer catalog]** て、を選択しま **[!UICONTROL Create a new 'Offer category' folder]**&#x200B;す。
 
    新規カテゴリに、例えば「**Financial products**」（金融商品）という名前を付けます。
 
@@ -100,7 +100,7 @@ Follow the procedure detailed in [Creating an offer environment](../../interacti
 ### 匿名オファーの作成 {#creating-anonymous-offers}
 
 1. 作成したカテゴリに移動します。
-1. クリック **[!UICONTROL New]**.
+1. クリック **[!UICONTROL New]** .
 
    ![](assets/offer_inbound_anonymous_example_013.png)
 
@@ -135,9 +135,9 @@ Follow the procedure detailed in [Creating an offer environment](../../interacti
 
 ### Web サイト上の Web オファースペースの設定 {#configure-the-web-offer-space-on-the-website}
 
-To make the offers you have just configured visible on the website, insert a JavaScript code into the HTML page of your site to call up the Interaction engine (for more on this, refer to [About inbound channels](../../interaction/using/about-inbound-channels.md)).
+設定したオファーが Web サイトに表示されるようにするには、サイトの HTML ページに、インタラクションエンジンを呼び出す JavaScript コードを挿入します（詳しくは、[インバウンドチャネルについて](../../interaction/using/about-inbound-channels.md)を参照）。
 
-1. Go to the HTML page and insert an @id attribute with a value matching the internal name of the anonymous offer space created previously (refer to [Creating anonymous offer spaces](#creating-anonymous-offer-spaces)), preceded by **i_**.
+1. HTML ページに移動して、@id 属性を挿入し、先ほど作成した匿名オファースペース（[匿名オファースペースの作成](#creating-anonymous-offer-spaces)を参照）の内部名にプレフィックス **i_** を付加した値を指定します。
 
    ![](assets/offer_inbound_anonymous_example_019.png)
 
@@ -145,7 +145,7 @@ To make the offers you have just configured visible on the website, insert a Jav
 
    ![](assets/offer_inbound_anonymous_example_020.png)
 
-   上記の青いURLボックスは、インスタンス名、環境の内部名(匿名環境の作成を参照 [)、およびカテゴリにリンクされたテーマ(オファーカテゴリとテ](#creating-an-anonymous-environment)ーマの作成[](#creating-an-offer-category-and-a-theme))に対応します。 テーマの指定はオプションです。
+   上のコード中の URL について、青色の囲みで示した部分は、インスタンス名、環境の内部名（[匿名環境の作成](#creating-an-anonymous-environment)を参照）、カテゴリにリンクされたテーマ（[オファーカテゴリとテーマの作成](#creating-an-offer-category-and-a-theme)）を表しています。テーマの指定はオプションです。
 
 この Web サイトの訪問者がホームページにアクセスすると、HTML ページに設定されたとおりに、「**financing**」のテーマに属するオファーが表示されます。
 
@@ -199,13 +199,13 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
 ### 匿名コンタクト向け環境の作成 {#creating-an-environment-for-anonymous-contacts}
 
-1. 配信マッピングウィザードで、匿名インバウンドインタラクション向けのオファー環境を作成します（**訪問者**&#x200B;マッピング）。For more on this, refer to [Creating an offer environment](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+1. 配信マッピングウィザードで、匿名インバウンドインタラクション向けのオファー環境を作成します（**訪問者**&#x200B;マッピング）。詳しくは、[オファー環境の作成](../../interaction/using/live-design-environments.md#creating-an-offer-environment)を参照してください。
 
    ![](assets/offer_env_anonymous_003.png)
 
 ### 匿名環境向けオファースペースの設定 {#configuring-offer-spaces-for-the-anonymous-environment}
 
-The offers which must be presented on the web site belong to two different categories: **Best Offer** and **Partner**. この例では、各カテゴリに特定のオファースペースを 1 つずつ作成します。
+この Web サイトに提示する必要があるオファーは、「**Best Offer**」（ベストオファー）と「**Partner**」（パートナー）の 2 つの異なるカテゴリに属します。この例では、各カテゴリに特定のオファースペースを 1 つずつ作成します。
 
 「**Best Offer**」カテゴリに対応するオファースペースを作成するには、次の手順に従います。
 
@@ -217,7 +217,7 @@ The offers which must be presented on the web site belong to two different categ
 
    ![](assets/offer_inbound_fallback_example_024.png)
 
-1. ラベルを入力：例え **ば、Web Best Anonymous** Offerを使用します。
+1. ラベルとして、例えば、&quot;**Web Best Anonymous Offer**&quot;（Web ベスト匿名オファー）と入力します。
 1. このオファースペースに使用されるオファーコンテンツのフィールドを追加し、レンダリング関数を設定します。
 
    ![](assets/offer_inbound_fallback_example_025.png)
@@ -284,12 +284,12 @@ The offers which must be presented on the web site belong to two different categ
 
 ### 識別された環境のオファースペースの設定 {#configure-the-offer-spaces-in-the-identified-environment}
 
-The offers which you are going to present on the website are taken from two different categories: **Best Offer** and **Partner**. この例では、各カテゴリに特定のオファースペースを 1 つずつ作成します。
+この Web サイトに提示するオファーは、「**Best Offer**」および「**Partner**」の 2 つの異なるカテゴリから取得されます。この例では、各カテゴリに特定のオファースペースを 1 つずつ作成します。
 
-匿名オファースペースの場合と同じ手順で、2 つのオファースペースを作成します。Refer to [Configuring offer spaces for the anonymous environment](#configuring-offer-spaces-for-the-anonymous-environment).
+匿名オファースペースの場合と同じ手順で、2 つのオファースペースを作成します。[匿名環境向けオファースペースの設定](#configuring-offer-spaces-for-the-anonymous-environment)を参照してください。
 
 1. Adobe Campaign ツリー内で、先ほど作成した環境に移動し、「**Best Offer**」および「**Partner**」オファースペースを追加します。
-1. 匿名環境用のオファースペース [の設定で詳細を説明するプロセスを適用します](#configuring-offer-spaces-for-the-anonymous-environment)。
+1. [匿名環境向けオファースペースの設定](#configuring-offer-spaces-for-the-anonymous-environment)で説明されているプロセスを実行します。
 
    ![](assets/offer_inbound_fallback_example_005.png)
 
@@ -297,7 +297,7 @@ The offers which you are going to present on the website are taken from two diff
 
    ![](assets/offer_inbound_fallback_example_006.png)
 
-1. ドロップダウンリストを使用して、前に作成した匿名Webオファースペースを選択します(「匿 [名環境用のオファースペースの設定](#configuring-offer-spaces-for-the-anonymous-environment)」を参照)。
+1. ドロップダウンリストを使用して、先ほど作成した匿名 Web オファースペースを選択します（[匿名環境向けオファースペースの設定](#configuring-offer-spaces-for-the-anonymous-environment)を参照）。
 
    ![](assets/offer_inbound_fallback_example_007.png)
 
@@ -310,7 +310,7 @@ The offers which you are going to present on the website are taken from two diff
 
    ![](assets/offer_inbound_fallback_example_044.png)
 
-1. タブで、をク **[!UICONTROL Target identification]** リックしま **[!UICONTROL Add]**&#x200B;す。
+1. タブでをク **[!UICONTROL Target identification]** リックしま **[!UICONTROL Add]**&#x200B;す。
 
    ![](assets/offer_inbound_fallback_example_046.png)
 
@@ -375,9 +375,9 @@ Neobank の Web サイトにはオファー用のスペースが 3 つありま�
 
 これらのオファースペースを Web サイトの HTML ページに設定するには、次の手順に従います。
 
-1. HTMLページのコンテンツに、
+1. HTML ページのコンテンツに、@id 属性を持つ
 
-   エレメントの値が@idの場合、Webサイトの様々なオファースペースにあるオファーを呼び出すことができます。
+   要素を 3 つ挿入します。この @id 属性の値によって、Web サイトの様々なオファースペースに含まれるオファーの呼び出しが実行されます。
 
    ![](assets/offer_inbound_fallback_example_039.png)
 
@@ -397,7 +397,7 @@ Neobank の Web サイトにはオファー用のスペースが 3 つありま�
 
    ![](assets/offer_inbound_fallback_example_043.png)
 
-   ユーザーの識別手段としては、ブラウザーの Cookie、URL 内の読み取りパラメーター、E メール、ユーザー自身の本人確認情報などが使用できます。If a field of the recipient table other than the primary key is used, it needs to be defined in the advanced parameters of the space (refer to [Specifying the advanced settings of the identified offer spaces](#specifying-the-advanced-settings-of-the-identified-offer-spaces)).
+   ユーザーの識別手段としては、ブラウザーの Cookie、URL 内の読み取りパラメーター、E メール、ユーザー自身の本人確認情報などが使用できます。受信者テーブルに含まれる情報のうち、プライマリキー以外のフィールドを使用する場合は、スペースの詳細設定パラメーターに定義する必要があります（[識別されたオファースペースの詳細設定](#specifying-the-advanced-settings-of-the-identified-offer-spaces)を参照）。
 
 1. 呼び出し URL を挿入します。
 

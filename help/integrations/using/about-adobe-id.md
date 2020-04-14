@@ -14,8 +14,8 @@ discoiquuid: c988362b-432e-4f9f-8d36-00b3d0015756
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+translation-type: tm+mt
+source-git-commit: 0a4272ae13b469c7c17b8c3afa9748cbfbcf07ff
 
 ---
 
@@ -29,9 +29,17 @@ Campaign ユーザーは、Adobe ID を使用して Adobe Campaign コンソー�
 * パスワード管理ポリシーをよりセキュアにできます。
 * Federated ID アカウント（外部の ID プロバイダー）を使用します。
 
-異なるタイプの Adobe ID について詳しくは、[https://helpx.adobe.com/jp/enterprise/help/identity.html](https://helpx.adobe.com/jp/enterprise/help/identity.html) を参照してください。
+アドビのID管理システムは、管理者がアプリケーションやサービスへのユーザーのアクセスを作成し、管理するのに役立ちます。 各種Adobe IDについて詳しくは、このページを参照して [ください](https://helpx.adobe.com/enterprise/using/identity.html)。
 
 >[!CAUTION]
 >
->IMS の実装は必ずアドビの技術管理者がおこないます。IMS の実装は複雑な作業であり、完了までに時間がかかる場合があります。
+>IMS の実装は必ずアドビの技術管理者がおこないます。IMS実装は複雑なプロセスで、実装に時間がかかる場合があります。
+
+## 関連トピック
+
+| 役に立つページ | その他のリソース |
+|---|---|
+| [IMS の設定](../../integrations/using/configuring-ims.md) | [Experience Cloud FAQ](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html) |
+| [IMS の実装](../../integrations/using/implementing-ims.md) | [アクセス管理](../../platform/using/access-management.md) |
+| [IMSのトラブルシューティング](../../integrations/using/ims-troubleshooting.md) | [キャンペーンパッケージのインストール](../../installation/using/installing-campaign-standard-packages.md) |
 

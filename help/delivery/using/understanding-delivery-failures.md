@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0932d0836c53b8dea715f471f9319603140c9950
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -255,7 +255,7 @@ Adobe Campaignフィルターは、変数の内容（ID、日付、電子メー�
 * 拡張MTAを ******[!UICONTROL Inbound email]** Webhooks/EFSなしで使用する場合、ルールは、非同期バウンス電子メールと同じ電子メールアドレスを使用して、拡張MTAからの同期バウンス電子メールの処理にも使用されます。
 >
 >
-Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)を参照してください。
+Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)を参照してください。
 
 ### E メール管理ルール {#email-management-rules}
 
@@ -291,7 +291,7 @@ E メールが失敗すると、リモートサーバーがプラットフォー
 >
 >ホストインストールまたはハイブリッドインストールの場合、拡張MTAにアップグレードし、インスタンスに **Webhooks****[!UICONTROL Inbound email]** /EFS機能がある場合、同期配信障害エラーメッセージにルールは使用されなくなります。 詳しくは、[この節](#bounce-mail-qualification)を参照してください。
 >
->Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)を参照してください。
+>Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)を参照してください。
 
 #### ドメイン管理 {#domain-management}
 
@@ -308,7 +308,7 @@ Adobe Campaignメッセージングサーバは、すべてのドメ **インに
 >
 >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Domain management]** rules are no longer used. **DKIM(DomainKeys Identified Mail)電子メール認証の署名は** 、すべてのドメインを持つすべてのメッセージに対して拡張MTAによって行われます。 拡張MTAレベルで特に指定され **ていない限り、** Sender ID **、** DomainKeys **、** S/MIMEを使用して署名することはできません。
 >
->Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)を参照してください。
+>Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)を参照してください。
 
 #### MX 管理 {#mx-management}
 
@@ -324,4 +324,4 @@ MX 管理について詳しくは、[この節](../../installation/using/email-d
 >
 >For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL MX management]** delivery throughput rules are no longer used. Enhanced MTA は独自の MX ルールを使用します。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
 >
->Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)を参照してください。
+>Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)を参照してください。

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -28,21 +28,21 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 >
 >詳しくは、[この節](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)を参照してください。
 
-## 追加のパラメーターの配信 {#delivery-additiona-parameters}
+## 配信の追加パラメーター {#delivery-additiona-parameters}
 
 Before sending the delivery, you can define the sending parameters in the delivery properties, via the **[!UICONTROL Delivery]** tab.
 
 ![](assets/s_ncs_user_wizard_delivery.png)
 
-* **[!UICONTROL Delivery priority]**:このオプションを使用すると、配信の優先順位（通常、高、低）を示すことで、配信の送信順序に影響を与えることができます。 これは、より緊急度の高い配信をそれ以外の配信よりも優先させるのに便利です。
+* **[!UICONTROL Delivery priority]**:このオプションを使用すると、配信の優先順位（通常、高、低）を指定することで、ユーザーの送信順序に影響を与えることができます。 これは、より緊急度の高い配信をそれ以外の配信よりも優先させるのに便利です。
 
-* **[!UICONTROL Message batch quantity]**:このオプションを使用すると、同じXML配信パッケージ内でグループ化されるメッセージの数を定義できます。 パラメーターが0に設定されている場合、メッセージは自動的にグループ化されます。 The package size is defined by the calculation `<delivery size>/1024`, with a minimum of 8 and a maximum of 256 messages by package.
+* **[!UICONTROL Message batch quantity]**:このオプションを使用すると、同じXMLメッセージパッケージ内でグループ化される配信の数を定義できます。 このパラメーターが 0 に設定されている場合、メッセージは自動的にグループ化されます。パッケージサイズは、`<delivery size>/1024` という計算に基づいて決定されます（ただし、パッケージあたりのメッセージ件数は最小 8、最大 256）。
 
    >[!CAUTION]
    >
    >配信が重複した場合はパラメーターがリセットされます。
 
-* **[!UICONTROL Send using multiple waves]**:この詳細については、「複数の波を使用 [した送信」を参照してください](#sending-using-multiple-waves)。
+* **[!UICONTROL Send using multiple waves]**:詳しくは、「複数のウェーブを使用 [した送信」を参照してください](#sending-using-multiple-waves)。
 
 * **[!UICONTROL Test SMTP delivery]**:このオプションを使用すると、SMTP経由での配信の送信をテストできます。 配信は、SMTP サーバーに接続するところまで進められますが、送信されません。
 
@@ -52,9 +52,9 @@ Before sending the delivery, you can define the sending parameters in the delive
    >
    >SMTP サーバーの設定について詳しくは、[この節](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)を参照してください。
 
-* **[!UICONTROL Archive emails]**:このオプションを使用すると、BCC電子メールアドレスをメッセージターゲットに追加するだけで、BCC経由で外部システムに電子メールを保存できます。 For more on this, refer to [Archiving emails](../../delivery/using/sending-messages.md#archiving-emails).
+* **[!UICONTROL Archive emails]**:このオプションを使用すると、BCC電子メールアドレスをメッセージターゲットに追加するだけで、BCCを通じて外部システムに電子メールを保存できます。 詳しくは、[E メールのアーカイブ](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
 
-配信が設定され、送信の準備が整ったら、配信分析を実行したことを確認 [します](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)。 完了したら、をクリック **[!UICONTROL Confirm delivery]** して、メッセージの配信を開始します。
+配信の設定が終わり、送信準備が整ったら、必ず[配信分析](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)を実行してください。Once done, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages.
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -70,13 +70,13 @@ You can then close the delivery wizard and track the execution of the delivery f
 
 配信をスケジュールしたり、母集団に対する営業頻度を管理して過剰な営業活動をしないようするために、メッセージの配信を遅らせることができます。
 
-1. ボタンをクリ **[!UICONTROL Send]** ックし、オプションを選択 **[!UICONTROL Postpone delivery]** します。
+1. ボタンをクリ **[!UICONTROL Send]** ックし、オプションを選 **[!UICONTROL Postpone delivery]** 択します。
 
 1. Specify a start date in the **[!UICONTROL Contact date]** field.
 
 ![](assets/dlv_email_del_plan.png)
 
-1. その後、配信分析を開始し、配信の送信を確認できます。 ただし、配信の送信は、フィールドに指定された日付まで開始され **[!UICONTROL Contact date]** ません。
+1. その後、配信分析を開始し、配信の送信を確定します。However, the delivery sending will not start until the date given in the **[!UICONTROL Contact date]** field.
 
 >[!CAUTION]
 >
@@ -84,7 +84,7 @@ You can then close the delivery wizard and track the execution of the delivery f
 
 ![](assets/s_ncs_user_email_del_start_delayed.png)
 
-配信リストには、配信がステータスと共に表示さ **[!UICONTROL Pending]** れます。
+In the delivery list, the delivery will appear with **[!UICONTROL Pending]** status.
 
 ![](assets/s_ncs_user_email_del_waiting.png)
 
@@ -98,7 +98,7 @@ Scheduling can also be configured upstream via the **[!UICONTROL Scheduling]** b
 
    When this configuration is saved, the delivery changes to **[!UICONTROL Targeting pending]** status. 分析は指定した日付に開始されます。
 
-* このオ **[!UICONTROL Schedule delivery (automatic execution on planned date)]** プションでは、配信日を指定できます。
+* このオ **[!UICONTROL Schedule delivery (automatic execution on planned date)]** プションでは、配信日を指定します。
 
    Click **[!UICONTROL Send]** and select **[!UICONTROL Postpone delivery]** then launch the analysis and confirm delivery. 分析が完了すると、配信ターゲットの準備ができた状態になり、メッセージは指定した日付が来ると自動的に送信されます。
 
@@ -182,9 +182,9 @@ The central section of the **[!UICONTROL Delivery]** tab for delivery parameters
 
 >[!NOTE]
 >
->ホストインストールまたはハイブリッドインストールの場合、拡張MTAにアップグレードした場合、配信の再試行設定はCampaignで使用されなくなります。 ソフトバウンスの再試行回数とその間隔は、メッセージの電子メールドメインから返されるバウンス応答のタイプと重大度に基づいて、拡張MTAによって決定されます。
+>ホストインストールまたはハイブリッドインストールで、Enhanced MTAにアップグレードした場合、Campaign では配信の再試行設定が使用されなくなります。ソフトバウンスの再試行とその間隔は、メッセージの E メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
 >
->すべての影響について詳しくは、 [Adobe Campaign Enhanced MTAドキュメントを参照してください](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
+>すべての影響について詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。
 
 
 ## 有効期間の定義 {#defining-validity-period}
@@ -197,12 +197,12 @@ The central section of the **[!UICONTROL Delivery]** tab for delivery parameters
 
    日付を指定することもできます。これを行うには、を選択しま **[!UICONTROL Explicitly set validity dates]**&#x200B;す。 この場合、配信および有効期限日に時刻を指定することもできます。デフォルト値は現在時刻ですが、入力フィールドを使用して直接変更できます。
 
-* **リソースの有効期限**:このフ **[!UICONTROL Validity limit]** ィールドは、主にミラーページと画像のアップロードされたリソースに使用されます。 ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
+* **有効期限**:このフィ **[!UICONTROL Validity limit]** ールドは、主にリソースと画像をアップロードする際に使用されるミラーページです。 ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 
    このフィールドの値は、[この節](../../platform/using/adobe-campaign-workspace.md#default-units)にリストされている単位で表示できます。
 
 >[!NOTE]
 >
->ホストインストールまたはハイブリッドインストールの場合、拡張MTAにアップグレードした場合、キャンペーン配信の設定は、 **[!UICONTROL Delivery duration]****** 3.5日以下に設定された場合にのみ使用されます。 3.5日を超える値を定義した場合、その値は考慮されません。
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Delivery duration]** setting in your Campaign deliveries will be used only if set to **3.5** days or less. 3.5 日を超える値を定義した場合、その値は考慮されません。
 >
->すべての影響について詳しくは、 [Adobe Campaign Enhanced MTAドキュメントを参照してください](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
+>すべての影響について詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。

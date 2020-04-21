@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classicで配信品質を向上させるための技術的な推奨事項
-description: Adobe Campaign Classicを使用して配信品質を向上させるために使用できるDiscoverのテクニック、設定およびツールを紹介します。
+title: Adobe Campaign Classic で配信品質を向上させるための技術的な推奨事項
+description: Adobe Campaign Classic を使用して配信品質を向上させるために使用できるテクニック、設定およびツールを紹介します。
 page-status-flag: never-activated
 uuid: 71be1087-e5ff-4a7a-85ca-36803839e72f
 contentOwner: sauviat
@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0291f464c2b4db51e1e56cefe83aa9e751e680a9
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -30,17 +30,17 @@ Adobe Campaign は、IP アドレスに対してリバース DNS が提供され
 
 ネットワーク設定で重要な点は、送信メッセージの IP アドレスごとに正しいリバース DNS が必ず定義されるようにすることです。つまり、特定の IP アドレスには、最初の IP アドレスにループバックする対応 DNS（A レコード）を記述したリバース DNS レコード（PTR レコード）があるということです。
 
-特定の ISP を扱う場合には、リバース DNS のドメイン選択が影響を及ぼします。AOL, in particular, only accepts feedback loops with an address in the same domain as the reverse DNS (see [Feedback loop](#feedback-loop)).
+特定の ISP を扱う場合には、リバース DNS のドメイン選択が影響を及ぼします。特に、AOL は、リバース DNS と同じドメインに属するアドレスのフィードバックループのみを受け付けます（[フィードバックループ](#feedback-loop)を参照）。
 
-ドメインの設定を検証するツールを使用できます。https://mxtoolbox.com/SuperTool.aspx [](https://mxtoolbox.com/SuperTool.aspx).
+ドメインの設定を検証するツールがあります。[https://mxtoolbox.com/SuperTool.aspx](https://mxtoolbox.com/SuperTool.aspx) を参照してください。
 
 ### MX ルール {#mx-rules}
 
 MX（Mail eXchanger）ルールは、送信サーバーと受信サーバーの間の通信を管理するルールです。
 
-より正確には、キャンペーンMTA(Message Transfer Agent)が個々の電子メールドメインまたはISP（hotmail.com、comcast.netなど）に電子メールを送信する速度を制御するために使用されます。 これらのルールは、通常、ISP によって公開された制限（例：各 SMTP 接続あたり 20 を超えるメッセージを含めない）に基づいています。
+より正確に言うと、MX ルールは、Campaign MTA（メール転送エージェント）が E メールを個々の E メールドメインまたは ISP（例：hotmail.com、comcast.net）に送信する速度を制御するために使用されます。これらのルールは、通常、ISP によって公開された制限（例：各 SMTP 接続あたり 20 を超えるメッセージを含めない）に基づいています。
 
-For more on MX management, refer to the [dedicated section](../../installation/using/email-deliverability.md#mx-configuration).
+MX 管理について詳しくは、[該当する節](../../installation/using/email-deliverability.md#mx-configuration)を参照してください。
 
 ### TLS {#tls}
 
@@ -52,27 +52,27 @@ TLS（トランスポート層セキュリティ）は、暗号化プロトコ�
 
 SPF（Sender Policy Framework）は、E メール認証標準で、ドメインの所有者がドメインの代わりに E メールを送信できる E メールサーバーを指定できます。この標準は、E メールの「Return-Path」ヘッダー（「Envelope From」アドレスとも呼ばれる）のドメインを使用します。
 
-SPFレコードを検証するツールを使用できます。https://www.kitterman.com/spf/validate.html [](https://www.kitterman.com/spf/validate.html)
+SPF レコードを検証するツールがあります。[https://www.kitterman.com/spf/validate.html](https://www.kitterman.com/spf/validate.html) を参照してください。
 
-SPFは、ある程度、電子メールで使用されるドメイン名が偽造されていないことを確認できる技術です。 あるドメインからメッセージが受信されると、そのドメインの DNS サーバーに対して問い合わせが実行されます。その応答は、このドメインから E メールを送信する権限がどのサーバーにあるかを記述した短いレコード（SPF レコード）になります。このレコードを変更する手段がドメインの所有者にしかないと仮定すると、送信者のアドレス（少なくとも「@」の右側の部分）の偽装はこの技術により防止できると考えることができます。
+SPF は、E メールで使用されているドメイン名が偽装されていないことをある程度確認できる技術です。あるドメインからメッセージが受信されると、そのドメインの DNS サーバーに対して問い合わせが実行されます。その応答は、このドメインから E メールを送信する権限がどのサーバーにあるかを記述した短いレコード（SPF レコード）になります。このレコードを変更する手段がドメインの所有者にしかないと仮定すると、送信者のアドレス（少なくとも「@」の右側の部分）の偽装はこの技術により防止できると考えることができます。
 
-最終的な [RFC 4408仕様では](https://www.rfc-editor.org/info/rfc4408)、送信者と見なされるドメインを決定するために、メッセージの2つの要素が使用されます。SMTPの「HELO」（または「EHLO」）コマンドで指定されたドメインと、「Return-Path」（または「MAIL FROM」）ヘッダーのアドレスで指定されたドメイン。これはバウンスアドレスでもあります。 様々な事項を検討することにより、これらの値の一方のみを考慮に入れることが可能になります。両方のソースで指定されているドメインが必ず同じになるようにすることをお勧めします。
+最終版の [RFC 4408 仕様](https://www.rfc-editor.org/info/rfc4408)では、送信者と見なされるドメインを判断するのに、2 つのメッセージ要素、SMTP 「HELO」（または「EHLO」）コマンドで指定されたドメインおよび「Return-Path」（または「MAIL FROM」）ヘッダーのアドレスで指定されたドメインを使用します。後者は、バウンスアドレスでもあります。様々な事項を検討することにより、これらの値の一方のみを考慮に入れることが可能になります。両方のソースで指定されているドメインが必ず同じになるようにすることをお勧めします。
 
 SPF の確認により、送信者ドメインの有効性が次のように評価されます。
 
-* **なし**:評価は実行できませんでした。
-* **中間**:照会されたドメインで評価が有効になっていません。
-* **パス**:ドメインは、認証済みと見なされます。
-* **失敗**:ドメインが偽造され、メッセージが拒否される。
-* **SoftFail**:ドメインは偽造されているかもしれませんが、この結果だけに基づいてメッセージを拒否すべきではありません。
-* **TempError**:一時的なエラーが評価を停止しました。 メッセージを拒否してもかまいません。
-* **PermError**:ドメインのSPFレコードが無効です。
+* **None**：評価を実行できませんでした。
+* **Neutral**：問い合わせられたドメインでは評価が有効になっていません。
+* **Pass**：ドメインは真正なものとみなされます。
+* **Fail**：ドメインは偽装されており、メッセージを拒否すべきです。
+* **SoftFail**：ドメインはおそらく偽装されていますが、この結果だけからメッセージを拒否すべきではありません。
+* **TempError**：一時的なエラーで評価が停止しました。メッセージを拒否してもかまいません。
+* **PermError**：ドメインの SPF レコードが無効です。
 
 DNS サーバーのレベルで作成されたレコードを考慮するのに最大 48 時間かかる可能性があることに注意する必要があります。この遅延は、受信サーバーの DNS キャッシュの更新頻度によって異なります。
 
 ### DKIM {#dkim}
 
-DKIM(DomainKeys Identified Mail)認証はSPFの後継機能で、公開鍵暗号化を使用して、受信電子メールサーバーが、送信元であると主張する個人またはエンティティによってメッセージが送信されたこと、および最初に送信された時刻（およびDKIM「署名済み」）から受信時刻までにメッセージ内容が変更されたかを検証します。 この標準は、通常、「From」または「Sender」ヘッダーのドメインを使用します。DKIMのセキュリティレベルを確保するために、暗号化サイズを推奨するベストプラクティスは1024bです。 これより小さいサイズの DKIM 鍵は、大多数のアクセスプロバイダーには有効とはみなされません。
+DKIM（DomainKeys Identified Mail）認証は、SPF の後継で、公開鍵暗号化を使用します。受信 E メールサーバーは、送信したと主張する個人または法人によってメッセージが実際に送信されたか、およびメッセージコンテンツが最初に送信された（および DKIM が「署名された」）ときと受信時で変更されているかどうかを検証できます。この標準は、通常、「From」または「Sender」ヘッダーのドメインを使用します。DKIM のセキュリティレベルを確保するのに、ベストプラクティスとして推奨される暗号化サイズは 1024b です。これより小さいサイズの DKIM 鍵は、大多数のアクセスプロバイダーには有効とはみなされません。
 
 DKIM は、Yahoo! の DomainKeys と Cisco の Identified Internet Mail という 2 つの送信ドメイン認証方式を組み合わせて策定されたもので、送信者ドメインの信憑性を確認し、メッセージの整合性を保証するために使用されます。
 
@@ -80,9 +80,9 @@ DKIM が **DomainKeys** 認証方式の後継となりました。
 
 >[!IMPORTANT]
 >
->ホストインストールまたはハイブリッドインストールの場合、拡張MTAにアップグレードした場合、DKIM電子メール認証の署名は拡張MTAによって行われます。 ネイティブCampaign MTAによるDKIM署名は、拡張MTAアップグレードの一 **[!UICONTROL Domain management]** 環として、テーブル内で無効になります。
+>ホストインストールまたはハイブリッドインストールで、Enhanced MTA にアップグレードした場合、DKIM の E メール認証署名は Enhanced MTA がおこないます。DKIM-signing by the native Campaign MTA will be turned off within the **[!UICONTROL Domain management]** table as part of the Enhanced MTA upgrade.
 >
->Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+>Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)を参照してください。
 
 DKIM を使用するには、次のように、いくつかの前提条件を満たす必要があります。
 
@@ -94,7 +94,7 @@ DKIM を使用するには、次のように、いくつかの前提条件を満
 >
 >* お使いの Adobe Campaign インスタンスに DomainKeys を設定してある場合は、ドメイン処理ルールで **dkim** を選択するだけです。そうでない場合は、DomainKeys の場合と同じ設定手順（秘密鍵／公開鍵）に従います。
 >* DKIM は DomainKeys の改良版なので、同じドメインに DomainKeys と DKIM の両方を有効にする必要はありません。
->* 次のドメインは、現在DKIMを検証しています。AOL、Gmail。
+>* 現在 DKIM が有効になっているドメインは、AOL および Gmail です。
 
 
 ### DMARC {#dmarc}
@@ -104,7 +104,7 @@ DMARC（Domain-based Message Authentication, Reporting and Conformance）は、�
 * 適合性 - 送信者は、認証に失敗したすべてのメッセージをどのように処理するか（「承諾しない」など）について ISP に指示できます。
 * レポート - DMARC 認証に失敗したすべてのメッセージを、それぞれに使用された「From」ドメインおよび IP アドレスと共に詳細なレポートを送信者に提供します。これにより、認証に失敗し、ある種の「修正」（IP アドレスの SPF レコードへの追加など）が必要な正当な E メールを、その E メールドメインのフィッシング攻撃のソースおよび横行率と共に識別できます。
 
-DMARC can leverage the reports generated by [250ok](https://250ok.com/).
+DMARC は、[250ok](https://250ok.com/) が生成したレポートを活用できます。
 
 <!--#### Configuring the application {#configuring-the-application}
 
@@ -146,9 +146,9 @@ Recommendations for defining an SPF record:
 * 対象インスタンス専用のメールボックス（バウンスメールボックスとなる場合があります）
 * 対象インスタンス専用の IP 送信アドレス
 
-Adobe Campaignで単純なフィードバックループを実装する場合は、バウンスメッセージ機能を使用します。 フィードバックループメールボックスは、バウンスメールボックスとして使用され、これらのメッセージを検出するためのルールが定義されます。メッセージをスパムとして報告した受信者の E メールアドレスは、強制隔離リストに追加されます。
+Adobe Campaign でシンプルなフィードバックループを実装する場合は、バウンスメッセージ機能が使用されます。フィードバックループメールボックスは、バウンスメールボックスとして使用され、これらのメッセージを検出するためのルールが定義されます。メッセージをスパムとして報告した受信者の E メールアドレスは、強制隔離リストに追加されます。
 
-* バウンスメールルール **Feedback_loopを作成または変更します(** Refused **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** 、 **Hard** の各タイプの理由を使用) ****。
+* バウンスメールルール **Feedback_loopを作成または変更します。このルールは、「拒否」(** Refused **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** )と「ハード」( **Hard** )という理由で作成します ****。
 * If a mailbox has been defined specially for the feedback loop, define the parameters to access it by creating a new external Bounce Mails account in **[!UICONTROL Administration > Platform > External accounts]**.
 
 苦情の通知を処理するメカニズムがただちに有効になります。このルールが正しく機能していることを確認するには、これらのメッセージが収集されないようにアカウントを一時的に無効にした後、フィードバックループメールボックスの内容を手動で確認します。サーバー上で、次のコマンドを順に実行します。
@@ -162,7 +162,7 @@ nlserver inMail -instance:instance -verbose.
 
 * 受信したメッセージをインスタンスと同数のメールボックス上に複製します。
 * インスタンスごとに各メールボックスが選択されるようにします。
-* インスタンスに関連するメッセージのみを処理するようにインスタンスを設定します。インスタンス情報は、Adobe Campaignから送信されるメッセージのMessage-IDヘッダーに含まれるので、フィードバックループメッセージにも配置されます。 インスタンス設定ファイルの **checkInstanceName** パラメーターを指定するだけです（デフォルトでは、インスタンスは検証されず、その結果、特定のアドレスが誤って強制隔離される可能性があります）。
+* 関係するメッセージだけを処理するようにインスタンスを設定します。インスタンス情報は、Adobe Campaign から送信されるメッセージの Message-ID ヘッダーに含まれているので、フィードバックループメッセージにも含まれています。インスタンス設定ファイルの **checkInstanceName** パラメーターを指定するだけです（デフォルトでは、インスタンスは検証されず、その結果、特定のアドレスが誤って強制隔離される可能性があります）。
 
    ```
    <serverConf>
@@ -170,7 +170,7 @@ nlserver inMail -instance:instance -verbose.
    </serverConf>
    ```
 
-Adobe Campaignの配信品質サービスは、以下のISPに対するフィードバックループサービスの購読を管理します。AOL、BlueTie、Comcast、Cox、EarthLink、FastMail、Gmail、Hotmail、HostedEmail、Libero、Mail.ru、MailTrust、OpenSRS、QQ、RoadRunner、Synacor、Terra、UnitedOnline、USA、USA、XS4ALL、Yahoo、Yandex、Zoho。
+Adobe Campaign の配信品質サービスは、以下の ISP のフィードバックループサービスへのサブスクリプションを管理します。AOL、BlueTie、Comcast、Cox、EarthLink、FastMail、Gmail、Hotmail、HostedEmail、Libero、Mail.ru、MailTrust、OpenSRS、QQ、RoadRunner、Synacor、Telenor、Terra、UnitedOnline、USA、XS4ALL、Yahoo、Yandex、Zoho。
 
 ## List-Unsubscribe {#list-unsubscribe}
 
@@ -227,7 +227,7 @@ Gmail、Outlook.com および Microsoft Outlook はこの手法をサポート�
 >
 >タイポロジルールを作成することをお勧めします。各 E メールに List-Unsubscribe 機能が自動的に追加されます。
 
-1. List-Unsubscribe:&lt;mailto:unsubscribe@domain.com>
+1. List-Unsubscribe: &lt;mailto:unsubscribe@domain.com>
 
    ユーザーが&#x200B;**購読解除**&#x200B;リンクをクリックすると、デフォルトの E メールクライアントが開きます。このタイポロジルールは、E メールの作成に使用されるタイポロジに追加する必要があります。
 
@@ -239,13 +239,13 @@ Gmail、Outlook.com および Microsoft Outlook はこの手法をサポート�
 
    ![](assets/s_tn_del_unsubscribe_param.png)
 
-## 電子メールの最適化 {#email-optimization}
+## E メールの最適化 {#email-optimization}
 
 ### SMTP {#smtp}
 
-SMTP (Simple mail transfer protocol)は、電子メール送信のインターネット標準です。
+SMTP（Simple Mail Transfer Protoco）は、E メール送信のインターネット標準です。
 
-ルールで確認されないSMTPエラーは、 > > > **[!UICONTROL Administration]** >フォルダー **[!UICONTROL Campaign Management]** に表示 **[!UICONTROL Non deliverables Management]** され **[!UICONTROL Delivery log qualification]** ます。 これらのエラーメッセージは、デフォルトでは、到達不能なソフトエラーと解釈されます。最も一般的なエラーを特定し、SMTPサーバからのフィードバックを正しく修飾する場合は、> > **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]****[!UICONTROL Non deliverables Management]****[!UICONTROL Mail rule sets]** に対応するルールを追加する必要があります。 これをおこなわないと、プラットフォームは不要な再試行を実行したり（不明ユーザーの場合）、一定回数のテストの後に特定の受信者を誤って強制隔離したりすることになります。
+ルールでチェックされないSMTPエラーは、> > > **[!UICONTROL Administration]** >フォルダー **[!UICONTROL Campaign Management]** に表示 **[!UICONTROL Non deliverables Management]** され **[!UICONTROL Delivery log qualification]** ます。 これらのエラーメッセージは、デフォルトでは、到達不能なソフトエラーと解釈されます。最も一般的なエラーを特定し、SMTPサーバからのフィードバックを正しく修飾したい場合は、 **[!UICONTROL Administration]** > > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** に **[!UICONTROL Mail rule sets]** 対応するルールを追加する必要があります。 これをおこなわないと、プラットフォームは不要な再試行を実行したり（不明ユーザーの場合）、一定回数のテストの後に特定の受信者を誤って強制隔離したりすることになります。
 
 ### 専用の IP {#dedicated-ips}
 
@@ -253,27 +253,27 @@ SMTP (Simple mail transfer protocol)は、電子メール送信のインター�
 
 ## IP 証明書 {#ip-certification}
 
-IP証明書は、スパム対策フィルターや他の電子メールブロックシステムによってブロックされることなく、電子メールを確実に受信できるようにするためのホワイトリストおよび送信プラクティスプログラムです。
+IP 証明書は、スパム対策フィルターや他の E メールブロックシステムによってブロックされることなく、E メールが確実に受信されるようにする、ホワイトリストおよび送信プラクティスのプログラムです。
 
-現在、2つのプロバイダーがIP証明書を提供しています。リターンパスと認定送信者同盟を参照してください。
+現在、2 社のプロバイダーが IP 証明書を提供しています。Return Path および Certified Senders Alliance です。
 
-認証された送信者は、グローバルメールボックスプロバイダーや電子メールセキュリティ会社が使用する電子メールホワイトリストに追加されます。 これらの商用ホワイトリストは、送信者がスパム対策フィルターを完全に回避したり、システムに入る際に増分ポイントを割り当てることを可能にするシステムに基づいています。
+認証された送信者は、世界のメールボックスプロバイダーや E メールセキュリティ会社が使用する E メールホワイトリストに追加されます。こうした商用ホワイトリストは、送信者がスパム対策フィルターを完全にバイパスするシステムや、システムに入ると増加するポイントが割り当てられるシステムに基づいています。
 
-Return Path Certification [（リターンパス証明）プログラムには](https://www.validity.com/products/returnpath/certification/) 、次のような多くの利点があります。
+[Return Path Certification](https://www.validity.com/products/returnpath/certification/) プログラムには、次のような多くの利点があります。
 
-* Microsoft、AOL、Yahoo、Gmail、Comcast、Orange、Mail.ruなど、トップのメールボックスプロバイダでのインボックスの配置が大幅に増加
-* Cloudmark、SpamAssicin、Cisco Ironportなどの重要なフィルターでの評判と治療
-* 24時間365日の監視に専念したコンプライアンス・チームが、セキュリティ・アラートを提供し、妥協の解決を通じてお客様と協力
-* KPI、配置、および証明書のパフォーマンスに関する詳細情報を提供するメールボックスプロバイダのデータ
-* IPの温調化をシンプル化し、高速化。新しいIPアドレスを移行または取得する際の評判と認識の強化を含む。
+* Microsoft、AOL、Yahoo、Gmail、Comcast、Orange、Mail.ruなど、大手メールボックスプロバイダーにおける受信ボックスへの配置率が大幅に向上
+* Cloudmark、SpamAssassin および Cisco Ironport など、重要なフィルターでの有利な評判と扱い
+* 24 時間 365 日の監視をおこなう専門のコンプライアンスチームが、セキュリティアラートを提供し、あらゆるセキュリティ侵害の解決のために協力
+* KPI、配置および証明書パフォーマンスに関する詳細情報を提供する、メールボックスプロバイダーのデータ
+* 新しい IP アドレスへの移行または取得の際の評判と認知度の強化を含む、シンプルで高速な IP ウォームアップ
 
-認定送 [信者同盟認定は](https://certified-senders.org/certification-process/) 、次のようなメリットを提供します。
+[Certified Senders Alliance](https://certified-senders.org/certification-process/) 証明書には、以下のような利点があります。
 
-* 高品質な標準に準拠できる商用電子メールの送信者の認証
-* 商用電子メールの配信と配信性を改善し、インボックスの配置率を上げ、スパムフィルターを削減
-* 法的基準に完全に準拠して法的リスクや金融リスクから保護
-* CSA苦情・オフィスと日次スパム・トラップ・レポートから早期警告を受け、評判を保護
+* 高品質な基準に準拠できる商用 E メール送信者の認証
+* 商用 E メールの配信と配信品質を改善し、受信ボックスへの配置率を上げ、スパム対策フィルターにかかる割合を削減
+* 法的基準に完全に準拠して、法的リスクや経済的リスクから保護
+* CSA Complaints Office からの早期警告および毎日のスパムトラップレポートにより、評判を保護
 
 ISP は、これらのサービスを自由に使用するので、ISP の数はホワイトリストによって異なる可能性があります。
 
-ただし、IP証明書を使用すると、受信トレイの所有者の行動に基づいてスパム対策フィルターを構築するISPが増えているので、受信トレイの配置や配信の保証にはなりません。
+ただし、メッセージコンテンツの分析よりも受信ボックス所有者の行動に基づいてスパム対策フィルターを構築する ISP が増えているため、IP 証明書を使用すれば受信ボックスへ配置や配信が保証されるわけではありません。

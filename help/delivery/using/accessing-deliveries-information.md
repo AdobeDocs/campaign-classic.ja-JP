@@ -14,8 +14,8 @@ discoiquuid: d2631c67-7781-4baa-b24e-e7921353d131
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
+translation-type: tm+mt
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -24,9 +24,9 @@ source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
 
 ## 配信のリストへのアクセス {#accessing-the-list-of-deliveries}
 
-配信のリストにアクセスするには、**[!UICONTROL キャンペーン]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 配信]**」リンクをクリックします。
+To access the list of deliveries, go to the **[!UICONTROL Campaigns]** universe and click the **[!UICONTROL Deliveries]** link.
 
-[エクスプローラービュー](../../platform/using/adobe-campaign-workspace.md#about-adobe-campaign-explorer)を使用している場合は、ツリーの&#x200B;**[!UICONTROL キャンペーン管理／配信]**&#x200B;ノードから、すべての配信にアクセスできます。
+If you use [the Explorer view](../../platform/using/adobe-campaign-workspace.md#about-adobe-campaign-explorer), you can access all deliveries via the **[!UICONTROL Campaign management > Deliveries]** node in the tree.
 
 >[!NOTE]
 >
@@ -64,30 +64,30 @@ source-git-commit: 211556bbf023731ffeab2e90692410a852ab3555
 
 ![](assets/s_ncs_user_status_campaigns_120.png)
 
-「**[!UICONTROL 作成]**」ボタンの横にあるドロップダウンリストを使用して、ステータスに基づいて配信をフィルターできます。
+The drop-down list next to the **[!UICONTROL Create]** button enables you to filter deliveries based on their status.
 
 ![](assets/delivery_filter_status.png)
 
 ## 配信カレンダーへのアクセス {#accessing-the-delivery-calendar}
 
-配信カレンダーにアクセスするには、**[!UICONTROL キャンペーン]**&#x200B;ウィンドウに移動して、「**[!UICONTROL キャンペーンカレンダー]**」リンクをクリックします。このカレンダーは、キャンペーンの分類を時系列で表示します。月、週、日単位で表示をパーソナライズできます。
+To access the delivery calendar, go to the **[!UICONTROL Campaign]** universe and click the **[!UICONTROL Campaign calendar]** link. このカレンダーは、キャンペーンの分類を時系列で表示します。月、週、日単位で表示をパーソナライズできます。
 
 ![](assets/s_ncs_user_interface_delivery04.png)
 
-配信の名前をクリックして、配信の主要情報を表示します。必要に応じて、「**[!UICONTROL 開く]**」をクリックしてキャンペーンを開くこともできます。
+配信の名前をクリックして、配信の主要情報を表示します。You can also open the campaign if necessary by clicking **[!UICONTROL Open]**.
 
 ![](assets/s_ncs_user_interface_delivery05.png)
 
 ## 配信スループット情報へのアクセス {#accessing-deliveries-throughput-information}
 
-**[!UICONTROL 配信スループット]**&#x200B;ページの情報は、プラットフォームのすべての配信に関連しています。メッセージが配信される速度を測定するには、1 時間に送信されたメッセージの数とメッセージのサイズ（bps）が基準になります。次の例では、最初のグラフに正常な配信を青で、誤った配信をオレンジで示しています。
+The information on the **[!UICONTROL Delivery throughput]** page concerns all the deliveries of the platform. メッセージが配信される速度を測定するには、1 時間に送信されたメッセージの数とメッセージのサイズ（bps）が基準になります。次の例では、最初のグラフに正常な配信を青で、誤った配信をオレンジで示しています。
 
-スループットを計算する時間枠を選択できます。そのためには、ドロップダウンリストから値を選択して、「**[!UICONTROL 更新]**」をクリックします。
+スループットを計算する時間枠を選択できます。To do this, select the value from the drop-down list, and then click **[!UICONTROL Refresh]**.
 
 ![](assets/s_ncs_user_interface_delivery06.png)
 
 >[!NOTE]
 >
->ホストインストールまたはハイブリッドインストールで Enhanced MTA にアップグレードした場合、**[!UICONTROL 配信スループット]**&#x200B;ページには E メールの受信者へのスループットが表示されなくなります。Campaign から Enhanced MTA へのメッセージのリレーのスループット速度が表示されます。
+>For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Delivery throughput]** page will no longer display the throughput to your email recipients. Campaign から Enhanced MTA へのメッセージのリレーのスループット速度が表示されます。
 >
->Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)を参照してください。
+>Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)を参照してください。

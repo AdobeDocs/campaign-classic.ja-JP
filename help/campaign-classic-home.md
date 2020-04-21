@@ -5,7 +5,7 @@ solution: Campaign Classic
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: ffaa4d4442448f9d30c4a1ef41b8bd73363088e0
+source-git-commit: 12c38d8ccf198b59ce93ee4155940612637b2856
 
 ---
 
@@ -15,6 +15,8 @@ source-git-commit: ffaa4d4442448f9d30c4a1ef41b8bd73363088e0
 ![](platform/using/assets/do-not-localize/banner_acc_doc.jpg)
 
 ## 新着情報
+
+* **[サポートアクセスFAQ](https://helpx.adobe.com/campaign/kb/ac-support.html)**</br>、ベストプラクティス、ヘルプリソース、キャンペーンの専門家やカスタマーケアチームとの連絡
 
 * **[プライバシーコンプライアンス](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/> Adobe Campaignがプライバシーコンプライアンスを支援する方法を説明します。
 

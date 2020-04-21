@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 75f195a11170b4213f930deed886f8bf5b0817bc
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign Classic ドキュメントのすべての最新アップデート
 
 [Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
 
-## April 2020 {#april-2020}
+## 2020 年 4 月 {#april-2020}
 
 FDA権限テーブルは、「外部データベースへのアクセス」(FDA)ドキュメントに移動されました。 [詳細を表示](../../platform/using/remote-database-access-rights.md)
 
@@ -39,6 +39,8 @@ Adobe Campaignの事前定義データモデルについて説明する節が更
 『ワークフローによる自動化』ガイドの使用例は、主題に関するセクションに再編成されました。 [詳細を表示](../../workflow/using/using-the-local-approval-activity.md)
 
 「バウン [スのメール資格](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) 」と「電子メ [ール管理ルール](../../delivery/using/understanding-delivery-failures.md#email-management-rules) 」の各セクションが、更新された情報で強化されました。
+
+Adobe Campaign拡張MTA記事が更新されました。 現在は、Campaign Classicのみ。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acc-acc-campaign-enhanced-mta.html)
 
 ## 2020 年 3 月 {#march-2020}
 
@@ -114,7 +116,7 @@ URLレポート設定の新しいパラメーターは、ここで説明され�
 
 Adobe Campaign Classic のデータモデルの基本と各テーブルの説明にアクセスする方法について説明する新しい節が追加されました。[詳細を表示](../../configuration/using/about-data-model.md)
 
-Adobe Campaign Enhanced MTA の記述を更新し、Enhanced MTA ヘッダーをすべてのメッセージに追加しないインスタンスに、特定のタイポロジパッケージをインストールする方法について詳細が追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html#impacts)
+Adobe Campaign Enhanced MTA の記述を更新し、Enhanced MTA ヘッダーをすべてのメッセージに追加しないインスタンスに、特定のタイポロジパッケージをインストールする方法について詳細が追加されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html#impacts)
 
 クエリの設計に関する使用事例が別個の節に再編成されました。[詳細を表示](../../workflow/using/querying-recipient-table.md)
 
@@ -152,7 +154,7 @@ AMP を使用したインタラクティブコンテンツ - [詳細を表示](.
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-Adobe Campaign Enhanced MTA のドキュメントが入手できるようになりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)
+Adobe Campaign Enhanced MTA のドキュメントが入手できるようになりました。[詳細を表示](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 キャンペーン内で「開始準備中」の状態に留まるワークフローをトラブルシュートする方法について、新しい節が追加されました。 [詳細を表示](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 

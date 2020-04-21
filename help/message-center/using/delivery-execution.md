@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
+source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
 >
 >MTA は、トランザクションメッセージの処理を他のどの配信よりも優先します。
 
-実行インスタンスで、エンリッチメントステージが完了し、配信テンプレートがイベントにリンクされると、配信が送信されます。 すべての配信がフォルダーにグループ化さ **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]** れます。
+実行インスタンス上で、エンリッチメントステージが完了し、配信テンプレートがイベントにリンクされると、配信が送信されます。 すべての配信がフォルダにグループ化 **[!UICONTROL Administration > Production > Message Center > Default > Deliveries]** されます。
 
 ![](assets/messagecenter_deliveries_execinstances_001.png)
 
@@ -38,4 +38,4 @@ source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
 
 >[!NOTE]
 >
->ホスト型またはハイブリッド型のインストールの場合、拡張MTAにアップグレードした場合、配信品質、スループットおよびバウンス処理を向上させるために、すべてのトランザクションメッセージがAdobe Campaign拡張MTAと共に送信される場合があります。 すべての影響は、標準のマーケティングメッセージと同じで、 [Adobe Campaign Enhanced MTAドキュメントで詳しく説明しています](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
+>ホストインストールまたはハイブリッドインストールでは、Enhanced MTA にアップグレードしている場合、配信品質、スループットおよびバウンス処理を向上させるために、すべてのトランザクションメッセージも Adobe Campaign Enhanced MTA と共に送信される場合があります。すべての影響は標準のマーケティングメッセージと同じです。詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。

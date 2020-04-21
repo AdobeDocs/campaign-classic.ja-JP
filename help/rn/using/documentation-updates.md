@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
+source-git-commit: c8910fdfd07bd835d456baca29710ea927ad20e5
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaignの事前定義データモデルについて説明する節が更
 
 「バウン [スのメール資格](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) 」と「電子メ [ール管理ルール](../../delivery/using/understanding-delivery-failures.md#email-management-rules) 」の各セクションが、更新された情報で強化されました。
 
-Adobe Campaign拡張MTA記事が更新されました。 現在は、Campaign Classicのみ。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acc-acc-campaign-enhanced-mta.html)
+Adobe Campaign拡張MTA記事が更新されました。 現在は、Campaign Classicのみ。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 ## 2020 年 3 月 {#march-2020}
 

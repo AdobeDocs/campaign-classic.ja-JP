@@ -1,7 +1,7 @@
 ---
-title: リリース19.2
-seo-title: リリース19.2
-description: リリース19.2
+title: リリース 19.2
+seo-title: リリース 19.2
+description: リリース 19.2
 seo-description: null
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -15,35 +15,35 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1d08730421c598873e272f305a819e3fb4509d90
+source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
 
 ---
 
 
-# Release 19.2{#release-19-2}
+# リリース 19.2{#release-19-2}
 
-[アップグレードの構築](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) )|コント [ロールパネルのリリース](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |ドキュメ [ントの更新](../../rn/using/documentation-updates.md) |以 [前のリリース](../../rn/using/release--19-1.md) |非推 [奨の機能](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリース](../../rn/using/release--19-1.md) | [廃止された機能](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
   <tr> 
-   <td><img src="assets/green3.png"/><strong>一般公開</strong></td>
-   <td><img src="assets/blue3.png"/><strong>候補をリリース</strong></td> 
-   <td><img src="assets/orange3.png"/><strong>使用できなくなりました</strong></td> 
-   <td><img src="assets/red3.png"/><strong>廃止</strong></td> 
+   <td><img src="assets/do-not-localize/green3.png"/><strong>一般公開（GA）</strong></td>
+   <td><img src="assets/do-not-localize/blue3.png"/><strong>リリース候補</strong></td> 
+   <td><img src="assets/do-not-localize/orange3.png"/><strong>公開停止</strong></td> 
+   <td><img src="assets/do-not-localize/red3.png"/><strong>廃止済み</strong></td> 
   </tr> 
    <tr> 
-   <td>最新の安定したビルドが利用可能です。 ビルドは実稼働環境で検証されました。<br> </td>
-   <td>ビルドはアドビによって検証されます。 製品の校正を待っています。<br> </td>
-   <td>新しいビルドにバグ修正が加えられました。 更新が必要です。<br> </td>
-   <td>既知の回帰が含まれます。 更新は必須です。<br> </td>
+   <td>最新の安定したビルド。ビルドは本番環境で検証済みです。<br></td>
+   <td>アドビが検証済みのビルド。本番環境での検証待ちです。<br></td>
+   <td>バグ修正を含む、新しいビルドがあります。更新が必要です。<br></td>
+   <td>新たな不具合を含むことがわかっています。必ず更新が必要です。<br></td>
   </tr> 
  </tbody> 
 </table>
 
-最後 **の安定ビルドは** 9032 (205c981c3)です。 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+最後 **の安定ビルドは** 9032 (3a9dc9c)です。 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/orange_2.png) リリース19.2.3 — ビルド9081 {#release-19-2-3-build-9081}
+## ![](assets/do-not-localize/orange_2.png) リリース 19.2.3 - ビルド 9081 {#release-19-2-3-build-9081}
 
 _2020年2月7日_
 
@@ -52,25 +52,25 @@ _2020年2月7日_
 * SSL証明書の実装によるWindowsサーバーでのユーザー接続の失敗に起因する問題が修正されました。 （NEO-20629）
 * バージョン情報メニューに誤ったバージョンタグ番号が表示される問題を修 **正し** ました。
 
-## ![](assets/orange_2.png) リリース19.2 — ビルド9080 {#release-19-2-build-9080}
+## ![](assets/do-not-localize/orange_2.png) リリース19.2 - ビルド 9080 {#release-19-2-build-9080}
 
-_2019年12月2日_
+_2019 年 12 月 02 日_
 
 **新機能?**
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>カリフォルニア消費者プライバシー法(CCPA)</strong><br /> </th> 
+   <th> <strong>カリフォルニア州消費者プライバシー法（CCPA）</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>CCPAは、2020年1月1日に施行されるデータ保護要件を調和させ、最新化するカリフォルニア州の新しいプライバシー法です。 CCPAは、カリフォルニアに居住するデータの件名のデータを保持するAdobe Campaignのお客様に適用されます。</p>
-    <p>Adobe Campaignは、既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザーの役割を含む）に加え、CCPAの準備を容易にします。</p>
+   <td> <p>CCPA は、2020 年 1月 1 日より米国カリフォルニア州にて新しく施行されるプライバシー保護法律で、データ保護要件を現代の状況に合わせて整合化させることを目的としています。CCPA は、カリフォルニア州に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。</p>
+    <p> Adobe Campaign は、既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザー役割を含む）に加えて、CCPA への対応準備を容易にします。</p>
     <ul>
-      <li>アクセス権と削除権：GDPRに追加された機能を活用しています。 <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#righttoaccess">詳細を表示</a></li>
-      <li>顧客が個人情報の販売をオプトアウトしたかどうかを追跡できます。 この場合は、プロファイルテーブルを拡張し、CCPAのオプトアウ <strong>トフィールドを追加する必要があります</strong> 。 <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html#ccpa">詳細を表示</a></li></td> 
+      <li>アクセス権と削除権：GDPR 用に追加された機能を活用します。<a href="https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html#righttoaccess">詳細を表示</a></li>
+      <li>顧客が個人情報の販売からオプトアウトしたかどうかを追跡できます。そのためには、プロファイルテーブルを拡張して「<strong>CCPA のオプトアウト</strong>」フィールドを追加する必要があります。<a href="https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html#ccpa">詳細を表示</a></li></td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,12 +78,12 @@ _2019年12月2日_
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ワークフローのライブ監視</strong><br /> </th> 
+   <th> <strong>ワークフローライブ監視</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>事前定義されたビューを使用して、インスタンス上のすべてのワークフローの実行ステータスを監視できるようになりました。</p>
+   <td> <p>事前定義されたビューを使用し、インスタンス上のすべてのワークフローの実行ステータスを監視できるようになりました。</p>
    <p>詳しくは、<a href="../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status">詳細ドキュメント</a>を参照してください。</p></td> 
   </tr> 
  </tbody> 
@@ -93,14 +93,14 @@ _2019年12月2日_
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>AMPを使用したインタラクティブコンテンツ</strong><br /> </th> 
+   <th> <strong>AMP を使用したインタラクティブコンテンツ</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-<td> <p>Adobe Campaignでは、新しいEmail <a href="https://amp.dev/about/email/">For Interactive</a> AMPを試すことができます。これにより、マーケターは、メッセージ内にAMPコンポーネントを含め、メッセージ自体に直接アクション可能なリッチで動的なインタラクティブなコンテンツを使用して、電子メールエクスペリエンスを強化できます。</p>
-   <p>この機能はパブリックベータ版としてリリースされています。</p>
-   <p>For more information, refer to the <a href="../../delivery/using/defining-interactive-content.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">tutorial video</a>.</p><br /></td> 
+<td> <p>Adobe Campaign では、新しいインタラクティブ <a href="https://amp.dev/about/email/">AMP for Email</a> フォーマットを試すことができます。このフォーマットでは、マーケターは、メッセージ内に AMP コンポーネントを含め、メッセージ内で直接アクション可能な、リッチで動的なインタラクティブコンテンツを使用して E メールエクスペリエンスを強化できます。</p>
+   <p> この機能はパブリックベータ版としてリリースされています。</p>
+   <p>詳しくは、<a href="../../delivery/using/defining-interactive-content.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">チュートリアルビデオ</a>を参照してください。</p><br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,74 +114,74 @@ _2019年12月2日_
  </thead> 
  <tbody> 
   <tr> 
-<td> <p>拡張された汎用 SMPP コネクタでセキュア SMS がサポートされるようになりました。これにより、プロバイダーへの接続を暗号化できます。</p> <p><strong>警告</strong> この機能を使用するには、すべてのサーバーで最新の証明書が必要です。 無効な証明書、失効した証明書、または期限切れの証明書は、SMS送信機能全体に影響を与えるエラーを生成します。</p><p>詳しくは、<a href="https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html">詳細ドキュメント</a>を参照してください。 </p> </td> 
+<td> <p>拡張された汎用 SMPP コネクタでセキュア SMS がサポートされるようになりました。これにより、プロバイダーへの接続を暗号化できます。</p> <p><strong>警告</strong> この機能を使用するには、すべてのサーバーで最新の証明書が必要です。無効な証明書、失効した証明書または期限切れの証明書ではエラーが発生し、SMS 送信機能全体に影響を与えます。</p><p>詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html">詳細ドキュメント</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **セキュリティの機能強化**
 
-* キャンペーンインターフェイスの格納されたクロスサイトスクリプティングの脆弱性（入力データの検証と出力エンコーディング）を修正しました。 （NEO-16810）
-* ログイン制限ポリシーを強化することで、権限のないデータへのアクセスを許可する可能性がある、プロファイル認証のセキュリティの問題を修正しました。 （NEO-14445）
+* Campaign インターフェイスの格納型クロスサイトスクリプティングの脆弱性を修正しました（入力データ検証および出力エンコーディング）。（NEO-16810）
+* ログイン制限ポリシーを強化して、権限のないデータへのアクセスを許可する可能性がある、プロファイル認証のセキュリティ問題を修正しました。（NEO-14445）
 
 **強化点**
 
-* プッシュ通知のメモリ消費の最適化を参照してください。
-* パフォーマンスとストレージの最適化のために、 **logins.logファイルの処理が強化され** ました。 現在は、ファイルは複数のファイルに分割され、1日に1つ、最大365個のファイルが保持されます。 [詳細を表示](../../production/using/log-files.md)
-* Microsoft Dynamics CRM外部アカウントは、パスワード資格情報（パスワード+ユーザー名）または証明書（秘密鍵）を使用して構成できるようになりました。 [詳細を表示](../../platform/using/external-accounts.md#microsoft-dynamics-crm-external-account)
-* 信頼性を向上させるため、Hadoop FDAコネクタにいくつかの機能が追加されました。
-* サーバー上のパブリックリソースのアップロードを許可する前に、ディスク領域をチェックする特定のガードレールが追加されました。
-* 新しいキ [ャンペーン](../../installation/using/configuring-campaign-options.md) オプションが追加されました。
-   * WdbcKillSessionPolicy構成オ **プションを使用すると** 、すべてのワークフローとPostgreSQLデータベースクエリに対し **** て、無条件停止動作に影響を与えることができます。
-   * NmsOperation_ **DeliveryPreparationWindowオプションを使用すると** 、ステータスが矛盾する配信が実行中の配信の数から除外される日数を定義できます。
-   * WdbcOptions_ **TempDbName** オプションを使用すると、Microsoft SQL Server上でテーブルを作成するための別のデータベースを設定できます。 これにより、バックアップとレプリケーションが最適化されます。 [詳細を表示](../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)
-   * PostgreSQLの **** XtkCleanup_NoStatsオプションが強化され、データベースクリーンアップワークフローの記憶域最適化手順の動作をより適切に制御できるようになりました。 [詳細を表示](../../production/using/database-cleanup-workflow.md#statistics-update)
-* アカウントのロックアウトメカニズムが **logon()** APIに追加されました。 特定の期間内に連続してログインに失敗した回数が経過した後に、それ以降のログインが試行されるのを防ぎます。
-* 配信プロパティの新しい **Maximum personalization run time** （最大パーソナライゼーション実行時間）オプションを使用すると、パーソナライゼーションの実行時間のタイムアウト期間を定義して、パーソナライゼーションフェーズが長時間実行されないようにすることができます。 [詳細を表示](../../delivery/using/personalization-fields.md#timing-out-personalization)
-* SFTP接 **続にプロキシ設定を使用できるように、** ftpプロトコルオプションが追加されました。 [詳細を表示](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)
-* オンプレミス環境でのSFTP外部サーバーへのプロキシアクセスの新しいサポート。
-* キャンペーンインスタンスと互換性のないパッケージのインストールを防ぐため、特定のガードレールが追加されました。 [詳細を表示](../../installation/using/installing-campaign-standard-packages.md)
+* プッシュ通知のメモリ消費の最適化。
+* パフォーマンスとストレージを最適化するため、**logins.log** ファイルの処理が強化されました。このログファイルは複数のファイルに分割されるようになり、1 日に 1 つのファイルとなり、最大 365 個のファイルが保持されます。[詳細を表示](../../production/using/log-files.md)
+* Microsoft Dynamics CRM 外部アカウントは、パスワード資格情報（パスワード + ユーザー名）または証明書（秘密鍵）を使用して設定できるようになりました。[詳細を表示](../../platform/using/external-accounts.md#microsoft-dynamics-crm-external-account)
+* Hadoop FDA コネクタに強化機能がいくつか追加され、信頼性が向上しました。
+* サーバー上の公開リソースのアップロードを許可する前にディスク領域を確認する、特別なガードレールが追加されました。
+* 新しい[キャンペーンオプション](../../installation/using/configuring-campaign-options.md)が追加されました。
+   * 「**WdbcKillSessionPolicy**」構成オプションを使用すると、すべてのワークフローと PostgreSQL データベースクエリに対して&#x200B;**無条件停止**&#x200B;の動作をさせることができます。
+   * 「**NmsOperation_DeliveryPreparationWindow**」オプションを使用すると、ステータスの一貫しない配信が、実行中の配信の数から除外される日数を定義できます。
+   * 「**WdbcOptions_TempDbName**」オプションを使用すると、Microsoft SQL Server 上で、作業用テーブル向けに別のデータベースを構成できます。これにより、バックアップとレプリケーションを最適化できます。[詳細を表示](../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)
+   * PostgreSQL の「**XtkCleanup_NoStats**」オプションが強化され、データベースクリーンアップワークフローのストレージ最適化手順の動作をより適切に制御できるようになりました。[詳細を表示](../../production/using/database-cleanup-workflow.md#statistics-update)
+* アカウントのロックアウトメカニズムが **logon()** API に追加されました。このメカニズムでは、特定の期間内に一定回数以上連続してログインに失敗すると、それ以降のログイン試行が阻止されます。
+* 配信プロパティの新しいオプション「**最長パーソナライゼーション実行時間**」を使用すると、パーソナライゼーションの実行時間のタイムアウト期間を定義して、過度に長い間パーソナライゼーションフェーズが実行されないようにすることができます。[詳細を表示](../../delivery/using/personalization-fields.md#timing-out-personalization)
+* 「**FTP プロトコル**」オプションが追加され、SFTP 接続でプロキシ設定を使用できるようになりました。[詳細を表示](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)
+* オンプレミス環境で、SFTP 外部サーバーへのプロキシアクセスを新しくサポートするようになりました。
+* Campaign インスタンスと互換性のないパッケージのインストールを防ぐ、特別なガードレールが追加されました。[詳細を表示](../../installation/using/installing-campaign-standard-packages.md)
 
 _廃止されたシステム_
 
-Campaign Classicの導入では、次のシステムが廃 [止され](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html) ました。
+Campaign Classic 実装では、次のシステムが[廃止済み](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)となりました。
 * Apache 2.2
-* セントス6
+* Centos 6
 
-最新のキャンペーン互換性マトリックスに記載されているシステムのサポート対象バージョンを使用していることを確認してください。 [詳細を表示](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+最新の Campaign 互換性マトリックスに記載されているサポート対象バージョンのシステムを使用していることを確認してください。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
-_Campaign Mobile SDK_
+_Campaign モバイル SDK_
 
-iOS SDKのビルド1.0.26が利用できるようになりました。 この新しいビルドでは、iOS 13のサポートが追加されました。 この新しいバージョンでは、通知の優先度と、iOS 13のプッシュ通知用の新しい登録トークン管理プロセスがサポートされるようになりました。 以前のバージョンのSDKでアプリケーションを実行している場合は、新しいSDKを使用してアプリケーションを再コンパイルする必要があります。 SDKを入手するには、アドビカスタマーケアにお問い合わせください。
+iOS SDK のビルド 1.0.26 が利用できるようになりました。この新しいビルドには、iOS 13 のサポートが追加されました。この新しいバージョンでは、通知の優先順位および iOS 13 プッシュ通知用の新しい登録トークン管理プロセスがサポートされるようになりました。以前のバージョンの SDK でアプリケーションを実行している場合は、新しい SDK でアプリケーションを再コンパイルする必要があります。SDK を入手するには、アドビカスタマーケアにお問い合わせください。
 
 **パッチ**
 
-* データの読み込み(RDBMS)ワークフローアクティビティで空のリンクテーブルを追加すると発生する **可能性があるコンソールのクラッシュを修正** しました。 （NEO-12213）
-* 特定のメッセージがミッドソーシングサーバーで処理されない可能性がある問題を修正しました。 （NEO-12395）
-* Teradataでクエリバンディングオプションを使用する場合の、データベースのクリーンアップワークフローの問題を修正しました。 （NEO-12399）
-* ne.jpドメインを含むタイポロジルールを使用した配信分析に影響する問題を修正しました。 （NEO-12609）
-* SMS over TLSの更新に関連する問題を修正しました。この問題は、より厳しい証明書ポリシーを示すものでした。 これらの更新により、古い証明書が含まれている場合に、マーケティングサーバーと中間ソーシングサーバーの間の接続エラーが発生する可能性があります。 （NEO-17698）
-* Vault認証を使用するミッドソーシ **ング環境で** 、外部アカウントで「接続をテスト」ボタンを使用する際の問題を修正しました。 （NEO-12722）
-* FDA Hadoop接続で日付関数を使用するクエリーに関する問題を修正しました。 （NEO-12847）
-* 電子メールエディターで画像を置き換える際の問題を修正しました。 （NEO-13098）
-* 削除されたか別の場所に移動されたフォルダーのアップグレード後のエラーが発生する可能性がある問題を修正しました。 （NEO-13118）
-* LINEメッセージで「デバイスの画面サイズごとに画像を定義 **」オプションを使用すると** 、画像表示の問題を修正しました。 （NEO-13228）
-* 「配信中に重複した住所を除外」オプションが選択さ **れていない場合の配信の準備の問題** を修正しました。 （NEO-13240）
-* 「転送後にソースファイルを削除」オプションを使用して **File転送アクティビティを使用し** 、 **Delete the source files after transfer** （転送後にソースファイルを削除）オプションを使用してファイルをダウンロードする場合に、名前にスペース文字を含むワークフローの問題を修正しました。 （NEO-13411）
-* Tomcatキャッシュのクリーンアップでメモリの問題が発生する可能性がある問題を修正しました。 （NEO-13456）
-* Microsoft SQL 2017で実行中の既存のコントロールインスタンスに、実行インスタンス **（組み込みパッケージ）を含むオファーエンジンのコントロール(** Control)をインストールする際の問題を修正しました。 （NEO-13539）
-* 「テキストコンテンツ」タブで、電子メール内の追跡対象URLのチェックを解除すると発生する可能性があるコンソール **のクラッシュを修正** しました。 （NEO-13545）
-* 中国語の送信者名のエンコードの問題を修正しました。 （NEO-13837）
-* エクスプローラから調査の回答データを表示すると発生する可能性があるエラーを修正しました。 （NEO-14590）
-* 配信ログの分類と検疫テーブルの間で不一致が生じる可能性がある問題を修正しました。 （NEO-16547）
-* 電子メールに埋め込まれなかったDKIMキーの問題を修正しました。 （NEO-16804）
-* API呼び出しのコンテキストで無効なセッショントークンが使用されてイベントがトリガーされた場合に、誤ったエラーコードが表示される問題を修正しました。 エラーコードが「HTTP 403 Forbidden」ではなく「HTTP 200 OK」でした。 （NEO-16826）
-* Webアクセスを介して配信レポートを表示する際の問題を修正しました。 （NEO-17015）
-* Adobe Campaignにログインする際のIMS認証の問題を修正しました。 （NEO-17312）
-* 検疫済みの電子メールがプライバシー管理プロセスで削除されない問題を修正しました。 （NEO-17314）
-* SQLデータベースを使用して9031にアップグレードした後のスループットの問題を修正しました。 （NEO-17558）
-* Salesforceを使用するCRM Connectorに影響を与えていた問題を修正しました。 （NEO-17712）
-* 外部SFTPからデータをインポートする際のタイムアウトの問題を修正しました。 （NEO-19723）
-* 予測モデルにアクセスする際の問題を修正しました。 （NEO-19713）
-* Hadoop FDAデータベースを使用した **Split** workflowアクティビティのランダムサンプリングに影響する問題を修正しました。 （NEO-16636）
+* **データ読み込み（RDBMS）**&#x200B;ワークフローアクティビティで空のリンクテーブルを追加するとコンソールがクラッシュすることのある問題を修正しました。（NEO-12213）
+* ミッドソーシングサーバーで特定のメッセージが処理されない可能性がある問題を修正しました。（NEO-12395）
+* Teradata で query band オプションを使用する際のデータベースクリーンアップワークフローの問題を修正しました。（NEO-12399）
+* ne.jp ドメインを含むタイポロジルールを使用した配信分析に影響する問題を修正しました。（NEO-12609）
+* より制限的な証明書ポリシーを必要とする TLS による SMS の更新に関連する問題を修正しました。これらの更新により、古い証明書が使用されている場合、マーケティングサーバーとミッドソーシングサーバー間の接続に失敗する可能性があります。（NEO-17698）
+* Vault 認証を使用するミッドソーシング環境において、外部アカウントの「**接続をテスト**」ボタンを使用する際の問題を修正しました。（NEO-12722）
+* FDA Hadoop 接続で日付関数を使用するクエリの問題を修正しました。（NEO-12847）
+* E メールエディターで画像を置き換える際の問題を修正しました。（NEO-13098）
+* 削除されたか別の場所に移動されたフォルダーにおいて、アップグレード後にエラーが発生することのある問題を修正しました。（NEO-13118）
+* LINE メッセージで「**デバイスの画面サイズごとに画像を定義**」オプションを使用する際の、画像の表示に関する問題を修正しました。（NEO-13228）
+* 「**配信中に重複アドレスを除外**」オプションが選択されていない場合の配信準備の問題を修正しました。（NEO-13240）
+* ワークフローで&#x200B;**ファイル転送**&#x200B;アクティビティを使用し、「**転送後にソースファイルを削除**」オプションを使って名前にスペース文字が含まれるファイルをダウンロードする際に発生した問題を修正しました。（NEO-13411）
+* Tomcat キャッシュのクリーンアップでメモリの問題が発生する問題を修正しました。（NEO-13456）
+* Microsoft SQL 2017 で稼働している既存のコントロールインスタンスに、**実行インスタンスによるオファーエンジンのコントロール**&#x200B;組み込みパッケージをインストールする際の問題を修正しました。（NEO-13539）
+* 「**テキストコンテンツ**」タブから E メール内のトラッキングされる URL をチェック解除するとコンソールがクラッシュすることがある問題を修正しました。（NEO-13545）
+* 中国語の送信者名のエンコードの問題を修正しました。（NEO-13837）
+* エクスプローラーからの調査回答データを表示すると発生することのあるエラーを修正しました。（NEO-14590）
+* 配信ログの分類と強制隔離テーブルの間で不一致が生じる可能性がある問題を修正しました。（NEO-16547）
+* E メールに埋め込まれなかった DKIM キーの問題を修正しました。（NEO-16804）
+* イベントをトリガーするために API 呼び出しのコンテキストで無効なセッショントークンが使用された際、誤ったエラーコードが表示された問題を修正しました。エラーコードが「HTTP 403 Forbidden」ではなく「HTTP 200 OK」でした。（NEO-16826）
+* Web アクセスを介して配信レポートを表示する際の問題を修正しました。（NEO-17015）
+* Adobe Campaign にログインする際の IMS 認証の問題を修正しました。（NEO-17312）
+* プライバシー管理プロセスで強制隔離済みの E メールを削除できなかった問題を修正しました。（NEO-17314）
+* SQL データベースで 9031 にアップグレードした後のスループットの問題を修正しました。（NEO-17558）
+* Salesforce の CRM コネクタに影響を及ぼしていた問題を修正しました。（NEO-17712）
+* 外部 SFTP からデータをインポートする際のタイムアウトの問題を修正しました。（NEO-19723）
+* 予測モデルにアクセスする際の問題を修正しました。（NEO-19713）
+* Hadoop FDA データベースを使用した **分割**&#x200B;ワークフローアクティビティでのランダムサンプリングに影響する問題を修正しました。（NEO-16636）
 

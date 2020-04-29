@@ -15,22 +15,22 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62f63a47fae9bddf2303bbed18f1aadab4717245
+source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
 
 ---
 
 
 # リリース 19.1{#release-19-1}
 
-[ビルドアップグレード](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリース](../../rn/using/release--19-1.md) | [廃止された機能](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+[ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリース](../../rn/using/release--19-1.md) | [廃止された機能](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
   <tr> 
-   <td><img src="assets/green3.png"/><strong>一般公開（GA）</strong></td>
-   <td><img src="assets/blue3.png"/><strong>リリース候補</strong></td> 
-   <td><img src="assets/orange3.png"/><strong>公開停止</strong></td> 
-   <td><img src="assets/red3.png"/><strong>廃止済み</strong></td> 
+   <td><img src="assets/do-not-localize/green3.png"/><strong>一般公開（GA）</strong></td>
+   <td><img src="assets/do-not-localize/blue3.png"/><strong>リリース候補</strong></td> 
+   <td><img src="assets/do-not-localize/orange3.png"/><strong>公開停止</strong></td> 
+   <td><img src="assets/do-not-localize/red3.png"/><strong>廃止済み</strong></td> 
   </tr> 
    <tr> 
    <td>最新の安定したビルド。ビルドは本番環境で検証済みです。<br></td>
@@ -41,9 +41,9 @@ source-git-commit: 62f63a47fae9bddf2303bbed18f1aadab4717245
  </tbody> 
 </table>
 
-最後 **の安定ビルドは** 9032 (205c981c3)です。 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+最後 **の安定ビルドは** 9032 (3a9dc9c)です。 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
 
-## ![](assets/orange_2.png) リリース 19.1.6 - ビルド 9035 {#release-19-1-6-build-9035}
+## ![](assets/do-not-localize/orange_2.png) リリース 19.1.6 - ビルド 9035 {#release-19-1-6-build-9035}
 
 >[!CAUTION]
 >
@@ -59,7 +59,7 @@ _2019 年 10 月 3 日_
 * ミッドソーシングサーバーで特定のメッセージが処理されない可能性がある問題を修正しました。（NEO-12395）
 * SQL データ管理アクティビティを十分に利用できない（「SQL データ管理」ネームド権限が見つからない）問題を修正しました。
 
-## ![](assets/orange_2.png) リリース 19.1.5 - ビルド 9033{#release-19-1-5-build-9033}
+## ![](assets/do-not-localize/orange_2.png) リリース 19.1.5 - ビルド 9033{#release-19-1-5-build-9033}
 
 _2019 年 8 月 13 日_
 
@@ -74,31 +74,36 @@ _2019 年 8 月 13 日_
 
 ## リリース 19.1.4 - ビルド 9032{#release-19-1-4-build-9032}
 
-![](assets/green_2.png) 2020 **年3月5日**:次の修正を含む新しいビルド(9032-...205c981c3):
+![](assets/do-not-localize/green_2.png) 2020 **年4月29日**:次の修正を含む新しいビルド(9032@3a9dc9c)。
+
+* 電子メール内のリンクの追跡に関するセキュリティを改善。 これは、すべての顧客に対してデフォルトで有効になっています。 追加の拡張セキュリティ機能を利用できます。この機能は、カスタマーケアにご連絡いただくことで有効にできます。 非ホストのお客様が有効にする機能と手順の詳細については、「セキュリティとプライバシーのチェックリス [ト」を参照してください](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)。
+* 画像が行画像に表示されない可能性がある問題を修正しました。配信 （NEO-23207）
+
+![](assets/do-not-localize/orange_2.png) 2020 **年3月5日**:次の修正を含む新しいビルド(9032@19f73c5)。
 
 * FTP over SSLを使用する外部アカウントの問題を修正しました。 （NEO-20498）
 
-![](assets/orange_2.png) 2019 **年12月17日**:次の修正を含む新しいビルド(9032-..9d34fb17e):
+![](assets/do-not-localize/orange_2.png) 2019 **年12月17日**:次の修正を含む新しいビルド(9032@d6b8062)。
 
 * モバイル（SMS、MMS）、プッシュ（iOS、Android）およびソーシャルネットワーク（Facebook、Twitter）の各通信チャネルでのトラッキングの問題を修正しました。
 （NEO-19595）
 
-![](assets/orange_2.png) 2019 **年12月11日**:新しいビルド(9032-...e28b428b7)を参照してください。次の修正が含まれています。
+![](assets/do-not-localize/orange_2.png) 2019 **年12月11日**:次の修正を含む新しいビルド(9032@bc4a935)。
 
 * MSSQL データベースでメッセージを送信する際のパフォーマンスの問題を修正しました。（NEO-17558）
 
-![](assets/orange_2.png) 2019 **年11月20日**:新しいビルド(9032-...3468c7bb5)。次の修正が含まれています。
+![](assets/do-not-localize/orange_2.png) 2019 **年11月20日**:次の修正を含む新しいビルド(9032@3468c7b)。
 
 * IMS 認証を使用したログインの問題を修正しました。（NEO-17312）
 * 複数の配信に関する累積レポートを表示する際の問題を修正しました。（NEO-18165）
 * Web サーバーがブロックまたはクラッシュする可能性がある問題を修正しました。
 
-![](assets/orange_2.png) 2019 **年9月19日**:新しいビルド(9032-...cee805c93)に問題が修正されました。
+![](assets/do-not-localize/orange_2.png) 2019 **年9月19日**:次の修正を含む新しいビルド(9032@cee805c)。
 
 * Salesforce 用 CRM コネクタを使用する際の問題を修正しました。（NEO-17712）
 * トランザクションメッセージの送信時にパフォーマンスの問題を引き起こす可能性があるインデックスの問題を修正しました。
 
-![](assets/orange_2.png)**2019 年 8 月 13 日**：最初の 19.1.4 ビルド。以下の修正が含まれています。
+![](assets/do-not-localize/orange_2.png)**2019 年 8 月 13 日**：最初の 19.1.4 ビルド。以下の修正が含まれています。
 
 * スケジューラーアクティビティで、ウィザード設定時に望ましくないエラーメッセージが生成される問題を修正しました。NEO-11662 から、更新を元に戻します。（NEO-17097）
 * テストアクティビティが 2 回実行された際にワークフローが停止する、NEO-12727 が原因の回帰を修正しました。（NEO-16835）
@@ -106,7 +111,7 @@ _2019 年 8 月 13 日_
 * DKIM キーが E メールに埋め込まれなくなった結果、配信品質が低下していた問題を修正しました。（NEO-16804）
 * スケジューリングワークフローの様々な問題を修正しました。ワークフローは、スケジューラー設定を考慮することなく、1 日 1 回実行されるようにスケジュールされていました。（NEO-16619、NEO-16426）
 
-## ![](assets/orange_2.png) リリース 19.1.2 - ビルド 9029{#release-19-1-2-build-9029}
+## ![](assets/do-not-localize/orange_2.png) リリース 19.1.2 - ビルド 9029{#release-19-1-2-build-9029}
 
 _2019 年 6 月 21 日_
 
@@ -122,7 +127,7 @@ _2019 年 6 月 21 日_
 * ワークフローをインポートする際に Microsoft Dynamics で作成されたダミーレコードを削除できるようになりました。
 * 内部アカウントを使用する際にセキュリティゾーンパッケージを実行するための権限が改善されました。
 
-## ![](assets/orange_2.png) リリース 19.1 - ビルド 9026{#release-19-1-build-9026}
+## ![](assets/do-not-localize/orange_2.png) リリース 19.1 - ビルド 9026{#release-19-1-build-9026}
 
 _2019 年 5 月 30 日_
 
@@ -138,7 +143,7 @@ _2019 年 5 月 30 日_
  <tbody> 
   <tr> 
    <td> コントロールパネル<br /> </td> 
-   <td> <p>管理ユーザーとしての作業効率を高めるため、ストレージを監視、IP アドレスをホワイトリストに追加、および各インスタンスに SSH キーをインストールすることで、SFTP サーバーの設定を管理します。コントロールパネルは、現時点で AWS 上でホストされているユーザーのみが利用できます（<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud から今すぐログイン</a>）。</p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">ハウツービデオ</a>を参照してください。 </p><p>注意：最新の Campaign ビルドへのアップグレードには、コントロールパネルへのアクセスは不要です。</p> </td> 
+   <td> <p>管理ユーザーとしての作業効率を高めるため、ストレージを監視、IP アドレスをホワイトリストに追加、および各インスタンスに SSH キーをインストールすることで、SFTP サーバーの設定を管理します。コントロールパネルは、現時点で AWS 上でホストされているユーザーのみが利用できます（<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud から今すぐログイン</a>）。</p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.translate.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">ハウツービデオ</a>を参照してください。 </p><p>注意：最新の Campaign ビルドへのアップグレードには、コントロールパネルへのアクセスは不要です。</p> </td> 
   </tr> 
     <tr> 
    <td> 監査記録<br /> </td> 
@@ -150,7 +155,7 @@ _2019 年 5 月 30 日_
   </tr> 
   <tr> 
    <td> 互換性マトリックスを更新<br /> </td> 
-   <td> この新しいバージョンの Adobe Campaign では、次のデータベースシステムをサポートするようになりました。<a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">互換性マトリックス</a>を参照してください。<br /> 
+   <td> この新しいバージョンの Adobe Campaign では、次のデータベースシステムをサポートするようになりました。<a href="https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html">互換性マトリックス</a>を参照してください。<br /> 
     <ul> 
      <li> <p>Oracle 18c</p> </li> 
      <li> <p>MySQL 5.7（FDA）</p> </li> 
@@ -180,7 +185,7 @@ _2019 年 5 月 30 日_
 
 **Guardrail、堅牢性および拡張性の強化**
 
-* ライフスパン - XtkNewId シーケンス使用の最適化：最も容量が大きいテーブルを xtkNewId シーケンスから専用シーケンスへ移動させました。[詳細を表示](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* ライフスパン - XtkNewId シーケンス使用の最適化：最も容量が大きいテーブルを xtkNewId シーケンスから専用シーケンスへ移動させました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA over HTTP v2：FDA over HTTP プロトコルは、ハイブリッドデプロイメント（特に broadLog の取得および配信準備）で広く使用されています。データの取得時やプッシュ時のネットワークの問題と考えられるエラーを防ぐよう、堅牢性を強化しました。これを実現するには、両側のビルドを最新にする必要があります。そうでない場合、古いプロトコルが引き続き使用されます。
 * トラッキングワークフロー：トラッキングワークフローの堅牢性を強化しました。トラッキングログの挿入／更新および URL トラッキングのカスタマイズに関する複数の問題を修正しました。さらに、トラッキングワークフローで、エラーを引き起こし、ワークフローを停止する可能性のあるトラッキングログの問題を検出するようになりました。これらの問題は、現在は破棄され、処理されなくなりました。
 * クリーンアップワークフロー：潜在的なエラーと停止を防ぐため、クリーンアップワークフローを向上させました。これにより、データベースのサイズとパフォーマンスを最適化しました。

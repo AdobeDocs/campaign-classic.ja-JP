@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c8910fdfd07bd835d456baca29710ea927ad20e5
+source-git-commit: 0b3622bb0ac95eff61e2d96332e67623dffa68be
 
 ---
 
@@ -134,7 +134,7 @@ Adobe Campaign Classic のオファー管理およびインタラクションモ
 
 「WdbcOptions_TempDbName」オプションがキャンペーンオプションのリストに追加されました。[詳細を表示](../../installation/using/configuring-campaign-options.md)
 
-FDA のマトリックスページは、[ここ](/help/rn/using/assets/fda_rdbms_rights.pdf)に移動されました。
+FDA のマトリックスページは、[ここ](../../platform/using/remote-database-access-rights.md)に移動されました。
 
 アクセス権のマトリックスページは、[ここ](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf)に移動されました。
 

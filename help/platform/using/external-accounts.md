@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7df1f73dd454f826096ce4d5fe430e10fe407ad
+source-git-commit: 090ec1f9b30c8548075493757b814a8bb40bea30
 
 ---
 
@@ -39,7 +39,7 @@ source-git-commit: e7df1f73dd454f826096ce4d5fe430e10fe407ad
 * [Azure 外部アカウント](#azure-external-account)
 * [Hadoop 外部アカウント](#hadoop-external-account)
 * [Microsoft Dynamics CRM 外部アカウント](#microsoft-dynamics-crm-external-account)
-* [Oracle Oracle On Demand 外部アカウント](#oracle-on-demand-external-account)
+* [Oracle On Demand 外部アカウント](#oracle-on-demand-external-account)
 * [Salesforce CRM 外部アカウント](#salesforce-crm-external-account)
 
 ## 外部アカウントの作成 {#creating-an-external-account}
@@ -49,7 +49,7 @@ Adobe Campaign には、事前定義済みの外部アカウントのセット�
 外部アカウントは、テクニカルワークフローやキャンペーンワークフロー等の技術プロセスで使用されます。ワークフローのファイル転送や、その他のアプリケーション（Adobe Target、Experience Manager など）とのデータ交換をセットアップする際には外部アカウントを選択する必要があります。
 
 1. から、メニ **[!UICONTROL Explorer]**&#x200B;ューを展開し **[!UICONTROL Administration]** ます。
-1. メニューを展開し **[!UICONTROL Platform]** 、をクリックしま **[!UICONTROL External accounts]**&#x200B;す。
+1. メニューを展開 **[!UICONTROL Platform]** し、をクリックしま **[!UICONTROL External accounts]**&#x200B;す。
 
    ![](assets/ext_account_1.png)
 
@@ -57,14 +57,14 @@ Adobe Campaign には、事前定義済みの外部アカウントのセット�
 
    ![](assets/ext_account_2.png)
 
-1. と入力し **[!UICONTROL Label]** ます **[!UICONTROL Internal Name]**。 これらは両方とも、ワークフローで外部アカウントを選択したときに使用されます。
+1. とを入力 **[!UICONTROL Label]** します **[!UICONTROL Internal Name]**。 これらは両方とも、ワークフローで外部アカウントを選択したときに使用されます。
 1. Check **[!UICONTROL Enabled]** if you want your connection to be enabled.
 1. Select your external account **[!UICONTROL Type]** which one you want to create.
 1. 選択した外部アカウントタイプに応じて資格情報を指定し、アカウントへのアクセスを設定します。
 
    必要な情報は通常、接続しているサーバーのプロバイダーから提供されます。
 
-1. クリック **[!UICONTROL Save]**.
+1. クリック **[!UICONTROL Save]** .
 
 外部アカウントが作成され、外部アカウントリストに追加されます。ワークフローアクティビティと配信プロパティで、データファイル転送またはルーティング設定を利用できるようになりました。
 
@@ -154,9 +154,9 @@ Adobe Campaign には、外部のアプリケーションとの通信やデー�
 
 次の接続タイプを設定できます。
 
-* Oracle. 詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-oracle)を参照してください。
-* Netezza. 詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-netezza)を参照してください。
-* SAP HANA. 詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-sap-hana)を参照してください。
+* Oracle.詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-oracle)を参照してください。
+* Netezza.詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-netezza)を参照してください。
+* SAP HANA.詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-sap-hana)を参照してください。
 * InfiniDB
 * Microsoft SQL Server
 * AsterData
@@ -167,7 +167,7 @@ Adobe Campaign には、外部のアプリケーションとの通信やデー�
 * ODBC（Sybase ASE、Sybase IQ）
 * リモートデータベースへの HTTP リレー
 
-### スノーフレーク外部勘定 {#snowflake-external-account}
+### 雪片外部アカウント {#snowflake-external-account}
 
 The **Snowflake** external account allows you to connect your Campaign instance to your Snowflake external database. For more information on how to configure Campaign Classic with Snowflake, refer to this [page](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
 
@@ -175,7 +175,7 @@ The **Snowflake** external account allows you to connect your Campaign instance 
 
 * **[!UICONTROL Server]**
 
-       雪片サーバのURL。
+       雪片サーバーのURL。
    
 * **[!UICONTROL Account]**
 
@@ -193,7 +193,7 @@ The **Snowflake** external account allows you to connect your Campaign instance 
 
 ### Teradata 外部アカウント {#teradata-external-account}
 
-**Teradata** 外部アカウントを使用すれば、Campaign インスタンスを Teradata 外部データベースに接続することができます。For more information on how to configure Campaign Classic with Teradata, refer to this [page](https://helpx.adobe.com/campaign/kb/campaign_fda_teradata.html) or this [section](../../platform/using/specific-configuration-database.md#configure-access-to-teradata).
+**Teradata** 外部アカウントを使用すれば、Campaign インスタンスを Teradata 外部データベースに接続することができます。Teradata での Campaign Classic の設定方法については、この[ページ](https://helpx.adobe.com/jp/campaign/kb/campaign_fda_teradata.html)またはこの[節](../../platform/using/specific-configuration-database.md#configure-access-to-teradata)を参照してください。
 
 ![](assets/ext_account_19.png)
 
@@ -259,7 +259,7 @@ Facebook アプリケーションごとに、**[!UICONTROL Facebook Connect]** �
 
 * **[!UICONTROL Hosting mode]**
 
-   または間のアプリケーションのホスティング **[!UICONTROL hosted by a partner]** モードで **[!UICONTROL hosted by this instance]**&#x200B;す。
+   または間のアプリケーションのホスト **[!UICONTROL hosted by a partner]** モードで **[!UICONTROL hosted by this instance]**&#x200B;す。
 
 * **[!UICONTROL Application ID]**
 
@@ -321,7 +321,7 @@ To connect to the Adobe Campaign console using an Adobe ID, you must configure t
 
 * **[!UICONTROL IMS organization ID]**
 
-   IMS 組織の ID。組織 ID を見つけるには、この[ページ](https://marketing.adobe.com/resources/help/en_US/mcloud/faq.html)（**IMS 組織 ID はどこにありますか？**）を参照してください。
+   IMS 組織の ID。組織 ID を見つけるには、この[ページ](https://marketing.adobe.com/resources/help/ja_JP/mcloud/faq.html)（**IMS 組織 ID はどこにありますか？**）を参照してください。
 
 * **[!UICONTROL Association mask]**
 
@@ -397,19 +397,19 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 * **[!UICONTROL AWS access key ID]**
 
-   AWS アクセスキー ID の見つけ方については、この[ページ](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
+   AWS アクセスキー ID の見つけ方については、この[ページ](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
 
 * **[!UICONTROL Secret access key to AWS]**
 
-   AWS への秘密アクセスキーの見つけ方については、この[ページ](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)を参照してください。
+   AWS への秘密アクセスキーの見つけ方については、この[ページ](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
 
 * **[!UICONTROL AWS Region]**
 
-   AWSリージョンの詳細については、このページを参照してく [ださい](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)。
+   AWS リージョンについて詳しくは、この[ページ](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
 
 * The **[!UICONTROL Use server side encryption]** checkbox allows you to store your file in S3 encrypted mode.
 
-アクセスキー ID および秘密アクセスキーの見つけ方については、Amazon Web サービス[ドキュメント](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
+アクセスキー ID および秘密アクセスキーの見つけ方については、Amazon Web サービス[ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
 
 ## Azure 外部アカウント {#azure-external-account}
 
@@ -427,11 +427,11 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 * **[!UICONTROL Access key]**
 
-   アクセスキーの見つけ方については、この[ページ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-manage)（**アクセスキーの表示とコピー**&#x200B;のセクション）を参照してください。
+   アクセスキーの見つけ方については、この[ページ](https://docs.microsoft.com/ja-jp/azure/storage/common/storage-account-manage)（**アクセスキーの表示とコピー**&#x200B;のセクション）を参照してください。
 
 ## Hadoop 外部アカウント {#hadoop-external-account}
 
-**[!UICONTROL Hadoop]** 外部データベースへの接続を有効にすると、この接続がアクティブである限り、データベースは Adobe Campaign 経由でアクセスできます。Hadoopへのアクセスを設定する方法について詳しくは、この節を参照してく [ださい](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop)。
+**[!UICONTROL Hadoop]** 外部データベースへの接続を有効にすると、この接続がアクティブである限り、データベースは Adobe Campaign 経由でアクセスできます。Hadoop へのアクセスの設定方法について詳しくは、この[節](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop)を参照してください。
 
 ![](assets/ext_account_16.png)
 
@@ -447,8 +447,8 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 **[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントがあれば、Microsoft Dynamics データを Adobe Campaign にインポートおよびエクスポートできます。
 
-Adobe CampaignでMicrosoft Dynamics Connectorが動作するように設定するかどうかは、展開の種類によって異なります。
-およびデ **[!UICONTROL On-premise]** プロイメ **[!UICONTROL Office 365]** ントタイプを使用する場合は、次の詳細を指定する必要があります。
+Adobe Campaign で Microsoft Dynamics コネクタを動作させるための設定は、デプロイメントタイプによって異なります。
+With **[!UICONTROL On-premise]** and **[!UICONTROL Office 365]** deployment types, you need to provide the following details:
 
 ![](assets/ext_account_21.png)
 
@@ -464,19 +464,19 @@ Adobe CampaignでMicrosoft Dynamics Connectorが動作するように設定す�
 
    Microsoft CRM へのログインに使用するパスワード。
 
-* **[!UICONTROL Company name]** オンプレミスおよびOffice 365の展開
+* **[!UICONTROL Company name]** （オンプレミスおよびOffice 365の導入用）
 
    会社の名前。
 
 * **[!UICONTROL Organization name]** （オンプレミスデプロイメント用）
 
-   組織の名前。Microsoft Dynamicsの開発者リソースダッシュボードのフィールドにある組織名 **[!UICONTROL Unique Name]** です。
+   組織の名前。Organization name which can be found in the Developers resources dashboard in Microsoft Dynamics, **[!UICONTROL Unique Name]** field.
 
 * **[!UICONTROL CRM version]** オンプレミスの場合
 
-   または間のCRMのバー **[!UICONTROL Dynamics CRM 2007]**&#x200B;ジョン **[!UICONTROL Dynamics CRM 2015]** です **[!UICONTROL Dynamics CRM 2016]**。
+   またはの間のCRMのバ **[!UICONTROL Dynamics CRM 2007]**&#x200B;ージ **[!UICONTROL Dynamics CRM 2015]** ョン **[!UICONTROL Dynamics CRM 2016]**。
 
-デプロ **[!UICONTROL Web API]** イメントの種類 **[!UICONTROL Password credentials]** と認証を使用する場合は、次の詳細を指定する必要があります。
+With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Password credentials]** authentication, you need to provide the following details:
 
 ![](assets/ext_account_14.png)
 
@@ -490,13 +490,13 @@ Adobe CampaignでMicrosoft Dynamics Connectorが動作するように設定す�
 
 * **[!UICONTROL Client identifier]**
 
-   Microsoft azure管理ポータルの[カテゴリ]フィールドにある[クライアントID] **[!UICONTROL Update your code]** が表示さ **[!UICONTROL Client ID]** れます。
+   [クライアントID]フィールドの[Microsoft Azure管理ポータル]から見つか **[!UICONTROL Update your code]** るカテゴリID **[!UICONTROL Client ID]** です。
 
 * **[!UICONTROL CRM version]**
 
-   または間のCRMのバー **[!UICONTROL Dynamics CRM 2007]**&#x200B;ジョン **[!UICONTROL Dynamics CRM 2015]** です **[!UICONTROL Dynamics CRM 2016]**。
+   またはの間のCRMのバ **[!UICONTROL Dynamics CRM 2007]**&#x200B;ージ **[!UICONTROL Dynamics CRM 2015]** ョン **[!UICONTROL Dynamics CRM 2016]**。
 
-デプロ **[!UICONTROL Web API]** イメントの種類 **[!UICONTROL Certificate]** と認証を使用する場合は、次の詳細を指定する必要があります。
+With **[!UICONTROL Web API]** deployment type and **[!UICONTROL Certificate]** authentication, you need to provide the following details:
 
 ![](assets/ext_account_22.png)
 
@@ -506,24 +506,23 @@ Adobe CampaignでMicrosoft Dynamics Connectorが動作するように設定す�
 
 * **[!UICONTROL Private Key (Base64 encoded)]**
 
-   Base64にエンコードされた秘密鍵
+   Base 64 にエンコードされた秘密鍵
 
 * **[!UICONTROL Custom Key identifier]**
-
 
 * **[!UICONTROL Key ID]**
 
 * **[!UICONTROL Client identifier]**
 
-   Microsoft azure管理ポータルの[カテゴリ]フィールドにある[クライアントID] **[!UICONTROL Update your code]** が表示さ **[!UICONTROL Client ID]** れます。
+   [クライアントID]フィールドの[Microsoft Azure管理ポータル]から見つか **[!UICONTROL Update your code]** るカテゴリID **[!UICONTROL Client ID]** です。
 
 * **[!UICONTROL CRM version]**
 
-   または間のCRMのバー **[!UICONTROL Dynamics CRM 2007]**&#x200B;ジョン **[!UICONTROL Dynamics CRM 2015]** です **[!UICONTROL Dynamics CRM 2016]**。
+   またはの間のCRMのバ **[!UICONTROL Dynamics CRM 2007]**&#x200B;ージ **[!UICONTROL Dynamics CRM 2015]** ョン **[!UICONTROL Dynamics CRM 2016]**。
 
 この設定について詳しくは、この[ページ](../../platform/using/crm-connectors.md#example-for-microsoft-dynamics)を参照してください。
 
-## Oracle Oracle On Demand 外部アカウント {#oracle-on-demand-external-account}
+## Oracle On Demand 外部アカウント {#oracle-on-demand-external-account}
 
 **[!UICONTROL Oracle on demand]** 外部アカウントを使用すれば、Oracle データを Adobe Campaign にインポートおよびエクスポートできます。
 
@@ -563,15 +562,15 @@ Salesforce CRM 外部アカウントを Adobe Campaign で使用できるよう�
 
 * **[!UICONTROL Client identifier]**
 
-   クライアント識別子の見つけ方については、この[ページ](https://help.salesforce.com/articleView?id=000205876&type=1)を参照してください。
+   クライアント識別子の見つけ方については、この[ページ](https://help.salesforce.com/articleView?id=000205876&amp;type=1)を参照してください。
 
 * **[!UICONTROL Security token]**
 
-   セキュリティトークンの見つけ方については、[ページ](https://help.salesforce.com/articleView?id=000205876&type=1)を参照してください。
+   セキュリティトークンの見つけ方については、[ページ](https://help.salesforce.com/articleView?id=000205876&amp;type=1)を参照してください。
 
 * **[!UICONTROL API version]**
 
-   または間のAPIのバー **[!UICONTROL Version 37]**&#x200B;ジョン **[!UICONTROL Version 21]** です **[!UICONTROL Version 15]**。
+   またはの間のAPIのバ **[!UICONTROL Version 37]**&#x200B;ージ **[!UICONTROL Version 21]** ョン **[!UICONTROL Version 15]**。
 
 この外部アカウントの場合、設定ウィザードで Salesforce CRM を設定する必要があります。
 

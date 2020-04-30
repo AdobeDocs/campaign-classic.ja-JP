@@ -5,7 +5,7 @@ index: y
 product: adobe campaign
 sub-product: adobeキャンペーンクラシック
 translation-type: tm+mt
-source-git-commit: ffaa4d4442448f9d30c4a1ef41b8bd73363088e0
+source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
 
 ---
 
@@ -286,34 +286,34 @@ source-git-commit: ffaa4d4442448f9d30c4a1ef41b8bd73363088e0
 + Adobe Experience Cloud との統合 {#integrating-with-adobe-experience-cloud}
    + [Campaign 統合について](integrations/using/about-campaign-integrations.md)
    + オーディエンスの共有 {#audience-sharing}
-      + [オーディエンスを Adobe Experience Cloud と共有する](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [[!DNL Adobe Experience Cloud]とのオーディエンスの共有](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [アドビへの依頼の送信](integrations/using/submitting-request-to-adobe.md)
-      + [Adobe Campaign での共有オーディエンスの統合の設定](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [[!DNLオーディエンス]で共有Adobe Campaign統合を設定](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [トラブルシューティング](integrations/using/troubleshooting.md)
       + [オーディエンスのインポートおよびエクスポート](integrations/using/importing-and-exporting-audiences.md)
    + アセットの共有 {#asset-sharing}
-      + [アセットを Adobe Experience Cloud と共有する](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [Assets へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
+      + [[!DNL Adobe Experience Cloud]とのアセットの共有](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+      + [[!DNL Assets]へのアクセスを構成しています](integrations/using/configuring-access-to-assets.md)
       + [共有アセットを挿入](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [Adobe Experience Manager について](integrations/using/about-adobe-experience-manager.md)
+      + [バージョン情報](integrations/using/about-adobe-experience-manager.md)
       + [統合の設定](integrations/using/configuring-the-integration.md)
-      + [Experience Manager ニュースレターの作成](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [[!DNL Experience Manager]ニュースレターの作成](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [Adobe Target との統合](integrations/using/integrating-with-adobe-target.md)
-      + [Adobe Target との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [[!DNL Adobeターゲット]との統合](integrations/using/integrating-with-adobe-target.md)
+      + [[!DNL Adobeターゲット]との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [動的画像の挿入](integrations/using/inserting-a-dynamic-image.md)
    + Adobe ID を使用した接続 {#connecting-via-an-adobe-id}
-      + [Adobe ID について](integrations/using/about-adobe-id.md)
-      + [IMS の設定](integrations/using/configuring-ims.md)
-      + [IMS の実装](integrations/using/implementing-ims.md)
+      + [バージョン情報](integrations/using/about-adobe-id.md)
+      + [[!DNL IMS]の設定](integrations/using/configuring-ims.md)
+      + [[!DNL IMS]の実装](integrations/using/implementing-ims.md)
       + [IMS のトラブルシューティング](integrations/using/ims-troubleshooting.md)
    + ACS コネクタ {#acs-connector}
-      + [ACS コネクタの原則とデータサイクル](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [[!DNL ACSコネクタ]の原則とデータサイクル](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [プロファイルの同期](integrations/using/synchronizing-profiles.md)
       + [オーディエンスの同期](integrations/using/synchronizing-audiences.md)
       + [Web アプリケーションの同期](integrations/using/synchronizing-web-applications.md)
-      + [ACS コネクタのトラブルシューティング](integrations/using/troubleshooting-the-acs-connector.md)
+      + [[!DNL ACSコネクタ]のトラブルシューティング](integrations/using/troubleshooting-the-acs-connector.md)
 + ワークフローによる自動化 {#automating-with-workflows}
    + はじめに {#introduction}
       + [ワークフローについて](workflow/using/about-workflows.md)

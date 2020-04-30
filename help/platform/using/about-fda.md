@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 47fd157e369ddf6c67f0b2b467799cecc6e5a822
+source-git-commit: 9d22af2a2e25cb0dd83759096139996372f60c33
 
 ---
 
@@ -26,22 +26,21 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 
 >[!CAUTION]
 >
->FDA経由で外部データベースにアクセスできるのは、Snowflake connectorsを除き、オンプレミスまたはハイブリッドインストールでのみ可能です。 詳しくは、この[ページ](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)を参照してください。
+>外部データベースへのFDA経由でのアクセスは、Snowflakeコネクターを除き、オンプレミスまたはハイブリッドインストールでのみ可能です。 詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)を参照してください。
 
 ## 動作の仕組み {#operating-principle}
 
-FDAオプションを使用すると、サードパーティのデータベースでデータモデルを拡張できます。 ターゲットテーブルの構造を自動的に検出し、SQLソースのデータを使用します。
-
+FDAオプションを使用すると、データモデルをサードパーティのデータベースに拡張できます。 ターゲットテーブルの構造を自動的に検出し、SQLソースのデータを使用します。
 
 この機能を使用するには、以下をおこなう必要があります。
 
-1. Adobe Campaign の FDA モジュールと互換性がある外部データベースを用意します。各種データベースシステムの互換性があるバージョンのリストについては、[互換性マトリックス](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)を参照してください。さらに、Adobe Campaign および外部データベースで[必要な権限](../../platform/using/remote-database-access-rights.md)をユーザーに割り当てる必要があります。
+1. Adobe Campaign の FDA モジュールと互換性がある外部データベースを用意します。各種データベースシステムの互換性があるバージョンのリストについては、[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)を参照してください。さらに、Adobe Campaign および外部データベースで[必要な権限](../../platform/using/remote-database-access-rights.md)をユーザーに割り当てる必要があります。
 1. Adobe Campaign サーバーに、データベースに対応する[ドライバーをインストール](../../platform/using/specific-configuration-database.md)します。
-1. Adobe Campaign と外部データベースの間の接続を確立するための[外部アカウントを作成および設定](../../platform/using/connecting-to-database.md)します。使用可能な外部アカウントの詳細については、このページを参照して [ください](../../platform/using/external-accounts.md)。
-1. [Adobe Campaignで外部データベースの](../../platform/using/creating-data-schema.md) スキーマを作成します。 これにより、外部データベースのデータ構造を認識できるようになります。
+1. Adobe Campaign と外部データベースの間の接続を確立するための[外部アカウントを作成および設定](../../platform/using/connecting-to-database.md)します。使用可能な外部アカウントについて詳しくは、この[ページ](../../platform/using/external-accounts.md)を参照してください。
+1. [外部データベースのスキーマ](../../platform/using/creating-data-schema.md) をAdobe Campaignで作成します。 これにより、外部データベースのデータ構造を認識できるようになります。
 1. 最後に、前の手順で作成したスキーマから[新しいターゲットマッピングを作成](../../platform/using/defining-data-mapping.md)します。これは、配信の受信者を外部データベースから取得する場合に必要です。これにより、特に配信のパーソナライズに関して一定の制限を適用することが可能です。
 
-データスキーマが作成されると、Adobe Campaignワークフローでデータを処理できます。 詳しくは、[この節](../../workflow/using/executing-a-workflow.md#architecture)を参照してください。
+データスキーマが作成されると、データをAdobe Campaignワークフローで処理できます。 詳しくは、[この節](../../workflow/using/accessing-an-external-database--fda-.md)を参照してください。
 
 ## ベストプラクティスと推奨事項 {#best-practices-and-recommendations}
 

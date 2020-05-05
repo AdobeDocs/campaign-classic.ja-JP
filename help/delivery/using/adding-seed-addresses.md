@@ -14,7 +14,7 @@ discoiquuid: 0b9b53bf-4dd2-416c-894e-393aded489f8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ## 配信のシードアドレス {#seed-addresses-in-a-delivery}
 
-To add specific seed addresses for a delivery, click the **[!UICONTROL To]** link, then select the **[!UICONTROL Seed addresses]** tab.
+特定のシードアドレスを配信に追加するには、**[!UICONTROL 宛先]**&#x200B;リンクをクリックし、「**[!UICONTROL シードアドレス]**」タブを選択します。
 
 ![](assets/s_ncs_user_edit_del_addresses_tab.png)
 
@@ -32,25 +32,25 @@ To add specific seed addresses for a delivery, click the **[!UICONTROL To]** lin
 
 1. 単一のシードアドレスを入力する。
 
-   To do this, click the **[!UICONTROL Add]** button and define the content of the address fields. この操作を各アドレスに対して繰り返します。詳しくは、[この節](../../message-center/using/managing-seed-addresses-in-transactional-messages.md#creating-a-seed-address)を参照してください。
+   そのためには、「**[!UICONTROL 追加]**」ボタンをクリックし、アドレスフィールドの内容を設定します。この操作を各アドレスに対して繰り返します。詳しくは、[この節](../../message-center/using/managing-seed-addresses-in-transactional-messages.md#creating-a-seed-address)を参照してください。
 
 1. アドレステンプレートをインポートし、ニーズに合わせて変更する。
 
-   To do this, click the **[!UICONTROL Import seed templates...]** link and select the folder which contains the address templates. 詳しくは、シードアドレステンプレートの作 [成を参照してください](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates)。
+   そのためには、**[!UICONTROL シードテンプレートをインポート...]** リンクをクリックし、アドレステンプレートを含んだフォルダーを選択します。詳しくは、[シードアドレステンプレートの作成](../../delivery/using/creating-seed-addresses.md#creating-seed-address-templates)を参照してください。
 
-   If necessary, once they are added, you can double-click them or click the **[!UICONTROL Detail...]** button to adapt the content of each address.
+   必要な場合は、アドレスを追加した後にアドレスをダブルクリックするか、「**[!UICONTROL 詳細]**」ボタンをクリックして、各アドレスの内容を変更します。
 
 1. 挿入する制御アドレスを動的に選択する条件を作成する。
 
-   To do this, click the **[!UICONTROL Edit the dynamic condition...]** link, then enter the seed address selection parameters. 例えば、ある特定のフォルダーに格納されているすべてのシードアドレスや、組織の特定の部門に属しているシードアドレスを含めることができます。
+   そのためには、**[!UICONTROL 動的条件を編集...]** リンクをクリックし、シードアドレスの選択パラメーターを入力します。例えば、ある特定のフォルダーに格納されているすべてのシードアドレスや、組織の特定の部門に属しているシードアドレスを含めることができます。
 
-   この節では、次の例を示します。使 [用例：条件のシードアドレスの選択](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)。
+   この例については、[使用例：条件によるシードアドレスの選択](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)の節で説明しています。
 
 >[!NOTE]
 >
->This option is used when the recipient table used is not the default **nms:recipient** table and you are using the Inbox Rendering functionality provided with Adobe Campaign&#39;s **[!UICONTROL Deliverability]** module.
+>このオプションを選択するのは、デフォルトの **nms:recipient** テーブル以外の受信者テーブルを使用し、Adobe Campaign の&#x200B;**[!UICONTROL 配信品質]**&#x200B;モジュールに備わっている受信ボックスレンダリング機能を利用する場合です。
 >
->詳しくは、「外部受信者テーブルの使用 [」および「インボックスのレンダリング](../../delivery/using/using-an-external-recipient-table.md) 」のドキュメントを参照 [してください](../../delivery/using/inbox-rendering.md)。
+>詳しくは、[外部の受信者テーブルの使用](../../delivery/using/using-an-external-recipient-table.md)および[受信ボックスレンダリング](../../delivery/using/inbox-rendering.md)に関するドキュメントを参照してください。
 
 また、配信では、アドレスを抽出ファイルに挿入する際の方法をカスタマイズすることもできます。デフォルトでは出力ファイルの並べ替え順に従って挿入されますが、ファイルの冒頭または末尾に挿入する指定や、メインターゲットの送信者中にランダムに挿入する指定が可能です。
 
@@ -58,9 +58,9 @@ To add specific seed addresses for a delivery, click the **[!UICONTROL To]** lin
 
 ## キャンペーンのシードアドレス {#seed-addresses-in-a-campaign}
 
-To add seed addresses to a target for a campaign, select the operation and click the **[!UICONTROL Edit]** tab.
+キャンペーンのターゲットにシードアドレスを追加するには、キャンペーンを選択し、「**[!UICONTROL 編集]**」タブをクリックします。
 
-次に示すよ **[!UICONTROL Advanced campaign settings...]** うに、リンクをク **[!UICONTROL Seed addresses]** リックし、タブをクリックします。
+次のように、「**[!UICONTROL キャンペーンの詳細設定]**」リンクをクリックし、「**[!UICONTROL シードアドレス]**」タブを選択します。
 
 ![](assets/s_ncs_user_edit_op_addresses_tab.png)
 

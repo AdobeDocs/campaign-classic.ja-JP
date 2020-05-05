@@ -14,7 +14,7 @@ discoiquuid: ca3377c6-a120-4cd0-aaf4-80248f4f5918
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
@@ -22,15 +22,15 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 # Web フォームの静的要素{#static-elements-in-a-web-form}
 
-フォームのページにユーザーインタラクションのない要素を含めることができます。これらは、画像、HTML コンテンツ、横棒またはハイパーリンクなどの、静的要素です。These elements are created via the first button in the toolbar, by clicking the **[!UICONTROL Add static element]** menu.
+フォームのページにユーザーインタラクションのない要素を含めることができます。これらは、画像、HTML コンテンツ、横棒またはハイパーリンクなどの、静的要素です。これらの要素は、**[!UICONTROL 静的要素を追加]**&#x200B;メニューをクリックし、ツールバーの最初のボタンを使用して作成されます。
 
 ![](assets/s_ncs_admin_survey_add_static_element.png)
 
 次のフィールドのタイプを使用できます。
 
 * （フォームのコンテキストで）以前提供した回答またはデータベースに基づく値。
-* ハイパーリンク、HTML、横棒。詳しくは、HTML [コンテンツの挿入を参照してくださ](#inserting-html-content)い。
-* リソースライブラリまたはユーザーがアクセスできるサーバーに保存された画像。詳しくは、イ [メージの挿入を参照してくださ](#inserting-images)い。
+* ハイパーリンク、HTML、横棒。[HTML コンテンツの挿入](#inserting-html-content)を参照してください。
+* リソースライブラリまたはユーザーがアクセスできるサーバーに保存された画像。[画像の挿入](#inserting-images)を参照してください。
 * クライアント側またはサーバー側で実行されたスクリプト。クライアント側で適切に実行するには、JavaScript で記述され、ほとんどのブラウザーとの互換性が必要です。
 
    >[!NOTE]
@@ -41,7 +41,7 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 フォームページに、ハイパーテキストリンク、画像、書式設定された段落、ビデオまたは Flash オブジェクトなどの HTML コンテンツを含めることができます。
 
-HTML エディターを使用すると、コンテンツを入力して、フォームページに挿入できます。エディターを開くには、に進みま **[!UICONTROL Static elements>HTML]** す。
+HTML エディターを使用すると、コンテンツを入力して、フォームページに挿入できます。エディターを開くには、**[!UICONTROL 静的要素／HTML]** に移動します。
 
 コンテンツを直接入力および書式設定したり、ソースコードウィンドウを表示して、一部の外部コンテンツを貼り付けたりできます。「ソースコード」モードに切り替えるには、ツールバーの最初のアイコンをクリックします。
 
@@ -53,24 +53,24 @@ HTML エディターを使用すると、コンテンツを入力して、フォ
 
 >[!NOTE]
 >
->The strings entered in the HTML editor are only translated if they are defined in the **[!UICONTROL Texts]** sub-tab. そうでない場合、収集されません。For more on this, refer to [Translating a web form](../../web/using/translating-a-web-form.md).
+>HTML エディターに入力した文字列は、「**[!UICONTROL テキスト]**」サブタブで定義されている場合にのみ、翻訳されます。そうでない場合、収集されません。詳しくは、[Web フォームの翻訳](../../web/using/translating-a-web-form.md)を参照してください。
 
 ### リンクの挿入 {#inserting-a-link}
 
 次の例のように、編集ウィンドウのフィールドに入力します。
 
-ハイパーテキストリンクを追加するには、に進みま **[!UICONTROL Static elements>Link]**&#x200B;す。
+ハイパーリンクを追加するには、**[!UICONTROL 静的要素／リンク]**&#x200B;に移動します。
 
 ![](assets/s_ncs_admin_survey_add_link.png)
 
-* The **[!UICONTROL Label]** is the content of the hypertext link as it will be displayed on the form page.
-* は **[!UICONTROL URL]** 目的のアドレスです。例：https://www.adobe.com [(Webサイトの場合](https://www.adobe.com) )またはinfo@adobe.com [(メッセージを送信する場合](mailto:info@adobe.com) )。
-* The **[!UICONTROL Window]** field lets you select the display mode for the link in the case of a site. リンクを新しいウィンドウで開いたり、現在のウィンドウで開いたり、別のウィンドウで開いたりできます。
+* 「**[!UICONTROL ラベル]**」は、フォームページに表示されるハイパーリンクのコンテンツです。
+* 「**[!UICONTROL URL]**」は、目的のアドレス（例：Web サイトの場合は [https://www.adobe.com](https://www.adobe.com/jp)、メッセージを送信したい場合には [info@adobe.com](mailto:info@adobe.com)）です。
+* 「**[!UICONTROL ウィンドウ]**」フィールドを使用すると、サイトの場合のリンクの表示モードを選択できます。リンクを新しいウィンドウで開いたり、現在のウィンドウで開いたり、別のウィンドウで開いたりできます。
 * 次に示すように、ツールチップを追加できます。
 
    ![](assets/s_ncs_admin_survey_send_an_email.png)
 
-* リンクをボタンとして表示するか、画像として表示するかを選択できます。To do this, select the type of display in the **[!UICONTROL Type]** field.
+* リンクをボタンとして表示するか、画像として表示するかを選択できます。これをおこなうには、「**[!UICONTROL タイプ]**」フィールドで表示のタイプを選択します。
 
 ### リンクのタイプ {#types-of-links}
 
@@ -82,29 +82,29 @@ HTML エディターを使用すると、コンテンツを入力して、フォ
 
 * ページの更新
 
-   To do this, select the **[!UICONTROL Refresh page]** option in the drop-down box of the **[!UICONTROL Action]** field.
+   これをおこなうには、「**[!UICONTROL アクション]**」フィールドのドロップダウンボックスで、「**[!UICONTROL ページを更新]**」オプションを選択します。
 
    ![](assets/s_ncs_admin_survey_link_refresh.png)
 
 * 次／前のページの表示
 
-   To do this, select the **[!UICONTROL Next page]** or **[!UICONTROL Previous page]** option in the drop-down box of the **[!UICONTROL Action]** field.
+   これをおこなうには、「**[!UICONTROL アクション]**」フィールドのドロップダウンボックスで、「**[!UICONTROL 次のページ]**」または「**[!UICONTROL 前のページ]**」オプションを選択します。
 
    ![](assets/s_ncs_admin_survey_link_next.png)
 
-   You can hide the **[!UICONTROL Next]** and/or **[!UICONTROL Back]** buttons if they are to be replaced by a link. この[ページ](../../web/using/defining-web-forms-page-sequencing.md)を参照してください。
+   リンクで置き換える場合は、「**[!UICONTROL 次へ]**」および「**[!UICONTROL 戻る]**」ボタンを非表示することができます。この[ページ](../../web/using/defining-web-forms-page-sequencing.md)を参照してください。
 
-   The link will replace the **[!UICONTROL Next]** button used by default.
+   リンクは、デフォルトで使用される「**[!UICONTROL 次へ]**」ボタンを置き換えます。
 
    ![](assets/s_ncs_admin_survey_link_next_ex.png)
 
 * 別のページの表示
 
-   The **[!UICONTROL Enable a transition]** option lets you display a specific page associated with the outgoing transition selected in the **[!UICONTROL Transition]** field.
+   「**[!UICONTROL トランジションを有効にする]**」オプションを使用すると、「**[!UICONTROL トランジション]**」フィールドで選択されたアウトバウンドトランジションに関連付けられた特定のページを表示できます。
 
    ![](assets/s_ncs_admin_survey_link_viral.png)
 
-   デフォルトでは、ページには 1 つのアウトバウンドトランジションのみがあります。To create new transitions, select the page and then click the **[!UICONTROL Add]** button in the **[!UICONTROL Output transitions]** section, as shown below:
+   デフォルトでは、ページには 1 つのアウトバウンドトランジションのみがあります。新しいトランジションを作成するには、ページを選択して、次に示すように、「**[!UICONTROL アウトバウンドトランジション]**」セクションの&#x200B;**[!UICONTROL 追加]**&#x200B;ボタンをクリックします。
 
    ![](assets/s_ncs_admin_survey_add_transition.png)
 
@@ -114,7 +114,7 @@ HTML エディターを使用すると、コンテンツを入力して、フォ
 
    >[!NOTE]
    >
-   >Webフォームでのページ順序付けの詳細については、「Webフォームページ順 [序の定義」を参照してください](../../web/using/defining-web-forms-page-sequencing.md)。
+   >Web フォームのページの順番について詳しくは、[Web フォームページの順番の定義](../../web/using/defining-web-forms-page-sequencing.md)を参照してください。
 
 * Facebook プロファイルから取得したデータによるフォームのフィールドのプリロード
 
@@ -122,18 +122,18 @@ HTML エディターを使用すると、コンテンツを入力して、フォ
    >
    >この機能は、**[!UICONTROL Social Marketing]** アプリケーションがインストールされている場合にのみ使用できます。このオプションを使用するには、**[!UICONTROL Facebook Connect]** タイプの外部アカウントと連動する Facebook アプリケーションを作成する必要があります。詳しくは、[このページ](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)を参照してください。
 
-   The **[!UICONTROL Preload with Facebook]** option lets you insert a button into a form to preload fields using Facebook profile information.
+   「**[!UICONTROL Facebook による事前ロードをおこなう]**」オプションを使用すると、フォームにボタンを挿入して、Facebook プロファイル情報を使用してフィールドをプリロードできます。
 
    ![](assets/web_social_webapp_037.png)
 
-   When a user clicks the **[!UICONTROL Fill in automatically]** button, the Facebook request for permission window opens.
+   ユーザーが&#x200B;**[!UICONTROL 自動入力]**&#x200B;ボタンをクリックすると、Facebook のアプリの許可ウィンドウが開きます。
 
    ![](assets/web_social_webapp_029.png)
 
    >[!NOTE]
    >
    >外部アカウントの設定時に拡張された権限のリストを変更できます。拡張された権限を入力しない場合、Facebook は、デフォルトでは、基本プロファイル情報を転送します。\
-   >拡張権限とその構文のリストを表示するには、次をクリックします。https://developers.facebook.com/docs/reference/api/permissions/ [](https://developers.facebook.com/docs/reference/api/permissions/)
+   >拡張権限のリストとその構文を表示するには、[https://developers.facebook.com/docs/reference/api/permissions/](https://developers.facebook.com/docs/reference/api/permissions/) をクリックします。
 
    ユーザーが情報の共有に同意すれば、フォームのフィールドにプリロードされます。
 
@@ -142,8 +142,8 @@ HTML エディターを使用すると、コンテンツを入力して、フォ
 この事例では、次の要素で構成された Web アプリケーションを作成しました。
 
 * フォームを含むページ
-* 活 **[!UICONTROL Record]** 動
-* 活 **[!UICONTROL End]** 動
+* **[!UICONTROL レコード]**&#x200B;アクティビティ
+* **[!UICONTROL 終了]**&#x200B;アクティビティ
 
 ![](assets/social_webapp_031.png)
 
@@ -157,15 +157,15 @@ HTML エディターを使用すると、コンテンツを入力して、フォ
 
    ![](assets/social_webapp_033.png)
 
-1. Enter the label and select the **[!UICONTROL Button]** type.
+1. ラベルを入力し、**[!UICONTROL ボタン]**&#x200B;タイプを選択します。
 
    ![](assets/social_webapp_034.png)
 
-1. フィールドに移動 **[!UICONTROL Action]** し、を選択しま **[!UICONTROL Preload with Facebook]**&#x200B;す。
+1. 「**[!UICONTROL アクション]**」フィールドに移動して、「**[!UICONTROL Facebook による事前ロードをおこなう]**」を選択します。
 
    ![](assets/social_webapp_035.png)
 
-1. Go to the **[!UICONTROL Application]** field and select the **[!UICONTROL Facebook Connect]** type external account created previously. 詳しくは、[このページ](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)を参照してください。
+1. 「**[!UICONTROL アプリケーション]**」フィールドに移動して、以前作成した **[!UICONTROL Facebook Connect]** タイプの外部アカウントを選択します。詳しくは、[このページ](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)を参照してください。
 
    ![](assets/social_webapp_036.png)
 
@@ -175,11 +175,11 @@ HTML エディターを使用すると、コンテンツを入力して、フォ
 
 ![](assets/s_ncs_admin_survey_tag_ctx_1.png)
 
-パーソナライゼーションフィールドを使用して、ユーザー名と選択したブランドを次のページに再挿入できます。使用する構文は、情報ストレージモードによって異なります。詳しくは、「収集した情報の使用」を [参照してください](../../web/using/web-forms-answers.md#using-collected-information)。
+パーソナライゼーションフィールドを使用して、ユーザー名と選択したブランドを次のページに再挿入できます。使用する構文は、情報ストレージモードによって異なります。詳しくは、[収集された情報の使用](../../web/using/web-forms-answers.md#using-collected-information)を参照してください。
 
 >[!NOTE]
 >
->For security reasons, the value entered in the **`<%=`** formula is replaced with escape characters. To avoid this, and only when necessary, use the following syntax: **`<%=`**.
+>セキュリティ上の理由により、**`<%=`** 式に入力された値は、エスケープ文字に置き換えられます。これを回避するには、必要な場合に限り、構文 **`<%=`** を使用します。
 
 この例では、受信者の姓と名がデータベースのフィールドに格納され、自動車のブランドが変数に格納されます。ページ 2 でパーソナライズされたメッセージの構文は、次のようになります。
 
@@ -196,16 +196,16 @@ HTML エディターを使用すると、コンテンツを入力して、フォ
 
 ### テキスト変数の使用 {#using-text-variables}
 
-The **[!UICONTROL Text]** tab lets you create variable fields which can be used in the HTML between the &lt;%= and %> characters with the following syntax: **$(IDENTIFIER)**.
+「**[!UICONTROL テキスト]**」タブでは、HTML の &lt;%= 文字と %> 文字の間で使用できる変数フィールドを構文 **$(IDENTIFIER)**.を使用して作成できます。
 
-この方法を使用すると、文字列を容易にローカライズできます。See [Translating a web form](../../web/using/translating-a-web-form.md)
+この方法を使用すると、文字列を容易にローカライズできます。[Web フォームの翻訳](../../web/using/translating-a-web-form.md)を参照してください。
 
 例えば、「最終コンタクト日：」という文字列を HTML コンテンツに表示できる、**Contact** フィールドを作成できます。これをおこなうには、以下の手順に従います。
 
-1. Click on the **[!UICONTROL Text]** tab of the HTML text.
-1. アイコンをクリッ **[!UICONTROL Add]** クします。
-1. In the **[!UICONTROL Identifier]** column, enter the name of the variable
-1. In the **[!UICONTROL Text]** column, enter the default value.
+1. HTML テキストの「**[!UICONTROL テキスト]**」タブをクリックします。
+1. 「**[!UICONTROL 追加]**」アイコンをクリックします。
+1. **[!UICONTROL 識別子]**&#x200B;列に、変数名を入力します。
+1. **[!UICONTROL テキスト]**&#x200B;列に、デフォルト値を入力します。
 
    ![](assets/s_ncs_admin_survey_html_text.png)
 
@@ -215,19 +215,19 @@ The **[!UICONTROL Text]** tab lets you create variable fields which can be used 
 
    >[!CAUTION]
    >
-   >HTML エディターにこれらの文字を入力する場合、**&lt;** および **>** フィールドは、エスケープ文字で置き換えられます。In this case, you need to correct the source code by clicking the **[!UICONTROL Display source code]** icon of the HTML text editor.
+   >HTML エディターにこれらの文字を入力する場合、**&lt;** および **>** フィールドは、エスケープ文字で置き換えられます。この場合、HTML テキストエディターの&#x200B;**[!UICONTROL ソースコードを表示]**&#x200B;アイコンをクリックして、ソースコードを修正する必要があります。
 
-1. Open the **[!UICONTROL Preview]** label of the form to view the value entered in the HTML:
+1. フォームの&#x200B;**[!UICONTROL プレビュー]**&#x200B;ラベルを開いて、HTML に入力した値を表示します。
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
-この操作モードを使用すると、Web フォームのテキストを分解し、統合された翻訳ツールを使用して翻訳を管理できます。For more on this, refer to [Translating a web form](../../web/using/translating-a-web-form.md).
+この操作モードを使用すると、Web フォームのテキストを分解し、統合された翻訳ツールを使用して翻訳を管理できます。詳しくは、[Web フォームの翻訳](../../web/using/translating-a-web-form.md)を参照してください。
 
 ## 画像の挿入 {#inserting-images}
 
 画像をフォームに含める場合、外部からアクセス可能なサーバーに保存されている必要があります。
 
-メニューを選択 **[!UICONTROL Static elements>Image]** します。
+**[!UICONTROL 静的要素／画像]**&#x200B;メニューを選択します。
 
 挿入する画像のソースを選択します。パブリックリソースライブラリから取得したり、外部からアクセス可能なサーバーに保存したりできます。
 

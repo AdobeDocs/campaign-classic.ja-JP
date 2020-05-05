@@ -14,7 +14,7 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5ae1f5462dd3e6c4858a27cadae24eb732c0535b
 
 ---
@@ -85,7 +85,7 @@ FDA 外部データベースへの複数のアクセスを管理する場合、�
 
 ## 外部データを使用した E メールのパーソナライゼーションの最適化 {#optimizing-email-personalization-with-external-data}
 
-ビルド8740から、配信プロパティ **[!UICONTROL Prepare the personalization data with a workflow]** のタブでこのオプションを使 **[!UICONTROL Analysis]** 用できるようになりました。
+ビルド 8740 から、配信プロパティの「**[!UICONTROL 分析]**」タブで「**[!UICONTROL ワークフローを使用してパーソナライゼーションデータを準備]**」オプションが使用できるようになりました。
 
 このオプションを選択すると、配信の分析時に、一時テーブル内のターゲットにリンクするすべてのデータ（FDA にリンクするテーブルのデータなど）を保存するワークフローが自動的に作成、実行されます。
 

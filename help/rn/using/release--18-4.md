@@ -1,7 +1,7 @@
 ---
-title: リリース18.4
-seo-title: リリース18.4
-description: リリース18.4
+title: リリース 18.4
+seo-title: リリース 18.4
+description: リリース 18.4
 seo-description: null
 page-status-flag: never-activated
 uuid: d132570e-20e6-4550-95bd-176701f43b19
@@ -14,17 +14,17 @@ discoiquuid: 4dc87ff3-eb6a-40ac-97ee-00b64cd7718d
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 
 ---
 
 
-# Release 18.4{#release-18-4}
+# リリース 18.4{#release-18-4}
 
-## リリース18.4.5 — ビルド8937{#release-18-4-5-build-8937}
+## リリース 18.4.5 - ビルド 8937{#release-18-4-5-build-8937}
 
-2018年11月22日
+2018 年 11 月 21 日
 
 **強化点**
 
@@ -40,7 +40,7 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 * 「com.au」ドメインに Web トラッキングが機能しなかった問題を修正しました。
 * 複雑なワークフローを使用する際にクライアントがフリーズすることがあった問題を修正しました。（NEO-11847）
 * 特定のスキーマの要素を選択した後で新しい配信を保存すると発生していた Oracle のエラーを修正しました。（NEO-11682）
-* アクセント記号付きの文字を含むフィールドをクエリする際に発生していた問題を修正しました（FDA／Teradata）。外部アカウントを使用すると、Teradata ドライバーとの通信に使用していたエンコードを変更できるようになりました。（NEO-11818）
+* アクセント記号付きの文字を含むフィールドをクエリする際に発生していた問題を修正しました（FDA／Teradata）。外部アカウントで、Teradata ドライバーとの通信に使用するエンコードを変更できるようになりました。（NEO-11818）
 * トラッキングで、プッシュ通知の追加の変数に URL を渡す際に、誤った形式または正しくないデータがモバイルアプリケーションで受信されていた問題を修正しました。（NEO-11468、NEO-11960）
 * 1:N リンクを含む値の配分を使用する際に発生していた表示の問題を修正しました。（NEO-11820）
 * 一括読み込みが Teradata 16 で機能しなかった問題を修正しました。
@@ -49,26 +49,26 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 * 子プロセスが無効の際に使用できる共有メモリを改善しました（MTA）。
 * Apache で発生する可能性のあるデッドロックの問題を修正しました（トラッキング）。
 
-## リリース18.4.4 — ビルド8936{#release-18-4-4-build-8936}
+## リリース 18.4.4 - ビルド 8936{#release-18-4-4-build-8936}
 
-2018年8月1日
+2018 年 8 月 1 日
 
 **強化点**
 
 * E メールのアーカイブログが強化され、どの E メールが正常に配信されたかまたは BCC アーカイブで失敗したかがより簡単にはっきりと確認できるようになりました。（NEO-10675）
 * トラッキングブロードログでカスタマー IP の代わりにロードバランサー IP が表示されてしまうという問題を修正しました。（NEO-11295）
 * PostgreSQL データベースへの FDA 接続を使用するときに LATIN1 エンコードで発生するエラーを修正しました。（NEO-11299）
-* 配信オプションの使用時に発生する問題を修 **[!UICONTROL Prepare the personalization data with a workflow]** 正しました。 （NEO-11047、NEO-11301）
+* 「**[!UICONTROL ワークフローを使用してパーソナライゼーションデータを準備]**」配信オプションを使用したときに発生する問題を修正しました。（NEO-11047、NEO-11301）
 * 配信のプロパティが誤って上書きされるというランダム問題を修正しました。（NEO-11015）
-* Fixed an issue when using calculated fields in a **[!UICONTROL Survey answers]** workflow activity. （NEO-11382）
-* Fixed an issue when using data stored in XML in a **[!UICONTROL Survey answers]** workflow activity. （NEO-10816）
+* **[!UICONTROL 調査の回答]**&#x200B;ワークフローアクティビティの計算フィールドを使用するときに発生する問題を修正しました。（NEO-11382）
+* **[!UICONTROL 調査の回答]**&#x200B;ワークフローアクティビティで、XML 形式で格納されているデータを使用するときに発生する問題を修正しました。（NEO-10816）
 * ビルド 8935 でサーバーアップグレードを実行するときに発生する問題を修正しました。
-* Fixed an issue which displayed useless errors in the postupgrade log when a **[!UICONTROL Survey answers]** workflow activity was not fully configured.
+* **[!UICONTROL 調査の回答]**&#x200B;ワークフローアクティビティが完全に設定されていないときに、ポストアップグレードログに役に立たないエラーが表示されるという問題を修正しました。
 * FDA Teradata：SQL テーブルの自動増分フィールドとインデックスで発生する問題を修正しました。
 
-## リリース18.4.3 — ビルド8935{#release-18-4-3-build-8935}
+## リリース 18.4.3 - ビルド 8935{#release-18-4-3-build-8935}
 
-2018年6月23日
+2018 年 6 月 22 日
 
 **強化点**
 
@@ -76,24 +76,24 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 * LINE 配信での画像リンクのパーソナライゼーションに伴う問題を修正しました。（NEO-11077）
 * ID シーケンス生成メカニズムが正常に機能しない問題を修正しました。（NEO-11115）
 * カスタム名前空間で integer タイプの紐付けキーを使用する場合に、プライバシー（GDPR）要求が機能しない問題を修正しました。（NEO-11123）
-* Fixed an error which could occur when using the **[!UICONTROL Distribution of values]** option in **[!UICONTROL Query]** workflow activities. （NEO-10958）
+* **[!UICONTROL クエリ]**&#x200B;ワークフローアクティビティで「**[!UICONTROL 値の配分]**」オプションを使用する場合に発生することがあったエラーを修正しました。（NEO-10958）
 * マーケティングインスタンスからインタラクションインスタンスにオファースペースを同期する際の問題を修正しました。（NEO-11162）
 * ポストアップグレード時の長い名前のインデックスの管理を強化しました。
 
-## リリース18.4.2 — ビルド8932{#release-18-4-2-build-8932}
+## リリース 18.4.2 - ビルド 8932{#release-18-4-2-build-8932}
 
-2018年5月23日
+2018 年 5 月 22 日
 
 **強化点**
 
 * Windows Server Update が正常に機能しない問題を修正しました。
-* Fixed an issue in the **[!UICONTROL Survey Result]** activity when using data stored in XML. レポートが正しく表示されませんでした。（NEO-10816）
+* XML 形式で格納されているデータを使用する際の&#x200B;**[!UICONTROL 調査結果]**&#x200B;アクティビティに関する問題を修正しました。レポートが正しく表示されませんでした。（NEO-10816）
 * バウンスメールサーバーを使用する際に inMail プロセスで発生することがあった、パフォーマンスの問題を修正しました。（NEO-10641）
 * 1000 を超えるスキーマをアップグレードする際に発生することがあった、データベースアップグレードの問題を修正しました。
 
-## リリース18.4 — ビルド8931{#release-18-4-build-8931}
+## リリース 18.4 - ビルド 8931{#release-18-4-build-8931}
 
-2018年4月24日
+2018 年 4 月 24 日
 
 **新機能?**
 
@@ -111,7 +111,7 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
     <ul> 
      <li> <p>アクセス権限：データ主体は、データ管理者により取得された自分の個人データのコピーを受け取ることができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。</p> </li> 
      <li> <p>削除権限：データ主体は、データ管理者により取得された自分の個人データを消去することができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。</p> </li> 
-    </ul> 詳しくは、<a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">詳細ドキュメント</a>を参照してください。<br /> </td> 
+    </ul> 詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> アクティブなプロファイル<br /> </td> 
@@ -133,20 +133,20 @@ source-git-commit: 3801665574d0cdc9c0caf46fb2f0eede38f1b2cc
 
 **強化点**
 
-* **LINEチャネル — アーキテクチャの強化**:Adobe Campaignの他のすべてのチャネルと同様に、LINEチャネルは、すべての展開タイプでサポートされるようになりました。ホスト、ハイブリッドおよびオンプレミス。
-* **シーケンスの自動生成**:ID生成メカニズムが強化され、大量のオブジェクトを持つキャンペーンインスタンスの寿命が延びました。 詳しくは、この[テクニカルノート](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html)を参照してください。
+* **LINE チャネル - アーキテクチャ機能強化**：Adobe Campaign のその他すべてのチャネルと同じように、LINE チャネルがすべてのデプロイメントタイプ（ホスト、ハイブリッド、オンプレミス）でサポートされるようになりました。
+* **シーケンス自動生成**：ID 生成メカニズムが強化され、オブジェクトが大量にあるキャンペーンインスタンスの存続期間が長くなりました。詳しくは、この[テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html)を参照してください。
 
 **その他の変更**
 
 * コマンドラインを使ってパッケージをインポートする新しいモードが使用可能になり、循環依存関係（サイズの大きいパッケージでは推奨されません）に対応できるようになりました。詳しくは、「技術面の変更点」の節を参照してください。（NEO-8979）
 * Teradata で大量のデータを読み込む際のパフォーマンスが向上し、処理されたデータの適切な値がログに表示されない問題が解決されました。（NEO-10429）
 * Audience Manager からのオーディエンスのインポートが分割ファイルで正しく機能するようになりました。これまでは、importSharedAudience テクニカルワークフローによってセグメントの最後のファイルのみがインポートされていました。（NEO-10156）
-* Windows で、Campaign サーバーのデフォルトインストールパスが変更されました。64ビットバージョンのセットアップを起動すると、デフォルトのインストールパスが次のようになりました。C:\Program Files\Adobe\Adobe Campaign Classic v7 **(x86)****\Adobe\Adobe Campaign Classic v7の代わりにC:\Program Files**
+* Windows で、Campaign サーバーのデフォルトインストールパスが変更されました。64 ビットバージョンのセットアップを起動する際、デフォルトのインストールパスが次のようになりました。**C:\Program Files\Adobe\Adobe Campaign Classic v7**（以前のパスは **C:\Program Files (x86)\Adobe\Adobe Campaign Classic v7**）
 * デフォルトの MX ルールが強化され、含まれるドメイン数が増えると共にスループットが最適化されています。
 * デプロイウィザードの SOAP 呼び出しに対する強制的なアクセス制限（xtk:serverOptions#SaveOptions）。
 * 古い weka.jar ライブラリが削除され、OpenSSL ライブラリがセキュリティの最適化のために更新されました。
 * インスタンスのパフォーマンス確保のために請求のテクニカルワークフローが改良されました。
-* 管理者が任意のオペレーターのパスワードを設定またはリセットできる機能が復元されました。To do this, right-click on an operator, select **[!UICONTROL Actions]** > **[!UICONTROL Reset password]** and set the operator&#39;s new password. オペレーターが最初の再接続時にパスワードを変更することをお勧めします。詳しくは、[詳細ドキュメント](../../production/using/lost-password.md)を参照してください。
+* 管理者が任意のオペレーターのパスワードを設定またはリセットできる機能が復元されました。そのためには、オペレーターを右クリックし、**[!UICONTROL アクション]**／**[!UICONTROL パスワードをリセット]**&#x200B;を選択して、そのオペレーターの新しいパスワードを設定します。オペレーターが最初の再接続時にパスワードを変更することをお勧めします。詳しくは、[詳細ドキュメント](../../production/using/lost-password.md)を参照してください。
 * 新しいマルチテナンシー機能を Adobe Target でサポートするために、Target との統合のためのオプションおよび外部アカウントの設定時に、新しい「at_property」パラメーターを URL に追加できるようになりました。このパラメーターに使用する値は、Adobe Target で参照でき、Target の呼び出し時に Campaign で使用されます。詳しくは、[詳細ドキュメント](../../integrations/using/inserting-a-dynamic-image.md)を参照してください。
 * Adobe Target によって提供される画像をクリックしたときに開くデフォルトのランディングページを指定できるようになりました。これまでは、この画像をクリックすると、電子メールの作成時に設定したデフォルト画像が表示されました。詳しくは、[詳細ドキュメント](../../integrations/using/inserting-a-dynamic-image.md)を参照してください。
 * トレース出力を強制的におこなうための「**SMPP トレースを有効にする**」チェックボックスが外部アカウントに追加されました。詳しくは、[詳細ドキュメント](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)を参照してください。
@@ -214,7 +214,7 @@ nlserver package -instance:fresh -import:sup-packInstallTest.xml -verbose -usejs
 * オファーに対する仮説の実行や提案のステータス更新をおこなう際のワークフローエラーにつながるおそれがある問題を修正しました。（NEO-9304）
 * Android 配信マッピングの属性に基づく頻度ルールを使用した場合の配信分析中に発生するエラーを修正しました。（NEO-9202）
 * パフォーマンスの問題を引き起こす可能性がある、受信者リストの列を並べ替える際の問題を修正しました。queryDef の変更について詳しくは、以下の「技術面の変更点」の節を参照してください。（NEO-9042）
-* 特にフェデレーション ID ログインタイプの使用時に、承認電子メールのリンクが誤ったログイン URL を指している問題を修正しました。（NEO-9011）
+* 特にFederated ID ログインタイプの使用時に、承認電子メールのリンクが誤ったログイン URL を指している問題を修正しました。（NEO-9011）
 * 特定のタイムゾーンのレポートの日付選択で間違った日付が表示される可能性がある問題を修正しました。（NEO-9007）
 * FDA SQL データベースの使用時にアウトバウンドのターゲットを表示できなかった問題を修正しました。（NEO-8924）
 * 月初の 7 日間に Microsoft の Dynamics CRM コネクタでデータをプルできない問題を修正しました。（NEO-8803）

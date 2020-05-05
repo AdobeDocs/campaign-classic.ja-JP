@@ -14,7 +14,7 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b74ea9a6b079bbe88ed17a79e532bd8ce6ce13ae
 
 ---
@@ -24,30 +24,30 @@ source-git-commit: b74ea9a6b079bbe88ed17a79e532bd8ce6ce13ae
 
 配信の概要からアクセス可能な様々なレポート経由で、配信の実行をトラッキングできます。レポートを表示するには、次の手順に従います。
 
-1. Go to the **[!UICONTROL Campaigns]** universe and click the **[!UICONTROL Delivery]** link to display the list of deliveries.
+1. **[!UICONTROL キャンペーン]**&#x200B;ウィンドウに移動し、「**[!UICONTROL 配信]**」リンクをクリックして配信のリストを表示します。
 1. 表示する配信の名前をクリックして詳細を確認します。
 
    ![](assets/s_ncs_user_detailled_report.png)
 
-1. Select the **[!UICONTROL Summary]** tab and click the **[!UICONTROL Reports]** link to access the reports specific to the delivery.
+1. 「**[!UICONTROL 概要]**」タブを選択し、「**[!UICONTROL レポート]**」リンクをクリックして配信に関連するレポートにアクセスします。
 
    ![](assets/s_ncs_user_detailled_report2.png)
 
    デフォルトでは、次のレポートが使用可能です。
 
-   * **[!UICONTROL Delivery throughput]** :「配信スループ [ット」を参照](../../reporting/using/global-reports.md#delivery-throughput)。
-   * **[!UICONTROL Sharing to social networks]** :ソーシャルネッ [トワークへの共有を参照してください](../../reporting/using/global-reports.md#sharing-to-social-networks)。
-   * **[!UICONTROL Statistics on sharing activities]** :共有アクティビティ [に関する統計情報を参照してください](../../reporting/using/global-reports.md#statistics-on-sharing-activities)。
-   * **[!UICONTROL Hot clicks]** :「ホットクリ [ック数](#hot-clicks)」を参照。
-   * **[!UICONTROL Tracking statistics]** :トラッキング統 [計を参照](#tracking-statistics)
-   * **[!UICONTROL URLs and click streams]** :URLを参照し、 [ストリームをクリックします](#urls-and-click-streams)。
-   * **[!UICONTROL Tracking indicators]** :トラッキングインジケ [ーターを参照してくださ](#tracking-indicators)い。
-   * **[!UICONTROL Non-deliverables and bounces]** :配信不能件 [数とバウンスを参照](../../reporting/using/global-reports.md#non-deliverables-and-bounces)。
-   * **[!UICONTROL User activities]** :詳しくは、ユーザーア [クティビティを参照し](../../reporting/using/global-reports.md#user-activities)。
-   * **[!UICONTROL Delivery summary]** :「配信の概 [要」を参照](#delivery-summary)。
-   * **[!UICONTROL Subscription tracking]** :購読の追跡を [参照してください](../../reporting/using/global-reports.md#subscription-tracking)。
-   * **[!UICONTROL Delivery statistics]** :詳しくは、配信統計 [情報を参照してください](../../reporting/using/global-reports.md#delivery-statistics)。
-   * **[!UICONTROL Breakdown of opens]** :詳しくは、「開 [く内訳」を参照してください](../../reporting/using/global-reports.md#breakdown-of-opens)。
+   * **[!UICONTROL 配信スループット]**：[配信スループット](../../reporting/using/global-reports.md#delivery-throughput)を参照してください。
+   * **[!UICONTROL ソーシャルネットワークへの共有]**：[ソーシャルネットワークへの共有](../../reporting/using/global-reports.md#sharing-to-social-networks)を参照してください。
+   * **[!UICONTROL 共有アクティビティの統計]**：[共有アクティビティの統計](../../reporting/using/global-reports.md#statistics-on-sharing-activities)を参照してください。
+   * **[!UICONTROL ホットクリック]**：[ホットクリック](#hot-clicks)を参照してください。
+   * **[!UICONTROL トラッキング統計]**：[トラッキング統計](#tracking-statistics)を参照してください。
+   * **[!UICONTROL URL とクリックストリーム]**：[URL とクリックストリーム](#urls-and-click-streams)を参照してください。
+   * **[!UICONTROL トラッキング指標]**：[トラッキング指標](#tracking-indicators)を参照してください。
+   * **[!UICONTROL 配信不能件数とバウンス数]**：[配信不能件数とバウンス数](../../reporting/using/global-reports.md#non-deliverables-and-bounces)を参照してください。
+   * **[!UICONTROL ユーザーアクティビティ]**：[ユーザーアクティビティ](../../reporting/using/global-reports.md#user-activities)を参照してください。
+   * **[!UICONTROL 配信の概要]**：[配信の概要](#delivery-summary)を参照してください。
+   * **[!UICONTROL 購読のトラッキング]**：[購読のトラッキング](../../reporting/using/global-reports.md#subscription-tracking)を参照してください。
+   * **[!UICONTROL 配信統計]**：[配信統計](../../reporting/using/global-reports.md#delivery-statistics)を参照してください。
+   * **[!UICONTROL 開封数の分類]**：[開封数の分類](../../reporting/using/global-reports.md#breakdown-of-opens)を参照してください。
 
 ## トラッキング指標 {#tracking-indicators}
 
@@ -55,73 +55,73 @@ source-git-commit: b74ea9a6b079bbe88ed17a79e532bd8ce6ce13ae
 
 >[!NOTE]
 >
->メッセージの開封数に基づいて計算される値は、テキスト形式の E メールに関する誤差があるので、常に推定値です。インジケータ **[!UICONTROL Distinct opens/Sum of opens for the population reached]** ーは、この誤差の余白を考慮に入れます。 For more information on tracking opens, refer to [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-).
+>メッセージの開封数に基づいて計算される値は、テキスト形式の E メールに関する誤差があるので、常に推定値です。「**[!UICONTROL 到達済み母集団のユニーク開封数／到達済み母集団の開封数の合計]**」の指標は、この誤差を考慮したものになっています。開封数のトラッキングについて詳しくは、[開封数のトラッキング](../../reporting/using/indicator-calculation.md#tracking-opens-)を参照してください。
 
 ![](assets/s_ncs_user_tracking_synth_report.png)
 
-**[!UICONTROL 1. Delivery statistics]**
+**[!UICONTROL 1.配信統計]**
 
-* **[!UICONTROL Messages to deliver]** :配信分析後に配信されるメッセージの合計数です。
-* **[!UICONTROL Success]** : 正常に処理されたメッセージ数.
+* **[!UICONTROL 配信メッセージ]**：配信の分析後に配信されるメッセージの合計数。
+* **[!UICONTROL 成功]**：正常に処理されたメッセージ数。
 
-**[!UICONTROL 2. Reception statistics]**
+**[!UICONTROL 2.受信統計]**
 
 >[!NOTE]
 >
 >関連する割合は、正常に転送されたメッセージの数に基づいて計算されます。
 
-* **[!UICONTROL Distinct opens for the population reached]** :メッセージを少なくとも1回オープンしたターゲット受信者の数の推定。 購読解除のリンクおよびミラーページでのクリック数が考慮されます。
-* **[!UICONTROL Sum of opens for the population reached]** :ターゲットの受信者による開封総数の見積もり。
-* **[!UICONTROL Clicks on opt-out link]** :購読解除リンクのクリック数。
-* **[!UICONTROL Clicks on the mirror page link]** :ミラーページへのリンクのクリック数。 考慮されるようにするには、リンクは配信ウィザード（トラッキングされる URL）と同じように定義する必要があります。この[ページ](../../delivery/using/monitoring-a-delivery.md)を参照してください。
-* **[!UICONTROL Estimation of forwards]** :ターゲットの受信者が転送した電子メールの数の推定。 この値は、ユニークユーザーの数と E メールをクリックしたユニーク受信者の数を引くことによって計算されます。
+* **[!UICONTROL 到達済み母集団のユニーク開封数]**：メッセージを少なくとも 1 回開封したターゲット受信者数の推定値。購読解除のリンクおよびミラーページでのクリック数が考慮されます。
+* **[!UICONTROL 到達済み母集団の開封数の合計]**：ターゲット受信者による開封数の合計の推定値。
+* **[!UICONTROL オプトアウトリンクのクリック数]**：購読解除リンクのクリック数。
+* **[!UICONTROL ミラーページリンクのクリック数]**：ミラーページへのリンクでのクリック数。考慮されるようにするには、リンクは配信ウィザード（トラッキングされる URL）と同じように定義する必要があります。この[ページ](../../delivery/using/monitoring-a-delivery.md)を参照してください。
+* **[!UICONTROL 推定転送数]**：ターゲット受信者によって転送される E メール数の推定値。この値は、ユニークユーザーの数と E メールをクリックしたユニーク受信者の数を引くことによって計算されます。
 
    >[!NOTE]
    >
-   >For more information on the difference between distinct people and targeted recipients, refer to [Targeted persons / recipients](../../reporting/using/indicator-calculation.md#targeted-persons---recipients).
+   >ユニークユーザーとターゲット受信者の違いについて詳しくは、[ターゲットユーザー／ターゲット受信者](../../reporting/using/indicator-calculation.md#targeted-persons---recipients)を参照してください。
 
-**[!UICONTROL 3. Open and click-through rate]**
+**[!UICONTROL 3.開封率およびクリックスルー率]**
 
 この値のテーブルは、インターネットドメインごとの配信、開封数、クリック数および反応率（生データ）を示しています。次の指標が使用されています。
 
-* **[!UICONTROL Sent]** :このドメインで送信されたメッセージの合計数です。
-* **[!UICONTROL Complaints]** :受信者から望ましくないと報告された、このドメインのメッセージの数です。 この率は、このドメインでの送信メッセージの合計数に基づいて計算されます。
-* **[!UICONTROL Opens]** :少なくとも1回メッセージを開いた、このドメインの対象となる別の受信者の数です。 この率は、このドメインでの送信メッセージの合計数に基づいて計算されます。
-* **[!UICONTROL Clicks]** :同じ配信を少なくとも1回クリックした、ターゲットとする別の受信者の数。 この率は、このドメインでの送信メッセージの合計数に基づいて計算されます。
-* **[!UICONTROL Raw reactivity]** :配信を少なくとも1回クリックした受信者の数と、配信を少なくとも1回開いた受信者の数との割合。
+* **[!UICONTROL 送信済み]**：このドメインで送信されたメッセージの合計数。
+* **[!UICONTROL 苦情数]**：受信者によって望ましくないとレポートされた、このドメインのメッセージ数。この率は、このドメインでの送信メッセージの合計数に基づいて計算されます。
+* **[!UICONTROL 開封数]**：メッセージを少なくとも 1 回開封した、このドメインのユニークターゲット受信者の数。この率は、このドメインでの送信メッセージの合計数に基づいて計算されます。
+* **[!UICONTROL クリック数]**：同じ配信で少なくとも 1 回クリックしたユニークターゲット受信者の数。この率は、このドメインでの送信メッセージの合計数に基づいて計算されます。
+* **[!UICONTROL 反応率（生データ）]**：配信を少なくとも 1 回開封した受信者数に対する、配信で少なくとも 1 回クリックした受信者数の割合。
 
 >[!NOTE]
 >
->このレポートに表示されるドメイン名は、キューブレベルで使用される定義済みリストで定義されます。To change, add or remove default domains, edit the **[!UICONTROL Domains]** itemized list and modify values and aliases. 詳しくは、[この節](../../platform/using/managing-enumerations.md)を参照してください。The **[!UICONTROL Others]** category includes domain names that don&#39;t belong to any value of the itemized list.
+>このレポートに表示されるドメイン名は、キューブレベルで使用される定義済みリストで定義されます。デフォルトのドメインの変更、追加、削除をおこなうには、「**[!UICONTROL ドメイン]**」定義済みリストを編集し、値とエイリアスを修正します。詳しくは、[この節](../../platform/using/managing-enumerations.md)を参照してください。「**[!UICONTROL その他]**」のカテゴリには、定義済みリストのどの値にも属さないドメイン名が含まれます。
 
-**[!UICONTROL 4. Generated click streams]**
+**[!UICONTROL 4.クリックストリーム]**
 
 >[!NOTE]
 >
 >関連する割合は、正常に転送されたメッセージの数に基づいて計算されます。
 
-* **[!UICONTROL Distinct clicks for the population reached]** :少なくとも1回、配信をクリックした個別ユーザーの数です。
-* **[!UICONTROL Cumulated clicks]** :ターゲットの受信者が、購読解除リンクとミラーページを除いたクリック数の合計です。
-* **[!UICONTROL Recipient clicks]** :同じ配信を少なくとも1回クリックした、ターゲットとする別の受信者の数。
-* **[!UICONTROL Estimated recipient reactivity]** :配信を少なくとも1回クリックした受信者数と、少なくとも1回開いた受信者推定数との比率。 オプトアウトリンクおよびミラーページリンクでのクリック数は考慮されません。
+* **[!UICONTROL 到達済み母集団のユニーククリック数]**：配信で少なくとも 1 回クリックしたユニークユーザーの数。
+* **[!UICONTROL 累積クリック数]**：ターゲット受信者によるクリック総数（購読解除リンクおよびミラーページを除く）。
+* **[!UICONTROL 受信者のクリック数]**：同じ配信で少なくとも 1 回クリックしたユニークターゲット受信者の数。
+* **[!UICONTROL 推定受信者反応率]**：配信を少なくとも 1 回開封した推定受信者数に対する、配信で少なくとも 1 回クリックした受信者数の割合。オプトアウトリンクおよびミラーページリンクでのクリック数は考慮されません。
 
-**[!UICONTROL 5. Web tracking]**
+**[!UICONTROL 5.Web トラッキング]**
 
-* **[!UICONTROL Visited pages]** :メッセージ受信後に訪問されたWebページの数。
-* **[!UICONTROL Transactions]** :メッセージ受信後の購入回数。
-* **[!UICONTROL Total amount]** :メッセージの受信後の購入総額。
-* **[!UICONTROL Average transaction amount]** :別の配信受信者による平均購入。
-* **[!UICONTROL Articles]** :配信の受信者が購入した記事の数。
-* **[!UICONTROL Average count of articles per transaction]** :個別の受信者が行った購入あたりの平均品目数。
-* **[!UICONTROL Average amount per message]** :メッセージごとに生成された平均購入数。
+* **[!UICONTROL 訪問ページ数]**：メッセージの受信後に訪問された Web ページの数。
+* **[!UICONTROL トランザクション数]**：メッセージの受信後の購入の数。
+* **[!UICONTROL 合計量]**：メッセージの受信後の購入の合計金額。
+* **[!UICONTROL 平均トランザクション量]**：配信のユニーク受信者による平均購入金額。
+* **[!UICONTROL 記事数]**：配信の受信者によって購入された記事の数。
+* **[!UICONTROL トランザクションごとの記事の平均数]**：ユニーク受信者による購入あたりの品目の平均数。
+* **[!UICONTROL 各メッセージの平均量]**：メッセージごとに発生した購入の平均金額。
 
    >[!NOTE]
    >
    >訪問されたページ、トランザクション、金額または品目が考慮されるようにするには、Web トラッキングタグを対応する Web ページに挿入する必要があります。Web トラッキングの設定は、[この節](../../configuration/using/about-web-tracking.md)で説明しています。
 
-**[!UICONTROL 6. Sharing activities to email and social networks]**
+**[!UICONTROL 6.E メールおよびソーシャルネットワークに対する共有アクティビティ]**
 
-このセクションには、それぞれのソーシャルネットワークで共有されたメッセージの合計数が表示されます。詳しくは、ソーシャルネットワークへの [共有を参照してください](../../reporting/using/global-reports.md#sharing-to-social-networks)。
+このセクションには、それぞれのソーシャルネットワークで共有されたメッセージの合計数が表示されます。詳しくは、[ソーシャルネットワークへの共有](../../reporting/using/global-reports.md#sharing-to-social-networks)を参照してください。
 
 ## URL とクリックストリーム {#urls-and-click-streams}
 
@@ -129,27 +129,27 @@ source-git-commit: b74ea9a6b079bbe88ed17a79e532bd8ce6ce13ae
 
 ![](assets/s_ncs_user_url_report.png)
 
-このレポートの内容は、表示するスコアグラフ、時間フィルター（アクション開始以降、開始後の最初の 6 時間など）およびデータの表示モード（ラベル別、URL 別）を選択することによって設定できます。詳しくは、[このページ](../../delivery/using/monitoring-a-delivery.md)を参照してください。Click **[!UICONTROL Refresh]** to confirm your selection.
+このレポートの内容は、表示するスコアグラフ、時間フィルター（アクション開始以降、開始後の最初の 6 時間など）およびデータの表示モード（ラベル別、URL 別）を選択することによって設定できます。詳しくは、[このページ](../../delivery/using/monitoring-a-delivery.md)を参照してください。「**[!UICONTROL 更新]**」をクリックして選択内容を確定します。
 
 次の率は、レポートの上部に表示されます。
 
-* **[!UICONTROL Reactivity]** :配信を開いたターゲット受信者の推定数に対する、配信をクリックしたターゲット受信者の数の比率。 オプトアウトリンクおよびミラーページでのクリック数は考慮されません。
+* **[!UICONTROL 反応度]**：配信を開封した推定ターゲット受信者数に対する、配信でクリックしたターゲット受信者数の割合。オプトアウトリンクおよびミラーページでのクリック数は考慮されません。
 
    >[!NOTE]
    >
-   >For more information on tracking opens, refer to [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-).
+   >開封数のトラッキングについて詳しくは、[開封数のトラッキング](../../reporting/using/indicator-calculation.md#tracking-opens-)を参照してください。
 
-* **[!UICONTROL Distinct clicks]** :配信で少なくとも1回（購読解除リンクとミラーページを除く）クリックした個別ユーザーの数。 表示される率は、正常に配信されたメッセージの数に基づいて計算されます。
-* **[!UICONTROL Cumulated clicks]** :ターゲットの受信者（購読解除リンクとミラーページを除く）によるクリック数の合計です。 表示される率は、正常に転送されたメッセージの数に基づいて計算されます。
+* **[!UICONTROL ユニーククリック数]**：配信で少なくとも 1 回クリックしたユニークユーザーの数（購読解除リンクおよびミラーページを除く）。表示される率は、正常に配信されたメッセージの数に基づいて計算されます。
+* **[!UICONTROL 累積クリック数]**：ターゲット受信者によるクリック総数（購読解除リンクおよびミラーページを除く）。表示される率は、正常に転送されたメッセージの数に基づいて計算されます。
 
-**[!UICONTROL Platform average]** :この平均率は、各レート（反応度、個別クリック数および累積クリック数）で表示され、過去6か月間に送信された配信に対して計算されます。 同じタイポロジを持つ、同じチャネルでの配信のみが考慮されます。配達確認は除外されます。
+**[!UICONTROL プラットフォームの平均]**：この平均率は、それぞれの率（反応度、ユニーククリック数および累積クリック数）の下に表示され、過去 6 ヶ月間に送信された配信に対して計算されます。同じタイポロジを持つ、同じチャネルでの配信のみが考慮されます。配達確認は除外されます。
 
 中央のテーブルは、次の情報を示しています。
 
-* **[!UICONTROL Clicks]** :リンクあたりの累積クリック数。
-* **[!UICONTROL Clicks (in %)]** :累積クリック数の合計に対する、リンクあたりのクリック数の分類。
+* **[!UICONTROL クリック数]**：リンクごとの累積クリック数。
+* **[!UICONTROL クリック数 (%)]**：累積クリックの合計数に対する、リンクごとのクリック数の分類。
 
-**[!UICONTROL Breakdown of clicks in time]**
+**[!UICONTROL 時間の経過に伴うクリック数の分類]**
 
 このグラフは、1 日あたりの累積クリック数の分類を表示します。
 
@@ -159,25 +159,25 @@ source-git-commit: b74ea9a6b079bbe88ed17a79e532bd8ce6ce13ae
 
 ![](assets/s_ncs_user_synth_report.png)
 
-**[!UICONTROL Target population]**
+**[!UICONTROL ターゲット母集団]**
 
 このセクションには、2 つの指標があります。
 
-* **[!UICONTROL Initial population]** :配信のターゲット設定を受けた受信者の合計数。
-* **[!UICONTROL Messages rejected by the rule]** :タイポロジルールを適用する際に分析中に無視されたアドレスの数：住所の欠落、隔離、ブラックリストなど。タイポロジルールの詳細は、このページを参照してく [ださい](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)。
+* **[!UICONTROL 初期母集団]**：配信アクションの対象となる受信者の合計数。
+* **[!UICONTROL 除外ルールによって却下されたメッセージ]**：タイポロジルール（アドレスが不明、強制隔離された、ブラックリストに登録されている、など）を適用する際、分析中に無視されたアドレスの数。タイポロジルールについて詳しくは、この[ページ](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)を参照してください。
 
-**[!UICONTROL Causes of exclusion]**
+**[!UICONTROL 除外の理由]**
 
 中央のグラフは、分析中に却下されたメッセージのルールごとの分類を示しています。
 
-**[!UICONTROL Delivery statistics]**
+**[!UICONTROL 配信統計]**
 
 このセクションには、次の指標が含まれます。
 
-* **[!UICONTROL Messages to be delivered]** :配信分析後に配信されるメッセージの合計数です。
-* **[!UICONTROL Success]** :正常に処理されたメッセージの数です。 付随している率は、配信されるメッセージ数の割合です。
-* **[!UICONTROL Errors]** :配信中および自動リバウンド処理中に発生したエラーの合計数。 付随している率は、配信されるメッセージ数の割合です。
-* **[!UICONTROL New quarantines]** :配信失敗後に検疫されたアドレスの数（ユーザーが不明、無効なドメイン）。 付随している率は、配信されるメッセージ数の割合です。
+* **[!UICONTROL 配信されるメッセージ]**：配信の分析後に配信されるメッセージの合計数。
+* **[!UICONTROL 成功]**：正常に処理されたメッセージ数。付随している率は、配信されるメッセージ数の割合です。
+* **[!UICONTROL エラー]**：配信と自動リバウンド処理の間に累積したエラーの合計数。付随している率は、配信されるメッセージ数の割合です。
+* **[!UICONTROL 新しい強制隔離]**：配信の失敗後（不明なユーザー、無効なドメイン）、強制隔離されたアドレスの数。付随している率は、配信されるメッセージ数の割合です。
 
 ## ホットクリック {#hot-clicks}
 
@@ -195,10 +195,10 @@ source-git-commit: b74ea9a6b079bbe88ed17a79e532bd8ce6ce13ae
 
 ![](assets/s_ncs_user_stat_report.png)
 
-これにより、配信の市場への影響をトラッキングできます。期間（1 時間、3 時間または 24 時間表示など）を変更することで、値の表示方法を設定できます。Click **[!UICONTROL Refresh]** to confirm your selection.
+これにより、配信の市場への影響をトラッキングできます。期間（1 時間、3 時間または 24 時間表示など）を変更することで、値の表示方法を設定できます。「**[!UICONTROL 更新]**」をクリックして選択内容を確定します。
 
 このレポートは、値のテーブルと、配信が最大効率に到達するのに必要な時間を表示するパレート図を表示します。次の指標が使用されています。
 
-* **[!UICONTROL Opens]** :開かれたメッセージの合計数の割合に達するのに必要な時間の予測。 テキスト形式の E メールは考慮されません。For more information on tracking opens, refer to [Tracking opens](../../reporting/using/indicator-calculation.md#tracking-opens-).
-* **[!UICONTROL Clicks]** :記録されたクリック数の合計に対する割合に達するのに必要な時間の予測。 オプトアウトリンクおよびミラーページでのクリック数は考慮されません。
-* **[!UICONTROL Transactions]** :メッセージ受信後のトランザクションの総数に対する割合を達成するのに必要な時間。 トランザクションが考慮されるようにするには、トランザクションのタイプの Web トラッキングタグを対応する Web ページに挿入する必要があります。Web トラッキングの設定は、[この節](../../configuration/using/about-web-tracking.md)で説明しています。
+* **[!UICONTROL 開封数]**：開封されたメッセージの合計数の割合に到達するのに必要な推定時間。テキスト形式の E メールは考慮されません。開封数のトラッキングについて詳しくは、[開封数のトラッキング](../../reporting/using/indicator-calculation.md#tracking-opens-)を参照してください。
+* **[!UICONTROL クリック数]**：記録されたクリック総数の割合に到達するのに必要な推定時間。オプトアウトリンクおよびミラーページでのクリック数は考慮されません。
+* **[!UICONTROL トランザクション]**：メッセージ受信後に、トランザクションの合計数の割合に到達するのに必要な時間。トランザクションが考慮されるようにするには、トランザクションのタイプの Web トラッキングタグを対応する Web ページに挿入する必要があります。Web トラッキングの設定は、[この節](../../configuration/using/about-web-tracking.md)で説明しています。

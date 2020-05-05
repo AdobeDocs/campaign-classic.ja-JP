@@ -14,7 +14,7 @@ discoiquuid: 345af5c2-c852-4086-8ed0-ff3e7e402e04
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 ---
@@ -30,11 +30,11 @@ source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 ## iOS で通知を送信する {#sending-notifications-on-ios}
 
-1. 配信テンプレー **[!UICONTROL Deliver on iOS]** トを選択します。
+1. 「**[!UICONTROL iOS 配信]**」配信テンプレートを選択します。
 
    ![](assets/nmac_delivery_ios_1.png)
 
-1. To define the target of the notification, click the **[!UICONTROL To]** link, then click **[!UICONTROL Add]**.
+1. 通知のターゲットを定義するには、**[!UICONTROL 宛先]**&#x200B;リンク／**[!UICONTROL 追加]**&#x200B;をクリックします。
 
    ![](assets/nmac_delivery_ios_2.png)
 
@@ -42,15 +42,15 @@ source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
    >
    >配信のターゲット母集団を選択する際の詳細なプロセスについては、[この節](../../delivery/using/steps-defining-the-target-population.md)を参照してください。
    >
-   >For more on the use of personalization fields, refer to [About personalization](../../delivery/using/about-personalization.md).
+   >パーソナライゼーションフィールドの使用について詳しくは、[パーソナライゼーションについて](../../delivery/using/about-personalization.md)を参照してください。
    >
-   >For more on the inclusion of a seed list, refer to [About seed addresses](../../delivery/using/about-seed-addresses.md).
+   >シードリストの追加について詳しくは、[シードアドレスについて](../../delivery/using/about-seed-addresses.md)を参照してください。
 
-1. を選択 **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**&#x200B;し、モバイルアプリケーションに関連するサービス（この場合はNeotrips）を選択してから、アプリケーションのiOSバージョンを選択します。
+1. 「**[!UICONTROL iOS モバイルアプリケーション (iPhone、iPad) の購読者]**」を選択してモバイルアプリケーション（この場合は Neotrips）に関連するサービスを選択し、アプリケーションの iOS バージョンを選択します。
 
    ![](assets/nmac_delivery_ios_3.png)
 
-1. 通知の種類を選択します。ま **[!UICONTROL Alert]**&#x200B;たは **[!UICONTROL Badge]**&#x200B;のいず **[!UICONTROL Alert and badge]** れか **[!UICONTROL Silent Push]**。
+1. **[!UICONTROL アラート]**、**[!UICONTROL バッジ]**、**[!UICONTROL アラートおよびバッジ]**&#x200B;または&#x200B;**[!UICONTROL サイレントプッシュ]**&#x200B;から通知の種類を選択します。
 
    ![](assets/nmac_delivery_ios_4.png)
 
@@ -58,9 +58,9 @@ source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
    >
    >「**サイレントプッシュ**」モードは、iOS 7 以降で利用できます。このモードでは、モバイルアプリケーションに「無音の」通知を送信します。ユーザーは、通知が到着したことを知らされません。通知は、アプリケーションに直接転送されます。
 
-1. In the **[!UICONTROL Title]** field, enter the label of the title that you want to appear on the notification. このタイトルは、通知センターから使用可能な通知のリストにのみ表示されます。このフィールドを使用して、iOS 通知ペイロードの **title** パラメーターの値を定義できます。
-1. HTTP/2 コネクタを使用する場合、サブタイトル（iOS 通知ペイロードの **subtitle** パラメーター）を追加できます。詳しくは、「Adobe Campaignのモ [バイルアプリケーションの設定](../../delivery/using/configuring-the-mobile-application.md) 」を参照してください。
-1. 次に、選択した通 **[!UICONTROL Message]** 知タイプに **[!UICONTROL Value of the badge]** 基づいて、とを入力します。
+1. 「**[!UICONTROL タイトル]**」フィールドで、通知に表示するタイトルのラベルを入力します。このタイトルは、通知センターから使用可能な通知のリストにのみ表示されます。このフィールドを使用して、iOS 通知ペイロードの **title** パラメーターの値を定義できます。
+1. HTTP/2 コネクタを使用する場合、サブタイトル（iOS 通知ペイロードの **subtitle** パラメーター）を追加できます。[Adobe Campaign でモバイルアプリケーションを設定する](../../delivery/using/configuring-the-mobile-application.md)の節を参照してください。
+1. 選択した通知のタイプに基づいて「**[!UICONTROL メッセージ]**」と「**[!UICONTROL バッジの値]**」を入力します。
 
    ![](assets/nmac_delivery_ios_5.png)
 
@@ -70,22 +70,22 @@ source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
    >[!NOTE]
    >
-   >**[!UICONTROL Badge]** 「通知 **[!UICONTROL Alert and badge]** 」と入力すると、バッジの値（モバイルアプリケーションロゴの上の番号）を変更できます。 バッジを更新するには、値として 0 を入力します。フィールドが空の場合、バッジの値は変更されません。
+   >「**[!UICONTROL バッジ]**」と「**[!UICONTROL アラートおよびバッジ]**」タイプの通知では、バッジの値（モバイルアプリケーションのロゴの上にある数字）を変更できます。バッジを更新するには、値として 0 を入力します。フィールドが空の場合、バッジの値は変更されません。
 
-1. The **[!UICONTROL Action button]** allows you to define a label for the action button appearing on the alert notifications (**action_loc_key** field of the payload). iOS アプリケーションでローカライズ可能文字列を管理する場合は（**Localizable.strings**）、対応するキーをこのフィールドに入力します。アプリケーションでローカライズ可能テキストを管理しない場合は、アクションボタンに表示するラベルを入力します。ローカライズ可能文字列について詳しくは、[Apple のドキュメント](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1)を参照してください。
-1. In the **[!UICONTROL Play a sound]** field, select the sound to be played by the mobile terminal when the notification is received.
-
-   >[!NOTE]
-   >
-   >サウンドは、アプリケーションに含まれている必要があり、サービスが作成されたときに定義される必要があります。「iOS外部アカ [ウントの設定」を参照してください](../../delivery/using/configuring-the-mobile-application.md#configuring-external-account-ios)。
-
-1. In the **[!UICONTROL Application variables]** field, enter the value of each variable. アプリケーション変数によって、通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに特定のアプリケーション画面が表示されるように設定できます。
+1. 「**[!UICONTROL アクションボタン]**」を使用すると、アラート通知に表示されるアクションボタンのラベルを定義できます（ペイロードの **action_loc_key** フィールド）。iOS アプリケーションでローカライズ可能文字列を管理する場合は（**Localizable.strings**）、対応するキーをこのフィールドに入力します。アプリケーションでローカライズ可能テキストを管理しない場合は、アクションボタンに表示するラベルを入力します。ローカライズ可能文字列について詳しくは、[Apple のドキュメント](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1)を参照してください。
+1. 「**[!UICONTROL サウンドを再生]**」フィールドで、通知を受信したときにモバイル端末で再生されるサウンドを選択します。
 
    >[!NOTE]
    >
-   >アプリケーション変数は、モバイルアプリケーションのコードで定義され、サービスの作成中に入力される必要があります。詳しくは、次を参照してください。Adobe Campaign [でのモバイルアプリの設定](../../delivery/using/configuring-the-mobile-application.md)。
+   >サウンドは、アプリケーションに含まれている必要があり、サービスが作成されたときに定義される必要があります。[iOS 外部アカウントの設定](../../delivery/using/configuring-the-mobile-application.md#configuring-external-account-ios)を参照してください。
 
-1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification.
+1. 「**[!UICONTROL アプリケーション変数]**」フィールドで、それぞれの変数の値を入力します。アプリケーション変数によって、通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに特定のアプリケーション画面が表示されるように設定できます。
+
+   >[!NOTE]
+   >
+   >アプリケーション変数は、モバイルアプリケーションのコードで定義され、サービスの作成中に入力される必要があります。詳しくは、[Adobe Campaign でモバイルアプリケーションを設定する](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
+
+1. 通知を設定したら、「**[!UICONTROL プレビュー]**」タブをクリックして通知をプレビューします。
 
    ![](assets/nmac_intro_2.png)
 
@@ -105,15 +105,15 @@ source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 ## Android で通知を送信する {#sending-notifications-on-android}
 
-1. 配信テンプレートを選択して **[!UICONTROL Deliver on Android (android)]** 開始します。
+1. 「**[!UICONTROL Android に配信（android）]**」配信テンプレートを選択して開始します。
 
    ![](assets/nmac_delivery_android_1.png)
 
-1. To define the target of the notification, click the **[!UICONTROL To]** link, then click **[!UICONTROL Add]**.
+1. 通知のターゲットを定義するには、**[!UICONTROL 宛先]**&#x200B;リンク／**[!UICONTROL 追加]**&#x200B;をクリックします。
 
    ![](assets/nmac_delivery_android_2.png)
 
-1. Select **[!UICONTROL Subscribers of an Android mobile application]**, choose the service relevant to your mobile application (Neotrips, in this case), then select the Android version of the application.
+1. 「**[!UICONTROL Android モバイルアプリケーションの購読者]**」を選択してモバイルアプリケーション（この場合は Neotrips）に関連するサービスを選択し、アプリケーションの Android バージョンを選択します。
 
    ![](assets/nmac_delivery_android_3.png)
 
@@ -125,13 +125,13 @@ source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
    >
    >通知のコンテンツに絵文字を追加することができます。そのためには、絵文字のリストがある Web サイト（[例](https://www.utf8-chartable.de/unicode-utf8-table.pl?start=9728)）で絵文字をコピーし、コンテンツエディターに直接貼り付けます。Windows 7 では、一部の絵文字がエディターで正しく表示されない（四角形で表示される）ことがありますが、最終的な E メールでは正しく送信されます。絵文字を表示できるかどうかは、デバイスの OS によって異なります。配信を送信する前に、配信が正しく表示されることを示す証拠を送信することをお勧めします。
 
-1. In the **[!UICONTROL Application variables]** field, enter the value of each variable. アプリケーション変数によって、通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに特定のアプリケーション画面が表示されるように設定できます。
+1. 「**[!UICONTROL アプリケーション変数]**」フィールドで、それぞれの変数の値を入力します。アプリケーション変数によって、通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに特定のアプリケーション画面が表示されるように設定できます。
 
    >[!NOTE]
    >
-   >アプリケーション変数は、モバイルアプリケーションのコードで定義され、サービスの作成中に入力される必要があります。詳しくは、次を参照してください。Adobe Campaign [でのモバイルアプリの設定](../../delivery/using/configuring-the-mobile-application.md)。
+   >アプリケーション変数は、モバイルアプリケーションのコードで定義され、サービスの作成中に入力される必要があります。詳しくは、[Adobe Campaign でモバイルアプリケーションを設定する](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
 
-1. Once the notification is configured, click the **[!UICONTROL Preview]** tab to preview the notification.
+1. 通知を設定したら、「**[!UICONTROL プレビュー]**」タブをクリックして通知をプレビューします。
 
    ![](assets/nmac_intro_1.png)
 

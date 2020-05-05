@@ -14,7 +14,7 @@ discoiquuid: 093dbe8a-494f-4fe7-8614-3bf58486e34c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
@@ -24,19 +24,19 @@ source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 **スケジューラー**&#x200B;は、スケジュールで指定された時間にトランジションを有効化する永続的なタスクです。
 
-The **[!UICONTROL Scheduler]** activity should be considered as a scheduled start. The activity positioning rules within the chart are the same as for the **[!UICONTROL Start]** activity. このアクティビティはインバウンドトランジションを持つことはできません。
+「**[!UICONTROL スケジューラー]**」アクティビティは、予約済みの開始とみなされます。アクティビティのグラフ内の配置ルールは、「**[!UICONTROL 開始]**」アクティビティのルールと同じものです。このアクティビティはインバウンドトランジションを持つことはできません。
 
 システム全体のパフォーマンスが落ちたり、データベースにブロックが作成されたりする可能性があるので、ワークフローの実行スケジュールは 15 分以上の間隔を開けることをお勧めします。
 
-When building your workflow, never use more than one **[!UICONTROL Scheduler]** activity per branch. For more on this, refer to: [Using activities](../../workflow/using/workflow-best-practices.md#using-activities).
+ワークフローを作成する場合、1 つの分岐につき「**[!UICONTROL スケジューラー]**」アクティビティを複数使用することはできません。詳しくは、[アクティビティの使用](../../workflow/using/workflow-best-practices.md#using-activities)を参照してください。
 
-スケジューラーは、トランジションの有効化スケジュールを定義します。To configure it, double-click the graphical object, then click **[!UICONTROL Change...]**
+スケジューラーは、トランジションの有効化スケジュールを定義します。設定するには、グラフィックオブジェクトをダブルクリックして、「**[!UICONTROL 変更...]**」をクリックします。
 
 ![](assets/s_user_segmentation_scheduler.png)
 
 ウィザードを使用して、アクティビティの頻度と有効期限を定義できます。設定手順は、以下のとおりです。
 
-1. Select the activation frequency and click **[!UICONTROL Next]**.
+1. 有効化の頻度を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/s_user_segmentation_scheduler2.png)
 
@@ -48,10 +48,10 @@ When building your workflow, never use more than one **[!UICONTROL Scheduler]** 
 
    ![](assets/s_user_segmentation_scheduler4.png)
 
-1. Check the configuration and click **[!UICONTROL Finish]** to save.
+1. 設定を確認して、「**[!UICONTROL 完了]**」をクリックして保存します。
 
    ![](assets/s_user_segmentation_scheduler5.png)
 
-スケジューラーアクティビティを使用すると、同時に複数のワークフローが実行される場合があります。 例えば、1 時間ごとにワークフローの実行をトリガーするようにスケジューラーを設定できますが、ワークフロー全体の実行に 1 時間以上かかる場合があります。ワークフローが既に実行中の場合、実行をスキップしたいことがあります。ワークフローの同時実行を防ぐ方法の詳細については、このページを参照 [してください](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)。
+スケジューラーアクティビティを使用すると、同時に複数のワークフローが実行される場合があります。例えば、1 時間ごとにワークフローの実行をトリガーするようにスケジューラーを設定できますが、ワークフロー全体の実行に 1 時間以上かかる場合があります。ワークフローが既に実行中の場合、実行をスキップしたいことがあります。ワークフローの同時実行を防ぐ方法について詳しくは、[このページ](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)を参照してください。
 
 なお、ワークフローがインポートなどの長期タスクを実行している場合、または wfserver が当分の間停止している場合は、トランジションを数時間後に有効化することもできます。この場合、スケジューラーによって有効化されるタスクの実行の制限が一定期間必要になることがあります。

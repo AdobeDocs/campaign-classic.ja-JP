@@ -14,7 +14,7 @@ discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 
 ---
@@ -30,7 +30,7 @@ iOS および Android 用の Campaign SDK は、モバイルアプリチャネ�
 
 SDK の目的は、モバイルアプリケーションを Adobe Campaign プラットフォームに容易に統合できるようにすることです。
 
-サポートされている別の Android および iOS バージョンについて詳しくは、[互換性マトリックス](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html#MobileSDK)を参照してください。
+サポートされている別の Android および iOS バージョンについて詳しくは、[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html#MobileSDK)を参照してください。
 
 ## Campaign SDK の読み込み {#loading-campaign-sdk}
 
@@ -68,7 +68,7 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 
    >[!NOTE]
    >
-   >This integration key is entered in the Adobe Campaign console, in the **[!UICONTROL Information]** tab of service dedicated to the mobile application. 詳しくは、Adobe Campaign [でのモバイルアプリケーションの設定を参照してください](../../delivery/using/configuring-the-mobile-application.md)。
+   >この統合キーは、Adobe Campaign コンソールのモバイルアプリケーション専用サービスの「**[!UICONTROL 情報]**」タブに入力されます。詳しくは、[Adobe Campaign でモバイルアプリケーションを設定する](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
 
 * **トラッキング URL**：Adobe Campaign トラッキングサーバーのアドレスと一致します。
 * **マーケティング URL**：購読のコレクションを有効にします。
@@ -152,7 +152,7 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 
    トラッキング関数を使用すると、通知の有効化（オープン）および通知の表示（スクリーンショット）を追跡できます。
 
-   （SDK の **notifyReceive** 関数を呼び出して）通知表示をトラッキングするには、次の実装に従います。Note that if you use FCM (Firebase Cloud Messaging), we advise you to use the **notifyReceive** function when the **onMessageReceived** function is called by the Android system.
+   （SDK の **notifyReceive** 関数を呼び出して）通知表示をトラッキングするには、次の実装に従います。FCM（Firebase Cloud Messaging）を使用する場合は、Android システムによって **onMessageReceived** 関数が呼び出されるときに **notifyReceive** 関数を使用することをお勧めします。
 
    ```
    package com.android.YourApplication;
@@ -527,7 +527,7 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 
 ## 変数 {#variables}
 
-変数によって、通知を受信した後のモバイルアプリケーションの動作を定義できます。These variables must be defined in the mobile application code and in the Adobe Campaign console, in the **[!UICONTROL Variables]** tab in the dedicated mobile application service (see [Configuring a mobile application in Adobe Campaign](../../delivery/using/configuring-the-mobile-application.md)). 次に、モバイルアプリケーションが通知で追加された変数を収集できるようにするコードの例を示します。この例では、「VAR」変数を使用しています。
+変数によって、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaign コンソールのモバイルアプリケーション専用サービスの「**[!UICONTROL 変数]**」タブで定義する必要があります（[Adobe Campaign でモバイルアプリケーションを設定する](../../delivery/using/configuring-the-mobile-application.md)を参照）。次に、モバイルアプリケーションが通知で追加された変数を収集できるようにするコードの例を示します。この例では、「VAR」変数を使用しています。
 
 * **Android**：
 
@@ -575,7 +575,7 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 
 ## 通知サービス拡張 {#notification-service-extension}
 
-**iOSの場合**
+**iOS の場合**
 
 メディアは通知サービス拡張レベルでダウンロードする必要があります。
 
@@ -609,7 +609,7 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 
 ## 通知コンテンツ拡張 {#notification-content-extension}
 
-**iOSの場合**
+**iOS の場合**
 
 このレベルでは次の作業が必要です。
 

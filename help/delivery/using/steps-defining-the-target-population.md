@@ -14,7 +14,7 @@ discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
@@ -24,50 +24,50 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ## ターゲット母集団について {#about-target-populations}
 
-各配信に対して、複数のタイプのターゲット母集団を定義できます。 選択方法の詳細については、以下の節を参照してください。
+配信ごとに、次のようなターゲット母集団を複数指定できます。選択方法の詳細については、以下の節を参照してください。
 
-* **配信のメイン受信者**。 [詳細を表示](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
-* **検証サイクルを設定するため**、証明メッセージの受信者。 [詳細を表示](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target).
+* **配信のメイン受信者**[詳細を表示](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)。
+* **配達確認メッセージの受信者**（検証サイクルを設定するため）[詳細を表示](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)。
 
-また、シードアドレスや制御グ [ループを定義す](../../delivery/using/about-seed-addresses.md)るこ [ともできます](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)。 配信がマーケティングキャンペーンに含まれる場合。
+また、[シードアドレス](../../delivery/using/about-seed-addresses.md)および[コントロール母集団](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)を定義することもできます（配信がマーケティングキャンペーンに含まれる場合）。
 
 ## 配信のメイン受信者の選択 {#selecting-the-main-target}
 
 ほとんどの場合、メインターゲットは Campaign データベースから抽出されます（デフォルトモード）。
 
-受信者は、外部ファイルに保存することもできます。The configuration of this type of delivery is presented in [Selecting external recipients](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+受信者は、外部ファイルに保存することもできます。このタイプの配信の設定については、[外部受信者の選択](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients)で説明します。
 
 作成する配信の受信者を選択するには、次の手順に従います。
 
-1. リンクをクリック **[!UICONTROL To]** します。
+1. 「**[!UICONTROL 宛先]**」リンクをクリックします。
 1. 受信者の情報がデータベースに格納されている場合は、第 1 のオプションを選択します。
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. Select the target mapping in the **[!UICONTROL Target mapping]** drop-down list. Adobe Campaign default target mapping is **[!UICONTROL Recipients]**.
+1. **[!UICONTROL ターゲットマッピング]**&#x200B;ドロップダウンリストでターゲットマッピングを選択します。Adobe Campaign のデフォルトのターゲットマッピングは&#x200B;**[!UICONTROL 受信者]**&#x200B;です。
 
-   他のターゲットマッピングも使用でき、一部のターゲットマッピングは特定の設定に関連付けることができます。ターゲット・マッピングの詳細は、「ターゲット・マッピ [ングの選択」を参照してくださ](../../delivery/using/selecting-a-target-mapping.md)い。
+   他のターゲットマッピングも使用でき、一部のターゲットマッピングは特定の設定に関連付けることができます。ターゲットマッピングについて詳しくは、[ターゲットマッピングの選択](../../delivery/using/selecting-a-target-mapping.md)を参照してください。
 
-1. Click the **[!UICONTROL Add]** button to define restriction filters.
+1. 「**[!UICONTROL 追加]**」ボタンをクリックし、制限フィルターを定義します。
 
    次に、適用するフィルターのタイプを選択します。
 
    ![](assets/s_ncs_user_wizard_email02b.png)
 
-   受信者の選択は、データベース内に定義されているターゲティングのタイプを使用しておこなうことができます。To use a target type, select it and click **[!UICONTROL Next]**. For each target, you can display the recipients concerned by clicking the **[!UICONTROL Preview]** tab. For certain types of target, the **[!UICONTROL Refine target]** button lets you combine several targeting criteria.
+   受信者の選択は、データベース内に定義されているターゲティングのタイプを使用しておこなうことができます。使用するターゲットタイプを選択し、「**[!UICONTROL 次へ]**」をクリックします。「**[!UICONTROL プレビュー]**」タブをクリックすると、ターゲットごとに、該当する受信者を確認できます。ターゲットのタイプによっては、「**[!UICONTROL ターゲットを絞り込む]**」ボタンを使用して、複数のターゲット条件を組み合わせることができます。
 
    デフォルトで用意されているターゲットタイプは次のとおりです。
 
-   * **[!UICONTROL Filtering conditions]** :このオプションを使用すると、クエリーを定義し、結果を表示できます。 クエリの定義方法については、[この節](../../platform/using/creating-filters.md#creating-an-advanced-filter)を参照してください。
-   * **[!UICONTROL Subscribers of an information service]** :このオプションを使用すると、受信者が作成する配信のターゲットにするニュースレターを購読する必要があります。
+   * **[!UICONTROL フィルター条件]**：このオプションでは、クエリを定義して結果を表示できます。クエリの定義方法については、[この節](../../platform/using/creating-filters.md#creating-an-advanced-filter)を参照してください。
+   * **[!UICONTROL 情報サービスの購読者]**：このオプションでは、作成する配信のターゲットとなる受信者が購読する必要のあるニュースレターを選択できます。
 
       ![](assets/s_ncs_user_wizard_email02c.png)
 
-   * **[!UICONTROL Recipients of a delivery]** :このオプションを使用すると、既存の配信の受信者をターゲット条件として定義できます。 その後、リストから配信を選択する必要があります。
+   * **[!UICONTROL 配信の受信者]**：このオプションでは、既にある別の配信の受信者をターゲット条件として指定できます。その後、リストから配信を選択する必要があります。
 
       ![](assets/s_ncs_user_wizard_email02d.png)
 
-   * **[!UICONTROL Delivery recipients belonging to a folder]** :このオプションを使用すると、配信フォルダーを選択し、そのフォルダー内の配信の受信者をターゲットに設定できます。
+   * **[!UICONTROL フォルダーに属する配信の受信者]**：このオプションでは、配信フォルダーを選択し、そのフォルダーに属する配信の受信者をターゲットとして指定できます。
 
       ![](assets/s_ncs_user_wizard_email02e.png)
 
@@ -77,18 +77,18 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
       >[!NOTE]
       >
-      >The **[!UICONTROL Include sub-folders]** option also lets you target the deliveries contained in folders located in the tree structure below the selected node.
+      >「**[!UICONTROL サブフォルダーを含める]**」オプションでは、ツリー構造内の選択したノード以下にあるフォルダー内の配信をターゲットとして指定することもできます。
 
-   * **[!UICONTROL Recipients included in a folder]** :このオプションを使用すると、ツリーの特定のフォルダーに含まれるプロファイルをターゲットに設定できます。
-   * **[!UICONTROL A recipient]** :このオプションを使用すると、データベース内のプロファイルから特定の受信者を選択できます。
-   * **[!UICONTROL A list of recipients]** :このオプションを使用すると、受信者のリストをターゲットに設定できます。 リストについて詳しくは、[この節](../../platform/using/creating-and-managing-lists.md)を参照してください。
-   * **[!UICONTROL User filters]** :このオプションを使用すると、事前に設定されたフィルターにアクセスして、データベース内のプロファイルのフィルター条件として使用できます。 事前設定済みフィルターについては、[この節](../../platform/using/creating-filters.md#saving-a-filter)を参照してください。
-   * このオプションを **[!UICONTROL Exclude recipients corresponding to this segment]** 使用すると、定義されたターゲット条件を満たさない受信者をターゲットに設定できます。 これを使用するには、適切なボックスを選択し、事前に定義した、該当するプロファイルを除外するためのターゲティングを適用します。
+   * **[!UICONTROL フォルダーに含まれている受信者]**：このオプションでは、ツリー内の特定のフォルダーに含まれるプロファイルをターゲットとして指定できます。
+   * **[!UICONTROL 受信者]**：このオプションでは、データベースに格納されたプロファイルの中から特定の受信者 1 人を選択できます。
+   * **[!UICONTROL 受信者のリスト]**：このオプションでは、受信者のリストをターゲットとして指定できます。リストについて詳しくは、[この節](../../platform/using/creating-and-managing-lists.md)を参照してください。
+   * **[!UICONTROL ユーザーフィルター]**：このオプションでは、事前設定済みのフィルターを、データベース内のプロファイルに対するフィルター条件として使用できます。事前設定済みフィルターについては、[この節](../../platform/using/creating-filters.md#saving-a-filter)を参照してください。
+   * 「**[!UICONTROL このセグメントから受信者を除外]**」は、指定したターゲット条件を満たさない受信者をターゲットにするオプションです。これを使用するには、適切なボックスを選択し、事前に定義した、該当するプロファイルを除外するためのターゲティングを適用します。
 
       ![](assets/s_ncs_user_wizard_email02g.png)
 
-1. Enter a name for this targeting in the **[!UICONTROL Label]** field. デフォルトでは、ラベルは最初のターゲット条件のラベルと同じになります。組み合わせを指定する場合は、扱いやすいように明示的に名前を付けると便利です。
-1. Click **[!UICONTROL Finish]** to validate the configured targeting.
+1. 「**[!UICONTROL ラベル]**」フィールドに、このターゲティングの名前を入力します。デフォルトでは、ラベルは最初のターゲット条件のラベルと同じになります。組み合わせを指定する場合は、扱いやすいように明示的に名前を付けると便利です。
+1. 「**[!UICONTROL 完了]**」をクリックすると、設定したターゲティングが検証されます。
 
    定義したターゲット条件は、メインターゲット設定タブの中央部セクションにまとめて表示されます。特定の条件をクリックすると、その内容（設定とプレビュー）が表示されます。条件を削除するには、ラベルの後にある「X」をクリックします。
 
@@ -100,20 +100,20 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 手順は次のとおりです。
 
-1. Click the **[!UICONTROL To]** link to select the recipients of your delivery.
-1. オプションを選 **[!UICONTROL Defined in an external file]** 択します。
+1. 「**[!UICONTROL 宛先]**」リンクをクリックして、配信の受信者を選択します。
+1. 「**[!UICONTROL 外部ファイルで定義]**」オプションを選択します。
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. デフォルトでは、受信者はデータベースにインポートされます。を選択する必要がありま **[!UICONTROL Target mapping]**&#x200B;す。 ターゲット・マッピングの詳細については、「ターゲット・マ [ッピングの選択」を参照してください。](../../delivery/using/selecting-a-target-mapping.md)
+1. デフォルトでは、受信者はデータベースにインポートされます。「**[!UICONTROL ターゲットマッピング]**」を選択する必要があります。ターゲットマッピングについて詳しくは、[ターゲットマッピングの選択](../../delivery/using/selecting-a-target-mapping.md)を参照してください。
 
-   また、を選択することもできま **[!UICONTROL Do not import the recipients into the database]**&#x200B;す。
+   「**[!UICONTROL 受信者をデータベースにインポートしない]**」を選択することもできます。
 
-1. When importing the recipients, click the **[!UICONTROL File format definition...]** link to select and configure the external file.
+1. 受信者をインポートする場合は、**[!UICONTROL ファイルフォーマットの定義...]** リンクをクリックし、外部ファイルを選択して設定します。
 
    データのインポートについて詳しくは、[この節](../../platform/using/importing-data.md#step-2---source-file-selection)を参照してください。
 
-1. Click **[!UICONTROL Finish]** and configure your delivery as a standard delivery.
+1. 「**[!UICONTROL 完了]**」をクリックして、この配信を標準の配信として設定します。
 
 >[!CAUTION]
 >
@@ -129,19 +129,19 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 >
 >ダイレクトメール配信で、2 人の受信者の姓名、郵便番号、市区町村が同じである場合、重複エラーが発生し、重複分が対象から除外されます。
 
-The **[!UICONTROL Exclusions]** tab is used to limit the number of messages.
+「**[!UICONTROL 除外]**」タブは、メッセージの数を制限するために使用します。
 
 >[!NOTE]
 >
 >デフォルトのパラメーターを使用することをお勧めしますが、ニーズに応じて設定を適応させることができます。ただし、誤用やエラーを避けるために、これらのオプションはエキスパートユーザーのみが変更してください。
 
-Click the **[!UICONTROL Edit...]** link to modify the default configuration.
+「**[!UICONTROL 編集]**」リンクをクリックするとデフォルトの設定を変更できます。
 
 ![](assets/s_ncs_user_wizard_email02i.png)
 
 次のオプションを使用できます。
 
-* **[!UICONTROL Exclude duplicate addresses during delivery]**. このオプションは、デフォルトでアクティブに設定され、配信中に重複した E メールアドレスを排除できます。適用される除外方法は、Adobe Campaign の使用方法と、データベースに格納されているデータのタイプによって異なる場合があります。
+* **[!UICONTROL 配信中に重複アドレスを除外]**：このオプションは、デフォルトでアクティブに設定され、配信中に重複した E メールアドレスを排除できます。適用される除外方法は、Adobe Campaign の使用方法と、データベースに格納されているデータのタイプによって異なる場合があります。
 
    このオプションのデフォルト値は、配信テンプレートごとに設定可能です。
 
@@ -150,52 +150,52 @@ Click the **[!UICONTROL Edit...]** link to modify the default configuration.
    * ニュースレターの配信、または電子文書の配信：重複アドレスが自然に発生するような性質のデータである場合を除き、重複アドレスを除外しない設定にします。例えば、1 つの E メールアドレスを共用しているカップルが、同じニュースレターをそれぞれ購読している場合、それぞれの宛名でパーソナライズされた 2 通の E メールメッセージを受け取るのが自然だと考えられます。この場合、このオプションはオフにできます。
    * マーケティングキャンペーンの配信：同じ受信者に多数のメッセージが送信されないようにするために、重複アドレスの除外は必要不可欠です。この場合、このオプションをオンにできます。
 
-      If you unselect this option, you can access an additional option: **[!UICONTROL Keep duplicate records (same identifier)]**. これは、複数のターゲット条件を満たす受信者に対して配信を複数個送信することを許可するオプションです。
+      このオプションの選択を解除すると、追加オプション、「**[!UICONTROL 重複するレコード (同じ識別子) を保持]**」にアクセスできます。これは、複数のターゲット条件を満たす受信者に対して配信を複数個送信することを許可するオプションです。
 
       ![](assets/s_ncs_user_wizard_email02j.png)
 
-* **[!UICONTROL Exclude recipients who no longer want to be contacted]** (例：電子メールアドレスがブラックリストに登録されている受信者（「オプトアウト」）)。 E マーケティングのビジネス倫理を尊重し、E コマースを規制する法律を遵守するために、このオプションは必ずオンにしておいてください。
-* **[!UICONTROL Exclude quarantined recipients]**. プロファイルに入力されているアドレスからの応答がないターゲットを除外します。このオプションは必ずオンにしておくことをお勧めします。
+* **[!UICONTROL 今後連絡を希望しない受信者を除外（ブラックリスト）]**：ブラックリストに記載された E メールアドレスを持つ（オプトアウトした）受信者を除外します。E マーケティングのビジネス倫理を尊重し、E コマースを規制する法律を遵守するために、このオプションは必ずオンにしておいてください。
+* **[!UICONTROL 強制隔離された受信者を除外]**：プロファイルに入力されているアドレスからの応答がないターゲットを除外します。このオプションは必ずオンにしておくことをお勧めします。
 
    >[!NOTE]
    >
-   >検疫管理の詳細については、「検疫管理につい [て」を参照してください](../../delivery/using/understanding-quarantine-management.md)。
+   >強制隔離管理について詳しくは、[強制隔離管理の理解](../../delivery/using/understanding-quarantine-management.md)を参照してください。
 
-* **[!UICONTROL Limit delivery]** 指定された数のメッセージに対して 送信するメッセージの最大数を指定し、配信件数を限定します。指定されたメッセージの最大数よりもターゲットの規模が大きい場合は、ターゲットの中から送信先がランダムに選択されます。
+* **[!UICONTROL 配信を制限]**：メッセージ数の上限を設定します。送信するメッセージの最大数を指定し、配信件数を限定します。指定されたメッセージの最大数よりもターゲットの規模が大きい場合は、ターゲットの中から送信先がランダムに選択されます。
 
 ### ターゲット母集団のサイズの縮小 {#reducing-the-size-of-the-target-population}
 
-ターゲット母集団のサイズは縮小することもできます。To do this, specify the number of recipients to be exported in the **[!UICONTROL Requested quantity]** field.
+ターゲット母集団のサイズは縮小することもできます。縮小するには、「**[!UICONTROL 希望数量]**」フィールドで、抽出する受信者の数を指定します。
 
 ![](assets/s_ncs_user_edit_del_exe_tab.png)
 
-## 校正メッセージの受信者の選択 {#selecting-the-proof-target}
+## 配達確認メッセージの受信者の選択 {#selecting-the-proof-target}
 
 配達確認は、配信をメインターゲットに送信する前にテストするための特別なメッセージです。配達確認受信者は、メッセージのフォームおよびコンテンツの両方を承認します。
 
 配達確認のターゲットを選択するには、次の手順に従います。
 
-1. リンクをクリック **[!UICONTROL To]** します。
-1. タブをクリック **[!UICONTROL Target of the proofs]** します。
-1. フィールドをク **[!UICONTROL Targeting mode]** リックして、適用する方法を選択します。 **[!UICONTROL Definition of a specific proof target]** 、、 **[!UICONTROL Substitution of the address]** 、ま **[!UICONTROL Seed addresses]** たは **[!UICONTROL Specific target and seed addresses]**。
+1. 「**[!UICONTROL 宛先]**」リンクをクリックします。
+1. 「**[!UICONTROL 配達確認のターゲット]**」タブをクリックします。
+1. 「**[!UICONTROL ターゲティングモード]**」フィールドをクリックして、「**[!UICONTROL 特定の配達確認ターゲットの定義]**」、「**[!UICONTROL アドレスの代用]**」、「**[!UICONTROL シードアドレス]**」、「**[!UICONTROL 特定のターゲットとシードアドレス]**」の中から適用する方法を選択します。
 
 >[!NOTE]
 >
->通常は、配達確認ターゲットをメインターゲットにも追加します。To do this, select the appropriate option in the lower section of the **[!UICONTROL Main target]** tab.
+>通常は、配達確認ターゲットをメインターゲットにも追加します。そのためには、「**[!UICONTROL メインターゲット]**」タブの下部のセクションにある適切なオプションを選択します。
 
 ## 特定の配達確認ターゲットの定義 {#defining-a-specific-proof-target}
 
-When selecting the proof target, the **[!UICONTROL Definition of a specific proof target]** option lets you select the proof recipients from the profiles in the database.
+配達確認ターゲットを選択する場合は、「**[!UICONTROL 配達確認の特定ターゲットの定義]**」オプションを使用して、データベースに格納されたプロファイルの中から特定の配達確認受信者を選択します。
 
-Select this option to choose recipients using the **[!UICONTROL Add]** button, as in the case of defining the main target. See [Selecting the main target](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target).
+このオプションを選択し、メインターゲットを定義する場合と同じように、「**[!UICONTROL 追加]**」ボタンをクリックして受信者を選択します。[メインターゲットの選択](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)を参照してください。
 
 ![](assets/s_ncs_user_wizard_email01_143.png)
 
-For more on proof sending, refer to [this section](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+配達確認の送信について詳しくは、[この節](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)を参照してください。
 
 ### 配達確認のアドレス置換の使用 {#using-address-substitution-in-proof}
 
-Instead of selecting dedicated recipients in the database, you can use the **[!UICONTROL Substitution of the address]** option.
+データベースで専用の受信者を選択する代わりに、「**[!UICONTROL アドレスの代用]**」オプションを使用できます。
 
 配信の受信者プロファイルを使用しますが、E メールアドレスを、配達確認受信用の 1 つまたは複数のアドレスで置き換えます。
 
@@ -205,13 +205,13 @@ Instead of selecting dedicated recipients in the database, you can use the **[!U
 
 設定の手順は次のとおりです。
 
-1. Click the **[!UICONTROL Add]** icon to define a substitution.
+1. **[!UICONTROL 追加]**&#x200B;アイコンをクリックし、代用アドレスを定義します。
 1. 使用する受信者アドレスを入力するか、リストから選択します。
-1. Select the profile to use in the proof: save the **[!UICONTROL Random]** value in the **[!UICONTROL Profile to use]** column to use the data of any profile of the target in the proof.
+1. 配達確認に使用するプロファイルの選択：「**[!UICONTROL 使用するプロファイル]**」列に「**[!UICONTROL ランダム]**」値を設定すると、配達確認ターゲットの任意のプロファイルに含まれるデータが使用されます。
 
    ![](assets/s_ncs_user_wizard_email_bat_substitute_choose.png)
 
-1. Click the **[!UICONTROL Detail]** icon to select a profile from the main target, as in the following example:
+1. **[!UICONTROL 詳細]**&#x200B;アイコンをクリックすると、次のようにメインターゲットからプロファイルを選択できます。
 
    ![](assets/s_ncs_user_wizard_email_bat_substitute_select.png)
 
@@ -219,12 +219,12 @@ Instead of selecting dedicated recipients in the database, you can use the **[!U
 
 ## 配達確認としてのシードアドレスの使用 {#using-seed-addresses-as-proof}
 
-You can use **[!UICONTROL Seed addresses]** as target of the proofs: this option lets you use or import a list of existing seed addresses.
+**[!UICONTROL シードアドレス]**&#x200B;を配達確認のターゲットとして使用できます。既存のシードアドレスのリストを使用またはインポートできます。
 
 ![](assets/s_ncs_user_wizard_email_bat_control_address.png)
 
 >[!NOTE]
 >
->シードアドレスは、シードアドレスにつ [いてで示されます](../../delivery/using/about-seed-addresses.md)。
+>シードアドレスについては、[シードアドレスについて](../../delivery/using/about-seed-addresses.md)で説明します。
 
-You can combine the definition of a specific proof target and the use of seed addresses using the **[!UICONTROL Specific target and Seed addresses]** option. 関連する設定は、異なる 2 つのサブタブで定義します。
+「**[!UICONTROL 特定のターゲットとシードアドレス]**」オプションを使用すると、特定の配達確認ターゲットの定義とシードアドレスの使用を組み合わせることができます。関連する設定は、異なる 2 つのサブタブで定義します。

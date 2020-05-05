@@ -14,7 +14,7 @@ discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3641e438784d40aa097f8c89ca19bdbb52f4bc7d
 
 ---
@@ -28,16 +28,16 @@ Adobe Campaign では、E メール、SMS、LINE メッセージ、プッシュ�
 
 >[!NOTE]
 >
->Adobe Campaign は、配信品質を監視し、E メール送信を最適化するための一連のツールを備えています。詳しくは、[配信品質の概要](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html)および[配信品質の管理](../../delivery/using/about-deliverability.md)を参照してください。
+>Adobe Campaign は、配信品質を監視し、E メール送信を最適化するための一連のツールを備えています。詳しくは、[配信品質の概要](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)および[配信品質の管理](../../delivery/using/about-deliverability.md)を参照してください。
 
 配信の送信は、ワークフローのプロセスの中で配信を準備または送信することによって自動化できます。ワークフロー内の配信タイプのアクティビティについて詳しくは、[この節](../../workflow/using/about-action-activities.md)を参照してください。
 
 Adobe Campaign は次の配信チャネルを提供します。
 
-1. **E メールチャネル**：E メール配信によって、ターゲット母集団にパーソナライズされた E メールを送信できます。「電子メールチャ [ネルについて」を参照してくださ](../../delivery/using/about-email-channel.md)い。
-1. **ダイレクトメールチャネル**：ダイレクトメール配信によって、ターゲット母集団に関するデータを含む抽出ファイルを生成できます。「ダイレクトメ [ールチャネルについて](../../delivery/using/about-direct-mail-channel.md)」を参照。
-1. **モバイルチャネル**：モバイルチャネル経由の配信によって、ターゲット母集団にパーソナライズされた SMS または LINE メッセージを送信できます。「 [SMSチャネル](../../delivery/using/sms-channel.md)」を参照。
-1. **モバイルアプリケーションチャネル**:モバイルアプリの配信では、iOSおよびAndroidシステムに通知を送信できます。 [モバイルアプリチャネル](../../delivery/using/about-mobile-app-channel.md)の章を参照してください。
+1. **E メールチャネル**：E メール配信によって、ターゲット母集団にパーソナライズされた E メールを送信できます。[E メールチャネルについて](../../delivery/using/about-email-channel.md)を参照してください。
+1. **ダイレクトメールチャネル**：ダイレクトメール配信によって、ターゲット母集団に関するデータを含む抽出ファイルを生成できます。[ダイレクトメールチャネルについて](../../delivery/using/about-direct-mail-channel.md)を参照してください。
+1. **モバイルチャネル**：モバイルチャネル経由の配信によって、ターゲット母集団にパーソナライズされた SMS または LINE メッセージを送信できます。[SMS チャネル](../../delivery/using/sms-channel.md)を参照してください。
+1. **モバイルアプリケーションチャネル**：モバイルアプリ配信では通知を iOS システムおよび Android システムに送信できます。[モバイルアプリチャネル](../../delivery/using/about-mobile-app-channel.md)の章を参照してください。
 
    他のチャネルについて詳しくは、[このページ](../../delivery/using/other-channels.md)を参照してください。
 
@@ -52,7 +52,7 @@ Adobe Campaign は次の配信チャネルを提供します。
 * Adobe Campaign 経由の直接一括配信（E メールチャネルのデフォルトモード）。
 * 配信ウィザードで生成された出力ファイルを受け取る専門オペレーター経由の外部配信（ダイレクトメールチャネルのデフォルトモード）。
 
-外部アカウントはノードを介して設定 **[!UICONTROL Administration > Platform > External accounts]** されます。 この設定は、エキスパートユーザーのみが実行するようにしてください。
+外部アカウントは、**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;ノードで設定できます。この設定は、エキスパートユーザーのみが実行するようにしてください。
 
 ## E メール配信 {#email-deliveries}
 
@@ -64,7 +64,7 @@ Adobe Campaign は次の配信チャネルを提供します。
 * 繰り返し E メール：キャンペーンで、同じ E メールを定期的に送信し、各送信とそのレポートを定期的に集計します。同じ E メールが送信されますが、通常は、送信日の適格なターゲットに基づいて、異なるターゲットに送信されます。一般的な例に誕生日の E メールがあります。詳しくは、[繰り返し配信](../../workflow/using/recurring-delivery.md)を参照してください。
 * トランザクション E メール：顧客の行動に基づいてトリガーされる単一の E メール。[トランザクションメッセージ](../../message-center/using/about-transactional-messaging.md)を参照してください。
 
-配信の使用と推奨事項については、Campaign の[配信のベストプラクティス](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html)を参照してください。
+配信の使用と推奨事項については、Campaign の[配信のベストプラクティス](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/deliveryBestPractices.html)を参照してください。
 
 配信のタイプについて詳しくは、[この節](../../delivery/using/types-of-deliveries.md)を参照してください。
 
@@ -78,7 +78,7 @@ LINE メッセージの場合は、テキストまたは画像とリンクを送
 
 SMS または LINE メッセージを携帯電話に配信するには、以下が必要です。
 
-* An external account configured on the **[!UICONTROL Mobile (SMS)]** channel or on the **[!UICONTROL LINE]** channel.
+* **[!UICONTROL モバイル（SMS）]**&#x200B;チャネルまたは **[!UICONTROL LINE]** チャネルに設定された外部アカウント。
 * この外部アカウントに適切にリンクされた SMS または LINE 配信テンプレート。
 
 ## プッシュ通知{#push-notifications}

@@ -1,7 +1,7 @@
 ---
-title: リリース18.10
-seo-title: リリース18.10
-description: リリース18.10
+title: リリース 18.10
+seo-title: リリース 18.10
+description: リリース 18.10
 seo-description: null
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,17 +14,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 
 ---
 
 
-# Release 18.10{#release-18-10}
+# リリース 18.10{#release-18-10}
 
-## リリース18.10.6 — ビルド8985{#release-18-10-6-build-8985}
+## リリース 18.10.6 - ビルド 8985{#release-18-10-6-build-8985}
 
-2019年7月12日
+2019 年 ７ 月 12 日
 
 **強化点**
 
@@ -34,9 +34,9 @@ source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 * 内部アカウントを使用する際にセキュリティゾーンパッケージを実行するための権限が改善されました。
 * mtachild ログでエラーが発生する原因となっていた問題を修正しました。（NEO-8978）
 
-## リリース18.10.5 — ビルド8984{#release-18-10-5-build-8984}
+## リリース 18.10.5 - ビルド 8984{#release-18-10-5-build-8984}
 
-2019年4月24日
+2019 年 4 月 23 日
 
 **強化点**
 
@@ -44,9 +44,9 @@ source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 * データが失われる問題を修正するため、ワークフローヒートマップの 10,000 レコードの制限を削除しました。（NEO-12329）
 * エンリッチメントワークフローアクティビティで「メインセットからのすべての追加データを維持」オプションを使用した際の問題を修正しました。（NEO-13291）
 
-## リリース18.10.4 — ビルド8983{#release-18-10-4-build-8983}
+## リリース 18.10.4 - ビルド 8983{#release-18-10-4-build-8983}
 
-2019年4月16日
+2019 年 4 月 15 日
 
 **強化点**
 
@@ -57,13 +57,13 @@ source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 * Analytics 統合で、% 文字を使用した AAM セグメントデータを取得できるようになりました。（NEO-12025）
 * HTTP2 を使用して通知を送信する際に Tomcat がクラッシュする問題を修正しました。（NEO-12701）
 
-## リリース18.10.3 — ビルド8981{#release-18-10-3-build-8981}
+## リリース 18.10.3 - ビルド 8981{#release-18-10-3-build-8981}
 
-2019年1月29日
+2019 年 1 月 29 日
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新ビルドにアップグレードする](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)か、[テクニカルサポート](https://support.neolane.net/)にお問い合わせください。
+>このビルドはリコールされました。[最新ビルドにアップグレードする](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)か、[テクニカルサポート](https://support.neolane.net/)にお問い合わせください。
 
 **強化点**
 
@@ -81,13 +81,13 @@ source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 * モバイルアプリケーションでプッシュ通知を送信する際に文字がエスケープされる問題を修正しました。
 * ミッドソーシング外部アカウントで FDA から SOAP 同期メソッドに切り替えることができない問題を修正しました。
 
-## リリース18.10.2 — ビルド8978{#release-18-10-2-build-8978}
+## リリース 18.10.2 - ビルド 8978{#release-18-10-2-build-8978}
 
-2018年12月6日
+2018 年 12 月 6 日
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新ビルドにアップグレードする](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)か、[テクニカルサポート](https://support.neolane.net/)にお問い合わせください。
+>このビルドはリコールされました。[最新ビルドにアップグレードする](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)か、[テクニカルサポート](https://support.neolane.net/)にお問い合わせください。
 
 **強化点**
 
@@ -103,13 +103,13 @@ source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 * ワークフローヒートマップのワークフロー持続期間の計算で発生していた問題を修正しました。
 
 
-## リリース18.10 — ビルド8977{#release-18-10-build-8977}
+## リリース 18.10 - ビルド 8977{#release-18-10-build-8977}
 
-2018年11月5日
+2018 年 11 月 5 日
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新ビルドにアップグレードする](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)か、[テクニカルサポート](https://support.neolane.net/)にお問い合わせください。
+>このビルドはリコールされました。[最新ビルドにアップグレードする](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)か、[テクニカルサポート](https://support.neolane.net/)にお問い合わせください。
 
 **新機能?**
 
@@ -128,7 +128,7 @@ source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
      <li> <p>iOS でのサイレント通知のトラッキング </p> </li> 
      <li> <p>iOS での登録呼び出しに関するフィードバックの実装</p> </li> 
      <li> <p>iOS 配信準備の時間の短縮</p> </li> 
-    </ul> <p>Google の GCM 廃止予定に伴い、Android V2 コネクタは FCM サーバーにのみ接続可能になりました。</p><p>詳しくは、<a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">詳細ドキュメント</a>を参照してください。FCM への手動アップグレードの詳細については、<a href="https://helpx.adobe.com/campaign/kb/migrate-to-fcm.html">記事</a>で説明しています。 </p> </td> 
+    </ul> <p>Google の GCM 廃止予定に伴い、Android V2 コネクタは FCM サーバーにのみ接続可能になりました。</p><p>詳しくは、<a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">詳細ドキュメント</a>を参照してください。FCM への手動アップグレードの詳細については、<a href="https://helpx.adobe.com/jp/campaign/kb/migrate-to-fcm.html">記事</a>で説明しています。 </p> </td> 
   </tr> 
   <tr> 
    <td> SQL データ管理アクティビティ<br /> </td> 
@@ -136,7 +136,7 @@ source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
   </tr> 
   <tr> 
    <td> ワークフロー監視<br /> </td> 
-   <td> <p>新しい Adobe Campaign Workflow HeatMap では、プラットフォーム管理者はすべての並列ワークフローをグラフィカルにすばやく確認できるので、インスタンスの負荷を監視し、それに応じてワークフローを計画することができます。</p> <p>詳しくは、<a href="../../workflow/using/heatmap.md">詳細ドキュメント</a>を参照してください。</p> <p>8977 より前のビルド（開始ビルド 8700）について、ワークフローヒートマップパッケージもオンデマンドで使用できます。リクエストおよびインストールについて詳しくは、<a href="https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html">このページ</a>を参照してください。</p> </td> 
+   <td> <p>新しい Adobe Campaign Workflow HeatMap では、プラットフォーム管理者はすべての並列ワークフローをグラフィカルにすばやく確認できるので、インスタンスの負荷を監視し、それに応じてワークフローを計画することができます。</p> <p>詳しくは、<a href="../../workflow/using/heatmap.md">詳細ドキュメント</a>を参照してください。</p> <p>8977 より前のビルド（開始ビルド 8700）について、ワークフローヒートマップパッケージもオンデマンドで使用できます。リクエストおよびインストールについて詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/install-workflow-heatmap-package.html">このページ</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -152,11 +152,11 @@ source-git-commit: a8c4face331ab6d646480322c0f53a7147251aa6
 **強化点**
 
 * Campaign Classic API を[専用ページ](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html)から入手できるようになりました。jsapi.chm ファイルを使用していた場合は、新しいオンラインバージョンを参照する必要があります。
-* PostgreSQL 10、Debian 9 および Teradata 16.20 がサポートされるようになりました。[互換性マトリックス](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)を参照してください。
+* PostgreSQL 10、Debian 9 および Teradata 16.20 がサポートされるようになりました。[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)を参照してください。
 * SFTP 接続を作成する際、プロキシ認証を使用できるようになりました。詳しくは、[詳細ドキュメント](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)を参照してください。（NEO-9868）
 * ダイレクトメール配信テンプレートを使用して単一の配信を作成する際、配信プロパティで「**日付計算式**」オプションを使用できるようになりました。（NEO-9792）
 * Cookie のトラッキングと Web アプリケーションで、ドメイン名管理が強化されました。詳しくは、以下の「技術面の変更点」の節を参照してください。
-* 配信やランディングページでの Adobe Marketing Cloud の共有アセットのインポートがセキュリティとパフォーマンスの面で強化されました。
+* 配信やランディングページでの Adobe Experience Cloud の共有アセットのインポートがセキュリティとパフォーマンスの面で強化されました。
 * モバイルチャネルの外部アカウントで、ログファイルの詳細 SMPP トレースを有効にする新しいチェックボックスが使用可能になりました。これにより、Adobe Campaign インターフェイスから直接この出力にアクセスできます。
 * broadLog で、接続の最大数と 1 時間あたりのメッセージの最大数が区別されるようになりました。限界値に達した場合、スループットが制限される理由を判別できます。これまでは、どちらの場合にも同じメッセージ（「割り当てに達しました」）が表示されていました。
 * プールから接続を取得する際に実行する SQL スクリプトを指定できるようになりました。このスクリプトはデフォルトのスキーマを設定するために使用できます。このスクリプトは Query Banding の後に適用されます。（NEO-11256）

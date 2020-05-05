@@ -14,7 +14,7 @@ discoiquuid: 8dda45b4-4b5d-4b4e-a8b4-45d9bc49aaf3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
 
 # クロスチャネル配信{#cross-channel-deliveries}
 
-Cross-channel deliveries are available in the **[!UICONTROL Deliveries]** tab of campaign workflow activities.
+クロスチャネル配信は、キャンペーンワークフローアクティビティの「**[!UICONTROL 配信]**」タブから使用可能です。
 
 クロスチャネル配信を使用して、特定のチャネルに固有の配信を作成できます。従来の配信ウィザードと同じ方法で、配信およびコンテンツのベースとなるテンプレートを指定できます。
 
@@ -41,7 +41,7 @@ Cross-channel deliveries are available in the **[!UICONTROL Deliveries]** tab of
 例えば、ここでは、プッシュ通知購読者に E メールまたは SMS を送信し、1 週間後にプッシュ通知を通知するワークフローを作成します。手順は次のとおりです。
 
 1. キャンペーンを作成します。
-1. キャンペーン **[!UICONTROL Targeting and workflows]** のタブで、ワークフローにを **[!UICONTROL Query]** 追加します。
+1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、ワークフローに&#x200B;**[!UICONTROL クエリ]**&#x200B;を追加します。
 1. クエリを設定します。例えば、ここでは、ターゲットディメンションとしてプッシュ通知を購読している受信者を選択します。
 
    >[!NOTE]
@@ -54,15 +54,15 @@ Cross-channel deliveries are available in the **[!UICONTROL Deliveries]** tab of
 
    ![](assets/cross_channel_delivery_2.png)
 
-1. Add a **[!UICONTROL Split]** activity to your workflow to divide recipients who have a mobile number and those who have an email address.
-1. In the **[!UICONTROL Delivery]** tab, select a delivery for each of your targets.
+1. ワークフローに&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティを追加して、モバイル番号を持つ受信者と E メールアドレスを持つ受信者を分割します。
+1. 「**[!UICONTROL 配信]**」タブで、各ターゲットに対する配信を選択します。
 
    ワークフローの配信アクティビティをダブルクリックして、従来の配信ウィザードと同じ方法で配信を作成します。詳しくは、この[ページ](../../delivery/using/about-email-channel.md)を参照してください。
 
    ![](assets/cross_channel_delivery_3.png)
 
-1. Add and configure a **[!UICONTROL Wait]** activity in order for the recipients not to receive too many deliveries at once.
-1. Add a **[!UICONTROL Split]** activity to divide subscribers of an iOS or Android mobile applications.
+1. 受信者が一度に多くの配信を受信しないように、**[!UICONTROL 待機]**&#x200B;アクティビティを追加および設定します。
+1. **[!UICONTROL 分割]**&#x200B;アクティビティを追加して、iOS または Android モバイルアプリケーションの購読者を分割します。
 
    各オペレーティングシステム用のサービスを選択します。サービスの作成について詳しくは、この[ページ](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
 

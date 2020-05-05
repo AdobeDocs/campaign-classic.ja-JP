@@ -14,7 +14,7 @@ discoiquuid: 5ec88743-be51-438c-9064-dd0196fdd7d3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b2222b2997105801164f930428c7b05ae7d11336
 
 ---
@@ -30,13 +30,13 @@ source-git-commit: b2222b2997105801164f930428c7b05ae7d11336
 
 ## 全般的なプロパティ {#overall-properties}
 
-The **[!UICONTROL General]** tab lets you view or alter the label and the schema which the report concerns. これらの要素は、レポートの作成時に入力します。
+「**[!UICONTROL 一般]**」タブでは、レポートのラベルや関係するスキーマを表示または変更できます。これらの要素は、レポートの作成時に入力します。
 
-We do not recommend changing the **[!UICONTROL Internal name]** : this is used in the report access URL.
+レポートにアクセスするための URL で使用されるので、「**[!UICONTROL 内部名]**」の変更はお勧めしません。
 
 レポートテンプレートは、レポートの作成時に選択し、後で変更することはできません。
 
-To change the table which the report concerns, click the **[!UICONTROL Select link]** icon to the right of the **[!UICONTROL Document type]** field. To view the available fields in the selected table, click the **[!UICONTROL Magnifier]** icon.
+レポートに関係するテーブルを変更するには、「**[!UICONTROL ドキュメントタイプ]**」フィールドの右にある「**[!UICONTROL リンクを選択]**」アイコンをクリックします。選択したテーブルで使用可能なフィールドを確認するには、**[!UICONTROL 拡大鏡]**&#x200B;アイコンをクリックします。
 
 ![](assets/s_ncs_advuser_report_properties_02.png)
 
@@ -48,18 +48,18 @@ To change the table which the report concerns, click the **[!UICONTROL Select li
 
 原則としては、次のようになります。
 
-* The **[!UICONTROL Anonymous access]** option enables unrestricted access to the report. ただし、操作はできません。
+* 「**[!UICONTROL 匿名アクセス]**」オプションでは、レポートへの無制限アクセスが可能になります。ただし、操作はできません。
 
    デフォルトのレポートオペレーター（「webapp」）の権限がレポート要素の表示に使用されます。
 
-* The **[!UICONTROL Access control]** option enables Adobe Campaign operators to access it once they are logged on.
-* The **[!UICONTROL Specific account]** option lets you execute the report with the rights of the operator selected in the **[!UICONTROL Operator]** field.
+* 「**[!UICONTROL アクセス制御]**」オプションでは、Adobe Campaign オペレーターがログオン後にレポートにアクセスできるようになります。
+* 「**[!UICONTROL 特定のアカウントを使用]**」オプションでは、「**[!UICONTROL オペレーター]**」フィールドで選択したオペレーターの権限でレポートを実行できるようになります。
 
 Web フォームプロパティについては、[このページ](../../web/using/about-web-forms.md)を参照してください。
 
 ## レポートのローカライゼーションの管理 {#managing-report-localization}
 
-レポートの翻訳先の言語を設定できます。To do this, click the **[!UICONTROL Localization]** tab.
+レポートの翻訳先の言語を設定できます。それには、「**[!UICONTROL ローカライゼーション]**」タブをクリックします。
 
 ![](assets/s_ncs_advuser_report_properties_06.png)
 
@@ -73,9 +73,9 @@ Web フォームプロパティについては、[このページ](../../web/usi
 
 ## HTML レンダリングのパーソナライズ {#personalizing-html-rendering}
 
-In the **[!UICONTROL Rendering]** tab, you can personalize the data display mode for the page. 次の項目を選択できます。
+「**[!UICONTROL レンダリング]**」タブでは、ページのデータ表示モードをパーソナライズできます。次の項目を選択できます。
 
-* グラフレンダリングエンジン：Adobe Campaignには、グラフのレンダリングを生成する2つの異なるモードが用意されています。 デフォルトのレンダリングエンジンは HTML 5 です。必要に応じて、Flash レンダリングも選択できます。
+* グラフレンダリングエンジン：Adobe Campaign には、グラフレンダリングを生成する 2 つの異なるモードが用意されています。デフォルトのレンダリングエンジンは HTML 5 です。必要に応じて、Flash レンダリングも選択できます。
 * レポートでのナビゲーションタイプ（ボタンによるか、リンクによるか）。
 * レポート要素のラベルのデフォルト位置。この位置は、要素ごとにオーバーロードできます。
 * レポートページの生成に使用されるテンプレートまたはテーマ。
@@ -86,7 +86,7 @@ Web フォームプロパティについては、[このページ](../../web/usi
 
 ## 追加設定の定義 {#defining-additional-settings}
 
-The **[!UICONTROL Parameters]** tab lets you create additional settings for the report: these settings will be passed into the URL during the call up.
+「**[!UICONTROL パラメーター]**」タブでは、レポートの追加設定を作成できます。これらの設定は、レポートの呼び出し時に URL 内に渡されます。
 
 Web フォームプロパティについては、[このページ](../../web/using/about-web-forms.md)を参照してください。
 
@@ -96,50 +96,50 @@ Web フォームプロパティについては、[このページ](../../web/usi
 
 新しい設定を作成するには
 
-1. Click the **[!UICONTROL Add]** button and enter the name of the setting.
+1. 「**[!UICONTROL 追加]**」ボタンをクリックし、設定の名前を入力します。
 
    ![](assets/s_ncs_advuser_report_properties_09a.png)
 
 1. 必要に応じて、設定が必須かどうかを指定します。
-1. Select the type of setting you want to create: **[!UICONTROL Filter]** or **[!UICONTROL Variable]**.
+1. 作成する設定の種類を選択します。選択できるのは、**[!UICONTROL フィルター]**&#x200B;または&#x200B;**[!UICONTROL 変数]**&#x200B;です。
 
-   The **[!UICONTROL Filter entities]** option lets you use a field of the database as a parameter.
+   「**[!UICONTROL エンティティをフィルター]**」オプションでは、データベースのフィールドをパラメーターとして使用できます。
 
    ![](assets/s_ncs_advuser_report_properties_09b.png)
 
-   データは、エンティティレベルで直接リカバリされます。 **ctx/recipient/@account**.
+   データの復元は、エンティティレベル **ctx/recipient/@account** で直接おこなわれます。
 
-   The **[!UICONTROL Variable]** option lets you create or select a variable which will be passed as a parameter of the URL and can be used in the filters.
+   「**[!UICONTROL 変数]**」オプションでは、変数を作成または選択できます。変数は、URL のパラメーターとして渡されるほか、フィルターで使用することもできます。
 
-を使用 **[!UICONTROL Response HTTP headers]** すると、iframeを使用してレポートのページをHTMLページに含める際のクリックジャックを防ぐことができます。 クリックジャックを避けるには、次の動作を選択 **[!UICONTROL X-Frame-options header]** します。
+**[!UICONTROL 応答 HTTP ヘッダー]**&#x200B;を使用すると、iframe を使用してレポートのページを HTML ページに含める際のクリックジャックを防ぐことができます。クリックジャックを避けるために、**[!UICONTROL X-Frame-options ヘッダー]**&#x200B;の動作を選択できます。
 
-* **[!UICONTROL None]**:報告書にはない **[!UICONTROL X-Frame-options header]**。
-* **[!UICONTROL Same as origin]**:新しいレポートおよび再公開されたレポートに対してデフォルトで設定されます。 ホスト名は、レポートのURLと同じになります。
-* **[!UICONTROL Deny]**:iframeを使用してHTMLページにレポートを含めることはできません。
+* **[!UICONTROL なし]**：レポートには **[!UICONTROL X-Frame-options ヘッダー]**&#x200B;は含まれません。
+* **[!UICONTROL 同じ生成源]**：新しいレポートおよび再パブリッシュされたレポートに対してデフォルトで設定されます。ホスト名は、レポートの URL と同じになります。
+* **[!UICONTROL 拒否]**：iframe を使用して HTML ページにレポートを含めることはできません。
 
 ![](assets/s_ncs_advuser_report_properties_09c.png)
 
 ## 変数の追加 {#adding-variables}
 
-The **[!UICONTROL Variables]** tab contains the list of variables configured in the report. これらの変数は、レポートのコンテキストで公開されており、計算で使用できます。
+「**[!UICONTROL 変数]**」タブには、レポートに設定されている変数のリストが表示されます。これらの変数は、レポートのコンテキストで公開されており、計算で使用できます。
 
-Click the **[!UICONTROL Add]** button to create a new variable.
+「**[!UICONTROL 追加]**」ボタンをクリックして、新しい変数を作成します。
 
-To view the definition of a variable, select it and click the **[!UICONTROL Detail...]** button.
+変数の定義を表示するには、変数を選択し、「**[!UICONTROL 詳細]**」ボタンをクリックします。
 
 ![](assets/s_ncs_advuser_report_properties_10.png)
 
 ## スクリプトの参照 {#referencing-scripts}
 
-The **[!UICONTROL Scripts]** tab lets you reference JavaScript codes that will be executed on the client and/or server side when the report page is called up.
+「**[!UICONTROL スクリプト]**」タブでは、レポートページの呼び出し時にクライアント側やサーバー側で実行される JavaScript コードを参照できます。
 
 クライアント側での通常の実行の場合、参照されるスクリプトは JavaScript で記述されている必要があり、ほとんどのブラウザーとの互換性も必要です。詳しくは、[この節](../../web/using/web-forms-answers.md)を参照してください。
 
 ## エラーページのパーソナライズ {#personalizing-the-error-page}
 
-The **[!UICONTROL Error page]** tab lets you configure the message that will come up in case of an error in the report display.
+「**[!UICONTROL エラーページ]**」タブでは、レポートの表示でエラーが発生した場合に出力されるメッセージを設定できます。
 
-テキストを定義し、レポートのローカライゼーションを管理する特定の識別子にそれらのテキストをリンクできます。詳しくは、ヘッダーとフッターの [追加を参照してください](../../reporting/using/element-layout.md#adding-a-header-and-a-footer)。
+テキストを定義し、レポートのローカライゼーションを管理する特定の識別子にそれらのテキストをリンクできます。詳しくは、[ヘッダーやフッターの追加](../../reporting/using/element-layout.md#adding-a-header-and-a-footer)を参照してください。
 
 ![](assets/s_ncs_advuser_report_properties_11.png)
 

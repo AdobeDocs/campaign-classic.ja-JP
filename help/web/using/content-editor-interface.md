@@ -15,7 +15,7 @@ discoiquuid: 20c64d31-c2ed-4bc9-9f0e-46f2e0c08c88
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
@@ -29,9 +29,9 @@ DCE 編集ウィンドウは、3 つの異なるセクションに分類され�
 
 ![](assets/dce_decoupe_window_nb.png)
 
-1. **上部**&#x200B;のセクションは、ユーザーに対するメッセージの表示領域です。これらのメッセージは、Web アプリケーションのステータスや作成される配信、およびコンテンツに関連する警告やエラーメッセージを示します。詳しくは、 [HTMLコンテンツのステータスを参照してください](../../web/using/content-editing-best-practices.md#html-content-statuses)。
-1. ウィンドウの&#x200B;**左側**&#x200B;のセクションは、コンテンツを編集するための領域です。この領域から、ユーザーはポップアップツールバーを使用してコンテンツを直接操作できます。画像へのリンクの挿入、フォントの変更、フィールドの削除など For more on this refer to [Editing forms](../../web/using/editing-content.md#editing-forms).
-1. ウィンドウの&#x200B;**右側**&#x200B;のセクションは、コントロールパネル領域です。この領域では、エディタの様々なオプション、特にブロックのページ見出しや一般オプションの設定に関連するオプションをグループ化します。枠線の追加、データベースフィールドと入力ゾーンのリンク、Webページのプロパティへのアクセスなど For more on this, refer to the [Global options](#global-options) and [Editing content](../../web/using/editing-content.md) sections.
+1. **上部**&#x200B;のセクションは、ユーザーに対するメッセージの表示領域です。これらのメッセージは、Web アプリケーションのステータスや作成される配信、およびコンテンツに関連する警告やエラーメッセージを示します。詳しくは、[HTML コンテンツのステータス](../../web/using/content-editing-best-practices.md#html-content-statuses)を参照してください。
+1. ウィンドウの&#x200B;**左側**&#x200B;のセクションは、コンテンツを編集するための領域です。この領域から、ポップアップツールバーを使用して直接コンテンツを操作できます（画像へのリンクの挿入、フォントの変更、フィールドの削除など）。詳しくは、[フォームの編集](../../web/using/editing-content.md#editing-forms)を参照してください。
+1. ウィンドウの&#x200B;**右側**&#x200B;のセクションは、コントロールパネル領域です。この領域は、エディターの様々なオプション、特にページ見出しの設定に関するものとブロックの全般的なオプションをグループ化します（境界線の追加、データベースフィールドと入力ゾーンのリンク、Web ページのプロパティへのアクセスなど）。詳しくは、[グローバルオプション](#global-options)および[コンテンツの編集](../../web/using/editing-content.md)の節を参照してください。
 
 ## グローバルオプション {#global-options}
 
@@ -43,7 +43,7 @@ DCE 編集ウィンドウは、3 つの異なるセクションに分類され�
 
 ![](assets/dce_icons_sidebar.png)
 
-* The **Display/Hide blocks** icon lets you display blue frames around the content blocks (corresponding to the `<div>` HTML tag).
+* **ブロックを表示／非表示**&#x200B;アイコンを使用すると、コンテンツブロック（`<div>` HTML タグに対応）の周りに青い枠を表示できます。
 
 * **別のコンテンツを選択**&#x200B;アイコンを使用すると、ユーザーは新しいコンテンツをテンプレート（既存のテンプレートまたは標準のテンプレート）から読み込むことができます。
 
@@ -53,7 +53,7 @@ DCE 編集ウィンドウは、3 つの異なるセクションに分類され�
    >
    >選択したコンテンツが現在のコンテンツを置き換えます。
 
-* **テンプレートとして保存**&#x200B;アイコンを使用すると、現在のコンテンツをテンプレートとして保存できます。テンプレートのラベルおよび内部名を入力する必要があります。テンプレートはノードに保存さ **[!UICONTROL Resources > Templates > Content templates]** れます。
+* **テンプレートとして保存**&#x200B;アイコンを使用すると、現在のコンテンツをテンプレートとして保存できます。テンプレートのラベルおよび内部名を入力する必要があります。テンプレートは、**[!UICONTROL リソース／テンプレート／コンテンツテンプレート]**&#x200B;ノードに格納されます。
 
    ![](assets/dce_popup_savetemplate.png)
 
@@ -67,7 +67,7 @@ DCE 編集ウィンドウは、3 つの異なるセクションに分類され�
 
    >[!NOTE]
    >
-   >This information corresponds to the **`<title>`** and **`<meta>`** HTML tags on the page.
+   >この情報は、ページの **`<title>`** および **`<meta>`** HTML タグに対応します。
    >
    >キーワードは、コンマで区切る必要があります。
 
@@ -79,12 +79,12 @@ DCE 編集ウィンドウは、3 つの異なるセクションに分類され�
 
 次の操作をおこなうことができます。
 
-* 1つまたは複数のブロックの表示を決定するには、「表 [示条件の定義](../../web/using/editing-content.md#defining-a-visibility-condition)、
-* 枠線とフレームの定義については、境界線と背 [景の追加を参照してください](../../web/using/editing-content.md#adding-a-border-and-background)。
-* 画像属性（サイズ、キャプション）の定義については、画像プロパ [ティの編集](../../web/using/editing-content.md#editing-image-properties)、
-* データベースをフォーム要素（入力ゾーン、チェックボックス）にリンクします。詳しくは、 [フォームのデータプロパティの変更](../../web/using/editing-content.md#changing-the-data-properties-for-a-form)、
-* フォームの一部を必須にする場合は、「フォームのデ [ータプロパティの変更](../../web/using/editing-content.md#changing-the-data-properties-for-a-form)、
-* ボタンのアクションを定義する方法については、「ボタンへ [のアクションの追加」を参照してください](../../web/using/editing-content.md#adding-an-action-to-a-button)。
+* 1 つまたは複数のブロックの表示を決定（[表示条件の定義](../../web/using/editing-content.md#defining-a-visibility-condition)を参照）
+* 境界線とフレームを定義（[境界線と背景の追加](../../web/using/editing-content.md#adding-a-border-and-background)を参照）
+* 画像の属性（サイズ、キャプション）を定義（[画像プロパティの編集](../../web/using/editing-content.md#editing-image-properties)を参照）
+* データベースをフォーム要素（入力ゾーン、チェックボックス）にリンク（[フォームのデータプロパティの変更](../../web/using/editing-content.md#changing-the-data-properties-for-a-form)を参照）
+* フォームの一部を必須にする（[フォームのデータプロパティの変更](../../web/using/editing-content.md#changing-the-data-properties-for-a-form)を参照）
+* ボタンのアクションを定義（[ボタンへのアクションの追加](../../web/using/editing-content.md#adding-an-action-to-a-button)を参照）
 
 ## コンテンツツールバー {#content-toolbar}
 

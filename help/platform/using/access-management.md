@@ -14,7 +14,7 @@ discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 92f4047628eca0fc1d71aded0329720c094463bd
 
 ---
@@ -36,20 +36,20 @@ Adobe Campaign は、様々なオペレーターに割り当てる一連の権�
 
 ユーザーに付与できる権限には次の 2 種類があります。
 
-* グループを使用する場合は、権利の付与対象とするオペレーターのグループを定義し、オペレーターを 1 つまたは複数のグループに関連付けます。これにより、権利を再利用することや、複数のオペレーターに一貫性の高いプロファイルを設定することができます。また、プロファイルの管理やメンテナンスをおこなう上でも便利な方法です。Group creation and management are presented in [Operator groups](#operator-groups).
-* ネームド権限は、ユーザーに対して直接付与することができ、グループ経由で付与された権利を上書きする目的で使用することもできます。これらの権限は、「固有の権限」で [表示されます](#named-rights)。
+* グループを使用する場合は、権利の付与対象とするオペレーターのグループを定義し、オペレーターを 1 つまたは複数のグループに関連付けます。これにより、権利を再利用することや、複数のオペレーターに一貫性の高いプロファイルを設定することができます。また、プロファイルの管理やメンテナンスをおこなう上でも便利な方法です。グループの作成および管理について詳しくは、[オペレーターグループ](#operator-groups)を参照してください。
+* ネームド権限は、ユーザーに対して直接付与することができ、グループ経由で付与された権利を上書きする目的で使用することもできます。これらの権限について詳しくは、[ネームド権限](#named-rights)で説明しています。
 
 >[!NOTE]
 >
->権限の定義を開始する前に、[セキュリティ設定チェックリスト](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html)を読むことをお勧めします。
+>権限の定義を開始する前に、[セキュリティ設定チェックリスト](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/security.html)を読むことをお勧めします。
 
-## 演算子 {#operators}
+## オペレーター {#operators}
 
 ### オペレーターについて {#about-operators}
 
 オペレーターは、ログインしてアクションを実行する権限を持つ Adobe Campaign ユーザーです。
 
-デフォルトでは、演算子はノードに格納さ **[!UICONTROL Administration > Access management > Operators]** れます。
+デフォルトでは、オペレーターは&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーター]**&#x200B;ノードに格納されます。
 
 ![](assets/s_ncs_user_list_operators.png)
 
@@ -69,45 +69,45 @@ Adobe ID を使用して Adobe Campaign に直接接続することもできま�
 
 新しいオペレーターを作成し権限を付与するには、次の手順に従います。
 
-1. Click the **[!UICONTROL New]** button located above the list of operators, and enter the details of the new operator.
+1. オペレーターリストの上にある「**[!UICONTROL 新規]**」ボタンをクリックし、作成するオペレーターの詳細情報を入力します。
 
    ![](assets/s_ncs_user_operator_new.png)
 
-1. Specify the **[!UICONTROL Identification parameters]** of the user: its login, password and name. ログインとパスワードは、そのオペレーターが Adobe Campaign にログオンするときに使われます。Once the user is logged on, they can change their password via the **[!UICONTROL Tools > Change password]** menu. オペレーターは処理の承認などの通知を E メールで受信するので、オペレーターの E メールは必要不可欠です。
+1. ユーザーの「**[!UICONTROL 識別パラメーター]**」として、ログイン、パスワード、名前を指定します。ログインとパスワードは、そのオペレーターが Adobe Campaign にログオンするときに使われます。ログオンしたユーザーは、**[!UICONTROL ツール／パスワードを変更]**&#x200B;メニューを選択して自分のパスワードを変更できます。オペレーターは処理の承認などの通知を E メールで受信するので、オペレーターの E メールは必要不可欠です。
 
    このセクションでは、オペレーターと組織エンティティとのリンクを設定することもできます。詳しくは、[このページ](../../campaign/using/about-distributed-marketing.md)を参照してください。
 
-1. Select the permissions granted to the operator in the **[!UICONTROL Operator access rights]** section.
+1. オペレーターに付与する権限を、「**[!UICONTROL オペレーターアクセス権]**」セクションで選択します。
 
-   To assign rights to the operator, click the **[!UICONTROL Add]** button located above the list of rights, then select a group of operators from the list of available groups:
+   権利をオペレーターに割り当てるには、権利リストの上にある「**[!UICONTROL 追加]**」ボタンをクリックし、表示されるグループのリストからオペレーターのグループを 1 つ選択します。
 
    ![](assets/s_ncs_user_permissions_operators.png)
 
-   You can also select one or more named rights (refer to [Named rights](#named-rights)). To do this, click the arrow to the right of the **[!UICONTROL Folder]** field, and select **[!UICONTROL Named rights]**:
+   また、ネームド権限を 1 つまたは複数指定することもできます（[ネームド権限](#named-rights)を参照）。指定するには、「**[!UICONTROL フォルダー]**」フィールドの右にある矢印をクリックし、「**[!UICONTROL ネームド権限]**」を選択します。
 
    ![](assets/s_ncs_user_rights_operators.png)
 
    割り当てるグループとネームド権限のいずれかまたは両方を選択し、「**[!UICONTROL OK]**」をクリックして確定します。
 
-1. 「**[!UICONTROL Ok]**」をクリックすると、オペレーターが作成され、既存オペレーターのリストにプロファイルが追加されます。
+1. 「**[!UICONTROL OK]**」をクリックすると、オペレーターが作成され、既存オペレーターのリストにプロファイルが追加されます。
 
    ![](assets/operator_profile_new.png)
 
 >[!NOTE]
 >
->新しいオペレーターフォルダーを作成すると、必要に応じた方法でオペレーターを整理することができます。To do this, right-click the operator folder and select **[!UICONTROL Add an 'Operators' folder]**.
+>新しいオペレーターフォルダーを作成すると、必要に応じた方法でオペレーターを整理することができます。作成するには、オペレーターフォルダーを右クリックし、「**[!UICONTROL 「オペレーター」フォルダーを追加]**」を選択します。
 
-オペレーターのプロファイルを作成した後は、プロファイルに含まれる情報の追加や更新ができます。To do this, click the **[!UICONTROL Edit]** tab.
+オペレーターのプロファイルを作成した後は、プロファイルに含まれる情報の追加や更新ができます。これを実行するには、「**[!UICONTROL 編集]**」タブをクリックします。
 
 ![](assets/operator_edit_profile.png)
 
 >[!NOTE]
 >
->The **[!UICONTROL Session timeout]** field lets you adjust the delay before the FDA session timeout. 詳しくは、フェデレーテッドデータアクセスに [ついてを参照してください](../../platform/using/about-fda.md)。
+>「**[!UICONTROL セッションタイムアウト]**」フィールドでは、FDA セッションがタイムアウトするまでの遅延を調整できます。詳しくは、[Federated Data Access について](../../platform/using/about-fda.md)を参照してください。
 
 ### オペレーターのタイムゾーン {#time-zone-of-the-operator}
 
-In the **[!UICONTROL General]** tab, you can select the time zone of the operator. オペレーターは、デフォルトではサーバーのタイムゾーンで作業します。このドロップダウンリストから別のタイムゾーンを選択することもできます。
+「**[!UICONTROL 一般]**」タブでは、オペレーターのタイムゾーンを選択できます。オペレーターは、デフォルトではサーバーのタイムゾーンで作業します。このドロップダウンリストから別のタイムゾーンを選択することもできます。
 
 タイムゾーンの設定については、[このページ](../../installation/using/time-zone-management.md)を参照してください。
 
@@ -117,18 +117,18 @@ In the **[!UICONTROL General]** tab, you can select the time zone of the operato
 >
 >こうしたコンテキストに関係する制約や推奨事項については、Adobe Campaign のドキュメントの関連セクションに記載されています。
 
-In addition, the **[!UICONTROL Regional settings]** drop-down list lets you select the format to display dates and numbers.
+また、「**[!UICONTROL 地域設定]**」ドロップダウンリストでは、日付や数値を表示する書式を選択できます。
 
 ### アクセス権オプション {#access-rights-options}
 
-Use the **[!UICONTROL Access rights]** tab to update the groups and named rights linked to the operator.
+オペレーターに関連付けられたグループとネームド権限を更新するには、「**[!UICONTROL アクセス権]**」タブを使用します。
 
 ![](assets/operator_profile_security_options.png)
 
-The **[!UICONTROL Edit the access parameters...]** link lets you access the following options:
+「**[!UICONTROL アクセスパラメーターを編集]**」リンクには、以下のオプションがあります。
 
-* The **[!UICONTROL Disable account]** option lets you disable the operator&#39;s account: he will no longer access Adobe Campaign.
-* The **[!UICONTROL Forbid access from the rich client]** option lets you restrict the use of Adobe Campaign to [Web access](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) or through APIs: access to the Adobe Campaign client console is no longer available.
+* 「**[!UICONTROL アカウントを無効にする]**」オプションでは、オペレーターのアカウントを無効にできます。これで、オペレーターは Adobe Campaign にアクセスできなくなります。
+* 「**[!UICONTROL リッチクライアントからのアクセスを禁止]**」オプションを使用すると、Adobe Campaign の使用を [Web アクセス](../../platform/using/adobe-campaign-workspace.md#console-and-web-access)または API に制限できます。これにより、Adobe Campaign クライアントコンソールにアクセスできなくなります。
 * 安全ゾーンをオペレーターに関連付けることができます。詳しくは、[このページ](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。
 * また、適切なリンクを使用して、信頼できる IP マスクを定義することもできます。
 
@@ -142,7 +142,7 @@ The **[!UICONTROL Edit the access parameters...]** link lets you access the foll
    >
    >プラットフォームに対するアクセスのセキュリティが保たれるよう、このオプションを使用する際は十分注意してください。
 
-* このオ **[!UICONTROL Restrict to information found in sub-folders of:]** プションを使用すると、フォルダーの演算子に関連付ける権限を制限できます。 ここで指定されたノードに属するサブフォルダーだけがユーザーに対して表示されるようになります。
+* 「**[!UICONTROL 次のサブフォルダーにある情報に制限]**」オプションは、オペレーターの権利の対象を特定のフォルダーに限定する場合に使用します。ここで指定されたノードに属するサブフォルダーだけがユーザーに対して表示されるようになります。
 
    ![](assets/s_ncs_user_restrictions_operators.png)
 
@@ -152,7 +152,7 @@ The **[!UICONTROL Edit the access parameters...]** link lets you access the foll
 
 ### オペレーターのフォルダー、承認、タスク {#folders--approval-and-tasks-of-an-operator}
 
-The **[!UICONTROL Audit]** tab lets you view information related to the operator. そのオペレーターが関与する領域内の設定内容に応じて、様々なタブが自動的に追加されます。
+「**[!UICONTROL 監査]**」タブでは、オペレーターに関係する情報を参照できます。そのオペレーターが関与する領域内の設定内容に応じて、様々なタブが自動的に追加されます。
 
 以下にアクセスできます。
 
@@ -162,7 +162,7 @@ The **[!UICONTROL Audit]** tab lets you view information related to the operator
 
    >[!NOTE]
    >
-   >詳しくは、「フォルダアクセス管理」を [参照してください](#folder-access-management)。
+   >詳しくは、[フォルダーアクセスの管理](#folder-access-management)を参照してください。
 
 * オペレーター承認ログ。
 
@@ -174,7 +174,7 @@ The **[!UICONTROL Audit]** tab lets you view information related to the operator
 
 ### デフォルトのオペレーター {#default-operators}
 
-Adobe Campaignは、次の技術的なオペレーターを使用し、デフォルトで設定されたプロファイルを使用します。管理者(&#39;admin&#39;)、課金(&#39;billing&#39;)、監視、Webアプリケーションエージェント(&#39;webapp&#39;)など。 これらの一部は、プラットフォームにインストールされているアプリケーションとオプションに依存します。例えば、&#39;central&#39;および&#39;local&#39;演算子は、分散マーケティングオプションがインストールされている場合にのみ表示されます。
+Adobe Campaign は、管理者（&#39;admin&#39;）、請求（&#39;billing&#39;）、監視、Web アプリケーションエージェント（&#39;webapp&#39;）など、デフォルト設定されたプロファイルを持つテクニカルオペレーターを使用します。オペレーターの中には、プラットフォームにインストールされているアプリケーションとオプションに依存するものもあります。例えば、&#39;central&#39; オペレーターおよび &#39;local&#39; オペレーターは、分散型マーケティングのオプションがインストールされている場合にのみ表示されます。
 
 >[!CAUTION]
 >
@@ -184,19 +184,19 @@ Adobe Campaignは、次の技術的なオペレーターを使用し、デフォ
 
 デフォルトでは、&#39;webapp&#39; テクニカルオペレーターには「管理」のネームド権限が付与されていますが、これはセキュリティリスクの原因になる可能性があります。したがって、このネームド権限は削除しておくことをお勧めします。手順は次のとおりです。
 
-1. ノードで、 **[!UICONTROL Administration > Access management > Named rights]** をクリックし **[!UICONTROL New]** て権利を作成し、WEBAPPという名前を付けます。
+1. **[!UICONTROL 管理／アクセス管理／ネームド権限]**&#x200B;ノードで、「**[!UICONTROL 新規]**」をクリックして新しいネームド権限を作成し、「Web アプリ」という名前を付けます。
 
    ![](assets/s_ncs_default_operators_webapp_right.png)
 
-   Named rights are detailed in the [Named rights](#named-rights) section.
+   ネームド権限について詳しくは、[ネームド権限](#named-rights)の節を参照してください。
 
-1. ノードか **[!UICONTROL Administration > Access management > Operators]** ら、Webアプリケーションエージェント演算子(「webapp」)を選択します。
+1. **[!UICONTROL 管理／アクセス管理／オペレーター]**&#x200B;ノードで、Web アプリケーションエージェントのオペレーター（&#39;webapp&#39;）を選択します。
 
-   Select the **[!UICONTROL Edit]** tab, then the **[!UICONTROL Access rights]** tab and delete the ADMINISTRATION named right from the list.
+   「**[!UICONTROL 編集]**」タブ、「**[!UICONTROL アクセス権]**」タブの順に選択し、リストから「管理」ネームド権限を削除します。
 
    ![](assets/s_ncs_default_operators_webapp_admin_right.png)
 
-   Click **[!UICONTROL Add]** and select the WEBAPP right that you have just created, then save your changes.
+   「**[!UICONTROL 追加]**」をクリックし、作成した「Web アプリ」ネームド権限を選択して、変更内容を保存します。
 
    ![](assets/s_ncs_default_operators_webapp_webapp_right.png)
 
@@ -204,35 +204,35 @@ Adobe Campaignは、次の技術的なオペレーターを使用し、デフォ
 
    ![](assets/s_ncs_default_operators_webapp_folder_access.png)
 
-   Modifying rights on tree folders is detailed in the [Folder access management](#folder-access-management) section.
+   ツリーのフォルダーに対するアクセス権の変更について詳しくは、[フォルダーアクセスの管理](#folder-access-management)の節を参照してください。
 
 >[!NOTE]
 >
->セキュリティガイドラインについて詳しくは、[Adobe Campaign セキュリティ設定チェックリスト](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html)を参照してください。
+>セキュリティガイドラインについて詳しくは、[Adobe Campaign セキュリティ設定チェックリスト](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/security.html)を参照してください。
 
 ## オペレーターグループ {#operator-groups}
 
-ツリー内のノードを介して、演算子 **[!UICONTROL Administration > Access management > Operator groups]** グループが作成されます。
+オペレーターグループは、ツリーの&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーターグループ]**&#x200B;ノードを使って作成します。
 
 ### 新しいオペレーターグループの作成 {#creating-a-new-operator-group}
 
 新しいオペレーターグループを作成するには、以下の手順を実行します。
 
-1. Click the **[!UICONTROL New]** button to the right of the list of groups or right-click the list and choose **[!UICONTROL New]**.
-1. In the section lower window, from the **[!UICONTROL General]** tab, enter the name and a description for this group in the corresponding fields.
+1. グループリストの右側にある「**[!UICONTROL 新規]**」ボタンをクリックするか、リストを右クリックして「**[!UICONTROL 新規]**」を選択します。
+1. セクション下部のウィンドウにある「**[!UICONTROL 一般]**」タブで、このグループの名前と説明を、該当するフィールドにそれぞれ入力します。
 
    ![](assets/s_ncs_user_create_operator_gp.png)
 
-1. Click the **[!UICONTROL Content]** tab to define authorizations for this group.
-1. Click the **[!UICONTROL Add]** button to select an appointed right or an operator to associate to the group.
-1. Click the drop-down list or on the folder to the right of the **[!UICONTROL Folder]** field to locate the appointed rights or operators to associate to this group.
+1. 「**[!UICONTROL コンテンツ]**」タブをクリックし、このグループの権限を定義します。
+1. **[!UICONTROL 追加]**&#x200B;ボタンをクリックし、グループに付与する権限または関連付けるオペレーターを選択します。
+1. 「**[!UICONTROL フォルダー]**」フィールドのドロップダウンリストまたは右側にあるフォルダーをクリックし、このグループに付与する権限または関連付けるオペレーターを指定します。
 1. 追加するアクセス権またはオペレーターを選択し、「**[!UICONTROL OK]**」をクリックして確定します。
 
    ![](assets/s_ncs_user_create_operator_gp03.png)
 
    他のアクセス権やオペレーターを追加するには、この操作を繰り返します。
 
-1. Click the **[!UICONTROL Save]** button to add the group to the list.
+1. 「**[!UICONTROL 保存]**」ボタンをクリックして、グループをリストに追加します。
 
 ### デフォルトのグループ {#default-groups}
 
@@ -244,8 +244,8 @@ Adobe Campaignは、次の技術的なオペレーターを使用し、デフォ
 
    このグループには以下のネームド権限が設定されています。
 
-   * 配信を準備：配信分析を作成、編集および開始する権利
-   * 配信を開始：以前分析した配信を承認する権利
+   * 配信を準備：配信分析を作成、編集および開始する権限
+   * 配信を開始：分析済みの配信を承認する権限
 
 1. キャンペーンマネージャー
 
@@ -253,8 +253,8 @@ Adobe Campaignは、次の技術的なオペレーターを使用し、デフォ
 
    このグループには以下のネームド権限が設定されています。
 
-   * フォルダーを挿入：Adobe Campaign ツリーにフォルダーを挿入する権利（関係する分岐に対して編集の権利を持っていることが前提）
-   * ワークフロー：ワークフローを使用する権利
+   * フォルダーを挿入：Adobe Campaign ツリーにフォルダーを挿入する権限（関係する分岐に対して編集権限を持っていることが前提）
+   * ワークフロー：ワークフローを使用する権限
    >[!NOTE]
    >
    >このグループのオペレーターに配信開始の権利は付与されません。
@@ -281,51 +281,51 @@ Adobe Campaignは、次の技術的なオペレーターを使用し、デフォ
 
 ## ネームド権限 {#named-rights}
 
-ネームド権限は、個別のオペレーターやオペレーターのグループに付与する権限を定義するものです。Adobe Campaign には、運用方法の参考として、デフォルトのネームド権限セットがあらかじめ用意されています。これらの権限は、ツリーのノード **[!UICONTROL Administration > Access management > Named rights]** から編集できます。
+ネームド権限は、個別のオペレーターやオペレーターのグループに付与する権限を定義するものです。Adobe Campaign には、運用方法の参考として、デフォルトのネームド権限セットがあらかじめ用意されています。それらのネームド権限の設定は、ツリーの&#x200B;**[!UICONTROL 管理／アクセス管理／ネームド権限]**&#x200B;で編集できます。
 
 ![](assets/s_ncs_admin_named_rights.png)
 
 デフォルトで用意されているネームド権限は以下のとおりです。
 
-* **[!UICONTROL ADMINISTRATION]**:右側の演算子は、イ **[!UICONTROL ADMINISTRATION]** ンスタンスに対してフルアクセス権を持ちます。 管理者ユーザーは、ワークフロー、配信、スクリプトなどの任意のオブジェクトを実行/作成/編集/削除できます。
+* **[!UICONTROL 管理]**：**[!UICONTROL 管理]**&#x200B;権限を持つオペレーターは、インスタンスに対する完全なアクセス権を持ちます。管理者ユーザーは、ワークフロー、配信、スクリプトなどの任意のオブジェクトの実行／作成／編集／削除が可能です。
 
-* **[!UICONTROL APPROVAL ADMINISTRATION]**:ワークフローと配信内で複数の承認手順を設定し、割り当てられたオペレーターまたはグループが現在の状態を承認したことを確認できます。 権限を持つユーザー **[!UICONTROL APPROVAL ADMINISTRATION]** は、承認手順を設定し、その手順を承認する必要のある演算子または演算子グループを割り当てることもできます。
+* **[!UICONTROL 承認の管理]**：担当のオペレーターやグループが現在の状態を承認したことを確認するため、ワークフローや配信内で複数の承認手順を設定できます。**[!UICONTROL 承認の管理]**&#x200B;権限を持つユーザーは、承認手順を設定したり、これらの手順を承認する必要のあるオペレーターまたはオペレーターグループを割り当てたりできます。
 
-* **[!UICONTROL CENTRAL]**:中央管理権（分散マーケティング）。
+* **[!UICONTROL セントラル処理]**：セントラル管理の権限（分散型マーケティング）。
 
-* **[!UICONTROL DELETE FOLDER]**: フォルダーを削除する権限. この権限を持つユーザーは、エクスプローラビューからフォルダを削除できます。
+* **[!UICONTROL フォルダーを削除]**：フォルダーを削除する権限。この権限を持つユーザーは、エクスプローラービューからフォルダーを削除できます。
 
-* **[!UICONTROL EDIT FOLDERS]**:内部名、ラベル、関連する画像、サブフォルダーの順序など、フォルダーのプロパティを変更する権利。
+* **[!UICONTROL フォルダーを編集]**：内部名、ラベル、関連する画像、サブフォルダーの順序など、フォルダーのプロパティを変更する権利。
 
-* **[!UICONTROL EXPORT]**:ユーザーは、ワークフローアクティビティを使用して、Adobe Campaignインスタンスのデータをサーバー上またはローカルマシン上のファイルにエクスポ **[!UICONTROL EXPORT]** ートできます。
+* **[!UICONTROL エクスポート]**：ユーザーは、**[!UICONTROL エクスポート]**&#x200B;ワークフローアクティビティを使用して、サーバーまたはローカルマシン上のファイルに、Adobe Campaign インスタンスのデータをエクスポートできます。
 
-* **[!UICONTROL FILES ACCESS]**:サーバー上のファイルの読み取り/書き込みを行うために、ワークフローアクティビティで書き込むことができるスクリプトを介し **[!UICONTROL JavaScript]** て、ファイルの読み取り/書き込みアクセス権を付与する権限。
+* **[!UICONTROL ファイルアクセス]**：スクリプトを介したファイルの読み取り／書き込みアクセス権。このスクリプトは **[!UICONTROL JavaScript]** ワークフローアクティビティに記述してサーバー上のファイルの読み取り／書き込みをおこなうことができます。
 
-* **[!UICONTROL IMPORT]**:汎用データインポートの権限。 **[!UICONTROL IMPORT]** 権限を持つユーザーは受信者テーブルにのみインポートできるのに対し、 **[!UICONTROL RECIPIENT IMPORT]** 他のテーブルにデータをインポートすることができます。
+* **[!UICONTROL インポート]**：データのインポート全般を実行する権限。**[!UICONTROL インポート]**&#x200B;では他のすべてのテーブルにデータをインポートできますが、**[!UICONTROL 受信者のインポート]**&#x200B;権限は、受信者テーブルにのみインポートできます。
 
-* **[!UICONTROL INSERT FOLDERS]**:フォルダを挿入する権限。 右側のユーザーは、エ **[!UICONTROL INSERT FOLDERS]** クスプローラビューのフォルダツリーで新しいフォルダを作成できます。
+* **[!UICONTROL フォルダーを挿入]**：フォルダーを挿入する権限。**[!UICONTROL フォルダーを挿入]**&#x200B;権限を持つユーザーは、エクスプローラービューのフォルダーツリーに新しいフォルダーを作成できます。
 
-* **[!UICONTROL LOCAL]**:ローカル管理権（分散マーケティング）。
+* **[!UICONTROL ローカル]**：ローカル管理の権限（分散型マーケティング）。
 
-* **[!UICONTROL MERGE]**:選択したレコードを1つに結合する権限。 受信者が重複として存在する場合は、 **[!UICONTROL MERGE]** 右側のユーザーが重複を選択し、プライマリ受信者に結合できます。
+* **[!UICONTROL 結合]**：選択したレコードを 1 つに結合する権限。受信者が重複して存在する場合、**[!UICONTROL 結合]**&#x200B;権限があれば、重複を選択し、それらを単一の主な受信者に結合できます。
 
-* **[!UICONTROL PREPARE DELIVERIES]**:配信を作成、編集および保存する権限。 権限を持つユーザ **[!UICONTROL PREPARE DELIVERIES]** ーは、配信分析プロセスを開始することもできます。
+* **[!UICONTROL 配信を準備]**：配信分析を作成、編集および保存する権限。**[!UICONTROL 配信を準備]**&#x200B;権限を持つユーザーは、配信分析プロセスを開始できます。
 
-* **[!UICONTROL PRIVACY DATA RIGHT]**:プライバシーデータを収集および削除する権利。 詳しくは、この[ページ](https://helpx.adobe.com/campaign/kb/acc-privacy.html)を参照してください。
+* **[!UICONTROL プライバシーデータ権限]**：プライバシーデータを収集および削除する権限。詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)を参照してください。
 
-* **[!UICONTROL PROGRAM EXECUTION]**:様々なプログラミング言語でコマンドを実行する権利。
+* **[!UICONTROL プログラム実行]**：様々なプログラミング言語でコマンドを実行する権限。
 
-* **[!UICONTROL RECIPIENT IMPORT]**:受信者をインポートする権限。 権限を持つユーザーは、 **[!UICONTROL RECIPIENT IMPORT]** ローカルファイルを受信者テーブルにインポートできます。
+* **[!UICONTROL 受信者のインポート]**：受信者をインポートする権限。**[!UICONTROL 受信者のインポート]**&#x200B;権限をもつユーザーは、ローカルファイルを受信者テーブルにインポートできます。
 
-* **[!UICONTROL SQL SCRIPT EXECUTION]** 任意のSQLコマンドをデータベース上で直接実行する権限。
+* **[!UICONTROL SQL スクリプトの実行]**：データベースで SQL コマンドを直接実行する権限。
 
-* **[!UICONTROL START DELIVERIES]**:以前に分析された配信を承認する権利。 配信分析の後、配信は様々な承認手順で一時停止し、再開するには承認が必要になります。 権限を持つユーザ **[!UICONTROL START DELIVERIES]** ーは配信を承認できます。
+* **[!UICONTROL 配信を開始]**：分析済みの配信を承認する権限。配信の分析後、配信は様々な承認手順で一時停止し、再開するには承認が必要になります。**[!UICONTROL 配信を開始]**&#x200B;権限を持つユーザーは、配信を承認できます。
 
-* **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**:SQL Data Managementアクティビティを使用して、作業表を作成して入力する独自のSQLスクリプトを作成する権限(この節 [を参照](../../workflow/using/sql-data-management.md))。
+* **[!UICONTROL SQL データ管理アクティビティを使用]**：作業用テーブルを作成および設定するために SQL データ管理アクティビティを使用して独自の SQL スクリプトを記述する権限（[この節](../../workflow/using/sql-data-management.md)を参照）。
 
-* **[!UICONTROL WORKFLOW]**:ワークフローの実行権 この権限がないと、ユーザーはワークフローを開始、停止または再開できません。
+* **[!UICONTROL ワークフロー]**：ワークフローを実行する権限。この権限がないと、ユーザーはワークフローを開始、停止または再起動できません。
 
-* **[!UICONTROL WEBAPP]**:Webアプリケーションの使用権限
+* **[!UICONTROL Web アプリ]**：Web アプリケーションを使用する権限。
 
 >[!NOTE]
 >
@@ -345,11 +345,11 @@ Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/us
 
 ツリーの特定のフォルダーに対する権限を編集するには、次の手順に従います。
 
-1. Right-click on the folder and select **[!UICONTROL Properties...]**.
+1. フォルダーを右クリックし、「**[!UICONTROL プロパティ]**」を選択します。
 
    ![](assets/s_ncs_user_folder_properties.png)
 
-1. Click the **[!UICONTROL Security]** tab to view authorizations on this folder.
+1. 「**[!UICONTROL セキュリティ]**」タブをクリックすると、そのフォルダーに設定されている権限が表示されます。
 
    ![](assets/s_ncs_user_folder_properties_security.png)
 
@@ -361,15 +361,15 @@ Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/us
 
    ![](assets/s_ncs_user_folder_properties_security02.png)
 
-* **グループまたはオペレーターのアクセスを許可する**：To do this, click the **[!UICONTROL Add]** button and select the group or operator to which you want to assign authorizations for this folder.
-* **グループまたはオペレーターのアクセスを禁止する**：To do this, click **[!UICONTROL Delete]** and select the group or operator from which you want to remove authorization for this folder.
+* **グループまたはオペレーターのアクセスを許可する**：これをおこなうには、**[!UICONTROL 追加]**&#x200B;ボタンをクリックし、そのフォルダーへのアクセスを許可する対象のグループまたはオペレーターを選択します。
+* **グループまたはオペレーターのアクセスを禁止する**：これをおこなうには、**[!UICONTROL 削除]**&#x200B;をクリックし、そのフォルダーへのアクセス許可を取り消すグループまたはオペレーターを選択します。
 * **グループまたはオペレーターに付与する権利を選択する**：これをおこなうには、該当するグループまたはオペレーターをクリックし、必要に応じて、付与するアクセス権を選択したり、付与しないアクセス権を選択解除したりします。
 
    ![](assets/s_ncs_user_folder_properties_security03.png)
 
 ### 権限のサブフォルダーへの反映 {#propagate-permissions}
 
-権限やアクセス権をサブフォルダーに反映させることができます。To do this, select the **[!UICONTROL Propagate]** option in the folder properties.
+権限やアクセス権をサブフォルダーに反映させることができます。これを実行するには、フォルダープロパティの「**[!UICONTROL サブフォルダーにも反映]**」オプションを選択します。
 
 このウィンドウで定義された権限が、現在のノードに属するすべてのサブフォルダーに反映されます。したがって、個々のサブフォルダーに設定された権限は無視できます。
 
@@ -379,7 +379,7 @@ Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/us
 
 ### すべてのオペレーターへのアクセス権の付与 {#grant-access-to-all-operators}
 
-In the **[!UICONTROL Security]** tab, if the **[!UICONTROL System folder]** option is selected, all operators will have access to this data, regardless of their rights. このオプションが選択されていない場合、オペレーターにデータへのアクセスを許可するには、該当するオペレーターまたはグループを認証リストに明示的に追加する必要があります。
+「**[!UICONTROL セキュリティ]**」タブでは、「**[!UICONTROL システムフォルダー]**」オプションが選択されている場合、個々のオペレーターの権利に関係なく、すべてのオペレーターがこのデータにアクセスできます。このオプションが選択されていない場合、オペレーターにデータへのアクセスを許可するには、該当するオペレーターまたはグループを認証リストに明示的に追加する必要があります。
 
 ![](assets/s_ncs_user_folder_properties_security03b.png)
 
@@ -387,11 +387,11 @@ In the **[!UICONTROL Security]** tab, if the **[!UICONTROL System folder]** opti
 
 ### フォルダーとビューについて {#about-folders-and-views}
 
-フォルダーとは Adobe Campaign ツリーのノードです。These nodes are created by right-clicking the tree, via the **[!UICONTROL Add new folder]** menu. デフォルトでは、最初のメニューを使用すると現在のコンテキストに対応したフォルダーを追加できます。
+フォルダーとは Adobe Campaign ツリーのノードです。ノードを作成するには、ツリーを右クリックし、**[!UICONTROL 新規フォルダーを追加]**&#x200B;メニューを使用します。デフォルトでは、最初のメニューを使用すると現在のコンテキストに対応したフォルダーを追加できます。
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-それらのフォルダーには、ツリー内にあるその他すべてのフォルダーと同じく、権限を付与できます。「フォルダ [ーアクセス管理](#folder-access-management)」を参照。
+それらのフォルダーには、ツリー内にあるその他すべてのフォルダーと同じく、権限を付与できます。[フォルダーアクセスの管理](#folder-access-management)を参照してください。
 
 また、必要に応じて、データアクセスの制限やツリー内のコンテンツの整理を目的としたビューを作成できます。それらのビューにはアクセス権を設定できます。
 
@@ -409,12 +409,12 @@ In the **[!UICONTROL Security]** tab, if the **[!UICONTROL System folder]** opti
 
 以下の例では、特定のデータを表示するための新しいフォルダーを作成します。
 
-1. Create a new **[!UICONTROL Deliveries]** type folder, and name it **Deliveries France**.
-1. Right-click this folder and select **[!UICONTROL Properties...]**.
+1. **[!UICONTROL 配信]**&#x200B;タイプの新しいフォルダーを作成し、「**フランス配信**」という名前を付けます。
+1. このフォルダーを右クリックし、「**[!UICONTROL プロパティ]**」を選択します。
 
    ![](assets/s_ncs_user_add_folder_exple.png)
 
-1. タブで、を **[!UICONTROL Restriction]** 選択します **[!UICONTROL This folder is a view]**。 データベース内にあるすべての配信データが表示されます。
+1. 「**[!UICONTROL 制限]**」タブで、「**[!UICONTROL フォルダーのビュー化]**」を選択します。データベース内にあるすべての配信データが表示されます。
 
    ![](assets/s_ncs_user_add_folder_exple01.png)
 

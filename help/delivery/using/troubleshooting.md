@@ -14,7 +14,7 @@ discoiquuid: b64c9729-cfe2-4d02-8c59-9e53efd34a96
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: fa2b6890d3c9eaf7b4b6521b2edfb494faa4798c
 
 モバイルデバイスが Wi-Fi に接続されているにも関わらず通知を受信できない場合は、FCM または APNS のポートがファイアウォールによってブロックされていないか確認してみてください。
 
-**Android**:モバイルデバイスは、ポート5228 ～ 5230でFCMサーバーに接続します。 したがって、FCM への接続を許可するようにファイアウォールを設定する必要があります。開くポートは次のとおりです。5228（最も頻繁に使用される）、5229および5230。
+**Android**：モバイルデバイスは、ポート 5228 ～ 5230 で FCM サーバーに接続します。したがって、FCM への接続を許可するようにファイアウォールを設定する必要があります。開くポートは、5228（最も使用頻度が高い）、5229 および 5230 です。
 
 **iOS**：
 
@@ -37,4 +37,4 @@ HTTP/2 コネクタ：次のサーバーとの間での通信を許可する必�
 
 >[!NOTE]
 >
->この2つのコネクタについて詳しくは、「Adobe Campaignでのモバ [イルアプリケーションの設定」を参照してください](../../delivery/using/configuring-the-mobile-application.md)。
+>2 つのコネクタについて詳しくは、[Adobe Campaign でモバイルアプリケーションを設定する](../../delivery/using/configuring-the-mobile-application.md)を参照してください。

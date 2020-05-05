@@ -1,7 +1,7 @@
 ---
-title: キャンペーンの設定
-seo-title: キャンペーンの設定
-description: キャンペーンの設定
+title: マーケティングキャンペーンの設定
+seo-title: マーケティングキャンペーンの設定
+description: マーケティングキャンペーンの設定
 seo-description: null
 page-status-flag: never-activated
 uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
@@ -14,47 +14,47 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
 
 
-# キャンペーンの設定{#setting-up-marketing-campaigns}
+# マーケティングキャンペーンの設定{#setting-up-marketing-campaigns}
 
-キャンペーンには、アクション（配信）とプロセス（ファイルのインポートまたは抽出）だけでなく、マーケティングドキュメントや配信の概要といったリソースも含まれます。これらはマーケティングキャンペーンで使用されます。キャンペーンはプログラムの一部で、プログラムはキャンペーンプランに含まれます。
+キャンペーンには、アクション（配信）とプロセス（ファイルのインポートまたは抽出）だけでなく、マーケティングドキュメントや配信の概要といったリソースも含まれます。これらはマーケティングキャンペーンで使用されます。キャンペーンはプログラムの一部で、プログラムは 1 つのキャンペーンプランに含まれます。
 
 マーケティングキャンペーンを作成するには：
 
-1. キャンペーンの作成：キャンペーンとその特徴を発見します。ラベル、タイプ、開始日と終了日、予算、関連するリソース、マネージャーおよび参加者
+1. キャンペーンの作成：キャンペーンとその特性（ラベル、タイプ、開始日と終了日、予算、関連リソース、マネージャー、参加者）を確認します。
 
-   詳しくは、 [キャンペーンの作成を参照してください](#creating-a-campaign)。
+   [キャンペーンの作成](#creating-a-campaign)を参照してください。
 
-1. ターゲット母集団の定義：ターゲットクエリを使用してワークフローを作成します。
+1. ターゲット母集団の定義：ターゲット設定クエリを使用してワークフローを作成します。
 
-   See [Selecting the target population](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
+   [ターゲット母集団の選択](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)を参照してください。
 
 1. 配信の作成：チャネルを選択し、送信するコンテンツを定義します。
 
-   「配信の [作成」を参照](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries)。
+   [配信の作成](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries)を参照してください。
 
 1. 配信を承認します。
 
-   「承認プロセス [」を参照](../../campaign/using/marketing-campaign-approval.md#approval-process)。
+   [承認プロセス](../../campaign/using/marketing-campaign-approval.md#approval-process)を参照してください。
 
 1. 配信を監視します。
 
-   「監視」を参照し [てください](../../campaign/using/marketing-campaign-monitoring.md)。
+   [監視](../../campaign/using/marketing-campaign-monitoring.md)を参照してください。
 
 1. キャンペーンと関連コストを計画します。
 
-   See [Creating service providers and their cost structures](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+   [サービスプロバイダーとそのコスト構造の作成](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)を参照してください。
 
-When these steps have been completed, you can start the deliveries (see [Starting a delivery](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), check the data, processes and information relating to the deliveries and, if necessary, manage the associated documents (see [Managing associated documents](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). You can also track the execution of the processing phases of campaigns and deliveries (see [Tracking](../../campaign/using/marketing-campaign-monitoring.md).
+これらの手順が完了したら、配信を開始し（[配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)を参照）、データ、プロセスおよび配信に関連する情報を確認し、必要に応じて関連ドキュメントを管理します（[関連付けられたドキュメントの管理](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)を参照）。また、キャンペーンと配信の処理フェーズの実行をトラッキングすることもできます（[トラッキング](../../campaign/using/marketing-campaign-monitoring.md)を参照）。
 
 ## プランとプログラム階層構造の作成 {#creating-plan-and-program-hierarchy}
 
-マーケティング・プランおよびプログラム用にフォルダ階層を構成する手順は、次のとおりです。
+マーケティングのプランおよびプログラムに関するフォルダー階層構造を設定するには：
 
 1. ホームページ上の「**エクスプローラー**」アイコンをクリックします。
 1. プランの作成場所とするフォルダーを右クリックします。
@@ -76,21 +76,21 @@ When these steps have been completed, you can start the deliveries (see [Startin
 
 ### キャンペーンの追加 {#adding-a-campaign}
 
-キャンペーンのリストからキャンペーンを作成できます。To display this view, select the **[!UICONTROL Campaigns]** menu in the **[!UICONTROL Campaigns]** dashboard.
+キャンペーンのリストからキャンペーンを作成できます。このビューを表示するには、**[!UICONTROL キャンペーン]**&#x200B;ダッシュボードで&#x200B;**[!UICONTROL キャンペーン]**&#x200B;メニューを選択します。
 
 ![](assets/s_ncs_user_add_an_op_from_list.png)
 
-The **[!UICONTROL Program]** field lets you select the program to which the campaign will be attached. この情報は必須です。
+「**[!UICONTROL プログラム]**」フィールドを使用して、キャンペーンを関連付けるプログラムを選択できます。この情報は必須です。
 
 ![](assets/s_ncs_user_new_op_wz_a.png)
 
-キャンペーンは、プログラムからも作成できます。To do this, click the **[!UICONTROL Add]** button in the **[!UICONTROL Schedule]** tab of the concerned program.
+キャンペーンは、プログラムからも作成できます。作成するには、該当するプログラムの「**[!UICONTROL スケジュール]**」タブの「**[!UICONTROL 追加]**」ボタンをクリックします。
 
 ![](assets/s_ncs_user_add_an_op.png)
 
-When you create a campaign via the **[!UICONTROL Schedule]** tab of a program, the campaign is automatically linked to the concerned program. The **[!UICONTROL Program]** field is hidden in this case.
+プログラムの「**[!UICONTROL スケジュール]**」タブからキャンペーンを作成すると、関連するプログラムに自動的にリンクされます。この場合、「**[!UICONTROL プログラム]**」フィールドは非表示になります。
 
-キャンペーン作成ウィンドウで、キャンペーンテンプレートを選択し、キャンペーンの名前と説明を追加します。 キャンペーンの開始日と終了日も指定できます。
+キャンペーン作成ウィンドウで、キャンペーンテンプレートを選択し、キャンペーンの名前と説明を追加します。キャンペーンの開始日と終了日も指定できます。
 
 「**[!UICONTROL OK]**」をクリックして、キャンペーンを作成します。作成されたキャンペーンが、プログラムスケジュールに追加されます。
 
@@ -98,7 +98,7 @@ When you create a campaign via the **[!UICONTROL Schedule]** tab of a program, t
 
 >[!NOTE]
 >
->To filter the campaigns to display, click the **[!UICONTROL Filter]** link and select the status of campaigns to display.
+>表示するキャンペーンをフィルタリングするには、「**[!UICONTROL フィルター]**」リンクをクリックして、表示するキャンペーンのステータスを選択します。
 
 ![](assets/s_ncs_user_program_planning_filter.png)
 
@@ -106,7 +106,7 @@ When you create a campaign via the **[!UICONTROL Schedule]** tab of a program, t
 
 作成したキャンペーンを編集し、パラメーターを定義できます。
 
-To open and configure a campaign, select it from the schedule and click **[!UICONTROL Open]**.
+キャンペーンを開いて設定するには、スケジュールからキャンペーンを選択して、「**[!UICONTROL 開く]**」をクリックします。
 
 ![](assets/s_ncs_user_new_op_edit.png)
 
@@ -122,9 +122,9 @@ To open and configure a campaign, select it from the schedule and click **[!UICO
 
 繰り返しキャンペーンは、実行するワークフローテンプレートと実行スケジュールを定義する特定のテンプレートから作成します。
 
-#### 定期キャンペーン用のテンプレートの作成 {#creating-the-campaign-template}
+#### 繰り返しキャンペーン用のテンプレートの作成 {#creating-the-campaign-template}
 
-1. Create a **[!UICONTROL Recurring]** campaign template.
+1. **[!UICONTROL 繰り返し]**&#x200B;キャンペーンテンプレートを作成します。
 
    >[!NOTE]
    >
@@ -136,28 +136,28 @@ To open and configure a campaign, select it from the schedule and click **[!UICO
 
    ![](assets/s_ncs_user_op_template_recur_duplicate.png)
 
-1. For this type of campaign, a **[!UICONTROL Schedule]** tab is added in order to create the template execution schedule.
+1. このタイプのキャンペーンの場合は、テンプレート実行スケジュールを作成するために、「**[!UICONTROL スケジュール]**」タブが追加されます。
 
 このタブで、このテンプレートをベースとするキャンペーンの実行予定日を指定します。
 
 ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-スケジュール作成ウィザードを使用して、すべての実行日を自動入力できます。これを行うには、テーブルの上にあ **[!UICONTROL Complete the execution schedule...]** るリンクをクリックします。
+スケジュール作成ウィザードを使用して、すべての実行日を自動入力できます。自動入力するには、テーブルの上にある「**[!UICONTROL 実行スケジュールを設定...]**」リンクをクリックします。
 
 ![](assets/s_ncs_user_op_template_recur_planning_wz.png)
 
-The configuration mode of the execution schedule coincides with the **[!UICONTROL Scheduler]** object of the Workflow. 詳しくは、[この節](../../workflow/using/executing-a-workflow.md#architecture)を参照してください。
+実行スケジュールの設定モードは、ワークフローの&#x200B;**[!UICONTROL スケジューラー]**&#x200B;オブジェクトと一致しています。詳しくは、[この節](../../workflow/using/executing-a-workflow.md#architecture)を参照してください。
 
 >[!IMPORTANT]
 >
 >データベースをオーバーロードしないよう、実行スケジュールの設定は慎重におこなう必要があります。繰り返しキャンペーンは、指定されたスケジュールに従って、キャンペーンテンプレートのワークフローを複製します。ワークフローの作成を頻繁に実施しすぎると、データベースの動作が妨げられることがあります。
 
-1. Specify a value in the **[!UICONTROL Create in advance for]** field in order to create the corresponding workflows for the period indicated.
+1. 表示されている期間に対応するワークフローを作成するために、「**[!UICONTROL 事前に作成]**」フィールドに値を指定します。
 1. ターゲティングパラメーターと 1 つ以上の汎用的な配信を使用して、このテンプレートをベースとするキャンペーンで使用するワークフローテンプレートを作成します。
 
    >[!NOTE]
    >
-   >このワークフローは、繰り返しワークフローテンプレートとして保存する必要があります。To do this, edit the workflow properties and select the **[!UICONTROL Recurring workflow template]** option in the **[!UICONTROL Execution]** tab.
+   >このワークフローは、繰り返しワークフローテンプレートとして保存する必要があります。そのためには、ワークフローのプロパティを編集し、「**[!UICONTROL 実行]**」タブで「**[!UICONTROL 定期ワークフローテンプレート]**」オプションを選択します。
 
    ![](assets/s_ncs_user_op_template_recur_wf_option.png)
 
@@ -174,19 +174,19 @@ The configuration mode of the execution schedule coincides with the **[!UICONTRO
 
    行ごとに、以下のオプションを追加できます。
 
-   * **[!UICONTROL To be approved]** :ワークフロー内の配信承認リクエストを強制できます。
-   * **[!UICONTROL To be started]** :開始日に達したら、ワークフローを開始できます。
-   このフ **[!UICONTROL Create in advance for]** ィールドでは、入力した期間を対象とするすべてのワークフローを作成できます。
+   * **[!UICONTROL 承認用に送信]**：ワークフローで配信承認リクエストを実施できます。.
+   * **[!UICONTROL 自動で開始]**：開始日になるとワークフローを開始できます。
+   「**[!UICONTROL 事前に作成]**」フィールドを使用して、入力した期間を対象とするワークフローをすべて作成できます。
 
-   Upon execution of the **[!UICONTROL Jobs on campaigns]** workflow, the dedicated workflows are created based on the occurrences defined in the campaign schedule. このようにして、実行日ごとにワークフローが作成されます。
+   **[!UICONTROL キャンペーンジョブ]**&#x200B;ワークフローの実行時に、キャンペーンスケジュールで定義された発生件数に基づいて専用ワークフローが作成されます。このようにして、実行日ごとにワークフローが作成されます。
 
-1. 繰り返しワークフローは、キャンペーンに含まれるワークフローテンプレートから自動的に作成されます。キャンペーンのタブ **[!UICONTROL Targeting and workflows]** に表示されます。
+1. 繰り返しワークフローは、キャンペーンに含まれるワークフローテンプレートから自動的に作成されます。繰り返しワークフローは、キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブに表示されます。
 
    ![](assets/s_ncs_user_op_recur_planning_wfs.png)
 
    繰り返しワークフローインスタンスのラベルは、テンプレートラベルとワークフロー番号、その間の # 文字で構成されます。
 
-   Workflows created from the schedule are automatically associated with it in the **[!UICONTROL Workflow]** column of the **[!UICONTROL Schedule]** tab.
+   スケジュールから作成されたワークフローは、「**[!UICONTROL スケジュール]**」タブの「**[!UICONTROL ワークフロー]**」列で自動的にスケジュールに関連付けられます。
 
    ![](assets/s_ncs_user_op_recur_planning_wfs_1.png)
 
@@ -201,11 +201,11 @@ The configuration mode of the execution schedule coincides with the **[!UICONTRO
 
 ### 定期的なキャンペーンの作成 {#creating-a-periodic-campaign}
 
-定期的なキャンペーンは、実行スケジュールに基づいてキャンペーンインスタンスを作成できる、特定のテンプレートをベースとするキャンペーンです。キャンペーンインスタンスは、テンプレートスケジュールで定義された頻度に従って、定期的キャンペーンテンプレートをベースとして自動的に作成されます。
+定期的なキャンペーンは、実行スケジュールに基づいてキャンペーンインスタンスを作成できる、特定のテンプレートをベースとするキャンペーンです。キャンペーンインスタンスは、テンプレートスケジュールで定義された頻度に従って、定期的なキャンペーンテンプレートをベースとして自動的に作成されます。
 
 #### キャンペーンテンプレートの作成 {#creating-the-campaign-template-1}
 
-1. Create a **[!UICONTROL Periodic]** campaign template, preferably by duplicating an existing campaign template.
+1. できれば既存のキャンペーンテンプレートを複製して、**[!UICONTROL 定期的]**&#x200B;なキャンペーンテンプレートを作成します。
 
    ![](assets/s_ncs_user_op_template_period_create.png)
 
@@ -223,7 +223,7 @@ The configuration mode of the execution schedule coincides with the **[!UICONTRO
    >
    >このワークフローはワークフローテンプレートです。キャンペーンテンプレートからは実行できません。
 
-1. Complete its execution schedule as for a recurring campaign template: click the **[!UICONTROL Add]** button and define the start and end dates, or fill in the execution schedule via the link.
+1. 繰り返しキャンペーンテンプレートと同様に、実行スケジュールを入力します。「**[!UICONTROL 追加]**」ボタンをクリックして開始日と終了日を定義するか、リンクから実行スケジュールを入力します。
 
    ![](assets/s_ncs_user_op_template_period_planning_add.png)
 

@@ -14,7 +14,7 @@ discoiquuid: 78c70ef4-807d-45d4-ac87-2b741c0ef5cb
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 ---
@@ -22,9 +22,9 @@ source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 # テスト{#test}
 
-「**テスト**」タイプのアクティビティは、自身に関連付けられている条件を最初に満たしたトランジションを有効化します。If no condition is satisfied and if the **[!UICONTROL Use the default fork]** option is activated, the default transition will be activated.
+「**テスト**」タイプのアクティビティは、自身に関連付けられている条件を最初に満たしたトランジションを有効化します。条件が 1 つも満たされず、「**[!UICONTROL デフォルト分岐を使用]**」オプションが有効化されている場合、デフォルトのトランジションが有効化されます。
 
-条件は、true または false によって必ず評価される JavaScript 式です。To enter the expression, click the icon to the right of the name of the condition, and then select **[!UICONTROL Edit...]**.
+条件は、true または false によって必ず評価される JavaScript 式です。式を入力するには、条件名の右にあるアイコンをクリックし、「**[!UICONTROL 編集...]**」を選択します。
 
 ![](assets/edit_test.png)
 

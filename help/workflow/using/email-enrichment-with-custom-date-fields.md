@@ -14,7 +14,7 @@ discoiquuid: 9cb3be65-6652-47fa-b8a4-e088530aab4a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c4b5b7c44bbc74f56d3c70b93b131bba4d78c6f
 
 ---
@@ -24,89 +24,89 @@ source-git-commit: 1c4b5b7c44bbc74f56d3c70b93b131bba4d78c6f
 
 この例では、今月の誕生日を祝う受信者にカスタム日付フィールドを含む E メールを送信します。E メールには、誕生日の前後 1 週間有効なクーポンが含まれます。
 
-We need to target recipients from a list who will celebrate their birthdays this month with a **[!UICONTROL Split]** activity. Then, using the **[!UICONTROL Enrichment]** activity, the custom data field will act as validity dates in the email for the customer&#39;s special offer.
+**[!UICONTROL 分割]**&#x200B;アクティビティで、今月の誕生日を祝う受信者をリストから選んでターゲットにする必要があります。次に、**[!UICONTROL エンリッチメント]**&#x200B;アクティビティを使用すると、カスタム日付フィールドが E メール内で顧客向け特別オファーの有効期限日として機能します。
 
 ![](assets/uc_enrichment.png)
 
 この例を作成するには、次の手順に従います。
 
-1. In the **[!UICONTROL Targeting and workflows]** tab of your campaign, drag and drop a **[!UICONTROL Read list]** activity to target your list of recipients.
+1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、**[!UICONTROL リスト読み込み]**&#x200B;アクティビティをドラッグ＆ドロップして、受信者のリストをターゲットにします。
 1. 処理されるリストは、選択したオプションおよびここで定義したパラメーターに応じて、明示的に指定されるか、スクリプトで処理されるか、動的にローカライズされます。
 
    ![](assets/uc_enrichment_1.png)
 
-1. Add a **[!UICONTROL Split]** activity to differentiate recipients who will celebrate their birthdays this month from other recipients.
-1. リストを分割するには、カテゴリ **[!UICONTROL Filtering of selected records]** でを選択しま **[!UICONTROL Add a filtering condition on the inbound population]**&#x200B;す。 次に、をクリックしま **[!UICONTROL Edit]**&#x200B;す。
+1. **[!UICONTROL 分割]**&#x200B;アクティビティを追加して、今月の誕生日を祝う受信者を他の受信者と区別します。
+1. リストを分割するには、「**[!UICONTROL 選択したレコードのフィルター]**」カテゴリで、「**[!UICONTROL インバウンド母集団に対するフィルター条件を追加]**」を選択します。次に、「**[!UICONTROL 編集]**」をクリックします。
 
    ![](assets/uc_enrichment_2.png)
 
-1. Select **[!UICONTROL Filtering conditions]** then click the **[!UICONTROL Edit expression]** button to filter the month of the recipient&#39;s birthday.
+1. **[!UICONTROL フィルター条件]**&#x200B;を選択してから、「**[!UICONTROL 式を編集]**」ボタンをクリックして、受信者の誕生日の月をフィルターします。
 
    ![](assets/uc_enrichment_3.png)
 
-1. 「>」を **[!UICONTROL Advanced Selection]** クリック **[!UICONTROL Edit the formula using an expression]** し、次の式を追加します。Month(@birthDate).
-1. 列で、 **[!UICONTROL Operator]** を選択します **[!UICONTROL equal to]**。
-1. Further filter your condition, by adding the **[!UICONTROL Value]** month of the current date: Month(GetDate()).
+1. 「**[!UICONTROL 高度な選択]**」をクリックしてから「**[!UICONTROL 式を使用して数式を編集]**」をクリックし、式 Month(@birthDate) を追加します。
+1. **[!UICONTROL オペレーター]**&#x200B;列で、「**[!UICONTROL 次と等しい]**」を選択します。
+1. 「**[!UICONTROL 値]**」に現在の日付の月 Month(GetDate()) を追加することで、さらに条件をフィルターします。
 
    これは、誕生日の月が今月に対応する受信者をクエリします。
 
    ![](assets/uc_enrichment_4.png)
 
-1. クリック **[!UICONTROL Finish]**. 次に、アクティビティ **[!UICONTROL General]** のタブで、カ **[!UICONTROL Split]** テゴリのをクリ **[!UICONTROL Generate complement]** ックし **[!UICONTROL Results]** ます。
+1. 「**[!UICONTROL 完了]**」をクリックします。次に、**[!UICONTROL 分割]**&#x200B;アクティビティの「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL 結果]**」カテゴリの「**[!UICONTROL 補集合を生成]**」をクリックします。
 
-   With the **[!UICONTROL Complement]** result, you can add a delivery activity or update a list. Here, we just added an **[!UICONTROL End]** activity.
+   **[!UICONTROL 補集合]**&#x200B;の結果がある場合、配信アクティビティを追加するか、リストを更新できます。ここで、**[!UICONTROL 終了]**&#x200B;アクティビティを追加しました。
 
    ![](assets/uc_enrichment_6.png)
 
-You now need to configure your **[!UICONTROL Enrichment]** activity:
+次に&#x200B;**[!UICONTROL エンリッチメント]**&#x200B;アクティビティを設定する必要があります。
 
-1. Add an **[!UICONTROL Enrichment]** activity after your subset to add your custom date fields.
+1. サブセットの後に&#x200B;**[!UICONTROL エンリッチメント]**&#x200B;アクティビティを追加して、カスタム日付フィールドを追加します。
 
    ![](assets/uc_enrichment_7.png)
 
-1. アクティビティを **[!UICONTROL Enrichment]** 開きます。 カテゴリで、 **[!UICONTROL Complementary information]** をクリックしま **[!UICONTROL Add data]**&#x200B;す。
+1. **[!UICONTROL エンリッチメント]**&#x200B;アクティビティを開きます。「**[!UICONTROL 補足情報]**」カテゴリで、「**[!UICONTROL データを追加]**」をクリックします。
 
    ![](assets/uc_enrichment_8.png)
 
-1. 次に、を **[!UICONTROL Data linked to the filtering dimension]** 選択しま **[!UICONTROL Data of the filtering dimension]**&#x200B;す。
-1. ボタンをクリッ **[!UICONTROL Add]** クします。
+1. 「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」を選択してから、「**[!UICONTROL フィルタリングディメンションのデータ]**」を選択します。
+1. 「**[!UICONTROL 追加]**」ボタンをクリックします。
 
    ![](assets/uc_enrichment_9.png)
 
-1. を追加しま **[!UICONTROL Label]**&#x200B;す。 次に、列のをク **[!UICONTROL Expression]** リックします **[!UICONTROL Edit expression]**。
+1. **[!UICONTROL ラベル]**&#x200B;を追加します。**[!UICONTROL 式]**&#x200B;列で、「**[!UICONTROL 式を編集]**」をクリックします。
 
    ![](assets/uc_enrichment_10.png)
 
-1. First, we need to target the week before the birthdate as the **Validity start date** with the following **[!UICONTROL Expression]**: `SubDays([target/@birthDate], 7)`.
+1. 最初に、誕生日の前の週を「**有効期間の開始日**」としてターゲットにし、続く「**[!UICONTROL 式]**」に `SubDays([target/@birthDate], 7)` を指定する必要があります。
 
    ![](assets/uc_enrichment_11.png)
 
-1. Then, to create the custom date field **Validity end date** which will target the week after the birthdate, you need to add the **[!UICONTROL Expression]**: `AddDays([target/@birthDate], 7)`.
+1. 次に、誕生日の後の週をターゲットにするカスタム日付フィールド「**有効期間の終了日**」を作成するために、「**[!UICONTROL 式]**」に `AddDays([target/@birthDate], 7)` を追加する必要があります。
 
    式にラベルを追加できます。
 
    ![](assets/uc_enrichment_12.png)
 
-1. クリック **[!UICONTROL Ok]**. エンリッチメントの準備ができました。
+1. 「**[!UICONTROL OK]**」をクリックします。エンリッチメントの準備ができました。
 
-After your **[!UICONTROL Enrichment]** activity, you can add a delivery. ここでは、今月の誕生日を祝う顧客への有効期限付きの特別オファーを受信者に送信する E メール配信を追加しました。
+**[!UICONTROL エンリッチメント]**&#x200B;アクティビティの後に、配信を追加できます。ここでは、今月の誕生日を祝う顧客への有効期限付きの特別オファーを受信者に送信する E メール配信を追加しました。
 
-1. アクティビティの後にアクティビティ **[!UICONTROL Email delivery]** をドラッグ&amp;ドロッ **[!UICONTROL Enrichment]** プします。
+1. **[!UICONTROL エンリッチメント]**&#x200B;アクティビティの後に、**[!UICONTROL E メール配信]**&#x200B;アクティビティをドラッグ＆ドロップします。
 
    ![](assets/uc_enrichment_15.png)
 
-1. Double-click your **[!UICONTROL Email delivery]** activity to start personalizing your delivery.
-1. Add a **[!UICONTROL Label]** to your delivery and click **[!UICONTROL Continue]**.
-1. Click **[!UICONTROL Save]** to create your email delivery.
-1. チェック対象の電 **[!UICONTROL Approval]** 子メール配信のタブを **[!UICONTROL Properties]** チェックイ **[!UICONTROL Confirm delivery before sending option]** ンします。
+1. **[!UICONTROL E メール配信]**&#x200B;アクティビティをダブルクリックして、配信のパーソナライズを開始します。
+1. 配信に&#x200B;**[!UICONTROL ラベル]**&#x200B;を追加し、「**[!UICONTROL 続行]**」をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックして E メール配信を作成します。
+1. E メール配信&#x200B;**[!UICONTROL プロパティ]**&#x200B;の「**[!UICONTROL 承認]**」タブで、「**[!UICONTROL 送信前に配信を確定する]**」オプションがオンになっていることを確認します。
 
    次に、ワークフローを開始して、アウトバウンドトランジションをターゲット情報でエンリッチメントします。
 
    ![](assets/uc_enrichment_18.png)
 
-You can now start designing your email delivery with the custom date fields created in the **[!UICONTROL Enrichment]** activity.
+これで、**[!UICONTROL エンリッチメント]**&#x200B;アクティビティで作成したカスタム日付フィールドを含む E メール配信のデザインを開始できます。
 
-1. アクティビティをダブルクリ **[!UICONTROL Email delivery]** ックします。
+1. **[!UICONTROL E メール配信]**&#x200B;アクティビティをダブルクリックします。
 1. ターゲット式を E メールに追加します。有効期限日のフォーマットを設定するために、次の式の内部にある必要があります。
 
    ```
@@ -114,7 +114,7 @@ You can now start designing your email delivery with the custom date fields crea
            formatDate(targetData.alias of your expression,"%2D.%2M")  %>
    ```
 
-1. クリック ![](assets/uc_enrichment_16.png) . Select **[!UICONTROL Target extension]** then the previously created custom validity dates with the **[!UICONTROL Enrichment]** activity to add your extension to the formatDate expression.
+1. クリック ![](assets/uc_enrichment_16.png) .**[!UICONTROL ターゲット式]**&#x200B;を選択してから、**[!UICONTROL エンリッチメント]**&#x200B;アクティビティで前に作成したカスタム有効期限日を選択して、ターゲット式を formatDate 式に追加します。
 
    ![](assets/uc_enrichment_19.png)
 
@@ -126,4 +126,4 @@ You can now start designing your email delivery with the custom date fields crea
 
    ![](assets/uc_enrichment_20.png)
 
-E メールの準備ができました。誕生日の電子メールを送るために、校正を送り始め、配信を確認することができます。
+E メールの準備ができました。配達確認の送信を開始し配信を確定して、誕生日 E メールを送信できます。

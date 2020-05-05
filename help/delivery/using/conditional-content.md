@@ -14,7 +14,7 @@ discoiquuid: 167cc61a-fbc7-48cb-89ff-fbdbf9321c01
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 次の例では、受信者の性別と興味の対象に基づいて動的にパーソナライズされるメッセージを作成する方法について説明します。
 
-* 「Mr.」と表示する 「Ms」 データソース内のフ **[!UICONTROL Gender]** ィールド（MまたはF）の値に従って、
+* データソースの「**[!UICONTROL 性別]**」フィールド（M または F）に基づいて、名前の表示に付ける「Mr.」と「Ms.」を切り替える
 * 顧客が表明した関心事項や検出された関心事項に基づいて、次のようにニュースレターや優待販売案内の構成をパーソナライズする
 
    * 興味 1 -- > ブロック 1
@@ -38,7 +38,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 あるフィールドの値に基づく条件付きコンテンツを作成するには、次の手順に従います。
 
-1. パーソナライゼーションアイコンをクリックし、「」を選択しま **[!UICONTROL Conditional content > If]**&#x200B;す。
+1. パーソナライゼーションアイコンをクリックし、**[!UICONTROL 条件付きコンテンツ／If]** を選択します。
 
    ![](assets/s_ncs_user_conditional_content02.png)
 
@@ -48,16 +48,16 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
    手順は次のとおりです。
 
-   * Select the first element of the expression, **`<field>`**, (by default, this element is highlighted during insertion of the **if** expression) and click the personalization icon to replace it with the test field.
+   * 式の最初の要素 **`<field>`** を選択し（**If** 式を挿入すると、この要素がデフォルトでハイライトされた状態になります）、パーソナライゼーションアイコンをクリックして、この要素をテストフィールドに置き換えます。
 
       ![](assets/s_ncs_user_conditional_content03.png)
 
-   * Replace **`<value>`** with the value of the field for which the condition will be satisfied. この値は二重引用符で囲む必要があります。
+   * **`<value>`** を、条件が成立するためのフィールド値に置き換えます。この値は二重引用符で囲む必要があります。
    * 条件が成立したときに挿入するコンテンツを指定します。このコンテンツにはテキスト、画像、フォーム、ハイパーテキストリンクなどを含めることができます。
 
       ![](assets/s_ncs_user_conditional_content04.png)
 
-1. Click the **[!UICONTROL Preview]** tab to view the content of the message according to the delivery recipient:
+1. 「**[!UICONTROL プレビュー]**」タブをクリックして、次のように、配信の受信者に応じたメッセージコンテンツの表示を確認します。
 
    * 条件が成立する受信者を選択した場合：
 
@@ -67,7 +67,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
       ![](assets/s_ncs_user_conditional_content06.png)
 
-さらに多くの場合分けを追加し、1 つまたは複数のフィールドに基づいてコンテンツの切り替えを定義することもできます。これを行うには、とを使用 **[!UICONTROL Conditional content > Else]** します **[!UICONTROL Conditional content > Else if]**。 式の設定方法は、**If** 式の場合と同様です。
+さらに多くの場合分けを追加し、1 つまたは複数のフィールドに基づいてコンテンツの切り替えを定義することもできます。そのためには、**[!UICONTROL 条件付きコンテンツ／Else]** および&#x200B;**[!UICONTROL 条件付きコンテンツ／Else if]** を使用します。式の設定方法は、**If** 式の場合と同様です。
 
 ![](assets/s_ncs_user_conditional_content07.png)
 
@@ -75,16 +75,16 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 >
 >**Else** 条件や **Else if** 条件を追加した後は、JavaScript の構文を尊重するために、**%> &lt;%** の文字を削除する必要があります。
 
-Click **[!UICONTROL Preview]** and select a recipient to view the conditional content.
+「**[!UICONTROL プレビュー]**」をクリックし、いずれかの受信者を選択して、条件コンテンツの評価結果を表示します。
 
 ![](assets/s_ncs_user_conditional_content08.png)
 
 ## 多言語の E メールの作成 {#creating-multilingual-email}
 
-以下の例では、多言語の E メールを作成する方法について説明します。受信者の好みの言語に応じて、コンテンツが1つの言語で表示されます。
+以下の例では、多言語の E メールを作成する方法について説明します。コンテンツは、受信者の優先言語に基づいて、いずれかの言語で表示されます。
 
 1. E メールを作成し、ターゲット母集団を選択します。この例では、表示するバージョンを決定する条件は、受信者のプロファイルの&#x200B;**言語**&#x200B;の値に基づいています。この例では、これらの値は **EN**、**FR**、**ES** に設定されています。
-1. In the email HTML content, click the **[!UICONTROL Source]** tab and paste the following code:
+1. E メールの HTML コンテンツで、「**[!UICONTROL ソース]**」タブをクリックし、次のコードを貼り付けます。
 
    ```
    <% if (language == "EN" ) { %>
@@ -105,7 +105,7 @@ Click **[!UICONTROL Preview]** and select a recipient to view the conditional co
    <% } %>
    ```
 
-1. Test email content in the **[!UICONTROL Preview]** tab by selecting recipients with different preferred languages.
+1. 「**[!UICONTROL プレビュー]**」タブで、優先言語が異なる受信者を選択して、E メールコンテンツをテストします。
 
    >[!NOTE]
    >

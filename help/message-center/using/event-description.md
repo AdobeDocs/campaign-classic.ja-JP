@@ -14,7 +14,7 @@ discoiquuid: 3c8388d8-1a91-4d16-a8ac-016f643c6009
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
 
 ---
@@ -22,9 +22,9 @@ source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
 
 # イベントの説明{#event-description}
 
-## トランザクションメッセージングデータモデルについて {#about-transactional-messaging-datamodel}
+## トランザクションメッセージのデータモデルについて {#about-transactional-messaging-datamodel}
 
-トランザクションメッセージングは、Adobe Campaignのデータモデルに依存し、2つの別々のテーブルを使用します。 These [tables](../../configuration/using/data-model-description.md#message-center-module), **NmsRtEvent** and **NmsBatchEvent**, contain the same fields and let you manage real time events on the one hand and batch events on the other.
+トランザクションメッセージは Adobe Campaign データモデルに依存し、2 つの追加の別個のテーブルを使用します。これらの[テーブル](../../configuration/using/data-model-description.md#message-center-module)（**NmsRtEvent** および **NmsBatchEvent**）には同じフィールドが含まれており、一方でリアルタイムイベントを管理し、もう一方でバッチイベントを管理できます。
 
 ## SOAP メソッド {#soap-methods}
 
@@ -40,7 +40,7 @@ source-git-commit: bc227c2da2e8b1a78714748809ad40bbcefe0458
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** で、リアルタイムタイプのスキーマにアクセスできます。
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** で、バッチタイプのスキーマにアクセスできます。
 
-Both methods contain an **`<urn:sessiontoken>`** element for logging on to the transactional messaging module. 信頼済み IP アドレス経由の識別方法を使用することをお勧めします。セッショントークンを取得するには、ログオン SOAP 呼び出しを実行してから、トークンを取得した後でログオフします。同じトークンを 複数の RT 呼び出しに使用します。この節に含まれる例では、推奨されるセッショントークン方式を使用しています。
+どちらのメソッドにも、トランザクションメッセージモジュールにログオンするための **`<urn:sessiontoken>`** 要素が含まれています。信頼済み IP アドレス経由の識別方法を使用することをお勧めします。セッショントークンを取得するには、ログオン SOAP 呼び出しを実行してから、トークンを取得した後でログオフします。同じトークンを 複数の RT 呼び出しに使用します。この節に含まれる例では、推奨されるセッショントークン方式を使用しています。
 
 ロードバランササーバーを使用している場合は、（RT メッセージのレベルで）ユーザー／パスワード認証を使用できます。例：
 
@@ -56,9 +56,9 @@ Both methods contain an **`<urn:sessiontoken>`** element for logging on to the t
 </PushEvent>
 ```
 
-The **PushEvent** method is made up of a **`<urn:domevent>`** parameter which contains the event.
+**PushEvent** メソッドは、イベントを格納する **`<urn:domevent>`** パラメーターで構成されています。
 
-The **PushEvents** method is made up of a **`<urn:domeventcollection>`** parameter which contains events.
+**PushEvents** メソッドは、複数イベントを格納する **`<urn:domeventcollection>`** パラメーターで構成されています。
 
 PushEvent の使用例：
 
@@ -82,7 +82,7 @@ PushEvent の使用例：
 
 >[!NOTE]
 >
->**PushEvents** メソッドを呼び出す場合、標準 XML に準拠するには親 XML 要素を追加する必要があります。This XML element will frame the various **`<rtevent>`** elements contained in the event.
+>**PushEvents** メソッドを呼び出す場合、標準 XML に準拠するには親 XML 要素を追加する必要があります。この XML 要素が、イベント内に含まれる様々な **`<rtevent>`** 要素の外枠となります。
 
 PushEvents の使用例：
 
@@ -108,13 +108,13 @@ PushEvents の使用例：
 </urn:PushEvents>
 ```
 
-要素と **`<rtevent>`** 要素 **`<batchevent>`** には、属性のセットと必須の子要素が含まれます。メッセー **`<ctx>`** ジデータの統合。
+**`<rtevent>`** 要素と **`<batchevent>`** 要素には、一連の属性に加え、必須の子要素として、メッセージデータ統合用の要素 **`<ctx>`** があります。
 
 >[!NOTE]
 >
->The **`<batchevent>`** element lets you add the event to the &quot;batch&quot; queue. The **`<rtevent>`** adds the event to the &quot;real time&quot; queue.
+>**`<batchevent>`** 要素を使用すると、「バッチ」キューにイベントを追加できます。「リアルタイム」キューにイベントを追加するには、**`<rtevent>`** 要素を使用します。
 
-The mandatory attributes of the **`<rtevent>`** and **`<batchevent>`** elements are @type and @email. @type の値は、実行インスタンスを設定した際に定義した項目別リストの値と同じである必要があります。この値で、配信の間、イベントの内容にリンクされるテンプレートを定義できます。
+**`<rtevent>`** 要素と **`<batchevent>`** 要素に必須の属性は、@type と @email です。@type の値は、実行インスタンスを設定した際に定義した項目別リストの値と同じである必要があります。この値で、配信の間、イベントの内容にリンクされるテンプレートを定義できます。
 
 `<rtevent> configuration example:`
 
@@ -132,7 +132,7 @@ The mandatory attributes of the **`<rtevent>`** and **`<batchevent>`** elements 
 >
 >許可されているすべての属性とその値についての詳細は、**nms:rtEvent** および **nms:BatchEvent** データスキーマの説明に記載されています。
 
-The **`<ctx>`** element contains the message data. この XML コンテンツはオープンなので、配信するコンテンツに合わせて設定できます。
+**`<ctx>`** 要素には、メッセージデータを格納します。この XML コンテンツはオープンなので、配信するコンテンツに合わせて設定できます。
 
 >[!NOTE]
 >

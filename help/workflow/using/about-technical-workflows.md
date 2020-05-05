@@ -14,7 +14,7 @@ discoiquuid: 0d65d47f-1f51-4757-8b1d-7d4a8ddc3c97
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
 
 ---
@@ -22,13 +22,13 @@ source-git-commit: d2ffbd97a22839975293cc792d59f1ba73b7c877
 
 # テクニカルワークフローについて{#about-technical-workflows}
 
-この節で詳しく説明するワークフローは、別の Adobe Campaign ビルトインパッケージと共にインストールされます。これらのパッケージおよび関連テクニカルワークフローは、ライセンス契約に応じて異なります。By default, they are available in a sub-folder of the following node: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
+この節で詳しく説明するワークフローは、別の Adobe Campaign ビルトインパッケージと共にインストールされます。これらのパッケージおよび関連テクニカルワークフローは、ライセンス契約に応じて異なります。デフォルトでは、これらは、**[!UICONTROL 管理]**／**[!UICONTROL プロダクション]**／**[!UICONTROL テクニカルワークフロー]**&#x200B;ノードのサブフォルダーで使用できます。
 
 >[!NOTE]
 >
->Message Centerモジュールに関連する技術的なワークフローは、デフォルトで> > > **[!UICONTROL Administration]** > **[!UICONTROL Production]** nodeで **[!UICONTROL Message Center]** 使用で **[!UICONTROL Technical workflows]** きます。
+>Message Center モジュールに関連するテクニカルワークフローは、デフォルトの状態で&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プロダクション]**／**[!UICONTROL Message Center]**／**[!UICONTROL テクニカルワークフロー]**&#x200B;ノードに用意されています。
 
-For more on how to monitor technical workflows, refer to the [dedicated section](../../workflow/using/monitoring-technical-workflows.md).
+テクニカルワークフローの監視方法について詳しくは、[該当する節](../../workflow/using/monitoring-technical-workflows.md)を参照してください。
 
 この節には、以下のパッケージに関係するテクニカルワークフローに関する情報が含まれます。
 
@@ -36,7 +36,7 @@ For more on how to monitor technical workflows, refer to the [dedicated section]
 * [キャンペーン](../../workflow/using/campaign.md)
 * [Web 分析](../../workflow/using/web-analytics.md)
 * [分散型マーケティング](../../workflow/using/distributed-marketing.md)
-* [配信品質の監視（電子メールの配信品質）](../../workflow/using/email-deliverability.md)
+* [配信品質の監視 (E メールの配信品質)](../../workflow/using/email-deliverability.md)
 * [受信ボックスレンダリング (IR)](../../workflow/using/inbox-rendering.md)
 * [インタラクション](../../workflow/using/interaction.md)
 * [オファーエンジンのコントロール](../../workflow/using/control-of-offer-engine.md)

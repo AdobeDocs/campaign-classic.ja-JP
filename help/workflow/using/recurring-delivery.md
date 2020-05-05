@@ -14,7 +14,7 @@ discoiquuid: 185d3256-a21e-47d7-bee7-7b91762ca1e2
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
@@ -22,9 +22,9 @@ source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 # 繰り返し配信{#recurring-delivery}
 
-A **[!UICONTROL Recurring delivery]** activity lets you configure a delivery template occurrence that is specific to a campaign.
+「**[!UICONTROL 繰り返し配信]**」アクティビティでは、キャンペーン固有の配信テンプレートの繰り返しを設定できます。
 
-This activity is only available from the **[!UICONTROL Targeting and workflows]** tab found in a campaign.
+このアクティビティは、キャンペーン内の「**[!UICONTROL ターゲティングとワークフロー]**」タブでのみ使用できます。
 
 手順は次のとおりです。
 
@@ -40,6 +40,6 @@ This activity is only available from the **[!UICONTROL Targeting and workflows]*
 
 >[!NOTE]
 >
->It is not possible to send a proof from a **[!UICONTROL Recurring delivery]** type activity.\
->To directly create a delivery via a campaign workflow, use the channel specific activities that are preconfigured (e.g. **[!UICONTROL Email delivery]**).
+>「**[!UICONTROL 繰り返し配信]**」タイプアクティビティから配達確認を送信することはできません。\
+>キャンペーンワークフロー経由で配信を直接作成するには、事前設定されたチャネル固有のアクティビティを使用します（「**[!UICONTROL E メール配信]**」など）。
 

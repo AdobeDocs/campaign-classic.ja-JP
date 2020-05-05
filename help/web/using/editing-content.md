@@ -14,7 +14,7 @@ discoiquuid: da66d640-8504-4dc7-bc4e-1c0ac1d37c37
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 Web ページ要素の表示条件を指定できます。この要素は、条件が遵守されている場合にのみ、表示されます。
 
-To add a visibility condition, select a block and enter the condition in the **[!UICONTROL Visibility condition]** field using the expression editor.
+表示条件を追加するには、ブロックを選択して、式エディターを使用して「**[!UICONTROL 表示条件]**」フィールドに入力します。
 
 ![](assets/dce_add_condition.png)
 
@@ -36,7 +36,7 @@ To add a visibility condition, select a block and enter the condition in the **[
 
 ![](assets/dce_popup_visibilitycondition.png)
 
-These conditions adopt the XTK expression syntax (for example **ctx.recipient.@email != &quot;&quot;** ま **たはctx.recipient.@status==&quot;0&quot;**). デフォルトでは、すべてのファイルが表示されます。
+これらの条件は、XTK 式の構文を採用しています（例えば、**ctx.recipient.@email ! = &quot;&quot;** または **ctx.recipient.@status==&quot;0&quot;**）。デフォルトでは、すべてのファイルが表示されます。
 
 >[!NOTE]
 >
@@ -78,11 +78,11 @@ These conditions adopt the XTK expression syntax (for example **ctx.recipient.@e
 
 手順は次のとおりです。
 
-* アイコンをクリッ **[!UICONTROL Edit]** クします。
+* **[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 
    ![](assets/dce_sidebar_options.png)
 
-* Enter the itemized list value (defined by the selected field) into the **[!UICONTROL Value]** field.
+* 定義済みリストの値（選択されたフィールドで定義される）を「**[!UICONTROL 値]**」フィールドに入力します。
 
    ![](assets/dce_sidebar_completeoptionradio.png)
 
@@ -92,9 +92,9 @@ These conditions adopt the XTK expression syntax (for example **ctx.recipient.@e
 
 変更できる設定内容は次のとおりです。
 
-* Delete the block containing the form fields using the **[!UICONTROL Delete]** icon.
-* Duplicate the selected field by creating a new block using the **[!UICONTROL Duplicate]** icon.
-* Edit the **[!UICONTROL Form data]** window to link a database field to the form zone, using the **[!UICONTROL Edit]** icon.
+* **[!UICONTROL 削除]**&#x200B;アイコンを使用して、フォームフィールドを含むブロックを削除します。
+* **[!UICONTROL 複製]**&#x200B;アイコンを使用して、新しいブロックを作成することで、選択したフィールドを複製します。
+* **[!UICONTROL 編集]**&#x200B;アイコンを使用して、**[!UICONTROL フォームデータ]**&#x200B;ウィンドウを編集し、データベースフィールドをフォームゾーンにリンクします。
 
    ![](assets/dce_toolbar_formblock_edition.png)
 
@@ -106,13 +106,13 @@ These conditions adopt the XTK expression syntax (for example **ctx.recipient.@e
 
 利用可能なアクションを次に示します。
 
-* **[!UICONTROL Refresh]** :現在のページを更新します。
-* **[!UICONTROL Next page]** :webアプリケーションの次のページへのリンクを作成します。
-* **[!UICONTROL Previous page]** :webアプリケーション内の前のページへのリンクを作成します。
+* **[!UICONTROL 更新]**：現在のページを更新します。
+* **[!UICONTROL 次のページ]**：Web アプリケーションの次のページへのリンクを作成します。
+* **[!UICONTROL 前のページ]**：Web アプリケーションの前のページへのリンクを作成します。
 
 >[!NOTE]
 >
->The **[!UICONTROL None]** value allows you to not activate the button.
+>**[!UICONTROL なし]**&#x200B;の値を使用すると、ボタンを非アクティブ化できます。
 
 対応するフィールドのボタンにリンクされたラベルを修正できます。
 
@@ -132,7 +132,7 @@ These conditions adopt the XTK expression syntax (for example **ctx.recipient.@e
 
 >[!NOTE]
 >
->各タイプのリンクについて、開くモードを設定できます。**ターゲット**&#x200B;ドロップダウンリストでターゲットウィンドウを選択します。This value corresponds to the **`<target>`** HTML tag.
+>各タイプのリンクについて、開くモードを設定できます。**ターゲット**&#x200B;ドロップダウンリストでターゲットウィンドウを選択します。この値は、**`<target>`** HTML タグに対応します。
 >
 >利用可能な&#x200B;**ターゲット**&#x200B;のリストは、次のとおりです。
 >
@@ -152,7 +152,7 @@ These conditions adopt the XTK expression syntax (for example **ctx.recipient.@e
 
 ![](assets/dce_toolbar_imgblock_externallink.png)
 
-問題になっているリンクアドレスを「**URL**」フィールドに入力します。The URL field should be entered as: **https://www.myURL.com**.
+問題になっているリンクアドレスを「**URL**」フィールドに入力します。URL フィールドは、**https://www.myURL.com** のように入力される必要があります。
 
 ### Web アプリケーションへのリンク {#link-to-a-web-application}
 
@@ -162,7 +162,7 @@ These conditions adopt the XTK expression syntax (for example **ctx.recipient.@e
 
 対応するフィールドから Web アプリケーションを選択します。
 
-The list of suggested Web applications corresponds to the available applications in the **[!UICONTROL Resources > Online > Web Applications]** node.
+提案される Web アプリケーションは、**[!UICONTROL リソース／オンライン／Web アプリケーション]**&#x200B;ノードの使用可能なアプリケーションに対応します。
 
 ### アクションへのリンク {#link-to-an-action}
 
@@ -172,14 +172,14 @@ The list of suggested Web applications corresponds to the available applications
 
 >[!NOTE]
 >
->使用可能なアクションについて詳しくは、「ボ [タンへのアクションの追加](#adding-an-action-to-a-button) 」を参照してください。
+>使用可能なアクションについて詳しくは、[ボタンへのアクションの追加](#adding-an-action-to-a-button)の節を参照してください。
 
 ### リンクの削除 {#delete-a-link}
 
-リンクが挿入されると、ツールバーに2つの新しいアイコンが表示されます。リン **クを編集** 、作成 **** したリンクを操作できるリンクを解除します。
+リンクが挿入されると、ツールバーに&#x200B;**リンクを編集**&#x200B;と&#x200B;**リンクを解除**&#x200B;の 2 つのアイコンが表示されます。これらを使用すると、作成したリンクを操作できます。
 
-* **[!UICONTROL Edit link]** リンクのすべてのパラメーターを含むウィンドウを表示できます。
-* **[!UICONTROL Break the link]** 確認後に、リンクとすべての関連パラメーターを削除できます。
+* **[!UICONTROL リンクを編集]**&#x200B;を使用すると、リンクのすべてのパラメーターを備えたウィンドウを表示できます。
+* **[!UICONTROL リンクを解除]**&#x200B;を使用すると、確認後、リンクおよび関連するすべてのパラメーターを削除できます。
 
 >[!NOTE]
 >
@@ -193,16 +193,16 @@ The list of suggested Web applications corresponds to the available applications
 
 利用可能なオプションを次に示します。
 
-* **Enlarge font** icon:選択したテキストのサイズを拡大(追加 `<span style="font size:">`)
-* **フォントを縮小** :選択したテキストのサイズを小さくします(追加 `<span style="font size:">`)。
-* **太字** アイコン：選択したテキストを太字にします(テキストをタグで囲 `<strong> </strong>` みます)。
-* **斜体** :選択したテキストを斜体にします(タグでテキストを折り返 `<em> </em>` します)。
-* **下線** アイコン：選択したテキストに下線を付けます(テキストをタグで囲 `<span style="text-decoration: underline;">` みます)。
-* **左揃え** アイコン：選択したブロックの左にテキストを揃えます(style=&quot;text-align:left;&quot;)
-* **中央** アイコン：選択したブロックの文字を中央に配置します(style=&quot;text-align:center;&quot;)
-* **右揃え** アイコン：選択したブロックの右にテキストを揃えます(style=&quot;text-align:right;&quot;)
-* **背景色アイコンを変更します** 。選択したブロックの背景色を変更できます(style=&quot;background-color:rgba(170, 86, 255, 0.87))
-* **テキストカラーアイコンの変更** :選択したブロックの文字色または選択した文字のみを変更できます(`<span style="color: #CODE">`)
+* **フォントを拡大**&#x200B;アイコン：選択されたテキストのサイズを大きくします（`<span style="font size:">` を追加します）。
+* **フォントを縮小**&#x200B;アイコン：選択されたテキストのサイズを小さくします（`<span style="font size:">` を追加します）。
+* **太字**&#x200B;アイコン：選択されたテキストを太字にします（`<strong> </strong>` タグでテキストを囲みます）。
+* **斜体**&#x200B;アイコン：選択されたテキストを斜体にします（`<em> </em>` タグでテキストを囲みます）。
+* **下線**&#x200B;アイコン：選択されたテキストに下線を設定します（`<span style="text-decoration: underline;">` タグでテキストを囲みます）。
+* **左揃え**&#x200B;アイコン：選択されたブロックの左側にテキストを揃えます（style=&quot;text-align: left;&quot; を追加します）。
+* **中央**&#x200B;アイコン：選択されたブロックのテキストを中央に配置します（style=&quot;text-align: center;&quot; を追加します）。
+* **右揃え**&#x200B;アイコン：選択されたブロックの右側にテキストを揃えます（style=&quot;text-align: right;&quot; を追加します）。
+* **背景色を変更**&#x200B;アイコン：選択されたブロックの背景色を変更できます（style=&quot;background-color: rgba(170, 86, 255, 0.87) を追加します）。
+* **テキストの色を変更**&#x200B;アイコン：選択されたブロックのテキストの色、または選択されたテキストの色を変更できます（`<span style="color: #CODE">`）。
 
 >[!NOTE]
 >
@@ -229,7 +229,7 @@ DCE と互換性を保つには、次のように、**「Flash」タイプのア
 
 >[!CAUTION]
 >
->You must not call up external files in a **script** tag of the HTML page. これらのファイルは、Adobe Campaign サーバーにインポートされません。
+>HTML ページの **script** タグで外部ファイルを呼び出さないようにする必要があります。これらのファイルは、Adobe Campaign サーバーにインポートされません。
 
 ### 画像の追加／削除／複製 {#adding---deleting---duplicating-an-image}
 
@@ -241,9 +241,9 @@ DCE と互換性を保つには、次のように、**「Flash」タイプのア
 
 ![](assets/dce_popup_imgupload.png)
 
-The **Delete** icon deletes the ![]() tag containing the image.
+**削除**&#x200B;アイコンは、画像を含む ![]() タグを削除します。
 
-The **Duplicate** icon duplicates the ![]() tag and its content.
+**複製**&#x200B;アイコンは、![]() タグおよびそのコンテンツを複製します。
 
 >[!CAUTION]
 >
@@ -266,11 +266,11 @@ The **Duplicate** icon duplicates the ![]() tag and its content.
 
 ![](assets/dce_toolbar_textblock_persofield.png)
 
-By default, the fields offered are from the **[!UICONTROL Recipient]** table. 必要に応じて、Web アプリケーションプロパティを編集して、別のテーブルを選択します。
+デフォルトでは、提供されたフィールドは、**[!UICONTROL 受信者]**&#x200B;テーブルからのものです。必要に応じて、Web アプリケーションプロパティを編集して、別のテーブルを選択します。
 
 フィールド名がエディターに表示され、黄色でハイライトされます。パーソナライゼーションが生成されると（例えば、ランディングページのプレビュー時）、ターゲット化された受信者のプロファイルで置き換えられます。
 
-「パーソナライゼーションフィールドの挿 [入」の節に例が示され](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field) 、
+例については、[パーソナライゼーションフィールドの挿入](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field)の節で説明しています。
 
 ### パーソナライゼーションブロックの挿入 {#inserting-a-personalization-block}
 
@@ -280,4 +280,4 @@ By default, the fields offered are from the **[!UICONTROL Recipient]** table. �
 
 挿入後、パーソナライゼーションブロック名がエディターに表示され、黄色でハイライトされます。パーソナライゼーションが生成されると、受信者プロファイルに自動的に適応されます。
 
-For more on built-in personalization blocks and how to define custom personalization blocks, refer to [this page](../../delivery/using/personalization-blocks.md).
+組み込みのパーソナライゼーションブロックと、カスタムパーソナライゼーションブロックの定義方法について詳しくは、[このページ](../../delivery/using/personalization-blocks.md)を参照してください。

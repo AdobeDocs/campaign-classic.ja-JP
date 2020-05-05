@@ -14,7 +14,7 @@ discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 14e67ca7f57d39e6939d6ff3479aa897674b18dc
 
 ---
@@ -54,19 +54,19 @@ Web アクセス用のインターフェイスはコンソールに似ていま�
 
 ### 言語 {#languages}
 
-この言語は、Adobe Campaign Classicインスタンスのインストール時に選択され、後で変更することはできません。 インスタンスの作成方法の詳細については、このページを参照してく [ださい](../../installation/using/creating-an-instance-and-logging-on.md)。
+言語は、Adobe Campaign Classic インスタンスのインストール時に選択され、後で変更することはできません。インスタンスの作成方法の詳細については、この[ページ](../../installation/using/creating-an-instance-and-logging-on.md)を参照してください。
 
 ![](assets/language.png)
 
-次の5種類の言語から選択できます。
+次の 5 種類の言語から選択できます。
 
-* 英語 (UK)
+* 英語（英国）
 * 英語（米国）
 * フランス語
 * ドイツ語
 * 日本語
 
-Adobe Campaign Classicインスタンスに選択した言語は、日付と時間の形式に影響する場合があります。 詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#date-and-time)を参照してください。
+Adobe Campaign Classic インスタンスに選択した言語は、日時フォーマットに影響を与える可能性があります。詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#date-and-time)を参照してください。
 
 ## ナビゲーションの基本 {#navigation-basics}
 
@@ -78,15 +78,15 @@ Adobe Campaign Classicインスタンスに選択した言語は、日付と時�
 
 どのコア機能にアクセスできるかは、インストールしたパッケージおよびアドオンと、アクセス権によって異なります。
 
-各コア機能には、タスク関連のニーズと使用コンテキストに基づく一連の機能が含まれています。For instance, the **[!UICONTROL Profiles and targets]** link gets you to the recipient lists, subscription services, existing targeting workflows and the shortcuts for creating these elements.
+各コア機能には、タスク関連のニーズと使用コンテキストに基づく一連の機能が含まれています。例えば、「**[!UICONTROL プロファイルとターゲット]**」リンクをクリックすると、受信者リスト、購読サービス、既存のターゲティングワークフローおよびこれらの要素を作成するためのショートカットにアクセスできます。
 
-The lists are available via the **[!UICONTROL Lists]** link in the left-hand section of the **[!UICONTROL Profiles and Targets]** interface.
+リストは、「**[!UICONTROL プロファイルとターゲット]**」インターフェイスの左側のセクションにある「**[!UICONTROL リスト]**」リンクから使用できます。
 
 ![](assets/recipient_list_overview.png)
 
 ### タブの使用 {#using-tabs}
 
-* コア機能またはリンクをクリックすると、現在のページに替わって、該当するページが表示されます。To go back to the previous page, click the **[!UICONTROL Back]** button on the toolbar. To return to the home page, click the **[!UICONTROL Home]** button.
+* コア機能またはリンクをクリックすると、現在のページに替わって、該当するページが表示されます。前のページに戻るには、ツールバーの「**[!UICONTROL 戻る]**」ボタンをクリックします。ホームページに戻るには、「**[!UICONTROL ホーム]**」ボタンをクリックします。
 
    ![](assets/d_ncs_user_interface_back_home_buttons.png)
 
@@ -96,11 +96,11 @@ The lists are available via the **[!UICONTROL Lists]** link in the left-hand sec
 
 ### 要素の作成 {#creating-an-element}
 
-各コア機能のセクションでは、使用可能な各種の要素を参照できます。To do this, use the shortcuts in the **[!UICONTROL Browsing]** section. The **[!UICONTROL Other choices]** link lets you access all other pages, regardless of environment.
+各コア機能のセクションでは、使用可能な各種の要素を参照できます。そのためには、「**[!UICONTROL ブラウジング]**」セクションのショートカットを使用します。「**[!UICONTROL その他]**」リンクを使用すると、環境に関わらず、その他のすべてのページにアクセスできます。
 
-新しい要素（配信、Webアプリケーション、ワークフローなど）を作成できます。画面の左側のセクショ **[!UICONTROL Create]** ンのショートカットを使用する。 Use the **[!UICONTROL Create]** button above the list to add new elements to the list.
+画面左にある「**[!UICONTROL 作成]**」セクションのショートカットを使用して、新しい要素（配信、Web アプリケーション、ワークフローなど）を作成できます。リストの上にある「**[!UICONTROL 作成]**」ボタンを使用すると、リストに新しい要素を追加できます。
 
-For example, on the delivery page, use the **[!UICONTROL Create]** button to create a new delivery.
+例えば、配信ページでは、「**[!UICONTROL 作成]**」ボタンを使用して新しい配信を作成します。
 
 ![](assets/d_ncs_user_interface_tab_add_del.png)
 
@@ -110,7 +110,7 @@ For example, on the delivery page, use the **[!UICONTROL Create]** button to cre
 
 Adobe Campaign エクスプローラーにアクセスするには、ツールバーアイコンを使用します。これにより、Adobe Campaign のすべての機能、設定画面およびプラットフォーム要素の一部の詳細ビューにアクセスできます。
 
-The **[!UICONTROL Explorer]** workspace is divided into three zones:
+**[!UICONTROL エクスプローラー]**&#x200B;ワークスペースは、3 つのゾーンに分割されています。
 
 ![](assets/s_ncs_user_navigation.png)
 
@@ -128,7 +128,7 @@ The **[!UICONTROL Explorer]** workspace is divided into three zones:
 >
 >1600x900 ピクセル未満の解像度は、Adobe Campaign でサポートされない場合があります。
 
-In the **[!UICONTROL Explorer]** workspace, if some parts of the **[!UICONTROL Details]** zone appear to be truncated, expand it using the arrow on top of the zone or click the **[!UICONTROL Enlarge]** button.
+**[!UICONTROL エクスプローラー]**&#x200B;ワークスペースで&#x200B;**[!UICONTROL 詳細]**&#x200B;ゾーンの一部が切り詰められている場合は、ゾーンの上部にある矢印を使用するか、**[!UICONTROL 拡大]**&#x200B;ボタンをクリックして拡大してください。
 
 ![](assets/s_ncs_user_resolution.png)
 
@@ -138,15 +138,15 @@ In the **[!UICONTROL Explorer]** workspace, if some parts of the **[!UICONTROL D
 
 >[!NOTE]
 >
->Configuration and personalization of list content are presented in [Configuring lists](#configuring-lists).
+>リストのコンテンツの設定およびパーソナライゼーションについて詳しくは、[リストの設定](#configuring-lists)で説明しています。
 >
->データを並べ替えたりフィルターしたりすることもできます。詳しくは、フ [ィルタオプションを参照](../../platform/using/filtering-options.md)。
+>データを並べ替えたりフィルターしたりすることもできます。詳しくは、[フィルターオプション](../../platform/using/filtering-options.md)を参照してください。
 
 ### レコードのカウント {#counting-records}
 
 Adobe Campaign には、デフォルトで、リストの最初の 200 件のレコードが読み込まれます。つまり、表示しているテーブルのすべてのレコードが表示されるわけではありません。リスト内のレコード数のカウントを実行して、レコードをさらに読み込むことができます。
 
-In the lower right-hand part of the list screen, a **[!UICONTROL counter]** shows how many records have been loaded and the total number of records in the database (after applying any filters):
+リスト画面の右下の部分にある&#x200B;**[!UICONTROL カウンター]**&#x200B;を使用すると、読み込まれているレコード数とデータベース内の合計レコード数（フィルターの適用後）が示されます。
 
 ![](assets/s_ncs_user_nb_200_0.png)
 
@@ -154,11 +154,11 @@ In the lower right-hand part of the list screen, a **[!UICONTROL counter]** show
 
 ### 追加レコードの読み込み {#loading-more-records}
 
-To load (and therefore display) additional records (200 lines by default) click **[!UICONTROL Continue loading]**.
+追加レコード（デフォルトでは 200 ライン）を読み込んで表示するには、「**[!UICONTROL 読み込みを続行]**」をクリックします。
 
 ![](assets/s_ncs_user_load_list.png)
 
-To load all the records, right-click the list and select **[!UICONTROL Load all]**.
+すべてのレコードを読み込むには、リストを右クリックして&#x200B;**[!UICONTROL すべて読み込む]**&#x200B;を選択します。
 
 >[!CAUTION]
 >
@@ -166,7 +166,7 @@ To load all the records, right-click the list and select **[!UICONTROL Load all]
 
 ### デフォルトのレコード数の変更 {#change-default-number-of-records}
 
-To change the default number of records loaded, click **[!UICONTROL Configure list]** in the bottom right-hand corner of the list.
+読み込まれるデフォルトのレコード数を変更するには、リストの右下にある「**[!UICONTROL リストを設定]**」をクリックします。
 
 ![](assets/s_ncs_user_configure_list.png)
 
@@ -183,7 +183,7 @@ To change the default number of records loaded, click **[!UICONTROL Configure li
 手軽なのは、レコードの詳細からリストに列を追加する方法です。手順は次のとおりです。
 
 1. 詳細画面で、列に表示するフィールドを右クリックします。
-1. 選択 **[!UICONTROL Add in the list]**.
+1. 「**[!UICONTROL リストに追加]**」を選択します。
 
    既存の列の右側に列が追加されます。
 
@@ -191,11 +191,11 @@ To change the default number of records loaded, click **[!UICONTROL Configure li
 
 列を追加するもう 1 つの方法は、リスト設定ウィンドウを使用することです。この方法は、詳細画面に表示されないデータを表示したい場合などに使用します。手順は次のとおりです。
 
-1. Click **[!UICONTROL Configure list]** below and to the right of the list.
+1. リストの右下にある「**[!UICONTROL リストを設定]**」をクリックします。
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. In the list configuration window, double-click the field to be added in the **[!UICONTROL Available fields]** list in order to add it to the **[!UICONTROL Output columns]**.
+1. リスト設定ウィンドウで、「**[!UICONTROL 出力列]**」に追加するために、「**[!UICONTROL 使用可能フィールド]**」リストに追加するフィールドをダブルクリックします。
 
    ![](assets/s_ncs_user_configurelist.png)
 
@@ -205,19 +205,19 @@ To change the default number of records loaded, click **[!UICONTROL Configure li
    >
    >ラベルは、テーブルごとに、その後はアルファベット順に表示されます。
    >
-   >「**検索**」フィールドを使用して、使用可能フィールドで検索を実行できます。詳しくは、リストの並べ替えを [参照してください](#sorting-a-list)。
+   >「**検索**」フィールドを使用して、使用可能フィールドで検索を実行できます。詳しくは、[リストの並べ替え](#sorting-a-list)を参照してください。
    >
-   >フィールドは、次の特定のアイコンで識別されます。SQLフィールド、リンクテーブル、計算フィールドなど 選択した各フィールドの説明が、使用可能なフィールドのリストの下に表示されます。
+   >フィールドは、SQL フィールド、リンクテーブル、集計フィールドなどの特定のアイコンで識別されます。選択した各フィールドの説明が、使用可能フィールドのリストの下に表示されます。
    [リストの設定](#configuring-lists).
    >
-   >データを並べ替えたりフィルターしたりすることもできます。詳しくは、フ [ィルタオプションを参照](../../platform/using/filtering-options.md)。
+   >データを並べ替えたりフィルターしたりすることもできます。詳しくは、[フィルターオプション](../../platform/using/filtering-options.md)を参照してください。
 
 1. 表示する列ごとにこの手順を繰り返します。
 1. 矢印を使用して&#x200B;**表示順序**&#x200B;を変更します。最も上にある列が、レコードのリストで左になります。
 
    ![](assets/s_ncs_user_columns_order_down.png)
 
-1. If you need, you can click **[!UICONTROL Distribution of values]** to view the repartition of values for the selected field in the current folder.
+1. 必要に応じて、「**[!UICONTROL 値の配分]**」をクリックし、現在のフォルダーの選択されたフィールドの値の配分を参照できます。
 
    ![](assets/s_ncs_user_configurelist_values.png)
 
@@ -227,16 +227,16 @@ To change the default number of records loaded, click **[!UICONTROL Configure li
 
 新しい列を作成して、リストに表示するフィールドを増やすことができます。手順は次のとおりです。
 
-1. Click **[!UICONTROL Configure the list]** at below and to the right of the list.
-1. Click **[!UICONTROL Add]** to display a new field in the list.
+1. リストの右下にある「**[!UICONTROL リストを設定]**」をクリックします。
+1. 「**[!UICONTROL 追加]**」をクリックして、リストに新しいフィールドを表示します。
 
 #### 列の削除 {#remove-a-column}
 
-You can mask one or more columns in a list of records using **[!UICONTROL Configure list]** located below and to the right of the list.
+リストの右下にある「**[!UICONTROL リストを設定]**」を使用して、レコードのリスト内の 1 つ以上の列をマスクできます。
 
 ![](assets/s_ncs_user_configure_list.png)
 
-In the list configuration window, select the column to be masked from the **[!UICONTROL Output columns]** zone, and click the delete button.
+リスト設定ウィンドウで、マスクする列を「**[!UICONTROL 出力列]**」ゾーンから選択し、削除ボタンをクリックします。
 
 ![](assets/s_ncs_user_removecolumn_icon.png)
 
@@ -253,7 +253,7 @@ In the list configuration window, select the column to be masked from the **[!UI
 * 選択したフォルダーのみに含まれているレコード
 * 選択したフォルダーとそのサブフォルダー内のレコード
 
-To switch from one display mode to the other, click **[!UICONTROL Display sub-levels]** in the toolbar.
+表示モードを切り替えるには、ツールバーの&#x200B;**[!UICONTROL サブフォルダーのコンテンツを表示]**&#x200B;をクリックします。
 
 ![](assets/s_ncs_user_display_children_icon.png)
 
@@ -272,26 +272,26 @@ To switch from one display mode to the other, click **[!UICONTROL Display sub-le
 このリストの設定を保存して再利用するには、以下の手順に従います。
 
 1. 表示されているデータを含むフォルダーを右クリックします。
-1. 選択 **[!UICONTROL Properties]**.
-1. をクリ **[!UICONTROL Advanced settings]** ックし、フィールドに名前を指定 **[!UICONTROL Configuration]** します。
+1. 「**[!UICONTROL プロパティ]**」を選択します。
+1. 「**[!UICONTROL 詳細設定]**」をクリックし、「**[!UICONTROL 設定]**」フィールドで名前を指定します。
 
    ![](assets/s_ncs_user_folder_save_config_2.png)
 
-1. をクリック **[!UICONTROL OK]** し、をクリックしま **[!UICONTROL Save]**&#x200B;す。
+1. 「**[!UICONTROL OK]**」をクリックし、「**[!UICONTROL 保存]**」をクリックします。
 
 この設定を別の「**配信**」フォルダーに適用できます。
 
 ![](assets/s_ncs_user_folder_save_config_3.png)
 
-Click **[!UICONTROL Save]** in the folder properties window. リストの表示は、指定した設定と一致するように変更されます。
+フォルダーのプロパティウィンドウで「**[!UICONTROL 保存]**」をクリックします。リストの表示は、指定した設定と一致するように変更されます。
 
 ![](assets/s_ncs_user_folder_save_config_5.png)
 
 ### リストのエクスポート {#exporting-a-list}
 
-リストからデータをエクスポートするには、エクスポートウィザードを使用する必要があります。To access it, select the elements to be exported from the list, right-click and select **[!UICONTROL Export...]**.
+リストからデータをエクスポートするには、エクスポートウィザードを使用する必要があります。これにアクセスするには、リストからエクスポートする要素を選択し、右クリックして「**[!UICONTROL エクスポート...]**」を選択します。
 
-インポート機能とエクスポート機能の使用については、「一般的なインポ [ートとエクスポート」で説明しま](../../platform/using/generic-imports-and-exports.md)す。
+インポートおよびエクスポート機能の使用については、[一般的なインポートおよびエクスポート](../../platform/using/generic-imports-and-exports.md)で説明しています。
 
 >[!CAUTION]
 >
@@ -305,11 +305,11 @@ Click **[!UICONTROL Save]** in the folder properties window. リストの表示�
 
 並べ替えの設定をおこなったり、並べ替え基準を組み合わせることもできます。これをおこなうには、以下の手順に従います。
 
-1. **[!UICONTROL Configure list]** リストの下と右。
+1. リストの右下にある「**[!UICONTROL リストを設定]**」をクリックします。
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. In the list configuration window, click the **[!UICONTROL Sorting]** tab.
+1. リスト設定ウィンドウで、「**[!UICONTROL 並べ替え]**」タブをクリックします。
 1. 並べ替えるフィールドと、並べ替えの順番（昇順または降順）を選択します。
 
    ![](assets/s_ncs_user_configurelist_sort.png)
@@ -320,15 +320,15 @@ Click **[!UICONTROL Save]** in the folder properties window. リストの表示�
 
    並べ替えの優先順位は、リスト内の列の表示には影響しません。
 
-1. 「**[!UICONTROL Ok]**」をクリックしてこの設定を確定し、リストで結果を表示します。
+1. 「**[!UICONTROL OK]**」をクリックしてこの設定を確定し、リストで結果を表示します。
 
 ### 検索の実行 {#running-a-search}
 
-You can run a search of the available fields in an editor using the **[!UICONTROL Search]** field located above the list of fields. キーボードの **Enter** キーを押すか、リストを参照します。検索と一致するフィールドは、太字のラベルになります。
+エディターで使用可能フィールドの検索を実行するには、フィールドのリストの上にある「**[!UICONTROL 検索]**」フィールドを使用します。キーボードの **Enter** キーを押すか、リストを参照します。検索と一致するフィールドは、太字のラベルになります。
 
 >[!NOTE]
 >
->フィルターを作成して、リストのデータの一部のみを表示できます。フィルターの [作成を参照してくださ](../../platform/using/creating-filters.md)い。
+>フィルターを作成して、リストのデータの一部のみを表示できます。[フィルターの作成](../../platform/using/creating-filters.md)を参照してください。
 
 ## フォーマットと単位 {#formats-and-units}
 
@@ -336,7 +336,7 @@ You can run a search of the available fields in an editor using the **[!UICONTRO
 
 Adobe Campaign Classic インスタンスは、言語によって日時の形式が異なります。
 
-言語は Campaign をインストールする際に選択し、後から変更することはできません。次を選択できます。英語（米国）、英語(EN)、フランス語、ドイツ語または日本語。 詳しくは、[このページ](../../installation/using/creating-an-instance-and-logging-on.md)を参照してください。
+言語は Campaign をインストールする際に選択し、後から変更することはできません。英語（米国）、英語（英国）、フランス語、ドイツ語または日本語を選択できます。詳しくは、[このページ](../../installation/using/creating-an-instance-and-logging-on.md)を参照してください。
 
 米国英語と英国英語の主な違いは次のとおりです。
 
@@ -369,24 +369,24 @@ Adobe Campaign Classic インスタンスは、言語によって日時の形式
 
 ### 列挙での値の追加 {#add-values-in-an-enumeration}
 
-ドロップダウンリストがある入力フィールドを使用して、列挙値を入力できます。この値は、保存してドロップダウンリストのオプションとして提供できます。For example, in the **[!UICONTROL City]** field of the **[!UICONTROL General]** tab of a recipient profile, you can enter London. Enter キーを押してこの値を確定すると、この値をフィールドに関連付けられた列挙に対して保存するかどうかを尋ねるメッセージが表示されます。
+ドロップダウンリストがある入力フィールドを使用して、列挙値を入力できます。この値は、保存してドロップダウンリストのオプションとして提供できます。例えば、受信者プロファイルの「**[!UICONTROL 一般]**」タブの「**[!UICONTROL 市区町村]**」フィールドで、「ロンドン」と入力します。Enter キーを押してこの値を確定すると、この値をフィールドに関連付けられた列挙に対して保存するかどうかを尋ねるメッセージが表示されます。
 
 ![](assets/s_ncs_user_wizard_email_bat_substitute_email.png)
 
-If you click **[!UICONTROL Yes]**, this value will be available in the combo box of the relevant field (in this case: **[!UICONTROL London]**).
+「**[!UICONTROL はい]**」をクリックした場合、この値は該当するフィールド（この場合は、**[!UICONTROL ロンドン]**）のコンボボックスで使用可能になります。
 
 >[!NOTE]
 >
->Enumerations (also known as &#39;itemized lists&#39;) are managed by the administrator via the **[!UICONTROL Administration > Platform > Enumerations]** section. For more on this, refer to [Managing enumerations](../../platform/using/managing-enumerations.md).
+>列挙（「定義済みリスト」とも呼ばれます）は、管理者が&#x200B;**[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;セクションで管理します。詳しくは、[列挙の管理](../../platform/using/managing-enumerations.md)を参照してください。
 
 ### デフォルトの単位 {#default-units}
 
 有効期間（配信のリソースの有効期間、タスクの承認期限など）を表すフィールドでは、値を次の&#x200B;**単位**&#x200B;で表すことができます。
 
-* **[!UICONTROL s]** 数秒間
-* **[!UICONTROL mn]** 数分間
-* **[!UICONTROL h]** 何時間も
-* **[!UICONTROL d]** 何日も
+* **[!UICONTROL s]**（秒）
+* **[!UICONTROL mn]**（分）
+* **[!UICONTROL h]**（時間）
+* **[!UICONTROL d]**（日）
 
 ![](assets/enter_unit_sample.png)
 

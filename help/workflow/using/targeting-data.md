@@ -14,7 +14,7 @@ discoiquuid: 79f1e85a-b5e6-4875-ac57-ab979fc57079
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
@@ -26,21 +26,21 @@ source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ### データの選択 {#selecting-data}
 
-A **[!UICONTROL Query]** activity lets you select basic data to build the target population. For more on this, refer to [Creating a query](../../workflow/using/query.md#creating-a-query).
+「**[!UICONTROL クエリ]**」アクティビティでは、ターゲット母集団を作成するために必要な基本データを選択できます。詳しくは、[クエリの作成](../../workflow/using/query.md#creating-a-query)を参照してください。
 
-You can also use the following activities to query and refine data from the database: [Incremental query](../../workflow/using/incremental-query.md), [Read list](../../workflow/using/read-list.md).
+データベースからデータをクエリおよび絞り込むには、「[増分処理クエリ](../../workflow/using/incremental-query.md)」および「[リスト読み込み](../../workflow/using/read-list.md)」アクティビティも使用できます。
 
-ワークフローのライフサイクルを通じて転送され、処理される追加情報を収集することができます。詳しくは、「データの追加」および「追加 [データの編集](../../workflow/using/query.md#adding-data)[」を](#editing-additional-data)参照してください。
+ワークフローのライフサイクルを通じて転送され、処理される追加情報を収集することができます。詳しくは、[データの追加](../../workflow/using/query.md#adding-data)および[追加データの編集](#editing-additional-data)を参照してください。
 
 ### 追加データの編集 {#editing-additional-data}
 
 追加のデータが追加されたら、編集したり、クエリアクティビティで定義されたターゲットの調整に使用することができます。
 
-The **[!UICONTROL Edit additional data...]** link lets you view the added data and modify it or add to it.
+「**[!UICONTROL 追加データを編集...]**」リンクを使用して、追加データを表示し、編集したり、さらにデータを追加できます。
 
 ![](assets/wf_add_data_edit_link.png)
 
-前に定義した出力列にデータを追加するには、使用可能なフィールドのリストからフィールドを選択します。To create a new output column, click the **[!UICONTROL Add]** icon, then select the field and click **[!UICONTROL Edit expression]**.
+前に定義した出力列にデータを追加するには、使用可能なフィールドのリストからフィールドを選択します。新しい出力列を作成するには、「**[!UICONTROL 追加]**」アイコンをクリックしてからフィールドを選択し、「**[!UICONTROL 式を編集]**」をクリックします。
 
 ![](assets/query_add_an_output_column.png)
 
@@ -48,45 +48,45 @@ The **[!UICONTROL Edit additional data...]** link lets you view the added data a
 
 ![](assets/query_add_an_output_column_formula.png)
 
-The **[!UICONTROL Add a sub-item]** option lets you attach computed data to the collection. これにより、コレクションから、追加データを選択したり、コレクション要素に対する集計計算を定義できます。
+「**[!UICONTROL サブ項目を追加]**」オプションを使用して、自動生成したデータをコレクションに添付できます。これにより、コレクションから、追加データを選択したり、コレクション要素に対する集計計算を定義できます。
 
 ![](assets/query_add_columns_subscription_sub-element.png)
 
 サブ要素は、マッピング先のコレクションのサブツリーに表されます。
 
-Collections are shown in the **[!UICONTROL Collections]** sub-tab. You can filter the collected elements by clicking the **[!UICONTROL Detail]** icon of the selected collection. フィルターウィザードでは、収集したデータを選択し、コレクション内のデータに適用するフィルター条件を指定できます。
+コレクションが「**[!UICONTROL コレクション]**」サブタブに表示されます。収集された要素は、選択したコレクションの「**[!UICONTROL 詳細]**」アイコンをクリックしてフィルターできます。フィルターウィザードでは、収集したデータを選択し、コレクション内のデータに適用するフィルター条件を指定できます。
 
 ![](assets/query_add_columns_collection.png)
 
 ### 追加データを使用したターゲットの絞り混み {#refining-the-target-using-additional-data}
 
-収集された追加データを使用して、データベース内でのフィルターされたデータを絞り込むことができます。これを行うには、次のリンクをクリック **[!UICONTROL Refine the target using additional data...]** します。これにより、追加したデータに対してオーバーフィルターを実行できます。
+収集された追加データを使用して、データベース内でのフィルターされたデータを絞り込むことができます。それには、「**[!UICONTROL 追加データを使用してターゲットを絞り込み...]**」リンクをクリックします。このリンクを使用して、追加したデータをフィルターできます。
 
 ![](assets/wf_add_data_use_additional_data.png)
 
 ### データの均質化 {#homogenizing-data}
 
-In **[!UICONTROL Union]** or **[!UICONTROL Intersection]** type activities, you can choose to keep only shared additional data to keep the data consistent. この場合、このアクティビティの一時的な出力作業テーブルには、すべてのインバウンドセットで見つかった追加データのみが含まれます。
+「**[!UICONTROL 和集合]**」タイプまたは「**[!UICONTROL 積集合]**」タイプのアクティビティで、共有される追加データのみを保持するよう選択し、データの一貫性を維持することができます。この場合、このアクティビティの一時的な出力作業テーブルには、すべてのインバウンドセットで見つかった追加データのみが含まれます。
 
 ![](assets/option-common_additionnal_col_only.png)
 
 ### 追加データとの紐付け {#reconciliation-with-additional-data}
 
-データ調整フ&#x200B;**[!UICONTROL Union]**&#x200B;ェー **[!UICONTROL Intersection]**&#x200B;ズ(、 アクティビティを参照)、追加の列からデータ調整に使用する列を選択できます。 それには、列の選択の紐付けを設定し、メインセットを指定します。次に、以下の例に示すように、ウィンドウ下部の列から列を選択します。
+データの紐付けフェーズ（**[!UICONTROL 和集合]**、**[!UICONTROL 積集合]**&#x200B;などのアクティビティ）の間、データの紐付けに使用される列を追加の列から選択できます。それには、列の選択の紐付けを設定し、メインセットを指定します。次に、以下の例に示すように、ウィンドウ下部の列から列を選択します。
 
 ![](assets/select-column-and-join.png)
 
 ### サブセットの作成 {#creating-subsets}
 
-The **[!UICONTROL Split]** activity lets you create subsets on criteria defined via extraction queries. 各サブセットについて、母集団に対するフィルター条件を編集する場合、標準クエリアクティビティにアクセスし、ターゲットのセグメント化条件を定義します。
+「**[!UICONTROL 分割]**」アクティビティにより、抽出クエリ経由で定義された条件に基づくサブセットを作成できます。各サブセットについて、母集団に対するフィルター条件を編集する場合、標準クエリアクティビティにアクセスし、ターゲットのセグメント化条件を定義します。
 
 追加データのみを、またはターゲットデータと追加データをフィルター条件として使用し、ターゲットを複数のサブセットに分割できます。さらに、**Federated Data Access** オプションを購入済みの場合は、外部データも使用できます。
 
-詳しくは、Splitアクティビティを使用し [たサブセットの作成を参照してください](#creating-subsets-using-the-split-activity)。
+詳しくは、[分割アクティビティを使用したサブセットの作成](#creating-subsets-using-the-split-activity)を参照してください。
 
 ## データのセグメント化 {#segmenting-data}
 
-### Combining several targets (Union) {#combining-several-targets--union-}
+### 複数のターゲットの組み合わせ（和集合） {#combining-several-targets--union-}
 
 和集合アクティビティでは、1 つのトランジション内で複数のアクティビティの結果を組み合わせることができます。セットは、同質である必要はありません。
 
@@ -94,17 +94,17 @@ The **[!UICONTROL Split]** activity lets you create subsets on criteria defined 
 
 次のデータ紐付けオプションを使用できます。
 
-* **[!UICONTROL Keys only]**
+* **[!UICONTROL キーのみ]**
 
    このオプションは、入力母集団が同質である場合に使用できます。
 
-* **[!UICONTROL All columns in common]**
+* **[!UICONTROL すべての共有列]**
 
    このオプションでは、ターゲットの各種母集団すべてに共通する共有列に基づいてデータを紐付けできます。
 
    Adobe Campaign は、名前に基づいて列を識別します。許容しきい値を使用できます。この値を使用すると、例えば、Email 列は @email 列と同じであると認識されます。
 
-* **[!UICONTROL A selection of columns]**
+* **[!UICONTROL 列の選択]**
 
    このオプションを選択し、データの紐付けが適用される列のリストを定義します。
 
@@ -124,7 +124,7 @@ The **[!UICONTROL Split]** activity lets you create subsets on criteria defined 
 
    ![](assets/join_limit_nb_priority.png)
 
-### Extracting joint data (Intersection) {#extracting-joint-data--intersection-}
+### 結合データの抽出（積集合） {#extracting-joint-data--intersection-}
 
 ![](assets/traitements.png)
 
@@ -132,53 +132,53 @@ The **[!UICONTROL Split]** activity lets you create subsets on criteria defined 
 
 さらに、列の選択だけ、またはインバウンド母集団によって共有される列だけを保持することもできます。
 
-The intersection activity is detailed in the [Intersection](../../workflow/using/intersection.md) section.
+積集合アクティビティについて詳しくは、[積集合](../../workflow/using/intersection.md)の節で説明しています。
 
-### Excluding a population (Exclusion) {#excluding-a-population--exclusion-}
+### 母集団の除外（除外） {#excluding-a-population--exclusion-}
 
 除外アクティビティを使用して、異なるターゲット母集団からターゲットの要素を除外できます。このアクティビティの出力ターゲティングディメンションは、メインセットからのものになります。
 
-必要に応じて、インバウンドテーブルの操作も可能です。別のディメンションからターゲットを除外するには、このターゲットが同じターゲティングディメンションをメインターゲットとして返します。To do this click the **[!UICONTROL Add]** button and specify the dimension change conditions.
+必要に応じて、インバウンドテーブルの操作も可能です。別のディメンションからターゲットを除外するには、このターゲットが同じターゲティングディメンションをメインターゲットとして返します。それには、「**[!UICONTROL 追加]**」ボタンをクリックし、ディメンションの変更条件を指定します。
 
-データの紐付けは、識別子、変更軸、結合を使用して実行されます。例は、リストのデー [タを使用する：リストを読み取ります](../../workflow/using/importing-data.md#using-data-from-a-list--read-list)。
+データの紐付けは、識別子、変更軸、結合を使用して実行されます。[リストのデータの利用：リストの読み込み](../../workflow/using/importing-data.md#using-data-from-a-list--read-list)で、例を紹介しています。
 
 ![](assets/exclusion_edit_add_rule_01.png)
 
 ### 分割アクティビティを使用したサブセットの作成 {#creating-subsets-using-the-split-activity}
 
-The **[!UICONTROL Split]** activity is a standard activity which lets you create as many sets as necessary via one or several filtering dimensions, as well as generating either one output transition per subset or a unique transition.
+**[!UICONTROL 分割]**&#x200B;アクティビティは、1 つまたは複数のフィルタリングディメンション経由で、必要な数のセットをすべて作成できる標準アクティビティです。また、サブセットごとに 1 つの出力トランジション、または固有のトランジションのいずれかを生成します。
 
 インバウンドトランジションによって伝達された追加データは、フィルター条件内で使用できます。
 
 これを設定するには、最初に条件を選択する必要があります。
 
-1. In your workflow, drag and drop a **[!UICONTROL Split]** activity.
-1. In the **[!UICONTROL General]** tab, select the desired option: **[!UICONTROL Use data from the target and additional data]**, **[!UICONTROL Use the additional data only]** or **[!UICONTROL Use external data]**.
-1. このオプション **[!UICONTROL Use data from the target and additional data]** を選択すると、ターゲットディメンションでは、インバウンドトランジションによって伝達されるすべてのデータを使用できます。
+1. ワークフローで、**[!UICONTROL 分割]**&#x200B;アクティビティをドラッグ＆ドロップします。
+1. 「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL ターゲットからのデータと追加データを使用]**」、「**[!UICONTROL 追加データのみを使用]**」、「**[!UICONTROL 外部データを使用]**」のいずれかから、目的のオプションを選択します。
+1. 「**[!UICONTROL ターゲットからのデータと追加データを使用]**」オプションが選択されている場合、ターゲティングディメンションでは、インバウンドトランジションによって伝達されるすべてのデータを使用できます。
 
    ![](assets/split-general-tab-options.png)
 
    サブセットが作成されると、前述のフィルタリングパラメーターが使用されます。
 
-   フィルター条件を定義するには、オプションを **[!UICONTROL Add a filtering condition on the inbound population]** 選択し、リンクをクリック **[!UICONTROL Edit...]** します。 次に、このサブセットを作成するためのフィルタリング条件を指定します。
+   フィルター条件を定義するには、「**[!UICONTROL インバウンド母集団に対するフィルター条件を追加]**」オプションを選択して、「**[!UICONTROL 編集...]**」リンクをクリックします。次に、このサブセットを作成するためのフィルタリング条件を指定します。
 
    ![](assets/split-subset-config-all-data.png)
 
-   An example showing how to use filtering conditions in the **[!UICONTROL Split]** activity to segment the target into different populations is described in [this section](../../workflow/using/cross-channel-delivery-workflow.md).
+   **[!UICONTROL 分割]**&#x200B;アクティビティでフィルター条件を使用して、ターゲットを別々の母集団にセグメント化する方法を示した例については、[この節](../../workflow/using/cross-channel-delivery-workflow.md)を参照してください。
 
-   The **[!UICONTROL Label]** field lets you give the newly created subset a name, which will match the outbound transition.
+   「**[!UICONTROL ラベル]**」フィールドでは、新しく作成したサブセットに、アウトバウンドトランジションと一致する名前を付けることができます。
 
    さらに、サブセットに識別用のセグメントコードを割り当てて、母集団のターゲティングにそのコードを使用できます。
 
-   必要に応じて、作成したい各サブセットについて、ターゲティングおよびフィルタリングディメンションを個別に変更できます。これを行うには、サブセットのフィルタリング条件を編集し、オプションをオンに **[!UICONTROL Use a specific filtering dimension]** します。
+   必要に応じて、作成したい各サブセットについて、ターゲティングおよびフィルタリングディメンションを個別に変更できます。それには、サブセットのフィルタリング条件を編集し、「**[!UICONTROL 特定のフィルタリングディメンションを使用]**」オプションをチェックします。
 
    ![](assets/split-subset-config-specific-filtering.png)
 
-1. このオプションを **[!UICONTROL Use the additional data only]** 選択すると、サブセットフィルタリングに追加のデータのみが提供されます。
+1. 「**[!UICONTROL 追加データのみを使用]**」オプションが選択されている場合、追加データのみがサブセットのフィルターに提供されます。
 
    ![](assets/split-subset-config-additional-data-only.png)
 
-1. If the **Federated Data Access** option is enabled, the **[!UICONTROL Use external data]** lets you process data in an external database which is already configured, or create a new connection to a database.
+1. 「**Federated Data Access**」オプションが有効になっている場合、「**[!UICONTROL 外部データを使用]**」により、設定済みの外部データベース内のデータを処理したり、新しい接続をデータベースに対して作成できます。
 
    ![](assets/split-subset-config-add_external_data.png)
 
@@ -186,27 +186,27 @@ The **[!UICONTROL Split]** activity is a standard activity which lets you create
 
 次に、新しいサブセットを追加する必要があります。
 
-1. Click the **[!UICONTROL Add]** button and define the filtering conditions.
+1. 「**[!UICONTROL 追加]**」ボタンをクリックし、フィルター条件を定義します。
 
    ![](assets/wf_split_add_a_tab.png)
 
-1. Define the filtering dimension in the **[!UICONTROL General]** tab of the activity (see above).It applies to all subsets by default.
+1. アクティビティの「**[!UICONTROL 一般]**」タブでフィルタリングディメンションを定義します（上の節を参照）。これは、デフォルトですべてのサブセットに適用されます。
 
    ![](assets/wf_split_edit_filtering.png)
 
-1. 必要に応じて、各サブセットで個別にフィルタリングディメンションを変更できます。これにより、同じ 1 つの分割アクティビティを使用して、ゴールドカード所有者のセットを １ つと、最新のニュースレター内でクリックした受信者のセットを 1 つ、過去 30 日間に店舗で購入をおこなった 18 歳から 25 歳の人々のセットを 1 つ作成できます。これを行うには、このオプションを選択し **[!UICONTROL Use a specific filtering dimension]** 、データフィルターコンテキストを選択します。
+1. 必要に応じて、各サブセットで個別にフィルタリングディメンションを変更できます。これにより、同じ 1 つの分割アクティビティを使用して、ゴールドカード所有者のセットを １ つと、最新のニュースレター内でクリックした受信者のセットを 1 つ、過去 30 日間に店舗で購入をおこなった 18 歳から 25 歳の人々のセットを 1 つ作成できます。それには、「**[!UICONTROL 特定のフィルタリングディメンションを使用]**」オプションを選択して、データのフィルターのコンテキストを選択します。
 
    ![](assets/wf_split_change_dimension.png)
 
    >[!NOTE]
    >
-   >**Federated Data Access** オプションを購入している場合、外部データベース内に含まれる情報に基づいて、サブセットを作成できます。To do this, select the schema of the external table in the **[!UICONTROL Targeting dimension]** field. For more on this, refer to [Accessing an external database (FDA)](../../workflow/using/accessing-an-external-database--fda-.md).
+   >**Federated Data Access** オプションを購入している場合、外部データベース内に含まれる情報に基づいて、サブセットを作成できます。それには「**[!UICONTROL ターゲティングディメンション]**」フィールド内で、外部テーブルのスキーマを選択します。詳しくは、[外部データベースへのアクセス（FDA）](../../workflow/using/accessing-an-external-database--fda-.md)を参照してください。
 
 サブセットが作成されたら、分割アクティビティは、デフォルトでサブセットと同数の出力トランジションを表示します。
 
 ![](assets/wf_split_multi_outputs.png)
 
-すべてのサブセットを、1 つの出力トランジションにグループ化できます。この場合、それぞれのサブセットへのリンクは、セグメントコード内に表示されます。To do this, select the **[!UICONTROL Generate all subsets in the same table]** option.
+すべてのサブセットを、1 つの出力トランジションにグループ化できます。この場合、それぞれのサブセットへのリンクは、セグメントコード内に表示されます。それには、「**[!UICONTROL 同じテーブルにすべてのサブセットを生成]**」オプションを選択します。
 
 ![](assets/wf_split_select_option_single_output.png)
 
@@ -214,7 +214,7 @@ The **[!UICONTROL Split]** activity is a standard activity which lets you create
 
 ![](assets/wf_split_single_output.png)
 
-Subsets can also be created using the **[!UICONTROL Cells]** activity. For more on this, refer to the [Cells](../../workflow/using/cells.md) section.
+サブセットは、**[!UICONTROL セル]**&#x200B;アクティビティを使用して作成することもできます。詳しくは、[セル](../../workflow/using/cells.md)の節を参照してください。
 
 ### ターゲット済みのデータの使用 {#using-targeted-data}
 
@@ -222,15 +222,15 @@ Subsets can also be created using the **[!UICONTROL Cells]** activity. For more 
 
 * 各種ワークフローステージで、データ操作の後でデータベース内のデータを更新できます。
 
-   詳しくは、「データを更新 [する](../../workflow/using/update-data.md)」を参照。
+   詳しくは、[データを更新](../../workflow/using/update-data.md)を参照してください。
 
 * さらに、既存のリストのコンテンツを更新できます。
 
-   For more on this, refer to [List update](../../workflow/using/list-update.md).
+   詳しくは、[リストの更新](../../workflow/using/list-update.md)を参照してください。
 
 * ワークフロー内で直接、配信を準備または開始できます。
 
-   詳しくは、「配信」、「配信制御 [」](../../workflow/using/delivery.md)、「連 [続配信](../../workflow/using/delivery-control.md)[」を参照](../../workflow/using/continuous-delivery.md)してください。
+   詳しくは、[配信](../../workflow/using/delivery.md)、[配信コントロール](../../workflow/using/delivery-control.md)および[連続配信](../../workflow/using/continuous-delivery.md)を参照してください。
 
 ## データ管理 {#data-management}
 
@@ -242,9 +242,9 @@ Adobe Campaign では、より効率的で柔軟なツールを提供するこ�
 
 これらの操作を実装するために、Adobe Campaign は以下を提供します。
 
-* データ収集アクティビティ： [File transfer](../../workflow/using/file-transfer.md), [Data loading (file)](../../workflow/using/data-loading--file-.md), Data loading (RDBMS) [,](../../workflow/using/data-loading--rdbms-.md)Update data [for](../../workflow/using/update-data.md)Update Data Loading データ収集の最初の手順では、その他のアクティビティ内で処理するためにデータを準備します。ワークフローを正確に実行し、予測した結果が確実に得られるようにするには、複数のパラメーターを監視する必要がります。例えば、データをインポートする場合、データのプライマリキー（Pkey）は、レコードごとに一意である必要があります。
-* ターゲットアクティビティがデータ管理オプションで強化されました。 [Query](../../workflow/using/query.md), [Union](../../workflow/using/union.md), [Intersection](../../workflow/using/intersection.md), [Split](../../workflow/using/split.md)Split Deplit Split Detar これにより、データの紐付けが可能な場合、様々なターゲティングディメンションから和集合または積集合を設定できます。
-* データ変換アクティビティ：エンリッ [チ](../../workflow/using/enrichment.md)、デ [ィメンション](../../workflow/using/change-dimension.md)。
+* データ収集アクティビティは、[ファイル転送](../../workflow/using/file-transfer.md)、[データ読み込み（ファイル）](../../workflow/using/data-loading--file-.md)、[データ読み込み（RDBMS）](../../workflow/using/data-loading--rdbms-.md)、[データ更新](../../workflow/using/update-data.md)です。データ収集の最初の手順では、その他のアクティビティ内で処理するためにデータを準備します。ワークフローを正確に実行し、予測した結果が確実に得られるようにするには、複数のパラメーターを監視する必要がります。例えば、データをインポートする場合、データのプライマリキー（Pkey）は、レコードごとに一意である必要があります。
+* ターゲティングアクティビティを強化するデータ管理オプションは、[クエリ](../../workflow/using/query.md)、[和集合](../../workflow/using/union.md)、[積集合](../../workflow/using/intersection.md)、[分割](../../workflow/using/split.md)です。これにより、データの紐付けが可能な場合、様々なターゲティングディメンションから和集合または積集合を設定できます。
+* データ変換アクティビティは、[エンリッチメント](../../workflow/using/enrichment.md)、[ディメンションを変更](../../workflow/using/change-dimension.md)です。
 
 >[!CAUTION]
 >
@@ -254,11 +254,11 @@ Adobe Campaign では、より効率的で柔軟なツールを提供するこ�
 
 ### データのエンリッチメントと変更 {#enriching-and-modifying-data}
 
-ターゲティングディメンションに加えて、フィルタリングディメンションでも、収集したデータの特性を指定できます。詳しくは、ディメンシ [ョンのターゲット設定とフィルターを参照してくださ](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions)い。
+ターゲティングディメンションに加えて、フィルタリングディメンションでも、収集したデータの特性を指定できます。詳しくは、[ターゲティングとフィルタリングディメンション](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions)を参照してください。
 
-識別され、収集されたデータに対して、ターゲットの構築を最適化するために、エンリッチメントや集計、操作をおこなうことができます。To do this, in addition to the data manipulation activities detailed in the [Segmenting data](#segmenting-data) section, use the following:
+識別され、収集されたデータに対して、ターゲットの構築を最適化するために、エンリッチメントや集計、操作をおこなうことができます。それには、[データのセグメント化](#segmenting-data)の節で詳述する各種データ操作アクティビティに加えて、以下を使用します。
 
-* The **[!UICONTROL Enrichment]** activity lets you momentarily add columns to a schema, as well as add information to certain elements. It is detailed in the [Enrichment](../../workflow/using/enrichment.md) section of the repository of activities.
-* The **[!UICONTROL Edit schema]** activity lets you modify the structure of a schema. It is detailed in the [Edit schema](../../workflow/using/edit-schema.md) section of the repository of activities.
-* The **[!UICONTROL Change dimension]** activity lets you change the targeting dimension during the target construction cycle. It is detailed in the [Change dimension](../../workflow/using/change-dimension.md) section.
+* 「**[!UICONTROL エンリッチメント]**」アクティビティを使用して、スキーマに即座にコラムを追加したり、特定の要素に情報を追加できます。詳しくは、アクティビティのリポジトリの[エンリッチメント](../../workflow/using/enrichment.md)の節で説明しています。
+* **[!UICONTROL スキーマを編集]**&#x200B;アクティビティを使用して、スキーマの構造を変更できます。詳しくは、アクティビティのリポジトリの[スキーマを編集](../../workflow/using/edit-schema.md)の節で説明しています。
+* 「**[!UICONTROL ディメンションを変更]**」アクティビティを使用して、ターゲットの構築サイクル中にターゲティングディメンションを変更できます。詳しくは、[ディメンションを変更](../../workflow/using/change-dimension.md)の節で説明しています。
 

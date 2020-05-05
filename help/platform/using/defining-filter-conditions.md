@@ -14,7 +14,7 @@ discoiquuid: 8e575da0-c51a-4106-a826-3e1771e63649
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a0698ad55afb391bdc652a00b43b20df6fb9851b
 
 ---
@@ -35,7 +35,7 @@ source-git-commit: a0698ad55afb391bdc652a00b43b20df6fb9851b
   <tr> 
    <th> 演算子<br /> </th> 
    <th> 目的<br /> </th> 
-   <th> 例 ：<br /> </th> 
+   <th> 例<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -80,7 +80,7 @@ source-git-commit: a0698ad55afb391bdc652a00b43b20df6fb9851b
    <td> <strong>アカウント番号（@account）が「20」で始まらない</strong>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">次を含む</span><br /> </td> 
+   <td> <span class="uicontrol">次を含む</span> <br /> </td> 
    <td> 入力された値を含む結果を返します。<br /> </td> 
    <td> <strong>E メールドメイン（@domain）が「mail」を含む</strong>は、「mail」を含むすべてのドメイン名を返します。したがって、「gmail.com」ドメインも返されます。<br /> </td> 
   </tr> 
@@ -90,14 +90,14 @@ source-git-commit: a0698ad55afb391bdc652a00b43b20df6fb9851b
    <td> <strong>E メールドメイン（@domain）が「vo」を含まない</strong>。この場合、「vo」を含むドメイン名は返されません。結果には「Voila.jp」ドメイン名は表示されません。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">いいね</span> ! <br /> </td> 
+   <td> <span class="uicontrol">次に類似</span> <br /> </td> 
    <td> 「<span class="uicontrol">次に類似</span>」は、「<span class="uicontrol">次を含む</span>」演算子と非常によく似ています。値に <span class="uicontrol">%</span> ワイルドカード文字を挿入できます。<br /> </td> 
-   <td> <strong>姓（@lastName）が「Jon%s」に類似している</strong>。ここでは、オペレーターが「AB」と「345」の間の欠落している英数字を忘れたので、ワイルドカード文字が「ABS2345」という番号を検索するための「ジョーカー」として使用されています。<br /> </td> 
+   <td> <strong>姓（@lastName）が「Jon%s」に類似している</strong>。ここでは、オペレーターが「n」と「s」の間の欠落している英数字を忘れたので、ワイルドカード文字が「Jones」という名前を検索するための「ジョーカー」として使用されています。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">次に類似しない</span> <br /> </td> 
    <td> 「<span class="uicontrol">次に類似</span>」と似ています。入力した値を収集しないようにすることができます。この演算子でも、入力した値に <span class="uicontrol">％</span> ワイルドカード文字が含まれている必要があります。<br /> </td> 
-   <td> <strong>姓（@lastName）が「Smi%h」に類似していない</strong>。この場合、アカウント番号が「QR%789」の受信者は返されません。<br /> </td> 
+   <td> <strong>姓（@lastName）が「Smi%h」に類似していない</strong>。この場合、姓が「Smi%h」の受信者は返されません。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">空である</span> <br /> </td> 
@@ -112,7 +112,7 @@ source-git-commit: a0698ad55afb391bdc652a00b43b20df6fb9851b
   <tr> 
    <td> <span class="uicontrol">次に含まれる</span> <br /> </td> 
    <td> 指定された値に含まれる結果を返します。これらの値はコンマで区切る必要があります。<br /> </td> 
-   <td> <strong>生年月日(@birthDate)は、1979年12月10日、1984年12月10日に含まれ、これらの日付の間に生まれた受信者が返されます</strong>。 <br /> </td> 
+   <td> <strong>生年月日（@birthDate）が「1979/12/10, 1984/12/10」に含まれる</strong>は、これらの日付の間に生まれた受信者を返します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">次に含まれない</span> <br /> </td> 
@@ -126,22 +126,22 @@ source-git-commit: a0698ad55afb391bdc652a00b43b20df6fb9851b
 
 複数のフィルター条件を使用するクエリでは、条件間のリンクを定義する必要があります。次の 3 つのリンクが使用可能です。
 
-* **[!UICONTROL And]** 2つのフィルター条件を組み合わせることができます。
-* **[!UICONTROL Or]** 代替案を提供する
-* **[!UICONTROL Except]** 例外を定義できます。
+* 「**[!UICONTROL および]**」では、2 つのフィルター条件を組み合わせることができます。
+* 「**[!UICONTROL または]**」では、別の選択肢を指定できます。
+* 「**[!UICONTROL 例外]**」では、例外を定義できます。
 
-Click **[!UICONTROL And]** (offered by default) and choose from the drop-down list.
+デフォルトで表示されている「**[!UICONTROL および]**」をクリックし、ドロップダウンリストから選択します。
 
 ![](assets/query_condition_modif_01.png)
 
-* **[!UICONTROL And]**:条件を追加し、オーバーフィルターを有効にします。
-* **[!UICONTROL Or]**:条件を追加し、オーバーフィルターを有効にします。
+* **[!UICONTROL および]**：条件を追加し、オーバーフィルターが可能です。
+* **[!UICONTROL または]**：条件を追加し、オーバーフィルターが可能です。
 
    次の例では、E メールドメインに「orange.co.jp」が含まれているか、郵便番号が「123」で始まる受信者を検索できます。
 
    ![](assets/query_condition_modif_02.png)
 
-* **[!UICONTROL Except]**:2つのフィルターがあり、最初のフィルターが値を返さない場合、このタイプのリンクは例外を作成します。
+* **[!UICONTROL 例外]**：2 つのフィルターがあり、最初のフィルターで値が返されない場合、このタイプのリンクでは例外が作成されます。
 
    次の例では、E メールドメインに「orange.co.jp」が含まれている受信者が返されますが、受信者の姓が「田中」である場合を除きます。
 
@@ -162,33 +162,33 @@ Click **[!UICONTROL And]** (offered by default) and choose from the drop-down li
 
 * 上下矢印を使用して、条件を移動することで実行順序を変更できます。
 
-この例では、矢印を使用して括弧レベルを削除する方法を示します。Start from the following filtering condition: **[!UICONTROL City equal to London OR gender equal to male and mobile not indicated OR account # starts with "95" and company name starts with "A"]**.
+この例では、矢印を使用して括弧レベルを削除する方法を示します。まず、次のフィルター条件を作成します。**[!UICONTROL 市区町村が横浜市と等しい、または性別が男性と等しい、およびモバイルが指定されていない、またはアカウント番号が「95」で始まる、および会社名が「A」で始まる]**。
 
-フィルタリング条件にカーソルを **[!UICONTROL Gender (@gender) equal to Male]** 合わせ、矢印をクリック **[!UICONTROL Remove a parenthesis level]** します。
+**[!UICONTROL 性別（@gender）が男性と等しい]**&#x200B;フィルター条件にカーソルを置き、**[!UICONTROL 括弧レベルを削除]**&#x200B;矢印をクリックします。
 
 ![](assets/query_editor_nveau_32.png)
 
-括弧 **[!UICONTROL Gender (@gender) equal to Male]** の中から条件が取り出されました。 この条件は、「市区町村が横浜市と等しい」条件と同じレベルに移動しました。These conditions are linked together (**[!UICONTROL And]**).
+「**[!UICONTROL 性別（@gender）が男性と等しい]**」条件が括弧の外に出されます。この条件は、「市区町村が横浜市と等しい」条件と同じレベルに移動しました。これらの条件は、「**[!UICONTROL および]**」でリンクされます。
 
 ## 抽出するデータの選択 {#selecting-data-to-extract}
 
-使用可能フィールドはテーブルごとに異なります。All fields are stored in a main node known as the **[!UICONTROL Main element]**. 次の例では、使用可能フィールドは受信者テーブルにあります。フィールドは常にアルファベット順に表示されます。
+使用可能フィールドはテーブルごとに異なります。すべてのフィールドは、**[!UICONTROL メイン要素]**&#x200B;と呼ばれるメインノードに保存されます。次の例では、使用可能フィールドは受信者テーブルにあります。フィールドは常にアルファベット順に表示されます。
 
-選択したフィールドの詳細がウィンドウの下部に表示されます。例えば、フィールド **[!UICONTROL Email domain]** はaで、拡張 **[!UICONTROL Calculated SQL field]** 子はがです **[!UICONTROL (@domain)]**。
+選択したフィールドの詳細がウィンドウの下部に表示されます。例えば、「**[!UICONTROL E メールドメイン]**」フィールドは「**[!UICONTROL SQL 計算フィールド]**」であり、拡張は&#x200B;**[!UICONTROL （@domain）]**&#x200B;です。
 
 ![](assets/query_editor_nveau_59.png)
 
 >[!NOTE]
 >
->Use the **[!UICONTROL Search]** tool to find an available field.
+>使用可能フィールドを検索するには、**[!UICONTROL 検索]**&#x200B;ツールを使用します。
 
-出力列に追加するには、使用可能フィールドをダブルクリックします。At the end of the query, each selected field creates a column in the **[!UICONTROL Data preview]** window.
+出力列に追加するには、使用可能フィールドをダブルクリックします。クエリの最後に、選択した各フィールドに&#x200B;**[!UICONTROL データのプレビュー]**&#x200B;ウィンドウで列が作成されます。
 
 ![](assets/query_editor_nveau_01.png)
 
-詳細フィールドはデフォルトでは表示されません。Click **[!UICONTROL Display advanced fields]** in the bottom right-hand corner of the available fields to display everything. 前のビューに戻るには、再度クリックします。
+詳細フィールドはデフォルトでは表示されません。すべてを表示するには、使用可能フィールドの右下隅で&#x200B;**[!UICONTROL 詳細フィールドを表示]**&#x200B;をクリックします。前のビューに戻るには、再度クリックします。
 
-例えば、受信者テーブルの詳細フィールドは **Boolean 1**、 **[!UICONTROL Boolean 2]**、 **[!UICONTROL Boolean 3]**、 **[!UICONTROL Foreign key of "Folder" link]**&#x200B;などです。
+例えば、受信者テーブルで、詳細フィールドは「**ブール値 1**」、「**[!UICONTROL ブール値 2]**」、「**[!UICONTROL ブール値 3]**」、「**[!UICONTROL 「フォルダー」リンクの外部キー]**」などです。
 
 次の例は、受信者テーブルの使用可能フィールドを示しています。
 
@@ -212,7 +212,7 @@ Click **[!UICONTROL And]** (offered by default) and choose from the drop-down li
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_48.png" /> </td> 
-   <td> プライマリキー. この SQL フィールドによって、テーブル内のレコードが識別されます。<br /> </td> 
+   <td> プライマリキー.この SQL フィールドによって、テーブル内のレコードが識別されます。<br /> </td> 
    <td> 識別子受信者はプライマリキーであり、識別子は定義ごとに一意です。<br /> </td> 
   </tr> 
   <tr> 
@@ -232,8 +232,8 @@ Click **[!UICONTROL And]** (offered by default) and choose from the drop-down li
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_50.png" /> </td> 
-   <td> Indexed SQL field. <br /> </td> 
-   <td> Full name, ISO code, etc. <br /> </td> 
+   <td> インデックス付きの SQL フィールド。<br /> </td> 
+   <td> 姓名、ISO コードなど。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -245,14 +245,14 @@ Click **[!UICONTROL And]** (offered by default) and choose from the drop-down li
   <tr> 
    <th> アイコン<br /> </th> 
    <th> 説明<br /> </th> 
-   <th> 例 ：<br /> </th> 
+   <th> 例<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_51.png" /> </td> 
    <td> 特定のテーブルへのリンク。これらは 1 対 1 タイプの関連付けと一致します。1 つのソーステーブルは、1 つのターゲットテーブルにのみ一致します。例えば、1 人の受信者は 1 つの国にのみリンクすることができます。<br /> </td> 
-   <td> Folder, State, Country, etc. <br /> </td> 
+   <td> フォルダー、都道府県、国など。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_52.png" /> </td> 
@@ -264,50 +264,50 @@ Click **[!UICONTROL And]** (offered by default) and choose from the drop-down li
 
 >[!NOTE]
 >
->* Use the **[!UICONTROL Add]** button (above the side icon bar) to add an output column in which we wish to edit the expression. For more on editing an expression, refer to [Building expressions](#building-expressions).
+>* 式を編集する出力列を追加するには、**[!UICONTROL 追加]**&#x200B;ボタン（サイドアイコンバーの上部）を使用します。式の編集について詳しくは、[式の作成](#building-expressions)を参照してください。
 >* 出力列を削除するには、赤い「x」（**削除**）をクリックします。
 >* 出力列の順序を変更するには、矢印を使用します。
->* The **[!UICONTROL Distribution of values]** serves as a way to view the distribution of the values of the field selected (for example, the distributions linked to recipient towns, recipient languages, etc.).
+>* **[!UICONTROL 値の配分]**&#x200B;は、選択したフィールドの値の配分を表示する方法として機能します（例えば、受信者の市区町村、受信者の言語などにリンクした配信）。
 
 
 ## 計算フィールドの作成 {#creating-calculated-fields}
 
-必要に応じて、データフォーマット中に列を追加します。計算フィールドによって、データのプレビューセクションに列が追加されます。クリック **[!UICONTROL Add a calculated field]**.
+必要に応じて、データフォーマット中に列を追加します。計算フィールドによって、データのプレビューセクションに列が追加されます。**[!UICONTROL 計算フィールドを追加]**&#x200B;をクリックします。
 
 ![](assets/query_editor_nveau_43.png)
 
 次の 4 つのタイプの計算フィールドがあります。
 
-* **[!UICONTROL Fixed string]**:文字列を追加できます。
+* **[!UICONTROL 固定文字列]**：一連の文字列を追加できます。
 
    ![](assets/query_editor_nveau_60.png)
 
-* **[!UICONTROL String with JavaScript tags]**:計算フィールドの値は、文字の文字列とJavaScriptディレクティブを組み合わせた値です。
+* **[!UICONTROL JavaScript タグを含む文字列]**：一連の文字列と JavaScript ディレクティブを組み合わせた計算フィールドの値。
 
    ![](assets/query_editor_nveau_61.png)
 
-* **[!UICONTROL JavaScript expression]**:計算済みフィールドの値は、JavaScript関数の評価結果です。 返される値はタイプ指定できます（数値、日付など）。
+* **[!UICONTROL JavaScript 式]**：計算フィールドの値は JavaScript 関数評価の結果です。返される値はタイプ指定できます（数値、日付など）。
 
    ![](assets/query_editor_nveau_62.png)
 
-* **[!UICONTROL Enumerations]**:このタイプのフィールドでは、新しい列の出力列の1つの内容を使用または変更できます。
+* **[!UICONTROL 列挙]**：このタイプのフィールドでは、いずれかの出力列の内容を新しい列で使用または変更できます。
 
    列のソース値を使用し、宛先値を割り当てることができます。この宛先値は新しい出力列に表示されます。
 
-   An example of adding calculated field type **[!UICONTROL Enumerations]** is available, refer to [this section](../../workflow/using/adding-enumeration-type-calculated-field.md).
+   「**[!UICONTROL 列挙]**」タイプ計算フィールドを追加する例は、[この節](../../workflow/using/adding-enumeration-type-calculated-field.md)で確認できます。
 
    ![](assets/query_editor_nveau_63.png)
 
-   The **[!UICONTROL Enumerations]** type calculated field can include 4 conditions:
+   「**[!UICONTROL 列挙]**」タイプ計算フィールドには、次の 4 つの条件を含めることができます。
 
-   * **[!UICONTROL Keep the source value]** ソース値を変更せずにターゲットに戻します。
-   * **[!UICONTROL Use the following value]** 未定義のソース値に対するデフォルトの宛先値を入力できます。
-   * **[!UICONTROL Generate a warning and continue]** ソース値を変更できないことをユーザーに警告します。
-   * **[!UICONTROL Generate an error and reject the line]** 行の計算とインポートを禁止します。
+   * 「**[!UICONTROL ソースの値を保持]**」では、ソース値が変更されずにターゲットに復元されます。
+   * 「**[!UICONTROL 次の値を使用]**」では、定義されていないソース値に対してデフォルトの宛先値を入力できます。
+   * 「**[!UICONTROL 警告を生成して続行]**」では、ソース値を変更できないことがユーザーに警告されます。
+   * 「**[!UICONTROL エラーを生成してラインを却下]**」では、ラインの計算およびインポートが回避されます。
 
-をクリック **[!UICONTROL Detail of calculated field]** して、挿入されたフィールドの詳細を表示します。
+挿入したフィールドの詳細を表示するには、**[!UICONTROL 計算済みフィールドの詳細]**&#x200B;をクリックします。
 
-この計算済みフィールドを削除するには、十字をクリック **[!UICONTROL Remove the calculated field]** します。
+この計算フィールドを削除するには、**[!UICONTROL 計算フィールドを削除]**&#x200B;のバツ印をクリックします。
 
 ![](assets/query_editor_nveau_58.png)
 
@@ -319,11 +319,11 @@ Click **[!UICONTROL And]** (offered by default) and choose from the drop-down li
 
 次の手順に従います。
 
-1. ウィンドウ **[!UICONTROL Add]** 内をクリック **[!UICONTROL Data to extract]** します。 In the **[!UICONTROL Formula type]** window, select a type of formula to enter the expression.
+1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで「**[!UICONTROL 追加]**」をクリックします。**[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウで、式を入力する数式のタイプを選択します。
 
-   There are several types of formulas available: **[!UICONTROL Field only]**, **[!UICONTROL Aggregate]**, **[!UICONTROL Expression]**.
+   「**[!UICONTROL フィールドのみ]**」、「**[!UICONTROL 集計]**」、「**[!UICONTROL 式]**」など、様々なタイプの数式を使用できます。
 
-   とを選 **[!UICONTROL Process on an aggregate function]**&#x200B;択します **[!UICONTROL Count]**。 クリック **[!UICONTROL Next]**.
+   「**[!UICONTROL 集計関数のプロセス]**」および「**[!UICONTROL カウント]**」を選択します。「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/query_editor_nveau_54.png)
 
@@ -331,30 +331,30 @@ Click **[!UICONTROL And]** (offered by default) and choose from the drop-down li
 
    ![](assets/query_editor_nveau_88.png)
 
-Here is a detailed view of the choices available in the **[!UICONTROL Formula types]** window:
+次に、**[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウで使用可能な選択肢の詳細な表示を示します。
 
 ![](assets/query_editor_nveau_05.png)
 
-1. **[!UICONTROL Field only]** ウィンドウに戻り **[!UICONTROL Field to select]** ます。
-1. **[!UICONTROL Aggregate (Process on an aggregate function)]**. 使用する集計の例は次のとおりです。
+1. 「**[!UICONTROL 「フィールドのみ]****[!UICONTROL 」では、選択するフィールドウィンドウに戻ることができます。]**
+1. 「**[!UICONTROL 集計]**」（「集計関数のプロセス」）。使用する集計の例は次のとおりです。
 
-   * **[!UICONTROL Count]** 主キー数を実行できます。
-   * **[!UICONTROL Sum]** 顧客が1年間に行ったすべての購入を合計できます。
-   * **[!UICONTROL Maximum value]** 最も「n」個の製品を購入した顧客を見つけることができます。
-   * **[!UICONTROL Minimum value]** 顧客を並べ替えて、最近オファーを購読している顧客を探すことができます。
-   * **[!UICONTROL Average]**. この関数では、受信者の平均年齢を計算できます。
+   * 「**[!UICONTROL カウント]**」では、プライマリキーカウントを実行できます。
+   * 「**[!UICONTROL 合計]**」では、顧客による 1 年間のすべての購入を合計できます。
+   * 「**[!UICONTROL 最大値]**」では、「n」製品を最も多く購入した顧客を検索できます。
+   * 「**[!UICONTROL 最小値]**」では、顧客を並べ替え、最近オファーを購読した顧客を検索できます。
+   * 「**[!UICONTROL 平均]**」。この関数では、受信者の平均年齢を計算できます。
 
-      The **[!UICONTROL Distinct]** box lets you recover unique and non-zero values of a column. 例えば、受信者のすべてのトラッキングログを収集し、すべて同じ受信者に関連するトラッキングログを値 1 に変更できます。
+      「**[!UICONTROL ユニーク]**」ボックスでは、列の一意のゼロ以外の値を収集できます。例えば、受信者のすべてのトラッキングログを収集し、すべて同じ受信者に関連するトラッキングログを値 1 に変更できます。
 
-1. **[!UICONTROL Expression]** ウィンドウが開 **[!UICONTROL Edit the expression]** きます。 これにより、数字が非常に多く、入力エラーを起こしやすい電話番号を検出できます。
+1. 「**[!UICONTROL 式]**」では、**[!UICONTROL 式を編集]**&#x200B;ウィンドウを開きます。これにより、数字が非常に多く、入力エラーを起こしやすい電話番号を検出できます。
 
    ![](assets/query_editor_nveau_71.png)
 
-   For a list of all available functions, refer to [List of functions](#list-of-functions).
+   使用可能なすべての関数のリストについては、[関数のリスト](#list-of-functions)を参照してください。
 
 ## 関数のリスト {#list-of-functions}
 
-If an **[!UICONTROL Expression]** type formula is chosen, you will be taken to the &quot;edit the expression&quot; window. Various categories of functions can be associated to the available fields: **[!UICONTROL Aggregates]**, **[!UICONTROL String]**, **[!UICONTROL Date]**, **[!UICONTROL Numerical]**, **[!UICONTROL Currency]**, **[!UICONTROL Geomarketing]**, **[!UICONTROL Windowing function]** and **[!UICONTROL Others]**.
+「**[!UICONTROL 式]**」タイプの数式を選択すると、式を編集ウィンドウが表示されます。「**[!UICONTROL 集計]**」、「**[!UICONTROL 文字列]**」、「**[!UICONTROL 日付]**」、「**[!UICONTROL 数値]**」、「**[!UICONTROL 通貨]**」、「**[!UICONTROL ジオマーケティング]**」、「**[!UICONTROL ウィンドウイング関数]**」、「**[!UICONTROL その他]**」など、様々なカテゴリの関数を使用可能フィールドに関連付けることができます。
 
 式エディターは次のように表示されます。
 
@@ -461,7 +461,7 @@ If an **[!UICONTROL Expression]** type formula is chosen, you will be taken to t
   <tr> 
    <td> <strong>IsMemoNull</strong><br /> </td> 
    <td> パラメーターとして渡されたメモが null かどうかを示します<br /> </td> 
-   <td> IsMemoNull（&lt;メモ&gt;）<br /></td> 
+   <td> IsMemoNull(&lt;メモ&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
@@ -471,12 +471,12 @@ If an **[!UICONTROL Expression]** type formula is chosen, you will be taken to t
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
    <td> パラメーターとして渡された文字列を連結します。必要に応じて、文字列間にスペースを追加します<br /> </td> 
-   <td> JuxtWords3（&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;）<br /></td>  
+   <td> JuxtWords3(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> 左側の完成した文字列を返します<br /> </td> 
-   <td> LPad（&lt;文字列&gt;, &lt;数値&gt;, &lt;文字&gt;）<br /></td> 
+   <td> LPad(&lt;文字列&gt;, &lt;数値&gt;, &lt;文字&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
@@ -536,7 +536,7 @@ If an **[!UICONTROL Expression]** type formula is chosen, you will be taken to t
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
    <td> 数値を文字列に変換します<br /> </td> 
-   <td> ToString（&lt;数値&gt;, &lt;数値&gt;）<br /> </td>  
+   <td> ToString(&lt;数値&gt;, &lt;数値&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Upper</strong><br /> </td> 
@@ -748,7 +748,7 @@ If an **[!UICONTROL Expression]** type formula is chosen, you will be taken to t
   <tr> 
    <td> <strong>TruncTime</strong><br /> </td> 
    <td> 時刻部分を最も近い秒に丸めます<br /> </td> 
-   <td> TruncTime（e&lt;日付&gt;, &lt;秒数&gt;）<br /> </td>  
+   <td> TruncTime(&lt;日付&gt;, &lt;秒数&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
@@ -790,7 +790,7 @@ If an **[!UICONTROL Expression]** type formula is chosen, you will be taken to t
 
 >[!NOTE]
 >
->Note that the **Dateonly** function takes into account the server&#39;s timezone, not the operator&#39;s.
+>**Dateonly** 関数はオペレーターのタイムゾーンではなく、サーバーのタイムゾーンを考慮することに注意してください。
 
 **数値**
 
@@ -829,7 +829,7 @@ If an **[!UICONTROL Expression]** type formula is chosen, you will be taken to t
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
    <td> 整数の割り算 n1 ÷ n2 の余りを返します<br /> </td> 
-   <td> Mod（&lt;数値1&gt;, &lt;数値2&gt;）<br /> </td>  
+   <td> Mod(&lt;数値 1&gt;, &lt;数値 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Percent</strong><br /> </td> 
@@ -844,7 +844,7 @@ If an **[!UICONTROL Expression]** type formula is chosen, you will be taken to t
   <tr> 
    <td> <strong>Round</strong><br /> </td> 
    <td> 数値を n 桁に丸めます<br /> </td> 
-   <td> TruncTime(&lt;数値&gt;, &lt;小数点以下の桁数&gt;)<br /> </td>  
+   <td> Round(&lt;数値&gt;, &lt;小数点以下の桁数&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Sign</strong><br /> </td> 
@@ -945,7 +945,7 @@ If an **[!UICONTROL Expression]** type formula is chosen, you will be taken to t
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 値 1 を返します（case 関数のパラメーターとしてのみ使用できます）<br /> </td> 
-   <td> Else（&lt;値1&gt;, &lt;値2&gt;）<br /> </td>  
+   <td> Else(&lt;値 1&gt;, &lt;値 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 

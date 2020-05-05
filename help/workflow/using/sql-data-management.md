@@ -14,7 +14,7 @@ discoiquuid: 18d6f5e1-308f-4080-b7c4-ebf836f74842
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 ---
@@ -30,12 +30,12 @@ source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
 * このアクティビティは、リモートデータソースに対してのみ使用できます。そのため、インスタンスに **[!UICONTROL FDA]**（Federated Data Access）パッケージをインストールする必要があります（[この節](../../platform/using/about-fda.md)を参照）。
 * アウトバウンドスキーマがデータベースに存在し、FDA データベースにリンクされている必要があります（データスキーマについて詳しくは、[この節](../../configuration/using/about-schema-reference.md)を参照）。
-* The operator executing the workflow must have the **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** named right. ネームド権限について詳しくは、[この節](../../platform/using/access-management.md#named-rights)を参照してください。
+* ワークフローを実行するオペレーターには、**[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** ネームド権限が必要です。ネームド権限について詳しくは、[この節](../../platform/using/access-management.md#named-rights)を参照してください。
 
 ## 「SQL データ管理」アクティビティの設定{#configuring-the-sql-data-management-activity}
 
-1. Specify the activity **[!UICONTROL Label]**.
-1. 使用するアカ **[!UICONTROL External account]** ウントを選択し、この外部アカウントにリ **[!UICONTROL Outbound schema]** ンクされているアカウントを選択します。
+1. アクティビティの「**[!UICONTROL ラベル]**」を指定します。
+1. 使用する&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を選択し、この外部アカウントにリンクする&#x200B;**[!UICONTROL アウトバウンドスキーマ]**&#x200B;を選択します。
 
    >[!CAUTION]
    >
@@ -47,7 +47,7 @@ source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
    >
    >SQL スクリプトが機能し、その参照（フィールド名など）がアウトバウンドスキーマに従っていることを確認するのは、SQL スクリプト作成者の責任です。
 
-   既存のSQLコードを読み込む場合は、このオプションを選択 **[!UICONTROL The SQL script is contained in an entity stored in the database]** します。 SQLスクリプトは/ **[!UICONTROL Administration]** /メニューで作成し、保存する必要が **[!UICONTROL Configuration]** あ **[!UICONTROL SQL scripts]** ります。
+   既存の SQL コードを読み込む場合は、「**[!UICONTROL データベースに格納されているエンティティに SQL スクリプトを含める]**」オプションを選択します。**[!UICONTROL 管理]**／**[!UICONTROL 設定]**／**[!UICONTROL SQL スクリプト]**&#x200B;メニューで SQL スクリプトを作成し、格納する必要があります。
 
    または、専用の領域に SQL スクリプトを入力するか、コピーして貼り付けます。
 
@@ -55,15 +55,15 @@ source-git-commit: 7bcf222f41c0e40368644b76197b07f2ded699f0
 
    このアクティビティでは、スクリプト内で次の変数を使用できます。
 
-   * **activity.tableName**:アウトバウンド作業テーブルのSQL名。
-   * **task.incomingTransitionByName(‘name’).tableName**:使用する着信トランジションによって保持される作業テーブルのSQL名（トランジションは名前で識別されます）。
+   * **activity.tableName**：アウトバウンド作業用テーブルの SQL 名
+   * **task.incomingTransitionByName(‘name’).tableName**：使用する受信トランジションによって実行される作業用テーブルの SQL 名（トランジションは名前で識別されます）
 
       >[!NOTE]
       >
-      >&#39;) 値は、トランジションプロパティの「**[!UICONTROL Name]**&#x200B;名前」フィールドに対応しています。
+      >(&#39;name&#39;) 値は、トランジションプロパティの「**[!UICONTROL 名前]**」フィールドに対応しています。
 
-1. If the SQL script already contains commands to create an outbound work table, unselect the **[!UICONTROL Automatically create work table]** option. 選択を解除しない場合、ワークフローが実行されると作業用テーブルが自動的に作成されます。
-1. 「**[!UICONTROL Ok]**」をクリックして、アクティビティの設定を確定します。
+1. アウトバウンド作業用テーブルを作成するコマンドが SQL スクリプトに既に含まれている場合は、「**[!UICONTROL 作業用テーブルを自動作成]**」オプションの選択を解除します。選択を解除しない場合、ワークフローが実行されると作業用テーブルが自動的に作成されます。
+1. 「**[!UICONTROL OK]**」をクリックして、アクティビティの設定を確定します。
 
 これでアクティビティが設定され、ワークフローで実行する準備が整いました。
 

@@ -14,7 +14,7 @@ discoiquuid: 36953eb5-3296-4796-9352-945121bbdc69
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 ---
@@ -24,23 +24,23 @@ source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
 
 Web フォームでは、独自の要件を満たすための設定やパーソナライズを完全におこなうことができます。パラメーターは、プロパティウィンドウで入力する必要があります。
 
-The properties window is accessible via the **[!UICONTROL Properties]** button in the toolbar of the Web form. このウィンドウを使用すると、Web フォームに特有の様々な設定にアクセスできます。一部の設定は、テンプレートの設定に由来することがあります。
+プロパティウィンドウは、Web フォームのツールバーにある「**[!UICONTROL プロパティ]**」ボタンを使用してアクセスできます。このウィンドウを使用すると、Web フォームに特有の様々な設定にアクセスできます。一部の設定は、テンプレートの設定に由来することがあります。
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 
 ## 全般的なフォームプロパティ {#overall-form-properties}
 
-In the **[!UICONTROL General]** tab of the properties window, you can modify the **Label** of the form. **内部名**&#x200B;は変更しないことを強くお勧めします。
+プロパティウィンドウの「**[!UICONTROL 一般]**」タブで、フォームの&#x200B;**ラベル**&#x200B;を修正できます。**内部名**&#x200B;は変更しないことを強くお勧めします。
 
 ![](assets/s_ncs_admin_survey_properties_general_tab.png)
 
-フォームテンプレートは、フォームの作成中に選択されます。後から変更することはできません。フォームテンプレートの作成と管理の詳細については、「Webフォームテンプ [レートの使用」を参照してくださ](../../web/using/using-a-web-form-template.md)い。
+フォームテンプレートは、フォームの作成中に選択されます。後から変更することはできません。フォームテンプレートの作成と管理について詳しくは、[Web フォームテンプレートの使用](../../web/using/using-a-web-form-template.md)を参照してください。
 
 ## フォームデータストレージ {#form-data-storage}
 
-Web フォームのフィールドは、デフォルトで、受信者テーブルに格納されます。You can change the table used by selecting a new table from the **[!UICONTROL Document type]** field. The **[!UICONTROL Zoom]** icon lets you view the content of the selected table.
+Web フォームのフィールドは、デフォルトで、受信者テーブルに格納されます。「**[!UICONTROL ドキュメントタイプ]**」フィールドから新しいテーブルを選択することで、使用するテーブルを変更できます。**[!UICONTROL ズーム]**&#x200B;アイコンを使用すると、選択したテーブルの内容を表示できます。
 
-デフォルトでは、回答はテーブルに保存され **[!UICONTROL Answer to a recipient form]** ます。
+デフォルトでは、回答は、**[!UICONTROL 受信者フォームへの回答]**&#x200B;テーブルに格納されます。
 
 ## エラーページの設定 {#setting-up-an-error-page}
 
@@ -52,19 +52,19 @@ Web フォームのフィールドは、デフォルトで、受信者テーブ�
 
 ![](assets/s_ncs_admin_survey_default_error_page.png)
 
-The content of the strings displayed is defined in the **[!UICONTROL Error page]** tab of the properties window. The **[!UICONTROL HTML]** tab displays the rendering and the **[!UICONTROL Texts]** tab lets you modify the text strings and add some text if necessary:
+表示される文字列の内容は、プロパティウィンドウの「**[!UICONTROL エラーページ]**」タブで定義されます。「**[!UICONTROL HTML]**」タブにレンダリングが表示され、「**[!UICONTROL テキスト]**」タブを使用して、テキスト文字列を修正し、必要に応じて一部のテキストを追加できます。
 
 ![](assets/s_ncs_admin_survey_error_page.png)
 
 ## フォームのローカライゼーション {#form-localization}
 
-The **[!UICONTROL Localization]** tab lets you select the design and display languages for the Web form.
+「**[!UICONTROL ローカライゼーション]**」タブを使用すると、Web フォームのデザインと表示言語を選択できます。
 
-See [Translating a web form](../../web/using/translating-a-web-form.md).
+[Web フォームの翻訳](../../web/using/translating-a-web-form.md)を参照してください。
 
 ## フォームのブラウジングとレンダリング {#form-browsing-and-rendering}
 
-The **[!UICONTROL Rendering]** tab lets you define the type of browsing between pages of the Web form and the rendering template used.
+「**[!UICONTROL レンダリング]**」タブを使用すると、Web フォームのページと使用するレンダリングテンプレートの間のブラウジングのタイプを定義できます。
 
 リンクまたはボタンを使用したナビゲートを選択できます。
 
@@ -72,47 +72,47 @@ The **[!UICONTROL Rendering]** tab lets you define the type of browsing between 
 
 ボタンは、デフォルトのナビゲーション要素です。次の操作を実行できます。
 
-* Approve the current page and display the next page by clicking **[!UICONTROL Next]**. このボタンは、最後を除くすべてのページに表示されます。
-* Display the previous page by clicking **[!UICONTROL Previous]**. このボタンは、最初を除くすべてのページに表示されます。
-* Save the form responses by clicking the **[!UICONTROL Approve]** button. このボタンは、最後のページにのみ表示されます。
+* 「**[!UICONTROL 次へ]**」をクリックすることで、現在のページを承認し、次のページを表示します。このボタンは、最後を除くすべてのページに表示されます。
+* 「**[!UICONTROL 前へ]**」をクリックすることで、前のページを表示します。このボタンは、最初を除くすべてのページに表示されます。
+* 「**[!UICONTROL 承認]**」ボタンをクリックすることで、回答フォームを保存します。このボタンは、最後のページにのみ表示されます。
 
 これらの要素は、各ページの下部に表示されます。位置は変更できます。これをおこなうには、スタイルシートを修正する必要があります。
 
 >[!NOTE]
 >
->It&#39;s possible to hide the **[!UICONTROL Previous]** button on some pages. これを行うには、関連ページに移動し、オプションをオンにし **[!UICONTROL Disallow returning to the previous page]** ます。 このオプションは、ページツリーのルートが選択されている場合にアクセスできます。
+>一部のページで「**[!UICONTROL 前へ]**」ボタンを非表示にすることができます。これをおこなうには、関連するページに移動し、「**[!UICONTROL 前のページに戻ることを許可しない]**」オプションをチェックします。このオプションは、ページツリーのルートが選択されている場合にアクセスできます。
 
-The **[!UICONTROL Template]** field of the **[!UICONTROL Rendering]** tab lets you select a theme from those available.
+「**[!UICONTROL レンダリング]**」タブの「**[!UICONTROL テンプレート]**」フィールドを使用すると、使用可能な中からテーマを選択できます。
 
-テーマはツリーのノ **[!UICONTROL Administration>Configuration>Form rendering]** ードに保存されます。 See [Selecting the form rendering template](../../web/using/form-rendering.md#selecting-the-form-rendering-template)
+テーマは、ツリーの&#x200B;**[!UICONTROL 管理／設定／フォームのレンダリング]**&#x200B;ノードに保存されます。[フォームレンダリングテンプレートの選択](../../web/using/form-rendering.md#selecting-the-form-rendering-template)を参照してください。
 
-プロパティウィンドウの下の部分にレンダリングのサンプルが表示されます。The **[!UICONTROL Edit link]** icon lets you view the configuration for the selected theme.
+プロパティウィンドウの下の部分にレンダリングのサンプルが表示されます。**[!UICONTROL リンクを編集]**&#x200B;アイコンを使用すると、選択したテーマの設定が表示されます。
 
 ![](assets/s_ncs_admin_survey_properties_render.png)
 
 ## フォームのテキスト {#texts-in-the-form}
 
-The **[!UICONTROL Page]** tab lets you define the content of the form header and footer. See [Defining headers and footers](../../web/using/form-rendering.md#defining-headers-and-footers).
+「**[!UICONTROL ページ]**」タブを使用すると、フォームヘッダーおよびフッターのコンテンツを定義できます。[ヘッダーとフッターの定義](../../web/using/form-rendering.md#defining-headers-and-footers)を参照してください。
 
-また、翻訳も管理できます。See [Translating a web form](../../web/using/translating-a-web-form.md).
+また、翻訳も管理できます。[Web フォームの翻訳](../../web/using/translating-a-web-form.md)を参照してください。
 
 ## フォームのアクセシビリティ {#accessibility-of-the-form}
 
-A Web form is accessible to users if it is **[!UICONTROL Online]** and if the current date is within its validity period. The status of the form is modified during the publication stage (see [Publishing a form](../../web/using/publishing-a-web-form.md#publishing-a-form)). The status is displayed in the **Project** section of the **[!UICONTROL General]** tab of the properties window.
+Web フォームは、**[!UICONTROL オンライン]**&#x200B;の状態で、現在の日付が有効期間内である場合に、ユーザーがアクセスできます。フォームのステータスは、パブリッシュステージ（[フォームのパブリッシュ](../../web/using/publishing-a-web-form.md#publishing-a-form)を参照）の間に修正できます。ステータスは、プロパティウィンドウの「**[!UICONTROL 一般]**」タブの「**プロジェクト**」セクションに表示されます。
 
-有効期間は日付から日付ま **[!UICONTROL Start]** で実行されます **[!UICONTROL End date]**。 これらのフィールドに日付が指定されていない場合、フォームは永続的に有効です。
+有効期間は、**[!UICONTROL 開始]**&#x200B;日から&#x200B;**[!UICONTROL 終了日]**&#x200B;までです。これらのフィールドに日付が指定されていない場合、フォームは永続的に有効です。
 
 ![](assets/s_ncs_admin_survey_properties_date.png)
 
 >[!NOTE]
 >
->フォームが閉じられて、結果として有効期限に到達しない場合または期限が切れた場合、または Adobe Campaign オペレーターによって閉じられた場合、ユーザーがアクセスしようとするとメッセージが表示されます。このメッセージは、をクリックしてパーソナライズできま **[!UICONTROL Personalize the message displayed if the form is closed...]**&#x200B;す。
+>フォームが閉じられて、結果として有効期限に到達しない場合または期限が切れた場合、または Adobe Campaign オペレーターによって閉じられた場合、ユーザーがアクセスしようとするとメッセージが表示されます。「**[!UICONTROL フォームが閉じられた場合に表示するメッセージをパーソナライズ]**」をクリックすることで、このメッセージをパーソナライズできます。
 
 ## フォームのアクセス制御 {#form-access-control}
 
 デフォルトでは、Web フォームへのアクセスは、匿名モードで実行されます。フォームにアクセスするすべてのオペレーターに WebApp オペレーター権限が割り当てられます。
 
-例えば、イントラネットサイトにフォームを配信する際に、ユーザーを認証するために、フォームの表示に対するアクセス制限を有効にできます。To do this, display the **[!UICONTROL Properties]** window of the concerned form and click the **[!UICONTROL Enable access control]** option, as shown below:
+例えば、イントラネットサイトにフォームを配信する際に、ユーザーを認証するために、フォームの表示に対するアクセス制限を有効にできます。これをおこなうには、次に示すように、関連するフォームの&#x200B;**[!UICONTROL プロパティ]**&#x200B;ウィンドウを表示して、「**[!UICONTROL アクセス制御を有効にする]**」オプションをクリックします。
 
 ![](assets/s_ncs_admin_survey_access_ctrl.png)
 
@@ -122,7 +122,7 @@ A Web form is accessible to users if it is **[!UICONTROL Online]** and if the cu
 
 ログインおよびパスワードは、Adobe Campaign オペレーターによって使用されるものです。詳しくは、[この節](../../platform/using/access-management.md)を参照してください。
 
-The **[!UICONTROL Use a specific account]** option lets you limit the read or write permission of the operator who accesses the form. ドロップダウンボックスを使用して、これらの権限の付与を担当するオペレーターまたはオペレーターグループを選択します。
+「**[!UICONTROL 特定のアカウントを使用]**」オプションを使用すると、フォームにアクセスするオペレーターの読み取りまたは書き込み権限を制限できます。ドロップダウンボックスを使用して、これらの権限の付与を担当するオペレーターまたはオペレーターグループを選択します。
 
 ![](assets/s_ncs_admin_survey_access_op_select.png)
 
@@ -139,9 +139,9 @@ The **[!UICONTROL Use a specific account]** option lets you limit the read or wr
 * **id** は、暗号化された識別子を示します。
 * **lang** は、表示言語を変更します。
 * **origin** は、回答者の接触チャネルを指定します。
-* **_uuid** は、パブリッシュ前のフォーム表示とエラートラッキングを有効にします。このパラメーターは、内部でのみ使用されます（作成およびデバッグ）。この URL を使用して Web フォームにアクセスすると、作成されたレコードはトラッキング（レポート）で考慮されません。The origin is forced to the **[!UICONTROL Adobe Campaign]** value.
+* **_uuid** は、パブリッシュ前のフォーム表示とエラートラッキングを有効にします。このパラメーターは、内部でのみ使用されます（作成およびデバッグ）。この URL を使用して Web フォームにアクセスすると、作成されたレコードはトラッキング（レポート）で考慮されません。origin は、強制的に **[!UICONTROL Adobe Campaign]** の値になります。
 
-   これは、**_preview** パラメーターまたは **_debug** と共に使用されます。
+   これは、**_preview** パラメーターや **_debug** と共に使用されます。
 
    **_preview** は、最後に保存されたバージョンを表示します。このパラメーターは、テストフェーズでのみ使用される必要があります。
 
@@ -153,11 +153,11 @@ The **[!UICONTROL Use a specific account]** option lets you limit the read or wr
 
 ## パラメーターの追加 {#adding-parameters}
 
-Parameters can be added via the **[!UICONTROL Parameters...]** tab in the Properties window of the form. それらは、次に示すように、必須に設定できます。
+パラメーターは、フォームのプロパティウィンドウの「**[!UICONTROL パラメーター]**」タブを使用して追加できます。それらは、次に示すように、必須に設定できます。
 
 ![](assets/s_ncs_admin_survey_properties_param.png)
 
-パラメーターの値が取得されるストレージの場所を指定する必要があります。To do this, select one of the storage options and then click the **[!UICONTROL Storage]** tab to select the field or the variable concerned. ストレージオプションの詳細は、「 [Response storage」フィールドに示されます](../../web/using/web-forms-answers.md#response-storage-fields)。
+パラメーターの値が取得されるストレージの場所を指定する必要があります。これをおこなうには、いずれかのストレージオプションを選択し、「**[!UICONTROL ストレージ]**」タブをクリックして、関連するフィールドまたは変数を選択します。ストレージオプションについて詳しくは、[回答ストレージフィールド](../../web/using/web-forms-answers.md#response-storage-fields)を参照してください。
 
 回答者のステータス（0、1 またはその他の値）は、フォームにアクセスするために URL に追加されます。この情報は、フォームのページまたはテストボックスで再利用できます。表示されるページは、次に示すように、コンテキストの値に基づいて条件を設定できます。
 

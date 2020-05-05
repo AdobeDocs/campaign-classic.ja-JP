@@ -14,7 +14,7 @@ discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3641e438784d40aa097f8c89ca19bdbb52f4bc7d
 
 ---
@@ -44,11 +44,11 @@ Adobe Campaign におけるマーケティングキャンペーンのサイク�
 
 Adobe Campaign では、受信者は配信（E メール、SMS など）の送信先となるデフォルトプロファイルです。データベースに格納された受信者データを活用して、任意の配信のターゲットを絞り込み、配信コンテンツにパーソナライゼーションデータを追加することができます。データベースには、他のタイプのプロファイルも含まれています。それらのプロファイルは用途が異なります。例えば、シードプロファイルは、配信を最終的なターゲットに送信する前のテスト用に作成されます。
 
-Profile management basics are explained in [About profiles](../../platform/using/about-profiles.md).
+プロファイル管理の基礎は、[プロファイルについて](../../platform/using/about-profiles.md)で説明しています。
 
 ### ターゲティングされたセグメント {#targeted-segmentation}
 
-Adobe Campaign には、高度にターゲティングされた最適なオファーを作成できる、強力で使いやすいセグメント化機能とターゲティング機能が用意されています。記述的分析機能では、マーケティングキャンペーンのアップストリームおよびダウンストリームの情報を分析でき、フィルター管理および[グラフィカルクエリエディター](../../platform/using/about-queries-in-campaign.md)機能を使用して、購読者の母集団やサンプルをフィルターしたり、無制限の数の基準を使用してターゲットグループを作成したりすることができます。The analysis and targeting features are described in [this page](../../reporting/using/about-descriptive-analysis.md) and in the [Creating filters](../../platform/using/creating-filters.md) section.
+Adobe Campaign には、高度にターゲティングされた最適なオファーを作成できる、強力で使いやすいセグメント化機能とターゲティング機能が用意されています。記述的分析機能では、マーケティングキャンペーンのアップストリームおよびダウンストリームの情報を分析でき、フィルター管理および[グラフィカルクエリエディター](../../platform/using/about-queries-in-campaign.md)機能を使用して、購読者の母集団やサンプルをフィルターしたり、無制限の数の基準を使用してターゲットグループを作成したりすることができます。分析およびターゲティング機能について詳しくは、[このページ](../../reporting/using/about-descriptive-analysis.md)および[フィルターの作成](../../platform/using/creating-filters.md)の節で説明しています。
 
 高度なデータ管理機能は、データ処理機能を強化します。データマートでモデル化されていないデータを含めることで、ターゲティングプロセスを簡素化し、最適化します。この機能について詳しくは、[このページ](../../workflow/using/targeting-data.md#data-management)で説明しています。
 
@@ -66,11 +66,11 @@ Adobe Campaign では、顧客のデータおよびプロファイルを段階�
 
 ### Adobe Experience Cloud 統合 {#adobe-experience-cloud-integrations}
 
-Adobe Campaignの配信機能と高度なキャンペーン管理機能を組み合わせて、ユーザーエクスペリエンスをパーソナライズするためのソリューションを作成できます。例えば、Adobe Experience Manager、Adobe Analytics、Adobe targetまたはAdobe Experience cloudでトリガーされます。 Adobe IMS と統合し、Adobe ID を使用して Campaign にログインすることもできます。クロスソリューションと認証統合について詳しくは、[この節](../../integrations/using/about-adobe-id.md)を参照してください。
+Adobe Campaign の配信機能と高度なキャンペーン管理機能を、ユーザーエクスペリエンスのパーソナライズを支援するために作成された一連のソリューション（Adobe Experience Manager、Adobe Analytics、Adobe Target または Adobe Experience Cloud トリガーなど）と組み合わせることができます。Adobe IMS と統合し、Adobe ID を使用して Campaign にログインすることもできます。クロスソリューションと認証統合について詳しくは、[この節](../../integrations/using/about-adobe-id.md)を参照してください。
 
 ## コア機能とアドオン {#core-capabilities-and-add-ons}
 
-Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マーケティング機能を実装し、最適化するための一連の機能を備えています。これらの機能には、コア機能と、インストールしたパッケージおよび設定によって使える機能があります。詳細な製品説明は、以下を参照してください。 [Adobe Campaign Classic製品概要](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html)。
+Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マーケティング機能を実装し、最適化するための一連の機能を備えています。これらの機能には、コア機能と、インストールしたパッケージおよび設定によって使える機能があります。詳細な製品説明については、[Adobe Campaign Classic の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-classic---product-description.html)を参照してください。
 
 使用できる機能は以下のとおりです。ライセンス契約によって、ご利用のインスタンスで使える機能と使えない機能があります。
 
@@ -79,7 +79,7 @@ Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マ�
 * [MRM](../../campaign/using/about-marketing-resource-management.md)：マーケティングリソースと予算の管理
 * [インタラクション](../../interaction/using/interaction-and-offer-management.md)：Campaign のオファーの管理
 * [Message Center](../../message-center/using/about-transactional-messaging.md)：E メール、SMS またはモバイルアプリでのトランザクションメッセージの送信
-* [Social Marketing](../../social/using/about-social-marketing.md) — ソーシャルメディアでの通信：Facebook、Twitter、
+* [ソーシャルマーケティング](../../social/using/about-social-marketing.md)：ソーシャルメディア（Facebook、Twitter）でのコミュニケーション
 * [ワークフロー](../../workflow/using/about-workflows.md)／データ管理：プロセスの自動化と、ワークフローを使用したデータの管理
 * [Web アプリケーション](../../web/using/about-web-applications.md)：Web ページおよびフォームの作成
 * [調査マネージャー](../../web/using/about-surveys.md)：オンライン調査および集計の作成

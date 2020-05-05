@@ -14,7 +14,7 @@ discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 ---
@@ -26,13 +26,13 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 Adobe Campaign の使用を開始する際は、アドビの詳細でわかりやすい手順ガイドを参照してください。
 
-* [Adobe Experience Manager での E メールコンテンツの編集](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/aem.html)：Adobe Campaign と Experience Manager を統合して開始するための基礎について説明します。
-* [プライバシー管理](https://helpx.adobe.com/campaign/kb/acc-privacy.html):アドビのサービスを使用する際にプライバシーコンプライアンスに役立つAdobe Campaign Classicの機能を紹介します。
-* [E メールへの動的なコンテンツの統合](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/target.html)：Campaign Classic と Target Standard の統合を開始するための基礎について説明します。
-* [配信品質の管理](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html)：配信品質に関する概念とベストプラクティス、配信の送信を最適化するために Adobe Campaign Classic で提供されるツールについて説明します。
-* [配信のベストプラクティス](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliveryBestPractices.html)：Adobe Campaign Classic での配信のデザインと送信に関するベストプラクティスについて学習します。
-* [ビルドのアップグレードの実行](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)：このガイドでは、Campaign Classic でビルドのアップグレードを実行する際の主な手順とベストプラクティスを紹介します。
-* [セキュリティ設定チェックリスト](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/security.html)：オンプレミスデプロイメントのためのセキュリティ設定と強化に関して確認すべき重要な要素について説明します。
+* [Adobe Experience Manager での E メールコンテンツの編集](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/aem.html)：Adobe Campaign と Experience Manager を統合して開始するための基礎について説明します。
+* [プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)：プライバシーを遵守しながらアドビのサービスを利用するための Adobe Campaign Classic の機能について説明します。
+* [E メールへの動的なコンテンツの統合](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/target.html)：Campaign Classic と Target Standard の統合を開始するための基礎について説明します。
+* [配信品質の管理](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)：配信品質に関する概念とベストプラクティス、配信の送信を最適化するために Adobe Campaign Classic で提供されるツールについて説明します。
+* [配信のベストプラクティス](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/deliveryBestPractices.html)：Adobe Campaign Classic での配信のデザインと送信に関するベストプラクティスについて学習します。
+* [ビルドのアップグレードの実行](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)：このガイドでは、Campaign Classic でビルドのアップグレードを実行する際の主な手順とベストプラクティスを紹介します。
+* [セキュリティ設定チェックリスト](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/security.html)：オンプレミスデプロイメントのためのセキュリティ設定と強化に関して確認すべき重要な要素について説明します。
 
 Adobe Campaign について詳しくは、以下の使用例と例を確認してください。
 

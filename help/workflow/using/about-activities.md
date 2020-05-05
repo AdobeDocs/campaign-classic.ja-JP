@@ -14,7 +14,7 @@ discoiquuid: 96c0ffae-b7b8-4346-bf20-963aa233438f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
@@ -26,13 +26,13 @@ source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ワークフローアクティビティはカテゴリごとにグループ分けされます。同時に 4 つのタブを使用できます。
 
-In the campaign workflows, the **[!UICONTROL Events]** tab is replaced by the **[!UICONTROL Deliveries]** tab. The activities in this tab are detailed in the [Action activities](../../workflow/using/about-action-activities.md) section.
+キャンペーンワークフローでは、「**[!UICONTROL イベント]**」タブが「**[!UICONTROL 配信]**」タブに置き換えられます。このタブのアクティビティについて詳しくは、[アクションアクティビティ](../../workflow/using/about-action-activities.md)の節を参照してください。
 
 ![](assets/wf-activity-tabs.png)
 
 詳しくは、以下を参照してください。
 
-* [ターゲット設定アクティビティについて](../../workflow/using/about-targeting-activities.md)
+* [ターゲティングアクティビティについて](../../workflow/using/about-targeting-activities.md)
 * [データのインポート](../../workflow/using/importing-data.md)
 * [ワークフローの実行](../../workflow/using/executing-a-workflow.md)
 * [ワークフローのベストプラクティス](../../workflow/using/workflow-best-practices.md)

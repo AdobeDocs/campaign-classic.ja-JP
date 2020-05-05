@@ -14,7 +14,7 @@ discoiquuid: 3af763ad-6b0d-4f4c-aed1-c5e12efd4760
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61c7681535dc08e1d705d7d239e96c603bbad339
 
 ---
@@ -38,23 +38,23 @@ Adobe Campaign では、データベースのデータを使用して動的で�
 
 Adobe Campaign の Web アプリケーションでは、次の機能を利用できます。
 
-* 複数ページのフォームの作成 詳しくは、この[ページ](../../web/using/about-web-forms.md)を参照してください。
-* 統合された調査ツールを使用した多言語翻訳管理。 詳しくは、この[ページ](../../web/using/translating-a-web-application.md)を参照してください。
-* グラフィカルなページ管理インターフェイス、複数列のページレイアウト。 詳しくは、この[ページ](../../web/using/designing-a-web-application.md)を参照してください。
-* パーソナライゼーションとフィールドの位置をレンダリングします。 詳しくは、この[ページ](../../web/using/editing-content.md#adding-personalization-content)を参照してください。
-* 回答に応じた調査フィールドの条件付き表示。 詳しくは、この[ページ](../../web/using/form-rendering.md#defining-fields-conditional-display)を参照してください。
-* 質問のランダム表示. 詳しくは、この[ページ](../../web/using/building-a-survey.md#adding-questions)を参照してください。
-* 条件付きページ表示. 詳しくは、この[ページ](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display)を参照してください。
-* 期待されるデータタイプ（数、電子メールアドレス、日付など）と必須フィールドに応じて、検証前の情報チェックを行います。 詳しくは、この[ページ](../../web/using/form-rendering.md#defining-control-settings)を参照してください。
-* 招待メールまたは通知メールを送信します。 詳しくは、この[ページ](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email)を参照してください。
-* エラーメッセージと終了メッセージのパーソナライゼーション。 詳しくは、この[ページ](../../web/using/defining-web-forms-properties.md#setting-up-an-error-page)を参照してください。
-* 画像、ビデオ、ハイパーテキストリンク、Captcha などの使用詳しくは、この[ページ](../../web/using/editing-content.md)を参照してください。
-* リアルタイムの応答の監視詳しくは、この[ページ](../../web/using/publish--track-and-use-collected-data.md#response-tracking)を参照してください。
+* 複数ページのフォームの作成。詳しくは、この[ページ](../../web/using/about-web-forms.md)を参照してください。
+* 統合された翻訳ツールによる多言語の調査の管理。詳しくは、この[ページ](../../web/using/translating-a-web-application.md)を参照してください。
+* グラフィカルなページ管理インターフェイス、複数列のページレイアウト。詳しくは、この[ページ](../../web/using/designing-a-web-application.md)を参照してください。
+* パーソナライゼーションとフィールドの位置のレンダリング。詳しくは、この[ページ](../../web/using/editing-content.md#adding-personalization-content)を参照してください。
+* 回答に応じた調査フィールドの条件付き表示。詳しくは、この[ページ](../../web/using/form-rendering.md#defining-fields-conditional-display)を参照してください。
+* 質問のランダム表示。詳しくは、この[ページ](../../web/using/building-a-survey.md#adding-questions)を参照してください。
+* 条件付きページ表示。詳しくは、この[ページ](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display)を参照してください。
+* 期待されるデータタイプ（数値、E メールアドレス、日付など）および必須フィールドに応じた、検証前の情報確認。詳しくは、この[ページ](../../web/using/form-rendering.md#defining-control-settings)を参照してください。
+* E メールの招待状または通知。詳しくは、この[ページ](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email)を参照してください。
+* エラーおよび終了メッセージのパーソナライゼーション。詳しくは、この[ページ](../../web/using/defining-web-forms-properties.md#setting-up-an-error-page)を参照してください。
+* 画像、ビデオ、ハイパーテキストリンク、Captcha などの使用。詳しくは、この[ページ](../../web/using/editing-content.md)を参照してください。
+* リアルタイムの応答の監視。詳しくは、この[ページ](../../web/using/publish--track-and-use-collected-data.md#response-tracking)を参照してください。
 
 オプションの&#x200B;**調査**&#x200B;作成モジュールは、次の追加機能を提供します。
 
-* データベースの動的拡張：初期データテンプレートに含まれていない応答の作成。 詳しくは、この[ページ](../../web/using/managing-answers.md#storing-collected-answers)を参照してください。
-* 専用レポートの生成：詳しくは、この[ページ](../../web/using/publish--track-and-use-collected-data.md#reports-on-surveys)を参照してください。
+* データベースの動的な拡張（最初のデータテンプレートに含まれない応答の作成）。詳しくは、この[ページ](../../web/using/managing-answers.md#storing-collected-answers)を参照してください。
+* 専用レポートの生成。詳しくは、この[ページ](../../web/using/publish--track-and-use-collected-data.md#reports-on-surveys)を参照してください。
 
 Web アプリケーションと比較すると、調査は、シンプルなグラフィカルインターフェイスを備え、編集コントロールが少なくなっています。
 
@@ -77,12 +77,12 @@ Web アプリケーションを作成および投稿するには、次を実行�
 
 ## Web アプリケーションの初期設定 {#web-application-initial-configuration}
 
-Web アプリケーションは、のリンクと **[!UICONTROL Web Applications]** タブで作成 **[!UICONTROL Campaigns]** され **[!UICONTROL Profiles and targets]** ます。
+Web アプリケーションは、「**[!UICONTROL キャンペーン]**」および「**[!UICONTROL プロファイルとターゲット]**」タブの「**[!UICONTROL Web アプリケーション]**」リンクを使用して作成されます。
 
-Web アプリケーションは、Adobe Campaignツリー **[!UICONTROL Resources > Online > Web Applications]** のノードに保存されます。 設定は、次のフォルダーに分類されます。
+Web アプリケーションは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／オンライン／Web アプリケーション]**&#x200B;ノードに格納されます。設定は、次のフォルダーに分類されます。
 
-* **[!UICONTROL Administration > Configuration > Form renderings]**:には、Webフォームプレゼンテーション(アプリケーションおよび調査)用のレンダリングテンプレートが含まれます。 テンプレートを使用すると、フォームを生成できます。また、CSS スタイルシートを使用します。このスタイルシートは、テンプレートレベルでオーバーロードできます。詳しくは、[このページ](../../web/using/form-rendering.md#selecting-the-form-rendering-template)を参照してください。
-* **[!UICONTROL Resources > Templates > Web application templates]**:フォームテンプレートが含まれます。 フォームまたは Web アプリケーションを作成するには、テンプレートから開始する必要があります。
+* **[!UICONTROL 管理／設定／フォームのレンダリング]**：Web フォームプレゼンテーションのレンダリングテンプレートが含まれます（アプリケーションおよび調査）。テンプレートを使用すると、フォームを生成できます。また、CSS スタイルシートを使用します。このスタイルシートは、テンプレートレベルでオーバーロードできます。詳しくは、[このページ](../../web/using/form-rendering.md#selecting-the-form-rendering-template)を参照してください。
+* **[!UICONTROL リソース／テンプレート／Web アプリケーションテンプレート]**：フォームテンプレートが含まれます。フォームまたは Web アプリケーションを作成するには、テンプレートから開始する必要があります。
 
 ## Web アプリケーションテンプレート {#web-application-templates}
 
@@ -90,9 +90,9 @@ Web アプリケーションは、Adobe Campaignツリー **[!UICONTROL Resource
 
 >[!NOTE]
 >
->既存の Web アプリケーションをテンプレートに変換できます。そのためには、フォームを選択して右クリックし、選択 **[!UICONTROL Actions > Save as template...]**.
+>既存の Web アプリケーションをテンプレートに変換できます。そのためには、フォームを選択して右クリックし、**[!UICONTROL アクション／テンプレートとして保存]**&#x200B;を選択します。
 
-Adobe Campaignツリーのノードを使用して、新し **[!UICONTROL Resources > Templates > Web Application templates]** いテンプレートを作成できます。
+Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／テンプレート／Web アプリケーションテンプレート]**&#x200B;ノードで、新しいテンプレートを作成できます。
 
 以下に示すように、作成ウィザードを使用して、有効にするオプションを選択できます。
 

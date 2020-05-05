@@ -13,7 +13,7 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c5a9823b2feb6e2f721a2ad15dc08c1abe672054
 
 ---
@@ -45,7 +45,7 @@ Adobe Campaign の配信機能と高度なキャンペーン管理機能を、�
 
 ## E メール配信品質の設定方法は？ {#how-to-configure-email-deliverability-}
 
-[配信品質に関するはじめにガイド](https://docs.adobe.com/content/help/en/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)のほか、E メール配信品質の設定に関する節も参照すると、Campaign の配信機能を最大化するインスタンスの設定方法を理解できます。
+[配信品質に関するはじめにガイド](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)のほか、E メール配信品質の設定に関する節も参照すると、Campaign の配信機能を最大化するインスタンスの設定方法を理解できます。
 
 [詳しくはここをクリック](../../installation/using/email-deliverability.md)してください。
 
@@ -63,7 +63,7 @@ Adobe Campaign では、Federated Data Access（FDA）オプションを利用�
 
 ## Campaign を接続できる外部データベースはどれですか？ {#which-external-databases-can-i-connect-campaign-to-}
 
-Federated Data Access（FDA）を使用した Campaign と外部データベースとの互換性のリストについては、[互換性マトリックス](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)を参照してください。
+Federated Data Access（FDA）を使用した Campaign と外部データベースとの互換性のリストについては、[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)を参照してください。
 
 ## Adobe Campaign を LDAP と統合できますか？ {#can-adobe-campaign-integrate-with-ldap-}
 
@@ -79,34 +79,34 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 CRM ツールを Adobe Campaign と同期させる方法については、[CRM コネクタの設定](../../platform/using/crm-connectors.md)を参照してください。こちらの [Adobe Campaign と Microsoft Dynamics 365 の統合](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html)に関する使用例のビデオをご覧ください。
 
-## 問題がコンピューターに固有またはユーザーに固有の場合にソフトキャッシュ消去を実行する方法 {#perform-soft-cache-clear}
+## 問題がマシン固有またはユーザー固有の場合にソフトキャッシュの消去を実行する方法を教えてください。{#perform-soft-cache-clear}
 
-新しいロゴが正しく反映され、マシン固有/ユーザ固有のデータを正しく書き出せるなどの問題が発生した場合は、Windows(Windows 7、Windows XP、Windows 10)でソフトキャッシュのクリアを実行する必要があります。
+新しいロゴを正しく反映させる、マシン固有／ユーザ固有のデータを正しく書き出すなどの問題が発生した場合は、Windows（Windows 7、Windows XP、Windows 10）でソフトキャッシュの消去を実行する必要があります。
 
-ログインしたら、/に移動 **[!UICONTROL File]** します **[!UICONTROL Clear the local cache]**。 その後、ログアウトしてから再度ログインします。
+ログインしたら、**[!UICONTROL ファイル]**／**[!UICONTROL ローカルキャッシュを消去]**&#x200B;に移動します。その後、ログアウトしてから再度ログインします。
 
 ![](assets/faq_soft_cache.png)
 
-それでも問題が解決しない場合は、次の手順を実行して、ハードキャッシュをクリアしてみてください。
+それでも問題が解決しない場合は、次の手順を実行して、ハードキャッシュを消去してみてください。
 
-## ハードキャッシュのクリアを実行する方法を教えてください。 {#perform-hard-cache-clear}
+## 問題がマシン固有またはユーザー固有の場合にハードキャッシュの消去を実行する方法を教えてください。{#perform-hard-cache-clear}
 
-新しいロゴが正しく反映され、コンピューター固有/ユーザー固有のデータを正常に書き出せるという問題が発生した場合は、Windows(Windows 7、Windows XP、Windows 10)でハードキャッシュのクリアを実行する必要があります。
+新しいロゴを正しく反映させる、マシン固有／ユーザ固有のデータを正しく書き出すなどの問題が発生した場合は、Windows（Windows 7、Windows XP、Windows 10）でハードキャッシュの消去を実行する必要があります。
 
-1. Client Consoleで、/を選択し **[!UICONTROL File]** ます **[!UICONTROL Clear the local cache]**。
+1. クライアントコンソールで、**[!UICONTROL ファイル]**／**[!UICONTROL ローカルキャッシュを消去]**&#x200B;を選択します。
 
 1. ログアウトし、クライアントコンソール（リッチクライアント）を閉じます。
 
 1. ご使用のオペレーティングシステムのバージョンに応じて、次の場所に移動します。
 
-   * Windows 7:C:\Users\&lt;ユーザー名>\AppData\Roaming\Neolane\NL_5\
-   * Windows XP:C:\Documents and Settings\&lt;ユーザー名>\Application Data\Neolane\NL_5
-   nlclient-config-&lt;英数字の値>.xmlという名前のxmlファイルが多数表示されます。
+   * Windows 7：C:\Users\&lt;ユーザー名>\AppData\Roaming\Neolane\NL_5\
+   * Windows XP：C:\Documents and Settings\&lt;ユーザー名>\Application Data\Neolane\NL_5
+   「nlclient-config-&lt;英数字の値>.xml」という名前の xml ファイルが多数表示されます。
 
-1. これらのxmlファイルと関連フォルダーを削除します。
+1. これらの xml ファイルと関連フォルダーを削除します。
 
    >[!CAUTION]
    >
-   >nlclient_cnx.xmlファイルは削除しないでください。
+   >nlclient_cnx.xml ファイルは削除しないでください。
 
-1. クライアントコンソールにサインインします。
+1. クライアントコンソールにログインします。

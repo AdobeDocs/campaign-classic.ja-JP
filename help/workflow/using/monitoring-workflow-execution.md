@@ -14,7 +14,7 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 202f571f5c348ca4ab617821cd1ec24cefa8c504
 
 ---
@@ -24,17 +24,17 @@ source-git-commit: 202f571f5c348ca4ab617821cd1ec24cefa8c504
 
 この節では、ワークフローの実行を監視する方法について説明します。
 
-「一時停止中」、「停止中」または「エラーあり」の一連のワークフローの状態を監視できるワークフローの作成方法に関する使用例も、この節で説明し [ます](../../workflow/using/supervising-workflows.md#supervising-workflows)。
+[この節](../../workflow/using/supervising-workflows.md#supervising-workflows)では、一連のワークフローの状態（一時停止、停止、エラーあり）を監視できるワークフローの作成方法に関する使用例も示します。
 
-また、インスタンスの管理者は、監査証跡を使用して **** 、ワークフローの状態である、ワークフローに対するアクティビティおよび最後の変更を確認できます。 詳しくは、[該当する節](../../production/using/audit-trail.md)を参照してください。
+また、インスタンスの管理者は、**監査記録**&#x200B;を使用して、アクティビティおよびワークフローに対する最後の変更（ワークフローの状態）を確認できます。詳しくは、[該当する節](../../production/using/audit-trail.md)を参照してください。
 
-様々なキャンペーンプロセスを監視するその他の方法については、このページ [を参照しま](https://helpx.adobe.com/campaign/kb/acc-maintenance.html)す。
+様々なキャンペーンプロセスを監視するその他の方法については、[このページ](https://helpx.adobe.com/jp/campaign/kb/acc-maintenance.html)で説明しています。
 
 ## 進行情報の表示 {#displaying-progress}
 
 ツールバーの各アイコンを使用して、進行情報を表示し、実行を監視することができます。
 
-The **[!UICONTROL Display progress information]** icon lets you display the status and the activity result in the execution screen.
+「**[!UICONTROL 進行情報を表示]**」アイコンを使用して、ステータスとアクティビティの結果を実行画面に表示できます。
 
 ![](assets/s_user_segmentation_toolbar_progr.png)
 
@@ -46,11 +46,11 @@ The **[!UICONTROL Display progress information]** icon lets you display the stat
 
 ログには、ワークフローの履歴または監査証跡が含まれます。ログには、すべてのユーザーアクション、実行されたすべての操作、および発生したすべてのエラーが記録されます。次の操作をおこなうことができます。
 
-* Select the **[!UICONTROL Tracking]** tab in the detail. このリストには、すべてのワークフローメッセージが含まれます。
+* 詳細で、「**[!UICONTROL トラッキング]**」タブを選択します。このリストには、すべてのワークフローメッセージが含まれます。
 
    ![](assets/new-workflow-display-log-tab.png)
 
-* アクティビティごとにログメッセージをフィルターします。これを行うには、図の上 **[!UICONTROL Display the tasks and the log]** のツールバーをクリックして、図の下にタ **[!UICONTROL Log]** ブとタ **[!UICONTROL Tasks]** ブを表示します。 アクティビティを選択すると、そのアクティビティに関するメッセージだけが表示されます。アクティビティが何も選択されていない場合、すべてのメッセージが表示されます。
+* アクティビティごとにログメッセージをフィルターします。ダイアグラムの上にあるツールバーから「**[!UICONTROL タスクとログを表示]**」をクリックし、ダイアグラムの下に「**[!UICONTROL ログ]**」と「**[!UICONTROL タスク]**」のタブを表示します。アクティビティを選択すると、そのアクティビティに関するメッセージだけが表示されます。アクティビティが何も選択されていない場合、すべてのメッセージが表示されます。
 
    ![](assets/new-workflow-display-log-activity.png)
 
@@ -58,11 +58,11 @@ The **[!UICONTROL Display progress information]** icon lets you display the stat
    >
    >ダイアグラムの背景をクリックすると、すべての要素の選択を解除できます。
 
-* 指定されたタスクにリンクされているメッセージのみを表示します。To do this, select the **[!UICONTROL Tasks]** tab, and then select an activity in the diagram in order to restrict the list. タスクをダブルクリックして情報を表示します。ウィンドウの最後のタブには、ログが表示されます。
+* 指定されたタスクにリンクされているメッセージのみを表示します。それには、「**[!UICONTROL タスク]**」タブを選択し、ダイアグラムからアクティビティを選択してリストを制限します。タスクをダブルクリックして情報を表示します。ウィンドウの最後のタブには、ログが表示されます。
 
    ![](assets/new-workflow-display-tasks-activity.png)
 
-   The **[!UICONTROL Details...]** button lets you display all additional information on activity execution. 例えば、検証オペレーターを表示できます。また、該当する場合、下の例のように、承認中に入力したコメントを表示できます。
+   「**[!UICONTROL 詳細...]**」ボタンをクリックすると、アクティビティの実行に関するすべての関連情報を表示できます。例えば、検証オペレーターを表示できます。また、該当する場合、下の例のように、承認中に入力したコメントを表示できます。
 
    ![](assets/new-workflow-display-tasks-activity-details.png)
 
@@ -74,7 +74,7 @@ The **[!UICONTROL Display progress information]** icon lets you display the stat
 
 * ターゲティングキャンペーンのログ
 
-   Once a targeting campaign has been executed, click the **[!UICONTROL Tracking]** tab to view the execution trace.
+   ターゲティングキャンペーンが実行されたら、「**[!UICONTROL トラッキング]**」タブをクリックして実行トレースを表示します。
 
    ![](assets/s_user_segmentation_journal.png)
 
@@ -84,17 +84,17 @@ The **[!UICONTROL Display progress information]** icon lets you display the stat
 
    さらに、実行ログと、各アクティビティの詳細も表示できます。それには、次の 2 つの方法があります。
 
-   1. ターゲットアクティビティを選択し、アイコンをクリッ **[!UICONTROL Display the tasks and the log]** クします。
+   1. ターゲット済みアクティビティを選択し、「**[!UICONTROL タスクとログを表示]**」アイコンをクリックします。
 
       ![](assets/s_user_segmentation_show_logs.png)
 
-      図の下のセクションには、2つのタブが表示されます。ログとタスクを参照してください。
+      ダイアログの下部セクションに、「ログ」と「タスク」の 2 つのタブが表示されます。
 
       ダイアグラム内で選択済みのアクティビティは、ログとタスクのリストに対するフィルターとして機能します。
 
       ![](assets/s_user_segmentation_logs.png)
 
-   1. Right-click the targeted activity and select **[!UICONTROL Display logs]**.
+   1. ターゲット済みのアクティビティを右クリックし、「**[!UICONTROL ログを表示]**」を選択します。
 
       ![](assets/s_user_segmentation_logs_menu.png)
 
@@ -102,7 +102,7 @@ The **[!UICONTROL Display progress information]** icon lets you display the stat
 
 ## ログのパージ {#purging-the-logs}
 
-ワークフローの履歴は自動でパージされません。すべてのメッセージは、デフォルトで保持されます。History can be purged via the **[!UICONTROL File > Actions]** menu or by clicking the **[!UICONTROL Actions]** button located in the toolbar above the list. 選択 **[!UICONTROL Purge history]**. The options available in the **[!UICONTROL Actions]** menu is detailed in the [Actions toolbar](../../workflow/using/executing-a-workflow.md#actions-toolbar) section.
+ワークフローの履歴は自動でパージされません。すべてのメッセージは、デフォルトで保持されます。履歴は、**[!UICONTROL ファイル／アクション]**&#x200B;メニューを選択するか、リストの上にあるツールバー内の「**[!UICONTROL アクション]**」ボタンをクリックすることでパージできます。「**[!UICONTROL 履歴をパージ]**」を選択します。**[!UICONTROL アクション]**&#x200B;メニューで使用可能なオプションについて詳しくは、[アクションツールバー](../../workflow/using/executing-a-workflow.md#actions-toolbar)の節を参照してください。
 
 ![](assets/purge_historique.png)
 
@@ -112,23 +112,23 @@ The **[!UICONTROL Display progress information]** icon lets you display the stat
 
 さらに、各種作業のディメンション間にリンクを作成したり、ディメンションの変更を定義することもできます。例えば、データベース内に記録された各契約について、契約のメイン所有者を指名し、追加情報内の共同所有者データを使用します。
 
-ワークフローが停止すると、ワークフローの作業用テーブルは自動的に削除されます。If you wish to keep a work table, save it in a list via the **[!UICONTROL List update]** activity (refer to [List update](../../workflow/using/list-update.md)).
+ワークフローが停止すると、ワークフローの作業用テーブルは自動的に削除されます。作業用テーブルを保持したい場合、**[!UICONTROL リストの更新]**&#x200B;アクティビティを使用してリストに保存します（[リストの更新](../../workflow/using/list-update.md)を参照）。
 
 ## エラーの管理 {#managing-errors}
 
-エラーが発生した場合、ワークフローが一時停止し、エラーの発生時に実行中だったアクティビティが赤く点滅します。In the workflow overview (**[!UICONTROL Monitoring]** universe > **[!UICONTROL Workflows]** link) you can display workflows with errors only, as shown below.
+エラーが発生した場合、ワークフローが一時停止し、エラーの発生時に実行中だったアクティビティが赤く点滅します。以下に示すように、ワークフローの概要（**[!UICONTROL 監視]**&#x200B;ウィンドウ／「**[!UICONTROL ワークフロー]**」リンク）で、エラーが発生したワークフローのみを表示できます。
 
 ![](assets/wf-global-view_filter_only_errors.png)
 
-In the Adobe Campaign Explorer, the workflow list displays a **[!UICONTROL Failed]** column by default.
+Adobe Campaign エクスプローラーでは、デフォルトでワークフローリストに「**[!UICONTROL 失敗]**」列が表示されます。
 
 ![](assets/wf-explorer_errors_col.png)
 
-ワークフローでエラーが発生すると、そのワークフローのスーパーバイザーグループに所属しているオペレーターに、E メールによる通知が送られます（プロファイルに E メールアドレスが記載されている場合）。This group is selected in the **[!UICONTROL Supervisor(s)]** field of the workflow properties.
+ワークフローでエラーが発生すると、そのワークフローのスーパーバイザーグループに所属しているオペレーターに、E メールによる通知が送られます（プロファイルに E メールアドレスが記載されている場合）。このグループは、ワークフロープロパティの「**[!UICONTROL スーパーバイザー]**」フィールドで選択されています。
 
 ![](assets/wf-properties_select-supervisors.png)
 
-通知コンテンツは、デフォルトのテンプレートで **[!UICONTROL Workflow manager notification]** 設定されます。このテンプレートは、ワークフロープロパ **[!UICONTROL Execution]** ティのタブで選択されています。 通知には、エラーの発生したワークフローの名前と、問題のタスクが記載されます。
+通知の内容は、「**[!UICONTROL ワークフローマネージャーの通知]**」デフォルトテンプレート内に設定されています。このテンプレートは、ワークフロープロパティの「**[!UICONTROL 実行]**」タブで選択されています。通知には、エラーの発生したワークフローの名前と、問題のタスクが記載されます。
 
 通知の例：
 
@@ -138,7 +138,7 @@ In the Adobe Campaign Explorer, the workflow list displays a **[!UICONTROL Faile
 
 ![](assets/wf-notification_error-console.png)
 
-エラーが発生した場合に一時停止せず実行を継続するように、ワークフローを設定することもできます。これを行うには、ワークフローを編 **[!UICONTROL Properties]** 集し、セクションでフ **[!UICONTROL Error management]** ィールドのオ **[!UICONTROL Ignore]** プションを選択 **[!UICONTROL In case of error]** します。 無視できる連続エラー数を指定します。連続エラーがこの数を超えると、プロセスが一時停止します。
+エラーが発生した場合に一時停止せず実行を継続するように、ワークフローを設定することもできます。それには、ワークフローの&#x200B;**[!UICONTROL プロパティ]**&#x200B;を編集し、「**[!UICONTROL エラー管理]**」セクションの「**[!UICONTROL エラーの場合]**」フィールドで「**[!UICONTROL 無視]**」オプションを選択します。無視できる連続エラー数を指定します。連続エラーがこの数を超えると、プロセスが一時停止します。
 
 この場合、エラータスクは中止になります。このモードは、キャンペーンを定期的アクションで後から再試行するように設計されたワークフローに最適です。
 
@@ -146,21 +146,21 @@ In the Adobe Campaign Explorer, the workflow list displays a **[!UICONTROL Faile
 
 >[!NOTE]
 >
->この設定は、各アクティビティに個別に適用できます。To do this, edit activity properties and select the error management mode in the **[!UICONTROL Advanced]** tab.
+>この設定は、各アクティビティに個別に適用できます。それには、アクティビティのプロパティを編集し、「**[!UICONTROL 詳細設定]**」タブでエラー管理モードを選択します。
 
-ワークフローの実行のトラブルシューティングの詳細については、専用の節を参照 [してくださ](../../production/using/workflow-execution.md)い。
+ワークフローの実行のトラブルシューティングについて詳しくは、[該当する節](../../production/using/workflow-execution.md)を参照してください。
 
 ## エラーを処理 {#processing-errors}
 
-Concerning activities, the **[!UICONTROL Process errors]** option displays a specific transition which will be enabled if an error is generated. この場合、ワークフローはエラーモードに入らず、実行は継続されます。
+アクティビティについては、「**[!UICONTROL エラーを処理]**」オプションに、エラー発生時に有効にされる特定のトランジションが表示されます。この場合、ワークフローはエラーモードに入らず、実行は継続されます。
 
 対象となるエラーは、ファイルシステムエラーです（ファイルを移動できない、ディレクトリにアクセスできない、など）。
 
 このオプションは、無効な値など、アクティビティの設定に関するエラーは処理しません。設定の誤りに関するエラー（ディレクトリが存在しないなど）では、このトランジションは有効になりません。
 
-If a workflow is paused (manually or automatically after an error), the **[!UICONTROL Start]** button restarts the workflow execution where it was stopped. エラーが発生したアクティビティ（一時停止したアクティビティ）は、再実行されます。それより前のアクティビティは再実行されません。
+エラーの発生後、手動または自動でワークフローが一時停止した場合、「**[!UICONTROL 開始]**」ボタンを押すと、一時停止した位置からワークフローの実行が再開します。エラーが発生したアクティビティ（一時停止したアクティビティ）は、再実行されます。それより前のアクティビティは再実行されません。
 
-To re-execute all of the workflow activities, use the **[!UICONTROL Restart]** button.
+すべてのワークフローを再実行するには、「**[!UICONTROL 再起動]**」ボタンを使用します。
 
 既に実行済みのアクティビティを変更した場合、ワークフローの実行を再開した際に、変更内容は反映されません。
 
@@ -172,13 +172,13 @@ To re-execute all of the workflow activities, use the **[!UICONTROL Restart]** b
 
 ## インスタンスの監視 {#instance-supervision}
 
-The **[!UICONTROL Instance supervision]** page lets you view the Adobe Campaign server activity and display the list of workflows and deliveries with errors.
+「**[!UICONTROL インスタンスの監視]**」ページでは、Adobe Campaign サーバーのアクティビティを確認したり、エラーが発生したワークフローと配信のリストを表示することができます。
 
-To access this page, go to the **[!UICONTROL Monitoring]** universe and click the **[!UICONTROL General view]** link.
+このページにアクセスするには、**[!UICONTROL 監視]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 一般ビュー]**」リンクをクリックします。
 
 ![](assets/wf-monitoring_from-homepage.png)
 
-To display all the workflows, click the **[!UICONTROL Workflows]** link. ドロップダウンリストを使用して、ステータス別にプラットフォーム内のワークフローを表示します。
+すべてのワークフローを表示するには、「**[!UICONTROL ワークフロー]**」リンクをクリックします。ドロップダウンリストを使用して、ステータス別にプラットフォーム内のワークフローを表示します。
 
 ![](assets/wf-monitoring_edit-wf.png)
 
@@ -204,7 +204,7 @@ To display all the workflows, click the **[!UICONTROL Workflows]** link. ドロ�
 
 ![](assets/wkf_simultaneous_execution1.png)
 
-The **[!UICONTROL Scheduler]** is triggering an event every minute. The following **[!UICONTROL Test]** activity is going to test the **isRunning** instance variable to decide whether or not to continue the execution:
+**[!UICONTROL スケジューラー]**&#x200B;は、1 分ごとにイベントをトリガーします。次の「**[!UICONTROL テスト]**」アクティビティは、**isRunning** インスタンス変数をテストして、実行を継続するかどうかを判定します。
 
 ![](assets/wkf_simultaneous_execution2.png)
 
@@ -212,7 +212,7 @@ The **[!UICONTROL Scheduler]** is triggering an event every minute. The followin
 >
 >**isRunning** は、この例のために選択した変数名です。これは、組み込み変数ではありません。
 
-The activity immediately following the **[!UICONTROL Test]** in the **yes** branch must set the instance variable in its **Initialization script**:
+**はい**&#x200B;分岐の&#x200B;**[!UICONTROL テスト]**&#x200B;の直後のアクティビティの&#x200B;**初期化スクリプト**&#x200B;にインスタンス変数を設定する必要があります。
 
 ```
 instance.vars.isRunning = true
@@ -235,7 +235,7 @@ instance.vars.isRunning = false
    logInfo("Workflow already running, parallel execution not allowed.");
    ```
 
-この節では、使用例を示します。デー [タ更新の調整](../../workflow/using/coordinating-data-updates.md)。
+使用例については、[データ更新の調整](../../workflow/using/coordinating-data-updates.md)の節で説明しています。
 
 ## データベースメンテナンス {#database-maintenance}
 
@@ -251,42 +251,42 @@ instance.vars.isRunning = false
 
 * 一時停止状態になっている期間が 7 日を超えたワークフローは監視ダッシュボード（および監視 API）に警告として表示され、スーパーバイザーグループに通知が送信されます。
 * 同じことが毎週、**[!UICONTROL cleanupPausedWorkflows]** テクニカルワークフローがトリガーされたときに繰り返されます。ワークフローについて詳しくは、[この節](../../workflow/using/delivery.md)を参照してください。
-* 4 回目の通知後（デフォルトでは一時停止状態が 1 ヶ月続いた後）、ワークフローは無条件で停止されます。停止後、ワークフローにログが表示されます。The tables are purged at the next execution **[!UICONTROL cleanup]** workflow
+* 4 回目の通知後（デフォルトでは一時停止状態が 1 ヶ月続いた後）、ワークフローは無条件で停止されます。停止後、ワークフローにログが表示されます。テーブルは次回の&#x200B;**[!UICONTROL クリーンアップ]**&#x200B;ワークフローの実行時にパージされます。
 
 停止までの期間は NmsServer_PausedWorkflowPeriod オプションを通じて設定できます。
 
 ワークフローのスーパーバイザーには通知が届きます。作成者および最後にワークフローを変更したユーザーにも通知が届きます。管理者には通知は届きません。
 
-## ステータスに従ったワークフローのフィルタリング{#filtering-workflows-status}
+## ステータスに応じたワークフローのフィルタリング {#filtering-workflows-status}
 
-Campaign Classicインターフェイスを使用すると、事前定義されたビューを使用して、インスタンス上のすべてのワークフローの実行ステータスを監視&#x200B;**できま**&#x200B;す。 これらのビューにアクセスするには、/**[!UICONTROL Administration]**/ノード&#x200B;**[!UICONTROL Audit]**&#x200B;を開&#x200B;**[!UICONTROL Workflows Status]**&#x200B;きます。
+Campaign Classic インターフェイスを使用すると、事前定義された&#x200B;**表示**&#x200B;を使用して、インスタンス上のすべてのワークフローの実行ステータスを監視できます。これらの表示にアクセスするには、**[!UICONTROL 管理]**／**[!UICONTROL 監査]**／**[!UICONTROL ワークフローステータス]**&#x200B;ノードを開きます。
 
-次のビューを使用できます。
+以下の表示を使用できます。
 
-* **[!UICONTROL Running]**：実行中のすべてのワークフローを表示します。
-* **[!UICONTROL Paused]**：一時停止したすべてのワークフローを表示します。
-* **[!UICONTROL Failed]**：失敗したすべてのワークフローを表示します。
-* **[!UICONTROL Start Pending]**:operationMgtプロセスが開始するのを待機しているすべてのワークフローを表示します。 このビューは、**Marketing campaignsパッケージでのみ使用できます**(Campaign標準パッケージのイ [ンストールを参照](../../installation/using/installing-campaign-standard-packages.md))。
+* **[!UICONTROL 実行中]**：実行中のすべてのワークフローを表示します。
+* **[!UICONTROL 一時停止]**：一時停止されたすべてのワークフローを表示します。
+* **[!UICONTROL 失敗]**：失敗したすべてのワークフローを表示します。
+* **[!UICONTROL 開始を保留中]**：operationMgt プロセスによって開始されるのを待機しているすべてのワークフローをリストします。このビューは、**マーケティングキャンペーン**&#x200B;パッケージでのみ使用できます（[Campaign Standard パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照）。
 
 ![](assets/workflow-monitoring-views.png)
 
-デフォルトでは、これらのビューはフォルダ内でアクセスで&#x200B;**[!UICONTROL Audit]**&#x200B;きます。 ただし、フォルダツリーで選択した場所に再作成できます。 これにより、管理権限のない標準ユーザーも利用できるようになります。
+デフォルトでは、これらの表示は&#x200B;**[!UICONTROL 監査]**&#x200B;フォルダー内でアクセスできます。 ただし、フォルダーツリーで選択した場所に再作成できます。これにより、管理権限のない標準ユーザーも利用できるようになります。
 
-これを行うには：
+手順は次のとおりです。
 
-1. ビューを追加するフォルダを右クリックします。
-1. / **[!UICONTROL Add new folder]**&#x200B;で、追&#x200B;**[!UICONTROL Administration]**&#x200B;加するビューを選択します。
-1. フォルダをツリーに追加したら、元のフォルダが何であれ、すべてのワークフローが表示されるように、ビューとして設定します。ビューの設定方法の詳細については、この節を参照して [ください](../../platform/using/access-management.md#adding-folders-and-creating-views)。
+1. 表示を追加するフォルダーを右クリックします。
+1. **[!UICONTROL 新規フォルダーを追加]**／**[!UICONTROL 管理]**&#x200B;で、追加する表示を選択します。
+1. フォルダーをツリーに追加したら、元のフォルダーにかかわらずすべてのワークフローが表示されるように、表示として設定していることを確認します。表示の設定方法について詳しくは、[この節](../../platform/using/access-management.md#adding-folders-and-creating-views)を参照してください。
 
-また、これらのビューに加えて、実行ステータスに従ってワークフローのリストをフィルタリングできるフィルターフォルダーを設定できます。 手順は次のとおりです。
+また、これらの表示に加えて、実行ステータスに応じてワークフローのリストをフィルタリングできるフィルターフォルダーを設定できます。手順は次のとおりです。
 
-1. ワークフロータイプのフォルダーにアクセスし、/メニュー **[!UICONTROL Filters]** を選択 **[!UICONTROL Advanced filter]** します。
-1. ワークフローのフィールドが選択した状態 **[!UICONTROL @status]** と等しくなるようにフィルターを設定します。
-1. フィルターを保存し、名前を付けます。 その後、フィルターリストから直接使用できます。
+1. ワークフロータイプのフォルダーにアクセスし、**[!UICONTROL フィルター]**／**[!UICONTROL フィルター詳細設定]**&#x200B;メニューを選択します。
+1. ワークフローの「**[!UICONTROL @status]**」フィールドが選択した状態と等しくなるようにフィルターを設定します。
+1. フィルターを保存し、名前を付けます。これで、フィルターリストから直接使用できるようになります。
 
 ![](assets/workflow-monitoring-filter.png)
 
 詳しくは、次の節を参照してください。
 
-* [アドバンスフィルターの作成](../../platform/using/creating-filters.md#creating-an-advanced-filter)
+* [詳細フィルターの作成](../../platform/using/creating-filters.md#creating-an-advanced-filter)
 * [フィルターの保存](../../platform/using/creating-filters.md#saving-a-filter)

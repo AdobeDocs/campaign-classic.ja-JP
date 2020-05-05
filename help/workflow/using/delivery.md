@@ -14,7 +14,7 @@ discoiquuid: 9fd7122e-22c7-4f9a-a2a4-5de3daaa3c2e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
 
 ---
@@ -32,7 +32,7 @@ source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
 
    次の操作をおこなうことができます。
 
-   * インバウンドトランジションで指定された配信に対して実行します。To do this, select the first option of the **[!UICONTROL Delivery]** section of the window.
+   * インバウンドトランジションで指定された配信に対して実行します。それには、ウィンドウの「**[!UICONTROL 配信]**」セクションにある 1 番目のオプションを選択します。
 
       このオプションは、先行するワークフローアクティビティが既に配信を作成または指定済みの場合に使用できます。これは、以下に示すように、アウトバウンドトランジションを生成していた同じタイプのアクティビティによって、完了している場合があります。
 
@@ -40,27 +40,27 @@ source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
 
       ![](assets/specified_transition_option_exemple.png)
 
-   * 対象の配信を直接選択します。To do this, select the **[!UICONTROL Explicit]** option and select the delivery from the drop-down list of the **[!UICONTROL Delivery]** field.
+   * 対象の配信を直接選択します。それには、「**[!UICONTROL 明示]**」オプションを選択して、「**[!UICONTROL 配信]**」フィールドのドロップダウンリストから配信を選択します。
 
-      このリストには、デフォルトで、「**配信**」フォルダー内にある終了していない配信が表示されます。To access other campaigns, click the **[!UICONTROL Select link]** icon.
+      このリストには、デフォルトで、「**配信**」フォルダー内にある終了していない配信が表示されます。その他のキャンペーンにアクセスするには、「**[!UICONTROL リンクを選択]**」アイコンをクリックします。
 
       ![](assets/diffusion_edit_1.png)
 
-      Select the campaign from the drop-down list of the **[!UICONTROL Folder]** field, or click **[!UICONTROL Display sub-levels]** to display all of the deliveries contained in sub-folders:
+      「**[!UICONTROL フォルダー]**」フィールドのドロップダウンリストからキャンペーンを選択するか、「**[!UICONTROL サブレベルを表示]**」をクリックしてサブフォルダー内に含まれているすべての配信を表示します。
 
       ![](assets/diffusion_edit_2.png)
 
-      After selecting the delivery action, you can display the content by clicking the **[!UICONTROL Edit link]** icon.
+      配信アクションを選択した後で、「**[!UICONTROL リンクを編集]**」アイコンをクリックして、コンテンツを表示できます。
 
-   * 配信を自動生成するスクリプトを作成します。これを行うには、オプションを選択 **[!UICONTROL Computed by a script]** し、スクリプトを入力します。 You can open an input window by clicking the **[!UICONTROL Edit...]** option. 次の例では、配信の ID を収集します。
+   * 配信を自動生成するスクリプトを作成します。それには、「**[!UICONTROL スクリプトで処理]**」オプションを選択し、スクリプトを入力します。「**[!UICONTROL 編集...]**」オプションをクリックして、入力ウィンドウを開きます。次の例では、配信の ID を収集します。
 
       ![](assets/diffusion_edit_3.png)
 
-   * 新しい配信を作成します。To do this, select the **[!UICONTROL New, created from a template]** option and select the delivery template which the delivery will be based on.
+   * 新しい配信を作成します。それには、「**[!UICONTROL 新規（テンプレートから作成）]**」オプションを選択し、配信のベースとなる配信テンプレートを選択します。
 
       ![](assets/diffusion_edit_4.png)
 
-      Click the **[!UICONTROL Select link]** icon to browse the folders, and click the **[!UICONTROL Edit link]** icon if you wish to view the content of the selected template.
+      選択したテンプレートのコンテンツを確認するには、「**[!UICONTROL リンクを選択]**」アイコンをクリックしてフォルダーを参照し、「**[!UICONTROL リンクを編集]**」アイコンをクリックします。
 
 1. **受信者**
 
@@ -82,26 +82,26 @@ source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
 
    実行するアクションのタイプを選択します。
 
-   * **[!UICONTROL Save]**:このオプションを使用すると、配信を作成して保存できます。 配信の分析や配信はおこないません。
-   * **[!UICONTROL Estimate the target]**:このオプションを使用すると、配信ターゲットを計算して、その潜在性（最初の分析段階）を評価できます。 This action is the equivalent of selecting the **[!UICONTROL Estimate the population to be targeted]** option and clicking **[!UICONTROL Analyze]** when sending a delivery to the main target via **Delivery**.
-   * **[!UICONTROL Prepare]**:このオプションを使用すると、完全な分析プロセス（ターゲットの計算とコンテンツの準備）を実行できます。 配信は送信されません。This action is the equivalent of selecting the **[!UICONTROL Deliver as soon as possible]** option and clicking **[!UICONTROL Analyze]** when sending a delivery to the main target with **Delivery**.
-   * **[!UICONTROL Send a proof]**:このオプションを使用すると、配信の証明を送信できます。 This action is the equivalent of clicking the **[!UICONTROL Send a proof]** button in the toolbar of a delivery with **Delivery**
-   * **[!UICONTROL Prepare and start]**:このオプションは、完全な分析プロセス（ターゲットの計算とコンテンツの準備）を開始し、配信を送信します。 このアクションは、配信をメインターゲ **[!UICONTROL Deliver as soon as possible]**&#x200B;ットに **[!UICONTROL Analyze]**&#x200B;送信する際 **[!UICONTROL Confirm delivery]** に、配信をクリック、オプションと同じ **です**。
-   The **[!UICONTROL Act on a delivery]** activity used further on in the workflow lets you launch all remaining steps required for starting the delivery (target calculation, content preparation, delivery). For more on this, refer to [Delivery control](../../workflow/using/delivery-control.md).
+   * **[!UICONTROL 保存]**：配信を作成して保存できます。配信の分析や配信はおこないません。
+   * **[!UICONTROL ターゲットを推定]**：配信ターゲットを自動生成し、可能性を評価します（最初の分析フェーズ）。このアクションは、配信を「**[!UICONTROL 配信]**」経由でメインターゲットに送信する場合に「**[!UICONTROL ターゲットとする母集団を推定]**」オプションを選択し、「**分析**」をクリックするのと同等です。
+   * **[!UICONTROL 準備]**：完全な分析プロセスを実行できます（ターゲットの計算とコンテンツの準備）。配信は送信されません。このアクションは、配信を「**[!UICONTROL 配信]**」を使用してメインターゲットに送信する場合に、「**[!UICONTROL 可能な限り早く配信]**」オプションを選択し、「**分析**」をクリックするのと同等です。
+   * **[!UICONTROL 配達確認を送信]**：配信の配達確認を送信できます。このアクションは、「**[!UICONTROL 配信]**」で配信のツールバーから「**配達確認を送信**」ボタンをクリックするのと同等です。
+   * **[!UICONTROL 準備と開始]**：完全な分析プロセス（ターゲットの計算とコンテンツの準備）を起動し、配信を送信します。このアクションは、「**[!UICONTROL 配信]**」を使用して配信をメインターゲットに送信する場合に、「**[!UICONTROL 可能な限り早く配信]**」、「**[!UICONTROL 分析]**」、「**配信を確定**」オプションの順にクリックするのと同等です。
+   ワークフローで後から使用される「**[!UICONTROL 配信に基づくアクション]**」アクティビティを使用して、配信の開始に必要な残りの手順を開始できます（ターゲットの計算、コンテンツの準備、配信）。詳しくは、[配信コントロール](../../workflow/using/delivery-control.md)を参照してください。
 
    さらに、次のオプションを使用できます。
 
-   * **[!UICONTROL Generate an outbound transition]**
+   * **[!UICONTROL アウトバウンドトランジションを生成]**
 
       実行の終了時に有効化される出力トランジションを生成します。アウトバウンド配信のターゲットを取得するかどうかを選択できます。
 
-   * **[!UICONTROL Do not recover target]**
+   * **[!UICONTROL ターゲット母集団を取得しない]**
 
       外部への配信アクションのターゲットを取得しません。
 
-   * **[!UICONTROL Processing errors]**
+   * **[!UICONTROL エラーを処理]**
 
-      Refer to [Delivery control](../../workflow/using/delivery-control.md).
+      [配信コントロール](../../workflow/using/delivery-control.md)を参照してください。
    「**スクリプト**」タブで、配信パラメーターを編集できます。
 
    ![](assets/edit_diffusion_fil_script.png)
@@ -114,9 +114,9 @@ source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
 
 「**配信**」アクティビティを開き、次の手順でプロパティを定義します。
 
-* 「」セクション **[!UICONTROL Delivery]** で、配信テンプ **[!UICONTROL New, created from a template]** レートを選択します。
-* セクション **[!UICONTROL Recipients]** で、を選択しま **[!UICONTROL Specified in the delivery]**&#x200B;す。
-* セクションでは、 **[!UICONTROL Action to execute]** オプションをそのままにし **[!UICONTROL Prepare]** てください。
+* 「**[!UICONTROL 配信]**」セクションで、「**[!UICONTROL 新規（テンプレートから作成）]**」を選択し、配信テンプレートを選択します。
+* 「**[!UICONTROL 受信者]**」セクションで、「**[!UICONTROL 配信テンプレートで指定]**」を選択します。
+* 「**[!UICONTROL 実行するアクション]**」セクションで、「**[!UICONTROL 準備]**」オプションを選択したままにします。
 
 ![](assets/new-workflow-param-delivery.png)
 
@@ -124,22 +124,22 @@ source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
 
 「**承認**」アクティビティを開き、次の手順でプロパティを定義します。
 
-1. In the **[!UICONTROL Assignment type]** field, select a group in which you are registered. admin アカウントを使用して接続している場合、管理者グループを選択します。
+1. 「**[!UICONTROL 割り当てタイプ]**」フィールドで、登録していたグループを選択します。admin アカウントを使用して接続している場合、管理者グループを選択します。
 1. 次に、タイトルを入力して、メッセージの本文に次のテキストを挿入します。
 
    ```
    Do you wish to approve delivery (<%= vars.recCount %> recipient(s))?
    ```
 
-   次のメッセージには、JavaScriptで記述された式が含まれています。前のタ **[!UICONTROL vars.recCount]** スクの配信のターゲットとなる受信者の数を表します。 JavaScript式について詳しくは、 [JavaScriptのスクリプトとテンプレートを参照してください](../../workflow/using/javascript-scripts-and-templates.md)。
+   これは JavaScript で記述された式を含むメッセージです。**[!UICONTROL vars.recCount]** は、前のタスクの配信のターゲットとなった受信者数を表します。JavaScript 式について詳しくは、[JavaScript のスクリプトとテンプレート](../../workflow/using/javascript-scripts-and-templates.md)を参照してください。
 
    ![](assets/new-workflow-param-validation.png)
 
-   The Approval task is detailed in [Approval](../../workflow/using/approval.md).
+   承認タスクについて詳しくは、[承認](../../workflow/using/approval.md)を参照してください。
 
 ## 入力パラメーター {#input-parameters}
 
-配信識別子(セクションでオ **[!UICONTROL Specified in the transition]** プションが選択されてい **[!UICONTROL Delivery]** る場合)。
+「**[!UICONTROL 配信]**」セクションで「**[!UICONTROL トランジション内で指定]**」オプションが選択されている場合の配信 ID。
 
 * deliveryId
 * tableName
@@ -149,15 +149,15 @@ source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
 
 >[!NOTE]
 >
->このパラメーターは、セクションでこのオ **[!UICONTROL Specified by inbound event(s)]** プションが選択されている場合にのみ表示 **[!UICONTROL Recipients]** されます。
+>このパラメーターは、「**[!UICONTROL 受信者]**」セクションで、「**[!UICONTROL インバウンドイベントで指定]**」オプションが選択されている場合に表示されます。
 
 * filename
 
-   セクションでオプションが選択されている場合 **[!UICONTROL File(s) specified by inbound event(s)]** に生成されるファイルの完 **[!UICONTROL Recipients]** 全な名前。
+   「**[!UICONTROL 受信者]**」セクションで、「**[!UICONTROL インバウンドイベントで指定]**」オプションが選択されている場合に、完全なファイル名が生成されます。
 
 * contentId
 
-   セクションでこのオプシ **[!UICONTROL Specified by inbound events]** ョンが選択されている場合は、コンテンツ **[!UICONTROL Content]** 識別子。
+   「**[!UICONTROL コンテンツ]**」セクションで「**[!UICONTROL インバウンドイベントで指定]**」オプションが選択されている場合のコンテンツ ID。
 
 ## 出力パラメーター {#output-parameters}
 
@@ -171,5 +171,5 @@ source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
 
 >[!NOTE]
 >
->このオプションを選択した場合、出力パラメー **[!UICONTROL Do not recover target]** ターはありません。
+>「**[!UICONTROL ターゲット母集団を取得しない]**」オプションが選択されている場合、出力パラメーターはありません。
 

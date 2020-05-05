@@ -14,7 +14,7 @@ discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 配信は、配信リストから作成したり、ワークフロー内で[配信](../../workflow/using/delivery.md)アクティビティを介して作成したりできます。
 
-ワークフローには、使用するチャネルのタイプに応じた特定の配信アクティビティも用意されています。For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
+ワークフローには、使用するチャネルのタイプに応じた特定の配信アクティビティも用意されています。これらのアクティビティについて詳しくは、[この節](../../workflow/using/cross-channel-deliveries.md)を参照してください。
 
 ## 繰り返し配信 {#recurring-delivery}
 
@@ -38,7 +38,7 @@ source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 例えば、このタイプのアクティビティを月に 1 回実行した場合、1 年後の配信の数は 12 個です。
 
-Recurring deliveries are created within workflows via the [Recurring delivery activity](../../workflow/using/recurring-delivery.md). この節では、このアクティビティの使用例を示します。ターゲ [ット設定ワークフローでの定期配信の作成](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)。
+繰り返し配信は、ワークフロー内で[繰り返し配信アクティビティ](../../workflow/using/recurring-delivery.md)を介して作成されます。このアクティビティの使用例については、[ターゲティングワークフローでの繰り返し配信の作成](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)の節で説明しています。
 
 ## 連続配信 {#continuous-delivery}
 
@@ -48,4 +48,4 @@ Recurring deliveries are created within workflows via the [Recurring delivery ac
 
 例えば、このタイプのアクティビティを月に 1 回実行した場合、1 年後の配信数は 1 個です（ただし、配信に変更を加えなかった場合）。
 
-Continuous deliveries are created within workflows via the [Continuous delivery activity](../../workflow/using/continuous-delivery.md).
+連続配信は、ワークフロー内で[連続配信アクティビティ](../../workflow/using/continuous-delivery.md)を介して作成されます。

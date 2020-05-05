@@ -14,7 +14,7 @@ discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 31f30db6eaf1fee43f9f757124e3fa8ed1d0075f
 
 ---
@@ -32,27 +32,27 @@ source-git-commit: 31f30db6eaf1fee43f9f757124e3fa8ed1d0075f
 1. [外部アカウントの設定](#configure-the-external-account)
 1. [AEM リソースフィルターの設定](#configure-aem-resources-filtering)
 
-パーソナライゼーションフィールドやパーソナライゼーションブロックの管理などの高度な設定については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html)を参照してください。
+パーソナライゼーションフィールドやパーソナライゼーションブロックの管理などの高度な設定については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/campaignonpremise.html)を参照してください。
 
 ### Adobe Campaign での AEM 統合パッケージのインストール {#install-the-aem-integration-package-in-adobe-campaign}
 
-You first need to install the **[!UICONTROL AEM integration]** package.
+最初に **[!UICONTROL AEM 統合]**&#x200B;パッケージをインストールする必要があります。
 
-1. From your Adobe Campaign instance, select **[!UICONTROL Tools]** from the upper toolbar.
-1. 選択 **[!UICONTROL Tools > Advanced > Import package...]**.
+1. Adobe Campaign インスタンスから、上部のツールバーにある「**[!UICONTROL ツール]**」を選択します。
+1. **[!UICONTROL ツール／高度なツール／パッケージをインポート...]**&#x200B;を選択します。
 
    ![](assets/aem_config_1.png)
 
-1. 選択 **[!UICONTROL Install a standard package]**.
-1. チェックボ **[!UICONTROL AEM integration]** タンをオンにしてクリック **[!UICONTROL Next]** します。
+1. 「**[!UICONTROL 標準パッケージをインストール]**」を選択します。
+1. 「**[!UICONTROL AEM 統合]**」チェックボックスをオンにし、「**[!UICONTROL 次へ]**」ボタンをクリックします。
 
    ![](assets/aem_config_2.png)
 
-1. In the next window, click the **[!UICONTROL Start]** button to start the installation of your package. インストールが完了したら、ウィンドウを閉じます。
+1. 次のウィンドウで、「**[!UICONTROL 開始]**」ボタンをクリックして、パッケージのインストールを開始します。インストールが完了したら、ウィンドウを閉じます。
 
 ### AEM オペレーターのセキュリティゾーンの設定 {#configure-the-security-zone-for-aem-operator}
 
-パッケージ **[!UICONTROL AEM integration]** は、Campaignに演算子 **[!UICONTROL aemserver]** を設定します。 このオペレーターは、Adobe Experience Manager サーバーを Adobe Campaign に接続するために使用されます。
+**[!UICONTROL AEM 統合]**&#x200B;パッケージは、Campaign に **[!UICONTROL aemserver]** オペレーターを設定します。このオペレーターは、Adobe Experience Manager サーバーを Adobe Campaign に接続するために使用されます。
 
 Adobe Experience Manager 経由で Adobe Campaign に接続するには、このオペレーターのセキュリティゾーンを設定する必要があります。
 
@@ -69,29 +69,29 @@ Campaign インスタンスがアドビによってホストされている場�
 
 ### 外部アカウントの設定 {#configure-the-external-account}
 
-The **[!UICONTROL AEM integration]** package created the external account for Adobe Experience Cloud. 次は、そのアカウントを Adobe Experience Manager インスタンスに接続するように設定する必要があります。
+**[!UICONTROL AEM 統合]**&#x200B;パッケージにより、Adobe Experience Cloud の外部アカウントが作成されました。次は、そのアカウントを Adobe Experience Manager インスタンスに接続するように設定する必要があります。
 
 AEM 外部アカウントを設定するには、以下の手順に従います。
 
-1. ボタンをクリッ **[!UICONTROL Explorer]** クします。
+1. 「**[!UICONTROL エクスプローラー]**」ボタンをクリックします。
 
    ![](assets/aem_config_3.png)
 
-1. 選択 **[!UICONTROL Administration > Platform > External accounts]**.
-1. リストから、 **[!UICONTROL External account]** を選択します **[!UICONTROL AEM instance]**。
+1. **[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;を選択します。
+1. 「**[!UICONTROL 外部アカウント]**」の一覧から「**[!UICONTROL AEM インスタンス]**」を選択します。
 1. AEM オーサーインスタンスの次のパラメーターを入力します。
 
-   * **[!UICONTROL Server]**
-   * **[!UICONTROL Account]**
-   * **[!UICONTROL Password]**
+   * **[!UICONTROL サーバー]**
+   * **[!UICONTROL アカウント]**
+   * **[!UICONTROL パスワード]**
    >[!NOTE]
    >
-   >Make sure that your **[!UICONTROL Server]** address does not end with a a trailing slash.
+   >「**[!UICONTROL サーバー]**」のアドレスがスラッシュで終わっていないことを確認します。
 
    ![](assets/aem_config_4.png)
 
-1. チェックボックスをオ **[!UICONTROL Enabled]** ンにします。
-1. ボタンをクリッ **[!UICONTROL Save]** クします。
+1. 「**[!UICONTROL 有効]**」ボックスをオンにします。
+1. 「**[!UICONTROL 保存]**」ボタンをクリックします。
 
 ### AEM リソースフィルターの設定 {#configure-aem-resources-filtering}
 
@@ -99,10 +99,10 @@ AEM 外部アカウントを設定するには、以下の手順に従います�
 
 **[!UICONTROL AEMResourceTypeFilter]** オプションが設定されているかどうかを確認するには：
 
-1. ボタンをクリッ **[!UICONTROL Explorer]** クします。
-1. 選択 **[!UICONTROL Administration > Platform > Options]**.
-1. リストから、 **[!UICONTROL Options]** を選択します **[!UICONTROL AEMResourceTypeFilter]**。
-1. In the **[!UICONTROL Value (text)]** field, the path should be as follows:
+1. 「**[!UICONTROL エクスプローラー]**」ボタンをクリックします。
+1. **[!UICONTROL 管理／プラットフォーム／オプション]**&#x200B;を選択します。
+1. 「**[!UICONTROL オプション]**」の一覧から「**[!UICONTROL AEMResourceTypeFilter]**」を選択します。
+1. 「**[!UICONTROL 値 (テキスト)]**」フィールドでは、パスが次のようになっている必要があります。
 
    ```
    mcm/campaign/components/newsletter,mcm/campaign/components/campaign_newsletterpage,mcm/neolane/components/newsletter
@@ -122,17 +122,17 @@ AEM 外部アカウントを設定するには、以下の手順に従います�
 
 1. AEM オーサリングインスタンスから AEM パブリッシュインスタンスにレプリケートするように&#x200B;**レプリケーション**&#x200B;を設定します。
 
-   レプリケーションの設定方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/experience-manager/6-5/sites/deploying/using/replication.html)を参照してください。
+   レプリケーションの設定方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/replication.html)を参照してください。
 
 1. オーサーインスタンスに統合 **FeaturePack** をインストールし、パブリッシュインスタンスにインストールをレプリケートします（AEM バージョン 5.6.1 および 6.0 のみ）。
 
-   FeaturePack のインストール方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)を参照してください。
+   FeaturePack のインストール方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/jp/experience-manager/aem-previous-versions.html)を参照してください。
 
 1. 専用の&#x200B;**クラウドサービス**&#x200B;を設定し、Adobe Experience Manager を Adobe Campaign に接続します。
 
-   クラウドサービス経由で両方のソリューションを接続する方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager)を参照してください。
+   クラウドサービス経由で両方のソリューションを接続する方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/campaignonpremise.html#ConfiguringAdobeExperienceManager)を参照してください。
 
 1. **Externalizer サービス**&#x200B;を設定します。
 
-   設定方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/externalizer.html)を参照してください。
+   設定方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/externalizer.html)を参照してください。
 

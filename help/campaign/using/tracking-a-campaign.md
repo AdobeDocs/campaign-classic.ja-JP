@@ -14,7 +14,7 @@ discoiquuid: e1f8958d-f036-4635-be6e-ebdbea6ac116
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ---
@@ -33,29 +33,29 @@ source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ## パッケージのフィルタリング {#filter-packages}
 
-From the **[!UICONTROL Campaigns universe]**, you can display the list of **[!UICONTROL Campaign packages]** which regroups all existing Distributed Marketing campaigns. このリストをフィルタリングして、投稿済み、遅延、承認待ちなどのキャンペーンのみを表示できます。 これを行うには、このビューの上部にあるリンクをクリックするか、リンクを使用して、表示するキャンペ **[!UICONTROL Filter list]** ーンパッケージのステータスを選択します。
+**[!UICONTROL キャンペーン]**&#x200B;ウィンドウでは、既存のすべての分散型マーケティングキャンペーンを含む、**[!UICONTROL キャンペーンパッケージ]**&#x200B;のリストを表示できます。このリストをフィルタリングすると、例えば、パブリッシュ済み、承認待ちのキャンペーンのみを表示することが可能です。フィルタリングを実行するには、このビューの上部にあるリンクをクリックするか、「**[!UICONTROL リストをフィルター]**」リンクを使用して、表示するキャンペーンパッケージのステータスを選択します。
 
 ![](assets/mkg_dist_catalog_filter.png)
 
 ## パッケージの編集 {#edit-packages}
 
-The **[!UICONTROL Campaign packages]** page lets you view the summary of each package.
+**[!UICONTROL キャンペーンパッケージ]**&#x200B;ページでは、各パッケージの概要を表示できます。
 
 概要には、ラベル、キャンペーンのタイプのほか、パッケージの作成元であるキャンペーン名、フォルダーの情報が含まれます。
 
 編集するには、パッケージの名前をクリックします。ローカルエンティティ別またはステータス別に、オーダーを表示することもできます。
 
-This information is also offered in the **[!UICONTROL Campaign orders]** view which lists all orders.
+概要は、すべてのオーダーのリストが表示される&#x200B;**[!UICONTROL キャンペーンオーダー]**&#x200B;ビューでも参照できます。
 
 ![](assets/mkg_dist_catalog_op_command_details.png)
 
 セントラルオペレーターは、それには、次の 2 つの方法があります。
 
-1. 演算子は、注文名をクリックして編集できます。注文の詳細が表示されます。
+1. オペレーターはオーダーの名前をクリックして編集を実行します。オーダーの詳細が表示されます。
 
    ![](assets/mkg_dist_catalog_op_command_edit1.png)
 
-   The **[!UICONTROL Edit > General]** tab lets you view information entered by the local entity when it ordered the campaign.
+   **[!UICONTROL 編集／「一般」]**&#x200B;タブには、キャンペーンのオーダー時にローカルエンティティによって入力された情報が表示されます。
 
    ![](assets/mkg_dist_catalog_op_command_edit1a.png)
 
@@ -67,11 +67,11 @@ This information is also offered in the **[!UICONTROL Campaign orders]** view wh
 
 セントラルエンティティは、いつでもキャンペーンパッケージをキャンセルできます。
 
-キャンペーン **[!UICONTROL Cancel]** パッケージ内をクリックしま **[!UICONTROL Dashboard]**&#x200B;す。
+キャンペーンパッケージの&#x200B;**[!UICONTROL ダッシュボード]**&#x200B;で、「**[!UICONTROL パッケージをキャンセル]**」をクリックします。
 
 ![](assets/mkg_dist_cancel_op_from_dashboard.png)
 
-The **[!UICONTROL Comment]** field lets you justify the cancellation.
+「**[!UICONTROL コメント]**」フィールドにキャンセルの理由を入力します。
 
 **ローカルキャンペーン**&#x200B;の場合は、使用可能なマーケティングキャンペーンのリストから、キャンセルされたパッケージが削除されます。
 
@@ -96,15 +96,15 @@ The **[!UICONTROL Comment]** field lets you justify the cancellation.
 パブリッシュ済みのキャンペーンパッケージは、再初期化し、修正を加えて、再びローカルエンティティに提供することができます。
 
 1. 再初期化するパッケージを選択します。
-1. リンクをクリック **[!UICONTROL Reinitialize the package to reuse it]** し、をクリックしま **[!UICONTROL OK]**&#x200B;す。
+1. **[!UICONTROL パッケージを再初期化して再利用]**&#x200B;リンクをクリックし、「**[!UICONTROL OK]**」をクリックします。
 
    ![](assets/mkg_dist_mutual_op_reinit.png)
 
-1. Click the **[!UICONTROL Save]** button to approve package re-initialization.
+1. 「**[!UICONTROL 保存]**」ボタンをクリックして、パッケージの再初期化を承認します。
 
    ![](assets/mkg_dist_mutual_op_reinit2.png)
 
-1. パッケージの状態がに変わりま **[!UICONTROL Being edited]**&#x200B;す。 パッケージに修正を加え、承認し、パブリッシュすると、そのパッケージは再びキャンペーンパッケージのリストに表示されます。
+1. パッケージのステータスが&#x200B;**[!UICONTROL 編集中]**&#x200B;に変わります。パッケージに修正を加え、承認し、パブリッシュすると、そのパッケージは再びキャンペーンパッケージのリストに表示されます。
 
 >[!NOTE]
 >

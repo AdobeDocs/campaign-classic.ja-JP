@@ -13,8 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c5a9823b2feb6e2f721a2ad15dc08c1abe672054
+translation-type: tm+mt
+source-git-commit: 928c2d944bb9709b54a41b07e8828646f2601cb9
+workflow-type: tm+mt
+source-wordcount: '769'
+ht-degree: 96%
 
 ---
 
@@ -45,9 +48,9 @@ Adobe Campaign の配信機能と高度なキャンペーン管理機能を、�
 
 ## E メール配信品質の設定方法は？ {#how-to-configure-email-deliverability-}
 
-[配信品質に関するはじめにガイド](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)のほか、E メール配信品質の設定に関する節も参照すると、Campaign の配信機能を最大化するインスタンスの設定方法を理解できます。
+「 [配信品質の設定](../../delivery/using/about-deliverability.md#configuration) 」セクションに加えて、技術的な推奨事項の「配信品質」を読み、キャンペーン配信機能を最大限に活かすためにインスタンスの設定方法を理解してください。
 
-[詳しくはここをクリック](../../installation/using/email-deliverability.md)してください。
+[詳しくはここをクリック](../../delivery/using/technical-recommendations.md)してください。
 
 ## コンテンツの承認はどのように実行できますか？ {#how-can-i-implement-content-approval-}
 
@@ -105,7 +108,7 @@ CRM ツールを Adobe Campaign と同期させる方法については、[CRM �
 
 1. これらの xml ファイルと関連フォルダーを削除します。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >nlclient_cnx.xml ファイルは削除しないでください。
 

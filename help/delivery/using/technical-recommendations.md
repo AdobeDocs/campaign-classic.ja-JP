@@ -13,7 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
+source-git-commit: 5f73f6bc4cbc00c1b4e2f2a75e27a3056b517006
+workflow-type: tm+mt
+source-wordcount: '2464'
+ht-degree: 97%
 
 ---
 
@@ -78,12 +81,6 @@ DKIM は、Yahoo! の DomainKeys と Cisco の Identified Internet Mail とい�
 
 DKIM が **DomainKeys** 認証方式の後継となりました。
 
->[!IMPORTANT]
->
->ホストインストールまたはハイブリッドインストールで、Enhanced MTA にアップグレードした場合、DKIM の E メール認証署名は Enhanced MTA がおこないます。DKIM-signing by the native Campaign MTA will be turned off within the **[!UICONTROL Domain management]** table as part of the Enhanced MTA upgrade.
->
->Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)を参照してください。
-
 DKIM を使用するには、次のように、いくつかの前提条件を満たす必要があります。
 
 * **セキュリティ**：暗号化が DKIM の重要な要素であり、2013 年春以降の DKIM のセキュリティレベルを保証するには、1024 ビットが、ベストプラクティスで推奨される暗号化サイズです。これより小さいサイズの DKIM 鍵は、大多数のアクセスプロバイダーには有効とはみなされません。
@@ -92,10 +89,14 @@ DKIM を使用するには、次のように、いくつかの前提条件を満
 
 >[!NOTE]
 >
->* お使いの Adobe Campaign インスタンスに DomainKeys を設定してある場合は、ドメイン処理ルールで **dkim** を選択するだけです。そうでない場合は、DomainKeys の場合と同じ設定手順（秘密鍵／公開鍵）に従います。
+>* If you have configured DomainKeys for your Adobe Campaign instance, you just need to select **dkim** in the [Domain management rules](../../delivery/using/understanding-delivery-failures.md#domain-management). そうでない場合は、DomainKeys の場合と同じ設定手順（秘密鍵／公開鍵）に従います。
 >* DKIM は DomainKeys の改良版なので、同じドメインに DomainKeys と DKIM の両方を有効にする必要はありません。
 >* 現在 DKIM が有効になっているドメインは、AOL および Gmail です。
 
+
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html), DKIM email authentication signing is done by the Enhanced MTA for all messages with all domains.
 
 ### DMARC {#dmarc}
 
@@ -148,8 +149,8 @@ Recommendations for defining an SPF record:
 
 Adobe Campaign でシンプルなフィードバックループを実装する場合は、バウンスメッセージ機能が使用されます。フィードバックループメールボックスは、バウンスメールボックスとして使用され、これらのメッセージを検出するためのルールが定義されます。メッセージをスパムとして報告した受信者の E メールアドレスは、強制隔離リストに追加されます。
 
-* バウンスメールルール **Feedback_loopを作成または変更します。このルールは、「拒否」(** Refused **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** )と「ハード」( **Hard** )という理由で作成します ****。
-* If a mailbox has been defined specially for the feedback loop, define the parameters to access it by creating a new external Bounce Mails account in **[!UICONTROL Administration > Platform > External accounts]**.
+* **[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／メールルールセット]**&#x200B;で、理由として「**拒否**」、タイプとして「**ハード**」を指定してバウンスメールルール **Feedback_loop** を作成または変更します。
+* メールボックスが特にフィードバックループ用に定義されている場合は、**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;で新しい外部バウンスメールアカウントを作成することにより、メールボックスにアクセスするためのパラメーターを定義します。
 
 苦情の通知を処理するメカニズムがただちに有効になります。このルールが正しく機能していることを確認するには、これらのメッセージが収集されないようにアカウントを一時的に無効にした後、フィードバックループメールボックスの内容を手動で確認します。サーバー上で、次のコマンドを順に実行します。
 
@@ -245,7 +246,7 @@ Gmail、Outlook.com および Microsoft Outlook はこの手法をサポート�
 
 SMTP（Simple Mail Transfer Protoco）は、E メール送信のインターネット標準です。
 
-ルールでチェックされないSMTPエラーは、> > > **[!UICONTROL Administration]** >フォルダー **[!UICONTROL Campaign Management]** に表示 **[!UICONTROL Non deliverables Management]** され **[!UICONTROL Delivery log qualification]** ます。 これらのエラーメッセージは、デフォルトでは、到達不能なソフトエラーと解釈されます。最も一般的なエラーを特定し、SMTPサーバからのフィードバックを正しく修飾したい場合は、 **[!UICONTROL Administration]** > > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** に **[!UICONTROL Mail rule sets]** 対応するルールを追加する必要があります。 これをおこなわないと、プラットフォームは不要な再試行を実行したり（不明ユーザーの場合）、一定回数のテストの後に特定の受信者を誤って強制隔離したりすることになります。
+ルールでチェックされない SMTP エラーは、**[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信不能件数の管理]**／**[!UICONTROL 配信ログの検証]**&#x200B;フォルダーにリスト表示されます。これらのエラーメッセージは、デフォルトでは、到達不能なソフトエラーと解釈されます。SMTP サーバーからのフィードバックを正しく検証する場合は、最もよく起こるエラーを特定し、それに対応するルールを&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信不能件数の管理]**／**[!UICONTROL メールルールセット]**&#x200B;に追加する必要があります。これをおこなわないと、プラットフォームは不要な再試行を実行したり（不明ユーザーの場合）、一定回数のテストの後に特定の受信者を誤って強制隔離したりすることになります。
 
 ### 専用の IP {#dedicated-ips}
 

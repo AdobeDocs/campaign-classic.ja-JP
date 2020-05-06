@@ -3,9 +3,12 @@ audience: end-user
 user-guide-title: Adobe Campaign Classic ヘルプ
 index: y
 product: adobe campaign
-sub-product: adobeキャンペーンクラシック
+sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
+source-git-commit: 2ba9efa49f26559786641ff5e1caa9c481f770b2
+workflow-type: tm+mt
+source-wordcount: '2038'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
 + リリースノート{#release-notes}
    + [最新リリース](rn/using/latest-release.md)
    + 以前のリリース {#previous-releases}
-      + [リリース19.2](rn/using/release--19-2.md)
+      + [リリース 19.2](rn/using/release--19-2.md)
       + [リリース 19.1](rn/using/release--19-1.md)
       + [リリース 18.10](rn/using/release--18-10.md)
       + [リリース 18.6](rn/using/release--18-6.md)
@@ -66,8 +69,8 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [データパッケージの使用](platform/using/working-with-data-packages.md)
       + [列挙の管理](platform/using/managing-enumerations.md)
       + [外部アカウント](platform/using/external-accounts.md)
-   + 外部データベース{#accessing-external-database}
-      + [FDA](platform/using/about-fda.md)
+   + 外部データベースへのアクセス（FDA）{#accessing-external-database}
+      + [FDA について](platform/using/about-fda.md)
       + [データベースタイプ別の特定の設定](platform/using/specific-configuration-database.md)
       + [リモートデータベースのアクセス権](platform/using/remote-database-access-rights.md)
       + [データベースへの接続](platform/using/connecting-to-database.md)
@@ -151,12 +154,13 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [新しいプラットフォームの開始](delivery/using/starting-new-platform.md)
       + [メッセージコンテンツの制御](delivery/using/control-message-content.md)
       + [レピュテーションの向上](delivery/using/improve-reputation.md)
-      + [再エンゲージメントのベストプラクティス](delivery/using/re-engagement-best-practices.md)
       + [技術的な推奨事項](delivery/using/technical-recommendations.md)
-      + [技術的監視](delivery/using/technical-monitoring.md)
+      + [配信品質の監視](delivery/using/monitoring-deliverability.md)
       + [受信ボックスレンダリング](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
+      + [再エンゲージメントのベストプラクティス](delivery/using/re-engagement-best-practices.md)
       + [ブラックリストデータベース](delivery/using/blacklisting-databases.md)
+      + [トラブルシューティング](delivery/using/deliverability-faq.md)
    + コンテンツ管理モジュール {#content-management}
       + [コンテンツ管理について](delivery/using/about-content-management.md)
       + [コンテンツマネージャーのリソースと原則](delivery/using/content-manager-resources-and-principles.md)
@@ -286,34 +290,34 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
 + Adobe Experience Cloud との統合 {#integrating-with-adobe-experience-cloud}
    + [Campaign 統合について](integrations/using/about-campaign-integrations.md)
    + オーディエンスの共有 {#audience-sharing}
-      + [[!DNL Adobe Experience Cloud]とのオーディエンスの共有](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [オーディエンスの共有( [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [アドビへの依頼の送信](integrations/using/submitting-request-to-adobe.md)
-      + [[!DNLオーディエンス]で共有Adobe Campaign統合を設定](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [共有オーディエンス統合の設定( [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [トラブルシューティング](integrations/using/troubleshooting.md)
       + [オーディエンスのインポートおよびエクスポート](integrations/using/importing-and-exporting-audiences.md)
    + アセットの共有 {#asset-sharing}
-      + [[!DNL Adobe Experience Cloud]とのアセットの共有](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [[!DNL Assets]へのアクセスを構成しています](integrations/using/configuring-access-to-assets.md)
+      + [アセットの共有 [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+      + [アクセスの設定 [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
       + [共有アセットを挿入](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [バージョン情報](integrations/using/about-adobe-experience-manager.md)
+      + [バージョン情報 [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [統合の設定](integrations/using/configuring-the-integration.md)
-      + [[!DNL Experience Manager]ニュースレターの作成](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [ニュースレター [!DNL Experience Manager] の作成](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [[!DNL Adobeターゲット]との統合](integrations/using/integrating-with-adobe-target.md)
-      + [[!DNL Adobeターゲット]との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [統合の対象 [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+      + [統合の設定 [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [動的画像の挿入](integrations/using/inserting-a-dynamic-image.md)
    + Adobe ID を使用した接続 {#connecting-via-an-adobe-id}
-      + [バージョン情報](integrations/using/about-adobe-id.md)
-      + [[!DNL IMS]の設定](integrations/using/configuring-ims.md)
-      + [[!DNL IMS]の実装](integrations/using/implementing-ims.md)
+      + [バージョン情報 [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
+      + [設定 [!DNL IMS]](integrations/using/configuring-ims.md)
+      + [導入 [!DNL IMS]](integrations/using/implementing-ims.md)
       + [IMS のトラブルシューティング](integrations/using/ims-troubleshooting.md)
    + ACS コネクタ {#acs-connector}
-      + [[!DNL ACSコネクタ]の原則とデータサイクル](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [[!DNL ACS Connector] 原則とデータ・サイクル](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [プロファイルの同期](integrations/using/synchronizing-profiles.md)
       + [オーディエンスの同期](integrations/using/synchronizing-audiences.md)
       + [Web アプリケーションの同期](integrations/using/synchronizing-web-applications.md)
-      + [[!DNL ACSコネクタ]のトラブルシューティング](integrations/using/troubleshooting-the-acs-connector.md)
+      + [トラブルシューティング [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
 + ワークフローによる自動化 {#automating-with-workflows}
    + はじめに {#introduction}
       + [ワークフローについて](workflow/using/about-workflows.md)
@@ -419,7 +423,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
       + [ワークフローのプロパティ](workflow/using/workflow-properties.md)
       + [詳細設定パラメーター](workflow/using/advanced-parameters.md)
       + [JS のスクリプトとテンプレート](workflow/using/javascript-scripts-and-templates.md)
-      + [外部データベース](workflow/using/accessing-an-external-database--fda-.md)
+      + [外部データベースへのアクセス（FDA）](workflow/using/accessing-an-external-database--fda-.md)
       + [権限の管理](workflow/using/managing-rights.md)
       + [アクティビティ画像の管理](workflow/using/managing-activity-images.md)
       + [傾向の管理](workflow/using/managing-propensity.md)
@@ -588,7 +592,7 @@ source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
    + 任意の追加設定 {#additional-configurations}
       + [Campaign サーバーの設定](installation/using/configuring-campaign-server.md)
       + [LDAP を介した接続](installation/using/connecting-through-ldap.md)
-      + [技術的な電子メールの設定](installation/using/email-deliverability.md)
+      + [技術的な E メール設定](installation/using/email-deliverability.md)
       + [E メールのアーカイブ](installation/using/email-archiving.md)
       + [タイムゾーン管理](installation/using/time-zone-management.md)
       + [SpamAssassin の設定](installation/using/configuring-spamassassin.md)

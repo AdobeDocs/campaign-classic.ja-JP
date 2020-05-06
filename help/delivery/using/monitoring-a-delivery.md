@@ -14,8 +14,11 @@ discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4c4e2cfaa9603c42e5e97de1e13318f8541921ca
+translation-type: tm+mt
+source-git-commit: fcedad248169f53e716f2bd8b1b141fbf1f4d189
+workflow-type: tm+mt
+source-wordcount: '2679'
+ht-degree: 98%
 
 ---
 
@@ -24,12 +27,12 @@ source-git-commit: 4c4e2cfaa9603c42e5e97de1e13318f8541921ca
 
 **配信ダッシュボード**&#x200B;は、配信と、メッセージの送信時に結果として起こる問題を監視するための重要な要素です。
 
-**関連トピック**
+**関連トピック：**
 
 * [配信エラーの理解](../../delivery/using/understanding-delivery-failures.md)
 * [強制隔離管理の理解](../../delivery/using/understanding-quarantine-management.md)
-* [配信のベストプラクティス](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/deliveryBestPractices.html)
-* [はじめに：配信品質の管理](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)
+* [配信のベストプラクティス](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
+* [配信品質の管理](../../delivery/using/about-deliverability.md)
 
 ## 配信ダッシュボード {#delivery-dashboard}
 
@@ -274,8 +277,8 @@ E メール配信のステータスが&#x200B;**[!UICONTROL 失敗]**&#x200B;で
 デフォルトでは、配信のリストには、選択したノードで作成された配信の名前とステータスが含まれます。送信するメッセージ数、処理されたメッセージ数および送信が成功したメッセージ数も表示されます。
 
 * **[!UICONTROL 送信するメッセージ]**&#x200B;の数は、分析後かつ配信前にターゲットとされている受信者数に一致します。
-* 「**[!UICONTROL 成功]**」列のメッセージの数は、サーバーが送信し、受信者が受け取ったメッセージの数に一致します。
-* **[!UICONTROL 処理済み]**&#x200B;メッセージ数は、受信されたメッセージの数にエラーになったメッセージ数を加えたものです。
+* The number of messages in the **[!UICONTROL Success]** column corresponds to the number of messages sent by the server and received by the recipients.
+* **[!UICONTROL 処理されたメッセージの数は]** 、受信したメッセージの数とエラーのあるメッセージの数に対応します。
 
 配信ダッシュボードで、送信されたメッセージ数をトラッキングできます。
 

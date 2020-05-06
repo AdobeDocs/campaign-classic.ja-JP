@@ -12,8 +12,11 @@ discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+translation-type: tm+mt
+source-git-commit: fcedad248169f53e716f2bd8b1b141fbf1f4d189
+workflow-type: tm+mt
+source-wordcount: '2929'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +41,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 >* 入力した E メールアドレスの形式はチェックされます。
 
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >インターネットアクセスプロバイダー（ISP）の迷惑メールチェック機能による誤認識を防ぐために、配信用と返信用のそれぞれのアドレスに対応した E メールアカウントを作成することをお勧めします。詳しくは、自社のシステム管理者にご相談ください。
 
@@ -46,7 +49,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 メッセージの件名は、該当するフィールドで設定します。フィールドに直接入力することも、「**[!UICONTROL 件名]**」リンクをクリックしてスクリプトを入力することもできます。パーソナライゼーションのリンクを使用して、件名の中にデータベースフィールドを挿入できます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >メッセージの件名は必須です。
 
@@ -62,7 +65,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
 ## メッセージの内容 {#message-content}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >プライバシー保護のために、すべての外部リソースに対して HTTPS を使用することをお勧めします。
 
@@ -74,7 +77,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
    [デジタルコンテンツエディター](../../web/using/about-campaign-html-editor.md)（DCE）を使用している場合は、[コンテンツテンプレートの選択](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content)を参照してください。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >HTML コンテンツは、事前に作成してから Adobe Campaign にインポートする必要があります。HTML エディターはコンテンツ作成用に設計されたものではありません。
 
@@ -128,7 +131,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
    テキスト形式と HTML 形式の両方を含んだメッセージが送信されます。受信時に表示されるメッセージ形式は、受信者のメールソフトウェアの設定に応じて切り替わります（マルチパート／オルタナティブ）。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >このオプションを指定すると、両方のバージョンのドキュメントがメッセージに含められます。したがって、メッセージサイズが大きくなり、配信の順位に影響があります。
 
@@ -169,7 +172,7 @@ HTML 形式の E メール配信には、画像を含めることができます
 
 * Adobe Experience Cloud と共有されているアセット。[この節](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md)を参照してください。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >配信ウィザードを使用して E メールメッセージに画像を含めるには、Adobe Campaign インスタンスの設定でパブリックリソースの管理が有効になっている必要があります。この設定は、デプロイウィザードで実行できます。設定について詳しくは、[この節](../../installation/using/deploying-an-instance.md)を参照してください。
 
@@ -194,7 +197,7 @@ HTML 形式の E メール配信には、画像を含めることができます
 
 ![](assets/s_ncs_user_email_del_img_local.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >画像へのアクセスパスは、手動でのアップロード時やメッセージの送信時に変更されます。
 
@@ -360,7 +363,7 @@ Adobe Campaign では、メッセージのフォーマットが日本の携帯�
 
 プレビュー診断に加えて、配達確認または配信を送信する際に 2 番目のチェックが実行されます。特殊なタイポロジルール「**[!UICONTROL デコメールの検証]**」が分析中に開始されます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >このタイポロジルールは、1 人以上の受信者が&#x200B;**[!UICONTROL デコメール（DoCoMo）]**、**[!UICONTROL デコレメール（Softbank）]**&#x200B;または&#x200B;**[!UICONTROL デコレーションメール（KDDI au）]**&#x200B;フォーマットで E メールを受信するように設定されている場合にのみ実行されます。
 
@@ -397,6 +400,6 @@ Adobe Campaign がドメインに応じてフォーマットを動的に管理�
 
 メッセージの連絡先は、日本の携帯電話のユーザーに対しても標準の受信者と同じように正しく表示されます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >日本独自の E メールフォーマット（デコメール、デコレーションメール、デコレメール）に関連する特別な機能については注意が必要です。制限事項について詳しくは、[この節](#limitations-and-recommendations)を参照してください。

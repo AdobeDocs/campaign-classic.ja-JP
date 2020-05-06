@@ -12,8 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 68756f920fbc8658cff552615adbf023b4c5e3aa
+translation-type: tm+mt
+source-git-commit: c687c8ad19560d4181c2db52a91e096cceea705e
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 100%
 
 ---
 
@@ -47,4 +50,4 @@ E メール配信品質とは、厳密にはどのような意味なのでしょ
 
 E メール配信品質とは、期待される品質のコンテンツとフォーマットを持つメッセージが、個人の E メールアドレスを通じて短時間で宛先に到達する能力を判断する一連の特性のことを指します。これらの特性は、データ品質、メッセージとコンテンツ、送信インフラストラクチャ、レピュテーションの 4 つの主なカテゴリに分類されます。これらにより、成功する E メール配信品質プログラムの基礎が形成されます。この概要では、E メール配信品質を高めるための 4 つの基本事項について説明します。また、E メールを受信ボックスに到達させ、E メールマーケティングプログラムから得られる利益を向上させるためのベストプラクティスについても説明します。
 
-![](assets/deliverability_overview_2.png)
+<!--![](assets/deliverability_overview_2.png)-->

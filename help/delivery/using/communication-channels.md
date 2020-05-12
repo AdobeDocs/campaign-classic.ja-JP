@@ -14,8 +14,11 @@ discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3641e438784d40aa097f8c89ca19bdbb52f4bc7d
+translation-type: tm+mt
+source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
+workflow-type: tm+mt
+source-wordcount: '771'
+ht-degree: 99%
 
 ---
 
@@ -39,7 +42,7 @@ Adobe Campaign は次の配信チャネルを提供します。
 1. **モバイルチャネル**：モバイルチャネル経由の配信によって、ターゲット母集団にパーソナライズされた SMS または LINE メッセージを送信できます。[SMS チャネル](../../delivery/using/sms-channel.md)を参照してください。
 1. **モバイルアプリケーションチャネル**：モバイルアプリ配信では通知を iOS システムおよび Android システムに送信できます。[モバイルアプリチャネル](../../delivery/using/about-mobile-app-channel.md)の章を参照してください。
 
-   他のチャネルについて詳しくは、[このページ](../../delivery/using/other-channels.md)を参照してください。
+   Other channels are described on [this page](../../delivery/using/other-channels.md).
 
    >[!NOTE]
    >

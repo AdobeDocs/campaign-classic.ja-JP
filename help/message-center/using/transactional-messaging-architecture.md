@@ -12,8 +12,11 @@ discoiquuid: a910d5fe-cef4-47d8-b3bc-0055ef0d1afd
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 25ae29490f8b4c58dad499669f5bccff43de8b7a
+translation-type: tm+mt
+source-git-commit: e8a9d8d63c01cc19380267fced45e180b4d7ccb4
+workflow-type: tm+mt
+source-wordcount: '1114'
+ht-degree: 100%
 
 ---
 
@@ -75,40 +78,40 @@ Adobe Campaign のトランザクションメッセージ機能（Message Center
 
    ![](assets/messagecenter_install_channel.png)
 
-## トランザクションメッセージおよびインバウンドインタラクション {#transactional-messages-and-inbound-interaction}
+<!--## Transactional messages and inbound Interaction {#transactional-messages-and-inbound-interaction}
 
-トランザクションメッセージでは、インバウンドインタラクションモジュールと組み合わせることで、その受信者専用のマーケティングオファーをメッセージに挿入することができます。
+When combined with the Inbound Interaction module, transactional messaging enables you to insert a marketing offer dedicated to the recipient into the message.
 
 >[!NOTE]
 >
->インタラクションモジュールについて詳しくは、[インタラクション](../../interaction/using/interaction-and-offer-management.md)を参照してください。
+>The Interaction module is detailed in [Interaction](../../interaction/using/interaction-and-offer-management.md).
 
-トランザクションメッセージをインタラクションと一緒に使用するには、以下の設定をおこなう必要があります。
+To use transactional messaging with Interaction, you need to apply the following configurations:
 
-* コントロールインスタンス上に&#x200B;**インタラクション**&#x200B;パッケージをインストールし、オファーカタログを設定します。
+* Install the **Interaction** package onto the control instance and configure your offer catalog.
 
-   >[!CAUTION]
-   >
-   >オファーは実行インスタンス上に複製しないでください。
+  >[!CAUTION]
+  >
+  >Do not replicate the offers onto the execution instances.
 
-* オファーのパーソナライズには、受信者にリンクされた識別子がイベントに含まれている必要があります。この識別子の値は **@externalId** 属性に記載されている必要があります。**インタラクション**&#x200B;は、プライマリキーで受信者を識別するようデフォルトで設定されています。
+* The event must include an identifier linked to the recipients, for personalizing offers. The **@externalId** attribute must contain the value of this identifier. **Interaction** is configured by default to identify the recipient of the primary key:
 
-   ```
-   <rtEvent type="order_confirmation" email="john.doe@adobe.com" externalId="1242"> 
-   ```
+  ```
+  <rtEvent type="order_confirmation" email="john.doe@adobe.com" externalId="1242"> 
+  ```
 
-   例えば E メールアドレスなど、指定したフィールドによる識別がおこなわれるよう、**インタラクション**&#x200B;を設定することもできます。
+  You can configure **Interaction** so that identification takes place in the field of your choice, for example on the email address:
 
-   ```
-   <rtEvent type="order_confirmation" email="john.doe@adobe.com" externalId="john.doe@yahoo.com"> 
-   ```
+  ```
+  <rtEvent type="order_confirmation" email="john.doe@adobe.com" externalId="john.doe@yahoo.com"> 
+  ```
 
-E メールキャンペーン用に作成するのと同様に、配信テンプレートを作成します。
+Create your delivery templates the way you would for an email campaign:
 
-* オファーをトランザクションメッセージテンプレートに追加します。
-* プレビューを確認して、配達確認を送信し、テンプレートをパブリッシュします。
+* Add the offer to your transactional message template.
+* Check the preview, send a proof and publish the template.
 
-また、オファースペースで、単一モードを有効にする必要があります。詳しくは、[この節](../../interaction/using/creating-offer-spaces.md)を参照してください。
+You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).-->
 
 ## トランザクションメッセージおよびプッシュ通知 {#transactional-messaging-and-push-notifications}
 

@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a30c4a2d31c3f674ac4a7bb4827a6951b36014ab
+source-git-commit: 74e1a883088d347cb1aab05d76b630c912411fc4
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 50%
+source-wordcount: '811'
+ht-degree: 46%
 
 ---
 
@@ -39,9 +39,14 @@ Adobe Campaignが提供する機能を使用して、プラットフォームの
 
 * The **[!UICONTROL Delivery throughput]** report gives you an overview of the entire platform&#39;s throughput for a given period. 詳しくは、[この節](../../reporting/using/global-reports.md#delivery-throughput)を参照してください。
 * [ **[!UICONTROL 技術的な配信品質監視]** ]レポートには、お使いのプラットフォーム向けに多数の配信品質インジケータが含まれています。 詳しくは、[この節](#technical-deliverability-monitoring)を参照してください。
-* [配信ダッシュボード](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) では、 [配信概要](../../delivery/using/monitoring-a-delivery.md#delivery-summary)、 [配信ログと履歴](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) 、および [](../../delivery/using/monitoring-a-delivery.md#tracking-logs)トラッキングログにアクセスできます。 送信の詳細(除外されたターゲットと理由)、および開封数やクリック数などの追跡情報が表示されます。 <!--For more on this, see [Monitoring a delivery](../../delivery/using/monitoring-a-delivery.md).-->
-* また、送信、処理、送信に成功した場合のメッセージ数を確認することもできます。 For more on this, see [this section](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent)
-   <!--[SpamAssassin](../../installation/using/configuring-spamassassin.md)?-->
+* 各配信は、異なるインターネットサービスプロバイダー(ISP)に関するブロードキャスト統計レポートを生成します。 配信品質に影響を与える可能性のあるデータ品質と評価の指標がいくつか表示されます。次の数値が含まれます。
+   * **[!UICONTROL ハードバウンスは]** 、データの質を示します。 この数は2%未満にする必要があります。
+   * **[!UICONTROL ソフトバウンスは]** 、評判を示します。 特定のISPに対して、この値を10 %以下にする必要があります。
+   詳しくは、「 [配信統計](../../reporting/using/global-reports.md#delivery-statistics) 」を参照してください。
+* より一般的に、 [配信ダッシュボード](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard) では次の項目にアクセスできます。
+   * 送信の詳細と、送信、処理および送信が成功して行われた [配信](../../delivery/using/monitoring-a-delivery.md#delivery-summary)[の](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent) 数を示すメッセージ概要。
+   * 配信ログと [歴史](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)、つまり除外されたターゲットとその理由を示す。
+   * 開いた回数やクリック数などの追跡情報を示す [トラッキングログ](../../delivery/using/monitoring-a-delivery.md#tracking-logs)。
 
 ## 監視のガイドライン {#monitoring-guidelines}
 

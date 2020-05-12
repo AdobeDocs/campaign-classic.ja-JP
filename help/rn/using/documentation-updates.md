@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9091059b1d8431a84eb93f104dbd8e8833cb94a7
+source-git-commit: 2e82605eda5bccd2e5604614acd4cb7d646822fc
 workflow-type: tm+mt
-source-wordcount: '6502'
+source-wordcount: '6516'
 ht-degree: 98%
 
 ---
@@ -37,6 +37,7 @@ Adobe Campaign Classic ドキュメントのすべての最新アップデート
 
 「新しいプラットフォームの開始」セクションが強化されました。 [詳細を表示](../../delivery/using/starting-new-platform.md)
 
+「添付ファイルを含むトランザクション電子メールの送信」セクションが移動および更新されました。 [詳細を表示](../../message-center/using/transactional-email-with-attachments.md)
 
 ## 2020 年 4 月 {#april-2020}
 

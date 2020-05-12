@@ -14,8 +14,11 @@ discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 92f4047628eca0fc1d71aded0329720c094463bd
+translation-type: tm+mt
+source-git-commit: 4148efa9c7a8b002672d72fc526753bf7304673c
+workflow-type: tm+mt
+source-wordcount: '3050'
+ht-degree: 98%
 
 ---
 
@@ -278,6 +281,14 @@ Adobe Campaign は、管理者（&#39;admin&#39;）、請求（&#39;billing&#39;
 1. ローカル管理、中央管理
 
    このグループのオペレーターは&#x200B;**分散型マーケティング**（Adobe Campaign オプションモジュール）を使用できます。
+
+1. オファーマネージャー
+
+   このグループの演算子は、オファーの作成と管理を行うことができます。 For more information on this, refer to this [page](../../interaction/using/operator-profiles.md).
+このグループには以下のネームド権限が設定されています。
+
+   * フォルダの挿入： Adobe Campaignツリーにフォルダを挿入する権限（該当するブランチの編集権限がある場合）、
+   * フォルダーを編集：内部名、ラベル、関連する画像、サブフォルダーの順序など、フォルダーのプロパティを変更する権利。
 
 ## ネームド権限 {#named-rights}
 

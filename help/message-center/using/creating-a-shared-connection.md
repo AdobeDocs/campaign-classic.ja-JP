@@ -14,15 +14,18 @@ discoiquuid: 7f471ac1-cd6a-4371-977e-52d60ce8d968
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 65043155ab6ff1fe556283991777964bb43c57ce
+translation-type: tm+mt
+source-git-commit: f4ecdab4c17a6ba8deb3b98079f57bb7a9adf4a0
+workflow-type: tm+mt
+source-wordcount: '1051'
+ht-degree: 100%
 
 ---
 
 
 # 共有接続の作成{#creating-a-shared-connection}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* コントロールインスタンスまたは実行インスタンスで [Message Center テクニカルワークフロー](../../message-center/using/technical-workflows.md)によって使用されるスキーマで作成されたスキーマ拡張は、Adobe Campaign トランザクションメッセージモジュールによって使用される別のインスタンスに複製する必要があります。
 >* コントロールインスタンスおよび実行インスタンスは、異なるマシンにインストールする必要があります。同じ Campaign インスタンスを共有できなくなります。

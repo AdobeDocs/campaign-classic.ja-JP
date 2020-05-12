@@ -14,8 +14,11 @@ discoiquuid: 5ff1577f-0809-46fd-ac1e-11b24637e35c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: cda7ae757a6de0e8cd6227faa2b731e9f392791b
+translation-type: tm+mt
+source-git-commit: e9923eb8cb78e7af05d64a122cd35b9cf3a4f215
+workflow-type: tm+mt
+source-wordcount: '1813'
+ht-degree: 98%
 
 ---
 
@@ -199,7 +202,8 @@ Adobe Campaign と Adobe Analytics - Data コネクタとの間のデータ交�
 
 * **[!UICONTROL Web イベントの復元]**：このワークフローでは、指定したサイトでのユーザーの行動に関するセグメントを 1 時間に 1 回ダウンロードし、Adobe Campaign データベースに格納してリマーケティングワークフローを開始します。
 * **[!UICONTROL イベントパージ]**：このワークフローでは、「**[!UICONTROL 存続期間]**」フィールドで設定した期間に基づいてデータベースからすべてのイベントを削除できます。詳しくは、[手順 2：Campaign での外部アカウントの作成](#step-2--create-the-external-account-in-campaign)を参照してください。
-* **[!UICONTROL コンバージョン済みの連絡先の特定]**：リマーケティングキャンペーン後に購入をおこなった訪問者のディレクトリ。このワークフローで収集されたデータは、**[!UICONTROL リマーケティングの効率]**&#x200B;レポートでアクセスできます。この[ページ](#creating-a-re-marketing-campaign)を参照してください。***[!UICONTROL 指標とキャンペーン属性の送信]**：Adobe Analytics Data Connector を使用して Adobe Campaign から Adobe Experience Cloud に E メールキャンペーン指標を送信できます。このワークフローは毎日午前 4 時にトリガーされ、データを Analysis に送信するには 24 時間かかります。
+* **[!UICONTROL コンバージョン済みの連絡先の特定]**：リマーケティングキャンペーン後に購入をおこなった訪問者のディレクトリ。このワークフローで収集されたデータは、**[!UICONTROL リマーケティングの効率]**&#x200B;レポートでアクセスできます。この[ページ](#creating-a-re-marketing-campaign)を参照してください。
+* **[!UICONTROL インジケータとキャンペーン属性の送信]**: Adobe Analytics - Data connectorを使用して、Adobe Campaign経由でAdobe Experience Cloudに電子メールキャンペーン指標を送信できます。 このワークフローは毎日午前 4 時にトリガーされ、データを Analysis に送信するには 24 時間かかります。
 
    ワークフローは再起動しないでください。再起動すると、以前のデータがすべて再送され、Analytics の結果に歪みが生じる可能性があります。
 
@@ -231,7 +235,6 @@ Adobe Campaign と Adobe Analytics - Data コネクタとの間のデータ交�
    * **[!UICONTROL コンタクト日]** (scheduling/@contactDate)
 
 
-* **コンバージョン済みの連絡先の特定**：リマーケティングキャンペーン後に購入をおこなった訪問者のディレクトリ。このワークフローで収集されたデータは、**[!UICONTROL リマーケティングの効率]**&#x200B;レポートでアクセスできます（この[ページ](../../platform/using/adobe-analytics-data-connector.md#creating-a-re-marketing-campaign)を参照）。
 
 ## Adobe Campaign での配信のトラッキング {#tracking-deliveries-in-adobe-campaign}
 

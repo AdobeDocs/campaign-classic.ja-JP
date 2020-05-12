@@ -13,15 +13,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c687c8ad19560d4181c2db52a91e096cceea705e
+source-git-commit: e6617614ae22b73c6783f9775f441e5e25ae19e3
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '495'
 ht-degree: 100%
 
 ---
 
 
 # 配信品質について{#about-deliverability}
+
+**配信品質は、バウンスしたりスパムとしてマークされたりせずに受信者の受信ボックスに到達したかに基づいて、キャンペーンの成功を測定します。**
 
 Adobe Campaign には、プラットフォームの配信品質のパフォーマンスをトラッキングするツールがいくつか用意されています。また、配信品質を管理および最適化する際に考慮すべき主な原則についても説明します。
 

@@ -14,8 +14,11 @@ discoiquuid: 9cae3861-88eb-447a-aa23-9d1de0710eec
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+translation-type: tm+mt
+source-git-commit: 3522f4f50770dde220610cd5f1c4084292d8f1f5
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +45,7 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 
 1. メッセージの URL ごとに、トラッキングを有効化するかどうかを選択します。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >リンクの URL がラベルとして使用されている場合は、トラッキングを無効化してフィッシングによる拒否のリスクを回避することをお勧めします。
    >

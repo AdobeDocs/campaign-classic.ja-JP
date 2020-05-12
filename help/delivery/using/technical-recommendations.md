@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f73f6bc4cbc00c1b4e2f2a75e27a3056b517006
+source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
 workflow-type: tm+mt
-source-wordcount: '2464'
+source-wordcount: '2463'
 ht-degree: 97%
 
 ---
@@ -43,7 +43,7 @@ MX（Mail eXchanger）ルールは、送信サーバーと受信サーバーの�
 
 より正確に言うと、MX ルールは、Campaign MTA（メール転送エージェント）が E メールを個々の E メールドメインまたは ISP（例：hotmail.com、comcast.net）に送信する速度を制御するために使用されます。これらのルールは、通常、ISP によって公開された制限（例：各 SMTP 接続あたり 20 を超えるメッセージを含めない）に基づいています。
 
-MX 管理について詳しくは、[該当する節](../../installation/using/email-deliverability.md#mx-configuration)を参照してください。
+MX 管理について詳しくは、[この節](../../installation/using/email-deliverability.md#mx-configuration)を参照してください。
 
 ### TLS {#tls}
 

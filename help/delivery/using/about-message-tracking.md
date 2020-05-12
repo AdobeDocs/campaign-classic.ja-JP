@@ -14,8 +14,11 @@ discoiquuid: 5d8bbfe0-e202-4062-aa47-9ad87b975bb7
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
+translation-type: tm+mt
+source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +29,7 @@ E メール配信のコンテキストでは、トラッキングによって、
 
 トラッキング指標は、**[!UICONTROL URL とクリックストリーム]**、**[!UICONTROL トラッキング統計]**、**[!UICONTROL ホットクリック]**&#x200B;の各レポート、および配信の「**[!UICONTROL トラッキング]**」タブで確認できます。
 
-配信ダッシュボードは、配信と、メッセージの送信時に結果として起こる問題を監視するための重要な要素でもあります。詳しくは、この[節](../../delivery/using/monitoring-a-delivery.md)を参照してください。
+配信ダッシュボードは、配信と、メッセージの送信時に結果として起こる問題を監視するための重要な要素でもあります。For more on this refer to [this section](../../delivery/using/monitoring-a-delivery.md).
 
 **関連トピック**：
 

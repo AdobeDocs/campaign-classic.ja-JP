@@ -14,8 +14,11 @@ discoiquuid: 8b101c0b-3611-4f15-813b-7c0bf54fc48a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6e587747be546860c0a485b44aee79d396f25cec
+translation-type: tm+mt
+source-git-commit: 9773e8ae39133968e4e167d11715c123e00d22c2
+workflow-type: tm+mt
+source-wordcount: '3368'
+ht-degree: 100%
 
 ---
 
@@ -135,7 +138,7 @@ SMS のプロトコルと設定について詳しくは、この[技術メモ](h
 * 表記変換が&#x200B;**[!UICONTROL 許可されている]**&#x200B;場合、標準に準じていない文字はメッセージの送信時に GSM 文字に置き換えられます。例えば、「ë」は「e」に置き換えられます。そのため、メッセージは若干改変されますが、文字制限は同じです。
 * 表記変換が&#x200B;**[!UICONTROL 許可されていない]**&#x200B;場合、標準に準じていない文字があるメッセージはバイナリフォーマット（Unicode）で送信されます。そのため、すべての文字がそのまま送信されます。ただし、Unicode を使用する SMS メッセージは 70 文字以内に制限されています。複数の部分に分けて送信されるメッセージの場合は、SMS 1 件につき 67 文字以内です。文字数が上限を超えると、メッセージは複数に分かれて送信されますが、追加料金が発生する場合があります。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >パーソナライゼーションフィールドを SMS メッセージのコンテンツに入れると、GSM エンコードに対応していない文字が含まれる場合があります。
 
@@ -343,7 +346,7 @@ Adobe Campaign では、SMS メッセージの送信時に 1 つまたは複数�
 
 * 使用するエンコードと、リンクされた **[!UICONTROL data_coding]** フィールド値を指定した場合、Adobe Campaign はリストの最初のエンコードを使用します。最初のエンコードが使用できない場合、その次のエンコードを使用します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >宣言の順序は重要です。**コスト**&#x200B;が少ない順にリストを設定し、SMS メッセージになるべく多くの文字を使用できるようにすることをお勧めします。
 >
@@ -490,7 +493,7 @@ SMS のコンテンツを作成するには、次の手順に従います。
    <% if( String(recipient.mobilePhone).indexOf("+1") == 0){ %>NeoShopUS<%} else {%>NeoShopWorld<%}%>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >送信者名の変更については規制が適用される場合があります。お住まいの国の法律を確認してください。また、通信事業者が送信者名の変更機能を提供しているかどうかについても確認する必要があります。
 
@@ -546,7 +549,7 @@ InSMS スキーマには、受信 SMS に関する情報が含まれます。そ
 * **created**：受信メッセージが Adobe Campaign に挿入された日付
 * **extAccount**：Adobe Campaign の外部アカウント
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >次のフィールドは NetSize に特有のものです。
    >
@@ -570,7 +573,7 @@ Adobe Campaign 経由で送信した SMS メッセージに対し、購読者か
 
 このタイプのメッセージで使用する送信者名は、配信の送信時に通常使用される短いコードです。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >次の詳細手順は、SMPP コネクタ（拡張された SMPP コネクタは除く）の場合のみ有効です。詳しくは、[SMPP 外部アカウントの作成](#creating-an-smpp-external-account)の節を参照してください。
 >
@@ -617,7 +620,7 @@ Adobe Campaign 経由で送信した SMS メッセージに対し、購読者か
 
 1. このファイルを、Adobe Campaign の **conf** ディレクトリ内の、Web サーバーと同じ場所にコピーします。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >こうした自動メッセージは、履歴には記録されず、[配信ダッシュボード](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard)にも表示されません。
 >

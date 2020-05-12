@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: 2ba9efa49f26559786641ff5e1caa9c481f770b2
+source-git-commit: 24a50fcaad4d9081e5504652eb5b73aa7db1e65f
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2039'
 ht-degree: 98%
 
 ---
@@ -532,9 +532,7 @@ ht-degree: 98%
       + [Message Center サービスレベル](message-center/using/message-center-service-level.md)
       + [Message Center の処理時間](message-center/using/message-center-processing-time.md)
    + 使用例 {#use-case}
-      + [目的](message-center/using/purpose.md)
-      + [重要な注意事項](message-center/using/important-notes.md)
-      + [実装](message-center/using/implementation.md)
+      + [添付ファイル付きトランザクション電子メールの送信](message-center/using/transactional-email-with-attachments.md)
 + ソーシャルメディアとの統合 {#integrating-with-social-media}
    + [ソーシャルマーケティングについて](social/using/about-social-marketing.md)
    + 設定 {#configuration}

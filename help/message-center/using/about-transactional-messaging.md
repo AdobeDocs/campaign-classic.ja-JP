@@ -14,8 +14,11 @@ discoiquuid: 97df4bd5-a8e3-48f4-87c8-fa090ea3f771
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 833907c7a7b84b94a00b131738c73ff54a744a40
+translation-type: tm+mt
+source-git-commit: f4ecdab4c17a6ba8deb3b98079f57bb7a9adf4a0
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 833907c7a7b84b94a00b131738c73ff54a744a40
 
 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。これらのメッセージは、情報システムからトリガーされたイベントから生成されます。例えば、請求書、オーダー確認、出荷確認、パスワード変更、製品入手不可通知、アカウントステートメント、Web サイトアカウント作成などのメッセージがあります。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >トランザクションメッセージを利用するには特定のライセンスが必要です。使用許諾契約書を確認してください。
 

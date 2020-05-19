@@ -14,8 +14,11 @@ discoiquuid: b7ff47e1-ef12-4f04-afff-1a6c01d7701f
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 1aca6758bc787f91ae28d7d5add875edf04541e8
+workflow-type: tm+mt
+source-wordcount: '1420'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +58,11 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
    このオプションの設定は、**[!UICONTROL エンリッチメント]**&#x200B;アクティビティの&#x200B;**[!UICONTROL 追加データを編集]**&#x200B;リンクからアクセスできる「**[!UICONTROL 紐付けと重複排除]**」タブでおこないます。
 
-[データのエンリッチメント](../../workflow/using/enriching-data.md)と[サマリーリストの作成](../../workflow/using/creating-a-summary-list.md)の使用例では、状況に応じたエンリッチメントアクティビティの操作について詳しく説明しています。
+エンリッチメントアクティビティのコンテキストでの操作について詳しく説明する使用例は、次の節でも参照できます。
+
+* [カスタム日付フィールドを使用した E メールエンリッチメント](../../workflow/using/email-enrichment-with-custom-date-fields.md).
+* [データのエンリッチメント](../../workflow/using/enriching-data.md)
+* [サマリーリストの作成](../../workflow/using/creating-a-summary-list.md)
 
 ## 情報の追加 {#adding-information}
 

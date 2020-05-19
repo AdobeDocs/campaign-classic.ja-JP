@@ -13,29 +13,28 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e82605eda5bccd2e5604614acd4cb7d646822fc
+source-git-commit: be148d7cd55097b9014d2f4d3b095c65a5ca8c54
 workflow-type: tm+mt
-source-wordcount: '6516'
-ht-degree: 98%
+source-wordcount: '6478'
+ht-degree: 95%
 
 ---
 
 
 # ドキュメントのアップデート{#documentation-updates}
 
-Adobe Campaign Classic ドキュメントのすべての最新アップデートについて説明します。
+このページのリストは、月ごとおよびキャンペーンリリースごとのすべての新機能およびドキュメントの更新を行っています。
 
-このページには、Adobe Campaign Classic の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
+You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
-[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
 
 ## 2020 年 5 月 {#may-2020}
 
-配信品質の監視セクションが移動され、再構成されました。 [詳細を表示](../../delivery/using/monitoring-deliverability.md)
+配信品質の監視セクションが移動され、改善されました。 [詳細を表示](../../delivery/using/monitoring-deliverability.md)
 
-「配信品質のトラブルシューティング」セクションは移動および更新されました。 [詳細を表示](../../delivery/using/deliverability-faq.md)
+配信品質のトラブルシューティングセクションが移動され、改善されました。 [詳細を表示](../../delivery/using/deliverability-faq.md)
 
-「新しいプラットフォームの開始」セクションが強化されました。 [詳細を表示](../../delivery/using/starting-new-platform.md)
+新しいプラットフォームセクションを開始する際の配信品質のガイドラインが強化されました。 [詳細を表示](../../delivery/using/starting-new-platform.md)
 
 「添付ファイルを含むトランザクション電子メールの送信」セクションが移動および更新されました。 [詳細を表示](../../message-center/using/transactional-email-with-attachments.md)
 
@@ -45,11 +44,11 @@ FDA 権限テーブルは、「外部データベースへのアクセス（FDA�
 
 FAQ を更新し、ソフトキャッシュとハードキャッシュを消去する方法に関するヒントを追加しました。[詳細を表示](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)
 
-データモデルのベストプラクティスの節を改善し、インデックスに関する追加情報を追加しました。[詳細を表示](../../configuration/using/data-model-best-practices.md#indexes)
+データモデルのベストプラクティスが、インデックスに関する追加情報により改善されました。 [詳細を表示](../../configuration/using/data-model-best-practices.md#indexes)
 
-Adobe Campaign の事前定義データモデルについて説明する節を更新し、標準搭載の各テーブルの詳細と、関連するモジュールへのリンクを追加しました。[詳細を表示](../../configuration/using/data-model-description.md)
+Adobe Campaign組み込みのデータモデルについて説明する節では、各表の詳細が更新されました。 [詳細を表示](../../configuration/using/data-model-description.md)
 
-『ワークフローによる自動化』ガイドの使用例は、主題に関する節に再構成されました。 [詳細を表示](../../workflow/using/using-the-local-approval-activity.md)
+ワークフローの使用例が更新され、主題のセクションに再構成されました。 [詳細を表示](../../workflow/using/using-the-local-approval-activity.md)
 
 「 [バウンスのメール認定](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) 」と「 [電子メール管理ルール](../../delivery/using/understanding-delivery-failures.md#email-management-rules) 」のセクションが、更新された情報で強化されました。
 
@@ -57,29 +56,29 @@ Adobe Campaign拡張MTA記事が更新されました。 現在は、Campaign Cl
 
 ## 2020 年 3 月 {#march-2020}
 
-データモデルのベストプラクティスのページを更新し、[シーケンス](../../configuration/using/data-model-best-practices.md#sequences)、[パフォーマンス](../../configuration/using/data-model-best-practices.md#performance)、[大きなテーブル](../../configuration/using/data-model-best-practices.md#large-tables)などの新しい節を追加しました。[詳細を表示](../../configuration/using/data-model-best-practices.md)
+Data model best practices have been updated with new sections including [Sequences](../../configuration/using/data-model-best-practices.md#sequences), [Performance](../../configuration/using/data-model-best-practices.md#performance) and [Large tables](../../configuration/using/data-model-best-practices.md#large-tables), amongst others. [詳細を表示](../../configuration/using/data-model-best-practices.md)
 
-Adobe Campaign の事前定義データモデルと標準搭載テーブルのインタラクションについて説明する新しい節を追加しました。[詳細を表示](../../configuration/using/data-model-description.md)
+Adobe Campaignの組み込みデータモデルとテーブル間のインタラクションについて説明する新しい節が利用できるようになりました。 [詳細を表示](../../configuration/using/data-model-description.md)
 
-追加のリソースがドキュメントホームページに追加されました。[詳細を表示](../../campaign-classic-home.md)
+ドキュメントのホームページに、その他の主要なリンクが追加されました。 [詳細を表示](../../campaign-classic-home.md)
 
 Adobe Target のダイナミックオファーを Adobe Campaign の E メールに統合する方法に関する使用例を追加しました。[詳細を表示](../../integrations/using/inserting-a-dynamic-image.md)
 
 Adobe Campaign で使用できる様々な言語の詳細を説明する新しい節を追加しました。[詳細を表示](../../platform/using/adobe-campaign-workspace.md#languages)
 
-アクセス管理ページを更新し、ネームド権限に関する詳細な情報が追加されました。[詳細を表示](../../platform/using/access-management.md#named-rights)
+アクセス管理のガイドラインが更新され、ネームド権限に関する詳細情報が追加されました。 [詳細を表示](../../platform/using/access-management.md#named-rights)
 
 ## 2020 年 2 月 {#february-2020}
 
 Adobe Campaign データモデルの設計時のベストプラクティスと主要な推奨事項の概要を説明する新しい節を追加しました。[詳細を表示](../../configuration/using/data-model-best-practices.md)
 
-「E メールの配信品質」の節の名前を「技術的な E メール設定」に変更しました。[詳細を表示](../../installation/using/email-deliverability.md)
+技術的な電子メール設定に関する新しいセクションが追加されました。 [詳細を表示](../../installation/using/email-deliverability.md)
 
-「配信品質 FAQ」ドキュメントが更新され、「割り当てに達しました」というエラーメッセージの詳細が追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-deliverability-faq.html#FAQ)
+配信品質FAQに、「割り当てを満たしました」というエラーメッセージの詳細が追加されました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-deliverability-faq.html#FAQ)
 
-3 つの E メールプロバイダー（Gmail、Outlook、Mail.ru）によって AMP for Email がサポートされるようになりました。AMP を使用してインタラクティブコンテンツを定義する方法を説明する節が更新されました。[詳細を表示](../../delivery/using/defining-interactive-content.md)
+電子メール用のAMPが、新しい電子メールプロバイダーでサポートされるようになりました。 関連ドキュメントが更新されました。 [詳細を表示](../../delivery/using/defining-interactive-content.md)
 
-「E メールのアーカイブ」の節を分かりやすくしました。[詳細を表示](../../installation/using/email-archiving.md#recommendations-and-limitations)
+「電子メールのアーカイブ」セクションが改善されました。 [詳細を表示](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
 ## 20.1 - 2020 年 2 月 17 日{#release-20-1}
 
@@ -91,7 +90,7 @@ Hadoop FDA コネクタの機能強化 - [詳細を表示](../../platform/using/
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-[インストール](../../installation/using/before-reading.md)、[実稼動](../../production/using/foreword.md)、および[設定](../../configuration/using/additional-parameters.md)ガイドが、nlserver サービスの起動に使用する新しい systemd ユニットについて更新されました。引き続き /etc/init.d/nlserver6 を使用できますが、nlserver サービスとのインタラクションには systemctl コマンドを使用することをお勧めします。
+[インストール](../../installation/using/before-reading.md)、[実稼動](../../production/using/foreword.md)、および[設定](../../configuration/using/additional-parameters.md)ガイドが、nlserver サービスの起動に使用する新しい systemd ユニットについて更新されました。/etc/init.d/nlserver6は引き続き使用できますが、nlserverサービスとの対話にはsystemctlコマンドを使用することをお勧めします。
 
 インストールガイドを更新し、互換性マトリックスの最新バージョンと同期しました。新しいサポート対象システムが追加されました。廃止済みおよびサポート対象外のシステムに関する記載は削除されました。[詳細を表示](../../installation/using/before-reading.md)
 

@@ -14,8 +14,11 @@ discoiquuid: 83b915bd-7e23-41b5-9f9a-f7eb72026376
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 0d2270c9d980d963437f9bb5cf37795474d261d6
+workflow-type: tm+mt
+source-wordcount: '764'
+ht-degree: 97%
 
 ---
 
@@ -49,7 +52,10 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
    ![](assets/s_user_segmentation_dedup_param2.png)
 
-   次の手順で、「**[!UICONTROL その他]**」オプションで使用される基準または条件を選択できます。
+   >[!NOTE]
+   >
+   >外部ファイルなどの外部データを入力として使用する場合は、必ず「 **[!UICONTROL 一時スキーマ]** 」オプションを選択してください。
+次の手順で、「**[!UICONTROL その他]**」オプションで使用される基準または条件を選択できます。
 
    ![](assets/s_user_segmentation_dedup_param3.png)
 

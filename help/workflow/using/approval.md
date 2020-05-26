@@ -14,8 +14,11 @@ discoiquuid: a0090c78-5873-446d-8d5f-b0f94ff5d373
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 100%
 
 ---
 
@@ -70,7 +73,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 テンプレートを編集してメッセージのレイアウトをカスタマイズできますが、コピーを作成してもかまいません。ターゲットメカニズム（外部ファイル、ターゲットマッピング）は、通知を正しく処理するのに必要なので、編集できません。
 
-承認の例については、[承認の定義](../../workflow/using/executing-a-workflow.md#defining-approvals)を参照してください。
+承認の例については、[承認の定義](../../workflow/using/defining-approvals.md)を参照してください。
 
 ## 出力パラメーター {#output-parameters}
 

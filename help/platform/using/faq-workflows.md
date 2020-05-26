@@ -13,8 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2ee1912e0de2841867d0ffb5420cc9810aa1083e
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,7 @@ Campaign ワークフローによってデータをインポートするため�
 
 ## ワークフローの実行を監視できますか？{#can-i-monitor-workflow-execution-}
 
-Campaign ワークフローの実行を監視する方法については、[このページ](../../workflow/using/executing-a-workflow.md)を参照してください。
+Campaign ワークフローの実行を監視する方法については、[このページ](../../workflow/using/starting-a-workflow.md)を参照してください。
 
 ## ワークフローで Campaign データを更新するにはどうすればよいですか？{#how-can-i-update-campaign-data-with-a-workflow-}
 

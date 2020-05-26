@@ -12,8 +12,11 @@ discoiquuid: dcb5b8e8-be38-4d89-908d-f57c2413a9bc
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
+translation-type: tm+mt
+source-git-commit: e3de6f7b21d912efa4f6faca5e57cb480e8f1805
+workflow-type: tm+mt
+source-wordcount: '1145'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
 
 ## 用途 {#use}
 
-「**[!UICONTROL 読み込み（ファイル）]**」アクティビティを使用して、外部データのソースに直接アクセスし、読み込んだファイルを Adobe Campaign.で使用することができます。実際、ターゲティングオペレーションに必要なデータがすべて Adobe Campaign データベースにあるとは限りません。その場合には、外部のファイルを利用できます。
+The **[!UICONTROL Data loading (File)]** activity lets you directly access a source of external data and use it in Adobe Campaign. 実際、ターゲティングオペレーションに必要なデータがすべて Adobe Campaign データベースにあるとは限りません。その場合には、外部のファイルを利用できます。
 
 読み込むファイルはトランジションで指定できますが、このアクティビティの実行によって自動生成することもできます。例えば、クライアントのお気に入りの 10 個の製品リストがあり、それらの購入が外部のデータベースで管理されていたとします。
 

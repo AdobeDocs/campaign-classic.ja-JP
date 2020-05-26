@@ -14,8 +14,11 @@ discoiquuid: 3739593f-056c-4165-87ef-63c812bd3c43
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +35,7 @@ PostEvent 関数について詳しくは、SOAP 呼び出しに関するオン�
 
 ![](assets/edit_signal.png)
 
-期限の設定について詳しくは、[有効期限](../../workflow/using/executing-a-workflow.md#expirations)を参照してください。
+期限の設定について詳しくは、[有効期限](../../workflow/using/defining-approvals.md)を参照してください。
 
 「**遅延**」フィールドでは、選択した単位で期限を指定できます。[待機](../../workflow/using/wait.md)を参照してください。
 

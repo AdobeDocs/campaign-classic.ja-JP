@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9773e8ae39133968e4e167d11715c123e00d22c2
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
 workflow-type: tm+mt
 source-wordcount: '3368'
 ht-degree: 100%
@@ -537,7 +537,7 @@ SMS のコンテンツを作成するには、次の手順に従います。
 
 * **購読解除**：SMS 配信の停止を希望する受信者は、STOP という単語を含んだメッセージを返信することで受信を停止できます。プロバイダーとの契約上認められている場合は、**インバウンド SMS** ワークフローアクティビティを使用してメッセージを取得し、クエリを作成して、関係する複数の受信者のために「**今後のこの受信者への連絡は不要**」オプションを有効化できます。
 
-   [ワークフロー](../../workflow/using/executing-a-workflow.md#architecture)ガイドを参照してください。
+   [ワークフロー](../../workflow/using/architecture.md)ガイドを参照してください。
 
 ## InSMS スキーマ {#insms-schema}
 

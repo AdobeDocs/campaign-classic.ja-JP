@@ -14,8 +14,11 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 202f571f5c348ca4ab617821cd1ec24cefa8c504
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '2088'
+ht-degree: 100%
 
 ---
 
@@ -102,7 +105,7 @@ source-git-commit: 202f571f5c348ca4ab617821cd1ec24cefa8c504
 
 ## ログのパージ {#purging-the-logs}
 
-ワークフローの履歴は自動でパージされません。すべてのメッセージは、デフォルトで保持されます。履歴は、**[!UICONTROL ファイル／アクション]**&#x200B;メニューを選択するか、リストの上にあるツールバー内の「**[!UICONTROL アクション]**」ボタンをクリックすることでパージできます。「**[!UICONTROL 履歴をパージ]**」を選択します。**[!UICONTROL アクション]**&#x200B;メニューで使用可能なオプションについて詳しくは、[アクションツールバー](../../workflow/using/executing-a-workflow.md#actions-toolbar)の節を参照してください。
+ワークフローの履歴は自動でパージされません。すべてのメッセージは、デフォルトで保持されます。履歴は、**[!UICONTROL ファイル／アクション]**&#x200B;メニューを選択するか、リストの上にあるツールバー内の「**[!UICONTROL アクション]**」ボタンをクリックすることでパージできます。「**[!UICONTROL 履歴をパージ]**」を選択します。**[!UICONTROL アクション]**&#x200B;メニューで使用可能なオプションについて詳しくは、[アクションツールバー](../../workflow/using/starting-a-workflow.md)の節を参照してください。
 
 ![](assets/purge_historique.png)
 

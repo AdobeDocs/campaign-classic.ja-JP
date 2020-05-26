@@ -13,8 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9a1db0fbced3550621c5520656a34344128ee13f
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '540'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +54,7 @@ Adobe Campaign には、E メール配信を監視するための一連のダッ
 
 ## 5. ワークフローの実行を監視できますか？{#can-i-monitor-workflow-execution}
 
-Campaign ワークフローの実行を監視する方法については、[このページ](../../workflow/using/executing-a-workflow.md)を参照してください。
+Campaign ワークフローの実行を監視する方法については、[このページ](../../workflow/using/starting-a-workflow.md)を参照してください。
 
 ## 6. どうすれば Campaign Classic に接続できますか？{#how-can-i-connect-to-campaign-classic-}
 

@@ -14,8 +14,11 @@ discoiquuid: ec3844ca-8d80-4ddc-b08c-f18a6919bb28
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +67,7 @@ Adobe Campaign データベースのデータおよび既存のリストは、2 
 
 ![](assets/s_advuser_using_additional_data.png)
 
-ワークフローテーブル内に含まれるデータは、名前で識別されます。名前は常に、「**targetData**」リンクから構成されます。詳しくは、[ターゲットデータ](../../workflow/using/executing-a-workflow.md#target-data)を参照してください。
+ワークフローテーブル内に含まれるデータは、名前で識別されます。名前は常に、「**targetData**」リンクから構成されます。詳しくは、[ターゲットデータ](../../workflow/using/data-life-cycle.md#target-data)を参照してください。
 
 さらに、メール配信のフレームワークでは、パーソナライゼーションフィールドで、ターゲティングワークフローステージで実行されるターゲット式のデータを使用できます。以下に例を示します。
 

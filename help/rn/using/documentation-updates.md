@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be148d7cd55097b9014d2f4d3b095c65a5ca8c54
+source-git-commit: 5d8959dc790c0cf0e6ea62122310bfbee5bcc0dd
 workflow-type: tm+mt
-source-wordcount: '6478'
+source-wordcount: '6491'
 ht-degree: 95%
 
 ---
@@ -37,6 +37,8 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 新しいプラットフォームセクションを開始する際の配信品質のガイドラインが強化されました。 [詳細を表示](../../delivery/using/starting-new-platform.md)
 
 「添付ファイルを含むトランザクション電子メールの送信」セクションが移動および更新されました。 [詳細を表示](../../message-center/using/transactional-email-with-attachments.md)
+
+データパッケージのベストプラクティスに関するセクションが移動および更新されました。 [詳細を表示](../../platform/using/working-with-data-packages.md#data-package-best-practices)
 
 ## 2020 年 4 月 {#april-2020}
 

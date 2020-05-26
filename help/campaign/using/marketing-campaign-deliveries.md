@@ -14,8 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '3087'
+ht-degree: 100%
 
 ---
 
@@ -70,7 +73,7 @@ source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 配信のメインターゲットは、ターゲティングワークフローでも定義できます。クエリ、テスト、オペレーター（和集合、重複排除、共有など）を使用して、グラフィカルにターゲットを作成できます。
 
-[ワークフローによる自動化](../../workflow/using/executing-a-workflow.md#architecture)ガイドでは、ワークフローモジュールの仕組みについて、詳しく説明しています。
+[ワークフローによる自動化](../../workflow/using/architecture.md)ガイドでは、ワークフローモジュールの仕組みについて、詳しく説明しています。
 
 >[!IMPORTANT]
 >
@@ -104,7 +107,7 @@ source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 >[!NOTE]
 >
->ダイアグラムの作成に使用できるアクティビティと、すべての表示およびレイアウト機能については、[ワークフローによる自動化](../../workflow/using/executing-a-workflow.md#architecture)ガイドで詳しく説明しています。
+>ダイアグラムの作成に使用できるアクティビティと、すべての表示およびレイアウト機能については、[ワークフローによる自動化](../../workflow/using/architecture.md)ガイドで詳しく説明しています。
 
 1 つのキャンペーンに対して複数のターゲティングワークフローを作成できます。ワークフローを追加するには、次の手順に従います。
 
@@ -252,7 +255,7 @@ source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-この設定は、ワークフロー内の共有アクティビティと同等で、ターゲットをサブセットに分割できます。コントロール母集団は、このようなサブセットのひとつです。詳しくは、[この節](../../workflow/using/executing-a-workflow.md#architecture)を参照してください。
+この設定は、ワークフロー内の共有アクティビティと同等で、ターゲットをサブセットに分割できます。コントロール母集団は、このようなサブセットのひとつです。詳しくは、[この節](../../workflow/using/architecture.md)を参照してください。
 
 ### 母集団の追加 {#adding-a-population}
 

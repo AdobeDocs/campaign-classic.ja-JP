@@ -14,8 +14,11 @@ discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f5062117b5cefbdd2570018f6803f114c14a3fae
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '855'
+ht-degree: 100%
 
 ---
 
@@ -76,7 +79,7 @@ E メールを作成するとします。まず受信者の名前を挿入し、
 
    >[!NOTE]
    >
-   >この配信がワークフローの構成要素である場合は、一時的なワークフローテーブルから取得したデータを使用できます。このデータは、**[!UICONTROL ターゲット式]**&#x200B;メニュー内にグループ化されています。詳しくは、[この節](../../workflow/using/executing-a-workflow.md#target-data)を参照してください。
+   >この配信がワークフローの構成要素である場合は、一時的なワークフローテーブルから取得したデータを使用できます。このデータは、**[!UICONTROL ターゲット式]**&#x200B;メニュー内にグループ化されています。詳しくは、[この節](../../workflow/using/data-life-cycle.md#target-data)を参照してください。
 
 ## パーソナライゼーションの最適化 {#optimizing-personalization}
 

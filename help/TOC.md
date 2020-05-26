@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: 24a50fcaad4d9081e5504652eb5b73aa7db1e65f
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
 workflow-type: tm+mt
-source-wordcount: '2039'
+source-wordcount: '2051'
 ht-degree: 98%
 
 ---
@@ -327,8 +327,13 @@ ht-degree: 98%
       + [データのターゲティング](workflow/using/targeting-data.md)
       + [データのインポート](workflow/using/importing-data.md)
       + [ワークフローデータの使用方法](workflow/using/how-to-use-workflow-data.md)
-      + [ワークフローの実行](workflow/using/executing-a-workflow.md)
       + [ワークフローのベストプラクティス](workflow/using/workflow-best-practices.md)
+   + ワークフローの実行 {#executing-a-workflow}
+      + [ワークフローの開始](workflow/using/starting-a-workflow.md)
+      + [ワークフローのライフサイクル](workflow/using/workflow-life-cycle.md)
+      + [データのライフサイクル](workflow/using/data-life-cycle.md)
+      + [承認の定義](workflow/using/defining-approvals.md)
+      + [アーキテクチャ](workflow/using/architecture.md)
    + ターゲティングアクティビティ{#targeting-activities}
       + [ターゲティングアクティビティについて](workflow/using/about-targeting-activities.md)
       + [クエリ](workflow/using/query.md)

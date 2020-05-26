@@ -14,8 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '1298'
+ht-degree: 100%
 
 ---
 
@@ -146,7 +149,7 @@ source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
 ![](assets/s_ncs_user_op_template_recur_planning_wz.png)
 
-実行スケジュールの設定モードは、ワークフローの&#x200B;**[!UICONTROL スケジューラー]**&#x200B;オブジェクトと一致しています。詳しくは、[この節](../../workflow/using/executing-a-workflow.md#architecture)を参照してください。
+実行スケジュールの設定モードは、ワークフローの&#x200B;**[!UICONTROL スケジューラー]**&#x200B;オブジェクトと一致しています。詳しくは、[この節](../../workflow/using/architecture.md)を参照してください。
 
 >[!IMPORTANT]
 >

@@ -14,8 +14,11 @@ discoiquuid: 2d4ccf81-cd85-4f4c-8ba8-5b5612af1e16
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+workflow-type: tm+mt
+source-wordcount: '1689'
+ht-degree: 100%
 
 ---
 
@@ -155,7 +158,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 1. 配信のニーズを満たすデータを準備する方法について詳しくはは、[データのエンリッチメントと変更](../../workflow/using/targeting-data.md#enriching-and-modifying-data)を参照してください。
 1. 更新を実行するためのデータ使用、または配信内でのデータ使用について詳しくは、[データベースの更新](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)を参照してください。
 
-ターゲティング中に実行されたすべてのエンリッチメントと処理の結果はパーソナライゼーションフィールドに保存され、このフィールド経由でアクセスされます。具体的には、特にパーソナライズしたメッセージの作成などに使用されます。詳しくは、[ターゲットデータ](../../workflow/using/executing-a-workflow.md#target-data)を参照してください。
+ターゲティング中に実行されたすべてのエンリッチメントと処理の結果はパーソナライゼーションフィールドに保存され、このフィールド経由でアクセスされます。具体的には、特にパーソナライズしたメッセージの作成などに使用されます。詳しくは、[ターゲットデータ](../../workflow/using/data-life-cycle.md#target-data)を参照してください。
 
 ### ターゲティングとフィルタリングディメンション {#targeting-and-filtering-dimensions}
 

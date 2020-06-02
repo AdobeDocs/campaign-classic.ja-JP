@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 5d8959dc790c0cf0e6ea62122310bfbee5bcc0dd
 workflow-type: tm+mt
 source-wordcount: '6491'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/l
 
 新しいプラットフォームセクションを開始する際の配信品質のガイドラインが強化されました。 [詳細を表示](../../delivery/using/starting-new-platform.md)
 
-「添付ファイルを含むトランザクション電子メールの送信」セクションが移動および更新されました。 [詳細を表示](../../message-center/using/transactional-email-with-attachments.md)
+添付ファイル付きトランザクション E メールの送信の節が移動され、更新されました。[詳細を表示](../../message-center/using/transactional-email-with-attachments.md)
 
 データパッケージのベストプラクティスに関するセクションが移動および更新されました。 [詳細を表示](../../platform/using/working-with-data-packages.md#data-package-best-practices)
 
@@ -52,9 +52,9 @@ Adobe Campaign組み込みのデータモデルについて説明する節では
 
 ワークフローの使用例が更新され、主題のセクションに再構成されました。 [詳細を表示](../../workflow/using/using-the-local-approval-activity.md)
 
-「 [バウンスのメール認定](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification) 」と「 [電子メール管理ルール](../../delivery/using/understanding-delivery-failures.md#email-management-rules) 」のセクションが、更新された情報で強化されました。
+[バウンスメール強制隔離](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)と [E メール管理ルール](../../delivery/using/understanding-delivery-failures.md#email-management-rules)の節の情報を更新して強化しました。
 
-Adobe Campaign拡張MTA記事が更新されました。 現在は、Campaign Classicにのみ適用されます。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
+Adobe Campaign Enhanced MTA の記事が更新されました。現在は Campaign Classic にのみ適用されます。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html)
 
 ## 2020 年 3 月 {#march-2020}
 
@@ -94,7 +94,7 @@ Hadoop FDA コネクタの機能強化 - [詳細を表示](../../platform/using/
 
 [インストール](../../installation/using/before-reading.md)、[実稼動](../../production/using/foreword.md)、および[設定](../../configuration/using/additional-parameters.md)ガイドが、nlserver サービスの起動に使用する新しい systemd ユニットについて更新されました。/etc/init.d/nlserver6は引き続き使用できますが、nlserverサービスとの対話にはsystemctlコマンドを使用することをお勧めします。
 
-インストールガイドを更新し、互換性マトリックスの最新バージョンと同期しました。新しいサポート対象システムが追加されました。廃止済みおよびサポート対象外のシステムに関する記載は削除されました。[詳細を表示](../../installation/using/before-reading.md)
+インストールガイドを更新し、互換性マトリックスの最新バージョンと同期しました。新しいサポート対象システムが追加されました。非推奨（廃止予定）およびサポート対象外のシステムに関する記載は削除されました。[詳細を表示](../../installation/using/before-reading.md)
 
 互換性マトリックスを更新し、Hadoop 3.0 および Snowflake の FDA コネクタを追加しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
@@ -104,7 +104,7 @@ IP アフィニティのベストプラクティスがインストールガイ�
 
 FDA over HTTP に関する制限が、トランザクションメッセージガイドに追加されました。[詳細を表示](../../production/using/database-cleanup-workflow.md)
 
-**[!UICONTROL JavaScript コード]**&#x200B;と **[!UICONTROL 高度な JavaScript コード]**&#x200B;ワークフローアクティビティのタイムアウト期間を定義できる新しいオプションに関する情報が追加されました。[詳細を表示](../../workflow/using/sql-code-and-javascript-code.md)
+**[!UICONTROL JavaScript コード]**&#x200B;と&#x200B;**[!UICONTROL 高度な JavaScript コード]**&#x200B;ワークフローアクティビティのタイムアウト期間を定義できる新しいオプションに関する情報が追加されました。[詳細を表示](../../workflow/using/sql-code-and-javascript-code.md)
 
 **[!UICONTROL 管理]**／**[!UICONTROL 監査]**／**[!UICONTROL ワークフローステータス]**&#x200B;ノードで利用可能な新しい&#x200B;**[!UICONTROL 開始保留中]**&#x200B;ビューに関する情報が追加されました。[詳細を表示](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)
 
@@ -130,7 +130,7 @@ URL レポート設定の新しいパラメーターは、[こちら](../../repo
 
 Adobe Campaign Classic のデータモデルの基本と各テーブルの説明にアクセスする方法について説明する新しい節が追加されました。[詳細を表示](../../configuration/using/about-data-model.md)
 
-Adobe Campaign Enhanced MTA の記述を更新し、Enhanced MTA ヘッダーをすべてのメッセージに追加しないインスタンスに、特定のタイポロジパッケージをインストールする方法について詳細が追加されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html#impacts)
+Adobe Campaign Enhanced MTA の記述を更新し、Enhanced MTA ヘッダーをすべてのメッセージに追加しないインスタンスに、特定のタイポロジパッケージをインストールする方法について詳細が追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html#impacts)
 
 クエリの設計に関する使用事例が別個の節に再編成されました。[詳細を表示](../../workflow/using/querying-recipient-table.md)
 
@@ -168,9 +168,9 @@ AMP を使用したインタラクティブコンテンツ - [詳細を表示](.
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-Adobe Campaign Enhanced MTA のドキュメントが入手できるようになりました。[詳細を表示](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
+Adobe Campaign Enhanced MTA のドキュメントが入手できるようになりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html)
 
-キャンペーン内で「開始準備中」の状態に留まるワークフローをトラブルシュートする方法について、新しい節が追加されました。 [詳細を表示](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
+キャンペーン内で「開始準備中」の状態に留まるワークフローをトラブルシュートする方法について、新しい節が追加されました。[詳細を表示](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
 新しい「NmsOperation_DeliveryPreparationWindow」および「WdbcKillSessionPolicy」オプションがキャンペーンオプションのリストに追加されました。[詳細を表示](../../installation/using/configuring-campaign-options.md)
 
@@ -182,7 +182,7 @@ logon() および query() で **HttpServletRequest** を使用する API 呼び�
 
 スキーマ定義の **sqlDefault** 属性に関する推奨事項が追加されました。[詳細を表示](../../configuration/using/elements-and-attributes.md#attribute-description)。
 
-Adobe Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（CDP）の統合については、**Adobe Experience Cloudとの統合**&#x200B;ガイドで参照されるようになりました。[詳細を表示](../../integrations/using/about-campaign-integrations.md)。
+Adobe Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（CDP）の統合については、**Adobe Experience Cloud との統合**&#x200B;ガイドで参照されるようになりました。[詳細を表示](../../integrations/using/about-campaign-integrations.md)。
 
 ## 2019 年 11 月 {#november-2019}
 
@@ -194,7 +194,7 @@ E メールの送信時に使用する文字エンコーディングの強制適
 
 パーソナライゼーションフィールドの内容は 1024 文字を超過できないことを明確にする情報が追加されました。[詳細を表示](../../delivery/using/personalization-fields.md)
 
-コントロールパネルのドキュメントは、新しいコラボレーションドキュメントセットに統合されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.translate.html)
+コントロールパネルのドキュメントは、新しいコラボレーションドキュメントセットに統合されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
 
 配信のベストプラクティス入門ガイドが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
 
@@ -230,7 +230,7 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 **リリースに含まれる新機能**
 
-コントロールパネル - [詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.translate.html)
+コントロールパネル - [詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
 
 監査記録 - [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html)
 
@@ -238,9 +238,9 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 ビルドアップグレードに関する新しい FAQ が作成されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/build-upgrade-faq.html)
 
-[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)が更新されました。サポートされるデータベースシステム、Android／iOS のバージョン、および関連する SDK のリストが更新されました。[19.0 互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix-19-0.html)がアーカイブされました。
+[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)が更新されました。サポートされるデータベースシステム、Android/iOS のバージョン、および関連する SDK のリストが更新されました。[19.0 互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix-19-0.html)がアーカイブされました。
 
-「Campaign Classic の機能の廃止と削除」ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
+「Campaign Classic の非推奨（廃止予定）および削除された機能」ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
 インストールガイドにサーバー設定ファイルの説明が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_The_server_configuration_file.html)
 
@@ -252,7 +252,7 @@ Campaign サーバーのアンインストール手順を説明する節が追�
 
 前処理ワークフローオプションの説明が更新され、製品の変更が反映されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Action_activities.html#Data_loading__file_)
 
-Experience Cloud Triggersーのテクニカルノートが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
+Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
 
 エラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -307,7 +307,7 @@ Teradata 外部アカウントの Query Band に関する情報が追加され�
 
 ## 2019 年 1 月{#release-doc-16-01-2019}
 
-Experience Cloud Triggersーのテクニカルノートが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
+Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
 
 オファーの承認の節に注意事項を追加し、「承認コンテンツ」の表示は、すべてのオファーが有効化または承認されているかどうかに関わらず、コンテンツ承認プロセスが達成されたことを示すことを明確にしました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/ITA_Managing_an_offer_catalog_Approving_and_activating_an_offer.html#Approving_offer_content)
 
@@ -357,7 +357,7 @@ Campaign Classic API を[専用ページ](https://docs.campaign.adobe.com/doc/AC
 
 互換性マトリックスが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
-「Campaign Classic の機能の廃止と削除」ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
+「Campaign Classic の非推奨（廃止予定）および削除された機能」ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
 [リリースノート](https://docs.campaign.adobe.com/doc/AC/en/RN.html)および[従来のリリースノート](https://docs.campaign.adobe.com/doc/AC/en/RN_legacy.html)では、取り消されたビルドに対する警告が追加されました。17.9、18.4 および 18.6 の累積ビルドも追加されました。
 
@@ -435,7 +435,7 @@ Web フォームにおけるテキスト変数の使用に関する節が追加�
 
 JSAPI のドキュメントが更新されました。[詳細を表示](https://support.neolane.net/webApp/extranetLogin)
 
-廃止および削除された機能ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
+非推奨（廃止予定）および削除された機能ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
@@ -501,7 +501,7 @@ Campaign Classic に関する最もよくある質問を含む新しいページ
 
 エラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Experience Cloud Triggersーのテクニカルノートが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
+Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
 
 旧バージョンの Campaign Classic にプライバシー（GDPR）パッケージをインストールしてデプロイする方法についてのテクニカルノートが追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html)
 
@@ -511,7 +511,7 @@ JSAPI のドキュメントが更新されました。[詳細を表示](https://
 
 互換性マトリックスが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
-廃止された機能とバージョンの一覧を示す新しいページが公開されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
+非推奨（廃止予定）の機能とバージョンの一覧を示す新しいページが公開されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
 RDBMS に関する既知の制限事項とベストプラクティスが追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Prerequisites_and_recommendations__Database.html)
 
@@ -523,7 +523,7 @@ SFTP の使用に関するベストプラクティスが説明されています
 
 [ハウツービデオ](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html)が更新されました。
 
-LINE パッケージの廃止後、LINE ドキュメントが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_messages_on_mobiles_LINE_channel.html)
+LINE パッケージが非推奨（廃止予定）になった後、LINE ドキュメントが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_messages_on_mobiles_LINE_channel.html)
 
 レポート指標の計算に関するドキュメントが更新されました。[詳細を表示](../../reporting/using/indicator-calculation.md)
 
@@ -550,7 +550,7 @@ Campaign の主要機能のヘルプ、操作方法、サンプルおよびビ�
 
 エラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Experience Cloud Triggersーのテクニカルノートが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
+Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
 
 Campaign Classic 移行ガイドがコレクションに追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/MIG_Migration_overview_About_migration.html)
 
@@ -636,7 +636,7 @@ IP ウォーミングに関する新しいテクニカルノートが追加さ�
 
 ワークフロー：新しいマルチチャネルワークフローの例が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Action_activities.html#Cross-channel_deliveries)
 
-Experience Cloud Triggersー：Adobe Campaign を使用した設定方法および使用方法に関するテクニカルノートが追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
+Experience Cloud Triggers：Adobe Campaign を使用した設定方法および使用方法に関するテクニカルノートが追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
 
 ワークフローガイドが再構成され、拡張されました。ワークフローの[作成](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html)および[実行](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Executing_a_workflow.html)方法、データの[ターゲティング](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Targeting_data.html)および[管理](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Targeting_data.html#Data_Management)方法、データの[インポート](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html)方法、および[データベースを更新](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Updating_the_database)または[配信を送信](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Delivering_via_a_workflow)するためのワークフローデータの使用方法が簡単に見つかります。
 

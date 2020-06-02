@@ -14,15 +14,18 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4b42a4bb0a95b2a46187c996d069846a8c3941bf
+workflow-type: ht
+source-wordcount: '2701'
+ht-degree: 100%
 
 ---
 
 
 # リリース 19.1{#release-19-1}
 
-[ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリース](../../rn/using/release--19-1.md) | [廃止された機能](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
+[ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリース](../../rn/using/release--19-1.md) | [非推奨（廃止予定）の機能](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
@@ -30,7 +33,7 @@ source-git-commit: 4b42a4bb0a95b2a46187c996d069846a8c3941bf
    <td><img src="assets/do-not-localize/green3.png"/><strong>一般公開（GA）</strong></td>
    <td><img src="assets/do-not-localize/blue3.png"/><strong>リリース候補</strong></td> 
    <td><img src="assets/do-not-localize/orange3.png"/><strong>公開停止</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>廃止済み</strong></td> 
+   <td><img src="assets/do-not-localize/red3.png"/><strong>非推奨（廃止予定）</strong></td> 
   </tr> 
    <tr> 
    <td>最新の安定したビルド。ビルドは本番環境で検証済みです。<br></td>
@@ -41,7 +44,7 @@ source-git-commit: 4b42a4bb0a95b2a46187c996d069846a8c3941bf
  </tbody> 
 </table>
 
-最後 **の安定ビルドは** 9032 (3a9dc9c)です。 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+**最新の安定したビルド**&#x200B;は 9032（3a9dc9c）です。[ここ](../../rn/using/release--19-1.md#release-19-1-4-build-9032)をクリックしてください
 
 ## ![](assets/do-not-localize/orange_2.png) リリース 19.1.6 - ビルド 9035 {#release-19-1-6-build-9035}
 
@@ -74,42 +77,41 @@ _2019 年 8 月 13 日_
 
 ## リリース 19.1.4 - ビルド 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) 2020 **年4月29日**:次の修正を含む新しいビルド(9032@3a9dc9c)。
+![](assets/do-not-localize/green_2.png) **2020 年 4 月 29 日**：新しいビルド（9032@3a9dc9c）。次の修正が含まれています。
 
-* 電子メール内のリンクの追跡に関するセキュリティを改善。 これは、すべての顧客に対してデフォルトで有効になっています。 追加の拡張セキュリティ機能を利用できます。この機能は、カスタマーケアにご連絡いただくことで有効にできます。 非ホストのお客様が有効にする機能と手順の詳細については、「セキュリティとプライバシーのチェックリス [ト」を参照してください](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)。
-* 画像が行画像に表示されない可能性がある問題を修正しました。配信 （NEO-23207）
-* SFTPキーベースの認証がDebian 9で動作し **ない** 、ファイル転送アクティビティの問題を修正しました。 （NEO-23183）
-* 高い頻度で送信された場合にプッシュ通知に影響する可能性がある問題を修正しました。 （NEO-20516）
-* Webサーバーのクラッシュを引き起こすオファー応答管理の問題を修正しました。 （NEO-19482）
-* LibreOffice管理でレポートをエクスポートできなかったエラーを修正しました。 （NEO-20982）
-* 多数のワークフローをアップグレードする際にエラーが発生する問題を修正しました。調査アクティビティ。
-* .odtファイルを含む電子メールプレビューの障害を回避するために、LibreOfficeの管理を改善。
-* Apache接続の管理を改善し、Webサービスでの待ち時間を回避しました。
-* バージョンタグ（7桁）のバージョン情報メニューの表示を改 **善し** ました。
-* リスト管理でオファーが発行されない問題を修正しました。
-* クリーンアップワークフローがクラッシュする原因となっていた回帰を修正。
-* クリーンアップワークフローログの軽度の回帰を修正しました。
+* E メール内のリンクの追跡に関するセキュリティを改善。これは、あらゆる顧客に対してデフォルトで有効です。さらに、強化されたセキュリティ機能が利用できます。この機能はカスタマーケアにご連絡いただくと有効にできます。これを非ホスト型顧客が有効にするための手順と機能の詳細については、[セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
+* LINE 配信に画像が表示されない可能性がある問題を修正しました。（NEO-23207）
+* SFTP キーに基づく認証が Debian 9 で動作しない&#x200B;**ファイル転送**&#x200B;アクティビティの問題を修正しました。（NEO-23183）
+* 高い頻度で送信されたときにプッシュ通知に影響を与える可能性がある問題を修正しました。（NEO-20516）
+* Web サーバーのクラッシュを引き起こす可能性があるオファー応答管理の問題を修正しました。（NEO-19482）
+* LibreOffice 管理で、レポートをエクスポートできなかったエラーを修正しました。（NEO-20982）
+* 調査アクティビティを使用して多数のワークフローをアップグレードする場合にエラーが発生する問題を修正しました。
+* .odt ファイルを含む E メールプレビューでエラーが発生しないように、LibreOffice の管理を改善しました。
+* Apache 接続の管理を改善し、Web サービスでの待ち時間を回避しました。
+* **バージョン情報**&#x200B;メニューでのバージョンタグ（7 桁）の表示を改善しました。
+* リスト管理でオファーが公開されない問題を修正しました。
+* クリーンアップワークフローがクラッシュする原因となる問題を修正しました。
+* クリーンアップワークフローログの軽度の問題を修正しました。
 
-![](assets/do-not-localize/orange_2.png) 2020 **年3月5日**:次の修正を含む新しいビルド(9032@19f73c5)。
+![](assets/do-not-localize/orange_2.png)**2020 年 5 月 5 日**：新しいビルド（9032@19f73c5）。以下の修正が含まれています。
 
-* FTP over SSLを使用する外部アカウントの問題を修正しました。 （NEO-20498）
+* FTP over SSL を使用する外部アカウントの問題を修正しました。（NEO-20498）
 
-![](assets/do-not-localize/orange_2.png) 2019 **年12月17日**:次の修正を含む新しいビルド(9032@d6b8062)。
+![](assets/do-not-localize/orange_2.png)**2019 年 12 月 17 日**：新しいビルド（9032@d6b8062）。以下の修正が含まれています。
 
-* モバイル（SMS、MMS）、プッシュ（iOS、Android）およびソーシャルネットワーク（Facebook、Twitter）の各通信チャネルでのトラッキングの問題を修正しました。
-（NEO-19595）
+* モバイル（SMS、MMS）、プッシュ（iOS、Android）およびソーシャルネットワーク（Facebook、Twitter）の各通信チャネルでのトラッキングの問題を修正しました。（NEO-19595）
 
-![](assets/do-not-localize/orange_2.png) 2019 **年12月11日**:次の修正を含む新しいビルド(9032@bc4a935)。
+![](assets/do-not-localize/orange_2.png)**2019 年 12 月 11 日**：新しいビルド（9032@bc4a935）。以下の修正が含まれています。
 
 * MSSQL データベースでメッセージを送信する際のパフォーマンスの問題を修正しました。（NEO-17558）
 
-![](assets/do-not-localize/orange_2.png) 2019 **年11月20日**:次の修正を含む新しいビルド(9032@3468c7b)。
+![](assets/do-not-localize/orange_2.png)**2019 年 11 月 20 日**：新しいビルド（9032@3468c7b）。以下の修正が含まれています。
 
 * IMS 認証を使用したログインの問題を修正しました。（NEO-17312）
 * 複数の配信に関する累積レポートを表示する際の問題を修正しました。（NEO-18165）
 * Web サーバーがブロックまたはクラッシュする可能性がある問題を修正しました。
 
-![](assets/do-not-localize/orange_2.png) 2019 **年9月19日**:次の修正を含む新しいビルド(9032@cee805c)。
+![](assets/do-not-localize/orange_2.png)**2019 年 9 月 19 日**：新しいビルド（9032@cee805c）。以下の修正が含まれています。
 
 * Salesforce 用 CRM コネクタを使用する際の問題を修正しました。（NEO-17712）
 * トランザクションメッセージの送信時にパフォーマンスの問題を引き起こす可能性があるインデックスの問題を修正しました。
@@ -142,7 +144,7 @@ _2019 年 6 月 21 日_
 
 _2019 年 5 月 30 日_
 
-**新機能?**
+**新機能**
 
 <table> 
  <thead> 
@@ -154,7 +156,7 @@ _2019 年 5 月 30 日_
  <tbody> 
   <tr> 
    <td> コントロールパネル<br /> </td> 
-   <td> <p>管理ユーザーとしての作業効率を高めるため、ストレージを監視、IP アドレスをホワイトリストに追加、および各インスタンスに SSH キーをインストールすることで、SFTP サーバーの設定を管理します。コントロールパネルは、現時点で AWS 上でホストされているユーザーのみが利用できます（<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud から今すぐログイン</a>）。</p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.translate.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">ハウツービデオ</a>を参照してください。 </p><p>注意：最新の Campaign ビルドへのアップグレードには、コントロールパネルへのアクセスは不要です。</p> </td> 
+   <td> <p>管理ユーザーとしての作業効率を高めるため、ストレージを監視、IP アドレスをホワイトリストに追加、および各インスタンスに SSH キーをインストールすることで、SFTP サーバーの設定を管理します。コントロールパネルは、現時点で AWS 上でホストされているユーザーのみが利用できます（<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud から今すぐログイン</a>）。</p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">ハウツービデオ</a>を参照してください。 </p><p>注意：最新の Campaign ビルドへのアップグレードには、コントロールパネルへのアクセスは不要です。</p> </td> 
   </tr> 
     <tr> 
    <td> 監査記録<br /> </td> 
@@ -180,7 +182,7 @@ _2019 年 5 月 30 日_
 
 **セキュリティの機能強化**
 
-* セキュリティ上の理由から、ワークフローアクティビティでこのオプションを使用する場合に、任意のコマンドを **[!UICONTROL Pre-process the file]** 挿入できなくな **[!UICONTROL Data loading (file)]** りました。 A drop-down list is now available allowing you to select from 3 options: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) or **[!UICONTROL Decrypt]** (gpg). XtkSecurity_Disable_Preproc セキュリティフラグが追加されました。新規ユーザーの場合、このオプションは 0 に設定されます。既存のユーザーの場合、以前の動作を保持するため、アップグレード後にこのオプションは 1 に設定されます。この[節](../../workflow/using/data-loading--file-.md)を参照してください。
+* セキュリティ上の理由により、**[!UICONTROL データ読み込み（ファイル）]**&#x200B;ワークフローアクティビティで「**[!UICONTROL ファイルを前処理]**」オプションを使用する際、任意のコマンドを挿入できなくなりました。**[!UICONTROL なし]**、**[!UICONTROL 解凍]**（zcat）、**[!UICONTROL 復号化]**（gpg）の 3 つのオプションから選択できるドロップダウンリストが使用できるようになりました。XtkSecurity_Disable_Preproc セキュリティフラグが追加されました。新規ユーザーの場合、このオプションは 0 に設定されます。既存のユーザーの場合、以前の動作を保持するため、アップグレード後にこのオプションは 1 に設定されます。この[節](../../workflow/using/data-loading--file-.md)を参照してください。
 * タイムゾーンが設定されていない FDA 外部アカウントの接続をテストする際、パスワード表示に発生していた問題を修正しました。
 * PDFBox ライブラリが削除されました。
 * Tomcat がバージョン 7.0.93 に更新されました。
@@ -201,7 +203,7 @@ _2019 年 5 月 30 日_
 * トラッキングワークフロー：トラッキングワークフローの堅牢性を強化しました。トラッキングログの挿入／更新および URL トラッキングのカスタマイズに関する複数の問題を修正しました。さらに、トラッキングワークフローで、エラーを引き起こし、ワークフローを停止する可能性のあるトラッキングログの問題を検出するようになりました。これらの問題は、現在は破棄され、処理されなくなりました。
 * クリーンアップワークフロー：潜在的なエラーと停止を防ぐため、クリーンアップワークフローを向上させました。これにより、データベースのサイズとパフォーマンスを最適化しました。
 * トランザクションメッセージの埋め込み画像：クラッシュの可能性や画像が欠落するのを防ぐため、トランザクションメッセージの埋め込み画像に対する完全なサポートを追加しました。
-* データベースサイズ - XtkJobLog：このテーブルにパージメカニズムが追加されました。これにより、データベースサイズに良い影響があります。
+* データベースサイズ - XtkJobLog：このテーブルにパージメカニズムが追加されました。これにより、データベースサイズによい影響があります。
 * BCC アーカイブ：BCC アーカイブ用のデフォルトのパラメーターを変更し、アーカイブ速度を上げました。[詳細を表示](../../installation/using/email-archiving.md#parameters)
 * データベース構造の更新：データベース構造更新ウィザードによって生成された SQL リクエストを改善し、すばやく実行できるようにしました。
 * オペレーターアクションの Guardrail：プラットフォームの整合性に影響する可能性があるアクションをオペレーターが実行するのを防ぐため、複数の guardrail が実装されました。インターフェイスからビルトインスキーマを削除できなくなりました。また、管理者以外のユーザーはワークフローソース XML を編集できなくなりました。
@@ -211,7 +213,7 @@ _2019 年 5 月 30 日_
 
 * プッシュ通知：iOS のプッシュ用スレッド ID オプションをサポートするようになりました。
 * ポストアップグレード時の問題の原因となっていた長い名前のインデックスの管理を改善しました。
-* Now, during the analysis of a decomail delivery, if the publication mode is set to **[!UICONTROL None]** in the deployment wizard, an error is logged and the analysis is stopped: &quot;Publication mode is set to &#39;none&#39;: Cannot embed image. 画像はフィーチャーフォンに表示されません。」（NEO-12208）
+* デコメール配信の分析中にデプロイウィザードでパブリッシュモードを「**[!UICONTROL なし]**」に設定すると、以下のエラーが記録され、分析が停止するようになりました。「パブリッシュモードがなしに設定されています : 画像を埋め込むことができません。画像はフィーチャーフォンに表示されません。」（NEO-12208）
 * トランザクションメッセージでの broadlog 管理を改善しました。実行インスタンスからコントロールインスタンスへ broadlogs を同期すると、@lastModified フィールドがシステムの現在の日付に更新されます。コントロールインスタンスに MC_Update_BlLastModified オプションを追加しました。True の場合、現在の日付はコントロールインスタンス（デフォルトの動作）で使用されます。False の場合、実行インスタンス broadlog の @lastModified 日付を使用します。（NEO-12579）
 * クーポン一時テーブルにインデックスを追加し、配信の送信を最適化しました。（NEO-12437）
 * Analytics 統合で、% 文字を使用した AAM セグメントデータを取得できるようになりました。（NEO-12025）
@@ -242,7 +244,7 @@ _2019 年 5 月 30 日_
 * **ソーシャルネットワーク管理**（ソーシャルマーケティング）パッケージをインストールする際の問題を修正しました。（NEO-12081）
 * 適切なアクセス権を持っていても Web アプリケーションを削除できない問題を修正しました。（NEO-12072）
 * XML 経由でオブジェクトをエクスポートしてからインポートすると、一部の値が上書きされていた問題を修正しました。XtkExport_IncludeDefaultValues オプションが追加されました。True（デフォルトの動作）に設定すると、すべての値が書き出されます。False に設定すると、変更はデフォルトの値に上書きされます。（NEO-11979）
-* Fixed an issue which caused the **[!UICONTROL Alert]** workflow activity to fail when an enrichment activity was added after a query. （NEO-12132）
+* クエリの後にエンリッチメントアクティビティを追加した場合、**[!UICONTROL アラート]**&#x200B;ワークフローアクティビティが失敗する原因となっていた問題を修正しました。（NEO-12132）
 * データベースからパイプライン（トリガー）オフセットが正常に取得されず、重複が発生していた Oracle セットアップの問題を修正しました。（NEO-12121）
 * Analytics 統合を使用するとピボットテーブルにエラーが表示される原因となっていた問題を修正しました。（NEO-12103）
 * 記述的分析レポートの問題を修正しました。（NEO-11414）
@@ -263,7 +265,7 @@ _2019 年 5 月 30 日_
 * 分割アクティビティでの「共有オーディエンスを更新」タスクの問題を修正しました。（NEO-11562）
 * Web サーバークラッシュの問題を修正しました。（NEO-12904）
 * トランザクションテンプレートにおける特性パラメーターの問題を修正しました。（NEO-12334）
-* トラッキングされる URL を電子メールテキストエディターに表示するとコンソールがクラッシュする問題を修正しました。（NEO-13122）
+* トラッキングされる URL を E メールテキストエディターに表示するとコンソールがクラッシュする問題を修正しました。（NEO-13122）
 * Audience Manager.からオーディエンスを読み込む際のファイル分割アクティビティの問題を修正しました。（NEO-11550）
 * ホットクリックレポートでエラーが発生していた問題を修正しました。（NEO-11459）
 * オファーレンダリングの問題を修正しました。（NEO-11565）

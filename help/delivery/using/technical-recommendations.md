@@ -12,11 +12,11 @@ discoiquuid: fc95538b-b54d-44ec-81aa-f51b62982699
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2463'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ SPF レコードを検証するツールがあります。[https://www.kitterman
 
 SPF は、E メールで使用されているドメイン名が偽装されていないことをある程度確認できる技術です。あるドメインからメッセージが受信されると、そのドメインの DNS サーバーに対して問い合わせが実行されます。その応答は、このドメインから E メールを送信する権限がどのサーバーにあるかを記述した短いレコード（SPF レコード）になります。このレコードを変更する手段がドメインの所有者にしかないと仮定すると、送信者のアドレス（少なくとも「@」の右側の部分）の偽装はこの技術により防止できると考えることができます。
 
-最終版の [RFC 4408 仕様](https://www.rfc-editor.org/info/rfc4408)では、送信者と見なされるドメインを判断するのに、2 つのメッセージ要素、SMTP 「HELO」（または「EHLO」）コマンドで指定されたドメインおよび「Return-Path」（または「MAIL FROM」）ヘッダーのアドレスで指定されたドメインを使用します。後者は、バウンスアドレスでもあります。様々な事項を検討することにより、これらの値の一方のみを考慮に入れることが可能になります。両方のソースで指定されているドメインが必ず同じになるようにすることをお勧めします。
+最終版の [RFC 4408 仕様](https://www.rfc-editor.org/info/rfc4408)では、送信者とみなされるドメインを判断するのに、2 つのメッセージ要素、SMTP 「HELO」（または「EHLO」）コマンドで指定されたドメインおよび「Return-Path」（または「MAIL FROM」）ヘッダーのアドレスで指定されたドメインを使用します。後者は、バウンスアドレスでもあります。様々な事項を検討することにより、これらの値の一方のみを考慮に入れることが可能になります。両方のソースで指定されているドメインが必ず同じになるようにすることをお勧めします。
 
 SPF の確認により、送信者ドメインの有効性が次のように評価されます。
 
@@ -89,14 +89,14 @@ DKIM を使用するには、次のように、いくつかの前提条件を満
 
 >[!NOTE]
 >
->* If you have configured DomainKeys for your Adobe Campaign instance, you just need to select **dkim** in the [Domain management rules](../../delivery/using/understanding-delivery-failures.md#domain-management). そうでない場合は、DomainKeys の場合と同じ設定手順（秘密鍵／公開鍵）に従います。
+>* お使いの Adobe Campaign インスタンスに DomainKeys を設定してある場合は、[ドメイン管理ルール](../../delivery/using/understanding-delivery-failures.md#domain-management)で **dkim** を選択するだけです。そうでない場合は、DomainKeys の場合と同じ設定手順（秘密鍵／公開鍵）に従います。
 >* DKIM は DomainKeys の改良版なので、同じドメインに DomainKeys と DKIM の両方を有効にする必要はありません。
 >* 現在 DKIM が有効になっているドメインは、AOL および Gmail です。
 
 
 >[!IMPORTANT]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html), DKIM email authentication signing is done by the Enhanced MTA for all messages with all domains.
+>ホストインストールまたはハイブリッドインストールで [Enhanced MTA](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html) にアップグレードした場合、すべてのドメインのすべてのメッセージに対する DKIM の E メール認証署名は、Enhanced MTA がおこないます。
 
 ### DMARC {#dmarc}
 
@@ -152,7 +152,7 @@ Adobe Campaign でシンプルなフィードバックループを実装する�
 * **[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／メールルールセット]**&#x200B;で、理由として「**拒否**」、タイプとして「**ハード**」を指定してバウンスメールルール **Feedback_loop** を作成または変更します。
 * メールボックスが特にフィードバックループ用に定義されている場合は、**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;で新しい外部バウンスメールアカウントを作成することにより、メールボックスにアクセスするためのパラメーターを定義します。
 
-苦情の通知を処理するメカニズムがただちに有効になります。このルールが正しく機能していることを確認するには、これらのメッセージが収集されないようにアカウントを一時的に無効にした後、フィードバックループメールボックスの内容を手動で確認します。サーバー上で、次のコマンドを順に実行します。
+苦情の通知を処理するメカニズムが直ちに有効になります。このルールが正しく機能していることを確認するには、これらのメッセージが収集されないようにアカウントを一時的に無効にした後、フィードバックループメールボックスの内容を手動で確認します。サーバー上で、次のコマンドを順に実行します。
 
 ```
 nlserver stop inMail@instance,
@@ -262,7 +262,7 @@ IP 証明書は、スパム対策フィルターや他の E メールブロッ�
 
 [Return Path Certification](https://www.validity.com/products/returnpath/certification/) プログラムには、次のような多くの利点があります。
 
-* Microsoft、AOL、Yahoo、Gmail、Comcast、Orange、Mail.ruなど、大手メールボックスプロバイダーにおける受信ボックスへの配置率が大幅に向上
+* Microsoft、AOL、Yahoo、Gmail、Comcast、Orange、Mail.ru など、大手メールボックスプロバイダーにおける受信ボックスへの配置率が大幅に向上
 * Cloudmark、SpamAssassin および Cisco Ironport など、重要なフィルターでの有利な評判と扱い
 * 24 時間 365 日の監視をおこなう専門のコンプライアンスチームが、セキュリティアラートを提供し、あらゆるセキュリティ侵害の解決のために協力
 * KPI、配置および証明書パフォーマンスに関する詳細情報を提供する、メールボックスプロバイダーのデータ

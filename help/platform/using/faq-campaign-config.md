@@ -13,11 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 928c2d944bb9709b54a41b07e8828646f2601cb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Campaign の配信機能と高度なキャンペーン管理機能を、�
 
 ## E メール配信品質の設定方法は？ {#how-to-configure-email-deliverability-}
 
-「 [配信品質の設定](../../delivery/using/about-deliverability.md#configuration) 」セクションに加えて、技術的な推奨事項の「配信品質」を読み、キャンペーン配信機能を最大限に活かすためにインスタンスの設定方法を理解してください。
+[配信品質の設定](../../delivery/using/about-deliverability.md#configuration)節に加えて、配信品質に関する技術的な推奨事項を読み、インスタンスの設定方法を理解し、キャンペーン配信機能を最大限に活かしてください。
 
 [詳しくはここをクリック](../../delivery/using/technical-recommendations.md)してください。
 
@@ -84,7 +84,7 @@ CRM ツールを Adobe Campaign と同期させる方法については、[CRM �
 
 ## 問題がマシン固有またはユーザー固有の場合にソフトキャッシュの消去を実行する方法を教えてください。{#perform-soft-cache-clear}
 
-新しいロゴを正しく反映させる、マシン固有／ユーザ固有のデータを正しく書き出すなどの問題が発生した場合は、Windows（Windows 7、Windows XP、Windows 10）でソフトキャッシュの消去を実行する必要があります。
+新しいロゴを正しく反映させる、マシン固有／ユーザー固有のデータを正しく書き出すなどの問題が発生した場合は、Windows（Windows 7、Windows XP、Windows 10）でソフトキャッシュの消去を実行する必要があります。
 
 ログインしたら、**[!UICONTROL ファイル]**／**[!UICONTROL ローカルキャッシュを消去]**&#x200B;に移動します。その後、ログアウトしてから再度ログインします。
 
@@ -94,7 +94,7 @@ CRM ツールを Adobe Campaign と同期させる方法については、[CRM �
 
 ## 問題がマシン固有またはユーザー固有の場合にハードキャッシュの消去を実行する方法を教えてください。{#perform-hard-cache-clear}
 
-新しいロゴを正しく反映させる、マシン固有／ユーザ固有のデータを正しく書き出すなどの問題が発生した場合は、Windows（Windows 7、Windows XP、Windows 10）でハードキャッシュの消去を実行する必要があります。
+新しいロゴを正しく反映させる、マシン固有／ユーザー固有のデータを正しく書き出すなどの問題が発生した場合は、Windows（Windows 7、Windows XP、Windows 10）でハードキャッシュの消去を実行する必要があります。
 
 1. クライアントコンソールで、**[!UICONTROL ファイル]**／**[!UICONTROL ローカルキャッシュを消去]**&#x200B;を選択します。
 

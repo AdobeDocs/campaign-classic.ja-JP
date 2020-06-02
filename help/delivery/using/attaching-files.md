@@ -14,8 +14,11 @@ discoiquuid: f3666c12-5e6f-452e-b1d6-b69a7e9f6f6e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 06f2106c7c37fd5f115d15f3530997571f1f8e70
+translation-type: tm+mt
+source-git-commit: adb25307146847a1c49d9c548d00557e95562541
+workflow-type: tm+mt
+source-wordcount: '987'
+ht-degree: 94%
 
 ---
 
@@ -42,15 +45,16 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 >配信には複数個のファイルを添付できます。添付ファイルは、任意のフォーマット（zip 形式を含む）で指定できます。
 
 1. 「**[!UICONTROL 添付ファイル]**」リンクをクリックします。
-1. 「**[!UICONTROL 追加]**」ボタンをクリックし、「**[!UICONTROL ファイル...]**」をクリックして、配信に添付するファイルを選択します。
+1. 「**[!UICONTROL 追加]**」ボタンをクリックします。
+1. [ **[!UICONTROL ファイル…]** ]をクリックして、配信に添付するファイルを選択します。
 
-![](assets/s_ncs_user_wizard_email_attachement.png)
+   ![](assets/s_ncs_user_wizard_email_attachement.png)
 
 また、配信の「**[!UICONTROL 添付ファイル]**」フィールドにファイルを直接ドラッグ＆ドロップしたり、配信ウィザードのツールバーから&#x200B;**[!UICONTROL 添付]**&#x200B;アイコンを使用したりできます。
 
 ![](assets/s_ncs_user_wizard_add_file_ico.png)
 
-1. 配信の際に利用できるよう、選択したファイルは、ただちにサーバー上へとアップロードされます。「**[!UICONTROL 添付ファイル]**」フィールドに一覧表示されます。
+配信の際に利用できるよう、選択したファイルは、ただちにサーバー上へとアップロードされます。「**[!UICONTROL 添付ファイル]**」フィールドに一覧表示されます。
 
 ![](assets/s_ncs_user_wizard_email_attachement_e.png)
 
@@ -92,7 +96,7 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 
 ### パーソナライズ済みメッセージの添付 {#attach-a-personalized-message}
 
-「**[!UICONTROL 各メッセージの配信時に、ファイルコンテンツをパーソナライズして PDF 形式に変換します]**」オプションを使用すると、パーソナライゼーションフィールドで詳細を選択できます（対象の受信者の姓と名など）。
+The option **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** lets you select a file with personalization fields, such as the last name and first name of the intended recipient.
 
 ![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 

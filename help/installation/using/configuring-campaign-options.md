@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a976144d70b113d1358b0514a3e805d79e11484a
+source-git-commit: 5b6b4fd2b21f90a88744736b499eab1b0764774e
 workflow-type: tm+mt
 source-wordcount: '3743'
 ht-degree: 26%
@@ -62,6 +62,13 @@ ht-degree: 26%
 例 : custom_nms_recipient.<br /> </td> 
   </tr> 
   <tr> 
+   <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
+   <td><p> 特定の演算子またはオペレーターのグループが配信のプロパティで配信を開始するように指定されている場合に、配信の担当者が送信を確認できるようにします。</p><p> これを行うには、値として「1」を入力して、オプションをアクティブにします。 このオプションを非アクティブにするには、"0"と入力します。</p><p> すると、送信確認プロセスがデフォルトとして機能します。つまり、配信プロパティで送信用に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが、送信を確認し、実行できるようになります。<a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">この節</a>を参照してください。</p> </td> 
+   <tr> 
+   <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
+   <td> Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者受信者(nms:database)との対話を行います。<br /> option値は、外部受信者テーブルと一致するスキーマの名前に対応する必要があります。<br /> </td> 
+  </tr> 
+  <tr> 
    <td> <span class="uicontrol">NmsBilling_MainActionThreshold</span> <br /> </td> 
    <td> 配信を請求レポートのメインの配信と見なすための最小受信者数。<br /> </td> 
   </tr> 
@@ -96,10 +103,6 @@ ht-degree: 26%
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_RemoveDuplicatesRecipients</span> <br /> </td> 
    <td> 値に「1」を入力すると、重複が自動的に無視されます。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
-   <td> Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者受信者(nms:database)との対話を行います。<br /> option値は、外部受信者テーブルと一致するスキーマの名前に対応する必要があります。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ErrorAddressMasks</span> <br /> </td> 
@@ -166,6 +169,10 @@ ht-degree: 26%
    <td> List of authorized forwarding email addresses (from the inbound mail processing module). The addresses have to be separated by commas (or * to allow all). E.g. xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 
+   <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
+   <td> URL をエンコードするために「lineImage」サーブレットで使用される AES キー (LINE チャネル).<br /> </td> 
+  </tr> 
+  <tr> 
    <td> <span class="uicontrol">NmsNPAI_EmailMaxError</span> <br /> </td> 
    <td> チャネル「email」（デフォルトとして使用）: 受信者を強制隔離にする前に、送信中にSOFTエラーが発生した場合に受け入れられるエラーの最大数です。<br /> </td> 
   </tr> 
@@ -182,9 +189,21 @@ ht-degree: 26%
    <td> チャネル「mobile」の場合： 新しいSOFTエラーを考慮する前に、前回参照したSOFTエラー以降に費やした最小期間。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
-   <td> URL of the mirror page server (by default, should be identical to NmsTracking_ServerUrl).<br /> It is the default value of email deliveries when the URL is not specified in the routing definition.<br /> </td> 
+   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
+   <td> 同期ワークフローが実行されるたびに回復されるブロードログの数を制限するために、最大期間（時間単位）を指定できます。</a>.<br /> </td> 
   </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
+   <td> MidSourcingセッションで並行して実行できる最大呼び出し数（デフォルトでは3）。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsMTA_Alert_Delay</span> <br /> </td> 
+   <td> カスタムの遅延（分単位）。その後の配信は「遅延」と見なされます。デフォルトは30分です。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
+   <td><p>このオプションは、実行中の配信の数をカウントする際に、 <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> テクニカルワークフローで使用されます。</p>これにより、非整合なステータスの配信が実行中の配信の数から除外される日数を定義できます。</p><p>デフォルトでは、この値は「7」に設定されているので、7日より古い配信との矛盾は除外されます。</p></td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
    <td> 送信者のアドレスの1行目。<br /> </td> 
@@ -205,10 +224,10 @@ ht-degree: 26%
    <td> <span class="uicontrol">NmsPaper_SenderLine7</span> <br /> </td> 
    <td> 送信者のアドレスの7行目。<br /> </td> 
   </tr>
-    <tr> 
-   <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>このオプションは、実行中の配信の数をカウントする際に、 <span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span> テクニカルワークフローで使用されます。</p>これにより、非整合なステータスの配信が実行中の配信の数から除外される日数を定義できます。</p><p>デフォルトでは、この値は「7」に設定されているので、7日より古い配信との矛盾は除外されます。</p></td> 
-  </tr>
+  <tr> 
+   <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
+   <td> URL of the mirror page server (by default, should be identical to NmsTracking_ServerUrl).<br /> It is the default value of email deliveries when the URL is not specified in the routing definition.<br /> </td> 
+  </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
    <td> 送信されたSMSメッセージのパラメータ： メッセージの優先度を示すためにSMSゲートウェイに送信される情報。<br /> </td> 
@@ -222,51 +241,33 @@ ht-degree: 26%
    <td> SMSメッセージの再試行を実行する期間。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">XtkEmail_Characters</span> <br /> </td> 
-   <td> E メールアドレスで有効な文字.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
-   <td> 同期ワークフローが実行されるたびに回復されるブロードログの数を制限するために、最大期間（時間単位）を指定できます。</a>.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
-   <td> MidSourcingセッションで並行して実行できる最大呼び出し数（デフォルトでは3）。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> 特定の演算子またはオペレーターのグループが配信のプロパティで配信を開始するように指定されている場合に、配信の担当者が送信を確認できるようにします。</p><p> これを行うには、値として「1」を入力して、オプションをアクティブにします。 このオプションを非アクティブにするには、"0"と入力します。</p><p> すると、送信確認プロセスがデフォルトとして機能します。つまり、配信プロパティで送信用に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが、送信を確認し、実行できるようになります。<a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">この節</a>を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsMTA_Alert_Delay</span> <br /> </td> 
-   <td> カスタムの遅延（分単位）。その後の配信は「遅延」と見なされます。デフォルトは30分です。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">XtkBarcode_SpecialChar</span> <br /> </td> 
-   <td> Code128 の特殊文字のサポートを有効化 / 無効化.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
-   <td> URL をエンコードするために「lineImage」サーブレットで使用される AES キー (LINE チャネル).<br /> </td> 
+   <td> <span class="uicontrol">NmsUserAgentStats_LastConsolidation</span> <br /> </td> 
+   <td> NmsUserAgent <span class="uicontrol">統計の最終連結日</span> 。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsWebSegments_LastStates</span> <br /> </td> 
    <td> Webセグメントとその状態を含むオプションの名前。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsUserAgentStats_LastConsolidation</span> <br /> </td> 
-   <td> NmsUserAgent <span class="uicontrol">統計の最終連結日</span> 。<br /> </td> 
+   <td> <span class="uicontrol">XtkBarcode_SpecialChar</span> <br /> </td> 
+   <td> Enable/disable support for special characters for Code128.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">XtkEmail_Characters</span> <br /> </td> 
+   <td> E メールアドレスで有効な文字.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Restrict_EditXML</span> </td> 
    <td> この追加オプションに「0」値を付けて、配信のXMLコードのエディションを無効にします(右クリック/XMLソースを <span class="uicontrol">編集</span> 、または <span class="uicontrol">Ctrl + F4</span> ショートカット)。<br /> </td> 
-  </tr> 
-  <!--<tr> 
+  </tr>  
+ </tbody> 
+</table>
+
+<!--<tr> 
    <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
    <td> BCC email address for Momentum to send a raw copy of the sent emails. <br /> </td> 
-  </tr> 
- </tbody> 
-</table>-->
+  </tr>
+-->
 
 ## リソース {#resources}
 

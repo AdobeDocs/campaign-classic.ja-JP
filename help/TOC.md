@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
 workflow-type: tm+mt
 source-wordcount: '2051'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
       + [リリース 18.10](rn/using/release--18-10.md)
       + [リリース 18.6](rn/using/release--18-6.md)
       + [リリース 18.4](rn/using/release--18-4.md)
-   + [廃止された機能](rn/using/deprecated-features.md)
+   + [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md)
 + はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic について](platform/using/about-adobe-campaign-classic.md)
@@ -172,11 +172,11 @@ ht-degree: 98%
       + [コンテンツテンプレートの使用](delivery/using/using-a-content-template.md)
       + [コンテンツのエンリッチメント](delivery/using/enriching-content.md)
       + [ワークフローを使用した自動化](delivery/using/automating-via-workflows.md)
-+ キャンペーンの調整 {#orchestrating-campaigns}
++ キャンペーンのオーケストレーション {#orchestrating-campaigns}
    + マーケティングキャンペーンについて {#about-marketing-campaigns}
       + [マーケティングキャンペーンの設計](campaign/using/designing-marketing-campaigns.md)
       + [マーケティングキャンペーンへのアクセス](campaign/using/accessing-marketing-campaigns.md)
-   + キャンペーンの調整 {#orchestrate-campaigns}
+   + キャンペーンのオーケストレーション {#orchestrate-campaigns}
       + [マーケティングキャンペーンの設定](campaign/using/setting-up-marketing-campaigns.md)
       + [マーケティングキャンペーンテンプレート](campaign/using/marketing-campaign-templates.md)
       + [マーケティングキャンペーン配信](campaign/using/marketing-campaign-deliveries.md)
@@ -290,34 +290,34 @@ ht-degree: 98%
 + Adobe Experience Cloud との統合 {#integrating-with-adobe-experience-cloud}
    + [Campaign 統合について](integrations/using/about-campaign-integrations.md)
    + オーディエンスの共有 {#audience-sharing}
-      + [オーディエンスの共有( [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [オーディエンスを  [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md) と共有する
       + [アドビへの依頼の送信](integrations/using/submitting-request-to-adobe.md)
-      + [共有オーディエンス統合の設定( [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [  [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md) での共有オーディエンスの統合の設定
       + [トラブルシューティング](integrations/using/troubleshooting.md)
       + [オーディエンスのインポートおよびエクスポート](integrations/using/importing-and-exporting-audiences.md)
    + アセットの共有 {#asset-sharing}
-      + [アセットの共有 [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [アクセスの設定 [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
+      + [アセットを  [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md) と共有する
+      + [  [!DNL Assets]](integrations/using/configuring-access-to-assets.md) へのアクセスの設定
       + [共有アセットを挿入](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [バージョン情報 [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
+      + [情報 [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [統合の設定](integrations/using/configuring-the-integration.md)
-      + [ニュースレター [!DNL Experience Manager] の作成](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [ [!DNL Experience Manager] ニュースレター](integrations/using/creating-an-experience-manager-newsletter.md)の作成
    + Adobe Target {#adobe-target}
-      + [統合の対象 [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
-      + [統合の設定 [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md) との統合
+      + [  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md) との統合の設定
       + [動的画像の挿入](integrations/using/inserting-a-dynamic-image.md)
    + Adobe ID を使用した接続 {#connecting-via-an-adobe-id}
-      + [バージョン情報 [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
+      + [情報 [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
       + [設定 [!DNL IMS]](integrations/using/configuring-ims.md)
-      + [導入 [!DNL IMS]](integrations/using/implementing-ims.md)
+      + [実装 [!DNL IMS]](integrations/using/implementing-ims.md)
       + [IMS のトラブルシューティング](integrations/using/ims-troubleshooting.md)
    + ACS コネクタ {#acs-connector}
-      + [[!DNL ACS Connector] 原則とデータ・サイクル](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [[!DNL ACS Connector] 原則とデータサイクル](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [プロファイルの同期](integrations/using/synchronizing-profiles.md)
       + [オーディエンスの同期](integrations/using/synchronizing-audiences.md)
       + [Web アプリケーションの同期](integrations/using/synchronizing-web-applications.md)
-      + [トラブルシューティング [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
+      + [  [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md) のトラブルシューティング
 + ワークフローによる自動化 {#automating-with-workflows}
    + はじめに {#introduction}
       + [ワークフローについて](workflow/using/about-workflows.md)
@@ -382,7 +382,7 @@ ht-degree: 98%
       + [読み込み（SOAP）](workflow/using/loading--soap-.md)
       + [データの読み込み（ファイル）](workflow/using/data-loading--file-.md)
       + [コンテンツ管理](workflow/using/content-management.md)
-      + [データ抽出 (ファイル)](workflow/using/extraction--file-.md)
+      + [データ抽出（ファイル）](workflow/using/extraction--file-.md)
       + [SQL コードと JavaScript コード](workflow/using/sql-code-and-javascript-code.md)
       + [SQL データ管理](workflow/using/sql-data-management.md)
       + [nlserver モジュール](workflow/using/nlserver-module.md)
@@ -427,7 +427,7 @@ ht-degree: 98%
    + 高度な管理 {#advanced-management}
       + [ワークフローのプロパティ](workflow/using/workflow-properties.md)
       + [詳細設定パラメーター](workflow/using/advanced-parameters.md)
-      + [JS のスクリプトとテンプレート](workflow/using/javascript-scripts-and-templates.md)
+      + [JavaScript のスクリプトとテンプレート](workflow/using/javascript-scripts-and-templates.md)
       + [外部データベースへのアクセス（FDA）](workflow/using/accessing-an-external-database--fda-.md)
       + [権限の管理](workflow/using/managing-rights.md)
       + [アクティビティ画像の管理](workflow/using/managing-activity-images.md)
@@ -537,7 +537,7 @@ ht-degree: 98%
       + [Message Center サービスレベル](message-center/using/message-center-service-level.md)
       + [Message Center の処理時間](message-center/using/message-center-processing-time.md)
    + 使用例 {#use-case}
-      + [添付ファイル付きトランザクション電子メールの送信](message-center/using/transactional-email-with-attachments.md)
+      + [添付ファイル付きトランザクション E メールの送信](message-center/using/transactional-email-with-attachments.md)
 + ソーシャルメディアとの統合 {#integrating-with-social-media}
    + [ソーシャルマーケティングについて](social/using/about-social-marketing.md)
    + 設定 {#configuration}
@@ -545,7 +545,7 @@ ht-degree: 98%
       + [Facebook のウォールへのパブリッシュ](social/using/publishing-on-facebook-walls.md)
       + [Facebook アプリケーションの作成](social/using/creating-a-facebook-application.md)
       + [Twitter へのパブリッシュの設定](social/using/configuring-publishing-on-twitter.md)
-   + Facebook／Twitter へのパブリッシュ {#publishing-on-facebook-twitter}
+   + Facebook/Twitter へのパブリッシュ {#publishing-on-facebook-twitter}
       + [概要](social/using/overview.md)
       + [Facebook へのパブリッシュ](social/using/publishing-on-facebook.md)
       + [Twitter へのパブリッシュ](social/using/publishing-on-twitter.md)

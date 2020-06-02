@@ -14,8 +14,11 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 04684fd2933ef19a8ebfd6cbe77e78a34c66ffe3
+workflow-type: ht
+source-wordcount: '2615'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,7 @@ Adobe Campaign から外部データベースにアクセスできるように�
 
 >[!NOTE]
 >
->互換性のあるバージョンは [Campaign 互換性マトリクス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html#FederatedDataAccessFDA)に記載されています。
+>互換性のあるバージョンは [Campaign 互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html#FederatedDataAccessFDA)に記載されています。
 
 <!--
 ## Configure access to Azure Synapse {#configure-access-to-azure-synapse}
@@ -144,47 +147,47 @@ Adobe Campaign から外部データベースにアクセスできるように�
 
 -->
 
-## Configure access to Snowflake {#configure-access-to-snowflake}
+## Snowflake へのアクセスの設定 {#configure-access-to-snowflake}
 
 >[!NOTE]
 >
->[!DNL Snowflake] コネクタは、ホスト型およびオンプレミスのデプロイメントで使用できます。 For more on this, refer to [this article](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html).
+>[!DNL Snowflake] コネクタは、ホスト型およびオンプレミスのデプロイメントで使用できます。詳しくは、[この記事](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)を参照してください。
 
 ![](assets/snowflake_3.png)
 
-### CentOSの雪片 {#snowflake-centos}
+### CentOS での Snowflake {#snowflake-centos}
 
-1. のODBCドライバをダウンロードしま [!DNL Snowflake]す。 [ダウンロードするには](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm) 、ここをクリックします。
-1. 次のコマンドを使用して、CentOsにODBCドライバをインストールする必要があります。
+1. [!DNL Snowflake] 用の ODBC ドライバーをダウンロードします。ダウンロードを開始するには、[ここをクリック](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm)します。
+1. 次のコマンドを使用して、CentOs に ODBC ドライバーをインストールする必要があります。
 
    ```
    rpm -Uvh unixodbc
    rpm -Uvh snowflake-odbc-2.20.2.x86_64.rpm
    ```
 
-1. ODBCドライバをダウンロードしてインストールした後、Campaign Classicを再起動します。 これを行うには、次のコマンドを実行します。
+1. ODBC ドライバーをダウンロードしてインストールした後、Campaign Classic を再起動する必要があります。これをおこなうには、次のコマンドを実行します。
 
    ```
    /etc/init.d/nlserver6 stop
    /etc/init.d/nlserver6 start
    ```
 
-1. Campaign Classicでは、外部アカウントを設定できます。 [!DNL Snowflake] から、 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /をクリッ **[!UICONTROL Platform]** クしま **[!UICONTROL External accounts]**&#x200B;す。
+1. Campaign Classic では、[!DNL Snowflake] 外部アカウントを設定できます。**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
-1. 組み込みオプションを選択 **[!UICONTROL Snowflake]** します。
+1. 組み込みの **[!UICONTROL Snowflake]** 外部アカウントを選択します。
 
-1. 次を指定する **[!UICONTROL Snowflake]** 外部アカウントを設定します。
+1. **[!UICONTROL Snowflake]** 外部アカウントを設定するには、次を指定する必要があります。
 
-   * **[!UICONTROL Server]**:サーバーのURL [!DNL Snowflake] 。
+   * **[!UICONTROL サーバー]**：[!DNL Snowflake] サーバーの URL
 
-   * **[!UICONTROL Account]**:ユーザーの名前
+   * **[!UICONTROL アカウント]**：ユーザーの名前
 
-   * **[!UICONTROL Password]**:ユーザーアカウントのパスワード
+   * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
 
-   * **[!UICONTROL Database]**:データベースの名前
+   * **[!UICONTROL データベース]**：データベースの名前
    ![](assets/snowflake.png)
 
-1. タブをクリック **[!UICONTROL Parameters]** し、ボタンをク **[!UICONTROL Deploy functions]** リックして関数を作成します。
+1. 「**[!UICONTROL パラメーター]**」タブをクリックし、「**[!UICONTROL 機能をデプロイ]**」ボタンをクリックして機能を作成します。
 
    ![](assets/snowflake_2.png)
 
@@ -193,45 +196,45 @@ Adobe Campaign から外部データベースにアクセスできるように�
 | オプション | 説明 |
 |---|---|
 | workschema | 作業用テーブルに使用するデータベーススキーマ |
-| 倉庫 | 使用するデフォルトの倉庫の名前。 ユーザーのデフォルト値より優先されます。 |
-| TimeZoneName | デフォルトでは空で、システムアプリサーバーのCampaign Classicタイムゾーンが使用されます。 このオプションは、TIMEZONEセッション・パラメータを強制的に指定するために使用できます。 <br>[詳しくは、このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)を参照してください。 |
-| WeekStart | WEEK_開始セッションパラメータ。 デフォルトでは0に設定されています。 <br>[詳しくは、このページ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)を参照してください。 |
-| UseCachedResult | USE_CACHED_RESULTSセッションパラメータ。 デフォルトではTRUEに設定されています。 このオプションは、スノーフレークキャッシュ結果を無効にするために使用できます。 <br>[詳しくは、このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)を参照してください。 |
+| warehouse | 使用するデフォルトのウェアハウスの名前。ユーザーのデフォルト値より優先されます。 |
+| TimeZoneName | デフォルトでは空で、Campaign Classic アプリケーションサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。[詳しくは、<br>このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)を参照してください。 |
+| WeekStart | WEEK_START セッションパラメーター。デフォルトでは 0 に設定されています。<br>詳しくは、[このページ](Https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)を参照してください。 |
+| UseCachedResult | USE_CACHED_RESULTS セッションパラメーター。デフォルトでは TRUE に設定されています。このオプションは、Snowflake でキャッシュされた結果を無効にするために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)を参照してください。 |
 
-### 雪片オンデビアン {#snowflake-debian}
+### Debian での Snowflake{#snowflake-debian}
 
-1. のODBCドライバをダウンロードしま [!DNL Snowflake]す。 [ここをクリックして](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) 、開始ダウンロード。
+1. [!DNL Snowflake] 用の ODBC ドライバーをダウンロードします。[ここをクリック](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html)して、ダウンロードを開始します。
 
-1. 次のコマンドを使用して、DebianにODBCドライバをインストールする必要があります。
+1. 次のコマンドを使用して、Debian に ODBC ドライバーをインストールする必要があります。
 
    ```
    apt-get install unixodbc
    apt-get install snowflake-odbc-x.xx.x.x86_64.deb
    ```
 
-1. ODBCドライバをダウンロードしてインストールした後、Campaign Classicを再起動します。 これを行うには、次のコマンドを実行します。
+1. ODBC ドライバーをダウンロードしてインストールした後、Campaign Classic を再起動する必要があります。これをおこなうには、次のコマンドを実行します。
 
    ```
    systemctl stop nlserver.service
    systemctl start nlserver.service
    ```
 
-1. Campaign Classicでは、外部アカウントを設定できます。 [!DNL Snowflake] から、 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /をクリッ **[!UICONTROL Platform]** クしま **[!UICONTROL External accounts]**&#x200B;す。
+1. Campaign Classic では、[!DNL Snowflake] 外部アカウントを設定できます。**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
-1. 組み込みオプションを選択 **[!UICONTROL Snowflake]** します。
+1. 組み込みの **[!UICONTROL Snowflake]** 外部アカウントを選択します。
 
-1. この外部アカウントを設定する **[!UICONTROL Snowflake]** には、次を指定する必要があります。
+1. **[!UICONTROL Snowflake]** 外部アカウントを設定するには、次を指定する必要があります。
 
-   * **[!UICONTROL Server]**:サーバーのURL [!DNL Snowflake] 。
+   * **[!UICONTROL サーバー]**：[!DNL Snowflake] サーバーの URL
 
-   * **[!UICONTROL Account]**:ユーザーの名前
+   * **[!UICONTROL アカウント]**：ユーザーの名前
 
-   * **[!UICONTROL Password]**:ユーザーアカウントのパスワード
+   * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
 
-   * **[!UICONTROL Database]**:データベースの名前
+   * **[!UICONTROL データベース]**：データベースの名前
    ![](assets/snowflake.png)
 
-1. タブをクリック **[!UICONTROL Parameters]** し、ボタンをク **[!UICONTROL Deploy functions]** リックして関数を作成します。
+1. 「**[!UICONTROL パラメーター]**」タブをクリックし、「**[!UICONTROL 機能をデプロイ]**」ボタンをクリックして機能を作成します。
 
    ![](assets/snowflake_2.png)
 
@@ -240,33 +243,33 @@ Adobe Campaign から外部データベースにアクセスできるように�
 | オプション | 説明 |
 |---|---|
 | workschema | 作業用テーブルに使用するデータベーススキーマ |
-| 倉庫 | 使用するデフォルトの倉庫の名前。 ユーザーのデフォルト値より優先されます。 |
-| TimeZoneName | デフォルトでは空で、システムアプリサーバーのCampaign Classicタイムゾーンが使用されます。 このオプションは、TIMEZONEセッション・パラメータを強制的に指定するために使用できます。 <br>[詳しくは、このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)を参照してください。 |
-| WeekStart | WEEK_開始セッションパラメータ。 デフォルトでは0に設定されています。  <br>[詳しくは、このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start)を参照してください。 |
-| UseCachedResult | USE_CACHED_RESULTSセッションパラメータ。 デフォルトではTRUEに設定されています。 このオプションは、スノーフレークキャッシュ結果を無効にするために使用できます。 <br>[詳しくは、このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)を参照してください。 |
+| warehouse | 使用するデフォルトのウェアハウスの名前。ユーザーのデフォルト値より優先されます。 |
+| TimeZoneName | デフォルトでは空で、Campaign Classic アプリケーションサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)を参照してください。 |
+| WeekStart | WEEK_START セッションパラメーター。デフォルトでは 0 に設定されています。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start)を参照してください。 |
+| UseCachedResult | USE_CACHED_RESULTS セッションパラメーター。デフォルトでは TRUE に設定されています。このオプションは、Snowflake でキャッシュされた結果を無効にするために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)を参照してください。 |
 
-### ウィンドウの雪片 {#snowflake-windows}
+### Windows での Snowflake。{#snowflake-windows}
 
-1. Windows用の [ODBCドライバをダウンロードします](https://docs.snowflake.net/manuals/user-guide/odbc-download.html)。 ドライバをインストールするには、管理者レベルの権限が必要です。 For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)
+1. [Windows 用の ODBC ドライバー](https://docs.snowflake.net/manuals/user-guide/odbc-download.html)をダウンロードします。ドライバーをインストールするには、管理者レベルの権限が必要です。詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)を参照してください。
 
-1. ODBC ドライバーを設定します。For more on this, refer to [this page](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)
+1. ODBC ドライバーを設定します。詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)を参照してください。
 
-1. Campaign Classicでは、外部アカウントを設定できます。 [!DNL Snowflake] から、 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /をクリッ **[!UICONTROL Platform]** クしま **[!UICONTROL External accounts]**&#x200B;す。
+1. Campaign Classic では、[!DNL Snowflake] 外部アカウントを設定できます。**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
-1. 組み込みオプションを選択 **[!UICONTROL Snowflake]** します。
+1. 組み込みの **[!UICONTROL Snowflake]** 外部アカウントを選択します。
 
-1. この外部アカウントを設定する **[!UICONTROL Snowflake]** には、次を指定する必要があります。
+1. **[!UICONTROL Snowflake]** 外部アカウントを設定するには、次を指定する必要があります。
 
-   * **[!UICONTROL Server]**:サーバーのURL [!DNL Snowflake] 。
+   * **[!UICONTROL サーバー]**：[!DNL Snowflake] サーバーの URL
 
-   * **[!UICONTROL Account]**:ユーザーの名前
+   * **[!UICONTROL アカウント]**：ユーザーの名前
 
-   * **[!UICONTROL Password]**:ユーザーアカウントのパスワード
+   * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
 
-   * **[!UICONTROL Database]**:データベースの名前
+   * **[!UICONTROL データベース]**：データベースの名前
    ![](assets/snowflake.png)
 
-1. タブをクリック **[!UICONTROL Parameters]** し、ボタンをク **[!UICONTROL Deploy functions]** リックして関数を作成します。
+1. 「**[!UICONTROL パラメーター]**」タブをクリックし、「**[!UICONTROL 機能をデプロイ]**」ボタンをクリックして機能を作成します。
 
    ![](assets/snowflake_2.png)
 
@@ -275,62 +278,62 @@ Adobe Campaign から外部データベースにアクセスできるように�
 | オプション | 説明 |
 |---|---|---|
 | workschema | 作業用テーブルに使用するデータベーススキーマ |
-| 倉庫 | 使用するデフォルトの倉庫の名前。 ユーザーのデフォルト値より優先されます。 |
-| TimeZoneName | デフォルトでは空で、システムアプリサーバーのCampaign Classicタイムゾーンが使用されます。 このオプションは、TIMEZONEセッション・パラメータを強制的に指定するために使用できます。 <br>[詳しくは、このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)を参照してください。 |
-| WeekStart | WEEK_開始セッションパラメータ。 デフォルトでは0に設定されています。 <br>[詳しくは、このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start)を参照してください。 |
-| UseCachedResult | デフォルトではTRUEに設定されています。 このオプションは、Snowflakeキャッシュ結果（USE_CACHED_RESULTSセッションパラメータ）を無効にするために使用で <br>きます。詳しくは、このページを参照し [てください](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)。 |
+| warehouse | 使用するデフォルトのウェアハウスの名前。ユーザーのデフォルト値より優先されます。 |
+| TimeZoneName | デフォルトでは空で、Campaign Classic アプリケーションサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)を参照してください。 |
+| WeekStart | WEEK_START セッションパラメーター。デフォルトでは 0 に設定されています。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#week-start)を参照してください。 |
+| UseCachedResult | デフォルトでは TRUE に設定されています。このオプションは、Snowflake でキャッシュされた結果（USE_CACHED_RESULTS セッションパラメーター）を無効にするために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)を参照してください。 |
 
-## Configure access to Hadoop 3.0 {#configure-access-to-hadoop-3}
+## Hadoop 3.0 へのアクセスの設定 {#configure-access-to-hadoop-3}
 
-Hadoopの外部データベースにFDAで接続するには、接続サーバーで次の設定を行う必要があります。Adobe Campaign この設定は、WindowsとLinuxの両方で利用できます。
+FDA で Hadoop 外部データベースに接続するには、Adobe Campaign サーバーで次の設定が必要になります。この設定は、Windows と Linux の両方で利用できます。
 
-1. ご使用のOSのバージョンに応じて、Hadoop用のODBCドライバーをダウンロードします。 ドライバはこのページに [あります](https://www.cloudera.com/downloads.html)。
+1. ご使用の OS のバージョンに応じて、Hadoop 用の ODBC ドライバーをダウンロードします。ドライバーは[このページ](https://www.cloudera.com/downloads.html)にあります。
 
-1. 次に、ODBCドライバーをインストールし、Hive接続用のDSNを作成する必要があります。 手順は、このページを参照し [てください](https://docs.cloudera.com/documentation/other/connectors/hive-odbc/2-6-5/Cloudera-ODBC-Driver-for-Apache-Hive-Install-Guide.pdf)
+1. 次に、ODBC ドライバーをインストールし、Hive 接続用の DSN を作成する必要があります。手順は、[このページ](https://docs.cloudera.com/documentation/other/connectors/hive-odbc/2-6-5/Cloudera-ODBC-Driver-for-Apache-Hive-Install-Guide.pdf)に記載されています。
 
-1. ODBCドライバをダウンロードしてインストールした後、Campaign Classicを再起動します。 これを行うには、次のコマンドを実行します。
+1. ODBC ドライバーをダウンロードしてインストールした後、Campaign Classic を再起動する必要があります。これをおこなうには、次のコマンドを実行します。
 
    ```
    systemctl stop nlserver.service
    systemctl start nlserver.service
    ```
 
-1. Campaign Classicで、雪片外部アカウントを設定 から、 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /をクリッ **[!UICONTROL Platform]** クしま **[!UICONTROL External accounts]**&#x200B;す。
+1. Campaign Classic では、Snowflake 外部アカウントを設定できます。**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
-1. をクリック **[!UICONTROL Create]** し、「アカウントタ **[!UICONTROL External database]** イプ」を選択します。
+1. 「**[!UICONTROL 作成]**」をクリックし、「アカウントタイプ」として「**[!UICONTROL 外部データベース]**」を選択します。
 
-1. 外部アカウントを設定するに **[!UICONTROL  Hadoop]** は、次を指定する必要があります。
+1. **[!UICONTROL Hadoop]** 外部アカウントを設定するには、次を指定する必要があります。
 
-   * **[!UICONTROL Type]**: ODBC (Sybase ASE、Sybase IQ)
+   * **[!UICONTROL タイプ]**：ODBC（Sybase ASE、Sybase IQ）
 
-   * **[!UICONTROL Server]**:DNSの名前
+   * **[!UICONTROL サーバー]**：DNS の名前
 
-   * **[!UICONTROL Account]**:ユーザーの名前
+   * **[!UICONTROL アカウント]**：ユーザーの名前
 
-   * **[!UICONTROL Password]**:ユーザーアカウントのパスワード
+   * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
 
-   * **[!UICONTROL Database]**:DSNで指定されていない場合のデータベースの名前。 DSNで指定した場合は、空のままにすることができます
+   * **[!UICONTROL データベース]**：DSN で指定されていない場合のデータベースの名前。DSN で指定した場合は、空のままにできます
 
-   * **[!UICONTROL Time zone]**: サーバーのタイムゾーン
+   * **[!UICONTROL タイムゾーン]**：サーバーのタイムゾーン
    ![](assets/hadoop3.png)
 
-コネクタは、次のODBCオプションをサポートしています。
+コネクタは、次の ODBC オプションをサポートしています。
 
 | 名前 | 値 |
 |---|---|
 | ODBCMgr | iODBC |
-| 倉庫 | 1/2/4 |
+| warehouse | 1/2/4 |
 
-コネクタは、次のHiveオプションもサポートします。
+コネクタは、次の Hive オプションもサポートします。
 
 | 名前 | 値 | 説明 |
 |---|---|---|
-| bulkKey | Azure BLOBまたはDataLakeアクセスキー | wasb://またはwasbs://のバルクローダの場合(wasb://またはwasbs://を使用して一括ロードツールの開始を行う場合)。 <br>これは、一括読み込みのBLOBまたはDataLakeバケットのアクセスキーです。 |
-| hdfsPort | デフォルトで8020 <br>に設定されているポート番号 | HDFSの一括読み込み(webhdfs://またはwebhdfss://を使用して一括読み込みツールの開始を行う場合)。 |
-| bucketsNumber | 20 | クラスタ化テーブルを作成する際のグループ数。 |
-| fileFormat | パーケ | 作業用テーブルの既定のファイル形式です。 |
+| bulkKey | Azure BLOB または DataLake アクセスキー | wasb:// または wasbs:// の一括ローダーの場合（wasb:// または wasbs:// で始まる一括ロードツールの場合）。<br>一括読み込みの BLOB または DataLake バケットのアクセスキーです。 |
+| hdfsPort | ポート番号<br>（デフォルトでは 8020 に設定） | HDFS の一括ローダーの場合（webhdfs:// または webhdfss:// で始まる一括ロードツールの場合）。 |
+| bucketsNumber | 20 | クラスター化テーブルを作成する際のバケット数。 |
+| fileFormat | PARQUET | 作業用テーブルのデフォルトのファイル形式です。 |
 
-## Configure access to Hadoop 2.1 {#configure-access-to-hadoop}
+## Hadoop 2.1 へのアクセスの設定 {#configure-access-to-hadoop}
 
 ### Windows の場合 {#for-windows}
 
@@ -346,7 +349,7 @@ Hadoopの外部データベースにFDAで接続するには、接続サーバ�
    User/Password: admin/<your password here>
    ```
 
-1. Create the Hadoop external account, as detailed in [this page](../../platform/using/external-accounts.md#hadoop-external-account) section.
+1. Hadoop 外部アカウントを作成します。手順について詳しくは、[このページ](../../platform/using/external-accounts.md#hadoop-external-account)の節を参照してください。
 
 ### Linux の場合 {#for-linux}
 
@@ -433,7 +436,7 @@ Hadoopの外部データベースにFDAで接続するには、接続サーバ�
    isql vorac -v
    ```
 
-1. Create the Hadoop external account, as detailed in [this page](../../platform/using/external-accounts.md#hadoop-external-account) section.
+1. Hadoop 外部アカウントを作成します。手順について詳しくは、[このページ](../../platform/using/external-accounts.md#hadoop-external-account)の節を参照してください。
 
 ## Netezza へのアクセスの設定 {#configure-access-to-netezza}
 
@@ -482,21 +485,21 @@ FDA で Netezza 外部データベースに接続するには、Adobe Campaign �
    * **ODBCINI**：odbc.ini ファイルの保存場所（例：/etc/odbc.ini）。
    * **NZ_ODBC_INI_PATH**：odbc.ini ファイルの保存場所。Netezza で odbc.ini ファイルを使用するには、この 2 番目の変数も必要になります。
 
-1. Campaign Classicでは、Netezza外部アカウントを設定 から、 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /をクリッ **[!UICONTROL Platform]** クしま **[!UICONTROL External accounts]**&#x200B;す。
+1. Campaign Classic では、Netezza 外部アカウントを設定できます。**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
-1. をクリッ **[!UICONTROL New]** クし、「として」 **[!UICONTROL External database]** を選択しま **[!UICONTROL Type]**&#x200B;す。
+1. 「**[!UICONTROL 新規]**」をクリックし、「**[!UICONTROL タイプ]**」として「**[!UICONTROL 外部データベース]**」を選択します。
 
-1. この外部アカウントを設定する **[!UICONTROL Netezza]** には、次を指定する必要があります。
+1. **[!UICONTROL Netezza]** 外部アカウントを設定するには、次を指定する必要があります。
 
-   * **[!UICONTROL Type]**: Netezza
+   * **[!UICONTROL タイプ]**：Netezza
 
-   * **[!UICONTROL Server]**:NetezzaサーバーのURL
+   * **[!UICONTROL サーバー]**：Netezza サーバーの URL
 
-   * **[!UICONTROL Account]**:ユーザーの名前
+   * **[!UICONTROL アカウント]**：ユーザーの名前
 
-   * **[!UICONTROL Password]**:ユーザーアカウントのパスワード
+   * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
 
-   * **[!UICONTROL Database]**:データベースの名前
+   * **[!UICONTROL データベース]**：データベースの名前
 
 >[!NOTE]
 >
@@ -555,7 +558,7 @@ FDA で Oracle 外部データベースに接続するには、Adobe Campaign �
 
 ## Sybase IQ へのアクセスを設定する {#configure-access-to-sybase-iq}
 
-FDA で Sybase IQ 16 外部データベースに接続するには、Adobe Campaign サーバーで追加の設定が必要になります。
+FDA で Sybase IQ 外部データベースに接続するには、Adobe Campaign サーバーで追加の設定が必要になります。
 
 1. unixodbc パッケージがサーバーにあることを確認します。
 1. **iq_odbc** をインストールします。インストールの終了時にエラーが発生することがあります。このエラーは無視してかまいません。
@@ -592,25 +595,25 @@ FDA で Sybase IQ 16 外部データベースに接続するには、Adobe Campa
    * customer.sh ファイルを使用してパスを宣言する場合は、パス /opt/sybase/IQ-16_0/lib64 を LD_LIBRARY_PATH 変数に追加します。
    * それ以外の場合は、Unix コマンドを使用します。
 
-1. Campaign Classicでは、Sybase IQの外部アカウントを設定 から、 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /をクリッ **[!UICONTROL Platform]** クしま **[!UICONTROL External accounts]**&#x200B;す。
+1. Campaign Classic では、Sybase IQ 外部アカウントを構成できます。**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
-1. をクリッ **[!UICONTROL New]** クし、「として」 **[!UICONTROL External database]** を選択しま **[!UICONTROL Type]**&#x200B;す。
+1. 「**[!UICONTROL 新規]**」をクリックし、「**[!UICONTROL タイプ]**」として「**[!UICONTROL 外部データベース]**」を選択します。
 
-1. この外部アカウントを設定する **[!UICONTROL Sybase IQ]** には、次を指定する必要があります。
+1. **[!UICONTROL Sybase IQ]** 外部アカウントを構成するには、次を指定する必要があります。
 
-   * **[!UICONTROL Type]**: ODBC (Sybase ASE、Sybase IQ)
+   * **[!UICONTROL タイプ]**：ODBC（Sybase ASE、Sybase IQ）
 
-   * **[!UICONTROL Server]**:手順5で定義したODBC接続(`<server_alias>`)に対応します。 必ずしもサーバー自体の名前とは限りません。
+   * **[!UICONTROL サーバー]**：手順 5 で定義した ODBC 接続（`<server_alias>`）に対応します。必ずしもサーバー自体の名前であるとは限りません。
 
-   * **[!UICONTROL Account]**:ユーザーの名前
+   * **[!UICONTROL アカウント]**：ユーザーの名前
 
-   * **[!UICONTROL Password]**:ユーザーアカウントのパスワード
+   * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
 
-   * **[!UICONTROL Database]**:データベースの名前
+   * **[!UICONTROL データベース]**：データベースの名前
 
 >[!NOTE]
 >
->Windows の場合は、Sybase IQ クライアントを Adobe Campaign サーバーにインストールし、ODBC 接続を作成する必要があります。システムサーバー(nlserver)がWindowsのサービスとして実行されている場合は、Adobe Campaignデータソースを作成してください。
+>Windows の場合は、Sybase IQ クライアントを Adobe Campaign サーバーにインストールし、ODBC 接続を作成する必要があります。Adobe Campaign サーバー（nlserver）を Windows でサービスとして実行しているときに、システムデータソースを作成してください。
 
 ## Teradata へのアクセスの設定 {#configure-access-to-teradata}
 
@@ -655,21 +658,21 @@ FDA で Teradata 外部データベースに接続するには、Adobe Campaign 
    * **ODBCINI**：odbc.ini ファイルの保存場所（例：/etc/odbc.ini）。
    * **NLSPATH**：opermsgs.cat ファイルの保存場所（/opt/teradata/client/15.10/msg/opermsgs.cat）。
 
-1. Campaign Classicでは、Teradata外部アカウントを設定 から、 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /をクリッ **[!UICONTROL Platform]** クしま **[!UICONTROL External accounts]**&#x200B;す。
+1. Campaign Classic では、Teradata 外部アカウントを設定できます。**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
-1. をクリッ **[!UICONTROL New]** クし、「として」 **[!UICONTROL External database]** を選択しま **[!UICONTROL Type]**&#x200B;す。
+1. 「**[!UICONTROL 新規]**」をクリックし、「**[!UICONTROL タイプ]**」として「**[!UICONTROL 外部データベース]**」を選択します。
 
-1. この外部アカウントを設定する **[!UICONTROL Teradata]** には、次を指定する必要があります。
+1. Teradata **[!UICONTROL 外部アカウントを設定するには]**、次を指定する必要があります。
 
-   * **[!UICONTROL Type]**: Teradata
+   * **[!UICONTROL タイプ]**：Teradata
 
-   * **[!UICONTROL Server]**:TeradataサーバーのURL
+   * **[!UICONTROL サーバー]**：Teradata サーバーの URL
 
-   * **[!UICONTROL Account]**:ユーザーの名前
+   * **[!UICONTROL アカウント]**：ユーザーの名前
 
-   * **[!UICONTROL Password]**:ユーザーアカウントのパスワード
+   * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
 
-   * **[!UICONTROL Database]**:データベースの名前
+   * **[!UICONTROL データベース]**：データベースの名前
 
 ## SAP HANA へのアクセスを設定する {#configure-access-to-sap-hana}
 
@@ -706,19 +709,19 @@ FDA で SAP HANA 外部データベースに接続するには、Adobe Campaign 
 
 1. Adobe Campaign サーバーの環境変数を指定します。
 
-   * **LD_LIBRARY_PATH**:SAP Hanaクライアント(デフォルトでは/usr/sap/hdbclient/libodbcHDB.so)へのリンクを含める必要があります。
+   * **LD_LIBRARY_PATH**：SAP HANA クライアントへのリンク（デフォルトでは /usr/sap/hdbclient/libodbcHDB.so）を含める必要があります。
    * **ODBCINI**：odbc.ini ファイルの保存場所（例：/etc/odbc.ini）。
 
-1. Campaign Classicでは、SAP Hana外部アカウントを設定 から、 **[!UICONTROL Explorer]**/ **[!UICONTROL Administration]** /をクリッ **[!UICONTROL Platform]** クしま **[!UICONTROL External accounts]**&#x200B;す。
+1. Campaign Classic では、SAP Hana 外部アカウントを設定できます。**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
-1. をクリッ **[!UICONTROL New]** クし、「として」 **[!UICONTROL External database]** を選択しま **[!UICONTROL Type]**&#x200B;す。
+1. 「**[!UICONTROL 新規]**」をクリックし、「**[!UICONTROL タイプ]**」として「**[!UICONTROL 外部データベース]**」を選択します。
 
-1. この外部アカウントを設定する **[!UICONTROL SAP Hana]** には、次を指定する必要があります。
+1. **[!UICONTROL SAP Hana]** 外部アカウントを設定するには、次を指定する必要があります。
 
-   * **[!UICONTROL Type]**:SAP Hana
+   * **[!UICONTROL タイプ]**：SAP Hana
 
-   * **[!UICONTROL Server]**:SAP HanaサーバーのURL
+   * **[!UICONTROL サーバー]**：SAP Hana サーバーの URL
 
-   * **[!UICONTROL Account]**:ユーザーの名前
+   * **[!UICONTROL アカウント]**：ユーザーの名前
 
-   * **[!UICONTROL Password]**:ユーザーアカウントのパスワード
+   * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード

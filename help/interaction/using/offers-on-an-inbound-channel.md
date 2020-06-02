@@ -14,8 +14,11 @@ discoiquuid: 63245348-0402-4929-9c4f-71f01f97758e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c117c549b02cf24b97dc1330e703b711ba14129
+workflow-type: ht
+source-wordcount: '2159'
+ht-degree: 100%
 
 ---
 
@@ -28,8 +31,8 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
 このインタラクションを実現するには、次の手順を実行します。
 
-1. [匿名環境](#creating-an-anonymous-environment)
-1. [匿名オファースペース](#creating-anonymous-offer-spaces)
+1. [匿名環境の作成](#creating-an-anonymous-environment)
+1. [匿名オファースペースの作成](#creating-anonymous-offer-spaces)
 1. [オファーカテゴリとテーマの作成](#creating-an-offer-category-and-a-theme)
 1. [匿名オファーの作成](#creating-anonymous-offers)
 1. [Web サイト上の Web オファースペースの設定](#configure-the-web-offer-space-on-the-website)
@@ -44,8 +47,8 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
 ### 匿名オファースペースの作成 {#creating-anonymous-offer-spaces}
 
-1. In your anonymous environment (**Visitors**) go to the **[!UICONTROL Administration]** > **[!UICONTROL Spaces]** node.
-1. Click **[!UICONTROL New]** to create call channels.
+1. 匿名環境（**訪問者**）内で、**[!UICONTROL 管理]**／**[!UICONTROL スペース]**&#x200B;ノードに移動します。
+1. 「**[!UICONTROL 新規]**」をクリックして呼び出しチャネルを作成します。
 
    ![](assets/offer_inbound_anonymous_example_010.png)
 
@@ -53,7 +56,7 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
    >
    >スペースは、この匿名環境に自動的にリンクされます。
 
-1. Change the label and select the **[!UICONTROL Inbound Web]** channel. チェックボックスをオンにする必要も **[!UICONTROL Enable unitary mode]** あります。
+1. ラベルを変更し、「**[!UICONTROL インバウンド Web]**」チャネルを選択します。また、「**[!UICONTROL 単一モードを有効にする]**」ボックスをオンにします。
 
    ![](assets/offer_inbound_anonymous_example_006.png)
 
@@ -88,19 +91,19 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
 ### オファーカテゴリとテーマの作成 {#creating-an-offer-category-and-a-theme}
 
-1. Go to the **[!UICONTROL Offer catalog]** node within the environment you have just created.
-1. ノードを右クリックし **[!UICONTROL Offer catalog]** て、を選択しま **[!UICONTROL Create a new 'Offer category' folder]**&#x200B;す。
+1. 先ほど作成した環境の「**[!UICONTROL オファーカタログ]**」ノードに移動します。
+1. 「**[!UICONTROL オファーカタログ]**」ノードを右クリックし、「**[!UICONTROL 新しい「オファーカテゴリ」フォルダーを作成]**」を選択します。
 
    新規カテゴリに、例えば「**Financial products**」（金融商品）という名前を付けます。
 
-1. Go to the category&#39;s **[!UICONTROL Eligibility]** tab and enter **financing** as a theme, then save changes.
+1. このカテゴリの「**[!UICONTROL 実施要件]**」タブに移動して、テーマに「**financing**」と入力し、変更を保存します。
 
    ![](assets/offer_inbound_anonymous_example_023.png)
 
 ### 匿名オファーの作成 {#creating-anonymous-offers}
 
 1. 作成したカテゴリに移動します。
-1. クリック **[!UICONTROL New]** .
+1. 「**[!UICONTROL 新規]**」をクリックします。
 
    ![](assets/offer_inbound_anonymous_example_013.png)
 
@@ -112,17 +115,17 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
    ![](assets/offer_inbound_anonymous_example_015.png)
 
-1. Go to the **[!UICONTROL Eligibility]** tab and specify the weight of the offers according to its application contexts.
+1. 「**[!UICONTROL 実施要件]**」タブに移動し、アプリケーションのコンテキストに応じてオファーの重み付けを指定します。
 
    この例では、オファーは、年末まで優先項目としてホームページに表示されるように設定されています。
 
    ![](assets/offer_inbound_anonymous_example_016.png)
 
-1. Go to the **[!UICONTROL Content]** tab and define the content of the offer.
+1. 「**[!UICONTROL コンテンツ]**」タブに移動し、オファーのコンテンツを定義します。
 
    >[!NOTE]
    >
-   >You can select **[!UICONTROL Content definitions]** to display the list of elements required for the web space.
+   >「**[!UICONTROL コンテンツ定義]**」を選択すると、この Web スペースに必要な要素のリストが表示されます。
 
    ![](assets/offer_inbound_anonymous_example_017.png)
 
@@ -130,7 +133,7 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
    ![](assets/offer_inbound_anonymous_example_018.png)
 
-1. Go to the **[!UICONTROL Eligibility]** tab and apply the same weight as for the first offer.
+1. 「**[!UICONTROL 実施要件]**」タブに移動し、最初のオファーと同じ重み付けを指定します。
 1. 各オファーに対して承認サイクルを実行し、オファーおよび承認されたオファースペースを、オンライン環境で利用可能な状態にします。
 
 ### Web サイト上の Web オファースペースの設定 {#configure-the-web-offer-space-on-the-website}
@@ -213,7 +216,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
    ![](assets/offer_inbound_fallback_example_023.png)
 
-1. Create a new **[!UICONTROL Inbound web]** type space.
+1. 「**[!UICONTROL インバウンド Web]**」タイプのスペースを新規作成します。
 
    ![](assets/offer_inbound_fallback_example_024.png)
 
@@ -234,12 +237,12 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
 まず、「**Best Offer**」（ベストオファー）および「**Partner**」（パートナー）という 2 つのオファーカテゴリを作成します。各カテゴリには、匿名コンタクト向けのオファーを 2 件ずつ用意します。
 
-1. Go to the **[!UICONTROL Offer catalog]** in the anonymous environment that you have just created.
-1. Add an **[!UICONTROL Offer category]** folder with **Best Offer** as a label.
+1. 先ほど作成した匿名環境の「**[!UICONTROL オファーカタログ]**」に移動します。
+1. **[!UICONTROL オファーカテゴリ]**&#x200B;フォルダーを追加し、&quot;**Best Offer**&quot; というラベルを付けます。
 
    ![](assets/offer_inbound_fallback_example_027.png)
 
-1. カテゴリをもう 1 つ追加し、&quot;**Partner**&quot; というラベルを付けます。
+1. 2 つ目のカテゴリを作成し、&quot;**Partner**&quot; というラベルを付けます。
 
    ![](assets/offer_inbound_fallback_example_028.png)
 
@@ -251,11 +254,11 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
    ![](assets/offer_inbound_fallback_example_029.png)
 
-1. Go to the **[!UICONTROL Eligibility]** tab and specify the weight of the offers according to its application contexts.
+1. 「**[!UICONTROL 実施要件]**」タブに移動し、アプリケーションのコンテキストに応じてオファーの重み付けを指定します。
 
    ![](assets/offer_inbound_fallback_example_030.png)
 
-1. Go to the **[!UICONTROL Content]** tab and define the content of the offer.
+1. 「**[!UICONTROL コンテンツ]**」タブに移動し、オファーのコンテンツを定義します。
 
    ![](assets/offer_inbound_fallback_example_032.png)
 
@@ -264,11 +267,11 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
    ![](assets/offer_inbound_fallback_example_031.png)
 
 1. 「**Partner**」カテゴリに移動し、匿名オファーを作成します。
-1. Go to the **[!UICONTROL Content]** tab and define the content of the offer.
+1. 「**[!UICONTROL コンテンツ]**」タブに移動し、オファーのコンテンツを定義します。
 
    ![](assets/offer_inbound_fallback_example_033.png)
 
-1. Go to the **[!UICONTROL Eligibility]** tab and specify the weight of the offers according to its application contexts.
+1. 「**[!UICONTROL 実施要件]**」タブに移動し、アプリケーションのコンテキストに応じてオファーの重み付けを指定します。
 
    ![](assets/offer_inbound_fallback_example_034.png)
 
@@ -276,7 +279,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
    ![](assets/offer_inbound_fallback_example_035.png)
 
-1. Go to the **[!UICONTROL Eligibility]** tab and apply the same weight that you applied to the first offer in this category so that the offers are displayed successively on the website.
+1. 「**[!UICONTROL 実施要件]**」タブに移動し、このカテゴリの最初のオファーと同じ値の重み付けを適用して、交互に Web サイトに表示されるようにします。
 
    ![](assets/offer_inbound_fallback_example_036.png)
 
@@ -293,7 +296,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
    ![](assets/offer_inbound_fallback_example_005.png)
 
-1. オプションを選 **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]** 択します。
+1. 「**[!UICONTROL 個人が識別されなかった場合、匿名環境にフォールバックします]**」オプションを選択します。
 
    ![](assets/offer_inbound_fallback_example_006.png)
 
@@ -306,19 +309,19 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 この例では、Adobe Campaign データベースの E メールアドレス情報を利用してコンタクト先を識別します。受信者の E メールをスペースに追加するには、次の手順に従います。
 
 1. 識別された環境で、オファースペースフォルダーに移動します。
-1. Select the **Best Offer** offer space and click **[!UICONTROL Advanced parameters]**.
+1. 「**Best Offer**」オファースペースを選択し、「**[!UICONTROL 詳細設定パラメーター]**」をクリックします。
 
    ![](assets/offer_inbound_fallback_example_044.png)
 
-1. タブでをク **[!UICONTROL Target identification]** リックしま **[!UICONTROL Add]**&#x200B;す。
+1. 「**[!UICONTROL ターゲット識別情報]**」タブで、「**[!UICONTROL 追加]**」をクリックします。
 
    ![](assets/offer_inbound_fallback_example_046.png)
 
-1. Click **[!UICONTROL Edit expression]**, go to the recipients table and select the **[!UICONTROL Email]** field.
+1. 「**[!UICONTROL 式を編集]**」をクリックし、受信者テーブルに移動して、「**[!UICONTROL E メール]**」フィールドを選択します。
 
    ![](assets/offer_inbound_fallback_example_047.png)
 
-1. Click **[!UICONTROL OK]** to close the **[!UICONTROL Advanced parameters]** window and finish configuring the **Best Offer** offer space.
+1. 「**[!UICONTROL OK]**」をクリックして&#x200B;**[!UICONTROL 詳細設定パラメーター]**&#x200B;ウィンドウを閉じ、「**Best Offer**」オファースペースの設定を完了します。
 1. 「**Partner**」オファースペースについても同じ手順を実行します。
 
    ![](assets/offer_inbound_fallback_example_048.png)
@@ -327,8 +330,8 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
 「**Best Offer**」および「**Partner**」という 2 つのカテゴリを作成し、パーソナライズされたオファーを各カテゴリに 2 つずつ用意します。
 
-1. Go to the **[!UICONTROL Offer catalogs]** node in the identified environment.
-1. As in the anonymous environment, add two **[!UICONTROL Offer category]** folders with **Best Offer** and **Partner** as a labels.
+1. 識別された環境で、「**[!UICONTROL オファーカタログ]**」ノードに移動します。
+1. 匿名環境の場合と同じく、2 つの&#x200B;**[!UICONTROL オファーカテゴリ]**&#x200B;フォルダーを追加し、それぞれに &quot;**Best Offer**&quot; および &quot;**Partner**&quot; というラベルを付けます。
 
    ![](assets/offer_inbound_fallback_example_009.png)
 
@@ -340,11 +343,11 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
    ![](assets/offer_inbound_fallback_example_011.png)
 
-1. Go to the **[!UICONTROL Eligibility]** tab and specify the weight of the offers according to its application contexts.
+1. 「**[!UICONTROL 実施要件]**」タブに移動し、アプリケーションのコンテキストに応じてオファーの重み付けを指定します。
 
    ![](assets/offer_inbound_fallback_example_012.png)
 
-1. Go to the **[!UICONTROL Content]** tab and define the content of the offer.
+1. 「**[!UICONTROL コンテンツ]**」タブに移動し、オファーのコンテンツを定義します。
 
    ![](assets/offer_inbound_fallback_example_013.png)
 
@@ -356,7 +359,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
    ![](assets/offer_inbound_fallback_example_015.png)
 
-1. Go to the **[!UICONTROL Eligibility]** tab and specify the weight of the offers according to its application contexts.
+1. 「**[!UICONTROL 実施要件]**」タブに移動し、アプリケーションのコンテキストに応じてオファーの重み付けを指定します。
 
    ![](assets/offer_inbound_fallback_example_016.png)
 
@@ -364,7 +367,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
    ![](assets/offer_inbound_fallback_example_017.png)
 
-1. Go to the **[!UICONTROL Eligibility]** tab and apply the same weight that you applied to the first offer in this category so that the offers are displayed successively on the website.
+1. 「**[!UICONTROL 実施要件]**」タブに移動し、このカテゴリの最初のオファーと同じ値の重み付けを適用して、交互に Web サイトに表示されるようにします。
 1. 各オファーに対して承認サイクルを実行し、更新を開始します。コンテンツの承認処理では、「**Partner**」または「**Best Offer**」オファースペースを有効化します。
 
 ### Web ページのオファースペースの設定 {#configuring-offer-spaces-on-the-web-page}

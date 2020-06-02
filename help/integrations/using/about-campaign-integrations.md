@@ -12,8 +12,11 @@ discoiquuid: 0af1fd96-48ef-43c9-a03b-0f9a6e0e02fe
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0a4272ae13b469c7c17b8c3afa9748cbfbcf07ff
+workflow-type: ht
+source-wordcount: '840'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +25,9 @@ source-git-commit: 0a4272ae13b469c7c17b8c3afa9748cbfbcf07ff
 
 Adobe Experience Cloud は、共通データプラットフォーム上に構築され、強力なコアサービスの共通セットと統合されたクラス最高のソリューションの包括的なセットです。
 
-Learn about functional integrations available between Adobe Campaign and [Adobe Experience Cloud solutions](https://docs.adobe.com/content/help/en/core-services/interface/marketing-cloud-integrations.html) and [core services](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html). その後、ソリューションの実装を最新化し、Experience Cloudを実装して、顧客属性や顧客属性などの機能を使用できるようにします。オーディエンス
+Adobe Campaign と [Adobe Experience Cloud ソリューション](https://docs.adobe.com/content/help/ja-JP/core-services/interface/marketing-cloud-integrations.html)および[コアサービス](https://docs.adobe.com/content/help/ja-JP/core-services/interface/about-core-services/core-services.html)との間で使用可能な機能の統合について説明します。その後、ソリューションの実装を最新化し、Experience Cloud を実装して、顧客属性やオーディエンスなどの機能を使用できるようにします。
 
-The full list of Adobe solutions and core services which can be integrated with Adobe Campaign, as well as associated documentation, is available in [this section](#experience-cloud-integrations).
+Adobe Campaign と統合できるアドビのソリューションとコアサービスの完全なリスト、および関連ドキュメントについては、[このページ](#experience-cloud-integrations)で参照できます。
 
 ![](assets/ExCloud-solutions.png)
 
@@ -33,7 +36,7 @@ The full list of Adobe solutions and core services which can be integrated with 
 >
 >ほとんどの場合、これらの統合作業をおこなうには Adobe ID（IMS）を使用してログインする必要があります。この実装について詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
 >
->IMSの実装は複雑なプロセスで、長くなる場合があります。 この作業をおこなうのはアドビの技術管理者に限られます。
+>IMS の実装は複雑なプロセスで、長くなる場合があります。この作業をおこなうのはアドビの技術管理者に限られます。
 
 ## ソリューションのリンク {#working-with-experience-cloud-solutions}
 
@@ -45,7 +48,7 @@ The full list of Adobe solutions and core services which can be integrated with 
 >
 >Adobe Campaign を新規にインストールする場合、または既存のインストールを Adobe Experience Cloud に統合する場合、[Experience Cloud ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)は有効になっています。このサービスは、Adobe Campaign がトラッキング機能のために最初に使用した永続 Cookie を置き換えます。
 >
->次に、固有の訪問者 ID が受信者に割り当てられ、トラッキングログが生成されます。このIDは、テーブルのフィール **[!UICONTROL Requester UUID (@sourceID)]** ドに保存され **[!UICONTROL nms:trackingLogRcp]** ます。 そのため、訪問者 ID サービスが実装される前に存在していた受信者のトラッキングデータは、これ以降使用することはできません。
+>次に、固有の訪問者 ID が受信者に割り当てられ、トラッキングログが生成されます。この ID は **[!UICONTROL nms:trackingLogRcp]** テーブルの「**[!UICONTROL リクエスター UUID (@sourceID)]**」フィールドに保存されます。そのため、訪問者 ID サービスが実装される前に存在していた受信者のトラッキングデータは、これ以降使用することはできません。
 >
 >この ID は、他の Adobe Experience Cloud ソリューションに同じ [CNAME](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cname.html) で認識されます。
 
@@ -63,7 +66,7 @@ The full list of Adobe solutions and core services which can be integrated with 
  <tbody> 
   <tr> 
    <td> <strong>アドビのリアルタイムカスタマーデータプラットフォーム（CDP）</strong><br /> </td> 
-   <td> Adobe Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（CDP）の統合により、セグメントデータを共有し、オーディエンスを Adobe Campaign にインポートできます。<br /> <p>Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（CDP）の統合について詳しくは、<a href="https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">こちら</a>を参照してください。</p><br /> </td> 
+   <td> Adobe Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（CDP）の統合により、セグメントデータを共有し、オーディエンスを Adobe Campaign にインポートできます。<br /> <p>Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（CDP）の統合について詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">こちら</a>を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>IMS - Adobe ID</strong><br /> </td> 

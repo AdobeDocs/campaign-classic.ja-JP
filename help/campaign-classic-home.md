@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: be148d7cd55097b9014d2f4d3b095c65a5ca8c54
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 83%
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 83%
 
 * **[サポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)**<br/>&#x200B;アクセスに関するFAQ、ベストプラクティス、ヘルプリソース、およびヘルプの要請
 
-* **[プライバシーコンプライアンス](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/> Adobe Campaignがプライバシーコンプライアンスを支援する方法を学びます。
+* **[プライバシーコンプライアンス](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/>
+Adobe Campaign がプライバシーコンプライアンスの遵守に役立つ理由を説明します。
 
 * **[追跡機能](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html)**<br/>&#x200B;キャンペーンにおける追跡機能とプロセスの理解
 
@@ -81,8 +82,8 @@ ht-degree: 83%
 |---|---|
 | [リリースノート](/help/rn/using/latest-release.md) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) | [Campaign データモデル](configuration/using/about-data-model.md) |
-| [互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html) | [キャンペーンJSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
-| [Campaign の基礎知識](platform/using/about-adobe-campaign-classic.md) | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/acc-implementation.html) |
+| [互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
+| [Campaign の概要](platform/using/about-adobe-campaign-classic.md) | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/acc-implementation.html) |
 | [Gold Standard アップグレード](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
-| [廃止された機能](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html) | [セキュリティとプライバシーのチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) |
+| [非推奨（廃止予定）の機能 ](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html) | [セキュリティとプライバシーのチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) |
 | [Campaign コントロールパネル](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html) | [ベストプラクティスの監視](https://helpx.adobe.com/jp/campaign/kb/acc-maintenance.html) |

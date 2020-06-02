@@ -33,7 +33,7 @@ Adobe Campaign には、パーソナライズした SMS メッセージを大量
 > 
 >詳しくは、[モバイルアプリチャネルについて](../../delivery/using/about-mobile-app-channel.md)の節を参照してください。
 
-以下の節では、SMS チャネルに固有の情報を提供します。 配信の作成方法に関する全般的な情報については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。
+以下の節では、SMS チャネルに固有の情報を提供します。配信の作成方法に関する全般的な情報については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。
 
 ## SMS チャネルの設定 {#setting-up-sms-channel}
 

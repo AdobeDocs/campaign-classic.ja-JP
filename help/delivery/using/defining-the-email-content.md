@@ -12,11 +12,11 @@ discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fcedad248169f53e716f2bd8b1b141fbf1f4d189
-workflow-type: ht
-source-wordcount: '2929'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cedcd9150c374116f187da7fd9e76bf81e978e2a
+workflow-type: tm+mt
+source-wordcount: '2928'
+ht-degree: 99%
 
 ---
 
@@ -180,17 +180,21 @@ HTML 形式の E メール配信には、画像を含めることができます
 
 ![](assets/s_ncs_user_image_from_library.png)
 
-受け取ったメッセージ内の画像を受信者が表示できるようにするには、メッセージが、外部からアクセス可能なサーバー上に置かれている必要があります。
+>[!IMPORTANT]
+>
+>受け取ったメッセージ内の画像を受信者が表示できるようにするには、メッセージが、外部からアクセス可能なサーバー上に置かれている必要があります。
 
-配信ウィザードを使用して画像を管理するには、ツールバーの&#x200B;**[!UICONTROL オファー]**&#x200B;アイコンをクリックします。
+配信ウィザードを使用して画像を管理するには：
 
-![](assets/s_ncs_user_email_del_img_param.png)
+1. ツールバーの「 **[!UICONTROL 追跡と画像]** 」アイコンをクリックします。
+   ![](assets/s_ncs_user_email_del_img_param.png)
 
-「**[!UICONTROL 画像]**」タブの「**[!UICONTROL 画像をアップロード]**」を選択します。その画像を E メールメッセージに含めるかどうかを選択できます。
+1. 「**[!UICONTROL 画像]**」タブの「**[!UICONTROL 画像をアップロード]**」を選択します。
+1. その画像を E メールメッセージに含めるかどうかを選択できます。
 
 ![](assets/s_ncs_user_email_del_img_upload.png)
 
-* 配信分析フェーズを待つことなく、手動で画像をアップロードできます。そのためには、「**[!UICONTROL 画像をアップロード]**」リンクをクリックします。
+* 配信分析フェーズを待つことなく、手動で画像をアップロードできます。To do this, click the **[!UICONTROL Upload the images straightaway...]** link.
 * トラッキングサーバー上の画像にアクセスするための、別のパスも指定できます。そのためには、「**[!UICONTROL 画像の URL]**」フィールドにパスを入力します。この値を指定すると、インストールウィザードのパラメーターで指定した値よりも優先されます。
 
 配信ウィザードで、画像を含んだ HTML コンテンツを開くと、配信パラメーターに従ってすぐに画像をアップロードするかどうかを確認するメッセージが表示されます。
@@ -201,7 +205,7 @@ HTML 形式の E メール配信には、画像を含めることができます
 >
 >画像へのアクセスパスは、手動でのアップロード時やメッセージの送信時に変更されます。
 
-**例：画像付きのメッセージの送信{#example--sending-a-message-with-images}**
+### 例：画像付きのメッセージの送信 {#example--sending-a-message-with-images}
 
 ここでは、4 個の画像を含んだ配信を例にとって説明します。
 

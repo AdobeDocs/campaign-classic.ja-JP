@@ -14,15 +14,18 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
+workflow-type: ht
+source-wordcount: '1373'
+ht-degree: 100%
 
 ---
 
 
 # リリース 19.2{#release-19-2}
 
-[ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリース](../../rn/using/release--19-1.md) | [廃止された機能](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
+[ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリース](../../rn/using/release--19-1.md) | [非推奨（廃止予定）の機能](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
@@ -30,7 +33,7 @@ source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
    <td><img src="assets/do-not-localize/green3.png"/><strong>一般公開（GA）</strong></td>
    <td><img src="assets/do-not-localize/blue3.png"/><strong>リリース候補</strong></td> 
    <td><img src="assets/do-not-localize/orange3.png"/><strong>公開停止</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>廃止済み</strong></td> 
+   <td><img src="assets/do-not-localize/red3.png"/><strong>非推奨（廃止予定）</strong></td> 
   </tr> 
    <tr> 
    <td>最新の安定したビルド。ビルドは本番環境で検証済みです。<br></td>
@@ -41,22 +44,22 @@ source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
  </tbody> 
 </table>
 
-最後 **の安定ビルドは** 9032 (3a9dc9c)です。 Click [here](../../rn/using/release--19-1.md#release-19-1-4-build-9032)
+**最新の安定したビルド**&#x200B;は 9032（3a9dc9c）です。[ここ](../../rn/using/release--19-1.md#release-19-1-4-build-9032)をクリックしてください
 
 ## ![](assets/do-not-localize/orange_2.png) リリース 19.2.3 - ビルド 9081 {#release-19-2-3-build-9081}
 
-_2020年2月7日_
+_2020 年 2 月 7 日_
 
 **強化点**
 
-* SSL証明書の実装によるWindowsサーバーでのユーザー接続の失敗に起因する問題が修正されました。 （NEO-20629）
-* バージョン情報メニューに誤ったバージョンタグ番号が表示される問題を修 **正し** ました。
+* Windows サーバーでユーザーの接続が失敗する原因となった SSL 証明書の実装による新たな問題を修正しました。（NEO-20629）
+* **バージョン情報**&#x200B;メニューに誤ったバージョンタグ番号が表示される問題を修正しました。
 
-## ![](assets/do-not-localize/orange_2.png) リリース19.2 - ビルド 9080 {#release-19-2-build-9080}
+## ![](assets/do-not-localize/orange_2.png) リリース 19.2 - ビルド 9080 {#release-19-2-build-9080}
 
 _2019 年 12 月 02 日_
 
-**新機能?**
+**新機能**
 
 <table> 
  <thead> 
@@ -66,7 +69,7 @@ _2019 年 12 月 02 日_
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>CCPA は、2020 年 1月 1 日より米国カリフォルニア州にて新しく施行されるプライバシー保護法律で、データ保護要件を現代の状況に合わせて整合化させることを目的としています。CCPA は、カリフォルニア州に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。</p>
+   <td> <p>CCPA は、2020 年 1 月 1 日より米国カリフォルニア州にて新しく施行されるプライバシー保護法律で、データ保護要件を現代の状況に合わせて整合化させることを目的としています。CCPA は、カリフォルニア州に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。</p>
     <p> Adobe Campaign は、既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザー役割を含む）に加えて、CCPA への対応準備を容易にします。</p>
     <ul>
       <li>アクセス権と削除権：GDPR 用に追加された機能を活用します。<a href="https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html#righttoaccess">詳細を表示</a></li>
@@ -142,9 +145,9 @@ _2019 年 12 月 02 日_
 * オンプレミス環境で、SFTP 外部サーバーへのプロキシアクセスを新しくサポートするようになりました。
 * Campaign インスタンスと互換性のないパッケージのインストールを防ぐ、特別なガードレールが追加されました。[詳細を表示](../../installation/using/installing-campaign-standard-packages.md)
 
-_廃止されたシステム_
+_非推奨（廃止予定）のシステム_
 
-Campaign Classic 実装では、次のシステムが[廃止済み](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)となりました。
+Campaign Classic 実装では、次のシステムが[非推奨（廃止予定）](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)となりました。
 * Apache 2.2
 * Centos 6
 
@@ -169,7 +172,7 @@ iOS SDK のビルド 1.0.26 が利用できるようになりました。この�
 * 「**配信中に重複アドレスを除外**」オプションが選択されていない場合の配信準備の問題を修正しました。（NEO-13240）
 * ワークフローで&#x200B;**ファイル転送**&#x200B;アクティビティを使用し、「**転送後にソースファイルを削除**」オプションを使って名前にスペース文字が含まれるファイルをダウンロードする際に発生した問題を修正しました。（NEO-13411）
 * Tomcat キャッシュのクリーンアップでメモリの問題が発生する問題を修正しました。（NEO-13456）
-* Microsoft SQL 2017 で稼働している既存のコントロールインスタンスに、**実行インスタンスによるオファーエンジンのコントロール**&#x200B;組み込みパッケージをインストールする際の問題を修正しました。（NEO-13539）
+* Microsoft SQL 2017 で稼動している既存のコントロールインスタンスに、**実行インスタンスによるオファーエンジンのコントロール**&#x200B;組み込みパッケージをインストールする際の問題を修正しました。（NEO-13539）
 * 「**テキストコンテンツ**」タブから E メール内のトラッキングされる URL をチェック解除するとコンソールがクラッシュすることがある問題を修正しました。（NEO-13545）
 * 中国語の送信者名のエンコードの問題を修正しました。（NEO-13837）
 * エクスプローラーからの調査回答データを表示すると発生することのあるエラーを修正しました。（NEO-14590）
@@ -183,5 +186,5 @@ iOS SDK のビルド 1.0.26 が利用できるようになりました。この�
 * Salesforce の CRM コネクタに影響を及ぼしていた問題を修正しました。（NEO-17712）
 * 外部 SFTP からデータをインポートする際のタイムアウトの問題を修正しました。（NEO-19723）
 * 予測モデルにアクセスする際の問題を修正しました。（NEO-19713）
-* Hadoop FDA データベースを使用した **分割**&#x200B;ワークフローアクティビティでのランダムサンプリングに影響する問題を修正しました。（NEO-16636）
+* Hadoop FDA データベースを使用した&#x200B;**分割**&#x200B;ワークフローアクティビティでのランダムサンプリングに影響する問題を修正しました。（NEO-16636）
 

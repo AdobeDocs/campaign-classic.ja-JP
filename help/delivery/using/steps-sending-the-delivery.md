@@ -14,8 +14,11 @@ discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
+workflow-type: ht
+source-wordcount: '1620'
+ht-degree: 100%
 
 ---
 
@@ -24,27 +27,27 @@ source-git-commit: 631e29bd6e59b8ae46084dee3a1d470916a2032b
 
 >[!NOTE]
 >
->配信のオーナーのみが配信を開始できます。In order for another operator (or operator group) to be able to start a delivery, you have to add them as reviewers in the **[!UICONTROL Delivery start:]** field.
+>配信のオーナーのみが配信を開始できます。別のオペレーター（またはオペレーターグループ）が配信を開始できるようにするには、レビュー担当者として「**[!UICONTROL 配信開始：]**」フィールドに追加する必要があります。
 >
 >詳しくは、[この節](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)を参照してください。
 
 ## 配信の追加パラメーター {#delivery-additiona-parameters}
 
-Before sending the delivery, you can define the sending parameters in the delivery properties, via the **[!UICONTROL Delivery]** tab.
+配信を送信する前に、配信プロパティの「**[!UICONTROL 配信]**」タブで送信パラメーターを定義できます。
 
 ![](assets/s_ncs_user_wizard_delivery.png)
 
-* **[!UICONTROL Delivery priority]**:このオプションを使用すると、配信の優先順位（通常、高、低）を指定することで、ユーザーの送信順序に影響を与えることができます。 これは、より緊急度の高い配信をそれ以外の配信よりも優先させるのに便利です。
+* **[!UICONTROL 配信の優先順位]**：このオプションにより、配信の優先順位レベル（標準、高、低）を設定して、配信の送信順序に影響を与えることができます。これは、より緊急度の高い配信をそれ以外の配信よりも優先させるのに便利です。
 
-* **[!UICONTROL Message batch quantity]**:このオプションを使用すると、同じXMLメッセージパッケージ内でグループ化される配信の数を定義できます。 このパラメーターが 0 に設定されている場合、メッセージは自動的にグループ化されます。パッケージサイズは、`<delivery size>/1024` という計算に基づいて決定されます（ただし、パッケージあたりのメッセージ件数は最小 8、最大 256）。
+* **[!UICONTROL メッセージのバッチサイズ]**：このオプションでは、1 つの XML 配信パッケージ内でグループ化するメッセージの件数を定義できます。このパラメーターが 0 に設定されている場合、メッセージは自動的にグループ化されます。パッケージサイズは、`<delivery size>/1024` という計算に基づいて決定されます（ただし、パッケージあたりのメッセージ件数は最小 8、最大 256）。
 
    >[!CAUTION]
    >
    >配信が重複した場合はパラメーターがリセットされます。
 
-* **[!UICONTROL Send using multiple waves]**:詳しくは、「複数のウェーブを使用 [した送信」を参照してください](#sending-using-multiple-waves)。
+* **[!UICONTROL 複数のウェーブを使用して送信]**：詳しくは、[複数のウェーブを使用した送信](#sending-using-multiple-waves)を参照してください。
 
-* **[!UICONTROL Test SMTP delivery]**:このオプションを使用すると、SMTP経由での配信の送信をテストできます。 配信は、SMTP サーバーに接続するところまで進められますが、送信されません。
+* **[!UICONTROL SMTP 配信をテスト]**：このオプションを使用すると、SMTP を使用した配信の送信をテストできます。配信は、SMTP サーバーに接続するところまで進められますが、送信されません。
 
    >[!NOTE]
    >
@@ -52,13 +55,13 @@ Before sending the delivery, you can define the sending parameters in the delive
    >
    >SMTP サーバーの設定について詳しくは、[この節](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)を参照してください。
 
-* **[!UICONTROL Archive emails]**:このオプションを使用すると、BCC電子メールアドレスをメッセージターゲットに追加するだけで、BCCを通じて外部システムに電子メールを保存できます。 詳しくは、[E メールのアーカイブ](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
+* **[!UICONTROL E メールをアーカイブ]**：このオプションを使用すると、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存することができます。詳しくは、[E メールのアーカイブ](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
 
-配信の設定が終わり、送信準備が整ったら、必ず[配信分析](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)を実行してください。Once done, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages.
+配信の設定が終わり、送信準備が整ったら、必ず[配信分析](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)を実行してください。完了したら、「**[!UICONTROL 配信を確定]**」をクリックし、メッセージの配信を開始します。
 
 ![](assets/s_ncs_user_email_del_send.png)
 
-You can then close the delivery wizard and track the execution of the delivery from the **[!UICONTROL Delivery]** tab, accessible via the detail of this delivery or via the list of deliveries.
+その後、配信ウィザードを閉じて、「**[!UICONTROL 配信]**」タブで配信の実行をトラッキングできます。このタブには、配信の詳細または配信リストからアクセスできます。
 
 メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、以下の節を参照してください。
 
@@ -70,13 +73,13 @@ You can then close the delivery wizard and track the execution of the delivery f
 
 配信をスケジュールしたり、母集団に対する営業頻度を管理して過剰な営業活動をしないようするために、メッセージの配信を遅らせることができます。
 
-1. ボタンをクリ **[!UICONTROL Send]** ックし、オプションを選 **[!UICONTROL Postpone delivery]** 択します。
+1. 「**[!UICONTROL 送信]**」ボタンをクリックし、「**[!UICONTROL 配信を延期]**」オプションを選択します。
 
-1. Specify a start date in the **[!UICONTROL Contact date]** field.
+1. 「**[!UICONTROL コンタクト日]**」フィールドに開始日を入力します。
 
 ![](assets/dlv_email_del_plan.png)
 
-1. その後、配信分析を開始し、配信の送信を確定します。However, the delivery sending will not start until the date given in the **[!UICONTROL Contact date]** field.
+1. その後、配信分析を開始し、配信の送信を確定します。ただし、配信の送信は、「**[!UICONTROL コンタクト日]**」フィールドで指定した日付まで開始されません。
 
 >[!CAUTION]
 >
@@ -84,25 +87,25 @@ You can then close the delivery wizard and track the execution of the delivery f
 
 ![](assets/s_ncs_user_email_del_start_delayed.png)
 
-In the delivery list, the delivery will appear with **[!UICONTROL Pending]** status.
+配信リストには、配信が「**[!UICONTROL 保留中]**」ステータスで表示されます。
 
 ![](assets/s_ncs_user_email_del_waiting.png)
 
-Scheduling can also be configured upstream via the **[!UICONTROL Scheduling]** button of the delivery.
+スケジュールは、配信の「**[!UICONTROL スケジュール設定]**」ボタンを使用してアップストリーム設定することも可能です。
 
 ![](assets/s_ncs_user_email_del_save_in_calendar_ico.png)
 
 これにより、配信を後の日付まで遅らせたり、暫定カレンダーに配信を保存したりできます。
 
-* このオ **[!UICONTROL Schedule delivery (no automatic execution)]** プションを使用すると、配信の暫定分析をスケジュールできます。
+* 「**[!UICONTROL 予約配信（自動実行なし）]**」オプションでは、配信の暫定的な分析をスケジュールできます。
 
-   When this configuration is saved, the delivery changes to **[!UICONTROL Targeting pending]** status. 分析は指定した日付に開始されます。
+   この設定を保存すると、配信のステータスは「**[!UICONTROL ターゲティングを保留中]**」に変化します。分析は指定した日付に開始されます。
 
-* このオ **[!UICONTROL Schedule delivery (automatic execution on planned date)]** プションでは、配信日を指定します。
+* 「**[!UICONTROL 予約配信（予約された日になると自動実行）]**」オプションでは、配信日を指定できます。
 
-   Click **[!UICONTROL Send]** and select **[!UICONTROL Postpone delivery]** then launch the analysis and confirm delivery. 分析が完了すると、配信ターゲットの準備ができた状態になり、メッセージは指定した日付が来ると自動的に送信されます。
+   「**[!UICONTROL 送信]**」をクリックし、「**[!UICONTROL 配信を延期]**」を選択してから、分析を開始して配信を確定します。分析が完了すると、配信ターゲットの準備ができた状態になり、メッセージは指定した日付が来ると自動的に送信されます。
 
-日付と時刻は、作業しているオペレーターのタイムゾーンに基づいて表されます。The **[!UICONTROL Time zone]** drop-down list located below the contact date input field lets you automatically convert the entered date and time into the selected time zone.
+日付と時刻は、作業しているオペレーターのタイムゾーンに基づいて表されます。コンタクト日の入力フィールドの下にある&#x200B;**[!UICONTROL タイムゾーン]**&#x200B;ドロップダウンリストを使用すると、入力した日付と時刻が、指定したタイムゾーンに自動変換されます。
 
 例えば、ロンドン時間の 8:00 に配信を自動実行するスケジュールを設定すると、時間は選択したタイムゾーンに自動的に変換されます。
 
@@ -116,37 +119,37 @@ Scheduling can also be configured upstream via the **[!UICONTROL Scheduling]** b
 >
 >定義できるのは、サイズと 2 つの連続するウェーブの間隔のみです。受信者の選択条件をウェーブごとに設定することはできません。
 
-1. Open the delivery properties window and click the **[!UICONTROL Delivery]** tab.
-1. オプションを選 **[!UICONTROL Send using multiple waves]** 択し、リンクをクリック **[!UICONTROL Define waves...]** します。
+1. 配信プロパティウィンドウを開き、「**[!UICONTROL 配信]**」タブをクリックします。
+1. 「**[!UICONTROL 複数のウェーブを使用して送信]**」オプションを選択し、「**[!UICONTROL ウェーブを定義...]**」リンクをクリックします。
 
    ![](assets/s_ncs_user_wizard_waves.png)
 
 1. ウェーブを設定するには、次のいずれかをおこないます。
 
-   * 各ウェーブのサイズを定義します。For example, if you enter **[!UICONTROL 30%]** in the corresponding field, each wave will represent 30% of the messages included in the delivery, except the last one, which will represent 10% of the messages.
+   * 各ウェーブのサイズを定義します。例えば、対応するフィールドに **[!UICONTROL 30％]**&#x200B;と入力した場合、各ウェーブは、配信に含まれるメッセージの 30％を表します（ただし、最後のウェーブは除きます。最後のウェーブは、メッセージの 10％を表します）。
 
-      In the **[!UICONTROL Period]** field, specify the delay between the start of two consecutive waves. 例えば、**[!UICONTROL 2d]** と入力した場合、最初のウェーブはただちに開始され、2 番目のウェーブは 2 日後に、3 番目のウェーブは 4 日後にといった具合に開始されます。
+      「**[!UICONTROL 期間]**」フィールドで、2 つの連続するウェーブの開始間隔を指定します。例えば、**[!UICONTROL 2d]** と入力した場合、最初のウェーブは直ちに開始され、2 番目のウェーブは 2 日後に、3 番目のウェーブは 4 日後にといった具合に開始されます。
 
       ![](assets/s_ncs_user_wizard_waves_create_size.png)
 
    * 各ウェーブを送信するためのカレンダーを定義します。
 
-      In the **[!UICONTROL Start]** column, specify the delay between the start of two consecutive waves. In the **[!UICONTROL Size]** column, enter a fixed number or a percentage.
+      「**[!UICONTROL 開始日]**」列では、2 つの連続するウェーブの開始間隔を指定します。「**[!UICONTROL サイズ]**」列では、固定の数値または割合を入力します。
 
-      以下の例では、最初のウェーブは、配信に含まれるメッセージ総数の 25％を表しており、ただちに開始されます。次の 2 つのウェーブで配信が完了しますが、これらのウェーブは、6 時間間隔で開始するように設定されています。
+      以下の例では、最初のウェーブは、配信に含まれるメッセージ総数の 25％を表しており、直ちに開始されます。次の 2 つのウェーブで配信が完了しますが、これらのウェーブは、6 時間間隔で開始するように設定されています。
 
       ![](assets/s_ncs_user_wizard_waves_create.png)
-   A specific typology rule, **[!UICONTROL Wave scheduling check]**, ensures that the last wave is planned before the delivery validity limit. Campaign typologies and their rules, configured in the **[!UICONTROL Typology]** tab of the delivery properties, are presented in [Validation process with typologies](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).
+   特別なタイポロジルールである「**[!UICONTROL ウェーブスケジュールの検証]**」では、最後のウェーブが配信の有効期限の前に計画されているかどうかが確認されます。キャンペーンタイポロジとそのルールは、配信プロパティの「**[!UICONTROL タイポロジ]**」タブで設定します。詳しくは、[タイポロジを使用したプロセスの検証](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)を参照してください。
 
    >[!CAUTION]
    >
-   >Make sure the last waves do not exceed the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab. 配信期限を過ぎると、一部のメッセージが送信されない場合があります。
+   >最後の 2 つのウェーブが配信期限を過ぎないことを確認してください。配信期限は、「**[!UICONTROL 有効性]**」タブで定義されています。配信期限を過ぎると、一部のメッセージが送信されない場合があります。
    >
    >また、最後のウェーブを設定するときに、再試行の時間を十分にみておく必要があります。[この節](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)を参照してください。
 
 1. 送信状況を監視するには、配信ログを参照してください。[このページ](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)を参照してください。
 
-   You can see the deliveries that were already sent in the processed waves (**[!UICONTROL Sent]** status) and the deliveries to be sent in the remaining waves (**[!UICONTROL Pending]** status).
+   処理済みのウェーブで既に送信された配信（ステータスが&#x200B;**[!UICONTROL 送信済み]**）と、残りのウェーブで送信されるウェーブ（ステータスが&#x200B;**[!UICONTROL 保留中]**）を確認できます。
 
 以下の 2 つの例は、最も一般的な複数のウェーブの使用例です。
 
@@ -156,7 +159,7 @@ Scheduling can also be configured upstream via the **[!UICONTROL Scheduling]** b
 
    ウェーブを使用して送信するボリュームを徐々に増やすことで、スパムとしてマークされないようにできます。この方法により、スタートアップフェーズをスムーズに進め、無効なアドレスが全体に占める割合を減らすことができます。
 
-   これを行うには、このオプションを使用 **[!UICONTROL Schedule waves according to a calendar]** します。 例えば、最初のウェーブを 10％に、2 番目のウェーブを 15％にといった具合に設定します。
+   そのためには、「**[!UICONTROL カレンダーに従ってウェーブをスケジュール]**」オプションを選択します。例えば、最初のウェーブを 10％に、2 番目のウェーブを 15％にといった具合に設定します。
 
    ![](assets/s_ncs_user_wizard_waves_ramp-up.png)
 
@@ -166,7 +169,7 @@ Scheduling can also be configured upstream via the **[!UICONTROL Scheduling]** b
 
    ウェーブを使用して、1 日あたりのメッセージ数を 20 に制限できます（コールセンターの 1 日あたりの処理能力）。
 
-   To do this, select the **[!UICONTROL Schedule multiple waves of the same size]** option. Enter **[!UICONTROL 20]** as the wave&#39;s size and **[!UICONTROL 1d]** in the **[!UICONTROL Period]** field.
+   これをおこなうには、「**[!UICONTROL 同じサイズの複数のウェーブをスケジュール]**」オプションを選択します。ウェーブのサイズとして **[!UICONTROL 20]** を入力し、「**[!UICONTROL 期間]**」フィールドに **[!UICONTROL 1d]** と入力します。
 
    ![](assets/s_ncs_user_wizard_waves_call_center.png)
 
@@ -174,35 +177,35 @@ Scheduling can also be configured upstream via the **[!UICONTROL Scheduling]** b
 
 **ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーによって一時的に配信できなかったメッセージは、自動再試行の対象となります。配信エラーのタイプと理由については、[この節](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
 
-The central section of the **[!UICONTROL Delivery]** tab for delivery parameters indicates how many retries should be performed the day after the delivery and the minimum delay between retries.
+配信パラメーターの「**[!UICONTROL 配信]**」タブの中央のセクションには、配信の翌日に実行する再試行回数と、再試行を繰り返す際の最小間隔が表示されます。
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-デフォルトでは、配信後の最初の日には、最低 1 時間の間隔をおいて 24 時間のうちに 5 回の再試行がスケジュールされます。One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)).
+デフォルトでは、配信後の最初の日には、最低 1 時間の間隔をおいて 24 時間のうちに 5 回の再試行がスケジュールされます。その後は、「**[!UICONTROL 有効性]**」タブで指定される配信期限が来るまで、1 日 1 回の再試行がスケジュールされます（[有効期間の定義](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)を参照）。
 
 >[!NOTE]
 >
->ホストインストールまたはハイブリッドインストールで、Enhanced MTAにアップグレードした場合、Campaign では配信の再試行設定が使用されなくなります。ソフトバウンスの再試行とその間隔は、メッセージの E メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
+>ホストインストールまたはハイブリッドインストールで、Enhanced MTA にアップグレードした場合、Campaign では配信の再試行設定が使用されなくなります。ソフトバウンスの再試行とその間隔は、メッセージの E メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
 >
->すべての影響について詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。
+>すべての影響について詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。
 
 
 ## 有効期間の定義 {#defining-validity-period}
 
-メッセージの送信（および再試行）が可能な期間は、配信が開始されたときから配信期限までです。This is indicated in the delivery properties, via the **[!UICONTROL Validity]** tab.
+メッセージの送信（および再試行）が可能な期間は、配信が開始されたときから配信期限までです。配信期限は、配信プロパティの「**[!UICONTROL 有効性]**」タブに表示されます。
 
 ![](assets/s_ncs_user_email_del_valid_period.png)
 
-* The **[!UICONTROL Delivery duration]** field lets you enter the limit for global delivery retries. Adobe Campaign は、開始日にメッセージの送信を開始した後、エラーのみを返すメッセージについて、設定された定期的な再試行を、有効期限日に達するまで実行します。
+* 「**[!UICONTROL 配信期間]**」フィールドには、グローバルでおこなう配信再試行の期限を入力できます。Adobe Campaign は、開始日にメッセージの送信を開始した後、エラーのみを返すメッセージについて、設定された定期的な再試行を、有効期限日に達するまで実行します。
 
-   日付を指定することもできます。これを行うには、を選択しま **[!UICONTROL Explicitly set validity dates]**&#x200B;す。 この場合、配信および有効期限日に時刻を指定することもできます。デフォルト値は現在時刻ですが、入力フィールドを使用して直接変更できます。
+   日付を指定することもできます。そのためには、「**[!UICONTROL 有効期限を明示的に設定]**」を選択します。この場合、配信および有効期限日に時刻を指定することもできます。デフォルト値は現在時刻ですが、入力フィールドを使用して直接変更できます。
 
-* **有効期限**:このフィ **[!UICONTROL Validity limit]** ールドは、主にリソースと画像をアップロードする際に使用されるミラーページです。 ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
+* **リソースの有効期限**：「**[!UICONTROL 有効期限]**」フィールドは、アップロードされたリソース（主にミラーページと画像）に関して使用されます。ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 
    このフィールドの値は、[この節](../../platform/using/adobe-campaign-workspace.md#default-units)にリストされている単位で表示できます。
 
 >[!NOTE]
 >
->For hosted or hybrid installations, if you have upgraded to the Enhanced MTA, the **[!UICONTROL Delivery duration]** setting in your Campaign deliveries will be used only if set to **3.5** days or less. 3.5 日を超える値を定義した場合、その値は考慮されません。
+>ホストインストールまたはハイブリッドインストールで、Enhanced MTA にアップグレードした場合、キャンペーン配信の「**[!UICONTROL 配信期間]**」設定は、**3.5** 日以下に設定された場合にのみ使用されます。3.5 日を超える値を定義した場合、その値は考慮されません。
 >
->すべての影響について詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。
+>すべての影響について詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。

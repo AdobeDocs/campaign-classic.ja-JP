@@ -14,8 +14,11 @@ discoiquuid: 9fe22450-057c-44b4-ab73-4027a2ddb20c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad4a40053b25bbf8de81e074e135ef4944f0b427
+workflow-type: ht
+source-wordcount: '287'
+ht-degree: 100%
 
 ---
 
@@ -36,8 +39,8 @@ Campaign のインタラクションで使用されるインタラクション�
 
 ## 関連トピック
 
-| 役に立つページ | その他のリソース |
+| 便利なページ | その他のリソース |
 |---|---|
-| [インタラクション実装手順](../../interaction/using/implementation-steps.md) | [テストオファーの配布](../../interaction/using/about-offers-simulation.md) |
-| [ライブ／デザイン環境](../../interaction/using/live-design-environments.md) | [電子メールへのオファーの追加](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
-| [オファースペースの作成](../../interaction/using/creating-offer-spaces.md) | [使用例：ウェブサイトにオファーを追加する](../../interaction/using/offers-on-an-inbound-channel.md) |
+| [インタラクションの実装手順](../../interaction/using/implementation-steps.md) | [オファー配分のテスト](../../interaction/using/about-offers-simulation.md) |
+| [ライブ／デザイン環境](../../interaction/using/live-design-environments.md) | [E メールのオファーの追加](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
+| [オファースペースの作成](../../interaction/using/creating-offer-spaces.md) | [使用例：Web サイトにオファーを追加する](../../interaction/using/offers-on-an-inbound-channel.md) |

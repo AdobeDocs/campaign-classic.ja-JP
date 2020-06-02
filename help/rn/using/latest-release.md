@@ -12,18 +12,18 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e329ee546a3990850daeb7a46ee9de77fd075ff1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # 最新リリース{#latest-release}
 
-[ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリース](../../rn/using/release--19-2.md) | [廃止された機能](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
+[ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリース](../../rn/using/release--19-2.md) | [非推奨（廃止予定）の機能](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
 <table> 
  <tbody> 
@@ -31,7 +31,7 @@ ht-degree: 98%
    <td><img src="assets/do-not-localize/green3.png"/><strong>一般公開（GA）</strong></td>
    <td><img src="assets/do-not-localize/blue3.png"/><strong>リリース候補</strong></td> 
    <td><img src="assets/do-not-localize/orange3.png"/><strong>公開停止</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>廃止済み</strong></td> 
+   <td><img src="assets/do-not-localize/red3.png"/><strong>非推奨（廃止予定）</strong></td> 
   </tr> 
    <tr> 
    <td>最新の安定したビルド。ビルドは本番環境で検証済みです。<br></td>
@@ -42,13 +42,13 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-最 **後の安定ビルド** は9032 (3a9dc9c)です。 [ここ](../../rn/using/release--19-1.md#release-19-1-4-build-9032)をクリックしてください
+**最新の安定したビルド**&#x200B;は 9032（3a9dc9c）です。[ここ](../../rn/using/release--19-1.md#release-19-1-4-build-9032)をクリックしてください
 
 ## ![](assets/do-not-localize/blue_2.png) リリース 20.1.3 - ビルド 9124 {#release-20-1-3-build-9124}
 
-_2020年5月6日_
+_2020 年 5 月 6 日_
 
-* SFTPキーに基づく認証がDebian 9で動作しない **ファイル転送** アクティビティの問題を修正しました。 （NEO-23183）
+* SFTP キーに基づく認証が Debian 9 で動作しない&#x200B;**ファイル転送**&#x200B;アクティビティの問題を修正しました。（NEO-23183）
 
 ## ![](assets/do-not-localize/orange_2.png) リリース 20.1.2 - ビルド 9123 {#release-20-1-2-build-9123}
 
@@ -160,7 +160,7 @@ _2020 年 2 月 17 日_
 
 * 連続配信のコンテンツ内の URL を解析するとクラッシュする可能性がある問題を修正しました。（NEO-16910）
 
-* 新しいキャンペーンを作成する際に&#x200B;**開始**&#x200B;および&#x200B;**終了**&#x200B;フィールドが計算されない問題を修正しました。
+* 新しいキャンペーンを作成する際に「**開始**」および「**終了**」フィールドが計算されない問題を修正しました。
 
 * URL を使用する場合の&#x200B;**ファイルのダウンロード**&#x200B;ワークフローアクティビティの問題を修正しました。
 

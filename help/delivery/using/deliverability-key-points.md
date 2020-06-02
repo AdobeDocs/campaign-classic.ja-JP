@@ -12,11 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4582ea496fff35c5b586049b8daa379464bd78fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 89%
 
 Adobe Campaign の E メールの配信品質を最適化するために、次に示すベストプラクティスを使用することをお勧めします。配信品質の問題は、通常、インターネットサービスプロバイダーおよびメールサーバー管理者が実行するスパムに対する保護の指標に関係しています。
 
-**E メール配信品質とは、期待される品質のコンテンツとフォーマットを持つメッセージが、個人の E メールアドレスを通じて短時間で宛先に到達する能力を判断する一連の特性のことを指します。**
+**E メール配信品質**&#x200B;とは、期待される品質のコンテンツとフォーマットを持つメッセージが、個人の E メールアドレスを通じて短時間で宛先に到達する能力を判断する一連の特性のことを指します。
 
 これらの特性は、4 つの主要カテゴリに分類されます。
 * データ品質
@@ -35,7 +35,7 @@ Adobe Campaign の E メールの配信品質を最適化するために、次�
 
 これらにより、成功する E メール配信品質プログラムの基礎が形成されます。
 
-The **deliverability rate** is the number of sent emails that were successfully delivered to its recipients.
+**配信品質の割合**&#x200B;は、受信者に適切に配信された送信 E メールの数です。
 
 配信品質の割合は、様々な要素に依存しますが、特に以下に依存します。
 * インスタンスの適切な設定
@@ -46,7 +46,7 @@ The **deliverability rate** is the number of sent emails that were successfully 
 * メッセージ認証（SPF、DKIM、DMARC）
 * 送信者のレピュテーション
 
-以下は、優れた配信品質を確認するための重要なポイントのリストです。
+次に、良好な配信品質を実現するための重要なチェックポイントを示します。
 
 ## ネットワーク設定の確認 {#network-configuration}
 
@@ -62,7 +62,7 @@ ISP は、通常、受け取ったメッセージをスパムとしてレポー�
 
 ## ハニーポットアドレスへの送信 {#honeypot-addresses}
 
-ISPs and other organizations (see the [Project Honey Pot](https://www.projecthoneypot.org/) website) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. このいわゆる「ハニーポット」アドレスは、スパムボットによって収集され、不正な送信者を捕らえるために Web で公開されます。ダブルオプトインメカニズムを使用することで、この種のアドレスがリストに追加されないようにします。サードパーティのリストを使用する場合、そのリストが信頼できる方法で管理されているか確認する必要があります。
+ISP やその他の組織（[プロジェクトハニーポット](https://www.projecthoneypot.org/) Web サイトを参照）は、実際の個人としては存在しない、単にスパム送信者を欺くために作成されたメールボックスを使用します。このいわゆる「ハニーポット」アドレスは、スパムボットによって収集され、不正な送信者を捕らえるために Web で公開されます。ダブルオプトインメカニズムを使用することで、この種のアドレスがリストに追加されないようにします。サードパーティのリストを使用する場合、そのリストが信頼できる方法で管理されているか確認する必要があります。
 
 ## メッセージコンテンツの適応 {#message-content}
 

@@ -12,11 +12,11 @@ discoiquuid: 0baef937-f00b-4fc4-8608-a870997be684
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 74e1a883088d347cb1aab05d76b630c912411fc4
-workflow-type: ht
-source-wordcount: '811'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f4d82657fbeae39af173c867975455669497d8eb
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe Campaign が提供する機能を使用して、プラットフォーム�
 * 各配信スループットをチェックして、配信コンテンツの有効期限と整合性が取れていることを確認します（例：「フラッシュセール」は数日ではなく、数分で配信される必要があります）。
 * [ウェーブ](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)を使用する場合、次のものがトリガーされる前に各ウェーブが完了するための十分な時間があることを検証します。
 * エラーの数と新しい[強制隔離](../../delivery/using/understanding-quarantine-management.md)が他の配信と整合性が取れていることをチェックします。
-* [配信ログ](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)の詳細を慎重に調べて、ハイライト表示されたエラーの種類をチェックします（グレーまたはブラックリスト処理、DNS の問題、スパム対策ルールなど）。
+* Carefully consult the [delivery logs](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (grey or black-listing, DNS issues, anti-spam rules, etc.).
 
 ## Signal Spam {#signal-spam}
 
@@ -70,7 +70,7 @@ Signal Spam は、フランスのサービスで、フランスの ISP（Orange�
 
 ## 250ok {#deliverability-250ok}
 
-[250ok](https://250ok.com/) は、IP、ドメインブラックリストおよび評判の指標を提供する、アドビの配信品質内部ツールの補完的な監視ソリューションです。
+[250ok](https://250ok.com/) は、IP、ドメインブラックリスト、評価のインジケーターを提供するアドビの配信品質内部ツールの補完的な監視ソリューションです。
 
 提供される情報はリアルタイムで、これにより先を見越した支援が可能です。
 

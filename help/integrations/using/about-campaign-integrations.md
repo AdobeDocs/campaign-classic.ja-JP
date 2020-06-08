@@ -12,10 +12,10 @@ discoiquuid: 0af1fd96-48ef-43c9-a03b-0f9a6e0e02fe
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0a4272ae13b469c7c17b8c3afa9748cbfbcf07ff
-workflow-type: ht
-source-wordcount: '840'
+translation-type: tm+mt
+source-git-commit: e488e1771fe4d07132844900f41f5f4f09fa9438
+workflow-type: tm+mt
+source-wordcount: '780'
 ht-degree: 100%
 
 ---
@@ -99,10 +99,6 @@ Adobe Campaign と統合できるアドビのソリューションとコアサ�
   <tr> 
    <td> <strong>Adobe Analytics - Data コネクタ</strong><br /> </td> 
    <td> <strong>Data コネクタ</strong>（旧 Adobe Genesis）を使用すると、Adobe Campaign と Adobe Analytics の間で、E メールキャンペーン後のユーザー行動に関するセグメントを介したインタラクションが可能になります。反対に、Adobe Campaign から配信された E メールキャンペーンの指標と属性を Adobe Analytics - Data コネクタに送信します。<br /> <p>Campaign と Data コネクタの統合について詳しくは、<a href="../../platform/using/adobe-analytics-data-connector.md">こちら</a>を参照してください。</p><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Adobe Campaign Standard</strong>（Prime）<br /> </td> 
-   <td> <strong>Campaign Standard</strong> にデータをレプリケートして、両方のアプリケーションの優れた機能を連携させることができます。Campaign Classic v7 には、プライマリマーケティングデータベースを管理するための高度なツールがあります。Campaign Classic v7 からのデータレプリケーションにより、Campaign Standard の使いやすい環境でリッチデータを活用できます。<br /><p> Adobe Campaign Classic と Adobe Campaign Standard の統合について詳しくは、<a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">こちら</a>を参照してください。</p><br /></td> 
   </tr> 
  </tbody> 
 </table>

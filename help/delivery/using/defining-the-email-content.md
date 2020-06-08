@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cedcd9150c374116f187da7fd9e76bf81e978e2a
+source-git-commit: b60b5fad24c1237981f66315e7cf585c79f82641
 workflow-type: tm+mt
-source-wordcount: '2928'
-ht-degree: 99%
+source-wordcount: '3022'
+ht-degree: 95%
 
 ---
 
@@ -62,6 +62,8 @@ ht-degree: 99%
 >[!NOTE]
 >
 >パーソナライゼーションフィールドの使用方法については、[パーソナライゼーションについて](../../delivery/using/about-personalization.md)を参照してください。
+
+[ **[!UICONTROL 絵文字の挿入]** ]ポップアップウィンドウを使用して、件名に絵文字を挿入することもできます。
 
 ## メッセージの内容 {#message-content}
 
@@ -114,6 +116,19 @@ ht-degree: 99%
    HTML 形式については、ページ下部の「**[!UICONTROL プレビュー]**」タブをクリックすると、メッセージにパーソナライゼーションを含めたレンダリング結果を表示して確認できます。
 
    ![](assets/s_ncs_user_wizard_email01_142.png)
+
+### 電子メールへの顔文字の挿入 {#inserting-emoticons}
+
+電子メールコンテンツに顔文字を挿入できます。
+
+1. [ **[!UICONTROL 挿入絵文字]** ]アイコンをクリックします。
+1. ポップアップウィンドウから顔文字を選択します。
+
+   ![](assets/emoticon_4.png)
+
+1. 終了したら、 **[!UICONTROL 閉じる]** ボタンをクリックします。
+
+絵文字のリストをカスタマイズするには、この [ページを参照してください](../../delivery/using/customizing-emoticon-list.md)。
 
 ## メッセージ形式の選択 {#selecting-message-formats}
 
@@ -191,11 +206,10 @@ HTML 形式の E メール配信には、画像を含めることができます
 
 1. 「**[!UICONTROL 画像]**」タブの「**[!UICONTROL 画像をアップロード]**」を選択します。
 1. その画像を E メールメッセージに含めるかどうかを選択できます。
-
-![](assets/s_ncs_user_email_del_img_upload.png)
+   ![](assets/s_ncs_user_email_del_img_upload.png)
 
 * 配信分析フェーズを待つことなく、手動で画像をアップロードできます。To do this, click the **[!UICONTROL Upload the images straightaway...]** link.
-* トラッキングサーバー上の画像にアクセスするための、別のパスも指定できます。そのためには、「**[!UICONTROL 画像の URL]**」フィールドにパスを入力します。この値を指定すると、インストールウィザードのパラメーターで指定した値よりも優先されます。
+* トラッキングサーバー上の画像にアクセスするための、別のパスも指定できます。To do this, enter it in the **[!UICONTROL Images URL]** field. この値を指定すると、インストールウィザードのパラメーターで指定した値よりも優先されます。
 
 配信ウィザードで、画像を含んだ HTML コンテンツを開くと、配信パラメーターに従ってすぐに画像をアップロードするかどうかを確認するメッセージが表示されます。
 
@@ -205,7 +219,11 @@ HTML 形式の E メール配信には、画像を含めることができます
 >
 >画像へのアクセスパスは、手動でのアップロード時やメッセージの送信時に変更されます。
 
-### 例：画像付きのメッセージの送信 {#example--sending-a-message-with-images}
+### Sending a message with images {#sending-a-message-with-images}
+
+>[!NOTE]
+>
+>パフォーマンスの問題を回避するために、パーソナライズされたURLからその場でダウンロードされた画像を [添付ファイルとして含める場合](../../delivery/using/attaching-files.md)、デフォルトで各画像サイズが100,000バイトを超えないようにする必要があります。 この推奨しきい値は、Campaign Classicオプション [のリストから設定でき](../../installation/using/configuring-campaign-options.md#delivery)ます。
 
 ここでは、4 個の画像を含んだ配信を例にとって説明します。
 

@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b6b4fd2b21f90a88744736b499eab1b0764774e
+source-git-commit: de1173786c94c2a526153e7e6948f71c9523fa7b
 workflow-type: tm+mt
-source-wordcount: '3743'
-ht-degree: 26%
+source-wordcount: '3906'
+ht-degree: 25%
 
 ---
 
@@ -113,6 +113,18 @@ ht-degree: 26%
    <td> メッセージの送信時に使用するFromアドレスの構文を定義できます。<br /> </td> 
   </tr> 
   <tr> 
+   <td> <span class="uicontrol">NmsDelivery_ImageServerTimeout</span> <br /> </td> 
+   <td> パーソナライズされたURLからダウンロードし、電子メールに添付した画像を取得する場合に、サーバーから応答を取得するためのタイムアウト制限（秒）を定義できます。 この値を超えると、メッセージを送信できません。 デフォルト値は 60 秒です。<br /> </td> 
+  </tr> 
+ <tr> 
+   <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
+   <td> パーソナライズされたURLからダウンロードし、電子メールに添付した画像に許可される最大サイズ（バイト）を定義できます。 デフォルト値は100,000バイトです。 配達確認を送信し、電子メールを処理するために画像をダウンロードする場合、画像のサイズがこの値を超えた場合、またはダウンロードの問題がある場合、配信ログにエラーが表示され、配達確認配信は失敗します。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">NmsDelivery_MaxRecommendedAttachments</span> <br /> </td> 
+   <td> 電子メールまたはトランザクション電子メールテンプレートに添付ファイルの最大数を設定できます。 この値を超えると、配信分析ログまたはトランザクション電子メールテンプレートの公開時に、警告が表示されます。 The default value is 1 attachment.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRetry</span> <br /> </td> 
    <td> 分析中の再試行の最大数.<br /> </td> 
   </tr> 
@@ -122,7 +134,7 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_NoCountBroadLogMsgPush</span> <br /> </td> 
-   <td> プッシュメッセージの broadLogMsg カウントを無効にする.<br /> </td> 
+   <td> プッシュメッセージの broadLogMsg カウントを無効にします.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDeliveryWizard_ShowDeliveryWeight</span> <br /> </td> 

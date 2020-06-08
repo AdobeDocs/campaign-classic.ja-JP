@@ -14,8 +14,11 @@ discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 30f313cecf1c3d7c65f6524a3f86a1c28b35f679
+translation-type: tm+mt
+source-git-commit: aef56860d6e4558a7f4833066ab3d83733591522
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 100%
 
 ---
 
@@ -51,6 +54,7 @@ Adobe Campaign の「**受信ボックスレンダリング**」で使用でき�
    * **[!UICONTROL サーバー]**： https://deliverability-app.neolane.net/deliverability
    * **[!UICONTROL 暗号化]**：なし
    * 「**[!UICONTROL 有効]**」オプションをオンにします。
+
    ![](assets/s_tn_inbox_rendering_external-account.png)
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;ノードに移動します。「**[!UICONTROL DmRendering_cuid]**」オプションを検索します。サポートに連絡して、**[!UICONTROL 値 (テキスト)]** フィールドにコピーする必要のある、配信レポートの識別子を取得します。
@@ -88,6 +92,7 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 >
 >* 受信ボックスレンダリングレポートが生成されるたびに、メッセージングクライアントあたり 1 つのトークンが差し引かれます（Outlook 2000 レンダリングに 1 トークン、Outlook 2010 レンダリングに 1 トークン、Apple Mail 9 レンダリングに 1 トークン、というようになります）。
 >* 同じ配信について、受信ボックスレンダリングを再生成する場合、使用可能なトークンの数は、生成したレンダリングの数だけ再度減ります。
+
 >
 
 
@@ -97,12 +102,6 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
 通常、受信ボックスレンダリング機能は、新しくデザインされた E メールの HTML フレームワークをテストするために使用されます。各レンダリングには、最大で約 70 トークンが必要です（通常テストされる環境の数による）。ただし、場合によっては、配信を完全にテストするために、複数の受信ボックスレンダリングレポートが必要なことがあります。そのため、複数の確認を完了するために、さらにトークンが必要になる可能性があります。
-
->[!NOTE]
->
->Litmus クライアントの場合は、自分の Litmus アカウントを使用して Adobe Campaign で受信ボックスレンダリングをプロビジョニングおよび使用することができます。詳しくは、アドビのアカウント担当者にお問い合わせください。
->
->Litmus 資格情報を変更すると、Adobe Campaign 内の認証で問題が生じる可能性があります。
 
 ## 受信ボックスレンダリングレポートへのアクセス {#accessing-the-inbox-rendering-report}
 

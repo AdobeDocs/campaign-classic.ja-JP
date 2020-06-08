@@ -8,25 +8,24 @@ products: SG_CAMPAIGN/CLASSIC
 audience: rn
 content-type: reference
 topic-tags: campaign-classic-deprecated-features
-discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be148d7cd55097b9014d2f4d3b095c65a5ca8c54
+source-git-commit: e46325ab8f68a0b71198aee9cf04f2b1eb97fdd3
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 97%
+source-wordcount: '1468'
+ht-degree: 66%
 
 ---
 
 
 # 非推奨（廃止予定）および削除された機能 {#deprecated-and-removed-features}
 
-アドビは、製品の機能を評価し続けて、より新しい代替手段に置き換えるべき旧機能を特定し、全体的な顧客の価値を向上させ、常に後方互換性を慎重に考慮します。Adobe Campaign Classic はサードパーティ製ツールと連携しており、サポート対象バージョンのみに対応するために、定期的に互換性が更新されています。Adobe Campaign Classic と互換性がなくなったバージョンを次に示します。
+アドビは、製品の機能を評価し続けて、より新しい代替手段に置き換えるべき旧機能を特定し、全体的な顧客の価値を向上させ、常に後方互換性を慎重に考慮します。Adobe Campaign Classic はサードパーティ製ツールと連携しており、サポート対象バージョンのみに対応するために、定期的に互換性が更新されています。Adobe Campaignクラシックと互換性がなくなったバージョンを、次と [互換表に示します](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)。
 
 Campaign Classic 機能の差し迫った削除／置換を伝達するため、次の規則が適用されます。
 
-* まず、廃止予定のお知らせが来ます。非推奨（廃止予定）の機能は引き続き既存のユーザーに提供できますが、それ以上の機能強化やドキュメント化はおこなわれません。
+* まず、廃止予定のお知らせが来ます。非推奨の機能は引き続き既存のユーザーに対して使用でき、サポートされますが、それ以上の拡張やドキュメント化は行われません。
 * 非推奨（廃止予定）の機能は、以下のリリースで最も早く削除されます。削除の実際のターゲット日は、このページで発表されます。
 
 このプロセスにより、顧客は、実際に削除する前に、新しいバージョンや非推奨（廃止予定）の機能の後継バージョンに実装を適応させるために、少なくとも 1 つのリリースサイクルを提供できます。
@@ -34,85 +33,45 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
 >[!NOTE]
 >Adobe Campaign リリースと新機能は、[リリースノート](../../rn/using/latest-release.md)に一覧表示されています。
 
-
 ## 非推奨（廃止予定）の機能 {#deprecated-features}
 
 この節では、最新の Campaign Classic リリースで非推奨とマークされている機能を一覧化します。
 
-一般に、将来のリリースで削除される予定の機能は、まず非推奨に設定され、代わりの機能も提供されます。これらの機能は、新しいCampaign Classicのお客様はご利用いただけなくなるか、新しい実装には使用しないでください。 また、製品ドキュメントからも削除されます。
+一般に、将来のリリースで削除される予定の機能は、非推奨になる前に設定されます。 これらの機能は、新しいCampaign Classicのお客様はご利用いただけなくなるか、新しい実装には使用しないでください。 また、製品ドキュメントからも削除されます。
 
-顧客は現在のデプロイメントで機能を利用しているかどうかを確認し、提供される代替機能を使用するように実装を変更する計画を立てるようお勧めします。削除の目標期日を参照し、それに応じて環境やプロジェクトの更新を計画してください。
-
-### Adobe Campaign 18.6 リリース {#ac-18-6-release}
+お客様は、現在の導入で機能を利用しているかどうかを確認し、導入を変更する計画を立てることをお勧めします。 削除の目標期日を参照し、それに応じて環境やプロジェクトの更新を計画してください。
 
 <table> 
  <tbody> 
-  <tr> 
-   <td><strong>領域</strong></td>
-   <td><strong>機能</strong></td> 
+   <tr>
+   <td><strong>機能</strong></td>
    <td><strong>置き換え</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Javascript SDK セキュリティ<br> </td>
-   <td>decryptString<br> </td>
-   <td><p>セキュリティ上の理由から、<em>decryptString</em> API は、新しいインストールではデフォルトで使用できなくなりました。</p> 
-   <p>18.6（以降）へのアップグレード後、この API は有効化されなくなり、<em>decryptPassword</em> 関数に置き換えられます。</p><br> </td>
-  </tr> 
+  </tr>
+   <tr>
+  <td>SMSコネクタ<br></td>
+  <td><p> 20.2リリース以降、次のSMSコネクタは非推奨となります。<p>
+   <ul>
+   <li>NetSize</li>
+   <li>汎用SMPP（バイナリモードをサポートするSMPPバージョン3.4）</li>
+   <li>Sybase365 (SAP SMS 365)</li>
+   <li>CLX通信</li>
+   <li>Tele2</li>
+   <li>O2</li>
+   <li>iOS</li>
+   </ul>
+  <p>これらのコネクタの1つを使用する場合は、それに応じて実装を適応させる必要があります。 <a href="../../delivery/using/sms-channel.md">詳細情報</a>。</p> 
+  <p>このテクノノテートでレガシーコネクターを移行する方法 <a href="https://helpx.adobe.com/campaign/kb/sms-connector.html">を説明します</a>。</p>
+  <p><em>ターゲットの削除日： 2021</em></p>
+  </td> 
+ </tr>
+  <tr>  
+   <td>FAX チャネル<br></td>
+   <td><p>20.2リリース以降、Faxチャネルは非推奨となります。</p> 
+   <p>このチャネルを使用する場合は、それに応じて実装を適応させる必要があります。 <a href="../../delivery/using/communication-channels.md">キャンペーンチャネルの詳細</a> 。</p>
+   <p><em>ターゲットの削除日： 2021</em></p></td>
+  </tr>
  </tbody> 
 </table>
-
-### Adobe Campaign 18.4 リリース {#ac-18-4-release}
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>領域</strong></td>
-   <td><strong>機能</strong></td> 
-   <td><strong>置き換え</strong></td> 
-  </tr> 
-   <tr> 
-   <td>E メールのアーカイブ<br> </td>
-   <td>ファイルベースのアーカイブ<br></td>
-   <td><p>E メールアーカイブは、専用の BCC E メールアドレスを通じて使用できるようになりました。<a href="../../installation/using/email-archiving.md">詳細情報</a>。</p> 
-   <p><em>ターゲットの削除日：Campaign 20.2 リリース - 2020 年 6 月</em></p><br> </td>
-  </tr> 
-   <tr> 
-   <td>リード管理<br> </td>
-   <td>リード<br> </td>
-   <td><p>Adobe Campaign Classic のリード管理パッケージは、リード管理ライフサイクル全体の構築と維持のプロセスを簡略化しました。他のネイティブワークフローアクティビティやデータモデルの変更を介しても、同様の機能を実装できます。</p> 
-   <p><em>ターゲットの削除日：Campaign 20.2 リリース - 2020 年 6 月</em></p><br> </td>
-  </tr> 
- </tbody> 
-</table>
-
-
-## 非推奨（廃止予定）の互換性 {#deprecated-compatibility}
-
-### Adobe Campaign 20.1 リリース {#compat-20-1-release}
-
-2 月リリースの 20.1 より、Campaign Classic は次のシステムが非推奨（廃止予定）になります。互換性は 20.2 リリース（2020 年 6 月）で終了します。
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>領域</strong></td>
-   <td><strong>置き換え</strong></td> 
-  </tr> 
-   <tr> 
-   <td>Campaign Classic クライアントコンソール 32 ビット<br> </td>
-   <td><p>Campaign Classic クライアントコンソール 64 ビット</p><br> </td>
-  </tr> 
- </tbody> 
-</table>
-
-### Adobe Campaign 19.2 リリース {#compat-19-2-release}
-
-19.2 Fall リリースより、Adobe Campaign は次のオペレーティングシステムが非推奨（廃止予定）になります。2020 年末で互換性の維持の取り組みを終了します。
-
-* Web サーバー：Apache 2.2。[詳細情報](https://wiki.centos.org/About/Product)
-* オペレーティングシステム：CentOS 6。[詳細情報](https://wiki.centos.org/About/Product)。
-
-[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)を参照し、新しいバージョンにアップグレードするか、新しいシステムに移行してください。
 
 ## 削除された機能 {#removed-features}
 
@@ -123,40 +82,66 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <tr> 
    <td><strong>領域 - 機能</strong></td>
    <td><strong>置き換え</strong></td> 
-   <td><strong>バージョン</strong></td> 
   </tr> 
    <tr> 
-   <td>Campaign API ドキュメント - jsapi.chm ファイル<br></td>
-   <td>Campaign Classic API を専用ページから入手できるようになりました。jsapi.chm ファイルを使用していた場合は、<a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">新しいオンラインバージョン</a>を参照する必要があります。</td>
-   <td>19.1</td>
+   <td>ファイル・ベースの電子メール・アーカイブ<br></td>
+   <td><p>キャンペーン20.2以降のリリースでは、ファイルベースの電子メールアーカイブは使用できなくなりました。 E メールアーカイブは、専用の BCC E メールアドレスを通じて使用できるようになりました。<a href="../../installation/using/email-archiving.md">詳細情報</a>。</p></td>
+  </tr> 
+   <tr> 
+   <td>リード管理</td>
+   <td><p>キャンペーン20.2リリース以降、Leads Managementパッケージは使用できなくなりました。 他のネイティブワークフローアクティビティやデータモデルの変更を介しても、同様の機能を実装できます。</p></td>
+   </tr>
+   <tr>
+   <td>キャンペーンAPIドキュメント — jsapi.chmファイル</td>
+   <td>キャンペーン19.1リリース以降、Campaign ClassicAPIは専用ページで利用できます。 If you were using the legacy jsapi.chm file, you should now refer to <a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html">the new online version</a>.</td>
   </tr> 
   <tr> 
    <td>キャンペーンオーケストレーション - 予測マーケティング</td>
-   <td>Adobe Campaign Classic の予測マーケティング機能の大部分は、予測モデルの消費です。予測マーケティングワークフローのアクティビティは今後のバージョンで削除されますが、Adobe Campaign は、他のワークフローアクティビティを介した外部ソースからの予測モデルの消費と使用を引き続きサポートします。</td>
-   <td>18.10</td>
+   <td>キャンペーン18.10のリリース以降、予測マーケティング機能は使用できなくなりました。</td>
   </tr> 
   <tr> 
    <td>Web アプリケーション - マイクロサイト</td>
-   <td>Adobe Campaign 構成ファイル上の専用ドメインへのアクセスのみを制限することで、セキュリティを向上させます。DNS エイリアスを使用して、パーソナライズされた URL を Campaign で引き続き使用できます。<a href="https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html">詳細情報</a>。</td>
-   <td>18.10</td>
+   <td>キャンペーン18.10のリリース以降、Micrositesはご利用いただけません。 Adobe Campaign構成ファイル上の専用ドメインへのアクセスのみを制限し、DNSエイリアスを使用してパーソナライズされたURLをキャンペーンで使用することで、セキュリティを向上できます。 <a href="https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html">詳細情報</a>。</td>
   </tr> 
   <tr> 
-   <td>プッシュ通知 - iOS バイナリコネクタ<br></td>
-   <td>アドビは、Apple の推奨に従って、従来の iOS バイナリコネクタを削除します。HTTP/2 ベースのコネクタは、より高機能でより効率的です。</td>
-   <td>18.10</td>
+   <td>プッシュ通知 — iOSバイナリコネクタ</td>
+   <td>アドビでは、Appleの推奨に従って、レガシーのiOS Binary Connectorのキャンペーン18.10リリースからを削除しました。 HTTP/2 ベースのコネクタは、より高機能でより効率的です。</td>
+  </tr> 
+  <tr> 
+   <td>decryptString API</td>
+   <td><p>Starting Campaign 18.6 release, for security reasons, <em>decryptString</em> API is no longer available by default for new installations.</p> 
+   <p>18.6（以降）へのアップグレード後、この API は有効化されなくなり、<em>decryptPassword</em> 関数に置き換えられます。<a href="https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/f-decryptPassword.html?hl=decrypt">詳細情報</a>。</p></td>
   </tr> 
    <tr> 
    <td>モバイルチャネル- MMS および WAP プッシュメッセージ</td>
-   <td>MMS および Wap のプッシュチャネルは使用できなくなりました。代わりに、<a href="../../delivery/using/sms-channel.md">SMS</a> および<a href="../../delivery/using/about-mobile-app-channel.md">プッシュ</a>配信を利用できます。</td>
-   <td>18.4</td>
+   <td>キャンペーン18.4リリース以降、MMSとWapのプッシュチャネルは使用できなくなりました。 代わりに、<a href="../../delivery/using/sms-channel.md">SMS</a> および<a href="../../delivery/using/about-mobile-app-channel.md">プッシュ</a>配信を利用できます。</td>
   </tr> 
    <tr> 
    <td>モバイルチャネル - LINE v1</td>
-   <td>LINE Connect パッケージは、Adobe Campaign Classic ではインストールできなくなりました。アドビは、新しい LINE チャネルパッケージを使用して LINE メッセージを送信することをお勧めします。<a href="../../delivery/using/line-channel.md">詳細情報</a>。</td>
-   <td>18.4</td>
+   <td>キャンペーン18.4リリースから、LINE Connectパッケージは使用できなくなりました。 新しいLINEチャネルパッケージを置き換える場合は、 <a href="../../delivery/using/line-channel.md">詳細情報</a>。</td>
   </tr> 
  </tbody> 
 </table>
+
+## 非推奨（廃止予定）の互換性 {#deprecated-compatibility}
+
+次のCampaign Classicシステムは廃止されました。 Please refer to the [Compatibility matrix](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html) to upgrade to a newer version or move to a new system before the compatibility ends.
+
+### Adobe Campaign 20.2 リリース {#compat-20-2-release}
+
+20.2リリース以降、次のCampaign Classicは推奨されません。 互換性は20.3リリース（2020年9月）で終了します。
+
+* クライアントコンソール： Windows 7
+* 従来のSMSコネクタ（以下の非推奨機能の節を参照）
+
+### Adobe Campaign 19.2 リリース {#compat-19-2-release}
+
+19.2リリース以降、次のオペレーティングシステムはCampaign Classicに使用されなくなりました。 2020 年末で互換性の維持の取り組みを終了します。
+
+* Webサーバー： Apache 2.2。
+* オペレーティングシステム：CentOS 6。
+
+[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)を参照し、新しいバージョンにアップグレードするか、新しいシステムに移行してください。
 
 ## 互換性の終了 {#end-of-compatibility}
 
@@ -171,12 +156,16 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 * Windows Server 2003、2008、2008 R2
 * Windows XP、Vista
 
+>[!NOTE]
+>キャンペーン20.1リリース以降、Campaign Classicクライアントコンソールの32ビットはキャンペーンの最新バージョンとの互換性がなくなりました。 64ビットのクライアントコンソールを使用する必要があります。
+
+
 ### オペレーティングシステム {#o-s-eol}
 
 19.1 リリースより、Adobe Campaign は次のオペレーティングシステムへの対応を終了します。
 
 * Debian 7。[詳細情報](https://wiki.debian.org/DebianReleases)。
-* RHEL 6.x。[詳細情報](https://access.redhat.com/ja/support/policy/updates/errata)。
+* RHEL 6.x. [Learn more](https://access.redhat.com/ja/support/policy/updates/errata)
 * Windows Server 2008。[詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/1163)。
 * SLES 11。[詳細情報](https://www.suse.com/lifecycle)。
 
@@ -203,11 +192,10 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 19.1 Spring リリースより、Adobe Campaign は次の FDA サーバーへの対応を終了します。
 
-* Oracle 11G。[詳細情報](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)。
-* PostgreSQL 9.3。[詳細情報](https://www.postgresql.org/support/versioning)。
-* MySQL 5.5。&lt;[詳細情報](http://www.fromdual.com/support-for-mysql-from-oracle)。
-* DB2 9.5。[詳細情報](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)。
-* Teradata 14 - 14.1。[詳細情報](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)。
+* PostgreSQL 9.3. [Learn more](https://www.postgresql.org/support/versioning)
+* MySQL 5.5。 [詳細情報](http://www.fromdual.com/support-for-mysql-from-oracle)
+* DB2 9.5. [Learn more](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* Teradata 14 – 14.1. [Learn more](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)
 
 Campaign Classic は、Federated Data Access（FDA）の次のサーバーと互換性がありません。
 
@@ -226,7 +214,7 @@ Campaign Classic は、Federated Data Access（FDA）の次のサーバーと互
 **RDBMS サーバー**
 
 Adobe Campaign は、次の RDBMS サーバーと互換性がありません。
-* Oracle 10GR2、11G
+* Oracle 10GR2
 * PostgreSQL 9.0 ～ 9.3
 * SQL Server 2005
 * MySQL 5.1

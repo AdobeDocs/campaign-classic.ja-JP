@@ -14,8 +14,11 @@ discoiquuid: 91115d4f-0cb6-4bce-b28d-17f15e9f9a0a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+translation-type: tm+mt
+source-git-commit: 0386ae88a1b4d9ebda64283d874e01b14e9e5af4
+workflow-type: tm+mt
+source-wordcount: '1266'
+ht-degree: 100%
 
 ---
 
@@ -76,7 +79,7 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 
 Campaign v7 からレプリケートされたプロファイルとサービスを利用して Campaign Standard のリッチデータを活用できます。以下の手順では、クエリを Campaign Standard ワークフローに追加し、レプリケートされたデータベースで使用する方法について説明します。
 
-詳細および Campaign Standard ワークフローに関する完全な手順については、[ワークフロー](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/about-workflows-and-data-management/workflow-data-and-processes.html)を参照してください。
+詳細および Campaign Standard ワークフローに関する完全な手順については、[ワークフロー](../../workflow/using/about-workflows.md)を参照してください。
 
 1. Campaign Standard に移動して、**[!UICONTROL マーケティングアクティビティ]**&#x200B;をクリックします。
 1. 右上の「**[!UICONTROL 作成]**」をクリックします。
@@ -100,7 +103,7 @@ Campaign v7 からレプリケートされたプロファイルとサービス�
 
 Campaign v7 Web アプリケーションを使用して、受信者によるサービスの購読解除の選択が確実に Campaign v7 データベースに送信されるようにすることができます。受信者が購読解除リンクをクリックすると、サービスの受信を停止するオプションが Campaign v7 から Campaign Standard にレプリケートされます。詳しくは [購読解除リンクの変更](#changing-the-unsubscription-link)を参照してください。
 
-以下の手順に従い、Campaign v7 で作成した購読解除サービスを使用して既存のワークフローに E メール配信を追加します。Campaign Standard ワークフローの詳細および完全な手順については、この[ドキュメント](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/about-workflows-and-data-management/workflow-data-and-processes.html)を参照してください。
+以下の手順に従い、Campaign v7 で作成した購読解除サービスを使用して既存のワークフローに E メール配信を追加します。Campaign Standard ワークフローの詳細および完全な手順については、この[ドキュメント](../../workflow/using/about-workflows.md)を参照してください。
 
 >[!NOTE]
 >

@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: e31a0faf6c48e2d34ce47fc1cd5a23aae05aeebf
 workflow-type: tm+mt
-source-wordcount: '3087'
-ht-degree: 100%
+source-wordcount: '3084'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ![](assets/campaign_op_add_delivery.png)
 
-各種の配信（ダイレクトメール、E メール、モバイルチャネル、FAX、電話）に適した設定が提示されます。
+推奨設定は、様々なタイプの配信に適しています。 ダイレクトメール、電子メール、モバイルチャネル。
 
 >[!NOTE]
 >

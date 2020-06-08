@@ -12,11 +12,11 @@ discoiquuid: 7b8ab9d6-e47e-46d8-99df-da793486654c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 24a50fcaad4d9081e5504652eb5b73aa7db1e65f
-workflow-type: ht
-source-wordcount: '563'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 22d0e70f77eb3759632e05ab1cb0d8ee53adfac9
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 89%
 
 ---
 
@@ -45,6 +45,10 @@ ht-degree: 100%
 * また、上記のシナリオ例のように添付ファイルがトランザクションに関連する場合には、顧客のプロセスの間に生成される動的データを添付ファイルに含めることもあります。
 * PDF ファイルを添付すると、PDF ファイルを暗号化して HTTPS 経由で送信できるので、セキュリティが最適化されます。
 
+>[!NOTE]
+>
+>パフォーマンスの問題を回避するために、パーソナライズされたURLからその場でダウンロードされた画像を添付ファイルとして含める場合、デフォルトで各画像サイズが100,000バイトを超えないようにする必要があります。 この推奨しきい値は、Campaign Classicオプション [のリストから設定でき](../../installation/using/configuring-campaign-options.md#delivery)ます。
+
 ## 推奨事項 {#important-notes}
 
 このシナリオを実装する前に、次のガイドラインをよくお読みください。
@@ -53,6 +57,10 @@ ht-degree: 100%
 * アドビ以外のトランザクションメッセージインスタンスまたはサーバーに直接アクセスする方法は存在しないので、これらのサーバー上にあるファイルをプッシュする標準的な方法はありません（FTP でアクセスすることもできません）。
 * トランザクションメッセージインスタンス上のディスクスペースでは、いかなるファイルの格納も契約に沿ったものではなく、添付ファイルも例外ではありません。
 * 別のオンラインディスクシステムでこれらのファイルをホストする必要があります。このシステムに FTP 経由でアクセスできることに加え、ファイルの書き込みと削除をおこなえる必要があります。
+
+>[!NOTE]
+>
+>パフォーマンスの問題を回避するために、1つの電子メールに複数の添付ファイルを含めないことをお勧めします。 推奨しきい値は、Campaign Classicオプション [のリストから設定でき](../../installation/using/configuring-campaign-options.md#delivery)ます。
 
 ## 実装 {#implementation}
 

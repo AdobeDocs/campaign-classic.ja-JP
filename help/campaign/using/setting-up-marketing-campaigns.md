@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 1a139e1704a7df38a7b8088e23c972864f8ad998
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1268'
 ht-degree: 100%
 
 ---
@@ -145,10 +145,6 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-スケジュール作成ウィザードを使用して、すべての実行日を自動入力できます。自動入力するには、テーブルの上にある「**[!UICONTROL 実行スケジュールを設定...]**」リンクをクリックします。
-
-![](assets/s_ncs_user_op_template_recur_planning_wz.png)
-
 実行スケジュールの設定モードは、ワークフローの&#x200B;**[!UICONTROL スケジューラー]**&#x200B;オブジェクトと一致しています。詳しくは、[この節](../../workflow/using/architecture.md)を参照してください。
 
 >[!IMPORTANT]
@@ -179,6 +175,7 @@ ht-degree: 100%
 
    * **[!UICONTROL 承認用に送信]**：ワークフローで配信承認リクエストを実施できます。.
    * **[!UICONTROL 自動で開始]**：開始日になるとワークフローを開始できます。
+
    「**[!UICONTROL 事前に作成]**」フィールドを使用して、入力した期間を対象とするワークフローをすべて作成できます。
 
    **[!UICONTROL キャンペーンジョブ]**&#x200B;ワークフローの実行時に、キャンペーンスケジュールで定義された発生件数に基づいて専用ワークフローが作成されます。このようにして、実行日ごとにワークフローが作成されます。

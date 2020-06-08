@@ -14,8 +14,11 @@ discoiquuid: 8f413002-bd32-426f-88b9-44cefae68593
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
+translation-type: tm+mt
+source-git-commit: a62e4d072573f7ed1b77f755eb57838c70745592
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +28,10 @@ source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
 Adobe Campaign では、Cookie または Web ビーコンによる行動のトラッキングからオプトアウトしたエンドユーザーの Web 行動のトラッキングを停止できます。これには、エンドユーザーにその選択肢を提示するため、バナーを表示する機能が含まれています。このバナーは Web アプリケーションやランディングページに追加することができます。
 
 エンドユーザーが cookie あるいは web ビーコンによる行動のトラッキングからオプトアウトした場合、その情報は JavaScript API で Adobe Campaign トラッキングサーバーに送信されます。オプトアウトの選択肢を提示する前に、オプトインの選択肢をエンドユーザーに提示すること（あるいは他の法的条件）を義務付けている地域もあります。適用される法令を遵守してください。
+
+>[!NOTE]
+>
+>スクリプティングを行う場合は、 [セキュリティとプライバシーのチェックリストに記載されているガイドラインに従ってください](https://helpx.adobe.com/campaign/kb/acc-security.html#dev)。
 
 ## バナーの設定 {#configuring-the-banner-}
 

@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 3bf835b3f686d1293fda7e6254660c477ba26452
 workflow-type: tm+mt
-source-wordcount: '3368'
-ht-degree: 100%
+source-wordcount: '3273'
+ht-degree: 94%
 
 ---
 
@@ -41,38 +41,13 @@ Adobe Campaign には、パーソナライズした SMS メッセージを大量
 
 1. コネクタとメッセージのタイプを指定する外部アカウント。
 
-   利用可能なコネクタは、NetSize、一般的な SMPP（SMPP バージョン 3.4、バイナリモード対応）、Sybase365（SAP SMS 365）、CLX 通信、Tele2、O2、拡張された汎用 SMPP です。
+   次のコネクタは、リリース20.2以降非推奨となります。 NetSize、汎用SMPP（バイナリ・モードをサポートするSMPPバージョン3.4）、Sybase365(SAP SMS 365)、CLX Communications、Tele2、O2、iOS。 非推奨の機能は引き続き使用できますが、これ以上強化されることはなく、サポートもされません。 詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)を参照してください。
 
 1. 使用する外部アカウントへの参照を含んだ配信テンプレート。
 
-### 外部アカウントの有効化 {#activating-an-external-account}
-
-外部アカウントの一覧は、Adobe Campaign エクスプローラーツリーの&#x200B;**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;ノードにあります。
-
-* 例えば、「**[!UICONTROL NetSize モバイル配信]**」というアカウントを使用するとします。
-* 「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL 有効]**」ボックスをオンにします。
-
-   ![](assets/s_user_external_account_01.png)
-
-* 「**[!UICONTROL チャネル]**」フィールドで「**[!UICONTROL モバイル]**」オプションが選択されていることを確認します。
-* 「**[!UICONTROL モバイル]**」タブで、ドロップダウンリストからコネクタを選択します。選択できるのは NetSize、一般的な SMPP、Sybase365（SAP SMS 365）、CLX 通信、Tele2、O2、または拡張された汎用 SMPP のいずれかです。拡張された汎用 SMPP コネクタについて詳しくは、[SMPP 外部アカウントの作成](#creating-an-smpp-external-account)の節を参照してください。
-
-   ![](assets/s_user_external_account_connect_01.png)
-
-* コネクタを、サプライヤーから入手した情報に従って設定します。下の例では、通信事業者は NetSize です。
-
-   ![](assets/s_user_external_account_param.png)
-
-* 「**[!UICONTROL コネクタ]**」タブでは、デフォルトで選択されている「**[!UICONTROL Web サービスを呼び出す]**」有効化モードをそのままにしておきます。
-
-   ![](assets/s_user_external_account_param_02.png)
-
-* 「**[!UICONTROL コネクタ]**」タブが表示されている場合は、コネクタのアクセス URL を指定します。プロバイダーが NetSize の場合、アドレスの末尾は **netsize.jsp** になります。それ以外のコネクタの場合、URL アドレスの末尾は **smpp34.jsp** です。
-
 ### SMPP 外部アカウントの作成 {#creating-an-smpp-external-account}
 
-SMPP プロトコルを使用する場合、新しい外部アカウントを作成することもできます。
-
+携帯電話にSMSを送信するには、まずSMPP外部アカウントを作成する必要があります。
 SMS のプロトコルと設定について詳しくは、この[技術メモ](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)を参照してください。
 
 これをおこなうには、以下の手順に従います。
@@ -87,7 +62,11 @@ SMS のプロトコルと設定について詳しくは、この[技術メモ](h
 
    ![](assets/extended_smpp_connector.png)
 
-   「**[!UICONTROL ログファイルの詳細 SMPP トレースを有効にする]**」オプションを使用すると、ログファイル内のすべての SMPP トラフィックをダンプできます。コネクタのトラブルシューティングやプロバイダー側が確認できるトラフィックとの比較をおこなうには、このオプションを有効にする必要があります。
+   >[!CAUTION]
+   >
+   > リリース20.2以降、レガシーコネクタは非推奨となり、サポートされません。 拡張 **[!UICONTROL 汎用SMPP]** Connectorの使用をお勧めします。 推奨コネクタに移行する方法の詳細については、この [ページを参照してください](https://helpx.adobe.com/campaign/kb/sms-connector.html)。
+
+1. 「**[!UICONTROL ログファイルの詳細 SMPP トレースを有効にする]**」オプションを使用すると、ログファイル内のすべての SMPP トラフィックをダンプできます。コネクタのトラブルシューティングやプロバイダー側が確認できるトラフィックとの比較をおこなうには、このオプションを有効にする必要があります。
 
 1. 「**[!UICONTROL 接続設定]**」タブで各種の外部アカウントフィールドを入力する方法については、SMS サービスプロバイダーにお問い合わせください。
 
@@ -377,6 +356,7 @@ Adobe Campaign では、SMS メッセージの送信時に 1 つまたは複数�
 * 返信せずにアクションを実行する場合は、「**[!UICONTROL 回答]**」列を空白のままにします。これにより、例えば、「STOP」以外のメッセージを送信したユーザーを強制隔離から削除できます。
 
 複数の外部アカウントが同じプロバイダーアカウントで拡張された汎用 SMPP コネクタを使用している場合、ショートコードへの返信がどの外部アカウント接続で受信されるかわからない、といった問題が発生する可能性があります。これにより、送信された自動返信が予期されるメッセージではない可能性があります。こうした問題を回避するには、使用しているプロバイダーに応じて次のいずれかのソリューションを適用します。
+
 * 各外部アカウントに対して 1 つのプロバイダーアカウントを作成
 * **[!UICONTROL モバイル]**／「**[!UICONTROL 接続設定]**」タブの「**[!UICONTROL システムタイプ]**」フィールドを使用して、各ショートコードを区別各アカウントに異なる値を提供するようプロバイダーに依頼
 
@@ -392,19 +372,19 @@ SMS チャネルでの配信の場合は、使用するチャネルコネクタ�
 
 ネイティブ配信テンプレートを保持しておくために、テンプレートのコピーを作成してから設定することをお勧めします。
 
-次の例では、既に有効化した NetSize アカウントを使用してメッセージを配信するテンプレートを作成します。手順は次のとおりです。
+以下の例では、前に有効にしたSMPPアカウントを介してメッセージを配信するためのテンプレートを作成します。 手順は次のとおりです。
 
 1. 「**[!UICONTROL 配信テンプレート]**」ノードを表示します。
 1. 「**[!UICONTROL モバイルに送信]**」テンプレートを右クリックし、「**[!UICONTROL 複製]**」を選択します。
 
    ![](assets/s_user_mobile_template_change_01.png)
 
-1. テンプレートのラベルを変更します。
+1. テンプレートのラベルを変更します(例： **Sent to mobiles(SMPP)**)。
 
    ![](assets/s_user_mobile_template_change_02.png)
 
 1. 「**[!UICONTROL プロパティ]**」をクリックします。
-1. 「**[!UICONTROL 一般]**」タブで、設定した外部アカウントに該当するルーティングモード（「**[!UICONTROL NetSize モバイル配信]**」など）を選択します。
+1. 「 **[!UICONTROL 一般]** 」タブで、前の手順で作成したルーティングに対応する外部アカウントモードを選択します。
 
    ![](assets/s_user_mobile_template_change_03.png)
 
@@ -425,7 +405,7 @@ SMS チャネルでの配信の場合は、使用するチャネルコネクタ�
 >配信の作成に関するグローバルな概念については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)で説明しています。
 
 1. 新しい配信を作成します（例えば、配信ダッシュボードから）。
-1. 先ほど作成した配信テンプレート「**[!UICONTROL モバイルに送信（NetSize）]**」を選択します。詳しくは、[配信テンプレートの変更](#changing-the-delivery-template)の節を参照してください。
+1. Select the delivery template **Sent to mobiles (SMPP)** that you created earlier. 詳しくは、[配信テンプレートの変更](#changing-the-delivery-template)の節を参照してください。
 
    ![](assets/s_user_mobile_wizard.png)
 
@@ -487,7 +467,7 @@ SMS のコンテンツを作成するには、次の手順に従います。
 
 次のオプションを使用できます。
 
-* **送信者のアドレス**（NetSize コネクタ、SMPP コネクタのみ）：配信の送信者名をパーソナライズできます。使用できる文字は半角英数字のみ、長さは 11 字以内です。また、数字のみで構成される文字列は指定できません。条件を指定することにより、例えば、受信者の市外局番に基づいて名前を変更できます。
+* **送信者のアドレス**: 11文字に制限された英数字の文字列を使用して、配信の送信者の名前をパーソナライズできます。 また、数字のみで構成される文字列は指定できません。条件を指定することにより、例えば、受信者の市外局番に基づいて名前を変更できます。
 
    ```
    <% if( String(recipient.mobilePhone).indexOf("+1") == 0){ %>NeoShopUS<%} else {%>NeoShopWorld<%}%>

@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e2ba309643a10a2bfdb031b3ee0acd90c3d02fc0
+source-git-commit: 39b8f4af256c23744a2b6e5978964e4b3207aafb
 workflow-type: tm+mt
-source-wordcount: '6491'
-ht-degree: 96%
+source-wordcount: '6680'
+ht-degree: 94%
 
 ---
 
@@ -26,6 +26,38 @@ ht-degree: 96%
 このページでは、1か月およびキャンペーンリリースあたりのすべての新機能とドキュメントの更新をリストしています。
 
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
+
+## 20.2 - 08/06/2020{#release-20-2}
+
+**リリースに含まれる新機能**
+
+顔文字のサポート — [詳細情報](../../delivery/using/customizing-emoticon-list.md)
+
+Azure SynapseFDAコネクタ — [詳細情報](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse)
+
+タイとブラジルのプライバシーに関する法律 — [詳細情報](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+
+**リリースに伴うその他のドキュメントのアップデート**
+
+トランザクションメッセージテンプレートの公開取り消しを有効にする新しいオプションについては[、この節に記載されています](../../message-center/using/template-unpublication.md)。
+
+パーソナライズされたURLからダウンロードした画像や添付ファイルを含む電子メール送信時の制限を設定できる新しいCampaign Classicが、オプションのリストに追加されました。 [詳細を表示](../../installation/using/configuring-campaign-options.md#delivery)
+
+新しい「 **Prepare the database parts in the database** 」オプションは、 [この節に記載されています](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis)。
+
+「配信の検証」セクションが明確になり、更新されました。 [詳細を表示](../../delivery/using/steps-validating-the-delivery.md)
+
+新しいトラッキングリンクの署名メカニズムに関連するパラメーターが、 [サーバー設定ファイル](../../installation/using/the-server-configuration-file.md) セクションに追加されました。
+
+互換性マトリックスが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
+
+クリーンアップワークフローセクションが更新されました。 [詳細情報](../../production/using/database-cleanup-workflow.md)。
+
+キャンペーンネットワークエンドポイントは、この [セクションに移動されました](../../installation/using/campaign-network-endpoints.md)。
+
+スパムアサシンのインストールセクションが、新しいインストールファイル名で更新されました。 [詳細情報](../../installation/using/configuring-spamassassin.md#installing-spamassassin)。
+
+環境の複製に関する節が更新されました。 [詳細情報](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)。
 
 
 ## 2020 年 5 月 {#may-2020}

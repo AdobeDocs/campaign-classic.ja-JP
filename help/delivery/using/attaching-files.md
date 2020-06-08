@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: adb25307146847a1c49d9c548d00557e95562541
+source-git-commit: b60b5fad24c1237981f66315e7cf585c79f82641
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 94%
+source-wordcount: '1056'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,13 @@ ht-degree: 94%
 
 ## E メールの添付ファイルについて {#about-email-attachments}
 
-E メール配信には 1 つまたは複数のファイルを添付できます。次の 2 つの場合が考えられます。
+E メール配信には 1 つまたは複数のファイルを添付できます。
+
+>[!NOTE]
+>
+>パフォーマンスの問題を回避するために、1つの電子メールに複数の添付ファイルを含めないことをお勧めします。 推奨しきい値は、Campaign Classicオプション [のリストから設定でき](../../installation/using/configuring-campaign-options.md#delivery)ます。
+
+次の 2 つの場合が考えられます。
 
 * ファイルを選択し、そのまま配信に添付する。
 * 添付ファイルのコンテンツを受信者ごとにパーソナライズする。この場合、**計算済み添付ファイル**&#x200B;を作成する必要があります。添付ファイルの名前は、各メッセージの送信時に、受信者に応じて自動生成されます。また、**Variable Digital Printing** オプションがインストールされている場合は、コンテンツをパーソナライズし、配信時に PDF 形式に変換して添付することもできます。
@@ -92,7 +98,7 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
-   このファイルは、サーバー上で、このテンプレートから作成された別の配信に添付できるようになります。
+このファイルは、サーバー上で、このテンプレートから作成された別の配信に添付できるようになります。
 
 ### パーソナライズ済みメッセージの添付 {#attach-a-personalized-message}
 
@@ -120,6 +126,10 @@ The option **[!UICONTROL The file content is personalized and converted into PDF
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
+>[!NOTE]
+>
+>パフォーマンスの問題を回避するために、パーソナライズされたURLからその場でダウンロードされた画像を添付ファイルとして含める場合、デフォルトで各画像サイズが100,000バイトを超えないようにする必要があります。 この推奨しきい値は、Campaign Classicオプション [のリストから設定でき](../../installation/using/configuring-campaign-options.md#delivery)ます。
+
 ### 計算済みファイルの添付 {#attach-a-calculated-file}
 
 配信の準備中に添付ファイルの名前を計算できます。これをおこなうには、「**[!UICONTROL 配信分析時にファイル名を生成（受信者プロファイルは利用不可）]**」オプションを選択します。
@@ -131,7 +141,7 @@ The option **[!UICONTROL The file content is personalized and converted into PDF
 1. 添付ファイルに適用するラベルを指定します。
 1. 定義ウィンドウで、ファイルのパスと正確な名前を指定します。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >ファイルはサーバー上に置かれている必要があります。
 
@@ -156,7 +166,7 @@ The option **[!UICONTROL The file content is personalized and converted into PDF
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >ファイルはサーバー上に置かれている必要があります。
 

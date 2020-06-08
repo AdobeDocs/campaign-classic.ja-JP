@@ -5,10 +5,10 @@ index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 56ddf3dc1505c0507c67f8b08c9f33b4007f8857
 workflow-type: tm+mt
-source-wordcount: '2051'
-ht-degree: 100%
+source-wordcount: '2061'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 + リリースノート{#release-notes}
    + [最新リリース](rn/using/latest-release.md)
    + 以前のリリース {#previous-releases}
+      + [リリース 20.1](rn/using/release--20-1.md)
       + [リリース 19.2](rn/using/release--19-2.md)
       + [リリース 19.1](rn/using/release--19-1.md)
       + [リリース 18.10](rn/using/release--18-10.md)
@@ -127,6 +128,7 @@ ht-degree: 100%
       + [条件付きコンテンツ](delivery/using/conditional-content.md)
       + [パーソナライズされたクーポン](delivery/using/personalized-coupons.md)
       + [パーソナライズした PDF ドキュメントの生成](delivery/using/generating-personalized-pdf-documents.md)
+      + [絵文字リストのカスタマイズ](delivery/using/customizing-emoticon-list.md)
    + シードアドレスの使用 {#using-seed-addresses}
       + [シードアドレスについて](delivery/using/about-seed-addresses.md)
       + [シードアドレスの作成](delivery/using/creating-seed-addresses.md)
@@ -526,6 +528,7 @@ ht-degree: 100%
       + [メッセージのプレビュー](message-center/using/transactional-message-preview.md)
       + [配達確認の送信](message-center/using/sending-a-proof.md)
       + [テンプレートのパブリッシュ](message-center/using/template-publication.md)
+      + [テンプレートの非公開](message-center/using/template-unpublication.md)
    + イベントの処理 {#event-processing}
       + [イベントの処理について](message-center/using/about-event-processing.md)
       + [イベントの収集](message-center/using/event-collection.md)
@@ -603,6 +606,7 @@ ht-degree: 100%
       + [インタラクション - データバッファ](installation/using/interaction---data-buffer.md)
    + 付録 {#appendices}
       + [サーバー設定ファイル](installation/using/the-server-configuration-file.md)
+      + [キャンペーンネットワークエンドポイント](installation/using/campaign-network-endpoints.md)
       + [コマンドライン](installation/using/command-lines.md)
       + [新規インスタンスの作成](installation/using/creating-new-instances.md)
       + [Campaign Classic のオプションのリスト](installation/using/configuring-campaign-options.md)

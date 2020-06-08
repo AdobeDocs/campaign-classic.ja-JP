@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1686'
 ht-degree: 100%
 
 ---
@@ -91,8 +91,6 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >同じワークフロー内でアクティビティをコピーして貼り付けることができます。ただし、異なるワークフロー間でアクティビティをコピーして貼り付けることはお勧めしません。アクティビティに関連付けられた配信やスケジューラーなどの設定が、貼り付け先ワークフローの実行中に競合やエラーの原因となる可能性があります。代わりに、ワークフローを&#x200B;**複製**&#x200B;することをお勧めします。詳しくは、[ワークフローの複製](#duplicating-workflows)を参照してください。
-
-### 追加のレイアウトオプション {#additional-layout-options}
 
 以下の要素を使用して、グラフの表示とレイアウトを変更できます。
 

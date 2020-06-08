@@ -14,8 +14,11 @@ discoiquuid: bd057441-8524-49e6-b5d5-fbd0ec5bca85
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
+workflow-type: tm+mt
+source-wordcount: '1702'
+ht-degree: 100%
 
 ---
 
@@ -251,9 +254,9 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
    ![](assets/mkg_dist_subscribe_step1.png)
 
-   必要なパラメーターをすべて指定したら、オーダーの承認を受けます。
+1. 必要なパラメーターをすべて指定したら、オーダーの承認を受けます。
 
-   ローカルエンティティが所属する組織エンティティのマネージャーに、オーダーの承認を依頼する通知が送信されます。
+1. ローカルエンティティが所属する組織エンティティのマネージャーに、オーダーの承認を依頼する通知が送信されます。
 
    ![](assets/mkg_dist_subscribe_step3.png)
 

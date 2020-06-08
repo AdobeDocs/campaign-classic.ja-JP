@@ -14,8 +14,11 @@ discoiquuid: f3cd5409-c301-4580-96e3-9349e18cf42a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: 4994aff9f2db36a519a9c7af2864393713eb65e3
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 86%
 
 ---
 
@@ -24,7 +27,9 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 「**[!UICONTROL ジャンプ]**」タイプのグラフィカルオブジェクトは、特に、交差するトランジションを持つ複雑なダイアグラムの可読性を向上させます。
 
-ジャンプは、矢印のないトランジションです。ジャンプは、1 つのアクティビティから別のアクティビティに、以下の図のように移動します。
+ジャンプは、矢印のないトランジションです。
+
+次の例のように、アクティビティ間を移動します。
 
 ![](assets/s_user_segmentation_jump_sample.png)
 

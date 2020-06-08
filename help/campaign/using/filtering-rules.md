@@ -14,8 +14,11 @@ discoiquuid: 0d50826e-2211-4c3b-8413-ca1453bba6c4
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+translation-type: tm+mt
+source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 100%
 
 ---
 
@@ -84,10 +87,9 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
 >[!NOTE]
 >
->* このウィンドウで選択できるのは、タイポロジとフィルタールールのみです。
->* フィルターの設定を配信テンプレートで定義すると、そのテンプレートを使用して作成されるすべての新しい配信に、自動的にこの設定が適用されます。
+>このウィンドウで選択できるのは、タイポロジとフィルタールールのみです。
 >
-
+>フィルターの設定を配信テンプレートで定義すると、そのテンプレートを使用して作成されるすべての新しい配信に、自動的にこの設定が適用されます。
 
 
 ## デフォルトの配信性能除外ルール {#default-deliverability-exclusion-rules}

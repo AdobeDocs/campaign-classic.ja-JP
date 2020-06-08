@@ -14,8 +14,11 @@ discoiquuid: 72c5151c-ce1e-425a-9aee-beefe9f21a67
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 44d8ba19f2e79d30229239312e6a5148d247fb28
+translation-type: tm+mt
+source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 100%
 
 ---
 
@@ -32,10 +35,10 @@ source-git-commit: 44d8ba19f2e79d30229239312e6a5148d247fb28
 
 Adobe Campaign では、次の 4 種類のタイポロジルールをデザインおよび適用できます。
 
-1. **フィルター**&#x200B;ルール：条件に基づいて、ターゲットの一部を除外します。詳しくは、[フィルタールール](../../campaign/using/filtering-rules.md)を参照してください。
-1. **頻度**&#x200B;ルール： マーケティング疲労（過剰なマーケティングによる弊害）を抑制します。詳しくは、[頻度ルール](../../campaign/using/pressure-rules.md)を参照してください。
-1. **処理能力**&#x200B;ルール：最適な処理環境を確保するために、負荷を制限します。詳しくは、[処理能力の制御](../../campaign/using/consistency-rules.md#controlling-capacity)を参照してください。
-1. **コントロール**&#x200B;ルール：メッセージを送信する前にメッセージの有効性を確認します。詳しくは、[コントロールルール](../../campaign/using/control-rules.md)を参照してください。
+* **フィルター**&#x200B;ルール：条件に基づいて、ターゲットの一部を除外します。詳しくは、[フィルタールール](../../campaign/using/filtering-rules.md)を参照してください。
+* **頻度**&#x200B;ルール： マーケティング疲労（過剰なマーケティングによる弊害）を抑制します。詳しくは、[頻度ルール](../../campaign/using/pressure-rules.md)を参照してください。
+* **処理能力**&#x200B;ルール：最適な処理環境を確保するために、負荷を制限します。詳しくは、[処理能力の制御](../../campaign/using/consistency-rules.md#controlling-capacity)を参照してください。
+* **コントロール**&#x200B;ルール：メッセージを送信する前にメッセージの有効性を確認します。詳しくは、[コントロールルール](../../campaign/using/control-rules.md)を参照してください。
 
 作成されたタイポロジルールは、キャンペーンタイポロジでグループ化され、配信で参照されます。[タイポロジの適用](#applying-typologies)を参照してください。
 

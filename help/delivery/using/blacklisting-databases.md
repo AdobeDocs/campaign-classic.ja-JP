@@ -14,8 +14,11 @@ discoiquuid: eede254d-2b25-46ed-b10f-fa1d54780a75
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ac3a0ca00591943d79563e9fd4d85d71fa0ba81a
+translation-type: tm+mt
+source-git-commit: 0386ae88a1b4d9ebda64283d874e01b14e9e5af4
+workflow-type: tm+mt
+source-wordcount: '377'
+ht-degree: 99%
 
 ---
 
@@ -52,7 +55,7 @@ source-git-commit: ac3a0ca00591943d79563e9fd4d85d71fa0ba81a
 
 * **SURBL**
 
-   [https://www.surbl.org/](https://www.surbl.org/) を参照してください。
+   [http://www.surbl.org/](http://www.surbl.org/) を参照してください。
 
    SURBL では、スパムで定期的に見られる Web サイトを特定しています。お使いのドメインがこのリストに載った場合は、配信品質に重大な影響が及ぶおそれがあります。配信品質サービスと Adobe Campaign サポートにただちに知らせる必要があります。
 

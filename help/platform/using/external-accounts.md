@@ -14,11 +14,11 @@ discoiquuid: da60b9ca-4b51-4bff-affc-2b12c576973a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 090ec1f9b30c8548075493757b814a8bb40bea30
-workflow-type: ht
-source-wordcount: '2444'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
+workflow-type: tm+mt
+source-wordcount: '2453'
+ht-degree: 99%
 
 ---
 
@@ -110,7 +110,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 以下のチャネルを設定できます。
 
 * [E メール](../../installation/using/deploying-an-instance.md#email-channel-parameters)
-* [モバイル (SMS)](../../delivery/using/sms-channel.md#activating-an-external-account)。
+* [モバイル (SMS)](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)
 * [電話](../../delivery/using/other-channels.md)
 * [ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)
 * [エージェンシー](../../delivery/using/other-channels.md)
@@ -157,6 +157,7 @@ Adobe Campaign には、外部のアプリケーションとの通信やデー�
 
 次の接続タイプを設定できます。
 
+* Azure Synapse。 詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse)を参照してください。
 * Oracle.詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-oracle)を参照してください。
 * Netezza.詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-netezza)を参照してください。
 * SAP HANA.詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-sap-hana)を参照してください。

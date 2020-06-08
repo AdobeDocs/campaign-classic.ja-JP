@@ -14,15 +14,18 @@ discoiquuid: cf535ff5-f871-4edb-bc05-993cd5b1937b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 85%
 
 ---
 
 
 # マーケティングリソース（MRM）{#marketing-resources-mrm}
 
-以下に説明するワークフローは、デフォルトで&#x200B;**マーケティングリソース（MRM）**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../campaign/using/designing-marketing-campaigns.md)を参照してください。
+The workflows detailed below are installed with the **Marketing resources (MRM)** module by default. このモジュールについて詳しくは、この[節](../../campaign/using/designing-marketing-campaigns.md)を参照してください。
 
 <table> 
  <tbody> 

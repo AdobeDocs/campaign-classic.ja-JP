@@ -14,8 +14,11 @@ discoiquuid: dbe9080c-66e3-4ff6-8f16-959f9748f666
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
+workflow-type: tm+mt
+source-wordcount: '2659'
+ht-degree: 100%
 
 ---
 
@@ -207,7 +210,7 @@ Adobe Campaign と連携するように Microsoft Dynamics コネクタを設定
 
    ![](assets/crm_connectors_msdynamics_02.png)
 
-   収集するテーブルを選択します。
+1. 収集するテーブルを選択します。
 
    ![](assets/crm_connectors_msdynamics_03.png)
 

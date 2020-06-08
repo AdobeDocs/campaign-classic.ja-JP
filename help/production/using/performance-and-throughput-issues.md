@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d80e3d47b06b7a03974d9cfdd465861b3c5bcf81
+source-git-commit: 0386ae88a1b4d9ebda64283d874e01b14e9e5af4
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 9%
@@ -69,7 +69,7 @@ Adobe Campaignは、CPUとRAMの使用状況をチェックする [ツールも�
 * IPの評価： IPの評価が十分でない場合は、パフォーマンスに影響を与えます。 「 **配信品質の監視** 」モジュールでは、プラットフォームの配信品質パフォーマンスを追跡する様々なツールをオファーします。 この[ページ](../../delivery/using/monitoring-deliverability.md)を参照してください。
 * IPウォームアップ： IPウォームアップは配信品質チームによって実行されます。 これには、数週間の間に、新しいIP経由での電子メールの数を徐々に増やすことが関係します。
 * IPアフィニティの設定： 誤ったIPアフィニティの設定により、電子メールが完全に停止する(設定に誤った演算子名やアフィニティ名が含まれる)か、スループットが低下する(アフィニティ内のIPの数が少ない)可能性があります。 この[ページ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
-* 電子メールのサイズ： 電子メールのサイズは、スループットの重要な役割を果たします。 電子メールの最大サイズは60 KBにすることをお勧めします。 この[ページ](https://helpx.adobe.com/legal/product-descriptions/campaign.html)を参照してください。[ [配信スループット](../../reporting/using/delivery-reports.md#delivery-throughput) ]レポートで、時間別に転送されたバイト数をチェックします。
+* 電子メールのサイズ： 電子メールのサイズは、スループットの重要な役割を果たします。 電子メールの最大サイズは60 KBにすることをお勧めします。 この[ページ](https://helpx.adobe.com/legal/product-descriptions/campaign.html)を参照してください。[ [配信スループット](../../reporting/using/global-reports.md#delivery-throughput) ]レポートで、時間別に転送されたバイト数をチェックします。
 * 無効な受信者の数が多い： 無効な受信者の数が多い場合は、スループットに影響を及ぼす可能性があります。 MTAは、無効な受信者への電子メールの送信を再試行し続けます。 データベースのメンテナンスが正しいことを確認してください。
 * パーソナライゼーションの量： 配信が「処理中のパーソナライゼーション」にとどまる場合は、パーソナライゼーションブロックで使用するJavaScriptを確認します。
 

@@ -13,8 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2ca8fb051dce9abfcb8987c4d4527d997b480f96
+translation-type: tm+mt
+source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,7 @@ E メールのデザインを始める前に、配信のデザインと Adobe Ca
 
 配信の設定とパラメーターは、再利用できるように配信テンプレートに保存できます。
 
-詳しくはここをクリックしてください。
+[詳しくはここをクリック](../../delivery/using/about-templates.md)してください。
 
 ## Campaign で E メールを作成するために、既存の HTML を簡単にインポートできますか？{#can-i-easily-import-an-existing-html-to-create-an-email-in-campaign-}
 

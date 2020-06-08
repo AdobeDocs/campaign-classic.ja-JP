@@ -14,8 +14,11 @@ discoiquuid: 345af5c2-c852-4086-8ed0-ff3e7e402e04
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
+translation-type: tm+mt
+source-git-commit: 5847107a459bf47f34e4994c3521266bb174d8cb
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 94%
 
 ---
 
@@ -59,18 +62,18 @@ source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
    >「**サイレントプッシュ**」モードは、iOS 7 以降で利用できます。このモードでは、モバイルアプリケーションに「無音の」通知を送信します。ユーザーは、通知が到着したことを知らされません。通知は、アプリケーションに直接転送されます。
 
 1. 「**[!UICONTROL タイトル]**」フィールドで、通知に表示するタイトルのラベルを入力します。このタイトルは、通知センターから使用可能な通知のリストにのみ表示されます。このフィールドを使用して、iOS 通知ペイロードの **title** パラメーターの値を定義できます。
+
 1. HTTP/2 コネクタを使用する場合、サブタイトル（iOS 通知ペイロードの **subtitle** パラメーター）を追加できます。[Adobe Campaign でモバイルアプリケーションを設定する](../../delivery/using/configuring-the-mobile-application.md)の節を参照してください。
+
 1. 選択した通知のタイプに基づいて「**[!UICONTROL メッセージ]**」と「**[!UICONTROL バッジの値]**」を入力します。
 
    ![](assets/nmac_delivery_ios_5.png)
 
    >[!NOTE]
    >
-   >通知のコンテンツに絵文字を追加することができます。そのためには、絵文字のリストがある Web サイト（[例](https://www.utf8-chartable.de/unicode-utf8-table.pl?start=9728)）で絵文字をコピーし、コンテンツエディターに直接貼り付けます。Windows 7 では、一部の絵文字がエディターで正しく表示されない（四角形で表示される）ことがありますが、最終的な通知では正しく送信されます。絵文字を表示できるかどうかは、デバイスの OS によって異なります。配信を送信する前に、配信が正しく表示されることを示す証拠を送信することをお勧めします。
-
-   >[!NOTE]
-   >
    >「**[!UICONTROL バッジ]**」と「**[!UICONTROL アラートおよびバッジ]**」タイプの通知では、バッジの値（モバイルアプリケーションのロゴの上にある数字）を変更できます。バッジを更新するには、値として 0 を入力します。フィールドが空の場合、バッジの値は変更されません。
+
+1. 顔文字を **[!UICONTROL 挿入アイコンをクリックして]** 、プッシュ通知に顔文字を挿入します。 絵文字のリストをカスタマイズするには、絵文字リストの [カスタマイズを参照してください](../../delivery/using/defining-interactive-content.md)
 
 1. 「**[!UICONTROL アクションボタン]**」を使用すると、アラート通知に表示されるアクションボタンのラベルを定義できます（ペイロードの **action_loc_key** フィールド）。iOS アプリケーションでローカライズ可能文字列を管理する場合は（**Localizable.strings**）、対応するキーをこのフィールドに入力します。アプリケーションでローカライズ可能テキストを管理しない場合は、アクションボタンに表示するラベルを入力します。ローカライズ可能文字列について詳しくは、[Apple のドキュメント](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1)を参照してください。
 1. 「**[!UICONTROL サウンドを再生]**」フィールドで、通知を受信したときにモバイル端末で再生されるサウンドを選択します。
@@ -121,9 +124,7 @@ source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
    ![](assets/nmac_delivery_android_4.png)
 
-   >[!NOTE]
-   >
-   >通知のコンテンツに絵文字を追加することができます。そのためには、絵文字のリストがある Web サイト（[例](https://www.utf8-chartable.de/unicode-utf8-table.pl?start=9728)）で絵文字をコピーし、コンテンツエディターに直接貼り付けます。Windows 7 では、一部の絵文字がエディターで正しく表示されない（四角形で表示される）ことがありますが、最終的な E メールでは正しく送信されます。絵文字を表示できるかどうかは、デバイスの OS によって異なります。配信を送信する前に、配信が正しく表示されることを示す証拠を送信することをお勧めします。
+1. 顔文字を **[!UICONTROL 挿入アイコンをクリックして]** 、プッシュ通知に顔文字を挿入します。 絵文字のリストをカスタマイズするには、絵文字リストの [カスタマイズを参照してください](../../delivery/using/defining-interactive-content.md)
 
 1. 「**[!UICONTROL アプリケーション変数]**」フィールドで、それぞれの変数の値を入力します。アプリケーション変数によって、通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに特定のアプリケーション画面が表示されるように設定できます。
 

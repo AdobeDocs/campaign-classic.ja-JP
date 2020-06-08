@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
+source-git-commit: e059fc9e2bfade30454601f31990c3ec14b8a847
+workflow-type: tm+mt
+source-wordcount: '1247'
+ht-degree: 21%
 
 ---
 
@@ -24,33 +27,33 @@ source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
 
 ## 標準パッケージについて {#campaign-standard-packages}
 
-パッケージとは、ニーズに応じてインストールできる機能のセットです。 インスタンスに追加のオプションを追加できます。
+パッケージは、ニーズに応じてインストールできる機能のセットです。 これらを使用すると、インスタンスにさらにオプションを追加できます。
 
 >[!CAUTION]
 >
->お客様は、お客様のライセンス契約に記載のオプションに対応するパッケージのみをインストールできます。
+>インストールできるパッケージは、ライセンス契約に記載されているオプションに対応するものに限られます。
 >
->パッケージをインストールした後は、アンインストールできません。 新しいパッケージをインストールすると、すべてのプラットフォームに影響を与える可能性があります。最終的な導入の前に、テストおよび検証を行う必要があります。
+>パッケージをインストールした後は、アンインストールできません。 新しいパッケージをインストールすると、すべてのプラットフォームに影響を与える可能性があります。 最終的な導入の前に、テストと検証を行う必要があります。
 
 標準パッケージをインストールするには：
 
-1. パッケージインポートウィザードには、Adobe Campaignク **[!UICONTROL Tools > Advanced > Package import...]** ライアントコンソールからアクセスします。
-1. 選択 **[!UICONTROL Install a standard package]**.
+1. Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／高度なツール／パッケージをインポート...]**&#x200B;からパッケージ読み込みウィザードにアクセスします。
+1. 「**[!UICONTROL 標準パッケージをインストール]**」を選択します。
 1. 表示されるリストで、インストールするパッケージを確認します。
    >[!NOTE]
    >
-   >パッケージが灰色表示になっている場合は、そのパッケージをインストールできません。 これは、が既にインストールされているか、お使いのインスタンスと互換性がないことを意味します。 例えば、マーケティングインスタンスに **ミッドソーシングプラットフォーム** ・パッケージをインストールすることはできません。 この情報は、次の表に記載されています。
-1. をクリック **[!UICONTROL Next]**&#x200B;し、パッケージの **[!UICONTROL Start]** 開始に移動します。
+   >パッケージがグレー表示になっている場合は、そのパッケージをインストールできません。 これは、が既にインストールされているか、お使いのインスタンスと互換性がないことを意味します。 例えば、マーケティングインスタンスに **ミッドソーシングプラットフォーム** パッケージをインストールすることはできません。 この情報は、次の表に示されます。
+1. 「**[!UICONTROL 次へ]**」、「**[!UICONTROL 開始]**」の順にクリックして、パッケージのインストールを開始します。
 
-   パッケージがインストールされると、進行状況バーに **100%と表示** され、インストールログに次のメッセージが表示されます。 **[!UICONTROL Installation of packages successful]**.
+   パッケージがインストールされると、進行状況バーに **100%** と表示され、インストールログに、「**[!UICONTROL パッケージが正常にインストールされました]**」と表示されます。
 
-1. **[!UICONTROL Close]** インストールウィンドウ
+1. インストールウィンドウを&#x200B;**[!UICONTROL 閉じます]**。
 
 これでパッケージがインストールされます。
 
 ### List of out-of-the-box Packages {#list-of-standard-packages}
 
-次の表に、すべての標準パッケージの説明と、それらのパッケージをインストールできるインスタンスタイプ（マーケティング、中間など）を示します。および追加情報。
+次の表に、すべての標準パッケージの説明と、それらのパッケージをインストールできるインスタンスタイプ（マーケティング、中間など）を示します。 および追加情報。
 
 <table> 
  <thead> 
@@ -64,19 +67,19 @@ source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
  <tbody> 
   <tr> 
    <td> 配信<br /> </td> 
-   <td> 配信の送信時に発生したメッセージや最終的な問題を監視します。<br /> </td> 
+   <td> メッセージの送信時に発生する配信と最終的な問題を監視します。<br /> </td> 
    <td> すべて</td> 
-   <td> <a href="../../delivery/using/monitoring-a-delivery.md">さらに詳しく</a></td> 
+   <td> <a href="../../delivery/using/monitoring-a-delivery.md">詳細情報</a>。</td> 
   </tr> 
   <tr> 
    <td> マーケティングキャンペーン (キャンペーン)<br /> </td> 
-   <td> 通信とマーケティングキャンペーンを定義、最適化、実行、分析<br /> </td> 
+   <td> 通信とマーケティングキャンペーンを定義、最適化、実行、分析します。<br /> </td> 
    <td> マーケティング</td> 
    <td> <a href="../../campaign/using/designing-marketing-campaigns.md">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> マーケティングリソース (MRM)<br /> </td> 
-   <td> 共同モードでマーケティングアクションを制御し、タスク、予算、マーケティングリソースの管理と追跡を提供します。<br /> </td> 
+   <td> タスク、予算、マーケティングリソースの管理と追跡を提供することで、共同作業モードでのマーケティングアクションを制御します。<br /> </td> 
    <td> マーケティング</td> 
    <td> <a href="../../campaign/using/about-marketing-resource-management.md">詳細情報</a> </td> 
   </tr> 
@@ -106,52 +109,46 @@ source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
   </tr--> 
   <tr> 
    <td> ソーシャルネットワーク (ソーシャルマーケティング) <br /> </td> 
-   <td> Adobe CampaignをTwitterおよびFacebookと同期します。<br /> </td> 
+   <td> TwitterおよびFacebookとAdobe Campaignを同期します。<br /> </td> 
    <td> すべて</td> 
    <td> <a href="../../social/using/about-social-marketing.md">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> トランザクションメッセージコントロール (Message Center - コントロール)<br /> </td> 
-   <td> 情報システムからトリガーされたイベントから生成されたトリガーメッセージを管理します。<br /> </td> 
+   <td> 情報システムからトリガーされたイベントから生成されるトリガーメッセージを管理します。<br /> </td> 
    <td> マーケティング<br /> </td> 
    <td> オプション、 <a href="../../message-center/using/about-transactional-messaging.md">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> トランザクションメッセージ実行 (Message Center - 実行) <br /> </td> 
-   <td> 可用性の向上と負荷管理の向上を実現<br /> </td> 
+   <td> 高い可用性と優れたロード管理を実現<br /> </td> 
    <td> 実行<br /> </td> 
    <td> オプション、 <a href="../../message-center/using/about-transactional-messaging.md">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> LINE チャネル<br /> </td> 
-   <td> Adobe CampaignでLINE配信を使用してチャネルを送信します。<br /> </td> 
+   <td> LINEチャネルを使用して配信をAdobe Campaignと共に送信し、<br /> </td> 
    <td> すべて<br /> </td> 
    <td> オプション、メッセージセンター必須</td> 
   </tr> 
   <tr> 
    <td> ダイレクトメールチャネル<br /> </td> 
-   <td> Adobe Campaignでダイレクト配信を使用してチャネルを送信します。<br /> </td> 
+   <td> ダイレクトメールチャネルとAdobe Campaignを使用して配信を送信します。<br /> </td> 
    <td> すべて<br /> </td> 
    <td> オプション、 <a href="../../delivery/using/about-direct-mail-channel.md">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> モバイルチャネル (SMS) <br /> </td> 
-   <td> Adobe Campaignでモバイル/SMS配信を使用してチャネルを送信します。<br /> </td> 
+   <td> モバイル/SMSチャネルを使用してAdobe Campaignと配信を送信します。<br /> </td> 
    <td> すべて<br /> </td> 
    <td> オプション、 <a href="../../delivery/using/sms-channel.md">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> 電話チャネル<br /> </td> 
-   <td> 電話配信を使用してAdobe Campaignとチャネルを送信します。<br /> </td> 
+   <td> 電話チャネルを使用してAdobe Campaignを送信します。<br /> </td> 
    <td> すべて<br /> </td> 
    <td> オプション</td> 
-  </tr> 
-  <tr> 
-   <td> FAX チャネル<br /> </td> 
-   <td> Adobe CampaignでFAX配信を使用してチャネルを送信します。<br /> </td> 
-   <td> すべて<br /> </td> 
-   <td> オプション</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> モバイルアプリチャネル<br /> </td> 
    <td> Adobe Campaignプラットフォームを使用して、アプリを介してiOSおよびAndroid端末にパーソナライズされた通知を送信します。 <br /> </td> 
@@ -160,25 +157,25 @@ source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
   </tr> 
   <tr> 
    <td> コンテンツマネージャー<br /> </td> 
-   <td> 定期的なニュースレターまたはWebサイトを作成し、メッセージを検証して公開します。<br /> </td> 
+   <td> 定期的なニュースレターまたはWebサイトを作成し、メッセージを検証して発行します。<br /> </td> 
    <td> </td> 
    <td> <a href="../../delivery/using/about-content-management.md">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> オンライン調査 (調査マネージャー)<br /> </td> 
-   <td> オンラインフォームを作成および管理し、プロファイル情報の追加または変更、購読、登録解除、または競合参加者の入力フォームを行います。<br /> </td> 
+   <td> プロファイル情報の追加や変更、購読、登録解除、または競合相手の入力フォームを行うオンラインフォームを作成および管理します。<br /> </td> 
    <td> マーケティング<br /> </td> 
    <td> オプション、 <a href="../../web/using/about-surveys.md">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> マーケティング分析<br /> </td> 
-   <td> データの分析と測定、統計の計算、レポートの作成と計算の単純化と最適化を行えます。 また、レポートを作成し、ターゲット母集団を作成できます。 <br /> </td> 
+   <td> データの分析と測定、統計の計算、レポートの作成と計算の単純化と最適化を行えます。 また、レポートを作成し、ターゲット数を作成できます。 <br /> </td> 
    <td> マーケティング<br /> </td> 
    <td> オプション、 <a href="../../reporting/using/about-cubes.md">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> Response Manager<br /> </td> 
-   <td> すべてのコミュニケーションキャンペーンのマーケティングオファーの提案または収益性を測定します。<br /> </td> 
+   <td> すべてのコミュニケーションチャネルに対するマーケティングキャンペーンまたはオファーの提案の成功と収益性を測定します。<br /> </td> 
    <td> マーケティング<br /> </td> 
    <td> オプション、 <a href="../../campaign/using/about-response-manager.md">詳細情報</a> </td> 
   </tr> 
@@ -190,7 +187,7 @@ source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
   </tr> 
   <tr> 
    <td> キャンペーンの最適化<br /> </td> 
-   <td> 配信の送信を制御、フィルター、監視し、送信されたメッセージが会社の通信ポリシーに従って、顧客のニーズと期待に最も合うようにします。 <br /> </td> 
+   <td> 配信の送信を制御、フィルター、および監視し、会社の通信ポリシーに従って、送信されるメッセージが顧客のニーズと期待に最も合うようにします。 <br /> </td> 
    <td> マーケティング<br /> </td> 
    <td> オプション、 <a href="../../campaign/using/about-campaign-typologies.md">詳細情報</a> </td> 
   </tr> 
@@ -198,7 +195,7 @@ source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
    <td> 配信品質の監視 (E メールの配信品質)<br /> </td> 
    <td> Measures the success of your campaigns reaching your recipients' inbox without bouncing, or being marked as spam.<br /> </td> 
    <td> すべて </td> 
-   <td> オプション、 <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html">詳細情報</a> </td> 
+   <td> オプション、 <a href="https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> Coupon Management<br /> </td> 
@@ -208,13 +205,13 @@ source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
   </tr> 
   <tr> 
    <td> 受信ボックスレンダリング (IR)<br /> </td> 
-   <td> 様々なコンテキストで送信されたメッセージをプレビューし、受信可能なメッセージを格納し、主要なデスクトップおよびアプリケーションでの互換性を確認できます。 リトマスアカウントが必要です。<br /> </td> 
+   <td> メッセージを受信する様々なコンテキストで送信するプレビューを有効にし、メジャーなデスクトップおよびアプリケーションでの互換性を確認します。 Litmusアカウントが必要です。<br /> </td> 
    <td> マーケティング<br /> </td> 
    <td> オプション、 <a href="../../delivery/using/inbox-rendering.md">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> セントラル / ローカルマーケティング (分散型マーケティング)<br /> </td> 
-   <td> セントラルエンティティ（本社、マーケティング部門など）間の協力キャンペーンを実装ローカルエンティティ（販売地点、地域機関等）<br /> </td> 
+   <td> セントラルエンティティ（本部、販売部など）間の協調キャンペーンを実現 ローカルエンティティ（販売地点、地域機関等）<br /> </td> 
    <td> マーケティング </td> 
    <td> オプション、 <a href="../../campaign/using/about-distributed-marketing.md">詳細情報</a> </td> 
   </tr> 
@@ -226,13 +223,13 @@ source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
   </tr> 
   <tr> 
    <td> Web 分析コネクタ<br /> </td> 
-   <td> Adobe CampaignとAdobe AnalyticsがWeb Analyticsコネクターパッケージを通じてやり取りすることを許可します。<br /> </td> 
+   <td> Adobe CampaignとAdobe AnalyticsがWeb Analyticsコネクターパッケージを使用してやり取りを行うことを許可します。<br /> </td> 
    <td> マーケティング </td> 
-   <td> トランザクションメッセージングとの互換性がな <a href="../../platform/using/adobe-analytics-data-connector.md">い場合の詳細</a> </td> 
+   <td> トランザクションメッセージングと互換性がない場合、 <a href="../../platform/using/adobe-analytics-data-connector.md">詳細</a> </td> 
   </tr> 
   <tr> 
    <td> AEM 統合<br /> </td> 
-   <td> AEMのコンテンツ編集機能とAdobe Campaignの配信機能を活用するために、電子メール配信のコンテンツとフォームをAdobe Experience Managerで直接管理できます。<br /> </td> 
+   <td> 電子メール配信のコンテンツおよびフォームをAdobe Experience Managerで直接管理でき、AEMのコンテンツ編集機能とAdobe Campaignの配信容量を活用できます。<br /> </td> 
    <td> マーケティング</td> 
    <td> <a href="../../integrations/using/about-adobe-experience-manager.md">詳細情報</a> </td> 
   </tr> 
@@ -240,11 +237,11 @@ source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
    <td> Adobe Marketing Cloud との共有オーディエンスの統合<br /> </td> 
    <td> Allows you to exchange and share audiences/segments with Adobe Experience Cloud solutions and core services.<br /> </td> 
    <td> マーケティング<br /> </td> 
-   <td> IMSが必要、詳 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">細情報</a> </td> 
+   <td> IMSが必要、 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> Integration with Adobe Marketing Cloud<br /> </td> 
-   <td> 様々なAdobe Marketing CloudソリューションからAdobe Campaignにオーディエンス/セグメントをインポートおよびエクスポートできます。 </td> 
+   <td> 様々なAdobe Marketing Cloudソリューションからオーディエンス/セグメントをAdobe Campaignにインポートおよびエクスポートできます。 </td> 
    <td> マーケティング</td> 
    <td> オプション、 <a href="../../integrations/using/configuring-ims.md#installing-the-package">詳細情報</a> </td> 
   </tr> 
@@ -252,11 +249,11 @@ source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
    <td> プライバシーデータ保護規則<br /> </td> 
    <td> Campaign Classicのプライバシーコンプライアンスに役立つ追加機能が含まれています。<br /> </td> 
    <td> すべて</td> 
-   <td> <a href="https://helpx.adobe.com/campaign/kb/acc-privacy.html">詳細情報</a> </td> 
+   <td> <a href="https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html">詳細情報</a> </td> 
   </tr> 
   <tr> 
    <td> ミッドソーシング転送 <br /> </td> 
-   <td> ミッドソーシングサーバーのインストールと設定、およびサードパーティがメッセージをミッドソーシングモードで送信できるようにするインスタンスのデプロイについて詳しく説明します。<br /> </td> 
+   <td> ミッドソーシングサーバーのインストールと設定、およびサードパーティがミッドソーシングモードでメッセージを送信できるようにするインスタンスのデプロイメントについて詳しく説明します。<br /> </td> 
    <td> マーケティング </td> 
    <td> オプション、 <a href="../../installation/using/mid-sourcing-server.md">詳細情報</a> </td> 
   </tr> 
@@ -268,7 +265,7 @@ source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
   </tr> 
   <tr> 
    <td> ACS コネクタ<br /> </td> 
-   <td> Adobe Campaign v7とAdobe Campaign Standardを橋渡しします。 Campaign v7 の統合機能で、Campaign Standard にデータを自動的にレプリケートして、両方のアプリケーションの優れた機能を連携させます。<br /> </td> 
+   <td> BridgesAdobe Campaignv7およびAdobe Campaign標準。 Campaign v7 の統合機能で、Campaign Standard にデータを自動的にレプリケートして、両方のアプリケーションの優れた機能を連携させます。<br /> </td> 
    <td> マーケティング </td> 
    <td> オプション、 <a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">詳細情報</a> </td> 
   </tr> 
@@ -277,27 +274,27 @@ source-git-commit: efef031d9c662daac6634ff7cc0d05d9d512443b
 
 ### Message Centerパッケージ {#message-center-package}
 
-配信チャネル(モバイルチャネル、モバイルアプリチャネルなど)を追加するには、Message Centerパッケージをインストールする前に追加する必要があります。 電子メールチャネルでMessage Centerプロジェクトを開始した後、プロジェクトの途中で新しいチャネルを追加する場合は、次の手順に従う必要があります。
+配信チャネル(モバイルチャネル、モバイルアプリチャネルなど)を追加するには、Message Centerパッケージをインストールする前に追加する必要があります。 電子メールチャネルでMessage Centerプロジェクトを開始し、そのプロジェクトの途中で新しいチャネルを追加する場合は、次の手順に従う必要があります。
 
 1. Install the channel you wish, for example the **Mobile channel**, using the package import wizard ( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
-1. ファイル( **[!UICONTROL Tools > Advanced > Import package > File]**)を読み込み、次を選択します。
+1. ファイルを読み込み( **[!UICONTROL ツール/アドバンスト/パッケージの読み込み/ファイル]**)、次を選択します。
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. では、添付され **[!UICONTROL XML data content to import]**&#x200B;たメッセージに対応するMessage Center配信テンプレートのみを保持します。チャネル 例えば、モバイルチャネルを追加した場合 **は**、(smsTriggerMessage **)テンプレートに対応するエンテ** ィティ要素のみ **[!UICONTROL Mobile transactional message]** を保持します。 If you have added the **Mobile App Channel**, keep only the **iOS transactional message** templates (iosTriggerMessage) and **Android transactional message** (androidTriggerMessage).
+1. 読み込む **[!UICONTROL XMLデータコンテンツで]**、添付されたチャネルに対応するMessage Center配信テンプレートのみを保持します。 For example, if you have added the **Mobile channel**, keep only the **entities** element corresponding to the **[!UICONTROL Mobile transactional message]** (smsTriggerMessage) template. If you have added the **Mobile App Channel**, keep only the **iOS transactional message** templates (iosTriggerMessage) and **Android transactional message** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 
 ### LINEパッケージ {#line-package}
 
-Adobe CampaignでLINEチャネルを使用して配信を送信するには、LINEパッケージをインストールする必要があります。
+LINEチャネルとAdobe Campaignを使用して配信を送信するには、LINEパッケージをインストールする必要があります。
 
-LINEパッケージのインストールは、「パッケージのインポート」の節で詳しく説明している [標準的なインストール](../../platform/using/working-with-data-packages.md#importing-packages) です。
+LINEパッケージのインストールは、「パッケージの [インポート](../../platform/using/working-with-data-packages.md#importing-packages) 」の節に詳しく説明している標準的なインストールです。
 
 ![](assets/line_config_1.png)
 
 >[!CAUTION]
 >
->LINEのMessage Center配信テンプレートは、LINEの前にMessage Centerパッケージがインストールされている場合は使用できません。
+>Message CenterパッケージがLINEの前にインストールされている場合、LINEのMessage Center配信テンプレートは使用できません。

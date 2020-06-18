@@ -14,8 +14,11 @@ discoiquuid: a0e76d27-bedd-4f81-b4d2-1221444e670e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
+workflow-type: tm+mt
+source-wordcount: '1044'
+ht-degree: 98%
 
 ---
 
@@ -84,7 +87,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 1. ターゲティングの開始時に適用されるコントロールルール
 1. フィルタールール:
 
-   * デフォルトで適用されるアドレス選定ルール（定義されたアドレス／検証されていないアドレス／ブラックリストに登録されたアドレス／強制隔離されたアドレス／アドレスの質）
+   * 住所資格のネイティブアプリケーションルール： ブロックリスト上の定義済みのアドレス/未確認のアドレス/アドレス/検疫済みのアドレス/アドレスの質。
    * ユーザーによって定義されたフィルタールール
    * アドレスまたは識別子の重複排除ルール（必要に応じて適用）
 

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: de1173786c94c2a526153e7e6948f71c9523fa7b
+source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
 workflow-type: tm+mt
 source-wordcount: '3906'
 ht-degree: 25%
@@ -25,7 +25,7 @@ ht-degree: 25%
 
 # Campaign Classic のオプションのリスト{#configuring-campaign-options}
 
-「 **[!UICONTROL 管理/プラットフォーム/オプション]** 」ノードを使用すると、Adobe Campaignオプションを設定できます。
+「 **[!UICONTROL 管理/Platform/オプション]** 」ノードでは、Adobe Campaignオプションを設定できます。
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ ht-degree: 25%
    <td> 配信メッセージを正規化するための正規表現.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsBroadcast_RemoveBlackList</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsBroadcast_RemoveBlockList</span> <br /> </td> 
    <td> 値に「1」を入力すると、連絡を希望しない受信者を除外できます。<br /> </td> 
   </tr> 
   <tr> 
@@ -177,7 +177,7 @@ ht-degree: 25%
    <td> 暫定的な配信メッセージの重み付けを計算するときに使用する数式.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsInmail_WhitelistEmails</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsInmail_AllowlistEmails</span> <br /> </td> 
    <td> List of authorized forwarding email addresses (from the inbound mail processing module). The addresses have to be separated by commas (or * to allow all). E.g. xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 
@@ -723,7 +723,7 @@ ht-degree: 25%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Experience Cloud Triggersを設定できます。 データタイプは「long text」で、JSON形式である必要があります。 詳しくは、Experience Cloud TriggersをAdobe Campaign <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">クラシックと共に使用する方法を参照してください</a>。<br /> </td> 
+   <td> Experience Cloudトリガーを設定できます。 データタイプは「long text」で、JSON形式である必要があります。 詳し <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">くは、Adobe CampaignクラシックでのExperience Cloudトリガーの使用方法を参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
@@ -743,11 +743,11 @@ ht-degree: 25%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DataSourceId</span> <br /> </td> 
-   <td> Adobeオーディエンスマネージャーとの統合に使用するオプション。<br /> </td> 
+   <td> Adobe Audience Managerとの統合に使用するオプション。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DestinationId</span> <br /> </td> 
-   <td> Adobeオーディエンスマネージャーとの統合に使用するオプション。<br /> </td> 
+   <td> Adobe Audience Managerとの統合に使用するオプション。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_Teradata</span> <br /> </td> 

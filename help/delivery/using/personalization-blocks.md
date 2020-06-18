@@ -14,8 +14,11 @@ discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+workflow-type: tm+mt
+source-wordcount: '966'
+ht-degree: 98%
 
 ---
 
@@ -108,7 +111,7 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
    >ミラーページの生成について詳しくは、[ミラーページの生成](../../delivery/using/sending-messages.md#generating-the-mirror-page)を参照してください。
 
 * **[!UICONTROL ミラーページへのリンク]**：ミラーページへのリンク、「このメッセージが正しく表示されない場合は、ここをクリックしてください」を挿入します。
-* **[!UICONTROL 購読解除リンク]**：すべての配信を購読解除（ブラックリスト登録）できるリンクを挿入します。
+* **[!UICONTROL 購読解除リンク]** : すべての配信(ブロックリスト)の購読を解除できるリンクを挿入します。
 * **[!UICONTROL 固有名詞の書式設定関数]**：Javascript の **[!UICONTROL toSmartCase]** 関数を生成します。この関数は各単語の最初の文字を大文字に変更します。このブロックは配信のソースコードの **`<script>...</script>`** タグの間に挿入する必要があります。
 
    次の例では、関数を使用して、要素「My header」を「My new header」で置き換え、各単語の先頭を大文字に変換しています。

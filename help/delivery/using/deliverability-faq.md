@@ -12,11 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: ht
-source-wordcount: '1338'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56fed9fff445892366d3e0f1367029882077ae20
+workflow-type: tm+mt
+source-wordcount: '1371'
+ht-degree: 84%
 
 ---
 
@@ -50,38 +50,38 @@ MX 設定について詳しくは、[この節](../../installation/using/email-d
 
 問題が解決されない場合は、商用または配信品質サービス、Adobe Campaign クライアントケア、または Adobe Campaign サポートにお問い合わせください。
 
-## ブラックリストへの登録と強制隔離 {#blacklisting-versus-quarantine}
+## ブロックリストと強制隔離 {#block-list-versus-quarantine}
 
-* **ブラックリストに登録された E メールアドレスと強制隔離 E メールアドレスの違いについて教えてください。**
+* **ブロックリスト上の電子メールアドレスと検疫済みの電子メールアドレスの違いは何ですか。**
 
-   * **[!UICONTROL ブラックリスト]**&#x200B;というステータスは、フィードバックループの結果です（人がメッセージをスパムとしてレポートする場合）。
+   * The status **[!UICONTROL On block list]** is a result of a feedback loop (when a person reports a message as spam).
 
    * **[!UICONTROL 強制隔離]**&#x200B;というステータスは、ソフトバウンスまたはハードバウンスの結果です。
-   詳しくは、[この節](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)を参照してください。
+   詳しくは、[この節](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-block-list)を参照してください。
 
 * **様々な強制隔離エラーの原因は何を意味しますか。**
 
-   次の 10 個の原因が考えられます。未定義、不明なユーザー、無効なドメイン、ブラックリストに登録されたアドレス、拒否、無視されたエラー、未到達、無効なアカウント、メールボックス容量超過、未接続。
+   考えられる理由は10つあります。 未定義、ユーザー不明、無効なドメイン、ブロックリスト上のアドレス、拒否、エラー無視、未到達、アカウント無効、メールボックスがいっぱい、未接続
 
    詳しくは、[強制隔離管理の理解](../../delivery/using/understanding-quarantine-management.md)を参照してください。
 
-## ブラックリスト登録解除 {#unblacklisting}
+## ブロックリストからの削除 {#remove-from-block-list}
 
-* **受信者の 1 人が誤ってブラックリストに登録されました。メッセージの送信を再開できるように、ブラックリスト登録を解除するにはどうすればよいですか。**
+* **私の受信者の1つが誤ってブロックリストに追加された。 メッセージを再度送信する際に開始を使用できるように、ブロックリストからメッセージを削除する方法を教えてください。**
 
    * **[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信不能件数およびアドレス]**&#x200B;に移動します。
    * 対応するレコードの詳細で、「**[!UICONTROL ステータス]**」フィールドの値を「**[!UICONTROL 有効]**」にします。
    * レコードを保存します。
 
-* **IP のいずれかがブラックリストに登録されているかどうかを確認するにはどうすればよいですか。IP のブラックリスト登録を解除するにはどうすればよいですか。**
+* **IPの1つがブロックリスト上にあるかどうかを調べるにはどうすればよいですか。 IPをブロックリストから削除する方法を教えてください。**
 
-   IP アドレスがブラックリストに登録されているかどうかを確認するには、以下のような様々な Web サイトを使用して検証できます。
-   * [https://mxtoolbox.com/](https://mxtoolbox.com/)
-   * [https://whatismyipaddress.com/blacklist-check](https://whatismyipaddress.com/blacklist-check)
-   * [https://www.blacklistalert.org/](https://www.blacklistalert.org/)
-   通常、IP アドレスチェックの結果は、ブラックリストの詳細と IP アドレスがブラックリストに登録された Web サイトの名前を含むリストで返されます。
+   IPアドレスがブロックリスト上にあるかどうかを確認するには、次のような様々なWebサイトを使用して確認します。
+   * [MX Toolbox](https://mxtoolbox.com/)
+   * [IPアドレスは何か](https://whatismyipaddress.com)
 
-   対応するリンクをクリックすると、Web サイトの詳細にアクセスできます。次に、IP アドレスがブラックリストに登録された Web サイトのリストから Web サイトを削除するようリクエストできます。
+   通常、IPアドレスの確認の結果、ブロックリストの詳細と、IPアドレスをブロックしたWebサイトの名前を含むリストが返されます。
+
+   対応するリンクをクリックすると、Web サイトの詳細にアクセスできます。その後、IPアドレスをブロックリストに追加したWebサイトのリストからWebサイトを削除するように要求できます。
 
    >[!NOTE]
    >

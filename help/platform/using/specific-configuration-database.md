@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc9ea59a9925930d4a4b260ce73a6bd4b615db5a
+source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
 workflow-type: tm+mt
-source-wordcount: '2959'
-ht-degree: 79%
+source-wordcount: '2967'
+ht-degree: 78%
 
 ---
 
@@ -46,7 +46,7 @@ The [!DNL Azure] external account allows you to connect your Campaign instance t
 
 1. [!DNL Azure Synapse] 外部アカウントを設定するには、次を指定する必要があります。
 
-   * **[!UICONTROL タイプ]**: Azure Synapse Analytics
+   * **[!UICONTROL タイプ]**: アズールシナプスAnalytics
 
    * **[!UICONTROL サーバー]**: Azure SynapseサーバーのURL
 
@@ -123,7 +123,7 @@ CentOSでAzure Synapseを構成するには：
 
 1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法の詳細については、この [節を参照してください](../../platform/using/specific-configuration-database.md#azure-external)。
 
-1. Azure Synapse AnalyticsはTCP 1433ポートを通じて通信するので、ファイアウォール上でこのポートを開く必要があります。 次のコマンドを使用します。
+1. Azure SynapseAnalyticsはTCP 1433ポートを通じて通信するので、ファイアウォールでこのポートを開く必要があります。 次のコマンドを使用します。
 
    ```
    firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="[server_ip_here]/32" port port="1433" protocol="tcp" accept'
@@ -132,7 +132,7 @@ CentOSでAzure Synapseを構成するには：
 
    >[!NOTE]
    >
-   >Azure Synapse Analytics側からの通信を許可するには、パブリックIPをホワイトリストに登録する必要がある場合があります。 その場合は、 [Azureのドキュメントを参照してください](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)。
+   >Azure Synapse Analytics側からの通信を許可するには、パブリックIPを許可リストに追加する必要がある場合があります。 その場合は、 [Azureのドキュメントを参照してください](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)。
 
 1. iptablesの場合は、次のコマンドを実行します。
 
@@ -160,7 +160,7 @@ WindowsでAzure Synapsを構成するには：
 
 1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法の詳細については、この [節を参照してください](../../platform/using/specific-configuration-database.md#azure-external)。
 
-1. Azure Synapse AnalyticsはTCP 1433ポートを通じて通信するので、Windows Defenderファイアウォールでこのポートを開く必要があります。 For more on this, refer to [Windows documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule).
+1. Azure SynapseAnalyticsはTCP 1433ポートを通じて通信するので、Windows Defenderファイアウォールでこのポートを開く必要があります。 For more on this, refer to [Windows documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule).
 
 ### デビアンのAzure Synapse {#azure-debian}
 
@@ -215,7 +215,7 @@ DebianでAzure Synapseを構成するには：
 
 1. In Campaign Classic, you can now configure your [!DNL Azure Synapse] external account. 外部アカウントの設定方法の詳細については、この [節を参照してください](../../platform/using/specific-configuration-database.md#azure-external)。
 
-1. Azure Synapse Analyticsとの接続を確実に行うようにDebianでiptablesを構成するには、次のコマンドを使用して、ホスト名に対して送信TCP 1433ポートを有効にします。
+1. Azure SynapseAnalyticsとの接続を確実に行うようにDebianでiptablesを構成するには、次のコマンドを使用して、ホスト名に対して送信TCP 1433ポートを有効にします。
 
    ```
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
@@ -223,7 +223,7 @@ DebianでAzure Synapseを構成するには：
 
    >[!NOTE]
    >
-   >Azure Synapse Analytics側からの通信を許可するには、パブリックIPをホワイトリストに登録する必要がある場合があります。 その場合は、 [Azureのドキュメントを参照してください](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)。
+   >Azure Synapse Analytics側からの通信を許可するには、パブリックIPを許可リストに追加する必要がある場合があります。 その場合は、 [Azureのドキュメントを参照してください](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)。
 
 ## Snowflake へのアクセスの設定 {#configure-access-to-snowflake}
 

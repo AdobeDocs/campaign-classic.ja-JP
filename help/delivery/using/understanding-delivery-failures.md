@@ -14,11 +14,11 @@ discoiquuid: 78b58a7a-b387-4d5d-80d5-01c06f83d759
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: ht
-source-wordcount: '2485'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9c26ef0b520c6486d86e73cb93612cc7ab9556d0
+workflow-type: tm+mt
+source-wordcount: '2501'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 メッセージの送信後、配信ログによって各プロファイルの配信ステータスと、関連するエラーのタイプおよび理由を確認できます。
 
-アドレスが強制隔離されているか、プロファイルがブラックリストに登録されている場合、配信準備の際にメッセージを除外することもできます。除外されたメッセージのリストは、配信ダッシュボードに表示されます。
+アドレスが隔離された場合やブロックリスト上にプロファイルがある場合は、配信の準備中にメッセージを除外することもできます。 除外されたメッセージのリストは、配信ダッシュボードに表示されます。
 
 **関連トピック：**
 
@@ -86,10 +86,10 @@ ht-degree: 100%
    <td> このアドレスの品質評価が低すぎます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> ブラックリストに登録されたアドレス </td> 
+   <td> ブロックリストの住所 </td> 
    <td> ハード </td> 
    <td> 8 </td> 
-   <td> このアドレスは送信時にブラックリストに登録されていました。このステータスは、データを Adobe Campaign の強制隔離リストにインポートするときに外部リストおよび外部システムからデータをインポートするために使用します。<br /> </td> 
+   <td> 送信時にブロックリストにアドレスが追加されました。 This status is used for importing data from external lists and external systems into the Adobe Campaign Quarantine list.<br /> </td> 
   </tr> 
   <tr> 
    <td> 制御アドレス </td> 
@@ -107,7 +107,7 @@ ht-degree: 100%
    <td> 無視されたエラー </td> 
    <td> 無視 </td> 
    <td> 25 </td> 
-   <td> アドレスはホワイトリストに含まれています。したがってエラーは無視され、E メールは送信されます。<br /> </td> 
+   <td> 住所は許可リスト上にあります。 したがってエラーは無視され、E メールは送信されます。<br /> </td> 
   </tr> 
   <tr> 
    <td> 判別後に除外 </td> 
@@ -207,7 +207,7 @@ ht-degree: 100%
    >
    >バウンスメールボックスの設定については、[この節](../../installation/using/deploying-an-instance.md#managing-bounced-emails)で詳しく説明しています。
 
-   フィードバックループはバウンス E メールのように機能します。ユーザーが E メールをスパムとみなしたら、Adobe Campaign で E メールルールを設定して、このユーザーへのすべての配信をブロックできます。E メールをスパムとみなしたユーザーに送信されたメッセージは、この目的用に特別に作成された E メールボックスに自動的にリダイレクトされます。このようなユーザーのアドレスは、購読解除リンクをクリックしなかった場合でも、ブラックリストに登録されます。アドレスは、（**NmsRecipient**）受信者テーブルではなく、（**NmsAddress**）強制隔離テーブルでブラックリストに登録されます。
+   The [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) operates like bounce emails. ユーザーが E メールをスパムとみなしたら、Adobe Campaign で E メールルールを設定して、このユーザーへのすべての配信をブロックできます。E メールをスパムとみなしたユーザーに送信されたメッセージは、この目的用に特別に作成された E メールボックスに自動的にリダイレクトされます。これらのユーザーのアドレスは、購読解除のリンクをクリックしなかった場合でもブロックリスト上に表示されます。 アドレスは、(**NmsAddress**)強制隔離テーブルのブロックリスト上にあり、(**NmsRecipient**)受信者テーブルにはありません。
 
    >[!NOTE]
    >

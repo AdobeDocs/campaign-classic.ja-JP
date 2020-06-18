@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1909cc8640a32eb709187dab084778f03ef39118
+source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
 workflow-type: tm+mt
-source-wordcount: '3622'
-ht-degree: 6%
+source-wordcount: '3641'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 6%
 >
 >これらの設定は、管理者が実行する必要があります。また、 **オンプレミス** ホスティングモデルに対してのみ実行する必要があります。
 >
->**ホストされたデプロイメントの場合** 、サーバー側の設定はアドビのみが設定できます。 ただし、一部の設定はコントロールパネル内で設定できます（IPホワイトリストやURL権限など）。
+>**ホストされたデプロイメントの場合** 、サーバー側の設定はアドビのみが設定できます。 ただし、コントロールパネル内で設定できる設定(IP許可リストの管理やURLの権限など)もあります。
 
 詳しくは、次の節を参照してください。
 
@@ -215,13 +215,13 @@ Adobe Campaignサーバーにアクセスする可能性が高いプロキシの
 
 この設定は、キャンペーンエクスプローラーで行います。
 
-1. 「 **[!UICONTROL 管理/プラットフォーム/定義済みリスト]** 」ノードをクリックします。
+1. **[!UICONTROL 管理/Platform/定義済みリスト]** ノードをクリックします。
 1. 「 **[!UICONTROL Security zone (securityZone)]** 」システム定義済みリストを選択します。
 
    ![](assets/enum_securityzone.png)
 
 1. サーバーの構成ファイルで定義されているセキュリティゾーンごとに、 **** 追加ボタンをクリックします。
-1. 「 **[!UICONTROL Internal name]** 」フィールドに、 **** serverConf.xmlファイルで定義されているゾーンの名前を入力します。 これは、 **要素の@name**`<securityzone>` 属性に対応します。 内部名にリンクされているラベルを「ラベル」 ****&#x200B;フィールドに入力します。
+1. 「 **[!UICONTROL Internal name]** 」フィールドに、 **** serverConf.xmlファイルで定義されているゾーンの名前を入力します。 これは、 **要素の@name**`<securityzone>` 属性に対応します。 内部名にリンクされたラベルを「ラベル」 ****&#x200B;フィールドに入力します。
 
    ![](assets/enum_addsecurityvalue.png)
 
@@ -358,9 +358,9 @@ URL権限を管理する方法は、ホスティングモデルに応じて異�
 
 3 つの接続保護モードがあります。
 
-* **ブロック**：ホワイトリストに登録されていない URL をすべてブロックし、エラーメッセージを表示します。これは、ポストアップグレード後のデフォルトのモードです。
-* **許可**：ホワイトリストに登録されていない URL をすべて許可します。
-* **警告**：ホワイトリストに登録されていない URL をすべて許可しますが、警告を表示します。管理者はこの警告を収集できます。このモードでは JST-310027 警告メッセージが追加されます。
+* **ブロック**: 許可リストに属していないURLはすべてブロックされ、エラーメッセージが表示されます。 これは、ポストアップグレード後のデフォルトのモードです。
+* **権限設定**: 許可リストに属していないURLはすべて許可されます。
+* **警告**: 許可リストに属さないURLはすべて許可されますが、JSインタプリタは警告を出すので、管理者がそれらを収集できます。 このモードでは JST-310027 警告メッセージが追加されます。
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -372,9 +372,9 @@ URL権限を管理する方法は、ホスティングモデルに応じて異�
 
 >[!IMPORTANT]
 >
->デフォルトでは、新規顧客のクライアントは **ブロッキングモードを使用します**。 新しいURLを許可する必要がある場合は、管理者に連絡してホワイトリストに登録する必要があります。
+>デフォルトでは、新規顧客のクライアントは **ブロッキングモードを使用します**。 新しいURLを許可する必要がある場合は、管理者に問い合わせて許可リストにURLを追加する必要があります。
 >
->Existing customers coming from a migration can use the **warning mode** for a while. 一方、URLを承認する前に、送信トラフィックを分析する必要があります。 認証済みURLのリストが定義されたら、管理者に連絡して、URLをホワイトリストに登録し、 **ブロッキングモードを有効にする必要があります**。
+>Existing customers coming from a migration can use the **warning mode** for a while. 一方、URLを承認する前に、送信トラフィックを分析する必要があります。 認証済みURLのリストが定義されたら、管理者に連絡して、URLを許可リストに追加し、 **ブロッキングモードをアクティブにする必要があります**。
 
 ## 動的なページセキュリティと中継 {#dynamic-page-security-and-relays}
 
@@ -455,7 +455,7 @@ sh
 >
 >このリストは完全なものではありません。
 
-サーバ設定ファイルの **exec** ノードで、前に作成したファイルをblacklistFile **** 属性で参照する必要があります。
+サーバ設定ファイルの **exec** ノードで、blocklistFile **** 属性で、以前に作成したファイルを参照する必要があります。
 
 **Linuxの場合のみ**: サーバー構成ファイルで、セキュリティ構成を強化するために、外部コマンドの実行専用のユーザーを指定するように再コマンドします。 このユーザは、設定ファイルの **exec** ノードで設定されます。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
 
@@ -467,7 +467,7 @@ sh
 
 ```
 <serverConf>
- <exec user="theUnixUser" blacklistFile="/pathtothefile/blacklist"/>
+ <exec user="theUnixUser" blocklistFile="/pathtothefile/blocklist"/>
 </serverConf>
 ```
 
@@ -487,6 +487,7 @@ sh
 
    * **name**: header name
    * **value**: 値の名前。
+
    次に例を示します。
 
    ```
@@ -518,7 +519,7 @@ enableIf **** プロパティはオプションです（デフォルトでは空
 
 パブリックリソースは、パブリックリソースの [管理に表示されます](../../installation/using/deploying-an-instance.md#managing-public-resources)。
 
-これらは、Adobe Campaignインストールディレクトリの **/var/res/instance** ディレクトリに保存されます。
+これらは、Adobe Campaignのインストールディレクトリの **/var/res/instance** ディレクトリに保存されます。
 
 一致するURLは次のとおりです。 **http://server/res/instance** ( **instance** は、トラッキングインスタンスの名前)
 
@@ -594,7 +595,7 @@ Adobe Campaignコンソールからアクセスする場合は、 **ハッシュ
 
 ## アップロード可能ファイルの制限 {#limiting-uploadable-files}
 
-新しい属性 **uploadWhiteList** を使用すると、Adobe Campaignサーバでアップロードできるファイルタイプを制限できます。
+新しい属性 **uploadAllowList** を使用すると、Adobe Campaignサーバでアップロードできるファイルタイプを制限できます。
 
 この属性は、 **serverConf.xml** ファイルの **dataStore** 要素内で使用できます。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
 
@@ -602,7 +603,7 @@ Adobe Campaignコンソールからアクセスする場合は、 **ハッシュ
 
 使用可能な形式を制限するには、有効なJava正規式で属性値を置き換える必要があります。 複数の値をコンマで区切って入力できます。
 
-次に例を示します。 **uploadWhiteList=&quot;.*.png,.*.jpg** 」を指定すると、PNG形式とJPG形式をサーバーにアップロードできます。 その他の形式は使用できません。
+次に例を示します。 **uploadAllowList=&quot;.*.png,.*.jpg** 」を指定すると、PNG形式とJPG形式をサーバーにアップロードできます。 その他の形式は使用できません。
 
 >[!IMPORTANT]
 >

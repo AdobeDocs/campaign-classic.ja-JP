@@ -14,8 +14,11 @@ discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+translation-type: tm+mt
+source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+workflow-type: tm+mt
+source-wordcount: '1675'
+ht-degree: 98%
 
 ---
 
@@ -154,7 +157,7 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
 
       ![](assets/s_ncs_user_wizard_email02j.png)
 
-* **[!UICONTROL 今後連絡を希望しない受信者を除外（ブラックリスト）]**：ブラックリストに記載された E メールアドレスを持つ（オプトアウトした）受信者を除外します。E マーケティングのビジネス倫理を尊重し、E コマースを規制する法律を遵守するために、このオプションは必ずオンにしておいてください。
+* **[!UICONTROL 連絡を取りたくない受信者]** (ブロックリスト上の電子メールアドレスを持つ受信者(「オプトアウト」)など)を除外します。 E マーケティングのビジネス倫理を尊重し、E コマースを規制する法律を遵守するために、このオプションは必ずオンにしておいてください。
 * **[!UICONTROL 強制隔離された受信者を除外]**：プロファイルに入力されているアドレスからの応答がないターゲットを除外します。このオプションは必ずオンにしておくことをお勧めします。
 
    >[!NOTE]

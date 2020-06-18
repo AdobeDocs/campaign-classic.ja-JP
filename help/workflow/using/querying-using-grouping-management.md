@@ -12,8 +12,11 @@ discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
+translation-type: tm+mt
+source-git-commit: f99e3a4f69cb2b0122f2f6957d419d6b95ad54b1
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 100%
 
 ---
 
@@ -57,15 +60,15 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
    このデータのグループ化ウィンドウは、「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」ボックスをオンにした場合にのみ表示されます。
 
-   ![](assets/query_editor_blacklist_04.png)
+   ![](assets/query_editor_blocklist_04.png)
 
 1. 結果で 30 回より多くターゲットとされた E メールドメインのみが返される必要があるので、**[!UICONTROL グループ化条件]**&#x200B;ウィンドウで 30 より大きいプライマリキーカウントを指定します。
 
    このウィンドウは、「**[!UICONTROL グループを管理（GROUP BY + HAVING）]**」ボックスをオンにした場合に表示されます。このボックスでは、グループの結果をフィルターします（HAVING）。
 
-   ![](assets/query_editor_blacklist_05.png)
+   ![](assets/query_editor_blocklist_05.png)
 
 1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、「**[!UICONTROL 次へ]**」をクリックします。ここでは書式設定は必要ありません。
 1. データのプレビューウィンドウで、「**[!UICONTROL データのプレビューを開始]**」をクリックします。ここでは、ターゲットとされた回数が 30 回を超える 3 つの異なる E メールドメインが返されます。
 
-   ![](assets/query_editor_blacklist_06.png)
+   ![](assets/query_editor_blocklist_06.png)

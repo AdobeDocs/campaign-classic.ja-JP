@@ -14,8 +14,11 @@ discoiquuid: b53d9810-f61f-4257-b410-e4d30f78429d
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f8cf2f72dcf2ab48a42faf7931ca831b6431548d
+translation-type: tm+mt
+source-git-commit: ffee73b949a77343eaf23d0fb9a58a4283f4f87a
+workflow-type: tm+mt
+source-wordcount: '1680'
+ht-degree: 100%
 
 ---
 
@@ -185,7 +188,7 @@ Adobe Campaign データベースからデータを追加するには：
 
    `where` 句がフィールドと同じタイプであることを確認します。
 
-   よくあるのは、`iBlacklist='3'` のような間違いです。`iBlacklist` は数値フィールドであるのに、`3` はテキスト値を示しています。
+   よくあるのは、`iBlocklist='3'` のような間違いです。`iBlocklist` は数値フィールドであるのに、`3` はテキスト値を示しています。
 
    各クエリの実行計画がどのようなものになるのか知っている必要があります。リアルタイムクエリや毎分実行されるニアリアルタイムクエリの場合は特に、フルテーブルスキャンを避けます。
 

@@ -14,8 +14,11 @@ discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
+workflow-type: tm+mt
+source-wordcount: '531'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +57,7 @@ Adobe Campaign には、顧客または（例えば、ターゲティング操�
 
 >[!NOTE]
 >
->ネイティブテンプレートの「**[!UICONTROL ブラックリストをインポート]**」は、ブラックリストに登録されている E メールアドレスのリストをインポートするように設定されています。
+>ネイティブテンプレート **[!UICONTROL のインポートブロックリスト]** は、ブロックリストに追加された電子メールアドレスのリストをインポートするように既に設定されています。
 > 
 >「**[!UICONTROL 新しいテキストのインポート]**」および「**[!UICONTROL 新しいテキストのエクスポート]**」テンプレートを使用して、インポートまたはエクスポートをゼロから設定することができます。
 

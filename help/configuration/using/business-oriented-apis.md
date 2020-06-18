@@ -1,7 +1,7 @@
 ---
-title: ビジネス指向API
-seo-title: ビジネス指向API
-description: ビジネス指向API
+title: ビジネス指向 API
+seo-title: ビジネス指向 API
+description: ビジネス指向 API
 seo-description: null
 page-status-flag: never-activated
 uuid: ddb6e5cf-dfe0-4dc9-ac5b-fab21827b874
@@ -15,19 +15,22 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
+source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
+workflow-type: tm+mt
+source-wordcount: '639'
+ht-degree: 4%
 
 ---
 
 
-# ビジネス指向API{#business-oriented-apis}
+# ビジネス指向 API{#business-oriented-apis}
 
-ビジネスAPIは、オブジェクトのタイプごとに異なります。 これらは、次のような効果を持ちます。
+ビジネスAPIは、オブジェクトのタイプごとに異なります。 これらは次のような影響を与えます。
 
 * 配信:
 
-   * 配信アクションの作成につい [ては、SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-)、
-   * キャンペーンの送信（開始、一時停止、停止、証明の送信）、
+   * 配信アクションの作成については、SubmitDelivery(nms: [配信)](#submitdelivery--nms-delivery-)、
+   * キャンペーン(開始、一時停止、停止、送信配達確認)の送信、
    * 配信ログの回復
 
 * ワークフロー:
@@ -38,27 +41,27 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
       JavaScriptでの [SOAPメソッドを参照してください](../../configuration/using/soap-methods-in-javascript.md)。
 
 * コンテンツ管理
-* 購読の管理を参照してくだ [さい。購読(nms:subscription)](#subscribe--nms-subscription-) および [登録解除(nms:subscription)を参照してください](#unsubscribe--nms-subscription-)。
-* データプロセス：インポート、エクスポート。
+* 購読管理については、「 [サブスクライブ(nms:購読)](#subscribe--nms-subscription-) 」および「 [登録解除(nms:購読)」を参照してください](#unsubscribe--nms-subscription-)。
+* データプロセス： インポート、エクスポート。
 
-この節では、「購読」、「購読解除」および「配信」サービスの使用について詳しく説明します。
+この節では、「Subscribe」、「Unsubscribe」および「SubmitDelivery」サービスの使用について詳しく説明します。
 
 >[!IMPORTANT]
 >
->[キャンペーンJSAPIドキュメントには](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) 、SOAP呼び出しとAdobe CampaignでのJavascriptの使用に関する追加情報に加え、アプリケーションで使用されるすべてのメソッドと関数への完全な参照が含まれています。
+>[キャンペーンJSAPIドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) には、SOAP呼び出しとAdobe CampaignでのJavaScriptの使用に関する追加情報に加え、アプリケーションで使用されるすべてのメソッドと関数への完全な参照が含まれています。
 
-## 購読(nms:subscription) {#subscribe--nms-subscription-}
+## 購読(nms:購読) {#subscribe--nms-subscription-}
 
-このサービスを使用すると、受信者を情報サービスに登録し、受信者プロファイルを更新できます。
+このサービスを使用すると、情報サービスへの受信者を登録し、受信者プロファイルを更新できます。
 
 サービスを呼び出すには、次のパラメーターが必要です。
 
 * 認証
 * 購読サービスの内部名、
-* 受信者情報を含むXMLドキュメント（「nms:recipient」スキーマ）、
-* 受信者の作成用のブール値です（まだ存在しない場合）。
+* 受信者ドキュメント(「nms:受信者」スキーマ)を含むXML情報、
+* 受信者作成用のブール値（まだない場合）。
 
-「nms:subscription」スキーマの「subscribe」メソッドの説明：
+「nms:購読」スキーマ内の「subscribe」メソッドの説明：
 
 ```
 <method name="Subscribe" static="true">
@@ -70,19 +73,19 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 </method>
 ```
 
-調整キーの定義は、XMLドキュメントの要素の_**key** 属性を介して入力 `<recipient>` する必要があります。 この属性のコンテンツは、コンマ区切りのXPathリストです。
+紐付けキーの定義は、XMLドキュメントの&#x200B;**要素の_** key `<recipient>` 属性を介して入力する必要があります。 この属性の内容は、コンマ区切りのXPathリストです。
 
 この呼び出しは、エラー以外のデータを返しません。
 
 ### 例 {#examples}
 
-電子メールアドレスの受信者調整キーを持つ購読：入力XMLドキュメントは、電子メールアドレスと、このフィールドのキーの定義を参照する必要があります。
+電子メールアドレスに受信者紐付けキーがある購読: 入力XMLドキュメントは、電子メールアドレスと、このフィールドのキーの定義を参照する必要があります。
 
 ```
 <recipient _key="email" email= "john.doe@adobe.com"/>
 ```
 
-受信者と購読を更新します。
+購読と受信者の更新。
 
 ```
 <recipient _key="email, [folder-id]" email= "john.doe@adobe.com" folder-id="1305" firstName="John" lastName="Doe"/>
@@ -108,7 +111,7 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
    </SOAP-ENV:Envelope>
    ```
 
-* 応答：
+* 応答:
 
    ```
    <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -120,17 +123,17 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
    </SOAP-ENV:Envelope>
    ```
 
-## 登録解除（nms：購読） {#unsubscribe--nms-subscription-}
+## 登録解除(nms:購読) {#unsubscribe--nms-subscription-}
 
-このサービスを使用すると、受信者を情報サービスから登録解除し、受信者プロファイルを更新できます。
+このサービスを使用すると、情報サービスから受信者を登録解除し、受信者プロファイルを更新できます。
 
 サービスを呼び出すには、次のパラメーターが必要です。
 
 * 認証
 * 登録解除するサービスの内部名、
-* 受信者情報を含むXMLドキュメント（「nms:recipient」スキーマ）、
+* 受信者ドキュメント(「nms:受信者」スキーマ)を含むXML情報、
 
-「nms:subscription」スキーマの「Unsubscribe」メソッドの説明：
+「nms:購読」スキーマの「登録解除」メソッドの説明：
 
 ```
 <method name="Unsubscribe" static="true">
@@ -141,13 +144,13 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 </method>
 ```
 
-調整キーの定義は、XMLドキュメントの要素の_key属性を介して入力す `<recipient>` る必要があります。 この属性のコンテンツは、コンマ区切りのXPathリストです。
+紐付けキーの定義は、XMLドキュメントの `<recipient>` 要素の_key属性を介して入力する必要があります。 この属性の内容は、コンマ区切りのXPathリストです。
 
-受信者がデータベースに存在しない場合や、該当する情報サービスに登録されていない場合、サービスは何も実行せず、エラーは生成されません。
+受信者がデータベース内に存在しない場合、または該当する情報サービスに登録されていない場合、サービスは何も行わず、エラーを生成しません。
 
 >[!NOTE]
 >
->サービス名がパラメーターとして指定されていない場合、受信者は自動的にブラックリストに記載されます(@blackList=&quot;1&quot;)。
+>サービス名がパラメーターとして指定されていない場合、受信者は自動的にブロックリスト上に表示されます(@ブロックリスト=&quot;1&quot;)。
 
 この呼び出しは、エラー以外のデータを返しません。
 
@@ -169,7 +172,7 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 </SOAP-ENV:Body>
 ```
 
-応答：
+応答:
 
 ```
 <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -181,7 +184,7 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 </SOAP-ENV:Envelope>
 ```
 
-## SubmitDelivery(nms:delivery) {#submitdelivery--nms-delivery-}
+## SubmitDelivery(nms:配信) {#submitdelivery--nms-delivery-}
 
 このサービスでは、配信アクションを作成して送信できます。
 
@@ -206,13 +209,13 @@ source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
 
 配信テンプレートは、Adobe Campaignクライアントコンソールから作成する必要があります。 すべての配信に共通のパラメーター（送信者のアドレスまたはメッセージの有効期間）が含まれます。
 
-入力XMLドキュメントは、「nms:delivery」スキーマの構造に従う配信テンプレートフラグメントです。 配信テンプレートで静的に定義できなかった追加データ（例えば、ターゲットとする受信者のリスト）がすべて含まれます。
+入力XMLドキュメントは、「nms:配信」スキーマの構造に従う配信テンプレートフラグメントです。 配信テンプレート内で静的に定義できない追加のデータ(例えば、ターゲットに対する受信者のリスト)がすべて含まれます。
 
 この呼び出しは、エラー以外のデータを返しません。
 
 ### XMLドキュメントの例 {#xml-document-example}
 
-この例は、外部データソース（この場合はファイル）のカスタム配信テンプレートに基づいています。 設定は配信テンプレートで完全に説明されているので、呼び出しが発生しても送信されないのは要素からのファイルの内容だけ `<externalsource>` です。
+この例は、外部データソース（この場合はファイル）からのカスタム配信テンプレートに基づいています。 設定は配信テンプレートで完全に説明されているので、呼び出しが発生した場合に残るのは `<externalsource>` 要素からのファイルの内容だけです。
 
 ```
 <delivery>

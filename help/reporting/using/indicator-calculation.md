@@ -14,8 +14,11 @@ discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
+translation-type: tm+mt
+source-git-commit: 5ebea30c743ab416ede879c74735e2c7870d3db9
+workflow-type: tm+mt
+source-wordcount: '3029'
+ht-degree: 98%
 
 ---
 
@@ -564,7 +567,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
   <tr> 
    <td> 苦情数<br /> </td> 
    <td> @complaints<br /> </td> 
-   <td> ステータスが「失敗」に等しく、理由が「ブラックリストに登録されたアドレス」に等しいメッセージの数。<br /> </td> 
+   <td> ステータスが「失敗」で、理由が「ブロックリストに追加されたアドレス」に等しいメッセージの数です。<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=8)<br /> </td> 
   </tr> 
   <tr> 
@@ -766,7 +769,7 @@ source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
   <tr> 
    <td> 除外ルールによって却下されたメッセージ<br /> </td> 
    <td> @reject<br /> </td> 
-   <td> タイポロジルール（アドレスが指定されていない、強制隔離された、ブラックリストに登録されている、など）に従った分析中に無視されたアドレスの数。<br /> </td> 
+   <td> Number of addresses ignored during the analysis in keeping with typology rules: address not specified, quarantined, added to the block list, etc.<br /> </td> 
    <td> sum([properties/@reject])<br /> </td> 
   </tr> 
   <tr> 

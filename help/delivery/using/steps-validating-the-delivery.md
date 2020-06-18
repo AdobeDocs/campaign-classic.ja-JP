@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5b0bcdfca1767aab5c54f06a5af5fb9097d2ec6f
+source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 68%
+source-wordcount: '1817'
+ht-degree: 67%
 
 ---
 
@@ -76,7 +76,6 @@ ht-degree: 68%
    * 青色のアイコンは、情報メッセージを示します。
    * 黄色のアイコンは、重要でない処理エラーを示します。
    * 赤いアイコンは、配信の送信を妨げる重大なエラーを示します。
-
    ![](assets/s_ncs_user_email_del_analyze_error.png)
 
 1. Click **[!UICONTROL Close]** to correct the errors if any.
@@ -143,7 +142,6 @@ The **[!UICONTROL Analysis]** tab of the delivery properties lets you define a s
 >
 >* 使用可能な検証モードについて詳しくは、[承認モードの変更](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode)で説明しています。
 >* 配達確認のターゲットの設定について詳しくは、[特定の配達確認ターゲットの定義](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)を参照してください。
-
 >
 
 
@@ -183,7 +181,7 @@ The **[!UICONTROL Analysis]** tab of the delivery properties lets you define a s
 次のオプションを使用できます。
 
 * 最初のオプションを選択すると、配達確認のコピーを保持できます。
-* 2 番目と 3 番目のオプションを使用すると、ブラックリストに記載されている強制隔離中の受信者とアドレスを保持できます。メインターゲットに対するこれらのオプション指定について詳しくは、[除外設定のカスタマイズ](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings)を参照してください。これらのアドレスは、配信ターゲットの場合はデフォルトで除外されますが、配達確認ターゲットの場合はデフォルトで保持されます。
+* 次の2つのオプションを使用すると、ブロックリスト上の受信者とアドレスを強制隔離で保持できます。 メインターゲットに対するこれらのオプション指定について詳しくは、[除外設定のカスタマイズ](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings)を参照してください。これらのアドレスは、配信ターゲットの場合はデフォルトで除外されますが、配達確認ターゲットの場合はデフォルトで保持されます。
 * 「**[!UICONTROL 配達確認の配信コードを保持]**」オプションを選択すると、配達確認の配信コードが、対応する配信の配信コードと同じ値になります。このコードは、配信ウィザードの最初の手順で指定されます。
 * デフォルトでは、配達確認の件名の前には「配達確認#」が付けられます。ここで、「#」は配達確認の番号です。このプレフィックスは「**[!UICONTROL ラベルのプレフィックス]**」フィールドで変更できます。
 

@@ -14,8 +14,11 @@ discoiquuid: 64d87bea-2376-4684-ac93-6ca56fe0f262
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+translation-type: tm+mt
+source-git-commit: 54cb4143fc534aa436c4b8b28e031e87a2a02e40
+workflow-type: tm+mt
+source-wordcount: '2052'
+ht-degree: 99%
 
 ---
 
@@ -216,15 +219,15 @@ ACS コネクタに関連するすべての技術要素は、エクスプロー�
   </tr> 
   <tr> 
    <td> 今後の連絡は不要 (すべてのチャネル)<br /> </td> 
-   <td> @blackList<br /> </td> 
+   <td> @ブロックリスト<br /> </td> 
   </tr> 
   <tr> 
    <td> 今後の E メールによる連絡は不要<br /> </td> 
-   <td> @blackListEmail<br /> </td> 
+   <td> @blockListEmail<br /> </td> 
   </tr> 
   <tr> 
    <td> 今後の SMS による連絡は不要<br /> </td> 
-   <td> @blackListMobile<br /> </td> 
+   <td> @blockListMobile<br /> </td> 
   </tr> 
   <tr> 
    <td> 電話<br /> </td> 

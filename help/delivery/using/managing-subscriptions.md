@@ -14,8 +14,11 @@ discoiquuid: 9a61fe74-f779-4f23-be25-3d9a8e95704a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+workflow-type: tm+mt
+source-wordcount: '1159'
+ht-degree: 97%
 
 ---
 
@@ -153,7 +156,7 @@ E メールの場合、必須の購読解除リンクが自動的に生成され
 
 法令により、E メール配信には購読解除リンクを含める必要があります。受信者は、このリンクをクリックして自分のプロファイルを更新し、今後の配信のターゲットから除外させることができます。
 
-デフォルトの購読解除リンクは、配信ウィザードに表示されるコンテンツエディターのツールバーにある最後のボタンから挿入されます（[パーソナライゼーションについて](../../delivery/using/about-personalization.md)を参照）。受信者がこのリンクをクリックすると、プロファイルがブラックリストに登録されます（オプトアウト）。つまり、この受信者は、あらゆる配信アクションのターゲットにされなくなります。
+デフォルトの購読解除リンクは、配信ウィザードに表示されるコンテンツエディターのツールバーにある最後のボタンから挿入されます（[パーソナライゼーションについて](../../delivery/using/about-personalization.md)を参照）。受信者がこのリンクをクリックすると、プロファイルがブロックリストに追加（オプトアウト）されます。つまり、どの配信操作でもこの受信者がターゲットにならなくなります。
 
 ただし、受信者は、すべてのサービスを購読解除することなく、1 つのサービスの購読解除を選択できます。この選択を可能にするには、Web フォームを使用するか（[この節](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)を参照）、パーソナライズされた購読解除リンクを挿入します（[パーソナライゼーションブロック](../../delivery/using/personalization-blocks.md)を参照）。
 

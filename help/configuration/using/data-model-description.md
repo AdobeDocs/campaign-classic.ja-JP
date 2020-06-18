@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
+source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
 workflow-type: tm+mt
 source-wordcount: '2380'
 ht-degree: 1%
@@ -55,7 +55,7 @@ Adobe Campaignは、相互にリンクされたテーブルを含むリレーシ
 * iEmailFormat: 電子メールに適した形式（テキストには1、HTMLには2、未定義の場合は0）。
 * 住所1、sAddress2、sAddress3、sAddress4、sZipCode、sCityを使用して、住所を作成します（1997年5月のXPZ 10-011 AFNOR標準に準拠）。
 * sPhone、sMobilePhone、sFaxには、それぞれ電話番号、携帯電話番号、FAX番号が含まれます。
-* iBlackListは、プロファイルに使用されるデフォルトのオプトアウトフラグです（1は「登録解除」、0はそれ以外）。
+* iBlockListは、プロファイルに使用されるデフォルトのオプトアウトフラグです（1は「登録解除」、0はそれ以外）。
 
 iFolderIdフィールドは、受信者を実行フォルダーにリンクする外部キーです。 For more on this, see [XtkFolder](#XtkFolder).
 

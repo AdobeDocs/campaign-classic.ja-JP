@@ -14,8 +14,11 @@ discoiquuid: acab51f3-686b-4d2b-bb02-8fbfae36b1ba
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: ffee73b949a77343eaf23d0fb9a58a4283f4f87a
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 100%
 
 ---
 
@@ -47,8 +50,6 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 1. ワークフローを実行します。この例では、結果は 18 歳から 30 歳、パリに住んでいない受信者から構成され、補集合に送られます。
 
    ![](assets/exclusion_example.png)
-
-ブラックリストのインポート例では、「**除外**」タイプのアクティビティを使用します。このアクティビティについては、[リスト読み込み](../../workflow/using/read-list.md)を参照してください。
 
 ## 入力パラメーター {#input-parameters}
 

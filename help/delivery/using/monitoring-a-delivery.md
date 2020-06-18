@@ -14,11 +14,11 @@ discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fcedad248169f53e716f2bd8b1b141fbf1f4d189
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+workflow-type: tm+mt
 source-wordcount: '2679'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -117,12 +117,12 @@ ht-degree: 100%
 
 「**[!UICONTROL 送信]**」ボタンをクリックした後に、配信が通常より長くかかっているように見えることがあります。これは様々な要素が原因として考えられます。
 
-* 一部の E メールプロバイダーが IP アドレスをブラックリストに登録している可能性があります。この場合は、broadlog を確認して[はじめに](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)を参照してください。
+* 一部の電子メールプロバイダーが、ブロックリストにIPアドレスを追加している可能性があります。 In this case, check your broadlogs and consult [this section](../../delivery/using/about-deliverability.md).
 * 迅速に処理するには配信が大きすぎる可能性があります。これは、JavaScript の高度なパーソナライゼーションで、または配信が 60KB を超えている場合に発生することがあります。コンテンツのガイドラインについて詳しくは、Adobe Campaign の[配信のベストプラクティス](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/deliveryBestPractices.html)を参照してください。
 * Adobe Campaign MTA 内でスロットルが発生している可能性があります。これは次の原因で発生します。
 
    * メッセージ保留中（**[!UICONTROL 割り当てに達しました]**&#x200B;というメッセージ）：Campaign に定義されている宣言的 MX ルールによって宣言された割り当てに達しました。このメッセージについて詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/acc-deliverability-faq.html#FAQ)を参照してください。MX ルールについて詳しくは、[このページ](../../delivery/using/technical-recommendations.md#mx-rules)を参照してください。
-   * メッセージ保留中（**[!UICONTROL 動的フロー制御]**&#x200B;メッセージ）：指定された ISP にメッセージを配信しようとしたときに Campaign MTA でエラーが発生しました。エラーが甚大になることでブラックリストに登録されることのないよう、低速になります。
+   * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential block list.
 
 * システムの問題によってサーバー間のインタラクションが妨げられることがあります。これにより、送信処理全体が低速になります。サーバーにメモリまたはリソースの問題がないことを確認します。これは、例えば、Campaign によるパーソナライゼーションデータの取得処理に影響することがあります。
 
@@ -166,7 +166,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> 無視<br /> </td> 
-   <td> 配信は、アドレスにエラーがあるので受信者に送信されませんでした。ブラックリストへの登録、強制隔離、未指定または重複の可能性があります。 <br /> </td> 
+   <td> 配信は、アドレスにエラーがあるので受信者に送信されませんでした。ブロックリストに追加されたか、隔離されたか、提供されていなかったか、重複です。 <br /> </td> 
   </tr> 
   <tr> 
    <td> 送信済み<br /> </td> 

@@ -14,8 +14,11 @@ discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
+translation-type: tm+mt
+source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 91%
 
 ---
 
@@ -46,7 +49,7 @@ source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
 
 >[!NOTE]
 >
->「**[!UICONTROL 今後の連絡は不要（すべてのチャネル）]**」オプションが選択されている場合は、プロファイルがブラックリストに登録されていることを意味します。つまり、プロファイルは、ニュースレター内の購読解除リンクをクリックするなどして配信を受け取らないことを希望しています。このようなプロファイルは、どのチャネルの配信（E メール、ダイレクトメールなど）のターゲットにもなりません。詳しくは、[このページ](../../delivery/using/understanding-quarantine-management.md)を参照してください。
+>When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on the block list, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). このようなプロファイルは、どのチャネルの配信（E メール、ダイレクトメールなど）のターゲットにもなりません。詳しくは、[このページ](../../delivery/using/understanding-quarantine-management.md)を参照してください。
 
 ## 「連絡先情報」タブ{#contact-information-tab}
 

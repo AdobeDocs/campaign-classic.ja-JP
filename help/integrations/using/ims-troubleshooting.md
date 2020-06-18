@@ -14,8 +14,11 @@ discoiquuid: e31db11a-ad8e-4fd0-bab7-0df1079231c9
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+translation-type: tm+mt
+source-git-commit: 54cb4143fc534aa436c4b8b28e031e87a2a02e40
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 96%
 
 ---
 
@@ -62,7 +65,7 @@ Campaign 外部アカウントで定義されるスコープは、IMS により�
 
 **コールバック URL**
 
-**コールバック URL** はホワイトリストに登録されていて、「https://」で始まる必要があります。**コールバック URL** が対応するインスタンスにリンクされていることを確認します。例えば、本番用インスタンスは本番用 URL にリダイレクトする必要があります。
+コー **ルバックURL** は、「https://」を使用して許可リストと開始に追加する必要があります。 **コールバック URL** が対応するインスタンスにリンクされていることを確認します。例えば、本番用インスタンスは本番用 URL にリダイレクトする必要があります。
 
 **クライアント ID と秘密鍵**
 

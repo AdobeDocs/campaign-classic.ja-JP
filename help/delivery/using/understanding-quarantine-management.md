@@ -14,8 +14,11 @@ discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 527d2dd2296d18c8ca26745b9f87d65c6fdf480a
+translation-type: tm+mt
+source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
+workflow-type: tm+mt
+source-wordcount: '2537'
+ht-degree: 94%
 
 ---
 
@@ -34,21 +37,21 @@ Adobe Campaign では、強制隔離されたアドレスのリストを管理�
 
 E メールアドレスまたは電話番号が強制隔離されているプロファイルは、メッセージ準備の際に自動的に除外されます（[配信用の強制隔離アドレスの識別](#identifying-quarantined-addresses-for-a-delivery)を参照）。これによって配信が迅速になります。エラー率は配信の速度に大きく影響するからです。
 
-一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムとみなします。そのため、強制隔離することで、こうしたプロバイダーによるブラックリストへの登録を回避できます。
+一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムとみなします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
 
 また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。配信を保護および最適化するベストプラクティスについて詳しくは、[このページ](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/deliveryBestPractices.html)を参照してください。
 
-### 強制隔離とブラックリストへの登録 {#quarantine-vs-blacklisting}
+### 強制隔離とブロックリスト {#quarantine-vs-block-list}
 
 **強制隔離**&#x200B;は、プロファイル自体ではなく、アドレスのみに適用されます。つまり、2 つのプロファイルに同じ E メールアドレスがある場合、そのアドレスが強制隔離されると、両方のプロファイルが影響を受けます。
 
 同様に、E メールアドレスが強制隔離されているプロファイルは、プロファイルを更新して新しいアドレスを入力できるので、再び配信アクションのターゲットになる可能性があります。
 
-一方、**ブラックリストへの登録**&#x200B;では、登録されたプロファイルが、購読解除（オプトアウト）後のように、それ以降はどのような配信のターゲットにもならなくなります。
+Being on the **block list**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
 
 >[!NOTE]
 >
->SMS 配信からのオプトアウトのために「STOP」のようなキーワードを使ってユーザーが SMS メッセージに返信しても、そのユーザーのプロファイルは、E メールのオプトアウトプロセスのようにはブラックリストに登録されません。強制隔離されるのはプロファイルの電話番号なので、そのユーザーは引き続き E メールメッセージを受信できます。
+>ユーザがSMS配信からオプトアウトするために「STOP」などのキーワードを持つSMSメッセージに返信した場合、電子メールオプトアウト処理のように、ブロックリストにプロファイルは追加されません。 強制隔離されるのはプロファイルの電話番号なので、そのユーザーは引き続き E メールメッセージを受信できます。
 
 ## 強制隔離アドレスの識別 {#identifying-quarantined-addresses}
 
@@ -103,10 +106,10 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 
 ![](assets/tech_quarant_error_status.png)
 
-ステータスを「**[!UICONTROL ホワイトリストに含まれる]**」に変更すると、エラーが発生した場合でも、このアドレスは毎回システマティックにターゲットになります。
+If you change the status to **[!UICONTROL On allow list]**, the address will be targeted systematically each time even if an error is encountered.
 
 >[!CAUTION]
-ブラックリストに登録されたアドレスは強制隔離システムで扱わないので、このアドレスのステータスを変更してもターゲットにはなりません。
+ブロックリスト上のアドレスは、アドレスのステータスを変更した場合でも、強制隔離システムに関係なく、ターゲット設定されません。
 
 エラー数およびエラーとエラーの間隔も変更できます。そのためには、デプロイウィザードの設定（E メールチャネル／詳細設定）を変更します。デプロイウィザードについて詳しくは、[この節](../../installation/using/deploying-an-instance.md)を参照してください。
 

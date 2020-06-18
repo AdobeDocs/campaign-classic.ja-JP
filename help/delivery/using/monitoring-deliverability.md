@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f4d82657fbeae39af173c867975455669497d8eb
+source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 94%
+source-wordcount: '812'
+ht-degree: 91%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe Campaign が提供する機能を使用して、プラットフォーム�
 * 各配信スループットをチェックして、配信コンテンツの有効期限と整合性が取れていることを確認します（例：「フラッシュセール」は数日ではなく、数分で配信される必要があります）。
 * [ウェーブ](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)を使用する場合、次のものがトリガーされる前に各ウェーブが完了するための十分な時間があることを検証します。
 * エラーの数と新しい[強制隔離](../../delivery/using/understanding-quarantine-management.md)が他の配信と整合性が取れていることをチェックします。
-* Carefully consult the [delivery logs](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (grey or black-listing, DNS issues, anti-spam rules, etc.).
+* Carefully consult the [delivery logs](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history) in detail to check the kind of errors that are highlighted (block lists, DNS issues, anti-spam rules, etc.).
 
 ## Signal Spam {#signal-spam}
 
@@ -70,7 +70,7 @@ Signal Spam は、フランスのサービスで、フランスの ISP（Orange�
 
 ## 250ok {#deliverability-250ok}
 
-[250ok](https://250ok.com/) は、IP、ドメインブラックリスト、評価のインジケーターを提供するアドビの配信品質内部ツールの補完的な監視ソリューションです。
+[250ok](https://250ok.com/) は、IPアドレス、ドメインブロックリスト、評価指標を提供するアドビの配信品質内部ツールの補完的な監視ソリューションです。
 
 提供される情報はリアルタイムで、これにより先を見越した支援が可能です。
 
@@ -94,7 +94,7 @@ Signal Spam は、フランスのサービスで、フランスの ISP（Orange�
 
 * **[!UICONTROL DomainKeys]**：Yahoo が開発したサービスで、E メール送信者の ID を認証するためのものです。
 
-* **[!UICONTROL IP および RBL ドメイン]**（リアルタイムブラックホールリスト）：ブロックリスト組織によって送信レピュテーションが低くフラグ付けされた IP アドレスおよびドメインのリスト。リストは、SpamHaus、SpamCop、SURBL/URIBL などの専門組織によって管理されます。現在、Adobe Campaign は、配信品質に大きな影響を与える RBL に対するチェックを処理します。これらの RBL は送信レピュテーションを反映し、E メールの受信が許可される前に ISP によって参照される可能性があります。
+* **[!UICONTROL IPおよびRBLドメイン]** (リアルタイムブラックホールリスト): ブロックリスト組織が悪い送信評価のためにフラグを付けたIPアドレスとドメインのリスト。 リストは、SpamHaus、SpamCop、SURBL/URIBL などの専門組織によって管理されます。現在、Adobe Campaign は、配信品質に大きな影響を与える RBL に対するチェックを処理します。これらの RBL は送信レピュテーションを反映し、E メールの受信が許可される前に ISP によって参照される可能性があります。
 
 * **[!UICONTROL SNDS]**（Smart Network Data Services）：[Windows Live Hotmail のスパム対策サービス](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx)。このタイプの情報を提供する ISP は Hotmail のみです。ベンチマークスコアは、緑色のフィルター結果、0.1％未満の苦情率、ゼロスパムトラップです。
 

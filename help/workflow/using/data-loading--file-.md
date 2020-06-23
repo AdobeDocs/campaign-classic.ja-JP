@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e3de6f7b21d912efa4f6faca5e57cb480e8f1805
+source-git-commit: 9c9554b83726da7a7dbc747878d7d0758e71a4d7
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 98%
+source-wordcount: '1160'
+ht-degree: 96%
 
 ---
 
@@ -38,6 +38,10 @@ The **[!UICONTROL Data loading (File)]** activity lets you directly access a sou
 ![](assets/s_advuser_wf_etl_file.png)
 
 ファイルのインポート中にプリプロセスを実行するように設定できます。例えば、サーバー上でファイルを解凍せずに（これによりファイルの解凍スペースが節約される）、ファイル処理にファイルの解凍を含めることができます。「**[!UICONTROL ファイルを前処理]**」オプションを選択し、「**[!UICONTROL なし]**」、「**[!UICONTROL 解凍]**（zcat）」または「**[!UICONTROL 復号化]**（gpg）」の 3 つのオプションから選択します。
+
+![](assets/preprocessing-dataloading.png)
+
+この点について詳しくは、次の節を参照してください。 [処理の前にファイルを解凍または復号化します](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing)。
 
 ## ファイルフォーマットの定義 {#defining-the-file-format}
 

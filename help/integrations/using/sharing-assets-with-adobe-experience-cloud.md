@@ -14,8 +14,11 @@ discoiquuid: d10624ea-d961-4162-879b-1754f897d763
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+translation-type: tm+mt
+source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 94%
 
 ---
 
@@ -31,7 +34,7 @@ Experience Cloud Assets は、複数のソリューション間で共有でき�
 
 Adobe Campaign で E メール配信またはランディングページを編集しているときに、Adobe Experience Cloud ライブラリにあるアセットを配置できます。使用しているソリューションに応じて、これらのアセットを Assets コアサービスまたは Adobe Experience Manager Assets に格納できます。
 
-利用可能な各種ライブラリについて詳しくは、[このドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html)を参照してください。
+利用可能な各種ライブラリについて詳しくは、[このドキュメント](https://docs.adobe.com/content/help/en/core-services/interface/assets/experience-cloud-assets.html)を参照してください。
 
 各ライブラリに関連する特性について詳しくは、[Assets へのアクセスの設定](../../integrations/using/configuring-access-to-assets.md)の節を参照してください。
 

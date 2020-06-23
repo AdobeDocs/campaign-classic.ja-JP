@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
+source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
 workflow-type: tm+mt
-source-wordcount: '2453'
+source-wordcount: '2454'
 ht-degree: 99%
 
 ---
@@ -325,7 +325,7 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
 * **[!UICONTROL IMS 組織 ID]**
 
-   IMS 組織の ID。組織 ID を見つけるには、この[ページ](https://marketing.adobe.com/resources/help/ja_JP/mcloud/faq.html)（**IMS 組織 ID はどこにありますか？**）を参照してください。
+   IMS 組織の ID。組織 ID を見つけるには、この[ページ](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/faq.html)（**IMS 組織 ID はどこにありますか？**）を参照してください。
 
 * **[!UICONTROL 関連付けマスク]**
 

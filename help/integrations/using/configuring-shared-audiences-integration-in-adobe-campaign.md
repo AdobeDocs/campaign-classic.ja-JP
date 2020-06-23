@@ -14,8 +14,11 @@ discoiquuid: 4443b0ca-80c6-467d-a4df-50864aae8496
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6ae45cbd87fc0152fc654202e03501fc8d2abd06
+translation-type: tm+mt
+source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +41,7 @@ source-git-commit: 6ae45cbd87fc0152fc654202e03501fc8d2abd06
 
    * **[!UICONTROL importSharedAudience]**：オーディエンスのインポート専用の SFTP アカウント。
    * **[!UICONTROL exportSharedAudience]**：オーディエンスのエクスポート専用の SFTP アカウント。
+
    ![](assets/aam_config_1.png)
 
 1. **[!UICONTROL サーバー]**&#x200B;フィールドに入力：インポート外部アカウントには **ftp-out.demdex.com** ドメインを使用し、エクスポート外部アカウントには **ftp-in.demdex.com** ドメインを使用します。
@@ -76,6 +80,6 @@ Campaign トラッキングサーバーがドメインに登録されている�
 
 ## 手順 4：訪問者 ID サービスの設定 {#step-4--configure-the-visitor-id-service}
 
-訪問者 ID サービスを Web のプロパティや Web サイトで設定したことがない場合は、次の[ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid-setup-aam-analytics.html)を参照してサービスの設定方法を確認するか、次の[ビデオ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)をご覧ください。
+訪問者 ID サービスを Web のプロパティや Web サイトで設定したことがない場合は、次の[ドキュメント](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-aam-analytics.html)を参照してサービスの設定方法を確認するか、次の[ビデオ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)をご覧ください。
 
 設定とプロビジョニングが完了し、統合を使用してオーディエンスまたはセグメントをインポートおよびエクスポートできるようになりました。

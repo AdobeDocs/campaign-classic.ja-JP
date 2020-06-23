@@ -12,8 +12,11 @@ discoiquuid: fe4e6f64-eb0a-44bc-8221-6c9bfb99871f
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5eb82bb5dae589cb18d42695565b25dad36006bd
+translation-type: tm+mt
+source-git-commit: a215109db2d511180c91723059cd8ca10a34a612
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 85%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: 5eb82bb5dae589cb18d42695565b25dad36006bd
 
    「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」オプションでは、集計の最終結果をフィルターする手順が追加されます。例えば、所定の注文タイプについて、10 回以上注文した顧客などをフィルターできます。
 
-1. 必要に応じて、結果ファイルの出力用に、「計算結果」や「処理結果」などの新しい列を追加します。それには、「**[!UICONTROL 追加]**」ボタンをクリックします。
+1. 必要に応じて、結果ファイルの出力用に、「計算結果」や「処理結果」などの新しい列を追加します。それには、「**[!UICONTROL 追加]**」ボタンをクリックします。。
 
    ![](assets/s_advuser_extract_file_add_col.png)
 
@@ -50,6 +53,12 @@ source-git-commit: 5eb82bb5dae589cb18d42695565b25dad36006bd
    リストから目的の式を選択します。
 
    ![](assets/s_advuser_extract_file_agregate_values.png)
+
+データの抽出中に実行する後処理を定義して、ファイルをzipまたは暗号化できます。 これを行うには、アクティビティの「 **[!UICONTROL スクリプト]** 」タブに目的のコマンドを追加する必要があります。
+
+この点について詳しくは、次の節を参照してください。 [ファイルの圧縮または暗号化](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file)。
+
+![](assets/postprocessing_dataextraction.png)
 
 ## 集計関数のリスト {#list-of-aggregate-functions}
 

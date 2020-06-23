@@ -12,9 +12,9 @@ discoiquuid: a910d5fe-cef4-47d8-b3bc-0055ef0d1afd
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e8a9d8d63c01cc19380267fced45e180b4d7ccb4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e6f8eb6f4ffc3ffe9dbc643cf0edeef439c0f969
+workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Adobe Campaign のトランザクションメッセージ機能（Message Center
 
 ## 複数のコントロールインスタンスのサポート {#supporting-several-control-instances}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >複数のコントロールインスタンスでの実行クラスターの共有は、オンプレミス環境でのみサポートされます。
 
@@ -54,7 +54,7 @@ Adobe Campaign のトランザクションメッセージ機能（Message Center
 
 トランザクションメッセージパッケージをインストールする際の注意事項がいくつかあります。本番環境で使用する前に、テスト環境で動作させることをお勧めします。また、互換性のある Adobe Campaign のライセンスが必要です。詳しくは、アドビのアカウント担当者にお問い合わせください。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >コントロールインスタンスおよび実行インスタンスは、異なるマシンにインストールする必要があります。同じ Campaign インスタンスを共有できなくなります。
 
@@ -90,7 +90,7 @@ To use transactional messaging with Interaction, you need to apply the following
 
 * Install the **Interaction** package onto the control instance and configure your offer catalog.
 
-  >[!CAUTION]
+  >[!IMPORTANT]
   >
   >Do not replicate the offers onto the execution instances.
 

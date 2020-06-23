@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
+source-git-commit: b080bdc4d719994c74ec5c094c917e2c40839a49
 workflow-type: tm+mt
-source-wordcount: '2537'
-ht-degree: 94%
+source-wordcount: '2681'
+ht-degree: 88%
 
 ---
 
@@ -92,7 +92,7 @@ Being on the **block list**, on the other hand, will result in the profile no lo
 
 * **[!UICONTROL 配達不能件数とバウンス数]**&#x200B;レポートには、強制隔離中のアドレスや発生したエラーのタイプなどに関する情報が表示され、エラーがドメイン別に分類されます。
 
-プラットフォームのすべての配信について（**ホームページ／レポート**）または特定の配信について、この情報を調べることができます。カスタマイズされたレポートを作成して、表示する情報を選択することもできます。
+プラットフォームのすべての配信について（**[!UICONTROL ホームページ／レポート]**）または特定の配信について、この情報を調べることができます。カスタマイズされたレポートを作成して、表示する情報を選択することもできます。
 
 ### 受信者の強制隔離アドレスの識別 {#identifying-quarantined-addresses-for-a-recipient}
 
@@ -102,16 +102,30 @@ Being on the **block list**, on the other hand, will result in the profile no lo
 
 ### 強制隔離されたアドレスの削除 {#removing-a-quarantined-address}
 
-強制隔離からアドレスを削除する必要がある場合は、アドレスのステータスを手動で「**[!UICONTROL 有効]**」に変更します。
+必要に応じて、強制隔離リストから手動でアドレスを削除できます。 これに加えて、特定の条件に一致するアドレスは、 **[!UICONTROL Database cleanup]** Workflowによって強制隔離リストから自動的に削除されます。
 
-![](assets/tech_quarant_error_status.png)
+強制隔離リストからアドレスを手動で削除するには：
 
-If you change the status to **[!UICONTROL On allow list]**, the address will be targeted systematically each time even if an error is encountered.
+* 「 **[!UICONTROL 管理」>「キャンペーン管理」>「]** 非成果物管理」>「非成果物および住所」ノードから、ステータスを「 **[!UICONTROL 有効]** 」に変更できます。
 
->[!CAUTION]
-ブロックリスト上のアドレスは、アドレスのステータスを変更した場合でも、強制隔離システムに関係なく、ターゲット設定されません。
+   ![](assets/tech_quarant_error_status.png)
 
-エラー数およびエラーとエラーの間隔も変更できます。そのためには、デプロイウィザードの設定（E メールチャネル／詳細設定）を変更します。デプロイウィザードについて詳しくは、[この節](../../installation/using/deploying-an-instance.md)を参照してください。
+* また、ステータスを「 **[!UICONTROL 許可リスト時」に変更することもできます]**。 この場合、アドレスは強制隔離リストに残りますが、エラーが発生した場合でも、体系的にターゲットが定められます。
+
+<!--Addresses on the block list are not concerned by the quarantine system and are not targeted, even if you change the status of the address.-->
+
+次の場合、アドレスは強制隔離リストから自動的に削除されます。
+
+* 「エラー **[!UICONTROL あり]** 」ステータスのアドレスは、配信が正常に完了すると、強制隔離リストから削除されます。
+* 「エラー **[!UICONTROL あり]** 」のステータスにあるアドレスは、最後のソフトバウンスが10日以上前に発生した場合に、強制隔離リストから削除されます。 ソフトエラー管理の詳細については、 [この節を参照してください](#soft-error-management)。
+* [エラー **[!UICONTROL あり]** ]状態のアドレスで、 **** メールボックスのフルエラーでバウンスしたアドレスは、30日後に強制隔離リストから削除されます。
+
+その後、ステータスが **[!UICONTROL 有効に変わります]**。
+
+>[!IMPORTANT]
+アドレスが **[!UICONTROL 強制隔離]** 、 **** またはブロックリスト時のステータスの受信者は、電子メールを受信した場合でも削除されません。
+
+エラーの数と2つのエラーの間隔を変更できます。 To do this, change the corresponding settings in the deployment wizard (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). デプロイウィザードについて詳しくは、[この節](../../installation/using/deploying-an-instance.md)を参照してください。
 
 ## アドレスを強制隔離する条件 {#conditions-for-sending-an-address-to-quarantine}
 
@@ -121,7 +135,7 @@ Adobe Campaign では、エラーメッセージの選定で割り当てられ�
 * **ハードエラー**：対応する E メールアドレスがただちに強制隔離されます。
 * **ソフトエラー**：ただちにアドレスが強制隔離されることはありませんが、エラーカウンターがインクリメントされます。詳しくは、[ソフトエラー管理](#soft-error-management)を参照してください。
 
-ユーザーが E メールをスパム（**フィードバックループ**）と評価した場合、メッセージはアドビが管理するテクニカルメールボックスに自動的にリダイレクトされます。さらに、その E メールアドレスは自動的に強制隔離されます。
+ユーザーが E メールをスパム（[フィードバックループ](../../delivery/using/technical-recommendations.md#feedback-loop)）と評価した場合、メッセージはアドビが管理するテクニカルメールボックスに自動的にリダイレクトされます。さらに、その E メールアドレスは自動的に強制隔離されます。
 
 強制隔離されたアドレスのリストの「**[!UICONTROL エラー理由]**」フィールドには、選択されたアドレスが強制隔離された理由が示されます。Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、E メールアドレスは必ず小文字でインポートしてください。
 

@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e488e1771fe4d07132844900f41f5f4f09fa9438
+source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 100%
+source-wordcount: '783'
+ht-degree: 96%
 
 ---
 
@@ -42,15 +42,15 @@ Adobe Campaign と統合できるアドビのソリューションとコアサ�
 
 環境によっては、Adobe Experience Cloud に複数のソリューションをリンクすることができます。これらは組織としてリンクされます。**組織**&#x200B;とは、管理者がグループとユーザーを設定し、Experience Cloud でのシングルサインオンを制御できるエンティティのことです。組織は、すべての Experience Cloud 製品およびソリューションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
-組織管理と Adobe Experience Cloud アカウントのリンク付けについて詳しくは、[Adobe Experience Cloud ヘルプポータル](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)で説明しています。
+組織管理と Adobe Experience Cloud アカウントのリンク付けについて詳しくは、[Adobe Experience Cloud ヘルプポータル](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)で説明しています。
 
 >[!CAUTION]
 >
->Adobe Campaign を新規にインストールする場合、または既存のインストールを Adobe Experience Cloud に統合する場合、[Experience Cloud ID サービス](https://marketing.adobe.com/resources/help/ja_JP/mcvid/)は有効になっています。このサービスは、Adobe Campaign がトラッキング機能のために最初に使用した永続 Cookie を置き換えます。
+>Adobe Campaign を新規にインストールする場合、または既存のインストールを Adobe Experience Cloud に統合する場合、[Experience Cloud ID サービス](https://docs.adobe.com/content/help/en/id-service/using/home.html)は有効になっています。このサービスは、Adobe Campaign がトラッキング機能のために最初に使用した永続 Cookie を置き換えます。
 >
 >次に、固有の訪問者 ID が受信者に割り当てられ、トラッキングログが生成されます。この ID は **[!UICONTROL nms:trackingLogRcp]** テーブルの「**[!UICONTROL リクエスター UUID (@sourceID)]**」フィールドに保存されます。そのため、訪問者 ID サービスが実装される前に存在していた受信者のトラッキングデータは、これ以降使用することはできません。
 >
->この ID は、他の Adobe Experience Cloud ソリューションに同じ [CNAME](https://marketing.adobe.com/resources/help/ja_JP/mcvid/mcvid_cname.html) で認識されます。
+>この ID は、他の Adobe Experience Cloud ソリューションに同じ [CNAME](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) で認識されます。
 
 ## Experience Cloud との統合 {#experience-cloud-integrations}
 

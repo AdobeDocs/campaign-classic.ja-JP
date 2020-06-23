@@ -5,10 +5,10 @@ solution: Campaign Classic
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: be148d7cd55097b9014d2f4d3b095c65a5ca8c54
+source-git-commit: b247a3702249183e1e0851160fb3ac3809437ff1
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 90%
+source-wordcount: '275'
+ht-degree: 86%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 90%
 ![](platform/using/assets/do-not-localize/banner_acc_doc.jpg)
 
 ## 新着情報
+
+* 「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 [詳細を表示](/help/rn/using/documentation-updates.md)
 
 * **[サポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)**<br/>&#x200B;アクセスに関するFAQ、ベストプラクティス、ヘルプリソース、およびヘルプの要請
 

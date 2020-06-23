@@ -14,8 +14,11 @@ discoiquuid: 5addada8-0185-488f-9825-83f60981c139
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
+translation-type: tm+mt
+source-git-commit: 972dce4b8429bb5b56fdf32b237384155bcc417a
+workflow-type: tm+mt
+source-wordcount: '717'
+ht-degree: 90%
 
 ---
 
@@ -92,12 +95,12 @@ Adobe Campaign エクスプローラーの一般的なレイアウトについ�
 
 請求に関係するのは、**アクティブ**&#x200B;なプロファイルのみです。過去 12 ヶ月以内にいずれかのチャネルでターゲットになるか通信がおこなわれたプロファイルは、アクティブとみなされます。
 
+配信の準備中に（タイポロジルール、強制隔離によって）除外されたプロファイルは、考慮されません。プロファイルは、複数の配信のターゲットになっていても一度しかカウントされません。
+
 >[!NOTE]
 >
 >ただし、Facebook および Twitter チャネルは考慮されません。
 
-**[!UICONTROL アクティブなプロファイルの数]**&#x200B;の概要は、**[!UICONTROL 管理／キャンペーン管理／顧客指標]**&#x200B;メニューから表示できます。
+You can have an overview of the **[!UICONTROL Number of active profiles]** from Campaign Standard **[!UICONTROL Administration > Campaign Management > Customer metrics]** menu. 実際のカウントは、**[!UICONTROL アクティブな請求プロファイルの数]**（**[!UICONTROL billingActiveContactCount]**）[テクニカルワークフロー](../../workflow/using/deliveries.md)がおこないます。このワークフローは毎日実行され、新しいデータを&#x200B;**[!UICONTROL 顧客指標]**&#x200B;メニューの現在の期間に対する既存のレポートに追加します。各期間は 12 ヶ月続きます。
 
-実際のカウントは、**[!UICONTROL アクティブな請求プロファイルの数]**（**[!UICONTROL billingActiveContactCount]**）[テクニカルワークフロー](../../workflow/using/delivery.md)がおこないます。このワークフローは毎日実行され、新しいデータを&#x200B;**[!UICONTROL 顧客指標]**&#x200B;メニューの現在の期間に対する既存のレポートに追加します。各期間は 12 ヶ月続きます。
-
-配信の準備中に（タイポロジルール、強制隔離によって）除外されたプロファイルは、考慮されません。プロファイルは、複数の配信のターゲットになっていても一度しかカウントされません。
+AWSでホストし、ビルド8931のCampaign Classicを使用している場合は、コントロールパネルから直接、インスタンスで使用されるアクティブなプロファイルの数を監視することもできます。 For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).

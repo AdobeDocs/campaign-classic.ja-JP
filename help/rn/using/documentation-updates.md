@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b0980d540992538f7961afd7c218888dee4a39
+source-git-commit: 57263746675152b472aa5df4ce94f97b77a84a6b
 workflow-type: tm+mt
-source-wordcount: '6722'
+source-wordcount: '6740'
 ht-degree: 93%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 93%
 You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
 
 ## June 2020 {#june-2020}
+
+コントロールパネルとキャンペーンワークフローを使用した [データの暗号化](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) / [](../../workflow/using/importing-data.md#use-case-gpg-decrypt) 復号化の方法に関する使用例が追加されました。
 
 「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 これらの用語の一部は、製品UI、オプション名、内部コードにまだ存在する場合がありますが、今後のキャンペーンリリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
 

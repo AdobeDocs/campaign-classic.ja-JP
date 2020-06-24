@@ -5,9 +5,9 @@ solution: Campaign Classic
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: b247a3702249183e1e0851160fb3ac3809437ff1
+source-git-commit: 30b2860250c6d1c4032a22a28f6e2e48dcacc6a8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '266'
 ht-degree: 86%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 ## 新着情報
 
-* 「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 [詳細を表示](/help/rn/using/documentation-updates.md)
+* **[顔文字](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>メッセージと件名に顔文字を挿入できるようになりました。
 
 * **[サポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)**<br/>&#x200B;アクセスに関するFAQ、ベストプラクティス、ヘルプリソース、およびヘルプの要請
 
@@ -50,11 +50,11 @@ Adobe Campaign がプライバシーコンプライアンスの遵守に役立�
     <p>
   </td>
    <td>
-    <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html">
+    <a href="https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html">
       <img alt="ビルドのアップグレード" src="platform/using/assets/upgrade.png" />
     </a>
     <div>
-      <a href="https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html">
+      <a href="https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html">
     <strong>最新ビルドへのアップグレード</strong>
     </a>
     </div>

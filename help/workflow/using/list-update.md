@@ -14,11 +14,11 @@ discoiquuid: ca2cd5bf-78a2-4e43-955d-206f4474d1e0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -75,4 +75,4 @@ ht-degree: 99%
 
 ## 出力パラメーター {#output-parameters}
 
-* groupId: グループ識別子。
+* groupId：グループの ID。

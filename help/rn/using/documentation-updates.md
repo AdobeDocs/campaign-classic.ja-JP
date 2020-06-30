@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57263746675152b472aa5df4ce94f97b77a84a6b
+source-git-commit: 229df9ee7da5ac9c773a7af82aabceb755299cc6
 workflow-type: tm+mt
-source-wordcount: '6740'
+source-wordcount: '6781'
 ht-degree: 99%
 
 ---
@@ -29,9 +29,13 @@ ht-degree: 99%
 
 ## 2020 年 6 月{#june-2020}
 
+[検疫済みのアドレスの削除]セクションが更新されました。 これには、アドレスが強制隔離リストから自動的に削除される場合の明確な説明も含まれます。 [詳細を表示](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+
 コントロールパネルとキャンペーンワークフローを使用した [データの暗号化](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) / [](../../workflow/using/importing-data.md#use-case-gpg-decrypt) 復号化の方法に関する使用例が追加されました。
 
 「ホワイトリスト」と「ブラックリスト」の両方の用語が Adobe Campaign ドキュメントから削除されました。これらの用語は、製品 UI、オプション名、内部コードにまだ存在する場合がありますが、今後の Campaign リリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
+
+Experience CloudトリガーとAdobeCampaign Classic統合ページは、 [ここに移動されました](../../integrations/using/about-triggers.md)。
 
 ## 20.2 - 2020 年 6 月 8 日{#release-20-2}
 
@@ -88,7 +92,7 @@ FAQ を更新し、ソフトキャッシュとハードキャッシュを消去�
 
 Adobe Campaign の組み込みデータモデルに関する節の各テーブルに詳細を追加して更新しました。[詳細を表示](../../configuration/using/data-model-description.md)
 
-ワークフローの使用例が更新され、主題の節に再構成されました。[詳細を表示](../../workflow/using/using-the-local-approval-activity.md)
+ワークフローの使用例が更新され、主題の節に再構成されました。[詳細を表示](../../workflow/using/about-workflow-use-cases.md)
 
 [バウンスメール強制隔離](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)と [E メール管理ルール](../../delivery/using/understanding-delivery-failures.md#email-management-rules)の節の情報を更新して強化しました。
 

@@ -14,11 +14,11 @@ discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be148d7cd55097b9014d2f4d3b095c65a5ca8c54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign は、個人情報を含む膨大な量のデータを収集お�
 
 ## プライバシーの管理 {#privacy-management}
 
-Adobe Campaignオファーは、プライバシー規制（GDPR、CCPAなど）に準拠するのに役立つ一連のツールを提供します。
+Adobe Campaign には、プライバシー規制（GDPR、CCPA など）を遵守するのに役立つ一連のツールが用意されています。
 
 GDPR（EU 一般データ保護規則）は欧州連合（EU）で施行されるプライバシー保護法律で、データ保護要件を現代の状況に合わせて整合化することを目的としています。GDPR は、EU に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。
 
@@ -43,7 +43,7 @@ CCPA（カリフォルニア州消費者プライバシー法）は、カリフ�
 
 特定のプライバシー要求に対応するデータ管理者としての準備を円滑に進められるよう、アドビは、既に提供している同意管理、データ保持設定および権限管理に加え、データ処理者として追加の機能を提供します。
 
-In [this article](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html), you will learn how Adobe Campaign helps you manage the different Privacy key features: Right to Access, Right to be Forgotten, consent, data retention and user roles. また、アドビのソリューションを使用する際のプライバシーコンプライアンスに関するベストプラクティスもご覧いただけます。
+この[記事](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)では、Adobe Campaign がアクセスする権利、忘れられる権利、同意、データ保持、ユーザの役割などの、様々なプライバシーに関する主な機能を管理する方法について説明します。また、アドビのソルーションを利用する際にプライバシーの遵守に役立つベストプラクティスもご覧いただけます。
 
 ## Cookie とトラッキング機能 {#cookies-and-tracking-capabilities}
 

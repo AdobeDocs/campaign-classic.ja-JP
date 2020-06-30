@@ -14,8 +14,11 @@ discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
+translation-type: tm+mt
+source-git-commit: 5d67ab5bbc44b81c65605ae9132cf5a8356aa814
+workflow-type: tm+mt
+source-wordcount: '583'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +43,7 @@ Adobe Campaign について詳しくは、以下の使用例と例を確認し�
 * [二重のオプトインを備えた購読フォームの作成](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in)：受信者が意図的に購読したことを確認するために、購読確認リクエストを送信して二重のオプトインを作成する方法を説明します。
 * [E メール配信の作成](../../web/using/use-case--creating-an-email-delivery.md)：デジタルコンテンツエディターを使用した E メール配信を作成する方法を説明します。
 * [概要の作成](../../web/using/use-cases--creating-overviews.md)：概要タイプの Web アプリケーションを作成して、データベースのすべての Web アプリケーションを表示します。
-* [ワークフローの使用例](../../workflow/using/using-the-local-approval-activity.md)：これらの使用例を通じて、ワークフローの様々な使用方法を示します。
+* [ワークフローの使用例](../../workflow/using/about-workflow-use-cases.md)：これらの使用例を通じて、ワークフローの様々な使用方法を示します。
 
 ## ハウツービデオ {#how-to-videos}
 

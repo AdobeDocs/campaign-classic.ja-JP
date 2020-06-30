@@ -14,11 +14,11 @@ discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b04cf988f144b8bfb846aff83e97c9b3a82e6e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '878'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign は、対話的なマーケティングキャンペーンの構�
 
 >[!NOTE]
 >
->Adobe Campaign Classic には v6.11 と v7 があります。特に明記しない限り、ヘルプ資料は両方のバージョンの最新ビルドに適用されます。スクリーンショットは、Campaign Classicv7のユーザーインターフェイスを反映したものです。
+>Adobe Campaign Classic には v6.11 と v7 があります。特に明記しない限り、ヘルプ資料は両方のバージョンの最新ビルドに適用されます。スクリーンショットは、Campaign Classic v7 のユーザーインターフェイスを反映したものです。
 
 ## 主な機能 {#key-capabilities}
 

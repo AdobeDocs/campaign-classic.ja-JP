@@ -14,18 +14,18 @@ discoiquuid: 43908738-a71a-49be-ac00-175f57a0555c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1486e897a125520c51661db3030c62ab380fb173
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
 # テンプレートのパブリッシュ{#template-publication}
 
-コントロールインスタンスでメッセージテンプレートを作成したら、そのテンプレートをすべての実行インスタンスにパブリッシュすることができます。パブリケーションを使用すると、実行インスタンスに2つのメッセージテンプレートを自動的に作成し、リアルタイムメッセージとバッチイベントにリンクしたメッセージを送信できます。
+コントロールインスタンスでメッセージテンプレートを作成したら、そのテンプレートをすべての実行インスタンスにパブリッシュすることができます。パブリッシュすると、自動的に実行インスタンスで 2 つのメッセージテンプレートが作成され、リアルタイムイベントとバッチイベントにリンクされたメッセージを送信することができるようになります。
 
 >[!IMPORTANT]
 >
@@ -37,11 +37,11 @@ ht-degree: 71%
 
 1. コントロールインスタンス内で、ツリーの **[!UICONTROL Message Center／トランザクションメッセージテンプレート]**&#x200B;フォルダーに移動します。
 1. 実行インスタンスにパブリッシュするテンプレートを選択します。
-1. 「 **[!UICONTROL 公開]**」をクリックします。
+1. 「**[!UICONTROL パブリッシュ]**」をクリックします。
 
    ![](assets/messagecenter_publish_model_008.png)
 
-Once publication is complete, both message templates to be applied to batch and real-time type events are created in the tree of the production instance in the **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]** folder.
+パブリッシュが完了すると、本番インスタンスのツリーの&#x200B;**[!UICONTROL 管理／プロダクション／Message Center　の実行／デフォルト／トランザクションメッセージテンプレート]**&#x200B;フォルダー内に、バッチイベントに適用されるメッセージテンプレートとリアルタイムイベントに適用されるメッセージテンプレートの両方が作成されます。
 
 ![](assets/messagecenter_deployed_model_001.png)
 

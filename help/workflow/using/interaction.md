@@ -14,18 +14,18 @@ discoiquuid: 1683477a-9233-4a25-b0d0-0c81051eb440
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '100'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
 # インタラクション{#interaction}
 
-The workflows detailed below are installed with the **Offer engine (Interaction)** module by default. このモジュールについて詳しくは、この[節](../../interaction/using/interaction-and-offer-management.md)を参照してください。
+以下に説明するワークフローは、デフォルトで&#x200B;**オファーエンジン (インタラクション)** モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../interaction/using/interaction-and-offer-management.md)を参照してください。
 
 <table> 
  <tbody> 

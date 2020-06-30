@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 655544352070b0e2fab72b1991d2e4d80e03e349
+source-git-commit: 3d6c304aaa0b3e6ba1156f1a65e93f5c284b0c0a
 workflow-type: tm+mt
-source-wordcount: '2819'
-ht-degree: 94%
+source-wordcount: '2859'
+ht-degree: 93%
 
 ---
 
@@ -79,7 +79,7 @@ _2019 年 8 月 13 日_
 
 ![](assets/do-not-localize/green_2.png) **2020年6月22日**: 新しいビルド(9032@800be2e)。次の修正が含まれています。
 
-* iOS HTTP2コネクタが強化されました（サードパーティのアップデートおよびエラー管理）。 (NEO-25904、NEO-25903、NEO-25799)
+* iOS HTTP2コネクタが強化されました（サードパーティのアップデートおよびエラー管理）。 （NEO-25904、NEO-25903、NEO-25799）
 
 トラッキングリンクのセキュリティメカニズムに関する修正：
 
@@ -92,6 +92,11 @@ _2019 年 8 月 13 日_
 ![](assets/do-not-localize/orange_2.png) **2020 年 4 月 29 日**：新しいビルド（9032@3a9dc9c）。次の修正が含まれています。
 
 * E メール内のリンクの追跡に関するセキュリティを改善。これは、あらゆる顧客に対してデフォルトで有効です。さらに、強化されたセキュリティ機能が利用できます。この機能はカスタマーケアにご連絡いただくと有効にできます。これを非ホスト型顧客が有効にするための手順と機能の詳細については、[セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
+
+>[!CAUTION]
+>
+>トラッキングリンクを使用したプッシュ通知、またはアンカータグを使用した配信で問題が発生した場合は、リンクをトラッキングするための新しい署名メカニズムを無効にすることをお勧めします。 手順の詳細はこの [ページに示します](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
+
 * LINE 配信に画像が表示されない可能性がある問題を修正しました。（NEO-23207）
 * SFTP キーに基づく認証が Debian 9 で動作しない&#x200B;**ファイル転送**&#x200B;アクティビティの問題を修正しました。（NEO-23183）
 * 高い頻度で送信されたときにプッシュ通知に影響を与える可能性がある問題を修正しました。（NEO-20516）

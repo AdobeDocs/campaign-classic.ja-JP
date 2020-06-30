@@ -12,11 +12,11 @@ discoiquuid: 7b8ab9d6-e47e-46d8-99df-da793486654c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 22d0e70f77eb3759632e05ab1cb0d8ee53adfac9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->パフォーマンスの問題を回避するために、パーソナライズされたURLからその場でダウンロードされた画像を添付ファイルとして含める場合、デフォルトで各画像サイズが100,000バイトを超えないようにする必要があります。 この推奨しきい値は、Campaign Classicオプション [のリストから設定でき](../../installation/using/configuring-campaign-options.md#delivery)ます。
+>パフォーマンスの問題を回避するために、パーソナライズされた URL からその場でダウンロードされた画像を添付ファイルとして含める場合は、デフォルトで各画像サイズが 100,000 バイトを超えないようにする必要があります。この推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
 
 ## 推奨事項 {#important-notes}
 
@@ -60,7 +60,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->パフォーマンスの問題を回避するために、1つの電子メールに複数の添付ファイルを含めないことをお勧めします。 推奨しきい値は、Campaign Classicオプション [のリストから設定でき](../../installation/using/configuring-campaign-options.md#delivery)ます。
+>パフォーマンスの問題を回避するために、1 つの E メールに複数の添付ファイルを含めないことをお勧めします。推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
 
 ## 実装 {#implementation}
 

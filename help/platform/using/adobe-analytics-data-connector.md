@@ -14,11 +14,11 @@ discoiquuid: 5ff1577f-0809-46fd-ac1e-11b24637e35c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1813'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,6 @@ Data コネクタを設定するには、Adobe Campaign インスタンスに接
    * 統合（作成）
    * 統合（更新）
    * 統合（削除）
-
    ![](assets/adobe_genesis_install_002.png)
 
 1. パートナーのリストから、「**[!UICONTROL Adobe Campaign Classic]**」を選択します。
@@ -220,7 +219,6 @@ Adobe Campaign と Adobe Analytics - Data コネクタとの間のデータ交�
    * **[!UICONTROL ユニーククリック数]**（@recipientClick）
    * **[!UICONTROL オプトアウト]**（@optOut）
    * **[!UICONTROL エラー]**（@error）
-
    >[!NOTE]
    >
    >送信されたデータは最後のスナップショットに基づいたデルタであり、指標データの値がマイナスになる可能性があります。
@@ -247,7 +245,7 @@ Adobe Campaign で配信を送信した後、Adobe Experience Cloud でサイト
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. 配信プロパティを開きます。
-1. 「**[!UICONTROL Web 分析]**」タブに移動し、前に作成した外部アカウントを選択します。Refer to [Step 2: Create the external account in Campaign](#step-2--create-the-external-account-in-campaign).
+1. 「**[!UICONTROL Web 分析]**」タブに移動し、前に作成した外部アカウントを選択します。[手順2：Campaign での外部アカウントの作成](#step-2--create-the-external-account-in-campaign)を参照してください。
 
    ![](assets/webanalytics_delivery_properties_002.png)
 

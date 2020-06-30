@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 30b2860250c6d1c4032a22a28f6e2e48dcacc6a8
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 86%
+ht-degree: 95%
 
 ---
 
@@ -21,14 +21,15 @@ ht-degree: 86%
 
 * **[顔文字](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>メッセージと件名に顔文字を挿入できるようになりました。
 
-* **[サポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)**<br/>&#x200B;アクセスに関するFAQ、ベストプラクティス、ヘルプリソース、およびヘルプの要請
+* **[サポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)**<br/> FAQ、ベストプラクティス、ヘルプリソースにアクセスし、サポートをリクエストできます。
 
 * **[プライバシーコンプライアンス](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/>
 Adobe Campaign がプライバシーコンプライアンスの遵守に役立つ理由を説明します。
 
-* **[追跡機能](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html)**<br/>&#x200B;キャンペーンにおける追跡機能とプロセスの理解
+* **[トラッキング機能](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html)**<br/>
+Campaign のトラッキング機能とプロセスについて説明します。
 
-* **[AMP を使用したインタラクティブコンテンツ](delivery/using/defining-interactive-content.md)**<br/>新しい AMP   形式で動的な E メールを送信する方法について説明します。
+* **[AMP を使用したインタラクティブコンテンツ](delivery/using/defining-interactive-content.md)**<br/>新しい AMP 形式で動的な E メールを送信する方法について説明します。
 
 [更新情報についてはここをクリック](/help/rn/using/documentation-updates.md)
 
@@ -87,5 +88,5 @@ Adobe Campaign がプライバシーコンプライアンスの遵守に役立�
 | [互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Campaign の概要](platform/using/about-adobe-campaign-classic.md) | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/acc-implementation.html) |
 | [Gold Standard アップグレード](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
-| [非推奨（廃止予定）の機能 ](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html) | [セキュリティとプライバシーのチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) |
+| [非推奨（廃止予定）の機能 ](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html) | [セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) |
 | [Campaign コントロールパネル](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html) | [ベストプラクティスの監視](https://helpx.adobe.com/jp/campaign/kb/acc-maintenance.html) |

@@ -14,11 +14,11 @@ discoiquuid: 8577db0b-f1fc-41af-aa0f-ec4d02dac376
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0386ae88a1b4d9ebda64283d874e01b14e9e5af4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1067'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign で Facebook のウォールにパブリケーションを送信�
 まず、Facebook アカウントおよび複数のページを作成します。これらはパブリケーションを送信するのに利用します。
 
 * Facebook アカウントを作成するには、[https://www.facebook.com](https://www.facebook.com) リンクを使用します。
-* To create a Facebook page, use the [https://www.facebook.com/pages/create](https://www.facebook.com/pages/create) link.
+* Facebook ページを作成するには、[https://www.facebook.com/pages/create](https://www.facebook.com/pages/create) リンクを使用します。
 
    同じ Facebook アカウントを利用して、すべてのページを管理することを推奨します。こうすることで、アカウントのすべてのページに書き込むのに必要な Facebook アプリケーションおよび外部アカウントがそれぞれ 1 つだけになります。
 
@@ -45,7 +45,7 @@ Adobe Campaign で Facebook のウォールにパブリケーションを送信�
 
 ## テスト用 Facebook ページの作成 {#creating-a-test-facebook-page}
 
-We recommend creating a private Facebook page for delivering publication proofs (for more on this, refer to [Sending the proof](../../social/using/publishing-on-facebook.md#sending-the-proof).
+パブリケーションの配達確認を送信するための非公開 Facebook ページを作成することを推奨します（詳しくは、[配達確認の送信](../../social/using/publishing-on-facebook.md#sending-the-proof)を参照）。
 
 1. ページの管理に使用する Facebook アカウントにログオンします。
 1. 新しい Facebook ページを作成します。

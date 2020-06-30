@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 67%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 67%
 
 1. **配信の分析**：この手順では、配信メッセージを準備できます。[配信の分析](#analyzing-the-delivery)を参照してください。
 
-   分析時に適用されるルールは、 [検証プロセスの「タイポロジ](#validation-process-with-typologies) 」セクションに表示されます。 The available validation modes are detailed in the [Changing the approval mode](#changing-the-approval-mode) section.
+   分析時に適用されるルールについて詳しくは、[タイポロジを使用したプロセスの検証](#validation-process-with-typologies)の節で説明しています。使用可能な検証モードについて詳しくは、[承認モードの変更](#changing-the-approval-mode)の節で説明しています。
 
 1. **配達確認の送信**：この手順では、コンテンツ、URL、パーソナライゼーションフィールドなどを承認できます。[配達確認の送信](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)および[特定の配達確認ターゲットの定義](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)を参照してください。
 
@@ -43,46 +43,46 @@ ht-degree: 67%
 
 分析は、ターゲット母集団が計算され、配信コンテンツが準備される段階です。この段階が完了すると、配信は送信できる状態になります。
 
-### 分析の起動 {#launching-the-analysis}
+### 分析の開始 {#launching-the-analysis}
 
-1. 配信分析を起動するには、「 **[!UICONTROL 送信]**」をクリックします。
+1. 配信分析を開始するには、「**[!UICONTROL 送信]**」をクリックします。
 1. 「**[!UICONTROL 可能な限り早く配信]**」を選択します。
 
    ![](assets/s_ncs_user_email_del_send.png)
 
-1. 「 **[!UICONTROL 分析]** 」をクリックして、分析を手動で起動します。
+1. 「**[!UICONTROL 分析]**」をクリックして、分析を手動で開始します。
 
-   分析の進行状況がプログレスバーに表示され、
+   分析の進捗状況がプログレスバーに表示されます。
 
    ![](assets/s_ncs_user_email_del_analyze_progress.png)
 
    >[!NOTE]
    >
-   >分析時に使用される検証ルールは、「 [検証プロセスとタイポロジ](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies) 」の節で説明されています。
+   >分析時に使用される検証ルールについて詳しくは、[タイポロジを使用したプロセスの検証](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)の節で説明しています。
 
-1. You can stop the analysis at any time by clicking **[!UICONTROL Stop]**.
+1. 分析は、「**[!UICONTROL 停止]**」をクリックしていつでも停止できます。
 
    ![](assets/s_ncs_user_wizard_email01_16.png)
 
-   準備段階では、メッセージは送信されません。 したがって、リスクなしで分析を開始またはキャンセルできます。
+   準備フェーズでは、メッセージが送信されないので、安全に分析を開始またはキャンセルできます。
 
    >[!IMPORTANT]
    >
-   >を実行すると、分析が配信(または配達確認)をフリーズします。 配信(または配達確認)に対する変更は、適用する前に別の分析が続く必要があります。
+   >分析の実行中、配信（または配達確認）は停止します。配信（または配達確認）への変更を適用するには、再度分析する必要があります。
 
 1. 分析が完了するまで待ちます。
 
-   分析が終了すると、ウィンドウの上部に、配信の準備が完了したか、エラーが発生したかが示されます。 すべての検証手順、警告およびエラーが表示されます。 色付きのアイコンは、メッセージの種類を示します。
+   分析が終了すると、ウィンドウの上部に、配信準備が完了した、またはエラーが発生したことを示すメッセージが表示されます。すべての検証手順、警告およびエラーが表示されます。色付きのアイコンは、メッセージタイプを示します。
    * 青色のアイコンは、情報メッセージを示します。
    * 黄色のアイコンは、重要でない処理エラーを示します。
-   * 赤いアイコンは、配信の送信を妨げる重大なエラーを示します。
+   * 赤色のアイコンは、配信の送信を妨げる重大なエラーを示します。
    ![](assets/s_ncs_user_email_del_analyze_error.png)
 
-1. Click **[!UICONTROL Close]** to correct the errors if any.
+1. 「**[!UICONTROL 閉じる]**」をクリックし、該当する場合はエラーを修正します。
 
-1. 変更を行った後、「 **[!UICONTROL 分析]**」をクリックして分析を再起動します。
+1. 変更をおこなった後、「**[!UICONTROL 分析]**」をクリックして分析を再開します。
 
-分析の結果を確認した後、「配信の **[!UICONTROL 確認]** 」をクリックして、指定したターゲットにメッセージを送信できます。 配信の開始を確認するメッセージが表示されます。
+分析の結果を確認した後、「**[!UICONTROL 配信を確定]**」をクリックして、指定したターゲットにメッセージを送信できます。配信の開始を確認するメッセージが表示されます。
 
 ![](assets/s_ncs_user_email_del_analyze_ok.png)
 
@@ -92,31 +92,31 @@ ht-degree: 67%
 
 ### 分析パラメーター {#analysis-parameters}
 
-The **[!UICONTROL Analysis]** tab of the delivery properties lets you define a set of information concerning the preparation of messages during the analysis phase.
+配信プロパティの「**[!UICONTROL 分析]**」タブでは、分析フェーズ中のメッセージの準備に関する情報を定義できます。
 
 ![](assets/s_ncs_user_email_del_analyze_adv_param.png)
 
 このタブで設定できるオプションを次に示します。
 
-* **[!UICONTROL 配信のラベルとコード]** : この節のオプションは、配信分析段階でこれらのフィールドの値を計算するために使用します。 The **[!UICONTROL Compute the execution folder during the delivery analysis]** field computes the name of the folder that will contain this delivery action during the analysis phase.
-* **[!UICONTROL 承認モード]** : このフィールドでは、分析が完了した後に手動または自動で配信を定義できます。 検証モードは、「承認モードの [変更](#changing-the-approval-mode) 」セクションに表示されます。
-* **[!UICONTROL データベース内の配信部分を準備します]** 。 このオプションを使用すると、配信分析のパフォーマンスを向上できます。 詳しくは、[この節](#improving-delivery-analysis)を参照してください。
-* **[!UICONTROL ワークフローを使用してパーソナライゼーションデータを準備します]** 。 このオプションを使用すると、配信に含まれるパーソナライゼーションデータを自動ワークフローで準備でき、パーソナライゼーションの実行パフォーマンスを大幅に向上させることができます。 詳しくは、「パーソナライゼーションの [最適化](../../delivery/using/personalization-fields.md#optimizing-personalization)」を参照してください。
-* **[!UICONTROL プロセス分離の開始ジョブ]** : このオプションを使用すると、配信分析を別のプロセスで開始できます。 分析機能は、デフォルトでは、Adobe Campaign アプリケーションサーバープロセス（web nlserver）を使用します。このオプションを選択すると、アプリケーションサーバーにエラーが発生した場合でも分析を完了できます。
+* **[!UICONTROL 配信のラベルとコード]**：このセクションのオプションは、配信分析フェーズでこれらのフィールドの値を計算するために使用されます。「**[!UICONTROL 配信分析中に実行フォルダーを計算]**」フィールドを選択すると、分析フェーズにこの配信アクションを格納するフォルダーの名前が計算されます。
+* **[!UICONTROL 承認モード]**：このフィールドでは、分析が完了した後に手動または自動で配信を定義できます。検証モードについて詳しくは、[承認モードの変更](#changing-the-approval-mode)の節で説明しています。
+* **[!UICONTROL データベース内で配信部分を準備]**：このオプションを使用すると、配信分析のパフォーマンスを向上できます。詳しくは、[この節](#improving-delivery-analysis)を参照してください。
+* **[!UICONTROL ワークフローを使用してパーソナライゼーションデータを準備]**：このオプションを使用すると、配信に含まれるパーソナライゼーションデータを自動ワークフローで準備でき、パーソナライゼーションの実行パフォーマンスを大幅に向上させることができます。詳しくは、[パーソナライゼーションの最適化](../../delivery/using/personalization-fields.md#optimizing-personalization)を参照してください。
+* **[!UICONTROL 別のプロセスでジョブを開始]**：このオプションを選択すると、別のプロセスで配信分析を開始できます。分析機能は、デフォルトでは、Adobe Campaign アプリケーションサーバープロセス（web nlserver）を使用します。このオプションを選択すると、アプリケーションサーバーにエラーが発生した場合でも分析を完了できます。
 * **[!UICONTROL ログの分析中に生成された SQL クエリを記録]**：分析フェーズ中、配信ログに SQL クエリのログを記録します。
 * **[!UICONTROL 配信時にパーソナライゼーションスクリプトを無視]**：HTML コンテンツに含まれる JavaScript ディレクティブの解釈をスキップします。このオプションを選択すると、配信されるコンテンツ内に、**&lt;%=** タグで始まる JavaScript ディレクティブがそのまま表示されます。
 
 ### 配信分析のパフォーマンスの向上 {#improving-delivery-analysis}
 
-配信の準備を高速化するには、分析を起動する前に、 **[!UICONTROL 「Prepare the database parts in the database]** 」オプションを確認します。
+配信準備にかかる時間を短縮するには、分析を開始する前に「**[!UICONTROL データベース内で配信部分を準備]**」オプションにチェックを入れます。
 
-このオプションを有効にすると、配信の準備がデータベース内で直接行われ、分析が大幅に高速化されます。
+このオプションを有効にすると、配信準備がデータベース内で直接おこなわれ、分析時間が大幅に短縮されます。
 
-現在、このオプションは、次の条件が満たされた場合にのみ使用できます。
-* 配信は電子メールである必要があります。 現時点では、他のチャネルはサポートされていません。
-* ミッドソーシングや外部ルーティングは使用できません。バルク配信ルーティングタイプのみを使用できます。 **[!UICONTROL 配信プロパティの「]** General **[!UICONTROL 」タブで使用するルーティングを確認できます]**。
-* 外部ファイルからの母集団をターゲットすることはできません。 1つの配信の場合、 **[!UICONTROL Emailパラメーターから]** To **[!UICONTROL リンクをクリックし、「]** Database **[!UICONTROL で]** 定義済み」オプションが選択されていることを確認します。 ワークフローで使用される配信の場合、受信者が「 **[!UICONTROL 配信]** 」タブの受信イベントで **** 指定されていることを確認します。
-* PostgreSQLデータベースを使用する必要があります。
+現在、このオプションは、次の条件を満たす場合にのみ使用できます。
+* 配信は E メールである必要があります。現時点では、その他のチャネルはサポートされていません。
+* ミッドソーシングや外部ルーティングは使用できません。一括配信ルーティングタイプのみ使用できます。**[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL 一般]**」タブで、使用するルーティングを確認できます。
+* 外部ファイルからの母集団をターゲットに指定することはできません。単一の配信の場合、**[!UICONTROL E メールパラメーター]**&#x200B;から&#x200B;**[!UICONTROL 宛先]**&#x200B;リンクをクリックし、「**[!UICONTROL データベースで定義]**」オプションが選択されていることを確認します。ワークフローで使用される配信の場合、「**[!UICONTROL 配信]**」タブにおいて受信者が&#x200B;**[!UICONTROL インバウンドイベントで指定]**&#x200B;されていることを確認します。
+* PostgreSQL データベースを使用する必要があります。
 
 ### 分析の優先順位の設定 {#analysis-priority-}
 
@@ -203,7 +203,7 @@ The **[!UICONTROL Analysis]** tab of the delivery properties lets you define a s
 
 このノードから、新しいルールを作成し、新しいタイポロジを定義できます。ただし、これらのタスクは JavaScript の知識があるエキスパートユーザー向けに用意されています。
 
-タイポロジルールについて詳しくは、キャンペーンタイポロジ [についてを参照してください](../../campaign/using/about-campaign-typologies.md)。
+タイポロジルールについて詳しくは、[キャンペーンタイポロジについて](../../campaign/using/about-campaign-typologies.md)を参照してください。
 
 現在のタイポロジを編集するには、「**[!UICONTROL タイポロジ]**」フィールドの右にある&#x200B;**[!UICONTROL リンクを編集]**&#x200B;アイコンをクリックします。
 

@@ -14,11 +14,11 @@ discoiquuid: a4441820-1b3d-4bac-a6e3-1c9c14466d19
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -29,19 +29,19 @@ ht-degree: 68%
 
 1 つのワークフローで複数のサブワークフローを呼び出すことができます。サブワークフローは、同期して実行されます。
 
-以下の例では、「マスター」ワークフローが、ジャンプを使用してサブワークフローを呼び出しています。 ジャンプタイプのグラフィカルオブジェクトの詳細については、 [この節を参照してください](../../workflow/using/jump--start-point-and-end-point-.md)。
+以下の例では、「マスター」ワークフローが、ジャンプを使用してサブワークフローを呼び出しています。ジャンプタイプのグラフィカルオブジェクトについて詳しくは、[この節](../../workflow/using/jump--start-point-and-end-point-.md)を参照してください。
 
 1. 別のワークフローでサブワークフローとして使用するワークフローを作成します。
-1. ワークフローの最初に、優先度が 1 の&#x200B;**[!UICONTROL ジャンプ (終了点)]** アクティビティを挿入します。複数の「エンドポイント」タイプのジャンプがある場合、Adobe Campaignは、最も小さい数値で「エンドポイント」ジャンプを使用します。
-1. ワークフローの最後に、優先度が 2 の&#x200B;**[!UICONTROL ジャンプ (開始点)]** アクティビティを挿入します。複数の「開始ポイント」タイプがジャンプする場合、Adobe Campaignは、最も大きい数値の「開始ポイント」ジャンプを使用します。
+1. ワークフローの最初に、優先度が 1 の&#x200B;**[!UICONTROL ジャンプ (終了点)]** アクティビティを挿入します。「終了点」タイプのジャンプが複数ある場合、Adobe Campaign は一番小さい数の「終了点」ジャンプを使用します。
+1. ワークフローの最後に、優先度が 2 の&#x200B;**[!UICONTROL ジャンプ (開始点)]** アクティビティを挿入します。「開始点」タイプのジャンプが複数ある場合、Adobe Campaign は一番大きい数の「開始点」ジャンプを使用します。
 
    ![](assets/subworkflow_jumps.png)
 
    >[!NOTE]
    >
-   >If the sub-workflow activity references a workflow with several **[!UICONTROL Jump]** activities, the sub-workflow is executed between the &quot;end point&quot; type jump with the lowest number and the &quot;start point&quot; type jump with the highest number.
+   >サブワークフローアクティビティが複数の&#x200B;**[!UICONTROL ジャンプ]**&#x200B;アクティビティを伴うワークフローを参照している場合、サブワークフローは一番小さい数の「終了点」ジャンプと、一番大きい数の「開始点」ジャンプの間に実行されます。
    >
-   >サブワークフローを正しく実行するには、「エンドポイント」タイプが最も小さい番号で1つだけジャンプし、「開始ポイント」タイプが最も大きい番号で1つだけジャンプする必要があります。
+   >サブワークフローが正常に動作するよう、一番小さい数の「終了点」ジャンプを 1 つのみ、一番大きい数の「開始点」ジャンプを 1 つのみにする必要があります。
 
 1. この「サブワークフロー」を完了して保存します。
 1. 「マスター」ワークフローを作成します。
@@ -80,4 +80,4 @@ ht-degree: 68%
 
 この 3 つの値セットは、クエリのターゲットとなる母集団を識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
 
-* targetSchema: この値は、作業テーブルのスキーマです。 このパラメーターは、**[!UICONTROL tableName]** と **[!UICONTROL schema]** のすべてのトランジションで有効です。
+* targetSchema：この値は、作業用テーブルのスキーマです。このパラメーターは、**[!UICONTROL tableName]** と **[!UICONTROL schema]** のすべてのトランジションで有効です。

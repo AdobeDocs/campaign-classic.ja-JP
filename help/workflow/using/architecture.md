@@ -12,10 +12,10 @@ discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: ht
-source-wordcount: '154'
+translation-type: tm+mt
+source-git-commit: 3a932bc440853151704f1ba1e188fa0af9d4c5cb
+workflow-type: tm+mt
+source-wordcount: '116'
 ht-degree: 100%
 
 ---
@@ -30,4 +30,3 @@ ht-degree: 100%
 * 「ワークフローインスタンスランナー」（runwf）プロセスは、所定のワークフローインスタンスのすべてのタスクを実行します。一定期間、実行されるタスクがない場合、プロセスは「passive」になります。つまり、データベース内でステータスを保存し、停止します。
 * 「ワークフローサーバー」（wfserver）モジュールは、現在のワークフローインスタンスを監視します。実行するタスクがある場合、このモジュールは対応するインスタンスを有効化（または再有効化）するプロセスを作成します。
 
-オペレーターがワークフローに対するアクションを実行すると（開始、停止、一時停止など）、アクションは nlserver モジュールによって即座に実行されるのではなく、ワークフローモジュールに処理されるまでキューに入れられます。

@@ -14,11 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e31a0faf6c48e2d34ce47fc1cd5a23aae05aeebf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3084'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 
 ![](assets/campaign_op_add_delivery.png)
 
-推奨設定は、様々なタイプの配信に適しています。 ダイレクトメール、電子メール、モバイルチャネル。
+各種の配信（ダイレクトメール、E メール、モバイルチャネル）に適した設定が提示されます。
 
 >[!NOTE]
 >

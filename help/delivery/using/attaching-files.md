@@ -14,11 +14,11 @@ discoiquuid: f3666c12-5e6f-452e-b1d6-b69a7e9f6f6e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b60b5fad24c1237981f66315e7cf585c79f82641
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1056'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 
 >[!NOTE]
 >
->パフォーマンスの問題を回避するために、1つの電子メールに複数の添付ファイルを含めないことをお勧めします。 推奨しきい値は、Campaign Classicオプション [のリストから設定でき](../../installation/using/configuring-campaign-options.md#delivery)ます。
+>パフォーマンスの問題を回避するために、1 つの E メールに複数の添付ファイルを含めないことをお勧めします。推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
 
 次の 2 つの場合が考えられます。
 
@@ -52,7 +52,7 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 
 1. 「**[!UICONTROL 添付ファイル]**」リンクをクリックします。
 1. 「**[!UICONTROL 追加]**」ボタンをクリックします。
-1. [ **[!UICONTROL ファイル…]** ]をクリックして、配信に添付するファイルを選択します。
+1. 「**[!UICONTROL ファイル…]**」をクリックして、配信に添付するファイルを選択します。
 
    ![](assets/s_ncs_user_wizard_email_attachement.png)
 
@@ -102,7 +102,7 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 
 ### パーソナライズ済みメッセージの添付 {#attach-a-personalized-message}
 
-The option **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** lets you select a file with personalization fields, such as the last name and first name of the intended recipient.
+「**[!UICONTROL 各メッセージの配信時に、ファイルコンテンツをパーソナライズして PDF 形式に変換します]**」オプションを使用すると、パーソナライゼーションフィールドでファイルを選択できます（対象の受信者の姓と名など）。
 
 ![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 
@@ -128,7 +128,7 @@ The option **[!UICONTROL The file content is personalized and converted into PDF
 
 >[!NOTE]
 >
->パフォーマンスの問題を回避するために、パーソナライズされたURLからその場でダウンロードされた画像を添付ファイルとして含める場合、デフォルトで各画像サイズが100,000バイトを超えないようにする必要があります。 この推奨しきい値は、Campaign Classicオプション [のリストから設定でき](../../installation/using/configuring-campaign-options.md#delivery)ます。
+>パフォーマンスの問題を回避するために、パーソナライズされた URL からその場でダウンロードされた画像を添付ファイルとして含める場合は、デフォルトで各画像サイズが 100,000 バイトを超えないようにする必要があります。この推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
 
 ### 計算済みファイルの添付 {#attach-a-calculated-file}
 

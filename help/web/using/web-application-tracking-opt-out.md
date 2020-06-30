@@ -14,11 +14,11 @@ discoiquuid: 8f413002-bd32-426f-88b9-44cefae68593
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a62e4d072573f7ed1b77f755eb57838c70745592
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign では、Cookie または Web ビーコンによる行動のト�
 
 >[!NOTE]
 >
->スクリプティングを行う場合は、 [セキュリティとプライバシーのチェックリストに記載されているガイドラインに従ってください](https://helpx.adobe.com/campaign/kb/acc-security.html#dev)。
+>スクリプトを実行する場合は、[セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)に記載されているガイドラインに従ってください。
 
 ## バナーの設定 {#configuring-the-banner-}
 

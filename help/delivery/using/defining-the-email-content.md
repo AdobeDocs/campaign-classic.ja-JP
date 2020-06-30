@@ -12,11 +12,11 @@ discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b60b5fad24c1237981f66315e7cf585c79f82641
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3022'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 95%
 >
 >パーソナライゼーションフィールドの使用方法については、[パーソナライゼーションについて](../../delivery/using/about-personalization.md)を参照してください。
 
-[ **[!UICONTROL 絵文字の挿入]** ]ポップアップウィンドウを使用して、件名に絵文字を挿入することもできます。
+**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウを使用して、件名行に顔文字を挿入することもできます。
 
 ## メッセージの内容 {#message-content}
 
@@ -117,18 +117,18 @@ ht-degree: 95%
 
    ![](assets/s_ncs_user_wizard_email01_142.png)
 
-### 電子メールへの顔文字の挿入 {#inserting-emoticons}
+### E メールへの顔文字の挿入 {#inserting-emoticons}
 
-電子メールコンテンツに顔文字を挿入できます。
+E メールコンテンツに顔文字を挿入できます。
 
-1. [ **[!UICONTROL 挿入絵文字]** ]アイコンをクリックします。
+1. **[!UICONTROL 顔文字を挿入]**&#x200B;アイコンをクリックします。
 1. ポップアップウィンドウから顔文字を選択します。
 
    ![](assets/emoticon_4.png)
 
-1. 終了したら、 **[!UICONTROL 閉じる]** ボタンをクリックします。
+1. 挿入が完了したら、「**[!UICONTROL 閉じる]**」ボタンをクリックします。
 
-絵文字のリストをカスタマイズするには、この [ページを参照してください](../../delivery/using/customizing-emoticon-list.md)。
+顔文字のリストをカスタマイズするには、この[ページ](../../delivery/using/customizing-emoticon-list.md)を参照してください。
 
 ## メッセージ形式の選択 {#selecting-message-formats}
 
@@ -199,17 +199,17 @@ HTML 形式の E メール配信には、画像を含めることができます
 >
 >受け取ったメッセージ内の画像を受信者が表示できるようにするには、メッセージが、外部からアクセス可能なサーバー上に置かれている必要があります。
 
-配信ウィザードを使用して画像を管理するには：
+配信ウィザードを使用して画像を管理するには、以下を実行します。
 
-1. ツールバーの「 **[!UICONTROL 追跡と画像]** 」アイコンをクリックします。
+1. ツールバーの&#x200B;**[!UICONTROL トラッキング＆画像]**アイコンをクリックします。
    ![](assets/s_ncs_user_email_del_img_param.png)
 
 1. 「**[!UICONTROL 画像]**」タブの「**[!UICONTROL 画像をアップロード]**」を選択します。
 1. その画像を E メールメッセージに含めるかどうかを選択できます。
    ![](assets/s_ncs_user_email_del_img_upload.png)
 
-* 配信分析フェーズを待つことなく、手動で画像をアップロードできます。To do this, click the **[!UICONTROL Upload the images straightaway...]** link.
-* トラッキングサーバー上の画像にアクセスするための、別のパスも指定できます。To do this, enter it in the **[!UICONTROL Images URL]** field. この値を指定すると、インストールウィザードのパラメーターで指定した値よりも優先されます。
+* 配信分析フェーズを待つことなく、手動で画像をアップロードできます。そのためには、「**[!UICONTROL 画像をすぐにアップロード...]**」リンクをクリックします。
+* トラッキングサーバー上の画像にアクセスするための、別のパスも指定できます。そのためには、「**[!UICONTROL 画像の URL]**」フィールドにパスを入力します。この値を指定すると、インストールウィザードのパラメーターで指定した値よりも優先されます。
 
 配信ウィザードで、画像を含んだ HTML コンテンツを開くと、配信パラメーターに従ってすぐに画像をアップロードするかどうかを確認するメッセージが表示されます。
 
@@ -219,11 +219,11 @@ HTML 形式の E メール配信には、画像を含めることができます
 >
 >画像へのアクセスパスは、手動でのアップロード時やメッセージの送信時に変更されます。
 
-### Sending a message with images {#sending-a-message-with-images}
+### 画像付きのメッセージの送信 {#sending-a-message-with-images}
 
 >[!NOTE]
 >
->パフォーマンスの問題を回避するために、パーソナライズされたURLからその場でダウンロードされた画像を [添付ファイルとして含める場合](../../delivery/using/attaching-files.md)、デフォルトで各画像サイズが100,000バイトを超えないようにする必要があります。 この推奨しきい値は、Campaign Classicオプション [のリストから設定でき](../../installation/using/configuring-campaign-options.md#delivery)ます。
+>パフォーマンスの問題を回避するために、パーソナライズされた URL からその場でダウンロードされた画像を[添付ファイル](../../delivery/using/attaching-files.md)として含める場合、デフォルトで各画像サイズが 100,000 バイトを超えないようにする必要があります。この推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
 
 ここでは、4 個の画像を含んだ配信を例にとって説明します。
 

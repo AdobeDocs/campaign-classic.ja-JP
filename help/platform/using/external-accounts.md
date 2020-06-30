@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
 workflow-type: tm+mt
 source-wordcount: '2454'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -157,10 +157,10 @@ Adobe Campaign には、外部のアプリケーションとの通信やデー�
 
 次の接続タイプを設定できます。
 
-* Azure Synapse。 詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse)を参照してください。
-* Oracle.詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-oracle)を参照してください。
-* Netezza.詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-netezza)を参照してください。
-* SAP HANA.詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-sap-hana)を参照してください。
+* Azure Synapse。詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse)を参照してください。
+* Oracle。詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-oracle)を参照してください。
+* Netezza。詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-netezza)を参照してください。
+* SAP HANA。詳しくは、この[ページ](../../platform/using/specific-configuration-database.md#configure-access-to-sap-hana)を参照してください。
 * InfiniDB
 * Microsoft SQL Server
 * AsterData

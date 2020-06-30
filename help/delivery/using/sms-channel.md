@@ -14,11 +14,11 @@ discoiquuid: 8b101c0b-3611-4f15-813b-7c0bf54fc48a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3bf835b3f686d1293fda7e6254660c477ba26452
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3273'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ Adobe Campaign には、パーソナライズした SMS メッセージを大量
 
 1. コネクタとメッセージのタイプを指定する外部アカウント。
 
-   次のコネクタは、リリース20.2以降非推奨となります。 NetSize、汎用SMPP（バイナリ・モードをサポートするSMPPバージョン3.4）、Sybase365(SAP SMS 365)、CLX Communications、Tele2、O2、iOS。 非推奨の機能は引き続き使用できますが、これ以上強化されることはなく、サポートもされません。 詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)を参照してください。
+   次のコネクタは、リリース 20.2 より非推奨となります：NetSize、一般的な SMPP（バイナリモードをサポートする SMPP バージョン 3.4）、Sybase365（SAP SMS 365）、CLX Communications、Tele2、O2、iOS。非推奨（廃止予定）の機能は引き続き使用できますが、それ以上の機能強化やサポートはおこなわれません。詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)を参照してください。
 
 1. 使用する外部アカウントへの参照を含んだ配信テンプレート。
 
 ### SMPP 外部アカウントの作成 {#creating-an-smpp-external-account}
 
-携帯電話にSMSを送信するには、まずSMPP外部アカウントを作成する必要があります。
+携帯電話に SMS を送信するには、まず SMPP 外部アカウントを作成する必要があります。
 SMS のプロトコルと設定について詳しくは、この[技術メモ](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)を参照してください。
 
 これをおこなうには、以下の手順に従います。
@@ -64,7 +64,7 @@ SMS のプロトコルと設定について詳しくは、この[技術メモ](h
 
    >[!CAUTION]
    >
-   > リリース20.2以降、レガシーコネクタは非推奨となり、サポートされません。 拡張 **[!UICONTROL 汎用SMPP]** Connectorの使用をお勧めします。 推奨コネクタに移行する方法の詳細については、この [ページを参照してください](https://helpx.adobe.com/campaign/kb/sms-connector.html)。
+   > リリース 20.2 より、従来のコネクタは非推奨となり、サポートされません。**[!UICONTROL 拡張された汎用 SMPP]** コネクタの使用をお勧めします。推奨コネクタに移行する方法について詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/sms-connector.html)を参照してください。
 
 1. 「**[!UICONTROL ログファイルの詳細 SMPP トレースを有効にする]**」オプションを使用すると、ログファイル内のすべての SMPP トラフィックをダンプできます。コネクタのトラブルシューティングやプロバイダー側が確認できるトラフィックとの比較をおこなうには、このオプションを有効にする必要があります。
 
@@ -372,19 +372,19 @@ SMS チャネルでの配信の場合は、使用するチャネルコネクタ�
 
 ネイティブ配信テンプレートを保持しておくために、テンプレートのコピーを作成してから設定することをお勧めします。
 
-以下の例では、前に有効にしたSMPPアカウントを介してメッセージを配信するためのテンプレートを作成します。 手順は次のとおりです。
+次の例では、既に有効化した SMPP アカウントを使用してメッセージを配信するテンプレートを作成します。手順は次のとおりです。
 
 1. 「**[!UICONTROL 配信テンプレート]**」ノードを表示します。
 1. 「**[!UICONTROL モバイルに送信]**」テンプレートを右クリックし、「**[!UICONTROL 複製]**」を選択します。
 
    ![](assets/s_user_mobile_template_change_01.png)
 
-1. テンプレートのラベルを変更します(例： **Sent to mobiles(SMPP)**)。
+1. テンプレートのラベルを変更します（例：**モバイルに送信済み（SMPP）**）。
 
    ![](assets/s_user_mobile_template_change_02.png)
 
 1. 「**[!UICONTROL プロパティ]**」をクリックします。
-1. 「 **[!UICONTROL 一般]** 」タブで、前の手順で作成したルーティングに対応する外部アカウントモードを選択します。
+1. 「**[!UICONTROL 一般]**」タブで、前の手順で作成した外部アカウントに対応するルーティングモードを選択します。
 
    ![](assets/s_user_mobile_template_change_03.png)
 
@@ -405,7 +405,7 @@ SMS チャネルでの配信の場合は、使用するチャネルコネクタ�
 >配信の作成に関するグローバルな概念については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)で説明しています。
 
 1. 新しい配信を作成します（例えば、配信ダッシュボードから）。
-1. Select the delivery template **Sent to mobiles (SMPP)** that you created earlier. 詳しくは、[配信テンプレートの変更](#changing-the-delivery-template)の節を参照してください。
+1. 先ほど作成した配信テンプレート「**モバイルに送信済み（SMPP）**」を選択します。詳しくは、[配信テンプレートの変更](#changing-the-delivery-template)の節を参照してください。
 
    ![](assets/s_user_mobile_wizard.png)
 
@@ -467,7 +467,7 @@ SMS のコンテンツを作成するには、次の手順に従います。
 
 次のオプションを使用できます。
 
-* **送信者のアドレス**: 11文字に制限された英数字の文字列を使用して、配信の送信者の名前をパーソナライズできます。 また、数字のみで構成される文字列は指定できません。条件を指定することにより、例えば、受信者の市外局番に基づいて名前を変更できます。
+* **送信者のアドレス**：配信の送信者名をパーソナライズできます。使用できる文字は半角英数字のみ、長さは 11 字以内です。また、数字のみで構成される文字列は指定できません。条件を指定することにより、例えば、受信者の市外局番に基づいて名前を変更できます。
 
    ```
    <% if( String(recipient.mobilePhone).indexOf("+1") == 0){ %>NeoShopUS<%} else {%>NeoShopWorld<%}%>

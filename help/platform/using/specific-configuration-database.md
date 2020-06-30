@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
 workflow-type: tm+mt
 source-wordcount: '2967'
-ht-degree: 78%
+ht-degree: 98%
 
 ---
 
@@ -33,45 +33,45 @@ Adobe Campaign から外部データベースにアクセスできるように�
 >
 >互換性のあるバージョンは [Campaign 互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html#FederatedDataAccessFDA)に記載されています。
 
-## Azure Synapseへのアクセスの構成 {#configure-access-to-azure-synapse}
+## Azure Synapse へのアクセスの設定 {#configure-access-to-azure-synapse}
 
-### Azure synapse external account {#azure-external}
+### Azure Synapse 外部アカウント {#azure-external}
 
-The [!DNL Azure] external account allows you to connect your Campaign instance to your Azure Synapse external database.
-[!DNL Azure Synapse] 外部アカウント外部アカウントを作成するには：
+[!DNL Azure] 外部アカウントを使用すれば、Campaign インスタンスを Azure Synapse 外部データベースに接続することができます。[!DNL Azure Synapse] 外部アカウントを作成するには、以下を実行します。
 
-1. Campaign Classicで、 [!DNL Azure Synapse] 外部アカウントを設定します。 **[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
+1. Campaign Classic で、[!DNL Azure Synapse] 外部アカウントを設定します。**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
 1. [!DNL Azure Synapse] 外部アカウントを設定するには、次を指定する必要があります。
 
-   * **[!UICONTROL タイプ]**: アズールシナプスAnalytics
+   * **[!UICONTROL タイプ]**：Azure Synapse Analytics
 
-   * **[!UICONTROL サーバー]**: Azure SynapseサーバーのURL
+   * **[!UICONTROL サーバー]**：Azure Synapse サーバーの URL
 
    * **[!UICONTROL アカウント]**：ユーザーの名前
 
    * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
 
    * **[!UICONTROL データベース]**：データベースの名前
+
    ![](assets/azure_1.png)
 
-### CentOSでのAzure Synapse {#azure-centos}
+### CentOS での Azure Synapse {#azure-centos}
 
-**前提条件:**
+**前提条件：**
 
-* ODBCドライバをインストールするには、root権限が必要です。
-* Microsoftが提供するRed Hat Enterprise ODBCドライバは、CentOSと組み合わせてSQL Serverに接続することもできます。
-* バージョン13.0はRed Hat 6および7で動作します。
+* ODBC ドライバーをインストールするには、ルート権限が必要です。
+* Microsoft が提供する Red Hat Enterprise ODBC ドライバーは、CentOS と組み合わせて SQL Server に接続することもできます。
+* バージョン 13.0 は Red Hat 6 および 7 で動作します。
 
-CentOSでAzure Synapseを構成するには：
+CentOS で Azure Synapse を設定するには、以下を実行します。
 
-1. まず、ODBCドライバをインストールします。 この [ページで見つかります](https://www.microsoft.com/en-us/download/details.aspx?id=50420)。
+1. まず、ODBC ドライバーをインストールします。こちらの[ページ](https://www.microsoft.com/en-us/download/details.aspx?id=50420)にあります。
 
    >[!NOTE]
    >
-   >これは、ODBCドライバのバージョン13専用です。
+   >これは、ODBC ドライバーのバージョン 13 専用です。
 
    ```
    sudo su
@@ -109,21 +109,21 @@ CentOSでAzure Synapseを構成するには：
    Server      = [insert your server here]
    ```
 
-1. 必要に応じて、次のコマンドを実行してunixODBC開発ヘッダをインストールできます。
+1. 必要に応じて、次のコマンドを実行して unixODBC 開発ヘッダーをインストールできます。
 
    ```
    sudo yum install unixODBC-devel
    ```
 
-1. ドライバをインストールした後、必要に応じて、ODBCドライバをテストし、データベースのクエリを確認できます。 次のコマンドを実行します。
+1. ドライバーをインストールした後、必要に応じて、ODBC ドライバーをテストおよび検証し、データベースにクエリをおこなうことができます。次のコマンドを実行します。
 
    ```
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法の詳細については、この [節を参照してください](../../platform/using/specific-configuration-database.md#azure-external)。
+1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、この[節](../../platform/using/specific-configuration-database.md#azure-external)を参照してください。
 
-1. Azure SynapseAnalyticsはTCP 1433ポートを通じて通信するので、ファイアウォールでこのポートを開く必要があります。 次のコマンドを使用します。
+1. Azure Synapse Analytics は TCP 1433 ポートを通じて通信するので、ファイアウォール上でこのポートを開く必要があります。次のコマンドを使用します。
 
    ```
    firewall-cmd --permanent --add-rich-rule='rule family="ipv4" source address="[server_ip_here]/32" port port="1433" protocol="tcp" accept'
@@ -132,23 +132,23 @@ CentOSでAzure Synapseを構成するには：
 
    >[!NOTE]
    >
-   >Azure Synapse Analytics側からの通信を許可するには、パブリックIPを許可リストに追加する必要がある場合があります。 その場合は、 [Azureのドキュメントを参照してください](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)。
+   >Azure Synapse Analytics側からの通信を許可するには、パブリックIPを許可リストに追加する必要がある場合があります。 その場合は、[Azure のドキュメント](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/firewall-configure)を参照してください。
 
-1. iptablesの場合は、次のコマンドを実行します。
+1. iptables の場合は、次のコマンドを実行します。
 
    ```
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
    ```
 
-### WindowsでのAzure Synapse {#azure-windows}
+### Windows での Azure Synapse {#azure-windows}
 
 >[!NOTE]
 >
->これはODBCドライバのバージョン13専用ですが、Adobe CampaignクラシックではSQL Serverネイティブクライアントドライバ11.0および10.0も使用できます。
+>これは ODBC ドライバーのバージョン 13 専用ですが、Adobe Campaign Classic では SQL Server Native Client ドライバー 11.0 および 10.0 も使用できます。
 
-WindowsでAzure Synapsを構成するには：
+Windows で Azure Synaps を設定するには、以下を実行します。
 
-1. まず、Microsoft ODBCドライバをインストールします。 この [ページで見つかります](https://www.microsoft.com/en-us/download/details.aspx?id=50420)。
+1. まず、Microsoft ODBC ドライバーをインストールします。こちらの[ページ](https://www.microsoft.com/en-us/download/details.aspx?id=50420)にあります。
 
 1. 次のファイルを選択してインストールします。
 
@@ -156,26 +156,26 @@ WindowsでAzure Synapsを構成するには：
    your_language\your_architecture\msodbcsql.msi (i.e: English\X64\msodbcsql.msi)
    ```
 
-1. ODBCドライバをインストールした後、必要に応じてテストできます。 詳しくは、この[ページ](https://docs.microsoft.com/en-us/sql/connect/odbc/windows/system-requirements-installation-and-driver-files?view=sql-server-ver15#installing-microsoft-odbc-driver-for-sql-server)を参照してください。
+1. ODBC ドライバーをインストールした後、必要に応じてテストできます。詳しくは、この[ページ](https://docs.microsoft.com/ja-jp/sql/connect/odbc/windows/system-requirements-installation-and-driver-files?view=sql-server-ver15)を参照してください。
 
-1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法の詳細については、この [節を参照してください](../../platform/using/specific-configuration-database.md#azure-external)。
+1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、この[節](../../platform/using/specific-configuration-database.md#azure-external)を参照してください。
 
-1. Azure SynapseAnalyticsはTCP 1433ポートを通じて通信するので、Windows Defenderファイアウォールでこのポートを開く必要があります。 For more on this, refer to [Windows documentation](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule).
+1. Azure Synapse Analytics は TCP 1433 ポートを通じて通信するので、Windows Defender ファイアウォール上でこのポートを開く必要があります。詳しくは、[Windows のドキュメント](https://docs.microsoft.com/ja-jp/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule)を参照してください。
 
-### デビアンのAzure Synapse {#azure-debian}
+### Debian での Azure Synapse {#azure-debian}
 
-**前提条件:**
+**前提条件：**
 
-* ODBCドライバをインストールするには、root権限が必要です。
-* msodbcsqlパッケージをインストールするには、curlが必要です。 インストールしていない場合は、次のコマンドを実行します。
+* ODBC ドライバーをインストールするには、ルート権限が必要です。
+* msodbcsql パッケージをインストールするには、curl が必要です。インストールしていない場合は、次のコマンドを実行します。
 
    ```
    sudo apt-get install curl
    ```
 
-DebianでAzure Synapseを構成するには：
+Debian で Azure Synapse を設定するには、以下を実行します。
 
-1. まず、SQL Server用のMicrosoft ODBCドライバをインストールします。 次のコマンドを使用して、SQL Server用のODBC Driver 13.1をインストールします。
+1. まず、SQL Server 用の Microsoft ODBC ドライバーをインストールします。次のコマンドを使用して、SQL Server 用の ODBC ドライバー 13.1 をインストールします。
 
    ```
    sudo su
@@ -186,13 +186,13 @@ DebianでAzure Synapseを構成するには：
    sudo ACCEPT_EULA=Y apt-get install msodbcsql
    ```
 
-1. sudo apt-get update **を呼び出すときに、次のエラー「The method driver /usr/lib/apt/methods/https could not found（メソッドドライバ/usr/lib/apt/methods/httpsが見つかりません）」が発生した場合は、******&#x200B;コマンドを実行してください。
+1. **sudo apt-get update**&#x200B;を呼び出すときに、「**メソッドドライバー /usr/lib/apt/methods/https が見つかりません**」というエラーが発生した場合は、以下のコマンドを実行してください。
 
    ```
    sudo apt-get install apt-transport-https ca-certificates
    ```
 
-1. 次のコマンドを使用して、mssql-toolsをインストールする必要があります。 バルクコピープログラム（またはBCP）ユーティリティを使用し、クエリを実行するには、mssq-toolsが必要です。
+1. 次のコマンドを使用して、mssql-tools をインストールする必要があります。一括コピープログラム（または BCP）ユーティリティを使用してクエリを実行するには、mssq-tools が必要です。
 
    ```
    sudo ACCEPT_EULA=Y apt-get install mssql-tools
@@ -201,21 +201,21 @@ DebianでAzure Synapseを構成するには：
    source ~/.bashrc
    ```
 
-1. 必要に応じて、次のコマンドを実行してunixODBC開発ヘッダをインストールできます。
+1. 必要に応じて、次のコマンドを実行して unixODBC 開発ヘッダーをインストールできます。
 
    ```
    sudo yum install unixODBC-devel
    ```
 
-1. ドライバをインストールした後、必要に応じて、ODBCドライバをテストし、データベースのクエリを確認できます。 次のコマンドを実行します。
+1. ドライバーをインストールした後、必要に応じて、ODBC ドライバーをテストおよび検証し、データベースにクエリをおこなうことができます。次のコマンドを実行します。
 
    ```
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. In Campaign Classic, you can now configure your [!DNL Azure Synapse] external account. 外部アカウントの設定方法の詳細については、この [節を参照してください](../../platform/using/specific-configuration-database.md#azure-external)。
+1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、この[節](../../platform/using/specific-configuration-database.md#azure-external)を参照してください。
 
-1. Azure SynapseAnalyticsとの接続を確実に行うようにDebianでiptablesを構成するには、次のコマンドを使用して、ホスト名に対して送信TCP 1433ポートを有効にします。
+1. Azure Synapse Analytics と確実に接続できるように Debian で iptables を設定するには、次のコマンドを使用して、ホスト名に対してアウントバウンド TCP 1433 ポートを有効にします。
 
    ```
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
@@ -223,7 +223,7 @@ DebianでAzure Synapseを構成するには：
 
    >[!NOTE]
    >
-   >Azure Synapse Analytics側からの通信を許可するには、パブリックIPを許可リストに追加する必要がある場合があります。 その場合は、 [Azureのドキュメントを参照してください](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)。
+   >Azure Synapse Analytics側からの通信を許可するには、パブリックIPを許可リストに追加する必要がある場合があります。 その場合は、[Azure のドキュメント](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/firewall-configure)を参照してください。
 
 ## Snowflake へのアクセスの設定 {#configure-access-to-snowflake}
 
@@ -237,7 +237,7 @@ DebianでAzure Synapseを構成するには：
 
 [!DNL Snowflake] 外部アカウントを使用すれば、Campaign インスタンスを Snowflake 外部データベースに接続することができます。
 
-1. Campaign Classicで、 [!DNL Snowflake] 外部アカウントを設定します。 **[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
+1. Campaign Classic で、[!DNL Snowflake] 外部アカウントを設定します。**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
 1. 組み込みの **[!UICONTROL Snowflake]** 外部アカウントを選択します。
 
@@ -250,6 +250,7 @@ DebianでAzure Synapseを構成するには：
    * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
 
    * **[!UICONTROL データベース]**：データベースの名前
+
    ![](assets/snowflake.png)
 
 1. 「**[!UICONTROL パラメーター]**」タブをクリックし、「**[!UICONTROL 機能をデプロイ]**」ボタンをクリックして機能を作成します。
@@ -283,7 +284,7 @@ DebianでAzure Synapseを構成するには：
    /etc/init.d/nlserver6 start
    ```
 
-1. Campaign Classic では、[!DNL Snowflake] 外部アカウントを設定できます。外部アカウントの設定方法の詳細については、この [節を参照してください](../../platform/using/specific-configuration-database.md#snowflake-external)。
+1. Campaign Classic では、[!DNL Snowflake] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、この[節](../../platform/using/specific-configuration-database.md#snowflake-external)を参照してください。
 
 ### Debian での Snowflake{#snowflake-debian}
 
@@ -303,7 +304,7 @@ DebianでAzure Synapseを構成するには：
    systemctl start nlserver.service
    ```
 
-1. Campaign Classic では、[!DNL Snowflake] 外部アカウントを設定できます。外部アカウントの設定方法の詳細については、この [節を参照してください](../../platform/using/specific-configuration-database.md#snowflake-external)。
+1. Campaign Classic では、[!DNL Snowflake] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、この[節](../../platform/using/specific-configuration-database.md#snowflake-external)を参照してください。
 
 ### Windows での Snowflake。{#snowflake-windows}
 
@@ -311,7 +312,7 @@ DebianでAzure Synapseを構成するには：
 
 1. ODBC ドライバーを設定します。詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)を参照してください。
 
-1. Campaign Classic では、[!DNL Snowflake] 外部アカウントを設定できます。外部アカウントの設定方法の詳細については、この [節を参照してください](../../platform/using/specific-configuration-database.md#snowflake-external)。
+1. Campaign Classic では、[!DNL Snowflake] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、この[節](../../platform/using/specific-configuration-database.md#snowflake-external)を参照してください。
 
 ## Hadoop 3.0 へのアクセスの設定 {#configure-access-to-hadoop-3}
 
@@ -345,6 +346,7 @@ FDA で Hadoop 外部データベースに接続するには、Adobe Campaign �
    * **[!UICONTROL データベース]**：DSN で指定されていない場合のデータベースの名前。DSN で指定した場合は、空のままにできます
 
    * **[!UICONTROL タイムゾーン]**：サーバーのタイムゾーン
+
    ![](assets/hadoop3.png)
 
 コネクタは、次の ODBC オプションをサポートしています。

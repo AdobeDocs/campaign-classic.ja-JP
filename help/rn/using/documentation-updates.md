@@ -16,67 +16,67 @@ translation-type: tm+mt
 source-git-commit: 57263746675152b472aa5df4ce94f97b77a84a6b
 workflow-type: tm+mt
 source-wordcount: '6740'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
 
 # ドキュメントのアップデート{#documentation-updates}
 
-このページでは、1か月およびキャンペーンリリースあたりのすべての新機能とドキュメントの更新をリストしています。
+このページには、毎月および Campaign の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
 
-You can also consult the [Adobe Campaign Classic Release Notes](../../rn/using/latest-release.md) for more updates.
+その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
 
-## June 2020 {#june-2020}
+## 2020 年 6 月{#june-2020}
 
 コントロールパネルとキャンペーンワークフローを使用した [データの暗号化](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) / [](../../workflow/using/importing-data.md#use-case-gpg-decrypt) 復号化の方法に関する使用例が追加されました。
 
-「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 これらの用語の一部は、製品UI、オプション名、内部コードにまだ存在する場合がありますが、今後のキャンペーンリリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
+「ホワイトリスト」と「ブラックリスト」の両方の用語が Adobe Campaign ドキュメントから削除されました。これらの用語は、製品 UI、オプション名、内部コードにまだ存在する場合がありますが、今後の Campaign リリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
 
-## 20.2 - 08/06/2020{#release-20-2}
+## 20.2 - 2020 年 6 月 8 日{#release-20-2}
 
 **リリースに含まれる新機能**
 
-顔文字のサポート — [詳細情報](../../delivery/using/customizing-emoticon-list.md)
+顔文字のサポート - [詳細を表示](../../delivery/using/customizing-emoticon-list.md)
 
-Azure SynapseFDAコネクタ — [詳細情報](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse)
+Azure Synapse FDA コネクタ - [詳細を表示](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse)
 
-タイとブラジルのプライバシーに関する法律 — [詳細情報](https://helpx.adobe.com/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+タイとブラジルのプライバシーに関する法律 - [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-トランザクションメッセージテンプレートの公開取り消しを有効にする新しいオプションについては[、この節に記載されています](../../message-center/using/template-unpublication.md)。
+トランザクションメッセージテンプレートを非公開にする新しいオプションについては[、この節](../../message-center/using/template-unpublication.md)に記載されています。
 
-パーソナライズされたURLからダウンロードした画像や添付ファイルを含む電子メール送信時の制限を設定できる新しいCampaign Classicが、オプションのリストに追加されました。 [詳細を表示](../../installation/using/configuring-campaign-options.md#delivery)
+パーソナライズされた URL からダウンロードした画像と添付ファイルを含む E メールを送信するときに制限を設定できる新しいオプションが、Campaign Classic オプションのリストに追加されました。[詳細を表示](../../installation/using/configuring-campaign-options.md#delivery)
 
-新しい「 **Prepare the database parts in the database** 」オプションは、 [この節に記載されています](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis)。
+新しい「**データベース内で配信部分を準備**」オプションについてはは、[この節](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis)に記載されています。
 
-「配信の検証」セクションが明確になり、更新されました。 [詳細を表示](../../delivery/using/steps-validating-the-delivery.md)
+配信の検証の節が明確になり、更新されました。[詳細を表示](../../delivery/using/steps-validating-the-delivery.md)
 
-新しいトラッキングリンクの署名メカニズムに関連するパラメーターが、 [サーバー設定ファイル](../../installation/using/the-server-configuration-file.md) セクションに追加されました。
+新しいトラッキングリンクの署名メカニズムに関連するパラメーターが、[サーバー設定ファイル](../../installation/using/the-server-configuration-file.md)の節に追加されました。
 
 互換性マトリックスが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
-クリーンアップワークフローセクションが更新されました。 [詳細情報](../../production/using/database-cleanup-workflow.md)。
+クリーンアップワークフローの節が更新されました。[詳細情報](../../production/using/database-cleanup-workflow.md)。
 
-キャンペーンネットワークエンドポイントは、この [セクションに移動されました](../../installation/using/campaign-network-endpoints.md)。
+Campaign ネットワークエンドポイントは、この[節](../../installation/using/campaign-network-endpoints.md)に移動されました。
 
-スパムアサシンのインストールセクションが、新しいインストールファイル名で更新されました。 [詳細情報](../../installation/using/configuring-spamassassin.md#installing-spamassassin)。
+Spam Assassin のインストールの節が、新しいインストールファイル名で更新されました。[詳細情報](../../installation/using/configuring-spamassassin.md#installing-spamassassin)。
 
-環境の複製に関する節が更新されました。 [詳細情報](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)。
+環境の複製に関する節が更新されました。[詳細情報](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)。
 
 
 ## 2020 年 5 月 {#may-2020}
 
-配信品質の監視セクションが移動され、改善されました。 [詳細を表示](../../delivery/using/monitoring-deliverability.md)
+配信品質の監視の節が移動され、改善されました。[詳細を表示](../../delivery/using/monitoring-deliverability.md)
 
-配信品質のトラブルシューティングセクションが移動され、改善されました。 [詳細を表示](../../delivery/using/deliverability-faq.md)
+配信品質のトラブルシューティングの節が移動され、改善されました。[詳細を表示](../../delivery/using/deliverability-faq.md)
 
-新しいプラットフォームセクションを開始する際の配信品質のガイドラインが強化されました。 [詳細を表示](../../delivery/using/starting-new-platform.md)
+新しいプラットフォームを開始する際の配信品質ガイドラインの節が強化されました。[詳細を表示](../../delivery/using/starting-new-platform.md)
 
 添付ファイル付きトランザクション E メールの送信の節が移動され、更新されました。[詳細を表示](../../message-center/using/transactional-email-with-attachments.md)
 
-データパッケージのベストプラクティスに関するセクションが移動および更新されました。 [詳細を表示](../../platform/using/working-with-data-packages.md#data-package-best-practices)
+データパッケージのベストプラクティスに関する節が移動および更新されました。[詳細を表示](../../platform/using/working-with-data-packages.md#data-package-best-practices)
 
 ## 2020 年 4 月 {#april-2020}
 
@@ -84,11 +84,11 @@ FDA 権限テーブルは、「外部データベースへのアクセス（FDA�
 
 FAQ を更新し、ソフトキャッシュとハードキャッシュを消去する方法に関するヒントを追加しました。[詳細を表示](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)
 
-データモデルのベストプラクティスが、インデックスに関する追加情報により改善されました。 [詳細を表示](../../configuration/using/data-model-best-practices.md#indexes)
+データモデルのベストプラクティスの節を改善し、インデックスに関する追加情報を追加しました。[詳細を表示](../../configuration/using/data-model-best-practices.md#indexes)
 
-Adobe Campaign組み込みのデータモデルについて説明する節では、各表の詳細が更新されました。 [詳細を表示](../../configuration/using/data-model-description.md)
+Adobe Campaign の組み込みデータモデルに関する節の各テーブルに詳細を追加して更新しました。[詳細を表示](../../configuration/using/data-model-description.md)
 
-ワークフローの使用例が更新され、主題のセクションに再構成されました。 [詳細を表示](../../workflow/using/using-the-local-approval-activity.md)
+ワークフローの使用例が更新され、主題の節に再構成されました。[詳細を表示](../../workflow/using/using-the-local-approval-activity.md)
 
 [バウンスメール強制隔離](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)と [E メール管理ルール](../../delivery/using/understanding-delivery-failures.md#email-management-rules)の節の情報を更新して強化しました。
 
@@ -96,29 +96,29 @@ Adobe Campaign Enhanced MTA の記事が更新されました。現在は Campai
 
 ## 2020 年 3 月 {#march-2020}
 
-Data model best practices have been updated with new sections including [Sequences](../../configuration/using/data-model-best-practices.md#sequences), [Performance](../../configuration/using/data-model-best-practices.md#performance) and [Large tables](../../configuration/using/data-model-best-practices.md#large-tables), amongst others. [詳細を表示](../../configuration/using/data-model-best-practices.md)
+データモデルのベストプラクティスを更新し、[シーケンス](../../configuration/using/data-model-best-practices.md#sequences)、[パフォーマンス](../../configuration/using/data-model-best-practices.md#performance)、[大きなテーブル](../../configuration/using/data-model-best-practices.md#large-tables)などの新しい節を追加しました。[詳細を表示](../../configuration/using/data-model-best-practices.md)
 
-Adobe Campaignの組み込みデータモデルとテーブル間のインタラクションについて説明する新しい節が利用できるようになりました。 [詳細を表示](../../configuration/using/data-model-description.md)
+Adobe Campaign の組み込みデータモデルとテーブル間の相互作用を説明する新しい節が利用可能になりました。[詳細を表示](../../configuration/using/data-model-description.md)
 
-ドキュメントのホームページに、その他の主要なリンクが追加されました。 [詳細を表示](../../campaign-classic-home.md)
+追加のキーリンクがドキュメントホームページに追加されました。[詳細を表示](../../campaign-classic-home.md)
 
 Adobe Target のダイナミックオファーを Adobe Campaign の E メールに統合する方法に関する使用例を追加しました。[詳細を表示](../../integrations/using/inserting-a-dynamic-image.md)
 
 Adobe Campaign で使用できる様々な言語の詳細を説明する新しい節を追加しました。[詳細を表示](../../platform/using/adobe-campaign-workspace.md#languages)
 
-アクセス管理のガイドラインが更新され、ネームド権限に関する詳細情報が追加されました。 [詳細を表示](../../platform/using/access-management.md#named-rights)
+アクセス管理ガイドラインを更新し、ネームド権限に関する詳細な情報が追加されました。[詳細を表示](../../platform/using/access-management.md#named-rights)
 
 ## 2020 年 2 月 {#february-2020}
 
 Adobe Campaign データモデルの設計時のベストプラクティスと主要な推奨事項の概要を説明する新しい節を追加しました。[詳細を表示](../../configuration/using/data-model-best-practices.md)
 
-技術的な電子メール設定に関する新しいセクションが追加されました。 [詳細を表示](../../installation/using/email-deliverability.md)
+技術的な E メール設定に関する新しい節が追加されました。[詳細を表示](../../installation/using/email-deliverability.md)
 
-配信品質FAQに、「割り当てを満たしました」というエラーメッセージの詳細が追加されました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-deliverability-faq.html#FAQ)
+「配信品質 FAQ」が更新され、「割り当てに達しました」というエラーメッセージの詳細が追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-deliverability-faq.html#FAQ)
 
-電子メール用のAMPが、新しい電子メールプロバイダーでサポートされるようになりました。 関連ドキュメントが更新されました。 [詳細を表示](../../delivery/using/defining-interactive-content.md)
+E メール用の AMP が、新しい E メールプロバイダーでサポートされるようになりました。関連ドキュメントが更新されました。[詳細を表示](../../delivery/using/defining-interactive-content.md)
 
-「電子メールのアーカイブ」セクションが改善されました。 [詳細を表示](../../installation/using/email-archiving.md#recommendations-and-limitations)
+E メールのアーカイブの節が改善されました。[詳細を表示](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
 ## 20.1 - 2020 年 2 月 17 日{#release-20-1}
 
@@ -130,7 +130,7 @@ Hadoop FDA コネクタの機能強化 - [詳細を表示](../../platform/using/
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-[インストール](../../installation/using/before-reading.md)、[実稼動](../../production/using/foreword.md)、および[設定](../../configuration/using/additional-parameters.md)ガイドが、nlserver サービスの起動に使用する新しい systemd ユニットについて更新されました。/etc/init.d/nlserver6は引き続き使用できますが、nlserverサービスとの対話にはsystemctlコマンドを使用することをお勧めします。
+[インストール](../../installation/using/before-reading.md)、[実稼動](../../production/using/foreword.md)、および[設定](../../configuration/using/additional-parameters.md)ガイドが、nlserver サービスの起動に使用する新しい systemd ユニットについて更新されました。引き続き /etc/init.d/nlserver6 を使用できますが、nlserver サービスとのインタラクションには systemctl コマンドを使用することをお勧めします。
 
 インストールガイドを更新し、互換性マトリックスの最新バージョンと同期しました。新しいサポート対象システムが追加されました。非推奨（廃止予定）およびサポート対象外のシステムに関する記載は削除されました。[詳細を表示](../../installation/using/before-reading.md)
 
@@ -397,7 +397,7 @@ Campaign Classic API を[専用ページ](https://docs.campaign.adobe.com/doc/AC
 
 「Campaign Classic の非推奨（廃止予定）および削除された機能」ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
-[リリースノート](https://docs.campaign.adobe.com/doc/AC/en/RN.html)および[従来のリリースノート](https://docs.campaign.adobe.com/doc/AC/en/RN_legacy.html)では、取り消されたビルドに対する警告が追加されました。17.9、18.4 および 18.6 の累積ビルドも追加されました。
+[リリースノート](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.translate.html)および[従来のリリースノート](https://docs.campaign.adobe.com/doc/AC/en/RN_legacy.html)では、取り消されたビルドに対する警告が追加されました。17.9、18.4 および 18.6 の累積ビルドも追加されました。
 
 [セキュリティ](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/security.html)、[配信品質](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)および[ビルドアップグレード](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)の入門ガイドが更新されました。
 
@@ -533,7 +533,7 @@ Android プッシュコネクタの機能強化 - [詳細を表示](https://docs
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-リリースノートが改善されてユーザーエクスペリエンスが向上し、お客様のご要望に関連するすべてのパッチが含まれるようになりました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/RN.html)
+リリースノートが改善されてユーザーエクスペリエンスが向上し、お客様のご要望に関連するすべてのパッチが含まれるようになりました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.translate.html)
 
 Campaign Classic に関する最もよくある質問を含む新しいページが追加されました。[詳細を表示](../../platform/using/common-questions.md)
 

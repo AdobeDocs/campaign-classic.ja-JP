@@ -14,11 +14,11 @@ discoiquuid: d4627141-cef1-4ddb-ad6a-5dc217b9fa96
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e059fc9e2bfade30454601f31990c3ec14b8a847
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1998'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
    ![](assets/s_ncs_user_supplier_node_03.png)
 
-   * Enter a label for this cost category and select the type of process concerned: Delivery by **[!UICONTROL Direct mail]**, **[!UICONTROL E-mail]**, **[!UICONTROL Mobile]**, **[!UICONTROL Telephone]** or **[!UICONTROL Task]**.
+   * このコストカテゴリのラベルを入力して、該当するプロセスのタイプ（「**[!UICONTROL ダイレクトメール]**&#x200B;で配信」、「**[!UICONTROL E メール]**」、「**[!UICONTROL モバイル]**」、「**[!UICONTROL 電話]**」、「**[!UICONTROL タスク]**」）を選択します。
    * 「**[!UICONTROL 追加]**」ボタンをクリックして、このカテゴリに関連付けるコストのタイプを定義します。
    * 必要に応じて、在庫品目を各コストタイプと関連付け、使用する数量が既存の在庫に自動的に関連付けられるようにします。
 
@@ -179,7 +179,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
    ![](assets/s_ncs_user_supplier_mail_delivery_select.png)
 
-* モバイルチャネルや電話での配信には、同じ選択モードが適用されます。
+* モバイルチャネルでの配信または電話では、同じ選択モードが適用されます。
 * E メール配信では、次の例のように、配信プロパティの「**[!UICONTROL 詳細設定]**」タブからサービスを選択します。
 
    ![](assets/s_ncs_user_supplier_email_delivery_select.png)

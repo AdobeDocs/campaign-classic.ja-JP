@@ -14,11 +14,11 @@ discoiquuid: 84f9dbad-365f-405d-88a0-14171fbb805f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a62e4d072573f7ed1b77f755eb57838c70745592
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->ALwayは、個人情報を含む可能性のあるページを保護します。 「 [セキュリティとプライバシーのチェックリスト](https://helpx.adobe.com/campaign/kb/acc-security.html#privacy)」を参照してください。
+>個人情報を含む可能性のあるページは常に保護してください。[セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#privacy)を参照してください。
 
 このテンプレートにより、Web アプリケーションの種類が決まります。以下を作成できます。
 

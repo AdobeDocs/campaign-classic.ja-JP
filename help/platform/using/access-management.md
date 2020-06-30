@@ -14,11 +14,11 @@ discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 651dfdab75f64d72a1c5beb1273a878ee7102b47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3068'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -404,7 +404,7 @@ Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/us
 
 それらのフォルダーには、ツリー内にあるその他すべてのフォルダーと同じく、権限を付与できます。[フォルダーアクセスの管理](#folder-access-management)を参照してください。
 
-### 表示について {#about-views}
+### ビューについて {#about-views}
 
 また、必要に応じて、データアクセスの制限やツリー内のコンテンツの整理を目的としたビューを作成できます。それらのビューにはアクセス権を設定できます。
 
@@ -418,7 +418,7 @@ Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/us
 >
 >ソースフォルダーへのアクセスを許可することなくビューの表示のみを可能にする場合は、ソースフォルダーの親ノードへの読み取りアクセス権を付与しないようにするだけで十分です。
 
-表示とフォルダを区別するために、各表示の名前は異なる色（濃いシアン）で表示されます。
+ビューとフォルダーを区別するために、各ビューの名前は異なる色（濃いシアン）で表示されます。
 
 ![](assets/s_ncs_user_view_name_color.png)
 

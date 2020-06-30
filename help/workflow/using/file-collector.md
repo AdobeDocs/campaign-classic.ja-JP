@@ -14,11 +14,11 @@ discoiquuid: 9b937d4d-55ae-4bd4-8dc6-eea42f15b69f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b1a961822224ab0a9551f51942a5f94cf201c8ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,4 +85,4 @@ ht-degree: 99%
 
 ## 出力パラメーター {#output-parameters}
 
-* filename: 完全なファイル名。 このファイル名は、履歴化ディレクトに移された後のファイル名です。したがってファイルのパスが変更されますが、履歴化ディレクトに既に同じ名前のファイルが存在していた場合は、ファイル名も変えられます。拡張子は変更されません。
+* filename：ファイル名を入力します。このファイル名は、履歴化ディレクトに移された後のファイル名です。したがってファイルのパスが変更されますが、履歴化ディレクトに既に同じ名前のファイルが存在していた場合は、ファイル名も変えられます。拡張子は変更されません。

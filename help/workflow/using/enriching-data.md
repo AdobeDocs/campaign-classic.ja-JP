@@ -14,11 +14,11 @@ discoiquuid: f87da08f-68b9-4e2b-821f-b3ff20e390f1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1aca6758bc787f91ae28d7d5add875edf04541e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 この使用例では、ターゲティングワークフローの「**[!UICONTROL エンリッチメント]**」アクティビティの使用方法を詳しく説明します。「**[!UICONTROL エンリッチメント]**」アクティビティの使用について詳しくは、[エンリッチメント](../../workflow/using/enrichment.md)を参照してください。
 
-電子メール配信にカスタム日付を含める方法の使用例については、 [この節でも説明し](../../workflow/using/email-enrichment-with-custom-date-fields.md)ます。
+E メール配信にカスタム日付を含めてエンリッチメントする方法の使用例については、[この節](../../workflow/using/email-enrichment-with-custom-date-fields.md)でも説明します。
 
 Web アプリケーション経由での競争への参加を案内する内容が、マーケティングデータベースの連絡先に送られます。競合の結果は、「**[!UICONTROL 競合の結果]**」テーブルに復元されます。このテーブルは、連絡先テーブル（**[!UICONTROL 受信者]**）にリンクされています。「**[!UICONTROL 競合の結果]**」テーブルには、以下のフィールドがあります。
 

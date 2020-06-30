@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
+source-git-commit: 5d67ab5bbc44b81c65605ae9132cf5a8356aa814
 workflow-type: tm+mt
-source-wordcount: '2062'
+source-wordcount: '2082'
 ht-degree: 99%
 
 ---
@@ -320,6 +320,13 @@ ht-degree: 99%
       + [オーディエンスの同期](integrations/using/synchronizing-audiences.md)
       + [Web アプリケーションの同期](integrations/using/synchronizing-web-applications.md)
       + [  [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md) のトラブルシューティング
+   + Experience Cloud Triggers {#experience-triggers}
+      + [情報 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
+      + [パイプラインの設定](integrations/using/configuring-pipeline.md)
+      + [パイプラインオプションNmsPipeline_Config](integrations/using/nmspipeline-config.md)
+      + [トリガーイベント](integrations/using/events.md)
+      + [パイプライン監視](integrations/using/pipeline-monitoring.md)
+      + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
 + ワークフローによる自動化 {#automating-with-workflows}
    + はじめに {#introduction}
       + [ワークフローについて](workflow/using/about-workflows.md)
@@ -397,6 +404,7 @@ ht-degree: 99%
       + [インバウンド E メール](workflow/using/inbound-emails.md)
       + [インバウンド SMS](workflow/using/inbound-sms.md)
    + 使用例 {#use-cases}
+      + [ワークフローの使用例について](workflow/using/about-workflow-use-cases.md)
       + 配信 {#deliveries}
          + [ローカルの承認アクティビティの使用](workflow/using/using-the-local-approval-activity.md)
          + [A/B テスト](workflow/using/a-b-testing.md)

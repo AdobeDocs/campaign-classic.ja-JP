@@ -14,9 +14,9 @@ discoiquuid: 892b93ed-cb0e-4af5-a1ae-eff0c8b703c6
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2541'
 ht-degree: 100%
 

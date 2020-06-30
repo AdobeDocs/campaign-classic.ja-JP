@@ -128,7 +128,7 @@ ht-degree: 99%
       + [条件付きコンテンツ](delivery/using/conditional-content.md)
       + [パーソナライズされたクーポン](delivery/using/personalized-coupons.md)
       + [パーソナライズした PDF ドキュメントの生成](delivery/using/generating-personalized-pdf-documents.md)
-      + [絵文字リストのカスタマイズ](delivery/using/customizing-emoticon-list.md)
+      + [顔文字リストのカスタマイズ](delivery/using/customizing-emoticon-list.md)
    + シードアドレスの使用 {#using-seed-addresses}
       + [シードアドレスについて](delivery/using/about-seed-addresses.md)
       + [シードアドレスの作成](delivery/using/creating-seed-addresses.md)
@@ -606,7 +606,7 @@ ht-degree: 99%
       + [インタラクション - データバッファ](installation/using/interaction---data-buffer.md)
    + 付録 {#appendices}
       + [サーバー設定ファイル](installation/using/the-server-configuration-file.md)
-      + [キャンペーンネットワークエンドポイント](installation/using/campaign-network-endpoints.md)
+      + [Campaign ネットワークエンドポイント](installation/using/campaign-network-endpoints.md)
       + [コマンドライン](installation/using/command-lines.md)
       + [新規インスタンスの作成](installation/using/creating-new-instances.md)
       + [Campaign Classic のオプションのリスト](installation/using/configuring-campaign-options.md)

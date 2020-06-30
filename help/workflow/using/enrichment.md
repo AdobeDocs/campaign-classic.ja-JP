@@ -14,11 +14,11 @@ discoiquuid: b7ff47e1-ef12-4f04-afff-1a6c01d7701f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1aca6758bc787f91ae28d7d5add875edf04541e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1420'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 98%
 
    このオプションの設定は、**[!UICONTROL エンリッチメント]**&#x200B;アクティビティの&#x200B;**[!UICONTROL 追加データを編集]**&#x200B;リンクからアクセスできる「**[!UICONTROL 紐付けと重複排除]**」タブでおこないます。
 
-エンリッチメントアクティビティのコンテキストでの操作について詳しく説明する使用例は、次の節でも参照できます。
+エンリッチメントアクティビティのコンテキストでの操作に関する使用例については、次の節でも説明します。
 
 * [カスタム日付フィールドを使用した E メールエンリッチメント](../../workflow/using/email-enrichment-with-custom-date-fields.md).
 * [データのエンリッチメント](../../workflow/using/enriching-data.md)

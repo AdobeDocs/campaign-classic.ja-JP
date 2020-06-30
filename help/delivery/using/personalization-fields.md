@@ -14,11 +14,11 @@ discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9e9b1352706e15a0d0c6ff8921e430524a44b13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -83,11 +83,11 @@ E メールを作成するとします。まず受信者の名前を挿入し、
 
 ## パーソナライゼーションの最適化 {#optimizing-personalization}
 
-配信プロパティの「**[!UICONTROL 分析]**」タブで使用できる専用のオプション、「]**ワークフローを使用してパーソナライゼーションデータを準備**[!UICONTROL 」を使用して、パーソナライゼーションを最適化できます。配信の分析について詳しくは、 [この節を参照してください](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)。
+配信プロパティの「**[!UICONTROL 分析]**」タブで使用できる専用のオプション、「]**ワークフローを使用してパーソナライゼーションデータを準備**[!UICONTROL 」を使用して、パーソナライゼーションを最適化できます。配信の分析について詳しくは、[この節](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
 
 このオプションを選択すると、配信の分析時に、一時テーブル内のターゲットにリンクするすべてのデータ（FDA にリンクするテーブルのデータなど）を保存するワークフローが自動的に作成、実行されます。
 
-多数のデータが処理される場合、特にパーソナライズデータが外部テーブルからFDAを介して送られる場合は、このオプションをオンにすると、配信分析のパフォーマンスを大幅に向上できます。 For more on this, see [Accessing an external database (FDA)](../../platform/using/additional-options.md#optimizing-email-personalization-with-external-data).
+これにより、大量のデータを処理する場合（特にパーソナライゼーションデータが FDA を通じて外部テーブルから提供される場合）、配信分析のパフォーマンスを大幅に向上させることが可能です。詳しくは、[外部データベースへのアクセス（FDA）](../../platform/using/additional-options.md#optimizing-email-personalization-with-external-data)を参照してください。
 
 例えば、コンテンツに多数のパーソナライゼーションフィールドやパーソナライゼーションブロックが使用されているメッセージを多数の受信者に配信するときにパフォーマンスの問題が発生した場合、このオプションを使用すると、パーソナライゼーションの処理が高速化され、その結果メッセージの配信が高速化されます。
 

@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 9c9554b83726da7a7dbc747878d7d0758e71a4d7
 workflow-type: tm+mt
 source-wordcount: '1160'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 
 ## 用途 {#use}
 
-The **[!UICONTROL Data loading (File)]** activity lets you directly access a source of external data and use it in Adobe Campaign. 実際、ターゲティングオペレーションに必要なデータがすべて Adobe Campaign データベースにあるとは限りません。その場合には、外部のファイルを利用できます。
+**[!UICONTROL データ読み込み (ファイル)]** アクティビティを使用して、外部データのソースに直接アクセスし、読み込んだファイルを Adobe Campaign.で使用することができます。実際、ターゲティングオペレーションに必要なデータがすべて Adobe Campaign データベースにあるとは限りません。その場合には、外部のファイルを利用できます。
 
 読み込むファイルはトランジションで指定できますが、このアクティビティの実行によって自動生成することもできます。例えば、クライアントのお気に入りの 10 個の製品リストがあり、それらの購入が外部のデータベースで管理されていたとします。
 
@@ -118,6 +118,7 @@ The **[!UICONTROL Data loading (File)]** activity lets you directly access a sou
 
    * 1 番目の列には、購入（3,000 ユーロ以上または未満）、未購入または 1 つ以上の購入アイテムの返金というイベントと紐付けするコードが含まれています。
    * 2 番目から 4 番目の列はそれぞれ、クライアントの姓、名前、E メールおよびアカウント番号が含まれます。
+
    世も混まれるファイルのフォーマット設定は、Adobe Campaign へのデータインポート時に定義されたフォーマット設定と紐付けされます。詳しくは、[この節](../../platform/using/importing-data.md#step-2---source-file-selection)を参照してください。
 
 1. 分割アクティビティで、「**イベント**」列の値に従って、作成するサブセットを指定します。

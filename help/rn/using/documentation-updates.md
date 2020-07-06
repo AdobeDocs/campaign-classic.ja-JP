@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 229df9ee7da5ac9c773a7af82aabceb755299cc6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6781'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 99%
 
 ## 2020 年 6 月{#june-2020}
 
-[検疫済みのアドレスの削除]セクションが更新されました。 これには、アドレスが強制隔離リストから自動的に削除される場合の明確な説明も含まれます。 [詳細を表示](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+強制隔離されたアドレスの削除の節が更新されました。これには、アドレスが強制隔離リストから自動的に削除される場合の明確な説明も含まれます。[詳細を表示](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-コントロールパネルとキャンペーンワークフローを使用した [データの暗号化](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt) / [](../../workflow/using/importing-data.md#use-case-gpg-decrypt) 復号化の方法に関する使用例が追加されました。
+コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)および[](../../workflow/using/importing-data.md#use-case-gpg-decrypt)復号化の方法に関する使用例が追加されました。
 
 「ホワイトリスト」と「ブラックリスト」の両方の用語が Adobe Campaign ドキュメントから削除されました。これらの用語は、製品 UI、オプション名、内部コードにまだ存在する場合がありますが、今後の Campaign リリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
 
-Experience CloudトリガーとAdobeCampaign Classic統合ページは、 [ここに移動されました](../../integrations/using/about-triggers.md)。
+Experience Cloud Triggers と Adobe Campaign Classic の統合ページは、[こちら](../../integrations/using/about-triggers.md)に移動されました。
 
 ## 20.2 - 2020 年 6 月 8 日{#release-20-2}
 

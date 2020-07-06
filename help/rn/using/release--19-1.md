@@ -14,11 +14,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3d6c304aaa0b3e6ba1156f1a65e93f5c284b0c0a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2859'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -77,17 +77,17 @@ _2019 年 8 月 13 日_
 
 ## リリース 19.1.4 - ビルド 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **2020年6月22日**: 新しいビルド(9032@800be2e)。次の修正が含まれています。
+![](assets/do-not-localize/green_2.png) **2020 年 6 月 22 日**：新しいビルド（9032@800be2e）には次の修正が含まれています。
 
-* iOS HTTP2コネクタが強化されました（サードパーティのアップデートおよびエラー管理）。 （NEO-25904、NEO-25903、NEO-25799）
+* iOS HTTP2 コネクタが強化されました（サードパーティのアップデートおよびエラー管理）。（NEO-25904、NEO-25903、NEO-25799）
 
-トラッキングリンクのセキュリティメカニズムに関する修正：
+トラッキングリンクのセキュリティメカニズムに関する修正を次に示します。
 
-* 「通知クリック数」の追跡が機能しない問題を修正しました（iOSおよびAndroidのプッシュ通知）。 （NEO-25965）
-* 一部のレガシーバージョンのOutlookを使用する場合に、追跡URLを開いたりクリックしたりできない問題を修正しました。  （NEO-25688）
-* パーソナライゼーションパラメーターのフラグメントを使用するURLの追跡（シャープ記号の付いたアンカータグ）が機能しない問題を修正しました。 （NEO-25774）
-* フィッシング詐欺対策サービスの問題を修正しました。 （NEO-25283）
-* 特定のカスタム追跡式を使用する場合の追跡の問題を修正しました。 （NEO-25277）
+* 「通知クリック数」のトラッキングが機能しない問題を修正しました（iOS および Android のプッシュ通知）。（NEO-25965）
+* 一部のレガシーバージョンの Outlook を使用する場合に、トラッキング URL を開いたりクリックしたりできない問題を修正しました。（NEO-25688）
+* パーソナライゼーションパラメーター（シャープ記号の付いたアンカータグ）のフラグメントを使用した URL のトラッキングが機能しなかった問題を修正しました。（NEO-25774）
+* フィッシング詐欺対策サービスの問題を修正しました。（NEO-25283）
+* 特定のカスタムトラッキング式を使用する場合のトラッキングの問題を修正しました。（NEO-25277）
 
 ![](assets/do-not-localize/orange_2.png) **2020 年 4 月 29 日**：新しいビルド（9032@3a9dc9c）。次の修正が含まれています。
 
@@ -95,7 +95,7 @@ _2019 年 8 月 13 日_
 
 >[!CAUTION]
 >
->トラッキングリンクを使用したプッシュ通知、またはアンカータグを使用した配信で問題が発生した場合は、リンクをトラッキングするための新しい署名メカニズムを無効にすることをお勧めします。 手順の詳細はこの [ページに示します](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)
+>トラッキングリンクを使用したプッシュ通知、またはアンカータグを使用した配信で問題が発生した場合は、トラッキングリンク用の新しい署名メカニズムを無効にすることをお勧めします。手順について詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
 
 * LINE 配信に画像が表示されない可能性がある問題を修正しました。（NEO-23207）
 * SFTP キーに基づく認証が Debian 9 で動作しない&#x200B;**ファイル転送**&#x200B;アクティビティの問題を修正しました。（NEO-23183）
@@ -173,7 +173,7 @@ _2019 年 5 月 30 日_
  <tbody> 
   <tr> 
    <td> コントロールパネル<br /> </td> 
-   <td> <p>管理者ユーザーとしての作業の効率を高めるには、ストレージを監視し、SFTPサーバーの設定を管理し、許可リストにIPアドレスを追加し、各インスタンスにSSHキーをインストールします。 コントロールパネルは、現時点で AWS 上でホストされているユーザーのみが利用できます（<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud から今すぐログイン</a>）。</p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">ハウツービデオ</a>を参照してください。 </p><p>注意：最新の Campaign ビルドへのアップグレードには、コントロールパネルへのアクセスは不要です。</p> </td> 
+   <td> <p>管理者ユーザーの作業効率を高めるために、ストレージを監視、IP アドレスを許可リストに追加、および各インスタンスに SSH キーをインストールすることで、SFTP サーバーの設定を管理します。コントロールパネルは、現時点で AWS 上でホストされているユーザーのみが利用できます（<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud から今すぐログイン</a>）。</p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">ハウツービデオ</a>を参照してください。 </p><p>注意：最新の Campaign ビルドへのアップグレードには、コントロールパネルへのアクセスは不要です。</p> </td> 
   </tr> 
     <tr> 
    <td> 監査記録<br /> </td> 

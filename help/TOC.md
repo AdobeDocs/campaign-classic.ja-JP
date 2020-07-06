@@ -4,11 +4,11 @@ user-guide-title: Adobe Campaign Classic ヘルプ
 index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d67ab5bbc44b81c65605ae9132cf5a8356aa814
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2082'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -323,9 +323,9 @@ ht-degree: 99%
    + Experience Cloud Triggers {#experience-triggers}
       + [情報 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)
-      + [パイプラインオプションNmsPipeline_Config](integrations/using/nmspipeline-config.md)
-      + [トリガーイベント](integrations/using/events.md)
-      + [パイプライン監視](integrations/using/pipeline-monitoring.md)
+      + [パイプラインオプション NmsPipeline_Config](integrations/using/nmspipeline-config.md)
+      + [Triggers イベント](integrations/using/events.md)
+      + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
       + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
 + ワークフローによる自動化 {#automating-with-workflows}
    + はじめに {#introduction}

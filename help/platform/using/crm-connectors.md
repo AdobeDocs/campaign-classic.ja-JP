@@ -14,9 +14,9 @@ discoiquuid: dbe9080c-66e3-4ff6-8f16-959f9748f666
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
+workflow-type: tm+mt
 source-wordcount: '2659'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Adobe Campaign に統合できる CRM を次に示します。
 
    Salesforce.com との接続を設定する方法については、[この節](#example-for-salesforce-com)を参照してください。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Adobe Campaign を Salesforce.com に接続する場合の制限事項を次に示します。
    >
@@ -62,7 +62,7 @@ Adobe Campaign に統合できる CRM を次に示します。
 
    Oracle On Demand との接続を設定する方法については、[この節](#example-for-oracle-on-demand)を参照してください。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Adobe Campaign を Oracle On Demand に接続する場合の制限事項を次に示します。
    >
@@ -80,7 +80,7 @@ Adobe Campaign に統合できる CRM を次に示します。
 
    Adobe Campaign と Microsoft Dynamics 統合の使用例については、[このビデオ](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html)を参照してください。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Adobe Campaign を Microsoft Dynamics に接続する場合の制限事項を次に示します。
    >
@@ -277,7 +277,7 @@ Adobe Campaign と CRM の間の同期は、専用のワークフローアクテ
 
    必要に応じて、「**[!UICONTROL コンバージョン]**」列のドロップダウンリストでデータフォーマットを変更します。使用可能なコンバージョンタイプについて詳しくは、[データフォーマット](#data-format)を参照してください。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >CRM と Adobe Campaign のオブジェクトをリンクするには、CRM でのレコードの識別子が必須です。これは、ボックスが承認されると自動的に追加されます。
    >
@@ -289,7 +289,7 @@ Adobe Campaign と CRM の間の同期は、専用のワークフローアクテ
 
    ![](assets/crm_task_import_filter.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >データのフィルターモードに関連する制限について詳しくは、[フィルターデータ](#filtering-data)を参照してください。
 
@@ -382,7 +382,7 @@ Adobe Campaign データを CRM にエクスポートすると、コンテンツ
 1. 「**[!UICONTROL CRM にエクスポート]**」操作を選択します。
 1. **[!UICONTROL リモートオブジェクト]**&#x200B;ドロップダウンリストに移動し、プロセスの対象となるオブジェクトを選択します。このオブジェクトは、コネクタの設定時に Adobe Campaign で作成されたテーブルのいずれかと一致します。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >「**CRM コネクタ**」アクティビティのエクスポート機能では、CRM 側のフィールドを挿入または更新できます。CRM でのフィールド更新を有効にするには、リモートテーブルのプライマリキーを指定する必要があります。キーがない場合、データは（更新ではなく）挿入されます。
 
@@ -457,7 +457,7 @@ CRM へのインポートまたは CRM からのインポート中にデータ�
 
    ![](assets/crm_import_deleted_obj.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >要素の削除期間は、CRM に固有の制限と一致している必要があります。したがって、例えば Salesforce.com の場合、削除されてから 30 日を経過した要素は収集することができません。
 

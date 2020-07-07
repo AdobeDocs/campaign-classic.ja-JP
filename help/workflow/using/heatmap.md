@@ -14,8 +14,11 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d6a4d56c595f16f454684b1d6afc7d7323c5914c
+translation-type: tm+mt
+source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
+workflow-type: tm+mt
+source-wordcount: '1397'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: d6a4d56c595f16f454684b1d6afc7d7323c5914c
 
 Adobe Campaign ワークフローヒートマップは、現在実行中のすべてのワークフローを色分けしてグラフィカルに表現します。インスタンスの管理者のみが使用できます。
 
-様々なキャンペーンプロセスを監視するその他の方法については、[このページ](https://helpx.adobe.com/jp/campaign/kb/acc-maintenance.html)で説明しています。
+様々なキャンペーンプロセスを監視するその他の方法については、[このページ](../../production/using/monitoring-guidelines.md)で説明しています。
 
 ## ワークフローヒートマップについて {#about-the-workflow-heatmap}
 

@@ -14,10 +14,10 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
-workflow-type: ht
-source-wordcount: '2088'
+translation-type: tm+mt
+source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
+workflow-type: tm+mt
+source-wordcount: '2083'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 また、インスタンスの管理者は、**監査記録**&#x200B;を使用して、アクティビティおよびワークフローに対する最後の変更（ワークフローの状態）を確認できます。詳しくは、[該当する節](../../production/using/audit-trail.md)を参照してください。
 
-様々なキャンペーンプロセスを監視するその他の方法については、[このページ](https://helpx.adobe.com/jp/campaign/kb/acc-maintenance.html)で説明しています。
+様々なキャンペーンプロセスを監視するその他の方法については、[このページ](../../production/using/monitoring-guidelines.md)で説明しています。
 
 ## 進行情報の表示 {#displaying-progress}
 

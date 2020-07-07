@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 229df9ee7da5ac9c773a7af82aabceb755299cc6
-workflow-type: ht
-source-wordcount: '6781'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 306c7bf0a94684d27c5f95035f3d3e77da8c7097
+workflow-type: tm+mt
+source-wordcount: '6809'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 100%
 このページには、毎月および Campaign の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
 
 その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
+
+## 2020 年 7 月 {#july-2020}
+
+Campaign Classicの監視に関するガイドラインを含む新しい節を追加しました。 [詳細を表示](../../production/using/monitoring-guidelines.md)
+
+「プライバシーと同意」セクションが強化され、より詳細な情報と役に立つリンクが追加されました。 [詳細を表示](../../platform/using/privacy-and-recommendations.md)。
 
 ## 2020 年 6 月{#june-2020}
 
@@ -68,7 +74,6 @@ Campaign ネットワークエンドポイントは、この[節](../../installa
 Spam Assassin のインストールの節が、新しいインストールファイル名で更新されました。[詳細情報](../../installation/using/configuring-spamassassin.md#installing-spamassassin)。
 
 環境の複製に関する節が更新されました。[詳細情報](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)。
-
 
 ## 2020 年 5 月 {#may-2020}
 
@@ -260,7 +265,7 @@ Adobe Analytics Data Connector の新しいベストプラクティスのペー�
 
 ## 2019 年 9 月 {#september-2019}
 
-Campaign Classic の管理に関する一般的なガイドラインを提供する新しいページが追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-maintenance.html)
+Campaign Classic の管理に関する一般的なガイドラインを提供する新しいページが追加されました。[詳細を表示](../../production/using/monitoring-guidelines.md)
 
 ワークフロー監視に関する情報は、新しい専用の節に集約されました。[詳細を表示](../../workflow/using/monitoring-workflow-execution.md)。
 

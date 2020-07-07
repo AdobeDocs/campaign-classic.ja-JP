@@ -14,8 +14,11 @@ discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d60f47f03949177b97509166a8d9e640849e5fd7
+translation-type: tm+mt
+source-git-commit: ea6488686d19b020e55839afee97e71a13ce2e33
+workflow-type: tm+mt
+source-wordcount: '548'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: d60f47f03949177b97509166a8d9e640849e5fd7
 
 テクニカルワークフローは監視する必要があり、失敗した場合にアクションをおこなう必要があります。
 
-様々なキャンペーンプロセスを監視するその他の方法については、[このページ](https://helpx.adobe.com/jp/campaign/kb/acc-maintenance.html)で説明しています。
+様々なキャンペーンプロセスを監視するその他の方法については、[このページ](../../production/using/monitoring-guidelines.md)で説明しています。
 
 ## インスタンスの監視ダッシュボード {#instance-monitoring-dashboard}
 

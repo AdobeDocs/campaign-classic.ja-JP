@@ -5,9 +5,9 @@ solution: Campaign Classic
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 30b2860250c6d1c4032a22a28f6e2e48dcacc6a8
+source-git-commit: ad0f9bdd2571a8780da464dc3ac8feb7b5aed998
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '260'
 ht-degree: 95%
 
 ---
@@ -89,4 +89,4 @@ Campaign のトラッキング機能とプロセスについて説明します�
 | [Campaign の概要](platform/using/about-adobe-campaign-classic.md) | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/acc-implementation.html) |
 | [Gold Standard アップグレード](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
 | [非推奨（廃止予定）の機能 ](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html) | [セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) |
-| [Campaign コントロールパネル](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html) | [ベストプラクティスの監視](https://helpx.adobe.com/jp/campaign/kb/acc-maintenance.html) |
+| [Campaign コントロールパネル](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html) | [監視のガイドライン](production/using/monitoring-guidelines.md) |

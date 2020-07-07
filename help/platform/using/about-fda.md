@@ -14,11 +14,11 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9d22af2a2e25cb0dd83759096139996372f60c33
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c86af066045c1c35b51624de8565af21746354c1
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 96%
 
 ---
 
@@ -44,6 +44,19 @@ FDA オプションを使用すると、サードパーティのデータベー�
 1. 最後に、前の手順で作成したスキーマから[新しいターゲットマッピングを作成](../../platform/using/defining-data-mapping.md)します。これは、配信の受信者を外部データベースから取得する場合に必要です。これにより、特に配信のパーソナライズに関して一定の制限を適用することが可能です。
 
 データスキーマを作成すると、Adobe Campaign ワークフローでデータを処理できるようになります。詳しくは、[この節](../../workflow/using/accessing-an-external-database--fda-.md)を参照してください。
+
+## 使用可能な外部データベース {#external-database}
+
+Adobe CampaignFDAモジュールと互換性のあるすべての外部データベースのリストは、次のとおりです。
+
+* Microsoft Azure Synapse Analytics. 詳しくは、[この節](../../platform/using/specific-configuration-database.md#azure-external)を参照してください。
+* Snowflake. 詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)を参照してください。
+* Hadoop. 詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3)を参照してください。
+* Oracle。詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-oracle)を参照してください。
+* Netezza。詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-netezza)を参照してください。
+* Sybase IQ. 詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-sybase-iq)を参照してください。
+* Teradata. 詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-teradata)を参照してください。
+* SAP HANA。詳しくは、[この節](../../platform/using/specific-configuration-database.md)を参照してください。
 
 ## ベストプラクティスと推奨事項 {#best-practices-and-recommendations}
 

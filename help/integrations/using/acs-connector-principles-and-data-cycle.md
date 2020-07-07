@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 54cb4143fc534aa436c4b8b28e031e87a2a02e40
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
 workflow-type: tm+mt
 source-wordcount: '2052'
 ht-degree: 99%
@@ -33,7 +33,7 @@ ACS コネクタは、Adobe Campaign v7 と Adobe Campaign Standard を橋渡し
 
 ACS コネクタを使用すると、デジタルマーケターが Campaign Standard を引き続き使用して、キャンペーンを設計、ターゲティングおよび実行したり、データベースマーケターなどのデータ指向のユーザーが Campaign v7 をカスタマイズしたりできます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ACS コネクタは、Adobe Campaign Prime の一部としてのみ使用できます。Adobe Campaign Prime のライセンス付与の方法について詳しくは、担当のアカウントマネージャーにお問い合わせください。
 >
@@ -83,7 +83,7 @@ ACS コネクタは、Campaign Standard から Campaign v7 に以下の項目を
 
 配信 ID および E メールログをレプリケートすることで、Campaign v7 から v7 受信者の配信の履歴およびトラッキングデータにアクセスできます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Campaign Standard から Campaign v7 にレプリケートされるのは、E メール配信ログとトラッキングログのみです。
 
@@ -120,7 +120,7 @@ ACS コネクタは、Campaign v7 と Campaign Standard の間で強制隔離を
 
 ACS コネクタには、2 つのタイプの実装があります。どちらも、常に Adobe Campaign コンサルティングチームによって実行されます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >この節では、エキスパートユーザーのみに向けて、実装プロセスの全体像と主な手順について説明します。
 >
@@ -140,7 +140,7 @@ ACS コネクタに関連するすべての技術要素は、エクスプロー�
 
 このパッケージをインストールしたら、**[!UICONTROL 管理／ACS コネクタ／プロセス]**&#x200B;で、テクニカルワークフローを使用できます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >これらのワークフローは決して変更しないでください。エラーや一時停止が発生しないようにしてください。このような状況が発生した場合は、Adobe Campaign コンサルタントにお問い合わせください。
 
@@ -290,7 +290,7 @@ ACS コネクタに関連するすべての技術要素は、エクスプロー�
 
 ここでは、高度な実装の観点からいくつかの可能性を説明します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >この情報は、一般的なガイドラインとしてのみ使用できます。実装については、Adobe Campaign コンサルタントにお問い合わせください。
 

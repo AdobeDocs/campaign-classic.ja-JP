@@ -14,9 +14,9 @@ discoiquuid: 5ff1577f-0809-46fd-ac1e-11b24637e35c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
+workflow-type: tm+mt
 source-wordcount: '1813'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## Data コネクタ統合について {#about-data-connector-integration}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Adobe Analytics Data Connector には、トランザクションメッセージ（Message Center）との互換性はありません。
 
@@ -144,7 +144,7 @@ Adobe Campaign は、コネクタにより分析プラットフォームと統�
 
    ![](assets/webanalytics_tracking_003.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >この設定モードはエキスパートユーザー向けに用意されています。この式にエラーがあった場合、E メール配信が停止される可能性があります。
 

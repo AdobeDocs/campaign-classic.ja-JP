@@ -14,11 +14,11 @@ discoiquuid: 42867665-d0ca-486e-9110-91716c0d5c57
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8089eb39e7326408f94b5fd6acacd8950c0e6021
-workflow-type: ht
-source-wordcount: '2551'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 788866c4f11d3875f713a61f7560d6d5255f3019
+workflow-type: tm+mt
+source-wordcount: '2530'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign では、パッケージシステムを通じて、プラット�
 
 データパッケージを使用すると、XML 形式のファイル経由で Adobe Campaign データベース内のエンティティを表示できます。パッケージに含まれる 1 つのエンティティは、それに該当するすべてのデータによって表現されます。
 
-**データパッケージ**&#x200B;の原則とは、データの設定をエクスポートして別の Adobe Campaign システム内に組み込むことです。一貫性のあるデータパッケージセットの維持方法について詳しくは、[テクニカルノート](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_How_to_maintain_a_consistent_set_of_data_packages.pdf)を参照してください。
+**データパッケージ**&#x200B;の原則とは、データの設定をエクスポートして別の Adobe Campaign システム内に組み込むことです。この [節では、一貫したデータパッケージのセットを維持する方法を説明し](#data-package-best-practices)ます。
 
 ### パッケージの種類 {#types-of-packages}
 
@@ -343,15 +343,11 @@ Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツー�
 
 この節では、プロジェクトの全期間にわたって一貫した方法でデータパッケージを編成する方法について説明します。
 
-<!--Adobe Campaign allows you to export or import the platform configuration through a package system.-->
-
 パッケージには、様々な種類の設定や要素を含めることができ、フィルターされている場合とそうでない場合があります。一部の要素が見つからない場合や、要素またはパッケージが正しい順序で読み込まれない場合は、プラットフォームの設定が破損する可能性があります。
 
 また、複数のユーザーが多数の機能を持つ同じプラットフォームで作業をおこなう場合、パッケージ仕様フォルダーがすぐに複雑化する可能性があります。
 
 必須ではありませんが、この節では、Adobe Campaign で大規模プロジェクトのパッケージを整理して使用するのに役立つソリューションを提供します。
-
-<!--This solution has been used with a project involving more than 10 consultants.-->
 
 主な制約を次に示します。
 * パッケージを整理し、変更内容と変更日時を追跡する

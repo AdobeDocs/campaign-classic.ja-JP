@@ -14,13 +14,18 @@ discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 51e4d72abf3a1f48700ca38566dbf06dd24594b8
+translation-type: tm+mt
+source-git-commit: 84f06afb36aa6a9fa13db1fda7034389b762eb99
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 92%
 
 ---
 
 
 # Adobe Campaign の起動{#launching-adobe-campaign}
+
+キャンペーンクライアントコンソールは、キャンペーンアプリケーションサーバーに接続できるリッチクライアントです。 このページでは、クライアントコンソールをダウンロードして設定する方法 [を説明します](../../installation/using/installing-the-client-console.md)。
 
 ## Adobe Campaign の起動 {#starting-adobe-campaign}
 
@@ -60,14 +65,13 @@ Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[
 
 次に、接続設定を定義する必要があります。手順は次のとおりです。
 
-* 「**[!UICONTROL ラベル]**」を入力して、データベース接続に名前を割り当てます。
-* 「**[!UICONTROL URL]**」フィールドで、アプリケーションサーバーのアドレスを追加します。接続 URL が不明な場合は、管理者にお問い合わせください。
-* オペレーターが Adobe ID を使用してコンソールに接続するには、「**[!UICONTROL Adobe ID を使用して接続]**」をオンにします。詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
-* 「**[!UICONTROL OK]**」をクリックして検証します。
+1. 「**[!UICONTROL ラベル]**」を入力して、データベース接続に名前を割り当てます。
 
->[!NOTE]
->
->「**[!UICONTROL 追加]**」ボタンを使用すると、すべての接続を整理する&#x200B;**[!UICONTROL フォルダー]**&#x200B;を作成できます。各接続をフォルダーにドラッグ＆ドロップします。
+1. 「**[!UICONTROL URL]**」フィールドで、アプリケーションサーバーのアドレスを追加します。接続 URL が不明な場合は、管理者にお問い合わせください。
+
+1. オペレーターが Adobe ID を使用してコンソールに接続するには、「**[!UICONTROL Adobe ID を使用して接続]**」をオンにします。詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
+
+1. 「**[!UICONTROL OK]**」をクリックして検証します。
 
 ## オペレーターと権限 {#operators-and-permissions}
 

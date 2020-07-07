@@ -14,11 +14,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3d6c304aaa0b3e6ba1156f1a65e93f5c284b0c0a
-workflow-type: ht
-source-wordcount: '2859'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8c352c850777852d14ccf3002c20f651b46f9047
+workflow-type: tm+mt
+source-wordcount: '2928'
+ht-degree: 94%
 
 ---
 
@@ -77,11 +77,27 @@ _2019 年 8 月 13 日_
 
 ## リリース 19.1.4 - ビルド 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **2020 年 6 月 22 日**：新しいビルド（9032@800be2e）には次の修正が含まれています。
+![](assets/do-not-localize/green_2.png) **Gold Standard 10リリース**
+
+_2020年7月7日_
+
+この新しいビルド(9032@efd8a94)には、次の修正が含まれています。
+
+* トラッキングリンクが機能しない問題を修正しました。 （NEO-26411）
+
+>[!CAUTION]
+>
+>このリリースで利用可能なクライアントコンソールを使用してクライアントコンソールをアップグレードすることをお勧めします。 Refer to this [page](../../installation/using/installing-the-client-console.md)
+
+![](assets/do-not-localize/orange_2.png) **Gold Standard 9リリース**
+
+_2020年6月22日_
+
+この新しいビルド(9032@800be2e)には、次の修正が含まれています。
 
 * iOS HTTP2 コネクタが強化されました（サードパーティのアップデートおよびエラー管理）。（NEO-25904、NEO-25903、NEO-25799）
 
-トラッキングリンクのセキュリティメカニズムに関する修正を次に示します。
+トラッキングリンクのセキュリティメカニズムに関する修正( [セキュリティとプライバシーのチェックリストを参照](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism))。
 
 * 「通知クリック数」のトラッキングが機能しない問題を修正しました（iOS および Android のプッシュ通知）。（NEO-25965）
 * 一部のレガシーバージョンの Outlook を使用する場合に、トラッキング URL を開いたりクリックしたりできない問題を修正しました。（NEO-25688）
@@ -89,7 +105,11 @@ _2019 年 8 月 13 日_
 * フィッシング詐欺対策サービスの問題を修正しました。（NEO-25283）
 * 特定のカスタムトラッキング式を使用する場合のトラッキングの問題を修正しました。（NEO-25277）
 
-![](assets/do-not-localize/orange_2.png) **2020 年 4 月 29 日**：新しいビルド（9032@3a9dc9c）。次の修正が含まれています。
+![](assets/do-not-localize/orange_2.png) **Gold Standard 8リリース**
+
+_2020年4月29日_
+
+この新しいビルド(9032@3a9dc9c)には、次の修正が含まれています。
 
 * E メール内のリンクの追跡に関するセキュリティを改善。これは、あらゆる顧客に対してデフォルトで有効です。さらに、強化されたセキュリティ機能が利用できます。この機能はカスタマーケアにご連絡いただくと有効にできます。これを非ホスト型顧客が有効にするための手順と機能の詳細については、[セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
 
@@ -110,30 +130,54 @@ _2019 年 8 月 13 日_
 * クリーンアップワークフローがクラッシュする原因となる問題を修正しました。
 * クリーンアップワークフローログの軽度の問題を修正しました。
 
-![](assets/do-not-localize/orange_2.png)**2020 年 5 月 5 日**：新しいビルド（9032@19f73c5）。以下の修正が含まれています。
+![](assets/do-not-localize/orange_2.png) **Gold Standard 6リリース**
+
+_2019年3月9日_
+
+この新しいビルド(9032@19f73c5)には、次の修正が含まれています。
 
 * FTP over SSL を使用する外部アカウントの問題を修正しました。（NEO-20498）
 
-![](assets/do-not-localize/orange_2.png)**2019 年 12 月 17 日**：新しいビルド（9032@d6b8062）。以下の修正が含まれています。
+![](assets/do-not-localize/orange_2.png) **Gold Standard 5リリース**
+
+_2019年12月18日_
+
+この新しいビルド(9032@d6b8062)には、次の修正が含まれています。
 
 * モバイル（SMS、MMS）、プッシュ（iOS、Android）およびソーシャルネットワーク（Facebook、Twitter）の各通信チャネルでのトラッキングの問題を修正しました。（NEO-19595）
 
-![](assets/do-not-localize/orange_2.png)**2019 年 12 月 11 日**：新しいビルド（9032@bc4a935）。以下の修正が含まれています。
+![](assets/do-not-localize/orange_2.png) **Gold Standard 4リリース**
+
+_2019年12月11日_
+
+この新しいビルド(9032@bc4a935)には、次の修正が含まれています。
 
 * MSSQL データベースでメッセージを送信する際のパフォーマンスの問題を修正しました。（NEO-17558）
 
-![](assets/do-not-localize/orange_2.png)**2019 年 11 月 20 日**：新しいビルド（9032@3468c7b）。以下の修正が含まれています。
+![](assets/do-not-localize/orange_2.png) **Gold Standard 3リリース**
+
+_2019年11月20日_
+
+この新しいビルド(9032@3468c7b)には、次の修正が含まれています。
 
 * IMS 認証を使用したログインの問題を修正しました。（NEO-17312）
 * 複数の配信に関する累積レポートを表示する際の問題を修正しました。（NEO-18165）
 * Web サーバーがブロックまたはクラッシュする可能性がある問題を修正しました。
 
-![](assets/do-not-localize/orange_2.png)**2019 年 9 月 19 日**：新しいビルド（9032@cee805c）。以下の修正が含まれています。
+![](assets/do-not-localize/orange_2.png) **Gold Standard 2リリース**
+
+_2019年9月19日_
+
+この新しいビルド(9032@cee805c)には、次の修正が含まれています。
 
 * Salesforce 用 CRM コネクタを使用する際の問題を修正しました。（NEO-17712）
 * トランザクションメッセージの送信時にパフォーマンスの問題を引き起こす可能性があるインデックスの問題を修正しました。
 
-![](assets/do-not-localize/orange_2.png)**2019 年 8 月 13 日**：最初の 19.1.4 ビルド。以下の修正が含まれています。
+![](assets/do-not-localize/orange_2.png) **リリース 19.1.4 - ビルド 9032**
+
+_2019 年 8 月 13 日_
+
+最初の19.1.4ビルドには、次の修正が含まれています。
 
 * スケジューラーアクティビティで、ウィザード設定時に望ましくないエラーメッセージが生成される問題を修正しました。NEO-11662 から、更新を元に戻します。（NEO-17097）
 * テストアクティビティが 2 回実行された際にワークフローが停止する、NEO-12727 が原因の回帰を修正しました。（NEO-16835）

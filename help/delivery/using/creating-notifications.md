@@ -14,9 +14,9 @@ discoiquuid: 345af5c2-c852-4086-8ed0-ff3e7e402e04
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5847107a459bf47f34e4994c3521266bb174d8cb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c830d40cef836533c5104901d03a07e7cf96d3d6
+workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ ht-degree: 100%
    >
    >「**[!UICONTROL バッジ]**」と「**[!UICONTROL アラートおよびバッジ]**」タイプの通知では、バッジの値（モバイルアプリケーションのロゴの上にある数字）を変更できます。バッジを更新するには、値として 0 を入力します。フィールドが空の場合、バッジの値は変更されません。
 
-1. **[!UICONTROL 顔文字を挿入]**&#x200B;アイコンをクリックして、プッシュ通知に顔文字を挿入します。顔文字のリストをカスタマイズするには、[顔文字リストのカスタマイズ](../../delivery/using/defining-interactive-content.md)を参照してください。
+1. **[!UICONTROL 顔文字を挿入]**&#x200B;アイコンをクリックして、プッシュ通知に顔文字を挿入します。顔文字のリストをカスタマイズするには、[顔文字リストのカスタマイズ](../../delivery/using/customizing-emoticon-list.md)を参照してください。
 
 1. 「**[!UICONTROL アクションボタン]**」を使用すると、アラート通知に表示されるアクションボタンのラベルを定義できます（ペイロードの **action_loc_key** フィールド）。iOS アプリケーションでローカライズ可能文字列を管理する場合は（**Localizable.strings**）、対応するキーをこのフィールドに入力します。アプリケーションでローカライズ可能テキストを管理しない場合は、アクションボタンに表示するラベルを入力します。ローカライズ可能文字列について詳しくは、[Apple のドキュメント](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1)を参照してください。
 1. 「**[!UICONTROL サウンドを再生]**」フィールドで、通知を受信したときにモバイル端末で再生されるサウンドを選択します。

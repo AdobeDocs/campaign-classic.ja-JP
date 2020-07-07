@@ -4,11 +4,11 @@ user-guide-title: Adobe Campaign Classic ヘルプ
 index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
-translation-type: ht
-source-git-commit: 5d67ab5bbc44b81c65605ae9132cf5a8356aa814
-workflow-type: ht
-source-wordcount: '2082'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c38fe4cc442768550ee90cecc6b31b78d39f3da1
+workflow-type: tm+mt
+source-wordcount: '2078'
+ht-degree: 99%
 
 ---
 
@@ -73,12 +73,13 @@ ht-degree: 100%
    + 外部データベースへのアクセス（FDA）{#accessing-external-database}
       + [FDA について](platform/using/about-fda.md)
       + [データベースタイプ別の特定の設定](platform/using/specific-configuration-database.md)
+      + [レガシーコネクタ](platform/using/legacy-connectors.md)
       + [リモートデータベースのアクセス権](platform/using/remote-database-access-rights.md)
       + [データベースへの接続](platform/using/connecting-to-database.md)
       + [データスキーマの作成](platform/using/creating-data-schema.md)
       + [データマッピングの削除](platform/using/defining-data-mapping.md)
       + [追加のオプション](platform/using/additional-options.md)
-      + [ワークフローでの外部データベースからのデータの使用](platform/using/data-external-database-workflow.md)
+      + [付録](platform/using/appendices-fda.md)
    + コネクタ {#connectors}
       + [コネクタについて](platform/using/about-connectors.md)
       + [CRM コネクタ](platform/using/crm-connectors.md)
@@ -623,6 +624,7 @@ ht-degree: 100%
    + はじめに {#introduction}
       + [前書き](production/using/foreword.md)
       + [一般的なアーキテクチャ](production/using/general-architecture.md)
+      + [監視のガイドライン](production/using/monitoring-guidelines.md)
    + 本番環境の場合の手順 {#production-procedures}
       + [設定の原則](production/using/configuration-principle.md)
       + [動作の仕組み](production/using/operating-principle.md)

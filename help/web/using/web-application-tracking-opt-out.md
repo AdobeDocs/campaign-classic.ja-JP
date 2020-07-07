@@ -14,9 +14,9 @@ discoiquuid: 8f413002-bd32-426f-88b9-44cefae68593
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a62e4d072573f7ed1b77f755eb57838c70745592
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
+workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Web アプリケーションまたはランディングページに表示する�
 
 Adobe Campaign は、サンプルバナーを提供します（ニーズに合わせて変更する必要があります）。このバナーのバージョンは、コンテンツモデルフォルダー内のパーソナライゼーションブロックとして表示されます。[このページ](../../delivery/using/personalization-blocks.md)を参照してください。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >独自のバナーを作成するには、標準バナーをパーソナライズする必要があります。
 

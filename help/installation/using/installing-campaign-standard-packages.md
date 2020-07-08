@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 788866c4f11d3875f713a61f7560d6d5255f3019
+source-git-commit: d60389eb735fb50188ddc2f2e3df3788a3213446
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1163'
 ht-degree: 27%
 
 ---
@@ -132,12 +132,6 @@ ht-degree: 27%
    <td> モバイル/SMSチャネルを使用してAdobe Campaignと配信を送信します。 （オプション）<a href="../../delivery/using/sms-channel.md">詳細情報</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
-  <tr> 
-   <td> 電話チャネル<br /> </td> 
-   <td> 電話チャネルを使用してAdobe Campaignを送信します。<br /> </td> 
-   <td> すべて<br /> </td> 
-   <td> オプション</td> 
-  </tr>
   <tr> 
    <td> モバイルアプリチャネル<br /> </td> 
    <td> Adobe Campaignプラットフォームを使用して、アプリを介してiOSおよびAndroid端末にパーソナライズされた通知を送信します。 （オプション）<a href="../../delivery/using/about-mobile-app-channel.md">詳細情報</a> <br /> </td> 

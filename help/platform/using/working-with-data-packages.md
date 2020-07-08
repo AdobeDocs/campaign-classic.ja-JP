@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 788866c4f11d3875f713a61f7560d6d5255f3019
+source-git-commit: a6b15dd1be6bb53b7a757d7fe1333314df9693a4
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 99%
+source-wordcount: '2532'
+ht-degree: 96%
 
 ---
 
@@ -38,11 +38,11 @@ Adobe Campaign では、パッケージシステムを通じて、プラット�
 エクスポート可能なパッケージとしては、ユーザーパッケージ、プラットフォームパッケージ、管理パッケージの 3 種類があります。
 
 * **ユーザーパッケージ**：エクスポートするエンティティのリストを選択できます。このタイプのパッケージでは、依存関係の管理とエラーの検証がおこなわれます。
-* **プラットフォームパッケージ**：スキーマ、JavaScript コードなど、すべての付加的な技術リソースが含まれています（非標準）。
+* **Platformパッケージ**: 追加されたすべてのテクニカルリソースが含まれます（非標準）。 スキーマ、JavaScriptコードなど
 
    ![](assets/ncs_datapackage_package_platform.png)
 
-* **管理パッケージ**：テンプレート、ライブラリなど、すべての付加的なテンプレートやビジネスオブジェクトが含まれています（非標準）。
+* **管理パッケージ**: 追加されたすべてのテンプレートとビジネスオブジェクトが含まれます（非標準）。 テンプレート、ライブラリなど
 
    ![](assets/ncs_datapackage_package_admin.png)
 
@@ -315,7 +315,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／詳細設定／パッケージインポート]**&#x200B;メニューを選択すると、パッケージインポートウィザードにアクセスできます。
 
-事前に（例えば、別の Adobe Campaign インスタンスから）エクスポートしたパッケージをインポートするか、ライセンス条件によっては標準パッケージをインポートすることができます。
+You can import a package from an export performed earlier, e.g. from another Adobe Campaign instance, or a [built-in package](../../installation/using/installing-campaign-standard-packages.md), depending on the terms of your license.
 
 ![](assets/ncs_datapackage_import.png)
 
@@ -331,13 +331,13 @@ Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツー�
 
 ![](assets/ncs_datapackage_import_2.png)
 
-### 標準パッケージのインストール {#installing-a-standard-package}
+### Installing a built-in package {#installing-a-standard-package}
 
-標準パッケージは Adobe Campaign を設定するときにインストールされます。権限とデプロイメントモデルに応じて、新しいオプションやアドオンを入手する場合や、新しいオファーにアップグレードする場合に、新しい標準パッケージをインポートできます。
+標準パッケージは組み込みのパッケージで、Adobe Campaignの設定時にインストールされます。 権限とデプロイメントモデルに応じて、新しいオプションやアドオンを入手する場合や、新しいオファーにアップグレードする場合に、新しい標準パッケージをインポートできます。
 
 インストールできるパッケージを確認するには、ライセンス契約を参照してください。
 
-標準パッケージについて詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+For more information on built-in packages, refer to [this page](../../installation/using/installing-campaign-standard-packages.md).
 
 ## データパッケージのベストプラクティス {#data-package-best-practices}
 

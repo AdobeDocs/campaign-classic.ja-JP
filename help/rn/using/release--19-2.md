@@ -14,11 +14,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: eab67029d477044bc853f2a5c2de06ace70ebbee
-workflow-type: ht
-source-wordcount: '1373'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
+workflow-type: tm+mt
+source-wordcount: '1372'
+ht-degree: 99%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-**最新の安定したビルド**&#x200B;は 9032（3a9dc9c）です。[ここ](../../rn/using/release--19-1.md#release-19-1-4-build-9032)をクリックしてください
+最 **後の安定したビルドは** 、Gold Standard 10です。 [ここ](../../rn/using/release--19-1.md#release-19-1-4-build-9032)をクリックしてください
 
 ## ![](assets/do-not-localize/orange_2.png) リリース 19.2.3 - ビルド 9081 {#release-19-2-3-build-9081}
 

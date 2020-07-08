@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8c352c850777852d14ccf3002c20f651b46f9047
+source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
 workflow-type: tm+mt
-source-wordcount: '2928'
-ht-degree: 94%
+source-wordcount: '2945'
+ht-degree: 93%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-**最新の安定したビルド**&#x200B;は 9032（3a9dc9c）です。[ここ](../../rn/using/release--19-1.md#release-19-1-4-build-9032)をクリックしてください
+最 **後の安定したビルドは** 、Gold Standard 10です。 [ここ](../../rn/using/release--19-1.md#release-19-1-4-build-9032)をクリックしてください
 
 ## ![](assets/do-not-localize/orange_2.png) リリース 19.1.6 - ビルド 9035 {#release-19-1-6-build-9035}
 
@@ -83,7 +83,7 @@ _2020年7月7日_
 
 この新しいビルド(9032@efd8a94)には、次の修正が含まれています。
 
-* トラッキングリンクが機能しない問題を修正しました。 （NEO-26411）
+* ミッドソースサーバーがビルド9032(Gold Standard 7)を、マーケティングサーバーが古いビルド（9032より前）を使用している場合、トラッキングが機能しない問題を修正しました。 （NEO-26411）
 
 >[!CAUTION]
 >

@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb35d2ae2d40aaef3bb381675d0c36ffb100b242
+source-git-commit: a034749c82f44edaf718b732e6871b9af378636a
 workflow-type: tm+mt
-source-wordcount: '2574'
-ht-degree: 80%
+source-wordcount: '2604'
+ht-degree: 79%
 
 ---
 
@@ -82,9 +82,11 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 * [データの読み込み（ファイル）アクティビティ](../../workflow/using/data-loading--file-.md).
 * [ファイルの圧縮または暗号化](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
-### 使用例： コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み {#use-case-gpg-decrypt}
+### 使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み {#use-case-gpg-decrypt}
 
 この使用例では、外部システムで暗号化されたデータを読み込むために、コントロールパネルで生成されたキーを使用してワークフローを構築します。
+
+GPGキーを使用してデータを復号化する方法を示すチュートリアルビデオも [この節で説明します](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html)。
 
 この使用例を実行する手順は次のとおりです。
 

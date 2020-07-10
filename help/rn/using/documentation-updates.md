@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 306c7bf0a94684d27c5f95035f3d3e77da8c7097
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6809'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 99%
 
 ## 2020 年 7 月 {#july-2020}
 
-Campaign Classicの監視に関するガイドラインを含む新しい節を追加しました。 [詳細を表示](../../production/using/monitoring-guidelines.md)
+Campaign Classic の監視に関するガイドラインを含む新しい節を追加しました。[詳細を表示](../../production/using/monitoring-guidelines.md)
 
-「プライバシーと同意」セクションが強化され、より詳細な情報と役に立つリンクが追加されました。 [詳細を表示](../../platform/using/privacy-and-recommendations.md)。
+プライバシーと同意の節が強化され、より詳細な情報と役に立つリンクが追加されました。[詳細を表示](../../platform/using/privacy-and-recommendations.md)。
 
 ## 2020 年 6 月{#june-2020}
 

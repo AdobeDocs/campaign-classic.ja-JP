@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb35d2ae2d40aaef3bb381675d0c36ffb100b242
+source-git-commit: a034749c82f44edaf718b732e6871b9af378636a
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '949'
 ht-degree: 52%
 
 ---
@@ -101,9 +101,11 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 * [処理前のファイルの解凍または復号化](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing)
 * [データ抽出（ファイル）アクティビティ](../../workflow/using/extraction--file-.md).
 
-### 使用例： コントロールパネルにインストールされたキーを使用して、データを暗号化およびエクスポートする {#use-case-gpg-encrypt}
+### 使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し {#use-case-gpg-encrypt}
 
 この場合、コントロールパネルにインストールされたキーを使用してデータを暗号化およびエクスポートするためのワークフローを構築します。
+
+GPGキーを使用してデータを暗号化する方法を示すチュートリアルビデオも [この節で説明します](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html)。
 
 この使用例を実行する手順は次のとおりです。
 

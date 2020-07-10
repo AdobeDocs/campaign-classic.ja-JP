@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: d2781c8bc25cde742a89bddc1535886179130c2a
 workflow-type: tm+mt
 source-wordcount: '2945'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -77,27 +77,27 @@ _2019 年 8 月 13 日_
 
 ## リリース 19.1.4 - ビルド 9032{#release-19-1-4-build-9032}
 
-![](assets/do-not-localize/green_2.png) **Gold Standard 10リリース**
+![](assets/do-not-localize/green_2.png) **Gold Standard 10 リリース**
 
-_2020年7月7日_
+_2020 年 7 月 7 日_
 
-この新しいビルド(9032@efd8a94)には、次の修正が含まれています。
+この新しいビルド（9032@efd8a94）には、以下の修正が含まれています。
 
 * ミッドソーシングサーバーがビルド9032（ゴールド標準）を、マーケティングサーバーが古いビルド（9032より前）を使用している場合、トラッキングが機能しない問題を修正しました。 （NEO-26411）
 
 >[!CAUTION]
 >
->このリリースで利用可能なクライアントコンソールを使用してクライアントコンソールをアップグレードすることをお勧めします。 Refer to this [page](../../installation/using/installing-the-client-console.md)
+>クライアントコンソールをこのリリースに含まれるものにアップグレードすることをお勧めします。この[ページ](../../installation/using/installing-the-client-console.md)を参照してください。
 
-![](assets/do-not-localize/orange_2.png) **Gold Standard 9リリース**
+![](assets/do-not-localize/orange_2.png) **Gold Standard 9 リリース**
 
-_2020年6月22日_
+_2020 年 6 月 22 日_
 
-この新しいビルド(9032@800be2e)には、次の修正が含まれています。
+この新しいビルド（9032@800be2e）には、以下の修正が含まれています。
 
 * iOS HTTP2 コネクタが強化されました（サードパーティのアップデートおよびエラー管理）。（NEO-25904、NEO-25903、NEO-25799）
 
-トラッキングリンクのセキュリティメカニズムに関する修正( [セキュリティとプライバシーのチェックリストを参照](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism))。
+以下はトラッキングリンクのセキュリティメカニズムに関する修正です（[セキュリティとプライバシーのチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)を参照）。
 
 * 「通知クリック数」のトラッキングが機能しない問題を修正しました（iOS および Android のプッシュ通知）。（NEO-25965）
 * 一部のレガシーバージョンの Outlook を使用する場合に、トラッキング URL を開いたりクリックしたりできない問題を修正しました。（NEO-25688）
@@ -105,11 +105,11 @@ _2020年6月22日_
 * フィッシング詐欺対策サービスの問題を修正しました。（NEO-25283）
 * 特定のカスタムトラッキング式を使用する場合のトラッキングの問題を修正しました。（NEO-25277）
 
-![](assets/do-not-localize/orange_2.png) **Gold Standard 8リリース**
+![](assets/do-not-localize/orange_2.png) **Gold Standard 8 リリース**
 
-_2020年4月29日_
+_2020 年 4 月 29 日_
 
-この新しいビルド(9032@3a9dc9c)には、次の修正が含まれています。
+この新しいビルド（9032@3a9dc9c）には、以下の修正が含まれています。
 
 * E メール内のリンクの追跡に関するセキュリティを改善。これは、あらゆる顧客に対してデフォルトで有効です。さらに、強化されたセキュリティ機能が利用できます。この機能はカスタマーケアにご連絡いただくと有効にできます。これを非ホスト型顧客が有効にするための手順と機能の詳細については、[セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
 
@@ -130,45 +130,45 @@ _2020年4月29日_
 * クリーンアップワークフローがクラッシュする原因となる問題を修正しました。
 * クリーンアップワークフローログの軽度の問題を修正しました。
 
-![](assets/do-not-localize/orange_2.png) **Gold Standard 6リリース**
+![](assets/do-not-localize/orange_2.png) **Gold Standard 6 リリース**
 
-_2019年3月9日_
+_2019 年 3 月 9 日_
 
-この新しいビルド(9032@19f73c5)には、次の修正が含まれています。
+この新しいビルド（9032@19f73c5）には、以下の修正が含まれています。
 
 * FTP over SSL を使用する外部アカウントの問題を修正しました。（NEO-20498）
 
-![](assets/do-not-localize/orange_2.png) **Gold Standard 5リリース**
+![](assets/do-not-localize/orange_2.png) **Gold Standard 5 リリース**
 
-_2019年12月18日_
+_2019 年 12 月 17 日_
 
-この新しいビルド(9032@d6b8062)には、次の修正が含まれています。
+この新しいビルド（9032@d6b8062）には、以下の修正が含まれています。
 
 * モバイル（SMS、MMS）、プッシュ（iOS、Android）およびソーシャルネットワーク（Facebook、Twitter）の各通信チャネルでのトラッキングの問題を修正しました。（NEO-19595）
 
-![](assets/do-not-localize/orange_2.png) **Gold Standard 4リリース**
+![](assets/do-not-localize/orange_2.png) **Gold Standard 4 リリース**
 
-_2019年12月11日_
+_2019 年 12 月 11 日_
 
-この新しいビルド(9032@bc4a935)には、次の修正が含まれています。
+この新しいビルド（9032@bc4a935）には、以下の修正が含まれています。
 
 * MSSQL データベースでメッセージを送信する際のパフォーマンスの問題を修正しました。（NEO-17558）
 
-![](assets/do-not-localize/orange_2.png) **Gold Standard 3リリース**
+![](assets/do-not-localize/orange_2.png) **Gold Standard 3 リリース**
 
-_2019年11月20日_
+_2019 年 11 月 20 日_
 
-この新しいビルド(9032@3468c7b)には、次の修正が含まれています。
+この新しいビルド（9032@3468c7b）には、以下の修正が含まれています。
 
 * IMS 認証を使用したログインの問題を修正しました。（NEO-17312）
 * 複数の配信に関する累積レポートを表示する際の問題を修正しました。（NEO-18165）
 * Web サーバーがブロックまたはクラッシュする可能性がある問題を修正しました。
 
-![](assets/do-not-localize/orange_2.png) **Gold Standard 2リリース**
+![](assets/do-not-localize/orange_2.png) **Gold Standard 2 リリース**
 
-_2019年9月19日_
+_2019 年 9 月 19 日_
 
-この新しいビルド(9032@cee805c)には、次の修正が含まれています。
+この新しいビルド（9032@cee805c）には、以下の修正が含まれています。
 
 * Salesforce 用 CRM コネクタを使用する際の問題を修正しました。（NEO-17712）
 * トランザクションメッセージの送信時にパフォーマンスの問題を引き起こす可能性があるインデックスの問題を修正しました。
@@ -177,7 +177,7 @@ _2019年9月19日_
 
 _2019 年 8 月 13 日_
 
-最初の19.1.4ビルドには、次の修正が含まれています。
+初期の 19.1.4 ビルドには以下の修正が含まれています。
 
 * スケジューラーアクティビティで、ウィザード設定時に望ましくないエラーメッセージが生成される問題を修正しました。NEO-11662 から、更新を元に戻します。（NEO-17097）
 * テストアクティビティが 2 回実行された際にワークフローが停止する、NEO-12727 が原因の回帰を修正しました。（NEO-16835）

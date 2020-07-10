@@ -4,11 +4,11 @@ seo-title: Adobe Campaign Classic 製品ドキュメント
 solution: Campaign Classic
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad0f9bdd2571a8780da464dc3ac8feb7b5aed998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 95%
 
 * **[顔文字](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>メッセージと件名に顔文字を挿入できるようになりました。
 
-* **[サポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)**<br/> FAQ、ベストプラクティス、ヘルプリソースにアクセスし、サポートをリクエストできます。
+* **[サポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)**<br/>
+FAQ、ベストプラクティス、ヘルプリソースにアクセスし、サポートをリクエストできます。
 
 * **[プライバシーコンプライアンス](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/>
 Adobe Campaign がプライバシーコンプライアンスの遵守に役立つ理由を説明します。

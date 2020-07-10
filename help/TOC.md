@@ -4,11 +4,11 @@ user-guide-title: Adobe Campaign Classic ヘルプ
 index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c38fe4cc442768550ee90cecc6b31b78d39f3da1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2078'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 99%
    + 外部データベースへのアクセス（FDA）{#accessing-external-database}
       + [FDA について](platform/using/about-fda.md)
       + [データベースタイプ別の特定の設定](platform/using/specific-configuration-database.md)
-      + [レガシーコネクタ](platform/using/legacy-connectors.md)
+      + [従来のコネクタ](platform/using/legacy-connectors.md)
       + [リモートデータベースのアクセス権](platform/using/remote-database-access-rights.md)
       + [データベースへの接続](platform/using/connecting-to-database.md)
       + [データスキーマの作成](platform/using/creating-data-schema.md)

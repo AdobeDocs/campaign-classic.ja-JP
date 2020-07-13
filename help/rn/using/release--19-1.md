@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d2781c8bc25cde742a89bddc1535886179130c2a
+source-git-commit: 77bb2ee42919a1bbf9a1a9e4594505f5cf99ca68
 workflow-type: tm+mt
-source-wordcount: '2945'
-ht-degree: 98%
+source-wordcount: '2932'
+ht-degree: 99%
 
 ---
 
@@ -83,7 +83,7 @@ _2020 年 7 月 7 日_
 
 この新しいビルド（9032@efd8a94）には、以下の修正が含まれています。
 
-* ミッドソーシングサーバーがビルド9032（ゴールド標準）を、マーケティングサーバーが古いビルド（9032より前）を使用している場合、トラッキングが機能しない問題を修正しました。 （NEO-26411）
+* 署名機能が無効な場合に追跡が機能しない問題を修正しました。 （NEO-26411）
 
 >[!CAUTION]
 >

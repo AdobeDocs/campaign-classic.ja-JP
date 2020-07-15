@@ -14,11 +14,11 @@ discoiquuid: 91115d4f-0cb6-4bce-b28d-17f15e9f9a0a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0386ae88a1b4d9ebda64283d874e01b14e9e5af4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
+workflow-type: tm+mt
 source-wordcount: '1266'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 
 ## 受信者の編集 {#editing-a-recipient}
 
-ある 1 つのデータの変更に関する以下の手順で、データレプリケーションを使用する際に、どのようにして Campaign v7 が Campaign Standard のマスターデータベースになるかに関するシンプルな例を示します。Campaign v7 でレプリケートされたデータを変更または削除すると、Campaign Standard の対応するデータも同様に変更されます。
+データ・レプリケーションを使用する場合、単一点のデータオファーを変更する手順を、キャンペーンv7がCampaign Standardの主要データベースになる方法の簡単な例に示します。 Campaign v7 でレプリケートされたデータを変更または削除すると、Campaign Standard の対応するデータも同様に変更されます。
 
 1. [新しい受信者の作成](#creating-a-new-recipient)で新しく作成した受信者を選択して、受信者の名前を編集します。例えば、受信者の&#x200B;**[!UICONTROL 敬称]**（Mr. や Mrs. など）を選択します。詳しくは、[プロファイルの編集](../../platform/using/editing-a-profile.md)を参照してください。
 

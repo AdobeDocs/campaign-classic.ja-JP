@@ -14,8 +14,11 @@ discoiquuid: 627ade78-96b3-4a6e-9ace-74610a3c8d1a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+translation-type: tm+mt
+source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +35,7 @@ source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
 
    ![](assets/aem_uc_1.png)
 
-1. **[!UICONTROL キャンペーン／ブランド名（ここでは We.Retail）／マスター領域／電子メールキャンペーン]**&#x200B;を選択します。
+1. Select **[!UICONTROL Campaigns > Name of your brand (here We.Retail) > Main Area > Email campaigns]**.
 1. ページの右上にある「**[!UICONTROL 作成]**」ボタンをクリックし、「**[!UICONTROL ページ]**」を選択します。
 
    ![](assets/aem_uc_2.png)

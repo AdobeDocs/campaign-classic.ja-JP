@@ -4,11 +4,11 @@ user-guide-title: Adobe Campaign Classic ヘルプ
 index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
-translation-type: ht
-source-git-commit: c38fe4cc442768550ee90cecc6b31b78d39f3da1
-workflow-type: ht
-source-wordcount: '2078'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
+workflow-type: tm+mt
+source-wordcount: '2076'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 + はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic について](platform/using/about-adobe-campaign-classic.md)
-      + [プライバシーと推奨事項](platform/using/privacy-and-recommendations.md)
+      + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
       + [Adobe Campaign の起動](platform/using/launching-adobe-campaign.md)
       + [Adobe Campaign ワークスペース](platform/using/adobe-campaign-workspace.md)
       + よくある質問{#faq}
@@ -72,7 +72,7 @@ ht-degree: 100%
       + [外部アカウント](platform/using/external-accounts.md)
    + 外部データベースへのアクセス（FDA）{#accessing-external-database}
       + [FDA について](platform/using/about-fda.md)
-      + [データベースタイプ別の特定の設定](platform/using/specific-configuration-database.md)
+      + [FDAコネクタの設定](platform/using/specific-configuration-database.md)
       + [従来のコネクタ](platform/using/legacy-connectors.md)
       + [リモートデータベースのアクセス権](platform/using/remote-database-access-rights.md)
       + [データベースへの接続](platform/using/connecting-to-database.md)

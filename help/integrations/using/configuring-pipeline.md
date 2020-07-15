@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -129,7 +129,7 @@ EwIDAQAB
 
 ### Adobe Campaignクラシックでのアプリ名の登録 {#application-name-registration}
 
-作成するoAuthクライアントのアプリケーション IDは、Adobe Campaignで構成する必要があります。 これを行うには、パイプライン要素（特にappName属性）のインスタンス設定ファイルを編集します。
+作成するoAuthクライアントのアプリケーション IDは、Adobe Campaignで構成する必要があります。 これを行うには、 [!DNL pipelined] 要素内のインスタンス設定ファイル（特にappName属性）を編集します。
 
 例：
 
@@ -139,11 +139,11 @@ EwIDAQAB
 
 ### 鍵の暗号化 {#key-encription}
 
-パイプラインで使用するには、秘密鍵を暗号化する必要があります。 暗号化はJavaScriptのcryptString関数を使用して行われ、パイプラインと同じインスタンスで実行する必要があります。
+で使用するに [!DNL pipelined]は、秘密鍵を暗号化する必要があります。 暗号化はJavaScriptのcryptString関数を使用して行われ、と同じインスタンスで実行する必要があり [!DNL pipelined]ます。
 
 JavaScriptを使用した秘密鍵暗号化の例をこの [ページで紹介します](../../integrations/using/pipeline-troubleshooting.md)。
 
-暗号化された秘密鍵はAdobe Campaignに登録する必要があります。 これを行うには、パイプライン要素（特にauthPrivateKey属性）のインスタンス設定ファイルを編集します。
+暗号化された秘密鍵はAdobe Campaignに登録する必要があります。 これを行うには、 [!DNL pipelined] 要素内のインスタンス設定ファイル（特にauthPrivateKey属性）を編集します。
 
 例：
 
@@ -153,7 +153,7 @@ JavaScriptを使用した秘密鍵暗号化の例をこの [ページで紹介�
 
 ### パイプラインプロセスの自動開始 {#pipelined-auto-start}
 
-パイプラインプロセスは自動的に開始する必要があります。
+プロセスを自動的に開始する [!DNL pipelined] 必要があります。
 これを行うには、設定ファイル内の要素をautostart=&quot;true&quot;に設定します。
 
 ```
@@ -174,7 +174,7 @@ nlserver start pipelined@instance
 nlserver restart pipelined@instance
 ```
 
-エラーが発生した場合は、標準出力（手動で起動した場合）またはパイプライン付きログファイルでエラーを探します。 問題の解決方法の詳細については、このドキュメントの「トラブルシューティング」の項を参照してください。
+エラーが発生した場合は、標準出力（手動で起動した場合）または [!DNL pipelined] ログファイルでエラーを探します。 問題の解決方法の詳細については、このドキュメントの「トラブルシューティング」の項を参照してください。
 
 ### パイプライン構成オプション {#pipelined-configuration-options}
 
@@ -187,7 +187,7 @@ nlserver restart pipelined@instance
 | discoverPipelineEndpoint | このテナントに使用するパイプラインサービスエンドポイントを検出するURLです。 デフォルト：https://producer-pipeline-pnw.adobe.net |
 | dumpStatePeriodSec | var/INSTANCE/pipelined.json内部状態のプロセス内部状態の2ダンプ間の期間も、http://INSTANCE/pipelined/statusでオンデマンドでアクセスできます（ポート7781）。 |
 | forcedPipelineEndpoint | PipelineServicesEndpointの検出を無効にし、強制的に行います |
-| monitorServerPort | パイプラインプロセスは、このポートをリッスンして、http://INSTANCE/pipelined/status（ポート7781）でプロセス内部状態を提供します。 |
+| monitorServerPort | プロセスは、このポートを [!DNL pipelined] リッスンして、http://INSTANCE/pipelined/status（ポート7781）にプロセス内部状態を提供します。 |
 | pointerFlushMessageCount | この数のメッセージが処理されると、オフセットはデータベースに保存されます。 初期設定は1000です。 |
 | pointerFlushPeriodSec | この期間を過ぎると、オフセットはデータベースに保存されます。 初期設定は5（秒）です |
 | processingJSThreads | カスタムJSコネクタを使用してメッセージを処理する専用スレッドの数。 初期設定は4です。 |

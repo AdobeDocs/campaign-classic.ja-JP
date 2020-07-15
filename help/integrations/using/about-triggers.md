@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '479'
 ht-degree: 3%
 
 ---
@@ -46,11 +46,11 @@ ht-degree: 3%
 
 ### パイプラインの動作 {#how-pipeline-work}
 
-「パイプライン化」プロセスは、常にAdobe Campaignマーケティングサーバーで実行されます。 パイプラインに接続し、イベントを取得して、直ちに処理します。
+この [!DNL pipelined] プロセスは、常にAdobe Campaignマーケティングサーバーで実行されます。 パイプラインに接続し、イベントを取得して、直ちに処理します。
 
 ![](assets/triggers_2.png)
 
-パイプライン化されたプロセスは、認証サービスを使用してExperience Cloudにログインし、秘密鍵を送信します。 認証サービスはトークンを返します。 トークンは、イベントの取得時に認証に使用されます。 [!DNL Triggers] は、単純なGET要求を使用してREST Webサービスから取得されます。 応答はJSON形式です。 リクエストのパラメーターには、トリガーの名前と、最後に取得されたメッセージを示すポインターが含まれます。 パイプラインプロセスでは自動的に処理されます。
+プロセスは、認証サービスを使用してExperience Cloudにログインし、秘密鍵を送信します。 [!DNL pipelined] 認証サービスはトークンを返します。 トークンは、イベントの取得時に認証に使用されます。 [!DNL Triggers] は、単純なGET要求を使用してREST Webサービスから取得されます。 応答はJSON形式です。 リクエストのパラメーターには、トリガーの名前と、最後に取得されたメッセージを示すポインターが含まれます。 プロセスは、 [!DNL pipelined] それを自動的に処理します。
 
 ## Adobe Experience Cloud Triggersを使用したAdobe Campaignクラシックとの統合
 

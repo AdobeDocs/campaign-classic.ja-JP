@@ -15,15 +15,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1152'
 ht-degree: 2%
 
 ---
 
 
-# トリガーイベント {#events}
+# Triggers イベント {#events}
 
 ## JavaScriptでの処理イベント {#events-javascript}
 
@@ -31,13 +31,13 @@ ht-degree: 2%
 
 パイプラインはJavaScript関数を使用して各メッセージを処理します。 この関数はユーザー定義です。
 
-これは、「JSConnector」属性の下の **[!UICONTROL NmsPipeline_Config]** オプションで設定されます。 このjavascriptは、イベントを受信するたびに呼び出されます。 パイプライン処理で実行されます。
+これは、「JSConnector」属性の下の **[!UICONTROL NmsPipeline_Config]** オプションで設定されます。 このjavascriptは、イベントを受信するたびに呼び出されます。 プロセスで実行され [!DNL pipelined] ます。
 
 サンプルのJSファイルは、cus:triggers.jsです。
 
 ### JavaScript 関数 {#function-js}
 
-パイプラインJavaScriptは、特定の関数と開始する必要があります。
+JavaScript [!DNL pipelined] は、特定の関数と開始する必要があります。
 
 この関数は、イベントごとに1回呼び出されます。
 
@@ -51,7 +51,7 @@ function processPipelineMessage(xmlTrigger) {}
 <undefined/>
 ```
 
-JSの編集後にパイプラインで再起動します。
+JSを編集 [!DNL pipelined] した後、再起動します。
 
 ### トリガーデータの形式 {#trigger-format}
 
@@ -60,7 +60,7 @@ JSの編集後にパイプラインで再起動します。
 * @triggerId **[!UICONTROL 属性には、の名前が含まれ]**[!DNL trigger]ます。
 * JSON形式の **エンリッチメント** 要素には、Analyticsによって生成されたデータが含まれ、トリガーに添付されます。
 * **[!UICONTROL @offset]** は、メッセージへの「ポインタ」です。 キュー内のメッセージの順序を示します。
-* **[!UICONTROL @partition]**nは、キュー内のメッセージのコンテナです。 The offset is relative to a partition. <br>キューには約15のパーティションがあります。
+* **[!UICONTROL @partition]**nは、キュー内のメッセージのコンテナです。 オフセットは、パーティションを基準とした相対位置です。 <br>キューには約15のパーティションがあります。
 
 例：
 
@@ -71,7 +71,7 @@ JSの編集後にパイプラインで再起動します。
  </trigger>
 ```
 
-### Enrichment data format {#enrichment-format}
+### エンリッチメントデータ形式 {#enrichment-format}
 
 >[!NOTE]
 >
@@ -110,26 +110,26 @@ JSの編集後にパイプラインで再起動します。
 
 ### イベント処理の順序 {#order-events}
 
-イベントは、オフセット順に1つずつ処理されます。 パイプラインの各スレッドは、異なるパーティションを処理します。
+イベントは、オフセット順に1つずつ処理されます。 各スレッドは異なるパーティションを [!DNL pipelined] 処理します。
 
-最後に取得したイベントの「オフセット」がデータベースに格納されます。 Therefore, if the process is stopped, it restarts from the last message. このデータは組み込みスキーマxtk:pipelineOffsetに格納されます。
+最後に取得したイベントの「オフセット」がデータベースに格納されます。 したがって、プロセスが停止すると、最後のメッセージから再開されます。 このデータは組み込みスキーマxtk:pipelineOffsetに格納されます。
 
-This pointer is specific to each instance and each consumer. したがって、多くのインスタンスが異なるコンシューマーを使用して同じパイプラインにアクセスする場合、すべてのメッセージが同じ順序で取得されます。
+このポインタは、各インスタンスと各コンシューマに固有です。 したがって、多くのインスタンスが異なるコンシューマーを使用して同じパイプラインにアクセスする場合、すべてのメッセージが同じ順序で取得されます。
 
 パイプラインオプションの「consumer」パラメータは、呼び出し元のインスタンスを識別します。
 
 現在、「staging」や「dev」などの別々の環境に異なるキューを置く方法はありません。
 
-### Logging and error handling {#logging-error-handling}
+### ログとエラー処理 {#logging-error-handling}
 
-Logs such as logInfo() are directed to the pipelined log. Errors such as logError() are written to the pipelined log and cause the event to be put into a retry queue. パイプラインログを確認します。
-Messages in error are retried several times in the duration set in the pipelined options.
+logInfo()などのログはログに送られ [!DNL pipelined] ます。 logError()などのエラーはログに書き込まれ、イベントが再試行キューに入れら [!DNL pipelined] れます。 パイプラインログを確認します。
+エラーのメッセージは、 [!DNL pipelined] オプションで設定された時間内に複数回再試行されます。
 
-デバッグおよび監視の目的で、完全なトリガーデータがトリガーテーブルに書き込まれます。 It is in the &quot;data&quot; field in XML format. Alternatively, a logInfo() containing the trigger data serves the same purpose.
+デバッグおよび監視の目的で、完全なトリガーデータがトリガーテーブルに書き込まれます。 XML形式の「data」フィールドです。 または、トリガーデータを含むlogInfo()も同じ目的で使用します。
 
 ### データの解析 {#data-parsing}
 
-This sample JS code parses the eVar01 in the enrichments.
+このサンプルJSコードは、エンリッチメント内のeVar01を解析します。
 
 ```
 function processPipelineMessage(xmlTrigger)
@@ -157,7 +157,7 @@ function processPipelineMessage(xmlTrigger)
 >
 >これは、様々な実装から得られる具体的な例です。
 
-This sample JS code saves the trigger to the database.
+このサンプルJSコードは、トリガーをデータベースに保存します。
 
 ```
 function processPipelineMessage(xmlTrigger)
@@ -181,7 +181,7 @@ function processPipelineMessage(xmlTrigger)
 
 ### 制約 {#constraints}
 
-このコードは高周波で動作するので、パフォーマンスは最適である必要があります。 他のマーケティングアクティビティには悪影響が出る可能性があります。 Especially if processing more than one million trigger events per hour on the Marketing server. または適切に調整されていない場合は、
+このコードは高周波で動作するので、パフォーマンスは最適である必要があります。 他のマーケティングアクティビティには悪影響が出る可能性があります。 特に、1時間に100万を超える処理が行われると、マーケティングサーバーでイベントがトリガーされます。 または適切に調整されていない場合は、
 
 このJavaScriptのコンテキストは制限されます。 APIの一部の機能を使用できるわけではありません。 例えば、getOption()やgetCurrentdate()は機能しません。
 
@@ -193,22 +193,22 @@ function processPipelineMessage(xmlTrigger)
 >
 >これは、様々な実装から得られる具体的な例です。
 
-### Pipeline event schema {#pipeline-event-schema}
+### パイプラインイベントスキーマ {#pipeline-event-schema}
 
 イベントは、データベーステーブルに格納されます。 ターゲットの顧客に対するマーケティングキャンペーンや、トリガーを使用した電子メールの拡充に使用されます。
 各トリガーは異なるデータ構造を持つことができますが、すべてのトリガーは単一のテーブルに保持できます。
 triggerTypeフィールドは、データの送信元を識別します。
 
-Here is a sample schema code for this table:
+次に、この表のスキーマコードの例を示します。
 
 | 属性 | タイプ | ラベル | 説明 |
 |:-:|:-:|:-:|:-:|
 | pipelineEventId | 長い | プライマリキー | トリガーの内部主キー。 |
-| data | メモ | トリガーデータ | The full contents of trigger data in XML format. デバッグおよび監査の目的で使用します。 |
+| data | メモ | トリガーデータ | XML形式のトリガーデータの完全な内容。 デバッグおよび監査の目的で使用します。 |
 | triggerType | 文字列50 | TriggerType | トリガーの名前。 Webサイト上での顧客の行動を識別します。 |
 | shopper_id | 文字列32 | shopper_id | 買い物客の内部識別子。 調整ワークフローによって設定されます。 0の場合、キャンペーンが不明であることを意味します。 |
 | shopper_key | 長い | shopper_key | Analyticsによってキャプチャされた買い物客の外部識別子。 |
-| created | 日時 | 作成済み | The time when the event was created in Campaign. |
+| created | 日時 | 作成済み | イベントがキャンペーンで作成された時刻。 |
 | lastModified | 日時 | 最終変更日時 | イベントが最後にアドビで変更されたとき。 |
 | timeGMT | 日時 | Timestamp | イベントがAnalyticsで発生した時刻。 |
 

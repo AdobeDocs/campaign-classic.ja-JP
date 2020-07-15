@@ -14,11 +14,11 @@ discoiquuid: 8b101c0b-3611-4f15-813b-7c0bf54fc48a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3bf835b3f686d1293fda7e6254660c477ba26452
-workflow-type: ht
-source-wordcount: '3273'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2f0bb31f7234289f39a561fa58a23cac0390b465
+workflow-type: tm+mt
+source-wordcount: '3272'
+ht-degree: 99%
 
 ---
 
@@ -64,7 +64,7 @@ SMS のプロトコルと設定について詳しくは、この[技術メモ](h
 
    >[!CAUTION]
    >
-   > リリース 20.2 より、従来のコネクタは非推奨となり、サポートされません。**[!UICONTROL 拡張された汎用 SMPP]** コネクタの使用をお勧めします。推奨コネクタに移行する方法について詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/sms-connector.html)を参照してください。
+   > リリース20.2以降、レガシーコネクタは非推奨となり、サポートされません。 **[!UICONTROL 拡張された汎用 SMPP]** コネクタの使用をお勧めします。推奨コネクタに移行する方法について詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/sms-connector.html)を参照してください。
 
 1. 「**[!UICONTROL ログファイルの詳細 SMPP トレースを有効にする]**」オプションを使用すると、ログファイル内のすべての SMPP トラフィックをダンプできます。コネクタのトラブルシューティングやプロバイダー側が確認できるトラフィックとの比較をおこなうには、このオプションを有効にする必要があります。
 

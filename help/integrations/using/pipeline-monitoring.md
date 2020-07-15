@@ -15,17 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 39d6da007d69f81da959660b24b56ba2558a97ba
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '438'
 ht-degree: 2%
 
 ---
 
 
-# パイプライン監視 {#pipeline-monitoring}
+# パイプラインの監視 {#pipeline-monitoring}
 
-パイプライン状態Webサービスは、パイプライン処理の状態に関する情報を提供します。
+ステータス [!DNL pipelined] Webサービスは、プロセスのステータスに関する情報を提供し [!DNL pipelined] ます。
 
 ブラウザーを使用して手動でアクセスするか、監視アプリケーションを使用して自動的にアクセスすることができます。
 
@@ -50,7 +50,7 @@ REST形式です。以下に説明します。
    * next-offsets-flush: 終了時に次のバッチまで待機する時間。
    * processed-since-last-flush: 最後のバッチで処理されたトリガーの数。
 * ルーティング
-   * トリガー： 取得したトリガーのリスト。 パイプラインオプションで設定されます。
+   * トリガー： 取得したトリガーのリスト。 オプションで設定され [!DNL pipelined] ます。
 * stats
    * average-pointer-flush-time-ms: 1バッチのトリガーの平均処理時間。
    * average-trigger-processing-time-ms: トリガーデータの解析に費やされた平均時間です。

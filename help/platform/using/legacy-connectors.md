@@ -1,7 +1,7 @@
 ---
-title: レガシーコネクタ
-seo-title: レガシーコネクタ
-description: レガシーコネクタ
+title: 従来のコネクタ
+seo-title: 従来のコネクタ
+description: 従来のコネクタ
 seo-description: null
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
@@ -15,15 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fddd0b61c71c90849a1f64776eea43c57d9debe2
+source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 98%
+source-wordcount: '1294'
+ht-degree: 97%
 
 ---
 
 
-# レガシーコネクタ {#legacy-connectors}
+# 従来のコネクタ {#legacy-connectors}
+
+レガシーFDAコネクターは、引き続きアドビでサポートされます。 ただし、この [ページに示す最新の代替オプションに置き換えることをお勧めします](../../platform/using/specific-configuration-database.md)。
 
 ## Hadoop 2.1 へのアクセスの設定 {#configure-access-to-hadoop}
 

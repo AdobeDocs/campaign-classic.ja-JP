@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7d944973e10c4df166325049b947e359853a2353
+source-git-commit: fdc305ff5bf27aa5cc0a4a9e89ac8ed9d5bead57
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 17%
+source-wordcount: '722'
+ht-degree: 16%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 17%
 
 Campaign Classicのホームページからアクセスできる **[!UICONTROL 「監視]** 」タブは、インスタンスの監視に役立つ主なエントリポイントです。
 
-インスタンスで何が起きているかのダッシュボードを提供します。  ステータス（ビルドバージョン、インストール済みパッケージなど）、システムインジケータ、ログ、現在実行中のワークフロー、最後に送信された配信の状態など。
+インスタンスで何が起きているかのダッシュボードを提供します。 ステータス（ビルドバージョン、インストール済みパッケージなど）、システムインジケータ、ログ、現在実行中のワークフロー、最後に送信された配信の状態など。
 
 詳しくは、[こちら](../../production/using/monitoring-processes.md)を参照してください。
 
@@ -35,16 +35,18 @@ Campaign Classicのホームページからアクセスできる **[!UICONTROL �
 
 ## Monitoring Campaign Classic processes {#monitoring-campaign-classic-processes}
 
-様々なキャンペーンプロセスを監視するその他の方法を使用できます。 詳しくは、以下の節を参照してください。
-
 <table>
-<tr><td><img src="assets/do-not-localize/instance_icon.svg" width="60px"><p><a href="#monitoring-instance">インスタンスの監視</a></p></td>
-<td><img src="assets/do-not-localize/workflow_icon.svg" width="60px"><p><a href="#moniroting-workflows">ワークフローの監視</a></p></td>
-<td><img src="assets/do-not-localize/database_icon.svg" width="60px"><p><a href="#monitoring-database">データベースの監視</a></p></td>
-<td><img src="assets/do-not-localize/delivery_icon.svg" width="60px"><p><a href="#monitoring-deliveries">配信の監視</a></p></td></tr>
+<tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">インスタンスの監視</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">ワークフローの監視</a></p></td>
+<td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">データベースの監視</a></p></td>
+<td><img src="assets/do-not-localize/icon_Send.svg" width="60px"><p><a href="#monitoring-deliveries">配信の監視</a></p></td></tr>
 </table>
 
+様々なキャンペーンプロセスを監視するその他の方法を使用できます。 システムが正常であることを確認し、ワークフローの設定や配信の送信時に発生する可能性のある問題のトラブルシューティングを行うために、インスタンスをいくつかの方法で監視します。
+
 ### インスタンスの監視 {#monitoring-instance}
+
+<img src="assets/do-not-localize/icon_system.svg" width="60px">
 
 **自動監視ツール**
 
@@ -56,13 +58,15 @@ Campaign Classicのホームページからアクセスできる **[!UICONTROL �
 
 **コントロールパネル**
 
-コントロールパネルでは、インスタンスのいくつかの設定を管理できます。 URL権限の管理、サーバーのビルドバージョンなど、インスタンスの詳細を確認します。 また、インスタンスに接続されているSFTPサーバーの使用可能な領域を監視することもできます。 [詳しくは、ここをクリックしてください。](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
+このCampaign コントロールパネルでは、インスタンスのいくつかの設定を管理できます。 URL権限の管理、サーバーのビルドバージョンなど、インスタンスの詳細を確認します。 また、インスタンスに接続されているSFTPサーバーの使用可能な領域を監視することもできます。 [詳しくは、ここをクリックしてください。](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
 
 >[!NOTE]
 >
->コントロールパネルは管理者ユーザーのみがアクセスでき、Adobe Managed Servicesを使用するすべてのお客様が利用できます。
+>Campaign コントロールパネルは管理者ユーザーのみがアクセスでき、Adobe Managed Servicesを使用するすべてのお客様が利用できます。
 
 ### ワークフローの監視 {#monitoring-workflows}
+
+<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 **ワークフローヒートマップ**
 
@@ -88,6 +92,8 @@ Workflow HeatMapは、インスタンスで実行されているすべてのワ�
 
 ### 配信の監視 {#monitoring-deliveries}
 
+<img src="assets/do-not-localize/icon_send.svg" width="60px">
+
 **SMTPレポート**
 
 SMTPレポートには、配信の統計とSMTPエラーがドメイン別に表示されます。 [詳しくは、ここをクリックしてください。](../../production/using/monitoring-processes.md)
@@ -99,10 +105,12 @@ SMTPレポートには、配信の統計とSMTPエラーがドメイン別に表
 **配信のトラブルシューティング**&#x200B;特定のアクションは、配信の問題が発生した場合に実行できます。
 * [配信品質の問題](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [画像の表示の問題](../../production/using/image-display-issues.md)
-* [配信パフォーマンスの問題](../../delivery/using/monitoring-a-delivery.md#performance_issues)
+* [配信のパフォーマンスの問題](../../delivery/using/monitoring-a-delivery.md#performance_issues)
 * [一時的なファイルの問題](../../production/using/temporary-files.md) — オンプレミス *のホスティングモデルのみ*
 
 ### データベースの監視 {#monitoring-database}
+
+<img src="assets/do-not-localize/icon_database.svg" width="60px">
 
 **データベースクリーンアップワークフロー**
 

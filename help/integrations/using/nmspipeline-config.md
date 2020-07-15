@@ -15,17 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9957dabca4c63d504a3d06cf527a97b79fee46d5
+source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 2%
+source-wordcount: '381'
+ht-degree: 3%
 
 ---
 
 
-# パイプラインオプションNmsPipeline_Config {#nmspipeline_config}
+# パイプラインオプション NmsPipeline_Config {#nmspipeline_config}
 
-認証が機能すると、パイプラインでイベントを取得して処理できます。 Adobe Campaignで設定されたトリガーのみを処理し、他のトリガーは無視します。 トリガーは、事前にAnalyticsから生成され、パイプラインに押し込まれている必要があります。
+認証が機能したら、 [!DNL pipelined] イベントを取得して処理できます。 Adobe Campaignで設定されたトリガーのみを処理し、他のトリガーは無視します。 トリガーは、事前にAnalyticsから生成され、パイプラインに押し込まれている必要があります。
 また、名前に関係なく、すべてのトリガーを取得するワイルドカードを使用して設定することもできます。
 
 トリガーの設定は、 **[!UICONTROL 管理]** / **[!UICONTROL Platform]** / **[!UICONTROL オプションで行います]**。 オプション名は **[!UICONTROL NmsPipeline_Config]**&#x200B;です。 データタイプがJSON形式の「long text」です。
@@ -90,6 +90,6 @@ ht-degree: 2%
 
 * 「name」はトリガーIDです。 ワイルドカード「*」は、すべてのトリガーをキャッチします。
 * 「コンシューマー」は、nlserverインスタンスを一意に識別する一意の文字列です。 通常は、インスタンス名自体を指定できます。 複数の環境（開発/ステージ/実稼動環境）の場合、各インスタンスがメッセージのコピーを受け取るように、各ユーザーに対して一意であることを確認してください。
-* パイプラインでは、「エイリアス」トピックもサポートされています。
+* [!DNL Pipelined] は、「エイリアス」トピックもサポートしています。
 
-変更を行った後、パイプラインで再起動します。
+変更 [!DNL pipelined] を行った後、再起動します。

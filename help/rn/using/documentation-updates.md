@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 306c7bf0a94684d27c5f95035f3d3e77da8c7097
-workflow-type: ht
-source-wordcount: '6809'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9f55a2014546ce08972f51e4930ce04d4ce0c188
+workflow-type: tm+mt
+source-wordcount: '6913'
+ht-degree: 98%
 
 ---
 
@@ -33,6 +33,14 @@ Campaign Classic の監視に関するガイドラインを含む新しい節を
 
 プライバシーと同意の節が強化され、より詳細な情報と役に立つリンクが追加されました。[詳細を表示](../../platform/using/privacy-and-recommendations.md)。
 
+Campaign Classicのプライバシー管理ページが更新され、「規則」フィールドに関する情報が追加されました。このフィールドは、自動プライバシーリクエストプロセスを設定するAPIを使用する場合に利用できるようになりました。 [詳細を表示](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+
+「プライバシー管理の概要」ページが更新され、タイの個人データ保護法(PDPA)とブラジルのレイジェラル・デ・プロテソ(LGPD)に関する情報が含まれるようになりました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+サブワークフローのログおよびエラー発生時の動作に関する情報が追加されました。 [詳細を表示](../../workflow/using/sub-workflow.md)
+
+ベストプラクティスは、 **[!UICONTROL スケジューラー]** アクティビティの節に追加されました。 [詳細を表示](../../workflow/using/scheduler.md)
+
 ## 2020 年 6 月{#june-2020}
 
 強制隔離されたアドレスの削除の節が更新されました。これには、アドレスが強制隔離リストから自動的に削除される場合の明確な説明も含まれます。[詳細を表示](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
@@ -41,7 +49,7 @@ Campaign Classic の監視に関するガイドラインを含む新しい節を
 
 「ホワイトリスト」と「ブラックリスト」の両方の用語が Adobe Campaign ドキュメントから削除されました。これらの用語は、製品 UI、オプション名、内部コードにまだ存在する場合がありますが、今後の Campaign リリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
 
-Experience Cloud Triggers と Adobe Campaign Classic の統合ページは、[こちら](../../integrations/using/about-triggers.md)に移動されました。
+The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
 
 ## 20.2 - 2020 年 6 月 8 日{#release-20-2}
 

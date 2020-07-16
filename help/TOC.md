@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
+source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2089'
 ht-degree: 99%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 99%
 + [製品ドキュメント](campaign-classic-home.md)
 + [最新の更新](rn/using/documentation-updates.md)
 + リリースノート{#release-notes}
+   + [アップグレードを使用する前に](rn/using/rn-overview.md)
    + [最新リリース](rn/using/latest-release.md)
+   + [Gold Standard リリース](rn/using/gold-standard.md)
    + 以前のリリース {#previous-releases}
       + [リリース 20.1](rn/using/release--20-1.md)
       + [リリース 19.2](rn/using/release--19-2.md)
@@ -26,7 +28,9 @@ ht-degree: 99%
       + [リリース 18.10](rn/using/release--18-10.md)
       + [リリース 18.6](rn/using/release--18-6.md)
       + [リリース 18.4](rn/using/release--18-4.md)
-   + [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md)
+   + 廃止された機能と互換性 {#deprecated-compatibility}
+      + [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md)
+      + [互換表](rn/using/compatibility-matrix.md)
 + はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic について](platform/using/about-adobe-campaign-classic.md)

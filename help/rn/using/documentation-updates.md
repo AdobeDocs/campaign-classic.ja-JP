@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9f55a2014546ce08972f51e4930ce04d4ce0c188
+source-git-commit: 64b31b8d4f88023f4285bf161d236973a7d63107
 workflow-type: tm+mt
-source-wordcount: '6913'
-ht-degree: 98%
+source-wordcount: '6954'
+ht-degree: 97%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 98%
 その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
 
 ## 2020 年 7 月 {#july-2020}
+
+リリ [ースノート](../../rn/using/latest-release.md) は、次のように編成変更されました。 ビルドのステータス、アップグレードプロセス [、レコメンデーション、重要なリンクに関する情報が、](../../rn/using/latest-release.md) 概要ページに追加されました。 また、 [ゴールド標準リリース専用のページが追加され](../../rn/using/gold-standard.md) 、 [互換表が統合されました](../../rn/using/compatibility-matrix.md) 。
 
 Campaign Classic の監視に関するガイドラインを含む新しい節を追加しました。[詳細を表示](../../production/using/monitoring-guidelines.md)
 

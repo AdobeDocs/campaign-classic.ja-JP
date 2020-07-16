@@ -13,36 +13,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
+source-git-commit: 5b7c0dc12b41b8482dce9d42bbf88878bb03bf38
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 最新リリース{#latest-release}
-
-[ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリース](../../rn/using/release--20-1.md) | [非推奨（廃止予定）の機能](../../rn/using/deprecated-features.md)
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>一般公開（GA）</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>リリース候補</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>公開停止</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>非推奨（廃止予定）</strong></td> 
-  </tr> 
-   <tr> 
-   <td>最新の安定したビルド。ビルドは本番環境で検証済みです。<br></td>
-   <td>アドビが検証済みのビルド。本番環境での検証待ちです。<br></td>
-   <td>バグ修正を含む、新しいビルドがあります。更新が必要です。<br></td>
-   <td>新たな不具合を含むことがわかっています。必ず更新が必要です。<br></td>
-  </tr> 
- </tbody> 
-</table>
-
-最 **後の安定したビルドは** 、Gold Standard 10です。 [ここ](../../rn/using/release--19-1.md#release-19-1-4-build-9032)をクリックしてください
 
 ![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
 

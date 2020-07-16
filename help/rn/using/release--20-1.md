@@ -13,50 +13,29 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4a8812a85c8c98cdf38145a2b1649530adab89d
+source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 99%
+source-wordcount: '1330'
+ht-degree: 100%
 
 ---
 
 
 # リリース 20.1{#release-20-1}
 
-[ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリース](../../rn/using/release--19-2.md) | [非推奨（廃止予定）の機能](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
-
-<table> 
- <tbody> 
-  <tr> 
-   <td><img src="assets/do-not-localize/green3.png"/><strong>一般公開（GA）</strong></td>
-   <td><img src="assets/do-not-localize/blue3.png"/><strong>リリース候補</strong></td> 
-   <td><img src="assets/do-not-localize/orange3.png"/><strong>公開停止</strong></td> 
-   <td><img src="assets/do-not-localize/red3.png"/><strong>非推奨（廃止予定）</strong></td> 
-  </tr> 
-   <tr> 
-   <td>最新の安定したビルド。ビルドは本番環境で検証済みです。<br></td>
-   <td>アドビが検証済みのビルド。本番環境での検証待ちです。<br></td>
-   <td>バグ修正を含む、新しいビルドがあります。更新が必要です。<br></td>
-   <td>新たな不具合を含むことがわかっています。必ず更新が必要です。<br></td>
-  </tr> 
- </tbody> 
-</table>
-
-最 **後の安定したビルドは** 、Gold Standard 10です。 [ここ](../../rn/using/release--19-1.md#release-19-1-4-build-9032)をクリックしてください
-
-## ![](assets/do-not-localize/orange_2.png) リリース 20.1.3 - ビルド 9124 {#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/orange_2.png) リリース 20.1.3 - ビルド 9124{#release-20-1-3-build-9124}
 
 _2020 年 5 月 6 日_
 
 * SFTP キーに基づく認証が Debian 9 で動作しない&#x200B;**ファイル転送**&#x200B;アクティビティの問題を修正しました。（NEO-23183）
 
-## ![](assets/do-not-localize/orange_2.png) リリース 20.1.2 - ビルド 9123 {#release-20-1-2-build-9123}
+## ![](assets/do-not-localize/orange_2.png) リリース 20.1.2 - ビルド 9123{#release-20-1-2-build-9123}
 
 _2020 年 3 月 13 日_
 
 * Red Hat 7 サーバーでバージョンをデプロイできない問題を修正しました。（NEO-23332）
 
-## ![](assets/do-not-localize/orange_2.png) リリース 20.1 - ビルド 9122 {#release-20-1-build-9122}
+## ![](assets/do-not-localize/orange_2.png) リリース 20.1 - ビルド 9122{#release-20-1-build-9122}
 
 _2020 年 2 月 17 日_
 

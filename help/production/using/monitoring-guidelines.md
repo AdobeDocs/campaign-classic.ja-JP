@@ -39,7 +39,7 @@ Campaign Classicのホームページからアクセスできる **[!UICONTROL �
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">インスタンスの監視</a></p></td>
 <td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">ワークフローの監視</a></p></td>
 <td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">データベースの監視</a></p></td>
-<td><img src="assets/do-not-localize/icon_Send.svg" width="60px"><p><a href="#monitoring-deliveries">配信の監視</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">配信の監視</a></p></td></tr>
 </table>
 
 様々なキャンペーンプロセスを監視するその他の方法を使用できます。 システムが正常であることを確認し、ワークフローの設定や配信の送信時に発生する可能性のある問題のトラブルシューティングを行うために、インスタンスをいくつかの方法で監視します。
@@ -92,7 +92,7 @@ Workflow HeatMapは、インスタンスで実行されているすべてのワ�
 
 ### 配信の監視 {#monitoring-deliveries}
 
-<img src="assets/do-not-localize/icon_Send.svg" width="60px">
+<img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 **SMTPレポート**
 

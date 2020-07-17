@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fdc305ff5bf27aa5cc0a4a9e89ac8ed9d5bead57
+source-git-commit: e2b97e10936a492c761f42eb062ede1cba7621ed
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 16%
@@ -92,7 +92,7 @@ Workflow HeatMapは、インスタンスで実行されているすべてのワ�
 
 ### 配信の監視 {#monitoring-deliveries}
 
-<img src="assets/do-not-localize/icon_send.svg" width="60px">
+<img src="assets/do-not-localize/icon_Send.svg" width="60px">
 
 **SMTPレポート**
 

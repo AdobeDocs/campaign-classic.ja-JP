@@ -14,18 +14,18 @@ discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 84f06afb36aa6a9fa13db1fda7034389b762eb99
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Campaign の起動{#launching-adobe-campaign}
 
-キャンペーンクライアントコンソールは、キャンペーンアプリケーションサーバーに接続できるリッチクライアントです。 このページでは、クライアントコンソールをダウンロードして設定する方法 [を説明します](../../installation/using/installing-the-client-console.md)。
+Campaign クライアントコンソールは、Campaign アプリケーションサーバーに接続できるリッチクライアントです。[このページ](../../installation/using/installing-the-client-console.md)では、クライアントコンソールをダウンロードして設定する方法を説明します。
 
 ## Adobe Campaign の起動 {#starting-adobe-campaign}
 

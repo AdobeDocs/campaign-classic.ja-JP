@@ -1,7 +1,7 @@
 ---
 title: 付録
-seo-title: FDA付録
-description: FDA付録
+seo-title: FDA 付録
+description: FDA 付録
 seo-description: null
 page-status-flag: never-activated
 uuid: 2596fabc-679a-45c8-a62a-165c221654b7
@@ -14,108 +14,108 @@ discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 353f5df040087175c9f211308704f1af1844ef2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1418'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # 付録 {#fda-appendices}
 
-## Teradata追加の設定 {#teradata-configuration}
+## Teradata 追加設定 {#teradata-configuration}
 
 ### 互換性 {#teradata-compatibility}
 
-**Unicodeベース**
+**Unicode ベース**
 
-| データベースのバージョン | ドライバーのバージョン | 最小限のキャンペーンバージョンが必要 | 注意 |
+| データベースのバージョン | ドライバーのバージョン | 必要な Campaign 最小バージョン | 注意 |
 |:-:|:-:|:-:|:-:|
-| 15 | 15 | Campaign Classic17.9 | Linuxの場合： タイムスタンプのあるクエリは失敗する場合があります（18.4の場合は8937でビルド、18.10の場合は8977で修正）。デバッグモードでは、ドライバのメモリ使用量の不良に関する警告が発生する場合があります。 |
-| 15 | 16 | Campaign Classic17.9 | LinuxでのTeradata 15データベースの推奨セットアップ。 |
-| 16 | 16 | Campaign Classic18.10 | サロゲートペアを持つUnicode文字は、完全には処理されません。 データでのサロゲート文字の使用は、有効です。 クエリのフィルタリング条件でサロゲートを使うのは、この変更なしでは動作しません。 |
+| 15 | 15 | Campaign Classic 17.9 | Linux の場合：タイムスタンプのあるクエリは失敗する場合があります（18.4 の場合はビルド 8937、18.10 の場合はビルド 8977 で修正）。デバッグモードでは、ドライバーのメモリ使用量の不良に関する警告が発生する場合があります。 |
+| 15 | 16 | Campaign Classic 17.9 | Linux での Teradata 15 データベースの推奨セットアップ。 |
+| 16 | 16 | Campaign Classic 18.10 | サロゲートペアを持つ Unicode 文字は、完全には処理されません。データでのサロゲート文字の使用は有効です。クエリのフィルタリング条件でのサロゲートの使用は、この変更なしでは動作しません。 |
 | 16 | 15 | サポートされていません |   |
 
-**Latin1に基づく**
+**Latin1 ベース**
 
-Adobe CampaignClassic 17.9より前のバージョンでは、Teradata Latin-1データベースのみがサポートされていました。
+Adobe CampaignClassic 17.9 以前のバージョンでは、Teradata Latin-1 データベースのみがサポートされていました。
 
-Adobe CampaignClassic 17.9以降、UnicodeのデフォルトのTeradataデータベースがサポートされるようになりました。
+Adobe CampaignClassic 17.9 以降、デフォルトで Teradata Unicode データベースがサポートされるようになりました。
 
-Latin-1 Teradataデータベースを最新のCampaign Classicリリースに移行する場合は、外部アカウントのオプションにパラメータAPICharSize=1を追加する必要があります。
+Latin-1 Teradata データベースを最新の Campaign Classic リリースに移行する場合は、外部アカウントのオプションにパラメーター「APICharSize=1」を追加する必要があります。
 
-### データベースの設定 {#database-configuration}
+### データベース設定 {#database-configuration}
 
 #### ユーザー設定 {#user-configuration}
 
-次の権限が必要です。 カスタムプロシージャの作成/ドロップ/実行、テーブルの作成/ドロップ/挿入/選択 また、Adobe Campaignインスタンスでmd5およびsha2関数を使用する場合は、ユーザーモード関数を作成する必要がある場合もあります。
+カスタムプロシージャの作成／ドロップ／実行およびテーブルの作成／ドロップ／挿入／選択の権限が必要です。また、Adobe Campaign インスタンスで md5 および sha2 関数を使用する場合は、ユーザーモード関数を作成する必要が生じる場合もあります。
 
-正しいタイムゾーンを設定してください。 これは、Adobe Campaignインスタンスで作成される外部アカウントで設定される値と一致する必要があります。
+正しいタイムゾーンを設定してください。タイムゾーンは、Adobe Campaign インスタンスで作成される外部アカウントで設定される値と一致する必要があります。
 
-Adobe Campaignは、データベース内で作成するオブジェクトに対して保護モード（フォールバック）を設定しません。 次のクエリを使用して、Adobe CampaignがTeradataデータベースへの接続に使用するデフォルトのユーザーを設定する必要がある場合があります。
+Adobe Campaign は、データベース内で作成するオブジェクトに対して保護モード（フォールバック）を設定しません。次のクエリを使用して、Adobe Campaign が Teradata データベースへの接続に使用するデフォルトをユーザーに対して設定する必要がある場合があります。
 
-| デフォルトのフォールバックを無効にする |
+| disable default fallback |
 | :-: |
 | ```MODIFY USER $login$ AS NO FALLBACK;``` |
 
-#### MD5のインストール {#md5-installation}
+#### MD5 のインストール {#md5-installation}
 
-Adobe Campaignインスタンスでmd5関数を使用する場合は、この [ページ](https://downloads.teradata.com/download/extensibility/md5-message-digest-udf) (md5_20080530.zip)のTeradataデータベースにuser mode関数をインストールする必要があります。
+Adobe Campaign インスタンスで md5 関数を使用する場合は、この[ページ](https://downloads.teradata.com/download/extensibility/md5-message-digest-udf)の Teradata データベースにユーザーモード関数をインストールする必要があります（md5_20080530.zip）。
 
-ダウンロードしたファイルのsha1は、次のとおりです。65cc0bb6935f72fcd84fef1ebcd64c00115dfd1e
+ダウンロードファイルの sha1 は「65cc0bb6935f72fcd84fef1ebcd64c00115dfd1e」です。
 
-md5をインストールするには：
+md5 をインストールするには、以下を実行します。
 
-1. md5_20080530.zipファイルを解凍します。
+1. md5_20080530.zip ファイルを解凍します。
 
-1. md5/srcディレクトリに移動します。
+1. md5/src ディレクトリに移動します。
 
-1. bteqを使用してTeradataデータベースに接続します。
+1. bteq を使用して Teradata データベースに接続します。
 
-1. 次のbteqコマンドを実行します。
+1. 次の bteq コマンドを実行します。
 
    ```
    .run file = hash_md5.btq
    ```
 
-#### SHA2のインストール {#sha2-installation}
+#### SHA2 のインストール {#sha2-installation}
 
-Adobe Campaignインスタンスでsha2関数を使用する場合は、この [ページ](https://github.com/akuroda/teradata-udf-sha2/archive/v1.0.zip) (teradata-udf-sha2-1.0.zip)からTeradataデータベースにuser mode関数をインストールする必要があります。
+Adobe Campaign インスタンスで sha2 関数を使用する場合は、この[ページ](https://github.com/akuroda/teradata-udf-sha2/archive/v1.0.zip)から Teradata データベースにユーザーモード関数をインストールする必要があります（teradata-udf-sha2-1.0.zip）。
 
-ダウンロードしたファイルのsha1は、次のとおりです。e87438d37424836358bd3902cf1adeb629349780
+ダウンロードファイルの sha1 は「e87438d37424836358bd3902cf1adeb629349780」です。
 
-sha2をインストールするには：
+sha2 をインストールするには、以下を実行します。
 
-1. teradata-udf-sha2-1.0.zipファイルを解凍します。
+1. teradata-udf-sha2-1.0.zip ファイルを解凍します。
 
-1. teradata-udf-sha2-1.0/srcディレクトリに移動します。
+1. teradata-udf-sha2-1.0/src ディレクトリに移動します。
 
-1. bteqを使用してTeradataデータベースに接続します。
+1. bteq を使用して Teradata データベースに接続します。
 
-1. 次の2つのbteqコマンドを実行します。
+1. 次の 2 つの bteq コマンドを実行します。
 
    ```
    .run file = hash_sha256.sql
    .run file = hash_sha512.sql
    ```
 
-#### UDF_UTF16TO8のインストール {#UDF-UTF16TO8-installation}
+#### UDF_UTF16TO8 のインストール {#UDF-UTF16TO8-installation}
 
-Adobe Campaignインスタンスでudf_utf16to8関数を使用する場合は、この **ページのTeradata unicodeツールキット** (utk_release1.7.0.0.zip)からTeradataデータベースにユーザーモード関数をインスト [](https://downloads.teradata.com/download/tools/unicode-tool-kit) ールする必要があります。
+Adobe Campaign インスタンスで udf_utf16to8 関数を使用する場合は、この[ページ](https://downloads.teradata.com/download/tools/unicode-tool-kit)の **Teradata unicode ツールキット**（utk_release1.7.0.0.zip）から Teradata データベースにユーザーモード関数をインストールする必要があります。
 
-ダウンロードしたファイルのsha1は、次のとおりです。e58235f434f52c71316a577cb48e20b97d24f470
+ダウンロードファイルの sha1 は「e58235f434f52c71316a577cb48e20b97d24f470」です。
 
-udf_utf16to8をインストールするには：
+udf_utf16to8 をインストールするには、以下を実行します。
 
-1. utk_release1.7.0.0.zipファイルを解凍します。
+1. utk_release1.7.0.0.zip ファイルを解凍します。
 
-1. 抽出したファイル内でudf_utf16to8.oを探し、そのファイルが格納されているディレクトリに移動します。 この変数にはutk_release1.7.0.0/utk_release1.7.0.0/04 TranslationUDFs/01 Teradata UDFs/suselinux-x8664/udf_installation/という名前を付ける必要があります。
+1. 抽出したファイルから udf_utf16to8.o を探し、このファイルが格納されているディレクトリに移動します。ディレクトリの名前は utk_release1.7.0.0/utk_release1.7.0.0/04 TranslationUDFs/01 Teradata UDFs/suselinux-x8664/udf_installation/ です。
 
-1. bteqを使用してTeradataデータベースに接続します。
+1. bteq を使用して Teradata データベースに接続します。
 
-1. 次のbteqコマンドを入力します。
+1. 次の bteq コマンドを入力します。
 
    ```
    REPLACE FUNCTION udf_utf16to8 (
@@ -129,29 +129,29 @@ udf_utf16to8をインストールするには：
    -- Test: should return 410042
    SELECT CAST(Char2HexInt(UDF_UTF16to8(_UNICODE'004100000042'XC)) AS VARCHAR(100));
    
-### Linuxのキャンペーンサーバーの設定 {#campaign-server-linux}
+### Linux の Campaign サーバーの設定 {#campaign-server-linux}
 
-ドライバのインストールには次が必要です。
+ドライバーのインストールには次が必要です。
 
-* Teradata ODBC Driver(この [ページにあります)](https://downloads.teradata.com/download/connectivity/odbc-driver/linux)
+* Teradata ODBC ドライバー（この[ページ](https://downloads.teradata.com/download/connectivity/odbc-driver/linux)にあります）
 
-* Teradata Tools and Utilities（一括読み込みに使用）。この [ページにあります。](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-linux-installation-package-0)
+* Teradata ツールおよびユーティリティ（一括読み込みに使用）（この[ページ](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-linux-installation-package-0)にあります）
 
-ファイル名とsha1:
+ファイル名と sha1：
 
 * tdodbc1620__linux_indep.16.20.00.00-1.tar.gz 121fdd978b56fe1304fc5cb7819741b0847f44fd
 
 * TeradataToolsAndUtilitiesBase__linux_indep.16.20.01.00.tar.gz b 29d0af5ffd8dcf68a9dbbaa6f8639387b19c563
 
-お使いのLinuxディストリビューション用のパッケージがない場合は、CentOS 7 （例えばdockerを使う）での説明に従ってインストールし、Adobe Campaignサーバーに/opt/teradataの内容をコピーします。
+お使いの Linux ディストリビューション用のパッケージがない場合は、CentOS 7 での説明に従ってインストール（例えば docker を使用）し、Adobe Campaign サーバーの /opt/teradata の内容をコピーします。
 
-#### ODBCドライバのインストール {#odbc-installation}
+#### ODBC ドライバーのインストール {#odbc-installation}
 
-ODBCドライバをインストールするには：
+ODBC ドライバーをインストールするには、以下を実行します。
 
-1. tdodbc1620__linux_indep.16.20.00.00-1.tar.gzファイルを抽出します。
+1. tdodbc1620__linux_indep.16.20.00.00-1.tar.gz ファイルを抽出します。
 
-1. tdodbc1620ディレクトリに移動します。
+1. tdodbc1620 ディレクトリに移動します。
 
 1. セットアップスクリプトの修正が必要になる場合があります。
 
@@ -159,85 +159,85 @@ ODBCドライバをインストールするには：
    "sed -i s/16.10/16.20/ setup_wrapper.sh".
    ```
 
-1. setup_wrapper.shを実行します。
+1. setup_wrapper.sh を実行します。
 
-#### Teradataツールとユーティリティのインストール {#teradata-tools-installation}
+#### Teradata ツールとユーティリティのインストール {#teradata-tools-installation}
 
-ツールをインストールするには：
+ツールをインストールするには、以下を実行します。
 
-1. TeradataToolsAndUtilitiesBase__linux_indep.16.20.01.00.tar.gzファイルを展開します。
+1. TeradataToolsAndUtilitiesBase__linux_indep.16.20.01.00.tar.gz ファイルを展開します。
 
-1. TeradataToolsAndUtilitiesBase/Linux/i386-x8664/tdicuディレクトリに移動します。
+1. TeradataToolsAndUtilitiesBase/Linux/i386-x8664/tdicu ディレクトリに移動します。
 
-1. setup_wrapper.shを実行します。
+1. setup_wrapper.sh を実行します。
 
-1. TeradataToolsAndUtilitiesBase/Linux/i386-x8664/cliv2ディレクトリに移動します。
+1. TeradataToolsAndUtilitiesBase/Linux/i386-x8664/cliv2 ディレクトリに移動します。
 
-1. setup_wrapper.shを実行します。
+1. setup_wrapper.sh を実行します。
 
-1. TeradataToolsAndUtilitiesBase/Linux/i386-x8664/tptbaseディレクトリに移動します。
+1. TeradataToolsAndUtilitiesBase/Linux/i386-x8664/tptbase ディレクトリに移動します。
 
-1. setup_wrapper.shを実行します。
+1. setup_wrapper.sh を実行します。
 
-1. libtelapi.soファイルは、/opt/teradata/client/16.20/lib64で入手できる必要があります。
+1. Libtelapi.so ファイルは /opt/teradata/client/16.20/lib64 にあります。
 
-#### ドライバの構成 {#driver-configuration}
+#### ドライバーの構成 {#driver-configuration}
 
-ドライバ設定の詳細については、この [節を参照してください](../../platform/using/legacy-connectors.md#configure-access-to-teradata)。
+ドライバー設定の詳細については、この[節](../../platform/using/legacy-connectors.md#configure-access-to-teradata)を参照してください。
 
 #### 環境変数 {#environment-varaiables}
 
-Adobe Campaignサーバの環境変数の詳細については、この [節を参照してください](../../platform/using/legacy-connectors.md#configure-access-to-teradata)。
+Adobe Campaign サーバーの環境変数の詳細については、この[節](../../platform/using/legacy-connectors.md#configure-access-to-teradata)を参照してください。
 
-### Windowsのキャンペーンサーバーの設定#キャンペーン — サーバー —windows}
+### Windows の Campaign サーバーの設定 #campaign-server-windows}
 
-最初に、Windows用のTeradataツールとユーティリティをダウンロードする必要があります。 この [ページからダウンロードできます](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-windows-installation-package)
+最初に、Windows 用の Teradata ツールとユーティリティをダウンロードする必要があります。この[ページ](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-windows-installation-package)からダウンロードできます。
 
-ODBCドライバとTeradata Parallel Transporter Baseを必ずインストールしてください。 Teradataデータベースに一括読み込みを行う際に使用するtelapi.dllをインストールします。
+ODBC ドライバーと Teradata Parallel Transporter Base を必ずインストールしてください。Teradata データベースに一括読み込みをおこなう際に使用する telapi.dll をインストールします。
 
-ドライバとユーティリティのパスが、実行中にnlserverが持つPATH変数に含まれていることを確認します。 デフォルトでは、パスはC:\Program Files (x86)\Teradata\Client\15.10\bin on Windows 32 bits or C:\プログラムFiles\Teradata\Client\15.10\bin on 64 bit)です。
+ドライバーとユーティリティのパスが、実行中に nlserver が持つ PATH 変数に含まれていることを確認します。デフォルトパスは C:\Program Files (x86)\Teradata\Client\15.10\bin（Windows 32 ビット）または C:\Program Files\Teradata\Client\15.10\bin（64 ビット）です。
 
 ### 外部アカウントのトラブルシューティング {#external-account-troubleshooting}
 
-接続 **TIM-030008日付&#39;2&#39;のテスト中に次のエラーが表示される場合： 文字(iRc=-53)が見つからない場合は** 、ODBCドライバが正しくインストールされていること、およびLD_LIBRARY_PATH (Linux) / PATH (Windows)がキャンペーンサーバに設定されていることを確認してください。
+接続のテスト中にエラー **TIM-030008 Date &#39;2&#39;: missing character(s) (iRc=-53)**、が表示される場合は、ODBC ドライバーが正しくインストールされていること、および Campaign サーバーに対して LD_LIBRARY_PATH（Linux）または PATH（Windows）が設定されていることを確認してください。
 
-エラー **ODB-240000 ODBCエラー：[Microsoft][ODBC Driver Manager]Data source名が見つからず、既定のドライバが指定されていません。** 16.Xドライバを使用する場合にWindowsで発生します。 Adobe Campaignでは、odbcinst.iniのメタデータ名が&#39;{teradata}&#39;である必要があります。
-18.10Adobe Campaignサーバーのバージョンがある場合は、外部アカウントのオプションにODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot;を追加できます。 バージョン番号が変わる場合があります。正確な名前は、 odbcad32.exeを実行し、[ドライバ]タブにアクセスすると見つかります。
-バージョン18.10より前の場合は、ドライバのインストールで作成されたodbcinst.iniのTeradataセクションをTeradataという新しいセクションにコピーする必要があります。この場合は、regeditを使用できます。
+エラー **ODB-240000 ODBC error:[Microsoft][ODBC Driver Manager]Data source name not found and no default driver specified.** は、Windows で 16.X ドライバーを使用した場合に発生します。Adobe Campaign の odbcinst.ini では、Teradata のメタデータ名は「{teradata}」である必要があります。
+Adobe Campaign サーバーのバージョンが 18.10 の場合、外部アカウントのオプションに「ODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot;」を追加できます。バージョン番号は異なる場合があります。正確な番号は、odbcad32.exe を実行して「ドライバー」タブにアクセスすると見つかります。
+バージョン 18.10 以前の場合は、ドライバーのインストールで作成された odbcinst.ini の Teradata セクションを Teradata という新しいセクションにコピーする必要があります。この場合は、regedit を使用できます。
 
-ベースがlatin1の場合は、オプションにAPICharSize=1を追加する必要があります。
+ベースが latin1 の場合は、オプションに「APICharSize=1」を追加する必要があります。
 
 ### タイムゾーン {#timezone}
 
-Teradataは、標準ではないタイムゾーン名を使用しています。Teradataサイトでリストを見つけることが [できます](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/oGKvgl7gCeBMTGrp59BnwA)。 Adobe Campaignは、外部設定で指定されたタイムゾーンをTeradataが理解できるものに変換しようとします。 通信が見つからない場合は、クローゼットのGMT+X（またはGMT-X）タイムゾーンがセッションで見つかり、ログに警告が表示されます。
+Teradata は、標準ではないタイムゾーン名を使用しています。リストは [Teradata サイト](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/oGKvgl7gCeBMTGrp59BnwA)で見つかります。Adobe Campaign は、外部設定で指定されたタイムゾーンを Teradata が理解できるものに変換しようとします。該当するものが見つからない場合は、セッションに一番近い GMT+X（または GMT-X）タイムゾーンが使用されて、ログに警告が表示されます。
 
-変換は、次のデータキットディレクトリにある必要があるteradata_timezones.txtというファイルを読み取って行われます。 linuxでは/usr/local/neolane/nl6/datakitが有効です。 このファイルを編集する場合は、Adobe Campaignチームに連絡してソースコードを変更してください。変更しないと、次回のキャンペーン更新時にこのファイルが上書きされます。
+変換は、teradata_timezones.txt ファイルを読み取っておこなわれます。このファイルは linux では datakit ディレクトリ（/usr/local/neolane/nl6/datakit）にあります。このファイルを編集する場合は、Adobe Campaign チームに連絡してソースコードを変更してください。これを怠ると、次回 Campaign アップデートした時にこのファイルが上書きされます。
 
-接続に使用されるタイムゾーンは、 nlserverを —verboseスイッチで実行するときに示されます。例：
+接続に使用されるタイムゾーンは、nlserver を -verbose スイッチで実行するときに示されます。例：
 
 ```
 15:04:04 >   ODB-240007 Teradata: will use 'Europe Central' as session time zone.
 ```
 
-使用するタイムゾーンが正しくない場合は、「TimeZoneName」という名前の外部アカウントをオプションに追加できます。 この場合は、TimeZoneName=Europe CentralのようにTeradata値を使用します。
+使用するタイムゾーンが正しくない場合は、外部アカウントに「TimeZoneName」オプションを追加できます。この場合は、「TimeZoneName=Europe Central」のように Teradata 値を使用します。
 
-Teradataドキュメントで一括読み込みまたは「高速読み込み」を使用している場合、キャンペーンはタイムゾーンを示すことができません。 したがって、キャンペーンが接続に使用するユーザーのデフォルトのタイムゾーンを設定することをお勧めします。
+Teradata ドキュメントで一括読み込みまたは「高速読み込み」を使用している場合、Campaign はタイムゾーンを示すことができません。したがって、Campaign が接続に使用するユーザーのデフォルトのタイムゾーンを設定することをお勧めします。
 
 ```
 MODIFY USER $login$ AS TIME ZONE = 'Europe Central';
 ```
 
-## MySQL 5.7設定 {#mysql-57-configuration}
+## MySQL 5.7 設定 {#mysql-57-configuration}
 
 ### サーバー設定 {#server-configuration-mysql}
 
-サーバー設定には、特定のインストール手順は必要ありません。 Adobe Campaignは、latin1データベース、MySQLのデフォルト、またはunicodeデータベースで動作します。
+サーバー設定には、特定のインストール手順は必要ありません。Adobe Campaign は、latin1 データベース、MySQL のデフォルト、または unicode データベースで動作します。
 
-### ドライバのインストール {#driver-installation-mysql}
+### ドライバーのインストール {#driver-installation-mysql}
 
 #### Debian {#debian-mysql}
 
-この [ページからmysql-apt-config.debをダウンロードします](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en)。
+この[ページ](https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en)から mysql-apt-config.deb をダウンロードします。
 
 クライアントライブラリのインストール：
 
@@ -249,18 +249,19 @@ $ apt install libmysqlclient20
 
 #### Windows [#windows-mysql}
 
-この [ページからCコネクタをダウンロードします](https://dev.mysql.com/downloads/connector/c)。 バージョン5.7をダウンロードすることをお勧めします。
+この[ページ](https://dev.mysql.com/downloads/connector/c)から C コネクタをダウンロードします。バージョン 5.7 をダウンロードすることをお勧めします。
 
-libmysqlclient.dllを含むディレクトリが、nlserverが使用するPATH環境変数に追加されていることを確認します。
+libmysqlclient.dll を含むディレクトリが、nlserver が使用する PATH 環境変数に追加されていることを確認します。
 
 #### CentOS {#centos-mysql}
 
-この [ページからmysql57-community-release.noarch.rpmをダウンロードしてください](https://dev.mysql.com/downloads/repo/yum)。
+この[ページ](https://dev.mysql.com/downloads/repo/yum)から mysql57-community-release.noarch.rpm をダウンロードします。
 
 クライアントライブラリのインストール：
 
-$ yum install mysql57-community-release-el7-9.noarch.rpm$ yum install mysql-community-libs
+$ yum install mysql57-community-release-el7-9.noarch.rpm
+$ yum install mysql-community-libs
 
-### 外部アカウント設定 {#external-account-mysql}
+### 外部アカウントの設定 {#external-account-mysql}
 
-外部アカウントの設定には、特別な手順は必要ありません。 タイムゾーンとUse unicodeデータがデータベースに従って設定されていることを確認します。
+外部アカウントの設定には、特別な手順は必要ありません。タイムゾーンと unicode 使用データがデータベースに従って設定されていることを確認します。

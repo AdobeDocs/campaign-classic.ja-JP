@@ -14,11 +14,11 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c86af066045c1c35b51624de8565af21746354c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,16 +47,16 @@ FDA オプションを使用すると、サードパーティのデータベー�
 
 ## 使用可能な外部データベース {#external-database}
 
-Adobe CampaignFDAモジュールと互換性のあるすべての外部データベースのリストは、次のとおりです。
+Adobe Campaign FDA モジュールと互換性のあるすべての外部データベースのリストは、次のとおりです。
 
-* Microsoft Azure Synapse Analytics. 詳しくは、[この節](../../platform/using/specific-configuration-database.md#azure-external)を参照してください。
-* Snowflake. 詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)を参照してください。
-* Hadoop. 詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3)を参照してください。
-* Oracle。詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-oracle)を参照してください。
-* Netezza。詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-netezza)を参照してください。
-* Sybase IQ. 詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-sybase-iq)を参照してください。
-* Teradata. 詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-teradata)を参照してください。
-* SAP HANA。詳しくは、[この節](../../platform/using/specific-configuration-database.md)を参照してください。
+* Microsoft Azure Synapse Analytics：詳しくは、[この節](../../platform/using/specific-configuration-database.md#azure-external)を参照してください。
+* Snowflake：詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)を参照してください。
+* Hadoop：詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3)を参照してください。
+* Oracle：詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-oracle)を参照してください。
+* Netezza：詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-netezza)を参照してください。
+* Sybase IQ：詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-sybase-iq)を参照してください。
+* Teradata：詳しくは、[この節](../../platform/using/specific-configuration-database.md#configure-access-to-teradata)を参照してください。
+* SAP HANA：詳しくは、[この節](../../platform/using/specific-configuration-database.md)を参照してください。
 
 ## ベストプラクティスと推奨事項 {#best-practices-and-recommendations}
 

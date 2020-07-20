@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
 workflow-type: tm+mt
 source-wordcount: '1898'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 
 Adobe Campaign から外部データベースにアクセスできるようにするには、使用する外部データベースに応じて特定の設定をおこなう必要があります。これらの設定は、基本的には、ドライバーをインストールし、Adobe Campaign サーバー上の各 RDBMS に属する環境変数を宣言することです。
 
-Teradata、Hadoop 2.1、Netezzaなどのレガシーコネクタについて詳しくは、この [ページを参照してください](../../platform/using/legacy-connectors.md)。
+Teradata、Hadoop 2.1、Netezza などのレガシーコネクタについて詳しくは、この[ページ](../../platform/using/legacy-connectors.md)を参照してください。
 
 原則として、外部データベースの対応するクライアントレイヤーを Adobe Campaign サーバーにインストールする必要があります。
 
@@ -45,7 +45,7 @@ Teradata、Hadoop 2.1、Netezzaなどのレガシーコネクタについて詳�
 
 1. 「**[!UICONTROL 新規]**」をクリックします。
 
-1. 外部アカウントの **[!UICONTROL 種類として]** 、「 **[!UICONTROL 外部データベース]**」を選択します。
+1. 外部アカウント&#x200B;**[!UICONTROL タイプ]**&#x200B;として、「**[!UICONTROL 外部データベース]**」を選択します。
 
 1. [!DNL Azure Synapse] 外部アカウントを設定するには、次を指定する必要があります。
 
@@ -136,7 +136,7 @@ CentOS で Azure Synapse を設定するには、以下を実行します。
 
    >[!NOTE]
    >
-   >Azure Synapse Analytics側からの通信を許可するには、パブリックIPを許可リストに追加する必要がある場合があります。 その場合は、[Azure のドキュメント](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/firewall-configure)を参照してください。
+   >Azure Synapse Analytics 側からの通信を許可するには、パブリック IP を許可リストに追加する必要がある場合があります。その場合は、[Azure のドキュメント](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/firewall-configure)を参照してください。
 
 1. iptables の場合は、次のコマンドを実行します。
 
@@ -190,7 +190,7 @@ Debian で Azure Synapse を設定するには、以下を実行します。
    sudo ACCEPT_EULA=Y apt-get install msodbcsql
    ```
 
-1. **sudo apt-get update**&#x200B;を呼び出すときに、「**メソッドドライバー /usr/lib/apt/methods/https が見つかりません**」というエラーが発生した場合は、以下のコマンドを実行してください。
+1. **sudo apt-get update** を呼び出すときに、「**メソッドドライバー /usr/lib/apt/methods/https が見つかりません**」というエラーが発生した場合は、以下のコマンドを実行してください。
 
    ```
    sudo apt-get install apt-transport-https ca-certificates
@@ -227,7 +227,7 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
    >[!NOTE]
    >
-   >Azure Synapse Analytics側からの通信を許可するには、パブリックIPを許可リストに追加する必要がある場合があります。 その場合は、[Azure のドキュメント](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/firewall-configure)を参照してください。
+   >Azure Synapse Analytics 側からの通信を許可するには、パブリック IP を許可リストに追加する必要がある場合があります。その場合は、[Azure のドキュメント](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/firewall-configure)を参照してください。
 
 ## Snowflake へのアクセスの設定 {#configure-access-to-snowflake}
 
@@ -245,11 +245,11 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
 1. 「**[!UICONTROL 新規]**」をクリックします。
 
-1. 外部アカウントの **[!UICONTROL 種類として]** 、「 **[!UICONTROL 外部データベース]**」を選択します。
+1. 外部アカウント&#x200B;**[!UICONTROL タイプ]**&#x200B;として、「**[!UICONTROL 外部データベース]**」を選択します。
 
 1. **[!UICONTROL Snowflake]** 外部アカウントを設定するには、次を指定する必要があります。
 
-   * **[!UICONTROL タイプ]**: [!DNL Snowflake]
+   * **[!UICONTROL タイプ]**：[!DNL Snowflake]
 
    * **[!UICONTROL サーバー]**：[!DNL Snowflake] サーバーの URL
 
@@ -326,15 +326,15 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
 ### Hadoop 外部アカウント {#hadoop-external}
 
-The [!DNL Hadoop] external account allows you to connect your Campaign instance to your Hadoop external database.
+[!DNL Hadoop] 外部アカウントを使用すれば、Campaign インスタンスを Hadoop 外部データベースに接続することができます。
 
 1. Campaign Classic で、[!DNL Hadoop] 外部アカウントを設定します。**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL 新規]**」をクリックします。
 
-1. 外部アカウントの **[!UICONTROL 種類として]** 、「 **[!UICONTROL 外部データベース]**」を選択します。
+1. 外部アカウント&#x200B;**[!UICONTROL タイプ]**&#x200B;として、「**[!UICONTROL 外部データベース]**」を選択します。
 
-1. Configure the **[!UICONTROL Hadoop]** external account, you must specify:
+1. **[!UICONTROL Hadoop]** 外部アカウントを設定するには、次を指定する必要があります。
 
    * **[!UICONTROL タイプ]**：ODBC（Sybase ASE、Sybase IQ）
 
@@ -366,7 +366,7 @@ The [!DNL Hadoop] external account allows you to connect your Campaign instance 
 | bucketsNumber | 20 | クラスター化テーブルを作成する際のバケット数。 |
 | fileFormat | PARQUET | 作業用テーブルのデフォルトのファイル形式です。 |
 
-### Hadoop 3.0の設定 {#configuring-hadoop}
+### Hadoop 3.0 の設定 {#configuring-hadoop}
 
 FDA で Hadoop 外部データベースに接続するには、Adobe Campaign サーバーで次の設定が必要になります。この設定は、Windows と Linux の両方で利用できます。
 
@@ -385,19 +385,19 @@ FDA で Hadoop 外部データベースに接続するには、Adobe Campaign �
 
 ## Oracle へのアクセスの設定 {#configure-access-to-oracle}
 
-### Oracle external account {#oracle-external}
+### Oracle 外部アカウント {#oracle-external}
 
-The [!DNL Oracle] external account allows you to connect your Campaign instance to your Hadoop external database.
+[!DNL Oracle] 外部アカウントを使用すれば、Campaign インスタンスを Hadoop 外部データベースに接続することができます。
 
 1. Campaign Classic で、[!DNL oracle] 外部アカウントを設定します。**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL 新規]**」をクリックします。
 
-1. 外部アカウントの **[!UICONTROL 種類として]** 、「 **[!UICONTROL 外部データベース]**」を選択します。
+1. 外部アカウント&#x200B;**[!UICONTROL タイプ]**&#x200B;として、「**[!UICONTROL 外部データベース]**」を選択します。
 
-1. **[!UICONTROL Oracle]** 外部アカウントを設定します。次を指定する必要があります。
+1. **[!UICONTROL Oracle]** 外部アカウントを設定するには、次を指定する必要があります。
 
-   * **[!UICONTROL タイプ]**: Oracle
+   * **[!UICONTROL タイプ]**：Oracle
 
    * **[!UICONTROL サーバー]**：DNS の名前
 
@@ -409,7 +409,7 @@ The [!DNL Oracle] external account allows you to connect your Campaign instance 
 
    ![](assets/oracle_config.png)
 
-### Oracle（Linux上） {#for-linux-1}
+### Oracle（Linux） {#for-linux-1}
 
 FDA で Oracle 外部データベースに接続するには、Adobe Campaign サーバーで追加の設定が必要になります。
 
@@ -451,7 +451,7 @@ FDA で Oracle 外部データベースに接続するには、Adobe Campaign �
 
 1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、この[節](../../platform/using/specific-configuration-database.md#oracle-external)を参照してください。
 
-### WindowsでのOracle {#for-windows-1}
+### Oracle（Windows） {#for-windows-1}
 
 FDA で Oracle 外部データベースに接続するには、Adobe Campaign サーバーで追加の設定が必要になります。
 

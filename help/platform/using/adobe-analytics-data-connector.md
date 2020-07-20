@@ -14,9 +14,9 @@ discoiquuid: 5ff1577f-0809-46fd-ac1e-11b24637e35c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1813'
 ht-degree: 100%
 
@@ -76,6 +76,7 @@ Data コネクタを設定するには、Adobe Campaign インスタンスに接
    * 統合（作成）
    * 統合（更新）
    * 統合（削除）
+
    ![](assets/adobe_genesis_install_002.png)
 
 1. パートナーのリストから、「**[!UICONTROL Adobe Campaign Classic]**」を選択します。
@@ -219,6 +220,7 @@ Adobe Campaign と Adobe Analytics - Data コネクタとの間のデータ交�
    * **[!UICONTROL ユニーククリック数]**（@recipientClick）
    * **[!UICONTROL オプトアウト]**（@optOut）
    * **[!UICONTROL エラー]**（@error）
+
    >[!NOTE]
    >
    >送信されたデータは最後のスナップショットに基づいたデルタであり、指標データの値がマイナスになる可能性があります。

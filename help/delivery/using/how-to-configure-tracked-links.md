@@ -14,11 +14,11 @@ discoiquuid: 9cae3861-88eb-447a-aa23-9d1de0710eec
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed44ccd8053d79024e8fb2d05ee27e1e663b8cb2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->追跡はメッセージに適用されますが、Web追跡では受信者がWebサイトをどのように閲覧するか（訪問されたページ、購入）を監視できます。
+>トラッキングはメッセージに適用されますが、Web トラッキングを使用すると、受信者がどのように Web サイトを閲覧しているか（訪問したページ、購入など）を監視できます。
 >
->The configuration of web tracking is presented in [this section](../../configuration/using/about-web-tracking.md).
+>Web トラッキングの設定については、[この節](../../configuration/using/about-web-tracking.md)で説明しています。
 
 メッセージトラッキングは、デフォルトで有効になっています。URL のトラッキング方法をパーソナライズするには、以下の手順に従います。
 

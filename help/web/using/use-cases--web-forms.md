@@ -14,11 +14,11 @@ discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d96912e39956f2f7b0b0af29dc765d0b9775a020
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1008'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -54,11 +54,11 @@ ht-degree: 88%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. この配信の受信者は、まだ承認を確認していないので、データベースブロックリスト上に存在します。 この通信を受信するには、ブロックリスト上のターゲット受信者に対して、このテンプレートに基づく配信を承認する必要があります。
+1. この配信の受信者は、承認を確認していないので、まだデータベースでブロックリストに登録されています。この通信を受信するには、ブロックリスト上のターゲット受信者に対して、このテンプレートに基づいて配信を承認する必要があります。
 
    これを実行するには、「**[!UICONTROL 除外]**」タブをクリックします。
 
-1. Click the **[!UICONTROL Edit...]** link and uncheck the **[!UICONTROL Exclude recipients who no longer want to be contacted (blocklist)]** option.
+1. 「**[!UICONTROL 編集]**」リンクをクリックし、「**[!UICONTROL 今後連絡を希望しない受信者を除外（ブロックリスト）]**」オプションのチェックをオフにします。
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
@@ -112,7 +112,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   最初の **[!UICONTROL スクリプト]** アクティビティは、ブロックリストがニュースレターへの購読を確認するまで受信者をに追加します。 このアクティビティの内容は、次のようにする必要があります。
+   最初の&#x200B;**[!UICONTROL スクリプト]**&#x200B;アクティビティは、受信者がニュースレターの購読を確認するまで、受信者をブロックリストに追加します。このアクティビティの内容は、次のようにする必要があります。
 
    ```
    ctx.recipient.@blockList=1
@@ -175,7 +175,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is added to the block list until they confirm their subscription with the email.
+   ユーザーは、Adobe Campaign データベースの **[!UICONTROL Temp]** フォルダーに追加され、プロファイルがブロックリストに登録されます。この登録は、ユーザーが E メールによる購読確認を完了するまで続きます。
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
@@ -189,7 +189,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
    Adobe Campaign では、ユーザープロファイルが更新されます。
 
-   * 彼らはもうブロックリストにいない
+   * ブロックリストから削除されます。
    * 情報サービスの購読が登録されます。
 
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)

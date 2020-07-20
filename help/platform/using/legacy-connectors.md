@@ -1,7 +1,7 @@
 ---
-title: 従来のコネクタ
-seo-title: 従来のコネクタ
-description: 従来のコネクタ
+title: レガシーコネクタ
+seo-title: レガシーコネクタ
+description: レガシーコネクタ
 seo-description: null
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
@@ -18,12 +18,12 @@ translation-type: tm+mt
 source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
 workflow-type: tm+mt
 source-wordcount: '1294'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
 
-# 従来のコネクタ {#legacy-connectors}
+# レガシーコネクタ {#legacy-connectors}
 
 レガシーFDAコネクターは、引き続きアドビでサポートされます。 ただし、この [ページに示す最新の代替オプションに置き換えることをお勧めします](../../platform/using/specific-configuration-database.md)。
 
@@ -262,7 +262,7 @@ FDA で Sybase IQ 外部データベースに接続するには、Adobe Campaign
 
 ## Teradata へのアクセスの設定 {#configure-access-to-teradata}
 
-FDA で Teradata 外部データベースに接続するには、Adobe Campaign サーバーで追加の設定が必要になります。For more information on how to configure your Teradata database, refer to this [page](../../platform/using/appendices-fda.md#teradata-configuration).
+FDA で Teradata 外部データベースに接続するには、Adobe Campaign サーバーで追加の設定が必要になります。Teradata データベースの設定方法については、[このページ](../../platform/using/appendices-fda.md#teradata-configuration)を参照してください。
 
 1. [Teradata 用の ODBC ドライバー](https://downloads.teradata.com/download/connectivity/odbc-driver/linux)をインストールします。
 

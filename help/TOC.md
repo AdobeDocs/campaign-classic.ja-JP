@@ -5,10 +5,10 @@ index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
+source-git-commit: 14e275203e3436183d5a5c743375ba42f6153c6d
 workflow-type: tm+mt
-source-wordcount: '2089'
-ht-degree: 99%
+source-wordcount: '2094'
+ht-degree: 98%
 
 ---
 
@@ -120,7 +120,6 @@ ht-degree: 99%
       + [ダイレクトメール配信の作成](delivery/using/creating-a-direct-mail-delivery.md)
       + [ダイレクトメールコンテンツの定義](delivery/using/defining-the-direct-mail-content.md)
       + [検証](delivery/using/validating.md)
-      + [その他のチャネル](delivery/using/other-channels.md)
    + 配信テンプレートの使用 {#using-delivery-templates}
       + [テンプレートについて](delivery/using/about-templates.md)
       + [配信テンプレートの作成](delivery/using/creating-a-delivery-template.md)
@@ -426,6 +425,7 @@ ht-degree: 99%
          + [サマリーリストの作成](workflow/using/creating-a-summary-list.md)
          + [データのエンリッチメント](workflow/using/enriching-data.md)
          + [集計の使用](workflow/using/using-aggregates.md)
+         + [増分クエリを使用した四半期別リストの更新](workflow/using/quarterly-list-update.md)
       + クエリのデザイン {#designing-queries}
          + [受信者テーブルに対するクエリ](workflow/using/querying-recipient-table.md)
          + [配信情報に対するクエリ](workflow/using/querying-delivery-information.md)

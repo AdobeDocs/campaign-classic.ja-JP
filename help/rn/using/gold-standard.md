@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1f7ff6a281c2830ac23ad995b750dc09ade5e92
+source-git-commit: f097fcc4363181cda21386840f19e2523c3af3f9
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 80%
+source-wordcount: '826'
+ht-degree: 79%
 
 ---
 
@@ -41,7 +41,7 @@ _2020 年 7 月 7 日_
 
 ビルド9032@efd8a94には、次の修正が含まれています。
 
-* 署名機能が無効な場合に追跡が機能しない問題を修正しました。 （NEO-26411）
+署名機能が無効になっている場合や、古いマーケティングインスタンスと最新のMIDを使用している場合に、トラッキングが機能しない問題を修正しました。 （NEO-26411）
 
 >[!CAUTION]
 >

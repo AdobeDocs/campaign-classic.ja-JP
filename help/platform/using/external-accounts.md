@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
+source-git-commit: c1f7ff6a281c2830ac23ad995b750dc09ade5e92
 workflow-type: tm+mt
 source-wordcount: '2454'
 ht-degree: 100%
@@ -111,9 +111,9 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 
 * [E メール](../../installation/using/deploying-an-instance.md#email-channel-parameters)
 * [モバイル (SMS)](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)
-* [電話](../../delivery/using/other-channels.md)
+* [電話](../../delivery/using/communication-channels.md#other-channels)
 * [ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)
-* [エージェンシー](../../delivery/using/other-channels.md)
+* [エージェンシー](../../delivery/using/communication-channels.md#other-channels)
 * [Facebook](../../social/using/publishing-on-facebook-walls.md#delegating-write-access-to-adobe-campaign)
 * [Twitter](../../social/using/configuring-publishing-on-twitter.md)
 * [iOS チャネル](../../delivery/using/configuring-the-mobile-application.md#configuring-the-mobile-application-ios)

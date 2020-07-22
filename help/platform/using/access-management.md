@@ -14,10 +14,10 @@ discoiquuid: c0eb06fd-192c-4ee4-9a38-c9bedbe6aea0
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 651dfdab75f64d72a1c5beb1273a878ee7102b47
-workflow-type: ht
-source-wordcount: '3068'
+translation-type: tm+mt
+source-git-commit: 65399d7b3917e2df37c32735e7015d742f5f022c
+workflow-type: tm+mt
+source-wordcount: '3091'
 ht-degree: 100%
 
 ---
@@ -346,7 +346,9 @@ Adobe Campaign は、管理者（&#39;admin&#39;）、請求（&#39;billing&#39;
 
 デフォルトのグループやネームド権限を使用すると、ナビゲーション階層構造内の特定のフォルダーに対するオペレーターのアクセスを許可し、読み取り、書き込み、削除の権限を付与できます。
 
-Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/using/assets/accessrights.pdf)にあります。
+Adobe Campaign のアクセス権マトリックスは[ここ](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf)にあります。
+
+[![画像](assets/user_management.png)](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf)
 
 ## フォルダーアクセスの管理 {#folder-access-management}
 

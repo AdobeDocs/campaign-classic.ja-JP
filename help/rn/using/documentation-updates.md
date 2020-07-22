@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 64b31b8d4f88023f4285bf161d236973a7d63107
+source-git-commit: 13fefe429862e856bc7ec1d376d80c176398da0b
 workflow-type: tm+mt
-source-wordcount: '6954'
+source-wordcount: '6978'
 ht-degree: 97%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 97%
 
 ## 2020 年 7 月 {#july-2020}
 
+増分クエリを使用してリストを自動的に更新する方法に関する使用例が、ワークフローの使用例に追加されました。 [詳細を表示](../../workflow/using/about-workflow-use-cases.md)
+
 リリ [ースノート](../../rn/using/latest-release.md) は、次のように編成変更されました。 ビルドのステータス、アップグレードプロセス [、レコメンデーション、重要なリンクに関する情報が、](../../rn/using/latest-release.md) 概要ページに追加されました。 また、 [ゴールド標準リリース専用のページが追加され](../../rn/using/gold-standard.md) 、 [互換表が統合されました](../../rn/using/compatibility-matrix.md) 。
 
 Campaign Classic の監視に関するガイドラインを含む新しい節を追加しました。[詳細を表示](../../production/using/monitoring-guidelines.md)
@@ -37,7 +39,7 @@ Campaign Classic の監視に関するガイドラインを含む新しい節を
 
 Campaign Classicのプライバシー管理ページが更新され、「規則」フィールドに関する情報が追加されました。このフィールドは、自動プライバシーリクエストプロセスを設定するAPIを使用する場合に利用できるようになりました。 [詳細を表示](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-「プライバシー管理の概要」ページが更新され、タイの個人データ保護法(PDPA)とブラジルのレイジェラル・デ・プロテソ(LGPD)に関する情報が含まれるようになりました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+「プライバシー管理の概要」ページが更新され、タイの個人データ保護法(PDPA)とブラジルのレイジェラル・デ・プロテソ(LGPD)に関する情報が含まれるようになりました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 サブワークフローのログおよびエラー発生時の動作に関する情報が追加されました。 [詳細を表示](../../workflow/using/sub-workflow.md)
 

@@ -14,11 +14,11 @@ discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 15581517df8d2f397285bbadebd83b7f4539dfd7
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c1f7ff6a281c2830ac23ad995b750dc09ade5e92
+workflow-type: tm+mt
+source-wordcount: '911'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign は次の配信チャネルを提供します。
 1. **モバイルチャネル**：モバイルチャネル経由の配信によって、ターゲット母集団にパーソナライズされた SMS または LINE メッセージを送信できます。[SMS チャネル](../../delivery/using/sms-channel.md)を参照してください。
 1. **モバイルアプリケーションチャネル**：モバイルアプリ配信では通知を iOS システムおよび Android システムに送信できます。[モバイルアプリチャネル](../../delivery/using/about-mobile-app-channel.md)の章を参照してください。
 
-   その他のチャネルについて詳しくは、[このページ](../../delivery/using/other-channels.md)を参照してください。
+   その他のチャネルについて詳しくは、[このページ](../../delivery/using/communication-channels.md#other-channels)を参照してください。
 
    >[!NOTE]
    >
@@ -93,3 +93,13 @@ Adobe Campaign では、専用アプリを通じて iOS および Android モバ
 [ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)は、ダイレクトメールプロバイダーから求められるファイルのパーソナライズおよび生成を可能にするオフラインチャネルです。ダイレクトメールにより、カスタマージャーニーにオンラインチャネルとオフラインチャネルを混在させることができます。
 
 オンラインチャネルでは、メッセージ（E メール、SMS、モバイルアプリ配信など）を作成し、Adobe Campaign から直接オーディエンスにメッセージを送信できます。オフラインチャネルの場合は異なります。ダイレクトメール配信を準備すると、Adobe Campaign により、すべてのターゲットプロファイルと選択した連絡先情報（例えば、郵便の宛先）を含むファイルが生成されます。その後、このファイルを実際の発送処理をおこなうダイレクトメールプロバイダーに送信できます。
+
+## その他のチャネル {#other-channels}
+
+Adobe Campaign には、エージェンシーや電話の配信テンプレートが用意されており、外部配信の作成に使用できます。これらのチャネルを使用する場合、出力ファイルを処理するための専用の方法を設定することになります。設定の手順は、[ダイレクトメールチャネル](../../delivery/using/about-direct-mail-channel.md)の場合と同様です。
+
+さらに、「その他」タイプの配信は、プロセスを実行しない特定の専門的なテンプレートを使用します。これによって、Adobe Campaign プラットフォーム以外で実行されたマーケティングアクションを管理できます。
+
+このチャネルには特定のメカニズムはありません。これは汎用チャネルで、Adobe Campaign で使用できる他のコミュニケーションチャネルと同様に、独自の外部アカウントルーティングオプション、配信テンプレートタイプ、キャンペーンワークフローアクティビティがあります。
+
+このチャネルは、説明的な目的のためにのみ設計されています。例えば、Adobe Campaign以外のツールで実行されたキャンペーンのターゲットのトレースを保持する配信を定義する場合などです。

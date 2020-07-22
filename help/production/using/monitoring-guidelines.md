@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e2b97e10936a492c761f42eb062ede1cba7621ed
+source-git-commit: 41c515008a12fa066cedc9d7125195e2c4776f40
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 16%
@@ -38,8 +38,8 @@ Campaign Classicのホームページからアクセスできる **[!UICONTROL �
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">インスタンスの監視</a></p></td>
 <td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">ワークフローの監視</a></p></td>
-<td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">データベースの監視</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">配信の監視</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">配信の監視</a></p></td>
+<td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">データベースの監視</a></p></td></tr>
 </table>
 
 様々なキャンペーンプロセスを監視するその他の方法を使用できます。 システムが正常であることを確認し、ワークフローの設定や配信の送信時に発生する可能性のある問題のトラブルシューティングを行うために、インスタンスをいくつかの方法で監視します。
@@ -105,7 +105,7 @@ SMTPレポートには、配信の統計とSMTPエラーがドメイン別に表
 **配信のトラブルシューティング**&#x200B;特定のアクションは、配信の問題が発生した場合に実行できます。
 * [配信品質の問題](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [画像の表示の問題](../../production/using/image-display-issues.md)
-* [配信のパフォーマンスの問題](../../delivery/using/monitoring-a-delivery.md#performance_issues)
+* [配信パフォーマンスの問題](../../delivery/using/monitoring-a-delivery.md#performance_issues)
 * [一時的なファイルの問題](../../production/using/temporary-files.md) — オンプレミス *のホスティングモデルのみ*
 
 ### データベースの監視 {#monitoring-database}

@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f097fcc4363181cda21386840f19e2523c3af3f9
+source-git-commit: 890153a5b30594a1cb90606db4be8fd1ec19267b
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 79%
@@ -35,7 +35,7 @@ ht-degree: 79%
 
 Gold Standardのアップグレードの詳細については、この [記事を参照してください](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)。
 
-## ![](assets/do-not-localize/blue_2.png) Gold Standard 10 リリース{#gs-10}
+## ![](assets/do-not-localize/limited.png) Gold Standard 10 リリース{#gs-10}
 
 _2020 年 7 月 7 日_
 

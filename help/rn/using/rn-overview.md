@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18035a68b0ebfee4a8165c49646e408a85371ae5
+source-git-commit: d4a170f22108b38ebe8a451feea6210fe5aa482f
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 13%
+source-wordcount: '438'
+ht-degree: 14%
 
 ---
 
@@ -36,6 +36,8 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 ![](assets/do-not-localize/green3.png) **GA** — 最新の安定したビルドが利用可能です。 ビルドは実稼働環境で検証されました。
 
 最 **後の安定したビルドは** 、Gold Standard 10です。 [ここ](../../rn/using/gold-standard.md)をクリックしてください
+
+![](assets/do-not-localize/limited.png) **可用性の制限** — 現在実稼働環境での検証をビルドします。 オンデマンド展開のみ。
 
 ![](assets/do-not-localize/blue3.png) **リリース候補** — ビルドはアドビによって検証されます。 製造用校正を待機しています。
 

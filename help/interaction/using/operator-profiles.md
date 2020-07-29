@@ -14,8 +14,11 @@ discoiquuid: 9a3f1dc9-71ef-4039-94b4-a217996f6a80
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: fef684cd20f9b210025b21d2bc6bdb209a929f7c
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 インタラクションを使用するオペレーターには、オファーマネージャーと配信責任者という 2 つのタイプがあります。それぞれが異なる権限を持ち、ツリーやプラットフォームの一部にのみアクセスできます。
 
-* **[!UICONTROL オファーマネージャー]**：オファーの作成と管理
+* **[!UICONTROL オファーマネージャー]**：オファーの作成と管理.ワークフローでオファーを使用する場合、ワークフローを実行するには、演算子が **[!UICONTROL Administrator]** または **[!UICONTROLオファーマネージャー)** 演算子グループに属している必要があります。
 * **[!UICONTROL 配信責任者]**：オファーの承認と使用
 
 インタラクションに特化したオペレーターを作成する手順は、このプラットフォームの他のすべてのオペレーターを作成する手順と同じです。詳しくは、[この節](../../platform/using/access-management.md#creating-an-operator)を参照してください。権限は、オペレーターの作成時に設定します。

@@ -13,15 +13,19 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a034749c82f44edaf718b732e6871b9af378636a
+source-git-commit: d4edd389fde91c3f316c5213f4d7f34e51979112
 workflow-type: tm+mt
-source-wordcount: '2604'
+source-wordcount: '2627'
 ht-degree: 79%
 
 ---
 
 
 # データのインポート{#importing-data}
+
+>[!CAUTION]
+>
+>この機能を使用する際は、Adobe Campaign契約に従って、SFTPストレージ、DBストレージ、アクティブなプロファイルの制限に留意してください。
 
 ## データの収集方法 {#how-to-collect-data}
 
@@ -57,13 +61,13 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 手順は以下のとおりです。
 
-1. 公開鍵と秘密鍵のペアを生成するには、 [コントロールパネル](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) (Control Panel)を使用します。
+1. 公開鍵と秘密鍵のペアを生成するには [Campaign コントロールパネル](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data) を使用します。
 
    >[!NOTE]
    >
-   >コントロールパネルは、AWSでホストされるすべてのお客様が利用できます（自分のマーケティングインスタンスをオンプレミスでホストするお客様を除く）。
+   >Campaign コントロールパネルは、AWSでホストされるすべてのお客様が利用できます（自分のマーケティングインスタンスをオンプレミスでホストするお客様を除く）。
 
-1. Adobe Campaignのインストールがアドビによってホストされている場合は、アドビカスタマーケアに連絡して、必要なユーティリティをサーバーにインストールしてもらいます。
+1. Adobe CampaignのインストールがAdobeでホストされている場合は、Adobeカスタマーケアに問い合わせて、必要なユーティリティをサーバーにインストールしてもらいます。
 1. Adobe Campaignのインストールがオンプレミスの場合は、使用するユーティリティをインストールします(例： GPG、GZIP)と、アプリケーションサーバー上の必要なキー（暗号化キー）。
 
 次に、必要な前処理コマンドをワークフローに使用します。
@@ -84,29 +88,29 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 ### 使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み {#use-case-gpg-decrypt}
 
-この使用例では、外部システムで暗号化されたデータを読み込むために、コントロールパネルで生成されたキーを使用してワークフローを構築します。
+この使用事例では、外部システムで暗号化されたデータをCampaign コントロールパネルで生成された鍵を使用して読み込むためのワークフローを構築します。
 
 GPGキーを使用してデータを復号化する方法を示すチュートリアルビデオも [この節で説明します](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html)。
 
 この使用例を実行する手順は次のとおりです。
 
-1. コントロールパネルを使用して、キーペア（公開/秘密）を生成します。 詳細な手順は、 [コントロールパネルのドキュメントで確認できます](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)。
+1. Campaign コントロールパネルを使用して、キーペア（パブリック/プライベート）を生成します。 詳細な手順は、 [Campaign コントロールパネルドキュメントで確認できます](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)。
 
    * 公開鍵は外部システムと共有され、外部システムはこのキーを使用して Campaign に送信するデータを暗号化します。
    * 秘密鍵は、Campaign Classicが受信する暗号化されたデータの復号化に使用します。
 
    ![](assets/gpg_generate.png)
 
-1. 外部システムでは、コントロールパネルからダウンロードした公開鍵を使用して、Campaign Classicにインポートするデータを暗号化します。
+1. 外部システムでは、Campaign コントロールパネルからダウンロードした公開鍵を使用して、Campaign Classicにインポートするデータを暗号化します。
 
    ![](assets/gpg_external.png)
 
-1. Campaign Classicで、暗号化されたデータを読み込むためのワークフローを作成し、コントロールパネルからインストールされた秘密鍵を使用して復号化します。 これを行うには、次のようにワークフローを構築します。
+1. Campaign Classicで、暗号化されたデータを読み込むワークフローを構築し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用して復号化します。 これを行うには、次のようにワークフローを構築します。
 
    ![](assets/gpg_workflow.png)
 
    * **[!UICONTROL ファイル転送]** アクティビティ: ファイルを外部ソースからCampaign Classicに転送します。 この例では、SFTPサーバーからファイルを転送します。
-   * **[!UICONTROL データ読み込み（ファイル）]** アクティビティ: ファイルのデータをデータベースに読み込み、コントロールパネルで生成された秘密鍵を使用して復号化します。
+   * **[!UICONTROL データ読み込み（ファイル）]** アクティビティ: ファイルからデータベースにデータを読み込み、Campaign コントロールパネルで生成された秘密鍵を使用して復号化します。
 
 1. フ **[!UICONTROL ァイル転送]** アクティビティを開き、暗号化された.gpgファイルの読み込み元の外部アカウントを指定します。
 
@@ -124,7 +128,7 @@ GPGキーを使用してデータを復号化する方法を示すチュート�
 
    >[!CAUTION]
    >
-   >この例では、コントロールパネルで既定で使用されている「passphrase」というパスフレーズを使用しています。
+   >この例では、Campaign コントロールパネルがデフォルトで使用する「passphrase」というパスフレーズを使用しています。
    >
    >カスタマーケアの要求によって既にGPGキーがインスタンスにインストールされている場合は、そのパスフレーズが変更され、デフォルトとは異なるものになっている可能性があります。
 

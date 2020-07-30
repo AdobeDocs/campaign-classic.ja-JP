@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
+source-git-commit: 9f70468e3dd7003a18812d07669f10c561e8bef7
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 2%
@@ -80,7 +80,7 @@ JSを編集 [!DNL pipelined] した後、再起動します。
 コンテンツは、各トリガーに対してAnalyticsで定義されます。 JSON形式です。
 例えば、LogoUpload_uploading_Visitsをトリガーする場合：
 
-* **[!UICONTROL eVar01]** には、キャンペーン受信者との調整に使用される買い物客IDを含めることができます。 文字列形式です。 <br>主キーである買い物客IDを見つけるには調整する必要があります。
+* **[!UICONTROL eVar01]** には、キャンペーン受信者との調整に使用する買い物客IDを含めることができます。 文字列形式です。 <br>主キーである買い物客IDを見つけるには調整する必要があります。
 
 * **[!UICONTROL timeGMT]** :Analytics側のトリガーの時間を含めることができます。 UTCエポック形式です（01/01/1970 UTCからの秒数）。
 
@@ -161,7 +161,7 @@ function processPipelineMessage(xmlTrigger)
 
 ```
 function processPipelineMessage(xmlTrigger)
- {```
+ {
  (…)
  var event = 
  <pipelineEvent
@@ -209,7 +209,7 @@ triggerTypeフィールドは、データの送信元を識別します。
 | shopper_id | 文字列32 | shopper_id | 買い物客の内部識別子。 調整ワークフローによって設定されます。 0の場合、キャンペーンが不明であることを意味します。 |
 | shopper_key | 長い | shopper_key | Analyticsによってキャプチャされた買い物客の外部識別子。 |
 | created | 日時 | 作成済み | イベントがキャンペーンで作成された時刻。 |
-| lastModified | 日時 | 最終変更日時 | イベントが最後にアドビで変更されたとき。 |
+| lastModified | 日時 | 最終変更日時 | イベントが最後にAdobeで変更されたとき。 |
 | timeGMT | 日時 | Timestamp | イベントがAnalyticsで発生した時刻。 |
 
 ### イベントの表示 {#display-events}

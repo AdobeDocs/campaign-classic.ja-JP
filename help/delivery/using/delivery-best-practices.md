@@ -13,15 +13,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f599bc5483779ae62dd4d5eb1936cbc2760639b5
+source-git-commit: 4548eda6f87566398ddf19131b777012cbf8917b
 workflow-type: tm+mt
-source-wordcount: '4395'
+source-wordcount: '4408'
 ht-degree: 63%
 
 ---
 
 
 # 配信のベストプラクティス {#delivery-best-practices}
+
+Adobe Campaignを使用した配信の設計と送信に関するベストプラクティスを学びます。
 
 ## 配信の最適化 {#optimize-delivery}
 
@@ -102,7 +104,7 @@ Adobe Campaign で複数のブランドを管理する場合は、ブランド�
 
 **ヒント**:  Campaign Standardでの設定エラーを回避するには、新しいテンプレートを作成するのではなく、ネイティブのテンプレートを重複し、そのプロパティを変更することをお勧めします。
 
-**アドレスの設定**
+### アドレスの設定
 
 * 送信者のアドレスは、E メールを送信するための必須情報です。
 
@@ -126,7 +128,7 @@ Adobe Campaign で複数のブランドを管理する場合は、ブランド�
 
 1. 「 **[!UICONTROL 返信アドレス]** 」のテキストフィールドでは、送信者のアドレスがデフォルトで返信に使用されます。 カスタマーサポートの代表アドレスなど、実際にある既存のアドレスを使用することをお勧めします。そうすれば、受信者から返信が来た場合に、カスタマーサポートが対応することができます。
 
-**コントロール母集団の設定**
+### コントロール母集団の設定
 
 配信が送信されたら、除外された受信者の行動と、配信を受信した受信者の行動を比較します。その後、キャンペーンの効率性を測定できます。 コントロール母集団の詳細につ [いては、この節を参照してください](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)。
 
@@ -134,7 +136,7 @@ Adobe Campaign で複数のブランドを管理する場合は、ブランド�
 
 ![](assets/d_best_practices_control_group.png)
 
-**フィルターまたは制御ルールを適用するためのタイポロジの使用**
+### フィルターまたは制御ルールを適用するためのタイポロジの使用
 
 タイポロジには、メッセージを送信する前の分析フェーズで適用されるチェックルールが含まれています。
 
@@ -341,7 +343,7 @@ The steps for adding an index to the email address are presented [in this sectio
 
 メッセージを送信する前に、配信パラメーターと配信設定に矛盾がないことも確認します。
 
-### 検証が重要 {#validation-is-key}
+### 検証が重要な理由 {#validation-is-key}
 
 配信を送信する前に、配信を本当に届けたい受信者にメッセージが届くかどうかを確認する必要があります。そのためには、メッセージのコンテンツと配信パラメーターを検証します。
 
@@ -458,7 +460,7 @@ For more on this, refer to the [Configuring tracking](../../delivery/using/how-t
 
 * 大規模な配信を同時にスケジュールしないようにしてください。負荷がシステム全体で均等に分散されるまでには、5～10 分かかることがあります。
 
-## 配信のトラブルシューティング {#delivery-troubleshooting}
+### 配信のトラブルシューティング {#delivery-troubleshooting}
 
 配信に関する問題が発生した場合は、特定のアクションを実行できます。
 

@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+source-git-commit: 7ffbbe95247f28115f7e46eb0e94f2612fb4ea93
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 98%
+source-wordcount: '1674'
+ht-degree: 93%
 
 ---
 
@@ -29,25 +29,23 @@ ht-degree: 98%
 
 配信ごとに、次のようなターゲット母集団を複数指定できます。選択方法の詳細については、以下の節を参照してください。
 
-* **配信のメイン受信者**[詳細を表示](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)。
-* **配達確認メッセージの受信者**（検証サイクルを設定するため）[詳細を表示](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)。
+* 配信のメイン受信者[詳細を表示](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
+* 配達確認メッセージの受信者（検証サイクルを設定するため）[詳細を表示](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
 
-また、[シードアドレス](../../delivery/using/about-seed-addresses.md)および[コントロール母集団](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)を定義することもできます（配信がマーケティングキャンペーンに含まれる場合）。
+また、配信がマーケティングキャンペーンに含まれている場合は、 [シードアドレス](../../delivery/using/about-seed-addresses.md)、 [コントロール母集団を定義することもできます](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)。
 
 ## 配信のメイン受信者の選択 {#selecting-the-main-target}
 
-ほとんどの場合、メインターゲットは Campaign データベースから抽出されます（デフォルトモード）。
+ほとんどの場合、メインターゲットはAdobe Campaignデータベース（デフォルトモード）から抽出されます。 ただし、受信者は外部ファイルに保存することもできます。 詳しくは、[この節](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients)を参照してください。
 
-受信者は、外部ファイルに保存することもできます。このタイプの配信の設定については、[外部受信者の選択](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients)で説明します。
+配信の受信者を選択するには、次の手順に従います。
 
-作成する配信の受信者を選択するには、次の手順に従います。
-
-1. 「**[!UICONTROL 宛先]**」リンクをクリックします。
-1. 受信者の情報がデータベースに格納されている場合は、第 1 のオプションを選択します。
+1. 配信エディタで、「 **[!UICONTROL 宛先]**」を選択します。
+1. 受信者がデータベースに格納されている場合は、最初のオプションを選択します。
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. **[!UICONTROL ターゲットマッピング]**&#x200B;ドロップダウンリストでターゲットマッピングを選択します。Adobe Campaign のデフォルトのターゲットマッピングは&#x200B;**[!UICONTROL 受信者]**&#x200B;です。
+1. **[!UICONTROL ターゲットマッピング]**&#x200B;ドロップダウンリストでターゲットマッピングを選択します。Adobe Campaignのデフォルトターゲットマッピングは、 **[!UICONTROL nms:受信者]**&#x200B;スキーマに基づく **受信者** です。
 
    他のターゲットマッピングも使用でき、一部のターゲットマッピングは特定の設定に関連付けることができます。ターゲットマッピングについて詳しくは、[ターゲットマッピングの選択](../../delivery/using/selecting-a-target-mapping.md)を参照してください。
 

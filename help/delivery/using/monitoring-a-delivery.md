@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+source-git-commit: 51bbf50a1e9b00c25fca8e1e86ca21c314c18313
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2674'
 ht-degree: 97%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 * [配信エラーの理解](../../delivery/using/understanding-delivery-failures.md)
 * [強制隔離管理の理解](../../delivery/using/understanding-quarantine-management.md)
-* [配信のベストプラクティス](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
+* [配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)
 * [配信品質の管理](../../delivery/using/about-deliverability.md)
 
 ## 配信ダッシュボード {#delivery-dashboard}

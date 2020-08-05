@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 13fefe429862e856bc7ec1d376d80c176398da0b
+source-git-commit: 51bbf50a1e9b00c25fca8e1e86ca21c314c18313
 workflow-type: tm+mt
-source-wordcount: '6978'
+source-wordcount: '6968'
 ht-degree: 97%
 
 ---
@@ -255,7 +255,7 @@ E メールの送信時に使用する文字エンコーディングの強制適
 
 コントロールパネルのドキュメントは、新しいコラボレーションドキュメントセットに統合されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
 
-配信のベストプラクティス入門ガイドが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
+配信のベストプラクティス入門ガイドが更新されました。[詳細を表示](../../delivery/using/delivery-best-practices.md)
 
 ## 2019 年 10 月 {#october-2019}
 
@@ -267,7 +267,7 @@ Campaign Classic でのトラッキングについて、新しいトラブルシ
 
 Adobe Analytics Data Connector の新しいベストプラクティスのページが追加されました。[Adobe Analytics Data Connector の詳細を表示](../../platform/using/adobe-analytics-data-connector.md)
 
-配信のベストプラクティス入門ガイドが移動され、更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
+配信のベストプラクティス入門ガイドが移動され、更新されました。[詳細を表示](../../delivery/using/delivery-best-practices.md)
 
 複数の外部アカウントが拡張された汎用 SMPP コネクタを同じプロバイダーアカウントで使用する際の問題を回避するための推奨事項が、SMS チャネルのドキュメントに追加されました。[詳細を表示](../../delivery/using/sms-channel.md#automatic-reply)
 

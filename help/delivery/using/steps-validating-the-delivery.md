@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
+source-git-commit: 7ffbbe95247f28115f7e46eb0e94f2612fb4ea93
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1814'
 ht-degree: 98%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 98%
 
 1. **配信の分析**：この手順では、配信メッセージを準備できます。[配信の分析](#analyzing-the-delivery)を参照してください。
 
-   分析時に適用されるルールについて詳しくは、[タイポロジを使用したプロセスの検証](#validation-process-with-typologies)の節で説明しています。使用可能な検証モードについて詳しくは、[承認モードの変更](#changing-the-approval-mode)の節で説明しています。
+   分析時に適用されるルールは、 [この節](#validation-process-with-typologies) 。 使用可能な検証モードについて詳しくは、[承認モードの変更](#changing-the-approval-mode)の節で説明しています。
 
 1. **配達確認の送信**：この手順では、コンテンツ、URL、パーソナライゼーションフィールドなどを承認できます。[配達確認の送信](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)および[特定の配達確認ターゲットの定義](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)を参照してください。
 
@@ -76,6 +76,7 @@ ht-degree: 98%
    * 青色のアイコンは、情報メッセージを示します。
    * 黄色のアイコンは、重要でない処理エラーを示します。
    * 赤色のアイコンは、配信の送信を妨げる重大なエラーを示します。
+
    ![](assets/s_ncs_user_email_del_analyze_error.png)
 
 1. 「**[!UICONTROL 閉じる]**」をクリックし、該当する場合はエラーを修正します。
@@ -142,6 +143,7 @@ ht-degree: 98%
 >
 >* 使用可能な検証モードについて詳しくは、[承認モードの変更](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode)で説明しています。
 >* 配達確認のターゲットの設定について詳しくは、[特定の配達確認ターゲットの定義](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)を参照してください。
+
 >
 
 

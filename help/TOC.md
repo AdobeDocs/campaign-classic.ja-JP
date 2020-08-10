@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b19a8e477b4419a369fa257b4629f4a01f0b0400
 workflow-type: tm+mt
 source-wordcount: '2097'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 + [製品ドキュメント](campaign-classic-home.md)
 + [最新の更新](rn/using/documentation-updates.md)
 + リリースノート{#release-notes}
-   + [アップグレードを使用する前に](rn/using/rn-overview.md)
+   + [アップグレードの基本を学ぶ](rn/using/rn-overview.md)
    + [最新リリース](rn/using/latest-release.md)
    + [Gold Standard リリース](rn/using/gold-standard.md)
    + 以前のリリース {#previous-releases}
@@ -30,7 +30,7 @@ ht-degree: 98%
       + [リリース 18.4](rn/using/release--18-4.md)
    + 廃止された機能と互換性 {#deprecated-compatibility}
       + [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md)
-      + [互換表](rn/using/compatibility-matrix.md)
+      + [互換性マトリックス](rn/using/compatibility-matrix.md)
 + はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic について](platform/using/about-adobe-campaign-classic.md)
@@ -76,7 +76,7 @@ ht-degree: 98%
       + [外部アカウント](platform/using/external-accounts.md)
    + 外部データベースへのアクセス（FDA）{#accessing-external-database}
       + [FDA について](platform/using/about-fda.md)
-      + [FDAコネクタの設定](platform/using/specific-configuration-database.md)
+      + [FDA コネクタの設定](platform/using/specific-configuration-database.md)
       + [従来のコネクタ](platform/using/legacy-connectors.md)
       + [リモートデータベースのアクセス権](platform/using/remote-database-access-rights.md)
       + [データベースへの接続](platform/using/connecting-to-database.md)

@@ -12,18 +12,18 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e8598fd445f6e2ebd891af1e15c07eb836cd647
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '621'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
 
 # 互換性マトリックス{#compatibility-matrix}
 
-This document lists all systems and components supported for the latest build of **Adobe Campaign Classic (v6.11 and v7)**. このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
+このドキュメントでは、**Adobe Campaign Classic（v6.11 と v7）**&#x200B;の最新ビルドでサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
 
 ## 重要な注意事項{#important-notes}
 
@@ -31,9 +31,9 @@ This document lists all systems and components supported for the latest build of
 
 特に断りのない限り、すべてのマイナーリリースがサポートされます。
 
-Adobe Campaignクラシックは、このページに表示されるすべてのシステムおよびツールと互換性があります。 これらのサードパーティ製システムおよびツールの特定のバージョンは、それぞれの作成者と共に提供終了(EOL)に達すると、Adobe Campaignはこれらのバージョンとの互換性がなくなり、以降の製品リリースで互換表から削除されます。 問題を回避するため、互換性マトリックスに記載されているシステムのサポート対象バージョンを使用していることを確認してください。
+Adobe Campaign Classic は、このページに記載されているすべてのシステムおよびツールと互換性があります。これらのサードパーティ製システムおよびツールの特定のバージョンが、それぞれの作成者による提供が終了した（EOL）場合、Adobe Campaign はこれらのバージョンとの互換性を失います。これらは以降の製品リリースで互換表から削除されます。問題を回避するため、互換性マトリックスに記載されているシステムのサポート対象バージョンを使用していることを確認してください。
 
-非推奨の項目の詳細については、 [このページを参照してください](../../rn/using/deprecated-features.md)。
+非推奨の項目の詳細については、[このページ](../../rn/using/deprecated-features.md)を参照してください。
 
 ## オペレーティングシステム{#OperatingSystems}
 
@@ -57,7 +57,7 @@ Adobe Campaignクラシックは、このページに表示されるすべての
 <td>RHEL</td>
 <td>
 <p>7.x（64 ビット）</p>
-<p><strong>重要：</strong> RHELを使用する場合は、SELinuxを無効にするか、有効にしたSELinuxがキャンペーン操作の問題を引き起こしていないかを設計者にカスタムSELinuxルールを書かせる必要があります。</p>
+<p><strong>重要</strong>：RHEL を使用する場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させ、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。</p>
 </td>
 </tr>
 <tr>
@@ -71,16 +71,16 @@ Adobe Campaignクラシックは、このページに表示されるすべての
 </tbody>
 </table>
 
-## Web Servers{#WebServers}
+## Web サーバー{#WebServers}
 
 <table>
 <tbody>
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>8.0(Windows Server 2012、Windows 8)</p>
-<p>8.5(Windows Server 2012 R2)</p>
-<p>Windows Server 2016では10.0</p>
+<p>8.0（Windows Server 2012 - Windows 8）</p>
+<p>8.5（Windows Server 2012 R2）</p>
+<p>10.0（Windows Server 2016）</p>
 </td>
 </tr>
 <tr>
@@ -97,15 +97,15 @@ Adobe Campaignクラシックは、このページに表示されるすべての
 <table>
 <tbody>
 <tr>
-<td>Java開発キット(JDK)</td>
+<td>Java 開発キット（JDK）</td>
 <td>
 <p>8</p>
 <p>9</p>
-<p>このアプリケーションは、Oracleが開発したJava Development Kit(JDK)およびOpenJDKに対して承認されています。</p>
+<p>このアプリケーションは、Oracle が開発した Java Development Kit（JDK）および OpenJDK に対して承認されています。</p>
 </td>
 </tr>
 <tr>
-<td>図書館</td>
+<td>Libre Office</td>
 <td>
 <p>6（お使いのシステムに埋め込まれている場合は以前のバージョン）</p>
 </td>
@@ -119,9 +119,9 @@ Adobe Campaignクラシックは、このページに表示されるすべての
 </tbody>
 </table>
 
-## RDBMSドライバ{#RDBMSdrivers}
+## RDBMS ドライバー{#RDBMSdrivers}
 
-次のRDBMSドライバがサポートされています。
+次の RDBMS ドライバーがサポートされています。
 
 * Oracle SQL*Net 11
 
@@ -131,14 +131,14 @@ Adobe Campaignクラシックは、このページに表示されるすべての
 
 * SQLServer
 
-* DB2 （ODBCドライバ）
+* DB2（ODBC ドライバー）
 
 
 >[!NOTE]
 >
->RDBMSドライバはRDBMSサーバーのバージョンと一致する必要があります。
+>RDBMS ドライバーは RDBMS サーバーのバージョンと一致する必要があります。
 
-## RDBMSサーバー{#RDBMSservers}
+## RDBMS サーバー{#RDBMSservers}
 
 <table>
 <tbody>
@@ -159,7 +159,7 @@ Adobe Campaignクラシックは、このページに表示されるすべての
 <p>9.6.x</p>
 <p>10.x</p>
 <p>11.x</p>
-<p>注意： 上記のバージョンでAmazon RDS for PostgreSQLを使用することもできます。</p>
+<p>注意：上記のバージョンで Amazon RDS for PostgreSQL を使用することもできます。</p>
 </td>
 </tr>
 <tr>
@@ -169,7 +169,7 @@ Adobe Campaignクラシックは、このページに表示されるすべての
 <p>2014</p>
 <p>2016</p>
 <p>2017</p>
-<p>警告： Linuxでキャンペーンサーバーを実行している場合、Microsoft SQL Serverはプライマリデータベースとしてサポートされません。 Refer to the <a href="https://docs.campaign.adobe.com/doc/AC/en/INS_Prerequisites_and_recommendations__Database.html#Microsoft_SQL_Server">Installation guide</a>.</p>
+<p>警告：Linux で Campaign サーバーを実行している場合、Microsoft SQL Server はプライマリデータベースとしてサポートされません。<a href="https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.translate.html#Microsoft_SQL_Server">インストールガイド</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -184,29 +184,29 @@ Adobe Campaignクラシックは、このページに表示されるすべての
 <table>
 <tbody>
 <tr>
-<td>SalesforceコネクタAPI</td>
+<td>Salesforce コネクタ API</td>
 <td>
-<p>APIバージョン37</p>
+<p>API バージョン 37</p>
 </td>
 </tr>
 <tr>
 <td>SFDC API</td>
 <td>
-<p>APIバージョン15</p>
-<p>APIバージョン21</p>
+<p>API バージョン 15</p>
+<p>API バージョン 21</p>
 </td>
 </tr>
 <tr><td>Oracle On Demand API</td>
 <td>
-<p>Web Services v1.0 API</p>
+<p>Web サービス v1.0 API</p>
 </td>
 </tr>
 <tr>
 <td>MS Dynamics</td>
 <td>
-<p>SOAP API — オンプレミス： 2007, 2015, 2016</p>
-<p>SOAP API — オンライン： 2015, 2016</p>
-<p>Web API — オンプレミスおよびオンライン： 365, 2016, 2016 Update 1</p>
+<p>SOAP API - オンプレミス：2007、2015、2016</p>
+<p>SOAP API - オンライン：2015、2016</p>
+<p>Web API - オンプレミスおよびオンライン：365、2016、2016 Update 1</p>
 </td>
 </tr>
 </tbody>
@@ -245,7 +245,7 @@ Adobe Campaignクラシックは、このページに表示されるすべての
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2012 SP1およびSP2</p>
+<p>2012 SP1 および SP2</p>
 <p>2014</p>
 <p>2016</p>
 <p>2017</p>
@@ -281,13 +281,13 @@ Adobe Campaignクラシックは、このページに表示されるすべての
 <tr>
 <td>SAP HANA</td>
 <td>
-<p>バージョン1 SP12以降</p>
+<p>バージョン 1 SP12 以降</p>
 </td>
 </tr>
-<tr><td>HiveSQLを使用したHadoop</td>
+<tr><td>HiveSQL による Hadoop</td>
 <td>
-<p>HortonWorks HDP 2.4.X、2.5.x、2.6.x</p>
-<p>HDInsight 3.4 (HDP 2.4)、3.5 (HDP 2.5)、3.6 (HDP 2.6)</p>
+<p>HortonWorks HDP 2.4.x、2.5.x、2.6.x</p>
+<p>HDInsight 3.4（HDP 2.4）、3.5（HDP 2.5）、3.6（HDP 2.6）</p>
 <p>Cloudera CDH6.x</p>
 </td>
 </tr>
@@ -329,7 +329,7 @@ Adobe Campaignクラシックは、このページに表示されるすべての
 <p>7.x</p>
 <p>8.x</p>
 <p>9.0</p>
-<p>モバイルSDKビルド1.0.27を使用します。</p>
+<p>モバイル SDK ビルド 1.0.27 のサポート。</p>
 </td>
 </tr>
 <tr>
@@ -340,7 +340,7 @@ Adobe Campaignクラシックは、このページに表示されるすべての
 <p>iOS 11</p>
 <p>iOS 12</p>
 <p>iOS 13</p>
-<p>モバイルSDKビルド1.0.26（32ビットおよび64ビットバージョンと互換）</p>
+<p>モバイル SDK ビルド 1.0.26 のサポート。32 および 64 ビットバージョンとの互換性。</p>
 </td>
 </tr>
 </tbody>
@@ -348,7 +348,7 @@ Adobe Campaignクラシックは、このページに表示されるすべての
 
 ## ブラウザー{#Browsers}
 
-Internet Explorerのバージョン11がサポートされています。
+Internet Explorer のバージョン 11 がサポートされています。
 
 次のブラウザーでは、最新バージョンがサポートされています。
 
@@ -356,19 +356,19 @@ Internet Explorerのバージョン11がサポートされています。
 
 * Firefox
 
-* クロム
+* Chrome
 
 * Safari
 
 ## Experience Cloud との統合{#ExperienceCloudintegrations}
 
-For integrations with Adobe solutions, refer to this [section](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html#experience-cloud-integrations).
+アドビソリューションとの統合については、[この節](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html#experience-cloud-integrations)を参照してください。
 
 ## その他の関連ヘルプ{#Morelikethis}
 
 * [Campaign Classic リリースノート](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.html)
 * [インストールガイド](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/general-architecture.html)
-* [非推奨の機能およびシステム](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
+* [廃止された機能およびシステム](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 * [ビルドアップグレード手順](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)
 * [Campaign Classic 互換性マトリックス（19.0 リリース）](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix-19-0.html)
 * [Campaign Classic 互換性マトリックス（19.1 リリース）](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix-19-1.html)

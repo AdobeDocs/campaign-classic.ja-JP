@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 51bbf50a1e9b00c25fca8e1e86ca21c314c18313
 workflow-type: tm+mt
 source-wordcount: '6968'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,21 +29,21 @@ ht-degree: 97%
 
 ## 2020 年 7 月 {#july-2020}
 
-増分クエリを使用してリストを自動的に更新する方法に関する使用例が、ワークフローの使用例に追加されました。 [詳細を表示](../../workflow/using/about-workflow-use-cases.md)
+増分クエリを使用してリストを自動的に更新する方法に関する使用例が、ワークフローの使用例に追加されました。[詳細を表示](../../workflow/using/about-workflow-use-cases.md)
 
-リリ [ースノート](../../rn/using/latest-release.md) は、次のように編成変更されました。 ビルドのステータス、アップグレードプロセス [、レコメンデーション、重要なリンクに関する情報が、](../../rn/using/latest-release.md) 概要ページに追加されました。 また、 [ゴールド標準リリース専用のページが追加され](../../rn/using/gold-standard.md) 、 [互換表が統合されました](../../rn/using/compatibility-matrix.md) 。
+[リリースノート](../../rn/using/latest-release.md)の編成が変更され、ビルドのステータス、アップグレードプロセス、レコメンデーション、重要なリンクに関する情報が[概要ページ](../../rn/using/latest-release.md)に追加されました。また、[Gold Standard リリース専用のページが追加され](../../rn/using/gold-standard.md)、[互換表](../../rn/using/compatibility-matrix.md)が統合されました。
 
 Campaign Classic の監視に関するガイドラインを含む新しい節を追加しました。[詳細を表示](../../production/using/monitoring-guidelines.md)
 
 プライバシーと同意の節が強化され、より詳細な情報と役に立つリンクが追加されました。[詳細を表示](../../platform/using/privacy-and-recommendations.md)。
 
-Campaign Classicのプライバシー管理ページが更新され、「規則」フィールドに関する情報が追加されました。このフィールドは、自動プライバシーリクエストプロセスを設定するAPIを使用する場合に利用できるようになりました。 [詳細を表示](https://helpx.adobe.com/ie/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+Campaign Classic のプライバシー管理ページが更新され、「規則」フィールドに関する情報が追加されました。このフィールドは、自動プライバシーリクエストプロセスを設定する API を使用する場合に利用できます。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-「プライバシー管理の概要」ページが更新され、タイの個人データ保護法(PDPA)とブラジルのレイジェラル・デ・プロテソ(LGPD)に関する情報が含まれるようになりました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+「プライバシー管理の概要」ページが更新され、タイの個人データ保護法（PDPA）とブラジルの Lei Geral de Proteção de Dados（LGPD）に関する情報が含まれるようになりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-サブワークフローのログおよびエラー発生時の動作に関する情報が追加されました。 [詳細を表示](../../workflow/using/sub-workflow.md)
+サブワークフローのログおよびエラー発生時の動作に関する情報が追加されました。[詳細を表示](../../workflow/using/sub-workflow.md)
 
-ベストプラクティスは、 **[!UICONTROL スケジューラー]** アクティビティの節に追加されました。 [詳細を表示](../../workflow/using/scheduler.md)
+**[!UICONTROL スケジューラー]**&#x200B;アクティビティの節に、ベストプラクティスが追加されました。[詳細を表示](../../workflow/using/scheduler.md)
 
 ## 2020 年 6 月{#june-2020}
 
@@ -53,7 +53,7 @@ Campaign Classicのプライバシー管理ページが更新され、「規則�
 
 「ホワイトリスト」と「ブラックリスト」の両方の用語が Adobe Campaign ドキュメントから削除されました。これらの用語は、製品 UI、オプション名、内部コードにまだ存在する場合がありますが、今後の Campaign リリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
 
-The Experience Cloud Triggers and Adobe Campaign Classic integration page has been moved [here](../../integrations/using/about-triggers.md).
+Experience Cloud Triggers と Adobe Campaign Classic の統合ページは、[こちら](../../integrations/using/about-triggers.md)に移動されました。
 
 ## 20.2 - 2020 年 6 月 8 日{#release-20-2}
 
@@ -418,7 +418,7 @@ Campaign Classic API を[専用ページ](https://docs.campaign.adobe.com/doc/AC
 
 「Campaign Classic の非推奨（廃止予定）および削除された機能」ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
-[リリースノート](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.translate.html)および[従来のリリースノート](https://docs.campaign.adobe.com/doc/AC/en/RN_legacy.html)では、取り消されたビルドに対する警告が追加されました。17.9、18.4 および 18.6 の累積ビルドも追加されました。
+[リリースノート](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.translate.html)および[従来のリリースノート](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.html)では、取り消されたビルドに対する警告が追加されました。17.9、18.4 および 18.6 の累積ビルドも追加されました。
 
 [セキュリティ](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/security.html)、[配信品質](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)および[ビルドアップグレード](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)の入門ガイドが更新されました。
 

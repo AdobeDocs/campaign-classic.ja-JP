@@ -12,8 +12,11 @@ discoiquuid: 88575757-ef1b-4247-88ff-6f355c1ecd3e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7470011bbb08cc1a7041b53e8405c971f33e51c
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +28,7 @@ Adobe Campaign では、パーソナライズした電子メッセージをタ�
 E メールの送信を開始する前に：
 
 * 受信者のプロファイルに、E メールアドレスが少なくとも 1 つ登録されていることを確認します。
-* Adobe Campaign での[配信のベストプラクティス](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/deliveryBestPractices.html)を確認します。
+* Adobe Campaign での[配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)を確認します。
 * [配信品質](../../delivery/using/about-deliverability.md)および[配信品質の管理](https://helpx.adobe.com/jp/campaign/kb/acc-deliverability.html)を参照します。
 
 E メールを送信するための主な手順を以下に示します。

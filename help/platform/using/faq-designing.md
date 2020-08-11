@@ -13,10 +13,10 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e25560152a16865dc415ac2ffa1975808b3f6bbc
-workflow-type: ht
-source-wordcount: '354'
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '346'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Adobe Campaign でオムニチャネルメッセージをデザインするた�
 
 E メールのデザインを始める前に、配信のデザインと Adobe Campaign での送信に関する概念とベストプラクティスを理解しておくことをお勧めします。
 
-[詳しくはここをクリック](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/deliveryBestPractices.html)してください。
+[詳しくはここをクリック](../../delivery/using/delivery-best-practices.md)してください。
 
 ## 配信テンプレートとは何ですか？{#what-is-a-delivery-template-}
 

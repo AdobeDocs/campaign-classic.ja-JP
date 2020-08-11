@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 98%
+source-wordcount: '992'
+ht-degree: 96%
 
 ---
 
@@ -111,7 +111,7 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
    >ミラーページの生成について詳しくは、[ミラーページの生成](../../delivery/using/sending-messages.md#generating-the-mirror-page)を参照してください。
 
 * **[!UICONTROL ミラーページへのリンク]**：ミラーページへのリンク、「このメッセージが正しく表示されない場合は、ここをクリックしてください」を挿入します。
-* **[!UICONTROL 購読解除リンク]** : すべての配信(ブロックリスト)の購読を解除できるリンクを挿入します。
+* **[!UICONTROL 購読解除リンク]** :すべての配信(ブロックリスト)の購読を解除できるリンクを挿入します。
 * **[!UICONTROL 固有名詞の書式設定関数]**：Javascript の **[!UICONTROL toSmartCase]** 関数を生成します。この関数は各単語の最初の文字を大文字に変更します。このブロックは配信のソースコードの **`<script>...</script>`** タグの間に挿入する必要があります。
 
    次の例では、関数を使用して、要素「My header」を「My new header」で置き換え、各単語の先頭を大文字に変換しています。
@@ -159,3 +159,9 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
       ![](assets/s_ncs_user_personalized_block_b.png)
 
    * パーソナライゼーションブロックのコンテンツ（HTML、テキスト、JavaScript など）を入力し、「**[!UICONTROL 保存]**」をクリックします。
+
+## 動的コンテンツブロックを使用して電子メールをパーソナライズする方法
+
+動的コンテンツブロックを作成する方法、および動的コンテンツブロックを使用して電子メール配信のコンテンツをパーソナライズする方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)

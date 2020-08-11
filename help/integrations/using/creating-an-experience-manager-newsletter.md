@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 96%
+source-wordcount: '375'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 この統合を利用して、例えば、Adobe Experience Manager で作成したニュースレターを Adobe Campaign で E メールキャンペーンの一部として使用できます。
 
-この統合を利用する方法の詳細な例については、この[詳細な手順ガイド](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/aem.html)を参照してください。
+この統合を利用する方法の詳細な例については、この[詳細な手順ガイド](https://helpx.adobe.com/campaign/kb/acc-aem.html)を参照してください。
 
 **Adobe Experience Manager から：**
 

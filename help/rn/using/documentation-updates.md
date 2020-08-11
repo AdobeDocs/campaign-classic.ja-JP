@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 24d2dded38ddb922891a7264d9efea02cb448323
 workflow-type: tm+mt
-source-wordcount: '6958'
-ht-degree: 100%
+source-wordcount: '7084'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,37 @@ ht-degree: 100%
 
 このページには、毎月および Campaign の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
 
+
 その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
+
+## 2020 年 8 月 {#aug-2020}
+
+配信の設計とキャンペーンを使用した送信に関するベストプラクティスについては、専用のセクションを参照してください。 [詳細を表示](../../delivery/using/delivery-best-practices.md)
+
+配信品質のベストプラクティスのランディングページが改善され、サブセクションへのアクセスが容易になりました。 [詳細を表示](../../delivery/using/deliverability-key-points.md)
+
+ハウツービデオは、次のトピックで視聴できるようになりました。
+
+* [タイポロジルールと定義済みフィルターを使用した疲労管理の設定方法](../../campaign/using/about-campaign-typologies.md)
+
+* [キャンペーンでの電子メールの作成方法](../../campaign/using/designing-marketing-campaigns.md)
+
+* [条件付きコンテンツを含む多言語ニュースレターの作成方法](../../delivery/using/conditional-content.md)
+
+* [配信テンプレートの設定および導入方法](../../delivery/using/creating-a-delivery-template.md)
+
+* [電子メールに対してAMPをアクティブ化して使用する方法](../../delivery/using/defining-interactive-content.md)
+
+* [動的コンテンツブロックを使用して電子メールをパーソナライズする方法](../../delivery/using/personalization-blocks.md)
+
+* [パーソナライゼーションフィールドを使用して電子メールをパーソナライズする方法](../../delivery/using/personalization-fields.md)
+
+* [電子メール内のシードと配達確認を管理する方法](../../delivery/using/steps-defining-the-target-population.md)
+
+* [定期配信の設定方法](../../workflow/using/recurring-delivery.md)
+
+* [連続配信の設定方法](../../workflow/using/continuous-delivery.md)
+
 
 ## 2020 年 7 月 {#july-2020}
 

@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 6%
 
 ---
 
@@ -24,13 +27,13 @@ source-git-commit: 63d0551c0c036cb54ebea4e6cc4dc1f6566cf976
 
 ハイブリッドホスティングモデルに適用されるインストールおよび設定の手順を次に示します。
 
-* トランザクションメッセージの設定：本項を参照 [](../../message-center/using/transactional-messaging-architecture.md)。
-* ブランドごとのトラッキングおよびミラーページURLの設定 トランザクションメッセージについては、この節を参 [照してくださ](../../message-center/using/configuring-multibranding.md)い。
-* クライアントコンソールのインストール：本項を参照 [](../../installation/using/installing-the-client-console.md)。
-* パッケージのインストール：本項を参照 [](../../installation/using/installing-campaign-standard-packages.md)。
-* 配信品質：mxルール [と電子メー](../../installation/using/email-deliverability.md#mx-configuration) ル形式の設定 [](../../installation/using/email-deliverability.md#managing-email-formats)。 配信品質ツールとベストプラクティスの詳細については、「はじめに」ガイド [と詳細なドキュメン](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) トを [参照してください](../../delivery/using/about-deliverability.md)。
-* キャンペーンオプションの設定：本項を参照 [](../../installation/using/configuring-campaign-options.md)。
-* 外部データベース(FDA)の設定：本項を参照 [](../../platform/using/about-fda.md)。
-* CRMコネクタの設定：本項を参照 [](../../platform/using/crm-connectors.md)。
-* ミッドソーシングのデプロイメントの原則の詳細については、この節を参照して [くださ](../../installation/using/mid-sourcing-deployment.md)い。
+* トランザクションメッセージの設定：この [節を参照](../../message-center/using/transactional-messaging-architecture.md)。
+* ブランドごとのトラッキングURLとミラーページURLの設定を参照してください。 トランザクションメッセージについては、この [節を参照してください](../../message-center/using/configuring-multibranding.md)。
+* クライアントコンソールのインストール：この [節を参照](../../installation/using/installing-the-client-console.md)。
+* パッケージのインストール：この [節を参照](../../installation/using/installing-campaign-standard-packages.md)。
+* 配信品質： [MXルール](../../installation/using/email-deliverability.md#mx-configuration) および [E メールフォーマットの設定を参照してください](../../installation/using/email-deliverability.md#managing-email-formats)。 配信品質ツールとベストプラクティスについて詳しくは、「は [じめに](../../delivery/using/deliverability-key-points.md) 」ガイドと [詳細なドキュメントを参照してください](../../delivery/using/about-deliverability.md)。
+* キャンペーンオプションの設定：この [節を参照](../../installation/using/configuring-campaign-options.md)。
+* 外部データベース(FDA)の設定：この [節を参照](../../platform/using/about-fda.md)。
+* CRMコネクタの設定：この [節を参照](../../platform/using/crm-connectors.md)。
+* ミッドソーシング導入の原則の詳細については、この [節を参照してください](../../installation/using/mid-sourcing-deployment.md)。
 

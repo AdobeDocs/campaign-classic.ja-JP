@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3550b94cf68ae96e04020d99f5fc815ddaf0732
+source-git-commit: 1e7dfc5cebf6b59d1b7e718fcab289691d8b76de
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 24%
@@ -29,7 +29,7 @@ Adobe Campaignを使用した配信の設計と送信に関するベストプラ
 <tr>
   <td>
     <a href="optimize-delivery.md">
-      <img alt="最適化" src="assets/do-not-localize/optimize.svg"/>
+      <img alt="最適化" src="assets/do-not-localize/optimize.svg" width="60px"/>
     </a>
     <div>
       <a href="optimize-delivery.md">
@@ -42,7 +42,7 @@ Adobe Campaignを使用した配信の設計と送信に関するベストプラ
   </td>
    <td>
     <a href="use-templates.md">
-      <img alt="テンプレート" src="assets/do-not-localize/design.svg"/>
+      <img alt="テンプレート" src="assets/do-not-localize/design.svg" width="60px"/>
     </a>
     <div>
       <a href="use-templates.md">
@@ -55,7 +55,7 @@ Adobe Campaignを使用した配信の設計と送信に関するベストプラ
   </td>
   <td>
     <a href="design-and-personalize.md">
-      <img alt="設計" src="assets/do-not-localize/custom.svg"/>
+      <img alt="設計" src="assets/do-not-localize/custom.svg" width="60px"/>
     </a>
     <div>
       <a href="design-and-personalize.md">
@@ -70,7 +70,7 @@ Adobe Campaignを使用した配信の設計と送信に関するベストプラ
 <tr>
   <td>
     <a href="define-the-right-audience.md">
-      <img alt="ターゲット" src="assets/do-not-localize/profiles.svg"/>
+      <img alt="ターゲット" src="assets/do-not-localize/profiles.svg" width="60px"/>
     </a>
     <div>
       <a href="define-the-right-audience.md">
@@ -83,7 +83,7 @@ Adobe Campaignを使用した配信の設計と送信に関するベストプラ
   </td>
    <td>
     <a href="check-before-sending.md">
-      <img alt="確認" src="assets/do-not-localize/start.svg"/>
+      <img alt="確認" src="assets/do-not-localize/start.svg" width="60px"/>
     </a>
     <div>
       <a href="check-before-sending.md">
@@ -96,7 +96,7 @@ Adobe Campaignを使用した配信の設計と送信に関するベストプラ
   </td>
   <td>
     <a href="track-and-monitor.md">
-      <img alt="最適化" src="assets/do-not-localize/troubleshoot.svg"/>
+      <img alt="最適化" src="assets/do-not-localize/troubleshoot.svg" width="60px"/>
     </a>
     <div>
       <a href="track-and-monitor.md">

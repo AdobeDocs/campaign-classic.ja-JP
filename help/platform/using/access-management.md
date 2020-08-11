@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fef684cd20f9b210025b21d2bc6bdb209a929f7c
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3145'
 ht-degree: 94%
 
 ---
@@ -44,7 +44,7 @@ Adobe Campaign は、様々なオペレーターに割り当てる一連の権�
 
 >[!NOTE]
 >
->権限の定義を開始する前に、[セキュリティ設定チェックリスト](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/security.html)を読むことをお勧めします。
+>権限の定義を開始する前に、[セキュリティ設定チェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)を読むことをお勧めします。
 
 ## オペレーター {#operators}
 
@@ -211,7 +211,7 @@ Adobe Campaign は、管理者（&#39;admin&#39;）、請求（&#39;billing&#39;
 
 >[!NOTE]
 >
->セキュリティガイドラインについて詳しくは、[Adobe Campaign セキュリティ設定チェックリスト](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/security.html)を参照してください。
+>セキュリティガイドラインについて詳しくは、[Adobe Campaign セキュリティ設定チェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)を参照してください。
 
 ## オペレーターグループ {#operator-groups}
 
@@ -247,7 +247,7 @@ Adobe Campaign は、管理者（&#39;admin&#39;）、請求（&#39;billing&#39;
 
    このグループには、次の名前が付けられたrightが含まれます。
 
-   * **[!UICONTROL 管理]**: ワークフロー、配信、スクリプトなどのオブジェクトを実行、作成、編集、削除する権利
+   * **[!UICONTROL 管理]**:ワークフロー、配信、スクリプトなどのオブジェクトを実行、作成、編集、削除する権利
 
 1. **[!UICONTROL 配信オペレーター]**
 
@@ -255,17 +255,17 @@ Adobe Campaign は、管理者（&#39;admin&#39;）、請求（&#39;billing&#39;
 
    このグループには以下のネームド権限が設定されています。
 
-   * **[!UICONTROL 配信の準備]**: 配信分析を作成、編集、開始する権利、
-   * **[!UICONTROL 開始配信]**: 前に分析された配信を承認する権利。
+   * **[!UICONTROL 配信の準備]**:配信分析を作成、編集、開始する権利、
+   * **[!UICONTROL 開始配信]**:前に分析された配信を承認する権利。
 
 1. **[!UICONTROL キャンペーンマネージャー]**
 
-   このグループの演算子は、マーケティングキャンペーンを管理できます。 キャンペーン(計画、プログラム、ワークフロー、予算など)にリンクされたオブジェクトにアクセスできます。 を **[!UICONTROL キャンペーン]** (オプションのAdobe Campaignモジュール)の枠内に置く。
+   このグループの演算子は、マーケティングキャンペーンを管理できます。キャンペーン(計画、プログラム、ワークフロー、予算など)にリンクされたオブジェクトにアクセスできます。 を **[!UICONTROL キャンペーン]** (オプションのAdobe Campaignモジュール)の枠内に置く。
 
    このグループには以下のネームド権限が設定されています。
 
-   * **[!UICONTROL フォルダの挿入]**: Adobe Campaignツリーにフォルダを挿入する権利（関係するブランチの編集権限がある場合）、
-   * **[!UICONTROL ワークフロー]**: ワークフローを使用する権利。
+   * **[!UICONTROL フォルダの挿入]**:adobe campaignツリーにフォルダを挿入する権利（関係するブランチの編集権限がある場合）、
+   * **[!UICONTROL ワークフロー]**:ワークフローを使用する権利。
 
    >[!NOTE]
    >
@@ -295,7 +295,7 @@ Adobe Campaign は、管理者（&#39;admin&#39;）、請求（&#39;billing&#39;
 
    このグループのオペレーターは、オファーの作成および管理をおこなえます。これについて詳しくは、この[ページ](../../interaction/using/operator-profiles.md)を参照してください。このグループには以下のネームド権限が設定されています。
 
-   * **[!UICONTROL フォルダの挿入]**: Adobe Campaignツリーにフォルダを挿入する権限（該当するブランチの編集権限がある場合）、
+   * **[!UICONTROL フォルダの挿入]**:Adobe Campaignツリーにフォルダを挿入する権限（該当するブランチの編集権限がある場合）、
    * **[!UICONTROL フォルダーを編集]**：内部名、ラベル、関連する画像、サブフォルダーの順序など、フォルダーのプロパティを変更する権利。
 
 ## ネームド権限 {#named-rights}

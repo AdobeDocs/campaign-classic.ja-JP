@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a11a73b0679c0a65dc10f71869bf2a6c6efc008
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 87%
 
 ---
 
@@ -29,6 +32,6 @@ Adobe Campaign v6 から v7 にアップグレードする場合は、次のガ�
 
 移行手順とベストプラクティスの詳細については、次を参照してください。
 
-* [ビルドアップグレードの実行](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
+* [ビルドアップグレードの実行](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)
 * [移行の概要](../../migration/using/about-migration.md)
 

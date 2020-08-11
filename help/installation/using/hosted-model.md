@@ -15,7 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 9%
 
 ---
 
@@ -24,10 +27,10 @@ source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
 
 ホストモデルに適用されるインストールと設定の手順は次のとおりです。
 
-* ブランドごとのトラッキングおよびミラーページURLの設定 トランザクションメッセージについては、この節を参 [照してくださ](../../message-center/using/configuring-multibranding.md)い。
-* クライアントコンソールのインストール：本項を参照 [](../../installation/using/installing-the-client-console.md)。
-* パッケージのインストール：本項を参照 [](../../installation/using/installing-campaign-standard-packages.md)。
-* 配信品質ツールとベストプラクティスの詳細については、「はじめに」ガイド [と詳細なドキュメン](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) トを [参照してください](../../delivery/using/about-deliverability.md)。
-* キャンペーンオプションの設定：本項を参照 [](../../installation/using/configuring-campaign-options.md)。
-* CRMコネクタの設定：本項を参照 [](../../platform/using/crm-connectors.md)。
+* ブランドごとのトラッキングURLとミラーページURLの設定を参照してください。 トランザクションメッセージについては、この [節を参照してください](../../message-center/using/configuring-multibranding.md)。
+* クライアントコンソールのインストール：この [節を参照](../../installation/using/installing-the-client-console.md)。
+* パッケージのインストール：この [節を参照](../../installation/using/installing-campaign-standard-packages.md)。
+* 配信品質ツールとベストプラクティスについて詳しくは、「は [じめに](../../delivery/using/deliverability-key-points.md) 」ガイドと [詳細なドキュメントを参照してください](../../delivery/using/about-deliverability.md)。
+* キャンペーンオプションの設定：この [節を参照](../../installation/using/configuring-campaign-options.md)。
+* CRMコネクタの設定：この [節を参照](../../platform/using/crm-connectors.md)。
 

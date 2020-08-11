@@ -1,7 +1,7 @@
 ---
-title: データ指向API
-seo-title: データ指向API
-description: データ指向API
+title: データ指向 API
+seo-title: データ指向 API
+description: データ指向 API
 seo-description: null
 page-status-flag: never-activated
 uuid: f81356b3-8eef-4b65-9510-47c9d4b4e871
@@ -15,64 +15,67 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dbff132e3bf88c408838f91e50e4b047947ee32a
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '1888'
+ht-degree: 1%
 
 ---
 
 
-# データ指向API{#data-oriented-apis}
+# データ指向 API{#data-oriented-apis}
 
 データ指向APIを使用すると、データモデル全体に対応できます。
 
 ## データモデルの概要 {#overview-of-the-datamodel}
 
-Adobe Campaignでは、エンティティごとに専用の読み取りAPIを提供しません（getRecipient関数やgetDelivery関数などは提供しません）。 QUERY &amp; WRITERデータの読み取りおよび修正方法を使用して、モデルのデータにアクセスします。
+Adobe Campaignは、エンティティごとの専用の読み取りAPIをオファーしません（getRecipient関数やgetDelivery関数は使用しません）。 モデルのデータにアクセスするには、クエリおよびライターのデータ読み取りおよび修正方法を使用します。
 
-Adobe Campaignでは、コレクションを管理できます。クエリーを使用すると、ベース全体で収集された情報のセットをリカバリできます。 SQLモードでのアクセスとは異なり、Adobe Campaign APIは、データ列ではなくXMLツリーを返します。 Adobe Campaignでは、収集されたすべてのデータを含む複合ドキュメントを作成します。
+Adobe Campaignを使用すると、コレクションを管理できます。クエリを使用すると、基本的に収集された一連の情報を復元できます。 SQLモードでのアクセスとは異なり、Adobe CampaignAPIはデータ列ではなくXMLツリーを返します。 Adobe Campaignは、収集されたすべてのデータを含む複合ドキュメントを作成します。
 
-この操作モードでは、XMLドキュメントの属性と要素、およびデータベース内のテーブルの列の間の1対1のマッピングは提供されません。
+このオペレーティングモードでは、XMLドキュメントの属性と要素、およびデータベース内のテーブルの列の間の1対1のマッピングはオファーされません。
 
 XMLドキュメントは、データベースのMEMO型のフィールドに格納されます。
 
 ## モデルの説明 {#description-of-the-model}
 
-スクリプト内のデータベースのフィールドにアドレスを設定するには、Adobe Campaignデータモデルに精通している必要があります。
+スクリプト内のAdobe Campaignのフィールドに対処するには、データベースデータモデルに精通している必要があります。
 
-データモデルの表示については、 [Adobe Campaignデータモデルの説明を参照してください](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/_Datamodel_Description_of_the_main_tables.html)。
+データモデルの表示については、 [Adobe Campaignデータモデルの説明を参照してください](../../configuration/using/data-model-description.md)。
 
-構造を生成するには、次の記事を参照してください。デー [タモデルまたはデータディクショナリの生成方法](https://helpx.adobe.com/campaign/kb/generate-data-model.html)。
+構造を生成するには、次の記事を参照してください。 [データモデルまたはデータディクショナリの生成方法](https://helpx.adobe.com/campaign/kb/generate-data-model.html)。
 
-## クエリとライタ {#query-and-writer}
+## クエリ・ライター {#query-and-writer}
 
-以下の紹介スキーマは、データベースと顧客（WebページまたはAdobe Campaignクライアントコンソール）間の読み取り(ExecuteQuery)および書き込み(Writer)に関する低レベルの交換について詳しく説明しています。
+以下の紹介スキーマは、データベースとお客様(WebページまたはAdobe Campaignクライアントコンソール)の間で読み取り(ExecuteQuery)と書き込み(Writer)の低レベルのやり取りについて詳しく説明しています。
 
 ![](assets/s_ncs_integration_webservices_schema_writer.png)
 
 ### ExecuteQuery {#executequery}
 
-列と条件に対しては、クエリーを使用できます。
+列と条件の場合は、クエリを使用できます。
 
-これにより、基になるSQLを分離できます。 クエリ言語は、基になるエンジンに依存しません。一部の関数は再マップされ、SELECT SQLの注文が生成される場合があります。
+これにより、基になるSQLを分離できます。 クエリ言語は、基になるエンジンに依存しません。一部の関数は再マッピングされ、SELECT SQLの注文がいくつか生成される場合があります。
 
-この詳細については、スキ [ーマ&#39;xtk:queryDef&#39;の&#39;ExecuteQuery&#39;メソッドの例を参照してください](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)。
+この詳細については、スキーマ&#39;xtk:queryDef&#39;の&#39;ExecuteQuery&#39;メソッドの [例を参照してください](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)。
 
-ExecuteQueryメ **ソッドは** 、ExecuteQuery (xtk:queryDef) [で提供されます](#executequery--xtk-querydef-)。
+ExecuteQuery **メソッドは、ExecuteQuery (xtk:queryDef)**[](#executequery--xtk-querydef-).
 
 ### 書き込む {#write}
 
-書き込みコマンドを使用すると、基本の1つ以上のテーブルにエントリを含む単純なドキュメントや複雑なドキュメントを作成できます。
+書き込みコマンドを使用すると、基本の1つ以上のテーブル内のエントリを含む単純なドキュメントや複雑なエントリを作成できます。
 
-トランザクションAPIを使用すると、updateOrInsertコマンドを使用して調整を **管理できます** 。1つのコマンドを使用して、データを作成または更新できます。 変更マージ(マージ&#x200B;****)も設定できます。この操作モードでは、部分的な更新を承認できます。
+トランザクションAPIを使用すると、 **updateOrInsert** コマンドを使用して調整を管理できます。1つのコマンドで、データの作成や更新を行うことができます。 変更結合(**結合**)を設定することもできます。このオペレーティングモードを使用すると、部分的な更新を承認できます。
 
-XML構造は、データを論理的に表示し、SQLテーブルの物理構造を回避できます。
+XML構造は、データの論理表示をオファーし、SQLテーブルの物理構造を回避できます。
 
-Writeメソッドは、 [Write / writeCollection (xtk:session)で表されます](#write---writecollection--xtk-session-)。
+Writeメソッドは、 [Write / WriteCollection (xtk:session)で示され](#write---writecollection--xtk-session-)ます。
 
 ## ExecuteQuery (xtk:queryDef) {#executequery--xtk-querydef-}
 
-この方法を使用すると、スキーマに関連付けられたデータからクエリーを実行できます。 この関数は、認証文字列（ログインする必要があります）と、送信するクエリをパラメーターとして記述したXMLドキュメントを取ります。 returnパラメーターは、クエリーが参照するスキーマの形式でクエリーの結果を含むXMLドキュメントです。
+このメソッドを使用すると、スキーマに関連付けられたデータからクエリを実行できます。 認証文字列（ログインする必要がある）と、クエリーをパラメーターとして送信することを説明するXMLドキュメントを取ります。 returnパラメーターは、クエリが参照するスキーマーの形式でクエリの結果を含むXMLドキュメントです。
 
-「xtk:queryDef」スキーマの「ExecuteQuery」メソッドの定義：
+「xtk:queryDef」スキーマ内の「ExecuteQuery」メソッドの定義：
 
 ```
 <method name="ExecuteQuery" const="true">
@@ -84,11 +87,11 @@ Writeメソッドは、 [Write / writeCollection (xtk:session)で表されます
 
 >[!NOTE]
 >
->これは「const」メソッドです。 入力パラメーターは、「xtk:queryDef」スキーマの形式でXMLドキュメントに含まれます。
+>これは「const」メソッドです。 入力パラメーターは、&quot;xtk:queryDef&quot;スキーマの形式のXMLドキュメントに含まれます。
 
-### 入力クエリのXMLドキュメントの形式 {#format-of-the-xml-document-of-the-input-query}
+### 入力クエリーのXMLドキュメントの形式 {#format-of-the-xml-document-of-the-input-query}
 
-クエリーのXMLドキュメントの構造は、「xtk:queryDef」スキーマに記述されています。 このドキュメントでは、SQLクエリーの句について説明します。&quot;select&quot;、&quot;where&quot;、&quot;order by&quot;、&quot;group by&quot;、&quot;having&quot;
+クエリのXMLドキュメントの構造は、&quot;xtk:queryDef &quot;スキーマに記述されています。 このドキュメントでは、SQLクエリの句を説明します。&quot;select&quot;、&quot;where&quot;、&quot;order by&quot;、&quot;group by&quot;、&quot;having&quot;
 
 ```
 <queryDef schema="schema_key" operation="operation_type">
@@ -120,9 +123,9 @@ Writeメソッドは、 [Write / writeCollection (xtk:session)で表されます
 </queryDef>
 ```
 
-サブクエリ( `<subquery>` )は要素内で定義でき `<condition> ` ます。 要素の構文 `<subquery> ` は、aの構文に基づきます `<querydef>`。
+副クエリ( `<subquery>` )は、 `<condition> ` 要素内で定義できます。 要素の構文は、 `<subquery> ` の構文に基づき `<querydef>`ます。
 
-例 `<subquery>  : </subquery>`
+Example of a `<subquery>  : </subquery>`
 
 ```
 <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
@@ -138,20 +141,20 @@ Writeメソッドは、 [Write / writeCollection (xtk:session)で表されます
   
 ```
 
-クエリは、スキーマ属性から開始スキーマを参照する必要 **があります** 。
+クエリは、 **スキーマ属性から開始スキーマを参照する必要があります** 。
 
-目的の操作のタイプは、操作属性に入 **力され** 、次の値のいずれかを含みます。
+目的の操作のタイプは、 **操作** 属性に入力され、次の値のいずれかが含まれます。
 
 * **get**:テーブルからレコードを取得し、データが存在しない場合はエラーを返します。
 * **getIfExists**:テーブルからレコードを取得し、データが存在しない場合は空のドキュメントを返します。
 * **選択**:複数のレコードを返すカーソルを作成し、データがない場合は空のドキュメントを返します。
-* **count**:データ数を返します。
+* **count**:データカウントを返します。
 
-XPath構 **文は** 、入力スキーマに基づいてデータを検索するために使用されます。 XPathの詳細については、「データスキーマ」を参照 [してください](../../configuration/using/data-schemas.md)。
+XPath **** 構文は、入力スキーマに基づいてデータを検索するために使用されます。 XPathの詳細については、「 [データスキーマ](../../configuration/using/data-schemas.md)」を参照してください。
 
 #### 「get」操作の例 {#example-with-the--get--operation}
 
-電子メール上のフィルターを使用して、受信者の姓と名（「nms:recipient」スキーマ）を取得します。
+電子メールのフィルタを含む受信者(「nms:受信者」スキーマ)の姓と名を取得します。
 
 ```
 <queryDef schema="nms:recipient" operation="get">
@@ -170,7 +173,7 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
 
 #### 「select」操作の例 {#example-with-the--select--operation}
 
-フォルダおよび電子メールドメインでフィルタされた受信者のリストを、生年月日の降順で並べ替えて返します。
+フォルダおよび電子メールドメインでフィルタされた受信者のリストを、生年月日の降順で返します。
 
 ```
 <queryDef schema="nms:recipient" operation="select">
@@ -193,18 +196,18 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
 </queryDef>
 ```
 
-式には、単純なフィールドや、算術演算や文字列の連結などの複雑な式を使用できます。
+式には、単純なフィールドや、演算や文字列の連結などの複雑な式を使用できます。
 
-返すレコード数を制限するには、要素に **lineCount** 属性を追加し `<querydef>` ます。
+返すレコード数を制限するには、 **lineCount** 属性を `<querydef>` 要素に追加します。
 
-クエリーによって返されるレコードの数を100に制限するには：
+クエリが返すレコード数を100件に制限するには：
 
 ```
 <queryDef schema="nms:recipient" operation="select" lineCount="100">
 ...
 ```
 
-次の100件のレコードを取得するには、同じクエリを再実行し、 **startLine** 属性を追加します。
+次の100件のレコードを取得するには、 **startLine** 属性を追加して、同じクエリを再び実行します。
 
 ```
 <queryDef schema="nms:recipient" operation="select" lineCount="100" startLine="100">
@@ -213,7 +216,7 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
 
 #### 「count」操作の例 {#example-with-the--count--operation}
 
-クエリーのレコード数をカウントする手順は、次のとおりです。
+クエリのレコード数をカウントするには：
 
 ```
 <queryDef schema="nms:recipient" operation="count"">
@@ -226,7 +229,7 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
 
 >[!NOTE]
 >
->ここでも、前の例の条件を使用します。 AND句 `<select>` は使用されません。 </select>`
+>前述の例の条件を使用します。 AND句 `<select>` は使用されません。 </select>`
 
 #### データのグループ化 {#data-grouping}
 
@@ -252,7 +255,7 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
 </queryDef>
 ```
 
-グループ化するフィールドに **groupBy** 属性を直接追加すると、クエリーを簡単にできます。
+クエリは、 **groupBy** 属性を直接フィールドに追加してグループ化すると簡単にできます。
 
 ```
 <select>
@@ -262,13 +265,13 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
 
 >[!NOTE]
 >
->要素を設定する必要はなくなりま `<groupby>` した。
+>要素を設定する必要はなくなり `<groupby>` ました。
 
-#### 条件でのかぎ取り {#bracketing-in-conditions}
+#### 条件でのかっこ付け {#bracketing-in-conditions}
 
-同じ条件での括弧の例を2つ示します。
+同じ条件でのかっこ付けの例を2つ示します。
 
-* 単一の式の単純なバージョン：
+* 単一の式での単純なバージョン：
 
    ```
    <where>
@@ -276,7 +279,7 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
    </where>
    ```
 
-* 要素を含む構造化バー `<condition>` ジョン：
+* 要素を含む構造化バージョン `<condition>` :
 
    ```
    <where>
@@ -291,7 +294,7 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
    </where>
    ```
 
-同じフィールドに複数の条件が適用される場合、「OR」演算子を「IN」演算子に置き換えることができます。
+同じフィールドに複数の条件が適用される場合、「OR」演算子を「IN」演算に置き換えることができます。
 
 ```
 <where>
@@ -302,11 +305,11 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
 </where>
 ```
 
-この構文は、条件に2つ以上のデータが使用される場合にクエリーを簡素化します。
+この構文を使用すると、条件に2つ以上のデータを使用する場合のクエリが簡単になります。
 
 #### リンクの例 {#examples-on-links}
 
-* リンク1-1またはN1:テーブルに外部キーがある場合（リンクはテーブルから始まる）、リンクテーブルのフィールドを直接フィルターまたは取得できます。
+* リンク1 ～ 1またはN1:テーブルに外部キー(テーブルからのリンク開始)がある場合、リンクテーブルのフィールドを直接フィルタまたは取得できます。
 
    フォルダーラベルのフィルターの例：
 
@@ -316,7 +319,7 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
    </where>
    ```
 
-   「nms:recipient」スキーマからフォルダーのフィールドを取得するには：
+   「nms:folder」スキーマから受信者ーのフィールドを取得するには：
 
    ```
    <select>
@@ -327,7 +330,7 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
    </select>
    ```
 
-* コレクションリンク(1N):コレクションテーブルのフィールドに対するフィルタリングは、 **EXISTS** または **NOT EXISTS演算子を使用して実行する必要があります** 。
+* コレクションリンク(1N):コレクションテーブルのフィールドに対するフィルタリングは、 **EXISTS** 演算子または **NOT EXISTS** 演算子を使用して実行する必要があります。
 
    「ニュースレター」情報サービスを購読している受信者をフィルターするには：
 
@@ -339,7 +342,7 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
    </where>
    ```
 
-   クエリが基本製品を返すので、句からコレクションリンクのフィ `<select>` ールドを直接取得することはお勧めしません。 リンクテーブルにレコードが1つだけ含まれている場合（例）にのみ使用さ `<node expr="">`れます。
+   クエリが基本積を返すので、 `<select>` 句からコレクションリンクのフィールドを直接取得することはお勧めしません。 この変数は、リンクテーブルにレコードが1つだけ含まれている場合(例 `<node expr="">`)にのみ使用されます。
 
    「購読」コレクションリンクの例：
 
@@ -349,11 +352,11 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
    </select>
    ```
 
-   句内のコレクションリンクの要素を含むサブリストを取得でき `<select>` ます。 参照先のフィールドのXPathは、コレクション要素のコンテキストに依存します。
+   句内のコレクションリンクのリストを含むサブ要素を取得でき `<select>` ます。 参照先のフィールドのXPathは、コレクション要素からコンテキストを持ちます。
 
    フィルタリング( `<orderby>` )要素と制限( `<where>` )要素をコレクション要素に追加できます。
 
-   この例では、各受信者に対して、クエリは、受信者が購読する電子メールと情報サービスのリストを返します。
+   この例では、クエリは受信者ごとに、受信者がサブスクライブする情報サービスの電子メールとリストを返します。
 
    ```
    <queryDef schema="nms:recipient" operation="select">
@@ -375,11 +378,11 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
    </queryDef>
    ```
 
-#### &#39;where&#39;句と&#39;select&#39;句のパラメーターの連結 {#binding-the-parameters-of-the--where--and--select--clause}
+#### &#39;where&#39;句と&#39;select&#39;句のパラメーターのバインド {#binding-the-parameters-of-the--where--and--select--clause}
 
-パラメーターをバインドすると、エンジンはクエリーで使用するパラメーターの値を設定できます。 エンジンは値のエスケープを担当し、パラメータを取得するためのキャッシュの利点があるので、これは非常に役立ちます。
+パラメーターのバインディングを使用すると、クエリで使用されるパラメーターの値を設定できます。 エンジンは値のエスケープ処理を行い、パラメータを取得するためのキャッシュの利点が増えるので、これは非常に役立ちます。
 
-クエリーを構築すると、「連結された」値が文字(? ODBCでは、postgres... `#[index]#` )をSQLクエリの本文に含めます。
+クエリを構築すると、「連結された」値は文字(? ODBCでは、SQLクエリ `#[index]#` の本文のpostgres...)。
 
 ```
 <select>
@@ -390,15 +393,15 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
 </select>
 ```
 
-パラメーターのバインドを避けるには、「noSqlBind」属性に値「true」を入力する必要があります。
+パラメーターのバインドを避けるには、「noSqlBind」属性に値「true」を設定する必要があります。
 
 >[!IMPORTANT]
 >
->クエリに「order-by」または「group-by」命令が含まれる場合、データベースエンジンは値を「バインド」できません。 @noSqlBind=&quot;true&quot;属性は、クエリの「select」命令または「where」命令に配置する必要があります。
+>クエリに「order-by」または「group-by」命令が含まれる場合、データベースエンジンは値を「バインド」できません。 @noSqlBind=&quot;true&quot;属性は、クエリの「select」命令や「where」命令に配置する必要があります。
 
-#### クエリ作成のヒント： {#query-building-tip-}
+#### クエリ構築のヒント： {#query-building-tip-}
 
-クエリの構文を理解するために、Adobe Campaignクライアントコンソール（メニュー）の汎用クエリエディターを使用してクエリを記述す **[!UICONTROL Tools/ Generic query editor...]** ることができます。 手順は次のとおりです。
+クエリの構文を理解するために、クエリクライアントコンソール([ **[!UICONTROL ツール/汎用クエリエディター...]** ]メニュー)の汎用クエリエディターを使用してAdobe Campaignを書くことができます。 手順は次のとおりです。
 
 1. 取得するデータを選択します。
 
@@ -408,21 +411,21 @@ XPath構 **文は** 、入力スキーマに基づいてデータを検索する
 
    ![](assets/s_ncs_integration_webservices_queyr2.png)
 
-1. クエリーを実行し、Ctrl + F4キーを押してクエリーのソースコードを表示します。
+1. クエリを実行し、Ctrl + F4キーを押して、クエリソースコードを表示します。
 
    ![](assets/s_ncs_integration_webservices_queyr3.png)
 
 ### 出力ドキュメントの形式 {#output-document-format}
 
-returnパラメーターは、クエリーに関連付けられたスキーマの形式のXMLドキュメントです。
+returnパラメーターは、クエリに関連付けられたスキーマの形式のXMLドキュメントです。
 
-「get」操作での「nms:recipient」スキーマからの戻り値の例：
+「get」操作での「nms:受信者」スキーマからの戻り値の例：
 
 ```
 <recipient email="john.doe@adobe.com" lastName"Doe" firstName="John"/>
 ```
 
-「select」操作では、返されるドキュメントは要素の列挙です。
+「select」操作では、返されるドキュメントは要素の定義済みリストです。
 
 ```
 <!-- the name of the first element does not matter -->
@@ -433,7 +436,7 @@ returnパラメーターは、クエリーに関連付けられたスキーマ�
 </recipient-collection>  
 ```
 
-「count」型の操作に対して返されるドキュメントの例：
+「count」型の演算に対して返されるドキュメントの例：
 
 ```
 <recipient count="3"/>
@@ -441,7 +444,7 @@ returnパラメーターは、クエリーに関連付けられたスキーマ�
 
 #### エイリアス {#alias}
 
-エイリアスを使用すると、出力ドキュメント内のデータの場所を変更できます。 alias属性 **では** 、対応するフィールドにXPathを指定する必要があります。
+エイリアスを使用すると、出力ドキュメントー内のデータの場所を変更できます。 **** alias属性では、対応するフィールドにXPathを指定する必要があります。
 
 ```
 <queryDef schema="nms:recipient" operation="get">
@@ -494,7 +497,7 @@ returnパラメーターは、クエリーに関連付けられたスキーマ�
    </SOAP-ENV:Envelope>
    ```
 
-* 応答：
+* 応答:
 
    ```
    <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -513,13 +516,13 @@ returnパラメーターは、クエリーに関連付けられたスキーマ�
 
 これらのサービスは、エンティティ（「Write」メソッド）またはエンティティのコレクション（「WriteCollection」メソッド）の挿入、更新、または削除に使用されます。
 
-更新されるエンティティは、データスキーマに関連付けられています。 入力パラメーターは、認証文字列（ログインする必要があります）と、更新するデータを含むXMLドキュメントです。
+更新されるエンティティは、データスキーマに関連付けられます。 入力パラメーターは、認証文字列（ログインする必要がある）と、更新するデータを含むXMLドキュメントです。
 
-このドキュメントでは、書き込み手順を設定する手順について説明します。
+このドキュメントは、書き込み手順を構成する手順によって補われます。
 
 この呼び出しは、エラー以外のデータを返しません。
 
-「xtk:session」スキーマの「Write」メソッドと「WriteCollection」メソッドの定義：
+「xtk:session」スキーマ内の「Write」メソッドと「WriteCollection」メソッドの定義：
 
 ```
 <method name="Write" static="true">
@@ -536,27 +539,27 @@ returnパラメーターは、クエリーに関連付けられたスキーマ�
 
 >[!NOTE]
 >
->これは「静的」メソッドです。 入力パラメーターは、更新するスキーマの形式でXMLドキュメントに含まれます。
+>これは「静的」なメソッドです。 入力パラメーターは、更新するスキーマの形式でXMLドキュメントに含まれます。
 
 ### 概要 {#overview}
 
-データ調整は、関連するスキーマに入力されたキーの定義に基づいて動作します。 書き込みプロシージャは、入力ドキュメントに入力されたデータに基づいて、最初の有効なキーを探します。 エンティティは、データベース内の存在に基づいて挿入または更新されます。
+データの調整は、関連付けられたスキーマに入力されたキーの定義に基づいて動作します。 書き込みプロシージャは、入力ドキュメントに入力されたデータに基づいて、最初の有効なキーを探します。 エンティティは、データベース内の存在に基づいて挿入または更新されます。
 
-更新するエンティティのスキーマのキーは、xtkschema属性に基づいて完 **了します** 。
+更新するエンティティのスキーマのキーは、 **xtkschema** 属性に基づいて完了します。
 
-したがって、調整キーは、キーを構成するXPathのリストを含む **_key** 属性（コンマで区切る）を使用して強制できます。
+したがって、キーを構成するXPathsのリストを含む **_key** 属性（コンマ区切り）を使用して、紐付けキーを強制できます。
 
-次の値を **_operation属性に設定すると、操作のタイプを強制的に指定できます** 。
+次の値を **_operation** 属性に入力することで、操作のタイプを強制的に指定できます。
 
-* **挿入**:レコードを強制的に挿入します（調整キーは使用されません）。
-* **insertOrUpdate**:調整キー（デフォルトモード）に応じてレコードを更新または挿入します。
-* **update**:レコードを更新します。データが存在しない場合は何もしません。
-* **削除**:レコードを削除します。
+* **insert**:レコードを強制的に挿入します(紐付けキーは使用されません)。
+* **insertOrUpdate**:紐付けキー（デフォルトモード）、
+* **update**:レコードを更新します。は、データが存在しない場合は何もしません。
+* **delete**:レコードを削除します。
 * **none**:リンクの調整にのみ使用され、更新や挿入は使用されません。
 
-### &#39;Write&#39;メソッドの例 {#example-with-the--write--method}
+### &#39;Write&#39;メソッドの使用例 {#example-with-the--write--method}
 
-受信者を更新または挿入する（暗黙的な「insertOrUpdate」操作）。電子メールアドレス、生年月日、および町村：
+受信者（暗黙的な「insertOrUpdate」操作）を電子メールアドレス、生年月日、生まれた日付、および町村で更新または挿入するには：
 
 ```
 <recipient xtkschema="nms:recipient" email="john.doe@adobe.com" birthDate="1956/05/04" folder-id=1203 _key="@email, [@folder-id]">
@@ -572,9 +575,9 @@ returnパラメーターは、クエリーに関連付けられたスキーマ�
 
 >[!NOTE]
 >
->削除操作の場合、入力ドキュメントには調整キーを構成するフィールドのみを含める必要があります。
+>削除を行う場合は、入力ドキュメントにその紐付けキーを構成するフィールドのみを含める必要があります。
 
-### &#39;WriteCollection&#39;メソッドの例 {#example-with-the--writecollection--method}
+### &#39;WriteCollection&#39;メソッドの使用例 {#example-with-the--writecollection--method}
 
 複数の受信者の更新または挿入：
 
@@ -590,7 +593,7 @@ returnパラメーターは、クエリーに関連付けられたスキーマ�
 
 #### Example 1 {#example-1}
 
-内部名(@name)に基づいてフォルダーを受信者に関連付けます。
+内部名(@name)に基づいて受信者ーとフォルダーを関連付けます。
 
 ```
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
@@ -598,17 +601,17 @@ returnパラメーターは、クエリーに関連付けられたスキーマ�
 </recipient>
 ```
 
-「_key」属性と「_operation」属性は、リンクされた要素に入力できます。 この要素の動作は、入力スキーマのメイン要素の動作と同じです。
+「_key」属性と「_operation」属性は、リンクされた要素に入力できます。 このスキーマの動作は、入力要素のメイン要素の動作と同じです。
 
-メインエンティティのキーの定義(「nms:recipient」)は、リンクテーブル（要素スキーマ「xtk:folder」）のフィールドと電子メールで構成されます。 `<folder>`
+メインエンティティのキーの定義(「nms:folder」)は、リンクテーブルのフィールド(要素 `<folder>` スキーマ「xtk:folder」)と電子メールで構成されます。
 
 >[!NOTE]
 >
->フォルダー要素に対して入力された操作「none」は、更新や挿入を行わずにフォルダーに関する調整を定義します。
+>フォルダー要素に入力された操作「なし」は、更新や挿入を行わずに、フォルダーに関する調整を定義します。
 
 #### Example 2 {#example-2}
 
-受信者から会社（「cus:company」スキーマのリンクテーブル）を更新しています：
+受信者から会社(「cus:会社」スキーマ内のリンクテーブル)を更新：
 
 ```
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
@@ -618,7 +621,7 @@ returnパラメーターは、クエリーに関連付けられたスキーマ�
 
 #### Example 3 {#example-3}
 
-グループ関係テーブル(「nms:rcpGrpRel」)を持つグループに受信者を追加する：
+グループリレーションテーブル(&quot;nms:rcpGrpRel&quot;)を持つグループに受信者を追加する：
 
 ```
 <recipient _key="@email" email="martin.ledger@adobe.net" xtkschema="nms:recipient">
@@ -630,11 +633,11 @@ returnパラメーターは、クエリーに関連付けられたスキーマ�
 
 >[!NOTE]
 >
->グループ名に基づく暗黙的なキーが「nms:group」スキーマで定義されているので、 `<rcpgroup>` キーの定義は要素に入力されません。
+>グループ名に基づく暗黙的なキーが「nms:group」スキーマで定義されているので、キーの定義は `<rcpgroup>` 要素に入力されません。
 
 ### XMLコレクション要素 {#xml-collection-elements}
 
-デフォルトでは、XMLコレクション要素を更新するには、すべてのコレクション要素を設定する必要があります。 データベースのデータは、入力ドキュメントのデータに置き換えられます。 ドキュメントに更新する要素のみが含まれている場合、データベースのXMLデータとの結合を強制するには、更新するすべてのコレクション要素に対して「_operation」属性を設定する必要があります。
+デフォルトでは、XMLコレクション要素を更新するには、すべてのコレクション要素を設定する必要があります。 データベースのデータは、入力ドキュメントーのデータに置き換えられます。 ドキュメントに更新する要素のみが含まれている場合は、データベースのXMLデータとの結合を強制するために、更新するすべてのコレクション要素に「_operation」属性を設定する必要があります。
 
 ### SOAPメッセージの例 {#example-of-soap-messages-1}
 
@@ -654,7 +657,7 @@ returnパラメーターは、クエリーに関連付けられたスキーマ�
    </SOAP-ENV:Envelope>
    ```
 
-* 応答：
+* 応答:
 
    ```
    <?xml version='1.0' encoding='ISO-8859-1'?>

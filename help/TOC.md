@@ -5,9 +5,9 @@ index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: b19a8e477b4419a369fa257b4629f4a01f0b0400
+source-git-commit: 5e6ecd636ee0b2199808c03b2fd898a194f0c1ea
 workflow-type: tm+mt
-source-wordcount: '2097'
+source-wordcount: '2110'
 ht-degree: 99%
 
 ---
@@ -89,13 +89,17 @@ ht-degree: 99%
       + [CRM コネクタ](platform/using/crm-connectors.md)
       + [Adobe Analytics Data コネクタ](platform/using/adobe-analytics-data-connector.md)
 + メッセージの送信 {#sending-messages}
-   + Get started with messages {#about-deliveries-and-channels}
-      + [通信チャネル](delivery/using/communication-channels.md)
-      + [配信のベストプラクティス](delivery/using/delivery-best-practices.md)
-      + [配信情報へのアクセス](delivery/using/accessing-deliveries-information.md)
-      + [配信のタイプ](delivery/using/types-of-deliveries.md)
+   + [メッセージの概要](delivery/using/communication-channels.md)
+   + 配信のベストプラクティス {#delivery-bestpractices}
+      + [ベストプラクティスを学ぶ](delivery/using/delivery-best-practices.md)
+      + [配信の最適化](delivery/using/optimize-delivery.md)
+      + [テンプレートの使用](delivery/using/use-templates.md)
+      + [パーソナライズされたコンテンツの作成](delivery/using/design-and-personalize.md)
+      + [適切なオーディエンスの定義](delivery/using/define-the-right-audience.md)
+      + [送信前に確認](delivery/using/check-before-sending.md)
+      + [トラッキングと監視](delivery/using/track-and-monitor.md)
    + 配信を作成する際の主な手順 {#key-steps-when-creating-a-delivery}
-      + [配信の作成について ](delivery/using/steps-about-delivery-creation-steps.md)
+      + [配信を使い始める](delivery/using/steps-about-delivery-creation-steps.md)
       + [配信の作成と識別](delivery/using/steps-create-and-identify-the-delivery.md)
       + [ターゲット母集団の定義](delivery/using/steps-defining-the-target-population.md)
       + [配信の検証](delivery/using/steps-validating-the-delivery.md)

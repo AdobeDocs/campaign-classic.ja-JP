@@ -14,11 +14,11 @@ discoiquuid: 27c8e443-ee6b-4d58-bc2d-81cf8391c5de
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e9e9b1352706e15a0d0c6ff8921e430524a44b13
-workflow-type: ht
-source-wordcount: '889'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 97%
 
 ---
 
@@ -123,3 +123,9 @@ E メールを作成するとします。まず受信者の名前を挿入し、
 デフォルト値は 5 秒です。
 
 このオプションを 0 に設定した場合、パーソナライゼーションフェーズに時間制限はなくなります。
+
+## パーソナライゼーションフィールドを使用して電子メールをパーソナライズする方法
+
+個人設定フィールドを件名行と電子メール配信のコンテンツに追加する方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)

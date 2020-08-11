@@ -14,11 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e31a0faf6c48e2d34ce47fc1cd5a23aae05aeebf
-workflow-type: ht
-source-wordcount: '3084'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '3087'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->配信の作成と設定について詳しくは、[メッセージの送信](../../delivery/using/communication-channels.md)の節を参照してください。
+>配信の作成と設定について詳しくは、[メッセージの送信](../../delivery/using/steps-about-delivery-creation-steps.md)の節を参照してください。
 
 ## ターゲット母集団の選択 {#selecting-the-target-population}
 
@@ -219,7 +219,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-設定手順について詳しくは、[メインターゲットからのコントロール母集団の抽出](#extracting-the-control-group-from-the-main-target)および[母集団の追加](#adding-a-population)で説明しています。
+The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
 
 #### 配信のコントロール母集団の有効化 {#activating-the-control-group-for-a-delivery}
 
@@ -236,9 +236,9 @@ ht-degree: 100%
    ![](assets/s_ncs_user_edit_op_target_del.png)
 
 1. 「**[!UICONTROL コントロール母集団]**」タブをクリックし、「**[!UICONTROL コントロール母集団の設定を有効にして編集]**」を選択します。
-1. 「**[!UICONTROL 編集...]**」をクリックして、コントロール母集団を設定します。
+1. 「**[!UICONTROL 編集...]**」をクリックして、コントロール母集団を設定します。。
 
-設定手順について詳しくは、[メインターゲットからのコントロール母集団の抽出](#extracting-the-control-group-from-the-main-target)および[母集団の追加](#adding-a-population)で説明しています。
+The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
 
 #### メインターゲットからのコントロール母集団の抽出 {#extracting-the-control-group-from-the-main-target}
 
@@ -257,7 +257,7 @@ ht-degree: 100%
 
 この設定は、ワークフロー内の共有アクティビティと同等で、ターゲットをサブセットに分割できます。コントロール母集団は、このようなサブセットのひとつです。詳しくは、[この節](../../workflow/using/architecture.md)を参照してください。
 
-### 母集団の追加 {#adding-a-population}
+### Adding a control group {#adding-a-population}
 
 コントロール母集団として使用する新しい母集団を定義できます。この母集団は、受信者のグループから作成することも、特定のクエリを使用して作成することもできます。
 

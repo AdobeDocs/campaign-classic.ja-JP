@@ -12,11 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4582ea496fff35c5b586049b8daa379464bd78fc
-workflow-type: ht
-source-wordcount: '574'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b14f5ecd2b06ed9f4cb49d8779b9f94ea4bcdddc
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 95%
 
 ---
 
@@ -71,3 +71,92 @@ ISP やその他の組織（[プロジェクトハニーポット](https://www.p
 ## レピュテーションに対する取り組み {#reputation}
 
 スパム送信者は、長期的にレピュテーションを維持するためにプログラムされた配信をおこないます。スパム送信者は、ISP などによって課せられたベストプラクティスに対応するためにマーケティングプランの変更が必要な場合があり、レピュテーションのピーク後（ランプアップ）、通常の配信を設定します。
+
+## ベストプラクティス{#best-practices}
+
+Adobe Campaignでの配信品質に関するベストプラクティスを学びます。 トピック間を移動し、ガイダンスを見つけるには、以下のリンクを使用してください。
+
+<table>
+<tr>
+  <td>
+    <a href="starting-new-platform.md">
+      <img alt="開始" src="assets/do-not-localize/start.svg"/>
+    </a>
+    <div>
+      <a href="starting-new-platform.md">
+    <strong>開始</strong>
+    </a>
+    </div>
+    <p>
+    <em>新しいプラットフォームの開始</em>
+    <p>
+  </td>
+   <td>
+    <a href="control-message-content.md">
+      <img alt="設計" src="assets/do-not-localize/design.svg"/>
+    </a>
+    <div>
+      <a href="control-message-content.md">
+    <strong>設計</strong>
+    </a>
+    </div>
+    <p>
+    <em>メッセージコンテンツの制御</em>
+    <p>
+  </td>
+  <td>
+    <a href="improve-reputation.md">
+      <img alt="設計" src="assets/do-not-localize/check.svg"/>
+    </a>
+    <div>
+      <a href="improve-reputation.md">
+    <strong>送信</strong>
+    </a>
+    </div>
+    <p>
+    <em>レピュテーションの向上</em>
+    <p>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="technical-recommendations.md">
+      <img alt="最適化" src="assets/do-not-localize/optimize.svg"/>
+    </a>
+    <div>
+      <a href="technical-recommendations.md">
+    <strong>最適化</strong>
+    </a>
+    </div>
+    <p>
+    <em>技術的な推奨事項</em>
+    <p>
+  </td>
+   <td>
+    <a href="monitoring-deliverability.md">
+      <img alt="確認" src="assets/do-not-localize/monitor.svg"/>
+    </a>
+    <div>
+      <a href="monitoring-deliverability.md">
+    <strong>モニタ</strong>
+    </a>
+    </div>
+    <p>
+    <em>監視ツール</em>
+    <p>
+  </td>
+  <td>
+    <a href="deliverability-faq.md">
+      <img alt="最適化" src="assets/do-not-localize/troubleshoot.svg"/>
+    </a>
+    <div>
+      <a href="deliverability-faq.md">
+    <strong>トラブルシューティング</strong>
+    </a>
+    </div>
+    <p>
+    <em>問題の解決</em>
+    <p>
+  </td>
+</tr>
+</table>

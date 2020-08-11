@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 41c515008a12fa066cedc9d7125195e2c4776f40
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 16%
+source-wordcount: '711'
+ht-degree: 15%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 16%
 
 Campaign Classicのホームページからアクセスできる **[!UICONTROL 「監視]** 」タブは、インスタンスの監視に役立つ主なエントリポイントです。
 
-インスタンスで何が起きているかのダッシュボードを提供します。 ステータス（ビルドバージョン、インストール済みパッケージなど）、システムインジケータ、ログ、現在実行中のワークフロー、最後に送信された配信の状態など。
+インスタンスで何が起きているかのダッシュボードを提供します。ステータス（ビルドバージョン、インストール済みパッケージなど）、システムインジケータ、ログ、現在実行中のワークフロー、最後に送信された配信の状態など。
 
 詳しくは、[こちら](../../production/using/monitoring-processes.md)を参照してください。
 
@@ -58,7 +58,7 @@ Campaign Classicのホームページからアクセスできる **[!UICONTROL �
 
 **コントロールパネル**
 
-このCampaign コントロールパネルでは、インスタンスのいくつかの設定を管理できます。 URL権限の管理、サーバーのビルドバージョンなど、インスタンスの詳細を確認します。 また、インスタンスに接続されているSFTPサーバーの使用可能な領域を監視することもできます。 [詳しくは、ここをクリックしてください。](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
+このCampaign コントロールパネルでは、インスタンスのいくつかの設定を管理できます。URL権限の管理、サーバーのビルドバージョンなど、インスタンスの詳細を確認します。 また、インスタンスに接続されているSFTPサーバーの使用可能な領域を監視することもできます。 [詳しくは、ここをクリックしてください。](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ Workflow HeatMapは、インスタンスで実行されているすべてのワ�
 
 ワークフローを使用する際のガイドラインとベストプラクティスに従うと、パフォーマンスの向上に役立ちます。 詳しくは、次の節を参照してください。
 * [ワークフロー使用時のベストプラクティス](../../workflow/using/workflow-best-practices.md)
-* [監視ワークフローの実行](../../workflow/using/monitoring-workflow-execution.md)
+* [ワークフロー実行の監視](../../workflow/using/monitoring-workflow-execution.md)
 
 ### 配信の監視 {#monitoring-deliveries}
 
@@ -96,11 +96,11 @@ Workflow HeatMapは、インスタンスで実行されているすべてのワ�
 
 **SMTPレポート**
 
-SMTPレポートには、配信の統計とSMTPエラーがドメイン別に表示されます。 [詳しくは、ここをクリックしてください。](../../production/using/monitoring-processes.md)
+SMTPレポートには、配信の統計とSMTPエラーがドメイン別に表示されます。 [詳細情報](../../production/using/monitoring-processes.md)
 
 **ベストプラクティス**
 
-[配信の送信とデザインのベストプラクティスは](http://docs.campaign.adobe.com/doc/AC/getting_started/JA/deliveryBestPractices.html) 、パフォーマンスの向上に役立ちます。
+[配信の送信とデザインのベストプラクティスは](../../delivery/using/delivery-best-practices.md) 、パフォーマンスの向上に役立ちます。
 
 **配信のトラブルシューティング**&#x200B;特定のアクションは、配信の問題が発生した場合に実行できます。
 * [配信品質の問題](../../production/using/performance-and-throughput-issues.md#deliverability_issues)

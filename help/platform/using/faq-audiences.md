@@ -13,8 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2ee1912e0de2841867d0ffb5420cc9810aa1083e
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +42,7 @@ Adobe Campaign の中でターゲット母集団を選択し、オーディエ�
 
 リストとは、配信アクションのターゲットにしたり、インポート操作時またはワークフロー実行時に更新したりできる受信者の静的なセットです。例えば、クエリによってデータベースから抽出した母集団からリストを作成できます。
 
-[詳しくはここをクリック](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group)してください。また、手動でリストを作成する方法については[このビデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html)を、ワークフローで受信者のリストを作成して自動更新する方法については[この別のビデオ](https://docs.campaign.adobe.com/doc/AC/en/Videos/creating_list_recipients_611.mp4)を参照してください。
+[詳しくはここをクリック](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group)してください。また、手動でリストを作成する方法については[このビデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html)を、ワークフローで受信者のリストを作成して自動更新する方法については[この別のビデオ](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html)を参照してください。
 
 ## メッセージの送信前に母集団の重複を排除するにはどうすればよいですか？ {#how-can-i-deduplicate-a-population-before-sending-a-message-}
 

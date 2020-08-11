@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51bbf50a1e9b00c25fca8e1e86ca21c314c18313
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '2674'
+source-wordcount: '2644'
 ht-degree: 97%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 97%
 
 * **配信のサイズ**：サイズの大きい配信は、完了までに時間がかかることがあります。MTA の子はデフォルトのバッチサイズを処理するように設定されます。この設定はほとんどのインスタンスで機能しますが、配信が頻繁に遅くなる場合はチェックする必要があります。
 * **配信のターゲット**：配信パフォーマンスはソフトバウンスエラーの影響を受けることがあり、再試行設定に従って処理されます。エラーの数が多いと、より多くの再試行が必要になります。
-* **プラットフォーム全体の負荷**：大きな配信を複数送信すると、プラットフォーム全体に影響することがあります。IP レピュテーションと配信品質の問題もチェックできます。詳しくは、Adobe Campaign の[配信のベストプラクティスガイド](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)と[このページ](../../delivery/using/about-deliverability.md)を参照してください。
+* **プラットフォーム全体の負荷**：大きな配信を複数送信すると、プラットフォーム全体に影響することがあります。IP レピュテーションと配信品質の問題もチェックできます。詳しくは、Adobe Campaign の[配信のベストプラクティスガイド](../../delivery/using/deliverability-key-points.md)と[このページ](../../delivery/using/about-deliverability.md)を参照してください。
 
 プラットフォームとデータベースのメンテナンスも、配信の送信パフォーマンスに影響することがあります。詳しくは、[このページ](../../production/using/database-performances.md)を参照してください。
 
@@ -118,10 +118,10 @@ ht-degree: 97%
 「**[!UICONTROL 送信]**」ボタンをクリックした後に、配信が通常より長くかかっているように見えることがあります。これは様々な要素が原因として考えられます。
 
 * 一部の電子メールプロバイダーが、ブロックリストにIPアドレスを追加している可能性があります。 In this case, check your broadlogs and consult [this section](../../delivery/using/about-deliverability.md).
-* 迅速に処理するには配信が大きすぎる可能性があります。これは、JavaScript の高度なパーソナライゼーションで、または配信が 60KB を超えている場合に発生することがあります。コンテンツのガイドラインについて詳しくは、Adobe Campaign の[配信のベストプラクティス](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/deliveryBestPractices.html)を参照してください。
+* 迅速に処理するには配信が大きすぎる可能性があります。これは、JavaScript の高度なパーソナライゼーションで、または配信が 60KB を超えている場合に発生することがあります。コンテンツのガイドラインについて詳しくは、Adobe Campaign の[配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)を参照してください。
 * Adobe Campaign MTA 内でスロットルが発生している可能性があります。これは次の原因で発生します。
 
-   * メッセージ保留中（**[!UICONTROL 割り当てに達しました]**&#x200B;というメッセージ）：Campaign に定義されている宣言的 MX ルールによって宣言された割り当てに達しました。このメッセージについて詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/acc-deliverability-faq.html#FAQ)を参照してください。MX ルールについて詳しくは、[このページ](../../delivery/using/technical-recommendations.md#mx-rules)を参照してください。
+   * メッセージ保留中（**[!UICONTROL 割り当てに達しました]**&#x200B;というメッセージ）：Campaign に定義されている宣言的 MX ルールによって宣言された割り当てに達しました。このメッセージについて詳しくは、[このページ](../../delivery/using/deliverability-faq.md)を参照してください。MX ルールについて詳しくは、[このページ](../../delivery/using/technical-recommendations.md#mx-rules)を参照してください。
    * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential block list.
 
 * システムの問題によってサーバー間のインタラクションが妨げられることがあります。これにより、送信処理全体が低速になります。サーバーにメモリまたはリソースの問題がないことを確認します。これは、例えば、Campaign によるパーソナライゼーションデータの取得処理に影響することがあります。
@@ -203,7 +203,7 @@ ht-degree: 97%
  </tbody> 
 </table>
 
-Adobe Campaign E メールの配信品質の最適化方法について詳しくは、[配信品質のベストプラクティスガイド](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)と[このページ](../../delivery/using/about-deliverability.md)を参照してください。
+Adobe Campaign E メールの配信品質の最適化方法について詳しくは、[配信品質のベストプラクティスガイド](../../delivery/using/deliverability-key-points.md)と[このページ](../../delivery/using/about-deliverability.md)を参照してください。
 
 ### 保留中ステータス {#pending-status}
 

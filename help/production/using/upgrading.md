@@ -15,38 +15,41 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '1149'
+ht-degree: 14%
 
 ---
 
 
 # アップグレード{#upgrading}
 
-アップグレードプロセスを開始する前に、アップグレード対象のAdobe Campaignのバージョンを決定し、確認して、リリースノートを参 [照してください](https://docs.campaign.adobe.com/doc/AC/en/RN.html)。
+アップグレードプロセスを開始する前に、アップグレードするAdobe Campaignのバージョンを決定して確認し、 [リリースノート](../../rn/using/latest-release.md) を参照してください。
 
 >[!CAUTION]
 >
->更新する前に、各インスタンスでデータベースのバックアップを作成することを強くお勧めします。 詳しくは、「バックアップ」を参照して [ください](../../production/using/backup.md)。\
+>更新する前に、各インスタンスでデータベースのバックアップを作成することを強くお勧めします。 詳細については、「 [バックアップ](../../production/using/backup.md)」を参照してください。\
 >アップグレードを実行するには、インスタンスとログにアクセスする権限と権限を持っていることを確認します。
 
 >[!NOTE]
 >
->インストールガイドとビルドア [ップグレードの概要](../../installation/using/general-architecture.md) (英語の [み](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) )も参照してください。
+>インストー [ルガイド](../../installation/using/general-architecture.md) 、 [ビルドアップグレードの概要も参照してください](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) 。
 
 ## Windowsの場合 {#in-windows}
 
-新しいビルドを配信する際にAdobe Campaignを新しいバージョンに更新するには、Windowsで次の手順を適用する必要があります。
+新しいビルドを配信する際に新しいバージョンのAdobe Campaignを更新するには、Windowsで次の手順を適用する必要があります。
 
 * [サービスのシャットダウン](#shut-down-services),
 * [Adobe Campaign サーバーアプリケーションのアップグレード](#upgrade-the-adobe-campaign-server-application),
 * [リソースの同期](#synchronize-resources),
 * [サービスの再起動](#restart-services).
 
-クライアントコンソールの更新方法については、この節を参照 [してください](../../installation/using/client-console-availability-for-windows.md)。
+クライアントコンソールの更新方法については、 [この節を参照してください](../../installation/using/client-console-availability-for-windows.md)。
 
 ### サービスのシャットダウン {#shut-down-services}
 
-すべてのファイルを新しいバージョンに置き換えるには、nlserverサービスのすべてのインスタンスをシャットダウンする必要があります。
+すべてのファイルを新しいバージョンで置き換えるには、nlserverサービスのすべてのインスタンスをシャットダウンする必要があります。
 
 1. 以下のサービスをシャットダウンします。
 
@@ -54,12 +57,12 @@ source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
       **iisreset /stop**
 
-   * Adobe Campaignサービス：net **stop nlserver6**
+   * Adobe Campaignサービス： **net stop nlserver6**
    >[!CAUTION]
    >
    >You also need to make sure the redirection server (webmdl) is stopped, so that the **nlsrvmod.dll** file used by IIS can be replaced with the new version.
 
-1. Check that no tasks are active by running the **nlserver pdump** command. 次の情報が表示されます。
+1. Check that no tasks are active by running the **nlserver pdump** command. 次のようになります。
 
    ```
    C:<installation path>Adobe Campaign v7bin>nlserver pdump
@@ -67,7 +70,7 @@ source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
    No tasks
    ```
 
-   Windowsのタスクマネージャーを使用して、すべてのプロセスが停止していることを確認できます。
+   Windowsタスクマネージャーを使用して、すべてのプロセスが停止していることを確認できます。
 
 ### Adobe Campaign サーバーアプリケーションのアップグレード {#upgrade-the-adobe-campaign-server-application}
 
@@ -75,15 +78,15 @@ source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 1. **setup.exeを実行します**。
 
-   このファイルをダウンロードするには、ダウンロードセンターリンクからAdobe Campaign Support [ページ](https://support.neolane.net/)(https://support.neolane.net/ **)にア** クセスします。
+   このファイルをダウンロードするには、[ [ダウンロードセンター](https://support.neolane.net/)]リンクから[Adobe Campaignサポート]ページ(https://support.neolane.net/ **** )にアクセスします。
 
-1. Select the installation mode: choose **[!UICONTROL Update or repair]**
-1. クリック **[!UICONTROL Next]** .
-1. クリック **[!UICONTROL Finish]** .
+1. インストールモードを選択します。「 **[!UICONTROL 更新」または「修復」を選択する]**
+1. 「**[!UICONTROL 次へ]**」をクリックします。
+1. 「**[!UICONTROL 完了]**」をクリックします。
 
-   次に、インストールプログラムは新しいファイルをコピーします。
+   次に、インストールプログラムが新しいファイルをコピーします。
 
-1. Once the operation is complete, click **[!UICONTROL Finish]** .
+1. 処理が完了したら「**[!UICONTROL 完了]**」をクリックします。
 
 ### リソースの同期 {#synchronize-resources}
 
@@ -99,9 +102,9 @@ source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 >[!NOTE]
 >
->この操作は、(**nlserver web**)アプリケーションサーバー上でのみ1回だけ実行します。
+>この操作は、(**nlserver web**)アプリケーションサーバー上でのみ1回だけ実行する必要があります。
 
-次に、同期にエラーまたは警告が生成されているかどうかを確認します。 詳しくは、「アップグレードの競合の解 [決」を参照してください](#resolving-upgrade-conflicts)。
+次に、同期でエラーが発生したか、警告が発生したかを確認します。 詳しくは、「アップグレードの競合の [解決](#resolving-upgrade-conflicts)」を参照してください。
 
 ### サービスの再起動 {#restart-services}
 
@@ -109,29 +112,29 @@ source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 * Web サービス（IIS）：
 
-   **iisreset /start**
+   **iisreset /開始**
 
-* Adobe Campaignサービス： **net start nlserver6**
+* Adobe Campaignサービス： **net開始nlserver6**
 
 ## Linuxの場合 {#in-linux}
 
-新しいビルドの配信時にAdobe Campaignを新しいバージョンに更新するには、Linuxの手順を次に示します。
+新しいビルドが提供されるときに新しいバージョンのAdobe Campaignを更新するには、Linuxの手順を次に示します。
 
 * [更新されたパッケージの取得](#obtain-updated-packages)、
 * [更新の実行](#perform-an-update)、
 * [Webサーバーを再起動します](#reboot-the-web-server)。
 
-クライアントコンソールの更新方法については、この節を参照 [してください](../../installation/using/client-console-availability-for-linux.md)。
+クライアントコンソールの更新方法については、 [この節を参照してください](../../installation/using/client-console-availability-for-linux.md)。
 
 >[!NOTE]
 >
->ビルド8757から、サードパーティのライブラリは不要になりました。
+>Build 8757から、サードパーティのライブラリは不要になりました。
 
 ### 更新されたパッケージの取得 {#obtain-updated-packages}
 
-最初に、Adobe Campaignの両方の更新済みパッケージを回復します。ダウンロードセンターリンクからAdobe Campaign Supportペ [ージ](https://support.neolane.net/)(https://support.neolane.net/ **)に** 移動します。
+Adobe Campaignの両方の更新されたパッケージを回復することによる開始:[ [ダウンロードセンター](https://support.neolane.net/)]リンクから[Adobe Campaignサポート]ページ(https://support.neolane.net/ **** )に移動します。
 
-ファイル **はnlserver6-v7-XXX.rpmです。**
+ファイルは **nlserver6-v7-XXX.rpmです。**
 
 ### 更新の実行 {#perform-an-update}
 
@@ -145,7 +148,7 @@ source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
    XXXはファイルのバージョンです。
 
-   rpmファイルは、CentOS/Red hatディストリビューションで見つけられるパッケージに依存しています。 これらの依存関係の一部を使いたくない場合は、rpmの&quot;nodeps&quot;オプションを使う必要があるかもしれません。
+   rpmファイルはCentOS/Red Hatディストリビューションで見つけられるパッケージに依存しています。 これらの依存関係の一部を使いたくない場合は、rpmの「nodeps」オプションを使わなければならないかもしれません。
 
    ```
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
@@ -161,7 +164,7 @@ source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 >[!NOTE]
 >
->完全なインストール手順については、この節 [で説明します](../../installation/using/installing-campaign-standard-packages.md)。 リソースは自動的に同期されますが、エラーが発生していないことを確認する必要があります。 詳しくは、「アップグレードの競合の解 [決」を参照してください](#resolving-upgrade-conflicts)。
+>完全なインストール手順については、 [この節で説明します](../../installation/using/installing-campaign-standard-packages.md)。 リソースは自動的に同期されますが、エラーが発生しないことを確認する必要があります。 詳しくは、「アップグレードの競合の [解決](#resolving-upgrade-conflicts)」を参照してください。
 
 ### Webサーバーの再起動 {#reboot-the-web-server}
 
@@ -175,9 +178,10 @@ source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 >[!CAUTION]
 >
->* スクリプトは、 **apacheではなく** httpdと呼ばれる場合が **あります**。
+>* スクリプトの名前は、 **apacheではなく** httpd **にすることができます**。
 >* 次の応答を取得するまで、このコマンドを実行する必要があります。
    >この操作は、Apacheが新しいライブラリを適用するために必要です。
+
 >
 
 
@@ -190,7 +194,7 @@ source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
 ## アップグレードの競合の解決 {#resolving-upgrade-conflicts}
 
-リソースの同期中に、postupgrade **** コマンドを使用して、同期にエラーが発生したか、警告が発生したかを検出できます。
+リソースの同期中に、 **postupgrade** コマンドを使用すると、同期でエラーが発生したか警告が発生したかを検出できます。
 
 ### 同期結果の表示 {#view-the-synchronization-result}
 
@@ -209,24 +213,24 @@ source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
    リソースの競合に関する警告は、見落とさないように注意して、解決してください。
 
-* postupgrade_ **.logログファイルには`<server version number>_<time of postupgrade>`** 、同期結果が格納されます。 It is available by default in the following directory: **`<installation directory>/var/<instance/postupgrade`**. エラーと警告はそれぞれエラーと警告の属性で明示されます。
+* postupgrade_ **.log`<server version number>_<time of postupgrade>`** ログファイルには、同期結果が格納されます。 It is available by default in the following directory: **`<installation directory>/var/<instance/postupgrade`**. エラーと警告はそれぞれエラーと警告の属性で明示されます。
 
 ### 競合の解決 {#resolving-conflicts}
 
 競合を解決するには、次の手順に従います。
 
-1. Adobe Campaignツリーで、に進みます **[!UICONTROL Administration > Configuration > Package management > Edit conflicts]** 。
+1. In the Adobe Campaign tree, go to **[!UICONTROL Administration > Configuration > Package management > Edit conflicts]** .
 1. リストから解決する競合を選択します。
 
 競合を解決するには、次の3つの方法があります。
 
-* **[!UICONTROL Declare as resolved]** :は、事前にユーザーの介入が必要です。
-* **[!UICONTROL Accept the new version]** :adobe Campaignで提供されるリソースがユーザーによって変更されていない場合に推奨されます。
-* **[!UICONTROL Keep the current version]** :は、更新が拒否されたことを意味します。
+* **[!UICONTROL 解決済みとして宣言]** :前もってユーザーの介入が必要です。
+* **[!UICONTROL 新しいバージョンを受け入れる]** :adobe campaignが提供するリソースがユーザーによって変更されていない場合に推奨されます。
+* **[!UICONTROL 現在のバージョンを保持]** :は、更新が拒否されたことを意味します。
 
    >[!CAUTION]
    >
-   >この解像度モードを選択した場合、新しいバージョンで修正を行う必要が生じない場合があります。
+   >この解像度モードを選択すると、新しいバージョンで修正を行うメリットが得られない場合があります。
 
 競合を手動で解決する場合は、次の手順に従います。
 
@@ -238,12 +242,12 @@ source-git-commit: 8fd9949ec03b7c2cdf88a9d5fcf5c8d8fd85f7d0
 
    ![](assets/s_ncs_production_conflict003.png)
 
-1. 解決した競合に移動します。アイコンをクリ **[!UICONTROL Actions]** ックし、を選択しま **[!UICONTROL Declare as resolved]** す。
+1. 解決した競合に移動します。**[!UICONTROL アクション]**&#x200B;アイコンをクリックし、「**[!UICONTROL 解決済みとして宣言]**」を選択します。
 1. 変更を保存します。これにより競合が解決します。
 
 ### ベストプラクティス{#best-practices}
 
-更新エラーがデータベース構成にリンクされている可能性があります。 技術管理者とデータベース管理者が実行する設定が互換性があることを確認します。
+更新エラーがデータベース構成にリンクされている可能性があります。 技術管理者とデータベース管理者が実行した設定が互換性があることを確認します。
 
 例えば、Unicodeデータベースは、LATIN1データなどのストレージを許可するだけではありません。
 
@@ -255,29 +259,29 @@ On the machine where the (**nlserver web**) Adobe Campaign application server is
 
 **setup-client-6。** XXXX **.exe**
 
-**アプリケ[ーションのパス]**datakitlengthjsp
+**アプリケーションの[パス]**datakitnlengjsp内
 
-次回クライアントコンソールに接続すると、ウィンドウが開き、アップデートの利用可能性がユーザーに通知され、ダウンロードおよびインストールの可能性が提供されます。
+次回クライアントコンソールに接続すると、ウィンドウに、アップデートの利用可能性が通知され、アップデートのダウンロードとインストールの可能性がオファーされます。
 
 >[!NOTE]
 >
->IIS_XPGユーザーがこのインストールファイルに対する適切な読み取り権限を持っていることを確認し、詳細についてはインスト [ールガイド](../../installation/using/general-architecture.md) を参照してください。
+>IIS_XPGユーザーがこのインストールファイルに対する適切な読み取り権限を持っていることを確認し、詳細については [インストールガイド](../../installation/using/general-architecture.md) を参照してください。
 
 ### Linuxの場合 {#in-linux-1}
 
-Adobe Campaignアプリケーションサーバー(**nlserver web**)がインストールされているコンピューターで、次のパッケージを取得します。
+Adobe Campaignアプリケーションサーバー(**nlserver web**)がインストールされているマシン上で、次のパッケージを取得します。
 
 **setup-client-6。** XXXX **.exe**
 
-それをコピーし、 **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
+をコピーし、 **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
 
 ```
  cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp
 ```
 
-次回クライアントコンソールに接続すると、ウィンドウが開き、アップデートの利用可能性がユーザーに通知され、ダウンロードおよびインストールの可能性が提供されます。
+次回クライアントコンソールに接続すると、ウィンドウに、アップデートの利用可能性が通知され、アップデートのダウンロードとインストールの可能性がオファーされます。
 
 >[!NOTE]
 >
->Apacheユーザーがこのインストールファイルに対する適切な読み取り権限を持っていることを確認し、詳細については『インス [トールガイド](../../installation/using/general-architecture.md) 』を参照してください。
+>Apacheユーザーがこのインストールファイルに対する適切な読み取り権限を持っていることを確認し、詳細については [インストールガイド](../../installation/using/general-architecture.md) を参照してください。
 

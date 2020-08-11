@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 99dfefe3f51115b78bfeb02094d614a6e63af124
+source-git-commit: 27a72257904ff356b1a341c29f9a1ab3ccb20dd2
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 97%
+source-wordcount: '439'
+ht-degree: 96%
 
 ---
 
@@ -49,7 +49,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 ホスト型顧客（マネージドサービスまたはハイブリッド）は、環境をアップグレードするには、サポートに連絡する必要があります。
 
-Gold Standard のユーザーは、安定した最新バージョンを使用することで、自動的に Gold Standard のアップグレードのメリットが得られるため、操作は必要ありません。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)
+Gold Standard のユーザーは、安定した最新バージョンを使用することで、自動的に Gold Standard のアップグレードのメリットが得られるため、操作は必要ありません。[詳細情報](https://helpx.adobe.com/campaign/kb/gold-standard.html#gs-6)
 
 オンプレミスユーザーは、アップグレードを実行できます。これをおこなうには、[最新の安定したビルドをダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)して、すべての環境をアップグレードする必要があります。[アップグレードプロセス](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)の詳細については、[ビルドアップグレードの FAQ](https://helpx.adobe.com/jp/campaign/kb/build-upgrade-faq.html) を参照してください。
 

@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b080bdc4d719994c74ec5c094c917e2c40839a49
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2673'
 ht-degree: 88%
 
 ---
@@ -39,7 +39,7 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 
 一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムとみなします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
 
-また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。配信を保護および最適化するベストプラクティスについて詳しくは、[このページ](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/deliveryBestPractices.html)を参照してください。
+また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。配信を保護および最適化するベストプラクティスについて詳しくは、[このページ](../../delivery/using/delivery-best-practices.md)を参照してください。
 
 ### 強制隔離とブロックリスト {#quarantine-vs-block-list}
 

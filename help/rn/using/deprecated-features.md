@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e46325ab8f68a0b71198aee9cf04f2b1eb97fdd3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <tr>  
    <td>FAX チャネル<br></td>
    <td><p>20.2 リリースより、FAX チャネルは非推奨となります。</p> 
-   <p>このチャネルを使用する場合は、それに応じて実装を適応させる必要があります。Campaign チャネルの<a href="../../delivery/using/communication-channels.md">詳細情報</a>を参照してください。</p>
+   <p>このチャネルを使用する場合は、それに応じて実装を適応させる必要があります。Campaign チャネルの<a href="../../delivery/using/steps-about-delivery-creation-steps.md">詳細情報</a>を参照してください。</p>
    <p><em>削除予定日：2021 年</em></p></td>
   </tr>
  </tbody> 

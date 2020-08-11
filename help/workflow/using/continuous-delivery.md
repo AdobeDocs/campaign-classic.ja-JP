@@ -14,8 +14,11 @@ discoiquuid: 9d80be19-8dde-4278-ab5f-23f364fe422e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 69%
 
 ---
 
@@ -50,3 +53,17 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 この 3 つの値セットは、オンザフライ配信によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記憶するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
 
 補集合に関連付けられたトランジションは、同じパラメーターを持ちます。
+
+## 連続配信の設定方法
+
+ここでは、連続配信を設定する方法について説明します。
+
+**** 連続配信を使用すると、既存の配信に新しい受信者を追加でき、新しい受信者を追加するたびに新しい配信を作成する必要がなくなります。 クリエイティブはキャンペーンワークフローで直接更新でき、配信テンプレートリソースフォルダー内のテンプレートが更新されます。
+
+連続した配信は、SINGLE配信と配信ログ(broadLog)を作成し、その配信を参照するトラッキングログは、実行のたびに1つ追加されます。
+
+![連続配信](assets/delivery_continuous.jpg)
+
+このビデオでは、増分クエリを使用して連続配信を設定する方法を示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)

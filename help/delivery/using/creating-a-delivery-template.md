@@ -14,8 +14,11 @@ discoiquuid: 0e67d9dd-3ee8-4c06-98a4-3a2c644b6c0a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 79%
 
 ---
 
@@ -70,3 +73,21 @@ source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
 >[!NOTE]
 >
 >設定エラーを防ぐために、新しいテンプレートを作成するのではなく、ネイティブテンプレートをコピーしてプロパティを変更することをお勧めします。
+
+## 配信テンプレートの設定方法
+
+次のビデオでは、アドホック配信用のテンプレートを設定する方法を示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
+
+## 配信テンプレートプロパティの設定方法
+
+次のビデオでは、配信テンプレートのプロパティを設定する方法を示し、各プロパティについて詳しく説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12)
+
+## アドホック配信テンプレートのデプロイ方法
+
+このビデオでは、アドホック電子メール配信テンプレートを導入する方法と、電子メール配信と配信ワークフローの違いを説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)

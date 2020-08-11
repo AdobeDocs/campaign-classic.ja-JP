@@ -14,8 +14,11 @@ discoiquuid: 185d3256-a21e-47d7-bee7-7b91762ca1e2
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 65%
 
 ---
 
@@ -38,8 +41,17 @@ source-git-commit: 707352334144df86ae82aa51d595ae6bc751d1f2
 
 このアクティビティの使用例については、この[節](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)を参照してください。
 
+## 定期配信の設定方法
+
+**定期的な配信** は、実行のたびに新しい配信インスタンスを作成します。 例えば、ワークフローが週に1回実行されるようにスケジュールされている場合、1年後に52配信になります。 また、部分的なログとトラッキングログは、各配信インスタンスで区切られます。
+
+![反復配信](assets/delivery_recurring.jpg)
+
+このビデオでは、定期的な配信とスケジューラーアクティビティを設定する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
+
 >[!NOTE]
 >
 >「**[!UICONTROL 繰り返し配信]**」タイプアクティビティから配達確認を送信することはできません。\
 >キャンペーンワークフロー経由で配信を直接作成するには、事前設定されたチャネル固有のアクティビティを使用します（「**[!UICONTROL E メール配信]**」など）。
-

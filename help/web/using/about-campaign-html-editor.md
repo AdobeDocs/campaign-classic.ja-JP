@@ -14,8 +14,11 @@ discoiquuid: 1ffe9f58-7258-4794-a314-524065f8a33b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c9c9d5f96856ce9e19571bad032d2bf04eaa60bd
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +63,7 @@ E メール配信を作成する手順は、次のとおりです。
 * DCE がアクティブな E メールタイプのテンプレートから配信を作成します。
 * 既存のコンテンツを選択するか、標準テンプレートからコンテンツを作成します。
 * オンラインコンテンツを編集および設定します。
-* 配信を送信します（詳しくは、[この節](../../delivery/using/communication-channels.md)を参照）。
+* 配信を送信します（詳しくは、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照）。
 
 >[!NOTE]
 >

@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3626'
 ht-degree: 5%
 
 ---
@@ -31,19 +31,19 @@ ht-degree: 5%
 >
 >これらの設定は、管理者が実行する必要があります。また、 **オンプレミス** ホスティングモデルに対してのみ実行する必要があります。
 >
->**ホストされたデプロイメントの場合** 、サーバー側の設定はアドビのみが設定できます。 ただし、コントロールパネル内で設定できる設定(IP許可リストの管理やURLの権限など)もあります。
+>**ホストされた** デプロイメントの場合、サーバー側の設定はAdobeのみが設定できます。 ただし、Campaign コントロールパネル内で設定できる設定(IP許可リスト管理やURL権限など)もあります。
 
 詳しくは、次の節を参照してください。
 
 * [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
 * [モデルのホスティング](../../installation/using/hosting-models.md)
 * [Campaign Classicオンプレミスおよびホステッド機能マトリックス](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)
-* [ハイブリッドモデルとホストモデルの設定手順](https://docs.campaign.adobe.com/doc/AC/en/INS_Hybrid_and_Hosted_models_About_hybrid_and_hosted_models.html)
+* [ハイブリッドモデルとホストモデルの設定手順](../../installation/using/about-hybrid-and-hosted-models.md) )
 
 Campaign Classic設定ファイルは、Adobe Campaignのインストールフォルダーの **conf** フォルダーに保存されます。 設定は2つのファイルに分かれています。
 
-* **serverConf.xml**: すべてのインスタンスの一般設定。 このファイルは、Adobe Campaignサーバーの技術的なパラメーターを組み合わせたものです。 これらはすべてのインスタンスで共有されます。 これらのパラメーターの一部については、以下で詳しく説明します。 この [節に示す様々なノードとパラメーター](../../installation/using/the-server-configuration-file.md)。
-* **config-`<instance>`.xml** ( **instance** はインスタンスの名前): インスタンスの特定の設定。 サーバを複数のインスタンス間で共有する場合は、各インスタンスに固有のパラメータを関連ファイルに入力してください。
+* **serverConf.xml**:すべてのインスタンスの一般設定。 このファイルは、Adobe Campaignサーバーの技術的なパラメーターを組み合わせたものです。これらはすべてのインスタンスで共有されます。 これらのパラメーターの一部については、以下で詳しく説明します。 この [節に示す様々なノードとパラメーター](../../installation/using/the-server-configuration-file.md)。
+* **config-`<instance>`.xml** ( **instance** はインスタンスの名前):インスタンスの特定の設定。 サーバを複数のインスタンス間で共有する場合は、各インスタンスに固有のパラメータを関連ファイルに入力してください。
 
 ## セキュリティゾーンの定義 {#defining-security-zones}
 
@@ -109,12 +109,12 @@ serverConf.xml **ファイルでゾーンを定義する方法の例を次に示
 
 ゾーンを定義するすべての権限は次のとおりです。
 
-* **allowDebug**: webAppを「debug」モードで実行できるようにします。
-* **allowEmptyPassword**: パスワードを使用しないでインスタンスへの接続を許可します
-* **allowHTTP**: HTTPSプロトコルを使用せずにセッションを作成できる
-* **allowUserPassword**: セッショントークンは、次の形式を持つことができます。「`<login>/<password>`」
-* **sessionTokenOnly**: 接続URLにセキュリティトークンは不要です
-* **showErrors**: サーバー側のエラーが転送され、表示されます
+* **allowDebug**:webAppを「debug」モードで実行できるようにします。
+* **allowEmptyPassword**:パスワードを使用しないでインスタンスへの接続を許可します
+* **allowHTTP**:HTTPSプロトコルを使用せずにセッションを作成できる
+* **allowUserPassword**:セッショントークンは、次の形式を持つことができます。「`<login>/<password>`」
+* **sessionTokenOnly**:接続URLにセキュリティトークンは不要です
+* **showErrors**:サーバー側のエラーが転送され、表示されます
 
 >[!IMPORTANT]
 >
@@ -170,15 +170,15 @@ IPアドレスの範囲は、特定のインスタンスにのみアクセスす
 
 様々なケースが発生します。
 
-* サブネットワークはセキュリティゾーンで直接参照され、プロキシは構成されません。 サブネットワークのユーザは、Adobe Campaignサーバに直接接続できます。
+* サブネットワークはセキュリティゾーンで直接参照され、プロキシは構成されません。サブネットワークのユーザは、Adobe Campaignサーバに直接接続できます。
 
    ![](assets/8101_proxy1.png)
 
-* セキュリティゾーンのサブネットワークに対してプロキシが指定されています： このサブネットワークのユーザは、このプロキシを介してAdobe Campaignサーバにアクセスできます。
+* セキュリティゾーンのサブネットワークに対してプロキシが指定されています：このサブネットワークのユーザは、このプロキシを介してAdobe Campaignサーバにアクセスできます。
 
    ![](assets/8101_proxy2.png)
 
-* プロキシは、セキュリティゾーンのサブネットワークに含まれます。 接触チャネルに関係なく、このプロキシ経由でアクセスできるユーザーは、Adobe Campaignサーバーにアクセスできます。
+* プロキシは、セキュリティゾーンのサブネットワークに含まれます。接触チャネルに関係なく、このプロキシ経由でアクセスできるユーザーは、Adobe Campaignサーバーにアクセスできます。
 
    ![](assets/8101_proxy3.png)
 
@@ -215,13 +215,13 @@ Adobe Campaignサーバーにアクセスする可能性が高いプロキシの
 
 この設定は、キャンペーンエクスプローラーで行います。
 
-1. **[!UICONTROL 管理/Platform/定義済みリスト]** ノードをクリックします。
+1. 「 **[!UICONTROL 管理/プラットフォーム/定義済みリスト]** 」ノードをクリックします。
 1. 「 **[!UICONTROL Security zone (securityZone)]** 」システム定義済みリストを選択します。
 
    ![](assets/enum_securityzone.png)
 
 1. サーバーの構成ファイルで定義されているセキュリティゾーンごとに、 **** 追加ボタンをクリックします。
-1. 「 **[!UICONTROL Internal name]** 」フィールドに、 **** serverConf.xmlファイルで定義されているゾーンの名前を入力します。 これは、 **要素の@name**`<securityzone>` 属性に対応します。 内部名にリンクされたラベルを「ラベル」 ****&#x200B;フィールドに入力します。
+1. 「 **[!UICONTROL Internal name]** 」フィールドに、 **** serverConf.xmlファイルで定義されているゾーンの名前を入力します。 これは、 **要素の@name**`<securityzone>` 属性に対応します。 内部名にリンクされているラベルを「ラベル」 ****&#x200B;フィールドに入力します。
 
    ![](assets/enum_addsecurityvalue.png)
 
@@ -306,7 +306,7 @@ MTAモジュールは、SMTPブロードキャスト用のネイティブメー�
 
 >[!IMPORTANT]
 >
->アフィニティの設定は、サーバ間で一貫している必要があります。 設定の変更はMTAを実行するすべてのアフィニティサーバーに複製される必要があるので、アドビにお問い合わせの上、アプリケーション設定を行うことをお勧めします。
+>アフィニティの設定は、サーバ間で一貫している必要があります。 構成の変更はMTAを実行するすべてのアプリケーションサーバーに複製される必要があるので、アフィニティ設定についてはAdobeにお問い合わせください。
 
 IPアドレスを持つアフィニティを介した送信SMTPトラフィックを改善できます。
 
@@ -314,7 +314,7 @@ IPアドレスを持つアフィニティを介した送信SMTPトラフィッ�
 
 1. serverConf.xml **`<ipaffinity>`** ファイルの **** セクションにアフィニティを入力します。
 
-   1つのアフィニティには、複数の異なる名前を付けることができます。 これらを分けるには、次の構文を使用し **ます。** 文字。
+   1つのアフィニティには、複数の異なる名前を付けることができます。これらを分けるには、次の構文を使用し **ます。** 文字。
 
    例：
 
@@ -351,16 +351,16 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
 URL権限を管理する方法は、ホスティングモデルに応じて異なります。
 
-* **ハイブリッド** または **オンプレミス**: 許可するURLを **serverConf.xmlファイルに追加し**&#x200B;ます。 詳細は以下の節に記載されています。
-* **ホスト**: コント **ロールパネルで許可するURLを追加します**。 詳しくは、[該当するドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/url-permissions.html)を参照してください。
+* **ハイブリッド** または **オンプレミス**:許可するURLを **serverConf.xmlファイルに追加し**&#x200B;ます。 詳細は以下の節に記載されています。
+* **ホスト**: **Campaign コントロールパネル経由で許可するURLを追加します**。 詳しくは、[該当するドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/url-permissions.html)を参照してください。
 
 **ハイブリッド** および **オンプレミスのホスティングモデルを使用する場合は、管理者は、** serverConf.xml **xmlファイルで新しいurlPermission****** を参照する必要があります。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
 
 3 つの接続保護モードがあります。
 
-* **ブロック**: 許可リストに属していないURLはすべてブロックされ、エラーメッセージが表示されます。 これは、ポストアップグレード後のデフォルトのモードです。
-* **権限設定**: 許可リストに属していないURLはすべて許可されます。
-* **警告**: 許可リストに属さないURLはすべて許可されますが、JSインタプリタは警告を出すので、管理者がそれらを収集できます。 このモードでは JST-310027 警告メッセージが追加されます。
+* **ブロック**:許可リストに属していないURLはすべてブロックされ、エラーメッセージが表示されます。 これは、ポストアップグレード後のデフォルトのモードです。
+* **権限設定**:許可リストに属していないURLはすべて許可されます。
+* **警告**:許可リストに属さないURLはすべて許可されますが、JSインタプリタは警告を出すので、管理者がそれらを収集できます。 このモードでは JST-310027 警告メッセージが追加されます。
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -380,7 +380,7 @@ URL権限を管理する方法は、ホスティングモデルに応じて異�
 
 By default, all dynamic pages are automatically related to the **local** Tomcat server of the machine whose Web module has started. この設定は、ServerConf.xmlフ **`<url>`** ァイルのクエリリレー設定の **** 節に入力します。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
 
-動的ページの実行を **リモート** ・サーバ上で中継する。 を返します。 これを行うには、 **localhost** をJSPおよびJSSP、Web アプリケーション、レポート、文字列用のリモートコンピューターの名前に置き換える必要があります。
+動的ページの実行を **リモート** ・サーバ上で中継する。を返します。 これを行うには、 **localhost** をJSPおよびJSSP、Web アプリケーション、レポート、文字列用のリモートコンピューターの名前に置き換える必要があります。
 
 使用できる様々なパラメーターについて詳しくは、 **serverConf.xml設定ファイルを参照してください** 。
 
@@ -392,10 +392,10 @@ JSPページの場合、デフォルト設定は次のとおりです。
 
 Adobe Campaignでは、次のJSPページを使用します。
 
-* /nl/jsp/**soaprouter.jsp**: クライアントコンソールとWebサービス接続(SOAP API)、
-* /nl/jsp/**m.jsp**: ミラーページ、
-* /nl/jsp/**logon.jsp**: レポートへのWebベースのアクセスとクライアントコンソールのデプロイメント、
-* /nl/jsp/**s.jsp** : クチコミマーケティング（スポンサーおよびソーシャルネットワーク）の使用を参照してください。
+* /nl/jsp/**soaprouter.jsp**:クライアントコンソールとWebサービス接続(SOAP API)、
+* /nl/jsp/**m.jsp**:ミラーページ、
+* /nl/jsp/**logon.jsp**:レポートへのWebベースのアクセスとクライアントコンソールのデプロイメント、
+* /nl/jsp/**s.jsp** :クチコミマーケティング（スポンサーおよびソーシャルネットワーク）の使用を参照してください。
 
 Mobile Appチャネルで使用されるJSSPは次のとおりです。
 
@@ -457,13 +457,13 @@ sh
 
 サーバ設定ファイルの **exec** ノードで、blocklistFile **** 属性で、以前に作成したファイルを参照する必要があります。
 
-**Linuxの場合のみ**: サーバー構成ファイルで、セキュリティ構成を強化するために、外部コマンドの実行専用のユーザーを指定するように再コマンドします。 このユーザは、設定ファイルの **exec** ノードで設定されます。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
+**Linuxの場合のみ**:サーバー構成ファイルで、セキュリティ構成を強化するために、外部コマンドの実行専用のユーザーを指定するように再コマンドします。 このユーザは、設定ファイルの **exec** ノードで設定されます。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
 
 >[!NOTE]
 >
 >ユーザーを指定しない場合、すべてのコマンドはAdobe Campaignインスタンスのユーザーコンテキストで実行されます。 ユーザーは、Adobe Campaignを実行しているユーザーとは異なる必要があります。
 
-次に例を示します。
+例：
 
 ```
 <serverConf>
@@ -485,10 +485,10 @@ sh
 1. ノードで、中継されるHTTPヘッダーのリストに移動します。 **`<relay>`**
 1. 次の追加属性を持つ **`<responseheader>`** 要素：
 
-   * **name**: header name
-   * **value**: 値の名前。
+   * **name**:header name
+   * **value**:値の名前。
 
-   次に例を示します。
+   例：
 
    ```
    <responseHeader name="Strict-Transport-Security" value="max-age=16070400; includeSubDomains"/>
@@ -496,7 +496,7 @@ sh
 
 ## 重複した追跡 {#redundant-tracking}
 
-リダイレクトに複数のサーバーを使用する場合、リダイレクトするURLからの情報を共有するには、SOAP呼び出しを介して相互に通信できる必要があります。 配信の開始アップ時に、すべてのリダイレクトサーバーが利用できるとは限りません。 したがって、同じレベルの情報を持つことはないかもしれません。
+リダイレクトに複数のサーバーを使用する場合、リダイレクトするURLからの情報を共有するには、SOAP呼び出しを介して相互に通信できる必要があります。 配信の開始アップ時に、すべてのリダイレクトサーバーが利用できるとは限りません。したがって、同じレベルの情報を持つことはないかもしれません。
 
 >[!NOTE]
 >
@@ -511,7 +511,7 @@ sh
 <spareserver enabledIf="$(hostname)!='front_srv2'" id="2" url="http://front_srv2:8080" />
 ```
 
-enableIf **** プロパティはオプションです（デフォルトでは空）。結果がtrueの場合にのみ接続を有効にできます。 これにより、すべてのリダイレクトサーバーで同じ構成を取得できます。
+enableIf **** プロパティはオプションです（デフォルトでは空）。結果がtrueの場合にのみ接続を有効にできます。これにより、すべてのリダイレクトサーバーで同じ構成を取得できます。
 
 コンピューターのホスト名を取得するには、次のコマンドを実行します。 **hostname -s**.
 
@@ -519,7 +519,7 @@ enableIf **** プロパティはオプションです（デフォルトでは空
 
 パブリックリソースは、パブリックリソースの [管理に表示されます](../../installation/using/deploying-an-instance.md#managing-public-resources)。
 
-これらは、Adobe Campaignのインストールディレクトリの **/var/res/instance** ディレクトリに保存されます。
+これらは、Adobe Campaignインストールディレクトリの **/var/res/instance** ディレクトリに保存されます。
 
 一致するURLは次のとおりです。 **http://server/res/instance** ( **instance** は、トラッキングインスタンスの名前)
 
@@ -611,7 +611,7 @@ Adobe Campaignコンソールからアクセスする場合は、 **ハッシュ
 
 ## プロキシ接続の設定 {#proxy-connection-configuration}
 
-プロキシ経由でキャンペーンサーバーを外部に接続する必要がある場合(例えば、ファイル転送ワークフローアクティビティを使用する場合)、コマンドを使用してserverConfのproxyConfigセクションを設定する必要があります。 次のプロキシ接続が可能です。 HTTP、HTTPS、FTP、SFTP。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
+プロキシ経由でキャンペーンサーバーを外部に接続する必要がある場合(例えば、ファイル転送ワークフローアクティビティを使用する場合)、コマンドを使用してserverConfのproxyConfigセクションを設定する必要があります。 次のプロキシ接続が可能です。HTTP、HTTPS、FTP、SFTP。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
 
 >[!NOTE]
 >
@@ -638,7 +638,7 @@ nlserver config -setproxy:http/198.51.100.0:8080/user
 プロキシサーバー経由のFTP/SFTPとHTTP/HTTPSトラフィックに異なるポートを使用する場合は、「ftp」プロトコルパラメーターを設定する必要があります。
 
 
-次に例を示します。
+例：
 
 ```
 nlserver config -setproxy:ftp/198.51.100.0:8080/user:’http’

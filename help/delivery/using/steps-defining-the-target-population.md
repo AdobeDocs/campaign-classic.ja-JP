@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffbbe95247f28115f7e46eb0e94f2612fb4ea93
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 93%
+source-wordcount: '1720'
+ht-degree: 91%
 
 ---
 
@@ -229,3 +229,14 @@ ht-degree: 93%
 >シードアドレスについては、[シードアドレスについて](../../delivery/using/about-seed-addresses.md)で説明します。
 
 「**[!UICONTROL 特定のターゲットとシードアドレス]**」オプションを使用すると、特定の配達確認ターゲットの定義とシードアドレスの使用を組み合わせることができます。関連する設定は、異なる 2 つのサブタブで定義します。
+
+## 電子メール内のシードと配達確認を管理する方法
+
+このビデオでは、既存の電子メールにシードや配達確認を追加する方法と送信する方法を学びます。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)関連項目：
+* [配達確認のターゲットの選択](#selecting-the-proof-target)
+
+* [シードアドレスについて](../../delivery/using/about-seed-addresses.md)
+
+* [使用例：条件によるシードアドレスの選択](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)

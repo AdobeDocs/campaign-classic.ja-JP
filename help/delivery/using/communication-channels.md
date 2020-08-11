@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1f7ff6a281c2830ac23ad995b750dc09ade5e92
+source-git-commit: b14f5ecd2b06ed9f4cb49d8779b9f94ea4bcdddc
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 96%
+source-wordcount: '1183'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign では、E メール、SMS、LINE メッセージ、プッシュ�
 
 >[!NOTE]
 >
->Adobe Campaign は、配信品質を監視し、E メール送信を最適化するための一連のツールを備えています。詳しくは、[配信品質の概要](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)および[配信品質の管理](../../delivery/using/about-deliverability.md)を参照してください。
+>Adobe Campaign は、配信品質を監視し、E メール送信を最適化するための一連のツールを備えています。詳しくは、[配信品質の概要](../../delivery/using/deliverability-key-points.md)および[配信品質の管理](../../delivery/using/about-deliverability.md)を参照してください。
 
 配信の送信は、ワークフローのプロセスの中で配信を準備または送信することによって自動化できます。ワークフロー内の配信タイプのアクティビティについて詳しくは、[この節](../../workflow/using/about-action-activities.md)を参照してください。
 
@@ -42,7 +42,7 @@ Adobe Campaign は次の配信チャネルを提供します。
 1. **モバイルチャネル**：モバイルチャネル経由の配信によって、ターゲット母集団にパーソナライズされた SMS または LINE メッセージを送信できます。[SMS チャネル](../../delivery/using/sms-channel.md)を参照してください。
 1. **モバイルアプリケーションチャネル**：モバイルアプリ配信では通知を iOS システムおよび Android システムに送信できます。[モバイルアプリチャネル](../../delivery/using/about-mobile-app-channel.md)の章を参照してください。
 
-   その他のチャネルについて詳しくは、[このページ](../../delivery/using/communication-channels.md#other-channels)を参照してください。
+   その他のチャネルについて詳しくは、[このページ](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)を参照してください。
 
    >[!NOTE]
    >
@@ -67,9 +67,9 @@ Adobe Campaign は次の配信チャネルを提供します。
 * 繰り返し E メール：キャンペーンで、同じ E メールを定期的に送信し、各送信とそのレポートを定期的に集計します。同じ E メールが送信されますが、通常は、送信日の適格なターゲットに基づいて、異なるターゲットに送信されます。一般的な例に誕生日の E メールがあります。詳しくは、[繰り返し配信](../../workflow/using/recurring-delivery.md)を参照してください。
 * トランザクション E メール：顧客の行動に基づいてトリガーされる単一の E メール。[トランザクションメッセージ](../../message-center/using/about-transactional-messaging.md)を参照してください。
 
-配信の使用と推奨事項については、Campaign の[配信のベストプラクティス](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/deliveryBestPractices.html)を参照してください。
+配信の使用と推奨事項については、Campaign の[配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)を参照してください。
 
-配信のタイプについて詳しくは、[この節](../../delivery/using/types-of-deliveries.md)を参照してください。
+配信のタイプについて詳しくは、[この節](#types-of-deliveries)を参照してください。
 
 ## モバイル配信 {#mobile-deliveries}
 
@@ -103,3 +103,33 @@ Adobe Campaign には、エージェンシーや電話の配信テンプレー�
 このチャネルには特定のメカニズムはありません。これは汎用チャネルで、Adobe Campaign で使用できる他のコミュニケーションチャネルと同様に、独自の外部アカウントルーティングオプション、配信テンプレートタイプ、キャンペーンワークフローアクティビティがあります。
 
 このチャネルは、説明的な目的のためにのみ設計されています。例えば、Adobe Campaign以外のツールで実行されたキャンペーンのターゲットのトレースを保持する配信を定義する場合などです。
+
+## 配信のタイプ{#types-of-deliveries}
+
+キャンペーンには 3 つのタイプの配信オブジェクトがあります。
+
+### 単一の配信 {#single-delivery}
+
+**配信**&#x200B;は、一度だけ実行されるスタンドアロン配信オブジェクトです。レプリケートし、再度準備済みにすることはできますが、最終状態（キャンセル、停止、完了）になっている場合は再利用できません。
+
+配信は、配信リストから作成したり、ワークフロー内で[配信](../../workflow/using/delivery.md)アクティビティを介して作成したりできます。
+
+ワークフローには、使用するチャネルのタイプに応じた特定の配信アクティビティも用意されています。これらのアクティビティについて詳しくは、[この節](../../workflow/using/cross-channel-deliveries.md)を参照してください。
+
+### 繰り返し配信 {#recurring-delivery}
+
+**繰り返し配信**&#x200B;では、アクティビティを実行するたびに新しい配信を作成できます。これにより、繰り返しタスクのために新しい配信を手動で作成する必要がなくなります。
+
+例えば、このタイプのアクティビティを月に 1 回実行した場合、1 年後の配信の数は 12 個です。
+
+繰り返し配信は、ワークフロー内で[繰り返し配信アクティビティ](../../workflow/using/recurring-delivery.md)を介して作成されます。このアクティビティの使用例については、[ターゲティングワークフローでの繰り返し配信の作成](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)の節で説明しています。
+
+### 連続配信 {#continuous-delivery}
+
+**連続配信**&#x200B;では、既存の配信に新しい受信者を追加できるので、アクティビティを実行するたびに新しい配信を作成する必要がありません。
+
+配信の情報（コンテンツ、名前など）を変更すると、配信の実行時に新しい配信オブジェクトが作成されます。情報を変更しなかった場合は、同じ配信オブジェクトが再利用され、同じオブジェクトに配信ログとトラッキングログが追加されます。
+
+例えば、このタイプのアクティビティを月に 1 回実行した場合、1 年後の配信数は 1 個です（ただし、配信に変更を加えなかった場合）。
+
+連続配信は、ワークフロー内で[連続配信アクティビティ](../../workflow/using/continuous-delivery.md)を介して作成されます。

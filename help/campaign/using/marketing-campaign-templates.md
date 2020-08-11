@@ -14,8 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '1190'
+ht-degree: 99%
 
 ---
 
@@ -74,7 +77,7 @@ source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
 
 キャンペーンテンプレートの作成および設定について詳しくは、[キャンペーンテンプレート](#campaign-templates)で説明しています。
 
-キャンペーンの作成について詳しくは、[キャンペーンと E メールの作成](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html)のビデオを参照してください。
+キャンペーンの作成について詳しくは、[キャンペーンと E メールの作成](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/creating-a-campaign-and-an-email.html)のビデオを参照してください。
 
 ## 使用可能モジュールの設定 {#configuration-of-the-available-modules}
 

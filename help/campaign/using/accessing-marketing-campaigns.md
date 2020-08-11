@@ -14,8 +14,11 @@ discoiquuid: 8e7eb53c-bbe2-4bd4-8581-c2a63a3dc84e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
+source-wordcount: '1066'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +50,7 @@ Adobe Campaign に接続すると、ホームページが表示されます。
 >
 >Adobe Campaign 全体のエルゴノミクス、権限およびプロファイル管理機能については、[この節](../../platform/using/adobe-campaign-workspace.md)を参照してください。
 >
->チャネルおよび配信に関連するすべての機能については、[この節](../../delivery/using/communication-channels.md)で詳しく説明しています。
+>チャネルおよび配信に関連するすべての機能については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)で詳しく説明しています。
 
 ### キャンペーンカレンダー {#campaign-calendar}
 

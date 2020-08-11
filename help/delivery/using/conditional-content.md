@@ -14,8 +14,11 @@ discoiquuid: 167cc61a-fbc7-48cb-89ff-fbdbf9321c01
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 94%
 
 ---
 
@@ -110,3 +113,9 @@ source-git-commit: 4ac96bf0e54268832b84b17c3cc577af038cc712
    >[!NOTE]
    >
    >この E メールコンテンツには代替バージョンが定義されていないので、E メールを送信する前にターゲット母集団をフィルタリングしてください。
+
+## 条件付きコンテンツを含む多言語ニュースレターの作成方法
+
+多言語ニュースレターの例で、配信に条件付きコンテンツを追加する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)

@@ -14,8 +14,11 @@ discoiquuid: 6101e083-3754-41e1-8a93-021b1a771dc0
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b47dcfa0e4ee2e5e43e7aa14b94e12fd70ff9c2d
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 90%
 
 ---
 
@@ -50,19 +53,19 @@ Adobe Campaign のコンテキストでは、以下の概念を定義する必�
 
    詳しくは、[マーケティングリソースの管理](../../campaign/using/managing-marketing-resources.md)を参照してください。
 
-## 使いやすさ {#user-friendliness}
-
 >[!NOTE]
 >
 >Adobe Campaign のワークスペース全体について詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md)を参照してください。
 >  
->配信とプロファイル管理にリンクされたすべての機能について詳しくは、[この節](../../delivery/using/communication-channels.md)を参照してください。
+>All functionalities linked to deliveries and communication channels are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 >
 >キャンペーン関連のすべての機能について詳しくは、[マーケティングキャンペーンへのアクセス](../../campaign/using/accessing-marketing-campaigns.md)を参照してください。
 
 さらに、Adobe Campaign のプランとプログラムには以下のような追加の機能があります。
 
-* 予算管理詳しくは、[コスト管理](../../campaign/using/controlling-costs.md)を参照してください。
-* タスク管理詳しくは、[タスクの作成と管理](../../campaign/using/creating-and-managing-tasks.md)を参照してください。
-* マーケティングリソース管理詳しくは、[マーケティングリソースの管理](../../campaign/using/managing-marketing-resources.md)を参照してください。
+* 予算管理For more on this, refer to [Controlling costs](../../campaign/using/controlling-costs.md)
+
+* タスク管理For more on this, refer to [Creating and managing tasks](../../campaign/using/creating-and-managing-tasks.md)
+
+* マーケティングリソース管理For more on this, refer to [Managing marketing resources](../../campaign/using/managing-marketing-resources.md)
 

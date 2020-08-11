@@ -14,11 +14,11 @@ discoiquuid: 72c5151c-ce1e-425a-9aee-beefe9f21a67
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e97183256ef6d3f2068dd0fbc8eb3c3f32e0bae0
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 79%
 
 ---
 
@@ -69,6 +69,22 @@ Adobe Campaign では、次の 4 種類のタイポロジルールをデザイ�
 
 配信の準備では、基準を満たした場合に受信者が除外されます。ログを確認して除外を監視することができます。頻度タイポロジルールの使用例については、[このページ](../../campaign/using/pressure-rules.md#use-cases-on-pressure-rules)を参照してください。
 
+## タイポロジルールを使用した疲労管理の設定方法
+
+このビデオでは、タイポロジルールを活用してAdobe Campaign Classicで疲労管理を実装する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
+
+## 定義済みフィルターを使用した疲労管理の設定方法
+
+疲労管理は、受信者の過剰勧誘を避けるために、メッセージの頻度と数量を制御します。 キャンペーンインスタンスにキャンペーン最適化モジュールがない場合、受信したメッセージの数でターゲット母集団をフィルタリングする事前定義済みのフィルタを設定できます。このビデオでは、フィルターを使用してAdobe Campaign Classicで疲労管理を実装する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
+
 **関連トピック**
 
 * [任意のチャネルの配信に対する自動ビジネスルールの適用](https://helpx.adobe.com/jp/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
+
+* [キャンペーンタイポロジについて](../../campaign/using/pressure-rules.md)
+
+* [頻度ルールによるマーケティング疲労の管理](https://docs.adobe.com/content/help/en/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)

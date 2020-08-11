@@ -14,9 +14,9 @@ discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3b04cf988f144b8bfb846aff83e97c9b3a82e6e0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
+workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マ�
 
 使用できる機能は以下のとおりです。ライセンス契約によって、ご利用のインスタンスで使える機能と使えない機能があります。
 
-* [チャネル](../../delivery/using/communication-channels.md)：各種チャネル（E メール、SMS、LINE、モバイルアプリ、ダイレクトメール）を使用した配信のデザインと送信
+* [チャネル](../../delivery/using/steps-about-delivery-creation-steps.md)：各種チャネル（E メール、SMS、LINE、モバイルアプリ、ダイレクトメール）を使用した配信のデザインと送信
 * [キャンペーン](../../campaign/using/designing-marketing-campaigns.md)：クロスチャネルキャンペーンのオーケストレーション
 * [MRM](../../campaign/using/about-marketing-resource-management.md)：マーケティングリソースと予算の管理
 * [インタラクション](../../interaction/using/interaction-and-offer-management.md)：Campaign のオファーの管理

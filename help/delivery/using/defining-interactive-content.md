@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fa9e4ddc716809b96e259acd1137a0c24ef68fee
+source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 93%
+source-wordcount: '1657'
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,9 @@ AMP E メールのテストと送信について詳しくは、[AMP E メール�
 
 ハイブリッドおよびホストアーキテクチャの場合、パッケージは、[ミッドソーシングサーバー](../../installation/using/mid-sourcing-server.md)と[実行インスタンス](../../message-center/using/creating-a-shared-connection.md#execution-instance)を含むすべてのサーバーにインストールする必要があります。アカウント担当者にお問い合わせください。
 
-Adobe Campaign での AMP の有効化方法および使用方法については、この[ビデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html)をご覧ください。
+以下のビデオでは、Adobe Campaign ClassicでAMPをアクティブにする方法と、その使用方法を紹介しています。
+
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
 
 ## AMP for Email について {#about-amp-for-email}
 

@@ -13,8 +13,11 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8ef56aa04a3ecc94e9e3dda24562760d6a93739d
+translation-type: tm+mt
+source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 100%
 
 ---
 
@@ -116,7 +119,7 @@ Campaign でのトラッキング管理について詳しくは、[このペー�
 
 ## エラーメッセージを翻訳するにはどうすればよいですか？{#how-to-translate-an-error-message-}
 
-エラーメッセージが外国語で表示されましたか？すべてのエラーメッセージとその翻訳のリストは、[このページ](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)に掲載されています。
+エラーメッセージが外国語で表示されましたか？すべてのエラーメッセージとその翻訳のリストは、[このページ](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)に掲載されています。
 
 ## Campaign で Web フォームを作成して回答を収集できますか？{#can-i-create-a-webform-and-collect-answers-in-campaign-}
 

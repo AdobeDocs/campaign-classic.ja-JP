@@ -15,15 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 79%
+source-wordcount: '375'
+ht-degree: 78%
 
 ---
 
 
 # 配信テンプレートの作成{#creating-a-delivery-template}
+
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#delivery-template-video)
 
 ## テンプレートへの既存の配信の変換 {#converting-an-existing-delivery-to-a-template}
 
@@ -74,7 +76,7 @@ ht-degree: 79%
 >
 >設定エラーを防ぐために、新しいテンプレートを作成するのではなく、ネイティブテンプレートをコピーしてプロパティを変更することをお勧めします。
 
-## 配信テンプレートの設定方法
+## 配信テンプレートの設定方法 {#delivery-template-video}
 
 次のビデオでは、アドホック配信用のテンプレートを設定する方法を示します。
 

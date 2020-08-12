@@ -14,92 +14,92 @@ discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
 # パイプラインのトラブルシューティング {#pipeline-troubleshooting}
 
-**パイプラインは、「マスクのパイプライン@に対応するタスクがありません」というエラーが表示されて失敗します。**
+**pipelined が失敗し、「No task corresponds to the mask pipelined@」（マスク pipelined@ に対応するタスクがありません）というエラーが表示される**
 
-お使いのバージョンのAdobe CampaignClassicはパイプラインをサポートしていません。
+お使いのバージョンの Adobe Campaign Classic はパイプラインをサポートしていません。
 
-1. 設定ファイル内に [!DNL pipelined] 要素が存在するかどうかを確認します。 サポートされていない場合は、サポートされていないことを意味します。
-1. バージョン6.11ビルド8705以降にアップグレードします。
+1. 設定ファイル内に [!DNL pipelined] 要素が存在するかどうかを確認します。存在しない場合は、パイプラインはサポートされていません。
+1. バージョン 6.11 ビルド 8705 以降にアップグレードします。
 
-**パイプラインは、&quot;aurait doencer par &#39;[&#39; ou &#39;{&#39; (iRc=16384)&quot;で失敗します。**
+**pipelined が失敗し、「aurait dû commencer par &#39;[&#39; ou &#39;{&#39; (iRc=16384)」と表示される**
 
-NmsPipeline_Config **** オプションが設定されていません。 これは実際にはJSON解析エラーです。
-JSON設定をオプションNmsPipeline_Config **に設定します**。 このページの「ルーティングオプション」を参照してください。
+**NmsPipeline_Config** オプションが設定されていません。これは実際には JSON 解析エラーです。
+JSON 設定を **NmsPipeline_Config** オプションで指定します。このページの「ルーティングオプション」を参照してください。
 
-**パイプラインが失敗し、「件名は有効な組織またはクライアントである必要があります」と表示される**
+**パイプラインが失敗し、「the subject must be a valid organization or client」（件名は有効な組織またはクライアントにする必要があります）と表示される**
 
-IMSOrgid構成が無効です。
+IMSOrgid 設定が無効です。
 
-1. IMSOrgIdがserverConf.xmlに設定されていることを確認します。
-1. インスタンス設定ファイル内で、デフォルトを上書きできる空のIMSOrgIdを探します。 該当する場合は、削除します。
-1. IMSOrgIdがExperience Cloud内の顧客のIMSOrgIdと一致することを確認します。
+1. IMSOrgId が serverConf.xml で設定されていることを確認します。
+1. デフォルトを上書きできる空の IMSOrgId をインスタンス設定ファイル内で探します。該当する場合は、削除します。
+1. IMSOrgId が Experience Cloud 内の顧客の IMSOrgId と一致することを確認します。
 
-**パイプラインは「無効なキー」で失敗します**
+**pipelined が失敗し、「invalid key」（キーが無効です）と表示される**
 
-インスタンス構成ファイルの@authPrivateKeyパラメーターが正しくありません。
+インスタンス設定ファイルの @authPrivateKey パラメーターが正しくありません。
 
-1. authPrivateKeyが設定されていることを確認します。
-1. authPrivateKeyを確認します。 @、=で終わる開始、およそ4000文字の長さ。
-1. 元のキーを探して、次のものであることを確認します。 RSA形式では、4096ビット長で —BEGIN RSA PRIVATE KEY — を持つ開始。
-   <br> 必要に応じて、キーを再作成し、AdobeAnalyticsに登録します。 この[節](../../integrations/using/configuring-pipeline.md#oauth-client-creation)を参照してください。
-1. キーがと同じインスタンス内でエンコードされたことを確認し [!DNL pipelined]ます。 <br>必要に応じて、サンプルのJavaScriptまたはワークフローを使用してエンコードをやり直します。
+1. authPrivateKey が設定されていることを確認します。
+1. authPrivateKey が @ から始まり、= で終わり、およそ 4000 文字の長さであることを確認します。
+1. 元のキーを探します。元のキーが、RSA 形式で、4096 ビット長であり、「-----BEGIN RSA PRIVATE KEY-----」で始まることを確認します。
+   <br>必要に応じて、キーを再作成し、Adobe Analytics に登録します。[こちら](../../integrations/using/configuring-pipeline.md#oauth-client-creation)を参照してください。
+1. キーが [!DNL pipelined] と同じインスタンス内でエンコードされたことを確認します。<br>必要に応じて、サンプルの JavaScript またはワークフローを使用してエンコードをやり直します。
 
-**「認証中にトークンを読み取れません」という内容のパイプラインでの失敗**
+**pipelined が失敗し、「unable to read the token during authentication」（認証時にトークンを読み取れません）と表示される**
 
 秘密鍵の形式が無効です。
 
 1. このページで鍵の暗号化の手順を実行します。
 1. キーが同じインスタンスで暗号化されていることを確認します。
-1. 設定ファイルのauthPrivateKeyが生成されたキーと一致することを確認します。 <br>必ずOpenSSLを使用してキーペアを生成してください。 例えば、PuttyGenは適切なフォーマットを生成しません。
+1. 設定ファイルの authPrivateKey が生成されたキーと一致することを確認します。<br>必ず OpenSSL を使用してキーペアを生成してください。例えば、PuttyGen では適切な形式が生成されません。
 
-**トリガーは取得されません**
+**トリガーが取得されない**
 
-プロセスが実行中で、トリガーが取得されない場合： [!DNL pipelined]
+[!DNL pipelined] プロセスが実行中で、トリガーが取得されない場合は、次の手順に従います。
 
-1. トリガーがAnalyticsでアクティブで、イベントを生成していることを確認します。
-1. プロセスが実行中であることを確認 [!DNL pipelined] します。
-1. ログでエラーを探し [!DNL pipelined] ます。
-1. ステータスページでエラーを探し [!DNL pipelined] ます。 trigger-discarted、trigger-failuresは0でなければなりません。
-1. トリガー名がNmsPipeline_Config **** オプションで設定されていることを確認します。 疑わしい点がある場合は、ワイルドカードオプションを使用します。
-1. Analyticsがアクティブなトリガーを持ち、イベントを生成していることを確認します。 設定がAnalyticsで行われてから数時間後に、設定が有効になるまでに遅延が生じる可能性があります。
+1. トリガーが Analytics でアクティブで、イベントを生成していることを確認します。
+1. [!DNL pipelined] プロセスが実行中であることを確認します。
+1. [!DNL pipelined] ログでエラーを探します。
+1. [!DNL pipelined] ステータスページでエラーを探します。trigger-discarted、trigger-failures は 0 でなければなりません。
+1. トリガー名が **[!UICONTROL NmsPipeline_Config]** オプションで設定されていることを確認します。疑わしい点がある場合は、ワイルドカードオプションを使用します。
+1. Analytics がアクティブなトリガーを持ち、イベントを生成していることを確認します。設定が Analytics でおこなわれてから、設定が有効になるまでに数時間の遅延が生じる可能性があります。
 
 **イベントが顧客にリンクされていない**
 
-一部のイベントが顧客にリンクされていない場合：
+一部のイベントが顧客にリンクされていない場合は、次の手順に従います。
 
-1. 調整ワークフローが実行中であることを確認します（該当する場合）。
-1. イベントに顧客IDが含まれていることを確認します。
-1. 顧客IDを使用して顧客テーブルにクエリを作成します。
-1. 顧客インポートの頻度を確認します。 新規顧客は、ワークフローを使用してAdobe Campaignにインポートされます。
+1. 紐付けワークフローが実行中であることを確認します（該当する場合）。
+1. イベントに顧客 ID が含まれていることを確認します。
+1. 顧客 ID を使用して顧客テーブルに対するクエリを作成します。
+1. 顧客インポートの頻度を確認します。新規顧客は、ワークフローで Adobe Campaign にインポートされます。
 
 **イベント処理の遅延**
 
-Analyticsのタイムスタンプが、キャンペーンでのイベントの作成日よりずっと古い場合。
+Analytics のタイムスタンプが、Campaign でのイベントの作成日時よりはるかに古い場合。
 
-一般的に、トリガーは、マーケティングキャンペーンを起動するのに15 ～ 90分かかる場合があります。 これは、データ収集の実装、パイプラインでの読み込み、定義されたトリガーのカスタム設定、Adobe Campaign内のワークフローによって異なります。
+一般に、トリガーでマーケティングキャンペーンが起動されるまでに 15～90 分かかることがあります。これは、データ収集の実装、パイプラインでの読み込み、定義済みトリガーのカスタム設定、Adobe Campaign 内のワークフローによって異なります。
 
-1. プロセスが実行されているかどうかを確認 [!DNL pipelined] します。
-1. 再試行の原因となる可能性のあるエラーは、pipelined.logで探します。 該当する場合は、エラーを修正します。
-1. キューサイズの [!DNL pipelined] ステータスページを確認します。 キューのサイズが大きい場合は、JSのパフォーマンスを向上させます。
-1. 遅延はボリュームに伴って増加するようなので、メッセージを少なくして、Analyticsでトリガーを設定します。
+1. [!DNL pipelined] プロセスが実行されているかどうかを確認します。
+1. 再試行の原因となる可能性のあるエラーを pipelined.log で探します。該当する場合は、エラーを修正します。
+1. [!DNL pipelined] ステータスページでキューのサイズを確認します。キューのサイズが大きい場合は、JS のパフォーマンスを向上させます。
+1. ボリュームに伴って遅延が増加するようなので、メッセージを少なくして Analytics にトリガーを設定します。
 付録
 
-**鍵暗号化JavaScriptの使用方法**
+**キー暗号化 JavaScript の使用方法**
 
-JavaScriptを実行して秘密鍵を暗号化します。 パイプライン設定に必要です。
+秘密鍵を暗号化する JavaScript を実行します。これは、パイプライン設定に必須です。
 
-cryptString関数を実行する際に使用できるコードの例を以下に示します。
+cryptString 関数を実行する際に使用できるコード例を以下に示します。
 
 ```
 /*
@@ -126,10 +126,10 @@ if( !plaintext.match(/^-----BEGIN RSA PRIVATE KEY-----/) )
 logInfo("Encrypted key:\n" + cryptString(plaintext, <xtkSecretKey>))
 ```
 
-サーバーで、JavaScriptを実行します。
+サーバーで、JavaScript を実行します。
 
 ```
 nlserver javascript -instance:<instancename> -file -arg:"<private_key.pem file>" -file encryptKey.js
 ```
 
-エンコードされたキーを出力からコンソールにコピー&amp;ペーストします。
+エンコードされたキーを出力からコンソールにコピー＆ペーストします。

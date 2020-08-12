@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
 workflow-type: tm+mt
 source-wordcount: '1631'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ AMP E メールのテストと送信について詳しくは、[AMP E メール�
 この機能は、Adobe Campaign の専用パッケージで使用できます。使用するには、このパッケージをインストールする必要があります。インストールしたら、サーバーを再起動してパッケージを有効にします。
 
 >[!NOTE]
->>ハイブリッドおよびホストアーキテクチャの場合、パッケージは、 [ミッドソーシングサーバ](../../installation/using/mid-sourcing-server.md) 、 [実行インスタンスを含むすべてのサーバにインストールする必要があります](../../message-center/using/creating-a-shared-connection.md#execution-instance)。 アカウント担当者にお問い合わせください。
+> ハイブリッドおよびホストアーキテクチャの場合、パッケージは、[ミッドソーシングサーバー](../../installation/using/mid-sourcing-server.md)と[実行インスタンス](../../message-center/using/creating-a-shared-connection.md#execution-instance)を含むすべてのサーバーにインストールする必要があります。アカウント担当者にお問い合わせください。
 
 
 ## AMP for Email について {#about-amp-for-email}
@@ -46,11 +46,11 @@ AMP E メールのテストと送信について詳しくは、[AMP E メール�
 * コンテンツはメッセージ内で最新の状態に保たれます。
 * 受信者は、受信ボックスを離れることなく、フォームに返信するなどの操作を実行できます。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#amp-email-video)
-
 AMP for Email は、既存の E メールと互換性があります。メッセージの AMP バージョンは、HTML やプレーンテキストに加えて、新しい MIME パートとして E メールに埋め込まれ、すべての E メールクライアント間での互換性を確保します。
 
 AMP for Email のフォーマット、仕様および要件について詳しくは、[AMP 開発者向けドキュメント](https://amp.dev/ja/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email)を参照してください。
+
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#amp-email-video)
 
 ## Adobe Campaign で AMP for Email を使用するための重要な手順 {#key-steps-to-use-amp}
 

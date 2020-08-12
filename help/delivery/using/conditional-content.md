@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 94%
+source-wordcount: '488'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,9 @@ ht-degree: 94%
 # 条件付きコンテンツ{#conditional-content}
 
 条件付きコンテンツフィールドを設定することで、例えば受信者のプロファイルに基づいて動的パーソナライゼーションを作成できます。特定の条件が成立した場合に、テキストブロックや画像を切り替えることができます。
+
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#conditionnal-content-video)
+
 
 ## E メール内での条件の使用 {#using-conditions-in-an-email}
 
@@ -114,7 +117,7 @@ ht-degree: 94%
    >
    >この E メールコンテンツには代替バージョンが定義されていないので、E メールを送信する前にターゲット母集団をフィルタリングしてください。
 
-## 条件付きコンテンツを含む多言語ニュースレターの作成方法
+## 条件付きコンテンツを含む多言語ニュースレターの作成方法 {#conditionnal-content-video}
 
 多言語ニュースレターの例で、配信に条件付きコンテンツを追加する方法を説明します。
 

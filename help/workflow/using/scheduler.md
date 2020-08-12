@@ -14,16 +14,16 @@ discoiquuid: 093dbe8a-494f-4fe7-8614-3bf58486e34c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 23629289ac5da3f9bef01f50c452f7c761a6fa44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
-# スケジューラー {#scheduler}
+# スケジューラー{#scheduler}
 
 **スケジューラー**&#x200B;は、スケジュールで指定された時間にトランジションを有効化する永続的なタスクです。
 
@@ -31,17 +31,17 @@ ht-degree: 77%
 
 ## ベストプラクティス{#best-practices}
 
-* ワークフローを15分ごとに実行するようにスケジュールを設定しないでください。ワークフローがシステム全体のパフォーマンスを妨げ、データベース内にブロックを作成する可能性があります。
+* システム全体のパフォーマンスが落ちたり、データベースにブロックが作成されたりする可能性があるので、ワークフローの実行スケジュールは 15 分以上の間隔を空けてください。
 
-* ワークフロー内のブランチごとに複数の **[!UICONTROL スケジューラー]** アクティビティを使用しないでください。 アクティビティ [の使用を参照してください](../../workflow/using/workflow-best-practices.md#using-activities)。
+* ワークフロー内のブランチごとに複数の&#x200B;**[!UICONTROL スケジューラー]**&#x200B;アクティビティを使用しないでください。[アクティビティの使用](../../workflow/using/workflow-best-practices.md#using-activities)を参照してください。
 
 * スケジューラーアクティビティを使用すると、同時に複数のワークフローが実行される場合があります。例えば、1 時間ごとにワークフローの実行をトリガーするようにスケジューラーを設定できますが、ワークフロー全体の実行に 1 時間以上かかる場合があります。
 
    ワークフローが既に実行中の場合、実行をスキップしたいことがあります。ワークフローの同時実行を防ぐ方法について詳しくは、[このページ](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)を参照してください。
 
-* トランジションが読み込みなどの長期タスクを実行していた場合、またはwfserverモジュールが一時的に停止した場合は、数時間後にワークフローをアクティブ化できます。 この場合、スケジューラーによって有効化されるタスクの実行の制限が一定期間必要になることがあります。
+* なお、ワークフローがインポートなどの長期タスクを実行している場合、または wfserver が当分の間停止している場合は、トランジションを数時間後に有効化することができます。この場合、スケジューラーによって有効化されるタスクの実行の制限が一定期間必要になることがあります。
 
-## Configuring the Scheduler activity {#configuring-scheduler-activity}
+## 「スケジューラー」アクティビティの設定 {#configuring-scheduler-activity}
 
 スケジューラーは、トランジションの有効化スケジュールを定義します。設定するには、グラフィックオブジェクトをダブルクリックして、「**[!UICONTROL 変更...]**」をクリックします。
 

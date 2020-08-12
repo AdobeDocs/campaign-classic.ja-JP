@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 96%
+source-wordcount: '997'
+ht-degree: 95%
 
 ---
 
@@ -27,13 +27,15 @@ ht-degree: 96%
 
 パーソナライゼーションブロックは動的なもので、パーソナライズされています。そこには、配信に挿入できる特定のレンダリングが格納されています。例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。[パーソナライゼーションブロックの挿入](#inserting-personalization-blocks)を参照してください。
 
->[!NOTE]
->
->パーソナライゼーションブロックは、**[!UICONTROL デジタルコンテンツエディター（DCE）]**&#x200B;から使用することもできます。詳しくは、[このページ](../../web/using/editing-content.md#inserting-a-personalization-block)を参照してください。
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#personalization-blocks-video)
 
 パーソナライゼーションブロックは、Adobe Campaign エクスプローラーの&#x200B;**[!UICONTROL リソース／キャンペーン管理／パーソナライゼーションブロック]**&#x200B;ノードからアクセスします。デフォルトでは、複数のブロックを使用できます（[標準パーソナライゼーションブロック](#out-of-the-box-personalization-blocks)を参照）。
 
 新しいブロックを定義して、配信のパーソナライゼーションを最適化することもできます。詳しくは、[カスタムパーソナライゼーションブロックの定義](#defining-custom-personalization-blocks)を参照してください。
+
+>[!NOTE]
+>
+>パーソナライゼーションブロックは、**[!UICONTROL デジタルコンテンツエディター（DCE）]**&#x200B;から使用することもできます。詳しくは、[このページ](../../web/using/editing-content.md#inserting-a-personalization-block)を参照してください。
 
 ## パーソナライゼーションブロックの挿入 {#inserting-personalization-blocks}
 
@@ -160,7 +162,7 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
    * パーソナライゼーションブロックのコンテンツ（HTML、テキスト、JavaScript など）を入力し、「**[!UICONTROL 保存]**」をクリックします。
 
-## 動的コンテンツブロックを使用して電子メールをパーソナライズする方法
+## 動的コンテンツブロックを使用して電子メールをパーソナライズする方法 {#personalization-blocks-video}
 
 動的コンテンツブロックを作成する方法、および動的コンテンツブロックを使用して電子メール配信のコンテンツをパーソナライズする方法について説明します。
 

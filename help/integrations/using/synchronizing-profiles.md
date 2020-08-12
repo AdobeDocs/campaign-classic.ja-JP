@@ -14,11 +14,11 @@ discoiquuid: 91115d4f-0cb6-4bce-b28d-17f15e9f9a0a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1266'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 
 ## 受信者の編集 {#editing-a-recipient}
 
-データ・レプリケーションを使用する場合、単一点のデータオファーを変更する手順を、キャンペーンv7がCampaign Standardの主要データベースになる方法の簡単な例に示します。 Campaign v7 でレプリケートされたデータを変更または削除すると、Campaign Standard の対応するデータも同様に変更されます。
+ある 1 つのデータの変更に関する以下の手順では、データレプリケーションを使用する際に Campaign v7 が Campaign Standard のプライマリデータベースになる仕組みのシンプルな例を示します。Campaign v7 でレプリケートされたデータを変更または削除すると、Campaign Standard の対応するデータも同様に変更されます。
 
 1. [新しい受信者の作成](#creating-a-new-recipient)で新しく作成した受信者を選択して、受信者の名前を編集します。例えば、受信者の&#x200B;**[!UICONTROL 敬称]**（Mr. や Mrs. など）を選択します。詳しくは、[プロファイルの編集](../../platform/using/editing-a-profile.md)を参照してください。
 
@@ -101,7 +101,7 @@ Campaign v7 からレプリケートされたプロファイルとサービス�
 >
 >配信の作成手順は、[ワークフローの作成](#creating-a-workflow)で開始したワークフローから続きます。
 
-Campaign v7 Web アプリケーションを使用して、受信者によるサービスの購読解除の選択が確実に Campaign v7 データベースに送信されるようにすることができます。受信者が購読解除リンクをクリックすると、サービスの受信を停止するオプションが Campaign v7 から Campaign Standard にレプリケートされます。詳しくは [購読解除リンクの変更](#changing-the-unsubscription-link)を参照してください。
+Campaign v7 Web アプリケーションを使用して、受信者によるサービスの購読解除の選択が確実に Campaign v7 データベースに送信されるようにすることができます。受信者が購読解除リンクをクリックすると、サービスの受信を停止するオプションが Campaign v7 から Campaign Standard にレプリケートされます。詳しくは、[購読解除リンクの変更](#changing-the-unsubscription-link)を参照してください。
 
 以下の手順に従い、Campaign v7 で作成した購読解除サービスを使用して既存のワークフローに E メール配信を追加します。Campaign Standard ワークフローの詳細および完全な手順については、この[ドキュメント](../../workflow/using/about-workflows.md)を参照してください。
 

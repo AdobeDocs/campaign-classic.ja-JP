@@ -14,11 +14,11 @@ discoiquuid: 42867665-d0ca-486e-9110-91716c0d5c57
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a6b15dd1be6bb53b7a757d7fe1333314df9693a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2532'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ Adobe Campaign では、パッケージシステムを通じて、プラット�
 エクスポート可能なパッケージとしては、ユーザーパッケージ、プラットフォームパッケージ、管理パッケージの 3 種類があります。
 
 * **ユーザーパッケージ**：エクスポートするエンティティのリストを選択できます。このタイプのパッケージでは、依存関係の管理とエラーの検証がおこなわれます。
-* **Platformパッケージ**: 追加されたすべてのテクニカルリソースが含まれます（非標準）。 スキーマ、JavaScriptコードなど
+* **プラットフォームパッケージ**：スキーマ、JavaScript コードなど、すべての付加的な技術リソース（非標準）が含まれています。
 
    ![](assets/ncs_datapackage_package_platform.png)
 
-* **管理パッケージ**: 追加されたすべてのテンプレートとビジネスオブジェクトが含まれます（非標準）。 テンプレート、ライブラリなど
+* **管理パッケージ**：テンプレート、ライブラリなど、すべての付加的なテンプレートやビジネスオブジェクト（非標準）が含まれています。
 
    ![](assets/ncs_datapackage_package_admin.png)
 
@@ -315,7 +315,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／詳細設定／パッケージインポート]**&#x200B;メニューを選択すると、パッケージインポートウィザードにアクセスできます。
 
-You can import a package from an export performed earlier, e.g. from another Adobe Campaign instance, or a [built-in package](../../installation/using/installing-campaign-standard-packages.md), depending on the terms of your license.
+（例えば、別の Adobe Campaign インスタンスから）事前にエクスポートしたパッケージをインポートするか、ライセンス条件によっては[組み込みパッケージ](../../installation/using/installing-campaign-standard-packages.md)をインポートすることができます。
 
 ![](assets/ncs_datapackage_import.png)
 
@@ -331,13 +331,13 @@ You can import a package from an export performed earlier, e.g. from another Ado
 
 ![](assets/ncs_datapackage_import_2.png)
 
-### Installing a built-in package {#installing-a-standard-package}
+### 組み込みパッケージのインストール {#installing-a-standard-package}
 
-標準パッケージは組み込みのパッケージで、Adobe Campaignの設定時にインストールされます。 権限とデプロイメントモデルに応じて、新しいオプションやアドオンを入手する場合や、新しいオファーにアップグレードする場合に、新しい標準パッケージをインポートできます。
+標準パッケージは、Adobe Campaign の設定時にインストールされる組み込みパッケージです。権限とデプロイメントモデルに応じて、新しいオプションやアドオンを入手する場合や、新しいオファーにアップグレードする場合に、新しい標準パッケージをインポートできます。
 
 インストールできるパッケージを確認するには、ライセンス契約を参照してください。
 
-For more information on built-in packages, refer to [this page](../../installation/using/installing-campaign-standard-packages.md).
+組み込みパッケージについて詳しくは、[こちら](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
 ## データパッケージのベストプラクティス {#data-package-best-practices}
 
@@ -444,7 +444,7 @@ For more information on built-in packages, refer to [this page](../../installati
 
 容易に再利用できるようにするために、アップデートパッケージには、特定のエンティティを 1 つだけ含める必要があります。分割するには、新しい番号（1 からの開始）を追加します。これらのパッケージに固有の順序規則はありません。例えば、101 機能（ソーシャルアプリケーション）があると仮定します。
 * これには、Web アプリと外部アカウントが含まれます。
-   * パッケージのラベルは「101 — ソーシャルアプリケーション（socialApplication）」です。
+   * パッケージのラベルは「101 - ソーシャルアプリケーション（socialApplication）」です。
 * Web アプリに欠陥があります。
    * Web アプリを修正します。
    * 「5101 - 1 - ソーシャルアプリケーションの Web アプリ（socialApplication_webApp）」という名前の修正パッケージを作成する必要があります。

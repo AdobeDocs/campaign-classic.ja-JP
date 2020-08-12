@@ -18,7 +18,7 @@ translation-type: tm+mt
 source-git-commit: b14f5ecd2b06ed9f4cb49d8779b9f94ea4bcdddc
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ Adobe Campaign には、エージェンシーや電話の配信テンプレー�
 
 このチャネルには特定のメカニズムはありません。これは汎用チャネルで、Adobe Campaign で使用できる他のコミュニケーションチャネルと同様に、独自の外部アカウントルーティングオプション、配信テンプレートタイプ、キャンペーンワークフローアクティビティがあります。
 
-このチャネルは、説明的な目的のためにのみ設計されています。例えば、Adobe Campaign以外のツールで実行されたキャンペーンのターゲットのトレースを保持する配信を定義する場合などです。
+このチャネルは、説明のためにのみ設計されています。例えば、Adobe Campaign 以外のツールで実行されたキャンペーンのターゲットをトレースするための配信を定義する場合などです。
 
 ## 配信のタイプ{#types-of-deliveries}
 

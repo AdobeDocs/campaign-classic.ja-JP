@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 96%
@@ -126,7 +126,7 @@ E メールを作成するとします。まず受信者の名前を挿入し、
 
 このオプションを 0 に設定した場合、パーソナライゼーションフェーズに時間制限はなくなります。
 
-## パーソナライゼーションフィールドを使用して電子メールをパーソナライズする方法 {#personalization-field-video}
+## パーソナライゼーションフィールドを使用して電子メールをパーソナライズする方法 {#personalization-fields-video}
 
 個人設定フィールドを件名行と電子メール配信のコンテンツに追加する方法について説明します。
 

@@ -14,11 +14,11 @@ discoiquuid: 6d19a5a6-98e5-4b1a-a56a-67cfead152bd
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a33132f64f160b20c98afd08cb9d0fe4cdf62b1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -42,8 +42,8 @@ IMS を有効にすると、People コアサービス／Audience Manager と Cam
    <td> 所属する組織の名前 </td> 
   </tr> 
   <tr> 
-   <td> <strong>IMS組織ID</strong><br /> </td> 
-   <td> IMS組織ID。 <br> IMS組織IDは、Experience Cloudの管理メニューで確認できます。 これは、Adobe Experience Cloud への初回接続時に付与されるものです。 </td> 
+   <td> <strong>IMS 組織 ID</strong><br /> </td> 
+   <td> 所属する組織の IMS 組織 ID。<br> IMS 組織 ID は、Adobe Experience Cloud の管理メニューで確認できます。これは、Adobe Experience Cloud への初回接続時に付与されるものです。 </td> 
   </tr> 
   <tr> 
    <td> <strong>環境：</strong><br /> </td> 

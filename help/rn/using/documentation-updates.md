@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 24d2dded38ddb922891a7264d9efea02cb448323
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
 source-wordcount: '7084'
 ht-degree: 98%
@@ -38,7 +38,7 @@ ht-degree: 98%
 
 * [タイポロジルールと定義済みフィルターを使用した疲労管理の設定方法](../../campaign/using/about-campaign-typologies.md)
 
-* [キャンペーンでの電子メールの作成方法](../../campaign/using/designing-marketing-campaigns.md)
+* [キャンペーンでの電子メールの作成方法](../../campaign/using/marketing-campaign-deliveries.md)
 
 * [条件付きコンテンツを含む多言語ニュースレターの作成方法](../../delivery/using/conditional-content.md)
 

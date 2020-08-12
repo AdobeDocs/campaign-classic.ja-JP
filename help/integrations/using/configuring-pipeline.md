@@ -14,79 +14,79 @@ discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0112d5bd052ad66169225073276d1da4f3c245d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # パイプラインの設定 {#configuring-pipeline}
 
-顧客ID、秘密鍵、認証エンドポイントなどの認証パラメーターは、インスタンス設定ファイルで設定します。
-処理されるトリガーのリストは、オプションで設定します。 JSON形式です。
-トリガーは、JavaScriptコードを使用して直ちに処理されます。 これ以上の処理をリアルタイムに行うことなく、データベーステーブルに保存されます。
-トリガーは、電子メールを送信するキャンペーンワークフローでのターゲティングに使用されます。 キャンペーンは、両方のトリガーイベントを持つ顧客が電子メールを受信できるように設定されています。
+顧客 ID、秘密鍵、認証エンドポイントなどの認証パラメーターは、インスタンス設定ファイルで設定します。
+処理されるトリガーのリストは、オプションで設定します。これは JSON 形式です。
+トリガーは、JavaScript コードを使用して直ちに処理されます。これ以上処理をおこなうことなく、リアルタイムにデータベーステーブルに保存されます。
+トリガーは、E メールを送信するキャンペーンワークフローでターゲティングに使用されます。キャンペーンは、両方のトリガーイベントを持つ顧客が E メールを受信するように設定されています。
 
 ## 前提条件 {#prerequisites}
 
-キャンペーン [!DNL Experience Cloud Triggers] での使用には、次が必要です。
+Campaign で [!DNL Experience Cloud Triggers] を使用するには、以下が必要です。
 
-* Adobe Campaignバージョン6.11ビルド8705以降。
-* Adobe Ultimate、Premium、Foundation、OD、Select、Prime、Mobile Apps、SelectまたはStandard。
+* Adobe Campaign バージョン 6.11 ビルド 8705 以降。
+* Adobe Analytics Ultimate、Premium、Foundation、OD、Select、Prime、Mobile Apps、Select または Standard。
 
-前提条件の設定は次のとおりです。
+前もって必要な設定は次のとおりです。
 
-* 秘密鍵ファイルを作成し、その鍵に登録されたoAuthアプリケーションを作成します。
-* アドビAnalyticsでのトリガーの設定。
+* 秘密鍵ファイルの作成と、その鍵に登録された OAuth アプリケーションの作成
+* Adobe Analytics でのトリガーの設定
 
-アドビのAnalytics設定は、このドキュメントの範囲外です。
+Adobe Analytics 設定は、このドキュメントの範囲外です。
 
-Adobe Campaignには、アドビのAnalyticsから次の情報が必要です。
+Adobe Campaign には、Adobe Analytics から次の情報が必要です。
 
-* oAuthアプリケーションの名前。
-* IMSOrgId。Experience Cloud顧客のIDです。
-* Analyticsで設定されたトリガーの名前。
-* マーケティングデータベースと調整するデータフィールドの名前と形式です。
+* OAuth アプリケーションの名前
+* IMSOrgId（Experience Cloud 顧客の ID）
+* Analytics で設定されたトリガーの名前
+* マーケティングデータベースと紐付けするデータフィールドの名前と形式
 
 この設定の一部はカスタム開発であり、以下が必要です。
 
-* Adobe CampaignでのJSON、XMLおよびJavaScriptの解析に関する実用的な知識
-* QueryDef APIおよびWriter APIの実用的な知識
-* 秘密鍵を使用した暗号化と認証の機能に関する概念。
+* Adobe Campaign での JSON、XML および JavaScript の解析に関する実務知識
+* QueryDef API および Writer API の実務知識
+* 秘密鍵を使用した暗号化と認証に関する実務概念
 
 >[!NOTE]
 >
->JSコードの編集には技術的なスキルが必要なので、適切な理解が得られない限りJSコードを編集しないでください。 <br>トリガーは、データベーステーブルに保存されます。 したがって、トリガーデータは、ターゲティングワークフローのマーケティング演算子で安全に使用できます。
+>JS コードの編集には技術スキルが必要なので、きちんと理解していない限り JS コードを編集しないでください。<br>トリガーは、データベーステーブルに保存されます。したがって、トリガーデータは、ターゲティングワークフローのマーケティングオペレーターで安全に使用できます。
 
 ## 認証および設定ファイル {#authentication-configuration}
 
-パイプラインはAdobe Experience Cloudでホストされるので、認証が必要です。
-Marketingサーバーがオンプレミスでホストされている場合、Marketingサーバーがパイプラインにログインする際に、安全な接続を持つために認証が必要です。
-公開鍵と秘密鍵のペアを使用します。 このプロセスは、ユーザー/パスワードと同じ機能で、より安全です。
+パイプラインは Adobe Experience Cloud でホストされるので、認証が必要です。
+マーケティングサーバーがオンプレミスでホストされている場合、マーケティングサーバーがパイプラインにログインする際に、安全に接続するために認証が必要です。
+公開鍵と秘密鍵のペアが使用されます。このプロセスは、ユーザー／パスワードと同じ機能で、より安全になっています。
 
 ### IMSOrgId {#imsorgid}
 
-IMSOrgIdは、Adobe Experience Cloud上の顧客の識別子です。
-IMSOrgId属性の下のインスタンスserverConf.xmlファイルに設定します。
+IMSOrgId は、Adobe Experience Cloud 上の顧客の識別子です。
+インスタンスの serverConf.xml ファイルで IMSOrgId 属性にこれを設定します。
 例：
 
 ```
 <redirection IMSOrgId="C5E715(…)98A4@AdobeOrg" (…)
 ```
 
-### 鍵の生成 {#key-generation}
+### キーの生成 {#key-generation}
 
-鍵はファイルのペアです。 RSA形式で、4096バイト長です。 OpenSSLなどのオープンソースツールを使用して生成できます。 ツールを実行するたびに、新しいキーがランダムに生成されます。
-便宜上、次の手順を行います。
+キーはファイルのペアです。RSA 形式で、4096 バイト長です。OpenSSL などのオープンソースツールで生成できます。ツールを実行するたびに、新しいキーがランダムに生成されます。
+便宜上、次の手順に従います。
 
 * ```openssl genrsa -out <private_key.pem> 4096```
 
 * ```openssl rsa -pubout -in <private_key.pem> -out <public_key.pem>```
 
-private_key.pemファイルの例：
+private_key.pem ファイルの例：
 
 ```
 ----BEGIN RSA PRIVATE KEY----
@@ -96,7 +96,7 @@ MIIEowIBAAKCAQEAtqcYzt5WGGABxUJSfe1Xy8sAALrfVuDYURpdgbBEmS3bQMDb
 ----END RSA PRIVATE KEY----
 ```
 
-public_key.pemファイルの例：
+public_key.pem ファイルの例：
 
 ```
 ----BEGIN PUBLIC KEY----
@@ -108,28 +108,28 @@ EwIDAQAB
 
 >[!NOTE]
 >
->PuttyGenではキーを生成しないでください。OpenSSLが最適な選択肢です。
+>PuttyGen でキーを生成しないでください。OpenSSL が最適な選択肢です。
 
-### Adobe Experience CloudでのAuthクライアントの作成 {#oauth-client-creation}
+### Adobe Experience Cloud での OAuth クライアントの作成 {#oauth-client-creation}
 
-タイプJWTのアプリケーションは、 **[!UICONTROL 管理者]** / **[!UICONTROL ユーザー管理]** / ****&#x200B;従来のOathアプリケーションの下にある正しい組織アカウントでアドビのAnalyticsにログインして作成する必要があります。
+**[!UICONTROL 管理者]**／**[!UICONTROL ユーザー管理]**／**[!UICONTROL 旧来の OAuth アプリケーション]**&#x200B;で正しい組織アカウントで Adobe Analytics にログインして、JWT タイプのアプリケーションを作成する必要があります。
 
 次の手順に従います。
 
-1. 「 **[!UICONTROL サービスアカウント(JWT Assertion)」を選択し]**&#x200B;ます。
-1. 「 **[!UICONTROL Application Name]**」を入力します。
-1. **[!UICONTROL 公開鍵を登録します]**。
-1. トリガーの **[!UICONTROL スコープを選択します]**。
+1. 「**[!UICONTROL サービスアカウント (JWT アサーション)]**」を選択します。
+1. 「**[!UICONTROL アプリケーション名]**」を入力します。
+1. 「**[!UICONTROL 公開鍵]**」を登録します。
+1. トリガーの「**[!UICONTROL スコープ]**」を選択します。
 
    ![](assets/triggers_5.png)
 
-1. 「 **[!UICONTROL 作成]** 」をクリックし、 **[!UICONTROL 作成したアプリケーション ID]** と **** アプリケーション秘密鍵を確認します。
+1. 「**[!UICONTROL 作成]**」をクリックし、作成した「**[!UICONTROL アプリケーション ID」と「]**」と「**[!UICONTROL アプリケーション秘密鍵]**」を確認します。
 
    ![](assets/triggers_6.png)
 
-### Adobe Campaignクラシックでのアプリ名の登録 {#application-name-registration}
+### Adobe Campaign Classic でのアプリ名の登録 {#application-name-registration}
 
-作成するoAuthクライアントのアプリケーション IDは、Adobe Campaignで構成する必要があります。 これを行うには、 [!DNL pipelined] 要素内のインスタンス設定ファイル（特にappName属性）を編集します。
+作成する OAuth クライアントのアプリケーション ID は、Adobe Campaign で設定する必要があります。それには、インスタンス設定ファイル内の [!DNL pipelined] 要素（特に appName 属性）を編集します。
 
 例：
 
@@ -137,13 +137,13 @@ EwIDAQAB
 <pipelined autoStart="true" appName="applicationID" authPrivateKey="@qQf146pexBksGvo0esVIDO(…)"/>
 ```
 
-### 鍵の暗号化 {#key-encription}
+### キーの暗号化 {#key-encription}
 
-で使用するに [!DNL pipelined]は、秘密鍵を暗号化する必要があります。 暗号化はJavaScriptのcryptString関数を使用して行われ、と同じインスタンスで実行する必要があり [!DNL pipelined]ます。
+[!DNL pipelined] で使用するには、秘密鍵を暗号化する必要があります。暗号化は JavaScript の cryptString 関数を使用しておこなわれ、[!DNL pipelined] と同じインスタンスで実行する必要があります。
 
-JavaScriptを使用した秘密鍵暗号化の例をこの [ページで紹介します](../../integrations/using/pipeline-troubleshooting.md)。
+JavaScript を使用した秘密鍵暗号化の例については、[こちら](../../integrations/using/pipeline-troubleshooting.md)を参照してください。
 
-暗号化された秘密鍵はAdobe Campaignに登録する必要があります。 これを行うには、 [!DNL pipelined] 要素内のインスタンス設定ファイル（特にauthPrivateKey属性）を編集します。
+暗号化された秘密鍵は Adobe Campaign に登録する必要があります。それには、インスタンス設定ファイル内の [!DNL pipelined] 要素（特に authPrivateKey 属性）を編集します。
 
 例：
 
@@ -153,14 +153,14 @@ JavaScriptを使用した秘密鍵暗号化の例をこの [ページで紹介�
 
 ### パイプラインプロセスの自動開始 {#pipelined-auto-start}
 
-プロセスを自動的に開始する [!DNL pipelined] 必要があります。
-これを行うには、設定ファイル内の要素をautostart=&quot;true&quot;に設定します。
+[!DNL pipelined] プロセスは自動的に開始する必要があります。
+それには、設定ファイル内の要素を autostart=&quot;true&quot; に設定します。
 
 ```
 <pipelined autoStart="true" appName="applicationID" authPrivateKey="@qQf146pexBksGvo0esVIDO(…)"/>
 ```
 
-### パイプラインプロセスの再開 {#pipelined-restart}
+### pipelined プロセスの再開 {#pipelined-restart}
 
 コマンドラインを使用して、手動で起動することもできます。
 
@@ -174,23 +174,23 @@ nlserver start pipelined@instance
 nlserver restart pipelined@instance
 ```
 
-エラーが発生した場合は、標準出力（手動で起動した場合）または [!DNL pipelined] ログファイルでエラーを探します。 問題の解決方法の詳細については、このドキュメントの「トラブルシューティング」の項を参照してください。
+エラーが発生した場合は、標準出力（手動で起動した場合）または [!DNL pipelined] ログファイルでエラーを探します。問題の解決方法について詳しくは、このドキュメントの「トラブルシューティング」の節を参照してください。
 
-### パイプライン構成オプション {#pipelined-configuration-options}
+### パイプライン設定オプション {#pipelined-configuration-options}
 
 | オプション | 説明 |
 |:-:|:-:|
-| appName | （公開鍵がアップロードされた）AdobeAnalyticsに登録されているOAuthアプリケーション(アプリケーション ID)のID: 管理者/ユーザー管理/レガシーのOathアプリケーション。 Refer to this [section](../../integrations/using/configuring-pipeline.md#oauth-client-creation). |
-| authGatewayEndpoint | 「ゲートウェイトークン」を取得するURL。 <br> デフォルト：https://api.omniture.com |
-| authPrivateKey | 秘密鍵(公開パーツはAdobeAnalyticsにアップロードされました（この節を参照）。 XtkSecretKeyオプションで暗号化されたAES: xtk.session.EncryptPassword(&quot;PRIVATE_KEY&quot;); |
-| disableAuth | 認証の無効化（ゲートウェイトークンを使用しない接続は、一部の開発パイプラインエンドポイントでのみ受け入れられます） |
-| discoverPipelineEndpoint | このテナントに使用するパイプラインサービスエンドポイントを検出するURLです。 デフォルト：https://producer-pipeline-pnw.adobe.net |
-| dumpStatePeriodSec | var/INSTANCE/pipelined.json内部状態のプロセス内部状態の2ダンプ間の期間も、http://INSTANCE/pipelined/statusでオンデマンドでアクセスできます（ポート7781）。 |
-| forcedPipelineEndpoint | PipelineServicesEndpointの検出を無効にし、強制的に行います |
-| monitorServerPort | プロセスは、このポートを [!DNL pipelined] リッスンして、http://INSTANCE/pipelined/status（ポート7781）にプロセス内部状態を提供します。 |
-| pointerFlushMessageCount | この数のメッセージが処理されると、オフセットはデータベースに保存されます。 初期設定は1000です。 |
-| pointerFlushPeriodSec | この期間を過ぎると、オフセットはデータベースに保存されます。 初期設定は5（秒）です |
-| processingJSThreads | カスタムJSコネクタを使用してメッセージを処理する専用スレッドの数。 初期設定は4です。 |
-| processingThreads | 組み込みコードを含むメッセージを処理する専用スレッドの数。 初期設定は4です。 |
-| retryPeriodSec | 再試行間の遅延（処理エラーがある場合） 初期設定は30（秒）です |
-| retryValiditySec | この期間後に正常に処理されない場合(再試行数が多すぎる場合)、メッセージを破棄します。 初期設定は300（秒）です |
+| appName | （公開鍵がアップロードされた）Adobe Analytics に登録されている OAuth アプリケーションの ID（アプリケーション ID）：管理者／ユーザー管理／旧来の OAuth アプリケーション。[こちら](../../integrations/using/configuring-pipeline.md#oauth-client-creation)を参照してください。 |
+| authGatewayEndpoint | 「ゲートウェイトークン」を取得するための URL。<br>デフォルト：https://api.omniture.com |
+| authPrivateKey | 秘密鍵。公開部分は Adobe Analytics でアップロード済み（この節を参照）。XtkSecretKey オプションで暗号化された AES：xtk.session.EncryptPassword(&quot;PRIVATE_KEY&quot;); |
+| disableAuth | 認証の無効化（ゲートウェイトークンを使用せずに接続することは、一部の開発パイプラインエンドポイントでのみ可能です） |
+| discoverPipelineEndpoint | このテナントに使用するパイプラインサービスエンドポイントを検出するための URL です。デフォルト：https://producer-pipeline-pnw.adobe.net |
+| dumpStatePeriodSec | var/INSTANCE/pipelined.json 内部状態におけるプロセス内部状態の 2 回のダンプ間の期間も、http://INSTANCE/pipelined/status（ポート 7781）でオンデマンドでアクセスできます。 |
+| forcedPipelineEndpoint | PipelineServicesEndpoint の検出を無効にし、強制的におこないます |
+| monitorServerPort | [!DNL pipelined] プロセスは、このポートでリッスンして、http://INSTANCE/pipelined/status（ポート 7781）でプロセス内部状態を提供します。 |
+| pointerFlushMessageCount | この数のメッセージが処理されると、オフセットがデータベースに保存されます。デフォルトは 1000 です。 |
+| pointerFlushPeriodSec | この期間を過ぎると、オフセットがデータベースに保存されます。デフォルトは 5（秒）です |
+| processingJSThreads | カスタム JS コネクタを使用してメッセージを処理する専用スレッドの数。デフォルトは 4 です。 |
+| processingThreads | 組み込みコードを使用してメッセージを処理する専用スレッドの数。デフォルトは 4 です。 |
+| retryPeriodSec | 再試行間の遅延（処理エラーがある場合）。デフォルトは 30（秒）です |
+| retryValiditySec | この期間が経過してもメッセージが正常に処理されない場合（再試行回数が多すぎる場合）、メッセージを破棄します。デフォルトは 300（秒）です |

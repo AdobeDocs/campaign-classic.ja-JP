@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '3087'
-ht-degree: 98%
+source-wordcount: '3115'
+ht-degree: 97%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 98%
 # マーケティングキャンペーン配信 {#marketing-campaign-deliveries}
 
 配信は、キャンペーンダッシュボード、キャンペーンワークフローまたは配信の概要から直接作成できます。
+
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#create-email-video)
 
 ## 配信の作成 {#creating-deliveries}
 
@@ -78,6 +80,13 @@ ht-degree: 98%
 >[!IMPORTANT]
 >
 >同じキャンペーン内に 28 を超えるワークフローを設定することはできません。この上限を超えると、追加のワークフローはインターフェイスに表示されず、エラーが発生する可能性があります。
+
+### キャンペーンでの電子メールの作成方法 {#create-email-video}
+
+このビデオでは、Adobe Campaign Classicでキャンペーンと電子メールを作成する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+
 
 #### ターゲティングワークフローの作成 {#creating-a-targeting-workflow}
 

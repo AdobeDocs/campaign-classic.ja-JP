@@ -14,11 +14,11 @@ discoiquuid: a4441820-1b3d-4bac-a6e3-1c9c14466d19
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9f55a2014546ce08972f51e4930ce04d4ce0c188
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 85%
 
 1 つのワークフローで複数のサブワークフローを呼び出すことができます。サブワークフローは、同期して実行されます。
 
-以下の例では、プライマリワークフローがジャンプを使用してサブワークフローを呼び出しています。 ジャンプタイプのグラフィカルオブジェクトについて詳しくは、[この節](../../workflow/using/jump--start-point-and-end-point-.md)を参照してください。
+以下の例では、プライマリワークフローが、ジャンプを使用してサブワークフローを呼び出しています。ジャンプタイプのグラフィカルオブジェクトについて詳しくは、[この節](../../workflow/using/jump--start-point-and-end-point-.md)を参照してください。
 
 1. 別のワークフローでサブワークフローとして使用するワークフローを作成します。
 1. ワークフローの最初に、優先度が 1 の&#x200B;**[!UICONTROL ジャンプ (終了点)]** アクティビティを挿入します。「終了点」タイプのジャンプが複数ある場合、Adobe Campaign は一番小さい数の「終了点」ジャンプを使用します。
@@ -57,7 +57,7 @@ ht-degree: 85%
 
 1. ワークフローを実行します。
 
-Once run, the workflow that was called as a sub-workflow remains in **[!UICONTROL Being edited]** status, which means the following:
+実行すると、サブワークフローとして呼び出されたワークフローは、「**[!UICONTROL 編集中]**」ステータスのままになります。つまり、
 
 * トランジションを右クリックしてターゲットを表示することはできません。
 * 中間母集団の数は表示できません。

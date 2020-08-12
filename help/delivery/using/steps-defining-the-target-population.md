@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 32076ea0a817d8649d1db9e39628221e15ede37e
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 91%
@@ -234,7 +234,9 @@ ht-degree: 91%
 
 このビデオでは、既存の電子メールにシードや配達確認を追加する方法と送信する方法を学びます。
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)関連項目：
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+
+関連項目：
 * [配達確認のターゲットの選択](#selecting-the-proof-target)
 
 * [シードアドレスについて](../../delivery/using/about-seed-addresses.md)

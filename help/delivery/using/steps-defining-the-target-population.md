@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32076ea0a817d8649d1db9e39628221e15ede37e
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1725'
 ht-degree: 91%
 
 ---
@@ -174,6 +174,9 @@ ht-degree: 91%
 
 配達確認は、配信をメインターゲットに送信する前にテストするための特別なメッセージです。配達確認受信者は、メッセージのフォームおよびコンテンツの両方を承認します。
 
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#seeds-and-proofs-video)
+
+
 配達確認のターゲットを選択するには、次の手順に従います。
 
 1. 「**[!UICONTROL 宛先]**」リンクをクリックします。
@@ -230,7 +233,7 @@ ht-degree: 91%
 
 「**[!UICONTROL 特定のターゲットとシードアドレス]**」オプションを使用すると、特定の配達確認ターゲットの定義とシードアドレスの使用を組み合わせることができます。関連する設定は、異なる 2 つのサブタブで定義します。
 
-## 電子メール内のシードと配達確認を管理する方法
+## 電子メール内のシードと配達確認を管理する方法 {#seeds-and-proofs-video}
 
 このビデオでは、既存の電子メールにシードや配達確認を追加する方法と送信する方法を学びます。
 

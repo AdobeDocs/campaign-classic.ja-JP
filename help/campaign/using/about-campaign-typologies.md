@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 79%
+source-wordcount: '498'
+ht-degree: 78%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 79%
 # キャンペーンタイポロジについて{#about-campaign-typologies}
 
 キャンペーンの最適化は、配信状況を制御、フィルターおよび監視する Adobe Campaign のモジュールです。キャンペーン間の競合を回避するために、Adobe Campaign では特定の制限ルールを適用して、様々な組み合わせをテストできます。このテストにより、企業のコミュニケーションポリシーに準拠し、顧客のニーズと期待に応える最適なメッセージを送信できます。
+
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#typologies-video)
 
 >[!NOTE]
 >
@@ -69,7 +71,7 @@ Adobe Campaign では、次の 4 種類のタイポロジルールをデザイ�
 
 配信の準備では、基準を満たした場合に受信者が除外されます。ログを確認して除外を監視することができます。頻度タイポロジルールの使用例については、[このページ](../../campaign/using/pressure-rules.md#use-cases-on-pressure-rules)を参照してください。
 
-## タイポロジルールを使用した疲労管理の設定方法
+## タイポロジルールを使用した疲労管理の設定方法 {#typologies-video}
 
 このビデオでは、タイポロジルールを活用してAdobe Campaign Classicで疲労管理を実装する方法を説明します。
 

@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 97%
+source-wordcount: '919'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,9 @@ ht-degree: 97%
 
 例えば、**&lt;%= recipient.LastName %>** という構文のパーソナライゼーションフィールドは、データベース（受信者テーブル）に受信者の名前を挿入するための指示です。
 
->[!NOTE]
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#personalization-fields-video)
+
+>[!CAUTION]
 >
 >パーソナライゼーションフィールドのコンテンツは、1024 文字以内である必要があります。
 
@@ -124,7 +126,7 @@ E メールを作成するとします。まず受信者の名前を挿入し、
 
 このオプションを 0 に設定した場合、パーソナライゼーションフェーズに時間制限はなくなります。
 
-## パーソナライゼーションフィールドを使用して電子メールをパーソナライズする方法
+## パーソナライゼーションフィールドを使用して電子メールをパーソナライズする方法 {#personalization-field-video}
 
 個人設定フィールドを件名行と電子メール配信のコンテンツに追加する方法について説明します。
 

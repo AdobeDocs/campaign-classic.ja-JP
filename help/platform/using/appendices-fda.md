@@ -14,11 +14,11 @@ discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e7cf3b189f328cd1ea6ca8b67a3fc4c0c0bddd84
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ udf_utf16to8 をインストールするには、以下を実行します。
    SELECT CAST(Char2HexInt(UDF_UTF16to8(_UNICODE'004100000042'XC)) AS VARCHAR(100));
    ```
 
-### Linux の Campaign サーバーの設定 {#campaign-server-linux}
+### Linux の Campaign サーバー設定 {#campaign-server-linux}
 
 ドライバーのインストールには次が必要です。
 

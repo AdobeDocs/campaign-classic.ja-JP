@@ -14,11 +14,11 @@ discoiquuid: ec3844ca-8d80-4ddc-b08c-f18a6919bb28
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a034749c82f44edaf718b732e6871b9af378636a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -85,52 +85,52 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 手順は以下のとおりです。
 
-1. コント [ロールパネルを使用して、インスタンス用のGPGキーペアをインストールします](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)。
+1. [Campaign コントロールパネル](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)を使用して、インスタンスに GPG キーペアをインストールします。
 
    >[!NOTE]
    >
-   >コントロールパネルは、AWSでホストされるすべてのお客様が利用できます（自分のマーケティングインスタンスをオンプレミスでホストするお客様を除く）。
+   >Campaign コントロールパネルは、AWS でホストされるすべてのお客様が利用できます（自分のマーケティングインスタンスをオンプレミスでホストするお客様を除く）。
 
-1. Adobe Campaignのインストールがアドビによってホストされている場合は、アドビカスタマーケアに連絡して、必要なユーティリティをサーバーにインストールしてもらいます。
-1. Adobe Campaignのインストールがオンプレミスの場合は、使用するユーティリティをインストールします(例： GPG、GZIP)と、アプリケーションサーバー上の必要なキー（暗号化キー）。
+1. インストールした Adobe Campaign がアドビによってホストされている場合：必要なユーティリティをサーバーにインストールするようカスタマーサポートに依頼します。
+1. Adobe Campaign のインストールがオンプレミスの場合：使用するユーティリティ（例：GPG、GZIP）およびアプリケーションサーバー上の必要なキー（暗号化キー）をインストールします。
 
-その後、アクティビティの「 **[!UICONTROL スクリプト]** 」タブまたはJavaScriptコード **** アクティビティでコマンドまたはコードを使用できます。 次の使用例に例を示します。
+その後、アクティビティの「**[!UICONTROL スクリプト]**」タブまたは「**[!UICONTROL JavaScript コード]**」アクティビティでコマンドまたはコードを使用できます。例として、次のユースケースを示します。
 
 **関連トピック：**
 
 * [処理前のファイルの解凍または復号化](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing)
-* [データ抽出（ファイル）アクティビティ](../../workflow/using/extraction--file-.md).
+* [データ抽出（ファイル）アクティビティ](../../workflow/using/extraction--file-.md)
 
-### 使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し {#use-case-gpg-encrypt}
+### ユースケース：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し {#use-case-gpg-encrypt}
 
-この場合、コントロールパネルにインストールされたキーを使用してデータを暗号化およびエクスポートするためのワークフローを構築します。
+このユースケースでは、Campaign コントロールパネルにインストールされたキーを使用してデータを暗号化およびエクスポートするためのワークフローを作成します。
 
-GPGキーを使用してデータを暗号化する方法を示すチュートリアルビデオも [この節で説明します](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html)。
+GPG キーを使用してデータを暗号化する方法を示すチュートリアルビデオについては、[こちら](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html)を参照してください。
 
-この使用例を実行する手順は次のとおりです。
+このユースケースを実行する手順は次のとおりです。
 
-1. GPGユーティリティを使用してGPGキーペア（公開/秘密）を生成し、公開キーをコントロールパネルにインストールします。 詳細な手順は、 [コントロールパネルのドキュメントで確認できます](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)。
+1. GPG ユーティリティを使用して GPG キーペア（公開鍵／秘密鍵）を生成し、公開キーを Campaign コントロールパネルにインストールします。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)を参照してください。
 
-1. Campaign Classicで、データを書き出すワークフローを作成し、コントロールパネルからインストールされた秘密鍵を使用して書き出します。 これを行うには、次のようにワークフローを構築します。
+1. Campaign Classic で、データをエクスポートするワークフローを作成し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用してデータをエクスポートします。これをおこなうには、次のようにワークフローを作成します。
 
    ![](assets/gpg-workflow-encrypt.png)
 
-   * **[!UICONTROL クエリ]** アクティビティ: この例では、クエリを実行して、エクスポートするデータベースのデータをターゲットします。
-   * **[!UICONTROL データ抽出（ファイル）]** アクティビティ: データをファイルに抽出します。
-   * **[!UICONTROL JavaScriptコード]** アクティビティ: 抽出するデータを暗号化します。
-   * **[!UICONTROL ファイル転送]** アクティビティ: データを外部ソース（この例ではSFTPサーバー）に送信します。
+   * **[!UICONTROL クエリ]**&#x200B;アクティビティ：この例では、クエリを実行して、エクスポートするデータをデータベースから選択します。
+   * **[!UICONTROL データ抽出（ファイル）]**&#x200B;アクティビティ:：データをファイルに抽出します。
+   * **[!UICONTROL JavaScript コード]**&#x200B;アクティビティ:：抽出するデータを暗号化します。
+   * **[!UICONTROL ファイル転送]**&#x200B;アクティビティ：データを外部ソース（この例では SFTP サーバー）に送信します。
 
-1. データベースから必要なデータをターゲットする **[!UICONTROL クエリ]** アクティビティを設定します。 詳しくは、[この節](../../workflow/using/query.md)を参照してください。
+1. **[!UICONTROL クエリ]**&#x200B;アクティビティを設定して、目的のデータをデータベースから選択します。詳しくは、[こちら](../../workflow/using/query.md)を参照してください。
 
-1. データ **[!UICONTROL 抽出（ファイル）]** アクティビティを開き、必要に応じて設定します。 この節では、アクティビティの設定方法に関するグローバルな概念について説明 [します](../../workflow/using/extraction--file-.md)。
+1. データ&#x200B;**[!UICONTROL 抽出（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関するグローバルな概念については、[こちら](../../workflow/using/extraction--file-.md)を参照してください。
 
    ![](assets/gpg-data-extraction.png)
 
-1. JavaScriptコード **[!UICONTROL アクティビティを開き]** 、次のコマンドをコピー&amp;ペーストして、抽出するデータを暗号化します。
+1. **[!UICONTROL JavaScript コード]**&#x200B;アクティビティを開き、次のコマンドをコピー＆ペーストして、抽出するデータを暗号化します。
 
    >[!IMPORTANT]
    >
-   >コマンドの **指紋** （指紋）の値は、コントロールパネルにインストールされた公開鍵の指紋に置き換えてください。
+   >コマンドの&#x200B;**フィンガープリント**&#x200B;の値を、Campaign コントロールパネルにインストールされた公開鍵のフィンガープリントに置き換えてください。
 
    ```
    var cmd='gpg ';
@@ -144,10 +144,10 @@ GPGキーを使用してデータを暗号化する方法を示すチュート�
 
    ![](assets/gpg-script.png)
 
-1. 「 **[!UICONTROL ファイル転送]** 」アクティビティを開き、ファイルの送信先のSFTPサーバーを指定します。 この節では、アクティビティの設定方法に関するグローバルな概念について説明 [します](../../workflow/using/file-transfer.md)。
+1. **[!UICONTROL ファイル転送]**&#x200B;アクティビティを開き、ファイルの送信先の SFTP サーバーを指定します。アクティビティの設定方法に関するグローバルな概念については、[こちら](../../workflow/using/file-transfer.md)を参照してください。
 
    ![](assets/gpg-file-transfer.png)
 
-1. これで、ワークフローを実行できます。 実行後、クエリによるデータターゲットは、暗号化された.gpgファイルにSFTPサーバにエクスポートされます。
+1. これで、ワークフローを開始できます。ワークフローを実行すると、クエリで選択された対象データが、暗号化された .gpg ファイルにエクスポートされ、SFTP サーバーに転送されます。
 
    ![](assets/gpg-sftp-encrypt.png)

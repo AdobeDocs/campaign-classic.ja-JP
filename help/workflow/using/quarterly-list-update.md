@@ -1,6 +1,6 @@
 ---
-title: 増分クエリを使用した四半期別リストの更新
-description: この場合、増分クエリを使用して受信者リストが自動的に更新されます。
+title: 増分処理クエリを使用した四半期ごとのリストの更新
+description: この使用例では、増分処理クエリを使用して、受信者リストを自動更新します。
 page-status-flag: never-activated
 uuid: 24d322e8-172c-4faa-8a1f-59085b390a76
 contentOwner: sauviat
@@ -12,25 +12,25 @@ discoiquuid: 31071cd2-7d97-4a4f-a6cc-5ac5b6178be5
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa192d975a08246ba684940fff3d33853d7d9345
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# 増分クエリを使用した四半期別リストの更新 {#quarterly-list-update}
+# 増分処理クエリを使用した四半期ごとのリストの更新 {#quarterly-list-update}
 
-In the following example, an [incremental query](../../workflow/using/incremental-query.md) is used to automatically update a recipient list. これらの受信者は、季節ごとのマーケティングキャンペーンの一部としてターゲットされています。
+次の例では、[増分処理クエリ](../../workflow/using/incremental-query.md)を使用して、受信者リストを自動更新します。これらの受信者は、季節ごとのマーケティングキャンペーンの一部としてターゲットされています。
 
 季節ごとのマーケティングキャンペーンでは、季節に合ったスポーツアクティビティを季節の初めに提案します。そのため、受信者リストは四半期ごとに更新されます。ただし、リストの受信者がこのキャンペーンのターゲット設定されるのは、9 ヶ月に 1 回のみにする必要があります。これにより、受信者の資格取得頻度の間隔が空き、年間を通じて季節ごとに異なるアクティビティが提供されます。
 
 ![](assets/incremental_query_example.png)
 
-1. 新しいワークフローに、増分クエリとリスト更新アクティビティを追加します。
-1. アクティビティの「**[!UICONTROL 増分クエリ]**」タブを](../../workflow/using/query.md#creating-a-query)クエリの作成[の説明に従って設定します。
+1. 新しいワークフローに、増分処理クエリとリスト更新アクティビティを追加します。
+1. アクティビティの「**[!UICONTROL 増分処理クエリ]**」タブを](../../workflow/using/query.md#creating-a-query)クエリの作成[の説明に従って設定します。
 1. 「**[!UICONTROL スケジュール設定と履歴]**」タブを選択し、履歴の日数を 270 日と指定します。この指定により、既にターゲットされた受信者は、今後 270 日間（およそ 9 ヶ月間）はターゲットされません。
 
    次に、「**[!UICONTROL 変更]**」ボタンをクリックします。
@@ -41,6 +41,6 @@ In the following example, an [incremental query](../../workflow/using/incrementa
 
    ![](assets/incremental_query_example_2.png)
 
-1. 増分クエリを承認した後で、[リストの更新](../../workflow/using/list-update.md)の説明に従って、リスト更新アクティビティを設定します。
+1. 増分処理クエリを承認した後で、[リストの更新](../../workflow/using/list-update.md)の説明に従って、リスト更新アクティビティを設定します。
 
 このように設定しておくことで、次の季節が始まる直前にワークフローが自動的に開始されます。リストは更新され、オファーを受ける資格のある新しい受信者が含められます。

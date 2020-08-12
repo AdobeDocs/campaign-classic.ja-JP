@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
+source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 93%
+source-wordcount: '416'
+ht-degree: 100%
 
 ---
 
@@ -70,10 +70,3 @@ Adobe Campaign では、コミュニケーションおよびマーケティン�
 
    詳しくは、[配信の概要からのリンク済みリソースの関連付けと構造化](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)を参照してください。
 
-## キャンペーンでの電子メールの作成方法
-
-このビデオでは、Adobe Campaign Classicでキャンペーンと電子メールを作成する方法を説明します。
-
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
-
-For more details, refer to [this section](../../campaign/using/marketing-campaign-deliveries.md)

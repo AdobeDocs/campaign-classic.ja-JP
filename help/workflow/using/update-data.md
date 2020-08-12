@@ -14,11 +14,11 @@ discoiquuid: c94ce5b7-aa8a-4ea2-845d-68c9c7dc2a7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 56212b320d5077f9b66952e7c11eb8bdcea9e3b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
 * **[!UICONTROL 挿入または更新]**：データを追加するか、既に追加されているデータを更新する場合。
 * **[!UICONTROL 挿入]**：データを追加する場合のみ。
 * **[!UICONTROL 更新]**：データを更新する場合のみ。
-* **[!UICONTROL コレクションの更新と結合]**: データを更新してプライマリレコードを選択し、このプライマリレコード内の重複にリンクされた要素をリンクします。 重複レコードは、孤立した接続要素を作成することなく、削除できます。
+* **[!UICONTROL コレクションを更新して結合]**：データを更新してプライマリレコードを選択した後、このプライマリレコード内の重複レコードに関係付けられた要素にリンクさせる場合。重複レコードは、孤立した接続要素を作成することなく、削除できます。
 * **[!UICONTROL 削除]**：データを削除する場合。
 
 ![](assets/s_advuser_update_data_1.png)

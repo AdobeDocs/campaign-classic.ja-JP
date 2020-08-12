@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1174'
 ht-degree: 99%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 99%
 
 キャンペーンテンプレートの作成および設定について詳しくは、[キャンペーンテンプレート](#campaign-templates)で説明しています。
 
-キャンペーンの作成について詳しくは、[キャンペーンと E メールの作成](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/email-channel/creating-a-campaign-and-an-email.html)のビデオを参照してください。
+For more on campaign creation, refer to [this video](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
 
 ## 使用可能モジュールの設定 {#configuration-of-the-available-modules}
 

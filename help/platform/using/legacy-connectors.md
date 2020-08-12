@@ -14,18 +14,18 @@ discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 959455ec92b40581f04cf0e357b6c0d3f3fba81c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1294'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # レガシーコネクタ {#legacy-connectors}
 
-レガシーFDAコネクターは、引き続きアドビでサポートされます。 ただし、この [ページに示す最新の代替オプションに置き換えることをお勧めします](../../platform/using/specific-configuration-database.md)。
+従来の FDA コネクタは、アドビで引き続きサポートされます。ただし、[こちら](../../platform/using/specific-configuration-database.md)に示す最新の代替オプションに置き換えることをお勧めします。
 
 ## Hadoop 2.1 へのアクセスの設定 {#configure-access-to-hadoop}
 

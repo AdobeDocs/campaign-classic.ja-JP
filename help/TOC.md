@@ -5,10 +5,10 @@ index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: 5e6ecd636ee0b2199808c03b2fd898a194f0c1ea
+source-git-commit: ee4addc88c6169603122259437d5cb0362851aa6
 workflow-type: tm+mt
-source-wordcount: '2110'
-ht-degree: 99%
+source-wordcount: '2113'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 99%
       + [一般的なインポートおよびエクスポート](platform/using/generic-imports-and-exports.md)
       + [データのエクスポート](platform/using/exporting-data.md)
       + [データのインポート](platform/using/importing-data.md)
-      + [SFTP サーバーの使用](platform/using/sftp-server-usage.md)
+      + [SFTPサーバーのベストプラクティスとトラブルシューティング](platform/using/sftp-server-usage.md)
    + データのフィルター {#filtering-data}
       + [フィルターオプション](platform/using/filtering-options.md)
       + [フィルターの作成](platform/using/creating-filters.md)

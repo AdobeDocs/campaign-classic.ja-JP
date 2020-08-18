@@ -14,8 +14,11 @@ discoiquuid: 3667da3d-4940-4128-8878-f1ee67216f56
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+translation-type: tm+mt
+source-git-commit: ee4addc88c6169603122259437d5cb0362851aa6
+workflow-type: tm+mt
+source-wordcount: '348'
+ht-degree: 100%
 
 ---
 
@@ -37,6 +40,7 @@ Amazon S3、FTP または SFTP サーバー上の HTML ファイルに配信コ�
 
    * S3 または（S）FTP サーバーへの接続に使用する外部アカウント。
    * S3 または（S）FTP サーバー上のファイルへのパス。
+
    ![](assets/delivery_loadcontent_filetransfertexample.png)
 
 1. **[!UICONTROL 配信]**&#x200B;アクティビティを追加し、**[!UICONTROL ファイル転送]**&#x200B;アクティビティのアウトバウンドトランジションに接続します。次のように設定します。
@@ -45,6 +49,7 @@ Amazon S3、FTP または SFTP サーバー上の HTML ファイルに配信コ�
    * 受信者：この例では、配信がターゲットを指定するものとします。
    * コンテンツ：前のアクティビティでコンテンツをインポート済みであっても、「**[!UICONTROL 配信で指定]**」を選択します。リモートサーバー上のファイルから直接コンテンツがインポートされるので、ワークフローの処理時には識別子がなく、インバウンドイベントから取得したものとして識別することができません。
    * 実行するアクション：「**[!UICONTROL 保存]**」を選択して配信を保存すると、ワークフローの実行後に&#x200B;**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;から配信にアクセスできるようになります。
+
    ![](assets/delivery_loadcontent_activityexample.png)
 
 1. **[!UICONTROL 配信]**&#x200B;アクティビティの「**[!UICONTROL スクリプト]**」タブで、次のコマンドを追加して、インポートしたファイルのコンテンツを配信に読み込むようにします。
@@ -60,4 +65,3 @@ Amazon S3、FTP または SFTP サーバー上の HTML ファイルに配信コ�
 >[!NOTE]
 >
 >SFTP サーバー使用のベストプラクティスおよびトラブルシューティングについて詳しくは、[このページ](../../platform/using/sftp-server-usage.md)を参照してください。
-

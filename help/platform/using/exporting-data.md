@@ -14,8 +14,11 @@ discoiquuid: fecadb66-b81d-4fb6-9971-7bfd024d70b7
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
+translation-type: tm+mt
+source-git-commit: b690e6c7141ba88c8ce72f631ec24fc068ade8f5
+workflow-type: tm+mt
+source-wordcount: '1010'
+ht-degree: 98%
 
 ---
 
@@ -73,7 +76,7 @@ source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
 * 「**[!UICONTROL テキスト]**」フォーマットの場合、列を区切る区切り記号（タブ、コンマ、セミコロンまたはカスタム）および文字列を区切る区切り記号（シングルコーテーション、ダブルコーテーションまたはなし）を選択します。
 * 「**[!UICONTROL テキスト]**」および「**[!UICONTROL CSV]**」の場合、オプション「**[!UICONTROL 先頭行を列ヘッダーとして使用]**」を選択できます。
 * 日付フォーマットおよび数字のフォーマットを指定します。そのためには、該当するフィールドの「**[!UICONTROL 編集]**」ボタンをクリックし、エディターを使用します。
-* 列挙値が含まれるフィールドの場合、「**[!UICONTROL 列挙の内部値の代わりにラベルをエクスポート]**」を選択できます。例えば、タイトルを **1=Mr.**、**2=Miss**、** 3=Mrs.** の形式で保存できます。このオプションを選択した場合、**Mr.**、**Miss** および **Mrs.** がエクスポートされます。
+* 列挙値が含まれるフィールドの場合、「**[!UICONTROL 列挙の内部値の代わりにラベルをエクスポート]**」を選択できます。For example, the title can be stored in the form **1=Mr.**, **2=Miss**, **3=Mrs.**.」このオプションを選択した場合、**Mr.**、**Miss** および **Mrs.** がエクスポートされます。
 
 ### 手順 4 - データ選択 {#step-4---data-selection}
 
@@ -109,6 +112,7 @@ source-git-commit: 0ce6e5277c32bc18c20dca62e5b276f654d1ace5
    * 小文字に切り替え
    * 大文字に切り替え
    * 最初の文字は大文字
+
    ![](assets/s_ncs_user_export_wizard06.png)
 
 * 新しい計算フィールド（姓 + 名を含む列など）を作成する場合は、**[!UICONTROL 計算フィールドを追加]**&#x200B;をクリックします。詳しくは、[集計フィールド](../../platform/using/importing-data.md#calculated-fields)を参照してください。

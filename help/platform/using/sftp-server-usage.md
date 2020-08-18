@@ -1,5 +1,5 @@
 ---
-title: SFTPサーバーのベストプラクティスとトラブルシューティング
+title: SFTP サーバーの使用
 description: SFTPサーバーのベストプラクティスとトラブルシューティングの詳細を参照してください。
 page-status-flag: never-activated
 uuid: 5281058d-91bd-4f98-835d-1d46dc7b8b1f
@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc7ba0c26bd57a75c3dbeaec541844a3b1196ef3
+source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 64%
+source-wordcount: '1007'
+ht-degree: 65%
 
 ---
 
@@ -118,9 +118,9 @@ ETL のためのファイルやデータを管理する際、これらのファ�
    1. サーバー名がローカルDNSサーバーに追加されているかどうかを確認します。
    1. 「はい」の場合、Adobe Campaignサーバーで次のコマンドを実行してIPアドレスを取得します。
 
-   `nslookup <server domain name>`
+      `nslookup <server domain name>`
 
-   これにより、FTPサーバーが動作中で、Adobe Campaignアプリケーションサーバーから到達可能であることが確認されます。
+      これにより、FTPサーバーが動作中で、Adobe Campaignアプリケーションサーバーから到達可能であることが確認されます。
 
 1. トラブルシュ **ーティングセッションログ**:
 
@@ -128,11 +128,11 @@ ETL のためのファイルやデータを管理する際、これらのファ�
    1. [ **[!UICONTROL ファイル転送]** ]タブに移動し、[ **[!UICONTROL 詳細パラメータ]**]をクリックします。
    1. [セッションログを **[!UICONTROL 表示する]** ]オプションをオンにします。
 
-   ![](assets/sftp-error-display-logs.png)
+      ![](assets/sftp-error-display-logs.png)
 
    1. 「監査」ワークフローに移動し、ログに「ホスト名を解決できませんでした」というエラーが表示されるかどうかを確認します。
 
-   SFTPサーバーがAdobeでホストされている場合は、カスタマーケアに問い合わせて、IPが許可リストに追加されているかどうかを確認します。
+1. SFTPサーバーがAdobeでホストされている場合は、カスタマーケアに問い合わせて、IPが許可リストに追加されているかどうかを確認します。
 
    それ以外の場合は検証：
 

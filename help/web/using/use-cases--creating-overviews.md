@@ -14,8 +14,11 @@ discoiquuid: a3834828-4d39-4699-b648-d399797b8ea7
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: b01252d57ec4ca5c5c87e69566079c48d7363e38
+workflow-type: tm+mt
+source-wordcount: '1035'
+ht-degree: 98%
 
 ---
 
@@ -205,6 +208,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
    * **演算子：**&#x200B;等しい
    * **値：**&#x200B;変数
    * **次の場合に考慮：**&#39;$(var2/@id)&#39;!=&quot;
+
    ![](assets/s_ncs_configuration_webapp_filter002.png)
 
 >[!CAUTION]
@@ -220,7 +224,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
    ![](assets/s_ncs_configuration_webapp_refreshlink.png)
 
-1. 「**[!UICONTROL 画像]**」フィールドに更新アイコン **/xtk/img/refresh.png ** を追加します。
+1. Add the refresh icon on the **[!UICONTROL Image]** field: **/xtk/img/refresh.png**.
 1. 次に示すように、並べ替え矢印を使用して、Web アプリケーションの様々な要素を認識します。
 
    ![](assets/s_ncs_configuration_webapp_orderelements.png)

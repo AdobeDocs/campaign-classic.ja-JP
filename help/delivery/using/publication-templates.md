@@ -14,8 +14,11 @@ discoiquuid: 279b0ae6-2578-4f1f-af59-13a1a9c80b32
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: ced6c73961e949c421e9dfb638b40a06dcad4614
+workflow-type: tm+mt
+source-wordcount: '845'
+ht-degree: 97%
 
 ---
 
@@ -78,7 +81,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 * 「**[!UICONTROL マルチファイル生成]**」オプションは、特別なドキュメントパブリッシュモードを有効化します。このオプションによって、出力ドキュメントの各ページの先頭にパーティションタグが入力されます。コンテンツを生成すると、入力されているパーティションタグごとにファイルが作成されます。このモードは、コンテンツブロックからミニサイトを生成するために使用します。詳しくは、[マルチファイル生成](#multi-file-generation)を参照してください。
 * 「**[!UICONTROL 場所]**」フィールドには、出力ファイルの名前を入力します。ファイル名を自動生成するために、複数の変数で構成される名前にすることができます。
 
-   変数は、**`$(<xpath>)` というフォーマットで入力します（`<xpath>` は、パブリッシュテンプレートデータスキーマのフィールドのパス）。
+   A variable is populated with the following format: **`$(<xpath>)`**, where **`<xpath>`** is the path of a field of the publication template data schema.
 
    ファイルの名前は、日付タイプのフィールドで構成することもできます。このフィールドを正しく書式設定するには、フィールドのパスと出力フォーマットをパラメーターとして、**$date-format** 関数を使用します。
 
@@ -116,7 +119,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 **`<xsl:comment> #nl:output_replace(<name_of_file>) </xsl:comment>`**（**`<name_of_file>`** は生成するページのファイル名）
 
-**例：**「cus:book」スキーマを使用した複数ファイル生成。
+**例**：「cus:book」スキーマを使用した複数ファイル生成
 
 原理は、複数の章をリストするメインページを生成し、外部ページに章の詳細を表示できるようにするということです。
 

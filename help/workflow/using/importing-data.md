@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4edd389fde91c3f316c5213f4d7f34e51979112
+source-git-commit: 9a8c3586482d05648de3bdecfdfabcc094c70dbf
 workflow-type: tm+mt
-source-wordcount: '2627'
-ht-degree: 99%
+source-wordcount: '2628'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 >[!CAUTION]
 >
->この機能を使用する際は、Adobe Campaign契約に従って、SFTPストレージ、DBストレージ、アクティブなプロファイルの制限に留意してください。
+>データのインポート時には、Adobe Campaign契約に従って、SFTPストレージ、データベースストレージ、アクティブプロファイルの制限に注意してください。
 
 ## データの収集方法 {#how-to-collect-data}
 
@@ -52,91 +52,6 @@ Mars;Daniel;17/11/1987;dannymars@example.com;123545
 Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
-
-## 処理前のファイルの解凍または復号化 {#unzipping-or-decrypting-a-file-before-processing}
-
-### 前処理ステージについて {#about-pre-processing-stages}
-
-Adobe Campaign では、圧縮されたファイルや暗号化されたファイルをインポートできます。「[データ読み込み（ファイル）](../../workflow/using/data-loading--file-.md)」アクティビティで読み取る前にファイルを解凍または復号化する前処理を定義できます。
-
-手順は以下のとおりです。
-
-1. [Campaign コントロールパネル](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)を使用して、公開鍵と秘密鍵のペアを生成します。
-
-   >[!NOTE]
-   >
-   >Campaign コントロールパネルは、AWS でホストされるすべてのお客様が利用できます（自分のマーケティングインスタンスをオンプレミスでホストするお客様を除く）。
-
-1. インストールした Adobe Campaign がアドビによってホストされている場合：必要なユーティリティをサーバーにインストールするようカスタマーサポートに依頼します。
-1. Adobe Campaign のインストールがオンプレミスの場合：使用するユーティリティ（例：GPG、GZIP）およびアプリケーションサーバー上の必要なキー（暗号化キー）をインストールします。
-
-次に、目的の前処理コマンドをワークフローで使用します。
-
-1. ワークフローに「**[!UICONTROL ファイル転送]**」アクティビティを追加して設定します。
-1. 「**[!UICONTROL データ読み込み（ファイル）]**」アクティビティを追加し、ファイルのフォーマットを定義します。
-1. 「**[!UICONTROL ファイルを前処理]**」オプションをオンにします。
-1. 適用する前処理コマンドを指定します。
-1. ファイルから取得したデータを管理するために必要なその他のアクティビティを追加します。
-1. 保存して、ワークフローを実行します。
-
-例として、次のユースケースを示します。
-
-**関連トピック：**
-
-* [データの読み込み（ファイル）アクティビティ](../../workflow/using/data-loading--file-.md).
-* [ファイルの圧縮または暗号化](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
-
-### ユースケース：コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート {#use-case-gpg-decrypt}
-
-このユースケースでは、外部システムで暗号化されたデータを Campaign コントロールパネルで生成された鍵を使用してインポートするためのワークフローを作成します。
-
-GPG キーを使用してデータを復号化する方法を示すチュートリアルビデオについては、[こちら](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html)を参照してください。
-
-このユースケースを実行する手順は次のとおりです。
-
-1. Campaign コントロールパネルを使用して、キーペア（公開鍵と秘密鍵）を生成します。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)を参照してください。
-
-   * 公開鍵は外部システムと共有され、外部システムはこのキーを使用して Campaign に送信するデータを暗号化します。
-   * 秘密鍵は、受信する暗号化されたデータを復号化するために Campaign Classic で使用されます。
-
-   ![](assets/gpg_generate.png)
-
-1. 外部システムでは、Campaign コントロールパネルからダウンロードした公開鍵を使用して、Campaign Classic にインポートするデータを暗号化します。
-
-   ![](assets/gpg_external.png)
-
-1. Campaign Classic で、暗号化されたデータをインポートするワークフローを作成し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用して復号化します。これをおこなうには、次のようにワークフローを作成します。
-
-   ![](assets/gpg_workflow.png)
-
-   * **[!UICONTROL ファイル転送]**&#x200B;アクティビティ：ファイルを外部ソースから Campaign Classic に転送します。この例では、SFTP サーバーからファイルを転送します。
-   * **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティ：ファイルからデータベースにデータを読み込み、Campaign コントロールパネルで生成された秘密鍵を使用して復号化します。
-
-1. **[!UICONTROL ファイル転送]**&#x200B;アクティビティを開き、暗号化された .gpg ファイルのインポート元の外部アカウントを指定します。
-
-   ![](assets/gpg_transfer.png)
-
-   アクティビティの設定方法に関するグローバルな概念については、[こちら](../../workflow/using/file-transfer.md)を参照してください。
-
-1. **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関するグローバルな概念については、[こちら](../../workflow/using/data-loading--file-.md)を参照してください。
-
-   受信データを復号化するために、アクティビティに前処理ステージを追加します。それには、「**[!UICONTROL ファイルを前処理]**」オプションを選択したあと、この復号化コマンドを「**[!UICONTROL コマンド]**」フィールドにコピー＆ペーストします。
-
-   `gpg --batch --passphrase passphrase --decrypt <%=vars.filename%>`
-
-   ![](assets/gpg_load.png)
-
-   >[!CAUTION]
-   >
-   >この例では、Campaign コントロールパネルでデフォルトで使用されるパスフレーズ（「passphrase」）を使用しています。
-   >
-   >カスタマーサポートへの依頼を通じて GPG キーがインスタンスに既にインストールされている場合は、そのパスフレーズが変更され、デフォルトとは異なるものになっている可能性があります。
-
-1. 「**[!UICONTROL OK]**」をクリックして、アクティビティの設定を確定します。
-
-1. これで、ワークフローを開始できます。ワークフローを実行したら、復号化が実行されたことと、ファイルのデータがインポートされたことをワークフローログで確認できます。
-
-   ![](assets/gpg_run.png)
 
 ## データをインポートする際のベストプラクティス {#best-practices-when-importing-data}
 
@@ -216,7 +131,7 @@ Adobe Campaign データベースのデータの一貫性を維持するには�
 
 * データをインポートする際には、**重複排除**&#x200B;し、紐付けし、一貫性を維持します。
 
-## 繰り返し発生するインポートの設定 {#setting-up-a-recurring-import}
+## 使用例：定期インポートの設定 {#setting-up-a-recurring-import}
 
 同じ構造のファイルを頻繁にインポートする必要がある場合、インポートテンプレートを使用することをお勧めします。
 
@@ -311,3 +226,87 @@ Adobe Campaign データベースのデータの一貫性を維持するには�
 
 ![](assets/import_template_example9.png)
 
+## 処理前のファイルの解凍または復号化 {#unzipping-or-decrypting-a-file-before-processing}
+
+### 前処理ステージについて {#about-pre-processing-stages}
+
+Adobe Campaign では、圧縮されたファイルや暗号化されたファイルをインポートできます。「[データ読み込み（ファイル）](../../workflow/using/data-loading--file-.md)」アクティビティで読み取る前にファイルを解凍または復号化する前処理を定義できます。
+
+手順は以下のとおりです。
+
+1. [Campaign コントロールパネル](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)を使用して、公開鍵と秘密鍵のペアを生成します。
+
+   >[!NOTE]
+   >
+   >Campaign コントロールパネルは、AWS でホストされるすべてのお客様が利用できます（自分のマーケティングインスタンスをオンプレミスでホストするお客様を除く）。
+
+1. インストールした Adobe Campaign がアドビによってホストされている場合：必要なユーティリティをサーバーにインストールするようカスタマーサポートに依頼します。
+1. Adobe Campaign のインストールがオンプレミスの場合：使用するユーティリティ（例：GPG、GZIP）およびアプリケーションサーバー上の必要なキー（暗号化キー）をインストールします。
+
+次に、目的の前処理コマンドをワークフローで使用します。
+
+1. ワークフローに「**[!UICONTROL ファイル転送]**」アクティビティを追加して設定します。
+1. 「**[!UICONTROL データ読み込み（ファイル）]**」アクティビティを追加し、ファイルのフォーマットを定義します。
+1. 「**[!UICONTROL ファイルを前処理]**」オプションをオンにします。
+1. 適用する前処理コマンドを指定します。
+1. ファイルから取得したデータを管理するために必要なその他のアクティビティを追加します。
+1. 保存して、ワークフローを実行します。
+
+例として、次のユースケースを示します。
+
+**関連トピック：**
+
+* [データの読み込み（ファイル）アクティビティ](../../workflow/using/data-loading--file-.md).
+* [ファイルの圧縮または暗号化](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+
+### ユースケース：コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート {#use-case-gpg-decrypt}
+
+このユースケースでは、外部システムで暗号化されたデータを Campaign コントロールパネルで生成された鍵を使用してインポートするためのワークフローを作成します。
+
+GPG キーを使用してデータを復号化する方法を示すチュートリアルビデオについては、[こちら](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html)を参照してください。
+
+このユースケースを実行する手順は次のとおりです。
+
+1. Campaign コントロールパネルを使用して、キーペア（公開鍵と秘密鍵）を生成します。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)を参照してください。
+
+   * 公開鍵は外部システムと共有され、外部システムはこのキーを使用して Campaign に送信するデータを暗号化します。
+   * 秘密鍵は、受信する暗号化されたデータを復号化するために Campaign Classic で使用されます。
+
+   ![](assets/gpg_generate.png)
+
+1. 外部システムでは、Campaign コントロールパネルからダウンロードした公開鍵を使用して、Campaign Classic にインポートするデータを暗号化します。
+
+   ![](assets/gpg_external.png)
+
+1. Campaign Classic で、暗号化されたデータをインポートするワークフローを作成し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用して復号化します。これをおこなうには、次のようにワークフローを作成します。
+
+   ![](assets/gpg_workflow.png)
+
+   * **[!UICONTROL ファイル転送]**&#x200B;アクティビティ：ファイルを外部ソースから Campaign Classic に転送します。この例では、SFTP サーバーからファイルを転送します。
+   * **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティ：ファイルからデータベースにデータを読み込み、Campaign コントロールパネルで生成された秘密鍵を使用して復号化します。
+
+1. **[!UICONTROL ファイル転送]**&#x200B;アクティビティを開き、暗号化された .gpg ファイルのインポート元の外部アカウントを指定します。
+
+   ![](assets/gpg_transfer.png)
+
+   アクティビティの設定方法に関するグローバルな概念については、[こちら](../../workflow/using/file-transfer.md)を参照してください。
+
+1. **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関するグローバルな概念については、[こちら](../../workflow/using/data-loading--file-.md)を参照してください。
+
+   受信データを復号化するために、アクティビティに前処理ステージを追加します。それには、「**[!UICONTROL ファイルを前処理]**」オプションを選択したあと、この復号化コマンドを「**[!UICONTROL コマンド]**」フィールドにコピー＆ペーストします。
+
+   `gpg --batch --passphrase passphrase --decrypt <%=vars.filename%>`
+
+   ![](assets/gpg_load.png)
+
+   >[!CAUTION]
+   >
+   >この例では、Campaign コントロールパネルでデフォルトで使用されるパスフレーズ（「passphrase」）を使用しています。
+   >
+   >カスタマーサポートへの依頼を通じて GPG キーがインスタンスに既にインストールされている場合は、そのパスフレーズが変更され、デフォルトとは異なるものになっている可能性があります。
+
+1. 「**[!UICONTROL OK]**」をクリックして、アクティビティの設定を確定します。
+
+1. これで、ワークフローを開始できます。ワークフローを実行したら、復号化が実行されたことと、ファイルのデータがインポートされたことをワークフローログで確認できます。
+
+   ![](assets/gpg_run.png)

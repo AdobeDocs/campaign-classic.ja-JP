@@ -14,8 +14,11 @@ discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 9a8c3586482d05648de3bdecfdfabcc094c70dbf
+workflow-type: tm+mt
+source-wordcount: '760'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
 
 リストは、配信アクションのターゲットにしたり、インポート操作時やワークフロー実行時に更新したりできるプロファイルの静的なセットです。例えば、クエリによってデータベースから抽出した母集団からリストを作成できます。
 
-これらのリストを対象とした配信（E メール、SMS、またはその他のチャネルによる）を、許可型マーケティングの方針に従って設定できます。
+
 
 リストの作成と管理は、「**[!UICONTROL プロファイルとターゲット]**」タブの&#x200B;**[!UICONTROL リスト]**&#x200B;リンクを使用して実行します。
 

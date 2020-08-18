@@ -1,8 +1,6 @@
 ---
-title: SFTP サーバーの使用
-seo-title: SFTP サーバーの使用
-description: SFTP サーバーの使用
-seo-description: null
+title: SFTPサーバーのベストプラクティスとトラブルシューティング
+description: SFTPサーバーのベストプラクティスとトラブルシューティングの詳細を参照してください。
 page-status-flag: never-activated
 uuid: 5281058d-91bd-4f98-835d-1d46dc7b8b1f
 contentOwner: sauviat
@@ -15,15 +13,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
+source-git-commit: ee4addc88c6169603122259437d5cb0362851aa6
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 91%
+source-wordcount: '1014'
+ht-degree: 64%
 
 ---
 
 
-# SFTP サーバーの使用{#sftp-server-usage}
+# SFTPサーバーのベストプラクティスとトラブルシューティング {#sftp-server-usage}
 
 ## SFTP サーバーのベストプラクティス {#sftp-server-best-practices}
 
@@ -56,7 +54,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 >
 >独自の SFTP サーバーを使用する場合は、上記の推奨事項にできるだけ従ってください。
 
-## SFTP サーバーのトラブルシューティング {#sftp-server-troubleshooting}
+## AdobeがホストするSFTPサーバーとの接続の問題 {#sftp-server-troubleshooting}
 
 以下の節では、アドビがホストする SFTP サーバーとの接続で問題が発生した場合の確認事項および[サポートチケット](https://support.neolane.net)を介してアドビサポートに提供する情報を示します。
 
@@ -92,8 +90,54 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 
    ポートが開いていない場合は、接続元でアウトバウンド接続を開いてから、もう一度やり直してください。接続の問題が解消されない場合は、コマンドの出力をアドビサポートチームに連絡してください。
 
-1. SFTP接続を開始しようとしているパブリックIPが、許可リストのアドビサポートに提供したIPであることを確認します。
+1. SFTP接続を開始しようとしているパブリックIPが、許可リストのAdobeサポートに提供したIPであることを確認します。
 1. パスワードベースの認証を使用している場合は、パスワードの有効期限が切れている可能性があります（パスワードの有効期間は 90 日間です）。そのため、キーベースの認証を使用することを強くお勧めします（[SFTP サーバーのベストプラクティス](#sftp-server-best-practices)を参照）。
 1. キーベースの認証を使用している場合は、使用しているキーがインスタンス設定のためにアドビサポートチームに提供したものと同じであることを確認します。
 1. FileZilla または同等の FTP ツールを使用している場合は、サポートチケットで接続ログの詳細を提供してください。
 
+## 「ホスト名を解決できませんでした」エラーが発生しました。cURLのアップロードエラー
+
+このセクションでは、「ホスト名を解決できませんでした」を取得する際に実行する確認と操作に関する情報を提供します。 campaign classicからFTPサーバーに接続した後にエラーが発生しました。
+
+ワークフロージャーナルには、次のログが表示されます。
+
+```
+16/05/2016 12:49:03    fileTransfer    Upload error in cURL
+16/05/2016 12:49:03    fileTransfer    Couldn't resolve host name
+16/05/2016 12:49:03    fileTransfer    Couldn't resolve host name
+16/05/2016 12:49:03    fileTransfer    Starting transfer of '/usr/local/neolane/nl6/var/williamreed/export/Recipients' to 'ftp://213.253.61.250/Recipients'
+16/05/2016 12:49:03    fileTransfer    1 file(s) to transfer
+```
+
+このエラーは、ワークフローからFTPサーバーに接続しようとし、サーバーからファイルをダウンロードしようとしたときに発生します。一方、FileZillaまたはWinSCPを使用してFTP経由で接続できる場合も発生します。
+
+このエラーは、FTPサーバーのドメイン名が正しく解決されなかったことを示します。 トラブルシューティングを行うには、次の手順を実行します。
+
+1. Troubleshoot **DNS server configuration**:
+
+   1. サーバー名がローカルDNSサーバーに追加されているかどうかを確認します。
+   1. 「はい」の場合、Adobe Campaignサーバーで次のコマンドを実行してIPアドレスを取得します。
+
+   `nslookup <server domain name>`
+
+   これにより、FTPサーバーが動作中で、Adobe Campaignアプリケーションサーバーから到達可能であることが確認されます。
+
+1. トラブルシュ **ーティングセッションログ**:
+
+   1. ワークフローで、 [ファイル転送](../../workflow/using/file-transfer.md) アクティビティを重複クリックします。
+   1. [ **[!UICONTROL ファイル転送]** ]タブに移動し、[ **[!UICONTROL 詳細パラメータ]**]をクリックします。
+   1. [セッションログを **[!UICONTROL 表示する]** ]オプションをオンにします。
+
+   ![](assets/sftp-error-display-logs.png)
+
+   1. 「監査」ワークフローに移動し、ログに「ホスト名を解決できませんでした」というエラーが表示されるかどうかを確認します。
+
+   SFTPサーバーがAdobeでホストされている場合は、カスタマーケアに問い合わせて、IPが許可リストに追加されているかどうかを確認します。
+
+   それ以外の場合は検証：
+
+   * パスワードに&#39;@&#39;が含まれていません。 パスワードに「@」が含まれている場合、接続に失敗しました。
+   * Adobe CampaignアプリケーションサーバーとSFTPサーバー間の通信を妨げる可能性のあるファイアウォールの問題はありません。
+   * キャンペーンサーバからSFTPに対してtracertおよびtelnetコマンドを実行し、接続に問題があるかどうかを確認します。
+   * 通信プロトコルの問題はありません。
+   * ポートが開いています。

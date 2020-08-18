@@ -15,17 +15,17 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
+source-git-commit: 890950463146fe0863d2809759eb142cb4bb1fff
 workflow-type: tm+mt
-source-wordcount: '3906'
-ht-degree: 25%
+source-wordcount: '3930'
+ht-degree: 24%
 
 ---
 
 
 # Campaign Classic のオプションのリスト{#configuring-campaign-options}
 
-「 **[!UICONTROL 管理/Platform/オプション]** 」ノードでは、Adobe Campaignオプションを設定できます。
+「 **[!UICONTROL 管理/プラットフォーム/オプション]** 」ノードを使用すると、Adobe Campaignオプションを設定できます。
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ ht-degree: 25%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> 特定の演算子またはオペレーターのグループが配信のプロパティで配信を開始するように指定されている場合に、配信の担当者が送信を確認できるようにします。</p><p> これを行うには、値として「1」を入力して、オプションをアクティブにします。 このオプションを非アクティブにするには、"0"と入力します。</p><p> すると、送信確認プロセスがデフォルトとして機能します。つまり、配信プロパティで送信用に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが、送信を確認し、実行できるようになります。<a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">この節</a>を参照してください。</p> </td> 
+   <td><p> 特定の演算子またはオペレーターのグループが配信のプロパティで配信を開始するように指定されている場合に、配信の担当者が送信を確認できるようにします。</p><p> これを行うには、値として「1」を入力して、オプションをアクティブにします。 このオプションを非アクティブにするには、"0"と入力します。</p><p> すると、送信確認プロセスがデフォルトとして機能します。つまり、配信プロパティで送信用に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが、送信を確認し、実行できるようになります。<a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">こちらの節</a>を参照してください。</p> </td> 
    <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
    <td> Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者受信者(nms:database)との対話を行います。<br /> option値は、外部受信者テーブルと一致するスキーマの名前に対応する必要があります。<br /> </td> 
@@ -82,7 +82,7 @@ ht-degree: 25%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MaxDelayPerTransac</span> <br /> </td> 
-   <td> トランザクションごとのログ(broadLogs)の挿入（テーブルに挿入）: バッチあたりに処理する行数。<br /> </td> 
+   <td> トランザクションごとのログ(broadLogs)の挿入（テーブルに挿入）:バッチあたりに処理する行数。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MidAnalyzeBatchSize</span> <br /> </td> 
@@ -186,19 +186,19 @@ ht-degree: 25%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_EmailMaxError</span> <br /> </td> 
-   <td> チャネル「email」（デフォルトとして使用）: 受信者を強制隔離にする前に、送信中にSOFTエラーが発生した場合に受け入れられるエラーの最大数です。<br /> </td> 
+   <td> チャネル「email」（デフォルトとして使用）:受信者を強制隔離にする前に、送信中にSOFTエラーが発生した場合に受け入れられるエラーの最大数です。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_EmailSignificantErrorDelay</span> <br /> </td> 
-   <td> チャネル「email」（デフォルトとして使用）: 新しいSOFTエラーを考慮する前に、前回参照したSOFTエラー以降に費やした最小期間。<br /> </td> 
+   <td> チャネル「email」（デフォルトとして使用）:新しいSOFTエラーを考慮する前に、前回参照したSOFTエラー以降に費やした最小期間。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_MobileMaxError</span> <br /> </td> 
-   <td> チャネル「mobile」の場合： 受信者を強制隔離にする前に、送信中にSOFTエラーが発生した場合に受け入れられるエラーの最大数です。<br /> </td> 
+   <td> チャネル「mobile」の場合：受信者を強制隔離にする前に、送信中にSOFTエラーが発生した場合に受け入れられるエラーの最大数です。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_MobileSignificantErrorDelay</span> <br /> </td> 
-   <td> チャネル「mobile」の場合： 新しいSOFTエラーを考慮する前に、前回参照したSOFTエラー以降に費やした最小期間。<br /> </td> 
+   <td> チャネル「mobile」の場合：新しいSOFTエラーを考慮する前に、前回参照したSOFTエラー以降に費やした最小期間。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
@@ -242,7 +242,7 @@ ht-degree: 25%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
-   <td> 送信されたSMSメッセージのパラメータ： メッセージの優先度を示すためにSMSゲートウェイに送信される情報。<br /> </td> 
+   <td> 送信されたSMSメッセージのパラメータ：メッセージの優先度を示すためにSMSゲートウェイに送信される情報。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_RetryCount</span> <br /> </td> 
@@ -293,11 +293,11 @@ ht-degree: 25%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NcmResourcesDir</span> <br /> </td> 
-   <td> Adobe Campaignクライアントコンソールでのパブリケーションに関するリソースの場所。 <a href="../../delivery/using/formatting.md#image-referencing">この節</a>を参照してください。<br /> </td> 
+   <td> Adobe Campaignクライアントコンソールでのパブリケーションに関するリソースの場所。 <a href="../../delivery/using/formatting.md#image-referencing">こちらの節</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmResourcesDirPreview</span> <br /> </td> 
-   <td> Adobe Campaignクライアントコンソールでプレビューするリソースの場所。 <a href="../../delivery/using/formatting.md#image-referencing">この節</a>を参照してください。<br /> </td> 
+   <td> Adobe Campaignクライアントコンソールでプレビューするリソースの場所。 <a href="../../delivery/using/formatting.md#image-referencing">こちらの節</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_DefaultIgnoredImage</span> <br /> </td> 
@@ -411,7 +411,7 @@ ht-degree: 25%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
-   <td> (互換モードのインストール： build&gt;6000)アクティブ化された場合（値"1"）、このオプションを使用すると、データベースに格納されている古いパスワードを、外部アカウントまたはインスタンスへの接続に使用できます。<br /> </td> 
+   <td> (互換モードのインストール：build&gt;6000)アクティブ化された場合（値"1"）、このオプションを使用すると、データベースに格納されている古いパスワードを、外部アカウントまたはインスタンスへの接続に使用できます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
@@ -456,10 +456,10 @@ ht-degree: 25%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">MC_EnlictionCustomJs</span> <br /> </td> 
-   <td> イベントを豊かにするためにパーソナライズするJavaScriptライブラリ。 次の2つの関数の実装が含まれている必要があります。<br /> 
+   <td> イベントを豊かにするためにパーソナライズするJavaScriptライブラリ。次の2つの関数の実装が含まれている必要があります。<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">enrichRtEvents(aiEventId);</span> : データベース内のイベントを富化し、保存します( <span class="uicontrol">aiEventId</span> は、処理されたリアルタイムイベントの表に対応します)。</p> </li> 
-     <li> <p> <span class="uicontrol">enrichBatchEvents(aiEventId);</span> : データベース内のイベントを富化し、保存します( <span class="uicontrol">aiEventId</span> は、処理されたバッチイベントのIDテーブルに対応します)。</p> </li> 
+     <li> <p> <span class="uicontrol">enrichRtEvents(aiEventId);</span> :データベース内のイベントを富化し、保存します( <span class="uicontrol">aiEventId</span> は、処理されたリアルタイムイベントの表に対応します)。</p> </li> 
+     <li> <p> <span class="uicontrol">enrichBatchEvents(aiEventId);</span> :データベース内のイベントを富化し、保存します( <span class="uicontrol">aiEventId</span> は、処理されたバッチイベントのIDテーブルに対応します)。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -468,10 +468,10 @@ ht-degree: 25%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RoutingCustomJs</span> <br /> </td> 
-   <td> ルーティングイベントに合わせてパーソナライズするJavaScriptライブラリ。 次の2つの関数の実装が含まれている必要があります。<br /> 
+   <td> ルーティングイベントに合わせてパーソナライズするJavaScriptライブラリ。次の2つの関数の実装が含まれている必要があります。<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">dispatchRtEvent(iEventId);</span> : リアルタイムイベントを処理するために選択されたトランザクションメッセージの内部名を返します( <span class="uicontrol">iEventId</span> は、処理されたリアルタイムイベントのIDに対応します)。</p> </li> 
-     <li> <p> <span class="uicontrol">dispatchBatchEvent(iEventId);</span> : バッチイベントを処理するために選択されたトランザクションメッセージの内部名を返します( <span class="uicontrol">iEventId</span> は、処理されたバッチイベントのIDに対応します)。</p> </li> 
+     <li> <p> <span class="uicontrol">dispatchRtEvent(iEventId);</span> :リアルタイムイベントを処理するために選択されたトランザクションメッセージの内部名を返します( <span class="uicontrol">iEventId</span> は、処理されたリアルタイムイベントのIDに対応します)。</p> </li> 
+     <li> <p> <span class="uicontrol">dispatchBatchEvent(iEventId);</span> :バッチイベントを処理するために選択されたトランザクションメッセージの内部名を返します( <span class="uicontrol">iEventId</span> は、処理されたバッチイベントのIDに対応します)。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -631,29 +631,29 @@ ht-degree: 25%
    <tr> 
    <td> <span class="uicontrol">WdbcKillSessionPolicy</span> <br /> </td> 
    <td>以下の潜在的な値に従って、すべてのワークフローとPostgreSQLデータベースクエリに対する無条件停止動作に影響を与えます。<ul>
-    <li><p>0 — デフォルト： ワークフロープロセスを停止し、データベースに影響を与えない<p></li>
-    <li><p>1 - pg_cancel_backend: ワークフロープロセスを停止し、データベース内のクエリをキャンセル<p></li>
-    <li><p>2 - pg_terminate_backend: ワークフロープロセスを停止し、データベース内のクエリを終了します<p></li></ul></td> 
+    <li><p>0 — デフォルト：ワークフロープロセスを停止し、データベースに影響を与えない<p></li>
+    <li><p>1 - pg_cancel_backend:ワークフロープロセスを停止し、データベース内のクエリをキャンセル<p></li>
+    <li><p>2 - pg_terminate_backend:ワークフロープロセスを停止し、データベース内のクエリを終了します<p></li></ul></td> 
   </tr>  
-  <tr> 
-   <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
-   <td> Adobe Campaign の標準テーブルのインデックスを格納するためのテーブル領域の名前.<br /> </td> 
+    <tr> 
+   <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
+   <td> Adobe Campaign標準表のデータを格納する表領域の名前。<br />「データベースの <a href="../../installation/using/creating-and-configuring-the-database.md">作成と設定」を参照してください</a>。</td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Adobe Campaign の標準テーブルのデータを格納するためのテーブル領域の名前.<br /> </td> 
+   <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
+   <td> Adobe Campaign の標準テーブルのインデックスを格納するためのテーブル領域の名前.<br />「データベースの <a href="../../installation/using/creating-and-configuring-the-database.md">作成と設定」を参照してください</a>。</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWork</span> <br /> </td> 
-   <td> Adobe Campaign 作業用テーブルのデータを格納するテーブル領域の名前.<br /> </td> 
+   <td> Adobe Campaign 作業用テーブルのデータを格納するテーブル領域の名前.<br />「データベースの <a href="../../installation/using/creating-and-configuring-the-database.md">作成と設定」を参照してください</a>。</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWorkIndex</span> <br /> </td> 
-   <td> Adobe Campaign 作業用テーブルのインデックスを含むテーブル領域の名前.<br /> </td> 
+   <td> Adobe Campaign 作業用テーブルのインデックスを含むテーブル領域の名前.<br />「データベースの <a href="../../installation/using/creating-and-configuring-the-database.md">作成と設定」を参照してください</a>。</td> 
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> バックアップとレプリケーションを最適化するために、Microsoft SQL Serverで作業テーブル用に別々のデータベースを構成できます。 このオプションは、一時データベースの名前に対応します。 指定した場合、このデータベースに作業テーブルが書き込まれます。 例： 「tempdb.dbo」 （名前はドットで終わる必要があります）。</desc> <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">詳細を表示</a> <br /> </td> 
+   <td> バックアップとレプリケーションを最適化するために、Microsoft SQL Serverで作業テーブル用に別々のデータベースを構成できます。 このオプションは、一時データベースの名前に対応します。指定した場合、このデータベースに作業テーブルが書き込まれます。 例：「tempdb.dbo」 （名前はドットで終わる必要があります）。</desc> <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">詳細を表示</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
@@ -689,7 +689,7 @@ ht-degree: 25%
    <td> 移行中、ツリー構造は、新しいバージョン標準に基づいて自動的に再編成されます。<br /> このオプションを使用すると、ナビゲーションツリーの自動移行を無効にできます。 使用する場合は、移行後に古いフォルダーを削除する必要があります。新しいフォルダーを追加し、必要なチェックをすべて実行します。<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">データタイプ：</span> 整数</p> </li> 
-     <li> <p> <span class="uicontrol">値（テキスト）</span> : 1 </p> </li> 
+     <li> <p> <span class="uicontrol">値（テキスト）</span> :1 </p> </li> 
     </ul> このオプションは、標準搭載のナビゲーションツリーに加えられた変更が多すぎる場合にのみ使用してください。<br /> 詳しくは、 <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">この節を参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
@@ -698,7 +698,7 @@ ht-degree: 25%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">PostUpgradeLastError</span> <br /> </td> 
-   <td> 次の構文に従い、Postupgradeで発生したエラーに関する情報です。<br /> <strong>{ビルド番号}:{モード： pre/post/...}:{エラーが発生した'lessThan'/'greaterOrEquelThan'、エラー+サブステップ}</strong> </td> 
+   <td> 次の構文に従い、Postupgradeで発生したエラーに関する情報です。<br /><strong>{ビルド番号}:{モード：pre/post/...}:{エラーが発生した'lessThan'/'greaterOrEquelThan'、エラー+サブステップ}</strong> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkCleanup_NoStats</span> <br /> </td> 
@@ -719,18 +719,18 @@ ht-degree: 25%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">AEMResourceTypeFilter</span> <br /> </td> 
-   <td> Adobe Campaignで使用できるAEMリソースのタイプ。 値はコンマで区切る必要があります。<br /> </td> 
+   <td> Adobe Campaignで使用できるAEMリソースの種類です。 値はコンマで区切る必要があります。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Experience Cloudトリガーを設定できます。 データタイプは「long text」で、JSON形式である必要があります。 詳し <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">くは、Adobe CampaignクラシックでのExperience Cloudトリガーの使用方法を参照してください</a>。<br /> </td> 
+   <td> Experience Cloudトリガーを設定できます。 データタイプは「long text」で、JSON形式である必要があります。 「Adobe Campaign ClassicでExperience Cloudトリガーを使用する <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">方法</a>」を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
    <td> このオプションは、CRMコネクタを介してサードパーティ製システムからデータを読み込む場合に使用します。 このオプションを有効にすると、前回の読み込み以降に変更されたオブジェクトのみを収集できます。 このオプションは、次のように手動で作成し、設定する必要があります。 
     <ul> 
-     <li> <p> <span class="uicontrol">内部名</span> : LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
-     <li> <p> <span class="uicontrol">値（フィールド）</span> : 最後にインポートした日付。形式yyyy/MM/dd hh:mm:ss。 </p> </li> 
+     <li> <p> <span class="uicontrol">内部名</span> :LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
+     <li> <p> <span class="uicontrol">値（フィールド）</span> :最後にインポートした日付。形式yyyy/MM/dd hh:mm:ss。 </p> </li> 
     </ul><br /> </td> 
   </tr> 
   <tr> 

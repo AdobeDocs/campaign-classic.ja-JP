@@ -15,10 +15,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: ea248639e9730c6bdd1090098866a094b80daebb
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign の使用を開始する際は、アドビの詳細でわかり�
 * [E メールへの動的なコンテンツの統合](https://docs.adobe.com/content/help/en/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html)：Campaign Classic と Target Standard の統合を開始するための基礎について説明します。
 * [配信品質の管理](../../delivery/using/deliverability-key-points.md)：配信品質に関する概念とベストプラクティス、配信の送信を最適化するために Adobe Campaign Classic で提供されるツールについて説明します。
 * [配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)：Adobe Campaign Classic での配信のデザインと送信に関するベストプラクティスについて学習します。
-* [ビルドを実行しますupgradehttps://helpx.adobe.com/campaign/kb/acc-build-upgrade.html]:このガイドでは、Campaign Classicを使用してビルドのアップグレードを実行するための主な手順とベストプラクティスを示します。
+* [ビルドのアップグレードの実行](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)：このガイドでは、Campaign Classic でビルドのアップグレードを実行する際の主な手順とベストプラクティスを紹介します。
 * [セキュリティ設定チェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)：オンプレミスデプロイメントのためのセキュリティ設定と強化に関して確認すべき重要な要素について説明します。
 
 Adobe Campaign について詳しくは、以下の使用例と例を確認してください。

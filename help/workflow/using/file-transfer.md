@@ -12,8 +12,11 @@ discoiquuid: d8b49f68-c783-43fc-9907-e8480ecd28c2
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
+translation-type: tm+mt
+source-git-commit: ee4addc88c6169603122259437d5cb0362851aa6
+workflow-type: tm+mt
+source-wordcount: '621'
+ht-degree: 100%
 
 ---
 
@@ -21,6 +24,10 @@ source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
 # ファイル転送{#file-transfer}
 
 「**ファイル転送**」アクティビティで、ファイルの送受信、サーバー上のファイルの有無の確認、ファイルのリスト作成ができます。使用されるプロトコルは、Amazon Simple Storage Service（S3）、FTP または SFTP のいずれかです。S3 または SFTP 接続を使用すると、アドビのリアルタイムカスタマーデータプラットフォーム（CDP）でセグメントデータを Adobe Campaign にインポートすることもできます。詳しくは、この[ドキュメント](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html)を参照してください。
+
+>[!NOTE]
+>
+>SFTP サーバー使用のベストプラクティスおよびトラブルシューティングについて詳しくは、[このページ](../../platform/using/sftp-server-usage.md)を参照してください。
 
 ## プロパティ {#properties}
 
@@ -106,4 +113,3 @@ source-git-commit: 2e16d4de068f8cb1e61069aa53626f7bf7021466
 * filename
 
    「**[!UICONTROL 前のアクティビティで生成されたファイルを使用]**」オプションを選択している場合は、受信したファイルの名前をを入力します。
-

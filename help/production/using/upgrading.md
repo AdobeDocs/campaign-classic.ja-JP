@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 5598682078a8fd3c8d9ecdca083f3a310c48f5f0
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1147'
 ht-degree: 14%
 
 ---
@@ -257,7 +257,7 @@ Adobe Campaignの両方の更新されたパッケージを回復することに
 
 On the machine where the (**nlserver web**) Adobe Campaign application server is installed, download and copy the file
 
-**setup-client-6。** XXXX **.exe**
+**setup-client-6.XXXX.exe**
 
 **アプリケーションの[パス]**datakitnlengjsp内
 
@@ -271,7 +271,7 @@ On the machine where the (**nlserver web**) Adobe Campaign application server is
 
 Adobe Campaignアプリケーションサーバー(**nlserver web**)がインストールされているマシン上で、次のパッケージを取得します。
 
-**setup-client-6。** XXXX **.exe**
+**setup-client-6.XXXX.exe**
 
 をコピーし、 **/usr/local/neolane/nl6/datakit/nl/eng/jsp**:
 

@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 653f630079277ffb75915206c445e9414cfcdd7c
+source-git-commit: 890950463146fe0863d2809759eb142cb4bb1fff
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 1%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 1%
 
 データベースを作成する場合、Adobe Campaignには次の2つの異なるオプションが用意されています。
 
-1. データベースの作成またはリサイクル： 新しいデータベースを作成する場合、または既存のデータベースを再使用する場合は、このオプションを選択します。 詳しくは、 [ケース1を参照してください。 データベースの作成/リサイクル](#case-1--creating-recycling-a-database)。
-1. 既存のデータベースの使用： 管理者が空のデータベースを既に作成済みで、それを使用する場合は、このオプションを選択します。 または既存のデータベースの構造を拡張する場合。 詳しくは、 [ケース2を参照してください。 既存のデータベースを使用する](#case-2--using-an-existing-database)。
+1. データベースの作成またはリサイクル：新しいデータベースを作成する場合、または既存のデータベースを再使用する場合は、このオプションを選択します。 詳しくは、 [ケース1を参照してください。データベースの作成/リサイクル](#case-1--creating-recycling-a-database)。
+1. 既存のデータベースの使用：管理者が空のデータベースを既に作成済みで、それを使用する場合は、このオプションを選択します。または既存のデータベースの構造を拡張する場合。 詳しくは、 [ケース2を参照してください。既存のデータベースを使用する](#case-2--using-an-existing-database)。
 
 設定手順の詳細は以下のとおりです。
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 >
 >これらの操作を実行できるのは **内部** IDのみです。 For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
 
-## ケース1: データベースの作成/リサイクル {#case-1--creating-recycling-a-database}
+## ケース1:データベースの作成/リサイクル {#case-1--creating-recycling-a-database}
 
 データベースを作成する手順、または既存のベースを再利用する手順を以下に示します。 設定によっては、使用するデータベースエンジンに依存するものもあります。
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 * PostgreSQL **または** DB2 **** エンジンの場合は、データベースサーバーにアクセスするために、アプリケーションサーバーで定義されているDNS名（またはIPアドレス）を指定する必要があります。
 * **Microsoft SQL Server** Engineの場合は、次を定義する必要があります。
 
-   1. データベースサーバーにアクセスするためにアプリケーションサーバーで定義されているDNS名（またはIPアドレス）。 **DNS** または **DNS\ `<instance>`**（インスタンスモード）、
+   1. データベースサーバーにアクセスするためにアプリケーションサーバーで定義されているDNS名（またはIPアドレス）。 **DNS** または **DNS\`<instance>`** （インスタンスモード）、
    1. Microsoft SQL Serverへのアクセスに使用する認証方法： **[!UICONTROL SQL Server認証]** 、 **[!UICONTROL Windows NT認証]**。
 
       ![](assets/s_ncs_install_db_mssql_creation01.png)
@@ -132,12 +132,12 @@ ht-degree: 1%
 
 * Oracle、Microsoft SQL Server、またはPostgreSQLデータベースの場合、管理者は、データベースオブジェクトの作成時に使用する **ストレージパラメータ** を定義することもできます。
 
-   これらのパラメータは、正確な表領域名を受け取ります(警告： 大文字と小文字が区別されます)。 これらは、それぞれ、次のオプションの **[!UICONTROL 管理/プラットフォーム/オプション]** ノードに保存されます。
+   これらのパラメータは、正確な表領域名を受け取ります(警告：大文字と小文字が区別されます)。 これらは、それぞれ **[!UICONTROL 管理/プラットフォーム/オプション]** ノードの次のオプションに保存されます(「 [](../../installation/using/configuring-campaign-options.md#database)」を参照)。
 
-   * **WdbcOptions_TableSpaceUser**: スキーマに基づくユーザーテーブル
-   * **WdbcOptions_TableSpaceIndex**: スキーマに基づくユーザーテーブルのインデックス
-   * **WdbcOptions_TableSpaceWork**: スキーマのない作業テーブル
-   * **WdbcOptions_TableSpaceWorkIndex**: スキーマのない作業テーブルのインデックス
+   * **WdbcOptions_TableSpaceUser**:スキーマに基づくユーザーテーブル
+   * **WdbcOptions_TableSpaceIndex**:スキーマに基づくユーザーテーブルのインデックス
+   * **WdbcOptions_TableSpaceWork**:スキーマのない作業テーブル
+   * **WdbcOptions_TableSpaceWorkIndex**:スキーマのない作業テーブルのインデックス
 
 * Oracleデータベースの場合、Adobe Campaign・ユーザーは、通常、Oracleライブラリにアクセスできる必要があります。このアクセス権は、 **oinstall** グループのメンバーです。
 * 「 **[!UICONTROL Set or change the administrator password]** 」オプションを使用すると、管理者権限を持つAdobe Campaign演算子にリンクされたパスワードを入力できます。
@@ -162,11 +162,11 @@ base61データベース上のMicrosoft SQL Server設定の例で、暗号化さ
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>
 ```
 
-## ケース2: 既存のデータベースの使用 {#case-2--using-an-existing-database}
+## ケース2:既存のデータベースの使用 {#case-2--using-an-existing-database}
 
 データベースおよびユーザーは、データベース管理者が作成したデータベースであり、アクセス権が正しく設定されている必要があります。
 
-たとえば、Oracleデータベースの場合、最小限必要な権限は次のとおりです。 接続、リソース、UNLIMITED TABLESPACEを付与します。
+たとえば、Oracleデータベースの場合、最小限必要な権限は次のとおりです。CONNECT、リソース、および無制限の表領域を付与します。
 
 既存のデータベースを使用する場合の設定手順は次のとおりです。
 

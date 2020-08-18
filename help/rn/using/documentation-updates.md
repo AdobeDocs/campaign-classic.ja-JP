@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
+source-git-commit: bc7ba0c26bd57a75c3dbeaec541844a3b1196ef3
 workflow-type: tm+mt
-source-wordcount: '7084'
-ht-degree: 98%
+source-wordcount: '7110'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 98%
 # ドキュメントのアップデート{#documentation-updates}
 
 このページには、毎月および Campaign の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
-
 
 その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
 
@@ -56,6 +55,7 @@ ht-degree: 98%
 
 * [連続配信の設定方法](../../workflow/using/continuous-delivery.md)
 
+FTPサーバーに接続した後に「ホスト名を解決できませんでした」というエラーが発生した場合に実行するチェックと操作に関する情報が追加されました。 [詳細を表示](../../platform/using/sftp-server-usage.md)
 
 ## 2020 年 7 月 {#july-2020}
 

@@ -14,8 +14,11 @@ discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 14e67ca7f57d39e6939d6ff3479aa897674b18dc
+translation-type: tm+mt
+source-git-commit: 11a6ddd275dc8482e82f163abc14cacaf0281dff
+workflow-type: tm+mt
+source-wordcount: '2240'
+ht-degree: 100%
 
 ---
 
@@ -207,8 +210,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
    >
    >「**検索**」フィールドを使用して、使用可能フィールドで検索を実行できます。詳しくは、[リストの並べ替え](#sorting-a-list)を参照してください。
    >
-   >フィールドは、SQL フィールド、リンクテーブル、集計フィールドなどの特定のアイコンで識別されます。選択した各フィールドの説明が、使用可能フィールドのリストの下に表示されます。
-   [リストの設定](#configuring-lists).
+   >フィールドは、SQL フィールド、リンクテーブル、集計フィールドなどの特定のアイコンで識別されます。選択した各フィールドの説明が、使用可能フィールドのリストの下に表示されます。[リストの設定](#configuring-lists).
    >
    >データを並べ替えたりフィルターしたりすることもできます。詳しくは、[フィルターオプション](../../platform/using/filtering-options.md)を参照してください。
 

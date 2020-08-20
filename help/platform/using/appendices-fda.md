@@ -14,10 +14,10 @@ discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e7cf3b189f328cd1ea6ca8b67a3fc4c0c0bddd84
-workflow-type: ht
-source-wordcount: '1417'
+translation-type: tm+mt
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
+workflow-type: tm+mt
+source-wordcount: '1416'
 ht-degree: 100%
 
 ---
@@ -190,7 +190,7 @@ ODBC ドライバーをインストールするには、以下を実行します
 
 Adobe Campaign サーバーの環境変数の詳細については、この[節](../../platform/using/legacy-connectors.md#configure-access-to-teradata)を参照してください。
 
-### Windows の Campaign サーバーの設定 #campaign-server-windows}
+### Windows の Campaign サーバーの設定 {#campaign-server-windows}
 
 最初に、Windows 用の Teradata ツールとユーティリティをダウンロードする必要があります。この[ページ](https://downloads.teradata.com/download/tools/teradata-tools-and-utilities-windows-installation-package)からダウンロードできます。
 

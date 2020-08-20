@@ -14,8 +14,11 @@ discoiquuid: d678db05-cc44-4086-98a5-e5296e8e5de8
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7dbc876fae0bde78e3088ee1ab986cd09e9bcc38
+translation-type: tm+mt
+source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
+workflow-type: tm+mt
+source-wordcount: '1460'
+ht-degree: 99%
 
 ---
 
@@ -74,7 +77,7 @@ JavaScript テンプレートは、スキーマやフォームと同様に、名
 **例**：
 
 * **content.@name**：メイン要素の「name」属性の値を取得します。
-* **content.@`['name']`**：** content.@name **構文と同一です。
+* **content.@`['name']`**: **content.@name** 構文と同一です。
 * **content.chapter.length**：`<chapter` コレクション要素にある要素数を返します。
 * **content.chapter`[0]`.@name**：最初の `<chapter>` 要素の名前を取得します。
 * **chapter.name()**：`<chapter>` 要素の名前を返します。
@@ -477,7 +480,7 @@ XSLT 言語を使用して、XML ドキュメントを出力ドキュメント�
    <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
    ```
 
-* 条件付きテスト **&lt;% if (recipient.language == &#39;en&#39;) { %>** の追加：
+* Adding the conditional test **&lt;% if (recipient.language == &#39;en&#39;)`{`%>**:
 
    ```
    <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>

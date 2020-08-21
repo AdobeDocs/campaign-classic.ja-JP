@@ -12,10 +12,10 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6c3c2ad62778c4c4f874c5b34c014529ce3e7185
-workflow-type: ht
-source-wordcount: '1330'
+translation-type: tm+mt
+source-git-commit: e31efa347b42b4ccb532ca5f79e73745b5a7878b
+workflow-type: tm+mt
+source-wordcount: '1331'
 ht-degree: 100%
 
 ---
@@ -183,7 +183,7 @@ _2020 年 2 月 17 日_
 
 * FDA スキーマをターゲティングディメンションとして使用し、ワークフローの&#x200B;**データを更新**&#x200B;アクティビティで大量のデータを削除、挿入、または更新する際に発生していた問題を修正しました。（NEO-13280）
 
-* `body` タグの外で if 文を使用すると E メールが送信されない問題を修正しました。
+* `body` タグの外で if 文を使用すると E メールが送信されない問題を修正しました。（NEO-18628）
 
 * 送信されたメッセージの配信ログからミラーページを表示しようとした際に発生していた問題を修正しました。（NEO-17976）
 

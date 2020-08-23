@@ -15,9 +15,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 5a4ee9b14d4c77f74ff73209d4323bf4f1347155
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '653'
 ht-degree: 13%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 13%
 
    テクニカルワークフローの監視の詳細については、 [このページを参照してください](../../workflow/using/monitoring-technical-workflows.md)。
 
-   >[注意]
+   >[!NOTE]
    >
    >ワークフローを再起動したら、保留中のタスクを必ず実行し( **[!UICONTROL スケジューラー]** アクティビティを右クリックし、「保留中のタスクを **[!UICONTROL 実行」をクリックします]**)、いずれかのアクティビティで再び失敗したかどうかを確認します。
 
@@ -52,7 +52,7 @@ ht-degree: 13%
 
 1. Campaign Classicのホームページからアクセスできる「 **[!UICONTROL 監視]** 」タブで、 **[!UICONTROL wfserver]** moduleの状態を確認します( [監視プロセスを参照](../../production/using/monitoring-processes.md))。 このプロセスは、すべてのワークフローの実行を担当します。
 
-   管理者ユーザーは、次のコマンドを使用して、 **wfserver@`<instance>`**モジュールがメインアプリケーションサーバーで起動されているかどうかを確認することもできます。
+   管理者ユーザーは、次のコマンドを使用して、 **wfserver@`<instance>`** モジュールがメインアプリケーションサーバーで起動されているかどうかを確認することもできます。
 
    ```
    nlserver pdump
@@ -62,7 +62,7 @@ ht-degree: 13%
    [...]
    ```
 
-   モジュールが実行されていない場合は、アドビカスタマーケアにお問い合わせください。 オンプレミスインストールを使用する場合、管理者ユーザーは次のコマンドを使用してサービスを再起動する必要があります。
+   モジュールが実行されていない場合は、Adobeカスタマーケアにお問い合わせください。 オンプレミスインストールを使用する場合、管理者ユーザーは次のコマンドを使用してサービスを再起動する必要があります。
 
    ```
    nlserver start wfserver@<INSTANCENAME>
@@ -81,7 +81,7 @@ ht-degree: 13%
 
    インスタンスの実行中のワークフロー数を確認するには、あらかじめ定義された表示を使用することをお勧めします。このは、デフォルトでは **[!UICONTROL Administration]****[!UICONTROL /]** Auditフォルダーからアクセスできます。 詳しくは、[このページ](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)を参照してください。
 
-   >[注意]
+   >[!CAUTION]
    >
    >NmsOperation_LimitConcurrency **** Optionのしきい値を増やすと、インスタンスのパフォーマンスの問題を引き起こす可能性があります。 いずれにしても、これを自分で実行してAdobe Campaignの連絡先に連絡することは避けてください。
 
@@ -95,7 +95,7 @@ ht-degree: 13%
 
 1. Campaign Classicのホームページからアクセスできる「 **[!UICONTROL 監視]** 」タブで、 **[!UICONTROL wfserver]** moduleの状態を確認します( [監視プロセスを参照](../../production/using/monitoring-processes.md))。
 
-   管理者ユーザーは、次のコマンドを使用して、 **wfserver@`<instance>`**モジュールがメインアプリケーションサーバーで起動されているかどうかを確認することもできます。
+   管理者ユーザーは、次のコマンドを使用して、 **wfserver@`<instance>`** モジュールがメインアプリケーションサーバーで起動されているかどうかを確認することもできます。
 
    ```
    nlserver pdump
@@ -107,7 +107,7 @@ ht-degree: 13%
 
    For more on how to monitor modules, refer to [this section](../../production/using/usual-commands.md#monitoring-commands-).
 
-1. モジュールが実行されていない場合は、アドビカスタマーケアにお問い合わせください。 オンプレミスインストールをお持ちの場合は、次のコマンドを使用して管理者が再起動する必要があります。
+1. モジュールが実行されていない場合は、Adobeカスタマーケアにお問い合わせください。 オンプレミスインストールをお持ちの場合は、次のコマンドを使用して管理者が再起動する必要があります。
 
    ```
    nlserver start wfserver@<INSTANCENAME>

@@ -102,8 +102,9 @@ CRM ツールを Adobe Campaign と同期させる方法については、[CRM �
 
 1. ご使用のオペレーティングシステムのバージョンに応じて、次の場所に移動します。
 
-   * Windows 7：C:\Users\&lt;ユーザー名>\AppData\Roaming\Neolane\NL_5\
-   * Windows XP：C:\Documents and Settings\&lt;ユーザー名>\Application Data\Neolane\NL_5
+   * Windows 7：C:\Users\ &lt;ユーザー名> \AppData\Roaming\Neolane\NL_5\
+   * Windows XP：C:\Documents and Settings\ &lt;ユーザー名> \Application Data\Neolane\NL_5
+
    「nlclient-config-&lt;英数字の値>.xml」という名前の xml ファイルが多数表示されます。
 
 1. これらの xml ファイルと関連フォルダーを削除します。

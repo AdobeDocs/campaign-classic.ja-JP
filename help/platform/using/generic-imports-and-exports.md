@@ -14,11 +14,11 @@ discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fecfff477b0750782c87c017a15e306acac4c61d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -94,5 +94,5 @@ Adobe Campaign には、顧客または（例えば、ターゲティング操�
 
 >[!NOTE]
 >
->インポートまたはエクスポートジョブのステータスについて詳しくは、](../../platform/using/importing-data.md#job-statuses)ジョブステータス[で説明しています。
+>インポートまたはエクスポートジョブのステータスについて詳しくは、[ジョブステータス](../../platform/using/importing-data.md#job-statuses)で説明しています。
 

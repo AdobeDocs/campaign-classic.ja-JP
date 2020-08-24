@@ -12,11 +12,11 @@ discoiquuid: dcb5b8e8-be38-4d89-908d-f57c2413a9bc
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9c9554b83726da7a7dbc747878d7d0758e71a4d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1160'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 98%
 
    「**[!UICONTROL ディレクトリ]**」タブには、取得するファイルに関する情報が表示されます。この例では、サーバーの tmp/Adobe/Data/files ディレクトリに格納されている、「customers」という単語をファイル名含むテキストファイルが取得されます。
 
-   **[!UICONTROL ファイルコレクター]**&#x200B;の使用方法について詳しくは、](../../workflow/using/file-collector.md)ファイルコレクター[の節を参照してください。
+   **[!UICONTROL ファイルコレクター]**&#x200B;の使用方法について詳しくは、[ファイルコレクター](../../workflow/using/file-collector.md)の節を参照してください。
 
    ![](assets/s_advuser_load_file_sample_1.png)
 

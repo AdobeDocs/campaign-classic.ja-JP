@@ -16,6 +16,9 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+workflow-type: ht
+source-wordcount: '960'
+ht-degree: 100%
 
 ---
 
@@ -58,6 +61,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
    1. 「個人」を選択すると、「クーポン」という新しいタブが左下に表示されます。「**[!UICONTROL クーポン]**」タブに移動して、「**[!UICONTROL 追加]**」をクリックします。
    1. 入力を促すポップアップウィンドウが表示されたら、個人クーポンの一意のコードを入力します。
    1. 「**[!UICONTROL 保存]**」をクリックして、クーポンを生成します。
+
    「クーポン」タブについて詳しくは、[個人クーポンの設定](#configuring-individual-coupons)を参照してください。
 
    >[!NOTE]

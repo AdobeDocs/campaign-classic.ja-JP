@@ -14,11 +14,11 @@ discoiquuid: d678db05-cc44-4086-98a5-e5296e8e5de8
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1460'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -480,7 +480,7 @@ XSLT 言語を使用して、XML ドキュメントを出力ドキュメント�
    <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
    ```
 
-* Adding the conditional test **&lt;% if (recipient.language == &#39;en&#39;)`{`%>**:
+* 条件付きテスト **&lt;% if (recipient.language == &#39;en&#39;)`{`{ %>** の追加：
 
    ```
    <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>

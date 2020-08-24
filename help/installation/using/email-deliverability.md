@@ -218,7 +218,7 @@ user:~ user$ host -t a mta6.am0.yahoodns.net
 
 ### MX 管理の設定 {#configuring-mx-management}
 
-MXに対して準拠するルールは、ツリーの[ **[!UICONTROL 管理] > [キャンペーン管理] > [非成果物管理] > [メール]ルールセット]** ]ノードの[ **[!UICONTROL MX management]** ]ドキュメントで定義されます。
+MXに対して準拠するルールは、ツリーの[ **[!UICONTROL 管理] > [キャンペーン管理] > [非成果物管理] > [メール]ルールセット]** ]ノードの[ **[!UICONTROL MX management]** ドキュメントで定義されます。
 
 ノードに **[!UICONTROL MX管理]** ドキュメントが存在しない場合は、手動で作成できます。 手順は次のとおりです。
 

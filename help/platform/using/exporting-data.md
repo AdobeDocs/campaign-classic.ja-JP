@@ -14,11 +14,11 @@ discoiquuid: fecadb66-b81d-4fb6-9971-7bfd024d70b7
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b690e6c7141ba88c8ce72f631ec24fc068ade8f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1010'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 98%
 * 「**[!UICONTROL テキスト]**」フォーマットの場合、列を区切る区切り記号（タブ、コンマ、セミコロンまたはカスタム）および文字列を区切る区切り記号（シングルコーテーション、ダブルコーテーションまたはなし）を選択します。
 * 「**[!UICONTROL テキスト]**」および「**[!UICONTROL CSV]**」の場合、オプション「**[!UICONTROL 先頭行を列ヘッダーとして使用]**」を選択できます。
 * 日付フォーマットおよび数字のフォーマットを指定します。そのためには、該当するフィールドの「**[!UICONTROL 編集]**」ボタンをクリックし、エディターを使用します。
-* 列挙値が含まれるフィールドの場合、「**[!UICONTROL 列挙の内部値の代わりにラベルをエクスポート]**」を選択できます。For example, the title can be stored in the form **1=Mr.**, **2=Miss**, **3=Mrs.**.」このオプションを選択した場合、**Mr.**、**Miss** および **Mrs.** がエクスポートされます。
+* 列挙値が含まれるフィールドの場合、「**[!UICONTROL 列挙の内部値の代わりにラベルをエクスポート]**」を選択できます。例えば、タイトルを **1=Mr.**、**2=Miss**、**3=Mrs.**.」このオプションを選択した場合、**Mr.**、**Miss** および **Mrs.** がエクスポートされます。
 
 ### 手順 4 - データ選択 {#step-4---data-selection}
 

@@ -6,9 +6,9 @@ index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 translation-type: tm+mt
-source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
+source-git-commit: 0810608c67e6da4d9afa3a366df664594b0b6840
 workflow-type: tm+mt
-source-wordcount: '2110'
+source-wordcount: '2109'
 ht-degree: 99%
 
 ---
@@ -432,7 +432,7 @@ ht-degree: 99%
          + [データのエンリッチメント](workflow/using/enriching-data.md)
          + [集計の使用](workflow/using/using-aggregates.md)
          + [増分クエリを使用した四半期別リストの更新](workflow/using/quarterly-list-update.md)
-      + クエリのデザイン {#designing-queries}
+      + ターゲティング {#designing-queries}
          + [受信者テーブルに対するクエリ](workflow/using/querying-recipient-table.md)
          + [配信情報に対するクエリ](workflow/using/querying-delivery-information.md)
          + [集計計算の実行](workflow/using/performing-aggregate-computing.md)

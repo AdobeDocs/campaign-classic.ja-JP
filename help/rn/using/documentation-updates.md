@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8198c4aa6eccc0cbb5de4712ebdd8000783b615c
+source-git-commit: 70efc8a7f1fab68d73e36b4373116c4aaaa0af5d
 workflow-type: tm+mt
-source-wordcount: '7111'
+source-wordcount: '7180'
 ht-degree: 97%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 97%
 
 * [電子メールに対してAMPをアクティブ化して使用する方法](../../delivery/using/defining-interactive-content.md)
 
-* [動的コンテンツブロックを使用して電子メールをパーソナライズする方法](../../delivery/using/personalization-blocks.md)
+* [動的コンテンツブロックを使用して E メールをパーソナライズする方法](../../delivery/using/personalization-blocks.md)
 
 * [パーソナライゼーションフィールドを使用して電子メールをパーソナライズする方法](../../delivery/using/personalization-fields.md)
 
@@ -56,6 +56,15 @@ ht-degree: 97%
 * [連続配信の設定方法](../../workflow/using/continuous-delivery.md)
 
 FTPサーバーに接続した後に「ホスト名を解決できませんでした」というエラーが発生した場合に実行するチェックと操作に関する情報が追加されました。 [詳細を表示](../../platform/using/sftp-server-usage.md)
+
+新しい使用例は、 [ワークフローの使用例のリストで参照されています](../../workflow/using/about-workflow-use-cases.md)。
+
+* コンテンツの作成、編集、公開の自動化
+* 配信送信前の受信者承認プロセスの設定
+* クエリでのインスタンス変数の呼び出し
+* 母集団に対する分割率の適用
+
+「 **[!UICONTROL AND結合]** アクティビティ」セクションは、変数の使用に関する追加情報と、変数の使用に関する注意事項で強化されました。 [詳細を表示](../../workflow/using/and-join.md)
 
 ## 2020 年 7 月 {#july-2020}
 

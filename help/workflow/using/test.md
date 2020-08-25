@@ -14,8 +14,11 @@ discoiquuid: 78c70ef4-807d-45d4-ac87-2b741c0ef5cb
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
+translation-type: tm+mt
+source-git-commit: f7ed7e59be2cfbde467b0c80d21cfbf52016a2b8
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +33,7 @@ source-git-commit: b78db689958c9b240da9a0315060fe63bcb48e0a
 
 ワークフロー JavaScript 経由でアクセス可能なアプリケーションサーバーのその他すべての JavaScript 関数および SOAP メソッドの詳細については、[JSAPI ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)を参照してください。
 
-このエディターから変数を直接挿入することもできます。
+このエディターから変数を直接挿入することもできます。For more  information on how to work with variables, refer to [this section](../../workflow/using/javascript-scripts-and-templates.md#variables).
 
 条件は、アクティビティプロパティの編集ウィンドウから追加や削除、並べ替えるができますが、トランジションから編集することもできます。
 

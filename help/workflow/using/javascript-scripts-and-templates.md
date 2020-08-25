@@ -14,8 +14,11 @@ discoiquuid: 8867d9c3-2ce4-4611-8c88-ce505c3a01d1
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9d36192a768fd0162f2301a5fe0437074d0fda58
+translation-type: tm+mt
+source-git-commit: c959c0e8ace1eaaa768ea04c194eaccac0b35344
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 97%
 
 ---
 
@@ -84,13 +87,19 @@ logInfo("Start date: " + task.creationDate)
 
 イベント変数（**[!UICONTROL vars.xxx]**）を使用すると、ワークフロープロセスの各基本タスク間でデータを交換できます。この変数は、進行中のタスクを有効化したタスクによって受け渡されます。イベント変数は、修正したり新規に作成したりでき、次のアクティビティに渡されます。
 
-「**AND 結合**」タイプアクティビティの場合、この変数は結合されますが、同じ変数を 2 回定義した場合、競合が生じ、値が未確定になります。
+>[!CAUTION]
+>
+>「[AND 結合](../../workflow/using/and-join.md)」タイプアクティビティの場合、この変数は結合されますが、同じ変数を 2 回定義した場合、競合が生じ、値が未確定になります。
 
-イベント変数は最も使用されることの多い変数です。インスタンス変数より優先して使用することをお勧めします。
+イベントは最も頻繁に使用される変数で、インスタンス変数よりも優先して使用します。
 
 特定のイベント変数は、さまざまなアクティビティが変更し、読み取ります。これらのイベント変数はすべて文字列タイプの変数です。例えば、エクスポートでは、エクスポートされたファイルの完全名が、変数 **[!UICONTROL vars.filename]** に設定されます。すべての読み取られた変数および変更された変数については、アクティビティの「**入力パラメーター**」と「**出力パラメーター**」のセクションにある[アクティビティについて](../../workflow/using/about-activities.md)を参照してください。
 
-### 例 {#example}
+### 使用例 {#example}
+
+>[!NOTE]
+>
+>その他のワークフローの使用例については、 [この節で説明します](../../workflow/using/about-workflow-use-cases.md)。
 
 **例 1**
 

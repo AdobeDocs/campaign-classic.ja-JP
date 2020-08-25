@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 6c66718fbbf13486d52b0cc98eae6c854b34030d
 workflow-type: tm+mt
 source-wordcount: '3145'
 ht-degree: 95%
@@ -356,7 +356,7 @@ Adobe Campaign は、管理者（&#39;admin&#39;）、請求（&#39;billing&#39;
 
 Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/using/assets/access-rights-matrix.pdf)にあります。
 
-[![画像](assets/user_management.png)](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
+[![画像](assets/do-not-localize/user_management.png)](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
 
 ## フォルダーアクセスの管理 {#folder-access-management}
 

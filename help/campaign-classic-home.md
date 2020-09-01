@@ -85,7 +85,7 @@ Campaign のトラッキング機能とプロセスについて説明します�
 | 便利なページ | 開発者向けリソース |
 |---|---|
 | [リリースノート](/help/rn/using/latest-release.md) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html) | [Campaign データモデル](configuration/using/about-data-model.md) |
+| [ハウツービデオ](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/overview.html) | [Campaign データモデル](configuration/using/about-data-model.md) |
 | [互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Campaign の概要](platform/using/about-adobe-campaign-classic.md) | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/acc-implementation.html) |
 | [Gold Standard アップグレード](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |

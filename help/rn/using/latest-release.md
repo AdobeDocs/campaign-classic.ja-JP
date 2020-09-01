@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 251244225076dd11a319d1c4b2124c0d05168eaa
+source-git-commit: c96c94fe0b98e298968c329466ee4e2e04b11a35
 workflow-type: tm+mt
-source-wordcount: '1976'
-ht-degree: 99%
+source-wordcount: '1975'
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ _2020 年 6 月 8 日_
  <tbody> 
   <tr> 
    <td> <p>タイの個人データ保護法（PDPA）は、タイのデータ保護要件を調整および最新化するための新しいプライバシー法です。 </p>
-   <p>ブラジルの一般データ保護法（Lei Geral de Proteção de Dados、LGPD）は、8 月 16 日から施行され、ブラジルで個人データを収集および処理するすべての企業に適用されます。</p>
+   <p>ブラジルのGeral de Proteçano de Dados (LGPD)は、2021年初めに、ブラジルで個人データを収集したり処理したりするすべての会社に対して有効となる。</p>
    <p>これらの規則は、タイとブラジルに居住するデータ主体のデータを保持する Adobe Campaign のお客様に適用されます。Campaign で既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）に加え、PDPA および LGPD への対応をサポートするための機能を追加する予定です。</p>
    <ul> 
      <li><p>アクセス権と削除権：GDPR および CCPA 用に追加された機能を活用します。<a href="https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html">詳細を表示</a></p></li> 

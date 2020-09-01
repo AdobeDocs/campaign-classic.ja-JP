@@ -14,11 +14,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2604df2e6b6a7520e2f2a82f04c75ceb749fde79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ _2020 年 7 月 7 日_
 
 ビルド（9032@efd8a94）には、以下の修正が含まれています。
 
-署名機能が無効な場合に追跡が機能しない問題を修正しました。 （NEO-26411）
+署名機能が無効な場合にトラッキングが機能しない問題を修正しました。（NEO-26411）
 
 >[!CAUTION]
 >

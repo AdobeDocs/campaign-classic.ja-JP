@@ -93,11 +93,11 @@ _2019 年 5 月 30 日_
  <tbody> 
   <tr> 
    <td> コントロールパネル<br /> </td> 
-   <td> <p>管理者ユーザーの作業効率を高めるために、ストレージを監視、IP アドレスを許可リストに追加、および各インスタンスに SSH キーをインストールすることで、SFTP サーバーの設定を管理します。コントロールパネルは、現時点で AWS 上でホストされているユーザーのみが利用できます（<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud から今すぐログイン</a>）。</p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">ハウツービデオ</a>を参照してください。 </p><p>注意：最新の Campaign ビルドへのアップグレードには、コントロールパネルへのアクセスは不要です。</p> </td> 
+   <td> <p>管理者ユーザーの作業効率を高めるために、ストレージを監視、IP アドレスを許可リストに追加、および各インスタンスに SSH キーをインストールすることで、SFTP サーバーの設定を管理します。コントロールパネルは、現時点で AWS 上でホストされているユーザーのみが利用できます（<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud から今すぐログイン</a>）。</p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html">ハウツービデオ</a>を参照してください。 </p><p>注意：最新の Campaign ビルドへのアップグレードには、コントロールパネルへのアクセスは不要です。</p> </td> 
   </tr> 
     <tr> 
    <td> 監査記録<br /> </td> 
-   <td> <p>管理者は、Adobe Campaign Classic インスタンス内で加えられた変更を監視および管理することで、生産性を高めます。監査証跡は、ソーススキーマ、ワークフローおよびオプションでおこなわれたアクションを記録します。要素が作成、変更または削除されたかどうかをすばやく確認できます。</p><p>詳しくは、<a href="../../production/using/audit-trail.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/monitoring/audit-trail.html">ハウツービデオ</a>を参照してください。</p></td> 
+   <td> <p>管理者は、Adobe Campaign Classic インスタンス内で加えられた変更を監視および管理することで、生産性を高めます。監査証跡は、ソーススキーマ、ワークフローおよびオプションでおこなわれたアクションを記録します。要素が作成、変更または削除されたかどうかをすばやく確認できます。</p><p>詳しくは、<a href="../../production/using/audit-trail.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/monitoring/audit-trail.html">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> Guardrail、堅牢性、および拡張性<br /> </td> 

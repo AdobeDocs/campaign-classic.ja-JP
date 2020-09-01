@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f52e00ade7c97662eb4061e19fd38b863b2c2bd3
+source-git-commit: 80de051cde62038c11246f8da08a7e00505a3313
 workflow-type: tm+mt
-source-wordcount: '1639'
-ht-degree: 90%
+source-wordcount: '1631'
+ht-degree: 92%
 
 ---
 
@@ -33,10 +33,9 @@ AMP E メールのテストと送信について詳しくは、[AMP E メール�
 
 この機能は、Adobe Campaign の専用パッケージで使用できます。使用するには、このパッケージをインストールする必要があります。インストールしたら、サーバーを再起動してパッケージを有効にします。
 
-    >[!NOTE]
-    >
-    >ハイブリッドおよびホストアーキテクチャの場合、パッケージは、[ミッドソーシングサーバー](../../installation/using/mid-sourcing-server.md)および[実行インスタンス](../../message-center/using/creating-a-shared-connection.md#execution-instance)を含むすべてのサーバーにインストールする必要があります。 アカウント担当者にお問い合わせください。
-
+>[!NOTE]
+>
+> ハイブリッドおよびホストアーキテクチャの場合、パッケージは、[ミッドソーシングサーバー](../../installation/using/mid-sourcing-server.md)と[実行インスタンス](../../message-center/using/creating-a-shared-connection.md#execution-instance)を含むすべてのサーバーにインストールする必要があります。アカウント担当者にお問い合わせください。
 
 ## AMP for Email について {#about-amp-for-email}
 

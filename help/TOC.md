@@ -5,11 +5,11 @@ user-guide-description: Adobe Campaign lets you coordinate the creation of conve
 index: y
 product: adobe campaign
 sub-product: Adobe Campaign Classic
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0810608c67e6da4d9afa3a366df664594b0b6840
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2109'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -97,10 +97,10 @@ ht-degree: 99%
       + [テンプレートの使用](delivery/using/use-templates.md)
       + [パーソナライズされたコンテンツの作成](delivery/using/design-and-personalize.md)
       + [適切なオーディエンスの定義](delivery/using/define-the-right-audience.md)
-      + [送信前に確認](delivery/using/check-before-sending.md)
+      + [送信前の確認](delivery/using/check-before-sending.md)
       + [トラッキングと監視](delivery/using/track-and-monitor.md)
    + 配信を作成する際の主な手順 {#key-steps-when-creating-a-delivery}
-      + [配信を使い始める](delivery/using/steps-about-delivery-creation-steps.md)
+      + [配信の概要](delivery/using/steps-about-delivery-creation-steps.md)
       + [配信の作成と識別](delivery/using/steps-create-and-identify-the-delivery.md)
       + [ターゲット母集団の定義](delivery/using/steps-defining-the-target-population.md)
       + [配信の検証](delivery/using/steps-validating-the-delivery.md)

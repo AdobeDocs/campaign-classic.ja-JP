@@ -12,9 +12,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e31efa347b42b4ccb532ca5f79e73745b5a7878b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1331'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ _2020 年 2 月 17 日_
  <tbody> 
   <tr> 
    <td> <p>Snowflake は完全管理されたクラウドデータウェアハウスで、ストレージおよびコンピュートの両方のレベルで拡張できます。この新しいコネクタを使うと、Adobe Campaign は Snowflake の力を活用してビッグデータのセグメント化を実行できるようになりました。このコネクタは、アドビがホストする顧客を含め、すべての顧客が利用できます。</p>
-    <p>詳しくは、<a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">チュートリアルビデオ</a>を参照してください。</p>
+    <p>詳しくは、<a href="../../platform/using/specific-configuration-database.md#configure-access-to-snowflake">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">チュートリアルビデオ</a>を参照してください。</p>
    </td> 
   </tr> 
  </tbody> 

@@ -82,7 +82,7 @@ _2019 年 12 月 02 日_
   <tr> 
 <td> <p>Adobe Campaign では、新しいインタラクティブ <a href="https://amp.dev/about/email/">AMP for Email</a> フォーマットを試すことができます。このフォーマットでは、マーケターは、メッセージ内に AMP コンポーネントを含め、メッセージ内で直接アクション可能な、リッチで動的なインタラクティブコンテンツを使用して E メールエクスペリエンスを強化できます。</p>
    <p> この機能はパブリックベータ版としてリリースされています。</p>
-   <p>詳しくは、<a href="../../delivery/using/defining-interactive-content.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">チュートリアルビデオ</a>を参照してください。</p><br /></td> 
+   <p>詳しくは、<a href="../../delivery/using/defining-interactive-content.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">チュートリアルビデオ</a>を参照してください。</p><br /></td> 
   </tr> 
  </tbody> 
 </table>

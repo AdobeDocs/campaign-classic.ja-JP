@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70efc8a7f1fab68d73e36b4373116c4aaaa0af5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7180'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,42 +29,42 @@ ht-degree: 97%
 
 ## 2020 年 8 月 {#aug-2020}
 
-配信の設計とキャンペーンを使用した送信に関するベストプラクティスについては、専用のセクションを参照してください。 [詳細を表示](../../delivery/using/delivery-best-practices.md)
+配信のデザインと Campaign を使用した送信に関するベストプラクティスについては、該当する節を参照してください。[詳細を表示](../../delivery/using/delivery-best-practices.md)
 
-配信品質のベストプラクティスのランディングページが改善され、サブセクションへのアクセスが容易になりました。 [詳細を表示](../../delivery/using/deliverability-key-points.md)
+配信品質ベストプラクティスのランディングページが改善され、サブセクションへのアクセスが容易になりました。[詳細を表示](../../delivery/using/deliverability-key-points.md)
 
-ハウツービデオは、次のトピックで視聴できるようになりました。
+次のトピックのハウツービデオを視聴できるようになりました。
 
 * [タイポロジルールと定義済みフィルターを使用した疲労管理の設定方法](../../campaign/using/about-campaign-typologies.md)
 
-* [キャンペーンでの電子メールの作成方法](../../campaign/using/marketing-campaign-deliveries.md)
+* [キャンペーンでの E メールの作成方法](../../campaign/using/marketing-campaign-deliveries.md)
 
 * [条件付きコンテンツを含む多言語ニュースレターの作成方法](../../delivery/using/conditional-content.md)
 
-* [配信テンプレートの設定および導入方法](../../delivery/using/creating-a-delivery-template.md)
+* [配信テンプレートの設定およびデプロイ方法](../../delivery/using/creating-a-delivery-template.md)
 
-* [電子メールに対してAMPをアクティブ化して使用する方法](../../delivery/using/defining-interactive-content.md)
+* [E メールに対して AMP を有効化して使用する方法](../../delivery/using/defining-interactive-content.md)
 
 * [動的コンテンツブロックを使用して E メールをパーソナライズする方法](../../delivery/using/personalization-blocks.md)
 
-* [パーソナライゼーションフィールドを使用して電子メールをパーソナライズする方法](../../delivery/using/personalization-fields.md)
+* [パーソナライゼーションフィールドを使用して E メールをパーソナライズする方法](../../delivery/using/personalization-fields.md)
 
-* [電子メール内のシードと配達確認を管理する方法](../../delivery/using/steps-defining-the-target-population.md)
+* [E メールのシードと配達確認の管理方法](../../delivery/using/steps-defining-the-target-population.md)
 
-* [定期配信の設定方法](../../workflow/using/recurring-delivery.md)
+* [繰り返し配信の設定方法](../../workflow/using/recurring-delivery.md)
 
 * [連続配信の設定方法](../../workflow/using/continuous-delivery.md)
 
-FTPサーバーに接続した後に「ホスト名を解決できませんでした」というエラーが発生した場合に実行するチェックと操作に関する情報が追加されました。 [詳細を表示](../../platform/using/sftp-server-usage.md)
+FTP サーバーに接続した後に「ホスト名を解決できませんでした」というエラーが発生した場合に実行するチェックと操作に関する情報が追加されました。[詳細を表示](../../platform/using/sftp-server-usage.md)
 
-新しい使用例は、 [ワークフローの使用例のリストで参照されています](../../workflow/using/about-workflow-use-cases.md)。
+新しい使用例は、[ワークフローの使用例](../../workflow/using/about-workflow-use-cases.md)のリストで参照されています。
 
 * コンテンツの作成、編集、公開の自動化
 * 配信送信前の受信者承認プロセスの設定
 * クエリでのインスタンス変数の呼び出し
 * 母集団に対する分割率の適用
 
-「 **[!UICONTROL AND結合]** アクティビティ」セクションは、変数の使用に関する追加情報と、変数の使用に関する注意事項で強化されました。 [詳細を表示](../../workflow/using/and-join.md)
+**[!UICONTROL AND 結合]**&#x200B;アクティビティの節に、変数の使用に関する情報と注意事項が追加されました。[詳細を表示](../../workflow/using/and-join.md)
 
 ## 2020 年 7 月 {#july-2020}
 
@@ -435,7 +435,7 @@ E メールコンテンツの定義の節に、デジタルコンテンツエデ
 
 ワークフローのエンリッチメントアクティビティを使用してカスタムデータフィールドを含む E メールを送信する方法に関する使用例が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Email_enrichment_with_custom_date_fields.html)
 
-機能に関するビデオが[ここ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)に移動されました。
+機能に関するビデオが[ここ](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/overview.html)に移動されました。
 
 [Teradata](https://helpx.adobe.com/jp/campaign/kb/campaign_fda_teradata.html) と [MySQL 5.7](https://helpx.adobe.com/jp/campaign/kb/campaign_fda_mysql.html) に関する 2 つのテクニカルノートが追加されました。
 

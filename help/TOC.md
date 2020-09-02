@@ -302,22 +302,22 @@ ht-degree: 100%
 + Adobe Experience Cloud との統合 {#integrating-with-adobe-experience-cloud}
    + [Campaign 統合について](integrations/using/about-campaign-integrations.md)
    + オーディエンスの共有 {#audience-sharing}
-      + [オーディエンスを  [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md) と共有する
+      + [オーディエンスを  [!DNL Adobe Experience Cloud] と共有する](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [アドビへの依頼の送信](integrations/using/submitting-request-to-adobe.md)
-      + [  [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md) での共有オーディエンスの統合の設定
+      + [  [!DNL Adobe Campaign] での共有オーディエンスの統合の設定](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [トラブルシューティング](integrations/using/troubleshooting.md)
       + [オーディエンスのインポートおよびエクスポート](integrations/using/importing-and-exporting-audiences.md)
    + アセットの共有 {#asset-sharing}
-      + [アセットを  [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md) と共有する
-      + [  [!DNL Assets]](integrations/using/configuring-access-to-assets.md) へのアクセスの設定
+      + [アセットを  [!DNL Adobe Experience Cloud] と共有する](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+      + [  [!DNL Assets] へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
       + [共有アセットを挿入](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
       + [情報 [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [統合の設定](integrations/using/configuring-the-integration.md)
-      + [ [!DNL Experience Manager] ニュースレター](integrations/using/creating-an-experience-manager-newsletter.md)の作成
+      + [ [!DNL Experience Manager] ニュースレターの作成](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md) との統合
-      + [  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md) との統合の設定
+      + [  [!DNL Adobe Target] との統合](integrations/using/integrating-with-adobe-target.md)
+      + [  [!DNL Adobe Target] との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [動的画像の挿入](integrations/using/inserting-a-dynamic-image.md)
    + Adobe ID を使用した接続 {#connecting-via-an-adobe-id}
       + [情報 [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
@@ -329,7 +329,7 @@ ht-degree: 100%
       + [プロファイルの同期](integrations/using/synchronizing-profiles.md)
       + [オーディエンスの同期](integrations/using/synchronizing-audiences.md)
       + [Web アプリケーションの同期](integrations/using/synchronizing-web-applications.md)
-      + [  [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md) のトラブルシューティング
+      + [  [!DNL ACS Connector] のトラブルシューティング](integrations/using/troubleshooting-the-acs-connector.md)
    + Experience Cloud Triggers {#experience-triggers}
       + [情報 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)

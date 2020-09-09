@@ -14,11 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c5e11f24537d2956ade49fe0f4a8ffebdbbabcf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1174'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 99%
 
 キャンペーンテンプレートの作成および設定について詳しくは、[キャンペーンテンプレート](#campaign-templates)で説明しています。
 
-For more on campaign creation, refer to [this video](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
+キャンペーンの作成について詳しくは、[このビデオ](../../campaign/using/marketing-campaign-deliveries.md#create-email-video)を参照してください。
 
 ## 使用可能モジュールの設定 {#configuration-of-the-available-modules}
 

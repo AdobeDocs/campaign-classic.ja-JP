@@ -14,11 +14,11 @@ discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea248639e9730c6bdd1090098866a094b80daebb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 97%
 
 Adobe Campaign の使用を開始する際は、アドビの詳細でわかりやすい手順ガイドを参照してください。
 
-* [Adobe Experience Manager での E メールコンテンツの編集](https://helpx.adobe.com/campaign/kb/acc-aem.html)：Adobe Campaign と Experience Manager を統合して開始するための基礎について説明します。
+* [Adobe Experience Manager での E メールコンテンツの編集](https://helpx.adobe.com/jp/campaign/kb/acc-aem.html)：Adobe Campaign と Experience Manager を統合して開始するための基礎について説明します。
 * [プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)：プライバシーを遵守しながらアドビのサービスを利用するための Adobe Campaign Classic の機能について説明します。
-* [E メールへの動的なコンテンツの統合](https://docs.adobe.com/content/help/en/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html)：Campaign Classic と Target Standard の統合を開始するための基礎について説明します。
+* [E メールへの動的なコンテンツの統合](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html)：Campaign Classic と Target Standard の統合を開始するための基礎について説明します。
 * [配信品質の管理](../../delivery/using/deliverability-key-points.md)：配信品質に関する概念とベストプラクティス、配信の送信を最適化するために Adobe Campaign Classic で提供されるツールについて説明します。
 * [配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)：Adobe Campaign Classic での配信のデザインと送信に関するベストプラクティスについて学習します。
 * [ビルドのアップグレードの実行](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)：このガイドでは、Campaign Classic でビルドのアップグレードを実行する際の主な手順とベストプラクティスを紹介します。
@@ -49,14 +49,14 @@ Adobe Campaign について詳しくは、以下の使用例と例を確認し�
 
 Adobe Campaign の主な機能については、ハウツービデオをご覧ください。
 
-* [オーディエンスの作成](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html)：Adobe Campaign でオーディエンスを作成する方法を紹介します。
-* [キャンペーンと E メールの作成](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-campaign-and-an-email.html)：Adobe Campaign でキャンペーンの E メールを作成する方法を紹介します。
-* [受信者のリストの作成](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html)：Adobe Campaign のワークフローで受信者のリストを作成します。
-* [ターゲティングワークフローの作成](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-targeting-workflow.html)：受信者の誕生日をターゲットにするワークフローを作成します。
-* [キャンペーン内のワークフローの作成](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-workflow.html)：キャンペーン内でワークフローを作成する方法を説明します。
-* [プロファイルのインポート](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html)：Adobe Campaign でファイルからプロファイルをインポートする方法を説明します。
+* [オーディエンスの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-list-of-recipients.html)：Adobe Campaign でオーディエンスを作成する方法を紹介します。
+* [キャンペーンと E メールの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)：Adobe Campaign でキャンペーンの E メールを作成する方法を紹介します。
+* [受信者のリストの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-list-of-recipients.html)：Adobe Campaign のワークフローで受信者のリストを作成します。
+* [ターゲティングワークフローの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-targeting-workflow.html)：受信者の誕生日をターゲットにするワークフローを作成します。
+* [キャンペーン内のワークフローの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-workflow.html)：キャンペーン内でワークフローを作成する方法を説明します。
+* [プロファイルのインポート](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/importing-profiles.html)：Adobe Campaign でファイルからプロファイルをインポートする方法を説明します。
 * [インターフェイスの概要](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html)：Adobe Campaign インターフェイスの操作方法を説明します。
-* [E メールのシードと配達確認の管理](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html)：Adobe Campaign でシードと配達確認を既存の E メールに追加する方法を説明します。
-* [Adobe Campaign と Microsoft Dynamics 365 の統合](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/integrating/dynamics365-integration.html)：CRM コネクタの機能を使用して Adobe Campaign と Microsoft Dynamics を連携させ、同期する方法を説明します。
+* [E メールのシードと配達確認の管理](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/managing-seed-and-proofs.html)：Adobe Campaign でシードと配達確認を既存の E メールに追加する方法を説明します。
+* [Adobe Campaign と Microsoft Dynamics 365 の統合](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/integrating/dynamics365-integration.html)：CRM コネクタの機能を使用して Adobe Campaign と Microsoft Dynamics を連携させ、同期する方法を説明します。
 
 これらの短く詳しいビデオに加えて、アドビの Web サイトで、[トレーニングコース](https://learning.adobe.com/catalog.html)や[プレゼンテーションビデオ](https://www.adobe.com/training/video.html)を利用することもできます。

@@ -14,11 +14,11 @@ discoiquuid: ca2cd5bf-78a2-4e43-955d-206f4474d1e0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 98%
 
    条件に一致する受信者のリストが作成または更新されます。
 
-詳しくは、[受信者のリストの作成](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html)ビデオを参照してください。
+詳しくは、[受信者のリストの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html)ビデオを参照してください。
 
 ## 入力パラメーター {#input-parameters}
 

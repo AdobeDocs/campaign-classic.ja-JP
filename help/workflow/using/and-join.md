@@ -14,11 +14,11 @@ discoiquuid: 075206aa-ff7b-4fa8-a05d-14a29fb119ba
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ed7e59be2cfbde467b0c80d21cfbf52016a2b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 56%
 
 結合は、先行するすべてのアクティビティが完了しているなど、すべてのインバウンドトランジションが有効化されている場合にのみ、アウトバウンドトランジションをトリガーします。これにより、ワークフローを続行する前に、特定のアクティビティを確実に完了させるようにできます。
 
-例えば、コンテンツの作成と自動送信配信のコンテキストでAND結合アクティビティを使用して、配信のクエリとコンテンツの更新の手順が完了した後にのみターゲットが開始されるようにできます。 このセクションでは、専用の使用例を紹介 [します。](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)
+例えば、コンテンツの作成と配信の自動送信のコンテキストで AND 結合アクティビティを使用して、ターゲットのクエリとコンテンツの更新手順が完了した後にのみ配信が開始されるようにできます。該当する使用例については、[この節](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)を参照してください。
 
 ![](assets/and-join-usage.png)
 
@@ -37,4 +37,4 @@ ht-degree: 56%
 
 >[!CAUTION]
 >
->**** AND結合型のアクティビティの場合、イベント変数は結合されますが、同じ変数が2回定義された場合は競合が発生し、値は未確定のままです。 詳しくは、[](../../workflow/using/javascript-scripts-and-templates.md#event-variables)を参照してください。
+>「**AND 結合**」タイプアクティビティの場合、イベント変数は結合されますが、同じ変数を 2 回定義した場合、競合が生じ、値が未確定になります。詳しくは、[](../../workflow/using/javascript-scripts-and-templates.md#event-variables) を参照してください。

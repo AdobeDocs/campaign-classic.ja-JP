@@ -14,11 +14,11 @@ discoiquuid: 185d3256-a21e-47d7-bee7-7b91762ca1e2
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -41,15 +41,15 @@ ht-degree: 65%
 
 このアクティビティの使用例については、この[節](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)を参照してください。
 
-## 定期配信の設定方法
+## 繰り返し配信の設定方法
 
-**定期的な配信** は、実行のたびに新しい配信インスタンスを作成します。 例えば、ワークフローが週に1回実行されるようにスケジュールされている場合、1年後に52配信になります。 また、部分的なログとトラッキングログは、各配信インスタンスで区切られます。
+**繰り返し配信**&#x200B;では、実行のたびに新しい配信インスタンスを作成します。例えば、ワークフローが週に 1 回実行されるようにスケジュールされている場合、1 年後には 52 件の配信が存在することになります。また、broadLog とトラッキングログは、各配信インスタンスで区切られます。
 
-![反復配信](assets/delivery_recurring.jpg)
+![繰り返し配信](assets/delivery_recurring.jpg)
 
-このビデオでは、定期的な配信とスケジューラーアクティビティを設定する方法を説明します。
+このビデオでは、繰り返し配信とスケジューラーアクティビティを設定する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12&captions=jpn)
 
 >[!NOTE]
 >

@@ -14,11 +14,11 @@ discoiquuid: 8867d9c3-2ce4-4611-8c88-ce505c3a01d1
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c959c0e8ace1eaaa768ea04c194eaccac0b35344
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ logInfo("Start date: " + task.creationDate)
 >
 >「[AND 結合](../../workflow/using/and-join.md)」タイプアクティビティの場合、この変数は結合されますが、同じ変数を 2 回定義した場合、競合が生じ、値が未確定になります。
 
-イベントは最も頻繁に使用される変数で、インスタンス変数よりも優先して使用します。
+イベントは最も使用されることの多い変数です。インスタンス変数より優先して使用することをお勧めします。
 
 特定のイベント変数は、さまざまなアクティビティが変更し、読み取ります。これらのイベント変数はすべて文字列タイプの変数です。例えば、エクスポートでは、エクスポートされたファイルの完全名が、変数 **[!UICONTROL vars.filename]** に設定されます。すべての読み取られた変数および変更された変数については、アクティビティの「**入力パラメーター**」と「**出力パラメーター**」のセクションにある[アクティビティについて](../../workflow/using/about-activities.md)を参照してください。
 
@@ -99,7 +99,7 @@ logInfo("Start date: " + task.creationDate)
 
 >[!NOTE]
 >
->その他のワークフローの使用例については、 [この節で説明します](../../workflow/using/about-workflow-use-cases.md)。
+>その他のワークフローの使用例については、[この節](../../workflow/using/about-workflow-use-cases.md)を参照してください。
 
 **例 1**
 

@@ -13,9 +13,9 @@ discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 ## 最初の E メールの作成および送信方法は？{#how-to-create-and-send-a-first-email-}
 
-[詳しくはここをクリック](../../delivery/using/about-email-channel.md)するか、キャンペーンでの E メールの作成方法に関する[このビデオを閲覧](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-campaign-and-an-email.html)してください。
+[詳しくはここをクリック](../../delivery/using/about-email-channel.md)するか、キャンペーンでの E メールの作成方法に関する[このビデオを閲覧](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)してください。
 
 ## SMS メッセージの送信方法は？{#how-to-send-sms-messages-}
 

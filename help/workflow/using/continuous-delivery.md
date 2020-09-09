@@ -14,11 +14,11 @@ discoiquuid: 9d80be19-8dde-4278-ab5f-23f364fe422e
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3566f42b92cc1b7280bf9b6e9e0b4da7a54f61db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '355'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -56,14 +56,14 @@ ht-degree: 69%
 
 ## 連続配信の設定方法
 
-ここでは、連続配信を設定する方法について説明します。
+この節では、連続配信を設定する方法について説明します。
 
-**** 連続配信を使用すると、既存の配信に新しい受信者を追加でき、新しい受信者を追加するたびに新しい配信を作成する必要がなくなります。 クリエイティブはキャンペーンワークフローで直接更新でき、配信テンプレートリソースフォルダー内のテンプレートが更新されます。
+**連続配信**&#x200B;では、既存の配信に新しい受信者を追加できるので、新しい受信者を追加するたびに新しい配信を作成する必要がありません。クリエイティブはキャンペーンワークフローで直接更新でき、配信テンプレートのリソースフォルダー内のテンプレートが更新されます。
 
-連続した配信は、SINGLE配信と配信ログ(broadLog)を作成し、その配信を参照するトラッキングログは、実行のたびに1つ追加されます。
+連続配信は、単一の配信と配信ログ（broadLog）を作成し、その配信を参照するトラッキングログは、実行のたびに 1 つ追加されます。
 
 ![連続配信](assets/delivery_continuous.jpg)
 
-このビデオでは、増分クエリを使用して連続配信を設定する方法を示します。
+このビデオでは、増分処理クエリを使用して連続配信を設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12&captions=jpn)

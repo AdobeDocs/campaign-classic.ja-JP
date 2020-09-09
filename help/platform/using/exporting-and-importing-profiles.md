@@ -14,18 +14,18 @@ discoiquuid: 0325ab0f-394e-404b-9f4a-db3cc18d2493
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a8c3586482d05648de3bdecfdfabcc094c70dbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
 
-# Importing and exporting profiles{#exporting-and-importing-profiles}
+# プロファイルのインポートおよびエクスポート{#exporting-and-importing-profiles}
 
-ワークフローを [使用して、受信者プロファイルをAdobe Campaignデータベースに読み込んだり書き出したり、](#use-workflows) 汎用の読み込みまたは書き出しジョブを設定したりできます [](#create-jobs)。
+[ワークフローを使用](#use-workflows)して、受信者プロファイルを Adobe Campaign データベースにインポートまたはエクスポートしたり、[一般的なインポートジョブやエクスポートジョブ](#create-jobs)を設定したりできます。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#import-profiles-video)
 
@@ -33,17 +33,17 @@ ht-degree: 35%
 
 エクスポートとインポートは、ワークフローで「**[!UICONTROL インポート]**」アクティビティおよび「**[!UICONTROL エクスポート]**」アクティビティ経由で実行される専用のテンプレートで設定します。これらのキャンペーンは、例えば複数の情報システム間でデータ交換を自動化するために、スケジュールに従って自動的に繰り返すことができます。[詳細情報](../../workflow/using/importing-data.md#best-practices-when-importing-data)
 
-必要に応じて、以下に説明する **[!UICONTROL 汎用のインポート/エクスポート機能を使用して、インポートジョブまたはエクスポートジョブを]** 作成できます。
+必要に応じて、以下に説明する&#x200B;**[!UICONTROL 一般的なインポートおよびエクスポート]**&#x200B;機能を使用して、頻度の低いインポートジョブまたはエクスポートジョブを作成できます。
 
 ## ジョブの作成{#create-jobs}
 
-To configure and execute data imports and exports jobs, go to the **[!UICONTROL Profiles and targets]** tab and click the **[!UICONTROL Jobs]** link. [詳細情報](../../platform/using/generic-imports-and-exports.md)
+データのインポートジョブとエクスポートジョブを設定、実行するには、「**[!UICONTROL プロファイルとターゲット]**」タブに移動し、「**[!UICONTROL ジョブ]**」リンクをクリックします。[詳細情報](../../platform/using/generic-imports-and-exports.md)
 
 ![](assets/s_ncs_user_interface_import_link.png)
 
 
-## How to import profiles{#import-profiles-video}
+## プロファイルのインポート方法{#import-profiles-video}
 
-このビデオでは、Adobe Campaignでプロファイルを読み込み、ときどき読み込む方法を説明します。
+このビデオでは、Adobe Campaign でプロファイルをインポート（低頻度）する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12&captions=jpn)

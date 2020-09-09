@@ -14,11 +14,11 @@ discoiquuid: 627ade78-96b3-4a6e-9ace-74610a3c8d1a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 この統合を利用して、例えば、Adobe Experience Manager で作成したニュースレターを Adobe Campaign で E メールキャンペーンの一部として使用できます。
 
-この統合を利用する方法の詳細な例については、この[詳細な手順ガイド](https://helpx.adobe.com/campaign/kb/acc-aem.html)を参照してください。
+この統合を利用する方法の詳細な例については、この[詳細な手順ガイド](https://helpx.adobe.com/jp/campaign/kb/acc-aem.html)を参照してください。
 
 **Adobe Experience Manager から：**
 

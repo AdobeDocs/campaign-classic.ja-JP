@@ -14,11 +14,11 @@ discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1725'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,20 +32,20 @@ ht-degree: 91%
 * 配信のメイン受信者[詳細を表示](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
 * 配達確認メッセージの受信者（検証サイクルを設定するため）[詳細を表示](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
 
-また、配信がマーケティングキャンペーンに含まれている場合は、 [シードアドレス](../../delivery/using/about-seed-addresses.md)、 [コントロール母集団を定義することもできます](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)。
+また、配信がマーケティングキャンペーンに含まれている場合は、[シードアドレス](../../delivery/using/about-seed-addresses.md)と[コントロール母集団](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)を定義することもできます。
 
 ## 配信のメイン受信者の選択 {#selecting-the-main-target}
 
-ほとんどの場合、メインターゲットはAdobe Campaignデータベース（デフォルトモード）から抽出されます。 ただし、受信者は外部ファイルに保存することもできます。 詳しくは、[この節](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients)を参照してください。
+ほとんどの場合、メインターゲットは Adobe Campaign データベースから抽出されます（デフォルトモード）。ただし、受信者は、外部ファイルに保存することもできます。詳しくは、[この節](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients)を参照してください。
 
 配信の受信者を選択するには、次の手順に従います。
 
-1. 配信エディタで、「 **[!UICONTROL 宛先]**」を選択します。
-1. 受信者がデータベースに格納されている場合は、最初のオプションを選択します。
+1. 配信エディターで、「**[!UICONTROL 宛先]**」を選択します。
+1. 受信者の情報がデータベースに格納されている場合は、第 1 のオプションを選択します。
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. **[!UICONTROL ターゲットマッピング]**&#x200B;ドロップダウンリストでターゲットマッピングを選択します。Adobe Campaignのデフォルトターゲットマッピングは、 **[!UICONTROL nms:受信者]**&#x200B;スキーマに基づく **受信者** です。
+1. **[!UICONTROL ターゲットマッピング]**&#x200B;ドロップダウンリストでターゲットマッピングを選択します。Adobe Campaign のデフォルトターゲットマッピングは&#x200B;**[!UICONTROL 受信者]**&#x200B;で、**nms:recipient** スキーマに基づきます。
 
    他のターゲットマッピングも使用でき、一部のターゲットマッピングは特定の設定に関連付けることができます。ターゲットマッピングについて詳しくは、[ターゲットマッピングの選択](../../delivery/using/selecting-a-target-mapping.md)を参照してください。
 
@@ -155,7 +155,7 @@ ht-degree: 91%
 
       ![](assets/s_ncs_user_wizard_email02j.png)
 
-* **[!UICONTROL 連絡を取りたくない受信者]** (ブロックリスト上の電子メールアドレスを持つ受信者(「オプトアウト」)など)を除外します。 E マーケティングのビジネス倫理を尊重し、E コマースを規制する法律を遵守するために、このオプションは必ずオンにしておいてください。
+* **[!UICONTROL 今後連絡を希望しない受信者を除外]**：ブロックリストに記載された E メールアドレスを持つ（オプトアウトした）受信者を除外します。E マーケティングのビジネス倫理を尊重し、E コマースを規制する法律を遵守するために、このオプションは必ずオンにしておいてください。
 * **[!UICONTROL 強制隔離された受信者を除外]**：プロファイルに入力されているアドレスからの応答がないターゲットを除外します。このオプションは必ずオンにしておくことをお勧めします。
 
    >[!NOTE]
@@ -233,11 +233,11 @@ ht-degree: 91%
 
 「**[!UICONTROL 特定のターゲットとシードアドレス]**」オプションを使用すると、特定の配達確認ターゲットの定義とシードアドレスの使用を組み合わせることができます。関連する設定は、異なる 2 つのサブタブで定義します。
 
-## 電子メール内のシードと配達確認を管理する方法 {#seeds-and-proofs-video}
+## E メールでのシードと配達確認の管理方法 {#seeds-and-proofs-video}
 
-このビデオでは、既存の電子メールにシードや配達確認を追加する方法と送信する方法を学びます。
+このビデオでは、既存の E メールにシードと配達確認を追加して送信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12&captions=jpn)
 
 関連項目：
 * [配達確認のターゲットの選択](#selecting-the-proof-target)

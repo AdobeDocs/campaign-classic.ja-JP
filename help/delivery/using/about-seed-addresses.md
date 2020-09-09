@@ -14,11 +14,11 @@ discoiquuid: b49acfd0-b601-4694-88e3-cc0a169cb866
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 92%
 
 これらを使用する主な理由の 1 つが、**メーリングリスト保護**&#x200B;です。メーリングリストにシードアドレスを挿入すると、メーリングリストに送信された配信をシードアドレスが受信するので、第三者によってメーリングリストが使用されているかどうかを知ることができます。
 
-Moreover, seed addresses let you **preview and test the deliveries personalization and rendering** before their sending, by sending them proofs (see [Using seed addresses as proof](../../delivery/using/steps-defining-the-target-population.md#using-seed-addresses-as-proof).
+さらに、シードアドレスを使用すると、配達確認を送信することで、送信前に&#x200B;**配信のパーソナライゼーションとレンダリングをプレビューおよびテスト**&#x200B;できます（[配達確認としてのシードアドレスの使用](../../delivery/using/steps-defining-the-target-population.md#using-seed-addresses-as-proof)を参照）。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](../../delivery/using/steps-defining-the-target-population.md#seeds-and-proofs-video)
 

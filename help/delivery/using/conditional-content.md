@@ -14,11 +14,11 @@ discoiquuid: 167cc61a-fbc7-48cb-89ff-fbdbf9321c01
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -119,6 +119,6 @@ ht-degree: 93%
 
 ## 条件付きコンテンツを含む多言語ニュースレターの作成方法 {#conditionnal-content-video}
 
-多言語ニュースレターの例で、配信に条件付きコンテンツを追加する方法を説明します。
+複数言語のニュースレターの例を使用して、配信に条件付きコンテンツを追加する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12&captions=jpn)

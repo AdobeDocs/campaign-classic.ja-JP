@@ -14,11 +14,11 @@ discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2673'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -47,11 +47,11 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 
 同様に、E メールアドレスが強制隔離されているプロファイルは、プロファイルを更新して新しいアドレスを入力できるので、再び配信アクションのターゲットになる可能性があります。
 
-Being on the **block list**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
+一方、**ブロックリストへの登録**&#x200B;では、登録されたプロファイルが、購読解除（オプトアウト）後のように、それ以降はどのような配信のターゲットにもならなくなります。
 
 >[!NOTE]
 >
->ユーザがSMS配信からオプトアウトするために「STOP」などのキーワードを持つSMSメッセージに返信した場合、電子メールオプトアウト処理のように、ブロックリストにプロファイルは追加されません。 強制隔離されるのはプロファイルの電話番号なので、そのユーザーは引き続き E メールメッセージを受信できます。
+>SMS 配信からのオプトアウトのために「STOP」のようなキーワードを使ってユーザーが SMS メッセージに返信しても、そのユーザーのプロファイルは、E メールのオプトアウトプロセスのようにはブロックリストに登録されません。強制隔離されるのはプロファイルの電話番号なので、そのユーザーは引き続き E メールメッセージを受信できます。
 
 ## 強制隔離アドレスの識別 {#identifying-quarantined-addresses}
 
@@ -102,30 +102,30 @@ Being on the **block list**, on the other hand, will result in the profile no lo
 
 ### 強制隔離されたアドレスの削除 {#removing-a-quarantined-address}
 
-必要に応じて、強制隔離リストから手動でアドレスを削除できます。 これに加えて、特定の条件に一致するアドレスは、 **[!UICONTROL Database cleanup]** Workflowによって強制隔離リストから自動的に削除されます。
+必要に応じて、強制隔離リストから手動でアドレスを削除できます。これに加えて、特定の条件に一致するアドレスは、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローによって強制隔離リストから自動的に削除されます。
 
-強制隔離リストからアドレスを手動で削除するには：
+強制隔離リストからアドレスを手動で削除するには、以下を実行します。
 
-* 「 **[!UICONTROL 管理」>「キャンペーン管理」>「]** 非成果物管理」>「非成果物および住所」ノードから、ステータスを「 **[!UICONTROL 有効]** 」に変更できます。
+* **[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信不能件数およびアドレス]**&#x200B;ノードから、ステータスを「**[!UICONTROL 有効]**」に変更できます。
 
    ![](assets/tech_quarant_error_status.png)
 
-* また、ステータスを「 **[!UICONTROL 許可リスト時」に変更することもできます]**。 この場合、アドレスは強制隔離リストに残りますが、エラーが発生した場合でも、体系的にターゲットが定められます。
+* また、ステータスを「**[!UICONTROL 許可リストに登録済み]**」に変更することもできます。この場合、アドレスは強制隔離リストに残りますが、エラーが発生した場合でも、自動的にターゲットに設定されます。
 
 <!--Addresses on the block list are not concerned by the quarantine system and are not targeted, even if you change the status of the address.-->
 
 次の場合、アドレスは強制隔離リストから自動的に削除されます。
 
-* 「エラー **[!UICONTROL あり]** 」ステータスのアドレスは、配信が正常に完了すると、強制隔離リストから削除されます。
-* 「エラー **[!UICONTROL あり]** 」のステータスにあるアドレスは、最後のソフトバウンスが10日以上前に発生した場合に、強制隔離リストから削除されます。 ソフトエラー管理の詳細については、 [この節を参照してください](#soft-error-management)。
-* [エラー **[!UICONTROL あり]** ]状態のアドレスで、 **** メールボックスのフルエラーでバウンスしたアドレスは、30日後に強制隔離リストから削除されます。
+* 「**[!UICONTROL エラーあり]**」ステータスのアドレスは、配信が正常に完了すると、強制隔離リストから削除されます。
+* 「**[!UICONTROL エラーあり]**」ステータスのアドレスは、最後のソフトバウンスが 10 日以上前に発生した場合に、強制隔離リストから削除されます。ソフトエラー管理について詳しくは、[この節](#soft-error-management)を参照してください。
+* 「**[!UICONTROL エラーあり]**」ステータスのアドレスで、**[!UICONTROL メールボックス容量超過]**&#x200B;エラーでバウンスしたアドレスは、30 日後に強制隔離リストから削除されます。
 
-その後、ステータスが **[!UICONTROL 有効に変わります]**。
+その後、ステータスは「**[!UICONTROL 有効]**」に変わります。
 
 >[!IMPORTANT]
-アドレスが **[!UICONTROL 強制隔離]** 、 **** またはブロックリスト時のステータスの受信者は、電子メールを受信した場合でも削除されません。
+アドレスのステータスが「**[!UICONTROL 強制隔離中]**」または「**[!UICONTROL ブロックリストに登録済み]**」の受信者は、E メールを受信した場合でも削除されません。
 
-エラーの数と2つのエラーの間隔を変更できます。 To do this, change the corresponding settings in the deployment wizard (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**). デプロイウィザードについて詳しくは、[この節](../../installation/using/deploying-an-instance.md)を参照してください。
+エラー数およびエラーの間隔も変更できます。そのためには、デプロイメントウィザードの設定（**[!UICONTROL E メールチャネル]**／**[!UICONTROL 詳細設定パラメーター]**）を変更します。デプロイメントウィザードについて詳しくは、[この節](../../installation/using/deploying-an-instance.md)を参照してください。
 
 ## アドレスを強制隔離する条件 {#conditions-for-sending-an-address-to-quarantine}
 

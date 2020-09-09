@@ -12,11 +12,11 @@ discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a8c3586482d05648de3bdecfdfabcc094c70dbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2628'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->データのインポート時には、Adobe Campaign契約に従って、SFTPストレージ、データベースストレージ、アクティブプロファイルの制限に注意してください。
+>データのインポート時には、Adobe Campaign の契約条件が定める SFTP ストレージ、データベースストレージ、アクティブプロファイルの制限に注意してください。
 
 ## データの収集方法 {#how-to-collect-data}
 
@@ -131,7 +131,7 @@ Adobe Campaign データベースのデータの一貫性を維持するには�
 
 * データをインポートする際には、**重複排除**&#x200B;し、紐付けし、一貫性を維持します。
 
-## 使用例：定期インポートの設定 {#setting-up-a-recurring-import}
+## 使用例：繰り返しインポートの設定 {#setting-up-a-recurring-import}
 
 同じ構造のファイルを頻繁にインポートする必要がある場合、インポートテンプレートを使用することをお勧めします。
 

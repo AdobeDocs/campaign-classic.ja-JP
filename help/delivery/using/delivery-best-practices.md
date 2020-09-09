@@ -12,18 +12,18 @@ discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e7dfc5cebf6b59d1b7e718fcab289691d8b76de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '97'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
 
 # 配信のベストプラクティス {#delivery-best-practices}
 
-Adobe Campaignを使用した配信の設計と送信に関するベストプラクティスを学びます。 トピック間を移動し、ガイダンスを見つけるには、以下のリンクを使用してください。
+Adobe Campaign を使用した配信のデザインと送信に関するベストプラクティスについて説明します。トピック間を移動してガイダンスを確認するには、次のリンクを使用してください。
 
 <table>
 <tr>
@@ -37,7 +37,7 @@ Adobe Campaignを使用した配信の設計と送信に関するベストプラ
     </a>
     </div>
     <p>
-    <em>送信プロセスの保護と最適化</em>
+    <em>送信プロセスを保護および最適化します</em>
     <p>
   </td>
    <td>
@@ -50,12 +50,12 @@ Adobe Campaignを使用した配信の設計と送信に関するベストプラ
     </a>
     </div>
     <p>
-    <em>新しい配信を容易にし、締め付ける</em>
+    <em>配信プロセスを簡素化し、迅速な展開を実現します</em>
     <p>
   </td>
   <td>
     <a href="design-and-personalize.md">
-      <img alt="設計" src="assets/do-not-localize/custom.svg" width="60px"/>
+      <img alt="デザイン" src="assets/do-not-localize/custom.svg" width="60px"/>
     </a>
     <div>
       <a href="design-and-personalize.md">
@@ -63,7 +63,7 @@ Adobe Campaignを使用した配信の設計と送信に関するベストプラ
     </a>
     </div>
     <p>
-    <em>正しい設定の適用</em>
+    <em>適切な設定を適用します</em>
     <p>
   </td>
 </tr>
@@ -78,7 +78,7 @@ Adobe Campaignを使用した配信の設計と送信に関するベストプラ
     </a>
     </div>
     <p>
-    <em>ターゲット母集団が重要</em>
+    <em>ターゲット母集団が成功の鍵となります</em>
     <p>
   </td>
    <td>
@@ -87,11 +87,11 @@ Adobe Campaignを使用した配信の設計と送信に関するベストプラ
     </a>
     <div>
       <a href="check-before-sending.md">
-    <strong>送信前に確認</strong>
+    <strong>送信前の確認</strong>
     </a>
     </div>
     <p>
-    <em>一般的なミスの回避</em>
+    <em>一般的なミスを回避します</em>
     <p>
   </td>
   <td>
@@ -104,7 +104,7 @@ Adobe Campaignを使用した配信の設計と送信に関するベストプラ
     </a>
     </div>
     <p>
-    <em>送信とトラブルシューティングの制御</em>
+    <em>送信を制御し、問題を解決します</em>
     <p>
   </td>
 </tr>
@@ -116,4 +116,4 @@ Adobe Campaignを使用した配信の設計と送信に関するベストプラ
 
 * [配信の作成手順](../../delivery/using/steps-about-delivery-creation-steps.md)
 
-* [セキュリティとプライバシーのチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)
+* [セキュリティ／プライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)

@@ -12,11 +12,11 @@ discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 24d2dded38ddb922891a7264d9efea02cb448323
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ ISP やその他の組織（[プロジェクトハニーポット](https://www.p
 
 ## ベストプラクティス{#best-practices}
 
-Adobe Campaignでの配信品質に関するベストプラクティスを学びます。 トピック間を移動し、ガイダンスを見つけるには、以下のリンクを使用してください。
+Adobe Campaign での配信品質に関するベストプラクティスについて説明します。トピック間を移動してガイダンスを確認するには、次のリンクを使用してください。
 
 <table>
 <tr>
@@ -138,7 +138,7 @@ Adobe Campaignでの配信品質に関するベストプラクティスを学び
     </a>
     <div>
       <a href="monitoring-deliverability.md">
-    <strong>モニタ</strong>
+    <strong>監視</strong>
     </a>
     </div>
     <p>

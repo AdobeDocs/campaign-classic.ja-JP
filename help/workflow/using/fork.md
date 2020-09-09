@@ -12,21 +12,21 @@ discoiquuid: 16f50f5f-cbad-4de7-aa73-38615ae76ac0
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ed7e59be2cfbde467b0c80d21cfbf52016a2b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '72'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
 # 分岐{#fork}
 
-フォークを使用すると、すべてのアウトバウンドアクティビティを並行してアクティブ化できます。
+分岐を使用すると、すべてのアウトバウンドアクティビティを並行して有効化できます。
 
-例えば、コンテンツの作成と自動送信の配信に関するアクティビティを使用して、ターゲットの計算とコンテンツの作成を同時に開始できます。 この節では、専用の使用例を紹介 [します](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)。
+例えば、コンテンツの作成と配信の自動送信のコンテキストで分岐アクティビティを使用して、ターゲットの計算とコンテンツの作成を同時に開始できます。該当する使用例については、[この節](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)を参照してください。
 
-アクティビティを設定するには、そのトランジションを開き、目的のアウトバウンドの番号とラベルを定義します。
+分岐アクティビティを設定するには、分岐アクティビティを開き、該当するアウトバウンドトランジションの番号とラベルを定義します。
 
 ![](assets/s_user_segmentation_fork.png)

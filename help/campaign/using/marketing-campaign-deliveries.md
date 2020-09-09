@@ -14,11 +14,11 @@ discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3115'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -81,11 +81,11 @@ ht-degree: 97%
 >
 >同じキャンペーン内に 28 を超えるワークフローを設定することはできません。この上限を超えると、追加のワークフローはインターフェイスに表示されず、エラーが発生する可能性があります。
 
-### キャンペーンでの電子メールの作成方法 {#create-email-video}
+### キャンペーンでの E メールの作成方法 {#create-email-video}
 
-このビデオでは、Adobe Campaign Classicでキャンペーンと電子メールを作成する方法を説明します。
+このビデオでは、Adobe Campaign Classic でキャンペーンと E メールを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12&captions=jpn)
 
 
 #### ターゲティングワークフローの作成 {#creating-a-targeting-workflow}
@@ -228,7 +228,7 @@ ht-degree: 97%
 
    ![](assets/s_ncs_user_edit_op_general_tab_exe_target.png)
 
-The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
+設定手順について詳しくは、[メインターゲットからのコントロール母集団の抽出](#extracting-the-control-group-from-the-main-target)および[コントロール母集団の追加](#adding-a-population)で説明しています。
 
 #### 配信のコントロール母集団の有効化 {#activating-the-control-group-for-a-delivery}
 
@@ -247,7 +247,7 @@ The configuration procedure is presented in [Extracting the control group from t
 1. 「**[!UICONTROL コントロール母集団]**」タブをクリックし、「**[!UICONTROL コントロール母集団の設定を有効にして編集]**」を選択します。
 1. 「**[!UICONTROL 編集...]**」をクリックして、コントロール母集団を設定します。。
 
-The configuration procedure is presented in [Extracting the control group from the main target](#extracting-the-control-group-from-the-main-target) and [Adding a control group](#adding-a-population).
+設定手順について詳しくは、[メインターゲットからのコントロール母集団の抽出](#extracting-the-control-group-from-the-main-target)および[コントロール母集団の追加](#adding-a-population)で説明しています。
 
 #### メインターゲットからのコントロール母集団の抽出 {#extracting-the-control-group-from-the-main-target}
 
@@ -266,7 +266,7 @@ The configuration procedure is presented in [Extracting the control group from t
 
 この設定は、ワークフロー内の共有アクティビティと同等で、ターゲットをサブセットに分割できます。コントロール母集団は、このようなサブセットのひとつです。詳しくは、[この節](../../workflow/using/architecture.md)を参照してください。
 
-### Adding a control group {#adding-a-population}
+### コントロール母集団の追加 {#adding-a-population}
 
 コントロール母集団として使用する新しい母集団を定義できます。この母集団は、受信者のグループから作成することも、特定のクエリを使用して作成することもできます。
 

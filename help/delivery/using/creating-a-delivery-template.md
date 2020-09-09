@@ -14,11 +14,11 @@ discoiquuid: 0e67d9dd-3ee8-4c06-98a4-3a2c644b6c0a
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -78,18 +78,18 @@ ht-degree: 78%
 
 ## 配信テンプレートの設定方法 {#delivery-template-video}
 
-次のビデオでは、アドホック配信用のテンプレートを設定する方法を示します。
+次のビデオでは、アドホック配信用のテンプレートを設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12&captions=jpn)
 
-## 配信テンプレートプロパティの設定方法
+## 配信テンプレートのプロパティの設定方法
 
-次のビデオでは、配信テンプレートのプロパティを設定する方法を示し、各プロパティについて詳しく説明します。
+次のビデオでは、配信テンプレートのプロパティを設定する方法と各プロパティの詳細について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12&captions=jpn)
 
 ## アドホック配信テンプレートのデプロイ方法
 
-このビデオでは、アドホック電子メール配信テンプレートを導入する方法と、電子メール配信と配信ワークフローの違いを説明します。
+このビデオでは、アドホック E メール配信テンプレートを導入する方法と、E メール配信と配信ワークフローの違いについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12&captions=jpn)

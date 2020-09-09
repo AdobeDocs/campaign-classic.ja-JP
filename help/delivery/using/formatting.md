@@ -480,7 +480,7 @@ XSLT 言語を使用して、XML ドキュメントを出力ドキュメント�
    <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
    ```
 
-* 条件付きテスト **&lt;% if (recipient.language == &#39;en&#39;) `{` %>** の追加：
+* 条件付きテスト **&lt;% if (recipient.language == &#39;en&#39;)`{`{ %>** の追加：
 
    ```
    <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>

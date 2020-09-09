@@ -14,11 +14,11 @@ discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
 1. 設定ファイル内に [!DNL pipelined] 要素が存在するかどうかを確認します。存在しない場合は、パイプラインはサポートされていません。
 1. バージョン 6.11 ビルド 8705 以降にアップグレードします。
 
-**パイプラインが「aurait doencer par`[`ou`{`(iRc=16384)」で失敗する**
+**`[``{`パイプラインが失敗し、「aurait dû commencer par  ou  (iRc=16384)」と表示される**
 
 **NmsPipeline_Config** オプションが設定されていません。これは実際には JSON 解析エラーです。
 JSON 設定を **NmsPipeline_Config** オプションで指定します。このページの「ルーティングオプション」を参照してください。

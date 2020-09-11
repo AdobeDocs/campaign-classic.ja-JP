@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c96c94fe0b98e298968c329466ee4e2e04b11a35
+source-git-commit: f92180f93850d5bc33e74210d17cdd36c0c15e5f
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 98%
+source-wordcount: '2119'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,28 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
 
-## ![](assets/do-not-localize/blue_2.png) リリース 20.2.2 - ビルド 9180 {#release-20-2-2-build-9180}
+## ![](assets/do-not-localize/blue_2.png) リリース 20.2.3 - ビルド 9182 {#release-20-2-3-build-9182}
+
+_2020年9月11日_
+
+* 配信過負荷につながる回帰部分で、単一の誤った関数が発生して配信準備がブロックされるという回帰を修正。 （NEO-27346）
+
+
+* アップグレード後に、Webアプリケーションの再パブリケーション前にApacheとWebサーバーが無効になっていた問題を修正しました。 （NEO-27155）
+
+
+* HTMLテンプレート管理で、タブの解釈が誤っているために追跡URLが表示される問題を修正しました。 （NEO-25909）
+
+
+* 管理対象外のデータソースが原因で失敗する可能性があるデータベースのクリーンアップワークフローに関する問題を修正しました。 （NEO-23160、NEO-23364）
+* クリーンアップワークフローでは、期限切れのリストが1つずつではなく100のバッチで削除されるようになりました。
+* 外部アカウントの内部名を変更できなかった回帰を修正しました。 （NEO-27323）
+
+
+* アップグレード後の回帰を修正すると、nlserverの誤った開始が発生する（エラーログ）。
+* 共有メモリの更新管理が改善されました。 20.2で必要となる追加の手順は、不要になりました。
+
+## ![](assets/do-not-localize/orange_2.png) リリース 20.2.2 - ビルド 9180 {#release-20-2-2-build-9180}
 
 _2020 年 7 月 22 日_
 

@@ -12,9 +12,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 27a72257904ff356b1a341c29f9a1ab3ccb20dd2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ac2d993f525eb918ad5e15104eb3ede9eeadfb43
+workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 **最後の安定したビルド**&#x200B;は、Gold Standard 6 です。[ここ](../../rn/using/gold-standard.md)をクリックしてください
 
-![](assets/do-not-localize/limited.png) **Limited Availability（制限された可用性）** - 本番環境で現在検証中のビルドです。オンデマンドでのデプロイメントのみ可能です。
+![](assets/do-not-localize/limited3.png) **Limited Availability（制限された可用性）** - 本番環境で現在検証中のビルドです。オンデマンドでのデプロイメントのみ可能です。
 
 ![](assets/do-not-localize/blue3.png) **Release Candidate（リリース候補）** - アドビによって検証されたビルドです。本番環境での検証待ちです。
 

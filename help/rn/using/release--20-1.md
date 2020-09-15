@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e31efa347b42b4ccb532ca5f79e73745b5a7878b
-workflow-type: ht
-source-wordcount: '1331'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9357be26b1bc436b19861faa2a43ec6a17cb5b3c
+workflow-type: tm+mt
+source-wordcount: '1344'
+ht-degree: 97%
 
 ---
 
@@ -107,7 +107,7 @@ _2020 年 2 月 17 日_
 
 * 不要なデータベース接続の影響を受ける可能性があるクエリのパフォーマンスを向上しました。
 
-* データベース更新ウィザードのパフォーマンスを向上しました。
+* データベース更新ウィザードのパフォーマンスを改善し、応答時間を最適化するためにSQL文の数を減らしました。
 
 * データベースレコードの管理が強化されました。
 
@@ -183,7 +183,7 @@ _2020 年 2 月 17 日_
 
 * FDA スキーマをターゲティングディメンションとして使用し、ワークフローの&#x200B;**データを更新**&#x200B;アクティビティで大量のデータを削除、挿入、または更新する際に発生していた問題を修正しました。（NEO-13280）
 
-* `body` タグの外で if 文を使用すると E メールが送信されない問題を修正しました。（NEO-18628）
+* HTMLコンテンツタグの外部にJavaScriptコードがある場合に電子メールが送信されない問題を修正しました。 （NEO-18628）
 
 * 送信されたメッセージの配信ログからミラーページを表示しようとした際に発生していた問題を修正しました。（NEO-17976）
 

@@ -14,9 +14,9 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2604df2e6b6a7520e2f2a82f04c75ceb749fde79
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ac2d993f525eb918ad5e15104eb3ede9eeadfb43
+workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Gold Standard のユーザーは、安定した最新バージョンを使用す
 
 Gold Standard のアップグレードの詳細については、この[記事](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)を参照してください。
 
-## ![](assets/do-not-localize/limited.png) Gold Standard 10 リリース{#gs-10}
+## ![](assets/do-not-localize/limited_2.png) Gold Standard 10 リリース{#gs-10}
 
 _2020 年 7 月 7 日_
 
@@ -62,6 +62,8 @@ _2020 年 6 月 22 日_
 * パーソナライゼーションパラメーター（シャープ記号の付いたアンカータグ）のフラグメントを使用した URL のトラッキングが機能しなかった問題を修正しました。（NEO-25774）
 * フィッシング詐欺対策サービスの問題を修正しました。（NEO-25283）
 * 特定のカスタムトラッキング式を使用する場合のトラッキングの問題を修正しました。（NEO-25277）
+
+
 
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 8 リリース{#gs-8}

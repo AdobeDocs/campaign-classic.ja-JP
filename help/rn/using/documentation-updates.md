@@ -12,11 +12,11 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 70efc8a7f1fab68d73e36b4373116c4aaaa0af5d
-workflow-type: ht
-source-wordcount: '7180'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 562f9f5411284cdf763821b0179ae795fa4bc48a
+workflow-type: tm+mt
+source-wordcount: '7200'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 100%
 このページには、毎月および Campaign の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
 
 その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
+
+## 2020 年 9 月 {#september-2020}
+
+* アクティブなプロファイル数がマーケティングインスタンスでのみ使用できることを示す注記が追加されました。 [詳細を表示](../../platform/using/about-profiles.md#active-profiles)
 
 ## 2020 年 8 月 {#aug-2020}
 

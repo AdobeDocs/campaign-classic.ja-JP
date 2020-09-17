@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2bd946fc0e5b206280a7946e0cbc6fa6d1be90f2
+source-git-commit: ab9d2c2e80ba09b5a2cceadb49c06ff13989da0f
 workflow-type: tm+mt
 source-wordcount: '2161'
 ht-degree: 88%
@@ -63,7 +63,8 @@ _2020 年 7 月 22 日_
 * 特定のカスタムトラッキング式を使用する場合のトラッキングの問題を修正しました。（NEO-25277）
 
 
-「通知クリック数」のトラッキングが機能しない問題を修正しました（iOS および Android のプッシュ通知）。（NEO-25965）
+
+* 「通知クリック数」のトラッキングが機能しない問題を修正しました（iOS および Android のプッシュ通知）。（NEO-25965）
 * ワークフローの回帰影響の計算済みフィールドでワークフローが失敗する問題を修正しました。 （NEO-25194）
 * Web 追跡 URL のオンザフライ作成が機能しない問題を修正しました。（NEO-20999）
 * PDFに書き出すとすぐに使用できる配信レポートが切り捨てられて表示されていた問題が修正されました。 （NEO-25757）

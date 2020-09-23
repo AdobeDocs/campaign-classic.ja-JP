@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ac2d993f525eb918ad5e15104eb3ede9eeadfb43
+source-git-commit: 7f7b53f0a7ec0f50bf3a99314606272b8ebdc8d7
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 ![](assets/do-not-localize/green3.png)**General Availability（一般的な可用性）** - 利用可能な最新の安定したビルドです。ビルドは本番環境で検証済みです。
 
-**最後の安定したビルド**&#x200B;は、Gold Standard 6 です。[ここ](../../rn/using/gold-standard.md)をクリックしてください
+**最後の安定したビルド**&#x200B;は、Gold Standard 10 です。[ここ](../../rn/using/gold-standard.md#gs-10)をクリックしてください
 
 ![](assets/do-not-localize/limited3.png) **Limited Availability（制限された可用性）** - 本番環境で現在検証中のビルドです。オンデマンドでのデプロイメントのみ可能です。
 
@@ -49,7 +49,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 ホスト型顧客（マネージドサービスまたはハイブリッド）は、環境をアップグレードするには、サポートに連絡する必要があります。
 
-Gold Standard のユーザーは、安定した最新バージョンを使用することで、自動的に Gold Standard のアップグレードのメリットが得られるため、操作は必要ありません。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html#gs-6)
+Gold Standard のユーザーは、安定した最新バージョンを使用することで、自動的に Gold Standard のアップグレードのメリットが得られるため、操作は必要ありません。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html#gs-10)
 
 オンプレミスユーザーは、アップグレードを実行できます。これをおこなうには、[最新の安定したビルドをダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)して、すべての環境をアップグレードする必要があります。[アップグレードプロセス](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)の詳細については、[ビルドアップグレードの FAQ](https://helpx.adobe.com/jp/campaign/kb/build-upgrade-faq.html) を参照してください。
 

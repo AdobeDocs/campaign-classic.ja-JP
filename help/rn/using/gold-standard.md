@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ac2d993f525eb918ad5e15104eb3ede9eeadfb43
+source-git-commit: 7f7b53f0a7ec0f50bf3a99314606272b8ebdc8d7
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Gold Standard のユーザーは、安定した最新バージョンを使用す
 
 Gold Standard のアップグレードの詳細については、この[記事](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)を参照してください。
 
-## ![](assets/do-not-localize/limited_2.png) Gold Standard 10 リリース{#gs-10}
+## ![](assets/do-not-localize/green_2.png) Gold Standard 10 リリース{#gs-10}
 
 _2020 年 7 月 7 日_
 
@@ -64,8 +64,6 @@ _2020 年 6 月 22 日_
 * 特定のカスタムトラッキング式を使用する場合のトラッキングの問題を修正しました。（NEO-25277）
 
 
-
-
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 8 リリース{#gs-8}
 
 _2020 年 4 月 29 日_
@@ -91,7 +89,7 @@ _2020 年 4 月 29 日_
 * クリーンアップワークフローがクラッシュする原因となる問題を修正しました。
 * クリーンアップワークフローログの軽度の問題を修正しました。
 
-## ![](assets/do-not-localize/green_2.png) Gold Standard 6 リリース{#gs-6}
+## ![](assets/do-not-localize/orange_2.png) Gold Standard 6 リリース{#gs-6}
 
 _2020 年 3 月 9 日_
 

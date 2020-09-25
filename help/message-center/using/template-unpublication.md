@@ -14,11 +14,11 @@ discoiquuid: 43908738-a71a-49be-ac00-175f57a0555c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 71aeeda3edafc64dbe696ce6f344b8b0ccdc43d1
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b9577d190f26e21f116d99d48fdf2bca84585d50
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 100%
 # テンプレートの非公開{#template-unpublication}
 
 メッセージテンプレートは、実行インスタンスで公開した後に非公開にできます。
+
+>[!NOTE]
+>
+>この機能は、キャンペーン20.2リリース以降で利用できます。
 
 パブリッシュ済みのテンプレートは、引き続き呼び出すことができます。したがって、メッセージテンプレートを使用しなくなった場合は、非公開にすることをお勧めします。これは、不要なトランザクションメッセージを誤って送信するのを避けるためです。例えば、クリスマスキャンペーンにのみ使用するメッセージテンプレートを公開したとします。クリスマス期間が終わったらテンプレートを非公開にして、来年の同時期に再度パブリッシュすることができます。
 

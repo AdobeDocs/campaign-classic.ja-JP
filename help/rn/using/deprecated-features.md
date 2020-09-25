@@ -11,7 +11,7 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 900b5a21172440a385dde6eb137bac2e7129bb9d
+source-git-commit: b9577d190f26e21f116d99d48fdf2bca84585d50
 workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 96%
@@ -132,7 +132,7 @@ Campaign Classic では、次のシステムが非推奨（廃止予定）にな
 20.2リリース以降、次のシステムはCampaign Classicに使用されなくなりました。 互換性は20.3リリース（2020年10月）で終了します。
 
 * クライアントコンソール：Windows 7
-* 従来のSMSコネクタ( [廃止された機能を参照)](#deprecated-features)
+* レガシーSMSコネクタ — [廃止された機能を参照してください](#deprecated-features)
 * Federated Data Access用DB2 UDB 10.5 (FDA)
 
 ### Adobe Campaign 19.2 リリース {#compat-19-2-release}

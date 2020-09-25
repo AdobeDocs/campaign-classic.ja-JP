@@ -10,18 +10,18 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 63f07746d39fff22a98b3cd4ab7f2294da778ab3
-workflow-type: ht
-source-wordcount: '1468'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 900b5a21172440a385dde6eb137bac2e7129bb9d
+workflow-type: tm+mt
+source-wordcount: '1444'
+ht-degree: 96%
 
 ---
 
 
 # 非推奨（廃止予定）および削除された機能 {#deprecated-and-removed-features}
 
-アドビは、製品の機能を評価し続けて、より新しい代替手段に置き換えるべき旧機能を特定し、全体的な顧客の価値を向上させ、常に後方互換性を慎重に考慮します。Adobe Campaign Classic はサードパーティ製ツールと連携しており、サポート対象バージョンのみに対応するために、定期的に互換性が更新されています。Adobe Campaign Classic と互換性がなくなったバージョンを、以下および[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)に示します。
+アドビは、製品の機能を評価し続けて、より新しい代替手段に置き換えるべき旧機能を特定し、全体的な顧客の価値を向上させ、常に後方互換性を慎重に考慮します。Adobe Campaign Classic はサードパーティ製ツールと連携しており、サポート対象バージョンのみに対応するために、定期的に互換性が更新されています。Adobe Campaign Classic と互換性がなくなったバージョンを、以下および[互換性マトリックス](../../rn/using/compatibility-matrix.md)に示します。
 
 Campaign Classic 機能の差し迫った削除／置換を伝達するため、次の規則が適用されます。
 
@@ -49,7 +49,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
    <tr>
   <td>SMS コネクタ<br></td>
-  <td><p> 20.2 リリースより、次の SMS コネクタは非推奨となります。<p>
+  <td><p> キャンペーン20.2リリース以降、次のSMSコネクタは非推奨となりました。<p>
    <ul>
    <li>NetSize</li>
    <li>一般的な SMPP（バイナリモードをサポートする SMPP バージョン 3.4）</li>
@@ -66,7 +66,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
  </tr>
   <tr>  
    <td>FAX チャネル<br></td>
-   <td><p>20.2 リリースより、FAX チャネルは非推奨となります。</p> 
+   <td><p>キャンペーン20.2リリース以降、Faxチャネルは非推奨となります。</p> 
    <p>このチャネルを使用する場合は、それに応じて実装を適応させる必要があります。Campaign チャネルの<a href="../../delivery/using/steps-about-delivery-creation-steps.md">詳細情報</a>を参照してください。</p>
    <p><em>削除予定日：2021 年</em></p></td>
   </tr>
@@ -125,14 +125,15 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
 
 ## 非推奨（廃止予定）の互換性 {#deprecated-compatibility}
 
-Campaign Classic では、次のシステムが非推奨（廃止予定）になっています。[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)を参照し、互換性がなくなる前に、新しいバージョンにアップグレードするか、新しいシステムに移行してください。
+Campaign Classic では、次のシステムが非推奨（廃止予定）になっています。[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照し、互換性がなくなる前に、新しいバージョンにアップグレードするか、新しいシステムに移行してください。
 
 ### Adobe Campaign 20.2 リリース {#compat-20-2-release}
 
-20.2 リリースより、Campaign Classic は次のシステムが非推奨（廃止予定）になります。互換性は 20.3 リリース（2020 年 9 月）で終了します。
+20.2リリース以降、次のシステムはCampaign Classicに使用されなくなりました。 互換性は20.3リリース（2020年10月）で終了します。
 
 * クライアントコンソール：Windows 7
-* 従来の SMS コネクタ（以下の非推奨（廃止予定）の機能の節を参照）
+* 従来のSMSコネクタ( [廃止された機能を参照)](#deprecated-features)
+* Federated Data Access用DB2 UDB 10.5 (FDA)
 
 ### Adobe Campaign 19.2 リリース {#compat-19-2-release}
 
@@ -141,17 +142,17 @@ Campaign Classic では、次のシステムが非推奨（廃止予定）にな
 * Web サーバー：Apache 2.2。
 * オペレーティングシステム：CentOS 6。
 
-[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)を参照し、新しいバージョンにアップグレードするか、新しいシステムに移行してください。
+[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照し、新しいバージョンにアップグレードするか、新しいシステムに移行してください。
 
 ## 互換性の終了 {#end-of-compatibility}
 
 >[!CAUTION]
 >
->Adobe Campaign Classic は、[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)に記載されているすべてのシステムおよびツールと互換性があります。これらのサードパーティ製システムおよびツールの特定のバージョンが、それぞれの作成者による提供が終了した（EOL）場合、Adobe Campaign はこれらのバージョンとの互換性を失います。これらは非推奨と発表された後、以降の製品リリースで互換表から削除されます。問題を回避するため、互換性マトリックスに記載されているシステムのサポート対象バージョンを使用していることを確認してください。
+>Adobe Campaign Classic は、[互換性マトリックス](../../rn/using/compatibility-matrix.md)に記載されているすべてのシステムおよびツールと互換性があります。これらのサードパーティ製システムおよびツールの特定のバージョンが、それぞれの作成者による提供が終了した（EOL）場合、Adobe Campaign はこれらのバージョンとの互換性を失います。これらは非推奨と発表された後、以降の製品リリースで互換表から削除されます。問題を回避するため、互換性マトリックスに記載されているシステムのサポート対象バージョンを使用していることを確認してください。
 
 ### クライアントコンソール {#client-console-eol}
 
-Adobe Campaign Classic クライアントコンソールは、次のシステムでは実行できなくなりました。エディターで非推奨になっています。Campaign クライアントコンソールをこれらのバージョンのいずれかで実行している場合は、削除のターゲット日より前に最新バージョンにアップグレードする必要があります。[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)を参照してください。
+Adobe Campaign Classic クライアントコンソールは、次のシステムでは実行できなくなりました。エディターで非推奨になっています。Campaign クライアントコンソールをこれらのバージョンのいずれかで実行している場合は、削除のターゲット日より前に最新バージョンにアップグレードする必要があります。[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
 
 * Windows Server 2003、2008、2008 R2
 * Windows XP、Vista
@@ -186,7 +187,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 次のデータベースエンジンはエディターによって非推奨となったので、アドビではサポートしません。これらのバージョンを使用する顧客は、最新バージョンにアップグレードするか、別のバージョンに移行する必要があります。
 
-互換性のあるバージョンのリストにアクセスするには、[Campaign Classic 互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)を参照してください。
+互換性のあるバージョンのリストにアクセスするには、[Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
 
 **Federated Data Access（FDA）**
 

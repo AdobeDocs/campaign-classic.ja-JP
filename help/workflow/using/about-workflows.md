@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+source-git-commit: 700cd82d87eccf6579afab5c9e8f7945807817da
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 84%
@@ -82,5 +82,5 @@ Adobe Campaign では、ワークフローを使用して次のことをおこ�
 * ワークフローを使用してキャンペーンにデータをインポートする方法については、 [この節を参照してください](../../workflow/using/importing-data.md)。
 * ワークフローのベストプラクティスについては、 [このページで詳しく説明します](../../workflow/using/workflow-best-practices.md)。
 * ワークフローの実行に関するガイダンスは、 [この節で説明し](../../workflow/using/starting-a-workflow.md)ます。
-* このページでワークフローを監視する方法 [を説明します](../../workflow/using/monitoring-workflow-execution)。
+* このページでワークフローを監視する方法 [を説明します](../../workflow/using/monitoring-workflow-execution.md)。
 * このページでワークフローを使用するためのユーザーへのアクセス権を付与する方法 [を説明します](../../workflow/using/managing-rights.md)。

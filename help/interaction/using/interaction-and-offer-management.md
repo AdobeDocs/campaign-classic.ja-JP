@@ -1,8 +1,6 @@
 ---
 title: インタラクションとオファーの管理
-seo-title: インタラクションとオファーの管理
-description: インタラクションとオファーの管理
-seo-description: null
+description: 実施要件ルールに基づいて、連絡先に最適なオファーを送信します。
 page-status-flag: never-activated
 uuid: 70720baa-e64e-4fb6-8301-fe3920791f79
 contentOwner: sauviat
@@ -14,11 +12,11 @@ discoiquuid: 9fe22450-057c-44b4-ab73-4027a2ddb20c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ad4a40053b25bbf8de81e074e135ef4944f0b427
-workflow-type: ht
-source-wordcount: '287'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 96%
 
 ---
 

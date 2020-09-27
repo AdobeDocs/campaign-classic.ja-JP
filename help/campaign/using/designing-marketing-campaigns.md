@@ -1,7 +1,7 @@
 ---
 title: マーケティングキャンペーンの設計
 seo-title: マーケティングキャンペーンの設計
-description: マーケティングキャンペーンの設計
+description: マーケティングキャンペーンを定義、最適化、実行、分析します。
 seo-description: null
 page-status-flag: never-activated
 uuid: e0fd5df6-7516-4ca6-bbdf-243a264d0283
@@ -14,11 +14,11 @@ discoiquuid: a9eb6627-2e51-42d0-9b29-5b798bdf5b33
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 98%
 
 ---
 

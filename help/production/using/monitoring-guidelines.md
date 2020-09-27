@@ -1,6 +1,6 @@
 ---
 title: 監視のガイドライン
-description: ここでは、Campaign Classicの監視に関する一般的なガイドラインを示します。
+description: キャンペーンインスタンスとプロセスを監視するためのガイドラインとベストプラクティスを検出します。
 page-status-flag: never-activated
 uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
 contentOwner: sauviat
@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '713'
 ht-degree: 15%
 
 ---

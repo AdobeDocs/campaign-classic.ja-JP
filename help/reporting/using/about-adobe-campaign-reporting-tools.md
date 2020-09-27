@@ -1,8 +1,6 @@
 ---
 title: Adobe Campaign のレポートツールについて
-seo-title: Adobe Campaign のレポートツールについて
-description: Adobe Campaign のレポートツールについて
-seo-description: null
+description: 組み込みレポートまたはカスタマイズされたレポートでキャンペーンの成功を分析します。
 page-status-flag: never-activated
 uuid: a8122c9e-60ba-4ef7-bc63-05d6cf16fad0
 contentOwner: sauviat
@@ -14,8 +12,11 @@ discoiquuid: c5dad561-0708-4b7a-84a0-eb00beff58c6
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1719d6ac9643f0b3e9339037cf4d0f209d16340e
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 96%
 
 ---
 

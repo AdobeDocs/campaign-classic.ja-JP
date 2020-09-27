@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaignクラシックデータモデルについて
-description: このドキュメントでは、Adobe Campaignクラシックデータモデルの基本について説明します。
+title: Adobe Campaign Classicデータモデルについて
+description: キャンペーンデータモデルの拡張、スキーマの編集、APIの使用などの方法について説明します。
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 580be39d09bd59770d490945c3ba2b29e12fb3c4
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '976'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 6%
 
 # About the Campaign data model{#about-data-model}
 
-この節では、キャンペーンの組み込みテーブルとその操作について理解を深めるため、Adobe Campaignクラシックデータモデルの基本について説明します。
+この節では、キャンペーンの組み込みテーブルとその操作について理解を深めるため、Adobe Campaign Classicデータモデルの基本について説明します。
 
 Adobe Campaign データベースの概念データモデルは、一連の組み込みテーブルとそのインタラクションで構成されます。
 

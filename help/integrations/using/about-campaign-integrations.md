@@ -1,6 +1,6 @@
 ---
 title: Campaign 統合について
-description: 現行バージョンの Adobe Campaign と Adobe Experience Cloud ソリューションとの間で使用可能な機能の統合について説明します。
+description: 他のAdobeソリューションを使用して、キャンペーンとさまざまな機能を組み合わせます。
 page-status-flag: never-activated
 uuid: 087abdf0-b4b2-45e6-be21-b03bf85ddf83
 contentOwner: sauviat
@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 96%
+source-wordcount: '777'
+ht-degree: 95%
 
 ---
 

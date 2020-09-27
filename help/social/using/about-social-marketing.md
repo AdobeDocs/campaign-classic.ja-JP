@@ -1,8 +1,6 @@
 ---
-title: Social Marketingについて
-seo-title: Social Marketingについて
-description: Social Marketingについて
-seo-description: null
+title: ソーシャルマーケティングについて
+description: キャンペーンを使用してFacebookやTwitter経由で顧客とやり取りする方法を説明します。
 page-status-flag: never-activated
 uuid: 64c861e3-b685-44e2-9b5b-4fbf5d70baa9
 contentOwner: sauviat
@@ -15,28 +13,31 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 92%
 
 ---
 
 
-# Social Marketingについて{#about-social-marketing}
+# ソーシャルマーケティングについて{#about-social-marketing}
 
-ソーシ **ャルネットワークを管理するために設計されたソーシャルネットワークの管理** (Social Marketing)アプリケーションを使用すると、FacebookやTwitterを使用して顧客や見込み客とやり取りすることができます。
+ソーシャルネットワークを管理するために設計された&#x200B;**ソーシャルネットワーク管理**（ソーシャルマーケティング）アプリケーションを使用すると、Facebook や Twitter を使用して顧客や見込み客とやり取りすることができます。
 
 1. **メッセージの送信**
 
-   Social Marketingでは、FacebookやTwitterでメッセージを送信できます。
+   ソーシャルマーケティングでは、Facebook や Twitter でメッセージを送信できます。
 
-   * Adobe Campaignでは、メッセージを直接FacebookのウォールやTwitterアカウントに投稿できます。
-   * また、すべてのTwitterのフォロワーにダイレクトメッセージを送信することもできます。
+   * Adobe Campaign では、メッセージを直接 Facebook のウォールや Twitter アカウントに投稿できます。
+   * また、Twitter フォロワー全員にダイレクトメッセージを送信することもできます。
 
-1. **新しい連絡先を取得しています**
+1. **新しい連絡先の獲得**
 
-   また、Adobe Campaign Social Marketingでは、Facebookを使用して新しい連絡先を簡単に取得できます。ユーザーに連絡し、プロファイル情報を共有するかどうかを尋ねます。 ユーザーが受け入れた場合、Adobe Campaignはデータを自動的に回復します。これにより、ターゲット設定キャンペーンを実行し、可能であれば、クロスチャネル戦略を導入できます。
+   Adobe Campaign ソーシャルマーケティングでは、Facebook を使用して新しい連絡先を簡単に獲得できます。ユーザーに連絡してプロファイル情報を共有したいかどうかを尋ねるのです。ユーザーが同意した場合、Adobe Campaign はデータを自動的に回収します。これにより、キャンペーンのターゲティングを実行し、可能であればクロスチャネル戦略を導入できます。
 
 >[!IMPORTANT]
 >
->FacebookとTwitterは、画面とプロセスを定期的に変更します。 このドキュメントは適宜更新されます。
+>Facebook と Twitter は、画面とプロセスを定期的に変更します。このドキュメントは変更に合わせて適宜更新されます。
 >
->Adobe Campaignは、お客様がFacebookおよびTwitterのサービス規約に準拠するようにリクエストします。
+>Adobe Campaign は、Facebook および Twitter のサービス規約に準拠するよう、お客様にお願いしています。

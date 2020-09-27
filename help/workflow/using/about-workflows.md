@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 700cd82d87eccf6579afab5c9e8f7945807817da
+source-git-commit: 546c8f14006e333bb81aa52a008e9f1dfa79f03b
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 84%
@@ -21,9 +21,9 @@ ht-degree: 84%
 ---
 
 
-# Get started with workflows{#about-workflows}
+# Get started with workflows{#gs-workflows}
 
-## ワークフローについて
+## ワークフローについて{#about-workflows}
 
 Adobe Campaign には、アプリケーションサーバーの様々なモジュールのプロセスおよびタスク全体にわたって調整できるワークフローモジュールが含まれています。この包括的なグラフィカル環境を使用すると、セグメント化、キャンペーン実行、ファイル処理、人の参加などを含むプロセスを設計できます。ワークフローエンジンは、これらのプロセスを実行およびトラッキングします。
 
@@ -73,7 +73,7 @@ Adobe Campaign では、ワークフローを使用して次のことをおこ�
 
    ワークフローのデータおよびテーブルについて詳しくは、[この節](../../workflow/using/how-to-use-workflow-data.md)を参照してください。
 
-## 主な原則とベストプラクティス
+## 主な原則とベストプラクティス{#principles-workflows}
 
 ワークフローを使用してプロセスを自動化するためのガイダンスとベストプラクティスを見つけるには、次の節を参照してください。
 

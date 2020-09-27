@@ -1,8 +1,6 @@
 ---
 title: ワークフローについて
-seo-title: ワークフローについて
-description: ワークフローについて
-seo-description: null
+description: ワークフローを使用してプロセスを自動化し、データとオーディエンスを管理し、メッセージを送信するなど、様々な機能を備えています。
 page-status-flag: never-activated
 uuid: 19adb0e5-042d-47a0-9f92-24e4b3045dbe
 contentOwner: sauviat
@@ -14,13 +12,18 @@ discoiquuid: 868940d1-f19d-4e9a-bffa-8654abb4441c
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+workflow-type: tm+mt
+source-wordcount: '673'
+ht-degree: 84%
 
 ---
 
 
-# ワークフローについて{#about-workflows}
+# Get started with workflows{#about-workflows}
+
+## ワークフローについて
 
 Adobe Campaign には、アプリケーションサーバーの様々なモジュールのプロセスおよびタスク全体にわたって調整できるワークフローモジュールが含まれています。この包括的なグラフィカル環境を使用すると、セグメント化、キャンペーン実行、ファイル処理、人の参加などを含むプロセスを設計できます。ワークフローエンジンは、これらのプロセスを実行およびトラッキングします。
 
@@ -70,3 +73,14 @@ Adobe Campaign では、ワークフローを使用して次のことをおこ�
 
    ワークフローのデータおよびテーブルについて詳しくは、[この節](../../workflow/using/how-to-use-workflow-data.md)を参照してください。
 
+## 主な原則とベストプラクティス
+
+ワークフローを使用してプロセスを自動化するためのガイダンスとベストプラクティスを見つけるには、次の節を参照してください。
+
+* ワークフローアクティビティの詳細については、 [このページを参照してください](../../workflow/using/how-to-use-workflow-data.md)。
+* この節では、ワークフローの構築方法を説明 [します](../../workflow/using/building-a-workflow.md)。
+* ワークフローを使用してキャンペーンにデータをインポートする方法については、 [この節を参照してください](../../workflow/using/importing-data.md)。
+* ワークフローのベストプラクティスについては、 [このページで詳しく説明します](../../workflow/using/workflow-best-practices.md)。
+* ワークフローの実行に関するガイダンスは、 [この節で説明し](../../workflow/using/starting-a-workflow.md)ます。
+* このページでワークフローを監視する方法 [を説明します](../../workflow/using/monitoring-workflow-execution)。
+* このページでワークフローを使用するためのユーザーへのアクセス権を付与する方法 [を説明します](../../workflow/using/managing-rights.md)。

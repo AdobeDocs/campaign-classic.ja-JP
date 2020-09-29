@@ -14,9 +14,9 @@ discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2a5711c4478f8378c079fec4792ecbb95266ad4b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 811d664807776473790b74c4cb6a672b5ca2bdd8
+workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 パーソナライゼーションブロックは動的なもので、パーソナライズされています。そこには、配信に挿入できる特定のレンダリングが格納されています。例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。[パーソナライゼーションブロックの挿入](#inserting-personalization-blocks)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#personalization-blocks-video)
 
 パーソナライゼーションブロックは、Adobe Campaign エクスプローラーの&#x200B;**[!UICONTROL リソース／キャンペーン管理／パーソナライゼーションブロック]**&#x200B;ノードからアクセスします。デフォルトでは、複数のブロックを使用できます（[標準パーソナライゼーションブロック](#out-of-the-box-personalization-blocks)を参照）。
 
@@ -166,4 +166,4 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
 動的コンテンツブロックを作成する方法、および動的コンテンツブロックを使用して E メール配信のコンテンツをパーソナライズする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)

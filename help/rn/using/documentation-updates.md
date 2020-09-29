@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 562f9f5411284cdf763821b0179ae795fa4bc48a
+source-git-commit: 1b76fb1694545f4be02a63e4c670b81db632c5ee
 workflow-type: tm+mt
-source-wordcount: '7200'
-ht-degree: 99%
+source-wordcount: '3702'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,9 @@ ht-degree: 99%
 
 ## 2020 年 9 月 {#september-2020}
 
-* アクティブなプロファイル数がマーケティングインスタンスでのみ使用できることを示す注記が追加されました。 [詳細を表示](../../platform/using/about-profiles.md#active-profiles)
+アクティブなプロファイル数がマーケティングインスタンスでのみ使用できることを示す注記が追加されました。 [詳細を表示](../../platform/using/about-profiles.md#active-profiles)
+
+フィールドを既存の参照テーブルにリンクするための、スキーマ版に関する新しいサンプルを追加しました。 [詳細を表示](../../configuration/using/examples-of-schemas-edition.md#uc-link)
 
 ## 2020 年 8 月 {#aug-2020}
 
@@ -98,9 +100,9 @@ Campaign Classic のプライバシー管理ページが更新され、「規則
 
 Experience Cloud Triggers と Adobe Campaign Classic の統合ページは、[こちら](../../integrations/using/about-triggers.md)に移動されました。
 
-## 20.2 - 2020 年 6 月 8 日{#release-20-2}
+## july 2020 {#release-20-2}
 
-**リリースに含まれる新機能**
+**20.2リリースに含まれる新機能**
 
 顔文字のサポート - [詳細を表示](../../delivery/using/customizing-emoticon-list.md)
 
@@ -184,9 +186,9 @@ E メール用の AMP が、新しい E メールプロバイダーでサポー�
 
 E メールのアーカイブの節が改善されました。[詳細を表示](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
-## 20.1 - 2020 年 2 月 17 日{#release-20-1}
+## 2020 年 1 月{#release-20-1}
 
-**リリースに含まれる新機能**
+**20.1リリースに含まれる新機能**
 
 Snowflake FDA コネクタ - [詳細を表示](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)
 
@@ -226,8 +228,6 @@ URL レポート設定の新しいパラメーターは、[こちら](../../repo
 
 インスタンスが Enhanced MTA を使用しているかどうかを示す設定ファイルのパラメーターがドキュメントに追加されました。[詳細を表示](../../installation/using/the-server-configuration-file.md#mta)
 
-## 2020 年 1 月{#january-2020}
-
 配信品質の節が移動および再編成され、新しい内容で改善されました。[詳細を表示](../../delivery/using/about-deliverability.md)
 
 Adobe Campaign Classic のデータモデルの基本と各テーブルの説明にアクセスする方法について説明する新しい節が追加されました。[詳細を表示](../../configuration/using/about-data-model.md)
@@ -256,9 +256,7 @@ FDA のマトリックスページは、[ここ](../../platform/using/remote-dat
 
 AMP でインタラクティブコンテンツを定義する方法について説明する節が移動されました。[詳細を表示](../../delivery/using/defining-interactive-content.md)
 
-## 19.2 - 2019 年 12 月 2 日{#release-19-2}
-
-**リリースに含まれる新機能**
+**19.2リリースに含まれる新機能**
 
 カリフォルニア州消費者プライバシー法（CCPA） - [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)
 
@@ -328,9 +326,9 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 ワークフローと配信のパフォーマンス改善のためのベストプラクティスが更新されました。[ワークフローの詳細](../../workflow/using/workflow-best-practices.md)および[配信の詳細](../../delivery/using/monitoring-a-delivery.md#best-practices-performance)を参照してください。
 
-## 19.1 - 2019 年 5 月 30 日{#release-19-1}
+## 2019 年 5 月 {#release-19-1}
 
-**リリースに含まれる新機能**
+**19.1リリースに含まれる新機能**
 
 コントロールパネル - [詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
 
@@ -442,321 +440,3 @@ E メールコンテンツの定義の節に、デジタルコンテンツエデ
 機能に関するビデオが[ここ](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/overview.html)に移動されました。
 
 [Teradata](https://helpx.adobe.com/jp/campaign/kb/campaign_fda_teradata.html) と [MySQL 5.7](https://helpx.adobe.com/jp/campaign/kb/campaign_fda_mysql.html) に関する 2 つのテクニカルノートが追加されました。
-
-## 18.10 - 2018 年 11 月 5 日{#release-18-10}
-
-**リリースに含まれる新機能**
-
-プッシュ通知の強化 - [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_push_notifications_Setting_up_mobile_app_channel.html#Integrating_the_SDK_into_the_mobile_application)
-
-SQL データ管理アクティビティ - [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Action_activities.html#SQL_Data_Management)
-
-ワークフローの監視 - [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Monitoring_processes.html#Workflow_monitoring)
-
-**リリースに伴うその他のドキュメントのアップデート**
-
-Campaign Classic API を[専用ページ](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html)から入手できるようになりました。jsapi.chm ファイルを使用していた場合は、新しいオンラインバージョンを参照する必要があります。
-
-互換性マトリックスが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
-
-「Campaign Classic の非推奨（廃止予定）および削除された機能」ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
-
-[リリースノート](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.translate.html)および[従来のリリースノート](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.html)では、取り消されたビルドに対する警告が追加されました。17.9、18.4 および 18.6 の累積ビルドも追加されました。
-
-[セキュリティ](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/security.html)、[配信品質](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)および[ビルドアップグレード](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)の入門ガイドが更新されました。
-
-[プライバシー](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)入門ガイドが更新され、API を外部から呼び出す方法、および queryDef を使用してステータスを問い合わせ GDPR ファイルをダウンロードする方法に関する情報が追加されました。
-
-アウトバウンド送信時に E メールの添付ファイルをその場で追加する、トランザクションメッセージングの使用例が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/MCE_Use_case_Purpose.html)
-
-接続しきい値のトラブルシューティングの節が更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PRO_Troubleshooting_Connection_thresholds.html)
-
-プロキシ接続の設定方法に関する節が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Proxy_connection_configuration)
-
-認証済み外部コマンドの制限に関する節が更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Restricting_authorized_external_commands)
-
-SFTP の使用に関するトラブルシューティングの節が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Importing_and_exporting_data_SFTP_server_usage.html)
-
-メッセージの送信ガイドの概要セクションが再編成されました。配信作成のグローバルプロセスおよび様々な配信タイプに関する情報が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_About_deliveries_and_channels_Communication_channels.html)
-
-エラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
-
-シードアドレスの使用方法に関する節が、メッセージの送信ガイドの概要セクションに移動されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Using_seed_addresses_About_seed_addresses.html)
-
-新規ワークフローの使用例、「同時実行されるワークフローからのアップデートの管理」が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Coordinating_data_updates.html)
-
-受信ボックスレンダリングの節が更新され、Litmus に関する詳細情報およびより詳細な手順が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Deliverability_management_Inbox_rendering.html#Multiplexing_the_mid-sourcing_server)
-
-SpamAssassin の節が改善されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Deliverability_management_SpamAssassin.html)
-
-頻度ルールによるマーケティング疲労の管理の節に使用例が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/CMP_Campaign_Optimization_Pressure_rules.html#Sending_only_the_highest-weighted_messages)
-
-クロスチャネル配信ワークフローの作成方法を説明する新しい使用例が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Cross-channel_delivery_workflow.html)
-
-E メールのアーカイブの節に推奨事項が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_deliverability.html#Activating_emails_BCC_archiving)
-
-Adobe Campaign の最適な使用のための最低画面解像度に関する新しい推奨事項が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Starting_with_Adobe_Campaign_Adobe_Campaign_workspace.html#Screen_resolution)
-
-Experience Manager 統合ガイドが更新され、この統合の設定が明確化されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/ITG_Adobe_Experience_Manager_About_Adobe_Experience_Manager.html)
-
-グループタイプリストとリストタイプリストの違いに関する情報が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Profile_management_Creating_and_managing_lists.html#About_lists_in_Adobe_Campaign)
-
-レポートエクストラクトを添付ファイルとして E メールで送信するためのコードが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Sending_a_report_to_a_list.html#Step_3-_Creating_the_workflow)
-
-過去 7 日間、E メールを開封していない受信者をフィルターするクエリの作成方法の例が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Designing_queries.html#Recipients_who_did_not_open_any_delivery)
-
-Adobe Experience Cloud 統合ガイドで、オーディエンスの共有が更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/ITG_Audience_sharing_Sharing_audiences_with_Adobe_Experience_Cloud.html)
-
-よくある質問のヘルプページに、Campaign で利用可能な言語、Web フォームの翻訳および多言語 E メールに関する情報が追加されました。[詳細を表示](../../platform/using/common-questions.md)
-
-英語（米国）と英語（英国）のインスタンスの違いが、専用の節で説明されるようになりました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Starting_with_Adobe_Campaign_Adobe_Campaign_workspace.html#Formats_and_units)
-
-[よくある質問](../../platform/using/common-questions.md)のヘルプページに、エラーメッセージのページへのリンクが追加されました。
-
-「オープン」トラッキングモードに関する情報が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Tracking_messages_Personalizing_URL_tracking.html)
-
-Web アプリケーションおよび Web フォームの最低解像度に関する情報が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WEB_Web_forms_About_web_forms.html)
-
-Campaign および Adobe Experience Cloud ソリューション統合ガイドが更新され、再編成されました。[詳細を表示](../../integrations/using/about-campaign-integrations.md)
-
-Web フォームにおけるテキスト変数の使用に関する節が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WEB_Web_forms_Static_elements_in_a_web_form.html#Using_text_variables)
-
-メッセージの URL トラッキングモードの説明が詳細になりました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Tracking_messages_How_to_configure_tracked_links.html)
-
-インスタンス作成の節が再編成されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Initial_configuration_Creating_an_instance_and_logging_on.html)
-
-日本の携帯電話での E メール送信に関して説明する新しい節が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_emails_Defining_the_email_content.html#Sending_emails_on_Japanese_mobiles)
-
-パーソナライゼーションの最適化の節が更新され、詳細情報が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Personalizing_deliveries_Personalization_fields.html#Optimizing_personalization)
-
-## 18.6 - 2018 年 7 月 9 日{#release-18-6}
-
-**リリースに含まれる新機能**
-
-互換性マトリックスが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
-
-JSAPI のドキュメントが更新されました。[詳細を表示](https://support.neolane.net/webApp/extranetLogin)
-
-非推奨（廃止予定）および削除された機能ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
-
-**リリースに伴うその他のドキュメントのアップデート**
-
-Campaign Classic ユーザーガイドは、名前が変更され、ナビゲーションの簡素化、ユーザーエクスペリエンス、情報へのアクセスおよびセルフヘルプの改善がおこなわれました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/ja/browseAC.html)
-
-式エディターで使用できる関数のリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Creating_queries_Defining_filter_conditions.html#List_of_functions)
-
-セキュリティ入門ガイドが更新され、PI を含むページを保護する方法に関する情報が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/security.html)
-
-エラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
-
-IMS 統合ドキュメントにトラブルシューティングの節が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/ITG_Connecting_via_an_Adobe_ID_IMS_troubleshooting.html)
-
-ビルドアップグレード入門ガイドが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)
-
-IP アフィニティの設定の節が更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Mid-sourcing_server.html#Multiplexing_the_mid-sourcing_server)
-
-パフォーマンスとスループットのトラブルシューティングの節が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PRO_Troubleshooting_Performance_and_throughput_issues.html)
-
-組み込みパーソナライゼーションブロックのリストが更新され、例が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Personalizing_deliveries_Personalization_blocks.html#Out-of-the-box_personalization_blocks)
-
-配信エラーの理由のリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Monitoring_deliveries_Understanding_delivery_failures.html#Delivery_failure_types_and_reasons)
-
-パッケージ定義の管理に関する新しい節が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_Working_with_data_packages.html#Managing_package_definitions)
-
-Campaign の Adobe Analytics Data Connector との統合の節が改善され、再編成されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Connectors_Adobe_Analytics_Data_Connector.html)
-
-ステップバイステップガイドとハウツービデオへのリンクがある、新しいチュートリアルの節が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Starting_with_Adobe_Campaign_Tutorials.html)
-
-SMS コネクタのプロトコルと設定に関する新しいテクニカルノートが作成されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)
-
-配信のベストプラクティス入門ガイドが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/deliveryBestPractices.html)
-
-Web API デプロイメントを使用した Microsoft Dynamics 365 アカウントの設定が更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Connectors_CRM_Connectors.html#Example_for_Microsoft_Dynamics)
-
-Adobe Campaign Classic を Windows プラットフォームにインストールする手順が更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Installing_Campaign_in_Windows__Installing_the_server.html)
-
-Adobe Experience Cloud と Campaign Classic 間のオーディエンス共有期間について詳述されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/ITG_Audience_sharing_Importing_and_exporting_audiences.html)
-
-Campaign Classic のナレッジベース記事のリストが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/article-list.html)
-
-パフォーマンスの向上とベストプラクティスに関する新しいテクニカルノートが公開されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/best-practices-for-performance-improvement.html)
-
-A/B テストのサンプルが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_A-B_testing.html)
-
-Campaign Classic のよくある質問／FAQ ページが更新されました。[詳細を表示](../../platform/using/common-questions.md)
-
-## 18.4 - 2018 年 4 月 24 日{#release-18-4}
-
-**リリースに含まれる新機能**
-
-EU 一般データ保護規則（GDPR） - [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)
-
-アクティブなプロファイル - [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Profile_management_About_profiles.html#Active_profiles)
-
-Android プッシュコネクタの機能強化 - [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_push_notifications_Setting_up_mobile_app_channel.html#Android_connectors)
-
-**リリースに伴うその他のドキュメントのアップデート**
-
-リリースノートが改善されてユーザーエクスペリエンスが向上し、お客様のご要望に関連するすべてのパッチが含まれるようになりました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.translate.html)
-
-Campaign Classic に関する最もよくある質問を含む新しいページが追加されました。[詳細を表示](../../platform/using/common-questions.md)
-
-エラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
-
-Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
-
-旧バージョンの Campaign Classic にプライバシー（GDPR）パッケージをインストールしてデプロイする方法についてのテクニカルノートが追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html)
-
-新しいシーケンス自動生成メカニズムに関するテクニカルノートが追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html)
-
-JSAPI のドキュメントが更新されました。[詳細を表示](https://support.neolane.net/webApp/extranetLogin)
-
-互換性マトリックスが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
-
-非推奨（廃止予定）の機能とバージョンの一覧を示す新しいページが公開されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
-
-RDBMS に関する既知の制限事項とベストプラクティスが追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Prerequisites_and_recommendations__Database.html)
-
-SFTP の使用に関するベストプラクティスが説明されています。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Importing_and_exporting_data_SFTP_server_usage.html)
-
-テクニカルワークフローのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Technical_workflows_About_technical_workflows.html)
-
-ナレッジベース記事（旧称「テクニカルノート」）のリストが、こちらから入手できるようになりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/article-list.html)
-
-[ハウツービデオ](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html)が更新されました。
-
-LINE パッケージが非推奨（廃止予定）になった後、LINE ドキュメントが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_messages_on_mobiles_LINE_channel.html)
-
-レポート指標の計算に関するドキュメントが更新されました。[詳細を表示](../../reporting/using/indicator-calculation.md)
-
-Oracle とのタイムゾーンファイルの整合に関する情報が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/MIG_Configuration_General_configurations.html#Oracle)
-
-配信の監視の節が新たに追加され、配信のエラーと強制隔離の管理に関する情報が更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Monitoring_deliveries_Monitoring_a_delivery.html)
-
-パーソナライゼーションブロックの節が再編成され、そのまますぐに使用できるパーソナライゼーションブロックに関する新しい情報が追加されました。
-[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Personalizing_deliveries_Personalization_blocks.html)
-
-E メールのアーカイブの節が再編成され、```config-<instance name>.xml``` ファイルの設定に関する新しい情報が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Activating_email_archiving__on_premise_)
-
-Message Center（コントロール）のテクニカルワークフローに関する情報が更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Technical_workflows_Message_Center__Control_.html)
-
-SMTP リレーを設定する際のスループット制限に関する情報が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Personalizing_delivery_parameters)
-
-## 17.12 - 2017 年 12 月 14 日{#release-doc-14-12-2017}
-
-[Adobe Campaign Classic ドキュメントセット](https://helpx.adobe.com/jp/support/campaign/classic.html)は、より使いやすくするために再編成されました。
-
-Campaign の主要機能のヘルプ、操作方法、サンプルおよびビデオにアクセスしやすいよう、新しいチュートリアルの節が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Starting_with_Adobe_Campaign_Tutorials.html)
-
-配信ステータスだけでなくエラーを監視するのに役立ち、エラーを解決する方法を説明する新しい節が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Monitoring_deliveries_Monitoring_a_delivery.html)
-
-エラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
-
-Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
-
-Campaign Classic 移行ガイドがコレクションに追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/MIG_Migration_overview_About_migration.html)
-
-Campaign の互換性マトリックスが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
-
-該当する場合、設定手順およびインストール手順で、適用されるホスティングモデルが示されるようになりました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
-
-オンプレミス、ハイブリッド、および Managed Services のデプロイメントの設定と機能の違いを説明する新しいナレッジベース記事が追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)
-
-標準パッケージのインストール方法が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Initial_configuration_Installing_packages.html)
-
-Audience Manager または People コアサービスとの統合を設定する方法について詳細が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/ITG_Audience_sharing_Configuring_shared_audiences_integration_in_Adobe_Campaign.html)
-
-PostreSQL を使用する場合、Campaign のインストールに pgcrypto が必要になったことについての記載が、インストールドキュメントに追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Installing_Campaign_in_Linux__Prerequisites.html#Database_access_layers)
-
-## 17.9 - 2017 年 9 月 25 日{#release-17-9}
-
-**リリースに含まれる新機能**
-
-ACS コネクタの機能強化
-
-SAP HANA コネクタ - [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Connectors_Accessing_an_external_database.html#SAP_HANA)
-
-HiveSQL による Hadoop コネクタ - [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Connectors_Accessing_an_external_database.html#Hadoop)
-
-LINE チャネル：メッセージングの機能強化 - [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_messages_on_mobiles_LINE_channel.html)
-
-**リリースに伴うその他のドキュメントのアップデート**
-
-新しいクエリサンプルが追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Designing_queries.html#Filtering_duplicated_recipients)
-
-配信のベストプラクティスガイドが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/deliveryBestPractices.html)
-
-A/B テストのサンプルが更新され、不足していた手順が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_A-B_testing.html)
-
-ハウツービデオが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html)
-
-E メールのアーカイブの節が更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html)
-
-ワークフローのスケジューラーの使用方法が明確になりました。[詳細を表示](../../workflow/using/scheduler.md)
-
-一時停止されたワークフローのベストプラクティスが追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Executing_a_workflow.html)
-
-ワークフローでデータをインポートする際のファイルの前処理およびワークフローでデータをエクスポートする際のファイルの後処理に関する手順が新しくなりました。[こちら](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html)を参照してください。
-
-SMS メッセージドキュメントの強制隔離メカニズムが更新され、拡張された汎用 SMPP コネクタにおけるエラー管理の特性が反映されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Monitoring_deliveries_Understanding_quarantine_management.html#SMS_quarantines)。
-
-モバイルアプリチャネルのドキュメントが強化され、Android でリッチ通知を送信する詳細な手順が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_push_notifications_Setting_up_mobile_app_channel.html#Rich_notifications)。
-
-受信ボックスレンダリングのドキュメントが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Deliverability_management_Inbox_rendering.html)。
-
-Web トラッキングの設定に関するドキュメントが強化され、例および注意事項が更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/CFG_Setting_up_web_tracking_Additional_parameters.html#Redirection_server_configuration)。
-
-SMS チャネルのドキュメントが更新され、拡張された汎用 SMPP コネクタに適用される自動返信の節の情報が明確化されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_messages_on_mobiles_SMS_channel.html#Creating_an_SMPP_external_account)。
-
-ソーシャルマーケティングのドキュメントが更新されました。[詳細を表示](../../social/using/about-social-marketing.md)。
-
-IP ウォーミングに関する新しいテクニカルノートが追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_IP_Warming_overview.pdf)。
-
-ビルドアップグレードに関する新しい入門ガイドが追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)。
-
-## 2017 年 5 月{#release-doc-30-05-2017}
-
-はじめにガイドが新しく公開されました。配信の作成とターゲティングから送信や監視に至るまで、Adobe Campaign での配信に関するベストプラクティスを説明します。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/deliveryBestPractices.html)
-
-セキュリティに関するはじめにガイドが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/security.html)
-
-[「E メールのアーカイブ」ドキュメント](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html)が更新され、[BCC による E メール](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Configuring_the_BCC_email_address__on_premise_)の節と[この機能を有効化する詳細な手順](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_emails_Sending_messages.html#Archiving_emails)が追加されました。
-
-いくつかのビデオが追加、更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/Videos/Videos.html)
-
-データベースを更新せずに、外部ファイルから読み込まれた受信者に配信を送信する方法について説明します。[詳細を表示](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients)
-
-二重のオプトインの例が更新されました。[詳細を表示](../../web/using/use-cases--web-forms.md)
-
-## 2017 年 3 月{#release-doc-31-03-2017}
-
-配信品質：[はじめにガイド](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)が更新されました。配信品質ドキュメントに、より詳細な[概要](https://docs.campaign.adobe.com/doc/AC/en/DLV_Deliverability_management_About_deliverability.html)と[実装プロセスおよび主な手順](../../delivery/using/deliverability-key-points.md)の説明が含まれるようになりました。
-
-「ウェーブを使用した送信」の節が移動され、詳細な例、推奨および使用例が追加されてより充実した内容となりました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_emails_Sending_messages.html#Sending_using_multiple_waves)
-
-「強制隔離の管理」の節に SMS メッセージに特有のエラーを説明する表が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Monitoring_deliveries_Understanding_quarantine_management.html#SMS_quarantines)
-
-ワークフロー：新しいマルチチャネルワークフローの例が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Action_activities.html#Cross-channel_deliveries)
-
-Experience Cloud Triggers：Adobe Campaign を使用した設定方法および使用方法に関するテクニカルノートが追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
-
-ワークフローガイドが再構成され、拡張されました。ワークフローの[作成](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html)および[実行](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Executing_a_workflow.html)方法、データの[ターゲティング](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Targeting_data.html)および[管理](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Targeting_data.html#Data_Management)方法、データの[インポート](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html)方法、および[データベースを更新](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Updating_the_database)または[配信を送信](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Delivering_via_a_workflow)するためのワークフローデータの使用方法が簡単に見つかります。
-
-[インポートのベストプラクティス](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Importing_data.html#Import_best_practices)に続いて[インポートワークフロー](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_How_to_use_workflow_data.html#Delivering_via_a_workflow)の例が提供されました。この新しいバージョン向けにインストールガイドが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Architecture_and_hosting_models_General_architecture.html)
-
-互換性マトリックスが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
-
-E メール配信にクーポンを含めると、受信者にとって付加価値となります。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Personalizing_deliveries_Personalized_coupons.html)
-
-## Adobe Campaign v7 - 2017 年 3 月 16 日{#release-17-2}
-
-**リリースに含まれる新機能**
-
-ACS コネクタ
-
-Microsoft Dynamics 用 Web API - [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Connectors_CRM_Connectors.html#Example_for_Microsoft_Dynamics)
-
-BCC メソッドによる E メールのアーカイブ - [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Updated_email_archiving_system__BCC_)
-
-Amazon Simple Storage Service（S3）コネクタ - [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Event_activities.html#File_transfer)
-

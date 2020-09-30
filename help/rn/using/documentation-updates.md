@@ -13,9 +13,9 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b76fb1694545f4be02a63e4c670b81db632c5ee
+source-git-commit: 6483c3e2e9fd3a2951b2bc8bf6d8a3350361e86f
 workflow-type: tm+mt
-source-wordcount: '3702'
+source-wordcount: '3720'
 ht-degree: 98%
 
 ---
@@ -32,6 +32,8 @@ ht-degree: 98%
 アクティブなプロファイル数がマーケティングインスタンスでのみ使用できることを示す注記が追加されました。 [詳細を表示](../../platform/using/about-profiles.md#active-profiles)
 
 フィールドを既存の参照テーブルにリンクするための、スキーマ版に関する新しいサンプルを追加しました。 [詳細を表示](../../configuration/using/examples-of-schemas-edition.md#uc-link)
+
+配信内のシードアドレスでの追加のデータの使用に関する注記が追加されました。 [詳細を表示](../../delivery/using/creating-seed-addresses.md#defining-addresses)
 
 ## 2020 年 8 月 {#aug-2020}
 

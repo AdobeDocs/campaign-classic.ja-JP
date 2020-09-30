@@ -14,8 +14,11 @@ discoiquuid: 6dad49af-4818-471b-9df1-057cc6b9a68a
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1c86322fa95aee024f6c691b61a10c21a9a22eb7
+translation-type: tm+mt
+source-git-commit: 6483c3e2e9fd3a2951b2bc8bf6d8a3350361e86f
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 85%
 
 ---
 
@@ -44,7 +47,12 @@ Adobe Campaign では、シードアドレスのテンプレートも作成可�
    ![](assets/s_ncs_user_seedlist_new_address.png)
 
 1. 「**[!UICONTROL アドレスフィールド]**」タブでは、分析フェーズの配信ログ（**[!UICONTROL nms:broadLog]** テーブル）に記録される値を入力します。
-1. 「**[!UICONTROL 追加データ]**」タブでは、データ管理ワークフローで作成される配信のためのパーソナライゼーションデータや、特定の値を設定しておく必要があるパーソナライゼーションデータを入力します。
+
+1. In the **[!UICONTROL Additional data]** tab, enter the personalization data used for the deliveries created in the Data management workflows and which you want to assign a specific value to.
+
+   >[!NOTE]
+   >
+   >追加のターゲットデータが、 **[!UICONTROL エンリッチメント]** アクティビティで「@」で始まるエイリアスで定義されていることを確認してください。 そうしないと、配信アクティビティのシードアドレスで正しく使用できなくなります。
 
 ## シードアドレステンプレートの作成 {#creating-seed-address-templates}
 

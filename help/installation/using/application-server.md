@@ -11,46 +11,46 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 7a9e028c-255d-4aad-9827-d19f9a7897b2
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 3%
 
 ---
 
 
-# Application server{#application-server}
+# アプリケーションサーバー{#application-server}
 
-必要なデータベースアクセスレイヤーがサーバーにインストールされ、Adobe Campaignアカウントからアクセスできる必要があります。
+必要なデータベースアクセスレイヤーをサーバーにインストールし、Adobe Campaignアカウントからアクセスできる必要があります。
 
-## Java開発キット — JDK {#java-development-kit---jdk}
+## Java Development Kit - JDK {#java-development-kit---jdk}
 
-動的WebページジェネレーターはJSP 1.2テクノロジーを使用します。 この場合、（Apacheからの）Tomcatエンジンがアプリケーションに含まれます。 Adobe CampaignアプリケーションがインストールされているすべてのサーバーにJava開発キット(JDK)がインストールされている必要があります。
+Dynamic Webページジェネレーターは、JSP 1.2テクノロジーを使用します。 この場合、（Apacheの）Tomcatエンジンがアプリケーションに含まれます。 Java開発キット(JDK)が必要です。JDKは、Adobe Campaignアプリケーションがインストールされているすべてのサーバーにインストールされます。
 
-動的なWebページ（レポート、Webフォームなど）の生成に使用するサーブレットコンテナApache tomcatが組み込まれているので、Adobe Campaignアプリケーションサーバー(**nlserver webプロセス** )を実行するコンピューターにJDKをインストールする必要があります。
+JDKは、動的なWebページ(レポート、Web フォームなど)の生成に使用するサーブレットコンテナApache Tomcatを組み込んでいるので、Adobe Campaignアプリケーションサーバー(**nlserver web** process)を実行するコンピューターに最初にインストールする必要があります。
 
-アプリケーションは、Oracleが開発したJava開発キット(JDK)および **OpenJDKに対して承認されています**。
+The application has been approved for the Java Development Kit (JDK) developed by Oracle as well as for **OpenJDK**.
 
-The supported versions are detailed in the [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html).
+The supported versions are detailed in the [Compatibility matrix](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html).
 
 >[!NOTE]
 >
 >マシン上の他のアプリケーションで既に使用されている適切なJDKバージョンを使用してインストールできます。
 >  
->インストール時に、ウェブブラウザとの統合を実行する必要はありません。
+>をインストールする場合、ウェブブラウザとの統合を実行する必要はありません。
 >
 >配信エージェント(**nlserver mta** process)またはワークフローサーバー(nlserver wfserver **** process)のみを実行するマシンでは、JDKをインストールする必要はありません。
 
-Java JDKをダウンロードするには、次に接続します。https://www.oracle.com/technetwork/java/javase/downloads/index.html [](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
+Java JDKをダウンロードするには、次に接続します。 [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-**警告：jreではなくJDKをダウンロードする必要があります。**
+**警告：JREではなくJDKをダウンロードする必要があります。**
 
 >[!CAUTION]
 >
 >プラットフォームの動作パフォーマンスを維持し、インストールされているバージョンとの互換性を確保するには、WindowsおよびLinuxで自動JDK更新機能を無効にする必要があります。
 
-Linux環境にJDSLをインストールするには、パッケージマネージャーを使用することをお勧めします。
+JDSLをLinux環境にインストールするには、パッケージマネージャーを使用することをお勧めします。
 
 Debian 8および9では、次のコマンドを使用します。
 
@@ -66,24 +66,24 @@ yum install java-1.8.0-openjdk
 
 ## OpenSSL {#openssl}
 
-Linuxでは、OpenSSLをインストールする必要があります。 Adobe Campaignでサポートされているバー **ジョンはOpenSSL 1.0.1** 、 **OpenSSL 0.9.8です**。 サブバージョン0.9.8g ～ 0.9.8oも使用できます。
+Linuxでは、OpenSSLをインストールする必要があります。 Adobe CampaignでサポートされているバージョンはOpenSSL **1.0.1** と **OpenSSL 0.9.8**&#x200B;です。 0.9.8g ～ 0.9.8oのサブバージョンも使用できます。
 
 ## レポートのエクスポート {#exporting-reports}
 
-Adobe Campaignを使用すると、プラットフォームレポートをMicrosoft excelおよびAdobe PDF形式でエクスポートできます。 Microsoft excel形式の場合、Adobe CampaignではLibreOfficeが使用さ **れます**。 Adobe PDF形式の場合、Adobe Campaignは **PhantomJS** Converterを使用します。 PhantomJsはファクトリパッケージに含まれ、Adobe Campaignアプリケーションサーバーが実行されるコンピューター(**nlserver webプロセス** )にLibreOfficeがインストールされている必要があります。
+Adobe Campaignを使用すると、プラットフォームレポートをMicrosoft ExcelおよびAdobe PDF形式でエクスポートできます。 Microsoft Excel形式の場合、Adobe CampaignではLibreOffice **を使用します**。 Adobe PDF形式の場合、Adobe CampaignはPhantomJS **** コンバーターを使用します。 PhantomJsはファクトリパッケージに含まれ、LibreOfficeは、Adobe Campaignアプリケーションサーバーが実行されるコンピューター(**nlserver web** process)にインストールする必要があります。
 
 >[!NOTE]
 >
->Linuxの場合は、フォントを追加する必要があります。 詳しくは、「MTA統計用のフォン [ト」を参照してください](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics)。
+>Linuxの場合は、フォントを追加する必要があります。 詳しくは、「MTA統計用の [フォント](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics)」を参照してください。
 
 ## SpamAssassin {#spamassassin}
 
-SpamAssacinを使用すると、受信時に使用するスパム対策ツールによってメッセージのリスクが望ましくないと見なされるかどうかを判断するために、電子メールにスコアを割り当てることができます。 インストールはオプションです。
+SpamAssicinを使用すると、受信時に使用されるスパム対策ツールでメッセージが望ましくないと見なされる危険性があるかどうかを判断するために、電子メールにスコアを割り当てることができます。 インストールはオプションです。
 
-SpamAssacsinが望ましくない電子メールの資格は、完全にフィルタリングとスコアリングルールに基づいています。 したがって、SpamAssacsinのインストールとAdobe Campaignへの統合が完全に機能し、送信前に配信に割り当てられたスコアの関連性を保証するには、これらのルールを少なくとも1日に1回更新する必要があります。 この更新は、SpamAssacinをホストするサーバー管理者の責任です。
+SpamAssicinが望ましくない電子メールの認定は、完全にフィルターとスコアリングルールに基づいています。 したがって、SpamAssicinのインストールとAdobe Campaignへの統合が完全に機能し、送信前に配信に割り当てられたスコアの関連性を保証するために、これらのルールを少なくとも1日に1回更新する必要があります。 この更新は、SpamAssinをホストするサーバー管理者の責任です。
 
-サポートされている最小バージョンは次のとおりです。 **3.4**
+サポートされる最小バージョンは次のとおりです。 **3.4**
 
-SpamAssacinにはHTTPインターネットアクセス(tcp/80)が必要です。
+SpamAssinにはHTTPインターネットアクセス(tcp/80)が必要です。
 
-SpamAssacsinのインストールおよび設定ステージは、SpamAssinの設定に [記載されています](../../installation/using/configuring-spamassassin.md)。
+SpamAssinのインストールおよび設定ステージは、SpamAssinの [設定で説明しています](../../installation/using/configuring-spamassassin.md)。

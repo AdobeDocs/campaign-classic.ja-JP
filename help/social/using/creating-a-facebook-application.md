@@ -1,7 +1,7 @@
 ---
-title: Facebookアプリの作成
-seo-title: Facebookアプリの作成
-description: Facebookアプリの作成
+title: Facebook アプリケーションの作成
+seo-title: Facebook アプリケーションの作成
+description: Facebook アプリケーションの作成
 seo-description: null
 page-status-flag: never-activated
 uuid: f02129b9-6f64-41ee-8b56-d85211a58f69
@@ -11,164 +11,164 @@ audience: social
 content-type: reference
 topic-tags: configuration
 discoiquuid: c1d880bb-256e-451c-8c52-198711907f8e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '1107'
+ht-degree: 100%
 
 ---
 
 
-# Facebookアプリの作成{#creating-a-facebook-application}
+# Facebook アプリケーションの作成{#creating-a-facebook-application}
 
-Social Marketingでは、Webアプリのおかげで、パーソナライズされたコンテンツをFacebookアプリに表示でき、このソーシャルネットワークを使用して見込み客を容易に獲得できます。 FacebookタイプのWebアプリケーションの例については、「Facebookアプリケー [ションの例」を参照してください](../../social/using/examples-of-facebook-apps.md)。
+Web アプリケーションのおかげで、ソーシャルマーケティングでは Facebook アプリケーションにパーソナライズしたコンテンツを表示でき、このソーシャルネットワーク経由で見込み客を獲得しやすくなります。Facebook タイプ Web アプリケーションのその他の例については、[Facebook アプリケーションの例](../../social/using/examples-of-facebook-apps.md)を参照してください。
 
 >[!NOTE]
 >
->また、パートナーが開発したFacebookアプリケーションとAdobe Campaignを統合することもできます。 この場合、Adobe Campaign webアプリケーションを使用してFacebookプロファイルを取得する必要はありません。 For more on this, refer to [Configuring external accounts](#configuring-external-accounts).
+>また、パートナーが開発した Facebook アプリケーションと Adobe Campaign を統合することもできます。この場合、Adobe Campaign Web アプリケーションを使用して Facebook のプロフィールを取得する必要はありません。詳しくは、[外部アカウントの設定](#configuring-external-accounts)を参照してください。
 
 ![](assets/social_webapp_fb_000.png)
 
 次の設定手順を実行します。
 
-1. 1つ以上のFacebookアプリを作成します。 For more on this, refer to: [Creating a Facebook application](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application).
-1. Facebook権限リクエ **[!UICONTROL terms of service]** スト画面 **[!UICONTROL Privacy policy]** に表示するおよびリンクを入力します。 詳しくは、次を参照してください。サー [ビス規約およびプライバシーポリシーのリンクの入力](#entering-the-terms-of-service-and-privacy-policy-links)。
-1. 各Facebookアプリに対して、タイプの外部アカウ **[!UICONTROL Facebook Connect]** ントを作成します。 For more on this, refer to: [Configuring external accounts](#configuring-external-accounts).
-1. Facebookアプリごとに、Adobe CampaignでFacebookタイプのWebアプリを作成します。 詳しくは、次を参照してください。Facebookタイプ [のWebアプリケーションの作成](#creating-a-facebook-type-web-application)。
-1. FacebookアプリがFacebookページのタブとして表示されるように設定します。 For more on this, refer to: [Configuring Facebook tabs](#configuring-facebook-tabs).
+1. 1 つまたは複数の Facebook アプリケーションを作成します。詳しくは、[Facebook アプリケーションの作成](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application)を参照してください。
+1. Facebook 権限リクエスト画面に表示する&#x200B;**[!UICONTROL サービス利用条件]**&#x200B;および&#x200B;**[!UICONTROL プライバシーポリシー]**&#x200B;のリンクを入力します。詳しくは、[サービス利用条件およびプライバシーポリシーのリンクの入力](#entering-the-terms-of-service-and-privacy-policy-links)を参照してください。
+1. Facebook アプリケーションごとに、**[!UICONTROL Facebook Connect]** タイプの外部アカウントを作成します。詳しくは、[外部アカウントの設定](#configuring-external-accounts)を参照してください。
+1. Facebook アプリケーションごとに、Adobe Campaign で Facebook タイプの Web アプリケーションを作成します。詳しくは、[Facebook タイプ の Web アプリケーションの作成](#creating-a-facebook-type-web-application)を参照してください。
+1. 各 Facebook アプリケーションが Facebook ページのタブとして表示されるように設定します。詳しくは、[Facebook タブの設定](#configuring-facebook-tabs)を参照してください。
 
 ## 外部アカウントの設定 {#configuring-external-accounts}
 
 Facebook アプリケーションごとに、**[!UICONTROL Facebook Connect]** タイプの外部アカウントを作成する必要があります。
 
-この手順では、Adobe Campaignコンソールと、ページ管理に使用するFacebookアカウントにログオンしているインターネットブラウザーの両方にアクセスする必要があります。
+この手順では、Adobe Campaign コンソールおよびページ管理に使用する Facebook アカウントにログオンしているインターネットブラウザーの両方にアクセスする必要があります。
 
-* **Facebook**:前に作成したアプリケーション( [https://developers.facebook.com/apps](https://developers.facebook.com/apps))を選択し、「/」タ **[!UICONTROL Settings]** ブを選択 **[!UICONTROL Basic]** します。
+* **Facebook**：先に作成したアプリケーション（[https://developers.facebook.com/apps](https://developers.facebook.com/apps)）を選択し、**[!UICONTROL 設定]**／「**[!UICONTROL ベーシック]**」タブを選択します。
 
    ![](assets/social_webapp_fb_008.png)
 
    >[!NOTE]
    >
-   >セクション **[!UICONTROL Facebook Web Games]** が表示されない場合は、ページの下 **[!UICONTROL Add Platform]** 部にあるボタンをクリックし、を選択します **[!UICONTROL Facebook Web Games]**。
+   >「**[!UICONTROL Facebookウェブゲーム]**」セクションが表示されない場合は、ページの下部にある「**[!UICONTROL プラットフォームを追加]**」ボタンをクリックし、「**[!UICONTROL Facebookウェブゲーム]**」を選択します。
 
-* **Adobe Campaign**:ツリーのノ **[!UICONTROL Administration > Platform > External accounts]** ードに移動し、をクリックしま **[!UICONTROL New]**&#x200B;す。
+* **Adobe Campaign**：ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;ノードに移動し、「**[!UICONTROL 新規]**」をクリックします。
 
    ![](assets/social_webapp_fb_005.png)
 
-1. ラベルと内部名を入力し、タイプを選択し **[!UICONTROL Facebook Connect]** ます。
+1. ラベルおよび内部名を入力し、**[!UICONTROL Facebook Connect]** タイプを選択します。
 
    ![](assets/social_webapp_fb_006.png)
 
-1. アプリケーションのホスティングモードを選択します。ま **[!UICONTROL hosted by a partner]** た **[!UICONTROL hosted by this instance]**&#x200B;は
+1. アプリケーションのホスティングモード（「**[!UICONTROL パートナーがホストする]**」または「**[!UICONTROL このインスタンスでホストする]**」）を選択します。
 
    ![](assets/social_webapp_fb_012.png)
 
    **パートナーがホストするアプリケーション**
 
-   パートナーが開発したFacebookアプリケーションとAdobe Campaignを統合できます。 この場合、Adobe Campaign webアプリケーションを使用してFacebookプロファイルを取得する必要はありません。 Facebookユーザーがアプリをインストールすると、キー（アクセストークン）が生成されます。 パートナーは、Webサービスを呼び出して、このアクセストークンをAdobe Campaignに転送します。 その後、Adobe Campaignはこのトークンを使用してFacebookデータベースにログオンし、アプリケーションを介してユーザーが共有するデータを収集します。
+   パートナーが開発した Facebook アプリケーショを Adobe Campaign に統合することもできます。この場合、Facebook のプロフィールを取得するのに Adobe Campaign Web アプリケーションを使用する必要はありません。Facebook ユーザーがアプリケーションをインストールすると、キー（アクセストークン）が生成されます。パートナーは、Web サービスを呼び出して、このアクセストークンを Adobe Campaign に転送します。Adobe Campaign はこのトークンを使用して Facebook データベースにログオンし、アプリケーションを介してユーザーが共有するデータを収集します。
 
    >[!NOTE]
    >
-   >Webサービスのパラメーターの詳細については、次のWSDLファイルを参照してください。 **`https://<Instance name>/nl/jsp/schemawsdl.jsp?schema=nms:visitor`**
+   >Web サービスのパラメーターについて詳しくは、**`https://<Instance name>/nl/jsp/schemawsdl.jsp?schema=nms:visitor`** にある WSDL ファイルを参照してください。
 
-   サードパーティアプリケーションをAdobe Campaignに統合するには、および **[!UICONTROL App ID]****[!UICONTROL App Secret]** Facebookフィールドのコンテンツをコピーして、コンソールのフィールドとフィールドに貼り付け **[!UICONTROL Application ID]** る必 **[!UICONTROL Application secret]** 要があります。
+   サードパーティのアプリケーションを Adobe Campaign に統合するには、Facebook の「**[!UICONTROL アプリID]**」および「**[!UICONTROL App Secret]**」フィールドの内容をコピーして、コンソールの「**[!UICONTROL アプリケーション ID]**」および「**[!UICONTROL アプリケーション秘密鍵]**」フィールドに貼り付ける必要があります。
 
    ![](assets/social_facebook_external_account_013.png)
 
-   **このインスタンスでホストされるアプリケーション**
+   **このインスタンスでホストするアプリケーション**
 
-   このインスタンスでアプリをホストする場合（サードパーティのアプリケーションがない場合）、Adobe Campaign webアプリケーションを使用してFacebookプロファイルを取得する必要があります。 詳しくは、「Facebookアプリの例」 [を参照してください](../../social/using/examples-of-facebook-apps.md)。
+   このインスタンスでアプリケーションをホストする場合（サードパーティのアプリケーションがない場合）、Adobe Campaign Web アプリケーションを使用して Facebook のプロフィールを取得する必要があります。詳しくは、[Facebook アプリケーションの例](../../social/using/examples-of-facebook-apps.md)を参照してください。
 
-   Adobe Campaignコンソールで、フィールドに含まれるアドレスをコピー **[!UICONTROL Secure Canvas URL]** し、Facebook上の（セクション内の） **[!UICONTROL Facebook Web games (https)]** フィールドに貼り付 **[!UICONTROL Facebook Web Games]** けます。
+   Adobe Campaign コンソールで、「**[!UICONTROL セキュアキャンバス URL]**」フィールドに含まれるアドレスをコピーし、Facebook の「**[!UICONTROL Facebookウェブゲーム]**」セクションにある「**[!UICONTROL FacebookウェブゲームのURL(https)]**」フィールドに貼り付けます。
 
    ![](assets/social_facebook_external_account_009.png)
 
    >[!IMPORTANT]
    >
-   >どのような状況でも、保護されていないURLを使用してはいけません。
+   >どのような状況にあっても、保護されていない URL を使用してはいけません。
 
-   Facebookで、フィールドとフィールドの内容をコ **[!UICONTROL App ID]** ピーし **[!UICONTROL App Secret]** て、コンソールのフィ **[!UICONTROL Application ID]** ールド **[!UICONTROL Application secret]** に貼り付けます。
+   Facebook で、「**[!UICONTROL アプリID]**」および「**[!UICONTROL App Secret]**」フィールドの内容をコピーし、コンソールの「**[!UICONTROL アプリケーション ID]**」および「**[!UICONTROL アプリケーション秘密鍵]**」フィールドに貼り付けます。
 
    ![](assets/social_facebook_external_account_008.png)
 
-1. Facebookで、ページの下部 **[!UICONTROL Save Changes]** にあるボタンをクリックします。
-1. Adobe Campaignコンソールで、このボタンをクリックす **[!UICONTROL Subscribe]** ると、ファンがこのアプリケーションを介してチェックインするたびに、Adobe Campaignがリアルタイムでデータを回復できます。 詳しくは、次を参照してください。Facebookア [プリの例を参照してください](../../social/using/examples-of-facebook-apps.md)。
+1. Facebook で、ページの下部にある「**[!UICONTROL 変更を保存]**」ボタンをクリックします。
+1. Adobe Campaign コンソールで「**[!UICONTROL 購読]**」ボタンをクリックし、このアプリケーションを介してファンがチェックインするたびに Adobe Campaign がリアルタイムでデータを取得できるようにします。詳しくは、[Facebook アプリケーションの例](../../social/using/examples-of-facebook-apps.md)を参照してください。
 
    ![](assets/social_webapp_fb_013.png)
 
-## サービス規約およびプライバシーポリシーのリンクの入力 {#entering-the-terms-of-service-and-privacy-policy-links}
+## 利用規約およびプライバシーポリシーのリンクの入力 {#entering-the-terms-of-service-and-privacy-policy-links}
 
-Facebook権限リクエスト画面に **[!UICONTROL Terms of service]** 表示する **[!UICONTROL Privacy policy]** リンクとリンクを追加することを強くお勧めします。
+Facebook の許可リクエスト画面に表示する&#x200B;**[!UICONTROL 利用規約]**&#x200B;および&#x200B;**[!UICONTROL プライバシーポリシー]**&#x200B;へのリンクを追加することを強くお勧めします。
 
 ![](assets/social_fb_terms_of_services_001.png)
 
-設定段階は次のとおりです。
+設定手順は、以下のとおりです。
 
-1. 次のアドレスを入力します。https://developers.facebook.com/apps [を開き](https://developers.facebook.com/apps)、Facebookアプリを選択します。
-1. タブを選択 **[!UICONTROL Settings > Basic]** し、フィールドとフ **[!UICONTROL Privacy Policy URL]** ィールドを入 **[!UICONTROL Terms of Service URL]** 力します。
+1. [https://developers.facebook.com/apps](https://developers.facebook.com/apps) のアドレスを開き、Facebook アプリケーションを選択します。
+1. **[!UICONTROL 設定／「ベーシック」]**&#x200B;タブを選択し、「**[!UICONTROL プライバシーポリシーのURL]**」フィールドと「**[!UICONTROL 利用規約のURL]**」フィールドを入力します。
 
    ![](assets/social_fb_terms_of_services.png)
 
-## FacebookタイプのWebアプリケーションの作成 {#creating-a-facebook-type-web-application}
+## Facebook タイプの Web アプリケーションの作成 {#creating-a-facebook-type-web-application}
 
-Adobe Campaign Facebookアプリを使用すると、パーソナライズされたコンテンツをFacebookアプリに表示できます。 各Facebookアプリに対して、Adobe CampaignでWebアプリを作成する必要があります。 Facebook webアプリケーションを作成するには、次の手順に従います。
+Adobe Campaign の Facebook アプリケーションを使用すると、パーソナライズされたコンテンツを Facebook アプリケーションに表示できます。Facebook アプリケーションごとに、Adobe Campaign で Web アプリケーションを作成する必要があります。Facebook Web アプリケーションの作成手順は、次のとおりです。
 
-1. 宇宙に移動し **[!UICONTROL Social networks]** 、リンクをクリ **[!UICONTROL Applications]** ックして、ボタンをクリッ **[!UICONTROL Create]** クします。
+1. **[!UICONTROL ソーシャルネットワーク]**&#x200B;ウィンドウに移動し、「**[!UICONTROL アプリケーション]**」リンク、「**[!UICONTROL 作成]**」ボタンの順にクリックします。
 
    ![](assets/social_webapp_001.png)
 
-1. リストからFacebook webアプリテンプレートを選択し、ラベルを入力します。
+1. リストから Facebook Web アプリケーションテンプレートを選択し、ラベルを入力します。
 
    ![](assets/social_webapp_002.png)
 
    >[!NOTE]
    >
-   >デフォルトで提供されるFacebook webアプリケーションテンプレートは4つあります。
+   >デフォルトで提供される Facebook Web アプリケーションテンプレートは 4 つあります。
    >
-   >* **[!UICONTROL New Facebook application]**:空白のアプリから開始する場合は、このテンプレートを選択します。
-   >* **[!UICONTROL Pre-entered form]**:フォームと「Facebookログイン」ボタンを持つFacebookアプリケーション。ユーザーは、プロファイルのデータを使用してフォームのフィールドに自動入力できます。 これにより、ユーザーはより迅速にフォームに記入し、ブランドはより良い品質の情報を得ることができます。
-   >* **[!UICONTROL "Canvas page" competition]**:ユーザーに視覚的な効果を与えるために画面に表示されるFacebookアプリ。
-   >* **[!UICONTROL "Page Tab" competition]**:Facebookアプリは、ブランドページのタブに完全に統合されています。
+   >* **[!UICONTROL 新規 Facebook アプリケーション]**：空のアプリケーションから開始したい場合は、このテンプレートを選択します。
+   >* **[!UICONTROL 入力済みフォーム]**：フォームおよび「Facebook ログイン」ボタンを持つ Facebook アプリケーション。ユーザーは、プロフィールのデータを使用してフォームのフィールドに自動入力できます。これにより、ユーザーはすばやくフォームに記入でき、企業は高品質の情報を得ることができます。
+   >* **[!UICONTROL 「キャンバスページ」の競合他社]**：画面の横幅いっぱいに表示される Facebook アプリケーション。より優れた視覚的効果をユーザーに提供します。
+   >* **[!UICONTROL 「ページタブ」の競合他社]**：ブランドページのタブに完全に統合された Facebook アプリケーション。
 
 
-1. フィールド **[!UICONTROL Application]** に、Facebookアプリにリンクされた外部アカウントを入力します。 For more on this, refer to: [Configuring external accounts](#configuring-external-accounts).
+1. 「**[!UICONTROL アプリケーション]**」フィールドに、Facebook アプリケーションにリンクされている外部アカウントを入力します。詳しくは、[外部アカウントの設定](#configuring-external-accounts)を参照してください。
 
    ![](assets/social_webapp_005.png)
 
-1. タブを選択し **[!UICONTROL Edit]** て、Webアプリケーションを編集します。 詳しくは、次を参照してください。Facebookア [プリの例を参照してください](../../social/using/examples-of-facebook-apps.md)。
+1. 「**[!UICONTROL 編集]**」タブを選択し、Web アプリケーションを編集します。詳しくは、[Facebook アプリケーションの例](../../social/using/examples-of-facebook-apps.md)を参照してください。
 
    ![](assets/social_webapp_003.png)
 
-1. Webアプリケーションが完了したら、タブを選択し、をク **[!UICONTROL Dashboard]** リックしてオンラインで公 **[!UICONTROL Publish]** 開します。
+1. Web アプリケーションが完成したら、「**[!UICONTROL ダッシュボード]**」タブを選択し、「**[!UICONTROL 公開]**」をクリックしてオンライン上に公開します。
 
    ![](assets/social_webapp_004.png)
 
-## Facebookタブの設定 {#configuring-facebook-tabs}
+## Facebook タブの設定 {#configuring-facebook-tabs}
 
-Facebookページにタブとして表示されるFacebookアプリを設定できます。 それには、次の手順に従います。
+Facebook ページにタブとして表示される Facebook アプリケーションを設定できます。それには、次の手順に従います。
 
-1. Facebookアプリ(https://developers.facebook.com/apps[)を選択し、タブを選択し](https://developers.facebook.com/apps)**[!UICONTROL Settings > Basic]** ます。
+1. Facebook アプリケーション（[https://developers.facebook.com/apps](https://developers.facebook.com/apps)）を選択し、**[!UICONTROL 設定／「ベーシック」]**&#x200B;タブを選択します。
 
    ![](assets/social_webapp_fb_008.png)
 
-1. ページの下部で、ボタンをクリック **[!UICONTROL Add Platform]** し、を選択します **[!UICONTROL Page Tab]**。
+1. ページの下部にある「**[!UICONTROL プラットフォームを追加]**」ボタンをクリックし、「**[!UICONTROL ページタブ]**」を選択します。
 
    ![](assets/social_webapp_fb_008bis.png)
 
-1. セクション **[!UICONTROL Page Tab Name]** のフィールド **[!UICONTROL Page Tab]** に、Facebookページに表示するラベルを入力します。
+1. 「**[!UICONTROL ページタブ]**」セクションの「**[!UICONTROL ページタブ名]**」フィールドに、Facebook ページに表示するラベルを入力します。
 
    ![](assets/social_webapp_fb_001.png)
 
-1. このフィー **[!UICONTROL Secure Page Tab URL]** ルドに、Webアプリケーションの公開URLを入力します。このURLは、Webアプリケーションのタ **[!UICONTROL Dashboard]** ブからアクセスできます。 FacebookタイプのWebアプリケーションの作成について詳しくは、「FacebookタイプのWebア [プリケーションの作成」を参照してくださ](#creating-a-facebook-type-web-application)い。
+1. 「**[!UICONTROL セキュアページタブの URL]**」フィールドに、Web アプリケーションのパブリック URL を入力します。この URL は、Web アプリケーションの「**[!UICONTROL ダッシュボード]**」タブからアクセスできます。Facebook タイプの Web アプリケーションの作成について詳しくは、「[Facebook タイプの Web アプリケーションの作成](#creating-a-facebook-type-web-application)」を参照してください。
 
    ![](assets/social_webapp_fb_002.png)
 
-1. Webアプリケ **[!UICONTROL Dashboard]** ーションの上で、リンクをクリック **[!UICONTROL Add a page tab]** します。
+1. Web アプリケーションの「**[!UICONTROL ダッシュボード]**」で、「**[!UICONTROL ページタブを追加]**」リンクをクリックします。
 
    ![](assets/social_webapp_fb_0010.png)
 
-1. タブの追加先のFacebookページを選択し、をクリックします **[!UICONTROL Add Page Tab]**。
+1. タブの追加先の Facebook ページを選択し、「**[!UICONTROL ページタブを追加]**」をクリックします。
 
    ![](assets/social_webapp_fb_0011.png)
 

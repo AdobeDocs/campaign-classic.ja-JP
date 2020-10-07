@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaignクラシックデータモデルの説明
-description: このドキュメントでは、Adobe Campaignクラシックデータモデルについて説明します。
+title: Adobe Campaign Classicデータモデルの説明
+description: 本ドキュメントでは、Adobe Campaign Classicのデータモデルについて説明します。
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -9,21 +9,18 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2380'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# キャンペーンデータモデルの説明{#data-model-description}
+# Campaign data model description{#data-model-description}
 
-Adobe Campaignには、事前定義済みのデータモデルが付属しています。 この節では、Adobe Campaignデータモデルの組み込みの表とその操作について詳しく説明します。
+Adobe Campaign には、事前定義済みのデータモデルが付属します。この節では、Adobe Campaignデータモデルの組み込みの表とその操作について詳しく説明します。
 
 各テーブルの説明にアクセスするには、 **[!UICONTROL 管理者/設定/データスキーマ]**&#x200B;に移動し、リストからリソースを選択して、「 **[!UICONTROL ドキュメント]** 」タブをクリックします。
 
@@ -51,8 +48,8 @@ Adobe Campaignは、相互にリンクされたテーブルを含むリレーシ
 
 これは、配信の **受信者に使用されるデフォルトのテーブルです**。 その結果、様々なチャネルを介した配信に必要な情報が含まれます。
 
-* sEmail: 電子メールアドレス。
-* iEmailFormat: 電子メールに適した形式（テキストには1、HTMLには2、未定義の場合は0）。
+* sEmail:電子メールアドレス。
+* iEmailFormat:電子メールに適した形式（テキストには1、HTMLには2、未定義の場合は0）。
 * 住所1、sAddress2、sAddress3、sAddress4、sZipCode、sCityを使用して、住所を作成します（1997年5月のXPZ 10-011 AFNOR標準に準拠）。
 * sPhone、sMobilePhone、sFaxには、それぞれ電話番号、携帯電話番号、FAX番号が含まれます。
 * iBlockListは、プロファイルに使用されるデフォルトのオプトアウトフラグです（1は「登録解除」、0はそれ以外）。
@@ -67,7 +64,7 @@ sCountryCodeフィールドは、受信者に関連付けられた国の3166-1�
 
 このテーブルは、 **nms:group** スキーマと一致します。
 
-これにより、受信者の **統計的なグループを作成でき**&#x200B;ます。 受信者とグループには多対多の関係がある。 例えば、1人の受信者が複数のグループに属し、1つのグループに複数の受信者を含めることができます。 読み込みまたは配信のターゲット設定を使用して、手動でグループを作成できます。 グループは多くの場合、配信ターゲットとして使用されます。 sNameグループの内部名を表す一意のインデックスがフィールドに存在します。 グループがフォルダーにリンクされている(キーはiFolderIdです。 For more on this, see [XtkFolder](#XtkFolder)).
+これにより、受信者の **統計的なグループを作成でき**&#x200B;ます。 受信者とグループには多対多の関係がある。 例えば、1人の受信者が複数のグループに属し、1つのグループが複数の受信者を含む場合があります。 読み込みまたは配信のターゲット設定を使用して、手動でグループを作成できます。 グループは多くの場合、配信ターゲットとして使用されます。 sNameグループの内部名を表す一意のインデックスがフィールドに存在します。 グループがフォルダーにリンクされている(キーはiFolderIdです。 For more on this, see [XtkFolder](#XtkFolder)).
 
 ### NmsRcpGrpRel {#NmsRcpGrpRel}
 
@@ -107,7 +104,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 
 コンソールの「 **ナビゲーション** 」タブに表示されるツリー内の **** すべてのフォルダが含まれます。
 
-フォルダーは次のように入力します。 sModelフィールドの値は、フォルダーに含めることができるデータのタイプを指定します。 また、このフィールドを使用すると、クライアントコンソールで、対応するフォームと共にデータを正しく表示できます。 このフィールドに指定できる値は、navTreeで定義されます。
+フォルダーは次のように入力します。sModelフィールドの値は、フォルダーに含めることができるデータのタイプを指定します。 また、このフィールドを使用すると、クライアントコンソールで、対応するフォームと共にデータを正しく表示できます。 このフィールドに指定できる値は、navTreeで定義されます。
 
 ツリーは、iParentIdフィールドとiChildCountフィールドで管理されます。 sFullNameフィールドは、ツリー内のフォルダのフルパスを指定します。 最後に、sNameフォルダーの内部名を表すフィールドに一意のインデックスがあります。
 
@@ -117,7 +114,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 
 ![](assets/data-model_delivery.png)
 
-**NmsBroadLogMsg**: このテーブルは、 **nms:broadLogMsg** スキーマと一致します。 配信ログテーブルの拡張です。
+**NmsBroadLogMsg**:このテーブルは、 **nms:broadLogMsg** スキーマと一致します。 配信ログテーブルの拡張です。
 
 ## Campaign management {#campaign-management}
 
@@ -125,15 +122,15 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 
 ![](assets/data-model_campaign.png)
 
-* **NmsOperation**: このテーブルは、 **nms:operation** スキーマと一致します。 マーケティングキャンペーンのデータが含まれます。
-* **NmsDeliveryOutline**: このテーブルは、 **nms:deliveryOutline** スキーマと一致します。 配信(配信の概要)の拡張プロパティが含まれます。
-* **NmsDlvOutlineItem**: 次の表は、 **nms:dlvOutlineItem** スキーマと一致します。 配信の概要の記事が含まれます。
-* **NmsDeliveryCustomization**: このテーブルは、 **nms:deliveryCustomization** スキーマと一致します。 配信のパーソナライゼーションフィールドが含まれます。
-* **NmsBudget**: このテーブルは、 **nms:budget** スキーマと一致します。 キャンペーン、計画、プログラム、タスク、配信に関する予算のデータが含まれます。
-* **NmsDocument**: このテーブルは、 **nms:ドキュメント** スキーマと一致します。 キャンペーンのマーケティングドキュメントがファイル（画像、Excelファイル、Wordファイルなど）の形式で含まれます。
-* **XtkWorkflow**: 次の表は、 **xtk:workflow** スキーマと一致します。 キャンペーンのターゲット設定が含まれます。
-* **NmsTask**: このテーブルは、 **nms:タスク** スキーマと一致します。 マーケティングタスクの定義が含まれます。
-* **NmsAsset**: このテーブルは、 **nms:asset** スキーマと一致します。 マーケティングリソースの定義が含まれます。
+* **NmsOperation**:このテーブルは、 **nms:operation** スキーマと一致します。 マーケティングキャンペーンのデータが含まれます。
+* **NmsDeliveryOutline**:このテーブルは、 **nms:deliveryOutline** スキーマと一致します。 配信(配信の概要)の拡張プロパティが含まれます。
+* **NmsDlvOutlineItem**:次の表は、 **nms:dlvOutlineItem** スキーマと一致します。 配信の概要の記事が含まれます。
+* **NmsDeliveryCustomization**:このテーブルは、 **nms:deliveryCustomization** スキーマと一致します。 配信のパーソナライゼーションフィールドが含まれます。
+* **NmsBudget**:このテーブルは、 **nms:budget** スキーマと一致します。 キャンペーン、計画、プログラム、タスク、配信に関する予算のデータが含まれます。
+* **NmsDocument**:このテーブルは、 **nms:ドキュメント** スキーマと一致します。 キャンペーンのマーケティングドキュメントがファイル（画像、Excelファイル、Wordファイルなど）の形式で含まれます。
+* **XtkWorkflow**:次の表は、 **xtk:workflow** スキーマと一致します。 キャンペーンのターゲット設定が含まれます。
+* **NmsTask**:このテーブルは、 **nms:タスク** スキーマと一致します。 マーケティングタスクの定義が含まれます。
+* **NmsAsset**:このテーブルは、 **nms:asset** スキーマと一致します。 マーケティングリソースの定義が含まれます。
 
 ## 通信の一貫性 {#communication-consistency}
 
@@ -141,11 +138,11 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 
 ![](assets/data-model_typology.png)
 
-* **NmsTypologyRule**: 次の表は、 **nms:typologyRule** スキーマと一致します。 タイポロジに応じた配信に適用されるルールが含まれます。
-* **NmsTypology**: 次の表は、 **nms:typology** スキーマと一致します。 タイポロジに一致する配信に適用される一連のルールが含まれます。
-* **NmsTypologyRuleRel**: このテーブルは、 **nms:typologyRuleRel** スキーマと一致します。 類型とそのルールの関係が含まれます。
-* **NmsVolumeLine**: このテーブルは、 **nms:volumeLine** スキーマと一致します。 キャパシティ・ルールの可用性ラインのセットが含まれます。
-* **NmsVolumeConsumed**: この表は、 **nms:volumeConsumed** スキーマと一致します。 キャパシティ・ルールのすべての消費ラインが含まれます。
+* **NmsTypologyRule**:次の表は、 **nms:typologyRule** スキーマと一致します。 タイポロジに応じた配信に適用されるルールが含まれます。
+* **NmsTypology**:次の表は、 **nms:typology** スキーマと一致します。 タイポロジに一致する配信に適用される一連のルールが含まれます。
+* **NmsTypologyRuleRel**:このテーブルは、 **nms:typologyRuleRel** スキーマと一致します。 類型とルールの関係が含まれます。
+* **NmsVolumeLine**:このテーブルは、 **nms:volumeLine** スキーマと一致します。 キャパシティ・ルールの可用性ラインのセットが含まれます。
+* **NmsVolumeConsumed**:この表は、 **nms:volumeConsumed** スキーマと一致します。 キャパシティ・ルールのすべての消費ラインが含まれます。
 
 ## 応答管理 {#response-management}
 
@@ -167,7 +164,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 * クエリースキーマ。仮説条件の開始テーブルを定義できます。
 * 個人に対するリンク。クエリスキーマに基づいて個人を識別できます。
 * 取引日。 このフィールドは必須ではありませんが、計算の枠を制限するために使用することをお勧めします。
-* 取引金額： これは、売上高指標を自動的に計算するためのオプションのフィールドです。
+* 取引金額：これは、売上高指標を自動的に計算するためのオプションのフィールドです。
 
 **仮説の境界線（XMLに保存された情報）**
 
@@ -213,21 +210,21 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 
 ![](assets/data-model_simulation.png)
 
-* **NmsSimulation**: このテーブルは、 **nms:シミュレーション** スキーマと一致します。 特定の母集団に対する一連の配信またはオファーのシミュレーションを表します。
-* **NmsDlvSimulationRel**: 次の表は、 **nms:dlvSimulationRel** スキーマと一致します。 シミュレーション内で考慮される配信のリストが含まれます。 シミュレーションの範囲はXMLに保存されます。
-* **NmsOfferSimulationRel**: このテーブルは、 **nms:offerSimulationRel** スキーマと一致します。 シミュレーションをオファーとリンクできます。
+* **NmsSimulation**:このテーブルは、 **nms:シミュレーション** スキーマと一致します。 特定の母集団に対する一連の配信またはオファーのシミュレーションを表します。
+* **NmsDlvSimulationRel**:次の表は、 **nms:dlvSimulationRel** スキーマと一致します。 シミュレーション内で考慮される配信のリストが含まれます。 シミュレーションの範囲はXMLに保存されます。
+* **NmsOfferSimulationRel**:このテーブルは、 **nms:offerSimulationRel** スキーマと一致します。 シミュレーションをオファーとリンクできます。
 
 ## 対話モジュール {#interaction-module}
 
 この一連のテーブルは **Interaction** モジュールにリンクされており、このモジュールを使用すると、1つまたは複数の適合オファーにすることで、特定の接触との対話中にリアルタイムに応答できます。 詳しくは、インタラク [ションとオファーの管理を参照してください](../../interaction/using/interaction-and-offer-management.md)。
 
-* **NmsOffer**: このテーブルは、 **nms:オファー** スキーマと一致します。 各マーケティングオファーの定義が含まれます。
-* **NmsPropositionRcp**: この表は、 **nms:propositionRcp** スキーマと一致します。 各個人に送信されるマーケティング提案のクロスチャネルログが含まれます。 レコードは、提案が準備されたか、または個人に効果的に作成されたときに作成されます。
-* **NmsOfferSpace**: このテーブルは、 **nms:offerSpace** スキーマと一致します。 提案が行われる場所の定義が含まれます。
-* **NmsOfferContext**: このテーブルは、 **nms:offerContext** スキーマと一致します。 提案の適用性に関する追加の条件と、重み付けの計算式の定義が含まれます。
-* **NmsOfferView**: このテーブルは、 **nms:offerView**. オファー表示域が含まれます。
-* **NmsOfferCategory**: このテーブルは、 **nms:offerCategory**. オファーカテゴリが含まれます。
-* **NmsOfferEnv**: このテーブルは、 **nms:offerEnv**. オファー環境が含まれます。
+* **NmsOffer**:このテーブルは、 **nms:オファー** スキーマと一致します。 各マーケティングオファーの定義が含まれます。
+* **NmsPropositionRcp**:この表は、 **nms:propositionRcp** スキーマと一致します。 各個人に送信されるマーケティング提案のクロスチャネルログが含まれます。 レコードは、提案が準備されたか、または個人に効果的に作成されたときに作成されます。
+* **NmsOfferSpace**:このテーブルは、 **nms:offerSpace** スキーマと一致します。 提案が行われる場所の定義が含まれます。
+* **NmsOfferContext**:このテーブルは、 **nms:offerContext** スキーマと一致します。 提案の適用性に関する追加の条件と、重み付けの計算式の定義が含まれます。
+* **NmsOfferView**:このテーブルは、 **nms:offerView**. オファー表示域が含まれます。
+* **NmsOfferCategory**:このテーブルは、 **nms:offerCategory**. オファーカテゴリが含まれます。
+* **NmsOfferEnv**:このテーブルは、 **nms:offerEnv**. オファー環境が含まれます。
 
 ## Message Centerモジュール {#message-center-module}
 
@@ -259,12 +256,12 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 この表は **モバイルアプリチャネルにリンクされています**。モバイルアプリを使用すると、アプリを介してiOS端末とAndroid端末にパーソナライズされた通知を送信できます。 詳しくは、モバイルアプリのチャネル [についてを参照してください](../../delivery/using/about-mobile-app-channel.md)。
 
-* **NmsMobileApp**: この表は、 **nms:mobileApp** スキーマと一致します。 Adobe Campaignで定義されたモバイルアプリケーションが含まれます。
-* **NmsAppSubscription**: このテーブルは、 **nms:appSubscription** スキーマと一致します。 1つ以上のアプリケーションに関するサブスクライバー情報が含まれます。
-* **NmsAppSubscriptionRcp**: このテーブルは、 **nms:appSubscriptionRcp** スキーマと一致します。 このテーブルを使用すると、受信者に登録した訪問者をアプリケーションテーブルとリンクできます。
-* **NmsExcludeLogAppSubRcp**: このテーブルは、 **nms:excludeLogAppSubRcp** スキーマと一致します。
-* **NmsTrackingLogAppSubRcp**: この表は、 **nms:trackingLogAppSubRcp** スキーマと一致します。
-* **NmsBroadLogAppSubRcp**: この表は、 **nms:broadLogAppSubRcp** スキーマと一致します。
+* **NmsMobileApp**:この表は、 **nms:mobileApp** スキーマと一致します。 Adobe Campaignで定義されたモバイルアプリケーションが含まれます。
+* **NmsAppSubscription**:このテーブルは、 **nms:appSubscription** スキーマと一致します。 1つ以上のアプリケーションに関するサブスクライバー情報が含まれます。
+* **NmsAppSubscriptionRcp**:このテーブルは、 **nms:appSubscriptionRcp** スキーマと一致します。 このテーブルを使用すると、受信者に登録した訪問者をアプリケーションテーブルとリンクできます。
+* **NmsExcludeLogAppSubRcp**:このテーブルは、 **nms:excludeLogAppSubRcp** スキーマと一致します。
+* **NmsTrackingLogAppSubRcp**:この表は、 **nms:trackingLogAppSubRcp** スキーマと一致します。
+* **NmsBroadLogAppSubRcp**:この表は、 **nms:broadLogAppSubRcp** スキーマと一致します。
 
 ## Social Marketing Module {#social-marketing-module}
 
@@ -272,8 +269,8 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 ![](assets/data-model_social.png)
 
-* **NmsVisitor**: このテーブルは、 **nms:訪問者** スキーマと一致します。 訪問者に関する情報が含まれます。
-* **NmsVisitorSub**: このテーブルは、 **nms:visitorSub** スキーマと一致します。 訪問者を、登録済みのサービス（TwitterまたはFacebook）にリンクできます。
-* **NmsFriendShipRel**: このテーブルは、 **nms:friendshipRel** スキーマと一致します。 Facebookサービスのコンテキスト内で、訪問者を友人とリンクさせることができます。
-* **NmsVisitorInterestRel**: このテーブルは、 **nms:visitorInterestRel** スキーマと一致します。 訪問者とその興味をリンクできます。
-* **NmsInterest**: このテーブルは、 **nms:interest** スキーマと一致します。 各訪問者の興味のリストが含まれます。
+* **NmsVisitor**:このテーブルは、 **nms:訪問者** スキーマと一致します。 訪問者に関する情報が含まれます。
+* **NmsVisitorSub**:このテーブルは、 **nms:visitorSub** スキーマと一致します。 訪問者を、登録済みのサービス（TwitterまたはFacebook）にリンクできます。
+* **NmsFriendShipRel**:このテーブルは、 **nms:friendshipRel** スキーマと一致します。 Facebookサービスのコンテキスト内で、訪問者を友人とリンクさせることができます。
+* **NmsVisitorInterestRel**:このテーブルは、 **nms:visitorInterestRel** スキーマと一致します。 訪問者とその興味をリンクできます。
+* **NmsInterest**:このテーブルは、 **nms:interest** スキーマと一致します。 各訪問者の興味のリストが含まれます。

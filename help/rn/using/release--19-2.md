@@ -11,11 +11,8 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9357be26b1bc436b19861faa2a43ec6a17cb5b3c
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 95%
@@ -167,8 +164,5 @@ iOS SDK のビルド 1.0.26 が利用できるようになりました。この�
 * 予測モデルにアクセスする際の問題を修正しました。（NEO-19713）
 * Hadoop FDA データベースを使用した&#x200B;**分割**&#x200B;ワークフローアクティビティでのランダムサンプリングに影響する問題を修正しました。（NEO-16636）
 * Oracleの回帰が修正され、アップグレード後に一部の関数が無効と見なされる問題を修正しました。 （NEO-12759）
-
-
-
 
 

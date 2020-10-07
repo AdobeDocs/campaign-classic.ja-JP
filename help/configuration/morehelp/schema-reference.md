@@ -1,6 +1,6 @@
 ---
-title: スキーマ参照
-seo-title: スキーマ参照
+title: スキーマリファレンス
+seo-title: スキーマリファレンス
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -8,14 +8,14 @@ uuid: d0513002-3a25-4c71-a766-0332f7618a07
 contentOwner: sauviat
 discoiquuid: b0fab4b4-e403-42be-9563-f7ca45c86511
 iscontainer: true
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '8'
+ht-degree: 100%
 
 ---
 
 
-# スキーマ参照{#schema-reference}
+# スキーマリファレンス{#schema-reference}
 

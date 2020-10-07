@@ -1,7 +1,7 @@
 ---
-title: Facebookアプリの例
-seo-title: Facebookアプリの例
-description: Facebookアプリの例
+title: Facebook アプリの例
+seo-title: Facebook アプリの例
+description: Facebook アプリの例
 seo-description: null
 page-status-flag: never-activated
 uuid: 336f4006-3545-4b04-959d-61cd0446af27
@@ -11,73 +11,73 @@ audience: social
 content-type: reference
 topic-tags: annexes
 discoiquuid: 07be1d3c-b038-48ca-be37-a33adb8e0fc0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '2129'
+ht-degree: 100%
 
 ---
 
 
-# Facebookアプリの例{#examples-of-facebook-apps}
+# Facebook アプリの例{#examples-of-facebook-apps}
 
-ユーザーがFacebookアプリのタブをクリックすると、幅が810ピクセルのスペースに表示されます。 Adobe Campaignでは、FacebookタイプのWebアプリケーションを使用して、Facebookアプリケーションに表示するコンテンツを定義およびパーソナライズできるので、プロファイルの取得が容易になります。
+ユーザーが Facebook アプリケーションのタブをクリックすると、幅が 810 ピクセルのスペースに表示されます。Adobe Campaign では、Facebook タイプの Web アプリケーションを使用して、Facebook アプリケーションに表示するコンテンツを定義およびパーソナライズできるので、プロフィールの取得が容易になります。
 
 >[!NOTE]
 >
->また、パートナーが開発したFacebookアプリケーションとAdobe Campaignを統合することもできます。 この場合、Adobe Campaign webアプリケーションを使用してFacebookプロファイルを取得する必要はありません。 For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+>また、パートナーが開発した Facebook アプリケーションと Adobe Campaign を統合することもできます。この場合、Adobe Campaign Web アプリケーションを使用して Facebook のプロフィールを取得する必要はありません。詳しくは、[外部アカウントの設定](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)を参照してください。
 
 ![](assets/social_webapp_fb_000.png)
 
 >[!IMPORTANT]
 >
->Facebookアプリケーションの作成で説明されている設定手 [順に従ってください](../../social/using/creating-a-facebook-application.md)。
+>[Facebook アプリケーションの作成](../../social/using/creating-a-facebook-application.md)で説明されている設定手順に従ってください。
 
 >[!NOTE]
 >
->ここでは、FacebookタイプのWebアプリにリンクされた要素について詳しく説明します。 標準のWebアプリケーションと共有するすべての要素について、この節で [詳しく説明しま](../../web/using/about-web-applications.md)す。
+>ここでは、Facebook タイプの Web アプリケーションに関連する要素について詳しく説明します。標準の Web アプリケーションと共有するすべての要素について詳しくは、[この節](../../web/using/about-web-applications.md)で説明しています。
 
-ここで詳しく説明するFacebookタイプのWebアプリの例を以下に示します。
+ここで説明する Facebook タイプの Web アプリケーションの例を以下に示します。
 
-* 7つの手順でFacebookアプリを作成する方法を説明します。 詳しくは、クイックス [タートを参照してください。Facebookアプリの作成手順は7つです](#quick-start--creating-a-facebook-application-in-7-steps)。
-* 設定をFacebookアプリケーションに転送する方法を説明します。 設定をFacebookア [プリに転送する方法を参照してください](#how-to-forward-settings-to-a-facebook-application-)。
-* ファンデータの取得方法。 ファンデ [ータの取得方法を参照](#how-to-acquire-fan-data-)。
+* 7 ステップで Facebook アプリケーションを作成する方法。[クイックスタート：7 ステップで作成する Facebook アプリケーション](#quick-start--creating-a-facebook-application-in-7-steps)を参照してください。
+* 設定を Facebook アプリケーションに転送する方法。[設定を Facebook アプリケーションに転送するには？](#how-to-forward-settings-to-a-facebook-application-)を参照してください。
+* ファンデータの取得方法。[ファンデータを取得するには？](#how-to-acquire-fan-data-)を参照してください。
 
 >[!IMPORTANT]
 >
->以下の単純な使用例は、FacebookタイプのWebアプリケーションの機能を示す例として提供されています。
+>Facebook タイプの Web アプリケーションの機能を説明する例として、シンプルな使用例が提供されています。
 
 ## 推奨事項 {#recommendations}
 
-次の制限はFacebookに直接リンクされています。
+以下の制限は Facebook に直結しています。
 
-* すべてのWebアプリケーションはHTTPSで構築する必要があります。
-* タブを介して表示されるFacebookアプリの幅は810ピクセルです。
+* すべての Web アプリケーションは HTTPS で構築する必要があります。
+* タブを介して表示される Facebook アプリケーションの幅は 810 ピクセルです。
 
-## クイックスタート：7つの手順でFacebookアプリを作成する {#quick-start--creating-a-facebook-application-in-7-steps}
+## クイックスタート：7 ステップで作成する Facebook アプリケーション {#quick-start--creating-a-facebook-application-in-7-steps}
 
-この例では、Adobe Campaignで作成したアプリをFacebookに表示する手順を説明します。 この場合、ユーザーが「アプリ」タブ( **App01******)をクリックしたときにようこそメッセージを表示できるアプリを作成します。
+この例では、Adobe Campaign で作成したアプリケーションを Facebook に表示する方法について詳細な手順を説明します。ここでは、ユーザーがアプリケーションタブ（**App01**）をクリックすると&#x200B;**ようこそ**&#x200B;メッセージを表示できるアプリケーションを作成します。
 
-このアプリケーションを作成するには、次の手順を適用します。
+このアプリケーションを作成するには、以下の手順に従います。
 
-1. Facebookでアプリを作成します(https://developers.facebook.com/apps [](https://developers.facebook.com/apps))。 For more on this, refer to: [Creating a Facebook application](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application).
+1. Facebook でアプリケーションを作成します（[https://developers.facebook.com/apps](https://developers.facebook.com/apps)）。詳しくは、[Facebook アプリケーションの作成](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application)を参照してください。
 
    ![](assets/social_create_facebook_app_002.png)
 
-1. タイプの外部ア **[!UICONTROL Facebook Connect]** カウントを作成し、Facebookアプリのパラメーターを入力します。 For more on this, refer to: [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+1. **[!UICONTROL Facebook Connect]** タイプの外部アカウントを作成し、Facebook アプリケーションのパラメーターを入力します。詳しくは、[外部アカウントの設定](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)を参照してください。
 
    ![](assets/social_quick_start_2.png)
 
-1. Facebook権限リクエ **[!UICONTROL Terms of service]** スト画面 **[!UICONTROL Privacy policy]** に表示するおよびリンクを入力します。 詳しくは、次を参照してください。サー [ビス規約およびプライバシーポリシーのリンクの入力](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links)。
+1. Facebook 権限リクエスト画面に表示する&#x200B;**[!UICONTROL サービス利用条件]**&#x200B;および&#x200B;**[!UICONTROL プライバシーポリシー]**&#x200B;のリンクを入力します。詳しくは、[サービス利用条件およびプライバシーポリシーのリンクの入力](../../social/using/creating-a-facebook-application.md#entering-the-terms-of-service-and-privacy-policy-links)を参照してください。
 
    ![](assets/social_quick_start_1.png)
 
-1. Adobe CampaignでFacebookタイプのWebアプリケーションを作成します。 詳しくは、次を参照してください。Facebookタイプ [のWebアプリケーションの作成](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application)。
+1. Adobe Campaign で Facebook タイプの Web アプリケーションを作成します。詳しくは、[Facebook タイプ の Web アプリケーションの作成](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application)を参照してください。
 
    ![](assets/social_webapp_005.png)
 
-1. Webアプリケーションを編集します。 この例では、アクティビティを追加し、そ **[!UICONTROL Page]** のタイトルを定義しています。
+1. Web アプリケーションを編集します。この例では、**[!UICONTROL ページ]**&#x200B;アクティビティを追加し、そのタイトルを定義しました。
 
    ![](assets/social_quick_start_4.png)
 
@@ -85,102 +85,102 @@ source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
 
    ![](assets/social_webapp_004.png)
 
-1. FacebookアプリがFacebookページのタブとして表示されるように設定します。 For more on this, refer to: [Configuring Facebook tabs](../../social/using/creating-a-facebook-application.md#configuring-facebook-tabs).
+1. Facebook アプリケーションが Facebook ページのタブとして表示されるように設定します。詳しくは、[Facebook タブの設定](../../social/using/creating-a-facebook-application.md#configuring-facebook-tabs)を参照してください。
 
    ![](assets/social_quick_start_5.png)
 
 ![](assets/social_quick_start_6.png)
 
-App01アプリのタブがFacebookページに表 **示される** ことを確認します。 クリックすると、お知らせメッセージが **表示され** ます。
+**App01** アプリケーションのタブが Facebook ページに表示されることを確認します。クリックすると、**ようこそ**&#x200B;メッセージが表示されます。
 
 ![](assets/social_webapp_042.png)
 
-## 設定をFacebookアプリケーションに転送する方法を教えてください。 {#how-to-forward-settings-to-a-facebook-application-}
+## 設定を Facebook アプリケーションに転送するには？{#how-to-forward-settings-to-a-facebook-application-}
 
 >[!IMPORTANT]
 >
->「Facebookアプリケーションの作成」で詳しく説 [明されている設定手順に従います](../../social/using/creating-a-facebook-application.md)。
+>[Facebook アプリケーションの作成](../../social/using/creating-a-facebook-application.md)で説明されている設定手順に従います。
 
-例1では、フィールドの値に従ってFacebookページの表示をパーソナライズし **[!UICONTROL Fan of the page]** ます。 フィールドを処理することもでき **[!UICONTROL Application settings]** ます。 このフィールドを使用すると、Adobe Campaignで生成されたリンクに含まれるデータをFacebook経由で回復できます。
+例 1 では、「**[!UICONTROL ページのファン]**」フィールドの値に応じて Facebook ページの表示をパーソナライズしました。また、「**[!UICONTROL アプリケーション設定]**」フィールドを処理することもできます。このフィールドを使用すると、Adobe Campaign で生成されたリンクに含まれていたデータを Facebook 経由で復元できます。
 
-電子メールキャンペーンの送信を決定した会社の例を見てみましょう。 配信では、リンクがFacebookアプリに向かっています。 このリンクは、URLの末尾に追加されたパラ **[!UICONTROL app_data]** メーターによってパーソナライズされます。 このパラメーターの値は、顧客の意義を反映するインジケーターにすることができます。 この例では、パラメーターの値は **[!UICONTROL app_data]** (重要な顧 **[!UICONTROL big]** 客)と **[!UICONTROL small]** （あまり重要でない顧客）です。
+ここでは、E メールキャンペーンの送信を決定した会社の例を見てみましょう。配信では、リンクが Facebook アプリケーションを指しています。このリンクは、URL の末尾に追加されている **[!UICONTROL app_data]** パラメーターによってパーソナライズされます。このパラメーターの値は、顧客の重要性を反映する指標にすることができます。この例では、**[!UICONTROL app_data]** パラメーターの値は、**[!UICONTROL big]**（重要な顧客）と **[!UICONTROL small]**（あまり重要でない顧客）です。
 
-パーソナライズされると、URLは次のようになります。
+パーソナライズされると、URL は以下のようになります。
 
-* `http://<path of the Facebook application>&app_data=big` （重要なお客様向け）
-* `http://<path of the Facebook application>&app_data=small` （あまり重要でない顧客の場合）
+* `http://<path of the Facebook application>&app_data=big`（重要な顧客の場合）
+* `http://<path of the Facebook application>&app_data=small`（あまり重要でない顧客の場合）
 
-FacebookによってAdobe Campaignに転送された匿名データの中で、フィールドの値が収集され、Adobe Campaignでこのパラメーターに基づいてアプリの表示をパーソナライズできます。 **[!UICONTROL Application parameters]**
+Facebook によって Adobe Campaign に転送された匿名データの中で、「**[!UICONTROL アプリケーションパラメーター]**」フィールドの値が収集され、Adobe Campaign はこのパラメーターに基づいてアプリケーションの表示をパーソナライズできます。
 
-ユーザーが重要な顧客(パラメーターの値が **[!UICONTROL app_data]** )の場合、 **[!UICONTROL big]**&#x200B;次の画像が表示されます。
+ユーザーが重要な顧客（**[!UICONTROL app_data]** パラメーターの値が **[!UICONTROL big]**）の場合、以下の画像が表示されます。
 
 ![](assets/social_webapp_017.png)
 
-ユーザーの重要度が低い場合(パラメーターの値が **[!UICONTROL app_data]** である **[!UICONTROL small]**)は、次の画像が表示されます。
+ユーザーがあまり重要でない顧客（**[!UICONTROL app_data]** パラメーターの値が **[!UICONTROL small]**）の場合、以下の画像が表示されます。
 
 ![](assets/social_webapp_016.png)
 
-この使用例を再作成するには、次の要素で構成されるWebアプリケーションを作成しました。
+この事例を再作成するために、以下の要素で構成された Web アプリケーションを作成しました。
 
-* フィー **[!UICONTROL Test]** ルドに基づくアクティビティ **[!UICONTROL Application parameter]** です。
-* フィールドの値に従って表示する画像を含む2つのページ **[!UICONTROL Application parameter]** 。
+* 「**[!UICONTROL アプリケーションパラメーター]**」フィールドに基づく&#x200B;**[!UICONTROL テスト]**&#x200B;アクティビティ。
+* 「**[!UICONTROL アプリケーションパラメーター]**」フィールドの値に応じて表示する画像を含む 2 つのページ。
 
 ![](assets/social_webapp_018.png)
 
-## ファンデータの取得方法 {#how-to-acquire-fan-data-}
+## ファンデータを取得するには？{#how-to-acquire-fan-data-}
 
 >[!CAUTION]
 >
->「Facebookアプリケーションの作成」で詳しく説 [明されている設定手順に従います](../../social/using/creating-a-facebook-application.md)。
+>[Facebook アプリケーションの作成](../../social/using/creating-a-facebook-application.md)で説明されている設定手順に従います。
 
-この例は、Facebookユーザーと連絡を取り、ユーザーがプロフィール情報を共有できるようにする方法を示します。 見込み客を獲得したいと思っている企業の例を見てみましょう。Facebookのページでコンペティションを組織し、見込み客を惹きつけようとしています。
+この例では、Facebook ユーザーと連絡を取り、ユーザーがプロフィール情報を共有できるようにする方法を示します。見込み客を獲得したいと思っている企業の例を見てみましょう。Facebook のページでコンテストを企画し、見込み客を惹きつけます。
 
-ユーザーがタブをクリ **[!UICONTROL App03]** ックするたびに、競合相手に参加するかどうかを尋ねます。
+ユーザーが「**[!UICONTROL App03]**」タブをクリックするたびに、コンテストに参加するかどうかを尋ねます。
 
 ![](assets/social_webapp_fb_000.png)
 
-彼らがコンペに参加すると決めたら、彼らのプロフィール情報を共有するよう申し出ます。
+コンテストに参加すると決めたら、ユーザーにプロフィール情報を共有するよう提案します。
 
 ![](assets/social_webapp_021.png)
 
-情報の共有に同意すると、次の画面が表示されます。
+情報の共有に同意すると、以下の画面が表示されます。
 
 ![](assets/social_webapp_022.png)
 
-この使用例を作成するには、次の要素を含むWebアプリケーションを作成しました。
+この事例を作成するために、以下の要素を含む Web アプリケーションを作成しました。
 
-* 活 **[!UICONTROL Test]** 動
-* 三ページ
-* 活 **[!UICONTROL Access control]** 動
-* 活 **[!UICONTROL Pre-loading]** 動
-* 活 **[!UICONTROL Save]** 動
-* 活 **[!UICONTROL End]** 動
+* **[!UICONTROL テスト]**&#x200B;アクティビティ
+* 3 つのページ
+* **[!UICONTROL アクセス制御]**&#x200B;アクティビティ
+* **[!UICONTROL プリロード]**&#x200B;アクティビティ
+* **[!UICONTROL 保存]**&#x200B;アクティビティ
+* **[!UICONTROL 終了]**&#x200B;アクティビティ
 
 ![](assets/social_webapp_019.png)
 
 ### テストアクティビティ {#test-activity}
 
-アクティビテ **[!UICONTROL Test]** ィは、「&amp;」フィールドに基づ **[!UICONTROL ID]** いて作成 **[!UICONTROL Application parameters]** されます。
+**[!UICONTROL テスト]**&#x200B;アクティビティは、**[!UICONTROL ID]** および「**[!UICONTROL アプリケーションパラメーター]**」フィールドに基づきます。
 
 ![](assets/social_webapp_023.png)
 
-3つの枝で構成されています。
+3 つの分岐で構成されています。
 
-* **[!UICONTROL identifier (UID) is empty]** :識別子は、ユーザーが既に情報の共有に同意している場合にのみ、Facebookによって転送されます。 アクティビティの最初のブ **[!UICONTROL Test]** ランチでは、入力したことのないユーザー（空のIDを持つユーザー）のみが競合を利用できるようにします。
-* **[!UICONTROL application parameter equals 'thanks']** :facebookにリンクされた表示エラーを回避するために、Webアプリのエンドページは、値を使用してパラメーターが追加されたFacebookアプリの **[!UICONTROL app_data]** URLを指し **[!UICONTROL thanks]** ています(詳しくは、次を参照してください。アクテ [ィビティの終了](#end-activity))。 2つ目のブランチでは、ユーザーが1つ目のブランチのアクティビティから来たかどうかを調べ、「ありがとうございます」というメッセージを表示できます。 **[!UICONTROL End]** 追加のURLパラメーターの使用について詳しくは、次を参照してください。Facebookア [プリに設定を転送する方法を教えてください](#how-to-forward-settings-to-a-facebook-application-)。
-* **[!UICONTROL Default branch]** :ユーザーが前日に既に競合相手（IDが既に入力されている）に参加している場合は(アプリケーションパラメーターとは異なる **[!UICONTROL thanks]**)、既に参加したことを示すページが表示されます。
+* **[!UICONTROL 識別子（UID）が空]**：識別子は、ユーザーが既に情報の共有に同意している場合にのみ、Facebook によって転送されます。**[!UICONTROL テスト]**&#x200B;アクティビティの最初の分岐では、参加したことのないユーザー（つまり、空の ID を持つユーザー）にのみコンテストを利用できるようにします。
+* **[!UICONTROL アプリケーションパラメーターが「thanks」に等しい]**：Facebook に関連する表示エラーを回避するために、Web アプリケーションのエンドページは、**[!UICONTROL thanks]** 値を使用する **[!UICONTROL app_data]** パラメーターが追加された Facebook アプリケーションの URL を指します（詳しくは、[終了アクティビティ](#end-activity)を参照）。2 つ目の分岐では、ユーザーが 1 つ目の分岐の&#x200B;**[!UICONTROL 終了]**&#x200B;アクティビティからアクセスしたか（およびコンテストに参加したか）どうかを調べて、「ありがとうございます」メッセージを表示できます。追加の URL パラメーターの使用について詳しくは、[設定を Facebook アプリケーションに転送するには？](#how-to-forward-settings-to-a-facebook-application-)を参照してください。
+* **[!UICONTROL デフォルトの分岐]**：ユーザーが前日に既にコンテストに参加している（ID が既に入力されている）場合（アプリケーションパラメーターが **[!UICONTROL thanks]** とは異なる）は、既に参加済みであることを示すページが表示されます。
 
-### 競合ページ {#competition-page}
+### コンテストページ {#competition-page}
 
-Facebookにリンクされた表示エラーを回避するには、競合ページのフィールド **[!UICONTROL Parent window]** でまた **[!UICONTROL In the top window]** はを選 **[!UICONTROL Window]** 択する必要もあります。
+Facebook に関連する表示エラーを回避するには、コンテストページの「**[!UICONTROL ウィンドウ]**」フィールドで「**[!UICONTROL メインウィンドウ]**」または「**[!UICONTROL 上部ウィンドウで]**」を選択する必要もあります。
 
 ![](assets/social_webapp_028.png)
 
 ### アクセス制御アクティビティ {#access-control-activity}
 
-アクテ **[!UICONTROL Access control]** ィビティを使用すると、ユーザーが競合相手に入ったときにFacebook権限リクエストページを表示できます。 情報の共有に同意した場合は、プリロード時に復元されます。 For more on this, refer to: [Pre-loading activity](#pre-loading-activity).
+**[!UICONTROL アクセス制御]**&#x200B;アクティビティを使用すると、ユーザーがコンテストに参加する際に Facebook 権限リクエストページを表示できます。ユーザーが情報の共有に同意した場合、プリロード時に復元されます。詳しくは、[プリロードアクティビティ](#pre-loading-activity)を参照してください。
 
-Webアプリの作成時に以前に外部アカウントを入力した場合(「 [FacebookタイプのWebアプリの作成」を参照](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application))は、アクティビティを編集する必要はありません。 そうでない場合は、このフィールドに移動し **[!UICONTROL Application]** 、Facebookアプリにリンクされている外部アカウントを選択します。
+Web アプリケーションを作成する際に事前に外部アカウントを入力した場合（[Facebook タイプの Web アプリケーションの作成](../../social/using/creating-a-facebook-application.md#creating-a-facebook-type-web-application)を参照）は、アクティビティを編集する必要はありません。そうでない場合は、「**[!UICONTROL アプリケーション]**」フィールドに移動し、Facebook アプリケーションにリンクされた外部アカウントを選択します。
 
 ![](assets/social_webapp_024.png)
 
@@ -188,129 +188,129 @@ Webアプリの作成時に以前に外部アカウントを入力した場合(�
 
 プリロードに使用するデータソースを選択します。
 
-* **[!UICONTROL Marketing database]** :このオプションを使用すると、Adobe Campaignデータベースを介してデータを事前に読み込むことができます。
-* **[!UICONTROL Facebook]** :このオプションを使用すると、Facebookを使用してデータを事前に読み込むことができます。
+* **[!UICONTROL マーケティングデータベース]**：このオプションを使用すると、Adobe Campaign データベースを介してデータをプリロードできます。
+* **[!UICONTROL Facebook]**：このオプションを使用すると、Facebook を使用してデータをプリロードできます。
 
 ![](assets/social_webapp_029.png)
 
 **マーケティングデータベース**
 
-このオプションを使用すると、visitorsテーブルに存在するプロファイルのデータを回復できます。 検証は、ユーザがFacebookアプリタブをクリックしたときに回復した外部Facebook IDに基づいて行われます。 アクティビティの後にフォームを追加 **[!UICONTROL Pre-loading]** すると、データベースに情報が含まれるフィールドが事前に読み込まれます。
+このオプションを使用すると、訪問者テーブルに存在するプロフィールのデータを復元できます。検証は、ユーザーが Facebook アプリケーションタブをクリックする際に復元された外部 Facebook ID に基づいて実行されます。**[!UICONTROL プリロード]**&#x200B;アクティビティの後にフォームを追加すると、データベース内の情報を含むフィールドがプリロードされます。
 
 ![](assets/social_webapp_030.png)
 
 >[!NOTE]
 >
->Adobe Campaignデータベースを介したデータのプリロードについて詳しくは、この節を参照 [してください](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data)。
+>Adobe Campaign データベースを介したデータのプリロードについて詳しくは、[この節](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data)を参照してください。
 
 **Facebook**
 
-このオプションを使用すると、保存を考慮して、ユーザーが共有に同意したFacebookプロファイル情報を収集するように定義できます。
+このオプションを使用すると、保存を考慮して、ユーザーが共有に同意した Facebook のプロフィール情報を収集するように定義できます。
 
 ![](assets/social_webapp_025.png)
 
-このオ **[!UICONTROL Database information]** プションを使用すると、次のデータを収集できます。
+「**[!UICONTROL データベース情報]**」オプションを使用すると、以下のデータを収集できます。
 
-* **[!UICONTROL External ID]**:ユーザーID
-* **[!UICONTROL Gender]**:ユーザーの性別
-* **[!UICONTROL Verified]** :このフィールドは、ユーザーが有効なFacebookアカウントを持っているかどうかを指定します。
-* **[!UICONTROL Full name]**:ユーザーのフルネーム
-* **[!UICONTROL First name]**:ユーザーの名
-* **[!UICONTROL Last name]**:ユーザーの姓
-* **[!UICONTROL Language]**:ユーザーの言語
+* **[!UICONTROL 外部 ID]**：ユーザー ID
+* **[!UICONTROL 性別]**：ユーザーの性別
+* **[!UICONTROL 検証済み]**：このフィールドは、ユーザーが検証済み Facebook アカウントを持っているかどうかを指定します。
+* **[!UICONTROL 姓名]**：ユーザーの姓名
+* **[!UICONTROL 名]**：ユーザーの名
+* **[!UICONTROL 姓]**：ユーザーの姓
+* **[!UICONTROL 言語]**：ユーザーの言語
 
-また、該当するボックスをオンにして、プロフィール写真、友達のリスト、電子メールアドレス、生年月日、関心事、場所を収集することもできます。
+また、該当するボックスをオンにすることで、プロフィール写真、友達のリスト、E メールアドレス、誕生日、興味、場所を収集することもできます。
 
-をクリックする前に、ボ **[!UICONTROL Ok]**&#x200B;ックスをオンに **[!UICONTROL I agree to comply with Facebook conditions of use]** します。
+「**[!UICONTROL OK]**」をクリックする前に、「**[!UICONTROL Facebook 利用条件に同意します。]**」チェックボックスをオンにします。
 
 >[!NOTE]
 >
->セクション内の1つ以上のボックスをオンにす **[!UICONTROL Private information]** ると、Facebook権限リクエスト画面に、このデータのアクセスリクエストが自動的に表示されます。
+>「**[!UICONTROL 個人情報]**」セクションの 1 つ以上のチェックボックスをオンにすると、Facebook 権限リクエスト画面に、このデータのアクセスリクエストが自動的に表示されます。
 >
 >選択した情報を収集するには、ユーザーが情報を共有することに同意する必要があります。
 >
->両方のタイプのプリロード（Adobe CampaignとFacebookを使用）が必要な場合は、2つのプリロードボックスを1つずつ追加します。
+>両方のタイプのプリロード（Adobe Campaign 経由および Facebook 経由）が必要な場合は、2 つのプリロードボックスを順々に追加します。
 
-### アクティビティの保存 {#save-activity}
+### 保存アクティビティ {#save-activity}
 
-このア **[!UICONTROL Save]** クティビティでは、訪問者の表の前のステージで収集した情報を保存できます。
+**[!UICONTROL 保存]**&#x200B;アクティビティでは、訪問者テーブルの以前のステージで収集した情報を保存できます。
 
-訪問者のテーブルに既にプロファイルが存在する場合、そのデータは収集された新しいデータで更新されます。
+訪問者テーブルに既にプロフィールが存在する場合、そのデータは収集された新しいデータで更新されます。
 
-データベースにプロファイルが存在せず、Facebookユーザーの電子メールアドレスが収集されている場合、訪問者テーブルに訪問者が作成されます。
+データベースにプロフィールが存在せず、Facebook ユーザーの E メールアドレスが収集されている場合、訪問者テーブルに訪問者が作成されます。
 
 ![](assets/social_webapp_026.png)
 
-1. フィールド **[!UICONTROL Visitor creation folder]** で、プロファイルを作成するフォルダーを選択します。 FacebookタイプのWebアプリケーションの場合、デフォルトの作成フォルダーはです **[!UICONTROL Visitors]**。
-1. フィールド **[!UICONTROL Reconciliation mode]** で、使用する調整モードを選択します。
+1. 「**[!UICONTROL 訪問者作成フォルダー]**」フィールドで、プロフィールを作成するフォルダーを選択します。Facebook タイプの Web アプリケーションの場合、デフォルトの作成フォルダーは **[!UICONTROL Visitors]** です。
+1. 「**[!UICONTROL 紐付けモード]**」フィールドで、使用する紐付けモードを選択します。
 
-   * **[!UICONTROL Automatic]** :調整は、電子メール、姓、名、生年月日に基づいて行われます。
-   * **[!UICONTROL Manual]** :1つ以上の調整キーを選択してください。
-   * **[!UICONTROL None]** :和解は起こらない。
+   * **[!UICONTROL 自動]**：紐付けは、E メール、姓、名、誕生日に基づいておこなわれます。
+   * **[!UICONTROL 手動]**：1 つ以上の紐付けキーを選択してください。
+   * **[!UICONTROL なし]**：紐付けはおこなわれません。
 
-1. フィー **[!UICONTROL Mapping]** ルドで、調整を実行するスキーマを選択します。
+1. 「**[!UICONTROL マッピング]**」フィールドで、紐付けを実行するスキーマを選択します。
 
    >[!CAUTION]
    >
-   >タブのフィールドが配信マッピン **[!UICONTROL Social networks]** グに正しく入力されていることを確認します。 配信マッピングはノードを介してアクセス **[!UICONTROL Administration > Campaign management > Target mappings]** されます。
+   >配信マッピングで、「**[!UICONTROL ソーシャルネットワーク]**」タブのフィールドが正しく入力されていることを確認します。配信マッピングには、**[!UICONTROL 管理／キャンペーン管理／ターゲットマッピング]**&#x200B;ノードを使用してアクセスします。
 
-1. 調整用の検索フォルダーと、新しいプロファイル用の作成フォルダーを選択できます。 フィールドが空の場合は、プロファイルが検索され、マッピングスキーマのデフォルトのフォルダーに作成されます。
+1. 紐付けの検索フォルダーと、新しいプロフィールの作成フォルダーを選択できます。フィールドが空の場合、プロフィールが検索され、マッピングスキーマのデフォルトのフォルダーに作成されます。
 
-### アクティビティの終了 {#end-activity}
+### 終了アクティビティ {#end-activity}
 
-Facebookにリンクされた表示エラーを回避するには、ボックスをオンにしてFacebookアプリのURLを入力し、その後にパラメーターと値を入力す **[!UICONTROL Use an external URL]****[!UICONTROL app_data]** る必要があります。 この値は、アクティビティで使用さ **[!UICONTROL Test]** れ、ユーザーが競合相手に参加したかどうかを検出し、該当する場合は「ありがとうございます」メッセージを表示します。 For more on this, refer to: [Test activity](#test-activity).
+Facebook に関連する表示エラーを回避するには、「**[!UICONTROL 外部 URL を使用]**」チェックボックスをオンにして、Facebook アプリケーションの URL を入力し、その後に **[!UICONTROL app_data]** パラメーターおよび値を入力する必要があります。この値は、**[!UICONTROL テスト]**&#x200B;アクティビティで使用され、ユーザーがコンテストに参加したかどうかを検出し、該当する場合は「ありがとうございます」メッセージを表示します。詳しくは、[テストアクティビティ](#test-activity)を参照してください。
 
-この例では、使用する値は「ありがとう」 **です**。
+この例では、使用する値は「**thanks**」です。
 
 ![](assets/social_webapp_027.png)
 
 ### 訪問者の詳細画面 {#details-screen-of-a-visitor}
 
-Twitterのフォロワーと同様(運用原 [則](../../social/using/publishing-on-twitter.md#operating-principle))、回復したFacebookプロファイルは訪問者のテーブルに保存されます。 訪問者のリストを表示するには、ノードに移動し **[!UICONTROL Profiles and Targets > Visitors]** ます。
+Twitter のフォロワーと同様（[動作の仕組み](../../social/using/publishing-on-twitter.md#operating-principle)を参照）、復元した Facebook プロフィールは訪問者テーブルに保存されます。訪問者のリストを表示するには、**[!UICONTROL プロファイルとターゲット／訪問者]**&#x200B;ノードに移動します。
 
-プロファイル情報の共有に同意する各Facebookの見込み客が、訪問者のリストに追加されます。 アクティビティ **[!UICONTROL Friends]** でこのボックスがチェックインさ **[!UICONTROL Pre-load]** れている場合（次を参照）。プリロ [ードアクティビティ](#pre-loading-activity))、友達も追加されます。
+プロフィール情報の共有に同意する各 Facebook の見込み客が、訪問者のリストに追加されます。**[!UICONTROL プリロード]**&#x200B;アクティビティで「**[!UICONTROL 友達]**」チェックボックスがオンになっている場合（[プリロードアクティビティ](#pre-loading-activity)を参照）、友達も追加されます。
 
 ![](assets/social_webapp_037.png)
 
-訪問者の詳 **[!UICONTROL Summary]** 細ウィンドウのセクションには、インジケーターの2つの状態が考えられ **[!UICONTROL New Contact]** ます。
+訪問者の詳細ウィンドウの「**[!UICONTROL 概要]**」セクションでは、**[!UICONTROL 新しい連絡先]**&#x200B;指標に対して 2 つの状態が考えられます。
 
 ![](assets/social_webapp_038.png)
 
-緑色のチェックマークが表示されている場合は、その訪問者が他の受信者と調整されていないことを意味します。 この場合、受信者のリストに新しいプロファイルが作成されます。
+緑色のチェックマークが表示されている場合、その訪問者は他の受信者と紐付けられていなかったことを意味します。この場合、受信者のリストに新しいプロフィールが作成されます。
 
 ![](assets/social_webapp_039.png)
 
-赤い十字は、訪問者が受信者と和解したことを意味します。 フィールドの右側の虫めがねをクリックすると、一 **[!UICONTROL Recipient]** 致する受信者が表示されます。
+赤色のバツ印は、その訪問者が受信者と紐付けられていることを意味します。「**[!UICONTROL 受信者]**」フィールドの右側の拡大鏡をクリックすると、一致する受信者が表示されます。
 
 ![](assets/social_webapp_040.png)
 
-該当する場合は、受信者の詳細ウィンドウに移動して、一致する訪問者を表示します。 タブを選 **[!UICONTROL Others]** 択し、セクション内の訪問者の名前をダブルクリックし **[!UICONTROL Web identities]** ます。
+該当する場合は、受信者の詳細ウィンドウに移動して、一致する訪問者を表示します。「**[!UICONTROL その他]**」タブを選択し、「**[!UICONTROL Web ID]**」セクションで訪問者の名前をダブルクリックします。
 
 ![](assets/social_webapp_041.png)
 
-訪問者 **[!UICONTROL Activities]** の詳細ページの画面には、次の情報が含まれます。
+訪問者の詳細ページの&#x200B;**[!UICONTROL アクティビティ]**&#x200B;画面には、以下の情報が含まれています。
 
-* 「Open Graph」タイプのファン活動：音楽の再生、ビデオの視聴、記事の読み取り、インストールされたアプリケーションの下位数（Deizer、Spotify、Dailymotion、Yahoo Newsなど）
+* 「Open Graph」タイプのファンアクティビティ：再生した音楽、視聴済み動画、既読記事、インストールされたアプリケーションの推測（Deezer、Spotify、Dailymotion、Yahoo ニュースなど）
 
    ![](assets/social_facebook_activities.png)
 
-* 「いいね！」およびAdobe Campaignから送信された配信後のファンによるコメント
-* ファンから好まれたページ
+* Adobe Campaign から送信された配信の後にファンによって追加された「いいね！」およびコメント
+* ファンによって「いいね！」されたページ
 * ファンによるチェックイン
 
    ![](assets/social_facebook_checkins.png)
 
    >[!NOTE]
    >
-   >Adobe Campaignでファンのチェックインを収集するには、サービス設定画面のボタンをク **[!UICONTROL Subscribe]** リックする必要があります。 For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+   >Adobe Campaign でファンのチェックインを収集するには、サービス設定画面の「**[!UICONTROL 購読]**」ボタンをクリックする必要があります。詳しくは、[外部アカウントの設定](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)を参照してください。
 
-## Facebookプロファイルデータを使用してフォームのフィールドを事前に読み込む方法 {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
+## Facebook プロフィールデータを使用したフォームのフィールドのプリロード方法 {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
 
-また、 **[!UICONTROL Social Marketing]** Facebookのプロファイル情報を使用してフィールドを事前に読み込むためのボタンをフォームに追加することもできます。 このオプションは、すべてのWebアプリケーションテンプレート（タイプアクティビティ）**[!UICONTROL Page]** で使用でき、この節で詳 [しく説明しま](../../web/using/static-elements-in-a-web-form.md#inserting-html-content)す。
+**[!UICONTROL ソーシャルマーケティング]**&#x200B;アプリケーションを使用すると、Facebook のプロフィール情報を使用してフィールドをプリロードするためのボタンをフォームに追加できます。このオプション（すべての Web アプリケーションテンプレート（**[!UICONTROL ページ]**&#x200B;タイプのアクティビティ）で使用できます）について詳しくは、[この節](../../web/using/static-elements-in-a-web-form.md#inserting-html-content)を参照してください。
 
 ![](assets/social_webapp_035.png)
 
 >[!NOTE]
 >
->この機能を使用する前に、Facebookアプリを作成し、外部アカウントをタイプする必 **[!UICONTROL Facebook Connect]** 要があります。 For more on this, refer to [Configuring external accounts](../../social/using/creating-a-facebook-application.md#configuring-external-accounts).
+>この機能を使用する前に、Facebook アプリケーションと **[!UICONTROL Facebook Connect]** タイプの外部アカウントを作成する必要があります。詳しくは、[外部アカウントの設定](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)を参照してください。
 

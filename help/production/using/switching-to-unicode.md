@@ -1,7 +1,7 @@
 ---
-title: Unicodeへの切り替え
-seo-title: Unicodeへの切り替え
-description: Unicodeへの切り替え
+title: Unicode への切り替え
+seo-title: Unicode への切り替え
+description: Unicode への切り替え
 seo-description: null
 page-status-flag: never-activated
 uuid: 5f15b285-7377-453a-aa98-ca4cf14a4c80
@@ -11,18 +11,18 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: 0f5399a8-860d-4a1b-86a9-9011b973346b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 9%
 
 ---
 
 
-# Unicodeへの切り替え{#switching-to-unicode}
+# Unicode への切り替え{#switching-to-unicode}
 
-Linux/PostgreSQLの既存 **のprod** Instanceの場合、Unicodeに切り替える手順は次のとおりです。
+Linux/PostgreSQLの既存の **prod** Instanceの場合、unicodeに切り替える手順は次のとおりです。
 
 1. データベースへの書き込みプロセスを停止します。
 
@@ -31,7 +31,7 @@ Linux/PostgreSQLの既存 **のprod** Instanceの場合、Unicodeに切り替え
    nlserver shutdown
    ```
 
-1. データベースのダンプ：
+1. データベースをダンプします。
 
    ```
    su - postgres
@@ -57,7 +57,7 @@ Linux/PostgreSQLの既存 **のprod** Instanceの場合、Unicodeに切り替え
    update XtkOption set sStringValue = 'u'||sStringValue where sName='XtkDatabaseId' and sStringValue not like 'u%';
    ```
 
-1. トラッキングサーバー上：
+1. トラッキングサーバーでは、次の操作を行います。
 
    ```
    su - neolane
@@ -65,7 +65,7 @@ Linux/PostgreSQLの既存 **のprod** Instanceの場合、Unicodeに切り替え
    vi config-prod.xml
    ```
 
-   データベ **ース識別子** (databaseId ****)に関連する値の前にu文字を追加します。
+   デ追加ータベース識別子( **databaseId******)に関連する値の前にあるu文字：
 
    ```
    <web>
@@ -102,6 +102,6 @@ Linux/PostgreSQLの既存 **のprod** Instanceの場合、Unicodeに切り替え
 
 1. スイッチを確認します。 これを行うには、Adobe Campaignコンソールから接続し、次の操作を行います。
 
-   * データが正しく表示され、特に強調文字が正しく表示されていることを確認します。
-   * 配信を開始し、トラッキングの取得が機能することを確認します。
+   * データが正しく表示され、特にアクセント付きの文字が正しく表示されていることを確認します。
+   * 配信を起動し、トラッキングの取得が機能するかどうかを確認します。
 

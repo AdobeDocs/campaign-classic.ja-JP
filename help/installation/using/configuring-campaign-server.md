@@ -11,11 +11,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '3626'
 ht-degree: 5%
@@ -75,7 +72,7 @@ Campaign Classic設定ファイルは、Adobe Campaignのインストールフ�
 >[!NOTE]
 >
 >**各演算子はゾーンにリンクする必要があります**。 演算子のIPアドレスがゾーンで定義された範囲に属する場合、演算子はインスタンスにログオンできます。\
->オペレータのIPアドレスは、複数のゾーンで定義できます。 この場合、オペレータは各ゾーンに対する **一連の利用可能な権限を受け取る** 。
+>オペレータのIPアドレスは、複数のゾーンで定義できます。 この場合、オペレータは、各ゾーンに対する使用可能な **一連の権限を受け取ります** 。
 
 標準搭載の **serverConf.xmlファイルには、次の3つのゾーンが含まれています** 。 **public、VPN、およびLAN**。
 
@@ -112,7 +109,7 @@ serverConf.xml **ファイルでゾーンを定義する方法の例を次に示
 * **allowDebug**:webAppを「debug」モードで実行できるようにします。
 * **allowEmptyPassword**:パスワードを使用しないでインスタンスへの接続を許可します
 * **allowHTTP**:HTTPSプロトコルを使用せずにセッションを作成できる
-* **allowUserPassword**:セッショントークンは、次の形式を持つことができます。「`<login>/<password>`」
+* **allowUserPassword**:セッショントークンは、次の形式を持つことができます。`<login>/<password>`&quot;
 * **sessionTokenOnly**:接続URLにセキュリティトークンは不要です
 * **showErrors**:サーバー側のエラーが転送され、表示されます
 
@@ -221,7 +218,7 @@ Adobe Campaignサーバーにアクセスする可能性が高いプロキシの
    ![](assets/enum_securityzone.png)
 
 1. サーバーの構成ファイルで定義されているセキュリティゾーンごとに、 **** 追加ボタンをクリックします。
-1. 「 **[!UICONTROL Internal name]** 」フィールドに、 **** serverConf.xmlファイルで定義されているゾーンの名前を入力します。 これは、 **要素の@name**`<securityzone>` 属性に対応します。 内部名にリンクされているラベルを「ラベル」 ****&#x200B;フィールドに入力します。
+1. 「 **[!UICONTROL Internal name]** 」フィールドに、 **** serverConf.xmlファイルで定義されているゾーンの名前を入力します。 これは、 **要素の@name**`<securityzone>` 属性に対応します。 内部名にリンクされたラベルを「ラベル」 ****&#x200B;フィールドに入力します。
 
    ![](assets/enum_addsecurityvalue.png)
 
@@ -558,7 +555,7 @@ Adobe Campaignコンソールからアクセスする場合は、 **ハッシュ
 
    ドロップダウンリストには、以前に使用したアフィニティが含まれています。 時間の経過と共に異なる入力値で完了します。
 
-1. nl6/conf/config- **`<instance>.xml`**ファイルを開きます。
+1. nl6/conf/config- **`<instance>.xml`** ファイルを開きます。
 1. 次のように、 **[!UICONTROL wfserver]** モジュールと一致する行を変更します。
 
    ```

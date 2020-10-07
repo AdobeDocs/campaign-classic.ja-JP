@@ -1,7 +1,7 @@
 ---
-title: JSPの動作
-seo-title: JSPの動作
-description: JSPの動作
+title: JSP の動作
+seo-title: JSP の動作
+description: JSP の動作
 seo-description: null
 page-status-flag: never-activated
 uuid: b9e9f348-968c-46e0-8340-df1f1fcaf3a3
@@ -11,18 +11,18 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 5dcc4090-effe-479e-8d5c-67e6a6542fbb
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 21%
 
 ---
 
 
-# JSPの動作{#jsp-behavior}
+# JSP の動作{#jsp-behavior}
 
-特定の **jspジョブが** 、正常に実行されない場合は、再コンパイルを強制する必要があります。
+特定の **jsp** ジョブが正常に実行されない場合は、再コンパイルを強制する必要があります。
 
 この場合は、次のコマンドを入力します。
 
@@ -33,4 +33,4 @@ rm -r work/
 nlserver start web
 ```
 
-次回 **接続すると** 、JSPジョブが再生成されます。
+次回の接続時に **jsp** ジョブが再生成されます。

@@ -11,11 +11,8 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 discoiquuid: 4443b0ca-80c6-467d-a4df-50864aae8496
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 0c3737b22c7bf4e614c5a2fbe8e8fd954d3ece8a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 97%
@@ -50,9 +47,11 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   >S3 を使用している場合は、次の構文に従って **[!UICONTROL AWS S3 アカウントサーバー]**&#x200B;を入力します。\
-   `<S3bucket name>.s3.amazonaws.com/<s3object path>`\
-   S3 アカウントの設定方法について詳しくは、この[ページ](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account)を参照してください。
+   >S3 を使用している場合は、次の構文に従って **[!UICONTROL AWS S3 アカウントサーバー]**&#x200B;を入力します。
+   >
+   >`<S3bucket name>.s3.amazonaws.com/<s3object path>`
+   >
+   >S3 アカウントの設定方法について詳しくは、この[ページ](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account)を参照してください。
 
    ![](assets/aam_config_2.png)
 

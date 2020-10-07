@@ -1,7 +1,7 @@
 ---
-title: Twitterでの投稿の設定
-seo-title: Twitterでの投稿の設定
-description: Twitterでの投稿の設定
+title: Twitter へのパブリッシュの設定
+seo-title: Twitter へのパブリッシュの設定
+description: Twitter へのパブリッシュの設定
 seo-description: null
 page-status-flag: never-activated
 uuid: 88867881-fb59-4f0d-862e-537d498e9aef
@@ -11,127 +11,127 @@ audience: social
 content-type: reference
 topic-tags: configuration
 discoiquuid: 9d74ed9c-0055-4556-a205-6e5fea11816b
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 963aaa81971a8883b944bfcf4d1a00d729627916
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '798'
+ht-degree: 98%
 
 ---
 
 
-# Twitterでの投稿の設定{#configuring-publishing-on-twitter}
+# Twitter へのパブリッシュの設定{#configuring-publishing-on-twitter}
 
-Adobe CampaignがTwitterアカウントにツイートを送信できるようにするには、これらのアカウントのAdobe Campaignへの書き込みアクセス権を委任する必要があります。 これを行うには、次の設定手順を適用します。
+Adobe Campaign で Twitter アカウントに対してツイートを送信できるようにするには、これらのアカウントの Adobe Campaign への書き込みアクセス権をデリゲートする必要があります。それには、次の設定手順に従います。
 
-* Twitterアカウントを作成します。
-* 校正を送信するためのテスト用Twitterアカウントを作成します。
-* Twitterアカウントごとに1つのTwitterアプリを作成します。
-* 各Twitterアプリに対して、新しいタイプのサービスを **[!UICONTROL Twitter]** 作成します。
+* Twitter アカウントを作成します。
+* 配達確認を送信するためのテスト用 Twitter アカウントを作成します。
+* Twitter アカウントごとに 1 つの Twitter アプリケーションを作成します。
+* 各 Twitter アプリケーションに対して、新しい **[!UICONTROL Twitter]** タイプのサービスを作成します。
 
 ![](assets/social_diagram_twitter_service.png)
 
 ## 前提条件 {#prerequisites}
 
-まず、ツイートの送信先の1つ以上のTwitterアカウントを作成します。
+まず、ツイートの送信先となる 1 つ以上の Twitter アカウントを作成します。
 
-Twitterアカウントを作成するには、https://twitter.comにアクセス [します](https://twitter.com)。
+To create a Twitter account, go to [https://twitter.com](https://twitter.com).
 
-## Twitterでのテストアカウントの作成 {#creating-a-test-account-on-twitter}
+## Twitter でのテストアカウントの作成 {#creating-a-test-account-on-twitter}
 
-ツイートの校正を送信するために使用できる非公開のTwitterアカウントを作成することもお勧めします(詳しくは、「 [Sending the proof](../../social/using/publishing-on-twitter.md#sending-the-proof)」を参照)。
+ツイートの配達確認を送信するために使用できる非公開の Twitter アカウントを作成することもお勧めします（詳しくは、[配達確認の送信](../../social/using/publishing-on-twitter.md#sending-the-proof)を参照）。
 
-* 新しいTwitterアカウントを作成します。
-* 右上隅のメニューをクリックし、を選択します **[!UICONTROL Settings]**。
-* タブを選択 **[!UICONTROL Security and privacy]** し、チェックボックスをオンに **[!UICONTROL Protect my Tweets]** します。
-* ページの下 **[!UICONTROL Save Changes]** 部にあるボタンをクリックします。
+* 新しい Twitter アカウントを作成します。
+* 右上隅のメニューをクリックし、「**[!UICONTROL 設定]**」を選択します。
+* 「**[!UICONTROL セキュリティとプライバシー]**」タブを選択し、「**[!UICONTROL ツイートを保護]**」チェックボックスをオンにします。
+* ページ下部の「**[!UICONTROL 変更を保存]**」ボタンをクリックします。
 
 ![](assets/social_twitter_test_page.png)
 
-## Twitterでのアプリの作成 {#creating-an-application-on-twitter}
+## Twitter でのアプリケーションの作成 {#creating-an-application-on-twitter}
 
-Adobe CampaignでTwitterアカウントにツイートを送信するには、Twitterアカウントごとに1つのTwitterアプリを作成する必要があります。 それには、次の手順に従います。
+Adobe Campaign で Twitter アカウントに対してツイートを送信できるようにするには、Twitter アカウントごとに 1 つの Twitter アプリケーションを作成する必要があります。それには、次の手順に従います。
 
-1. Twitterアカウントにログオンします。
-1. インターネットブラウザーに次のアドレスを入力します。https://apps.twitter.com/ [](https://apps.twitter.com/).
-1. 次に、右側のボ **[!UICONTROL Create New App]** タンをクリックします。
+1. Twitter アカウントにログオンします。
+1. インターネットブラウザーにアドレス [https://apps.twitter.com/](https://apps.twitter.com/) を入力します。
+1. 次に、右側の「**[!UICONTROL Create New App]**」ボタンをクリックします。
 
    ![](assets/social_create_twitter_app_001.png)
 
 1. ウィザードの指示に従ってプロセスを進めます。
 
-   このアプリでAdobe Campaignが自分のアカウントにツイートを送信できるようにするには、アプリのタブに移動し **[!UICONTROL Permissions]** て、そのセクション **[!UICONTROL Read and Write]** を選択 **[!UICONTROL Access]** します。 また、この **[!UICONTROL Settings]** タブでは、フィールドを空のままにしておく必要 **[!UICONTROL Callback URL]** があります。
+   このアプリケーションで Adobe Campaign が自分のアカウントにツイートを送信できるようにするには、アプリケーションの「**[!UICONTROL Permissions]**」タブに移動し、「**[!UICONTROL Access]**」セクションで「**[!UICONTROL Read and Write]**」を選択します。また、「**[!UICONTROL Settings]**」タブで、「**[!UICONTROL Callback URL]**」フィールドを空のままにしておく必要があります。
 
    ![](assets/social_create_twitter_app_002.png)
 
-## Adobe Campaignへの書き込みアクセスの委任 {#delegating-write-access-to-adobe-campaign}
+## Adobe Campaign への書き込みアクセス権のデリゲート {#delegating-write-access-to-adobe-campaign}
 
-Twitterアプリごとに、アプリの設定を含む異なるタイプのサ **[!UICONTROL Twitter]** ービスを作成する必要があります。
+Twitter アプリケーションごとに、アプリケーション設定を含む異なる **[!UICONTROL Twitter]** タイプのサービスを作成する必要があります。
 
-この手順では、Adobe Campaignコンソールと、Twitterアカウントにログオンしているインターネットブラウザーに同時にアクセスする必要があります。
+この手順では、Adobe Campaign コンソールと、Twitter アカウントにログオンしているインターネットブラウザーに同時にアクセスする必要があります。
 
-* **Twitter**:以前に作成したアプリケーション([https://dev.twitter.com/apps](https://dev.twitter.com/apps))を選択し、タブをクリック **[!UICONTROL Keys and Access Tokens]** します。
+* **Twitter**：以前に作成したアプリケーション（[https://dev.twitter.com/apps](https://dev.twitter.com/apps)）を選択し、「**[!UICONTROL Keys and Access Tokens]**」タブをクリックします。
 
    ![](assets/social_twitter_service_002.png)
 
-* **Adobe Campaign**:宇宙に移動し **[!UICONTROL Profiles and targets]** 、リンクをクリック **[!UICONTROL Services and Subscriptions]** してボタンをクリック **[!UICONTROL Create]** します。
+* **Adobe Campaign**：「**[!UICONTROL プロファイルとターゲット]**」領域に移動し、「**[!UICONTROL サービスと購読]**」リンクをクリックして、「**[!UICONTROL 作成]**」ボタンをクリックします。
 
    ![](assets/social_twitter_service_007.png)
 
-1. Select the **[!UICONTROL Twitter]** type.
+1. **[!UICONTROL Twitter]** タイプを選択します。
 
    ![](assets/social_twitter_service_008.png)
 
    >[!NOTE]
    >
-   >このオプ **[!UICONTROL Synchronize subscriptions]** ションはデフォルトで有効になっています。 このボックスをオンにすると、Twitterアカウントの同期ワークフロー( [Twitterアカウントの同期を参照](#synchronizing-twitter-accounts))でTwitterのフォロワーのリストが回復され、ダイレクトメッセージを送信できるようになります(購読者へのダイレクトメッセージの送信を参照 [](../../social/using/publishing-on-twitter.md#sending-direct-messages-to-subscribers))。 フォロワーのリストを回復しない場合は、このボックスのチェックを外します。
+   >「**[!UICONTROL 購読を同期]**」オプションはデフォルトで有効になっています。このチェックボックスをオンにすると、Twitter アカウントの同期ワークフロー（[Twitter アカウントの同期](#synchronizing-twitter-accounts)を参照）で Twitter フォロワーのリストが復元され、ダイレクトメッセージを送信できるようになります（[購読者へのダイレクトメッセージの送信](../../social/using/publishing-on-twitter.md#sending-direct-messages-to-subscribers)を参照）。フォロワーのリストを復元しない場合は、このチェックボックスをオフにします。
 
-1. サービスのラベルと内部名を入力します。
+1. サービスのラベルおよび内部名を入力します。
 
    ![](assets/social_twitter_service_009.png)
 
    >[!IMPORTANT]
    >
-   >サー **[!UICONTROL Internal name]** ビスの名前は、Twitterアカウントの名前と同じにする必要があります。 エントリエラーがないことを確認するには、次の手順を適用します。
+   >サービスの&#x200B;**[!UICONTROL 内部名]**&#x200B;は、Twitter アカウントの名前と同じである必要があります。入力エラーがないことを確認するには、次の手順に従います。
 
-   * ボタンをクリッ **[!UICONTROL Save]** クします。
-   * サービスの概要で、作成したTwitterタイプのサービスをクリックします。
-   * タブを選択 **[!UICONTROL Twitter page]** します。 Twitterアカウントが表示されます。
+   * 「**[!UICONTROL 保存]**」ボタンをクリックします。
+   * サービスの概要で、作成した Twitter タイプのサービスをクリックします。
+   * 「**[!UICONTROL Twitter ページ]**」タブを選択します。Twitter アカウントが表示されます。
 
       ![](assets/social_twitter_service_010.png)
 
-1. フィールド **[!UICONTROL Visitor folder]** で、フォロワーを作成する訪問者フォルダーを選択します。 For more on this, refer to [Operating principle](../../social/using/publishing-on-twitter.md#operating-principle). デフォルトでは、フォロワーはフォルダーのルートに作成さ **[!UICONTROL Visitors]** れます。
+1. 「**[!UICONTROL 訪問者フォルダー]**」フィールドで、フォロワーを作成する訪問者フォルダーを選択します。詳しくは、[動作の仕組み](../../social/using/publishing-on-twitter.md#operating-principle)を参照してください。デフォルトでは、フォロワーは **[!UICONTROL 訪問者]**&#x200B;フォルダーのルートに作成されます。
 
    ![](assets/social_twitter_service_010_b.png)
 
-1. Twitterで、およびフィールドの内容をコピ **[!UICONTROL Consumer Key (API Key)]** ーし、コ **[!UICONTROL Consumer Secret (API Secret)]** ンソールのおよびフ **[!UICONTROL Consumer key]** ィール **[!UICONTROL Consumer secret]** ドに貼り付けます。
+1. Twitter で、「**[!UICONTROL Consumer Key（API キー）]**」および「**[!UICONTROL Consumer Secret（API 秘密鍵）]**」フィールドの内容をコピーし、コンソールの「**[!UICONTROL Consumer key]**」および「**[!UICONTROL Consumer secret]**」フィールドに貼り付けます。
 
    ![](assets/social_twitter_service_012.png)
 
-1. Twitterで、およびフィールドの内容をコピ **[!UICONTROL Access Token]** ーし、コ **[!UICONTROL Access Token Secret]** ンソールのおよびフ **[!UICONTROL Access token]** ィール **[!UICONTROL Access token secret]** ドに貼り付けます。
+1. Twitter で、「**[!UICONTROL アクセストークン]**」および「**[!UICONTROL アクセストークン秘密鍵]**」フィールドの内容をコピーし、「**[!UICONTROL アクセストークン]**」および「**[!UICONTROL アクセストークン秘密鍵]**」フィールドに貼り付けます。
 
    ![](assets/social_twitter_service_013.png)
 
-1. Adobe Campaignコンソールで、をクリックしま **[!UICONTROL Save]**&#x200B;す。 書き込みアクセス権のAdobe Campaignへの委任が完了しました。
+1. Adobe Campaign コンソールで、「**[!UICONTROL 保存]**」をクリックします。これで、書き込みアクセス権の Adobe Campaign へのデリゲートが完了しました。
 
    ![](assets/social_twitter_service_014.png)
 
 >[!NOTE]
 >
->Twitterアプリケーションごとに1つのタ **[!UICONTROL Twitter]** イプサービスを作成する必要があります。
+>Twitter アプリケーションごとに 1 つの **[!UICONTROL Twitter]** タイプのサービスを作成する必要があります。
 
-ワークフ **[!UICONTROL Twitter account Synchronization]** ローは、Adobe CampaignでTwitterアカウントを同期します。 詳しくは、「Facebookページの同期」を参 [照してください](../../social/using/publishing-on-facebook-walls.md#synchronizing-facebook-pages)。
+**[!UICONTROL Twitter アカウントの同期]**&#x200B;ワークフローは、Adobe Campaign で Twitter アカウントを同期します。詳しくは、[Facebook ページの同期](../../social/using/publishing-on-facebook-walls.md#synchronizing-facebook-pages)を参照してください。
 
-## Twitterアカウントの同期 {#synchronizing-twitter-accounts}
+## Twitter アカウントの同期 {#synchronizing-twitter-accounts}
 
 >[!IMPORTANT]
 >
->ワークフローでTwitter購読者のリストを回復するには、アカウントにリンクされ **[!UICONTROL Twitter account synchronization]** たサービスの編集セクションで、このボックスをチェックする必要があります。 詳しくは、「Adobe Campaignへの書き込みアク [セスの委任」を参照してください](#delegating-write-access-to-adobe-campaign)。
+>ワークフローで Twitter 購読者のリストを復元するには、アカウントにリンクされたサービスの編集セクションで「**[!UICONTROL Twitter アカウントの同期]**」チェックボックスをオンにする必要があります。詳しくは、[Adobe Campaign への書き込みアクセス権のデリゲート](#delegating-write-access-to-adobe-campaign)を参照してください。
 
-このワ **[!UICONTROL Twitter account synchronization]** ークフローは、ノードを介してアクセス **[!UICONTROL Administration > Production > Technical workflows > Managing social networks]** され、以前にAdobe Campaignで設定したTwitterアカウントを同期できます。 デフォルトでは、このワークフローは木曜日の午前7時30分にトリガーされます。
+**[!UICONTROL Twitter アカウントの同期]**&#x200B;ワークフロー（**[!UICONTROL 管理／プロダクション／テクニカルワークフロー／ソーシャルネットワーク管理]**&#x200B;ノードからアクセス）を使用すると、Adobe Campaign で以前に設定した Twitter アカウントを同期できます。デフォルトでは、このワークフローは毎週木曜日の午前 7 時 30 分にトリガーされます。
 
 >[!NOTE]
 >
->予想されるタスク処理を実行することで、ワークフローをいつでも開始できます。 スケジューラーを編集して、ワークフローのトリガー頻度を変更することもできます。 For more on the scheduler, refer to [this section](../../workflow/using/scheduler.md).
+>予想されるタスク処理を実行することで、ワークフローをいつでも開始できます。スケジューラーを編集して、ワークフローのトリガー頻度を変更することもできます。スケジューラーについて詳しくは、[この節](../../workflow/using/scheduler.md)を参照してください。
 
-Twitterアカウントにツイートを送信し、フォロワーにダイレクトメッセージを送信できるようになりました。 詳しくは、次を参照してください。Twitter [での投稿](../../social/using/publishing-on-twitter.md)。
+これで、Twitter アカウントにツイートを送信したり、フォロワーにダイレクトメッセージを送信したりできるようになりました。詳しくは、[Twitter へのパブリッシュ](../../social/using/publishing-on-twitter.md)を参照してください。

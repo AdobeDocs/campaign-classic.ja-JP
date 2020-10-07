@@ -11,11 +11,8 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 discoiquuid: dd8f9adf-208c-42d9-b1a7-bfc8a690687e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d60389eb735fb50188ddc2f2e3df3788a3213446
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 27%
@@ -33,7 +30,7 @@ ht-degree: 27%
 >
 >使用許諾契約に記載されているオプションに対応するパッケージのみをインストールできます。
 >
->新しいパッケージをインストールすると、すべてのプラットフォームに影響を与える可能性があります。 最終的な導入の前に、テストと検証を行う必要があります。
+>新しいパッケージをインストールすると、すべてのプラットフォームに影響を与える可能性があります。最終的な導入の前に、テストと検証を行う必要があります。
 >
 >パッケージをインストールした後は、アンインストールできません。
 
@@ -68,7 +65,7 @@ ht-degree: 27%
  <tbody> 
   <tr> 
    <td> 配信<br /> </td> 
-   <td> メッセージの送信時に発生する配信と最終的な問題を監視します。 <a href="../../delivery/using/monitoring-a-delivery.md">詳細情報</a><br />。 </td> 
+   <td> メッセージの送信時に発生する配信と最終的な問題を監視します。 <a href="../../delivery/using/monitoring-a-delivery.md">詳細情報</a><br /> </td> 
    <td> すべて</td> 
   </tr> 
   <tr> 
@@ -194,17 +191,17 @@ ht-degree: 27%
   </tr> 
   <tr> 
    <td> Web 分析コネクタ<br /> </td> 
-   <td> Adobe CampaignとアドビのAnalyticsがWebAnalyticsコネクターパッケージを使用してやり取りを行うことを許可します。 トランザクションメッセージング（Message Centerパッケージ）との互換性がありません。 <a href="../../platform/using/adobe-analytics-data-connector.md">詳細情報</a><br /> </td> 
+   <td> Adobe CampaignとAdobe AnalyticsがWeb Analyticsコネクターパッケージを使用してやり取りを行うことを許可します。 トランザクションメッセージング（Message Centerパッケージ）との互換性がありません。 <a href="../../platform/using/adobe-analytics-data-connector.md">詳細情報</a><br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 
    <td> AEM 統合<br /> </td> 
-   <td> 電子メール配信のコンテンツとフォームをAdobe Experience Managerで直接管理でき、AEMのコンテンツ編集機能とAdobe Campaignの配信容量を活用できます。 <a href="../../integrations/using/about-adobe-experience-manager.md">詳細情報</a> <br /> </td> 
+   <td> 電子メール配信のコンテンツとフォームを直接Adobe Experience Managerで管理できます。これにより、AEMコンテンツ編集機能とAdobe Campaignの配信容量を活用できます。 <a href="../../integrations/using/about-adobe-experience-manager.md">詳細情報</a> <br /> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 
    <td> Adobe Marketing Cloud との共有オーディエンスの統合<br /> </td> 
-   <td> オーディエンス/セグメントをAdobe Experience Cloudソリューションおよびコアサービスと交換および共有できます。 IMSが必要です。 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">詳細情報</a> <br /> </td> 
+   <td> オーディエンス/セグメントをAdobe Experience Cloudのソリューションおよびコアサービスと交換および共有できます。 IMSが必要です。 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">詳細情報</a> <br /> </td> 
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
@@ -229,7 +226,7 @@ ht-degree: 27%
   </tr> 
   <tr> 
    <td> ACS コネクタ<br /> </td> 
-   <td> BridgesAdobe Campaignv7およびAdobe Campaign Standard。 Campaign v7 の統合機能で、Campaign Standard にデータを自動的にレプリケートして、両方のアプリケーションの優れた機能を連携させます。（オプション）<a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">詳細情報</a> <br /> </td> 
+   <td> BridgesAdobe Campaignv7とAdobe Campaign Standard。 Campaign v7 の統合機能で、Campaign Standard にデータを自動的にレプリケートして、両方のアプリケーションの優れた機能を連携させます。（オプション）<a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">詳細情報</a> <br /> </td> 
    <td> マーケティング </td> 
   </tr> 
  </tbody> 

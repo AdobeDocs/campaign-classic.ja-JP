@@ -11,11 +11,8 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: d678db05-cc44-4086-98a5-e5296e8e5de8
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%

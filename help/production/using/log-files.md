@@ -11,32 +11,32 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: fac3e3ec-82a7-4087-ba88-2b28b0f69d1c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9f018df9a2f7516b92f1f25a757065ef268136a5
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 3%
 
 ---
 
 
 # ログファイル{#log-files}
 
-ログファイルは次のように整理されます。
+ログファイルは、次のように整理されます。
 
 ![](assets/d_ncs_directory.png)
 
-各nlserver **モジュールは** 、次のディレクトリに保存されたログファイルを生成します。 **`<installation directory>`/var/`<instance>`/log/`<module>`.log **.
+各 **nlserver** モジュールは、次のディレクトリに保存されたログファイルを生成します。 **`<installation directory>`/var/`<instance>`/log/`<module>`.log**.
 
-nlserver syslogd **モジュールは** 、ログをディスクに保存します。 このモジュールはUnixの **syslogデーモンに似ています**&#x200B;が、UnixとWindowsの互換性を考慮したものです。 他のAdobe Campaignモジュールは、ログをディスクに保存しません。このタスクは、UDPパケットを送 **信して** 、syslogdモジュールに委任します。
+nlserver syslogd **** モジュールは、ログをディスクに保存します。 このモジュールはUnixの **syslogデーモンに似ていますが**、UnixとWindowsの互換性に対応しています。 他のAdobe Campaignモジュールは、ログをディスクに保存しません。このタスクは、UDPパケットを送信することで **syslogd** モジュールに委任されます。
 
-デフォルトでは、Adobe Campaignプラットフォームには **syslogd** モジュールがインストールされていますが、別の **syslogデーモンを使用できます**。 このモジュールは、ログディレクトリにログファイルを **作成します** 。
+デフォルトでは、Adobe Campaignプラットフォームには **syslogd** モジュールがインストールされていますが、別の **syslogデーモンを使用することも可能です**。 このモジュールは、 **log** ディレクトリにログファイルを作成します。
 
-マルチインスタンスモジュールのログは、次のディレクトリに保存されます。 **`<installation directory>`/var/default/log/**. 同じログファイルは、すべてのインスタンス(**web.log **)で共有されます。
+マルチインスタンスモジュールのログは、次のディレクトリに保存されます。 **`<installation directory>`/var/default/log/**. 同じログファイルがすべてのインスタンス( **web.log**)で共有されます。
 
-その他のモジュールのログは、インスタンスの名前を付けたサブフォルダーに保存されます。 各インスタンスには独自のログファイルがあります。
+他のモジュールのログは、インスタンスの名前を付けたサブフォルダーに保存されます。 各インスタンスには、独自のログファイルがあります。
 
-次の表に、マルチインスタンスのログファイルを示します。
+マルチインスタンスのログファイルを次の表に示します。
 
 | ファイル | 説明 |
 |---|---|
@@ -45,27 +45,27 @@ nlserver syslogd **モジュールは** 、ログをディスクに保存しま�
 | watchdog.log | Adobe Campaignプロセス監視モジュールからのログ |
 | trackinglogd.log | トラッキングログ |
 
-モノラルインスタンスのログファイルを次の表に示します。
+モノインスタンスログファイルを次の表に示します。
 
 | ファイル | 説明 |
 |---|---|
 | mta.log | mtaモジュールログ |
-| mtachild.log | メッセージ配信処理ログ |
+| mtachild.log | メッセージ配信の処理ログ |
 | wfserver.log | ワークフローサーバーモジュールのログ |
 | runwf.log | ワークフローの実行ログ |
 | inMail.log | バウンスメールモジュールログ |
-| logins.log | Adobe Campaignへのすべてのログイン試行をログに記録します（成功または失敗）。 |
+| logins.log | Adobe Campaignに対するすべてのログイン試行をログに記録します（成功したかどうか） |
 
 >[!CAUTION]
 >
->redirディレ **クトリは** 、リダイレクトサーバー上にのみ存在します。 urlサブデ **ィレクトリには** 、リダイレクトするURLと一致するURLが格納され、サブディレクトリログには **トラッキング** ログが格納されます。 トラッキングログを生成するには、 **trackinglogdモジュール** が実行中である必要があります。
+>redir **** ディレクトリは、リダイレクトサーバーにのみ存在します。 url **サブディレクトリには、リダイレクトするURLと一致するURLが含まれ、サブディレクトリ** ログにはトラッキングログが含まれます **** 。 トラッキングログを生成するには、 **trackinglogd** モジュールが実行されている必要があります。
 
-パフォーマンスとストレージの最適化のために、logins.logファイルは複数のファイルに分割され、毎日1つ(logins.yy-mm-dd.log)のファイルが保持されます。最大365個のファイルが保持されます。 日数は、serverConf.xmlのsyslogd(**maxNumberOfLoginsFiles** option)で変更できます。 サーバー設定ファイルのドキュメ [ントを参照してくださ](../../installation/using/the-server-configuration-file.md#syslogd)い。
+パフォーマンスとストレージの最適化のために、logins.logファイルは複数のファイルに分割され、毎日1つ(logins.yy-mm-dd.log)が保持されます。最大365個のファイルが保持されます。 日数は、syslogd(**maxNumberOfLoginsFiles** オプション)の下のserverConf.xmlで変更できます。 サー [バー設定ファイルのドキュメントを参照してください](../../installation/using/the-server-configuration-file.md#syslogd)。
 
-デフォルトでは、ログはモジュールごととインスタンスごとに2つの10 MBのファイルに制限されます。 2つ目のファイルは次のように呼び出されます。 **`<modulename>`_2.log **. したがって、ログのサイズはモジュールごとおよびインスタンスごとに2*10 MBに制限されます。
+デフォルトでは、ログの10 MBのファイルはモジュールあたり2個、インスタンスあたり2個に制限されます。 2つ目のファイルは次のように呼び出されます。 **`<modulename>`_2.log**. したがって、ログのサイズは、モジュールあたり2*10 MBまたはインスタンスあたりに制限されます。
 
-ただし、大きいファイルは保持できます。 これを有効にするには、conf/serverConf.xmlファイルの **syslogd** ノードのmaxFileSizeMb=&quot;10&quot;設定の **値を変更****** します。 この値は、ログファイルの最大サイズ（MB単位）を表します。
+ただし、大きいファイルは保持できます。 これを有効にするには、conf/serverConf.xml **ファイルの** syslogd **ノードのmaxFileSizeMb=&quot;10&quot;** 設定を変更し **** ます。 この値は、ログファイルの最大サイズ（MB単位）を表します。
 
-ログの詳細レベルをさらに維持する場合は、 **-verboseパラメーターを使用してAdobe Campaignモジュールを起動で** きます。
+ログの詳細レベルをさらに高く維持したい場合は、 **-verbose** パラメータを使用してAdobe Campaignモジュールを開始できます。
 
-**nlserver start`<MODULE>`@`<INSTANCE>`-verbose**
+**nlserver開始`<MODULE>`@`<INSTANCE>`-verbose**

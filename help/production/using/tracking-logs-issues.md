@@ -1,7 +1,7 @@
 ---
-title: ログの問題の追跡
-seo-title: ログの問題の追跡
-description: ログの問題の追跡
+title: トラッキングログの問題
+seo-title: トラッキングログの問題
+description: トラッキングログの問題
 seo-description: null
 page-status-flag: never-activated
 uuid: 996869c4-7ffe-4fcc-9555-1d8b65e93e87
@@ -11,28 +11,28 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 1b9ff479-4847-408d-a5c2-9a164805081f
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e1937c1ddcbde092a22f4fe8c50d3d72b02cfeed
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# ログの問題の追跡{#tracking-logs-issues}
+# トラッキングログの問題{#tracking-logs-issues}
 
 トラッキングログが転送されない理由は複数考えられます。 次の情報を確認することをお勧めします。
 
-* 追跡ワークフ **ローに** 、エラーがあるか。
+* ト **ラッキング** ワークフローにエラーがあるか。
 
-   「技術ワークフロー [の監視」を参照してください](../../workflow/using/monitoring-technical-workflows.md)。
+   「 [監視テクニカルワークフロー](../../workflow/using/monitoring-technical-workflows.md)」を参照してください。
 
    ![](assets/tracking_scheduled_task.png)
 
-* モジュール **trackinglogdは** 、サーバー上で実行されていますか。
+* モジュール **trackinglogd** はサーバーで実行されていますか。
 
-   ログファイル [を参照](../../production/using/log-files.md)。
+   「 [ログファイル](../../production/using/log-files.md)」を参照してください。
 
-* 変更は行われましたか。 トラッキングエイリアスを使用して、サーバーへの接続が失われる可能性があります。
+* 変更は行われたか。 トラッキングエイリアスを使用して、サーバーとの接続が失われる可能性があります。
 

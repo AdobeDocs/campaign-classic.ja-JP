@@ -11,25 +11,25 @@ audience: migration
 content-type: reference
 topic-tags: migration-overview
 discoiquuid: 1fa1fe0f-c392-413a-9fa0-d1b4e10e2e5e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f460c79a763c6a207656c54351a4c685f2a78a03
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 6%
 
 ---
 
 
 # 移行の警告{#migration-warnings}
 
-* 移行プロセスは、エキスパートユーザー向けに予約されています。 Adobe Campaignのデータベースエキスパート、システム管理者およびアプリケーション開発者が少なくとも支援を受ける必要があります。
-* 移行を開始する前に、使用するシステムおよびシステムコンポーネントが実際にv7と互換性があることを確認してください。 互換性マトリックス [を参照してくださ](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)い。
-* Adobe Campaign Cloud Messaging（以前のミッドソーシング）を使用する場合は、移行手順全体を開始する前にAdobe Campaignにお問い合わせください。
-* 移行プロセスを開始する前に、データをバ **ックアップ** する必要があります。
-* 移行プロセスの完了には数日かかる場合があります。
-* Adobe Campaign v7は、設定の点では5.11および6.02バージョンよりも厳しくなっています。 これは主に、データの破損などの問題を回避し、データベース内のデータの整合性を維持するために行われます。 その結果、v5.11およびv6.02で提供される特定の機能はv7では動作しなくなる可能性があり、移行後に適応を行う必要がある場合があります。 制作に取り組む前に、すべての設定、特にAdobe Campaignの使用に必要なワークフローを系統的にテストすることをお勧めします。
+* 移行プロセスは、エキスパートユーザーのみが利用できます。 少なくとも、Adobe Campaignのデータベースエキスパート、システム管理者およびアプリケーション開発者が支援する必要があります。
+* 移行を開始する前に、使用するシステムおよびシステムコンポーネントがv7と互換性があることを確認してください。 互換表を参照して [ください](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)。
+* Messaging Cloud Messaging(以前のミッドソーシング)を使用している場合は、移行手順全体を開始する前に、Adobe Campaignにお問い合わせください。
+* 移行プロセスを開始する前に、データをバックアップする **必要があります** 。
+* 移行プロセスが完了するまでに数日かかる場合があります。
+* Adobe Campaignv7は、設定上、5.11および6.02バージョンより厳しくなっています。 これは主に、データの破損などの問題を回避し、データベース内のデータの整合性を維持するためです。 その結果、v5.11およびv6.02で提供される特定の機能はv7では動作しなくなる可能性があるので、移行後に適応する必要がある場合があります。 製品に取り組む前に、すべての構成、特にAdobe Campaignの使用に必要なワークフローを系統的にテストすることをお勧めします。
 
 >[!NOTE]
 >
->また、「移行を開始する前に」の節 [も参照する必要があります](../../migration/using/before-starting-migration.md) 。
+>また、「移行を開始する [前に](../../migration/using/before-starting-migration.md) 」の節も参照する必要があります。
 

@@ -11,29 +11,30 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: 90718075-87a7-4e9a-935b-571010908e79
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: de04b5d3ceb883a571ee665f630be931a68a5a3e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '410'
+ht-degree: 5%
 
 ---
 
 
 # 通常のコマンド{#usual-commands}
 
-ここでは、Adobe Campaignの通常のコマンドを示します。
+この節では、Adobe Campaignの通常のコマンドをリストします。
 
-nlserverコマンド **は** 、Adobe Campaignアプリケーション全体に対する入力コマンドです。
+コマンド **nlserver** は、Adobe Campaignアプリケーション全体に対する入力コマンドです。
 
 このコマンドの構文は次のとおりです。 **nlserver **`<command>`****`<arguments>`****
 
-このパラメーター **`<command>`** はモジュールに対応します。
+このパラメーター **`<command>`** はモジュールに対応しています。
 
 >[!NOTE]
 >
->* いずれの場合も、モジュールの起動後に表示さ **れるコメントを削除するために** 、-noconsole引数を追加できます。
->* 逆に、引数 **-verboseを追加して** 、より多くの情報を表示できます。
+>* いずれにしても、モジュールの起動後に表示されるコメントを削除する **-noconsole** 引数を追加できます。
+>* 逆に、引数 **-verboseを追加すると** 、詳細情報を表示できます。
+
 >
 
 
@@ -42,9 +43,9 @@ nlserverコマンド **は** 、Adobe Campaignアプリケーション全体に�
 
 >[!NOTE]
 >
->すべてのモジュールを表示するには、 **nlserver pdumpコマンドを使用する必要があります** 。
+>すべてのモジュールをリストするには、 **nlserver pdump** コマンドを使用する必要があります。
 
-「 **-who** 」パラメーターを追加して、進行中の接続（データベースおよびアプリケーション）をリストできます。
+パラメータ **-who** をリストに追加して、進行中の接続（データベースとアプリケーション）を指定できます。
 
 ```
 nlserver pdump -who
@@ -66,9 +67,9 @@ Datasource Server Provider Login
 default xxxxx myserver myprovider test400
 ```
 
-もう1つの便利なコマン **ドはnlserver monitorです**。 監視XMLファイル(Adobe Campaignクライアントで取得されるか、 **monitor.jsp** webページ経由で取得される)を示します。
+もう1つの便利なコマンドは、 **nlserver monitor**&#x200B;です。 監視XMLファイルをリストします(Adobe Campaignクライアントで取得するか、 **monitor.jsp** Webページを介して取得)。
 
-このパラメーターを追 **加して** 、存在しないモジュール（モジュール、モジュールのシャットダウンなどのエラー）をリストします。
+不要なモジュール(リスト、モジュールの **シャットダウンなどのエラー)に対して、パラメーター** の欠落をに追加できます。
 
 ```
 nlserver monitor -missing
@@ -78,7 +79,7 @@ mta@test
 wfserver@test
 ```
 
-これは、自動起動のモジュールに対応していますが、まだ起動されていません。
+これは、自動起動のモジュールに対応しますが、まだ起動されていません。
 
 ## モジュール起動コマンド {#module-launch-commands}
 
@@ -94,7 +95,7 @@ nlserver stop <module>@<INSTANCE>
 
 >[!NOTE]
 >
->**`<instance>`** は、設定ファイルに入力されたインスタンスの名前、またはモノラルインスタンスモジ **ュールの** デフォルトに対応します。
+>**`<instance>`** は、設定ファイルで入力したインスタンスの名前に対応します。または、モノインスタンスモジュールの **デフォルト** に対応します。
 
 ## サービスのシャットダウン {#shut-down-services}
 
@@ -110,7 +111,7 @@ Adobe Campaignサービスを停止するには、次のいずれかのコマン
 
       >[!NOTE]
       >
-      >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）。systemctl **stop nlserver**
+      >20.1からは、（Linuxの場合は）次のコマンドを使用することをお勧めします。 **systemctl stop nlserver**
 
    * Windowsの場合：
 
@@ -126,25 +127,25 @@ Adobe Campaignサービスを停止するには、次のいずれかのコマン
 
 ## サービスの再起動 {#restart-services}
 
-同様に、Adobe Campaignを再起動するには、次のいずれかのコマンドを使用できます。
+同様に、Adobe Campaignを再起動するには、次のいずれかのコマンドを使用します。
 
 * rootまたは管理者アクセス権を持っている場合：
 
-   * Linuxの場合：/etc/init.d/nlserver6 start
+   * Linuxの場合：/etc/init.d/nlserver6開始
 
       >[!NOTE]
       >
-      >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）。 **systemctl start nlserver**
+      >20.1からは、（Linuxの場合は）次のコマンドを使用することをお勧めします。 **systemctl開始nlserver**
 
-   * Windowsの場合：net start nlserver6
+   * Windowsの場合：net開始nlserver6
 
 * それ以外の場合は、Adobe Campaignアカウントで次の操作を行います。 **nlserver watchdog -svc -noconsole**
 
 ## configコマンド {#the-config-command}
 
-configコ **マンドを使用すると** 、データベース接続の再設定など、サーバー設定を管理できます。
+config **コマンドを使用すると** 、データベース接続の再設定など、サーバー設定を管理できます。
 
-**-setdbloginパラメータを指定して、** nlserver **実行可能ファイル** のconfigコマンドを使用します **** 。
+**nlserver** 実行可能ファイルの **config** コマンドを、 **** -setdbloginパラメータと共に使用します。
 
 ```
 nlserver config -setdblogin:<[dbms:]account[:database][/password]@server>
@@ -156,17 +157,18 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 
 パスワードを入力します。
 
-内部パスワードを変 **更するに** : **nlserver config -internalpassword**
+内部 **パスワードを変更するには** : **nlserver config - internalpassword**
 
 >[!CAUTION]
 >
->内部識別子を使用してログオ **ンするには** 、事前にパスワードを定義しておく必要があります。 詳しくは、[この節](../../installation/using/campaign-server-configuration.md#internal-identifier)を参照してください。
+>**Internal** identifierを使用してログオンするには、事前にパスワードを定義しておく必要があります。 詳しくは、[この節](../../installation/using/campaign-server-configuration.md#internal-identifier)を参照してください。
 
 >[!NOTE]
 >
 >* 一般に、設定ファイルを手動で変更する代わりに、 **config** コマンドを使用できます
->* パラメーターのリストを取得するには、 **-?** パラメーター： **nlserver config -?**
+>* パラメーターのリストを取得するには、 **-?** パラメーター： **nlserver config - ?**
 >* Oracleデータベースの場合は、アカウントを指定しないでください。 構文は次のとおりです。
+
 >
 >  
 nlserver config -setdblogin:Oracle:test6@dbserver

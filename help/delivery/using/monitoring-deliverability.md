@@ -9,11 +9,8 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 0baef937-f00b-4fc4-8608-a870997be684
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7c040ceffcce20805d7cc8d1e4e46c77e611056
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 91%
@@ -42,6 +39,7 @@ Adobe Campaign が提供する機能を使用して、プラットフォーム�
 * 各配信は、異なるインターネットサービスプロバイダー（ISP）に関するブロードキャスト統計情報レポートを生成します。配信品質に影響を与える可能性のあるデータ品質と評価の指標がいくつか表示されます。次の数値が含まれます。
    * **[!UICONTROL ハードバウンス]**&#x200B;はデータの質を示します。この数は 2％未満にする必要があります。
    * **[!UICONTROL ソフトバウンス]**&#x200B;は評判を示します。任意の ISP に対して、この値を 10％以下にする必要があります。
+
    詳しくは、[配信統計](../../reporting/using/global-reports.md#delivery-statistics)を参照してください。
 * より一般的に、[配信ダッシュボード](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard)は次の項目のアクセスを提供します。
    * [配信の概要](../../delivery/using/monitoring-a-delivery.md#delivery-summary)：送信の詳細、[送信するメッセージ数](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent)、処理済みおよび送信済みの成功件数を表示します。
@@ -70,7 +68,7 @@ Signal Spam は、フランスのサービスで、フランスの ISP（Orange�
 
 ## 250ok {#deliverability-250ok}
 
-[250ok](https://250ok.com/) は、IPアドレス、ドメインブロックリスト、評価指標を提供するアドビの配信品質内部ツールの補完的な監視ソリューションです。
+[250ok](https://250ok.com/) は、IPおよびドメインブロックリスト、評価指標を提供するAdobe配信品質内部ツールの補完的な監視ソリューションです。
 
 提供される情報はリアルタイムで、これにより先を見越した支援が可能です。
 
@@ -94,7 +92,7 @@ Signal Spam は、フランスのサービスで、フランスの ISP（Orange�
 
 * **[!UICONTROL DomainKeys]**：Yahoo が開発したサービスで、E メール送信者の ID を認証するためのものです。
 
-* **[!UICONTROL IPおよびRBLドメイン]** (リアルタイムブラックホールリスト): ブロックリスト組織が悪い送信評価のためにフラグを付けたIPアドレスとドメインのリスト。 リストは、SpamHaus、SpamCop、SURBL/URIBL などの専門組織によって管理されます。現在、Adobe Campaign は、配信品質に大きな影響を与える RBL に対するチェックを処理します。これらの RBL は送信レピュテーションを反映し、E メールの受信が許可される前に ISP によって参照される可能性があります。
+* **[!UICONTROL IPおよびRBLドメイン]** (リアルタイムブラックホールリスト):ブロックリスト組織が悪い送信評価のためにフラグを付けたIPアドレスとドメインのリスト。 リストは、SpamHaus、SpamCop、SURBL/URIBL などの専門組織によって管理されます。現在、Adobe Campaign は、配信品質に大きな影響を与える RBL に対するチェックを処理します。これらの RBL は送信レピュテーションを反映し、E メールの受信が許可される前に ISP によって参照される可能性があります。
 
 * **[!UICONTROL SNDS]**（Smart Network Data Services）：[Windows Live Hotmail のスパム対策サービス](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx)。このタイプの情報を提供する ISP は Hotmail のみです。ベンチマークスコアは、緑色のフィルター結果、0.1％未満の苦情率、ゼロスパムトラップです。
 

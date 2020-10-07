@@ -11,14 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: e7b3ffca-c85f-498d-89b4-23fcff59de49
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c51a51f175e9f3fe5a55f2b5f57872057f70909d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +39,7 @@ ht-degree: 4%
 
 * コンテンツ管理
 * 購読管理については、「 [サブスクライブ(nms:購読)](#subscribe--nms-subscription-) 」および「 [登録解除(nms:購読)」を参照してください](#unsubscribe--nms-subscription-)。
-* データプロセス： インポート、エクスポート。
+* データプロセス：インポート、エクスポート。
 
 この節では、「Subscribe」、「Unsubscribe」および「SubmitDelivery」サービスの使用について詳しく説明します。
 
@@ -79,7 +76,7 @@ ht-degree: 4%
 
 ### 例 {#examples}
 
-電子メールアドレスに受信者紐付けキーがある購読: 入力XMLドキュメントは、電子メールアドレスと、このフィールドのキーの定義を参照する必要があります。
+電子メールアドレスに受信者紐付けキーがある購読:入力XMLドキュメントは、電子メールアドレスと、このフィールドのキーの定義を参照する必要があります。
 
 ```
 <recipient _key="email" email= "john.doe@adobe.com"/>
@@ -150,7 +147,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->サービス名がパラメーターとして指定されていない場合、受信者は自動的にブロックリスト上に表示されます(@ブロックリスト=&quot;1&quot;)。
+>サービス名をパラメーターとして指定しない場合、受信者は自動的にブロックリスト上(@ブロックリスト=&quot;1&quot;)に表示されます。
 
 この呼び出しは、エラー以外のデータを返しません。
 

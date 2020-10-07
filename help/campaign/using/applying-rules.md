@@ -11,14 +11,11 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 discoiquuid: a0e76d27-bedd-4f81-b4d2-1221444e670e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8c1f284be77447a88748ce97a3524b7035bb5bc0
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -87,7 +84,7 @@ ht-degree: 98%
 1. ターゲティングの開始時に適用されるコントロールルール
 1. フィルタールール:
 
-   * 住所資格のネイティブアプリケーションルール： ブロックリスト上の定義済みのアドレス/未確認のアドレス/アドレス/検疫済みのアドレス/アドレスの質。
+   * 住所資格のネイティブアプリケーションルール：ブロックリスト上の定義済みのアドレス/未確認のアドレス/アドレス/検疫済みのアドレス/アドレスの質。
    * ユーザーによって定義されたフィルタールール
    * アドレスまたは識別子の重複排除ルール（必要に応じて適用）
 

@@ -11,11 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 discoiquuid: 749a084e-69ee-46b4-b09b-cb91bb1da3cd
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -92,6 +92,7 @@ Campaign Standard でレプリケートされない追加データを必要と�
    * フィールドのリストで、**Count** 関数で使用したフィールドを選択します。「**[!UICONTROL プライマリキー]**」フィールドなど、常に入力されるフィールドを選択して、「**[!UICONTROL 完了]**」をクリックします。
    * **[!UICONTROL エイリアス]**&#x200B;列で、式を変更します。このエイリアスを使用すると、最終配信で追加された列を簡単に取得できます（例：**NBdeliveries**）。
    * 「**[!UICONTROL 完了]**」をクリックして、「**[!UICONTROL クエリ]**」アクティビティ設定を保存します。
+
    ![](assets/acs_connect_query7.png)
 
 1. ワークフローを保存します。次の節では母集団を ACS と共有する方法について説明します。

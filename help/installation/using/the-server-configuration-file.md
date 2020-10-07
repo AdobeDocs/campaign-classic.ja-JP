@@ -11,14 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3b752b283a14bc75954fe46da5a21970c1e17fa1
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '7859'
-ht-degree: 38%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -214,7 +211,7 @@ dataStore **ノードの様々なパラメーターを示します** 。 ここ�
   </tr> 
   <tr> 
    <td> useVault<br /> </td> 
-   <td> Vaultにシークレットを保存：Hashicorp Vaultを使用します。<br /> </td> 
+   <td> Vaultにシークレットを保存する：Hashicorp Vaultを使用します。<br /> </td> 
    <td> ブール値<br /> </td> 
    <td> いいえ<br /> </td> 
   </tr> 
@@ -1120,7 +1117,7 @@ xtkJobs **** ノードの異なるパラメータを以下に示します。 こ
   </tr> 
   <tr> 
    <td> smtpBccAddress<br /> </td> 
-   <td> ターゲットの保存先<br /> </td> 
+   <td> Archiving target destination<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3288,7 +3285,7 @@ For additional information, refer to this [section](../../installation/using/dep
 
 次に、 **web > redirection > spareServer** nodeの異なるパラメータを示します。
 
-詳しくは、「 [冗長トラッキング](../../installation/using/configuring-campaign-server.md#redundant-tracking)」を参照してください。
+詳しくは、 [冗長トラッキングを参照してください](../../installation/using/configuring-campaign-server.md#redundant-tracking)。
 
 <table> 
  <thead> 

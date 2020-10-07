@@ -11,14 +11,11 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: ec66e3e3-b09a-44a4-914d-e3b38c7643f8
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bc54cef4c44be4c694e062f56685dbb09d2fcf8e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -58,7 +55,7 @@ Adobe Campaignは、CPUとRAMの使用状況をチェックする [ツールも�
 
 アプリケーション設定のベストプラクティスに関する記事のリストを以下に示します。
 
-* MTAおよびMTAChildのプロセスとメモリ：mta **モジュールは、** mtachild **** 子モジュールにメッセージを配信します。 各 **mtachildは** 、統計サーバーから認証を要求し、送信する前に、メッセージを準備します。 Refer to this [page](../../installation/using/email-deliverability.md) for more information.
+* MTAおよびMTAChildのプロセスとメモリ：mta **モジュールは、メッセージを** mtachild **** 子モジュールに配布します。 各 **mtachildは** 、統計サーバーから認証を要求し、送信する前に、メッセージを準備します。 Refer to this [page](../../installation/using/email-deliverability.md) for more information.
 * TLS設定：スループットが低下する可能性があるので、TLSをグローバルに有効にすることはお勧めしません。 その代わりに、配信品質チームが管理するドメインごとのTLS設定は、ニーズに応じて調整する必要があります。 Refer to this [page](../../installation/using/email-deliverability.md#mx-configuration) for more information.
 * DKIM:DKIMのセキュリティレベルを確保するために、1024bは暗号化の推奨サイズであるベストプラクティスです。 これより小さいサイズの DKIM 鍵は、大多数のアクセスプロバイダーには有効とはみなされません。この [ページ](../../delivery/using/technical-recommendations.md#dkim) と [テクノノートを参照してください](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)。
 

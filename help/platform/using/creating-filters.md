@@ -11,11 +11,8 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 discoiquuid: 066e730b-2527-4257-b11f-2e73f746a8a5
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6d63a43bdcf1c63b2ada240e7e15db8a5dfcfe11
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2104'
 ht-degree: 99%
@@ -279,7 +276,7 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
    <td> 過去 Y ヶ月間に少なくとも X 回、配信内でクリックした受信者を選択します。<br /> </td> 
   </tr> 
   <tr> 
- <td> ブロックリストの電子メールアドレス<br /> </td> 
+ <td> Email address on the block list<br /> </td> 
     <td> ブロックリスト上の電子メールアドレスを持つ受信者を選択します。<br/> </td>
   </tr> 
   <tr> 

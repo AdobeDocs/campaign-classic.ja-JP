@@ -11,11 +11,11 @@ audience: production
 content-type: reference
 topic-tags: introduction
 discoiquuid: f4879774-afe5-4556-ab60-9297cabbca2c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 6%
 
 ---
 
@@ -24,17 +24,17 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ## 最小アーキテクチャ {#minimum-architecture}
 
-最小限の設定では、Adobe Campaignは次の機能を使用します。
+最小の設定では、Adobe Campaignは次の機能を使用します。
 
-* adobe Campaignアプリケーションサーバー、
+* adobe campaignアプリケーションサーバー、
 * データベース。
 
    ![](assets/formation_exploitation.png)
 
-次の図は、最小アーキテクチャのコンテキストに関連するトラフィックは次のみであることを示しています。
+次の図は、最小のアーキテクチャのコンテキストに関係するトラフィックは次のみであることを示しています。
 
-1. インターネット経由でAdobe Campaignサーバーに送信されるHTTPプロトコルトラフィック、
-1. インターネット経由でのAdobe Campaignサーバーとの間のSMTPプロトコルトラフィック。
+1. インターネット経由でAdobe Campaignサーバに送信されるHTTPプロトコルトラフィック、
+1. SMTPプロトコルは、インターネット経由でAdobe Campaignサーバーとの間でトラフィックを受け渡します。
 
 ## 分散アーキテクチャ {#distributed-architecture}
 
@@ -42,11 +42,11 @@ Adobe Campaignは複数のモジュールで構成され、複数のマシンで
 
 * ロードバランシング、
 * モジュールの冗長性の設定、
-* 複数のサービスプロバイダーにわたって分類されたアーキテクチャの構築（提供されるサービスのセグメント化）。
+* 複数のサービスプロバイダーにわたって分類された建築（提供されるサービスのセグメント化）の構築。
 
 ![](assets/architecturerepartie.png)
 
-複数のマシンにモジュールを分散させることで、使用の柔軟性と適応性が向上します。
+複数のマシンにわたるモジュールの配布により、使用の柔軟性が高まり、適応性が向上します。
 
 >[!NOTE]
 >
@@ -59,6 +59,6 @@ Adobe Campaignは複数のモジュールで構成され、複数のマシンで
 | 443/tcpまたは80/tcp | Webサーバー(Apache/IIS) | はい |
 | 6666/udp（ローカル） | Adobe Campaign:Syslogd | はい |
 | 8005/tcp （ローカル） | Adobe Campaign:ウェブモジュール | はい |
-| 8080/tcp | Adobe Campaign:Webモジュール(tomcat) | はい |
+| 8080/tcp | Adobe Campaign:webモジュール(tomcat) | はい |
 | 7777 | 統計サーバ（statサーバ） | はい |
 

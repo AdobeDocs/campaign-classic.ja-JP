@@ -11,14 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c86af066045c1c35b51624de8565af21746354c1
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

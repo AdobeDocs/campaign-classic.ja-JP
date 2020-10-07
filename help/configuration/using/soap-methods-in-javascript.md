@@ -1,7 +1,7 @@
 ---
-title: JavaScriptでのSOAPメソッド
-seo-title: JavaScriptでのSOAPメソッド
-description: JavaScriptでのSOAPメソッド
+title: JavaScript での SOAP メソッド
+seo-title: JavaScript での SOAP メソッド
+description: JavaScript での SOAP メソッド
 seo-description: null
 page-status-flag: never-activated
 uuid: 8fd1aabc-e51a-433d-835f-6b5a717c7aeb
@@ -11,24 +11,24 @@ audience: configuration
 content-type: reference
 topic-tags: api
 discoiquuid: 815d3eb9-ac45-441f-9a5f-0cd505fcf88a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# JavaScriptでのSOAPメソッド{#soap-methods-in-javascript}
+# JavaScript での SOAP メソッド{#soap-methods-in-javascript}
 
 これは、Adobe Campaignサーバー上で実行されるJavaScriptです。
 
 ## 静的メソッド {#static-methods}
 
-静的SOAPメソッドには、スキーマを表すオブジェクトのメソッドを呼び出してアクセスします。 スキーマは&#39;namespace&#39;オブジェクトのプロパティです。 これらの名前空間はグローバル変数なので、例えばxtkやnms変数は対応する名前空間を表します
+静的SOAPメソッドにアクセスするには、スキーマを表すオブジェクトのメソッドを呼び出します。 スキーマは、「名前空間」オブジェクトのプロパティです。 これらの名前空間はグローバル変数なので、例えばxtkやnms変数は対応する名前空間を表します
 
-次の例は、xtk:workflowスキーマの静的PostEventメソッドを呼び出します。
+次の例は、xtk:workflowスキーマーの静的PostEventメソッドを呼び出します。
 
 ```
 xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false) 
@@ -36,7 +36,7 @@ xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false)
 
 ## 非静的メソッド {#non-static-methods}
 
-非静的SOAPメソッドを使用するには、まず対応するスキーマで「get」メソッドまたは「create」メソッドを使用してエンティティを取得する必要があります。
+非静的SOAPメソッドを使用するには、まず、対応するスキーマで「get」メソッドまたは「create」メソッドを使用してエンティティを取得する必要があります。
 
 次の例は、「xtk:queryDef」スキーマのExecuteQueryメソッドを呼び出します。
 
@@ -57,7 +57,7 @@ for each (var w in res.workflow)
 
 ## 例 {#examples}
 
-* 「get」操作を使用して受信者テーブルに対するクエリを実行します。
+* 「get」操作を含む受信者テーブルのクエリ:
 
    ```
    var query = xtk.queryDef.create(  
@@ -78,7 +78,7 @@ for each (var w in res.workflow)
    logInfo(recipient.@lastName)
    ```
 
-* 「選択」操作を使用した受信者テーブルに対するクエリ：
+* 「select」操作を含む受信者テーブルのクエリ:
 
    ```
    var query = xtk.queryDef.create(  
@@ -103,7 +103,7 @@ for each (var w in res.workflow)
    }
    ```
 
-* 受信者テーブルにデータを書き込み中：
+* 受信者テーブルへのデータの書き込み：
 
    ```
    xtk.session.Write(<recipient _operation="insert" lastName="Martinez" firstName="Peter" xtkschema="nms:recipient"/>);

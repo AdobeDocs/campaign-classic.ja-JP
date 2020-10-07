@@ -11,11 +11,8 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5598682078a8fd3c8d9ecdca083f3a310c48f5f0
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 14%
@@ -225,7 +222,7 @@ Adobe Campaignの両方の更新されたパッケージを回復することに
 競合を解決するには、次の3つの方法があります。
 
 * **[!UICONTROL 解決済みとして宣言]** :前もってユーザーの介入が必要です。
-* **[!UICONTROL 新しいバージョンを受け入れる]** :adobe campaignが提供するリソースがユーザーによって変更されていない場合に推奨されます。
+* **[!UICONTROL 新しいバージョンを受け入れる]** :adobe campaignで提供されるリソースがユーザーによって変更されていない場合に推奨されます。
 * **[!UICONTROL 現在のバージョンを保持]** :は、更新が拒否されたことを意味します。
 
    >[!CAUTION]

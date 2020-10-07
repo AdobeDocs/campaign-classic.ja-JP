@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 9fd7122e-22c7-4f9a-a2a4-5de3daaa3c2e
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '1035'
+ht-degree: 100%
 
 ---
 
@@ -87,6 +87,7 @@ source-git-commit: 366d2149933fa68dfec2a732d1014e1875709cff
    * **[!UICONTROL 準備]**：完全な分析プロセスを実行できます（ターゲットの計算とコンテンツの準備）。配信は送信されません。このアクションは、配信を「**[!UICONTROL 配信]**」を使用してメインターゲットに送信する場合に、「**[!UICONTROL 可能な限り早く配信]**」オプションを選択し、「**分析**」をクリックするのと同等です。
    * **[!UICONTROL 配達確認を送信]**：配信の配達確認を送信できます。このアクションは、「**[!UICONTROL 配信]**」で配信のツールバーから「**配達確認を送信**」ボタンをクリックするのと同等です。
    * **[!UICONTROL 準備と開始]**：完全な分析プロセス（ターゲットの計算とコンテンツの準備）を起動し、配信を送信します。このアクションは、「**[!UICONTROL 配信]**」を使用して配信をメインターゲットに送信する場合に、「**[!UICONTROL 可能な限り早く配信]**」、「**[!UICONTROL 分析]**」、「**配信を確定**」オプションの順にクリックするのと同等です。
+
    ワークフローで後から使用される「**[!UICONTROL 配信に基づくアクション]**」アクティビティを使用して、配信の開始に必要な残りの手順を開始できます（ターゲットの計算、コンテンツの準備、配信）。詳しくは、[配信コントロール](../../workflow/using/delivery-control.md)を参照してください。
 
    さらに、次のオプションを使用できます。

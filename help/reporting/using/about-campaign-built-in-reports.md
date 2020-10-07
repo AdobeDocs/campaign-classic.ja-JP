@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: 8e4028f8-055a-435c-b226-3d8e0a352f92
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: f7655cd93a7dc8ecd35cd379da350ad279cae725
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign は、お客様のコンソールまたはインターネット�
 
 * プラットフォーム全体のレポートについては、[グローバルレポート](../../reporting/using/global-reports.md)を参照してください。
 * 配信レポートについては、[配信レポート](../../reporting/using/delivery-reports.md)を参照してください。
-* 累積レポートについては[累積レポート](../../reporting/using/cumulative-reports.md)を参照してください。
+* 累積レポートについては、[累積レポート](../../reporting/using/cumulative-reports.md)を参照してください。
 
 レポートには、クライアントコンソールのホームページ、レポートダッシュボードまたは配信リストからアクセスできます。レポートの表示モードはそのコンテキストに依存します。メインレポートのリストはホームページで使用でき、配信データにすばやくアクセスできます。このリストは、ニーズに合わせて変更可能です。詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
 

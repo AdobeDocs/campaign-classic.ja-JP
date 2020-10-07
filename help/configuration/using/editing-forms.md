@@ -11,18 +11,18 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 discoiquuid: 0c33fd79-8fa5-4cc0-8881-c6d6f4ee1648
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # フォームの編集{#editing-forms}
 
-入力フォームの作成と設定画面は、Adobe Campaignクライアントコンソー **[!UICONTROL Administration > Configuration > Input forms]** ルのフォルダーからアクセスできます。
+入力フォームの作成および設定画面は、Adobe Campaignクライアントコンソールの **[!UICONTROL 管理/設定/Input forms]** フォルダーからアクセスできます。
 
 ![](assets/d_ncs_integration_form_arbo.png)
 
@@ -30,7 +30,7 @@ source-git-commit: 579329d9194115065dff2c192deb0376c75e67bd
 
 ![](assets/d_ncs_integration_form_edit.png)
 
-プレビューによって、入力フォームの表示が生成されます。
+プレビューは、入力フォームの表示を生成します。
 
 ![](assets/d_ncs_integration_form_preview.png)
 

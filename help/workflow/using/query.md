@@ -11,11 +11,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: b53d9810-f61f-4257-b410-e4d30f78429d
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ffee73b949a77343eaf23d0fb9a58a4283f4f87a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 100%
@@ -124,6 +121,7 @@ Adobe Campaign データベースからデータを追加するには：
 
    * 複数行を収集を選択した場合（「**[!UICONTROL ライン数を制限]**」）、収集する行数を指定できます。
    * 宣言されたエラーの数や、サイトでの平均購入額など、収集した列に集計が含まれる場合、「**[!UICONTROL 集計]**」値を使用できます。
+
    ![](assets/query_add_collection_param.png)
 
 1. コレクションの補助選択範囲を指定します。例えば、過去 15 日間の購入のみを指定します。
@@ -148,6 +146,7 @@ Adobe Campaign データベースからデータを追加するには：
    * 30 歳以下の受信者
    * 18 歳以上の受信者
    * フランスに住んでいる受信者
+
    ![](assets/query_example.png)
 
    条件の組み合わせと一致する SQL を確認できます。
@@ -231,6 +230,7 @@ Adobe Campaign データベースからデータを追加するには：
    * データ
    * アプリケーション
    * ボリューム
+
    >[!NOTE]
    >
    >開発環境で動作する機能が、データの異なる実稼働環境では動作しない場合があります。リスクを予測し、解決策を準備するために、主な違いを特定しておくようにします。

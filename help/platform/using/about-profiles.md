@@ -11,14 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 5addada8-0185-488f-9825-83f60981c139
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 762a6ba3fdad9c30407bf807f2cd8076796f98c2
-workflow-type: ht
-source-wordcount: '974'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -121,7 +118,7 @@ Adobe Campaign エクスプローラーの一般的なレイアウトについ�
 
 このビデオでは、Adobe Campaign Classic による一般データ保護規則（GDPR）の遵守についても説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
 
 **関連項目：**
 

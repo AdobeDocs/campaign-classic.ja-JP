@@ -11,12 +11,9 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1a139e1704a7df38a7b8088e23c972864f8ad998
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 100%
 
@@ -175,6 +172,7 @@ ht-degree: 100%
 
    * **[!UICONTROL 承認用に送信]**：ワークフローで配信承認リクエストを実施できます。.
    * **[!UICONTROL 自動で開始]**：開始日になるとワークフローを開始できます。
+
    「**[!UICONTROL 事前に作成]**」フィールドを使用して、入力した期間を対象とするワークフローをすべて作成できます。
 
    **[!UICONTROL キャンペーンジョブ]**&#x200B;ワークフローの実行時に、キャンペーンスケジュールで定義された発生件数に基づいて専用ワークフローが作成されます。このようにして、実行日ごとにワークフローが作成されます。

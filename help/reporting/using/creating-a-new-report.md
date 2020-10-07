@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 22c92ddf-fbea-49d3-afd4-1ba427be399d
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '960'
+ht-degree: 100%
 
 ---
 
@@ -35,6 +35,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
    * 「**[!UICONTROL 拡張レポート]**」では、グラフを使用して設定するレポートを作成できます。
    * 「**[!UICONTROL 定性配分]**」レポートでは、あらゆるタイプのデータ（会社名、E メールドメインなど）に基づいて統計資料を作成できます。
    * 「**[!UICONTROL 定量配分]**」レポートでは、測定またはカウント可能なデータ（請求書の金額、受取人の年齢など）に関する統計資料を作成できます。
+
    これらのレポートテンプレートについて詳しくは、[この節](../../reporting/using/about-descriptive-analysis.md)を参照してください。
 
 1. レポートの名前と説明をそれぞれ該当するフィールドに入力します。レポートの「**[!UICONTROL スキーマ]**」を指定します。

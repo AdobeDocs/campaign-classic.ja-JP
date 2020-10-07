@@ -11,11 +11,8 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 discoiquuid: 24d4875b-81fa-4bf3-8cf0-e6998bec4949
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b369a17fabc55607fc6751e7909e1a1cb3cd4201
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 4%
@@ -63,6 +60,6 @@ Adobe Campaignは、それに応じて使用する必要があるIDシーケン�
 
 データをAdobe Campaignにインポートするすべての [ワークフロー](../../workflow/using/data-life-cycle.md#work-table) 、データベースのサイズが大きくなります。
 
-クリーンアップワークフローまたは削除イベントが実行中で、レコードを効果的に削除していることを確認します。 すべてのトランザクションデータとログは削除する必要があります。 クリーンアップタスクは、次の標準テーブルのみを削除します。 トラッキングとブロードログ。 特定の表は、特定のワークフローで削除する必要があります。 [この節](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs)を参照してください。
+クリーンアップワークフローまたは削除イベントが実行中で、レコードを効果的に削除していることを確認します。 すべてのトランザクションデータとログは削除する必要があります。 クリーンアップタスクは、次の標準テーブルのみを削除します。トラッキングとブロードログ。 特定の表は、特定のワークフローで削除する必要があります。 [こちらの節](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs)を参照してください。
 
 古いトランザクションデータを確認するには、レコードの最も古い作成日を確認します。

@@ -1,7 +1,7 @@
 ---
-title: パスワードが失われました
-seo-title: パスワードが失われました
-description: パスワードが失われました
+title: パスワードを忘れた場合
+seo-title: パスワードを忘れた場合
+description: パスワードを忘れた場合
 seo-description: null
 page-status-flag: never-activated
 uuid: caac68bf-abdc-45da-9697-b689ebd37002
@@ -11,42 +11,42 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: d52eeadc-19c6-4d48-995a-1c1f2ca3b5ec
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 12%
 
 ---
 
 
-# パスワードが失われました{#lost-password}
+# パスワードを忘れた場合{#lost-password}
 
-パスワードを失った場合は、変更または復元できます。
+パスワードを失った場合は、パスワードの変更や復元が可能です。
 
-考えられるシナリオは2つあります。
+次の2つのシナリオが考えられます。
 
-* Adobe Campaignのオペレーターによってパスワードが失われました。
+* Adobe Campaign演算子によってパスワードが失われました。
 
-   この場合、関連する演算子のパスワードを変更できます。 これを行うには、管理者権限を持つ演算子を使用して接続し、演算子を右クリックして、/ **[!UICONTROL Actions]** /演算子の **[!UICONTROL Reset password]** 新しいパスワードを設定します。 オペレーターが最初の再接続時にパスワードを変更することをお勧めします。
+   この場合、関連する演算子のパスワードを変更できます。 これを行うには、管理者権限を持つ演算子を介して接続し、演算子を右クリックして、 **[!UICONTROL アクション]** / **** パスワードのリセットを選択し、演算子の新しいパスワードを設定します。 オペレーターが最初の再接続時にパスワードを変更することをお勧めします。
 
    ![](assets/operator-passwd.png)
 
-* **内部パスワード** 損失（オンプレミスのお客様のみ）。
+* **内部パスワードの損失** （オンプレミスのお客様のみ）。
 
-   内部パスワ **ードが失われた** 場合は、再初期化する必要があります。 これを行うには、次の手順を適用します。
+   内 **部パスワードが失われた場合は** 、再初期化する必要があります。 これを行うには、次の手順を適用します。
 
-   1. /usr/local/neolane/nl6/conf/serverConf.xmlファイル **を編集** 。
-   1. internalPassword行に移 **動します** 。
+   1. /usr/local/neolane/nl6/conf/serverConf.xml **ファイルを編集します** 。
+   1. internalPassword **** 行に移動します。
 
       ```
       <!-- XTK authentication mode internalPassword : Password of internal account -->
        <xtk internalPassword="myPassword"/>
       ```
 
-   1. 引用符で囲んだ文字列を削除します。次の場合は削除します。myPassword ****
+   1. 引用符で囲んだ文字列を削除します（次の場合）。 **myPassword**
 
-      この場合、次の行が取得されます。
+      次の行を取得します。
 
       ```
       !-- XTK authentication mode internalPassword : Password of internal account -->
@@ -66,5 +66,5 @@ source-git-commit: 5f3ceab5ee82587d9f1829792bdabf2209f793cd
       Confirmation 
       ```
 
-   1. これで、新しいパスワードを使用して内部モードで接続で **きます** 。
+   1. これで、新しいパスワードを使用して **内部** モードで接続できます。
 

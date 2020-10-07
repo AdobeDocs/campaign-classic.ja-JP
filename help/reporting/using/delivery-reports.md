@@ -11,11 +11,8 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5ebea30c743ab416ede879c74735e2c7870d3db9
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1641'
 ht-degree: 98%
@@ -167,7 +164,7 @@ ht-degree: 98%
 このセクションには、2 つの指標があります。
 
 * **[!UICONTROL 初期母集団]**：配信アクションの対象となる受信者の合計数。
-* **[!UICONTROL ルールによって拒否されたメッセージ]** : タイポロジルールの適用時に分析中に無視されたアドレスの数： 住所の欠落、隔離、ブロックリストへの追加など タイポロジルールについて詳しくは、この[ページ](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)を参照してください。
+* **[!UICONTROL ルールによって拒否されたメッセージ]** :タイポロジルールの適用時に分析中に無視されたアドレスの数：住所の欠落、隔離、ブロックリストへの追加など タイポロジルールについて詳しくは、この[ページ](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)を参照してください。
 
 **[!UICONTROL 除外の理由]**
 

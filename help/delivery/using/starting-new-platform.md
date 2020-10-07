@@ -9,11 +9,8 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 537cbdec1ec88da1c759f6ca8eafe383c55a61d3
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 94%
@@ -38,6 +35,7 @@ ht-degree: 94%
 
    * 無効なアドレスのリストがある場合は、初めて送信する前に、強制隔離テーブル（**[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信不能件数およびアドレス]**&#x200B;メニューより使用可能）にインポートすることが最善です。
    * 同様に、無効なアドレスを再評価する場合は、時間と共に不適切なアドレスの使用を減らすために、プラットフォームのレピュテーションが確立されたらおこない、少しずつ時間をかけて再評価することを強くお勧めします。
+
    詳しくは、[強制隔離を使用した配信の最適化](../../delivery/using/understanding-quarantine-management.md#optimizing-your-delivery-through-quarantines)を参照してください。
 * mtachilds の数を制限して、**スループット率を制限**&#x200B;します。このような技術的な設定の調整について詳しくは、Adobe Campaign の管理者にお問い合わせください。
 * スパムとしてマークされないように、**送信されるボリュームを順次増やします**。最初からデータベース全体をターゲットにせず、送信するたびにリストの少量を追加します。これにより、無効なアドレスの全体的な割合を減らしながら各ステップで量を増やすことができます。開始アップ段階を円滑に開発するために、ウェーブを使用できます。詳しくは、[複数のウェーブを使用した送信](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)を参照してください。

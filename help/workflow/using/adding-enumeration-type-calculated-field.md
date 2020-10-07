@@ -9,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 7e5605c8-78f2-4011-b317-96a59c699848
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 100%
 
 ---
 
@@ -63,6 +63,7 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
 
    * 「**[!UICONTROL ソース]**」列で、新しいラインに各性別のソースの値（0、1、2）を入力します。
    * 「**[!UICONTROL 宛先]**」列で、値を入力します。ライン「0」に &quot;不明&quot;、ライン「1」に &quot;男性&quot;、ライン「2」に &quot;女性&quot; と入力します。
+
    「**[!UICONTROL ソースの値を保持]**」機能を選択します。
 
    「**[!UICONTROL OK]**」をクリックして計算フィールドを承認します。
@@ -77,6 +78,7 @@ source-git-commit: cf7c90f0ea9fbce3a4fd53f24189617cbd33fc40
    * 0 は「不明」
    * 1 は「男性」
    * 2 は「女性」
+
    ![](assets/query_editor_nveau_78.png)
 
    例えば、「**[!UICONTROL 列挙値のリスト]**」で性別「2」を入力せず、「**[!UICONTROL 他のケースの場合]**」フィールドで「**[!UICONTROL 警告を生成して続行]**」機能を選択した場合、警告ログが生成されます。このログは、性別「2」（女性）が入力されていないことを示します。ログは、データのプレビューウィンドウの「**[!UICONTROL エクスポート中に生成されたログ]**」フィールドに表示されます。

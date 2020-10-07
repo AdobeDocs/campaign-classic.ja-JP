@@ -11,14 +11,11 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 68d532a9597877f2f265dfc2d16ea31d1ce80858
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '3775'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -306,7 +303,7 @@ SMTP送信統計 **[!UICONTROL レポートを使用すると、サーバーア�
 
 >[!NOTE]
 >
->**minConnectionsToLog**、 **minErrorsToLog** 、 **minMessagesToLog** の各 **サーバーConf.xmlファイルのログ** オプションでは、上記の接続統計を考慮に入れる、接続統計値が定義されます。
+>**minConnectionsToLog**、 **minErrorsToLog** 、 **minMessagesToLogの各** サーバーConf.xmlファイルのログ **** オプションでは、上記の接続統計を考慮に入れる、接続統計値が定義されます。
 
 ![](assets/smtp_error_report.png)
 
@@ -394,7 +391,7 @@ wfserver@prod
 
 #### /r/test {#r-test}
 
-リダイレク **トサーバーのテストには、`<application>`http(s)://** /r/testページが使用されます。 トラッキングに使用するフロントサーバーをテストする場合も、同じ方法を使用することをお勧めします。 このページは、読み込みディスパッチャーをテストする場合にも使用できます。
+リダイレク **トサーバーのテストには、`<application>`http(s)://** /r/testページが使用されます。 追跡に使用するフロントサーバーをテストする場合も、同じ方法を使用することをお勧めします。 このページは、読み込みディスパッチャーをテストする場合にも使用できます。
 
 XML形式で次の行が表示されます。
 
@@ -495,10 +492,10 @@ Adobe Campaignは、検出された異常値に関するレポートを電子メ
 
 自動監視には、次の事前インストールに関する注意が必要です。
 
-* netreport.tgz **（Linuxのインストール）または** netreport.zip **** （Windowsのインストール）ファイルが存在する必要があります。
+* netreport.tgz **（Linuxのインストール）または** netreport.zip **** （Windowsのインストール）のファイルが存在する必要があります。
 * 監視対象のマシンに監視をインストールしないことを強くお勧めします。
 * JREまたはJDKを搭載したマシンにインストールする必要があります。
-* Linuxでは、監視対象のマシンに **bc** パッケージが必要です。 詳しくは、[こちら](../../installation/using/installing-packages-with-linux.md#distribution-based-on-rpm--packages)を参照してください。
+* Linuxでは、監視対象のマシンに **bc** パッケージが必要です。 詳しくは、[この節](../../installation/using/installing-packages-with-linux.md#distribution-based-on-rpm--packages)を参照してください。
 
 ### インストール手順 {#installation-procedure}
 

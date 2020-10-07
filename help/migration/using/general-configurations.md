@@ -11,11 +11,8 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 discoiquuid: f4b1c108-7f71-4aa1-8394-a7f660834c9c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e7de74feb61cc8f4b386a6ff86fc58b9c9e9ca1d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2882'
 ht-degree: 2%
@@ -46,7 +43,7 @@ TIMESTAMP WITH TIMEZONEモードを使用するには、 **-userTimestamptz:1** 
 
 >[!NOTE]
 >
->コンソール(**[!UICONTROL 管理/Platform/オプション/WdbcTimeZone]** ノード)を使用して、移行後にタイムゾーンを変更できます。
+>コンソール(**[!UICONTROL 管理/プラットフォーム/オプション/WdbcTimeZone]** ノード)を使用して、移行後にタイムゾーンを変更できます。
 >
 >For more on time zone management, refer to [this section](../../installation/using/time-zone-management.md).
 
@@ -92,7 +89,7 @@ TIMESTAMP WITH TIMEZONEモードを使用するには、 **-userTimestamptz:1** 
 
 >[!IMPORTANT]
 >
->セキュリティ上の理由から、Adobe Campaignプラットフォームはデフォルトでアクセスできなくなりました。 セキュリティゾーンを構成し、オペレーターのIPアドレスを収集する必要があります。
+>セキュリティ上の理由から、Adobe Campaignプラットフォームはデフォルトでアクセスできなくなりました。セキュリティゾーンを構成し、オペレーターのIPアドレスを収集する必要があります。
 
 Adobe Campaignv7には、 **セキュリティゾーンの概念が含まれます**。 インスタンスにログオンするには、各ユーザーをゾーンに関連付ける必要があります。また、ユーザーのIPアドレスは、セキュリティゾーンで定義されたアドレスまたはアドレス範囲に含まれている必要があります。 セキュリティゾーンの設定は、Adobe Campaignサーバーの設定ファイルで行うことができます。 ユーザーが関連付けられているセキュリティゾーンは、コンソールで定義する必要があります(**[!UICONTROL 管理/アクセス管理/演算子]**)。
 
@@ -179,7 +176,7 @@ v5では、 **sessiontoken** パラメーターはクライアント側(概要�
 
 ### SQL関数 {#sql-functions}
 
-不明なSQL関数の呼び出しが、自動的にサーバーに送信されることはなくなりました。 現在、すべてのSQL関数は **xtk:funcList** スキーマに追加する必要があります(詳しくは [この節を参照](../../configuration/using/adding-additional-sql-functions.md))。 移行時に、アップグレード後に、古い宣言されていないSQL関数との互換性を維持できるオプションが追加されます。 これらの関数を引き続き使用する場合は、 **XtkPassUnknownSQLFunctionsToRDBMS** ()オプションが、 **[!UICONTROL 管理/Platform/]** /オプションのノードレベルで定義されていることを確認してください。
+不明なSQL関数の呼び出しが、自動的にサーバーに送信されることはなくなりました。 現在、すべてのSQL関数は **xtk:funcList** スキーマに追加する必要があります(詳しくは [この節を参照](../../configuration/using/adding-additional-sql-functions.md))。 移行時に、アップグレード後に、古い宣言されていないSQL関数との互換性を維持できるオプションが追加されます。 これらの関数を引き続き使用する場合は、 **XtkPassUnknownSQLFunctionsToRDBMS** ()オプションが、 **[!UICONTROL 管理/プラットフォーム/オプション]** ・ノード・レベルで実際に定義されていることを確認してください。
 
 >[!IMPORTANT]
 >
@@ -187,11 +184,11 @@ v5では、 **sessiontoken** パラメーターはクライアント側(概要�
 
 ### JSSP {#jssp}
 
-HTTPSではなくHTTPプロトコルを介して、Webアプリで特定のページへのアクセスを許可する場合は、セキュリティゾーンで行われた設定に関係なく、対応するリレールで **httpAllowed=&quot;true&quot;** パラメーターを指定する必要があります。
+HTTPSではなくHTTPプロトコルを介して（HTTPSではなく）特定のページへのアクセスを許可する場合は、セキュリティゾーンで行われた設定にかかわらず、対応するリレールで **httpAllowed=&quot;true&quot;** パラメーターを指定する必要があります。
 
 匿名JSSPを使用する場合は、JSSP( **serverConf.xml** ファイル)のリレー規則にhttpAllowed=&quot;true&quot;**** パラメーターを追加する必要があります。
 
-次に例を示します。
+例：
 
 ```
 <url IPMask="" deny="" hostMask="" httpAllowed="true" relayHost="true" relayPath="true"
@@ -206,7 +203,7 @@ Adobe Campaignv7は、より新しいJavaScriptインタープリタを統合し
 
 myObject **[!UICONTROL です。@attribute]** 構文は、XMLオブジェクトに対してのみ有効になりました。 この構文は、配信とコンテンツ管理を個人化するために使用できます。 XML以外のオブジェクトに対してこのタイプの構文を使用した場合、パーソナライズ機能は動作しなくなります。
 
-他のすべてのオブジェクトタイプの構文は、現在は **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**です。 例えば、XML以外のオブジェクトで次の構文が使用されているとします。**[!UICONTROL  employee.@sn ]**。次の構文を使用する必要があります。**[!UICONTROL  employee`[`&quot;sn&quot;`]`]**.
+その他のすべてのオブジェクトタイプの構文は、 **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**&#x200B;です。 例えば、XML以外のオブジェクトで次の構文が使用されているとします。 **[!UICONTROL employee.@sn]**。次の構文を使用する必要があります。 **[!UICONTROL employee`[`&quot;sn&quot;`]`]**.
 
 * 以前の構文：
 
@@ -256,19 +253,19 @@ XML属性をテーブルキーとして使用できなくなりました。
 
 インスタンスのセキュリティを強化するために、Adobe Campaignv7でSQLDataに基づく構文を置き換える新しい構文が導入されました。 これらのコード要素をこの構文で使用する場合は、それらを変更する必要があります。 関連する主な要素は次のとおりです。
 
-* 副クエリによるフィルタ： 新しい構文は、下位クエリを定義する `<subQuery>` 要素に基づいています
-* 集計: 新しい構文は「集計関数（コレクション）」です。
-* 結合によるフィルタ： 新しい構文は、 `[schemaName:alias:xPath]`
+* 副クエリによるフィルタ：新しい構文は、下位クエリを定義する `<subQuery>` 要素に基づいています
+* 集計:新しい構文は「集計関数（コレクション）」です。
+* 結合によるフィルタ：新しい構文は、 `[schemaName:alias:xPath]`
 
 queryDef (xtk:queryDef)スキーマが変更されました：
 
 * SQLDataに含まれるSELECTを置き換える新しい `<subQuery>` 要素を使用できます。
 * @setOperator属性には、2つの新しい値「IN」と「NOT IN」が追加されました
-* 新しい `<where>` 要素（要素の子） `<node>` 。 これにより、SELECTで「サブセクション」を作成できます。
+* 新しい `<where>` 要素（要素の子） `<node>` 。これにより、SELECTで「サブセクション」を作成できます。
 
-「@expr」属性を使用する場合は、SQLDataが存在する可能性があります。 次の用語の検索を実行できます。 &quot;SQLData&quot;、&quot;aliasSqlTable&quot;、&quot;sql&quot;
+「@expr」属性を使用する場合は、SQLDataが存在する可能性があります。 次の用語の検索を実行できます。&quot;SQLData&quot;、&quot;aliasSqlTable&quot;、&quot;sql&quot;
 
-Adobe Campaignv7のインスタンスは、デフォルトで保護されています。 セキュリティは、 **[!UICONTROL serverConf.xml]** ファイルのセキュリティゾーンの定義に関する用語で示されます。 allowSQLInjection **属性は** 、SQL構文セキュリティを管理します。
+Adobe Campaignv7のインスタンスは、デフォルトで保護されています。 セキュリティは、 **[!UICONTROL serverConf.xml]** ファイルのセキュリティゾーンの定義に関する用語で示されます。allowSQLInjection **属性は** 、SQL構文セキュリティを管理します。
 
 アップグレード後の実行中にSQLDataエラーが発生した場合は、この属性を変更して、SQLDataベースの構文の使用を一時的に許可し、コードを書き直せるようにする必要があります。 これを行うには、 **serverConf.xmlファイルで次のオプションを変更する必要があります** 。
 
@@ -433,7 +430,7 @@ allowSQLInjection="false"
 
 同期結果は、次の2つの方法で表示できます。
 
-* In the command-line interface, errors are materialized by a triple chevron **>>>** and synchronization is stopped automatically. Warnings are materialized by a double chevron **>>** and must be resolved once synchronization is complete. ポストアップグレードの最後に概要がコマンドプロンプトで表示されます。次に例を示します。
+* In the command-line interface, errors are materialized by a triple chevron **>>>** and synchronization is stopped automatically. Warnings are materialized by a double chevron **>>** and must be resolved once synchronization is complete. ポストアップグレードの最後に概要がコマンドプロンプトで表示されます。例：
 
    ```
    2013-04-09 07:48:39.749Z        00002E7A          1     info    log     =========Summary of the update==========
@@ -459,12 +456,12 @@ allowSQLInjection="false"
 
 競合を解決するには、次の3つの方法が考えられます。
 
-* **[!UICONTROL 解決済みとして宣言]**: には、事前に演算子の介入が必要です。
-* **[!UICONTROL 新しいバージョンを承認する]**: Adobe Campaignが提供するリソースがユーザーによって変更されていない場合に推奨されます。
-* **[!UICONTROL 現在のバージョンを保持]**: は、更新が拒否されたことを意味します。
+* **[!UICONTROL 解決済みとして宣言]**:には、事前に演算子の介入が必要です。
+* **[!UICONTROL 新しいバージョンを承認する]**:adobe campaignで提供されるリソースがユーザーによって変更されていない場合に推奨されます。
+* **[!UICONTROL 現在のバージョンを保持]**:は、更新が拒否されたことを意味します。
 
    >[!IMPORTANT]
-   この解決モードを選択すると、新しいバージョンでパッチが失われる可能性があります。 したがって、このオプションは、エキスパート演算子に対してのみ使用または予約しないことを強くお勧めします。
+   この解決モードを選択すると、新しいバージョンでパッチが失われるおそれがあります。 したがって、このオプションは、エキスパート演算子に対してのみ使用または予約しないことを強くお勧めします。
 
 競合を手動で解決する場合は、次の手順に従います。
 
@@ -620,11 +617,11 @@ logInfo("Done");
 
 ### 標準レポート {#standard-reports}
 
-すべての標準レポートは、現在レンダリングエンジンv6.xを使用しています。 これらのレポートにJavaScriptを追加した場合、一部の要素が機能しなくなる可能性があります。 実際、古いバージョンのJavaScriptはv6.xのレンダリングエンジンと互換性がありません。 したがって、JavaScriptコードを確認し、後でそれを適合させる必要があります。 すべてのレポート、特にエクスポート機能をテストする必要があります。
+すべての標準レポートは、現在レンダリングエンジンv6.xを使用しています。これらのレポートにJavaScriptを追加した場合、一部の要素が機能しなくなる可能性があります。 実際、古いバージョンのJavaScriptはv6.xのレンダリングエンジンと互換性がありません。 したがって、JavaScriptコードを確認し、後でそれを適合させる必要があります。 すべてのレポート、特にエクスポート機能をテストする必要があります。
 
 ### Personalized reports {#personalized-reports}
 
-v7の青いバナー（ユニバーサルへのアクセスを許可）を使用する場合は、レポートを再公開する必要があります。 問題が発生した場合は、v6.0のレンダリングエンジンを強制的に使用できます。 これを行うには、レポート内の **[!UICONTROL プロパティ]** に移動し、「 **[!UICONTROL レンダリング]** 」をクリックして、 **** バージョン6.0(Flash &amp; OpenOffice)レンダリングエンジンを選択します。
+v7の青いバナー（ユニバーサルへのアクセスを許可）を使用する場合は、レポートを再公開する必要があります。 問題が発生した場合は、v6.0のレンダリングエンジンを強制的に使用できます。 これを行うには、レポート内の **[!UICONTROL プロパティ]** に移動し、「 **[!UICONTROL レンダリング]** 」をクリックし、 **** Version 6.0(FlashとOpenOffice)レンダリングエンジンを選択します。
 
 ![](assets/migration_reports_1.png)
 

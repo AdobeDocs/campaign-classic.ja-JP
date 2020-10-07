@@ -11,28 +11,28 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: 41338d32-b95c-45ae-bee6-17b2af5bd837
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d5c1732858fd5d079bbd9a755997c04adf5c9d47
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 3%
 
 ---
 
 
 # シードアドレス{#seed-addresses}
 
-受信者テーブルがカスタムテーブルの場合は、追加の設定が必要です。 The **[!UICONTROL nms:seedMember]** schema must be extended. 以下に示すように、適切なフィールドを定義するシードアドレスにタブが追加されます。
+受信者テーブルがカスタムテーブルの場合は、追加の設定が必要です。 The **[!UICONTROL nms:seedMember]** schema must be extended. 以下に示すように、適切なフィールドを定義するためのタブがシードアドレスに追加されます。
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-シードアドレスの使用方法の詳細は、この節を参 [照してくださ](../../delivery/using/about-seed-addresses.md)い。
+シードアドレスの使用について詳しくは、 [この節を参照してください](../../delivery/using/about-seed-addresses.md)。
 
 ## 実装 {#implementation}
 
-nms:seedMember **** スキーマと、あらかじめ用意されているリンクされたフォームは、すべての必要なフィールドを参照するように、顧客設定用に拡張されます。 スキーマ定義には、設定モードの詳細を示すコメントが含まれます。
+nms:seedMember **** スキーマとあらかじめ用意されているリンクされたフォームは、お客様の設定用に拡張し、必要なすべてのフィールドを参照するようにします。 スキーマ定義には、その設定モードに関するコメントが含まれています。
 
-拡張受信者の定義：
+受信者テーブル拡張スキーマの定義：
 
 ```
 <srcSchema label="Person" name="person" namespace="cus">
@@ -49,14 +49,14 @@ nms:seedMember **** スキーマと、あらかじめ用意されているリン
 
 次の手順に従います。
 
-1. nms:seedMember拡張を作 **成します** 。 詳しくは、「拡張機能」を参照 [してください](../../configuration/using/extending-a-schema.md)。
-1. この新しい拡張機能で、次のパラメーターを使用して、のルートに新しい **[!UICONTROL seedMember]** 要素を追加します。
+1. nms:seedMember **** スキーマの拡張子を作成します。 詳しくは、「スキーマの [拡張」を参照してください](../../configuration/using/extending-a-schema.md)。
+1. この新しい拡張機能では、次のパラメーターを使用して、 **[!UICONTROL seedMember]** のルートに新しい要素を追加します。
 
    ```
    name="custom_customNamespace_customSchema"
    ```
 
-   この要素には、要素の書き出しに必要なフィールドを含める必要があります。キャンペーン これらのフィールドは、外部フィールド内の対応するフィールドと同じ名前を持つ必要があります。スキーマ 例えば、スキーマがの場合、 **[!UICONTROL cus:person]** スキーマは次のよ **[!UICONTROL nms:seedMember]** うに拡張されます。
+   このキャンペーンには、要素の書き出しに必要なフィールドが含まれている必要があります。 これらのフィールドは、外部スキーマの対応するフィールドと同じ名前にする必要があります。 例えば、スキーマが **[!UICONTROL cus:person]** の場合、 **[!UICONTROL nms:seedMember]** スキーマは次のように拡張する必要があります。
 
    ```
      <srcSchema extendedSchema="nms:seedMember" label="Seed addresses" labelSingular="Seed address" name="seedMember" namespace="cus">
@@ -75,19 +75,19 @@ nms:seedMember **** スキーマと、あらかじめ用意されているリン
 
    >[!NOTE]
    >
-   >nms:seedMember **スキーマの拡張は** 、キャンペーンと配信の構造に準拠する必要があります。
+   >nms:seedMember **** スキーマの拡張は、Adobe Campaign内のキャンペーンと配信の構造に準拠する必要があります。
 
    >[!IMPORTANT]
    >
    >
    >    
    >    
-   >    * 拡張時に、「email」フィールドに **SQL名(@sqlname)を指定する必要があります** 。 SQL名は、受信者スキーマ用に予約されている「sEmail」と異なる必要があります。
-   >    * nms:seedMemberを拡張する際に作成したスキーマでデータベース構造を更新する **必要があります**。
-   >    * nms:seedMember **拡張では、電子メールアドレスを含むフィールド** の属性はname=&quot;email&quot;である必要があります **** 。 SQL名は、既に受信者スキーマに使用されている「sEmail」とは異なる名前にする必要があります。 この属性は、要素の下で直ちに宣言する必要があ **`<element name="custom_cus_person" />`** ります。
+   >    * 拡張時に、「email」フィールドに **SQL名(@sqlname)** を指定する必要があります。 SQL名は、受信者スキーマ用に予約されている&#39;sEmail&#39;と異なる必要があります。
+   >    * nms:seedMemberを拡張する際に作成したスキーマを使用して、データベース構造を更新する必要があり **ます**。
+   >    * nms:seedMember **拡張では、電子メールアドレスを含むフィールドの** 属性は **name=&quot;email&quot;** にする必要があります。 SQL名は、受信者スキーマで既に使用されている「sEmail」とは異なる名前にする必要があります。 この属性は、要素の下で直ちに宣言する必要があり **`<element name="custom_cus_person" />`** ます。
 
 
-1. それに応じてフ **[!UICONTROL seedMember]** ォームを変更し、ウィンドウに新しい「内部受信者」タブを定義 **[!UICONTROL Seed addresses]** します。 For more on this, refer to [Form structure](../../configuration/using/form-structure.md).
+1. 「 **[!UICONTROL seedMember]** 」フォームを適宜変更し、「 **[!UICONTROL シードアドレス]** 」ウィンドウで新しい「内部受信者」タブを定義します。 For more on this, refer to [Form structure](../../configuration/using/form-structure.md).
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"
@@ -102,4 +102,4 @@ nms:seedMember **** スキーマと、あらかじめ用意されているリン
      </container>
    ```
 
-シードアドレスのすべての属性が入力されない場合、Adobe Campaignは自動的に次のプロファイルを置き換えます。既存のデータを使用したパーソナライゼーション時に、自動的に入力されます。プロファイル
+シードアドレスの属性をすべて入力しない場合、Adobe Campaignは自動的にプロファイルを置き換えます。既存のプロファイルのデータを使用したパーソナライゼーション時に、自動的に入力されます。

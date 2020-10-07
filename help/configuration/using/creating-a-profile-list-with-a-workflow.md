@@ -11,42 +11,42 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: ba42c3cf-31fc-4fbc-b230-a2b3982328c5
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 681e6ec5fc9ed8c7e46af04f0ed62927b30e1b2e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 22%
 
 ---
 
 
 # ワークフローを使用したプロファイルリストの作成{#creating-a-profile-list-with-a-workflow}
 
-新しい受信者テー **[!UICONTROL List]** ブルに基づいてタイプリストを作成するには、リストを生成するターゲット設定ワークフローを作成する必要があります。 キャンペーンのリストの詳細については、この節を参 [照してください](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign)。
+新しいリストテーブルに基づいて **** リストタイプの受信者を作成するには、リストを生成するターゲットワークフローを作成する必要があります。 キャンペーンのリストの詳細については、 [この節を参照してください](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign)。
 
-1. エクスプローラ **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** ーのノードに移動します。
+1. エクスプローラーの **[!UICONTROL プロファイルとターゲット/ジョブ/ワークフローのターゲット設定]** (Targeting Jobs)ノードに移動します。
 1. 新しいターゲティングワークフローを作成します。
-1. 「 **Query** 」アクティビティを配置し、その後に「 **List」更新アクティビティを配置します** 。
+1. **クエリ** アクティビティを配置し、その後に **リスト更新** アクティビティを追加します。
 
    ![](assets/mapping_create_list_workflow01.png)
 
-1. **Query** アクティビティをダブルクリックし **[!UICONTROL Edit the query]** 、をクリックして、新しい受信者テーブルのスキーマに基づいてターゲットディメンションを選択します(例：個 **人**)。 Click **[!UICONTROL Finish]** to confirm.
+1. クエリ **アクティビティを重複クリックし、「** クエリの **** 編集」をクリックして、新しい受信者テーブルのスキーマに基づいてターゲティングディメンションを選択します(例： **個人**)。 「**[!UICONTROL 完了]**」をクリックして確定します。
 
    ![](assets/mapping_create_list_workflow03.png)
 
-1. 「 **List update** 」アクティビティをダブルクリックし、ラジオボタン **[!UICONTROL Create the list if necessary (Computed name)]** を選択します。
+1. 重複で **リスト更新** アクティビティをクリックし、「必要に応じてリストを **[!UICONTROL 作成」（計算済み名）ラジオボタンを選択します]** 。
 
    ![](assets/mapping_create_list_workflow02.png)
 
-1. 新しいリストの作成フォルダを選択します。
+1. 新しいリストの作成フォルダーを選択します。
 1. ワークフローを実行してリストを作成します。
-1. アクティビティ中に選択したツリーのノードに結果を表示し **[!UICONTROL List update]** ます。
+1. 表示の更新 **[!UICONTROL アクティビティで選択したツリーのノードに結果を]** リストします。
 
-   ダッシュボードでは、次に示すように、リストの基になるスキーマが指定されます。
+   ダッシュボードは、次に示すように、リストの基になるスキーマを指定します。
 
    ![](assets/mapping_list_view.png)
 
 >[!NOTE]
 >
->「受信者のリストの作成」 [ビデオも参照できます](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/creating-a-list-of-recipients.html) 。
+>また、受信者のリストの [作成のビデオを参照することもできます](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-list-of-recipients.html) 。
 

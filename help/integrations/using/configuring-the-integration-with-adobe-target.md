@@ -11,11 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 discoiquuid: 378d5ff9-88c0-43f1-beb8-454701e9f1d1
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 0745b9c9d72538b8573ad18ff4054ecf788905f2
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 100%
 
 ---
 
@@ -39,5 +39,6 @@ Adobe Campaign を設定するには：
 
    * **[!UICONTROL TNT_EdgeServer]**：統合に使用される Adobe Target のサーバー。このオプションは、デフォルトで選択されています。この値は Adobe Target の&#x200B;**[!UICONTROL ドメインサーバー]**&#x200B;に対応し、値 **/m2** が続きます。例：**tt.omtrdc.net/m2**。
    * **[!UICONTROL TNT_TenantName]**：Adobe Target の組織名。この値は Adobe Target の&#x200B;**[!UICONTROL クライアント]**&#x200B;名に対応します。
+
    ![](assets/tar_options.png)
 

@@ -1,7 +1,7 @@
 ---
-title: キャンペーンネットワークエンドポイント
-seo-title: キャンペーンネットワークエンドポイント
-description: キャンペーンネットワークエンドポイント
+title: Campaign ネットワークエンドポイント
+seo-title: Campaign ネットワークエンドポイント
+description: Campaign ネットワークエンドポイント
 seo-description: null
 page-status-flag: never-activated
 uuid: be21ae4b-ca2a-4952-b256-cd8dc51309cf
@@ -11,25 +11,22 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ce45473d27a3ed42ef91d4f2d8698f9e2b9cbb2e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Campaign network endpoints {#campaign-standard-network-endpoints}
+# Campaign ネットワークエンドポイント {#campaign-standard-network-endpoints}
 
 Campaign Classicで使用されるエンドポイントは次のとおりです。
 
 | コンテキスト | URL |
 |--- |--- |
-| ブラウザーエンドポイント | `https://*.experiencecloud.adobe.com` （SSOプロバイダー）<br>`https://*.campaign.adobe.com` (キャンペーンインスタンス)<br>`https://adobeid-na1.services.adobe.com` （アドビログイン） |
+| ブラウザーエンドポイント | `https://*.experiencecloud.adobe.com` （SSOプロバイダー）<br>`https://*.campaign.adobe.com` (キャンペーンインスタンス)<br>`https://adobeid-na1.services.adobe.com` (Adobeログイン) |
 | 配信品質レポート | `https://deliverablity.neolane.net` |
 | インボックスのレンダリング(Litmus) | `https://deliverability-app.neolane.net/deliverability` |
 | ブランドURL、ミラーページ、トラッキング、fileref（デプロイメントウィザード） | 設定済みのURLを確認します。 |

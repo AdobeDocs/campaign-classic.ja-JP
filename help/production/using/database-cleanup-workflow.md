@@ -11,14 +11,11 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c8cfdb67a4be2bc27baa363032c74a4aa8665e2a
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +30,7 @@ ht-degree: 2%
 
 ## 設定 {#configuration}
 
-データベースのクリーンアップは次の2つのレベルで構成されます。 」をクリックします。
+データベースのクリーンアップは次の2つのレベルで構成されます。」をクリックします。
 
 ### スケジューラー {#the-scheduler}
 
@@ -134,9 +131,9 @@ ht-degree: 2%
 
 このタスクは、削除またはリサイクルするすべての配信を削除します。
 
-1. **[!UICONTROL Database Cleanup]** Workflowは、DeleteStatusの値がYesRecycledRecycledField **、deleteDateの値がYesRecycledDeleteDeleteFieldの値よりも前の配信(DeliveryNameDeliveryNDDDelyDDDDeleleryDeleriveDDeleryDeleverDyDDeiveDDDeryD** DDDeryDelyDelyDeryDinuationDelyDDi **[!UICONTROL )の配信の値よりも前のの値のDeDelyDDele]************** DeletatableDely For more on this, refer to [Deployment wizard](#deployment-wizard). この期間は、現在のサーバーの日付に関連して計算されます。
+1. **[!UICONTROL Database Cleanup]** Workflowは、DeleteStatusの値がYesRecycledRecycledField ********************、deleteDateの値がYesRecycledDeleteDeletedFieldの値よりも前の配信を、DeleteDRetatabaseDDDDDelelyDDDDDelyDDDDのDDDの値よりも前の配信(DDDelilyDDDDDDDeliverelyDDeliveriveDelyDDelyDelyDDelyDelyDelyDelelyDelyDelyDely For more on this, refer to [Deployment wizard](#deployment-wizard). この期間は、現在のサーバーの日付に関連して計算されます。
 1. タスクは、各ミッドソーシングサーバに対して、削除する配信のリストを選択する。
-1. 「 **[!UICONTROL Database cleanup]** workflow」により、配信ログ、添付ファイル、ミラーページ情報、およびその他の関連データがすべて削除されます。
+1. 「 **[!UICONTROL Database cleanup]** workflow」を使用すると、配信ログ、添付ファイル、ミラーページ情報、およびその他すべての関連データが削除されます。
 1. 適切な場合は、配信を削除する前に、次の表のリンク情報を削除します。
 
    * 配信の除外テーブル(**NmsDlvExclusion**)では、次のクエリが使用されます。
@@ -475,7 +472,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
    ここで、 **$(tableName)** はスキーマのリスト内の各テーブルの名前で、 **$(option)** はNmsCleanup_BroadLogPurgeDelay **オプションに対して定義された日付です(『**[](#deployment-wizard)Deployment Wizard』を参照)。
 
-1. 最後に、ワークフローはNmsProviderMsgIdテー **ブルが存在するかどうかを確認します** 。 古いデータが含まれている場合は、次のクエリを使用して古いデータがすべて削除されます。
+1. 最後に、ワークフローはNmsProviderMsgIdテーブルが存在するかどうかを確認 **します** 。 古いデータが含まれている場合は、次のクエリを使用して古いデータがすべて削除されます。
 
    ```
    DELETE FROM NmsProviderMsgId WHERE iBroadLogId IN (SELECT iBroadLogId FROM NmsProviderMsgId WHERE tsCreated < $(option) LIMIT 5000)
@@ -487,8 +484,8 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
 このタスクは、 **NmsEmailErrorStat** テーブルをクリーンアップします。 メインプログラム(**coalesceErrors**)は2つの日付を定義します。
 
-* **開始日**: NmsLastErrorStatCoalesce **オプションまたはテーブル内の最新の日付に一致する次のプロセスの日付** 。
-* **終了日**: 現在のサーバーの日付。
+* **開始日**:NmsLastErrorStatCoalesce **オプションまたはテーブル内の最新の日付に一致する次のプロセスの日付** 。
+* **終了日**:現在のサーバーの日付。
 
 開始日が終了日以上の場合は、処理は行われません。 この場合、 **coalesceUpToDate** メッセージが表示されます。
 

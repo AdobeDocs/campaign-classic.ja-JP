@@ -11,11 +11,11 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: d1510fd9-995b-46c6-8d57-e1fe3999235e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c25e2a4f2280cdcc61e0522f8235149410b5dacf
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '423'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: c25e2a4f2280cdcc61e0522f8235149410b5dacf
 
 ## インストールプログラムの実行 {#executing-the-installation-program}
 
-Windows 32ビットプラットフォームの場合は、Adobe Campaign 32ビットをインストールします。 Windows 64ビットプラットフォームの場合は、Adobe Campaign 64ビットをインストールします。
+Windows 32ビットプラットフォームの場合は、Adobe Campaign32ビットをインストールします。 Windows 64ビットプラットフォームの場合は、Adobe Campaign64ビットをインストールします。
 
 Adobe Campaignサーバーのインストール手順は次のとおりです。
 
@@ -38,11 +38,12 @@ Adobe Campaignサーバーのインストール手順は次のとおりです。
 
    次のインストールタイプを使用できます。
 
-   * **[!UICONTROL Installation of an application server]** :Adobe Campaignアプリケーションサーバーとクライアントコンソールをインストールします。
-   * **[!UICONTROL Minimal installation (Network)]** :ネットワークからのクライアントコンピューターのインストール。 必要に応じて、限られた数のDLLのみがコンピュータにインストールされ、その他のすべてのコンポーネントがネットワークドライブから使用されます。
-   * **[!UICONTROL Installation of a client]** :Adobe Campaignクライアントに必要なコンポーネントのインストール。
-   * **[!UICONTROL Custom installation]** :ユーザは、インストールする要素を選択します。
-   「 **Installation of application server**」を選択し、次に示す別の手順に従います。
+   * **[!UICONTROL アプリケーションサーバーのインストール]** :Adobe Campaignアプリケーションサーバーとクライアントコンソールをインストールします。
+   * **[!UICONTROL 最小インストール（ネットワーク）]** :ネットワークからのクライアントコンピューターのインストール。 必要に応じて、限られた数のDLLだけがコンピュータにインストールされ、その他のコンポーネントはすべてネットワークドライブから使用されます。
+   * **[!UICONTROL クライアントのインストール]** :Adobe Campaignクライアントに必要なコンポーネントのインストール。
+   * **[!UICONTROL カスタムインストール]** :ユーザーは、インストールする要素を選択します。
+
+   「 **Installation of an application server**」を選択し、次に示す別の手順に従います。
 
    ![](assets/s_ncs_install_installer_02.png)
 
@@ -54,11 +55,11 @@ Adobe Campaignサーバーのインストール手順は次のとおりです。
 
    ![](assets/s_ncs_install_installer_04.png)
 
-   プログレスバーには、インストールの範囲が表示されます。
+   進行状況バーには、インストールの範囲が表示されます。
 
    ![](assets/s_ncs_install_installer_05.png)
 
-   インストールが完了すると、次の内容を知らせるメッセージが表示されます。
+   インストールが完了すると、次のことを知らせるメッセージが表示されます。
 
    ![](assets/s_ncs_install_installer_06.png)
 
@@ -66,7 +67,7 @@ Adobe Campaignサーバーのインストール手順は次のとおりです。
    >
    >サーバのインストールが完了したら、ネットワークの問題を回避するために、サーバの再起動が必要です。
 
-   インストールが完了したら、Adobe Campaignを起動して設定ファイルを作成します。 「サーバ [ーの最初の起動」を参照](#first-start-up-of-the-server)。
+   インストールが完了したら、開始Adobe Campaignを使用して設定ファイルを作成します。 「サーバの [最初の開始アップ](#first-start-up-of-the-server)」を参照してください。
 
 ## インストールの概要テスト {#summary-installation-testing}
 
@@ -76,15 +77,15 @@ Adobe Campaignサーバーのインストール手順は次のとおりです。
 nlserver pdump
 ```
 
-Adobe Campaignが開始されていない場合の応答は次のとおりです。
+Adobe Campaignが開始されていない場合、応答は次のようになります。
 
 ```
 No task
 ```
 
-## サーバーの初回起動 {#first-start-up-of-the-server}
+## サーバーの最初の開始アップ {#first-start-up-of-the-server}
 
-インストールテストが完了したら、メニューからコマンドプロンプトを **[!UICONTROL Start > Programs > Adobe Campaign]** 開き、次のコマンドを入力します。
+インストールテストが完了したら、 **[!UICONTROL 開始/プログラム/Adobe Campaign]** メニューでコマンドプロンプトを開き、次のコマンドを入力します。
 
 ```
 nlserver web
@@ -106,7 +107,7 @@ nlserver web
 15:30:12 >   Web server stop (pid=664, tid=4188)...
 ```
 
-Ctrl + cキ **ーを押して** 、処理を停止し、次のコマンドを入力します。
+Ctrl **** +Cを押して処理を停止し、次のコマンドを入力します。
 
 ```
 nlserver start web
@@ -124,7 +125,7 @@ nlserver start web
 12:17:22 >   Server started
 ```
 
-これを停止するには、次のように入力します。
+停止するには、次のように入力します。
 
 ```
 nlserver stop web
@@ -141,13 +142,13 @@ nlserver stop web
 
 ## 内部識別子のパスワード {#password-for-the-internal-identifier}
 
-Adobe Campaignサーバーは、すべてのインスタンスに対してすべての権限を持つ **internal** （内部）と呼ばれる技術的なログインを定義します。 インストール直後に、ログインにパスワードが設定されていません。 1つを定義する必要があります。
+Adobe Campaignサーバは、すべてのインスタンスに対してすべての権限を持つ **internal** という技術的なログインを定義します。 インストール直後は、ログインにパスワードがありません。 定義する必要があります。
 
-内部識別子を参 [照してください](../../installation/using/campaign-server-configuration.md#internal-identifier)。
+「 [内部識別子](../../installation/using/campaign-server-configuration.md#internal-identifier)」を参照してください。
 
-## Adobe Campaignサービスの起動 {#starting-adobe-campaign-services}
+## Starting Adobe Campaign services {#starting-adobe-campaign-services}
 
-Adobe Campaignサービスを開始するには、サービスマネージャーを使用するか、コマンドラインで次の情報を適切な権限で入力します。
+Adobe Campaignサービスを開始するには、サービスマネージャを使用するか、コマンドラインで次のように入力します（適切な権限を持ちます）。
 
 ```
 net start nlserver6
@@ -161,9 +162,9 @@ net stop nlserver6
 
 ## LibreOfficeのインストール {#installing-libreoffice}
 
-例えば、https://www.libreoffice.org/download/libreoffice-fresh/からLibreOfficeをダウンロードし [て](https://www.libreoffice.org/download/libreoffice-fresh/) 、通常のインストール手順に従います。
+例えば、https://www.libreoffice.org/download/libreoffice-fresh/ [からLibreOfficeをダウンロードし](https://www.libreoffice.org/download/libreoffice-fresh/) 、通常のインストール手順に従います。
 
-次の環境変数を追加します。
+追加次の環境変数：
 
 ```
 OOO_BASIS_INSTALL_DIR="C:\Program Files (x86)\LibreOffice 6\"

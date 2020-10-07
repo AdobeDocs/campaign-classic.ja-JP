@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: c886bd02-c484-443c-93ca-ca244adbf893
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00351a7a108f74741fa15546d9bd5cf68699e5c1
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '4500'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign では、テキスト、CSV、TAB または XML フォーマッ�
 >[!NOTE]
 >
 >「**[!UICONTROL リストをインポート]**」機能を使用して、データベースデータにマッピングせずにデータをインポートできます。
-> 
+>
 >このデータは、ワークフローの「**[!UICONTROL リストの読み込み]**」オブジェクト経由でのみ使用できます。詳しくは、[このページ](../../workflow/using/read-list.md)を参照してください。
 >
 >詳しくは、[プロファイルのインポート](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/importing-profiles.html)ビデオをご覧ください。

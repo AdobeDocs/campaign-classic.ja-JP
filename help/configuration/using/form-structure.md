@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 discoiquuid: f8ae9497-9ca2-4c0c-8dc8-c0563839b036
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e7ff12260d875b85256c8678fa8d100fd355398e
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ The XML document of the input form must contain the `<form>` root element with t
 </form>
 ```
 
-デフォルトでは、フォームは同じ名前と名前空間を持つデータスキーマに関連付けられます。 フォームを別の名前に関連付けるには、要素の **entity** -schema属性を `<form>` スキーマキーの名前に設定します。 入力フォームの構造を説明するには、「cus:recipient」のサンプルスキーマを使用したインターフェイスを説明します。
+デフォルトでは、フォームはデータスキーマに同じ名前と名前空間で関連付けられます。 フォームに別の名前を関連付けるには、要素の **entity-スキーマ** 属性をスキーマキーの名前に設定し `<form>` ます。 入力フォームの構造を理解するために、「cus:受信者」のサンプルスキーマを使用したインターフェイスを説明します。
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -62,22 +62,22 @@ The XML document of the input form must contain the `<form>` root element with t
 </form>
 ```
 
-編集コントロールの説明は、ルート要素から始 `<form>` まります。 An edit control is entered in an **`<input>`** element with the **xpath** attribute containing the path of the field in its schema.
+編集の説明は、 `<form>` ルート要素の開始を制御します。 編集コントロールが、スキーマ内のフィールドのパスを格納した **xpath** 属性を持つ **`<input>`** 要素に入力されます。
 
 編集コントロールは、対応するデータタイプに自動的に適応し、スキーマで定義されているラベルを使用します。
 
 >[!NOTE]
 >
->要素にlabel属性を追加すると、データスキーマで定義されたラベルをオーバ **ーロードで** き `<input>` ます。\
+>データ要素に **label** 属性を追加すると、データスキーマに定義されたラベルをオーバーロードでき `<input>` ます。\
 >`<input label="E-mail address" xpath="@name" />`
 
-デフォルトでは、各フィールドは1行に表示され、データの種類に応じて使用可能なスペースをすべて占有します。
+デフォルトでは、各フィールドは1行に表示され、データの種類に応じて使用可能なすべてのスペースを占有します。
 
 ## 書式設定 {#formatting}
 
-コントロールのレイアウトは、HTMLテーブルで使用されるレイアウトのように見えます。コントロールを複数の列に分割したり、要素をインターレースしたり、使用可能な領域の占有を指定したりできます。 ただし、形式設定では領域を縦横比で分割することしかできません。オブジェクトに固定寸法を指定することはできません。
+コントロールのレイアウトは、HTMLテーブルで使用されているレイアウトと同じように見えます。コントロールを複数の列に分割したり、要素をインターレースしたり、使用可能な領域の占有を指定したりできます。 ただし、書式設定は領域を縦横比で分割する場合にのみ使用できます。オブジェクトに固定寸法を指定することはできません。
 
-上記の例のコントロールを2列に表示するには：
+上記の例のコントロールを2つの列に表示するには：
 
 ![](assets/d_ncs_integration_form_exemple2.png)
 
@@ -91,9 +91,9 @@ The XML document of the input form must contain the `<form>` root element with t
 </form>
 ```
 
-colcount属 **`<container>`** 性を持つ要 **素を使用すると** 、2つの列に子コントロールを強制的に表示できます。
+colcount **`<container>`** 属性を持つ **** 要素を使用すると、2つの列に子コントロールを強制的に表示できます。
 
-コント **ロールの** colspan属性は、値に入力された列数だけコントロールを拡張します。
+コントロールの **colspan** 属性は、値に入力された列数だけコントロールを拡張します。
 
 ![](assets/d_ncs_integration_form_exemple3.png)
 
@@ -107,7 +107,7 @@ colcount属 **`<container>`** 性を持つ要 **素を使用すると** 、2つ�
 </form> 
 ```
 
-コンテナは **type=&quot;frame&quot;属性に値を入力することで** 、子コントロールの周囲にフレームを追加し、label属性にlabelが含まれて **います** 。
+コンテナは、 **type=&quot;frame&quot;** 属性に値を入力することで、子コントロールの周囲にフレームを追加し、 **label** 属性に含まれるラベルを追加します。
 
 ![](assets/d_ncs_integration_form_exemple4.png)
 
@@ -121,7 +121,7 @@ colcount属 **`<container>`** 性を持つ要 **素を使用すると** 、2つ�
 </form>
 ```
 
-要素を **`<static>`** 使用して、入力フォームの形式を設定できます。
+要素を使用して、入力フォームの形式を設定できます。 **`<static>`**
 
 ![](assets/d_ncs_integration_form_exemple5.png)
 
@@ -135,17 +135,17 @@ colcount属 **`<container>`** 性を持つ要 **素を使用すると** 、2つ�
 </form>
 ```
 
-区切り **`<static>`** 文字タイプの **タグで** 、label属性にラベルが含まれる区切り線を追加 **でき** ます。
+区切り **`<static>`** 記号の **種類が付いたタグを使用すると****** 、ラベルの属性にラベルが含まれた区切り記号バーを追加できます。
 
-ヘルプタイプのタグを使用してヘルプテキ `<static>` ストが追加されました。 テキストの内容がlabel属性に入力さ **れます** 。
+ヘルプタイプの `<static>` タグを使用して、ヘルプテキストが追加されました。 テキストの内容が **label** 属性に入力されます。
 
 ## コンテナ {#containers}
 
-コンテナを使用すると、一連のコントロールをグループ化できます。要素によって表され **`<container>`** ます。 これらは、複数の列に対するコントロールの書式設定に使用されました。
+コンテナを使用すると、一連のコントロールをグループ化できます。これらは要素で表され **`<container>`** ます。 上記の例は、複数の列のコントロールを書式設定する際に使用されています。
 
-子コ **ントロー**`<container>` ルのxpath属性を使用すると、子コントロールを簡単に参照できます。 次に、コントロールの参照は親に対する相対パスにな `<container>` ります。
+子コントロールの **xpath** 属性 `<container>` を使用すると、子コントロールを簡単に参照できます。 次に、コントロールの参照は、親の `<container>` 親に対する相対パスになります。
 
-「xpath」を含まないコンテナの例：
+「xpath」を使用しないコンテナの例：
 
 ```
 <container colcount="2">
@@ -154,7 +154,7 @@ colcount属 **`<container>`** 性を持つ要 **素を使用すると** 、2つ�
 </container>
 ```
 
-要素「location」に「xpath」を追加した例を次に示します。
+「location」という要素に「xpath」を追加した例を次に示します。
 
 ```
 <container colcount="2" xpath="location">
@@ -163,9 +163,9 @@ colcount属 **`<container>`** 性を持つ要 **素を使用すると** 、2つ�
 </container>
 ```
 
-### コンテナのタイプ {#types-of-container}
+### コンテナの種類 {#types-of-container}
 
-コンテナは、ページで形式設定された一連のフィールドを使用して複雑なコントロールを作成するために使用します。
+コンテナは、ページ形式の一連のフィールドを使用して複雑なコントロールを作成する場合に使用します。
 
 #### タブコンテナ {#tab-container}
 
@@ -186,17 +186,17 @@ colcount属 **`<container>`** 性を持つ要 **素を使用すると** 、2つ�
 </container>
 ```
 
-メインコンテナは、 **type=&quot;notebook&quot;属性で定義します** 。 タブは子コンテナ内で宣言され、タブのラベルはlabel属性から入力さ **れます** 。
+メインコンテナは、 **type=&quot;notebook&quot;** 属性で定義します。 タブは子コンテナで宣言され、タブのラベルは **label** 属性から入力されます。
 
 >[!NOTE]
 >
->**style=&quot;down|up**（デフォルト）**** &quot;機能は、タブラベルを強制的にコントロールの下または上に配置します。 この機能はオプションです。
+>**style=&quot;down|up**（デフォルト）**&quot;** フィーチャは、タブラベルをコントロールの下または上に強制的に垂直位置に配置します。 この機能はオプションです。
 >![](assets/d_ncs_integration_form_exemple7.png)
 >`<container style="down" type="notebook">  ... </container>`
 
 #### アイコンリスト {#icon-list}
 
-このコンテナには、表示するページを選択できる垂直方向のアイコンバーが表示されます。
+このコンテナには、表示するページを選択できる垂直のアイコンバーが表示されます。
 
 ![](assets/d_ncs_integration_form_exemple8.png)
 
@@ -213,11 +213,11 @@ colcount属 **`<container>`** 性を持つ要 **素を使用すると** 、2つ�
 </container>
 ```
 
-メインコンテナは、 **type=&quot;iconbox&quot;属性で定義します** 。 アイコンに関連付けられたページは、子コンテナ内で宣言されます。 アイコンのラベルは、label属性から入力さ **れます** 。
+メインコンテナは **type=&quot;iconbox&quot;** 属性で定義します。 アイコンに関連付けられたページは、子コンテナで宣言されます。 アイコンのラベルは、 **label** 属性から入力されます。
 
-ページのアイコンは属性から入力されます。 `img="<image>"``<image>` は、名前と名前空間で構成されるキーに対応する画像の名前です（例：「xtk:properties.png」）。
+ページのアイコンは、 `img="<image>"` 属性に基づいて設定されます。 `<image>` は、名前と名前空間で構成されるキーに対応する画像の名前です（「xtk:properties.png」など）。
 
-画像はノードから使用でき **[!UICONTROL Administration > Configuration > Images]** ます。
+画像は、 **[!UICONTROL 管理/設定/画像]** ノードから使用できます。
 
 #### 表示コンテナ {#visibility-container}
 
@@ -234,17 +234,17 @@ colcount属 **`<container>`** 性を持つ要 **素を使用すると** 、2つ�
 </container>
 ```
 
-表示コンテナは、attribute **type=&quot;visibleGroup&quot;で定義します**。 visibleIf属 **性には** 、表示条件が含まれます。
+表示コンテナは、attribute **type=&quot;visibleGroup&quot;で定義され**&#x200B;ます。 visibleIf **** 属性には表示条件が含まれます。
 
-条件構文の例：
+条件の構文の例：
 
-* **visibleIf=&quot;@email=&#39;peter.martinezATneolane.net&#39;&quot;**:文字列型のデータに対して等価性をテストします。 比較値は引用符で囲む必要があります。
+* **visibleIf=&quot;@email=&#39;peter.martinezATneolane.net&#39;&quot;**:文字列型のデータに対して等しい値をテストします。 比較値は引用符で囲む必要があります。
 * **visibleIf=&quot;@gender >= 1 and @gender != 2&#39;&#39;**:条件を数値に設定します。
 * **visibleIf=&quot;@boolean1==trueまたは@boolean2==false&quot;**:ブール値フィールドをテストします。
 
 #### コンテナの有効化 {#enabling-container}
 
-このコンテナを使用すると、動的条件からの一連のデータを有効または無効にできます。 コントロールを無効にすると、コントロールは編集できなくなります。 次の例は、「性別」フィールドの値からコントロールを有効にする方法を示しています。
+このコンテナを使用すると、動的条件に基づく一連のデータを有効または無効にできます。 コントロールを無効にすると、コントロールを編集できなくなります。 次の例は、「性別」フィールドの値からコントロールを有効にする方法を示しています。
 
 ```
 <container type="enabledGroup" enabledIf="@gender=1">
@@ -255,17 +255,17 @@ colcount属 **`<container>`** 性を持つ要 **素を使用すると** 、2つ�
 </container>
 ```
 
-有効化コンテナは、 **type=&quot;enabledGroup&quot;属性で定義します** 。 enabledIf属性 **には** 、アクティブ化条件が含まれます。
+有効にするコンテナは、 **type=&quot;enabledGroup&quot;** 属性で定義します。 enabledIf **属性には** 、アクティベーション条件が含まれます。
 
 ## リンクの編集 {#editing-a-link}
 
-リンクは次のようにデータスキーマで宣言されます。
+データスキーマでは、次のようにリンクが宣言されていることに注意してください。
 
 ```
 <element label="Company" name="company" target="cus:company" type="link"/>
 ```
 
-入力フォーム内のリンクの編集制御は次のとおりです。
+入力フォーム内のリンクの編集コントロールは次のとおりです。
 
 ![](assets/d_ncs_integration_form_exemple9.png)
 
@@ -273,15 +273,15 @@ colcount属 **`<container>`** 性を持つ要 **素を使用すると** 、2つ�
 <input xpath="company"/>
 ```
 
-ターゲットの選択は、編集フィールドからアクセスできます。 入力は先頭の型によって支援され、入力した最初の数文字からターゲット要素を簡単に見つけることができます。 次に、対象のスキーマで定義された **Compute文字列** (Compute string)に基づいて検索が行われます。 コントロールに検証後にスキーマが存在しない場合は、その場でターゲットを作成することを示す確認メッセージが表示されます。 確認によって、ターゲットテーブルに新しいレコードが作成され、リンクに関連付けられます。
+ターゲットの選択には、編集フィールドからアクセスできます。 入力は、入力した最初の数文字からターゲット要素を簡単に見つけられるように、タイプアヘッドによって支援されます。 次に、対象のスキーマで定義された **計算文字列** (Compute string)に基づいて検索が行われます。 コントロールに検証後にスキーマが存在しない場合は、オンザフライターゲット作成の確認メッセージが表示されます。 確認は、ターゲットテーブルに新しいレコードを作成し、それをリンクに関連付けます。
 
-コンボボックスを使用して、作成済みのレコードのリストからターゲット要素を選択します。
+ドロップダウンリストを使用して、既に作成されたレコードのリストからターゲット要素を選択します。
 
-(フォ **[!UICONTROL Modify the link]** ルダー)アイコンをクリックすると、ターゲットエレメントのリストとフィルターゾーンを含む選択フォームが起動します。
+リンク **[!UICONTROL (フォルダー]** )を変更アイコンをクリックすると、ターゲット要素とフィルターゾーンをリストした選択フォームが起動します。
 
 ![](assets/d_ncs_integration_form_exemple10.png)
 
-虫めが **[!UICONTROL Edit link]** ねアイコンをクリックすると、リンクされた要素の編集フォームが起動します。 使用されるフォームは、デフォルトでターゲットスキーマのキーに対して推理されます。 form属 **性を使用すると** 、編集フォームの名前(&quot;cus:company2&quot;)。
+リン **[!UICONTROL クを編集]** （虫めがね）アイコンをクリックすると、リンクされた要素の編集フォームが起動します。 デフォルトでは、対象スキーマのキーに基づいて使用されるフォームが推定されます。 **form** 属性を使用すると、編集フォームの名前(&quot;cus:会社2&quot;)。
 
 You can restrict the choice of target elements by adding the **`<sysfilter>`** element from the link definition in the input form:
 
@@ -293,7 +293,7 @@ You can restrict the choice of target elements by adding the **`<sysfilter>`** e
 </input>
 ```
 
-要素を使用してリストを並べ替えることもで **`<orderby>`** きます。
+要素を使用してリストを並べ替えることもでき **`<orderby>`** ます。
 
 ```
 <input xpath="company">
@@ -305,21 +305,21 @@ You can restrict the choice of target elements by adding the **`<sysfilter>`** e
 
 ### コントロールのプロパティ {#control-properties}
 
-* **noAutoComplete**:先行入力を無効にします（値が「true」の場合）。
-* **createMode**:リンクが存在しない場合は、その場でリンクを作成します。 次のような値を選択できます。
+* **noAutoComplete**:type-ahead（値が「true」の場合）を無効にします。
+* **createMode**:リンクが存在しない場合は、その場でリンクが作成されます。 次のような値を選択できます。
 
-   * **none**:作成を無効にします。 リンクが存在しない場合は、エラーメッセージが表示されます
+   * **none**:を無効にします。 リンクが存在しない場合は、エラーメッセージが表示されます
    * **inline**:編集フィールドにコンテンツを含むリンクを作成します
-   * **edition**:リンク上に編集フォームを表示します。 フォームを検証すると、データが保存されます（デフォルトモード）
+   * **edition**:リンク上に編集フォームを表示します。 フォームの検証時に、データが保存されます（デフォルトモード）。
 
-* **noZoom**:リンク上の編集フォームがない（値が「true」の場合）
+* **noZoom**:リンク上に編集フォームがない（値が「true」の場合）
 * **form**:ターゲット要素の編集フォームをオーバーロードします。
 
 ## リンクのリスト {#list-of-links}
 
-データスキーマにコレクション要素として入力されたリンク(unbound=&quot;true&quot;)は、リストを通じて、それに関連付けられたすべての要素を表示する必要があります。
+データスキーマにコレクション要素として入力されたリンク(unbound=&quot;true&quot;)は、そのリンクに関連付けられたすべての要素を表示するためにリストを経由する必要があります。
 
-プリンシパルは、データの読み込みが最適化されたリンクされた要素のリストの表示（データバッチによるダウンロード、リストが表示されている場合のみのリストの実行）で構成されます。
+この原則は、データの読み込みが最適化された、リンクされた要素のリストの表示(データバッチによるダウンロード、リストが表示されている場合のみの実行)から構成されます。
 
 スキーマ内のコレクションリンクの例：
 
@@ -329,7 +329,7 @@ You can restrict the choice of target elements by adding the **`<sysfilter>`** e
 </element>
 ```
 
-入力フォーム内のリスト：
+入力フォームのリスト:
 
 ![](assets/d_ncs_integration_form_exemple11.png)
 
@@ -340,19 +340,19 @@ You can restrict the choice of target elements by adding the **`<sysfilter>`** e
 </input>
 ```
 
-リストコントロールは **type=&quot;linklist&quot;属性で定義され** ます。 リストパスは、コレクションリンクを参照する必要があります。
+リストコントロールは、 **type=&quot;linklist&quot;** 属性で定義されます。 リストパスは、コレクションリンクを参照する必要があります。
 
-The columns are declared via the **`<input>`** elements of the list. xpath属 **性は** 、ターゲットスキーマのフィールドのパスを参照します。
+The columns are declared via the **`<input>`** elements of the list. xpath **** 属性は、ターゲットスキーマ内のフィールドのパスを参照します。
 
-（スキーマ内のリンクで定義された）ラベルを持つツールバーは、自動的にリストの上に配置されます。
+(スキーマ内のリンク上に定義された)ラベル付きのツールバーは、自動的にリストの上に配置されます。
 
-このリストは、ボタンを使用してフィルタリング **[!UICONTROL Filters]** し、列を追加および並べ替えるように設定することができます。
+リストは、 **[!UICONTROL フィルター]** ・ボタンでフィルタできます。また、列の追加や並べ替えを行うように設定できます。
 
-およびボ **[!UICONTROL Add]** タンを使 **[!UICONTROL Delete]** 用して、リンク上のコレクション要素を追加および削除できます。 デフォルトでは、要素を追加すると、ターゲットスキーマの編集フォームが起動します。
+「 **[!UICONTROL 追加]** 」 **[!UICONTROL ボタンと「]** 削除」ボタンを使用すると、リンク上のコレクション要素を追加および削除できます。 デフォルトでは、要素を追加すると、ターゲットスキーマの編集フォームが起動します。
 
-このボ **[!UICONTROL Detail]** タンは、リストのタグで **zoom=&quot;true&quot;** 属性が完了すると、自動的に **`<input>`** 追加されます。選択した行の編集フォームを起動できます。
+リストの **[!UICONTROL タグで]** zoom=&quot;true&quot; **属性が完了すると、「** Detail **`<input>`** 」ボタンが自動的に追加されます。選択した行の編集フォームを開始できます。
 
-フィルタリングと並べ替えは、リストの読み込み中に適用できます。
+フィルタリングと並べ替えは、リストの読み込み時に適用できます。
 
 ```
  <input xpath="rcpEvent" type="linklist">
@@ -369,9 +369,9 @@ The columns are declared via the **`<input>`** elements of the list. xpath属 **
 
 ### 関係テーブル {#relationship-table}
 
-関係テーブルを使用すると、2つのテーブルをN-N基数とリンクできます。 関係テーブルには、2つのテーブルへのリンクのみが含まれます。
+関連テーブルを使用すると、2つのテーブルをN-N基数とリンクできます。 関係テーブルには、2つのテーブルへのリンクのみが含まれます。
 
-したがって、リストに要素を追加すると、関係テーブル内の2つのリンクのうち1つからリストを完成できます。
+したがって、リストに要素を追加すると、関連テーブルの2つのリンクの1つからリストを完了できる必要があります。
 
 スキーマ内の関係テーブルの例：
 
@@ -382,7 +382,7 @@ The columns are declared via the **`<input>`** elements of the list. xpath属 **
 </srcSchema>
 ```
 
-この例では、「cus:recipient」スキーマの入力フォームから始めます。 このリストには、サービスへの購読との関連付けが表示され、既存のサービスを選択して購読を追加できる必要があります。
+この例では、「cus:受信者」スキーマの入力形式と開始しています。 リストは、サービスに対する購読との関連付けを表示し、既存のサービスを選択して購読を追加できる必要があります。
 
 ![](assets/d_ncs_integration_form_exemple12.png)
 
@@ -393,22 +393,22 @@ The columns are declared via the **`<input>`** elements of the list. xpath属 **
 </input>
 ```
 
-xpathChoiceTarget属 **性を使用すると** 、入力したリンクから選択フォームを起動できます。 関係テーブルレコードを作成すると、現在の受信者と選択したサービスへのリンクが自動的に更新されます。
+xpathChoiceTarget **** 属性を使用すると、入力したリンクから選択フォームを起動できます。 関連テーブルレコードを作成すると、現在の受信者と選択したサービスへのリンクが自動的に更新されます。
 
 >[!NOTE]
 >
->xpathEditTarget属 **性を使用すると** 、入力したリンク上で選択した行を強制的に編集できます。
+>xpathEditTarget **** 属性を使用すると、入力したリンク上で選択した行を強制的に編集できます。
 
-### Listプロパティ {#list-properties}
+### リストプロパティ {#list-properties}
 
 * **noToolbar**:ツールバーを非表示（値「true」）
-* **toolbarCaption**:ツールバーのラベルをオーバーロード
-* **toolbarAlign**:ツールバーの垂直または水平ジオメトリを修正します（以下の値を指定できます）。&quot;垂直&quot;|&quot;水平&quot;
+* **toolbarCaption**:ツールバーのラベルをオーバーロードします
+* **toolbarAlign**:ツールバーの垂直または水平ジオメトリを修正します(可能な値：&quot;垂直&quot;|&quot;水平&quot;
 * **img**:リストに関連付けられた画像を表示します
 * **form**:ターゲット要素の編集フォームをオーバーロードします。
-* **zoom**:ターゲットの要 **[!UICONTROL Zoom]** 素を編集するボタンを追加します。
-* **xpathEditTarget**:入力したリンクの編集を設定
-* **xpathChoiceTarget**:さらに、入力したリンク上の選択フォームを起動します。
+* **zoom**:ターゲットの要素を編集する **[!UICONTROL ズーム]** ボタンを追加します。
+* **xpathEditTarget**:入力されたリンクの編集を設定
+* **xpathChoiceTarget**:さらに、入力したリンクの選択フォームを起動します。
 
 ## メモリリストコントロール {#memory-list-controls}
 
@@ -431,13 +431,13 @@ xpathChoiceTarget属 **性を使用すると** 、入力したリンクから選
 
 リストコントロールは、**type=&quot;list&quot;** 属性を使用して設定する必要があります。リストのパスは、コレクション要素を参照する必要があります。
 
-The columns are declared in the child **`<input>`** tags of the list. 列のラベルとサイズは、label属性とcolSize属性を使用し **て** 、強制的 **に指定できます** 。
+The columns are declared in the child **`<input>`** tags of the list. 列のラベルとサイズは、 **label** 属性と **colSize** 属性を使用して強制的に指定できます。
 
 >[!NOTE]
 >
->並べ替え順序の矢印は、ordered=&quot; **true&quot;属性がデータスキーマのコレクション要素** に追加されると自動的に追加されます。
+>並べ替え順の矢印は、 **ordered=&quot;true&quot;** 属性がデータスキーマのコレクション要素に追加されたときに自動的に追加されます。
 
-ツールバーボタンは、水平方向に整列できます。
+ツールバーのボタンは、水平方向に並べることができます。
 
 ![](assets/d_ncs_integration_form_exemple14.png)
 
@@ -468,26 +468,26 @@ The **toolbarCaption** attribute forces the horizontal alignment of the toolbar 
 </input>
 ```
 
-編集フォームは、リスト定義の下の要素か `<form>` ら入力されます。 構造は入力フォームの構造と同じです。 このボ **[!UICONTROL Detail]** タンは、リストのタグで **zoom=&quot;true&quot;** 属性が完了すると自動的に **`<input>`** 追加されます。 この属性を使用すると、選択した行の編集フォームを起動できます。
+編集フォームは、リスト定義の下の `<form>` 要素から入力されます。 この構造は、入力フォームと同じです。 リストの **[!UICONTROL タグで]** zoom=&quot;true&quot; **属性が完了すると、「** Detail **`<input>`** 」ボタンが自動的に追加されます。 この属性を使用すると、選択した行の編集フォームを起動できます。
 
 >[!NOTE]
 >
->zoomOnAdd=&quot;true&quot; **属性を追加すると** 、リスト要素が挿入されたときに編集フォームが強制的に呼び出されます。
+>zoomOnAdd=&quot;true&quot; **** 属性を追加すると、リスト要素の挿入時に編集フォームが強制的に呼び出されます。
 
-### Listプロパティ {#list-properties-1}
+### リストプロパティ {#list-properties-1}
 
 * **noToolbar**:ツールバーを非表示（値「true」）
-* **toolbarCaption**:ツールバーのラベルをオーバーロード
+* **toolbarCaption**:ツールバーのラベルをオーバーロードします
 * **toolbarAlign**:ツールバーの位置を変更します(可能な値：&quot;垂直&quot;|&quot;水平&quot;
 * **img**:リストに関連付けられた画像を表示します
 * **form**:ターゲット要素の編集フォームをオーバーロードします。
-* **zoom**:ターゲットの要 **[!UICONTROL Zoom]** 素を編集するボタンを追加します。
+* **zoom**:ターゲットの要素を編集する **[!UICONTROL ズーム]** ボタンを追加します。
 * **zoomOnAdd**:追加時に編集フォームを起動
-* **xpathChoiceTarget**:さらに、入力したリンク上の選択フォームを起動します。
+* **xpathChoiceTarget**:さらに、入力したリンクの選択フォームを起動します。
 
-## 編集不可能なフィールド {#non-editable-fields}
+## 編集不可のフィールド {#non-editable-fields}
 
-フィールドを表示し、編集されないようにするには、タグを使用す **`<value>`** るか、タグのreadOnly=&quot; **true&quot;** 属性を設定し **`<input>`** ます。
+フィールドを表示し、編集されないようにするには、タグを使用するか、タグの **`<value>`** readOnly=&quot;true&quot; **属性を設定し****`<input>`** ます。
 
 「性別」フィールドの例：
 
@@ -500,7 +500,7 @@ The **toolbarCaption** attribute forces the horizontal alignment of the toolbar 
 
 ## ラジオボタン {#radio-button}
 
-ラジオボタンを使用すると、複数のオプションから選択できます。 タグを **`<input>`** 使用して、選択肢のリストが表示されます。 **checkedValue属性では、選択肢に関連付けられた値を指定します** 。
+ラジオボタンを使用すると、複数のオプションから選択できます。 タグを使用して選択可能なオプションをリストし、 **`<input>`** checkedValue **** 属性で選択肢に関連付けられた値を指定します。
 
 「性別」フィールドの例：
 
@@ -514,7 +514,7 @@ The **toolbarCaption** attribute forces the horizontal alignment of the toolbar 
 
 ## チェックボックス {#checkbox}
 
-チェックボックスはブール値の状態を反映します（選択されているかどうか）。 デフォルトでは、このコントロールは「ブール値」(true/false)フィールドで使用されます。 デフォルト値の0または1を持つ変数をこのボタンに関連付けることができます。 この値は、 **checkValue属性を使用してオーバーロードで** きます。
+チェックボックスはブール値の状態を反映します（選択されているかどうか）。 デフォルトでは、このコントロールは「ブール値」(true/false)フィールドで使用されます。 デフォルト値の0または1を持つ変数をこのボタンに関連付けることができます。 この値は、 **checkValue** 属性を使用してオーバーロードできます。
 
 ```
 <input xpath="@boolean1"/>
@@ -527,7 +527,7 @@ The **toolbarCaption** attribute forces the horizontal alignment of the toolbar 
 
 このコントロールは、編集する一連のフィールドにツリーを構築します。
 
-編集するコントロールは、ツリーコントロールのタ **`<container>`** グの下に入力さ **`<input>`** れたコントロールにグループ化されます。
+編集するコントロールは、ツリーコントロールのタグの下に **`<container>`** 入力され **`<input>`** たコントロールにグループ化されます。
 
 ```
 <input nolabel="true" type="treeEdit">
@@ -544,9 +544,9 @@ The **toolbarCaption** attribute forces the horizontal alignment of the toolbar 
 
 ![](assets/d_ncs_integration_form_exemple18.png)
 
-## 式フィールド {#expression-field}
+## 式場 {#expression-field}
 
-式フィールドは、式から動的にフィールドを更新します。タグを **`<input>`** xpath属性と共に使用し **て** 、更新するフィールドのパスと、更新式を含む **** expr属性を入力します。
+式フィールドは、式から動的にフィールドを更新します。この **`<input>`** タグは、 **xpath** 属性と共に使用し、更新するフィールドのパスと、更新式を含む **expr** 属性を入力します。
 
 ```
 <!-- Example: updating the boolean1 field from the value contained in the field with path /tmp/@flag -->
@@ -556,20 +556,20 @@ The **toolbarCaption** attribute forces the horizontal alignment of the toolbar 
 
 ## フォームのコンテキスト {#context-of-forms}
 
-入力フォームを実行すると、編集中のエンティティのデータを含むXMLドキュメントが初期化されます。 このドキュメントはフォームのコンテキストを表し、ワークスペースとして使用できます。
+入力フォームを実行すると、編集するエンティティのデータを含むXMLドキュメントが初期化されます。 このドキュメントはフォームのコンテキストを表し、ワークスペースとして使用できます。
 
 ### コンテキストの更新 {#updating-the-context}
 
-フォームのコンテキストを変更するには、タグを使用します。 **`<set expr="<value>" xpath="<field>"/>`** ここで、 **`<field>`** は宛先フィールド、は **`<value>`** 更新式または値です。
+フォームのコンテキストを変更するには、 **`<set expr="<value>" xpath="<field>"/>`** タグを使用します。 **`<field>`** ここで、は更新式または更新値 **`<value>`** です。
 
-タグの使用例を次に示 **`<set>`** します。
+タグの使用例を次に示し **`<set>`** ます。
 
-* **`<set expr="'Test'" xpath="/tmp/@test" />`**:一時的な場所/tmp/@test1に「Test」値を配置します。
+* **`<set expr="'Test'" xpath="/tmp/@test" />`**:を指定すると、一時的な場所/tmp/@test1に「Test」値が配置されます。
 * **`<set expr="'Test'" xpath="@lastName" />`**:「lastName」属性のエンティティを「Test」値で更新します
 * **`<set expr="true" xpath="@boolean1" />`**:「boolean1」フィールドの値を「true」に設定します。
-* **`<set expr="@lastName" xpath="/tmp/@test" />`**:「lastName」属性の内容に対する更新
+* **`<set expr="@lastName" xpath="/tmp/@test" />`**:「lastName」属性の内容に合わせて更新
 
-タグとタグを使用してフォームを初期化および閉じる際に、フォームのコンテキストを更 **`<enter>`** 新でき **`<leave>`** ます。
+タグとタグを使用してフォームを初期化したり閉じたりする場合は、フォームのコンテキストを更新でき **`<enter>`****`<leave>`** ます。
 
 ```
 <form name="recipient" namespace="cus">
@@ -585,13 +585,13 @@ The **toolbarCaption** attribute forces the horizontal alignment of the toolbar 
 
 >[!NOTE]
 >
->タグ `<enter>` とタ `<leave>` グは、ページの `<container>` タイプ（「notebook」と「iconbox」）で使用できます。
+>タグ `<enter>` と `<leave>` タグは、ページ `<container>` の上で使用できます（「notebook」タイプと「iconbox」タイプ）。
 
-### 式の言語 {#expression-language-}
+### 式言語 {#expression-language-}
 
 マクロ言語をフォーム定義で使用して、条件付きテストを実行できます。
 
-式が検 **`<if expr="<expression>" />`** 証されると、タグで指定された命令が実行されます。
+式が検証される場合、 **`<if expr="<expression>" />`** タグは、タグの下で指定された命令を実行します。
 
 ```
 <if expr="([/tmp/@test] == 'Test' or @lastName != 'Doe') and @boolean2 == true">
@@ -599,7 +599,7 @@ The **toolbarCaption** attribute forces the horizontal alignment of the toolbar 
 </if>
 ```
 
-タグと **`<check expr="<condition>" />`** 組み合わせると、 **`<error>`** フォームの検証が行われなくなり、条件が満たされない場合にエラーメッセージが表示されます。
+タグと組み合わせた **`<check expr="<condition>" />`****`<error>`** タグは、フォームの検証を妨げ、条件が満たされない場合はエラーメッセージを表示します。
 
 ```
 <leave>
@@ -611,7 +611,7 @@ The **toolbarCaption** attribute forces the horizontal alignment of the toolbar 
 
 ## ウィザード {#wizards}
 
-ウィザードに従って、一連のデータ入力手順がページ形式で表示されます。 入力したデータは、フォームを検証する際に保存されます。
+ウィザードに従って、一連のデータ入力手順をページ形式で進めます。 入力したデータは、フォームを検証するときに保存されます。
 
 ウィザードの構造は次のとおりです。
 
@@ -630,15 +630,15 @@ The **toolbarCaption** attribute forces the horizontal alignment of the toolbar 
 
 ![](assets/d_ncs_integration_form_exemple19.png)
 
-要素に **type=&quot;wizard&quot;属性があると、フォームの構**`<form>` 築時にウィザードモードを定義できます。 ページは、要素の子で `<container>` ある要素から完成し `<form>` ます。 ペー `<container>` ジの要素にtitleとdescのtitle属性が設定され、ページタイトルの下に説明が表示されます。 ページ間 **[!UICONTROL Previous]** を移動で **[!UICONTROL Next]** きるように、ボタンとボタンが自動的に追加されます。
+要素に **type=&quot;wizard&quot;**`<form>` 属性が存在する場合、フォームの構築時にウィザードモードを定義できます。 ページは、要素の子である `<container>` 要素から完成し `<form>` ます。 ページの `<container>` 要素に、titleとdescのtitle属性が設定され、ページタイトルの下に説明が表示されます。 「 **[!UICONTROL 前へ]** 」ボタンと「 **[!UICONTROL 次へ]** 」ボタンが自動的に追加され、ページ間を移動できます。
 
-入力し **[!UICONTROL Finish]** たデータがボタンに保存され、フォームが閉じます。
+「 **[!UICONTROL 完了]** 」ボタンをクリックすると、入力したデータが保存され、フォームが閉じます。
 
 ### SOAP メソッド {#soap-methods}
 
-SOAPメソッドの実行は、ページの最後に配置さ **`<leave>`** れたタグから開始できます。
+SOAPメソッドの実行は、ページの最後に挿入された **`<leave>`** タグから開始できます。
 
-このタ **`<soapcall>`** グには、次の入力パラメーターを持つメソッドの呼び出しが含まれます。
+この **`<soapcall>`** タグには、次の入力パラメーターを持つメソッドの呼び出しが含まれます。
 
 ```
 <soapCall name="<name>" service="<schema>">
@@ -647,11 +647,11 @@ SOAPメソッドの実行は、ページの最後に配置さ **`<leave>`** れ�
 </soapCall>
 ```
 
-サービスの名前とその実装スキーマは、タグの名前と **サー** ビス **属性を使** 用して入 **`<soapcall>`** 力します。
+サービスの名前とその導入スキーマは、 **タグの** 名前 **と****`<soapcall>`** サービス属性を使用して入力されます。
 
-入力パラメーターは、タグの下のエ **`<param>`** レメントに記述さ **`<soapcall>`** れます。
+入力パラメーターは、タグの下の **`<param>`** 要素で説明され **`<soapcall>`** ます。
 
-パラメータータイプは **type属性で指定する必要があ** ります。 使用できるタイプは次のとおりです。
+パラメータータイプは、 **type** 属性で指定する必要があります。 使用できるタイプは次のとおりです。
 
 * **string**:文字列
 * **boolean**:ブール値
@@ -659,10 +659,10 @@ SOAPメソッドの実行は、ページの最後に配置さ **`<leave>`** れ�
 * **short**:16ビット整数
 * **long**:32ビット整数
 * **short**:16ビット整数
-* **double**:倍精度浮動小数点数
+* **重複**:重複精度浮動小数点数
 * **DOMElement**:要素型ノード
 
-exprIn属 **性は** 、パラメーターとして渡すデータの場所を指定します。
+exprIn **属性には** 、パラメーターとして渡すデータの場所が含まれます。
 
 **例**：
 

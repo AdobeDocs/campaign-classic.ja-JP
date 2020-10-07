@@ -11,11 +11,11 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 discoiquuid: 7b0aef75-345d-45be-b7d0-a9f6944ee678
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '1375'
+ht-degree: 100%
 
 ---
 
@@ -142,6 +142,7 @@ source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
    * **[!UICONTROL 配分フィールド値]**：作成中のキャンペーンに参加するローカルエンティティに対応します。
    * **[!UICONTROL ラベル]**：ローカルエンティティのラベル
    * **[!UICONTROL サイズ]**（固定または割合）：**デフォルト値の 0** を指定すると、ローカルエンティティにリンクされているすべての受信者が選択されます。
+
    ![](assets/mkg_dist_use_case_target_valid4.png)
 
 1. 新しいデータ配分を保存します。
@@ -158,6 +159,7 @@ source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
    * 通知としてローカルエンティティに送信するメッセージの内容
    * 承認のリマインダー
    * 想定されるキャンペーンの処理.
+
    ![](assets/mkg_dist_use_case_target_valid7.png)
 
 1. レコードを保存します。
@@ -170,6 +172,7 @@ source-git-commit: eee744eb5bc7a43fd412ffb01f0546385146a978
 
    * **手動**&#x200B;モード：ローカルエンティティは、セントラルエンティティの招待を受け入れて、キャンペーンに参加します。ローカルエンティティは必要に応じて、あらかじめ選択されている連絡先を削除できます。キャンペーンへの参加を確定するには、マネージャーの承認が必要です。
    * **自動**&#x200B;モード：ローカルエンティティは、自分で登録を解除しない限り、キャンペーンに参加することが求められます。ローカルエンティティは、承認を受けずに連絡先を削除することができます。
+
    ![](assets/mkg_dist_use_case_target_valid.png)
 
 1. 「**[!UICONTROL 説明]**」タブでは、キャンペーンの説明を入力し、ローカルエンティティに送信するドキュメントを追加できます。

@@ -11,27 +11,24 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: d1069b23-e08d-43c5-bbfb-3158ac40dc7e
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 005be008585f75a87fb0029a8a88578cfde5ce51
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # キャンペーンクライアントコンソールのインストール{#installing-the-client-console}
 
-キャンペーンクライアントコンソールは、キャンペーンアプリケーションサーバーに接続できるリッチクライアントです。
+Campaign クライアントコンソールは、Campaign アプリケーションサーバーに接続できるリッチクライアントです。
 
 起動する前に、キャンペーン [互換性マトリックスを確認し、キャンペーンサーバーのURLとユーザーの資格情報を取得する必要があります](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)。
 
 >[!CAUTION]
 >
->キャンペーンクライアントコンソールとキャンペーンアプリケーションサーバーは、同じ製品バージョンで実行する必要があります。 また、同じ製品ビルドを使用することをお勧めします。
+>キャンペーンクライアントコンソールとキャンペーンアプリケーションサーバーは、同じ製品バージョンで実行する必要があります。 Adobeでは、同じ製品ビルドを使用することもお勧めします。
 
 ## コンソールをダウンロード{#download-the-client-console}
 
@@ -49,7 +46,7 @@ Adobe Campaignクライアントコンソールをダウンロードしてイン
 
 1. インストールページの **[!UICONTROL ダウンロード]** リンクをクリックします。
 1. クライアントセットアップファイルをダウンロードして保存します。
-1. Windowsのコンピューターで、ダウンロードしたファイルを実行します。 インストール開始がアップになります。 クライアントコンソールのデフォルトのインストールパスは、Adobe Campaignのバージョンに応じて、 **$PROGRAMFILES$/Adobe/Adobe CampaignクラシックvXクライアント**（「X」は「6」または「7」）です。
+1. Windowsのコンピューターで、ダウンロードしたファイルを実行します。インストール開始がアップになります。 クライアントコンソールのデフォルトのインストールパスは、 **$PROGRAMFILES$/Adobe/Adobe Campaign ClassicvX Client**&#x200B;です。「X」は、Adobe Campaignのバージョンに応じて「6」または「7」になります。
 
 >[!NOTE]
 >
@@ -73,7 +70,7 @@ Adobe Campaignクライアントコンソールをダウンロードしてイン
 
    例えば、 [`https://<machine>.<domain>.com`](https://machine) タイプURLを使用できます。
 
-1. Adobe IMSが組織に対して設定されている場合は、「Adobe IDに **[!UICONTROL 接続」オプションをオンにします]**
+1. AdobeIMSが組織に対して設定されている場合は、「 **[!UICONTROL Adobe IDに接続」オプションをオンにします]**
 
 1. 「 **[!UICONTROL OK]** 」をクリックして設定を保存します。
 

@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 discoiquuid: 42db3be8-ee02-4158-adcd-846420a32460
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '740'
+ht-degree: 100%
 
 ---
 
@@ -41,6 +41,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
    * データを集計して作業用テーブルに保存し、必要に応じて指標を事前に計算すること。
    * レポートやクエリに使用する様々な計算に関係するデータの量を減らすことで、指標の計算時間を大幅に最適化すること。
    * データへのアクセスを簡素化して、（データが事前に集計されているかどうかによらず）ユーザーが様々なディメンションに応じてデータを操作できるようにすること。
+
    詳しくは、[指標の作成](../../reporting/using/creating-indicators.md)を参照してください。
 
 1. 次のことを考慮したピボットテーブルの作成
@@ -49,6 +50,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
    * 表示するデータとその表示モードの選択
    * 使用する測定や指標のパーソナライズ
    * 技術的なバックグラウンドを持たないユーザーへのインタラクティブな分析ツールの提供
+
    詳しくは、[キューブを使用したデータ調査](../../reporting/using/using-cubes-to-explore-data.md)を参照してください。
 
 1. キューブで計算および集計したデータを使用したクエリの作成

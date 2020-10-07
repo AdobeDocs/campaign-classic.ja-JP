@@ -11,11 +11,8 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 discoiquuid: aa37bdc6-0f85-4eca-859f-e8b15083cfb5
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1a9d4c9eadf996d37481f33636eae98e482ac115
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 1%
@@ -27,7 +24,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->一部の設定は、アドビがホストするデプロイメントに対してのみアドビが実行できます。 例えば、サーバー設定ファイルやインスタンス設定ファイルにアクセスする場合です。 各デプロイメントの詳細については、「 [ホスティングモデル](../../installation/using/hosting-models.md) 」の節または [この記事を参照してください](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)。
+>一部の設定は、Adobeがホストする配置に対してのみAdobeが実行できます。 例えば、サーバー設定ファイルやインスタンス設定ファイルにアクセスする場合です。 各デプロイメントの詳細については、「 [ホスティングモデル](../../installation/using/hosting-models.md) 」の節または [この記事を参照してください](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)。
 
 ## 概要 {#overview}
 
@@ -73,11 +70,11 @@ WindowsにSpamAssinをインストールして設定し、Adobe Campaignとの�
 
    「 **run_me.bat** 」と入力し、 **** Enterをクリックしてインストールと更新のプロセスを開始します。 この操作は、更新の結果を示すために、次のいずれかの値を返します。
 
-   * **0**: 更新が行われました。
-   * **1**: 新しい更新プログラムはありません。
-   * **2**: 新しい更新プログラムはありません。
-   * **3**: 事前の検証中に更新に失敗しました。
-   * **4** 以上： エラーが発生しました。
+   * **0**:更新が行われました。
+   * **1**:新しい更新プログラムはありません。
+   * **2**:新しい更新プログラムはありません。
+   * **3**:事前の検証中に更新に失敗しました。
+   * **4** 以上：エラーが発生しました。
 
 1. SpamAssinのインストールが正常に完了したことを確認するには、次の手順を使用してGTUBEテスト（非要請のバルク電子メール用の汎用テスト）を実行します。
 

@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 74084618-2b35-42c5-8a86-87ce137abb71
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '2646'
+ht-degree: 100%
 
 ---
 
@@ -239,6 +239,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
    * 処理された配信の指標
    * 「キャンペーン」リンクの外部キー
    * エラー率指標
+
    ![](assets/s_advuser_report_listgroup_002.png)
 
    各フィールドにエイリアスをリンクします。これにより、レポートの最初のページに追加されるテーブルからデータを選択しやすくなるので、お勧めします。
@@ -378,6 +379,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
       ![](assets/reporting_quick_start_query-2_count.png)
 
    * 受信者の E メールドメインを収集し、このフィールドに関する情報をグループ化します。それには、出力列で「**[!UICONTROL グループ]**」オプションを選択します。
+
    ![](assets/reporting_quick_start_query-2_filter.png)
 
    フィールドに次のエイリアスをリンクします。
@@ -421,6 +423,7 @@ source-git-commit: 209ac4d81d2d27c264ee6b288bcb7fcb1900ffc5
 
    * 詳細行の 2 番目のセルに、式 **[!UICONTROL Email domain(Recipient)]** を追加します。
    * 詳細行の 3 番目のセルに、式 **[!UICONTROL count(primary key)]** を追加します。
+
    ![](assets/s_advuser_report_listgroup_019.png)
 
 1. 右クリックメニューを使用してページに円グラフを追加し、そのラベルを &quot;**Email domains**&quot; にします。詳しくは、[グラフのタイプとバリエーション](../../reporting/using/creating-a-chart.md#chart-types-and-variants)を参照してください。

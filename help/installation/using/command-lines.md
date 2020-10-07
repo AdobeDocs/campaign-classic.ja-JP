@@ -11,18 +11,18 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 discoiquuid: 3621d4ec-8839-40c3-a574-486c408f79ba
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 5%
 
 ---
 
 
 # コマンドライン{#command-lines}
 
-次のコマンドラインを使用するには、アプリケーションサーバーにアクセスする機能が必要です。 アドビがホストするデプロイメントの場合、これらのコマンドはアドビのみが実行できます。
+次のコマンドラインを使用するには、アプリケーションサーバーにアクセスする機能が必要です。 Adobeがホストする配置では、これらのコマンドはAdobeのみが実行できます。
 
 ## インスタンスの作成 {#creating-an-instance}
 
@@ -32,9 +32,9 @@ source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
 nlserver config -addinstance:instance/masques DNS[/lang]
 ```
 
-( **eng** と **fraは** 、パラメーターの値 `[lang]` です)
+( **eng** と **fra** は、 `[lang]` パラメータに指定できる値です)。
 
-コマンド **nlserver config -addinstance:instance1/demo*/eng** を使用すると、DNSマスクdemo*を使用して **instance1** という名前のインスタンスを英語で作成できます。
+コマンド **nlserver config -addinstance:instance1/demo*/eng** を使用すると、DNSマスクdemo*を使用して、 **instance1** という名前のインスタンスを英語で作成できます。
 
 ## データベースの宣言 {#declaring-a-database}
 
@@ -44,14 +44,14 @@ nlserver config -addinstance:instance/masques DNS[/lang]
 nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 ```
 
-このパラメーターには、次の値を指定で **`[rdbms]`** きます。
+この **`[rdbms]`** パラメーターには次の値を指定できます。
 
 * **postgresql**:PostgreSQLの場合、
 * **oracle**:Oracleの場合、
-* **mssql**:（Microsoft SQL serverの場合）
-* **DB2**:DB2エンジン用に作成されました。
+* **mssql**:Microsoft SQL Serverの場合、
+* **DB2**:（DB2エンジン用）
 
-次のコマンドは、 **demo** instanceを、 **campaignアカウントにリンクされた** base6 **(** base6 **)というSQLタイプのサーバを使用して設定します。****** dbsrv server:
+次のコマンドは、 **キャンペーンにリンクされたSQLタイプserver** base6 **というSQLタイプserverを使用して** demo **インスタンスを設定します。 accountはdbsrv********** srv serverに対してpasswordを設定します。
 
 ```
  nlserver config -setdblogin:db:campaign:myBase/password@dbServer -instance:demo

@@ -11,11 +11,11 @@ audience: migration
 content-type: reference
 topic-tags: migration-overview
 discoiquuid: 3ac779a7-1f91-4c1c-a439-10d01697326a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,28 +26,28 @@ source-git-commit: 9f7cf3d530f141a661df5fcc8cbcf0bb4c8d3e89
 
 移行を実行すると、環境（データベースエンジン、オペレーティングシステム）を更新する可能性があります。 Adobe Campaignでは、実稼働環境を最新バージョンにアップグレードすることを強くお勧めします。
 
-32ビット版のデータベースとオペレーティングシステムは、v7でも引き続きサポートされますが、今後のバージョンのAdobe Campaignではサポートされなくなります。 プラットフォームをできるだけ早く64ビットにアップグレードすることを強くお勧めします。
+32ビット版のデータベースとオペレーティングシステムは引き続きv7でサポートされますが、今後のAdobe Campaign版ではサポートされなくなります。 プラットフォームを可能な限り早く64ビットにアップグレードすることを強くお勧めします。
 
-v6.02では、「マルチタイムゾーン」モードはPostgreSQLデータベースエンジンでのみ使用可能でした。 どのタイプのデータベースエンジンが使用されても提供されるようになりました。 ベースを「マルチタイムゾーン」ベースに変換することを強くお勧めします。 詳しくは、タイムゾーンの節を参照し [てください](../../migration/using/general-configurations.md#time-zones) 。
+v6.02では、「マルチタイムゾーン」モードはPostgreSQLデータベースエンジンでのみ使用可能でした。 どの種類のデータベースエンジンを使用しても提供されるようになりました。 ベースを「マルチタイムゾーン」ベースに変換することを強くお勧めします。 この詳細については、「 [タイムゾーン](../../migration/using/general-configurations.md#time-zones) 」を参照してください。
 
 >[!IMPORTANT]
 >
->Adobe Campaign 5.11および6.02でサポートされているソフトウェアバージョンの一部は、Adobe Campaign v7ではサポートされなくなりました。
+>Adobe Campaign5.11および6.02でサポートされているソフトウェアバージョンの一部は、Adobe Campaignv7ではサポートされなくなりました。
 >
->Adobe Campaignでサポートされているバージョンの詳細については、互換表を参照 [してください](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)。
+>Adobe Campaignでサポートされているバージョンの詳細については、 [互換表を参照してください](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)。
 
 ## 主な移行手順 {#key-migration-steps}
 
-Adobe Campaign v7への移行の一般的な手順については、「移行を開始する前に [」の節で説明します](../../migration/using/before-starting-migration.md) 。
+Adobe Campaignv7への移行の一般的な手順については、「移行 [開始前](../../migration/using/before-starting-migration.md) 」の節を参照してください。
 
-Adobe Campaign v7への移行の導入手順について詳しくは、「Adobe Campaign 7への移行 [の前提条件」の節を参照してくだ](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) さい。
+Adobe Campaignv7への移行の導入手順については、「Adobe Campaign7への移行の [前提条件](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) 」の節を参照してください。
 
-必要な設定は、既存の設定とプラットフォームの初期バージョンによって異なります。 これらの設定については、「一般設定」 [の節で説明し](../../migration/using/general-configurations.md) ます。
+必要な設定は、既存の設定とプラットフォームの初期バージョンによって異なります。 これらの設定については、「 [一般設定](../../migration/using/general-configurations.md) 」の節で説明しています。
 
-## 特定の設定 {#specific-configurations}
+## 固有の設定 {#specific-configurations}
 
-また、Adobe Campaign v7で発生した変更は、以前のバージョンで開発された特定の設定を適応させる必要があることを意味する場合もあります。 したがって、移行前に、すべての設定に関する監査を実行する必要がある場合があります。不明な点はAdobe Campaignにお問い合わせください。
+Adobe Campaignv7で引き起こされた変更は、以前のバージョンで開発された特定の設定を適応させる必要があることを意味する場合もあります。 したがって、移行前に、すべての設定に関する監査を実行する必要がある場合があります。adobe campaignにお問い合わせください。
 
-例えば、Webアプリケーション、SQLdataを使用するスキーマ拡張、または標準搭載のスキーマ・クローン作成に関する特定の設定には特に注意が必要です。 詳しくは、「プラットフォームの設定」 [の節を参照してください](../../migration/using/configuring-your-platform.md) 。
+たとえば、Web アプリケーション、SQLdataを使用するスキーマ拡張機能、またはあらかじめ用意されたスキーマのクローン作成に関する特定の設定には注意が必要です。 詳しくは、「プラットフォームの [設定](../../migration/using/configuring-your-platform.md) 」を参照してください。
 
-同様に、Adobe Campaign内の高められたセキュリティに対応するために、いくつかの内部メカニズムが変更されました。これらの対応する設定を適合させる必要があります。
+同様に、Adobe Campaign内のセキュリティの高まりに対応するために、いくつかの内部メカニズムが修正されています。これらの対応する設定を適用する必要があります。

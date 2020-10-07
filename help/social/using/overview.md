@@ -11,23 +11,23 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 discoiquuid: 9330d4f2-b36d-440d-b56e-b2d4448199b2
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2e18121e4094bc4cb215e5471091810df56b3ef5
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 100%
 
 ---
 
 
 # 概要{#overview}
 
-Social Marketingでは、様々なFacebookページやTwitterアカウントに、受信者のプロファイルに対して配信を送信できます。 Facebookでは、配信コンテンツはページウォール上のパブリケーションの形式で表示され、すべてのページファンのニュースフィードにも表示されます。 Twitterでは、配信コンテンツはツイートとして表示され、アカウントのフォロワーのホームページに表示されます。 また、ダイレクトメッセージを収集したアカウントのフォロワーに送信することもできます。
+ソーシャルマーケティングでは、受信者のプロファイルとは対照的に、様々な Facebook ページや Twitter アカウントに配信を送信できます。Facebook では、配信コンテンツがページウォール上の記事として表示され、すべてのページファンのニュースフィードにも表示されます。Twitter では、配信コンテンツはツイートの形式をとり、アカウントフォロワーのホームページに表示されます。また、自分のフォロワーに、ダイレクトメッセージを送信することもできます。
 
 >[!IMPORTANT]
 >
->Adobe Campaignは、メッセージ配信に関してFacebookやTwitterから伝えられたサービス規約に従うように要求します。
+>Adobe Campaign では、メッセージ配信に関する Facebook および Twitter によるコミュニケーションでのサービス利用条件に従うように要求します。
 >
->パブリケーションを送信する前に、「ワークフローの開始」で説明されている設定手順に従う必 [要がありま](../../social/using/starting-workflows.md)す。
+>パブリケーションを送信する前に、[ワークフローの開始](../../social/using/starting-workflows.md)で説明されている設定手順に従ってください。
 
-この節では、FacebookおよびTwitter配信に固有の要素について説明します。 電子メール配信と同じ要素はすべて、この節で詳 [細に説明します](../../delivery/using/about-email-channel.md)。
+この節では、Facebook および Twitter 配信に関する要素について説明します。E メールの配信と同じすべての要素については、[この節](../../delivery/using/about-email-channel.md)を参照してください。

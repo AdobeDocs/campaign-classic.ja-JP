@@ -11,19 +11,19 @@ audience: installation
 content-type: reference
 topic-tags: hybrid-and-hosted-models
 discoiquuid: cf6dd02f-f493-4a83-ba77-b4544f63cab0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 26%
 
 ---
 
 
 # ハイブリッドモデルとホストモデルについて{#about-hybrid-and-hosted-models}
 
-ホスト型またはハイブリッド型のホスティングモデルを使用している場合は、このドキュメント全体を読む必要はありません。 メインのインストールおよび設定手順はアドビが実行します。 この節では、ホスト型またはハイブリッド型のホスティングモデルがある場合に知る必要がある情報を再グループ化しました。
+ホストまたはハイブリッドのホスティングモデルを使用している場合は、このドキュメント全体を読み取る必要はありません。 メインのインストールおよび設定手順は、Adobeが実行します。 この節では、ホスト型またはハイブリッド型のホスティングモデルがあるかどうかを知る必要のある情報を再グループ化しました。
 
-この節では、様々なホスティングモデルについて説 [明します](../../installation/using/hosting-models.md)。
+この [節では、異なるホスティングモデルについて説明します](../../installation/using/hosting-models.md)。
 
-展開モードの主な違いについて詳しくは、この記事を参照し [てください](https://helpx.adobe.com/campaign/kb/acc-on-prem-vs-hosted.html)。
+デプロイメントモード間の主な違いについて詳しくは、 [この記事を参照してください](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)。

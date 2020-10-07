@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 discoiquuid: da66d640-8504-4dc7-bc4e-1c0ac1d37c37
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 7a0d82dfc6dc50026214d7d3b1094d45ffadbc03
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -142,6 +142,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 >* 新しいウィンドウ (_blank)
 >* 現在のウィンドウ (_self)
 >* ブラウザーのデフォルト動作
+
 >
 
 

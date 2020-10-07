@@ -1,7 +1,7 @@
 ---
-title: ネットワーク構成
-seo-title: ネットワーク構成
-description: ネットワーク構成
+title: ネットワーク設定
+seo-title: ネットワーク設定
+description: ネットワーク設定
 seo-description: null
 page-status-flag: never-activated
 uuid: 17357170-7440-4603-bea6-2e4b9086ae72
@@ -11,26 +11,26 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 639d2f42-e397-4694-942c-b2b8ad94ce9c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 46f5bfb41bfe9c938ac0ffa767ead3e47a32047d
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 6%
 
 ---
 
 
-# ネットワーク構成{#network-configuration}
+# ネットワーク設定{#network-configuration}
 
 ## プロセス間の通信 {#communication-between-processes}
 
-アプリケーションの特定のプロセスは、他のユーザーと通信したり、LANやインターネットにアクセスしたりする必要があります。 つまり、一部のTCPポートは、これらのプロセスで開く必要があります。
+アプリケーションの特定のプロセスは、他のユーザーと通信したり、LANやインターネットにアクセスしたりする必要があります。 これは、一部のTCPポートをこれらのプロセスで開く必要があることを意味します。
 
-Adobe Campaignプラットフォームの様々なアプリケーションサーバー間での内部通信には、埋め込みApache tomcatポートを優先順位（デフォルトで8080）として使用します。
+Adobe Campaignプラットフォームの様々なアプリケーションサーバー間での内部通信には、埋め込みのApache Tomcatポートを優先度として使用します（デフォルトでは8080）。
 
-### 配信サーバー {#delivery-server}
+### 配信サーバ {#delivery-server}
 
-配信サーバー(**nlserver mta**)の場合、次のポートを開く必要があります。
+配信サーバー(**nlserver mta**)の場合は、次のポートを開く必要があります。
 
 <table> 
  <tbody> 
@@ -52,19 +52,19 @@ Adobe Campaignプラットフォームの様々なアプリケーションサー
   <tr> 
    <td> 38000/tcp（デフォルトポート）<br /> </td> 
    <td> SMSゲートウェイ<br /> </td> 
-   <td> SMSトラフィックをNetSize SMSルータに送信するために使用します。[option]<br /> </td> 
+   <td> SMSトラフィックをNetSize SMSルータ[option]に送信するために使用します。<br /> </td> 
   </tr> 
   <tr> 
    <td> 7777/udp<br /> </td> 
    <td> 統計サーバ<br /> </td> 
-   <td> 統計サーバーへのアクセス。<br /> </td> 
+   <td> 統計サーバーにアクセスする。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 受信メール {#inbound-mail}
 
-受信メールリカバリプロセス(**nlserver inMail**)では、次のポートを開く必要があります。
+受信メール回復プロセス(**nlserver inMail**)では、次のポートを開く必要があります。
 
 <table> 
  <tbody> 
@@ -75,20 +75,20 @@ Adobe Campaignプラットフォームの様々なアプリケーションサー
   </tr> 
   <tr> 
    <td> 110/tcp (pop3)<br /> </td> 
-   <td> 内部メールサーバ<br /> </td> 
+   <td> 内部メールサーバー<br /> </td> 
    <td> POP3トラフィックを使用してバウンスメッセージを取得します。<br /> </td> 
   </tr> 
   <tr> 
    <td> 25/tcp (smtp)<br /> </td> 
-   <td> 内部メールサーバ<br /> </td> 
-   <td> 事前定義されたルールで自動的に処理されない残りのバウンスメッセージを送信するSMTPトラフィック。<br /> </td> 
+   <td> 内部メールサーバー<br /> </td> 
+   <td> 事前定義済みのルールで自動的に処理されない残りのバウンスメッセージを送信するSMTPトラフィック。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Application server {#application-server}
+### アプリケーションサーバー {#application-server}
 
-アプリケーションサーバー(**nlserver web**)の場合は、次のポートを開く必要があります。
+アプリケーションサーバー(**nlserver web**)の場合、次のポートを開く必要があります。
 
 <table> 
  <tbody> 
@@ -100,16 +100,16 @@ Adobe Campaignプラットフォームの様々なアプリケーションサー
   <tr> 
    <td> 80/tcp (http)<br /> 443/tcp (https)<br /> </td> 
    <td> 任意の場所<br /> </td> 
-   <td> HTTPまたはHTTPSトラフィック（配信品質オファーを含む）。<br /> </td> 
+   <td> HTTPまたはHTTPSトラフィック(配信品質オファー用を含む)。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Adobe Campaignプラットフォームの複数のアプリケーションサーバーが相互に通信する必要がある場合は、Apache tomcatサーバーのポートを使用することをお勧めします(デフォルトでは、8080)を、リダイレクトモジュール統合が実行されたWebサーバーのHTTPポートの代わりに使用します。 つまり、これらのサーバ間でポートを開く必要があります。
+Adobe Campaignプラットフォームの複数のアプリケーションサーバーが相互に通信する必要がある場合は、Apache Tomcatサーバーのポートを使用することをお勧めします（デフォルトでは次のようになります）。8080)は、リダイレクトモジュールの統合が行われたWebサーバーのHTTPポートではなく、 これは、これらのサーバ間でポートを開く必要があることを意味します。
 
-### SMS配信状態 {#sms-delivery-status}
+### SMS配信の状態 {#sms-delivery-status}
 
-SMS配信(nlserver sms ****)を追跡するには、次のポートが開いている必要があります。
+SMS配信(**nlserver sms**)を追跡するには、次のポートが開いている必要があります。
 
 <table> 
  <tbody> 
@@ -139,7 +139,7 @@ Adobe Campaignリッチクライアント(**nlclient**)の場合は、次のポ�
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p>443/tcp(https)</p><br /> </td> 
-   <td> Application server<br /> </td> 
+   <td> アプリケーションサーバー<br /> </td> 
    <td> SOAPトラフィック(HTTP)。<br /> </td> 
   </tr> 
  </tbody> 
@@ -147,9 +147,9 @@ Adobe Campaignリッチクライアント(**nlclient**)の場合は、次のポ�
 
 ## データベースアクセス {#database-access}
 
-データベースを使用するすべてのコンポーネントがデータベースに接続できる必要があります。 これは、単独で動作するリダイレクションサーバーと、アプリケーションサーバーとの通信にHTTP（またはHTTPS）のみを使用するシンWin32クライアントを除く、ほとんどのコンポーネントの場合です。
+データベースを使用するすべてのコンポーネントがデータベースに接続できる必要があります。 これは、単独で動作するリダイレクションサーバーと、アプリケーションサーバーとの通信にHTTP（またはHTTPS）のみを使用するシンWin32クライアントを除く、ほとんどのコンポーネントに当てはまります。
 
-デフォルトのポートは次のとおりです。
+デフォルトポートは次のとおりです。
 
 <table> 
  <tbody> 
@@ -180,7 +180,7 @@ Adobe Campaignリッチクライアント(**nlclient**)の場合は、次のポ�
 
 ## 外部アクセス {#external-access}
 
-また、Adobe Campaignから直接実行される電子メールキャンペーンを表示できるように、一部のコンポーネントはパブリックインターネットからアクセスできる必要があります。 つまり、一部のポートをコンポーネント用に開く必要があります。
+また、Adobe Campaignから直接実行される電子メールキャンペーンを表示できるように、一部のコンポーネントはパブリックインターネットからアクセスできる必要があります。 これは、一部のポートをコンポーネント用に開く必要があることを意味します。
 
 ### リダイレクトサーバー {#redirection-server}
 
@@ -192,14 +192,14 @@ Adobe Campaignリッチクライアント(**nlclient**)の場合は、次のポ�
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp(https)</p><br /> </td> 
-   <td> どこでも。 トラッキング対象リンクをクリックするたびに、サーバー上でHTTPリクエストが生成されます。<br /> </td> 
+   <td> どこでも。 追跡対象のリンクをクリックするたびに、サーバー上でHTTPリクエストが生成されます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### 外部Webサーバー {#external-web-server}
 
-このサーバーは、Webフォーム、ミラーページなどをホストします。 次のポートを開く必要があります。
+このサーバは、Web フォーム、ミラーページなどをホストします。 次のポートを開く必要があります。
 
 <table> 
  <tbody> 
@@ -209,7 +209,7 @@ Adobe Campaignリッチクライアント(**nlclient**)の場合は、次のポ�
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp(https)</p><br /> </td> 
-   <td> どこでも。 WebフォームがAdobe Campaignプラットフォームから直接管理される場合や、ミラーページが使用される場合に必要です。<br /> </td> 
+   <td> どこでも。 Web フォームがAdobe Campaignプラットフォームから直接管理される場合、またはミラーページが使用される場合に必要です。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -224,14 +224,14 @@ Adobe Campaignリッチクライアント(**nlclient**)の場合は、次のポ�
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp(https)</p><br /> </td> 
-   <td> シンクライアントまたはリッチクライアントを実行するすべてのコンピュータ。<br /> </td> 
+   <td> シンクライアントまたはリッチクライアントを実行しているすべてのコンピュータ。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Adobe Experience Managerとの統合 {#integration-with-adobe-experience-manager}
 
-Adobe CampaignとAdobe Experience Managerの統合では、インストールが「オンプレミス」の場合、複数のポートを開く必要があります。 この統合の設定について詳しくは、詳細なドキュメントを参照 [してください](../../integrations/using/about-adobe-experience-manager.md)。
+Adobe CampaignとAdobe Experience Managerの間の統合では、インストールが「オンプレミス」の場合は複数のポートを開く必要があります。 この統合の設定について詳しくは、 [詳細なドキュメントを参照してください](../../integrations/using/about-adobe-experience-manager.md)。
 
 <table> 
  <tbody> 
@@ -241,20 +241,20 @@ Adobe CampaignとAdobe Experience Managerの統合では、インストールが
   </tr> 
   <tr> 
    <td> 80<br /> </td> 
-   <td> Adobe CampaignへのAEM接続<br /> </td> 
+   <td> AEMAdobe Campaignへの接続<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 4502</p><p> 4503</p><br /> </td> 
-   <td> AEMの「オーサリング」インスタンスと「発行」インスタンスへのAdobe Campaignの接続。 開くポートは、AEMの設定に応じて、デフォルトのポートと異なる場合があります。<br /> </td> 
+   <td> AEM 「オーサリング」および「発行」インスタンスへのAdobe Campaign接続。 AEMの設定によっては、開くポートがデフォルトのポートと異なる場合があります。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 帯域幅 {#bandwidth}
 
-考慮するネットワーク構成の別のキーパラメーター。 ほとんどの場合、送信され、電子メールのブロードキャスト中は需要が多くなります。 以下に、当社の経験に基づく設定の例を示します。
+考慮するネットワーク構成の別のキーパラメータ。 ほとんどの場合、アウトバウンドで、電子メール放送の間は需要が多い。 以下は、当社の経験に基づく設定の例です。
 
-* 1時間あたり10,000件のメールに対して1 Mb/秒（平均サイズ30 Kb）
-* 1時間あたり100,000通のメールに対して8～10 Mb/秒（平均サイズ30 Kb）
+* 1時間あたり10,000件のメールに対して1 Mb/秒（平均サイズは30 Kb）
+* 1時間あたり100,000件の電子メールに対して8 ～ 10 Mb/秒（平均サイズは30 Kb）
 
 帯域幅に制約がある場合は、需要が低い夜にキャンペーンを実行するようにスケジュールできます。

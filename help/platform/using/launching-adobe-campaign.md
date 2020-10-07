@@ -14,11 +14,11 @@ discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 84f06afb36aa6a9fa13db1fda7034389b762eb99
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 28f56534a57e675e42a417acfbf9b1a3053250a8
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 82%
 
 ---
 
@@ -93,11 +93,23 @@ Adobe Campaign から切断するには、アイコンバーの最初のアイ�
 
 **[!UICONTROL ヘルプ／バージョン情報...]** メニューから、次の情報にアクセスできます。
 
-* **バージョン**&#x200B;番号
-* **ビルド**&#x200B;番号
-* Adobe Campaign サポートに連絡するためのリンク
+* **version** number
+* **ビルド** 番号
+* adobeカスタマーケアに連絡するためのリンク
+* adobeのプライバシーポリシー、利用条件、cookieポリシーへのリンク
 
-   >[!CAUTION]
-   >
-   >アドビサポートチームに連絡する場合は、Campaign クライアントコンソールおよびアプリケーションサーバーのバージョン番号とビルド番号を伝える必要があります。
+![](assets/about-acc.png)
 
+アドビサポートチームに連絡する場合は、Campaign クライアントコンソールおよびアプリケーションサーバーのバージョン番号とビルド番号を伝える必要があります。
+
+Gold Standard [キャンペーンで実行している場合は](../../rn/using/gold-standard.md)、「 **[!UICONTROL About]** 」ボックスに表示されるSHA/1文字も共有する必要があります。 例えば、Gold **Standard 10リリースの場合**、ビルド番号には **、次のように** build 9032@efd8a94（ビルド）と表示されます。
+
+![](assets/about-acc-gs.png)
+
+Learn more about Gold Standard [in this article](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html).
+
+**関連トピック**：
+
+* [キャンペーンサポートオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support)
+* [ソフトウェア配布](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html)
+* [Experience Cloudサポートとエキスパートセッション](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

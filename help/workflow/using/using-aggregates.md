@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 9ca649b4-2226-4cfe-bae1-4632c421975b
-index: y
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
+translation-type: tm+mt
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '668'
+ht-degree: 100%
 
 ---
 
@@ -60,6 +60,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
    * 集計に関係する一時なスキーマを選択します。このスキーマのデータは、メインセットのメンバーに追加されます。
    * 「**[!UICONTROL 単純結合を使用]**」を選択して、メインセットのすべての受信者に集計結果をリンクします。
    * 最後に、リンクが「**[!UICONTROL タイプ 11 シンプルリンク]**」となるように指定します。
+
    ![](assets/datamanagement_usecase_3.png)
 
 これにより、集計結果がすべての受信者とリンクします。
@@ -80,6 +81,7 @@ source-git-commit: c10a0a11c6e9952aa47da1f7a15188c79c62508d
 
    * **[!UICONTROL 式]**：`toDate([target/@created])`。
    * **[!UICONTROL 値]**：`toDate([datemax/expr####])`。ここで、expr#### は、集計機能のクエリで指定した集計と関連があります。
+
    ![](assets/datamanagement_usecase_4.png)
 
 この結果、「分割」アクティビティで得られる結果は、最新の既知の作成日付と同じ日付に作成された受信者と関連性があります。

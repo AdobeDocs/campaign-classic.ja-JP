@@ -1,7 +1,7 @@
 ---
-title: Oracleデータベースのエンコード
-seo-title: Oracleデータベースのエンコード
-description: Oracleデータベースのエンコード
+title: Oracle データベースのエンコード
+seo-title: Oracle データベースのエンコード
+description: Oracle データベースのエンコード
 seo-description: null
 page-status-flag: never-activated
 uuid: 34bc9135-c655-4ee1-a6cd-3f96b0fc43e4
@@ -11,15 +11,15 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: ff465a00-0233-4872-ab2d-472d5a1c88bb
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 63%
 
 ---
 
 
-# Oracleデータベースのエンコード{#encoding-of-the-oracle-database}
+# Oracle データベースのエンコード{#encoding-of-the-oracle-database}
 
-Adobe Campaignでは、デフォルトのOracleエンコーディングが使用されます。 異なる互換性を使用すると、非互換性が発生する場合があります。 詳しくは、[この節](../../installation/using/database.md#oracle)を参照してください。
+Adobe Campaignでは、デフォルトのOracleエンコーディングが使用されます。 異なるものを使用すると、非互換性が発生する可能性があります。 詳しくは、[この節](../../installation/using/database.md#oracle)を参照してください。

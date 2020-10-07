@@ -11,11 +11,11 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 discoiquuid: b65e8d27-f427-464e-ad42-51c0a88eee86
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 3%
 
 ---
 
@@ -24,11 +24,11 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 ## 原則 {#principles}
 
-スキーマを編集、作成および設定するには、Adobe Campaignクライアントコ **[!UICONTROL Administration > Configuration > Data schemas]** ンソールのノードをクリックします。
+スキーマを編集、作成および設定するには、Adobe Campaignクライアントコンソールの **[!UICONTROL 管理/設定/データスキーマ]** ノードをクリックします。
 
 >[!NOTE]
 >
->デフォルトのデータスキーマは、Adobe Campaign Classicコンソールの管理者のみが削除できます。
+>そのまま使用できるデータスキーマは、Adobe Campaign Classicコンソールの管理者のみが削除できます。
 
 ![](assets/d_ncs_integration_schema_navtree.png)
 
@@ -38,9 +38,9 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
 >[!NOTE]
 >
->「名前」編集コントロールを使用すると、名前と名前空間で構成されるスキーマキーを入力できます。 スキーマのルート要素の「name」属性と「namespace」属性は、スキーマのXML編集ゾーンで自動的に更新されます。
+>「名前」編集コントロールを使用すると、名前と名前空間で構成されるスキーマキーを入力できます。 スキーマのルート要素の「name」属性と「名前空間」属性は、スキーマのXML編集ゾーンで自動的に更新されます。
 
-プレビューによって、拡張スキーマが自動的に生成されます。
+プレビューは、拡張スキーマを自動的に生成します。
 
 ![](assets/d_ncs_integration_schema_edition2.png)
 
@@ -48,16 +48,16 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 >
 >ソーススキーマを保存すると、拡張スキーマの生成が自動的に開始されます。
 
-スキーマの構造全体を確認する必要がある場合は、「プレビュー」タブを使用できます。 スキーマが拡張されると、そのすべての拡張を視覚化できます。 「ドキュメント」タブには、すべてのスキーマ属性と要素、およびそのプロパティ（SQLフィールド、タイプ/長さ、ラベル、説明）が表示されます。 「ドキュメント」タブは、生成されたスキーマにのみ適用されます。 For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.
+スキーマの完全な構造を確認する必要がある場合は、「プレビュー」タブを使用できます。 スキーマを拡張すると、そのすべての拡張を視覚化できます。 補完的に、「ドキュメント」タブには、すべてのスキーマ属性と要素、およびそのプロパティ（SQLフィールド、タイプ/長さ、ラベル、説明）が表示されます。 「ドキュメント」タブは、生成されたスキーマにのみ適用されます。 For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.
 
 ## 例：契約表の作成 {#example--creating-a-contract-table}
 
-次の例では、Adobe Campaignデータベースのデータベースモデル **に** 、契約の新しい表を作成します。 この表には、各契約の所有者および共有者の姓と名と電子メールアドレスを保存できます。
+次の例では、Adobe Campaignデータベースのデータベースモデルに **契約の新しい表を作成します** 。 次の表に、各契約の所有者および共有者の姓と名と電子メールアドレスを格納します。
 
-これを行うには、テーブルのスキーマを作成し、対応するテーブルを生成するようにデータベース構造を更新する必要があります。 次のような流れになります。
+これを行うには、テーブルのスキーマを作成し、対応するテーブルを生成するためにデータベース構造を更新する必要があります。 次のような流れになります。
 
-1. Adobe Campaignツリー **[!UICONTROL Administration > Configuration > Data schemas]** のノードを編集し、をクリックしま **[!UICONTROL New]** す。
-1. オプションを選 **[!UICONTROL Create a new table in the data model]** 択し、をクリックしま **[!UICONTROL Next]** す。
+1. Adobe Campaignツリーの **[!UICONTROL 管理/設定/データスキーマ]** (Data Designations **[!UICONTROL )ノードを編集し、「]** 新規」をクリックします。
+1. 「 **[!UICONTROL Create a new table in the data model]** 」オプションを選択し、「 **[!UICONTROL Next]** 」をクリックします。
 
    ![](assets/s_ncs_configuration_create_new_schema.png)
 
@@ -67,9 +67,9 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
    >[!NOTE]
    >
-   >デフォルトでは、ユーザーが作成したスキーマは&#39;cus&#39;名前空間に保存されます。 詳しくは、「スキーマの識別」 [を参照してください](../../configuration/using/about-schema-reference.md#identification-of-a-schema)。
+   >デフォルトでは、ユーザーが作成したスキーマは「cus」名前空間に保存されます。 詳しくは、「スキーマの [ID](../../configuration/using/about-schema-reference.md#identification-of-a-schema)」を参照してください。
 
-1. テーブルのコンテンツを作成します。 入力ウィザードを使用して、設定が見つからないことを確認することをお勧めします。 これを行うには、ボタンをク **[!UICONTROL Insert]** リックし、追加する設定のタイプを選択します。
+1. テーブルのコンテンツを作成します。 設定が足りないことを確認するために、入力ウィザードを使用することをお勧めします。 これを行うには、「 **[!UICONTROL 挿入]** 」ボタンをクリックし、追加する設定のタイプを選択します。
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 
@@ -91,7 +91,7 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
    </srcSchema>
    ```
 
-   契約のタイプを追加し、契約番号に索引を付けます。
+   契約追加の種類と、契約番号にインデックスを付けます。
 
    ```
    <srcSchema _cs="Contracts (cus)" desc="Active contracts" entitySchema="xtk:srcSchema" img="ncm:channels.png"
@@ -125,5 +125,5 @@ source-git-commit: 20f835c357d016643ea1f3209ee4dfb6d3239f90
 
    ![](assets/s_ncs_configuration_structure.png)
 
-1. データベース構造を更新して、スキーマがリンクされるテーブルを作成します。 詳しくは、「データベース構造の更 [新」を参照してください](../../configuration/using/updating-the-database-structure.md)。
+1. データベース構造を更新して、スキーマがリンクされるテーブルを作成します。 For more on this, refer to [Updating the database structure](../../configuration/using/updating-the-database-structure.md).
 

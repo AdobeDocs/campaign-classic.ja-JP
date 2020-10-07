@@ -9,14 +9,11 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 discoiquuid: 0af1fd96-48ef-43c9-a03b-0f9a6e0e02fe
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eccf0e9899426c2517748c7a72611ff098291cd2
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +39,7 @@ Adobe Campaign と統合できるアドビのソリューションとコアサ�
 
 環境によっては、Adobe Experience Cloud に複数のソリューションをリンクすることができます。これらは組織としてリンクされます。**組織**&#x200B;とは、管理者がグループとユーザーを設定し、Experience Cloud でのシングルサインオンを制御できるエンティティのことです。組織は、すべての Experience Cloud 製品およびソリューションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
-組織管理と Adobe Experience Cloud アカウントのリンク付けについて詳しくは、[Adobe Experience Cloud ヘルプポータル](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)で説明しています。
+組織管理と Adobe Experience Cloud アカウントのリンク付けについて詳しくは、[Adobe Experience Cloud ヘルプポータル](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html)で説明しています。
 
 >[!CAUTION]
 >

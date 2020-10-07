@@ -11,11 +11,8 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 discoiquuid: 9834638f-a8bb-4969-9f8d-99b8d9fdb1ca
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f8d36b9fca9624500c5273eb73a1702f077dd60c
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 2%
@@ -172,7 +169,7 @@ ht-degree: 2%
 
    For more on this, refer to [Campaign server configuration](../../installation/using/campaign-server-configuration.md).
 
-1. クライアントコンソールプログラム(**setup-client-7.XX**、YYYY **.exe（v7の場合）または** setup-client-6.YYYY **.exe(** YYYYの場合).exe ******** v6.exe(akeng/jsp)をコピーし、eng/jspフォルダーを作成します。
+1. クライアントコンソールプログラム(**setup-client-7.XX**、YYYY **.exe（v7の場合）または** setup-client-6.YYYY **.exe(** YYYYの場合).exe v6. ******** exe(akeng/jsp)をコピーし、eng/jspフォルダーを作成します。
 
    この点について詳しくは、以下の節を参照してください。
 

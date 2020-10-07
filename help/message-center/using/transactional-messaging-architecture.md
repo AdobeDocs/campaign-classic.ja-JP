@@ -9,11 +9,8 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 discoiquuid: a910d5fe-cef4-47d8-b3bc-0055ef0d1afd
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e6f8eb6f4ffc3ffe9dbc643cf0edeef439c0f969
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 100%
@@ -179,6 +176,7 @@ LINE チャネルとトランザクションメッセージを組み合わせる
    * **[!UICONTROL ラベル]**&#x200B;および&#x200B;**[!UICONTROL 内部名]**：必要に応じて外部アカウントに名前を付けます。
    * **[!UICONTROL タイプ]**：「**[!UICONTROL 外部データベース]**」を選択します。
    * 「**[!UICONTROL 有効]**」ボックスをオンにする必要があります。
+
    **[!UICONTROL 接続]**&#x200B;カテゴリで、以下の設定をおこないます。
 
    * **[!UICONTROL タイプ]**：データベースサーバー（例：PostgresSQL）を選択します。
@@ -201,6 +199,7 @@ LINE チャネルとトランザクションメッセージを組み合わせる
    * **[!UICONTROL ラベル]**&#x200B;および&#x200B;**[!UICONTROL 内部名]**：必要に応じて外部アカウントに名前を付けます。
    * **[!UICONTROL タイプ]**：「**[!UICONTROL 外部データベース]**」を選択します。
    * 「有効」ボックスをオンにする必要があります。
+
    **[!UICONTROL 接続]**&#x200B;カテゴリで、以下の設定をおこないます。
 
    * **[!UICONTROL タイプ]**：「**[!UICONTROL リモートデータベースへの HTTP リレー]**」を選択します。
@@ -217,11 +216,13 @@ LINE チャネルとトランザクションメッセージを組み合わせる
    * **[!UICONTROL ラベル]**&#x200B;および&#x200B;**[!UICONTROL 内部名]**：必要に応じて外部アカウントに名前を付けます。
    * **[!UICONTROL タイプ]**：**[!UICONTROL 実行インスタンス]**&#x200B;を選択します。
    * 「有効」ボックスをオンにする必要があります。
+
    **[!UICONTROL 接続]**&#x200B;カテゴリで、以下の設定をおこないます。
 
    * **[!UICONTROL URL]**：実行インスタンスの URL を入力します。
    * **[!UICONTROL アカウント]**：実行インスタンスへのアクセスに使用するアカウントを入力します。
    * **[!UICONTROL パスワード]**：実行インスタンスへのアクセスに使用するアカウントのパスワードを入力します。
+
    **[!UICONTROL アカウント接続方法]**&#x200B;カテゴリで、以下の設定をおこないます。
 
    * **[!UICONTROL 方法]**：「**[!UICONTROL Federated Data Access（FDA）]**」を選択します。

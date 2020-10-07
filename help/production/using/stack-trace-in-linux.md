@@ -1,7 +1,7 @@
 ---
-title: Linuxでのスタックトレース
-seo-title: Linuxでのスタックトレース
-description: Linuxでのスタックトレース
+title: Linux でのスタックトレース
+seo-title: Linux でのスタックトレース
+description: Linux でのスタックトレース
 seo-description: null
 page-status-flag: never-activated
 uuid: d839df47-902f-4b92-bc78-536fc4fb6c98
@@ -11,28 +11,29 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 60f306ea-4593-4e56-896e-8933277ee26a
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9482a99c3be164651b3428179388cb0a8a75783f
+source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 14%
 
 ---
 
 
-# Linuxでのスタックトレース{#stack-trace-in-linux}
+# Linux でのスタックトレース{#stack-trace-in-linux}
 
-スタック **トレースは** 、コアタイプファイルに含まれるト **レース** を表します。 このファイルは、マシンエラーが発生した場合に生成されます。 エラーの原因を特定できます。
+ス **タックトレース** は、 **コア** 型ファイルに含まれるトレースを表します。 このファイルは、マシンエラーのイベントで生成されます。 エラーの接触チャネルを識別できます。
 
 >[!NOTE]
 >
->* コアフ **ァイルは** 、 **core.`<num>`**.という名前です。
->* **gdb - GNU Debuggerは** 、マシンにインストールする必要があります。
+>* **コア** ・ファイルの名前は **core.`<num>`**.です。
+>* **gdb - GNUデバッガは** 、マシンにインストールする必要があります。
+
 >
 
 
 
-Adobe Campaignテクニカルサポートから、このスタックトレースを要 **求されます**。 これを取得するには、Linuxで次のコマンドを入力します。
+Adobe Campaignのテクニカルサポートから、この **スタックトレースを要求されます**。 これを取得するには、Linuxで次のコマンドを入力します。
 
 ```
 su - neolane
@@ -59,7 +60,7 @@ gdb nlserver <coreFile>
 #16 0x5565918a in clone () from /lib/tls/libc.so.6
 ```
 
-Adobe Campaignテクニカルサポートから、特定の実行可能ファイル（アドビから提供されるファイル）を使用してこのコマンドを実行するように求められる場合があります。
+Adobe Campaignのテクニカルサポートから、特定の実行可能ファイル（アドビから提供されるファイル）を使用してこのコマンドを実行するように求められる場合があります。
 
 この場合は、 **nlserver** をAdobe Campaignが提供する実行可能ファイルに置き換えて、次のコマンドを実行します。
 
@@ -67,7 +68,7 @@ Adobe Campaignテクニカルサポートから、特定の実行可能ファイ
 gdb nlserver <coreFile>
 ```
 
-次に例を示します。
+例：
 
 ```
 gdb nlserver.1823 <coreFile>

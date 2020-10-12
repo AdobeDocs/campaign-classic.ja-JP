@@ -11,9 +11,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1318'
 ht-degree: 100%
 
@@ -137,7 +137,7 @@ iOS SDK のビルド 1.0.26 が利用できるようになりました。この�
 
 * **データ読み込み (RDBMS)** ワークフローアクティビティで、「**リンクされたテーブルを追加**」フィールドが空の場合に、クラッシュが発生する問題を修正しました。（NEO-12213）
 * ミッドソーシングサーバーで特定のメッセージが処理されない可能性がある問題を修正しました。（NEO-12395）
-* Teradata で query band オプションを使用する際のデータベースクリーンアップワークフローの問題を修正しました。（NEO-12399）
+* Teradata で query banding オプションを使用する際のデータベースクリーンアップワークフローの問題を修正しました。（NEO-12399）
 * ne.jp ドメインを含むタイポロジルールを使用した配信分析に影響する問題を修正しました。（NEO-12609）
 * より制限的な証明書ポリシーを必要とする TLS による SMS の更新に関連する問題を修正しました。これらの更新により、古い証明書が使用されている場合、マーケティングサーバーとミッドソーシングサーバー間の接続に失敗する可能性があります。（NEO-17698）
 * Vault 認証を使用するミッドソーシング環境において、外部アカウントの「**接続をテスト**」ボタンを使用する際の問題を修正しました。（NEO-12722）

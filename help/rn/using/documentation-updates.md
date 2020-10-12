@@ -9,9 +9,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3720'
 ht-degree: 100%
 
@@ -402,7 +402,7 @@ Google Cloud Messaging（GCM）から Firebase Cloud Messaging（FCM）への An
 
 Campaign ハードウェアのサイズ設定ガイドが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)
 
-Teradata 外部アカウントの Query Band に関する情報が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#External_database_external_account)
+Teradata 外部アカウントの Query Banding に関する情報が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#External_database_external_account)
 
 ## 2019 年 1 月{#release-doc-16-01-2019}
 

@@ -11,9 +11,9 @@ audience: rn
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 79a6d3cf-2425-49b9-9b92-b56be26438bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> Query Banding<br /> </td> 
-   <td> <p>複数のキャンペーンユーザーが同じ FDA Teradata 外部アカウントに接続したときに、各ユーザーに固有のクエリバンド（キー/値のペア）を渡すことができるようになりました。Campaign ユーザーが Teradata データベースに対してクエリを実行するたびに、Adobe Campaign はそのユーザーに関連付けられたメタデータを送信できます。これらのデータはキーと値のリストで構成されており、Teradata 管理者が監査目的やアクセス権限の管理などに利用できます。</p><p>詳しくは、<a href="https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#Teradata_external_account">詳細ドキュメント</a>を参照してください。</p> </td>
+   <td> <p>複数のキャンペーンユーザーが同じ FDA Teradata 外部アカウントに接続したときに、各ユーザーに固有の query band（キー/値のペア）を渡すことができるようになりました。Campaign ユーザーが Teradata データベースに対してクエリを実行するたびに、Adobe Campaign はそのユーザーに関連付けられたメタデータを送信できます。これらのデータはキーと値のリストで構成されており、Teradata 管理者が監査目的やアクセス権限の管理などに利用できます。</p><p>詳しくは、<a href="https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#Teradata_external_account">詳細ドキュメント</a>を参照してください。</p> </td>
   </tr> 
  </tbody> 
 </table>

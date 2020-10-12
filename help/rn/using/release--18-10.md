@@ -11,9 +11,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2371'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 * ワークフローをインポートする際に Microsoft Dynamics で作成されたダミーレコードを削除できるようになりました。
 * ファイルコレクターワークフローアクティビティで、ファイルへのアクセスが拒否された場合にエラーがループして記録される問題を修正しました。（NEO-12085）
-* ユーザーアクティビティと、開封数配達指標のトラッキングレポートの間で、レポートに違いが発生していた問題を修正しました。（NEO-11742）
+* ユーザーアクティビティと、開封数配信指標のトラッキングレポートの間で、レポートに違いが発生していた問題を修正しました。（NEO-11742）
 * 内部アカウントを使用する際にセキュリティゾーンパッケージを実行するための権限が改善されました。
 * mtachild ログでエラーが発生する原因となっていた問題を修正しました。（NEO-8978）
 

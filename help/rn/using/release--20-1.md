@@ -9,9 +9,9 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1344'
 ht-degree: 100%
 
@@ -196,6 +196,6 @@ _2020 年 2 月 17 日_
 
 * **バージョン情報**&#x200B;メニューに誤ったバージョンタグ番号が表示される問題を修正しました。
 
-* ワークフローで定期的な配信のプロパティからルーティングアカウントを更新しようとすると発生していた問題を修正しました。（NEO-18684）
+* ワークフローで繰り返し配信のプロパティからルーティングアカウントを更新しようとすると発生していた問題を修正しました。（NEO-18684）
 
 * リダイレクトモジュールを使用してインスタンスに接続する際、接続を閉じても接続が正しく消去されない問題を修正しました。

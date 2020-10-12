@@ -2,9 +2,9 @@
 keywords: Campaign Classic;home;popular topics
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e765777d79df28ae306d02512851b1b3f49018d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -17,7 +17,8 @@ ht-degree: 100%
 
 ## 新着情報
 
-* **[顔文字](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>メッセージと件名に顔文字を挿入できるようになりました。
+* **[顔文字](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>
+メッセージと件名に顔文字を挿入できるようになりました。
 
 * **[サポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)**<br/>
 FAQ、ベストプラクティス、ヘルプリソースにアクセスし、サポートをリクエストできます。
@@ -28,7 +29,8 @@ Adobe Campaign がプライバシーコンプライアンスの遵守に役立�
 * **[トラッキング機能](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html)**<br/>
 Campaign のトラッキング機能とプロセスについて説明します。
 
-* **[AMP を使用したインタラクティブコンテンツ](delivery/using/defining-interactive-content.md)**<br/>新しい AMP 形式で動的な E メールを送信する方法について説明します。
+* **[AMP を使用したインタラクティブコンテンツ](delivery/using/defining-interactive-content.md)**<br/>
+新しい AMP 形式で動的な E メールを送信する方法について説明します。
 
 [更新情報についてはここをクリック](/help/rn/using/documentation-updates.md)
 

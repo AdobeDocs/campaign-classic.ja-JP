@@ -1,22 +1,22 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Classicガイド
-breadcrumb-title: Campaign Classic Guide
+user-guide-title: Adobe Campaign Classic ガイド
+breadcrumb-title: Campaign Classicガイド
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: Design, plan, execute, manage, and optimize cross-channel marketing campaigns that deliver a high return on marketing investment.
+user-guide-description: チャネル間のマーケティングキャンペーンを設計、計画、実行、管理、最適化して、マーケティング投資に対する高い利益率をもたらします。
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '2119'
-ht-degree: 98%
+source-wordcount: '2139'
+ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign Classic Guide {#using}
+# Adobe Campaign Classic ガイド {#using}
 
 + [製品ドキュメント](campaign-classic-home.md)
 + [最新の更新](rn/using/documentation-updates.md)
@@ -36,7 +36,7 @@ ht-degree: 98%
       + [互換性マトリックス](rn/using/compatibility-matrix.md)
 + はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
-      + [Adobe Campaign Classicを使い始める](platform/using/about-adobe-campaign-classic.md)
+      + [Adobe Campaign Classic の基本を学ぶ](platform/using/about-adobe-campaign-classic.md)
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
       + [Adobe Campaign の起動](platform/using/launching-adobe-campaign.md)
       + [Adobe Campaign ワークスペース](platform/using/adobe-campaign-workspace.md)
@@ -265,7 +265,7 @@ ht-degree: 98%
       + [ユースケース：オンライン調査への回答に関するレポートの表示](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Web コンテンツの設計 {#designing-content}
    + Web アプリケーション {#web-applications}
-      + [Webアプリケーションの概要](web/using/about-web-applications.md)
+      + [Web アプリケーションの基本を学ぶ](web/using/about-web-applications.md)
       + [新しい Web アプリケーションの作成](web/using/creating-a-new-web-application.md)
       + [Web アプリケーションの設計](web/using/designing-a-web-application.md)
       + [ユースケース：概要の作成](web/using/use-cases--creating-overviews.md)
@@ -341,7 +341,7 @@ ht-degree: 98%
       + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
 + ワークフローによる自動化 {#automating-with-workflows}
    + はじめに {#introduction}
-      + [ワークフローを使い始める](workflow/using/about-workflows.md)
+      + [ワークフローの基本を学ぶ](workflow/using/about-workflows.md)
       + [アクティビティについて](workflow/using/about-activities.md)
    + 運用全般 {#general-operation}
       + [ワークフローの作成](workflow/using/building-a-workflow.md)
@@ -477,7 +477,7 @@ ht-degree: 98%
       + [ミッドソーシング転送](workflow/using/transfer-to-mid-sourcing.md)
       + [ミッドソーシングプラットフォーム](workflow/using/mid-sourcing-platform.md)
 + オファーの管理 {#managing-offers}
-   + Get started with Interaction {#interaction-overview}
+   + インタラクションの基本を学ぶ {#interaction-overview}
       + [インタラクションとオファーの管理](interaction/using/interaction-and-offer-management.md)
       + [用語集](interaction/using/glossary.md)
       + [インタラクションのベストプラクティス](interaction/using/interaction-best-practices.md)
@@ -529,7 +529,7 @@ ht-degree: 98%
       + [アウトバウンドチャネル](interaction/using/offers-on-an-outbound-channel.md)
 + トランザクションメッセージ {#transactional-messaging}
    + はじめに {#introduction}
-      + [トランザクションメッセージの概要](message-center/using/about-transactional-messaging.md)
+      + [トランザクションメッセージの基本を学ぶ](message-center/using/about-transactional-messaging.md)
       + [トランザクションメッセージのアーキテクチャ](message-center/using/transactional-messaging-architecture.md)
       + [イベントの説明](message-center/using/event-description.md)
    + インスタンスの設定 {#instance-configuration}

@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '3720'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 98%
 
 ## 2020 年 9 月 {#september-2020}
 
-アクティブなプロファイル数がマーケティングインスタンスでのみ使用できることを示す注記が追加されました。 [詳細を表示](../../platform/using/about-profiles.md#active-profiles)
+アクティブなプロファイルの数がマーケティングインスタンスでのみ使用できることを示す注記が追加されました。[詳細を表示](../../platform/using/about-profiles.md#active-profiles)
 
-フィールドを既存の参照テーブルにリンクするための、スキーマ版に関する新しいサンプルを追加しました。 [詳細を表示](../../configuration/using/examples-of-schemas-edition.md#uc-link)
+フィールドを既存の参照テーブルにリンクするための、スキーマエディションに関する新しいサンプルが追加されました。[詳細を表示](../../configuration/using/examples-of-schemas-edition.md#uc-link)
 
-配信内のシードアドレスでの追加のデータの使用に関する注記が追加されました。 [詳細を表示](../../delivery/using/creating-seed-addresses.md#defining-addresses)
+配信内のシードアドレスでの追加データの使用に関する注記が追加されました。[詳細を表示](../../delivery/using/creating-seed-addresses.md#defining-addresses)
 
 ## 2020 年 8 月 {#aug-2020}
 
@@ -99,9 +99,9 @@ Campaign Classic のプライバシー管理ページが更新され、「規則
 
 Experience Cloud Triggers と Adobe Campaign Classic の統合ページは、[こちら](../../integrations/using/about-triggers.md)に移動されました。
 
-## july 2020 {#release-20-2}
+## 2020 年 7 月 {#release-20-2}
 
-**20.2リリースに含まれる新機能**
+**20.2 リリースに含まれる新機能**
 
 顔文字のサポート - [詳細を表示](../../delivery/using/customizing-emoticon-list.md)
 
@@ -115,7 +115,7 @@ Azure Synapse FDA コネクタ - [詳細を表示](../../platform/using/specific
 
 パーソナライズされた URL からダウンロードした画像と添付ファイルを含む E メールを送信するときに制限を設定できる新しいオプションが、Campaign Classic オプションのリストに追加されました。[詳細を表示](../../installation/using/configuring-campaign-options.md#delivery)
 
-新しい「**データベース内で配信部分を準備**」オプションについてはは、[この節](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis)に記載されています。
+新しい「**データベースで配信パートを準備**」オプションについては、[こちら](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis)を参照してください。
 
 配信の検証の節が明確になり、更新されました。[詳細を表示](../../delivery/using/steps-validating-the-delivery.md)
 
@@ -187,7 +187,7 @@ E メールのアーカイブの節が改善されました。[詳細を表示](
 
 ## 2020 年 1 月{#release-20-1}
 
-**20.1リリースに含まれる新機能**
+**20.1 リリースに含まれる新機能**
 
 Snowflake FDA コネクタ - [詳細を表示](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)
 
@@ -255,7 +255,7 @@ FDA のマトリックスページは、[ここ](../../platform/using/remote-dat
 
 AMP でインタラクティブコンテンツを定義する方法について説明する節が移動されました。[詳細を表示](../../delivery/using/defining-interactive-content.md)
 
-**19.2リリースに含まれる新機能**
+**19.2 リリースに含まれる新機能**
 
 カリフォルニア州消費者プライバシー法（CCPA） - [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)
 
@@ -327,7 +327,7 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 ## 2019 年 5 月 {#release-19-1}
 
-**19.1リリースに含まれる新機能**
+**19.1 リリースに含まれる新機能**
 
 コントロールパネル - [詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
 

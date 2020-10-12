@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b9577d190f26e21f116d99d48fdf2bca84585d50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1444'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
    <tr>
   <td>SMS コネクタ<br></td>
-  <td><p> キャンペーン20.2リリース以降、次のSMSコネクタは非推奨となりました。<p>
+  <td><p> Campaign 20.2 リリースより、次の SMS コネクタは非推奨（廃止予定）になります。<p>
    <ul>
    <li>NetSize</li>
    <li>一般的な SMPP（バイナリモードをサポートする SMPP バージョン 3.4）</li>
@@ -66,7 +66,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
  </tr>
   <tr>  
    <td>FAX チャネル<br></td>
-   <td><p>キャンペーン20.2リリース以降、Faxチャネルは非推奨となります。</p> 
+   <td><p>Campaign 20.2 リリースより、FAX チャネルは非推奨（廃止予定）になります。</p> 
    <p>このチャネルを使用する場合は、それに応じて実装を適応させる必要があります。Campaign チャネルの<a href="../../delivery/using/steps-about-delivery-creation-steps.md">詳細情報</a>を参照してください。</p>
    <p><em>削除予定日：2021 年</em></p></td>
   </tr>
@@ -129,11 +129,11 @@ Campaign Classic では、次のシステムが非推奨（廃止予定）にな
 
 ### Adobe Campaign 20.2 リリース {#compat-20-2-release}
 
-20.2リリース以降、次のシステムはCampaign Classicに使用されなくなりました。 互換性は20.3リリース（2020年10月）で終了します。
+20.2 リリースより、Campaign Classic は次のシステムが非推奨（廃止予定）になります。互換性の維持は 20.3 リリース（2020 年 10 月）で終了します。
 
 * クライアントコンソール：Windows 7
-* レガシーSMSコネクタ — [廃止された機能を参照してください](#deprecated-features)
-* Federated Data Access用DB2 UDB 10.5 (FDA)
+* レガシー SMS コネクタ ‐ [廃止された機能](#deprecated-features)を参照してください
+* Federated Data Access（FDA）用 DB2 UDB 10.5
 
 ### Adobe Campaign 19.2 リリース {#compat-19-2-release}
 

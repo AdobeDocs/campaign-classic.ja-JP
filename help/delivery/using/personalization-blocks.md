@@ -43,7 +43,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_personalized_block01.png)
 
-1. **[!UICONTROL その他...]**&#x200B;メニューを使用すると、すべての標準パーソナライゼーションブロックとカスタムパーソナライゼーションブロックにアクセスできます（[標準パーソナライゼーションブロック](#out-of-the-box-personalization-blocks)および[カスタムパーソナライゼーションブロックの定義 ](#defining-custom-personalization-blocks)を参照）。
+1. 「**[!UICONTROL その他...]**」メニューを使用すると、すべての標準パーソナライゼーションブロックとカスタムパーソナライゼーションブロックにアクセスできます（[標準パーソナライゼーションブロック](#out-of-the-box-personalization-blocks)および[カスタムパーソナライゼーションブロックの定義](#defining-custom-personalization-blocks)を参照）。
 
    ![](assets/s_ncs_user_personalized_block02.png)
 

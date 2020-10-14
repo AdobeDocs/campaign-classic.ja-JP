@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: profile-management
 discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 91%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on the block list, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). このようなプロファイルは、どのチャネルの配信（E メール、ダイレクトメールなど）のターゲットにもなりません。詳しくは、[このページ](../../delivery/using/understanding-quarantine-management.md)を参照してください。
+>When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on denylist, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). このようなプロファイルは、どのチャネルの配信（E メール、ダイレクトメールなど）のターゲットにもなりません。詳しくは、[このページ](../../delivery/using/understanding-quarantine-management.md)を参照してください。
 
 ## 「連絡先情報」タブ{#contact-information-tab}
 

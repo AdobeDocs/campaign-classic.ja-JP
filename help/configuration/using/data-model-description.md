@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
 source-wordcount: '2380'
 ht-degree: 2%
@@ -52,7 +52,7 @@ Adobe Campaignは、相互にリンクされたテーブルを含むリレーシ
 * iEmailFormat:電子メールに適した形式（テキストには1、HTMLには2、未定義の場合は0）。
 * 住所1、sAddress2、sAddress3、sAddress4、sZipCode、sCityを使用して、住所を作成します（1997年5月のXPZ 10-011 AFNOR標準に準拠）。
 * sPhone、sMobilePhone、sFaxには、それぞれ電話番号、携帯電話番号、FAX番号が含まれます。
-* iBlockListは、プロファイルに使用されるデフォルトのオプトアウトフラグです（1は「登録解除」、0はそれ以外）。
+* iBlackListは、プロファイルに使用されるデフォルトのオプトアウトフラグです（1は「登録解除」、0はそれ以外）。
 
 iFolderIdフィールドは、受信者を実行フォルダーにリンクする外部キーです。 For more on this, see [XtkFolder](#XtkFolder).
 
@@ -185,7 +185,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 * Response rate of the control group: **dProofReactedRate**. 仮説コントロール母集団の回答率。
 * Total revenue of population contacted: **dContactReactedTotalAmount**. 仮説内のターゲットとなる連絡先の総売上高。
 * Average revenue of control group: **dContactReactedAvgAmount**. 仮説内のターゲットコントロール母集団の連絡先の平均売上高。
-* Total revenue of the control group: **dProofReactedTotalAmount**. 仮説コントロール母集団の合計売上高.
+* Total revenue of the control group: **dProofReactedTotalAmount**. 仮説コントロールグループの合計売上高.
 * Average revenue of control group: **dProofReactedAvgAmount**. 仮説コントロール母集団の平均売上高。
 * Total margin per contact: **dContactReactedTotalMargin**. 仮説のコンタクト先あたりの合計マージン.
 * Average margin per contact: **dContactReactedAvgMargin**. 仮説内でターゲット設定された、連絡先あたりの平均利益。

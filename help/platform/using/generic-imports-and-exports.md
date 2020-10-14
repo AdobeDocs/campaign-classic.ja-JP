@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '534'
+ht-degree: 96%
 
 ---
 
@@ -40,11 +40,11 @@ Adobe Campaign には、顧客または（例えば、ターゲティング操�
 >
 >Campaign でのデータのインポートはデータの一貫性を確保し、効率性を向上させるために、ワークフロー経由で実行するようにしてください。詳しくは、[データのインポート](../../workflow/using/importing-data.md)、[インポートのベストプラクティス](../../workflow/using/importing-data.md#best-practices-when-importing-data)、[インポートテンプレートの例](../../workflow/using/importing-data.md#setting-up-a-recurring-import)の各節を参照してください。
 
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](../../platform/using/exporting-and-importing-profiles.md#import-profiles-video)
+
 ## ジョブテンプレートの作成 {#creating-a-job-template}
 
 インポートおよびエクスポートテンプレートは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／テンプレート／ジョブテンプレート]**&#x200B;ディレクトリに保存されています。
-
-![](assets/s_ncs_user_export_wizard_template.png)
 
 このディレクトリには、デフォルトで 3 つのインポートテンプレートと 1 つのエクスポートテンプレートがあります。これらを変更することはできません。これらを複製して独自のテンプレートを作成するか、**[!UICONTROL 新規／インポートテンプレート]**&#x200B;または&#x200B;**[!UICONTROL エクスポートテンプレート]**&#x200B;メニューを使用して新しいテンプレートを作成できます。
 
@@ -54,7 +54,7 @@ Adobe Campaign には、顧客または（例えば、ターゲティング操�
 
 >[!NOTE]
 >
->ネイティブテンプレート **[!UICONTROL のインポートブロックリスト]** は、ブロックリストに追加された電子メールアドレスのリストをインポートするように既に設定されています。
+>The native template **[!UICONTROL Import denylist]** is already configured to import a list of email addresses which were added to the denylist.
 > 
 >「**[!UICONTROL 新しいテキストのインポート]**」および「**[!UICONTROL 新しいテキストのエクスポート]**」テンプレートを使用して、インポートまたはエクスポートをゼロから設定することができます。
 

@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: appendices
 discoiquuid: 9c1884f6-1dd8-41ab-b8dc-604c8cc2dc89
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
 source-wordcount: '3930'
 ht-degree: 24%
@@ -94,7 +94,7 @@ ht-degree: 24%
    <td> 配信メッセージを正規化するための正規表現.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NmsBroadcast_RemoveBlockList</span> <br /> </td> 
+   <td> <span class="uicontrol">NmsBroadcast_RemoveBlackList</span> <br /> </td> 
    <td> 値に「1」を入力すると、連絡を希望しない受信者を除外できます。<br /> </td> 
   </tr> 
   <tr> 
@@ -686,7 +686,7 @@ ht-degree: 24%
    <td> 移行中、ツリー構造は、新しいバージョン標準に基づいて自動的に再編成されます。<br /> このオプションを使用すると、ナビゲーションツリーの自動移行を無効にできます。 使用する場合は、移行後に古いフォルダーを削除する必要があります。新しいフォルダーを追加し、必要なチェックをすべて実行します。<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">データタイプ：</span> 整数</p> </li> 
-     <li> <p> <span class="uicontrol">値（テキスト）</span> :3 </p> </li> 
+     <li> <p> <span class="uicontrol">値（テキスト）</span> :1 </p> </li> 
     </ul> このオプションは、標準搭載のナビゲーションツリーに加えられた変更が多すぎる場合にのみ使用してください。<br /> 詳しくは、 <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">この節を参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 

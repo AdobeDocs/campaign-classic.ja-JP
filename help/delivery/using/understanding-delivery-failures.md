@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 78b58a7a-b387-4d5d-80d5-01c06f83d759
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '2501'
-ht-degree: 95%
+source-wordcount: '2491'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 95%
 
 メッセージの送信後、配信ログによって各プロファイルの配信ステータスと、関連するエラーのタイプおよび理由を確認できます。
 
-アドレスが隔離された場合やブロックリスト上にプロファイルがある場合は、配信の準備中にメッセージを除外することもできます。 除外されたメッセージのリストは、配信ダッシュボードに表示されます。
+アドレスが隔離された場合やプロファイルが配信中の場合は、メッセージの準備中にを除外するこブロックリストともできます。 除外されたメッセージのリストは、配信ダッシュボードに表示されます。
 
 **関連トピック：**
 
@@ -83,10 +83,10 @@ ht-degree: 95%
    <td> このアドレスの品質評価が低すぎます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> ブロックリストの住所 </td> 
+   <td> ブロックリスト登録済みアドレス </td> 
    <td> ハード </td> 
    <td> 8 </td> 
-   <td> 送信時にブロックリストにアドレスが追加されました。 This status is used for importing data from external lists and external systems into the Adobe Campaign Quarantine list.<br /> </td> 
+   <td> 送信時にアドレスがブロックリストに追加されました。 This status is used for importing data from external lists and external systems into the Adobe Campaign Quarantine list.<br /> </td> 
   </tr> 
   <tr> 
    <td> 制御アドレス </td> 
@@ -204,7 +204,7 @@ ht-degree: 95%
    >
    >バウンスメールボックスの設定については、[この節](../../installation/using/deploying-an-instance.md#managing-bounced-emails)で詳しく説明しています。
 
-   The [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) operates like bounce emails. ユーザーが E メールをスパムとみなしたら、Adobe Campaign で E メールルールを設定して、このユーザーへのすべての配信をブロックできます。E メールをスパムとみなしたユーザーに送信されたメッセージは、この目的用に特別に作成された E メールボックスに自動的にリダイレクトされます。これらのユーザーのアドレスは、購読解除のリンクをクリックしなかった場合でもブロックリスト上に表示されます。 アドレスは、(**NmsAddress**)強制隔離テーブルのブロックリスト上にあり、(**NmsRecipient**)受信者テーブルにはありません。
+   The [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) operates like bounce emails. ユーザーが E メールをスパムとみなしたら、Adobe Campaign で E メールルールを設定して、このユーザーへのすべての配信をブロックできます。E メールをスパムとみなしたユーザーに送信されたメッセージは、この目的用に特別に作成された E メールボックスに自動的にリダイレクトされます。これらのユーザーのアドレスは、購読解除のリンクをクリックしブロックリストなかった場合でも、上にあります。 Addresses are in denylist in the (**NmsAddress**) quarantine table and not in the (**NmsRecipient**) recipient table.
 
    >[!NOTE]
    >

@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: sending-emails
 discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 93%
+source-wordcount: '1587'
+ht-degree: 91%
 
 ---
 
@@ -151,6 +151,7 @@ Gmail アカウントに対して AMP フォーマットで配信をテストす
 現在、次の2つの手順でAMP電子メールの送信をテストできます。
 
 1. Adobe Campaign では、適切に設定された E メールアドレスに対して AMP を利用した動的な E メールを配信し、その内容と動作を検証できます。[選択したアドレスに対する AMP E メール配信のテスト](#testing-amp-delivery-for-selected-addresses)を参照してください。
+
 1. テストが完了すると、送信者ドメインを許可リストに追加するように、関連する電子メールプロバイダーに登録することで、配信またはキャンペーンを電子メールプログラム用のAMPの一部として送信できます。 [E メールロバイダーへの登録と AMP E メールの配信](#delivering-amp-emails-by-registering)を参照してください。
 
 ### 選択したアドレスに対する AMP E メール配信のテスト {#testing-amp-delivery-for-selected-addresses}
@@ -161,7 +162,7 @@ Adobe Campaign から選択した E メールアドレスへの動的なメッ�
 >
 >現在、AMP フォーマットのテストは、Gmail、Outlook および Mail.ru でのみサポートされています。
 
-Gmail および Outlook の場合、まずはターゲットとする Gmail および Outlook アカウント用に Adobe Campaign からの配信に使用する送信者のアドレスを許可リストに登録する必要があります。
+GmailおよびOutlookの場合、まず、対象とするGmailおよびOutlookアカウントのAdobe Campaignから配信するために使用する送信者アドレスを許可リストに追加する必要があります。
 
 手順は次のとおりです。
 1. 該当する E メールプロバイダーに対して、動的な E メールを有効にするオプションがオンになっていることを確認します。

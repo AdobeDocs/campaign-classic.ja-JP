@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: web-forms
 discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 100%
+source-wordcount: '996'
+ht-degree: 91%
 
 ---
 
@@ -51,11 +51,11 @@ ht-degree: 100%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. この配信の受信者は、承認を確認していないので、まだデータベースでブロックリストに登録されています。この通信を受信するには、ブロックリスト上のターゲット受信者に対して、このテンプレートに基づいて配信を承認する必要があります。
+1. この配信の受信者は、まだ承認を確認していないため、データベース・ブロックリスト上に存在します。 この通信を受け取るには、このテンプレートに基づく配信をターゲットの受信者にブロックリスト承認する必要があります。
 
    これを実行するには、「**[!UICONTROL 除外]**」タブをクリックします。
 
-1. 「**[!UICONTROL 編集]**」リンクをクリックし、「**[!UICONTROL 今後連絡を希望しない受信者を除外（ブロックリスト）]**」オプションのチェックをオフにします。
+1. 「**[!UICONTROL 編集]**」リンクをクリックし、「**[!UICONTROL 今後連絡を希望しない受信者を除外 (ブラックリスト)]**」オプションのチェックをオフにします。
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
@@ -109,10 +109,10 @@ Web フォームのワークフローには、次のアクティビティが含�
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   最初の&#x200B;**[!UICONTROL スクリプト]**&#x200B;アクティビティは、受信者がニュースレターの購読を確認するまで、受信者をブロックリストに追加します。このアクティビティの内容は、次のようにする必要があります。
+   The first **[!UICONTROL Script]** activity will add recipients on denylist until they confirmed their subscription to the newsletter. このアクティビティの内容は、次のようにする必要があります。
 
    ```
-   ctx.recipient.@blockList=1
+   ctx.recipient.@blackList=1
    ```
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
@@ -120,7 +120,7 @@ Web フォームのワークフローには、次のアクティビティが含�
    2 つ目の「**[!UICONTROL スクリプト]**」アクティビティでは、ユーザーに送信される配信を承認し、ユーザーによるニュースレターの購読の登録をおこないます。スクリプトの最後の 2 行を使用して、受信者を一時フォルダーから別のフォルダーに転送できます。また、これらの行は、受信者が購読を確認するとすぐに既存のプロファイルと紐付けられます。
 
    ```
-   ctx.recipient.@blockList=0
+   ctx.recipient.@blackList=0
    nms.subscription.Subscribe("INTERNAL_NAME_OF_THE_NEWSLETTER", ctx.recipient, false)
    ctx.recipient.folder = <folder name="nmsRootRecipient"/>
    nms.subscription.Unsubscribe("TEMP", ctx.recipient)
@@ -172,7 +172,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   ユーザーは、Adobe Campaign データベースの **[!UICONTROL Temp]** フォルダーに追加され、プロファイルがブロックリストに登録されます。この登録は、ユーザーが E メールによる購読確認を完了するまで続きます。
+   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is on denylist until they confirm their subscription with the email.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
@@ -186,7 +186,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
    Adobe Campaign では、ユーザープロファイルが更新されます。
 
-   * ブロックリストから削除されます。
+   * 彼らはもうブロックリストにいない
    * 情報サービスの購読が登録されます。
 
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)

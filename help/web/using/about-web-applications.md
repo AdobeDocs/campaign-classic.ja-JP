@@ -1,6 +1,6 @@
 ---
 title: Web アプリケーションについて
-description: 動的なWeb アプリケーション、ランディングページ、調査を作成および共有します。
+description: 動的 Web アプリケーション、ランディングページ、調査を作成および共有します。
 page-status-flag: never-activated
 uuid: acfa6e5e-b503-4a1a-871e-e70007874f57
 contentOwner: sauviat
@@ -13,12 +13,12 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '715'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Webアプリケーションの概要{#about-web-applications}
+# Web アプリケーションの概要{#about-web-applications}
 
 Adobe Campaign では、データベースのデータを使用して動的でインタラクティブな Web アプリケーションの作成とパブリッシュをおこなったり、接続ユーザーの権限に応じたコンテンツを作成したりできます。
 

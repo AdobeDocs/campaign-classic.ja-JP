@@ -1,6 +1,6 @@
 ---
 title: Campaign 統合について
-description: 他のAdobeソリューションを使用して、キャンペーンとさまざまな機能を組み合わせます。
+description: アドビの各ソリューションが提供する様々な機能を Campaign と組み合わせることができます。
 page-status-flag: never-activated
 uuid: 087abdf0-b4b2-45e6-be21-b03bf85ddf83
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,11 +43,11 @@ Adobe Campaign と統合できるアドビのソリューションとコアサ�
 
 >[!CAUTION]
 >
->Adobe Campaign を新規にインストールする場合、または既存のインストールを Adobe Experience Cloud に統合する場合、[Experience Cloud ID サービス](https://docs.adobe.com/content/help/en/id-service/using/home.html)は有効になっています。このサービスは、Adobe Campaign がトラッキング機能のために最初に使用した永続 Cookie を置き換えます。
+>Adobe Campaign を新規にインストールする場合、または既存のインストールを Adobe Experience Cloud に統合する場合、[Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.translate.html)は有効になっています。このサービスは、Adobe Campaign がトラッキング機能のために最初に使用した永続 Cookie を置き換えます。
 >
 >次に、固有の訪問者 ID が受信者に割り当てられ、トラッキングログが生成されます。この ID は **[!UICONTROL nms:trackingLogRcp]** テーブルの「**[!UICONTROL リクエスター UUID (@sourceID)]**」フィールドに保存されます。そのため、訪問者 ID サービスが実装される前に存在していた受信者のトラッキングデータは、これ以降使用することはできません。
 >
->この ID は、他の Adobe Experience Cloud ソリューションに同じ [CNAME](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) で認識されます。
+>この ID は、他の Adobe Experience Cloud ソリューションに同じ [CNAME](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/analytics-reference/cname.html) で認識されます。
 
 ## Experience Cloud との統合 {#experience-cloud-integrations}
 

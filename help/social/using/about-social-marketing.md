@@ -1,6 +1,6 @@
 ---
 title: ソーシャルマーケティングについて
-description: キャンペーンを使用してFacebookやTwitter経由で顧客とやり取りする方法を説明します。
+description: Campaign を使用して、Facebook や Twitter 経由で顧客とやり取りする方法を説明します。
 page-status-flag: never-activated
 uuid: 64c861e3-b685-44e2-9b5b-4fbf5d70baa9
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 

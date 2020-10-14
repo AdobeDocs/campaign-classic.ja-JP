@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '3626'
+source-wordcount: '3620'
 ht-degree: 5%
 
 ---
@@ -452,7 +452,7 @@ sh
 >
 >このリストは完全なものではありません。
 
-サーバ設定ファイルの **exec** ノードで、blocklistFile **** 属性で、以前に作成したファイルを参照する必要があります。
+サーバ設定ファイルの **exec** ノードで、前に作成したファイルをblacklistFile **** 属性で参照する必要があります。
 
 **Linuxの場合のみ**:サーバー構成ファイルで、セキュリティ構成を強化するために、外部コマンドの実行専用のユーザーを指定するように再コマンドします。 このユーザは、設定ファイルの **exec** ノードで設定されます。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
 
@@ -464,7 +464,7 @@ sh
 
 ```
 <serverConf>
- <exec user="theUnixUser" blocklistFile="/pathtothefile/blocklist"/>
+ <exec user="theUnixUser" blacklistFile="/pathtothefile/blacklist"/>
 </serverConf>
 ```
 

@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1355'
+ht-degree: 85%
 
 ---
 
@@ -47,38 +47,38 @@ MX 設定について詳しくは、[この節](../../installation/using/email-d
 
 問題が解決されない場合は、商用または配信品質サービス、Adobe Campaign クライアントケア、または Adobe Campaign サポートにお問い合わせください。
 
-## ブロックリストと強制隔離 {#block-list-versus-quarantine}
+## ブロックリスト対強制隔離 {#denylist-versus-quarantine}
 
-* **ブロックリスト上の電子メールアドレスと検疫済みの電子メールアドレスの違いは何ですか。**
+* **上の電子メールアドレスと隔離された電子メールアドレスの違いについて教えてください。**
 
-   * The status **[!UICONTROL On block list]** is a result of a feedback loop (when a person reports a message as spam).
+   * The status **[!UICONTROL Denylisted]** is a result of a feedback loop (when a person reports a message as spam).
 
    * **[!UICONTROL 強制隔離]**&#x200B;というステータスは、ソフトバウンスまたはハードバウンスの結果です。
-   詳しくは、[この節](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-block-list)を参照してください。
+   詳しくは、[この節](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)を参照してください。
 
 * **様々な強制隔離エラーの原因は何を意味しますか。**
 
-   考えられる理由は10つあります。未定義、ユーザー不明、無効なドメイン、ブロックリスト上のアドレス、拒否、エラー無視、未到達、アカウント無効、メールボックスがいっぱい、未接続
+   考えられる理由は10つあります。未定義、ユーザー不明、無効なドメイン、ブロックリスト時、拒否、エラー無視、未到達、アカウント無効、メールボックスフル、未接続
 
    詳しくは、[強制隔離管理の理解](../../delivery/using/understanding-quarantine-management.md)を参照してください。
 
-## ブロックリストからの削除 {#remove-from-block-list}
+## ブロックリストからの削除 {#remove-from-denylist}
 
-* **私の受信者の1つが誤ってブロックリストに追加された。 メッセージを再度送信する際に開始を使用できるように、ブロックリストからメッセージを削除する方法を教えてください。**
+* **私の受信者の1つが誤ってブロックリストに加えられた。 How do I remove them from the denyist so that I can start sending them messages again?**
 
    * **[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信不能件数およびアドレス]**&#x200B;に移動します。
    * 対応するレコードの詳細で、「**[!UICONTROL ステータス]**」フィールドの値を「**[!UICONTROL 有効]**」にします。
    * レコードを保存します。
 
-* **IPの1つがブロックリスト上にあるかどうかを調べるにはどうすればよいですか。 IPをブロックリストから削除する方法を教えてください。**
+* **IPの1つがブロックリスト上にあるかどうかを調べるには、どうしたらよいですか。 IPをから削除する方法を教えてブロックリストください。**
 
    IPアドレスがブロックリスト上にあるかどうかを確認するには、次のような様々なWebサイトを使用して確認します。
    * [MX Toolbox](https://mxtoolbox.com/)
    * [IPアドレスは何か](https://whatismyipaddress.com)
 
-   通常、IPアドレスの確認の結果、ブロックリストの詳細と、IPアドレスをブロックしたWebサイトの名前を含むリストが返されます。
+   通常、IPアドレスの確認の結果、リストの詳細と、IPアドレスを拒否したブロックリストWebサイトの名前を含むが返されます。
 
-   対応するリンクをクリックすると、Web サイトの詳細にアクセスできます。その後、IPアドレスをブロックリストに追加したWebサイトのリストからWebサイトを削除するように要求できます。
+   対応するリンクをクリックすると、Web サイトの詳細にアクセスできます。その後、IPアドレスを追加したWebサイトのリストからWebサイトを削除するように要求ブロックリストできます。
 
    >[!NOTE]
    >

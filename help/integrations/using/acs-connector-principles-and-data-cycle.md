@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: acs-connector
 discoiquuid: 64d87bea-2376-4684-ac93-6ca56fe0f262
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
 source-wordcount: '2052'
 ht-degree: 100%
@@ -216,15 +216,15 @@ ACS コネクタに関連するすべての技術要素は、エクスプロー�
   </tr> 
   <tr> 
    <td> 今後の連絡は不要 (すべてのチャネル)<br /> </td> 
-   <td> @blockList<br /> </td> 
+   <td> @blackList<br /> </td> 
   </tr> 
   <tr> 
    <td> 今後の E メールによる連絡は不要<br /> </td> 
-   <td> @blockListEmail<br /> </td> 
+   <td> @blackListEmail<br /> </td> 
   </tr> 
   <tr> 
    <td> 今後の SMS による連絡は不要<br /> </td> 
-   <td> @blockListMobile<br /> </td> 
+   <td> @blackListMobile<br /> </td> 
   </tr> 
   <tr> 
    <td> 電話<br /> </td> 

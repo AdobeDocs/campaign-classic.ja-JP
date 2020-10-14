@@ -1,7 +1,7 @@
 ---
 title: 通信チャネル
 seo-title: 通信チャネル
-description: 様々なチャネルーでパーソナライズされたメッセージを送信する配信を作成します。
+description: 様々なチャネルでパーソナライズされたメッセージを送信するための配信を作成します。
 seo-description: null
 page-status-flag: never-activated
 uuid: 42975431-64c9-4ecb-98ed-b1f9b13c157e
@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '1190'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

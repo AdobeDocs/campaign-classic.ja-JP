@@ -1,7 +1,7 @@
 ---
 title: Adobe Campaign Classic について
 seo-title: Adobe Campaign Classic について
-description: Discoverの主な機能、ユーザーインターフェイス、およびグローバルガイドラインを確認します。
+description: 主な機能、ユーザーインターフェイス、グローバルガイドラインについて説明します。
 seo-description: null
 page-status-flag: never-activated
 uuid: 2d0160fa-8328-4ff9-ab91-56e4058f8a99
@@ -15,12 +15,12 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Get Started with Campaign Classic{#about-adobe-campaign-classic}
+# Campaign Classic の概要{#about-adobe-campaign-classic}
 
 高いレベルの顧客エンゲージメントを実現し、優れたエクスペリエンスを提供するには、あらゆる顧客接点で一貫したカスタマージャーニーを用意する必要があります。最新のマーケティングソリューションを利用すれば、マーケティング ROI の最大化とロイヤリティの強化を実現するクロスチャネルのマーケティングキャンペーンを効率的に設計、計画、展開、管理、最適化することができます。
 

@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: api
 discoiquuid: e7b3ffca-c85f-498d-89b4-23fcff59de49
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '638'
+ht-degree: 4%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->サービス名をパラメーターとして指定しない場合、受信者は自動的にブロックリスト上(@ブロックリスト=&quot;1&quot;)に表示されます。
+>サービス名をパラメーターとして指定しない場合、受信者は自動的にブロックリスト(@blackList=&quot;1&quot;)に表示されます。
 
 この呼び出しは、エラー以外のデータを返しません。
 

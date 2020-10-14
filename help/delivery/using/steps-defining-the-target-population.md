@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '1725'
-ht-degree: 100%
+source-wordcount: '1723'
+ht-degree: 98%
 
 ---
 
@@ -152,7 +152,7 @@ ht-degree: 100%
 
       ![](assets/s_ncs_user_wizard_email02j.png)
 
-* **[!UICONTROL 今後連絡を希望しない受信者を除外]**：ブロックリストに記載された E メールアドレスを持つ（オプトアウトした）受信者を除外します。E マーケティングのビジネス倫理を尊重し、E コマースを規制する法律を遵守するために、このオプションは必ずオンにしておいてください。
+* **[!UICONTROL 連絡を取りたくない受信者]** (電子メールアドレスがブロックリスト(「オプトアウト」)の受信者など)を除外します。 E マーケティングのビジネス倫理を尊重し、E コマースを規制する法律を遵守するために、このオプションは必ずオンにしておいてください。
 * **[!UICONTROL 強制隔離された受信者を除外]**：プロファイルに入力されているアドレスからの応答がないターゲットを除外します。このオプションは必ずオンにしておくことをお勧めします。
 
    >[!NOTE]

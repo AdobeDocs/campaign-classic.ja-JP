@@ -10,17 +10,17 @@ content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 6a394eeb-fbe1-4712-bb13-db5d7965fb73
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 90%
+source-wordcount: '550'
+ht-degree: 91%
 
 ---
 
 
 # 評価の向上{#improve-reputation}
 
-受信者を疲弊させるのを避けるために、重複した E メールアドレスをターゲットから削除します。この手順は、送信レピュテーションを保護し、適切な強制隔離管理をおこなうためのものです。Adobe Campaignオファーは、これらの推奨を実装し、ISPによってブロックリストに追加されるリスクを回避するために必要なツールを提供します。
+受信者を疲弊させるのを避けるために、重複した E メールアドレスをターゲットから削除します。この手順は、送信レピュテーションを保護し、適切な強制隔離管理をおこなうためのものです。Adobe Campaignオファーは、これらの推奨を実装し、ISPによるに追加されブロックリストるリスクを回避するために必要なツールを提供します。
 
 可能な限り重複を避けるために、以下を実施する必要があります。
 

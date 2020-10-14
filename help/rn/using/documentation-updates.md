@@ -7,13 +7,13 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
-topic-tags: latest-release-notes
+topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '3720'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d06cc9c090e2ad8b72ce3192a26108ec213ba549
+workflow-type: tm+mt
+source-wordcount: '3711'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 このページには、毎月および Campaign の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
 
 その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
+
+## 2020 年 10 月 {#oct-2020}
+
+レガシーバイナリプロトコルからHTTP/2ベースのAPNsプロバイダーAPIに移行する方法の詳細に関する新しいテクノチュートが作成されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
 ## 2020 年 9 月 {#september-2020}
 
@@ -94,8 +98,6 @@ Campaign Classic のプライバシー管理ページが更新され、「規則
 強制隔離されたアドレスの削除の節が更新されました。これには、アドレスが強制隔離リストから自動的に削除される場合の明確な説明も含まれます。[詳細を表示](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
 コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)および[](../../workflow/using/importing-data.md#use-case-gpg-decrypt)復号化の方法に関する使用例が追加されました。
-
-「ホワイトリスト」と「ブラックリスト」の両方の用語が Adobe Campaign ドキュメントから削除されました。これらの用語は、製品 UI、オプション名、内部コードにまだ存在する場合がありますが、今後の Campaign リリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
 
 Experience Cloud Triggers と Adobe Campaign Classic の統合ページは、[こちら](../../integrations/using/about-triggers.md)に移動されました。
 

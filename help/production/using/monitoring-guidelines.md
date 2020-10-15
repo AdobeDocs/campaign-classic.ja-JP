@@ -1,6 +1,6 @@
 ---
 title: 監視のガイドライン
-description: キャンペーンインスタンスとプロセスを監視するためのガイドラインとベストプラクティスを検出します。
+description: Campaign インスタンスとプロセスを監視するためのガイドラインとベストプラクティスを確認します。
 page-status-flag: never-activated
 uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 

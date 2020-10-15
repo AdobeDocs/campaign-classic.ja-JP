@@ -1,9 +1,9 @@
 ---
 audience: end-user
 user-guide-title: Adobe Campaign Classic ガイド
-breadcrumb-title: Campaign Classicガイド
+breadcrumb-title: Campaign Classic ガイド
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: チャネル間のマーケティングキャンペーンを設計、計画、実行、管理、最適化して、マーケティング投資に対する高い利益率をもたらします。
+user-guide-description: チャネルをまたいだマーケティングキャンペーンを設計、計画、実行、管理、および最適化して、高いマーケティング投資回収率を実現します。
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
 source-wordcount: '2139'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

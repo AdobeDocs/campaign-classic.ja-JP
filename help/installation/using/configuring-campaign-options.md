@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: appendices
 discoiquuid: 9c1884f6-1dd8-41ab-b8dc-604c8cc2dc89
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 63b208e5607bdcddaef03292d229847c4b7366f8
 workflow-type: tm+mt
 source-wordcount: '3930'
 ht-degree: 24%
@@ -650,7 +650,7 @@ ht-degree: 24%
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> バックアップとレプリケーションを最適化するために、Microsoft SQL Serverで作業テーブル用に別々のデータベースを構成できます。 このオプションは、一時データベースの名前に対応します。指定した場合、このデータベースに作業テーブルが書き込まれます。 例：「tempdb.dbo」 （名前はドットで終わる必要があります）。</desc> <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">詳細を表示</a> <br /> </td> 
+   <td> バックアップとレプリケーションを最適化するために、Microsoft SQL Serverで作業テーブル用に別々のデータベースを構成できます。 このオプションは、一時データベースの名前に対応します。指定した場合、このデータベースに作業テーブルが書き込まれます。 例：「tempdb.dbo」 （名前はドットで終わる必要があります）。 <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">詳細を表示</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 

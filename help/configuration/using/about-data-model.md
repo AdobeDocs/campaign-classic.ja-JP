@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Classicデータモデルについて
-description: キャンペーンデータモデルの拡張、スキーマの編集、APIの使用などの方法について説明します。
+description: Campaign データモデルの拡張、スキーマの編集、API の使用などの方法について説明します。
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -12,8 +12,8 @@ discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '976'
+ht-degree: 8%
 
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: JS のスクリプトとテンプレート
-seo-title: JS のスクリプトとテンプレート
-description: JS のスクリプトとテンプレート
+title: JavaScript のスクリプトとテンプレート
+seo-title: JavaScript のスクリプトとテンプレート
+description: JavaScript のスクリプトとテンプレート
 seo-description: null
 page-status-flag: never-activated
 uuid: d341a892-dc71-4413-acb8-9cba372b38cf
@@ -14,13 +14,13 @@ discoiquuid: 8867d9c3-2ce4-4611-8c88-ce505c3a01d1
 translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1259'
+ht-degree: 100%
 
 ---
 
 
-# JS のスクリプトとテンプレート{#javascript-scripts-and-templates}
+# JavaScript のスクリプトとテンプレート{#javascript-scripts-and-templates}
 
 スクリプトを使用すると、値を計算したり、プロセス内の異なるタスク間でデータを交換したりできるほか、SOAP コールを使用して個別の操作を実行することが可能です。
 

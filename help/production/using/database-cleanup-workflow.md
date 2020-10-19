@@ -1,8 +1,6 @@
 ---
 title: データベースクリーンアップワークフロー
-seo-title: データベースクリーンアップワークフロー
-description: データベースクリーンアップワークフロー
-seo-description: null
+description: 古いデータが自動的にクリーンアップされる方法を説明します。
 page-status-flag: never-activated
 uuid: a7478641-cdf6-4bd4-9dd7-0c84416c9de6
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: data-processing
 discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2997'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +30,7 @@ ht-degree: 0%
 
 データベースのクリーンアップは次の2つのレベルで構成されます。」をクリックします。
 
-### スケジューラー {#the-scheduler}
+### ワークフロースケジューラー {#the-scheduler}
 
 >[!NOTE]
 >
@@ -53,7 +51,7 @@ ht-degree: 0%
 
 ### デプロイメントウィザード {#deployment-wizard}
 
-**[!UICONTROL デプロイメントウィザード]** ( **[!UICONTROL ツール/詳細]** メニューからアクセス)では、データの保存期間を設定できます。 値は日単位で表します。 これらの値を変更しない場合、ワークフローではデフォルト値が使用されます。
+**[!UICONTROL デプロイメントウィザード]**( **[!UICONTROL ツール/詳細]** メニューからアクセス)では、データの保存期間を設定できます。 値は日単位で表します。 これらの値を変更しない場合、ワークフローではデフォルト値が使用されます。
 
 ![](assets/ncs_cleanup_deployment-wizard.png)
 

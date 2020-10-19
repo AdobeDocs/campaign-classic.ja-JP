@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '2653'
+source-wordcount: '2636'
 ht-degree: 98%
 
 ---
@@ -30,7 +30,6 @@ _2020 年 9 月 15 日_
 
 * nlsrvmod のクラッシュを修正するために、Apache 2.4 のスレッドでの nlsrvmod の使用を改善しました。
 * Azure 外部アカウントと SSL 暗号化でファイル転送アクティビティを使用する場合の問題を修正しました。接続が、HTTPS ではなく HTTP を使用して実行されていました。（NEO-26720）
-* 配信プロパティで、「**[!UICONTROL E メールをアーカイブ]**」オプションの名前が「**[!UICONTROL BCC で E メールを送信]**」に変更され、ユーザーエクスペリエンスが向上しました。
 * ラベルやカテゴリを取得できない URL キャッシュメカニズムに関する問題を修正しました。
 * E メール配信において（不適切な ASCII 文字制御が原因で）ミラーページ URL が正しく定義されなかった問題を修正しました。（NEO-26084）
 * catalina.properties の jarsToSkip リストが更新され、使用されなくなった jar ファイル（iOS 通知）への参照が削除されました。

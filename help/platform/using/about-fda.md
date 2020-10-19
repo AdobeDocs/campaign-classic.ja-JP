@@ -1,8 +1,6 @@
 ---
 title: 外部データベースへのアクセス
-seo-title: 外部データベースへのアクセス
-description: 外部データベースへのアクセス
-seo-description: null
+description: 外部データベースのデータにアクセスして処理する方法を学びます。
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '583'
+ht-degree: 98%
 
 ---
 

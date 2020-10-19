@@ -1,5 +1,5 @@
 ---
-title: データ読み込み (ファイル)
+title: データの読み込み（ファイル）
 description: データ読み込み (ファイル) アクティビティについて説明します。
 page-status-flag: never-activated
 uuid: c064aa23-412e-49b4-a51d-b0e8ca572f2e
@@ -12,13 +12,13 @@ discoiquuid: dcb5b8e8-be38-4d89-908d-f57c2413a9bc
 translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1160'
+ht-degree: 100%
 
 ---
 
 
-# データ読み込み (ファイル){#data-loading-file}
+# データの読み込み（ファイル）{#data-loading-file}
 
 ## 用途 {#use}
 

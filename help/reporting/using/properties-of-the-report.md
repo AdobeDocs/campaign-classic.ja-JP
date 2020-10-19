@@ -1,8 +1,6 @@
 ---
 title: レポートのプロパティ
-seo-title: レポートのプロパティ
-description: レポートのプロパティ
-seo-description: null
+description: レポートプロパティ設定の詳細
 page-status-flag: never-activated
 uuid: 56163f53-d115-45b8-94a5-c173ac4c6533
 contentOwner: sauviat
@@ -12,50 +10,50 @@ content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 5ec88743-be51-438c-9064-dd0196fdd7d3
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b0b9a0714075474bf52c3eed78d45bcef25b44fc
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 100%
+source-wordcount: '480'
+ht-degree: 48%
 
 ---
 
 
 # レポートのプロパティ{#properties-of-the-report}
 
-## 概要 {#overview}
-
-必要に応じて、レポートを完全にパーソナライズしたり、設定したりできます。それには、レポートのプロパティを編集します。レポートのプロパティには、アクティビティ順序チャートの上にある「プロパティ」ボタンをクリックしてアクセスします。
+必要に応じて、レポートを完全にパーソナライズしたり、設定したりできます。それには、レポートのプロパティを編集します。Report properties are accessed via the **[!UICONTROL Properties]** button above the activity sequence chart.
 
 ![](assets/s_ncs_advuser_report_properties_01.png)
 
-## 全般的なプロパティ {#overall-properties}
+一般的なプロパティについては、以下に説明します。 「 **[!UICONTROL パラメーター]**」、「 **[!UICONTROL スクリプト]** 」 **[!UICONTROL タブおよび「スクリプト]** 」タブで設定される高度な機能については、この節で説明 [](../../reporting/using/advanced-functionalities.md)します。
 
-「**[!UICONTROL 一般]**」タブでは、レポートのラベルや関係するスキーマを表示または変更できます。これらの要素は、レポートの作成時に入力します。
+## Generalプロパティ {#overall-properties}
 
-レポートにアクセスするための URL で使用されるので、「**[!UICONTROL 内部名]**」の変更はお勧めしません。
+レポートプロパティの **[!UICONTROL 「一般]** 」タブで、次に示す設定を編集できます。
 
-レポートテンプレートは、レポートの作成時に選択し、後で変更することはできません。
+* レポートのラベルと内部名。 内部 **[!UICONTROL 名は]** 、レポートの最終URLに使用されます。 レポートの作成後は変更しないでください。
 
-レポートに関係するテーブルを変更するには、「**[!UICONTROL ドキュメントタイプ]**」フィールドの右にある「**[!UICONTROL リンクを選択]**」アイコンをクリックします。選択したテーブルで使用可能なフィールドを確認するには、**[!UICONTROL 拡大鏡]**&#x200B;アイコンをクリックします。
+* レポートの作成時に、レポート **フォルダ** (Folder)が選択されます。 ベストプラクティスは、カスタムレポートに [組み込まれているレポートと混在しないように、カスタムレポート専用のフォルダーを作成すること](../../reporting/using/about-campaign-built-in-reports.md)。
 
-![](assets/s_ncs_advuser_report_properties_02.png)
+* レポートの作成時に **ストレージ** が選択されます。 To change the data table of the report, click the **[!UICONTROL Select link]** icon to the right of the **[!UICONTROL Document type]** field.
 
-## レポートのアクセシビリティ {#report-accessibility}
+   ![](assets/s_ncs_advuser_report_properties_02.png)
 
-レポートには、例えば、Web ブラウザーを使用して、Adobe Campaign コンソール以外からアクセスできます。その場合は、次に示すように、レポートへのアクセス制御の設定が必要になることがあります。
+* **アクセス制御** 。 これらの設定については、以下で説明します。
+
+## Controlling access to the report {#report-accessibility}
+
+レポートは、Adobe CampaignコンソールまたはWebブラウザーからアクセスできます。 その場合は、次に示すように、レポートへのアクセス制御の設定が必要になることがあります。
 
 ![](assets/s_ncs_advuser_report_properties_02b.png)
 
-原則としては、次のようになります。
+選択できるオプションは次のとおりです。
 
-* 「**[!UICONTROL 匿名アクセス]**」オプションでは、レポートへの無制限アクセスが可能になります。ただし、操作はできません。
+* **[!UICONTROL 匿名アクセス]**:このオプションを選択すると、レポートへの無制限のアクセスが有効になります。 ただし、操作はできません。
 
-   デフォルトのレポートオペレーター（「webapp」）の権限がレポート要素の表示に使用されます。
+   「webapp」技術演算子の権限は、レポート要素の表示に使用されます。 詳しくは、[この節](../../platform/using/access-management.md#default-operators)を参照してください。
 
-* 「**[!UICONTROL アクセス制御]**」オプションでは、Adobe Campaign オペレーターがログオン後にレポートにアクセスできるようになります。
-* 「**[!UICONTROL 特定のアカウントを使用]**」オプションでは、「**[!UICONTROL オペレーター]**」フィールドで選択したオペレーターの権限でレポートを実行できるようになります。
-
-Web フォームプロパティについては、[このページ](../../web/using/about-web-forms.md)を参照してください。
+* **[!UICONTROL アクセス制御]**:このオプションを選択すると、Adobe Campaign演算子はログオン後にアクセスできます。
+* **[!UICONTROL 特定のアカウント]**:このオプションを使用すると、「 **[!UICONTROL 演算子]** 」フィールドで選択した演算子の権限でレポートを実行できます。
 
 ## レポートのローカライゼーションの管理 {#managing-report-localization}
 
@@ -69,7 +67,7 @@ Web フォームプロパティについては、[このページ](../../web/usi
 
 >[!NOTE]
 >
->詳しくは、[この節](../../web/using/translating-a-web-form.md)の該当する節を参照してください。
+>キャンペーンでのWebページのローカライゼーションについて詳しくは、 [この節を参照してください](../../web/using/translating-a-web-form.md)。
 
 ## HTML レンダリングのパーソナライズ {#personalizing-html-rendering}
 
@@ -80,60 +78,7 @@ Web フォームプロパティについては、[このページ](../../web/usi
 * レポート要素のラベルのデフォルト位置。この位置は、要素ごとにオーバーロードできます。
 * レポートページの生成に使用されるテンプレートまたはテーマ。
 
-Web フォームプロパティについては、[このページ](../../web/using/about-web-forms.md)を参照してください。
-
 ![](assets/s_ncs_advuser_report_properties_08.png)
-
-## 追加設定の定義 {#defining-additional-settings}
-
-「**[!UICONTROL パラメーター]**」タブでは、レポートの追加設定を作成できます。これらの設定は、レポートの呼び出し時に URL 内に渡されます。
-
-Web フォームプロパティについては、[このページ](../../web/using/about-web-forms.md)を参照してください。
-
->[!CAUTION]
->
->セキュリティ上の理由から、これらのパラメーターは慎重に使用する必要があります。
-
-新しい設定を作成するには
-
-1. 「**[!UICONTROL 追加]**」ボタンをクリックし、設定の名前を入力します。
-
-   ![](assets/s_ncs_advuser_report_properties_09a.png)
-
-1. 必要に応じて、設定が必須かどうかを指定します。
-1. 作成する設定の種類を選択します。選択できるのは、**[!UICONTROL フィルター]**&#x200B;または&#x200B;**[!UICONTROL 変数]**&#x200B;です。
-
-   「**[!UICONTROL エンティティをフィルター]**」オプションでは、データベースのフィールドをパラメーターとして使用できます。
-
-   ![](assets/s_ncs_advuser_report_properties_09b.png)
-
-   データの復元は、エンティティレベル **ctx/recipient/@account** で直接おこなわれます。
-
-   「**[!UICONTROL 変数]**」オプションでは、変数を作成または選択できます。変数は、URL のパラメーターとして渡されるほか、フィルターで使用することもできます。
-
-**[!UICONTROL 応答 HTTP ヘッダー]**&#x200B;を使用すると、iframe を使用してレポートのページを HTML ページに含める際のクリックジャックを防ぐことができます。クリックジャックを避けるために、**[!UICONTROL X-Frame-options ヘッダー]**&#x200B;の動作を選択できます。
-
-* **[!UICONTROL なし]**：レポートには **[!UICONTROL X-Frame-options ヘッダー]**&#x200B;は含まれません。
-* **[!UICONTROL 同じ生成源]**：新しいレポートおよび再パブリッシュされたレポートに対してデフォルトで設定されます。ホスト名は、レポートの URL と同じになります。
-* **[!UICONTROL 拒否]**：iframe を使用して HTML ページにレポートを含めることはできません。
-
-![](assets/s_ncs_advuser_report_properties_09c.png)
-
-## 変数の追加 {#adding-variables}
-
-「**[!UICONTROL 変数]**」タブには、レポートに設定されている変数のリストが表示されます。これらの変数は、レポートのコンテキストで公開されており、計算で使用できます。
-
-「**[!UICONTROL 追加]**」ボタンをクリックして、新しい変数を作成します。
-
-変数の定義を表示するには、変数を選択し、「**[!UICONTROL 詳細]**」ボタンをクリックします。
-
-![](assets/s_ncs_advuser_report_properties_10.png)
-
-## スクリプトの参照 {#referencing-scripts}
-
-「**[!UICONTROL スクリプト]**」タブでは、レポートページの呼び出し時にクライアント側やサーバー側で実行される JavaScript コードを参照できます。
-
-クライアント側での通常の実行の場合、参照されるスクリプトは JavaScript で記述されている必要があり、ほとんどのブラウザーとの互換性も必要です。詳しくは、[この節](../../web/using/web-forms-answers.md)を参照してください。
 
 ## エラーページのパーソナライズ {#personalizing-the-error-page}
 
@@ -142,4 +87,3 @@ Web フォームプロパティについては、[このページ](../../web/usi
 テキストを定義し、レポートのローカライゼーションを管理する特定の識別子にそれらのテキストをリンクできます。詳しくは、[ヘッダーやフッターの追加](../../reporting/using/element-layout.md#adding-a-header-and-a-footer)を参照してください。
 
 ![](assets/s_ncs_advuser_report_properties_11.png)
-

@@ -1,6 +1,6 @@
 ---
-title: キャンペーンの調整
-seo-title: キャンペーンの調整
+title: キャンペーンのオーケストレーション
+seo-title: キャンペーンのオーケストレーション
 description: 'null'
 seo-description: 'null'
 page-status-flag: never-activated
@@ -11,11 +11,11 @@ iscontainer: true
 translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '8'
+ht-degree: 100%
 
 ---
 
 
-# キャンペーンの調整{#orchestrate-campaigns}
+# キャンペーンのオーケストレーション{#orchestrate-campaigns}
 

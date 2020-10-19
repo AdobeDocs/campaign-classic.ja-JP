@@ -1,8 +1,6 @@
 ---
 title: LDAP を介した接続
-seo-title: LDAP を介した接続
-description: LDAP を介した接続
-seo-description: null
+description: 'LDAPを使用してキャンペーンにログインする方法を学びます '
 page-status-flag: never-activated
 uuid: 13a426bc-7c34-49e5-ac8e-26d830845f28
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1563db7c-ccb6-46b3-9299-67ec0aedaca0
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 2%
+source-wordcount: '1195'
+ht-degree: 1%
 
 ---
 

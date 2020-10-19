@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: d06cc9c090e2ad8b72ce3192a26108ec213ba549
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '3711'
-ht-degree: 99%
+source-wordcount: '3747'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 99%
 その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
 
 ## 2020 年 10 月 {#oct-2020}
+
+「キャンペーンレポートの高度な機能」の節が強化され、カスタムレポートでURLパラメーターと変数を使用する方法の詳細が示されました。 [詳細を表示](../../reporting/using/advanced-functionalities.md)
+
+レポートのプロパティページは、構成を容易にするために再編成、強化されました。 [詳細を表示](../../reporting/using/properties-of-the-report.md)
 
 レガシーバイナリプロトコルからHTTP/2ベースのAPNsプロバイダーAPIに移行する方法の詳細に関する新しいテクノチュートが作成されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 

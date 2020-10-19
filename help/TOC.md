@@ -8,10 +8,10 @@ product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 100%
+source-wordcount: '2130'
+ht-degree: 99%
 
 ---
 
@@ -304,22 +304,22 @@ ht-degree: 100%
 + Adobe Experience Cloud との統合 {#integrating-with-adobe-experience-cloud}
    + [Campaign 統合について](integrations/using/about-campaign-integrations.md)
    + オーディエンスの共有 {#audience-sharing}
-      + [オーディエンスを  [!DNL Adobe Experience Cloud] と共有する](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [オーディエンスを  [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md) と共有する
       + [アドビへの依頼の送信](integrations/using/submitting-request-to-adobe.md)
       + [での共有オーディエンスの統合の設定 [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [トラブルシューティング](integrations/using/troubleshooting.md)
       + [オーディエンスのインポートおよびエクスポート](integrations/using/importing-and-exporting-audiences.md)
    + アセットの共有 {#asset-sharing}
-      + [アセットを  [!DNL Adobe Experience Cloud] と共有する](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [  [!DNL Assets] へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
+      + [アセットを  [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md) と共有する
+      + [  [!DNL Assets]](integrations/using/configuring-access-to-assets.md) へのアクセスの設定
       + [共有アセットを挿入](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
       + [情報 [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [統合の設定](integrations/using/configuring-the-integration.md)
       + [ [!DNL Experience Manager] ニュースレターの作成](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [  [!DNL Adobe Target] との統合](integrations/using/integrating-with-adobe-target.md)
-      + [  [!DNL Adobe Target] との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md) との統合
+      + [  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md) との統合の設定
       + [動的画像の挿入](integrations/using/inserting-a-dynamic-image.md)
    + Adobe ID を使用した接続 {#connecting-via-an-adobe-id}
       + [情報 [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
@@ -331,7 +331,7 @@ ht-degree: 100%
       + [プロファイルの同期](integrations/using/synchronizing-profiles.md)
       + [オーディエンスの同期](integrations/using/synchronizing-audiences.md)
       + [Web アプリケーションの同期](integrations/using/synchronizing-web-applications.md)
-      + [  [!DNL ACS Connector] のトラブルシューティング](integrations/using/troubleshooting-the-acs-connector.md)
+      + [  [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md) のトラブルシューティング
    + Experience Cloud Triggers {#experience-triggers}
       + [情報 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)
@@ -577,17 +577,16 @@ ht-degree: 100%
       + [Facebook アプリの例](social/using/examples-of-facebook-apps.md)
       + [トラッキング](social/using/tracking.md)
 + Campaign Classic のインストール {#installing-campaign-classic}
-   + アーキテクチャとモデルのホスティング {#architecture-and-hosting-models}
-      + [読み進める前に](installation/using/before-reading.md)
+   + 建築の原則 {#architecture-and-hosting-models}
       + [一般的なアーキテクチャ](installation/using/general-architecture.md)
-      + [モデルのホスティング](installation/using/hosting-models.md)
-   + ハイブリッドモデルとホストモデル {#hybrid-and-hosted-models}
-      + [ハイブリッドモデルとホストモデルについて](installation/using/about-hybrid-and-hosted-models.md)
-      + [ハイブリッドモデル](installation/using/hybrid-model.md)
-      + [ホストモデル](installation/using/hosted-model.md)
-   + 前提条件と推奨事項 {#prerequisites-and-recommendations-}
-      + [開始する前に](installation/using/before-starting.md)
-      + [データベース](installation/using/database.md)
+      + モデルのホスティング{#hosting-models-lp}
+         + [モデルのホスティングについて](installation/using/hosting-models.md)
+         + [ハイブリッドモデル](installation/using/hybrid-model.md)
+         + [ホストモデル](installation/using/hosted-model.md)
+         + [機能マトリックス](installation/using/capability-matrix.md)
+   + 導入のガイドライン {#deployment-guidelines}
+      + [前提条件](installation/using/before-starting.md)
+      + [データベースサーバー](installation/using/database.md)
       + [アプリケーションサーバー](installation/using/application-server.md)
       + [メッセージングサーバー](installation/using/messaging-server.md)
       + [ネットワーク設定](installation/using/network-configuration.md)

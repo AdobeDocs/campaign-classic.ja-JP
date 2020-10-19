@@ -1,7 +1,7 @@
 ---
-title: レガシーコネクタ
-seo-title: レガシーコネクタ
-description: レガシーコネクタ
+title: 従来のコネクタ
+seo-title: 従来のコネクタ
+description: 従来のコネクタ
 seo-description: null
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
@@ -20,7 +20,7 @@ ht-degree: 100%
 ---
 
 
-# レガシーコネクタ {#legacy-connectors}
+# 従来のコネクタ {#legacy-connectors}
 
 従来の FDA コネクタは、アドビで引き続きサポートされます。ただし、[こちら](../../platform/using/specific-configuration-database.md)に示す最新の代替オプションに置き換えることをお勧めします。
 

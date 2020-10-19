@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 7d0a00f4ef49a48014735de36786a48c31b76804
 workflow-type: tm+mt
 source-wordcount: '3620'
 ht-degree: 5%
@@ -592,7 +592,7 @@ Adobe Campaignコンソールからアクセスする場合は、 **ハッシュ
 
 ## アップロード可能ファイルの制限 {#limiting-uploadable-files}
 
-新しい属性 **uploadAllowList** を使用すると、Adobe Campaignサーバでアップロードできるファイルタイプを制限できます。
+新しい属性 **uploadWhiteList** を使用すると、Adobe Campaignサーバでアップロードできるファイルタイプを制限できます。
 
 この属性は、 **serverConf.xml** ファイルの **dataStore** 要素内で使用できます。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
 
@@ -600,7 +600,7 @@ Adobe Campaignコンソールからアクセスする場合は、 **ハッシュ
 
 使用可能な形式を制限するには、有効なJava正規式で属性値を置き換える必要があります。 複数の値をコンマで区切って入力できます。
 
-次に例を示します。 **uploadAllowList=&quot;.*.png,.*.jpg** 」を指定すると、PNG形式とJPG形式をサーバーにアップロードできます。 その他の形式は使用できません。
+次に例を示します。 **uploadWhiteList=&quot;.*.png,.*.jpg** 」を指定すると、PNG形式とJPG形式をサーバーにアップロードできます。 その他の形式は使用できません。
 
 >[!IMPORTANT]
 >

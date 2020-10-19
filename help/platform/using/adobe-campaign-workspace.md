@@ -12,17 +12,17 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 26ba32468bce3bbb1c52d225c8195977da4d7d54
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2222'
+ht-degree: 98%
 
 ---
 
 
 # Adobe Campaign ワークスペース{#adobe-campaign-workspace}
 
-## Adobe Campaign のインターフェイスについて {#about-adobe-campaign-interface}
+## Exploring Adobe Campaign interface {#about-adobe-campaign-interface}
 
 データベースに接続すると、Adobe Campaign ホームページが表示されます。これはダッシュボード形式になっており、各種の機能にアクセスできるリンクとショートカットから構成されています（具体的な内容は、それぞれのインストール構成と一般的なプラットフォーム設定によって異なります）。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![](assets/d_ncs_user_interface_home.png)
 
-上のスクリーンショットは、Adobe Campaign ユーザーのホームページの例です。詳しくは、[Adobe Campaign のインターフェイスの概要ビデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html)をご覧ください。
+![](assets/do-not-localize/how-to-video.png) [ビデオ内のDiscoverキャンペーンワークスペース](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Web アクセス用のインターフェイスはコンソールに似ていま�
 
 ### 言語 {#languages}
 
-言語は、Adobe Campaign Classic インスタンスのインストール時に選択され、後で変更することはできません。インスタンスの作成方法の詳細については、この[ページ](../../installation/using/creating-an-instance-and-logging-on.md)を参照してください。
+言語は、Adobe Campaign Classicインスタンスをインストールするときに選択されます。
 
 ![](assets/language.png)
 
@@ -67,6 +67,12 @@ Web アクセス用のインターフェイスはコンソールに似ていま�
 * 日本語
 
 Adobe Campaign Classic インスタンスに選択した言語は、日時フォーマットに影響を与える可能性があります。詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#date-and-time)を参照してください。
+
+インスタンスの作成方法の詳細については、この[ページ](../../installation/using/creating-an-instance-and-logging-on.md)を参照してください。
+
+>[!CAUTION]
+>
+>インスタンスの作成後は、言語を変更できません。
 
 ## ナビゲーションの基本 {#navigation-basics}
 
@@ -174,9 +180,9 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 ![](assets/s_ncs_user_configurelist_advancedparam.png)
 
-### リストの設定 {#configuring-lists}
+## リストの設定 {#configuring-lists}
 
-#### 列の追加 {#add-columns}
+### 列の追加 {#add-columns}
 
 リストに列を追加するには、2 つの方法があります。
 
@@ -222,14 +228,14 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 1. 「**[!UICONTROL OK]**」をクリックして設定を確定し、結果を表示します。
 
-#### 新しい列の作成 {#create-a-new-column}
+### 新しい列の作成 {#create-a-new-column}
 
 新しい列を作成して、リストに表示するフィールドを増やすことができます。手順は次のとおりです。
 
 1. リストの右下にある「**[!UICONTROL リストを設定]**」をクリックします。
 1. 「**[!UICONTROL 追加]**」をクリックして、リストに新しいフィールドを表示します。
 
-#### 列の削除 {#remove-a-column}
+### 列の削除 {#remove-a-column}
 
 リストの右下にある「**[!UICONTROL リストを設定]**」を使用して、レコードのリスト内の 1 つ以上の列をマスクできます。
 
@@ -241,11 +247,11 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 マスクする列ごとにこの手順を繰り返します。「**[!UICONTROL OK]**」をクリックして設定を確定し、結果を表示します。
 
-#### 列の幅の調整 {#adjust-column-width}
+### 列の幅の調整 {#adjust-column-width}
 
 リストがアクティブである（少なくとも 1 ラインが選択されている）ときは、F9 キーを使用して、すべての列が画面に表示されるように列幅を調整できます。
 
-#### サブフォルダーのレコードの表示 {#display-sub-folders-records}
+### サブフォルダーのレコードの表示 {#display-sub-folders-records}
 
 リストには、次の内容を表示できます。
 
@@ -286,7 +292,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 ![](assets/s_ncs_user_folder_save_config_5.png)
 
-### リストのエクスポート {#exporting-a-list}
+## リストのエクスポート {#exporting-a-list}
 
 リストからデータをエクスポートするには、エクスポートウィザードを使用する必要があります。これにアクセスするには、リストからエクスポートする要素を選択し、右クリックして「**[!UICONTROL エクスポート...]**」を選択します。
 
@@ -296,7 +302,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 >
 >リストの要素をコピーまたは貼り付け機能を使用してエクスポートしないでください。
 
-### リストの並べ替え {#sorting-a-list}
+## リストの並べ替え {#sorting-a-list}
 
 リストに大量のデータが含まれている場合があります。これらのデータを並べ替えたり、標準フィルターまたは詳細フィルターを適用したりすることができます。並べ替えでは、データを昇順または降順で表示できます。フィルターでは、基準を定義または組み合わせて、選択したデータのみを表示できます。
 
@@ -321,7 +327,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 1. 「**[!UICONTROL OK]**」をクリックしてこの設定を確定し、リストで結果を表示します。
 
-### 検索の実行 {#running-a-search}
+### 要素の検索 {#running-a-search}
 
 エディターで使用可能フィールドの検索を実行するには、フィールドのリストの上にある「**[!UICONTROL 検索]**」フィールドを使用します。キーボードの **Enter** キーを押すか、リストを参照します。検索と一致するフィールドは、太字のラベルになります。
 
@@ -388,4 +394,3 @@ Adobe Campaign Classic インスタンスは、言語によって日時の形式
 * **[!UICONTROL d]**（日）
 
 ![](assets/enter_unit_sample.png)
-

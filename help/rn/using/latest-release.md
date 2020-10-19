@@ -10,17 +10,17 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: d65e6f48bd84a2342895beca4a4ac184b57bf7c3
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 100%
+source-wordcount: '2188'
+ht-degree: 99%
 
 ---
 
 
 # 最新リリース{#latest-release}
 
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **10月の新しいCampaign コントロールパネルリリースで** 、CNAMEを使用したドメイン設定と新しいデータベース監視機能が追加されました。 詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)を参照してください。
 
 ## ![](assets/do-not-localize/blue_2.png) リリース 20.2.3 - ビルド 9182 {#release-20-2-3-build-9182}
 
@@ -58,6 +58,8 @@ _2020 年 7 月 22 日_
 * アップグレード後の配信の準備がブロックされる問題を修正しました。
 * [新しいシーケンス ID メカニズム](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)に切り替えた後、受信者テーブルを更新するすべての web アプリケーションは、アップグレード後に再公開されます。
 * 配信コンテンツの潜在的な XSS 脆弱性を修正しました。（NEO-17987、NEO-26073）
+
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
 
 ## ![](assets/do-not-localize/orange_2.png) リリース 20.2.1 - ビルド 9178 {#release-20-2-1-build-9178}
 

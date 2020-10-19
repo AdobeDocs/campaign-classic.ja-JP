@@ -1,7 +1,7 @@
 ---
-title: 外部データベース
-seo-title: 外部データベース
-description: 外部データベース
+title: 外部データベースへのアクセス（FDA）
+seo-title: 外部データベースへのアクセス（FDA）
+description: 外部データベースへのアクセス（FDA）
 seo-description: null
 page-status-flag: never-activated
 uuid: 8c67e2d8-ebd1-4260-93e4-9e28a58332a9

@@ -1,8 +1,6 @@
 ---
 title: レポートのベストプラクティス
-seo-title: レポートのベストプラクティス
-description: レポートのベストプラクティス
-seo-description: null
+description: キャンペーンレポートのベストプラクティス
 page-status-flag: never-activated
 uuid: 09de6a17-b3a7-4543-b672-b0a21653aa75
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: reporting-in-adobe-campaign
 discoiquuid: 904961e0-7dff-4350-8d5d-e4bdd368b3ff
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '839'
+ht-degree: 81%
 
 ---
 
@@ -36,15 +34,15 @@ ht-degree: 100%
 
    例えば、次のようなことが可能です。
 
-   * データベース内のデータの調査と測定の定義（[この節](../../reporting/using/about-cubes.md)を参照）
-   * 既存レポートへの指標の追加（[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照）
-   * データベース内のデータの表示（[この節](../../reporting/using/about-descriptive-analysis.md)を参照）
-   * 新しい配信レポートの作成（[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照）
-   * Adobe Campaign データベースからのデータのエクスポート（ワークフローを使用。[この節](../../workflow/using/about-workflows.md)を参照）
-   * ピボットテーブルの作成（[この節](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)を参照）
-   * 集計データの調査（[この節](../../reporting/using/about-cubes.md)を参照）
-   * ウィザードによるデータの分析（[この節](../../reporting/using/about-descriptive-analysis.md)を参照）
-   * 大量のデータの分析（[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照）など
+   * データベース内のデータを調べ、測定値を定義します。 Learn more [in this section](../../reporting/using/about-cubes.md)
+   * 既存追加のレポートに対するインジケーター。 Learn more [in this section](../../reporting/using/about-reports-creation-in-campaign.md)
+   * データベース内のデータを表示します。 Learn more [in this section](../../reporting/using/about-descriptive-analysis.md)
+   * 新しい配信レポートを作成します。 Learn more [in this section](../../reporting/using/about-reports-creation-in-campaign.md)),
+   * Export data from the Adobe Campaign database (via a workflow, refer to [this section](../../workflow/using/about-workflows.md)
+   * ピボットテーブルを作成します。Learn more [in this section](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
+   * 集計データを表示します。 Learn more [in this section](../../reporting/using/about-cubes.md)
+   * ウィザードを使用してデータを分析します。 Learn more [in this section](../../reporting/using/about-descriptive-analysis.md)
+   * 大量のデータを分析する。 Learn more [in this section](../../reporting/using/about-reports-creation-in-campaign.md)
 
 1. ターゲット母集団の特定
 
@@ -79,7 +77,7 @@ ht-degree: 100%
 
    同様に、設計フェーズで少量のデータに対してレポートの計算時間が 60 秒を超える場合は、計算方法を変更する必要があります。
 
-* マーケティング分析を使用する場合は、操作対象のデータが 1,000 万行を超えないようにしてください。
+* Marketing Analyticsモジュールを使用する場合、レポートデータは1,000万行を超えてはなりません。
 
 また、集計の計算を夜間におこない、その集計データを直接レポートで使用することをお勧めします。これらの集計は、専用のデータ管理ワークフロー（SQL クエリ）で作成する必要があります。
 
@@ -103,15 +101,19 @@ if(string(ctx@_historyId)!==""))
 
 さらに、Adobe Campaign では、次の改善を推奨します。
 
-* データモデルの検討：インデックス付きのフィールドは、主に計算式を強化するために使用する必要があります。
+* データモデルの操作：インデックス付きフィールドは、主に数式の改善に使用する必要があります。
 
    インデックス付きのフィールドをすばやく見つけるには、Adobe Campaign のインターフェイスで列の名前に注目します。フィールドにインデックスが付いている場合、並べ替え矢印に赤の下線が付いています。
 
-* レポートの有効性を長期にわたって確保します。データ量は時間と共に大幅に増える可能性があります。
+   For more on indexes, refer to [this section](../../configuration/using/data-model-best-practices.md#indexes).
+
+* レポートの拡張性が高いことを確認します。時間の経過とともに、データ量が大幅に増加する可能性があります。
 
    同様に、テストフェーズで操作するデータの量は、本番での実際のデータ量と異なる場合があります。テストフェーズが重要なのは、そのためです。
 
    最後に、データパージの遅延を認識して、データが操作しやすくなるように、必要に応じて遅延を調整する必要があります。
+
+   クリーンアップとデータ保持の詳細については、 [このセクションを参照してください](../../configuration/using/data-model-best-practices.md#data-retention)。
 
 ### レポートのエクスポート {#exporting-reports}
 

@@ -12,15 +12,15 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: d6467875-949b-4b47-940f-620efd4db5e0
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 98%
+source-wordcount: '1314'
+ht-degree: 86%
 
 ---
 
 
-# E メールのアーカイブ{#email-archiving}
+# E メールの BCC {#email-archiving}
 
 プラットフォームから送信された電子メールのコピーを保持するようにAdobe Campaignを設定できます。
 
@@ -30,15 +30,15 @@ ht-degree: 98%
 
 ## Recommendationsと限界 {#recommendations-and-limitations}
 
-* 電子メールアーカイブ機能はオプションです。 使用許諾契約書を確認してください。
-* ホ **スト型およびハイブリッド型アーキテクチャの場合は**、アカウント担当者に問い合わせてアクティブ化してください。 選択したBCCアドレスは、ユーザーに対して設定を行うAdobeチームに提供する必要があります。
-* オンプレミス **でのインストールについては**、次のガイドラインに従ってアクティブ化します。「電子メールアーカイブの [アクティブ化（オンプレミス）](#activating-email-archiving--on-premise-) 」および「BCC電子メールアドレスの [設定（オンプレミス）](#configuring-the-bcc-email-address--on-premise-) 」の項を参照してください。
+* 電子メールBCC機能はオプションです。 使用許諾契約書を確認してください。
+* ホ **スト型およびハイブリッド型アーキテクチャの場合は**、アカウント担当者に問い合わせてアクティブ化してください。 選択したBCC電子メールアドレスは、その設定を行うAdobeチームに提供する必要があります。
+* For **on-premise installations**, follow the guidelines below to activate it - see the [Activating email BCC (on premise)](#activating-email-archiving--on-premise-) and [Configuring the BCC email address (on premise)](#configuring-the-bcc-email-address--on-premise-) sections.
 * BCC電子メールアドレスは1つだけ使用できます。
-* 電子メールBCCを設定したら、配信テンプレートまたは配信で、「電子メールの **[!UICONTROL アーカイブ]** 」オプションを使用してこの機能が有効になっていることを確認します。 詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
+* Once email BCC is configured, make sure the feature is enabled in the delivery template or in the delivery through the **[!UICONTROL Email BCC]** option. 詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
 * 正常に送信された電子メールのみが考慮され、バウンスは考慮されません。
-* Adobe Campaign17.2（ビルド8795）で電子メールアーカイブシステムが変更されました。 既に電子メールのアーカイブを使用している場合は、新しい電子メールのアーカイブシステム(BCC)に手動でアップグレードする必要があります。 詳しくは、「 [更新された電子メールアーカイブシステム(BCC)](#updated-email-archiving-system--bcc-) 」の項を参照してください。
+* Adobe Campaign17.2（ビルド8795）で電子メールアーカイブシステムが変更されました。 既に電子メールのアーカイブを使用している場合は、新しい電子メールBCCシステムに手動でアップグレードする必要があります。 詳しくは、「新しい電子メールBCCに [移動する](#updated-email-archiving-system--bcc-) 」を参照してください。
 
-## 電子メールアーカイブのアクティブ化（オンプレミス） {#activating-email-archiving--on-premise-}
+## Activating Email BCC (on premise) {#activating-email-archiving--on-premise-}
 
 Adobe Campaignがオンプレミスでインストールされている場合にBCC電子メールアーカイブをアクティブにするには、次の手順に従います。
 
@@ -70,7 +70,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 >[!NOTE]
 >
->ミッドソーシングインスタンスでは、アーカイブ済み電子メールのディレクトリはミッドソーシングサーバー上にあります。
+>ミッドソーシングインスタンスでは、BCC電子メールのディレクトリはミッドソーシングサーバ上にあります。
 >
 >deliveryIDとbroadlogIDは、電子メールのステータスが送信されない場合に、ミッドソーシングサーバーから取得されます。 ステータスが「 **[!UICONTROL 送信済み]**」に変わると、これらのIDはマーケティングサーバーから取得されます。
 
@@ -128,7 +128,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 >
 >また、リレーは、送信されていない電子メールも含め、すべての電子メールに **[!UICONTROL 送信済み]** ステータスを割り当てます。 したがって、すべてのメッセージはアーカイブされます。
 
-## BCC（Eメールアーカイブシステム）の更新 {#updated-email-archiving-system--bcc-}
+## 新しい電子メールBCCに移動する {#updated-email-archiving-system--bcc-}
 
 >[!CAUTION]
 >
@@ -140,9 +140,9 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 1. 必要に応じて、 **compressionFormat** パラメーターを **1に設定します** 。
 1. archivingType **パラメーターを** 1に設定します ****。
 
-電子メールBCCを設定したら、配信テンプレートまたは配信で「 **[!UICONTROL Archive emails]** 」オプションを選択していることを確認します。 詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
+Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]** option in the delivery template or the delivery. 詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
 
-## ベストプラクティス{#best-practices}
+## 電子メールBCCのベストプラクティス {#best-practices}
 
 * **BCCアドレスメールボックス**:MTAから送信されるすべての電子メールをアーカイブするのに十分な受信容量があることを確認します。
 * **MTAの相互化**:BCCアーカイブ機能は、MTAレベルで機能します。 MTAから送信されるすべての電子メールを重複できます。 MTAは複数のインスタンス（開発、テスト、実稼動など）にまたがって、または複数のクライアント(ミッドソーシング環境内など)にまたがって相互化できるので、この機能を設定するとセキュリティに影響します。

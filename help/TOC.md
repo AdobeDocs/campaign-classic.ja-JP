@@ -190,7 +190,7 @@ ht-degree: 100%
    + マーケティングキャンペーンについて {#about-marketing-campaigns}
       + [マーケティングキャンペーンの設計](campaign/using/designing-marketing-campaigns.md)
       + [マーケティングキャンペーンへのアクセス](campaign/using/accessing-marketing-campaigns.md)
-   + キャンペーンのオーケストレーション {#orchestrate-campaigns}
+   + キャンペーンのオーケストレーション{#orchestrate-campaigns}
       + [マーケティングキャンペーンの設定](campaign/using/setting-up-marketing-campaigns.md)
       + [マーケティングキャンペーンテンプレート](campaign/using/marketing-campaign-templates.md)
       + [マーケティングキャンペーン配信](campaign/using/marketing-campaign-deliveries.md)
@@ -304,22 +304,22 @@ ht-degree: 100%
 + Adobe Experience Cloud との統合 {#integrating-with-adobe-experience-cloud}
    + [Campaign 統合について](integrations/using/about-campaign-integrations.md)
    + オーディエンスの共有 {#audience-sharing}
-      + [オーディエンスを  [!DNL Adobe Experience Cloud] と共有する](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+      + [オーディエンスを  [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md) と共有する
       + [アドビへの依頼の送信](integrations/using/submitting-request-to-adobe.md)
       + [での共有オーディエンスの統合の設定 [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [トラブルシューティング](integrations/using/troubleshooting.md)
       + [オーディエンスのインポートおよびエクスポート](integrations/using/importing-and-exporting-audiences.md)
    + アセットの共有 {#asset-sharing}
-      + [アセットを  [!DNL Adobe Experience Cloud] と共有する](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
-      + [  [!DNL Assets] へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
+      + [アセットを  [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md) と共有する
+      + [  [!DNL Assets]](integrations/using/configuring-access-to-assets.md) へのアクセスの設定
       + [共有アセットを挿入](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
       + [情報 [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [統合の設定](integrations/using/configuring-the-integration.md)
       + [ [!DNL Experience Manager] ニュースレターの作成](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [  [!DNL Adobe Target] との統合](integrations/using/integrating-with-adobe-target.md)
-      + [  [!DNL Adobe Target] との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
+      + [  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md) との統合
+      + [  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md) との統合の設定
       + [動的画像の挿入](integrations/using/inserting-a-dynamic-image.md)
    + Adobe ID を使用した接続 {#connecting-via-an-adobe-id}
       + [情報 [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
@@ -331,7 +331,7 @@ ht-degree: 100%
       + [プロファイルの同期](integrations/using/synchronizing-profiles.md)
       + [オーディエンスの同期](integrations/using/synchronizing-audiences.md)
       + [Web アプリケーションの同期](integrations/using/synchronizing-web-applications.md)
-      + [  [!DNL ACS Connector] のトラブルシューティング](integrations/using/troubleshooting-the-acs-connector.md)
+      + [  [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md) のトラブルシューティング
    + Experience Cloud Triggers {#experience-triggers}
       + [情報 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)
@@ -386,7 +386,7 @@ ht-degree: 100%
       + [待機](workflow/using/wait.md)
       + [時間制限](workflow/using/time-constraint.md)
       + [サブワークフロー](workflow/using/sub-workflow.md)
-      + [ジャンプ（開始ポイントと終了ポイント）](workflow/using/jump--start-point-and-end-point-.md)
+      + [ジャンプ（開始点と終了点）](workflow/using/jump--start-point-and-end-point-.md)
       + [外部シグナル](workflow/using/external-signal.md)
       + [承認](workflow/using/approval.md)
       + [アラート](workflow/using/alert.md)
@@ -433,7 +433,7 @@ ht-degree: 100%
          + [サマリーリストの作成](workflow/using/creating-a-summary-list.md)
          + [データのエンリッチメント](workflow/using/enriching-data.md)
          + [集計の使用](workflow/using/using-aggregates.md)
-         + [増分クエリを使用した四半期別リストの更新](workflow/using/quarterly-list-update.md)
+         + [増分クエリを使用した四半期ごとのリストの更新](workflow/using/quarterly-list-update.md)
       + ターゲティング {#designing-queries}
          + [受信者テーブルに対するクエリ](workflow/using/querying-recipient-table.md)
          + [配信情報に対するクエリ](workflow/using/querying-delivery-information.md)
@@ -569,7 +569,7 @@ ht-degree: 100%
       + [Facebook のウォールへのパブリッシュ](social/using/publishing-on-facebook-walls.md)
       + [Facebook アプリケーションの作成](social/using/creating-a-facebook-application.md)
       + [Twitter へのパブリッシュの設定](social/using/configuring-publishing-on-twitter.md)
-   + Facebook/Twitter へのパブリッシュ {#publishing-on-facebook-twitter}
+   + Facebook／Twitter へのパブリッシュ {#publishing-on-facebook-twitter}
       + [概要](social/using/overview.md)
       + [Facebook へのパブリッシュ](social/using/publishing-on-facebook.md)
       + [Twitter へのパブリッシュ](social/using/publishing-on-twitter.md)

@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 82%
@@ -30,7 +30,7 @@ Adobe Campaign を起動するには、**[!UICONTROL スタート／すべての
 
 クライアントコンソール接続ウィンドウで、既存のデータベースを選択するか設定し、ユーザー名およびパスワードを使用してデータベースに接続できます。
 
-![](assets/s_ncs_user_login.png)
+![](assets/acc-logon-screen.png)
 
 ## Adobe Campaign への接続 {#connecting-to-adobe-campaign}
 

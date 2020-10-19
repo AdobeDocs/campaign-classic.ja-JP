@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 7f471ac1-cd6a-4371-977e-52d60ce8d968
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: fc014fe5fcadac680af31e86e258a4df7073e0bd
 workflow-type: tm+mt
 source-wordcount: '1051'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >FDA over HTTP を使用する場合、Postgres データベースを使用する実行インスタンスのみがサポートされます。MSSQL または Oracle データベースはサポートされていません。
+   >HTTP経由のFDAを使用する場合は、PostgreSQLデータベースを使用する実行インスタンスのみがサポートされることに注意してください。 MSSQL または Oracle データベースはサポートされていません。
 
    コントロールインスタンスから実行インスタンスのデータベースへ直接接続できる場合には、後者の接続方法を推奨します。直接接続できない場合は、Web サービス経由の接続を選択します。FDA アカウントには、コントロールインスタンス上に作成した個々の実行インスタンスのデータベースに接続する場合と同じアカウントを指定します。
 

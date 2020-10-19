@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
 source-wordcount: '1620'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -50,9 +50,9 @@ ht-degree: 100%
    >
    >MTA を呼び出さない、ミッドソーシングを使用するインストールの場合、このオプションを使用することは望ましくありません。
    >
-   >SMTP サーバーの設定について詳しくは、[この節](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)を参照してください。
+   >For more information on configuring an SMTP server, refer [to this section](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters).
 
-* **[!UICONTROL E メールをアーカイブ]**：このオプションを使用すると、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存することができます。詳しくは、[E メールのアーカイブ](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
+* **[!UICONTROL 電子メールBCC]**:BCC電子メールアドレスをメッセージターゲットに追加するだけで、BCCを通じて外部システムに電子メールを保存できます。 For more on this, refer [to this section](../../delivery/using/sending-messages.md#archiving-emails).
 
 配信の設定が終わり、送信準備が整ったら、必ず[配信分析](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)を実行してください。完了したら、「**[!UICONTROL 配信を確定]**」をクリックし、メッセージの配信を開始します。
 

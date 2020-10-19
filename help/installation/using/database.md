@@ -1,8 +1,6 @@
 ---
-title: データベース
-seo-title: データベース
-description: データベース
-seo-description: null
+title: Campaign Classicデータベースの推奨事項
+description: データベースの推奨事項
 page-status-flag: never-activated
 uuid: b318365c-8846-4c1d-b5f7-ece55fb8c4af
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 discoiquuid: 1dcf01af-c2f3-4975-ba05-628d52952064
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 3%
+source-wordcount: '277'
+ht-degree: 2%
 
 ---
 
@@ -32,14 +30,11 @@ ht-degree: 3%
 
 ネイティブクライアントは、Adobe Campaignアプリケーションサーバーにインストールする必要があります。
 
-SQL Server Native Client 10.0 **（Microsoft SQL Server 2008および2008 R2クライアントの場合）または** SQL Server Native Client 11.0 **** （Microsoft SQL Server 20クライアントの場合）の下のODBCドライバ設定パネルを使用して、サーバー上のネイティブクライアントを確認できます。（2014年、2016年、2017年の各クライアント）。
+SQL Server Native Client 11.0の[ODBCドライバの設定]パネルで、サーバ上のネイティブ・クライアントを確認でき **ます**。
 
-次のアクセスDLLが必要です：
+次のアクセスDLLが必要です： **sqlncli11.dll**.
 
-* **sqlncli10.dll** for Microsoft SQL Server 2008 and 2008 R2 clients,
-* **sqlncli11.dll** （Microsoft SQL Server 2012、2014、2016、2017の各クライアント用）。
-
-   アクセスDLLは、MicrosoftのWebサイトにあります。
+アクセスDLLは、MicrosoftのWebサイトにあります。
 
 >[!NOTE]
 >

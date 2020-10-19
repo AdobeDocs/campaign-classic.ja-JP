@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
 workflow-type: tm+mt
-source-wordcount: '1751'
-ht-degree: 100%
+source-wordcount: '1848'
+ht-degree: 90%
 
 ---
 
@@ -149,10 +149,12 @@ Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug,
 
 ### Cookie {#cookies}
 
-Adobe Campaign のトラッキング機能は、2 種類の Cookie を使用して配信の受信者のブラウジングをトラッキングすることができます。
+Adobe Campaignでは、その追跡機能のおかげで、次の3種類のcookieを使用して配信受信者の閲覧を追跡できます。セッションcookieと2つの永続的なcookie。
 
-* **セッション Cookie** （nlid）：連絡先に送信される E メールの識別子（broadlogId）およびメッセージテンプレートの識別子（deliveryId）が含まれています。Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での Web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
-* Adobe Experience Cloud ソリューション間で&#x200B;**永続的な Cookie** が共有されます。これにより、Web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。この Cookie の説明については、[こちら](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-mc.html)を参照してください。
+* A **session cookie**: the **nlid** cookie contains the identifier of the email sent to the contact (**broadlogId**) and the identifier of the message template (**deliveryId**). Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での Web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
+* 2つの **永続的なcookie**:
+   * UUID **(Universal Unique IDentifier** )Cookieは、Adobe Experience Cloudのソリューション間で共有されます。 新しい値が生成されるとクライアントブラウザーから表示されなくなるまで、1回設定されます。 このcookieを使用すると、Webサイトの訪問時にExperience Cloudソリューションを操作するユーザーを識別できます。 このレポートは、ランディングページ(不明な顧客アクティビティを受信者に関連付けるため)または配信によって預け入れることができます。 この Cookie の説明については、[こちら](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-mc.html)を参照してください。
+   * **nlastdelid** cookie(Campaign Classic20.3で導入された)は、ユーザーがリンクをクリックした最後の配信の **deliveryId** を含む永続的なcookieです。 このcookieは、使用されるトラッキングテーブルを識別するために、セッションcookieがない場合に使用されます。
 
 GDPR（一般データ保護規則）などの規制では、企業は Cookie をインストールする前に Web サイトのユーザーの同意をリクエストすることが規定されています。
 

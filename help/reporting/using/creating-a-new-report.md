@@ -1,8 +1,6 @@
 ---
 title: 新しいレポートの作成
-seo-title: 新しいレポートの作成
-description: 新しいレポートの作成
-seo-description: null
+description: 新しいレポートを作成するための主な手順
 page-status-flag: never-activated
 uuid: dcea5c28-da09-4a31-a13c-c8995c6faa63
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 22c92ddf-fbea-49d3-afd4-1ba427be399d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 100%
+source-wordcount: '961'
+ht-degree: 86%
 
 ---
 
@@ -60,29 +58,29 @@ ht-degree: 100%
 
 レポートを作成するには、レポートの特性とコンテキストに応じて有用な要素を特定し、それらの論理的な順序をモデル化する必要があります。
 
-1. 「開始」アクティビティを使用して、レポートを作成するために最初に実行するプロセスを具体化します。このアクティビティは、レポートごとに 1 つのみ使用できます。
+1. Use the **[!UICONTROL Start]** activity to materialize the first process to be carried out to build the report. このアクティビティは、レポートごとに 1 つのみ使用できます。
 
    チャートにループが含まれる場合は必須です。
 
-1. 「クエリ」アクティビティを 1 つまたは複数追加して、レポートの作成に役立つデータを収集します。データの収集は、データベースのスキーマに対するクエリによって直接おこなうことも、インポートしたリストまたは既存のキューブを使用しておこなうこともできます。
+1. Add one or more **[!UICONTROL Query]** activities to collect data that is useful for building the report. データの収集は、データベースのスキーマに対するクエリによって直接おこなうことも、インポートしたリストまたは既存のキューブを使用しておこなうこともできます。
 
    詳しくは、[分析するデータの収集](../../reporting/using/collecting-data-to-analyze.md)を参照してください。
 
    このデータは、ページの設定に応じて、レポートに表示されることも表示されないこともあります。
 
-1. 「ページ」アクティビティを 1 つまたは複数配置して、収集したデータのグラフィカルな表現を定義します。表、グラフ、入力フィールドなどを挿入し、1 つまたは複数のページまたはページの要素の表示条件を設定できます。表示される内容は完全に設定可能です。
+1. Place one or more **[!UICONTROL Page]** activities to define the graphical representation of the collected data. 表、グラフ、入力フィールドなどを挿入し、1 つまたは複数のページまたはページの要素の表示条件を設定できます。表示される内容は完全に設定可能です。
 
    詳しくは、[静的要素](#static-elements)を参照してください。
 
-1. 「テスト」アクティビティを使用して、データの表示またはアクセスの条件を定義します。
+1. Use a **[!UICONTROL Test]** activity to define the conditions for displaying or accessing data.
 
    詳しくは、[ページ表示の条件付け](../../reporting/using/defining-a-conditional-content.md#conditioning-page-display)を参照してください。
 
-1. 必要に応じて、パーソナライズされたスクリプトを「スクリプト」アクティビティを使用して追加し、例えば、レポート名の生成、特定のコンテキストに基づく結果表示のフィルターなどをおこないます。
+1. If necessary, add personalized scripts via the **[!UICONTROL Script]** activity, for instance to calculate the name of a report, to filter the display of the result within a specific context, etc.
 
    詳しくは、[スクリプトアクティビティ](../../reporting/using/advanced-functionalities.md#script-activity)を参照してください。
 
-1. 最後に、複雑なレポートを読みやすくするために、「ジャンプ」タイプのアクティビティを 1 つまたは複数挿入できます。これによって、レポートにトランジションを実体化せずにアクティビティ間を移動できます。「ジャンプ」は別のレポートの表示にも使用できます。
+1. Finally, you for easier reading of complex reports, you can insert one or more **[!UICONTROL Jump]** type activities. これによって、レポートにトランジションを実体化せずにアクティビティ間を移動できます。The **[!UICONTROL Jump]** activity can also be used to display another report.
 
    詳しくは、[ジャンプアクティビティ](../../reporting/using/advanced-functionalities.md#jump-activity)を参照してください。
 
@@ -167,4 +165,3 @@ ht-degree: 100%
 ここでは、レポートのデータをフィルターして、ツリーのいずれかのフォルダーに含まれている情報だけを表示できます。
 
 ![](assets/reporting_control_folder.png)
-

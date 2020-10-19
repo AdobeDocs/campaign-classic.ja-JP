@@ -1,5 +1,5 @@
 ---
-title: 増分処理クエリを使用した四半期ごとのリストの更新
+title: 増分クエリを使用した四半期ごとのリストの更新
 description: この使用例では、増分処理クエリを使用して、受信者リストを自動更新します。
 page-status-flag: never-activated
 uuid: 24d322e8-172c-4faa-8a1f-59085b390a76
@@ -12,13 +12,13 @@ discoiquuid: 31071cd2-7d97-4a4f-a6cc-5ac5b6178be5
 translation-type: tm+mt
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 100%
 
 ---
 
 
-# 増分処理クエリを使用した四半期ごとのリストの更新 {#quarterly-list-update}
+# 増分クエリを使用した四半期ごとのリストの更新 {#quarterly-list-update}
 
 次の例では、[増分処理クエリ](../../workflow/using/incremental-query.md)を使用して、受信者リストを自動更新します。これらの受信者は、季節ごとのマーケティングキャンペーンの一部としてターゲットされています。
 

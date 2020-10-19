@@ -1,5 +1,5 @@
 ---
-title: データ抽出 (ファイル)
+title: データ抽出（ファイル）
 description: データ抽出 (ファイル) ワークフローアクティビティについて説明します。
 page-status-flag: never-activated
 uuid: c1e3fde3-183c-4602-9cef-760e4648fcf7
@@ -18,7 +18,7 @@ ht-degree: 85%
 ---
 
 
-# データ抽出 (ファイル){#extraction-file}
+# データ抽出（ファイル）{#extraction-file}
 
 「**[!UICONTROL データ抽出 (ファイル)]**」アクティビティを使用して、ワークフローテーブルから外部ファイルにデータを抽出できます。
 

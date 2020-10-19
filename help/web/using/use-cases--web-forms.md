@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: web-forms
 discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 3e1896ac4ccd1099bd50e279762c2fbff5cd8eba
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 91%
+source-wordcount: '995'
+ht-degree: 89%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 91%
 
    これを実行するには、「**[!UICONTROL 除外]**」タブをクリックします。
 
-1. 「**[!UICONTROL 編集]**」リンクをクリックし、「**[!UICONTROL 今後連絡を希望しない受信者を除外 (ブラックリスト)]**」オプションのチェックをオフにします。
+1. Click the **[!UICONTROL Edit...]** link and uncheck the **[!UICONTROL Exclude recipients who no longer want to be contacted]** option.
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 

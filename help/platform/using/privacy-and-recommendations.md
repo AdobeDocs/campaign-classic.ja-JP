@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 247d73933991047603b8d61c7489d976c448dd52
 workflow-type: tm+mt
-source-wordcount: '1848'
-ht-degree: 90%
+source-wordcount: '1804'
+ht-degree: 92%
 
 ---
 
@@ -152,9 +152,10 @@ Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug,
 Adobe Campaignでは、その追跡機能のおかげで、次の3種類のcookieを使用して配信受信者の閲覧を追跡できます。セッションcookieと2つの永続的なcookie。
 
 * A **session cookie**: the **nlid** cookie contains the identifier of the email sent to the contact (**broadlogId**) and the identifier of the message template (**deliveryId**). Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での Web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
-* 2つの **永続的なcookie**:
-   * UUID **(Universal Unique IDentifier** )Cookieは、Adobe Experience Cloudのソリューション間で共有されます。 新しい値が生成されるとクライアントブラウザーから表示されなくなるまで、1回設定されます。 このcookieを使用すると、Webサイトの訪問時にExperience Cloudソリューションを操作するユーザーを識別できます。 このレポートは、ランディングページ(不明な顧客アクティビティを受信者に関連付けるため)または配信によって預け入れることができます。 この Cookie の説明については、[こちら](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-mc.html)を参照してください。
-   * **nlastdelid** cookie(Campaign Classic20.3で導入された)は、ユーザーがリンクをクリックした最後の配信の **deliveryId** を含む永続的なcookieです。 このcookieは、使用されるトラッキングテーブルを識別するために、セッションcookieがない場合に使用されます。
+
+* 永続的な **cookie**:UUID **** (Universal Unique IDentifier)cookieは、Adobe Experience Cloudのソリューション間で共有されます。 新しい値が生成されるとクライアントブラウザーから表示されなくなるまで、1回設定されます。 このcookieを使用すると、Webサイトの訪問時にExperience Cloudソリューションを操作するユーザーを識別できます。 このレポートは、ランディングページ(不明な顧客アクティビティを受信者に関連付けるため)または配信によって預け入れることができます。 この Cookie の説明については、[こちら](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-mc.html)を参照してください。
+
+<!--The **nllastdelid** cookie (introduced in Campaign Classic 20.3) is a permanent cookie which contains the **deliveryId** of the last delivery that user clicked the link from. This cookie is used - when the session cookie is missing - to identify the tracking table that will be used.-->
 
 GDPR（一般データ保護規則）などの規制では、企業は Cookie をインストールする前に Web サイトのユーザーの同意をリクエストすることが規定されています。
 

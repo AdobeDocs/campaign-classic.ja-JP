@@ -1,8 +1,6 @@
 ---
 title: モデルのホスティング
-seo-title: モデルのホスティング
 description: モデルのホスティング
-seo-description: null
 page-status-flag: never-activated
 uuid: a9e035d9-326b-4e14-8f05-a22fe38d172b
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 3175b9ab-e305-4f19-8267-d6172fa07a2a
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 4%
+source-wordcount: '337'
+ht-degree: 3%
 
 ---
 

@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
 workflow-type: tm+mt
-source-wordcount: '3747'
+source-wordcount: '3780'
 ht-degree: 97%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 97%
 その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
 
 ## 2020 年 10 月 {#oct-2020}
+
+オンプレミス、ホスト型、ハイブリッド型のホスティングモデルのキャンペーンについては、専用の節で説明します。 [詳細を表示](../../installation/using/hosting-models.md)
+
+ホスティングモデルごとのキャンペーン機能マトリックスが更新され、『インストール』ガイドに移動されました。 [詳細を表示](../../installation/using/capability-matrix.md)
 
 「キャンペーンレポートの高度な機能」の節が強化され、カスタムレポートでURLパラメーターと変数を使用する方法の詳細が示されました。 [詳細を表示](../../reporting/using/advanced-functionalities.md)
 

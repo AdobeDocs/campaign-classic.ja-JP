@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 87ad4d4fc69d75e4367e7467ce27de29f58f9445
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 82%
+source-wordcount: '536'
+ht-degree: 74%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Campaign を起動するには、**[!UICONTROL スタート／すべての
 
 クライアントコンソール接続ウィンドウで、既存のデータベースを選択するか設定し、ユーザー名およびパスワードを使用してデータベースに接続できます。
 
-![](assets/acc-logon-screen.png)
+![](assets/s_ncs_user_login.png)
 
 ## Adobe Campaign への接続 {#connecting-to-adobe-campaign}
 
@@ -86,18 +86,18 @@ Adobe Campaign から切断するには、アイコンバーの最初のアイ�
 >
 >ログオフしないでアプリケーションを閉じることもできます。
 
-## Campaign のバージョンの確認 {#getting-your-campaign-version}
+## Getting your Adobe Campaign version {#getting-your-campaign-version}
 
 **[!UICONTROL ヘルプ／バージョン情報...]** メニューから、次の情報にアクセスできます。
 
-* **version** number
-* **ビルド** 番号
+* **キャンペーンのクライアントコンソールとアプリケーションサーバーのバージョン番号** 。
+* **キャンペーンのクライアントコンソールとアプリケーションサーバーのビルド番号**
 * adobeカスタマーケアに連絡するためのリンク
 * adobeのプライバシーポリシー、利用条件、cookieポリシーへのリンク
 
 ![](assets/about-acc.png)
 
-アドビサポートチームに連絡する場合は、Campaign クライアントコンソールおよびアプリケーションサーバーのバージョン番号とビルド番号を伝える必要があります。
+Adobeカスタマーケアチームに問い合わせるときは、必ず、キャンペーンクライアントコンソールとアプリケーションサーバーのバージョン番号とビルド番号を指定する必要があります。
 
 Gold Standard [キャンペーンで実行している場合は](../../rn/using/gold-standard.md)、「 **[!UICONTROL About]** 」ボックスに表示されるSHA/1文字も共有する必要があります。 例えば、Gold **Standard 10リリースの場合**、ビルド番号には **、次のように** build 9032@efd8a94（ビルド）と表示されます。
 

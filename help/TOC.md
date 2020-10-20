@@ -8,10 +8,10 @@ product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
 workflow-type: tm+mt
-source-wordcount: '2130'
-ht-degree: 99%
+source-wordcount: '2124'
+ht-degree: 98%
 
 ---
 
@@ -597,14 +597,14 @@ ht-degree: 99%
       + [企業へのデプロイメント](installation/using/enterprise-deployment.md)
       + [ミッドソーシングへのデプロイメント](installation/using/mid-sourcing-deployment.md)
       + [パワーブースターとパワークラスター](installation/using/power-booster-and-power-cluster.md)
-   + Windows での Campaign のインストール {#installing-campaign-in-windows-}
-      + [Windows での Campaign のインストールの前提条件](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+   + Windowsでのキャンペーン {#installing-campaign-in-windows-}
+      + [Windowsにキャンペーンをインストールする前に](installation/using/prerequisites-of-campaign-installation-in-windows.md)
       + [サーバーのインストール](installation/using/installing-the-server.md)
       + [Windows 用 Web サーバーへの統合](installation/using/integration-into-a-web-server-for-windows.md)
       + [Windows 用クライアントコンソールの可用性](installation/using/client-console-availability-for-windows.md)
       + [クライアントコンソールのインストール](installation/using/installing-the-client-console.md)
-   + Linux での Campaign のインストール {#installing-campaign-in-linux-}
-      + [Linux での Campaign のインストールの前提条件](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+   + Linuxでのキャンペーン  {#installing-campaign-in-linux-}
+      + [Linuxにキャンペーンをインストールする前に](installation/using/prerequisites-of-campaign-installation-in-linux.md)
       + [Linux でのパッケージのインストール](installation/using/installing-packages-with-linux.md)
       + [Linux 用 Web サーバーへの統合](installation/using/integration-into-a-web-server-for-linux.md)
       + [Linux 用クライアントコンソールの可用性](installation/using/client-console-availability-for-linux.md)
@@ -629,7 +629,7 @@ ht-degree: 99%
       + [Campaign ネットワークエンドポイント](installation/using/campaign-network-endpoints.md)
       + [コマンドライン](installation/using/command-lines.md)
       + [新規インスタンスの作成](installation/using/creating-new-instances.md)
-      + [Campaign Classic のオプションのリスト](installation/using/configuring-campaign-options.md)
+      + [Campaign のオプションのリスト](installation/using/configuring-campaign-options.md)
       + [Campaign のアンインストール](installation/using/uninstalling-campaign.md)
 + Campaign Classic の監視 {#monitoring-campaign-classic}
    + はじめに {#introduction}

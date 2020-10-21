@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 98%
+source-wordcount: '578'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 
 >[!CAUTION]
 >
->FDA 経由での外部データベースへのアクセスは、Snowflake コネクタを除き、オンプレミスまたはハイブリッドインストールでのみ可能です。詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)を参照してください。
+>FDA 経由での外部データベースへのアクセスは、Snowflake コネクタを除き、オンプレミスまたはハイブリッドインストールでのみ可能です。For more on this, refer [to this page](../../installation/using/capability-matrix.md).
 
 ## 動作の仕組み {#operating-principle}
 

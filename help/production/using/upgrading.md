@@ -1,8 +1,6 @@
 ---
-title: アップグレード
-seo-title: アップグレード
-description: アップグレード
-seo-description: null
+title: 新しいビルドへのアップグレード
+description: 新しいビルドにアップグレードする技術的な手順を説明します。
 page-status-flag: never-activated
 uuid: f24552d4-6bdf-411c-a1f2-b8f339c311f4
 contentOwner: sauviat
@@ -12,15 +10,15 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 14%
+source-wordcount: '1163'
+ht-degree: 13%
 
 ---
 
 
-# アップグレード{#upgrading}
+# 新しいビルドへのアップグレード（オンプレミス）{#upgrading}
 
 アップグレードプロセスを開始する前に、アップグレードするAdobe Campaignのバージョンを決定して確認し、 [リリースノート](../../rn/using/latest-release.md) を参照してください。
 

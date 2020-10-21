@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: appendices
 discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '7857'
+source-wordcount: '7852'
 ht-degree: 38%
 
 ---
@@ -26,7 +26,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
 
 >[!NOTE]
 >
->サーバー側の設定は、Adobeがホストする配置に対してのみAdobeが実行できます。 各デプロイメントの詳細については、「 [ホスティングモデル](../../installation/using/hosting-models.md) 」の節または [この記事を参照してください](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)。 この [節では、ホストモデルとハイブリッドモデルのインストールおよび設定手順を示します](../../installation/using/hosted-model.md)。
+>サーバー側の設定は、Adobeがホストする配置に対してのみAdobeが実行できます。 各デプロイメントの詳細については、「 [ホスティングモデル](../../installation/using/hosting-models.md) 」の節または [このページを参照してください](../../installation/using/capability-matrix.md)。 この [節では、ホストモデルとハイブリッドモデルのインストールおよび設定手順を示します](../../installation/using/hosted-model.md)。
 
 最初のパラメーターは **共有** ノード内にあります。 これらはインスタンスに関連しています。 これらは、すべてのnlserverコマンド（nlserver web、nlserver wfserverなど）で使用される可能性があります。 他のセクションは、特定のnlserverサブコマンドに関連しています。
 
@@ -2366,7 +2366,7 @@ securityZone/subNetwork **** ノードの様々なパラメーターを次に示
 
 ### netsize {#netsize}
 
-以下に、 **sms/netsize** ノードの各パラメータを示します。
+次に、 **sms/netsize** ノードの各パラメータを示します。
 
 <table> 
  <thead> 

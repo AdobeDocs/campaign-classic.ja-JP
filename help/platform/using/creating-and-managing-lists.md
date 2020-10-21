@@ -1,8 +1,6 @@
 ---
 title: リストの作成および管理
-seo-title: リストの作成および管理
-description: リストの作成および管理
-seo-description: null
+description: リストの作成および管理方法を学ぶ
 page-status-flag: never-activated
 uuid: 17d1a7d0-a728-490e-a820-19f469fddbcd
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: profile-management
 discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 93%
+source-wordcount: '856'
+ht-degree: 92%
 
 ---
 
@@ -139,7 +137,7 @@ Adobe Campaign ツリーのグループリストから 1 つ以上のリスト�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-## ワークフローを使用した受信者のリストの作成方法
+## How to create a list of recipients with a workflow {#create-list-in-a-wf-video}
 
 電子メールターゲットでリストを使用する前に、ターゲット受信者を定期的に実行するためのワークフローを作成する方法と、ワークフローを定期的に実行する方法について説明します。
 

@@ -1,8 +1,6 @@
 ---
 title: ワークフローを使用したプロファイルリストの作成
-seo-title: ワークフローを使用したプロファイルリストの作成
-description: ワークフローを使用したプロファイルリストの作成
-seo-description: null
+description: ワークフローでプロファイルリストを作成する方法を説明します
 page-status-flag: never-activated
 uuid: a30f7217-fe82-4290-b1e6-e7a126a316c1
 contentOwner: sauviat
@@ -12,17 +10,23 @@ content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: ba42c3cf-31fc-4fbc-b230-a2b3982328c5
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 22%
+source-wordcount: '203'
+ht-degree: 13%
 
 ---
 
 
 # ワークフローを使用したプロファイルリストの作成{#creating-a-profile-list-with-a-workflow}
 
-新しいリストテーブルに基づいて **** リストタイプの受信者を作成するには、リストを生成するターゲットワークフローを作成する必要があります。 キャンペーンのリストの詳細については、 [この節を参照してください](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign)。
+新しいリストテーブルに基づいて **** リストタイプの受信者を作成するには、リストを生成するターゲットワークフローを作成する必要があります。
+
+キャンペーンのリストの詳細については、 [この節を参照してください](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign)。
+
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](../../platform/using/creating-and-managing-lists.md#create-list-in-a-wf-video)
+
+ターゲットワークフローを作成し、カスタム受信者テーブルの受信者を更新するには、次の手順に従います。
 
 1. エクスプローラーの **[!UICONTROL プロファイルとターゲット/ジョブ/ワークフローのターゲット設定]** (Targeting Jobs)ノードに移動します。
 1. 新しいターゲティングワークフローを作成します。
@@ -46,7 +50,4 @@ ht-degree: 22%
 
    ![](assets/mapping_list_view.png)
 
->[!NOTE]
->
->また、受信者のリストの [作成のビデオを参照することもできます](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-list-of-recipients.html) 。
 

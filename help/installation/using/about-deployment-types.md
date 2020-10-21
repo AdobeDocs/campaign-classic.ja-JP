@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: deployment-types-
 discoiquuid: 298d9b9f-220f-4862-bc4c-1ad7f8d51049
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 11%
+source-wordcount: '139'
+ht-degree: 8%
 
 ---
 
@@ -32,5 +32,5 @@ Adobe Campaignのモジュラー設計により、スタンドアロンの設定
 >Adobeがホストする配置のAdobe。 例えば、
 >サーバー設定ファイルとインスタンス設定ファイルを設定します。
 >
->デプロイメント間の主な違いについて詳しくは、「 [ホスティングモデル](../../installation/using/hosting-models.md) 」セクションまたは「ホスト型デプロイメントとオンプレミスデプロイメントの [機能の違い](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html) 」記事を参照してください。
+>デプロイメント間の主な違いについて詳しくは、「 [ホスティングモデル](../../installation/using/hosting-models.md) 」の節またはホストデプロイメントとオンプレミスデプロイメントの [機能の違いを参照してください](../../installation/using/capability-matrix.md)。
 

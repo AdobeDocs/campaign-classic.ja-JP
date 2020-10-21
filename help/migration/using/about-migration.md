@@ -1,8 +1,6 @@
 ---
-title: 移行について
-seo-title: 移行について
-description: 移行について
-seo-description: null
+title: Campaign Classicへの移行
+description: 以前のキャンペーンのバージョンからCampaign Classicに移行する方法を説明します。
 page-status-flag: never-activated
 uuid: 23a9c858-b6c1-495f-a463-0ceb147068c9
 contentOwner: sauviat
@@ -12,26 +10,22 @@ content-type: reference
 topic-tags: migration-overview
 discoiquuid: 0ff9a8a9-2cb7-4b0b-a45e-2431151e59f1
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 5%
+source-wordcount: '153'
+ht-degree: 0%
 
 ---
 
 
-# 移行について{#about-migration}
+# Campaign Classicへの移行{#about-migration}
 
-このドキュメントでは、移行の前提条件、Adobe Campaign Classic(v7)プラットフォームへの移行の手順、および設定に応じた追加の必要な設定とオプション設定について説明します。
+このドキュメントでは、移行の前提条件、Adobe Campaign Classicへの移行の手順(v7)、および設定に応じた追加の必要なオプション設定について説明します。
 
-移行プロセスは慎重に実行する必要があり、影響を事前に十分に考慮し、手順を厳密に実行する必要があります。 エキスパートユーザーのみが実行する必要があります。 移行手順を開始する前に、Adobe Campaignにご連絡いただくことを強くお勧めします。
+移行プロセスは慎重に実行する必要があり、影響を事前に十分に考慮し、手順を厳密に実行する必要があります。 エキスパートユーザーのみが実行する必要があります。 移行手順を開始する前に、 [Adobeカスタマーケアにお問い合わせいただくことを強くお勧めします](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 。
 
-移行は、事前に開発環境でテストし、スムーズかつエラーなく実行できるようにする必要があります。 本番環境の移行は、移行された開発環境が完全に承認された場合にのみ行われます。
-
->[!IMPORTANT]
->
->移行を開始する前に、このガイド全体 **を読む必要があります**。
+移行は、事前に開発環境でテストし、スムーズかつエラーなく実行できるようにする必要があります。 本番環境の移行は、移行された開発環境の完全な検証が完了した後にのみ実行する必要があります。
 
 >[!NOTE]
 >
->Adobe Campaignv7の新機能と進化については、 [このページで詳しく説明します](../../rn/using/latest-release.md)。
+>Adobe Campaignv7の新機能と進化については、リリースノート [に詳しく説明します](../../rn/using/latest-release.md)。

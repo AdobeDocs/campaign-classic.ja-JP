@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '195'
+ht-degree: 96%
 
 ---
 
@@ -38,5 +38,5 @@ Adobe Campaign では、外部アプリケーションとの通信、データ�
 
 >[!NOTE]
 >
->これらのモジュールの使用可否と使い方は、インストール構成のデプロイメントタイプによって異なります。[Campaign オンプレミス／ホスト機能マトリックス](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)を参照してください。
+>これらのモジュールの使用可否と使い方は、インストール構成のデプロイメントタイプによって異なります。Refer to [Campaign on-premise - hosted capabilities matrix](../../installation/using/capability-matrix.md).
 

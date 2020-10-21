@@ -11,9 +11,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '740'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 配達確認メッセージを作成して、メインターゲットへの送信前に承認グループに送信してテストすることを強くお勧めします。その後、メッセージのコンテンツと、パーソナライゼーションおよび配信のパラメーターを検証できます。
 
-[詳しくはここをクリック](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)してください。[このビデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/managing-seed-and-proofs.html)もご覧ください。
+[詳しくはここをクリック](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)してください。
 
 ### Adobe Campaign でのシードアドレスの使用方法は？ {#how-to-use-seed-addresses-in-adobe-campaign-}
 

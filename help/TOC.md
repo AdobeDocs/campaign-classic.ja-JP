@@ -8,9 +8,9 @@ product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
+source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
 workflow-type: tm+mt
-source-wordcount: '2124'
+source-wordcount: '2125'
 ht-degree: 98%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 98%
       + よくある質問{#faq}
          + [よくある質問](platform/using/common-questions.md)
          + [重要な概念](platform/using/faq-key-concepts.md)
+         + [ビルドのアップグレード](platform/using/faq-build-upgrade.md)
          + [オーディエンス](platform/using/faq-audiences.md)
          + [メッセージのデザイン](platform/using/faq-designing.md)
          + [メッセージの送信](platform/using/faq-messages.md)
@@ -652,7 +653,8 @@ ht-degree: 98%
       + [データベースクリーンアップワークフロー](production/using/database-cleanup-workflow.md)
    + Adobe Campaign の更新 {#updating-adobe-campaign}
       + [はじめに](production/using/introduction.md)
-      + [アップグレード](production/using/upgrading.md)
+      + [ビルドアップグレードの実行](production/using/build-upgrade.md)
+      + [アップグレード手順（オンプレミス）](production/using/upgrading.md)
       + [Unicode への切り替え](production/using/switching-to-unicode.md)
       + [移行手順](production/using/migration-procedures.md)
    + データベースメンテナンス {#database-maintenance}
@@ -754,8 +756,4 @@ ht-degree: 98%
       + [v5.11 特有の設定](migration/using/specific-configurations-in-v5-11.md)
       + [v6.02 特有の設定](migration/using/specific-configurations-in-v6-02.md)
       + [v6.10 特有の設定](migration/using/specific-configurations-in-v6-10.md)
-   + ロールバック {#rollback}
-      + [ロールバックについて](migration/using/about-rollback.md)
-      + [v5.11 の復元](migration/using/restoring-v5-11.md)
-      + [v6.02 の復元](migration/using/restoring-v6-02.md)
-      + [v6.1 の復元](migration/using/restoring-v6-1.md)
+   + [ロールバック手順](migration/using/about-rollback.md)

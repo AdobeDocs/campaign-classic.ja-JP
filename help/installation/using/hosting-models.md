@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 3175b9ab-e305-4f19-8267-d6172fa07a2a
 translation-type: tm+mt
-source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 3%
+source-wordcount: '332'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaignオファーは、3つのホスティングモデルから選択�
 
 >[!NOTE]
 >
->Adobeがホストする環境の場合、メインのインストールと設定の手順は、Adobe（サーバーの設定、インスタンス設定ファイルのカスタマイズなど）によってのみ実行できます。 デプロイメントモード間の主な違いについて詳しくは、 [この記事を参照してください](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)。
+>Adobeがホストする環境の場合、メインのインストールと設定の手順は、Adobe（サーバーの設定、インスタンス設定ファイルのカスタマイズなど）によってのみ実行できます。 デプロイメントモード間の主な違いについて詳しくは、 [このページを参照してください](../../installation/using/capability-matrix.md)。
 
 * **Managed Services（ホスト）**
 

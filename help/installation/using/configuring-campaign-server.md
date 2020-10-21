@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 translation-type: tm+mt
-source-git-commit: 7d0a00f4ef49a48014735de36786a48c31b76804
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '3620'
+source-wordcount: '3615'
 ht-degree: 5%
 
 ---
@@ -34,8 +34,8 @@ ht-degree: 5%
 
 * [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
 * [モデルのホスティング](../../installation/using/hosting-models.md)
-* [Campaign Classicオンプレミスおよびホステッド機能マトリックス](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)
-* [ハイブリッドモデルとホストモデルの設定手順](../../installation/using/about-hybrid-and-hosted-models.md) )
+* [Campaign Classicオンプレミスおよびホステッド機能マトリックス](../../installation/using/capability-matrix.md)
+* [ハイブリッドモデルとホストモデルの設定手順](../../installation/using/hosting-models.md)
 
 Campaign Classic設定ファイルは、Adobe Campaignのインストールフォルダーの **conf** フォルダーに保存されます。 設定は2つのファイルに分かれています。
 
@@ -72,7 +72,7 @@ Campaign Classic設定ファイルは、Adobe Campaignのインストールフ�
 >[!NOTE]
 >
 >**各演算子はゾーンにリンクする必要があります**。 演算子のIPアドレスがゾーンで定義された範囲に属する場合、演算子はインスタンスにログオンできます。\
->オペレータのIPアドレスは、複数のゾーンで定義できます。 この場合、オペレータは、各ゾーンに対する使用可能な **一連の権限を受け取ります** 。
+>オペレータのIPアドレスは、複数のゾーンで定義できます。 この場合、オペレータは各ゾーンに対する **一連の利用可能な権限を受け取る** 。
 
 標準搭載の **serverConf.xmlファイルには、次の3つのゾーンが含まれています** 。 **public、VPN、およびLAN**。
 

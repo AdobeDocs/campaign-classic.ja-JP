@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 86c18986-1f65-40ff-80dc-1fbff37f406d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3042'
+ht-degree: 20%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->設定によっては、Adobeがサーバとインスタンスの設定ファイルにアクセスする場合など、Adobeがホストする配置に対してのみ実行できる場合があります。 各デプロイメントの詳細については、「 [ホスティングモデル](../../installation/using/hosting-models.md) 」の節または [この記事を参照してください](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)。
+>設定によっては、Adobeがサーバとインスタンスの設定ファイルにアクセスする場合など、Adobeがホストする配置に対してのみ実行できる場合があります。 各デプロイメントの詳細については、「 [ホスティングモデル](../../installation/using/hosting-models.md) 」の節または [このページを参照してください](../../installation/using/capability-matrix.md)。
 
 配信品質に関する概念とベストプラクティスについて詳しくは、この [セクションを参照してください](../../delivery/using/about-deliverability.md)。
 

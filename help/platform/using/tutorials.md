@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 677d631a075f50a80c9379fff0c17d3d06c7e803
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '399'
+ht-degree: 79%
 
 ---
 
@@ -42,18 +42,18 @@ Adobe Campaign について詳しくは、以下の使用例と例を確認し�
 * [概要の作成](../../web/using/use-cases--creating-overviews.md)：概要タイプの Web アプリケーションを作成して、データベースのすべての Web アプリケーションを表示します。
 * [ワークフローの使用例](../../workflow/using/about-workflow-use-cases.md)：これらの使用例を通じて、ワークフローの様々な使用方法を示します。
 
-## ハウツービデオ {#how-to-videos}
+## セルフサービス {#how-to-videos}
 
-Adobe Campaign の主な機能については、ハウツービデオをご覧ください。
+製品ドキュメントに加えて、以下に示すキャンペーンのセルフヘルプリソースにアクセスできます。
 
-* [オーディエンスの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-list-of-recipients.html)：Adobe Campaign でオーディエンスを作成する方法を紹介します。
-* [キャンペーンと E メールの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)：Adobe Campaign でキャンペーンの E メールを作成する方法を紹介します。
-* [受信者のリストの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-list-of-recipients.html)：Adobe Campaign のワークフローで受信者のリストを作成します。
-* [ターゲティングワークフローの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-targeting-workflow.html)：受信者の誕生日をターゲットにするワークフローを作成します。
-* [キャンペーン内のワークフローの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-workflow.html)：キャンペーン内でワークフローを作成する方法を説明します。
-* [プロファイルのインポート](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/importing-profiles.html)：Adobe Campaign でファイルからプロファイルをインポートする方法を説明します。
-* [インターフェイスの概要](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html)：Adobe Campaign インターフェイスの操作方法を説明します。
-* [E メールのシードと配達確認の管理](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/managing-seed-and-proofs.html)：Adobe Campaign でシードと配達確認を既存の E メールに追加する方法を説明します。
-* [Adobe Campaign と Microsoft Dynamics 365 の統合](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/integrating/dynamics365-integration.html)：CRM コネクタの機能を使用して Adobe Campaign と Microsoft Dynamics を連携させ、同期する方法を説明します。
+### チュートリアルビデオ
 
-これらの短く詳しいビデオに加えて、アドビの Web サイトで、[トレーニングコース](https://learning.adobe.com/catalog.html)や[プレゼンテーションビデオ](https://www.adobe.com/training/video.html)を利用することもできます。
+ビデオでAdobe Campaignの主な機能を確認。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/overview.html)
+
+### トレーニングセッションとビデオ
+
+これらの短く詳細なビデオの他に、トレー [ニングコース](https://learning.adobe.com/catalog.html) や特集 [プレゼンテーションビデオはAdobe](https://www.adobe.com/training/video.html) .comで視聴できます。
+
+### Experience Leagueコース
+
+また、 [推奨コース](https://experienceleague.adobe.com/?lang=en#dashboard/learning) (Adobe Campaign Classic)もご覧いただけます。コースは専門的に厳選された一連のレッスンで、スキルや知識を習得するのに役立ちます。

@@ -11,10 +11,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 100%
+source-wordcount: '890'
+ht-degree: 95%
 
 ---
 
@@ -40,9 +40,9 @@ Campaign クライアントコンソールの&#x200B;**ヘルプ／バージョ�
 
 ## オンプレミス環境とホスト環境では作業にどのような違いがありますか？{#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
 
-Adobe Campaign Classic には一連のモジュールとオプションが付属しています。これらのモジュールの使用可否と設定は、インストール構成の[デプロイメントタイプ](../../installation/using/hosting-models.md)がホスト（マネージドサービス）であるかオンプレミスであるかによって異なります。
+Adobe Campaign Classic には一連のモジュールとオプションが付属しています。The availability of these modules and their configuration can depend on the [type of deployment](../../installation/using/hosting-models.md) of your installation: hosted (Managed Services), hybrid or on-premise.
 
-[詳しくはここをクリック](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)してください。
+[詳しくはここをクリック](../../installation/using/capability-matrix.md)してください。
 
 ## ユーザー権限はどのようにして設定できますか？{#how-can-i-set-up-user-permissions-}
 
@@ -64,7 +64,9 @@ Adobe Campaign には、GDPR および CCPA に則ってプライバシーを遵
 
 ## 知っておくべき Campaign ユーザーインターフェイスの概念は何ですか？{#what-are-campaign-user-interface-concepts-i-should-know-}
 
-Adobe Campaign ワークスペースの基本事項について詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md)を参照してください。[このビデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/getting-started/interface-overview.html)もご覧ください。
+Adobe Campaign ワークスペースの基本事項について詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md)を参照してください。
+
+![](assets/do-not-localize/how-to-video.png) [ビデオ内のDiscoverキャンペーンワークスペース](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 ## メッセージのオーディエンスはどのようにして選択できますか？{#how-can-i-select-the-target-population-of-my-messages-}
 
@@ -84,7 +86,9 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 ## 最初の E メールの作成および送信方法は？{#how-to-create-and-send-a-first-email-}
 
-[詳しくはここをクリック](../../delivery/using/about-email-channel.md)するか、キャンペーンでの E メールの作成方法に関する[このビデオを閲覧](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)してください。
+[詳しくはここをクリック](../../delivery/using/about-email-channel.md)してください。
+
+![](assets/do-not-localize/how-to-video.png) [ビデオで見つける](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
 
 ## SMS メッセージの送信方法は？{#how-to-send-sms-messages-}
 

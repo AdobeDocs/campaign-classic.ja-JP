@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
+source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
-source-wordcount: '3780'
+source-wordcount: '3768'
 ht-degree: 97%
 
 ---
@@ -225,7 +225,7 @@ FDA over HTTP に関する制限が、トランザクションメッセージガ
 
 URL レポート設定の新しいパラメーターは、[こちら](../../reporting/using/properties-of-the-report.md#defining-additional-settings)で説明されています。
 
-「**Campaign Classic オンプレミスとホスト機能マトリックス**」ページが更新され、新しい FDA コネクタが追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html)
+「**Campaign Classic オンプレミスとホスト機能マトリックス**」ページが更新され、新しい FDA コネクタが追加されました。[詳細を表示](../../installation/using/capability-matrix.md)。
 
 **Campaign Classic 機能マトリックス**&#x200B;ページを更新しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
@@ -379,7 +379,7 @@ Adobe Campaign Classic のオファーカタログの使用に関する新しい
 
 サブワークフローアクティビティの節に、使用例が追加されました。[詳細を表示](../../workflow/using/sub-workflow.md)
 
-The [Campaign Classic On-premise &amp; Hosted capability matrix](https://helpx.adobe.com/jp/campaign/kb/acc-on-prem-vs-hosted.html) Knowledge base article has been updated with information relating to Email BCC.
+「 [Campaign Classicオンプレミス&amp;ホスト機能マトリックス](../../installation/using/capability-matrix.md) 」ページは、電子メールBCCに関する情報で更新されました。
 
 トランザクションメッセージングのドキュメントが更新され、テンプレートのパブリッシュに関する注意事項が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 

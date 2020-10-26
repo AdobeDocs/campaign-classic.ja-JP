@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 3aab3d47-76fd-4c68-add4-9c14240c936e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2639'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -114,12 +114,12 @@ ht-degree: 97%
 
 「**[!UICONTROL 送信]**」ボタンをクリックした後に、配信が通常より長くかかっているように見えることがあります。これは様々な要素が原因として考えられます。
 
-* 一部の電子メールプロバイダーが、IPアドレスをブロックリストに追加している場合があります。 この場合は、broadLog を確認して[この節](../../delivery/using/about-deliverability.md)を参照してください。
+* 一部の E メールプロバイダーが、ブロックリストに IP アドレスを追加している可能性があります。この場合は、broadLog を確認して[この節](../../delivery/using/about-deliverability.md)を参照してください。
 * 迅速に処理するには配信が大きすぎる可能性があります。これは、JavaScript の高度なパーソナライゼーションで、または配信が 60KB を超えている場合に発生することがあります。コンテンツのガイドラインについて詳しくは、Adobe Campaign の[配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)を参照してください。
 * Adobe Campaign MTA 内でスロットルが発生している可能性があります。これは次の原因で発生します。
 
    * メッセージ保留中（**[!UICONTROL 割り当てに達しました]**&#x200B;というメッセージ）：Campaign に定義されている宣言的 MX ルールによって宣言された割り当てに達しました。このメッセージについて詳しくは、[このページ](../../delivery/using/deliverability-faq.md)を参照してください。MX ルールについて詳しくは、[このページ](../../delivery/using/technical-recommendations.md#mx-rules)を参照してください。
-   * Messages pended (**[!UICONTROL dynamic flow control]** message): Campaign MTA has encountered errors when trying to deliver messages for a given ISP which causes a slowdown to avoid too big of an error density and thus facing potential denylist.
+   * メッセージ保留中（**[!UICONTROL 動的フロー制御]**&#x200B;メッセージ）：指定された ISP にメッセージを配信しようとしたときに Campaign MTA でエラーが発生しました。エラーが甚大になることでブロックリストに登録されることのないよう、低速になります。
 
 * システムの問題によってサーバー間のインタラクションが妨げられることがあります。これにより、送信処理全体が低速になります。サーバーにメモリまたはリソースの問題がないことを確認します。これは、例えば、Campaign によるパーソナライゼーションデータの取得処理に影響することがあります。
 
@@ -163,7 +163,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td> 無視<br /> </td> 
-   <td> 配信は、アドレスにエラーがあるので受信者に送信されませんでした。It was either on denylist, quarantined, not provided or a duplicate. <br /> </td> 
+   <td> 配信は、アドレスにエラーがあるので受信者に送信されませんでした。ブロックリストへの登録、強制隔離、未指定または重複の可能性があります。 <br /> </td> 
   </tr> 
   <tr> 
    <td> 送信済み<br /> </td> 

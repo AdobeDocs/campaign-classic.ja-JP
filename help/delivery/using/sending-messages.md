@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Classic を使用した E メールの送信
-description: 電子メール配信パラメーターについて説明します。
+description: E メール配信パラメーターの詳細
 page-status-flag: never-activated
 uuid: 791f7a54-3225-46ca-ad6f-6c32e9c62d75
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: e2dd8161-fe38-48bf-a288-8ec328b2660e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -29,25 +29,25 @@ E メールを承認し、作成する配信の受信者に対して送信する
 
 以下の節では、E メールの配信に関するパラメーターについて説明します。
 
-## E メールの BCC {#archiving-emails}
+## BCC で E メールを送信{#archiving-emails}
 
 Adobe Campaign では、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存することができます。このオプションを有効にしたら、送信したすべてのメッセージの正確なコピーがこの配信用に保持されます。
 
-電子メールBCCの設定とベストプラクティスの詳細については、 [この節を参照してください](../../installation/using/email-archiving.md)。
+「BCC で E メールを送信」の設定とベストプラクティスの詳細については、 [この節](../../installation/using/email-archiving.md)を参照してください。
 
 >[!NOTE]
 >
->電子メールBCCはオプションの機能です。 この機能を有効にするには、ライセンス契約を確認したうえで、アカウント担当者にお問い合わせください。
+>「BCC で E メールを送信」はオプションの機能です。この機能を有効にするには、ライセンス契約を確認したうえで、アカウント担当者にお問い合わせください。
 
-新しい配信または配信テンプレートを作成する場合、電子メールBCCはデフォルトで有効になっていません。 電子メール配信または配信テンプレートレベルで手動で有効にする必要があります。
+新しい配信または配信テンプレートを作成する場合、「BCC で E メールを送信」はデフォルトで有効になっていません。E メール配信または配信テンプレートレベルで手動で有効にする必要があります。
 
-電子メール配信テンプレートの電子メールBCCを有効にするには、次の手順に従います。
+E メール配信テンプレートの「BCC で E メールを送信」を有効にするには、次の手順に従います。
 
 1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;または&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL 配信テンプレート]**&#x200B;に移動します。
 1. 目的の配信を選択します。または、標準の **E メール配信**&#x200B;テンプレートを複製して、複製されたテンプレートを選択します。
 1. 「**プロパティ**」ボタンをクリックします。
 1. 「**[!UICONTROL 配信]**」タブを選択します。
-1. [ **電子メールBCC** ]オプションを選択します。 このテンプレートに基づく各配信に対するすべての送信済みメッセージのコピーが、設定済みの電子メールBCCアドレスに送信されます。
+1. 「**BCC で E メールを送信**」オプションを選択します。このテンプレートに基づく各配信に対するすべての送信済みメッセージのコピーが、設定済みの「BCC で E メールを送信」アドレスに送信されます。
 
    ![](assets/s_ncs_user_wizard_archiving.png)
 

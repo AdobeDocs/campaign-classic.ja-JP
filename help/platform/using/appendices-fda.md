@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1416'
+ht-degree: 100%
 
 ---
 
@@ -199,7 +199,7 @@ ODBC ドライバーと Teradata Parallel Transporter Base を必ずインスト
 
 接続のテスト中にエラー **TIM-030008 Date &#39;2&#39;: missing character(s) (iRc=-53)**、が表示される場合は、ODBC ドライバーが正しくインストールされていること、および Campaign サーバーに対して LD_LIBRARY_PATH（Linux）または PATH（Windows）が設定されていることを確認してください。
 
-エラー **ODB-240000 ODBC error:[Microsoft][ODBC Driver Manager]Data source name not found and no default driver specified.** は、Windows で 16.X ドライバーを使用した場合に発生します。Adobe Campaign の odbcinst.ini では、Teradata のメタデータ名は「{teradata}」である必要があります。
+エラー **ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified.** は、Windows で 16.X ドライバーを使用した場合に発生します。Adobe Campaign の odbcinst.ini では、Teradata のメタデータ名は「{teradata}」である必要があります。
 Adobe Campaign サーバーのバージョンが 18.10 の場合、外部アカウントのオプションに「ODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot;」を追加できます。バージョン番号は異なる場合があります。正確な番号は、odbcad32.exe を実行して「ドライバー」タブにアクセスすると見つかります。
 バージョン 18.10 以前の場合は、ドライバーのインストールで作成された odbcinst.ini の Teradata セクションを Teradata という新しいセクションにコピーする必要があります。この場合は、regedit を使用できます。
 

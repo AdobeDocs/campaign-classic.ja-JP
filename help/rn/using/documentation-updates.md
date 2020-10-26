@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
 source-wordcount: '3768'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 97%
 
 ホスティングモデルごとのキャンペーン機能マトリックスが更新され、『インストール』ガイドに移動されました。 [詳細を表示](../../installation/using/capability-matrix.md)
 
-「キャンペーンレポートの高度な機能」の節が強化され、カスタムレポートでURLパラメーターと変数を使用する方法の詳細が示されました。 [詳細を表示](../../reporting/using/advanced-functionalities.md)
+「キャンペーンレポートの高度な機能」の節が強化され、カスタムレポートで URL パラメーターと変数を使用する方法の詳細が示されました。[詳細を表示](../../reporting/using/advanced-functionalities.md)
 
-レポートのプロパティページは、構成を容易にするために再編成、強化されました。 [詳細を表示](../../reporting/using/properties-of-the-report.md)
+レポートのプロパティページは、設定を容易にするために再編成され、強化されました。[詳細を表示](../../reporting/using/properties-of-the-report.md)
 
-レガシーバイナリプロトコルからHTTP/2ベースのAPNsプロバイダーAPIに移行する方法の詳細に関する新しいテクノチュートが作成されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
+レガシーバイナリプロトコルから HTTP/2 ベースの APN プロバイダー API に移行する方法の詳細に関する新しいテク二カルノートが作成されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
 
 ## 2020 年 9 月 {#september-2020}
 
@@ -379,7 +379,7 @@ Adobe Campaign Classic のオファーカタログの使用に関する新しい
 
 サブワークフローアクティビティの節に、使用例が追加されました。[詳細を表示](../../workflow/using/sub-workflow.md)
 
-「 [Campaign Classicオンプレミス&amp;ホスト機能マトリックス](../../installation/using/capability-matrix.md) 」ページは、電子メールBCCに関する情報で更新されました。
+The [Campaign Classic On-premise &amp; Hosted capability matrix](../../installation/using/capability-matrix.md) page has been updated with information relating to Email BCC.
 
 トランザクションメッセージングのドキュメントが更新され、テンプレートのパブリッシュに関する注意事項が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 

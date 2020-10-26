@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 discoiquuid: cfa22577-0b9e-4eee-900d-214b81256d81
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3e1896ac4ccd1099bd50e279762c2fbff5cd8eba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ ht-degree: 89%
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. この配信の受信者は、まだ承認を確認していないため、データベース・ブロックリスト上に存在します。 この通信を受け取るには、このテンプレートに基づく配信をターゲットの受信者にブロックリスト承認する必要があります。
+1. この配信の受信者は、承認を確認していないので、まだデータベースでブロックリストに登録されています。この通信が受信されるには、このテンプレートに基づいて配信を承認して、ブロックリストに登録された受信者をターゲットにする必要があります。
 
    これを実行するには、「**[!UICONTROL 除外]**」タブをクリックします。
 
-1. Click the **[!UICONTROL Edit...]** link and uncheck the **[!UICONTROL Exclude recipients who no longer want to be contacted]** option.
+1. 「**[!UICONTROL 編集...]**」リンクをクリックし、「**[!UICONTROL 今後連絡を希望しない受信者を除外]**」オプションのチェックをオフにします。
 
    <!-- ![](assets/s_ncs_admin_survey_double-opt-in_sample_4d.png)-->
 
@@ -109,7 +109,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   The first **[!UICONTROL Script]** activity will add recipients on denylist until they confirmed their subscription to the newsletter. このアクティビティの内容は、次のようにする必要があります。
+   1 つ目の「**[!UICONTROL スクリプト]**」アクティビティでは、ニュースレターの購読を確認していない受信者をブロックリストに登録します。このアクティビティの内容は、次のようにする必要があります。
 
    ```
    ctx.recipient.@blackList=1
@@ -172,7 +172,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
-   The user is added to the Adobe Campaign database in the **[!UICONTROL Temp]** folder, and their profile is on denylist until they confirm their subscription with the email.
+   ユーザーは、Adobe Campaign データベースの **[!UICONTROL Temp]** フォルダーに追加され、プロファイルがブロックリストに登録されます。この登録は、ユーザーが E メールによる購読確認を完了するまで続きます。
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_8f.png)
 
@@ -186,7 +186,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
    Adobe Campaign では、ユーザープロファイルが更新されます。
 
-   * 彼らはもうブロックリストにいない
+   * ブロックリストへの登録が解除されます。
    * 情報サービスの購読が登録されます。
 
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)

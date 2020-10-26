@@ -11,11 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 discoiquuid: d10624ea-d961-4162-879b-1754f897d763
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '177'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Experience Cloud Assets は、複数のソリューション間で共有でき�
 
 Adobe Campaign で E メール配信またはランディングページを編集しているときに、Adobe Experience Cloud ライブラリにあるアセットを配置できます。使用しているソリューションに応じて、これらのアセットを Assets コアサービスまたは Adobe Experience Manager Assets に格納できます。
 
-利用可能な各種ライブラリについて詳しくは、[このドキュメント](https://docs.adobe.com/content/help/en/core-services/interface/assets/experience-cloud-assets.html)を参照してください。
+利用可能な各種ライブラリについて詳しくは、[このドキュメント](https://docs.adobe.com/content/help/ja-JP/core-services/interface/assets/experience-cloud-assets.html)を参照してください。
 
 各ライブラリに関連する特性について詳しくは、[Assets へのアクセスの設定](../../integrations/using/configuring-access-to-assets.md)の節を参照してください。
 

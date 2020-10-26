@@ -9,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: 9ac4c60a-b0f6-42fb-a081-74b57820cb16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->Keep in mind that, when an operator performs an action on a workflow (start, stop, pause, etc.), the action is not executed straightaway, but instead placed in a queue in order to be processed by the [workflow module](../../workflow/using/architecture.md).
+>オペレーターがワークフローに対するアクションを実行すると（開始、停止、一時停止など）、アクションは即座に実行されるのではなく、[ワークフローモジュール](../../workflow/using/architecture.md)に処理されるまでキューに入れられるので、ご注意ください。
 
 ## アクションツールバー {#actions-toolbar}
 

@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 247d73933991047603b8d61c7489d976c448dd52
 workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -149,11 +149,11 @@ Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug,
 
 ### Cookie {#cookies}
 
-Adobe Campaignでは、その追跡機能のおかげで、次の3種類のcookieを使用して配信受信者の閲覧を追跡できます。セッションcookieと2つの永続的なcookie。
+Adobe Campaign では、そのトラッキング機能のおかげで、3 種類の Cookie（セッション Cookie と 2 つの永続的な Cookie）を使用して配信受信者の閲覧を追跡できます。
 
-* A **session cookie**: the **nlid** cookie contains the identifier of the email sent to the contact (**broadlogId**) and the identifier of the message template (**deliveryId**). Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での Web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
+* **セッション Cookie**：**nlid** Cookie には、連絡先に送信される E メールの識別子（**broadlogId**）およびメッセージテンプレートの識別子（**deliveryId**）が含まれています。Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での Web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
 
-* 永続的な **cookie**:UUID **** (Universal Unique IDentifier)cookieは、Adobe Experience Cloudのソリューション間で共有されます。 新しい値が生成されるとクライアントブラウザーから表示されなくなるまで、1回設定されます。 このcookieを使用すると、Webサイトの訪問時にExperience Cloudソリューションを操作するユーザーを識別できます。 このレポートは、ランディングページ(不明な顧客アクティビティを受信者に関連付けるため)または配信によって預け入れることができます。 この Cookie の説明については、[こちら](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-mc.html)を参照してください。
+* A **permanent cookie**: the **UUID** (Universal Unique IDentifier) cookie is shared between Adobe Experience Cloud solutions. 設定は 1 回で、新しい値が生成されると、クライアントブラウザーから消滅します。この Cookie により、Web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。ランディングページ（不明な顧客アクティビティを受信者に関連付けるため）または配信によって預けることができます。この Cookie の説明については、[こちら](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-mc.html)を参照してください。
 
 <!--The **nllastdelid** cookie (introduced in Campaign Classic 20.3) is a permanent cookie which contains the **deliveryId** of the last delivery that user clicked the link from. This cookie is used - when the session cookie is missing - to identify the tracking table that will be used.-->
 

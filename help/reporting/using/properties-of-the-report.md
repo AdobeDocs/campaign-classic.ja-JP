@@ -9,51 +9,51 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 5ec88743-be51-438c-9064-dd0196fdd7d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0b9a0714075474bf52c3eed78d45bcef25b44fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 
 # レポートのプロパティ{#properties-of-the-report}
 
-必要に応じて、レポートを完全にパーソナライズしたり、設定したりできます。それには、レポートのプロパティを編集します。Report properties are accessed via the **[!UICONTROL Properties]** button above the activity sequence chart.
+必要に応じて、レポートを完全にパーソナライズしたり、設定したりできます。それには、レポートのプロパティを編集します。レポートのプロパティには、アクティビティ順序チャートの上にある「**[!UICONTROL プロパティ]**」ボタンをクリックしてアクセスします。
 
 ![](assets/s_ncs_advuser_report_properties_01.png)
 
-一般的なプロパティについては、以下に説明します。 「 **[!UICONTROL パラメーター]**」、「 **[!UICONTROL スクリプト]** 」 **[!UICONTROL タブおよび「スクリプト]** 」タブで設定される高度な機能については、この節で説明 [](../../reporting/using/advanced-functionalities.md)します。
+一般的なプロパティについては、以下に説明します。「**[!UICONTROL パラメーター]**」、「**[!UICONTROL 変数]**」、「**[!UICONTROL スクリプト]**」の各タブで設定される高度な機能については、[この節](../../reporting/using/advanced-functionalities.md)で説明します。
 
-## Generalプロパティ {#overall-properties}
+## 一般的なプロパティ {#overall-properties}
 
-レポートプロパティの **[!UICONTROL 「一般]** 」タブで、次に示す設定を編集できます。
+レポートプロパティの「**[!UICONTROL 一般]**」タブで、次に示す設定を編集できます。
 
-* レポートのラベルと内部名。 内部 **[!UICONTROL 名は]** 、レポートの最終URLに使用されます。 レポートの作成後は変更しないでください。
+* レポートのラベルと内部名。「**[!UICONTROL 内部名]**」は、レポートの最終 URL に使用されます。レポートの作成後は変更しないでください。
 
-* レポートの作成時に、レポート **フォルダ** (Folder)が選択されます。 ベストプラクティスは、カスタムレポートに [組み込まれているレポートと混在しないように、カスタムレポート専用のフォルダーを作成すること](../../reporting/using/about-campaign-built-in-reports.md)。
+* レポート&#x200B;**フォルダー**&#x200B;はレポートの作成時に選択されます。ベストプラクティスは、[組み込みレポート](../../reporting/using/about-campaign-built-in-reports.md)と混在しないように、カスタムレポート専用のフォルダーを作成することです。
 
-* レポートの作成時に **ストレージ** が選択されます。 To change the data table of the report, click the **[!UICONTROL Select link]** icon to the right of the **[!UICONTROL Document type]** field.
+* **ストレージ**&#x200B;はレポートの作成時に選択されます。レポートのデータテーブルを変更するには、「**[!UICONTROL ドキュメントタイプ]**」フィールドの右にある「**[!UICONTROL リンクを選択]**」アイコンをクリックします。
 
    ![](assets/s_ncs_advuser_report_properties_02.png)
 
-* **アクセス制御** 。 これらの設定については、以下で説明します。
+* **アクセス制御**&#x200B;パラメーター。これらの設定については、以下で説明します。
 
-## Controlling access to the report {#report-accessibility}
+## レポートへのアクセスの制御{#report-accessibility}
 
-レポートは、Adobe CampaignコンソールまたはWebブラウザーからアクセスできます。 その場合は、次に示すように、レポートへのアクセス制御の設定が必要になることがあります。
+レポートは、Adobe Campaign コンソールまたは Web ブラウザーからアクセスできます。その場合は、次に示すように、レポートへのアクセス制御の設定が必要になることがあります。
 
 ![](assets/s_ncs_advuser_report_properties_02b.png)
 
 選択できるオプションは次のとおりです。
 
-* **[!UICONTROL 匿名アクセス]**:このオプションを選択すると、レポートへの無制限のアクセスが有効になります。 ただし、操作はできません。
+* **[!UICONTROL 匿名アクセス]**：このオプションでは、レポートへの無制限アクセスが可能になります。ただし、操作はできません。
 
-   「webapp」技術演算子の権限は、レポート要素の表示に使用されます。 詳しくは、[この節](../../platform/using/access-management.md#default-operators)を参照してください。
+   「Web アプリ」技術的オペレーターの権限がレポート要素の表示に使用されます。詳しくは、[この節](../../platform/using/access-management.md#default-operators)を参照してください。
 
-* **[!UICONTROL アクセス制御]**:このオプションを選択すると、Adobe Campaign演算子はログオン後にアクセスできます。
-* **[!UICONTROL 特定のアカウント]**:このオプションを使用すると、「 **[!UICONTROL 演算子]** 」フィールドで選択した演算子の権限でレポートを実行できます。
+* **[!UICONTROL アクセス制御]**：このオプションでは、Adobe Campaign オペレーターがログオン後にレポートにアクセスできるようになります。
+* **[!UICONTROL 特定のアカウントを使用]**：このオプションでは、「**[!UICONTROL オペレーター]**」フィールドで選択したオペレーターの権限でレポートを実行できるようになります。
 
 ## レポートのローカライゼーションの管理 {#managing-report-localization}
 
@@ -67,7 +67,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->キャンペーンでのWebページのローカライゼーションについて詳しくは、 [この節を参照してください](../../web/using/translating-a-web-form.md)。
+>Campaign での Web ページのローカライゼーションについて詳しくは、[この節](../../web/using/translating-a-web-form.md)を参照してください。
 
 ## HTML レンダリングのパーソナライズ {#personalizing-html-rendering}
 

@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2665'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,21 +34,21 @@ Adobe Campaign では、強制隔離されたアドレスのリストを管理�
 
 E メールアドレスまたは電話番号が強制隔離されているプロファイルは、メッセージ準備の際に自動的に除外されます（[配信用の強制隔離アドレスの識別](#identifying-quarantined-addresses-for-a-delivery)を参照）。これによって配信が迅速になります。エラー率は配信の速度に大きく影響するからです。
 
-一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムとみなします。したがって、強制隔離を行うと、これらのプロバイダーによるブロックリストへの追加を回避できます。
+一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムとみなします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
 
 また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。配信を保護および最適化するベストプラクティスについて詳しくは、[このページ](../../delivery/using/delivery-best-practices.md)を参照してください。
 
-### 強制隔離ブロックリスト対 {#quarantine-vs-denylist}
+### 強制隔離対ブロックリスト{#quarantine-vs-denylist}
 
 **強制隔離**&#x200B;は、プロファイル自体ではなく、アドレスのみに適用されます。つまり、2 つのプロファイルに同じ E メールアドレスがある場合、そのアドレスが強制隔離されると、両方のプロファイルが影響を受けます。
 
 同様に、E メールアドレスが強制隔離されているプロファイルは、プロファイルを更新して新しいアドレスを入力できるので、再び配信アクションのターゲットになる可能性があります。
 
-Being on the **denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out).
+一方、**ブロックリスト**&#x200B;への登録では、登録されたプロファイルが、購読解除（オプトアウト）後のように、それ以降はどのような配信のターゲットにもならなくなります。
 
 >[!NOTE]
 >
->ユーザがSMS配信からオプトアウトするために「STOP」などのキーワードを持つSMSメッセージに返信した場合、電子メールオプトアウト処理のように、プロファイルがブロックリストに追加されることはありません。 強制隔離されるのはプロファイルの電話番号なので、そのユーザーは引き続き E メールメッセージを受信できます。
+>SMS 配信からのオプトアウトのために「STOP」のようなキーワードを使ってユーザーが SMS メッセージに返信しても、そのユーザーのプロファイルは、E メールのオプトアウトプロセスのようにはブロックリストに登録されません。強制隔離されるのはプロファイルの電話番号なので、そのユーザーは引き続き E メールメッセージを受信できます。
 
 ## 強制隔離アドレスの識別 {#identifying-quarantined-addresses}
 
@@ -107,7 +107,7 @@ Being on the **denylist**, on the other hand, will result in the profile no long
 
    ![](assets/tech_quarant_error_status.png)
 
-* ステータスを「 **[!UICONTROL Allowlisted]**」に変更することもできます。 この場合、アドレスは強制隔離リストに残りますが、エラーが発生した場合でも、自動的にターゲットに設定されます。
+* ステータスを「**[!UICONTROL 許可リストに登録済み]**」に変更することもできます。この場合、アドレスは強制隔離リストに残りますが、エラーが発生した場合でも、自動的にターゲットに設定されます。
 
 次の場合、アドレスは強制隔離リストから自動的に削除されます。
 
@@ -118,7 +118,7 @@ Being on the **denylist**, on the other hand, will result in the profile no long
 その後、ステータスは「**[!UICONTROL 有効]**」に変わります。
 
 >[!IMPORTANT]
-Recipients with an address in a **[!UICONTROL Quarantine]** or **[!UICONTROL On denylist]** status will never be removed, even if they receive an email.
+アドレスのステータスが「**[!UICONTROL 強制隔離中]**」または「**[!UICONTROL ブロックリストに登録済み]**」の受信者は、E メールを受信した場合でも削除されません。
 
 エラー数およびエラーの間隔も変更できます。そのためには、デプロイメントウィザードの設定（**[!UICONTROL E メールチャネル]**／**[!UICONTROL 詳細設定パラメーター]**）を変更します。デプロイメントウィザードについて詳しくは、[この節](../../installation/using/deploying-an-instance.md)を参照してください。
 

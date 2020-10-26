@@ -11,11 +11,11 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 discoiquuid: 335cf2de-1874-4e48-9538-f0937641cf96
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1256'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ Facebook には次の制限があります。
 
    >[!NOTE]
    >
-   >「**[!UICONTROL リンク]**」フィールドに Facebook アプリケーション のURL を追加してプロモーションする場合は、スマートフォンのディスプレイ条件に適合させることをお勧めします。
+   >「**[!UICONTROL リンク]**」フィールドに Facebook アプリケーションの URL を追加してプロモーションする場合は、スマートフォンのディスプレイ条件に適合させることをお勧めします。
    >
    >1. Facebook アプリケーションを選択し（[https://developers.facebook.com/apps](https://developers.facebook.com/apps)）、**[!UICONTROL 設定／ベーシック]**&#x200B;タブを選択します。
    >1. 「**[!UICONTROL 名前空間]**」フィールドに入力します。
@@ -159,7 +159,7 @@ Facebook には次の制限があります。
 
 1. 「**[!UICONTROL ステータス]**」フィールドに、ページ名の下に表示するテキストを入力します。
 1. 「**[!UICONTROL 名前]**」フィールドに、パブリケーションのタイトルを入力します。
-1. 「**[!UICONTROL ビデオコード]**」フィールドに、YouTube 動画のコードを入力します。例えば、「https://www.youtube.com/watch?v=abc123456&#39;」リンクの場合、ビデオコードは「abc123456」になります。
+1. 「**[!UICONTROL ビデオコード]**」フィールドに、YouTube 動画のコードを入力します。例えば、「https://www.youtube.com/watch?v=abc123456」というリンクの場合、ビデオコードは「abc123456」です。
 1. 「**[!UICONTROL キャプション]**」フィールドに、パブリケーションの末尾に表示するテキストを入力します。
 1. 「**[!UICONTROL 説明]**」フィールドに移動し、タイトルの下に表示するテキストを入力します。
 

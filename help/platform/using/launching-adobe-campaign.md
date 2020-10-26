@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 87ad4d4fc69d75e4367e7467ce27de29f58f9445
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 74%
+ht-degree: 90%
 
 ---
 
@@ -92,21 +92,21 @@ Adobe Campaign から切断するには、アイコンバーの最初のアイ�
 
 * **キャンペーンのクライアントコンソールとアプリケーションサーバーのバージョン番号** 。
 * **キャンペーンのクライアントコンソールとアプリケーションサーバーのビルド番号**
-* adobeカスタマーケアに連絡するためのリンク
-* adobeのプライバシーポリシー、利用条件、cookieポリシーへのリンク
+* アドビカスタマーサポートに連絡するためのリンク
+* アドビのプライバシーポリシー、利用条件、Cookie ポリシーへのリンク
 
 ![](assets/about-acc.png)
 
 Adobeカスタマーケアチームに問い合わせるときは、必ず、キャンペーンクライアントコンソールとアプリケーションサーバーのバージョン番号とビルド番号を指定する必要があります。
 
-Gold Standard [キャンペーンで実行している場合は](../../rn/using/gold-standard.md)、「 **[!UICONTROL About]** 」ボックスに表示されるSHA/1文字も共有する必要があります。 例えば、Gold **Standard 10リリースの場合**、ビルド番号には **、次のように** build 9032@efd8a94（ビルド）と表示されます。
+[Campaign Gold Standard バージョン](../../rn/using/gold-standard.md)を実行している場合は、「**[!UICONTROL バージョン情報]**」ボックスに表示される SHA/1 文字も共有する必要があります。例えば、Gold **Standard 10 リリース**&#x200B;の場合、ビルド番号は次のように **build 9032@efd8a94** と表示されます。
 
 ![](assets/about-acc-gs.png)
 
-Learn more about Gold Standard [in this article](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html).
+Gold Standard の詳細については、[この記事](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)を参照してください。
 
 **関連トピック**：
 
-* [キャンペーンサポートオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support)
+* [Campaign サポートオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support)
 * [ソフトウェア配布](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html)
-* [Experience Cloudサポートとエキスパートセッション](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* [Experience Cloud サポートおよびエキスパートセッション](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

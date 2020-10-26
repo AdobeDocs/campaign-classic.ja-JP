@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Campaign の最新ビルドでサポートされているすべてのシステ�
 
 最新の Campaign Classic リリースノートは[このページ](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.html)で参照できます。
 
-## 9. What is the procedure for domain configuration? {#what-is-the-procedure-for-domain-delegation-}
+## 9. ドメインの設定はどのような手順でおこないますか？{#what-is-the-procedure-for-domain-delegation-}
 
 サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。アドビは E メール配信用にドメインネームシステム（DNS）を考慮しています。これにより、クライアントがドメイン名と共に DNS エイリアスを使用することでブランドイメージを維持したり、E メール処理中の配信品質を最適化できるすべての技術的なベストプラクティスをアドビが自主的に実践したりできます。
 

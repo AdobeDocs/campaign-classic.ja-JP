@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 discoiquuid: 066e730b-2527-4257-b11f-2e73f746a8a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2100'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -277,7 +277,7 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
   </tr> 
   <tr> 
  <td> ブロックリスト登録済みメールアドレス<br /> </td> 
-    <td> 受信者上の電子メールアドレスを持つブロックリストを選択します。<br/> </td>
+    <td> E メールアドレスがブロックリストに登録されている受信者を選択します。<br/> </td>
   </tr> 
   <tr> 
    <td> 強制隔離された E メールアドレス<br /> </td> 

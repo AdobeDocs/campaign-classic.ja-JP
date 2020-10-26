@@ -11,11 +11,11 @@ audience: social
 content-type: reference
 topic-tags: configuration
 discoiquuid: 9d74ed9c-0055-4556-a205-6e5fea11816b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '798'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign で Twitter アカウントに対してツイートを送信で�
 
 まず、ツイートの送信先となる 1 つ以上の Twitter アカウントを作成します。
 
-To create a Twitter account, go to [https://twitter.com](https://twitter.com).
+Twitter アカウントを作成するには、[https://twitter.com](https://twitter.com) にアクセスします。
 
 ## Twitter でのテストアカウントの作成 {#creating-a-test-account-on-twitter}
 
@@ -100,7 +100,7 @@ Twitter アプリケーションごとに、アプリケーション設定を含
 
       ![](assets/social_twitter_service_010.png)
 
-1. 「**[!UICONTROL 訪問者フォルダー]**」フィールドで、フォロワーを作成する訪問者フォルダーを選択します。詳しくは、[動作の仕組み](../../social/using/publishing-on-twitter.md#operating-principle)を参照してください。デフォルトでは、フォロワーは **[!UICONTROL 訪問者]**&#x200B;フォルダーのルートに作成されます。
+1. 「**[!UICONTROL 訪問者フォルダー]**」フィールドで、フォロワーを作成する訪問者フォルダーを選択します。詳しくは、[動作の仕組み](../../social/using/publishing-on-twitter.md#operating-principle)を参照してください。デフォルトでは、フォロワーは&#x200B;**[!UICONTROL 訪問者]**&#x200B;フォルダーのルートに作成されます。
 
    ![](assets/social_twitter_service_010_b.png)
 

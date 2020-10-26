@@ -11,9 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 discoiquuid: 1d3cc650-3c79-4a1d-b2bc-e7eb6d59d2f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1164'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ LINE は、オンプレミスインストールまたは管理されたサービ
 
 ![](assets/line_message.png)
 
-以下の節では、LINE チャネルに固有の情報を提供します。 配信の作成方法に関する全般的な情報については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。
+以下の節では、LINE チャネルに固有の情報を提供します。配信の作成方法に関する全般的な情報については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。
 
 LINE チャネルを使用する手順は次のとおりです。
 

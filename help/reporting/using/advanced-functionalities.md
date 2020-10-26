@@ -9,38 +9,38 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 discoiquuid: 0c264783-2775-4ec6-8d49-cd9a45a18d60
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
 
 # 高度な機能{#advanced-functionalities}
 
-技術ユーザーは、 [一般的なプロパティに加えて](../../reporting/using/properties-of-the-report.md)、次のような高度な機能を利用してレポートを設定できます。
+技術的ユーザーは、[一般的なプロパティ](../../reporting/using/properties-of-the-report.md)に加えて、次のような高度な機能を利用してレポートを設定できます。
 
-* 複雑なクエリを作成して、 **スクリプト** アクティビティのデータを処理します。 [詳細情報](#script-activity)
+* 複雑なクエリを作成して、 **スクリプト**&#x200B;アクティビティのデータを処理します。[詳細情報](#script-activity)
 
-* サーバー側追加またはクライアント側で実行する外部スクリプト。 [詳細情報](#external-script)
+* サーバーサイドまたはクライアントサイドで実行する外部スクリプトを追加します。[詳細情報](#external-script)
 
-* ジャンプ **アクティビティを使用してレポートを呼び出します** 。 [詳細情報](#calling-up-another-report)
+* **ジャンプ**&#x200B;アクティビティでレポートを呼び出します。[詳細情報](#calling-up-another-report)
 
-* アクセスしやすくす追加るためのURLパラメーター。 [詳細情報](#calling-up-another-report)
+* URL パラメーターをレポートに追加してアクセスしやすくします。[詳細情報](#calling-up-another-report)
 
-* レポートのコンテキストで追加使用される変数。 [詳細情報](#adding-variables)
+* レポートのコンテキストで使用される変数を追加します。[詳細情報](#adding-variables)
 
 ## スクリプトの操作 {#adding-a-script}
 
-### 外部スクリプトの参照 {#external-script}
+### 外部参照スクリプト{#external-script}
 
-レポートページが呼び出されたときにクライアント側やサーバー側で実行されるJavaScriptコードを参照できます。
+レポートページの呼び出し時にクライアントサイドやサーバーサイドで実行される JavaScript コードを参照できます。
 
 手順は次のとおりです。
 
-1. Edit the [report properties](../../reporting/using/properties-of-the-report.md) and click the **[!UICONTROL Scripts]**.
+1. [レポートのプロパティ](../../reporting/using/properties-of-the-report.md)を編集し、「**[!UICONTROL スクリプト]**」をクリックします。
 1. 「**[!UICONTROL 追加]**」をクリックし、参照するスクリプトを選択します。
 1. 次に、実行モードを選択します。
 
@@ -48,11 +48,11 @@ ht-degree: 54%
 
    ![](assets/reporting_custom_js.png)
 
-クライアント側で通常の実行を行うには、参照先のスクリプトをJavaScriptで記述し、一般的なブラウザーとの互換性を持たせる必要があります。 詳しくは、[この節](../../web/using/web-forms-answers.md)を参照してください。
+クライアントサイドでの通常の実行の場合、参照されるスクリプトは JavaScript で記述されている必要があり、一般的なブラウザーとの互換性も必要です。詳しくは、[この節](../../web/using/web-forms-answers.md)を参照してください。
 
-### Adding a Script activity {#script-activity}
+### スクリプトアクティビティの追加{#script-activity}
 
-レポートを [デザインする際に](../../reporting/using/creating-a-new-report.md#modelizing-the-chart)、 **** スクリプトアクティビティを使用してデータを処理し、SQL言語を有効にしない複雑なクエリを簡単に作成できます。 スクリプトウィンドウでクエリを直接入力できます。
+[レポートをデザイン](../../reporting/using/creating-a-new-report.md#modelizing-the-chart)する際に、**[!UICONTROL スクリプト]**&#x200B;アクティビティを使用してデータを処理し、SQL 言語を有効にしない複雑なクエリを簡単に作成できます。スクリプトウィンドウでクエリを直接入力できます。
 
 「**[!UICONTROL テキスト]**」タブでは、テキスト文字列を定義できます。それらを使用するときの構文は、**$(Identifier)** のようになります。テキストの使用について詳しくは、[ヘッダーやフッターの追加](../../reporting/using/element-layout.md#adding-a-header-and-a-footer)を参照してください。
 
@@ -68,9 +68,9 @@ if( ctx.@_historyId.toString().length == 0 )
 
 そうしないと、現在のデータのみが表示されます。
 
-## URLパラメーターの追加 {#defining-additional-settings}
+## URL パラメーターの追加 {#defining-additional-settings}
 
-The **[!UICONTROL Parameters]** tab of the [report properties](../../reporting/using/properties-of-the-report.md) lets you define additional settings for the report: these settings will be passed into the URL during the call up.
+[レポート](../../reporting/using/properties-of-the-report.md)プロパティの「**[!UICONTROL パラメーター]**」タブでは、レポートの追加設定を作成できます。これらの設定は、レポートの呼び出し時に URL 内に渡されます。
 
 >[!CAUTION]
 >
@@ -114,11 +114,11 @@ The **[!UICONTROL Parameters]** tab of the [report properties](../../reporting/u
 
 ## 使用例：レポート内での変数とパラメーターの使用
 
-次のビデオの例では、「_type」パラメーターを追加して、この属性の値に基づいて異なる表示のレポートを作成する方法を学びます。
+次のビデオの例では、「_type」パラメーターを追加して、この属性の値に基づいてレポートの異なる表示を作成する方法を学びます。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](https://helpx.adobe.com/campaign/classic/how-to/add-url-parameter-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/business-practitioners/explevel/intermediate/applaunch/how-to-4/collection.ccx.js&amp;ref=helpx.adobe.com)
 
 
 ## 別のレポートの呼び出し {#calling-up-another-report}
 
-A **Jump** activity is like a transition without an arrow: it lets you go from one activity to another or access another report.
+**ジャンプ**&#x200B;アクティビティは、矢印のないトランジションのようなものです。これを使用すると、アクティビティ間を移動したり、別のレポートにアクセスしたりできます。

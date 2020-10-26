@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 93dd29e8-cf0a-4010-a3cc-f68c52c0d9ef
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->When the **[!UICONTROL No longer contact (by any channel)]** option is selected, this means that the profile is on denylist, i.e. the profile has expressed a wish not to be contacted (for example, by clicking an unsubscription link in a newsletter). このようなプロファイルは、どのチャネルの配信（E メール、ダイレクトメールなど）のターゲットにもなりません。詳しくは、[このページ](../../delivery/using/understanding-quarantine-management.md)を参照してください。
+>「**[!UICONTROL 今後の連絡は不要（すべてのチャネル）]**」オプションが選択されている場合は、プロファイルがブロックリストに登録されています。つまり、プロファイルは、ニュースレター内の購読解除リンクをクリックするなどして、配信を受け取らないことを希望しています。このようなプロファイルは、どのチャネルの配信（E メール、ダイレクトメールなど）のターゲットにもなりません。詳しくは、[このページ](../../delivery/using/understanding-quarantine-management.md)を参照してください。
 
 ## 「連絡先情報」タブ{#contact-information-tab}
 

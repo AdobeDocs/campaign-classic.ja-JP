@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
 workflow-type: tm+mt
 source-wordcount: '2634'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -122,7 +122,7 @@ _2019 年 5 月 30 日_
  <tbody> 
   <tr> 
    <td> コントロールパネル<br /> </td> 
-   <td> <p>管理者ユーザーとしての作業の効率を高めるには、ストレージを監視し、SFTPサーバーの設定を管理し、許可リストにIPアドレスを追加し、各インスタンスにSSHキーをインストールします。 コントロールパネルは、現時点で AWS 上でホストされているユーザーのみが利用できます（<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud から今すぐログイン</a>）。</p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/control-panel-overview.html">ハウツービデオ</a>を参照してください。 </p><p>注意：最新の Campaign ビルドへのアップグレードには、コントロールパネルへのアクセスは不要です。</p> </td> 
+   <td> <p>管理者ユーザーの作業効率を高めるために、ストレージを監視、IP アドレスを許可リストに追加、および各インスタンスに SSH キーをインストールすることで、SFTP サーバーの設定を管理します。コントロールパネルは、現時点で AWS 上でホストされているユーザーのみが利用できます（<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud から今すぐログイン</a>）。</p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/control-panel-overview.html">ハウツービデオ</a>を参照してください。 </p><p>注意：最新の Campaign ビルドへのアップグレードには、コントロールパネルへのアクセスは不要です。</p> </td> 
   </tr> 
     <tr> 
    <td> 監査記録<br /> </td> 

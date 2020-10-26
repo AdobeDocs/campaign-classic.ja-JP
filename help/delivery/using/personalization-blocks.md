@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '996'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
    >ミラーページの生成について詳しくは、[ミラーページの生成](../../delivery/using/sending-messages.md#generating-the-mirror-page)を参照してください。
 
 * **[!UICONTROL ミラーページへのリンク]**：ミラーページへのリンク、「このメッセージが正しく表示されない場合は、ここをクリックしてください」を挿入します。
-* **[!UICONTROL 購読解除リンク]** :すべての配信(ブロックリスト)の購読を解除できるリンクを挿入します。
+* **[!UICONTROL 購読解除リンク]**：すべての配信を購読解除（ブロックリスト登録）できるリンクを挿入します。
 * **[!UICONTROL 固有名詞の書式設定関数]**：Javascript の **[!UICONTROL toSmartCase]** 関数を生成します。この関数は各単語の最初の文字を大文字に変更します。このブロックは配信のソースコードの **`<script>...</script>`** タグの間に挿入する必要があります。
 
    次の例では、関数を使用して、要素「My header」を「My new header」で置き換え、各単語の先頭を大文字に変換しています。
@@ -163,4 +163,4 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
 動的コンテンツブロックを作成する方法、および動的コンテンツブロックを使用して E メール配信のコンテンツをパーソナライズする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12&captions=jpn)

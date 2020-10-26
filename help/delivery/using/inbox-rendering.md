@@ -1,6 +1,6 @@
 ---
-title: 受信ボックスレンダリング キャンペーンで
-description: 電子メールのレンダリングを取り込み、専用レポートで使用可能にする方法を学びます。
+title: Campaign の受信ボックスレンダリング
+description: E メールのレンダリングを取り込み、専用レポートで使用可能にする方法を説明します。
 page-status-flag: never-activated
 uuid: 2025f5e9-8a19-407c-9e0a-378ba5a76208
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '852'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

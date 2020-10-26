@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: a21576c7-e94c-4fe1-9e31-d89116e427f6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '534'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe Campaign には、顧客または（例えば、ターゲティング操�
 
 >[!NOTE]
 >
->The native template **[!UICONTROL Import denylist]** is already configured to import a list of email addresses which were added to the denylist.
+>ネイティブテンプレートの「**[!UICONTROL ブロックリストをインポート]**」は、ブロックリストに追加された E メールアドレスのリストをインポートするように既に設定されています。
 > 
 >「**[!UICONTROL 新しいテキストのインポート]**」および「**[!UICONTROL 新しいテキストのエクスポート]**」テンプレートを使用して、インポートまたはエクスポートをゼロから設定することができます。
 

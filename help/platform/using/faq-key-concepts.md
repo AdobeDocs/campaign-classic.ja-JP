@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe Campaign には、GDPR および CCPA に則ってプライバシーを遵
 
 Adobe Campaign ワークスペースの基本事項について詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオ内のDiscoverキャンペーンワークスペース](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
+![](assets/do-not-localize/how-to-video.png) [ビデオで Campaign ワークスペースを確認する](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 ## メッセージのオーディエンスはどのようにして選択できますか？{#how-can-i-select-the-target-population-of-my-messages-}
 

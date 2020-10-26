@@ -11,11 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: e31db11a-ad8e-4fd0-bab7-0df1079231c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Campaign 外部アカウントで定義されるスコープは、IMS により�
 
 **コールバック URL**
 
-The **Callback URL** should be added to the allowlist and start with &quot;https://&quot;. **コールバック URL** が対応するインスタンスにリンクされていることを確認します。例えば、本番用インスタンスは本番用 URL にリダイレクトする必要があります。
+**コールバック URL** は「https://」から始まり、許可リストに追加される必要があります。**コールバック URL** が対応するインスタンスにリンクされていることを確認します。例えば、本番用インスタンスは本番用 URL にリダイレクトする必要があります。
 
 **クライアント ID と秘密鍵**
 

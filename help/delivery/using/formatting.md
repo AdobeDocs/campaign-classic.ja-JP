@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: d678db05-cc44-4086-98a5-e5296e8e5de8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1460'
+ht-degree: 100%
 
 ---
 
@@ -477,7 +477,7 @@ XSLT 言語を使用して、XML ドキュメントを出力ドキュメント�
    <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
    ```
 
-* 条件付きテスト **&lt;% if (recipient.language == &#39;en&#39;)`{`%>** の追加：
+* 条件付きテスト **&lt;% if (recipient.language == &#39;en&#39;) `{` %>** の追加：
 
    ```
    <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>

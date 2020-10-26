@@ -578,14 +578,14 @@ ht-degree: 98%
       + [Facebook アプリの例](social/using/examples-of-facebook-apps.md)
       + [トラッキング](social/using/tracking.md)
 + Campaign Classic のインストール {#installing-campaign-classic}
-   + 建築の原則 {#architecture-and-hosting-models}
+   + アーキテクチャの原則 {#architecture-and-hosting-models}
       + [一般的なアーキテクチャ](installation/using/general-architecture.md)
-      + モデルのホスティング{#hosting-models-lp}
-         + [モデルのホスティングについて](installation/using/hosting-models.md)
+      + ホスティングのモデル{#hosting-models-lp}
+         + [ホスティングのモデルについて](installation/using/hosting-models.md)
          + [ハイブリッドモデル](installation/using/hybrid-model.md)
          + [ホストモデル](installation/using/hosted-model.md)
          + [機能マトリックス](installation/using/capability-matrix.md)
-   + 導入のガイドライン {#deployment-guidelines}
+   + デプロイメントのガイドライン {#deployment-guidelines}
       + [前提条件](installation/using/before-starting.md)
       + [データベースサーバー](installation/using/database.md)
       + [アプリケーションサーバー](installation/using/application-server.md)

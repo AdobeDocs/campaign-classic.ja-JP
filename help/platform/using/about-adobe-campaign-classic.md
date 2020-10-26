@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 26ba32468bce3bbb1c52d225c8195977da4d7d54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '899'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Campaign におけるマーケティングキャンペーンのサイク�
 
 ![](assets/d_ncs_user_emarketing.png)
 
-![](assets/do-not-localize/how-to-video.png) [ビデオの主な機能と主な機能の確認](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/introduction-to-adobe-campaign-classic.html)
+![](assets/do-not-localize/how-to-video.png) [ビデオで主な特徴と機能を確認する](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/introduction-to-adobe-campaign-classic.html)
 
 ### 統合された顧客プロファイル {#integrated-customer-profile}
 

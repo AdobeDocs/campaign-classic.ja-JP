@@ -11,18 +11,18 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 2f66152b-4d4a-40b8-a1bb-5b97c5410882
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 26ba32468bce3bbb1c52d225c8195977da4d7d54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2222'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Campaign ワークスペース{#adobe-campaign-workspace}
 
-## Exploring Adobe Campaign interface {#about-adobe-campaign-interface}
+## Adobe Campaign のインターフェイスについて {#about-adobe-campaign-interface}
 
 データベースに接続すると、Adobe Campaign ホームページが表示されます。これはダッシュボード形式になっており、各種の機能にアクセスできるリンクとショートカットから構成されています（具体的な内容は、それぞれのインストール構成と一般的なプラットフォーム設定によって異なります）。
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [ビデオ内のDiscoverキャンペーンワークスペース](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
+![](assets/do-not-localize/how-to-video.png) [ビデオで Campaign ワークスペースを確認する](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Web アクセス用のインターフェイスはコンソールに似ていま�
 
 ### 言語 {#languages}
 
-言語は、Adobe Campaign Classicインスタンスをインストールするときに選択されます。
+言語は、Adobe Campaign Classic インスタンスをインストールするときに選択されます。
 
 ![](assets/language.png)
 

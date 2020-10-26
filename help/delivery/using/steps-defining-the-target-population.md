@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1723'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -152,7 +152,7 @@ ht-degree: 98%
 
       ![](assets/s_ncs_user_wizard_email02j.png)
 
-* **[!UICONTROL 連絡を取りたくない受信者]** (電子メールアドレスがブロックリスト(「オプトアウト」)の受信者など)を除外します。 E マーケティングのビジネス倫理を尊重し、E コマースを規制する法律を遵守するために、このオプションは必ずオンにしておいてください。
+* **[!UICONTROL 今後連絡を希望しない受信者を除外]**：ブロックリストに記載された E メールアドレスを持つ（オプトアウトした）受信者を除外します。E マーケティングのビジネス倫理を尊重し、E コマースを規制する法律を遵守するために、このオプションは必ずオンにしておいてください。
 * **[!UICONTROL 強制隔離された受信者を除外]**：プロファイルに入力されているアドレスからの応答がないターゲットを除外します。このオプションは必ずオンにしておくことをお勧めします。
 
    >[!NOTE]
@@ -234,7 +234,7 @@ ht-degree: 98%
 
 このビデオでは、既存の E メールにシードと配達確認を追加して送信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12&captions=jpn)
 
 関連項目：
 * [配達確認のターゲットの選択](#selecting-the-proof-target)

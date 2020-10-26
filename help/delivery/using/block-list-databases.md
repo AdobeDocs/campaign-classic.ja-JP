@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: eede254d-2b25-46ed-b10f-fa1d54780a75
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 94%
 * 送信者ドメイン別：スパムを送信しているか誤って設定された送信者ドメイン（バウンスメールアドレスのフルドメイン）をリストアップします。
 * Web ドメイン別：スパムコンテンツに含まれているリンクや画像の URL にあるドメイン（登録機関に登録されている高レベルのドメイン）をリストアップします。Adobe Campaign では、通常、考慮に入れるべきドメインは、トラッキングに使用されるアドレスです。
 
-次に、最も広く使用されている RBL のリストを示します。詳細なリストについては、https://www.dnsstuff.com/を参照してくだ [さい](https://tools.dnsstuff.com/)。
+次に、最も広く使用されている RBL のリストを示します。詳細なリストについては、[https://www.dnsstuff.com/](https://tools.dnsstuff.com/) を参照してください。
 
 * **Spamhaus**
 

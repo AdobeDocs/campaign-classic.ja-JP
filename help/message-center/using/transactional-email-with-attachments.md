@@ -9,11 +9,11 @@ audience: message-center
 content-type: reference
 topic-tags: use-case
 discoiquuid: 7b8ab9d6-e47e-46d8-99df-da793486654c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '632'
+ht-degree: 100%
 
 ---
 

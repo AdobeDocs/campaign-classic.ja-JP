@@ -11,11 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 discoiquuid: f26cc65a-76be-4b7a-bde3-d0cbe3eedaaf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '665'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 >
 >Adobe Analytics から Adobe Campaign にオーディエンスをインポートする場合は、最初に People コアサービスまたは Audience Manager でそれらのオーディエンスを共有する必要があります。このプロセスには 12～24 時間を要し、Campaign との同期にはさらに 24～36 時間が必要です。
 >
->場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、この[ドキュメント](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)を参照してください。
+>場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、この[ドキュメント](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-publish.translate.html)を参照してください。
 
 オーディエンスデータは、同期されるたびに完全に置き換えられます。インポートできるのはセグメントのみです。キーと値のペア、特徴、ルールなどの詳細データはサポートされません。
 
@@ -82,7 +82,7 @@ ht-degree: 97%
 
 オーディエンスがエクスポートされます。オーディエンス保存アクティビティには、アウトバンドトランジションが 2 種類あります。主なトランジションは、エクスポートに成功した受信者を含みます。追加トランジションは、訪問者 ID または宣言済み ID でマッピングできなかった受信者を含みます。
 
-Adobe Campaign と People コアサービス間の同期には、24～36 時間かかります。同期が終了すると、People コアサービスで新しいオーディエンスを検索できるようになり、そのオーディエンスを他の Adobe Experience Cloud ソリューションで再利用することができます。Adobe People コアサービスで Adobe Campaign の共有オーディエンスを使用する方法について詳しくは、この[ドキュメント](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html)を参照してください。
+Adobe Campaign と People コアサービス間の同期には、24～36 時間かかります。同期が終了すると、People コアサービスで新しいオーディエンスを検索できるようになり、そのオーディエンスを他の Adobe Experience Cloud ソリューションで再利用することができます。Adobe People コアサービスで Adobe Campaign の共有オーディエンスを使用する方法について詳しくは、この[ドキュメント](https://docs.adobe.com/content/help/ja-JP/core-services/interface/audiences/t-audience-create.html)を参照してください。
 
 >[!NOTE]
 >

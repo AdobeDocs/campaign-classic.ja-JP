@@ -11,11 +11,11 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 discoiquuid: cc832666-ad18-49ce-afcc-f9169b683ae8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3023'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -564,7 +564,7 @@ ht-degree: 98%
   <tr> 
    <td> 苦情数<br /> </td> 
    <td> @complaints<br /> </td> 
-   <td> Count of messages with a status equal to "Failed" and a reason equal to "address on denylist".<br /> </td> 
+   <td> ステータスが「失敗」に等しく、理由が「ブロックリストに登録されたアドレス」に等しいメッセージの数。<br /> </td> 
    <td> Count(@status=2 and msg/@failureReason=8)<br /> </td> 
   </tr> 
   <tr> 
@@ -766,7 +766,7 @@ ht-degree: 98%
   <tr> 
    <td> 除外ルールによって却下されたメッセージ<br /> </td> 
    <td> @reject<br /> </td> 
-   <td> Number of addresses ignored during the analysis in keeping with typology rules: address not specified, quarantined, on denylist, etc.<br /> </td> 
+   <td> タイポロジルール（アドレスが未指定、強制隔離された、ブロックリストに登録されている、など）に従った分析中に無視されたアドレスの数。<br /> </td> 
    <td> sum([properties/@reject])<br /> </td> 
   </tr> 
   <tr> 

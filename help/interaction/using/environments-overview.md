@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 discoiquuid: c7b4103d-99b2-4e64-a457-ee0e3326b172
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 オファーの管理と使用には、いくつかの異なるユーザープロファイルが関係します。したがって、最初に、それらのプロファイルが存在するかどうかを確認し、存在しない場合は作成します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >次の設定は、**技術管理者**&#x200B;が実行する必要があります。
 

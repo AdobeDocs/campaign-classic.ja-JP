@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: ba5e815dd1576b55d9b3226639680f6358137f13
 workflow-type: tm+mt
-source-wordcount: '3768'
-ht-degree: 98%
+source-wordcount: '3898'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +25,31 @@ ht-degree: 98%
 その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
 
 ## 2020 年 10 月 {#oct-2020}
+
+**20.3 リリースに含まれる新機能**
+
+iOSのプッシュ通知機能の強化 — [詳細](../../delivery/using/configuring-the-mobile-application.md)
+
+Androidのプッシュ通知機能の強化 — [詳細](../../delivery/using/configuring-the-mobile-application-android.md)
+
+**リリースに伴うその他のドキュメントのアップデート**
+
+互換性マトリックスが更新されました。[詳細を表示](../../rn/using/compatibility-matrix.md)
+
+非推奨（廃止予定）および削除された機能ページが更新されました。[詳細を表示](../../rn/using/deprecated-features.md)
+
+Gold Standardリリースのリリースノートと互換表が、専用のセクションで提供されるようになりました。
+[詳細を表示](../../rn/using/gold-standard.md#gs-10)
+
+**その他の更新**
+
+Tomcat 8の更新を反映するように、ドキュメントページが更新されました。
+
+詳細は、「Adobe Campaign版の取得」の「バージョン情報」ボックスの説明に追加されました。 [詳細を表示](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
+
+ビルドのアップグレードを実行する際のガイドラインは、「Adobe Campaign Classicの更新」の節に追加されました。 詳細情報 [を見る](../../production/using/build-upgrade.md)
+
+キャンペーンビルドのアップグレードに関するFAQは、キャンペーンに関するよくある質問に追加されました。 詳細情報 [を見る](../../platform/using/faq-build-upgrade.md)
 
 オンプレミス、ホスト型、ハイブリッド型のホスティングモデルのキャンペーンについては、専用の節で説明します。 [詳細を表示](../../installation/using/hosting-models.md)
 

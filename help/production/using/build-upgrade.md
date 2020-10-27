@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 8ec525f400c29b986eadd888d29f1579860871c6
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
-source-wordcount: '2366'
+source-wordcount: '2355'
 ht-degree: 52%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 52%
 
 このセクションでは、アップグレードプロセスの詳細なチュートリアルと、競合を識別して解決する手順を説明します。
 
-ビルドのアップグレードは慎重におこなう必要があります。必ず事前にアップグレードが及ぼす影響を検討し、作業は高度なスキルを備えた人が実行するようにしてください。アップグレードを正常に完了するために、後述の手順を実行する人はエキスパートユーザーに限定してください。また、アップグレードを開始する前に [Adobe カスタマーサポート](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に連絡することを強くお勧めします。
+ビルドのアップグレードは慎重におこなう必要があります。必ず事前にアップグレードが及ぼす影響を検討し、作業は高度なスキルを備えた人が実行するようにしてください。アップグレードを正常に完了するために、後述の手順を実行する人はエキスパートユーザーに限定してください。また、アップグレードを開始する前に [Adobe カスタマーサポート](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に連絡することを強くお勧めします。
 
 アップグレードの前提条件は以下のとおりです。
 
@@ -209,10 +209,10 @@ You also need to know all the [useful command lines](../../installation/using/co
 
 Adobe Campaign アプリケーションサーバーがインストールされているマシン（nlserverweb）で、以下のファイルをダウンロードしてインストールします。
 
+```
+Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
+```
 
-    ```
-    Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
-    ```
 
 次回クライアントコンソールに接続したときに、ウィンドウが開いて新しい更新が利用可能なことを知らせるメッセージが表示され、その更新をダウンロードしてインストールするよう促されます。
 
@@ -248,7 +248,7 @@ Adobe Campaign アプリケーションサーバーがインストールされ�
 
 ミッドソーシング環境のコンテキストで、次の追加手順を実行してアップグレードする必要があります。
 
-1. Contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to coordinate the upgrade of the Mid-Sourcing server.
+1. Contact [Adobe Customer Care](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to coordinate the upgrade of the Mid-Sourcing server.
 1. テストリンクを実行して、バージョンが更新されたことを検証します。 例：
 
    ```
@@ -343,7 +343,7 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 * オブジェクトはアップグレードされません。
 * バージョンの互換性が失われたり、バグ修正を適用しても改善されなかったりといった長期的な影響が生じます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >競合は解決することを強くお勧めします。
 
 
@@ -407,7 +407,7 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 1. テスト環境で実行します。
 
 
->[!CAUTION]
+>[!IMPORTANT]
 >複雑な結合を実行するには、開発スキルが必要です。
 
 

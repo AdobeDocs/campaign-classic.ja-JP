@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
+source-git-commit: 9844616f417608051bbff2593d6124d8ff83008c
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 86%
 
 ---
 
@@ -17,8 +17,9 @@ ht-degree: 100%
 
 ## 新着情報
 
-* **[顔文字](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>
-メッセージと件名に顔文字を挿入できるようになりました。
+* **[HTTP/2ベースのAPNsプロバイダーAPIに移行](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/>：レガシーバイナリプロトコルからHTTP/2ベースのAPNsプロバイダーAPIに移行する方法を説明します。
+
+* **[メッセージ追加の顔文字メッセージメッセージと件名に顔文字を挿入できるようになりました。](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>
 
 * **[サポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)**<br/>
 FAQ、ベストプラクティス、ヘルプリソースにアクセスし、サポートをリクエストできます。
@@ -28,9 +29,6 @@ Adobe Campaign がプライバシーコンプライアンスの遵守に役立�
 
 * **[トラッキング機能](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html)**<br/>
 Campaign のトラッキング機能とプロセスについて説明します。
-
-* **[AMP を使用したインタラクティブコンテンツ](delivery/using/defining-interactive-content.md)**<br/>
-新しい AMP 形式で動的な E メールを送信する方法について説明します。
 
 [更新情報についてはここをクリック](/help/rn/using/documentation-updates.md)
 

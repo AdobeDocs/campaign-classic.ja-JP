@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: database-maintenance
 discoiquuid: b2219912-5570-45d2-8b52-52486e29d008
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1128'
+ht-degree: 3%
 
 ---
 
@@ -369,7 +369,7 @@ function sqlGetMemo(strSql)
 
 >[!NOTE]
 >
->Microsoft SQL Serverの場合は、このページで詳しく説明している保守プラン [を使用できます](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html)。
+>Microsoft SQL Serverの場合は、 [このページで詳細に説明されている保守計画を使用でき](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html)ます。
 
 次の例は、Microsoft SQL Server 2005に関するものです。 別のバージョンを使用している場合は、データベース管理者に問い合わせて、メンテナンス手順を確認してください。
 
@@ -421,7 +421,7 @@ function sqlGetMemo(strSql)
 
    オブジェクトは、 **[!UICONTROL SQL Server Agent/Jobs]** フォルダーに作成されています。 このオブジェクトを使用すると、保守計画を開始できます。 この例では、すべてのメンテナンスタスクが同じプランの一部であるため、オブジェクトは1つだけです。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >このオブジェクトを実行するには、Microsoft SQL Serverエージェントを有効にする必要があります。
 

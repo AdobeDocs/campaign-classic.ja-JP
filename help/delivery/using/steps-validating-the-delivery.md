@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '1812'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
+workflow-type: tm+mt
+source-wordcount: '1811'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 1. **配信の分析**：この手順では、配信メッセージを準備できます。[配信の分析](#analyzing-the-delivery)を参照してください。
 
-   分析時に適用されるルールについては、[この節](#validation-process-with-typologies)を参照してください。使用可能な検証モードについて詳しくは、[承認モードの変更](#changing-the-approval-mode)の節で説明しています。
+   The rules applied during analysis are presented in [this section](#validation-process-with-typologies). 使用可能な検証モードについて詳しくは、[承認モードの変更](#changing-the-approval-mode)の節で説明しています。
 
 1. **配達確認の送信**：この手順では、コンテンツ、URL、パーソナライゼーションフィールドなどを承認できます。[配達確認の送信](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)および[特定の配達確認ターゲットの定義](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)を参照してください。
 

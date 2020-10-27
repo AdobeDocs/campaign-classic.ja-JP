@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: troubleshooting
 discoiquuid: f3db77db-94cc-4d75-a59b-2dddce776759
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 5%
@@ -32,7 +32,7 @@ ht-degree: 5%
 
    * Tomcat側：adobe campaignTomcatクライアントに実際に到着するすべてのクエリ。
 
-      このしきい値は、nl6/tomcat-7/conf/server.xml **ファイルで設定します** 。 maxThreads **** 属性を使用すると、一度に処理されるクエリ数のしきい値を増やすことができます。 例えば250に変更できます。
+      このしきい値は、nl6/tomcat-8/conf/server.xml **ファイルで設定します** 。 maxThreads **** 属性を使用すると、一度に処理されるクエリ数のしきい値を増やすことができます。 例えば250に変更できます。
 
       ```
       <Connector protocol="HTTP/1.1" port="8080"

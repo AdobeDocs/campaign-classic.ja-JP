@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: a2b43311-737c-4a3b-a6af-1788879f9414
-translation-type: ht
-source-git-commit: 26ba32468bce3bbb1c52d225c8195977da4d7d54
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 84f14b7a8c4ed05b309109c76be8c8c7b7b52d83
+workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign は、対話的なマーケティングキャンペーンの構�
 
 >[!NOTE]
 >
->Adobe Campaign Classic には v6.11 と v7 があります。特に明記しない限り、ヘルプ資料は両方のバージョンの最新ビルドに適用されます。スクリーンショットは、Campaign Classic v7 のユーザーインターフェイスを反映したものです。
+>Adobe Campaign Classic には v6.11 と v7 があります。Except when mentioned, help materials apply to both versions, in the [latest build](../../rn/using/latest-release.md). スクリーンショットは、Campaign Classic v7 のユーザーインターフェイスを反映したものです。
 
 ## 主な機能 {#key-capabilities}
 

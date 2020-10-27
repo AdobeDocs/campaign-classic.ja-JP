@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 discoiquuid: 2bb756a2-4aca-4195-9b7a-ec85028a8012
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 この章では、インタラクションで使用できる様々な詳細設定パラメーターについて説明します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >この章は、**技術管理者**&#x200B;向けです。
 
@@ -33,4 +33,3 @@ ht-degree: 100%
 * テスト環境の作成について詳しくは、[テスト環境の作成](../../interaction/using/creating-a-test-environment.md)の節で説明しています。
 * フックを使用して、エンジンの標準的な動作を変化させることができます。詳しくは、[フック](../../interaction/using/hooks.md)の節を参照してください。
 * 分散アーキテクチャでインタラクションを使用する方法について詳しくは、[分散アーキテクチャ](../../interaction/using/distributed-architectures.md)の節で説明しています。
-

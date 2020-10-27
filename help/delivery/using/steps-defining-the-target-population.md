@@ -11,9 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
+workflow-type: tm+mt
 source-wordcount: '1723'
 ht-degree: 100%
 
@@ -234,7 +234,7 @@ ht-degree: 100%
 
 このビデオでは、既存の E メールにシードと配達確認を追加して送信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 関連項目：
 * [配達確認のターゲットの選択](#selecting-the-proof-target)

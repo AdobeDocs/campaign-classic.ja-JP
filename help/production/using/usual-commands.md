@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: 90718075-87a7-4e9a-935b-571010908e79
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 5%
@@ -159,7 +159,7 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 
 内部 **パスワードを変更するには** : **nlserver config - internalpassword**
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >**Internal** identifierを使用してログオンするには、事前にパスワードを定義しておく必要があります。 詳しくは、[この節](../../installation/using/campaign-server-configuration.md#internal-identifier)を参照してください。
 
@@ -172,5 +172,4 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 >
 >  
 nlserver config -setdblogin:Oracle:test6@dbserver
-
 

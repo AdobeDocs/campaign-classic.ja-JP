@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: data-processing
 discoiquuid: 9f7118f4-aef0-469c-bbe1-b62bed674faa
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 3%
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 ### 概要 {#overview}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >サーバーとデータベース(ホスト環境)にアクセスできない場合は、以下に説明する手順を実行できません。 Adobeにお問い合わせください。
 
@@ -49,14 +49,14 @@ Adobe Campaignを使用するには、1つ以上の環境をインストール�
    >Adobe Campaignに関しては、 **焼灼** は、外部との対話をすべてのプロセスに止めるためのアクションを組み合わせます。ログ、トラッキング、配信、キャンペーンワークフローなど\
    >この手順は、(通常の環境から1回、複製された環境から1回)複数回のメッセージ配信を避けるために必要です。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >1つの環境に複数のインスタンスを含めることができます。 各Adobe Campaignインスタンスには、ライセンス契約が適用されます。 使用許諾契約を確認して、使用できる環境数を確認します。\
    >以下の手順では、インストールした環境やインスタンスの数に影響を与えることなく、環境を転送できます。
 
 ### 開始前 {#before-you-start}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >転送プロセスを開始する前に、ソースおよびターゲット環境のすべてのインスタンスに対して、データベースの完全バックアップを実行することを強くお勧めします。 この方法で問題が発生した場合は、バックアップを復元し、初期設定に戻すことができます。
 
@@ -70,7 +70,7 @@ Adobe Campaignを使用するには、1つ以上の環境をインストール�
 
 次の手順は、慎重に実行する必要があります。ソース・環境・データベースをコピーする際に、一部のプロセスがまだ進行中である場合があります。 注意機能（以下の手順3）は、メッセージが2回送信されるのを防ぎ、データの一貫性を維持します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* 次の手順はPostgreSQL言語で有効です。 SQL言語が異なる場合（Oracleなど）は、SQLクエリを適合させる必要があります。
 >* 以下のコマンドは、PostgreSQLの **prod** Instanceおよび **dev** Instanceのコンテキスト内に適用されます。
@@ -218,7 +218,7 @@ nlserver pdump
 
 ### 手順8 — オプションと外部アカウントをターゲット環境（開発環境）に読み込む {#step-8---import-options-and-external-accounts-into-the-target-environment--dev-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >この手順では、Webプロセスのみを開始する必要があります。 そうでない場合は、続行する前に、実行中の他のプロセスを停止します
 

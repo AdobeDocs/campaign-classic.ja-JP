@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: configuration
 discoiquuid: f4b1c108-7f71-4aa1-8394-a7f660834c9c
 translation-type: tm+mt
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
+source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
 workflow-type: tm+mt
 source-wordcount: '2882'
 ht-degree: 2%
@@ -481,13 +481,13 @@ allowSQLInjection="false"
 Adobe Campaignv7の統合Tomcatサーバーは、バージョン(Tomcat 7)を変更しました。 したがって、インストールフォルダ(tomcat-6)も変更されました(tomcat 7)。 アップグレード後に、パスが( **[!UICONTROL serverConf.xml]** ファイル内の)更新済みフォルダーにリンクしていることを確認します。
 
 ```
-$(XTK_INSTALL_DIR)/tomcat-7/bin/bootstrap.jar 
-$(XTK_INSTALL_DIR)/tomcat-7/bin/tomcat-juli.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-util.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/tomcat-api.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/servlet-api.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/jsp-api.jar
-$(XTK_INSTALL_DIR)/tomcat-7/lib/el-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 
+$(XTK_INSTALL_DIR)/tomcat-8/bin/tomcat-juli.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-util.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/tomcat-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/servlet-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/jsp-api.jar
+$(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 ```
 
 ## インタラクション {#interaction}
@@ -504,7 +504,7 @@ $(XTK_INSTALL_DIR)/tomcat-7/lib/el-api.jar
 
 ### オファー量 {#offer-content}
 
-v7では、オファーコンテンツは移動されました。 v6.02では、コンテンツは各表現スキーマ(**nms:emailOfferView**)に含まれていました。 v7では、コンテンツはオファースキーマに追加されました。 したがって、アップグレード後は、コンテンツはインターフェイスに表示されません。 アップグレード後に、オファーのコンテンツを再作成するか、コンテンツを表現スキーマーからオファースキーマーに自動的に移動するスクリプトを作成する必要があります。
+v7では、オファーコンテンツは移動されました。 v6.02では、コンテンツは各表現スキーマ(**nms:emailOfferView**)に含まれていました。 v7では、コンテンツはオファースキーマに追加されました。 したがって、アップグレード後は、コンテンツはインターフェイスに表示されません。 アップグレード後に、オファーのコンテンツを再作成するか、コンテンツを表現スキーマからオファースキーマに自動的に移動するスクリプトを作成する必要があります。
 
 >[!IMPORTANT]
 設定済みのオファーを使用する一部の配信が移行後に送信される場合は、これらの配信をすべて削除してv7で再作成する必要があります。 それができない場合は、「互換モード」が提供されます。 Interaction v7のすべての新機能が役立つとは限らないので、このモードはお勧めしません。 これは、実際の6.1移行前に継続的なキャンペーンを完了できる遷移モードです。 このモードの詳細については、お問い合わせください。

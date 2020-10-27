@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 6b3fe8b9-dae6-4f8e-83e1-3376c0fe72a5
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '725'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
+workflow-type: tm+mt
+source-wordcount: '756'
+ht-degree: 82%
 
 ---
 
@@ -59,14 +59,14 @@ ht-degree: 100%
 
 **[!UICONTROL NMAC オプトアウト管理]**（mobileAppOptOutMgt）ワークフローにより、モバイルデバイスでの通知購読解除が更新されます。このワークフローについて詳しくは、[ワークフローガイド](../../workflow/using/mobile-app-channel.md)を参照してください。
 
-Adobe Campaign はバイナリと HTTP/2 APNS の両方に対応しています。設定手順の詳細については、「[Adobe Campaign でモバイルアプリケーションを設定する](../../delivery/using/configuring-the-mobile-application.md)」の節を参照してください。
+Adobe Campaignは、バイナリAPNとHTTP/2 APNの両方と互換性があります。 設定手順の詳細については、「[Adobe Campaign でモバイルアプリケーションを設定する](../../delivery/using/configuring-the-mobile-application.md)」の節を参照してください。
 
 ## データパス {#data-path}
 
 後述のスキーマでは、モバイルアプリケーションが Adobe Campaign とデータをやり取りできるようにするステップを説明しています。このプロセスには 3 つのエンティティが含まれます。
 
 * モバイルアプリケーション
-* 通知サービス：Apple 用の APNS（Apple Push Notification Service）と Android 用の FCM（Firebase Cloud Messaging）
+* 通知サービス：Apple用APN(Apple Push Notification Service)およびAndroid用FCM(Firebase Cloud Messaging)
 * Adobe Campaign
 
 通知プロセスの 3 つの主要なステップは、Adobe Campaign でのアプリケーションの登録（購読コレクション）、配信およびトラッキングです。
@@ -88,10 +88,14 @@ Adobe Campaign はバイナリと HTTP/2 APNS の両方に対応しています�
 
 ![](assets/nmac_delivery_view.png)
 
-Adobe Campaign サーバーが、次のポートで APNS サーバーと通信できる必要があります。
+Adobe Campaignサーバーは、次のポートでAPNsサーバーに接続できる必要があります。
 
 * iOS バイナリコネクタの場合：2195（送信）および 2186（フィードバックサービス）
 * iOS HTTP/2 コネクタの場合：443
+
+   >[!NOTE]
+   >
+   > キャンペーン20.3リリース以降、iOSレガシバイナリコネクタは非推奨となりました。 このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。 [詳細情報](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
 
 正しく動作することを確認するには、次のコマンドを使用します。
 
@@ -107,7 +111,7 @@ Adobe Campaign サーバーが、次のポートで APNS サーバーと通信�
    telnet gateway.push.apple.com
    ```
 
-iOS バイナリコネクタを使用した場合、MTA および Web サーバーはポート 2195（送信）で、ワークフローサーバーはポート 2196（フィードバックサービス）でそれぞれ APNS と通信できる必要があります。
+iOSバイナリコネクタを使用する場合、MTAとWebサーバーがポート2195のAPNに接続できる（送信）必要があります。ワークフローサーバーは、ポート2196のAPNに接続できる（フィードバックサービス）必要があります。
 
-iOS HTTP/2 コネクタを使用した場合、MTA、Web サーバーおよびワークフローサーバーは、ポート 443 で APNS と通信できる必要があります。
+iOS HTTP/2コネクタを使用する場合、MTA、Webサーバー、およびワークフローサーバーがポート443のAPNに接続できる必要があります。
 

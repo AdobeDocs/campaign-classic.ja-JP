@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: profile-management
 discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
 translation-type: tm+mt
-source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
+source-git-commit: 208bac758542db8dd514bda80c8c735897fcefec
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '854'
 ht-degree: 99%
 
 ---
@@ -142,9 +142,3 @@ Adobe Campaign ツリーのグループリストから 1 つ以上のリスト�
 受信者をターゲットにするためのワークフローを作成し、それを繰り返しワークフローにしてから、E メールターゲットでリストを使用する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
-
-**関連項目：**
-
-* 
-
-* 

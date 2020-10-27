@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 6358c8fd-2b75-4462-acd1-887ee44d3110
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 8%
@@ -57,7 +57,7 @@ ht-degree: 8%
 
 詳しくは、[この節](../../production/using/recommendations.md)を参照してください。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ミッドソーシング設定を使用する場合は、データベースを定期的に管理する必要があります。 マーケティングプラットフォーム上の配信を分析する際、マーケティングインスタンスはミッドソーシングインスタンスに情報を送信します。 プロセスの速度が遅くなると、マーケティングインスタンスに影響が出ます。
 
@@ -69,7 +69,7 @@ ht-degree: 8%
 * エラーが原因で一時停止されたワークフローの停止または削除、
 * エン **[!UICONTROL ド]** アクティビティを含まないテストで使用され、ステータスが「 **[!UICONTROL 一時停止」のままのワークフローをすべて停止します]** 。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >操作に長い時間がかかり、大量のスペースが解放される場合は、インデックスの再構築など、十分なメンテナンスが必要になります。 詳しくは、[この節](../../production/using/recommendations.md)を参照してください。
 

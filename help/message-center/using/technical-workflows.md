@@ -11,11 +11,11 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 2e648e63-06d2-4e8f-9934-066a41d18eac
-translation-type: ht
-source-git-commit: 76547b8e7ef377a6d2c786e721b16c571e8b7712
-workflow-type: ht
-source-wordcount: '361'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f7527a2d9b76e34fbaa2c9471c44a7a1e7e074d7
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 88%
 
 ---
 
@@ -28,13 +28,11 @@ ht-degree: 100%
 
 ## コントロールインスタンスのワークフロー {#control-instance-workflows}
 
-コントロールインスタンス上には、実行インスタンスにつき 1 つのアーカイブワークフローを作成する必要があります。作成したアーカイブワークフローは、**管理／プロダクション／Message Center** フォルダーからアクセスできます。アーカイブワークフローは作成されると自動的に開始されます。
-
-**分散アーキテクチャ**
-
-1 つ以上の実行インスタンスが登録されている場合、コントロールインスタンスで、各 **[!UICONTROL Message Center 実行インスタンス]**&#x200B;外部アカウントにつき 1 つのアーカイブワークフローを作成する必要があります。「**[!UICONTROL アーカイブワークフローを作成]**」ボタンをクリックし、ワークフローを作成、開始します。
+コントロールインスタンスで、1人または複数の実行インスタンスを登録している場合は、 **[!UICONTROL Message Center実行インスタンス]** 外部アカウントごとに1つのアーカイブワークフローを作成する必要があります。 「**[!UICONTROL アーカイブワークフローを作成]**」ボタンをクリックし、ワークフローを作成、開始します。
 
 ![](assets/messagecenter_archiving_002.png)
+
+These workflows can then be accessed from the **Administration > Production > Message Center** folder. アーカイブワークフローは作成されると自動的に開始されます。
 
 <!--**Minimal architecture**
 

@@ -11,18 +11,18 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: b64c9729-cfe2-4d02-8c59-9e53efd34a96
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
+workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
 
 # トラブルシューティング{#troubleshooting}
 
-モバイルデバイスが Wi-Fi に接続されているにも関わらず通知を受信できない場合は、FCM または APNS のポートがファイアウォールによってブロックされていないか確認してみてください。
+モバイルデバイスがWi-Fiに接続され、通知を受信していない場合は、FCM/APNsポートがファイアウォールでブロックされていないことを確認してください。
 
 **Android**：モバイルデバイスは、ポート 5228 ～ 5230 で FCM サーバーに接続します。したがって、FCM への接続を許可するようにファイアウォールを設定する必要があります。開くポートは、5228（最も使用頻度が高い）、5229 および 5230 です。
 

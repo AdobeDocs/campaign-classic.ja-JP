@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 discoiquuid: f459dc07-b7db-4526-b428-852b51c9c00e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1567'
 ht-degree: 2%
 
 ---
@@ -305,10 +305,10 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
 1. **iis_neolane_setup.vbs** スクリプトを実行して、以前に作成した仮想ディレクトリでAdobe Campaignサーバーが使用するリソースを自動的に構成します。
 
-   * このファイルは\tomcat-7\conf file **`[Adobe Campaign v7]`にあります。ここ****`[Adobe Campaign v7]`** で、はAdobe Campaignのインストールディレクトリへのアクセスパスです。 スクリプトを実行するコマンドは次のとおりです（管理者の場合）。
+   * このファイルは、 **`[Adobe Campaign v7]`\conf** directoryにあります。ここ **`[Adobe Campaign v7]`** で、はAdobe Campaignのインストールディレクトリへのアクセスパスです。 スクリプトを実行するコマンドは次のとおりです（管理者の場合）。
 
       ```
-      cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\tomcat-7\conf
+      cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
       cscript iis_neolane_setup.vbs
       ```
 

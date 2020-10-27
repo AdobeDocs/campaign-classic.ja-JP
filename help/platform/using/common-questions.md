@@ -1,7 +1,6 @@
 ---
 title: よくある質問
-seo-title: よくある質問
-description: Campaign Classic に関する FAQ
+description: Adobe Campaign ClassicFAQ
 page-status-flag: never-activated
 uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
 contentOwner: sauviat
@@ -11,17 +10,23 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
+source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 100%
+source-wordcount: '543'
+ht-degree: 91%
 
 ---
 
 
 # よくある質問{#common-questions}
 
-Campaign Classic の操作について疑問がある場合は、以下に示すよくある 10 件の質問や、該当するページにあるその他の一般的な質問を参照してください。[チュートリアルビデオ](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/overview.html)や Campaign の[入門ガイド](../../platform/using/tutorials.md#step-by-step-guides)で、主な機能を学ぶこともできます。答えが見つからない場合は、[コミュニティで質問](https://forums.adobe.com/community/experience-cloud/marketing-cloud/campaign)してください。
+Campaign Classic の操作について疑問がある場合は、以下に示すよくある 10 件の質問や、該当するページにあるその他の一般的な質問を参照してください。また、次のこともできます。
+
+* [チュートリアルビデオを見る](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/overview.html)
+* [セルフヘルプオプションの参照](../../platform/using/tutorials.md#how-to-videos)
+* [「はじめに」と「使用例」の節を読む](../../platform/using/tutorials.md#step-by-step-guides)
+* 答えが見つからない場合は、[エキスパートに質問](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+* サポートが必要ですか？ [キャンペーンのヘルプとサポートのオプションを参照](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support)
 
 ## 1. Campaign を最新版にアップグレードするにはどうすればよいですか？{#how-can-i-upgrade-campaign-to-the-latest-version-}
 
@@ -29,7 +34,7 @@ Adobe Campaign Classic は、お客様に最高のエクスペリエンスと価
 
 Adobe Managed Services を使用している場合は、Campaign Gold Standard のアップグレードサービスを利用できます。詳しくは、[この記事](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)を参照してください。
 
-環境の更新方法について詳しくは、[この記事](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)を参照してください。また、このトピックに関する[よくある質問](https://helpx.adobe.com/jp/campaign/kb/build-upgrade-faq.html)も参照してください。
+[このセクションを読んで](../../production/using/build-upgrade.md) 、環境の更新方法と、このトピックに関する [よくある質問](../../platform/using/faq-build-upgrade.md) をお読みください。
 
 ## 2. データベースクリーンアップワークフローとは何ですか？{#what-is-the-database-cleanup-workflow-}
 

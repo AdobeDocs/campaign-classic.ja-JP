@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 discoiquuid: 7453d768-31eb-4372-aae3-27527cd5c79b
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ URL を呼び出すスクリプトは、次のようになります。
    <script id="interactionProposalScript" src="https://instance.adobe.org:8080/nl/interactionProposal.js?env=OE3" type="text/javascript"></script>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >`<script>` タグは、自己終了タグにすることはできません。
 
@@ -214,7 +214,7 @@ HTML のオファー表示域を自動的に生成するには、レンダリン
    </srcSchema>
    ```
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >各要素は、2 回ずつ定義する必要があります。CDATA（&quot;_jst&quot;）タイプの要素には、パーソナライゼーションフィールドを含めることができます。
    >
@@ -264,7 +264,7 @@ HTML のオファー表示域を自動的に生成するには、レンダリン
 
    ![](assets/interaction_xmlmode_form_001.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >（`<input>`）フォームのフィールドは、作成したスキーマに定義された CDATA タイプの要素を指している必要があります。
 

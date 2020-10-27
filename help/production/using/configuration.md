@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: 12f13b8d-afc3-4b55-a31b-080d31f84fc9
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 4%
@@ -40,7 +40,7 @@ export TRACE_ADDR=localhost:<listening port>
 
 **localhost** 値を使用して **TRACE** _ADDR環境変数を作成する必要があります。 **`<listening port="" />`**.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >この環境変数を作成した後で、お使いのプラットフォームが動作していることを確認するために、いくつかのテストを実行することをお勧めします。
 
@@ -51,4 +51,3 @@ export TRACE_ADDR=localhost:<listening port>
 >[!NOTE]
 >
 >For more on configuring security zones, refer to [this section](../../installation/using/configuring-campaign-server.md#defining-security-zones).
-

@@ -11,11 +11,11 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 discoiquuid: 84f9dbad-365f-405d-88a0-14171fbb805f
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2d6266957a1e290333c505e40f95df46797e19c4
+workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->個人情報を含む可能性のあるページは常に保護してください。[セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#privacy)を参照してください。
+>個人情報を含む可能性のあるページは常に保護してください。 [セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#privacy)を参照してください。
 
 このテンプレートにより、Web アプリケーションの種類が決まります。以下を作成できます。
 

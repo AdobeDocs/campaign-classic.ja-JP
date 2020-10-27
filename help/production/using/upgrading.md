@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1159'
 ht-degree: 13%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 13%
 
 アップグレードプロセスを開始する前に、アップグレードするAdobe Campaignのバージョンを決定して確認し、 [リリースノート](../../rn/using/latest-release.md) を参照してください。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >更新する前に、各インスタンスでデータベースのバックアップを作成することを強くお勧めします。 詳細については、「 [バックアップ](../../production/using/backup.md)」を参照してください。\
 >アップグレードを実行するには、インスタンスとログにアクセスする権限と権限を持っていることを確認します。
@@ -31,7 +31,7 @@ ht-degree: 13%
 >
 >インストー [ルガイド](../../installation/using/general-architecture.md) 、 [ビルドアップグレードの概要も参照してください](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) 。
 
-## Windowsの場合 {#in-windows}
+## Windows {#in-windows}
 
 新しいビルドを配信する際に新しいバージョンのAdobe Campaignを更新するには、Windowsで次の手順を適用する必要があります。
 
@@ -53,7 +53,7 @@ ht-degree: 13%
       **iisreset /stop**
 
    * Adobe Campaignサービス： **net stop nlserver6**
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >You also need to make sure the redirection server (webmdl) is stopped, so that the **nlsrvmod.dll** file used by IIS can be replaced with the new version.
 
@@ -111,7 +111,7 @@ ht-degree: 13%
 
 * Adobe Campaignサービス： **net開始nlserver6**
 
-## Linuxの場合 {#in-linux}
+## Linux {#in-linux}
 
 新しいビルドが提供されるときに新しいバージョンのAdobe Campaignを更新するには、Linuxの手順を次に示します。
 
@@ -171,7 +171,7 @@ Adobe Campaignの両方の更新されたパッケージを回復することに
 /etc/init.d/apache stop
 ```
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* スクリプトの名前は、 **apacheではなく** httpd **にすることができます**。
 >* 次の応答を取得するまで、このコマンドを実行する必要があります。
@@ -223,7 +223,7 @@ Adobe Campaignの両方の更新されたパッケージを回復することに
 * **[!UICONTROL 新しいバージョンを受け入れる]** :adobe campaignで提供されるリソースがユーザーによって変更されていない場合に推奨されます。
 * **[!UICONTROL 現在のバージョンを保持]** :は、更新が拒否されたことを意味します。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >この解像度モードを選択すると、新しいバージョンで修正を行うメリットが得られない場合があります。
 
@@ -248,7 +248,7 @@ Adobe Campaignの両方の更新されたパッケージを回復することに
 
 ## Warn the client consoles of the available update {#warn-the-client-consoles-of-the-available-update}
 
-### Windowsの場合 {#in-windows-1}
+### Windows {#in-windows-1}
 
 On the machine where the (**nlserver web**) Adobe Campaign application server is installed, download and copy the file
 
@@ -262,7 +262,7 @@ On the machine where the (**nlserver web**) Adobe Campaign application server is
 >
 >IIS_XPGユーザーがこのインストールファイルに対する適切な読み取り権限を持っていることを確認し、詳細については [インストールガイド](../../installation/using/general-architecture.md) を参照してください。
 
-### Linuxの場合 {#in-linux-1}
+### Linux {#in-linux-1}
 
 Adobe Campaignアプリケーションサーバー(**nlserver web**)がインストールされているマシン上で、次のパッケージを取得します。
 

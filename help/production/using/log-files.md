@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: fac3e3ec-82a7-4087-ba88-2b28b0f69d1c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 3%
@@ -56,7 +56,7 @@ nlserver syslogd **** モジュールは、ログをディスクに保存しま�
 | inMail.log | バウンスメールモジュールログ |
 | logins.log | Adobe Campaignに対するすべてのログイン試行をログに記録します（成功したかどうか） |
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >redir **** ディレクトリは、リダイレクトサーバーにのみ存在します。 url **サブディレクトリには、リダイレクトするURLと一致するURLが含まれ、サブディレクトリ** ログにはトラッキングログが含まれます **** 。 トラッキングログを生成するには、 **trackinglogd** モジュールが実行されている必要があります。
 
@@ -68,4 +68,4 @@ nlserver syslogd **** モジュールは、ログをディスクに保存しま�
 
 ログの詳細レベルをさらに高く維持したい場合は、 **-verbose** パラメータを使用してAdobe Campaignモジュールを開始できます。
 
-**nlserver開始`<MODULE>`@`<INSTANCE>`-verbose**
+**nlserver開始 `<MODULE>`@`<INSTANCE>` -verbose**

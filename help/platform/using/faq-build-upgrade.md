@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
+source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '2023'
 ht-degree: 10%
 
 ---
@@ -169,7 +169,7 @@ Message Center(RT)でアップグレードが発生した場合、インスタ�
 
 ## ビルドアップグレードチケットを開くには、誰に問い合わせる必要がありますか？
 
-ビルドのアップグレード後に問題が発生した場合は、 [Adobeカスタマーケアにお問い合わせください](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。 カスタマーケアはビルド日をスケジュールし、ビルドのアップグレード関連のチケットを開きます。
+ビルドのアップグレード後に問題が発生した場合は、 [Adobeカスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。 カスタマーケアはビルド日をスケジュールし、ビルドのアップグレード関連のチケットを開きます。
 
 Campaign Classic用の [ヘルプとサポートのオプションで詳細を表示します](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
 
@@ -203,3 +203,10 @@ Campaign Classic用の [ヘルプとサポートのオプションで詳細を�
    * SMSの送信のテスト
    * 外部FDAが接続されている場合は、両方の方法でデータが送信されているかどうかをテストします。
    * Adobe Campaign-Adobe Experience Manager、Adobe Campaign-Adobe Analyticsなどの統合を使用する場合は、以前と同じように動作するかどうかをテストします。
+
+**関連項目：**
+
+* [ビルドアップグレードの実行](../../production/using/build-upgrade.md)
+* [Campaign Classic リリースノート](../../rn/using/rn-overview.md)
+* [Campaign Classicのヘルプとサポートのオプション](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
+* [ゴールドスタンダードプログラム](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)

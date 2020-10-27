@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '2665'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
+workflow-type: tm+mt
+source-wordcount: '2896'
+ht-degree: 88%
 
 ---
 
@@ -75,7 +75,7 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 >強制隔離数の増加は、データベースの「老朽化」に関連する、正常な影響です。例えば、E メールアドレスの寿命が 3 年と考えられ、受信者テーブルが毎年 50％増加する場合、強制隔離の増加は次のように計算できます。
 >
 >1 年目の終了時：(1*0.33)/(1+0.5)=22%
->2 年目の終了時：((1.22*0.33)+0.33)/(1.5+0.75)=32.5%
+2 年目の終了時：((1.22*0.33)+0.33)/(1.5+0.75)=32.5%
 
 ### 配信レポートでの強制隔離アドレスの識別 {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -118,8 +118,7 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 その後、ステータスは「**[!UICONTROL 有効]**」に変わります。
 
 >[!IMPORTANT]
->
->アドレスのステータスが「**[!UICONTROL 強制隔離中]**」または「**[!UICONTROL ブロックリストに登録済み]**」の受信者は、E メールを受信した場合でも削除されません。
+アドレスのステータスが「**[!UICONTROL 強制隔離中]**」または「**[!UICONTROL ブロックリストに登録済み]**」の受信者は、E メールを受信した場合でも削除されません。
 
 エラー数およびエラーの間隔も変更できます。そのためには、デプロイメントウィザードの設定（**[!UICONTROL E メールチャネル]**／**[!UICONTROL 詳細設定パラメーター]**）を変更します。デプロイメントウィザードについて詳しくは、[この節](../../installation/using/deploying-an-instance.md)を参照してください。
 
@@ -157,20 +156,23 @@ Adobe Campaign では、エラーメッセージの選定で割り当てられ�
 
 **iOS の場合：バイナリコネクタ**
 
-Adobe Campaign は通知ごとに APNS サーバーから同期エラーと非同期エラーを受け取ります。次の同期エラーについては、ソフトエラーが生成されます。
+>[!NOTE]
+キャンペーン20.3リリース以降、iOSレガシバイナリコネクタは非推奨となりました。 このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。 [詳細情報](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+
+通知ごとに、Adobe CampaignはAPNsサーバーから同期エラーと非同期エラーを受信します。 次の同期エラーについては、ソフトエラーが生成されます。
 
 * ペイロード長の問題：再試行はありません。エラーの理由は「**[!UICONTROL 未到達]**」です。
 * 証明書の有効期限の問題：再試行はありません。エラーの理由は「**[!UICONTROL 未到達]**」です。
 * 配信中の接続切断：再試行が実行されます。エラーの理由は「**[!UICONTROL 未到達]**」です。
 * サービス設定の問題（証明書が無効、証明書のパスワードが無効、証明書がない）：再試行はありません。エラーの理由は「**[!UICONTROL 未到達]**」です。
 
-APNS サーバーは Adobe Campaign に対し、デバイストークンが（モバイルアプリケーションがユーザーによりアンインストールされた時点で）登録解除されたことを非同期的に通知します。**[!UICONTROL mobileAppOptOutMgt]** ワークフローは 6 時間ごとに実行されます。このワークフローは APNS フィードバックサービスにアクセスし、**AppSubscriptionRcp** テーブルを更新します。無効になっているすべてのトークンについて、「**無効**」フィールドが「**True**」に設定され、そのサービストークンにリンクされている購読は自動的にそれ以降の配信から除外されます。
+APNsサーバーは、Adobe Campaignにデバイストークンが登録解除されたことを（モバイルアプリケーションがユーザーによってアンインストールされた場合に）非同期で通知します。 The **[!UICONTROL mobileAppOptOutMgt]** workflow runs every 6 hours to contact the APNs feedback services to update the **AppSubscriptionRcp** table. 無効になっているすべてのトークンについて、「**無効**」フィールドが「**True**」に設定され、そのサービストークンにリンクされている購読は自動的にそれ以降の配信から除外されます。
 
-**iOS の場合：HTTP/2 コネクタ**
+**iOSの場合 — HTTP/V2コネクタ**
 
-http/2 プロトコルでは、プッシュ配信ごとの直接フィードバックおよびステータスを使用できます。http/2 プロトコルコネクタを使用する場合、フィードバックサービスが **[!UICONTROL mobileAppOptOutMgt]** ワークフローによって呼び出されることはありません。登録解除されたトークンの処理は、iOS バイナリコネクタと iOS http/2 コネクタでは異なります。モバイルアプリケーションのアンインストールまたは再インストールがおこなわれた場合、トークンは登録解除されたものとみなされます。
+HTTP/V2プロトコルを使用すると、各プッシュ配信に対して直接的なフィードバックとステータスを行うことができます。 If the HTTP/V2 protocol connector is used, the feedback service is no longer called by the **[!UICONTROL mobileAppOptOutMgt]** workflow. 未登録トークンの処理方法は、iOSバイナリコネクタとiOS HTTP/V2コネクタとで異なります。 モバイルアプリケーションのアンインストールまたは再インストールがおこなわれた場合、トークンは登録解除されたものとみなされます。
 
-同時に、APNS がメッセージに対して登録解除ステータスを返した場合、ターゲットトークンはただちに強制隔離されます。
+同期的に、APNがメッセージに対して「未登録」ステータスを返すと、ターゲットトークンはすぐに強制隔離に入ります。
 
 <table> 
  <tbody> 
@@ -223,7 +225,7 @@ http/2 プロトコルでは、プッシュ配信ごとの直接フィードバ�
    <td> ×<br /> </td> 
   </tr> 
   <tr> 
-   <td> 証明書の問題（パスワード、破損など）と、APNS へのテスト接続の問題<br /> </td> 
+   <td> Certificate issue (password, corruption, etc.) and test connection to APNs issue<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> エラーによってエラーメッセージが異なる<br /> </td> 
    <td> ソフト<br /> </td> 
@@ -239,7 +241,7 @@ http/2 プロトコルでは、プッシュ配信ごとの直接フィードバ�
    <td> ○<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNS メッセージ却下：登録解除<br />ユーザーがアプリケーションを削除した、またはトークンの期限切れ<br /> </td> 
+   <td> APNs message rejection: Unregistration<br /> the user has removed the application or the token has expired<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> 登録解除<br /> </td> 
    <td> ハード<br /> </td> 
@@ -247,7 +249,7 @@ http/2 プロトコルでは、プッシュ配信ごとの直接フィードバ�
    <td> ×<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNS メッセージ却下：その他のすべてのエラー<br /> </td> 
+   <td> APNs message rejection: all other errors<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> エラー拒否の原因がエラーメッセージに表示されます<br /> </td> 
    <td> ソフト<br /> </td> 
@@ -272,11 +274,10 @@ Adobe Campaign は通知ごとに FCM サーバーから直接同期エラーを
 配信分析中に、ターゲットから除外されたすべてのデバイスが自動的に **excludeLogAppSubRcp** テーブルに追加されます。
 
 >[!NOTE]
->
->Baidu コネクタを使用している場合、さらに別の種類のエラーがあります。
->* 配信開始時の接続の問題：エラータイプは「**[!UICONTROL 未定義]**」で、エラーの理由は「**[!UICONTROL 未到達]**」です。再試行は実行されます。
->* 配信中の接続切断：ソフトエラーが生成され、エラーの理由は「**[!UICONTROL 拒否]**」です。再試行は実行されます。
->* 送信中に Baidu により同期エラーが返される：ハードエラーが生成され、エラーの理由は「**[!UICONTROL 拒否]**」です。再試行はありません。
+Baidu コネクタを使用している場合、さらに別の種類のエラーがあります。
+* 配信開始時の接続の問題：エラータイプは「**[!UICONTROL 未定義]**」で、エラーの理由は「**[!UICONTROL 未到達]**」です。再試行は実行されます。
+* 配信中の接続切断：ソフトエラーが生成され、エラーの理由は「**[!UICONTROL 拒否]**」です。再試行は実行されます。
+* 送信中に Baidu により同期エラーが返される：ハードエラーが生成され、エラーの理由は「**[!UICONTROL 拒否]**」です。再試行はありません。
 
 Adobe Campaign は 10 分ごとに Baidu サーバーにアクセスし、送信済みメッセージのステータスを取得し、broadLog を更新します。メッセージが送信済みと宣言されると、broadLog のメッセージのステータスが「**[!UICONTROL 受信済み]**」に設定されます。Baidu がエラーを宣言すると、ステータスは「**[!UICONTROL 失敗]**」に設定されます。
 
@@ -358,6 +359,134 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
    <td> 拒否<br /> </td> 
    <td> ×<br /> </td> 
   </tr> 
+    <tr> 
+   <td> FCMメッセージの拒否：無効な引数<br /> </td> 
+   <td> 失敗<br /> </td> 
+   <td> INVALID_ARGUMENT </td> 
+   <td> 無視</td> 
+   <td> 未定義<br /> </td> 
+   <td> ×<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCMメッセージの拒否：サードパーティ認証エラー<br /> </td> 
+   <td> 失敗<br /> </td> 
+   <td> THIRD_PARTY_AUTH_ERROR </td> 
+   <td> 無視</td>
+   <td> 拒否<br /> </td> 
+   <td> ○<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCMメッセージの拒否：送信者IDが一致しません<br /> </td> 
+   <td> 失敗<br /> </td> 
+   <td> SENDER_ID_MISMATCH </td> 
+   <td> ソフト</td>
+   <td> 不明なユーザー<br /> </td> 
+   <td> ×<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCMメッセージの拒否：未登録<br /> </td> 
+   <td> 失敗<br /> </td>
+   <td> 未登録 </td> 
+   <td> ハード</td> 
+   <td> 不明なユーザー<br /> </td> 
+   <td> ×<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCMメッセージの拒否：内部<br /> </td> 
+   <td> 失敗<br /> </td> 
+   <td> 内部 </td> 
+   <td> 無視</td> 
+   <td> 拒否<br /> </td> 
+   <td> ○<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCMメッセージの拒否：使用不可<br /> </td> 
+   <td> 失敗<br /> </td> 
+   <td> UNAVAILABLE</td> 
+   <td> 無視</td> 
+   <td> 拒否<br /> </td> 
+   <td> ○<br /> </td> 
+  </tr>
+    <tr> 
+   <td> FCMメッセージの拒否：予期しないエラーコード<br /> </td> 
+   <td> 失敗<br /> </td> 
+   <td> 予期しないエラーコード</td> 
+   <td> 無視</td> 
+   <td> 拒否<br /> </td> 
+   <td> ×<br /> </td> 
+  </tr>
+  <tr> 
+   <td> 認証：接続の問題<br /> </td> 
+   <td> 失敗<br /> </td> 
+   <td> 認証サーバーに接続できません </td> 
+   <td> 無視</td>
+   <td> 拒否<br /> </td> 
+   <td> ○<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 認証：要求に許可されていないクライアントまたはスコープです。<br /> </td> 
+   <td> 失敗<br /> </td> 
+   <td> unauthorized_client </td> 
+   <td> 無視</td>
+   <td> 拒否<br /> </td> 
+   <td> ×<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 認証：クライアントは、このメソッドを使用してアクセストークンを取得する権限がありません。または、要求されたスコープに対してクライアントが承認されていません。<br /> </td> 
+   <td> 失敗<br /> </td> 
+   <td> unauthorized_client </td> 
+   <td> 無視</td>
+   <td> 拒否<br /> </td> 
+   <td> ×<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 認証：アクセス拒否<br /> </td> 
+   <td> 失敗<br /> </td>
+   <td> access_denied</td> 
+   <td> 無視</td>
+   <td> 拒否<br /> </td> 
+   <td> ×<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 認証：無効な電子メール<br /> </td> 
+   <td> 失敗<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> 無視</td> 
+   <td> 拒否<br /> </td> 
+   <td> ×<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 認証：無効なJWT<br /> </td> 
+   <td> 失敗<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> 無視</td> 
+   <td> 拒否<br /> </td> 
+   <td> ×<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 認証：無効なJWT署名<br /> </td> 
+   <td> 失敗<br /> </td> 
+   <td> invalid_grant </td> 
+   <td> 無視</td> 
+   <td> 拒否<br /> </td> 
+   <td> ×<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 認証：無効なOAuthスコープまたはIDトークンオーディエンスが指定されました<br /> </td> 
+   <td> 失敗<br /> </td> 
+   <td> unauthorized_client</td> 
+   <td> 無視</td> 
+   <td> 拒否<br /> </td> 
+   <td> ×<br /> </td> 
+  </tr>
+    <tr> 
+   <td> 認証：OAuthクライアントが無効です<br /> </td> 
+   <td> 失敗<br /> </td> 
+   <td> disabled_client</td> 
+   <td> 無視</td> 
+   <td> 拒否<br /> </td> 
+   <td> ×<br /> </td> 
+  </tr>
  </tbody> 
 </table>
 
@@ -368,8 +497,7 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
 SMS メッセージの強制隔離メカニズムは、全体として通常のプロセスと同じものです。[強制隔離について](#about-quarantines)を参照してください。SMS 特有の方式を以下に示します。
 
 >[!NOTE]
->
->**[!UICONTROL 配信ログの選定]**&#x200B;テーブルは、**拡張された汎用 SMPP** コネクタには適用されません。
+**[!UICONTROL 配信ログの選定]**&#x200B;テーブルは、**拡張された汎用 SMPP** コネクタには適用されません。
 
 <table> 
  <tbody> 
@@ -427,9 +555,8 @@ SMPP コネクタは、返された SR（ステータスレポート）メッセ
 新しいタイプのエラーが検証される前に、エラーの理由はデフォルトで常に「**拒否**」に設定されます。
 
 >[!NOTE]
->
->エラーのタイプと理由は E メールの場合と同じです。[配信エラーのタイプと理由](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
->配信ログの検証テーブルに適切なエラータイプおよび理由を設定するために、ステータスコードおよびエラーコードのリストをプロバイダーに問い合わせてください。
+エラーのタイプと理由は E メールの場合と同じです。[配信エラーのタイプと理由](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
+配信ログの検証テーブルに適切なエラータイプおよび理由を設定するために、ステータスコードおよびエラーコードのリストをプロバイダーに問い合わせてください。
 
 生成されるメッセージの例：
 

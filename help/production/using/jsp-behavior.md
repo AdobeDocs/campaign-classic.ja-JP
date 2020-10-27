@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 5dcc4090-effe-479e-8d5c-67e6a6542fbb
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 21%
@@ -28,7 +28,7 @@ ht-degree: 21%
 
 ```
 nlserver stop web
-cd nl6/tomcat-7
+cd nl6/tomcat-8
 rm -r work/
 nlserver start web
 ```

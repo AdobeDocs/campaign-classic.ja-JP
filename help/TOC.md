@@ -8,10 +8,10 @@ product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 20894054c09cfc4a388b068f25f990277bc1fc70
+source-git-commit: d15e953740b0a4dd8073b36fd59b4c4e44906340
 workflow-type: tm+mt
-source-wordcount: '2125'
-ht-degree: 98%
+source-wordcount: '2148'
+ht-degree: 96%
 
 ---
 
@@ -23,17 +23,19 @@ ht-degree: 98%
 + リリースノート{#release-notes}
    + [アップグレードの基本を学ぶ](rn/using/rn-overview.md)
    + [最新リリース](rn/using/latest-release.md)
-   + [Gold Standard リリース](rn/using/gold-standard.md)
+   + Gold Standard Release {#gs-release}
+      + [ゴールド標準リリースノート](rn/using/gold-standard.md)
+      + [ゴールド標準互換表](rn/using/compatibility-matrix-gs.md)
    + 以前のリリース {#previous-releases}
+      + [リリース 20.2](rn/using/release--20-2.md)
       + [リリース 20.1](rn/using/release--20-1.md)
       + [リリース 19.2](rn/using/release--19-2.md)
       + [リリース 19.1](rn/using/release--19-1.md)
       + [リリース 18.10](rn/using/release--18-10.md)
       + [リリース 18.6](rn/using/release--18-6.md)
       + [リリース 18.4](rn/using/release--18-4.md)
-   + 廃止された機能と互換性 {#deprecated-compatibility}
-      + [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md)
-      + [互換性マトリックス](rn/using/compatibility-matrix.md)
+   + [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md)
+   + [互換性マトリックス](rn/using/compatibility-matrix.md)
 + はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic の基本を学ぶ](platform/using/about-adobe-campaign-classic.md)
@@ -121,7 +123,10 @@ ht-degree: 98%
    + プッシュ通知の送信 {#sending-push-notifications}
       + [モバイルアプリチャネルについて](delivery/using/about-mobile-app-channel.md)
       + [Campaign SDK をモバイルアプリケーションに統合する](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
-      + [Adobe Campaign でモバイルアプリケーションを設定する](delivery/using/configuring-the-mobile-application.md)
+      + モバイルアプリケーションの設定{#configure-the-mobile-app}
+         + [アプリ設定を使い始める](delivery/using/get-started-app-config.md)
+         + [iOSの設定手順](delivery/using/configuring-the-mobile-application.md)
+         + [Androidの設定手順](delivery/using/configuring-the-mobile-application-android.md)
       + [通知の作成](delivery/using/creating-notifications.md)
       + [トラブルシューティング](delivery/using/troubleshooting.md)
    + ダイレクトメールの送信 {#sending-direct-mail}
@@ -336,8 +341,8 @@ ht-degree: 98%
    + Experience Cloud Triggers {#experience-triggers}
       + [情報 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)
-      + [パイプラインオプション NmsPipeline_Config](integrations/using/nmspipeline-config.md)
-      + [Triggers イベント](integrations/using/events.md)
+      + [Adobe Experience Cloudトリガー用のAdobeIOの設定](integrations/using/configuring-adobe-io.md)
+      + [カスタム導入用のイベントの設定](integrations/using/events.md)
       + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
       + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
 + ワークフローによる自動化 {#automating-with-workflows}

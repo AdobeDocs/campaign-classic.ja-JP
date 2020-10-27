@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: 762b0233-4b2a-420c-ba28-240cfba362e8
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 
@@ -30,7 +30,6 @@ ht-degree: 100%
 
 オファーを作成する前に、まず環境を指定する必要があります（[環境の概要](../../interaction/using/environments-overview.md)を参照）。環境には、一連のオファーのすべての特性（実施要件、ターゲットに対する制約、プレゼンテーションルール）がカテゴリに分類されて、そのスペースのリストと共に含められます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >オファーカタログ（つまり、カテゴリおよびオファー）の作成は、**[!UICONTROL オファーマネージャー]**&#x200B;が担当します。
-

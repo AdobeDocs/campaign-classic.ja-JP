@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3773'
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,7 @@ Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Overview]** link t
 
 システムインジケータのリストを使用すると、物理メモリや仮想メモリ、アクティブなプロセス、使用可能なディスク領域など、マシンに関する情報を表示できます。 インジケーターは、LinuxとWindowsのオペレーティングシステムで異なります。 「 **[!UICONTROL インスタンス監視]** 」ページに移動し、「 **[!UICONTROL 表示]** 」リンクをクリックして、インジケータのリストを開きます。
 
-#### Windowsの場合 {#in-windows}
+#### Windows {#in-windows}
 
 * **[!UICONTROL 保留中のイベントがキューに登録されました]** :「 **Message Center**」に固有のインジケーター。 詳しくは、[この節](../../message-center/using/monitoring-thresholds.md)を参照してください。
 * **[!UICONTROL メモリ]** :物理メモリ(RAM)に関する情報。
@@ -103,7 +103,7 @@ Go to **[!UICONTROL Monitoring]** and click the **[!UICONTROL Overview]** link t
 
    ア **[!UICONTROL ラート]** ・インジケータが表示される場合は、該当するプロセスがSQLデータベース・エンジンによってロックされているか、無限ループで停止している可能性があります。 Adobe Campaignが提供する **ウォッチドッグ** ・プロセスは、毎日すべてのプロセスを自動的に開始し直し、この問題を解決できます。 ただし、関連するプロセスを自分で停止して、再開始を強制することもできます。
 
-#### Linuxの場合 {#in-linux}
+#### Linux {#in-linux}
 
 ![](assets/production_system_indicators_linux_001.png)
 
@@ -256,7 +256,7 @@ SMTP配信監視レポートは、Adobe Campaignプラットフォームに統�
 
 ![](assets/smtp_reports_access.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* SMTP監視に関連する情報は、電子メールチャネルがアクティブ化されている場合にのみ利用できます。
 >* SMTP送信統計 **[!UICONTROL 情報は]** 、インスタンスで統計サーバが起動した場合にのみ提供されます。
@@ -484,7 +484,7 @@ Adobe Campaignは、検出された異常値に関するレポートを電子メ
 
 ![](assets/pro_netreport.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >このツールは、インスタンスの監視に使用できますが、Adobe Campaignではサポートされていません。 詳細については、キャンペーン管理者にお問い合わせください。
 
@@ -548,7 +548,7 @@ XML設定ファイルには、次の要素が含まれています。
 >
 >様々な設定を指定するには、 **netconf.xml** ファイルにサフィックスを追加します。 **netconf-dev.xml**、 **netconf-prod.xml**&#x200B;などがあります。 次に、netreport.bat **またはnetreport.sh** ファイルで、netreportの実行に使用する設定を指定します。 **$JAVA_HOME/bin/java netreport devを追加するか、** @%JAVA_HOME%port treport prodを例に追加し ******** ます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >監視 **演算子が動作するためには** 、ネットポートが実行されるマシンが、 **sessionTokenOnly** モードのセキュリティゾーンに存在する必要があります。 この演算子に信頼できるIPマスクが指定されていない場合は、セキュリティゾーンも **allowEmptyPassword** モードとallowUserPassword **** モードになっている必要があります。
 

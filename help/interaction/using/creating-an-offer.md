@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: 010c88f4-9444-448f-bb7b-7191517d2e23
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '838'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 99%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 
    ![](assets/offer_weight_create_006.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >値を入力しない場合、重み付けは 0 になり、ターゲットがそのオファーの実施要件を満たすとは判断されなくなります。
 
@@ -116,7 +116,7 @@ ht-degree: 100%
    >
    >選択されたオファーに関して、複数の重み付けの実施要件を満たすターゲットには、それらのうち最大の重み付けが適用されます。オファーエンジンの呼び出し時、1 つのオファーが選択される回数は、1 つのコンタクト先あたり最大 1 回です。
 
-### オファー実施要件ルールの概要 {#a-summary-of-offer-eligibility-rules}
+### Summary of offer eligibility rules {#a-summary-of-offer-eligibility-rules}
 
 設定が完了すると、実施要件ルールの概要をオファーダッシュボードで利用できるようになります。
 

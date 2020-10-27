@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: 7b1c58a0-6fd6-4c9d-b1c4-f3dffda42523
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 利用可能な特定のスペースに対してオファーコンテンツを承認し、他のスペースに対しては却下することもできます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >オファーのコンテンツおよび実施要件が承認されると、パブリッシュワークフロー（オファー通知）が自動的に実行されてオファーがライブ環境に移行し、すべての有効化されたスペース上で利用できるようになります。
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 オファーの実施要件を承認することは、オファーに設定された、または親カテゴリに作成されたルールから継承された、オファーの重み付けと実施要件ルールを承認または却下することを意味します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >オファーのコンテンツおよび実施要件が承認されると、パブリッシュワークフロー（オファー通知）が自動的に実行されてオファーがライブ環境に移行し、すべての有効化されたスペース上で利用できるようになります。
 

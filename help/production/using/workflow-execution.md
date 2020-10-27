@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: troubleshooting
 discoiquuid: 7d8828c5-5776-49ca-b4f7-a4a6aaaa9db1
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 13%
@@ -78,7 +78,7 @@ ht-degree: 13%
 
    インスタンスの実行中のワークフロー数を確認するには、あらかじめ定義された表示を使用することをお勧めします。このは、デフォルトでは **[!UICONTROL Administration]****[!UICONTROL /]** Auditフォルダーからアクセスできます。 詳しくは、[このページ](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status)を参照してください。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >NmsOperation_LimitConcurrency **** Optionのしきい値を増やすと、インスタンスのパフォーマンスの問題を引き起こす可能性があります。 いずれにしても、これを自分で実行してAdobe Campaignの連絡先に連絡することは避けてください。
 

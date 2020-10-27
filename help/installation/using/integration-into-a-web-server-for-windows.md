@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: a4f2ae0e-e631-4ab6-934e-8298e4ce6f2c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1001'
+ht-degree: 5%
 
 ---
 
@@ -70,7 +70,7 @@ IIS 7では、標準のサービスに加えて、ISAPI拡張機能とISAPIフ�
 
    ![](assets/s_ncs_install_iis7_parameters_step1.png)
 
-1. VBS **** スクリプトを使用すると、先ほど作成した仮想ディレクトリでAdobe Campaignサーバが使用するリソースを自動的に構成できます。 起動するには、重複がフォルダ内にある **iis_neolane_setup.vbs** ファイルをクリックします。 `[INSTALL]\tomcat-7\conf` は、Adobe Campaignインストールフォルダにアクセスするためのパス `[INSTALL]` です。
+1. VBS **** スクリプトを使用すると、先ほど作成した仮想ディレクトリでAdobe Campaignサーバが使用するリソースを自動的に構成できます。 起動するには、重複がフォルダ内にある **iis_neolane_setup.vbs** ファイルをクリックします。 `[INSTALL]\conf` は、Adobe Campaignインストールフォルダにアクセスするためのパス `[INSTALL]` です。
 
    ![](assets/s_ncs_install_iis7_parameters_step2.png)
 

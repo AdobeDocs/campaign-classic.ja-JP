@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 discoiquuid: a9fad813-3256-4a00-ba74-7dbaba9e8e23
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 85%
 
 ---
 
@@ -46,11 +46,11 @@ ht-degree: 100%
 
    その後、必要に応じて次の操作を実行します。
 
-   * 「**[!UICONTROL 実施要件]**」タブで、実施日を割り当てます。
+   * Assign eligibility dates from the **[!UICONTROL Eligibility]** tab.
 
       ![](assets/offer_cat_create_004.png)
 
-   * 「**[!UICONTROL テーマ]**」フィールドで、このカテゴリからオファーを選択するのに使用できるキーワードを入力します。
+   * Enter key words that may be used to select offers from within this category, using the **[!UICONTROL Themes]** field.
 
       ![](assets/offer_cat_create_005.png)
 
@@ -58,7 +58,7 @@ ht-degree: 100%
       >
       >オファーエンジンの呼び出し時には、テーマやカテゴリがパラメーターに合致したカタログの一部分のみが選択されます。
 
-   * 「**[!UICONTROL 乗数の重み付け]**」フィールドを使用して、一定期間、カテゴリのオファーの重み付けを一時的に「増加」させます。
+   * Temporarily &quot;boost&quot; the offer weight of a category for a given period via the **[!UICONTROL Multiplier weight]** field.
 
       ![](assets/offer_cat_create_006.png)
 

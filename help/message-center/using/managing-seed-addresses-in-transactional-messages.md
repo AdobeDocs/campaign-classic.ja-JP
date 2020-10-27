@@ -11,10 +11,10 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 12e7043e-e8b5-48a9-8a2f-99e2e6040c3c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '221'
+translation-type: tm+mt
+source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
+workflow-type: tm+mt
+source-wordcount: '200'
 ht-degree: 100%
 
 ---
@@ -46,13 +46,12 @@ ht-degree: 100%
 
    ![](assets/messagecenter_create_custo_001.png)
 
-## 複数のシードアドレスの作成 {#creating-several-seed-addresses}
-
+   <!--## Creating several seed addresses {#creating-several-seed-addresses}-->
 1. 「**[!UICONTROL 他のシードアドレスを追加]**」リンクをクリックし、「**[!UICONTROL 追加]**」ボタンをクリックします。
 
    ![](assets/messagecenter_create_seedaddr_004.png)
 
-1. [シードアドレスの作成](#creating-a-seed-address)の節で説明されているシードアドレスの設定手順に従ってください。
+   <!--1. Follow the configuration steps for a seed address detailed in the [Creating a seed address](#creating-a-seed-address) section.-->
 1. この手順を繰り返して、必要な数のアドレスを作成します。
 
    ![](assets/messagecenter_create_seedaddr_008.png)

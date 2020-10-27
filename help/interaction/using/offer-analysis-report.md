@@ -11,11 +11,11 @@ audience: interaction
 content-type: reference
 topic-tags: tracking-offers
 discoiquuid: 6aae6a10-b03e-41f1-a6e9-29100800bae1
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -30,15 +30,15 @@ ht-degree: 100%
 
 統計は、次の 3 つの基準に基づいて並べ替えられます。
 
-* 日付別。
+* 日付別:
 
    ![](assets/offer_report_perdate.png)
 
-* スペース別。
+* スペース別：
 
    ![](assets/offer_report_perspaces.png)
 
-* 配信別。
+* 配信別：
 
    ![](assets/offer_report_perdeliveries.png)
 

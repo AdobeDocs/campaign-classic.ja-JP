@@ -11,9 +11,9 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 discoiquuid: 335cf2de-1874-4e48-9538-f0937641cf96
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a0ab8794bdbdfbe627bf33580dc8991793447336
+workflow-type: tm+mt
 source-wordcount: '1256'
 ht-degree: 100%
 
@@ -153,7 +153,7 @@ Facebook には次の制限があります。
 
 次の各フィールドを入力します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >すべての URL は、**「http://」**&#x200B;または&#x200B;**「https://」**&#x200B;で始まる必要があります。
 

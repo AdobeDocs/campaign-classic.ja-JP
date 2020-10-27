@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 discoiquuid: 5b2b7682-6bac-4282-8d27-e8a259934e7d
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 * **オファースペース**：オファーを公開する場所を定義するフォルダー。スペースの定義では、使用するチャネルの指定、スペースを単一モードで使用できるようにするかの指定（デフォルトでは、バッチモードでのみ使用可能）、レンダリング関数を使用したオファーのコンテンツの作成、提示するオファーの中からの特定のオファーの指定をおこなうことができます。スペースはチャネルとオファーエンジンの間のインターフェイスとして機能します。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >オファースペースは通信チャネルではなく、チャネル上の特定の公開場所に一致します。例えば、Web サイト上で公開されるオファーの場合は、同じページ内で 2 つのスペースを使用することができます。その場合は、同じチャネルに対して 2 つのスペースを定義します。
    >

@@ -11,9 +11,9 @@ audience: social
 content-type: reference
 topic-tags: annexes
 discoiquuid: 07be1d3c-b038-48ca-be37-a33adb8e0fc0
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a0ab8794bdbdfbe627bf33580dc8991793447336
+workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 100%
 
@@ -129,7 +129,7 @@ Facebook によって Adobe Campaign に転送された匿名データの中で�
 
 ## ファンデータを取得するには？{#how-to-acquire-fan-data-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >[Facebook アプリケーションの作成](../../social/using/creating-a-facebook-application.md)で説明されている設定手順に従います。
 
@@ -250,7 +250,7 @@ Web アプリケーションを作成する際に事前に外部アカウント�
 
 1. 「**[!UICONTROL マッピング]**」フィールドで、紐付けを実行するスキーマを選択します。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >配信マッピングで、「**[!UICONTROL ソーシャルネットワーク]**」タブのフィールドが正しく入力されていることを確認します。配信マッピングには、**[!UICONTROL 管理／キャンペーン管理／ターゲットマッピング]**&#x200B;ノードを使用してアクセスします。
 

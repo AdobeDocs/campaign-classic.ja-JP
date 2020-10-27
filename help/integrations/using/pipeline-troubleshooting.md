@@ -11,18 +11,18 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '644'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3e73d7c91fbe7cff7e1e31bdd788acece5806e61
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 97%
 
 ---
 
 
 # パイプラインのトラブルシューティング {#pipeline-troubleshooting}
 
-**pipelined が失敗し、「No task corresponds to the mask pipelined@」（マスク pipelined@ に対応するタスクがありません）というエラーが表示される**
+**パイプラインは、「マスクのパイプライン@&lt;インスタンス>に対応するタスクがありません」というエラーが表示されて失敗します。**
 
 お使いのバージョンの Adobe Campaign Classic はパイプラインをサポートしていません。
 
@@ -49,7 +49,7 @@ IMSOrgid 設定が無効です。
 1. authPrivateKey が設定されていることを確認します。
 1. authPrivateKey が @ から始まり、= で終わり、およそ 4000 文字の長さであることを確認します。
 1. 元のキーを探します。元のキーが、RSA 形式で、4096 ビット長であり、「-----BEGIN RSA PRIVATE KEY-----」で始まることを確認します。
-   <br>必要に応じて、キーを再作成し、Adobe Analytics に登録します。[こちら](../../integrations/using/configuring-pipeline.md#oauth-client-creation)を参照してください。
+   <br>必要に応じて、キーを再作成し、Adobe Analytics に登録します。
 1. キーが [!DNL pipelined] と同じインスタンス内でエンコードされたことを確認します。<br>必要に応じて、サンプルの JavaScript またはワークフローを使用してエンコードをやり直します。
 
 **pipelined が失敗し、「unable to read the token during authentication」（認証時にトークンを読み取れません）と表示される**
@@ -91,42 +91,3 @@ Analytics のタイムスタンプが、Campaign でのイベントの作成日�
 1. [!DNL pipelined] ステータスページでキューのサイズを確認します。キューのサイズが大きい場合は、JS のパフォーマンスを向上させます。
 1. ボリュームに伴って遅延が増加するようなので、メッセージを少なくして Analytics にトリガーを設定します。
 付録
-
-**キー暗号化 JavaScript の使用方法**
-
-秘密鍵を暗号化する JavaScript を実行します。これは、パイプライン設定に必須です。
-
-cryptString 関数を実行する際に使用できるコード例を以下に示します。
-
-```
-/*
-USAGE:
-  nlserver javascript -instance:<instancename> -file -arg:"<private_key.pem file>" -file encryptKey.js
-*/
- 
-function usage()
-{
-  return "USAGE:\n" +
-    '  nlserver javascript -instance:<instancename> -file -arg:"<private_key.pem file>" -file encryptKey.js\n'
-}
- 
-var fn = application.arg;
-if( fn == "" )
-  logError("Missing key file file\n" + usage());
- 
-//open the pem file
-plaintext = loadFile(fn)
- 
-if( !plaintext.match(/^-----BEGIN RSA PRIVATE KEY-----/) )
-  logError("File should be an rsa private key")
- 
-logInfo("Encrypted key:\n" + cryptString(plaintext, <xtkSecretKey>))
-```
-
-サーバーで、JavaScript を実行します。
-
-```
-nlserver javascript -instance:<instancename> -file -arg:"<private_key.pem file>" -file encryptKey.js
-```
-
-エンコードされたキーを出力からコンソールにコピー＆ペーストします。

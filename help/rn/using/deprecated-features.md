@@ -2,7 +2,6 @@
 title: Campaign Classic の非推奨（廃止予定）および削除された機能
 description: このページリストは、Adobe Campaign Classic の非推奨（廃止予定）および削除された機能です
 page-status-flag: never-activated
-uuid: null
 contentOwner: simonetn
 products: SG_CAMPAIGN/CLASSIC
 audience: rn
@@ -10,11 +9,11 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b9577d190f26e21f116d99d48fdf2bca84585d50
-workflow-type: ht
-source-wordcount: '1444'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 87c2ee675b77be0f24a2028e7dbbf0bd1b91d46e
+workflow-type: tm+mt
+source-wordcount: '1607'
+ht-degree: 85%
 
 ---
 
@@ -45,9 +44,40 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
  <tbody> 
    <tr>
    <td><strong>機能</strong></td>
-   <td><strong>置き換え</strong></td> 
+   <td><strong>置き換え</strong></td>
   </tr>
+  <tr>
+  <td>CRM コネクタ<br></td>
+   <td><p>キャンペーン20.3リリース以降、次のCRMコネクタは非推奨となりました。</p>
+   <ul>
+   <li>SOAP API - オンプレミス：2007、2015、2016</li>
+   <li>SOAP API - オンライン：2015、2016</li>
+   </ul>
+  <p><em>削除予定日：2021 年</em></p>
+  </td>
+ </tr>
+  <tr>
+  <td>iOSレガシーバイナリ<br></td>
+  <td><p>キャンペーン20.3リリース以降、iOSレガシバイナリコネクタは非推奨となりました。<p>
+  <p> このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。
+  <a href="https://helpx.adobe.com/campaign/kb/migrate-to-http2.html">詳細情報</a></p>
+  <p><em>削除予定日：2021 年</em></p>
+  </td>
+ </tr>
    <tr>
+  <td>Demdexドメイン<br></td>
+  <td><p> キャンペーン20.3リリース以降、オーディエンスのAdobe Experience Cloudへの読み込みと書き出しに使用するdemdexドメインは廃止されました。<p>
+  <p>インポート/エクスポート外部アカウントにdemdexドメインを使用する場合は、それに応じて実装を適応させる必要があります。 <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">詳細情報</a></p> 
+  <p><em>削除予定日：2021 年</em></p>
+  </td>
+  <tr>
+  <td>OAuth認証（OAuthおよびJWT）<br></td>
+  <td><p> キャンペーン20.3リリース以降、元々はoAUTH認証設定に基づいて統合認証をトリガーし、パイプラインにアクセスするための設定が変更され、AdobeI/Oに移行しました。 <p>
+  <p>Triggers統合を使用している場合は、それに応じて実装を適応させる必要があります。 <a href="../../integrations/using/about-triggers.md">詳細情報</a></p> 
+  <p>OAuth Authenticationの減価償却の詳細については、この <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">ページを参照してください。</a></p> 
+  <p><em>ターゲットの削除日：2021年4月</em></p>
+  </td>
+  </tr>
   <td>SMS コネクタ<br></td>
   <td><p> Campaign 20.2 リリースより、次の SMS コネクタは非推奨（廃止予定）になります。<p>
    <ul>
@@ -83,6 +113,10 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <td><strong>領域 - 機能</strong></td>
    <td><strong>置き換え</strong></td> 
   </tr> 
+   <tr> 
+   <td>Windows NT認証<br></td>
+   <td><p>キャンペーン20.3リリースから、Microsoft SQL Serverで新しいデータベースを構成する際に、Windows NT認証が利用可能な認証方法から削除されました。 <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">詳細情報</a></p></td>
+  </tr>
    <tr> 
    <td>ファイルベースの E メールのアーカイブ<br></td>
    <td><p>Campaign 20.2 リリースより、ファイルベースの E メールのアーカイブは使用できなくなりました。E メールアーカイブは、専用の BCC E メールアドレスを通じて使用できるようになりました。<a href="../../installation/using/email-archiving.md">詳細情報</a></p></td>
@@ -129,20 +163,7 @@ Campaign Classic では、次のシステムが非推奨（廃止予定）にな
 
 ### Adobe Campaign 20.2 リリース {#compat-20-2-release}
 
-20.2 リリースより、Campaign Classic は次のシステムが非推奨（廃止予定）になります。互換性の維持は 20.3 リリース（2020 年 10 月）で終了します。
-
-* クライアントコンソール：Windows 7
-* レガシー SMS コネクタ ‐ [廃止された機能](#deprecated-features)を参照してください
-* Federated Data Access（FDA）用 DB2 UDB 10.5
-
-### Adobe Campaign 19.2 リリース {#compat-19-2-release}
-
-19.2 リリースより、Campaign Classic は次のオペレーティングシステムが非推奨（廃止予定）になります。2020 年末で互換性の維持の取り組みを終了します。
-
-* Web サーバー：Apache 2.2。
-* オペレーティングシステム：CentOS 6。
-
-[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照し、新しいバージョンにアップグレードするか、新しいシステムに移行してください。
+20.2リリース以降、レガシーSMSコネクタは非推奨となります。 非 [推奨機能の節を参照してください](#deprecated-features)
 
 ## 互換性の終了 {#end-of-compatibility}
 
@@ -155,7 +176,7 @@ Campaign Classic では、次のシステムが非推奨（廃止予定）にな
 Adobe Campaign Classic クライアントコンソールは、次のシステムでは実行できなくなりました。エディターで非推奨になっています。Campaign クライアントコンソールをこれらのバージョンのいずれかで実行している場合は、削除のターゲット日より前に最新バージョンにアップグレードする必要があります。[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
 
 * Windows Server 2003、2008、2008 R2
-* Windows XP、Vista
+* Windows 7、XP、Vista
 
 >[!NOTE]
 >Campaign 20.1 リリースより、Campaign Classic クライアントコンソール 32 ビットは Campaign の最新バージョンとの互換性がなくなります。64 ビットのクライアントコンソールを使用する必要があります。
@@ -165,6 +186,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 19.1 リリースより、Adobe Campaign は次のオペレーティングシステムへの対応を終了します。
 
+* CentOS 6 [詳細情報](https://wiki.centos.org/Download)
 * Debian 7。[詳細情報](https://wiki.debian.org/DebianReleases)
 * RHEL 6.x。[詳細情報](https://access.redhat.com/ja/support/policy/updates/errata)
 * Windows Server 2008。[詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/1163)
@@ -174,6 +196,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 19.1 Spring リリースより、Adobe Campaign は次の WEB サーバーへの対応を終了します。
 
+* Apache 2.2。 [詳細](https://httpd.apache.org/)
 * Microsoft IIS 7。[詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/810)
 
 ### ツール {#tools-eol}
@@ -191,7 +214,11 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 **Federated Data Access（FDA）**
 
-19.1 Spring リリースより、Adobe Campaign は次の FDA サーバーへの対応を終了します。
+20.2リリース以降、Adobe Campaignは次のFDAサーバーとの互換性がなくなりました。
+
+* DB2 UDB 10.5
+
+19.1 Springリリース以降、Adobe Campaignは次のFDAサーバーとの互換性がなくなりました。
 
 * PostgreSQL 9.3。[詳細情報](https://www.postgresql.org/support/versioning)
 * MySQL 5.5。[詳細情報](http://www.fromdual.com/support-for-mysql-from-oracle)

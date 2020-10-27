@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: data-processing
 discoiquuid: 6b188d78-abb4-4f03-80b9-051ce960f43c
 translation-type: tm+mt
-source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 2%
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 ![](assets/ncs_cleanup_scheduler.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >スケジューラーで定義された日時に **[!UICONTROL Database cleanup]** workflowを開始するには、ワークフローエンジン(wfserver)を起動する必要があります。 そうでない場合、データベースのクレンジングは、次回ワークフローエンジンが起動するまで行われません。
 
@@ -84,7 +84,7 @@ ht-degree: 2%
 
 ワークフロースケジューラーで定義された日時(スケジューラー [を参照](#the-scheduler))に、ワークフローエンジンはデータベースのクリーンアップ処理を開始します。 データベースのクリーンアップは、データベースに接続し、以下に示すシーケンスのタスクを実行します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >これらのタスクの1つが失敗した場合、次のエラーは実行されません。\
 >LIMIT **** 属性を持つSQLクエリは、すべての情報が処理されるまで繰り返し実行されます。

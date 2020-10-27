@@ -11,9 +11,9 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 discoiquuid: 811a42a4-552c-49cb-bffd-7e124ef83735
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
+workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 オファーの同期は、パッケージで実行されます。実行インスタンスでは、すべてのカタログオブジェクトに、外部アカウント名のプレフィックスが付加されます。これは、同じ実行インスタンスで複数のコントロールインスタンス（例：開発用インスタンスと本番用インスタンス）をサポートできることを意味します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >内部名には、短くて明示的な名前を使用することをお勧めします。
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 
 次に、コントロールインスタンスで使用できるメンテナンスオプションのリストを示します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >これらのオプションは、特定のメンテナンス事例にのみ使用できます。
 
@@ -128,7 +128,7 @@ ht-degree: 100%
 
 インタラクションパッケージをインストールしたことがないインスタンスの場合、移行は必要ありません。デフォルトでは、パッケージがインストールされると、提案テーブルは 64 ビットになります。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >インスタンスの既存の提案の量によっては、この作業に時間がかかることがあります。
 

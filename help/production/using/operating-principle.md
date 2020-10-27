@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: 5e9c17ad-14d2-4173-9fc9-0e48a21426c8
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '502'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaignモジュールには3つのタイプがあります。
 
 nlserver **** ツールの一般的な構文は次のとおりです。
 
-**nlserver`<command>``<command arguments>`**
+**nlserver `<command>``<command arguments>`**
 
 使用可能なモジュールをリストするには、 **nlserver** コマンドを使用します。
 
@@ -79,11 +79,11 @@ nlserver **** ツールの一般的な構文は次のとおりです。
 | Web | アプリケーションサーバー（HTTPおよびSOAP） |
 | wfserver | ワークフローサーバー |
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >最後のモジュールが1つあります。パフォーマンスを考慮して、アプリケーションサーバーにリンクされたトラッキングおよびリレーモジュールです。このモジュールは、ネイティブのメカニズムを介して、ダイナミックライブラリを介してApacheまたはIISのwebサーバーに統合されます。 このモジュールの開始や管理を行うAdobe Campaignコマンドはありません。 したがって、Webサーバー自体のコマンドを使用する必要があります。
 
-モジュールの使用法とそのパラメーターの構文は、次のコマンドを使用して表示します。 **nlserver`[module]`- ?**
+モジュールの使用法とそのパラメーターの構文は、次のコマンドを使用して表示します。 **nlserver `[module]` - ?**
 
 例：
 

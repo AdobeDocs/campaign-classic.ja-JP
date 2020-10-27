@@ -1,6 +1,6 @@
 ---
 title: Gold Standard リリース
-description: Gold Standard リリース
+description: Campaign Classicゴールド標準リリースノート
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -9,26 +9,24 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 877ca2275c9338377da9e435e070c9911314fe51
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 93%
 
 ---
 
 
 # Gold Standard リリース{#gold-standard}
 
-Gold Standard のユーザーは、安定した最新バージョンを使用することで、自動的に Gold Standard のアップグレードのメリットが得られるため、操作は必要ありません。
+Gold Standardは、Campaign Classicの長期サポートリリースです。 Gold Standard のユーザーは、安定した最新バージョンを使用することで、自動的に Gold Standard のアップグレードのメリットが得られるため、操作は必要ありません。オンプレミスおよびハイブリッドの顧客も、Gold Standard リリースのメリットを受けられます。
 
-オンプレミスおよびハイブリッドの顧客も、Gold Standard リリースのメリットを受けられます。
-
-これは、長期サポートリリースです。古いビルドから移行する場合は、最初にこのバージョンにアップグレードすることをお勧めします。
+古いビルドから移行する場合は、最初にこのバージョンにアップグレードすることをお勧めします。
 
 このページには、Gold Standard のリリースがリストされています。
 
-Gold Standard のアップグレードの詳細については、この[記事](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)を参照してください。
+For more information on Campaign Gold Standard program, refer [to this article](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html).
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 10 リリース{#gs-10}
 
@@ -40,7 +38,7 @@ _2020 年 7 月 7 日_
 
 >[!CAUTION]
 >
->クライアントコンソールをこのリリースに含まれるものにアップグレードすることをお勧めします。この[ページ](../../installation/using/installing-the-client-console.md)を参照してください。
+>クライアントコンソールをこのリリースに含まれるものにアップグレードすることをお勧めします。Refer [to this page](../../installation/using/installing-the-client-console.md)
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 9 リリース{#gs-9}
 
@@ -50,7 +48,7 @@ _2020 年 6 月 22 日_
 
 * iOS HTTP2 コネクタが強化されました（サードパーティのアップデートおよびエラー管理）。（NEO-25904、NEO-25903、NEO-25799）
 
-以下はトラッキングリンクのセキュリティメカニズムに関する修正です（[セキュリティとプライバシーのチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)を参照）。
+The following fixes are related to the tracking link security mechanism (learn more in the [Security and Privacy checklist](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)):
 
 * 「通知クリック数」のトラッキングが機能しない問題を修正しました（iOS および Android のプッシュ通知）。（NEO-25965）
 * 一部のレガシーバージョンの Outlook を使用する場合に、トラッキング URL を開いたりクリックしたりできない問題を修正しました。（NEO-25688）
@@ -69,7 +67,7 @@ _2020 年 4 月 29 日_
 
 >[!CAUTION]
 >
->トラッキングリンクを使用したプッシュ通知、またはアンカータグを使用した配信で問題が発生した場合は、トラッキングリンク用の新しい署名メカニズムを無効にすることをお勧めします。手順について詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
+>トラッキングリンクを使用したプッシュ通知、またはアンカータグを使用した配信で問題が発生した場合は、トラッキングリンク用の新しい署名メカニズムを無効にすることをお勧めします。The procedure is detailed [in this page](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)
 
 * LINE 配信に画像が表示されない可能性がある問題を修正しました。（NEO-23207）
 * SFTP キーに基づく認証が Debian 9 で動作しない&#x200B;**ファイル転送**&#x200B;アクティビティの問題を修正しました。（NEO-23183）

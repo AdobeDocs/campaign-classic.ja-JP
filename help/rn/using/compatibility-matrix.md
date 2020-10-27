@@ -9,28 +9,32 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: ht
-source-wordcount: '620'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 877ca2275c9338377da9e435e070c9911314fe51
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 88%
 
 ---
 
 
 # 互換性マトリックス{#compatibility-matrix}
 
-このドキュメントでは、**Adobe Campaign Classic（v6.11 と v7）**&#x200B;の最新ビルドでサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
+This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic**. このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
+
+Gold Standardのユーザーは、
 
 ## 重要な注意事項{#important-notes}
 
-このマトリックスは、追加された新しいサポートアイテムおよび削除された非推奨アイテムを定期的に更新します。
-
 特に断りのない限り、すべてのマイナーリリースがサポートされます。
 
-Adobe Campaign Classic は、このページに記載されているすべてのシステムおよびツールと互換性があります。これらのサードパーティ製システムおよびツールの特定のバージョンが、それぞれの作成者による提供が終了した（EOL）場合、Adobe Campaign はこれらのバージョンとの互換性を失います。これらは以降の製品リリースで互換表から削除されます。問題を回避するため、互換性マトリックスに記載されているシステムのサポート対象バージョンを使用していることを確認してください。
+In its [latest build](../../rn/using/latest-release.md), Adobe Campaign Classic is compatible with all the systems and tools listed in this page. これらのサードパーティ製システムおよびツールの特定のバージョンが、それぞれの作成者による提供が終了した（EOL）場合、Adobe Campaign はこれらのバージョンとの互換性を失います。これらは以降の製品リリースで互換表から削除されます。問題を回避するため、互換性マトリックスに記載されているシステムのサポート対象バージョンを使用していることを確認してください。
 
 非推奨の項目の詳細については、[このページ](../../rn/using/deprecated-features.md)を参照してください。
+
+>[!CAUTION]
+>
+>このマトリックスは、追加された新しいサポートアイテムおよび削除された非推奨アイテムを定期的に更新します。
 
 ## オペレーティングシステム{#OperatingSystems}
 
@@ -39,20 +43,22 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <tr> 
 <td>CentOs</td>
 <td>
+<p>8.x（64 ビット）</p>
 <p>7.x（64 ビット）</p>
 </td>
 </tr>
 <tr>
 <td>Debian</td>
 <td>
-<p>8（64 ビット）</p>
-<p>9（64 ビット）</p>
 <p>10（64 ビット）</p>
+<p>9（64 ビット）</p>
+<p>8（64 ビット）</p>
 </td>
 </tr>
 <tr>
 <td>RHEL</td>
 <td>
+<p>8.x（64 ビット）</p>
 <p>7.x（64 ビット）</p>
 <p><strong>重要</strong>：RHEL を使用する場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させ、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。</p>
 </td>
@@ -60,9 +66,9 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2012</p>
-<p>2012 R2</p>
 <p>2016</p>
+<p>2012 R2</p>
+<p>2012</p>
 </td>
 </tr>
 </tbody>
@@ -75,9 +81,9 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>8.0（Windows Server 2012 - Windows 8）</p>
-<p>8.5（Windows Server 2012 R2）</p>
 <p>10.0（Windows Server 2016）</p>
+<p>8.5（Windows Server 2012 R2）</p>
+<p>8.0（Windows Server 2012 - Windows 8）</p>
 </td>
 </tr>
 <tr>
@@ -96,8 +102,9 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <tr>
 <td>Java 開発キット（JDK）</td>
 <td>
-<p>8</p>
+<p>11</p>
 <p>9</p>
+<p>8</p>
 <p>このアプリケーションは、Oracle が開発した Java Development Kit（JDK）および OpenJDK に対して承認されています。</p>
 </td>
 </tr>
@@ -116,56 +123,43 @@ Adobe Campaign Classic は、このページに記載されているすべての
 </tbody>
 </table>
 
-## RDBMS ドライバー{#RDBMSdrivers}
-
-次の RDBMS ドライバーがサポートされています。
-
-* Oracle SQL*Net 11
-
-* Oracle SQL*Net 12
-
-* PostgreSQL（libpq）
-
-* SQLServer
-
-* DB2（ODBC ドライバー）
-
+## RDBMS サーバー{#RDBMSservers}
 
 >[!NOTE]
 >
 >RDBMS ドライバーは RDBMS サーバーのバージョンと一致する必要があります。
-
-## RDBMS サーバー{#RDBMSservers}
 
 <table>
 <tbody>
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g R2</p>
-<p>12c</p>
-<p>18c</p>
 <p>19c</p>
+<p>18c</p>
+<p>12c</p>
+<p>11g R2</p>
 </td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>9.4.x</p>
-<p>9.5.x</p>
-<p>9.6.x</p>
-<p>10.x</p>
+<p>12.x</p>
 <p>11.x</p>
+<p>10.x</p>
+<p>9.6.x</p>
+<p>9.5.x</p>
+<p>9.4.x</p>
 <p>注意：上記のバージョンで Amazon RDS for PostgreSQL を使用することもできます。</p>
 </td>
 </tr>
 <tr>
 <td>SQL Server</td>
 <td>
-<p>2012 - SP1 および SP2</p>
-<p>2014</p>
-<p>2016</p>
+<p>31 日</p>
 <p>2017</p>
+<p>2016</p>
+<p>2014</p>
+<p>2012 - SP1 および SP2</p>
 <p>警告：Linux で Campaign サーバーを実行している場合、Microsoft SQL Server はプライマリデータベースとしてサポートされません。<a href="https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">詳細情報</a>。</p>
 </td>
 </tr>
@@ -189,8 +183,8 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <tr>
 <td>SFDC API</td>
 <td>
-<p>API バージョン 15</p>
 <p>API バージョン 21</p>
+<p>API バージョン 15</p>
 </td>
 </tr>
 <tr><td>Oracle On Demand API</td>
@@ -225,27 +219,29 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <tr>
 <td>Oracle</td>
 <td>
-<p>11g</p>
-<p>12c</p>
 <p>18c</p>
+<p>12c</p>
+<p>11g</p>
 </td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>9.4.x</p>
-<p>9.5.x</p>
-<p>9.6.x</p>
-<p>10.x</p>
+<p>12.x</p>
 <p>11.x</p>
+<p>10.x</p>
+<p>9.6.x</p>
+<p>9.5.x</p>
+<p>9.4.x</p>
 </td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2012 SP1 および SP2</p>
-<p>2014</p>
-<p>2016</p>
+<p>31 日</p>
 <p>2017</p>
+<p>2016</p>
+<p>2014</p>
+<p>2012 SP1 および SP2</p>
 </td>
 </tr>
 <tr><td>MySQL</td>
@@ -256,10 +252,10 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <tr>
 <td>Teradata</td>
 <td>
-<p>15.0</p>
-<p>15.10</p>
-<p>16</p>
 <p>16.20</p>
+<p>16</p>
+<p>15.10</p>
+<p>15.0</p>
 </td>
 </tr>
 <tr>
@@ -302,8 +298,8 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2012</p>
 <p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>
@@ -323,20 +319,14 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <tr>
 <td>Android</td>
 <td>
-<p>7.x</p>
-<p>8.x</p>
-<p>9.0</p>
+<p>7.x, 8.x, 9.0</p>
 <p>モバイル SDK ビルド 1.0.27 のサポート。</p>
 </td>
 </tr>
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9</p>
-<p>iOS 10</p>
-<p>iOS 11</p>
-<p>iOS 12</p>
-<p>iOS 13</p>
+<p>iOS 9 - 14</p>
 <p>モバイル SDK ビルド 1.0.26 のサポート。32 および 64 ビットバージョンとの互換性。</p>
 </td>
 </tr>
@@ -345,28 +335,13 @@ Adobe Campaign Classic は、このページに記載されているすべての
 
 ## ブラウザー{#Browsers}
 
-Internet Explorer のバージョン 11 がサポートされています。
+次のブラウザーでは、最新バージョンがサポートされています。Microsoft Edge、Mozilla Firefox、Google Chrome、Safari。
 
-次のブラウザーでは、最新バージョンがサポートされています。
-
-* Microsoft Edge
-
-* Firefox
-
-* Chrome
-
-* Safari
-
-## Experience Cloud との統合{#ExperienceCloudintegrations}
-
-アドビソリューションとの統合については、[この節](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/integrating-with-adobe-experience-cloud/about-campaign-integrations.html#experience-cloud-integrations)を参照してください。
+Internet Explorer 11がサポートされます。
 
 ## その他の関連ヘルプ{#Morelikethis}
 
-* [Campaign Classic リリースノート](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.html)
-* [インストールガイド](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/general-architecture.html)
-* [廃止された機能およびシステム](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
+* [Campaign Classic リリースノート](../../rn/using/latest-release.md)
+* [インストールガイド](../../installation/using/general-architecture.md)
+* [廃止された機能およびシステム](../../rn/using/deprecated-features.md)
 * [ビルドアップグレード手順](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)
-* [Campaign Classic 互換性マトリックス（19.0 リリース）](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix-19-0.html)
-* [Campaign Classic 互換性マトリックス（19.1 リリース）](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix-19-1.html)
-

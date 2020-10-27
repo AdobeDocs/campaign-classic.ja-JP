@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: fe7ce92bde3405fed3429475cdd5681e5837876f
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1351'
 ht-degree: 1%
 
 ---
@@ -64,12 +64,13 @@ ht-degree: 1%
 
 * **Oracle** エンジンの場合は、アプリケーション・サーバーに対して定義されている **TNS名** を入力します。
 * PostgreSQL **または** DB2 **** エンジンの場合は、データベースサーバーにアクセスするために、アプリケーションサーバーで定義されているDNS名（またはIPアドレス）を指定する必要があります。
-* **Microsoft SQL Server** Engineの場合は、次を定義する必要があります。
+* **Microsoft SQL Server** Engineの場合は、次を定義する必要があります。データベースサーバーにアクセスするためにアプリケーションサーバーで定義されているDNS名（またはIPアドレス）。 **DNS** または **DNS`\<instance>`** （インスタンスモード）、
 
-   1. データベースサーバーにアクセスするためにアプリケーションサーバーで定義されているDNS名（またはIPアドレス）。 **DNS** または **DNS`\<instance>`** （インスタンスモード）、
-   1. Microsoft SQL Serverへのアクセスに使用する認証方法： **[!UICONTROL SQL Server認証]** 、 **[!UICONTROL Windows NT認証]**。
+   >[!CAUTION]
+   >
+   > 20.3以降、Windows NT認証は廃止されます。 **[!UICONTROL Microsoft SQL Serverで使用できる認証モードは]** 、SQL Server認証のみです。 [詳細を表示](../../rn/using/deprecated-features.md)
 
-      ![](assets/s_ncs_install_db_mssql_creation01.png)
+   ![](assets/s_ncs_install_db_mssql_creation01.png)
 
 ### 手順2 — サーバーへの接続 {#step-2---connecting-to-the-server}
 

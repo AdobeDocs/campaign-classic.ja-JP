@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: production-procedures
 discoiquuid: d08ff769-da93-4f86-8802-f0fb5b051ece
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 5%
@@ -28,7 +28,7 @@ Adobe Campaignプラットフォームは、Apacheが使用する仮想ホスト
 
 * 内部 **パスワード** :これは、一般管理者のパスワードです。 特定のアプリケーションサーバーのすべてのインスタンスに共通です。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >**Internal** identifierを使用してログオンするには、事前にパスワードを定義しておく必要があります。 詳しくは、[この節](../../installation/using/campaign-server-configuration.md#internal-identifier)を参照してください。
 

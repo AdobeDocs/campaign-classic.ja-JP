@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: 2ff877607641435a2c2806f48f3c5b35d96d39c5
 workflow-type: tm+mt
 source-wordcount: '3615'
 ht-degree: 5%
@@ -72,7 +72,7 @@ Campaign Classic設定ファイルは、Adobe Campaignのインストールフ�
 >[!NOTE]
 >
 >**各演算子はゾーンにリンクする必要があります**。 演算子のIPアドレスがゾーンで定義された範囲に属する場合、演算子はインスタンスにログオンできます。\
->オペレータのIPアドレスは、複数のゾーンで定義できます。 この場合、オペレータは各ゾーンに対する **一連の利用可能な権限を受け取る** 。
+>オペレータのIPアドレスは、複数のゾーンで定義できます。 この場合、オペレータは、各ゾーンに対する使用可能な **一連の権限を受け取ります** 。
 
 標準搭載の **serverConf.xmlファイルには、次の3つのゾーンが含まれています** 。 **public、VPN、およびLAN**。
 
@@ -242,7 +242,7 @@ Adobe Campaignサーバーにアクセスする可能性が高いプロキシの
 
 ### Tomcatのデフォルトポート {#default-port-for-tomcat}
 
-Tomcatサーバの8080リスニングポートが、設定に必要な別のアプリケーションで既にビジー状態になっている場合は、8080ポートを空きポート（8090など）に置き換える必要があります。 このファイルを変更するには、 **Adobe Campaignのインストールフォルダーの** /tomcat-7/conf **** ディレクトリに保存されているserver.xmlファイルを編集します。
+Tomcatサーバの8080リスニングポートが、設定に必要な別のアプリケーションで既にビジー状態になっている場合は、8080ポートを空きポート（8090など）に置き換える必要があります。 このファイルを変更するには、Adobe Campaignのインストールフォルダーの **/tomcat-8/conf** ディレクトリに保存されている **** server.xmlファイルを編集します。
 
 次に、JSPリレーページのポートを変更します。 これを行うには、 **Adobe Campaignのインストールディレクトリの** /conf **** ディレクトリに保存されているserverConf.xmlファイルを変更します。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
 
@@ -255,7 +255,7 @@ Tomcatサーバの8080リスニングポートが、設定に必要な別のア�
 
 ### Tomcatでのフォルダのマッピング {#mapping-a-folder-in-tomcat}
 
-お客様固有の設定を定義するには、/tomcat-7/conf **コンテキストーに** user_folders.xmlファイルを作成します。このファイルには **コンテキスト.xml****** ファイルも含まれます。
+お客様固有の設定を定義するには、/tomcat-8/conf **コンテキストーに** user_folders.xmlファイルを作成します。このファイルには **コンテキスト.xml****** ファイルも含まれます。
 
 このファイルには、次の種類の情報が含まれます。
 

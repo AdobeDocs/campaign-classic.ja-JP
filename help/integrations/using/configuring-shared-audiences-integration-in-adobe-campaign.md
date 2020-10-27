@@ -11,11 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 discoiquuid: 4443b0ca-80c6-467d-a4df-50864aae8496
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '436'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d567cb7dbc55d9c124d1cc83b7a5a9e2dfb5ab61
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 67%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 100%
 1. [手順 3：キャンペーントラッキングサーバーの設定](#step-3--configure-campaign-tracking-server)
 1. [手順 4：訪問者 ID サービスの設定](#step-4--configure-the-visitor-id-service)
 
+>[!IMPORTANT]
+>
+>demdexドメインを使用し、インポート外部アカウントに **ftp-out.demdex.com** 、エクスポート外部アカウントに **** ftp-in.demdex.comの構文に従う場合は、それに従って導入を適応させ、Amazonシンプルストレージサービス(S3)コネクタに移動してデータのインポートまたはエクスポートを行う必要があります。 AmazonS3で外部アカウントを設定する方法の詳細については、この [節を参照してください](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)。
+
 ## 手順 1：Adobe Campaign での外部アカウントの設定または確認 {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 まず、次の手順に従って、Adobe Campaign で外部アカウントの設定または確認をおこなう必要があります。
@@ -36,26 +40,31 @@ ht-degree: 100%
 1. 「**[!UICONTROL エクスプローラー]**」アイコンをクリックします。
 1. **[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;に移動します。通常、この SFTP アカウントはアドビによって設定されており、お客様には必要な情報が伝えられています。
 
-   * **[!UICONTROL importSharedAudience]**：オーディエンスのインポート専用の SFTP アカウント。
-   * **[!UICONTROL exportSharedAudience]**：オーディエンスのエクスポート専用の SFTP アカウント。
+   * **[!UICONTROL importSharedAudience]**:オーディエンスの読み込み専用のアカウント。
+   * **[!UICONTROL exportSharedAudience]**:オーディエンスの書き出し専用アカウント。
 
    ![](assets/aam_config_1.png)
 
-1. **[!UICONTROL サーバー]**&#x200B;フィールドに入力：インポート外部アカウントには **ftp-out.demdex.com** ドメインを使用し、エクスポート外部アカウントには **ftp-in.demdex.com** ドメインを使用します。
+1. 「 **[!UICONTROL Export」オーディエンスを選択して、「Adobe Marketing Cloud]** 外部アカウントに」を選択します。
 
-   Campaign からのエクスポートは Audience Manager または People コアサービスへのインポートであることを覚えておいてください。
+1. 「 **[!UICONTROL Type]** 」ドロップダウンから、 **[!UICONTROL AWS S3を選択します]**。
 
-   >[!NOTE]
-   >
-   >S3 を使用している場合は、次の構文に従って **[!UICONTROL AWS S3 アカウントサーバー]**&#x200B;を入力します。
-   >
-   >`<S3bucket name>.s3.amazonaws.com/<s3object path>`
-   >
-   >S3 アカウントの設定方法について詳しくは、この[ページ](../../platform/using/external-accounts.md#amazon-simple-storage-service--s3--external-account)を参照してください。
+1. 次の詳細を入力します。
 
+   * **[!UICONTROL AWS S3 Account Server]** URL（サーバーのURL）は、次のように入力する必要があります。
+
+      ```
+      <S3bucket name>.s3.amazonaws.com/<s3object path>
+      ```
+
+   * **[!UICONTROL AWSアクセスキーID]** AWSアクセスキーIDの場所を知るには、この [ページを参照してください](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) 。
+
+   * **[!UICONTROL AWSへの秘密アクセスキーAWS]**&#x200B;への秘密アクセスキーの場所を知るには、この [ページを参照してください](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)。
+
+   * **[!UICONTROL AWSリージョン]** AWSリージョンの詳細については、この [ページを参照してください](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)。
    ![](assets/aam_config_2.png)
 
-1. アドビから提供された&#x200B;**[!UICONTROL アカウント]**&#x200B;と&#x200B;**[!UICONTROL パスワード]**&#x200B;を追加します。
+1. 前の手順の詳細に従って、 **[!UICONTROL 「]** 保存 **[!UICONTROL 」をクリックし、Adobe Marketing Cloud]** 外部アカウントからインポートオーディエンスを設定します。
 
 これで外部アカウントが設定されました。
 

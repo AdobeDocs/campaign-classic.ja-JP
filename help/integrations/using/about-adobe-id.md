@@ -9,11 +9,11 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 discoiquuid: c988362b-432e-4f9f-8d36-00b3d0015756
-translation-type: ht
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4b98c23f4120cbea6dd54cd68b61202e74bee3e1
+workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -27,7 +27,7 @@ Campaign ユーザーは、Adobe ID を使用して Adobe Campaign コンソー�
 * パスワード管理ポリシーをよりセキュアにできます。
 * Federated ID アカウント（外部の ID プロバイダー）を使用します。
 
-Adobe IMS（Identity Management システム）は、管理者がアプリケーションやサービスへのユーザーのアクセスを作成および管理するのに役立ちます。各種 Adobe ID について詳しくは、[こちら](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
+AdobeIdentity Managementシステム(IMS)は、管理者がアプリケーションおよびサービスに対するユーザーのアクセスを作成および管理するのに役立ちます。 各種 Adobe ID について詳しくは、[こちら](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
 
 >[!IMPORTANT]
 >

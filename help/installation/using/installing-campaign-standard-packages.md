@@ -1,8 +1,6 @@
 ---
-title: Campaign Classic 標準パッケージのインストール
-seo-title: Campaign Classic 標準パッケージのインストール
-description: Campaign Classic 標準パッケージのインストール
-seo-description: null
+title: Campaign Classic組み込みパッケージのインストール
+description: キャンペーンの組み込みパッケージをインストールする方法を説明します。
 page-status-flag: never-activated
 uuid: 1cba9487-52fc-442f-ae99-f8a2c157f25e
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: dd8f9adf-208c-42d9-b1a7-bfc8a690687e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 4b98c23f4120cbea6dd54cd68b61202e74bee3e1
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 27%
+source-wordcount: '1189'
+ht-degree: 26%
 
 ---
 
@@ -52,7 +50,7 @@ ht-degree: 27%
 
 ### List of out-of-the-box Packages {#list-of-standard-packages}
 
-次の表に、すべての標準パッケージの説明と、それらのパッケージをインストールできるインスタンスタイプ（マーケティング、中間など）を示します。 および追加情報。
+次の表に、すべてのキャンペーン組み込みパッケージのリストを示します。
 
 <table> 
  <thead> 
@@ -80,17 +78,17 @@ ht-degree: 27%
   </tr> 
   <tr> 
    <td> Offer engine (interaction)<br /> </td> 
-   <td> 1つまたは複数の適合オファーを作成することで、特定の接触(顧客またはターゲット)との対話中にリアルタイムで応答します。  （オプション）<a href="../../interaction/using/interaction-and-offer-management.md">詳細情報</a> <br /> </td> 
+   <td> 1つまたは複数の適合オファーを作成することで、特定の接触(顧客またはターゲット)との対話中にリアルタイムで応答します。  （オプション）<a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">詳細情報</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
    <td> 実行インスタンスによるオファーエンジンのコントロール. （オプション）<br /> </td> 
-   <td> </td> 
+   <td> オファーエンジン（操作）のコントロールインスタンスにインストールするパッケージです。 <a href="../../interaction/using/distributed-architectures.md#packages-configuration">詳細情報</a> </td> 
    <td> マーケティング<br /> </td>  
   </tr> 
   <tr> 
    <td> 実行インスタンス用のオファーエンジン. （オプション）<br /> </td> 
-   <td> </td> 
+   <td> オファーエンジン（操作）の実行インスタンスにインストールするパッケージです。 <a href="../../interaction/using/distributed-architectures.md">詳細情報</a> </td> 
    <td> 中間、実行 <br /> </td>  
   </tr> 
   <!--tr> 
@@ -200,13 +198,13 @@ ht-degree: 27%
    <td> マーケティング</td> 
   </tr> 
   <tr> 
-   <td> Adobe Marketing Cloud との共有オーディエンスの統合<br /> </td> 
+   <td> Adobe Experience Cloud 共有オーディエンス統合<br /> </td> 
    <td> オーディエンス/セグメントをAdobe Experience Cloudのソリューションおよびコアサービスと交換および共有できます。 IMSが必要です。 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">詳細情報</a> <br /> </td> 
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integration with Adobe Marketing Cloud<br /> </td> 
-   <td> 様々なAdobe Marketing Cloudソリューションからオーディエンス/セグメントをAdobe Campaignにインポートおよびエクスポートできます。 （オプション）<a href="../../integrations/using/configuring-ims.md#installing-the-package">詳細情報</a> </td> 
+   <td> Integration with Adobe Experience Cloud<br /> </td> 
+   <td> 様々なAdobe Experience Cloudソリューションからオーディエンス/セグメントをAdobe Campaignにインポートおよびエクスポートできます。 （オプション）<a href="../../integrations/using/configuring-ims.md#installing-the-package">詳細情報</a> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 
@@ -223,6 +221,11 @@ ht-degree: 27%
    <td> ミッドソーシングプラットフォーム<br /> </td> 
    <td> この設定は、ホスト(ASP)設定と内部化の間の最適な中間ソリューションです。 外向きの実行コンポーネントは、Adobe Campaignでホストされる「ミッドソーシング」サーバーで実行されます。 （オプション）<a href="../../installation/using/mid-sourcing-server.md">詳細情報</a> <br /> </td> 
    <td> ミッドソーシング </td> 
+  </tr> 
+  <tr> 
+   <td> AMP サポート<br /> </td> 
+   <td> 新しいインタラクティブAMPをE メールフォーマットに使用し、動的な電子メールを送信できます。 （オプション）<a href="../../delivery/using/defining-interactive-content.md">詳細情報</a> <br /> </td> 
+   <td> すべて </td> 
   </tr> 
   <tr> 
    <td> ACS コネクタ<br /> </td> 

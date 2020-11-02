@@ -11,11 +11,11 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 discoiquuid: d10624ea-d961-4162-879b-1754f897d763
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4b98c23f4120cbea6dd54cd68b61202e74bee3e1
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 84%
 
 ---
 
@@ -37,5 +37,5 @@ Adobe Campaign で E メール配信またはランディングページを編�
 
 >[!NOTE]
 >
->Adobe Campaign オンプレミスを使用している場合、AEM Assets もオンプレミスでない限り、Assets コアサービスおよび AEM Assets との統合は使用できません。
+>Adobe Campaignのオンプレミス環境に関しては、AEM Assetsがオンプレミスでない限り、AssetsコアサービスとAEM Assetsとの統合は利用できません。
 

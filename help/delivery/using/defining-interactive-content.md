@@ -9,20 +9,20 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 discoiquuid: 2ea2747f-957f-41a9-a03f-20c03fa99116
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '1587'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4b98c23f4120cbea6dd54cd68b61202e74bee3e1
+workflow-type: tm+mt
+source-wordcount: '1586'
+ht-degree: 98%
 
 ---
 
 
 # インタラクティブコンテンツの定義{#defining-interactive-content}
 
-Adobe Campaign では、特定の条件下での動的な E メールの送信を可能にする、新しいインタラクティブ [AMP for Email](https://amp.dev/about/email/) フォーマットを試すことができます。
+Adobe Campaign enables you to use the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
 
-現在、AMP for Email を使用して、次のことができます。
+電子メール用のAMPを使用すると、次のことができます。
 * 適切に設定された特定のアドレスに AMP E メールを配信するテスト。
 * 対応するプロバイダーに登録した後、AMP E メールを Gmail、Outlook または Mail.ru アドレスに配信。
 
@@ -210,4 +210,4 @@ AMP コンテンツとフォールバックの準備が整い、互換性のあ�
 
 次のビデオでは、Adobe Campaign Classic で AMP を有効化して使用する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)

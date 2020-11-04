@@ -10,9 +10,9 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87c2ee675b77be0f24a2028e7dbbf0bd1b91d46e
+source-git-commit: 281eb6b0f84e01d25ac9c3542dc2ee950d4879e7
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1621'
 ht-degree: 85%
 
 ---
@@ -52,6 +52,8 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <ul>
    <li>SOAP API - オンプレミス：2007、2015、2016</li>
    <li>SOAP API - オンライン：2015、2016</li>
+   <li>Web API - Microsoft Dynamics CRMオンプレミス：2016, 2016 Update 1</li>
+   <li>Web API - Microsoft Dynamics CRM Online:2016, 2016 Update 1</li>
    </ul>
   <p><em>削除予定日：2021 年</em></p>
   </td>

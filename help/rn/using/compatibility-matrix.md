@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 9cff35424b389d0cc6adb8ce0ec81d3258ffb6ba
+source-git-commit: 281eb6b0f84e01d25ac9c3542dc2ee950d4879e7
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 87%
+source-wordcount: '543'
+ht-degree: 85%
 
 ---
 
@@ -195,9 +195,7 @@ In its [latest build](../../rn/using/latest-release.md), Adobe Campaign Classic 
 <tr>
 <td>MS Dynamics</td>
 <td>
-<p>SOAP API - オンプレミス：2007、2015、2016</p>
-<p>SOAP API - オンライン：2015、2016</p>
-<p>Web API - オンプレミスおよびオンライン：365、2016、2016 Update 1</p>
+<p>Web API:Dynamics 365オンプレミスおよびオンライン</p>
 </td>
 </tr>
 </tbody>

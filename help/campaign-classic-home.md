@@ -3,9 +3,9 @@ keywords: Campaign Classic;home;popular topics
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: d9ae51c30e2ac538ff29e4ab53fa215d09f3d655
+source-git-commit: 6ac6145a38538f07b8080e503cd7750b19ed9621
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '277'
 ht-degree: 78%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 78%
 
 ## 新着情報
 
-* **[Adobe Experience Cloudトリガー統合の更新](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/>&#x200B;レガシーoAuth認証サービスが提供終了に達しました。 AdobeI/Oに移行する方法を説明します。
+* **[(Update your Service Triggers integration](integrations/using/configuring-adobe-io.md))**<br/>)従来のAuth認証サービスが提供終了になりました。 AdobeI/Oに移行する方法を説明します。
 
 * **[HTTP/2ベースのAPNsプロバイダーAPIに移行](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/>：レガシーバイナリプロトコルからHTTP/2ベースのAPNsプロバイダーAPIに移行する方法を説明します。
 

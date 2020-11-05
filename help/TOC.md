@@ -8,9 +8,9 @@ product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: d15e953740b0a4dd8073b36fd59b4c4e44906340
+source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2149'
 ht-degree: 96%
 
 ---
@@ -341,7 +341,7 @@ ht-degree: 96%
    + Experience Cloud Triggers {#experience-triggers}
       + [情報 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)
-      + [Adobe Experience Cloudトリガー用のAdobeIOの設定](integrations/using/configuring-adobe-io.md)
+      + [Adobe Experience Cloud・トリガー用のAdobeI/Oの構成](integrations/using/configuring-adobe-io.md)
       + [カスタム導入用のイベントの設定](integrations/using/events.md)
       + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
       + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)

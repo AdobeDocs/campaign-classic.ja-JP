@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: appendices
 discoiquuid: da2198a3-7cef-4419-894d-e5bb51bb480c
 translation-type: tm+mt
-source-git-commit: 2ff877607641435a2c2806f48f3c5b35d96d39c5
+source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
 workflow-type: tm+mt
-source-wordcount: '7852'
+source-wordcount: '7855'
 ht-degree: 38%
 
 ---
@@ -2366,7 +2366,7 @@ securityZone/subNetwork **** ノードの様々なパラメーターを次に示
 
 ### netsize {#netsize}
 
-次に、 **sms/netsize** ノードの各パラメータを示します。
+以下に、 **sms/netsize** ノードの各パラメータを示します。
 
 <table> 
  <thead> 
@@ -3216,7 +3216,7 @@ For additional information, refer to this [section](../../installation/using/dep
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> IMS organization identifier: unique organization identifier within the Adobe Marketing Cloud, used in particular for the VisitorID service and the IMS SSO. <br /> </td> 
+   <td> Identity Management System (IMS) organization identifier: unique organization identifier within the Adobe Experience Cloud, used in particular for the VisitorID service and the IMS SSO. <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 

@@ -1,8 +1,6 @@
 ---
-title: 統合の設定
-seo-title: 統合の設定
-description: 統合の設定
-seo-description: null
+title: パイプラインの設定
+description: パイプラインの設定方法
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
+source-git-commit: f3caef21a269cf57624a07bfe1b4bf1e241061a6
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 22%
+source-wordcount: '923'
+ht-degree: 19%
 
 ---
 
@@ -32,17 +30,17 @@ ht-degree: 22%
 
 ## 前提条件 {#prerequisites}
 
-Campaign で [!DNL Experience Cloud Triggers] を使用するには、以下が必要です。
+この設定を開始する前に、次の点を確認してください。
 
-* Adobe Campaign19.1.9または20.3.1以降。
-* Analytics Standardバージョン。
+* 最新Adobe Campaign:19.1.8または20.2.1以降のビルド、
+* Adobe Analytics Standard版
 
-前もって必要な設定は次のとおりです。
+また、次の情報も必要です。
 
 * AdobeI/Oプロジェクト認証
-* IMSOrgId。Adobe AnalyticsのExperience Cloud顧客のID。
-* プロビジョニングチームには、お客様のIMS組織のシステム管理者権限が必要です
-* Adobe Analytics でのトリガーの設定
+* 有効なIMSOrgID。Adobe Analyticsが追加したExperience Cloud顧客のID
+* IMS組織への開発者アクセス
+* adobe analyticsで行われたトリガー設定
 
 ## 認証および設定ファイル {#authentication-configuration}
 

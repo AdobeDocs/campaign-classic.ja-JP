@@ -9,9 +9,9 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: e53af1c2-b50c-4a8c-b5b8-f23a85bd3211
-translation-type: ht
-source-git-commit: b04d802ce1041aecbb60aeeabbd35b1d78c2451d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1e6ef4a3924e2cab0e6baf06e0861620e17d240b
+workflow-type: tm+mt
 source-wordcount: '2628'
 ht-degree: 100%
 
@@ -272,8 +272,6 @@ GPG キーを使用してデータを復号化する方法を示すチュート�
    ![](assets/gpg_generate.png)
 
 1. 外部システムでは、Campaign コントロールパネルからダウンロードした公開鍵を使用して、Campaign Classic にインポートするデータを暗号化します。
-
-   ![](assets/gpg_external.png)
 
 1. Campaign Classic で、暗号化されたデータをインポートするワークフローを作成し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用して復号化します。これをおこなうには、次のようにワークフローを作成します。
 

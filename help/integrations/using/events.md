@@ -1,8 +1,6 @@
 ---
-title: 統合の設定
-seo-title: 統合の設定
-description: 統合の設定
-seo-description: null
+title: イベントの設定
+description: カスタム導入用にイベントを設定する方法を学びます。
 page-status-flag: never-activated
 uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: d15e953740b0a4dd8073b36fd59b4c4e44906340
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 71%
+source-wordcount: '1205'
+ht-degree: 72%
 
 ---
 
@@ -28,10 +26,7 @@ ht-degree: 71%
 * QueryDef API および Writer API の実務知識
 * 秘密鍵を使用した暗号化と認証に関する実務概念
 
-JSコードの編集には技術的なスキルが必要なので、適切な理解が得られないように試みてください。
-
-デフォルトの実装以外で提供されるACXパッケージの一部として、イベントのさらなる処理を行います。 受信したイベントは、JavaScriptコードを使用して即座に処理されます。 これ以上処理をおこなうことなく、リアルタイムにデータベーステーブルに保存されます。
-トリガーは、電子メールを送信するキャンペーンワークフローでのターゲティングに使用されます。 キャンペーンは、イベントをトリガーした顧客が電子メールを受信するように設定されます。
+JavaScriptコードの編集には技術的なスキルが必要なので、適切な理解が得られない限り、編集を試みないでください。
 
 ## JavaScript でのイベント処理 {#events-javascript}
 
@@ -41,7 +36,7 @@ JSコードの編集には技術的なスキルが必要なので、適切な理
 
 これは、「JSConnector」属性の下の **[!UICONTROL NmsPipeline_Config]** オプションで設定します。この JavaScript は、イベントを受信するたびに呼び出されます。[!DNL pipelined] プロセスで実行されます。
 
-サンプルの JS ファイルは、cus:triggers.js です。
+サンプルのJavaScriptファイルは、cus:triggers.jsです。
 
 ### JavaScript 関数 {#function-js}
 
@@ -59,7 +54,7 @@ function processPipelineMessage(xmlTrigger) {}
 <undefined/>
 ```
 
-JSを編集した後、再起動する必要 [!DNL pipelined] があります。
+JavaScriptの編集 [!DNL pipelined] 後に再起動する必要があります。
 
 ### トリガーデータフォーマット {#trigger-format}
 
@@ -137,7 +132,7 @@ logInfo() などのログは [!DNL pipelined] ログに送られます。logErro
 
 ### データの解析 {#data-parsing}
 
-このサンプル JS コードは、エンリッチメント内の eVar01 を解析します。
+このサンプルのJavaScriptコードは、エンリッチメント内のeVar01を解析します。
 
 ```
 function processPipelineMessage(xmlTrigger)

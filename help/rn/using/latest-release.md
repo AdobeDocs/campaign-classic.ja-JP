@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: fe7ce92bde3405fed3429475cdd5681e5837876f
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
 source-wordcount: '1824'
 ht-degree: 4%
@@ -90,7 +90,7 @@ Learn more in the [Campaign Compatibility matrix](../../rn/using/compatibility-m
 20.3では、次の機能が廃止されました。
 
 * オーディエンスのAdobe Experience Cloudへの読み込みと書き出しに使用するdemdexドメインは非推奨です。 インポート/エクスポート外部アカウントにdemdexドメインを使用する場合は、それに応じて実装を適応させる必要があります。 [詳細情報](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
-* 元々oAUTH認証設定に基づいて統合認証をトリガーし、パイプラインにアクセスするための認証が変更され、AdobeI/Oに移動されました。 [詳細情報](../../integrations/using/about-triggers.md)
+* 元々oAUTH認証設定に基づいて統合認証をトリガーし、パイプラインにアクセスするための認証が変更され、AdobeI/Oに移動されました。 [詳細情報](../../integrations/using/configuring-adobe-io.md)
 
 詳しくは、 [廃止/削除された機能ページを参照してください](../../rn/using/deprecated-features.md)。
 

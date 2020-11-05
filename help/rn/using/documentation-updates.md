@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: ba5e815dd1576b55d9b3226639680f6358137f13
+source-git-commit: 54ac5abcc53c41d025238a3c89f9d732c0fb1376
 workflow-type: tm+mt
-source-wordcount: '3898'
-ht-degree: 96%
+source-wordcount: '3921'
+ht-degree: 95%
 
 ---
 
@@ -40,6 +40,8 @@ Androidのプッシュ通知機能の強化 — [詳細](../../delivery/using/co
 
 Gold Standardリリースのリリースノートと互換表が、専用のセクションで提供されるようになりました。
 [詳細を表示](../../rn/using/gold-standard.md#gs-10)
+
+元々oAUTH認証設定に基づいて行われたパイプラインへのアクセスに関する統合が、AdobeI/Oに変更され、移行されました。 [詳細情報](../../integrations/using/about-triggers.md)
 
 **その他の更新**
 

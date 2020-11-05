@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: 3e73d7c91fbe7cff7e1e31bdd788acece5806e61
+source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '919'
 ht-degree: 22%
 
 ---
@@ -39,7 +39,7 @@ Campaign で [!DNL Experience Cloud Triggers] を使用するには、以下が�
 
 前もって必要な設定は次のとおりです。
 
-* AdobeIOプロジェクト認証
+* AdobeI/Oプロジェクト認証
 * IMSOrgId。Adobe AnalyticsのExperience Cloud顧客のID。
 * プロビジョニングチームには、お客様のIMS組織のシステム管理者権限が必要です
 * Adobe Analytics でのトリガーの設定
@@ -48,13 +48,13 @@ Campaign で [!DNL Experience Cloud Triggers] を使用するには、以下が�
 
 パイプラインはAdobe Experience Cloudでホストされるので、認証が必要です。
 公開鍵と秘密鍵のペアが使用されます。このプロセスは、ユーザー/パスワードと同じ機能を持ちますが、セキュリティは高くなります。
-認証は、AdobeIOプロジェクトを介したMarketing Cloudに対してサポートされます。
+認証は、AdobeI/Oプロジェクトを介したMarketing Cloudに対してサポートされます。
 
-## 手順1:AdobeIOプロジェクトの作成/更新 {#creating-adobe-io-project}
+## 手順1:AdobeI/Oプロジェクトの作成/更新 {#creating-adobe-io-project}
 
 ホストされるお客様の場合は、カスタマーケアチケットを作成して、Triggers統合のためのAdobeI/Oテクニカルアカウントトークンを組織で有効にすることができます。
 
-オンプレミスのお客様の場合は、「Adobe Experience Cloudトリガー用のAdobeIOの [設定](../../integrations/using/configuring-adobe-io.md) 」ページを参照してください。 AdobeのIO秘密鍵証明書にAPIを追加する際に **[!UICONTROL Adobe Analytics]** を選択する必要があります。
+オンプレミスのお客様の場合は、「Adobe Experience CloudトリガーのAdobeI/O [の設定](../../integrations/using/configuring-adobe-io.md) 」ページを参照してください。 AdobeI/O秘密鍵証明書にAPIを追加する際に **[!UICONTROL Adobe Analytics]** を選択する必要があることに注意してください。
 
 ## 手順2:NmsPipeline_Configパイプラインオプションの設定 {#configuring-nmspipeline}
 

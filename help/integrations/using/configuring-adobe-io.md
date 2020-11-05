@@ -13,22 +13,26 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 0%
+source-wordcount: '461'
+ht-degree: 1%
 
 ---
 
 
 # Adobe Experience Cloud・トリガー用のAdobeI/Oの構成 {#configuring-adobe-io}
 
+>[!CAUTION]
+>
+>JWTトークンまたはoAuth認証を通じて古いバージョンのTriggers統合を使用する場合は、以下 **の説明に従ってAdobeI/Oに移動する必要があります**。 JWTおよびoAuth認証モードは非推奨になりました。 [詳細情報](https://github.com/AdobeDocs/analytics-1.4-apis)
+
 ## 前提条件 {#adobe-io-prerequisites}
 
 この実装を開始する前に、以下の点を確認してください。
 
 * 最新Adobe Campaign:19.1.8または20.2.1以降のビルド、
-* 有効なIMSOrgID:identity managementシステム(IMS)の組織識別子は、Adobe Experience Cloud内の一意の識別子で、特にVisitorIDサービスとIMSシングルサインオン(SSO)で使用されます。
+* 有効なIMSOrgID:identity managementシステム(IMS)の組織識別子は、Adobe Experience Cloud内の一意の識別子です。この識別子は、VisitorIDサービスやIMSシングルサインオン(SSO)などに使用されます。
 * IMS組織への開発者アクセス権。
 
 >[!NOTE]
@@ -105,7 +109,3 @@ nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_
 ```
 <pipelined ... authType="imsJwtToken"  ... />
 ```
-
->[!NOTE]
->
->従来のJWTトークンを使用したTriggers Integrationの古いバージョンを使用している場合は、最初の手順で [!DNL Adobe Analytics] 詳細を説明するAdobeI/O APIも追加し、新しいTriggers Authenticationに自動的に移行する必要があります。

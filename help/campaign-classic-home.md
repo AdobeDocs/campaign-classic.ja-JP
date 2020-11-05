@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 9844616f417608051bbff2593d6124d8ff83008c
+source-git-commit: d9ae51c30e2ac538ff29e4ab53fa215d09f3d655
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 86%
+source-wordcount: '283'
+ht-degree: 78%
 
 ---
 
@@ -17,15 +17,14 @@ ht-degree: 86%
 
 ## 新着情報
 
+* **[Adobe Experience Cloudトリガー統合の更新](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/>&#x200B;レガシーoAuth認証サービスが提供終了に達しました。 AdobeI/Oに移行する方法を説明します。
+
 * **[HTTP/2ベースのAPNsプロバイダーAPIに移行](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/>：レガシーバイナリプロトコルからHTTP/2ベースのAPNsプロバイダーAPIに移行する方法を説明します。
 
 * **[メッセージ追加の顔文字メッセージメッセージと件名に顔文字を挿入できるようになりました。](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>
 
 * **[サポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)**<br/>
 FAQ、ベストプラクティス、ヘルプリソースにアクセスし、サポートをリクエストできます。
-
-* **[プライバシーコンプライアンス](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/>
-Adobe Campaign がプライバシーコンプライアンスの遵守に役立つ理由を説明します。
 
 * **[トラッキング機能](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html)**<br/>
 Campaign のトラッキング機能とプロセスについて説明します。

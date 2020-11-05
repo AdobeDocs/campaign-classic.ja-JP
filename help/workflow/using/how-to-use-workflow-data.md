@@ -11,11 +11,11 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 discoiquuid: ec3844ca-8d80-4ddc-b08c-f18a6919bb28
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1e6ef4a3924e2cab0e6baf06e0861620e17d240b
+workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -108,7 +108,7 @@ GPG キーを使用してデータを暗号化する方法を示すチュート�
 
 1. GPG ユーティリティを使用して GPG キーペア（公開鍵／秘密鍵）を生成し、公開キーを Campaign コントロールパネルにインストールします。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)を参照してください。
 
-1. Campaign Classic で、データをエクスポートするワークフローを作成し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用してデータをエクスポートします。これをおこなうには、次のようにワークフローを作成します。
+1. Campaign Classicで、データを書き出すワークフローを作成し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用して暗号化します。 これをおこなうには、次のようにワークフローを作成します。
 
    ![](assets/gpg-workflow-encrypt.png)
 
@@ -147,4 +147,3 @@ GPG キーを使用してデータを暗号化する方法を示すチュート�
 
 1. これで、ワークフローを開始できます。ワークフローを実行すると、クエリで選択された対象データが、暗号化された .gpg ファイルにエクスポートされ、SFTP サーバーに転送されます。
 
-   ![](assets/gpg-sftp-encrypt.png)

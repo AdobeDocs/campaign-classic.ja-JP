@@ -8,9 +8,9 @@ product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: ac922ea93faf7cb3176e9df33467b1492f87a1f0
+source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2151'
 ht-degree: 96%
 
 ---
@@ -339,7 +339,7 @@ ht-degree: 96%
       + [Web アプリケーションの同期](integrations/using/synchronizing-web-applications.md)
       + [  [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md) のトラブルシューティング
    + Experience Cloud Triggers {#experience-triggers}
-      + [情報 [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
+      + [使用の手引き [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)
       + [Adobe Experience Cloud・トリガー用のAdobeI/Oの構成](integrations/using/configuring-adobe-io.md)
       + [カスタム導入用のイベントの設定](integrations/using/events.md)

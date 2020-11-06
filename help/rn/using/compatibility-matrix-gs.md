@@ -1,6 +1,6 @@
 ---
-title: ゴールド標準互換表
-description: ゴールド標準リリースのCampaign Classic互換表
+title: Gold Standard 互換性マトリックス
+description: Gold Standard リリースの Campaign Classic 互換性マトリックス
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fd
 contentOwner: sauviat
@@ -9,18 +9,18 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7p
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e615b2420d126cd42ed52257491282b36975f9ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# ゴールド標準互換表{#compatibility-matrix-gs}
+# Gold Standard 互換性マトリックス{#compatibility-matrix-gs}
 
-このドキュメントリストでは、 **Adobe Campaign Classicゴールド規格** 19.1のビルドでサポートされるすべてのシステムとコンポーネントをします。 このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
+このドキュメントでは、**Adobe Campaign Classic Gold Standard** のビルド 19.1 でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
 
 ## 重要な注意事項{#important-notes-gs}
 
@@ -33,7 +33,7 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <table> 
 <tbody> 
 <tr> 
-<td>CentOs</td>
+<td>CentOS</td>
 <td>
 <p>8.x（64 ビット）</p>
 <p>7.x（64 ビット）</p>
@@ -80,7 +80,7 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <td>Apache</td>
 <td>
 <p>RHEL7 - CentOS 7、Debian 8/9、Windows（64 ビット）向けの 2.4</p>
-<p>2.2（RHEL6用） - CentOS 6のみ（64ビット）</p>
+<p>RHEL6 - CentOS 6（64 ビット）のみ向けの 2.2</p>
 </td>
 </tr>
 </tbody>
@@ -142,7 +142,7 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <tr>
 <td>SQL Server</td>
 <td>
-<p>7 日</p>
+<p>2018</p>
 <p>2018 R2</p>
 <p>2017</p>
 <p>2016</p>
@@ -155,7 +155,7 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <td>DB2 UDB</td>
 <td>
 <p>9.7</p>
-<p>警告：DB2 UDBは新規インストールでは使用できません。</p>
+<p>警告：DB2 UDB は新規インストールでは使用できません。</p>
 </td>
 </tr>
 </tbody>
@@ -301,14 +301,14 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <tr>
 <td>Android</td>
 <td>
-<p>7.x, 8.x, 9.0</p>
+<p>7.x、8.x、9.0</p>
 <p>モバイル SDK ビルド 1.0.27 のサポート。</p>
 </td>
 </tr>
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9 - 12</p>
+<p>iOS 9 ～ 12</p>
 <p>モバイル SDK ビルド 1.0.25 のサポート。32 および 64 ビットバージョンとの互換性。</p>
 </td>
 </tr>
@@ -319,7 +319,7 @@ Adobe Campaign Classic は、このページに記載されているすべての
 
 次のブラウザーでは、最新バージョンがサポートされています。Microsoft Edge、Mozilla Firefox、Google Chrome、Safari。
 
-Internet Explorer 11がサポートされます。
+Internet Explorer 11 はサポートされています。
 
 ## その他の関連ヘルプ{#Morelikethis-gs}
 

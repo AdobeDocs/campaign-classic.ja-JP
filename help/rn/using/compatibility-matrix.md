@@ -13,35 +13,35 @@ translation-type: tm+mt
 source-git-commit: 281eb6b0f84e01d25ac9c3542dc2ee950d4879e7
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 85%
+ht-degree: 98%
 
 ---
 
 
 # 互換性マトリックス{#compatibility-matrix}
 
-This document lists all systems and components supported for [the latest build](../../rn/using/latest-release.md) of **Adobe Campaign Classic**. このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
+このドキュメントでは、**Adobe Campaign Classic** の[最新ビルド](../../rn/using/latest-release.md)でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
 
-ゴールド・スタンダードのユーザーの場合は、 [ゴールド・スタンダード互換表を参照](../../rn/using/compatibility-matrix-gs.md)。
+Gold Standard のユーザーの場合は、[Gold Standard 互換性マトリックス](../../rn/using/compatibility-matrix-gs.md)を参照してください。
 
 ## 重要な注意事項{#important-notes}
 
 特に断りのない限り、すべてのマイナーリリースがサポートされます。
 
-In its [latest build](../../rn/using/latest-release.md), Adobe Campaign Classic is compatible with all the systems and tools listed in this page. これらのサードパーティ製システムおよびツールの特定のバージョンが、それぞれの作成者による提供が終了した（EOL）場合、Adobe Campaign はこれらのバージョンとの互換性を失います。これらは以降の製品リリースで互換表から削除されます。問題を回避するため、互換性マトリックスに記載されているシステムのサポート対象バージョンを使用していることを確認してください。
+Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は、このページに記載されているすべてのシステムおよびツールと互換性があります。これらのサードパーティ製システムおよびツールの特定のバージョンが、それぞれの作成者による提供が終了した（EOL）場合、Adobe Campaign はこれらのバージョンとの互換性を失います。これらは以降の製品リリースで互換表から削除されます。問題を回避するため、互換性マトリックスに記載されているシステムのサポート対象バージョンを使用していることを確認してください。
 
 非推奨の項目の詳細については、[このページ](../../rn/using/deprecated-features.md)を参照してください。
 
 >[!CAUTION]
 >
->このマトリックスは、追加された新しいサポートアイテムおよび削除された非推奨アイテムを定期的に更新します。
+>このマトリックスは、新しいサポート対象項目の追加および非推奨項目の削除により定期的に更新されます。
 
 ## オペレーティングシステム{#OperatingSystems}
 
 <table> 
 <tbody> 
 <tr> 
-<td>CentOs</td>
+<td>CentOS</td>
 <td>
 <p>8.x（64 ビット）</p>
 <p>7.x（64 ビット）</p>
@@ -155,7 +155,7 @@ In its [latest build](../../rn/using/latest-release.md), Adobe Campaign Classic 
 <tr>
 <td>SQL Server</td>
 <td>
-<p>31 日</p>
+<p>2019</p>
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>
@@ -235,7 +235,7 @@ In its [latest build](../../rn/using/latest-release.md), Adobe Campaign Classic 
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>31 日</p>
+<p>2019</p>
 <p>2017</p>
 <p>2016</p>
 <p>2014</p>
@@ -317,14 +317,14 @@ In its [latest build](../../rn/using/latest-release.md), Adobe Campaign Classic 
 <tr>
 <td>Android</td>
 <td>
-<p>7.x, 8.x, 9.0</p>
+<p>7.x、8.x、9.0</p>
 <p>モバイル SDK ビルド 1.0.27 のサポート。</p>
 </td>
 </tr>
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9 - 14</p>
+<p>iOS 9 ～ 14</p>
 <p>モバイル SDK ビルド 1.0.26 のサポート。32 および 64 ビットバージョンとの互換性。</p>
 </td>
 </tr>
@@ -335,7 +335,7 @@ In its [latest build](../../rn/using/latest-release.md), Adobe Campaign Classic 
 
 次のブラウザーでは、最新バージョンがサポートされています。Microsoft Edge、Mozilla Firefox、Google Chrome、Safari。
 
-Internet Explorer 11がサポートされます。
+Internet Explorer 11 はサポートされています。
 
 ## その他の関連ヘルプ{#Morelikethis}
 

@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3402212bc6904dd5587d3b5a16fca7f4857fb908
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1444'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
 
 一般に、将来のリリースで削除される予定の機能は、まず非推奨に設定されます。これらの機能は、新しい Campaign Classic の顧客は利用できなくなるか、新しい実装には使用するべきではないものです。また、製品ドキュメントからも削除されます。
 
-顧客は現在のデプロイメントで機能を利用しているかどうかを確認し、実装を変更する計画を立てるようお勧めします。削除の目標期日を参照し、それに応じて環境やプロジェクトの更新を計画してください。
+顧客は現在のデプロイメントで機能を利用しているかどうかを確認し、実装を変更する計画を立てるようお勧めします。削除予定日を参照し、それに応じて環境やプロジェクトの更新を計画してください。
 
 <table> 
  <tbody> 

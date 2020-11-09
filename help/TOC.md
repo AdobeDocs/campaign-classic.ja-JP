@@ -3,15 +3,15 @@ audience: end-user
 user-guide-title: Adobe Campaign Classic ガイド
 breadcrumb-title: Campaign Classic ガイド
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: チャネルをまたいだマーケティングキャンペーンを設計、計画、実行、管理、および最適化して、高いマーケティング投資回収率を実現します。
+user-guide-description: null
 product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+source-git-commit: 7490895826c9ff80b01e89bb9a106ba218637bf0
 workflow-type: tm+mt
-source-wordcount: '2151'
-ht-degree: 96%
+source-wordcount: '2134'
+ht-degree: 99%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 96%
 + リリースノート{#release-notes}
    + [アップグレードの基本を学ぶ](rn/using/rn-overview.md)
    + [最新リリース](rn/using/latest-release.md)
-   + Gold Standard Release {#gs-release}
-      + [ゴールド標準リリースノート](rn/using/gold-standard.md)
-      + [ゴールド標準互換表](rn/using/compatibility-matrix-gs.md)
+   + Gold Standard リリース {#gs-release}
+      + [Gold Standard リリースノート](rn/using/gold-standard.md)
+      + [Gold Standard 互換性マトリックス](rn/using/compatibility-matrix-gs.md)
    + 以前のリリース {#previous-releases}
       + [リリース 20.2](rn/using/release--20-2.md)
       + [リリース 20.1](rn/using/release--20-1.md)
@@ -124,9 +124,9 @@ ht-degree: 96%
       + [モバイルアプリチャネルについて](delivery/using/about-mobile-app-channel.md)
       + [Campaign SDK をモバイルアプリケーションに統合する](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + モバイルアプリケーションの設定{#configure-the-mobile-app}
-         + [アプリ設定を使い始める](delivery/using/get-started-app-config.md)
-         + [iOSの設定手順](delivery/using/configuring-the-mobile-application.md)
-         + [Androidの設定手順](delivery/using/configuring-the-mobile-application-android.md)
+         + [アプリ設定の基本を学ぶ](delivery/using/get-started-app-config.md)
+         + [iOS の設定手順](delivery/using/configuring-the-mobile-application.md)
+         + [Android の設定手順](delivery/using/configuring-the-mobile-application-android.md)
       + [通知の作成](delivery/using/creating-notifications.md)
       + [トラブルシューティング](delivery/using/troubleshooting.md)
    + ダイレクトメールの送信 {#sending-direct-mail}
@@ -342,7 +342,7 @@ ht-degree: 96%
       + [使用の手引き [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)
       + [Adobe Experience Cloud・トリガー用のAdobeI/Oの構成](integrations/using/configuring-adobe-io.md)
-      + [カスタム導入用のイベントの設定](integrations/using/events.md)
+      + [カスタム実装用のイベントの設定](integrations/using/events.md)
       + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
       + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
 + ワークフローによる自動化 {#automating-with-workflows}
@@ -603,14 +603,14 @@ ht-degree: 96%
       + [企業へのデプロイメント](installation/using/enterprise-deployment.md)
       + [ミッドソーシングへのデプロイメント](installation/using/mid-sourcing-deployment.md)
       + [パワーブースターとパワークラスター](installation/using/power-booster-and-power-cluster.md)
-   + Windowsでのキャンペーン {#installing-campaign-in-windows-}
-      + [Windowsにキャンペーンをインストールする前に](installation/using/prerequisites-of-campaign-installation-in-windows.md)
+   + Windows での Campaign {#installing-campaign-in-windows-}
+      + [Windows に Campaign をインストールする前に](installation/using/prerequisites-of-campaign-installation-in-windows.md)
       + [サーバーのインストール](installation/using/installing-the-server.md)
       + [Windows 用 Web サーバーへの統合](installation/using/integration-into-a-web-server-for-windows.md)
       + [Windows 用クライアントコンソールの可用性](installation/using/client-console-availability-for-windows.md)
       + [クライアントコンソールのインストール](installation/using/installing-the-client-console.md)
-   + Linuxでのキャンペーン  {#installing-campaign-in-linux-}
-      + [Linuxにキャンペーンをインストールする前に](installation/using/prerequisites-of-campaign-installation-in-linux.md)
+   + Linux での Campaign {#installing-campaign-in-linux-}
+      + [Linux に Campaign をインストールする前に](installation/using/prerequisites-of-campaign-installation-in-linux.md)
       + [Linux でのパッケージのインストール](installation/using/installing-packages-with-linux.md)
       + [Linux 用 Web サーバーへの統合](installation/using/integration-into-a-web-server-for-linux.md)
       + [Linux 用クライアントコンソールの可用性](installation/using/client-console-availability-for-linux.md)

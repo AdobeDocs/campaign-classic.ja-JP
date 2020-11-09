@@ -11,20 +11,20 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1190'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e01acc00d0b15df99c009fe29d170ed0fc9fa956
+workflow-type: tm+mt
+source-wordcount: '1192'
+ht-degree: 96%
 
 ---
 
 
 # 通信チャネル{#communication-channels}
 
-Adobe Campaign では、E メール、SMS、LINE メッセージ、プッシュ通知およびダイレクトメールを含むクロスチャネルキャンペーンを送信し、各種の専用[レポート](../../reporting/using/delivery-reports.md)を使用してそれらの有効性を評価できます。これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズすることができます。
+With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated [reports](../../reporting/using/delivery-reports.md). これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズすることができます。
 
-コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。機能への主なアクセスポイントは、配信ウィザードです。ここから、Adobe Campaign で提供されるいくつかの機能にアクセスします。
+コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。機能への主なアクセスポイントは、配信ウィザードです。このアクセスポイントにより、Adobe Campaignが対象とする複数の機能が提供されます。
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Adobe Campaign は次の配信チャネルを提供します。
 
    >[!NOTE]
    >
-   >複数のチャネルを使用できるかどうかは、パッケージによって異なります。使用許諾契約書を確認してください。
+   >使用可能なチャネルの数は、契約によって異なります。 使用許諾契約書を確認してください。
 
 配信は、**オンライン**（E メール、いずれかのモバイルチャネルおよびプッシュ通知）および&#x200B;**オフライン**（ダイレクトメールチャネル）で実行できます。
 

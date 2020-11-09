@@ -13,15 +13,15 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9ae51c30e2ac538ff29e4ab53fa215d09f3d655
+source-git-commit: 8486213403bf848f1632aff06f3f1528b199f86d
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
+source-wordcount: '461'
+ht-degree: 3%
 
 ---
 
 
-# Adobe Experience Cloud・トリガー用のAdobeI/Oの構成 {#configuring-adobe-io}
+# Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
 >[!CAUTION]
 >
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 この実装を開始する前に、以下の点を確認してください。
 
-* 最新Adobe Campaign:19.1.8または20.2.1以降のビルド、
+* adobe campaignの最新バージョン（20.2.1以降）、
 * 有効なIMSOrgID:identity managementシステム(IMS)の組織識別子は、Adobe Experience Cloud内の一意の識別子です。この識別子は、VisitorIDサービスやIMSシングルサインオン(SSO)などに使用されます。
 * IMS組織への開発者アクセス権。
 
@@ -56,31 +56,31 @@ ht-degree: 1%
 
 1. 抽出したクライアントIDを使用して、既存のプロジェクトを識別します。 前の手順で抽出したものと同じクライアントIDを持つ既存のプロジェクトを探します。
 
-   ![](assets/adobe_io_8.png)
+   ![](assets/do-not-localize/adobe_io_8.png)
 
 1. 「 **[!UICONTROL +」を選択して「プロジェクト]** 」を選択し、「 **[!UICONTROL API]**」を選択します。
 
-   ![](assets/adobe_io_1.png)
+   ![](assets/do-not-localize/adobe_io_1.png)
 
 1. API **[!UICONTROL 追加ウィンドウで、]** Adobe Analyticsを選択します ****。
 
-   ![](assets/adobe_io_2.png)
+   ![](assets/do-not-localize/adobe_io_2.png)
 
 1. 認証の種類として「 **[!UICONTROL サービスアカウント(JWT)]** 」を選択します。
 
-   ![](assets/adobe_io_3.png)
+   ![](assets/do-not-localize/adobe_io_3.png)
 
 1. クライアントIDが空の場合は、「キーペアを **[!UICONTROL 生成]** 」を選択して、公開キーペアと秘密鍵キーペアを作成します。
 
-   ![](assets/adobe_io_4.png)
+   ![](assets/do-not-localize/adobe_io_4.png)
 
 1. 公開鍵をアップロードし、「 **[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/adobe_io_5.png)
+   ![](assets/do-not-localize/adobe_io_5.png)
 
 1. 「 **Analytics-&lt;組織名>」という製品プロファイルを選択し、** 「設定したAPIを **[!UICONTROL 保存]**」をクリックします。
 
-   ![](assets/adobe_io_6.png)
+   ![](assets/do-not-localize/adobe_io_6.png)
 
 1. プロジェクトから、「 **[!UICONTROL サービスアカウント(JWT)]** 」を選択し、次の情報をコピーします。
    * **[!UICONTROL クライアント ID]**
@@ -88,7 +88,7 @@ ht-degree: 1%
    * **[!UICONTROL テクニカルアカウントID]**
    * **[!UICONTROL 組織ID]**
 
-   ![](assets/adobe_io_7.png)
+   ![](assets/do-not-localize/adobe_io_7.png)
 
 ## 手順2:Adobe Campaign追加内のプロジェクト資格情報 {#add-credentials-campaign}
 

@@ -11,10 +11,10 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 075206aa-ff7b-4fa8-a05d-14a29fb119ba
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '171'
+translation-type: tm+mt
+source-git-commit: 1781648fc17d729f451664204f99a77dfaa8c824
+workflow-type: tm+mt
+source-wordcount: '173'
 ht-degree: 100%
 
 ---
@@ -34,4 +34,4 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->「**AND 結合**」タイプアクティビティの場合、イベント変数は結合されますが、同じ変数を 2 回定義した場合、競合が生じ、値が未確定になります。詳しくは、[](../../workflow/using/javascript-scripts-and-templates.md#event-variables) を参照してください。
+>「**AND 結合**」タイプアクティビティの場合、イベント変数は結合されますが、同じ変数を 2 回定義した場合、競合が生じ、値が未確定になります。詳しくは、[この節](../../workflow/using/javascript-scripts-and-templates.md#event-variables)を参照してください。

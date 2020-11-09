@@ -11,9 +11,9 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2abd9f987967484cc93009d8961ed6b152cdc354
+workflow-type: tm+mt
 source-wordcount: '3115'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 配信は、キャンペーンダッシュボード、キャンペーンワークフローまたは配信の概要から直接作成できます。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[ビデオでこの機能を確認する](#create-email-video)
 
 ## 配信の作成 {#creating-deliveries}
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 このビデオでは、Adobe Campaign Classic でキャンペーンと E メールを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 
 #### ターゲティングワークフローの作成 {#creating-a-targeting-workflow}

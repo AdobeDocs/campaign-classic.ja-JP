@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: ccd4fe1366fd9ecaca83dbf7aac241524f0af7d6
+source-git-commit: c14d257bb4f206e56a16d45507ee98ccad239fe7
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 78%
+source-wordcount: '274'
+ht-degree: 90%
 
 ---
 
@@ -17,11 +17,13 @@ ht-degree: 78%
 
 ## 新着情報
 
-* **[Adobe Experience Cloudトリガー統合の更新](integrations/using/configuring-adobe-io.md)**<br/>レガシーoAuth認証サービスが提供終了に達しました。 AdobeI/Oに移行する方法を説明します。
+* **[Adobe Experience Cloudトリガー統合の更新](integrations/using/configuring-adobe-io.md)**<br/> レガシーoAuth認証サービスが提供終了になりました。 AdobeI/Oに移行する方法を説明します。
 
-* **[HTTP/2ベースのAPNsプロバイダーAPIに移行](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)**<br/>：レガシーバイナリプロトコルからHTTP/2ベースのAPNsプロバイダーAPIに移行する方法を説明します。
+* **[HTTP/2 ベースの APNs プロバイダー API への移行](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)**<br/>
+レガシーバイナリプロトコルから HTTP/2 ベースの APNs プロバイダー API に移行する方法を説明しています。
 
-* **[メッセージ追加の顔文字メッセージメッセージと件名に顔文字を挿入できるようになりました。](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>
+* **[メッセージへの顔文字の追加](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>
+メッセージと件名に顔文字を挿入できるようになりました。
 
 * **[サポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)**<br/>
 FAQ、ベストプラクティス、ヘルプリソースにアクセスし、サポートをリクエストできます。
@@ -29,7 +31,7 @@ FAQ、ベストプラクティス、ヘルプリソースにアクセスし、�
 * **[トラッキング機能](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html)**<br/>
 Campaign のトラッキング機能とプロセスについて説明します。
 
-[更新情報についてはここをクリック](/help/rn/using/documentation-updates.md)
+[その他の更新](/help/rn/using/documentation-updates.md)
 
 ## トップページ
 

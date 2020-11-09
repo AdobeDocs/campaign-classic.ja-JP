@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
 translation-type: tm+mt
-source-git-commit: f3caef21a269cf57624a07bfe1b4bf1e241061a6
+source-git-commit: 4f949d8db3aa3082acf1765bf66080b270cc6db4
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '921'
 ht-degree: 19%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 19%
 
 この設定を開始する前に、次の点を確認してください。
 
-* 最新Adobe Campaign:19.1.8または20.2.1以降のビルド、
+* adobe campaignの最新バージョン（20.2.1以降）、
 * Adobe Analytics Standard版
 
 また、次の情報も必要です。

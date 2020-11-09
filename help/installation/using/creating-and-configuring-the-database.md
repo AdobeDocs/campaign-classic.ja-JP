@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 translation-type: tm+mt
-source-git-commit: fe7ce92bde3405fed3429475cdd5681e5837876f
+source-git-commit: 1781648fc17d729f451664204f99a77dfaa8c824
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1353'
 ht-degree: 1%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 1%
 
 * Oracle、Microsoft SQL Server、またはPostgreSQLデータベースの場合、管理者は、データベースオブジェクトの作成時に使用する **ストレージパラメータ** を定義することもできます。
 
-   これらのパラメータは、正確な表領域名を受け取ります(警告：大文字と小文字が区別されます)。 これらは、それぞれ **[!UICONTROL 管理/プラットフォーム/オプション]** ノードの次のオプションに保存されます(「 [](../../installation/using/configuring-campaign-options.md#database)」を参照)。
+   これらのパラメータは、正確な表領域名を受け取ります(警告：大文字と小文字が区別されます)。 これらは、それぞれ、 **[!UICONTROL 管理/プラットフォーム/オプション]** ( [この節を参照](../../installation/using/configuring-campaign-options.md#database))のノードに保存されます。
 
    * **WdbcOptions_TableSpaceUser**:スキーマに基づくユーザーテーブル
    * **WdbcOptions_TableSpaceIndex**:スキーマに基づくユーザーテーブルのインデックス

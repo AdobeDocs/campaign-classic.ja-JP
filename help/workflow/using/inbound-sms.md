@@ -1,8 +1,6 @@
 ---
 title: インバウンド SMS
-seo-title: インバウンド SMS
-description: インバウンド SMS
-seo-description: null
+description: 受信SMSワークフローアクティビティの詳細
 page-status-flag: never-activated
 uuid: 895e54df-e795-48ac-ac94-96dab454c550
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 discoiquuid: fa9ae600-91fc-4aea-ae02-8ab9064947ac
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '114'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 93%
 
 ---
 

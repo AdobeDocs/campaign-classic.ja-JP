@@ -1,8 +1,6 @@
 ---
 title: テスト
-seo-title: テスト
-description: テスト
-seo-description: null
+description: テストワークフローアクティビティの詳細を表示します
 page-status-flag: never-activated
 uuid: 3522f4ac-3a72-4ff1-b3aa-1b4c283ef2bd
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 discoiquuid: 78c70ef4-807d-45d4-ac87-2b741c0ef5cb
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '195'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 96%
 
 ---
 

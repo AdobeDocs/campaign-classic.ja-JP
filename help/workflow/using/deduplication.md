@@ -1,8 +1,6 @@
 ---
 title: 重複排除
-seo-title: 重複排除
-description: 重複排除
-seo-description: null
+description: 重複排除 - 重複ワークフローアクティビティの詳細を表示します
 page-status-flag: never-activated
 uuid: 90dee589-ac45-442e-89ef-1c14bb22200d
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 83b915bd-7e23-41b5-9f9a-f7eb72026376
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '764'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '769'
+ht-degree: 99%
 
 ---
 

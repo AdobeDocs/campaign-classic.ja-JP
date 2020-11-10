@@ -1,8 +1,6 @@
 ---
 title: データの読み込み（RDBMS）
-seo-title: データの読み込み（RDBMS）
-description: データの読み込み（RDBMS）
-seo-description: null
+description: データ読み込み(RDBMS)ワークフローアクティビティの詳細
 page-status-flag: never-activated
 uuid: d5ec30f2-398a-4b16-9232-924437da146a
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: a128caac-5740-4dac-b14d-1d2fcef3cc69
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 96%
 
 ---
 

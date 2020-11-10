@@ -1,8 +1,6 @@
 ---
 title: 集計を更新
-seo-title: 集計を更新
-description: 集計を更新
-seo-description: null
+description: 更新集計ワークフローアクティビティの詳細
 page-status-flag: never-activated
 uuid: 34ae42e1-da34-43be-b219-0b3b872177b3
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 discoiquuid: 031f8d5d-940c-4a4c-97e7-ad4ef61983c1
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '97'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 93%
 
 ---
 

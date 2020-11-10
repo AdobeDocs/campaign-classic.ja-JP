@@ -8,9 +8,9 @@ product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 5f3ecffba2e505ad0bb074f6d635a51d983997e2
+source-git-commit: b8548e8d609ed099433b97b4c0704d27234e81c0
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2156'
 ht-degree: 99%
 
 ---
@@ -39,7 +39,6 @@ ht-degree: 99%
 + はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic の基本を学ぶ](platform/using/about-adobe-campaign-classic.md)
-      + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
       + [Adobe Campaign の起動](platform/using/launching-adobe-campaign.md)
       + [Adobe Campaign ワークスペース](platform/using/adobe-campaign-workspace.md)
       + よくある質問{#faq}
@@ -54,6 +53,10 @@ ht-degree: 99%
          + [レポート](platform/using/faq-reporting.md)
          + [開発](platform/using/faq-developers.md)
       + [チュートリアル](platform/using/tutorials.md)
+   + プライバシー {#privacy}
+      + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
+      + [プライバシーの管理](platform/using/privacy-management.md)
+      + [プライバシーリクエスト](platform/using/privacy-requests.md)
    + プロファイル管理 {#profile-management}
       + [プロファイルについて](platform/using/about-profiles.md)
       + [プロファイルの編集](platform/using/editing-a-profile.md)

@@ -9,9 +9,9 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: aeae6320f9b8de8618f7e5f07bc586d1b101611f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
+workflow-type: tm+mt
 source-wordcount: '2183'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)を参照してください。
 
-## ![](assets/do-not-localize/blue_2.png) リリース 20.2.3 - ビルド 9182 {#release-20-2-3-build-9182}
+## ![](assets/do-not-localize/green_2.png) リリース 20.2.3 - ビルド 9182 {#release-20-2-3-build-9182}
 
 _2020 年 9 月 11 日_
 

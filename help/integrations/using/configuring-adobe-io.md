@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8486213403bf848f1632aff06f3f1528b199f86d
+source-git-commit: 2d0d2d4eefc67312e1b9a8edc7ae88def2980ef1
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 3%
@@ -29,9 +29,10 @@ ht-degree: 3%
 
 ## 前提条件 {#adobe-io-prerequisites}
 
+この統合は、 **Campaign Classic20.3リリース以降にのみ適用されます**。
+
 この実装を開始する前に、以下の点を確認してください。
 
-* adobe campaignの最新バージョン（20.2.1以降）、
 * 有効なIMSOrgID:identity managementシステム(IMS)の組織識別子は、Adobe Experience Cloud内の一意の識別子です。この識別子は、VisitorIDサービスやIMSシングルサインオン(SSO)などに使用されます。
 * IMS組織への開発者アクセス権。
 

@@ -9,10 +9,10 @@ audience: workflow
 content-type: reference
 topic-tags: introduction
 discoiquuid: 868940d1-f19d-4e9a-bffa-8654abb4441c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '673'
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '655'
 ht-degree: 100%
 
 ---
@@ -32,9 +32,9 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 Adobe Campaign では、ワークフローを使用して次のことをおこないます。
 
-* キャンペーンのターゲティングの実行。詳しくは、[実装の手順](../../workflow/using/building-a-workflow.md#implementation-steps-)を参照してください。
-* キャンペーンの作成：キャンペーンごとに、「**[!UICONTROL ワークフロー]**」タブを使用してターゲットを作成したり、配信を作成したりできます。詳しくは、[キャンペーンワークフロー](../../workflow/using/building-a-workflow.md#campaign-workflows)を参照してください。
-* テクニカルプロセスの実行：クリーンアップ、トラッキング情報の収集または試算。詳しくは、[テクニカルワークフロー](../../workflow/using/building-a-workflow.md#technical-workflows)を参照してください。
+* キャンペーンのターゲティングの実行。[詳細情報](../../workflow/using/building-a-workflow.md#implementation-steps-)
+* キャンペーンの作成：キャンペーンごとに、「**[!UICONTROL ワークフロー]**」タブを使用してターゲットを作成したり、配信を作成したりできます。[詳細情報](../../workflow/using/building-a-workflow.md#campaign-workflows)
+* テクニカルプロセスの実行：クリーンアップ、トラッキング情報の収集または試算。[詳細情報](../../workflow/using/building-a-workflow.md#technical-workflows)
 
 ワークフローは、プロセス定義（想定される結果を表すワークフローモデル）と、このプロセスのインスタンス（実際に実行中の処理を表すワークフローインスタンス）の両方を意味します。
 

@@ -1,7 +1,7 @@
 ---
-title: プライバシーと推奨事項
-seo-title: プライバシーと推奨事項
-description: プライバシーと推奨事項
+title: プライバシーと同意
+seo-title: プライバシーと同意
+description: プライバシーと同意
 seo-description: null
 page-status-flag: never-activated
 uuid: a044bbea-521d-4c1e-8aab-7d51a87fc94b
@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 translation-type: tm+mt
-source-git-commit: 6ca61b4e927b7443815f0337b8e661c8ec126001
+source-git-commit: 53c15bca0f5cc3e6866e87a5ffbc7f68e7bcc1b8
 workflow-type: tm+mt
-source-wordcount: '1850'
-ht-degree: 97%
+source-wordcount: '1815'
+ht-degree: 94%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 
 >[!NOTE]
 >
->GDPR、CCPA、PDPA、LGPD が Adobe Campaign にどのように適用されるかについては、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
+>GDPR、CCPA、PDPA、LGPD が Adobe Campaign にどのように適用されるかについては、[このページ](../../platform/using/privacy-management.md#privacy-management-regulations)を参照してください。
 
 ### Adobe Experience Cloud プライバシー {#experience-cloud-privacy}
 
@@ -83,7 +83,7 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 * **個人データ**&#x200B;は、生きている個人を直接または間接的に識別できる情報です。
 * **個人の機密データ**&#x200B;は、個人の人種、政治観、宗教的信念、犯罪歴、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の組合員に関する情報です。
 
-[主な法律](#privacy-regulations)は、データを管理する様々なエンティティを次のように参照しています。
+The [main regulations](#privacy-regulations) refer to the different entities that manage data as follows:
 * **データ管理者**&#x200B;は、個人データの収集、使用、共有の方法と目的を決定する権限です。
 * **データ処理者**&#x200B;は、データ管理者の指示に従って個人データを収集、使用、または共有する個人または関係者です。
 * **データ主体**&#x200B;は、個人データが収集、使用、共有され、その個人データを参照して直接または間接的に識別できる、生きている個人のことです。
@@ -108,10 +108,9 @@ Adobe Campaign を使用すると、個人情報や機密情報などのデー�
 Adobe Campaign では、プライバシー管理に関する様々な機能を提供しています。
 * 同意の管理、データ保持、ユーザーの役割：[この節](#consent)を参照してください。
 * プライバシーリクエスト（アクセスする権利と忘れられる権利）：[この節](#privacy-requests)を参照してください。
-* 個人情報の販売のオプトアウト（CCPA 固有）：[この節](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html#ccpa)を参照してください。
+* 個人情報の販売のオプトアウト（CCPA 固有）：[この節](../../platform/using/privacy-requests.md#sale-of-personal-information-ccpa)を参照してください。
 
 Campaign の主なプライバシー機能と関与する個人の例を[この節](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)に示します。
-
 
 ### 同意、リテンション、役割 {#consent}
 
@@ -121,7 +120,7 @@ Campaign の主なプライバシー機能と関与する個人の例を[この�
 * **データ保持**：すべての組み込みの標準ログテーブルには事前に設定された保存期間があり、通常、データのストレージは 6 か月以下に制限されます。その他の保存期間は、ワークフローで設定できます。詳しくは、アドビのコンサルタントまたは技術管理者にお問い合わせください。
 * **権限管理**：Adobe Campaign では、事前作成された役割またはカスタムの役割を使用して、様々な Campaign オペレーターに割り当てられている権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできるユーザーを管理できます。詳しくは、[アクセス管理について](../../platform/using/access-management.md)を参照してください。
 
-これらの機能および Adobe Campaign での管理方法について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#consent)を参照してください。
+For more on these features and how to manage them in Adobe Campaign, see [this section](../../platform/using/privacy-management.md#consent-retention-roles).
 
 ### プライバシーリクエスト {#privacy-requests}
 
@@ -133,7 +132,7 @@ Adobe Campaign は、特定のプライバシーリクエストに対するデ�
 
 >[!NOTE]
 >
->GDPR、CCPA、PDPA、LGPD のプライバシーコンプライアンスに役立つツール群を紹介します。これらの様々な規則について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
+>GDPR、CCPA、PDPA、LGPD のプライバシーコンプライアンスに役立つツール群を紹介します。これらの様々な規則について詳しくは、[このページ](../../platform/using/privacy-management.md#privacy-management-regulations)を参照してください。
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -143,7 +142,7 @@ Adobe Campaign は、特定のプライバシーリクエストに対するデ�
 
 Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug, 16 for all companies collecting or processing personal data in Brazil. This regulation also applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-**アクセス**&#x200B;リクエストと&#x200B;**削除**&#x200B;リクエストは、[このページ](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html#righttoaccess)に表示されます。これらのリクエストを作成するための実装手順については、[この節](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)で詳しく説明します。 <!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
+**アクセス**&#x200B;リクエストと&#x200B;**削除**&#x200B;リクエストは、[このページ](../../platform/using/privacy-management.md#right-access-forgotten)に表示されます。これらのリクエストを作成するための実装手順については、[この節](../../platform/using/privacy-requests.md)で詳しく説明します。 <!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
 
 ## トラッキング機能 {#tracking-capabilities}
 
@@ -154,7 +153,7 @@ Adobe Campaign では、そのトラッキング機能のおかげで、3 種類
 * A **session** cookie: the **nlid** cookie contains the identifier of the email sent to the contact (**broadlogId**) and the identifier of the message template (**deliveryId**). Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での Web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
 
 * Two **permanent** cookies:
-   * **UUID**（Universal Unique IDentifier）Cookie は、Adobe Experience Cloud のソリューション間で共有されます。設定は 1 回で、新しい値が生成されると、クライアントブラウザーから消滅します。この Cookie により、Web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。ランディングページ（不明な顧客アクティビティを受信者に関連付けるため）または配信によって預けることができます。このCookieの説明はこのページ [で参照できます](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-mc.html)。
+   * **UUID**（Universal Unique IDentifier）Cookie は、Adobe Experience Cloud のソリューション間で共有されます。新しい値が生成されると、クライアントブラウザーから値が消えるまで、1回だけ設定されます。 この Cookie により、Web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。ランディングページ（不明な顧客アクティビティを受信者に関連付けるため）または配信によって預けることができます。このCookieの説明は [このページで参照できます](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=en#ec-cookies)。
    * **nllastdelid** Cookie（Campaign Classic 20.3 で導入）は、ユーザーがリンクをクリックした最後の配信の **deliveryId** を含む永続的な Cookie です。この Cookie は、使用されるトラッキングテーブルを識別するために、セッション Cookie がない場合に使用されます。
 
 GDPR（一般データ保護規則）などの規制では、企業は Cookie をインストールする前に Web サイトのユーザーの同意をリクエストすることが規定されています。

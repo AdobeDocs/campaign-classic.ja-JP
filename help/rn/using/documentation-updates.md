@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 7af0d17450ea2bee757e54dd4861f11ad023b700
+source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
 workflow-type: tm+mt
-source-wordcount: '3940'
+source-wordcount: '3948'
 ht-degree: 98%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 98%
 その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
 
 ## 2020 年 11 月 {#nov-2020}
+
+[キャンペーン20.2.3リリース](../../rn/using/release--20-2.md#release-20-2-3-build-9182) は、GA(General Availability)に移行しました。
 
 「プライバシー」セクションは、2つの新しいセクションで移動され、強化されました。 [プライバシー管理](../../platform/using/privacy-management.md) / [プライバシー要求の](../../platform/using/privacy-requests.md)管理。
 

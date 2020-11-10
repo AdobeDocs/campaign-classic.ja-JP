@@ -1,8 +1,6 @@
 ---
 title: マーケティングキャンペーン配信
-seo-title: マーケティングキャンペーン配信
-description: マーケティングキャンペーン配信
-seo-description: マーケティングキャンペーン配信の詳細
+description: マーケティングキャンペーン配信の詳細
 page-status-flag: never-activated
 uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 translation-type: tm+mt
-source-git-commit: 2abd9f987967484cc93009d8961ed6b152cdc354
+source-git-commit: f6e820bd05b95e57b395407ed1e17c11b17cbf84
 workflow-type: tm+mt
-source-wordcount: '3115'
-ht-degree: 100%
+source-wordcount: '3076'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +22,9 @@ ht-degree: 100%
 
 配信は、キャンペーンダッシュボード、キャンペーンワークフローまたは配信の概要から直接作成できます。
 
-![](assets/do-not-localize/how-to-video.png)[ビデオでこの機能を確認する](#create-email-video)
+キャンペーンから作成した配信は、このキャンペーンにリンクされ、キャンペーンレベルで統合されます。
+
+![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#create-email-video)
 
 ## 配信の作成 {#creating-deliveries}
 
@@ -32,29 +32,21 @@ ht-degree: 100%
 
 ![](assets/campaign_op_add_delivery.png)
 
-各種の配信（ダイレクトメール、E メール、モバイルチャネル）に適した設定が提示されます。
-
->[!NOTE]
->
->配信の作成と設定について詳しくは、[メッセージの送信](../../delivery/using/steps-about-delivery-creation-steps.md)の節を参照してください。
+各種の配信（ダイレクトメール、E メール、モバイルチャネル）に適した設定が提示されます。[詳細情報](../../delivery/using/steps-about-delivery-creation-steps.md)。
 
 ## ターゲット母集団の選択 {#selecting-the-target-population}
 
-配信ごとに、キャンペーンマネージャーが以下のものを定義します。
+各配信に対して、次の項目を定義できます。
 
-* メインターゲット。詳しくは、[ワークフローのメインターゲットの作成](#building-the-main-target-in-a-workflow)および[ターゲット母集団の選択](#selecting-the-target-population)を参照してください。
-* コントロール母集団。詳しくは、[コントロール母集団の定義](#defining-a-control-group)を参照してください。
-* シードアドレス。詳しくは、[この節](../../delivery/using/about-seed-addresses.md)を参照してください。
+* オーディエンス — ワークフローでのオーディエンスの [構築とターゲット母集団の](#building-the-main-target-in-a-workflow) 選択の詳細 [](#selecting-the-target-population)。
+* コントロール母集団-コントロール母集団の [定義の詳細](#defining-a-control-group)。
+* シードアドレス- [この節で詳しく説明します](../../delivery/using/about-seed-addresses.md)。
 
-この情報の一部は、テンプレートから継承されます。
+Some of this information can be inherited from the [template](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
->[!NOTE]
->
->キャンペーンテンプレートについて詳しくは、[キャンペーンテンプレート](../../campaign/using/marketing-campaign-templates.md#campaign-templates)で説明しています。
+配信ターゲットを作成するために、データベース内の受信者のフィルタリング条件を定義できます。この受信者選択モードは、 [この節で示します](../../delivery/using/steps-defining-the-target-population.md)。
 
-配信ターゲットを作成するために、データベース内の受信者のフィルタリング条件を定義できます。受信者の選択モードについては、[メッセージの送信](../../delivery/using/steps-defining-the-target-population.md)の節で説明しています。
-
-### 例：受信者のグループへの配信 {#example--delivering-to-a-group-of-recipients}
+**例：グループにメッセージを送信する**
 
 母集団をリストにインポートし、配信でこのリストをターゲットとして設定できます。
 
@@ -68,24 +60,15 @@ ht-degree: 100%
 
 ![](assets/s_user_target_group_next.png)
 
-### ワークフローのメインターゲットの作成 {#building-the-main-target-in-a-workflow}
+### ワークフローでのオーディエンスの構築 {#building-the-main-target-in-a-workflow}
 
-配信のメインターゲットは、ターゲティングワークフローでも定義できます。クエリ、テスト、オペレーター（和集合、重複排除、共有など）を使用して、グラフィカルにターゲットを作成できます。
-
-[ワークフローによる自動化](../../workflow/using/architecture.md)ガイドでは、ワークフローモジュールの仕組みについて、詳しく説明しています。
+配信のメインターゲットは、ターゲティングワークフローでも定義できます。クエリ、テスト、オペレーター（和集合、重複排除、共有など）を使用して、グラフィカルにターゲットを作成できます。[詳細情報](../../workflow/using/architecture.md)。
 
 >[!IMPORTANT]
 >
->同じキャンペーン内に 28 を超えるワークフローを設定することはできません。この上限を超えると、追加のワークフローはインターフェイスに表示されず、エラーが発生する可能性があります。
+>1つのキャンペーンに28個を超えるワークフローを作成することはできません。 この上限を超えると、追加のワークフローはインターフェイスに表示されず、エラーが発生する可能性があります。
 
-### キャンペーンでの E メールの作成方法 {#create-email-video}
-
-このビデオでは、Adobe Campaign Classic でキャンペーンと E メールを作成する方法を説明します。
-
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
-
-
-#### ターゲティングワークフローの作成 {#creating-a-targeting-workflow}
+#### ワークフローの作成 {#creating-a-targeting-workflow}
 
 ターゲティングは、ワークフロー内のグラフィカルなシーケンスでフィルタリング条件を組み合わせて作成できます。ターゲットとする母集団およびサブ母集団を要件に合わせて作成できます。ワークフローエディターを表示するには、キャンペーンダッシュボードで「**[!UICONTROL ターゲティングとワークフロー]**」タブをクリックします。
 
@@ -124,7 +107,7 @@ ht-degree: 100%
 1. **[!UICONTROL 新しいワークフロー]**&#x200B;テンプレートを選択し、このワークフローに名前を付けます。
 1. 「**[!UICONTROL OK]**」をクリックしてワークフローの作成を確定し、このワークフローのダイアグラムを作成します。
 
-#### ワークフローの実行 {#executing-a-workflow}
+#### Execute the workflow {#executing-a-workflow}
 
 適切な権限がある場合は、ツールバーの&#x200B;**[!UICONTROL 開始]**&#x200B;ボタンから手動でターゲティングワークフローを開始できます。
 
@@ -275,7 +258,7 @@ ht-degree: 100%
 
 ## 配信の開始 {#starting-a-delivery}
 
-すべての承認が許可されたら、配信をいつでも開始できます。これ以降の配信手順は、配信の種類によって異なります。E メールまたはモバイルチャネルの配信については、[オンライン配信の開始](#starting-an-online-delivery)を、ダイレクトメール配信については、[オフライン配信の開始](#starting-an-offline-delivery)を参照してください。
+すべての承認が許可されたら、配信をいつでも開始できます。これ以降の配信手順は、配信の種類によって異なります。For email or mobile channel deliveries, see [Starting an online delivery](#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](#starting-an-offline-delivery).
 
 ### オンライン配信の開始 {#starting-an-online-delivery}
 
@@ -476,3 +459,9 @@ ht-degree: 100%
 >[!NOTE]
 >
 >詳しくは、[はじめに](../../platform/using/generic-imports-and-exports.md)の節を参照してください。
+
+#### キャンペーンでの E メールの作成方法 {#create-email-video}
+
+このビデオでは、Adobe Campaign Classic でキャンペーンと E メールを作成する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)

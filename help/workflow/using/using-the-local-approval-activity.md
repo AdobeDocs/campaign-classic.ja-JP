@@ -1,8 +1,6 @@
 ---
 title: ローカルの承認アクティビティの使用
-seo-title: ローカルの承認アクティビティの使用
-description: ローカルの承認アクティビティの使用
-seo-description: null
+description: ローカルの承認アクティビティの使用方法を説明します
 page-status-flag: never-activated
 uuid: 6003aaed-543d-4e6b-b1f2-ad4e9757bff3
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: c143d8c3-c3ce-470c-8812-4b19cdb8afbf
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1432'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
+source-wordcount: '1430'
+ht-degree: 99%
 
 ---
 

@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+source-git-commit: 7af0d17450ea2bee757e54dd4861f11ad023b700
 workflow-type: tm+mt
-source-wordcount: '3921'
-ht-degree: 95%
+source-wordcount: '3940'
+ht-degree: 98%
 
 ---
 
@@ -24,13 +24,17 @@ ht-degree: 95%
 
 その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
 
+## 2020 年 11 月 {#nov-2020}
+
+「プライバシー」セクションは、2つの新しいセクションで移動され、強化されました。 [プライバシー管理](../../platform/using/privacy-management.md) / [プライバシー要求の](../../platform/using/privacy-requests.md)管理。
+
 ## 2020 年 10 月 {#oct-2020}
 
 **20.3 リリースに含まれる新機能**
 
-iOSのプッシュ通知機能の強化 — [詳細](../../delivery/using/configuring-the-mobile-application.md)
+iOS のプッシュ通知の改善点 - [詳細を表示](../../delivery/using/configuring-the-mobile-application.md)
 
-Androidのプッシュ通知機能の強化 — [詳細](../../delivery/using/configuring-the-mobile-application-android.md)
+Android のプッシュ通知の改善点 - [詳細を表示](../../delivery/using/configuring-the-mobile-application-android.md)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
@@ -38,30 +42,30 @@ Androidのプッシュ通知機能の強化 — [詳細](../../delivery/using/co
 
 非推奨（廃止予定）および削除された機能ページが更新されました。[詳細を表示](../../rn/using/deprecated-features.md)
 
-Gold Standardリリースのリリースノートと互換表が、専用のセクションで提供されるようになりました。
+Gold Standard リリースのリリースノートと互換性マトリックスが、専用の節で提供されるようになりました。
 [詳細を表示](../../rn/using/gold-standard.md#gs-10)
 
-元々oAUTH認証設定に基づいて行われたパイプラインへのアクセスに関する統合が、AdobeI/Oに変更され、移行されました。 [詳細情報](../../integrations/using/configuring-adobe-io.md)
+Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
 
-**その他の更新**
+**その他のアップデート**
 
-Tomcat 8の更新を反映するように、ドキュメントページが更新されました。
+Tomcat 8 のアップデートを反映するように、ドキュメントのページが更新されました。
 
-詳細は、「Adobe Campaign版の取得」の「バージョン情報」ボックスの説明に追加されました。 [詳細を表示](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
+詳細は、「Adobe Campaign バージョンの取得」の節の「バージョン情報」の説明に追加されました。[詳細を表示](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 
-ビルドのアップグレードを実行する際のガイドラインは、「Adobe Campaign Classicの更新」の節に追加されました。 詳細情報 [を見る](../../production/using/build-upgrade.md)
+ビルドの更新を実行する際のガイドラインは、「Adobe Campaign Classic の更新」の節に追加されました。[詳細を表示](../../production/using/build-upgrade.md)
 
-キャンペーンビルドのアップグレードに関するFAQは、キャンペーンに関するよくある質問に追加されました。 詳細情報 [を見る](../../platform/using/faq-build-upgrade.md)
+Campaign ビルドのアップグレードに関する FAQ は、Campaign に関するよくある質問に追加されました。[詳細を表示](../../platform/using/faq-build-upgrade.md)
 
-オンプレミス、ホスト型、ハイブリッド型のホスティングモデルのキャンペーンについては、専用の節で説明します。 [詳細を表示](../../installation/using/hosting-models.md)
+Campaign オンプレミスモデル、ホストモデル、およびハイブリッドホスティングモデルが、専用の節で説明されるようになりました。[詳細を表示](../../installation/using/hosting-models.md)
 
-ホスティングモデルごとのキャンペーン機能マトリックスが更新され、『インストール』ガイドに移動されました。 [詳細を表示](../../installation/using/capability-matrix.md)
+ホスティングモデルごとの Campaign 機能マトリックスが更新され、インストールガイドに移動しました。[詳細を表示](../../installation/using/capability-matrix.md)
 
 「キャンペーンレポートの高度な機能」の節が強化され、カスタムレポートで URL パラメーターと変数を使用する方法の詳細が示されました。[詳細を表示](../../reporting/using/advanced-functionalities.md)
 
 レポートのプロパティページは、設定を容易にするために再編成され、強化されました。[詳細を表示](../../reporting/using/properties-of-the-report.md)
 
-レガシーバイナリプロトコルから HTTP/2 ベースの APN プロバイダー API に移行する方法の詳細に関する新しいテク二カルノートが作成されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/migrate-to-apns-http2.html)
+レガシーバイナリプロトコルから HTTP/2 ベースの APN プロバイダー API に移行する方法の詳細に関する新しいテク二カルノートが作成されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
 
 ## 2020 年 9 月 {#september-2020}
 
@@ -406,7 +410,7 @@ Adobe Campaign Classic のオファーカタログの使用に関する新しい
 
 サブワークフローアクティビティの節に、使用例が追加されました。[詳細を表示](../../workflow/using/sub-workflow.md)
 
-The [Campaign Classic On-premise &amp; Hosted capability matrix](../../installation/using/capability-matrix.md) page has been updated with information relating to Email BCC.
+[Campaign Classic オンプレミスとホスト機能マトリックス](../../installation/using/capability-matrix.md)のページが更新され、「BCC で E メールを送信」に関する情報が追加されました。
 
 トランザクションメッセージングのドキュメントが更新され、テンプレートのパブリッシュに関する注意事項が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
 

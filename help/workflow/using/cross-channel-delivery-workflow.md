@@ -1,8 +1,6 @@
 ---
 title: クロスチャネル配信ワークフロー
-seo-title: クロスチャネル配信ワークフロー
-description: クロスチャネル配信ワークフロー
-seo-description: null
+description: チャネル間の配信ワークフローの詳細
 page-status-flag: never-activated
 uuid: 02d51b13-656f-48f3-b744-5968ffa94b3e
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 discoiquuid: 2fe907da-ef37-46e2-a8fb-6ad4e18be486
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

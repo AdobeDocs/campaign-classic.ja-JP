@@ -1,6 +1,6 @@
 ---
 title: よくある質問
-description: Adobe Campaign ClassicFAQ
+description: Adobe Campaign Classic FAQ
 page-status-flag: never-activated
 uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 91%
 
 Campaign Classic の操作について疑問がある場合は、以下に示すよくある 10 件の質問や、該当するページにあるその他の一般的な質問を参照してください。また、次のこともできます。
 
-* [チュートリアルビデオを見る](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/overview.html)
-* [セルフヘルプオプションの参照](../../platform/using/tutorials.md#how-to-videos)
+* [チュートリアル動画を見る](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/overview.html)
+* [セルフヘルプオプションを参照する](../../platform/using/tutorials.md#how-to-videos)
 * [「はじめに」と「使用例」の節を読む](../../platform/using/tutorials.md#step-by-step-guides)
-* 答えが見つからない場合は、[エキスパートに質問](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
-* サポートが必要ですか？ [キャンペーンのヘルプとサポートのオプションを参照](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support)
+* 答えが見つからない場合は、[エキスパートに質問する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+* サポートが必要な場合は、[Campaign のヘルプとサポートのオプションを参照する](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support)
 
 ## 1. Campaign を最新版にアップグレードするにはどうすればよいですか？{#how-can-i-upgrade-campaign-to-the-latest-version-}
 
@@ -34,7 +34,7 @@ Adobe Campaign Classic は、お客様に最高のエクスペリエンスと価
 
 Adobe Managed Services を使用している場合は、Campaign Gold Standard のアップグレードサービスを利用できます。詳しくは、[この記事](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)を参照してください。
 
-[このセクションを読んで](../../production/using/build-upgrade.md) 、環境の更新方法と、このトピックに関する [よくある質問](../../platform/using/faq-build-upgrade.md) をお読みください。
+環境の更新方法について詳しくは、[この節](../../production/using/build-upgrade.md)を参照してください。また、このトピックに関する[よくある質問](../../platform/using/faq-build-upgrade.md)も参照してください。
 
 ## 2. データベースクリーンアップワークフローとは何ですか？{#what-is-the-database-cleanup-workflow-}
 

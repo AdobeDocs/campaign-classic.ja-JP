@@ -1,7 +1,7 @@
 ---
-title: SOAP による統合（サーバー側）
-seo-title: SOAP による統合（サーバー側）
-description: SOAP による統合（サーバー側）
+title: SOAP を使用した統合（サーバーサイド）
+seo-title: SOAP を使用した統合（サーバーサイド）
+description: SOAP を使用した統合（サーバーサイド）
 seo-description: null
 page-status-flag: never-activated
 uuid: 678371c5-4246-4886-994e-30dbbc70f14a
@@ -11,18 +11,18 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 discoiquuid: 477a2c31-0403-4db1-a372-c75dca58380d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8fc3e793ec544948049fc122b44b6bffdebecba0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# SOAPを使用した統合（サーバー側）{#integration-via-soap-server-side}
+# SOAP を使用した統合（サーバーサイド）{#integration-via-soap-server-side}
 
-オファー管理のために用意されている SOAP Web サービスは、Adobe Campaign で通常使用されるものとは異なります。前の節で説明したインタラクション URL でアクセスして、特定のコンタクト先に対するオファーを提示または更新できます。
+オファー管理のために用意されている SOAP web サービスは、Adobe Campaign で通常使用されるものとは異なります。前の節で説明したインタラクション URL でアクセスして、特定のコンタクト先に対するオファーを提示または更新できます。
 
 ## オファーの提案 {#offer-proposition}
 

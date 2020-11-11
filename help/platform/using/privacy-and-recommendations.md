@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: c2c7398c27f1bc7edf9adb0fc07409d2e525b168
 workflow-type: tm+mt
 source-wordcount: '1815'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -51,15 +51,15 @@ Adobe Campaign は、Adobe Experience Cloud ソリューションの一部です
 
 * **Adobe Experience Cloud を使用する際に収集される情報**
 
-   Adobe Experience Cloud ソリューションを使用する会社は、収集して Adobe Experience Cloud アカウントに送信する情報を選択します。収集される情報のタイプの例としては、Web 閲覧アクティビティ、IP アドレス、モバイルデバイスからの位置情報、キャンペーン成功率、購入品目、買い物かごに入れた品目などがあります。
+   Adobe Experience Cloud ソリューションを使用する会社は、収集して Adobe Experience Cloud アカウントに送信する情報を選択します。収集される情報のタイプの例としては、web 閲覧アクティビティ、IP アドレス、モバイルデバイスからの位置情報、キャンペーン成功率、購入品目、買い物かごに入れた品目などがあります。
 
    >[!NOTE]
    >
-   >すべてのアドビ製品について、Campaign はアプリと Web サイトのユーザーに関する情報を収集します。詳しくは、[アドビのプライバシーポリシー](https://www.adobe.com/jp/privacy/policy.html)を参照してください。
+   >すべてのアドビ製品について、Campaign はアプリと web サイトのユーザーに関する情報を収集します。詳しくは、[アドビのプライバシーポリシー](https://www.adobe.com/jp/privacy/policy.html)を参照してください。
 
 * **Adobe Experience Cloud を使用した情報収集の仕組み**
 
-   * Adobe Experience Cloud ソリューションでは、情報を収集できるように、Web ビーコン（タグやピクセルとも呼ばれます）などの Cookie および同様のテクノロジーを使用します。Cookie および Adobe Campaign を使用した追跡機能について詳しくは、[この節](#tracking-capabilities)を参照してください。
+   * Adobe Experience Cloud ソリューションでは、情報を収集できるように、web ビーコン（タグやピクセルとも呼ばれます）などの Cookie および同様のテクノロジーを使用します。Cookie および Adobe Campaign を使用した追跡機能について詳しくは、[この節](#tracking-capabilities)を参照してください。
    * モバイルアプリで Adobe Experience Cloud テクノロジーを使用することもできます。Campaign を使用してモバイル配信を送信する方法について詳しくは、[SMS チャネル](../../delivery/using/sms-channel.md)と[モバイルアプリのチャネル](../../delivery/using/about-mobile-app-channel.md)を参照してください。
 
 * **Adobe Experience Cloud の使用に関するユーザーのプライバシー選択**
@@ -71,11 +71,11 @@ Adobe Campaign は、Adobe Experience Cloud ソリューションの一部です
 
    >[!NOTE]
    >
-   >すべてのアドビ製品と同様に、Campaign のユーザーは、アプリや Web サイトを通じて収集した共有情報をオプトアウトできます。詳しくは、[Adobe Experience Cloud の使用に関する FAQ](https://www.adobe.com/jp/privacy/experience-cloud-usage-info-faq.html) を参照してください。
+   >すべてのアドビ製品と同様に、Campaign のユーザーは、アプリや web サイトを通じて収集した共有情報をオプトアウトできます。詳しくは、[Adobe Experience Cloud の使用に関する FAQ](https://www.adobe.com/jp/privacy/experience-cloud-usage-info-faq.html) を参照してください。
 
 Adobe Experience Cloud のプライバシーについて詳しくは、[このページ](https://www.adobe.com/jp/privacy/marketing-cloud.html)を参照してください。
 
-## 個人データと個人 {#personal-data}
+## 個人データとペルソナ{#personal-data}
 
 プライバシーを管理する場合、どのデータを誰がどのように扱うかを定義することが重要です。
 * **個人データ**&#x200B;は、生きている個人を直接または間接的に識別できる情報です。
@@ -108,7 +108,7 @@ Adobe Campaign では、プライバシー管理に関する様々な機能を�
 * プライバシーリクエスト（アクセスする権利と忘れられる権利）：[この節](#privacy-requests)を参照してください。
 * 個人情報の販売のオプトアウト（CCPA 固有）：[この節](../../platform/using/privacy-requests.md#sale-of-personal-information-ccpa)を参照してください。
 
-Campaign の主なプライバシー機能と関与する個人の例を[この節](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)に示します。
+Campaign の主なプライバシー機能と関与するペルソナの例を[この節](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)に示します。
 
 ### 同意、リテンション、役割 {#consent}
 
@@ -140,7 +140,7 @@ Adobe Campaign は、特定のプライバシーリクエストに対するデ�
 
 Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug, 16 for all companies collecting or processing personal data in Brazil. This regulation also applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-**アクセス**&#x200B;リクエストと&#x200B;**削除**&#x200B;リクエストは、[このページ](../../platform/using/privacy-management.md#right-access-forgotten)に表示されます。これらのリクエストを作成するための実装手順については、[この節](../../platform/using/privacy-requests.md)で詳しく説明します。 <!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
+**アクセス**&#x200B;リクエストと&#x200B;**削除**&#x200B;リクエストは、[このページ](../../platform/using/privacy-management.md#right-access-forgotten)に表示されます。これらのリクエストを作成するための実装手順については、[この節](../../platform/using/privacy-requests.md)で詳しく説明します。<!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
 
 ## トラッキング機能 {#tracking-capabilities}
 
@@ -148,15 +148,15 @@ Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug,
 
 Adobe Campaign では、そのトラッキング機能のおかげで、3 種類の Cookie（セッション Cookie と 2 つの永続的な Cookie）を使用して配信受信者の閲覧を追跡できます。
 
-* A **session** cookie: the **nlid** cookie contains the identifier of the email sent to the contact (**broadlogId**) and the identifier of the message template (**deliveryId**). Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での Web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
+* **セッション** Cookie：**nlid** Cookie には、連絡先に送信される E メールの識別子（**broadlogId**）およびメッセージテンプレートの識別子（**deliveryId**）が含まれています。Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
 
-* Two **permanent** cookies:
-   * **UUID**（Universal Unique IDentifier）Cookie は、Adobe Experience Cloud のソリューション間で共有されます。新しい値が生成されると、クライアントブラウザーから値が消えるまで、1回だけ設定されます。 この Cookie により、Web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。ランディングページ（不明な顧客アクティビティを受信者に関連付けるため）または配信によって預けることができます。このCookieの説明は [このページで参照できます](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=en#ec-cookies)。
+* 2 つの&#x200B;**永続的な Cookie**：
+   * **UUID**（Universal Unique IDentifier）Cookie は、Adobe Experience Cloud のソリューション間で共有されます。新しい値が生成されると、クライアントブラウザーから値が消えるまで、1回だけ設定されます。 この Cookie により、web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。ランディングページ（不明な顧客アクティビティを受信者に関連付けるため）または配信によって預けることができます。The description of this cookie is available on [this page](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=en#ec-cookies).
    * **nllastdelid** Cookie（Campaign Classic 20.3 で導入）は、ユーザーがリンクをクリックした最後の配信の **deliveryId** を含む永続的な Cookie です。この Cookie は、使用されるトラッキングテーブルを識別するために、セッション Cookie がない場合に使用されます。
 
-GDPR（一般データ保護規則）などの規制では、企業は Cookie をインストールする前に Web サイトのユーザーの同意をリクエストすることが規定されています。
+GDPR（一般データ保護規則）などの規制では、企業は Cookie をインストールする前に web サイトのユーザーの同意をリクエストすることが規定されています。
 
-* Cookie の使用を許可するためのチェックボックスを伴う認証リクエスト（例えばページ上に表示される）を使用して、サイトに Web トラッキングツールがあることをユーザーに通知したり、ランディングページの上部にバナーを追加したりする必要があります。
+* Cookie の使用を許可するためのチェックボックスを伴う認証リクエスト（例えばページ上に表示される）を使用して、サイトに web トラッキングツールがあることをユーザーに通知したり、ランディングページの上部にバナーを追加したりする必要があります。
 * ポップアップウィンドウはブラウザーでブロックされていることが多いので、避ける必要があります。
 
 ### メッセージトラッキング {#message-tracking}
@@ -165,10 +165,10 @@ Adobe Campaign では、送信された E メールと配信受信者の動作�
 
 これをおこなうには、[トラッキングされたリンク](../../delivery/using/how-to-configure-tracked-links.md)をメッセージに追加して、配信ダッシュボードの「[トラッキング](../../delivery/using/monitoring-a-delivery.md#tracking-logs)」タブで配信と受信者の動作の影響を測定します。トラッキングデータは、[トラッキングインジケーター](../../reporting/using/delivery-reports.md#tracking-indicators)レポートで解釈されます。
 
-### Web トラッキング {#web-tracking}
+### web トラッキング {#web-tracking}
 
-また、Adobe Campaign では、受信者が Web サイトをどのように参照するかを監視できます。トラッキングタグを挿入して、情報を収集し、Web アプリケーションページ上の訪問回数を測定します。詳しくは、[Web アプリケーションのトラッキング](../../web/using/tracking-a-web-application.md)を参照してください。
+また、Adobe Campaign では、受信者が web サイトをどのように参照するかを監視できます。トラッキングタグを挿入して、情報を収集し、web アプリケーションページ上の訪問回数を測定します。詳しくは、[web アプリケーションのトラッキング](../../web/using/tracking-a-web-application.md)を参照してください。
 
-Web トラッキングの設定については、[この節](../../configuration/using/about-web-tracking.md)で説明しています。
+web トラッキングの設定については、[この節](../../configuration/using/about-web-tracking.md)で説明しています。
 
-Adobe Campaign では、トラッキングをさらに管理するために、オプトアウトバナーを表示して、行動追跡をオプトアウトしたエンドユーザーの Web 行動の追跡を停止できます。詳しくは、[Web アプリケーショントラッキングのオプトアウト](../../web/using/web-application-tracking-opt-out.md)を参照してください。
+Adobe Campaign では、トラッキングをさらに管理するために、オプトアウトバナーを表示して、行動追跡をオプトアウトしたエンドユーザーの web 行動の追跡を停止できます。詳しくは、[web アプリケーショントラッキングのオプトアウト](../../web/using/web-application-tracking-opt-out.md)を参照してください。

@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: c7c67ee5-ad60-420f-b597-08c388049529
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 677d631a075f50a80c9379fff0c17d3d06c7e803
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '399'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -39,21 +39,21 @@ Adobe Campaign について詳しくは、以下の使用例と例を確認し�
 * [購読者の E メールフォーマットのフィルターの作成](../../platform/using/use-case.md#creating-a-filter-on-the-email-format-of-subscribers)：受信者の E メールフォーマットに基づいてニュースレターの購読を並べ替えるフィルターの作成方法を説明します。
 * [二重のオプトインを備えた購読フォームの作成](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in)：受信者が意図的に購読したことを確認するために、購読確認リクエストを送信して二重のオプトインを作成する方法を説明します。
 * [E メール配信の作成](../../web/using/use-case--creating-an-email-delivery.md)：デジタルコンテンツエディターを使用した E メール配信を作成する方法を説明します。
-* [概要の作成](../../web/using/use-cases--creating-overviews.md)：概要タイプの Web アプリケーションを作成して、データベースのすべての Web アプリケーションを表示します。
+* [概要の作成](../../web/using/use-cases--creating-overviews.md)：概要タイプの web アプリケーションを作成して、データベースのすべての web アプリケーションを表示します。
 * [ワークフローの使用例](../../workflow/using/about-workflow-use-cases.md)：これらの使用例を通じて、ワークフローの様々な使用方法を示します。
 
-## セルフサービス {#how-to-videos}
+## セルフヘルプ {#how-to-videos}
 
-製品ドキュメントに加えて、以下に示すキャンペーンのセルフヘルプリソースにアクセスできます。
+製品ドキュメントに加えて、以下に示す Campaign のセルフヘルプリソースにアクセスできます。
 
-### チュートリアルビデオ
+### チュートリアル動画
 
-ビデオでAdobe Campaignの主な機能を確認。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/overview.html)
+動画で Adobe Campaign の主な機能を確認できます。[詳細情報](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/overview.html)
 
-### トレーニングセッションとビデオ
+### トレーニングセッションと動画
 
-これらの短く詳細なビデオの他に、トレー [ニングコース](https://learning.adobe.com/catalog.html) や特集 [プレゼンテーションビデオはAdobe](https://www.adobe.com/training/video.html) .comで視聴できます。
+これらの短い動画や詳細な動画の他に、[トレーニングコース](https://learning.adobe.com/catalog.html)や特集[プレゼンテーション動画](https://www.adobe.com/training/video.html)を Adobe.com で視聴できます。
 
-### Experience Leagueコース
+### Experience League コース
 
-また、 [推奨コース](https://experienceleague.adobe.com/?lang=en#dashboard/learning) (Adobe Campaign Classic)もご覧いただけます。コースは専門的に厳選された一連のレッスンで、スキルや知識を習得するのに役立ちます。
+また、Adobe Campaign Classic の[推奨コース](https://experienceleague.adobe.com/?lang=ja#dashboard/learning)は、専門的に厳選された一連のレッスンで、スキルや知識を習得するのに役立ちます。

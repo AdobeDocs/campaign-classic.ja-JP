@@ -11,11 +11,11 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 81090be2-3ed4-4f35-948b-e21af6e19999
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 79%
 
 配達確認の送信は、通常の配信と同じ手順となります（詳しくは、[この節](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)を参照してください）。ただし、Message Center 内から配達確認を送信するためには、事前に次の操作をおこなってください。
 
-* Create one or more seed addresses (refer to [Managing seed addresses in transactional messages](../../message-center/using/managing-seed-addresses-in-transactional-messages.md)) with test data (refer to [Personalization data](../../message-center/using/personalization-data.md)).
-* Create the message content (refer to [Creating message content](../../message-center/using/creating-message-content.md)).
+* シードアドレスを少なくとも 1 つ作成し（[トランザクションメッセージ内のシードアドレスの管理](../../message-center/using/managing-seed-addresses-in-transactional-messages.md)を参照）、テストデータを割り当てます（[パーソナライゼーションデータ](../../message-center/using/personalization-data.md)を参照）。
+* メッセージコンテツを作成します（[メッセージコンテンツの作成](../../message-center/using/creating-message-content.md)を参照）。
 
 配達確認を送信するには：
 

@@ -11,30 +11,30 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3e73d7c91fbe7cff7e1e31bdd788acece5806e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # パイプラインのトラブルシューティング {#pipeline-troubleshooting}
 
-**パイプラインは、「マスクのパイプライン@&lt;インスタンス>に対応するタスクがありません」というエラーが表示されて失敗します。**
+**パイプライン化されたプロセスが失敗し、「No task corresponds to the mask pipelined@&lt; instance >」（&lt;インスタンス> でパイプライン化されたマスクに対応するタスクがありません）というエラーが表示される**
 
 お使いのバージョンの Adobe Campaign Classic はパイプラインをサポートしていません。
 
 1. 設定ファイル内に [!DNL pipelined] 要素が存在するかどうかを確認します。存在しない場合は、パイプラインはサポートされていません。
 1. バージョン 6.11 ビルド 8705 以降にアップグレードします。
 
-**`[` `{`パイプラインが失敗し、「aurait dû commencer par  ou  (iRc=16384)」と表示される**
+**`[` `{`パイプライン化されたプロセスが失敗し、「aurait dû commencer par ou (iRc=16384)」と表示される**
 
 **NmsPipeline_Config** オプションが設定されていません。これは実際には JSON 解析エラーです。
 JSON 設定を **NmsPipeline_Config** オプションで指定します。このページの「ルーティングオプション」を参照してください。
 
-**パイプラインが失敗し、「the subject must be a valid organization or client」（件名は有効な組織またはクライアントにする必要があります）と表示される**
+**パイプライン化されたプロセスが失敗し、「the subject must be a valid organization or client」（件名は有効な組織またはクライアントにする必要があります）と表示される**
 
 IMSOrgid 設定が無効です。
 
@@ -42,7 +42,7 @@ IMSOrgid 設定が無効です。
 1. デフォルトを上書きできる空の IMSOrgId をインスタンス設定ファイル内で探します。該当する場合は、削除します。
 1. IMSOrgId が Experience Cloud 内の顧客の IMSOrgId と一致することを確認します。
 
-**pipelined が失敗し、「invalid key」（キーが無効です）と表示される**
+**パイプライン化されたプロセスが失敗し、「invalid key」（キーが無効です）と表示される**
 
 インスタンス設定ファイルの @authPrivateKey パラメーターが正しくありません。
 
@@ -52,7 +52,7 @@ IMSOrgid 設定が無効です。
    <br>必要に応じて、キーを再作成し、Adobe Analytics に登録します。
 1. キーが [!DNL pipelined] と同じインスタンス内でエンコードされたことを確認します。<br>必要に応じて、サンプルの JavaScript またはワークフローを使用してエンコードをやり直します。
 
-**pipelined が失敗し、「unable to read the token during authentication」（認証時にトークンを読み取れません）と表示される**
+**パイプライン化されたプロセスが失敗し、「unable to read the token during authentication」（認証時にトークンを読み取れません）と表示される**
 
 秘密鍵の形式が無効です。
 

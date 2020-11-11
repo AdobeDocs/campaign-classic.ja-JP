@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 160af30e13bb6a81672477f4f801dbd5cc3c767c
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 1%
+ht-degree: 34%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->IMS組織のシステム管理者権限を要求する必要がある場合は、このページ [で詳しく説明する手順に従って](https://helpx.adobe.com/ca/enterprise/admin-guide.html/ca/enterprise/using/manage-developers.ug.html) 、すべての製品プロファイルにこのアクセス権を与えます。
+>If you need to request the System Administrator privileges of the IMS Org, follow the procedure detailed [in this page](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/manage-developers.ug.html) to provide this access for the all Product Profiles.
 
 
 ## 手順1:AdobeI/Oプロジェクトの作成/更新 {#creating-adobe-io-project}
@@ -47,53 +47,53 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   > 正しいIMSorgポータルにログインしていることを確認します。
+   > 正しい IMSorg ポータルにログインしていることを確認します。
 
-1. 既存の統合クライアントIDをインスタンス設定ファイルims/authIMSTAClientIdから抽出します。 既存の属性または空の属性は、クライアントIDが設定されていないことを示します。
+1. 既存の統合クライアント ID をインスタンス設定ファイル（ims/authIMSTAClientId）から抽出します。既存の属性または空の属性は、クライアントIDが設定されていないことを示します。
 
    >[!NOTE]
    >
-   >クライアントIDが空の場合は、AdobeI/Oで直接 **[!UICONTROL 新しいプロジェクト]** を作成できます。
+   >If your Client ID is empty, you can directly **[!UICONTROL Create a New project]** in Adobe I/O.
 
-1. 抽出したクライアントIDを使用して、既存のプロジェクトを識別します。 前の手順で抽出したものと同じクライアントIDを持つ既存のプロジェクトを探します。
+1. 抽出したクライアントIDを使用して、既存のプロジェクトを識別します。 前の手順で抽出されたものと同じクライアント ID を持つ既存のプロジェクトを探します。
 
    ![](assets/do-not-localize/adobe_io_8.png)
 
-1. 「 **[!UICONTROL +」を選択して「プロジェクト]** 」を選択し、「 **[!UICONTROL API]**」を選択します。
+1. 「**[!UICONTROL + Add to Project]**」を選択して、「**[!UICONTROL API]**」を選択します。
 
    ![](assets/do-not-localize/adobe_io_1.png)
 
-1. API **[!UICONTROL 追加ウィンドウで、]** Adobe Analyticsを選択します ****。
+1. In the **[!UICONTROL Add an API]** window, select **[!UICONTROL Adobe Analytics]**.
 
    ![](assets/do-not-localize/adobe_io_2.png)
 
-1. 認証の種類として「 **[!UICONTROL サービスアカウント(JWT)]** 」を選択します。
+1. 認証のタイプとして「**[!UICONTROL Service Account (JWT)]**」を選択します。
 
    ![](assets/do-not-localize/adobe_io_3.png)
 
-1. クライアントIDが空の場合は、「キーペアを **[!UICONTROL 生成]** 」を選択して、公開キーペアと秘密鍵キーペアを作成します。
+1. If your Client ID was empty, select **[!UICONTROL Generate a key pair]** to create a Public and Private keypair.
 
    ![](assets/do-not-localize/adobe_io_4.png)
 
-1. 公開鍵をアップロードし、「 **[!UICONTROL 次へ]**」をクリックします。
+1. 公開鍵をアップロードし、「**[!UICONTROL Next]**」をクリックします。
 
    ![](assets/do-not-localize/adobe_io_5.png)
 
-1. 「 **Analytics-&lt;組織名>」という製品プロファイルを選択し、** 「設定したAPIを **[!UICONTROL 保存]**」をクリックします。
+1. 「**Analytics-&lt;組織名>**」という製品プロファイルを選択し、「**[!UICONTROL Save configured API]**」をクリックします。
 
    ![](assets/do-not-localize/adobe_io_6.png)
 
-1. プロジェクトから、「 **[!UICONTROL サービスアカウント(JWT)]** 」を選択し、次の情報をコピーします。
+1. プロジェクトから、「**[!UICONTROL Service Account (JWT)]**」を選択し、次の情報をコピーします。
    * **[!UICONTROL クライアント ID]**
-   * **[!UICONTROL クライアントシークレット]**
-   * **[!UICONTROL テクニカルアカウントID]**
-   * **[!UICONTROL 組織ID]**
+   * **[!UICONTROL クライアント秘密鍵]**
+   * **[!UICONTROL テクニカルアカウント ID]**
+   * **[!UICONTROL 組織 ID]**
 
    ![](assets/do-not-localize/adobe_io_7.png)
 
-## 手順2:Adobe Campaign追加内のプロジェクト資格情報 {#add-credentials-campaign}
+## 手順 2：Adobe Campaign にプロジェクト資格情報を追加 {#add-credentials-campaign}
 
-Adobe Campaignにプロジェクト資格情報を追加するには、Adobe Campaignインスタンスのすべてのコンテナで&#39;neolane&#39; userとして次のコマンドを実行し、 **[!UICONTROL テクニカルアカウント]** 資格情報をインスタンス設定ファイルに挿入します。
+To add the project credentials in Adobe Campaign, run the following command as &#39;neolane&#39; user on all the containers of the Adobe Campaign instance to insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
 
 ```
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID[/Client_Secret[/Base64_encoded_Private_Key]]
@@ -101,11 +101,11 @@ nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_
 
 >[!NOTE]
 >
->秘密鍵はbase64 UTF-8形式でエンコードする必要があります。 秘密鍵を除き、エンコードする前に、鍵から新しい行を削除してください。 秘密鍵は、統合の作成に使用したものと同じである必要があります。
+>秘密鍵は base64 UTF-8 形式でエンコードする必要があります。秘密鍵でない場合は、鍵をエンコードする前に、鍵から新しい行を削除してください。秘密鍵は、統合の作成に使用したものと同じである必要があります。
 
-## 手順3:パイプラインタグの更新 {#update-pipelined-tag}
+## 手順 3：pipelined タグを更新 {#update-pipelined-tag}
 
-タグを更新するに [!DNL pipelined] は、次のように、設定ファイル **config-&lt; instance-name >.xml** :
+To update [!DNL pipelined] tag, you need to update the authentication type to Adobe I/O project in the configuration file **config-&lt; instance-name >.xml** as follows:
 
 ```
 <pipelined ... authType="imsJwtToken"  ... />

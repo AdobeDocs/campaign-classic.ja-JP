@@ -9,11 +9,11 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 345af5c2-c852-4086-8ed0-ff3e7e402e04
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 98%
 
 1. 「**[!UICONTROL タイトル]**」フィールドで、通知に表示するタイトルのラベルを入力します。このタイトルは、通知センターから使用可能な通知のリストにのみ表示されます。このフィールドを使用して、iOS 通知ペイロードの **title** パラメーターの値を定義できます。
 
-1. HTTP/2 コネクタを使用する場合、サブタイトル（iOS 通知ペイロードの **subtitle** パラメーター）を追加できます。[Adobe Campaign でモバイルアプリケーションを設定する](../../delivery/using/configuring-the-mobile-application.md)の節を参照してください。
+1. HTTP/2 コネクタを使用する場合、サブタイトル（iOS 通知ペイロードの **subtitle** パラメーター）を追加できます。[Adobe Campaign でのモバイルアプリケーションの設定](../../delivery/using/configuring-the-mobile-application.md)の節を参照してください。
 
 1. 選択した通知のタイプに基づいて「**[!UICONTROL メッセージ]**」と「**[!UICONTROL バッジの値]**」を入力します。
 
@@ -81,7 +81,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >アプリケーション変数は、モバイルアプリケーションのコードで定義され、サービスの作成中に入力される必要があります。詳しくは、[Adobe Campaign でモバイルアプリケーションを設定する](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
+   >アプリケーション変数は、モバイルアプリケーションのコードで定義され、サービスの作成中に入力される必要があります。詳しくは、[Adobe Campaign でのモバイルアプリケーションの設定](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
 
 1. 通知を設定したら、「**[!UICONTROL プレビュー]**」タブをクリックして通知をプレビューします。
 
@@ -125,7 +125,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >アプリケーション変数は、モバイルアプリケーションのコードで定義され、サービスの作成中に入力される必要があります。詳しくは、[Adobe Campaign でモバイルアプリケーションを設定する](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
+   >アプリケーション変数は、モバイルアプリケーションのコードで定義され、サービスの作成中に入力される必要があります。詳しくは、[Adobe Campaign でのモバイルアプリケーションの設定](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
 
 1. 通知を設定したら、「**[!UICONTROL プレビュー]**」タブをクリックして通知をプレビューします。
 

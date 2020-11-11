@@ -9,11 +9,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Campaign クライアントコンソールの&#x200B;**ヘルプ／バージョ�
 
 ## オンプレミス環境とホスト環境では作業にどのような違いがありますか？{#what-are-the-differences-when-working-on-premise-vs--in-a-hosted-environment-}
 
-Adobe Campaign Classic には一連のモジュールとオプションが付属しています。The availability of these modules and their configuration can depend on the [type of deployment](../../installation/using/hosting-models.md) of your installation: hosted (Managed Services), hybrid or on-premise.
+Adobe Campaign Classic には一連のモジュールとオプションが付属しています。これらのモジュールと設定の使用可否は、インストールの[デプロイメントタイプ](../../installation/using/hosting-models.md)がホスト（マネージドサービス）、ハイブリッド、オンプレミスのどれであるかによって異なります。
 
 [詳しくはここをクリック](../../installation/using/capability-matrix.md)してください。
 
@@ -65,7 +65,7 @@ Adobe Campaign には、GDPR および CCPA に則ってプライバシーを遵
 
 Adobe Campaign ワークスペースの基本事項について詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオで Campaign ワークスペースを確認する](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
+![](assets/do-not-localize/how-to-video.png) [動画で Campaign ワークスペースを確認する](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
 
 ## メッセージのオーディエンスはどのようにして選択できますか？{#how-can-i-select-the-target-population-of-my-messages-}
 
@@ -87,7 +87,7 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 [詳しくはここをクリック](../../delivery/using/about-email-channel.md)してください。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオで見つける](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
+![](assets/do-not-localize/how-to-video.png) [動画でこれを確認する](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
 
 ## SMS メッセージの送信方法は？{#how-to-send-sms-messages-}
 
@@ -99,7 +99,7 @@ Adobe Campaign を使用すると、アプリを介して iOS および Android 
 
 ## オンライン調査の設計および共有方法は？{#how-to-design-and-share-an-online-survey-}
 
-[オンライン調査を作成](../../web/using/getting-started-with-surveys.md)する方法として、Campaign Classic でオンライン調査を設計してパブリッシュする重要な手順があります。
+[オンライン調査を作成](../../web/using/getting-started-with-surveys.md)する方法として、Campaign Classic でオンライン調査を設計して公開する重要な手順があります。
 
 ## ランディングページの作成方法は？{#how-to-create-landing-page-}
 
@@ -121,9 +121,9 @@ Campaign でのトラッキング管理について詳しくは、[このペー�
 
 エラーメッセージが外国語で表示されましたか？すべてのエラーメッセージとその翻訳のリストは、[このページ](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)に掲載されています。
 
-## Campaign で Web フォームを作成して回答を収集できますか？{#can-i-create-a-webform-and-collect-answers-in-campaign-}
+## Campaign で web フォームを作成して回答を収集できますか？{#can-i-create-a-webform-and-collect-answers-in-campaign-}
 
-[Web フォームの作成](../../web/using/about-web-forms.md)方法を説明します。Web フォームのデザイン、テスト、パブリッシュおよび回答の収集をおこないます。
+[web フォームの作成](../../web/using/about-web-forms.md)方法を説明します。web フォームのデザイン、テスト、公開および回答の収集をおこないます。
 
 ## 廃止予定の機能およびバージョンのリストはありますか？{#is-there-a-list-of-deprecated-features-and-versions-}
 

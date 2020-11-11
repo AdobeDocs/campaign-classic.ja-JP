@@ -9,11 +9,11 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 
 >[!CAUTION]
 >
->FDA 経由での外部データベースへのアクセスは、Snowflake コネクタを除き、オンプレミスまたはハイブリッドインストールでのみ可能です。For more on this, refer [to this page](../../installation/using/capability-matrix.md).
+>FDA 経由での外部データベースへのアクセスは、Snowflake コネクタを除き、オンプレミスまたはハイブリッドインストールでのみ可能です。詳しくは、[このページ](../../installation/using/capability-matrix.md)を参照してください。
 
 ## 動作の仕組み {#operating-principle}
 
@@ -33,7 +33,7 @@ FDA オプションを使用すると、サードパーティのデータベー�
 この機能を使用するには、以下をおこなう必要があります。
 
 1. Adobe Campaign の FDA モジュールと互換性がある外部データベースを用意します。各種データベースシステムの互換性があるバージョンのリストについては、[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)を参照してください。さらに、Adobe Campaign および外部データベースで[必要な権限](../../platform/using/remote-database-access-rights.md)をユーザーに割り当てる必要があります。
-1. Adobe Campaign サーバーに、データベースに対応する[ドライバをインストール](../../platform/using/specific-configuration-database.md)します。
+1. Adobe Campaign サーバーに、データベースに対応する[ドライバーをインストール](../../platform/using/specific-configuration-database.md)します。
 1. Adobe Campaign と外部データベースの間の接続を確立するための[外部アカウントを作成および設定](../../platform/using/connecting-to-database.md)します。使用可能な外部アカウントについて詳しくは、この[ページ](../../platform/using/external-accounts.md)を参照してください。
 1. Adobe Campaign で、外部データベースの[スキーマを作成](../../platform/using/creating-data-schema.md)します。これにより、外部データベースのデータ構造を認識できるようになります。
 1. 最後に、前の手順で作成したスキーマから[新しいターゲットマッピングを作成](../../platform/using/defining-data-mapping.md)します。これは、配信の受信者を外部データベースから取得する場合に必要です。これにより、特に配信のパーソナライズに関して一定の制限を適用することが可能です。

@@ -1,6 +1,6 @@
 ---
-title: Adobe CampaignでのiOSモバイルアプリケーションの設定
-description: iOS用のモバイルアプリケーションの設定方法を説明します。
+title: Adobe Campaign での iOS モバイルアプリケーションの設定
+description: iOS 用モバイルアプリケーションの設定方法を説明します。
 page-status-flag: never-activated
 uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
 contentOwner: sauviat
@@ -9,36 +9,36 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '944'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
-# iOSの設定手順 {#configuring-the-mobile-application-in-adobe-campaign-ios}
+# iOS の設定手順 {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
-パッケージがインストールされたら、Adobe Campaign ClassicでiOSアプリの設定を定義できます。
+パッケージがインストールされたら、Adobe Campaign Classic で iOS アプリの設定を定義できます。
 
 >[!NOTE]
 >
->Android用のアプリの設定方法とAndroid用の配信の作成方法については、この [節を参照してください](../../delivery/using/configuring-the-mobile-application-android.md)。
+>Android 用のアプリの設定方法と Android 用の配信の作成方法については、[この節](../../delivery/using/configuring-the-mobile-application-android.md)を参照してください。
 
-## Configuring iOS external account {#configuring-external-account-ios}
+## iOS 外部アカウントの設定 {#configuring-external-account-ios}
 
-iOSの場合、iOS HTTP/2コネクタはHTTP/2 APNに通知を送信します。
+iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します。
 
 このコネクタを設定するには、次の手順に従います。
 
 1. **[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;に移動します。
 1. **[!UICONTROL iOS ルーティング]**&#x200B;外部アカウントを選択します。
-1. In the **[!UICONTROL Connector]** tab, fill in the **[!UICONTROL Access URL of the connector]** field with the following URL: ```http://localhost:8080/nms/jsp/iosHTTP2.jsp```
+1. 「**[!UICONTROL コネクタ]**」タブで、「**[!UICONTROL コネクタのアクセス URL]**」フィールドに「```http://localhost:8080/nms/jsp/iosHTTP2.jsp```」を入力します。
 
    >[!NOTE]
    >
-   > キャンペーン20.3リリース以降、iOSレガシバイナリコネクタは非推奨となりました。 このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。 [詳細情報](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+   > Campaign 20.3 リリース以降、iOS レガシーバイナリコネクタは非推奨となりました。このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/migrate-to-http2.html)
 
    ![](assets/nmac_connectors.png)
 
@@ -46,7 +46,7 @@ iOSの場合、iOS HTTP/2コネクタはHTTP/2 APNに通知を送信します。
 
 これで、iOS コネクタが設定されました。サービスの作成を開始できます。
 
-## iOSサービスの設定 {#configuring-ios-service}
+## iOS サービスの設定 {#configuring-ios-service}
 
 >[!CAUTION]
 >
@@ -71,13 +71,13 @@ iOSの場合、iOS HTTP/2コネクタはHTTP/2 APNに通知を送信します。
 
    ![](assets/nmac_service_2.png)
 
-1. iOS開発および実稼働環境用アプリケーションを作成します。 詳しくは、[この節](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app)を参照してください。
+1. iOS の開発用アプリケーションおよび本番用アプリケーションを作成します。詳しくは、[この節](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app)を参照してください。
 
-## iOSモバイルアプリケーションの作成 {#creating-ios-app}
+## iOS モバイルアプリケーションの作成 {#creating-ios-app}
 
-サービスを作成した後、iOSアプリケーションを作成する必要があります。
+サービスの作成後に、iOS アプリケーションを作成する必要があります。
 
-1. 新しく作成したサービスで、 **** 追加ボタンをクリックしてアプリケーションの種類を選択します。
+1. 新しく作成したサービスで、「**[!UICONTROL 追加]**」ボタンをクリックしてアプリケーションタイプを選択します。
 
    ![](assets/nmac_service_2.png)
 
@@ -105,15 +105,15 @@ iOSの場合、iOS HTTP/2コネクタはHTTP/2 APNに通知を送信します。
    >
    > **[!UICONTROL 統合キー]**&#x200B;は、文字列値を使用して完全にカスタマイズできますが、SDK で指定されたものと完全に同じにする必要があります。
 
-1. Select one of the out-of-the-box icons from the **[!UICONTROL Application icon]** field to personalize mobile application in your service.
+1. 「**[!UICONTROL アプリケーションアイコン]**」フィールドからあらかじめ用意されているアイコンの 1 つを選択して、サービス内のモバイルアプリケーションをパーソナライズします。
 
-1. [ **[!UICONTROL 認証モード]**]を選択します。 認証モードは、後でモバイルアプリケーションの「 **[!UICONTROL 証明書]** 」タブで変更することができます。
-   * **[!UICONTROL 証明書ベースの認証]**:「証明書を **[!UICONTROL 入力。.]** 」をクリックし、p12キーを選択して、モバイルアプリケーション開発者から提供されたパスワードを入力します。
-   * **[!UICONTROL トークンベースの認証]**:接続設定の **[!UICONTROL キーID]**、 **[!UICONTROL チームID]** 、 **[!UICONTROL バンドルIDを入力し、「秘密鍵を]******&#x200B;入力」をクリックしてp8証明書を選択します。 トー **[!UICONTROL クンベースの認証について詳しくは、]** Appleのドキュメントを参照してください [](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apnsToken-based)。
+1. 「**[!UICONTROL 認証モード]**」を選択します。認証モードは、後でモバイルアプリケーションの「**[!UICONTROL 証明書]**」タブで変更することができます。
+   * **[!UICONTROL 証明書ベースの認証]**：「**[!UICONTROL 証明書を入力...]**」をクリックし、p12 キーを選択して、モバイルアプリケーション開発者から提供されたパスワードを入力します。
+   * **[!UICONTROL トークンベースの認証]**：接続設定の&#x200B;**[!UICONTROL キー ID]**、**[!UICONTROL チーム ID]**、**[!UICONTROL バンドル ID]** を入力し、「**[!UICONTROL 秘密鍵を入力]**」をクリックして p8 証明書を選択します。**[!UICONTROL トークンベースの認証]**&#x200B;について詳しくは、[Apple のドキュメント](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apnsToken-based)を参照してください。
 
    >[!NOTE]
    >
-   > Adobeでは、iOS設定に **[!UICONTROL トークンベースの認証]** （認証モード）を使用することをお勧めします。これは、この認証モードの方がセキュリティが強化され、証明書の有効期限に縛られないためです。
+   > iOS 設定には&#x200B;**[!UICONTROL トークンベースの認証]**&#x200B;を使用することをお勧めします。これは、この認証モードの方がセキュリティが強化され、証明書の有効期限に縛られないためです。
 
    ![](assets/nmac_ios_4.png)
 
@@ -127,7 +127,7 @@ iOSの場合、iOS HTTP/2コネクタはHTTP/2 APNに通知を送信します。
 
 これで、Campaign Classic で iOS アプリケーションを使用する準備が整いました。
 
-## Creating an iOS rich notification {#creating-ios-delivery}
+## iOS のリッチ通知の作成 {#creating-ios-delivery}
 
 iOS 10 以降では、リッチ通知を生成することができます。Adobe Campaign では、変数を使用して通知を送信し、デバイスでリッチ通知を表示できます。
 
@@ -159,6 +159,6 @@ iOS 10 以降では、リッチ通知を生成することができます。Adob
 
 1. 「**[!UICONTROL 保存]**」をクリックし、配信を送信します。
 
-プッシュ通知が購読者のモバイル iOS デバイスで受信されると、画像と Web ページが表示されます。
+プッシュ通知が購読者のモバイル iOS デバイスで受信されると、画像と web ページが表示されます。
 
 ![](assets/nmac_ios_8.png)

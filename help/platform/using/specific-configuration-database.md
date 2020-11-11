@@ -11,9 +11,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1891'
 ht-degree: 100%
 
@@ -216,7 +216,7 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
 1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、この[節](../../platform/using/specific-configuration-database.md#azure-external)を参照してください。
 
-1. Azure Synapse Analytics と確実に接続できるように Debian で iptables を設定するには、次のコマンドを使用して、ホスト名に対してアウントバウンド TCP 1433 ポートを有効にします。
+1. Azure Synapse Analytics と確実に接続できるように Debian で iptables を設定するには、次のコマンドを使用して、ホスト名に対してアウトバウンド TCP 1433 ポートを有効にします。
 
    ```
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
@@ -230,7 +230,7 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
 >[!NOTE]
 >
->[!DNL Snowflake] コネクタは、ホスト型およびオンプレミスのデプロイメントで使用できます。詳しくは、[このページ](../../installation/using/capability-matrix.md)を参照してください。
+>[!DNL Snowflake] コネクタは、ホスト型およびオンプレミス型のデプロイメントで使用できます。詳しくは、[このページ](../../installation/using/capability-matrix.md)を参照してください。
 
 ![](assets/snowflake_3.png)
 

@@ -11,11 +11,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 6652b081-66b6-47a8-97e5-383e3251647e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 285cf8c6521696a0a94f6ffd8fc1eb148977836d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[
 
    データベースに最初にアクセスする際のパスワードは、管理者が指定したものになります。接続すると、**[!UICONTROL ツール／パスワードを変更...]** メニューからパスワードを変更できます。オペレーターおよび接続について詳しくは、[アクセス管理](../../platform/using/access-management.md)を参照してください。
 
-1. Click **[!UICONTROL LOG IN]** to confirm.
+1. 「**[!UICONTROL ログイン]**」をクリックして確定します。
 
 これで、[Adobe Campaign ワークスペース](../../platform/using/adobe-campaign-workspace.md)にアクセスできるようになります。
 
@@ -84,18 +84,18 @@ Adobe Campaign から切断するには、アイコンバーの最初のアイ�
 >
 >ログオフしないでアプリケーションを閉じることもできます。
 
-## Getting your Adobe Campaign version {#getting-your-campaign-version}
+## Adobe Campaign のバージョンの確認 {#getting-your-campaign-version}
 
 **[!UICONTROL ヘルプ／バージョン情報...]** メニューから、次の情報にアクセスできます。
 
-* **キャンペーンのクライアントコンソールとアプリケーションサーバーのバージョン番号** 。
-* **キャンペーンのクライアントコンソールとアプリケーションサーバーのビルド番号**
+* Campaign のクライアントコンソールとアプリケーションサーバーの&#x200B;**バージョン**&#x200B;番号
+* Campaign のクライアントコンソールとアプリケーションサーバーの&#x200B;**ビルド**&#x200B;番号
 * アドビカスタマーサポートに連絡するためのリンク
 * アドビのプライバシーポリシー、利用条件、Cookie ポリシーへのリンク
 
 ![](assets/about-acc.png)
 
-Adobeカスタマーケアチームに問い合わせるときは、必ず、Adobe Campaignクライアントコンソールとアプリケーションサーバーのバージョン番号とビルド番号を指定する必要があります。
+アドビのカスタマーサポートチームに連絡する場合は、Adobe Campaign クライアントコンソールおよびアプリケーションサーバーのバージョン番号とビルド番号を伝える必要があります。
 
 [Campaign Gold Standard バージョン](../../rn/using/gold-standard.md)を実行している場合は、「**[!UICONTROL バージョン情報]**」ボックスに表示される SHA/1 文字も共有する必要があります。例えば、Gold **Standard 10 リリース**&#x200B;の場合、ビルド番号は次のように **build 9032@efd8a94** と表示されます。
 
@@ -105,6 +105,6 @@ Gold Standard の詳細については、[この記事](https://helpx.adobe.com/
 
 **関連トピック**：
 
-* [Adobe Campaignのヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support)
-* [Adobeソフトウェア配布](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html)
-* [Adobe Experience Cloudサポートとエキスパートセッション](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* [Adobe Campaign のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support)
+* [アドビソフトウェア配布](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html)
+* [Adobe Experience Cloud のサポートおよびエキスパートセッション](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

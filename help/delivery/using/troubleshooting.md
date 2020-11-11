@@ -11,18 +11,18 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: b64c9729-cfe2-4d02-8c59-9e53efd34a96
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # トラブルシューティング{#troubleshooting}
 
-モバイルデバイスがWi-Fiに接続され、通知を受信していない場合は、FCM/APNsポートがファイアウォールでブロックされていないことを確認してください。
+モバイルデバイスが Wi-Fi に接続されているにも関わらず通知を受信できない場合は、FCM または APNs のポートがファイアウォールによってブロックされていないか確認してみてください。
 
 **Android**：モバイルデバイスは、ポート 5228 ～ 5230 で FCM サーバーに接続します。したがって、FCM への接続を許可するようにファイアウォールを設定する必要があります。開くポートは、5228（最も使用頻度が高い）、5229 および 5230 です。
 
@@ -37,4 +37,4 @@ HTTP/2 コネクタ：次のサーバーとの間での通信を許可する必�
 
 >[!NOTE]
 >
->2 つのコネクタについて詳しくは、[Adobe Campaign でモバイルアプリケーションを設定する](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
+>2 つのコネクタについて詳しくは、[Adobe Campaign でのモバイルアプリケーションの設定](../../delivery/using/configuring-the-mobile-application.md)を参照してください。

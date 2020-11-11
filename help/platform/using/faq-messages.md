@@ -10,9 +10,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '740'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Adobe Campaign で、様々なチャネルでメッセージを送信する方�
 
 ### Campaign で E メールを作成する主な手順は？ {#which-are-the-key-steps-to-create-an-email-in-campaign-}
 
-E メール配信は、作成と検証が済むと送信できます。電子メールをすぐにメインターゲットに送信することも、配信を後日スケジュールすることもできます。必要に応じて、その前にターゲット母集団を推定することもできます。
+E メール配信は、作成と検証が済むと送信できます。E メールをすぐにメインターゲットに送信することも、配信を後日スケジュールすることもできます。必要に応じて、その前にターゲット母集団を推定することもできます。
 
 [詳しくはここをクリック](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)してください。
 
@@ -82,9 +82,9 @@ E メール配信は、作成と検証が済むと送信できます。電子メ
 
 ### E メールに添付ファイルを追加できますか？ {#can-i-add-an-attachment-to-emails-}
 
-Campaign Classic では、パーソナライズされた添付ファイルを電子メールに追加できます。
+Campaign Classic では、パーソナライズされた添付ファイルを E メールに追加できます。
 
-[電子メールの添付ファイルについて詳しくはここをクリックしてください](../../delivery/using/attaching-files.md)。
+[E メールの添付ファイルについて詳しくはここをクリックしてください](../../delivery/using/attaching-files.md)。
 
 ## メッセージのトラッキングと影響の測定 {#track-your-messages-and-measure-their-impact}
 

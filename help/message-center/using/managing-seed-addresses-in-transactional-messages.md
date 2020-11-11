@@ -11,9 +11,9 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 discoiquuid: 12e7043e-e8b5-48a9-8a2f-99e2e6040c3c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95dff2f3704e316e9ec9e454a8f3fb9835508ccd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
    ![](assets/messagecenter_create_seedaddr_003.png)
 
-1. 外部識別子を入力します。このオプションのフィールドには、Web サイト上のすべてのアプリケーションに共通し、プロファイルを識別するのに利用できるビジネスキー（一意の識別子、名前 + E メールなど）を入力することができます。Adobe Campaing マーケティングデータベースにもこのフィールドが存在する場合、データベース内のプロファイルとイベントとを照合することができます。
+1. 外部識別子を入力します。このオプションのフィールドには、web サイト上のすべてのアプリケーションに共通し、プロファイルを識別するのに利用できるビジネスキー（一意の識別子、名前 + E メールなど）を入力することができます。Adobe Campaign マーケティングデータベースにもこのフィールドが存在する場合、データベース内のプロファイルとイベントとを照合することができます。
 
    ![](assets/messagecenter_create_seedaddr_003bis.png)
 

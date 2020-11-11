@@ -1,6 +1,6 @@
 ---
 title: リストの作成および管理
-description: リストの作成および管理方法を学ぶ
+description: リストの作成および管理方法を説明します。
 page-status-flag: never-activated
 uuid: 17d1a7d0-a728-490e-a820-19f469fddbcd
 contentOwner: sauviat
@@ -9,11 +9,11 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 208bac758542db8dd514bda80c8c735897fcefec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Campaign では、2 つのリストタイプを使用できます。
 
    **[!UICONTROL グループ]**&#x200B;タイプリストと異なり、このタイプのリストは&#x200B;**[!UICONTROL スケジューラー]**&#x200B;アクティビティで自動的に更新されます。**[!UICONTROL リスト]**&#x200B;タイプリストの作成方法の例については、[このページ](../../workflow/using/list-update.md)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#create-list-video)
+![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#create-list-video)
 
 ## グループからのプロファイルリストの作成 {#creating-a-profile-list-from-a-group}
 
@@ -135,10 +135,10 @@ Adobe Campaign ツリーのグループリストから 1 つ以上のリスト�
 
 エクスプローラーから受信者リストを設定してオーディエンスを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12?captions=jpn)
 
-## ワークフローで受信者リストを作成する方法 {#create-list-in-a-wf-video}
+## ワークフローで受信者リストを作成する方法{#create-list-in-a-wf-video}
 
-受信者をターゲットにするためのワークフローを作成し、それを繰り返しワークフローにしてから、E メールターゲットでリストを使用する方法を説明します。
+受信者をターゲットにするためのワークフローを作成する方法や、E メールターゲットでリストを使用する前にワークフローが繰り返されるようにする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12&captions=jpn)

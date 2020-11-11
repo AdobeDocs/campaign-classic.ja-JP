@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 discoiquuid: 56cbf48a-eb32-4617-8f80-efbfd05976ea
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2896'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -157,22 +157,22 @@ Adobe Campaign では、エラーメッセージの選定で割り当てられ�
 **iOS の場合：バイナリコネクタ**
 
 >[!NOTE]
-キャンペーン20.3リリース以降、iOSレガシバイナリコネクタは非推奨となりました。 このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。 [詳細情報](https://helpx.adobe.com/campaign/kb/migrate-to-http2.html)
+Campaign 20.3 リリース以降、iOS レガシーバイナリコネクタは非推奨となりました。このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/migrate-to-http2.html)
 
-通知ごとに、Adobe CampaignはAPNsサーバーから同期エラーと非同期エラーを受信します。 次の同期エラーについては、ソフトエラーが生成されます。
+Adobe Campaign は通知ごとに APNs サーバーから同期エラーと非同期エラーを受け取ります。次の同期エラーについては、ソフトエラーが生成されます。
 
 * ペイロード長の問題：再試行はありません。エラーの理由は「**[!UICONTROL 未到達]**」です。
 * 証明書の有効期限の問題：再試行はありません。エラーの理由は「**[!UICONTROL 未到達]**」です。
 * 配信中の接続切断：再試行が実行されます。エラーの理由は「**[!UICONTROL 未到達]**」です。
 * サービス設定の問題（証明書が無効、証明書のパスワードが無効、証明書がない）：再試行はありません。エラーの理由は「**[!UICONTROL 未到達]**」です。
 
-APNsサーバーは、Adobe Campaignにデバイストークンが登録解除されたことを（モバイルアプリケーションがユーザーによってアンインストールされた場合に）非同期で通知します。 The **[!UICONTROL mobileAppOptOutMgt]** workflow runs every 6 hours to contact the APNs feedback services to update the **AppSubscriptionRcp** table. 無効になっているすべてのトークンについて、「**無効**」フィールドが「**True**」に設定され、そのサービストークンにリンクされている購読は自動的にそれ以降の配信から除外されます。
+APNs サーバーは Adobe Campaign に対し、デバイストークンが（モバイルアプリケーションがユーザーによりアンインストールされた時点で）登録解除されたことを非同期的に通知します。**[!UICONTROL mobileAppOptOutMgt]** ワークフローは 6 時間ごとに実行されます。このワークフローは APNs フィードバックサービスにアクセスし、**AppSubscriptionRcp** テーブルを更新します。無効になっているすべてのトークンについて、「**無効**」フィールドが「**True**」に設定され、そのデバイストークンにリンクされている購読は自動的にそれ以降の配信から除外されます。
 
-**iOSの場合 — HTTP/V2コネクタ**
+**iOS の場合 - HTTP/V2 コネクタ**
 
-HTTP/V2プロトコルを使用すると、各プッシュ配信に対して直接的なフィードバックとステータスを行うことができます。 If the HTTP/V2 protocol connector is used, the feedback service is no longer called by the **[!UICONTROL mobileAppOptOutMgt]** workflow. 未登録トークンの処理方法は、iOSバイナリコネクタとiOS HTTP/V2コネクタとで異なります。 モバイルアプリケーションのアンインストールまたは再インストールがおこなわれた場合、トークンは登録解除されたものとみなされます。
+HTTP/V2 プロトコルでは、プッシュ配信ごとの直接フィードバックおよびステータスを使用できます。HTTP/V2 プロトコルコネクタを使用する場合、フィードバックサービスが **[!UICONTROL mobileAppOptOutMgt]** ワークフローによって呼び出されることはありません。登録解除されたトークンの処理は、iOS バイナリコネクタと iOS HTTP/V2 コネクタで異なります。モバイルアプリケーションのアンインストールまたは再インストールがおこなわれた場合、トークンは登録解除されたものとみなされます。
 
-同期的に、APNがメッセージに対して「未登録」ステータスを返すと、ターゲットトークンはすぐに強制隔離に入ります。
+同時に、APNs がメッセージに対して登録解除ステータスを返した場合、ターゲットトークンはただちに強制隔離されます。
 
 <table> 
  <tbody> 
@@ -225,7 +225,7 @@ HTTP/V2プロトコルを使用すると、各プッシュ配信に対して直�
    <td> ×<br /> </td> 
   </tr> 
   <tr> 
-   <td> Certificate issue (password, corruption, etc.) and test connection to APNs issue<br /> </td> 
+   <td> 証明書の問題（パスワード、破損など）と、APNs へのテスト接続の問題<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> エラーによってエラーメッセージが異なる<br /> </td> 
    <td> ソフト<br /> </td> 
@@ -241,7 +241,7 @@ HTTP/V2プロトコルを使用すると、各プッシュ配信に対して直�
    <td> ○<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNs message rejection: Unregistration<br /> the user has removed the application or the token has expired<br /> </td> 
+   <td> APNs メッセージ却下：登録解除<br />ユーザーがアプリケーションを削除した、またはトークンの期限切れ<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> 登録解除<br /> </td> 
    <td> ハード<br /> </td> 
@@ -249,7 +249,7 @@ HTTP/V2プロトコルを使用すると、各プッシュ配信に対して直�
    <td> ×<br /> </td> 
   </tr> 
   <tr> 
-   <td> APNs message rejection: all other errors<br /> </td> 
+   <td> APNs メッセージ却下：その他のすべてのエラー<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> エラー拒否の原因がエラーメッセージに表示されます<br /> </td> 
    <td> ソフト<br /> </td> 
@@ -269,7 +269,7 @@ Adobe Campaign は通知ごとに FCM サーバーから直接同期エラーを
 * デバイスの割当量の超過：再試行はなく、ソフトエラーが生成されます。エラーの理由は「**[!UICONTROL 拒否]**」です。
 * 無効または登録解除されたトークン、予期しないエラー、送信者のアカウントの問題：再試行はなく、ハードエラーが生成されます。エラーの理由は「**[!UICONTROL 拒否]**」です。
 
-**[!UICONTROL mobileAppOptOutMgt]** ワークフローは 6 時間ごとに実行されます。このワークフローは **AppSubscriptionRcp** テーブルを更新します。登録解除または無効と宣言されたトークンについて、「**無効**」フィールドが「**True**」に設定され、そのサービストークンにリンクされている購読は自動的にそれ以降の配信から除外されます。
+**[!UICONTROL mobileAppOptOutMgt]** ワークフローは 6 時間ごとに実行されます。このワークフローは **AppSubscriptionRcp** テーブルを更新します。登録解除または無効と宣言されたトークンについて、「**無効**」フィールドが「**True**」に設定され、そのデバイストークンにリンクされている購読は自動的にそれ以降の配信から除外されます。
 
 配信分析中に、ターゲットから除外されたすべてのデバイスが自動的に **excludeLogAppSubRcp** テーブルに追加されます。
 
@@ -330,7 +330,7 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
   <tr> 
    <td> FCM メッセージ却下：送信者アカウントの認証中にエラー発生<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> デベロッパーアカウントを識別できませんでした。ID とパスワードを確認してください<br /> </td> 
+   <td> 開発者アカウントを識別できませんでした。ID とパスワードを確認してください<br /> </td> 
    <td> ソフト<br /> </td> 
    <td> 拒否<br /> </td> 
    <td> ×<br /> </td> 
@@ -360,7 +360,7 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
    <td> ×<br /> </td> 
   </tr> 
     <tr> 
-   <td> FCMメッセージの拒否：無効な引数<br /> </td> 
+   <td> FCM メッセージ却下：無効な引数<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> INVALID_ARGUMENT </td> 
    <td> 無視</td> 
@@ -368,7 +368,7 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
    <td> ×<br /> </td> 
   </tr>
     <tr> 
-   <td> FCMメッセージの拒否：サードパーティ認証エラー<br /> </td> 
+   <td> FCM メッセージ却下：サードパーティ認証エラー<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> THIRD_PARTY_AUTH_ERROR </td> 
    <td> 無視</td>
@@ -376,7 +376,7 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
    <td> ○<br /> </td> 
   </tr>
     <tr> 
-   <td> FCMメッセージの拒否：送信者IDが一致しません<br /> </td> 
+   <td> FCM メッセージ却下：送信者 ID が一致しません<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> SENDER_ID_MISMATCH </td> 
    <td> ソフト</td>
@@ -384,23 +384,23 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
    <td> ×<br /> </td> 
   </tr>
     <tr> 
-   <td> FCMメッセージの拒否：未登録<br /> </td> 
+   <td> FCM メッセージ却下：登録解除<br /> </td> 
    <td> 失敗<br /> </td>
-   <td> 未登録 </td> 
+   <td> UNREGISTERED </td> 
    <td> ハード</td> 
    <td> 不明なユーザー<br /> </td> 
    <td> ×<br /> </td> 
   </tr>
     <tr> 
-   <td> FCMメッセージの拒否：内部<br /> </td> 
+   <td> FCM メッセージ却下：内部<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> 内部 </td> 
+   <td> INTERNAL </td> 
    <td> 無視</td> 
    <td> 拒否<br /> </td> 
    <td> ○<br /> </td> 
   </tr>
     <tr> 
-   <td> FCMメッセージの拒否：使用不可<br /> </td> 
+   <td> FCM メッセージ却下：使用不可<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> UNAVAILABLE</td> 
    <td> 無視</td> 
@@ -408,7 +408,7 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
    <td> ○<br /> </td> 
   </tr>
     <tr> 
-   <td> FCMメッセージの拒否：予期しないエラーコード<br /> </td> 
+   <td> FCM メッセージ却下：予期しないエラーコード<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> 予期しないエラーコード</td> 
    <td> 無視</td> 
@@ -424,7 +424,7 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
    <td> ○<br /> </td> 
   </tr>
     <tr> 
-   <td> 認証：要求に許可されていないクライアントまたはスコープです。<br /> </td> 
+   <td> 認証：リクエストで許可されていないクライアントまたは範囲です。<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> unauthorized_client </td> 
    <td> 無視</td>
@@ -432,7 +432,7 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
    <td> ×<br /> </td> 
   </tr>
     <tr> 
-   <td> 認証：クライアントは、このメソッドを使用してアクセストークンを取得する権限がありません。または、要求されたスコープに対してクライアントが承認されていません。<br /> </td> 
+   <td> 認証：クライアントは、このメソッドを使用してアクセストークンを取得する権限がありません。または、要求された範囲に対してクライアントが承認されていません。<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> unauthorized_client </td> 
    <td> 無視</td>
@@ -448,31 +448,31 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
    <td> ×<br /> </td> 
   </tr>
     <tr> 
-   <td> 認証：無効な電子メール<br /> </td> 
+   <td> 認証：無効な E メール<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> invalid_grant </td> 
+   <td> Invalid_grant </td> 
    <td> 無視</td> 
    <td> 拒否<br /> </td> 
    <td> ×<br /> </td> 
   </tr>
     <tr> 
-   <td> 認証：無効なJWT<br /> </td> 
+   <td> 認証：無効な JWT<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> invalid_grant </td> 
+   <td> Invalid_grant </td> 
    <td> 無視</td> 
    <td> 拒否<br /> </td> 
    <td> ×<br /> </td> 
   </tr>
     <tr> 
-   <td> 認証：無効なJWT署名<br /> </td> 
+   <td> 認証：無効な JWT 署名<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> invalid_grant </td> 
+   <td> Invalid_grant </td> 
    <td> 無視</td> 
    <td> 拒否<br /> </td> 
    <td> ×<br /> </td> 
   </tr>
     <tr> 
-   <td> 認証：無効なOAuthスコープまたはIDトークンオーディエンスが指定されました<br /> </td> 
+   <td> 認証：無効な OAuth 範囲または ID トークンオーディエンスが指定されました<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> unauthorized_client</td> 
    <td> 無視</td> 
@@ -480,9 +480,9 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
    <td> ×<br /> </td> 
   </tr>
     <tr> 
-   <td> 認証：OAuthクライアントが無効です<br /> </td> 
+   <td> 認証：OAuth クライアントが無効です<br /> </td> 
    <td> 失敗<br /> </td> 
-   <td> disabled_client</td> 
+   <td> Disabled_client</td> 
    <td> 無視</td> 
    <td> 拒否<br /> </td> 
    <td> ×<br /> </td> 

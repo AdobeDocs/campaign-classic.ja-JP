@@ -11,9 +11,9 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 discoiquuid: df29492f-ed73-4ab8-b075-e76b3b9ebce3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1723'
 ht-degree: 100%
 
@@ -171,7 +171,7 @@ ht-degree: 100%
 
 配達確認は、配信をメインターゲットに送信する前にテストするための特別なメッセージです。配達確認受信者は、メッセージのフォームおよびコンテンツの両方を承認します。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#seeds-and-proofs-video)
+![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#seeds-and-proofs-video)
 
 
 配達確認のターゲットを選択するには、次の手順に従います。
@@ -232,9 +232,9 @@ ht-degree: 100%
 
 ## E メールでのシードと配達確認の管理方法 {#seeds-and-proofs-video}
 
-このビデオでは、既存の E メールにシードと配達確認を追加して送信する方法を説明します。
+この動画では、既存の E メールにシードと配達確認を追加して送信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12&captions=jpn)
 
 関連項目：
 * [配達確認のターゲットの選択](#selecting-the-proof-target)

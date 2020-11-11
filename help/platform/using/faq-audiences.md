@@ -10,11 +10,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign の中でターゲット母集団を選択し、オーディエ�
 
 データベースへの[プロファイルのインポート](../../platform/using/importing-data.md#generic-import-samples)をおこなう簡単な使用例を紹介しています。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/importing-profiles.html)
+![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/importing-profiles.translate.html)
 
 ## マーケティングキャンペーンのターゲット母集団はどのようにして定義できますか？ {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
@@ -44,7 +44,7 @@ Adobe Campaign の中でターゲット母集団を選択し、オーディエ�
 
 [詳しくはここをクリック](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group)してください。
 
-![](assets/do-not-localize/how-to-video.png) このビデオ [とこのビデオで](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html) 、この機能 [を見つけます。](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html)
+![](assets/do-not-localize/how-to-video.png) [この動画](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html)と[この動画](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html)でこの機能を確認する
 
 ## メッセージの送信前に母集団の重複を排除するにはどうすればよいですか？ {#how-can-i-deduplicate-a-population-before-sending-a-message-}
 

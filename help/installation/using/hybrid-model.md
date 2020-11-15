@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: hybrid-and-hosted-models
 discoiquuid: f5244ab8-2421-4d76-bcf6-3574e68ea4e9
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 6%
@@ -30,7 +30,7 @@ ht-degree: 6%
 * 組み込みパッケージのインストール：こ [の節を参照](../../installation/using/installing-campaign-standard-packages.md)。
 * 配信品質： [MXルール](../../installation/using/email-deliverability.md#mx-configuration) と [E メールフォーマットを設定します](../../installation/using/email-deliverability.md#managing-email-formats)。 配信品質ツールとベストプラクティスについて詳しくは、「は [じめに](../../delivery/using/deliverability-key-points.md) 」ガイドと [詳細なドキュメントを参照してください](../../delivery/using/about-deliverability.md)。
 * キャンペーンオプションの設定：こ [の節を参照](../../installation/using/configuring-campaign-options.md)。
-* 外部データベース(Federated Data Access)の設定：こ [の節を参照](../../platform/using/about-fda.md)。
+* 外部データベース(Federated Data Access)の設定：こ [の節を参照](../../installation/using/about-fda.md)。
 * CRMコネクタの設定：こ [の節を参照](../../platform/using/crm-connectors.md)。
 * ミッドソーシング導入の原則の詳細については、この節 [を参照してください](../../installation/using/mid-sourcing-deployment.md)。
 

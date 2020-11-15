@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '3948'
 ht-degree: 98%
@@ -148,7 +148,7 @@ Experience Cloud Triggers と Adobe Campaign Classic の統合ページは、[�
 
 顔文字のサポート - [詳細を表示](../../delivery/using/customizing-emoticon-list.md)
 
-Azure Synapse FDA コネクタ - [詳細を表示](../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse)
+Azure Synapse FDA コネクタ - [詳細を表示](../../installation/using/configure-fda-synapse.md)
 
 タイとブラジルのプライバシーに関する法律 - [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
@@ -188,7 +188,7 @@ Spam Assassin のインストールの節が、新しいインストールファ
 
 ## 2020 年 4 月 {#april-2020}
 
-FDA 権限テーブルは、「外部データベースへのアクセス（FDA）」ドキュメントに移動されました。[詳細を表示](../../platform/using/remote-database-access-rights.md)
+FDA 権限テーブルは、「外部データベースへのアクセス（FDA）」ドキュメントに移動されました。[詳細を表示](../../installation/using/remote-database-access-rights.md)
 
 FAQ を更新し、ソフトキャッシュとハードキャッシュを消去する方法に関するヒントを追加しました。[詳細を表示](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)
 
@@ -232,9 +232,9 @@ E メールのアーカイブの節が改善されました。[詳細を表示](
 
 **20.1 リリースに含まれる新機能**
 
-Snowflake FDA コネクタ - [詳細を表示](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake)
+Snowflake FDA コネクタ - [詳細を表示](../../installation/using/configure-fda-snowflake.md)
 
-Hadoop FDA コネクタの機能強化 - [詳細を表示](../../platform/using/specific-configuration-database.md#configure-access-to-hadoop-3)
+Hadoop FDA コネクタの機能強化 - [詳細を表示](../../installation/using/configure-fda-hadoop.md)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
@@ -292,7 +292,7 @@ Adobe Campaign Classic のオファー管理およびインタラクションモ
 
 「WdbcOptions_TempDbName」オプションがキャンペーンオプションのリストに追加されました。[詳細を表示](../../installation/using/configuring-campaign-options.md)
 
-FDA のマトリックスページは、[ここ](../../platform/using/remote-database-access-rights.md)に移動されました。
+FDA のマトリックスページは、[ここ](../../installation/using/remote-database-access-rights.md)に移動されました。
 
 アクセス権のマトリックスページは、[ここ](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf)に移動されました。
 

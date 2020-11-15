@@ -1,8 +1,6 @@
 ---
 title: Web サービスについて
-seo-title: Web サービスについて
 description: Web サービスについて
-seo-description: null
 page-status-flag: never-activated
 uuid: f0b21cb3-aa75-4f54-a9f5-64e880f93e53
 contentOwner: sauviat
@@ -12,9 +10,9 @@ content-type: reference
 topic-tags: api
 discoiquuid: 65919173-3ce0-4d98-936b-f4581df536ae
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 75ab345e3b9360229ecc3ba9529a33e320228fa0
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '658'
 ht-degree: 5%
 
 ---

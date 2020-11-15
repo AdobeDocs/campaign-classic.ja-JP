@@ -1,8 +1,6 @@
 ---
-title: モバイルアプリチャネルの設定
-seo-title: モバイルアプリチャネルの設定
-description: モバイルアプリチャネルの設定
-seo-description: null
+title: 統合キャンペーンSDK
+description: キャンペーンSDKをモバイルアプリに統合する方法を学びます
 page-status-flag: never-activated
 uuid: aff1a4a0-34e7-4ce0-9eb3-30a8de1380f2
 contentOwner: sauviat
@@ -11,16 +9,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
-translation-type: ht
-source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
-workflow-type: ht
-source-wordcount: '959'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+workflow-type: tm+mt
+source-wordcount: '950'
+ht-degree: 98%
 
 ---
 
 
-# Campaign SDK をモバイルアプリケーションに統合する {#integrating-campaign-sdk-into-the-mobile-application}
+# キャンペーンSDKとアプリの統合 {#integrating-campaign-sdk-into-the-mobile-application}
 
 iOS および Android 用の Campaign SDK は、モバイルアプリチャネルモジュールのコンポーネントの 1 つです。
 
@@ -30,7 +28,7 @@ iOS および Android 用の Campaign SDK は、モバイルアプリチャネ�
 
 SDK の目的は、モバイルアプリケーションを Adobe Campaign プラットフォームに容易に統合できるようにすることです。
 
-サポートされている別の Android および iOS バージョンについて詳しくは、[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html#MobileSDK)を参照してください。
+サポートされている別の Android および iOS バージョンについて詳しくは、[互換性マトリックス](../../rn/using/compatibility-matrix.md#MobileSDK)を参照してください。
 
 ## Campaign SDK の読み込み {#loading-campaign-sdk}
 

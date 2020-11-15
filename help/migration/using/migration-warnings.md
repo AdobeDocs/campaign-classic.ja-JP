@@ -1,8 +1,6 @@
 ---
 title: 移行の警告
-seo-title: 移行の警告
 description: 移行の警告
-seo-description: null
 page-status-flag: never-activated
 uuid: 35361471-881c-4aaf-a57b-ed7e89a97eae
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: migration-overview
 discoiquuid: 1fa1fe0f-c392-413a-9fa0-d1b4e10e2e5e
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 6%
+source-wordcount: '181'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 6%
 # 移行の警告{#migration-warnings}
 
 * 移行プロセスは、エキスパートユーザーのみが利用できます。 少なくとも、Adobe Campaignのデータベースエキスパート、システム管理者およびアプリケーション開発者が支援する必要があります。
-* 移行を開始する前に、使用するシステムおよびシステムコンポーネントがv7と互換性があることを確認してください。 互換表を参照して [ください](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)。
+* 移行を開始する前に、使用するシステムおよびシステムコンポーネントがv7と互換性があることを確認してください。 互換表を参照して [ください](../../rn/using/compatibility-matrix.md)。
 * Messaging Cloud Messaging(以前のミッドソーシング)を使用している場合は、移行手順全体を開始する前に、Adobe Campaignにお問い合わせください。
 * 移行プロセスを開始する前に、データをバックアップする **必要があります** 。
 * 移行プロセスが完了するまでに数日かかる場合があります。

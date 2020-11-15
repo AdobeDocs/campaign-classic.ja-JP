@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Classicデータモデルについて
-description: Campaign データモデルの拡張、スキーマの編集、API の使用などの方法について説明します。
+title: Campaign Classicデータモデルの概要
+description: キャンペーンデータモデルの拡張、スキーマの編集、APIの使用などの方法について説明します。
 page-status-flag: never-activated
 uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
 contentOwner: sauviat
@@ -10,35 +10,21 @@ content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 8%
+source-wordcount: '988'
+ht-degree: 6%
 
 ---
 
 
-# About the Campaign data model{#about-data-model}
+# Campaign データモデルの概要{#about-data-model}
 
-この節では、キャンペーンの組み込みテーブルとその操作について理解を深めるため、Adobe Campaign Classicデータモデルの基本について説明します。
-
-Adobe Campaign データベースの概念データモデルは、一連の組み込みテーブルとそのインタラクションで構成されます。
-
-各テーブルの説明にアクセスするには、 **[!UICONTROL 管理者/設定/データスキーマ]**&#x200B;に移動し、リストからリソースを選択して、「 **[!UICONTROL ドキュメント]** 」タブをクリックします。
-
-![](assets/data-model_documentation-tab.png)
-
-デフォルトのCampaign Classicデータモデルの詳細については、 [この節を参照してください](../../configuration/using/data-model-description.md)。
-
-アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。スキーマと呼ばれる Adobe Campaign 特有の文法に従います。For more on Adobe Campaign schemas, read out [this section](../../configuration/using/about-schema-reference.md).
+Adobe Campaign データベースの概念データモデルは、一連の組み込みテーブルとそのインタラクションで構成されます。このページには、主な表と概念が表示されます。
 
 ## 概要 {#data-model-overview}
 
 Adobe Campaignは、相互にリンクされたテーブルを含むリレーショナルデータベースに依存しています。 Adobe Campaignデータモデルの基本構造は、次のように説明できます。
-
->[!NOTE]
->
->キャンペーンデータモデルのアーキテクチャと関連するベストプラクティスについて詳しくは、 [この節を参照してください](../../configuration/using/data-model-best-practices.md#data-model-architecture)。
 
 ### 受信者表 {#recipient-table}
 
@@ -100,7 +86,7 @@ Adobe Campaignから始める場合は、デフォルトのデータモデルを
 
 ## カスタム受信者テーブルの使用 {#custom-recipient-table}
 
-Adobe Campaignデータモデルを設計する際は、そのまま使用できる受信者テーブル [を使用するか](#default-recipient-table)、標準的でない受信者テーブルを作成してマーケティングプロファイルを保存することができます。
+Adobe Campaignデータモデルを設計する際は、そのまま使用できる受信者テーブル [を使用するか](#default-recipient-table)、 [](../../configuration/using/about-custom-recipient-table.md) カスタム受信者テーブルを作成してマーケティングプロファイルを保存することを決定できます。
 
 実際、データモデルが受信者中心の構造に収まらない場合は、他のテーブルをAdobe Campaign内のターゲティングディメンションとして設定できます。 例えば、単なる受信者ではなく、世帯、アカウント（携帯電話など）、会社/サイトにターゲットする必要がある場合に、この問題が発生する可能性があります。
 
@@ -112,22 +98,29 @@ Adobe Campaignデータモデルを設計する際は、そのまま使用でき
 
 カスタム受信者テーブルを使用する利点は次のとおりです。
 
-### 柔軟なデータモデル {#flexible-data-model}
+* **柔軟なデータモデル** — 標準搭載の受信者テーブルは、受信者テーブルのフィールドのほとんどが不要な場合や、データモデルが受信者中心でない場合には役に立ちません。
 
-既製の受信者テーブルは、受信者テーブルのフィールドのほとんどが不要な場合や、データモデルが受信者中心でない場合には役に立ちません。
+* **拡張性** ：大容量のボリュームでは、効率的な設計のために、数個のフィールドを備えた合理化されたテーブルが必要です。 すぐに使用できる受信者テーブルには役に立たないフィールドが多すぎるので、パフォーマンスに影響を与え、効率性に欠ける可能性があります。
 
-### 拡張性 {#scalability}
+* **データの場所** — データが既存の外部のマーケティングデータベースに存在する場合、そのまま使用できる受信者テーブルを使用するのに、多くの労力が必要になる場合があります。 既存の構造に基づいて新しい構造を作成する方が簡単です。
 
-大量のボリュームを使用する場合は、フィールド数が少ない合理化されたテーブルが必要になり、デザインを効率的に行うことができます。 すぐに使用できる受信者テーブルには役に立たないフィールドが多すぎるので、パフォーマンスに影響を与え、効率性に欠ける可能性があります。
-
-### データの場所 {#data-location}
-
-データが既存の外部マーケティングデータベースに存在する場合は、そのまま使用できる受信者テーブルを使用するのに多大な労力が必要になる場合があります。 既存の構造に基づいて新しい構造を作成する方が簡単です。
-
-### 容易な移行 {#easy-migration}
-
-アップグレード時に、すべての拡張機能が引き続き有効であることを確認するために、メンテナンスは必要ありません。
+* **容易な移行** — アップグレード時に、すべての拡張機能が引き続き有効であることを確認するための保守は必要ありません。
 
 >[!IMPORTANT]
 >
 >カスタム受信者テーブルの使用は上級ユーザー向けに用意されており、一部制限があります。 詳しくは、[この節](../../configuration/using/about-custom-recipient-table.md)を参照してください。
+
+## 関連トピック
+
+キャンペーンデータモデルについて詳しくは、次の節を参照してください。
+
+* **メインテーブルの説明** — デフォルトのCampaign Classicデータモデルの説明について詳しくは、 [この節を参照してください](../../configuration/using/data-model-description.md)。
+
+* **各テーブルの詳細な説明** — 各テーブルの詳細な説明にアクセスするには、 **[!UICONTROL 管理者/設定/データスキーマ]**&#x200B;に移動し、リストからリソースを選択して「 **[!UICONTROL ドキュメント]** 」タブをクリックします。
+
+   ![](assets/data-model_documentation-tab.png)
+
+
+* **キャンペーンスキーマ** — アプリケーションに含まれるデータの物理的および論理的な構造は、XMLで説明されています。 スキーマと呼ばれる Adobe Campaign 特有の文法に従います。For more on Adobe Campaign schemas, read out [this section](../../configuration/using/about-schema-reference.md).
+
+* **データモデルのベストプラクティス** -キャンペーンデータモデルのアーキテクチャと関連するベストプラクティスを [この節で説明します](../../configuration/using/data-model-best-practices.md#data-model-architecture)。

@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: schema-reference
 discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 translation-type: tm+mt
-source-git-commit: 2a82493deada11cb22ef37d215b6eae8274ce890
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '4031'
 ht-degree: 1%
@@ -83,7 +83,7 @@ Adobe Campaignに送信するデータ マーケティングアクティビテ�
 
 ターゲット設定またはパーソナライゼーションの目的を持つフィールドは、テーブルに格納する必要があります。 つまり、パーソナライズされた電子メールの送信にフィールドを使用しない場合や、クエリの基準として使用する場合は、ディスク領域を使用しますが、使用できません。
 
-ハイブリッドインスタンスおよびオンプレミスインスタンスの場合、FDA(Federated Data Access、外部データへのアクセスを可能にするオプション機能)は、キャンペーンプロセス中にフィールドをその場で追加する必要性をカバーします。 FDAがある場合は、すべてを読み込む必要はありません。 For more on this, see [About Federated Data Access](../../platform/using/about-fda.md).
+ハイブリッドインスタンスおよびオンプレミスインスタンスの場合、FDA(Federated Data Access、外部データへのアクセスを可能にするオプション機能)は、キャンペーンプロセス中にフィールドをその場で追加する必要性をカバーします。 FDAがある場合は、すべてを読み込む必要はありません。 For more on this, see [About Federated Data Access](../../installation/using/about-fda.md).
 
 ### キーの選択 {#choice-of-keys}
 

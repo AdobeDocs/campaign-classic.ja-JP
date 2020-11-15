@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 7c28c179-eb18-437e-baf2-25829566c766
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 1%
+source-wordcount: '1336'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaignは、サービス指向アーキテクチャ(SOA)に基づいて�
 
 >[!CAUTION]
 >
->明示的に明記しない場合は、Adobe Campaignプラットフォームのすべてのコンポーネントに対するインストール、アップデート、メンテナンスは、それらをホストするマシン管理者の責任となります。 これには、Adobe Campaignアプリケーションの前提条件の実装、およびコンポーネント間の [互換表](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html) (Compatibility Matrix)の遵守が含まれます。
+>明示的に明記しない場合は、Adobe Campaignプラットフォームのすべてのコンポーネントに対するインストール、アップデート、メンテナンスは、それらをホストするマシン管理者の責任となります。 これには、Adobe Campaignアプリケーションの前提条件の実装、およびコンポーネント間のキャンペーン [互換表](../../rn/using/compatibility-matrix.md) （英語のみ）の遵守が含まれます。
 
 ## プレゼンテーションレイヤー {#presentation-layer}
 

@@ -11,9 +11,9 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 discoiquuid: 7f471ac1-cd6a-4371-977e-52d60ce8d968
-translation-type: ht
-source-git-commit: fc014fe5fcadac680af31e86e258a4df7073e0bd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   Federated Data Access（FDA） について詳しくは、[外部データベースへのアクセス](../../platform/using/about-fda.md)を参照してください。
+   Federated Data Access（FDA） について詳しくは、[外部データベースへのアクセス](../../installation/using/about-fda.md)を参照してください。
 
 1. 「**[!UICONTROL 接続をテスト]**」をクリックし、コントロールインスタンスと実行インスタンスがリンクされたことを確認します。
 

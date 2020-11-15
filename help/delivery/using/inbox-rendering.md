@@ -9,9 +9,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 discoiquuid: 72e974b8-415a-47ab-9804-b15957787198
-translation-type: ht
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
+workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Adobe Campaign の「**受信ボックスレンダリング**」で使用でき�
 オンプレミスインストールの場合は、次の手順に従って受信ボックスレンダリングを設定します。
 
 1. **[!UICONTROL 受信ボックスレンダリング（IR）]**&#x200B;パッケージをインストールするには、**[!UICONTROL ツール]**／**[!UICONTROL 詳細設定]**／**[!UICONTROL パッケージをインポート]**&#x200B;メニューを使用します。詳しくは、[Campaign Classic 標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
-1. HTTP タイプの外部アカウントは、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;ノードで設定します。詳しくは、[外部アカウントの作成](../../platform/using/external-accounts.md#creating-an-external-account)を参照してください 。
+1. HTTP タイプの外部アカウントは、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;ノードで設定します。詳しくは、[外部アカウントの作成](../../installation/using/external-accounts.md#creating-an-external-account)を参照してください 。
 1. 外部アカウントのパラメーターを次のように設定します。
    * **[!UICONTROL ラベル]**：配信品質サーバー情報
    * **[!UICONTROL 内部名]**： deliverabilityInstance

@@ -9,10 +9,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: ht
-source-git-commit: cb96a238f4c8e413377ce6102b065b91badfe6db
-workflow-type: ht
-source-wordcount: '543'
+translation-type: tm+mt
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+workflow-type: tm+mt
+source-wordcount: '529'
 ht-degree: 100%
 
 ---
@@ -66,11 +66,11 @@ Adobe Campaign Classic に接続するには、Adobe Campaign クライアント
 
 ## 7. Campaign Classic と互換性のあるシステムやコンポーネントはどれですか？{#which-systems-and-components-campaign-classic-is-compatible-with-}
 
-Campaign の最新ビルドでサポートされているすべてのシステムおよびコンポーネントのリストは、「[Adobe Campaign Classic 互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)」で入手できます。
+Campaign の最新ビルドでサポートされているすべてのシステムおよびコンポーネントのリストは、「[Adobe Campaign Classic 互換性マトリックス](../../rn/using/compatibility-matrix.md)」で入手できます。
 
 ## 8. Campaign Classic のリリースノートはどこにありますか？{#where-are-campaign-classic-release-notes-}
 
-最新の Campaign Classic リリースノートは[このページ](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/release-notes/latest-release.html)で参照できます。
+最新の Campaign Classic リリースノートは[このページ](../../rn/using/latest-release.md)で参照できます。
 
 ## 9. ドメインの設定はどのような手順でおこないますか？{#what-is-the-procedure-for-domain-delegation-}
 

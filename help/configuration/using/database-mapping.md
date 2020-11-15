@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: schema-reference
 discoiquuid: bc06c00d-f421-452e-bde0-b4ecc12c72c8
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '1976'
 ht-degree: 1%
@@ -373,7 +373,7 @@ ACC 18.10では、 **XtkNewId** は追加設定なしのスキーマ内のシー
 * ![](assets/join_fda_11.png) :基数1-1
 * ![](assets/join_fda_1m.png) :基数1-N
 
-For more information on FDA tables, refer to [Accessing an external database](../../platform/using/about-fda.md).
+For more information on FDA tables, refer to [Accessing an external database](../../installation/using/about-fda.md).
 
 メイン要素を介してリンクされたテーブルの外部キーを含むスキーマでリンクを宣言する必要があります。
 

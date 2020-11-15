@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 discoiquuid: 3e2ccb70-6c0c-435f-9c06-f3e5e40367bb
 translation-type: tm+mt
-source-git-commit: f8539433274e531e34b7512ce1b6385d67e8e332
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 5%
+source-wordcount: '896'
+ht-degree: 3%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 5%
 
 このセクションでは、Adobe Campaignをインストールする前に必要な設定の暫定手順について説明します。
 
-Adobe Campaignのインストールに必要な技術的およびソフトウェアの設定については、 [互換表を参照してください](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)。
+Adobe Campaignのインストールに必要な技術的およびソフトウェアの設定については、 [互換表を参照してください](../../rn/using/compatibility-matrix.md)。
 
 注意：次のコンポーネントをインストールし、正しく設定する必要があります。
 
-* Apache( [互換表](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)、
+* Apache( [互換表](../../rn/using/compatibility-matrix.md)、
 * Java JDKとOpenJDK、『 [Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk)』を参照してください。
 * ライブラリについては、 [Libraries](#libraries)、
 * データベース・アクセス・レイヤ、 [データベース・アクセス・レイヤ](#database-access-layers)、
@@ -169,7 +169,7 @@ CentOSでは、次の設定が必要です。
 
 使用するデータベースエンジンのアクセス層は、サーバーにインストールされ、Adobe Campaignアカウントを介してアクセスできる必要があります。 バージョンとインストールモードは、使用するデータベースエンジンによって異なる場合があります。
 
-サポートされているパイロットバージョンは、[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)に詳述されています。
+サポートされているパイロットバージョンは、[互換性マトリックス](../../rn/using/compatibility-matrix.md)に詳述されています。
 
 一般的な [Database](../../installation/using/database.md) セクションも確認します。
 

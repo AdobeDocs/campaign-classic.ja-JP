@@ -8,10 +8,10 @@ product: adobe campaign
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b8548e8d609ed099433b97b4c0704d27234e81c0
+source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 99%
+source-wordcount: '2167'
+ht-degree: 97%
 
 ---
 
@@ -82,17 +82,6 @@ ht-degree: 99%
       + [アクセス管理](platform/using/access-management.md)
       + [データパッケージの使用](platform/using/working-with-data-packages.md)
       + [列挙の管理](platform/using/managing-enumerations.md)
-      + [外部アカウント](platform/using/external-accounts.md)
-   + 外部データベースへのアクセス（FDA）{#accessing-external-database}
-      + [FDA について](platform/using/about-fda.md)
-      + [FDA コネクタの設定](platform/using/specific-configuration-database.md)
-      + [従来のコネクタ](platform/using/legacy-connectors.md)
-      + [リモートデータベースのアクセス権](platform/using/remote-database-access-rights.md)
-      + [データベースへの接続](platform/using/connecting-to-database.md)
-      + [データスキーマの作成](platform/using/creating-data-schema.md)
-      + [データマッピングの削除](platform/using/defining-data-mapping.md)
-      + [追加のオプション](platform/using/additional-options.md)
-      + [付録](platform/using/appendices-fda.md)
    + コネクタ {#connectors}
       + [コネクタについて](platform/using/about-connectors.md)
       + [CRM コネクタ](platform/using/crm-connectors.md)
@@ -460,7 +449,7 @@ ht-degree: 99%
       + [ワークフローのプロパティ](workflow/using/workflow-properties.md)
       + [詳細設定パラメーター](workflow/using/advanced-parameters.md)
       + [JavaScript のスクリプトとテンプレート](workflow/using/javascript-scripts-and-templates.md)
-      + [外部データベースへのアクセス（FDA）](workflow/using/accessing-an-external-database--fda-.md)
+      + [外部データベースへのアクセス](workflow/using/accessing-an-external-database--fda-.md)
       + [権限の管理](workflow/using/managing-rights.md)
       + [アクティビティ画像の管理](workflow/using/managing-activity-images.md)
       + [傾向の管理](workflow/using/managing-propensity.md)
@@ -585,7 +574,7 @@ ht-degree: 99%
    + 付録 {#annexes}
       + [Facebook アプリの例](social/using/examples-of-facebook-apps.md)
       + [トラッキング](social/using/tracking.md)
-+ Campaign Classic のインストール {#installing-campaign-classic}
++ インストールと設定のガイド {#installing-campaign-classic}
    + アーキテクチャの原則 {#architecture-and-hosting-models}
       + [一般的なアーキテクチャ](installation/using/general-architecture.md)
       + ホスティングのモデル{#hosting-models-lp}
@@ -633,6 +622,23 @@ ht-degree: 99%
       + [SpamAssassin の設定](installation/using/configuring-spamassassin.md)
       + [ミッドソーシングサーバー](installation/using/mid-sourcing-server.md)
       + [インタラクション - データバッファ](installation/using/interaction---data-buffer.md)
+      + [外部アカウントの設定](installation/using/external-accounts.md)
+   + 外部データベースへのアクセス {#accessing-external-database}
+      + [FDAの概要](installation/using/about-fda.md)
+      + 設定のガイドライン {#config-databases}
+         + [設定の手順](installation/using/configure-fda.md)
+         + [Snowflakeの設定](installation/using/configure-fda-snowflake.md)
+         + [Azure Synapseの構成](installation/using/configure-fda-synapse.md)
+         + [Hadoopの設定](installation/using/configure-fda-hadoop.md)
+         + [Oracleの設定](installation/using/configure-fda-oracle.md)
+         + [Netezzaの設定](installation/using/configure-fda-netezza.md)
+         + [Sybase IQの構成](installation/using/configure-fda-sybase.md)
+         + [Teradataの設定](installation/using/configure-fda-teradata.md)
+         + [SAP HANAの設定](installation/using/configure-fda-sap-hana.md)
+      + [リモートアクセス権](installation/using/remote-database-access-rights.md)
+      + [データベースへの接続](installation/using/connecting-to-database.md)
+      + [データスキーマの作成](installation/using/creating-data-schema.md)
+      + [データマッピングの削除](installation/using/defining-data-mapping.md)
    + 付録 {#appendices}
       + [サーバー設定ファイル](installation/using/the-server-configuration-file.md)
       + [Campaign ネットワークエンドポイント](installation/using/campaign-network-endpoints.md)
@@ -640,7 +646,7 @@ ht-degree: 99%
       + [新規インスタンスの作成](installation/using/creating-new-instances.md)
       + [Campaign のオプションのリスト](installation/using/configuring-campaign-options.md)
       + [Campaign のアンインストール](installation/using/uninstalling-campaign.md)
-+ Campaign Classic の監視 {#monitoring-campaign-classic}
++ 監視ガイド {#monitoring-campaign-classic}
    + はじめに {#introduction}
       + [前書き](production/using/foreword.md)
       + [一般的なアーキテクチャ](production/using/general-architecture.md)
@@ -688,7 +694,7 @@ ht-degree: 99%
       + [コンソールの更新](production/using/console-update.md)
       + [パスワードを忘れた場合](production/using/lost-password.md)
       + [JSP の動作](production/using/jsp-behavior.md)
-+ Campaign Classic の設定 {#configuring-campaign-classic}
++ 開発者ガイド {#configuring-campaign-classic}
    + データモデル {#data-model}
       + [データモデルについて](configuration/using/about-data-model.md)
       + [データモデルの説明](configuration/using/data-model-description.md)
@@ -746,7 +752,7 @@ ht-degree: 99%
       + [サイトへのタグの挿入](configuration/using/inserting-tags-in-your-site.md)
       + [すべての訪問の収集](configuration/using/collecting-all-visits.md)
       + [匿名トラッキング](configuration/using/anonymous-tracking.md)
-+ 新しいバージョンへの移行 {#migrating-to-a-new-version}
++ 移行ガイド {#migrating-to-a-new-version}
    + 移行の概要 {#migration-overview}
       + [移行について](migration/using/about-migration.md)
       + [移行方法](migration/using/migration-method.md)

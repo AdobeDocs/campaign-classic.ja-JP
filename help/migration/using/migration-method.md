@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: migration-overview
 discoiquuid: 3ac779a7-1f91-4c1c-a439-10d01697326a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '320'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ v6.02では、「マルチタイムゾーン」モードはPostgreSQLデータ�
 >
 >Adobe Campaign5.11および6.02でサポートされているソフトウェアバージョンの一部は、Adobe Campaignv7ではサポートされなくなりました。
 >
->Adobe Campaignでサポートされているバージョンの詳細については、 [互換表を参照してください](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)。
+>Adobe Campaignでサポートされているバージョンの詳細については、 [互換表を参照してください](../../rn/using/compatibility-matrix.md)。
 
 ## 主な移行手順 {#key-migration-steps}
 

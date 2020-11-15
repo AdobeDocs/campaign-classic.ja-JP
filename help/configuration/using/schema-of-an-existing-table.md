@@ -12,10 +12,10 @@ content-type: reference
 topic-tags: editing-schemas
 discoiquuid: 6877d94d-d6e5-4080-a537-ef1bb6e6f8cf
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '237'
+ht-degree: 11%
 
 ---
 
@@ -68,4 +68,4 @@ ht-degree: 0%
 
 「 **Federated Data Access-FDA** 」オプションを使用すると、外部データベースに保存されているデータにアクセスできます。
 
-スキーマが外部データベースのデータにアクセスする際に行う設定については、 [このページで詳しく説明します](../../platform/using/creating-data-schema.md)。
+スキーマが外部データベースのデータにアクセスする際に行う設定については、 [このページで詳しく説明します](../../installation/using/creating-data-schema.md)。

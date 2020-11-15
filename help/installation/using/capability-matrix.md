@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: architecture-and-hosting-models
 discoiquuid: 582f7ac6-cebe-4b47-8730-bbc16fd6b1bd
 translation-type: tm+mt
-source-git-commit: c03e90b2e2f57606749c86cda343ce5756fec122
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 44%
+ht-degree: 45%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 | 機能 | ホスト | ハイブリッド | オンプレミス | 詳細 |
 |-----------------------------------------------|------------------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | キャンペーンサーバーの設定 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../installation/using/the-server-configuration-file.md) |
-| E メールの BCC | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../installation/using/email-archiving.md) |
+| BCC で E メールを送信 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../installation/using/email-archiving.md) |
 | Message Center実行インスタンスの管理 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../message-center/using/about-transactional-messaging.md) |
 | ミッドソーシングプラットフォームの管理 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../installation/using/mid-sourcing-server.md) |
 | Litmusを使用したインボックスレンダリング | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../delivery/using/inbox-rendering.md) |
@@ -46,11 +46,11 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 
 ## Federated Data Access{#fda}
 
-Adobe Campaign では、**Federated Data Access**（FDA）オプションを利用することができます。このオプションを使用すると、1 つ以上の外部データベースに格納されている情報を処理することが可能です。Adobe Campaign データの構造を変更しなくても、外部データにアクセスできます。[詳細情報](../../platform/using/about-fda.md)
+Adobe Campaign では、**Federated Data Access**（FDA）オプションを利用することができます。このオプションを使用すると、1 つ以上の外部データベースに格納されている情報を処理することが可能です。Adobe Campaign データの構造を変更しなくても、外部データにアクセスできます。[詳細情報](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >
->Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the [Snowflake connector](../../platform/using/specific-configuration-database.md#configure-access-to-snowflake).
+>Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the [Snowflake connector](../../installation/using/configure-fda-snowflake.md).
 
 
 **関連項目：**
@@ -60,4 +60,4 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 * [Campaign Classicのアップグレード](../../rn/using/rn-overview.md)
 * [非推奨（廃止予定）および削除された機能](../../rn/using/deprecated-features.md)
 * [Gold Standardリリース](../../rn/using/gold-standard.md)
-* [ゴールドスタンダードプログラム](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)
+* [Gold Standard プログラム](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)

@@ -11,9 +11,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: c2c0609619e0cc81444d089850add6dec5de93fd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
+workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ _2019 年 12 月 02 日_
 
 * プッシュ通知のメモリ消費の最適化。
 * パフォーマンスとストレージを最適化するため、**logins.log** ファイルの処理が強化されました。このログファイルは複数のファイルに分割されるようになり、1 日に 1 つのファイルとなり、最大 365 個のファイルが保持されます。[詳細を表示](../../production/using/log-files.md)
-* Microsoft Dynamics CRM 外部アカウントは、パスワード資格情報（パスワード + ユーザー名）または証明書（秘密鍵）を使用して設定できるようになりました。[詳細を表示](../../platform/using/external-accounts.md#microsoft-dynamics-crm-external-account)
+* Microsoft Dynamics CRM 外部アカウントは、パスワード資格情報（パスワード + ユーザー名）または証明書（秘密鍵）を使用して設定できるようになりました。[詳細を表示](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
 * Hadoop FDA コネクタに強化機能がいくつか追加され、信頼性が向上しました。
 * サーバー上の公開リソースのアップロードを許可する前にディスク領域を確認する、特別なガードレールが追加されました。
 * 新しい[キャンペーンオプション](../../installation/using/configuring-campaign-options.md)が追加されました。

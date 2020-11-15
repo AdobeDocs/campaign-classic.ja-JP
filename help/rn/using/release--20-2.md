@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 36fef519be93b33d55a96992c1ce234f2eaea696
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
 workflow-type: tm+mt
 source-wordcount: '2183'
 ht-degree: 100%
@@ -91,7 +91,7 @@ _2020 年 6 月 8 日_
  <tbody> 
   <tr> 
    <td> <p>Campaign インスタンスを Azure Synapse 外部データベースに接続できるようになりました。この接続は、新しい外部アカウントで管理されます。</p>
-    <p>Azure Synapse は、ハイブリッドおよびオンプレミスの環境でのみ使用できます。詳しくは、<a href="../../platform/using/specific-configuration-database.md#configure-access-to-azure-synapse">詳細ドキュメント</a>を参照してください。</p>
+    <p>Azure Synapse は、ハイブリッドおよびオンプレミスの環境でのみ使用できます。詳しくは、<a href="../../installation/using/configure-fda-synapse.md">詳細ドキュメント</a>を参照してください。</p>
    </td> 
   </tr> 
  </tbody> 

@@ -11,9 +11,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 discoiquuid: a84a73a9-9930-449f-8b81-007a0e9d5233
-translation-type: ht
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Adobe Campaign では、外部アプリケーションとの通信、データ�
 
 次のコネクタが含まれます。
 
-* FDA コネクタ（**Federated Data Access**）を使用すると、Campaign を 1 つ以上の外部データベースに接続して、Campaign データに影響を与えることなく、それらに格納された情報を処理できます。[詳細情報](../../platform/using/about-fda.md)
+* FDA コネクタ（**Federated Data Access**）を使用すると、Campaign を 1 つ以上の外部データベースに接続して、Campaign データに影響を与えることなく、それらに格納された情報を処理できます。[詳細情報](../../installation/using/about-fda.md)
 * CRM コネクタを使用すると、専用のワークフローアクティビティを使用した Adobe Campaign と CRM ソリューション間でデータを交換できます。[詳細情報](../../platform/using/crm-connectors.md)
 * Analytics Data コネクタ（旧 **Adobe Genesis**）を使用すると、Adobe Campaign と Adobe Analytics との間でデータを共有できます。[詳細情報](../../platform/using/adobe-analytics-data-connector.md)
 

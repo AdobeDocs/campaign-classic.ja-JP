@@ -12,9 +12,9 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 translation-type: tm+mt
-source-git-commit: 1781648fc17d729f451664204f99a77dfaa8c824
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1347'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_install_db_select_engine.png)
 
-サポートされるデータベースは、「 [互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)」の節に示されています。
+サポートされるデータベースは、キャンペーン [互換表に記載されています](../../rn/using/compatibility-matrix.md)。
 
 サーバーを識別し、実行する操作の種類を選択します。 この場合は、データベースを **[!UICONTROL 作成またはリサイクルします]**。
 

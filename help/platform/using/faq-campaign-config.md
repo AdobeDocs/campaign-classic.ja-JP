@@ -10,10 +10,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '769'
+translation-type: tm+mt
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+workflow-type: tm+mt
+source-wordcount: '764'
 ht-degree: 100%
 
 ---
@@ -59,11 +59,11 @@ Campaign で配信コンテンツの承認を実装する手順について[詳�
 
 Adobe Campaign では、Federated Data Access（FDA）オプションを利用することができます。このオプションを使用すると、1 つ以上の外部データベースに格納されている情報を処理することが可能です。Adobe Campaign データの構造を変更しなくても、外部データにアクセスできます。
 
-[詳しくはここをクリック](../../platform/using/connecting-to-database.md)してください。
+[詳しくはここをクリック](../../installation/using/connecting-to-database.md)してください。
 
 ## Campaign を接続できる外部データベースはどれですか？ {#which-external-databases-can-i-connect-campaign-to-}
 
-Federated Data Access（FDA）を使用した Campaign と外部データベースとの互換性のリストについては、[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)を参照してください。
+Federated Data Access（FDA）を使用した Campaign と外部データベースとの互換性のリストについては、[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
 
 ## Adobe Campaign を LDAP と統合できますか？ {#can-adobe-campaign-integrate-with-ldap-}
 

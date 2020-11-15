@@ -1,8 +1,6 @@
 ---
 title: 移行を開始する前に
-seo-title: 移行を開始する前に
 description: 移行を開始する前に
-seo-description: null
 page-status-flag: never-activated
 uuid: b9325510-2fa5-4be4-9cf0-f37232bbbd8c
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: migration-procedure
 discoiquuid: d8877378-fb43-4f32-91c6-60f2f788f916
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 3%
+source-wordcount: '526'
+ht-degree: 2%
 
 ---
 
@@ -27,6 +25,13 @@ ht-degree: 3%
 >このドキュメントでは、データベースにリンクされたコマンドを例として示します。 これらは、設定によって異なります。 データベース管理者に問い合わせてください。
 
 ## 警告 {#warnings}
+
+* 移行プロセスは、エキスパートユーザーのみが実行する必要があります。 少なくとも、Adobe Campaignのデータベースエキスパート、システム管理者およびアプリケーション開発者が支援する必要があります。
+* 移行を開始する前に、使用するシステムおよびシステムコンポーネントがv7と互換性があることを確認してください。 互換表を参照して [ください](../../rn/using/compatibility-matrix.md)。
+* Messaging Cloud Messaging(ミッドソーシング)を使用する場合は、移行手順全体を開始する前に、Adobeにお問い合わせください。
+* 移行プロセスを開始する前に、データをバックアップする **必要があります** 。
+* 移行プロセスが完了するまでに数日かかる場合があります。
+* Adobe Campaignv7は、設定上、5.11および6.02バージョンより厳しくなっています。 これは主に、データの破損などの問題を回避し、データベース内のデータの整合性を維持するためです。 その結果、v5.11およびv6.02で提供される特定の機能はv7では動作しなくなる可能性があるので、移行後に適応する必要がある場合があります。 製品に取り組む前に、すべての構成、特にAdobe Campaignの使用に必要なワークフローを系統的にテストすることをお勧めします。
 
 ### インストール済みバージョン {#installed-version}
 
@@ -45,7 +50,7 @@ nlserver pdump **[!UICONTROL コマンドを使用して、クライアントコ
 
 ### 推奨事項 {#recommendation}
 
-移行手順は特に機密性が高いので、手順を開始する前に、このドキュメントを十分に読むことをお勧めします。
+移行手順は慎重に行う必要があるので、手順を開始する前に、このドキュメントを十分に読むことをお勧めします。
 
 ## 移行手順 {#migration-steps}
 
@@ -64,10 +69,6 @@ nlserver pdump **[!UICONTROL コマンドを使用して、クライアントコ
    1. リダイレクトサーバーとトラッキングサーバー(Apache/IIS)を移行します。
    1. パワー・ブースタ/クラスタ・サーバを移行します。
    1. マーケティングサーバーを移行します。
-
->[!NOTE]
->
->v6.02マーケティングサーバーとv7 Cloud MessagingまたはPower Booster/Clusterサーバー間の通信は可能です。 ただし、v6.02マーケティングサーバーを維持する場合は、Cloud MessagingまたはPower Booster/Clusterに移行する前に、最新のv6.02ビルドでこのバージョンを更新する必要があります。
 
 ## ユーザーパスワード {#user-passwords}
 

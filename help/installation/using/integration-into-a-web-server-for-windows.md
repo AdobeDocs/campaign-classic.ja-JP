@@ -12,7 +12,7 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: a4f2ae0e-e631-4ab6-934e-8298e4ce6f2c
 translation-type: tm+mt
-source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
+source-git-commit: 6d6f63fb6ac99c3a9e58a8670bc9bc59e6cfd420
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 5%
@@ -29,7 +29,7 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
 この場合、次のようになります。
 
 * デフォルトのリスニングポートは8080です。 変更する方法については、「Tomcatの [設定](../../installation/using/configuring-campaign-server.md#configuring-tomcat)」を参照してください。
-* 次に、クライアントコンソールはhttps:// [:8080 `<computer>`などのURLを使用して接続します](https://machine:8080)。
+* 次に、クライアントコンソールはhttps:// [:8080 `<computer>`などのURLを使用して接続します](https://myserver.adobe.com:8080)。
 
 ただし、セキュリティと管理上の理由から、Adobe Campaignを実行しているコンピュータがインターネット上に公開され、ネットワーク外のコンソールにアクセスする場合は、HTTPトラフィックのメインエントリポイントとして専用のWebサーバを使用することをお勧めします。
 

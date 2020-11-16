@@ -11,11 +11,11 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '2371'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
+source-wordcount: '2367'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新ビルドにアップグレードする](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)か、[テクニカルサポート](https://support.neolane.net/)にお問い合わせください。
+>このビルドはリコールされました。最新のビルドに [アップグレードするか](../../production/using/build-upgrade.md) 、 [Adobeカスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
 
 **強化点**
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新ビルドにアップグレードする](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)か、[テクニカルサポート](https://support.neolane.net/)にお問い合わせください。
+>このビルドはリコールされました。最新のビルドに [アップグレードするか](../../production/using/build-upgrade.md) 、 [Adobeカスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
 
 **強化点**
 
@@ -109,9 +109,9 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新ビルドにアップグレードする](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)か、[テクニカルサポート](https://support.neolane.net/)にお問い合わせください。
+>このビルドはリコールされました。最新のビルドに [アップグレードするか](../../production/using/build-upgrade.md) 、 [Adobeカスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
 
-**新機能?**
+**新機能**
 
 <table> 
  <thead> 
@@ -151,7 +151,7 @@ ht-degree: 100%
 
 **強化点**
 
-* Campaign Classic API を[専用ページ](https://docs.campaign.adobe.com/doc/AC/en/jsapi/index.html)から入手できるようになりました。jsapi.chm ファイルを使用していた場合は、新しいオンラインバージョンを参照する必要があります。
+* Campaign Classic API を[専用ページ](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)から入手できるようになりました。jsapi.chm ファイルを使用していた場合は、新しいオンラインバージョンを参照する必要があります。
 * PostgreSQL 10、Debian 9 および Teradata 16.20 がサポートされるようになりました。[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)を参照してください。
 * SFTP 接続を作成する際、プロキシ認証を使用できるようになりました。詳しくは、[詳細ドキュメント](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)を参照してください。（NEO-9868）
 * ダイレクトメール配信テンプレートを使用して単一の配信を作成する際、配信プロパティで「**日付計算式**」オプションを使用できるようになりました。（NEO-9792）

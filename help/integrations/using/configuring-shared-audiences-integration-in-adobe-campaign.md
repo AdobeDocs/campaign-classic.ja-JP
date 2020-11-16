@@ -1,8 +1,6 @@
 ---
 title: Adobe Campaign での共有オーディエンスの統合の設定
-seo-title: Adobe Campaign での共有オーディエンスの統合の設定
-description: Adobe Campaign での共有オーディエンスの統合の設定
-seo-description: null
+description: 共有オーディエンスの統合を設定する方法について説明します。
 page-status-flag: never-activated
 uuid: 6ed137e4-027f-4eb0-a0b5-4beb7deef51f
 contentOwner: sauviat
@@ -11,11 +9,11 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 discoiquuid: 4443b0ca-80c6-467d-a4df-50864aae8496
-translation-type: ht
-source-git-commit: d567cb7dbc55d9c124d1cc83b7a5a9e2dfb5ab61
-workflow-type: ht
-source-wordcount: '549'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 98%
 
 ---
 

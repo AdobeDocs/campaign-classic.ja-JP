@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 discoiquuid: d1069b23-e08d-43c5-bbfb-3158ac40dc7e
 translation-type: tm+mt
-source-git-commit: 48176ebb19689855f3ee5e61fa6492be5a682291
+source-git-commit: 6d6f63fb6ac99c3a9e58a8670bc9bc59e6cfd420
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 13%
@@ -34,7 +34,7 @@ Adobe Campaignクライアントコンソールをダウンロードしてイン
 
 1. Webブラウザーを開き、次のアドレスからコンソールをダウンロードします。
 
-   [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://machine/nl/jsp/logon.jsp).
+   [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://myserver.adobe.com/nl/jsp/logon.jsp).
 
 1. IDウィンドウで、ログイン名とパスワードを入力します。
 
@@ -66,7 +66,7 @@ Adobe Campaignクライアントコンソールをダウンロードしてイン
 
 1. URLを介したAdobe Campaignアプリケーションサーバーへの接続を指定します。 DNS、マシンのエイリアス、またはIPアドレスを使用します。
 
-   例えば、 [`https://<machine>.<domain>.com`](https://machine) タイプURLを使用できます。
+   例えば、 [`https://<machine>.<domain>.com`](https://myserver.adobe.com) タイプURLを使用できます。
 
 1. AdobeIMSが組織に対して設定されている場合は、「 **[!UICONTROL Adobe IDに接続」オプションをオンにします]**
 

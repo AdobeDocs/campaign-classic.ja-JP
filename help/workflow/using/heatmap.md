@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: use-cases
 discoiquuid: 6a71f5ee-c8e0-4ac4-acae-6dffbf799d0c
 translation-type: tm+mt
-source-git-commit: 6be6c353c3464839a74ba857d8d93d0f68bc8865
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1404'
 ht-degree: 98%
 
 ---
@@ -43,7 +43,7 @@ Adobe CampaignワークフローHeatMapは、現在実行中のすべてのワ�
 
 ワークフローヒートマップを使用するには、[ワークフロー](../../workflow/using/about-workflows.md)、[アクティビティ](../../workflow/using/about-activities.md)および[ワークフローのベストプラクティス](../../workflow/using/workflow-best-practices.md)の概念を十分に理解しておく必要があります。
 
-ワークフローヒートマップは、Adobe Campaign の 18.10 リリースからデフォルトで使用できます。8700 から 8977（18.10）のビルドをご使用の場合も、この機能を利用できます。対応するパッケージをリクエストするには[アドビカスタマーケア](https://support.neolane.net/)にお問い合わせください。パッケージのインストール方法を理解するには、[このページ](https://helpx.adobe.com/jp/campaign/kb/install-workflow-heatmap-package.html)の指示に従ってください。
+ワークフローヒートマップは、Adobe Campaign の 18.10 リリースからデフォルトで使用できます。8700 から 8977（18.10）のビルドをご使用の場合も、この機能を利用できます。対応するパッケージをリクエストするには[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。パッケージのインストール方法を理解するには、[このページ](https://helpx.adobe.com/jp/campaign/kb/install-workflow-heatmap-package.html)の指示に従ってください。
 
 ワークフローヒートマップに初めてアクセスすると、次のポップアップウィンドウが表示されます。この契約により、米国における転送と保存ができるようになり、Adobe Campaign で次のことが可能になります。
 

@@ -1,8 +1,6 @@
 ---
 title: Campaign ネットワークエンドポイント
-seo-title: Campaign ネットワークエンドポイント
 description: Campaign ネットワークエンドポイント
-seo-description: null
 page-status-flag: never-activated
 uuid: be21ae4b-ca2a-4952-b256-cd8dc51309cf
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 1a94c94e-ab6b-45c2-a0f3-6adeec7e2d2d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '50'
+ht-degree: 26%
 
 ---
 

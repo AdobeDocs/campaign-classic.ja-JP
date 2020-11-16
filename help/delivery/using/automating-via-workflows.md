@@ -11,11 +11,11 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 discoiquuid: 4abce633-647f-4ae4-9419-859f6e2e8628
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d6f63fb6ac99c3a9e58a8670bc9bc59e6cfd420
+workflow-type: tm+mt
 source-wordcount: '1203'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -267,7 +267,7 @@ FTP または SFTP サーバー上の HTML ファイルに配信コンテンツ�
 <input label="File name" type="editbtn" xpath="/tmp/@name">
   <enter>
     <soapCall name="GetAndTransform" service="ncm:content">
-      <param exprIn="'https://server/incoming/' + [/tmp/@name] + '.xml'" type="string"/>
+      <param exprIn="'https://myserver.adobe.com/incoming/' + [/tmp/@name] + '.xml'" type="string"/>
       <param exprIn="'xtk:xslt|cus:book-workflow.xsl'" type="string"/>
       <param type="DOMElement" xpathOut="."/>
     </soapCall>
@@ -275,7 +275,7 @@ FTP または SFTP サーバー上の HTML ファイルに配信コンテンツ�
 </input>
 ```
 
-編集領域で、取得するファイルの名前を入力できます。URL は、この名前をベースとして生成されます（例：https://server/incomin/data.xml）。
+編集領域で、取得するファイルの名前を入力できます。URLは、次のように、この名前に基づいて構築されます。https://myserver.adobe.com/incomin/data.xml
 
 取得するデータのフォーマットは、ワークフローの自動化の例 1 と同じです。この例の「cus:book-workflow.xsl」スタイルシートを使用する必要があります。
 

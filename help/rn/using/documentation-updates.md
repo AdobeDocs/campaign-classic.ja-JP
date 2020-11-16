@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '3948'
+source-wordcount: '3513'
 ht-degree: 98%
 
 ---
@@ -342,7 +342,7 @@ E メールの送信時に使用する文字エンコーディングの強制適
 
 ## 2019 年 10 月 {#october-2019}
 
-Campaign Standard および Campaign Classic のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Campaign Standard および Campaign Classic のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
 GDPR の入門ガイドが改善され、強化されました。GDPR や CCPA を含む、プライバシー管理に関するドキュメントになりました。[詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/campaign-privacy.html)
 
@@ -384,29 +384,29 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 「Campaign Classic の非推奨（廃止予定）および削除された機能」ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
-インストールガイドにサーバー設定ファイルの説明が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_The_server_configuration_file.html)
+インストールガイドにサーバー設定ファイルの説明が追加されました。[詳細を表示](../../installation/using/the-server-configuration-file.md)
 
-ホストモデルおよびハイブリッドモデルのインストールおよび設定手順を説明する節が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Hybrid_and_Hosted_models_Introduction.html)
+ホストモデルおよびハイブリッドモデルのインストールおよび設定手順を説明する節が追加されました。[詳細を表示](../../installation/using/hosting-models.md)
 
-Campaign サーバーのアンインストール手順を説明する節が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_Uninstalling_Campaign.html)
+Campaign サーバーのアンインストール手順を説明する節が追加されました。[詳細を表示](../../installation/using/uninstalling-campaign.md)
 
-[セキュリティ](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/security.html)、[配信品質](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/sending-messages/deliverability-management/about-deliverability.html)および[プライバシー](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)の入門ガイドが更新されました。
+[セキュリティ](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)、[配信品質](../../delivery/using/deliverability-key-points.md)および[プライバシー](../../platform/using/privacy-management.md)の入門ガイドが更新されました。
 
-前処理ワークフローオプションの説明が更新され、製品の変更が反映されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Repository_of_activities_Action_activities.html#Data_loading__file_)
+前処理ワークフローオプションの説明が更新され、製品の変更が反映されました。[詳細を表示](../../workflow/using/data-loading--file-.md)
 
-Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
+Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](../../integrations/using/about-triggers.md)
 
-エラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+エラーメッセージのリストが更新されました。[詳細を表示](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
-トランザクションメッセージングの SOAP 認証方法に関する詳細が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/MCE_Introduction_Event_description.html)
+トランザクションメッセージングの SOAP 認証方法に関する詳細が追加されました。[詳細を表示](../../message-center/using/event-description.md)
 
-Apache の設定手順が更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Installing_Campaign_in_Linux__Integration_into_a_Web_server.html#Configuring_Apache_web_server_in_RHEL)
+Apache の設定手順が更新されました。[詳細を表示](../../installation/using/integration-into-a-web-server-for-linux.md)
 
-Campaign Standard および Classic のエンドポイントのリストを含む新しいページが追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-endpoints.html)
+Campaign Standard および Classic のエンドポイントのリストを含む新しいページが追加されました。[詳細を表示](../../installation/using/campaign-network-endpoints.md)
 
-データパッケージのベストプラクティス記事が更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/data-package-best-practices.html)
+データパッケージのベストプラクティス記事が更新されました。[詳細を表示](../../configuration/using/data-model-best-practices.md)
 
-オファーの管理に関するドキュメントが更新され、ベストプラクティスを説明する新しい節が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/ITA_Interaction_Overview_Interaction_best_practices.html)
+オファーの管理に関するドキュメントが更新され、ベストプラクティスを説明する新しい節が追加されました。[詳細を表示](../../interaction/using/interaction-best-practices.md)
 
 Adobe Campaign Classic のオファーカタログの使用に関する新しいナレッジベース記事が作成されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/offer-best-practices.html)
 
@@ -414,30 +414,30 @@ Adobe Campaign Classic のオファーカタログの使用に関する新しい
 
 [Campaign Classic オンプレミスとホスト機能マトリックス](../../installation/using/capability-matrix.md)のページが更新され、「BCC で E メールを送信」に関する情報が追加されました。
 
-トランザクションメッセージングのドキュメントが更新され、テンプレートのパブリッシュに関する注意事項が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/MCE_Template_publication.html)
+トランザクションメッセージングのドキュメントが更新され、テンプレートのパブリッシュに関する注意事項が追加されました。[詳細を表示](../../message-center/using/template-publication.md)
 
-未処理のバウンスメールの節が更新され、「転送先アドレス」フィールドおよび「エラーのアドレス」フィールドに関する詳細が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Initial_configuration_Deploying_an_instance.html#Unprocessed_bounce_mails)
+未処理のバウンスメールの節が更新され、「転送先アドレス」フィールドおよび「エラーのアドレス」フィールドに関する詳細が追加されました。[詳細を表示](../../installation/using/deploying-an-instance.md)
 
-ワークフロー計画のベストプラクティスに関する新しい節が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Workflow_best_practices.html#Execution_and_performance)
+ワークフロー計画のベストプラクティスに関する新しい節が追加されました。[詳細を表示](../../workflow/using/workflow-best-practices.md)
 
 キャンペーンオプションのリストに、XtkSecurity_Restrict_EditXML および NmsOperation_OperationMgtDebug の 2 つの新しいオプションが追加されました。
-[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_Configuring_Campaign_options.html)
+[詳細を表示](../../installation/using/configuring-campaign-options.md)
 
 Campaign Classic で使用できる様々な外部アカウントと、その設定方法に関する情報が追加されました。
-[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html)
+[詳細を表示](../../installation/using/external-accounts.md)
 
 Analytics Data Connector の節が更新され、インターフェイスの変更が反映されるようになりました。
-[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Connectors_Adobe_Analytics_Data_Connector.html)
+[詳細を表示](../../platform/using/adobe-analytics-data-connector.md)
 
 請求レポートに関する情報が追加されました。
-[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Monitoring_processes.html#Billing_report)
+[詳細を表示](../../production/using/monitoring-processes.md)
 
 共有オーディエンスの統合に関するドキュメントが更新されました。
-[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/ITG_Audience_sharing_Configuring_shared_audiences_integration_in_Adobe_Campaign.html)
+[詳細を表示](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
 [SMS コネクタのプロトコルと設定](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)および[シーケンスの自動生成](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)のテクニカルノートが更新されました。
 
-テクニカルワークフローの節が更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Technical_workflows_About_technical_workflows.html)
+テクニカルワークフローの節が更新されました。[詳細を表示](../../workflow/using/about-technical-workflows.md)
 
 Campaign ドメイン名の設定手順が改善および更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)
 
@@ -445,40 +445,38 @@ Google Cloud Messaging（GCM）から Firebase Cloud Messaging（FCM）への An
 
 Campaign ハードウェアのサイズ設定ガイドが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)
 
-Teradata 外部アカウントの Query Banding に関する情報が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#External_database_external_account)
+Teradata 外部アカウントの Query Banding に関する情報が追加されました。[詳細を表示](../../installation/using/external-accounts.md)
 
 ## 2019 年 1 月{#release-doc-16-01-2019}
 
-Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html)
+Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](../../integrations/using/about-triggers.md)
 
-オファーの承認の節に注意事項を追加し、「承認コンテンツ」の表示は、すべてのオファーが有効化または承認されているかどうかに関わらず、コンテンツ承認プロセスが達成されたことを示すことを明確にしました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/ITA_Managing_an_offer_catalog_Approving_and_activating_an_offer.html#Approving_offer_content)
+オファーの承認の節に注意事項を追加し、「承認コンテンツ」の表示は、すべてのオファーが有効化または承認されているかどうかに関わらず、コンテンツ承認プロセスが達成されたことを示すことを明確にしました。[詳細を表示](../../interaction/using/offer-catalog-overview.md)
 
-新しい節がインストールガイドに追加され、管理／プラットフォーム／オプションノードのオプションが一覧で示されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Appendices_Configuring_Campaign_options.html)
+新しい節がインストールガイドに追加され、管理／プラットフォーム／オプションノードのオプションが一覧で示されました。[詳細を表示](../../installation/using/configuring-campaign-options.md)
 
-メーリングリストを保護するためのシードアドレスの使用に関する情報が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Using_seed_addresses_About_seed_addresses.html)
+メーリングリストを保護するためのシードアドレスの使用に関する情報が追加されました。[詳細を表示](../../delivery/using/creating-seed-addresses.md)
 
 配信を作成して送信する際の重要な手順が新しい節に再編成されました。必要に応じて様々なチャネルの参照も追加されました。[詳細を表示](../../delivery/using/steps-about-delivery-creation-steps.md)
 
-[E メールのアーカイブ](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html)の節が移動および再編成され、明確になった情報で改善されました。
+[E メールのアーカイブ](../../installation/using/email-archiving.md)の節が移動および再編成され、明確になった情報で改善されました。
 
-* 接続あたりの E メールおよび BCC 送信 IP パラメーターに関するベストプラクティスが追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Best_practices)
+* 接続あたりの E メールおよび BCC 送信 IP パラメーターに関するベストプラクティスが追加されました。
 
-* 以前のビルド（Adobe Campaign 17.2 ビルド 8795 以前）で E メールアーカイブを既に使用している場合に、新しい E メールアーカイブシステム（BCC）へアップグレードする手順を更新しました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Email_archiving.html#Updated_email_archiving_system__BCC_)
+* 以前のビルド（Adobe Campaign 17.2 ビルド 8795 以前）で E メールアーカイブを既に使用している場合に、新しい E メールアーカイブシステム（BCC）へアップグレードする手順を更新しました。
 
-ワークフローによる自動化ガイドに、使用例、「パーソナライズされたアラートのオペレーターへの送信」が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Sending_personalized_alerts_to_operators.html)
+ワークフローによる自動化ガイドに、使用例、「パーソナライズされたアラートのオペレーターへの送信」が追加されました。[詳細を表示](../../workflow/using/sending-personalized-alerts-to-operators.md)
 
-新しいバージョンへの移行の節が更新されました。Adobe Campaign v6.11 への移行ができなくなったので、このドキュメントでは、Adobe Campaign Classic v7 への移行手順のみの詳細を説明しています。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/MIG_Migration_overview_About_migration.html)
+新しいバージョンへの移行の節が更新されました。Adobe Campaign v6.11 への移行ができなくなったので、このドキュメントでは、Adobe Campaign Classic v7 への移行手順のみの詳細を説明しています。[詳細を表示](../../migration/using/about-migration.md)
 
-一時的な配信エラーの後の再試行の節が明確化されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Monitoring_deliveries_Understanding_delivery_failures.html#Retries_after_a_delivery_temporary_failure)
+一時的な配信エラーの後の再試行の節が明確化されました。[詳細を表示](../../delivery/using/understanding-delivery-failures.md)
 
-E メールコンテンツの定義の節に、デジタルコンテンツエディターの節へのリンクが追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/DLV_Sending_emails_Defining_the_email_content.html#Message_content)
+E メールコンテンツの定義の節に、デジタルコンテンツエディターの節へのリンクが追加されました。[詳細を表示](../../delivery/using/defining-the-email-content.md)
 
-トランザクションメッセージングのアーキテクチャの節が更新され、コントロールインスタンスと実行インスタンスは同じマシンにインストールできないことを説明する警告が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/MCE_Introduction_Transactional_messaging_architecture.html)
+トランザクションメッセージングのアーキテクチャの節が更新され、コントロールインスタンスと実行インスタンスは同じマシンにインストールできないことを説明する警告が追加されました。[詳細を表示](../../message-center/using/transactional-messaging-architecture.md)
 
-ワークフローの監視の節が更新され、ビルド 8700 ～ 8977（18.10）に関する注意事項が追加されました。これらのビルド用のワークフローヒートマップパッケージのインストール方法に関するテクニカルノートへのリンクも含まれます。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Monitoring_processes.html#About_the_Workflow_HeatMap)
+ワークフローの監視の節が更新され、ビルド 8700 ～ 8977（18.10）に関する注意事項が追加されました。これらのビルド用のワークフローヒートマップパッケージのインストール方法に関するテクニカルノートへのリンクも含まれます。[詳細を表示](../../workflow/using/heatmap.md)
 
-ワークフローのエンリッチメントアクティビティを使用してカスタムデータフィールドを含む E メールを送信する方法に関する使用例が追加されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Email_enrichment_with_custom_date_fields.html)
+ワークフローのエンリッチメントアクティビティを使用してカスタムデータフィールドを含む E メールを送信する方法に関する使用例が追加されました。[詳細を表示](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 
 機能に関するビデオが[ここ](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/overview.html)に移動されました。
-
-[Teradata](https://helpx.adobe.com/jp/campaign/kb/campaign_fda_teradata.html) と [MySQL 5.7](https://helpx.adobe.com/jp/campaign/kb/campaign_fda_mysql.html) に関する 2 つのテクニカルノートが追加されました。

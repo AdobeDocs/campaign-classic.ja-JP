@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 7e56e4f98ffab752f0b86bb8620fb1b4af6a3dca
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1185'
 ht-degree: 13%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 13%
 
 1. **setup.exeを実行します**。
 
-   このファイルをダウンロードするには、[ [ダウンロードセンター](https://support.neolane.net/)]リンクから[Adobe Campaignサポート]ページ(https://support.neolane.net/ **** )にアクセスします。
+   このファイルをダウンロードするには、ユーザーの資格情報を使用して [ソフトウェア配布ポータル](https://experience.adobe.com/downloads) に接続します。 Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
 1. インストールモードを選択します。「 **[!UICONTROL 更新」または「修復」を選択する]**
 1. 「**[!UICONTROL 次へ]**」をクリックします。
@@ -127,7 +127,7 @@ ht-degree: 13%
 
 ### 更新されたパッケージの取得 {#obtain-updated-packages}
 
-Adobe Campaignの両方の更新されたパッケージを回復することによる開始:[ [ダウンロードセンター](https://support.neolane.net/)]リンクから[Adobe Campaignサポート]ページ(https://support.neolane.net/ **** )に移動します。
+Adobe Campaignの両方の更新されたパッケージを回復することによる開始:ユーザーの資格情報を使用して [ソフトウェア配布ポータル](https://experience.adobe.com/downloads) に接続します。 Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
 
 ファイルは **nlserver6-v7-XXX.rpmです。**
 

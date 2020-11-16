@@ -1,8 +1,6 @@
 ---
 title: インスタンスのデプロイ
-seo-title: インスタンスのデプロイ
-description: インスタンスのデプロイ
-seo-description: null
+description: キャンペーン展開ウィザードの詳細を表示します
 page-status-flag: never-activated
 uuid: 5694b07a-6c1c-45a3-8a22-fd9da163c28c
 contentOwner: sauviat
@@ -12,7 +10,7 @@ content-type: reference
 topic-tags: initial-configuration
 discoiquuid: 71fc8bfc-40e0-4592-a540-bd6807ded3a0
 translation-type: tm+mt
-source-git-commit: 3acf2359c74a3dc4b18c8976fee14dcbaf3fa510
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
 workflow-type: tm+mt
 source-wordcount: '3203'
 ht-degree: 5%

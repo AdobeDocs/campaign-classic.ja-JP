@@ -9,11 +9,11 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: f449ccd5-3965-4ab8-b5a9-993f3260aba9
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '1003'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
+source-wordcount: '1018'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +37,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 * サーバーのサイズ機能は、ライセンスによって異なります。いずれの場合でも、最小限のデータを保持し、必要な期間だけデータを保持します（最長で 15 日）。
 * パスワードが期限切れになるのを避けるために、パスワード認証ではなく、キーベースの認証を使用します（パスワードの有効期間は 90 日間です）。さらに、キーベースの認証では、複数のエンティティを管理する場合などに、複数のキーを生成できます。一方、パスワード認証では、管理しているすべてのエンティティとパスワードを共有する必要があります。
 
-   サポートされているキーの形式は、SSH-2 RSA 2048 です。キーは、PyTTY（Windows）や ssh-keygen（Unix）などのツールを使用して生成できます。公開キーを Campaign サーバーにアップロードするために、[サポートチケット](https://support.neolane.net)を介してアドビサポートチームに公開キーを渡す必要があります。
+   サポートされているキーの形式は、SSH-2 RSA 2048 です。Keys can be generated with tools like PyTTY (Windows), or ssh-keygen (Unix).You will have to provide the public key to Adobe Support team via [Adobe Customer Care](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to have it uploaded on the Campaign server.
 
 * データを適切に削除するには、ワークフローを使用します（データを消費しているワークフローから保持を管理）。
 * SFTP アップロードやワークフローでバッチ処理を使用します。
@@ -45,7 +45,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 * 時々 SFTP にログインして、問題がないか直接確認します。
 * SFTP のディスク管理は、基本的に管理者の責任となります。
 * デフォルトでは、作成したすべてのフォルダーは自分の識別子に対してのみ読み取り／書き込みモードになります。Campaign からアクセスする必要のあるフォルダーを作成する場合は、グループ全体に対して読み取り／書き込み権限を付与するように必ず設定します。そうしないと、同じグループ内の別の識別子でワークフローが実行された場合に、セキュリティ上の理由により、ファイルを作成または削除できないことがあります。
-* SFTP 接続を開始しようとしているパブリック IP は、Campaign インスタンスの許可リストに登録されている必要があります。許可リストへの IP アドレスの追加は、[サポートチケット](https://support.neolane.net)を通じてリクエストできます。
+* SFTP 接続を開始しようとしているパブリック IP は、Campaign インスタンスの許可リストに登録されている必要があります。許可リストへのIPアドレスの追加は、 [Adobeカスタマーケアからリクエストできます](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
 
 >[!CAUTION]
 >
@@ -53,7 +53,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 
 ## アドビがホストする SFTP サーバーとの接続の問題 {#sftp-server-troubleshooting}
 
-以下の節では、アドビがホストする SFTP サーバーとの接続で問題が発生した場合の確認事項および[サポートチケット](https://support.neolane.net)を介してアドビサポートに提供する情報を示します。
+The section below lists the information to check and provide to the Adobe Support team via [Adobe Customer Care](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) when encountering connection issues with Adobe hosted SFTP servers.
 
 1. インスタンスが実行中であることを確認します。そのためには、ブラウザーを開き、インスタンスの **[!UICONTROL /r/test]** エンドポイントに対して **[!UICONTROL GET]** 呼び出しをおこないます。
 

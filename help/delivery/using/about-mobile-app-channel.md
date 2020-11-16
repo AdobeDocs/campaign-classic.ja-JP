@@ -9,9 +9,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 6b3fe8b9-dae6-4f8e-83e1-3376c0fe72a5
-translation-type: ht
-source-git-commit: fd75f7f75e8e77d7228233ea311dd922d100417c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
+workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ Adobe Campaign サーバーが、次のポートで APNs サーバーと通信�
 
    >[!NOTE]
    >
-   > Campaign 20.3 リリース以降、iOS レガシーバイナリコネクタは非推奨となりました。このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/migrate-to-http2.html)
+   > Campaign 20.3 リリース以降、iOS レガシーバイナリコネクタは非推奨となりました。このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
 
 正しく動作することを確認するには、次のコマンドを使用します。
 

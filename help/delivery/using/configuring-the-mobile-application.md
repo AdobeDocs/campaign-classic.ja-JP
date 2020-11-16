@@ -9,9 +9,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
-translation-type: ht
-source-git-commit: 16985c1ddcd380cfc1ca4960b35bb5e78628f464
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
+workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
    >[!NOTE]
    >
-   > Campaign 20.3 リリース以降、iOS レガシーバイナリコネクタは非推奨となりました。このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/migrate-to-http2.html)
+   > Campaign 20.3 リリース以降、iOS レガシーバイナリコネクタは非推奨となりました。このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
 
    ![](assets/nmac_connectors.png)
 
@@ -109,7 +109,7 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
 1. 「**[!UICONTROL 認証モード]**」を選択します。認証モードは、後でモバイルアプリケーションの「**[!UICONTROL 証明書]**」タブで変更することができます。
    * **[!UICONTROL 証明書ベースの認証]**：「**[!UICONTROL 証明書を入力...]**」をクリックし、p12 キーを選択して、モバイルアプリケーション開発者から提供されたパスワードを入力します。
-   * **[!UICONTROL トークンベースの認証]**：接続設定の&#x200B;**[!UICONTROL キー ID]**、**[!UICONTROL チーム ID]**、**[!UICONTROL バンドル ID]** を入力し、「**[!UICONTROL 秘密鍵を入力]**」をクリックして p8 証明書を選択します。**[!UICONTROL トークンベースの認証]**&#x200B;について詳しくは、[Apple のドキュメント](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apnsToken-based)を参照してください。
+   * **[!UICONTROL トークンベースの認証]**：接続設定の&#x200B;**[!UICONTROL キー ID]**、**[!UICONTROL チーム ID]**、**[!UICONTROL バンドル ID]** を入力し、「**[!UICONTROL 秘密鍵を入力]**」をクリックして p8 証明書を選択します。**[!UICONTROL トークンベースの認証]**&#x200B;について詳しくは、[Apple のドキュメント](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns)を参照してください。
 
    >[!NOTE]
    >

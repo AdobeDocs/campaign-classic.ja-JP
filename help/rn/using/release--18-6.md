@@ -11,11 +11,11 @@ audience: rn
 content-type: reference
 topic-tags: latest-release-notes
 discoiquuid: 79a6d3cf-2425-49b9-9b92-b56be26438bf
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+workflow-type: tm+mt
+source-wordcount: '811'
+ht-degree: 98%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新ビルドにアップグレードする](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)か、[テクニカルサポート](https://support.neolane.net/)にお問い合わせください。
+>このビルドはリコールされました。最新のビルドに [アップグレードするか](../../production/using/build-upgrade.md) 、 [Adobeカスタマーケアにお問い合わせください](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
 
-**新機能?**
+**新機能**
 
 <table> 
  <thead> 
@@ -42,7 +42,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> Query Banding<br /> </td> 
-   <td> <p>複数のキャンペーンユーザーが同じ FDA Teradata 外部アカウントに接続したときに、各ユーザーに固有の query band（キー/値のペア）を渡すことができるようになりました。Campaign ユーザーが Teradata データベースに対してクエリを実行するたびに、Adobe Campaign はそのユーザーに関連付けられたメタデータを送信できます。これらのデータはキーと値のリストで構成されており、Teradata 管理者が監査目的やアクセス権限の管理などに利用できます。</p><p>詳しくは、<a href="https://docs.campaign.adobe.com/doc/AC/en/PTF_Administration_basics_External_accounts.html#Teradata_external_account">詳細ドキュメント</a>を参照してください。</p> </td>
+   <td> <p>複数のキャンペーンユーザーが同じ FDA Teradata 外部アカウントに接続したときに、各ユーザーに固有の query band（キー/値のペア）を渡すことができるようになりました。Campaign ユーザーが Teradata データベースに対してクエリを実行するたびに、Adobe Campaign はそのユーザーに関連付けられたメタデータを送信できます。これらのデータはキーと値のリストで構成されており、Teradata 管理者が監査目的やアクセス権限の管理などに利用できます。</p><p>詳しくは、<a href="../../installation/using/external-accounts.md">詳細ドキュメント</a>を参照してください。</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +84,7 @@ Query Banding について詳しくは、以下の記事を参照してくださ
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新ビルドにアップグレードする](https://docs.campaign.adobe.com/doc/AC/getting_started/JA/buildUpgrade.html)か、[テクニカルサポート](https://support.neolane.net/)にお問い合わせください。
+>このビルドはリコールされました。[最新ビルドにアップグレードする](../../production/using/build-upgrade.md)か、[テクニカルサポート](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **新機能?**
 

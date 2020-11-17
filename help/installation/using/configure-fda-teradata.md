@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: connectors
 discoiquuid: dd3d14cc-5153-428d-a98a-32b46f0fe811
 translation-type: tm+mt
-source-git-commit: 022fe39e849ceafa6678120ff455d07432fb9a1f
+source-git-commit: 30eaabba8962c518c734cc4e9ad27065cfe9d467
 workflow-type: tm+mt
 source-wordcount: '1639'
 ht-degree: 80%
@@ -96,11 +96,9 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 
    * **[!UICONTROL データベース]**:データベースの名前（オプション）
 
-   * 
-      * **[!UICONTROL オプション]**:Teradata経由で渡すオプションです。 次の形式を使用します。&#39;parameter=value&#39;. 値の区切り文字としてセミコラムを使用します。
-   * 
-      * **[!UICONTROL タイムゾーン]**:Teradataで設定されるタイムゾーン。 [詳細情報](#timezone)
+   * **[!UICONTROL オプション]**:Teradata経由で渡すオプションです。 次の形式を使用します。&#39;parameter=value&#39;. 値の区切り文字としてセミコラムを使用します。
 
+   * **[!UICONTROL タイムゾーン]**:Teradataで設定されるタイムゾーン。 [詳細情報](#timezone)
 
 ### Query Banding
 

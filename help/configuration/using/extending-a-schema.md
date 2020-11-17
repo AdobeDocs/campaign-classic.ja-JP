@@ -1,8 +1,6 @@
 ---
 title: スキーマの拡張
-seo-title: スキーマの拡張
-description: スキーマの拡張
-seo-description: null
+description: スキーマの拡張方法を学ぶ
 page-status-flag: never-activated
 uuid: 1767b9de-1d72-4ece-aeec-87f83862d81c
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: editing-schemas
 discoiquuid: 1c9af980-4e6b-44dc-af61-dd284863ec7d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 30eaabba8962c518c734cc4e9ad27065cfe9d467
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 

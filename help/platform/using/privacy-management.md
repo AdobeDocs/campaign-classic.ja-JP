@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 translation-type: tm+mt
-source-git-commit: c2c7398c27f1bc7edf9adb0fc07409d2e525b168
+source-git-commit: 9240b6e194dbc26fbf37a9ecf88a1ae03f9e7a75
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '897'
 ht-degree: 63%
 
 ---
@@ -24,7 +24,7 @@ Adobe Campaign には、プライバシー規制（GDPR、CCPA、PDPA、LGPD な
 
 * This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
-* また、プライバシー([同意、データ保持、ユーザーの役割](#consent-retention-roles))を管理するための重要な機能に関する情報や、Adobe Campaignを使用する際のプライバシーコンプライアンスに役立つベストプラクティスも含まれています。
+* また、プライバシー([同意、保持、役割](#consent-retention-roles))を管理するための重要な機能に関する情報や、Adobe Campaignを使用する際のプライバシーコンプライアンスに役立つベストプラクティスも含まれています。
 
 ## プライバシー管理に関する規制 {#privacy-management-regulations}
 
@@ -74,7 +74,7 @@ In addition to the most recent **Right to Access** and **Right to be Forgotten**
 
 同意の管理について詳しくは、 [詳細なドキュメントを参照してください](../../delivery/using/managing-subscriptions.md)。
 
-Adobe Campaignが提供する同意管理ツールに加えて、個人情報の販売に対して消費者がオプトアウトしたかどうかを追跡できます。 [こちらの節](../../platform/using/privacy-requests.md#sale-of-personal-information)を参照してください。
+Adobe Campaignが提供する同意管理ツールに加えて、個人情報の販売に対して消費者がオプトアウトしたかどうかを追跡できます。 [こちらの節](../../platform/using/privacy-requests.md##sale-of-personal-information-ccpa)を参照してください。
 
 ### データリテンション {#data-retention}
 

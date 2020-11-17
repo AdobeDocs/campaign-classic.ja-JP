@@ -12,11 +12,11 @@ discoiquuid: 7b5a1ad6-da5a-4cbd-be51-984c07c8d0b3
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9844616f417608051bbff2593d6124d8ff83008c
-workflow-type: ht
-source-wordcount: '1731'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dfa3938433fcd67eb8f38269e82ee1102eda41ce
+workflow-type: tm+mt
+source-wordcount: '1807'
+ht-degree: 94%
 
 ---
 
@@ -29,6 +29,14 @@ ht-degree: 100%
 >
 >iOS 用にアプリを設定する方法と iOS 用の配信を作成する方法については、[この節](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
 
+主な手順は次のとおりです。
+
+1. [Android外部アカウントの設定](#configuring-external-account-android)
+1. [Androidサービスの設定](#configuring-android-service)
+1. [キャンペーンでモバイルアプリを作成する](#creating-android-app)
+1. [追加データを使用してアプリスキーマを拡張する](#extend-subscription-schema)
+
+その後、Androidリッチ通知を [作成できます](#creating-android-delivery)。
 
 ## Android 外部アカウントの設定 {#configuring-external-account-android}
 
@@ -94,23 +102,17 @@ Android の場合、2 種類のコネクタを使用できます。
    >
    > **[!UICONTROL 統合キー]**&#x200B;は、文字列値を使用して完全にカスタマイズできますが、SDK で指定されたものと完全に同じにする必要があります。
 
-1. 次のいずれかの **[!UICONTROL API バージョン]**&#x200B;を選択します。
-   * HTTP。詳しくは[この節](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http)を参照してください。
-   * HTTPV1。詳しくは[この節](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)を参照してください。
+1. Select the **[!UICONTROL API version]**:
 
-1. **[!UICONTROL Firebase Cloud Messaging for Android の接続設定]**&#x200B;のフィールドに入力します。
+   * HTTPV1。設定については、この [節で説明します](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)。
+   * HTTP（レガシー）。 設定については、この [節で説明します](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http)。
+
+
+1. Fill in the **[!UICONTROL Firebase Cloud Messaging the Android connection settings]** fields.
 
 1. 「**[!UICONTROL 完了]**」、「**[!UICONTROL 保存]**」の順にクリックします。これで、Campaign Classic で Android アプリケーションを使用する準備が整いました。
 
 デフォルトでは、Adobe Campaign は&#x200B;**[!UICONTROL 購読者のアプリケーション（nms:appSubscriptionRcp）]**&#x200B;テーブルの「**[!UICONTROL ユーザー ID]**」（@userKey）フィールドにキーを保存します。このキーによって購読情報を受信者にリンクできます。追加データ（複雑な紐付けキーなど）を収集するには、次の設定を適用する必要があります。
-
-1. 「**[!UICONTROL 購読者のアプリケーション（nms:appsubscriptionRcp）]**」スキーマの拡張を作成し、新しいフィールドを定義します。
-
-1. 「**[!UICONTROL 購読パラメーター]**」タブでマッピングを定義します。
-
-   >[!CAUTION]
-   >
-   >「**[!UICONTROL 購読パラメーター]**」タブの設定名が、モバイルアプリケーションコードの設定名と同じであることを確認します。[Campaign SDK をモバイルアプリケーションに統合する](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)の節を参照してください。
 
 ### API バージョンを選択します。{#select-api-version}
 
@@ -126,7 +128,7 @@ HTTP v1 API バージョンを設定するには、次の手順に従います�
 
 1. 「**[!UICONTROL プロジェクトの詳細を抽出するプロジェクトの json ファイルを読み込む...]**」をクリックして、JSON キーファイルを直接読み込みます。JSON ファイルの抽出方法については、[このページ](https://firebase.google.com/docs/admin/setup#initialize-sdk)を参照してください。
 
-1. 次の詳細を手動で入力することもできます。
+   次の詳細を手動で入力することもできます。
    * **[!UICONTROL プロジェクト ID]**
    * **[!UICONTROL 秘密鍵]**
    * **[!UICONTROL クライアント E メール]**
@@ -179,6 +181,19 @@ HTTP（レガシー）API バージョンを設定するには、次の手順に
 | 通知メッセージ | title、body、android_channel_id、icon、sound、tag、color、click_action <br> | dryRun |
 
 <br>
+
+## appsubscriptionRcpスキーマの拡張 {#extend-subscription-schema}
+
+appsubscriptionRcpを拡張して、アプリのパラメーターをキャンペーンデータベースに保存するための新しい **** 追加フィールドを定義する必要があります。 これらのフィールドは、例えば、パーソナライゼーションに使用されます。 手順は次のとおりです。
+
+1. 「**[!UICONTROL 購読者のアプリケーション（nms:appsubscriptionRcp）]**」スキーマの拡張を作成し、新しいフィールドを定義します。Learn more about schema extension in [this page](../../configuration/using/about-schema-edition.md)
+
+1. 「**[!UICONTROL 購読パラメーター]**」タブでマッピングを定義します。
+
+   >[!CAUTION]
+   >
+   >「**[!UICONTROL 購読パラメーター]**」タブの設定名が、モバイルアプリケーションコードの設定名と同じであることを確認します。[Campaign SDK をモバイルアプリケーションに統合する](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)の節を参照してください。
+
 
 ## Android のリッチ通知の作成 {#creating-android-delivery}
 

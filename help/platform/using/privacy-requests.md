@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 discoiquuid: 14369acf-9149-4649-947a-c16289e35eb6
 translation-type: tm+mt
-source-git-commit: c2c7398c27f1bc7edf9adb0fc07409d2e525b168
+source-git-commit: e0ca252aceb0f2abca4a1324c5e4ece038927533
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '2591'
 ht-degree: 46%
 
 ---
@@ -82,7 +82,7 @@ Two new folders, specific to Privacy, are created under **[!UICONTROL Administra
 
 標準では、E メール、電話、携帯電話の 3 つの名前空間を使用できます。別の名前空間（受信者用のカスタムフィールドなど）が必要な場合、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 名前空間]**&#x200B;で新しく作成することができます。
 
-## プライバシーリクエストの作成 {#create-privacy-request-ui}
+## Creating a Privacy request {#create-privacy-request-ui}
 
 The **Adobe Campaign interface** allows you to create your Privacy requests and track their evolution. 新しいプライバシーリクエストを作成するには、次の手順に従います。
 
@@ -129,7 +129,7 @@ When performing a Delete or Access Privacy request, Adobe Campaign searches all 
 >プロファイルの削除ワークフローを使用してプライバシーバッチ要求を実行する場合は、次のコメントを考慮してください。
 >* ワークフローを使用したプロファイル削除では、子テーブルが処理されません。
 >* すべての子テーブルに対して削除処理をおこなう必要があります。
->* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** perform the deletion. パフォーマンス上の理由から、削除するプロファイルの数は 1 日あたり 200 個までに制限することをお勧めします。
+>* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** workflow perform the deletion. パフォーマンス上の理由から、削除するプロファイルの数は 1 日あたり 200 個までに制限することをお勧めします。
 
 
 ### プライバシー要求のステータス {#privacy-request-statuses}
@@ -443,14 +443,14 @@ For this to work, you need to extend the Profiles table and add an **[!UICONTROL
 
 その後、オプトアウトしたプロファイルの個人情報を第三者に販売しないようにする必要があります。
 
-オプトアウトステータスを変更するには、「 **[!UICONTROL プロファイルとターゲット]** / **[!UICONTROL 受信者]** 」で、受信者を選択します。 「 **[!UICONTROL 一般]** 」タブには、前の節で設定したフィールドが表示されます。
+1. オプトアウトステータスを変更するには、「 **[!UICONTROL プロファイルとターゲット]** / **[!UICONTROL 受信者]** 」で、受信者を選択します。 「 **[!UICONTROL 一般]** 」タブには、前の節で設定したフィールドが表示されます。
 
-![](assets/privacy-ccpa-5.png)
+   ![](assets/privacy-ccpa-5.png)
 
-受信者リストを設定して、オープアウト列を表示します。 リストの設定方法については、 [詳細なドキュメントを参照してください](../../platform/using/adobe-campaign-workspace.md#configuring-lists)。
+1. 受信者リストを設定して、オープアウト列を表示します。 リストの設定方法については、 [詳細なドキュメントを参照してください](../../platform/using/adobe-campaign-workspace.md#configuring-lists)。
 
-![](assets/privacy-ccpa-6.png)
+   ![](assets/privacy-ccpa-6.png)
 
-列をクリックすると、オプトアウト情報に従って受信者を並べ替えることができます。 オプトアウトした受信者のみを表示するフィルターを作成することもできます。 For more on creating filters, see [this section](../../platform/using/creating-filters.md).
+1. 列をクリックすると、オプトアウト情報に従って受信者を並べ替えることができます。 オプトアウトした受信者のみを表示するフィルターを作成することもできます。 For more on creating filters, see [this section](../../platform/using/creating-filters.md).
 
-![](assets/privacy-ccpa-7.png)
+   ![](assets/privacy-ccpa-7.png)

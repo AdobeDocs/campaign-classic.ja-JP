@@ -3,10 +3,10 @@ keywords: Campaign Classic;home;popular topics
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 75ab345e3b9360229ecc3ba9529a33e320228fa0
+source-git-commit: 30eaabba8962c518c734cc4e9ad27065cfe9d467
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 85%
+ht-degree: 76%
 
 ---
 
@@ -17,10 +17,9 @@ ht-degree: 85%
 
 ## 新着情報
 
-* **[Adobe Experience Cloudトリガー統合の更新](integrations/using/configuring-adobe-io.md)**<br/> レガシーoAuth認証サービスが提供終了になりました。 AdobeI/Oに移行する方法を説明します。
+* **[Adobe Experience Cloudトリガー統合の更新](integrations/using/configuring-adobe-io.md)**<br/> レガシーoAuth認証サービスが提供終了になりました。 AdobeI/Oへの移行方法
 
-* **[HTTP/2 ベースの APNs プロバイダー API への移行](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)**<br/>
-レガシーバイナリプロトコルから HTTP/2 ベースの APNs プロバイダー API に移行する方法を説明しています。
+* **[HTTP/2ベースのAPNsプロバイダAPIに移行するレガシーバイナリプロトコルからHTTP/2ベースのAPNsプロバイダAPIに移行する方法を学習します](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)**<br/> 。
 
 * **[メッセージへの顔文字の追加](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>
 メッセージと件名に顔文字を挿入できるようになりました。

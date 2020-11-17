@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Classic ドキュメントのアップデート
-description: このページには、Adobe Campaign Classic の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
+description: このページでは、Adobe Campaign Classicの各リリースの新機能とドキュメントの更新をリストします
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 544fa260f9b35239a8fa8fbc141463a7b1898026
+source-git-commit: 58b7070ad765ba072b9c82e75ab1100f8cb38f3a
 workflow-type: tm+mt
-source-wordcount: '3544'
-ht-degree: 97%
+source-wordcount: '3584'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +25,12 @@ ht-degree: 97%
 その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
 
 ## 2020 年 11 月 {#nov-2020}
+
+キャンペーンデータモデルの概要が改善され、再構成されました。 [詳細を表示](../../configuration/using/about-data-model.md)
+
+外部アカウント設定は [このセクションに移動されました](../../installation/using/external-accounts.md)。
+
+キャンペーンFederated Data Access(FDA)のドキュメントが改善され、各外部データベース設定の詳細が追加され、 [このセクションに移りました](../../installation/using/about-fda.md)。
 
 [キャンペーン20.2.3リリース](../../rn/using/release--20-2.md#release-20-2-3-build-9182) は、GA(General Availability)に移行しました。
 

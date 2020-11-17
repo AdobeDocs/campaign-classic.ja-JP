@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: additional-configurations
 discoiquuid: 34ee3d99-4ffb-4279-b994-5ab7abc7cf06
 translation-type: tm+mt
-source-git-commit: 270c86a8a15ebe38907be258aed9d245d2a49b6d
+source-git-commit: 544fa260f9b35239a8fa8fbc141463a7b1898026
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 0%
 「ミッドソーシング」アーキテクチャは、 [ミッドソーシングの導入時に表示されます](../../installation/using/mid-sourcing-deployment.md)。
 
 ミッドソーシングサーバのインストールは、通常の方法でサーバをインストールする場合と同じプロセスに従います（標準設定を参照）。 独自のデータベースを持つ独立したインスタンスで、配信の実行に使用できます。 簡単に言うと、リモートインスタンスがミッドソーシングモードで配信を実行できるようにするための追加の設定が含まれています。
+
+>[!CAUTION]
+>
+>ミッドソーシングサーバーがセットアップされ、 [同期ワークフロー](../../workflow/using/transfer-to-mid-sourcing.md) が初めて実行されたら、ミッドソーシング外部アカウントの内部名を更新しないようにしてください。
 
 ## インスタンスのインストールおよび設定手順 {#steps-for-installing-and-configuring-an-instance}
 

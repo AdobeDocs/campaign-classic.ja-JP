@@ -1,8 +1,6 @@
 ---
 title: ターゲットマッピング
-seo-title: ターゲットマッピング
-description: ターゲットマッピング
-seo-description: null
+description: ターゲットマッピングの作成方法を学びます。
 page-status-flag: never-activated
 uuid: a7dad8eb-c191-4f10-b7d8-63e0699603b7
 contentOwner: sauviat
@@ -12,10 +10,10 @@ content-type: reference
 topic-tags: use-a-custom-recipient-table
 discoiquuid: ff7e6f72-7605-41ee-b25a-1e4618e674d7
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 30eaabba8962c518c734cc4e9ad27065cfe9d467
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 2%
 
 ---
 

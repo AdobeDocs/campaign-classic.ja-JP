@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 544fa260f9b35239a8fa8fbc141463a7b1898026
 workflow-type: tm+mt
-source-wordcount: '3513'
-ht-degree: 98%
+source-wordcount: '3544'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 98%
 
 [キャンペーン20.2.3リリース](../../rn/using/release--20-2.md#release-20-2-3-build-9182) は、GA(General Availability)に移行しました。
 
-「プライバシー」セクションは、2つの新しいセクションで移動され、強化されました。 [プライバシー管理](../../platform/using/privacy-management.md) / [プライバシー要求の](../../platform/using/privacy-requests.md)管理。
+「プライバシー」セクションは、2つの新しいページで移動され、強化されました。 [プライバシー管理](../../platform/using/privacy-management.md) / [プライバシー要求の](../../platform/using/privacy-requests.md)管理。
+
+ミッドソーシングサーバの設定ページに、外部アカウントの内部名を一旦設定した後に更新しないように指定する注記が追加されました。 [詳細を表示](../../installation/using/mid-sourcing-server.md)
 
 ## 2020 年 10 月 {#oct-2020}
 

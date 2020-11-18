@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: latest-documentation-updates
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 translation-type: tm+mt
-source-git-commit: 58b7070ad765ba072b9c82e75ab1100f8cb38f3a
+source-git-commit: ebec481d5a018d06e47c782627e9a9064cb0dd64
 workflow-type: tm+mt
-source-wordcount: '3584'
-ht-degree: 96%
+source-wordcount: '3604'
+ht-degree: 95%
 
 ---
 
@@ -37,6 +37,8 @@ ht-degree: 96%
 「プライバシー」セクションは、2つの新しいページで移動され、強化されました。 [プライバシー管理](../../platform/using/privacy-management.md) / [プライバシー要求の](../../platform/using/privacy-requests.md)管理。
 
 ミッドソーシングサーバの設定ページに、外部アカウントの内部名を一旦設定した後に更新しないように指定する注記が追加されました。 [詳細を表示](../../installation/using/mid-sourcing-server.md)
+
+外部SFTPサーバーへのパスを指定する際に使用する構文に関する情報が追加されました。 [詳細を表示](../../platform/using/sftp-server-usage.md#external-SFTP-server)
 
 ## 2020 年 10 月 {#oct-2020}
 

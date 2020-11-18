@@ -10,21 +10,37 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: f449ccd5-3965-4ab8-b5a9-993f3260aba9
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: ebec481d5a018d06e47c782627e9a9064cb0dd64
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 92%
+source-wordcount: '1097'
+ht-degree: 79%
 
 ---
 
 
 # SFTP サーバーのベストプラクティスとトラブルシューティング {#sftp-server-usage}
 
-## SFTP サーバーのベストプラクティス {#sftp-server-best-practices}
+## SFTPサーバーのグローバルな推奨 {#global-recommendations}
 
-ETL のためのファイルやデータを管理する際、これらのファイルはアドビがホストする SFTP サーバー上に保存されます。この SFTP は、ファイルの保持や削除を制御できる一時的なストレージスペースになるように設計されています。
+ETL のためのファイルやデータを管理する際、これらのファイルはアドビがホストする SFTP サーバー上に保存されます。SFTPサーバーを使用する場合は、次の推奨事項に従ってください。
 
-このスペースの使用または監視が適切におこなわれていない場合、サーバー上の使用可能な物理スペースがすぐにいっぱいになって、その後のアップロードでファイルが切り詰められる可能性があります。スペースがいっぱいになると、自動パージがトリガーされ、SFTP ストレージから一番古いファイルが消去されることがあります。
+* パスワードが期限切れになるのを避けるために、パスワード認証ではなく、キーベースの認証を使用します（パスワードの有効期間は 90 日間です）。さらに、キーベースの認証では、複数のエンティティを管理する場合などに、複数のキーを生成できます。一方、パスワード認証では、管理しているすべてのエンティティとパスワードを共有する必要があります。
+
+   サポートされているキーの形式は、SSH-2 RSA 2048 です。Keys can be generated with tools like PyTTY (Windows), or ssh-keygen (Unix).You will have to provide the public key to Adobe Support team via [Adobe Customer Care](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to have it uploaded on the Campaign server.
+
+* SFTP アップロードやワークフローでバッチ処理を使用します。
+
+* エラー／例外を処理します。
+
+* デフォルトでは、作成したすべてのフォルダーは自分の識別子に対してのみ読み取り／書き込みモードになります。Campaign からアクセスする必要のあるフォルダーを作成する場合は、グループ全体に対して読み取り／書き込み権限を付与するように必ず設定します。そうしないと、同じグループ内の別の識別子でワークフローが実行された場合に、セキュリティ上の理由により、ファイルを作成または削除できないことがあります。
+
+* SFTP 接続を開始しようとしているパブリック IP は、Campaign インスタンスの許可リストに登録されている必要があります。許可リストへのIPアドレスの追加は、 [Adobeカスタマーケアからリクエストできます](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
+
+## データベース使用のベストプラクティス {#sftp-server-best-practices}
+
+SFTPサーバーは、保存管理やファイルの削除を管理できる一時的なストレージ領域にするように設計されています。
+
+正しく使用または監視されない場合、これらの領域は、サーバー上で使用可能な物理領域をすぐに埋め、以降のアップロードでファイルが切り捨てられる可能性があります。 スペースがいっぱいになると、自動パージがトリガーされ、SFTP ストレージから一番古いファイルが消去されることがあります。
 
 こうした問題を回避するために、アドビでは以下のベストプラクティスに従うことをお勧めします。
 
@@ -35,21 +51,21 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 >インスタンスが AWS でホストされているかどうかを確認するには、[この節](https://docs.adobe.com/content/help/ja-JP/control-panel/using/faq.html#ims-org-id)に記載されている手順に従います。
 
 * サーバーのサイズ機能は、ライセンスによって異なります。いずれの場合でも、最小限のデータを保持し、必要な期間だけデータを保持します（最長で 15 日）。
-* パスワードが期限切れになるのを避けるために、パスワード認証ではなく、キーベースの認証を使用します（パスワードの有効期間は 90 日間です）。さらに、キーベースの認証では、複数のエンティティを管理する場合などに、複数のキーを生成できます。一方、パスワード認証では、管理しているすべてのエンティティとパスワードを共有する必要があります。
-
-   サポートされているキーの形式は、SSH-2 RSA 2048 です。Keys can be generated with tools like PyTTY (Windows), or ssh-keygen (Unix).You will have to provide the public key to Adobe Support team via [Adobe Customer Care](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to have it uploaded on the Campaign server.
 
 * データを適切に削除するには、ワークフローを使用します（データを消費しているワークフローから保持を管理）。
-* SFTP アップロードやワークフローでバッチ処理を使用します。
-* エラー／例外を処理します。
-* 時々 SFTP にログインして、問題がないか直接確認します。
-* SFTP のディスク管理は、基本的に管理者の責任となります。
-* デフォルトでは、作成したすべてのフォルダーは自分の識別子に対してのみ読み取り／書き込みモードになります。Campaign からアクセスする必要のあるフォルダーを作成する場合は、グループ全体に対して読み取り／書き込み権限を付与するように必ず設定します。そうしないと、同じグループ内の別の識別子でワークフローが実行された場合に、セキュリティ上の理由により、ファイルを作成または削除できないことがあります。
-* SFTP 接続を開始しようとしているパブリック IP は、Campaign インスタンスの許可リストに登録されている必要があります。許可リストへのIPアドレスの追加は、 [Adobeカスタマーケアからリクエストできます](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
 
->[!CAUTION]
->
->独自の SFTP サーバーを使用する場合は、上記の推奨事項にできるだけ従ってください。
+* 時々 SFTP にログインして、問題がないか直接確認します。
+
+* SFTP のディスク管理は、基本的に管理者の責任となります。
+
+## External SFTP server usage {#external-SFTP-server}
+
+独自のSFTPサーバーを使用する場合は、上記の推奨事項にできるだけ従うようにしてください。
+
+また、Campaign Classicで外部SFTPサーバーへのパスを指定する場合、パスの構文はSFTPサーバーのオペレーティングシステムに応じて異なります。
+
+* SFTPサーバーが **Windows上にある場合は**、常に相対パスを使用します。
+* STPサーバが **Linux**&#x200B;上にある場合は、常にホームに対する相対パス（「～/」で始まる）か、絶対パス（「/」で始まる）を使用します。
 
 ## アドビがホストする SFTP サーバーとの接続の問題 {#sftp-server-troubleshooting}
 

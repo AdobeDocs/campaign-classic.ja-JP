@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dfa3938433fcd67eb8f38269e82ee1102eda41ce
+source-git-commit: a69c9132a776eac5591bbbac0c89d6374047bb17
 workflow-type: tm+mt
 source-wordcount: '1807'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
@@ -102,11 +102,7 @@ Android の場合、2 種類のコネクタを使用できます。
    >
    > **[!UICONTROL 統合キー]**&#x200B;は、文字列値を使用して完全にカスタマイズできますが、SDK で指定されたものと完全に同じにする必要があります。
 
-1. Select the **[!UICONTROL API version]**:
-
-   * HTTPV1。設定については、この [節で説明します](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)。
-   * HTTP（レガシー）。 設定については、この [節で説明します](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http)。
-
+1. 次の **[!UICONTROL APIバージョンを選択します]**。HTTP v1またはHTTP （レガシー）。 これらの設定については、 [この節で説明します](#select-api-version)
 
 1. Fill in the **[!UICONTROL Firebase Cloud Messaging the Android connection settings]** fields.
 
@@ -118,9 +114,10 @@ Android の場合、2 種類のコネクタを使用できます。
 
 サービスと新しいモバイルアプリケーションを作成したら、選択された API バージョンに応じてモバイルアプリケーションを設定する必要があります。
 
-サービスおよびモバイルアプリケーションの作成について詳しくは、[この節](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service)を参照してください。
+* **HTTP v1** の設定については、この [節で詳しく説明します](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)。
+* **HTTP（レガシー）** 設定については、この [節で詳しく説明します](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http)。
 
-#### HTTP v1 API バージョンの使用{#android-service-httpv1}
+#### HTTP v1 APIの設定{#android-service-httpv1}
 
 HTTP v1 API バージョンを設定するには、次の手順に従います。
 
@@ -157,7 +154,7 @@ HTTP v1 API バージョンを設定するには、次の手順に従います�
 <br>
 <br>
 
-#### HTTP API バージョン{#android-service-http}
+#### HTTP（レガシー）APIの設定{#android-service-http}
 
 HTTP（レガシー）API バージョンを設定するには、次の手順に従います。
 

@@ -20,10 +20,10 @@ ht-degree: 78%
 
 # Azure Synapse へのアクセスの設定 {#configure-access-to-azure-synapse}
 
-キャンペーン [Federated Data Access](../../installation/using/about-fda.md) (FDA)オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って、Microsoft Azure Synapse Analyticsへのアクセスを構成します。
+キャンペーン [Federated Data Access](../../installation/using/about-fda.md) (FDA)オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って、MicrosoftAzure synapse分析へのアクセスを設定します。
 
-1. CentOS [、](#azure-centos)Windows [](#azure-windows) 、 [DebianでAzure Synapseを構成します](#azure-debian)
-1. キャンペーンでAzure Synapse [外部アカウント](#azure-external) を構成します
+1. CentOS [、](#azure-centos)Windows [](#azure-windows) 、 [DebianでのAzure synapseの設定](#azure-debian)
+1. キャンペーンでのAzure synapse [外部アカウントの設定](#azure-external)
 
 ## CentOS での Azure Synapse {#azure-centos}
 
@@ -34,7 +34,7 @@ ht-degree: 78%
 >* バージョン 13.0 は Red Hat 6 および 7 で動作します。
 
 
-CentOSでAzure Synapseを構成するには、次の手順に従います。
+CentOSでAzure synapseを設定するには、次の手順に従います。
 
 1. まず、ODBC ドライバーをインストールします。こちらの[ページ](https://www.microsoft.com/en-us/download/details.aspx?id=50420)にあります。
 

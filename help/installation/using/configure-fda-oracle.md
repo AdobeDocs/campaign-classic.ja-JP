@@ -1,6 +1,6 @@
 ---
 title: Oracle へのアクセスの設定
-description: FDAでのOracleへのアクセスの設定方法
+description: FDAでのOracleへのアクセスを設定する方法を学びます。
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat

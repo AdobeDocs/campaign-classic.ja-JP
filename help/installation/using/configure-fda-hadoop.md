@@ -1,6 +1,6 @@
 ---
 title: Hadoop へのアクセスの設定
-description: FDAでのHadoopへのアクセスを設定する方法
+description: FDAでのHadoopへのアクセスを設定する方法を学びます。
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat
@@ -22,7 +22,7 @@ ht-degree: 82%
 
 キャンペーン **Federated Data Access** (FDA)オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って、Hadoopへのアクセスを設定します。
 
-1. Hadoopデータベース [の設定](#configuring-hadoop)
+1. [Hadoopデータベースの設定](#configuring-hadoop)
 1. キャンペーンでのHadoop [外部アカウントの設定](#hadoop-external)
 
 ## Hadoop 3.0 の設定 {#configuring-hadoop}
@@ -87,9 +87,9 @@ FDA で Hadoop 外部データベースに接続するには、Adobe Campaign �
 
 ## Hadoop 2.1 の設定 {#configure-access-hadoop-2}
 
-Hadoop 2.1に接続する必要がある場合は、 [Windows](#for-windows) または [Linuxで次に説明する手順に従います](#for-linux)。
+hadoop2.1に接続する必要がある場合は、 [Windows](#for-windows) または [Linuxで次に説明する手順に従います](#for-linux)。
 
-### Windows用Hadoop 2.1 {#for-windows}
+### Windows用hadoop2.1 {#for-windows}
 
 1. Windows 用の ODBC ドライバーと [Azure HD Insight](https://www.microsoft.com/en-us/download/details.aspx?id=40886) ドライバーをインストールします。
 1. ODBC DataSource Adminstrator ツールを実行して、DSN（データソース名）を作成します。ユーザーが変更できる Hive 用 System DSN サンプルが提供されています。
@@ -105,7 +105,7 @@ Hadoop 2.1に接続する必要がある場合は、 [Windows](#for-windows) ま
 
 1. Create the Hadoop external account, as detailed in [this section](#hadoop-external).
 
-### Hadoop 2.1（Linux用） {#for-linux}
+### Linux用hadoop2.1 {#for-linux}
 
 1. Linux 用の unixODBC をインストールします。
 

@@ -1,6 +1,6 @@
 ---
 title: Teradata へのアクセスの設定
-description: FDAでTeradataへのアクセスを設定する方法を説明します
+description: FDAでのTeradataへのアクセスを設定する方法を学びます。
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat
@@ -22,13 +22,13 @@ ht-degree: 80%
 
 キャンペーン [Federated Data Access](../../installation/using/about-fda.md) (FDA)オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って、Teradataへのアクセスを設定します。
 
-1. Teradataドライバーのインスト [ールと構成](#teradata-config)
+1. [Teradataドライバのインストールと構成](#teradata-config)
 1. キャンペーンでのTeradata [外部アカウントの設定](#teradata-external)
-1. Teradataおよびキャンペーンサーバーの [追加設定](#teradata-additional-configurations)
+1. teradataおよびキャンペーンサーバの [追加設定](#teradata-additional-configurations) （英語）
 
-## Teradata設定 {#teradata-config}
+## Teradata形状 {#teradata-config}
 
-キャンペーンへの接続を実装するには、Teradata用のドライバをインストールする必要があります。
+キャンペーンとの接続を実装するには、Teradataのドライバをインストールする必要があります。
 
 1. [Teradata 用の ODBC ドライバー](https://downloads.teradata.com/download/connectivity/odbc-driver/linux)をインストールします。
 
@@ -71,7 +71,7 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->FDAでTeradata外部データベースに接続するには、Adobe Campaignサーバーで追加の設定手順が必要です。 [詳細情報](#teradata-additional-configurations)。
+>FDAでTeradataの外部データベースに接続するには、Adobe Campaignサーバーの追加の設定手順が必要です。 [詳細情報](#teradata-additional-configurations)。
 
 
 ## Teradata 外部アカウント{#teradata-external}
@@ -88,17 +88,17 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 
    * **[!UICONTROL タイプ]**:「 **[!UICONTROL Teradata]** 」タイプを選択します。
 
-   * **[!UICONTROL サーバー]**:TeradataサーバーのURLまたは名前
+   * **[!UICONTROL サーバー]**:teradataサーバーのURLまたは名前
 
-   * **[!UICONTROL アカウント]**:Teradataデータベースへのアクセスに使用するアカウントの名前
+   * **[!UICONTROL アカウント]**:teradataデータベースへのアクセスに使用するアカウントの名前
 
-   * **[!UICONTROL パスワード]**:Teradataデータベースへの接続に使用するパスワード
+   * **[!UICONTROL パスワード]**:teradataデータベースへの接続に使用するパスワード
 
    * **[!UICONTROL データベース]**:データベースの名前（オプション）
 
-   * **[!UICONTROL オプション]**:Teradata経由で渡すオプションです。 次の形式を使用します。&#39;parameter=value&#39;. 値の区切り文字としてセミコラムを使用します。
+   * **[!UICONTROL オプション]**:teradata経由で渡すオプション。 次の形式を使用します。&#39;parameter=value&#39;. 値の区切り文字としてセミコラムを使用します。
 
-   * **[!UICONTROL タイムゾーン]**:Teradataで設定されるタイムゾーン。 [詳細情報](#timezone)
+   * **[!UICONTROL タイムゾーン]**:タイムゾーンの設定(Teradata)。 [詳細情報](#timezone)
 
 ### Query Banding
 
@@ -127,10 +127,10 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 エラー **ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified.** は、Windows で 16.X ドライバーを使用した場合に発生します。Adobe Campaign の odbcinst.ini では、Teradata のメタデータ名は「{teradata}」である必要があります。
 
 
-* キャンペーン18.10から、外部アカウントのオプションにODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot;を追加できます。 バージョン番号は異なる場合があります。正確な番号は、odbcad32.exe を実行して「ドライバー」タブにアクセスすると見つかります。
+* キャンペーン18.10から、外部アカウントのオプションにODBCDriverName=&quot;TeradataデータベースODBCドライバ16.10&quot;を追加できます。 バージョン番号は異なる場合があります。正確な番号は、odbcad32.exe を実行して「ドライバー」タブにアクセスすると見つかります。
 
 
-* 古いキャンペーンバージョンを使用している場合は、ドライバのインストールで作成されたodbcinst.iniのTeradataセクションをTeradataという新しいセクションにコピーする必要があります。 この場合は、Regeditを使用できます。 If your base is in latin1, you will have to add **APICharSize=1** in the options.
+* 古いキャンペーン版を使用している場合は、ドライバのインストールで作成したodbcinst.iniのTeradataセクションをTeradataという新しいセクションにコピーする必要があります。 この場合は、Regeditを使用できます。 If your base is in latin1, you will have to add **APICharSize=1** in the options.
 
 ## 任意の追加設定 {#teradata-additional-configurations}
 

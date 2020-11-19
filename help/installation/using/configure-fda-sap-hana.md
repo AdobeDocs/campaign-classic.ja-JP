@@ -1,6 +1,6 @@
 ---
 title: SAP HANA へのアクセスを設定する
-description: FDAのSAP HANAへのアクセスを設定する方法を説明します。
+description: FDAでのSAP HANAへのアクセスを設定する方法を学びます。
 page-status-flag: never-activated
 uuid: b84359b9-c584-431d-80d5-71146d9b6854
 contentOwner: sauviat
@@ -22,10 +22,10 @@ ht-degree: 71%
 
 キャンペーン [Federated Data Access](../../installation/using/about-fda.md) (FDA)オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って、SAP HANAへのアクセスを設定します。
 
-1. SAP [HANAデータベースの構成](#sap-config)
+1. [SAP HANAデータベースの設定](#sap-config)
 1. キャンペーンでのSAP HANA [外部アカウントの設定](#sap-external)
 
-## SAP HANAドライバ {#sap-config}
+## SAP HANAドライバー {#sap-config}
 
 FDA で SAP HANA 外部データベースに接続するには、Adobe Campaign サーバーで追加の設定が必要になります。
 
@@ -63,9 +63,9 @@ FDA で SAP HANA 外部データベースに接続するには、Adobe Campaign 
    * **LD_LIBRARY_PATH**：SAP HANA クライアントへのリンク（デフォルトでは /usr/sap/hdbclient/libodbcHDB.so）を含める必要があります。
    * **ODBCINI**：odbc.ini ファイルの保存場所（例：/etc/odbc.ini）。
 
-## SAPハナ外部アカウント{#sap-external}
+## SAP HANA外部アカウント{#sap-external}
 
-SAP HANA外部アカウントを使用すると、キャンペーンインスタンスをSAP HANA外部データベースに接続できます。
+SAP HANA外部アカウントを使用すると、キャンペーンインスタンスをSAP HANAの外部データベースに接続できます。
 
 1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 

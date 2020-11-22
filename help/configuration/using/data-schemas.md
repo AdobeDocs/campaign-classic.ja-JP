@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: データスキーマ
-seo-title: データスキーマ
 description: データスキーマ
-seo-description: null
-page-status-flag: never-activated
-uuid: 9f08750a-e125-4531-8c2c-1ab218190210
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-discoiquuid: b65e8d27-f427-464e-ad42-51c0a88eee86
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 3%
+source-wordcount: '407'
+ht-degree: 2%
 
 ---
 

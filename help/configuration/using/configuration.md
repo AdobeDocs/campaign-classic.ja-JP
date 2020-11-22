@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 設定
-seo-title: 設定
 description: 設定
-seo-description: null
-page-status-flag: never-activated
-uuid: 0f2aadc3-5199-476c-9956-6e39b899a7d0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
-discoiquuid: b781fd52-828c-4582-a546-a1fee7e5a26d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1182'
 ht-degree: 2%
 
 ---

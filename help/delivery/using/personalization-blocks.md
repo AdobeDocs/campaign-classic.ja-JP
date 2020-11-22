@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: パーソナライゼーションブロック
-seo-title: パーソナライゼーションブロック
 description: パーソナライゼーションブロック
-seo-description: null
-page-status-flag: never-activated
-uuid: f9867f8d-f6ce-4a5f-b6b4-fd8056d28576
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-discoiquuid: e68d1435-70e6-479e-a347-9ff9f9f11b92
-translation-type: ht
-source-git-commit: 75cbb8d697a95f4cc07768e6cf3585e4e079e171
-workflow-type: ht
-source-wordcount: '996'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '994'
 ht-degree: 100%
 
 ---
@@ -163,4 +158,4 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
 動的コンテンツブロックを作成する方法、および動的コンテンツブロックを使用して E メール配信のコンテンツをパーソナライズする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)

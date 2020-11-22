@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Linux でのパッケージのインストール
-seo-title: Linux でのパッケージのインストール
 description: Linux でのパッケージのインストール
-seo-description: null
-page-status-flag: never-activated
-uuid: d83f00b5-500b-406a-a3d6-ea5639f244f0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
-discoiquuid: 04faa9f3-d160-4060-b26e-44333f2faf71
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 2%
+source-wordcount: '1210'
+ht-degree: 1%
 
 ---
 
@@ -61,7 +56,7 @@ RPM（RHEL、CentOS、およびSUSE）オペレーティングシステムにAdo
    yum install nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
-   rpmファイルはCentOS/Red Hatディストリビューションで見つけられるパッケージに依存しています。 これらの依存関係の一部を使用しない場合（例えば、OpenJDKではなくOracle JDKを使用する場合）、rpmの「nodeps」オプションを使用する必要がある場合があります。
+   rpmファイルはCentOS/Red Hatディストリビューションで見つけられるパッケージに依存しています。 これらの依存関係の一部を使用したくない場合(例えば、OpenJDKではなくOracleJDKを使用したい場合)、rpmの「nodeps」オプションを使用しなければならない場合があります。
 
    ```
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
@@ -187,7 +182,7 @@ export neolane_LANG=fra
 
 必要に応じて、 **customer.sh** ファイルを **vi customer.sh** コマンドを使用して編集し、設定を調整するか、行を追加します。
 
-* Oracleクライアントの場合：
+* oracleのお客様の場合：
 
    ```
    export ORACLE_HOME=/usr/local/instantclient_10_2
@@ -195,7 +190,7 @@ export neolane_LANG=fra
    export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
    ```
 
-   ORACLE_HOME環境変数の内容は、Oracleインストール・ディレクトリと一致します。
+   環境変数ORACLE_HOMEの内容は、Oracleのインストールディレクトリと一致します。
 
    TNS_ADMIN変数の内容は、tnsnames.ora **** ファイルの場所と一致する必要があります。
 
@@ -213,7 +208,7 @@ export neolane_LANG=fra
       export OOO_URE_INSTALL_DIR=/usr/lib/ure/share/
       ```
 
-   * CentOs
+   * CentOS
 
       次のデフォルト値を使用します。
 
@@ -257,9 +252,9 @@ systemctl stop nlserver
 systemctl start nlserver
 ```
 
-### LinuxでのOracleクライアント {#oracle-client-in-linux}
+### Linuxのoracleクライアント {#oracle-client-in-linux}
 
-Adobe CampaignでOracleを使用する場合、LinuxでOracleクライアントレイヤーを設定する必要があります。
+Adobe CampaignでOracleを使用する場合は、LinuxでOracleクライアントレイヤーを設定する必要があります。
 
 * フルクライアントを使用する
 * TNSの定義
@@ -279,7 +274,7 @@ Adobe CampaignでOracleを使用する場合、LinuxでOracleクライアント�
 
 * Adobe Campaignの設定
 
-   Adobe Campaign用のOracleクライアントのインストールを終了するには、Adobe Campaignが使用する **.so** ファイルのシンボリック・リンクを作成する必要があります。
+   Adobe Campaign用のOracle・クライアントのインストールを終了するには、Adobe Campaignが使用する **.so** ファイルのシンボリック・リンクを作成する必要があります。
 
    これを行うには、次のコマンドを使用します。
 
@@ -288,7 +283,7 @@ Adobe CampaignでOracleを使用する場合、LinuxでOracleクライアント�
    ln -s libclntsh.so.10.1 libclntsh.so
    ```
 
-問題が発生した場合は、 [Oracleインストールマニュアルに記載されているパッケージが正しくインストールされていることを確認し](https://www.oracle.com/pls/db112/portal.portal_db?selected=11) 、
+問題が発生した場合は、 [Oracleのインストールドキュメントに記載されているパッケージが正しくインストールされていることを確認してください](https://www.oracle.com/pls/db112/portal.portal_db?selected=11) 。
 
 ## インストールの確認 {#installation-checks}
 

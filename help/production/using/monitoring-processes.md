@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: プロセスの監視
 description: キャンペーンプロセスの監視方法
-page-status-flag: never-activated
-uuid: 9dc1461f-5e95-454d-8df5-19baab85f184
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: 968d0ee3-5efc-46d8-b408-b9cce3e730c4
 translation-type: tm+mt
-source-git-commit: cb2fb5a338220c54aba96b510a7371e520c2189e
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '3775'
 ht-degree: 2%
@@ -626,7 +623,7 @@ ncs **、** redir **** 、およびhttp ******** サブ要素では、isSecure�
 
 ### 監視の開始 {#launching-monitoring}
 
-監視を起動するには、スクリプトを使用して、 **netreport.bat** または **netreport.sh** ファイルを一定の間隔で実行します。 レポートは、最初の実行後に、次にステータスの変更がイベントした場合にのみ送信されます。
+監視を起動するには、スクリプトを使用して、 **netreport.bat** または **netreport.sh** ファイルを一定の間隔で実行します。 レポートは、最初の実行後、次にステータスの変更がイベントした場合にのみ送信されます。
 
 ### 監視のテスト {#testing-monitoring}
 

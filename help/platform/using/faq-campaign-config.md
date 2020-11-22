@@ -1,19 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Campaign 設定に関する FAQ
-seo-title: Campaign の設定方法
 description: Campaign Classic に関する FAQ
-page-status-flag: never-activated
-uuid: 3f719ac2-cc26-4fb0-adda-84666c8c38e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-discoiquuid: 16dbe423-018f-4666-9901-2120a8dc609a
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '760'
 ht-degree: 100%
 
 ---

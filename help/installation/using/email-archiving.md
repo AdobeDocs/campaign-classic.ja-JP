@@ -1,26 +1,21 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: E メールのアーカイブ
-seo-title: E メールのアーカイブ
 description: E メールのアーカイブ
-seo-description: null
-page-status-flag: never-activated
-uuid: a5ed0659-be61-4d73-98e7-db3da24d92f3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-discoiquuid: d6467875-949b-4b47-940f-620efd4db5e0
 translation-type: tm+mt
-source-git-commit: b447e316bed8e0e87d608679c147e6bd7b0815eb
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1312'
 ht-degree: 86%
 
 ---
 
 
-# E メールの BCC {#email-archiving}
+# BCC で E メールを送信{#email-archiving}
 
 プラットフォームから送信された電子メールのコピーを保持するようにAdobe Campaignを設定できます。
 

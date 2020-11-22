@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: データベースの作成と設定
-seo-title: データベースの作成と設定
 description: データベースの作成と設定
-seo-description: null
-page-status-flag: never-activated
-uuid: e5143d55-61fa-416a-80db-c29a0caf9a3e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: 7dd8a6a5-7cca-4e92-8226-1b9e450dfaf9
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1342'
 ht-degree: 1%
 
 ---
@@ -62,7 +57,7 @@ ht-degree: 1%
 
 選択したデータベースエンジンによって、サーバ識別情報が異なる場合があります。
 
-* **Oracle** エンジンの場合は、アプリケーション・サーバーに対して定義されている **TNS名** を入力します。
+* **Oracle** ・エンジンの場合は、アプリケーション・サーバーに対して定義されている **TNS名** を入力します。
 * PostgreSQL **または** DB2 **** エンジンの場合は、データベースサーバーにアクセスするために、アプリケーションサーバーで定義されているDNS名（またはIPアドレス）を指定する必要があります。
 * **Microsoft SQL Server** Engineの場合は、次を定義する必要があります。データベースサーバーにアクセスするためにアプリケーションサーバーで定義されているDNS名（またはIPアドレス）。 **DNS** または **DNS`\<instance>`** （インスタンスモード）、
 
@@ -80,7 +75,7 @@ ht-degree: 1%
 
 これを行うには、データベースにアクセスする権限を持つ **管理システム・アカウントの名前とパスワードを入力します** 。例：
 
-* **Oracleデータベースのシステム** 、
+* **oracleデータベースのシステム** 、
 * **Microsoft SQL Serverデータベース用のsa** 、
 * **PostgreSQLデータベース用のpostgres** 、
 * **db2inst1** （DB2データベース用）
@@ -106,7 +101,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >Oracleデータベースでは、 **[!UICONTROL Unicodeストレージ]** ・オプションを使用して、 **NCLOB** 型フィールドと **NVARCHAR** 型フィールドを使用できます。
+   >oracleデータベースでは、 **[!UICONTROL Unicodeストレージ]** ・オプションを使用して、 **NCLOB** 型フィールドと **NVARCHAR** 型フィールドを使用できます。
    > 
    >このオプションを選択しない場合、Oracleデータベースの文字セット(charset)は、すべての言語でデータストレージを有効にする必要があります（AL32UTF8を推奨）。
 
@@ -128,7 +123,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
-* Oracle、Microsoft SQL Server、またはPostgreSQLデータベースの場合、管理者は、データベースオブジェクトの作成時に使用する **ストレージパラメータ** を定義することもできます。
+* oracle、Microsoft SQL Server、またはPostgreSQLデータベースの場合、管理者は、データベースオブジェクトの作成時に使用する **ストレージパラメータ** を定義することもできます。
 
    これらのパラメータは、正確な表領域名を受け取ります(警告：大文字と小文字が区別されます)。 これらは、それぞれ、 **[!UICONTROL 管理/プラットフォーム/オプション]** ( [この節を参照](../../installation/using/configuring-campaign-options.md#database))のノードに保存されます。
 
@@ -137,7 +132,7 @@ ht-degree: 1%
    * **WdbcOptions_TableSpaceWork**:スキーマのない作業テーブル
    * **WdbcOptions_TableSpaceWorkIndex**:スキーマのない作業テーブルのインデックス
 
-* Oracleデータベースの場合、Adobe Campaign・ユーザーは、通常、Oracleライブラリにアクセスできる必要があります。このアクセス権は、 **oinstall** グループのメンバーです。
+* oracleデータベースの場合、Adobe Campaignユーザーは、通常、 **oinstall** グループのメンバーとして、Oracleライブラリにアクセスできる必要があります。
 * 「 **[!UICONTROL Set or change the administrator password]** 」オプションを使用すると、管理者権限を持つAdobe Campaign演算子にリンクされたパスワードを入力できます。
 
    セキュリティを確保するために、Adobe Campaignアカウント管理者パスワードを定義することをお勧めします。
@@ -164,7 +159,7 @@ base61データベース上のMicrosoft SQL Server設定の例で、暗号化さ
 
 データベースおよびユーザーは、データベース管理者が作成したデータベースであり、アクセス権が正しく設定されている必要があります。
 
-たとえば、Oracleデータベースの場合、最小限必要な権限は次のとおりです。CONNECT、リソース、および無制限の表領域を付与します。
+たとえば、Oracle・データベースの場合、必要な最小限の権限は次のとおりです。CONNECT、リソース、および無制限の表領域を付与します。
 
 既存のデータベースを使用する場合の設定手順は次のとおりです。
 
@@ -186,7 +181,7 @@ base61データベース上のMicrosoft SQL Server設定の例で、暗号化さ
 
 選択したデータベースエンジンによって、サーバ識別情報が異なる場合があります。
 
-* **Oracle** エンジンの場合は、アプリケーション・サーバーに対して定義されている **TNS名** を入力します。
+* **Oracle** ・エンジンの場合は、アプリケーション・サーバーに対して定義されている **TNS名** を入力します。
 * PostgreSQL **または** DB2 **** エンジンの場合は、データベースサーバーにアクセスするために、アプリケーションサーバーで定義されているDNS名（またはIPアドレス）を指定する必要があります。
 * **Microsoft SQL Server** Engineの場合は、次を定義する必要があります。
 
@@ -209,7 +204,7 @@ base61データベース上のMicrosoft SQL Server設定の例で、暗号化さ
    >[!NOTE]
    >
    >スキーマ名とユーザー名の両方が一致していることを確認します。 データベースを作成する場合、キャンペーンコンソールクライアントを使用することをお勧めします。
-   >Oracleデータベースの場合は、アカウント名を入力する必要はありません。
+   >oracleデータベースの場合は、アカウント名を入力する必要はありません。
 
 * データベースをUnicodeにするかどうかを指定します。
 
@@ -227,8 +222,8 @@ base61データベース上のMicrosoft SQL Server設定の例で、暗号化さ
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
-* Oracle、Microsoft SQL ServerまたはPostgreSQLデータベースの場合、管理者は、データベースオブジェクトの作成時に使用する **ストレージパラメータ** を定義できます。
-* Oracleデータベースの場合、Adobe Campaign・ユーザーは、通常、Oracleライブラリにアクセスできる必要があります。このアクセス権は、 **oinstall** グループのメンバーです。
+* oracle、Microsoft SQL Server、またはPostgreSQLデータベースの場合、管理者は、データベースオブジェクトの作成時に使用する **ストレージパラメータ** を定義できます。
+* oracleデータベースの場合、Adobe Campaignユーザーは、通常、 **oinstall** グループのメンバーとして、Oracleライブラリにアクセスできる必要があります。
 * 「 **[!UICONTROL Set or change the administrator password]** 」オプションを使用すると、管理者権限を持つAdobe Campaign演算子にリンクされたパスワードを入力できます。
 
    セキュリティを確保するために、Adobe Campaignアカウント管理者パスワードを定義することをお勧めします。

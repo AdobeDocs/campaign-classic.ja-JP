@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 推奨事項
-seo-title: 推奨事項
 description: 推奨事項
-seo-description: null
-page-status-flag: never-activated
-uuid: d898fe6d-7627-405f-b2bc-b17bf1dc9e96
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-discoiquuid: a31c5c9f-503f-4b55-8409-34d4addbd581
 translation-type: tm+mt
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 3%
+source-wordcount: '105'
+ht-degree: 2%
 
 ---
 

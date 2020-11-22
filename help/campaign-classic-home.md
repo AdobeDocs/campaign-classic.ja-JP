@@ -1,9 +1,11 @@
 ---
 keywords: Campaign Classic;home;popular topics
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 30eaabba8962c518c734cc4e9ad27065cfe9d467
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 76%

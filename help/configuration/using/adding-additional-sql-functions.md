@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: SQL 関数の追加
-seo-title: SQL 関数の追加
 description: SQL 関数の追加
-seo-description: null
-page-status-flag: never-activated
-uuid: d66b5ca2-ac7d-4654-9f0e-9bfe56490c19
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: 728a95f8-46fe-49a8-a645-a0dd6eeb6615
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 2%
+source-wordcount: '1024'
+ht-degree: 1%
 
 ---
 
@@ -132,7 +127,7 @@ Adobe Campaignを使用すると、SQL関数にアクセスでき **る独自の
 * 最後に、 **providerPart** 要素が関数の実装を提供します。
 
    * provider **** 属性は必須です。この属性では、実装が提供されるデータベースシステムを指定します。 この例で示すように、式構文や基になる関数が異なる場合、データベースに従って別の実装を提供できます。
-   * @body **** 属性には、関数の実装が含まれます。 注意：この実装は、（コードのブロックではなく）データベース言語での式である必要があります。 データベースに応じて、式をサブクエリ(「（テーブルからの列を選択します。...」）」)にして、1つの値のみを返すことができます。 例えば、Oracleではこのような場合です(クエリは角括弧で囲む必要があります)。
+   * @body **** 属性には、関数の実装が含まれます。 注意：この実装は、（コードのブロックではなく）データベース言語での式である必要があります。 データベースに応じて、式をサブクエリ(「（テーブルからの列を選択します。...」）」)にして、1つの値のみを返すことができます。 例えば、Oracleの場合は、クエリを角括弧で囲む必要があります。
 
    >[!NOTE]
    >

@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: メンテナンスのタイプ
-seo-title: メンテナンスのタイプ
 description: メンテナンスのタイプ
-seo-description: null
-page-status-flag: never-activated
-uuid: 44faee3d-0549-4f63-8fdc-b24e6de47bc4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: database-maintenance
-discoiquuid: 4a436ccf-097c-43e6-9eda-492bada5512a
 translation-type: tm+mt
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '494'
 ht-degree: 2%
 
 ---
@@ -72,7 +67,7 @@ Adobe Campaignには、次のような特定のデータベース保守タスク
    <td> オンラインでの最適化<br /> </td> 
    <td> ほとんどのデータベースエンジンは、最適化の方法を備えています。<br /> </td> 
    <td> データベースの最適化方法を使用するだけです。 これらの方法では、通常、最適化の際にデータをロックすることで整合性の問題が発生します。<br /> </td> 
-   <td> データベースに応じて、これらの最適化方法はRDBMSオプション(Oracle)として提供され、大きなテーブルを処理する最も効率的な方法ではありません。<br /> </td> 
+   <td> データベースに応じて、これらのデフラグメンテーション方法はRDBMSオプション(Oracle)として提供され、大きなテーブルを処理する最も効率的な方法ではありません。<br /> </td> 
   </tr> 
   <tr> 
    <td> ダンプとリストア<br /> </td> 

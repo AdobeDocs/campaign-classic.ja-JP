@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: パフォーマンスとスループットの問題
-seo-title: パフォーマンスとスループットの問題
 description: パフォーマンスとスループットの問題
-seo-description: null
-page-status-flag: never-activated
-uuid: 28c35453-9a15-44a3-9961-f4c604c209c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: ec66e3e3-b09a-44a4-914d-e3b38c7643f8
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 8%
+source-wordcount: '687'
+ht-degree: 7%
 
 ---
 

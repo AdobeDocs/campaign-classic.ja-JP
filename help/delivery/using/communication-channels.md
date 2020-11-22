@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 通信チャネル
-seo-title: 通信チャネル
 description: 様々なチャネルでパーソナライズされたメッセージを送信するための配信を作成します。
-seo-description: null
-page-status-flag: never-activated
-uuid: 42975431-64c9-4ecb-98ed-b1f9b13c157e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-discoiquuid: 2e2d1134-9b83-4ada-b74f-c3842a0cf044
 translation-type: tm+mt
-source-git-commit: e01acc00d0b15df99c009fe29d170ed0fc9fa956
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1190'
 ht-degree: 96%
 
 ---

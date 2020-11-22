@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: ステージの設定
-seo-title: ステージの設定
 description: ステージの設定
-seo-description: null
-page-status-flag: never-activated
-uuid: 4111a805-95ab-4e26-be51-2db1e5c20f57
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: 76174374-af73-4da0-b62b-6979bca0102b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 6%
+source-wordcount: '240'
+ht-degree: 5%
 
 ---
 

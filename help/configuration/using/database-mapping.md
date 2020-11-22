@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: データベースマッピング
-seo-title: データベースマッピング
 description: データベースマッピング
-seo-description: null
-page-status-flag: never-activated
-uuid: a51df3eb-cae6-4e8d-8386-d62defc1b610
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-discoiquuid: bc06c00d-f421-452e-bde0-b4ecc12c72c8
 translation-type: tm+mt
-source-git-commit: 9bbde65aea6735e30e95e75c2b6ae5445d4a2bdd
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1974'
 ht-degree: 1%
 
 ---
@@ -310,7 +305,7 @@ ACC 18.10では、 **XtkNewId** は追加設定なしのスキーマ内のシー
 
 >[!NOTE]
 >
->Adobe Campaignスキーマ(**NmsTrackingLogId** など)で参照されるシーケンスは、SQL関数に関連付ける必要があります。この関数は、パラメーター内のIDの数をコンマで区切って返します。 この関数はGetNewXXXIds ******と呼ぶ必要があります。** XXXはシーケンスの名前です( **例えば、GetNewNmsTrackingLogIds****** )。 アプリケーションと共に提供される **gres-nms.sql**、 **-nms.sql** 、または **oracle-nms.sql****** ファイルをdatakit/nms/eng/sql/directoryに表示し、各データベースエンジンの「NmsMsMssqlLogIdシーケンスの作成」の例を回復します。
+>Adobe Campaignスキーマ(**NmsTrackingLogId** など)で参照されるシーケンスは、SQL関数に関連付ける必要があります。この関数は、パラメーター内のIDの数をコンマで区切って返します。 この関数はGetNewXXXIds ******と呼ぶ必要があります。** XXXはシーケンスの名前です( **例えば、GetNewNmsTrackingLogIds****** )。 アプリケーションと共に提供される **gres-nms.sql**、 **-nms.sql** 、 **oraclenms.sql****** のファイルを表示し、各データベースエンジンの「NmsMsLogLogIdシーケンスの作成」例を復元します。
 
 一意のキーを宣言するには、データスキーマのメイン要素に **autopk** 属性（値「true」）を設定します。
 

@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 統合の設定
-seo-title: 統合の設定
 description: 統合の設定
-seo-description: null
-page-status-flag: never-activated
-uuid: e2db7bdb-8630-497c-aacf-242734cc0a72
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-discoiquuid: 1c20795d-748c-4f5d-b526-579b36666e8f
-translation-type: ht
-source-git-commit: 3e73d7c91fbe7cff7e1e31bdd788acece5806e61
-workflow-type: ht
-source-wordcount: '587'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '584'
 ht-degree: 100%
 
 ---

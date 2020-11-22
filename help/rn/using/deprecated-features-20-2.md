@@ -1,18 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Campaign Classic の非推奨（廃止予定）および削除された機能
 description: このページリストは、Adobe Campaign Classic の非推奨（廃止予定）および削除された機能です
-page-status-flag: never-activated
-uuid: null
-contentOwner: simonetn
-products: SG_CAMPAIGN/CLASSIC
 audience: rn
 content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3402212bc6904dd5587d3b5a16fca7f4857fb908
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 100%
 

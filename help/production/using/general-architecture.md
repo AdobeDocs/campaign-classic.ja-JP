@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 一般的なアーキテクチャ
-seo-title: 一般的なアーキテクチャ
 description: 一般的なアーキテクチャ
-seo-description: null
-page-status-flag: never-activated
-uuid: a565a10c-cbef-455a-aa1d-9be9cd207c7a
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: introduction
-discoiquuid: f4879774-afe5-4556-ab60-9297cabbca2c
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 6%
+source-wordcount: '181'
+ht-degree: 4%
 
 ---
 

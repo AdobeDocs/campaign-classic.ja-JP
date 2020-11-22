@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Windows での Adobe Campaign 7 への移行
-seo-title: Windows での Adobe Campaign 7 への移行
 description: Windows での Adobe Campaign 7 への移行
-seo-description: null
-page-status-flag: never-activated
-uuid: 74464400-bdd4-42f8-bcbe-ace7095ae4e4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
-discoiquuid: f459dc07-b7db-4526-b428-852b51c9c00e
 translation-type: tm+mt
-source-git-commit: d509dc584cd4ae17c6dda85c09fceee8c6162dba
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 2%
+source-wordcount: '1561'
+ht-degree: 1%
 
 ---
 

@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic を使用したトランザクションメッセージへの添付ファイルの追加
 description: Adobe Campaign Classic を使用して、個々の添付ファイルやパーソナライズされた添付ファイルを含むトランザクション E メールを送信する方法を説明します。
-page-status-flag: never-activated
-uuid: 4452d839-318a-49d8-8abb-4ba04c803e9f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: message-center
 content-type: reference
 topic-tags: use-case
-discoiquuid: 7b8ab9d6-e47e-46d8-99df-da793486654c
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 

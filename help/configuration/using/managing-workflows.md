@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: ワークフローの管理
-seo-title: ワークフローの管理
 description: ワークフローの管理
-seo-description: null
-page-status-flag: never-activated
-uuid: 8b6320c0-1aae-4acd-a698-03f9bebd916d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: ee724240-c337-489d-a21b-5f3aec1f247a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '138'
+ht-degree: 10%
 
 ---
 

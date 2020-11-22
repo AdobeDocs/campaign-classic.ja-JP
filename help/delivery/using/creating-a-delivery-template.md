@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 配信テンプレートの作成
-seo-title: 配信テンプレートの作成
 description: 配信テンプレートの作成
-seo-description: null
-page-status-flag: never-activated
-uuid: 8ceae1ec-9e02-4809-aa8b-1e6bd7790950
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
-discoiquuid: 0e67d9dd-3ee8-4c06-98a4-3a2c644b6c0a
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '375'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '371'
 ht-degree: 100%
 
 ---
@@ -77,16 +72,16 @@ ht-degree: 100%
 
 次のビデオでは、アドホック配信用のテンプレートを設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
 
 ## 配信テンプレートのプロパティの設定方法
 
 次のビデオでは、配信テンプレートのプロパティを設定する方法と各プロパティの詳細について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12)
 
 ## アドホック配信テンプレートのデプロイ方法
 
 このビデオでは、アドホック E メール配信テンプレートを導入する方法と、E メール配信と配信ワークフローの違いについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)

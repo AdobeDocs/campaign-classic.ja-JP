@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 配信コンテンツの読み込み
-seo-title: 配信コンテンツの読み込み
 description: 配信コンテンツの読み込み
-seo-description: null
-page-status-flag: never-activated
-uuid: f2004fb0-9beb-463f-9903-10f291b3663e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-discoiquuid: 3667da3d-4940-4128-8878-f1ee67216f56
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '348'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '345'
 ht-degree: 100%
 
 ---

@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 設定の原則
-seo-title: 設定の原則
 description: 設定の原則
-seo-description: null
-page-status-flag: never-activated
-uuid: 6315d526-b820-46ab-96c7-e64e101c6a7d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: d08ff769-da93-4f86-8802-f0fb5b051ece
 translation-type: tm+mt
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 5%
+source-wordcount: '281'
+ht-degree: 4%
 
 ---
 

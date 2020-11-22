@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: マーケティングキャンペーン配信
 description: マーケティングキャンペーン配信の詳細
-page-status-flag: never-activated
-uuid: 842b501f-7d65-4450-b7ab-aff3942fb96f
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-discoiquuid: 8d076211-10a6-4a98-b0d2-29dad154158c
 translation-type: tm+mt
-source-git-commit: f6e820bd05b95e57b395407ed1e17c11b17cbf84
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '3076'
 ht-degree: 95%
@@ -24,7 +21,7 @@ ht-degree: 95%
 
 キャンペーンから作成した配信は、このキャンペーンにリンクされ、キャンペーンレベルで統合されます。
 
-![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](#create-email-video)
 
 ## 配信の作成 {#creating-deliveries}
 

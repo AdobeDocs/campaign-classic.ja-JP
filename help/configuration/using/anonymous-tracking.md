@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 匿名トラッキング
-seo-title: 匿名トラッキング
 description: 匿名トラッキング
-seo-description: null
-page-status-flag: never-activated
-uuid: 21ba3657-eabf-4228-9fc0-e72712bf8fe7
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: 2d2c6ae9-4dba-4b82-a25e-eda65a49572d
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 7%
+source-wordcount: '209'
+ht-degree: 6%
 
 ---
 

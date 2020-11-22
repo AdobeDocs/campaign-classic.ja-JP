@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 外部アカウント
 description: 外部アカウントの作成方法
-page-status-flag: never-activated
-uuid: e06e7a36-b449-4ab0-a4f6-fa82dbb8de11
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-discoiquuid: da60b9ca-4b51-4bff-affc-2b12c576973a
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1879'
 ht-degree: 92%
@@ -151,14 +148,14 @@ External databases compatible with Campaign are listed in the [Compatibility mat
 
 外部アカウント構成の設定は、データベースエンジンによって異なります。 詳しくは、次の節を参照してください。
 
-* [Azure Snapseへのアクセスの構成](../../installation/using/configure-fda-synapse.md)
-* Configure access to [Hadoop](../../installation/using/configure-fda-hadoop.md)
+* [Azure synapseへのアクセスの設定](../../installation/using/configure-fda-synapse.md)
+* [Hadoopへのアクセスの設定](../../installation/using/configure-fda-hadoop.md)
 * [Oracleへのアクセスの設定](../../installation/using/configure-fda-oracle.md)
-* Configure access to [Netezza](../../installation/using/configure-fda-netezza.md)
+* [Netezzaへのアクセスの設定](../../installation/using/configure-fda-netezza.md)
 * [SAP HANAへのアクセスの設定](../../installation/using/configure-fda-sap-hana.md)
 * [Snowflakeへのアクセスの設定](../../installation/using/configure-fda-snowflake.md)
-* [Sybase IQへのアクセスの構成](../../installation/using/configure-fda-sybase.md)
-* Configure access to [Teradata](../../installation/using/configure-fda-teradata.md)
+* [Sybase IQへのアクセスの設定](../../installation/using/configure-fda-sybase.md)
+* [Teradataへのアクセスの設定](../../installation/using/configure-fda-teradata.md)
 
 ## Web 分析の外部アカウント {#web-analytics-external-account}
 

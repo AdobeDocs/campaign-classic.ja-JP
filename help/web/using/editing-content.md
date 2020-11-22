@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: コンテンツの編集
-seo-title: コンテンツの編集
 description: コンテンツの編集
-seo-description: null
-page-status-flag: never-activated
-uuid: 2f51e848-1820-4bec-a0ea-63c9ddff05e0
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-discoiquuid: da66d640-8504-4dc7-bc4e-1c0ac1d37c37
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '1261'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '1259'
 ht-degree: 100%
 
 ---
@@ -142,6 +137,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 >* 新しいウィンドウ (_blank)
 >* 現在のウィンドウ (_self)
 >* ブラウザーのデフォルト動作
+
 >
 
 
@@ -207,8 +203,9 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 >[!NOTE]
 >
 >* **削除**&#x200B;アイコン：ブロックおよびそのすべてのコンテンツを削除します。
->
->* **複製**&#x200B;アイコン：ブロックおよびブロックに関連するすべてのスタイルを複製します。
+   >
+   >
+* **複製**&#x200B;アイコン：ブロックおよびブロックに関連するすべてのスタイルを複製します。
 
 
 ## 画像とアニメーションの管理 {#managing-images-and-animations}

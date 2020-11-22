@@ -1,19 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: ビルドのアップグレードを開始する
 description: 新しいビルドにアップグレードするための主な手順
-page-status-flag: never-activated
-uuid: f24552d4-6bdf-411c-a1f2-b8f339c311f4
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-discoiquuid: f8e3633d-7232-44a5-842b-1a70c4f2bca2
 translation-type: tm+mt
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '2355'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
@@ -415,5 +412,5 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 
 * [ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
 * [Campaign Classic リリースノート](../../rn/using/rn-overview.md)
-* [Campaign Classicのヘルプとサポートのオプション](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
-* [ゴールドスタンダードプログラム](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)
+* [Campaign Classic のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support-req)
+* [Gold Standard プログラム](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)

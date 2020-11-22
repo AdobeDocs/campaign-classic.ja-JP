@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Linux 用クライアントコンソールの可用性
-seo-title: Linux 用クライアントコンソールの可用性
 description: Linux 用クライアントコンソールの可用性
-seo-description: null
-page-status-flag: never-activated
-uuid: 3441f0de-3c37-4db4-a2b5-53649cdfb8ce
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
-discoiquuid: 15bfe1c3-3502-4cac-a624-b2aa66bb5b4b
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '51'
+ht-degree: 29%
 
 ---
 

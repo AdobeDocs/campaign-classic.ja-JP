@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: サイトへのタグの挿入
-seo-title: サイトへのタグの挿入
 description: サイトへのタグの挿入
-seo-description: null
-page-status-flag: never-activated
-uuid: e5e4a431-2093-4d5a-acd2-0040b6ce3519
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-discoiquuid: 57988b00-62cc-43d3-a2eb-bfed5bff7dc1
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 6%
+source-wordcount: '319'
+ht-degree: 5%
 
 ---
 

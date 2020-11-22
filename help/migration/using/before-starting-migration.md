@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 移行を開始する前に
 description: 移行を開始する前に
-page-status-flag: never-activated
-uuid: b9325510-2fa5-4be4-9cf0-f37232bbbd8c
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-discoiquuid: d8877378-fb43-4f32-91c6-60f2f788f916
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 2%
@@ -45,7 +42,7 @@ nlserver pdump **[!UICONTROL コマンドを使用して、クライアントコ
 
 ### 環境 {#environment}
 
-* データベースエンジンタイプ(DBMS)は変更できません。 例えば、PostgreSQLエンジンからOracleエンジンに切り替えることはできません。 ただし、Oracle 8エンジンからOracle 10エンジンに切り替えることができます。
+* データベースエンジンタイプ(DBMS)は変更できません。 例えば、PostgreSQLエンジンからOracleエンジンに切り替えることはできません。 ただし、Oracle8エンジンからOracle10エンジンに切り替えることができます。
 * 非UnicodeデータベースからUnicodeデータベースに移動することはできません。
 
 ### 推奨事項 {#recommendation}

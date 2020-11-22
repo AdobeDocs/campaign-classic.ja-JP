@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 通常のコマンド
-seo-title: 通常のコマンド
 description: 通常のコマンド
-seo-description: null
-page-status-flag: never-activated
-uuid: f06df8c0-d4ec-4d6b-84d5-f46d852388a3
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: production-procedures
-discoiquuid: 90718075-87a7-4e9a-935b-571010908e79
 translation-type: tm+mt
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 5%
+source-wordcount: '408'
+ht-degree: 4%
 
 ---
 
@@ -167,7 +162,7 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 >
 >* 一般に、設定ファイルを手動で変更する代わりに、 **config** コマンドを使用できます
 >* パラメーターのリストを取得するには、 **-?** パラメーター： **nlserver config - ?**
->* Oracleデータベースの場合は、アカウントを指定しないでください。 構文は次のとおりです。
+>* oracleデータベースの場合は、アカウントを指定しないでください。 構文は次のとおりです。
 
 >
 >  

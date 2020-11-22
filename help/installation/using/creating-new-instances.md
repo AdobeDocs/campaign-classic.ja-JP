@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 新規インスタンスの作成
-seo-title: 新規インスタンスの作成
 description: 新規インスタンスの作成
-seo-description: null
-page-status-flag: never-activated
-uuid: b048705e-f356-4f26-baf5-10415b01fb64
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: appendices
-discoiquuid: ba9c8e4c-441b-4422-a465-758771025ee8
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 17%
+source-wordcount: '88'
+ht-degree: 14%
 
 ---
 

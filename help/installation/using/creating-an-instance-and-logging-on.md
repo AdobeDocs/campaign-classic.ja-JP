@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: インスタンスの作成とログオン
-seo-title: インスタンスの作成とログオン
 description: インスタンスの作成とログオン
-seo-description: null
-page-status-flag: never-activated
-uuid: cb1620b3-f6e8-41dc-9142-ac0da65b6f8d
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
-discoiquuid: c7395094-c635-45ab-8455-a050f7d16b64
 translation-type: tm+mt
-source-git-commit: 6d6f63fb6ac99c3a9e58a8670bc9bc59e6cfd420
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 4%
+source-wordcount: '600'
+ht-degree: 3%
 
 ---
 

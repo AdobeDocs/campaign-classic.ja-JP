@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: スキーマの特性
-seo-title: スキーマの特性
 description: スキーマの特性
-seo-description: null
-page-status-flag: never-activated
-uuid: ca8eb7af-ef22-403a-8f04-ece5dc903174
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: 441e80e1-0559-41fd-83e8-afdf94279e75
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '380'
 ht-degree: 2%
 
 ---

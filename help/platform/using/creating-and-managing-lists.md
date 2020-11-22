@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: リストの作成および管理
 description: リストの作成および管理方法を説明します。
-page-status-flag: never-activated
-uuid: 17d1a7d0-a728-490e-a820-19f469fddbcd
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: platform
 content-type: reference
 topic-tags: profile-management
-discoiquuid: 9fc243b2-7b7b-4083-83f6-04c12336492d
-translation-type: ht
-source-git-commit: 208bac758542db8dd514bda80c8c735897fcefec
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 
@@ -135,10 +132,10 @@ Adobe Campaign ツリーのグループリストから 1 つ以上のリスト�
 
 エクスプローラーから受信者リストを設定してオーディエンスを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-## ワークフローで受信者リストを作成する方法{#create-list-in-a-wf-video}
+## ワークフローで受信者リストを作成する方法 {#create-list-in-a-wf-video}
 
 受信者をターゲットにするためのワークフローを作成する方法や、E メールターゲットでリストを使用する前にワークフローが繰り返されるようにする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)

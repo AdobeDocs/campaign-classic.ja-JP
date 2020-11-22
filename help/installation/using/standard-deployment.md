@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 標準デプロイメント
-seo-title: 標準デプロイメント
 description: 標準デプロイメント
-seo-description: null
-page-status-flag: never-activated
-uuid: e2f9c4d9-4b36-4899-9954-493135597057
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-discoiquuid: d714b759-cc08-4656-876c-9820d5c56216
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '832'
 ht-degree: 2%
 
 ---
@@ -59,7 +54,7 @@ LAN内のアプリケーションサーバーは、エンドユーザーに対�
    * 最初に公開され、仮想IPアドレス(VIP)上のロードバランサーをトラッキングして指し示し、2つの正面サーバーに配布されます。
    * 2つ目は、内部ユーザーに対してコンソール経由でアクセスし、同じアプリケーションサーバーを指し示す形で表示されます。
 
-* STMP (25)、DNS (53)、HTTP (80)、HTTPS (443)、SQL （Oracleの場合は1521、PostgreSQLの場合は5432など）を開くように設定されたファイアウォール ポート。 詳細は、「 [データベースアクセス](../../installation/using/network-configuration.md#database-access)」を参照してください。
+* STMP (25)、DNS (53)、HTTP (80)、HTTPS (443)、SQL （1521 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳細は、「 [データベースアクセス](../../installation/using/network-configuration.md#database-access)」を参照してください。
 
 ### アプリケーションサーバーのインストール {#installing-the-application-server}
 

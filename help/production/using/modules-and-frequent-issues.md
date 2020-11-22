@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: モジュールおよびよくある問題
-seo-title: モジュールおよびよくある問題
 description: モジュールおよびよくある問題
-seo-description: null
-page-status-flag: never-activated
-uuid: d53324ce-b6e2-40d7-932d-36ce4a6f5cf8
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: a44f5e71-3f9b-4d02-8b7a-a9782bb6bdd8
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 10%
+source-wordcount: '255'
+ht-degree: 8%
 
 ---
 

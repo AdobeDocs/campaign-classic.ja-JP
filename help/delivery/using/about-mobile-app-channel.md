@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Campaign Classic のモバイルアプリチャネルについて
 description: ここでは、Adobe Campaign Classic のモバイルアプリチャネルに関する一般情報を提供します。
-page-status-flag: never-activated
-uuid: e8d26b33-dc7c-4abd-956a-92f419a117e1
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-discoiquuid: 6b3fe8b9-dae6-4f8e-83e1-3376c0fe72a5
 translation-type: tm+mt
-source-git-commit: acb505fac39222e53a3acab6b5c93d10c9d11ba8
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 100%

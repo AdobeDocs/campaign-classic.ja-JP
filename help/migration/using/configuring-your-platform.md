@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: プラットフォームの設定
-seo-title: プラットフォームの設定
 description: プラットフォームの設定
-seo-description: null
-page-status-flag: never-activated
-uuid: e6255e4b-c9c8-4ac9-9ee3-aaa4dc9e5ecf
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-discoiquuid: 4d2e765b-750b-457f-ad55-8bd6faaa86af
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '941'
 ht-degree: 2%
 
 ---
@@ -32,7 +27,7 @@ Adobe Campaignv7の一部の主な変更では、有効な動作を確保する�
 * デフォルトでは、 **tablespace** 属性の値（デプロイメント・ウィザードで定義された値）が戻されます。
 * NmsRecipientテーブルに参照表示を追加した場合は、移行前にそれを削除する必要があります。
 
-この警告は、Oracleユーザーにも関係します。アップグレード後に **usetimestamptz:1** オプションを追加した場合( [タイムゾーンを参照](../../migration/using/general-configurations.md#time-zones))は、少なくとも1つの **date+time** フィールドを含むすべてのテーブルが再構築されます。
+この警告は、Oracleのユーザーにも関係しています。アップグレード後に **usetimestamptz:1** オプションを追加した場合( [タイムゾーンを参照](../../migration/using/general-configurations.md#time-zones))は、少なくとも1つの **date+time** フィールドを含むすべてのテーブルが再構築されます。
 
 ## 移行前 {#before-the-migration}
 
@@ -44,7 +39,7 @@ Adobe Campaignv7に移行する際は、次の要素を設定する必要があ�
 
    「マルチタイムゾーン」モードを使用する場合は、 [タイムゾーン](../../migration/using/general-configurations.md#time-zones) (Time zones)の節を参照してください。
 
-   Oracleをデータベースとして使用する場合は、Oracleタイムゾーン・ファイルがアプリケーション・サーバーとデータベース・サーバーの間で正しく同期されていることを確認します。 For more on this, refer to the [Oracle](../../migration/using/general-configurations.md#oracle) section.
+   データベースとしてOracleを使用する場合は、Oracleタイムゾーンファイルがアプリケーションサーバーとデータベースサーバーの間で正しく同期されていることを確認してください。 For more on this, refer to the [Oracle](../../migration/using/general-configurations.md#oracle) section.
 
 * セキュリティゾーン
 

@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: スタンドアロンデプロイメント
-seo-title: スタンドアロンデプロイメント
 description: スタンドアロンデプロイメント
-seo-description: null
-page-status-flag: never-activated
-uuid: 48ce793e-cb9f-4102-898f-758512cb9bf2
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-discoiquuid: 9834638f-a8bb-4969-9f8d-99b8d9fdb1ca
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1134'
 ht-degree: 2%
 
 ---
@@ -75,7 +70,7 @@ ht-degree: 2%
    * 最初に公開され、そのパブリックIP上のコンピュータを追跡し、指し示す。
    * 2つ目のエイリアスは、コンソールアクセスと同じコンピューターのポインティングのために、内部ユーザーに公開されます。
 
-* SMTP (25)、DNS (53)、HTTP (80)、HTTPS (443)、SQL （Oracleの場合は1521、PostgreSQLの場合は5432など）を開くように設定されたファイアウォール ポート。 詳細については、「 [ネットワーク設定](../../installation/using/network-configuration.md)」を参照してください。
+* SMTP (25)、DNS (53)、HTTP (80)、HTTPS (443)、SQL （1521 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳細については、「 [ネットワーク設定](../../installation/using/network-configuration.md)」を参照してください。
 
 次の例では、インスタンスのパラメーターを示します。
 

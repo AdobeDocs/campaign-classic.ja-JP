@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Windows 用クライアントコンソールの可用性
-seo-title: Windows 用クライアントコンソールの可用性
 description: Windows 用クライアントコンソールの可用性
-seo-description: null
-page-status-flag: never-activated
-uuid: d1cbb34e-87e0-481b-a78b-3616047eb5cb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
-discoiquuid: 4fa2e8c1-33d1-4d14-941b-ca528b8ceabb
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 6%
+source-wordcount: '298'
+ht-degree: 5%
 
 ---
 

@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: JavaScript での SOAP メソッド
-seo-title: JavaScript での SOAP メソッド
 description: JavaScript での SOAP メソッド
-seo-description: null
-page-status-flag: never-activated
-uuid: 8fd1aabc-e51a-433d-835f-6b5a717c7aeb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: api
-discoiquuid: 815d3eb9-ac45-441f-9a5f-0cd505fcf88a
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '136'
+ht-degree: 9%
 
 ---
 

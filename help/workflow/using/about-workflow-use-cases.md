@@ -1,18 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: ワークフローの使用例について
 description: Campaign Classic ワークフローを使用して実行できるユースケースについて詳しく説明します。
-page-status-flag: never-activated
-uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: workflow
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00a9b7def9d0ad0190c389c6bcde431f8e2f2b44
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%

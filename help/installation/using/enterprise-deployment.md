@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 企業へのデプロイメント
-seo-title: 企業へのデプロイメント
 description: 企業へのデプロイメント
-seo-description: null
-page-status-flag: never-activated
-uuid: 2c2b5cef-86cb-4cb5-801a-ca6afeae90bb
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
-discoiquuid: 066d0ac1-033c-467b-aa6c-43a97ecd8632
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1263'
 ht-degree: 2%
 
 ---
@@ -66,7 +61,7 @@ ht-degree: 2%
    * 最初に公開され、仮想IPアドレス(VIP)上のロードバランサーをトラッキングして指し示し、2つの正面サーバーに配布されます。
    * 2つ目は、内部ユーザーに対してコンソール経由でアクセスし、仮想IPアドレス(VIP)上のロードバランサーを指し示し、2つのアプリケーションサーバーに配布されます。
 
-* STMP (25)、DNS (53)、HTTP (80)、HTTPS (443)、SQL （Oracleの場合は1521、PostgreSQLの場合は5432など）を開くように設定されたファイアウォール ポート。 詳細は、「 [データベースアクセス](../../installation/using/network-configuration.md#database-access)」を参照してください。
+* STMP (25)、DNS (53)、HTTP (80)、HTTPS (443)、SQL （1521 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳細は、「 [データベースアクセス](../../installation/using/network-configuration.md#database-access)」を参照してください。
 
 >[!CAUTION]
 >

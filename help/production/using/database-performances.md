@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: データベースのパフォーマンス
-seo-title: データベースのパフォーマンス
 description: データベースのパフォーマンス
-seo-description: null
-page-status-flag: never-activated
-uuid: 47ff7532-1fe7-47c2-bc3b-0f46d3a4a288
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-discoiquuid: 6358c8fd-2b75-4462-acd1-887ee44d3110
 translation-type: tm+mt
-source-git-commit: 849e1ebf14f707d9e86c5a152de978acb6f1cb35
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 8%
 
 ---

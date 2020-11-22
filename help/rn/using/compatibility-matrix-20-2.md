@@ -1,17 +1,14 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 互換性マトリックス
 description: 互換性マトリックス
-page-status-flag: never-activated
-uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-translation-type: ht
-source-git-commit: 3402212bc6904dd5587d3b5a16fca7f4857fb908
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 100%
 
@@ -24,7 +21,7 @@ ht-degree: 100%
 
 ## 重要な注意事項{#important-notes}
 
-このマトリックスは、追加された新しいサポートアイテムおよび削除された非推奨アイテムを定期的に更新します。
+このマトリックスは、新しいサポート対象項目の追加および非推奨項目の削除により定期的に更新されます。
 
 特に断りのない限り、すべてのマイナーリリースがサポートされます。
 
@@ -37,7 +34,7 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <table> 
 <tbody> 
 <tr> 
-<td>CentOs</td>
+<td>CentOS</td>
 <td>
 <p>7.x（64 ビット）</p>
 </td>

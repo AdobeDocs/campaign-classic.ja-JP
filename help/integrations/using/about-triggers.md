@@ -1,26 +1,23 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Adobe Experience Cloud トリガーについて
 description: Adobe Experience Cloudトリガーの実装を開始する
-page-status-flag: never-activated
-uuid: c523822f-8178-4989-bd88-ab402470e540
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-discoiquuid: 0d617f1c-0d0b-489f-9027-a92b1f1eee37
 translation-type: tm+mt
-source-git-commit: 48acf8cbc52a54a2dd08f0b8f29be57d4e5e006f
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
 
 # Adobe Experience Cloudトリガーの使い始めに{#about-adobe-experience-triggers}
 
-[!DNL Triggers] は、パイプラインを使用して Adobe Campaign と Adobe Analytics を統合します。パイプラインは、Web サイトからユーザーのアクションまたはトリガーを取得します。買い物かごの放棄は、トリガーの一例です。トリガーが Adobe Campaign で処理されて、ほぼリアルタイムで E メールが送信されます。
+[!DNL Triggers] は、パイプラインを使用して Adobe Campaign と Adobe Analytics を統合します。パイプラインは、web サイトからユーザーのアクションまたはトリガーを取得します。買い物かごの放棄は、トリガーの一例です。トリガーが Adobe Campaign で処理されて、ほぼリアルタイムで E メールが送信されます。
 
 >[!CAUTION]
 >
@@ -33,10 +30,10 @@ ht-degree: 84%
 
 ## [!DNL Triggers] アーキテクチャ {#triggers-architecture}
 
-[!DNL pipelined] プロセスは、Adobe Campaign マーケティングサーバーで常に動作しています。パイプラインに接続し、イベントを取得して直ちに処理します。
+[!DNL pipelined] プロセスは、Adobe Campaign マーケティングサーバーで常に動作しています。パイプラインに接続し、イベントを取得してただちに処理します。
 
 ![](assets/triggers_2.png)
 
-[!DNL pipelined] プロセスは、認証サービスを使用して Experience Cloud にログインし、秘密鍵を送信します。認証サービスがトークンを返します。トークンは、イベントの取得時に認証に使用されます。
+[!DNL pipelined] プロセスは、認証サービスを使用して Experience Cloud にログインし、秘密鍵を送信します。認証サービスがトークンを返します。トークンは、イベント取得時の認証に使用されます。
 
-For more information on authentication, refer to this [page](../../integrations/using/configuring-adobe-io.md).
+認証について詳しくは、[このページ](../../integrations/using/configuring-adobe-io.md)を参照してください。

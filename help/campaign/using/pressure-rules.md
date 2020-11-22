@@ -1,20 +1,15 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: 頻度ルール
-seo-title: 頻度ルール
 description: 頻度ルール
-seo-description: null
-page-status-flag: never-activated
-uuid: 653d8336-8765-4938-88c1-a96cd76c3b7e
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-discoiquuid: 3710768e-ab7f-40a4-9c48-830695adc990
-translation-type: ht
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
-workflow-type: ht
-source-wordcount: '3430'
+translation-type: tm+mt
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+workflow-type: tm+mt
+source-wordcount: '3428'
 ht-degree: 100%
 
 ---
@@ -162,13 +157,13 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 >* 「**[!UICONTROL 考慮する期間]**」フィールドに「**15 日**」と入力します。ルールが適用される配信日から過去 2 週の間に送信された配信が計算に含められます。
 >
 >  
->または
+または
 >
 >* 「**[!UICONTROL 考慮する期間]**」フィールドに **7d** と入力し、さらに「**[!UICONTROL 暫定カレンダーで配信を考慮]**」オプションを選択します。\
->オプション：配信日から過去 7 日の間に送信された配信および配信日から 7 日後までスケジュールされている配信が計算に含められます。
+   >オプション：配信日から過去 7 日の間に送信された配信および配信日から 7 日後までスケジュールされている配信が計算に含められます。
 >
 >
->期間の開始日は、データベースの設定によって異なります。
+期間の開始日は、データベースの設定によって異なります。
 
 例えば、グループなしで 15 日間の頻度ルールを 12 月 11 日の配信に適用すると、11 月 27 日から 12 月 12 日までの配信が計算に含められます。暫定カレンダーで配信を考慮する場合は、11 月 27 日から 12 月 27 日までに予約されているすべての配信が計算に含められます。また、暦月ごとのグループ化を設定すると、11 月と 12 月の配信がすべて、しきい値の計算に含められます（11 月 1 日から 12 月 31 日まで）。
 

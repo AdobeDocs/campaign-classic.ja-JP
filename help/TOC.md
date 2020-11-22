@@ -1,16 +1,17 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Classic ガイド
-breadcrumb-title: Campaign Classic ガイド
+breadcrumb-title: Campaign Classic
+product: campaign
+title: Campaign Classic ガイド
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: チャネルをまたいだマーケティングキャンペーンを設計、計画、実行、管理、および最適化して、高いマーケティング投資回収率を実現します。
-product: adobe campaign
+solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 3d6515ca291715e5e02f9b5404803e9087555284
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2169'
 ht-degree: 97%
 
 ---

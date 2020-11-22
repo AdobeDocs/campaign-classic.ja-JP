@@ -1,16 +1,13 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: Campaign Classicデータモデルの概要
 description: キャンペーンデータモデルの拡張、スキーマの編集、APIの使用などの方法について説明します。
-page-status-flag: never-activated
-uuid: faddde15-59a1-4d2c-8303-5b3e470a0c51
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-discoiquuid: 5957b39e-c2c6-40a2-b81a-656e9ff7989c
 translation-type: tm+mt
-source-git-commit: 99d766cb6234347ea2975f3c08a6ac0496619b41
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 6%

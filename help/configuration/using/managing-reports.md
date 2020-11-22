@@ -1,21 +1,16 @@
 ---
+solution: Campaign Classic
+product: campaign
 title: レポートの管理
-seo-title: レポートの管理
 description: レポートの管理
-seo-description: null
-page-status-flag: never-activated
-uuid: 3b8e6f11-4cbd-450e-871b-50fd0ead96db
-contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-discoiquuid: 21777423-0c8a-4bb1-b210-972f660648bd
 translation-type: tm+mt
-source-git-commit: 70b143445b2e77128b9404e35d96b39694d55335
+source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 4%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 

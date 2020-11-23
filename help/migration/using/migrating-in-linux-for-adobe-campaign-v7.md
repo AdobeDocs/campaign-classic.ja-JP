@@ -609,7 +609,7 @@ config- **`<instance name>`.xml** ファイルで、 **mta** wfserver, **stat***
 1. ミッドソーシングサーバー.
 1. マーケティングサーバー。
 
-次の手順に進む前に、新しいインストールの完全なテストを実行し、 [一般設定の節の推奨事項に従って、回帰がないこと、すべての動作を確認してください](../../migration/using/general-configurations.md) 。
+次の手順に進む前に、新しいインストールの完全なテストを実行し、 [一般設定の節の推奨事項に従って、回帰がないこと、すべてが動作することを確認してください](../../migration/using/general-configurations.md) 。
 
 ### Adobe Campaignv6.02からの移行 {#migrating-from-adobe-campaign-v6_02-2}
 

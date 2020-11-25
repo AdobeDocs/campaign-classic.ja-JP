@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 57063c1ed0100b171bda93e273c399c40d8e980a
+source-git-commit: 68fee697b65b2ba69f456803e0a7cebca9be3760
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
@@ -45,34 +45,17 @@ ht-degree: 2%
   </tr>
   <tr> 
    <td>Adobe Campaignは正しく統合されているか。</td> 
-   <td>次の場所にログオンします。 <b>http(s)://&lt;urlserver&gt;/r/test</b> URL。 サーバーは、次の種類のメッセージを返す必要があります。
-
-    &lt;pre>
-    &lt;redir status=&#39;OK&#39; date=&#39;YYYY/MM/DD HH:MM:SS&#39; build=&#39;XXXX&#39; host=&#39;&lt;hostname>&#39; localHost=&#39;&lt;server>&#39;/>
-    &lt;/pre>
-この結果を取得しない場合は、統合が考慮されるウェブサーバ設定をチェックインします。</td>
-</tr>
+   <td>次の場所にログオンします。 <b>http(s)://&lt;urlserver&gt;/r/test</b> URL。 サーバーは、次の種類のメッセージを返す必要があります。&lt;redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='&lt;hostname&gt;' localHost='&lt;server&gt;'/&gt;この結果を得ない場合は、統合を考慮したWebサーバーの設定を確認してください。</td>
+  </tr>
   <tr> 
-   <td>Adobe CampaignWebモジュールが起動しているか。</td> 
-   <td>次のURLに接続します。 <b>http(s)://&gt;URLSERVER&lt;/nl/jsp/logon.jsp</b>* Tomcat Javaエラーが発生した場合：
-
-JAVA統合は正しく実行されているか。 Adobe CampaignにはSUN JDKが必要です。
-
-これは、application /nl6/customer.shのファイル [パスに統合されています]。
-
-* 空白のページを取得した場合：Adobe CampaignWebモジュールは起動しているか。 以下を入手する必要があります。
-
-<pre>
-nlserver pdumpHH:MM:SS &gt; Application server for the server forAdobe Campaign Classic(7.X YY.R build XXX@SHA1) of DD/MM/YYYY[...]web@default (27515) - 55.2 Mb[...]
-</pre>
-* そうでない場合は、次のコマンドを使用して再起動します。
-
-<pre>        
-nlserver開始Web
-</pre>
-</td>
-</tr>
-  <tr>
+   <td>次のURLに接続します。 <b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
+   <td>Tomcat Javaエラーが発生した場合は、JAVA統合が正しく実行されているかどうかを確認します。 It is integrated in the file [path of application]/nl6/customer.sh</td>
+  </tr>
+  <tr> 
+   <td>次のURLに接続します。 <b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
+   <td>空白のページが取得された場合は、Adobe CampaignWebモジュールが起動しているかどうかを確認します。 nlserver pdumpコマンドは、DD/MM/YYYYのAdobe Campaign Classic(7.X YY.R build XXX@SHA1)のアプリケーションサーバーを返す必要があります。 そうでない場合は、コマンドnlserver開始Webを使用してモジュールを再起動します</td>
+  </tr>
+   <tr>
   	<td>セキュリティゾーンの一般的な構成を確認します。</td>
   	<td>セキュリティゾーンの構成について詳しくは、[this section](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。</td>
   </tr>

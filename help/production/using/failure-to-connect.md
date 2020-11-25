@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: cb6a2247e3b7617511aecf3d2d19985af0216494
+source-git-commit: eb7e1c98f69ba20ef4222bfefea74fdaf6072397
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '349'
 ht-degree: 2%
 
 ---
@@ -41,34 +41,34 @@ ht-degree: 2%
   </tr>
   <tr> 
    <td>Webサーバーは応答しますか。</td> 
-   <td>Webブラウザーを使用してAdobe CampaignサーバーのアクセスURLに接続します。**`http(s):// <urlserver>`**. 応答しない場合、Webサーバーはマシン上で停止します。 サービスを再起動するには、ホスト会社のシステム管理者に問い合わせてください。</td>
+   <td>Webブラウザーを使用してAdobe CampaignサーバーのアクセスURLに接続します。 <b>http(s):// &lt;urlserver&gt;</b>. 応答しない場合、Webサーバーはマシン上で停止します。 サービスを再起動するには、ホスト会社のシステム管理者に問い合わせてください。</td>
   </tr>
   <tr> 
    <td>Adobe Campaignは正しく統合されているか。</td> 
-   <td>次の場所にログオンします。**`http(s)://<urlserver>/r/test`* URL サーバーは、次の種類のメッセージを返す必要があります
+   <td>次の場所にログオンします。 <b>http(s)://&lt;urlserver&gt;/r/test</b> URL。 サーバーは、次の種類のメッセージを返す必要があります。
 
-    &quot;
+    &lt;pre>
     &lt;redir status=&#39;OK&#39; date=&#39;YYYY/MM/DD HH:MM:SS&#39; build=&#39;XXXX&#39; host=&#39;&lt;hostname>&#39; localHost=&#39;&lt;server>&#39;/>
-    &quot;
+    &lt;/pre>
     
-    この結果が得られない場合は、統合が考慮されるWebサーバーの設定を確認してください。&lt;/td>
+    この結果を取得しない場合は、統合を考慮するWebサーバー設定を確認してください。&lt;/td>
 </tr>
   <tr> 
    <td>Adobe CampaignWebモジュールが起動しているか。</td> 
    <td>
-   次のURLに接続します。**`http(s)://<URLSERVER>/nl/jsp/logon.jsp`** * Tomcat Javaエラーが発生した場合：
+   次のURLに接続します。 <b>http(s)://&gt;URLSERVER&lt;/nl/jsp/logon.jsp</b>* Tomcat Javaエラーが発生した場合：
 
     JAVA統合は正しく実行されているか。 Adobe CampaignにはSUN JDKが必要です。
     
-    このIDは、**`[アプリケーションのパス]`/nl6/customer.sh**
+    It is integrated in the file [path of application]/nl6/customer.sh
     
-    *空白のページを取得した場合：Adobe CampaignWebモジュール
+    * If you oven a blank page:
     
-    を起動しましたか？ DD/MM/YYYY
+    Has theAdobe CampaignWeb module starped up? DD/MM/YYYY
     
     [...]web@default (27515) - 55.2 Mb
     [...]
-    &#39;&#39;のAdobe Campaign Classic(7.X YY.R build XXX@SHA1)の場合は、「nlserver
+    のAdobe Campaign Classic(7.X YY.R build XXX@SHA1)の場合は、&lt;pre>
     
     
     
@@ -78,7 +78,8 @@ ht-degree: 2%
     
     
     
-    pdumpHH:MM:SS > Application server for Application server (7. Y.X..........)」を取得する必要があります。そうでない場合は、次のコマンドを使用して再起動します。
+    
+    nlserver pdumpHH:MM:SS > Application serverを入手する必要があります。/pre>開始*を使用しない場合は、次のコマンドを使用して再起動します。&lt;pre>pre> webのコマンドです。
 </tr>
   <tr>
   	<td>セキュリティゾーンの一般的な構成を確認します。</td>

@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: affc541c480ad7e618120fe90270841add06b711
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 100%
+source-wordcount: '153'
+ht-degree: 76%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 100%
    <tr> 
    <td> <span class="uicontrol">MessageCenter における完全な集計の計算</span> <br /> </td> 
    <td> <span class="uicontrol">agg_messageCenter_full</span> <br /> </td> 
+   <td> This workflow updates the <strong>Full</strong> aggregate for the <strong>Message center</strong> cube. デフォルトで、毎日午前 3 時にトリガーされます。この集計は、次のディメンションを取り込みます。チャネル、日付、ステータス、イベントタイプ。<br /> 次に、 <strong>Message Center</strong> キューブを使用して、イベントに基づくレポートを生成します。 キューブについて詳しくは、<a href="../../reporting/using/about-cubes.md">この節</a>を参照してください。<br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 

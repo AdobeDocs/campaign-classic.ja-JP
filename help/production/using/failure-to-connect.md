@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 2cc4ab52f3cbdd00831d0b5104690b7adf6091ce
+source-git-commit: 57063c1ed0100b171bda93e273c399c40d8e980a
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 2%
@@ -60,14 +60,11 @@ JAVA統合は正しく実行されているか。 Adobe CampaignにはSUN JDKが
 
 これは、application /nl6/customer.shのファイル [パスに統合されています]。
 
-* 空白のページを取得した場合：
-
-Adobe CampaignWebモジュールは起動しているか。 以下を入手する必要があります。
+* 空白のページを取得した場合：Adobe CampaignWebモジュールは起動しているか。 以下を入手する必要があります。
 
 <pre>
 nlserver pdumpHH:MM:SS &gt; Application server for the server forAdobe Campaign Classic(7.X YY.R build XXX@SHA1) of DD/MM/YYYY[...]web@default (27515) - 55.2 Mb[...]
 </pre>
-
 * そうでない場合は、次のコマンドを使用して再起動します。
 
 <pre>        

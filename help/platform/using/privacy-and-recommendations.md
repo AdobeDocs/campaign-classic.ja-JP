@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 97e039e48068e3862bc6640711efe54f21fc0f15
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 96%
+source-wordcount: '2043'
+ht-degree: 86%
 
 ---
 
@@ -78,6 +78,8 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 * **個人データ**&#x200B;は、生きている個人を直接または間接的に識別できる情報です。
 * **個人の機密データ**&#x200B;は、個人の人種、政治観、宗教的信念、犯罪歴、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の組合員に関する情報です。
 
+Campaign を、[Adobe Analytics](../../platform/using/adobe-analytics-data-connector.md)、[Audience Manager または People コアサービス](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md)、[Campaign Standard](../../integrations/using/synchronizing-audiences.md) などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または[ CRM コネクタ](../../platform/using/crm-connectors.md)を介して他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
+
 The [main regulations](#privacy-regulations) refer to the different entities that manage data as follows:
 * **データ管理者**&#x200B;は、個人データの収集、使用、共有の方法と目的を決定する権限です。
 * **データ処理者**&#x200B;は、データ管理者の指示に従って個人データを収集、使用、または共有する個人または関係者です。
@@ -85,7 +87,31 @@ The [main regulations](#privacy-regulations) refer to the different entities tha
 
 したがって、個人データを収集し共有する会社はデータ管理者で、そのクライアントはデータ主体です。Adobe Campaign は、お客様の指示に従って個人データを処理する際に、データ処理者として機能します。[プライバシーリクエスト](#privacy-requests)を管理する場合など、データ主体との関係を処理するのはデータ管理者としての責任であることに注意してください。
 
-Campaign を、[Adobe Analytics](../../platform/using/adobe-analytics-data-connector.md)、[Audience Manager または People コアサービス](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md)、[Campaign Standard](../../integrations/using/synchronizing-audiences.md) などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または[ CRM コネクタ](../../platform/using/crm-connectors.md)を介して他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
+### 使用事例シナリオ {#use-case-scenario}
+
+以下は、GDPRの顧客体験の高度な使用例です。
+
+この例では、航空会社の会社はAdobe Campaignの顧客です。 This company is the **Data Controller** and all the clients of the airline company are **Data Subjects**. この場合、Lauraは航空会社の顧客です。
+
+この例は次の関係者で構成されます。
+
+* **Laura** は&#x200B;**データ主体**&#x200B;で、彼女は航空会社の会社からメッセージを受け取る受信者です。 Lauraは頻繁にチラシになる可能性がありますが、ある時点では、航空会社の会社からの個人向けの広告やマーケティングのメッセージは望まないと判断する場合もあります。 そのため、航空会社に（所定のプロセスに基づいて）リピーター番号を削除するよう要求します。
+
+* **Anne** は、航空会社の会社の **データコントローラー** です。 Laura からの要求を受け取り、このデータ主体を識別するための有意な ID を取得して、要求内容を Adobe Campaign に登録します。
+
+* **Adobe Campaign** は **Data Processor**。
+
+![](assets/privacy-gdpr-flow.png)
+
+この例での一般的なフローを以下に示します。
+
+1. The **Data Subject** (Laura) sends a GDPR request to the **Data Controller**, via email, customer care or a web portal.
+
+1. **Data Controller** (Anne)は、GDPR要求をインターフェイス経由またはAPIを使用してキャンペーンにプッシュします。
+
+1. Once the **Data Processor** (Adobe Campaign) receives the information, it takes action on the GDPR request and sends a response or acknowledgement to the **Data Controller** (Anne).
+
+1. The **Data Controller** (Anne) then reviews the information and sends it back to the **Data Subject** (Laura).
 
 ## データの取得 {#data-acquisition}
 
@@ -125,19 +151,9 @@ Adobe Campaign は、特定のプライバシーリクエストに対するデ�
 
 * 「**忘れられる権利**（削除リクエスト）」は、データ主体に対して、データ管理者が個人データを消去する権限を与えます。
 
->[!NOTE]
->
->GDPR、CCPA、PDPA、LGPD のプライバシーコンプライアンスに役立つツール群を紹介します。これらの様々な規則について詳しくは、[このページ](../../platform/using/privacy-management.md#privacy-management-regulations)を参照してください。
+The **Access** and **Delete** requests are presented in [this section](../../platform/using/privacy-management.md#right-access-forgotten).
 
-<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
-
-* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
-
-* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.
-
-Brazil's Lei Geral de Proteção de Dados (LGPD) will be effective starting Aug, 16 for all companies collecting or processing personal data in Brazil. This regulation also applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
-
-**アクセス**&#x200B;リクエストと&#x200B;**削除**&#x200B;リクエストは、[このページ](../../platform/using/privacy-management.md#right-access-forgotten)に表示されます。これらのリクエストを作成するための実装手順については、[この節](../../platform/using/privacy-requests.md)で詳しく説明します。<!--Tutorials are also available [here](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html).-->
+これらのリクエストを作成するための実装手順については、[この節](../../platform/using/privacy-requests.md)で詳しく説明します。
 
 ## トラッキング機能 {#tracking-capabilities}
 

@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6e0741d13aa954e81fe6416663399ffd1a81012f
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 2%
@@ -162,7 +162,7 @@ XMLドキュメントには、名前空間名と名前空間を指定するた�
 * **name**:内部名
 * **label**:label **[!UICONTROL 新しいフォルダ]** ・メニューで使用され、フォルダの挿入時にデフォルトのラベルとして使用されます。
 * **img**:フォルダ挿入時の初期設定の画像。
-* **hiddenCommands**:マスクするコマンドのリスト（カンマ区切り）。 可能な値：&quot;insert&quot;、&quot;delete&quot;、&quot;update&quot;、&quot;重複&quot;。
+* **hiddenCommands**:マスクするコマンドのリスト（カンマ区切り）。 可能な値：&quot;adbnew&quot;、&quot;adbsave&quot;、&quot;adbcancel&quot;、&quot;adbdup&quot;
 * **newFolderShortCuts**:フォルダ作成時のモデルのショートカット(**`<nodemodel>`** カンマで区切る)のリスト。
 * **insertRight**, **editRight**, **deleteRight**:フォルダの挿入、編集、削除の権限。
 

@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: fc5a44fe7bf4c88eca4634a67eaae48c722d8e5e
+source-git-commit: 85fae38f864b031f069058dae79ce6753dc4bf03
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '370'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,11 @@ ht-degree: 2%
 </tr>
 <tr>
 <td>セキュリティゾーンの一般的な構成を確認します。</td>
-<td>セキュリティゾーンの構成について詳しくは、[this section](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。</td>
+<td>For more on configuring security zones, refer to <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=en#configuring-campaign-server"/>this section.</a></td>
+</tr>
+<tr>
+<td>nlserver pdumpコマンドは <b>Noタスクを返す</b></td>
+<td>Adobe Campaignアプリケーション全体を再起動する必要があります。 これを行うには、次のコマンドを使用します。 <b>nlserver watchdog -svc -noconsole</b></td>
 </tr>
 </tbody> 
 </table>

@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2171'
 ht-degree: 97%
 
 ---
@@ -58,6 +58,7 @@ ht-degree: 97%
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
       + [プライバシーの管理](platform/using/privacy-management.md)
       + [プライバシーリクエスト](platform/using/privacy-requests.md)
+      + [プライバシーFAQ](platform/using/privacy-faq.md)
    + プロファイル管理 {#profile-management}
       + [プロファイルについて](platform/using/about-profiles.md)
       + [プロファイルの編集](platform/using/editing-a-profile.md)
@@ -332,7 +333,7 @@ ht-degree: 97%
       + [Web アプリケーションの同期](integrations/using/synchronizing-web-applications.md)
       + [  [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md) のトラブルシューティング
    + Experience Cloud Triggers {#experience-triggers}
-      + [使用の手引き [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
+      + [ [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md) の基本を学ぶ
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)
       + [Adobe Experience Cloud・トリガー用のAdobeI/Oの構成](integrations/using/configuring-adobe-io.md)
       + [カスタム実装用のイベントの設定](integrations/using/events.md)

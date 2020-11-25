@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e43a14a8be179dd4793176d15e2c30b3e778d3e0
 workflow-type: tm+mt
 source-wordcount: '2627'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -257,7 +257,7 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 このユースケースでは、外部システムで暗号化されたデータを Campaign コントロールパネルで生成された鍵を使用してインポートするためのワークフローを作成します。
 
-GPG キーを使用してデータを復号化する方法を示すチュートリアルビデオについては、[こちら](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html)を参照してください。
+GPG キーを使用してデータを復号化する方法を示すチュートリアルビデオについては、[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings)を参照してください。
 
 このユースケースを実行する手順は次のとおりです。
 

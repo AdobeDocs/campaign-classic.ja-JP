@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
 workflow-type: tm+mt
-source-wordcount: '3604'
-ht-degree: 95%
+source-wordcount: '3647'
+ht-degree: 94%
 
 ---
 
@@ -36,6 +36,10 @@ ht-degree: 95%
 ミッドソーシングサーバの設定ページに、外部アカウントの内部名を一旦設定した後に更新しないように指定する注記が追加されました。 [詳細を表示](../../installation/using/mid-sourcing-server.md)
 
 外部SFTPサーバーへのパスを指定する際に使用する構文に関する情報が追加されました。 [詳細を表示](../../platform/using/sftp-server-usage.md#external-SFTP-server)
+
+「個人データと個人」セクションには、プライバシーに関して様々な個人がどのように関わっているかを示すユースケースシナリオが更新されました。 [詳細を表示](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
+
+プライバシーに関するよくある質問の一覧を記載した新しい節を追加しました。 [詳細を表示](../../platform/using/privacy-faq.md)
 
 ## 2020 年 10 月 {#oct-2020}
 

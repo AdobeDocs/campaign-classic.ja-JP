@@ -10,10 +10,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 1d7d48f52f69e4902eafa6806c2cd9170c21fe5a
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 92%
+source-wordcount: '1862'
+ht-degree: 90%
 
 ---
 
@@ -61,6 +61,8 @@ Android の場合、2 種類のコネクタを使用できます。
    * **maxGCMConnectPerChild**：それぞれの子サーバーで開始できる、FCM に対する並列 HTTP リクエストの最大数（デフォルト値は 8）。
 
 ## Android サービスの設定 {#configuring-android-service}
+
+![](assets/do-not-localize/how-to-video.png) [ビデオでAndroidサービスを設定する方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=en#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
 
 1. **[!UICONTROL プロファイルとターゲット／サービスと購読]**&#x200B;ノードに移動して、「**[!UICONTROL 新規]**」をクリックします。
 
@@ -178,6 +180,8 @@ HTTP（レガシー）API バージョンを設定するには、次の手順に
 
 ## appsubscriptionRcpスキーマの拡張 {#extend-subscription-schema}
 
+![](assets/do-not-localize/how-to-video.png) [appsubscriptionRcpスキーマをビデオで拡張する方法を説明します。](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html?lang=en#extending-the-app-subscription-schema-to-personalize-push-notifications)
+
 appsubscriptionRcpを拡張して、アプリのパラメーターをキャンペーンデータベースに保存するための新しい **** 追加フィールドを定義する必要があります。 これらのフィールドは、例えば、パーソナライゼーションに使用されます。 手順は次のとおりです。
 
 1. 「**[!UICONTROL 購読者のアプリケーション（nms:appsubscriptionRcp）]**」スキーマの拡張を作成し、新しいフィールドを定義します。Learn more about schema extension in [this page](../../configuration/using/about-schema-edition.md)
@@ -187,7 +191,6 @@ appsubscriptionRcpを拡張して、アプリのパラメーターをキャン�
    >[!CAUTION]
    >
    >「**[!UICONTROL 購読パラメーター]**」タブの設定名が、モバイルアプリケーションコードの設定名と同じであることを確認します。[Campaign SDK をモバイルアプリケーションに統合する](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)の節を参照してください。
-
 
 ## Android のリッチ通知の作成 {#creating-android-delivery}
 
@@ -240,6 +243,8 @@ Firebase Cloud Messaging のメッセージタイプについて詳しくは、[
 >[!NOTE]
 >
 >通知メッセージのその他のオプションは、HTTP v1 API 設定でのみ使用できます。詳しくは、[この節](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)を参照してください。
+
+![](assets/do-not-localize/how-to-video.png) [ビデオでAndroidのプッシュ通知を作成する方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=en#additional-resources)
 
 1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;に移動します。
 

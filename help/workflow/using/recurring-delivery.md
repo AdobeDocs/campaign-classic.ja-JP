@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: 繰り返し配信
-description: 定期配信ワークフローアクティビティの詳細を表示します
+description: 繰り返し配信ワークフローアクティビティの詳細を説明します
 audience: workflow
 content-type: reference
 topic-tags: action-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

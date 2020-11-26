@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: ワークフローのベストプラクティス
-description: キャンペーンワークフローのベストプラクティスを学ぶ
+description: キャンペーンワークフローのベストプラクティスを説明します
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1655'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ JavaScript の **[!UICONTROL logInfo()]** メソッドは、ワークフロー�
 
 ワークフローには、適切な名前とラベルを付けることをお勧めします。そうすると、正常に機能していないワークフローを簡単に見つけてトラブルシューティングできるようになります。また、オペレーターが理解しやすいように、実行される処理の概要をワークフローの説明フィールドに記述してください。
 
-そのワークフローが、複数のワークフローが関与する処理の一部となっている場合、ラベルの入力は手動で行います。ワークフローを（ラベルによって）順序付けるには数字の利用が適しています。
+そのワークフローが、複数のワークフローが関与する処理の一部となっている場合、ラベルの入力は手動でおこないます。ワークフローを（ラベルによって）順序付けるには数字の利用が適しています。
 
 次に例を示します。
 
@@ -133,7 +133,7 @@ JavaScript の **[!UICONTROL logInfo()]** メソッドは、ワークフロー�
 
 ワークフローを開発する際、アクティビティには他の Adobe Campaign オブジェクト同様に名前が付けられます。名前はツールが生成しますが、アクティビティを設定する際にわかりやすい名前に変更することをお勧めします。後から名前変更をおこなうと、それより前の他のアクティビティの名前を使用するアクティビティを含むワークフローが中断する恐れがあります。このため、後から名前を変更するのは困難な作業になります。
 
-アクティビティの名前は、「**[!UICONTROL 詳細設定]**」タブにあります。**[!UICONTROL query]**、**[!UICONTROL query1]**、**[!UICONTROL query11]**&#x200B;といった名前のままにせず、**[!UICONTROL querySubscribedRecipients]** などのわかりやすい名前を付けてください。この名前は、ジャーナルおよび場合によっては SQL ログに表示され、ワークフロー設定の際、デバッグするのに役立ちます。
+アクティビティの名前は、「**[!UICONTROL 詳細設定]**」タブにあります。**[!UICONTROL query]**、**[!UICONTROL query1]**、**[!UICONTROL query11]** といった名前のままにせず、**[!UICONTROL querySubscribedRecipients]** などのわかりやすい名前を付けてください。この名前は、ジャーナルおよび場合によっては SQL ログに表示され、ワークフロー設定の際、デバッグするのに役立ちます。
 
 ### 最初と最後のアクティビティ {#first-and-last-activities}
 

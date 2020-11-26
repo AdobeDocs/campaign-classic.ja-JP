@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: 外部シグナル
-description: 外部呼び出しワークフローアクティビティの詳細を表示します
+description: 外部シグナルワークフローアクティビティの詳細を説明します
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

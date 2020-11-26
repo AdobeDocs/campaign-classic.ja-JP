@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '3076'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 95%
 
 各配信に対して、次の項目を定義できます。
 
-* オーディエンス — ワークフローでのオーディエンスの [構築とターゲット母集団の](#building-the-main-target-in-a-workflow) 選択の詳細 [](#selecting-the-target-population)。
-* コントロール母集団-コントロール母集団の [定義の詳細](#defining-a-control-group)。
-* シードアドレス- [この節で詳しく説明します](../../delivery/using/about-seed-addresses.md)。
+* オーディエンス - 詳細は、[ワークフローでのオーディエンスの構築](#building-the-main-target-in-a-workflow)と[ターゲット母集団の選択](#selecting-the-target-population)を参照してください。
+* コントロール母集団 - 詳細は、[コントロール母集団の定義](#defining-a-control-group)を参照してください。
+* シードアドレス - [こちら](../../delivery/using/about-seed-addresses.md)で詳しく説明します。
 
-Some of this information can be inherited from the [template](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
+この情報の一部は、[テンプレート](../../campaign/using/marketing-campaign-templates.md#campaign-templates)から継承されます。
 
-配信ターゲットを作成するために、データベース内の受信者のフィルタリング条件を定義できます。この受信者選択モードは、 [この節で示します](../../delivery/using/steps-defining-the-target-population.md)。
+配信ターゲットを作成するために、データベース内の受信者のフィルタリング条件を定義できます。この受信者選択モードは、[こちら](../../delivery/using/steps-defining-the-target-population.md)で説明します。
 
 **例：グループにメッセージを送信する**
 
@@ -57,13 +57,13 @@ Some of this information can be inherited from the [template](../../campaign/usi
 
 ![](assets/s_user_target_group_next.png)
 
-### ワークフローでのオーディエンスの構築 {#building-the-main-target-in-a-workflow}
+### ワークフローでのオーディエンスの作成 {#building-the-main-target-in-a-workflow}
 
 配信のメインターゲットは、ターゲティングワークフローでも定義できます。クエリ、テスト、オペレーター（和集合、重複排除、共有など）を使用して、グラフィカルにターゲットを作成できます。[詳細情報](../../workflow/using/architecture.md)。
 
 >[!IMPORTANT]
 >
->1つのキャンペーンに28個を超えるワークフローを作成することはできません。 この上限を超えると、追加のワークフローはインターフェイスに表示されず、エラーが発生する可能性があります。
+>1 つのキャンペーンに 28 個を超えるワークフローを作成することはできません。この上限を超えると、追加のワークフローはインターフェイスに表示されず、エラーが発生する可能性があります。
 
 #### ワークフローの作成 {#creating-a-targeting-workflow}
 
@@ -104,7 +104,7 @@ Some of this information can be inherited from the [template](../../campaign/usi
 1. **[!UICONTROL 新しいワークフロー]**&#x200B;テンプレートを選択し、このワークフローに名前を付けます。
 1. 「**[!UICONTROL OK]**」をクリックしてワークフローの作成を確定し、このワークフローのダイアグラムを作成します。
 
-#### Execute the workflow {#executing-a-workflow}
+#### ワークフローの実行{#executing-a-workflow}
 
 適切な権限がある場合は、ツールバーの&#x200B;**[!UICONTROL 開始]**&#x200B;ボタンから手動でターゲティングワークフローを開始できます。
 
@@ -255,7 +255,7 @@ Some of this information can be inherited from the [template](../../campaign/usi
 
 ## 配信の開始 {#starting-a-delivery}
 
-すべての承認が許可されたら、配信をいつでも開始できます。これ以降の配信手順は、配信の種類によって異なります。For email or mobile channel deliveries, see [Starting an online delivery](#starting-an-online-delivery), and for direct mail deliveries, see [Starting an offline delivery](#starting-an-offline-delivery).
+すべての承認が許可されたら、配信をいつでも開始できます。これ以降の配信手順は、配信の種類によって異なります。E メールまたはモバイルチャネルの配信については、[オンライン配信の開始](#starting-an-online-delivery)を、ダイレクトメール配信については、[オフライン配信の開始](#starting-an-offline-delivery)を参照してください。
 
 ### オンライン配信の開始 {#starting-an-online-delivery}
 

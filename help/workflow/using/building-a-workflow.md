@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: ワークフローの作成
-description: ワークフローの作成方法を説明します。
+description: ワークフローの作成方法を学ぶ
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1679'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 * ワークフローダイアグラムのデザイン（「[アクティビティの追加とリンク](#adding-and-linking-activities)」を参照）
 * アクティビティのパラメーターおよびプロパティへのアクセス（「[アクティビティの設定](#configuring-activities)」を参照）
 * ターゲティングワークフローのデザイン（「[ターゲティングワークフロー](#targeting-workflows)」を参照）
-* Use workflows to execute a campaign, see [Campaign workflows](#campaign-workflows)
+* ワークフローを使用したキャンペーンの実施は、[キャンペーンワークフロー](#campaign-workflows)を参照
 * テクニカルワークフローのアクセスと作成（「[テクニカルワークフロー](#technical-workflows)」を参照）
 * テンプレートを使用したワークフローの作成（「[ワークフローテンプレート](#workflow-templates)」を参照）
 
@@ -114,7 +114,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Campaign ワークフローアクティビティについて詳しくは、[この節](../../workflow/using/about-activities.md)を参照してください。
+>キャンペーンワークフローアクティビティについて詳しくは、[こちら](../../workflow/using/about-activities.md)を参照してください。
 
 1 番目のタブには、基本設定が含まれます。「**[!UICONTROL 詳細設定]**」タブには、エラー発生時の動作の定義や、アクティビティの実行時間の指定、初期化スクリプトの入力に使用される追加のパラメータが含まれています。
 
@@ -140,13 +140,13 @@ ht-degree: 95%
 
 キャンペーンのフレームワーク内のターゲティングワークフローは、すべてのキャンペーンワークフローとともに保存されます。
 
-### ターゲット設定ワークフローを作成するための主な手順 {#implementation-steps-}
+### ターゲティングワークフローを作成するための主な手順 {#implementation-steps-}
 
-ターゲット設定ワークフローを作成する手順については、次の節を参照してください。
+ターゲティングワークフローを作成する手順については、次の節を参照してください。
 
-1. **データベース内のデータの識別** -クエリの [作成を参照してください。](../../workflow/using/targeting-data.md#creating-queries)
-1. **配信ニーズに合わせたデータの準備** — データの [富化と変更を参照](../../workflow/using/targeting-data.md#enriching-and-modifying-data)
-1. **データを使用した更新の実行** 、または配信内でのデータの使用 — データベースの [更新を参照](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)
+1. データベース内のデータの&#x200B;**識別** - [クエリの作成](../../workflow/using/targeting-data.md#creating-queries)を参照
+1. 配信ニーズに合わせたデータの&#x200B;**準備** - [データのエンリッチメントと変更](../../workflow/using/targeting-data.md#enriching-and-modifying-data)を参照
+1. データを&#x200B;**使用**&#x200B;した更新の実行、または配信内でのデータの使用 - [データベースの更新](../../workflow/using/how-to-use-workflow-data.md#updating-the-database)を参照
 
 ターゲティング中に実行されたすべてのエンリッチメントと処理の結果はパーソナライゼーションフィールドに保存され、このフィールド経由でアクセスされます。具体的には、特にパーソナライズしたメッセージの作成などに使用されます。詳しくは、[ターゲットデータ](../../workflow/using/data-life-cycle.md#target-data)を参照してください。
 
@@ -182,7 +182,7 @@ ht-degree: 95%
 
 ![](assets/campaigns_wf.png)
 
-Campaign workflows and implementation examples are detailed in [this page](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
+キャンペーンワークフローおよび実装例について詳しくは、この[ページ](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)を参照してください。
 
 ## テクニカルワークフロー {#technical-workflows}
 

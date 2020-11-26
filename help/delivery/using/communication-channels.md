@@ -10,16 +10,16 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1190'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # 通信チャネル{#communication-channels}
 
-With Adobe Campaign, you can send cross-channel campaigns including emails, SMS, LINE messages, Push notifications and direct mails, and measure their effectiveness using various dedicated [reports](../../reporting/using/delivery-reports.md). これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズすることができます。
+Adobe Campaign では、E メール、SMS、LINE メッセージ、プッシュ通知およびダイレクトメールを含むクロスチャネルキャンペーンを送信し、各種の専用[レポート](../../reporting/using/delivery-reports.md)を使用してそれらの有効性を評価できます。これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズすることができます。
 
-コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。機能への主なアクセスポイントは、配信ウィザードです。このアクセスポイントにより、Adobe Campaignが対象とする複数の機能が提供されます。
+コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。機能への主なアクセスポイントは、配信ウィザードです。ここから、Adobe Campaign で提供される複数の機能にアクセスします。
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Adobe Campaign は次の配信チャネルを提供します。
 
    >[!NOTE]
    >
-   >使用可能なチャネルの数は、契約によって異なります。 使用許諾契約書を確認してください。
+   >使用可能なチャネルの数は、契約によって異なります。使用許諾契約書を確認してください。
 
 配信は、**オンライン**（E メール、いずれかのモバイルチャネルおよびプッシュ通知）および&#x200B;**オフライン**（ダイレクトメールチャネル）で実行できます。
 

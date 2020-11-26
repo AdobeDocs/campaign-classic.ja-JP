@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Adobe Experience Cloud トリガーについて
-description: Adobe Experience Cloudトリガーの実装を開始する
+title: Adobe Experience Cloud Triggers について
+description: Adobe Experience Cloud Triggers の実装入門
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Cloudトリガーの使い始めに{#about-adobe-experience-triggers}
+# Adobe Experience Cloud Triggers 入門{#about-adobe-experience-triggers}
 
 [!DNL Triggers] は、パイプラインを使用して Adobe Campaign と Adobe Analytics を統合します。パイプラインは、web サイトからユーザーのアクションまたはトリガーを取得します。買い物かごの放棄は、トリガーの一例です。トリガーが Adobe Campaign で処理されて、ほぼリアルタイムで E メールが送信されます。
 
 >[!CAUTION]
 >
->この機能は、製品の一部として初期状態では使用できません。実装するには、アドビのコンサルティングサービス部門に依頼する必要があります。詳細については、Adobeの担当者にお問い合わせください。
+>この機能は、製品の一部として初期状態では使用できません。実装するには、アドビのコンサルティングサービス部門に依頼する必要があります。詳しくは、アドビ担当者にお問い合わせください
 
 [!DNL Triggers] は、ユーザーのアクションの後、短時間のうちにマーケティングアクションを実行します。通常の応答時間は 1 時間未満です。
 

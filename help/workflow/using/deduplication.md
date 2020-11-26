@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: 重複排除
-description: 重複排除 - 重複ワークフローアクティビティの詳細を表示します
+description: 重複排除ワークフローアクティビティの詳細を説明します
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 99%
    特定のフィールドの重複 ID をベースにしたい場合、「**[!UICONTROL その他]**」を選択して使用可能なフィールドのリストを表示します。
 
 1. 複数の受信者に対して同じメールアドレスが検出された場合、1 つのエントリのみを保持するように選択します。
-1. 重複の検出時に保存されるレコードがランダムに選択されるように「**[!UICONTROL 自動選択]**」重複排除モードを選択して「**[!UICONTROL 完了]**」をクリックします。
+1. 重複の検出時に保存されるレコードがランダムに選択されるように「**[!UICONTROL 自動選択]**」重複排除モードを選択して「**[!UICONTROL 終了]**」をクリックします。
 
 ワークフローを実行した場合、重複が検出されたすべての受信者は結果から除外され（結果的に配信からも除外される）、重複リストに追加されます。このリストを再利用することで、重複を再度検出しなくてもすみます。
 

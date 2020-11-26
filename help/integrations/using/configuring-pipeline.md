@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: パイプラインの設定
-description: パイプラインの設定方法
+description: パイプラインの設定方法を説明します
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -27,29 +27,29 @@ ht-degree: 84%
 
 ## 前提条件 {#prerequisites}
 
-この設定を開始する前に、次の機能を使用していることを確認してください。
+この設定を開始する前に、次を使用していることを確認してください。
 
-* Adobe Campaign20.3リリース以上
-* Adobe Analytics Standard版
+* Adobe Campaign 20.3 リリース以上
+* Adobe Analytics Standard 版
 
-また、次の情報も必要です。
+また、次も必要です。
 
-* AdobeI/Oプロジェクト認証
-* 有効なIMSOrgID。Adobe Analyticsが追加したExperience Cloud顧客のID
-* IMS組織への開発者アクセス
-* adobe analyticsで行われたトリガー設定
+* Adobe I/O プロジェクト認証
+* 有効な IMSOrgID、Adobe Analytics が追加された Experience Cloud 顧客の ID
+* IMS 組織へのデベロッパーアクセス権
+* Adobe Analytics でおこなわれたトリガー設定
 
 ## 認証および設定ファイル {#authentication-configuration}
 
 パイプラインは Adobe Experience Cloud でホストされるので、認証が必要です。
 公開鍵と秘密鍵のペアが使用されます。このプロセスは、ユーザー／パスワードと同じ機能ですが、より安全になっています。
-認証は、AdobeI/Oプロジェクトを介したMarketing Cloudに対してサポートされます。
+認証は、Adobe I/O プロジェクトを介した Marketing Cloud に対してサポートされます。
 
-## 手順1:AdobeI/Oプロジェクトの作成/更新 {#creating-adobe-io-project}
+## 手順 1：Adobe I/O プロジェクトの作成とアップデート{#creating-adobe-io-project}
 
-ホストされるお客様の場合は、カスタマーケアチケットを作成して、Triggers統合のためのAdobeI/Oテクニカルアカウントトークンを組織で有効にすることができます。
+ホスト型の顧客は、カスタマーサポートチケットを作成し、Triggers 統合用の Adobe I/O テクニカルアカウントトークンを使用して、組織を有効にすることができます。
 
-For On Premise customers, refer to the [Configuring Adobe I/O for Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) page. Note that you need to select **[!UICONTROL Adobe Analytics]** while adding API to the Adobe I/O credential.
+オンプレミス型の顧客は、「[Adobe Experience Cloud Triggers 用の Adobe I/O の設定](../../integrations/using/configuring-adobe-io.md)」ページを参照してください。Adobe I/O 資格情報に API を追加する際に、「**[!UICONTROL Adobe Analytics]**」を選択する必要があります。
 
 ## 手順 2：NmsPipeline_Config パイプラインオプションの設定 {#configuring-nmspipeline}
 
@@ -133,7 +133,7 @@ For On Premise customers, refer to the [Configuring Adobe I/O for Adobe Experien
 | authPrivateKey（レガシー） | 秘密鍵、OAuth レガシーアプリケーションにアップロードされた公開部分、XtkKey オプション「```cryptString("PRIVATE_KEY")```」で暗号化された AES。 |
 | disableAuth（レガシー） | 認証の無効化（ゲートウェイトークンを使用せずに接続することは、一部の開発パイプラインエンドポイントでのみ可能）。 |
 | discoverPipelineEndpoint | このテナントに使用するパイプラインサービスエンドポイントを見つけるための URL。デフォルト：```https://producer-pipeline-pnw.adobe.net``` |
-| dumpStatePeriodSec | ```var/INSTANCE/pipelined.json.``` での内部ステートプロセスの 2 つのダンプ間の期間<br> 内部ステートはオンデマンドで ```http://INSTANCE:7781/pipelined/status``` でもアクセスできます。 |
+| dumpStatePeriodSec | ```var/INSTANCE/pipelined.json.``` での内部ステートプロセスの 2 つのダンプ間の期間<br>内部ステートはオンデマンドで ```http://INSTANCE:7781/pipelined/status``` でもアクセスできます。 |
 | forcedPipelineEndpoint | PipelineServicesEndpoint の検出を無効にし、強制的におこないます。 |
 | monitorServerPort | パイプライン化されたプロセスは、このポートでリッスンして内部ステートプロセスを ```http://INSTANCE:PORT/pipelined/status``` で提供します。<br>デフォルトは 7781 です。 |
 | pointerFlushMessageCount | この数のメッセージが処理されると、オフセットがデータベースに保存されます。<br>デフォルトは 1000 です。 |

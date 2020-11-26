@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: タスク
-description: タスクワークフローアクティビティの詳細を表示します
+description: タスクワークフローアクティビティの詳細を説明します
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 

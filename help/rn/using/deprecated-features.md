@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1621'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,8 +51,8 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <ul>
    <li>SOAP API - オンプレミス：2007、2015、2016</li>
    <li>SOAP API - オンライン：2015、2016</li>
-   <li>Web API - Microsoft Dynamics CRMオンプレミス：2016, 2016 Update 1</li>
-   <li>Web API - Microsoft Dynamics CRM Online:2016, 2016 Update 1</li>
+   <li>Web API - Microsoft Dynamics CRM オンプレミス：2016、2016 Update 1</li>
+   <li>Web API - Microsoft Dynamics CRM オンライン：2016、2016 Update 1</li>
    </ul>
   <p><em>削除予定日：2021 年</em></p>
   </td>
@@ -90,7 +90,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <li>O2</li>
    <li>iOS</li>
    </ul>
-  <p>これらのコネクタのいずれかを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../delivery/using/sms-channel.md">詳細情報</a>。</p> 
+  <p>これらのコネクタのいずれかを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../delivery/using/sms-channel.md">詳細情報</a></p> 
   <p>従来のコネクタを移行する方法については、この<a href="https://helpx.adobe.com/jp/campaign/kb/sms-connector.html">テクニカルノート</a>を参照してください。</p>
   <p><em>削除予定日：2021 年</em></p>
   </td> 
@@ -136,7 +136,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr> 
   <tr> 
    <td>Web アプリケーション - マイクロサイト</td>
-   <td>Campaign 18.10 リリースより、マイクロサイトは使用できなくなりました。Adobe Campaign 構成ファイルの専用ドメインのみにアクセスを制限することでセキュリティを向上させ、DNS エイリアスを使用して Campaign でパーソナライズされた URL を使用することができます。<a href="https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html">詳細情報</a>。</td>
+   <td>Campaign 18.10 リリースより、マイクロサイトは使用できなくなりました。Adobe Campaign 構成ファイルの専用ドメインのみにアクセスを制限することでセキュリティを向上させ、DNS エイリアスを使用して Campaign でパーソナライズされた URL を使用することができます。<a href="https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html">詳細情報</a></td>
   </tr> 
   <tr> 
    <td>プッシュ通知 - iOS バイナリコネクタ</td>

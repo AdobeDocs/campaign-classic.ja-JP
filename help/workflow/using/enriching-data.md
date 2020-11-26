@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: データのエンリッチメント
-description: エンリッチメントワークフローアクティビティの詳細を表示します
+description: エンリッチメントワークフローアクティビティの詳細を説明します
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Web アプリケーション経由での競争への参加を案内する内容�
 
    ![](assets/uc1_enrich_10.png)
 
-1. **[!UICONTROL 追加するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL スコア]**」フィールドをダブルクリックします。各受信者について「エンリッチメント」アクティビティは「**[!UICONTROL スコア]**」フィールドのみを追加します。「**[!UICONTROL 完了]**」をクリックします。
+1. **[!UICONTROL 追加するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL スコア]**」フィールドをダブルクリックします。各受信者について「エンリッチメント」アクティビティは「**[!UICONTROL スコア]**」フィールドのみを追加します。「**[!UICONTROL 終了]**」をクリックします。
 
    ![](assets/uc1_enrich_11.png)
 
@@ -118,7 +118,7 @@ Web アプリケーション経由での競争への参加を案内する内容�
 
    ![](assets/uc1_enrich_17.png)
 
-1. 3 番目の（**敗者**）サブセットには、残りのすべての受信者が入ります。「**[!UICONTROL 一般]**」タブに移動し、「**[!UICONTROL 補集合を生成]**」チェックボックスをオンにして、上位 ２ つのスコアを獲得していない受信者すべてをターゲティングします。
+1. 3 番目の（**敗者**）サブセットには、残りのすべての受信者が入ります。「**[!UICONTROL 一般]**」タブに移動し、「**[!UICONTROL 補集合を生成]**」チェックボックスをオンにして、上位 2 つのスコアを獲得していない受信者すべてをターゲティングします。
 
    ![](assets/uc1_enrich_19.png)
 

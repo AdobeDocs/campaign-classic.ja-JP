@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: プライバシーと同意
-description: プライバシーと同意の詳細
+description: プライバシーと同意の詳細を説明します
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 97e039e48068e3862bc6640711efe54f21fc0f15
 workflow-type: tm+mt
 source-wordcount: '2043'
-ht-degree: 86%
+ht-degree: 89%
 
 ---
 
@@ -80,7 +80,7 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 
 Campaign を、[Adobe Analytics](../../platform/using/adobe-analytics-data-connector.md)、[Audience Manager または People コアサービス](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md)、[Campaign Standard](../../integrations/using/synchronizing-audiences.md) などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または[ CRM コネクタ](../../platform/using/crm-connectors.md)を介して他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
 
-The [main regulations](#privacy-regulations) refer to the different entities that manage data as follows:
+[主な規制](#privacy-regulations)は、データを管理する様々なエンティティを次のように参照しています。
 * **データ管理者**&#x200B;は、個人データの収集、使用、共有の方法と目的を決定する権限です。
 * **データ処理者**&#x200B;は、データ管理者の指示に従って個人データを収集、使用、または共有する個人または関係者です。
 * **データ主体**&#x200B;は、個人データが収集、使用、共有され、その個人データを参照して直接または間接的に識別できる、生きている個人のことです。
@@ -141,7 +141,7 @@ Campaign の主なプライバシー機能と関与するペルソナの例を[�
 * **データ保持**：すべての組み込みの標準ログテーブルには事前に設定された保存期間があり、通常、データのストレージは 6 か月以下に制限されます。その他の保存期間は、ワークフローで設定できます。詳しくは、アドビのコンサルタントまたは技術管理者にお問い合わせください。
 * **権限管理**：Adobe Campaign では、事前作成された役割またはカスタムの役割を使用して、様々な Campaign オペレーターに割り当てられている権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできるユーザーを管理できます。詳しくは、[アクセス管理について](../../platform/using/access-management.md)を参照してください。
 
-For more on these features and how to manage them in Adobe Campaign, see [this section](../../platform/using/privacy-management.md#consent-retention-roles).
+これらの機能および Adobe Campaign での管理方法について詳しくは、[こちら](../../platform/using/privacy-management.md#consent-retention-roles)を参照してください。
 
 ### プライバシーリクエスト {#privacy-requests}
 
@@ -164,7 +164,7 @@ Adobe Campaign では、そのトラッキング機能のおかげで、3 種類
 * **セッション** Cookie：**nlid** Cookie には、連絡先に送信される E メールの識別子（**broadlogId**）およびメッセージテンプレートの識別子（**deliveryId**）が含まれています。Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
 
 * 2 つの&#x200B;**永続的な Cookie**：
-   * **UUID**（Universal Unique IDentifier）Cookie は、Adobe Experience Cloud のソリューション間で共有されます。新しい値が生成されると、クライアントブラウザーから値が消えるまで、1回だけ設定されます。 この Cookie により、web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。ランディングページ（不明な顧客アクティビティを受信者に関連付けるため）または配信によって預けることができます。The description of this cookie is available on [this page](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=en#ec-cookies).
+   * **UUID**（Universal Unique IDentifier）Cookie は、Adobe Experience Cloud のソリューション間で共有されます。設定は 1 回で、新しい値が生成されると、クライアントブラウザーから消滅します。この Cookie により、web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。ランディングページ（不明な顧客アクティビティを受信者に関連付けるため）または配信によって預けることができます。この Cookie の説明は[このページ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=ja#ec-cookies)で参照できます。
    * **nllastdelid** Cookie（Campaign Classic 20.3 で導入）は、ユーザーがリンクをクリックした最後の配信の **deliveryId** を含む永続的な Cookie です。この Cookie は、使用されるトラッキングテーブルを識別するために、セッション Cookie がない場合に使用されます。
 
 GDPR（一般データ保護規則）などの規制では、企業は Cookie をインストールする前に web サイトのユーザーの同意をリクエストすることが規定されています。

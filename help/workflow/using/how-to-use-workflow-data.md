@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: ワークフローデータの使用方法
-description: ワークフローデータの使い方
+description: ワークフローデータの使用方法を説明します
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e43a14a8be179dd4793176d15e2c30b3e778d3e0
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -103,16 +103,16 @@ GPG キーを使用してデータを暗号化する方法を示すチュート�
 
 1. GPG ユーティリティを使用して GPG キーペア（公開鍵／秘密鍵）を生成し、公開キーを Campaign コントロールパネルにインストールします。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)を参照してください。
 
-1. Campaign Classicで、データを書き出すワークフローを作成し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用して暗号化します。 これをおこなうには、次のようにワークフローを作成します。
+1. Campaign Classic で、データをエクスポートするワークフローを作成し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用してデータを暗号化します。これをおこなうには、次のようにワークフローを作成します。
 
    ![](assets/gpg-workflow-encrypt.png)
 
    * **[!UICONTROL クエリ]**&#x200B;アクティビティ：この例では、クエリを実行して、エクスポートするデータをデータベースから選択します。
-   * **[!UICONTROL データ抽出（ファイル）]**&#x200B;アクティビティ:：データをファイルに抽出します。
-   * **[!UICONTROL JavaScript コード]**&#x200B;アクティビティ:：抽出するデータを暗号化します。
+   * **[!UICONTROL データ抽出（ファイル）]**&#x200B;アクティビティ:データをファイルに抽出します。
+   * **[!UICONTROL JavaScript コード]**&#x200B;アクティビティ:抽出するデータを暗号化します。
    * **[!UICONTROL ファイル転送]**&#x200B;アクティビティ：データを外部ソース（この例では SFTP サーバー）に送信します。
 
-1. **[!UICONTROL クエリ]**&#x200B;アクティビティを設定して、目的のデータをデータベースから選択します。詳しくは、[こちら](../../workflow/using/query.md)を参照してください。
+1. **[!UICONTROL クエリ]**&#x200B;アクティビティを設定して、目的のデータをデータベースから選択します。詳しくは、[この節](../../workflow/using/query.md)を参照してください。
 
 1. データ&#x200B;**[!UICONTROL 抽出（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関するグローバルな概念については、[こちら](../../workflow/using/extraction--file-.md)を参照してください。
 

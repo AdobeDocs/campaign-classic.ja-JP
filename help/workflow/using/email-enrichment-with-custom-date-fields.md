@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: カスタム日付フィールドを使用した E メールエンリッチメント
-description: カスタムの日付フィールドを使用して電子メールをエンリッチする方法を説明します。
+description: カスタムの日付フィールドを使用して E メールをエンリッチメントする方法を説明します
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 
    ![](assets/uc_enrichment_4.png)
 
-1. 「**[!UICONTROL 完了]**」をクリックします。次に、**[!UICONTROL 分割]**&#x200B;アクティビティの「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL 結果]**」カテゴリの「**[!UICONTROL 補集合を生成]**」をクリックします。
+1. 「**[!UICONTROL 終了]**」をクリックします。次に、**[!UICONTROL 分割]**&#x200B;アクティビティの「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL 結果]**」カテゴリの「**[!UICONTROL 補集合を生成]**」をクリックします。
 
    **[!UICONTROL 補集合]**&#x200B;の結果がある場合、配信アクティビティを追加するか、リストを更新できます。ここで、**[!UICONTROL 終了]**&#x200B;アクティビティを追加しました。
 

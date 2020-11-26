@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: 承認の定義
-description: 承認を使用すると、演算子はワークフローに関する決定を行ったり、継続的な実行を確認したりできます
+description: 承認により、オペレーターはワークフロー管理に関する意思決定をおこなったり、実行の継続を確定したりできます。
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ae342f41b9b74159607b313e1c29549b17488db5
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 

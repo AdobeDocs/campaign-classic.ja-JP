@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: ワークフローヒートマップ
-description: ワークフローHeatMapでキャンペーンワークフローを監視する
+description: ワークフローヒートマップで Campaign ワークフローを監視する
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # ワークフローヒートマップ {#workflow-heatmap}
 
-Adobe CampaignワークフローHeatMapは、現在実行中のすべてのワークフローを色分けしたグラフィカル表現で構成されます。 インスタンスの管理者のみが使用できます。
+Adobe Campaign ワークフローヒートマップは、現在実行中のすべてのワークフローを色分けしてグラフィカルに表現します。インスタンスの管理者のみが使用できます。
 
 様々なキャンペーンプロセスを監視するその他の方法については、[このページ](../../production/using/monitoring-guidelines.md)で説明しています。
 

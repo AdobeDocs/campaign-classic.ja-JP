@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: データの読み込み（ファイル）
-description: データ読み込み（ファイル）ワークフローアクティビティの詳細を表示します
+title: データ読み込み（ファイル）
+description: データ読み込み（ファイル）ワークフローアクティビティの詳細を説明します
 audience: workflow
 content-type: reference
 topic-tags: action-activities
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# データの読み込み（ファイル）{#data-loading-file}
+# データ読み込み（ファイル）{#data-loading-file}
 
 ## 用途 {#use}
 

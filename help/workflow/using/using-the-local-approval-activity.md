@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: ローカルの承認アクティビティの使用
-description: ローカルの承認アクティビティの使用方法を説明します
+description: 「ローカルの承認」アクティビティの使用方法を説明します
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1430'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 99%
 
    ![](assets/local_validation_split_2.png)
 
-1. 「**[!UICONTROL データ配分別]**」オプションで、前に作成した配分テンプレート（[手順 1：データ配分テンプレートの作成](#step-1--creating-the-data-distribution-template-)を参照）を選択し、「**[!UICONTROL 完了]**」をクリックします。
+1. 「**[!UICONTROL データ配分別]**」オプションで、前に作成した配分テンプレート（[手順 1：データ配分テンプレートの作成](#step-1--creating-the-data-distribution-template-)を参照）を選択し、「**[!UICONTROL 終了]**」をクリックします。
 
    ![](assets/local_validation_split_3.png)
 

@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Adobe Experience Manager統合の設定
-description: キャンペーンとAEMの統合を設定する方法を学びます。
+title: Adobe Experience Manager 統合の設定
+description: Campaign と AEM の統合を設定する方法を説明します
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

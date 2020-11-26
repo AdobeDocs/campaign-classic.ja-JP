@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
-# Get started with Adobe Campaign integrations {#about-campaign-integrations}
+# Adobe Campaign 統合の基本を学ぶ {#about-campaign-integrations}
 
 Adobe Experience Cloud は、共通データプラットフォーム上に構築され、強力なコアサービスの共通セットと統合されたクラス最高のソリューションの包括的なセットです。
 
@@ -27,22 +27,22 @@ Adobe Campaign と統合できるアドビのソリューションとコアサ�
 
 >[!CAUTION]
 >
->これらの統合のほとんどは、Adobe ID経由でログインするために、AdobeIdentity Managementシステム(IMS)を実装する必要があります。 [詳しくは、このページを参照してください](../../integrations/using/about-adobe-id.md)。
+>これらの統合のほとんどでは、Adobe ID 経由でログインするために、Adobe Identity Management システム（IMS）を実装する必要があります。詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
 
 
 ## ソリューションのリンク {#working-with-experience-cloud-solutions}
 
-複数のソリューションをAdobe Experience Cloudにリンクできます。 The **organization** is the customer entity that enables an administrator to configure groups and users, and to control single sign-on (SSO) in Adobe Experience Cloud. 組織は、すべてのExperience Cloud製品とソリューションにわたるログイン会社のように機能します。 ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
+複数のソリューションを Adobe Experience Cloud にリンクできます。**組織**&#x200B;とは、管理者がグループとユーザーを設定し、Adobe Experience Cloud でのシングルサインオン（SSO）を制御できる顧客エンティティのことです。組織は、すべての Experience Cloud 製品およびソリューションにまたがるログイン会社のように動作します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。
 
 組織管理と Adobe Experience Cloud アカウントのリンク付けについて詳しくは、[Adobe Experience Cloud ヘルプポータル](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html)で説明しています。
 
-## IDとcookieの管理 {#id-and-cookies}
+## ID と Cookie の管理 {#id-and-cookies}
 
-When installing Adobe Campaign or integrating an existing installation with Adobe Experience Cloud, the [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.translate.html) is enabled. このサービスは、Adobe Campaign がトラッキング機能のために最初に使用した永続 Cookie を置き換えます。
+Adobe Campaign をインストールする場合、または既存のインストールを Adobe Experience Cloud に統合する場合、[Adobe Experience Cloud ID サービス](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.translate.html)は有効になっています。このサービスは、Adobe Campaign がトラッキング機能のために最初に使用した永続 Cookie を置き換えます。
 
-Adobe Experience Cloudアイデンティティサービス（IDサービス）は、Experience Cloud内のすべてのソリューションにわたって訪問者を識別する、汎用の永続的なIDを提供します。
+Adobe Experience Cloud ID サービス（ID サービス）は、Experience Cloud 内のすべてのソリューションをまたいで訪問者を識別する、永続的な汎用 ID を提供します。
 
-一意の訪問者IDが、トラッキングログを生成する受信者に割り当てられます。 この ID は **[!UICONTROL nms:trackingLogRcp]** テーブルの「**[!UICONTROL リクエスター UUID (@sourceID)]**」フィールドに保存されます。**したがって、訪問者IDサービスが実装される前に存在した受信者の追跡データは使用できなくなります**。
+固有の訪問者 ID が受信者に割り当てられ、トラッキングログが生成されます。この ID は **[!UICONTROL nms:trackingLogRcp]** テーブルの「**[!UICONTROL リクエスター UUID (@sourceID)]**」フィールドに保存されます。**そのため、訪問者 ID サービスが実装される前に存在していた受信者のトラッキングデータは、これ以降使用することはできません。**
 
 この ID は、他の Adobe Experience Cloud ソリューションに同じ [CNAME](https://docs.adobe.com/content/help/ja-JP/id-service/using/reference/analytics-reference/cname.html) で認識されます。
 
@@ -59,11 +59,11 @@ Adobe Experience Cloudアイデンティティサービス（IDサービス）�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <strong>AdobeRTCDP(Real-time Customer Data Platform)</strong><br /> </td> 
-   <td> The integration between Adobe Campaign and Adobe Real-time Customer Data Platform (RTCDP) allows you to share segments data and import audiences to Adobe Campaign.<br /> <p>Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（CDP）の統合について詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">こちら</a>を参照してください。</p><br /> </td> 
+   <td> <strong>アドビのリアルタイムカスタマーデータプラットフォーム（RTCDP）</strong><br /> </td> 
+   <td> Adobe Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（RTCDP）の統合により、セグメントデータを共有し、オーディエンスを Adobe Campaign にインポートできます。<br /> <p>Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（CDP）の統合について詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html">こちら</a>を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>AdobeIdentity Managementシステム(IMS) -Adobe ID</strong><br /> </td> 
+   <td> <strong>Adobe Identity Management システム（IMS）- Adobe ID</strong><br /> </td> 
    <td> 他の Adobe Experience Cloud ソリューションと同じ Adobe ID を使用して Adobe Campaign に接続することができます。<br />Adobe Experience Cloud の統合、特にコアサービスにリンクした特定の機能を使用するには、Adobe ID を使用してログインする必要があります。<br /> <p>Adobe Campaign での Adobe ID の実装について詳しくは、<a href="../../integrations/using/about-adobe-id.md">こちら</a>を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 

@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ff3d18b104a8dba7cd813aa698f9c27b4e25e244
 workflow-type: tm+mt
 source-wordcount: '537'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -192,7 +192,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr>
 <td>MS Dynamics</td>
 <td>
-<p>Web API:Dynamics 365オンプレミスおよびオンライン</p>
+<p>Web API：Dynamics 365 オンプレミスおよびオンライン</p>
 </td>
 </tr>
 </tbody>

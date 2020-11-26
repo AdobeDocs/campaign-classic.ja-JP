@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Campaign ユーザーは、Adobe ID を使用して Adobe Campaign コンソー�
 * パスワード管理ポリシーをよりセキュアにできます。
 * Federated ID アカウント（外部の ID プロバイダー）を使用します。
 
-AdobeIdentity Managementシステム(IMS)は、管理者がアプリケーションおよびサービスに対するユーザーのアクセスを作成および管理するのに役立ちます。 各種 Adobe ID について詳しくは、[こちら](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
+Adobe Identity Management システム（IMS）は、管理者がアプリケーションやサービスへのユーザーのアクセスを作成および管理するのに役立ちます。各種 Adobe ID について詳しくは、[こちら](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
 
 >[!IMPORTANT]
 >

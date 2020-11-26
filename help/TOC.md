@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
 workflow-type: tm+mt
 source-wordcount: '2171'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 97%
       + [チュートリアル](platform/using/tutorials.md)
    + プライバシー {#privacy}
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
-      + [プライバシーの管理](platform/using/privacy-management.md)
+      + [プライバシー管理](platform/using/privacy-management.md)
       + [プライバシーリクエスト](platform/using/privacy-requests.md)
       + [プライバシーFAQ](platform/using/privacy-faq.md)
    + プロファイル管理 {#profile-management}
@@ -333,9 +333,9 @@ ht-degree: 97%
       + [Web アプリケーションの同期](integrations/using/synchronizing-web-applications.md)
       + [  [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md) のトラブルシューティング
    + Experience Cloud Triggers {#experience-triggers}
-      + [ [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md) の基本を学ぶ
+      + [使用の手引き [!DNL Adobe Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)
-      + [Adobe Experience Cloud・トリガー用のAdobeI/Oの構成](integrations/using/configuring-adobe-io.md)
+      + [Adobe Experience Cloud Triggers 用の Adobe I/O の設定](integrations/using/configuring-adobe-io.md)
       + [カスタム実装用のイベントの設定](integrations/using/events.md)
       + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
       + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
@@ -401,7 +401,7 @@ ht-degree: 97%
       + [ローカルの承認](workflow/using/local-approval.md)
       + [データの読み込み（RDBMS）](workflow/using/data-loading--rdbms-.md)
       + [読み込み（SOAP）](workflow/using/loading--soap-.md)
-      + [データの読み込み（ファイル）](workflow/using/data-loading--file-.md)
+      + [データ読み込み（ファイル）](workflow/using/data-loading--file-.md)
       + [コンテンツ管理](workflow/using/content-management.md)
       + [データ抽出（ファイル）](workflow/using/extraction--file-.md)
       + [SQL コードと JavaScript コード](workflow/using/sql-code-and-javascript-code.md)

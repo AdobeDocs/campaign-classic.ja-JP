@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: 分散型マーケティング
-description: 分散型マーケティングパッケージの詳細
+description: 分散型マーケティングパッケージの詳細を説明します
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 

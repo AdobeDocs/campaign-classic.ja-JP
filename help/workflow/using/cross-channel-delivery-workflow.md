@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: クロスチャネル配信ワークフロー
-description: チャネル間の配信ワークフローの詳細
+description: クロスチャネル配信ワークフローの詳細を説明します
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -84,11 +84,11 @@ ht-degree: 99%
 
    ![](assets/wkf_cross-channel_9.png)
 
-1. フィルター設定で、「**[!UICONTROL 行動]**」ドロップダウンリストから「**[!UICONTROL (E メールを) 開封またはクリックしなかった受信者]**」を選択し、送信するオファーを含んだ E メールを配信リストから選択します。「**[!UICONTROL 完了]**」をクリックします。
+1. フィルター設定で、「**[!UICONTROL 行動]**」ドロップダウンリストから「**[!UICONTROL (E メールを) 開封またはクリックしなかった受信者]**」を選択し、送信するオファーを含んだ E メールを配信リストから選択します。「**[!UICONTROL 終了]**」をクリックします。
 
    ![](assets/wkf_cross-channel_10.png)
 
-1. 2 番目のサブセットでも同様に、「**[!UICONTROL 行動]**」ドロップダウンリストから「**[!UICONTROL (Eメールを)クリックしていない受信者]**」を選択します。
+1. 2 番目のサブセットでも同様に、「**[!UICONTROL 行動]**」ドロップダウンリストから「**[!UICONTROL （E メールを）クリックしていない受信者]**」を選択します。
 
    ![](assets/wkf_cross-channel_11.png)
 

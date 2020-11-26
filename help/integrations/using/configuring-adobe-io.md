@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Adobe Experience Cloud・トリガー用のAdobeI/Oの構成
-description: Adobe Experience Cloud・トリガー用のAdobeI/Oの構成方法
+title: Adobe Experience Cloud Triggers 用の Adobe I/O の設定
+description: Adobe Experience Cloud Triggers 用の Adobe I/O の設定方法を説明します
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
@@ -13,46 +13,46 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 34%
+ht-degree: 100%
 
 ---
 
 
-# Configuring Adobe I/O for Adobe Experience Cloud Triggers {#configuring-adobe-io}
+# Adobe Experience Cloud Triggers 用の Adobe I/O の設定{#configuring-adobe-io}
 
 >[!CAUTION]
 >
->oAuth認証を通じて古いバージョンのTriggers統合を使用する場合は、以下 **の説明に従ってAdobeI/Oに移行する必要があります**。 従来のoAuth認証モードは、2021年4月30日に廃止されます。 [詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>oAuth 認証を通じて古いバージョンの Triggers 統合を使用する場合は、**以下の説明に従って Adobe I/O に移行する必要があります**。 従来の oAuth 認証モードは、2021 年 4 月 30 日に廃止されます。[詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 
 ## 前提条件 {#adobe-io-prerequisites}
 
-この統合は、 **Campaign Classic20.3リリース以降にのみ適用されます**。
+この統合は、**Campaign Classic 20.3 リリース**&#x200B;以降にのみ適用されます。
 
 この実装を開始する前に、以下の点を確認してください。
 
-* 有効なIMSOrgID:identity managementシステム(IMS)の組織識別子は、Adobe Experience Cloud内の一意の識別子です。この識別子は、VisitorIDサービスやIMSシングルサインオン(SSO)などに使用されます。
-* IMS組織への開発者アクセス権。
+* 有効な IMSOrgID：Identity Management システム（IMS）の組織識別子は、Adobe Experience Cloud 内の一意の識別子です。この識別子は、VisitorID サービスや IMS シングルサインオン（SSO）などに使用されます。
+* IMS 組織へのデベロッパーアクセス権。
 
 >[!NOTE]
 >
->If you need to request the System Administrator privileges of the IMS Org, follow the procedure detailed [in this page](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/manage-developers.ug.html) to provide this access for the all Product Profiles.
+>[このページ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/manage-developers.ug.html)で説明する手順に従い、すべての製品プロファイルに関してこのアクセス権を提供するには、IMS 組織のシステム管理者権限をリクエストする必要があります。
 
 
-## 手順1:AdobeI/Oプロジェクトの作成/更新 {#creating-adobe-io-project}
+## 手順 1：Adobe I/O プロジェクトの作成と更新 {#creating-adobe-io-project}
 
-1. AdobeI/Oにアクセスし、IMSorgのシステム管理者権限でログインします。
+1. Adobe I/O にアクセスし、IMS 組織のシステム管理者権限でログインします。
 
    >[!NOTE]
    >
    > 正しい IMSorg ポータルにログインしていることを確認します。
 
-1. 既存の統合クライアント ID をインスタンス設定ファイル（ims/authIMSTAClientId）から抽出します。既存の属性または空の属性は、クライアントIDが設定されていないことを示します。
+1. 既存の統合クライアント ID をインスタンス設定ファイル（ims/authIMSTAClientId）から抽出します。属性が存在しないか空の場合は、クライアント ID が設定されていません。
 
    >[!NOTE]
    >
-   >If your Client ID is empty, you can directly **[!UICONTROL Create a New project]** in Adobe I/O.
+   >クライアント ID が空の場合は、Adobe I/O で直接&#x200B;**[!UICONTROL 新しいプロジェクトを作成]**&#x200B;できます。
 
-1. 抽出したクライアントIDを使用して、既存のプロジェクトを識別します。 前の手順で抽出されたものと同じクライアント ID を持つ既存のプロジェクトを探します。
+1. 抽出したクライアント ID を使用して、既存のプロジェクトを識別します。 前の手順で抽出されたものと同じクライアント ID を持つ既存のプロジェクトを探します。
 
    ![](assets/do-not-localize/adobe_io_8.png)
 
@@ -60,7 +60,7 @@ ht-degree: 34%
 
    ![](assets/do-not-localize/adobe_io_1.png)
 
-1. In the **[!UICONTROL Add an API]** window, select **[!UICONTROL Adobe Analytics]**.
+1. **[!UICONTROL API を追加]**&#x200B;ウィンドウで、「**[!UICONTROL Adobe Analytics]**」を選択します。
 
    ![](assets/do-not-localize/adobe_io_2.png)
 
@@ -68,7 +68,7 @@ ht-degree: 34%
 
    ![](assets/do-not-localize/adobe_io_3.png)
 
-1. If your Client ID was empty, select **[!UICONTROL Generate a key pair]** to create a Public and Private keypair.
+1. クライアント ID が空の場合は、「**[!UICONTROL キーペアを生成]**」を選択して、公開鍵と秘密鍵のペアを作成します。
 
    ![](assets/do-not-localize/adobe_io_4.png)
 
@@ -90,7 +90,7 @@ ht-degree: 34%
 
 ## 手順 2：Adobe Campaign にプロジェクト資格情報を追加 {#add-credentials-campaign}
 
-To add the project credentials in Adobe Campaign, run the following command as &#39;neolane&#39; user on all the containers of the Adobe Campaign instance to insert the **[!UICONTROL Technical Account]** credentials in the instance configuration file.
+Adobe Campaign にプロジェクト資格情報を追加するには、Adobe Campaign インスタンスのすべてのコンテナで「neolane」ユーザーとして次のコマンドを実行し、**[!UICONTROL テクニカルアカウント]**&#x200B;資格情報をインスタンス設定ファイルに挿入します。
 
 ```
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID[/Client_Secret[/Base64_encoded_Private_Key]]
@@ -102,7 +102,7 @@ nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_
 
 ## 手順 3：pipelined タグを更新 {#update-pipelined-tag}
 
-To update [!DNL pipelined] tag, you need to update the authentication type to Adobe I/O project in the configuration file **config-&lt; instance-name >.xml** as follows:
+[!DNL pipelined] タグを更新するには、設定ファイル（**config-&lt;インスタンス名>.xml**）で、認証タイプを以下のように Adobe I/O プロジェクトに更新する必要があります。
 
 ```
 <pipelined ... authType="imsJwtToken"  ... />

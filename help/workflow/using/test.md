@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: テスト
-description: テストワークフローアクティビティの詳細を表示します
+description: テストワークフローアクティビティの詳細を説明します
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

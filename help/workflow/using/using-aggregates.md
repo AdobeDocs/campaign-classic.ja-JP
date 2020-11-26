@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: 集計の使用
-description: 集計の使い方
+description: 集計の使用方法を説明します
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 99%
 1. クエリを作成します。ここでの目標は、データベース内のすべての受信者について、最新の既知の作成日付を割り出すことにあります。そのため、クエリには、フィルターは含まれません。
 1. 「**[!UICONTROL データを追加]**」を選択します。
 1. 開いているウィンドウで「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」を選択し、次に、「**[!UICONTROL フィルタリングディメンションデータ]**」を選択します。
-1. **[!UICONTROL 追加するデータ]**&#x200B;ウィンドウで、受信者テーブルの「**作成日**」フィールドの最大値を割り出す列を追加します。式エディターを使用するか、「**max(@created)**」と「**[!UICONTROL 式]**」列のフィールドに直接入力します。「**[!UICONTROL 完了]**」ボタンをクリックします。
+1. **[!UICONTROL 追加するデータ]**&#x200B;ウィンドウで、受信者テーブルの「**作成日**」フィールドの最大値を割り出す列を追加します。式エディターを使用するか、「**max(@created)**」と「**[!UICONTROL 式]**」列のフィールドに直接入力します。「**[!UICONTROL 終了]**」ボタンをクリックします。
 
    ![](assets/datamanagement_usecase_2.png)
 

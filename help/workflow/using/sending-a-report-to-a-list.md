@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: リストへのレポートの送信
-description: ワークフローを使用してリストにレポートを送信する方法を説明します。
+description: ワークフローでのリストへのレポートの送信方法を説明します
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 この使用例の主な実装手順は次のとおりです。
 
-* 配信先の受信者のリストの作成（[手順 1：受信者リストの作成 ](#step-1--creating-the-recipient-list)を参照）。
+* 配信先の受信者のリストの作成（[手順 1：受信者リストの作成](#step-1--creating-the-recipient-list)を参照）。
 * ワークフローが実行されるたびに新しい配信を生成できる配信テンプレートの作成（[手順 2：配信テンプレートの作成](#step-2--creating-the-delivery-template)を参照）。
 * PDF 形式のレポートを生成してリストに記載の受信者に送信可能なワークフローの作成（[手順 3：ワークフローの作成](#step-3--creating-the-workflow)を参照）。
 

@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: プライバシーリクエスト
-description: プライバシー要求を管理する方法について説明します。
+description: プライバシーリクエストの管理方法について説明します
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -10,35 +10,35 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '2591'
-ht-degree: 46%
+ht-degree: 98%
 
 ---
 
 
-# Managing privacy requests {#privacy-requests}
+# プライバシーリクエストの管理 {#privacy-requests}
 
-For a general presentation on Privacy Management, refer to [this section](../../platform/using/privacy-management.md).
+プライバシー管理に関する一般的なプレゼンテーションについては、[こちら](../../platform/using/privacy-management.md)を参照してください。
 
 この情報は、GDPR、CCPA、PDPA、LGPD に適用されます。これらの規制について詳しくは、[こちら](../../platform/using/privacy-management.md#privacy-management-regulations)を参照してください。
 
-The opt-out for the Sale of Personal Information, which is specific to CCPA, is explained in [this section](#sale-of-personal-information-ccpa).
+個人情報の販売のオプトアウト（CCPA に特有）については、[こちら](#sale-of-personal-information-ccpa)を参照してください。
 
 >[!IMPORTANT]
 >
->このドキュメントで説明するインストール手順は、Campaign Classic18.4（ビルド8931+）以降で適用されます。 以前のバージョンを使用している場合は、この[テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html)を参照してください。
+>このドキュメントで説明されているインストール手順は Campaign Classic 18.4（ビルド 8931 以降）以降に適用されます。以前のバージョンを使用している場合は、この[テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html)を参照してください。
 
 ## プライバシーリクエストについて {#about-privacy-requests}
 
-プライバシーの準備を容易にするために、Adobe Campaignではアクセスおよび削除の要求を処理できます。 この節では、 **アクセス権** と「忘れ去られる **権利** 」（削除要求）について説明 [します](../../platform/using/privacy-management.md#right-access-forgotten)。
+Adobe Campaign では、プライバシー対応の一環として、アクセスリクエストと削除リクエストの処理が可能です。**アクセス権利**&#x200B;および&#x200B;**忘れ去られる権利**（削除リクエスト）については[こちら](../../platform/using/privacy-management.md#right-access-forgotten)で説明しています。
 
-アクセスリクエストと削除リクエストの作成方法、およびAdobe Campaignによる処理方法を見てみましょう。
+ここでは、アクセスリクエストと削除リクエストの作成方法および Adobe Campaign での処理方法について説明します。
 
 ### 原則 {#principles}
 
 Adobe Campaign では、データ管理者は 2 とおりの方法でプライバシーのアクセスリクエストおよび削除リクエストをおこなうことができます。
 
-* **Adobe Campaignインターフェースを使用**:各プライバシーリクエストに対して、データコントローラーはAdobe Campaignに新しいプライバシーリクエストを作成します。 [こちらの節](#create-privacy-request-ui)を参照してください。
-* Via the **API**: Adobe Campaign provides an API that allows the automatic process of Privacy requests using SOAP. [こちらの節](#automatic-privacy-request-api)を参照してください。
+* **Adobe Campaign インターフェイス**&#x200B;を使用する：データ管理者はプライバシーリクエストごとに Adobe Campaign で新しいプライバシーリクエストを作成できます。[こちらの節](#create-privacy-request-ui)を参照してください。
+* **API** を使用する：Adobe Campaign の API により、SOAP を使用してプライバシーリクエストを自動処理できます。[こちらの節](#automatic-privacy-request-api)を参照してください。
 
 >[!NOTE]
 >
@@ -46,67 +46,67 @@ Adobe Campaign では、データ管理者は 2 とおりの方法でプライ�
 
 ### 前提条件 {#prerequesites}
 
-Adobe Campaignオファーデータコントローラーツールを使用して、Adobe Campaignに保存されたデータに対するプライバシー要求を作成し、処理します。 ただし、データ主体とのやり取り（電子メール、カスタマーサポート、Web ポータル）はデータ管理者がおこなう必要があります。
+Adobe Campaign には、Adobe Campaign に保存されているデータに対するプライバシーリクエストの作成と処理をおこなうためのデータ管理者用ツールが用意されています。ただし、データ主体とのやり取り（電子メール、カスタマーサポート、Web ポータル）はデータ管理者がおこなう必要があります。
 
 また、要求者であるデータ主体の身元の確認、および要求者に返されるデータがデータ主体に関するものであることの確認は、データ管理者がおこないます。
 
-### Installing the Privacy package {#install-privacy-package}
+### プライバシーパッケージのインストール {#install-privacy-package}
 
-In order to use this feature, you need to install the **[!UICONTROL Privacy Data Protection Regulation]** package via the **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Import package]** > **[!UICONTROL Adobe Campaign Package]** menu. パッケージのインストール方法について詳しくは、[詳細ドキュメント](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+この機能を使用するには、**[!UICONTROL ツール]**／**[!UICONTROL 詳細設定]**／**[!UICONTROL パッケージをインポート]**／**[!UICONTROL Adobe Campaign パッケージ]**&#x200B;メニューから&#x200B;**[!UICONTROL プライバシーデータ保護規則]**&#x200B;パッケージをインストールする必要があります。パッケージのインストール方法について詳しくは、[詳細ドキュメント](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
-Two new folders, specific to Privacy, are created under **[!UICONTROL Administration]** > **[!UICONTROL Platform]**:
+**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**&#x200B;に、プライバシー専用の 2 つのフォルダーが新しく作成されます。
 
-* **[!UICONTROL プライバシーの要請]**:ここで、プライバシーリクエストを作成し、その進展を追跡します。
+* **[!UICONTROL プライバシーリクエスト]**：プライバシーリクエストを作成し、その推移をトラッキングする場所です。
 * **[!UICONTROL 名前空間]**：Adobe Campaign データベースでデータ主体を識別するために使用するフィールドを定義する場所です。
 
 ![](assets/privacy-folders.png)
 
-**[!UICONTROL 管理]** / **[!UICONTROL 実稼働]** / ****&#x200B;テクニカルワークフローでは、3人のテクニカルワークフローが毎日実行し、プライバシーの要求を処理します。
+**[!UICONTROL 管理]**／**[!UICONTROL プロダクション]**／**[!UICONTROL テクニカルワークフロー]**&#x200B;で、プライバシーリクエストを処理するための 3 つのテクニカルワークフローが毎日実行されます。
 
 ![](assets/privacy-workflows.png)
 
-* **[!UICONTROL プライバシー要求の収集]**：このワークフローでは、Adobe Campaign に保存されている受信者のデータを生成し、プライバシー要求の画面でダウンロードできるようにします。
-* **[!UICONTROL プライバシー要求データの削除]**：このワークフローでは、Adobe Campaign に保存されている受信者のデータを削除します。
-* **[!UICONTROL プライバシー要求のクリーンアップ]**：このワークフローでは、90 日より古いアクセス要求ファイルが消去されます。
+* **[!UICONTROL プライバシーリクエストを収集]**：このワークフローでは、Adobe Campaign に保存されている受信者のデータを生成し、プライバシーリクエストの画面でダウンロードできるようにします。
+* **[!UICONTROL プライバシーリクエストデータを削除]**：このワークフローでは、Adobe Campaign に保存されている受信者のデータを削除します。
+* **[!UICONTROL プライバシーリクエストのクリーンアップ]**：このワークフローでは、90 日より古いアクセスリクエストファイルが消去されます。
 
-**[!UICONTROL 管理]**／**[!UICONTROL アクセス管理]**／**[!UICONTROL ネームド権限]**&#x200B;に、**[!UICONTROL プライバシーデータ権限]**&#x200B;というネームド権限が追加されました。このネームド権限は、データ管理者がプライバシーツールを使用する場合に必要となります。これにより、新しい要求の作成、推移のトラッキング、API の使用などができるようになります。
+**[!UICONTROL 管理]**／**[!UICONTROL アクセス管理]**／**[!UICONTROL ネームド権限]**&#x200B;に、**[!UICONTROL プライバシーデータ権限]**&#x200B;というネームド権限が追加されました。このネームド権限は、データ管理者がプライバシーツールを使用する場合に必要となります。これにより、新しいリクエストの作成、推移のトラッキング、API の使用などができるようになります。
 
 ![](assets/privacy-right.png)
 
 ### 名前空間 {#namesspaces}
 
-プライバシーリクエストを作成する前に、使用する名前空間を定義する必要があります。 これは、Adobe Campaignデータベース内のData Subjectを識別するために使用されるキーです。
+プライバシーリクエストを作成する前に、使用する名前空間を定義する必要があります。これは、Adobe Campaign データベースでデータ主体を識別するために使用するキーです。
 
 標準では、E メール、電話、携帯電話の 3 つの名前空間を使用できます。別の名前空間（受信者用のカスタムフィールドなど）が必要な場合、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 名前空間]**&#x200B;で新しく作成することができます。
 
 ## Creating a Privacy request {#create-privacy-request-ui}
 
-The **Adobe Campaign interface** allows you to create your Privacy requests and track their evolution. 新しいプライバシーリクエストを作成するには、次の手順に従います。
+**Adobe Campaign インターフェイス**&#x200B;では、プライバシーリクエストを作成し、その推移をトラッキングできます。新しいプライバシーリクエストを作成するには、次の手順に従います。
 
-1. **[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL プライバシー要求]**&#x200B;のプライバシー要求フォルダーにアクセスします。
+1. **[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL プライバシーリクエスト]**&#x200B;のプライバシーリクエストフォルダーにアクセスします。
 
    ![](assets/privacy-requests-folder.png)
 
-1. この画面では、現在のすべてのプライバシー要求、そのステータスおよびログを表示できます。 Click **[!UICONTROL New]** to create a Privacy request.
+1. この画面では、現在のすべてのプライバシーリクエストとそのステータス、ログを表示できます。新しいプライバシーリクエストを作成するには、「**[!UICONTROL 新規]**」をクリックします。
 
    ![](assets/privacy-request-new.png)
 
-1. Select the **[!UICONTROL Regulation]** (GDPR, CCPA, PDPA or LGPD),  **[!UICONTROL Request type]** (Access or Delete), select a **[!UICONTROL Namespace]** and enter the **[!UICONTROL Reconciliation value]**. 名前空間として E メールを使用する場合は、データ主体の E メールアドレスを入力します。
+1. **[!UICONTROL 規制]**（GDPR、CCPA、PDPA、LGPD）、**[!UICONTROL リクエストタイプ]**（アクセスまたは削除）、**[!UICONTROL 名前空間]**&#x200B;を選択し、**[!UICONTROL 紐付け値]**&#x200B;を入力します。名前空間として E メールを使用する場合は、データ主体の E メールアドレスを入力します。
 
    ![](assets/privacy-request-properties.png)
 
-プライバシーテクニカルワークフローは毎日1回実行し、新しい要求を処理します。
+プライバシーのテクニカルワークフローは毎日 1 回実行され、新しいリクエストが個別に処理されます。
 
-* 削除要求：Adobe Campaign に保存されている受信者のデータが消去されます。
-* アクセス要求：Adobe Campaign に保存されている受信者のデータが生成され、要求画面の左側で XML ファイルとして取得できるようになります。
+* 削除リクエスト：Adobe Campaign に保存されている受信者のデータが消去されます。
+* アクセスリクエスト：Adobe Campaign に保存されている受信者のデータが生成され、リクエスト画面の左側で XML ファイルとして取得できるようになります。
 
 ![](assets/privacy-request-download.png)
 
 ### テーブルのリスト {#list-of-tables}
 
-When performing a Delete or Access Privacy request, Adobe Campaign searches all the Data Subject&#39;s data based on the **[!UICONTROL Reconciliation value]** in all the tables that have a link to the recipient table (own type).
+プライバシーに関連する削除またはアクセスリクエストの実行時に、受信者テーブル（独自タイプ）にリンクされたすべてのテーブルの&#x200B;**[!UICONTROL 紐付け値]**&#x200B;に基づいて、データ主体のすべてのデータを検索します。
 
-次に、プライバシーリクエストを実行する際にあらかじめ用意されている表のリストを示します。
+以下は、プライバシーリクエストの実行時に考慮される標準テーブルをリストしたものです。
 
 * 受信者（recipient）
 * 受信者配信ログ（broadLogRcp）
@@ -123,39 +123,39 @@ When performing a Delete or Access Privacy request, Adobe Campaign searches all 
 
 >[!IMPORTANT]
 >
->プロファイルの削除ワークフローを使用してプライバシーバッチ要求を実行する場合は、次のコメントを考慮してください。
+>プロファイル削除ワークフローを使用してプライバシーバッチリクエストを実行する場合は、次の注意点を考慮に入れてください。
 >* ワークフローを使用したプロファイル削除では、子テーブルが処理されません。
 >* すべての子テーブルに対して削除処理をおこなう必要があります。
 >* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** workflow perform the deletion. パフォーマンス上の理由から、削除するプロファイルの数は 1 日あたり 200 個までに制限することをお勧めします。
 
 
-### プライバシー要求のステータス {#privacy-request-statuses}
+### プライバシーリクエストのステータス {#privacy-request-statuses}
 
-プライバシーリクエストの様々なステータスを次に示します。
+プライバシーリクエストには、次のようなステータスがあります。
 
-* **[!UICONTROL 新規]**／**[!UICONTROL 再試行待ち]**：ワークフローは進行中で、要求の処理は完了していません。
-* **[!UICONTROL 処理中]**／**[!UICONTROL 再試行中]**：ワークフローにおいて、要求が処理中です。
+* **[!UICONTROL 新規]**／**[!UICONTROL 再試行待ち]**：ワークフローは進行中で、リクエストの処理は完了していません。
+* **[!UICONTROL 処理中]**／**[!UICONTROL 再試行中]**：ワークフローはリクエストを処理しています。
 * **[!UICONTROL 削除待ち]**：ワークフローにおいて、削除対象のすべての受信者データが特定済みです。
-* **[!UICONTROL 削除中]**：ワークフローにおいて、削除を実行中です。
-* **[!UICONTROL 削除確認保留]** （2ステップのプロセスモードでの削除要求）:ワークフローがアクセス要求を処理しました。 削除を実行するための手動確認が要求されています。ボタンは 15 日間有効です。
-* **[!UICONTROL 完了]**：要求の処理が完了しました。エラーは発生していません。
-* **[!UICONTROL エラー]**：ワークフローにおいて、エラーが発生しました。The reason appears in the list of Privacy requests in the **[!UICONTROL Request status]** column. 例えば、「**[!UICONTROL エラー: データが見つかりません]**」は、データ主体の&#x200B;**[!UICONTROL 紐付け値]**&#x200B;と一致する受信者データがデータベースに見つからなかったことを示します。
+* **[!UICONTROL 削除中]**：ワークフローは削除を処理しています。
+* **[!UICONTROL 削除確認待ち]**：（2 段階処理モードの削除リクエスト）ワークフローでアクセスリクエストの処理が完了しました。削除を実行するための手動確認がリクエストされています。ボタンは 15 日間有効です。
+* **[!UICONTROL 完了]**：リクエストの処理が終了しました。エラーは発生していません。
+* **[!UICONTROL エラー]**：ワークフローにおいて、エラーが発生しました。理由は、プライバシーリクエストのリストの「**[!UICONTROL リクエストのステータス]**」列に表示されます。例えば、「**[!UICONTROL エラー: データが見つかりません]**」は、データ主体の&#x200B;**[!UICONTROL 紐付け値]**&#x200B;と一致する受信者データがデータベースに見つからなかったことを示します。
 
-### 2段階のプロセス {#two-step-process}
+### 2 段階プロセス{#two-step-process}
 
-By default, the **2-step process** is activated. このモードで新しい削除要求を作成した場合、必ずアクセス要求が先に実行されます。これにより、削除前にデータを確認することができます。
+デフォルトでは、**2 段階プロセス**&#x200B;が有効になっています。このモードで新しい削除リクエストを作成した場合、必ずアクセスリクエストが先に実行されます。これにより、削除前にデータを確認することができます。
 
-このモードはプライバシー要求編集画面から変更できます。Click **[!UICONTROL Advanced settings]**.
+このモードはプライバシーリクエスト編集画面から変更できます。「**[!UICONTROL 詳細設定]**」をクリックします。
 
 ![](assets/privacy-request-advanced-settings.png)
 
-With the 2-step mode activated, the status of a new Delete request changes to **[!UICONTROL Confirm Delete Pending]**. 生成された XML ファイルをプライバシー要求画面からダウンロードし、データを確認します。To confirm erasing the data, click the **[!UICONTROL Confirm delete data]** button.
+2 段階モードが有効になっていると、新しい削除リクエストのステータスは「**[!UICONTROL 削除確認待ち]**」に変わります。生成された XML ファイルをプライバシーリクエスト画面からダウンロードし、データを確認します。データの消去を確定するには、「**[!UICONTROL データの削除を確認]**」ボタンをクリックします。
 
 ![](assets/privacy-request-delete-data.png)
 
 ### JSSP URL {#jspp-url}
 
-Adobe Campaign は、アクセス要求の処理時に JSSP を生成します。この JSSP は、データベースから受信者のデータを取得し、ローカルマシンに保存されている XML ファイルにエクスポートします。JSSP の URL は次のように定義されます。
+Adobe Campaign は、アクセスリクエストの処理時に JSSP を生成します。この JSSP は、データベースから受信者のデータを取得し、ローカルマシンに保存されている XML ファイルにエクスポートします。JSSP の URL は次のように定義されます。
 
 ```
 "$(serverUrl)+'/nms/gdpr.jssp?id='+@id"
@@ -163,9 +163,9 @@ Adobe Campaign は、アクセス要求の処理時に JSSP を生成します�
 
 ここで、@id はプライバシーリクエスト ID です.
 
-This URL is stored in the **[!UICONTROL &quot;File location&quot; (@urlFile)]** field of the **[!UICONTROL Privacy Requests (gdprRequest)]** schema.
+この URL は、プライバシーリクエスト（gdprRequest）スキーマの&#x200B;**[!UICONTROL 「ファイルの場所」（@urlFile）]**&#x200B;フィールドに保存されます。****
 
-この情報はデータベースで 90 日間有効です。テクニカルワークフローにより要求がクリーンアップされると、この情報はデータベースから削除され、URL は無効になります。データを Web ページからダウンロードする前に、URL がまだ有効であるか確認してください。
+この情報はデータベースで 90 日間有効です。テクニカルワークフローによりリクエストがクリーンアップされると、この情報はデータベースから削除され、URL は無効になります。データを Web ページからダウンロードする前に、URL がまだ有効であるか確認してください。
 
 データ主体のデータファイルの例を以下に示します。
 
@@ -215,11 +215,11 @@ Web アプリケーションの&#x200B;**[!UICONTROL ページ]**&#x200B;アク�
 
 ## 自動プライバシーリクエストプロセス {#automatic-privacy-request-api}
 
-Adobe Campaign provides an **API** which allows you to setup an automatic Privacy request process.
+Adobe Campaign には、プライバシーリクエストの自動プロセスを設定できる **API** があります。
 
-With the API, the general Privacy process is the same as [using the interface](#create-privacy-request-ui). 唯一の違いは、プライバシーリクエストの作成です。 Adobe Campaign で要求を作成するかわりに、要求情報を含む POST が Campaign に送信されます。要求ごとに、新しいエントリが&#x200B;**[!UICONTROL プライバシー要求]**&#x200B;画面に追加されます。次に、プライバシーテクニカルワークフローは、インターフェイスを使用して追加された要求と同じ方法で要求を処理します。
+この API を使用した場合の一般的なプライバシープロセスは、[インターフェイスを使用](#create-privacy-request-ui)した場合と変わりません。ただし、プライバシーリクエストの作成のみが異なります。Adobe Campaign でリクエストを作成するかわりに、リクエスト情報を含む POST が Campaign に送信されます。リクエストごとに、新しいエントリが&#x200B;**[!UICONTROL プライバシーリクエスト]**&#x200B;画面に追加されます。その後、プライバシーのテクニカルワークフローにおいてリクエストが処理されます。これもインターフェイスからリクエストを追加した場合と変わりません。
 
-If you&#39;re using the API to submit Privacy requests, we recommend that you leave the **2-step process** activated for the first Delete requests, in order to test the returned data. テストが完了したら、2ステップのプロセスを非アクティブ化して、削除リクエストプロセスを自動的に実行できるようにします。
+API を使用してプライバシーリクエストを送信する場合、最初の削除リクエストについては、返されるデータをテストできるよう、**2 段階プロセス**&#x200B;を有効にしておくことをお勧めします。テストが終了したら、削除リクエストプロセスが自動的に実行されるよう、2 段階プロセスを無効にできます。
 
 **[!UICONTROL CreateRequestByName]** JS API は次のように定義されます。
 
@@ -229,7 +229,7 @@ If you&#39;re using the API to submit Privacy requests, we recommend that you le
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Privacy Data Right]** named right is required to use the API.
+>この API を使用するには、**[!UICONTROL プライバシーデータ権限]**&#x200B;ネームド権限が必要です。
 
 ```
 <method library="nms:gdpr.js" name="CreateRequestByName" static="true">
@@ -253,33 +253,33 @@ If you&#39;re using the API to submit Privacy requests, we recommend that you le
 
 ### 外部からの API の呼び出し {#invoking-api-externally}
 
-APIを外部から呼び出す方法の例を以下に示します（APIを介した認証、特にプライバシーAPIの詳細）。 For more information on the Privacy API, consult the [API documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/s-nms-privacyRequest.html). また、[Web サービス呼び出しに関するドキュメント](../../configuration/using/web-service-calls.md)も参照してください。
+外部から API を呼び出す方法の例（具体的には API を使用した認証と、プライバシー API の詳細）を以下に示します。プライバシー API について詳しくは、[API のドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/s-nms-privacyRequest.html)を参照してください。また、[Web サービス呼び出しに関するドキュメント](../../configuration/using/web-service-calls.md)も参照してください。
 
 最初に、API を通じて認証を実行する必要があります。
 
-1. 次のURLから **xtk:session** WSDLをダウンロードします。 **`<server url>`/nl/jsp/schemawsdl.jsp?スキーマ=xtk:session**.
+1. URL「**`<server url>`/nl/jsp/schemawsdl.jsp?schema=xtk:session**」から **xtk:session** WSDL をダウンロードします。
 
-1. &quot;Logon&quot; メソッドを使用し、要求のパラメーターとしてユーザー名とパスワードを渡します。セッショントークンを含む応答が返されます。SoapUI を使用する場合の例を以下に示します。
+1. &quot;Logon&quot; メソッドを使用し、リクエストのパラメーターとしてユーザー名とパスワードを渡します。セッショントークンを含む応答が返されます。SoapUI を使用する場合の例を以下に示します。
 
    ![](assets/privacy-api.png)
 
 1. 返されたセッショントークンを後続のすべての API 呼び出しの認証として使用します。これは 24 時間後に有効期限切れになります。
 
-次に、プライバシーAPIを呼び出します。
+次に、プライバシー API を呼び出します。
 
-1. Download the WSDL from this URL: **`<server url>`/nl/jsp/schemawsdl.jsp?schema=nms:privacyRequest**.
+1. URL **`<server url>`/nl/jsp/schemawsdl.jsp?schema=nms:privacyRequest** を使用して、WSDL をダウンロードします。
 
-1. Use **[!UICONTROL CreateRequestByName]** to create a specific Privacy request.
+1. **[!UICONTROL CreateRequestByName]** を使用して、特定のプライバシーリクエストを作成します。
 
-   **[!UICONTROL CreateRequestByName]** を使用する場合の例を以下に示します。上記で提供されたセッショントークンを認証として使用する方法に注目してください。応答は、作成された要求の ID になります。
+   **[!UICONTROL CreateRequestByName]** を使用する場合の例を以下に示します。上記で提供されたセッショントークンを認証として使用する方法に注目してください。応答は、作成されたリクエストの ID になります。
 
    ![](assets/privacy-api-2.png)
 
-   上記の手順の実行に役立つように、以下の点を考慮してください。
+   上記の手順を実行するためには、以下の点を考慮してください。
 
-   * You can use a **queryDef** on the **nms:gdprRequest** schema to check the status of the Access request.
-   * You can use a **queryDef** on the **nms:gdprRequestData** schema to get the result of the Access request.
-   * To be able to download the XML file from **&quot;$(serverUrl)&#39;/nms/gdpr.jssp?id=&#39;@id&quot;**, you must be logged in and accessing it from a whitelisted IP. これを行うには、JSSPで生成されたファイルにアクセスできるWebアプリケーションを作成します。
+   * **nms:gdprRequest** スキーマで **queryDef** を使用すると、アクセスリクエストのステータスを確認できます。
+   * **nms:gdprRequestData** スキーマで queryDef **を使用すると、アクセスリクエストの結果を取得できます。**
+   * **$(serverUrl)&#39;/nms/gdpr.jssp?id=&#39;@id** から XML ファイルをダウンロードするには、許可リスト登録済みの IP からログインしてファイルにアクセスする必要があります。これをおこなうには、JSSP で生成されたファイルにアクセスできる Web アプリケーションを作成します。
 
 ### JS からの API の呼び出し {#invoking-api-from-js}
 
@@ -291,7 +291,7 @@ Campaign Classic 内で JS から API を呼び出す方法の例を以下に示
 >
 >20.2 に移行しており、既に API を使用している場合は、「regulation」フィールドを追加する必要があります。以前のビルドを使用している場合は、「regulation」フィールドなしで API を引き続き使用できます。
 
-* If you are **using a previous build (with GDPR package)**, you can continue to use the API without the ‘regulation’ field as shown below:
+* **以前のビルドを GDPR パッケージと一緒に使用**&#x200B;している場合、下記のように「regulation」フィールドなしで API を引き続き使用できます。
 
    ```
    loadLibrary("nms:gdpr.js");
@@ -316,7 +316,7 @@ Campaign Classic 内で JS から API を呼び出す方法の例を以下に示
    // User can use a simple queryDef with requestID as a parameter to check request status.
    ```
 
-* If you are **migrating to 20.2** and if you were already using the API, you must add the ‘regulation’ field as shown below:
+* **20.2 に移行**&#x200B;しており、既に API を使用している場合は、下記のように「regulation」フィールドを追加する必要があります。
 
    ```
    loadLibrary("nms:gdpr.js");
@@ -347,7 +347,7 @@ Campaign Classic 内で JS から API を呼び出す方法の例を以下に示
    // User can use a simple queryDef with requestID as a parameter to check request status.
    ```
 
-* If you are **using Campaign Classic 20.2 (build 9178+) or above**, the &#39;regulation&#39; field is optional, as shown below:
+* **Campaign Classic 20.2（ビルド 9178 以降）以降を使用**&#x200B;している場合は、下記のように「regulation」フィールドはオプションです。
 
    ```
    loadLibrary("nms:gdpr.js");
@@ -380,45 +380,45 @@ Campaign Classic 内で JS から API を呼び出す方法の例を以下に示
 
 ## 個人情報の販売のオプトアウト（CCPA）{#sale-of-personal-information-ccpa}
 
-The **California Consumer Privacy Act** (CCPA) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
+**カリフォルニア州消費者プライバシー法**（CCPA）は、カリフォルニア州民に個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスをおこなう特定の事業者に対してデータ保護の責任を課します。
 
-アクセス要求および削除要求の設定および使用方法は、GDPR と CCPA で共通です。ここでは、CCPAに固有の個人データ販売のオプトアウトについて説明します。
+アクセスリクエストおよび削除リクエストの設定および使用方法は、GDPR と CCPA で共通です。ここでは、CCPA に固有の個人データ販売のオプトアウトについて説明します。
 
-In addition to the [Consent management](../../platform/using/privacy-management.md#consent-management) tools provided by Adobe Campaign, you have the possibility to track whether a consumer has opted-out for the sale of Personal Information.
+Adobe Campaign が提供する[同意管理](../../platform/using/privacy-management.md#consent-management)ツールに加えて、消費者が個人情報の販売をオプトアウトしたかどうかをトラッキングすることもできます。
 
-消費者は、自分の個人情報を第三者に売り渡すことを自分のシステムを通じて許可しないと判断する。 Adobe Campaignでは、この情報を保存して追跡できます。
+消費者が自分の個人情報を、システムを通じて第三者に売り渡すことを許可しないことにします。Adobe Campaign では、この情報を保存してトラッキングできます。
 
-For this to work, you need to extend the Profiles table and add an **[!UICONTROL Opt-Out for CCPA]** field.
+これをおこなうには、プロファイルテーブルを拡張して、「**[!UICONTROL CCPA のオプトアウト]**」フィールドを追加する必要があります。
 
 >[!IMPORTANT]
 >
->データサブジェクトのリクエストを受け取り、CCPAのリクエスト日を追跡するのは、データコントローラーとしてのお客様の責任です。 テクノロジープロバイダーとして、オプトアウトの方法を提供するだけです。 データコントローラーとしての役割について詳しくは、「 [個人データと個人」を参照してください](../../platform/using/privacy-and-recommendations.md#personal-data)。
+>データ主体のリクエストを受け取り、CCPA のリクエスト日を追跡するのは、データ管理者の責任です。アドビは、テクノロジープロバイダーとして、オプトアウトの方法を提供するだけです。データ管理者としての役割について詳しくは、「[個人データとペルソナ](../../platform/using/privacy-and-recommendations.md#personal-data)」を参照してください。
 
-### 前提条件 {#ccpa-prerequisite}
+### 前提条件{#ccpa-prerequisite}
 
-この情報を活用するには、Adobe Campaign Classicでこのフィールドを作成する必要があります。 この場合、 **[!UICONTROL 受信者テーブルにブール値フィールドを追加します]** 。 新しいフィールドが作成されると、Campaign API によって自動的にサポートされます。
+この情報を活用するには、Adobe Campaign Classic でこのフィールドを作成する必要があります。この場合、**[!UICONTROL 受信者]**&#x200B;テーブルにブール値フィールドを追加します。新しいフィールドが作成されると、Campaign API によって自動的にサポートされます。
 
-カスタム受信者テーブルを使用する場合は、この操作も実行する必要があります。
+また、カスタム受信者テーブルを使用する場合、この操作を実行する必要があります。
 
 新しいフィールドの作成方法について詳しくは、[スキーマエディションのドキュメント](../../configuration/using/about-schema-edition.md)を参照してください。
 
 >[!IMPORTANT]
 >
->スキーマの変更は慎重に行う必要があるので、エキスパートユーザーのみが行う必要があります。
+>スキーマの変更は機密性の高い操作であり、エキスパートユーザーのみが実行する必要があります。
 
-1. Go to **[!UICONTROL Tools]** > **[!UICONTROL Advanced]** > **[!UICONTROL Add new fields]**, select **[!UICONTROL Recipients]** as the **[!UICONTROL Document type]** and click **[!UICONTROL Next]**. For more on adding fields to a table, see [this section](../../configuration/using/new-field-wizard.md).
+1. **[!UICONTROL ツール]**／**[!UICONTROL 詳細設定]**／**[!UICONTROL 新しいフィールドを追加]**&#x200B;をクリックし、**[!UICONTROL 受信者]**&#x200B;を「**[!UICONTROL ドキュメントタイプ]**」として選択して、「**[!UICONTROL 次へ]**」をクリックします。テーブルへのフィールドの追加について詳しくは、[こちら](../../configuration/using/new-field-wizard.md)を参照してください。
 
    ![](assets/privacy-ccpa-1.png)
 
-1. 「 **[!UICONTROL Field type]**」で「 **[!UICONTROL SQL field]**」を選択します。 For the Label, use **[!UICONTROL Opt-Out for CCPA]**. **[!UICONTROL 8ビット整数（ブール値）型を選択し、次の一意の]** 相対パスを定義します ****。@OPTOUTCCPA. 「**[!UICONTROL 完了]**」をクリックします。
+1. 「**[!UICONTROL フィールドタイプ]**」で「**[!UICONTROL SQL フィールド]**」を選択します。ラベルには、「**[!UICONTROL CCPA のオプトアウト]**」を使用します。**[!UICONTROL 8 ビット整数（ブール値）]**&#x200B;タイプを選択して、一意の&#x200B;**[!UICONTROL 相対パス]**「@OPTOUTCCPA」を定義します。「**[!UICONTROL 完了]**」をクリックします。
 
    ![](assets/privacy-ccpa-2.png)
 
-   これにより、 **[!UICONTROL 受信者（カスタム）]** スキーマが拡張または作成されます。 フィールドが正しく追加されていることを確認するには、このフィールドをクリックします。
+   これにより、**[!UICONTROL 受信者（cus）]**&#x200B;スキーマが拡張または作成されます。フィールドが正しく追加されていることを確認するには、これをクリックします。
 
    ![](assets/privacy-ccpa-3.png)
 
-1. エクスプローラーの **[!UICONTROL Configuration]** / **[!UICONTROL Input forms]** ノードをクリックします。 In **[!UICONTROL Recipient (nms)]**, under &quot;General Package&quot;, add an `<input>` element and use, for the xpath value, the relative path defined in step 2. For more on identifying a form, see [this section](../../configuration/using/identifying-a-form.md).
+1. エクスプローラーの&#x200B;**[!UICONTROL 設定]**／**[!UICONTROL 入力フォーム]**&#x200B;ノードをクリックします。**[!UICONTROL 受信者（nms）]**&#x200B;の「一般的なパッケージ」で、`<input>` 要素を追加して、xpath 値に、手順 2 で定義した相対パスを使用します。フォームの識別について詳しくは、[こちら](../../configuration/using/identifying-a-form.md)を参照してください。
 
    ```
    <input  colspan="2" type="checkbox" xpath="@OPTOUTCCPA"/>
@@ -426,11 +426,11 @@ For this to work, you need to extend the Profiles table and add an **[!UICONTROL
 
    ![](assets/privacy-ccpa-4.png)
 
-1. 接続を解除し、再接続します。 次のセクションで説明する手順に従って、受信者の詳細に対してフィールドが使用可能であることを確認します。
+1. 接続を解除し、再接続します。次の節で説明する手順に従って、受信者の詳細でフィールドが使用可能であることを確認します。
 
 ### 使用状況 {#usage}
 
-フィールドの値を入力し、データ販売に関するCCPAのガイドラインとルールに従うのは、データコントローラーの責任です。
+フィールドの値を入力し、データ販売に関する CCPA ガイドラインおよびルールに従うことは、データ管理者の責務となります。
 
 値はいくつかの方法で入力できます。
 
@@ -438,16 +438,16 @@ For this to work, you need to extend the Profiles table and add an **[!UICONTROL
 * API の使用
 * データインポートワークフローの使用
 
-その後、オプトアウトしたプロファイルの個人情報を第三者に販売しないようにする必要があります。
+次に、オプトアウトしたプロファイルの個人情報を第三者に販売しないようにする必要があります。
 
-1. オプトアウトステータスを変更するには、「 **[!UICONTROL プロファイルとターゲット]** / **[!UICONTROL 受信者]** 」で、受信者を選択します。 「 **[!UICONTROL 一般]** 」タブには、前の節で設定したフィールドが表示されます。
+1. オプトアウトステータスを変更するには、**[!UICONTROL プロファイルとターゲット]**／**[!UICONTROL 受信者]**&#x200B;で、受信者を選択します。「**[!UICONTROL 一般]**」タブには、前の節で設定したフィールドが表示されます。
 
    ![](assets/privacy-ccpa-5.png)
 
-1. 受信者リストを設定して、オープアウト列を表示します。 リストの設定方法については、 [詳細なドキュメントを参照してください](../../platform/using/adobe-campaign-workspace.md#configuring-lists)。
+1. 受信者リストを設定して、オプトアウト列を表示します。リストの設定方法については、[詳細なドキュメント](../../platform/using/adobe-campaign-workspace.md#configuring-lists)を参照してください。
 
    ![](assets/privacy-ccpa-6.png)
 
-1. 列をクリックすると、オプトアウト情報に従って受信者を並べ替えることができます。 オプトアウトした受信者のみを表示するフィルターを作成することもできます。 For more on creating filters, see [this section](../../platform/using/creating-filters.md).
+1. 列をクリックすると、オプトアウト情報に従って受信者を並べ替えることができます。オプトアウトした受信者のみを表示するフィルターを作成することもできます。フィルターの作成について詳しくは、[こちら](../../platform/using/creating-filters.md)を参照してください。
 
    ![](assets/privacy-ccpa-7.png)

@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
 workflow-type: tm+mt
 source-wordcount: '3647'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 94%
 
 ## 2020 年 11 月 {#nov-2020}
 
-キャンペーンデータモデルの概要が改善され、再構成されました。 [詳細を表示](../../configuration/using/about-data-model.md)
+キャンペーンデータモデルの概要が改善され、再構成されました。 [詳細を表示](../../configuration/using/about-data-model.md)。
 
 外部アカウント設定は [このセクションに移動されました](../../installation/using/external-accounts.md)。
 
 キャンペーンFederated Data Access(FDA)のドキュメントが改善され、各外部データベース設定の詳細が追加され、 [このセクションに移りました](../../installation/using/about-fda.md)。
 
-[キャンペーン20.2.3リリース](../../rn/using/release--20-2.md#release-20-2-3-build-9182) は、GA(General Availability)に移行しました。
+[Campaign 20.2.3 リリース](../../rn/using/release--20-2.md#release-20-2-3-build-9182)は一般提供（GA）に移行しました。
 
-「プライバシー」セクションは、2つの新しいページで移動され、強化されました。 [プライバシー管理](../../platform/using/privacy-management.md) / [プライバシー要求の](../../platform/using/privacy-requests.md)管理。
+The Privacy section has been moved and enriched with two new pages: [Privacy management](../../platform/using/privacy-management.md) and [Managing privacy requests](../../platform/using/privacy-requests.md).
 
 ミッドソーシングサーバの設定ページに、外部アカウントの内部名を一旦設定した後に更新しないように指定する注記が追加されました。 [詳細を表示](../../installation/using/mid-sourcing-server.md)
 
@@ -56,9 +56,9 @@ Android のプッシュ通知の改善点 - [詳細を表示](../../delivery/usi
 非推奨（廃止予定）および削除された機能ページが更新されました。[詳細を表示](../../rn/using/deprecated-features.md)
 
 Gold Standard リリースのリリースノートと互換性マトリックスが、専用の節で提供されるようになりました。
-[詳細を表示](../../rn/using/gold-standard.md#gs-10)
+[詳細を表示](../../rn/using/gold-standard.md#gs-10)。
 
-Triggers integration originally based on oAUTH authentication setup to access pipeline has now been changed and moved to Adobe I/O. [Read more](../../integrations/using/configuring-adobe-io.md)
+パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合が変更され、Adobe I/O に移動しました。[詳細情報](../../integrations/using/configuring-adobe-io.md)
 
 **その他のアップデート**
 
@@ -177,13 +177,13 @@ Azure Synapse FDA コネクタ - [詳細を表示](../../installation/using/conf
 
 互換性マトリックスが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
-クリーンアップワークフローの節が更新されました。[詳細情報](../../production/using/database-cleanup-workflow.md)。
+クリーンアップワークフローの節が更新されました。[詳細情報](../../production/using/database-cleanup-workflow.md)
 
 Campaign ネットワークエンドポイントは、この[節](../../installation/using/campaign-network-endpoints.md)に移動されました。
 
-Spam Assassin のインストールの節が、新しいインストールファイル名で更新されました。[詳細情報](../../installation/using/configuring-spamassassin.md#installing-spamassassin)。
+Spam Assassin のインストールの節が、新しいインストールファイル名で更新されました。[詳細情報](../../installation/using/configuring-spamassassin.md#installing-spamassassin)
 
-環境の複製に関する節が更新されました。[詳細情報](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)。
+環境の複製に関する節が更新されました。[詳細情報](../../production/using/duplicating-environments.md#step-2---export-the-target-environment-configuration--dev-)
 
 ## 2020 年 5 月 {#may-2020}
 

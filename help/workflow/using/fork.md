@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: 分岐
-description: フォークワークフローアクティビティの詳細を表示します
+description: 分岐ワークフローアクティビティの詳細を説明します
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 

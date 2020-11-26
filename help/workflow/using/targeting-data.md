@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: データのターゲティング
-description: ワークフローのターゲットデータについての詳細
+description: ワークフローでのデータのターゲティングについて説明します
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '2011'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -189,7 +189,7 @@ ht-degree: 99%
 
    ![](assets/wf_split_edit_filtering.png)
 
-1. 必要に応じて、各サブセットで個別にフィルタリングディメンションを変更できます。これにより、同じ 1 つの分割アクティビティを使用して、ゴールドカード所有者のセットを １ つと、最新のニュースレター内でクリックした受信者のセットを 1 つ、過去 30 日間に店舗で購入をおこなった 18 歳から 25 歳の人々のセットを 1 つ作成できます。それには、「**[!UICONTROL 特定のフィルタリングディメンションを使用]**」オプションを選択して、データのフィルターのコンテキストを選択します。
+1. 必要に応じて、各サブセットで個別にフィルタリングディメンションを変更できます。これにより、同じ 1 つの分割アクティビティを使用して、ゴールドカード所有者のセットを 1 つと、最新のニュースレター内でクリックした受信者のセットを 1 つ、過去 30 日間に店舗で購入をおこなった 18 歳から 25 歳の人々のセットを 1 つ作成できます。それには、「**[!UICONTROL 特定のフィルタリングディメンションを使用]**」オプションを選択して、データのフィルターのコンテキストを選択します。
 
    ![](assets/wf_split_change_dimension.png)
 

@@ -10,16 +10,16 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1586'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # インタラクティブコンテンツの定義{#defining-interactive-content}
 
-Adobe Campaign enables you to use the new interactive [AMP for Email](https://amp.dev/about/email/) format, which enables to send dynamic emails, under certain conditions.
+Adobe Campaign では、特定の条件下での動的な E メールの送信を可能にする、新しいインタラクティブ [AMP for Email](https://amp.dev/about/email/) フォーマットを使用することができます。
 
-電子メール用のAMPを使用すると、次のことができます。
+AMP for Email を使用して、次のことができます。
 * 適切に設定された特定のアドレスに AMP E メールを配信するテスト。
 * 対応するプロバイダーに登録した後、AMP E メールを Gmail、Outlook または Mail.ru アドレスに配信。
 

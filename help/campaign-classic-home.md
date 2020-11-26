@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 76%
+ht-degree: 83%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 76%
 
 ## 新着情報
 
-* **[Adobe Experience Cloudトリガー統合の更新](integrations/using/configuring-adobe-io.md)**<br/> レガシーoAuth認証サービスが提供終了になりました。 AdobeI/Oへの移行方法
+* **[Adobe Experience Cloud Triggers 統合の更新](integrations/using/configuring-adobe-io.md)**<br/>レガシー oAuth 認証サービスが提供終了になりました。AdobeI/Oへの移行方法
 
 * **[HTTP/2ベースのAPNsプロバイダAPIに移行するレガシーバイナリプロトコルからHTTP/2ベースのAPNsプロバイダAPIに移行する方法を学習します](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)**<br/> 。
 
@@ -32,7 +32,7 @@ FAQ、ベストプラクティス、ヘルプリソースにアクセスし、�
 * **[トラッキング機能](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html)**<br/>
 Campaign のトラッキング機能とプロセスについて説明します。
 
-[その他の更新](/help/rn/using/documentation-updates.md)
+[その他のアップデート](/help/rn/using/documentation-updates.md)
 
 ## トップページ
 

@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: イベントの設定
-description: カスタム導入用にイベントを設定する方法を学びます。
+description: カスタム実装用のイベントの設定方法を説明します
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 * QueryDef API および Writer API の実務知識
 * 秘密鍵を使用した暗号化と認証に関する実務概念
 
-JavaScriptコードの編集には技術的なスキルが必要なので、適切な理解が得られない限り、編集を試みないでください。
+Javascript コードの編集には技術スキルが必要なので、きちんと理解していない限り編集しないでください。
 
 ## JavaScript でのイベント処理 {#events-javascript}
 
@@ -33,7 +33,7 @@ JavaScriptコードの編集には技術的なスキルが必要なので、適�
 
 これは、「JSConnector」属性の下の **[!UICONTROL NmsPipeline_Config]** オプションで設定します。この JavaScript は、イベントを受信するたびに呼び出されます。[!DNL pipelined] プロセスで実行されます。
 
-サンプルのJavaScriptファイルは、cus:triggers.jsです。
+サンプルの JavaScript ファイルは、cus:triggers.js です。
 
 ### JavaScript 関数 {#function-js}
 
@@ -51,7 +51,7 @@ function processPipelineMessage(xmlTrigger) {}
 <undefined/>
 ```
 
-You should restart [!DNL pipelined] after editing the Javascript.
+JavaScript を編集した後、[!DNL pipelined] を再起動する必要があります。
 
 ### トリガーデータフォーマット {#trigger-format}
 
@@ -129,7 +129,7 @@ logInfo() などのログは [!DNL pipelined] ログに送られます。logErro
 
 ### データの解析 {#data-parsing}
 
-このサンプルのJavaScriptコードは、エンリッチメント内のeVar01を解析します。
+このサンプル JavaScript コードは、エンリッチメント内の eVar01 を解析します。
 
 ```
 function processPipelineMessage(xmlTrigger)

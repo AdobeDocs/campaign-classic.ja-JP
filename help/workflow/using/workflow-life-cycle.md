@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: ワークフローのライフサイクル
-description: ワークフローのライフサイクルの詳細
+description: ワークフローのライフサイクルの詳細について説明します
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # ワークフローのライフサイクル {#workflow-life-cycle}
 
-ワークフローサイクルは、3つの主要なステップがあります。
+ワークフローサイクルには、3 つの主要なステップがあります。
 
 * **編集中**
 

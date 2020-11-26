@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: 配信の概要
-description: 配信の概要ワークフローアクティビティの詳細を表示します
+description: 配信の概要ワークフローアクティビティの詳細を説明します
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
 # 配信の概要{#delivery-outline}
 
-The **delivery outline** lets you use an outline in a campaign workflow. 概要は、あらかじめキャンペーン内に作成しておく必要があります。
+**配信の概要**&#x200B;では、キャンペーンワークフローに概要を使用できます。概要は、あらかじめキャンペーン内に作成しておく必要があります。
 
 Adobe Campaign の配信の概要について詳しくは、この[節](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)を参照してください。
 
@@ -25,7 +25,7 @@ Adobe Campaign の配信の概要について詳しくは、この[節](../../ca
 
 ## 例：配信の概要を使用したオファーの挿入 {#example--inserting-an-offer-via-a-delivery-outline}
 
-The **delivery outline** activity, available in the campaign workflows, lets you present offers that are referenced in a delivery outline from the current campaign in progress.
+キャンペーンワークフローで使用可能な&#x200B;**配信の概要**&#x200B;アクティビティでは、現在進行中のキャンペーンの配信の概要で参照されているオファーを提示できます。
 
 >[!NOTE]
 >

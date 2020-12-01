@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 100%
+source-wordcount: '2232'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [ビデオで Campaign ワークスペースを確認する](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html)
+![](assets/do-not-localize/how-to-video.png)[ 動画で Campaign ワークスペースを確認する](#video)
 
 >[!NOTE]
 >
@@ -389,3 +389,11 @@ Adobe Campaign Classic インスタンスは、言語によって日時の形式
 * **[!UICONTROL d]**（日）
 
 ![](assets/enter_unit_sample.png)
+
+## チュートリアルビデオ {#video}
+
+このビデオは、Campaign Classicのワークスペースを示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

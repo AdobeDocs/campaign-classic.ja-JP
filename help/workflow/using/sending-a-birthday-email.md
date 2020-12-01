@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 100%
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 この（日々実行される）ワークフローでは、現在の日付が誕生日であるすべての受信者を選択します。
 
-この使用例は、ビデオでも紹介しています。詳しくは、[ワークフローの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html)のビデオを参照してください。
+![](assets/do-not-localize/how-to-video.png)この使用例は、ビデオでも紹介しています。詳しくは、[ワークフローの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html)のビデオを参照してください。
 
 これをおこなうには、キャンペーンを作成して、「**[!UICONTROL ターゲティングとワークフロー]**」タブをクリックします。詳しくは、[ワークフローのメインターゲットの作成](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)の節を参照してください。
 

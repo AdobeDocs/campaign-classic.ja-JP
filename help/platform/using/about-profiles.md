@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 100%
+source-wordcount: '982'
+ht-degree: 98%
 
 ---
 
@@ -107,13 +107,15 @@ Adobe Campaign エクスプローラーの一般的なレイアウトについ�
 
 **[!UICONTROL アクティブなプロファイルの数]**&#x200B;の概要は、Campaign Standard の&#x200B;**[!UICONTROL 管理／キャンペーン管理／顧客指標]**&#x200B;メニューから表示できます。実際のカウントは、**[!UICONTROL アクティブな請求プロファイルの数]**（**[!UICONTROL billingActiveContactCount]**）[テクニカルワークフロー](../../workflow/using/deliveries.md)がおこないます。このワークフローは毎日実行され、新しいデータを&#x200B;**[!UICONTROL 顧客指標]**&#x200B;メニューの現在の期間に対する既存のレポートに追加します。各期間は 12 か月続きます。
 
-## プロファイルの作成および管理方法 {#create-profiles-video}
+## チュートリアルビデオ {#create-profiles-video}
 
 プロファイルデータにアクセスする方法、プロファイルの並べ替えとフィルターをおこなう方法、プロファイルを手動で作成および管理する方法について説明します。
 
 この動画では、Adobe Campaign Classic による一般データ保護規則（GDPR）の遵守についても説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。
 
 **関連項目：**
 

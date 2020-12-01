@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '911'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Campaign は、対話的なマーケティングキャンペーンの構�
 >
 >Adobe Campaign Classic には v6.11 と v7 があります。特に明記しない限り、ヘルプ資料は両方のバージョンの[最新ビルド](../../rn/using/latest-release.md)に適用されます。スクリーンショットは、Campaign Classic v7 のユーザーインターフェイスを反映したものです。
 
+![](assets/do-not-localize/how-to-video.png) [動画で主な特徴と機能を確認する](#video)
+
 ## 主な機能 {#key-capabilities}
 
 Adobe Campaign は、クロスチャネルのカスタマーエクスペリエンスを構築するための基盤を提供し、視覚的なキャンペーンのオーケストレーションや、リアルタイムの対話管理、クロスチャネルのキャンペーン展開に必要な環境を提供します。
@@ -32,8 +34,6 @@ Adobe Campaign は、クロスチャネルのカスタマーエクスペリエ�
 Adobe Campaign におけるマーケティングキャンペーンのサイクルは、この製品の主な機能領域を表しています。
 
 ![](assets/d_ncs_user_emarketing.png)
-
-![](assets/do-not-localize/how-to-video.png) [動画で主な特徴と機能を確認する](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/introduction-to-adobe-campaign-classic.html)
 
 ### 統合された顧客プロファイル {#integrated-customer-profile}
 
@@ -87,3 +87,10 @@ Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マ�
 * [web サービス](../../configuration/using/about-web-services.md)： API/web サービスを介した Campaign の使用
 * [レポート](../../reporting/using/about-adobe-campaign-reporting-tools.md)：組み込みレポートへのアクセス、データの分析および独自レポートのデザイン
 
+## チュートリアルビデオ {#video}
+
+このビデオでは、Campaign Classicの主な機能について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

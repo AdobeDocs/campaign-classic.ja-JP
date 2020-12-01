@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '286'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ![](assets/Offermgt2.png)
 
-Campaign のインタラクションで使用されるインタラクション機能と用語について確認するには、[Adobe Campaign インタラクションの概要](https://helpx.adobe.com/jp/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com)のビデオをご覧ください。
+![](assets/do-not-localize/how-to-video.png) キャンペーンインタラクションで使用されるインタラクション機能と用語について理解するには、 [このビデオをご覧ください](https://helpx.adobe.com/jp/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com)。
 
 ## 関連トピック
 

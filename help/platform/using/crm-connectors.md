@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '2657'
 ht-degree: 99%
@@ -70,7 +70,7 @@ Supported versions are detailed in Campaign [Compatibility matrix](../../rn/usin
 
    Microsot Dynamics との接続を設定する方法については、[この節](#example-for-microsoft-dynamics)を参照してください。
 
-   Adobe Campaign と Microsoft Dynamics 統合の使用例については、[このビデオ](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html)を参照してください。
+   ![](assets/do-not-localize/how-to-video.png)Adobe Campaign と Microsoft Dynamics 統合の使用例については、[このビデオ](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html)を参照してください。
 
    >[!IMPORTANT]
    >

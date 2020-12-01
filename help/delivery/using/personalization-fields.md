@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 98%
 
 ---
 
@@ -118,8 +118,10 @@ E メールを作成するとします。まず受信者の名前を挿入し、
 
 このオプションを 0 に設定した場合、パーソナライゼーションフェーズに時間制限はなくなります。
 
-## パーソナライゼーションフィールドを使用して E メールをパーソナライズする方法 {#personalization-fields-video}
+## チュートリアルビデオ {#personalization-fields-video}
 
 パーソナライゼーションフィールドを件名行と E メール配信のコンテンツに追加する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

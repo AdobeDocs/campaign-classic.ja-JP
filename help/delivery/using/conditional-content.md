@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 100%
+source-wordcount: '493'
+ht-degree: 97%
 
 ---
 
@@ -109,8 +109,10 @@ ht-degree: 100%
    >
    >この E メールコンテンツには代替バージョンが定義されていないので、E メールを送信する前にターゲット母集団をフィルタリングしてください。
 
-## 条件付きコンテンツを含む多言語ニュースレターの作成方法 {#conditionnal-content-video}
+## チュートリアルビデオ {#conditionnal-content-video}
 
 複数言語のニュースレターの例を使用して、配信に条件付きコンテンツを追加する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

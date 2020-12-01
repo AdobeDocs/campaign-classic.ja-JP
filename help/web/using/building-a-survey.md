@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 調査の構築
-description: 調査の構築
+title: 調査の設計
+description: 調査の設計
 audience: web
 content-type: reference
 topic-tags: online-surveys
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
-# 調査の構築{#building-a-survey}
+# 調査の設計{#building-a-survey}
 
 ## 新しい調査の作成 {#creating-a-new-survey}
 

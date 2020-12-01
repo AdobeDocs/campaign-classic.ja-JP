@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 100%
+source-wordcount: '1726'
+ht-degree: 99%
 
 ---
 
@@ -225,15 +225,16 @@ ht-degree: 100%
 
 「**[!UICONTROL 特定のターゲットとシードアドレス]**」オプションを使用すると、特定の配達確認ターゲットの定義とシードアドレスの使用を組み合わせることができます。関連する設定は、異なる 2 つのサブタブで定義します。
 
-## E メールでのシードと配達確認の管理方法 {#seeds-and-proofs-video}
+関連項目：
+
+* [配達確認のターゲットの選択](#selecting-the-proof-target)
+* [シードアドレスについて](../../delivery/using/about-seed-addresses.md)
+* [使用例：条件によるシードアドレスの選択](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+
+## チュートリアルビデオ {#seeds-and-proofs-video}
 
 この動画では、既存の E メールにシードと配達確認を追加して送信する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
-関連項目：
-* [配達確認のターゲットの選択](#selecting-the-proof-target)
-
-* [シードアドレスについて](../../delivery/using/about-seed-addresses.md)
-
-* [使用例：条件によるシードアドレスの選択](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

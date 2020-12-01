@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 調査の概要
-description: 調査の概要
+title: 調査を作成するための主な手順
+description: キャンペーンを使用した最初の調査の作成
 audience: web
 content-type: reference
 topic-tags: online-surveys
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 100%
+source-wordcount: '959'
+ht-degree: 98%
 
 ---
 
 
-# 調査の概要{#getting-started-with-surveys}
+# 調査を作成するための主な手順{#getting-started-with-surveys}
 
 ここでは、次のテンプレートを使用して、簡単な調査を作成するための主な手順について要約しています。
 

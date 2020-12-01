@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 93%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Campaign では、コミュニケーションおよびマーケティン�
 >
 >Adobe Campaign のコア機能について詳しくは、[はじめに](../../platform/using/about-adobe-campaign-classic.md)の節を参照してください。\
 >様々なチャネルを使用した母集団のターゲティング、メッセージのパーソナライズおよびメッセージ配信に関連する機能について詳しくは、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。
+
+![](assets/do-not-localize/how-to-video.png) [Discoverマーケティングキャンペーンは、ビデオの概念をキーにします。](#video)
 
 ## 主な概念 {#core-concepts}
 
@@ -62,3 +64,10 @@ Adobe Campaign では、コミュニケーションおよびマーケティン�
 
    詳しくは、[配信の概要からのリンク済みリソースの関連付けと構造化](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)を参照してください。
 
+## チュートリアル {#video}
+
+このビデオでは、マーケティングキャンペーンの主要概念を紹介します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

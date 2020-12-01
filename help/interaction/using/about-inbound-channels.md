@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
@@ -19,9 +19,7 @@ ht-degree: 100%
 
 オファーは、インバウンドチャネルまたはアウトバウンドチャネルを使用して、様々なオファースペースに提示できます。この章では、インバウンドチャネルについていくつかの具体的な機能を説明します。
 
->[!NOTE]
->
->また、インバウンドチャネルでのオファーの配信方法について詳しくは、この[ビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html)もご覧ください。
+![](assets/do-not-localize/how-to-video.png)また、インバウンドチャネルでのオファーの配信方法について詳しくは、この[ビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html)もご覧ください。
 
 オファーがオファーエンジンによって選択されるためには、承認され、実稼働環境で利用できる必要があります。詳しくは、[オファーの承認と有効化](../../interaction/using/approving-and-activating-an-offer.md)を参照してください。
 

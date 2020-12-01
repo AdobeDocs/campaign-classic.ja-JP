@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6335c1cd327a83dbc8c4d43c4ab795b84531c3e1
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 96%
 
 ---
 
@@ -68,20 +68,24 @@ ht-degree: 100%
 >
 >設定エラーを防ぐために、新しいテンプレートを作成するのではなく、ネイティブテンプレートをコピーしてプロパティを変更することをお勧めします。
 
-## 配信テンプレートの設定方法 {#delivery-template-video}
+## チュートリアル動画 {#delivery-template-video}
+
+### 配信テンプレートの設定方法
 
 次のビデオでは、アドホック配信用のテンプレートを設定する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
 
-## 配信テンプレートのプロパティの設定方法
+### 配信テンプレートのプロパティの設定方法
 
 次のビデオでは、配信テンプレートのプロパティを設定する方法と各プロパティの詳細について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12)
 
-## アドホック配信テンプレートのデプロイ方法
+### アドホック配信テンプレートのデプロイ方法
 
 このビデオでは、アドホック E メール配信テンプレートを導入する方法と、E メール配信と配信ワークフローの違いについて説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

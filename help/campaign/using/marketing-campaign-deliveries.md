@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '3076'
-ht-degree: 100%
+source-wordcount: '3084'
+ht-degree: 99%
 
 ---
 
@@ -457,8 +457,10 @@ ht-degree: 100%
 >
 >詳しくは、[はじめに](../../platform/using/generic-imports-and-exports.md)の節を参照してください。
 
-#### キャンペーンでの E メールの作成方法 {#create-email-video}
+#### チュートリアルビデオ {#create-email-video}
 
 このビデオでは、Adobe Campaign Classic でキャンペーンと E メールを作成する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

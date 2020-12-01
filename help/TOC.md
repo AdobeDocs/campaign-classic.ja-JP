@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
+source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
-source-wordcount: '2171'
-ht-degree: 98%
+source-wordcount: '2179'
+ht-degree: 97%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
       + [チュートリアル](platform/using/tutorials.md)
    + プライバシー {#privacy}
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
-      + [プライバシー管理](platform/using/privacy-management.md)
+      + [プライバシーの管理](platform/using/privacy-management.md)
       + [プライバシーリクエスト](platform/using/privacy-requests.md)
       + [プライバシーFAQ](platform/using/privacy-faq.md)
    + プロファイル管理 {#profile-management}
@@ -273,7 +273,7 @@ ht-degree: 98%
       + [Web アプリケーションのトラッキング](web/using/tracking-a-web-application.md)
       + [Web アプリケーショントラッキングのオプトアウト](web/using/web-application-tracking-opt-out.md)
    + HTML コンテンツの編集 {#editing-html-content}
-      + [Campaign の HTML エディターについて](web/using/about-campaign-html-editor.md)
+      + [HTMLエディターの概要](web/using/about-campaign-html-editor.md)
       + [テンプレート管理](web/using/template-management.md)
       + [コンテンツエディターのインターフェイス](web/using/content-editor-interface.md)
       + [コンテンツの編集](web/using/editing-content.md)
@@ -281,7 +281,7 @@ ht-degree: 98%
       + [ランディングページの作成](web/using/creating-a-landing-page.md)
       + [ユースケース：E メール配信の作成](web/using/use-case--creating-an-email-delivery.md)
    + Web フォーム {#web-forms}
-      + [Web フォームについて](web/using/about-web-forms.md)
+      + [Webフォームの概要](web/using/about-web-forms.md)
       + [Web フォームテンプレートの使用](web/using/using-a-web-form-template.md)
       + [Web フォームへのフィールドの追加](web/using/adding-fields-to-a-web-form.md)
       + [Web フォームの静的要素](web/using/static-elements-in-a-web-form.md)
@@ -294,9 +294,9 @@ ht-degree: 98%
       + [Web フォームの翻訳](web/using/translating-a-web-form.md)
       + [ユースケース：Web フォーム](web/using/use-cases--web-forms.md)
    + オンライン調査 {#online-surveys}
-      + [調査について](web/using/about-surveys.md)
-      + [調査の概要](web/using/getting-started-with-surveys.md)
-      + [調査の構築](web/using/building-a-survey.md)
+      + [調査を使い始める](web/using/about-surveys.md)
+      + [調査を作成するための主な手順](web/using/getting-started-with-surveys.md)
+      + [調査の設計](web/using/building-a-survey.md)
       + [回答の管理](web/using/managing-answers.md)
       + [収集したデータのパブリッシュ、トラッキングおよび使用](web/using/publish--track-and-use-collected-data.md)
       + [調査の設定](web/using/configuring-surveys.md)

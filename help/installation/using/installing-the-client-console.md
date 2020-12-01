@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 13%
+source-wordcount: '505'
+ht-degree: 12%
 
 ---
 
@@ -24,6 +24,8 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 >[!CAUTION]
 >
 >キャンペーンクライアントコンソールとキャンペーンアプリケーションサーバーは、同じ製品バージョンで実行する必要があります。 Adobeでは、同じ製品ビルドを使用することもお勧めします。
+
+![](assets/do-not-localize/how-to-video.png) ビデオでのAdobe Campaignクライアントのインストールおよびセットアップ方法の確認 [](#video)
 
 ## コンソールをダウンロード{#download-the-client-console}
 
@@ -93,4 +95,11 @@ Adobe Campaignクライアントコンソールをダウンロードしてイン
 
 * [インスタンスの作成とログオン](../../installation/using/creating-an-instance-and-logging-on.md).
 * [互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
-* [Adobe Campaignクライアントのインストールとセットアップ](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) （ビデオ）
+
+## チュートリアルビデオ
+
+このビデオでは、Adobe Campaignクライアントのインストールとセットアップの方法を示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

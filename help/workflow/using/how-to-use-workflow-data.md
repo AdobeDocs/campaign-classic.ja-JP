@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: e43a14a8be179dd4793176d15e2c30b3e778d3e0
+source-git-commit: 49f3c123cb8e91b3a2a2a1eb6bd593a242b8bbfe
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 98%
+source-wordcount: '952'
+ht-degree: 96%
 
 ---
 
@@ -97,7 +97,7 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 このユースケースでは、Campaign コントロールパネルにインストールされたキーを使用してデータを暗号化およびエクスポートするためのワークフローを作成します。
 
-GPG キーを使用してデータを暗号化する方法を示すチュートリアルビデオについては、[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)を参照してください。
+![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
 
 このユースケースを実行する手順は次のとおりです。
 
@@ -142,3 +142,10 @@ GPG キーを使用してデータを暗号化する方法を示すチュート�
 
 1. これで、ワークフローを開始できます。ワークフローを実行すると、クエリで選択された対象データが、暗号化された .gpg ファイルにエクスポートされ、SFTP サーバーに転送されます。
 
+### チュートリアルビデオ {#video}
+
+このビデオでは、GPGキーを使用してデータを暗号化する方法について説明します。このビデオは、
+
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

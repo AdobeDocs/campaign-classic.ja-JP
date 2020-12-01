@@ -7,17 +7,21 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '374'
+ht-degree: 96%
 
 ---
 
 
 # 連続配信{#continuous-delivery}
 
-「**連続配信**」タイプアクションでは、既存の配信に新しい受信者を追加できます。この配信タイプにより、毎回新しい配信を作成する必要がなくなります。このモードは、特に、容量不足のアラートや通知の送信が必要になった場合などに効率的です。配信テンプレートレベルで、関連する配信のラベル（およびキャンペーンフォルダー）を計算するスクリプトを指定できます。スクリプトがまだ存在しない配信を計算すると、その配信が計算中に作成されます。
+「**連続配信**」タイプアクションでは、既存の配信に新しい受信者を追加できます。この配信タイプにより、毎回新しい配信を作成する必要がなくなります。このモードは、特に、容量不足のアラートや通知の送信が必要になった場合などに効率的です。
+
+![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#continuous-delivery-video)
+
+配信テンプレートレベルで、関連する配信のラベル（およびキャンペーンフォルダー）を計算するスクリプトを指定できます。スクリプトがまだ存在しない配信を計算すると、その配信が計算中に作成されます。
 
 ![](assets/edit_diffusion_fil.png)
 
@@ -56,6 +60,10 @@ ht-degree: 100%
 
 ![連続配信](assets/delivery_continuous.jpg)
 
+## チュートリアルビデオ {#continuous-delivery-video}
+
 このビデオでは、増分処理クエリを使用して連続配信を設定する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

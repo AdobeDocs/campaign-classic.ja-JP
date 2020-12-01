@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 100%
+source-wordcount: '1304'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 # マーケティングキャンペーンの設定{#setting-up-marketing-campaigns}
 
 キャンペーンには、アクション（配信）とプロセス（ファイルのインポートまたは抽出）だけでなく、マーケティングドキュメントや配信の概要といったリソースも含まれます。これらはマーケティングキャンペーンで使用されます。キャンペーンはプログラムの一部で、プログラムは 1 つのキャンペーンプランに含まれます。
+
+![](assets/do-not-localize/how-to-video.png) ビデオでマーケティングプラン、プログラム、キャンペーンを作成する方法 [の確認](#video)
 
 マーケティングキャンペーンを作成するには：
 
@@ -45,7 +47,7 @@ ht-degree: 100%
 
    [サービスプロバイダーとそのコスト構造の作成](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)を参照してください。
 
-これらの手順が完了したら、配信を開始し（[配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)を参照）、データ、プロセスおよび配信に関連する情報を確認し、必要に応じて関連ドキュメントを管理します（[関連付けられたドキュメントの管理](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)を参照）。また、キャンペーンと配信の処理フェーズの実行をトラッキングすることもできます（[トラッキング](../../campaign/using/marketing-campaign-monitoring.md)を参照）。
+これらの手順が完了したら、配信を開始し（[配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)を参照）、データ、プロセスおよび配信に関連する情報を確認し、必要に応じて関連ドキュメントを管理します（[関連付けられたドキュメントの管理](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)を参照）。You can also track the execution of the processing phases of campaigns and deliveries (see [Tracking](../../campaign/using/marketing-campaign-monitoring.md)).
 
 ## プランとプログラム階層構造の作成 {#creating-plan-and-program-hierarchy}
 
@@ -230,3 +232,11 @@ ht-degree: 100%
    ![](assets/s_ncs_user_op_template_period_planning.png)
 
 それぞれの定期的なキャンペーンに、同じ要素が含まれます。作成された定期的なキャンペーンは、標準のキャンペーンとして管理されます。
+
+## チュートリアルビデオ {#video}
+
+このビデオでは、マーケティングプラン、プログラムおよびキャンペーンの作成方法を紹介します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

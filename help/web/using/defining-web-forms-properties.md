@@ -7,7 +7,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Web フォームでは、独自の要件を満たすための設定やパーソ�
 
 Web フォームのフィールドは、デフォルトで、受信者テーブルに格納されます。「**[!UICONTROL ドキュメントタイプ]**」フィールドから新しいテーブルを選択することで、使用するテーブルを変更できます。**[!UICONTROL ズーム]**&#x200B;アイコンを使用すると、選択したテーブルの内容を表示できます。
 
-デフォルトでは、回答は、**[!UICONTROL 受信者フォームへの回答]**&#x200B;テーブルに格納されます。
+デフォルトでは、回答は、**受信者フォームへの回答**&#x200B;テーブルに格納されます。
 
 ## エラーページの設定 {#setting-up-an-error-page}
 

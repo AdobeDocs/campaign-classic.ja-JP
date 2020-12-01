@@ -7,7 +7,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 100%
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 キャンペーンテンプレートの作成および設定について詳しくは、[キャンペーンテンプレート](#campaign-templates)で説明しています。
 
-キャンペーンの作成について詳しくは、[このビデオ](../../campaign/using/marketing-campaign-deliveries.md#create-email-video)を参照してください。
+![](assets/do-not-localize/how-to-video.png)キャンペーンの作成について詳しくは、[このビデオ](../../campaign/using/marketing-campaign-deliveries.md#create-email-video)を参照してください。
 
 ## 使用可能モジュールの設定 {#configuration-of-the-available-modules}
 

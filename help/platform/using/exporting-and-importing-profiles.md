@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 100%
+source-wordcount: '154'
+ht-degree: 90%
 
 ---
 
@@ -34,8 +34,10 @@ ht-degree: 100%
 ![](assets/s_ncs_user_interface_import_link.png)
 
 
-## プロファイルのインポート方法{#import-profiles-video}
+## チュートリアルビデオ {#import-profiles-video}
 
 このビデオでは、Adobe Campaign でプロファイルをインポート（低頻度）する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

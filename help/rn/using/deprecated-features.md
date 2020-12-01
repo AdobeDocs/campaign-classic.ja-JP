@@ -9,9 +9,9 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 82c5f4f4c37f295a6c206eb33616ae9223740f36
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1626'
 ht-degree: 100%
 
 ---
@@ -54,7 +54,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <li>Web API - Microsoft Dynamics CRM オンプレミス：2016、2016 Update 1</li>
    <li>Web API - Microsoft Dynamics CRM オンライン：2016、2016 Update 1</li>
    </ul>
-  <p><em>削除予定日：2021 年</em></p>
+  <p><em>削除予定日：2021 年 4 月</em></p>
   </td>
  </tr>
   <tr>
@@ -62,14 +62,14 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <td><p>Campaign 20.3 リリースより、iOS レガシーバイナリコネクタは非推奨（廃止予定）になります。<p>
   <p> このコネクタを使用している場合は、これに応じて実装を適応させる必要があります。
 <a href="https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html">詳細情報</a></p>
-  <p><em>削除予定日：2021 年</em></p>
+  <p><em>削除予定日：2021 年 4 月</em></p>
   </td>
  </tr>
    <tr>
   <td>Demdex ドメイン<br></td>
   <td><p> Campaign 20.3 リリースより、Adobe Experience Cloud へのオーディエンスのインポートおよびエクスポートに使用する demdex ドメインは非推奨（廃止予定）になります。<p>
   <p>インポート/エクスポート外部アカウントに demdex ドメインを使用している場合は、それに応じて実装を適応させる必要があります。<a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">詳細情報</a></p> 
-  <p><em>削除予定日：2021 年</em></p>
+  <p><em>削除予定日：2021 年 4 月</em></p>
   </td>
   <tr>
   <td>OAuth 認証（OAuth および JWT）<br></td>
@@ -92,14 +92,14 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    </ul>
   <p>これらのコネクタのいずれかを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../delivery/using/sms-channel.md">詳細情報</a></p> 
   <p>従来のコネクタを移行する方法については、この<a href="https://helpx.adobe.com/jp/campaign/kb/sms-connector.html">テクニカルノート</a>を参照してください。</p>
-  <p><em>削除予定日：2021 年</em></p>
+  <p><em>削除予定日：2021 年 4 月</em></p>
   </td> 
  </tr>
   <tr>  
    <td>FAX チャネル<br></td>
    <td><p>Campaign 20.2 リリースより、FAX チャネルは非推奨（廃止予定）になります。</p> 
    <p>このチャネルを使用する場合は、それに応じて実装を適応させる必要があります。Campaign チャネルの<a href="../../delivery/using/steps-about-delivery-creation-steps.md">詳細情報</a>を参照してください。</p>
-   <p><em>削除予定日：2021 年</em></p></td>
+   <p><em>削除予定日：2021 年 4 月</em></p></td>
   </tr>
  </tbody> 
 </table>

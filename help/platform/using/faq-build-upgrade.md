@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '2023'
 ht-degree: 100%
@@ -61,7 +61,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 変更をおこなう前に、アドビがシステムのバックアップを作成します。ただし、本番以外のシステム（開発またはステージングサーバー）に重要なカスタマイズ作業がある場合は、アップグレードの前に、お客様の側で、その作業をパッケージとしてエクスポートすることを強くお勧めします。
 
-詳しくは、[このハウツー動画](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html)をご覧ください。
+![](assets/do-not-localize/how-to-video.png)詳しくは、[このハウツー動画](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html)をご覧ください。
 
 ## アップグレードはいつおこなわれますか？
 

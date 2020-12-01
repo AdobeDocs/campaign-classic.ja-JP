@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 49f3c123cb8e91b3a2a2a1eb6bd593a242b8bbfe
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '542'
+ht-degree: 92%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 100%
 
 一般に、ターゲットをリストに保存することは、ワークフローの終わりを示すことになります。このため、デフォルトでは、「**[!UICONTROL リスト更新]**」アクティビティに、アウトバウンドトランジションはありません。アウトバウンドトランジションを追加するには、「**[!UICONTROL アウトバウンドトランジションを生成]**」オプションをチェックします。
 
+![](assets/do-not-localize/how-to-video.png) [ビデオのエクスプローラから受信者のリストを作成する方法を見つけます。](#video)
+
 ## 例：リストの更新 {#example--list-update}
 
 次の例では、リスト更新アクティビティは、フランスに住む 30 歳以上の男性をターゲットにするクエリに従っています。最初のリストは、クエリの結果から作成されます。その後、リストがワークフローから起動されるたびに更新されます。このリストは、例えば、ターゲティングしたキャンペーンの特典のオファーに定期的に使用できます。
@@ -56,8 +58,6 @@ ht-degree: 100%
 
    条件に一致する受信者のリストが作成または更新されます。
 
-詳しくは、[受信者のリストの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html)ビデオを参照してください。
-
 ## 入力パラメーター {#input-parameters}
 
 * tableName
@@ -68,3 +68,11 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * groupId：グループの ID。
+
+## チュートリアルビデオ {#video}
+
+このビデオでは、エクスプローラから受信者のリストを作成する方法を示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

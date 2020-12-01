@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 100%
+source-wordcount: '1004'
+ht-degree: 96%
 
 ---
 
@@ -154,8 +154,10 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
    * パーソナライゼーションブロックのコンテンツ（HTML、テキスト、JavaScript など）を入力し、「**[!UICONTROL 保存]**」をクリックします。
 
-## 動的コンテンツブロックを使用して E メールをパーソナライズする方法 {#personalization-blocks-video}
+## チュートリアルビデオ {#personalization-blocks-video}
 
-動的コンテンツブロックを作成する方法、および動的コンテンツブロックを使用して E メール配信のコンテンツをパーソナライズする方法について説明します。
+動的なコンテンツブロックを作成する方法、および動的なコンテンツブロックを使用して電子メール配信のコンテンツをパーソナライズする方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

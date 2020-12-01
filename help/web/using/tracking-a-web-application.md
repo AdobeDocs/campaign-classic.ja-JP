@@ -7,10 +7,10 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign では、トラッキングタグを挿入することで、Web �
 
    * **コンバージョン率**：ナビゲーションパスのすべてのステップを表示した人の数
    * **バウンス率**：最初のステップのみ表示した人の数
-   * **コンバージョンファネル**：各ステップ間の損失率
+   * **コンバージョンファネル**:各ステップ間の損失率。
 
    さらに、**扇形**&#x200B;のグラフに、そのソースに応じた母集団が表示されます。
 

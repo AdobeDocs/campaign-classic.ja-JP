@@ -7,10 +7,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
-source-wordcount: '2542'
-ht-degree: 100%
+source-wordcount: '2550'
+ht-degree: 94%
 
 ---
 
@@ -196,7 +196,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 ![](assets/s_ncs_admin_survey_radio_button.png)
 
-ラジオボタンを個別に作成（ユニットボタン）したり、複数選択リストを使用して作成できますが、ラジオボタンの要点はいずれか 1 つのオプションを選択することなので、単一のボタンのみではなく、常に少なくとも 2 つのラジオボタンを作成します。
+ラジオボタンは個別（単一のボタン）にも複数選択のリストを介しても作成できますが、ラジオボタンは1つまたは複数のオプションを選択するので、1つのボタンだけでなく、必ず1組のラジオボタンを作成します。
 
 >[!CAUTION]
 >
@@ -251,7 +251,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
-ユーザーがフォームページに日付を入力できるようにするには、ページエディターのツールバーで、**[!UICONTROL 入力フィールドを追加／日付]**&#x200B;を選択します。
+ユーザーがフォームページに日付を入力できるようにするには、入力フィールドを追加し、「 **[!UICONTROL 日付」タイプを選択します。]**.
 
 フィールドのラベルを入力し、データストレージモードを設定します。
 
@@ -381,17 +381,20 @@ Captcha は、ビジュアルの下に配置された入力フィールドでペ
 >* Adobe Campaign は、アップロードされたリソースのサイズまたはタイプを制御しません。そのため、安全なタイプのイントラネットサイトのみのアップロードフィールドを使用することを強くお勧めします。
 >* いくつかのサーバーがインスタンス（ロードバランシングアーキテクチャ）にリンクされている場合、同じサーバーに到達する Web フォームに対する呼び出しを確認する必要があります。
 >* これらの実装には、Adobe Campaign コンサルティングチームの支援が必要です。
+
 >
 
 
 
 ## 非表示の定数の挿入 {#inserting-a-hidden-constant}
 
-ユーザーがフォームのいずれかのページに移動する際にフィールドをハイライトできます。これをおこなうには、ページに定数を配置し、値とストレージの場所を指定します。
+ユーザーがフォームのページの1つを検証する場合、プロファイルのフィールドまたは変数に特定の値を設定できます。
 
 このフィールドは、ユーザーには表示されませんが、ユーザープロファイルのデータをエンリッチメントするために使用できます。
 
-次の例では、ユーザーがこのページを承認するといつでも、受信者プロファイルの **origin** ファイルに自動的に入力されます。定数は、このページには表示されません。
+To do this, place a **constant** in the page and specify the value and the storage location.
+
+In the following example, the **origin** field of the recipient profile is filled in automatically whenever a user approves this page. 定数は、このページには表示されません。
 
 ![](assets/s_ncs_admin_survey_constante.png)
 

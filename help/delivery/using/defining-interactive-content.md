@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 100%
+source-wordcount: '1594'
+ht-degree: 99%
 
 ---
 
@@ -203,8 +203,10 @@ AMP コンテンツとフォールバックの準備が整い、互換性のあ�
 >
 >デフォルトでは、「**[!UICONTROL AMP インクルージョン]**」オプションは「**[!UICONTROL いいえ]**」に設定されています。
 
-## E メールに対して AMP を有効化して使用する方法 {#amp-email-video}
+## チュートリアルビデオ {#amp-email-video}
 
 次のビデオでは、Adobe Campaign Classic で AMP を有効化して使用する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
+
+その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。

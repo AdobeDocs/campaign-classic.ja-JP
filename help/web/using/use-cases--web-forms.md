@@ -7,10 +7,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 100%
+source-wordcount: '992'
+ht-degree: 97%
 
 ---
 
@@ -133,7 +133,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
 1. フォームページで入力された情報を保存するために、「**[!UICONTROL ストレージ]**」アクティビティを設定します。
 
-   このアクティビティを使用すると、専用の一時的な受信者プロファイルを、データベースのプロファイルとは別に作成し、一時的な受信者プロファイルにメッセージを送信できます。
+   このアクティビティを使用すると、専用の一時フォルダに受信者プロファイルを作成して、通信を送信できるプロファイルとは別にデータベースのを設定できます。
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5g.png)
 

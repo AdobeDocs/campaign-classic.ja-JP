@@ -4,11 +4,11 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 83%
 
 ## 新着情報
 
-* **[Adobe Experience Cloud Triggers 統合の更新](integrations/using/configuring-adobe-io.md)**<br/>レガシー oAuth 認証サービスが提供終了になりました。AdobeI/Oへの移行方法
+* **[Adobe Experience Cloud Triggers 統合の更新](integrations/using/configuring-adobe-io.md)**<br/>レガシー oAuth 認証サービスが提供終了になりました。Adobe I/O に移行する方法を説明します
 
-* **[HTTP/2ベースのAPNsプロバイダAPIに移行するレガシーバイナリプロトコルからHTTP/2ベースのAPNsプロバイダAPIに移行する方法を学習します](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)**<br/> 。
+* **[HTTP/2 ベースの APNs プロバイダー API への移行](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)**<br/>&#x200B;レガシーバイナリプロトコルから HTTP/2 ベースの APNs プロバイダー API に移行する方法を説明します
 
 * **[メッセージへの顔文字の追加](delivery/using/defining-the-email-content.md#inserting-emoticons)**<br/>
 メッセージと件名に顔文字を挿入できるようになりました。
@@ -85,9 +85,9 @@ Campaign のトラッキング機能とプロセスについて説明します�
 | 便利なページ | 開発者向けリソース |
 |---|---|
 | [リリースノート](/help/rn/using/latest-release.md) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [ハウツービデオ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html) | [Campaign データモデル](configuration/using/about-data-model.md) |
+| [ハウツービデオ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
 | [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Campaign の概要](platform/using/about-adobe-campaign-classic.md) | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/acc-implementation.html) |
 | [Gold Standard アップグレード](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
 | [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md) | [セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) |
-| [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) | [監視のガイドライン](production/using/monitoring-guidelines.md) |
+| [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) | [監視のガイドライン](production/using/monitoring-guidelines.md) |

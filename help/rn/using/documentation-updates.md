@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic ドキュメントのアップデート
-description: このページでは、Adobe Campaign Classicの各リリースの新機能とドキュメントの更新をリストします
+description: このページには、Adobe Campaign Classic の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています
 audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d595f41dd2b0cbf042ab768ae5897cc5ac240bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3647'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,23 +23,23 @@ ht-degree: 95%
 
 ## 2020 年 11 月 {#nov-2020}
 
-キャンペーンデータモデルの概要が改善され、再構成されました。 [詳細を表示](../../configuration/using/about-data-model.md)。
+Campaign データモデルの概要が改善され、再構成されました。 [詳細を表示](../../configuration/using/about-data-model.md)。
 
-外部アカウント設定は [このセクションに移動されました](../../installation/using/external-accounts.md)。
+外部アカウント設定は[この節](../../installation/using/external-accounts.md)に移動されました。
 
-キャンペーンFederated Data Access(FDA)のドキュメントが改善され、各外部データベース設定の詳細が追加され、 [このセクションに移りました](../../installation/using/about-fda.md)。
+Campaign Federated Data Access（FDA）のドキュメントが改善され、各外部データベース設定の詳細が追加され、[この節](../../installation/using/about-fda.md)に移りました。
 
 [Campaign 20.2.3 リリース](../../rn/using/release--20-2.md#release-20-2-3-build-9182)は一般提供（GA）に移行しました。
 
-The Privacy section has been moved and enriched with two new pages: [Privacy management](../../platform/using/privacy-management.md) and [Managing privacy requests](../../platform/using/privacy-requests.md).
+プライバシー節は移動し、[プライバシー管理](../../platform/using/privacy-management.md) および[プライバシーリクエストの管理](../../platform/using/privacy-requests.md)の 2 つの新しいページが追加されました。
 
-ミッドソーシングサーバの設定ページに、外部アカウントの内部名を一旦設定した後に更新しないように指定する注記が追加されました。 [詳細を表示](../../installation/using/mid-sourcing-server.md)
+ミッドソーシングサーバーの設定ページに、外部アカウントの内部名を設定した後に更新しないように明記する注記が追加されました。 [詳細を表示](../../installation/using/mid-sourcing-server.md)
 
-外部SFTPサーバーへのパスを指定する際に使用する構文に関する情報が追加されました。 [詳細を表示](../../platform/using/sftp-server-usage.md#external-SFTP-server)
+外部 SFTP サーバーへのパスを指定する際に使用する構文に関する情報が追加されました。 [詳細を表示](../../platform/using/sftp-server-usage.md#external-SFTP-server)
 
-「個人データと個人」セクションには、プライバシーに関して様々な個人がどのように関わっているかを示すユースケースシナリオが更新されました。 [詳細を表示](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
+個人データとペルソナ節には、プライバシーに関して様々な個人がどのように関わっているかを示す、使用例のシナリオが追加更新されています。 [詳細を表示](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
 
-プライバシーに関するよくある質問の一覧を記載した新しい節を追加しました。 [詳細を表示](../../platform/using/privacy-faq.md)
+プライバシーに関するよくある質問の一覧を記載した、新しい節を追加しました。 [詳細を表示](../../platform/using/privacy-faq.md)
 
 ## 2020 年 10 月 {#oct-2020}
 

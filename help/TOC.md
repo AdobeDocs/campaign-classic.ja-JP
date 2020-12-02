@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
 workflow-type: tm+mt
 source-wordcount: '2179'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 97%
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
       + [プライバシーの管理](platform/using/privacy-management.md)
       + [プライバシーリクエスト](platform/using/privacy-requests.md)
-      + [プライバシーFAQ](platform/using/privacy-faq.md)
+      + [プライバシー FAQ](platform/using/privacy-faq.md)
    + プロファイル管理 {#profile-management}
       + [プロファイルについて](platform/using/about-profiles.md)
       + [プロファイルの編集](platform/using/editing-a-profile.md)
@@ -576,7 +576,7 @@ ht-degree: 97%
    + 付録 {#annexes}
       + [Facebook アプリの例](social/using/examples-of-facebook-apps.md)
       + [トラッキング](social/using/tracking.md)
-+ インストールと設定のガイド {#installing-campaign-classic}
++ インストールおよび設定ガイド {#installing-campaign-classic}
    + アーキテクチャの原則 {#architecture-and-hosting-models}
       + [一般的なアーキテクチャ](installation/using/general-architecture.md)
       + ホスティングのモデル{#hosting-models-lp}
@@ -626,17 +626,17 @@ ht-degree: 97%
       + [インタラクション - データバッファ](installation/using/interaction---data-buffer.md)
       + [外部アカウントの設定](installation/using/external-accounts.md)
    + 外部データベースへのアクセス {#accessing-external-database}
-      + [FDAの概要](installation/using/about-fda.md)
+      + [FDA の基本を学ぶ](installation/using/about-fda.md)
       + 設定のガイドライン {#config-databases}
          + [設定の手順](installation/using/configure-fda.md)
-         + [Snowflakeの設定](installation/using/configure-fda-snowflake.md)
-         + [azure synapseの設定](installation/using/configure-fda-synapse.md)
-         + [hadoopの設定](installation/using/configure-fda-hadoop.md)
-         + [oracleの設定](installation/using/configure-fda-oracle.md)
-         + [netezzaの設定](installation/using/configure-fda-netezza.md)
-         + [sybase IQの設定](installation/using/configure-fda-sybase.md)
-         + [teradataの設定](installation/using/configure-fda-teradata.md)
-         + [SAP HANAの設定](installation/using/configure-fda-sap-hana.md)
+         + [Snowflake の設定](installation/using/configure-fda-snowflake.md)
+         + [Azure Synapse の設定](installation/using/configure-fda-synapse.md)
+         + [Hadoop の設定](installation/using/configure-fda-hadoop.md)
+         + [Oracle の設定](installation/using/configure-fda-oracle.md)
+         + [Netezza の設定](installation/using/configure-fda-netezza.md)
+         + [Sybase IQ の設定](installation/using/configure-fda-sybase.md)
+         + [Teradata の設定](installation/using/configure-fda-teradata.md)
+         + [SAP HANA の設定](installation/using/configure-fda-sap-hana.md)
       + [リモートアクセス権](installation/using/remote-database-access-rights.md)
       + [データベースへの接続](installation/using/connecting-to-database.md)
       + [データスキーマの作成](installation/using/creating-data-schema.md)

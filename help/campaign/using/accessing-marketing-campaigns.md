@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign に接続すると、ホームページが表示されます。
 * **キャンペーンカレンダー**：プラン、マーケティングプログラム、配信およびキャンペーンのカレンダーです。[キャンペーンカレンダー](#campaign-calendar)を参照してください。
 * **キャンペーン**：すべてのマーケティングプログラムに含まれるキャンペーンにアクセスします。
 * **配信**：キャンペーンにリンクされた配信にアクセスします。
-* **Web アプリケーション**：Web アプリケーション（フォーム、調査など）にアクセスします。
+* **Web アプリケーション**:webアプリケーション(フォーム、調査など)へのアクセス
 
 >[!NOTE]
 >
@@ -162,7 +162,7 @@ Adobe Campaign では、予算、ターゲット、コンテンツなどを承�
 
    ![](assets/s_ncs_user_interface_web_campaign_01.png)
 
-（ターゲットや配信コンテンツなどの）承認は、Web アクセスから実行できます。
+承認(ターゲットや配信コンテンツなど)は、Webアクセスを介して実行できます。
 
 ![](assets/campaign_web_interface_validation.png)
 

@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 97e039e48068e3862bc6640711efe54f21fc0f15
+source-git-commit: 8ff5450cc35153e61048c2671f6d52fbc5ffc5b9
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 92%
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 # プライバシー管理 {#privacy-management}
 
-Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
+Adobe Campaignオファーは、[プライバシー規制](#privacy-management-regulations)（GDPR、CCPA、PDPA、LGPDを含む）に準拠するのに役立つ一連のツールを提供します。
 
 GDPRや他のプライバシー規制に対する対応を確保するために、Adobe Campaignが提供する5つの主な機能を次に示します。
 
@@ -27,7 +27,7 @@ GDPRや他のプライバシー規制に対する対応を確保するために�
 
 * **削除権**
 
-詳しくは、「アクセス [権」および「忘れられる権利](#right-access-forgotten)」を参照してください。
+詳しくは、[アクセス権と忘れられる権利](#right-access-forgotten)を参照してください。
 
 * **同意管理**
 
@@ -35,7 +35,7 @@ GDPRや他のプライバシー規制に対する対応を確保するために�
 
 * **権限管理**
 
-詳しくは、「 [同意、保持、役割](#consent-retention-roles)」を参照してください。
+詳しくは、[同意、リテンション、役割](#consent-retention-roles)を参照してください。
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
@@ -43,11 +43,11 @@ It also contains information on important features to manage Privacy ([Consent, 
 
 ## プライバシー管理に関する規制 {#privacy-management-regulations}
 
-Adobe Campaign の機能は、次の規制の遵守に役立ちます。
+Adobe Campaign の機能は、次の規則の遵守に役立ちます。
 
 * **GDPR**（[EU 一般データ保護規則](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）は欧州連合（EU）で施行されるプライバシー保護法律で、EU 諸国のデータ保護要件を現代の状況に合わせて整合化することを目的としています。
 * **CCPA**（[カリフォルニア州消費者プライバシー法](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)）は、カリフォルニア州民に個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスをおこなう特定の事業者に対してデータ保護の責任を課します。
-* **PDPA**（[Personal Data Protection Act、個人情報保護法](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)）は、新しいプライバシー法で、タイのデータ保護要件を現代の状況に合わせて整合化することを目的としています。
+* **PDPA**（[個人情報保護法](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)）は、新しいプライバシー法で、タイのデータ保護要件を現代の状況に合わせて整合化することを目的としています。
 * **LGPD**（[Lei Geral de Proteção de Dados、一般データ保護法](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)）は、2021 年前半から適用され、ブラジルで個人データを収集および処理するすべての会社に対して有効となります。
 
 これらすべての規則は、前述の各地域または国（EU、米国カリフォルニア州、タイ、ブラジル）に居住するデータ主体のデータを保持する Adobe Campaign のお客様に適用されます。
@@ -58,13 +58,13 @@ Adobe Campaign の機能は、次の規制の遵守に役立ちます。
 >
 >個人データおよびデータを管理する様々なエンティティ（データ管理者、データ処理者、データ主体）について詳しくは、[個人データとペルソナ](../../platform/using/privacy-and-recommendations.md#personal-data)を参照してください。
 
-## アクセスする権利と忘れられる権利 {#right-access-forgotten}
+## アクセスする権限と忘れられる権利 {#right-access-forgotten}
 
-Adobe Campaign では、プライバシー対応の一環として、**アクセス**&#x200B;リクエストと&#x200B;**削除**&#x200B;リクエストの処理が可能です。
+プライバシーの準備を容易にするために、Adobe Campaign では&#x200B;**アクセス**&#x200B;要求と&#x200B;**削除**&#x200B;要求の処理が可能になりました。
 
 * **アクセスする権利**&#x200B;とは、データ主体がデータ管理者に対し、自分に関する個人データが処理されているかどうか、また処理されている場合はその場所と目的について確認できることを指します。データ管理者は、個人データのコピーを電子形式で無償提供する必要があります。
 
-* **忘れられる権利**（削除要求）とは、データの完全消去とも呼ばれるもので、データ主体はデータ管理者に対して、自分の個人データの消去、および第三者によるデータ処理を防止するために、データ拡散の停止を指示できることを指します。
+* **忘れられる権利**（削除要求）とは、データ消去とも呼ばれるもので、データ主体はデータ管理者に対して、自分の個人データの消去、および第三者によるデータ処理を防止するために、データ拡散の停止を指示できることを指します。
 
 **アクセス**&#x200B;リクエストと&#x200B;**削除**&#x200B;リクエストの作成方法、および Adobe Campaign によるリクエストの処理方法については、[実装手順](../../platform/using/privacy-requests.md)を参照してください。
 
@@ -73,7 +73,7 @@ https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/tutorials/p
 
 ## 同意、リテンション、役割 {#consent-retention-roles}
 
-最近導入された&#x200B;**アクセスする権利**&#x200B;と&#x200B;**忘れられる権利**&#x200B;の各機能の他にも、Adobe Campaign はプライバシーに必要な重要機能を各種用意しています。
+新しく導入された&#x200B;**アクセスする権利**&#x200B;と&#x200B;**忘れられる権利**&#x200B;の他にも、Adobe Campaign はプライバシーに必要な重要機能を各種用意しています。
 
 * [同意管理](#consent-management)：環境設定管理用の購読機能
 * [データリテンション](#data-retention)：すべての標準ログテーブルのデータリテンション期間。リテンション期間の追加はワークフローで設定可能
@@ -89,7 +89,7 @@ https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/tutorials/p
 
 同意の管理について詳しくは、[詳細なドキュメント](../../delivery/using/managing-subscriptions.md)を参照してください。
 
-Adobe Campaign が提供する同意管理ツールに加えて、消費者が個人情報の販売をオプトアウトしたかどうかをトラッキングすることもできます。[こちらの節](../../platform/using/privacy-requests.md##sale-of-personal-information-ccpa)を参照してください。
+Adobe Campaign が提供する同意管理ツールに加えて、消費者が個人情報の販売をオプトアウトしたかどうかをトラッキングすることもできます。[こちらの節](../../platform/using/privacy-requests.md#sale-of-personal-information-ccpa)を参照してください。
 
 ### データリテンション {#data-retention}
 
@@ -117,7 +117,7 @@ Campaign の組み込みログテーブルには保持期間がプリセット�
 
 Adobe Campaign では、事前作成された役割またはカスタムの役割を使用して、様々な Campaign オペレーターに割り当てられている権限を管理できます。
 
-その利点のひとつとして、各種類のデータについて社内のどのユーザーがアクセスできるかを管理できることがあげられます。例えば、様々な地域を複数のマーケッターで担当している場合に、各マーケッターが自分の担当地域からのみデータにアクセスできるようにすることが可能です。
+その利点の 1 つとして、各種類のデータについて社内のどのユーザーがアクセスできるかを管理できることが挙げられます。例えば、様々な地域を複数のマーケターで担当している場合に、各マーケターが自分の担当地域からのみデータにアクセスできるようにすることが可能です。
 
 同様に、ユーザーごとに各種の機能を設定することができます。例えば、配信の送信者を限定することができます。また、プライバシーの管理に関して言えば、データの変更やエクスポートをできるユーザーを限定することもできます。
 

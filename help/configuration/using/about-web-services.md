@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 5%
@@ -17,16 +17,16 @@ ht-degree: 5%
 
 # Web サービスについて{#about-web-services}
 
-## Adobe CampaignAPIの定義 {#definition-of-adobe-campaign-apis}
+## Adobe CampaignAPIの定義{#definition-of-adobe-campaign-apis}
 
 Adobe Campaign・アプリケーション・サーバは、ますます多様化し、複雑な会社情報システムとのオープン性と容易な統合を実現するように設計されています。
 
-Adobe CampaignAPIは、アプリケーション内のJavaScriptと、その外部のSOAPで使用されます。 これらは、強化できる汎用関数のライブラリを構成しています。 詳しくは、「SOAPメソッドの [実装](../../configuration/using/implementing-soap-methods.md)」を参照してください。
+Adobe CampaignAPIは、アプリケーション内のJavaScriptと、その外部のSOAPで使用されます。 これらは、強化できる汎用関数のライブラリを構成しています。 詳しくは、[SOAPメソッドの実装](../../configuration/using/implementing-soap-methods.md)を参照してください。
 
 >[!IMPORTANT]
 >
 >1日あたりの認定エンジン呼び出し数は、ライセンス契約によって異なります。 詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-classic---product-description.html)を参照してください。\
->すべてのAPIのリスト（詳細な説明を含む）は、 [この専用ドキュメントで入手できます](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)。
+>すべてのAPIのリスト（詳細な説明を含む）は、[この専用ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)で入手できます。
 
 ## 前提条件 {#prerequisites}
 
@@ -36,14 +36,14 @@ Adobe CampaignAPIを使用する前に、次のトピックに関する知識が
 * SOAPプロトコル
 * Adobe Campaignデータモデル
 
-## Using Adobe Campaign APIs {#using-adobe-campaign-apis}
+## Adobe CampaignAPI {#using-adobe-campaign-apis}を使用する
 
 Adobe Campaignでは、次の2種類のAPIを使用します。
 
-* 汎用データは、データモデルデータをクエリするためのAPIにアクセスします。 詳しくは、 [データ指向APIを参照してください](../../configuration/using/data-oriented-apis.md)。
-* 各オブジェクトに対して操作を行えるビジネス固有のAPI:配信、ワークフロー、購読など 「 [ビジネス指向API](../../configuration/using/business-oriented-apis.md)」を参照してください。
+* 汎用データは、データモデルデータをクエリするためのAPIにアクセスします。 [データ指向API](../../configuration/using/data-oriented-apis.md)を参照してください。
+* 各オブジェクトに対して操作を行えるビジネス固有のAPI:配信、ワークフロー、購読など [ビジネス指向API](../../configuration/using/business-oriented-apis.md)を参照。
 
-APIを開発し、Adobe Campaignとやり取りするには、データモデルに精通している必要があります。 Adobe Campaignを使用すると、基本の完全な説明を生成できます。 「モデルの [説明](../../configuration/using/data-oriented-apis.md#description-of-the-model)」を参照してください。
+APIを開発し、Adobe Campaignとやり取りするには、データモデルに精通している必要があります。 Adobe Campaignを使用すると、基本の完全な説明を生成できます。 [モデル](../../configuration/using/data-oriented-apis.md#description-of-the-model)の説明を参照してください。
 
 ## SOAP 呼び出し {#soap-calls}
 
@@ -58,23 +58,23 @@ SOAPメッセージの構造は次のとおりです。
 * 呼び出しと応答に関する情報を含む本文
 * エラー条件を定義するエラー管理。
 
-## リソースと交換 {#resources-and-exchanges}
+## リソースと交換{#resources-and-exchanges}
 
 次のスキーマは、Adobe CampaignAPIの使用に関する様々なリソースを示しています。
 
 ![](assets/s_ncs_integration_webservices_schema_pres.png)
 
-## &#39;ExecuteQuery&#39;メソッドでのSOAPメッセージの例 {#example-of-a-soap-message-on-the--executequery--method--}
+## &#39;ExecuteQuery&#39;メソッド{#example-of-a-soap-message-on-the--executequery--method--}でのSOAPメッセージの例
 
 この例では、SOAPクエリが「ExecuteQuery」メソッドを呼び出します。このメソッドは、クエリ（セッショントークン）のパラメーターとして文字列を、実行する認証の説明としてXMLコンテンツを取ります。
 
-詳しくは、ExecuteQuery (xtk:queryDef)を参照し [てください](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-)。
+詳しくは、[ExecuteQuery (xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-)を参照してください。
 
 >[!NOTE]
 >
->このサービスのWSDL説明は、次の例のように入力されています。 [Webサービスの説明：WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl)。
+>このサービスのWSDL説明は、次の例のように入力されています。[Webサービスの説明：WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
 
-### SOAPクエリ {#soap-query}
+### SOAPクエリ{#soap-query}
 
 ```
 <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -92,15 +92,15 @@ SOAPメッセージの構造は次のとおりです。
 </SOAP-ENV:Envelope>
 ```
 
-要素は、SOAPエンベロープを表すメッセージの最初の要素です。 `<soap-env:envelope>`
+`<soap-env:envelope>`要素は、SOAPエンベロープを表すメッセージの最初の要素です。
 
-要素は、エンベロープの最初の子要素です。 `<soap-env:body>` メッセージの説明(クエリの内容や応答など)が含まれます。
+`<soap-env:body>`要素は、エンベロープの最初の子要素です。 メッセージの説明(クエリの内容や応答など)が含まれます。
 
-呼び出すメソッドは、SOAPメッセージの本文から `<executequery>` 要素に入力されます。
+呼び出すメソッドは、SOAPメッセージの本文の`<executequery>`要素に入力されます。
 
-SOAPでは、パラメーターは外観の順序で認識されます。 最初のパラメーター `<__sessiontoken>`は認証チェーンを受け取り、2番目のパラメーターは `<querydef>` 要素からのクエリのXML記述です。
+SOAPでは、パラメーターは外観の順序で認識されます。 最初のパラメーター`<__sessiontoken>`は認証チェーンを受け取り、2番目のパラメーターは`<querydef>`要素からのクエリのXML記述です。
 
-### SOAP応答 {#soap-response}
+### SOAP応答{#soap-response}
 
 ```
 <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -115,7 +115,7 @@ SOAPでは、パラメーターは外観の順序で認識されます。 最初
 </SOAP-ENV:Envelope>
 ```
 
-クエリの結果は、要素から入力され `<pdomoutput>` ます。
+クエリの結果は`<pdomoutput>`要素から入力されます。
 
 ## エラー管理 {#error-management}
 
@@ -135,9 +135,9 @@ ODBC error: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has bee
 </SOAP-ENV:Envelope>
 ```
 
-SOAPメッセージの本文内の `<soap-env:fault>` 要素は、Webサービスの処理中に発生するエラー信号を伝えるために使用されます。 これは、次のサブ要素で構成されます。
+SOAPメッセージの本文の`<soap-env:fault>`要素は、Webサービスの処理中に発生するエラー信号を伝えるために使用されます。 これは、次のサブ要素で構成されます。
 
-* `<faultcode>` :は、エラーのタイプを示します。 次に、エラータイプを示します。
+* `<faultcode>` :は、エラーのタイプを示します。次に、エラータイプを示します。
 
    * 使用されるSOAPバージョンとの非互換性のイベントに「VersionMismatch」がある。
    * メッセージヘッダー内の問題のイベントに「MustUnderstand」が含まれている場合、
@@ -147,7 +147,7 @@ SOAPメッセージの本文内の `<soap-env:fault>` 要素は、Webサービ�
 * `<faultstring>` :エラーを説明するメッセージ
 * `<detail>` :長いエラーメッセージ
 
-サービス呼び出しの成功または失敗は、 `<faultcode>` 要素が検証されるときに識別されます。
+サービス呼び出しの成功または失敗は、`<faultcode>`要素が検証されると識別されます。
 
 >[!IMPORTANT]
 >
@@ -169,7 +169,7 @@ catch (SoapException e)
 }
 ```
 
-## Webサービスサーバー（またはEndPoint）のURL {#url-of-web-service-server--or-endpoint-}
+## Webサービスサーバー（またはEndPoint） {#url-of-web-service-server--or-endpoint-}のURL
 
 Webサービスを送信するには、対応するサービスメソッドを実装するAdobe Campaignサーバーに接続する必要があります。
 
@@ -177,4 +177,4 @@ Webサービスを送信するには、対応するサービスメソッドを�
 
 https://serverName/nl/jsp/soaprouter.jsp
 
-Adobe Campaign **`<server>`** アプリケーションサーバー(**nlserver web**)を使用する場合。
+**`<server>`**&#x200B;でAdobe Campaignアプリケーションサーバー(**nlserver web**)

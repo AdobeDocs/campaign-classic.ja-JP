@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6d0ae3d597f9ee30515437d94901cb034d0ca3d5
 workflow-type: tm+mt
-source-wordcount: '3612'
-ht-degree: 5%
+source-wordcount: '3633'
+ht-degree: 4%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->これらの設定は、管理者が実行する必要があります。また、 **オンプレミス** ホスティングモデルに対してのみ実行する必要があります。
+>これらの設定は、管理者と&#x200B;**オンプレミス**&#x200B;ホスティングモデルに対してのみ実行する必要があります。
 >
->**ホストされた** デプロイメントの場合、サーバー側の設定はAdobeのみが設定できます。 ただし、Campaign コントロールパネル内で設定できる設定(IP許可リスト管理やURL権限など)もあります。
+>**ホストされる**&#x200B;デプロイメントの場合、Adobe側の設定はサーバーでのみ構成できます。 ただし、Campaign コントロールパネル内で設定できる設定(IP許可リスト管理やURL権限など)もあります。
 
 詳しくは、次の節を参照してください。
 
@@ -32,20 +32,20 @@ ht-degree: 5%
 * [Campaign Classicオンプレミスおよびホステッド機能マトリックス](../../installation/using/capability-matrix.md)
 * [ハイブリッドモデルとホストモデルの設定手順](../../installation/using/hosting-models.md)
 
-Campaign Classic設定ファイルは、Adobe Campaignのインストールフォルダーの **conf** フォルダーに保存されます。 設定は2つのファイルに分かれています。
+Campaign Classic構成ファイルは、Adobe Campaignのインストールフォルダーの&#x200B;**conf**&#x200B;フォルダーに保存されます。 設定は2つのファイルに分かれています。
 
-* **serverConf.xml**:すべてのインスタンスの一般設定。 このファイルは、Adobe Campaignサーバーの技術的なパラメーターを組み合わせたものです。これらはすべてのインスタンスで共有されます。 これらのパラメーターの一部については、以下で詳しく説明します。 この [節に示す様々なノードとパラメーター](../../installation/using/the-server-configuration-file.md)。
-* **config-`<instance>`.xml** ( **instance** はインスタンスの名前):インスタンスの特定の設定。 サーバを複数のインスタンス間で共有する場合は、各インスタンスに固有のパラメータを関連ファイルに入力してください。
+* **serverConf.xml**:すべてのインスタンスの一般設定。このファイルは、Adobe Campaignサーバーの技術的なパラメーターを組み合わせたものです。これらはすべてのインスタンスで共有されます。 これらのパラメーターの一部については、以下で詳しく説明します。 この[セクション](../../installation/using/the-server-configuration-file.md)に示す、様々なノードとパラメーター。
+* **config-`<instance>`.xml** ( **** instanceはインスタンスの名前):インスタンスの特定の設定。サーバを複数のインスタンス間で共有する場合は、各インスタンスに固有のパラメータを関連ファイルに入力してください。
 
-## セキュリティゾーンの定義 {#defining-security-zones}
+## セキュリティゾーンの定義{#defining-security-zones}
 
-### セキュリティゾーンについて {#about-security-zones}
+### セキュリティゾーンについて{#about-security-zones}
 
 各オペレーターは、インスタンスにログオンするためにゾーンにリンクされている必要があります。また、セキュリティゾーンに定義されているアドレスまたはアドレスセットに、オペレーターIPを含める必要があります。 セキュリティゾーンの設定は、Adobe Campaignサーバーの設定ファイルで行われます。
 
-演算子は、コンソールのプロファイル( **[!UICONTROL 管理/アクセス管理/演算子]** ノード)からセキュリティゾーンにリンクされます。 この節では、ゾーンをキャンペーン演算子にリンクする方法 [について説明します](#linking-a-security-zone-to-an-operator)。
+演算子は、コンソールのプロファイル（**[!UICONTROL 管理/アクセス管理/演算子]**&#x200B;ノード）からセキュリティゾーンにリンクされます。 [このセクション](#linking-a-security-zone-to-an-operator)で、ゾーンをキャンペーン演算子にリンクする方法を説明します。
 
-### セキュリティゾーンの作成 {#creating-security-zones}
+### セキュリティゾーンの作成{#creating-security-zones}
 
 ゾーンは次の方法で定義します。
 
@@ -54,7 +54,7 @@ Campaign Classic設定ファイルは、Adobe Campaignのインストールフ�
 
 セキュリティゾーンは相互にロックされています。つまり、別のゾーンに新しいゾーンを定義すると、各オペレータに割り当てられる権限を増やしながら、そのゾーンにログオンできるオペレータの数が減ります。
 
-ゾーンは、サーバーの構成時に、 **serverConf.xml** ファイルで定義する必要があります。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
+ゾーンは、サーバーの構成時に、**serverConf.xml**&#x200B;ファイルで定義する必要があります。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 各ゾーンは、次のような権限を定義します。
 
@@ -66,16 +66,16 @@ Campaign Classic設定ファイルは、Adobe Campaignのインストールフ�
 
 >[!NOTE]
 >
->**各演算子はゾーンにリンクする必要があります**。 演算子のIPアドレスがゾーンで定義された範囲に属する場合、演算子はインスタンスにログオンできます。\
->オペレータのIPアドレスは、複数のゾーンで定義できます。 この場合、オペレータは、各ゾーンに対する使用可能な **一連の権限を受け取ります** 。
+>**各演算子はゾーンにリンクする必要があります**。演算子のIPアドレスがゾーンで定義された範囲に属する場合、演算子はインスタンスにログオンできます。\
+>オペレータのIPアドレスは、複数のゾーンで定義できます。 この場合、演算子は各ゾーンに対する使用可能な権限の&#x200B;**set**&#x200B;を受け取ります。
 
-標準搭載の **serverConf.xmlファイルには、次の3つのゾーンが含まれています** 。 **public、VPN、およびLAN**。
+標準搭載の&#x200B;**serverConf.xml**&#x200B;ファイルには、次の3つのゾーンが含まれています。**パブリック、VPN、およびLAN**。
 
 >[!NOTE]
 >
->**そのまま使用できる設定は安全です**。 ただし、以前のバージョンのAdobe Campaignから移行する前に、新しいルールを移行して承認するために、セキュリティを一時的に低減する必要がある場合があります。
+>**そのまま使用できる設定は安全です**。ただし、以前のバージョンのAdobe Campaignから移行する前に、新しいルールを移行して承認するために、セキュリティを一時的に低減する必要がある場合があります。
 
-serverConf.xml **ファイルでゾーンを定義する方法の例を次に示します** 。
+**serverConf.xml**&#x200B;ファイル内にゾーンを定義する方法の例：
 
 ```
 <securityZone allowDebug="false" allowHTTP="false" label="Public Network" name="public">
@@ -110,13 +110,13 @@ serverConf.xml **ファイルでゾーンを定義する方法の例を次に示
 
 >[!IMPORTANT]
 >
->ゾーン定義では、 **true** 値を持つ各属性によってセキュリティが低下します。
+>ゾーン定義では、**true**&#x200B;値を持つ各属性によってセキュリティが低下します。
 
-Message Centerを使用する場合、複数の実行インスタンスが存在する場合は、 **sessionTokenOnly** 属性を **** trueに定義して追加のセキュリティゾーンを作成する必要があります。ここでは、必要なIPアドレスのみを追加します。 インスタンスの設定の詳細については、 [このドキュメントを参照してください](../../message-center/using/creating-a-shared-connection.md)。
+Message Centerを使用する場合、複数の実行インスタンスが存在する場合は、**sessionTokenOnly**&#x200B;属性が&#x200B;**true**&#x200B;に定義された追加のセキュリティゾーンを作成する必要があります。ここでは、必要なIPアドレスのみを追加します。 インスタンスの設定について詳しくは、[このドキュメント](../../message-center/using/creating-a-shared-connection.md)を参照してください。
 
-### セキュリティゾーンのベストプラクティス {#best-practices-for-security-zones}
+### セキュリティゾーンのベストプラクティス{#best-practices-for-security-zones}
 
-LAN **** セキュリティゾーンの定義では、技術アクセスを定義するIPアドレスマスクを追加できます。 この追加により、サーバーでホストされているすべてのインスタンスにアクセスできます。
+**lan**&#x200B;セキュリティゾーンの定義では、技術的なアクセスを定義するIPアドレスマスクを追加できます。 この追加により、サーバーでホストされているすべてのインスタンスにアクセスできます。
 
 ```
 <securityZone allowDebug="true" allowEmptyPassword="false" allowHTTP="true"
@@ -137,7 +137,7 @@ LAN **** セキュリティゾーンの定義では、技術アクセスを定�
 
 IPアドレスの範囲は、特定のインスタンスにのみアクセスする演算子のインスタンス専用の設定ファイルに直接定義することをお勧めします。
 
-フ **`config-<instance>.xml`** ァイル内：
+**`config-<instance>.xml`**&#x200B;ファイル内：
 
 ```
   <securityZone name="public">
@@ -146,9 +146,9 @@ IPアドレスの範囲は、特定のインスタンスにのみアクセスす
       <subNetwork id="cus1" mask="a.b.c.d/xx"/>
 ```
 
-### セキュリティゾーンのサブネットワークとプロキシ {#sub-networks-and-proxies-in-a-security-zone}
+### セキュリティゾーン{#sub-networks-and-proxies-in-a-security-zone}のサブネットワークとプロキシ
 
-この **proxy** パラメーターは、 **subNetwork** 要素で使用して、セキュリティゾーンでのプロキシの使用を指定できます。
+**proxy**&#x200B;パラメーターは、**subNetwork**&#x200B;要素で使用して、セキュリティゾーンでのプロキシの使用を指定できます。
 
 プロキシが参照され、接続がこのプロキシ経由で入る場合（HTTP X-Forwarded-Forヘッダー経由で表示される）、有効なゾーンはプロキシのクライアントのものであり、プロキシのものではありません。
 
@@ -158,7 +158,7 @@ IPアドレスの範囲は、特定のインスタンスにのみアクセスす
 >
 >さらに、リレーはプロキシと同じように生成されます。 したがって、IPアドレス127.0.0.1は、セキュリティゾーン構成のプロキシのリストに追加できます。
 >
->For example: &quot; `<subnetwork label="Lan 1" mask="192.168.0.0/16" name="lan1" proxy="127.0.0.1,10.100.2.135" />`&quot;.
+>次に例を示します。&quot; `<subnetwork label="Lan 1" mask="192.168.0.0/16" name="lan1" proxy="127.0.0.1,10.100.2.135" />`&quot;と入力します。
 
 様々なケースが発生します。
 
@@ -174,7 +174,7 @@ IPアドレスの範囲は、特定のインスタンスにのみアクセスす
 
    ![](assets/8101_proxy3.png)
 
-Adobe Campaignサーバーにアクセスする可能性が高いプロキシのIPアドレスは、関連するサブネットワークと第1レベルのサブネットワークの両方に入力する必要 **`<subnetwork>`** があり **`<subnetwork name="all"/>`**&#x200B;ます。 例えば、IPアドレスが10.131.146.102のプロキシの場合、次のようになります。
+Adobe Campaignサーバーにアクセスする可能性の高いプロキシのIPアドレスは、**`<subnetwork>`**&#x200B;と第1レベルのサブネットワーク&#x200B;**`<subnetwork name="all"/>`**&#x200B;の両方に入力する必要があります。 例えば、IPアドレスが10.131.146.102のプロキシの場合、次のようになります。
 
 ```
 <securityZone allowDebug="false" allowHTTP="false" label="Public Network" 
@@ -201,45 +201,45 @@ Adobe Campaignサーバーにアクセスする可能性が高いプロキシの
 
 ゾーンを定義したら、各演算子を1つのインスタンスにログオンできるように、いずれかの演算子にリンクする必要があります。また、演算子のIPアドレスを、ゾーンで参照されるアドレスまたはアドレスの範囲に含める必要があります。
 
-ゾーンの技術的な構成は、キャンペーンサーバーの構成ファイルで行います。 **serverConf.xml**.
+ゾーンの技術的な構成は、キャンペーンサーバーの構成ファイルで行います。**serverConf.xml**.
 
-この操作を行う前に、標準搭載された **[!UICONTROL Security zone]** 定義済みリストを設定して、ラベルを **** serverConf.xmlファイルで定義されたゾーンの内部名にリンクするように開始する必要があります。
+これに先立って、**[!UICONTROL セキュリティゾーン]**&#x200B;定義済みリストを設定し、**serverConf.xml**&#x200B;ファイルで定義されたゾーンの内部名にラベルをリンクするように開始する必要があります。
 
 この設定は、キャンペーンエクスプローラーで行います。
 
-1. 「 **[!UICONTROL 管理/プラットフォーム/定義済みリスト]** 」ノードをクリックします。
-1. 「 **[!UICONTROL Security zone (securityZone)]** 」システム定義済みリストを選択します。
+1. **[!UICONTROL 管理/プラットフォーム/定義済みリスト]**&#x200B;ノードをクリックします。
+1. **[!UICONTROL セキュリティゾーン(securityZone)]**&#x200B;システム定義済みリストを選択します。
 
    ![](assets/enum_securityzone.png)
 
-1. サーバーの構成ファイルで定義されているセキュリティゾーンごとに、 **** 追加ボタンをクリックします。
-1. 「 **[!UICONTROL Internal name]** 」フィールドに、 **** serverConf.xmlファイルで定義されているゾーンの名前を入力します。 これは、 **要素の@name**`<securityzone>` 属性に対応します。 内部名にリンクされたラベルを「ラベル」 ****&#x200B;フィールドに入力します。
+1. サーバーの構成ファイルで定義されているセキュリティゾーンごとに、**[!UICONTROL 追加]**&#x200B;ボタンをクリックします。
+1. **[!UICONTROL Internal name]**&#x200B;フィールドに、**serverConf.xml**&#x200B;ファイルで定義されているゾーンの名前を入力します。 これは、`<securityzone>`要素の&#x200B;**@name**&#x200B;属性に対応します。 内部名にリンクされているラベルを&#x200B;**ラベル**&#x200B;フィールドに入力します。
 
    ![](assets/enum_addsecurityvalue.png)
 
 1. 「OK」をクリックし、変更を保存します。
 
-ゾーンを定義し、 **[!UICONTROL Security zone]** 定義済みリストを構成したら、各オペレータをセキュリティ・ゾーンにリンクする必要があります。
+ゾーンを定義し、**[!UICONTROL セキュリティゾーン]**&#x200B;定義済みリストを設定したら、各演算子をセキュリティゾーンにリンクする必要があります。
 
-1. [ **[!UICONTROL 管理] > [アクセス管理] > [演算子]** ]ノードをクリックします。
-1. セキュリティ・ゾーンをリンクするオペレータを選択し、「 **[!UICONTROL 編集]** 」タブをクリックします。
-1. 「 **[!UICONTROL アクセス権]** 」タブに移動し、「アクセスパラメータを **[!UICONTROL 編集…]** 」リンクをクリックします。
+1. **[!UICONTROL 管理/アクセス管理/演算子]**&#x200B;ノードをクリックします。
+1. セキュリティゾーンのリンク先の演算子を選択し、「**[!UICONTROL 編集]**」タブをクリックします。
+1. 「**[!UICONTROL アクセス権]**」タブに移動し、「**[!UICONTROL アクセスパラメーターの編集…」をクリックします。]**&#x200B;リンク。
 
    ![](assets/zone_operator.png)
 
-1. 「 **[!UICONTROL Authorized connection zone]** 」ドロップダウン・リストからゾーンを選択します。
+1. 「**[!UICONTROL Authorized connection zone]**」ドロップダウンリストからゾーンを選択します
 
    ![](assets/zone_operator_selection.png)
 
-1. 「 **[!UICONTROL OK]** 」をクリックし、変更を保存してこれらの変更を適用します。
+1. 「**[!UICONTROL OK]**」をクリックし、変更を保存してこれらの変更を適用します。
 
-## Tomcatの設定 {#configuring-tomcat}
+## Tomcatの設定{#configuring-tomcat}
 
-### Tomcatのデフォルトポート {#default-port-for-tomcat}
+### Tomcat {#default-port-for-tomcat}のデフォルトポート
 
-Tomcatサーバの8080リスニングポートが、設定に必要な別のアプリケーションで既にビジー状態になっている場合は、8080ポートを空きポート（8090など）に置き換える必要があります。 このファイルを変更するには、Adobe Campaignのインストールフォルダーの **/tomcat-8/conf** ディレクトリに保存されている **** server.xmlファイルを編集します。
+Tomcatサーバの8080リスニングポートが、設定に必要な別のアプリケーションで既にビジー状態になっている場合は、8080ポートを空きポート（8090など）に置き換える必要があります。 変更するには、Adobe Campaignのインストールフォルダーの&#x200B;**/tomcat-8/conf**&#x200B;ディレクトリに保存されている&#x200B;**server.xml**&#x200B;ファイルを編集します。
 
-次に、JSPリレーページのポートを変更します。 これを行うには、 **Adobe Campaignのインストールディレクトリの** /conf **** ディレクトリに保存されているserverConf.xmlファイルを変更します。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
+次に、JSPリレーページのポートを変更します。 これを行うには、Adobe Campaignインストールディレクトリの&#x200B;**/conf**&#x200B;ディレクトリに保存されている&#x200B;**serverConf.xml**&#x200B;ファイルを変更します。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 ```
 <serverConf>
@@ -248,9 +248,9 @@ Tomcatサーバの8080リスニングポートが、設定に必要な別のア�
    <url ... targetUrl="http://localhost:8090"...
 ```
 
-### Tomcatでのフォルダのマッピング {#mapping-a-folder-in-tomcat}
+### Tomcat {#mapping-a-folder-in-tomcat}でのフォルダのマッピング
 
-お客様固有の設定を定義するには、/tomcat-8/conf **コンテキストーに** user_folders.xmlファイルを作成します。このファイルには **コンテキスト.xml****** ファイルも含まれます。
+お客様固有の設定を定義するには、**/tomcat-8/conf**&#x200B;コンテキストーに&#x200B;**user_コンテキストー.xml**&#x200B;ファイルを作成します。このフォルダーには、**フォルダー.xml**&#x200B;ファイルも含まれます。
 
 このファイルには、次の種類の情報が含まれます。
 
@@ -260,21 +260,21 @@ Tomcatサーバの8080リスニングポートが、設定に必要な別のア�
 
 必要に応じて、この操作をサーバー側で再生できます。
 
-## 配信パラメーターの個人設定 {#personalizing-delivery-parameters}
+## 配信パラメータのパーソナライズ{#personalizing-delivery-parameters}
 
-配信パラメーターは、 **serverConf.xml設定ファイルで定義され** ます。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
+配信パラメーターは、**serverConf.xml**&#x200B;設定ファイルで定義されます。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
-一般的なサーバ設定とコマンドは、 [キャンペーンサーバの設定で詳しく説明します](../../installation/using/campaign-server-configuration.md)。
+一般的なサーバ設定とコマンドの詳細は、[キャンペーンサーバ設定](../../installation/using/campaign-server-configuration.md)を参照してください。
 
 必要に応じて、次の設定を行うこともできます。
 
-### SMTPリレー {#smtp-relay}
+### SMTPリレー{#smtp-relay}
 
 MTAモジュールは、SMTPブロードキャスト用のネイティブメール転送エージェント（ポート25）として機能する。
 
 ただし、セキュリティポリシーで必要な場合は、リレーサーバーで置き換えることができます。 その場合、グローバルスループットは、中継サーバのスループットがAdobe Campaignのスループットより低い場合に限り、中継サーバのスループットとなります。
 
-この場合、これらのパラメーターは、 **`<relay>`** セクションでSMTPサーバーを設定することで設定されます。 メールの転送に使用するSMTPサーバーのIPアドレス（またはホスト）と、それに関連付けられたポート（デフォルトで25）を指定する必要があります。
+この場合、これらのパラメーターは&#x200B;**`<relay>`**&#x200B;セクションでSMTPサーバーを設定することで設定されます。 メールの転送に使用するSMTPサーバーのIPアドレス（またはホスト）と、それに関連付けられたポート（デフォルトで25）を指定する必要があります。
 
 ```
 <relay address="192.0.0.3" port="25"/>
@@ -284,17 +284,17 @@ MTAモジュールは、SMTPブロードキャスト用のネイティブメー�
 >
 >この動作モードは、中継サーバ固有の性能（待ち時間、帯域など）が原因でスループットが大幅に低下する可能性があるので、配信に対する重大な制限を意味します。 また、（SMTPトラフィックの分析で検出される）同期配信エラーを認定する能力も限られ、中継サーバが使用できない場合は送信はできません。
 
-### MTA子プロセス {#mta-child-processes}
+### MTA子プロセス{#mta-child-processes}
 
-サーバのCPU電力と使用可能なネットワークリソースに応じてブロードキャストパフォーマンスを最適化するために、子プロセス（デフォルトではmaxSpareServers）の母集団を制御できます。 この設定は、個々のコンピューターのMTA設定の **`<master>`** セクションで行います。
+サーバのCPU電力と使用可能なネットワークリソースに応じてブロードキャストパフォーマンスを最適化するために、子プロセス（デフォルトではmaxSpareServers）の母集団を制御できます。 この設定は、各コンピュータのMTA設定の&#x200B;**`<master>`**&#x200B;セクションで行います。
 
 ```
 <master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">
 ```
 
-「 [電子メール送信の最適化](../../installation/using/email-deliverability.md#email-sending-optimization)」も参照してください。
+[Eメール送信の最適化](../../installation/using/email-deliverability.md#email-sending-optimization)も参照してください。
 
-### アフィニティを使用した送信SMTPトラフィックの管理 {#managing-outbound-smtp-traffic-with-affinities}
+### アフィニティ{#managing-outbound-smtp-traffic-with-affinities}を使用した送信SMTPトラフィックの管理
 
 >[!IMPORTANT]
 >
@@ -304,9 +304,9 @@ IPアドレスを持つアフィニティを介した送信SMTPトラフィッ�
 
 それには、次の手順に従います。
 
-1. serverConf.xml **`<ipaffinity>`** ファイルの **** セクションにアフィニティを入力します。
+1. **serverConf.xml**&#x200B;ファイルの&#x200B;**`<ipaffinity>`**&#x200B;セクションにアフィニティを入力します。
 
-   1つのアフィニティには、複数の異なる名前を付けることができます。これらを分けるには、次の構文を使用し **ます。** 文字。
+   1つのアフィニティには、複数の異なる名前を付けることができます。区切るには、**;**&#x200B;文字を使用します。
 
    例：
 
@@ -315,15 +315,15 @@ IPアドレスを持つアフィニティを介した送信SMTPトラフィッ�
              <IP address="XX.XXX.XX.XX" heloHost="myserver.us.campaign.net" publicId="123" excludeDomains="neo.*" weight="5"/
    ```
 
-   関連するパラメーターを表示するには、 **serverConf.xml** ファイルを参照してください。
+   関連するパラメーターを表示するには、**serverConf.xml**&#x200B;ファイルを参照してください。
 
-1. ドロップダウンリストでアフィニティの選択を有効にするには、IPAffinity **** 定義済みリストにアフィニティ名を追加する必要があります。
+1. ドロップダウンリストでアフィニティを選択できるようにするには、**IPAffinity**&#x200B;定義済みリストにアフィニティ名を追加する必要があります。
 
    ![](assets/ipaffinity_enum.png)
 
    >[!NOTE]
    >
-   >定義済みリストの詳細は [このドキュメント](../../platform/using/managing-enumerations.md)。
+   >定義済みリストは[このドキュメント](../../platform/using/managing-enumerations.md)で詳しく説明されています。
 
    次に示すように、タイポロジに使用するアフィニティを選択できます。
 
@@ -331,7 +331,7 @@ IPアドレスを持つアフィニティを介した送信SMTPトラフィッ�
 
    >[!NOTE]
    >
-   >また、 [配信サーバの設定を参照することもできます](../../installation/using/email-deliverability.md#delivery-server-configuration)。
+   >[配信サーバの設定](../../installation/using/email-deliverability.md#delivery-server-configuration)も参照できます。
 
 ## URL へのアクセス権限 {#url-permissions}
 
@@ -343,16 +343,16 @@ URL を追加すると、該当するインスタンスの設定ファイル（s
 
 URL権限を管理する方法は、ホスティングモデルに応じて異なります。
 
-* **ハイブリッド** または **オンプレミス**:許可するURLを **serverConf.xmlファイルに追加し**&#x200B;ます。 詳細は以下の節に記載されています。
-* **ホスト**: **Campaign コントロールパネル経由で許可するURLを追加します**。 詳しくは、[該当するドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/url-permissions.html)を参照してください。
+* **** Hybridor  **On-premise**:許可するURLを **serverConf.xmlファイルに追加し**&#x200B;ます。詳細は以下の節に記載されています。
+* **ホスト**: **Campaign コントロールパネル経由で許可するURLを追加します**。詳しくは、[該当するドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/url-permissions.html)を参照してください。
 
-**ハイブリッド** および **オンプレミスのホスティングモデルを使用する場合は、管理者は、** serverConf.xml **xmlファイルで新しいurlPermission****** を参照する必要があります。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
+**ハイブリッド**&#x200B;と&#x200B;**オンプレミス**&#x200B;のホスティングモデルを使用する場合、管理者は、**serverConf.xml**&#x200B;ファイルで新しい&#x200B;**urlPermission**&#x200B;を参照する必要があります。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 3 つの接続保護モードがあります。
 
-* **ブロック**:許可リストに属していないURLはすべてブロックされ、エラーメッセージが表示されます。 これは、ポストアップグレード後のデフォルトのモードです。
+* **ブロック**:許可リストに属していないURLはすべてブロックされ、エラーメッセージが表示されます。これは、ポストアップグレード後のデフォルトのモードです。
 * **権限設定**:許可リストに属していないURLはすべて許可されます。
-* **警告**:許可リストに属さないURLはすべて許可されますが、JSインタプリタは警告を出すので、管理者がそれらを収集できます。 このモードでは JST-310027 警告メッセージが追加されます。
+* **警告**:許可リストに属さないURLはすべて許可されますが、JSインタプリタは警告を出すので、管理者がそれらを収集できます。このモードでは JST-310027 警告メッセージが追加されます。
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -364,17 +364,17 @@ URL権限を管理する方法は、ホスティングモデルに応じて異�
 
 >[!IMPORTANT]
 >
->デフォルトでは、新規顧客のクライアントは **ブロッキングモードを使用します**。 新しいURLを許可する必要がある場合は、管理者に問い合わせて許可リストにURLを追加する必要があります。
+>デフォルトでは、新規顧客のクライアントは&#x200B;**ブロッキングモード**&#x200B;を使用します。 新しいURLを許可する必要がある場合は、管理者に問い合わせて許可リストにURLを追加する必要があります。
 >
->Existing customers coming from a migration can use the **warning mode** for a while. 一方、URLを承認する前に、送信トラフィックを分析する必要があります。 認証済みURLのリストが定義されたら、管理者に連絡して、URLを許可リストに追加し、 **ブロッキングモードをアクティブにする必要があります**。
+>移行を行う既存のお客様は、しばらくの間&#x200B;**警告モード**&#x200B;を使用できます。 一方、URLを承認する前に、送信トラフィックを分析する必要があります。 認証済みURLのリストが定義されたら、管理者に連絡して、URLを許可リストに追加し、**ブロックモード**&#x200B;をアクティブにする必要があります。
 
-## 動的なページセキュリティと中継 {#dynamic-page-security-and-relays}
+## 動的なページセキュリティとリレー{#dynamic-page-security-and-relays}
 
-By default, all dynamic pages are automatically related to the **local** Tomcat server of the machine whose Web module has started. この設定は、ServerConf.xmlフ **`<url>`** ァイルのクエリリレー設定の **** 節に入力します。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
+デフォルトでは、すべての動的ページは、Webモジュールが起動したマシンの&#x200B;**ローカル** Tomcatサーバーに自動的に関連付けられます。 この設定は、**ServerConf.xml**&#x200B;ファイルのクエリリレー設定の&#x200B;**`<url>`**&#x200B;セクションに入力されます。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
-動的ページの実行を **リモート** ・サーバ上で中継する。を返します。 これを行うには、 **localhost** をJSPおよびJSSP、Web アプリケーション、レポート、文字列用のリモートコンピューターの名前に置き換える必要があります。
+**リモート**&#x200B;サーバー上で動的ページの実行を中継するを返します。 これを行うには、**localhost**&#x200B;を、JSPおよびJSSP、Web アプリケーション、レポート、文字列用のリモートコンピューターの名前に置き換える必要があります。
 
-使用できる様々なパラメーターについて詳しくは、 **serverConf.xml設定ファイルを参照してください** 。
+使用可能な様々なパラメーターの詳細については、**serverConf.xml**&#x200B;設定ファイルを参照してください。
 
 JSPページの場合、デフォルト設定は次のとおりです。
 
@@ -396,7 +396,7 @@ Mobile Appチャネルで使用されるJSSPは次のとおりです。
 
 **例：**
 
-外部からのクライアントマシン接続を防ぐことができます。 これを行うには、 **soprouter.jspの実行を制限し** 、ミラーページ、クチコミリンク、Webフォームおよびパブリックリソースの実行を許可するだけです。
+外部からのクライアントマシン接続を防ぐことができます。 これを行うには、**soaprouter.jsp**&#x200B;の実行を制限し、ミラーページ、クチコミリンク、Webフォームおよびパブリックリソースの実行のみを許可します。
 
 パラメーターは次のとおりです。
 
@@ -414,13 +414,13 @@ Mobile Appチャネルで使用されるJSSPは次のとおりです。
 <url IPMask=""               deny="true" hostMask="" relayHost="false" relayPath="false" targetUrl="http://localhost:8080" timeout="" urlPath="*.jssp"/>
 ```
 
-この例では、この **`<IP_addresses>`** 値は、このマスクに中継モジュールを使用する権限を持つIPアドレス（comasで区切られた）のリストと一致します。
+この例では、**`<IP_addresses>`**&#x200B;値は、このマスクに中継モジュールを使用する権限を持つIPアドレス（comaで区切られたもの）のリストと一致します。
 
 >[!NOTE]
 >
 >値は、設定とネットワークの制約に従って適合する必要があります。特に、お客様の設置に対して特定の設定が開発されている場合には、その設定が必要です。
 
-## 許可された外部コマンドの制限 {#restricting-authorized-external-commands}
+## 許可された外部コマンドの制限{#restricting-authorized-external-commands}
 
 >[!NOTE]
 >
@@ -447,9 +447,9 @@ sh
 >
 >このリストは完全なものではありません。
 
-サーバ設定ファイルの **exec** ノードで、前に作成したファイルをblacklistFile **** 属性で参照する必要があります。
+サーバー設定ファイルの&#x200B;**exec**&#x200B;ノードで、**blacklistFile**&#x200B;属性で、以前に作成したファイルを参照する必要があります。
 
-**Linuxの場合のみ**:サーバー構成ファイルで、セキュリティ構成を強化するために、外部コマンドの実行専用のユーザーを指定するように再コマンドします。 このユーザは、設定ファイルの **exec** ノードで設定されます。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
+**Linuxの場合のみ**:サーバー構成ファイルで、セキュリティ構成を強化するために、外部コマンドの実行専用のユーザーを指定するように再コマンドします。このユーザーは、設定ファイルの&#x200B;**exec**&#x200B;ノードに設定されます。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 >[!NOTE]
 >
@@ -469,13 +469,13 @@ sh
 >
 >カスタムsudoは使用しないでください。 標準のsudoをシステムにインストールする必要があります。
 
-## HTTPヘッダーの管理 {#managing-http-headers}
+## HTTPヘッダーの管理{#managing-http-headers}
 
 デフォルトでは、すべてのHTTPヘッダーは再生されません。 リレーから送信される返信に、特定のヘッダーを追加できます。 手順は次のとおりです。
 
-1. serverConf.xml **ファイルに移動します** 。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
-1. ノードで、中継されるHTTPヘッダーのリストに移動します。 **`<relay>`**
-1. 次の追加属性を持つ **`<responseheader>`** 要素：
+1. **serverConf.xml**&#x200B;ファイルに移動します。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+1. **`<relay>`**&#x200B;ノードで、中継されたHTTPヘッダーのリストに移動します。
+1. 追加次の属性を持つ&#x200B;**`<responseheader>`**&#x200B;要素：
 
    * **name**:header name
    * **value**:値の名前。
@@ -486,7 +486,7 @@ sh
    <responseHeader name="Strict-Transport-Security" value="max-age=16070400; includeSubDomains"/>
    ```
 
-## 重複した追跡 {#redundant-tracking}
+## 重複した追跡{#redundant-tracking}
 
 リダイレクトに複数のサーバーを使用する場合、リダイレクトするURLからの情報を共有するには、SOAP呼び出しを介して相互に通信できる必要があります。 配信の開始アップ時に、すべてのリダイレクトサーバーが利用できるとは限りません。したがって、同じレベルの情報を持つことはないかもしれません。
 
@@ -494,7 +494,7 @@ sh
 >
 >標準アーキテクチャまたはエンタープライズアーキテクチャを使用する場合、メインアプリケーションサーバーは、各コンピューター上で追跡情報をアップロードする権限を持っている必要があります。
 
-冗長サーバーのURLは、リダイレクト構成で、 **serverConf.xml** ファイルを介して指定する必要があります。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
+冗長サーバーのURLは、**serverConf.xml**&#x200B;ファイルを介して、リダイレクトの構成で指定する必要があります。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 **例：**
 
@@ -503,19 +503,19 @@ sh
 <spareserver enabledIf="$(hostname)!='front_srv2'" id="2" url="http://front_srv2:8080" />
 ```
 
-enableIf **** プロパティはオプションです（デフォルトでは空）。結果がtrueの場合にのみ接続を有効にできます。これにより、すべてのリダイレクトサーバーで同じ構成を取得できます。
+**enableIf**&#x200B;プロパティはオプションです（デフォルトでは空）。結果がtrueの場合にのみ接続を有効にできます。これにより、すべてのリダイレクトサーバーで同じ構成を取得できます。
 
-コンピューターのホスト名を取得するには、次のコマンドを実行します。 **hostname -s**.
+コンピューターのホスト名を取得するには、次のコマンドを実行します。**hostname -s**.
 
-## パブリックリソースの管理 {#managing-public-resources}
+## パブリックリソースの管理{#managing-public-resources}
 
-パブリックリソースは、パブリックリソースの [管理に表示されます](../../installation/using/deploying-an-instance.md#managing-public-resources)。
+パブリックリソースは、[パブリックリソースの管理](../../installation/using/deploying-an-instance.md#managing-public-resources)に記載されています。
 
-これらは、Adobe Campaignインストールディレクトリの **/var/res/instance** ディレクトリに保存されます。
+これらは、Adobe Campaignインストールディレクトリの&#x200B;**/var/res/instance**&#x200B;ディレクトリに保存されます。
 
-一致するURLは次のとおりです。 **http://server/res/instance** ( **instance** は、トラッキングインスタンスの名前)
+一致するURLは次のとおりです。**http://server/res/instance**&#x200B;ここで&#x200B;**instance**&#x200B;は、トラッキングインスタンスの名前です。
 
-別のディレクトリを指定するには、 **conf-`<instance>`.xml** ファイルにノードを追加して、サーバー上のストレージを設定します。 これは、次の行を追加することを意味します。
+別のディレクトリを指定するには、**conf-`<instance>`.xml**&#x200B;ファイルにノードを追加して、サーバー上のストレージを設定します。 これは、次の行を追加することを意味します。
 
 ```
 <serverconf>
@@ -530,17 +530,17 @@ enableIf **** プロパティはオプションです（デフォルトでは空
 
 この場合、デプロイメントウィザードのウィンドウ上部に表示されるパブリックリソースの新しいURLは、このフォルダーを指す必要があります。
 
-## 高可用性ワークフローとアフィニティ {#high-availability-workflows-and-affinities}
+## 高可用性ワークフローとアフィニティ{#high-availability-workflows-and-affinities}
 
 複数のワークフローサーバー(wfserver)を設定し、2台以上のマシンに配布できます。 この種のアーキテクチャを選択する場合は、Adobe Campaignアクセスに応じてロードバランサーの接続モードを設定します。
 
-Webからのアクセスの場合は、 **ロードバランサー** ・モードを選択して接続時間を制限します。
+Webからのアクセスの場合は、**ロードバランサー**&#x200B;モードを選択して接続時間を制限します。
 
-Adobe Campaignコンソールからアクセスする場合は、 **ハッシュ** (Hash **)またはスティッキーip** (Sticky)モードを選択します。 これにより、リッチクライアントとサーバー間の接続を維持し、例えばインポート操作やエクスポート操作中にユーザーセッションが中断されるのを防ぐことができます。
+Adobe Campaignコンソールからアクセスする場合は、**ハッシュ**&#x200B;または&#x200B;**スティッキーip**&#x200B;モードを選択します。 これにより、リッチクライアントとサーバー間の接続を維持し、例えばインポート操作やエクスポート操作中にユーザーセッションが中断されるのを防ぐことができます。
 
 特定のマシン上でワークフローまたはワークフローアクティビティを強制的に実行するよう選択できます。 これを行うには、関連するワークフローまたはアクティビティに対して1つ以上のアフィニティを定義する必要があります。
 
-1. ワークフローまたはアクティビティのアフィニティを作成するには、「 **[!UICONTROL アフィニティ]** 」フィールドにワークフローまたはワークフローを入力します。
+1. ワークフローまたはアクティビティのアフィニティを作成するには、**[!UICONTROL アフィニティ]**&#x200B;フィールドに入力します。
 
    アフィニティ名は自由に選択できます。 ただし、スペースや句読点は使用しないでください。 別のサーバーを使用する場合は、別の名前を指定します。
 
@@ -550,8 +550,8 @@ Adobe Campaignコンソールからアクセスする場合は、 **ハッシュ
 
    ドロップダウンリストには、以前に使用したアフィニティが含まれています。 時間の経過と共に異なる入力値で完了します。
 
-1. nl6/conf/config- **`<instance>.xml`** ファイルを開きます。
-1. 次のように、 **[!UICONTROL wfserver]** モジュールと一致する行を変更します。
+1. **nl6/conf/config-`<instance>.xml`**&#x200B;ファイルを開きます。
+1. **[!UICONTROL wfserver]**&#x200B;モジュールに一致する行を次のように変更します。
 
    ```
    <wfserver autoStart="true" affinity="XXX,"/>
@@ -571,47 +571,50 @@ Adobe Campaignコンソールからアクセスする場合は、 **ハッシュ
    <wfserver autoStart="true" affinity="XXX"/>
    ```
 
-## 自動プロセス再開 {#automatic-process-restart}
+## 自動プロセス再開{#automatic-process-restart}
 
 デフォルトでは、異なるAdobe Campaignプロセスは、毎日午前6時（サーバー時間）に自動的に再起動します。
 
 ただし、この設定は変更できます。
 
-これを行うには、インストールの **conf****** リポジトリにあるserverConf.xmlファイルに移動します。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
+これを行うには、インストール先の&#x200B;**conf**&#x200B;リポジトリにある&#x200B;**serverConf.xml**&#x200B;ファイルに移動します。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
-このファイルに設定された各プロセスには、processRestartTime **** 属性があります。 この属性の値を変更して、各プロセスの再開時間をニーズに合わせて調整できます。
+このファイルに設定された各プロセスには、**processRestartTime**&#x200B;属性があります。 この属性の値を変更して、各プロセスの再開時間をニーズに合わせて調整できます。
 
 >[!IMPORTANT]
 >
 >この属性は削除しないでください。 すべてのプロセスは毎日再起動する必要があります。
 
-## アップロード可能ファイルの制限 {#limiting-uploadable-files}
+## アップロード可能ファイルの制限{#limiting-uploadable-files}
 
-新しい属性 **uploadWhiteList** を使用すると、Adobe Campaignサーバでアップロードできるファイルタイプを制限できます。
+新しい属性&#x200B;**uploadWhiteList**&#x200B;を使用すると、Adobe Campaignサーバーでアップロードできるファイルタイプを制限できます。
 
-この属性は、 **serverConf.xml** ファイルの **dataStore** 要素内で使用できます。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
+この属性は、**serverConf.xml**&#x200B;ファイルの&#x200B;**dataStore**&#x200B;要素内で使用できます。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
-この属性のデフォルト値はで **す。+** を押すと、任意の種類のファイルをアップロードできます。
+この属性のデフォルト値は&#x200B;**です。+**&#x200B;に置き換え、任意のファイルタイプをアップロードできます。
 
 使用可能な形式を制限するには、有効なJava正規式で属性値を置き換える必要があります。 複数の値をコンマで区切って入力できます。
 
-次に例を示します。 **uploadWhiteList=&quot;.*.png,.*.jpg** 」を指定すると、PNG形式とJPG形式をサーバーにアップロードできます。 その他の形式は使用できません。
+次に例を示します。**uploadWhiteList=&quot;.*.png,.*.jpg&quot;**&#x200B;を使用すると、PNG形式とJPG形式をサーバにアップロードできます。 その他の形式は使用できません。
 
 >[!IMPORTANT]
 >
 >Internet Explorerでは、完全なファイルパスを正規式で検証する必要があります。
 
-## プロキシ接続の設定 {#proxy-connection-configuration}
+## プロキシ接続の構成{#proxy-connection-configuration}
 
-プロキシ経由でキャンペーンサーバーを外部に接続する必要がある場合(例えば、ファイル転送ワークフローアクティビティを使用する場合)、コマンドを使用してserverConfのproxyConfigセクションを設定する必要があります。 次のプロキシ接続が可能です。HTTP、HTTPS、FTP、SFTP。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
+例えば、**ファイル転送**&#x200B;ワークフローアクティビティを使用して、キャンペーンサーバーをプロキシ経由で外部システムに接続できます。 これを行うには、特定のコマンドを使用して&#x200B;**serverConf.xml**&#x200B;ファイルの&#x200B;**proxyConfig**&#x200B;セクションを設定する必要があります。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
->[!NOTE]
+次のプロキシ接続が可能です。HTTP、HTTPS、FTP、SFTP。 20.2キャンペーンリリース以降、HTTPおよびHTTPSプロトコルのパラメーターは&#x200B;**使用できなくなりました**。 これらのパラメーターは、9032を含む以前のビルドで引き続き使用できるので、以下に説明します。
+
+>[!CAUTION]
 >
->20.2以降、HTTPおよびHTTPSプロトコルのパラメーターは使用できなくなりました。 次の情報は、9032を含む以前のビルドで引き続き使用可能なパラメーターについて説明しています。
+>基本認証モードのみがサポートされています。 NTLM認証はサポートされていません。
 >
 >SOCKSプロキシはサポートされていません。
 
-次のコマンドを使用します。
+
+次のコマンドを使用できます。
 
 ```
 nlserver config -setproxy:[protocol]/[serverIP]:[port]/[login][:‘https’|'http’]

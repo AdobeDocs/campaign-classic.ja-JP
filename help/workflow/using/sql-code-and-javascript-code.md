@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 8bcfc8826a66517e6a648dbc57b681778718c33c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 76%
 
 ---
 
@@ -35,24 +35,27 @@ ht-degree: 100%
 
 **[!UICONTROL JavaScript コード]**&#x200B;と&#x200B;**[!UICONTROL 高度な JavaScript コード]**&#x200B;アクティビティは、ワークフローのコンテキストで JavaScript スクリプトを実行します。スクリプティングについて詳しくは、[JS のスクリプトとテンプレート](../../workflow/using/javascript-scripts-and-templates.md)の節を参照してください。
 
->[!NOTE]
->
->デフォルトでは、**[!UICONTROL JavaScript コード]**&#x200B;と&#x200B;**[!UICONTROL 高度な JavaScript コード]**&#x200B;アクティビティの実行段階は 1 時間を超えることはできません。この遅延の後、エラーメッセージが表示されてプロセスが中止され、アクティビティの実行が失敗します。
->
->この遅延は、アクティビティのプロパティの「**[!UICONTROL 次の時間後に実行を停止]**」フィールドで変更できます。
+### 実行遅延{#exec-delay}
 
-* **[!UICONTROL JavaScript コード]**
+20.2リリース以降、**[!UICONTROL JavaScriptコード]**&#x200B;と&#x200B;**[!UICONTROL 高度なJavaScriptコード]**&#x200B;のアクティビティに実行遅延が追加されました。 デフォルトでは、実行フェーズは1時間を超えることはできません。 この遅延の後、エラーメッセージが表示されてプロセスが中止され、アクティビティの実行が失敗します。
 
-   ![](assets/javascript_code.png)
+この遅延は、これらのアクティビティーで利用可能な&#x200B;**[!UICONTROL 「]**&#x200B;後に実行を停止」フィールドで変更できます。
 
-   * **[!UICONTROL スクリプト]**：エディターの中央部に、実行されるスクリプトが含まれています。
-   * **[!UICONTROL 処理エラー]**：「[処理エラー](../../workflow/using/monitoring-workflow-execution.md#processing-errors)」を参照してください。
+この制限を無視するには、値を&#x200B;**0**&#x200B;に設定する必要があります。
 
-* **[!UICONTROL 高度な JavaScript コード]**
+### JavaScript コード {#js-code-desc}
 
-   ![](assets/advanced_javascript_code.png)
+![](assets/javascript_code.png)
 
-   * **[!UICONTROL 最初の呼び出し]**：エディターの最初のゾーンには、最初の呼び出し時に実行するスクリプトが含まれます。
-   * **[!UICONTROL 次の呼び出し]**：エディターの 2 番目のゾーンには、2 回目以降の呼び出し時に実行するスクリプトが含まれます。
-   * **[!UICONTROL トランジション]**：アクティビティの出力トランジションを複数定義できます。
-   * **[!UICONTROL スケジュール]**：「**[!UICONTROL スケジュール]**」タブでは、アクティビティをトリガーするタイミングをスケジュール設定できます。
+* **[!UICONTROL スクリプト]**：エディターの中央部に、実行されるスクリプトが含まれています。
+
+* **[!UICONTROL プロセスエラー]**:「 [処理エラー](../../workflow/using/monitoring-workflow-execution.md#processing-errors)」を参照してください。
+
+### 高度な JavaScript コード {#adv-js-code-desc}
+
+![](assets/advanced_javascript_code.png)
+
+* **[!UICONTROL 最初の呼び出し]**：エディターの最初のゾーンには、最初の呼び出し時に実行するスクリプトが含まれます。
+* **[!UICONTROL 次の呼び出し]**：エディターの 2 番目のゾーンには、2 回目以降の呼び出し時に実行するスクリプトが含まれます。
+* **[!UICONTROL トランジション]**：アクティビティの出力トランジションを複数定義できます。
+* **[!UICONTROL スケジュール]**：「**[!UICONTROL スケジュール]**」タブでは、アクティビティをトリガーするタイミングをスケジュール設定できます。

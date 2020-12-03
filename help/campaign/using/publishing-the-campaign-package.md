@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ![](assets/s_advuser_mkg_dist_valid_process.png)
 
-メッセージがレビュー担当者に送信され、キャンペーンパッケージが使用可能になったことが通知されます。このメッセージには、Web アクセスによって承認を許可または却下するリンクが含まれています。
+メッセージがレビュー担当者に送信され、キャンペーンパッケージが使用可能になったことが通知されます。メッセージには、Webアクセスを介して承認を承認または拒否するためのリンクが含まれています。
 
 ![](assets/s_advuser_mkg_dist_valid_process1.png)
 

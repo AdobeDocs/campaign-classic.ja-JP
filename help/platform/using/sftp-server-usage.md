@@ -6,24 +6,24 @@ description: SFTP サーバーのベストプラクティスとトラブルシ�
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1097'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # SFTP サーバーのベストプラクティスとトラブルシューティング {#sftp-server-usage}
 
-## SFTPサーバーのグローバルな推奨 {#global-recommendations}
+## SFTP サーバーの全体的な推奨事項 {#global-recommendations}
 
-ETL のためのファイルやデータを管理する際、これらのファイルはアドビがホストする SFTP サーバー上に保存されます。SFTPサーバーを使用する場合は、次の推奨事項に従ってください。
+ETL のためのファイルやデータを管理する際、これらのファイルはアドビがホストする SFTP サーバー上に保存されます。SFTP サーバーを使用する場合は、次の推奨事項に従ってください。
 
 * パスワードが期限切れになるのを避けるために、パスワード認証ではなく、キーベースの認証を使用します（パスワードの有効期間は 90 日間です）。さらに、キーベースの認証では、複数のエンティティを管理する場合などに、複数のキーを生成できます。一方、パスワード認証では、管理しているすべてのエンティティとパスワードを共有する必要があります。
 
-   サポートされているキーの形式は、SSH-2 RSA 2048 です。Keys can be generated with tools like PyTTY (Windows), or ssh-keygen (Unix).You will have to provide the public key to Adobe Support team via [Adobe Customer Care](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to have it uploaded on the Campaign server.
+   サポートされているキーの形式は、SSH-2 RSA 2048 です。キーは、PyTTY（Windows）や ssh-keygen（Unix）などのツールを使用して生成できます。[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)を通じてアドビサポートチームに公開鍵を提供して Campaign サーバーにアップロードしてもらう必要があります。
 
 * SFTP アップロードやワークフローでバッチ処理を使用します。
 
@@ -31,13 +31,13 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 
 * デフォルトでは、作成したすべてのフォルダーは自分の識別子に対してのみ読み取り／書き込みモードになります。Campaign からアクセスする必要のあるフォルダーを作成する場合は、グループ全体に対して読み取り／書き込み権限を付与するように必ず設定します。そうしないと、同じグループ内の別の識別子でワークフローが実行された場合に、セキュリティ上の理由により、ファイルを作成または削除できないことがあります。
 
-* SFTP 接続を開始しようとしているパブリック IP は、Campaign インスタンスの許可リストに登録されている必要があります。許可リストへのIPアドレスの追加は、 [Adobeカスタマーケアからリクエストできます](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
+* SFTP 接続を開始しようとしているパブリック IP は、Campaign インスタンスの許可リストに登録されている必要があります。許可リストへの IP アドレスの追加は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)を通じて依頼できます。
 
 ## データベース使用のベストプラクティス {#sftp-server-best-practices}
 
-SFTPサーバーは、保存管理やファイルの削除を管理できる一時的なストレージ領域にするように設計されています。
+SFTP サーバーは、ファイルの保持や削除を制御できる一時的なストレージスペースとなるように設計されています。
 
-正しく使用または監視されない場合、これらの領域は、サーバー上で使用可能な物理領域をすぐに埋め、以降のアップロードでファイルが切り捨てられる可能性があります。 スペースがいっぱいになると、自動パージがトリガーされ、SFTP ストレージから一番古いファイルが消去されることがあります。
+この領域の使用または監視が適切におこなわれないと、サーバー上の使用可能な物理領域がすぐにいっぱいになって、その後のアップロードでファイルが切り捨てられる可能性があります。スペースがいっぱいになると、自動パージがトリガーされ、SFTP ストレージから一番古いファイルが消去されることがあります。
 
 こうした問題を回避するために、アドビでは以下のベストプラクティスに従うことをお勧めします。
 
@@ -55,18 +55,18 @@ SFTPサーバーは、保存管理やファイルの削除を管理できる一�
 
 * SFTP のディスク管理は、基本的に管理者の責任となります。
 
-## External SFTP server usage {#external-SFTP-server}
+## 外部 SFTP サーバーの使用 {#external-SFTP-server}
 
-独自のSFTPサーバーを使用する場合は、上記の推奨事項にできるだけ従うようにしてください。
+独自の SFTP サーバーを使用する場合は、できるだけ上記の推奨事項に従ってください。
 
-また、Campaign Classicで外部SFTPサーバーへのパスを指定する場合、パスの構文はSFTPサーバーのオペレーティングシステムに応じて異なります。
+また、Campaign Classic で外部 SFTP サーバーへのパスを指定する場合、パスの構文は SFTP サーバーのオペレーティングシステムによって異なります。
 
-* SFTPサーバーが **Windows上にある場合は**、常に相対パスを使用します。
-* STPサーバが **Linux**&#x200B;上にある場合は、常にホームに対する相対パス（「～/」で始まる）か、絶対パス（「/」で始まる）を使用します。
+* SFTP サーバーが **Windows** 上にある場合は、常に相対パスを使用します。
+* STP サーバーが **Linux** 上にある場合は、ホームからの相対パス（「～/」で始まるパス）か絶対パス（「/」で始まるパス）を常に使用します。
 
 ## アドビがホストする SFTP サーバーとの接続の問題 {#sftp-server-troubleshooting}
 
-The section below lists the information to check and provide to the Adobe Support team via [Adobe Customer Care](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) when encountering connection issues with Adobe hosted SFTP servers.
+アドビがホストする SFTP サーバーとの接続で問題が発生した場合は、以下を確認し、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)を通じてその情報をアドビサポートチームに提供します。
 
 1. インスタンスが実行中であることを確認します。そのためには、ブラウザーを開き、インスタンスの **[!UICONTROL /r/test]** エンドポイントに対して **[!UICONTROL GET]** 呼び出しをおこないます。
 

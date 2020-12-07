@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
+source-git-commit: b78c9dc9112893f2b203eccf0bd2d92fa299425d
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2182'
 ht-degree: 98%
 
 ---
@@ -697,6 +697,8 @@ ht-degree: 98%
       + [パスワードを忘れた場合](production/using/lost-password.md)
       + [JSP の動作](production/using/jsp-behavior.md)
 + 開発者ガイド {#configuring-campaign-classic}
++ 
+   + [キャンペーン設定について](configuration/using/about-config-guide.md)
    + データモデル {#data-model}
       + [データモデルについて](configuration/using/about-data-model.md)
       + [データモデルの説明](configuration/using/data-model-description.md)

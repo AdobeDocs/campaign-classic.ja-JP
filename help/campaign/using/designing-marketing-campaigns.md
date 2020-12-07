@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -64,10 +64,10 @@ Adobe Campaign では、コミュニケーションおよびマーケティン�
 
    詳しくは、[配信の概要からのリンク済みリソースの関連付けと構造化](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)を参照してください。
 
-## チュートリアル {#video}
+## チュートリアル{#video}
 
 このビデオでは、マーケティングキャンペーンの主要概念を紹介します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
-その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。
+追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

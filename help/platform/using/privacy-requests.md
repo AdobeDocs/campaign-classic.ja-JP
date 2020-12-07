@@ -6,11 +6,11 @@ description: プライバシーリクエストの管理方法について説明�
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2591'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Adobe Campaign には、Adobe Campaign に保存されているデータに対�
 
 標準では、E メール、電話、携帯電話の 3 つの名前空間を使用できます。別の名前空間（受信者用のカスタムフィールドなど）が必要な場合、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 名前空間]**&#x200B;で新しく作成することができます。
 
-## Creating a Privacy request {#create-privacy-request-ui}
+## プライバシー要求の作成 {#create-privacy-request-ui}
 
 **Adobe Campaign インターフェイス**&#x200B;では、プライバシーリクエストを作成し、その推移をトラッキングできます。新しいプライバシーリクエストを作成するには、次の手順に従います。
 
@@ -126,7 +126,7 @@ Adobe Campaign には、Adobe Campaign に保存されているデータに対�
 >プロファイル削除ワークフローを使用してプライバシーバッチリクエストを実行する場合は、次の注意点を考慮に入れてください。
 >* ワークフローを使用したプロファイル削除では、子テーブルが処理されません。
 >* すべての子テーブルに対して削除処理をおこなう必要があります。
->* Adobe recommends that you create an ETL workflow that add the lines to delete in the Privacy Access table and let the **[!UICONTROL Delete privacy requests data]** workflow perform the deletion. パフォーマンス上の理由から、削除するプロファイルの数は 1 日あたり 200 個までに制限することをお勧めします。
+>* プライバシーアクセステーブル内で削除する行を追加する ETL ワークフローを作成し、**[!UICONTROL プライバシー要求データの削除]**&#x200B;ワークフローで削除を実行することをお勧めします。パフォーマンス上の理由から、削除するプロファイルの数は 1 日あたり 200 個までに制限することをお勧めします。
 
 
 ### プライバシーリクエストのステータス {#privacy-request-statuses}

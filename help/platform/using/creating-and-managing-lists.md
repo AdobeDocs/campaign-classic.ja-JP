@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -136,10 +136,10 @@ Adobe Campaign ツリーのグループリストから 1 つ以上のリスト�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-### ワークフローで受信者リストを作成する方法 {#create-list-in-a-wf-video}
+### ワークフローで受信者リストを作成する方法  {#create-list-in-a-wf-video}
 
 受信者をターゲットにするためのワークフローを作成する方法や、E メールターゲットでリストを使用する前にワークフローが繰り返されるようにする方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
 
-その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。
+追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

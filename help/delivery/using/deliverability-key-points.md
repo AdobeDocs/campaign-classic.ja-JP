@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: 配信品質の重要なポイント
-description: 配信品質を改善するための重要な点
+description: 配信品質を改善するための重要なポイント
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '611'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

@@ -6,9 +6,9 @@ description: コンテンツの編集
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
 ht-degree: 100%
 
@@ -137,6 +137,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 >* 新しいウィンドウ (_blank)
 >* 現在のウィンドウ (_self)
 >* ブラウザーのデフォルト動作
+
 >
 
 
@@ -202,8 +203,9 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 >[!NOTE]
 >
 >* **削除**&#x200B;アイコン：ブロックおよびそのすべてのコンテンツを削除します。
->
->* **複製**&#x200B;アイコン：ブロックおよびブロックに関連するすべてのスタイルを複製します。
+   >
+   >
+* **複製**&#x200B;アイコン：ブロックおよびブロックに関連するすべてのスタイルを複製します。
 
 
 ## 画像とアニメーションの管理 {#managing-images-and-animations}

@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
 source-wordcount: '1304'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 95%
 
    [サービスプロバイダーとそのコスト構造の作成](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)を参照してください。
 
-これらの手順が完了したら、配信を開始し（[配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)を参照）、データ、プロセスおよび配信に関連する情報を確認し、必要に応じて関連ドキュメントを管理します（[関連付けられたドキュメントの管理](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)を参照）。You can also track the execution of the processing phases of campaigns and deliveries (see [Tracking](../../campaign/using/marketing-campaign-monitoring.md)).
+これらの手順が完了したら、配信を開始し（[配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)を参照）、データ、プロセスおよび配信に関連する情報を確認し、必要に応じて関連ドキュメントを管理します（[関連付けられたドキュメントの管理](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)を参照）。また、キャンペーンと配信の処理段階の実行を追跡することもできます（[追跡](../../campaign/using/marketing-campaign-monitoring.md)を参照）。
 
 ## プランとプログラム階層構造の作成 {#creating-plan-and-program-hierarchy}
 
@@ -239,4 +239,4 @@ ht-degree: 95%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
 
-その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。
+追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

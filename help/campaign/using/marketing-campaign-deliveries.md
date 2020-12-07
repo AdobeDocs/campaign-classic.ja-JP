@@ -463,4 +463,4 @@ ht-degree: 99%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
-その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。
+追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

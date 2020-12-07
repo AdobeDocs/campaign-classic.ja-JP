@@ -6,11 +6,11 @@ description: モバイルアプリケーション設定の開始方法を説明�
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1d7d48f52f69e4902eafa6806c2cd9170c21fe5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作が必�
 
 ## パッケージのインストール {#installing-package-ios}
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでモバイルアプリパッケージをインストールする方法を説明します。](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=en#sending-messages)
+![](assets/do-not-localize/how-to-video.png) [モバイルアプリパッケージのインストール方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=ja#sending-messages)
 
 ハイブリッド／ホスト型の顧客は、アドビのカスタマーサポートチームに連絡して、Campaign のプッシュ通知チャネルにアクセスします。
 

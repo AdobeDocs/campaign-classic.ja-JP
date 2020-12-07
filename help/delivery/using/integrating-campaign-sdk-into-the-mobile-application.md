@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 統合キャンペーンSDK
-description: キャンペーンSDKをモバイルアプリに統合する方法を学びます
+title: Campaign SDK の統合
+description: Campaign SDK をモバイルアプリに統合する方法を説明します
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '950'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# キャンペーンSDKとアプリの統合 {#integrating-campaign-sdk-into-the-mobile-application}
+# Campaign SDK とアプリの統合 {#integrating-campaign-sdk-into-the-mobile-application}
 
 iOS および Android 用の Campaign SDK は、モバイルアプリチャネルモジュールのコンポーネントの 1 つです。
 

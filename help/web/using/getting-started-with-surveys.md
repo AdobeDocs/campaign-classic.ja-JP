@@ -15,7 +15,7 @@ ht-degree: 98%
 ---
 
 
-# 調査を作成するための主な手順{#getting-started-with-surveys}
+# 調査の作成に関する主な手順{#getting-started-with-surveys}
 
 ここでは、次のテンプレートを使用して、簡単な調査を作成するための主な手順について要約しています。
 

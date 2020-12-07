@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Message Centerイベントの説明
-description: トランザクションメッセージングイベントの詳細
+title: メッセージセンターイベントの説明
+description: トランザクションメッセージイベントの詳細
 audience: message-center
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '747'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

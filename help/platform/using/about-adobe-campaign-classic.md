@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -93,4 +93,4 @@ Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
-その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。
+追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

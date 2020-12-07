@@ -6,9 +6,9 @@ description: 重複排除ワークフローアクティビティの詳細を説�
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
 ht-degree: 100%
 
@@ -47,6 +47,7 @@ ht-degree: 100%
    >[!NOTE]
    >
    >外部ファイルなどの外部データを入力として使用する場合は、必ず「**[!UICONTROL 一時スキーマ]**」オプションを選択してください。
+
    >
    >次の手順で、「**[!UICONTROL その他]**」オプションで使用される基準または条件を選択できます。
 

@@ -251,7 +251,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 ![](assets/s_ncs_admin_survey_date_calendar.png)
 
-ユーザーがフォームページに日付を入力できるようにするには、入力フィールドを追加し、「 **[!UICONTROL 日付」タイプを選択します。]**.
+ユーザーがフォームページに日付を入力できるようにするには、入力フィールドを追加し、「**[!UICONTROL 日付。.」のタイプを選択します。]**.
 
 フィールドのラベルを入力し、データストレージモードを設定します。
 
@@ -392,9 +392,9 @@ Captcha は、ビジュアルの下に配置された入力フィールドでペ
 
 このフィールドは、ユーザーには表示されませんが、ユーザープロファイルのデータをエンリッチメントするために使用できます。
 
-To do this, place a **constant** in the page and specify the value and the storage location.
+これを行うには、**定数**&#x200B;をページに配置し、値とストレージの場所を指定します。
 
-In the following example, the **origin** field of the recipient profile is filled in automatically whenever a user approves this page. 定数は、このページには表示されません。
+次の例では、受信者プロファイルの&#x200B;**接触チャネル**&#x200B;フィールドは、ユーザーがこのページを承認するたびに自動的に入力されます。 定数は、このページには表示されません。
 
 ![](assets/s_ncs_admin_survey_constante.png)
 

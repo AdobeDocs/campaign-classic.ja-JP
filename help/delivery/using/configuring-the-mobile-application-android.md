@@ -9,11 +9,11 @@ topic-tags: sending-push-notifications
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1d7d48f52f69e4902eafa6806c2cd9170c21fe5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1862'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 90%
 
 主な手順は次のとおりです。
 
-1. [Android外部アカウントの設定](#configuring-external-account-android)
-1. [Androidサービスの設定](#configuring-android-service)
-1. [キャンペーンでモバイルアプリを作成する](#creating-android-app)
-1. [追加データを使用してアプリスキーマを拡張する](#extend-subscription-schema)
+1. [Android 外部アカウントを設定する](#configuring-external-account-android)
+1. [Android サービスを設定する](#configuring-android-service)
+1. [Campaign でモバイルアプリを作成する](#creating-android-app)
+1. [追加データでアプリスキーマを拡張する](#extend-subscription-schema)
 
-その後、Androidリッチ通知を [作成できます](#creating-android-delivery)。
+その後、[Android リッチ通知を作成](#creating-android-delivery)できるようになります。
 
 ## Android 外部アカウントの設定 {#configuring-external-account-android}
 
@@ -62,7 +62,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
 ## Android サービスの設定 {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでAndroidサービスを設定する方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=en#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
+![](assets/do-not-localize/how-to-video.png) [Android サービスの設定方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ja#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
 
 1. **[!UICONTROL プロファイルとターゲット／サービスと購読]**&#x200B;ノードに移動して、「**[!UICONTROL 新規]**」をクリックします。
 
@@ -101,9 +101,9 @@ Android の場合、2 種類のコネクタを使用できます。
    >
    > **[!UICONTROL 統合キー]**&#x200B;は、文字列値を使用して完全にカスタマイズできますが、SDK で指定されたものと完全に同じにする必要があります。
 
-1. 次の **[!UICONTROL APIバージョンを選択します]**。HTTP v1またはHTTP （レガシー）。 これらの設定については、 [この節で説明します](#select-api-version)
+1. **[!UICONTROL API バージョン]**&#x200B;として HTTP v1 または HTTP （レガシー）を選択します。 これらの設定について詳しくは、[こちらの節](#select-api-version)を参照してください。
 
-1. Fill in the **[!UICONTROL Firebase Cloud Messaging the Android connection settings]** fields.
+1. **[!UICONTROL Firebase Cloud Messaging for Android の接続設定]**&#x200B;フィールドに入力します。
 
 1. 「**[!UICONTROL 完了]**」、「**[!UICONTROL 保存]**」の順にクリックします。これで、Campaign Classic で Android アプリケーションを使用する準備が整いました。
 
@@ -113,10 +113,10 @@ Android の場合、2 種類のコネクタを使用できます。
 
 サービスと新しいモバイルアプリケーションを作成したら、選択された API バージョンに応じてモバイルアプリケーションを設定する必要があります。
 
-* **HTTP v1** の設定については、この [節で詳しく説明します](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)。
-* **HTTP（レガシー）** 設定については、この [節で詳しく説明します](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http)。
+* **HTTP v1** の設定について詳しくは、こちらの[節](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)を参照してください。
+* **HTTP（レガシー）**&#x200B;の設定について詳しくは、こちらの[節](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http)を参照してください。
 
-#### HTTP v1 APIの設定{#android-service-httpv1}
+#### HTTP v1 API の設定{#android-service-httpv1}
 
 HTTP v1 API バージョンを設定するには、次の手順に従います。
 
@@ -153,7 +153,7 @@ HTTP v1 API バージョンを設定するには、次の手順に従います�
 <br>
 <br>
 
-#### HTTP（レガシー）APIの設定{#android-service-http}
+#### HTTP（レガシー）API の設定{#android-service-http}
 
 HTTP（レガシー）API バージョンを設定するには、次の手順に従います。
 
@@ -178,13 +178,13 @@ HTTP（レガシー）API バージョンを設定するには、次の手順に
 
 <br>
 
-## appsubscriptionRcpスキーマの拡張 {#extend-subscription-schema}
+## appsubscriptionRcp スキーマの拡張 {#extend-subscription-schema}
 
-![](assets/do-not-localize/how-to-video.png) [appsubscriptionRcpスキーマをビデオで拡張する方法を説明します。](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html?lang=en#extending-the-app-subscription-schema-to-personalize-push-notifications)
+![](assets/do-not-localize/how-to-video.png) [appsubscriptionRcp スキーマの拡張方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html?lang=ja#extending-the-app-subscription-schema-to-personalize-push-notifications)
 
-appsubscriptionRcpを拡張して、アプリのパラメーターをキャンペーンデータベースに保存するための新しい **** 追加フィールドを定義する必要があります。 これらのフィールドは、例えば、パーソナライゼーションに使用されます。 手順は次のとおりです。
+**appsubscriptionRcp** を拡張して、アプリのパラメーターを Campaign データベースに保存するための新しい追加フィールドを定義する必要があります。 これらのフィールドは、例えば、パーソナライゼーションに使用されます。 手順は次のとおりです。
 
-1. 「**[!UICONTROL 購読者のアプリケーション（nms:appsubscriptionRcp）]**」スキーマの拡張を作成し、新しいフィールドを定義します。Learn more about schema extension in [this page](../../configuration/using/about-schema-edition.md)
+1. 「**[!UICONTROL 購読者のアプリケーション（nms:appsubscriptionRcp）]**」スキーマの拡張を作成し、新しいフィールドを定義します。スキーマ拡張について詳しくは、[こちらのページ](../../configuration/using/about-schema-edition.md)を参照してください。
 
 1. 「**[!UICONTROL 購読パラメーター]**」タブでマッピングを定義します。
 
@@ -244,7 +244,7 @@ Firebase Cloud Messaging のメッセージタイプについて詳しくは、[
 >
 >通知メッセージのその他のオプションは、HTTP v1 API 設定でのみ使用できます。詳しくは、[この節](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでAndroidのプッシュ通知を作成する方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=en#additional-resources)
+![](assets/do-not-localize/how-to-video.png) [Android プッシュ通知の作成方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=ja#additional-resources)
 
 1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;に移動します。
 

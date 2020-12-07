@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: テクニカルワークフローについて
-description: キャンペーンテクニカルワークフローリスト
+description: Campaign テクニカルワークフローリスト
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

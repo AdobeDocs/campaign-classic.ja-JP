@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '2657'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ CRM への接続は、専用のワークフローアクティビティを使用�
 
 Adobe Campaign に統合できる CRM を次に示します。
 
-Supported versions are detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
+サポート対象バージョンについて詳しくは、Campaign [互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
 
 * **Salesforce.com**
 
@@ -186,7 +186,7 @@ Adobe Campaign と連携するように Microsoft Dynamics コネクタを設定
 
    Adobe Campaign Classic は、Dynamics 365 REST インターフェイスと OAuth プロトコルによる認証をサポートしています。
 
-   **[!UICONTROL WebAPI]** デプロイメントを選択している場合は、Azure Directory にアプリを登録し、Azure Directory から **clientId** を取得する必要があります。この登録については、[このページ](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/mt622431(v=crm.8)?redirectedfrom=MSDN)を参照してください。
+   **[!UICONTROL WebAPI]** デプロイメントを選択している場合は、Azure Directory にアプリを登録し、Azure Directory から **clientId** を取得する必要があります。この登録については、[このページ](https://docs.microsoft.com/ja-jp/previous-versions/dynamicscrm-2016/developers-guide/mt622431(v=crm.8)?redirectedfrom=MSDN)を参照してください。
 
    >[!NOTE]
    >

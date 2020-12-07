@@ -17,7 +17,7 @@ ht-degree: 93%
 
 # Web フォームの静的要素{#static-elements-in-a-web-form}
 
-フォームのページにユーザーインタラクションのない要素を含めることができます。これらは、画像、HTML コンテンツ、横棒またはハイパーリンクなどの、静的要素です。これらの要素は、ツールバーの最初のボタンで **[!UICONTROL 静的要素を選択して作成します]**。
+フォームのページにユーザーインタラクションのない要素を含めることができます。これらは、画像、HTML コンテンツ、横棒またはハイパーリンクなどの、静的要素です。これらの要素は、ツールバーの最初のボタンで&#x200B;**[!UICONTROL 静的要素]**&#x200B;を選択して作成します。
 
 ![](assets/s_ncs_admin_survey_add_static_element.png)
 
@@ -36,7 +36,7 @@ ht-degree: 93%
 
 フォームページに、ハイパーテキストリンク、画像、書式設定された段落、ビデオまたは Flash オブジェクトなどの HTML コンテンツを含めることができます。
 
-HTML エディターを使用すると、コンテンツを入力して、フォームページに挿入できます。エディターを開くには、 **[!UICONTROL 静的要素]** / **[!UICONTROL HTMLをクリックします]** 。
+HTML エディターを使用すると、コンテンツを入力して、フォームページに挿入できます。エディターを開くには、**[!UICONTROL 静的要素]**/**[!UICONTROL HTML]**&#x200B;をクリックします。
 
 コンテンツを直接入力および書式設定したり、ソースコードウィンドウを表示して、一部の外部コンテンツを貼り付けたりできます。「ソースコード」モードに切り替えるには、ツールバーの最初のアイコンをクリックします。
 
@@ -54,7 +54,7 @@ HTML エディターを使用すると、コンテンツを入力して、フォ
 
 次の例のように、編集ウィンドウのフィールドに入力します。
 
-To add a hypertext link, go to **[!UICONTROL Static elements]** > **[!UICONTROL Link]**.
+ハイパーリンクを追加するには、**[!UICONTROL 静的要素]** > **[!UICONTROL リンク]**&#x200B;に移動します。
 
 ![](assets/s_ncs_admin_survey_add_link.png)
 
@@ -174,7 +174,7 @@ To add a hypertext link, go to **[!UICONTROL Static elements]** > **[!UICONTROL 
 
 >[!NOTE]
 >
->For security reasons, the value entered in the **`<%=`** formula is replaced with escaped characters.
+>セキュリティ上の理由から、**`<%=`**&#x200B;式に入力された値はエスケープ文字に置き換えられます。
 
 この例では、受信者の姓と名がデータベースのフィールドに格納され、自動車のブランドが変数に格納されます。ページ 2 でパーソナライズされたメッセージの構文は、次のようになります。
 
@@ -210,7 +210,7 @@ To add a hypertext link, go to **[!UICONTROL Static elements]** > **[!UICONTROL 
 
    >[!CAUTION]
    >
-   >If you enter these characters in the HTML editor, the **&lt;** and **>** fields will be replaced with their escaped characters. この場合、HTML テキストエディターの&#x200B;**[!UICONTROL ソースコードを表示]**&#x200B;アイコンをクリックして、ソースコードを修正する必要があります。
+   >HTMLエディターでこれらの文字を入力すると、**&lt;**&#x200B;および&#x200B;****&#x200B;フィールドはエスケープ文字に置き換えられます。 この場合、HTML テキストエディターの&#x200B;**[!UICONTROL ソースコードを表示]**&#x200B;アイコンをクリックして、ソースコードを修正する必要があります。
 
 1. フォームの&#x200B;**[!UICONTROL プレビュー]**&#x200B;ラベルを開いて、HTML に入力した値を表示します。
 
@@ -222,7 +222,7 @@ To add a hypertext link, go to **[!UICONTROL Static elements]** > **[!UICONTROL 
 
 画像をフォームに含める場合、外部からアクセス可能なサーバーに保存されている必要があります。
 
-**[!UICONTROL 静的要素]** / **[!UICONTROL 画像]** メニューを選択します。
+**[!UICONTROL 静的要素]** > **[!UICONTROL 画像]**&#x200B;メニューを選択します。
 
 挿入する画像のソースを選択します。パブリックリソースライブラリから取得したり、外部からアクセス可能なサーバーに保存したりできます。
 

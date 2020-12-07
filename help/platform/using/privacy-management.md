@@ -10,26 +10,26 @@ translation-type: tm+mt
 source-git-commit: 8ff5450cc35153e61048c2671f6d52fbc5ffc5b9
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # プライバシー管理 {#privacy-management}
 
-Adobe Campaignオファーは、[プライバシー規制](#privacy-management-regulations)（GDPR、CCPA、PDPA、LGPDを含む）に準拠するのに役立つ一連のツールを提供します。
+Adobe Campaign には、[プライバシー規制](#privacy-management-regulations)（GDPR、CCPA、PDPA、LGPD など）の順守に役立つ一連のツールが用意されています。
 
-GDPRや他のプライバシー規制に対する対応を確保するために、Adobe Campaignが提供する5つの主な機能を次に示します。
+GDPR や他のプライバシー規制に確実に対応するために Adobe Campaign に用意されている 5 つの主な機能を次に示します。
 
 ![](assets/privacy-gdpr-use-cases.png)
 
-* **アクセス権**
+* **アクセスする権利**
 
-* **削除権**
+* **削除する権利**
 
-詳しくは、[アクセス権と忘れられる権利](#right-access-forgotten)を参照してください。
+詳しくは、[アクセスする権利および忘れられる権利](#right-access-forgotten)を参照してください。
 
-* **同意管理**
+* **同意の管理**
 
 * **データリテンション**
 

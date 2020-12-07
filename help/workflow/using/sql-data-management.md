@@ -6,11 +6,11 @@ description: SQL データ管理ワークフローアクティビティの詳細
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 93%
 
 アクティビティを設定する前に、以下の前提条件を満たしていることを確認してください。
 
-* このアクティビティは、リモートデータソースに対してのみ使用できます。The **[!UICONTROL FDA]** (Federated Data Access) package must therefore be installed on your instance. [詳細情報](../../installation/using/about-fda.md)。
-* アウトバウンドスキーマは、データベースに存在し、FDAデータベースにリンクされている必要があります。 [詳細情報](../../configuration/using/about-schema-reference.md)。
+* このアクティビティは、リモートデータソースに対してのみ使用できます。そのため、インスタンスに **[!UICONTROL FDA]**（Federated Data Access）パッケージをインストールする必要があります。[詳細情報](../../installation/using/about-fda.md)。
+* アウトバウンドスキーマがデータベースに存在し、FDA データベースにリンクされている必要があります。 [詳細情報](../../configuration/using/about-schema-reference.md)。
 * ワークフローを実行するオペレーターには、**[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** ネームド権限が必要です。[詳細情報](../../platform/using/access-management.md#named-rights)。
 
 ## 「SQL データ管理」アクティビティの設定{#configuring-the-sql-data-management-activity}

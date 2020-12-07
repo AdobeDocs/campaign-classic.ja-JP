@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -115,7 +115,7 @@ Adobe Campaign エクスプローラーの一般的なレイアウトについ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
 
-その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。
+追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 
 **関連項目：**
 

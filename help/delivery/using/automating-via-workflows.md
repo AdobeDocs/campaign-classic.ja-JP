@@ -6,11 +6,11 @@ description: ワークフローを使用した自動化
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1200'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -270,7 +270,7 @@ FTP または SFTP サーバー上の HTML ファイルに配信コンテンツ�
 </input>
 ```
 
-編集領域で、取得するファイルの名前を入力できます。URLは、次のように、この名前に基づいて構築されます。https://myserver.adobe.com/incomin/data.xml
+編集領域で、取得するファイルの名前を入力できます。URL は、この名前に基づいて生成されます（例：https://myserver.adobe.com/incomin/data.xml）
 
 取得するデータのフォーマットは、ワークフローの自動化の例 1 と同じです。この例の「cus:book-workflow.xsl」スタイルシートを使用する必要があります。
 

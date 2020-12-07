@@ -6,11 +6,11 @@ description: 承認により、オペレーターはワークフロー管理に�
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae342f41b9b74159607b313e1c29549b17488db5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '870'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Web ページへのリンクが記載された承認メッセージを受け取�
 
 ## 有効期限 {#expirations}
 
-有効期限は、異なるタイプのアクティビティ、特に承認で使用される専用のトランジションです。有効期限を使用すると、応答のない特定の時間の後にアクションをトリガーできます。 また、ワークフローを実行し、別のグループに承認を割り当てる場合などにも使用できます。
+有効期限は、異なるタイプのアクティビティ、特に承認で使用される専用のトランジションです。有効期限を使用すると、応答が一定の時間なかった場合にアクションをトリガーできます。 また、ワークフローを追跡し別のグループに承認を割り当てる場合などにも使用できます。
 
 アクティビティの承認プロパティの 2 番目のタブで、1 つ以上の有効期限を定義できます。さらに、複数の有効期限タイプを定義できます。
 

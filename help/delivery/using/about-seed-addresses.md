@@ -6,9 +6,9 @@ description: シードアドレスについて
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -47,6 +47,7 @@ ht-degree: 100%
 >
 >* 「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」オプションは使用できません。
 >* 要素のコレクションが抽出される場合、「**[!UICONTROL 単一行（エキスパートユーザー）]**」オプションをオンにしない限り、それらのフィールドのシードアドレスの値は空になります。詳しくは、[この節](../../platform/using/exporting-data.md#step-7---data-formatting)を参照してください。
+
 >
 
 

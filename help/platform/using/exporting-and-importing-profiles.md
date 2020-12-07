@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
 workflow-type: tm+mt
 source-wordcount: '154'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -40,4 +40,4 @@ ht-degree: 90%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
 
-その他のCampaign Classicハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html)。
+追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

@@ -6,11 +6,11 @@ description: アクセス管理
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '3143'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 647a872d71d19802d7334a6e8f881f8d7ad94d13
+workflow-type: tm+mt
+source-wordcount: '3140'
+ht-degree: 99%
 
 ---
 
@@ -203,7 +203,7 @@ Adobe Campaign は、管理者（&#39;admin&#39;）、請求（&#39;billing&#39;
 
 >[!NOTE]
 >
->セキュリティガイドラインについて詳しくは、[Adobe Campaign セキュリティ設定チェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)を参照してください。
+>セキュリティガイドラインについて詳しくは、[Adobe Campaign セキュリティ設定チェックリスト](https://helpx.adobe.com/campaign/kb/acc-security.html)を参照してください。
 
 ## オペレーターグループ {#operator-groups}
 
@@ -348,7 +348,7 @@ Adobe Campaign は、管理者（&#39;admin&#39;）、請求（&#39;billing&#39;
 
 Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/using/assets/access-rights-matrix.pdf)にあります。
 
-[![画像](assets/do-not-localize/user_management.png)](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/getting-started/administration-basics/assets/access-rights-matrix.pdf)
+[![画像](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=en)
 
 ## フォルダーアクセスの管理 {#folder-access-management}
 

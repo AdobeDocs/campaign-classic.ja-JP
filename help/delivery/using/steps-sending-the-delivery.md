@@ -6,9 +6,9 @@ description: 配信の設定と送信
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '1615'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、以下の節を参照してください。
 
-* [配信の監視](../../delivery/using/monitoring-a-delivery.md)
+* [配信の監視](../../delivery/using/about-delivery-monitoring.md)
 * [配信エラーの理解](../../delivery/using/understanding-delivery-failures.md)
 * [メッセージトラッキングについて](../../delivery/using/about-message-tracking.md)
 
@@ -139,7 +139,7 @@ ht-degree: 100%
    >
    >また、最後のウェーブを設定するときに、再試行の時間を十分にみておく必要があります。[この節](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)を参照してください。
 
-1. 送信状況を監視するには、配信ログを参照してください。[このページ](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)を参照してください。
+1. 送信状況を監視するには、配信ログを参照してください。[このページ](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)を参照してください。
 
    処理済みのウェーブで既に送信された配信（ステータスが&#x200B;**[!UICONTROL 送信済み]**）と、残りのウェーブで送信されるウェーブ（ステータスが&#x200B;**[!UICONTROL 保留中]**）を確認できます。
 
@@ -200,4 +200,4 @@ ht-degree: 100%
 >
 >ホストインストールまたはハイブリッドインストールで、Enhanced MTA にアップグレードした場合、キャンペーン配信の「**[!UICONTROL 配信期間]**」設定は、**3.5** 日以下に設定された場合にのみ使用されます。3.5 日を超える値を定義した場合、その値は考慮されません。
 >
->すべての影響について詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。
+>すべての影響について詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。

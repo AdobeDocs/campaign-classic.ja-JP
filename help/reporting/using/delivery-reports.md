@@ -6,11 +6,11 @@ description: 配信レポート
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1636'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
+source-wordcount: '1628'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 * **[!UICONTROL 到達済み母集団のユニーク開封数]**：メッセージを少なくとも 1 回開封したターゲット受信者数の推定値。購読解除のリンクおよびミラーページでのクリック数が考慮されます。
 * **[!UICONTROL 到達済み母集団の開封数の合計]**：ターゲット受信者による開封数の合計の推定値。
 * **[!UICONTROL オプトアウトリンクのクリック数]**：購読解除リンクのクリック数。
-* **[!UICONTROL ミラーページリンクのクリック数]**：ミラーページへのリンクでのクリック数。考慮されるようにするには、リンクは配信ウィザード（トラッキングされる URL）と同じように定義する必要があります。この[ページ](../../delivery/using/monitoring-a-delivery.md)を参照してください。
+* **[!UICONTROL ミラーページリンクのクリック数]**：ミラーページへのリンクでのクリック数。考慮されるようにするには、リンクは配信ウィザード（トラッキングされる URL）と同じように定義する必要があります。この[ページ](../../delivery/using/about-delivery-monitoring.md)を参照してください。
 * **[!UICONTROL 推定転送数]**：ターゲット受信者によって転送される E メール数の推定値。この値は、ユニークユーザーの数と E メールをクリックしたユニーク受信者の数を引くことによって計算されます。
 
    >[!NOTE]
@@ -124,7 +124,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_url_report.png)
 
-このレポートの内容は、表示するスコアグラフ、時間フィルター（アクション開始以降、開始後の最初の 6 時間など）およびデータの表示モード（ラベル別、URL 別）を選択することによって設定できます。詳しくは、[このページ](../../delivery/using/monitoring-a-delivery.md)を参照してください。「**[!UICONTROL 更新]**」をクリックして選択内容を確定します。
+このレポートのコンテンツは、次を選択して設定できます。表示されるスコアグラフ、（アクションの開始以降、起動後の最初の6時間以内）時間フィルター、およびデータ表示モード(ラベル別、URL別、カテゴリ別) 「**[!UICONTROL 更新]**」をクリックして選択内容を確定します。
 
 次の率は、レポートの上部に表示されます。
 

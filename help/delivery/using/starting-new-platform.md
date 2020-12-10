@@ -6,9 +6,9 @@ description: Adobe Campaign Classic を使用して新しいプラットフォ�
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 * mtachilds の数を制限して、**スループット率を制限**&#x200B;します。このような技術的な設定の調整について詳しくは、Adobe Campaign の管理者にお問い合わせください。
 * スパムとしてマークされないように、**送信されるボリュームを順次増やします**。最初からデータベース全体をターゲットにせず、送信するたびにリストの少量を追加します。これにより、無効なアドレスの全体的な割合を減らしながら各ステップで量を増やすことができます。開始アップ段階を円滑に開発するために、ウェーブを使用できます。詳しくは、[複数のウェーブを使用した送信](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)を参照してください。
 * **定期的に送信**。ある程度までは、小さなものを定期的に送信する方が、大きなキャンペーンを散発的に送信するよりも適しています。
-* **配信レポートに細心の注意を払う**。エラー指標の数が多い場合は、技術的な設定が正しく設定されていない可能性があります。詳しくは、[配信の監視](../../delivery/using/monitoring-a-delivery.md)を参照してください。
+* **配信レポートに細心の注意を払う**。エラー指標の数が多い場合は、技術的な設定が正しく設定されていない可能性があります。詳しくは、[配信の監視](../../delivery/using/about-delivery-monitoring.md)を参照してください。
 
 **関連トピック**：
 * [IP ウォーミングによる E メールの評判の向上](https://helpx.adobe.com/jp/campaign/kb/increase-email-rep-ip-warming.html)

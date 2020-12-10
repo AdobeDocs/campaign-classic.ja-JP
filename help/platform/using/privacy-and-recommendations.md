@@ -6,9 +6,9 @@ description: プライバシーと同意の詳細を説明します
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 97e039e48068e3862bc6640711efe54f21fc0f15
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 100%
 
@@ -87,17 +87,17 @@ Campaign を、[Adobe Analytics](../../platform/using/adobe-analytics-data-conne
 
 したがって、個人データを収集し共有する会社はデータ管理者で、そのクライアントはデータ主体です。Adobe Campaign は、お客様の指示に従って個人データを処理する際に、データ処理者として機能します。[プライバシーリクエスト](#privacy-requests)を管理する場合など、データ主体との関係を処理するのはデータ管理者としての責任であることに注意してください。
 
-### 使用例シナリオ {#use-case-scenario}
+### 使用例のシナリオ{#use-case-scenario}
 
-様々なペルソナがどのようにやり取りしているかを説明するために、ここで GDPR 顧客体験の使用例の概要を紹介します。
+さまざまなペルソナがどのように関わり合っているかを説明するため、GDPR の顧客体験の高レベルの使用例を以下に示します。
 
-この例では、Adobe Campaign の顧客は航空会社です。 この会社が&#x200B;**データ管理者**&#x200B;になり、この航空会社のすべての利用者が&#x200B;**データ主体**&#x200B;になります。この例では、Laura はこの航空会社の利用者です。
+この例では、航空会社が Adobe Campaign の顧客です。 この会社が&#x200B;**データ管理者**&#x200B;で、この航空会社のすべての利用者が&#x200B;**データ主体**&#x200B;です。ここで、Laura はこの航空会社の利用者です。
 
-この例は次の関係者で構成されます。
+この例のペルソナは以下の通りです。
 
-* **Laura** は&#x200B;**データ主体**&#x200B;です。彼女は航空会社からメッセージを受け取る受信者です。Laura はリピーターですが、ある時点で、この航空会社からのパーソナライズされた広告やマーケティングメッセージの受信を希望しないことにしました。そのため、航空会社に（所定のプロセスに基づいて）マイレージサービス番号を削除するよう要求します。
+* **Laura** は&#x200B;**データ主体**&#x200B;で、航空会社からメッセージを受け取る受信者です。Laura はリピーターですが、ある時点で、航空会社からのパーソナライズされた広告やマーケティングメッセージの受信を希望しないことにしました。そのため、航空会社に（所定のプロセスに基づいて）リピーター番号を削除するよう要求します。
 
-* **Anne** は、この航空会社の&#x200B;**データ管理者**&#x200B;です。 Laura からのリクエストを受け取り、このデータ主体を識別するための有意な ID を取得して、要求内容を Adobe Campaign に登録します。
+* **Anne** は航空会社の&#x200B;**データ管理者**&#x200B;です。Laura からの要求を受け取り、このデータ主体を識別するための有意な ID を取得して、要求内容を Adobe Campaign に登録します。
 
 * **Adobe Campaign** は&#x200B;**データ処理者**&#x200B;です。
 
@@ -105,11 +105,11 @@ Campaign を、[Adobe Analytics](../../platform/using/adobe-analytics-data-conne
 
 この例での一般的なフローを以下に示します。
 
-1. **データ主体**（Laura）は、E メール、カスタマーケア、Web ポータルのいずれかを利用して、GDPR 要求を&#x200B;**データ管理者**&#x200B;に送付します。
+1. **データ主体**（Laura）は GDPR リクエストを&#x200B;**データ管理者**&#x200B;に E メール、カスタマーケア、Web ポータルのいずれかを利用して送付します。
 
-1. **データ管理者**（Anne）は、インターフェイスまたは API を使用して、この GDPR 要求を Campaign にプッシュします。
+1. **データ管理者**（Anne）はこの GDPR リクエストをインターフェイスまたは API を使用して Campaign に登録します。
 
-1. **データ処理者**（Adobe Campaign）が情報を受け取ると、GDPR 要求に対する処理を実行し、応答または確認通知を&#x200B;**データ管理者**（Anne）に送信します。
+1. **データ処理者**（Adobe Campaign）が情報を受け取ると、GDPR リクエストに対する処理を実行し、応答または確認通知を&#x200B;**データ管理者**（Anne）に送信します。
 
 1. **データ管理者**（Anne）は情報を受け取り、それを&#x200B;**データ主体**（Laura）に返します。
 
@@ -141,7 +141,7 @@ Campaign の主なプライバシー機能と関与するペルソナの例を[�
 * **データ保持**：すべての組み込みの標準ログテーブルには事前に設定された保存期間があり、通常、データのストレージは 6 か月以下に制限されます。その他の保存期間は、ワークフローで設定できます。詳しくは、アドビのコンサルタントまたは技術管理者にお問い合わせください。
 * **権限管理**：Adobe Campaign では、事前作成された役割またはカスタムの役割を使用して、様々な Campaign オペレーターに割り当てられている権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできるユーザーを管理できます。詳しくは、[アクセス管理について](../../platform/using/access-management.md)を参照してください。
 
-これらの機能および Adobe Campaign での管理方法について詳しくは、[こちら](../../platform/using/privacy-management.md#consent-retention-roles)を参照してください。
+これらの機能および Adobe Campaign での管理方法について詳しくは、[この節](../../platform/using/privacy-management.md#consent-retention-roles)を参照してください。
 
 ### プライバシーリクエスト {#privacy-requests}
 
@@ -176,7 +176,7 @@ GDPR（一般データ保護規則）などの規制では、企業は Cookie �
 
 Adobe Campaign では、送信された E メールと配信受信者の動作（開く、リンクのクリック、購読解除など）を追跡できます。詳しくは、[メッセージトラッキングについて](../../delivery/using/about-message-tracking.md)を参照してください。
 
-これをおこなうには、[トラッキングされたリンク](../../delivery/using/how-to-configure-tracked-links.md)をメッセージに追加して、配信ダッシュボードの「[トラッキング](../../delivery/using/monitoring-a-delivery.md#tracking-logs)」タブで配信と受信者の動作の影響を測定します。トラッキングデータは、[トラッキングインジケーター](../../reporting/using/delivery-reports.md#tracking-indicators)レポートで解釈されます。
+これをおこなうには、[トラッキングされたリンク](../../delivery/using/how-to-configure-tracked-links.md)をメッセージに追加して、配信ダッシュボードの「[トラッキング](../../delivery/using/delivery-dashboard.md#tracking-logs)」タブで配信と受信者の動作の影響を測定します。トラッキングデータは、[トラッキングインジケーター](../../reporting/using/delivery-reports.md#tracking-indicators)レポートで解釈されます。
 
 ### web トラッキング {#web-tracking}
 

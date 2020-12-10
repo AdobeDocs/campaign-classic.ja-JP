@@ -5,9 +5,9 @@ title: メッセージのトラッキングと監視
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 キャンペーンを制御するには、メッセージが実際に受信者に配信されたことを確認する必要があります。
 
-キャンペーン配信ダッシュボードから、処理済みメッセージと配信監査ログを確認できます。配信ログのメッセージのステータスも制御できます。詳しくは、[こちら](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard)を参照してください。
+キャンペーン配信ダッシュボードから、処理済みメッセージと配信監査ログを確認できます。配信ログのメッセージのステータスも制御できます。詳しくは、[こちら](../../delivery/using/about-delivery-monitoring.md)を参照してください。
 
 配信が送信されず、そのステータスが「**保留中**」のままになっている場合は、どのような状況が考えられるでしょうか。
 
@@ -62,6 +62,6 @@ ht-degree: 100%
 
 * [画像の表示の問題](../../production/using/image-display-issues.md)
 
-* [配信パフォーマンスの問題](../../delivery/using/monitoring-a-delivery.md#performance_issues)
+* [配信パフォーマンスの問題](../../delivery/using/delivery-performances.md)
 
 * [一時ファイルの問題](../../production/using/temporary-files.md) — *オンプレミスのお客様のみ*

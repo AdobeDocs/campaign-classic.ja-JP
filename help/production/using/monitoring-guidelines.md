@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: introduction
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9aa0ecd423bfbf1082e9ce5bdb36aaf1611dea54
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 16%
@@ -19,7 +19,7 @@ ht-degree: 16%
 
 ## インスタンスの監視ダッシュボード {#instance-monitoring-dashboard}
 
-Campaign Classicのホームページからアクセスできる **[!UICONTROL 「監視]** 」タブは、インスタンスの監視に役立つ主なエントリポイントです。
+Campaign Classicのホームページからアクセスできる&#x200B;**[!UICONTROL 「監視]**」タブは、インスタンスの監視に役立つ主なエントリポイントです。
 
 インスタンスで何が起きているかのダッシュボードを提供します。ステータス（ビルドバージョン、インストール済みパッケージなど）、システムインジケータ、ログ、現在実行中のワークフロー、最後に送信された配信の状態など。
 
@@ -27,7 +27,7 @@ Campaign Classicのホームページからアクセスできる **[!UICONTROL �
 
 ![](assets/monitoring_tab.png)
 
-## Monitoring Campaign Classic processes {#monitoring-campaign-classic-processes}
+## 監視Campaign Classicプロセス{#monitoring-campaign-classic-processes}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">インスタンスの監視</a></p></td>
@@ -38,7 +38,7 @@ Campaign Classicのホームページからアクセスできる **[!UICONTROL �
 
 様々なキャンペーンプロセスを監視するその他の方法を使用できます。 システムが正常であることを確認し、ワークフローの設定や配信の送信時に発生する可能性のある問題のトラブルシューティングを行うために、インスタンスをいくつかの方法で監視します。
 
-### インスタンスの監視 {#monitoring-instance}
+### インスタンスの監視{#monitoring-instance}
 
 <img src="assets/do-not-localize/icon_system.svg" width="60px">
 
@@ -72,7 +72,7 @@ Workflow HeatMapは、インスタンスで実行されているすべてのワ�
 
 **ワークフローのトラブルシューティング**
 
-ワークフローの実行で問題が発生した場合は、特定のアクションを実行できます。 [詳細については](../../production/using/workflow-execution.md) 、ここをクリックしてください
+ワークフローの実行で問題が発生した場合は、特定のアクションを実行できます。 [詳細につ](../../production/using/workflow-execution.md) いてはここをクリック
 
 **ワークフローの状態の監視**
 
@@ -94,15 +94,16 @@ SMTPレポートには、配信の統計とSMTPエラーがドメイン別に表
 
 **ベストプラクティス**
 
-[配信の送信とデザインのベストプラクティスは](../../delivery/using/delivery-best-practices.md) 、パフォーマンスの向上に役立ちます。
+[配信の送信と](../../delivery/using/delivery-best-practices.md) 設計のベストプラクティスは、パフォーマンスの向上に役立ちます。
 
-**配信のトラブルシューティング**&#x200B;特定のアクションは、配信の問題が発生した場合に実行できます。
+**配信の**
+トラブルシューティング配信に関する問題が発生した場合は、特定の操作を実行できます。
 * [配信品質の問題](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [画像の表示の問題](../../production/using/image-display-issues.md)
-* [配信パフォーマンスの問題](../../delivery/using/monitoring-a-delivery.md#performance_issues)
-* [一時的なファイルの問題](../../production/using/temporary-files.md) — オンプレミス *のホスティングモデルのみ*
+* [配信パフォーマンスの問題](../../delivery/using/delivery-performances.md)
+* [一時的なファイルの問題](../../production/using/temporary-files.md)  — オンプレミス *のホスティングモデルのみ*
 
-### データベースの監視 {#monitoring-database}
+### データベースの監視{#monitoring-database}
 
 <img src="assets/do-not-localize/icon_database.svg" width="60px">
 
@@ -124,9 +125,9 @@ SMTPレポートには、配信の統計とSMTPエラーがドメイン別に表
 
 *オンプレミスおよびハイブリッドのホスティングモデルのみ*
 
-マシン上の問題（物理的な問題でもシステム関連の問題でも）のイベントにデータが失われないように、バックアップは不可欠です。 [詳しくは、ここをクリックしてください。](../../production/using/backup.md)復元手順については、 [この節で説明します](../../production/using/restoration.md)。
+マシン上の問題（物理的な問題でもシステム関連の問題でも）のイベントにデータが失われないように、バックアップは不可欠です。 [詳しくは、ここをクリックしてください。](../../production/using/backup.md)リストア手順については、[このセクション](../../production/using/restoration.md)で説明します。
 
-## Campaign Classic技術原則 {#campaign-classic-technical-principles}
+## Campaign Classic技術原則{#campaign-classic-technical-principles}
 
 テクニカルリソースは、Campaign Classicドキュメントで参照できます。 インスタンスで技術的な操作を実行する前に、これらのトピックについて理解しておくことをお勧めします。
 

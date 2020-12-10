@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 13cc481606ffb78f9a755ef8aa8a9d7cbb5d44c2
+source-git-commit: 854d509315f1d8585cb041575908df896468cc77
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2196'
 ht-degree: 98%
 
 ---
@@ -153,7 +153,12 @@ ht-degree: 98%
       + [購読の管理](delivery/using/managing-subscriptions.md)
       + [バイラルおよびソーシャルマーケティング](delivery/using/viral-and-social-marketing.md)
    + 配信の監視 {#monitoring-deliveries}
-      + [配信の監視](delivery/using/monitoring-a-delivery.md)
+      + [配信監視の概要](delivery/using/about-delivery-monitoring.md)
+      + [配信のリストへのアクセス](delivery/using/list-of-deliveries.md)
+      + [配信ダッシュボード](delivery/using/delivery-dashboard.md)
+      + [配信パフォーマンスのベストプラクティス](delivery/using/delivery-performances.md)
+      + [配信のトラブルシューティング](delivery/using/delivery-troubleshooting.md)
+      + [配信ステータス](delivery/using/delivery-statuses.md)
       + [配信エラーの理解](delivery/using/understanding-delivery-failures.md)
       + [強制隔離管理の理解](delivery/using/understanding-quarantine-management.md)
    + メッセージのトラッキング {#tracking-messages}

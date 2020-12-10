@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 translation-type: tm+mt
-source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
+source-git-commit: c366326f6a439dabaa42fdd799ec2e55c180a929
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Webサービスは、データスキーマーの文法で記述され、**`<meth
 
 &quot;const&quot;メソッドは暗黙的に、関連するスキーマの形式のXMLドキュメントを入力として持ちます。
 
-Adobe Campaignスキーマの`<method>`要素の詳細な説明は、<a href="../../configuration/using/schema/method.md)" target="_blank">の下の「スキーマ参照」の章で確認できます  `<method>`要素にオファーコンテンツが返されます。
+Adobe Campaignスキーマの`<method>`要素の詳細な説明は、[Method](../../configuration/using/schema/method.md)の下の「スキーマ参照」の章で確認できます
 
 「xtk:queryDef」スキーマの&quot;const&quot;型の&quot;ExecuteQuery&quot;メソッドの例：
 

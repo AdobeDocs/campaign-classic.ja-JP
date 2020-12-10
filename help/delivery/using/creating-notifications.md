@@ -6,9 +6,9 @@ description: プッシュ通知を作成する方法を説明します。
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
 
@@ -95,7 +95,7 @@ ht-degree: 100%
 メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、以下の節を参照してください。
 
 * [プッシュ通知の強制隔離](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [配信の監視](../../delivery/using/monitoring-a-delivery.md)
+* [配信の監視](../../delivery/using/about-delivery-monitoring.md)
 * [配信エラーの理解](../../delivery/using/understanding-delivery-failures.md)
 
 ## Android で通知を送信する {#sending-notifications-on-android}
@@ -138,5 +138,5 @@ ht-degree: 100%
 メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、以下の節を参照してください。
 
 * [プッシュ通知の強制隔離](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [配信の監視](../../delivery/using/monitoring-a-delivery.md)
+* [配信の監視](../../delivery/using/about-delivery-monitoring.md)
 * [配信エラーの理解](../../delivery/using/understanding-delivery-failures.md)

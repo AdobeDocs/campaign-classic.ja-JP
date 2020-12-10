@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
 workflow-type: tm+mt
 source-wordcount: '1570'
 ht-degree: 12%
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # スキーマの構造{#schema-structure}
 
-の基本的な構造 `<srcschema>` は次のとおりです。
+`<srcschema>`の基本的な構造は次のとおりです。
 
 ```
 <srcSchema>
@@ -101,7 +101,7 @@ ht-degree: 12%
 <element name="recipient">
 ```
 
-メイン要素 **`<attribute>`** とその後 **`<element>`** に続く要素を使用して、XML構造内のデータ項目の場所と名前を定義できます。
+メイン要素の後に続く要素&#x200B;**`<attribute>`**&#x200B;と&#x200B;**`<element>`**&#x200B;を使用して、XML構造内のデータ項目の場所と名前を定義できます。
 
 サンプルスキーマでは、次のようになります。
 
@@ -116,42 +116,42 @@ ht-degree: 12%
 
 次の規則に従う必要があります。
 
-* お **`<element>`** よびは、 **`<attribute>`** name **** 属性で名前で識別する必要があります。
+* 各&#x200B;**`<element>`**&#x200B;と&#x200B;**`<attribute>`**&#x200B;は、**name**&#x200B;属性を介して名前で識別する必要があります。
 
    >[!IMPORTANT]
    >
    >要素名は簡潔で、できれば英語で記述し、XML命名規則に従って、許可された文字のみを含める必要があります。
 
-* XML構造に含めることができるのは **`<element>`** 要素 **`<attribute>`** と **`<element>`** 要素だけです。
-* 要素は、 **`<attribute>`** 要素内に一意の名前を持つ必要があり **`<element>`**&#x200B;ます。
-* 複数行のデータ文字列 **`<elements>`** での使用をお勧めします。
+* XML構造には、**`<element>`**&#x200B;要素と&#x200B;**`<element>`**&#x200B;要素のみを含めることができます。**`<attribute>`**
+* **`<attribute>`**&#x200B;要素は、**`<element>`**&#x200B;内に一意の名前を持つ必要があります。
+* 複数行のデータ文字列では、**`<elements>`**&#x200B;を使用することをお勧めします。
 
 ## データタイプ {#data-types}
 
-データタイプは、および **要素の** type **`<attribute>`** 属性を使用して入力 **`<element>`** します。
+データ型は、**`<attribute>`**&#x200B;要素と&#x200B;**`<element>`**&#x200B;要素の&#x200B;**type**&#x200B;属性を介して入力されます。
 
-詳細なリストは、要素と要素の説明で確認でき [`<attribute>` ます](../../configuration/using/elements-and-attributes.md#attribute--element)[`<element>`](../../configuration/using/elements-and-attributes.md#element--element)。
+詳細なリストは、[`<attribute>`要素](../../configuration/using/schema/attribute.md)と[`<element>`要素](../../configuration/using/schema/element.md)の説明に記載されています。
 
-この属性に値が入力されていない場合、要素に子要素が含まれていない限り、 **string** がデフォルトのデータ型になります。 要素が含まれる場合は、要素を階層的に構成する目的(この例では&#x200B;**`<location>`** 要素)でのみ使用します。
+この属性が空の場合、要素に子要素が含まれていない限り、**string**&#x200B;がデフォルトのデータ型になります。 その場合は、要素を階層的に構成する（この例では&#x200B;**`<location>`**&#x200B;要素）ためにのみ使用します。
 
 スキーマでは、次のデータ型がサポートされています。
 
-* **string**:文字列。 例：名、町名等
+* **string**:文字列。例：名、町名等
 
-   サイズは、 **length** 属性（オプション、デフォルト値は「255」）を使用して指定できます。
+   サイズは、**length**&#x200B;属性（オプション、デフォルト値は「255」）を使用して指定できます。
 
-* **boolean**:ブール値フィールド 可能な値の例：true/false、0/1、yes/noなど
-* **byte**, **short**, **long**:整数（1バイト、2バイト、4バイト）。 例：年齢、口座番号、ポイント数等
-* **重複**:重複精度浮動小数点数。 例：価格、料金等
-* **date**, **datetime**:日付と日付+時間。 例：生年月日、購入年月日等
+* **boolean**:ブール値フィールド可能な値の例：true/false、0/1、yes/noなど
+* **byte**,  **short**,  **long**:整数（1バイト、2バイト、4バイト）。例：年齢、口座番号、ポイント数等
+* **重複**:重複精度浮動小数点数。例：価格、料金等
+* **date**,  **datetime**:日付と日付+時間。例：生年月日、購入年月日等
 * **datetimenotz**:タイムゾーンデータを含まない日付+時刻。
-* **timespan**:継続時間。 例：年功序列。
-* **メモ**:長いテキストフィールド（複数行） 例：説明、コメントなど
+* **timespan**:継続時間。例：年功序列。
+* **メモ**:長いテキストフィールド（複数行）例：説明、コメントなど
 * **uuid**:GUIDをサポートする「uniqueidentifier」フィールド（Microsoft SQL Serverでのみサポート）。
 
    >[!NOTE]
    >
-   >Microsoft SQL Server以外のエンジンに **uuid** フィールドを含めるには、「newuuid()」関数を追加し、デフォルト値で完了する必要があります。
+   >Microsoft SQL Server以外のエンジンに&#x200B;**uuid**&#x200B;フィールドを含めるには、「newuuid()」関数を追加し、デフォルト値で完了する必要があります。
 
 次に、入力したタイプのスキーマ例を示します。
 
@@ -168,7 +168,7 @@ ht-degree: 12%
 </srcSchema>
 ```
 
-### Adobe Campaign/DBMSデータのタイプのマッピング {#mapping-the-types-of-adobe-campaign-dbms-data}
+### Adobe Campaign/DBMSデータのタイプのマッピング{#mapping-the-types-of-adobe-campaign-dbms-data}
 
 次の表に、様々なデータベース管理システム用にAdobe Campaignで生成されたデータのタイプのマッピングを示します。
 
@@ -185,10 +185,10 @@ ht-degree: 12%
   <tr> 
    <td> 文字列<br /> </td> 
    <td> VARCHAR(255)<br /> </td> 
-   <td> VARCHAR2 （Unicodeの場合はNVARCHAR2）<br /> </td> 
-   <td> VARCHAR(VARCHAR文字セット（Unicodeの場合はUNICODE）<br /> </td> 
+   <td> VARCHAR2 (NVARCHAR2 （unicodeの場合）<br /> </td> 
+   <td> VARCHAR (VARCHAR CHARACTER SET UNICODE if Unicode)<br /> </td> 
    <td> VARCHAR<br /> </td> 
-   <td> VARCHAR （Unicodeの場合はNVARCHAR）<br /> </td> 
+   <td> VARCHAR (NVARCHAR if unicode)<br /> </td> 
   </tr> 
   <tr> 
    <td> ブール値<br /> </td> 
@@ -219,7 +219,7 @@ ht-degree: 12%
    <td> 重複精度<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
-   <td> DOUBLE<br /> </td> 
+   <td> 重複<br /> </td> 
    <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
@@ -271,20 +271,20 @@ ht-degree: 12%
    <td> MS SQL &lt; 2008:DATETIME<br /> MS SQL &gt;= 2012:DATETIME2<br /> </td> 
   </tr> 
   <tr> 
-   <td> Timespan<br /> </td> 
+   <td> タイムスパン<br /> </td> 
    <td> 重複精度<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
-   <td> DOUBLE<br /> </td> 
+   <td> 重複<br /> </td> 
    <td> FLOAT<br /> </td> 
   </tr> 
   <tr> 
    <td> メモ<br /> </td> 
    <td> TEXT<br /> </td> 
-   <td> CLOB（Unicodeの場合はNCLOB）<br /> </td> 
-   <td> CLOB（UNICODEの場合はCLOB文字セットUNICODE）<br /> </td> 
+   <td> CLOB （Unicodeの場合はNCLOB）<br /> </td> 
+   <td> CLOB (CLOB CHARACTER SET UNICODE if Unicode)<br /> </td> 
    <td> CLOB(6M)<br /> </td> 
-   <td> TEXT（Unicodeの場合はNTEXT）<br /> </td> 
+   <td> TEXT （Unicodeの場合はNTEXT）<br /> </td> 
   </tr> 
   <tr> 
    <td> BLOB<br /> </td> 
@@ -299,11 +299,11 @@ ht-degree: 12%
 
 ## プロパティ {#properties}
 
-データスキーマ **`<elements>`** の要素と **`<attributes>`** 要素は、様々なプロパティを使用して強化できます。 現在の要素を説明するためにラベルを入力できます。
+データスキーマの&#x200B;**`<elements>`**&#x200B;要素と&#x200B;**`<attributes>`**&#x200B;要素は、様々なプロパティを使用して強化できます。 現在の要素を説明するためにラベルを入力できます。
 
-### ラベルと説明 {#labels-and-descriptions}
+### ラベルと説明{#labels-and-descriptions}
 
-* 「 **label** 」プロパティを使用すると、簡単な説明を入力できます。
+* **label**&#x200B;プロパティを使用すると、簡単な説明を入力できます。
 
    >[!NOTE]
    >
@@ -319,7 +319,7 @@ ht-degree: 12%
 
    ![](assets/d_ncs_integration_schema_label.png)
 
-* **desc** プロパティを使用すると、詳細な説明を入力できます。
+* **desc**&#x200B;プロパティを使用すると、詳細な説明を入力できます。
 
    説明は、Adobe Campaignクライアントコンソールのメインウィンドウのステータスバーにある入力フォームから確認できます。
 
@@ -335,32 +335,32 @@ ht-degree: 12%
 
 ### デフォルト値 {#default-values}
 
-**default** プロパティを使用すると、コンテンツ作成時にデフォルト値を返す式を定義できます。
+**デフォルト**&#x200B;プロパティを使用すると、コンテンツ作成時にデフォルト値を返す式を定義できます。
 
-値は、XPath言語に準拠した式である必要があります。 この方法について詳しくは、「XPathを使用した [参照](../../configuration/using/schema-structure.md#referencing-with-xpath)」を参照してください。
+値は、XPath言語に準拠した式である必要があります。 詳しくは、[XPathでの参照](../../configuration/using/schema-structure.md#referencing-with-xpath)を参照してください。
 
 **例**：
 
-* 現在の日付： **default=&quot;GetDate()&quot;**
-* カウンタ： **default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
+* 現在の日付：**default=&quot;GetDate()&quot;**
+* カウンタ：**default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
 
-   この例では、文字列を連結して、 **CounterValue** 関数を空のカウンタ名で呼び出して、デフォルト値を構築します。 返される数字は、挿入のたびに1ずつ増分されます。
+   この例では、デフォルト値は文字列を連結して構築され、**CounterValue**&#x200B;関数を空きカウンタ名で呼び出しています。 返される数字は、挿入のたびに1ずつ増分されます。
 
    >[!NOTE]
    >
-   >Adobe Campaignクライアントコンソールでは、 **[!UICONTROL 管理/カウンタ]** ノードを使用してカウンタを管理します。
+   >Adobe Campaignクライアントコンソールでは、**[!UICONTROL Administration>Counters]**&#x200B;ノードを使用してカウンターを管理します。
 
-デフォルト値をフィールドにリンクするには、 `<default>  or  <sqldefault>   field.  </sqldefault> </default>`
+フィールドにデフォルト値をリンクするには、`<default>  or  <sqldefault>   field.  </sqldefault> </default>`
 
-`<default>` :エンティティを作成する際に、フィールドにデフォルト値を事前入力できます。 値はデフォルトのSQL値ではありません。
+`<default>` :エンティティを作成する際に、フィールドにデフォルト値を事前入力できます。値はデフォルトのSQL値ではありません。
 
-`<sqldefault>` :フィールドの作成時に値を追加できます。 この値はSQL結果として表示されます。 スキーマの更新中、新しいレコードのみがこの値の影響を受けます。
+`<sqldefault>` :フィールドの作成時に値を追加できます。この値はSQL結果として表示されます。 スキーマの更新中、新しいレコードのみがこの値の影響を受けます。
 
 ### 列挙 {#enumerations}
 
-#### 無料定義済みリスト {#free-enumeration}
+#### 無料定義済みリスト{#free-enumeration}
 
-userEnum **** プロパティを使用すると、このフィールドに入力した値を記憶し、表示するための空き定義済みリストを定義できます。 構文は以下のようになります。
+**userEnum**&#x200B;プロパティを使用すると、このフィールドに入力した値を記憶し、表示するための空き定義済みリストを定義できます。 構文は以下のようになります。
 
 **userEnum=&quot;定義済みリスト名&quot;**
 
@@ -372,13 +372,13 @@ userEnum **** プロパティを使用すると、このフィールドに入力
 
 >[!NOTE]
 >
->Adobe Campaignクライアントコンソールでは、 **[!UICONTROL 定義済みリストの管理/定義済みリスト]** ノードを使用してを管理します。
+>Adobe Campaignクライアントコンソールでは、定義済みリストの管理に&#x200B;**[!UICONTROL 管理/定義済みリスト]**&#x200B;ノードが使用されます。
 
-#### 定義済みリストの設定 {#set-enumeration}
+#### 定義済みリスト{#set-enumeration}を設定
 
-**enum** プロパティを使用すると、可能な値のリストがあらかじめわかっている場合に使用される固定定義済みリストを定義できます。
+**enum**&#x200B;プロパティを使用すると、可能な値のリストが事前にわかっている場合に使用する固定定義済みリストを定義できます。
 
-**enum** 属性は、メイン要素の外側のスキーマに入力された定義済みリストクラスの定義を参照します。
+**enum**&#x200B;属性は、メイン要素の外側のスキーマに入力される定義済みリストクラスの定義を参照します。
 
 定義済みリストを使用すると、ユーザーは、通常の入力フィールドに値を入力する代わりに、ドロップダウンリストから値を選択できます。
 
@@ -394,7 +394,7 @@ userEnum **** プロパティを使用すると、このフィールドに入力
 </enumeration>
 ```
 
-定義済みリストは、その要素を介してメイン要素の外側で宣言され **`<enumeration>`** ます。
+定義済みリストは、メイン要素の外側で&#x200B;**`<enumeration>`**&#x200B;要素を介して宣言されます。
 
 定義済みリストのプロパティは次のとおりです。
 
@@ -403,18 +403,18 @@ userEnum **** プロパティを使用すると、このフィールドに入力
 * **name**:定義済みリストの名前
 * **default**:定義済みリストのデフォルト値。
 
-定義済みリスト値は、次の属性を使用して **`<value>`** 要素内で宣言されます。
+定義済みリスト値は、次の属性を持つ&#x200B;**`<value>`**&#x200B;要素で宣言されます。
 
 * **name**:内部的に保存された値の名前、
 * **label**:グラフィカルインターフェースを介して表示されるラベル。
 
-#### ドベナム定義済みリスト {#dbenum-enumeration}
+#### dbenum定義済みリスト{#dbenum-enumeration}
 
-* dbenum **プロパティを使用すると** 、 **** enumプロパティと類似のプロパティを持つ定義済みリストを定義できます。
+* **dbenum**&#x200B;プロパティを使用すると、**enum**&#x200B;プロパティと類似したプロパティを持つ定義済みリストを定義できます。
 
-   ただし、 **name** 属性は値を内部的に保存するのではなく、関連するテーブルのスキーマを変更せずに関連するテーブルを拡張できるコードを保存します。
+   ただし、**name**&#x200B;属性は値を内部的に格納するのではなく、関連するテーブルのスキーマを変更せずに拡張できるコードを格納します。
 
-   値は、 **[!UICONTROL 管理/定義済みリスト]** ・ノードで定義します。
+   値は、**[!UICONTROL 管理>定義済みリスト]**&#x200B;ノードを介して定義されます。
 
    この定義済みリストは、キャンペーンの特性を指定する場合などに使用します。
 
@@ -447,7 +447,7 @@ userEnum **** プロパティを使用すると、このフィールドに入力
 
 コレクションは、同じ名前と同じ階層レベルを持つ要素のリストです。
 
-**unbound** 属性の値が「true」の場合、コレクション要素を設定できます。
+**unbound**&#x200B;属性の値が「true」の場合は、コレクション要素にデータを埋め込むことができます。
 
 **例**:スキーマ内の **`<group>`** コレクション要素の定義。
 
@@ -464,7 +464,7 @@ XMLコンテンツの投影を使用する場合：
 <group label="Group2"/>
 ```
 
-## XPathを使用した参照 {#referencing-with-xpath}
+## XPath {#referencing-with-xpath}による参照
 
 Adobe Campaign では、XPath 言語を使用して、データスキーマに属する要素または属性を参照します。
 
@@ -475,17 +475,17 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 **例**：
 
 * **@email**:電子メールを選択し、
-* **location/@city**:要素の下の「市区町村」属性を選択し **`<location>`** ます
+* **location/@city**:要 **`<location>`** 素の下の「市区町村」属性を選択
 * **../@email**:現在の要素の親要素から電子メールアドレスを選択します
-* **group`[1]/@label`**:最初のコレクション要素の子である「label」属性を選択し **`<group>`** ます
-* **group`[@label='test1']`**:要素の子で、値「test1」を含む「label」属性を **`<group>`** 選択します
+* **group`[1]/@label`**:最初の **`<group>`** コレクション要素の子である「label」属性を選択します
+* **group`[@label='test1']`**: **`<group>`** 要素の子で、値「test1」を含む「label」属性を選択します
 
 >[!NOTE]
 >
 >パスがサブ要素を越えると、追加の制約が追加されます。 この場合、次の式を角括弧で囲む必要があります。
 >
->* **location/@city** is not valid;使用する **`[location/@city]`**
->* **`[@email]`** と **@email** は同等です。
+>* **location/@** cityis not valid;使用する  **`[location/@city]`**
+>* **`[@email]`** と **@** emailare equivalent
 
 >
 
@@ -493,7 +493,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 次の算術演算など、複雑な式を定義することもできます。
 
-* **@gender+1**:gender **属性の内容に1を追加します** 。
+* **@gender+1**:genderattributeの内容に1を追加し **** ます。
 * **@email + &#39;(&#39;+@created+&#39;&#39;**:作成日の丸括弧内に追加された電子メールアドレスの値を受け取って文字列を作成します（文字列型の場合は、定数を引用符で囲みます）。
 
 この言語の潜在能力を高めるため、式に高レベルの関数が追加されました。
@@ -508,11 +508,11 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 * **Year(@created)**:「created」属性に含まれる日付の年を返します。
 * **GetEmailDomain(@email)**:電子メールアドレスのドメインを返します。
 
-## 計算文字列を使用した文字列の作成 {#building-a-string-via-the-compute-string}
+## 計算文字列{#building-a-string-via-the-compute-string}を使用した文字列の作成
 
-「 **Compute string** 」は、スキーマに関連付けられたテーブル内のレコードを表す文字列を構築するために使用されるXPath式です。 **計算文字列** ：主にグラフィカルインターフェイスで、選択したレコードのラベルを表示するために使用されます。
+**計算文字列**&#x200B;は、スキーマに関連付けられたテーブルのレコードを表す文字列の構築に使用されるXPath式です。 **計算** 文字列は主にグラフィカルインターフェイスで使用され、選択したレコードのラベルを表示します。
 
-「 **計算文字列** 」は、データスキーマのメイン要素の下の **`<compute-string>`** 要素を介して定義されます。 「 **expr** 」属性には、表示を計算するXPath式が含まれます。
+**計算文字列**&#x200B;は、データスキーマのメイン要素の下の&#x200B;**`<compute-string>`**&#x200B;要素を介して定義されます。 **expr**&#x200B;属性には、表示を計算するXPath式が含まれます。
 
 **例**:受信者テーブルの文字列を計算します。
 
@@ -525,7 +525,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 </srcSchema>
 ```
 
-受信者の計算済み文字列の結果： **Doe John(john.doe@aol.com)**
+受信者の計算済み文字列の結果：**Doe John (john.doe@aol.com)**
 
 >[!NOTE]
 >

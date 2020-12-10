@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 854d509315f1d8585cb041575908df896468cc77
+source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2215'
 ht-degree: 98%
 
 ---
@@ -710,7 +710,24 @@ ht-degree: 98%
       + [スキーマリファレンスについて](configuration/using/about-schema-reference.md)
       + [スキーマの構造](configuration/using/schema-structure.md)
       + [データベースマッピング](configuration/using/database-mapping.md)
-      + [要素と属性](configuration/using/elements-and-attributes.md)
+      + 要素と属性 {#elements-and-attributes}
+         + [属性](configuration/using/schema/attribute.md)
+         + [計算文字列](configuration/using/schema/compute-string.md)
+         + [条件](configuration/using/schema/condition.md)
+         + [DBインデックス](configuration/using/schema/db-index.md)
+         + [要素](configuration/using/schema/element.md)
+         + [列挙](configuration/using/schema/enumeration.md)
+         + [ヘルプ](configuration/using/schema/help.md)
+         + [結合](configuration/using/schema/join.md)
+         + [キー](configuration/using/schema/key.md)
+         + [Keyfield](configuration/using/schema/keyfield.md)
+         + [方法](configuration/using/schema/method.md)
+         + [メソッド](configuration/using/schema/methods.md)
+         + [パラメータ](configuration/using/schema/param.md)
+         + [パラメーター](configuration/using/schema/parameters.md)
+         + [SrcSchema](configuration/using/schema/srcschema.md)
+         + [Sysfilter](configuration/using/schema/sysfilter.md)
+         + [値](configuration/using/schema/value.md)
    + スキーマの編集 {#editing-schemas}
       + [スキーマエディションについて](configuration/using/about-schema-edition.md)
       + [データスキーマ](configuration/using/data-schemas.md)

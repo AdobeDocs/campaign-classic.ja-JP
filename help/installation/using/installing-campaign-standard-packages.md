@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 26%
@@ -15,9 +15,9 @@ ht-degree: 26%
 ---
 
 
-# Installing Campaign Classic built-in packages{#installing-campaign-standard-packages}
+# Campaign Classicの組み込みパッケージのインストール{#installing-campaign-standard-packages}
 
-## 組み込みパッケージについて {#campaign-standard-packages}
+## 組み込みパッケージについて{#campaign-standard-packages}
 
 組み込みのパッケージには、ニーズに応じて、また契約に応じてインストールできる一連の機能が含まれています。 キャンペーン組み込みパッケージの完全なリストは以下のとおりです。
 
@@ -45,7 +45,7 @@ ht-degree: 26%
 
 これでパッケージがインストールされます。
 
-### List of out-of-the-box Packages {#list-of-standard-packages}
+### パッケージのリスト{#list-of-standard-packages}
 
 次の表に、すべてのキャンペーン組み込みパッケージのリストを示します。
 
@@ -60,7 +60,7 @@ ht-degree: 26%
  <tbody> 
   <tr> 
    <td> 配信<br /> </td> 
-   <td> メッセージの送信時に発生する配信と最終的な問題を監視します。 <a href="../../delivery/using/monitoring-a-delivery.md">詳細情報</a><br /> </td> 
+   <td> メッセージの送信時に発生する配信と最終的な問題を監視します。 <a href="../../delivery/using/about-delivery-monitoring.md">詳細情報</a><br /> </td> 
    <td> すべて</td> 
   </tr> 
   <tr> 
@@ -74,7 +74,7 @@ ht-degree: 26%
    <td> マーケティング</td> 
   </tr> 
   <tr> 
-   <td> Offer engine (interaction)<br /> </td> 
+   <td> オファーエンジン（相互作用）<br /> </td> 
    <td> 1つまたは複数の適合オファーを作成することで、特定の接触(顧客またはターゲット)との対話中にリアルタイムで応答します。  （オプション）<a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">詳細情報</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
@@ -86,7 +86,7 @@ ht-degree: 26%
   <tr> 
    <td> 実行インスタンス用のオファーエンジン. （オプション）<br /> </td> 
    <td> オファーエンジン（操作）の実行インスタンスにインストールするパッケージです。 <a href="../../interaction/using/distributed-architectures.md">詳細情報</a> </td> 
-   <td> 中間、実行 <br /> </td>  
+   <td> 中間、実行<br /> </td>  
   </tr> 
   <!--tr> 
    <td> Lead Management (Leads) (deprecated)<br /> </td> 
@@ -165,7 +165,7 @@ ht-degree: 26%
    <td> すべて </td> 
   </tr> 
   <tr> 
-   <td> Coupon Management<br /> </td> 
+   <td> クーポン管理<br /> </td> 
    <td> クーポンのセットを作成して、今後のマーケティングオファーに追加します。 （オプション）<a href="../../delivery/using/personalized-coupons.md">詳細情報</a> <br /> </td> 
    <td> マーケティング<br /> </td> 
   </tr> 
@@ -200,7 +200,7 @@ ht-degree: 26%
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integration with Adobe Experience Cloud<br /> </td> 
+   <td> Adobe Experience Cloud<br />との統合 </td> 
    <td> 様々なAdobe Experience Cloudソリューションからオーディエンス/セグメントをAdobe Campaignにインポートおよびエクスポートできます。 （オプション）<a href="../../integrations/using/configuring-ims.md#installing-the-package">詳細情報</a> </td> 
    <td> マーケティング</td> 
   </tr> 
@@ -232,18 +232,18 @@ ht-degree: 26%
  </tbody> 
 </table>
 
-### Message Centerパッケージ {#message-center-package}
+### Message Centerパッケージ{#message-center-package}
 
 配信チャネル(電子メール、モバイルチャネル、モバイルアプリチャネルなど)を トランザクションメッセージをインストールする前に（Message Centerパッケージ） 電子メールのみのMessage Centerプロジェクトを開始し、その後新しいチャネルを追加する必要がある場合は、次の手順に従う必要があります。
 
-1. Install the new channel, for example the **Mobile channel**, using the package import wizard ( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
-1. ファイルを読み込み( **[!UICONTROL ツール/アドバンスト/パッケージの読み込み/ファイル]**)、次を選択します。
+1. パッケージインポートウィザード(**[!UICONTROL ツール/詳細/パッケージの読み込み/Adobe Campaignパッケージ]**)を使用して、新しいチャネル(**モバイルチャネル**&#x200B;など)をインストールします。
+1. ファイルを読み込み（**[!UICONTROL ツール/詳細/パッケージの読み込み/ファイル]**）、次を選択します。
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. 読み込む **[!UICONTROL XMLデータコンテンツで]**、関連するチャネルに対応するMessage Center配信テンプレートのみを保持します。 For example, if you have added the **Mobile channel**, keep only the **entities** element corresponding to the **[!UICONTROL Mobile transactional message]** (smsTriggerMessage) template. If you have added the **Mobile App Channel**, keep only the **iOS transactional message** templates (iosTriggerMessage) and **Android transactional message** (androidTriggerMessage).
+1. **[!UICONTROL 読み込むXMLデータコンテンツ]**&#x200B;には、関連するチャネルに対応するMessage Center配信テンプレートのみを保持します。 例えば、**モバイルチャネル**&#x200B;を追加した場合、**[!UICONTROL モバイルトランザクションメッセージ]** (smsTriggerMessage)テンプレートに対応する&#x200B;**entities**&#x200B;要素のみを保持します。 **モバイルアプリチャネル**&#x200B;を追加した場合は、**iOSトランザクションメッセージ**&#x200B;テンプレート(iosTriggerMessage)と&#x200B;**Androidトランザクションメッセージ**(androidTriggerMessage)のみを残してください。
 
    ![](assets/messagecenter_install_channel.png)
 

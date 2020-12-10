@@ -6,9 +6,9 @@ description: Adobe Campaign Classic の配信作成の主な手順を確認し�
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 1. **配信の送信**[詳細を表示](../../delivery/using/steps-sending-the-delivery.md)
 
-1. **配信の監視**（トラッキング、強制隔離、レポートなど）詳しくは、[配信の監視](../../delivery/using/monitoring-a-delivery.md)および[配信のトラッキング](../../delivery/using/about-message-tracking.md)の節を参照してください。
+1. **配信の監視**（トラッキング、強制隔離、レポートなど）詳しくは、[配信の監視](../../delivery/using/about-delivery-monitoring.md)および[配信のトラッキング](../../delivery/using/about-message-tracking.md)の節を参照してください。
 
 >[!NOTE]
 >

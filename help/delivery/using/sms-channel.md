@@ -6,9 +6,9 @@ description: SMS チャネル
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '3270'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ SMS のプロトコルと設定について詳しくは、この[技術メモ](h
 
    ただし、特定のプロバイダーで「+」がプレフィックスとして必要な場合は、プロバイダーにお問い合わせください。必要に応じて、このオプションを有効にするようプロバイダーから指示があります。
 
-   「**[!UICONTROL SMPP 経由での TLS を有効化]**」チェックボックスを使用すると、SMPP トラフィックを暗号化することができます。詳しくは、この[技術メモ](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)を参照してください。
+   「**[!UICONTROL SMPP 経由での TLS を有効化]**」チェックボックスを使用すると、SMPP トラフィックを暗号化することができます。詳しくは、この[技術メモ](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)を参照してください。
 
 1. **[!UICONTROL 拡張された汎用 SMPP]** コネクタを設定している場合は、自動応答を設定できます。
 
@@ -489,7 +489,7 @@ SMS のコンテンツを作成するには、次の手順に従います。
 
 メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、以下の節を参照してください。
 
-* [配信の監視](../../delivery/using/monitoring-a-delivery.md)
+* [配信の監視](../../delivery/using/about-delivery-monitoring.md)
 * [配信エラーの理解](../../delivery/using/understanding-delivery-failures.md)
 * [メッセージトラッキングについて](../../delivery/using/about-message-tracking.md)
 
@@ -594,6 +594,6 @@ Adobe Campaign 経由で送信した SMS メッセージに対し、購読者か
 
 >[!IMPORTANT]
 >
->こうした自動メッセージは、履歴には記録されず、[配信ダッシュボード](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard)にも表示されません。
+>こうした自動メッセージは、履歴には記録されず、[配信ダッシュボード](../../delivery/using/delivery-dashboard.md)にも表示されません。
 >
 >これらのメッセージは、[商業的な頻度ルール](../../campaign/using/pressure-rules.md)の対象とはみなされません。

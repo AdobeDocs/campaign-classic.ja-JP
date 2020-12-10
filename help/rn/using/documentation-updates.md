@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 3c82e30cdc1057be6357d48170b959fb89c79528
+source-git-commit: 5406b1cd6f9cf4f87071a9976be1728ba9d4fcef
 workflow-type: tm+mt
-source-wordcount: '3679'
+source-wordcount: '3676'
 ht-degree: 99%
 
 ---
@@ -311,7 +311,7 @@ Adobe Campaign Classic のオファー管理およびインタラクションモ
 
 FDA のマトリックスページは、[ここ](../../installation/using/remote-database-access-rights.md)に移動されました。
 
-アクセス権のマトリックスページは、[ここ](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/getting-started/administration-basics/assets/accessrights.pdf)に移動されました。
+アクセス権のマトリックスページは、[ここ](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=en)に移動されました。
 
 AMP でインタラクティブコンテンツを定義する方法について説明する節が移動されました。[詳細を表示](../../delivery/using/defining-interactive-content.md)
 

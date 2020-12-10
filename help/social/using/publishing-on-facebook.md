@@ -6,9 +6,9 @@ description: Facebook へのパブリッシュ
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 100%
 
@@ -196,7 +196,7 @@ Facebook には次の制限があります。
 
 配信に含まれる URL のクリック数は、Adobe Campaign が測定します。「**[!UICONTROL いいね！]**」ボタンのクリック数、コメント数およびファン数は、Facebook が測定します。
 
-トラッキング設定は、E メール配信の場合と同じです。詳しくは、[この節](../../delivery/using/monitoring-a-delivery.md)を参照してください。
+トラッキング設定は、E メール配信の場合と同じです。詳しくは、[この節](../../delivery/using/about-delivery-monitoring.md)を参照してください。
 
 >[!NOTE]
 >

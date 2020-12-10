@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 1818bd2aeb60689b2ce0e59cb0bd157f000de513
+source-git-commit: c366326f6a439dabaa42fdd799ec2e55c180a929
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 2%
@@ -47,7 +47,7 @@ created(datetime)、createdBy-id(long)、desc(string)、entitySchema(string)、e
 
 ## 使用と使用のコンテキスト{#use-and-context-of-use-9}
 
-スキーマのプレゼンテーションは、[スキーマ参照](../../configuration/using/about-schema-reference.md)と[スキーマ構造](../../configuration/using/schema-structure.md)にあります。
+スキーマのプレゼンテーションは、[スキーマ参照](../../../configuration/using/about-schema-reference.md)と[スキーマ構造](../../../configuration/using/schema-structure.md)にあります。
 
 ## 属性の説明{#attribute-description-14}
 

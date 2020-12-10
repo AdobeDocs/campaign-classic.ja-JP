@@ -6,9 +6,9 @@ description: Adobe Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Adobe Managed Services を使用している場合は、Campaign Gold Standard �
 
 Adobe Campaign には、E メール配信を監視するための一連のダッシュボードおよびツールが用意されています。
 
-メッセージが送信されていることの確認、実行の監視、エラーが発生した場合の対処の方法について[詳しくは、ここをクリック](../../delivery/using/monitoring-a-delivery.md)してください。
+メッセージが送信されていることの確認、実行の監視、エラーが発生した場合の対処の方法について[詳しくは、ここをクリック](../../delivery/using/about-delivery-monitoring.md)してください。
 
 ## 5. ワークフローの実行を監視できますか？{#can-i-monitor-workflow-execution}
 

@@ -1,0 +1,58 @@
+---
+solution: Campaign Classic
+product: campaign
+title: 配信監視の概要
+description: Campaign Classic配信監視機能についての詳細。
+audience: delivery
+content-type: reference
+topic-tags: monitoring-deliveries
+translation-type: tm+mt
+source-git-commit: 54ba9d2ee05b1bd7de7616142e8ad6bcbac5f8eb
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 13%
+
+---
+
+
+# 配信監視の開始{#about-delivery-monitoring}
+
+送信後に配信を監視することは、マーケティングキャンペーンを効率的にし、お客様に連絡を取るための重要なステップです。
+
+この節では、配信の送信後に監視できる情報の詳細、および配信の障害や強制隔離の管理方法について説明します。
+
+<img src="assets/do-not-localize/icon_monitor.svg" width="60px">
+
+**配信の監視**
+
+配信のリストにより、作成したすべての配信を1か所にまとめて表示できます。
+
+各配信に対して、専用のダッシュボードを使用できます。 送信中に発生した問題の発生や、配信に関する様々なタイプの情報を監視できます。レポート、ミラーページ、除外、トラッキングログ、レンダリングなど
+
+* [配信のリストへのアクセス](../../delivery/using/list-of-deliveries.md)
+* [配信ダッシュボード](../../delivery/using/delivery-dashboard.md)
+
+<img src="assets/do-not-localize/icon_guidelines.svg" width="60px">
+
+**安全な配信パフォーマンス**
+
+配信のパフォーマンスを確実に保つために、いくつかのガイドラインに従う必要があります。 配信の送信時に発生する一般的な問題は、配信を効率的に送信する際に役立つものです。
+
+* [配信パフォーマンスとベストプラクティス](../../delivery/using/list-of-deliveries.md)
+* [配信送信のトラブルシューティング](../../delivery/using/delivery-dashboard.md)
+
+<img src="assets/do-not-localize/icon_failure.svg" width="60px">
+
+**配信エラーの理解**
+
+プロファイルにメッセージを送信できない場合、リモートサーバーは自動的にエラーメッセージを送信します。エラーメッセージはAdobe Campaignプラットフォームによって取得され、電子メールアドレスまたは電話番号を隔離する必要があるかどうかを判断します。
+
+[配信の](../../delivery/using/understanding-delivery-failures.md) 障害を把握することは、マーケティングキャンペーンの改善に役立つ重要な手順です。
+
+<img src="assets/do-not-localize/icon_quarantine.svg" width="60px">
+
+**強制隔離管理の理解**
+
+Adobe Campaign では、強制隔離されたアドレスのリストを管理します。アドレスが強制隔離されている受信者は、配信分析時にデフォルトで除外され、ターゲットにされなくなります。
+
+[このセクション](../../delivery/using/understanding-quarantine-management.md)では、隔離されたアドレスを識別し管理する方法、および強制隔離にアドレスを送信する際の条件について詳しく説明します。

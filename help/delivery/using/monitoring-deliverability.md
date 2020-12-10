@@ -6,9 +6,9 @@ description: Adobe Campaign クラシックの配信品質の監視に関する�
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 100%
 
@@ -38,10 +38,10 @@ Adobe Campaign が提供する機能を使用して、プラットフォーム�
    * **[!UICONTROL ソフトバウンス]**&#x200B;は評判を示します。任意の ISP に対して、この値を 10％以下にする必要があります。
 
    詳しくは、[配信統計](../../reporting/using/global-reports.md#delivery-statistics)を参照してください。
-* より一般的に、[配信ダッシュボード](../../delivery/using/monitoring-a-delivery.md#delivery-dashboard)は次の項目のアクセスを提供します。
-   * [配信の概要](../../delivery/using/monitoring-a-delivery.md#delivery-summary)：送信の詳細、[送信するメッセージ数](../../delivery/using/monitoring-a-delivery.md#number-of-messages-sent)、処理済みおよび送信済みの成功件数を表示します。
-   * [配信ログと履歴](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)：除外されたターゲットとその理由を示します。
-   * [トラッキングログ](../../delivery/using/monitoring-a-delivery.md#tracking-logs)：開封数およびクリック数などのトラッキング情報を示します。
+* より一般的に、[配信ダッシュボード](../../delivery/using/about-delivery-monitoring.md)は次の項目のアクセスを提供します。
+   * [配信の概要](../../delivery/using/delivery-dashboard.md#delivery-summary)：送信の詳細、送信するメッセージ数、処理済みおよび送信済みの成功件数を表示します。
+   * [配信ログと履歴](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)：除外されたターゲットとその理由を示します。
+   * [トラッキングログ](../../delivery/using/delivery-dashboard.md#tracking-logs)：開封数およびクリック数などのトラッキング情報を示します。
 
 ## 監視のガイドライン {#monitoring-guidelines}
 
@@ -53,7 +53,7 @@ Adobe Campaign が提供する機能を使用して、プラットフォーム�
 * 各配信スループットをチェックして、配信コンテンツの有効期限と整合性が取れていることを確認します（例：「フラッシュセール」は数日ではなく、数分で配信される必要があります）。
 * [ウェーブ](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)を使用する場合、次のものがトリガーされる前に各ウェーブが完了するための十分な時間があることを検証します。
 * エラーの数と新しい[強制隔離](../../delivery/using/understanding-quarantine-management.md)が他の配信と整合性が取れていることをチェックします。
-* [配信ログ](../../delivery/using/monitoring-a-delivery.md#delivery-logs-and-history)の詳細を慎重に調べて、ハイライト表示されたエラーの種類をチェックします（ブロックリスト、DNS の問題、スパム対策ルールなど）。
+* [配信ログ](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)の詳細を慎重に調べて、ハイライト表示されたエラーの種類をチェックします（ブロックリスト、DNS の問題、スパム対策ルールなど）。
 
 ## Signal Spam {#signal-spam}
 

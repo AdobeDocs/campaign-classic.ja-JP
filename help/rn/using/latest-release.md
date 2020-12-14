@@ -87,7 +87,7 @@ Campaign で次のシステムがサポートされるようになりました�
 20.3 では、次の機能が非推奨（廃止予定）になります。
 
 * Adobe Experience Cloud へのオーディエンスのインポートおよびエクスポートに使用する demdex ドメインは非推奨（廃止予定）になります。インポート/エクスポート外部アカウントに demdex ドメインを使用している場合は、それに応じて実装を適応させる必要があります。[詳細情報](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
-* パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていたトリガー統合認証が変更され、Adobe I/O に移動しました。[詳細情報](../../integrations/using/configuring-adobe-io.md)
+* パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合認証が変更され、Adobe I/O に移動しました。[詳細情報](../../integrations/using/configuring-adobe-io.md)
 
 詳しくは、[非推奨（廃止予定）の機能と削除された機能のページ](../../rn/using/deprecated-features.md)を参照してください。
 

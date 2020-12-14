@@ -29,7 +29,7 @@ ht-degree: 99%
 
 ## 2020 年 11 月 {#nov-2020}
 
-Campaign データモデルの概要が改善され、再構成されました。 [詳細を表示](../../configuration/using/about-data-model.md)。
+Campaign データモデルの概要が改善され、再構成されました。[詳細を表示](../../configuration/using/about-data-model.md)。
 
 外部アカウント設定は[この節](../../installation/using/external-accounts.md)に移動されました。
 
@@ -39,13 +39,13 @@ Campaign Federated Data Access（FDA）のドキュメントが改善され、�
 
 プライバシー節は移動し、[プライバシー管理](../../platform/using/privacy-management.md) および[プライバシーリクエストの管理](../../platform/using/privacy-requests.md)の 2 つの新しいページが追加されました。
 
-ミッドソーシングサーバーの設定ページに、外部アカウントの内部名を設定した後に更新しないように明記する注記が追加されました。 [詳細を表示](../../installation/using/mid-sourcing-server.md)
+ミッドソーシングサーバーの設定ページに、外部アカウントの内部名を設定した後に更新しないように明記する注記が追加されました。[詳細を表示](../../installation/using/mid-sourcing-server.md)
 
-外部 SFTP サーバーへのパスを指定する際に使用する構文に関する情報が追加されました。 [詳細を表示](../../platform/using/sftp-server-usage.md#external-SFTP-server)
+外部 SFTP サーバーへのパスを指定する際に使用する構文に関する情報が追加されました。[詳細を表示](../../platform/using/sftp-server-usage.md#external-SFTP-server)
 
-個人データとペルソナ節には、プライバシーに関して様々な個人がどのように関わっているかを示す、使用例のシナリオが追加更新されています。 [詳細を表示](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
+個人データとペルソナ節には、プライバシーに関して様々な個人がどのように関わっているかを示す、使用例のシナリオが追加更新されています。[詳細を表示](../../platform/using/privacy-and-recommendations.md#use-case-scenario)
 
-プライバシーに関してよくある質問の一覧を記載した新しい節を追加しました。 [詳細を表示](../../platform/using/privacy-faq.md)
+プライバシーに関してよくある質問の一覧を記載した新しい節を追加しました。[詳細を表示](../../platform/using/privacy-faq.md)
 
 ## 2020 年 10 月 {#oct-2020}
 

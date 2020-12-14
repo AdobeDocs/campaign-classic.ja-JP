@@ -9,7 +9,7 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
+source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 98%
@@ -710,7 +710,7 @@ ht-degree: 98%
       + [スキーマリファレンスについて](configuration/using/about-schema-reference.md)
       + [スキーマの構造](configuration/using/schema-structure.md)
       + [データベースマッピング](configuration/using/database-mapping.md)
-      + [要素と属性]  {#elements-attributes}
+      + 要素と属性 {#elements-attributes}
          + [はじめに](configuration/using/schema-introduction.md)
          + [属性](configuration/using/schema/attribute.md)
          + [計算文字列](configuration/using/schema/compute-string.md)

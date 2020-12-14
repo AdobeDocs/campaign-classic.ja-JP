@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82c5f4f4c37f295a6c206eb33616ae9223740f36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1626'
 ht-degree: 100%
 
@@ -73,8 +73,8 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </td>
   <tr>
   <td>OAuth 認証（OAuth および JWT）<br></td>
-  <td><p> Campaign 20.3 リリースより、パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていたトリガー統合認証が変更され、Adobe I/O に移動しました。 <p>
-  <p>トリガー統合を使用している場合は、これに応じて実装を適応させる必要があります。<a href="../../integrations/using/configuring-adobe-io.md">詳細情報</a></p> 
+  <td><p> Campaign 20.3 リリースより、パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合認証が変更され、Adobe I/O に移動しました。 <p>
+  <p>Triggers 統合を使用している場合は、これに応じて実装を適応させる必要があります。<a href="../../integrations/using/configuring-adobe-io.md">詳細情報</a></p> 
   <p>OAuth 認証の廃止予定について詳しくは、この<a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">ページ</a>を参照してください。</p> 
   <p><em>削除予定日：2021 年 4 月</em></p>
   </td>

@@ -6,11 +6,11 @@ description: Adobe Campaign でのデータのインポート方法を説明し�
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49f3c123cb8e91b3a2a2a1eb6bd593a242b8bbfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2630'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -257,11 +257,11 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 このユースケースでは、外部システムで暗号化されたデータを Campaign コントロールパネルで生成された鍵を使用してインポートするためのワークフローを作成します。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 このユースケースを実行する手順は次のとおりです。
 
-1. Campaign コントロールパネルを使用して、キーペア（公開鍵と秘密鍵）を生成します。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)を参照してください。
+1. Campaign コントロールパネルを使用して、キーペア（公開鍵と秘密鍵）を生成します。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)を参照してください。
 
    * 公開鍵は外部システムと共有され、外部システムはこのキーを使用して Campaign に送信するデータを暗号化します。
    * 秘密鍵は、受信する暗号化されたデータを復号化するために Campaign Classic で使用されます。
@@ -305,8 +305,8 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 ### チュートリアルビデオ {#video}
 
-このビデオでは、GPGキーを使用してデータを復号化する方法を示します。
+このビデオでは、GPG キーを使用してデータを復号化する方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12&captions=jpn)
 
-追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

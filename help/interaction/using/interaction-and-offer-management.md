@@ -6,11 +6,11 @@ description: 実施要件ルールに基づいて、連絡先に最適なオフ�
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 94%
 
 ![](assets/Offermgt2.png)
 
-![](assets/do-not-localize/how-to-video.png) キャンペーンインタラクションで使用されるインタラクション機能と用語について理解するには、 [このビデオをご覧ください](https://helpx.adobe.com/jp/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com)。
+![](assets/do-not-localize/how-to-video.png) Campaign のインタラクションの機能と用語について詳しくは、[こちらのビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com)をご覧ください。
 
 ## 関連トピック
 

@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 使用例 — 電子メール配信の作成
-description: 電子メール配信の使用例の作成
+title: ユースケース - E メール配信の作成
+description: 電子メール配信ユースケースの作成
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46aa896929c960abeb501642a5ffbbb56de4802e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

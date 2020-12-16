@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Web アプリケーションの概要
-description: 動的なWeb アプリケーション、ランディングページ、調査の作成と共有
+title: Web アプリケーションの基礎知識
+description: 動的な Web アプリケーション、ランディングページ、調査を作成および共有します
 audience: web
 content-type: reference
 topic-tags: web-applications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '717'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

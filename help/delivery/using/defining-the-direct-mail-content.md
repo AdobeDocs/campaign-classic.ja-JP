@@ -6,9 +6,9 @@ description: ダイレクトメールコンテンツの定義
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-抽出ファイルには、パーソナライズした URL を挿入することができます。詳しくは、[この節](../../web/using/publishing-a-web-form.md)を参照してください。
+抽出ファイルには、パーソナライズした URL を挿入することができます。詳しくは、[こちらの節](../../web/using/publishing-a-web-form.md)を参照してください。
 
 >[!NOTE]
 >

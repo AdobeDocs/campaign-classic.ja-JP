@@ -6,20 +6,20 @@ description: 連続配信
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # 連続配信{#continuous-delivery}
 
-「**連続配信**」タイプアクションでは、既存の配信に新しい受信者を追加できます。この配信タイプにより、毎回新しい配信を作成する必要がなくなります。このモードは、特に、容量不足のアラートや通知の送信が必要になった場合などに効率的です。
+「**連続配信**」タイプアクションでは、既存の配信に新しい受信者を追加できます。この配信タイプでは、毎回新しい配信を作成する必要がなくなります。このモードは、特に、容量不足のアラートや通知を必要に応じて送信する場合にはより効率的です。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#continuous-delivery-video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#continuous-delivery-video)
 
 配信テンプレートレベルで、関連する配信のラベル（およびキャンペーンフォルダー）を計算するスクリプトを指定できます。スクリプトがまだ存在しない配信を計算すると、その配信が計算中に作成されます。
 
@@ -43,7 +43,7 @@ ht-degree: 97%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* スキーマ
+* schema
 * recCount
 
 この 3 つの値セットは、オンザフライ配信によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記憶するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
@@ -62,8 +62,8 @@ ht-degree: 97%
 
 ## チュートリアルビデオ {#continuous-delivery-video}
 
-このビデオでは、増分処理クエリを使用して連続配信を設定する方法について説明します。
+このビデオでは、増分クエリを使用して連続配信を設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12&captions=jpn)
 
-追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

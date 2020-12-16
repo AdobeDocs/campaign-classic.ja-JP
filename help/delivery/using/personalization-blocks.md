@@ -6,11 +6,11 @@ description: パーソナライゼーションブロック
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1004'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -156,8 +156,8 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
 ## チュートリアルビデオ {#personalization-blocks-video}
 
-動的なコンテンツブロックを作成する方法、および動的なコンテンツブロックを使用して電子メール配信のコンテンツをパーソナライズする方法について説明します。
+動的コンテンツブロックを作成する方法、および動的コンテンツブロックを使用して E メール配信のコンテンツをパーソナライズする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12&captions=jpn)
 
-追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

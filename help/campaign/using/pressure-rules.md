@@ -6,11 +6,11 @@ description: 頻度ルール
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3428'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
 **例：**
 
-受信者が所属するセグメントによって、許可するメッセージの数を変えることができます。つまり、Webセグメントに属する受信者が他の受信者よりも多くのメッセージを受信する可能性があります。 「**[!UICONTROL Iif (@origin=&#39;Web&#39;, 5, 3)]**」という数式を指定します。この数式では、Web セグメントの受信者に 5 つのメッセージ、その他のセグメントに 3 つのメッセージを配信できます。設定の手順は以下のとおりです。
+受信者が所属するセグメントによって、許可するメッセージの数を変えることができます。例えば、Web セグメントに属する受信者に、他の受信者より多くのメッセージを送信するように設定できます。「**[!UICONTROL Iif (@origin=&#39;Web&#39;, 5, 3)]**」という数式を指定します。この数式では、Web セグメントの受信者に 5 つのメッセージ、その他のセグメントに 3 つのメッセージを配信できます。設定の手順は以下のとおりです。
 
 ![](assets/campaign_opt_pressure_sample.png)
 

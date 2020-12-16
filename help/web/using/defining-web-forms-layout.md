@@ -6,11 +6,11 @@ description: Web フォームレイアウトの定義
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 96%
 
 ## ページへのフィールドの配置 {#positioning-the-fields-on-the-page}
 
-Webフォームのレイアウトは各コンテナのページごとに定義され、必要に応じてオーバーロードできます。
+Web フォームのレイアウトは、各コンテナでページごとに定義され、必要に応じてオーバーロードできます。
 
 ページは列に分類されます。各ページには、一定数の列が含まれます。ページの各フィールドは、**n** 個のセルを占有します。また、コンテナは一定数の列を占有し、それに含まれるフィールドは一定数のセルを占有します。。
 

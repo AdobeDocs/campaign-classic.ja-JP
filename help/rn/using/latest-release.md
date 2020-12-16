@@ -6,11 +6,11 @@ description: 最新の Campaign Classic リリース注意
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1824'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 792bfbd041b20a61e975703e7d9d4a35859c2882
+workflow-type: tm+mt
+source-wordcount: '1856'
+ht-degree: 98%
 
 ---
 
@@ -94,6 +94,11 @@ Campaign で次のシステムがサポートされるようになりました�
 **改善点**
 
 * **クライアントコンソール**&#x200B;には、次の改善点が追加されました。
+   * 接続プロトコルは、新しいIMS認証メカニズムに従うように更新されました。
+
+      >[!CAUTION]
+      >
+      >接続プロトコルの更新後、2020年3月21日から接続するには、アップグレードが必須（サーバーとコンソール）です。
    * インターネットセキュリティ GPO ルールの一部の制限との非互換性を防ぐため、Campaign クライアントコンソールのログオン画面は組み込みの標準 Windows フォームに置き換えられました。
    * 64 ビットのクライアントコンソールを使用したワークフローで、アクティビティのコピー/貼り付けをおこなうときの問題を修正しました。（NEO-27635）
    * **バージョン情報**&#x200B;メニューに、64 ビットと 32 ビットのコンソールを区別するための情報が追加されました。

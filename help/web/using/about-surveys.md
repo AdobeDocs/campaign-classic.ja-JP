@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 調査を使い始める
-description: キャンペーン調査の使用を開始する
+title: 調査の基礎知識
+description: Campaign の調査の基礎知識
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# 調査の使用を開始する{#about-surveys}
+# 調査の基礎知識{#about-surveys}
 
 Adobe Campaign には、Web アプリケーションを定義およびパブリッシュするためのグラフィカルなモジュールが含まれています。これは、エクストラネット上の編集フォームや、データベースからのデータを含み、テーブル、グラフ、入力フォームなどを備えた通知フォームなどの、ページの作成に使用されます。この機能を使用すると、ユーザーが情報を調べたり入力したりできる Web ページをデザインおよび投稿できます。
 

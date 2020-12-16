@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Webフォームの概要
-description: キャンペーンでのWebフォームの概要
+title: Web フォームの基礎知識
+description: Campaign の Web フォームの基礎知識
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Get started with web forms{#about-web-forms}
+# Web フォームの基礎知識{#about-web-forms}
 
 Adobe Campaign には、Web フォームを定義して公開するためのグラフィカルなモジュールが統合されており、入力および選択フィールドを含むページを作成して、データベースからのデータを含めることができます。これにより、ユーザーがアクセスして情報を表示または入力できる Web ページをデザインおよび投稿できます。
 
@@ -53,7 +53,7 @@ Web フォームテンプレートを選択します（デフォルトは **[!UI
 
 Web フォームの設定とコンテンツを定義するには、次の手順に従います。
 
-* 開始を行うには、必要なページとコントロールを作成します。入力フィールド、ドロップダウンリスト、HTMLコンテンツなど
+* まず、必要なページとコントロール（入力フィールド、ドロップダウンリスト、HTML コンテンツなど）を作成します。
 
    この手順は、以下で詳しく説明します。
 

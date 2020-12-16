@@ -6,9 +6,9 @@ description: ワークフローでの誕生日の E メールの送信方法を�
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 この（日々実行される）ワークフローでは、現在の日付が誕生日であるすべての受信者を選択します。
 
-![](assets/do-not-localize/how-to-video.png)この使用例は、ビデオでも紹介しています。詳しくは、[ワークフローの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html)のビデオを参照してください。
+![](assets/do-not-localize/how-to-video.png) このユースケースはビデオでも紹介しています。詳しくは、[ワークフローの作成](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html)のビデオを参照してください。
 
 これをおこなうには、キャンペーンを作成して、「**[!UICONTROL ターゲティングとワークフロー]**」タブをクリックします。詳しくは、[ワークフローのメインターゲットの作成](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)の節を参照してください。
 

@@ -6,11 +6,11 @@ description: Adobe Campaign ワークスペース
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2232'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png)[ 動画で Campaign ワークスペースを確認する](#video)
+![](assets/do-not-localize/how-to-video.png) Campaign ワークスペースを[ビデオ](#video)で確認
 
 >[!NOTE]
 >
@@ -392,8 +392,8 @@ Adobe Campaign Classic インスタンスは、言語によって日時の形式
 
 ## チュートリアルビデオ {#video}
 
-このビデオは、Campaign Classicのワークスペースを示します。
+このビデオでは、Campaign Classic のワークスペースについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12&captions=jpn)
 
-追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

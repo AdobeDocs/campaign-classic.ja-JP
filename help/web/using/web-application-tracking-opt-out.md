@@ -6,11 +6,11 @@ description: Web アプリケーショントラッキングのオプトアウト
 audience: web
 content-type: reference
 topic-tags: web-applications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '670'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ JSSP を記述する必要がある場合、サーバー側 API を利用でき�
 
 * **NL.ServerWebTracking._displayOptOutBanner()**
 
-   管理者がオプトアウトバナーを選択した後にオプトアウトバナーを表示する場合は、「true」を返します
+   オプトアウトバナーが管理者に選択された後で表示される必要がある場合に「true」を返します
 
    このコードは、管理者が Web オプトアウトバナーの使用を既に選択している場合に呼び出されます。
 

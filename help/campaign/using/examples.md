@@ -6,11 +6,11 @@ description: 例
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1374'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 93%
 
 ## ローカルキャンペーン（フォーム）の作成 {#creating-a-local-campaign--by-form-}
 
-**By form**&#x200B;型のWebインターフェイスは、**Webアプリケーション**&#x200B;を使用することに関係します。 設定に応じて、このWebアプリケーションには、定義済みのパーソナライズされた任意の種類の要素を含めることができます。 例えば、専用の API を使用して、ターゲット、予算、コンテンツなどを評価するリンクを含めることができます。
+**フォーム**&#x200B;タイプの  Web インターフェイスを使用するには、**Web アプリケーション**&#x200B;を使用する必要があります。Web アプリケーションには、設定に応じて、パーソナライズされたあらゆる種類の定義済み要素を含めることができます。例えば、専用の API を使用して、ターゲット、予算、コンテンツなどを評価するリンクを含めることができます。
 
 >[!NOTE]
 >
 >詳しくは、API のドキュメントを参照してください。参照できるドキュメントは、契約によって異なります。[API](../../configuration/using/about-web-services.md) を参照してください。
 >
->この例で使用する Web アプリケーションは、Adobe Campaign に付属している Web アプリケーションではありません。キャンペーンでフォームを使用するには、専用のWebアプリケーションを作成する必要があります。
+>この例で使用する Web アプリケーションは、Adobe Campaign に付属している Web アプリケーションではありません。キャンペーンでフォームを使用するには、専用の Web アプリケーションを作成する必要があります。
 
-キャンペーンテンプレートを作成する際に、**[!UICONTROL 詳細キャンペーン設定の**[!UICONTROL  Webインターフェイス&#x200B;]**オプション内の**[!UICONTROL &#x200B;ズーム&#x200B;]**アイコンをクリックします。]**&#x200B;リンクをクリックしてWebアプリケーションの詳細にアクセスします。
+キャンペーンテンプレートの作成時に、「**[!UICONTROL キャンペーンの詳細設定...]**」リンクの「**[!UICONTROL Web インターフェイス]**」オプションにある&#x200B;**[!UICONTROL 拡大]**&#x200B;アイコンをクリックして、Web アプリケーションの詳細にアクセスします。
 
 ![](assets/mkg_dist_local_op_form1.png)
 
@@ -106,7 +106,7 @@ ht-degree: 93%
 
    ![](assets/mkg_dist_use_case_target_valid8.png)
 
-1. [**[!UICONTROL 連絡先リストにアクセスし、ターゲット設定]**&#x200B;を承認]リンクをクリックすると、キャンペーンに対して選択したクライアントのリストに対するアクセス権がローカルエンティティに（Webブラウザを介して）付与されます。
+1. 「**[!UICONTROL 連絡先リストにアクセスしてターゲティングを承認]**」リンクをクリックすると、キャンペーン用に選択されている顧客のリストにローカルエンティティが Web ブラウザーでアクセスできるようになります。
 
    ![](assets/mkg_dist_use_case_target_valid9.png)
 

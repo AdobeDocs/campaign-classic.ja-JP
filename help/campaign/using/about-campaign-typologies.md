@@ -6,11 +6,11 @@ description: キャンペーンタイポロジについて
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,22 +63,22 @@ Adobe Campaign では、次の 4 種類のタイポロジルールをデザイ�
 
 配信の準備では、基準を満たした場合に受信者が除外されます。ログを確認して除外を監視することができます。頻度タイポロジルールの使用例については、[このページ](../../campaign/using/pressure-rules.md#use-cases-on-pressure-rules)を参照してください。
 
-## チュートリアル動画 {#typologies-video}
+## チュートリアルビデオ {#typologies-video}
 
 ### タイポロジルールを使用した疲労管理の設定方法
 
 このビデオでは、タイポロジルールを活用して Adobe Campaign Classic で疲労管理を実装する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12&captions=jpn)
 
 ### 定義済みフィルターを使用した疲労管理の設定方法
 
 疲労管理では、受信者の過剰勧誘を避けるために、メッセージの頻度と数量を制御します。キャンペーンインスタンスにキャンペーン最適化モジュールがない場合、受信したメッセージの数でターゲット母集団をフィルタリングする定義済みフィルターを設定できます。
 このビデオでは、フィルターを使用して Adobe Campaign Classic で疲労管理を実装する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12&captions=jpn)
 
-追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 
 **関連トピック**
 

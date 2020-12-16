@@ -6,18 +6,18 @@ description: Web フォームページの順番の定義
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Web フォームページの順番の定義{#defining-web-forms-page-sequencing}
 
-フォームには、1 つ以上のページを含めることができます。ページ、テスト、スクリプトの実行、ページのジャンプと記録の手順を順に並べるための図を介して構築されます。 グローバル図のデザインモードは、キャンペーンワークフローの場合と同じです。
+フォームには、1 つ以上のページを含めることができます。ページ、テスト、スクリプト実行、ページジャンプ、記録の各ステップのシーケンスを記述できるダイアグラムを使用して作成されます。グローバルダイアグラム設定モードは、キャンペーンワークフローの場合と同じです。
 
 ## 前のページと次のページについて {#about-previous-page-and-next-page}
 

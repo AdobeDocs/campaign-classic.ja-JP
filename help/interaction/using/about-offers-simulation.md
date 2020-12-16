@@ -6,9 +6,9 @@ description: オファーのシミュレーションについて
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 オファーをシミュレートする方法については、以下の手順を参照してください。
 
-![](assets/do-not-localize/how-to-video.png)[このビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&amp;ref=helpx.adobe.com)もご覧ください。
+![](assets/do-not-localize/how-to-video.png) [このビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&amp;ref=helpx.adobe.com)もご覧ください。
 
 ## シミュレーション作成の主な手順 {#main-steps-for-creating-a-simulation}
 

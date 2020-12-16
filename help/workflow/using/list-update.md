@@ -6,11 +6,11 @@ description: リスト更新
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49f3c123cb8e91b3a2a2a1eb6bd593a242b8bbfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 93%
 
 一般に、ターゲットをリストに保存することは、ワークフローの終わりを示すことになります。このため、デフォルトでは、「**[!UICONTROL リスト更新]**」アクティビティに、アウトバウンドトランジションはありません。アウトバウンドトランジションを追加するには、「**[!UICONTROL アウトバウンドトランジションを生成]**」オプションをチェックします。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオのエクスプローラから受信者のリストを作成する方法を見つけます。](#video)
+![](assets/do-not-localize/how-to-video.png) [エクスプローラーから受信者のリストを作成する方法をビデオで確認](#video)
 
 ## 例：リストの更新 {#example--list-update}
 
@@ -71,8 +71,8 @@ ht-degree: 93%
 
 ## チュートリアルビデオ {#video}
 
-このビデオでは、エクスプローラから受信者のリストを作成する方法を示します。
+このビデオでは、エクスプローラーから受信者のリストを作成する方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12?captions=jpn)
 
-追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

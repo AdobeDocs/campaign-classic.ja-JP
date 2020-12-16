@@ -6,11 +6,11 @@ description: Web フォームの翻訳
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 
 ### ファイルのエクスポート {#exporting-files}
 
-1. 書き出す文字列を持つWeb アプリケーションを選択し、右クリックして&#x200B;**[!UICONTROL Actions/Export strings for translation...を選択します。]**
+1. 文字列をエクスポートする Web アプリケーションを選択し、右クリックして、**[!UICONTROL アクション／翻訳の文字列をエクスポート...]**&#x200B;を選択します。
 
    ![](assets/s_ncs_admin_survey_trad_export.png)
 
@@ -454,7 +454,7 @@ URL の言語の前に他のパラメーターがある場合。例：**https://
 
    ![](assets/s_ncs_admin_survey_trad_system_translation.png)
 
-1. 翻訳言語を選択して、その文字列の翻訳を入力します。**[!UICONTROL 翻訳を承認済み]**&#x200B;オプションをチェックすると、翻訳を承認できます。
+1. 翻訳言語を選択して、その文字列の翻訳を入力します。翻訳を承認するには、「**[!UICONTROL 翻訳承認済み]**」オプションをオンにします。
 
    ![](assets/s_ncs_admin_survey_trad_system_translation2.png)
 
@@ -470,7 +470,7 @@ URL の言語の前に他のパラメーターがある場合。例：**https://
 
 Web アプリケーションをデフォルト以外の言語に翻訳するには（[フォームの表示言語の変更](#changing-forms-display-language)を参照）、新しい翻訳言語を追加する必要があります。
 
-1. Adobe Campaignツリーの&#x200B;**[!UICONTROL 管理/プラットフォーム/定義済みリスト]**&#x200B;ノードをクリックし、リストから「**[!UICONTROL 翻訳に使用できる言語]**」を選択します。 使用できる翻訳のリストが、ウィンドウの下部のセクションに表示されます。
+1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;ノードをクリックし、リストから&#x200B;**[!UICONTROL 翻訳に使用できる言語]**&#x200B;を選択します。使用できる翻訳のリストが、ウィンドウの下部のセクションに表示されます。
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
 

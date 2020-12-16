@@ -6,11 +6,11 @@ description: マーケティングキャンペーンの承認
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2645'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -176,7 +176,7 @@ Adobe Campaign では、マーケティングキャンペーンのメインス�
 
 ダイレクトメール配信の場合、Adobe Campaign のオペレーターは、抽出ファイルを発送担当に送信する前に確認できます。また、必要に応じてフォーマットを変更し、抽出を再開できます。[抽出ファイルの承認](#approving-an-extraction-file)を参照してください。
 
-キャンペーンごとに、配信ターゲット、コンテンツ（[コンテンツの承認](#approving-content)を参照）およびコストを承認できます。承認担当Adobe Campaignは、電子メールで通知し、コンソールまたはWeb接続を介して承認を受け付けたり拒否したりできます。 [プロセスの承認](#approving-processes)を参照してください。
+キャンペーンごとに、配信ターゲット、コンテンツ（[コンテンツの承認](#approving-content)を参照）およびコストを承認できます。承認を担当する Adobe Campaign オペレーターは、E メールで通知を受け、コンソールから、または Web 接続を介して、承認を許可または却下できます。[プロセスの承認](#approving-processes)を参照してください。
 
 この検証フェーズが完了したら、配信を開始できます。[配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)を参照してください。
 

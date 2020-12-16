@@ -6,9 +6,9 @@ description: Campaign のビルドアップグレードに関するよくある�
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2023'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 変更をおこなう前に、アドビがシステムのバックアップを作成します。ただし、本番以外のシステム（開発またはステージングサーバー）に重要なカスタマイズ作業がある場合は、アップグレードの前に、お客様の側で、その作業をパッケージとしてエクスポートすることを強くお勧めします。
 
-![](assets/do-not-localize/how-to-video.png)詳しくは、[このハウツー動画](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html)をご覧ください。
+![](assets/do-not-localize/how-to-video.png) 詳しくは、[こちらのハウツービデオ](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html)をご覧ください。
 
 ## アップグレードはいつおこなわれますか？
 
@@ -104,7 +104,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 以下の[ビルドアップグレードのチェックリスト](#check-list)とテスト計画を確認し、これらのテストを実行できるリソースがアップグレード完了の 24～48 時間以内に利用可能であることを確認します。
 
-詳しくは、[このドキュメント](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)を参照してください。
+詳しくは、[このドキュメント](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)を参照してください。
 
 ## 夜間など営業時間外にビルドアップグレードを実行することはできますか？
 
@@ -204,5 +204,5 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 * [ビルドアップグレードの実行](../../production/using/build-upgrade.md)
 * [Campaign Classic リリースノート](../../rn/using/rn-overview.md)
-* [Campaign Classic のヘルプとサポートのオプション](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
-* [Gold Standard プログラム](https://helpx.adobe.com/campaign/kb/gold-standard.html)
+* [Campaign Classic のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support-req)
+* [Gold Standard プログラム](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)

@@ -6,11 +6,11 @@ description: 主な機能、ユーザーインターフェイス、グローバ�
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '911'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign は、対話的なマーケティングキャンペーンの構�
 >
 >Adobe Campaign Classic には v6.11 と v7 があります。特に明記しない限り、ヘルプ資料は両方のバージョンの[最新ビルド](../../rn/using/latest-release.md)に適用されます。スクリーンショットは、Campaign Classic v7 のユーザーインターフェイスを反映したものです。
 
-![](assets/do-not-localize/how-to-video.png) [動画で主な特徴と機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [主な特長と機能をビデオで確認](#video)
 
 ## 主な機能 {#key-capabilities}
 
@@ -89,8 +89,8 @@ Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マ�
 
 ## チュートリアルビデオ {#video}
 
-このビデオでは、Campaign Classicの主な機能について説明します。
+このビデオでは、Campaign Classic の主な特長と機能について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12&captions=jpn)
 
-追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

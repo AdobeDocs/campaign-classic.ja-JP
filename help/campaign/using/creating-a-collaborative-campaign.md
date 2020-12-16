@@ -6,11 +6,11 @@ description: 協調キャンペーンの作成
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '987'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 99%
 
 「**[!UICONTROL 編集]**」タブで、「**[!UICONTROL キャンペーンの詳細設定...]**」リンクをクリックして、「**分散型マーケティング**」タブにアクセスします。
 
-「**フォーム別**」Webインターフェイスを選択します。 フォームのインターフェイスでは、キャンペーンのオーダー時にローカルエンティティが使用するパーソナライゼーションフィールドを作成できます。[ローカルキャンペーン（フォーム）の作成](../../campaign/using/examples.md#creating-a-local-campaign--by-form-)を参照してください。
+**フォーム** Web インターフェイスを選択します。フォームのインターフェイスでは、キャンペーンのオーダー時にローカルエンティティが使用するパーソナライゼーションフィールドを作成できます。[ローカルキャンペーン（フォーム）の作成](../../campaign/using/examples.md#creating-a-local-campaign--by-form-)を参照してください。
 
 キャンペーンを保存します。これにより、**キャンペーン**&#x200B;ウィンドウの&#x200B;**キャンペーンパッケージ**&#x200B;ビューで、このキャンペーンを使用できるようになります。使用するには、「**[!UICONTROL 作成]**」ボタンをクリックしてください。
 

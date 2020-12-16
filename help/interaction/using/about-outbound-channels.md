@@ -6,9 +6,9 @@ description: アウトバウンドチャネルについて
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 オファーは、インバウンドチャネルまたはアウトバウンドチャネルを使用して、様々なスペースに提示できます。この章では、アウトバウンドチャネルについて説明します。
 
-![](assets/do-not-localize/how-to-video.png)また、アウトバウンドチャネルでのオファーの配信方法について詳しく説明する[ビデオ](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-outbound-channel-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com)もご覧ください。
+![](assets/do-not-localize/how-to-video.png) アウトバウンドチャネルでのオファーの配信方法について詳しくは、こちらの[ビデオ](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-outbound-channel-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com)もご覧ください。
 
 オファーがオファーエンジンによって選択されるためには、承認され、ライブ環境で利用できる必要があります。詳しくは、[オファーの承認と有効化](../../interaction/using/approving-and-activating-an-offer.md)を参照してください。
 

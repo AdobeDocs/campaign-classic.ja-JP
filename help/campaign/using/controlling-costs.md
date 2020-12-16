@@ -6,11 +6,11 @@ description: コスト管理
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2539'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 >   
 >「**[!UICONTROL コミットメントレベル]**」オプションでは、予算を請求するまでのコストの今後の状態を指定します。キャンペーン、タスクまたは配信の進捗状況に応じ、コンボボックスを使用して、コミットメントレベル（1.計画済み、2.予約済み、3.コミット済み）を割り当てることができます。
 
-例えば、Webキャンペーンの予定コストは45,000ユーロです。
+例えば、Web キャンペーンの概算暫定コストが 45,000 ユーロだとします。
 
 ![](assets/s_user_edit_budget_node_impact_0.png)
 

@@ -6,9 +6,9 @@ description: 匿名インタラクション
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # 匿名インタラクション{#anonymous-interactions}
 
-![](assets/do-not-localize/how-to-video.png)識別された匿名ターゲットへのオファーの配信方法の概要については、この[ビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com)をご覧ください。
+![](assets/do-not-localize/how-to-video.png)識別されたターゲットと匿名ターゲットへのオファーの配信方法の概要については、この[ビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com)をご覧ください。
 
 ## 匿名インタラクション向け環境のターゲティングと格納 {#targeting-and-storing-an-environment-for-anonymous-interactions}
 

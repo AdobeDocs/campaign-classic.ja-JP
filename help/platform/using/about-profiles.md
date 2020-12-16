@@ -6,11 +6,11 @@ description: プロファイルについて
 audience: platform
 content-type: reference
 topic-tags: profile-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '982'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -113,9 +113,9 @@ Adobe Campaign エクスプローラーの一般的なレイアウトについ�
 
 この動画では、Adobe Campaign Classic による一般データ保護規則（GDPR）の遵守についても説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12&captions=jpn)
 
-追加のCampaign Classicハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 
 **関連項目：**
 

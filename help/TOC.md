@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: fa8e63051b4c8bbcfd4000a1e59fa6d91422149d
+source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2216'
 ht-degree: 99%
 
 ---
@@ -46,7 +46,6 @@ ht-degree: 99%
          + [よくある質問](platform/using/common-questions.md)
          + [重要な概念](platform/using/faq-key-concepts.md)
          + [ビルドのアップグレード](platform/using/faq-build-upgrade.md)
-         + [プライバシー](platform/using/privacy-faq.md)
          + [オーディエンス](platform/using/faq-audiences.md)
          + [メッセージのデザイン](platform/using/faq-designing.md)
          + [メッセージの送信](platform/using/faq-messages.md)
@@ -59,6 +58,7 @@ ht-degree: 99%
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
       + [プライバシーの管理](platform/using/privacy-management.md)
       + [プライバシーリクエスト](platform/using/privacy-requests.md)
+      + [プライバシー FAQ](platform/using/privacy-faq.md)
    + プロファイル管理 {#profile-management}
       + [プロファイルについて](platform/using/about-profiles.md)
       + [プロファイルの編集](platform/using/editing-a-profile.md)

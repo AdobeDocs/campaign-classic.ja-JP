@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5b35d2ffdd0f591e2fe31dc98a54be9ea0c0c18d
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
@@ -36,9 +36,13 @@ Adobe Campaignは、サーバー側で実行されるいくつかのプロセス
 * 配信サーバー(nlserver mta)
 * リダイレクトサーバー(webmdl)
 
+>[!CAUTION]
+>
+>クライアントコンソールは、サーバーインスタンスと同じビルド上にある必要があります。
+
 >[!NOTE]
 >
->For more on the various Adobe Campaign processes, refer to [this section](../../installation/using/general-architecture.md#logical-application-layer).\
+>様々なAdobe Campaignプロセスについての詳細は、[このセクション](../../installation/using/general-architecture.md#logical-application-layer)を参照してください。\
 >パワー・ブースタまたはパワー・クラスタ・タイプ・アーキテクチャを使用する場合は、このプロセスをすべてのパワー・ブースタ/クラスタ・サーバに適用する必要があります。
 
 新しいバージョンでデータベース構造の変更が必要な場合は、次の順序でサーバーを再起動することをお勧めします。

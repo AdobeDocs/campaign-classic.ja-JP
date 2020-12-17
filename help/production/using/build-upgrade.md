@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5b35d2ffdd0f591e2fe31dc98a54be9ea0c0c18d
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2368'
 ht-degree: 53%
 
 ---
@@ -27,16 +27,16 @@ ht-degree: 53%
 * システムおよびサーバーサイドの知識
 * 管理者としての権限とアクセス許可
 
-詳しくは、次の節を参照してください。 [Adobe Campaignの更新](../../production/using/upgrading.md)、新しいバージョン [への移行](../../migration/using/about-migration.md)。
+詳しくは、次の節を参照してください。[Adobe Campaign](../../production/using/upgrading.md)を更新中、[新しいバージョン](../../migration/using/about-migration.md)に移行中です。
 
-ホストされているインスタンスおよびハイブリッドインスタンスの場合、アドビのテクニカルオペレーションチームにビルドのアップグレードをリクエストする必要があります。詳しくは、このページの下にあるよくある質問の節を参照してください。Also consult the [build upgrade FAQ](../../platform/using/faq-build-upgrade.md).
+ホストされているインスタンスおよびハイブリッドインスタンスの場合、アドビのテクニカルオペレーションチームにビルドのアップグレードをリクエストする必要があります。詳しくは、このページの下にあるよくある質問の節を参照してください。[ビルドアップグレードFAQ](../../platform/using/faq-build-upgrade.md)も参照してください。
 
 ## アップグレードの準備
 
 ![](assets/do-not-localize/icon_planification.png)
 
 ビルドアップグレードを開始する前に、以下の説明に従って完全な準備を行う必要があります。
-システムをアップグレードする準備が整ったら、ビルドのアップグレードに **は** 2時間以上かかります。
+システムをアップグレードする準備が整ったら、ビルドのアップグレードには**少なくとも** 2時間かかります。
 
 ビルドのアップグレードをおこなうには、以下のリソースが必要です。
 
@@ -53,7 +53,7 @@ ht-degree: 53%
 1. アドビおよびお客様側担当者の連絡先詳細を配布しておく。
 1. ホストインスタンスの場合：Adobeとお客様のスタッフは、アップグレードの時間と実行者を調整します。
 1. オンプレミスのインスタンスの場合：お客様側担当者がすべてのプロセスを管理します。カスタマイズされたワークフローや配信ロジックのテスト時にサポートが必要な場合は、コンサルティングサービスを依頼してください。
-1. Determine and confirm which version of Adobe Campaign you want to upgrade to - consult the [Adobe Campaign Classic release notes](../../rn/using/rn-overview.md).
+1. アップグレード先のAdobe Campaignのバージョンを確認し、確認します。[Adobe Campaign Classicのリリースノート](../../rn/using/rn-overview.md)を参照してください。
 1. アップグレードの実行可能ファイルがあることを確認します。
 
 ### 主要人物
@@ -82,11 +82,11 @@ ht-degree: 53%
 
 1. 移行元の環境と移行先の環境のすべてのインスタンスについてデータベースの完全バックアップを作成する。
 
-1. サー [バー設定ファイルの最新バージョンを取得します](../../installation/using/the-server-configuration-file.md)。
+1. [サーバー構成ファイル](../../installation/using/the-server-configuration-file.md)の最新バージョンを取得します。
 
 1. 最新のビルドをダウンロードします。 [ダウンロードセンターの詳細を表示します](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html)。
 
-You also need to know all the [useful command lines](../../installation/using/command-lines.md) before starting a build upgrade:
+また、ビルドのアップグレードを開始する前に、[役に立つすべてのコマンドライン](../../installation/using/command-lines.md)を知っておく必要があります。
 
 * **nlserver pdump**：実行中のプロセスのリストを表示します
 * **nlserver pdump -who**：アクティブなクライアントセッションのリストを表示します
@@ -101,7 +101,7 @@ You also need to know all the [useful command lines](../../installation/using/co
 
 ![](assets/do-not-localize/icon_process.png)
 
-以下の手順は、 **オンプレミスのお客様のみが実行し** ます。 ホスト版のお客様については、ホスティングチームがこの作業を実行します。Adobe Campaignを新しいビルドに更新するには、詳細な手順を以下に説明します。
+以下の手順は、**オンプレミス**&#x200B;のお客様のみが実行します。 ホスト版のお客様については、ホスティングチームがこの作業を実行します。Adobe Campaignを新しいビルドに更新するには、詳細な手順を以下に説明します。
 
 ### 環境の重複
 
@@ -113,7 +113,7 @@ You also need to know all the [useful command lines](../../installation/using/co
 
 1. 作成したコピーを、移行先となる環境のすべてのインスタンス上に復元します。
 
-1. 起動する前に、 **nms:freezeInstance.js** 焼灼スクリプトをターゲット環境で実行します。 これにより、外部との対話をすべてのプロセスが停止します。ログ、トラッキング、配信、キャンペーンワークフローなど
+1. 起動する前に、ターゲット環境で&#x200B;**nms:freezeInstance.js**&#x200B;の焼灼スクリプトを実行します。 これにより、外部との対話をすべてのプロセスが停止します。ログ、トラッキング、配信、キャンペーンワークフローなど
 
    ```
    nlserverjavacsriptnms:freezeInstance.js–instance:<dev> -arg:run
@@ -121,7 +121,7 @@ You also need to know all the [useful command lines](../../installation/using/co
 
 1. 次に示すように、注意を確認します。
 
-   * Check that the only delivery part is the one which ID is set to **0**:
+   * 唯一の配信部分が&#x200B;**0**&#x200B;に設定されたIDであることを確認します。
 
       ```
       SELECT * FROM neolane.nmsdeliverypart;
@@ -146,8 +146,8 @@ You also need to know all the [useful command lines](../../installation/using/co
 
 1. 以下のサービスをシャットダウンします。
 
-   * Webサービス(IIS): **iisreset / stop**
-   * Adobe Campaignサービス： **net stop nlserver6**
+   * Webサービス(IIS):**iisreset /stop**
+   * Adobe Campaignサービス：**nlserver6** net stop nlserver6&lt;a1/>
 
    >[!NOTE]
    >
@@ -163,9 +163,9 @@ You also need to know all the [useful command lines](../../installation/using/co
 
 ### Adobe Campaignサーバーアプリケーションのアップグレード
 
-1. Setup **.exe** ファイルを実行します。 このファイルをダウンロードする必要がある場合は、ダウンロードセンター [にアクセスします](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html)。
+1. **Setup.exe**&#x200B;ファイルを実行します。 このファイルをダウンロードする必要がある場合は、[ダウンロードセンター](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)にアクセスしてください。
 
-1. インストールモードを選択します。 **更新** または **修復**。
+1. インストールモードを選択します。**アップデート**&#x200B;または&#x200B;**修復**。
 
 1. 「**次へ**」をクリックします。
 
@@ -199,17 +199,18 @@ You also need to know all the [useful command lines](../../installation/using/co
 
 以下のサービスを再起動する必要があります。
 
-* Webサービス(IIS): **issreset /開始**
-* Adobe Campaignサービス： **net開始nlserver6**
+* Webサービス(IIS):**issreset /開始**
+* Adobe Campaignサービス：**net開始nlserver6**
 
 ### クライアントコンソールの更新
+
+クライアントコンソールは、サーバーインスタンスと同じビルド上に存在する必要があります。
 
 Adobe Campaign アプリケーションサーバーがインストールされているマシン（nlserverweb）で、以下のファイルをダウンロードしてインストールします。
 
 ```
 Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
 ```
-
 
 次回クライアントコンソールに接続したときに、ウィンドウが開いて新しい更新が利用可能なことを知らせるメッセージが表示され、その更新をダウンロードしてインストールするよう促されます。
 
@@ -245,7 +246,7 @@ Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
 
 ミッドソーシング環境のコンテキストで、次の追加手順を実行してアップグレードする必要があります。
 
-1. Contact [Adobe Customer Care](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) to coordinate the upgrade of the Mid-Sourcing server.
+1. [Adobeカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に連絡して、ミッドソーシングサーバーのアップグレードを調整してください。
 1. テストリンクを実行して、バージョンが更新されたことを検証します。 例：
 
    ```
@@ -276,7 +277,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 リソースの競合に関する警告は、見落とさないように注意して、解決してください。
 
-postupgrade_ServerVersionNumber_TimeOfPostupgrade.log **** ファイルには、同期結果が格納されます。 デフォルトでは、次のディレクトリで使用できます。 **installationDirectory/var/instanceName/postupgrade**. エラーと警告はそれぞれエラーと警告の属性で明示されます。
+**postupgrade_ServerVersionNumber_TimeOfPostupgrade.log**&#x200B;ファイルには、同期結果が含まれています。 デフォルトでは、次のディレクトリで使用できます。**installationDirectory/var/instanceName/postupgrade**. エラーと警告はそれぞれエラーと警告の属性で明示されます。
 
 ### 競合を分析する
 
@@ -314,7 +315,7 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 
 1. Adobe Campaign エクスプローラーで&#x200B;**管理／設定／パッケージ管理／競合を編集**&#x200B;に移動します。
 
-1. リストから解決する競合を選択します。競合を解決するには、次の3つの方法があります。 **新しいバージョンを受け入れ**、 **現在のバージョンを保持**、コードを **結合（解決と宣言）、競合を**&#x200B;無視（推奨しません） ****。
+1. リストから解決する競合を選択します。競合を解決するには、次の3つの方法があります。**新しいバージョン**&#x200B;を受け入れ、**現在のバージョンを保持**、**コードを結合し（解決済みとして宣言）**、**競合を無視する（非推奨）**。
 
 **新しいバージョンを承認できるケース**
 
@@ -332,7 +333,7 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 * 結合できるのはフォーム、レポート、Web アプリケーションのみです。
 * 小規模な結合であればコードの知識がなくても実行できる場合があります。
 * 複雑な結合は適切なスキルと能力を持った人が実行する必要があります。
-* 結合の [実行を参照してください](#perform-a-merge)。
+* [マージの実行](#perform-a-merge)を参照してください。
 
 **競合を放置した場合**
 
@@ -344,14 +345,14 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 >競合は解決することを強くお勧めします。
 
 
-### 結合の実行{#perform-a-merge}
+### マージ{#perform-a-merge}を実行
 
 結合には様々なタイプがあります。
 
 1. 簡単な結合：カスタム要素と新規要素は小さく、無関係で、コーディングは必要ありません。
 1. 変更なし：新しいバージョンを承認します。最終更新日のみ変更され、コメント、タブ、スペース、新規行のみ反映されます（例：意図しない保存）。
 1. 軽微な変更：1 行のみ変更されます（例：xpathToLoad）。
-1. 高度な結合：コーディングが必要な場合です。開発に関するスキルが必要です。複雑な結合を参照して [ください](#complex-merges)。
+1. 高度な結合：コーディングが必要な場合です。開発に関するスキルが必要です。[複雑な結合](#complex-merges)を参照してください。
 
 #### 結合方法
 
@@ -363,8 +364,8 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 #### コードの場所
 
 1. 組み込みコードは、データキットフォルダー内のXMLファイルに保存されます。 競合しているオブジェクトに対応する XML ファイルを探します。例：installationDirectory\datakit\nms\fra\form\recipient.xml
-1. 元のバージョンを取得します。ダウンロ [ードセンター](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html) 、または製品のアップグレードされていない他のインストールを使用します。
-1. 新しいバージョンを取得します。[ [ダウンロードセンター](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html) ]またはお客様のインストール済みファイルを使用します。
+1. 元のバージョンを取得します。を設定します。[](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)
+1. 新しいバージョンを取得します。[ダウンロードセンター](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)またはお客様のインストール済みファイルを使用します。
 1. カスタムバージョンの取得：Campaign クライアント内からオブジェクトのソースコードを取得します。
 
 ### 差分表示の実行方法
@@ -383,8 +384,8 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 
 手動で競合を解決する場合の手順は以下のとおりです。
 
-1. In the lower section of the window, search for the **_conflict_string_** to locate the entities with conflicts. 新しいバージョンでインストールされたエンティティは新しい引数を持ちます。古いバージョンと一致するエンティティはカスタム引数を持ちます。
-1. 維持しないバージョンを削除します。Delete the **_conflict_argument_** string of the entity you are keeping.
+1. ウィンドウの下のセクションで、**_conflict_string_**&#x200B;を探して、競合のあるエンティティを探します。 新しいバージョンでインストールされたエンティティは新しい引数を持ちます。古いバージョンと一致するエンティティはカスタム引数を持ちます。
+1. 維持しないバージョンを削除します。保持するエンティティの&#x200B;**_conflict_argument_**&#x200B;文字列を削除します。
 1. 解決した競合に移動します。**アクション**&#x200B;アイコンをクリックし、「**解決済みとして宣言**」を選択します。
 1. 変更を保存します。これにより競合が解決します。
 

@@ -6,11 +6,11 @@ description: Campaign Classic アップグレードの詳細
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '429'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5b35d2ffdd0f591e2fe31dc98a54be9ea0c0c18d
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 96%
 
 ---
 
@@ -44,6 +44,8 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 ## 推奨事項{#recommendations}
 
 安定した構成を確保するために、同じクライアント構成で実行しているすべてのサーバーに同じ安定したビルドをインストールすることをお勧めします。
+
+さらに、クライアントコンソールは、サーバーインスタンスと同じビルド上にある必要があります。
 
 実装を最新の状態に維持するには、各新リリースで、[廃止および削除された機能](../../rn/using/deprecated-features.md)および、[互換性マトリックス](../../rn/using/compatibility-matrix.md)のページを必ずお読みください。
 

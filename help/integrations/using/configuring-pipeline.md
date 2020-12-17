@@ -6,11 +6,11 @@ description: パイプラインの設定方法を説明します
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '918'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7353abfe07bc177d103c83c7f2a5d57d7fb415a3
+workflow-type: tm+mt
+source-wordcount: '921'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 この設定を開始する前に、次を使用していることを確認してください。
 
-* Adobe Campaign 20.3 リリース以上
+* Adobe Campaign20.3またはGold Standard 11以降のリリース
 * Adobe Analytics Standard 版
 
 また、次も必要です。

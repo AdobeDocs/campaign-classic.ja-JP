@@ -10,10 +10,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7353abfe07bc177d103c83c7f2a5d57d7fb415a3
+source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 97%
+source-wordcount: '458'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 ## 前提条件 {#adobe-io-prerequisites}
 
-この統合は、**Campaign Classic20.3とGold Standard 11リリース**&#x200B;からのみ適用されます。
+この統合は、**Campaign Classic 20.3 リリース**&#x200B;以降にのみ適用されます。
 
 この実装を開始する前に、以下の点を確認してください。
 

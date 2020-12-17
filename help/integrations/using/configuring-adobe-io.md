@@ -9,11 +9,11 @@ topic-tags: adobe-experience-manager
 index: y
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7353abfe07bc177d103c83c7f2a5d57d7fb415a3
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ## 前提条件 {#adobe-io-prerequisites}
 
-この統合は、**Campaign Classic 20.3 リリース**&#x200B;以降にのみ適用されます。
+この統合は、**Campaign Classic20.3とGold Standard 11リリース**&#x200B;からのみ適用されます。
 
 この実装を開始する前に、以下の点を確認してください。
 

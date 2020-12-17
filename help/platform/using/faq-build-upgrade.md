@@ -6,11 +6,11 @@ description: Campaign のビルドアップグレードに関するよくある�
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
-source-wordcount: '2023'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5b35d2ffdd0f591e2fe31dc98a54be9ea0c0c18d
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
@@ -104,7 +104,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 以下の[ビルドアップグレードのチェックリスト](#check-list)とテスト計画を確認し、これらのテストを実行できるリソースがアップグレード完了の 24～48 時間以内に利用可能であることを確認します。
 
-詳しくは、[このドキュメント](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)を参照してください。
+詳しくは、[このドキュメント](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)を参照してください。
 
 ## 夜間など営業時間外にビルドアップグレードを実行することはできますか？
 
@@ -136,7 +136,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 ## クライアントコンソールを更新する必要がありますか？
 
-はい。クライアントコンソールは、サーバーインスタンスと同じか、より新しいビルドで実行する必要があります。アップグレードが完了すると、サーバービルドと一致するように最新のビルドにアップグレードするように求めるプロンプトがクライアントコンソールで表示されます。
+はい。クライアントコンソールは、サーバーインスタンスと同じビルド上に存在する必要があります。 アップグレードが完了すると、サーバービルドと一致するように最新のビルドにアップグレードするように求めるプロンプトがクライアントコンソールで表示されます。
 
 ## ロールバックプランとは何ですか？データのバックアップは保持されますか？
 
@@ -204,5 +204,5 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 * [ビルドアップグレードの実行](../../production/using/build-upgrade.md)
 * [Campaign Classic リリースノート](../../rn/using/rn-overview.md)
-* [Campaign Classic のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support-req)
-* [Gold Standard プログラム](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)
+* [Campaign Classic のヘルプとサポートのオプション](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
+* [Gold Standard プログラム](https://helpx.adobe.com/campaign/kb/gold-standard.html)

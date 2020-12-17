@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: a469d275fdd768fbd098a0027b5096872dbf6d89
+source-git-commit: fa8e63051b4c8bbcfd4000a1e59fa6d91422149d
 workflow-type: tm+mt
-source-wordcount: '3676'
-ht-degree: 99%
+source-wordcount: '3684'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 99%
 「配信の監視」セクションは、主題に関するトピックに再編成されました。 [詳細を表示](../../delivery/using/about-delivery-monitoring.md)
 
 送信者のIPアドレスを配信ログに追加する方法について、使用例が追加されました。 [詳細を表示](../../delivery/using/delivery-dashboard.md#use-case)
+
+プライバシーFAQは[このセクション](../../platform/using/privacy-faq.md)に移動しました。
 
 ## 2020 年 11 月 {#nov-2020}
 

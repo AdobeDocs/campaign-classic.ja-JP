@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+source-git-commit: fa8e63051b4c8bbcfd4000a1e59fa6d91422149d
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 98%
+source-wordcount: '2215'
+ht-degree: 99%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 98%
          + [よくある質問](platform/using/common-questions.md)
          + [重要な概念](platform/using/faq-key-concepts.md)
          + [ビルドのアップグレード](platform/using/faq-build-upgrade.md)
+         + [プライバシー](platform/using/privacy-faq.md)
          + [オーディエンス](platform/using/faq-audiences.md)
          + [メッセージのデザイン](platform/using/faq-designing.md)
          + [メッセージの送信](platform/using/faq-messages.md)
@@ -58,7 +59,6 @@ ht-degree: 98%
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
       + [プライバシーの管理](platform/using/privacy-management.md)
       + [プライバシーリクエスト](platform/using/privacy-requests.md)
-      + [プライバシー FAQ](platform/using/privacy-faq.md)
    + プロファイル管理 {#profile-management}
       + [プロファイルについて](platform/using/about-profiles.md)
       + [プロファイルの編集](platform/using/editing-a-profile.md)
@@ -278,7 +278,7 @@ ht-degree: 98%
       + [Web アプリケーションのトラッキング](web/using/tracking-a-web-application.md)
       + [Web アプリケーショントラッキングのオプトアウト](web/using/web-application-tracking-opt-out.md)
    + HTML コンテンツの編集 {#editing-html-content}
-      + [HTMLエディターの概要](web/using/about-campaign-html-editor.md)
+      + [HTML エディターの基本を学ぶ](web/using/about-campaign-html-editor.md)
       + [テンプレート管理](web/using/template-management.md)
       + [コンテンツエディターのインターフェイス](web/using/content-editor-interface.md)
       + [コンテンツの編集](web/using/editing-content.md)
@@ -286,7 +286,7 @@ ht-degree: 98%
       + [ランディングページの作成](web/using/creating-a-landing-page.md)
       + [ユースケース：E メール配信の作成](web/using/use-case--creating-an-email-delivery.md)
    + Web フォーム {#web-forms}
-      + [Webフォームの概要](web/using/about-web-forms.md)
+      + [Web フォームの基本を学ぶ](web/using/about-web-forms.md)
       + [Web フォームテンプレートの使用](web/using/using-a-web-form-template.md)
       + [Web フォームへのフィールドの追加](web/using/adding-fields-to-a-web-form.md)
       + [Web フォームの静的要素](web/using/static-elements-in-a-web-form.md)
@@ -299,8 +299,8 @@ ht-degree: 98%
       + [Web フォームの翻訳](web/using/translating-a-web-form.md)
       + [ユースケース：Web フォーム](web/using/use-cases--web-forms.md)
    + オンライン調査 {#online-surveys}
-      + [調査を使い始める](web/using/about-surveys.md)
-      + [調査を作成するための主な手順](web/using/getting-started-with-surveys.md)
+      + [調査の基本を学ぶ](web/using/about-surveys.md)
+      + [調査を作成するのための主な手順](web/using/getting-started-with-surveys.md)
       + [調査の設計](web/using/building-a-survey.md)
       + [回答の管理](web/using/managing-answers.md)
       + [収集したデータのパブリッシュ、トラッキングおよび使用](web/using/publish--track-and-use-collected-data.md)

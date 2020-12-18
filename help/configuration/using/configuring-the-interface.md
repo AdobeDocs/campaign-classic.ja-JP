@@ -25,11 +25,11 @@ Adobe Campaignインターフェイスの新しい受信者テーブルで表示
 
 Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者受信者(nms:database)との対話を行います。 したがって、この変数は変更する必要があります。
 
-1. エクスプローラーの **[!UICONTROL 管理/プラットフォーム/オプション]** ・ノードに移動します。
-1. Nms_DefaultRcpSchema **** 変数の値を、外部受信者テーブル（この場合は次のように指定）と一致するスキーマの名前に変更します。cus:indival)。
+1. エクスプローラーの&#x200B;**[!UICONTROL 管理>プラットフォーム>オプション]**&#x200B;ノードに移動します。
+1. **Nms_DefaultRcpSchema**&#x200B;変数の値を、外部受信者テーブル（この場合は次のように）と一致するスキーマの名前に変更します。cus:indival)。
 1. 変更を保存します。
 
-## Creating a new form {#creating-a-new-form-}
+## 新しいフォームの作成{#creating-a-new-form-}
 
 新しいフォームを作成すると、外部受信者テーブルのデータを表示および編集できます。
 
@@ -37,15 +37,15 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
 >
 >フォームの名前は、対象となるスキーマの名前と同じにする必要があります。
 
-1. エクスプローラーの **管理/設定/Input forms** ノードに移動します。
-1. 新しい **xtk:form** type **form** fileを作成します。
+1. エクスプローラーの&#x200B;**管理/設定/入力フォーム**&#x200B;ノードに移動します。
+1. 新しい&#x200B;**xtk:form**&#x200B;タイプ&#x200B;**form**&#x200B;ファイルを作成します。
 1. テーブルテンプレートに応じて、必要なすべての監視とフィールドについて説明します。
 
    >[!NOTE]
    >
-   >フ **ォームタイプファイルの詳細については、** このページを参照してください [](../../configuration/using/identifying-a-form.md)。
+   >**form**&#x200B;型のファイルの詳細については、[このページ](../../configuration/using/identifying-a-form.md)を参照してください。
 
-   この例では、 **フォームファイルが** cus:individual **** スキーマに基づいている必要があるので、次のレイアウトを使用します。
+   この例では、**フォーム**&#x200B;ファイルは&#x200B;**cus:individual**&#x200B;スキーマに基づいている必要があり、次のレイアウトを持つ必要があります。
 
    ```
    <container colspan="2">
@@ -62,17 +62,17 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
 
 1. 作成を保存します。
 
-## ナビゲーション階層での新しいタイプのフォルダーの作成 {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}
+## ナビゲーション階層{#creating-a-new-type-of-folder-in-the-navigation-hierarchy}に新しいタイプのフォルダーを作成する
 
-1. [ **[!UICONTROL 管理] > [設定] > [ナビゲーション階層]** ]ノードに移動します。
-1. 新しい **xtk:navtree** タイプのnavtree **** ドキュメントを作成します。
+1. **[!UICONTROL [管理]>[設定]>[ナビゲーション階層]]**&#x200B;ノードに移動します。
+1. 新しい&#x200B;**xtk:navtree**&#x200B;タイプ&#x200B;**navtree**&#x200B;ドキュメントを作成します。
 1. テーブルテンプレートに応じて、必要なすべての監視とフィールドについて説明します。
 
    >[!NOTE]
    >
-   >navtree **タイプのファイルについて詳しくは、** このページを参照してください [](../../configuration/using/about-navigation-hierarchy.md)。
+   >**navtree**&#x200B;タイプのファイルについて詳しくは、[このページ](../../configuration/using/about-navigation-hierarchy.md)を参照してください。
 
-   この例では、navtree **ファイルは** cus:individual **** スキーマに基づいている必要があるので、次の形式を持ちます。
+   現在の例では、**navtree**&#x200B;ファイルは&#x200B;**cus:individual**&#x200B;スキーマに基づいている必要があり、次の形式になっています。
 
    ```
     <model name="root">

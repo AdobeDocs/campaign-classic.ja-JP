@@ -17,28 +17,28 @@ ht-degree: 1%
 
 # Linux での Adobe Campaign 7 への移行{#migrating-in-linux-for-adobe-campaign-v}
 
-## 一般的な手順 {#general-procedure}
+## 一般的な手順{#general-procedure}
 
 Linuxでの移行手順は次のとおりです。
 
-1. サービスの停止：「 [サービスの停止](#service-stop)」を参照してください。
-1. データベースの保存：データベースと既存のインストールの [バックアップを参照してください](#back-up-the-database-and-the-existing-installation)。
-1. 以前のAdobe Campaign版パッケージをアンインストールする：「Adobe Campaignの以前のバージョンのパッケージの [アンインストール](#uninstalling-adobe-campaign-previous-version-packages)」を参照してください。
-1. プラットフォームの移行：adobe campaignv7の [導入を参照してください](#deploying-adobe-campaign-v7)。
-1. 再開始サービス：詳しくは、「 [サービスの再開](#re-starting-services)」を参照してください。
+1. サービスの停止：[サービスの停止](#service-stop)を参照してください。
+1. データベースの保存：[データベースと既存のインストールのバックアップ](#back-up-the-database-and-the-existing-installation)を参照してください。
+1. 以前のAdobe Campaign版パッケージをアンインストールする：[Adobe Campaignの以前のバージョンのパッケージのアンインストール](#uninstalling-adobe-campaign-previous-version-packages)を参照してください。
+1. プラットフォームの移行：[Adobe Campaignv7](#deploying-adobe-campaign-v7)の導入を参照してください。
+1. 再開始サービス：[サービスの再起動](#re-starting-services)を参照してください。
 
-## サービス停止 {#service-stop}
+## サービス停止{#service-stop}
 
 まず、関連するすべてのマシン上のデータベースにアクセスできるすべてのプロセスを停止します。
 
-1. rootとしてログイン **します**。
-1. リダイレクトモジュール(**webmdl** サービス)を使用するすべてのサーバーを停止する必要があります。 Apacheの場合は、次のコマンドを実行します。
+1. **root**&#x200B;としてログインします。
+1. リダイレクトモジュール（**webmdl**&#x200B;サービス）を使用するすべてのサーバーを停止する必要があります。 Apacheの場合は、次のコマンドを実行します。
 
    ```
    /etc/init.d/apache2 stop
    ```
 
-1. 再度 **rootとしてログインします**。
+1. **root**&#x200B;として再度ログインします。
 1. すべてのサーバーでAdobe Campaignの以前のバージョンのサービスを停止します。
 
    ```
@@ -71,14 +71,14 @@ Linuxでの移行手順は次のとおりです。
    killall -9 nlserver
    ```
 
-## データベースと既存のインストールのバックアップ {#back-up-the-database-and-the-existing-installation}
+## データベースと既存のインストール{#back-up-the-database-and-the-existing-installation}をバックアップします。
 
 手順は、Adobe Campaignの以前のバージョンによって異なります。
 
-### Adobe Campaignv5.11からの移行 {#migrating-from-adobe-campaign-v5-11}
+### Adobe Campaignv5.11からの移行{#migrating-from-adobe-campaign-v5-11}
 
 1. Adobe Campaignデータベースのバックアップを作成します。
-1. neolaneとしてログインし **、次のコマンドを使用して** nl5 **** ディレクトリのバックアップを作成します。
+1. **neolane**&#x200B;としてログインし、次のコマンドを使用して&#x200B;**nl5**&#x200B;ディレクトリのバックアップを作成します。
 
    ```
    su - neolane
@@ -87,44 +87,9 @@ Linuxでの移行手順は次のとおりです。
 
    >[!IMPORTANT]
    >
-   >予防策として、 **nl5.back** フォルダーをzipファイルに圧縮し、サーバー以外の安全な場所に保存することをお勧めします。
+   >予防策として、**nl5.back**&#x200B;フォルダーをzipファイルに圧縮し、サーバー以外の安全な場所に保存することをお勧めします。
 
-1. mta **、`<instance name>`mta** 、wserver **、server** stat、 **stat、etcの各フォルダ内にあるconfig-**.xmlを編集して、mta ******** 、nl5.backフォルダ内にある。 サービスが自動的に開始されない。 例えば、autoStart **を** _autoStart **(** neolaneと置き換えます ****)。
-
-   ```
-   <?xml version='1.0'?>
-   <serverconf>
-     <shared>
-       <dataStore hosts="myServer*" lang="en_US">
-         <dataSource name="default">
-           <dbcnx encrypted="1" login="myLogin" password="myPassword"  provider="postgresql" server="myServer"/>
-         </dataSource>
-       </dataStore>
-     </shared>
-   
-     <mta _autoStart="true" statServerAddress="myStatServer"/>
-     <stat _autoStart="true"/>
-     <wfserver _autoStart="true"/>
-     <inMail _autoStart="true"/>
-     <sms _autoStart="false"/>
-   </serverconf>
-   ```
-
-### Adobe Campaignv6.02からの移行 {#migrating-from-adobe-campaign-v6-02}
-
-1. Adobe Campaignデータベースのバックアップを作成します。
-1. neolaneとしてログインし **、次のコマンドを使用して** nl6 **** ディレクトリのバックアップを作成します。
-
-   ```
-   su - neolane
-   mv nl6 nl6.back
-   ```
-
-   >[!IMPORTANT]
-   >
-   >予防策として、 **nl6.back** フォルダーをzipファイルに圧縮し、サーバー以外の安全な場所に保存することをお勧めします。
-
-1. mta **、`<instance name>`wfserver** 、 **server** 、stat、 **nl、.xmlを防ぐために、config-**.xml ********（nl6.backフォルダ内）を編集します。 サービスが自動的に開始されない。 例えば、autoStart **を** _autoStart **(** Adobe Campaignとして ****)に置き換えます。
+1. **config-`<instance name>`.xml** （**nl5.back**&#x200B;フォルダー内）を編集して、**mta**、**wfserver**、**stat a10/>などが発生しないようにします。**&#x200B;サービスが自動的に開始されない。 例えば、**autoStart**&#x200B;を&#x200B;**_autoStart**&#x200B;に置き換えます（**neolane**&#x200B;のまま）。
 
    ```
    <?xml version='1.0'?>
@@ -145,10 +110,10 @@ Linuxでの移行手順は次のとおりです。
    </serverconf>
    ```
 
-### Adobe Campaignv6.1からの移行 {#migrating-from-adobe-campaign-v6-1}
+### Adobe Campaignv6.02からの移行{#migrating-from-adobe-campaign-v6-02}
 
 1. Adobe Campaignデータベースのバックアップを作成します。
-1. neolaneとしてログインし **、次のコマンドを使用して** nl6 **** ディレクトリのバックアップを作成します。
+1. **neolane**&#x200B;としてログインし、次のコマンドを使用して&#x200B;**nl6**&#x200B;ディレクトリのバックアップを作成します。
 
    ```
    su - neolane
@@ -157,18 +122,53 @@ Linuxでの移行手順は次のとおりです。
 
    >[!IMPORTANT]
    >
-   >予防策として、 **nl6.back** フォルダーをzipファイルに圧縮し、サーバー以外の安全な場所に保存することをお勧めします。
+   >予防策として、**nl6.back**&#x200B;フォルダーをzipファイルに圧縮し、サーバー以外の安全な場所に保存することをお勧めします。
 
-## Adobe Campaignの以前のバージョンのパッケージをアンインストールする {#uninstalling-adobe-campaign-previous-version-packages}
+1. **config-`<instance name>`.xml** （**nl6.back**&#x200B;フォルダー内）を編集して、**mta**、**wfserver**、**stat a10/>などが発生しないようにします。**&#x200B;サービスが自動的に開始されない。 例えば、**autoStart**&#x200B;を&#x200B;**_autoStart**&#x200B;に置き換えます(**Adobe Campaign**&#x200B;のまま)。
+
+   ```
+   <?xml version='1.0'?>
+   <serverconf>
+     <shared>
+       <dataStore hosts="myServer*" lang="en_US">
+         <dataSource name="default">
+           <dbcnx encrypted="1" login="myLogin" password="myPassword"  provider="postgresql" server="myServer"/>
+         </dataSource>
+       </dataStore>
+     </shared>
+   
+     <mta _autoStart="true" statServerAddress="myStatServer"/>
+     <stat _autoStart="true"/>
+     <wfserver _autoStart="true"/>
+     <inMail _autoStart="true"/>
+     <sms _autoStart="false"/>
+   </serverconf>
+   ```
+
+### Adobe Campaignv6.1からの移行{#migrating-from-adobe-campaign-v6-1}
+
+1. Adobe Campaignデータベースのバックアップを作成します。
+1. **neolane**&#x200B;としてログインし、次のコマンドを使用して&#x200B;**nl6**&#x200B;ディレクトリのバックアップを作成します。
+
+   ```
+   su - neolane
+   mv nl6 nl6.back
+   ```
+
+   >[!IMPORTANT]
+   >
+   >予防策として、**nl6.back**&#x200B;フォルダーをzipファイルに圧縮し、サーバー以外の安全な場所に保存することをお勧めします。
+
+## Adobe Campaignの以前のバージョンのパッケージをアンインストールしています{#uninstalling-adobe-campaign-previous-version-packages}
 
 手順は、Adobe Campaignの以前のバージョンによって異なります。
 
-### Adobe Campaignv5パッケージのアンインストール {#uninstalling-adobe-campaign-v5-packages}
+### Adobe Campaignv5パッケージ{#uninstalling-adobe-campaign-v5-packages}をアンインストールしています
 
-1. rootとしてログイン **します**。
+1. **root**&#x200B;としてログインします。
 1. 次のコマンドを使用して、インストールされるAdobe Campaignパッケージを識別します。
 
-   * Debian **の場合**:
+   * **Debian**&#x200B;内：
 
       ```
       dpkg -l | grep nl
@@ -181,7 +181,7 @@ Linuxでの移行手順は次のとおりです。
       ii  nlthirdparty5                   5660                     nlthirdparty5-5660
       ```
 
-   * In **Red Hat**:
+   * **Red Hat**&#x200B;内：
 
       ```
       rpm -qa | grep nl
@@ -189,26 +189,26 @@ Linuxでの移行手順は次のとおりです。
 
 1. Adobe Campaignv5パッケージをアンインストールします。
 
-   * Debian **の場合**:
+   * **Debian**&#x200B;内：
 
       ```
       dpkg --purge nlserver5 nlthirdparty5
       ```
 
-   * In **Red Hat**:
+   * **Red Hat**&#x200B;内：
 
       ```
       rprm -ev nlserver5 nlthirdparty5
       ```
 
-### Adobe Campaignv6パッケージのアンインストール {#uninstalling-adobe-campaign-v6-packages}
+### Adobe Campaignv6パッケージ{#uninstalling-adobe-campaign-v6-packages}をアンインストールしています
 
 この節では、Adobe Campaignv6.02またはv6.1のパッケージをアンインストールする方法を示します。
 
-1. rootとしてログイン **します**。
+1. **root**&#x200B;としてログインします。
 1. 次のコマンドを使用して、インストールされるAdobe Campaignパッケージを識別します。
 
-   * Debian **の場合**:
+   * **Debian**&#x200B;内：
 
       ```
       dpkg -l | grep nl
@@ -221,7 +221,7 @@ Linuxでの移行手順は次のとおりです。
       ii  nlthirdparty6                   XXXX                     nlthirdparty6-XXXX
       ```
 
-   * In **Red Hat**:
+   * **Red Hat**&#x200B;内：
 
       ```
       rpm -qa | grep nl
@@ -229,23 +229,23 @@ Linuxでの移行手順は次のとおりです。
 
 1. Adobe Campaignv6パッケージをアンインストールします。
 
-   * Debian **の場合**:
+   * **Debian**&#x200B;内：
 
       ```
       dpkg --purge nlserver6 nlthirdparty6
       ```
 
-   * In **Red Hat**:
+   * **Red Hat**&#x200B;内：
 
       ```
       rprm -ev nlserver6 nlthirdparty6
       ```
 
-## Deploying Adobe Campaign v7 {#deploying-adobe-campaign-v7}
+## Adobe Campaignv7の導入{#deploying-adobe-campaign-v7}
 
 手順は、Adobe Campaignの以前のバージョンによって異なります。
 
-### Adobe Campaignv5.11からの移行 {#migrating-from-adobe-campaign-v5_11-1}
+### Adobe Campaignv5.11からの移行{#migrating-from-adobe-campaign-v5_11-1}
 
 Adobe Campaignのデプロイには、次の2つの段階があります。
 
@@ -256,13 +256,13 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
 1. 次のコマンドを使用して、最新Adobe Campaignのv7パッケージをインストールします。
 
-   * Debian **の場合**:
+   * **Debian**&#x200B;内：
 
       ```
       dpkg -i nlserver6-XXXX-linux-2.6-intel.deb
       ```
 
-   * In **Red Hat**:
+   * **Red Hat**&#x200B;内：
 
       ```
       rpm -Uvh nlserver6-XXXX-0.x86_64.rpm
@@ -273,9 +273,9 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
    >[!NOTE]
    >
-   >v5.11から移行する際、Adobe Campaignはデフォルトで/usr/local/neolane/nl6/ **ディレクトリにインストールされ** ます。
+   >v5.11から移行する際、Adobe Campaignはデフォルトで&#x200B;**/usr/local/neolane/nl6/**&#x200B;ディレクトリにインストールされます。
    >
-   >パッケージがインストールされると、次のメッセージが表示されます。 **&#39;WdbcTimeZone&#39;オプションがありません**。 これは正常です。
+   >パッケージがインストールされると、次のメッセージが表示されます。**&#39;WdbcTimeZone&#39;オプションがありません**。 これは正常です。
 
 1. クライアントコンソールのインストールプログラムを使用可能にするには、次の手順に従って、Adobe Campaignのインストールディレクトリにコピーします。
 
@@ -285,9 +285,9 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
    >[!NOTE]
    >
-   >LinuxでAdobe Campaignをインストールする方法の詳細は、 [この節を参照してください](../../installation/using/installing-campaign-standard-packages.md)。
+   >LinuxでのAdobe Campaignのインストール方法の詳細は、[この](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
-1. Neolane **** ユーザーと一致する.bashrd **** ファイルを変更します。 neolaneとしてログオン **し** 、次のコマンドを実行します。
+1. **.bashrd**&#x200B;ファイルを変更します。このファイルは、**neolane**&#x200B;ユーザーと一致します。 **neolane**&#x200B;としてログオンし、次のコマンドを実行します。
 
    ```
    su - neolane
@@ -296,11 +296,11 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
    >[!NOTE]
    >
-   >neolaneとしてログインすると ****、次のメッセージが表示されます。 **nl5/env.sh :該当するファイルまたはディレクトリはありません**。 これは正常です。
+   >**neolane**&#x200B;としてログインすると、次のメッセージが表示されます。**nl5/env.sh :該当するファイルまたはディレクトリ**&#x200B;はありません。 これは正常です。
 
-   ファイルの末尾で、nl5/env.sh **をnl6/env.sh** に置き換え **ます**。
+   ファイルの末尾で、**nl5/env.sh**&#x200B;を&#x200B;**nl6/env.sh**&#x200B;に置き換えます。
 
-1. **rootとしてログインし** 、次のコマンドを使用してインスタンスを準備します。
+1. **root**&#x200B;としてログインし、次のコマンドを使用してインスタンスを準備します。
 
    ```
    /etc/init.d/nlserver6 start   
@@ -314,13 +314,13 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
    >[!NOTE]
    >
-   >次の各コマンドを使用して、Adobe Campaignv6の内部ファイルシステムを作成できます。 **conf** ディレクトリ( **config-default.xmlファイルと** serverConf.xml **ファイルを含む)、** var **** ディレクトリ
+   >次の各コマンドを使用して、Adobe Campaignv6の内部ファイルシステムを作成できます。**conf**&#x200B;ディレクトリ（**config-default.xml**&#x200B;ファイルと&#x200B;**serverConf.xml**&#x200B;ファイルを含む）、**var**&#x200B;ディレクトリ。
 
-1. nl5.back **** backupフォルダーに移動し、各インスタンスの設定ファイルとサブフォルダーをコピー（上書き）します。 neolaneとしてログインし **、次のコマンドを実行します** 。
+1. **nl5.back**&#x200B;バックアップフォルダーに移動し、各インスタンスの設定ファイルとサブフォルダーをコピー（上書き）します。 **neolane**&#x200B;としてログインし、次のコマンドを実行します。
 
    >[!IMPORTANT]
    >
-   >以下の最初のコマンドでは、 **config-default.xmlファイルをコピーしないでください** 。
+   >以下の最初のコマンドでは、**config-default.xml**&#x200B;ファイルをコピーしないでください。
 
    ```
    su - neolane
@@ -331,13 +331,13 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
    cp -r nl5.back/var/* nl6/var/
    ```
 
-1. Adobe Campaignv7 **serverConf.xml** ファイルと **** config-default.xmlファイルで、Adobe Campaignv5に対して設定した特定の設定を適用します。 serverConf.xml **ファイルの場合は、nl5/conf/serverConf.xml.diff****** ()ファイルを使用します。
+1. Adobe Campaignv7の&#x200B;**serverConf.xml**&#x200B;ファイルと&#x200B;**config-default.xml**&#x200B;ファイルで、Adobe Campaignv5に対して設定した固有の設定を適用します。 **serverConf.xml**&#x200B;ファイルの場合は、**nl5/conf/serverConf.xml.diff**&#x200B;ファイルを使用します。
 
    >[!NOTE]
    >
    >Adobe Campaignv5からAdobe Campaignv7へのレポート設定では、物理ディレクトリへのパスがAdobe Campaignv5ではなくAdobe Campaignv7へのパスになっていることを確認します。
 
-1. 移行は一般的なインストールではないので、 **trackinglogd** サービスを強制的に再起動する必要があります。 これを行うには、nl6/conf/config-default.xml **ファイルを開き、** trackinglog **** サービスがアクティブになっている（トラッキング/リダイレクトサーバー上でのみ）ことを確認します。
+1. 移行は一般的なインストールではないので、**trackinglogd**&#x200B;サービスを強制的に再起動する必要があります。 これを行うには、**nl6/conf/config-default.xml**&#x200B;ファイルを開き、**trackinglogd**&#x200B;サービスがアクティブになっていることを確認します（トラッキング/リダイレクトサーバーでのみ）。
 
    ```
    <trackinglogd autoStart="true"/>
@@ -345,7 +345,7 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
    >[!IMPORTANT]
    >
-   >トラッキングサーバーで **trackinglogd** サービスが開始されていない場合、トラッキング情報は転送されません。
+   >トラッキングサーバーで&#x200B;**trackinglogd**&#x200B;サービスが開始されていない場合、トラッキング情報は転送されません。
 
 1. 次のコマンドを使用して、Adobe Campaignv7の設定を再読み込みします。
 
@@ -353,7 +353,7 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
    nlserver config -reload
    ```
 
-1. 次のコマンドを使用して、アップグレード後のプロセスを開始します( **neolane**)。
+1. 次のコマンドを使用して、アップグレード後のプロセスを開始します（**neolane**&#x200B;のまま）。
 
    ```
    su - neolane
@@ -362,17 +362,17 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
    >[!IMPORTANT]
    >
-   >アップグレード後の時点で( **-timezone** オプションを使用して)参照として使用するタイムゾーンを指定する必要があります。 この場合、ヨーロッパ/パリタイムゾーン **— タイムゾーンを使用しています。「Europe/Paris」**。
+   >アップグレード後の時点で（**-timezone**&#x200B;オプションを使用して）、どのタイムゾーンを参照として使用するかを指定する必要があります。 この場合、Europe/Paris timezone **-timezoneを使用しています。&quot;Europe/Paris&quot;**.
 
    >[!NOTE]
    >
-   >ベースを「マルチタイムゾーン」にアップグレードすることを強くお勧めします。 タイムゾーンオプションの詳細については、 [タイムゾーン](../../migration/using/general-configurations.md#time-zones) (Time zones)の節を参照してください。
+   >ベースを「マルチタイムゾーン」にアップグレードすることを強くお勧めします。 タイムゾーンオプションの詳細については、[タイムゾーン](../../migration/using/general-configurations.md#time-zones)の節を参照してください。
 
 >[!IMPORTANT]
 >
 >まだ開始Adobe Campaignサービスを使用しない：変更はApacheで行う必要があります。
 
-### Adobe Campaignv6.02からの移行 {#migrating-from-adobe-campaign-v6_02-1}
+### Adobe Campaignv6.02からの移行{#migrating-from-adobe-campaign-v6_02-1}
 
 Adobe Campaignのデプロイには、次の2つの段階があります。
 
@@ -383,13 +383,13 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
 1. 次のコマンドを使用して、最新Adobe Campaignのv7パッケージをインストールします。
 
-   * Debian **の場合**:
+   * **Debian**&#x200B;内：
 
       ```
       dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
-   * In **Red Hat**:
+   * **Red Hat**&#x200B;内：
 
       ```
       rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
@@ -400,7 +400,7 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
    >[!NOTE]
    >
-   >Adobe Campaignv7は、デフォルトでAdobe Campaignv6.02と同じディレクトリにインストールされます。 **/usr/local/neolane/nl6/**.
+   >Adobe Campaignv7は、デフォルトでAdobe Campaignv6.02と同じディレクトリにインストールされます。**/usr/local/neolane/nl6/**
 
 1. クライアントコンソールのインストールプログラムを使用可能にするには、次の手順に従って、Adobe Campaignのインストールディレクトリにコピーします。
 
@@ -410,9 +410,9 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
    >[!NOTE]
    >
-   >LinuxでAdobe Campaignをインストールする方法の詳細は、 [この節を参照してください](../../installation/using/installing-campaign-standard-packages.md)。
+   >LinuxでのAdobe Campaignのインストール方法の詳細は、[この](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
-1. 移行は一般的なインストールではないので、 **trackinglogd** サービスを強制的に再起動する必要があります。 これを行うには、nl6/conf/config-default.xml **ファイルを開き、** trackinglog **** サービスがアクティブになっている（トラッキング/リダイレクトサーバー上でのみ）ことを確認します。
+1. 移行は一般的なインストールではないので、**trackinglogd**&#x200B;サービスを強制的に再起動する必要があります。 これを行うには、**nl6/conf/config-default.xml**&#x200B;ファイルを開き、**trackinglogd**&#x200B;サービスがアクティブになっていることを確認します（トラッキング/リダイレクトサーバーでのみ）。
 
    ```
    <trackinglogd autoStart="true"/>
@@ -420,9 +420,9 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
    >[!IMPORTANT]
    >
-   >トラッキングサーバーで **trackinglogd** サービスが開始されていない場合、トラッキング情報は転送されません。
+   >トラッキングサーバーで&#x200B;**trackinglogd**&#x200B;サービスが開始されていない場合、トラッキング情報は転送されません。
 
-1. nl6. **back** backupフォルダーに移動し、各インスタンスの設定ファイルとサブフォルダーをコピー（上書き）します。 neolaneとしてログインし **、次のコマンドを実行します** 。
+1. **nl6.back**&#x200B;バックアップフォルダーに移動し、各インスタンスの設定ファイルとサブフォルダーをコピー（上書き）します。 **neolane**&#x200B;としてログインし、次のコマンドを実行します。
 
    ```
    su - neolane
@@ -439,7 +439,7 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
    nlserver config -reload
    ```
 
-1. 次のコマンドを使用して、アップグレード後のプロセスを開始します( **neolane**)。
+1. 次のコマンドを使用して、アップグレード後のプロセスを開始します（**neolane**&#x200B;のまま）。
 
    ```
    su - neolane
@@ -448,9 +448,9 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
    >[!NOTE]
    >
-   >「マルチタイムゾーン」モードは、PostgreSQLデータベースエンジン用のv6.02でのみ使用可能でした。 どのバージョンのデータベースエンジンを使用していても使用できるようになりました。 ベースを「マルチタイムゾーン」にアップグレードすることを強くお勧めします。 タイムゾーンオプションの詳細については、 [タイムゾーン](../../migration/using/general-configurations.md#time-zones) (Time zones)の節を参照してください。
+   >「マルチタイムゾーン」モードは、PostgreSQLデータベースエンジン用のv6.02でのみ使用可能でした。 どのバージョンのデータベースエンジンを使用していても使用できるようになりました。 ベースを「マルチタイムゾーン」にアップグレードすることを強くお勧めします。 タイムゾーンオプションの詳細については、[タイムゾーン](../../migration/using/general-configurations.md#time-zones)の節を参照してください。
 
-### Adobe Campaignv6.1からの移行 {#migrating-from-adobe-campaign-v6_1-1}
+### Adobe Campaignv6.1からの移行{#migrating-from-adobe-campaign-v6_1-1}
 
 Adobe Campaignのデプロイには、次の2つの段階があります。
 
@@ -461,13 +461,13 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
 1. 次のコマンドを使用して、最新Adobe Campaignのv7パッケージをインストールします。
 
-   * Debian **の場合**:
+   * **Debian**&#x200B;内：
 
       ```
       dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
-   * In **Red Hat**:
+   * **Red Hat**&#x200B;内：
 
       ```
       rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
@@ -478,7 +478,7 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
    >[!NOTE]
    >
-   >Adobe Campaignv7は、デフォルトで/usr/local/neolane/nl6/ **ディレクトリにインストールされ** ます。
+   >Adobe Campaignv7は、デフォルトで&#x200B;**/usr/local/neolane/nl6/**&#x200B;ディレクトリにインストールされます。
 
 1. クライアントコンソールのインストールプログラムを使用可能にするには、次の手順に従って、Adobe Campaignのインストールディレクトリにコピーします。
 
@@ -488,9 +488,9 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
    >[!NOTE]
    >
-   >LinuxでAdobe Campaignをインストールする方法の詳細は、 [この節を参照してください](../../installation/using/installing-campaign-standard-packages.md)。
+   >LinuxでのAdobe Campaignのインストール方法の詳細は、[この](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
-1. nl6. **back** backupフォルダーに移動し、各インスタンスの設定ファイルとサブフォルダーをコピー（上書き）します。 neolaneとしてログインし **、次のコマンドを実行します** 。
+1. **nl6.back**&#x200B;バックアップフォルダーに移動し、各インスタンスの設定ファイルとサブフォルダーをコピー（上書き）します。 **neolane**&#x200B;としてログインし、次のコマンドを実行します。
 
    ```
    su - neolane
@@ -507,31 +507,31 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
    nlserver config -reload
    ```
 
-1. 次のコマンドを使用して、アップグレード後のプロセスを開始します( **neolane**)。
+1. 次のコマンドを使用して、アップグレード後のプロセスを開始します（**neolane**&#x200B;のまま）。
 
    ```
    su - neolane
    nlserver config -postupgrade -instance:<instance name>
    ```
 
-## リダイレクトサーバーを移行しています(Apache) {#migrating-the-redirection-server--apache-}
+## リダイレクトサーバー(Apache)を移行中{#migrating-the-redirection-server--apache-}
 
 >[!NOTE]
 >
 >この節は、Adobe Campaignv5.11から移行する場合にのみ適用されます。
 
-この段階で、Apacheを停止する必要があります。 参照先： [サービスの停止](#service-stop)。
+この段階で、Apacheを停止する必要があります。 参照先：[サービスは停止](#service-stop)します。
 
-1. rootとしてログイン **します**。
-1. Apache環境変数を変更して、 **nl6** ディレクトリにリンクさせます。
+1. **root**&#x200B;としてログインします。
+1. Apache環境変数を変更して、**nl6**&#x200B;ディレクトリにリンクさせます。
 
-   * Debian **の場合**:
+   * **Debian**&#x200B;内：
 
       ```
       vi /etc/apache2/envvars
       ```
 
-   * In **Red Hat**:
+   * **Red Hat**&#x200B;内：
 
       ```
       vi /usr/local/apache2/bin/envvars
@@ -539,15 +539,15 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
 
 1. 次に、次のコマンドを実行します。
 
-   * Debian **の場合**:
+   * **Debian**&#x200B;内：
 
-      nlsrv.load **ファイルで、** nl5 **を** nl6 **に置き換えます**。
+      **nlsrv.load**&#x200B;ファイルで、**nl5**&#x200B;を&#x200B;**nl6**&#x200B;に置き換えます。
 
       ```
       vi /etc/apache2/mods-available/nlsrv.load
       ```
 
-      nlsrv.conf **** ファイルのリンクを削除し、新しいファイルを作成します。
+      **nlsrv.conf**&#x200B;ファイルのリンクを削除し、新しいファイルを作成します。
 
       ```
       rm /etc/apache2/mods-available/nlsrv.conf 
@@ -555,34 +555,34 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
       mods-available/nlsrv.conf
       ```
 
-   * In **Red Hat**:
+   * **Red Hat**&#x200B;内：
 
-      /usr/local/apache2/conf **ディレクトリに移動し、** http.conf **ファイルを編集し、** nl5 **nl6を次の行で置き換え****** ます。
+      **/usr/local/apache2/conf**&#x200B;ディレクトリに移動し、**http.conf**&#x200B;ファイルを編集し、次の行で&#x200B;**nl5**&#x200B;を&#x200B;**nl6**&#x200B;に置き換えます。
 
-      RHEL 7/ **Debian 8の場合**:
+      **RHEL 7/Debian 8**:
 
       ```
       LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
       Include /usr/local/neolane/nl6/tomcat-6/conf/apache_neolane.conf
       ```
 
-1. alias.conf **ファイルに移動し、すべての** nl5 **を** nl6に置き換えます ****。 Debianでこれを行うには、次のコマンドを実行します。
+1. **alias.conf**&#x200B;ファイルに移動し、すべての&#x200B;**nl5**&#x200B;を&#x200B;**nl6**&#x200B;に置き換えます。 Debianでこれを行うには、次のコマンドを実行します。
 
    ```
    vi /etc/apache2/mods-available/alias.conf
    ```
 
-## Security zones {#security-zones}
+## セキュリティゾーン{#security-zones}
 
-v6.02以前から移行する場合は、サービスを開始する前にセキュリティゾーンを構成する必要があります。 詳細については、「 [セキュリティ](../../migration/using/general-configurations.md#security)」を参照してください。
+v6.02以前から移行する場合は、サービスを開始する前にセキュリティゾーンを構成する必要があります。 詳しくは、[セキュリティ](../../migration/using/general-configurations.md#security)を参照してください。
 
-## サービスの再起動 {#re-starting-services}
+## サービスの再起動{#re-starting-services}
 
 手順は、Adobe Campaignの以前のバージョンによって異なります。
 
-### Adobe Campaignv5.11からの移行 {#migrating-from-adobe-campaign-v5_11-2}
+### Adobe Campaignv5.11からの移行{#migrating-from-adobe-campaign-v5_11-2}
 
-config- **`<instance name>`.xml** ファイルで、 **mta** wfserver, **stat****** note, netupなどの自動起動を再開します。 サービス。
+**config-`<instance name>`.xml**&#x200B;ファイルで、**mta**、**wfserver**、**stat**&#x200B;などの自動起動を再開します。 サービス。
 
 ```
 <?xml version='1.0'?>
@@ -609,11 +609,11 @@ config- **`<instance name>`.xml** ファイルで、 **mta** wfserver, **stat***
 1. ミッドソーシングサーバー.
 1. マーケティングサーバー。
 
-次の手順に進む前に、新しいインストールの完全なテストを実行し、 [一般設定の節の推奨事項に従って、回帰がないこと、すべてが動作することを確認してください](../../migration/using/general-configurations.md) 。
+次の手順に進む前に、新しいインストールの完全なテストを実行し、回帰がないこと、および[一般的な設定](../../migration/using/general-configurations.md)セクションの推奨事項に従って動作することを確認してください。
 
-### Adobe Campaignv6.02からの移行 {#migrating-from-adobe-campaign-v6_02-2}
+### Adobe Campaignv6.02からの移行{#migrating-from-adobe-campaign-v6_02-2}
 
-config- **`<instance name>`.xml** ファイルで、 **mta** wfserver, **stat****** note, netupなどの自動起動を再開します。 サービス。
+**config-`<instance name>`.xml**&#x200B;ファイルで、**mta**、**wfserver**、**stat**&#x200B;などの自動起動を再開します。 サービス。
 
 ```
 <?xml version='1.0'?>
@@ -640,9 +640,9 @@ config- **`<instance name>`.xml** ファイルで、 **mta** wfserver, **stat***
 1. ミッドソーシングサーバー.
 1. マーケティングサーバー。
 
-新しいインストールを完全にテストし、再帰しないこと、および [一般設定の節の推奨事項に従ってすべてが正しく動作していることを確認してください](../../migration/using/general-configurations.md) 。
+新しいインストールを完全にテストし、復元されないこと、および[一般的な設定](../../migration/using/general-configurations.md)セクションの推奨事項に従って正しく動作していることを確認します。
 
-### Adobe Campaignv6.1からの移行 {#migrating-from-adobe-campaign-v6_1-2}
+### Adobe Campaignv6.1からの移行{#migrating-from-adobe-campaign-v6_1-2}
 
 次の各サーバー上の開始ApacheおよびAdobe Campaignサービス：
 
@@ -650,9 +650,9 @@ config- **`<instance name>`.xml** ファイルで、 **mta** wfserver, **stat***
 1. ミッドソーシングサーバー.
 1. マーケティングサーバー。
 
-新しいインストールを完全にテストし、再帰しないこと、および [一般設定の節の推奨事項に従ってすべてが正しく動作していることを確認してください](../../migration/using/general-configurations.md) 。
+新しいインストールを完全にテストし、復元されないこと、および[一般的な設定](../../migration/using/general-configurations.md)セクションの推奨事項に従って正しく動作していることを確認します。
 
-## Adobe Campaignv5の削除とクレンジング {#deleting-and-cleansing-adobe-campaign-v5}
+## クレンジングAdobe Campaignv5の削除{#deleting-and-cleansing-adobe-campaign-v5}
 
 >[!NOTE]
 >
@@ -663,7 +663,7 @@ Adobe Campaignv5のインストールを削除およびクリーニングする�
 * 新しいインストールの完全なチェックを実行するには、機能チームに依頼します。
 * Adobe Campaignv5は、ロールバックが必要ないことが確実にわかった場合にのみアンインストールします。
 
-nl5. **back** ディレクトリを削除します。 neolaneとしてログインし **、次のコマンドを実行します** 。
+**nl5.back**&#x200B;ディレクトリを削除します。 **neolane**&#x200B;としてログインし、次のコマンドを実行します。
 
 ```
 su - neolane

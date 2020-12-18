@@ -25,5 +25,5 @@ Adobe Campaignのモジュラー設計により、スタンドアロンの設定
 >
 >メインインストールの設定手順は、AdobeがAdobeがホストする配置の場合、サーバーやインスタンスの設定ファイルなどを設定する場合にのみ実行できます。
 >
->デプロイメント間の主な違いについて詳しくは、「 [ホスティングモデル](../../installation/using/hosting-models.md) 」の節またはホストデプロイメントとオンプレミスデプロイメントの [機能の違いを参照してください](../../installation/using/capability-matrix.md)。
+>デプロイメント間の主な違いについて詳しくは、「[モデルのホスト](../../installation/using/hosting-models.md)」セクションまたは「[ホスト型デプロイメントとオンプレミスデプロイメントの機能の違い](../../installation/using/capability-matrix.md)」を参照してください。
 

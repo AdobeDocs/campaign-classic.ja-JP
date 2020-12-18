@@ -17,9 +17,9 @@ ht-degree: 5%
 
 # サイトへのタグの挿入{#inserting-tags-in-your-site}
 
-## 簡単なメソッド {#simple-method}
+## 単純なメソッド{#simple-method}
 
-このメソッドは、追跡するWebページのHTMLソースコードに **`<img>`** HTMLタグを挿入することによって、リダイレクトサーバーにHTTP呼び出しを送信することで構成されます。
+このメソッドは、追跡するWebページのHTMLソースコードに&#x200B;**`<img>`** HTMLタグを挿入することによって、リダイレクトサーバーにHTTP呼び出しを送信することで構成されます。
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ ht-degree: 5%
 
 ただし、TRANSACTION-typeタグを使用する場合は、トランザクション情報（量、項目数）と拡張スキーマが定義する情報を挿入するために、JavaScriptを使用してサンプルタグを変更する必要があります。
 
-### タグの静的挿入 {#static-insertion-of-tags}
+### タグ{#static-insertion-of-tags}の静的挿入
 
 静的タグの挿入を実行するには、コンソールで生成されたタグをコピーして貼り付けるか、手動で構築したタグをWebページのソースに貼り付けます。
 
@@ -87,7 +87,7 @@ ht-degree: 5%
 </html>
 ```
 
-### Webトラッキングタグの動的生成 {#dynamic-generation-of-web-tracking-tags}
+### Webトラッキングタグの動的生成{#dynamic-generation-of-web-tracking-tags}
 
 Webページが動的に生成される場合、ページ生成時にWebトラッキングタグを追加できます。
 
@@ -124,11 +124,11 @@ Webページが動的に生成される場合、ページ生成時にWebトラ�
 </html>
 ```
 
-## 最適な方法 {#optimum-method-}
+## 最適な方法{#optimum-method-}
 
 リダイレクトサーバーに送信される情報を制御する場合、最も信頼性の高い方法は、ページ生成言語を使用して自分自身でHTTPクエリを同期的に実行することです。
 
-構成するURLは、 [Web トラッキングタグで定義されている構文規則に従う必要があります。定義](../../configuration/using/web-tracking-tag--definition.md)。
+構成するURLは、[Web トラッキングタグで定義されている構文規則に従う必要があります。定義](../../configuration/using/web-tracking-tag--definition.md)。
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 

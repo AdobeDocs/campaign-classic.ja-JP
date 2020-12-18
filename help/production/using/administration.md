@@ -17,9 +17,9 @@ ht-degree: 2%
 
 # 管理{#administration}
 
-Adobe Campaignモジュール(**web**、 **mta**、 **wfserver**&#x200B;など)の自動起動 は、 **nlserver** serverによって提供されます。
+Adobe Campaignモジュールの自動起動（**web**、**mta**、**wfserver**&#x200B;など） は&#x200B;**nlserver**&#x200B;サーバーによって提供されます。
 
-インストールAdobe Campaignは、ブートシーケンス中に **nlserver** service開始が起動するようにマシンを自動的に構成します。
+Adobe Campaignをインストールすると、起動シーケンス中に&#x200B;**nlserver**&#x200B;サービスの開始が起動するようにマシンが自動的に構成されます。
 
 次のコマンドを使用して、Adobe Campaignサービスの開始を手動で行い、シャットダウンします。
 
@@ -35,16 +35,16 @@ Adobe Campaignモジュール(**web**、 **mta**、 **wfserver**&#x200B;など)�
 
 >[!NOTE]
 >
->20.1からは、（Linuxの場合は）次のコマンドを使用することをお勧めします。 **systemctl開始nlserver** / **systemctl stop nlserver**
+>20.1からは、（Linuxの場合は）次のコマンドを使用することをお勧めします。**systemctl開始nlserver** / **systemctl stop nlserver**
 
-Linuxでアクセス可能な通常の管理コマンドのリストを以下に示します( **Adobe Campaign**)。
+Linuxでアクセス可能な通常の管理コマンドのリストを以下に示します(**Adobe Campaign**)。
 
-* すべての開始Adobe Campaignモジュールを表示： **/etc/init.d/nlserver6 pdump** or **/etc/init.d/nlserver6 status**
+* すべての開始Adobe Campaignモジュールを表示：**/etc/init.d/nlserver6 pdump**&#x200B;または&#x200B;**/etc/init.d/nlserver6 status**
 
    >[!NOTE]
    >
-   >**pdump** コマンドに —who **** パラメーターを追加すると、現在の接続（ユーザーおよびプロセス）に関する情報を収集できます。\
-   >/etc/init.d/nlserver6の **status** コマンド（「 —who」パラメーターを含まない）は、次の値を返します。
+   >**-who**&#x200B;パラメーターを&#x200B;**pdump**&#x200B;コマンドに追加すると、現在の接続（ユーザーとプロセス）に関する情報を収集できます。\
+   >**/etc/init.d/nlserver6 status**&#x200B;コマンド（「 —who」パラメーターを含まない）は、次の値を返します。
    >
    >    * すべてのプロセスが実行中の場合は0。
    >    * プロセスが見つからない場合は1。
@@ -52,13 +52,13 @@ Linuxでアクセス可能な通常の管理コマンドのリストを以下に
    >    * 別の値（エラーがある場合）。
 
 
-* マルチインスタンスまたはモノインスタンスモジュール(**web**、trackinglogd **、syslogd**、mta、 **mta、wserver、** server、inmail、serverserver、inmail、ininstance ************ module)の開始/停止
+* マルチインスタンスまたはモノインスタンスモジュール(**web**、**trackinglogd**、**syslogd**、**mta**、**wfserver**、**inmail&lt;a1/>)の開始/停止):**
 
    **nlserver開始`<module>[@<instance>]`**
 
    **nlserver停止`<module>[@<instance>][-immediate][-noconsole]`**
 
-   また、 **nlserver restartコマンドを使用して、モジュールを再起動するこ`<module>[@<instance>]`** ともできます。
+   **nlserver restart`<module>[@<instance>]`**&#x200B;コマンドを使用して、モジュールを再起動することもできます。
 
    例：
 
@@ -77,9 +77,9 @@ Linuxでアクセス可能な通常の管理コマンドのリストを以下に
    >[!NOTE]
    > 
    >    * インスタンスを指定しない場合は、「デフォルト」のインスタンスが使用されます。
-   >    * 緊急時のイベントでは、 **-immediate** (即時 **)オプションを使用して、プロセスを強制的に即時停止します(Unixコマンド** kill -9と同じ)。
-   >    * 起動したモジュールがコンソールに何も表示しないようにするには、 **-noconsole** (-noconsole)オプションを使用します。 ログは、 **syslogd** モジュールを介してディスクに書き込まれます。
-   >    * プロセスアクションに関する追加情報を表示するには、 **-verbose** オプションを使用します。
+   >    * 緊急時のイベントでは、**-immediate**&#x200B;オプションを使用して、プロセスを即時に停止します（Unixコマンド&#x200B;**kill -9**&#x200B;と同じ）。
+   >    * **-noconsole**&#x200B;オプションを使用して、起動したモジュールがコンソールに何も表示しないようにします。 ログは&#x200B;**syslogd**&#x200B;モジュールを介してディスクに書き込まれます。
+   >    * **-verbose**&#x200B;オプションを使用して、プロセスアクションに関する追加情報を表示します。
 
       >    
       >      
@@ -92,18 +92,18 @@ Linuxでアクセス可能な通常の管理コマンドのリストを以下に
       **nlserver開始mta@myinstance -verbose**
       >    
       >      
-      このオプションは、ログを追加します。 必要な情報が見つかったら、 **-verbose** （詳細）オプションを指定せずにプロセスを再開し、ログのオーバーロードを防ぐことをお勧めします。
+      このオプションは、ログを追加します。 必要な情報が見つかったら、**-verbose**&#x200B;オプションを使用せずにプロセスを再び開始し、ログのオーバーロードを防ぐことをお勧めします。
 
 
-* すべてのAdobe Campaignプロセスの開始( **nlserver6** サービスの起動と同じ):
+* すべてのAdobe Campaignプロセスを開始アップします（**nlserver6**&#x200B;サービスの起動と同じ）。
 
    **nlserver watchdog - noconsole**
 
-* すべてのAdobe Campaignプロセスをシャットダウンします( **nlserver6** サービスのシャットダウンと同じ)。
+* すべてのAdobe Campaignプロセスをシャットダウンします（**nlserver6**&#x200B;サービスをシャットダウンするのと同じ）。
 
    **nlserverシャットダウン**
 
-* serverConf.xml **ファイルと** config- **ファイルが編集されたら、nlserver web****`<instance>  .xml </instance>`** モジュール設定（および、該当する場合はWebサーバー拡張モジュール）を再読み込みします。
+* **nlserver web**&#x200B;モジュール設定（および、該当するWebサーバー拡張モジュール）を、**serverConf.xml**&#x200B;と&#x200B;**config-`<instance>  .xml </instance>`**&#x200B;ファイルが編集されたら再読み込みします。
 
    **nlserver config -reload**
 

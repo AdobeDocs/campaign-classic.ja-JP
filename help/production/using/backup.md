@@ -26,11 +26,11 @@ ht-degree: 2%
 
 データの大部分はデータベースにあります。 これは、バックアップする情報の99%を表します。
 
-## 物理ファイル {#physical-files}
+## 物理ファイル{#physical-files}
 
 ファイルは、次の複数のカテゴリーに分けられます。
 
-* 構成ファイル( **nl6/conf内)**
+* 構成ファイル（**nl6/conf**&#x200B;内）
 
    これにより、Adobe Campaignを非常に迅速に再設定できます。
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 
    これらはトラッキング（「前頭」と呼ばれることが多い）サーバー上にあり、以前のキャンペーンのリダイレクトがすべて含まれます。 これらは、以前のキャンペーンでも引き続き使用されます。
 
-* ログファイル： **nl6/var/`<instancename>`/log**
+* ログファイル：**nl6/var/`<instancename>`/log**
 
    これらは、問題を追跡するために使用できます。
 
@@ -46,9 +46,9 @@ ht-degree: 2%
 
 * nl6/conf
 
-* nl6/var/`<instanceName>`/redir（各インスタンスに対して）
+* nl6/var/`<instanceName>`/redir （各インスタンスに対して）
 
-* nl6/var/`<instanceName>`/log（オプション）
+* nl6/var/`<instanceName>`/log （オプション）
 
 * nl6/var/`<instanceName>`/relay（オプション）
 

@@ -6,9 +6,9 @@ description: 互換性マトリックス
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: aabab5367ea4a26837fa3dc94a36fbbfa48d59e3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 100%
 

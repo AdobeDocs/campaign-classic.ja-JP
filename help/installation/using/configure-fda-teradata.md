@@ -17,13 +17,13 @@ ht-degree: 80%
 
 # Teradata へのアクセスの設定 {#configure-access-to-teradata}
 
-キャンペーン [Federated Data Access](../../installation/using/about-fda.md) (FDA)オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って、Teradataへのアクセスを設定します。
+キャンペーン[Federated Data Access](../../installation/using/about-fda.md) (FDA)オプションを使用して、外部データベースに格納された情報を処理します。 次の手順に従って、Teradataへのアクセスを設定します。
 
-1. [Teradataドライバのインストールと構成](#teradata-config)
-1. キャンペーンでのTeradata [外部アカウントの設定](#teradata-external)
-1. teradataおよびキャンペーンサーバの [追加設定](#teradata-additional-configurations) （英語）
+1. [Teradataドライバ](#teradata-config)をインストールして構成します
+1. キャンペーンでTeradata[外部アカウント](#teradata-external)を設定
+1. [追加の設定](#teradata-additional-configurations)をTeradataとキャンペーンサーバにセットアップ
 
-## Teradata形状 {#teradata-config}
+## Teradata構成{#teradata-config}
 
 キャンペーンとの接続を実装するには、Teradataのドライバをインストールする必要があります。
 
@@ -75,7 +75,7 @@ ht-degree: 80%
 
 Teradata 外部アカウントを使用すれば、Campaign インスタンスを Teradata 外部データベースに接続することができます。
 
-1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+1. キャンペーン&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL 管理]** / **[!UICONTROL プラットフォーム]** / **[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL 新規]**」をクリックし、「**[!UICONTROL タイプ]**」として「**[!UICONTROL 外部データベース]**」を選択します。
 
@@ -83,7 +83,7 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 
 1. Teradata **[!UICONTROL 外部アカウントを設定するには]**、次を指定する必要があります。
 
-   * **[!UICONTROL タイプ]**:「 **[!UICONTROL Teradata]** 」タイプを選択します。
+   * **[!UICONTROL タイプ]**:Teradatatypeを選択し **** ます。
 
    * **[!UICONTROL サーバー]**:teradataサーバーのURLまたは名前
 
@@ -93,9 +93,9 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 
    * **[!UICONTROL データベース]**:データベースの名前（オプション）
 
-   * **[!UICONTROL オプション]**:teradata経由で渡すオプション。 次の形式を使用します。&#39;parameter=value&#39;. 値の区切り文字としてセミコラムを使用します。
+   * **[!UICONTROL オプション]**:teradata経由で渡すオプション。次の形式を使用します。&#39;parameter=value&#39;. 値の区切り文字としてセミコラムを使用します。
 
-   * **[!UICONTROL タイムゾーン]**:タイムゾーンの設定(Teradata)。 [詳細情報](#timezone)
+   * **[!UICONTROL タイムゾーン]**:タイムゾーンの設定(Teradata)。[詳細情報](#timezone)
 
 ### Query Banding
 
@@ -111,9 +111,9 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 
 クエリバンディングを設定するには、次の手順に従います。
 
-1. Use the  **[!UICONTROL Default]** to enter a default query band that will be used if a user has no associated query band. このフィールドが空になっている場合、クエリバンドがないユーザーは Teradata を使用できません。
+1. **[!UICONTROL デフォルト]**&#x200B;を使用して、関連するクエリ帯域がない場合に使用するデフォルトのクエリ帯域を入力します。 このフィールドが空になっている場合、クエリバンドがないユーザーは Teradata を使用できません。
 
-1. Use the **[!UICONTROL Users]** field to specify a query band for each user. キーと値のペアを必要な数だけ追加できます。例：priority=1;workload=highユーザーにクエリバンドが割り当てられていない場合は、「**[!UICONTROL デフォルト]**」フィールドが適用されます。
+1. 「**[!UICONTROL ユーザー]**」フィールドを使用して、各ユーザーのクエリ範囲を指定します。 キーと値のペアを必要な数だけ追加できます。例：priority=1;workload=highユーザーにクエリバンドが割り当てられていない場合は、「**[!UICONTROL デフォルト]**」フィールドが適用されます。
 
 1. この機能を有効にするには、「**[!UICONTROL アクティブ]**」ボックスをオンにします。
 
@@ -127,7 +127,7 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 * キャンペーン18.10から、外部アカウントのオプションにODBCDriverName=&quot;TeradataデータベースODBCドライバ16.10&quot;を追加できます。 バージョン番号は異なる場合があります。正確な番号は、odbcad32.exe を実行して「ドライバー」タブにアクセスすると見つかります。
 
 
-* 古いキャンペーン版を使用している場合は、ドライバのインストールで作成したodbcinst.iniのTeradataセクションをTeradataという新しいセクションにコピーする必要があります。 この場合は、Regeditを使用できます。 If your base is in latin1, you will have to add **APICharSize=1** in the options.
+* 古いキャンペーン版を使用している場合は、ドライバのインストールで作成したodbcinst.iniのTeradataセクションをTeradataという新しいセクションにコピーする必要があります。 この場合は、Regeditを使用できます。 ベースがlatin1の場合は、オプションに&#x200B;**APICharSize=1**&#x200B;を追加する必要があります。
 
 ## 任意の追加設定 {#teradata-additional-configurations}
 

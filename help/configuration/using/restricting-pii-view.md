@@ -23,7 +23,7 @@ ht-degree: 7%
 
 ## 実装 {#implementation}
 
-任意のスキーマまたは属性に適用できる新しい属性が要素に追加され、既存の属性 **[!UICONTROL visibleIfを補完します]** 。 この属性は次のとおりです。 **[!UICONTROL accessibleIf]** . 現在のユーザコンテキストに関連するXTK式を含む場合、 **[!UICONTROL HasNamedRight]** や **[!UICONTROL $(login)]** などを利用できます。
+任意の要素または属性に適用できる新しい属性がスキーマに追加され、既存の属性&#x200B;**[!UICONTROL visibleIf]**&#x200B;を補完します。 この属性は次のとおりです。**[!UICONTROL accessibleIf]** . 現在のユーザーコンテキストに関連するXTK式を含む場合、例えば&#x200B;**[!UICONTROL HasNamedRight]**&#x200B;や&#x200B;**[!UICONTROL $(login)]**&#x200B;を利用できます。
 
 以下に受信者スキーマ拡張の例を示します。
 
@@ -42,8 +42,8 @@ ht-degree: 7%
 
 主なプロパティは次のとおりです。
 
-* **[!UICONTROL visibleIf]** :を指定すると、メタデータからフィールドが非表示になります。したがって、スキーマ表示、列選択、式ビルダー内でフィールドにアクセスすることはできません。 ただし、式にフィールド名を手動で入力した場合は、値が表示され、データは非表示にはなりません。
-* **[!UICONTROL accessibleIf]** :結果のクエリからデータを非表示にします（空の値に置き換えます）。 visibleIfが空の場合、 **[!UICONTROL accessibleIfと同じ式を取得します]** 。
+* **[!UICONTROL visibleIf]** :を指定すると、メタデータからフィールドが非表示になります。したがって、スキーマ表示、列選択、式ビルダー内でフィールドにアクセスすることはできません。ただし、式にフィールド名を手動で入力した場合は、値が表示され、データは非表示にはなりません。
+* **[!UICONTROL accessibleIf]** :結果のクエリからデータを非表示にします（空の値に置き換えます）。visibleIfが空の場合、**[!UICONTROL accessibleIf]**&#x200B;と同じ式を取得します。
 
 キャンペーンでこの属性を使用した場合の結果は次のとおりです。
 
@@ -58,7 +58,7 @@ ht-degree: 7%
 
 ## 推奨事項 {#recommendations}
 
-各配信で、電子メールアドレスが **[!UICONTROL broadLog]** 表と **[!UICONTROL forecastLog]** 表にコピーされます。そのため、これらのフィールドも保護する必要があります。
+各配信で、電子メールアドレスが&#x200B;**[!UICONTROL broadLog]**&#x200B;テーブルと&#x200B;**[!UICONTROL forecastLog]**&#x200B;テーブルにコピーされます。そのため、これらのフィールドも保護する必要があります。
 
 以下に、これを実装するログテーブル拡張の例を示します。
 

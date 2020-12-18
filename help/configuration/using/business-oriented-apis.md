@@ -21,7 +21,7 @@ ht-degree: 4%
 
 * 配信:
 
-   * 配信アクションの作成については、SubmitDelivery(nms: [配信)](#submitdelivery--nms-delivery-)、
+   * 配信アクションを作成する方法については、[SubmitDelivery (nms:配信)](#submitdelivery--nms-delivery-)を参照してください。
    * キャンペーン(開始、一時停止、停止、送信配達確認)の送信、
    * 配信ログの回復
 
@@ -30,19 +30,19 @@ ht-degree: 4%
    * ワークフローの開始、
    * プロセスの検証等
 
-      JavaScriptでの [SOAPメソッドを参照してください](../../configuration/using/soap-methods-in-javascript.md)。
+      JavaScript](../../configuration/using/soap-methods-in-javascript.md)の[SOAPメソッドを参照してください。
 
 * コンテンツ管理
-* 購読管理については、「 [サブスクライブ(nms:購読)](#subscribe--nms-subscription-) 」および「 [登録解除(nms:購読)」を参照してください](#unsubscribe--nms-subscription-)。
+* 購読管理については、[サブスクライブ(nms:購読)](#subscribe--nms-subscription-)および[サブスクライブ解除(nms:購読)](#unsubscribe--nms-subscription-)を参照してください。
 * データプロセス：インポート、エクスポート。
 
 この節では、「Subscribe」、「Unsubscribe」および「SubmitDelivery」サービスの使用について詳しく説明します。
 
 >[!IMPORTANT]
 >
->[キャンペーンJSAPIドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) には、SOAP呼び出しとAdobe CampaignでのJavaScriptの使用に関する追加情報に加え、アプリケーションで使用されるすべてのメソッドと関数への完全な参照が含まれています。
+>[キャンペーンJSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) ドキュメントには、SOAP呼び出しとAdobe CampaignでのJavaScriptの使用に関する追加情報に加え、アプリケーションで使用されるすべてのメソッドと関数への完全な参照が含まれています。
 
-## 購読(nms:購読) {#subscribe--nms-subscription-}
+## サブスクライブ(nms:購読) {#subscribe--nms-subscription-}
 
 このサービスを使用すると、情報サービスへの受信者を登録し、受信者プロファイルを更新できます。
 
@@ -65,7 +65,7 @@ ht-degree: 4%
 </method>
 ```
 
-紐付けキーの定義は、XMLドキュメントの&#x200B;**要素の_** key `<recipient>` 属性を介して入力する必要があります。 この属性の内容は、コンマ区切りのXPathリストです。
+紐付けキーの定義は、XMLドキュメントの`<recipient>`要素の_**key**&#x200B;属性を介して入力する必要があります。 この属性の内容は、コンマ区切りのXPathリストです。
 
 この呼び出しは、エラー以外のデータを返しません。
 
@@ -83,7 +83,7 @@ ht-degree: 4%
 <recipient _key="email, [folder-id]" email= "john.doe@adobe.com" folder-id="1305" firstName="John" lastName="Doe"/>
 ```
 
-### SOAPメッセージの例 {#example-of-soap-messages}
+### SOAPメッセージの例{#example-of-soap-messages}
 
 * クエリ:
 
@@ -136,7 +136,7 @@ ht-degree: 4%
 </method>
 ```
 
-紐付けキーの定義は、XMLドキュメントの `<recipient>` 要素の_key属性を介して入力する必要があります。 この属性の内容は、コンマ区切りのXPathリストです。
+紐付けキーの定義は、XMLドキュメントの`<recipient>`要素の_key属性を使用して入力する必要があります。 この属性の内容は、コンマ区切りのXPathリストです。
 
 受信者がデータベース内に存在しない場合、または該当する情報サービスに登録されていない場合、サービスは何も行わず、エラーを生成しません。
 
@@ -146,7 +146,7 @@ ht-degree: 4%
 
 この呼び出しは、エラー以外のデータを返しません。
 
-### SOAPメッセージの例 {#example-of-soap-messages-1}
+### SOAPメッセージの例{#example-of-soap-messages-1}
 
 クエリ:
 
@@ -176,7 +176,7 @@ ht-degree: 4%
 </SOAP-ENV:Envelope>
 ```
 
-## SubmitDelivery(nms:配信) {#submitdelivery--nms-delivery-}
+## SubmitDelivery (nms:配信) {#submitdelivery--nms-delivery-}
 
 このサービスでは、配信アクションを作成して送信できます。
 
@@ -205,9 +205,9 @@ ht-degree: 4%
 
 この呼び出しは、エラー以外のデータを返しません。
 
-### XMLドキュメントの例 {#xml-document-example}
+### XMLドキュメントの例{#xml-document-example}
 
-この例は、外部データソース（この場合はファイル）からのカスタム配信テンプレートに基づいています。 設定は配信テンプレートで完全に説明されているので、呼び出しが発生した場合に残るのは `<externalsource>` 要素からのファイルの内容だけです。
+この例は、外部データソース（この場合はファイル）からのカスタム配信テンプレートに基づいています。 設定は配信テンプレートで完全に記述されているので、呼び出しが発生したときに残るのは`<externalsource>`要素のファイルの内容だけです。
 
 ```
 <delivery>

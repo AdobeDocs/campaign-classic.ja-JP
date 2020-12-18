@@ -17,12 +17,12 @@ ht-degree: 80%
 
 # Netezza へのアクセスの設定 {#configure-access-to-netezza}
 
-キャンペーン [Federated Data Access](../../installation/using/about-fda.md) (FDA)オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って、Netezzaへのアクセスを設定します。
+キャンペーン[Federated Data Access](../../installation/using/about-fda.md) (FDA)オプションを使用して、外部データベースに格納された情報を処理します。 次の手順に従って、Netezzaへのアクセスを設定します。
 
-1. [Netezzaドライバのインストールと構成](#netezza-config)
-1. キャンペーンでのNetezza [外部アカウントの設定](#netezza-external)
+1. [Netezzaドライバ](#netezza-config)をインストールして構成します
+1. キャンペーンでNetezza[外部アカウント](#netezza-external)を設定
 
-## Netezza形状 {#netezza-config}
+## Netezza構成{#netezza-config}
 
 FDA で Netezza 外部データベースに接続するには、Adobe Campaign サーバーで追加の設定が必要になります。
 
@@ -69,11 +69,11 @@ FDA で Netezza 外部データベースに接続するには、Adobe Campaign �
    * **ODBCINI**：odbc.ini ファイルの保存場所（例：/etc/odbc.ini）。
    * **NZ_ODBC_INI_PATH**：odbc.ini ファイルの保存場所。Netezza で odbc.ini ファイルを使用するには、この 2 番目の変数も必要になります。
 
-## Netezza外部アカウント {#netezza-external}
+## Netezza外部アカウント{#netezza-external}
 
 netezza外部アカウントを使用すると、キャンペーンインスタンスをNetezzaの外部データベースに接続できます。
 
-1. From Campaign **[!UICONTROL Explorer]**, click **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. キャンペーン&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL 新規]**」をクリックし、「**[!UICONTROL タイプ]**」として「**[!UICONTROL 外部データベース]**」を選択します。
 

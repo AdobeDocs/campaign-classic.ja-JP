@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->一部の設定は、Adobeがホストする配置に対してのみAdobeが実行できます。 例えば、サーバー設定ファイルやインスタンス設定ファイルにアクセスする場合です。 各デプロイメントの詳細については、「 [ホスティングモデル](../../installation/using/hosting-models.md) 」の節または [このページを参照してください](../../installation/using/capability-matrix.md)。
+>一部の設定は、Adobeがホストする配置に対してのみAdobeが実行できます。 例えば、サーバー設定ファイルやインスタンス設定ファイルにアクセスする場合です。 各デプロイメントの詳細については、[「モデルのホスト](../../installation/using/hosting-models.md)」セクションまたは[このページ](../../installation/using/capability-matrix.md)を参照してください。
 
 ## 概要 {#overview}
 
@@ -39,30 +39,30 @@ SpamAssinをAdobe Campaignで使用すると、Adobe Campaignから送信され�
 
 PerlにSpamAssinとそのモジュールを導入するには、HTTP接続（TCP/80フロー）を介したAdobe Campaignアクセスを備えたインターネットアプリケーションサーバーが必要です。
 
-## Windowsマシンへのインストール {#installing-on-a-windows-machine}
+## Windowsマシンにインストールする{#installing-on-a-windows-machine}
 
 WindowsにSpamAssinをインストールして設定し、Adobe Campaignとの統合を有効にするには、次の手順を適用します。
 
 1. SpamAssinのインストール
 1. SpamAssinをAdobe Campaignに統合
 
-### SpamAssinのインストール {#installing-spamassassin}
+### SpamAssin {#installing-spamassassin}をインストール中
 
-1. ユーザーの資格情報を使用して [ソフトウェア配布ポータル](https://experience.adobe.com/downloads) に接続します。 Learn more about Software distribution in [this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
-1. Neolane Spam Assin( **Windowsインストール)(2.0)** (neolane_spamassign.2.0.zip)ファイルをダウンロードします。
+1. ユーザーの資格情報を使用して、[ソフトウェア配布ポータル](https://experience.adobe.com/downloads)に接続します。 ソフトウェアの配布についての詳細は、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)を参照してください。
+1. **Neolane Spam Assacin （Windowsのインストール） (2.0)**&#x200B;ファイル(neolane_spamassign.2.0.zip)をダウンロードします。
 1. このファイルをAdobe Campaignサーバーにコピーし、解凍します。
 
    >[!NOTE]
    >
-   >パスが次の正規式文字のいずれかで構成されている場合は、必要に応じてファイルを解凍するように選択できます。 **`-_A-Za-z\xA0-\xFF0-9\.\%\@\=\+\,\/\\\:.`**. インストールパスに空白文字を含めることはできません。
+   >パスが次の正規式文字のいずれかで構成されている場合は、必要に応じてファイルを解凍するように選択できます。**`-_A-Za-z\xA0-\xFF0-9\.\%\@\=\+\,\/\\\:.`**. インストールパスに空白文字を含めることはできません。
 
-1. ファイルの解凍先のファイルに移動し、重複が **run_me.bat** ファイルをクリックしてインストールスクリプトを起動します。
+1. ファイルの解凍先のファイルに移動し、重複が&#x200B;**run_me.bat**&#x200B;ファイルをクリックして、インストールスクリプトを起動します。
 
-   Windowsシェルが表示され、数秒間表示され続ける場合は、インストールが完了して更新が終了するまで待ってから、 **Enterをクリックします**。
+   Windowsシェルが表示され、数秒間表示され続ける場合は、インストールが完了して更新が終了するまで待ってから、**Enter**&#x200B;をクリックします。
 
-   Windowsシェルが表示されない場合、または表示されない場合は、次の手順に従い、 **portableShell.bat** ファイルを重複クリックしてWindowsシェルを表示し、Shellパスが、 **spamassin.zip** ファイルの解凍先のフォルダーに対応していることを確認します。 そうでない場合は、 **cd** コマンドを使用してアクセスします。
+   Windowsシェルが表示されない場合、または表示されない場合は、次の手順に従い、**portableShell.bat**&#x200B;ファイルを重複クリックしてWindowsシェルを表示し、シェルパスが&#x200B;**spamassin.zip**&#x200B;ファイルの解凍先のフォルダーに対応していることを確認します。 そうでない場合は、**cd**&#x200B;コマンドを使用してアクセスします。
 
-   「 **run_me.bat** 」と入力し、 **** Enterをクリックしてインストールと更新のプロセスを開始します。 この操作は、更新の結果を示すために、次のいずれかの値を返します。
+   **run_me.bat**&#x200B;と入力し、**Enter**&#x200B;をクリックして、インストールと更新の処理を開始します。 この操作は、更新の結果を示すために、次のいずれかの値を返します。
 
    * **0**:更新が行われました。
    * **1**:新しい更新プログラムはありません。
@@ -72,7 +72,7 @@ WindowsにSpamAssinをインストールして設定し、Adobe Campaignとの�
 
 1. SpamAssinのインストールが正常に完了したことを確認するには、次の手順を使用してGTUBEテスト（非要請のバルク電子メール用の汎用テスト）を実行します。
 
-   1. テキストファイルを作成し、C:\TestSpamMail.txtの下に保存し **ます**。
+   1. テキストファイルを作成し、**C:\TestSpamMail.txt**&#x200B;に保存します。
    1. ファイルに次のコンテンツを挿入します。
 
       ```
@@ -89,7 +89,7 @@ WindowsにSpamAssinをインストールして設定し、Adobe Campaignとの�
       XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
       ```
 
-   1. portableShell.bat **ファイルを重複がクリックしてWindowsシェルを表示し、次のコマンドを起動します(または、「** 」は`<root>`spamassinin.zipファイルの解凍時に作成したフォルダーを指定します **** )。
+   1. **portableShell.bat**&#x200B;ファイルを重複がクリックすると、Windowsシェルが表示され、次のコマンドが起動します（または、**spamassin.zip**&#x200B;ファイルを解凍するときに、作成したフォルダーを指定します）。`<root>`
 
       ```
        "<root>\perl\site\bin\spamassassin" "C:\TestSpamMail.txt"
@@ -97,10 +97,10 @@ WindowsにSpamAssinをインストールして設定し、Adobe Campaignとの�
 
       このテスト電子メールのコンテンツは、SpamAssicinによる1,000ポイントスコアをトリガーします。 これは、望ましくないと検出され、インストールが成功し、完全に機能していることを意味します。
 
-### SpamAssicinのAdobe Campaignへの統合 {#integrating-spamassassin-into-adobe-campaign}
+### SpamAssicinをAdobe Campaignに統合{#integrating-spamassassin-into-adobe-campaign}
 
-1. ファイルを編集し **`[INSTALL]/conf/serverConf.xml`** ます。 serverConf.xmlで使用可能なすべてのパラメ **ーターをこの** 節に示します [](../../installation/using/the-server-configuration-file.md)。
-1. **Web** ノードの **spamCheck** 要素の **** command属性の値を変更します。 これを行うには、次のコマンドを実行します。
+1. **`[INSTALL]/conf/serverConf.xml`**&#x200B;ファイルを編集します。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+1. **Web**&#x200B;ノードの&#x200B;**spamCheck**&#x200B;要素&#39; **command**&#x200B;属性の値を変更します。 これを行うには、次のコマンドを実行します。
 
    ```
    <spamCheck command='"<absolute path to the folder where you unzipped the zip file>\call_perl_with_args.bat" "<absolute path to nlserver>/spamcheck.pl"'/>
@@ -110,11 +110,11 @@ WindowsにSpamAssinをインストールして設定し、Adobe Campaignとの�
    >
    >すべてのパスは絶対パスである必要があります。
 
-   **[!UICONTROL Adobe Campaign]** サービスを停止して開始します。
+   **[!UICONTROL Adobe Campaign]**&#x200B;サービスを停止して開始します。
 
 1. Adobe Campaign内のSpamAssinの統合を確認するには、GTBUEテスト（未請求のバルク電子メール用汎用テスト）を使用します。
 
-   portableshell.bat **ファイルを重複クリックします** 。 これにより、Windowsシェルの表示がトリガされます。 次に、次のコマンドを実行します。
+   **portableshell.bat**&#x200B;ファイルを重複クリックします。 これにより、Windowsシェルの表示がトリガされます。 次に、次のコマンドを実行します。
 
    ```
    perl "[INSTALL]\bin\spamcheck.pl" "C:\TestSpamMail.txt"
@@ -124,7 +124,7 @@ WindowsにSpamAssinをインストールして設定し、Adobe Campaignとの�
 
 1. スパムアサシンのフィルタリングおよびスコアリングルールの更新
 
-   フィルタリングとスコアリングルールの初期更新の場合は、開始 **portableShell.bat** を実行し、次のコマンドを実行します。
+   フィルタリングとスコアリングルールの初期更新の場合は、開始&#x200B;**portableShell.bat**&#x200B;を実行し、次のコマンドを実行します。
 
    ```
    sa-update --no-gpg
@@ -136,9 +136,9 @@ WindowsにSpamAssinをインストールして設定し、Adobe Campaignとの�
    sa-update --no-gpg
    ```
 
-## Linuxマシンへのインストール {#installing-on-a-linux-machine}
+## Linuxマシンにインストールする{#installing-on-a-linux-machine}
 
-### Debianでのインストール手順 {#installation-steps-in-debian}
+### Debian {#installation-steps-in-debian}でのインストール手順
 
 * 必要に応じて、次のコマンドを使用してPerlとSpamAssinをインストールします。
 
@@ -146,14 +146,14 @@ WindowsにSpamAssinをインストールして設定し、Adobe Campaignとの�
    apt-get install spamassassin libxml-writer-perl
    ```
 
-* serverConf.xml **ファイル(** )で `/usr/local/[INSTALL]/nl6/conf/`、spamCheck **** 行を次のように変更します。
+* **serverConf.xml**&#x200B;ファイル（`/usr/local/[INSTALL]/nl6/conf/`から入手可能）で、**spamCheck**&#x200B;行を次のように変更します。
 
    ```
    <spamCheck command="perl
    /usr/local/[NSTALL]/nl6/bin/spamcheck.pl"/>
    ```
 
-### RHEL/CentOSでのインストール手順 {#installation-steps-in-rhel-centos}
+### RHEL/CentOS {#installation-steps-in-rhel-centos}でのインストール手順
 
 必要に応じて、Perlをインストールし、CPANを使用してパッケージを回復します。
 
@@ -167,9 +167,9 @@ cpan XML::Writer
 cpan Mail::SpamAssassin
 ```
 
-### フィルタールールの更新 {#updating-filter-rules}
+### フィルター規則{#updating-filter-rules}を更新中
 
-フィルタルールは、 **sa-update** ツールを使用して自動的に更新できます。 詳しくは、公式のSpamAssicin Webサイトhttp://spamassassin.apache.org/ [を参照してください](http://spamassassin.apache.org/) 。
+フィルタールールは、**sa-update**&#x200B;ツールを使用して自動的に更新できます。 詳しくは、公式のSpamAssinのWebサイト[http://spamassassin.apache.org/](http://spamassassin.apache.org/)を参照してください。
 
 Debianでは、更新は毎日自動的に行われます。
 
@@ -181,15 +181,15 @@ test -x /usr/bin/sa-update || exit 0
 /usr/sbin/sa-update && /etc/init.d/spamassassin update
 ```
 
-次のコマンドを使用して、 **crontab** にこのスクリプトを挿入します。
+次のコマンドを使用して、**crontab**&#x200B;にこのスクリプトを挿入します。
 
 ```
 crontab-e
 ```
 
-### パフォーマンスの最適化 {#performance-optimization}
+### パフォーマンスの最適化{#performance-optimization}
 
-Linuxでのパフォーマンスを向上させるには、/etc/spamassassin/local.cf **** ファイルを編集し、ファイルの末尾に次の行を追加します。
+Linuxでのパフォーマンスを向上させるには、**/etc/spamassassin/local.cf**&#x200B;ファイルを編集し、ファイルの末尾に次の行を追加します。
 
 ```
 dns_available no

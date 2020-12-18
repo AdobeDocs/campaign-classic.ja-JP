@@ -19,15 +19,15 @@ ht-degree: 2%
 
 次の節では、ほとんどのセットアップでAdobe Campaignを効率的に動作させるための必須のサーバ設定について説明します。
 
-追加の設定は、「 [キャンペーンサーバーの](../../installation/using/configuring-campaign-server.md)設定」で行います。
+[キャンペーンサーバーの設定](../../installation/using/configuring-campaign-server.md)には、追加の設定が用意されています。
 
 >[!NOTE]
 >
->サーバ側の設定は、Adobeがホストする配置に対してのみAdobeが実行できます。 各デプロイメントの詳細については、「 [ホスティングモデル](../../installation/using/hosting-models.md) 」の節または機能マトリックス [を参照してください](../../installation/using/capability-matrix.md)。
+>サーバ側の設定は、Adobeがホストする配置に対してのみAdobeが実行できます。 各デプロイメントの詳細については、[ホスティングモデル](../../installation/using/hosting-models.md)の節または[機能マトリクス](../../installation/using/capability-matrix.md)を参照してください。
 
-## 内部識別子 {#internal-identifier}
+## 内部識別子{#internal-identifier}
 
-**internal** identifierは、インストール、管理、保守の目的で使用する技術的なログインです。 このログインは、インスタンスに関連付けられていません。
+**internal**&#x200B;識別子は、インストール、管理、メンテナンスの目的で使用する技術的なログインです。 このログインは、インスタンスに関連付けられていません。
 
 このログインを使用して接続されたオペレーターは、すべてのインスタンスに対してすべての権限を持ちます。 新たにインストールした場合、このログインにはパスワードがありません。 このパスワードは手動で定義する必要があります。
 
@@ -49,36 +49,36 @@ Confirmation: XXXX
 17:34:02 >   Password successfully changed for account 'internal' (authentication mode 'nl')
 ```
 
-## 設定ファイル {#configuration-files}
+## 構成ファイル{#configuration-files}
 
-設定ファイルは、Adobe Campaignのインストールフォルダーの **conf** フォルダーに保存されます。 設定は2つのファイルに分かれています。
+設定ファイルは、Adobe Campaignのインストールフォルダーの&#x200B;**conf**&#x200B;フォルダーに保存されます。 設定は2つのファイルに分かれています。
 
-* **`config-<instance>.xml`** ( **instance** はインスタンスの名前):インスタンスの特定の設定。 サーバを複数のインスタンス間で共有する場合は、各インスタンスに固有のパラメータを関連ファイルに入力してください。
-* **serverConf.xml**:すべてのインスタンスの一般設定。 このファイルは、Adobe Campaignサーバーの技術的なパラメーターを組み合わせたものです。これらはすべてのインスタンスで共有されます。 これらのパラメーターの一部については、以下で詳しく説明します。 ファイル自体を参照して、使用可能なすべてのパラメーターを表示します。 この [節に示す様々なノードとパラメーター](../../installation/using/the-server-configuration-file.md)。
+* **`config-<instance>.xml`** ( **** instanceはインスタンスの名前):インスタンスの特定の設定。サーバを複数のインスタンス間で共有する場合は、各インスタンスに固有のパラメータを関連ファイルに入力してください。
+* **serverConf.xml**:すべてのインスタンスの一般設定。このファイルは、Adobe Campaignサーバーの技術的なパラメーターを組み合わせたものです。これらはすべてのインスタンスで共有されます。 これらのパラメーターの一部については、以下で詳しく説明します。 ファイル自体を参照して、使用可能なすべてのパラメーターを表示します。 この[セクション](../../installation/using/the-server-configuration-file.md)に示す、様々なノードとパラメーター。
 
-Adobe Campaignデータ（ログ、ダウンロード、リダイレクトなど）のストレージディレクトリ(**var** directory)を設定できます。 これを行うには、 **XTK_VAR_DIR** システム変数を使用します。
+Adobe Campaignデータ（ログ、ダウンロード、リダイレクトなど）のストレージディレクトリ（**var**&#x200B;ディレクトリ）を設定できます。 これを行うには、**XTK_VAR_DIR**&#x200B;システム変数を使用します。
 
-* Windowsの場合、 **システム変数XTK_VAR_DIR** :
+* Windowsの場合、**XTK_VAR_DIR**&#x200B;システム変数に次の値を指定します
 
    ```
    D:\log\AdobeCampaign
    ```
 
-* Linuxでは、 **customer.sh** ファイルに移動し、次のことを示します。 **export XTK_VAR_DIR=/app/log/AdobeCampaign**.
+* Linuxでは、**customer.sh**&#x200B;ファイルに移動し、次のことを示します。**XTK_VAR_DIR=/app/log/AdobeCampaign**&#x200B;をエクスポートします。
 
-   For more on this, refer to [Personalizing parameters](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
+   詳しくは、[パラメータのパーソナライズ](../../installation/using/installing-packages-with-linux.md#personalizing-parameters)を参照してください。
 
-## プロセスの有効化 {#enabling-processes}
+## プロセスを有効にする{#enabling-processes}
 
-サーバー上のAdobe Campaignプロセスは、 **config-default.xml** と **`config-<instance>.xml`** ファイルを介して有効（および無効）になります。
+サーバー上のAdobe Campaignプロセスは、**config-default.xml**&#x200B;ファイルと&#x200B;**`config-<instance>.xml`**&#x200B;ファイルを介して有効（および無効）になります。
 
-これらのファイルに変更を適用するには、Adobe Campaignサービスが起動している場合、 **nlserver config -reload** コマンドを実行する必要があります。
+これらのファイルに変更を適用するには、Adobe Campaignサービスが起動している場合、**nlserver config -reload**&#x200B;コマンドを実行する必要があります。
 
 プロセスには次の2種類があります。マルチインスタンスとシングルインスタンスの両方を追加します。
 
-* **マルチインスタンス**:すべてのインスタンスに対して1つの単一プロセスが開始されます。 これは、 **web**、 **syslogd** 、および **trackinglogd** プロセスの場合です。
+* **マルチインスタンス**:すべてのインスタンスに対して1つの単一プロセスが開始されます。**web**、**syslogd**、**trackinglogd**&#x200B;の各プロセスは、このように処理されます。
 
-   有効化は、 **config-default.xml** ファイルから設定できます。
+   有効化は、**config-default.xml**&#x200B;ファイルから設定できます。
 
    クライアントコンソールにアクセスし、リダイレクト（トラッキング）を行うAdobe Campaignサーバーの宣言：
 
@@ -89,9 +89,9 @@ Adobe Campaignデータ（ログ、ダウンロード、リダイレクトなど
    <trackinglogd autoStart="true"/>
    ```
 
-   この例では、Linuxの **vi** コマンドを使用してファイルを編集します。 任意の **.txt** または **.xml** エディターを使用して編集できます。
+   この例では、Linuxでは&#x200B;**vi**&#x200B;コマンドを使用してファイルを編集します。 **.txt**&#x200B;または&#x200B;**.xml**&#x200B;エディターを使用して編集できます。
 
-* **モノラルインスタンス**:各インスタンスに対して1つのプロセスが開始されます(モジュール： **mta**, wfserver **,** inMail **, sms**, **sms stat** not ****)
+* **モノラルインスタンス**:各インスタンスに対して1つのプロセスが開始されます(モジュール： **mta**, wfserver **,** inMail **, sand** stat  ****  **** smt)
 
    有効化は、インスタンスの設定ファイルを使用して設定できます。
 
@@ -108,20 +108,20 @@ Adobe Campaignデータ（ログ、ダウンロード、リダイレクトなど
    <stat autoStart="true"/>
    ```
 
-## 配信設定 {#delivery-settings}
+## 配信設定{#delivery-settings}
 
-配信パラメーターは、 **serverConf.xml** フォルダーで設定する必要があります。
+配信パラメーターは、**serverConf.xml**&#x200B;フォルダーで設定する必要があります。
 
-* **DNS構成**:以降のMTAモジュールが行うMX型DNSクエリに応答するために使用するDNSサーバーの配信ドメインとIPアドレス（またはホスト）を指定し **`<dnsconfig>`** ます。
+* **DNS構成**:以 **`<dnsconfig>`** 降のMTAモジュールが行うMX型DNSクエリに応答するために使用するDNSサーバーの配信ドメインとIPアドレス（またはホスト）を指定します。
 
    >[!NOTE]
    >
-   >Windowsでのインストールには、 **nameServers** パラメーターが必要です。 Linuxでのインストールの場合は、空のままにしておく必要があります。
+   >**nameServers**&#x200B;パラメーターは、Windowsでのインストールに必須です。 Linuxでのインストールの場合は、空のままにしておく必要があります。
 
    ```
    <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
    ```
 
-このファイルで使用できる他の配信パラメーターは、 [個人化配信パラメーター](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)。
+このファイルで使用できる他の配信パラメーターは、[配信パラメーターの個人化](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)に記載されています。
 
-「 [電子メールの配信品質](../../installation/using/email-deliverability.md)」も参照してください。
+[Eメール配信品質](../../installation/using/email-deliverability.md)も参照してください。

@@ -19,9 +19,9 @@ ht-degree: 4%
 
 Webトラッキングタグーは、適切なパラメーターで構成されたURLで、HTTPクエリを介してリダイレクトサーバーに送信されます。
 
-## 送信するデータの形式 {#format-of-the-data-to-be-sent}
+## 送信するデータの形式{#format-of-the-data-to-be-sent}
 
-WebトラッキングURLの形式は次のとおりです。 **https://`<name_of_redirection_server>`:`<port>`/r/`<random_number>`?`<parameters>`**
+WebトラッキングURLの形式は次のとおりです。**https://`<name_of_redirection_server>`:`<port>`/r/`<random_number>`?`<parameters>`**
 
 >[!NOTE]
 >
@@ -79,7 +79,8 @@ WebトラッキングURLの形式は次のとおりです。 **https://`<name_of
                               <p>URLパラメータ</p> 
                            </td>
                            <td>
-                              <p>セッションcookieがない場合に使用する配信識別子。 この値は16進数で表します。
+                              <p>セッションcookieがない場合に使用する配信識別子。 この値は
+                                 は16進数で表します。
                               </p> 
                            </td> 
                         </tr>
@@ -91,7 +92,9 @@ WebトラッキングURLの形式は次のとおりです。 **https://`<name_of
                               <p>URLパラメータ</p> 
                            </td>
                            <td>
-                              <p>インターネットユーザーの識別に使用されるパラメーター。 このパラメーターの形式は「name=value」です。この名前は受信者スキーマのフィールドです。 このパラメーターは、セッションcookieに含まれる識別子よりも優先されます。
+                              <p>インターネットユーザーの識別に使用されるパラメーター。 このパラメーターの形式は、「name=value」です。
+                                 ここで、名前は受信者スキーマのフィールドです。 このパラメーターは、
+                                 セッションcookieに含まれる識別子。
                               </p> 
                            </td> 
                         </tr> 
@@ -124,10 +127,10 @@ WebトラッキングURLの形式は次のとおりです。 **https://`<name_of
 >
 >URLパラメーターを介してリダイレクトサーバーに送信されるすべての値は、URLエンコードされている必要があります。 上記の例では、「=」と「|」の文字がそれぞれ「%3D」と「%7C」としてエンコードされています。
 
-## データ送信方法 {#data-transmission-methods}
+## データ送信方法{#data-transmission-methods}
 
 次の方法を使用できます。
 
-* 追跡するWebページに組み込まれているHTML ******`<img>`** タグの「src」属性にURLを挿入します。
+* 追跡するWebページに組み込まれているHTML **`<img>`**&#x200B;タグの&#x200B;**&quot;src&quot;**&#x200B;属性にURLを挿入します。
 * 追跡するWebページが生成された場合、リダイレクトサーバーに直接呼び出します。
 

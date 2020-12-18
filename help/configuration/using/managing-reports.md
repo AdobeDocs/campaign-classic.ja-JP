@@ -17,11 +17,11 @@ ht-degree: 3%
 
 # レポートの管理{#managing-reports}
 
-デフォルトのAdobe Campaign受信者(nm:受信者またはスキーマリンク)に固有のスキーマに基づくレポートは、ターゲットマッピングを介してリンクされたカスタムテーブルとそのテーブルのデータを考慮するために再開発する必要があります( [ターゲットマッピング](../../configuration/using/target-mapping.md) の節を参照)。
+カスタムテーブルと、ターゲットマッピングを介してリンクされたテーブルのデータを考慮するために、デフォルトのAdobe Campaign受信者(nm:受信者またはスキーマリンク)に固有のスキーマに基づくレポートを再開発する必要があります([ターゲットマッピング](../../configuration/using/target-mapping.md)の節を参照)。
 
-新しいレポートを作成するには、 [この節を参照してください](../../reporting/using/about-reports-creation-in-campaign.md)。
+新しいレポートを作成する方法については、[このセクション](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
 
-場合によっては、これらのテーブルに固有の新しいキューブも配置する必要があります。 Cubes are detailed in [this section](../../reporting/using/about-cubes.md).
+場合によっては、これらのテーブルに固有の新しいキューブも配置する必要があります。 キューブの詳細は[このセクション](../../reporting/using/about-cubes.md)に記載されています。
 
 以下のレポートが対象となります。
 

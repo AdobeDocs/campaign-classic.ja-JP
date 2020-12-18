@@ -19,7 +19,7 @@ ht-degree: 4%
 
 次のコマンドラインを使用するには、アプリケーションサーバーにアクセスする機能が必要です。 Adobeがホストする配置では、これらのコマンドはAdobeのみが実行できます。
 
-## インスタンスの作成 {#creating-an-instance}
+## インスタンス{#creating-an-instance}の作成
 
 インスタンスの作成は、次の構文を使用して、コマンドラインを使用して実行できます。
 
@@ -27,11 +27,11 @@ ht-degree: 4%
 nlserver config -addinstance:instance/masques DNS[/lang]
 ```
 
-( **eng** と **fra** は、 `[lang]` パラメータに指定できる値です)。
+（ここで&#x200B;**eng**&#x200B;と&#x200B;**fra**&#x200B;は、`[lang]`パラメーターに指定できる値です）。
 
-コマンド **nlserver config -addinstance:instance1/demo*/eng** を使用すると、DNSマスクdemo*を使用して、 **instance1** という名前のインスタンスを英語で作成できます。
+**nlserver config -addinstance:instance1/demo*/eng**&#x200B;コマンドを使用すると、**instance1**&#x200B;という名前のインスタンスを英語で作成し、DNSマスクdemo*を使用できます。
 
-## データベースの宣言 {#declaring-a-database}
+## データベース{#declaring-a-database}の宣言
 
 次の構文を使用して、既存のデータベースをコマンドラインからインスタンスに関連付けることができます。
 
@@ -39,14 +39,14 @@ nlserver config -addinstance:instance/masques DNS[/lang]
 nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 ```
 
-この **`[rdbms]`** パラメーターには次の値を指定できます。
+**`[rdbms]`**&#x200B;パラメーターには次の値を指定できます。
 
 * **postgresql**:PostgreSQLの場合、
 * **oracle**:oracleは
 * **mssql**:Microsoft SQL Serverの場合、
 * **DB2**:（DB2エンジン用）
 
-次のコマンドは、 **キャンペーンにリンクされたSQLタイプserver** base6 **というSQLタイプserverを使用して** demo **インスタンスを設定します。 accountはdbsrv********** srv serverに対してpasswordを設定します。
+次のコマンドは、**dbsrv**&#x200B;サーバーの&#x200B;**キャンペーン**&#x200B;アカウントと&#x200B;**パスワード**&#x200B;にリンクされた&#x200B;**base6**&#x200B;と呼ばれるSQLタイプのサーバーを使用して&#x200B;**demo**&#x200B;インスタンスを設定します。
 
 ```
  nlserver config -setdblogin:db:campaign:myBase/password@dbServer -instance:demo

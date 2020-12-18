@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # エディション{#edition}
 
-ナビゲーション階層設定ドキュメントを作成および設定する画面は、 **[!UICONTROL 管理/設定/ナビゲーション階層]** ノードからアクセスできます。
+ナビゲーション階層の設定ドキュメントを作成および設定する画面は、**[!UICONTROL 管理/設定/ナビゲーション階層]**&#x200B;ノードからアクセスできます。
 
 ![](assets/d_ncs_integration_navigation_arbo.png)
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->「名前」編集コントロールを使用すると、名前と名前空間で構成されるドキュメントキーを入力できます。 The &quot;name&quot; and &quot;namespace&quot; attributes of the **`<navtree>`** element are automatically updated in the XML edit field of the schema.
+>「名前」編集コントロールを使用すると、名前と名前空間で構成されるドキュメントキーを入力できます。 **`<navtree>`**&#x200B;要素の「name」と「名前空間」属性は、スキーマのXML編集フィールドで自動的に更新されます。
 
 プレビューは、次の設定を含む結合ドキュメントを自動的に生成します。
 

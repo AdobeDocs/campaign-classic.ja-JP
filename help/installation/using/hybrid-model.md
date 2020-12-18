@@ -19,13 +19,13 @@ ht-degree: 4%
 
 ホストのお客様は、インストールと設定のほとんどの手順をAdobeが実行します。 以下のセクションにアクセスして、実装をカスタマイズできます。
 
-* トランザクションメッセージの設定：こ [の節を参照](../../message-center/using/transactional-messaging-architecture.md)。
-* ブランドごとのトラッキングURLとミラーページURLを設定します。 トランザクションメッセージについては、こ [の節を参照してください](../../message-center/using/configuring-multibranding.md)。
-* クライアントコンソールをインストールします。こ [の節を参照](../../installation/using/installing-the-client-console.md)。
-* 組み込みパッケージのインストール：こ [の節を参照](../../installation/using/installing-campaign-standard-packages.md)。
-* 配信品質： [MXルール](../../installation/using/email-deliverability.md#mx-configuration) と [E メールフォーマットを設定します](../../installation/using/email-deliverability.md#managing-email-formats)。 配信品質ツールとベストプラクティスについて詳しくは、「は [じめに](../../delivery/using/deliverability-key-points.md) 」ガイドと [詳細なドキュメントを参照してください](../../delivery/using/about-deliverability.md)。
-* キャンペーンオプションの設定：こ [の節を参照](../../installation/using/configuring-campaign-options.md)。
-* 外部データベース(Federated Data Access)の設定：こ [の節を参照](../../installation/using/about-fda.md)。
-* CRMコネクタの設定：こ [の節を参照](../../platform/using/crm-connectors.md)。
-* ミッドソーシング導入の原則の詳細については、この節 [を参照してください](../../installation/using/mid-sourcing-deployment.md)。
+* トランザクションメッセージの設定：[を参照して、](../../message-center/using/transactional-messaging-architecture.md)を参照してください。
+* ブランドごとのトラッキングURLとミラーページURLを設定します。 トランザクションメッセージについては、[このセクション](../../message-center/using/configuring-multibranding.md)を参照してください。
+* クライアントコンソールをインストールします。[を参照して、](../../installation/using/installing-the-client-console.md)を参照してください。
+* 組み込みパッケージのインストール：[を参照して、](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+* 配信品質：[MXルール](../../installation/using/email-deliverability.md#mx-configuration)と[E メールフォーマット](../../installation/using/email-deliverability.md#managing-email-formats)を構成します。 配信品質のツールとベストプラクティスについて詳しくは、『[はじめに](../../delivery/using/deliverability-key-points.md)』と『[詳細なドキュメント](../../delivery/using/about-deliverability.md)』を読んでください。
+* キャンペーンオプションの設定：[を参照して、](../../installation/using/configuring-campaign-options.md)を参照してください。
+* 外部データベース(Federated Data Access)の設定：[を参照して、](../../installation/using/about-fda.md)を参照してください。
+* CRMコネクタの設定：[を参照して、](../../platform/using/crm-connectors.md)を参照してください。
+* ミッドソーシング導入の原則についての詳細は、[このセクション](../../installation/using/mid-sourcing-deployment.md)を参照してください。
 

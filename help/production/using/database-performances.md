@@ -30,17 +30,17 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->インサイトについては、『 [Adobe Campaignハードウェアサイズガイド](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html) 』を参照してください。
+>洞察については、[Adobe Campaignハードウェアサイズガイド](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)を参照してください。
 
-## プラットフォームの設定 {#platform-configuration}
+## プラットフォーム構成{#platform-configuration}
 
-不適切な設定は、プラットフォームのパフォーマンスに影響を与える可能性があります。 ネットワーク設定、プラットフォームの配信品質オプション、およびMTA設定を **serverConf.xml** ファイルで確認することをお勧めします。
+不適切な設定は、プラットフォームのパフォーマンスに影響を与える可能性があります。 **serverConf.xml**&#x200B;ファイルでは、ネットワーク設定、プラットフォーム配信品質オプション、およびMTA設定を確認することをお勧めします。
 
 ## データベースメンテナンス {#database-maintenance}
 
 **データベースのクリーンアップタスク**
 
-データベースのクリーンアップタスクが動作していることを確認してください。 これを行うには、ログファイルにエラーが含まれているかどうかを確認する表示を行います。 詳しくは、[この節](../../production/using/database-cleanup-workflow.md)を参照してください。
+データベースのクリーンアップタスクが動作していることを確認してください。 これを行うには、ログファイルにエラーが含まれているかどうかを確認する表示を行います。 詳しくは、[こちらの節](../../production/using/database-cleanup-workflow.md)を参照してください。
 
 **保守計画**
 
@@ -50,7 +50,7 @@ ht-degree: 8%
 * 以前に実行した保守計画
 * スクリプトログの表示。
 
-詳しくは、[この節](../../production/using/recommendations.md)を参照してください。
+詳しくは、[こちらの節](../../production/using/recommendations.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -60,22 +60,22 @@ ht-degree: 8%
 
 作業用テーブルの数とサイズを確認してください。 一定のサイズを超えると、データベースのパフォーマンスが低下します。 これらのテーブルはワークフローと配信によって作成されます。 ワークフローと配信がアクティブな間は、データベースに残ります。 作業テーブルのサイズを制限するには、次の操作を実行します。
 
-* 次のステータスの配信を停止または削除します。 **[!UICONTROL 失敗]** 、 **[!UICONTROL 進行中]** 、配信 **[!UICONTROL の準備完了]** 、または **[!UICONTROL 一時停止]** 。
+* 次のステータスの配信を停止または削除します。**[!UICONTROL 失敗]**、**[!UICONTROL 進行中]**、**[!UICONTROL 配信]**、または&#x200B;**[!UICONTROL 一時停止中]**。
 * エラーが原因で一時停止されたワークフローの停止または削除、
-* エン **[!UICONTROL ド]** アクティビティを含まないテストで使用され、ステータスが「 **[!UICONTROL 一時停止」のままのワークフローをすべて停止します]** 。
+* **[!UICONTROL End]**&#x200B;アクティビティを含まないテストに使用されるワークフローのうち、**[!UICONTROL Paused]**&#x200B;のステータスになるものをすべて停止します。
 
 >[!IMPORTANT]
 >
->操作に長い時間がかかり、大量のスペースが解放される場合は、インデックスの再構築など、十分なメンテナンスが必要になります。 詳しくは、[この節](../../production/using/recommendations.md)を参照してください。
+>操作に長い時間がかかり、大量のスペースが解放される場合は、インデックスの再構築など、十分なメンテナンスが必要になります。 詳しくは、[こちらの節](../../production/using/recommendations.md)を参照してください。
 
 **Adobe Campaignプロセスの監視**
 
 Adobe Campaignのインストール設定に応じて、プラットフォーム監視には次の2つのツールを使用できます。
 
-* インスタンスの実稼働ページ。 For more on this, refer to [Manual monitoring](../../production/using/monitoring-processes.md#manual-monitoring).
-* netreportスクリプト。 詳しくは、「Adobe Campaignスクリプトを使用した [自動監視](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)」を参照してください。
+* インスタンスの実稼働ページ。 詳しくは、[手動監視](../../production/using/monitoring-processes.md#manual-monitoring)を参照してください。
+* netreportスクリプト。 詳しくは、[Adobe Campaignスクリプトを使用した自動監視](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)を参照してください。
 
-## Specifics {#specifics}
+## 詳細{#specifics}
 
 問題の原因を特定するために、リアルタイム診断を実行する必要が生じる場合があります。 開始を行うには、プロセスおよびプラットフォームのログファイルを確認し、問題の再作成中にデータベースのアクティビティを監視します。 特に、次の点に注意してください。
 

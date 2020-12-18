@@ -17,7 +17,7 @@ ht-degree: 7%
 
 # Unicode への切り替え{#switching-to-unicode}
 
-Linux/PostgreSQLの既存の **prod** Instanceの場合、unicodeに切り替える手順は次のとおりです。
+Linux/PostgreSQLの既存の&#x200B;**prod**&#x200B;インスタンスの場合、unicodeに切り替える手順は次のとおりです。
 
 1. データベースへの書き込みプロセスを停止します。
 
@@ -60,7 +60,7 @@ Linux/PostgreSQLの既存の **prod** Instanceの場合、unicodeに切り替え
    vi config-prod.xml
    ```
 
-   デ追加ータベース識別子( **databaseId******)に関連する値の前にあるu文字：
+   デ追加ータベース識別子(**databaseId**)に関連する値の前にある&#x200B;**u**&#x200B;文字：
 
    ```
    <web>

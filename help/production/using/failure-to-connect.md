@@ -19,7 +19,7 @@ ht-degree: 2%
 
 接続の問題の原因は複数の場合があり、様々なコンテキストに応じて異なります。
 
-次のテストを試してみてください。接続の失敗が引き続き発生する場合は、 **Adobe Campaignサポートに問い合わせてください**。
+次のテストを試してみてください。接続の失敗が解決しない場合は、**Adobe Campaignサポート**&#x200B;にお問い合わせください。
 
 
 
@@ -41,27 +41,28 @@ ht-degree: 2%
 </tr>
 <tr> 
 <td>Webサーバーは応答しますか。</td> 
-<td>Webブラウザーを使用してAdobe CampaignサーバーのアクセスURLに接続します。 <b>http(s):// &lt;urlserver&gt;</b>. 応答しない場合、Webサーバーはマシン上で停止します。 サービスを再起動するには、ホスト会社のシステム管理者に問い合わせてください。</td>
+<td>Webブラウザーを使用してAdobe CampaignサーバーのアクセスURLに接続します。<b>http(s):// &lt;urlserver&gt;</b>. 応答しない場合、Webサーバーはマシン上で停止します。 サービスを再起動するには、ホスト会社のシステム管理者に問い合わせてください。</td>
 </tr>
 <tr> 
 <td>Adobe Campaignは正しく統合されているか。</td> 
-<td>次の場所にログオンします。 <b>http(s)://&lt;urlserver&gt;/r/test</b> URL。 サーバーは、次の種類のメッセージを返す必要があります。&lt;redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='&lt;hostname&gt;' localHost='&lt;server&gt;'/&gt;この結果を取得しない場合は、統合を考慮したWebサーバーの設定を確認してください。</td>
+<td>次の場所にログオンします。<b>http(s)://&lt;urlserver&gt;/r/test</b> URL. サーバーは、次の種類のメッセージを返す必要があります。&lt;redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='&lt;hostname&gt;' localHost='&lt;server&gt;'/&gt;
+この結果を取得しない場合は、統合が考慮されるウェブサーバ設定をチェックインします。</td>
 </tr>
 <tr> 
-<td>次のURLに接続します。 <b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
+<td>次のURLに接続します。<b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
 <td>Tomcat Javaエラーが発生した場合は、JAVA統合が正しく実行されているかどうかを確認します。 It is integrated in the file [path of application]/nl6/customer.sh</td>
 </tr>
 <tr> 
-<td>次のURLに接続します。 <b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
+<td>次のURLに接続します。<b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
 <td>空白のページが取得された場合は、Adobe CampaignWebモジュールが起動しているかどうかを確認します。 nlserver pdumpコマンドは、DD/MM/YYYYのAdobe Campaign Classic(7.X YY.R build XXX@SHA1)のアプリケーションサーバーを返す必要があります。 そうでない場合は、コマンドnlserver開始Webを使用してモジュールを再起動します</td>
 </tr>
 <tr>
 <td>セキュリティゾーンの一般的な構成を確認します。</td>
-<td>For more on configuring security zones, refer to <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=en#configuring-campaign-server"/>this section.</a></td>
+<td>セキュリティゾーンの設定についての詳細は、<a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=en#configuring-campaign-server"/>このセクションを参照してください。</a></td>
 </tr>
 <tr>
-<td>nlserver pdumpコマンドは <b>Noタスクを返す</b></td>
-<td>Adobe Campaignアプリケーション全体を再起動する必要があります。 これを行うには、次のコマンドを使用します。 <b>nlserver watchdog -svc -noconsole</b></td>
+<td>nlserver pdumpコマンドは<b>タスクなし</b>を返します。</td>
+<td>Adobe Campaignアプリケーション全体を再起動する必要があります。 これを行うには、次のコマンドを使用します。<b>nlserver watchdog -svc -noconsole</b></td>
 </tr>
 </tbody> 
 </table>

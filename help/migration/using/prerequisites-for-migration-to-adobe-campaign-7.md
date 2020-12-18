@@ -17,7 +17,7 @@ ht-degree: 22%
 
 # Adobe Campaign 7 への移行の前提条件{#prerequisites-for-migration-to-adobe-campaign}
 
-移行を実行する前に、「移行を開始する [前に](../../migration/using/before-starting-migration.md) 」および「プラットフォームの [設定](../../migration/using/configuring-your-platform.md) 」の節を参照してください。
+移行を実行する前に、[移行を開始する前に](../../migration/using/before-starting-migration.md)および[プラットフォーム](../../migration/using/configuring-your-platform.md)の設定の節を参照してください。
 
 v6.02からAdobe Campaignv7に移行する場合、以前に配信された一部のファイルは配信されません。
 

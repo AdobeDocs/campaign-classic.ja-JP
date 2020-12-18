@@ -17,4 +17,4 @@ ht-degree: 29%
 
 # Linux 用クライアントコンソールの可用性{#client-console-availability-for-linux}
 
-作成および設定したインスタンスにログオンできるAdobe Campaignユーザーには、クライアントコンソールを使用する必要があります。 詳しくは、「Windowsでの [クライアントコンソールの可用性](../../installation/using/client-console-availability-for-windows.md)」を参照してください。
+作成および設定したインスタンスにログオンできるAdobe Campaignユーザーには、クライアントコンソールを使用する必要があります。 詳しくは、[Windows用のクライアントコンソールの可用性](../../installation/using/client-console-availability-for-windows.md)を参照してください。

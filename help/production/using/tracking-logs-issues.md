@@ -19,15 +19,15 @@ ht-degree: 13%
 
 トラッキングログが転送されない理由は複数考えられます。 次の情報を確認することをお勧めします。
 
-* ト **ラッキング** ワークフローにエラーがあるか。
+* **追跡**&#x200B;ワークフローにエラーがあるかどうか
 
-   「 [監視テクニカルワークフロー](../../workflow/using/monitoring-technical-workflows.md)」を参照してください。
+   [監視テクニカルワークフロー](../../workflow/using/monitoring-technical-workflows.md)を参照してください。
 
    ![](assets/tracking_scheduled_task.png)
 
-* モジュール **trackinglogd** はサーバーで実行されていますか。
+* モジュール&#x200B;**trackinglogd**&#x200B;はサーバー上で実行されていますか？
 
-   「 [ログファイル](../../production/using/log-files.md)」を参照してください。
+   [ログファイル](../../production/using/log-files.md)を参照してください。
 
 * 変更は行われたか。 トラッキングエイリアスを使用して、サーバーとの接続が失われる可能性があります。
 

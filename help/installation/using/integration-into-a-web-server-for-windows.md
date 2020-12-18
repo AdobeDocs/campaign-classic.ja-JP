@@ -23,8 +23,8 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
 
 この場合、次のようになります。
 
-* デフォルトのリスニングポートは8080です。 変更する方法については、「Tomcatの [設定](../../installation/using/configuring-campaign-server.md#configuring-tomcat)」を参照してください。
-* 次に、クライアントコンソールはhttps:// [:8080 `<computer>`などのURLを使用して接続します](https://myserver.adobe.com:8080)。
+* デフォルトのリスニングポートは8080です。 変更する方法については、[Tomcatの設定](../../installation/using/configuring-campaign-server.md#configuring-tomcat)を参照してください。
+* 次に、クライアントコンソールは、[https:// `<computer>`:8080](https://myserver.adobe.com:8080)などのURLを使用して接続します。
 
 ただし、セキュリティと管理上の理由から、Adobe Campaignを実行しているコンピュータがインターネット上に公開され、ネットワーク外のコンソールにアクセスする場合は、HTTPトラフィックのメインエントリポイントとして専用のWebサーバを使用することをお勧めします。
 
@@ -36,13 +36,13 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
 >
 >トラッキング機能を使用しない場合は、ApacheまたはIISの標準インストールを実行し、キャンペーンへのリダイレクトを行うことができます。 追跡用Webサーバー拡張モジュールは不要です。
 
-## IIS Webサーバーを構成する {#configuring-the-iis-web-server}
+## IIS Webサーバーの構成{#configuring-the-iis-web-server}
 
 IIS Webサーバーの構成手順は、ほとんどグラフィカルです。 Webサイト（既に作成済みまたは保留中の作成）を使用してAdobe Campaignサーバーのリソースにアクセスする必要があります。Java (.jsp)ファイル、スタイルシート(.css、.xsl)、画像(.png)、リダイレクト用のISAPI DLLなど。
 
 次の節では、IIS 7での設定について詳しく説明します。 IIS8の設定は基本的に同じです。
 
-Web IISサーバーがまだコンピューターにインストールされていない場合は、 **[!UICONTROL 追加/プログラムを削除/Windows機能を有効または無効にする]** メニューを使用してインストールできます。
+Web IISサーバーがまだコンピューターにインストールされていない場合は、**[!UICONTROL /プログラムの削除/Windows機能を有効にする/無効にする]**&#x200B;メニューを使用して、Web IISサーバーをインストールできます。
 
 IIS 7では、標準のサービスに加えて、ISAPI拡張機能とISAPIフィルターをインストールする必要があります。
 
@@ -52,7 +52,7 @@ IIS 7では、標準のサービスに加えて、ISAPI拡張機能とISAPIフ�
 
 次の設定手順を実行します。
 
-1. コントロールパネル/ **[!UICONTROL 管理ツール/サービス]** メニューから、IISを開きます。
+1. **[!UICONTROL コントロールパネル/管理ツール/サービス]**&#x200B;メニューを使用して、IISを開きます。
 1. ネットワークのパラメーター（TCP接続ポート、DNSホスト、IPアドレスなど）に応じて、サイト(Adobe Campaignなど)を作成し、構成します。
 
    ![](assets/s_ncs_install_iis7_add_site.png)
@@ -65,7 +65,7 @@ IIS 7では、標準のサービスに加えて、ISAPI拡張機能とISAPIフ�
 
    ![](assets/s_ncs_install_iis7_parameters_step1.png)
 
-1. VBS **** スクリプトを使用すると、先ほど作成した仮想ディレクトリでAdobe Campaignサーバが使用するリソースを自動的に構成できます。 起動するには、重複がフォルダ内にある **iis_neolane_setup.vbs** ファイルをクリックします。 `[INSTALL]\conf` は、Adobe Campaignインストールフォルダにアクセスするためのパス `[INSTALL]` です。
+1. **VBS**&#x200B;スクリプトを使用すると、先ほど作成した仮想ディレクトリでAdobe Campaignサーバーが使用するリソースを自動的に構成できます。 起動するには、重複が`[INSTALL]\conf`フォルダーにある&#x200B;**iis_neolane_setup.vbs**&#x200B;ファイルをクリックします。`[INSTALL]`は、Adobe Campaignのインストールフォルダーへのアクセスパスです。
 
    ![](assets/s_ncs_install_iis7_parameters_step2.png)
 
@@ -73,9 +73,9 @@ IIS 7では、標準のサービスに加えて、ISAPI拡張機能とISAPIフ�
    >
    >Windows Server 2008/IIS7をインストールする場合、VBSスクリプトを実行するか、スクリプトを管理者として実行するには、管理者としてログインする必要があります。
 
-   Webサーバーがトラッキングリダイレクトサーバーとして使用されている場合は **[!UICONTROL [OK]** ]をクリックし、それ以外の場合は[ **[!UICONTROL キャンセル]**]をクリックします。
+   Webサーバーをトラッキングリダイレクトサーバーとして使用する場合は[**[!UICONTROL OK]**]をクリックし、使用しない場合は[**[!UICONTROL キャンセル]**]をクリックします。
 
-   ウェブサーバ上で複数のサイトが既に構成されている場合は、中間ページが表示され、インストールを適用するウェブサイトを指定します。サイトにリンクされている番号を入力し、「 **[!UICONTROL OK]**」をクリックします。
+   ウェブサーバ上で複数のサイトが既に構成されている場合は、中間ページが表示され、インストールを適用するウェブサイトを指定します。サイトにリンクされている番号を入力し、「**[!UICONTROL OK]**」をクリックします。
 
    ![](assets/s_ncs_install_iis7_parameters_step3.png)
 
@@ -83,7 +83,7 @@ IIS 7では、標準のサービスに加えて、ISAPI拡張機能とISAPIフ�
 
    ![](assets/s_ncs_install_iis7_parameters_step7.png)
 
-1. 「 **[!UICONTROL コンテンツ表示]** 」タブで、WebサイトにAdobe Campaignリソースが正しく設定されていることを確認します。
+1. 「**[!UICONTROL コンテンツ表示]**」タブで、WebサイトがAdobe Campaignリソースを使用して正しく構成されていることを確認します。
 
    ![](assets/s_ncs_install_iis7_parameters_step6.png)
 
@@ -95,21 +95,21 @@ IIS 7では、標準のサービスに加えて、ISAPI拡張機能とISAPIフ�
 
 それには、次の手順に従います。
 
-1. 「 **[!UICONTROL 機能の表示]** 」タブを選択し、「 **認証** 」リンクを重複クリックします。
+1. 「**[!UICONTROL 機能の表示]**」タブを選択し、「**認証**」リンクを重複クリックします。
 
    ![](assets/s_ncs_install_iis7_parameters_step8.png)
 
-1. Webサイトの「 **ディレクトリセキュリティ** 」タブで、匿名アクセスが有効になっていることを確認します。 必要に応じて、「 **[!UICONTROL 編集]** 」リンクをクリックして設定を変更します。
+1. Webサイトの&#x200B;**ディレクトリセキュリティ**&#x200B;タブで、匿名アクセスが有効になっていることを確認します。 必要に応じて、「**[!UICONTROL 編集]**」リンクをクリックして設定を変更します。
 
    ![](assets/s_ncs_install_iis7_parameters_step9.png)
 
-### Webサーバーの起動と設定のテスト {#launching-the-web-server-and-testing-the-configuration}
+### Webサーバーの起動と構成のテスト{#launching-the-web-server-and-testing-the-configuration}
 
 次に、設定が正しいかどうかをテストする必要があります。
 
 これを行うには、次の手順を適用します。
 
-1. iisresetコマンドラインを使用してIISサーバーを **再起動します** 。
+1. **iisreset**&#x200B;コマンドラインを使用して、IISサーバーを再起動します。
 1. 次のURLをWebブラウザーに挿入して、トラッキングモジュールをテストします。
 
    ```
@@ -139,43 +139,43 @@ webmdl@default (1644) - 18.2 Mo
 
 それには、次の手順に従います。
 
-1. [ **[!UICONTROL Driver mapping]** ]アイコンをクリックして、Adobe CampaignサイトのISAPIフィルターを編集します。
+1. **[!UICONTROL ドライバマッピング]**&#x200B;アイコンをクリックして、Adobe CampaignサイトのISAPIフィルターを編集します。
 1. ISAPIフィルタの内容を確認します。
 
    ![](assets/s_ncs_install_iis7_parameters_step11.png)
 
 ## 任意の追加設定 {#additional-configurations}
 
-### アップロードするファイルのサイズ制限の変更 {#changing-the-upload-file-size-limit}
+### アップロードファイルのサイズ制限の変更{#changing-the-upload-file-size-limit}
 
 IIS Webサーバーを構成する場合、サーバーにアップロードされる設定ファイルの上限は、自動的に約28 MBになります。
 
 これは、特にこの制限を超えるファイルをアップロードする場合に、Adobe Campaignに影響を及ぼす可能性があります。
 
-例えば、ワークフローで **データ読み込み（ファイル）** 型のアクティビティを使用して50 MBのファイルを読み込むと、エラーが発生してワークフローの正しい実行が停止します。
+例えば、ワークフローで&#x200B;**データ読み込み(file)**&#x200B;タイプのアクティビティを使用して50 MBのファイルを読み込むと、エラーが発生してワークフローの正しい実行が停止します。
 
 この場合、次の制限を増やす必要があります。
 
-1. 開始/（コントロールパネル）/管理ツール **** /メニューから、IISを開きます。
-1. 「 **Connections** 」ペインで、Adobeのインストール用に作成したサイトを選択し、メインペインの「 **Request Filtering** 」を重複クリックします。
-1. 「 **アクション** 」ペインで、「 **機能設定を編集** 」を選択して、許可されたコンテンツの **最大サイズ（バイト）** フィールドの値を編集できます。
+1. **[!UICONTROL 開始/（コントロールパネル）/管理ツール/]**&#x200B;メニューを使用して、IISを開きます。
+1. **Adobe**&#x200B;ウィンドウで、接続のインストール用に作成したサイトを選択し、メインウィンドウの&#x200B;**要求フィルター**&#x200B;を重複クリックします。
+1. **アクション**&#x200B;ウィンドウで、「**機能設定を編集**」を選択して、**許可される最大コンテンツサイズ（バイト）**&#x200B;フィールドの値を編集できるようにします。
 
    例えば、50 MBのファイルのアップロードを承認するには、「52428800」バイトを超える値を指定する必要があります。
 
 >[!NOTE]
 >
->このIISオプションの詳細については、 [公式ドキュメントの「使い方」の節を参照してください](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)。
+>このIISオプションの詳細については、[公式ドキュメント](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)の「使い方」の節を参照してください。
 
-### HTTPエラーメッセージ表示の設定 {#configuring-http-error-message-display}
+### HTTPエラーメッセージ表示の設定{#configuring-http-error-message-display}
 
 6.1バージョンのIISサーバーを使用している場合は、メッセージに不適切なHTMLコードが表示されるので、生成されたエラーメッセージを読み取るのが困難な場合があります。
 
 この問題を修正し、エラーを正しく表示するには、次の設定を適用します。
 
-1. [ **[!UICONTROL 開始] > [Campaign コントロールパネル] > [管理ツール]** ]メニューでIISを開きます。
-1. 「 **Connections** 」ペインで、Adobe Campaignのインストール用に作成したサイトを選択し、メインペインの「 **Configuration editor** 」を重複クリックします。
-1. 「 **セクション** 」ドロップダウンリストで、 **system.webServer** / **httpErrorsを選択します**。
-1. **既存のResponse** 行でPassThrough **** 値を選択します。
+1. **[!UICONTROL 開始/Campaign コントロールパネル/管理ツール]**&#x200B;メニューを使用して、IISを開きます。
+1. **Connections**&#x200B;ウィンドウで、Adobe Campaignのインストール用に作成したサイトを選択し、メインウィンドウで&#x200B;**Configuration editor**&#x200B;を重複クリックします。
+1. 「**セクション**」ドロップダウンリストで、**system.webServer**/**httpErrors**&#x200B;を選択します。
+1. **existingResponse**&#x200B;行の&#x200B;**PassThrough**&#x200B;値を選択します。
 
 ![](assets/ins_iis_httperrors.png)
 

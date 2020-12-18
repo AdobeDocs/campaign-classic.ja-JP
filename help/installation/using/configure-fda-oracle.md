@@ -17,10 +17,10 @@ ht-degree: 73%
 
 # Oracle へのアクセスの設定 {#configure-access-to-oracle}
 
-キャンペーン [Federated Data Access](../../installation/using/about-fda.md) (FDA)オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って、Oracleへのアクセスを設定します。
+キャンペーン[Federated Data Access](../../installation/using/about-fda.md) (FDA)オプションを使用して、外部データベースに格納された情報を処理します。 次の手順に従って、Oracleへのアクセスを設定します。
 
-1. [Linux](#oracle-linux) または [WindowsでのOracleの設定](#azure-windows)
-1. キャンペーンでのOracle [外部アカウントの設定](#oracle-external)
+1. [Linux](#oracle-linux)または[Windows](#azure-windows)でOracleを設定
+1. キャンペーンでOracle[外部アカウント](#oracle-external)を設定
 
 ## Oracle（Linux） {#oracle-linux}
 
@@ -62,7 +62,7 @@ FDA で Oracle 外部データベースに接続するには、Adobe Campaign �
       yum install libaio1
       ```
 
-1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。For more on how to configure your external account, refer to [this section](#oracle-external).
+1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。外部アカウントの構成方法について詳しくは、[この](#oracle-external)を参照してください。
 
 ## Oracle（Windows） {#oracle-windows}
 
@@ -74,15 +74,15 @@ FDA で Oracle 外部データベースに接続するには、Adobe Campaign �
 
 1. TNS_ADMIN 環境変数を追加して値を C:\Oracle に設定し、マシンを再起動します。
 
-1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。For more on how to configure your external account, refer to [this section](#oracle-external).
+1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。外部アカウントの構成方法について詳しくは、[この](#oracle-external)を参照してください。
 
 ## Oracle 外部アカウント {#oracle-external}
 
-The [!DNL Oracle] external account allows you to connect your Campaign instance to your Oracle external database.
+[!DNL Oracle]外部アカウントを使用すると、キャンペーンインスタンスをOracle外部データベースに接続できます。
 
-1. From Campaign **[!UICONTROL Explorer]**, select **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. キャンペーン&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]**&#x200B;を選択します。
 
-1. 「 **[!UICONTROL 新規]**」を選択します。
+1. 「**[!UICONTROL 新規]**」を選択します。
 
 1. 外部アカウント&#x200B;**[!UICONTROL タイプ]**&#x200B;として、「**[!UICONTROL 外部データベース]**」を選択します。
 

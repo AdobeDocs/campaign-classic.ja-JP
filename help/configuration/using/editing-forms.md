@@ -17,7 +17,7 @@ ht-degree: 38%
 
 # フォームの編集{#editing-forms}
 
-入力フォームの作成と設定画面には、Adobe Campaignクライアントコンソールの **[!UICONTROL 管理] / [!UICONTROL 設定] / [!UICONTROL Input forms]** フォルダーからアクセスできます。
+入力フォームの作成と設定画面には、Adobe Campaignクライアントコンソールの&#x200B;**[!UICONTROL 管理]/[!UICONTROL 設定]/[!UICONTROL 入力フォーム]**&#x200B;フォルダーからアクセスできます。
 
 ![](assets/d_ncs_integration_form_arbo.png)
 

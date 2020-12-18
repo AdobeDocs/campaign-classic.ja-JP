@@ -26,5 +26,5 @@ ht-degree: 4%
 * データベースの作成と再構築、
 * 開始Adobe Campaign。
 
-For more information, refer to the **Installation Guide**.
+詳しくは、『**インストールガイド**』を参照してください。
 

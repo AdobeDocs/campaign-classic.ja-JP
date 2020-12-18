@@ -41,7 +41,7 @@ Adobe Campaign には、事前定義済みの外部アカウントのセット�
 
 新しい外部アカウントを作成するには、次の手順に従います。 詳細な設定は、外部アカウントの種類に応じて異なります。
 
-1. From Campaign **[!UICONTROL Explorer]**, select **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. キャンペーン&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]**&#x200B;を選択します。
 
    ![](assets/ext_account_1.png)
 
@@ -49,13 +49,13 @@ Adobe Campaign には、事前定義済みの外部アカウントのセット�
 
    ![](assets/ext_account_2.png)
 
-1. Enter a **[!UICONTROL Label]** and an **[!UICONTROL Internal Name]**.
+1. **[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 内部名]**&#x200B;を入力します。
 1. 作成したい外部アカウント&#x200B;**[!UICONTROL タイプ]**&#x200B;を選択します。
 1. 選択した外部アカウントタイプに応じて資格情報を指定し、アカウントへのアクセスを設定します。
 
    必要な情報は通常、接続しているサーバーのプロバイダーから提供されます。
 
-1. 「 **[!UICONTROL 有効]** 」オプションを選択して接続をアクティブにします。
+1. **[!UICONTROL 「有効]**」オプションをオンにして接続を有効にします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 外部アカウントが作成され、外部アカウントリストに追加されます。
@@ -140,22 +140,22 @@ FTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバー�
 
 ## 外部データベース外部アカウント {#external-database-external-account}
 
-外部データベースに接続するには、 **外部データベース** ・タイプ・外部アカウントを使用します。 Federated Data Access(FDA)の詳細については、 [この節を参照してください](../../installation/using/about-fda.md)。
+**外部データベース**&#x200B;型の外部アカウントを使用して、外部データベースに接続します。 Federated Data Access(FDA)オプションの詳細については、[このセクション](../../installation/using/about-fda.md)を参照してください。
 
-External databases compatible with Campaign are listed in the [Compatibility matrix](../../rn/using/compatibility-matrix.md)
+キャンペーンと互換性のある外部データベースは、[互換表](../../rn/using/compatibility-matrix.md)に一覧表示されます
 
 ![](assets/ext_account_11.png)
 
 外部アカウント構成の設定は、データベースエンジンによって異なります。 詳しくは、次の節を参照してください。
 
-* [Azure synapseへのアクセスの設定](../../installation/using/configure-fda-synapse.md)
-* [Hadoopへのアクセスの設定](../../installation/using/configure-fda-hadoop.md)
-* [Oracleへのアクセスの設定](../../installation/using/configure-fda-oracle.md)
-* [Netezzaへのアクセスの設定](../../installation/using/configure-fda-netezza.md)
-* [SAP HANAへのアクセスの設定](../../installation/using/configure-fda-sap-hana.md)
-* [Snowflakeへのアクセスの設定](../../installation/using/configure-fda-snowflake.md)
-* [Sybase IQへのアクセスの設定](../../installation/using/configure-fda-sybase.md)
-* [Teradataへのアクセスの設定](../../installation/using/configure-fda-teradata.md)
+* [Azure synapse](../../installation/using/configure-fda-synapse.md)へのアクセスを設定
+* [Hadoop](../../installation/using/configure-fda-hadoop.md)へのアクセスを設定
+* [Oracle](../../installation/using/configure-fda-oracle.md)へのアクセスを設定
+* [Netezza](../../installation/using/configure-fda-netezza.md)へのアクセスを設定
+* [SAP HANA](../../installation/using/configure-fda-sap-hana.md)へのアクセスを設定
+* [Snowflake](../../installation/using/configure-fda-snowflake.md)へのアクセスを設定
+* [Sybase IQ](../../installation/using/configure-fda-sybase.md)へのアクセスを設定
+* [Teradata](../../installation/using/configure-fda-teradata.md)へのアクセスを設定
 
 ## Web 分析の外部アカウント {#web-analytics-external-account}
 
@@ -325,7 +325,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 * **[!UICONTROL サーバー側の暗号化を使用]**&#x200B;チェックボックスをオンにすると、ファイルを S3 暗号モードで保存できます。
 
-アクセスキー ID および秘密アクセスキーの見つけ方については、Amazon Web サービス[ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
+アクセスキー ID および秘密アクセスキーの見つけ方については、Amazon Web サービス[ドキュメント](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
 
 ## Microsoft Dynamics CRM 外部アカウント {#microsoft-dynamics-crm-external-account}
 

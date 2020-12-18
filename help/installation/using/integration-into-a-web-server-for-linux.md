@@ -23,7 +23,7 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
 
 この場合、次のようになります。
 
-* デフォルトのリスニングポートは8080です。 変更する方法については、「Tomcatの [設定](../../installation/using/configuring-campaign-server.md#configuring-tomcat)」を参照してください。
+* デフォルトのリスニングポートは8080です。 変更する方法については、[Tomcatの設定](../../installation/using/configuring-campaign-server.md#configuring-tomcat)を参照してください。
 * 次に、クライアントコンソールは次のようなURLを使用して接続します。
 
    ```
@@ -40,7 +40,7 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
 >
 >トラッキング機能を使用しない場合は、ApacheまたはIISの標準インストールを実行し、キャンペーンへのリダイレクトを行うことができます。 追跡用Webサーバー拡張モジュールは不要です。
 
-## Apache WebサーバーとDebianの設定 {#configuring-the-apache-web-server-with-debian}
+## Apache WebサーバーとDebianの設定{#configuring-the-apache-web-server-with-debian}
 
 このプロセスは、APTに基づく配布の下にApacheをインストールした場合に適用されます。
 
@@ -52,13 +52,13 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
    a2dismod auth_basic authn_file authz_default authz_user autoindex cgi dir env negotiation userdir
    ```
 
-   **alias**、 **authz_host** 、および **mime** モジュールが引き続き有効であることを確認します。 それには、次のコマンドを使用します。
+   **エイリアス**、**authz_host**、**mime**&#x200B;モジュールが引き続き有効であることを確認します。 それには、次のコマンドを使用します。
 
    ```
    a2enmod  alias authz_host mime
    ```
 
-1. /etc/apache2/mods-available **に** nlsrv.load **** ファイルを作成し、次のコンテンツを挿入します。
+1. **nlsrv.load**&#x200B;ファイルを&#x200B;**/etc/apache2/mods-available**&#x200B;に作成し、次の内容を挿入します。
 
    Debian 8の場合：
 
@@ -66,7 +66,7 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
    LoadModule requesthandler24_module /usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so
    ```
 
-1. 次のコマンドを使用して、/etc/apache2/mods-available **** ( **/etc/apache2/mods-available** )のファイルnlsrv.confを作成します。
+1. 次のコマンドを使用して、**nlsrv.conf**&#x200B;ファイルを&#x200B;**/etc/apache2/mods-available**&#x200B;に作成します。
 
    ```
    ln -s /usr/local/[INSTALL]/nl6/conf/apache_neolane.conf /etc/apache2/mods-available/nlsrv.conf
@@ -78,13 +78,13 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
     a2enmod nlsrv
    ```
 
-   Adobe Campaignページに **mod_rewrite** モジュールを使用する場合は、 **nlsrv.load** とnlsrv.confファイルの名前を変更し、nlsrv.load **と** nlsrv.confファイルの名前を **srv-nsrv.loadlzに変更し、srv.conf-lezに変更する必要があり******&#x200B;ます。 モジュールをアクティブにするには、次のコマンドを実行します。
+   Adobe Campaignページに&#x200B;**mod_rewrite**&#x200B;モジュールを使用する場合は、**nlsrv.load**&#x200B;および&#x200B;**nlsrv.conf**&#x200B;ファイルの名前を&#x200B;**zz-nlsrv.load**&#x200B;および&#x200B;**zz-nlsrv.conf**&#x200B;に変更する必要があります。 モジュールをアクティブにするには、次のコマンドを実行します。
 
    ```
    a2enmod zz-nlsrv
    ```
 
-1. /etc/apache2 **/envars** ファイルを編集し、次の行を追加します。
+1. **/etc/apache2/envars**&#x200B;ファイルを編集し、次の行を追加します。
 
    ```
    # Added Neolane
@@ -107,13 +107,13 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
    invoke-rc.d apache2 restart
    ```
 
-## RHELでのApache Webサーバーの設定 {#configuring-apache-web-server-in-rhel}
+## RHELでのApache Webサーバーの設定{#configuring-apache-web-server-in-rhel}
 
 この手順は、RPM（RHEL、CentOS、およびSuse）ベースのパッケージでApacheをインストールし、保護した場合に適用されます。
 
 次の手順に従います。
 
-1. ファイルで、次のApacheモジュールを `httpd.conf` アクティブ化します。
+1. `httpd.conf`ファイルで、次のApacheモジュールをアクティブにします。
 
    ```
    alias
@@ -152,18 +152,18 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
    ForceLanguagePriority
    ```
 
-1. フォルダー内にAdobe Campaign固有の設定ファイルを作成し `/etc/httpd/conf.d/` ます。 次に例を示します。`CampaignApache.conf`
+1. `/etc/httpd/conf.d/`フォルダーにAdobe Campaign固有の設定ファイルを作成します。 次に例を示します。`CampaignApache.conf`
 
-1. RHEL7 **の場合は、次の手順をファイルに追加します**。
+1. **RHEL7**&#x200B;の場合は、次の手順をファイルに追加します。
 
    ```
    LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
    Include /usr/local/neolane/nl6/conf/apache_neolane.conf
    ```
 
-1. RHEL7 **の場合**:
+1. **RHEL7**&#x200B;の場合：
 
-   追加次の内容を含むファイル： `/etc/systemd/system/httpd.service`
+   追加`/etc/systemd/system/httpd.service`ファイルに次の内容が含まれます。
 
    ```
    .include /usr/lib/systemd/system/httpd.service
@@ -244,4 +244,4 @@ GET /r/test
 Connection closed by foreign host.
 ```
 
-Webブラウザー [`https://<computer>`](https://myserver.adobe.com/r/test) からURLを要求することもできます。
+また、URL [`https://<computer>`](https://myserver.adobe.com/r/test)をウェブブラウザからリクエストすることもできます。

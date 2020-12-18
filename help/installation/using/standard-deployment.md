@@ -41,7 +41,7 @@ LAN内のアプリケーションサーバーは、エンドユーザーに対�
 * フェイルオーバー機能：他方のコンピューターでハードウェアに問題が発生した場合に、プロセスを一方のコンピューターに切り替える機能。
 * MTAとリダイレクト機能はロードバランサーの背後にある両方のコンピューターに展開できるので、全体的なパフォーマンスが向上します。 2つのアクティブなMTAと十分な帯域幅がある場合、1時間あたり100,000件のメールの領域でブロードキャストレートを達成できます。
 
-## インストールと設定の手順 {#installation-and-configuration-steps}
+## インストールと設定の手順{#installation-and-configuration-steps}
 
 ### 前提条件 {#prerequisites}
 
@@ -54,22 +54,22 @@ LAN内のアプリケーションサーバーは、エンドユーザーに対�
    * 最初に公開され、仮想IPアドレス(VIP)上のロードバランサーをトラッキングして指し示し、2つの正面サーバーに配布されます。
    * 2つ目は、内部ユーザーに対してコンソール経由でアクセスし、同じアプリケーションサーバーを指し示す形で表示されます。
 
-* STMP (25)、DNS (53)、HTTP (80)、HTTPS (443)、SQL （1521 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳細は、「 [データベースアクセス](../../installation/using/network-configuration.md#database-access)」を参照してください。
+* STMP (25)、DNS (53)、HTTP (80)、HTTPS (443)、SQL （1521 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳しくは、[データベースアクセス](../../installation/using/network-configuration.md#database-access)を参照してください。
 
-### アプリケーションサーバーのインストール {#installing-the-application-server}
+### アプリケーションサーバーのインストール{#installing-the-application-server}
 
-Adobe Campaignアプリケーションサーバーからデータベースの作成まで、スタンドアロンインスタンスをインストールする手順に従います（手順12）。 『 [インストールと設定（シングルマシン）』を参照してください](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-)。
+Adobe Campaignアプリケーションサーバーからデータベースの作成まで、スタンドアロンインスタンスをインストールする手順に従います（手順12）。 [インストールと設定（シングルマシン）](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-)を参照してください。
 
 コンピューターはトラッキングサーバーではないので、Webサーバーとの統合を考慮しないでください。
 
 次の例では、インスタンスのパラメーターを示します。
 
-* インスタンスの名前： **デモ**
-* DNSマスク： **console.キャンペーン.net*** （クライアントコンソール接続およびレポートの場合のみ）
+* インスタンスの名前：**demo**
+* DNSマスク：**console.console.キャンペーン.net***（クライアントコンソール接続とレポートのみ）
 * 言語：英語
-* データベース： **キャンペーン:demo@dbsrv**
+* データベース：**キャンペーン:demo@dbsrv**
 
-### 2台のフロントサーバーのインストール {#installing-the-two-frontal-servers}
+### 2台のフロントサーバーの設置{#installing-the-two-frontal-servers}
 
 インストールと構成の手順は、両方のコンピューターで同じです。
 
@@ -77,20 +77,20 @@ Adobe Campaignアプリケーションサーバーからデータベースの作
 
 1. Adobe Campaignサーバーをインストールします。
 
-   詳しくは、「Linuxでのキャンペーンインストールの [前提条件](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux)」および「Windowsでのキャンペーンインストールの [前提条件](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows)」を参照してください。
+   詳しくは、[Linuxでのキャンペーンインストールの前提条件](../../installation/using/prerequisites-of-campaign-installation-in-linux.md)(Linux)および[Windowsでのキャンペーンインストールの前提条件](../../installation/using/prerequisites-of-campaign-installation-in-windows.md)(Windows)を参照してください。
 
 1. 次の節で説明するWebサーバー統合手順(IIS、Apache)に従います。
 
-   * For Linux: [Integration into a Web server for Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
-   * For Windows: [Integration into a Web server for Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
+   * Linuxの場合：[Linux用のWebサーバーへの統合](../../installation/using/integration-into-a-web-server-for-linux.md)
+   * Windowsの場合：[Windows用のWebサーバーへの統合](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. デ **モインスタンスを作成します** 。 それには、次の 2 つの方法があります。
+1. **demo**&#x200B;インスタンスを作成します。 それには、次の 2 つの方法があります。
 
    * コンソールからインスタンスを作成します。
 
       ![](assets/install_create_new_connexion.png)
 
-      詳しくは、「インスタンスの [作成とログオン」を参照してください](../../installation/using/creating-an-instance-and-logging-on.md)。
+      詳しくは、[インスタンスの作成と](../../installation/using/creating-an-instance-and-logging-on.md)へのログを参照してください。
 
       または
 
@@ -100,14 +100,14 @@ Adobe Campaignアプリケーションサーバーからデータベースの作
       nlserver config -addinstance:demo/tracking.campaign.net*
       ```
 
-      For more on this, refer to [Creating an instance](../../installation/using/command-lines.md#creating-an-instance).
+      詳しくは、[インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance)を参照してください。
    インスタンスの名前は、アプリケーションサーバーの名前と同じです。
 
-   nlserver web **ミラーページ(購読解除ー、キャンペーン)を使用してサーバーに接続する場合、ロードバランサー(tracking.** server.net)のURLから接続します。
+   **nlserver web**&#x200B;モジュール(ミラーページ、購読解除)を使用したサーバーへの接続は、ロードバランサー(tracking.キャンペーン.net)のURLから行われます。
 
-1. 内 **部をアプリケーションサーバーと同じ** に変更します。
+1. **internal**&#x200B;をアプリケーションサーバーと同じに変更します。
 
-   For more on this, refer to [Internal identifier](../../installation/using/campaign-server-configuration.md#internal-identifier).
+   詳しくは、[内部識別子](../../installation/using/campaign-server-configuration.md#internal-identifier)を参照してください。
 
 1. データベースをインスタンスにリンクする：
 
@@ -115,11 +115,11 @@ Adobe Campaignアプリケーションサーバーからデータベースの作
    nlserver config -setdblogin:PostgreSQL:campaign:demo@dbsrv -instance:demo
    ```
 
-1. config-default.xml **ファイルとconfig-demo.xml** ファイルで、 **web** 、 **loggd、およびtrackingtaモジュールを有効にし********** ます。
+1. **config-default.xml**&#x200B;と&#x200B;**config-demo.xml**&#x200B;ファイルで、**web**、**trackinglogd**&#x200B;と&#x200B;**mta**&#x200B;モジュールを有効にします。
 
-   For more on this, refer to [Enabling processes](../../installation/using/campaign-server-configuration.md#enabling-processes).
+   詳しくは、[プロセスの有効化](../../installation/using/campaign-server-configuration.md#enabling-processes)を参照してください。
 
-1. serverConf.xml **ファイルを編集し** 、次の内容を入力します。
+1. **serverConf.xml**&#x200B;ファイルを編集し、次の内容を入力します。
 
    * MTAモジュールのDNS設定：
 
@@ -129,9 +129,9 @@ Adobe Campaignアプリケーションサーバーからデータベースの作
 
       >[!NOTE]
       >
-      >nameServers **パラメーターは** 、Windowsでのみ使用されます。
+      >**nameServers**&#x200B;パラメーターはWindowsでのみ使用されます。
 
-      For more on this, refer to [Delivery settings](../../installation/using/campaign-server-configuration.md#delivery-settings).
+      詳しくは、[配信設定](../../installation/using/campaign-server-configuration.md#delivery-settings)を参照してください。
 
    * リダイレクトパラメーターの冗長なトラッキングサーバー：
 
@@ -140,9 +140,9 @@ Adobe Campaignアプリケーションサーバーからデータベースの作
       <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
       ```
 
-      For more on this, refer to [Redundant tracking](../../installation/using/configuring-campaign-server.md#redundant-tracking).
+      詳しくは、[冗長トラッキング](../../installation/using/configuring-campaign-server.md#redundant-tracking)を参照してください。
 
-1. Webサイトを開始し、URLからのリダイレクトをテストします。 [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
+1. Webサイトを開始し、URLからのリダイレクトをテストします。[https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
 
    ブラウザーには、次のメッセージが表示されます（ロードバランサーによってリダイレクトされるURLに応じて異なります）。
 
@@ -158,23 +158,23 @@ Adobe Campaignアプリケーションサーバーからデータベースの作
 
    この点について詳しくは、以下の節を参照してください。
 
-   * Linuxの場合： [Webサーバーの起動と設定のテスト](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
-   * Windowsの場合： [Webサーバーの起動と設定のテスト](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
+   * Linuxの場合：[Webサーバーの起動と設定のテスト](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
+   * Windowsの場合：[Webサーバーの起動と設定のテスト](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
 1. Adobe Campaignサーバーの開始。
-1. Adobe Campaignコンソールで、パスワードを入力しないで **admin** loginを使用して接続し、デプロイメントウィザードを起動します。
+1. Adobe Campaignコンソールで、パスワードを入力せずに&#x200B;**admin**&#x200B;ログインを使用して接続し、展開ウィザードを起動します。
 
-   For more on this, refer to [Deploying an instance](../../installation/using/deploying-an-instance.md).
+   詳しくは、[インスタンスのデプロイ](../../installation/using/deploying-an-instance.md)を参照してください。
 
    設定は、トラッキングモジュールの設定とは別に、スタンドアロンインスタンスと同じです。
 
 1. リダイレクトに使用する外部URL（ロードバランサーの外部URL）と、2つのフロントサーバーの内部URLを入力します。
 
-   For more on this, refer to [Tracking configuration](../../installation/using/deploying-an-instance.md#tracking-configuration).
+   詳しくは、[トラッキングの設定](../../installation/using/deploying-an-instance.md#tracking-configuration)を参照してください。
 
    ![](assets/d_ncs_install_tracking2.png)
 
    >[!NOTE]
    >
-   >前の手順で作成した2つのトラッキングサーバーの既存のインスタンスを使用し、 **内部ログインを使用します** 。
+   >以前に作成した2つのトラッキングサーバーの既存のインスタンスを使用し、**内部**&#x200B;ログインを使用します。
 

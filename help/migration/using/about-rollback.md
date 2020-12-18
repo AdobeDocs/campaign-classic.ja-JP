@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# 前のバージョンにロールバック{#about-rollback}
+# 以前のバージョンにロールバック{#about-rollback}
 
 移行後、問題が発生した場合は、以前のバージョンのキャンペーンにロールバックする必要がある場合があります。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 v7からv6.1を復元する手順を次に示します。
 
 1. データベースのバックアップを回復し、復元します。
-1. Adobe Campaignv6.back **Adobe Campaign(Linuxでは** nl6.back **)を回復し、フォルダ名を** v6に変更し(Linuxでは ******** nl6)、元の場所に戻します。
+1. **Adobe Campaignv6.back**&#x200B;フォルダー（Linuxでは&#x200B;**nl6.back**）を回復し、**Adobe Campaignv6**（Linuxでは&#x200B;**nl6**）に名前を変更して元の場所に戻します。
 1. リスンポートを再割り当てしてIISを再設定し、Adobe Campaignv6.1の統合をIIS Webサイトレベルで再確立します。
 1. Adobe Campaignv7サービスを停止します。
 1. IISの再開始。
@@ -37,7 +37,7 @@ v7からv6.1を復元する手順を次に示します。
 v7からv6.02を復元する手順を次に示します。
 
 1. データベースのバックアップを回復し、復元します。
-1. Neolane v6.back **フォルダー(Linuxでは** nl6.back **)を回復し、** Neolane v6 **.backフォルダー(Linuxでは** nl6.back **** )に名前を変更し、元の場所に戻します。
+1. **Neolane v6.back**&#x200B;フォルダー（Linuxでは&#x200B;**nl6.back**）を回復し、**Neolane v6**（Linuxでは&#x200B;**nl6**）に名前を変更して元の場所に戻します。
 1. リスンポートを再割り当てしてIIS WebサイトレベルでAdobe Campaignv6.02の統合を再確立し、IISを再設定します。
 1. Adobe Campaignv6.1サービスを停止します。
 1. IISの再開始。
@@ -48,7 +48,7 @@ v7からv6.02を復元する手順を次に示します。
 v5.11をv7から復元する手順を次に示します。
 
 1. データベースのバックアップを回復し、復元します。
-1. Neolane v5.back **フォルダ(Linuxでは** nl5.back **)を回復し、名前を** Neolane v5 **(Linuxでは****** nl5)に変更し、元の場所に戻します。
+1. **Neolane v5.back**&#x200B;フォルダー（Linuxでは&#x200B;**nl5.back**）を回復し、**Neolane v5**（Linuxでは&#x200B;**nl5**）に名前を変更して元の場所に戻します。
 1. リスンポートを再割り当てしてIIS WebサイトレベルでNeolane v5の統合を再確立し、IISを再設定します。
 1. Adobe Campaignv7サービスを停止します。
 1. IISの再開始。

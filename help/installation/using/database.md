@@ -21,15 +21,15 @@ ht-degree: 2%
 
 データベース・サーバのオペレーティング・システムは、Adobe Campaignの異なるコンポーネントとの接続が可能な限り重要ではありません。
 
-また、「 [Database access layers](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers) 」セクションも確認します。
+[Database access layers](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers)セクションも確認します。
 
 ## Microsoft SQL Server {#microsoft-sql-server}
 
 ネイティブクライアントは、Adobe Campaignアプリケーションサーバーにインストールする必要があります。
 
-SQL Server Native Client 11.0の[ODBCドライバの設定]パネルで、サーバ上のネイティブ・クライアントを確認でき **ます**。
+**SQL Server Native Client 11.0**&#x200B;の下のODBCドライバ設定パネルを使用して、サーバー上のネイティブクライアントを確認できます。
 
-次のアクセスDLLが必要です： **sqlncli11.dll**.
+次のアクセスDLLが必要です：**sqlncli11.dll**.
 
 アクセスDLLは、MicrosoftのWebサイトにあります。
 
@@ -43,11 +43,11 @@ SQL Server Native Client 11.0の[ODBCドライバの設定]パネルで、サー
 >
 >マルチバイト文字を含む列名はサポートされていません。
 
-データベースがUnicodeまたはANSIで動作するためには、 **NLS_NCHAR_CHARACTERSET****パラメータと** NLS_CHARACTERSETパラメータを正しく設定する必要があります。
+データベースがUnicodeまたはANSIで動作するためには、**NLS_NCHAR_CHARACTERSET**&#x200B;パラメータと&#x200B;**NLS_CHARACTERSET**&#x200B;パラメータを正しく設定する必要があります。
 
 Adobe Campaignでは、デフォルトのOracleエンコーディングが使用されます。 他のエンコーディングを使用すると、互換性の問題が発生する可能性があります。この場合は、テクニカルサポートにお問い合わせください。
 
-エンコーディングを確認するには、次の **sqlplus** コマンドを使用します。
+エンコーディングを調べるには、次の&#x200B;**sqlplus**&#x200B;コマンドを使用します。
 
 ```
 SELECT * FROM nls_database_parameters ;
@@ -66,7 +66,7 @@ SELECT * FROM nls_database_parameters ;
   NLS_CHARACTERSET WE8MSWIN1252
 ```
 
-sqlplusにログオンするには、 **Oracleユーザープロファイルを使用します**。
+**sqlplus**&#x200B;にログオンするには、Oracleユーザープロファイルを使用します。
 
 ```
 su - oracle 
@@ -74,7 +74,7 @@ sqlplus
 [login] [password]
 ```
 
-Linuxでは [Oracleクライアントも参照できます](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux)。
+Linuxの[Oracleクライアント](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux)を参照することもできます。
 
 ## PostgresSQL {#postgressql}
 

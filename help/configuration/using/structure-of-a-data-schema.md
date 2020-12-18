@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # データスキーマの構造{#structure-of-a-data-schema}
 
-データスキーマの構造は、ツリー構造の形式で表示されます。 Adobe Campaignクライアントコンソールでグラフィカルに表示するには、ターゲットスキーマを選択し、「 **[!UICONTROL 構造]** 」サブタブをクリックします。
+データスキーマの構造は、ツリー構造の形式で表示されます。 これをAdobe Campaignクライアントコンソールでグラフィカルに表示するには、ターゲットスキーマを選択し、「**[!UICONTROL 構造]**」サブタブをクリックします。
 
 ![](assets/d_ncs_integration_schema_arbo.png)
 

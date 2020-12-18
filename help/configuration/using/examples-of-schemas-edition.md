@@ -17,9 +17,9 @@ ht-degree: 2%
 
 # スキーマエディションの例{#examples-of-schemas-edition}
 
-## テーブルの拡張 {#extending-a-table}
+## テーブルの拡張{#extending-a-table}
 
-nms: **受信者** スキーマ受信者テーブルを拡張するには、次の手順を適用します。
+**nms:受信者**&#x200B;スキーマ受信者テーブルを拡張するには、次の手順を適用します。
 
 1. 次のデータを使用して拡張スキーマ(**cus:extension**)を作成します。
 
@@ -42,13 +42,13 @@ nms: **受信者** スキーマ受信者テーブルを拡張するには、次�
    </srcSchema>
    ```
 
-   この例では、インデックス付きのフィールド(**fidelity**)を追加し、 **nms:** 受信者 **スキーマに既に存在する場所要素()に列挙型のフィールド(****** areaField)を補足します。
+   この例では、インデックス付きのフィールド(**fidelity**)が追加され、**location**&#x200B;要素(**nms:element**&#x200B;スキーマに既に存在)に列挙型のフィールド(**area**)が追加されます。
 
    >[!IMPORTANT]
    >
-   >拡張スキーマを参照するために、 **extendedSchema** 属性を必ず追加してください。
+   >拡張スキーマを参照するには、**extendedSchema**&#x200B;属性を必ず追加してください。
 
-1. 拡張スキーマが **nms:受信者** スキーマで、追加のデータが存在することを確認します。
+1. 拡張スキーマが&#x200B;**nms:受信者**&#x200B;スキーマであり、追加のデータが存在することを確認します。
 
    ```
    <schema dependingSchemas="cus:extension" mappingType="sql" name="recipient" namespace="nms" xtkschema="xtk:schema">
@@ -84,7 +84,7 @@ nms: **受信者** スキーマ受信者テーブルを拡張するには、次�
    CREATE INDEX NmsRecipient_area ON NmsRecipient(sArea);
    ```
 
-## リンクされたコレクションテーブル {#linked-collection-table}
+## リンクされたコレクションテーブル{#linked-collection-table}
 
 この節では、基数が1 ～ Nの受信者テーブルにリンクされた注文テーブルを作成する方法について説明します。
 
@@ -103,7 +103,7 @@ nms: **受信者** スキーマ受信者テーブルを拡張するには、次�
 </srcSchema>
 ```
 
-テーブルタイプは **autopk** (自動生成された主キーを作成し、受信者テーブルへのリンクの結合で使用します)。
+受信者テーブルへのリンクの結合で使用する自動生成主キーを作成するには、テーブルタイプが&#x200B;**autopk**&#x200B;になります。
 
 生成されたスキーマ:
 
@@ -149,13 +149,13 @@ INSERT INTO CusOrder (iOrderId) VALUES (0);
 >
 >スクリプトの最後にINSERT INTOというSQLコマンドを使用すると、0に設定された識別子レコードを挿入して、外部結合をシミュレートできます。
 
-## 拡張テーブル {#extension-table}
+## 拡張テーブル{#extension-table}
 
 拡張テーブルを使用すると、基数1-1のリンクテーブル内の既存のテーブルの内容を拡張できます。
 
 拡張テーブルの目的は、テーブルでサポートされるフィールド数の制限を回避するか、または必要に応じて消費されるデータが占める領域を最適化することです。
 
-拡張テーブルスキーマの作成(**cus:feature**):
+拡張テーブルスキーマを作成しています(**cus:feature**):
 
 ```
 <srcSchema mappingType="sql" name="feature" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -199,13 +199,13 @@ ALTER TABLE NmsRecipient ALTER COLUMN iFeatureId SET Default 0;
 CREATE INDEX NmsRecipient_featureId ON NmsRecipient(iFeatureId);
 ```
 
-## オーバーフローテーブル {#overflow-table}
+## オーバーフローテーブル{#overflow-table}
 
 オーバーフローテーブルは拡張テーブル（基数1-1）ですが、拡張するテーブルへのリンクの宣言はオーバーフローテーブルのスキーマに入力されます。
 
 オーバーフローテーブルには、拡張するテーブルの外部キーが含まれます。 したがって、拡張するテーブルは変更されません。 2つのテーブル間の関係は、拡張するテーブルの主キーの値です。
 
-オーバーフローテーブルスキーマ(**cus:overflow**)を作成します。
+オーバーフローテーブルスキーマを作成しています(**cus:overflow**):
 
 ```
 <srcSchema label="Overflow" name="overflow" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -233,7 +233,7 @@ CREATE TABLE CusOverflow(iChildren NUMERIC(3) NOT NULL Default 0, iRecipientId I
 CREATE UNIQUE INDEX CusOverflow2_id ON CusOverflow2(iRecipientId);  
 ```
 
-## 関係テーブル {#relationship-table}
+## 関係テーブル{#relationship-table}
 
 関連テーブルを使用すると、2つのテーブルを基数N-Nとリンクできます。このテーブルには、リンクするテーブルの外部キーのみが含まれています。
 
@@ -299,11 +299,11 @@ CREATE UNIQUE INDEX CusRcpGrpRel_id ON CusRcpGrpRel(iRcpGroupId, iRecipientId);
 CREATE INDEX CusRcpGrpRel_recipientId ON CusRcpGrpRel(iRecipientId);
 ```
 
-## 使用例：既存の参照テーブルへのフィールドのリンク {#uc-link}
+## 使用例：フィールドを既存の参照テーブルにリンク{#uc-link}
 
 この使用例は、組み込みのAdobe Campaign定義済みリストメカニズム（enum、userEnumまたはdbEnum）の代わりに、既存の参照テーブルを使用する方法を示しています。
 
-既存の参照テーブルをスキーマの定義済みリストとして使用することもできます。 これは、テーブルと参照テーブルの間にリンクを作成し、属性 **displayAsField=&quot;true&quot;を追加することで達成でき**&#x200B;ます。
+既存の参照テーブルをスキーマの定義済みリストとして使用することもできます。 これは、テーブルと参照テーブルの間にリンクを作成し、属性&#x200B;**displayAsField=&quot;true&quot;**&#x200B;を追加することで達成できます。
 
 次の例では、参照テーブルに銀行名と識別子のリストが含まれています。
 
@@ -321,7 +321,7 @@ xtkschema="xtk:srcSchema">
 </srcSchema>
 ```
 
-この参照テーブルを使用するテーブルで、リンクを定義し、 **displayAsField=&quot;true&quot;** 属性を追加します。
+この参照テーブルを使用するテーブルで、リンクを定義し、**displayAsField=&quot;true&quot;**&#x200B;属性を追加します。
 
 ```
 <element displayAsField="true" label="Bank" name="bank" target="cus:bank" type="link" noDbIndex="true"/>
@@ -333,7 +333,7 @@ xtkschema="xtk:srcSchema">
 
 * オートコンプリートを行うには、参照テーブルに計算文字列を定義する必要があります。
 
-* リ追加ンク定義のnoDbIndex=&quot;true&quot; **** 属性。Adobe Campaignがリンクのソーステーブルに格納されている値に対してインデックスを作成できないようにします。
+* リ追加ンク定義の&#x200B;**noDbIndex=&quot;true&quot;**&#x200B;属性。Adobe Campaignがリンクのソーステーブルに格納されている値にインデックスを作成できないようにします。
 
 ## 関連トピック
 

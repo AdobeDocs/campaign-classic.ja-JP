@@ -40,12 +40,12 @@ ht-degree: 2%
 * データベースが会社を離れません：メッセージをアセンブルするために必要なデータのみがミッドソーシングサーバーに送信されます（HTTPSを使用できます）。
 * このタイプの導入は、大量のアーキテクチャ(データベース内の多くの受信者)に対するソリューションとなり、配信のスループットが大幅に向上します。
 
-### デメリット {#disadvantages}
+### デメリット{#disadvantages}
 
 * ミッドソーシングサーバーから情報を取得するのに要する時間が原因で、レポートの実行情報およびメッセージ機能の表示に若干の遅延が生じる。
 * 調査とWebフォームは、クライアントプラットフォームに残ります。
 
-### 推奨される機器 {#recommended-equipment}
+### 推奨機器{#recommended-equipment}
 
 * アプリケーションサーバー：2 GHZクアッドコアCPU、4 GB RAM、ソフトウェアRAID 1 80 GB SATAハードドライブ。
 * データベースサーバー：3 GHzバイクアッドコアCPU、最小4 GB RAM、ハードウェアRAID 10 15000 RPM SASハードドライブ、データベースのサイズと予想されるパフォーマンスに応じた数。
@@ -54,7 +54,7 @@ ht-degree: 2%
 >
 >リダイレクトとミッドソーシングは別々の要素ですが、一般的に、トラッキングサーバーはミッドソーシングサーバーと共有します。
 
-## インストールと設定の手順 {#installation-and-configuration-steps-}
+## インストールと設定の手順{#installation-and-configuration-steps-}
 
 ### 前提条件 {#prerequisites}
 
@@ -64,4 +64,4 @@ ht-degree: 2%
 
 ### インストールと設定(ミッドソーシング導入) {#installing-and-configuring--mid-sourcing-deployment-}
 
-「 [ミッドソーシングサーバ](../../installation/using/mid-sourcing-server.md)」を参照してください。
+[ミッドソーシングサーバー](../../installation/using/mid-sourcing-server.md)を参照してください。

@@ -31,8 +31,8 @@ ht-degree: 9%
 
 対応するスキーマを作成するには、次のステージを適用します。
 
-1. Adobe Campaignツリーの **[!UICONTROL 管理/設定/データスキーマ]** ・ノードを編集し、 **[!UICONTROL 新規]** をクリックします。
-1. 「 **[!UICONTROL Access data from an existing table」または「SQL表示]** 」オプションを選択し、「 **[!UICONTROL Next]** 」をクリックします。
+1. Adobe Campaignツリーの&#x200B;**[!UICONTROL Administration>Configuration>Dataスキーマー]**&#x200B;ノードを編集し、**[!UICONTROL New]**&#x200B;をクリックします。
+1. 「**[!UICONTROL 既存のテーブルまたはSQL表示からデータにアクセス]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/s_ncs_configuration_extand_a_schema.png)
 
@@ -44,7 +44,7 @@ ht-degree: 9%
 
    ![](assets/s_ncs_configuration_view_create_schema.png)
 
-   テーブル作成SQLスクリプトを生成しないために、 `<srcSchema>` ルートスキーマに表示=&quot;true&quot;属性を設定する必要があります。
+   テーブル作成SQLスクリプトを生成しないように、スキーマに`<srcSchema>`ルート要素の表示=&quot;true&quot;属性を設定する必要があります。
 
 **例**：
 
@@ -61,6 +61,6 @@ ht-degree: 9%
 
 ## 外部データベースへのアクセス {#accessing-an-external-database}
 
-「 **Federated Data Access-FDA** 」オプションを使用すると、外部データベースに保存されているデータにアクセスできます。
+**Federated Data Access-FDA**&#x200B;オプションを使用すると、外部データベースに格納されたデータにアクセスできます。
 
-スキーマが外部データベースのデータにアクセスする際に行う設定については、 [このページで詳しく説明します](../../installation/using/creating-data-schema.md)。
+外部データベース内のデータにアクセスするスキーマに対して行う構成は、[このページ](../../installation/using/creating-data-schema.md)に詳しく記載されています。

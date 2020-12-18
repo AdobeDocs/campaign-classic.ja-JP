@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## 原則 {#principles}
 
-スキーマを編集、作成および設定するには、Adobe Campaignクライアントコンソールの **[!UICONTROL 管理/設定/データスキーマ]** ノードをクリックします。
+スキーマを編集、作成および設定するには、Adobe Campaignクライアントコンソールの&#x200B;**[!UICONTROL 管理/設定/データスキーマ]**&#x200B;ノードをクリックします。
 
 >[!NOTE]
 >
@@ -43,16 +43,16 @@ ht-degree: 2%
 >
 >ソーススキーマを保存すると、拡張スキーマの生成が自動的に開始されます。
 
-スキーマの完全な構造を確認する必要がある場合は、「プレビュー」タブを使用できます。 スキーマを拡張すると、そのすべての拡張を視覚化できます。 補完的に、「ドキュメント」タブには、すべてのスキーマ属性と要素、およびそのプロパティ（SQLフィールド、タイプ/長さ、ラベル、説明）が表示されます。 「ドキュメント」タブは、生成されたスキーマにのみ適用されます。 For more on this, refer to the [Regenerating schemas](../../configuration/using/regenerating-schemas.md) section.
+スキーマの完全な構造を確認する必要がある場合は、「プレビュー」タブを使用できます。 スキーマを拡張すると、そのすべての拡張を視覚化できます。 補完的に、「ドキュメント」タブには、すべてのスキーマ属性と要素、およびそのプロパティ（SQLフィールド、タイプ/長さ、ラベル、説明）が表示されます。 「ドキュメント」タブは、生成されたスキーマにのみ適用されます。 詳しくは、「[スキーマの再生成](../../configuration/using/regenerating-schemas.md)」を参照してください。
 
-## 例：契約表の作成 {#example--creating-a-contract-table}
+## 例：契約表の作成{#example--creating-a-contract-table}
 
-次の例では、Adobe Campaignデータベースのデータベースモデルに **契約の新しい表を作成します** 。 次の表に、各契約の所有者および共有者の姓と名と電子メールアドレスを格納します。
+次の例では、Adobe Campaignデータベースのデータベースモデルに&#x200B;**contracts**&#x200B;の新しいテーブルを作成します。 次の表に、各契約の所有者および共有者の姓と名と電子メールアドレスを格納します。
 
 これを行うには、テーブルのスキーマを作成し、対応するテーブルを生成するためにデータベース構造を更新する必要があります。 次のような流れになります。
 
-1. Adobe Campaignツリーの **[!UICONTROL 管理/設定/データスキーマ]** (Data Designations **[!UICONTROL )ノードを編集し、「]** 新規」をクリックします。
-1. 「 **[!UICONTROL Create a new table in the data model]** 」オプションを選択し、「 **[!UICONTROL Next]** 」をクリックします。
+1. Adobe Campaignツリーの&#x200B;**[!UICONTROL 管理/設定/データスキーマ]**&#x200B;ノードを編集し、**[!UICONTROL 新規]**&#x200B;をクリックします。
+1. 「**[!UICONTROL データモデルに新しいテーブルを作成]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/s_ncs_configuration_create_new_schema.png)
 
@@ -62,9 +62,9 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >デフォルトでは、ユーザーが作成したスキーマは「cus」名前空間に保存されます。 詳しくは、「スキーマの [ID](../../configuration/using/about-schema-reference.md#identification-of-a-schema)」を参照してください。
+   >デフォルトでは、ユーザーが作成したスキーマは「cus」名前空間に保存されます。 詳しくは、[スキーマのID](../../configuration/using/about-schema-reference.md#identification-of-a-schema)を参照してください。
 
-1. テーブルのコンテンツを作成します。 設定が足りないことを確認するために、入力ウィザードを使用することをお勧めします。 これを行うには、「 **[!UICONTROL 挿入]** 」ボタンをクリックし、追加する設定のタイプを選択します。
+1. テーブルのコンテンツを作成します。 設定が足りないことを確認するために、入力ウィザードを使用することをお勧めします。 これを行うには、「**[!UICONTROL 挿入]**」ボタンをクリックし、追加する設定のタイプを選択します。
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 
@@ -120,5 +120,5 @@ ht-degree: 2%
 
    ![](assets/s_ncs_configuration_structure.png)
 
-1. データベース構造を更新して、スキーマがリンクされるテーブルを作成します。 For more on this, refer to [Updating the database structure](../../configuration/using/updating-the-database-structure.md).
+1. データベース構造を更新して、スキーマがリンクされるテーブルを作成します。 詳しくは、[データベース構造の更新](../../configuration/using/updating-the-database-structure.md)を参照してください。
 

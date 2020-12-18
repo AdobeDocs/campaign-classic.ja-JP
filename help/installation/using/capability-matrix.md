@@ -21,9 +21,9 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 
 このページでは、ホスト(Managed Services)デプロイメントとオンプレミスデプロイメントの主な違いを示します。 ハイブリッド展開の特殊性は、Adobeがホストし、オンプレミスでホストする要素に依存します。
 
-この節では、異なるホスティングモデル [について説明します](../../installation/using/hosting-models.md)。
+このセクション](../../installation/using/hosting-models.md)では、異なるホスティングモデルが導入[されています。
 
-## 導入モデルごとの可用性 {#capability-matrix}
+## 展開モデルごとの可用性{#capability-matrix}
 
 | 機能 | ホスト | ハイブリッド | オンプレミス | 詳細 |
 |-----------------------------------------------|------------------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 
 >[!CAUTION]
 >
->Accessing an external database via FDA is only possible for on-premise or hybrid installations, except with the [Snowflake connector](../../installation/using/configure-fda-snowflake.md).
+>FDAを介した外部データベースへのアクセスは、[Snowflakeコネクタ](../../installation/using/configure-fda-snowflake.md)を除き、オンプレミスまたはハイブリッドインストールでのみ可能です。
 
 
 **関連項目：**

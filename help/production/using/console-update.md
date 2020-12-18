@@ -17,14 +17,14 @@ ht-degree: 8%
 
 # コンソールの更新{#console-update}
 
-「 **[!UICONTROL Do not request console update]** （コンソールの更新を要求しない）」オプションを選択し、更新要求を再アクティブ化する場合は、次の手順を適用します。
+「**[!UICONTROL コンソールの更新を要求しない]**」オプションを選択し、更新要求を再開する場合は、次の手順を適用します。
 
-1. Windowsの **開始/実行** メニューで、regedit **** コマンドを使用して、レジストリデータベースのエディターを開きます。
+1. Windows **[!UICONTROL 開始/]**&#x200B;を実行メニューの&#x200B;**regedit**&#x200B;コマンドを使用して、レジストリデータベースのエディターを開きます。
 
    ![](assets/ncs_console_update_1.png)
 
-1. ツリーで、 **[!UICONTROL HKEY_CURRENT_USERSoftwarenolaneNL_6nlclient]** ノードのオプションを表示します。
-1. confAdvisedUpgradeエントリを削除し **** 、レジストリエディターを閉じます。
+1. ツリー内で、**[!UICONTROL HKEY_CURRENT_USERSoftwareneolelaneNL_6nlclient]**&#x200B;ノードのオプションを表示します。
+1. **[!UICONTROL confAdvisedUpgrade]**&#x200B;エントリを削除し、レジストリエディターを閉じます。
 
    ![](assets/ncs_console_update_2.png)
 

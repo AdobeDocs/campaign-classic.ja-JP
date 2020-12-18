@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # 一般的なアーキテクチャ{#general-architecture}
 
-## 最小アーキテクチャ {#minimum-architecture}
+## 最小アーキテクチャ{#minimum-architecture}
 
 最小の設定では、Adobe Campaignは次の機能を使用します。
 
@@ -45,9 +45,9 @@ Adobe Campaignは複数のモジュールで構成され、複数のマシンで
 
 >[!NOTE]
 >
->For more on the various architectures, refer to [this section](../../installation/using/general-architecture.md).
+>様々なアーキテクチャの詳細については、[この](../../installation/using/general-architecture.md)を参照してください。
 
-## オープン・ポートのリスト {#list-of-open-ports}
+## オープン・ポートのリスト{#list-of-open-ports}
 
 | ポート番号 | 関連するAdobe Campaignモジュールまたはアプリケーション | 設定可能 |
 |---|---|---|

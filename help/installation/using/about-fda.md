@@ -15,7 +15,7 @@ ht-degree: 39%
 ---
 
 
-# Federated Data Accessの概要 {#about-federated-data-access}
+# Federated Data Accessを使用する前に{#about-federated-data-access}
 
 Adobe Campaign では、**Federated Data Access**（FDA）オプションを利用することができます。このオプションを使用すると、1 つ以上の外部データベースに格納されている情報を処理することが可能です。Adobe Campaign データの構造を変更しなくても、外部データにアクセスできます。
 
@@ -25,9 +25,9 @@ FDA オプションを使用すると、サードパーティのデータベー�
 
 この機能を使用するための前提条件は次のとおりです。
 
-* **設定**:snowflakeを除き、Federated Data Accessを設定するには、 **オンプレミス** または **ハイブリッド** ホスティングモデルが必要です。 [詳細情報](../../installation/using/hosting-models.md)
-* **外部データベースのバージョン**:adobe campaignFDAモジュールと互換性のある外部データベースが必要です。 The list of database systems and compatible versions is detailed in Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
-* **権限**:また、Adobe Campaignおよび外部データベースに [必要な権限](../../installation/using/remote-database-access-rights.md) も持っている必要があります。
+* **設定**:snowflakeを除き、Federated Data Accessを設定するには、 **On-** Premiserまたは **** ハイブリッドホストモデルが必要です。[詳細情報](../../installation/using/hosting-models.md)
+* **外部データベースのバージョン**:adobe campaignFDAモジュールと互換性のある外部データベースが必要です。データベースシステムと互換性のあるバージョンのリストについては、キャンペーン[互換性マトリックス](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA)で詳しく説明しています。
+* **権限**:また、Adobe Campaignおよび外部データベースに [必要な](../../installation/using/remote-database-access-rights.md) 権限も持っている必要があります。
 
 ## 制限事項{#limitations}
 
@@ -45,7 +45,7 @@ FDAオプションは、使用する外部データベースシステムの制�
 
 ## 推奨事項 {#recommendations}
 
-### 一時スキーマの作成 {#create-temporary-schemas}
+### 一時スキーマを作成{#create-temporary-schemas}
 
 Greenplum外部データベースへのアクセスは、FDAを通じて複数管理できます。 専用のオプションを使用すると、外部アカウントの設定時に作業スキーマを直接作成できます。
 
@@ -55,22 +55,22 @@ Greenplum外部データベースへのアクセスは、FDAを通じて複数�
 >
 >このオプションはPostgreSQL Greenplumでのみ使用できます。
 
-### Optimize email personalization with external data {#optimizing-email-personalization-with-external-data}
+### 外部データを使って電子メールのパーソナライゼーションを最適化{#optimizing-email-personalization-with-external-data}
 
-メッセージのパーソナライゼーションを専用のワークフローで事前に処理できます。 これを実行するには、配信プロパティの「 **[!UICONTROL 分析]** 」タブにある「ワークフローを使用してパーソナライズデータを準備する **** 」オプションを使用します。
+メッセージのパーソナライゼーションを専用のワークフローで事前に処理できます。 これを実行するには、配信のプロパティの&#x200B;]**「分析**[!UICONTROL 」タブにある「ワークフロー&#x200B;**[!UICONTROL でパーソナライゼーションデータを準備する」オプションを使用します。]**
 
 配信の分析中、このオプションは、ターゲットにリンクされたすべてのデータ（外部データベースにリンクされたテーブルのデータを含む）を一時テーブルに保存するワークフローを自動的に作成し、実行します。
 
 このオプションは、パーソナライゼーション手順を実行する際のパフォーマンスを大幅に向上させます。
 
-### Use data from an external database in a workflow {#using-data-from-an-external-database-in-a-workflow}
+### ワークフロー{#using-data-from-an-external-database-in-a-workflow}で外部データベースのデータを使用
 
 複数のAdobe Campaignワークフローアクティビティでは、外部データベースに保存されたデータを使用できます。
 
-* **外部データに対するフィルター** - [](../../workflow/using/targeting-data.md#selecting-data) クエリアクティビティを使用すると、外部データを追加して、定義済みのフィルター設定で使用できます。 詳しくは、[このページ](../../workflow/using/targeting-data.md#selecting-data)を参照してください。
+* **外部データに対するフィルタ** -  [](../../workflow/using/targeting-data.md#selecting-data) Queryアクティビティを使用すると、外部データを追加し、定義済みのフィルタ設定で使用できます。詳しくは、[このページ](../../workflow/using/targeting-data.md#selecting-data)を参照してください。
 
-* **サブセットの作成** - 「 [分割](../../workflow/using/split.md) 」アクティビティを使用すると、サブセットを作成できます。 外部データを使用して、使用するフィルタリング条件を定義できます。詳しくは、[このページ](../../workflow/using/split.md)を参照してください。
+* **サブセットの作成** -  [](../../workflow/using/split.md) Splitactivityを使用すると、サブセットを作成できます。外部データを使用して、使用するフィルタリング条件を定義できます。詳しくは、[このページ](../../workflow/using/split.md)を参照してください。
 
-* **外部データベースのロード** — 外部データは、 [データ・ロード](../../workflow/using/data-loading--rdbms-.md) (RDBMS)アクティビティで使用できます。 Learn more in [this page](../../workflow/using/data-loading--rdbms-.md).
+* **外部データベースのロード**  — 外部データは、 [データ・ロード](../../workflow/using/data-loading--rdbms-.md) (RDBMS)アクティビティで使用できます。詳しくは、[このページ](../../workflow/using/data-loading--rdbms-.md)を参照してください。
 
-* **情報とリンクの追加** - [](../../workflow/using/enrichment.md) エンリッチメントアクティビティを使用すると、ワークフローのワークテーブルに追加のデータを追加したり、外部テーブルにリンクを追加したりできます。 このコンテキストでは、外部データベースのデータを使用できます。 Learn more in [this page](../../workflow/using/enrichment.md).
+* **情報とリンクの追加** - 「 [](../../workflow/using/enrichment.md) 富化」アクティビティを使用すると、ワークフローのワークテーブルに追加のデータを追加し、外部テーブルにリンクできます。このコンテキストでは、外部データベースのデータを使用できます。 詳しくは、[このページ](../../workflow/using/enrichment.md)を参照してください。

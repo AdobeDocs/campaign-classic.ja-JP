@@ -29,11 +29,11 @@ Adobe Campaignが提供するWebトラッキングモジュールを使用する
 
 ## サーバー設定 {#server-configuration}
 
-サーバーは、serverConf.xml **ファイルの特定の要素をオーバーロードして設定します** 。 これらのファイルは、Adobe Campaignのインストールディレクトリの **conf** サブディレクトリに保存されます。
+サーバーは、**serverConf.xml**&#x200B;ファイルの特定の要素をオーバーロードして設定します。 これらのファイルは、Adobe Campaignのインストールディレクトリの&#x200B;**conf**&#x200B;サブディレクトリに保存されます。
 
-### リダイレクトサーバー {#redirection-server}
+### リダイレクトサーバー{#redirection-server}
 
-リダイレクトサーバーの場合、リダイレクト **要素のtrackWebVisitors** 属性を **trueに設定し** ます ****。
+リダイレクトサーバーの場合、**redirection**&#x200B;要素の&#x200B;**trackWebVisitors**&#x200B;属性を&#x200B;**true**&#x200B;に設定します。
 
 ```
 <redirection P3PCompactPolicy="CAO DSP COR CURa DEVa TAIa OUR BUS IND UNI COM NAV"
@@ -42,11 +42,11 @@ startRedirection="true" startRedirectionInModule="true" trackWebVisitors="true"
 trackingPassword=""
 ```
 
-## デフォルトの一致キャンペーンの設定 {#configuring-a-default-matching-campaign}
+## デフォルトの一致キャンペーン{#configuring-a-default-matching-campaign}の設定
 
 クライアントコンソールを使用して表示追跡情報を取得するには、次の操作を行う必要があります。
 
-* ダミー **配信を作成します** (配信マッピングはターゲットスキーマのマッピングと同じでなければなりません)。
-* NmsTracking_WebTrackingDelivery **配信にこのオプションの****** 内部名を入力します。
+* **ダミー配信**&#x200B;を作成します(配信マッピングはターゲットスキーマのマッピングと同じでなければなりません)。
+* **NmsTracking_WebTrackingDelivery**&#x200B;配信に、このオプションの&#x200B;**内部名**&#x200B;を入力します。
 
 電子メール内でのクリックの直後に発生しないサイトトラッキング配信は、作成したダミー情報ですべて表示できます。

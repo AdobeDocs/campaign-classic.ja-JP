@@ -17,4 +17,4 @@ ht-degree: 58%
 
 # Oracle データベースのエンコード{#encoding-of-the-oracle-database}
 
-Adobe Campaignでは、デフォルトのOracleエンコーディングが使用されます。 異なるものを使用すると、非互換性が発生する可能性があります。 詳しくは、[この節](../../installation/using/database.md#oracle)を参照してください。
+Adobe Campaignでは、デフォルトのOracleエンコーディングが使用されます。 異なるものを使用すると、非互換性が発生する可能性があります。 詳しくは、[こちらの節](../../installation/using/database.md#oracle)を参照してください。

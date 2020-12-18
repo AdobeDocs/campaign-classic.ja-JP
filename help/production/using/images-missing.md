@@ -23,12 +23,12 @@ ht-degree: 5%
 
 **Apacheユーザー：**
 
-Apacheユーザーが提供された **apache_neolane.confを使用する場合、Apacheユーザーには影響しません**
+Apacheユーザーが提供された&#x200B;**apache_neolane.conf**
 
 **IISユーザー：**
 
 IISユーザー(Windows)の場合、ビルドの更新後、コンソールに複数のアイコンが表示されなくなります。 追加のIISの更新手順が必要です：
 
-1. ビルドの更新後、重複が **iis_neolane_setup.vbs** (キャンペーンインストールディレクトリ内)をクリックします。 デフォルトのパスはC:\Program Files (x86)\Adobe\Adobe Campaign v7\confです。
+1. ビルドの更新後、重複がキャンペーンのインストールディレクトリにある&#x200B;**iis_neolane_setup.vbs**&#x200B;をクリックします。 デフォルトのパスはC:\Program Files (x86)\Adobe\Adobe Campaign v7\confです。
 1. 前の手順で更新したIISサイトを再起動します。
 

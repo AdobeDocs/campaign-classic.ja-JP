@@ -166,7 +166,7 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> クーポン管理<br /> </td> 
-   <td> クーポンのセットを作成して、今後のマーケティングオファーに追加します。 （オプション）<a href="../../delivery/using/personalized-coupons.md">詳細情報</a> <br /> </td> 
+   <td> 今後のマーケティング特典に追加するクーポンのセットを作成します。 （オプション）<a href="../../delivery/using/personalized-coupons.md">詳細情報</a> <br /> </td> 
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
@@ -176,7 +176,7 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> セントラル / ローカルマーケティング (分散型マーケティング)<br /> </td> 
-   <td> セントラルエンティティ（本部、販売部など）間の協調キャンペーンを実現 ローカルエンティティ（販売地点、地域機関等） （オプション）<a href="../../campaign/using/about-distributed-marketing.md">詳細情報</a><br /> </td> 
+   <td> 中央機関（本社、マーケティング部など）間の共同キャンペーンを実施 地元の事業体（販売拠点、地域機関等） （オプション）<a href="../../campaign/using/about-distributed-marketing.md">詳細情報</a><br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 
@@ -186,22 +186,22 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> Web 分析コネクタ<br /> </td> 
-   <td> Adobe CampaignとAdobe AnalyticsがWeb Analyticsコネクターパッケージを使用してやり取りを行うことを許可します。 トランザクションメッセージング（Message Centerパッケージ）との互換性がありません。 <a href="../../platform/using/adobe-analytics-data-connector.md">詳細情報</a><br /> </td> 
+   <td> Adobe CampaignとAdobe AnalyticsがWeb Analyticsコネクタパッケージを介して対話できるようにします。 トランザクションメッセージング（メッセージセンターパッケージ）と互換性がありません。 <a href="../../platform/using/adobe-analytics-data-connector.md">詳細情報</a><br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 
    <td> AEM 統合<br /> </td> 
-   <td> 電子メール配信のコンテンツとフォームを直接Adobe Experience Managerで管理できます。これにより、AEMコンテンツ編集機能とAdobe Campaignの配信容量を活用できます。 <a href="../../integrations/using/about-adobe-experience-manager.md">詳細情報</a> <br /> </td> 
+   <td> AEMのコンテンツ編集機能とAdobe Campaignの配信機能を利用するために、電子メール配信のコンテンツとフォームをAdobe Experience Managerで直接管理できます。 <a href="../../integrations/using/about-adobe-experience-manager.md">詳細情報</a> <br /> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 
    <td> Adobe Experience Cloud 共有オーディエンス統合<br /> </td> 
-   <td> オーディエンス/セグメントをAdobe Experience Cloudのソリューションおよびコアサービスと交換および共有できます。 IMSが必要です。 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">詳細情報</a> <br /> </td> 
+   <td> オーディエンス/セグメントをAdobe Experience Cloudのソリューションおよびコアサービスと交換および共有できます。 IMSが必要 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">詳細情報</a> <br /> </td> 
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Experience Cloud<br />との統合 </td> 
-   <td> 様々なAdobe Experience Cloudソリューションからオーディエンス/セグメントをAdobe Campaignにインポートおよびエクスポートできます。 （オプション）<a href="../../integrations/using/configuring-ims.md#installing-the-package">詳細情報</a> </td> 
+   <td> さまざまなAdobe Experience CloudソリューションからAdobe Campaignに対して、対象ユーザー/セグメントを読み込み、書き出すことができます。 （オプション）<a href="../../integrations/using/configuring-ims.md#installing-the-package">詳細情報</a> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 
@@ -211,17 +211,17 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> ミッドソーシング転送 <br /> </td> 
-   <td> ミッドソーシングサーバーのインストールと設定、およびサードパーティがミッドソーシングモードでメッセージを送信できるようにするインスタンスのデプロイメントについて詳しく説明します。 （オプション）<a href="../../installation/using/mid-sourcing-server.md">詳細情報</a> <br /> </td> 
+   <td> ミッドソーシングサーバーのインストールと構成、およびサードパーティが中間ソーシングモードでメッセージを送信できるインスタンスのデプロイの詳細。 （オプション）<a href="../../installation/using/mid-sourcing-server.md">詳細情報</a> <br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 
    <td> ミッドソーシングプラットフォーム<br /> </td> 
-   <td> この設定は、ホスト(ASP)設定と内部化の間の最適な中間ソリューションです。 外向きの実行コンポーネントは、Adobe Campaignでホストされる「ミッドソーシング」サーバーで実行されます。 （オプション）<a href="../../installation/using/mid-sourcing-server.md">詳細情報</a> <br /> </td> 
+   <td> この構成は、ホスト(ASP)構成と内部化の間の最適な中間ソリューションです。 外向きの実行コンポーネントは、Adobe Campaignでホストされる「ミッドソーシング」サーバで実行されます。 （オプション）<a href="../../installation/using/mid-sourcing-server.md">詳細情報</a> <br /> </td> 
    <td> ミッドソーシング </td> 
   </tr> 
   <tr> 
    <td> AMP サポート<br /> </td> 
-   <td> 新しいインタラクティブAMPをE メールフォーマットに使用し、動的な電子メールを送信できます。 （オプション）<a href="../../delivery/using/defining-interactive-content.md">詳細情報</a> <br /> </td> 
+   <td> 新しい対話型AMPを電子メール形式に使用し、動的な電子メールを送信できます。 （オプション）<a href="../../delivery/using/defining-interactive-content.md">詳細情報</a> <br /> </td> 
    <td> すべて </td> 
   </tr> 
   <tr> 
@@ -232,22 +232,22 @@ ht-degree: 26%
  </tbody> 
 </table>
 
-### Message Centerパッケージ{#message-center-package}
+### メッセージセンターパッケージ{#message-center-package}
 
-配信チャネル(電子メール、モバイルチャネル、モバイルアプリチャネルなど)を トランザクションメッセージをインストールする前に（Message Centerパッケージ） 電子メールのみのMessage Centerプロジェクトを開始し、その後新しいチャネルを追加する必要がある場合は、次の手順に従う必要があります。
+配信チャネル（Eメール、モバイルチャネル、モバイルアプリチャネルなど）をインストールする必要があります トランザクションメッセージング（メッセージセンターパッケージ）をインストールする前に、 電子メール専用のメッセージセンタープロジェクトを開始し、その後に新しいチャネルを追加する必要がある場合は、次の手順に従ってください。
 
 1. パッケージインポートウィザード(**[!UICONTROL ツール/詳細/パッケージの読み込み/Adobe Campaignパッケージ]**)を使用して、新しいチャネル(**モバイルチャネル**&#x200B;など)をインストールします。
-1. ファイルを読み込み（**[!UICONTROL ツール/詳細/パッケージの読み込み/ファイル]**）、次を選択します。
+1. ファイルをインポートし（ **[!UICONTROL [ツール] > [詳細設定] > [パッケージのインポート] > [ファイル]]**）、次の項目を選択します。
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. **[!UICONTROL 読み込むXMLデータコンテンツ]**&#x200B;には、関連するチャネルに対応するMessage Center配信テンプレートのみを保持します。 例えば、**モバイルチャネル**&#x200B;を追加した場合、**[!UICONTROL モバイルトランザクションメッセージ]** (smsTriggerMessage)テンプレートに対応する&#x200B;**entities**&#x200B;要素のみを保持します。 **モバイルアプリチャネル**&#x200B;を追加した場合は、**iOSトランザクションメッセージ**&#x200B;テンプレート(iosTriggerMessage)と&#x200B;**Androidトランザクションメッセージ**(androidTriggerMessage)のみを残してください。
+1. **[!UICONTROL インポートするXMLデータコンテンツ]**&#x200B;では、関連するチャネルに対応するメッセージセンター配信テンプレートのみを保持します。 例えば、**モバイルチャネル**&#x200B;を追加した場合、**[!UICONTROL モバイルトランザクションメッセージ]** (smsTriggerMessage)テンプレートに対応する&#x200B;**entities**&#x200B;要素のみを保持します。 **モバイルアプリチャネル**&#x200B;を追加した場合は、**iOSトランザクションメッセージ**&#x200B;テンプレート(iosTriggerMessage)と&#x200B;**Androidトランザクションメッセージ**(androidTriggerMessage)のみを残してください。
 
    ![](assets/messagecenter_install_channel.png)
 
 >[!CAUTION]
 >
->Message CenterパッケージがLINEの前にインストールされている場合、LINEのMessage Center配信テンプレートは使用できません
+>LINEの前にメッセージセンターパッケージがインストールされている場合、LINEのメッセージセンター配信テンプレートは使用できません
 

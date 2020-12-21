@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
+source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
 workflow-type: tm+mt
-source-wordcount: '2023'
-ht-degree: 100%
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
@@ -136,7 +136,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 ## クライアントコンソールを更新する必要がありますか？
 
-はい。クライアントコンソールは、サーバーインスタンスと同じか、より新しいビルドで実行する必要があります。アップグレードが完了すると、サーバービルドと一致するように最新のビルドにアップグレードするように求めるプロンプトがクライアントコンソールで表示されます。
+はい。クライアントコンソールは、サーバーインスタンスと同じビルド上に存在する必要があります。 アップグレードが完了すると、サーバービルドと一致するように最新のビルドにアップグレードするように求めるプロンプトがクライアントコンソールで表示されます。
 
 ## ロールバックプランとは何ですか？データのバックアップは保持されますか？
 

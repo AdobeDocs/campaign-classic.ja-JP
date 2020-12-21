@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 100%
@@ -17,19 +17,19 @@ ht-degree: 100%
 
 # リリース 20.1{#release-20-1}
 
-## ![](assets/do-not-localize/orange_2.png) リリース 20.1.3 - ビルド 9124{#release-20-1-3-build-9124}
+## ![](assets/do-not-localize/red_2.png) リリース 20.1.3 - ビルド 9124{#release-20-1-3-build-9124}
 
 _2020 年 5 月 6 日_
 
 * SFTP キーに基づく認証が Debian 9 で動作しない&#x200B;**ファイル転送**&#x200B;アクティビティの問題を修正しました。（NEO-23183）
 
-## ![](assets/do-not-localize/orange_2.png) リリース 20.1.2 - ビルド 9123{#release-20-1-2-build-9123}
+## ![](assets/do-not-localize/red_2.png) リリース 20.1.2 - ビルド 9123{#release-20-1-2-build-9123}
 
 _2020 年 3 月 13 日_
 
 * Red Hat 7 サーバーでバージョンをデプロイできない問題を修正しました。（NEO-23332）
 
-## ![](assets/do-not-localize/orange_2.png) リリース 20.1 - ビルド 9122{#release-20-1-build-9122}
+## ![](assets/do-not-localize/red_2.png) リリース 20.1 - ビルド 9122{#release-20-1-build-9122}
 
 _2020 年 2 月 17 日_
 

@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # リリース 19.2{#release-19-2}
 
-## ![](assets/do-not-localize/orange_2.png) リリース 19.2.3 - ビルド 9081 {#release-19-2-3-build-9081}
+## ![](assets/do-not-localize/red_2.png) リリース 19.2.3 - ビルド 9081 {#release-19-2-3-build-9081}
 
 _2020 年 2 月 7 日_
 
@@ -26,7 +26,7 @@ _2020 年 2 月 7 日_
 * Windows サーバーでユーザーの接続が失敗する原因となった SSL 証明書の実装による新たな問題を修正しました。（NEO-20629）
 * **バージョン情報**&#x200B;メニューに誤ったバージョンタグ番号が表示される問題を修正しました。
 
-## ![](assets/do-not-localize/orange_2.png) リリース 19.2 - ビルド 9080 {#release-19-2-build-9080}
+## ![](assets/do-not-localize/red_2.png) リリース 19.2 - ビルド 9080 {#release-19-2-build-9080}
 
 _2019 年 12 月 02 日_
 

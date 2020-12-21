@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
+source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,10 @@ Adobe Campaignは、サーバー側で実行されるいくつかのプロセス
 * アプリケーションサーバー(nlserver Web)
 * 配信サーバー(nlserver mta)
 * リダイレクトサーバー(webmdl)
+
+>[!CAUTION]
+>
+>クライアントコンソールは、サーバーインスタンスと同じビルド上にある必要があります。
 
 >[!NOTE]
 >

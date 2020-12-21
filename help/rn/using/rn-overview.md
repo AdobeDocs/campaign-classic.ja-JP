@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
+source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 94%
 
 ---
 
@@ -37,13 +37,13 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 **最新の RC ビルド**[は Campaign Classic 20.3 リリース](../../rn/using/latest-release.md)です
 
-![](assets/do-not-localize/orange3.png) **現在使用不可** - 新しいビルドに更新する必要があります。
-
-![](assets/do-not-localize/red3.png) **非推奨（廃止予定）** - 新しいビルドへの更新が必須です。
+![](assets/do-not-localize/red3.png) **非推奨**  — デプロイメントなし。既存の実装はアップグレードする必要があります。
 
 ## 推奨事項{#recommendations}
 
 安定した構成を確保するために、同じクライアント構成で実行しているすべてのサーバーに同じ安定したビルドをインストールすることをお勧めします。
+
+さらに、クライアントコンソールは、サーバーインスタンスと同じビルド上にある必要があります。
 
 実装を最新の状態に維持するには、各新リリースで、[廃止および削除された機能](../../rn/using/deprecated-features.md)および、[互換性マトリックス](../../rn/using/compatibility-matrix.md)のページを必ずお読みください。
 

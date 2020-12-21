@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: f9584342d81b53ad5854b30b7c4970b0aba6d4ff
+source-git-commit: e4cdeddaeb19f3ab7d601343d2a2c91f1c27822b
 workflow-type: tm+mt
 source-wordcount: '820'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ _2020 年 7 月 7 日_
 
 >[!CAUTION]
 >
->クライアントコンソールをこのリリースに含まれるものにアップグレードすることをお勧めします。[このページ](../../installation/using/installing-the-client-console.md)を参照してください。
+>クライアントコンソールをこのリリースに含まれるものにアップグレードすることをお勧めします。[このページ](../../installation/using/installing-the-client-console.md)を参照
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 9 リリース{#gs-9}
 
@@ -79,7 +79,7 @@ _2020 年 4 月 29 日_
 * クリーンアップワークフローがクラッシュする原因となる問題を修正しました。
 * クリーンアップワークフローログの軽度の問題を修正しました。
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 6 リリース{#gs-6}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 6 リリース{#gs-6}
 
 _2020 年 3 月 9 日_
 
@@ -87,7 +87,7 @@ _2020 年 3 月 9 日_
 
 * FTP over SSL を使用する外部アカウントの問題を修正しました。（NEO-20498）
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 5 リリース{#gs-5}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 5 リリース{#gs-5}
 
 _2019 年 12 月 17 日_
 
@@ -95,7 +95,7 @@ _2019 年 12 月 17 日_
 
 * モバイル（SMS、MMS）、プッシュ（iOS、Android）およびソーシャルネットワーク（Facebook、Twitter）の各通信チャネルでのトラッキングの問題を修正しました。（NEO-19595）
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 4 リリース{#gs-4}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 4 リリース{#gs-4}
 
 _2019 年 12 月 11 日_
 
@@ -103,7 +103,7 @@ _2019 年 12 月 11 日_
 
 * MSSQL データベースでメッセージを送信する際のパフォーマンスの問題を修正しました。（NEO-17558）
 
-## ![](assets/do-not-localize/orange_2.png) Gold Standard 3 リリース{#gs-3}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 3 リリース{#gs-3}
 
 _2019 年 11 月 20 日_
 

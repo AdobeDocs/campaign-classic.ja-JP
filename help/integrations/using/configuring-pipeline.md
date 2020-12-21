@@ -7,10 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
 translation-type: tm+mt
-source-git-commit: 0abdbbc33350cf6ec85488483dadb177e685818b
+source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 100%
+source-wordcount: '921'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 この設定を開始する前に、次を使用していることを確認してください。
 
-* Adobe Campaign 20.3 リリース以上
+* Adobe Campaign20.3またはGold Standard 11以降のリリース
 * Adobe Analytics Standard 版
 
 また、次も必要です。

@@ -6,9 +6,9 @@ description: テクニカルワークフローの監視
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 **[!UICONTROL キャンペーンプロセス（「operationMgt」、「deliveryMgt」など]**）の場合：
 
-1. **[!UICONTROL キャンペーンプロセス]**&#x200B;フォルダーにあるすべてのワークフローを確認します。詳しくは、この[ページ](../../workflow/using/campaign.md)を参照してください。
+1. **[!UICONTROL キャンペーンプロセス]**&#x200B;フォルダーにあるすべてのワークフローを確認します。詳しくは、この[ページ](../../workflow/using/about-technical-workflows.md)を参照してください。
 1. ワークフローがスケジュールどおりに実行され、繰り返し発生するエラーがジャーナルにハイライト表示されていないことを確認します。
 
 ## ワークフロー監視 {#workflow-supervision}

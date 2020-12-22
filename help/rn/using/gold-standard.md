@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: e4cdeddaeb19f3ab7d601343d2a2c91f1c27822b
+source-git-commit: 87d9196fac69b549014a8acb5f13b9bff97a846b
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 99%
+source-wordcount: '937'
+ht-degree: 90%
 
 ---
 
@@ -24,6 +24,24 @@ Gold Standard は、Campaign Classic の長期サポートリリースです。G
 このページには、Gold Standard のリリースがリストされています。
 
 Campaign Gold Standard プログラムの詳細については、[この記事](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)を参照してください。
+
+## ![](assets/do-not-localize/limited_2.png) Gold Standard 11 リリース{#gs-11}
+
+_2020年12月22日_
+
+>[!CAUTION]
+>
+>このリリースには、新しい接続プロトコルが付属しています。2020年3月22日以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるようにするには、アップグレードが必須です。
+
+ビルド9032@2a2a028には、次の機能強化および修正が含まれています。
+
+* 接続プロトコルは、新しいIMS認証メカニズムに従うように更新されました。
+
+* パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合認証が変更され、Adobe I/O に移動しました。[詳細情報](../../integrations/using/configuring-adobe-io.md)
+
+* iOS APNsレガシーバイナリプロトコルのサポートが終了した後は、アップグレード後に、このプロトコルを使用するすべてのインスタンスがHTTP/2プロトコルに更新されます。
+
+* サーバー側要求偽造(SSRF)の問題に対する保護を強化するためのセキュリティの問題を修正しました。 （NEO-27777）
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 10 リリース{#gs-10}
 

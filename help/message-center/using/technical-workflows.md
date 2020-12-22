@@ -6,9 +6,9 @@ description: テクニカルワークフロー
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -51,4 +51,3 @@ Once the control and execution modules are installed on the same instance, you m
    * **[!UICONTROL 配信で無視]**：このステータスは配信ログからコピーされます。配信が無視されたことを意味しています。
    * **[!UICONTROL 配信に失敗]**：このステータスは配信ログからコピーされます。配信が失敗したことを意味しています。
    * **[!UICONTROL 処理不可なイベント]**：イベントをメッセージテンプレートにリンクすることができませんでした。イベントの処理はおこなわれません。
-

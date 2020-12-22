@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 13%
@@ -32,7 +32,7 @@ ht-degree: 13%
 
 この問題には、いくつかの原因が考えられます。次の手順に従って解決します。
 
-1. [**[!UICONTROL operationMgt]**](../../workflow/using/campaign.md)テクニカルワークフローの状態を確認します。 このワークフローは、キャンペーン内のジョブまたはワークフローを管理します。 失敗した場合、ワークフローは開始/停止しません。 キャンペーンワークフローの実行を再開するには、再起動します。
+1. [**[!UICONTROL operationMgt]**](../../workflow/using/about-technical-workflows.md)テクニカルワークフローの状態を確認します。 このワークフローは、キャンペーン内のジョブまたはワークフローを管理します。 失敗した場合、ワークフローは開始/停止しません。 キャンペーンワークフローの実行を再開するには、再起動します。
 
    テクニカルワークフローの監視について詳しくは、[このページ](../../workflow/using/monitoring-technical-workflows.md)を参照してください。
 

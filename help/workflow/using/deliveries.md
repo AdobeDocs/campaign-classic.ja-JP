@@ -6,18 +6,18 @@ description: デフォルトの配信ワークフローの詳細を説明しま�
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '436'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7cd76b5a31ed9fc0e64a650316ea29293c628233
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 97%
 
 ---
 
 
 # 配信{#deliveries}
 
-以下に説明するワークフローは、デフォルトでインストールされます。
+以下に説明するワークフローは、デフォルトで&#x200B;**配信**&#x200B;モジュールと共にインストールされます。
 
 <table> 
  <tbody> 
@@ -37,7 +37,7 @@ ht-degree: 100%
    <td> システムアクティビティレポートを「請求」オペレーターにメールで送信します。デフォルトで、毎月 25 日にトリガーされます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">アクティブな請求プロファイルの数</span> <br /> </td> 
+   <td> <span class="uicontrol">請求 (アクティブなプロファイル)</span> <br /> </td> 
    <td> <span class="uicontrol">billingActiveContactCount</span> <br /> </td> 
    <td> <p>このワークフローは、アクティブなプロファイルの数をカウントします。デフォルトで、毎晩午前 1 時にトリガーされます。</p> <p>「<strong>プロファイル</strong>」とは、エンドユーザー、見込み客またはリードを表している情報のレコード（例：nmsRecipient テーブル内のレコードや、cookie ID、顧客 ID、モバイル ID、または特定のチャネルに関連するその他の情報が含まれている外部テーブル内のレコード）のことです。請求は「アクティブ」なプロファイルのみに関係します。過去 12 ヶ月以内にいずれかのチャネルでターゲットになるか通信がおこなわれたプロファイルは「アクティブ」とみなされます。</p> <p>ただし、Facebook および Twitter チャネルは考慮されません。</p> <p><span class="uicontrol">アクティブなプロファイルの数</span>の概要は、<span class="uicontrol">管理</span>／<span class="uicontrol">キャンペーン管理</span>／<span class="uicontrol">顧客指標</span>メニューから表示できます。</p> </td> 
   </tr> 
@@ -67,7 +67,7 @@ ht-degree: 100%
    <td> 承認されたオファーと、オファーカタログに含まれるすべてのカテゴリをオンライン環境にデプロイします。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">プレビュー</span> <br /> </td> 
+   <td> <span class="uicontrol">予測</span> <br /> </td> 
    <td> <span class="uicontrol">forecasting</span> <br /> </td> 
    <td> 暫定カレンダー（暫定ログを作成）に保存された配信を分析します。デフォルトで、毎日午前 1 時にトリガーされます。<br /> </td> 
   </tr> 

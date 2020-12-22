@@ -4,11 +4,11 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '250'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 588e1e465eb5ba06f3a7310f70fe958ec2ec334f
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 92%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 ![](platform/using/assets/do-not-localize/banner_acc_doc.jpg)
 
 ## 新着情報
+
+* **[誤ったハード](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> バウンスの削除Gmailの停止後に誤ったハードバウンスを更新する方法を説明します。
 
 * **[Adobe Experience Cloud Triggers 統合の更新](integrations/using/configuring-adobe-io.md)**<br/>レガシー oAuth 認証サービスが提供終了になりました。Adobe I/O に移行する方法を説明します
 
@@ -29,10 +31,7 @@ ht-degree: 100%
 * **[サポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)**<br/>
 FAQ、ベストプラクティス、ヘルプリソースにアクセスし、サポートをリクエストできます。
 
-* **[トラッキング機能](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html)**<br/>
-Campaign のトラッキング機能とプロセスについて説明します。
-
-[その他のアップデート](/help/rn/using/documentation-updates.md)
+[その他の更新](/help/rn/using/documentation-updates.md)
 
 ## トップページ
 
@@ -88,6 +87,6 @@ Campaign のトラッキング機能とプロセスについて説明します�
 | [ハウツービデオ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
 | [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Campaign の概要](platform/using/about-adobe-campaign-classic.md) | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/acc-implementation.html) |
-| [Gold Standard アップグレード](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
-| [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md) | [セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) |
+| [Gold Standard アップグレード](https://helpx.adobe.com/campaign/kb/gold-standard.html) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
+| [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md) | [セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/campaign/kb/acc-security.html) |
 | [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) | [監視のガイドライン](production/using/monitoring-guidelines.md) |

@@ -6,11 +6,11 @@ description: CRM コネクタ
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: ht
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c511c1ac4b9fccff30f73fcfd0db650d860514d2
+workflow-type: tm+mt
 source-wordcount: '2657'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -186,13 +186,13 @@ Adobe Campaign と連携するように Microsoft Dynamics コネクタを設定
 
    Adobe Campaign Classic は、Dynamics 365 REST インターフェイスと OAuth プロトコルによる認証をサポートしています。
 
-   **[!UICONTROL WebAPI]** デプロイメントを選択している場合は、Azure Directory にアプリを登録し、Azure Directory から **clientId** を取得する必要があります。この登録については、[このページ](https://docs.microsoft.com/ja-jp/previous-versions/dynamicscrm-2016/developers-guide/mt622431(v=crm.8)?redirectedfrom=MSDN)を参照してください。
+   **[!UICONTROL WebAPI]** デプロイメントを選択している場合は、Azure Directory にアプリを登録し、Azure Directory から **clientId** を取得する必要があります。この登録については、[このページ](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory)を参照してください。
 
    >[!NOTE]
    >
    >Adobe Campaign Classic では、redirectURL パラメーターは必須ではありません。
 
-   **clientId** 値は、付与タイプのパスワードを使用してベアラートークンを取得するために、ユーザー名やパスワードとともに使用します。この方式は、**リソース所有者パスワード資格情報付与（Resource Owner Password Credentials Grant）**&#x200B;と呼ばれます。詳しくは、[このページ](https://blogs.msdn.microsoft.com/wushuai/2016/09/25/resource-owner-password-credentials-grant-in-azure-ad-oauth/)を参照してください。
+   **clientId** 値は、付与タイプのパスワードを使用してベアラートークンを取得するために、ユーザー名やパスワードとともに使用します。この方式は、**リソース所有者パスワード資格情報付与（Resource Owner Password Credentials Grant）**&#x200B;と呼ばれます。詳しくは、[このページ](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth-ropc)を参照してください。
 
    ![](assets/crm_connectors_msdynamics_01_3.png)
 

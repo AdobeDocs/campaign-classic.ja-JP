@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
+source-git-commit: 26f232fafbcc39eb710135a1fc937e40a76ad0bd
 workflow-type: tm+mt
-source-wordcount: '2206'
-ht-degree: 100%
+source-wordcount: '2488'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,30 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
 
-## ![](assets/do-not-localize/green_2.png) リリース 20.2.3 - ビルド 9182 {#release-20-2-3-build-9182}
+## ![](assets/do-not-localize/green_2.png) リリース 20.2.4 - ビルド 9187 {#release-20-2-4-build-9187}
+
+_2020年12月22日_
+
+>[!CAUTION]
+>
+>このリリースには、新しい接続プロトコルが付属しています。 2020年3月22日以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるようにするには、アップグレードが必須です。
+
+**改善点**
+
+* 接続プロトコルは、新しいIMS認証メカニズムに従うように更新されました。
+* 元々oAUTH認証設定に基づいて統合認証をトリガーし、パイプラインにアクセスするための設定が変更され、Adobe I/Oに移動されました。[詳細](../../integrations/using/configuring-adobe-io.md)
+* iOS APNsレガシーバイナリプロトコルのサポートが終了した後は、アップグレード後に、このプロトコルを使用するすべてのインスタンスがHTTP/2プロトコルに更新されます。
+* サーバー側要求偽造(SSRF)の問題に対する保護を強化するためのセキュリティの問題を修正しました。 （NEO-27777）
+* 接続エラーが発生した後にSMPPコネクタの非アクティブ化が発生し、他のSMS配信が送信されず、パフォーマンスの問題が発生する問題を修正しました。 （NEO-28609）
+* 式パーサーをクリーニングする際にメモリの破損を防ぐことで、サーバーのクラッシュの問題を修正しました。（NEO-26856）
+* ワークフローの「**分割**」アクティビティの残りのターゲットデータを表示すると、サーバーがクラッシュする原因となった問題を修正しました。
+* 「**受信者**」（nms:recipient）以外のスキーマでクエリを行った後、SMS メッセージをプレビューしようとするとエラーメッセージが表示される場合がある問題を修正しました。（NEO-27517）
+* ホスト名で明示的に定義されたポート番号を持つHTTPS接続要求を行うと、証明書エラーが発生して呼び出しが失敗する問題を修正しました。 （NEO-29146）
+* POSIXスレッド管理で、マーケティングインスタンスに大きなコアダンプファイルが生成される問題を修正しました。 （NEO-28117、NEO-29281）
+* 配信の準備中、または配信のプレビューが繰り返し発生している場合に、Webプロセスがクラッシュする可能性がある問題を修正しました。 （NEO-27790、NEO-27517）
+* 管理者以外の演算子によってトリガーされた場合に、配信または配達確認の送信が失敗する問題を修正しました。 （NEO-28597）
+
+## ![](assets/do-not-localize/red_2.png) リリース 20.2.3 - ビルド 9182 {#release-20-2-3-build-9182}
 
 _2020 年 9 月 11 日_
 

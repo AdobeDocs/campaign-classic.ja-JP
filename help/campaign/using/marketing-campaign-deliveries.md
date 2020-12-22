@@ -6,11 +6,11 @@ description: マーケティングキャンペーン配信の詳細
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: ht
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
-source-wordcount: '3084'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+workflow-type: tm+mt
+source-wordcount: '3085'
+ht-degree: 99%
 
 ---
 
@@ -281,7 +281,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->キャンペーンプロセスに関連するテクニカルワークフローについて詳しくは、[キャンペーンプロセスのワークフローのリスト](../../workflow/using/campaign.md)で説明しています。
+>キャンペーンパッケージに関連するテクニカルワークフローは、[テクニカルワークフロー](../../workflow/using/about-technical-workflows.md)のリストで示されます。
 
 **手順 1 - ファイルの承認**
 
@@ -461,6 +461,6 @@ ht-degree: 100%
 
 このビデオでは、Adobe Campaign Classic でキャンペーンと E メールを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

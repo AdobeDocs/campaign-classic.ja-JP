@@ -6,11 +6,11 @@ description: ワークフローでの誕生日の E メールの送信方法を�
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: ht
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
-source-wordcount: '937'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 97%
 
 ---
 
@@ -204,7 +204,7 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 
 >[!CAUTION]
 >
->ワークフローを実行するには、キャンペーンプロセスに関するテクニカルワークフローを開始する必要があります。詳しくは、[キャンペーンプロセスのワークフローのリスト](../../workflow/using/campaign.md)の節を参照してください。
+>ワークフローを実行するには、キャンペーンパッケージに関連するテクニカルワークフローを起動する必要があります。 詳しくは、「[テクニカルワークフローのリスト](../../workflow/using/about-technical-workflows.md)」の節を参照してください。
 >
 >キャンペーンに対して承認手順が有効になっている場合は、これらの手順が確認された後でのみ配信されます。詳しくは、[承認するプロセスの選択](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved)の節を参照してください。
 

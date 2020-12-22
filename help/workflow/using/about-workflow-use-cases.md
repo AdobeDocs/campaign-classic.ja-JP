@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '195'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 97%
 
 ---
 
@@ -55,6 +55,7 @@ ht-degree: 100%
 * [Campaign コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
 * [Campaign コントロールパネルにインストールされたキーを使用したデータの暗号化とエクスポート](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [増分クエリを使用した四半期ごとのリストの更新](../../workflow/using/quarterly-list-update.md)
+* [重複排除 - 重複アクティビティの結合機能の使用](../../workflow/using/deduplication-merge.md)
 
 ## ターゲティング {#designing-queries}
 

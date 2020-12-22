@@ -5,11 +5,11 @@ title: 適切なオーディエンスの定義
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '474'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,10 @@ Campaign Classic では、配信テンプレートはデフォルトで&#x200B;*
 
 アドレスの重複は、送信レピュテーションを保護し、適切な強制隔離管理をおこなうためのものです。
 
-詳しくは、[この使用例](../../workflow/using/deduplication.md#example--identify-the-duplicates-before-a-delivery)を参照してください。
+**関連トピック：**
+
+* [重複排除 - 重複アクティビティ](../../workflow/using/deduplication.md)。
+* [使用例：重複排除 - 重複アクティビティの結合機能の使用](../../workflow/using/deduplication-merge.md)
 
 ## E メールアドレスのインデックス化 {#index-addresses}
 

@@ -6,11 +6,11 @@ description: ここでは、Adobe Campaign Classic のモバイルアプリチ�
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '756'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 >* 警告：国によっては、モバイルアプリケーションから収集するデータタイプとその処理の目的についてユーザーに知らせることが法律によって定められている場合があります。法律を確認する必要があります。
 
 
-**[!UICONTROL NMAC オプトアウト管理]**（mobileAppOptOutMgt）ワークフローにより、モバイルデバイスでの通知購読解除が更新されます。このワークフローについて詳しくは、[ワークフローガイド](../../workflow/using/mobile-app-channel.md)を参照してください。
+**[!UICONTROL NMAC オプトアウト管理]**（mobileAppOptOutMgt）ワークフローにより、モバイルデバイスでの通知購読解除が更新されます。このワークフローの詳細については、[テクニカルワークフローのリスト](../../workflow/using/about-technical-workflows.md)を参照してください。
 
 Adobe Campaign はバイナリと HTTP/2 APNs の両方に対応しています。設定手順の詳細については、[Adobe Campaign でのモバイルアプリケーションの設定](../../delivery/using/configuring-the-mobile-application.md)の節を参照してください。
 

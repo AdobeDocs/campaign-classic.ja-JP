@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
 workflow-type: tm+mt
 source-wordcount: '3930'
 ht-degree: 24%
@@ -206,7 +206,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>このオプションは、実行中の配信数をカウントする際に、<span class="uicontrol"><a href="../../workflow/using/campaign.md">operationMgt</a></span>テクニカルワークフローで使用されます。</p>これにより、非整合なステータスの配信が実行中の配信の数から除外される日数を定義できます。</p><p>デフォルトでは、この値は「7」に設定されているので、7日より古い配信との矛盾は除外されます。</p></td> 
+   <td><p>このオプションは、実行中の配信数をカウントする際に、<span class="uicontrol"><a href="../../workflow/using/about-technical-workflows.md">operationMgt</a></span>テクニカルワークフローで使用されます。</p>これにより、非整合なステータスの配信が実行中の配信の数から除外される日数を定義できます。</p><p>デフォルトでは、この値は「7」に設定されているので、7日より古い配信との矛盾は除外されます。</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -362,7 +362,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> <a href="../../workflow/using/campaign.md">operationMgt</a>技術的なワークフローの実行を監視できます。 アクティブ化されると（値"1"）、実行情報はワークフロー監査ログに記録されます。<br /> </td> 
+   <td> <a href="../../workflow/using/about-technical-workflows.md">operationMgt</a>技術的なワークフローの実行を監視できます。 アクティブ化されると（値"1"）、実行情報はワークフロー監査ログに記録されます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 

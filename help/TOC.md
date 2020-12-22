@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: c55897a4daf184b886d4e626d9216a4d43581ea1
 workflow-type: tm+mt
-source-wordcount: '2215'
-ht-degree: 99%
+source-wordcount: '2181'
+ht-degree: 98%
 
 ---
 
@@ -114,6 +114,8 @@ ht-degree: 99%
    + モバイルへのメッセージの送信 {#sending-messages-on-mobiles}
       + [SMS チャネル](delivery/using/sms-channel.md)
       + [LINE チャネル](delivery/using/line-channel.md)
+      + [SMSコネクタのプロトコルと設定](delivery/using/sms-protocol.md)
+      + [SMSのトラブルシューティング](delivery/using/troubleshooting-sms.md)
    + プッシュ通知の送信 {#sending-push-notifications}
       + [モバイルアプリチャネルについて](delivery/using/about-mobile-app-channel.md)
       + [Campaign SDK をモバイルアプリケーションに統合する](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
@@ -438,6 +440,8 @@ ht-degree: 99%
          + [サマリーリストの作成](workflow/using/creating-a-summary-list.md)
          + [データのエンリッチメント](workflow/using/enriching-data.md)
          + [集計の使用](workflow/using/using-aggregates.md)
+         + [重複排除 - 重複アクティビティの結合機能の使用](workflow/using/deduplication-merge.md)
+      + クエリのデザイン {#designing-queries}
          + [増分クエリを使用した四半期ごとのリストの更新](workflow/using/quarterly-list-update.md)
       + ターゲティング {#designing-queries}
          + [受信者テーブルに対するクエリ](workflow/using/querying-recipient-table.md)
@@ -461,26 +465,7 @@ ht-degree: 99%
       + [アクティビティ画像の管理](workflow/using/managing-activity-images.md)
       + [傾向の管理](workflow/using/managing-propensity.md)
       + [タイムゾーンの管理](workflow/using/managing-time-zones.md)
-   + テクニカルワークフロー {#technical-workflows}
-      + [テクニカルワークフローについて](workflow/using/about-technical-workflows.md)
-      + [配信](workflow/using/deliveries.md)
-      + [キャンペーン](workflow/using/campaign.md)
-      + [Web 分析](workflow/using/web-analytics.md)
-      + [分散型マーケティング](workflow/using/distributed-marketing.md)
-      + [配信品質の監視](workflow/using/email-deliverability.md)
-      + [受信ボックスレンダリング](workflow/using/inbox-rendering.md)
-      + [インタラクション](workflow/using/interaction.md)
-      + [オファーエンジンのコントロール](workflow/using/control-of-offer-engine.md)
-      + [Message Center（コントロール）](workflow/using/message-center--control-.md)
-      + [Message Center（実行）](workflow/using/message-center--execution-.md)
-      + [モバイルアプリチャネル](workflow/using/mobile-app-channel.md)
-      + [LINE チャネル](workflow/using/line-channel.md)
-      + [マーケティングリソース（MRM）](workflow/using/marketing-resources--mrm-.md)
-      + [ソーシャルマーケティング](workflow/using/social-marketing.md)
-      + [Adobe Experience Cloud ソリューションとの統合](workflow/using/integrations-with-adobe-experience-cloud-solutions.md)
-      + [プライバシーデータ保護規則](workflow/using/general-data-protection-regulation--gdpr-.md)
-      + [ミッドソーシング転送](workflow/using/transfer-to-mid-sourcing.md)
-      + [ミッドソーシングプラットフォーム](workflow/using/mid-sourcing-platform.md)
+      + [テクニカルワークフロー](workflow/using/about-technical-workflows.md)
 + オファーの管理 {#managing-offers}
    + インタラクションの基本を学ぶ {#interaction-overview}
       + [インタラクションとオファーの管理](interaction/using/interaction-and-offer-management.md)
@@ -619,7 +604,7 @@ ht-degree: 99%
       + [データベースの作成と設定](installation/using/creating-and-configuring-the-database.md)
       + [Campaign サーバーの設定](installation/using/campaign-server-configuration.md)
       + [インスタンスのデプロイ](installation/using/deploying-an-instance.md)
-      + [Campaign Classic 標準パッケージのインストール](installation/using/installing-campaign-standard-packages.md)
+      + [Campaign Classic組み込みパッケージのインストール](installation/using/installing-campaign-standard-packages.md)
    + 任意の追加設定 {#additional-configurations}
       + [Campaign サーバーの設定](installation/using/configuring-campaign-server.md)
       + [LDAP を介した接続](installation/using/connecting-through-ldap.md)

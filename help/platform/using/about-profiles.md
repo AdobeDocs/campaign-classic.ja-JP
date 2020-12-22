@@ -6,9 +6,9 @@ description: プロファイルについて
 audience: platform
 content-type: reference
 topic-tags: profile-management
-translation-type: ht
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 100%
 
@@ -105,7 +105,7 @@ Adobe Campaign エクスプローラーの一般的なレイアウトについ�
 >
 >ただし、Facebook および Twitter チャネルは考慮されません。
 
-**[!UICONTROL アクティブなプロファイルの数]**&#x200B;の概要は、Campaign Standard の&#x200B;**[!UICONTROL 管理／キャンペーン管理／顧客指標]**&#x200B;メニューから表示できます。実際のカウントは、**[!UICONTROL アクティブな請求プロファイルの数]**（**[!UICONTROL billingActiveContactCount]**）[テクニカルワークフロー](../../workflow/using/deliveries.md)がおこないます。このワークフローは毎日実行され、新しいデータを&#x200B;**[!UICONTROL 顧客指標]**&#x200B;メニューの現在の期間に対する既存のレポートに追加します。各期間は 12 か月続きます。
+**[!UICONTROL アクティブなプロファイルの数]**&#x200B;の概要は、Campaign Standard の&#x200B;**[!UICONTROL 管理／キャンペーン管理／顧客指標]**&#x200B;メニューから表示できます。実際のカウントは、**[!UICONTROL アクティブな請求プロファイルの数]**（**[!UICONTROL billingActiveContactCount]**）[テクニカルワークフロー](../../workflow/using/about-technical-workflows.md)がおこないます。このワークフローは毎日実行され、新しいデータを&#x200B;**[!UICONTROL 顧客指標]**&#x200B;メニューの現在の期間に対する既存のレポートに追加します。各期間は 12 か月続きます。
 
 ## チュートリアルビデオ {#create-profiles-video}
 
@@ -113,7 +113,7 @@ Adobe Campaign エクスプローラーの一般的なレイアウトについ�
 
 この動画では、Adobe Campaign Classic による一般データ保護規則（GDPR）の遵守についても説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 

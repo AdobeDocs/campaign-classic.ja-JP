@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 647a872d71d19802d7334a6e8f881f8d7ad94d13
+source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
 workflow-type: tm+mt
-source-wordcount: '3140'
-ht-degree: 99%
+source-wordcount: '3179'
+ht-degree: 98%
 
 ---
 
@@ -450,3 +450,7 @@ Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/us
 すると、ビューに表示される配信リストの内容は次のようなものになります。
 
 ![](assets/s_ncs_user_add_folder_exple02.png)
+
+>[!NOTE]
+>
+>[トランザクションメッセージング](../../message-center/using/about-transactional-messaging.md)イベントを管理する場合、**[!UICONTROL リアルタイムイベント]**&#x200B;または&#x200B;**[!UICONTROL バッチイベント]**&#x200B;フォルダーを実行インスタンス上の表示として設定しないでください。これは、正しいアクセスの問題を引き起こす可能性があります。 イベント収集について詳しくは、[このセクション](../../message-center/using/event-collection.md)を参照してください。

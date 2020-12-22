@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: b1d75ff748bab08b45c55621b63e7565564e113d
 workflow-type: tm+mt
-source-wordcount: '3684'
-ht-degree: 98%
+source-wordcount: '3745'
+ht-degree: 97%
 
 ---
 
@@ -28,6 +28,12 @@ ht-degree: 98%
 送信者のIPアドレスを配信ログに追加する方法について、使用例が追加されました。 [詳細を表示](../../delivery/using/delivery-dashboard.md#use-case)
 
 プライバシーFAQは[このセクション](../../platform/using/privacy-faq.md)に移動しました。
+
+重複排除 - 重複アクティビティの結合機能の使用方法に関する使用例が追加されました。 [詳細を表示](../../workflow/using/deduplication-merge.md)
+
+SMSコネクタのプロトコルと設定ページが[ここ](../../delivery/using/sms-protocol.md)に移動しました。
+
+アクセス権の問題を回避するために、イベントフォルダーを実行インスタンス上の表示ーとして設定してはならないという警告を表示するメモを、「トランザクションメッセージ」セクションに追加しました。 [詳細を表示](../../message-center/using/event-collection.md)
 
 ## 2020 年 11 月 {#nov-2020}
 

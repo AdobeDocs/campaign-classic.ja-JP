@@ -7,15 +7,26 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: cf4dbb59f7fb2df31ec3e034bb687e9a070c63bc
+source-git-commit: b6f0a3afd6e41f41730009c576ae77fa0a9897cb
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 100%
+source-wordcount: '1376'
+ht-degree: 95%
 
 ---
 
 
 # リリース 19.2{#release-19-2}
+
+## ![](assets/do-not-localize/limited_2.png) リリース 19.2.4 - ビルド 9082 {#release-19-2-4-build-9082}
+
+_2020年12月23日_
+
+>[!CAUTION]
+>
+>このリリースには、新しい接続プロトコルが付属しています。 2020年3月22日以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるようにするには、アップグレードが必須です。
+
+* 接続プロトコルは、新しいIMS認証メカニズムに従うように更新されました。
+* サーバー側要求偽造(SSRF)の問題に対する保護を強化するためのセキュリティの問題を修正しました。 （NEO-27777）
 
 ## ![](assets/do-not-localize/red_2.png) リリース 19.2.3 - ビルド 9081 {#release-19-2-3-build-9081}
 

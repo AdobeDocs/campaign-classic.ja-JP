@@ -10,10 +10,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 97%
+source-wordcount: '469'
+ht-degree: 69%
 
 ---
 
@@ -30,29 +30,24 @@ ht-degree: 97%
 
 この実装を開始する前に、以下の点を確認してください。
 
-* 有効な IMSOrgID：Identity Management システム（IMS）の組織識別子は、Adobe Experience Cloud 内の一意の識別子です。この識別子は、VisitorID サービスや IMS シングルサインオン（SSO）などに使用されます。
-* IMS 組織へのデベロッパーアクセス権。
-
->[!NOTE]
+* 有効な&#x200B;**組織識別子**:identity managementシステム(IMS)の組織識別子は、Adobe Experience Cloud内の一意の識別子で、VisitorIDサービスやIMSシングルサインオン(SSO)などに使用されます。 [詳細情報](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)
+* 組織への&#x200B;**開発者アクセス**。  [このページ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html)で説明する手順に従い、すべての製品プロファイルに関してこのアクセス権を提供するには、IMS 組織のシステム管理者権限をリクエストする必要があります。
 >
->[このページ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/jp/enterprise/using/manage-developers.ug.html)で説明する手順に従い、すべての製品プロファイルに関してこのアクセス権を提供するには、IMS 組織のシステム管理者権限をリクエストする必要があります。
-
-
 ## 手順 1：Adobe I/O プロジェクトの作成と更新 {#creating-adobe-io-project}
 
-1. Adobe I/O にアクセスし、IMS 組織のシステム管理者権限でログインします。
+1. Adobe I/Oにアクセスし、IMS組織のシステム管理者権限でログインします。
 
    >[!NOTE]
    >
-   > 正しい IMSorg ポータルにログインしていることを確認します。
+   > 正しい組織ポータルにログインしていることを確認します。
 
-1. 既存の統合クライアント ID をインスタンス設定ファイル（ims/authIMSTAClientId）から抽出します。属性が存在しないか空の場合は、クライアント ID が設定されていません。
+1. 既存の統合クライアント ID をインスタンス設定ファイル（ims/authIMSTAClientId）から抽出します。既存の属性または空の属性は、クライアント識別子が設定されていないことを示します。
 
    >[!NOTE]
    >
-   >クライアント ID が空の場合は、Adobe I/O で直接&#x200B;**[!UICONTROL 新しいプロジェクトを作成]**&#x200B;できます。
+   >クライアントIDが空の場合は、直接&#x200B;**[!UICONTROL 新しいプロジェクト]**&#x200B;をAdobe I/Oに作成できます。
 
-1. 抽出したクライアント ID を使用して、既存のプロジェクトを識別します。 前の手順で抽出されたものと同じクライアント ID を持つ既存のプロジェクトを探します。
+1. 抽出したクライアント識別子を使用して、既存のプロジェクトを識別します。 前の手順で抽出したものと同じクライアント識別子を持つ既存のプロジェクトを探します。
 
    ![](assets/do-not-localize/adobe_io_8.png)
 

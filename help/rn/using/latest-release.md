@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 787beef89325340cc1d46faa03e9cfae7f1c705c
+source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
-source-wordcount: '1856'
-ht-degree: 98%
+source-wordcount: '1879'
+ht-degree: 97%
 
 ---
 
@@ -65,6 +65,10 @@ _2020 年 10 月 27 日_
 </tbody> 
 </table>
 
+>[!CAUTION]
+>
+>このリリースには、新しい接続プロトコルが付属しています。2021年3月22日以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるようにするには、アップグレードが必須です。
+
 **セキュリティの機能強化**
 
 * ライブラリの安全な読み込み：Campaign では、DLL プリロード攻撃から保護するために、Campaign クライアント（nlclient）の読み込み中に Windows のデフォルトのシステム DLL パスからのみ Windows DLL を読み込むようになりました。[詳細情報](https://support.microsoft.com/ja-jp/help/2389418/secure-loading-of-libraries-to-prevent-dll-preloading-attacks)（NEO-24147）
@@ -94,11 +98,7 @@ Campaign で次のシステムがサポートされるようになりました�
 **改善点**
 
 * **クライアントコンソール**&#x200B;には、次の改善点が追加されました。
-   * 接続プロトコルは、新しいIMS認証メカニズムに従うように更新されました。
-
-      >[!CAUTION]
-      >
-      >接続プロトコルの更新後、2020年3月21日から接続するには、アップグレードが必須（サーバーとコンソール）です。
+   * 接続プロトコルは、新しいIMS認証メカニズムに従うように更新されました。 2021年3月22日以降は、Server ConsoleおよびClient Consoleのアップグレードは接続可能にする必要があります。
    * インターネットセキュリティ GPO ルールの一部の制限との非互換性を防ぐため、Campaign クライアントコンソールのログオン画面は組み込みの標準 Windows フォームに置き換えられました。
    * 64 ビットのクライアントコンソールを使用したワークフローで、アクティビティのコピー/貼り付けをおこなうときの問題を修正しました。（NEO-27635）
    * **バージョン情報**&#x200B;メニューに、64 ビットと 32 ビットのコンソールを区別するための情報が追加されました。

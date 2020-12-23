@@ -9,8 +9,8 @@ topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
 source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

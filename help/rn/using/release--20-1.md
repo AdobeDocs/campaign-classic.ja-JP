@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 8d4fd855df2f373c2684fd8dfaf54ffe42e196f1
+source-git-commit: d7c590333b03b2448d37e58e194f3b9d1383fbb7
 workflow-type: tm+mt
 source-wordcount: '1403'
 ht-degree: 96%
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 ## ![](assets/do-not-localize/limited_2.png) リリース 20.1.4 - ビルド 9126 {#release-20-1-4-build-9126}
 
-_2020年12月24日_
+_2020年12月23日_
 
 >[!CAUTION]
 >

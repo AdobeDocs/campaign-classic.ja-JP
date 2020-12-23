@@ -6,11 +6,11 @@ description: 統合の設定
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
+workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 お使いのバージョンの Adobe Campaign Classic はパイプラインをサポートしていません。
 
 1. 設定ファイル内に [!DNL pipelined] 要素が存在するかどうかを確認します。存在しない場合は、パイプラインはサポートされていません。
-1. バージョン 6.11 ビルド 8705 以降にアップグレードします。
+1. キャンペーン20.3またはGold Standard 11にアップグレードします。
 
 **`[` `{`パイプライン化されたプロセスが失敗し、「aurait dû commencer par ou (iRc=16384)」と表示される**
 
@@ -31,7 +31,7 @@ JSON 設定を **NmsPipeline_Config** オプションで指定します。この
 
 **パイプライン化されたプロセスが失敗し、「the subject must be a valid organization or client」（件名は有効な組織またはクライアントにする必要があります）と表示される**
 
-IMSOrgid 設定が無効です。
+組織識別子の構成が無効です。
 
 1. IMSOrgId が serverConf.xml で設定されていることを確認します。
 1. デフォルトを上書きできる空の IMSOrgId をインスタンス設定ファイル内で探します。該当する場合は、削除します。
@@ -85,4 +85,4 @@ Analytics のタイムスタンプが、Campaign でのイベントの作成日�
 1. 再試行の原因となる可能性のあるエラーを pipelined.log で探します。該当する場合は、エラーを修正します。
 1. [!DNL pipelined] ステータスページでキューのサイズを確認します。キューのサイズが大きい場合は、JS のパフォーマンスを向上させます。
 1. ボリュームに伴って遅延が増加するようなので、メッセージを少なくして Analytics にトリガーを設定します。
-付録
+

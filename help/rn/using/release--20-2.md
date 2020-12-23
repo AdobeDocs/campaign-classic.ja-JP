@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 26f232fafbcc39eb710135a1fc937e40a76ad0bd
+source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
 source-wordcount: '2488'
 ht-degree: 91%
@@ -25,7 +25,7 @@ _2020年12月22日_
 
 >[!CAUTION]
 >
->このリリースには、新しい接続プロトコルが付属しています。 2020年3月22日以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるようにするには、アップグレードが必須です。
+>このリリースには、新しい接続プロトコルが付属しています。 2021年3月22日以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるようにするには、アップグレードが必須です。
 
 **改善点**
 

@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9c78d8f469bade41717eb854e8cec00859c1d4e3
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 2%
@@ -75,23 +75,23 @@ Linuxでアクセス可能な通常の管理コマンドのリストを以下に
    **nlserver再起動web**
 
    >[!NOTE]
-   > 
-   >    * インスタンスを指定しない場合は、「デフォルト」のインスタンスが使用されます。
-   >    * 緊急時のイベントでは、**-immediate**&#x200B;オプションを使用して、プロセスを即時に停止します（Unixコマンド&#x200B;**kill -9**&#x200B;と同じ）。
-   >    * **-noconsole**&#x200B;オプションを使用して、起動したモジュールがコンソールに何も表示しないようにします。 ログは&#x200B;**syslogd**&#x200B;モジュールを介してディスクに書き込まれます。
-   >    * **-verbose**&#x200B;オプションを使用して、プロセスアクションに関する追加情報を表示します。
+   >
+   >* インスタンスを指定しない場合は、「デフォルト」のインスタンスが使用されます。
+   >* 緊急時のイベントでは、**-immediate**&#x200B;オプションを使用して、プロセスを即時に停止します（Unixコマンド&#x200B;**kill -9**&#x200B;と同じ）。
+   >* **-noconsole**&#x200B;オプションを使用して、起動したモジュールがコンソールに何も表示しないようにします。 ログは&#x200B;**syslogd**&#x200B;モジュールを介してディスクに書き込まれます。
+   >* **-verbose**&#x200B;オプションを使用して、プロセスアクションに関する追加情報を表示します。
 
-      >    
-      >      
+      >
+      >   
       例：
-      >    
-      >      
+      >
+      >   
       **nlserver再起動web - verbose**
-      >    
-      >      
+      >
+      >   
       **nlserver開始mta@myinstance -verbose**
-      >    
-      >      
+      >
+      >   
       このオプションは、ログを追加します。 必要な情報が見つかったら、**-verbose**&#x200B;オプションを使用せずにプロセスを再び開始し、ログのオーバーロードを防ぐことをお勧めします。
 
 

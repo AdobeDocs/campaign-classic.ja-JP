@@ -6,9 +6,9 @@ description: Twitter へのパブリッシュ
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
 ht-degree: 100%
 

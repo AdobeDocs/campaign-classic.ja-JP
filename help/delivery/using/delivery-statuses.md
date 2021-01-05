@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: 配信ステータス
-description: 配信ダッシュボードで使用できるステータスについての詳細。
+description: 配信ダッシュボードで使用できるステータスについて確認します。
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: de0e4555d3e2c5dff8d86a22ff4db85953105db1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 79%
 
 ajouter screenshot -->
 
-配信の送信が完了すると、配信ダッシュボードにステータスが表示され、送信が成功したかどうかを監視できます。 可能なステータスについては、次の節で詳しく説明します。
+配信の送信が完了すると、配信ダッシュボードにステータスが表示され、送信が成功したかどうかを監視できます。可能なステータスについては、次の節で詳しく説明します。
 
 ![](assets/delivery-status.png)
 
@@ -53,7 +53,7 @@ ajouter screenshot -->
   </tr> 
   <tr> 
    <td> 失敗<br /> </td> 
-   <td> 無効なアドレスやインボックスが満杯であることが原因で、配信は受信者に到達できませんでした。パーソナライゼーションブロックの問題に関係していることもあり、その場合、スキーマが配信マッピングと一致しないとエラーが生成されます。<a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">配信エラーについて</a><br />を参照 </td> 
+   <td> 無効なアドレスやインボックスが満杯であることが原因で、配信は受信者に到達できませんでした。パーソナライゼーションブロックの問題に関係していることもあり、その場合、スキーマが配信マッピングと一致しないとエラーが生成されます。<a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">配信エラーの理解</a><br />を参照してください。 </td> 
   </tr>
   <tr> 
    <td> 保留中<br /> </td> 
@@ -103,7 +103,7 @@ Adobe Campaign E メールの配信品質の最適化方法について詳しく
 
    >[!NOTE]
    >
-   >この操作は、キャンペーンサーバーにアクセスして、**オンプレミス**&#x200B;または&#x200B;**ハイブリッド**&#x200B;ホスティングモデルで実行できます（[ホスティングモデル](../../installation/using/hosting-models.md)を参照）。
+   >この操作は、Campaign サーバーにアクセスして、**オンプレミス**&#x200B;または&#x200B;**ハイブリッド**&#x200B;ホスティングモデルで実行できます（[ホスティングモデル](../../installation/using/hosting-models.md)を参照）。
 
    1. MTA サーバーで `mta@<instance>` モジュールが起動されていることを確認します。
 
@@ -129,11 +129,11 @@ Adobe Campaign E メールの配信品質の最適化方法について詳しく
 
    この場合は、トラフィック管理（IP アフィニティ）の設定をチェックし、「**[!UICONTROL IP アドレスを使用してアフィニティを管理する]**」フィールドを使用して、アフィニティを管理する MTA に配信をリンクします。アフィニティについて詳しくは、[この節](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)を参照してください。
 
-* 実行中のキャンペーンが多すぎる場合、配信ステータスは「保留」のままです。
+* 実行中のキャンペーンが多すぎる場合、配信ステータスは「保留」のままになります。
 
-   同時キャンペーンの制限は、**[!UICONTROL NmsOperation_LimitConcurrency]**&#x200B;オプションで定義されます。 デフォルト値は 10 です。
+   同時キャンペーンの制限は、**[!UICONTROL NmsOperation_LimitConcurrency]** オプションで定義されます。デフォルト値は 10 です。
 
-   [このページ](../../installation/using/configuring-campaign-options.md)のオプションの詳細。
+   オプションについて詳しくは、[このページ](../../installation/using/configuring-campaign-options.md)を参照してください。
 
 
 **関連トピック：**

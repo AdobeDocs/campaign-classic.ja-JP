@@ -6,11 +6,11 @@ description: 配信レポート
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1628'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 97%
 
 ![](assets/s_ncs_user_url_report.png)
 
-このレポートのコンテンツは、次を選択して設定できます。表示されるスコアグラフ、（アクションの開始以降、起動後の最初の6時間以内）時間フィルター、およびデータ表示モード(ラベル別、URL別、カテゴリ別) 「**[!UICONTROL 更新]**」をクリックして選択内容を確定します。
+このレポートの内容は、表示するスコアグラフ、時間フィルター（アクション開始以降、開始後の最初の 6 時間、など）およびデータの表示モード（ラベル別、URL 別、カテゴリ別）を選択することによって設定できます。「**[!UICONTROL 更新]**」をクリックして選択内容を確定します。
 
 次の率は、レポートの上部に表示されます。
 

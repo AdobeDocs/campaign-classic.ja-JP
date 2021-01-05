@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: b1d75ff748bab08b45c55621b63e7565564e113d
+source-git-commit: 88172a79aad37e6a311b144f4ea685bb4846825b
 workflow-type: tm+mt
-source-wordcount: '3745'
-ht-degree: 97%
+source-wordcount: '3831'
+ht-degree: 96%
 
 ---
 
@@ -21,13 +21,23 @@ ht-degree: 97%
 
 その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
 
+## 2021 年 1 月{#jan,2021}
+
+**[!UICONTROL Fork]**&#x200B;アクティビティセクションは、追加情報で強化されました。 アウトバウンドトランジションは同時に実行されないため、ワークフローのパフォーマンスを向上させるためにアクティビティを使用しないことを示す注記を追加しました。 [詳細を表示](../../workflow/using/fork.md)
+
+「Tomcatのバージョンの検索」セクションは、[ここ](../../production/using/locate-tomcat-version.md)に移動されました。
+
+テクニカルワークフローと関連するパッケージのリストが、1つのページに再編成されました。 [詳細を表示](../../workflow/using/about-technical-workflows.md)
+
+監視ガイドのトラブルシューティングの節は、ランディングページを使用して再構成および拡張されました。 [詳細を表示](../../production/using/troubleshooting.md)。
+
 ## 2020 年 12 月 {#dec-2020}
 
-「配信の監視」セクションは、主題に関するトピックに再編成されました。 [詳細を表示](../../delivery/using/about-delivery-monitoring.md)
+「配信の監視」節は、主題に関するトピックごとに再編成されました。[詳細を表示](../../delivery/using/about-delivery-monitoring.md)
 
-送信者のIPアドレスを配信ログに追加する方法について、使用例が追加されました。 [詳細を表示](../../delivery/using/delivery-dashboard.md#use-case)
+送信者の IP アドレスを配信ログに追加する方法について、使用例が追加されました。[詳細を表示](../../delivery/using/delivery-dashboard.md#use-case)
 
-プライバシーFAQは[このセクション](../../platform/using/privacy-faq.md)に移動しました。
+プライバシー FAQ は[この節](../../platform/using/privacy-faq.md)に移動しました。
 
 重複排除 - 重複アクティビティの結合機能の使用方法に関する使用例が追加されました。 [詳細を表示](../../workflow/using/deduplication-merge.md)
 
@@ -45,7 +55,7 @@ Campaign Federated Data Access（FDA）のドキュメントが改善され、�
 
 [Campaign 20.2.3 リリース](../../rn/using/release--20-2.md#release-20-2-3-build-9182)は一般提供（GA）に移行しました。
 
-プライバシー節は移動し、[プライバシー管理](../../platform/using/privacy-management.md) および[プライバシーリクエストの管理](../../platform/using/privacy-requests.md)の 2 つの新しいページが追加されました。
+プライバシー節は移動し、[プライバシー管理](../../platform/using/privacy-management.md)および[プライバシーリクエストの管理](../../platform/using/privacy-requests.md)の 2 つの新しいページが追加されました。
 
 ミッドソーシングサーバーの設定ページに、外部アカウントの内部名を設定した後に更新しないように明記する注記が追加されました。[詳細を表示](../../installation/using/mid-sourcing-server.md)
 
@@ -149,7 +159,7 @@ FTP サーバーに接続した後に「ホスト名を解決できませんで�
 
 Campaign Classic の監視に関するガイドラインを含む新しい節を追加しました。[詳細を表示](../../production/using/monitoring-guidelines.md)
 
-プライバシーと同意の節が強化され、より詳細な情報と役に立つリンクが追加されました。[詳細を表示](../../platform/using/privacy-and-recommendations.md)。
+プライバシーと同意の節が強化され、より詳細な情報と役に立つリンクが追加されました。[詳細を表示](../../platform/using/privacy-and-recommendations.md)
 
 Campaign Classic のプライバシー管理ページが更新され、「規則」フィールドに関する情報が追加されました。このフィールドは、自動プライバシーリクエストプロセスを設定する API を使用する場合に利用できます。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
@@ -347,7 +357,7 @@ Adobe Campaign Classic データモデルの基本を説明する新しいドキ
 
 logon() および query() で **HttpServletRequest** を使用する API 呼び出しの例が更新されました。[詳細を表示](../../configuration/using/web-service-calls.md)。
 
-スキーマ定義の **sqlDefault** 属性に関する推奨事項が追加されました。[詳細を表示](../../configuration/using/schema/attribute.md)).
+スキーマ定義の **sqlDefault** 属性に関する推奨事項が追加されました。[詳細を表示](../../configuration/using/schema/attribute.md)）。
 
 Adobe Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（CDP）の統合については、**Adobe Experience Cloud との統合**&#x200B;ガイドで参照されるようになりました。[詳細を表示](../../integrations/using/about-campaign-integrations.md)。
 

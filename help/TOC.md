@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: c55897a4daf184b886d4e626d9216a4d43581ea1
+source-git-commit: 404ff67207f8c126e44736fe565cf57afcc6397e
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2202'
 ht-degree: 98%
 
 ---
@@ -669,23 +669,31 @@ ht-degree: 98%
       + [メンテナンスのタイプ](production/using/types-of-maintenance.md)
       + [RDBMS に関する推奨事項](production/using/rdbms-specific-recommendations.md)
       + [アプリケーションオブジェクト](production/using/application-objects.md)
-   + トラブルシューティング {#troubleshooting}
-      + [パフォーマンスとスループットの問題](production/using/performance-and-throughput-issues.md)
-      + [画像が見つからない](production/using/images-missing.md)
-      + [画像の表示の問題](production/using/image-display-issues.md)
-      + [一時ファイル](production/using/temporary-files.md)
-      + [データベースのパフォーマンス](production/using/database-performances.md)
-      + [モジュールおよびよくある問題](production/using/modules-and-frequent-issues.md)
-      + [ログの精度](production/using/log-precision.md)
-      + [トラッキングログの問題](production/using/tracking-logs-issues.md)
-      + [ワークフローの実行](production/using/workflow-execution.md)
-      + [接続の失敗](production/using/failure-to-connect.md)
-      + [接続のしきい値](production/using/connection-thresholds.md)
-      + [Linux でのスタックトレース](production/using/stack-trace-in-linux.md)
-      + [Oracle データベースのエンコード](production/using/encoding-of-the-oracle-database.md)
-      + [コンソールの更新](production/using/console-update.md)
-      + [パスワードを忘れた場合](production/using/lost-password.md)
-      + [JSP の動作](production/using/jsp-behavior.md)
+   + トラブルシューティング {#troubleshooting-toc}
+      + [実稼働環境のトラブルシューティングの概要](production/using/troubleshooting.md)
+      + 一般的な問題と一般的な問題{#common-general-issues-toc}
+         + [モジュールおよびよくある問題](production/using/modules-and-frequent-issues.md)
+         + [ワークフローの実行](production/using/workflow-execution.md)
+         + [パスワードを忘れた場合](production/using/lost-password.md)
+         + [コンソールの更新](production/using/console-update.md)
+      + 配信のトラブルシューティング {#delivery-troubleshooting-toc}
+         + [パフォーマンスとスループットの問題](production/using/performance-and-throughput-issues.md)
+         + [画像の表示の問題](production/using/image-display-issues.md)
+         + [画像が見つからない](production/using/images-missing.md)
+         + [一時ファイル](production/using/temporary-files.md)
+      + ログの操作{#working-with-log-toc}
+         + [ログの精度](production/using/log-precision.md)
+         + [トラッキングログの問題](production/using/tracking-logs-issues.md)
+      + データベースの問題{#database-issues-toc}
+         + [データベースのパフォーマンス](production/using/database-performances.md)
+         + [Oracle データベースのエンコード](production/using/encoding-of-the-oracle-database.md)
+      + 接続の強化{#connection-improvements-toc}
+         + [接続の失敗](production/using/failure-to-connect.md)
+         + [接続のしきい値](production/using/connection-thresholds.md)
+      + 技術的なトラブルシューティング{#technical-troubleshooting-toc}
+         + [Linux でのスタックトレース](production/using/stack-trace-in-linux.md)
+         + [JSP の動作](production/using/jsp-behavior.md)
+         + [Tomcatバージョンの検索](production/using/locate-tomcat-version.md)
 + 開発者ガイド {#configuring-campaign-classic}
    + データモデル {#data-model}
       + [データモデルについて](configuration/using/about-data-model.md)
@@ -698,21 +706,21 @@ ht-degree: 98%
       + 要素と属性 {#elements-attributes}
          + [はじめに](configuration/using/schema-introduction.md)
          + [属性](configuration/using/schema/attribute.md)
-         + [計算文字列](configuration/using/schema/compute-string.md)
+         + [文字列を計算](configuration/using/schema/compute-string.md)
          + [条件](configuration/using/schema/condition.md)
-         + [DBインデックス](configuration/using/schema/db-index.md)
+         + [DB インデックス](configuration/using/schema/db-index.md)
          + [要素](configuration/using/schema/element.md)
          + [列挙](configuration/using/schema/enumeration.md)
          + [ヘルプ](configuration/using/schema/help.md)
          + [結合](configuration/using/schema/join.md)
          + [キー](configuration/using/schema/key.md)
-         + [Keyfield](configuration/using/schema/keyfield.md)
+         + [キーフィールド](configuration/using/schema/keyfield.md)
          + [方法](configuration/using/schema/method.md)
          + [メソッド](configuration/using/schema/methods.md)
-         + [パラメータ](configuration/using/schema/param.md)
+         + [パラメーター](configuration/using/schema/param.md)
          + [パラメーター](configuration/using/schema/parameters.md)
-         + [SrcSchema](configuration/using/schema/srcschema.md)
-         + [Sysfilter](configuration/using/schema/sysfilter.md)
+         + [ソーススキーマ](configuration/using/schema/srcschema.md)
+         + [システムフィルター](configuration/using/schema/sysfilter.md)
          + [値](configuration/using/schema/value.md)
    + スキーマの編集 {#editing-schemas}
       + [スキーマエディションについて](configuration/using/about-schema-edition.md)

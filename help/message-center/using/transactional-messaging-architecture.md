@@ -6,11 +6,11 @@ description: ここでは、Adobe Campaign Classic トランザクションメ�
 audience: message-center
 content-type: reference
 topic-tags: introduction
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1114'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d45f393083ec540025a9e001b089a8b1241a8c99
+workflow-type: tm+mt
+source-wordcount: '1151'
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,15 @@ Adobe Campaign のトランザクションメッセージ機能（Message Center
 
 ## 配信チャネルの追加 {#adding-a-delivery-channel}
 
-配信チャネル（モバイルチャネル、モバイルアプリチャネルなど）の追加は、トランザクションメッセージパッケージのインストール前におこなう必要があります。E メールチャネルのトランザクションメッセージプロジェクトを開始し、プロジェクトの最中に新規でチャネルを追加することにした場合は、次の手順に従います。
+配信チャネル（モバイルチャネル、モバイルアプリチャネルなど）の追加は、トランザクションメッセージパッケージのインストール前におこなう必要があります。
+
+Adobeでは、配信チャネルパッケージをインストールする前に、必ずトランザクションメッセージパッケージを追加することをお勧めします。
+
+ただし、電子メールチャネルでトランザクションメッセージングプロジェクトを開始し、プロジェクト中に新しいチャネルを追加するかどうかを決定した場合は、次の手順に従うことができます。
+
+>[!NOTE]
+>
+>この手順は、作業中のマシンと同じマシンにインストールされたWindows NLServerを使用しているお客様にのみ適用されます。
 
 1. パッケージインポートウィザードを使用し、追加したいチャネル、例えば&#x200B;**モバイルチャネル**&#x200B;をインストールします（**[!UICONTROL ツール／詳細設定／パッケージをインポート／Adobe Campaign パッケージ]**）。
 1. ファイルをインポートし（**[!UICONTROL ツール／詳細設定／パッケージをインポート／ファイル]**）、**datakitnms **`[Your language]`**packagemessageCenter.xml** ファイルを選択します。

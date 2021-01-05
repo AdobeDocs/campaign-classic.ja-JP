@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 7%
@@ -17,13 +17,13 @@ ht-degree: 7%
 
 # パフォーマンスとスループットの問題{#performance-and-throughput-issues}
 
->[!NOTE]
->
->まず、最新のビルドがインストールされていることを確認してください。 これにより、最新の機能とバグ修正を確実に行うことができます。 各リリースの内容の詳細については、[リリースノート](../../rn/using/latest-release.md)を参照してください。
+まず、最新のビルドがインストールされていることを確認してください。 これにより、最新の機能とバグ修正を確実に行うことができます。
+
+各リリースの内容の詳細については、[リリースノート](../../rn/using/latest-release.md)を参照してください。
 
 ## ハードウェアとインフラストラクチャ{#hardware-and-infrastructure}
 
-オンプレミスCampaign Classicのハードウェア要件に関する一般的なガイドラインは、この[記事](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)で詳しく説明しています。
+オンプレミスCampaign Classicのハードウェア要件に関する一般的なガイドラインは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)で詳しく説明しています。
 
 コンサルティングチームは、ホストするお客様に対して、データベース内の様々なタイプのテーブルで使用されている領域とSFTPサイトで使用されている領域を簡単に表示できるツールを提供できます。 また、不要なデータをクリーンアップするためのツールも提供されています。 このツールを実装する必要がある場合は、コンサルティングチームまたはサポートチームにお問い合わせください。 このツールを使用して、次の点を確認してください。
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 Adobe Campaignは、CPUとRAMの使用状況をチェックする[ツール](../../production/using/monitoring-processes.md#manual-monitoring)も提供します。 このツールを使用して、次のような特定のインジケーターを確認します。**メモリ**、**スワップメモリ**、**ディスク**、**アクティブプロセス**。 値が大きすぎる場合は、ワークフローの数を減らしたり、スケジュールワークフローを異なる時間に開始に変更したりできます。
 
-## データベースのパフォーマンス {#database-performances}
+## データベースチェック{#database-performances}
 
 ほとんどの場合、パフォーマンスの問題はデータベースのメンテナンスに関連しています。 確認する主な項目は次のとおりです。
 
@@ -68,4 +68,3 @@ Adobe Campaignは、CPUとRAMの使用状況をチェックする[ツール](../
 >[!NOTE]
 >
 >「[配信品質の重要点](../../delivery/using/deliverability-key-points.md)」も参照してください。
-

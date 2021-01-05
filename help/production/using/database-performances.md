@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 8%
 
 パフォーマンスの問題のほとんどは、データベースのメンテナンスに関連しています。 パフォーマンスの低下の原因を特定する際に役立つ主な4つのリードを示します。
 
-* 設定,
-* Adobe Campaignプラットフォームのインストールと設定、
-* データベースのメンテナンス,
-* リアルタイム診断。
+* 設定
+* Adobe Campaignプラットフォームのインストールと設定
+* データベースのメンテナンス
+* リアルタイム診断
 
 ## 設定 {#configuration}
 

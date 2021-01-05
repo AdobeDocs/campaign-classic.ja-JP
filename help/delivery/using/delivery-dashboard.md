@@ -6,11 +6,11 @@ description: 配信ダッシュボードを使用して配信を監視する方�
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c82e30cdc1057be6357d48170b959fb89c79528
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 50%
 
 **配信ダッシュボード**&#x200B;は、配信と、メッセージの送信時に結果として起こる問題を監視するための重要な要素です。
 
-配信の情報を取得し、必要に応じて編集できます。 配信の送信後、タブの内容が変更されなくなる場合があります。
+配信の情報を取得し、必要に応じて編集できます。配信を送信すると、タブのコンテンツは変更できません。
 
 ダッシュボードで使用可能ないくつかのタブを使用して監視できる情報は、次のとおりです。
 
@@ -45,9 +45,9 @@ ht-degree: 50%
 
 ## 配信レポート {#delivery-reports}
 
-**[!UICONTROL 「レポート]**」リンクは、**[!UICONTROL 「概要]**」タブからアクセスでき、配信操作に関連するレポートのセットを確認できます。一般配信レポート、詳細レポート、配信レポート、失敗したメッセージの配信、開始率、クリック数、トランザクション数など
+「**[!UICONTROL レポート]**」リンクは、「**[!UICONTROL 概要]**」タブからアクセスでき、一般配信レポート、詳細レポート、配信レポート、失敗したメッセージの配信、開封率、クリック数、トランザクション数などの、配信操作に関連するレポートのセットを確認できます。
 
-このタブの内容は、必要に応じて設定できます。 配信レポートの詳細については、[この](../../reporting/using/delivery-reports.md)を参照してください。
+このタブの内容は、必要に応じて設定できます。配信レポートについて詳しくは、[この節](../../reporting/using/delivery-reports.md)を参照してください。
 
 ![](assets/delivery-report.png)
 
@@ -59,7 +59,7 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->配信ログを表示するリストは、Campaign Classic内の任意のリストと同様にカスタマイズできます。 例えば、配信で各電子メールに送信したIPアドレスを示す列を追加できます。 詳しくは、[このセクション](#use-case)で詳しく説明している使用事例を参照してください。
+>配信ログを表示するリストは、Campaign Classic 内の任意のリストと同様にカスタマイズできます。例えば、配信で各 E メールを送信した IP アドレスを示す列を追加できます。詳しくは、[この節](#use-case)で詳しく説明している使用事例を参照してください。
 
 ![](assets/s_ncs_user_delivery_delivery_tab.png)
 
@@ -75,7 +75,7 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->配信の追跡が有効になっていない場合、このタブは表示されません。
+>配信トラッキングが有効になっていない場合、このタブは表示されません。
 
 トラッキング設定は、配信ウィザードの適切なステージで実行されます。[トラッキングするリンクの設定方法](../../delivery/using/how-to-configure-tracked-links.md)を参照してください。
 
@@ -85,11 +85,11 @@ ht-degree: 50%
 
 ## 受信ボックスレンダリング {#delivery-rendering}
 
-「**[!UICONTROL インボックスレンダリング]**」タブを使用すると、メッセージを受信する別のコンテキストにプレビューし、主要なデスクトップおよびアプリケーションでの互換性を確認できます。
+「**[!UICONTROL 受信ボックスレンダリング]**」タブにより、異なるコンテキストで受信される可能性のある送信済みのメッセージをプレビューして、メジャーなデスクトップおよびアプリケーションの互換性を確認できます。
 
-これにより、様々なWebクライアント、Webメール、デバイス上で最適な方法で受信者にメッセージが表示されるようにできます。
+これにより、様々な Web クライアント、Web メールおよびデバイスで受信者へのメッセージの表示が最適化されていることを確認してください。
 
-インボックスのレンダリングについて詳しくは、[このページ](../../delivery/using/inbox-rendering.md)を参照してください。
+受信ボックスレンダリングについて詳しくは、[このページ](../../delivery/using/inbox-rendering.md)を参照してください。
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -123,37 +123,37 @@ ht-degree: 50%
 
 配信ダッシュボードで各種レポートの配信をトラッキングすることもできます。詳しくは、[この節](../../reporting/using/delivery-reports.md)を参照してください。
 
-## 使用例：送信者のIPアドレスをログに追加する{#use-case}
+## 使用例：送信者の IP アドレスをログに追加する{#use-case}
 
-この節では、配信に各電子メールを送信したIPアドレスに関する配信ログ情報を追加する方法を学びます。
+この節では、配信で各 E メールを送信した IP アドレスに関する配信ログ情報を追加する方法を学びます。
 
 >[!NOTE]
 >
->この変更は、単一のインスタンスまたはミッドソーシングインスタンスを使用する場合と異なります。 変更を行う前に、電子メール送信インスタンスに接続していることを確認します。
+>この変更は、単一のインスタンスを使用する場合とミッドソーシングインスタンスを使用する場合とでは異なります。変更をおこなう前に、E メール送信インスタンスに接続していることを確認します。
 
-### 手順1:スキーマの拡張
+### 手順 1：スキーマの拡張
 
-配信ログに&#x200B;**publicID**&#x200B;を追加するには、まずスキーマを拡張する必要があります。 次の手順に従って進むことができます。
+配信ログに **publicID** を追加するには、まずスキーマを拡張する必要があります。次の手順に従って進むことができます。
 
-1. **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]** > **[!UICONTROL 新規]**&#x200B;の下に、スキーマ拡張を作成します。
+1. **[!UICONTROL 管理]**／**[!UICONTROL 設定]**／**[!UICONTROL データスキーマ]**／**[!UICONTROL 新規]**&#x200B;で、スキーマ拡張を作成します。
 
-   スキーマ拡張機能の詳細については、[このページ](../../configuration/using/extending-a-schema.md)を参照してください。
+   スキーマ拡張について詳しくは、[このページ](../../configuration/using/extending-a-schema.md)を参照してください。
 
-1. 受信者配信ログ(nms)を拡張し、カスタム名前空間を定義するには、**[!UICONTROL broadLogRcp]**&#x200B;を選択します。 この場合、「cus」になります。
+1. 受信者配信ログ（nms）を拡張し、カスタム名前空間を定義するには、**[!UICONTROL broadLogRcp]** を選択します。この場合、「cus」になります。
 
    ![](assets/schema-parameters.png)
 
    >[!NOTE]
    >
-   >インスタンスがミッドソーシングの場合は、broadLogMidスキーマを使用する必要があります。
+   >インスタンスがミッドソーシングの場合は、broadLogMid スキーマを使用する必要があります。
 
-1. 拡張部追加の新しいフィールド。 このサンプルでは、次の
+1. 拡張に新しいフィールドを追加します。このサンプルでは、
 
    ```
    <element img="nms:broadLog.png" label="Recipient delivery logs" labelSingular="Recipient delivery log" name="broadLogRcp"/>
    ```
 
-   作成者：
+   以下と置き換えます。
 
    ```
    <element img="nms:broadLog.png" label="Recipient delivery logs" labelSingular="Recipient delivery log" name="broadLogRcp">
@@ -164,29 +164,29 @@ ht-degree: 50%
 
    ![](assets/edit-schema.png)
 
-### 手順2:データベース構造の更新
+### 手順 2：データベース構造の更新
 
 変更が完了したら、データベース構造を更新して、論理的な説明と一致させる必要があります。
 
 これをおこなうには、以下の手順に従います。
 
-1. **[!UICONTROL ツール]** > **[!UICONTROL 詳細]** > **[!UICONTROL データベース構造の更新…をクリックします。]**&#x200B;メニュー。
+1. **[!UICONTROL ツール]**／**[!UICONTROL 詳細]**／**[!UICONTROL データベース構造の更新...]**&#x200B;メニューをクリックします。
 
    ![](assets/update-database-structure.png)
 
-1. **[!UICONTROL テーブルの編集]**&#x200B;ウィンドウで、**[!UICONTROL NmsBroadLogRcp]**&#x200B;テーブル(ミッドソーシング環境の場合は&#x200B;**[!UICONTROL broadLogMid]**&#x200B;テーブル)が次のようにチェックされます。
+1. **[!UICONTROL テーブルの編集]**&#x200B;ウィンドウで、**[!UICONTROL NmsBroadLogRcp]** テーブル（ミッドソーシング環境の場合は **[!UICONTROL broadLogMid]** テーブル）が次のようにチェックされます。
 
    ![](assets/edit-tables.png)
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL NmsBroadLoGRcp]**&#x200B;テーブル(ミッドソーシング環境の場合は&#x200B;**[!UICONTROL broadLogMid]**&#x200B;テーブル)を除き、他の変更がないことを必ず確認してください。 その場合は、他のテーブルのチェックを外します。
+   >**[!UICONTROL NmsBroadLoGRcp]** テーブル（ミッドソーシング環境の場合は **[!UICONTROL broadLogMid]** テーブル）を除き、他の変更がないことを必ず確認してください。その場合は、他のテーブルのチェックを外します。
 
 1. 「**[!UICONTROL 次へ]**」をクリックして確認します。次の画面が表示されます。
 
    ![](assets/update-script.png)
 
-1. 「**[!UICONTROL 次へ]**」、「**[!UICONTROL 開始]**」の順にクリックして、データベース構造の更新を開始します。 インデックスの作成を開始しています。 この手順は、**[!UICONTROL NmsBroadLogRcp]**&#x200B;テーブルの行数に応じて長くなる場合があります。
+1. 「**[!UICONTROL 次へ]**」、「**[!UICONTROL 開始]**」の順にクリックして、データベース構造の更新を開始します。インデックスの作成を開始しています。この手順は、**[!UICONTROL NmsBroadLogRcp]** テーブルの行数に応じて長くなる場合があります。
 
    ![](assets/start-database-update.png)
 
@@ -194,18 +194,18 @@ ht-degree: 50%
 >
 >データベースの物理構造の更新が正常に完了したら、変更を考慮に入れるために、接続を解除し、再接続する必要があります。
 
-### 手順3:変更の検証
+### 手順 3：変更の検証
 
 すべてが正しく動作していることを確認するには、配信ログ画面を更新する必要があります。
 
-これを行うには、配信ログにアクセスし、「IP identifier」列を追加します。
+これをおこなうには、配信ログにアクセスし、「IP 識別子」列を追加します。
 
 ![](assets/list-config.png)
 
 >[!NOTE]
 >
->Campaign Classicインターフェイスでリストを設定する方法については、[このページ](../../platform/using/adobe-campaign-workspace.md)を参照してください。
+>Campaign Classic インターフェイスでリストを設定する方法については、[このページ](../../platform/using/adobe-campaign-workspace.md)を参照してください。
 
-次に、変更後の&#x200B;**[!UICONTROL 「配信]**」タブの内容を示します。
+次に、変更後の「**[!UICONTROL 配信]**」タブの内容を示します。
 
 ![](assets/logs-with-ip.png)

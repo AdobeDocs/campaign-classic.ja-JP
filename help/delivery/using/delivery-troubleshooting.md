@@ -2,24 +2,24 @@
 solution: Campaign Classic
 product: campaign
 title: トラブルシューティング
-description: 配信のパフォーマンスと、配信の監視に関する問題のトラブルシューティング方法について詳しく説明します。
+description: 配信のパフォーマンスと配信の監視に関する問題のトラブルシューティング方法について詳しく説明します。
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3ba836bbb5a5f82d6a7868dcb15edc8e61b9a5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# トラブルシューティング{#delivery-troubleshooting}を送信中に配信が発生しました
+# 配信送信トラブルシューティング{#delivery-troubleshooting}
 
 この節では、配信を送信する際に発生する可能性のある一般的な問題と、そのトラブルシューティング方法についてリストします。
 
-さらに、[このページ](../../delivery/using/delivery-performances.md)に記載されているベストプラクティスとチェックリストに従って、配信のパフォーマンスが良いことを確認してください。
+さらに、[このページ](../../delivery/using/delivery-performances.md)に記載されているベストプラクティスとチェックリストに従って、配信のパフォーマンスを確保してください。
 
 **関連トピック：**
 
@@ -55,13 +55,13 @@ E メール配信のステータスが&#x200B;**[!UICONTROL 失敗]**&#x200B;で
 
 配信ログは、配信が失敗した理由を知るうえで重要です。配信ログから検出できる可能性のあるエラーを次に示します。
 
-* 受信者メッセージは、次の内容の「未到達」エラーで失敗します。
+* 受信者のメッセージが次の「未到達」エラーで失敗する
 
    ```
    Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
    ```
 
-   この問題の原因は、ほとんど常に、アップストリームのターゲット設定または配信のターゲットマッピングで定義またはマッピングされていないテーブルまたはフィールドをHTML内で呼び出そうとするパーソナライゼーションです。
+   この問題の原因は、ほとんどの場合、アップストリームターゲティングまたは配信のターゲットマッピングで定義されていないか、マップされていないテーブルまたはフィールドを HTML 内のパーソナライゼーションが呼び出そうとしていることにあります。
 
    これを修正するには、ワークフローと配信コンテンツを確認し、問題のテーブルを呼び出そうとするパーソナライゼーションを特定して、そのテーブルをマップできるかどうかを判別する必要があります。その後、このテーブルへの呼び出しを HTML で削除するか、配信へのマッピングを修正すると解決できます。
 

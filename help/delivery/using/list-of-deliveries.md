@@ -6,11 +6,11 @@ description: 作成した配信のリストにアクセスする方法を説明�
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2a126d0aa471831f84d4c8457cfd6f0fae7b14f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

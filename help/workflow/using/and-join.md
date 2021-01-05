@@ -6,11 +6,11 @@ description: AND 結合
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '172'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
+workflow-type: tm+mt
+source-wordcount: '191'
+ht-degree: 90%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 100%
 例えば、コンテンツの作成と配信の自動送信のコンテキストで AND 結合アクティビティを使用して、ターゲットのクエリとコンテンツの更新手順が完了した後にのみ配信が開始されるようにできます。該当する使用例については、[この節](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)を参照してください。
 
 ![](assets/and-join-usage.png)
+
+>[!NOTE]
+>
+>異なるターゲティングディメンションで構成された受信トランジションは、**[!UICONTROL AND-join]**&#x200B;アクティビティを使用して結合できません。
 
 アウトバウンドに送られるアクティビティの母集団は、アクティビティ内のインバウンドトランジション間のメインセットを選択することで、決定されます。
 

@@ -7,19 +7,19 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
+source-git-commit: 802818fcd27e0dc40cc640092da1ef70ff21a191
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '937'
+ht-degree: 90%
 
 ---
 
 
-# Gold Standard リリース{#gold-standard}
+# ゴールドスタンダードリリース{#gold-standard}
 
-Gold Standard は、Campaign Classic の長期サポートリリースです。Gold Standard のユーザーは、安定した最新バージョンを使用することで、自動的に Gold Standard のアップグレードのメリットが得られるため、操作は必要ありません。オンプレミスおよびハイブリッドの顧客も、Gold Standard リリースのメリットを受けられます。
+Gold Standard は、Campaign Classic の長期サポートリリースです。Gold Standardのホストユーザーは、Gold Standardのアップグレードで、安定した最新バージョンを何も行わずに自動的にメリットを得られます。 オンプレミスおよびハイブリッドのお客様は、ゴールド標準リリースのメリットも得られます。
 
-古いビルドから移行する場合は、最初にこのバージョンにアップグレードすることをお勧めします。
+古いビルドから移行する場合は、まずこのバージョンにアップグレードすることをお勧めします。
 
 このページには、Gold Standard のリリースがリストされています。
 
@@ -27,7 +27,7 @@ Campaign Gold Standard プログラムの詳細については、[この記事](
 
 ## ![](assets/do-not-localize/limited_2.png) Gold Standard 11 リリース{#gs-11}
 
-_2020年12月22日_
+_2020 年 12 月 22 日_
 
 >[!CAUTION]
 >
@@ -35,13 +35,13 @@ _2020年12月22日_
 
 ビルド9032@2a2a028には、次の機能強化および修正が含まれています。
 
-* 接続プロトコルは、新しいIMS認証メカニズムに従うように更新されました。
+* 接続プロトコルは、新しい IMS 認証メカニズムに従うように更新されました。
 
 * パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合認証が変更され、Adobe I/O に移動しました。[詳細情報](../../integrations/using/configuring-adobe-io.md)
 
-* iOS APNsレガシーバイナリプロトコルのサポートが終了した後は、アップグレード後に、このプロトコルを使用するすべてのインスタンスがHTTP/2プロトコルに更新されます。
+* iOS APN レガシーバイナリプロトコルのサポートが終了した後は、アップグレード後に、このプロトコルを使用するすべてのインスタンスが HTTP/2 プロトコルに更新されます。
 
-* サーバー側要求偽造(SSRF)の問題に対する保護を強化するためのセキュリティの問題を修正しました。 （NEO-27777）
+* サーバーサイドリクエストフォージェリ（SSRF）問題に対する保護を強化するために、セキュリティ問題を修正しました。（NEO-27777）
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 10 リリース{#gs-10}
 
@@ -53,7 +53,7 @@ _2020 年 7 月 7 日_
 
 >[!CAUTION]
 >
->クライアントコンソールをこのリリースに含まれるものにアップグレードすることをお勧めします。[このページ](../../installation/using/installing-the-client-console.md)を参照
+>クライアントコンソールをこのリリースに含まれるものにアップグレードすることをお勧めします。[このページ](../../installation/using/installing-the-client-console.md)を参照してください。
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 9 リリース{#gs-9}
 
@@ -70,7 +70,6 @@ _2020 年 6 月 22 日_
 * パーソナライゼーションパラメーター（シャープ記号の付いたアンカータグ）のフラグメントを使用した URL のトラッキングが機能しなかった問題を修正しました。（NEO-25774）
 * フィッシング詐欺対策サービスの問題を修正しました。（NEO-25283）
 * 特定のカスタムトラッキング式を使用する場合のトラッキングの問題を修正しました。（NEO-25277）
-
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 8 リリース{#gs-8}
 

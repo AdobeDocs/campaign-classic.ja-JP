@@ -6,11 +6,11 @@ description: ワークフローを使用した自動化
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1200'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
+workflow-type: tm+mt
+source-wordcount: '1198'
+ht-degree: 98%
 
 ---
 
@@ -200,7 +200,7 @@ Adobe Campaign のクライアントインターフェイスで設定したワ�
 
 最初の&#x200B;**配信を作成**&#x200B;タスクが配信アクションを作成します。
 
-分岐アクティビティを使用して、ターゲットの計算とコンテンツインスタンスの作成を同時に開始できます。
+forkアクティビティを使用すると、ターゲットの計算とコンテンツインスタンスの作成を並行して起動できます。
 
 タスクを実行すると、AND 結合ボックスが&#x200B;**配信**&#x200B;タスクを有効化して、以前作成したコンテンツとターゲティングで配信を開始します。
 

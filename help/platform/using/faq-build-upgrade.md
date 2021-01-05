@@ -6,11 +6,11 @@ description: Campaign のビルドアップグレードに関するよくある�
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2020'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 以下の[ビルドアップグレードのチェックリスト](#check-list)とテスト計画を確認し、これらのテストを実行できるリソースがアップグレード完了の 24～48 時間以内に利用可能であることを確認します。
 
-詳しくは、[このドキュメント](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)を参照してください。
+詳しくは、[このドキュメント](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)を参照してください。
 
 ## 夜間など営業時間外にビルドアップグレードを実行することはできますか？
 
@@ -136,7 +136,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 ## クライアントコンソールを更新する必要がありますか？
 
-はい。クライアントコンソールは、サーバーインスタンスと同じビルド上に存在する必要があります。 アップグレードが完了すると、サーバービルドと一致するように最新のビルドにアップグレードするように求めるプロンプトがクライアントコンソールで表示されます。
+はい。クライアントコンソールは、サーバーインスタンスと同じビルド上にある必要があります。アップグレードが完了すると、サーバービルドと一致するように最新のビルドにアップグレードするように求めるプロンプトがクライアントコンソールで表示されます。
 
 ## ロールバックプランとは何ですか？データのバックアップは保持されますか？
 
@@ -198,11 +198,11 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
    * プッシュ通知とその追跡機能を、ディープリンクに対してテストします。
    * SMS の送信をテストします。
    * 外部 FDA が接続されている場合は、両方の方法でデータが送信されているかどうかをテストします。
-   * Adobe CampaignとAdobe Experience Manager、Adobe CampaignとAdobe Analytics などの統合を使用している場合は、以前と同じように動作するかどうかをテストします。
+   * Adobe Campaign と Adobe Experience Manager、Adobe Campaign と Adobe Analytics などの統合を使用している場合は、以前と同じように動作するかどうかをテストします。
 
 **関連項目：**
 
 * [ビルドアップグレードの実行](../../production/using/build-upgrade.md)
 * [Campaign Classic リリースノート](../../rn/using/rn-overview.md)
-* [Campaign Classic のヘルプとサポートのオプション](https://helpx.adobe.com/campaign/kb/ac-support.html#acc-support-req)
-* [Gold Standard プログラム](https://helpx.adobe.com/campaign/kb/gold-standard.html)
+* [Campaign Classic のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support-req)
+* [Gold Standard プログラム](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)

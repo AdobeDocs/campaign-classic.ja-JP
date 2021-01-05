@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 86dab2e03aa7a07d88d9a1df5e4015b001451d2e
+source-git-commit: 802818fcd27e0dc40cc640092da1ef70ff21a191
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '437'
 ht-degree: 94%
 
 ---
@@ -37,7 +37,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 **最新の RC ビルド**[は Campaign Classic 20.3 リリース](../../rn/using/latest-release.md)です
 
-![](assets/do-not-localize/red3.png) **非推奨**  — デプロイメントなし。既存の実装はアップグレードする必要があります。
+![](assets/do-not-localize/red3.png) **非推奨** - デプロイメントなし。既存の実装はアップグレードする必要があります。
 
 ## 推奨事項{#recommendations}
 
@@ -55,7 +55,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ### Gold Standard{#upgrade-for-gold-standard-users}
 
-Gold Standard のユーザーは、[最新の GA ビルド](../../rn/using/gold-standard.md#gs-10)を使用することで、自動的に Gold Standard のアップグレードのメリットが得られるため、操作は必要ありません。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)。
+Gold Standardのホストユーザーは、[最新のGA Gold Standardビルド](../../rn/using/gold-standard.md#gs-10)を使用して、Gold Standardのアップグレードを行っても何の操作も必要ありません。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)。
 
 >[!NOTE]
 >Gold Standard の互換性マトリックスは、[GA 互換性マトリックス](../../rn/using/compatibility-matrix-gs.md)に記載されています。

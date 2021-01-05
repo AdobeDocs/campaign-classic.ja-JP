@@ -2,22 +2,22 @@
 solution: Campaign Classic
 product: campaign
 title: 配信パフォーマンスのベストプラクティス
-description: 配信パフォーマンスとベストプラクティスの詳細を確認します。
+description: 配信パフォーマンスとベストプラクティスについて詳しく説明します。
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b43412286762977c416665d296908a9bfc9b20a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # 配信パフォーマンスのベストプラクティス{#delivery-performances}
 
-配信の問題が発生した場合の配信のパフォーマンスを確保すると共に、パフォーマンスの確認に以下のガイドラインに従うことをお勧めします。
+配信の問題が発生した場合の配信パフォーマンスを確保すると共に、パフォーマンスの確認に以下のガイドラインに従うことをお勧めします。
 
 **関連トピック：**
 

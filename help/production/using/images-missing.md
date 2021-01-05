@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '111'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 **Apacheユーザー：**
 
-Apacheユーザーが提供された&#x200B;**apache_neolane.conf**
+Apacheユーザーは、提供された&#x200B;**apache_neolane.conf**&#x200B;を使用する場合、影響を受けません。
 
 **IISユーザー：**
 
@@ -31,4 +31,3 @@ IISユーザー(Windows)の場合、ビルドの更新後、コンソールに�
 
 1. ビルドの更新後、重複がキャンペーンのインストールディレクトリにある&#x200B;**iis_neolane_setup.vbs**&#x200B;をクリックします。 デフォルトのパスはC:\Program Files (x86)\Adobe\Adobe Campaign v7\confです。
 1. 前の手順で更新したIISサイトを再起動します。
-

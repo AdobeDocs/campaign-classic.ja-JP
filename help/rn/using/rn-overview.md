@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 802818fcd27e0dc40cc640092da1ef70ff21a191
+source-git-commit: 51993e6f606132e425553da67687aca76e166dbd
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 94%
@@ -29,7 +29,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ![](assets/do-not-localize/green3.png) **一般提供**（GA） - 実稼働環境で検証済みで、Adobe が推奨します。
 
-**最新の GA ビルド**&#x200B;は、[Gold Standard 10 リリース](../../rn/using/gold-standard.md#gs-10)および [Campaign 20.2.4 リリース](../../rn/using/release--20-2.md#release-20-2-4-build-9187)です
+**最新の GA ビルド**&#x200B;は、[Gold Standard 11 リリース](../../rn/using/gold-standard.md#gs-11)および [Campaign 20.2.4 リリース](../../rn/using/release--20-2.md#release-20-2-4-build-9187)です
 
 ![](assets/do-not-localize/limited3.png) **限定提供**（LA） - オンデマンドデプロイメントのみ。
 

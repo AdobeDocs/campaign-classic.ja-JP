@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 802818fcd27e0dc40cc640092da1ef70ff21a191
+source-git-commit: dcef36c3ce14c45cb08a79180938ad8d26fa6549
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '938'
 ht-degree: 90%
 
 ---
@@ -25,7 +25,7 @@ Gold Standard は、Campaign Classic の長期サポートリリースです。G
 
 Campaign Gold Standard プログラムの詳細については、[この記事](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)を参照してください。
 
-## ![](assets/do-not-localize/limited_2.png) Gold Standard 11 リリース{#gs-11}
+## ![](assets/do-not-localize/green_2.png) Gold Standard 11 リリース{#gs-11}
 
 _2020 年 12 月 22 日_
 
@@ -33,7 +33,7 @@ _2020 年 12 月 22 日_
 >
 >このリリースには、新しい接続プロトコルが付属しています。2021年3月22日以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるようにするには、アップグレードが必須です。
 
-ビルド9032@2a2a028には、次の機能強化および修正が含まれています。
+ビルド9032@d3b452fには、次の機能強化および修正が含まれています。
 
 * 接続プロトコルは、新しい IMS 認証メカニズムに従うように更新されました。
 
@@ -43,7 +43,7 @@ _2020 年 12 月 22 日_
 
 * サーバーサイドリクエストフォージェリ（SSRF）問題に対する保護を強化するために、セキュリティ問題を修正しました。（NEO-27777）
 
-## ![](assets/do-not-localize/green_2.png) Gold Standard 10 リリース{#gs-10}
+## ![](assets/do-not-localize/red_2.png) Gold Standard 10 リリース{#gs-10}
 
 _2020 年 7 月 7 日_
 

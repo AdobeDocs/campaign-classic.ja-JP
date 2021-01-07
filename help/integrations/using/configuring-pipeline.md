@@ -9,8 +9,8 @@ topic-tags: adobe-experience-manager
 translation-type: tm+mt
 source-git-commit: 531eb23ff8fe1b77c37a51e7f99921b0bc071f0f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '920'
+ht-degree: 99%
 
 ---
 

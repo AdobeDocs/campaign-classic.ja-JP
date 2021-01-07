@@ -12,8 +12,8 @@ snippet: y
 translation-type: tm+mt
 source-git-commit: 55ca41bfcacbd75846901474ae6f012dfdc8d1a9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '469'
+ht-degree: 69%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->oAuth 認証を通じて古いバージョンの Triggers 統合を使用する場合は、**以下の説明に従って Adobe I/O に移行する必要があります**。 従来の oAuth 認証モードは、2021 年 4 月 30 日に廃止されます。[詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>oAuth 認証を通じて古いバージョンの Triggers 統合を使用する場合は、**以下の説明に従って Adobe I/O に移行する必要があります**。従来の oAuth 認証モードは、2021 年 4 月 30 日に廃止されます。[詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 
 ## 前提条件 {#adobe-io-prerequisites}
 

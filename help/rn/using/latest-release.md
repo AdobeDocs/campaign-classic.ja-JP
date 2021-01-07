@@ -9,8 +9,8 @@ topic-tags: latest-release-notes
 translation-type: tm+mt
 source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1879'
+ht-degree: 97%
 
 ---
 
@@ -98,7 +98,7 @@ Campaign で次のシステムがサポートされるようになりました�
 **改善点**
 
 * **クライアントコンソール**&#x200B;には、次の改善点が追加されました。
-   * 接続プロトコルは、新しいIMS認証メカニズムに従うように更新されました。 2021年3月22日以降は、Server ConsoleおよびClient Consoleのアップグレードは接続可能にする必要があります。
+   * 接続プロトコルは、新しい IMS 認証メカニズムに従うように更新されました。2021年3月22日以降は、Server ConsoleおよびClient Consoleのアップグレードは接続可能にする必要があります。
    * インターネットセキュリティ GPO ルールの一部の制限との非互換性を防ぐため、Campaign クライアントコンソールのログオン画面は組み込みの標準 Windows フォームに置き換えられました。
    * 64 ビットのクライアントコンソールを使用したワークフローで、アクティビティのコピー/貼り付けをおこなうときの問題を修正しました。（NEO-27635）
    * **バージョン情報**&#x200B;メニューに、64 ビットと 32 ビットのコンソールを区別するための情報が追加されました。

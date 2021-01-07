@@ -9,8 +9,8 @@ topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
 source-git-commit: 57093a687534ed1e7f77738ca233d4cc86cf40cf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1403'
+ht-degree: 98%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 0%
 
 ## ![](assets/do-not-localize/limited_2.png) リリース 20.1.4 - ビルド 9126 {#release-20-1-4-build-9126}
 
-_2020年12月23日_
+_2020 年 12 月 23 日_
 
 >[!CAUTION]
 >
 >このリリースには、新しい接続プロトコルが付属しています。 2021年3月22日以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるようにするには、アップグレードが必須です。
 
-* 接続プロトコルは、新しいIMS認証メカニズムに従うように更新されました。
-* サーバー側要求偽造(SSRF)の問題に対する保護を強化するためのセキュリティの問題を修正しました。 （NEO-27777）
+* 接続プロトコルは、新しい IMS 認証メカニズムに従うように更新されました。
+* サーバーサイドリクエストフォージェリ（SSRF）問題に対する保護を強化するために、セキュリティ問題を修正しました。（NEO-27777）
 
 ## ![](assets/do-not-localize/red_2.png) リリース 20.1.3 - ビルド 9124{#release-20-1-3-build-9124}
 

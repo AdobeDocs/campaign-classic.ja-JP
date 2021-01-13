@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+source-git-commit: f24642223a2ec9f3d8e78e2f7e71a55bf14b80c7
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 13%
@@ -21,14 +21,14 @@ ht-degree: 13%
 
 * **トラッ****キングワークフローにエラーがあるか。**
 
-[監視テクニカルワークフロー](../../workflow/using/monitoring-technical-workflows.md)を参照してください。
+   [監視テクニカルワークフロー](../../workflow/using/monitoring-technical-workflows.md)を参照してください。
 
-![](assets/tracking_scheduled_task.png)
+   ![](assets/tracking_scheduled_task.png)
 
 * **モジュールがサーバー上で酔っ払いを****追跡しているか。**
 
-[ログファイル](../../production/using/log-files.md)を参照してください。
+   [ログファイル](../../production/using/log-files.md)を参照してください。
 
 * **変更は行われたか。**
 
-トラッキングエイリアスを使用して、サーバーとの接続が失われる可能性があります。
+   トラッキングエイリアスを使用して、サーバーとの接続損失をトリガーできます。

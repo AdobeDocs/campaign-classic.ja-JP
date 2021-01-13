@@ -7,7 +7,7 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 translation-type: tm+mt
-source-git-commit: d45f393083ec540025a9e001b089a8b1241a8c99
+source-git-commit: 2d30a70f8fbfb7a916638697c0f7a5060c2458ee
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 94%

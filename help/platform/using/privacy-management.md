@@ -6,36 +6,29 @@ description: プライバシー管理の詳細を説明します
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 8ff5450cc35153e61048c2671f6d52fbc5ffc5b9
-workflow-type: ht
-source-wordcount: '891'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c86b2d377c66e79cf4f10053f588796b95e6877e
+workflow-type: tm+mt
+source-wordcount: '887'
+ht-degree: 97%
 
 ---
 
 
 # プライバシー管理 {#privacy-management}
 
-Adobe Campaign には、[プライバシー規制](#privacy-management-regulations)（GDPR、CCPA、PDPA、LGPD など）の順守に役立つ一連のツールが用意されています。
+Adobe Campaign には、[プライバシー規制](#privacy-management-regulations)（GDPR、CCPA、PDPA、LGPD など）を遵守するのに役立つ一連のツールが用意されています。
 
-GDPR や他のプライバシー規制に確実に対応するために Adobe Campaign に用意されている 5 つの主な機能を次に示します。
+GDPR などのプライバシー規制に対する対応するために Adobe Campaign で提供されている 5 つの主な機能を次に示します。
+* **アクセスする権利**
+* **削除する権利**
+* **同意管理**
+* **データリテンション**
+* **権限管理**
 
 ![](assets/privacy-gdpr-use-cases.png)
 
-* **アクセスする権利**
-
-* **削除する権利**
-
-詳しくは、[アクセスする権利および忘れられる権利](#right-access-forgotten)を参照してください。
-
-* **同意の管理**
-
-* **データリテンション**
-
-* **権限管理**
-
-詳しくは、[同意、リテンション、役割](#consent-retention-roles)を参照してください。
+詳しくは、[アクセス権と忘れられる権利](#right-access-forgotten)および[同意、保存、役割](#consent-retention-roles)を参照してください。
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 

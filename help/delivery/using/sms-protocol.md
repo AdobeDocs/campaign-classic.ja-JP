@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 09a79330e1ff951898d1559d5765818c12dc497a
+source-git-commit: 9a104fdc7bed89f56178d5ab638e1440e6342efc
 workflow-type: tm+mt
 source-wordcount: '8424'
 ht-degree: 1%
@@ -52,7 +52,7 @@ SMSプロバイダ経由で大量のSMSを送信する場合、次の3種類のS
 
 謝辞（RESP PDU、SMPPプロトコルの一部）とSRを区別する必要があります。SRは、ネットワークのエンド・ツー・エンドを通じて送信されるSMSの一種です。SRは、1回の転送が成功したことを確認するだけのものです。
 
-2つの謝辞とSRの両方がエラーをトリガーし、2つを区別するとトラブルシューティングに役立ちます。
+謝辞とSRは両方ともトリガーエラーを起こし、2つを区別するとトラブルシューティングに役立ちます。
 
 ### SMS {#information-sms}によって送信される情報
 
@@ -102,11 +102,11 @@ SMPP伝送ユニット（「パケット」）はPDUと呼ばれます。 **PDU*
 
 例えば、MTを送信する際には、送信側の接続が使用され、MTを確認する`RESP`も送信側のチャネルを介して送信されます。 MO（またはSR）を受け取ると、受信側の接続はMOを受け取り、MOを確認する`RESP`を送信するために使用されます。
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 Adobe Campaign Classicでは、SRを対応するMTとリンクするために、SMSCから`SUBMIT_SM_RESP`と`DELIVER_SM`の手順でIDが返されます。 識別子は`nms::providerMsgId`テーブルの`providerId`フィールドに格納され、`broadLogId`と`deliveryId`にリンクされます。 この照合操作は、データベースに書き込む際にSMSプロセスによって行われます。
 
-成功`SUBMIT_SM_RESP PDU`は送信ログで「送信済み」メッセージのステータスをトリガーし、成功`DELIVER_SM (SR) PDU`は「受信済み」メッセージのステータスをトリガーします。
+成功した`SUBMIT_SM_RESP PDU`は「送信済み」メッセージのステータスを送信ログにトリガーし、成功した`DELIVER_SM (SR) PDU`は「受信済み」メッセージのステータスをトリガーします。
 
 ### セキュリティ面{#security-aspects}
 
@@ -505,7 +505,7 @@ TON（数値のタイプ）とNPI（数値計画インジケータ）は、[SMPP
 
 最大窓数が4の送信例：
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 このウィンドウは、ネットワークリンクの待ち時間が長い場合のスループットを向上させるのに役立ちます。  ウィンドウの値は、少なくともSMS/sの数にリンクの待ち時間を掛けた値である必要があります
 秒単位で指定できます。次のメッセージを送信する前に、コネクタは`SUBMIT_SM_RESP`を待たない状態になります。
@@ -772,7 +772,7 @@ Adobe Campaignでのパーソナライズされたメッセージの動作によ
 
 ## 拡張汎用SMPPコネクタ{#acc-extended-connector}
 
-![](assets/sms_protocol_4.png)
+![](assets/do-not-localize/sms_protocol_4.png)
 
 矢印は、データフローを表します。
 

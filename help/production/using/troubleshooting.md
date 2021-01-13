@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: a490744e4a94a498fbd0205f119617137910d40c
+source-git-commit: 0f2986f88f72c191262248029ec620fad538c218
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 23%
+source-wordcount: '219'
+ht-degree: 13%
 
 ---
 
@@ -28,9 +28,10 @@ ht-degree: 23%
 
 ## 配信のトラブルシューティング {#delivery-troubleshooting}
 
-配信に関する問題が発生した場合は、特定のアクションを実行できます。
+配信に問題が発生した場合は、次の具体的な対応を行うことができます。
 * [配信品質の問題](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
-* [画像の表示の問題](../../production/using/image-display-issues.md) と[イメージが見つかりません](../../production/using/images-missing.md)
+* [画像の表示の問題](../../production/using/image-display-issues.md)
+* [画像が見つかりません](../../production/using/images-missing.md)
 * [一時的なファイルの問題](../../production/using/temporary-files.md) (*オンプレミスホスティングモデルのみ*)
 
 **関連トピック**：
@@ -39,21 +40,29 @@ ht-degree: 23%
 
 ## ログの操作{#working-with-logs}
 
+ログの操作性を向上させるためのヒントをいくつか示します。
+
 * [ログの精度](../../production/using/log-precision.md)
 * [ログの問題の追跡](../../production/using/tracking-logs-issues.md)
 
 ## データベースの問題{#database-issues}
+
+以下の節を読んで、パフォーマンスの問題を解決する方法を見つけ出します。
 
 * [データベースのパフォーマンス](../../production/using/database-performances.md)
 * [Oracle データベースのエンコード](../../production/using/encoding-of-the-oracle-database.md)
 
 ## 接続の強化{#connection-improvements}
 
+接続に問題が発生した場合は、次の方法で修正できます。
+
 * [接続の失敗](../../production/using/failure-to-connect.md)
 * [接続のしきい値](../../production/using/connection-thresholds.md)
 
 ## 技術的なトラブルシューティング{#technical-troubleshooting}
 
+具体的な問題については、以下の節を参照してください。
+
 * [Linux でのスタックトレース](../../production/using/stack-trace-in-linux.md)
 * [JSP の動作](../../production/using/jsp-behavior.md)
-<!-- * [Locating Tomcat version](../../production/using/locate-tomcat-version.md)-->
+* [Tomcatバージョンの検索](../../production/using/locate-tomcat-version.md)

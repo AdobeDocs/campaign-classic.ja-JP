@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: b7f44f4c18bef4cc412af878846b2c4305a17787
+source-git-commit: f24642223a2ec9f3d8e78e2f7e71a55bf14b80c7
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 8%
@@ -20,7 +20,7 @@ ht-degree: 8%
 パスワードを失った場合は、パスワードの変更や復元が可能です。
 次の2つのシナリオが考えられます。
 
-* **Adobe Campaign演算子によってパスワードが失われました**
+**Adobe Campaign演算子によってパスワードが失われました**
 
 この場合、関連する演算子のパスワードを変更できます。
 これをおこなうには、以下の手順に従います。
@@ -33,7 +33,7 @@ ht-degree: 8%
 
 1. 演算子の新しいパスワードを設定します。 演算子は、最初の再接続時にパスワードを変更することをお勧めします。
 
-* **内部パスワードの損失（オンプレミスのお客様のみ）**
+**内部パスワードの損失（オンプレミスのお客様のみ）**
 
 内部パスワードが失われた場合は、再初期化する必要があります。
 これを行うには、次の手順を適用します。

@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 translation-type: tm+mt
-source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
+source-git-commit: d35b22386bd2681ba02e4379c627821b35a7d04e
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 16%
@@ -26,7 +26,7 @@ ht-degree: 16%
 
 また、ターゲットの計算とコンテンツの作成を並行して開始するために、コンテンツの作成と自動送信の配信のコンテキストでこのアクティビティを使用することもできます。 該当する使用例については、[この節](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)を参照してください。
 
->[!WARNING]
+>[!IMPORTANT]
 >
 >Forkアクティビティの後に追加された送信トランジションは、同時に実行されないことに注意してください。
 >

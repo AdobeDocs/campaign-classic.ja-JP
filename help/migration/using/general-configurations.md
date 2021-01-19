@@ -7,9 +7,9 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
 workflow-type: tm+mt
-source-wordcount: '2880'
+source-wordcount: '2843'
 ht-degree: 2%
 
 ---
@@ -616,11 +616,11 @@ logInfo("Done");
 
 ### パーソナライズされたレポート{#personalized-reports}
 
-v7の青いバナー（ユニバーサルへのアクセスを許可）を使用する場合は、レポートを再公開する必要があります。 問題が発生した場合は、v6.0のレンダリングエンジンを強制的に使用できます。 これを行うには、レポート内の&#x200B;**[!UICONTROL プロパティ]**&#x200B;に移動し、**[!UICONTROL レンダリング]**&#x200B;をクリックして&#x200B;**[!UICONTROL Flash6.0 (Version &amp; OpenOffice)]**&#x200B;レンダリングエンジンを選択します。
+<!--If you want to have the blue banner from v7 (allowing you access to the universes), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
 
 ![](assets/migration_reports_1.png)
-
-新しいレポート機能を活用したい場合は、v.6.xレンダリングエンジンを選択する必要があります。 この場合は、すべてのスクリプトを確認し、必要に応じて変更します。 PDFの書き出しに関しては、OpenOfficeに対して特定のスクリプトを追加した場合、新しいPDF書き出しエンジン(PhantomJS)では動作しなくなります。
+-->
+新しいレポート機能を活用したい場合は、レポートを再公開する必要があります。 これを行うには、レポート&#x200B;**[!UICONTROL プロパティ]**&#x200B;を編集し、**[!UICONTROL レンダリング]**&#x200B;をクリックしてv.6.xレンダリングエンジンを選択します。 この場合は、すべてのスクリプトを確認し、必要に応じて変更します。 PDFの書き出しに関しては、Open Officeに対して特定のスクリプトを追加した場合、新しいPDF書き出しエンジン(PhantomJS)では動作しなくなります。
 
 ## Web アプリケーション {#web-applications}
 

@@ -6,11 +6,11 @@ description: レポートプロパティ設定の詳細
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '480'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 「**[!UICONTROL レンダリング]**」タブでは、ページのデータ表示モードをパーソナライズできます。次の項目を選択できます。
 
-* グラフレンダリングエンジン：Adobe Campaign には、グラフレンダリングを生成する 2 つの異なるモードが用意されています。デフォルトのレンダリングエンジンは HTML 5 です。必要に応じて、Flash レンダリングも選択できます。
+* グラフレンダリングエンジン：デフォルトでは、レンダリングエンジンはHTML 5です。
 * レポートでのナビゲーションタイプ（ボタンによるか、リンクによるか）。
 * レポート要素のラベルのデフォルト位置。この位置は、要素ごとにオーバーロードできます。
 * レポートページの生成に使用されるテンプレートまたはテーマ。

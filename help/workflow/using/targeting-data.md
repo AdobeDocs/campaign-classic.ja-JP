@@ -6,9 +6,9 @@ description: ワークフローでのデータのターゲティングについ�
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 100%
 
@@ -135,7 +135,7 @@ ht-degree: 100%
 
 必要に応じて、インバウンドテーブルの操作も可能です。別のディメンションからターゲットを除外するには、このターゲットが同じターゲティングディメンションをメインターゲットとして返します。それには、「**[!UICONTROL 追加]**」ボタンをクリックし、ディメンションの変更条件を指定します。
 
-データの紐付けは、識別子、変更軸、結合を使用して実行されます。[リストのデータの利用：リストの読み込み](../../workflow/using/importing-data.md#using-data-from-a-list--read-list)で、例を紹介しています。
+データの紐付けは、識別子、変更軸、結合を使用して実行されます。[リストのデータの利用：リストの読み込み](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list)で、例を紹介しています。
 
 ![](assets/exclusion_edit_add_rule_01.png)
 

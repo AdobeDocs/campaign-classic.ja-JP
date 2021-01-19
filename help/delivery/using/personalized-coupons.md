@@ -6,9 +6,9 @@ description: パーソナライズされたクーポン
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
+workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >クーポン管理は、インストールが必要なパッケージです。クーポン管理があることを確認するには、**[!UICONTROL 管理／設定／パッケージ管理／インストールしたパッケージ]**&#x200B;をチェックします。
 >
->クーポンデータは、CSV および XML フォーマットを使用してインポートおよびエクスポートできます。インポートとエクスポートについて詳しくは、[この節](../../platform/using/generic-imports-and-exports.md)を参照してください。
+>クーポンデータは、CSV および XML フォーマットを使用してインポートおよびエクスポートできます。インポートとエクスポートについて詳しくは、[この節](../../platform/using/get-started-data-import-export.md)を参照してください。
 
 ## クーポンの作成 {#creating-a-coupon}
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >個人クーポンは、一括でインポートできます。インポートとエクスポートについて詳しくは、[この節](../../platform/using/generic-imports-and-exports.md)を参照してください。
+   >個人クーポンは、一括でインポートできます。インポートとエクスポートについて詳しくは、[この節](../../platform/using/get-started-data-import-export.md)を参照してください。
 
 ### 個人クーポンの設定 {#configuring-individual-coupons}
 

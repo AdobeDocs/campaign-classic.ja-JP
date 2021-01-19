@@ -6,9 +6,9 @@ description: シードアドレスについて
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -46,7 +46,8 @@ ht-degree: 100%
 >ダイレクトメール配信の場合は、抽出ファイルフォーマットは次の制限事項に従っている必要があります。
 >
 >* 「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」オプションは使用できません。
->* 要素のコレクションが抽出される場合、「**[!UICONTROL 単一行（エキスパートユーザー）]**」オプションをオンにしない限り、それらのフィールドのシードアドレスの値は空になります。詳しくは、[この節](../../platform/using/exporting-data.md#step-7---data-formatting)を参照してください。
+>* 要素のコレクションが抽出される場合、「**[!UICONTROL 単一行（エキスパートユーザー）]**」オプションをオンにしない限り、それらのフィールドのシードアドレスの値は空になります。詳しくは、[この節](../../platform/using/executing-export-jobs.md#step-7---data-formatting)を参照してください。
+
 >
 
 

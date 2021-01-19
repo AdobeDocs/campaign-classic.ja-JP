@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Adobe Campaign では、作成、インポート、ターゲティング、ア�
 
 >[!NOTE]
 >
->ファイルおよび web フォームのインポート方法を確認するには、[一般的なインポートおよびエクスポート](../../platform/using/generic-imports-and-exports.md)を参照してください。
+>ファイルおよび web フォームのインポート方法を確認するには、[一般的なインポートおよびエクスポート](../../platform/using/get-started-data-import-export.md)を参照してください。
 
 ## プロファイルとターゲット {#profiles-and-targets}
 
@@ -58,7 +58,7 @@ Adobe Campaign では、作成、インポート、ターゲティング、ア�
 * リスト：[リストの作成および管理](../../platform/using/creating-and-managing-lists.md)を参照してください。
 * 購読サービス：[このページ](../../delivery/using/managing-subscriptions.md)を参照してください。
 * web アプリケーション：[このページ](../../web/using/about-web-applications.md)を参照してください。
-* インポートおよびエクスポート（ジョブ）：[一般的なインポートおよびエクスポート](../../platform/using/generic-imports-and-exports.md)を参照してください。
+* インポートおよびエクスポート（ジョブ）：[一般的なインポートおよびエクスポート](../../platform/using/about-generic-imports-exports.md)を参照してください。
 * ターゲティングワークフロー：[このページ](../../workflow/using/building-a-workflow.md#implementation-steps-)を参照してください。
 
 受信者ページでは、編集、更新、追加、削除、並べ替えなど、頻繁におこなう操作をプロファイルに対して実行できます。

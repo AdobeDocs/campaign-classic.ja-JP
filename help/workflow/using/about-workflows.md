@@ -6,9 +6,9 @@ description: ワークフローを使用すれば、データおよびオーデ�
 audience: workflow
 content-type: reference
 topic-tags: introduction
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Adobe Campaign では、ワークフローを使用して次のことをおこ�
 
 * ワークフローアクティビティについて詳しくは、[このページ](../../workflow/using/how-to-use-workflow-data.md)を参照してください。
 * ワークフローを構築する方法については、[この節](../../workflow/using/building-a-workflow.md)を参照してください。
-* ワークフローを使用して Campaign にデータをインポートする方法については、[この節](../../workflow/using/importing-data.md)を参照してください。
+* ワークフローを使用して Campaign にデータをインポートする方法については、[この節](../../platform/using/import-export-workflows.md)を参照してください。
 * ワークフローのベストプラクティスについて詳しくは、[このページ](../../workflow/using/workflow-best-practices.md)を参照してください。
 * ワークフローの実行に関するガイダンスについては、[この節](../../workflow/using/starting-a-workflow.md)を参照してください。
 * ワークフローを監視する方法については、[このページ](../../workflow/using/monitoring-workflow-execution.md)を参照してください。

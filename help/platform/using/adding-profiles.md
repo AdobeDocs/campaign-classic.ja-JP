@@ -6,9 +6,9 @@ description: プロファイルの追加
 audience: platform
 content-type: reference
 topic-tags: profile-management
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # プロファイルの追加{#adding-profiles}
 
-ほとんどの場合、プロファイルは[ワークフローを使用して Campaign にインポート](../../workflow/using/importing-data.md)されます。ただし、「**[!UICONTROL 作成]**」ボタンをクリックして、1 つ以上のプロファイルをインターフェイスから直接追加することもできます。それにより、プロファイルはデータベースに追加されます。
+ほとんどの場合、プロファイルは[ワークフローを使用して Campaign にインポート](../../platform/using/import-export-workflows.md)されます。ただし、「**[!UICONTROL 作成]**」ボタンをクリックして、1 つ以上のプロファイルをインターフェイスから直接追加することもできます。それにより、プロファイルはデータベースに追加されます。
 
 ![](assets/s_ncs_user_profile_add.png)
 

@@ -6,9 +6,9 @@ description: ターゲティングアクティビティについて
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 * **クエリ**：クエリを実行します。[クエリの作成](../../workflow/using/query.md#creating-a-query)を参照してください。
 * **増分処理クエリ**：クエリを実行し、実行を計画します。[増分処理クエリ](../../workflow/using/incremental-query.md)の節を参照してください。
-* **リスト読み込み**：リストに含まれているデータを使用します。[リストのデータを使用：リスト読み込み](../../workflow/using/importing-data.md#using-data-from-a-list--read-list)を参照してください。
+* **リスト読み込み**：リストに含まれているデータを使用します。[リストのデータを使用：リスト読み込み](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list)を参照してください。
 * **和集合**：複数のアクティビティの結果を 1 つのターゲット内にグループ化します。[和集合](../../workflow/using/union.md)の節を参照してください。
 * **積集合**：インバウンドアクティビティの結果が同じである母集団のみを抽出します。[積集合](../../workflow/using/intersection.md)の節を参照してください。
 * **除外**：別のターゲットが 1 つ以上抽出されるメインターゲットに基づいてターゲットを作成します。[積集合](../../workflow/using/intersection.md)の節を参照してください。

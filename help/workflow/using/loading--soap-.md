@@ -6,9 +6,9 @@ description: 読み込み（SOAP）
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
    例を更新する場合は、「**[!UICONTROL 例を再分析]**」を選択します。
 
-   「**[!UICONTROL 詳細設定パラメーター]**」リンクを使用して、列データのフォーマットをカスタマイズすることもできます。インポートされたデータのフォーマットについて詳しくは、この[節](../../platform/using/importing-data.md#import-wizard)を参照してください。
+   「**[!UICONTROL 詳細設定パラメーター]**」リンクを使用して、列データのフォーマットをカスタマイズすることもできます。インポートされたデータのフォーマットについて詳しくは、この[節](../../platform/using/executing-import-jobs.md)を参照してください。
 
 1. 行番号を識別子として使用するか、または SOAP 呼び出しでいくつの要素を返させることを指定することができます。
 1. 関数に合わせて、次のタブスクリプトを入力してください。

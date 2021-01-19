@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 88172a79aad37e6a311b144f4ea685bb4846825b
+source-git-commit: 759346587e3ce98c408a0a17218341118dbceb82
 workflow-type: tm+mt
-source-wordcount: '3831'
-ht-degree: 96%
+source-wordcount: '3887'
+ht-degree: 94%
 
 ---
 
@@ -19,31 +19,39 @@ ht-degree: 96%
 
 このページには、毎月および Campaign の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
 
-その他のアップデートについては、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)もご覧ください。
+リリース関連の更新については、[Adobe Campaign Classicリリースノート](../../rn/using/latest-release.md)を参照してください。
 
-## 2021 年 1 月{#jan,2021}
+## 2021 年 1 月{#jan-2021}
 
-**[!UICONTROL Fork]**&#x200B;アクティビティセクションは、追加情報で強化されました。 アウトバウンドトランジションは同時に実行されないため、ワークフローのパフォーマンスを向上させるためにアクティビティを使用しないことを示す注記を追加しました。 [詳細を表示](../../workflow/using/fork.md)
+**[!UICONTROL Fork]**&#x200B;アクティビティセクションはベストプラクティスで強化されました。 [詳細を表示](../../workflow/using/fork.md)
 
-「Tomcatのバージョンの検索」セクションは、[ここ](../../production/using/locate-tomcat-version.md)に移動されました。
+**CRMコネクタ**&#x200B;セクションが更新され、改善され、再構成されました。 [詳細を表示](../../platform/using/crm-connectors.md)。
 
-テクニカルワークフローと関連するパッケージのリストが、1つのページに再編成されました。 [詳細を表示](../../workflow/using/about-technical-workflows.md)
+**Adobe CampaignとMicrosoft Dynamics**&#x200B;を接続する手順は、専用のページに詳しく説明されています。 [詳細を表示](../../platform/using/crm-ms-dynamics.md)。
 
-監視ガイドのトラブルシューティングの節は、ランディングページを使用して再構成および拡張されました。 [詳細を表示](../../production/using/troubleshooting.md)。
+OracleオンデマンドAPIは、キャンペーンに接続されたCRMとして非推奨となりました。 [詳細を表示](../../rn/using/deprecated-features.md)。
+
+Adobe Campaign[ここ](../../production/using/locate-tomcat-version.md)では、埋め込まれたTomcat Webサーブレットの現在のバージョンを調べる方法を説明します。
+
+テクニカルワークフローと関連するパッケージのリストが強化され、1ページにまとめられました。 [詳細を表示](../../workflow/using/about-technical-workflows.md)
+
+**監視**&#x200B;ガイドのトラブルシューティングの節は、ランディングページを使用して再構成および拡張されました。 [詳細を表示](../../production/using/troubleshooting.md)。
+
+新しい&#x200B;**データの読み込みと書き出し**&#x200B;セクションは、ワークフロー、データ圧縮、暗号化、および読み込みのベストプラクティスに関する新しいページで利用できます。 [詳細を表示](../../platform/using/get-started-data-import-export.md)
 
 ## 2020 年 12 月 {#dec-2020}
 
-「配信の監視」節は、主題に関するトピックごとに再編成されました。[詳細を表示](../../delivery/using/about-delivery-monitoring.md)
+**配信監視**&#x200B;セクションは、主題に関するトピックに再構成されました。 [詳細を表示](../../delivery/using/about-delivery-monitoring.md)
 
 送信者の IP アドレスを配信ログに追加する方法について、使用例が追加されました。[詳細を表示](../../delivery/using/delivery-dashboard.md#use-case)
 
 プライバシー FAQ は[この節](../../platform/using/privacy-faq.md)に移動しました。
 
-重複排除 - 重複アクティビティの結合機能の使用方法に関する使用例が追加されました。 [詳細を表示](../../workflow/using/deduplication-merge.md)
+**[!UICONTROL 重複排除 - 重複]**&#x200B;アクティビティの結合機能の使用方法に関する使用例が追加されました。 [詳細を表示](../../workflow/using/deduplication-merge.md)
 
-SMSコネクタのプロトコルと設定ページが[ここ](../../delivery/using/sms-protocol.md)に移動しました。
+SMSコネクタのプロトコルと設定ページの完全な説明が、[ここ](../../delivery/using/sms-protocol.md)で入手できます。
 
-アクセス権の問題を回避するために、イベントフォルダーを実行インスタンス上の表示ーとして設定してはならないという警告を表示するメモを、「トランザクションメッセージ」セクションに追加しました。 [詳細を表示](../../message-center/using/event-collection.md)
+アクセス権の問題を回避するために、イベントフォルダーを実行インスタンスー上の表示ーとして設定してはならないという警告を&#x200B;**トランザクションメッセージ**&#x200B;セクションに追加しました。 [詳細を表示](../../message-center/using/event-collection.md)
 
 ## 2020 年 11 月 {#nov-2020}
 
@@ -173,7 +181,7 @@ Campaign Classic のプライバシー管理ページが更新され、「規則
 
 強制隔離されたアドレスの削除の節が更新されました。これには、アドレスが強制隔離リストから自動的に削除される場合の明確な説明も含まれます。[詳細を表示](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)および[](../../workflow/using/importing-data.md#use-case-gpg-decrypt)復号化の方法に関する使用例が追加されました。
+コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../platform/using/zip-encrypt.md)および[](../../platform/using/unzip-decrypt.md)復号化の方法に関する使用例が追加されました。
 
 Experience Cloud Triggers と Adobe Campaign Classic の統合ページは、[こちら](../../integrations/using/about-triggers.md)に移動されました。
 

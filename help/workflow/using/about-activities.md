@@ -6,10 +6,10 @@ description: アクティビティについて
 audience: workflow
 content-type: reference
 topic-tags: introduction
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '98'
+translation-type: tm+mt
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
+workflow-type: tm+mt
+source-wordcount: '96'
 ht-degree: 100%
 
 ---
@@ -28,6 +28,5 @@ ht-degree: 100%
 詳しくは、以下を参照してください。
 
 * [ターゲティングアクティビティについて](../../workflow/using/about-targeting-activities.md)
-* [データのインポート](../../workflow/using/importing-data.md)
 * [ワークフローの実行](../../workflow/using/starting-a-workflow.md)
 * [ワークフローのベストプラクティス](../../workflow/using/workflow-best-practices.md)

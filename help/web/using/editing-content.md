@@ -6,10 +6,10 @@ description: コンテンツの編集
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '1259'
+translation-type: tm+mt
+source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
+workflow-type: tm+mt
+source-wordcount: '1239'
 ht-degree: 100%
 
 ---
@@ -137,6 +137,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 >* 新しいウィンドウ (_blank)
 >* 現在のウィンドウ (_self)
 >* ブラウザーのデフォルト動作
+
 >
 
 
@@ -202,24 +203,14 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 >[!NOTE]
 >
 >* **削除**&#x200B;アイコン：ブロックおよびそのすべてのコンテンツを削除します。
->
->* **複製**&#x200B;アイコン：ブロックおよびブロックに関連するすべてのスタイルを複製します。
+   >
+   >
+* **複製**&#x200B;アイコン：ブロックおよびブロックに関連するすべてのスタイルを複製します。
 
 
 ## 画像とアニメーションの管理 {#managing-images-and-animations}
 
 デジタルコンテンツエディターを使用すると、ブラウザーと互換性のある&#x200B;**すべてのタイプの画像**&#x200B;を操作できます。
-
-DCE と互換性を保つには、次のように、**「Flash」タイプのアニメーション**&#x200B;が HTML ページに挿入されている必要があります。
-
-```
-<object type="application/x-shockwave-flash" data="https://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
- <param name="movie" value="https://www.mydomain.com/flash/your_animation.swf" />
- <param name="quality" value="high" />
- <param name="play" value="true"/>
- <param name="loop" value="true"/> 
-</object>
-```
 
 >[!CAUTION]
 >

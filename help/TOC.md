@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 404ff67207f8c126e44736fe565cf57afcc6397e
+source-git-commit: ef502c023918baa1ae56b9619c7ab488ddf909e3
 workflow-type: tm+mt
-source-wordcount: '2202'
-ht-degree: 98%
+source-wordcount: '2293'
+ht-degree: 94%
 
 ---
 
@@ -68,10 +68,22 @@ ht-degree: 98%
       + [プロファイルのエクスポートとインポート](platform/using/exporting-and-importing-profiles.md)
       + [リストの作成および管理](platform/using/creating-and-managing-lists.md)
    + データのインポートおよびエクスポート{#importing-and-exporting-data}
-      + [一般的なインポートおよびエクスポート](platform/using/generic-imports-and-exports.md)
-      + [データのエクスポート](platform/using/exporting-data.md)
-      + [データのインポート](platform/using/importing-data.md)
-      + [SFTP サーバーの使用](platform/using/sftp-server-usage.md)
+      + [データのインポートとエクスポートの開始](platform/using/get-started-data-import-export.md)
+      + [ワークフローを使用したデータの読み込みと書き出し](platform/using/import-export-workflows.md)
+      + 汎用インポートおよびエクスポートの操作{generic-imports-exports}
+         + [汎用のインポートとエクスポートの使用を開始する](platform/using/about-generic-imports-exports.md)
+         + [テンプレートの読み込みと書き出しの作成](platform/using/creating-import-export-templates.md)
+         + [インポートジョブとエクスポートジョブの作成](platform/using/creating-import-export-jobs.md)
+         + [読み込みジョブの設定](platform/using/executing-import-jobs.md)
+         + [書き出しジョブの設定](platform/using/executing-export-jobs.md)
+         + [ジョブの実行の監視](platform/using/monitoring-jobs-execution.md)
+         + [一般的なインポートのサンプル](platform/using/import-operations-samples.md)
+      + データの暗号化と圧縮の管理{managing-data-encryption-compression}
+         + [処理前のファイルの解凍または復号化](platform/using/unzip-decrypt.md)
+         + [処理前のファイルの圧縮または暗号化](platform/using/zip-encrypt.md)
+      + ベストプラクティスとトラブルシューティング{ベストプラクティス}
+         + [ベストプラクティスの読み込みと書き出し](platform/using/import-export-best-practices.md)
+         + [SFTP サーバーのベストプラクティスとトラブルシューティング](platform/using/sftp-server-usage.md)
    + データのフィルター {#filtering-data}
       + [フィルターオプション](platform/using/filtering-options.md)
       + [フィルターの作成](platform/using/creating-filters.md)
@@ -86,7 +98,10 @@ ht-degree: 98%
       + [列挙の管理](platform/using/managing-enumerations.md)
    + コネクタ {#connectors}
       + [コネクタについて](platform/using/about-connectors.md)
-      + [CRM コネクタ](platform/using/crm-connectors.md)
+      + CRM コネクタ{#crm-connectors}
+         + [CRMコネクタの概要](platform/using/crm-connectors.md)
+         + [Microsoft Dynamics 365に接続](platform/using/crm-ms-dynamics.md)
+         + [データをCRMと同期](platform/using/crm-data-sync.md)
       + [Adobe Analytics Data コネクタ](platform/using/adobe-analytics-data-connector.md)
 + メッセージの送信 {#sending-messages}
    + [メッセージの概要](delivery/using/communication-channels.md)
@@ -114,8 +129,8 @@ ht-degree: 98%
    + モバイルへのメッセージの送信 {#sending-messages-on-mobiles}
       + [SMS チャネル](delivery/using/sms-channel.md)
       + [LINE チャネル](delivery/using/line-channel.md)
-      + [SMSコネクタのプロトコルと設定](delivery/using/sms-protocol.md)
-      + [SMSのトラブルシューティング](delivery/using/troubleshooting-sms.md)
+      + [SMS コネクタのプロトコルと設定](delivery/using/sms-protocol.md)
+      + [SMS のトラブルシューティング](delivery/using/troubleshooting-sms.md)
    + プッシュ通知の送信 {#sending-push-notifications}
       + [モバイルアプリチャネルについて](delivery/using/about-mobile-app-channel.md)
       + [Campaign SDK をモバイルアプリケーションに統合する](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
@@ -347,13 +362,11 @@ ht-degree: 98%
       + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
       + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
 + ワークフローによる自動化 {#automating-with-workflows}
-   + はじめに {#introduction}
-      + [ワークフローの基本を学ぶ](workflow/using/about-workflows.md)
+   + ワークフローの概要 {#introduction}
+      + [ワークフローについて](workflow/using/about-workflows.md)
       + [アクティビティについて](workflow/using/about-activities.md)
-   + 運用全般 {#general-operation}
       + [ワークフローの作成](workflow/using/building-a-workflow.md)
       + [データのターゲティング](workflow/using/targeting-data.md)
-      + [データのインポート](workflow/using/importing-data.md)
       + [ワークフローデータの使用方法](workflow/using/how-to-use-workflow-data.md)
       + [ワークフローのベストプラクティス](workflow/using/workflow-best-practices.md)
    + ワークフローの実行 {#executing-a-workflow}
@@ -441,6 +454,7 @@ ht-degree: 98%
          + [データのエンリッチメント](workflow/using/enriching-data.md)
          + [集計の使用](workflow/using/using-aggregates.md)
          + [重複排除 - 重複アクティビティの結合機能の使用](workflow/using/deduplication-merge.md)
+         + [定期インポートワークフローの設定](workflow/using/recurring-import-workflow.md)
       + クエリのデザイン {#designing-queries}
          + [増分クエリを使用した四半期ごとのリストの更新](workflow/using/quarterly-list-update.md)
       + ターゲティング {#designing-queries}

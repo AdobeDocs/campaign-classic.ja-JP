@@ -6,9 +6,9 @@ description: サマリーリストの作成
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Phone;500;London 5
 
    一方、「**データの読み込み（ファイル）**」アクティビティでは、収集したデータでワークフローの作業用テーブルをエンリッチメントすることが可能です。
 
-   このアクティビティについて詳しくは、[ファイルからのデータの読み込み](../../workflow/using/importing-data.md#loading-data-from-a-file)を参照してください。
+   このアクティビティについて詳しくは、[ファイルからのデータの読み込み](../../platform/using/import-export-workflows.md#loading-data-from-a-file)を参照してください。
 
 1. 「**ファイルコレクター**」アクティビティを設定し、任意のディレクトリからテキスト（*.txt）タイプのファイルを収集します。
 

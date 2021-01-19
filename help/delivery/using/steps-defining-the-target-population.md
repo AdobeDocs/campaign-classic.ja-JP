@@ -6,9 +6,9 @@ description: ターゲット母集団の定義
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 1. 受信者をインポートする場合は、**[!UICONTROL ファイルフォーマットの定義...]** リンクをクリックし、外部ファイルを選択して設定します。
 
-   データのインポートについて詳しくは、[この節](../../platform/using/importing-data.md#step-2---source-file-selection)を参照してください。
+   データのインポートについて詳しくは、[この節](../../platform/using/executing-import-jobs.md#step-2---source-file-selection)を参照してください。
 
 1. 「**[!UICONTROL 完了]**」をクリックして、この配信を標準の配信として設定します。
 
@@ -235,6 +235,6 @@ ht-degree: 100%
 
 このビデオでは、既存の E メールにシードと配達確認を追加する方法とそれを送信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

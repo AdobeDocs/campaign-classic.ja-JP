@@ -6,9 +6,9 @@ description: 購読の管理
 audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ E メールの場合、必須の購読解除リンクが自動的に生成され
 * 一連の受信者をこのサービスに自動的に購読登録します。受信者のリストは、フィルタリング操作、グループ、フォルダー、インポートまたはマウスを使用した直接選択から取得できます。この受信者を購読登録するには、プロファイルを選択して右クリックします。**[!UICONTROL アクション／サービスの購読選択]**&#x200B;を選択し、該当するサービスを選択して、操作を開始します。
 * 受信者をインポートして、情報サービスに自動的に購読登録します。そのためには、インポートウィザードの最後の手順で該当するサービスを選択します。
 
-   詳しくは、[この節](../../platform/using/importing-data.md#import-wizard)を参照してください。
+   詳しくは、[この節](../../platform/using/executing-import-jobs.md)を参照してください。
 
 * 受信者をサービスに購読登録できる Web フォームを使用します。
 

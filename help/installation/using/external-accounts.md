@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 4efe5f8a9130e7925194e56e088b3745c0cbd11a
 workflow-type: tm+mt
-source-wordcount: '1879'
-ht-degree: 92%
+source-wordcount: '1706'
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,6 @@ Adobe Campaign には、事前定義済みの外部アカウントのセット�
 * [Adobe Experience Manager の外部アカウント](#adobe-experience-manager-external-account)
 * [Amazon Simple Storage Service（S3）外部アカウント](#amazon-simple-storage-service--s3--external-account)
 * [Microsoft Dynamics CRM 外部アカウント](#microsoft-dynamics-crm-external-account)
-* [Oracle On Demand 外部アカウント](#oracle-on-demand-external-account)
 * [Salesforce CRM 外部アカウント](#salesforce-crm-external-account)
 
 ## 外部アカウントの作成 {#creating-an-external-account}
@@ -331,34 +330,11 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 **[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントがあれば、Microsoft Dynamics データを Adobe Campaign にインポートおよびエクスポートできます。
 
-Adobe Campaign で Microsoft Dynamics コネクタを動作させるための設定は、デプロイメントタイプによって異なります。
-**[!UICONTROL オンプレミス]**&#x200B;および **[!UICONTROL Office 365]** のデプロイメントタイプでは、以下の詳細を指定する必要があります。
+キャンペーンの詳細 — この[ページ](../../platform/using/crm-ms-dynamics.md)のMicrosoft Dynamics CRMコネクタ。
 
-![](assets/ext_account_21.png)
-
-* **[!UICONTROL アカウント]**
-
-   Microsoft CRM へのログインに使用するアカウント。
-
-* **[!UICONTROL サーバー]**
-
-   Microsoft CRM サーバーの URL。
-
-* **[!UICONTROL パスワード]**
-
-   Microsoft CRM へのログインに使用するパスワード。
-
-* オンプレミスおよび Office 365 用の&#x200B;**[!UICONTROL 会社名]**
-
-   会社の名前。
-
-* オンプレミスデプロイメント用の&#x200B;**[!UICONTROL 組織名]**
-
-   組織の名前。Microsoft Dynamics の開発者向けリソースダッシュボードの「**[!UICONTROL 一意の名前]**」フィールドにある組織名。
-
-* オンプレミス用の **[!UICONTROL CRM バージョン]**
-
-   **[!UICONTROL Dynamics CRM 2007]**、**[!UICONTROL Dynamics CRM 2015]** または **[!UICONTROL Dynamics CRM 2016]** の CRM バージョン。
+>[!NOTE]
+>
+> **[!UICONTROL On-]** Premiseおよび **[!UICONTROL Office 365]** 展開の種類は非推奨となりました。[詳細情報](../../rn/using/deprecated-features.md)。
 
 **[!UICONTROL Web API]** デプロイメントタイプと&#x200B;**[!UICONTROL パスワード資格情報]**&#x200B;認証を使用する場合、以下の詳細を指定する必要があります。
 
@@ -404,29 +380,7 @@ Adobe Campaign で Microsoft Dynamics コネクタを動作させるための設
 
    **[!UICONTROL Dynamics CRM 2007]**、**[!UICONTROL Dynamics CRM 2015]** または **[!UICONTROL Dynamics CRM 2016]** の CRM バージョン。
 
-この設定について詳しくは、この[ページ](../../platform/using/crm-connectors.md#example-for-microsoft-dynamics)を参照してください。
-
-## Oracle On Demand 外部アカウント {#oracle-on-demand-external-account}
-
-**[!UICONTROL Oracle on demand]** 外部アカウントを使用すれば、Oracle データを Adobe Campaign にインポートおよびエクスポートできます。
-
-![](assets/ext_account_18.png)
-
-Oracle On Demand 外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報を提供する必要があります。
-
-* **[!UICONTROL アカウント]**
-
-   Oracle CRM On Demand へのログインに使用するアカウント。
-
-* **[!UICONTROL サーバー]**
-
-   Oracle CRM On Demand サーバーの URL。
-
-* **[!UICONTROL パスワード]**
-
-   Oracle CRM On Demand へのログインに使用するパスワード。
-
-この設定について詳しくは、この[ページ](../../platform/using/crm-connectors.md#example-for-oracle-on-demand)を参照してください。
+この設定について詳しくは、この[ページ](../../platform/using/crm-connectors.md)を参照してください。
 
 ## Salesforce CRM 外部アカウント {#salesforce-crm-external-account}
 
@@ -458,4 +412,4 @@ Salesforce CRM 外部アカウントを Adobe Campaign で使用できるよう�
 
 この外部アカウントの場合、設定ウィザードで Salesforce CRM を設定する必要があります。
 
-この設定について詳しくは、この[ページ](../../platform/using/crm-connectors.md#example-for-salesforce-com)を参照してください。
+この設定について詳しくは、この[ページ](../../platform/using/crm-connectors.md)を参照してください。

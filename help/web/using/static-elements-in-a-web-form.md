@@ -6,11 +6,11 @@ description: Web フォームの静的要素
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: ht
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: ht
-source-wordcount: '1332'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
+workflow-type: tm+mt
+source-wordcount: '1329'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## HTML コンテンツの挿入 {#inserting-html-content}
 
-フォームページに、ハイパーテキストリンク、画像、書式設定された段落、ビデオまたは Flash オブジェクトなどの HTML コンテンツを含めることができます。
+フォームページにHTMLコンテンツを含めることができます。ハイパーテキストリンク、画像、書式設定された段落、ビデオなど。
 
 HTML エディターを使用すると、コンテンツを入力して、フォームページに挿入できます。エディターを開くには、**[!UICONTROL 静的要素]**／**[!UICONTROL HTML]** をクリックします。
 

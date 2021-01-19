@@ -6,9 +6,9 @@ description: Campaign Classic に関する FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
+workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Campaign の中でターゲット母集団を選択し、オーディエ�
 
 ## プロファイルのインポート方法は？ {#how-to-import-profiles-}
 
-データベースへの[プロファイルのインポート](../../platform/using/importing-data.md#generic-import-samples)をおこなう簡単な使用例を紹介しています。
+データベースへの[プロファイルのインポート](../../platform/using/import-operations-samples.md)をおこなう簡単な使用例を紹介しています。
 
 ![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/importing-profiles.translate.html)
 

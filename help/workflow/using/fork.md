@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 translation-type: tm+mt
-source-git-commit: d35b22386bd2681ba02e4379c627821b35a7d04e
+source-git-commit: e5f718908d0bb6893e54c51700865ecda09c80db
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 16%
+source-wordcount: '200'
+ht-degree: 9%
 
 ---
 
@@ -28,11 +28,9 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->Forkアクティビティの後に追加された送信トランジションは、同時に実行されないことに注意してください。
->
->したがって、ワークフローのパフォーマンスを向上させるためではなく、複数のアクティビティを個別に実行し、最終的にそれらを結合してからワークフローの残りの部分を実行するためにアクティビティを使用する必要があります。
+>**[!UICONTROL Fork]**&#x200B;アクティビティ&#x200B;**の後に追加された送信トランジションは、**&#x200B;を同時に実行しません。 この動作は、ワークフローのパフォーマンスに影響を与える可能性があります。 複数のアクティビティを個別に実行し、最終的にそれらを結合してから残りのワークフローを実行する必要がある場合は、このアクティビティを使用します。
 
-分岐アクティビティを設定するには、分岐アクティビティを開き、該当するアウトバウンドトランジションの番号とラベルを定義します。
+**[!UICONTROL Fork]**&#x200B;アクティビティを構成するには、それを開いて送信トランジションの番号とラベルを定義します。
 
 ![](assets/s_user_segmentation_fork.png)
 

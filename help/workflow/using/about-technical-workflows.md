@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 translation-type: tm+mt
-source-git-commit: a80f611140a5fb03e3547a8de228ecd8c96e8862
+source-git-commit: f57f52d8807eb771e2416b6648e1d746a206fa96
 workflow-type: tm+mt
 source-wordcount: '1826'
 ht-degree: 74%
@@ -57,7 +57,7 @@ ht-degree: 74%
 | **LINE V2アクセストークンの更新** (updateLineV2AccessToken) | LINE チャネル | このワークフローは、アクセストークンを LINE V2 に更新します。 |
 | **MIDからLineUserIDへの移行** (MIDToUserIDMigration) | LINE チャネル | このワークフローは、LINE V1 から LINE V2 へ移行用に、LINE V2 ユーザーの ID を生成します。 |
 | **マーケティングリソース通知** (assetMgt) | マーケティングリソース (MRM) | マーケティングリソースの承認とパブリッシュにリンクされた通知を管理します。 |
-| **Message Center  &lt;external_account_name>** (mcSynch_&lt;external_account_name>) | トランザクションメッセージコントロール (Message Center - コントロール) | このワークフローの機能は次のとおりです。 <ul><li>操作によって処理されるイベントリストを復元します。</li><li>配信メッセージの選定を復元するために NmsBroadLogMsg テーブルと同期します。</li><li>NmsBroadLogMsg テーブルとの同期が完了するとただちに、イベント配信ログを復元します。</li><li>配信 URL のトラッキングを復元するために NmsTrackingUrl テーブルと同期します。</li><li>NmsTrackingUrl テーブルとの同期が完了するとただちに、イベントトラッキング URL を復元します。</li><li>配信の送信後 3 時間おきに、強制隔離されたすべての E メールアドレスを復元できます。</ul> |
+| **Message Center  &lt;external_account_name>** (mcSynch_&lt;external_account_name>) | トランザクションメッセージコントロール (Message Center - コントロール) | このワークフローの機能は次のとおりです。 <ul><li>操作によって処理されるイベントリストを復元します。</li><li>配信メッセージの選定を復元するために NmsBroadLogMsg テーブルと同期します。</li><li>NmsBroadLogMsg テーブルとの同期が完了するとただちに、イベント配信ログを復元します。</li><li>配信 URL のトラッキングを復元するために NmsTrackingUrl テーブルと同期します。</li><li>NmsTrackingUrl テーブルとの同期が完了するとただちに、イベントトラッキング URL を復元します。</li><li>配信の送信後 3 時間おきに、強制隔離されたすべての E メールアドレスを復元できます。</li></ul> |
 | **MessageCenter完全な集計計算** (agg_messageCenter_full) | トランザクションメッセージコントロール (Message Center - コントロール) | このワークフローは、Message Centerキューブの完全な集計を更新します。 デフォルトで、毎日午前 3 時にトリガーされます。この集計は、チャネル、日付、ステータス、イベントタイプの各ディメンションを取り込みます。次に、Message Centerキューブを使用して、イベントに基づくレポートを生成します。 キューブの詳細については、[このセクション](../../reporting/using/about-cubes.md)を参照してください |
 | **ミッドソーシング(配信カウンター)** (defaultMidSourcingDlv) | ミッドソーシング転送 | ミッドソーシングサーバー上の配信のカウント情報を収集します。カウント情報には、送信された配信の数など、一般的な配信指標が含まれています。開封数などのトラッキング情報は含まれていません。デフォルトで、10 分おきにトリガーされます。 |
 | **ミッドソーシング(配信ログ)** (defaultMidSourcingLog) | ミッドソーシング転送 | ミッドソーシングサーバー上の配信ログを収集します。デフォルトで、1 時間おきにトリガーされます。 |

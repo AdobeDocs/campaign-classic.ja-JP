@@ -6,9 +6,9 @@ description: データ読み込み（ファイル）ワークフローアクテ�
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ![](assets/preprocessing-dataloading.png)
 
-この点について詳しくは、次の節を参照してください。 [処理の前にファイルを解凍または復号化します](../../workflow/using/importing-data.md#unzipping-or-decrypting-a-file-before-processing)。
+この点について詳しくは、次の節を参照してください。 [処理の前にファイルを解凍または復号化します](../../platform/using/unzip-decrypt.md)。
 
 ## ファイルフォーマットの定義 {#defining-the-file-format}
 
@@ -113,7 +113,7 @@ ht-degree: 100%
    * 1 番目の列には、購入（3,000 ユーロ以上または未満）、未購入または 1 つ以上の購入アイテムの返金というイベントと紐付けするコードが含まれています。
    * 2 番目から 4 番目の列はそれぞれ、クライアントの姓、名前、E メールおよびアカウント番号が含まれます。
 
-   世も混まれるファイルのフォーマット設定は、Adobe Campaign へのデータインポート時に定義されたフォーマット設定と紐付けされます。詳しくは、[この節](../../platform/using/importing-data.md#step-2---source-file-selection)を参照してください。
+   世も混まれるファイルのフォーマット設定は、Adobe Campaign へのデータインポート時に定義されたフォーマット設定と紐付けされます。詳しくは、[この節](../../platform/using/executing-import-jobs.md#step-2---source-file-selection)を参照してください。
 
 1. 分割アクティビティで、「**イベント**」列の値に従って、作成するサブセットを指定します。
 

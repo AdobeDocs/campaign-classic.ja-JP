@@ -6,9 +6,9 @@ description: 収集したデータのパブリッシュ、トラッキングお�
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 100%
 
@@ -111,7 +111,7 @@ URL パラメーターについて詳しくは、[このページ](../../web/usi
 
    >[!NOTE]
    >
-   >データのエクスポートおよびその設定のステージについて詳しくは、[この節](../../platform/using/generic-imports-and-exports.md)を参照してください。
+   >データのエクスポートおよびその設定のステージについて詳しくは、[この節](../../platform/using/about-generic-imports-exports.md)を参照してください。
 
 ## 収集されたデータの使用 {#using-the-collected-data}
 

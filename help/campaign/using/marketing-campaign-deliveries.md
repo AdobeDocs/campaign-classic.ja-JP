@@ -7,7 +7,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
 workflow-type: tm+mt
 source-wordcount: '3085'
 ht-degree: 99%
@@ -455,7 +455,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->詳しくは、[はじめに](../../platform/using/generic-imports-and-exports.md)の節を参照してください。
+>詳しくは、[はじめに](../../platform/using/get-started-data-import-export.md)の節を参照してください。
 
 #### チュートリアルビデオ {#create-email-video}
 

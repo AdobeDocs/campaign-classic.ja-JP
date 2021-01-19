@@ -6,11 +6,11 @@ description: Campaign Classic に関する FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign のワークフローを使用して、複数のプロセスと�
 
 ## Campaign でのデータのインポートはどのようにおこなえますか？{#how-can-i-import-data-in-campaign-}
 
-Campaign ワークフローによってデータをインポートするためのベストプラクティスについては、[このセクション](../../workflow/using/importing-data.md)を参照してください。
+[このセクション](../../platform/using/import-export-best-practices.md)でデータをインポートするためのベストプラクティスを説明します。
 
 ## ワークフローの実行を監視できますか？{#can-i-monitor-workflow-execution-}
 
@@ -59,7 +59,7 @@ Adobe Campaign では、より効率的で柔軟なツールを提供するこ�
 
 外部テキストファイルからの値を持つ Campaign テーブルの特定のフィールドを変更できます。
 
-[方法についてはここをクリック](../../platform/using/importing-data.md#example--enrich-the-values-with-those-of-an-external-file)してください。
+[方法についてはここをクリック](../../platform/using/import-operations-samples.md#example--enrich-the-values-with-those-of-an-external-file)してください。
 
 ## 新しい受信者を識別してターゲットにするにはどうすればよいですか？{#how-can-i-identify-and-target-new-recipients-}
 

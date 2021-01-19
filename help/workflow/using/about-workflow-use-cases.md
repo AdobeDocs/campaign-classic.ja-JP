@@ -9,10 +9,10 @@ topic-tags: about-workflows-and-data-management
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe7ff64d24113e026a47aa1c9f08daacce2b383e
+source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 97%
+source-wordcount: '207'
+ht-degree: 94%
 
 ---
 
@@ -52,10 +52,11 @@ ht-degree: 97%
 * [サマリーリストの作成](../../workflow/using/creating-a-summary-list.md)
 * [データのエンリッチメント](../../workflow/using/enriching-data.md)
 * [集計の使用](../../workflow/using/using-aggregates.md)
-* [Campaign コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート](../../workflow/using/importing-data.md#use-case-gpg-decrypt)
+* [Campaign コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート](../../platform/using/unzip-decrypt.md)
 * [Campaign コントロールパネルにインストールされたキーを使用したデータの暗号化とエクスポート](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [増分クエリを使用した四半期ごとのリストの更新](../../workflow/using/quarterly-list-update.md)
 * [重複排除 - 重複アクティビティの結合機能の使用](../../workflow/using/deduplication-merge.md)
+* [定期インポートワークフローの設定](../../workflow/using/recurring-import-workflow.md)
 
 ## ターゲティング {#designing-queries}
 

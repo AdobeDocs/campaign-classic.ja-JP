@@ -81,7 +81,7 @@ ht-degree: 94%
       + データの暗号化と圧縮の管理{managing-data-encryption-compression}
          + [処理前のファイルの解凍または復号化](platform/using/unzip-decrypt.md)
          + [処理前のファイルの圧縮または暗号化](platform/using/zip-encrypt.md)
-      + ベストプラクティスとトラブルシューティング{ベストプラクティス}
+      + ベストプラクティスとトラブルシューティング{best-practices}
          + [ベストプラクティスの読み込みと書き出し](platform/using/import-export-best-practices.md)
          + [SFTP サーバーのベストプラクティスとトラブルシューティング](platform/using/sftp-server-usage.md)
    + データのフィルター {#filtering-data}

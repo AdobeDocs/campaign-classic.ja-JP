@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: ef502c023918baa1ae56b9619c7ab488ddf909e3
+source-git-commit: 048ceef9e4498b557601f3eb2db839e415d6e8c5
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2290'
 ht-degree: 94%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 94%
    + データのインポートおよびエクスポート{#importing-and-exporting-data}
       + [データのインポートとエクスポートの開始](platform/using/get-started-data-import-export.md)
       + [ワークフローを使用したデータの読み込みと書き出し](platform/using/import-export-workflows.md)
-      + 汎用インポートおよびエクスポートの操作{generic-imports-exports}
+      + 汎用のインポートおよびエクスポートの操作{#generic-imports-exports}
          + [汎用のインポートとエクスポートの使用を開始する](platform/using/about-generic-imports-exports.md)
          + [テンプレートの読み込みと書き出しの作成](platform/using/creating-import-export-templates.md)
          + [インポートジョブとエクスポートジョブの作成](platform/using/creating-import-export-jobs.md)
@@ -78,10 +78,10 @@ ht-degree: 94%
          + [書き出しジョブの設定](platform/using/executing-export-jobs.md)
          + [ジョブの実行の監視](platform/using/monitoring-jobs-execution.md)
          + [一般的なインポートのサンプル](platform/using/import-operations-samples.md)
-      + データの暗号化と圧縮の管理{managing-data-encryption-compression}
+      + データ暗号化と圧縮の管理{#managing-data-encryption-compression}
          + [処理前のファイルの解凍または復号化](platform/using/unzip-decrypt.md)
          + [処理前のファイルの圧縮または暗号化](platform/using/zip-encrypt.md)
-      + ベストプラクティスとトラブルシューティング{best-practices}
+      + ベストプラクティスとトラブルシューティング{#best-practices}
          + [ベストプラクティスの読み込みと書き出し](platform/using/import-export-best-practices.md)
          + [SFTP サーバーのベストプラクティスとトラブルシューティング](platform/using/sftp-server-usage.md)
    + データのフィルター {#filtering-data}

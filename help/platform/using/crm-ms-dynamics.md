@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 translation-type: tm+mt
-source-git-commit: 7478ae37aee5e8b0d9c904f5b9d810375d9d6481
+source-git-commit: 521bc3bf9b2507947007d7f458679275d407f910
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 4%
+source-wordcount: '978'
+ht-degree: 5%
 
 ---
 
@@ -188,3 +188,22 @@ Microsoft Dynamics 365とキャンペーンを接続するには、キャンペ�
 このビデオでは、Office 365展開のコンテキストで、Dynamics 365をAdobe Campaign Classicと統合する方法を学習します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23837?quality=12)
+
+
+## サポートされるフィールドデータ型{#ms-dyn-supported-types}
+
+Microsoft Dynamics 365でサポートされる/サポートされない属性の種類は、次のとおりです。
+
+
+| 属性タイプ | サポート対象 |
+| --------------------------------------------------------------------------------- | --------- |
+| 基本型：boolean, datetime, decimal, float,重複，整数， bigint, string | Yes |
+| お金(重複) | はい |
+| memo、entityname、primarykey、uniqueidentifier（文字列） | はい |
+| ステータス、picklist(定義済みリストーに使用可能な値を格納)、state（文字列） | はい |
+| owner（文字列） | はい |
+| 参照（単一のエンティティ参照参照のみ） | はい |
+| 顧客 | No |
+| 関連 | いいえ |
+| PartyList | いいえ |
+| ManagedProperty | いいえ |

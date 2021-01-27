@@ -6,9 +6,9 @@ description: テスト環境の作成
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 100%
 

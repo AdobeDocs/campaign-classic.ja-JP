@@ -6,9 +6,9 @@ description: Adobe Campaign Classic で AMP を使用してインタラクティ
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 100%
 
@@ -207,6 +207,6 @@ AMP コンテンツとフォールバックの準備が整い、互換性のあ�
 
 次のビデオでは、Adobe Campaign Classic で AMP を有効にする方法を説明し、その使用方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

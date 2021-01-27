@@ -6,9 +6,9 @@ description: 繰り返し配信ワークフローアクティビティの詳細�
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 このビデオでは、繰り返し配信とスケジューラーアクティビティを設定する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 

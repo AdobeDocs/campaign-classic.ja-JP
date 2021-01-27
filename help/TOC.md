@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 048ceef9e4498b557601f3eb2db839e415d6e8c5
 workflow-type: tm+mt
 source-wordcount: '2290'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -618,7 +618,7 @@ ht-degree: 94%
       + [データベースの作成と設定](installation/using/creating-and-configuring-the-database.md)
       + [Campaign サーバーの設定](installation/using/campaign-server-configuration.md)
       + [インスタンスのデプロイ](installation/using/deploying-an-instance.md)
-      + [Campaign Classic組み込みパッケージのインストール](installation/using/installing-campaign-standard-packages.md)
+      + [Campaign Classic 組み込みパッケージのインストール](installation/using/installing-campaign-standard-packages.md)
    + 任意の追加設定 {#additional-configurations}
       + [Campaign サーバーの設定](installation/using/configuring-campaign-server.md)
       + [LDAP を介した接続](installation/using/connecting-through-ldap.md)
@@ -685,7 +685,7 @@ ht-degree: 94%
       + [アプリケーションオブジェクト](production/using/application-objects.md)
    + トラブルシューティング {#troubleshooting-toc}
       + [実稼働環境のトラブルシューティングの概要](production/using/troubleshooting.md)
-      + 一般的な問題と一般的な問題{#common-general-issues-toc}
+      + よくある問題と一般的な問題 {#common-general-issues-toc}
          + [モジュールおよびよくある問題](production/using/modules-and-frequent-issues.md)
          + [ワークフローの実行](production/using/workflow-execution.md)
          + [パスワードを忘れた場合](production/using/lost-password.md)
@@ -695,19 +695,19 @@ ht-degree: 94%
          + [画像の表示の問題](production/using/image-display-issues.md)
          + [画像が見つからない](production/using/images-missing.md)
          + [一時ファイル](production/using/temporary-files.md)
-      + ログの操作{#working-with-log-toc}
+      + ログの操作 {#working-with-log-toc}
          + [ログの精度](production/using/log-precision.md)
          + [トラッキングログの問題](production/using/tracking-logs-issues.md)
-      + データベースの問題{#database-issues-toc}
+      + データベースの問題 {#database-issues-toc}
          + [データベースのパフォーマンス](production/using/database-performances.md)
          + [Oracle データベースのエンコード](production/using/encoding-of-the-oracle-database.md)
-      + 接続の強化{#connection-improvements-toc}
+      + 接続の向上 {#connection-improvements-toc}
          + [接続の失敗](production/using/failure-to-connect.md)
          + [接続のしきい値](production/using/connection-thresholds.md)
-      + 技術的なトラブルシューティング{#technical-troubleshooting-toc}
+      + 技術的なトラブルシューティング {#technical-troubleshooting-toc}
          + [Linux でのスタックトレース](production/using/stack-trace-in-linux.md)
          + [JSP の動作](production/using/jsp-behavior.md)
-         + [Tomcatバージョンの検索](production/using/locate-tomcat-version.md)
+         + [Tomcat バージョンの検索](production/using/locate-tomcat-version.md)
 + 開発者ガイド {#configuring-campaign-classic}
    + データモデル {#data-model}
       + [データモデルについて](configuration/using/about-data-model.md)

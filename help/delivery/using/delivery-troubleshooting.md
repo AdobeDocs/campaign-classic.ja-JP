@@ -6,9 +6,9 @@ description: 配信のパフォーマンスと配信の監視に関する問題�
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f3ba836bbb5a5f82d6a7868dcb15edc8e61b9a5b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
 

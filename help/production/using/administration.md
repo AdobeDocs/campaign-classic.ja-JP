@@ -52,7 +52,7 @@ Linuxでアクセス可能な通常の管理コマンドのリストを以下に
    >    * 別の値（エラーがある場合）。
 
 
-* マルチインスタンスまたはモノインスタンスモジュール(**web**、**trackinglogd**、**syslogd**、**mta**、**wfserver**、**inmail&lt;a1/>)の開始/停止):**
+* マルチインスタンスまたはモノインスタンスモジュール(**web**、**trackinglogd**、**syslogd**、**mta**、**wfserver**、**inmail**)の開始/停止):
 
    **nlserver開始`<module>[@<instance>]`**
 

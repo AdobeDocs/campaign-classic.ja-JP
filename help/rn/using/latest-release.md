@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 5b7639e7e64d4cb42d3ae77b04ba90a45fb58159
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
 workflow-type: tm+mt
-source-wordcount: '1915'
-ht-degree: 100%
+source-wordcount: '1941'
+ht-degree: 97%
 
 ---
 
@@ -31,6 +31,17 @@ _2021 年 1 月 11 日_
 ## ![](assets/do-not-localize/red_2.png) リリース 20.3.1 - ビルド 9228 {#release-20-3-1-build-9228}
 
 _2020 年 10 月 27 日_
+
+>[!CAUTION]
+>
+> * このリリースには、新しい接続プロトコルが付属しています。adobeIDサービス(IMS)を介してキャンペーンに接続する場合、**2021年3月21日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるように、アップグレードが必要です。
+   >
+   > 
+* このリリースには、次のセキュリティ修正が含まれています。環境のセキュリティを強化するには、アップグレードが必須です。
+
+>
+
+
 
 **新機能**
 
@@ -71,10 +82,6 @@ _2020 年 10 月 27 日_
 </tr> 
 </tbody> 
 </table>
-
->[!CAUTION]
->
->このリリースには、新しい接続プロトコルが追加されています。2021 年 3 月 21 日以降に Campaign に接続できるようにするためには、Campaign サーバーとクライアントコンソールの両方のアップグレードが必須です。
 
 **セキュリティの機能強化**
 

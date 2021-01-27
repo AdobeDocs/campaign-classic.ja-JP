@@ -76,7 +76,7 @@ ht-degree: 8%
   <tr> 
    <td> Web </td> 
    <td> アプリケーションサーバー（HTTPおよびSOAP）<br /> </td> 
-   <td> コンソールとWeb接続が動作せず、<strong>xtk:session</strong>タイプのエラー<br />が発生する場合は、このモジュールをチェックしてください。 </td> 
+   <td> コンソールとWeb接続が動作せず、トリガーが<strong>xtk:session</strong>タイプのエラー<br />でない場合は、このモジュールをチェックしてください。 </td> 
   </tr> 
   <tr> 
    <td> wfserver </td> 

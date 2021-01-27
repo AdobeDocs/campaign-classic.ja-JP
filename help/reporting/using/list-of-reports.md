@@ -6,9 +6,9 @@ description: レポートのリスト
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 100%
 
@@ -38,22 +38,22 @@ ht-degree: 100%
   <tr> 
    <td> 配信スループット（throughput）<br /> </td> 
    <td> メッセージ数/時間および M ビット/秒の配信スループットのグラフ。<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:配信<br /> </td> 
   </tr> 
   <tr> 
    <td> 配信不能件数とバウンス数（errors）<br /> </td> 
    <td> 原因別ドメイン別バウンス数と配信不能件数<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:配信<br /> </td> 
   </tr> 
   <tr> 
    <td> トラッキング指標（deliveryFeedback）<br /> </td> 
    <td> 受信者の行動をトラッキングするための主要指標の概要。<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:配信<br /> </td> 
   </tr> 
   <tr> 
    <td> トラッキング指標（mobileAppDeliveryFeedback）<br /> </td> 
    <td> モバイルアプリケーションへの配信のトラッキング指標。<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:配信<br /> </td> 
   </tr> 
   <tr> 
    <td> ブラウザー（browserStatistics）<br /> </td> 
@@ -63,42 +63,42 @@ ht-degree: 100%
   <tr> 
    <td> ソーシャルネットワークへの共有（deliveryForward）<br /> </td> 
    <td> 共有アクティビティとメール開封に関する統計。<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:配信<br /> </td> 
   </tr> 
   <tr> 
    <td> ホットクリック（hoturls）<br /> </td> 
    <td> メッセージとクリック率を重ねて表示。<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:配信<br /> </td> 
   </tr> 
   <tr> 
    <td> 仮説レポート（deliveryHypothesis）<br /> </td> 
    <td> 配信仮説に関する測定の概要の表示。<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:配信<br /> </td> 
   </tr> 
   <tr> 
    <td> 配信統計（statisticsPerDelivery）<br /> </td> 
    <td> E メールドメインごとの統計（処理メッセージ数、配信メッセージ数、ハードバウンス数、ソフトバウンス数、クリック数、購読解除数）。<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:配信<br /> </td> 
   </tr> 
   <tr> 
    <td> 共有アクティビティの統計（forwardActivities）<br /> </td> 
    <td> 期間ごとの共有アクティビティ数、開封数および購読数の分析。<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:配信<br /> </td> 
   </tr> 
   <tr> 
    <td> トラッキング統計（trackingStatistics）<br /> </td> 
    <td> 開封率、クリック率、トランザクション率に関するレポート。<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:配信<br /> </td> 
   </tr> 
   <tr> 
    <td> 配信の概要（deliverySending）<br /> </td> 
    <td> 配信概要の指標：ターゲット数、除外数および送信メッセージ数。<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:配信<br /> </td> 
   </tr> 
   <tr> 
    <td> 配信の概要（deliveryStatistics）<br /> </td> 
    <td> 選択した配信の概要テーブル : ターゲット、除外および送信されたメッセージ。<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:配信<br /> </td> 
   </tr> 
   <tr> 
    <td> オペレーティングシステム（osStatistics）<br /> </td> 
@@ -108,12 +108,12 @@ ht-degree: 100%
   <tr> 
    <td> 反応率（deliveryFeedbackSocial）<br /> </td> 
    <td> 配信の反応率および反応の分類。<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:配信<br /> </td> 
   </tr> 
   <tr> 
    <td> URL とクリックスループット（topUrlDelivery）<br /> </td> 
    <td> 最も反応の良い URL および関連するクリックストリーム。<br /> </td> 
-   <td> nms:delivery<br /> </td> 
+   <td> nms:配信<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -262,7 +262,7 @@ ht-degree: 100%
   <tr> 
    <td> コストラインの調査（budgetExplorerProgram）<br /> </td> 
    <td> コストラインの記述的分析。<br /> </td> 
-   <td> nms:program<br /> </td> 
+   <td> nms:プログラム<br /> </td> 
   </tr> 
   <tr> 
    <td> 予算の概要（budget）<br /> </td> 

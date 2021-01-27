@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 531eb23ff8fe1b77c37a51e7f99921b0bc071f0f
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 この設定を開始する前に、次を使用していることを確認してください。
 
-* Adobe Campaign20.3、20.2.4、19.1.8またはGold Standard 11以上
+* Adobe Campaign 20.3、20.2.4、19.1.8 または Gold Standard 11 以降
 * Adobe Analytics Standard 版
 
 また、次も必要です。

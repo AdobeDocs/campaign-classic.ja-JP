@@ -6,9 +6,9 @@ description: 配信に関するレポート
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%
 
@@ -98,9 +98,9 @@ Florian のアクション（1 回の開封と 9 回のクリック）は、次�
 |  | クリックした受信者数 | クリックしたユーザー数 | 開封した受信者数 |
 |---|---|---|---|
 | John | - | - | - |
-| Marie | - | - | +1 |
+| 麻理恵 | - | - | +1 |
 | Florian | +1 | +1 | +1 |
-| 小計 | 1 | 1 | 2 |
+| 小計 | 3 | 3 | 2 |
 
 次のログは、Florian が E メールを転送したユーザーによって実行された開封および 2 回のクリックと一致します。
 
@@ -119,8 +119,8 @@ Florian のアクション（1 回の開封と 9 回のクリック）は、次�
 |  | クリックした受信者数 | クリックしたユーザー数 | 開封した受信者数 |
 |---|---|---|---|
 | John | - | - | - |
-| Marie | - | - | +1 |
-| Florian | +1 | +1 | +1 |
+| 麻理恵 | - | - | +1 |
+| フロリアン | +1 | +1 | +1 |
 | 不明なユーザー | - | +1 | - |
 | 小計 | 1 | 2 | 2 |
 
@@ -143,8 +143,8 @@ Henry が実行した開封と 4 回のクリックは、次のログに表示�
 |  | クリックした受信者数 | クリックしたユーザー数 | 開封した受信者数 |
 |---|---|---|---|
 | John | - | - | - |
-| Marie | - | - | +1 |
-| Florian | +1 | +1 | +1 |
+| 麻理恵 | - | - | +1 |
+| フロリアン | +1 | +1 | +1 |
 | 不明なユーザー | - | +1 | - |
 | Henry | +1 | +4 | +1 |
 | 小計 | 2 | 6 | 3 |

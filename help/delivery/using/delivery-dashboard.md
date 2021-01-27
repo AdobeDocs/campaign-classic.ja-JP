@@ -6,9 +6,9 @@ description: 配信ダッシュボードを使用して配信を監視する方�
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3c82e30cdc1057be6357d48170b959fb89c79528
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 100%
 

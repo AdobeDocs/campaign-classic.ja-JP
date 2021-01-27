@@ -10,16 +10,16 @@ translation-type: tm+mt
 source-git-commit: 5bc6c8a824929c6a61cf562fc961e5bdd1867837
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 
 # イベントのパージ{#purging-events}
 
-[展開ウィザード](../../production/using/database-cleanup-workflow.md#deployment-wizard)を使用して、データをデータベースに格納する期間を設定できます。
+[デプロイメントウィザード](../../production/using/database-cleanup-workflow.md#deployment-wizard)を使用し、データをデータベース上に保存する期間を設定できます。
 
-イベントの削除は、[データベースのクリーンアップワークフロー](../../production/using/database-cleanup-workflow.md)によって自動的に行われます。 このワークフローは、実行インスタンスが受信し保存したイベントおよびコントロールインスタンスがアーカイブしたイベントをパージします。
+イベントのパージは、[データベースクリーンアップワークフロー](../../production/using/database-cleanup-workflow.md)によって自動的に実行されます。このワークフローは、実行インスタンスが受信し保存したイベントおよびコントロールインスタンスがアーカイブしたイベントをパージします。
 
 矢印を使用し、必要に応じてパージの設定を変更します。
 

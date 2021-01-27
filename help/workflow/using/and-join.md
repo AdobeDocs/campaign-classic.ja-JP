@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3eecc16442a11849c12819cf83392f60c5b82a13
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->異なるターゲティングディメンションで構成された受信トランジションは、**[!UICONTROL AND-join]**&#x200B;アクティビティを使用して結合できません。
+>異なるターゲティングディメンションで設定されたインバウンドトランジションは、**[!UICONTROL AND-join]** アクティビティを使用して結合できません。
 
 アウトバウンドに送られるアクティビティの母集団は、アクティビティ内のインバウンドトランジション間のメインセットを選択することで、決定されます。
 

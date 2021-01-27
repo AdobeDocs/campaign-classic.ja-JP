@@ -6,9 +6,9 @@ description: グローバルレポート
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 100%
 
@@ -185,7 +185,7 @@ E メールの配信統計には、2 つの値が表示されます。
 
 「**[!UICONTROL 開封数]**」の列には次のような指標があります。
 
-* **[!UICONTROL 開封数]**：（「**[!UICONTROL ソーシャルネットワークへの共有のリンク]**」のパーソナライゼーションブロック経由で）メッセージが転送されたユーザーによって開封されたメッセージの合計数。この値は、ミラーページが表示された回数と等しくなります。配信の受信者による開封数は考慮されません。
+* **[!UICONTROL いいえ。開封数]**：（「**[!UICONTROL ソーシャルネットワークへの共有のリンク]**」のパーソナライゼーションブロック経由で）メッセージが転送されたユーザーによって開封されたメッセージの合計数。この値は、ミラーページが表示された回数と等しくなります。配信の受信者による開封数は考慮されません。
 * **[!UICONTROL 分類]**：この率は、開封数の合計に関する、ソーシャルネットワークごとの開封数の分類を示しています。
 * **[!UICONTROL 開封率]**：この率は、共有の合計数に関する、ソーシャルネットワークごとの開封数の分類を示しています。
 

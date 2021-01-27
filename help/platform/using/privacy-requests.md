@@ -6,9 +6,9 @@ description: プライバシーリクエストの管理方法について説明�
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2591'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Adobe Campaign では、データ管理者は 2 とおりの方法でプライ�
 
 ### 前提条件 {#prerequesites}
 
-Adobe Campaign には、Adobe Campaign に保存されているデータに対するプライバシーリクエストの作成と処理をおこなうためのデータ管理者用ツールが用意されています。ただし、データ主体とのやり取り（電子メール、カスタマーサポート、Web ポータル）はデータ管理者がおこなう必要があります。
+Adobe Campaign には、Adobe Campaign に保存されているデータに対するプライバシーリクエストの作成と処理をおこなうためのデータ管理者用ツールが用意されています。ただし、データ主体とのやり取り（E メール、カスタマーサポート、Web ポータル）はデータ管理者がおこなう必要があります。
 
 また、要求者であるデータ主体の身元の確認、および要求者に返されるデータがデータ主体に関するものであることの確認は、データ管理者がおこないます。
 
@@ -392,7 +392,7 @@ Adobe Campaign が提供する[同意管理](../../platform/using/privacy-manage
 
 >[!IMPORTANT]
 >
->データ主体のリクエストを受け取り、CCPA のリクエスト日を追跡するのは、データ管理者の責任です。アドビは、テクノロジープロバイダーとして、オプトアウトの方法を提供するだけです。データ管理者としての役割について詳しくは、「[個人データとペルソナ](../../platform/using/privacy-and-recommendations.md#personal-data)」を参照してください。
+>データ主体のリクエストを受け取り、CCPA のリクエスト日を追跡するのは、データ管理者の責任です。アドビはテクノロジープロバイダーとして、オプトアウトの方法を提供するだけです。 データ管理者としての役割について詳しくは、「[個人データとペルソナ](../../platform/using/privacy-and-recommendations.md#personal-data)」を参照してください。
 
 ### 前提条件{#ccpa-prerequisite}
 
@@ -430,7 +430,7 @@ Adobe Campaign が提供する[同意管理](../../platform/using/privacy-manage
 
 ### 使用状況 {#usage}
 
-フィールドの値を入力し、データ販売に関する CCPA ガイドラインおよびルールに従うことは、データ管理者の責務となります。
+フィールドの値を入力し、データ販売に関する CCPA ガイドラインおよびルールに従うことは、データ管理者の責務です。
 
 値はいくつかの方法で入力できます。
 

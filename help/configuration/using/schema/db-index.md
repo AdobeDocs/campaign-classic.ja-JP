@@ -70,7 +70,7 @@ dbindex:==keyfield
 
 ## 例 {#examples-3}
 
-「id」フィールドでのインデックスの作成。 (`<dbindex>`要素の「@unique」属性は、データベース(クエリ)にインデックスが作成されたときに、「UNIQUE」SQLキーワードの追加をトリガします)。
+「id」フィールドでのインデックスの作成。 (`<dbindex>`要素トリガーの「@unique」属性は、データベース(クエリ)にインデックスが作成されたときに「UNIQUE」SQLキーワードを追加します)。
 
 ```
 <element label="Sample" name="Sample">

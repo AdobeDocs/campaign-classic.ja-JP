@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
 workflow-type: tm+mt
 source-wordcount: '7851'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -200,7 +200,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
   </tr> 
   <tr> 
    <td> uploadAllowlist<br /> </td> 
-   <td> ダウンロードを許可されたファイル (「,」区切り)。この文字列は有効かつ標準の Java 式である必要があります。<a href="../../installation/using/configuring-campaign-server.md#limiting-uploadable-files" target="_blank">アップロード可能ファイルの制限</a>を参照してください。<br /> </td> 
+   <td> ダウンロードを許可されたファイル (「,」区切り)。この文字列は Java の有効な正規表現である必要があります。<a href="../../installation/using/configuring-campaign-server.md#limiting-uploadable-files" target="_blank">アップロード可能ファイルの制限</a>を参照してください。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '.+' <br /> </td> 
   </tr> 
@@ -529,7 +529,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> タイムアウト<br /> </td> 
    <td> DNSクエリのタイムアウト（ミリ秒）。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 5000<br /> </td> 
@@ -612,7 +612,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
    <td> 'phantomjs' <br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> タイムアウト<br /> </td> 
    <td> 変換のタイムアウト：最大変換時間（秒単位）。 このしきい値を超えると、変換処理が停止し、エラーが発生します。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 120<br /> </td> 
@@ -964,7 +964,7 @@ URLが見つからない場合は、指定されたデフォルトのモード�
 
 dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;http://.*&quot;
 
-および
+かつ
 
 dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
 
@@ -2355,7 +2355,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> タイムアウト<br /> </td> 
    <td> SMS ゲートウェイでの通信タイムアウト。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 300<br /> </td> 
@@ -3015,7 +3015,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> true<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> タイムアウト<br /> </td> 
    <td> 禁止された URL を削除するまでの待機時間です.<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '60'<br /> </td> 
@@ -3086,7 +3086,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> タイムアウト<br /> </td> 
    <td> 中継中の要求の最大実行時間（秒）。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> <br /> </td> 

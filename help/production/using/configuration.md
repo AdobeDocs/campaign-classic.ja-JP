@@ -33,7 +33,7 @@ export TRACE_ADDR=localhost:<listening port>
 
 ### Windowsの場合{#in-windows}
 
-**localhost**&#x200B;値を使用して&lt;a0/>TRACE_ADDR **環境変数を作成する必要があります。**`<listening port="" />`**。**
+**localhost**&#x200B;値を使用して&#x200B;**TRACE_ADDR**&#x200B;環境変数を作成する必要があります。**`<listening port="" />`**。
 
 >[!IMPORTANT]
 >

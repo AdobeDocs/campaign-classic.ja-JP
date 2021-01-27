@@ -49,7 +49,7 @@ ht-degree: 13%
 
       **iisreset /stop**
 
-   * Adobe Campaignサービス：**nlserver6** net stop nlserver6&lt;a1/>
+   * Adobe Campaignサービス：**nlserver6** net stop nlserver6
    >[!IMPORTANT]
    >
    >また、IISで使用される&#x200B;**nlsrvmod.dll**&#x200B;ファイルを新しいバージョンに置き換えるために、リダイレクトサーバー(webmdl)が停止していることを確認する必要があります。

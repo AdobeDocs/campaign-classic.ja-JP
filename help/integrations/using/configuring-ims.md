@@ -7,15 +7,19 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
 
 
 # IMS の設定{#configuring-ims}
+
+>[!IMPORTANT]
+>
+>Adobe IMS の実装は必ずアドビの技術管理者がおこないます。実装プロセスを開始するには、アドビの担当者にお問い合わせください。
 
 ## 前提条件 {#prerequisites}
 

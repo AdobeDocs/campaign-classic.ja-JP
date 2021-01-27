@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 7cd76b5a31ed9fc0e64a650316ea29293c628233
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 97%
    <td> システムアクティビティレポートを「請求」オペレーターにメールで送信します。デフォルトで、毎月 25 日にトリガーされます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">請求 (アクティブなプロファイル)</span> <br /> </td> 
+   <td> <span class="uicontrol">請求（アクティブなプロファイル）</span> <br /> </td> 
    <td> <span class="uicontrol">billingActiveContactCount</span> <br /> </td> 
    <td> <p>このワークフローは、アクティブなプロファイルの数をカウントします。デフォルトで、毎晩午前 1 時にトリガーされます。</p> <p>「<strong>プロファイル</strong>」とは、エンドユーザー、見込み客またはリードを表している情報のレコード（例：nmsRecipient テーブル内のレコードや、cookie ID、顧客 ID、モバイル ID、または特定のチャネルに関連するその他の情報が含まれている外部テーブル内のレコード）のことです。請求は「アクティブ」なプロファイルのみに関係します。過去 12 ヶ月以内にいずれかのチャネルでターゲットになるか通信がおこなわれたプロファイルは「アクティブ」とみなされます。</p> <p>ただし、Facebook および Twitter チャネルは考慮されません。</p> <p><span class="uicontrol">アクティブなプロファイルの数</span>の概要は、<span class="uicontrol">管理</span>／<span class="uicontrol">キャンペーン管理</span>／<span class="uicontrol">顧客指標</span>メニューから表示できます。</p> </td> 
   </tr> 

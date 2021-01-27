@@ -6,9 +6,9 @@ description: Web フォームへのフィールドの追加
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2550'
 ht-degree: 100%
 
@@ -381,6 +381,7 @@ Captcha は、ビジュアルの下に配置された入力フィールドでペ
 >* Adobe Campaign は、アップロードされたリソースのサイズまたはタイプを制御しません。そのため、安全なタイプのイントラネットサイトのみのアップロードフィールドを使用することを強くお勧めします。
 >* いくつかのサーバーがインスタンス（ロードバランシングアーキテクチャ）にリンクされている場合、同じサーバーに到達する Web フォームに対する呼び出しを確認する必要があります。
 >* これらの実装には、Adobe Campaign コンサルティングチームの支援が必要です。
+
 >
 
 

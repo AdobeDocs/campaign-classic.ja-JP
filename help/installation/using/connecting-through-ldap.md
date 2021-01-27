@@ -110,7 +110,7 @@ LDAP設定は、デプロイメントウィザードで実行されます。 **[
 
 * LDAPディレクトリ内のグループとユーザーの関連付け、およびAdobe Campaign内のグループとユーザーの関連付けを同期するには、「**[!UICONTROL ディレクトリ]**&#x200B;内の承認とグループからユーザー権限の同期を有効にする」オプションを選択します。
 
-   このオプションを選択すると、**[!UICONTROL 検索]**&#x200B;と&#x200B;**[!UICONTROL アプリケーションログイン]**&#x200B;のパスワードに使用される&lt;a0/>アプリケーションレベルDNが有効になります。
+   このオプションを選択すると、**[!UICONTROL 検索]**&#x200B;と&#x200B;**[!UICONTROL アプリケーションログイン]**&#x200B;のパスワードに使用されるアプリケーションレベルDNが有効になります。
 
    これらの2つのフィールドに値を入力すると、Adobe Campaignは独自のログインとパスワードを使用してLDAPサーバーに接続します。 空の場合、Adobe Campaignは匿名でサーバーに接続します。
 
@@ -183,7 +183,7 @@ LDAPディレクトリを使用して演算子を認証するには、対応す�
 
 1. LDAPディレクトリ内に、Adobe Campaignに存在しないグループがあります。
 
-   このグループはAdobe Campaignに作成されません。 **[!UICONTROL ディレクトリ]**&#x200B;オプションで、&lt;a0/>Enable synchronization of user rights from authorizations and groups in the directory&lt;a1/>を使用して、グループを作成し、グループを同期して一致を有効にする必要があります。
+   このグループはAdobe Campaignに作成されません。 **[!UICONTROL ディレクトリ]**&#x200B;オプションで、Enable synchronization of user rights from authorizations and groups in the directoryを使用して、グループを作成し、グループを同期して一致を有効にする必要があります。
 
 1. Adobe Campaignにグループが存在し、イベント後にLDAPディレクトリがアクティブ化される。adobe campaign内のユーザーグループは、LDAPグループのコンテンツに自動的に置き換えられません。 同様に、グループがAdobe Campaign内にのみ存在する場合、LDAPでグループが作成および同期されるまで、LDAPユーザーを追加できません。
 

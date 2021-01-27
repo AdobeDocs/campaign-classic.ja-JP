@@ -6,9 +6,9 @@ description: キャンペーンタイポロジについて
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 100%
 
@@ -69,14 +69,14 @@ Adobe Campaign では、次の 4 種類のタイポロジルールをデザイ�
 
 このビデオでは、タイポロジルールを活用して Adobe Campaign Classic で疲労管理を実装する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
 
 ### 定義済みフィルターを使用した疲労管理の設定方法
 
 疲労管理では、受信者の過剰勧誘を避けるために、メッセージの頻度と数量を制御します。キャンペーンインスタンスにキャンペーン最適化モジュールがない場合、受信したメッセージの数でターゲット母集団をフィルタリングする定義済みフィルターを設定できます。
 このビデオでは、フィルターを使用して Adobe Campaign Classic で疲労管理を実装する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 

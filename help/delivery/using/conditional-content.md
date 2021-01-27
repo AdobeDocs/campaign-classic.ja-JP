@@ -6,9 +6,9 @@ description: 条件付きコンテンツ
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 100%
 
@@ -113,6 +113,6 @@ ht-degree: 100%
 
 複数言語のニュースレターの例で配信に条件付きコンテンツを追加する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

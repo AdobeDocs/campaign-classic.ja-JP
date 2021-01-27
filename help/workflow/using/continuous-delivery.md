@@ -6,9 +6,9 @@ description: 連続配信
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
 この 3 つの値セットは、オンザフライ配信によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記憶するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
@@ -64,6 +64,6 @@ ht-degree: 100%
 
 このビデオでは、増分クエリを使用して連続配信を設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

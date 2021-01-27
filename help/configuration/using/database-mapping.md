@@ -506,7 +506,7 @@ FDAテーブルの詳細については、[外部データベースへのアク�
 
 デフォルト値は、&quot;DefaultFolder(&#39;nmsFolder&#39;)&quot;関数で入力された最初の有効なパラメータタイプファイルの識別子を返します。
 
-### 例5 {#example-5}
+### 例4 {#example-5}
 
 この例では、**xlink**&#x200B;属性と(&quot;email&quot;)テーブルのフィールドを持つリンク(&quot;会社&quot;から&quot;cus:会社&quot;スキーマ)にキーを作成します。
 

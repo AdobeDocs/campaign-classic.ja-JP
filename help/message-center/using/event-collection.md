@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -28,4 +28,4 @@ ht-degree: 73%
 
 >[!NOTE]
 >
->実行インスタンス上では、**[!UICONTROL リアルタイムイベント]**&#x200B;または&#x200B;**[!UICONTROL バッチイベント]**&#x200B;を表示として設定する必要はありません。これは、[アクセス権](../../platform/using/access-management.md#about-permissions)の問題を引き起こす可能性があるためです。 フォルダーを表示ーとして設定する方法について詳しくは、[表示ーについて](../../platform/using/access-management.md#about-views)を参照してください。
+>実行インスタンス上では、**[!UICONTROL リアルタイムイベント]**&#x200B;または&#x200B;**[!UICONTROL バッチイベント]**&#x200B;を表示として設定する必要はありません。これは、[アクセス権](../../platform/using/access-management.md#about-permissions)の問題を引き起こす可能性があるためです。 フォルダーを表示として設定する方法について詳しくは、[表示について](../../platform/using/access-management.md#about-views)を参照してください。

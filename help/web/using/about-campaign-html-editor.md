@@ -6,9 +6,9 @@ description: Campaign DCE の基礎知識
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 
@@ -22,12 +22,10 @@ ht-degree: 100%
 DCE を使用すると、ページ要素の挿入や書式設定、HTML ページ要素とデータベースフィールドのマッピングなどをおこなえます。このエディターは、Web アプリケーションのページを作成する場合や、DCE テンプレートに基づいて配信を作成する場合に使用できます。
 
 >[!NOTE]
->
 >>サーバーサイド JavaScript コードを追加する必要がある場合は、パーソナライゼーションブロックを使用します。 [詳細情報](../../delivery/using/personalization-blocks.md)。
 >
 >[!CAUTION]
->
->すべての外部リソースは、HTTPS URL で参照する必要があります。
+すべての外部リソースは、HTTPS URL で参照する必要があります。
 
 ## デジタルコンテンツエディターの主な使用手順 {#content-editor-general-operation}
 
@@ -45,8 +43,7 @@ DCE を使用すると、ページ要素の挿入や書式設定、HTML ペー�
 1. Web アプリケーションを公開します（[詳細情報](../../web/using/creating-a-landing-page.md#step-3---publishing-content)）
 
 >[!NOTE]
->
->Web アプリケーションのコンテキストでの完全な実装例については、[こちらの節](../../web/using/creating-a-landing-page.md)を参照してください。
+Web アプリケーションのコンテキストでの完全な実装例については、[こちらの節](../../web/using/creating-a-landing-page.md)を参照してください。
 
 **E メール配信**&#x200B;を作成するには、次の操作が必要です。
 
@@ -56,5 +53,4 @@ DCE を使用すると、ページ要素の挿入や書式設定、HTML ペー�
 1. 配信を送信します（[詳細情報](../../delivery/using/steps-about-delivery-creation-steps.md)）
 
 >[!NOTE]
->
->E メール配信のコンテキストでの完全な実装例については、[こちらのユースケース](../../web/using/use-case--creating-an-email-delivery.md)を参照してください。
+E メール配信のコンテキストでの完全な実装例については、[こちらのユースケース](../../web/using/use-case--creating-an-email-delivery.md)を参照してください。

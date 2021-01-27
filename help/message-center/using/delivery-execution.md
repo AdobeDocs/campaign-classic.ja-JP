@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 1788346f7dfe2c18c490363c90358fcb737f1646
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 
 # 配信の実行{#delivery-execution}
 
-## {#transactional-message-send}を送信中にトランザクションメッセージが発生しました
+## {#transactional-message-send} を送信中のトランザクションメッセージ
 
 実行インスタンスは、エンリッチメントステージが完了し、イベントに配信テンプレートをリンクすると、配信を送信します。
 
@@ -37,15 +37,15 @@ ht-degree: 55%
 >
 >ホストインストールまたはハイブリッドインストールでは、Enhanced MTA にアップグレードしている場合、配信品質、スループットおよびバウンス処理を向上させるために、すべてのトランザクションメッセージも Adobe Campaign Enhanced MTA と共に送信される場合があります。すべての影響は標準のマーケティングメッセージと同じです。詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。
 
-## トランザクションメッセージ監視{#transactional-message-monitoring}
+## トランザクションメッセージの監視 {#transactional-message-monitoring}
 
-トランザクションメッセージを監視するには、配信ログを確認します。 配信ログへのアクセスについては、[このセクション](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)を参照してください。
+トランザクションメッセージを監視するには、配信ログを確認します。 配信ログへのアクセスについては、[この節](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)を参照してください。
 
-実行インスタンスから送信されるトランザクション配信は、1時間ごとに実行される技術的なワークフロー(**[!UICONTROL Message Center実行インスタンス]**)を通じてコントロールインスタンスに同期されます。
+実行インスタンスから送信されるトランザクション配信は、1 時間ごとに実行されるテクニカルワークフロー（**[!UICONTROL Message Center 実行インスタンス]**）を通じてコントロールインスタンスに同期されます。
 
 >[!NOTE]
 >
->配信は、イベント作成日ではなく、最新のイベント更新に基づいて、毎週イベントを累積します。 したがって、コントロールインスタンスからトランザクションメッセージング配信ログを抽出する場合、各配信ログIDに関連付けられている配信IDは、ログが更新されると、時間の経過と共に変わる場合があります(例えば、イベントに対して受信したバウンス)。
+>配信は、イベント作成日ではなく、最新のイベント更新に基づいて、毎週イベントを累積します。 したがって、コントロールインスタンスからトランザクションメッセージング配信ログを抽出する場合、各配信ログ ID に関連付けられている配信 ID は、ログが更新されると、時間の経過と共に変わる場合があります（例えば、イベントに対して受信したバウンス）。
 
 <!--The transactional deliveries sent from the execution instance are synchronized back to the control instance as follows.
 

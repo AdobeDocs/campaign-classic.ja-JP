@@ -6,9 +6,9 @@ description: フィルター条件の定義
 audience: platform
 content-type: reference
 topic-tags: creating-queries
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3394'
 ht-degree: 100%
 
@@ -756,7 +756,7 @@ ht-degree: 100%
    <td> TruncYear(&lt;日付&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
+   <td> <strong>切り捨て週</strong><br /> </td> 
    <td> 日付の週の日を表す数を返します<br /> </td> 
    <td> WeekDay(&lt;日付&gt;)<br /> </td>  
   </tr> 

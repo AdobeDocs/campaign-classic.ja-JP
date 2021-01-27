@@ -95,7 +95,7 @@ WindowsにSpamAssinをインストールして設定し、Adobe Campaignとの�
        "<root>\perl\site\bin\spamassassin" "C:\TestSpamMail.txt"
       ```
 
-      このテスト電子メールのコンテンツは、SpamAssicinによる1,000ポイントスコアをトリガーします。 これは、望ましくないと検出され、インストールが成功し、完全に機能していることを意味します。
+      このテスト用電子メールトリガーの内容は、SpamAssicinによる1,000ポイントスコアです。 これは、望ましくないと検出され、インストールが成功し、完全に機能していることを意味します。
 
 ### SpamAssicinをAdobe Campaignに統合{#integrating-spamassassin-into-adobe-campaign}
 
@@ -114,13 +114,13 @@ WindowsにSpamAssinをインストールして設定し、Adobe Campaignとの�
 
 1. Adobe Campaign内のSpamAssinの統合を確認するには、GTBUEテスト（未請求のバルク電子メール用汎用テスト）を使用します。
 
-   **portableshell.bat**&#x200B;ファイルを重複クリックします。 これにより、Windowsシェルの表示がトリガされます。 次に、次のコマンドを実行します。
+   **portableshell.bat**&#x200B;ファイルを重複クリックします。 このトリガーは、Windowsシェルの表示を示します。 次に、次のコマンドを実行します。
 
    ```
    perl "[INSTALL]\bin\spamcheck.pl" "C:\TestSpamMail.txt"
    ```
 
-   このテスト電子メールのコンテンツは、SpamAssicinが割り当てた1,000ポイントをトリガーします。 これは、望ましくないと検出され、Adobe Campaignの統合が成功し、完全に機能していることを意味します。
+   SpamAssinが割り当てた、このテスト用電子メールトリガーの内容1,000ポイント。 これは、望ましくないと検出され、Adobe Campaignの統合が成功し、完全に機能していることを意味します。
 
 1. スパムアサシンのフィルタリングおよびスコアリングルールの更新
 

@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Campaign Classic組み込みパッケージのインストール
+title: Campaign Classic 組み込みパッケージのインストール
 description: キャンペーンの組み込みパッケージをインストールする方法を説明します。
 audience: installation
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
 
-# Campaign Classicの組み込みパッケージのインストール{#installing-campaign-standard-packages}
+# Campaign Classic 組み込みパッケージのインストール{#installing-campaign-standard-packages}
 
 ## 組み込みパッケージについて{#campaign-standard-packages}
 
@@ -64,17 +64,17 @@ ht-degree: 26%
    <td> すべて</td> 
   </tr> 
   <tr> 
-   <td> マーケティングキャンペーン (キャンペーン)<br /> </td> 
+   <td> マーケティングキャンペーン（キャンペーン）<br /> </td> 
    <td> 通信とマーケティングキャンペーンを定義、最適化、実行、分析します。 <a href="../../campaign/using/designing-marketing-campaigns.md">詳細情報</a><br /> </td> 
    <td> マーケティング</td>
   </tr> 
   <tr> 
-   <td> マーケティングリソース (MRM)<br /> </td> 
+   <td> マーケティングリソース（MRM）<br /> </td> 
    <td> タスク、予算、マーケティングリソースの管理と追跡を提供することで、共同作業モードでのマーケティングアクションを制御します。 <a href="../../campaign/using/about-marketing-resource-management.md">詳細情報</a> <br /> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 
-   <td> オファーエンジン（相互作用）<br /> </td> 
+   <td> オファーエンジン（インタラクション）<br /> </td> 
    <td> 1つまたは複数の適合オファーを作成することで、特定の接触(顧客またはターゲット)との対話中にリアルタイムで応答します。  （オプション）<a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">詳細情報</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
@@ -100,7 +100,7 @@ ht-degree: 26%
    <td> すべて</td> 
   </tr> 
   <tr> 
-   <td> トランザクションメッセージコントロール (Message Center - コントロール)<br /> </td> 
+   <td> トランザクションメッセージコントロール（Message Center - コントロール）<br /> </td> 
    <td> トリガーシステムからトリガーされたイベントから生成された情報メッセージを管理します。 （オプション）<a href="../../message-center/using/about-transactional-messaging.md">詳細情報</a> <br /> </td> 
    <td> マーケティング<br /> </td> 
   </tr> 
@@ -175,12 +175,12 @@ ht-degree: 26%
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
-   <td> 受信ボックスレンダリング (IR)<br /> </td> 
+   <td> 受信ボックスレンダリング（IR）<br /> </td> 
    <td> メッセージを受信する様々なコンテキストで送信するプレビューを有効にし、メジャーなデスクトップおよびアプリケーションでの互換性を確認します。 （オプション）<a href="../../delivery/using/inbox-rendering.md">詳細情報</a><br /> </td> 
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
-   <td> セントラル / ローカルマーケティング (分散型マーケティング)<br /> </td> 
+   <td> セントラル／ローカルマーケティング（分散型マーケティング）<br /> </td> 
    <td> セントラルエンティティ（本部、販売部など）間の協調キャンペーンを実現 ローカルエンティティ（販売地点、地域機関等） （オプション）<a href="../../campaign/using/about-distributed-marketing.md">詳細情報</a><br /> </td> 
    <td> マーケティング </td> 
   </tr> 
@@ -205,7 +205,7 @@ ht-degree: 26%
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud<br />との統合 </td> 
+   <td> Adobe Experience Cloud との統合<br /> </td> 
    <td> 様々なAdobe Experience Cloudソリューションからオーディエンス/セグメントをAdobe Campaignにインポートおよびエクスポートできます。 （オプション）<a href="../../integrations/using/configuring-ims.md#installing-the-package">詳細情報</a> </td> 
    <td> マーケティング</td> 
   </tr> 

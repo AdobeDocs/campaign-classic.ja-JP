@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: dcef36c3ce14c45cb08a79180938ad8d26fa6549
+source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
 workflow-type: tm+mt
-source-wordcount: '938'
-ht-degree: 100%
+source-wordcount: '984'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,14 @@ _2020 年 12 月 22 日_
 
 >[!CAUTION]
 >
->このリリースには、新しい接続プロトコルが追加されています。2021 年 3 月 21 日以降に Campaign に接続できるようにするためには、Campaign サーバーとクライアントコンソールの両方のアップグレードが必須です。
+> * このリリースには、新しい接続プロトコルが付属しています。adobeIDサービス(IMS)を介してキャンペーンに接続する場合、**2021年3月21日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるように、アップグレードが必要です。
+   >
+   > 
+* このリリースには、[セキュリティ修正](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必須です。
+>
+>
+詳しくは、[Gold Standard 11アップグレードFAQ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)を参照してください。
+
 
 ビルド 9032@d3b452f には、次の機能強化および修正が含まれています。
 

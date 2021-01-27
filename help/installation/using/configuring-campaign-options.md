@@ -122,7 +122,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_PublishingScript</span> <br /> </td> 
-   <td> パブリッシュスクリプト.<br /> </td> 
+   <td> 公開スクリプト.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_NoCountBroadLogMsgPush</span> <br /> </td> 
@@ -309,7 +309,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmPublishingDir</span> <br /> </td> 
-   <td> パブリッシュ用ルートフォルダー.<br /> HTMLおよびテキストコンテンツの生成について詳しくは、 <a href="../../delivery/using/using-a-content-template.md">この節を参照してください</a>。<br /> </td> 
+   <td> 公開用ルートフォルダー.<br /> HTMLおよびテキストコンテンツの生成について詳しくは、 <a href="../../delivery/using/using-a-content-template.md">この節を参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkImageUrl</span> <br /> </td> 
@@ -684,7 +684,7 @@ ht-degree: 24%
    <td> 移行中、ツリー構造は、新しいバージョン標準に基づいて自動的に再編成されます。<br /> このオプションを使用すると、ナビゲーションツリーの自動移行を無効にできます。使用する場合は、移行後に古いフォルダを削除する必要があります。新しいフォルダを追加し、必要なチェックをすべて実行してください。<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">データタイプ：</span> Integer</p> </li> 
-     <li> <p> <span class="uicontrol">値（テキスト）</span> :1 </p> </li> 
+     <li> <p> <span class="uicontrol">値（テキスト）</span> :3 </p> </li> 
     </ul> このオプションは、標準搭載のナビゲーションツリーに加えられた変更が多すぎる場合にのみ使用してください。<br /> 詳しくは、 <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">この節を参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
@@ -718,7 +718,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Experience Cloudトリガーを設定できます。 データタイプは「long text」で、JSON形式である必要があります。 <a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Adobe Campaign Classic</a>でのExperience Cloudトリガーの使い方を参照してください。<br /> </td> 
+   <td> Experience Cloudトリガーを設定できます。 データタイプは「long text」で、JSON形式である必要があります。 「<a class="anchorLink" href="https://helpx.adobe.com/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Adobe Campaign Classic</a>でExperience Cloudトリガーを使う方法」を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;&gt;_&lt;&gt;</span> <br /> </td> 

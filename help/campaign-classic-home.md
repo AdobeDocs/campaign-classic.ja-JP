@@ -5,9 +5,9 @@ product: campaign
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
+source-git-commit: f6099fa9c8d1df7bc82dd9be0b575ca7f20b6645
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '292'
 ht-degree: 82%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 82%
 
 * **[IMS/Adobe ID経由で接続している最新のビルド](integrations/using/about-adobe-id.md)**<br/>にアップグレードします。IMSを使用してキャンペーンに接続する場合は、** 2021年3月21日&#x200B;**以降にキャンペーンに接続できるようにアップグレードする必要があります。
 
-* **[キャンペーンセキュリティ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> 速報最新のビルドに更新し、キャンペーンプラットフォームをセキュリティで保護します。
+* **[キャンペーン](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> インスタンスのセキュリティ保護最新のビルドに更新し、キャンペーンプラットフォームをセキュリティで保護します。
 
 * **[誤ったハードバウンスの削除](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Gmail の停止後に誤ったハードバウンスを更新する方法を説明します。
 

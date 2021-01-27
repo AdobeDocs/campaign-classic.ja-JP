@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 51993e6f606132e425553da67687aca76e166dbd
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ### Gold Standard{#upgrade-for-gold-standard-users}
 
-Gold Standardのホストユーザーは、[最新のGA Gold Standardビルド](../../rn/using/gold-standard.md#gs-10)を使用して、Gold Standardのアップグレードを行っても何の操作も必要ありません。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)。
+Gold Standard のユーザーは、[最新の GA Gold Standard ビルド](../../rn/using/gold-standard.md#gs-10)を使用することで、自動的に Gold Standard のアップグレードのメリットが得られるため、操作は必要ありません。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)。
 
 >[!NOTE]
 >Gold Standard の互換性マトリックスは、[GA 互換性マトリックス](../../rn/using/compatibility-matrix-gs.md)に記載されています。

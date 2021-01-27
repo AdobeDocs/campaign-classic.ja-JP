@@ -6,9 +6,9 @@ description: SMS チャネル
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3270'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ SMS のプロトコルと設定について詳しくは、この[技術メモ](h
 
    ただし、特定のプロバイダーで「+」がプレフィックスとして必要な場合は、プロバイダーにお問い合わせください。必要に応じて、このオプションを有効にするようプロバイダーから指示があります。
 
-   「**[!UICONTROL SMPP 経由での TLS を有効化]**」チェックボックスを使用すると、SMPP トラフィックを暗号化することができます。詳しくは、この[技術メモ](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)を参照してください。
+   「**[!UICONTROL SMPP 経由での TLS を有効化]**」チェックボックスを使用すると、SMPP トラフィックを暗号化することができます。詳しくは、この[技術メモ](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)を参照してください。
 
 1. **[!UICONTROL 拡張された汎用 SMPP]** コネクタを設定している場合は、自動応答を設定できます。
 

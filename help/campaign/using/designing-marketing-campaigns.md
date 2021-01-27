@@ -6,9 +6,9 @@ description: マーケティングキャンペーンを定義、最適化、実�
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
 
@@ -68,6 +68,6 @@ Adobe Campaign では、コミュニケーションおよびマーケティン�
 
 このビデオでは、マーケティングキャンペーンの主要概念を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

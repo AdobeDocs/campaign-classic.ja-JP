@@ -6,9 +6,9 @@ description: アドビの各ソリューションが提供する様々な機能�
 audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 100%
 

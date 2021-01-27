@@ -21,7 +21,7 @@ ht-degree: 94%
 
 リリース関連の更新については、[Adobe Campaign Classicリリースノート](../../rn/using/latest-release.md)を参照してください。
 
-## 2021 年 1 月{#jan-2021}
+## 2021 年 1 月 {#jan-2021}
 
 **[!UICONTROL Fork]**&#x200B;アクティビティセクションはベストプラクティスで強化されました。 [詳細を表示](../../workflow/using/fork.md)
 
@@ -197,7 +197,7 @@ Azure Synapse FDA コネクタ - [詳細を表示](../../installation/using/conf
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-トランザクションメッセージテンプレートを非公開にする新しいオプションについては[、この節](../../message-center/using/template-unpublication.md)に記載されています。
+トランザクションメッセージテンプレートを非公開にする新しいオプションについては、[この節](../../message-center/using/template-unpublication.md)に記載されています。
 
 パーソナライズされた URL からダウンロードした画像と添付ファイルを含む E メールを送信するときに制限を設定できる新しいオプションが、Campaign Classic オプションのリストに追加されました。[詳細を表示](../../installation/using/configuring-campaign-options.md#delivery)
 

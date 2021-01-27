@@ -9,9 +9,9 @@ topic-tags: sending-push-notifications
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1d7d48f52f69e4902eafa6806c2cd9170c21fe5a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 100%
 

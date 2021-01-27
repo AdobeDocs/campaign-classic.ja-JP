@@ -164,7 +164,7 @@ ht-degree: 2%
 
    詳しくは、[キャンペーンサーバーの設定](../../installation/using/campaign-server-configuration.md)を参照してください。
 
-1. クライアントコンソールのセットアッププログラム(**setup-client-7.XX**、**YYYY.exe** for v7、**setup-client-6.XX**、**YYYY.exe** for v6.1)を&lt;a8>/datakitにコピーします。/nl/eng/jsp **フォルダー**
+1. クライアントコンソールのセットアッププログラム(**setup-client-7.XX**、**YYYY.exe** for v7、**setup-client-6.XX**、**YYYY.exe** for v6.1)を&#x200B;**/datakitにコピーします。/nl/eng/jsp**&#x200B;フォルダー
 
    この点について詳しくは、以下の節を参照してください。
 

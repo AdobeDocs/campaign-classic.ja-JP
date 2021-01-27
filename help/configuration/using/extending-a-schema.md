@@ -21,7 +21,7 @@ ht-degree: 10%
 >
 >次の組み込みスキーマの中には、拡張できないものがあります。主に、次の設定が定義されます。\
 >**dataSource=&quot;file&quot;** および **mappingType=&quot;xmlFile&quot;**。\
->次のスキーマは拡張できません。**xtk:entityBackupNew**、**xtk:entityBackupOriginal**、**xtk:entityOriginal**、**xtk:form**、**xtk:srcSchema**、&lt;a10>ncm:publishing **,** nl:monitoring **,** nms:calendar **,** nms:remoteTracking **,** nms:userAgentRules a19/>, **xtk:builder**, **xtk:connections**, **xtk:dbInit**, **xtk:funcList**, **xtk:fusion**, **xtk:**, **xtk:navtree**, **xtk:queryDef**, **xtk:resourceMenu**, **xtk:スキーマ**、**xtk:scriptContext**、**xtk:session**、**xtk:sqlSchema**、**xtk:strings**。****
+>次のスキーマは拡張できません。**xtk:entityBackupNew**、**xtk:entityBackupOriginal**、**xtk:entityOriginal**、**xtk:form**、**xtk:srcSchema**、**ncm:publishing**, **nl:monitoring**, **nms:calendar**, **nms:remoteTracking**, **nms:userAgentRules a19/>,** xtk:builder **,** xtk:connections **,** xtk:dbInit **,** xtk:funcList **,** xtk:fusion **,** xtk:**,** xtk:navtree **,** xtk:queryDef **,** xtk:resourceMenu **,** xtk:スキーマ&#x200B;**、** xtk:scriptContext **、** xtk:session **、** xtk:sqlSchema **、** xtk:strings **。**
 >このリストは完全なものではありません。
 
 既存のスキーマを拡張する方法は2つあります。

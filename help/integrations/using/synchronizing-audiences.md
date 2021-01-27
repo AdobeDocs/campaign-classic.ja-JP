@@ -6,9 +6,9 @@ description: オーディエンスの同期
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 100%
 
@@ -139,7 +139,7 @@ Campaign Standard で配信ワークフローを作成することで、この�
 
 ## 配信の送信および監視 {#send-and-monitor-your-delivery}
 
-配信およびそのコンテンツの準備が整った後は、[この節](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html)で詳しく説明されている手順に従って配信を送信します。
+配信およびそのコンテンツの準備が整った後は、[この節](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html)で詳しく説明されている手順に従って配信を送信します。
 
 1. 配信ワークフローを実行します。この手順では、送信する E メールを準備します。
 1. 配信ダッシュボードから、配信を送信できることを手動で確認します。

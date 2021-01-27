@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -56,5 +56,5 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 * [リリースノート](../../rn/using/latest-release.md)
 * [Campaign Classicのアップグレード](../../rn/using/rn-overview.md)
 * [非推奨（廃止予定）および削除された機能](../../rn/using/deprecated-features.md)
-* [Gold Standardリリース](../../rn/using/gold-standard.md)
+* [Gold Standard リリース](../../rn/using/gold-standard.md)
 * [Gold Standard プログラム](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)

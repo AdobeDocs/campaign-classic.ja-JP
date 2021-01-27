@@ -6,9 +6,9 @@ description: 配信の設定と送信
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1615'
 ht-degree: 100%
 
@@ -200,4 +200,4 @@ ht-degree: 100%
 >
 >ホストインストールまたはハイブリッドインストールで、Enhanced MTA にアップグレードした場合、キャンペーン配信の「**[!UICONTROL 配信期間]**」設定は、**3.5** 日以下に設定された場合にのみ使用されます。3.5 日を超える値を定義した場合、その値は考慮されません。
 >
->すべての影響について詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。
+>すべての影響について詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。

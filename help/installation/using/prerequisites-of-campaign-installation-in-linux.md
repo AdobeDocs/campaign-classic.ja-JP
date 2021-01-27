@@ -26,7 +26,7 @@ Adobe Campaignのインストールに必要な技術的およびソフトウェ
 注意：次のコンポーネントをインストールし、正しく設定する必要があります。
 
 * Apache、[互換表](../../rn/using/compatibility-matrix.md)を参照。
-* Java JDKとOpenJDK、『Java Development Kit - JDK[,](../../installation/using/application-server.md#java-development-kit---jdk)
+* Java JDKとOpenJDK、『Java Development Kit - JDK](../../installation/using/application-server.md#java-development-kit---jdk),[
 * ライブラリ， [ライブラリ](#libraries)を参照，
 * データベース・アクセス・レイヤー。[データベース・アクセス・レイヤー](#database-access-layers)を参照してください。
 * LibreOffice、[LibreOffice for Debianのインストール](#installing-libreoffice-for-debian)および[LibreOffice for CentOSのインストール](#installing-libreoffice-for-centos)を参照してください。

@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
 workflow-type: tm+mt
 source-wordcount: '3179'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -453,4 +453,4 @@ Adobe Campaign のアクセス権マトリックスは[ここ](/help/platform/us
 
 >[!NOTE]
 >
->[トランザクションメッセージング](../../message-center/using/about-transactional-messaging.md)イベントを管理する場合、**[!UICONTROL リアルタイムイベント]**&#x200B;または&#x200B;**[!UICONTROL バッチイベント]**&#x200B;フォルダーを実行インスタンス上の表示として設定しないでください。これは、正しいアクセスの問題を引き起こす可能性があります。 イベント収集について詳しくは、[このセクション](../../message-center/using/event-collection.md)を参照してください。
+>[トランザクションメッセージ](../../message-center/using/about-transactional-messaging.md)イベントを管理する場合、**[!UICONTROL リアルタイムイベント]**&#x200B;または&#x200B;**[!UICONTROL バッチイベント]**&#x200B;フォルダーを実行インスタンス上の表示として設定しないでください。これは、アクセス権の問題につながる可能性があります。 アクセス管理について詳しくは、[この節](../../message-center/using/event-collection.md)を参照してください。

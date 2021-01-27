@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
 workflow-type: tm+mt
 source-wordcount: '3085'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -281,7 +281,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->キャンペーンパッケージに関連するテクニカルワークフローは、[テクニカルワークフロー](../../workflow/using/about-technical-workflows.md)のリストで示されます。
+>キャンペーンパッケージに関連するテクニカルワークフローは、[テクニカルワークフローのリスト](../../workflow/using/about-technical-workflows.md)を参照してください。
 
 **手順 1 - ファイルの承認**
 

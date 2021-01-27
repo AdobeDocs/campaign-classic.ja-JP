@@ -6,9 +6,9 @@ description: 分割ワークフローアクティビティの詳細を説明し�
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2133'
 ht-degree: 100%
 
@@ -232,7 +232,7 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
 この 3 つの値セットは、除外によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

@@ -49,7 +49,7 @@ XMLドキュメントは、データベースのMEMO型のフィールドに格�
 
 これにより、基になるSQLを分離できます。 クエリ言語は、基になるエンジンに依存しません。一部の関数は再マッピングされ、SELECT SQLの注文がいくつか生成される場合があります。
 
-この点について詳しくは、スキーマ&#39;xtk:queryDef&#39;[の&#39;ExecuteQuery&#39;メソッドの例を参照してください。](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)
+この点について詳しくは、スキーマ&#39;xtk:queryDef&#39;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-)の&#39;ExecuteQuery&#39;メソッドの例を参照してください。[
 
 **ExecuteQuery**&#x200B;メソッドは、[ExecuteQuery (xtk:queryDef)](#executequery--xtk-querydef-)に示されています。
 

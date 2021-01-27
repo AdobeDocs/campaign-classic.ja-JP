@@ -6,9 +6,9 @@ description: 指標の計算
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3021'
 ht-degree: 100%
 
@@ -397,7 +397,7 @@ ht-degree: 100%
    <td> 訪問者<br /> </td> 
    <td> @totalVisitors／@days<br /> </td> 
    <td> 配信で少なくとも 1 回クリックした、オペレーティングシステムごとのターゲット受信者の合計数の日平均。<br /> </td> 
-   <td> Sum(@visitors)<br /> </td> 
+   <td> Sum(@訪問者)<br /> </td> 
   </tr> 
   <tr> 
    <td> 閲覧されたページ数<br /> </td> 
@@ -428,7 +428,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> 使用率<br /> </td> 
-   <td> @visitors<br /> </td> 
+   <td> @訪問者<br /> </td> 
    <td> 最も高い訪問者数が測定された日の訪問者数に対する、このオペレーティングシステムでの 1 日あたりの訪問者数の割合。<br /> </td> 
    <td> percent(sum(@visitors), max(@visitorsOfTheDay))<br /> </td> 
   </tr> 
@@ -650,43 +650,43 @@ ht-degree: 100%
    <td> E メール<br /> </td> 
    <td> @email<br /> </td> 
    <td> URL カテゴリが「email」に等しいすべての @totalClicks の合計。<br /> </td> 
-   <td> Sum(iIf([url/@category]='email',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@カテゴリ]='email',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Facebook<br /> </td> 
    <td> @facebook<br /> </td> 
    <td> URL カテゴリが「facebook」に等しいすべての @totalClicks の合計。<br /> </td> 
-   <td> Sum(iIf([url/@category]='facebook',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@カテゴリ]='facebook',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Twitter<br /> </td> 
    <td> @twitter<br /> </td> 
    <td> URL カテゴリが「twitter」に等しいすべての @totalClicks の合計。<br /> </td> 
-   <td> Sum(iIf([url/@category]='twitter',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@カテゴリ]='twitter',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delicious<br /> </td> 
+   <td> おいしい<br /> </td> 
    <td> @delicious<br /> </td> 
    <td> URL カテゴリが「delicious」に等しいすべての @totalClicks の合計。<br /> </td> 
-   <td> Sum(iIf([url/@category]='delicious',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@カテゴリ]='delicious',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Digg<br /> </td> 
    <td> @digg<br /> </td> 
    <td> URL カテゴリが「digg」に等しいすべての @totalClicks の合計。<br /> </td> 
-   <td> Sum(iIf([url/@category]='digg',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@カテゴリ]='digg',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Google<br /> </td> 
    <td> @google<br /> </td> 
    <td> URL カテゴリが「google」に等しいすべての @totalClicks の合計。<br /> </td> 
-   <td> Sum(iIf([url/@category]='google',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@カテゴリ]='google',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Linkedin<br /> </td> 
    <td> @linkedin<br /> </td> 
    <td> URL カテゴリが「linkedin」に等しいすべての @totalClicks の合計。<br /> </td> 
-   <td> Sum(iIf([url/@category]='linkedin',@totalClicks,0))<br /> </td> 
+   <td> Sum(iIf([url/@カテゴリ]='linkedin',@totalClicks,0))<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -756,7 +756,7 @@ ht-degree: 100%
    <td> 初期母集団<br /> </td> 
    <td> @totalTarget<br /> </td> 
    <td> 配信アクションの対象となる受信者の合計数。<br /> </td> 
-   <td> sum([properties/@totalTarget])<br /> </td> 
+   <td> sum（[プロパティ/@totalTarget]）<br /> </td> 
   </tr> 
   <tr> 
    <td> 除外ルールによって却下されたメッセージ<br /> </td> 
@@ -768,7 +768,7 @@ ht-degree: 100%
    <td> 配信するメッセージ<br /> </td> 
    <td> @toDeliver<br /> </td> 
    <td> 配信の分析後に配信するメッセージの合計数。<br /> </td> 
-   <td> sum([properties/@toDeliver])<br /> </td> 
+   <td> sum（[プロパティ/@toDeliver]）<br /> </td> 
   </tr> 
   <tr> 
    <td> 成功<br /> </td> 

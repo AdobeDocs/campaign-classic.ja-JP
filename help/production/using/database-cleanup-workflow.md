@@ -531,7 +531,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 DELETE FROM NmsEmailError WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmailErrorStat)
 ```
 
-このクエリは、**NmsEmailError**&#x200B;テーブルから&lt;a0/>NmsEmailErrorStat **内のリンクされたレコードがない行をすべて削除します。**
+このクエリは、**NmsEmailError**&#x200B;テーブルから&#x200B;**NmsEmailErrorStat**&#x200B;内のリンクされたレコードがない行をすべて削除します。
 
 ### NmsMxDomainテーブル{#cleanup-of-the-nmsmxdomain-table-}のクリーンアップ
 
@@ -541,7 +541,7 @@ DELETE FROM NmsEmailError WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmai
 DELETE FROM NmsMxDomain WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmailErrorStat)
 ```
 
-このクエリは、**NmsMxDomain**&#x200B;テーブルから&lt;a0/>NmsEmailErrorStat **テーブル内のリンクされたレコードのない行をすべて削除します。**
+このクエリは、**NmsMxDomain**&#x200B;テーブルから&#x200B;**NmsEmailErrorStat**&#x200B;テーブル内のリンクされたレコードのない行をすべて削除します。
 
 ### 提案のクリーンアップ{#cleanup-of-propositions}
 

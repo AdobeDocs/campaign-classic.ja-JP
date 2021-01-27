@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 5bc6c8a824929c6a61cf562fc961e5bdd1867837
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 96%
 
 ## 実行インスタンス {#execution-instance}
 
-コントロールインスタンスがパスワードを入力しなくても実行インスタンスに接続できるようにするには、**Message Center**&#x200B;のアクセス権セクションにコントロールインスタンスのIPアドレスを入力します。 ただし、デフォルトでは空のパスワードを使用することは禁止されています。
+パスワードの入力なしでコントロールインスタンスから実行インスタンスに接続できるようにするには、**Message Center** の「アクセス権」セクションでコントロールインスタンスの IP アドレスを入力します。ただし、デフォルトでは空のパスワードを使用することは禁止されています。
 
 空のパスワードを使用するには、実行インスタンスに移動し、イベントを配信する情報システムの IP アドレスに限定したセキュリティゾーンを定義します。このセキュリティゾーンは、空のパスワードと `<identifier> / <password>` タイプの接続を許可している必要があります。詳しくは、[この節](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。
 

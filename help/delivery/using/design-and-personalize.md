@@ -5,9 +5,9 @@ title: パーソナライズされたコンテンツの作成
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 100%
 
@@ -152,7 +152,7 @@ E メールの制限を守るには、以下を考慮してください。
 
 * 画像が表示されない場合は、その画像がサーバー上で使用できることを確認してください。そのためには、配信から「ソース」タブをクリックします。使用する画像を探し、各画像の URL をコピーして Web ブラウザーに貼り付けます。画像が表示されない場合は、IT 管理者か、配信コンテンツを提供しているサードパーティベンダーに問い合わせてください。
 
-## メッセージのプレビュー {#preview-msg}
+## メッセージのプレビュー  {#preview-msg}
 
 メッセージをプレビューして、パーソナライゼーションと受信者に対する配信の表示方法を確認することをお勧めします。
 

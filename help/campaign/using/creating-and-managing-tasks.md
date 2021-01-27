@@ -6,9 +6,9 @@ description: タスクの作成と管理
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3901'
 ht-degree: 100%
 
@@ -436,6 +436,7 @@ Adobe Campaign のオペレーターのプロファイルを表示するには�
 >
 >* タスクのステータスは自動的に更新されます。
 >* 有効期間が終了した場合も、タスクは閉じられるまで処理中のタスクのリストに表示されます。この場合、オペレーターにタスクが遅れていることを知らせる警告が届きます。
+
 >
 
 

@@ -374,7 +374,7 @@ ht-degree: 12%
 >
 >Adobe Campaignクライアントコンソールでは、定義済みリストの管理に&#x200B;**[!UICONTROL 管理/定義済みリスト]**&#x200B;ノードが使用されます。
 
-#### 定義済みリスト{#set-enumeration}を設定
+#### 定義済みリストを設定{#set-enumeration}
 
 **enum**&#x200B;プロパティを使用すると、可能な値のリストが事前にわかっている場合に使用する固定定義済みリストを定義できます。
 
@@ -464,7 +464,7 @@ XMLコンテンツの投影を使用する場合：
 <group label="Group2"/>
 ```
 
-## XPath {#referencing-with-xpath}による参照
+## XPathによる参照 {#referencing-with-xpath}
 
 Adobe Campaign では、XPath 言語を使用して、データスキーマに属する要素または属性を参照します。
 
@@ -486,7 +486,6 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 >
 >* **location/@** cityis not valid;使用する  **`[location/@city]`**
 >* **`[@email]`** と **@** emailare equivalent
-
 >
 
 
@@ -508,7 +507,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 * **Year(@created)**:「created」属性に含まれる日付の年を返します。
 * **GetEmailDomain(@email)**:電子メールアドレスのドメインを返します。
 
-## 計算文字列{#building-a-string-via-the-compute-string}を使用した文字列の作成
+## 計算文字列を使用した文字列の作成{#building-a-string-via-the-compute-string}
 
 **計算文字列**&#x200B;は、スキーマに関連付けられたテーブルのレコードを表す文字列の構築に使用されるXPath式です。 **計算** 文字列は主にグラフィカルインターフェイスで使用され、選択したレコードのラベルを表示します。
 

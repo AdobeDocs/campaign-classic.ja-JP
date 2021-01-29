@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # 配信の実行{#delivery-execution}
 
-## {#transactional-message-send} を送信中のトランザクションメッセージ
+## を送信中のトランザクションメッセージ{#transactional-message-send}
 
 実行インスタンスは、エンリッチメントステージが完了し、イベントに配信テンプレートをリンクすると、配信を送信します。
 

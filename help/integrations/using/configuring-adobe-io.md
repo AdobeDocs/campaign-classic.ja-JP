@@ -10,10 +10,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 55ca41bfcacbd75846901474ae6f012dfdc8d1a9
+source-git-commit: ec03e5bfdacc16ce148b24e200b517d73fae00b3
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,9 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->oAuth 認証を通じて古いバージョンの Triggers 統合を使用する場合は、**以下の説明に従って Adobe I/O に移行する必要があります**。従来の oAuth 認証モードは、2021 年 4 月 30 日に廃止されます。[詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>oAuth 認証を通じて古いバージョンの Triggers 統合を使用する場合は、**以下の説明に従って Adobe I/O に移行する必要があります**。従来のoAuth認証モードは、2021年4月30日に廃止されます。 [詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>
+>このAdobe I/Oへの移行中に、一部の着信トリガーが失われる可能性があることに注意してください。
 
 ## 前提条件 {#adobe-io-prerequisites}
 
@@ -33,7 +35,6 @@ ht-degree: 100%
 * 有効な&#x200B;**組織識別子**：Identity Management システム（IMS）の組織識別子は、Adobe Experience Cloud 内の一意の識別子です。この識別子は、VisitorID サービスや IMS シングルサインオン（SSO）などに使用されます。[詳細情報](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja)
 * 組織への&#x200B;**開発者アクセス**。  [このページ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html)で説明する手順に従い、すべての製品プロファイルに関してこのアクセス権を提供するには、IMS 組織のシステム管理者権限をリクエストする必要があります。
 >
-
 ## 手順 1：Adobe I/O プロジェクトの作成と更新 {#creating-adobe-io-project}
 
 1. Adobe I/O にアクセスし、IMS 組織のシステム管理者権限でログインします。
@@ -42,7 +43,7 @@ ht-degree: 100%
    >
    > 正しい組織ポータルにログインしていることを確認します。
 
-1. 既存の統合クライアント ID をインスタンス設定ファイル（ims/authIMSTAClientId）から抽出します。属性が存在しないか空の場合は、クライアント識別子が設定されていません。
+1. 既存の統合クライアント識別子（クライアントID）をインスタンス設定ファイルims/authIMSTAClientIdから抽出します。 属性が存在しないか空の場合は、クライアント識別子が設定されていません。
 
    >[!NOTE]
    >
@@ -64,7 +65,7 @@ ht-degree: 100%
 
    ![](assets/do-not-localize/adobe_io_3.png)
 
-1. クライアント ID が空の場合は、「**[!UICONTROL キーペアを生成]**」を選択して、公開鍵と秘密鍵のペアを作成します。
+1. クライアントIDが空の場合は、「**[!UICONTROL キーのペア]**&#x200B;を生成」を選択して、公開鍵と秘密鍵のペアを作成します。
 
    ![](assets/do-not-localize/adobe_io_4.png)
 
@@ -84,17 +85,21 @@ ht-degree: 100%
 
    ![](assets/do-not-localize/adobe_io_7.png)
 
+>[!NOTE]
+>
+>Adobe I/O証明書は12か月後に期限が切れます。 新しいキーペアを生成する必要があるのは今年中です。
+
 ## 手順 2：Adobe Campaign にプロジェクト資格情報を追加 {#add-credentials-campaign}
 
 Adobe Campaign にプロジェクト資格情報を追加するには、Adobe Campaign インスタンスのすべてのコンテナで「neolane」ユーザーとして次のコマンドを実行し、**[!UICONTROL テクニカルアカウント]**&#x200B;資格情報をインスタンス設定ファイルに挿入します。
 
 ```
-nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID[/Client_Secret[/Base64_encoded_Private_Key]]
+nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
 ```
 
 >[!NOTE]
 >
->秘密鍵は base64 UTF-8 形式でエンコードする必要があります。秘密鍵でない場合は、鍵をエンコードする前に、鍵から新しい行を削除してください。秘密鍵は、統合の作成に使用したものと同じである必要があります。
+>秘密鍵は base64 UTF-8 形式でエンコードする必要があります。秘密鍵を除き、エンコードする前に、鍵から新しい行を削除してください。 秘密鍵は、統合の作成に使用したものと同じである必要があります。秘密鍵のbase64エンコーディングをテストするには、[このWebサイト](https://www.base64encode.org/)を使用します。
 
 ## 手順 3：pipelined タグを更新 {#update-pipelined-tag}
 

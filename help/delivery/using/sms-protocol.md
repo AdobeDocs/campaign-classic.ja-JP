@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 9a104fdc7bed89f56178d5ab638e1440e6342efc
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '8424'
-ht-degree: 100%
+source-wordcount: '8433'
+ht-degree: 99%
 
 ---
 
@@ -814,7 +814,7 @@ SMS プロセスは、完了行を毎分チェックし、非同期に処理し�
 
 ### チェック中に詳細 SMPP トレースを有効にする {#enable-verbose}
 
-チェック中は、必ず詳細な SMPP トレースを有効にする必要があります。ログを自分で確認できない場合は、サポートを依頼してください。
+チェック中は、必ず詳細な SMPP トレースを有効にする必要があります。自分でログをチェックできない場合でも、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)が簡単にお手伝いできます。
 
 ### SMS をテストする {#test}
 

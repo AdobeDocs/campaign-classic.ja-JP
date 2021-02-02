@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 7%
+source-wordcount: '692'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 オンプレミスCampaign Classicのハードウェア要件に関する一般的なガイドラインは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)で詳しく説明しています。
 
-コンサルティングチームは、ホストするお客様に対して、データベース内の様々なタイプのテーブルで使用されている領域とSFTPサイトで使用されている領域を簡単に表示できるツールを提供できます。 また、不要なデータをクリーンアップするためのツールも提供されています。 このツールを実装する必要がある場合は、コンサルティングチームまたはサポートチームにお問い合わせください。 このツールを使用して、次の点を確認してください。
+コンサルティングチームは、ホストするお客様に対して、データベース内の様々なタイプのテーブルで使用されている領域とSFTPサイトで使用されている領域を簡単に表示できるツールを提供できます。 また、不要なデータをクリーンアップするためのツールも提供されています。 このツールを導入する必要がある場合は、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。 このツールを使用して、次の点を確認してください。
 
 * インデックスサイズがテーブルサイズより大きい場合は、真空が必要です。
 * 最大膨張率を持つテーブルをチェックします。 これらのテーブルを頻繁に使用する場合は、バキュームする必要があります。

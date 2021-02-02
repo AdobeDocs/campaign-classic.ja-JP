@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 98a2c5aa01b4d45ceeb14fb1ad7a607b236c2817
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 100%
+source-wordcount: '1424'
+ht-degree: 96%
 
 ---
 
@@ -34,6 +34,7 @@ A/B テストを作成するには、次の手順に従います
 * [手順 3：2 つの配信テンプレートの作成](#step-3--creating-two-delivery-templates)
 * [手順 4：ワークフローでの配信の設定](#step-4--configuring-the-deliveries-in-the-workflow)
 * [手順 5：スクリプトの作成](#step-5--creating-the-script)
+* [手順 6：最終配信の定義](#step-6--defining-the-final-delivery)
 * [手順 7：ワークフローの開始](#step-7--starting-the-workflow)
 * [手順 8：結果の分析](#step-8--analyzing-the-result)
 
@@ -49,7 +50,7 @@ A/B テストを作成するには、次の手順に従います
 
    ![](assets/use_case_abtesting_targetwkfl_002.png)
 
-1. 既存のワークフローのラベルを変更するか、「**[!UICONTROL 追加]**」をクリックして、新しいラベルを作成します（これについて詳細は、この[節](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)を参照してください）。
+1. 既存のワークフローのラベルを変更するか、追加&#x200B;****&#x200B;をクリックして新しいワークフローを作成します。
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 
@@ -183,7 +184,7 @@ A/B テストを作成するには、次の手順に従います
 
 ### スクリプトの例 {#example-of-a-script}
 
-ターゲティングワークフローで、以下のようにスクリプトを使用します。詳しくは、[実装](#implementation)を参照してください。
+次のスクリプトは、ターゲット設定ワークフローでそのまま使用できます（「[スクリプトの設定](../../workflow/using/a-b-testing.md#configuring-script)」を参照）。
 
 ```
  // query the database to find the winner (best open rate)
@@ -229,12 +230,12 @@ A/B テストを作成するには、次の手順に従います
    vars.deliveryId = delivery.id
 ```
 
-スクリプトについて詳しくは、[スクリプトの詳細](#details-of-the-script)を参照してください。
+スクリプトの詳細については、[このセクション](../../workflow/using/a-b-testing.md#details-of-the-script)を参照してください。
 
-### 実装 {#implementation}
+### スクリプト{#configuring-script}の設定
 
 1. 「**[!UICONTROL JavaScript コード]**」アクティビティを開きます。
-1. [スクリプトの例](#example-of-a-script)で提供されたスクリプトを **[!UICONTROL JavaScript コード]**&#x200B;ウィンドウにコピーします。
+1. [以前](../../workflow/using/a-b-testing.md#example-of-a-script)と表示されたスクリプトを&#x200B;**[!UICONTROL JavaScriptコード]**&#x200B;ウィンドウにコピーします。
 
    ![](assets/use_case_abtesting_configscript_002.png)
 

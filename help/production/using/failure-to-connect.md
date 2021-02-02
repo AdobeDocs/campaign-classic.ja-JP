@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 85fae38f864b031f069058dae79ce6753dc4bf03
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 2%
+source-wordcount: '377'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 接続の問題の原因は複数の場合があり、様々なコンテキストに応じて異なります。
 
-次のテストを試してみてください。接続の失敗が解決しない場合は、**Adobe Campaignサポート**&#x200B;にお問い合わせください。
+次のテストを試してみて、接続の失敗が解決しない場合は、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 
 

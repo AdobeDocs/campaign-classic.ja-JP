@@ -1,14 +1,14 @@
 ---
-keywords: Campaign Classic;home;popular topics
+keywords: Campaign Classic；ホーム；人気の高いトピック
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: f6099fa9c8d1df7bc82dd9be0b575ca7f20b6645
+source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 82%
+source-wordcount: '296'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 82%
 
 ## 新着情報
 
-* **[IMS/Adobe ID経由で接続している最新のビルド](integrations/using/about-adobe-id.md)**<br/>にアップグレードします。IMSを使用してキャンペーンに接続する場合は、** 2021年3月21日&#x200B;**以降にキャンペーンに接続できるようにアップグレードする必要があります。
+* **[IMS/Adobe ID経由で接続している最新のビルド](integrations/using/about-adobe-id.md)**<br/>にアップグレードします。IMSを使用してキャンペーンに接続する場合は、** 2021年3月31日&#x200B;**以降にキャンペーンに接続できるようにアップグレードする必要があります。
 
 * **[キャンペーン](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)**<br/> インスタンスのセキュリティ保護最新のビルドに更新し、キャンペーンプラットフォームをセキュリティで保護します。
 

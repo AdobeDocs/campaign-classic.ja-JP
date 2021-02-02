@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
+source-git-commit: 075bb4f97899053a664576c447605f17a033d5d9
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 96%
+source-wordcount: '1416'
+ht-degree: 95%
 
 ---
 
@@ -26,10 +26,7 @@ _2020 年 12 月 23 日_
 > * このリリースには、新しい接続プロトコルが付属しています。adobeIDサービス(IMS)を介してキャンペーンに接続する場合、**2021年3月21日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるように、アップグレードが必要です。
    >
    > 
-* このリリースには、次のセキュリティ修正が含まれています。環境のセキュリティを強化するには、アップグレードが必須です。
-
->
-
+* このリリースには、[セキュリティ修正](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必須です。
 
 
 
@@ -145,7 +142,7 @@ Campaign Classic 実装では、次のシステムが[非推奨（廃止予定�
 
 _Campaign モバイル SDK_
 
-iOS SDK のビルド 1.0.26 が利用できるようになりました。この新しいビルドには、iOS 13 のサポートが追加されました。この新しいバージョンでは、通知の優先順位および iOS 13 プッシュ通知用の新しい登録トークン管理プロセスがサポートされるようになりました。以前のバージョンの SDK でアプリケーションを実行している場合は、新しい SDK でアプリケーションを再コンパイルする必要があります。SDK を入手するには、アドビカスタマーケアにお問い合わせください。
+iOS SDK のビルド 1.0.26 が利用できるようになりました。この新しいビルドには、iOS 13 のサポートが追加されました。この新しいバージョンでは、通知の優先順位および iOS 13 プッシュ通知用の新しい登録トークン管理プロセスがサポートされるようになりました。以前のバージョンの SDK でアプリケーションを実行している場合は、新しい SDK でアプリケーションを再コンパイルする必要があります。SDKを取得するには、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **パッチ**
 

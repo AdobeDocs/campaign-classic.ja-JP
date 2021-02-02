@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '392'
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
    [https://www.spamhaus.org/](https://www.spamhaus.org/) を参照してください。
 
-   データベースのほうが重要です。このリストで分類されているのは、一般に深刻な状況です。このような状況が発生した場合は、ただちに対応し、商用サービス、配信品質サービスおよび Adobe Campaign サポートに警告を出す必要があります。
+   データベースのほうが重要です。このリストで分類されているのは、一般に深刻な状況です。この場合は、すぐに業務を行い、商用サービス、配信品質、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に警告する必要があります。
 
 * **SpamCop**
 
@@ -43,13 +43,13 @@ ht-degree: 100%
 
    [https://www.uribl.com/](https://www.uribl.com/) を参照してください。
 
-   このリストでは、スパムとして宣言されたメッセージで定期的に見られるドメインを特定しています。お使いのドメインがこのリストに載った場合は、配信品質に重大な影響が及ぶおそれがあります。配信品質サービスと Adobe Campaign サポートにただちに知らせる必要があります。
+   このリストでは、スパムとして宣言されたメッセージで定期的に見られるドメインを特定しています。お使いのドメインがこのリストに載った場合は、配信品質に重大な影響が及ぶおそれがあります。配信品質サービスと[Adobeカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にすぐに通知する必要があります。
 
 * **SURBL**
 
    [http://www.surbl.org/](http://www.surbl.org/) を参照してください。
 
-   SURBL では、スパムで定期的に見られる Web サイトを特定しています。お使いのドメインがこのリストに載った場合は、配信品質に重大な影響が及ぶおそれがあります。配信品質サービスと Adobe Campaign サポートにただちに知らせる必要があります。
+   SURBL では、スパムで定期的に見られる Web サイトを特定しています。お使いのドメインがこのリストに載った場合は、配信品質に重大な影響が及ぶおそれがあります。配信品質サービスと[Adobeカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にすぐに通知する必要があります。
 
 * **iX Manitu**
 

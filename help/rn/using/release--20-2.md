@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
+source-git-commit: 075bb4f97899053a664576c447605f17a033d5d9
 workflow-type: tm+mt
-source-wordcount: '2514'
-ht-degree: 97%
+source-wordcount: '2561'
+ht-degree: 95%
 
 ---
 
@@ -26,12 +26,8 @@ _2020 年 12 月 22 日_
 >[!CAUTION]
 >
 > * このリリースには、新しい接続プロトコルが付属しています。adobeIDサービス(IMS)を介してキャンペーンに接続する場合、**2021年3月21日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるように、アップグレードが必要です。
-   >
-   > 
-* このリリースには、次のセキュリティ修正が含まれています。環境のセキュリティを強化するには、アップグレードが必須です。
-
->
-
+> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必須です。
+> * oAuth認証を通じたExperience Cloudトリガー統合を使用する場合は、このページ](../../integrations/using/configuring-adobe-io.md)の[の説明に従ってAdobe I/Oに移る必要があります。 従来のoAuth認証モードは、**2021年4月30日**&#x200B;に終了します。
 
 
 
@@ -39,7 +35,7 @@ _2020 年 12 月 22 日_
 
 * 接続プロトコルは、新しい IMS 認証メカニズムに従うように更新されました。
 * パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合認証が変更され、Adobe I/O に移動しました。[詳細情報](../../integrations/using/configuring-adobe-io.md)
-* iOS APN レガシーバイナリプロトコルのサポートが終了した後は、アップグレード後に、このプロトコルを使用するすべてのインスタンスが HTTP/2 プロトコルに更新されます。
+* [iOS APNsレガシーバイナリプロトコル](https://developer.apple.com/news/?id=c88acm2b)のサポート終了後、このプロトコルを使用するすべてのインスタンスは、アップグレード後にHTTP/2プロトコルに更新されます。
 * サーバーサイドリクエストフォージェリ（SSRF）問題に対する保護を強化するために、セキュリティ問題を修正しました。（NEO-27777）
 * 接続エラーが発生した後に SMPP コネクタの非アクティブ化が発生し、他の SMS 配信が送信されず、パフォーマンスの問題が発生する問題を修正しました。（NEO-28609）
 * 式パーサーをクリーニングする際にメモリの破損を防ぐことで、サーバーのクラッシュの問題を修正しました。（NEO-26856）

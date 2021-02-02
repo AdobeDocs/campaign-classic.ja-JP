@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 96%
+source-wordcount: '684'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
    >
    >Campaign コントロールパネルは、AWS でホストされるすべてのお客様が利用できます（自分のマーケティングインスタンスをオンプレミスでホストするお客様を除く）。
 
-1. インストールした Adobe Campaign がアドビによってホストされている場合：必要なユーティリティをサーバーにインストールするようカスタマーサポートに依頼します。
+1. Adobe CampaignのインストールがAdobeでホストされている場合は、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に問い合わせて、必要なユーティリティをサーバーにインストールしてください。
 1. Adobe Campaign のインストールがオンプレミスの場合：使用するユーティリティ（例：GPG、GZIP）およびアプリケーションサーバー上の必要なキー（暗号化キー）をインストールします。
 
 次に、目的の前処理コマンドをワークフローで使用します。

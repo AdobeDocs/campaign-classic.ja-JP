@@ -7,9 +7,9 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d34435b0b8714a87add6a5e3f82e4f94376f205b
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1240'
 ht-degree: 100%
 
 ---
@@ -41,23 +41,6 @@ Adobe Campaign ワークフローヒートマップは、現在実行中のす�
 ワークフローヒートマップを使用するには、[ワークフロー](../../workflow/using/about-workflows.md)、[アクティビティ](../../workflow/using/about-activities.md)および[ワークフローのベストプラクティス](../../workflow/using/workflow-best-practices.md)の概念を十分に理解しておく必要があります。
 
 ワークフローヒートマップは、Adobe Campaign の 18.10 リリースからデフォルトで使用できます。8700 から 8977（18.10）のビルドをご使用の場合も、この機能を利用できます。対応するパッケージをリクエストするには[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。パッケージのインストール方法を理解するには、[このページ](https://helpx.adobe.com/jp/campaign/kb/install-workflow-heatmap-package.html)の指示に従ってください。
-
-ワークフローヒートマップに初めてアクセスすると、次のポップアップウィンドウが表示されます。この契約により、米国における転送と保存ができるようになり、Adobe Campaign で次のことが可能になります。
-
-* インスタンスを監視して、パフォーマンスの問題を調査。
-* 異常値検出のためのデータを収集。
-
-データの転送は、Adobe ID を使用して Adobe Campaign に接続しているユーザーのみが利用できます。
-
-![](assets/wf_monitoring_agreement.png)
-
-次の 3 つのオプションを選択できます。
-
-* **[!UICONTROL 同意]**：この契約へ同意すると、Adobe Campaign がデータを収集し、米国にデータ転送をおこなうことを承認したことになります。異常値が検出された場合に役立ちます。
-* **[!UICONTROL 拒否]**：:契約を却下すると、データは転送されません。ただしワークフローヒートマップは使用可能です。
-* **[!UICONTROL 次回からこのメッセージを表示しない]**：「**[!UICONTROL 次回からこのメッセージを表示しない]**」をクリックすると、ワークフローヒートマップにアクセスする際にポップアップウィンドウが表示されなくなりますが、「**[!UICONTROL 利用条件]**」ボタンで表示させることができます。
-
-この選択は最終的なものではありません。**[!UICONTROL 利用条件]**&#x200B;ボタンをクリックすれば、いつでも変更できます。
 
 ## ヒートマップの使用 {#using-the-heatmap}
 

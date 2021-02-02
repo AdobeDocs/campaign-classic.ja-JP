@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 96ad3208c792efb47097768bc779bec59d9ca313
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '2745'
-ht-degree: 100%
+source-wordcount: '2751'
+ht-degree: 99%
 
 ---
 
@@ -198,7 +198,7 @@ Unicode では、類似した文字に対して多くのバリエーションを
 
 Unicode を 16 進数に変換するには、[Unicode コードコンバーター](https://r12a.github.io/app-conversion/)の Web サイトなどのオンラインツールを使用できます。テキストを入力し、電話番号などの PII がないことを確認して、「**変換する**」をクリックします。下部に 16 進値（UTF-32 ゾーン）が表示されます。
 
-エンコードの問題に関するチケットを送信する際、プロバイダーや Adobe Campaign のサポートの有無にかかわらず、入力内容と表示内容の 16 進数バージョンを必ず含めます。
+エンコードの問題に関するチケットを開く際、プロバイダーまたは[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)のどちらの場合でも、入力内容と表示内容の16進バージョンを必ず含めます。
 
 **手順 3：送信の内容を理解する**
 

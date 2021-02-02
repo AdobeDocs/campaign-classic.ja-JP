@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 100%
+source-wordcount: '1357'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ MX 設定について詳しくは、[この節](../../installation/using/email-d
 * 入力したドメイン名のエラーを検出するために、購読フォームを更新します（例：gmaul.com または yaho.com）。
 * メッセージがスパムであることを宣言していることを示すエラーの場合、または、メッセージが常にブロックされていることを示すエラーの場合、過去 12 ヶ月間にメッセージを開封またはクリックしていない受信者をターゲットから除外してみます。
 
-問題が解決されない場合は、商用または配信品質サービス、Adobe Campaign クライアントケア、または Adobe Campaign サポートにお問い合わせください。
+問題が解決しない場合は、商用または配信品質サービス、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 ## ブロックリスト対強制隔離 {#denylist-versus-quarantine}
 

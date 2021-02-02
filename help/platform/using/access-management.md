@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: d1130691e40c0cac183db37a4c0b410d00bb696a
+source-git-commit: c24cdd21c2426ea12a1cbd76d78154256bc814c8
 workflow-type: tm+mt
-source-wordcount: '3179'
-ht-degree: 100%
+source-wordcount: '3214'
+ht-degree: 98%
 
 ---
 
@@ -123,6 +123,11 @@ Adobe ID を使用して Adobe Campaign に直接接続することもできま�
 「**[!UICONTROL アクセスパラメーターを編集]**」リンクには、以下のオプションがあります。
 
 * 「**[!UICONTROL アカウントを無効にする]**」オプションでは、オペレーターのアカウントを無効にできます。これで、オペレーターは Adobe Campaign にアクセスできなくなります。
+
+   >[!NOTE]
+   >
+   >このアカウントが無効になっていても、オペレーターはキャンペーンからアラートや通知を受け取ることができます。 この演算子へのキャンペーン通知の送信を停止するには、Adobeはプロファイルから電子メールアドレスを削除することを推奨します。
+
 * 「**[!UICONTROL リッチクライアントからのアクセスを禁止]**」オプションを使用すると、Adobe Campaign の使用を [Web アクセス](../../platform/using/adobe-campaign-workspace.md#console-and-web-access)または API に制限できます。これにより、Adobe Campaign クライアントコンソールにアクセスできなくなります。
 * 安全ゾーンをオペレーターに関連付けることができます。詳しくは、[このページ](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。
 * また、適切なリンクを使用して、信頼できる IP マスクを定義することもできます。

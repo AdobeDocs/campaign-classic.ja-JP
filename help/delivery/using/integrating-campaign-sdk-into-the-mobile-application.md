@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 100%
+source-wordcount: '957'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ iOS および Android 用の Campaign SDK は、モバイルアプリチャネ�
 
 >[!NOTE]
 >
->Campaign SDK（旧 Neolane SDK）を入手するには、アドビカスタマーサポートにお問い合わせください。
+>キャンペーンSDK（旧Neolane SDK）を取得するには、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 SDK の目的は、モバイルアプリケーションを Adobe Campaign プラットフォームに容易に統合できるようにすることです。
 

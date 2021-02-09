@@ -7,17 +7,17 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 translation-type: tm+mt
-source-git-commit: 1788346f7dfe2c18c490363c90358fcb737f1646
+source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '230'
+ht-degree: 85%
 
 ---
 
 
 # 配信の実行{#delivery-execution}
 
-## を送信中のトランザクションメッセージ{#transactional-message-send}
+## {#transactional-message-send} を送信中のトランザクションメッセージ
 
 実行インスタンスは、エンリッチメントステージが完了し、イベントに配信テンプレートをリンクすると、配信を送信します。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ホストインストールまたはハイブリッドインストールでは、Enhanced MTA にアップグレードしている場合、配信品質、スループットおよびバウンス処理を向上させるために、すべてのトランザクションメッセージも Adobe Campaign Enhanced MTA と共に送信される場合があります。すべての影響は標準のマーケティングメッセージと同じです。詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。
+>ホスト型またはハイブリッド型のインストールの場合、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合は、配信品質、スループット、バウンス処理を向上させるために、すべてのトランザクションメッセージがAdobe Campaign拡張MTAと共に送信される場合があります。 この変更による影響はすべて、標準のマーケティングメッセージと同じです。
 
 ## トランザクションメッセージの監視 {#transactional-message-monitoring}
 

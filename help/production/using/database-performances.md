@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 8%
@@ -46,9 +46,9 @@ ht-degree: 8%
 
 データベースのメンテナンスが正しくスケジュールされ、実行されていることを確認します。 これを行うには、データベース管理者に問い合わせて、次の情報を確認してください。
 
-* 彼らのメンテナンススケジュール
+* メンテナンススケジュール
 * 以前に実行した保守計画
-* スクリプトログの表示。
+* スクリプトログの表示
 
 詳しくは、[こちらの節](../../production/using/recommendations.md)を参照してください。
 
@@ -60,9 +60,9 @@ ht-degree: 8%
 
 作業用テーブルの数とサイズを確認してください。 一定のサイズを超えると、データベースのパフォーマンスが低下します。 これらのテーブルはワークフローと配信によって作成されます。 ワークフローと配信がアクティブな間は、データベースに残ります。 作業テーブルのサイズを制限するには、次の操作を実行します。
 
-* 次のステータスの配信を停止または削除します。**[!UICONTROL 失敗]**、**[!UICONTROL 進行中]**、**[!UICONTROL 配信]**、または&#x200B;**[!UICONTROL 一時停止中]**。
-* エラーが原因で一時停止されたワークフローの停止または削除、
-* **[!UICONTROL End]**&#x200B;アクティビティを含まないテストに使用されるワークフローのうち、**[!UICONTROL Paused]**&#x200B;のステータスになるものをすべて停止します。
+* 次のステータスの配信を停止または削除します。**[!UICONTROL 失敗]**、**[!UICONTROL 進行中]**、**[!UICONTROL 配信の準備ができました]**、または&#x200B;**[!UICONTROL 一時停止中]**。
+* エラーが原因で一時停止したワークフローを停止または削除します。
+* **[!UICONTROL End]**&#x200B;アクティビティを含まないテストに使用されるワークフローのうち、ステータスが&#x200B;**[!UICONTROL Paused]**&#x200B;のままのものをすべて停止します。
 
 >[!IMPORTANT]
 >
@@ -73,13 +73,12 @@ ht-degree: 8%
 Adobe Campaignのインストール設定に応じて、プラットフォーム監視には次の2つのツールを使用できます。
 
 * インスタンスの実稼働ページ。 詳しくは、[手動監視](../../production/using/monitoring-processes.md#manual-monitoring)を参照してください。
-* netreportスクリプト。 詳しくは、[Adobe Campaignスクリプトを使用した自動監視](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)を参照してください。
+* *netreport*&#x200B;スクリプト。 詳しくは、[Adobe Campaignスクリプトを使用した自動監視](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts)を参照してください。
 
 ## 詳細{#specifics}
 
 問題の原因を特定するために、リアルタイム診断を実行する必要が生じる場合があります。 開始を行うには、プロセスおよびプラットフォームのログファイルを確認し、問題の再作成中にデータベースのアクティビティを監視します。 特に、次の点に注意してください。
 
-* 保守実施計画
-* 実行中のSQLクエリ、
+* 保守の実施計画
+* 実行中のSQLクエリ
 * 外部プロセスが同時に実行されているかどうか(クレンジング、インポート、集計の計算など)。
-

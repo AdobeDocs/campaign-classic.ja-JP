@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: fe4262a1da011cb155651c5e786f19188139cff1
 workflow-type: tm+mt
-source-wordcount: '3022'
-ht-degree: 100%
+source-wordcount: '2064'
+ht-degree: 99%
 
 ---
 
 
-# E メールコンテンツの定義{#defining-the-email-content}
+# E メールコンテンツの定義 {#defining-the-email-content}
 
 ## 送信者 {#sender}
 
@@ -111,42 +111,29 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_wizard_email01_142.png)
 
-### E メールへの顔文字の挿入 {#inserting-emoticons}
+<!--## Selecting message formats {#selecting-message-formats}
 
-E メールコンテンツに顔文字を挿入できます。
-
-1. **[!UICONTROL 顔文字を挿入]**&#x200B;アイコンをクリックします。
-1. ポップアップウィンドウから顔文字を選択します。
-
-   ![](assets/emoticon_4.png)
-
-1. 挿入が完了したら、「**[!UICONTROL 閉じる]**」ボタンをクリックします。
-
-顔文字のリストをカスタマイズするには、この[ページ](../../delivery/using/customizing-emoticon-list.md)を参照してください。
-
-## メッセージ形式の選択 {#selecting-message-formats}
-
-送信される E メールメッセージの形式は変更できます。変更するには、配信プロパティを編集し、「**[!UICONTROL 配信]**」タブをクリックします。
+You can change the format of email messages sent. To do this, edit the delivery properties and click the **[!UICONTROL Delivery]** tab.
 
 ![](assets/s_ncs_user_wizard_email_param.png)
 
-ウィンドウ下部のセクションで、E メールの形式を選択します。
+Select the format of the email in the lower section of the window:
 
-* **[!UICONTROL 受信者の環境設定を使用]**（デフォルトのモード）
+* **[!UICONTROL Use recipient preferences]** (default mode)
 
-   メッセージの形式は、受信者のプロファイルに格納されたデータに従って定義され、デフォルトでは「**[!UICONTROL E メールフォーマット]**」フィールド（@emailFormat）に保存されます。受信者が特定の形式でメッセージを受信することを希望していれば、メッセージはその形式で送信されます。このフィールドに何も入力されていない場合は、マルチパート／オルタナティブメッセージが送信されます（以下を参照）。
+  The message format is defined according to the data stored in the recipient profile and stored by default in the **[!UICONTROL email format]** field (@emailFormat). If a recipient wishes to receive messages in a certain format, this is the format sent. If the field is not filled in, a multipart-alternative message is sent (see below).
 
-* **[!UICONTROL 受信者のメールクライアントに最適なフォーマットを選択させる]**
+* **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
-   テキスト形式と HTML 形式の両方を含んだメッセージが送信されます。受信時に表示されるメッセージ形式は、受信者のメールソフトウェアの設定に応じて切り替わります（マルチパート／オルタナティブ）。
+  The message contains both formats: text and HTML. The format displayed on reception depends on the configuration of the recipient's mail software (multipart-alternative).
 
-   >[!IMPORTANT]
-   >
-   >このオプションを指定すると、両方のバージョンのドキュメントがメッセージに含められます。したがって、メッセージサイズが大きくなり、配信の順位に影響があります。
+  >[!IMPORTANT]
+  >
+  >This option includes both versions of the document. It therefore impacts the delivery rate, because the message size is greater.
 
-* **[!UICONTROL すべてのメッセージをテキストフォーマットで送信]**
+* **[!UICONTROL Send all messages in text format]**
 
-   メッセージはテキスト形式で送信されます。HTML 形式は送信されませんが、受信者がメッセージをクリックした場合にのみ表示されるミラーページに使用されます。
+  The message is sent in text format. HTML format will not be sent, but used for the mirror page only when the recipient clicks on the message.-->
 
 ## インタラクティブコンテンツの定義 {#amp-for-email-format}
 
@@ -167,6 +154,19 @@ Adobe Campaign では、特定の条件下での動的な E メールの送信�
 >[!NOTE]
 >
 >Adobe Campaign のコンテンツ管理について詳しくは、[この節](../../delivery/using/about-content-management.md)を参照してください。
+
+## 顔文字を挿入{#inserting-emoticons}
+
+E メールコンテンツに顔文字を挿入できます。
+
+1. **[!UICONTROL 顔文字を挿入]**&#x200B;アイコンをクリックします。
+1. ポップアップウィンドウから顔文字を選択します。
+
+   ![](assets/emoticon_4.png)
+
+1. 挿入が完了したら、「**[!UICONTROL 閉じる]**」ボタンをクリックします。
+
+顔文字のリストをカスタマイズするには、この[ページ](../../delivery/using/customizing-emoticon-list.md)を参照してください。
 
 ## 画像の追加 {#adding-images}
 
@@ -324,98 +324,97 @@ HTML 形式の E メール配信には、画像を含めることができます
 
 ![](assets/barcode_insert_11.png)
 
-## 日本の携帯電話向け E メールの送信 {#sending-emails-on-japanese-mobiles}
+<!--## Sending emails on Japanese mobiles {#sending-emails-on-japanese-mobiles}
 
-### 日本の携帯電話向けの E メールフォーマット {#email-formats-for-japanese-mobiles}
+### Email formats for Japanese mobiles {#email-formats-for-japanese-mobiles}
 
-Adobe Campaign は、日本の携帯電話向けに特化した E メールフォーマットとして、**デコメール**（DoCoMo 携帯）、**デコレメール**（Softbank 携帯）および&#x200B;**デコレーションメール**（KDDI au 携帯）の 3 種を用意しています。これらのフォーマットには、コーディング、構造、サイズに関する特定の制約事項があります。制限事項と推奨事項について詳しくは、[この節](#limitations-and-recommendations)を参照してください。
+Adobe Campaign manages three specific Japanese formats for email on mobiles: **Deco-mail** (DoCoMo mobiles), **Decore Mail** (Softbank mobiles) and **Decoration Mail** (KDDI AU mobiles). These formats impose particular coding, structure, and size constraints. Learn more about limitations and recommendations in [this section](#limitations-and-recommendations).
 
-これらのフォーマットのいずれかでメッセージが正しく受信されるようにするには、対応するプロファイルで「**[!UICONTROL デコメール（DoCoMo）]**」、「**[!UICONTROL デコレメール（Softbank）]**」または「**[!UICONTROL デコレーションメール（KDDI au）]**」を選択することをお勧めします。
+In order for the recipient to correctly receive messages in one of these formats, we recommend selecting **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** in the corresponding profile:
 
 ![](assets/deco-mail_03.png)
 
-ただし、「**[!UICONTROL E メールフォーマット]**」オプションを「**[!UICONTROL 不明]**」、「**[!UICONTROL HTML]**」または「**[!UICONTROL テキスト]**」のままにした場合は、E メール送信時に、メッセージが正しく表示されるように日本独自のフォーマットが自動検出されます。
+However, if you leave the **[!UICONTROL Email format]** option as **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** or **[!UICONTROL Text]**, Adobe Campaign will automatically detect (when sending the email) the Japanese format to use so that the message is correctly displayed.
 
-この自動検出システムは、**[!UICONTROL E メールフォーマットの管理]**&#x200B;メールルールセットに定義されているドメインのリストに基づいています。E メールフォーマットの管理について詳しくは、[このページ](../../installation/using/email-deliverability.md#managing-email-formats)を参照してください。
+This automatic detection system is based on the list of predefined domains defined in the **[!UICONTROL Management of Email Formats]** mail rule set. For more on managing email formats, refer to [this page](../../installation/using/email-deliverability.md#managing-email-formats).
 
-### 制限事項と推奨事項 {#limitations-and-recommendations}
+### Limitations and recommendations {#limitations-and-recommendations}
 
-日本のプロバイダー（Softbank、DoCoMo、KDDI au）が取り扱う携帯電話で読まれる E メールの送信に関しては、いくつかの制約事項があります。
+A certain number of constraints apply for sending emails that will be read on a mobile operated by a Japanese provider (Softbank, DoCoMo, KDDI AU).
 
-これらの事項を必ず満たすようにしてください。
+Therefore, you must:
 
-* 画像は JPEG 形式または GIF 形式の画像のみにしてください。
-* 厳密に 10,000 バイト未満のテキストセクションと HTML セクションから成る配信を作成します（KDDI au および DoCoMo 向け）。
-* 画像の合計サイズ（エンコード前）が 100 KB 未満になるようにします。
-* 1 件のメッセージにつき 20 件を超える画像を使用しないようにしてください。
-* 縮小サイズの HTML フォーマットを使用します（各オペレーターで使用できるタグの数は制限されています）。
+* Only use images in JPEG or GIF format
+* Create a delivery with text and HTML sections that are strictly lower than 10 000 bytes (for KDDI AU and DoCoMo)
+* Use images with a total size (before encoding) that is lower than 100 KB
+* Do not use more than 20 images per message
+* Use a reduced size HTML format (a limited number of tags are available for each operator)
 
 >[!NOTE]
 >
->メッセージを作成する際には、各オペレーター固有の制限事項を考慮する必要があります。以下を参照してください。
+>Limitations specific to each operator are to be taken into account when creating your message. Refer to:  
 >
->* DoCoMo については、[このページ](https://www.nttdocomo.co.jp/service/developer/make/content/deco_mail/index.html)を参照してください。
->* KDDI au については、[このページ](https://www.au.com/ezfactory/tec/spec/decorations/template.html)を参照してください。
->* Softbank については、[このページ](https://www.support.softbankmobile.co.jp/partner/home_tech3/index.cfm)を参照してください。
+>* For DoCoMo, refer to [this page](https://www.nttdocomo.co.jp/service/developer/make/content/deco_mail/index.html)
+>* For KDDI AU, refer to [this page](https://www.au.com/ezfactory/tec/spec/decorations/template.html)
+>* For Softbank, refer to [this page](https://www.support.softbankmobile.co.jp/partner/home_tech3/index.cfm)
 
+### Testing the email content {#testing-the-email-content}
 
-### E メールコンテンツのテスト {#testing-the-email-content}
+#### Previewing the message {#previewing-the-message}
 
-#### メッセージのプレビュー {#previewing-the-message}
+Adobe Campaign allows you to check that your message format is adapted to be sent to a Japanese mobile.
 
-Adobe Campaign では、メッセージのフォーマットが日本の携帯電話への送信に適合しているかどうかを確認できます。
+Once you have defined your content and entered the email subject, you can check the display and formatting when the message is created.
 
-コンテンツを定義して E メールの件名を入力したら、メッセージを作成する際に表示と書式設定を確認できます。
+In the **[!UICONTROL Preview]** tab of the content editing window, clicking **[!UICONTROL More... > Deco-mail diagnostic]** allows you to:
 
-コンテンツ編集ウィンドウの「**[!UICONTROL プレビュー]**」タブで&#x200B;**[!UICONTROL 詳細...／デコメールの診断]**&#x200B;をクリックすると、次のことができます。
+* Check that the HTML content tags conform to the Japanese format restrictions
+* Check that the number of images in the message does not exceed the limit imposed by the format (20 images)
+* Check the total message size (less than 100kB)
 
-* HTML コンテンツのタグが日本独自のフォーマットの制約を満たしていることのチェック
-* メッセージに含まれる画像の数がフォーマットの制限を超えていないことのチェック（20 以下）
-* メッセージの合計サイズのチェック（100 KB 未満）
+  ![](assets/deco-mail_06.png)
 
-   ![](assets/deco-mail_06.png)
+#### Running typology rule {#running-typology-rule}
 
-#### タイポロジルールの実行 {#running-typology-rule}
-
-プレビュー診断に加えて、配達確認または配信を送信する際に 2 番目のチェックが実行されます。特殊なタイポロジルール「**[!UICONTROL デコメールの検証]**」が分析中に開始されます。
+In addition to the previewing diagnosis, a second check is carried out when sending a proof or a delivery: a specific typology rule, **[!UICONTROL Deco-mail check]**, is started during the analysis.
 
 >[!IMPORTANT]
 >
->このタイポロジルールは、1 人以上の受信者が&#x200B;**[!UICONTROL デコメール（DoCoMo）]**、**[!UICONTROL デコレメール（Softbank）]**&#x200B;または&#x200B;**[!UICONTROL デコレーションメール（KDDI au）]**&#x200B;フォーマットで E メールを受信するように設定されている場合にのみ実行されます。
+>This typology rule is only executed if at least one of the recipients is configured to receive emails in **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** or **[!UICONTROL Decoration Mail (KDDI AU)]** format.
 
-このタイポロジルールでは、特に E メールの合計サイズ、HTML セクションとテキストセクションのサイズ、メッセージ内の画像の数、HTML コンテンツのタグなどに関して、配信が日本のオペレーターによって定義された[フォーマットの制約](#limitations-and-recommendations)を守っていることを確認します。
+This typology rule allows you to make sure that the delivery respects the [format constraints](#limitations-and-recommendations) defined by the Japanese operators, particularly in relation to the total size of the email, the size of the HTML and text sections, the number of images in the messages, and the tags in the HTML content.
 
-#### 配達確認の送信 {#sending-proofs}
+#### Sending proofs {#sending-proofs}
 
-配達確認を送信して配信をテストできます。配達確認を送信する際、代用アドレスを使用している場合は、使用しているプロファイルの E メールフォーマットに対応しているアドレスを入力してください。
+You can send proofs to test your delivery. When you send the proof, if you are using substitution addresses, please enter addresses that correspond to the email format of the profile used.
 
-例えば、プロファイルの E メールフォーマットが&#x200B;**[!UICONTROL デコレメール（Softbank）]**&#x200B;で事前に定義されている場合は、プロファイルのアドレスを test@softbank.ne.jp に置換してください。
+For example, you can replace a profile's address by test@softbank.ne.jp if the email format for this profile was defined beforehand on **[!UICONTROL Decore Mail (Softbank)]**.
 
 ![](assets/deco-mail_05.png)
 
-### メッセージの送信 {#sending-messages}
+### Sending messages {#sending-messages}
 
-Campaign を使用して日本語 E メール形式で E メールを受信者に送信するには、2 つのオプションがあります。
+To send an email to recipients with Japanese email formats with Campaign, two options are possible:
 
-* 2 つの配信を作成します。1 つは日本人の受信者専用で、もう 1 つは他の受信者用です。[この節](#designing-a-specific-delivery-for-japanese-formats)を参照してください。
-* または、1 つの配信を作成し、使用するフォーマットを Adobe Campaign で自動検出します。[この節](#designing-a-delivery-for-all-formats)を参照してください。
+* Create two deliveries: one only for Japanese recipients and another for other recipients - refer to [this section](#designing-a-specific-delivery-for-japanese-formats).
+* Create a single delivery and Adobe Campaign will automatically detect the format to use - refer to [this section](#designing-a-delivery-for-all-formats).
 
-#### 日本独自のフォーマットでの配信の作成 {#designing-a-specific-delivery-for-japanese-formats}
+#### Designing a specific delivery for Japanese formats {#designing-a-specific-delivery-for-japanese-formats}
 
-日本の携帯電話向けと、標準の E メールフォーマットを使用する受信者向けの 2 つの配信を含むワークフローを作成できます。
+You can create a workflow that contains two deliveries: one to be read on a Japanese mobile and another for recipients with a standard email format.
 
-これを実行するには、ワークフローで&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティを使用し、フィルター条件として日本独自の E メールフォーマット（デコメール、デコレーションメール、デコレメール）を定義します。
+To do this, use the **[!UICONTROL Split]** activity in your workflow and define the Japanese email formats (Deco-mail, Decoration Mail and Decore Mail) as filtering conditions.
 
 ![](assets/deco-mail_08.png)
 
 ![](assets/deco-mail_07.png)
 
-#### すべてのフォーマットを 1 つの配信でデザイン {#designing-a-delivery-for-all-formats}
+#### Designing a delivery for all formats {#designing-a-delivery-for-all-formats}
 
-Adobe Campaign がドメインに応じてフォーマットを動的に管理する場合（プロファイルの E メールフォーマットを「**[!UICONTROL 不明]**」、「**[!UICONTROL HTML]**」または「**[!UICONTROL テキスト]**」とした場合）は、すべての受信者に同じ配信を送信できます。
+When Adobe Campaign dynamically manages the formats according to the domain (profiles with email formats defined as **[!UICONTROL Unknown]**, **[!UICONTROL HTML]** or **[!UICONTROL Text]** ), you can send the same delivery to all of your recipients.
 
-メッセージの連絡先は、日本の携帯電話のユーザーに対しても標準の受信者と同じように正しく表示されます。
+The message contact will display correctly for the users on Japanese mobiles, just as for the standard recipients.
 
 >[!IMPORTANT]
 >
->日本独自の E メールフォーマット（デコメール、デコレーションメール、デコレメール）に関連する特別な機能については注意が必要です。制限事項について詳しくは、[この節](#limitations-and-recommendations)を参照してください。
+>Make sure to respect the special features associated with each Japanese email format (Deco-mail, Decoration Mail, and Decore Mail). For more information on limitations, refer to [this section](#limitations-and-recommendations).-->

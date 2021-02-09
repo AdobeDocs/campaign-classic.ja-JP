@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 965aee2e310dd7e35d7a65bf9a1bda5dc8eb0959
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 94%
+source-wordcount: '316'
+ht-degree: 86%
 
 ---
 
@@ -37,7 +37,13 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作が必�
 
 ハイブリッド/ホストのお客様は、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)チームに連絡して、キャンペーンのプッシュ通知チャネルにアクセスしてください。
 
-オンプレミス型の顧客は、次のインストール手順を実行する必要があります。
+オンプレミスのお客様は、組み込みのパッケージをインストールする必要があります。
+
+>[!CAUTION]
+>
+>キャンペーン組み込みパッケージ、ベストプラクティス、推奨事項について詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+
+インストール手順は次のとおりです。
 
 1. Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／高度なツール／パッケージをインポート...]**&#x200B;からパッケージ読み込みウィザードにアクセスします。
 

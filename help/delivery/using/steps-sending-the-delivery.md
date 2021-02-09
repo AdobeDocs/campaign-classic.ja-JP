@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 100%
+source-wordcount: '1617'
+ht-degree: 89%
 
 ---
 
@@ -19,9 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->配信のオーナーのみが配信を開始できます。別のオペレーター（またはオペレーターグループ）が配信を開始できるようにするには、レビュー担当者として「**[!UICONTROL 配信開始：]**」フィールドに追加する必要があります。
->
->詳しくは、[この節](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)を参照してください。
+>配信のオーナーのみが配信を開始できます。別のオペレーター（またはオペレーターグループ）が配信を開始できるようにするには、レビュー担当者として「**[!UICONTROL 配信開始：]**」フィールドに追加する必要があります。詳しくは、[この節](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)を参照してください。
 
 ## 配信の追加パラメーター {#delivery-additiona-parameters}
 
@@ -33,25 +31,29 @@ ht-degree: 100%
 
 * **[!UICONTROL メッセージのバッチサイズ]**：このオプションでは、1 つの XML 配信パッケージ内でグループ化するメッセージの件数を定義できます。このパラメーターが 0 に設定されている場合、メッセージは自動的にグループ化されます。パッケージサイズは、`<delivery size>/1024` という計算に基づいて決定されます（ただし、パッケージあたりのメッセージ件数は最小 8、最大 256）。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >配信が重複した場合はパラメーターがリセットされます。
 
-* **[!UICONTROL 複数のウェーブを使用して送信]**：詳しくは、[複数のウェーブを使用した送信](#sending-using-multiple-waves)を参照してください。
+* **[!UICONTROL 複数のウェーブを使用して送信]**:詳しくは、「複数のウェーブを使用した [送信」を参照してください](#sending-using-multiple-waves)。
 
 * **[!UICONTROL SMTP 配信をテスト]**：このオプションを使用すると、SMTP を使用した配信の送信をテストできます。配信は、SMTP サーバーに接続するところまで進められますが、送信されません。
 
    >[!NOTE]
    >
-   >MTA を呼び出さない、ミッドソーシングを使用するインストールの場合、このオプションを使用することは望ましくありません。
-   >
-   >SMTP サーバーの設定について詳しくは、[この節](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)を参照してください。
+   >MTA を呼び出さない、ミッドソーシングを使用するインストールの場合、このオプションを使用することは望ましくありません。SMTPサーバの設定について詳しくは、[このセクション](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)を参照してください。
 
-* **[!UICONTROL BCC で E メールを送信]**：このオプションを使用すると、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存することができます。詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
+* **[!UICONTROL BCC で E メールを送信]**：このオプションを使用すると、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存することができます。詳しくは、[こちらの節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
 
-配信の設定が終わり、送信準備が整ったら、必ず[配信分析](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)を実行してください。完了したら、「**[!UICONTROL 配信を確定]**」をクリックし、メッセージの配信を開始します。
+## 配信の確認{#confirming-delivery}
+
+配信が設定され、送信の準備が整ったら、配信分析を実行したことを確認します。
+
+これを行うには、「**[!UICONTROL 送信]**」をクリックし、目的のアクションを選択して、「**[!UICONTROL 分析]**」をクリックします。 詳しくは、[分析の起動](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
 
 ![](assets/s_ncs_user_email_del_send.png)
+
+完了したら、「**[!UICONTROL 配信を確定]**」をクリックし、メッセージの配信を開始します。
 
 その後、配信ウィザードを閉じて、「**[!UICONTROL 配信]**」タブで配信の実行をトラッキングできます。このタブには、配信の詳細または配信リストからアクセスできます。
 
@@ -73,7 +75,7 @@ ht-degree: 100%
 
 1. その後、配信分析を開始し、配信の送信を確定します。ただし、配信の送信は、「**[!UICONTROL コンタクト日]**」フィールドで指定した日付まで開始されません。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >分析を開始すると、定義したコンタクト日が固定されます。この日付を修正する場合は、修正内容が考慮されるように、分析を再度実行する必要があります。
 
@@ -133,7 +135,7 @@ ht-degree: 100%
       ![](assets/s_ncs_user_wizard_waves_create.png)
    特別なタイポロジルールである「**[!UICONTROL ウェーブスケジュールの検証]**」では、最後のウェーブが配信の有効期限の前に計画されているかどうかが確認されます。キャンペーンタイポロジとそのルールは、配信プロパティの「**[!UICONTROL タイポロジ]**」タブで設定します。詳しくは、[タイポロジを使用したプロセスの検証](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)を参照してください。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >最後の 2 つのウェーブが配信期限を過ぎないことを確認してください。配信期限は、「**[!UICONTROL 有効性]**」タブで定義されています。配信期限を過ぎると、一部のメッセージが送信されない場合があります。
    >
@@ -169,18 +171,15 @@ ht-degree: 100%
 
 **ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーによって一時的に配信できなかったメッセージは、自動再試行の対象となります。配信エラーのタイプと理由については、[この節](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
 
-配信パラメーターの「**[!UICONTROL 配信]**」タブの中央のセクションには、配信の翌日に実行する再試行回数と、再試行を繰り返す際の最小間隔が表示されます。
+>[!IMPORTANT]
+>
+>ホストインストールまたはハイブリッドインストールの場合、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合、配信の再試行設定は、キャンペーンで使用されなくなります。 ソフトバウンスの再試行とその間隔は、メッセージの E メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
+
+レガシーキャンペーンMTAを使用したオンプレミスインストールおよびホスト/ハイブリッドインストールの場合、配信パラメーターの&#x200B;**[!UICONTROL 「配信]**」タブの中央のセクションは、配信の翌日に実行する再試行の数と再試行間の最小遅延を示します。
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-デフォルトでは、配信後の最初の日には、最低 1 時間の間隔をおいて 24 時間のうちに 5 回の再試行がスケジュールされます。その後は、「**[!UICONTROL 有効性]**」タブで指定される配信期限が来るまで、1 日 1 回の再試行がスケジュールされます（[有効期間の定義](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)を参照）。
-
->[!NOTE]
->
->ホストインストールまたはハイブリッドインストールで、Enhanced MTA にアップグレードした場合、Campaign では配信の再試行設定が使用されなくなります。ソフトバウンスの再試行とその間隔は、メッセージの E メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
->
->すべての影響について詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。
-
+デフォルトでは、配信後の最初の日には、最低 1 時間の間隔をおいて 24 時間のうちに 5 回の再試行がスケジュールされます。その後は、「**[!UICONTROL 有効性]**」タブで指定される配信期限が来るまで、1 日 1 回の再試行がスケジュールされます（[有効期間の定義](#defining-validity-period)を参照）。
 
 ## 有効期間の定義 {#defining-validity-period}
 
@@ -192,12 +191,10 @@ ht-degree: 100%
 
    日付を指定することもできます。そのためには、「**[!UICONTROL 有効期限を明示的に設定]**」を選択します。この場合、配信および有効期限日に時刻を指定することもできます。デフォルト値は現在時刻ですが、入力フィールドを使用して直接変更できます。
 
+   >[!IMPORTANT]
+   >
+   >ホスト型またはハイブリッド型のインストールでは、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合、キャンペーン電子メール配信の&#x200B;**[!UICONTROL 配信期間]**&#x200B;設定は、**3.5日以下**&#x200B;に設定した場合にのみ使用されます。 3.5 日を超える値を定義した場合、その値は考慮されません。
+
 * **リソースの有効期限**：「**[!UICONTROL 有効期限]**」フィールドは、アップロードされたリソース（主にミラーページと画像）に関して使用されます。ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 
    このフィールドの値は、[この節](../../platform/using/adobe-campaign-workspace.md#default-units)にリストされている単位で表示できます。
-
->[!NOTE]
->
->ホストインストールまたはハイブリッドインストールで、Enhanced MTA にアップグレードした場合、キャンペーン配信の「**[!UICONTROL 配信期間]**」設定は、**3.5** 日以下に設定された場合にのみ使用されます。3.5 日を超える値を定義した場合、その値は考慮されません。
->
->すべての影響について詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html) ドキュメントを参照してください。

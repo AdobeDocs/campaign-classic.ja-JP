@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5fa848d86f951cb9dc40eb7981abea29c1092291
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 86%
@@ -102,7 +102,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 ## BCC電子メールアドレスの設定（オンプレミス） {#configuring-the-bcc-email-address--on-premise-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >プライバシー上の理由から、BCC電子メールは、個人の身元を特定できる情報(PII)を安全に保存できるアーカイブシステムで処理する必要があります。
 
@@ -125,7 +125,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 ## 新しい電子メールBCCに移動{#updated-email-archiving-system--bcc-}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Adobe Campaign17.2 （ビルド8795）で変更された電子メールアーカイブシステム(BCC)。 古いビルドからアップグレードする場合で、既に電子メールアーカイブ機能を使用していた場合は、新しい電子メールアーカイブシステム(BCC)に手動でアップグレードする必要があります。
 

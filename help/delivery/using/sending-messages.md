@@ -2,110 +2,39 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic を使用した E メールの送信
-description: E メール配信パラメーターの詳細
+description: 電子メールの配信を確認し、電子メールメッセージを配信する際の特性を発見する方法について説明します。
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: e2dfc34b35e6ce03715bd5723cff578a1aacd559
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 6%
 
 ---
 
 
-# E メールの送信{#sending-an-email}
+# 電子メール配信の確認{#confirming-email-delivery}
 
-E メールを承認し、作成する配信の受信者に対して送信するには、「**[!UICONTROL 送信]**」をクリックします。
+電子メールが作成および設定されたら、メインターゲットに送信できます。 この節では、電子メールの配信を確認する主な手順を説明します。
 
-配信を検証および送信する際の詳細なプロセスについては、以下の節を参照してください。
+1. 電子メール配信に固有の設定をすべて設定したことを確認します。 詳しくは、[電子メールパラメーター](../../delivery/using/email-parameters.md)を参照してください。
+1. 電子メールの準備が整ったら、メインターゲットに送信する前に、配達確認を送信して潜在的なエラーを検出することをお勧めします。 詳しくは、[配達確認の送信](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)を参照してください。
 
-* [配信の検証](../../delivery/using/steps-validating-the-delivery.md)
-* [配信の送信](../../delivery/using/steps-sending-the-delivery.md)
+1. 完了したら、分析を起動して電子メールを検証する必要があります。 これを行うには、「**[!UICONTROL 送信]**」をクリックし、アクションを選択して「**[!UICONTROL 分析]**」をクリックします。 詳しくは、[分析の起動](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
 
-以下の節では、E メールの配信に関するパラメーターについて説明します。
+1. 分析が完了したら、「**[!UICONTROL 配信の確認]**」をクリックして、対象受信者に対するメッセージの配信を開始します。 詳しくは、[配信の確認](../../delivery/using/steps-sending-the-delivery.md#confirming-delivery)を参照してください。
 
-## BCC で E メールを送信{#archiving-emails}
-
-Adobe Campaign では、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存することができます。このオプションを有効にしたら、送信したすべてのメッセージの正確なコピーがこの配信用に保持されます。
-
-「BCC で E メールを送信」の設定とベストプラクティスの詳細については、 [この節](../../installation/using/email-archiving.md)を参照してください。
+   <!--Add screenshot with analysis done and Confirm delivery button activated.-->
 
 >[!NOTE]
 >
->「BCC で E メールを送信」はオプションの機能です。この機能を有効にするには、ライセンス契約を確認したうえで、アカウント担当者にお問い合わせください。
+>配信を検証するプロセス全体については、[このセクション](../../delivery/using/steps-validating-the-delivery.md)で説明します。 配信を設定して送信するための詳細な手順については、[このセクション](../../delivery/using/steps-sending-the-delivery.md)を参照してください。
 
-新しい配信または配信テンプレートを作成する場合、「BCC で E メールを送信」はデフォルトで有効になっていません。E メール配信または配信テンプレートレベルで手動で有効にする必要があります。
-
-E メール配信テンプレートの「BCC で E メールを送信」を有効にするには、次の手順に従います。
-
-1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;または&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL 配信テンプレート]**&#x200B;に移動します。
-1. 目的の配信を選択します。または、標準の **E メール配信**&#x200B;テンプレートを複製して、複製されたテンプレートを選択します。
-1. 「**プロパティ**」ボタンをクリックします。
-1. 「**[!UICONTROL 配信]**」タブを選択します。
-1. 「**BCC で E メールを送信**」オプションを選択します。このテンプレートに基づく各配信に対するすべての送信済みメッセージのコピーが、設定済みの「BCC で E メールを送信」アドレスに送信されます。
-
-   ![](assets/s_ncs_user_wizard_archiving.png)
-
-   >[!NOTE]
-   >
-   >BCC アドレスに送信された電子メールが開封され、クリックされた場合は、送信分析の&#x200B;**[!UICONTROL 合計開封数]**&#x200B;と&#x200B;**[!UICONTROL クリック数]**&#x200B;に含められますが、計算の誤りの原因となる可能性があります。
-
-## ミラーページの生成 {#generating-the-mirror-page}
-
-ミラーページは、Web ブラウザーからオンラインアクセス可能な HTML ページです。コンテンツは E メールと変わりません。
-
-デフォルトでは、メールコンテンツ内にリンクが挿入されているとミラーページが生成されます。パーソナライゼーションブロックの挿入について詳しくは、[パーソナライゼーションブロック](../../delivery/using/personalization-blocks.md)を参照してください。
-
-配信プロパティの「**[!UICONTROL 有効性]**」タブにある「**[!UICONTROL モード]**」フィールドを使用すると、このページの生成モードを変更できます。
-
-![](assets/s_ncs_user_wizard_miror_page_mode.png)
-
->[!CAUTION]
->
->ミラーページを作成するには、その配信の HTML コンテンツが定義されている必要があります。
-
-デフォルトモードのほかに、次のオプションも選択できます。
-
-* **[!UICONTROL ミラーページを強制的に生成]**：配信コンテンツ内にミラーページへのリンクが挿入されていなくても、ミラーページを生成します。
-* **[!UICONTROL ミラーページを生成しない]**：配信コンテンツ内にリンクが挿入されていても、ミラーページを生成しません。
-* **[!UICONTROL メッセージ識別子のみを使用してアクセス可能なミラーページを生成]**：配信ログウィンドウで、パーソナライゼーション情報を含むミラーページのコンテンツにアクセスできるようにします。これを使用するには、配信が完了した後に「**[!UICONTROL 配信]**」タブをクリックし、メッセージを受け取った受信者の行を選択してから、「**[!UICONTROL このメッセージのミラーページを表示]**」リンクをクリックします。
-
-   ![](assets/s_ncs_user_wizard_miror_page_link.png)
-
-## バウンスメールの管理 {#managing-bounce-emails}
-
-配信パラメーターの「**[!UICONTROL SMTP]**」タブでは、バウンスメール管理を設定できます。
-
-![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
-
-デフォルトでは、バウンスメールはプラットフォームのデフォルトエラーボックスに受信されますが、配信用の専用エラーアドレスを定義することもできます。
-
-また、バウンスメールの発生理由をアプリケーションで自動判定できない場合の調査用に、この画面から特定のアドレスを定義できます。パーソナライゼーションフィールドの追加アイコンを使用すると、各フィールドにパーソナライゼーションパラメーターを追加できます。
-
-## 文字エンコーディング {#character-encoding}
-
-配信パラメーターの「**[!UICONTROL SMTP]**」タブで、「**[!UICONTROL 文字エンコーディング]**」セクションを使用して特定のエンコードを設定できます。
-
-デフォルトのエンコードは UTF-8 です。一部の受信者の E メールプロバイダーが UTF-8 規格のエンコーディングをサポートしていない場合、E メールの受信者に対して特殊文字を適切に表示するために特定のエンコーディングを設定する必要があります。
-
-例えば、日本語の文字を含む E メールを送信するとします。すべての文字が日本の受信者に正しく表示されるようにするには、標準の UTF-8 ではなく、日本語文字をサポートするエンコーディングを使用します。
-
-そのためには、「**[!UICONTROL 文字エンコーディング]**」セクションの「**[!UICONTROL メッセージに使用されているエンコーディングを強制]**」オプションを選択し、表示されるドロップダウンリストからエンコーディングを選択します。
-
-![](assets/s_ncs_user_email_del_properties_smtp_tab_encoding.png)
-
-## SMTP ヘッダーの追加 {#adding-smtp-headers}
-
-配信には SMTP ヘッダーを追加できます。そのためには、配信の「**[!UICONTROL SMTP]**」タブの関連するセクションを使用します。
-
-このウィンドウで入力するスクリプトは、**name:value** の形式で 1 行ごとに 1 つのヘッダーを参照する必要があります。
-
-値は必要に応じて自動的にエンコードされます。
-
->[!CAUTION]
->
->スクリプトを追加すると、挿入する SMTP ヘッダーを追加できます。これは高度な知識を持つユーザー向けに用意されています。
->
->スクリプトの構文は、このコンテンツタイプの要件を満たしている必要があります（不要なスペースや空行を含まないなど）。
+次の節では、電子メールの配信に固有の設定と設定について詳しく説明します。
+<!--* [Generating the mirror page](../../delivery/using/generating-mirror-page.md)
+* [Email BCC](../../delivery/using/email-bcc.md)-->
+* [E メールパラメーター](../../delivery/using/email-parameters.md)
+* [拡張MTAを使用した電子メールの送信](../../delivery/using/sending-with-enhanced-mta.md)
+* [日本の携帯電話向け E メールの送信](../../delivery/using/sending-emails-on-japanese-mobiles.md)

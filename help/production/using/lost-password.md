@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: f24642223a2ec9f3d8e78e2f7e71a55bf14b80c7
+source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 8%
+source-wordcount: '174'
+ht-degree: 7%
 
 ---
 
@@ -20,9 +20,12 @@ ht-degree: 8%
 パスワードを失った場合は、パスワードの変更や復元が可能です。
 次の2つのシナリオが考えられます。
 
-**Adobe Campaign演算子によってパスワードが失われました**
+* [Adobe Campaign演算子によってパスワードが失われました](#password-lost-by-campaign-operator)
+* [内部パスワードの損失](#internal-password-lost) （オンプレミスのお客様のみ）
 
-この場合、関連する演算子のパスワードを変更できます。
+## キャンペーン演算子{#password-lost-by-campaign-operator}によってパスワードが失われました
+
+Adobe Campaign演算子がパスワードを失った場合は、パスワードを変更できます。
 これをおこなうには、以下の手順に従います。
 
 1. オペレーター経由で管理者権限を持つ接続。
@@ -31,9 +34,13 @@ ht-degree: 8%
 
    ![](assets/operator-passwd.png)
 
-1. 演算子の新しいパスワードを設定します。 演算子は、最初の再接続時にパスワードを変更することをお勧めします。
+1. 演算子の新しいパスワードを設定します。 オペレーターが最初に再接続する際に、パスワードを変更することをお勧めします。
 
-**内部パスワードの損失（オンプレミスのお客様のみ）**
+## 内部パスワードが失われました{#internal-password-lost}
+
+>[!NOTE]
+>
+>この節は、オンプレミスのお客様にのみ当てはまります。
 
 内部パスワードが失われた場合は、再初期化する必要があります。
 これを行うには、次の手順を適用します。

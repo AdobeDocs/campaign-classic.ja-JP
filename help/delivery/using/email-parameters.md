@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
+source-git-commit: e84387c7c396c60c429c3f625870a97a7fdaef5a
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 91%
@@ -32,11 +32,6 @@ Adobe Campaign では、BCC アドレスをメッセージのターゲットに�
 >「BCC で E メールを送信」はオプションの機能です。この機能を有効にするには、ライセンス契約を確認したうえで、アカウント担当者にお問い合わせください。
 
 新しい配信または配信テンプレートを作成する場合、「BCC で E メールを送信」はデフォルトで有効になっていません。電子メール配信または配信テンプレートレベルで手動で有効にする必要があります。
-
-<!--
->[!IMPORTANT]
->
->If you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), you can request to use Email BCC with Enhanced MTA for improved efficiency and less latency. In that case, all sent emails are automatically sent to the BCC address. You cannot enable it at the delivery or delivery template level, thus the steps below do not apply. For more on this, see [this section](../../installation/using/email-archiving.md).-->
 
 E メール配信テンプレートの「BCC で E メールを送信」を有効にするには、次の手順に従います。
 

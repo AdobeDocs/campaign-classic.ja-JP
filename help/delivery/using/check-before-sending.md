@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 1330d4658d039f27a98535bf9885bffbfa0be3c9
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
@@ -56,7 +56,7 @@ E メール配信で使用するコンテンツがいくつかある場合は、
 
 * その中で成功率が最も高いバージョンを選び、そのバージョンを残りのターゲットに送信します
 
-詳しくは、[この節](../../workflow/using/a-b-testing.md)を参照してください。
+詳しくは、[この節](../../delivery/using/get-started-a-b-testing.md)を参照してください。
 
 ## メッセージを確実に配信する {#make-sure-your-message-is-delivered}
 

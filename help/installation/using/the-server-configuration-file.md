@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: f39a84108c1f3327a469d5a230518652647ed63e
 workflow-type: tm+mt
-source-wordcount: '7851'
+source-wordcount: '7846'
 ht-degree: 39%
 
 ---
@@ -400,22 +400,22 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
   <tr> 
    <td> aliveTestDelaySec<br /> </td> 
    <td> 接続の有効性チェック処理間の遅延。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
   </tr> 
   <tr> 
    <td> freeCnx<br /> </td> 
    <td> プールに保存されている空き接続数.<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
    <td> 新しい接続を拒否する前に許可された接続の最大数。この<a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">テクノテクノテ</a>を参照してください。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
   </tr> 
   <tr> 
    <td> maxIdleDelaySec<br /> </td> 
    <td> 接続の最大アイドル時間。0 はデフォルト値です.<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -867,7 +867,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   <tr> 
    <td> ポート<br /> </td> 
    <td> プロキシサーバーポート<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1107,7 +1107,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 開始時の優先順位. 優先順位の低いモジュールが最初に開始され、最後に停止されます。したがって、syslogd モジュールは優先順位 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
@@ -1268,7 +1268,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 開始時の優先順位. 優先順位の低いモジュールが最初に開始され、最後に停止されます。したがって、syslogd モジュールは優先順位 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
@@ -1376,7 +1376,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 開始時の優先順位. 優先順位の低いモジュールが最初に開始され、最後に停止されます。したがって、syslogd モジュールは優先順位 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
@@ -1525,7 +1525,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 開始時の優先順位. 優先順位の低いモジュールが最初に開始され、最後に停止されます。したがって、syslogd モジュールは優先順位 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
@@ -1561,7 +1561,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> useMomentum<br /> </td> 
-   <td> "true"に設定した場合、インスタンスは<a href="https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html" target="_blank">拡張MTA</a>.<br />を使用しています。 </td> 
+   <td> "true"に設定した場合、インスタンスは<a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">拡張MTA</a>.<br />を使用しています。 </td> 
    <td> ブール値<br /> </td> 
    <td> <br /> </td>b 
   </tr>
@@ -2092,7 +2092,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 開始時の優先順位. 優先順位の低いモジュールが最初に開始され、最後に停止されます。したがって、syslogd モジュールは優先順位 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
@@ -2345,7 +2345,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 開始時の優先順位. 優先順位の低いモジュールが最初に開始され、最後に停止されます。したがって、syslogd モジュールは優先順位 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
@@ -2433,7 +2433,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   <tr> 
    <td> ポート<br /> </td> 
    <td> サーバーリスニングポート. <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">セクション</a>を参照してください。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
@@ -2445,7 +2445,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 開始時の優先順位. 優先順位の低いモジュールが最初に開始され、最後に停止されます。したがって、syslogd モジュールは優先順位 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
@@ -2516,7 +2516,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 開始時の優先順位. 優先順位の低いモジュールが最初に開始され、最後に停止されます。したがって、syslogd モジュールは優先順位 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 
@@ -2629,7 +2629,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 開始時の優先順位. 優先順位の低いモジュールが最初に開始され、最後に停止されます。したがって、syslogd モジュールは優先順位 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
@@ -2730,7 +2730,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 開始時の優先順位. 優先順位の低いモジュールが最初に開始され、最後に停止されます。したがって、syslogd モジュールは優先順位 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
@@ -2791,13 +2791,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   <tr> 
    <td> controlPort<br /> </td> 
    <td> Tomcatリスニング制御ポート：<a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Tomcatの設定</a>を参照してください。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> 8005<br /> </td> 
   </tr> 
   <tr> 
    <td> httpPort<br /> </td> 
    <td> Tomcat HTTPリスニングポート：<a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Tomcatの設定</a>を参照してください。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> 8080<br /> </td> 
   </tr> 
   <tr> 
@@ -2839,7 +2839,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 開始時の優先順位. 優先順位の低いモジュールが最初に開始され、最後に停止されます。したがって、syslogd モジュールは優先順位 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
   <tr> 
@@ -3303,7 +3303,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> id<br /> </td> 
+   <td> ID<br /> </td> 
    <td> 名前<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 1<br /> </td> 
@@ -3413,7 +3413,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   <tr> 
    <td> runLevel<br /> </td> 
    <td> 開始時の優先順位. 優先順位の低いモジュールが最初に開始され、最後に停止されます。したがって、syslogd モジュールは優先順位 0 である必要があります。<br /> </td> 
-   <td> 短い<br /> </td> 
+   <td> ショート<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
  </tbody> 

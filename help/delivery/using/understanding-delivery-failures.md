@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
 workflow-type: tm+mt
-source-wordcount: '2497'
-ht-degree: 99%
+source-wordcount: '2623'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->E メールメッセージ（「バウンス」）は inMail プロセスによって評価されます。SMS エラーメッセージ（ステータスレポートを表す「SR」）は MTA プロセスによって評価されます。
+>**E メール**&#x200B;エラーメッセージ（「バウンス」）は、Enhanced MTA（同期バウンス）または inMail プロセス（非同期バウンス）で評価されます。
+>
+>**SMS** エラーメッセージまたは SR（「ステータスレポート」の意味）は MTA プロセスによって評価されます。
 
 メッセージの送信後、配信ログによって各プロファイルの配信ステータスと、関連するエラーのタイプおよび理由を確認できます。
 
@@ -184,9 +186,13 @@ ht-degree: 99%
 >
 >一時的に配信できなかったメッセージは、**ソフト**&#x200B;または&#x200B;**無視**&#x200B;のエラーにのみ関係するもので、**ハード**&#x200B;エラーは関係ありません（[配信エラーのタイプと理由](#delivery-failure-types-and-reasons)を参照）。
 
-配信の期間を変更するには、配信の高度なパラメーターまたは配信テンプレートにアクセスし、対応するフィールドで希望の期間を指定します。高度な配信プロパティについては、[この節](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)で説明しています。
+>[!IMPORTANT]
+>
+>ホストインストールまたはハイブリッドインストールの場合、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合、配信の再試行設定は、キャンペーンで使用されなくなります。 ソフトバウンスの再試行とその間隔は、メッセージの E メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
 
-デフォルトの設定では、1 時間間隔で 5 回、その後 4 日間は 1 日に 1 回再試行されます。再試行の回数の変更は、グローバルに（アドビの技術管理者にお問い合わせください）、または配信または配信テンプレートごとに（[この節](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)を参照）おこなうことができます。
+レガシーキャンペーンMTAを使用したオンプレミスインストールおよびホスト/ハイブリッドインストールの場合、配信の長さを変更するには、配信または配信テンプレートの高度なパラメーターに移動し、対応するフィールドに目的の長さを指定します。 「[有効期間の定義](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)」を参照してください。
+
+デフォルトの設定では、1 時間間隔で 5 回、その後 4 日間は 1 日に 1 回再試行されます。再試行の数は、グローバルに変更する(Adobeのテクニカル管理者に問い合わせる)か、配信または配信テンプレートごとに変更できます([再試行の設定](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)を参照)。
 
 ## 同期エラーと非同期エラー {#synchronous-and-asynchronous-errors}
 
@@ -207,17 +213,38 @@ ht-degree: 99%
 
 ## バウンスメール管理 {#bounce-mail-management}
 
-Adobe Campaign プラットフォームでは、バウンスメール機能を使用して、E メール配信の失敗を管理できます。E メールを受信者に配信できない場合は、リモートメッセージングサーバーが、専用のテクニカル受信ボックスにエラーメッセージ（バウンスメール）を自動的に返します。E メール管理ルールのリストを充実させるために、エラーメッセージは Adobe Campaign プラットフォームによって収集され、inMail プロセスによって評価されます。
+Adobe Campaign プラットフォームでは、バウンスメール機能を使用して、E メール配信の失敗を管理できます。
 
-### バウンスメール強制隔離 {#bounce-mail-qualification}
+E メールを受信者に配信できない場合は、リモートメッセージングサーバーが、専用のテクニカル受信ボックスにエラーメッセージ（バウンスメール）を自動的に返します。
 
-E メールの配信が失敗すると、Adobe Campaign の配信サーバーはメッセージングサーバーまたはリモート DNS サーバーからエラーメッセージを受け取ります。エラーのリストは、リモートサーバーが返したメッセージに含まれる文字列で構成されます。エラータイプと理由が各エラーメッセージに割り当てられます。
+レガシーキャンペーンMTAを使用したオンプレミスインストールおよびホスト/ハイブリッドインストールの場合、エラーメッセージはAdobe Campaignプラットフォームによって収集され、inMailプロセスで修飾され、電子メール管理ルールのリストを強化します。
+
+>[!IMPORTANT]
+>
+>ホスト型またはハイブリッド型のインストールの場合、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合、電子メール管理ルールのほとんどは使用されなくなります。 詳しくは、[この節](#email-management-rules)を参照してください。
+
+### バウンスメールの選定 {#bounce-mail-qualification}
+
+>[!IMPORTANT]
+>
+>ホストインストールまたはハイブリッドインストールの場合、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合：
+>
+>* **[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、同期配信の失敗エラーメッセージには使用されなくなりました。**** Enhanced MTA は、バウンスのタイプと選定を決定し、その情報を Campaign に返します。
+   >
+   >
+* ****&#x200B;非同期バウンスは、引き続き、**[!UICONTROL インバウンド E メール]**&#x200B;ルールを通じて inMail プロセスで選定されます。詳しくは、[E メール管理ルール](#email-management-rules)を参照してください。
+   >
+   >
+* Webhooks/EFS **なしで拡張MTA**&#x200B;を使用する場合、**[!UICONTROL Inbound email]**&#x200B;ルールも、非同期バウンス電子メールと同じ電子メールアドレスを使用して、拡張MTAからの同期バウンス電子メールを処理するために使用されます。
+
+
+レガシーキャンペーンMTAを使用したオンプレミスインストールおよびホスト/ハイブリッドインストールの場合、電子メールの配信に失敗すると、Adobe Campaign配信サーバーは、メッセージングサーバーまたはリモートDNSサーバーからエラーメッセージを受け取ります。 エラーのリストは、リモートサーバーが返したメッセージに含まれる文字列で構成されます。エラータイプと理由が各エラーメッセージに割り当てられます。
 
 このリストは、**[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信ログの検証]**&#x200B;ノードから表示できます。このリストには、配信エラーを評価するために Adobe Campaign が使用するすべてのルールが含まれています。このリストは、完成されたものではなく、Adobe Campaign によって定期的に更新されます。ユーザーが管理することもできます。
 
 ![](assets/tech_quarant_rules_qualif.png)
 
-* このエラータイプが最初に発生したときにリモートサーバーから返されたメッセージは、**[!UICONTROL 配信ログの検証]**&#x200B;テーブルの&#x200B;**[!UICONTROL 最初のテキスト]**&#x200B;列に表示されます。この列が表示されない場合は、リストの右下にある「**[!UICONTROL リストを設定]**」ボタンをクリックし、この列を選択します。
+このエラータイプが最初に発生したときにリモートサーバーから返されたメッセージは、**[!UICONTROL 配信ログの検証]**&#x200B;テーブルの&#x200B;**[!UICONTROL 最初のテキスト]**&#x200B;列に表示されます。この列が表示されない場合は、リストの右下にある「**[!UICONTROL リストを設定]**」ボタンをクリックし、この列を選択します。
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
@@ -237,22 +264,11 @@ Adobe Campaign は、このメッセージをフィルター処理して変数�
 
 ![](assets/deliverability_qualif_status.png)
 
+### E メール管理ルール {#email-management-rules}
+
 >[!IMPORTANT]
 >
->ホストインストールまたはハイブリッドインストールで、Enhanced MTA にアップグレードしている場合：
->
->* **[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、同期配信の失敗エラーメッセージには使用されなくなりました。Enhanced MTA は、バウンスのタイプと選定を決定し、その情報を Campaign に返します。
-   >
-   >
-* 非同期バウンスは、引き続き、**[!UICONTROL インバウンド E メール]**&#x200B;ルールを通じて inMail プロセスで選定されます。詳しくは、[E メール管理ルール](#email-management-rules)を参照してください。
-   >
-   >
-* **Webhooks/EFS** なしで Enhanced MTA を使用する場合、**[!UICONTROL インバウンド E メール]**&#x200B;ルールは、非同期のバウンス E メールと同じ E メールアドレスを使用して、Enhanced MTA からの同期バウンス E メールを処理するためにも使用されます。
->
->
-Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html)を参照してください。
-
-### E メール管理ルール {#email-management-rules}
+>ホスト型またはハイブリッド型のインストールの場合、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合、電子メール管理ルールのほとんどは使用されなくなります。 詳しくは、以下の節を参照してください。
 
 メールルールには、**[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／メールルールセット]**&#x200B;ノードからアクセスします。E メール管理ルールがウィンドウの下部に表示されます。
 
@@ -272,7 +288,11 @@ Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント
 
 #### インバウンド E メール {#inbound-email}
 
-これらのルールには、リモートサーバーが返すことができ、エラー（**ハード**、**ソフト**&#x200B;または&#x200B;**無視**）を検証できる文字列のリストが含まれます。
+>[!IMPORTANT]
+>
+>ホスト型またはハイブリッド型のインストールでは、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードし、インスタンスに&#x200B;**Webhooks/EFS**&#x200B;機能がある場合、**[!UICONTROL 受信電子メール]**&#x200B;ルールは、同期配信失敗エラーメッセージには使用されません。 詳しくは、[この節](#bounce-mail-qualification)を参照してください。
+
+レガシーキャンペーンMTAを使用したオンプレミスインストールおよびホスト/ハイブリッドインストールの場合、これらのルールには、リモートサーバーから返される文字列のリストが含まれ、エラー（**Hard**、**Soft**&#x200B;または&#x200B;**Ignored**）を修飾します。
 
 E メールが失敗すると、リモートサーバーがプラットフォームのパラメーターで指定されたアドレスにバウンスメールを返します。Adobe Campaign は、各バウンスメールのコンテンツをルールのリストの文字列と比較して、3 つの[エラータイプ](#delivery-failure-types-and-reasons)のいずれかを割り当てます。
 
@@ -282,15 +302,13 @@ E メールが失敗すると、リモートサーバーがプラットフォー
 
 バウンスメールの選定について詳しくは、[この節](#bounce-mail-qualification)を参照してください。
 
->[!IMPORTANT]
->
->ホストインストールまたはハイブリッドインストールで、拡張 MTA にアップグレードしている場合、またインスタンスに **Webhooks/EFS** 機能がある場合、同期配信障害エラーメッセージに&#x200B;**[!UICONTROL インバウンド E メール]**&#x200B;ルールが使用されなくなりました。詳しくは、[この節](#bounce-mail-qualification)を参照してください。
->
->Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)を参照してください。
-
 #### ドメイン管理 {#domain-management}
 
-Adobe Campaign メッセージングサーバーは、1 つの&#x200B;**ドメイン管理**&#x200B;規則をすべてのドメインに適用します。
+>[!IMPORTANT]
+>
+>ホストインストールまたはハイブリッドインストールの場合、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合、**[!UICONTROL ドメイン管理]**&#x200B;ルールは使用されなくなります。 **DKIM（DomainKeys Identified Mail）** E メール認証の署名は、すべてのドメインのメッセージに対して Enhanced MTA によっておこなわれます。Enhanced MTA レベルで特に指定されていない限り、**Sender ID**、**、DomainKeys** 、または **S/MIME** を使用して署名することはありません。
+
+レガシーキャンペーンMTAを使用したオンプレミスインストールおよびホスト/ハイブリッドインストールの場合、Adobe Campaignメッセージングサーバーは、1つの&#x200B;**Domain management**&#x200B;ルールをすべてのドメインに適用します。
 
 <!--![](assets/tech_quarant_domain_rules_02.png)-->
 
@@ -299,13 +317,13 @@ Adobe Campaign メッセージングサーバーは、1 つの&#x200B;**ドメ�
 
 Outlook でメッセージの差出人アドレスに「**[!UICONTROL ...が代理で送信]**」と表示される場合、Microsoft が提供する旧式の専用 E メール認証標準である **Sender ID** を使用して E メールに署名しないようにしてください。**[!UICONTROL Sender ID]**&#x200B;オプションが有効な場合は、対応するボックスの選択を解除し、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。 配信品質に影響はありません。
 
+#### MX 管理 {#mx-management}
+
 >[!IMPORTANT]
 >
->ホストインストールまたはハイブリッドインストールで Enhanced MTA にアップグレードした場合、**[!UICONTROL ドメイン管理]**&#x200B;は使用されなくなります。**DKIM（DomainKeys Identified Mail）** E メール認証の署名は、すべてのドメインのメッセージに対して Enhanced MTA によっておこなわれます。Enhanced MTA レベルで特に指定されていない限り、**Sender ID**、**、DomainKeys** 、または **S/MIME** を使用して署名することはありません。
->
->Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)を参照してください。
+>ホスト型またはハイブリッド型のインストールの場合、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合、**[!UICONTROL MX management]**&#x200B;配信のスループットルールは使用されなくなります。 Enhanced MTA は独自の MX ルールを使用します。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
 
-#### MX 管理 {#mx-management}
+レガシーキャンペーンMTAを使用したオンプレミスインストールおよびホスト/ハイブリッドインストールの場合：
 
 * MX 管理ルールを使用して、特定のドメインに送信される E メールのフローを規制します。このルールは、バウンスメッセージをサンプリングし、必要に応じて送信をブロックします。
 
@@ -314,9 +332,3 @@ Outlook でメッセージの差出人アドレスに「**[!UICONTROL ...が代�
 * MX 管理ルールを設定するには、しきい値を設定して、特定の SMTP パラメーターを選択するだけです。**しきい値**&#x200B;とは、特定のドメイン宛てのメッセージをブロックする基準となるエラー率です。エラー率がこの値を超えると、特定のドメイン宛てのすべてのメッセージがブロックされます。例えば一般的なケースでは、300 件以上のメッセージに対してエラー率が 90％に達すると、E メールの送信が 3 時間ブロックされます。
 
 MX 管理について詳しくは、[この節](../../installation/using/email-deliverability.md#mx-configuration)を参照してください。
-
->[!IMPORTANT]
->
->ホストインストールまたはハイブリッドインストールで Enhanced MTA にアップグレードした場合、**[!UICONTROL MX 管理]**&#x200B;配信スループットは使用されなくなります。Enhanced MTA は独自の MX ルールを使用します。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
->
->Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)を参照してください。

@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 759346587e3ce98c408a0a17218341118dbceb82
+source-git-commit: 7473a64a7f3865d1e1eefde9607c539c2f632138
 workflow-type: tm+mt
-source-wordcount: '3887'
-ht-degree: 94%
+source-wordcount: '3932'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,14 @@ ht-degree: 94%
 このページには、毎月および Campaign の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
 
 リリース関連の更新については、[Adobe Campaign Classicリリースノート](../../rn/using/latest-release.md)を参照してください。
+
+## 2021 年 2 月 {#feb-2021}
+
+ワークフローを使用したA/Bテストの実行方法に関する詳細情報を含む新しい節を追加しました。 [詳細を表示](../../delivery/using/get-started-a-b-testing.md)
+
+Adobe Campaign拡張MTAセクションは[ここ](../../delivery/using/sending-with-enhanced-mta.md)に移動しました。
+
+**電子メール**&#x200B;の送信セクションが再編成され、新しいサブセクションで明確化されました。 [詳細を表示](../../delivery/using/sending-messages.md)
 
 ## 2021 年 1 月 {#jan-2021}
 

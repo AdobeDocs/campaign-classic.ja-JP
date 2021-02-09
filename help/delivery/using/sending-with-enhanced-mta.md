@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
+source-git-commit: 07ed17a093cb6fb2d7aae376325a127c61b1dcc2
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 3%
@@ -147,7 +147,7 @@ MX 設定について詳しくは、[この節](../../installation/using/email-d
 
 <!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
-## 配信スループット
+### 配信スループット
 
 キャンペーン配信のスループットグラフには、電子メール受信者に対してスループットが表示されなくなります。 このグラフは、キャンペーンから拡張MTAへのメッセージのリレーのスループット速度を示します。
 
@@ -163,6 +163,6 @@ MX 設定について詳しくは、[この節](../../installation/using/email-d
 
 有効期間について詳しくは、[この節](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)を参照してください。
 
-## DKIM署名
+### DKIM署名
 
 DKIM(DomainKeys Identified Mail)電子メール認証の署名は、拡張MTAによって行われます。 ネイティブの Campaign MTA による DKIM 署名は、Enhanced MTA アップグレードの一環としてドメイン管理テーブル内で無効になります。DKIMの詳細については、[このセクション](../../delivery/using/technical-recommendations.md#dkim)を参照してください。

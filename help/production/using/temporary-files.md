@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 50f95d7156e7104d90fa7a31eea30711b9c11bbf
+source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 4%
@@ -25,7 +25,9 @@ ht-degree: 4%
 
 Adobe Campaignは、**/tmp**&#x200B;下に一時ファイルを生成し、名前を変更して&#x200B;**/usr/local/neolane/nl6/var**&#x200B;に移動します。 このエラーは、両方のフォルダ（**/tmp**&#x200B;と&#x200B;**/usr/local/neolane/nl6/var**）が異なるデバイスに対応している場合に発生します。 ******df**&#x200B;コマンドは、検証に使用します。
 
-この問題を修正するには、一時ファイルを宛先と同じデバイスに生成する必要があります。 例えば、次を実行します。
+この問題を修正するには、一時ファイルを宛先と同じデバイスに生成する必要があります。
+
+例えば、次の操作を実行します。
 
 ```
 $ cd ~/nl6/var
@@ -33,9 +35,8 @@ $ mkdir tmp
 $ vi ~/nl6/customer.sh
 ```
 
-次に、次に追加します。
+追加：
 
 ```
 export TMPDIR=/usr/local/neolane/nl6/var/tmp 
 ```
-

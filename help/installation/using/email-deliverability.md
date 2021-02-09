@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
 workflow-type: tm+mt
 source-wordcount: '3040'
-ht-degree: 20%
+ht-degree: 19%
 
 ---
 
@@ -131,15 +131,15 @@ Adobe Campaignプラットフォームによる電子メールの効率的な送
 
 ## MX構成{#mx-configuration}
 
+>[!IMPORTANT]
+>
+>ホスト型またはハイブリッド型のインストールの場合、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合、**[!UICONTROL MX management]**&#x200B;配信のスループットルールは使用されなくなります。 Enhanced MTA は独自の MX ルールを使用します。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
+
+以下の節は、レガシーキャンペーンMTAを使用したオンプレミスインストールおよびホスト/ハイブリッドインストールにのみ適用されます。
+
 ### MX ルールについて {#about-mx-rules}
 
 MX（Mail eXchanger）ルールは、送信サーバーと受信サーバーの間の通信を管理するルールです。
-
->[!IMPORTANT]
->
->ホストインストールまたはハイブリッドインストールで Enhanced MTA にアップグレードした場合、**[!UICONTROL MX 管理]**&#x200B;配信スループットは使用されなくなります。Enhanced MTA は独自の MX ルールを使用します。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
->
->Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html)を参照してください。
 
 これらのルールは、定期的にクライアントインスタンスを供給するために、毎朝6AM（サーバー時間）に自動的にリロードされます。
 

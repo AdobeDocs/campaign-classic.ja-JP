@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2458'
 ht-degree: 100%
 
 ---
@@ -69,6 +69,10 @@ DNS サーバーのレベルで作成されたレコードを考慮するのに�
 
 ### DKIM {#dkim}
 
+>[!IMPORTANT]
+>
+>ホストインストールまたはハイブリッドインストールで [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードした場合、すべてのドメインのすべてのメッセージに対する DKIM の E メール認証署名は、Enhanced MTA がおこないます。
+
 DKIM（DomainKeys Identified Mail）認証は、SPF の後継で、公開鍵暗号化を使用します。受信 E メールサーバーは、送信したと主張する個人または法人によってメッセージが実際に送信されたか、およびメッセージコンテンツが最初に送信された（および DKIM が「署名された」）ときと受信時で変更されているかどうかを検証できます。この標準は、通常、「From」または「Sender」ヘッダーのドメインを使用します。DKIM のセキュリティレベルを確保するのに、ベストプラクティスとして推奨される暗号化サイズは 1024b です。これより小さいサイズの DKIM 鍵は、大多数のアクセスプロバイダーには有効とはみなされません。
 
 DKIM は、Yahoo! の DomainKeys と Cisco の Identified Internet Mail という 2 つの送信ドメイン認証方式を組み合わせて策定されたもので、送信者ドメインの信憑性を確認し、メッセージの整合性を保証するために使用されます。
@@ -87,10 +91,6 @@ DKIM を使用するには、次のように、いくつかの前提条件を満
 >* DKIM は DomainKeys の改良版なので、同じドメインに DomainKeys と DKIM の両方を有効にする必要はありません。
 >* 現在 DKIM が有効になっているドメインは、AOL および Gmail です。
 
-
->[!IMPORTANT]
->
->ホストインストールまたはハイブリッドインストールで [Enhanced MTA](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html) にアップグレードした場合、すべてのドメインのすべてのメッセージに対する DKIM の E メール認証署名は、Enhanced MTA がおこないます。
 
 ### DMARC {#dmarc}
 

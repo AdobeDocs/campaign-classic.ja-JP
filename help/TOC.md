@@ -1,6 +1,6 @@
 ---
 audience: end-user
-breadcrumb-title: Campaign Classic
+breadcrumb-title: ヘルプセンター
 product: campaign
 title: Campaign Classic ガイド
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 048ceef9e4498b557601f3eb2db839e415d6e8c5
+source-git-commit: 7351912ed34525479401ef4983a0bc8a78de85f8
 workflow-type: tm+mt
-source-wordcount: '2290'
-ht-degree: 96%
+source-wordcount: '2347'
+ht-degree: 95%
 
 ---
 
@@ -124,7 +124,11 @@ ht-degree: 96%
       + [E メール配信の作成](delivery/using/creating-an-email-delivery.md)
       + [E メールコンテンツの定義](delivery/using/defining-the-email-content.md)
       + [インタラクティブコンテンツの定義](delivery/using/defining-interactive-content.md)
-      + [メッセージの送信](delivery/using/sending-messages.md)
+      + E メールの送信 {#sending-an-email}
+         + [電子メール配信の確認](delivery/using/sending-messages.md)
+         + [E メールパラメーター](delivery/using/email-parameters.md)
+         + [拡張MTAを使用した送信](delivery/using/sending-with-enhanced-mta.md)
+         + [日本の携帯電話への発信](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [ファイルの添付](delivery/using/attaching-files.md)
    + モバイルへのメッセージの送信 {#sending-messages-on-mobiles}
       + [SMS チャネル](delivery/using/sms-channel.md)
@@ -165,6 +169,19 @@ ht-degree: 96%
       + [外部の送信者テーブルの使用](delivery/using/using-an-external-recipient-table.md)
       + [使用例：条件によるシードアドレスの選択](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
       + [使用例：フィールド置換の設定](delivery/using/use-case--configuring-the-field-substitution.md)
+   + A/B テスト {#a-b-testing}
+      + [A/Bテストを始める](delivery/using/get-started-a-b-testing.md)
+      + [A/Bテストの設定](delivery/using/configuring-a-b-testing.md)
+      + 使用例 {#use-case}
+         + [この使用例について](delivery/using/a-b-testing-use-case.md)
+         + [ターゲティングワークフローの作成](delivery/using/a-b-testing-uc-targeting-workflow.md)
+         + [母集団サンプルの設定](delivery/using/a-b-testing-uc-population-samples.md)
+         + [配信テンプレートの作成](delivery/using/a-b-testing-uc-delivery-templates.md)
+         + [配信の設定](delivery/using/a-b-testing-uc-configuring-deliveries.md)
+         + [スクリプトの作成](delivery/using/a-b-testing-uc-script.md)
+         + [最終配信の定義](delivery/using/a-b-testing-uc-final-delivery.md)
+         + [ワークフローの開始](delivery/using/a-b-testing-uc-start-workflow.md)
+         + [結果の分析](delivery/using/a-b-testing-uc-analyzing.md)
    + 購読と紹介 {#subscriptions-and-referrals}
       + [サービスと購読について](delivery/using/about-services-and-subscriptions.md)
       + [購読の管理](delivery/using/managing-subscriptions.md)
@@ -439,7 +456,6 @@ ht-degree: 96%
       + [ワークフローの使用例について](workflow/using/about-workflow-use-cases.md)
       + 配信 {#deliveries}
          + [ローカルの承認アクティビティの使用](workflow/using/using-the-local-approval-activity.md)
-         + [A/B テスト](workflow/using/a-b-testing.md)
          + [誕生日の E メールの送信](workflow/using/sending-a-birthday-email.md)
          + [配信コンテンツの読み込み](workflow/using/loading-delivery-content.md)
          + [クロスチャネル配信ワークフロー](workflow/using/cross-channel-delivery-workflow.md)

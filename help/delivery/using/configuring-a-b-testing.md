@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 1330d4658d039f27a98535bf9885bffbfa0be3c9
+source-git-commit: a341980e9d940857388bb2755e5eaa74824cf6ea
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 1. 追加[分割](../../workflow/using/split.md)アクティビティ。ターゲット母集団を複数のサブセットに分割します。
 
-1. アクティビティを開き、必要に応じて各サブセットを設定します。 **[!UICONTROL Split]**&#x200B;アクティビティの構成方法の詳細については、この節を参照してください。
+1. アクティビティを開き、必要に応じて各サブセットを設定します。 **[!UICONTROL Split]**&#x200B;アクティビティの構成方法の詳細については、[この](../../workflow/using/split.md)を参照してください。
 
    この例では、対象となる訪問者の10%に対して各テーマを提示し、ニュースレター用に2つの新しい主題をテストします。
 

@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b82796182525ffa55b17fe8ac2f84f1bec230cf
+source-git-commit: 3348156f020d4c8af7e1d57c46cba99205422696
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 79%
@@ -87,7 +87,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->Adobe I/O証明書は12か月後に期限が切れます。 新しいキーペアを生成する必要があるのは今年中です。
+>Adobe I/O証明書は12か月後に期限が切れます。 新しいキーペアを毎年生成する必要があります。
 
 ## 手順 2：Adobe Campaign にプロジェクト資格情報を追加 {#add-credentials-campaign}
 

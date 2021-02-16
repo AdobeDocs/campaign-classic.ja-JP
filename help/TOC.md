@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 7351912ed34525479401ef4983a0bc8a78de85f8
+source-git-commit: efa36dc08ce4dd59805bb9eba63a4249e14609d7
 workflow-type: tm+mt
-source-wordcount: '2347'
+source-wordcount: '2349'
 ht-degree: 95%
 
 ---
@@ -201,6 +201,7 @@ ht-degree: 95%
       + [パーソナライズされた URL のトラッキング](delivery/using/personalizing-url-tracking.md)
       + [トラッキングログへのアクセス](delivery/using/accessing-the-tracking-logs.md)
       + [トラッキングのテスト](delivery/using/testing-tracking.md)
+      + [トラッキングのトラブルシューティング](delivery/using/tracking-troubleshooting.md)
    + 配信品質の管理 {#deliverability-management}
       + [配信品質について](delivery/using/about-deliverability.md)
       + [重要なチェックポイント](delivery/using/deliverability-key-points.md)

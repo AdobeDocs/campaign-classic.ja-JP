@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 7473a64a7f3865d1e1eefde9607c539c2f632138
+source-git-commit: 55cc09c0446e389029890e45b790bb5ec6ffdc27
 workflow-type: tm+mt
-source-wordcount: '3932'
+source-wordcount: '3965'
 ht-degree: 93%
 
 ---
@@ -26,6 +26,10 @@ ht-degree: 93%
 ワークフローを使用したA/Bテストの実行方法に関する詳細情報を含む新しい節を追加しました。 [詳細を表示](../../delivery/using/get-started-a-b-testing.md)
 
 Adobe Campaign拡張MTAセクションは[ここ](../../delivery/using/sending-with-enhanced-mta.md)に移動しました。
+
+[!DNL Campaign Classic]のトラッキング機能の概要を示す新しいページが追加されました。 [詳細を表示](../../delivery/using/about-message-tracking.md)
+
+トラッキングに関連する一般的な問題の解決に役立つトラブルシューティングの節が追加されました。 [詳細を表示](../../delivery/using/tracking-troubleshooting.md)
 
 **電子メール**&#x200B;の送信セクションが再編成され、新しいサブセクションで明確化されました。 [詳細を表示](../../delivery/using/sending-messages.md)
 

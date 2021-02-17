@@ -6,9 +6,9 @@ description: Campaign Classic 互換性マトリックス
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -178,7 +178,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 </td>
 </tr>
 <tr>
-<td>Microsoft Dynamicsコネクタ</td>
+<td>Microsoft Dynamics コネクタ</td>
 <td>
 <p>Web API：Dynamics 365 オンプレミスおよびオンライン</p>
 </td>

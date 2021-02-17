@@ -6,11 +6,11 @@ description: アクセス管理
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c24cdd21c2426ea12a1cbd76d78154256bc814c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3214'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Adobe ID を使用して Adobe Campaign に直接接続することもできま�
 
    >[!NOTE]
    >
-   >このアカウントが無効になっていても、オペレーターはキャンペーンからアラートや通知を受け取ることができます。 この演算子へのキャンペーン通知の送信を停止するには、Adobeはプロファイルから電子メールアドレスを削除することを推奨します。
+   >このアカウントが無効になっていても、オペレーターは Campaign からアラートや通知を受け取ることができます。 このオペレーターへの Campaign 通知の送信を停止するには、プロファイルからメールアドレスを削除することを推奨します。
 
 * 「**[!UICONTROL リッチクライアントからのアクセスを禁止]**」オプションを使用すると、Adobe Campaign の使用を [Web アクセス](../../platform/using/adobe-campaign-workspace.md#console-and-web-access)または API に制限できます。これにより、Adobe Campaign クライアントコンソールにアクセスできなくなります。
 * 安全ゾーンをオペレーターに関連付けることができます。詳しくは、[このページ](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。
@@ -208,7 +208,7 @@ Adobe Campaign は、管理者（&#39;admin&#39;）、請求（&#39;billing&#39;
 
 >[!NOTE]
 >
->セキュリティガイドラインについて詳しくは、[Adobe Campaign セキュリティ設定チェックリスト](https://helpx.adobe.com/campaign/kb/acc-security.html)を参照してください。
+>セキュリティガイドラインについて詳しくは、[Adobe Campaign セキュリティ設定チェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)を参照してください。
 
 ## オペレーターグループ {#operator-groups}
 

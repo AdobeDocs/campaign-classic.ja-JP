@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: c5c881d6919a8715e6588fb39793f562a16873bb
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 79%
+ht-degree: 98%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 79%
 
 >[!CAUTION]
 >
->oAuth 認証を通じて古いバージョンの Triggers 統合を使用する場合は、**以下の説明に従って Adobe I/O に移行する必要があります**。従来のoAuth認証モードは、2021年4月30日に廃止されます。 [詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>oAuth 認証を通じて古いバージョンの Triggers 統合を使用する場合は、**以下の説明に従って Adobe I/O に移行する必要があります**。従来の OAuth 認証モードは、2021 年 4 月 30 日に廃止されます。[詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 >
->このAdobe I/Oへの移行中に、一部の着信トリガーが失われる可能性があることに注意してください。
+>こうした Adobe I/O への移行中に、一部の着信トリガーが失われる可能性があることに注意してください。
 
 ## 前提条件 {#adobe-io-prerequisites}
 
@@ -43,7 +43,7 @@ ht-degree: 79%
    >
    > 正しい組織ポータルにログインしていることを確認します。
 
-1. 既存の統合クライアント識別子（クライアントID）をインスタンス設定ファイルims/authIMSTAClientIdから抽出します。 属性が存在しないか空の場合は、クライアント識別子が設定されていません。
+1. 既存の統合クライアント識別子（クライアント ID） をインスタンス設定ファイル（ims/authIMSTAClientId）から抽出します。属性が存在しないか空の場合は、クライアント識別子が設定されていません。
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ ht-degree: 79%
 
    ![](assets/do-not-localize/adobe_io_3.png)
 
-1. クライアントIDが空の場合は、「**[!UICONTROL キーのペア]**&#x200B;を生成」を選択して、公開鍵と秘密鍵のペアを作成します。
+1. クライアント ID が空の場合は、「**[!UICONTROL キーペアを生成]**」を選択して、公開鍵と秘密鍵のペアを作成します。
 
    ![](assets/do-not-localize/adobe_io_4.png)
 
@@ -87,9 +87,9 @@ ht-degree: 79%
 
 >[!CAUTION]
 >
->Adobe I/O証明書は12か月後に期限が切れます。 新しいキーペアを毎年生成する必要があります。
+>Adobe I/O 証明書は 12 か月後に期限が切れます。 新しいキーペアを毎年生成する必要があります。
 
-## 手順 2：Adobe Campaign にプロジェクト資格情報を追加 {#add-credentials-campaign}
+## 手順 2：Adobe Campaign へのプロジェクト資格情報の追加 {#add-credentials-campaign}
 
 Adobe Campaign にプロジェクト資格情報を追加するには、Adobe Campaign インスタンスのすべてのコンテナで「neolane」ユーザーとして次のコマンドを実行し、**[!UICONTROL テクニカルアカウント]**&#x200B;資格情報をインスタンス設定ファイルに挿入します。
 
@@ -99,9 +99,9 @@ nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_
 
 >[!NOTE]
 >
->秘密鍵は base64 UTF-8 形式でエンコードする必要があります。秘密鍵を除き、エンコードする前に、鍵から新しい行を削除してください。 秘密鍵は、統合の作成に使用したものと同じである必要があります。秘密鍵のbase64エンコーディングをテストするには、[このWebサイト](https://www.base64encode.org/)を使用します。
+>秘密鍵は base64 UTF-8 形式でエンコードする必要があります。秘密鍵でない場合は、鍵をエンコードする前に、鍵から新しい行を削除してください。秘密鍵は、統合の作成に使用したものと同じである必要があります。秘密鍵の base64 エンコーディングをテストするには、[こちらの Web サイト](https://www.base64encode.org/)を使用します。
 
-## 手順 3：pipelined タグを更新 {#update-pipelined-tag}
+## 手順 3：パイプライン化されたタグの更新 {#update-pipelined-tag}
 
 [!DNL pipelined] タグを更新するには、設定ファイル（**config-&lt;インスタンス名>.xml**）で、認証タイプを以下のように Adobe I/O プロジェクトに更新する必要があります。
 

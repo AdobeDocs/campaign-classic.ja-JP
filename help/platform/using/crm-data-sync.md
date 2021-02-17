@@ -1,44 +1,44 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: CRM Connectorsのデータ同期
-description: キャンペーンとCRM間のデータの管理
+title: CRM コネクタのデータ同期
+description: Campaign と CRM の間のデータ管理
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1618'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
-# キャンペーンとCRMの間のデータ同期{#data-synchronization}
+# Campaign と CRM の間のデータ同期 {#data-synchronization}
 
-Adobe CampaignとCRMの間のデータ同期は、専用のワークフローアクティビティを介して実行されます。[CRMコネクタ](../../workflow/using/crm-connector.md)。
+Adobe Campaign と CRM の間の同期は、専用のワークフローアクティビティである「[CRM コネクタ](../../workflow/using/crm-connector.md)」で実行されます。
 
-例えば、Microsoft DynamicsデータをAdobe Campaignにインポートするには、次の種類のワークフローを作成します。
+Microsoft Dynamics データを Adobe Campaign にインポートするには、次のタイプのワークフローを作成します。
 
 ![](assets/crm_connectors_msdynamics_07.png)
 
-このワークフローでは、Microsoft Dynamics 経由で連絡先がインポートされ、それらが既存の Adobe Campaign データと同期され、重複する連絡先は削除され、Adobe Campaign データベースが更新されます。
+このワークフローでは、Microsoft Dynamics 経由で連絡先がインポートされ、それらが既存の Adobe Campaign データと同期され、重複する連絡先が削除され、Adobe Campaign データベースが更新されます。
 
-**[!UICONTROL CRM Connector]**&#x200B;アクティビティは、データを同期するように設定する必要があります。
+**[!UICONTROL CRM コネクタ]**&#x200B;アクティビティは、データを同期するように設定する必要があります。
 
 ![](assets/crm_connectors_msdynamics_08.png)
 
 このアクティビティを使用すると、次のことができます。
 
-* CRMからインポート — [詳細情報](#importing-from-the-crm)
-* CRMにエクスポート — [詳細](#exporting-to-the-crm)
-* CRMで削除されたオブジェクトのインポート — [詳細情報](#importing-objects-deleted-in-the-crm)
-* CRM内のオブジェクトの削除 — [詳細情報](#deleting-objects-in-the-crm)
+* CRM からのインポート - [詳細情報](#importing-from-the-crm)
+* CRM へのエクスポート - [詳細情報](#exporting-to-the-crm)
+* CRM で削除されたオブジェクトのインポート - [詳細情報](#importing-objects-deleted-in-the-crm)
+* CRM 内のオブジェクトの削除 - [詳細情報](#deleting-objects-in-the-crm)
 
 ![](assets/crm_task_select_op.png)
 
-同期を設定するCRMに一致する外部アカウントを選択し、同期するオブジェクトを選択します。アカウント、機会、リード、連絡先など
+同期の設定対象となる CRM に対応する外部アカウントを選択し、同期するオブジェクト（アカウント、オポチュニティ、リード、連絡先など）を選択します。
 
 ![](assets/crm_task_select_obj.png)
 
@@ -126,10 +126,10 @@ Adobe CampaignとCRMの間のデータ同期は、専用のワークフローア
 * JOIN 比較はサポートされていません。
 * 左側の列の式は、フィールドである必要があります。複数の式の組み合わせ、数値などは使用できません。
 
-例えば、次のフィルター条件は、OR演算子がAND演算子と同じレベルに配置されるので、CRMインポートに対しては無効になります。
+例えば、次のフィルター条件は、OR 演算子が AND 演算子と同じレベルに配置されているので、CRM インポートには有効ではありません。
 
-* OR 演算子が AND 演算子と同じレベルに配置されている。
-* 比較はテキスト文字列で実行されます。
+* OR 演算子が AND 演算子と同じレベルに配置されています。
+* 比較の実行対象はテキスト文字列です。
 
 ![](assets/crm_import_wrong_filter.png)
 
@@ -168,7 +168,7 @@ Adobe Campaign データを CRM にエクスポートすると、コンテンツ
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL CRMコネクタ]**&#x200B;アクティビティのエクスポート機能は、CRM側のフィールドを挿入または更新できます。 CRM でのフィールド更新を有効にするには、リモートテーブルのプライマリキーを指定する必要があります。キーがない場合、データは（更新ではなく）挿入されます。
+   >**[!UICONTROL CRM コネクタ]**&#x200B;アクティビティのエクスポート機能では、CRM 側のフィールドを挿入または更新できます。CRM でのフィールド更新を有効にするには、リモートテーブルのプライマリキーを指定する必要があります。キーがない場合、データは（更新ではなく）挿入されます。
 
 1. 「**[!UICONTROL マッピング]**」セクションで、エクスポートされるフィールドと CRM でのそれらのマッピングを指定します。
 
@@ -224,7 +224,7 @@ CRM へのインポートまたは CRM からのインポート中にデータ�
 >
 >「**[!UICONTROL 却下を処理]**」オプションがオフの場合でも、却下された列ごとに警告がエラーコードおよびメッセージとともに生成されます。
 
-「**[!UICONTROL 却下]**」出力トランジションでは、エラーメッセージおよびコードに関連する特定の列を含む出力スキーマにアクセスできます。Salesforce.comの場合、この列は&#x200B;**errorSymbol** （エラー記号、エラーコードとは異なる）、**errorMessage** （エラーコンテキストの説明）です。
+「**[!UICONTROL 却下]**」出力トランジションでは、エラーメッセージおよびコードに関連する特定の列を含む出力スキーマにアクセスできます。Salesforce.com の場合、この列は **errorSymbol**（エラーコードとは別のエラー記号）、**errorMessage**（エラーコンテキストの説明）です。
 
 ## CRM で削除されたオブジェクトのインポート {#importing-objects-deleted-in-the-crm}
 

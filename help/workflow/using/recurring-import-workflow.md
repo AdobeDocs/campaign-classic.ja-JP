@@ -2,22 +2,22 @@
 solution: Campaign Classic
 product: campaign
 title: 繰り返し発生するインポートの設定
-description: 定期的なインポート用にワークフローテンプレートを設定する方法について説明します。
+description: 繰り返し発生するインポート用のワークフローテンプレートを設定する方法について説明します。
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1139'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# 定期インポートワークフローの設定{#setting-up-a-recurring-import}
+# 繰り返し発生するインポートワークフローの設定 {#setting-up-a-recurring-import}
 
-同じ構造のファイルを定期的に読み込む必要がある場合は、ワークフローテンプレートの使用をお勧めします。
+同じ構造のファイルを定期的にインポートする必要がある場合は、ワークフローテンプレートを使用することをお勧めします。
 
 この例では、Adobe Campaign データベースの CRM からのプロファイルのインポートに再利用できるワークフローを事前設定する方法を示します。各アクティビティで使用できるすべての設定について詳しくは、この[節](../../workflow/using/about-activities.md)を参照してください。
 
@@ -43,7 +43,7 @@ ht-degree: 96%
 
    * 「**[!UICONTROL 読み込むファイル名]**」セクションで、「**[!UICONTROL ローカルマシンからファイルをアップロード]**」を選択して、フィールドを空のままにします。このテンプレートから新しいワークフローを作成するたびに、ここで、定義された構造に対応するファイルを指定できます。
 
-      任意のオプションを使用できますが、それに応じてテンプレートを修正する必要があります。例えば、「**[!UICONTROL トランジションで指定]**」を選択する場合、FTP／SFTP サーバーからインポートするファイルを取得する前に、「**[!UICONTROL ファイル転送]**」アクティビティを追加できます。S3 または SFTP 接続を使用すると、アドビのリアルタイムカスタマーデータプラットフォーム（CDP）でセグメントデータを Adobe Campaign にインポートすることもできます。詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html?lang=ja#destinations)を参照してください。
+      任意のオプションを使用できますが、それに応じてテンプレートを修正する必要があります。例えば、「**[!UICONTROL トランジションで指定]**」を選択する場合、FTP／SFTP サーバーからインポートするファイルを取得する前に、「**[!UICONTROL ファイル転送]**」アクティビティを追加できます。S3 または SFTP 接続を使用すると、アドビのリアルタイムカスタマーデータプラットフォーム（CDP）でセグメントデータを Adobe Campaign にインポートすることもできます。詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/adobe-destinations/adobe-campaign-destination.html?lang=ja)を参照してください。
 
       ![](assets/import_template_example1.png)
 

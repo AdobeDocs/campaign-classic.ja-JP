@@ -6,9 +6,9 @@ description: ワークフローを使用すれば、データおよびオーデ�
 audience: workflow
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
 ht-degree: 100%
 

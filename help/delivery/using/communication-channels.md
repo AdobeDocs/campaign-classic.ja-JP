@@ -6,11 +6,11 @@ description: 様々なチャネルでパーソナライズされたメッセー�
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1217'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -88,11 +88,11 @@ Adobe Campaign では、専用アプリを通じて iOS および Android モバ
 
 ## その他のチャネル {#other-channels}
 
-Adobe Campaignオファー電話配信テンプレート。外部配信の作成に使用されます。 このチャネルを使用すると、出力ファイルを処理するための専用の方法論を設定できます。 設定の手順は、[ダイレクトメールチャネル](../../delivery/using/about-direct-mail-channel.md)の場合と同様です。
+Adobe Campaign は電話配信テンプレートを備えています。これは、外部配信の作成に使用されます。このチャネルを使用する場合、出力ファイルを処理するための専用の方法を設定することになります。設定の手順は、[ダイレクトメールチャネル](../../delivery/using/about-direct-mail-channel.md)の場合と同じです。
 
 >[!NOTE]
 >
->電話チャネルは標準では使用できません。 導入には、AdobeコンサルティングまたはAdobeパートナーが関与している必要があります。 詳しくは、Adobeの担当者にお問い合わせください。
+>電話チャネルは標準では使用できません。 実装には、Adobe コンサルティングまたは Adobe パートナーの関与が必要です。 詳しくは、アドビ担当者にお問い合わせください。
 
 さらに、「その他」タイプの配信は、プロセスを実行しない特定の専門的なテンプレートを使用します。これによって、Adobe Campaign プラットフォーム以外で実行されたマーケティングアクションを管理できます。
 

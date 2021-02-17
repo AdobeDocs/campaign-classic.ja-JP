@@ -6,9 +6,9 @@ description: ワークフローデータの使用方法を説明します
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1901db70fde2b7b3c2789154bd93160012cd4c29
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 

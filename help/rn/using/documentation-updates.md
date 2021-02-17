@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 55cc09c0446e389029890e45b790bb5ec6ffdc27
 workflow-type: tm+mt
 source-wordcount: '3965'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 このページには、毎月および Campaign の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
 
-リリース関連の更新については、[Adobe Campaign Classicリリースノート](../../rn/using/latest-release.md)を参照してください。
+リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
 
 ## 2021 年 2 月 {#feb-2021}
 
@@ -35,35 +35,35 @@ Adobe Campaign拡張MTAセクションは[ここ](../../delivery/using/sending-w
 
 ## 2021 年 1 月 {#jan-2021}
 
-**[!UICONTROL Fork]**&#x200B;アクティビティセクションはベストプラクティスで強化されました。 [詳細を表示](../../workflow/using/fork.md)
+**[!UICONTROL 分岐]**&#x200B;アクティビティの節にベストプラクティスの記述が補われました。 [詳細を表示](../../workflow/using/fork.md)
 
-**CRMコネクタ**&#x200B;セクションが更新され、改善され、再構成されました。 [詳細を表示](../../platform/using/crm-connectors.md)。
+**CRM コネクタ**&#x200B;の節の更新、改善、再構成がおこなわれました。 [詳細を表示](../../platform/using/crm-connectors.md)。
 
-**Adobe CampaignとMicrosoft Dynamics**&#x200B;を接続する手順は、専用のページに詳しく説明されています。 [詳細を表示](../../platform/using/crm-ms-dynamics.md)。
+**Adobe Campaign と Microsoft Dynamics** を接続する手順が専用のページで詳しく説明されています。 [詳細を表示](../../platform/using/crm-ms-dynamics.md)。
 
-OracleオンデマンドAPIは、キャンペーンに接続されたCRMとして非推奨となりました。 [詳細を表示](../../rn/using/deprecated-features.md)。
+Oracle オンデマンド API は、Campaign に接続された CRM として非推奨となりました。 [詳細を表示](../../rn/using/deprecated-features.md)。
 
-Adobe Campaign[ここ](../../production/using/locate-tomcat-version.md)では、埋め込まれたTomcat Webサーブレットの現在のバージョンを調べる方法を説明します。
+Adobe Campaign のインスタンスで使用されている埋め込み Tomcat Web サーブレットの現在のバージョンを調べる方法については、[こちら](../../production/using/locate-tomcat-version.md)を参照してください。
 
-テクニカルワークフローと関連するパッケージのリストが強化され、1ページにまとめられました。 [詳細を表示](../../workflow/using/about-technical-workflows.md)
+テクニカルワークフローと関連するパッケージのリストが増補され、1 つのページにまとめられました。 [詳細を表示](../../workflow/using/about-technical-workflows.md)
 
-**監視**&#x200B;ガイドのトラブルシューティングの節は、ランディングページを使用して再構成および拡張されました。 [詳細を表示](../../production/using/troubleshooting.md)。
+**監視**&#x200B;ガイドのトラブルシューティングの節が再構成され、ランディングページが追加されました。 [詳細を表示](../../production/using/troubleshooting.md)。
 
-新しい&#x200B;**データの読み込みと書き出し**&#x200B;セクションは、ワークフロー、データ圧縮、暗号化、および読み込みのベストプラクティスに関する新しいページで利用できます。 [詳細を表示](../../platform/using/get-started-data-import-export.md)
+新しい&#x200B;**データのインポートとエクスポート**&#x200B;の節が、ワークフロー、データ圧縮、暗号化、インポートのベストプラクティスに関する新しいページで利用できます。 [詳細を表示](../../platform/using/get-started-data-import-export.md)
 
 ## 2020 年 12 月 {#dec-2020}
 
-**配信監視**&#x200B;セクションは、主題に関するトピックに再構成されました。 [詳細を表示](../../delivery/using/about-delivery-monitoring.md)
+**配信の監視**&#x200B;の節が、主題に沿ったトピックに再編成されました。[詳細を表示](../../delivery/using/about-delivery-monitoring.md)
 
 送信者の IP アドレスを配信ログに追加する方法について、使用例が追加されました。[詳細を表示](../../delivery/using/delivery-dashboard.md#use-case)
 
 プライバシー FAQ は[この節](../../platform/using/privacy-faq.md)に移動しました。
 
-**[!UICONTROL 重複排除 - 重複]**&#x200B;アクティビティの結合機能の使用方法に関する使用例が追加されました。 [詳細を表示](../../workflow/using/deduplication-merge.md)
+**[!UICONTROL 重複の除外]**&#x200B;アクティビティの結合機能の使用方法に関するユースケースが追加されました。[詳細を表示](../../workflow/using/deduplication-merge.md)
 
-SMSコネクタのプロトコルと設定ページの完全な説明が、[ここ](../../delivery/using/sms-protocol.md)で入手できます。
+SMS コネクタのプロトコルと設定に関するページの完全な説明が、[こちら](../../delivery/using/sms-protocol.md)で参照できるようになりました。
 
-アクセス権の問題を回避するために、イベントフォルダーを実行インスタンスー上の表示ーとして設定してはならないという警告を&#x200B;**トランザクションメッセージ**&#x200B;セクションに追加しました。 [詳細を表示](../../message-center/using/event-collection.md)
+アクセス権の問題を回避するために、イベントフォルダーを実行インスタンス上の表示として設定しないように警告する注を、**トランザクションメッセージ**&#x200B;の節に追加しました。[詳細を表示](../../message-center/using/event-collection.md)
 
 ## 2020 年 11 月 {#nov-2020}
 

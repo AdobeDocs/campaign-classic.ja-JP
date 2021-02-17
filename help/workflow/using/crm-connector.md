@@ -6,27 +6,27 @@ description: CRM コネクタとデータ同期の設定について説明しま
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 
 # CRM コネクタ{#crm-connector}
 
-**CRMコネクタ**&#x200B;アクティビティを使用すると、Adobe CampaignとCRMシステム間のデータ同期を設定できます。
+**CRM コネクタ**&#x200B;アクティビティを使用すると、Adobe Campaign と CRM システムの間のデータ同期を設定できます。
 
-Adobe Campaign の CRM コネクタについて詳しくは、この[節](../../platform/using/crm-connectors.md)を参照してください。
+Adobe Campaign の CRM コネクタについて詳しくは、[こちらの節](../../platform/using/crm-connectors.md)を参照してください。
 
 このアクティビティを使用すると、次のことができます。
 
-* CRMからのインポート
-* CRM にエクスポート
-* CRMで削除されたオブジェクトのインポート
-* CRM のオブジェクトを削除
+* CRM からのインポート
+* CRM へのエクスポート
+* CRM で削除されたオブジェクトのインポート
+* CRM 内のオブジェクトの削除
 
 ![](assets/crm_task_select_op.png)
 
@@ -34,4 +34,4 @@ Adobe Campaign の CRM コネクタについて詳しくは、この[節](../../
 
 ![](assets/crm_task_select_obj.png)
 
-このアクティビティの設定は、実行するプロセスによって異なります。このページ](../../platform/using/crm-data-sync.md)では、様々な設定の詳細が[説明されています。
+このアクティビティの設定は、実行するプロセスによって異なります。各種設定について詳しくは、[こちらのページ](../../platform/using/crm-data-sync.md)を参照してください。

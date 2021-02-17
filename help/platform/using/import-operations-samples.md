@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: 一般的なインポートのサンプル
-description: インポートジョブを使用して実行できる一般的なインポートの詳細を表示します。
+description: インポートジョブを使用して実行できる一般的なインポートの詳細を学びます。
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1103'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 98%
 
    ![](assets/s_ncs_user_import_example00_03.png)
 
-## テキストファイル{#example--import-new-records-from-a-text-file-}から新しいレコードをインポート
+## テキストファイルからの新しいレコードのインポート {#example--import-new-records-from-a-text-file-}
 
 テキストファイルに保存されている新しい受信者プロファイルを Adobe Campaign データベースにインポートするには、次の手順に従います。
 
@@ -100,7 +100,7 @@ ht-degree: 98%
 
          ![](assets/s_ncs_user_import_example07_02.png)
 
-## 受信者の更新および挿入 {#example--update-and-insert-recipients}
+## 受信者の更新と挿入 {#example--update-and-insert-recipients}
 
 データベース内の既存のレコードを更新し、テキストファイルから新しいレコードを作成します。この手順の例を示します。
 
@@ -191,7 +191,7 @@ ht-degree: 98%
 
    空であった値のみがテキストファイルの値に置き換えられていますが、データベース内の既存の値はインポートファイルの値で上書きされていません。
 
-## 外部ファイルの値による値の更新およびエンリッチメント {#example--update-and-enrich-the-values-from-those-in-an-external-file}
+## 外部ファイルの値による値の更新とエンリッチメント {#example--update-and-enrich-the-values-from-those-in-an-external-file}
 
 データベーステーブル内のフィールドをテキストファイル内の値で更新しますが、その際、テキストファイルに含まれている値が優先されるようにします。
 

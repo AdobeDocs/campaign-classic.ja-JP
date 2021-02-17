@@ -6,11 +6,11 @@ description: Campaign Classic に関する FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign のワークフローを使用して、複数のプロセスと�
 
 ## Campaign でのデータのインポートはどのようにおこなえますか？{#how-can-i-import-data-in-campaign-}
 
-[このセクション](../../platform/using/import-export-best-practices.md)でデータをインポートするためのベストプラクティスを説明します。
+データをインポートするためのベストプラクティスについては、[こちらの節](../../platform/using/import-export-best-practices.md)を参照してください。
 
 ## ワークフローの実行を監視できますか？{#can-i-monitor-workflow-execution-}
 

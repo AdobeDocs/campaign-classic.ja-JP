@@ -1,35 +1,35 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 読み込みジョブの設定
-description: Campaign Classicで読み込みジョブを設定および実行する方法を説明します。
+title: インポートジョブの設定
+description: Campaign Classic でインポートジョブを設定および実行する方法を説明します。
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3204'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# インポートジョブの構成{#executing-import-jobs}
+# インポートジョブの設定 {#executing-import-jobs}
 
-Adobe Campaignを使用すると、1つ以上のファイルからテキスト、CSV、TABまたはXML形式のデータをデータベースに読み込むことができます。 これらのファイルはテーブル（メインまたはリンクされたテーブル）に関連付けられ、ソースファイルの各フィールドはデータベースのフィールドに関連付けられます。
+Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式の 1 つ以上のファイルから、データベースにデータをインポートできます。これらのファイルはテーブル（メインテーブルまたはリンクされたテーブル）に関連付けられ、ソースファイルの各フィールドはデータベースのフィールドに関連付けられます。
 
 >[!NOTE]
 >
 >「**[!UICONTROL リストをインポート]**」機能を使用して、データベースデータにマッピングせずにデータをインポートできます。このデータは、ワークフローの「**[!UICONTROL リストの読み込み]**」オブジェクト経由でのみ使用できます。詳しくは、[このページ](../../workflow/using/read-list.md)を参照してください。
 
-このインポートウィザードを使用すると、インポートの設定、インポートのオプション（データ変換など）の定義、実行の開始を行うことができます。 インポートウィザードは一連の画面です。画面のコンテンツは、インポートのタイプ（簡易または複数）やオペレーターの権限によって異なります。
+インポートウィザードでは、インポートを設定し、そのオプション（データ変換など）を定義して、実行を開始できます。これは、インポートのタイプ（簡易または複数）やオペレーターの権限によって内容の異なる一連の画面です。
 
-インポートウィザードは、新しい読み込みジョブを作成すると表示されます（[読み込みジョブと書き出しジョブの作成](../../platform/using/creating-import-export-jobs.md)を参照）。
+インポートウィザードは、新しいインポートジョブを作成すると表示されます（[インポートジョブとエクスポートジョブの作成](../../platform/using/creating-import-export-jobs.md)を参照）。
 
 >[!NOTE]
 >
->IIS Web サーバーを使用する場合は、（28 MB を超える）大きいファイルのアップロードを許可するための設定が必要になることがあります詳しくは、[この節](../../installation/using/integration-into-a-web-server-for-windows.md#changing-the-upload-file-size-limit)を参照してください。
+>IIS Web サーバーを使用する場合、（28 MB を超える）大きいファイルのアップロードを許可するには、設定が必要になることがあります。詳しくは、[こちらの節](../../installation/using/integration-into-a-web-server-for-windows.md#changing-the-upload-file-size-limit)を参照してください。
 
 ## ソースファイル {#source-file}
 
@@ -150,7 +150,7 @@ Adobe Campaignを使用すると、1つ以上のファイルからテキスト�
 
    >[!IMPORTANT]
    >
-   >変換はインポート時に適用されます。ただし、宛先フィールドに対する制約が定義されている場合は（前述の例では、@firstName フィールドに対して）、制約が優先されます。
+   >変換はインポート時に適用されます。ただし、宛先フィールドに対する制約が定義されている場合は（前述の例では、@lastname フィールドに対して）、制約が優先されます。
 
 * 中央のテーブルの右側にある該当するアイコンを使用して、計算フィールドを追加できます。計算フィールドを使用すると、複雑な変換の実行、仮想列の追加または複数の列のデータの結合を実行できます。様々な可能性について詳しくは、以降の節を参照してください。
 
@@ -335,4 +335,4 @@ Adobe Campaignを使用すると、1つ以上のファイルからテキスト�
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 
-その後、インポートジョブの実行を監視できます（[ジョブの実行を監視する](../../platform/using/monitoring-jobs-execution.md)を参照）。
+その後、インポートジョブの実行を監視できます（[ジョブの実行の監視](../../platform/using/monitoring-jobs-execution.md)を参照）。

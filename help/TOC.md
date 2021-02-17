@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: efa36dc08ce4dd59805bb9eba63a4249e14609d7
 workflow-type: tm+mt
 source-wordcount: '2349'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -68,21 +68,21 @@ ht-degree: 95%
       + [プロファイルのエクスポートとインポート](platform/using/exporting-and-importing-profiles.md)
       + [リストの作成および管理](platform/using/creating-and-managing-lists.md)
    + データのインポートおよびエクスポート{#importing-and-exporting-data}
-      + [データのインポートとエクスポートの開始](platform/using/get-started-data-import-export.md)
-      + [ワークフローを使用したデータの読み込みと書き出し](platform/using/import-export-workflows.md)
-      + 汎用のインポートおよびエクスポートの操作{#generic-imports-exports}
-         + [汎用のインポートとエクスポートの使用を開始する](platform/using/about-generic-imports-exports.md)
-         + [テンプレートの読み込みと書き出しの作成](platform/using/creating-import-export-templates.md)
-         + [インポートジョブとエクスポートジョブの作成](platform/using/creating-import-export-jobs.md)
-         + [読み込みジョブの設定](platform/using/executing-import-jobs.md)
-         + [書き出しジョブの設定](platform/using/executing-export-jobs.md)
+      + [データのインポートとエクスポートの基礎知識](platform/using/get-started-data-import-export.md)
+      + [ワークフローを使用したデータのインポートとエクスポート](platform/using/import-export-workflows.md)
+      + 一般的なインポートおよびエクスポートの操作 {#generic-imports-exports}
+         + [一般的なインポートおよびエクスポートの基礎知識](platform/using/about-generic-imports-exports.md)
+         + [インポート／エクスポートテンプレートの作成](platform/using/creating-import-export-templates.md)
+         + [インポート／エクスポートジョブの作成](platform/using/creating-import-export-jobs.md)
+         + [インポートジョブの設定](platform/using/executing-import-jobs.md)
+         + [エクスポートジョブの設定](platform/using/executing-export-jobs.md)
          + [ジョブの実行の監視](platform/using/monitoring-jobs-execution.md)
          + [一般的なインポートのサンプル](platform/using/import-operations-samples.md)
-      + データ暗号化と圧縮の管理{#managing-data-encryption-compression}
+      + データ暗号化および圧縮の管理 {#managing-data-encryption-compression}
          + [処理前のファイルの解凍または復号化](platform/using/unzip-decrypt.md)
          + [処理前のファイルの圧縮または暗号化](platform/using/zip-encrypt.md)
-      + ベストプラクティスとトラブルシューティング{#best-practices}
-         + [ベストプラクティスの読み込みと書き出し](platform/using/import-export-best-practices.md)
+      + ベストプラクティスとトラブルシューティング {#best-practices}
+         + [インポートとエクスポートのベストプラクティス](platform/using/import-export-best-practices.md)
          + [SFTP サーバーのベストプラクティスとトラブルシューティング](platform/using/sftp-server-usage.md)
    + データのフィルター {#filtering-data}
       + [フィルターオプション](platform/using/filtering-options.md)
@@ -99,9 +99,9 @@ ht-degree: 95%
    + コネクタ {#connectors}
       + [コネクタについて](platform/using/about-connectors.md)
       + CRM コネクタ{#crm-connectors}
-         + [CRMコネクタの概要](platform/using/crm-connectors.md)
-         + [Microsoft Dynamics 365に接続](platform/using/crm-ms-dynamics.md)
-         + [データをCRMと同期](platform/using/crm-data-sync.md)
+         + [CRM コネクタの基礎知識](platform/using/crm-connectors.md)
+         + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
+         + [CRM とのデータの同期](platform/using/crm-data-sync.md)
       + [Adobe Analytics Data コネクタ](platform/using/adobe-analytics-data-connector.md)
 + メッセージの送信 {#sending-messages}
    + [メッセージの概要](delivery/using/communication-channels.md)
@@ -379,8 +379,8 @@ ht-degree: 95%
       + [カスタム実装用のイベントの設定](integrations/using/events.md)
       + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
       + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
-+ ワークフローによる自動化 {#automating-with-workflows}
-   + ワークフローの概要 {#introduction}
++ ワークフローを使用した自動化 {#automating-with-workflows}
+   + ワークフローの基礎知識 {#introduction}
       + [ワークフローについて](workflow/using/about-workflows.md)
       + [アクティビティについて](workflow/using/about-activities.md)
       + [ワークフローの作成](workflow/using/building-a-workflow.md)
@@ -471,7 +471,7 @@ ht-degree: 95%
          + [データのエンリッチメント](workflow/using/enriching-data.md)
          + [集計の使用](workflow/using/using-aggregates.md)
          + [重複排除 - 重複アクティビティの結合機能の使用](workflow/using/deduplication-merge.md)
-         + [定期インポートワークフローの設定](workflow/using/recurring-import-workflow.md)
+         + [繰り返し発生するインポートワークフローの設定](workflow/using/recurring-import-workflow.md)
       + クエリのデザイン {#designing-queries}
          + [増分クエリを使用した四半期ごとのリストの更新](workflow/using/quarterly-list-update.md)
       + ターゲティング {#designing-queries}

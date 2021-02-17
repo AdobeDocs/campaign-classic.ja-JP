@@ -6,9 +6,9 @@ description: データ読み込み（ファイル）ワークフローアクテ�
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1161'
 ht-degree: 100%
 

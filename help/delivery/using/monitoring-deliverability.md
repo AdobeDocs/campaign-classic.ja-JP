@@ -6,11 +6,11 @@ description: Adobe Campaign クラシックの配信品質の監視に関する�
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11377b0218e20da9b1a5398539ebaa192801b283
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -71,12 +71,12 @@ Signal Spam は、フランスのサービスで、フランスの ISP（Orange�
 
 ## 配信品質の技術的監視レポート {#technical-deliverability-monitoring}
 
-**技術的な配信品質の監視**&#x200B;レポートには、お使いのプラットフォーム向けに多数の配信品質インジケーターが含まれています。 この日次レポートは電子メールで受信できます。 リクエストするには、特定の[サポートケース](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)を開き、次を指定します。
+**配信品質の技術的監視**&#x200B;レポートには、お使いのプラットフォーム向けに配信品質の指標が多く含まれています。この日次レポートは E メールで受信できます。 リクエストするには、特定の[サポートケース](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)を開き、次を指定します。
 
 * インスタンスの名前
-* レポートの送信先の電子メールアドレス
+* レポートの送信先の E メールアドレス
 
-このレポートには、次のインジケーターが含まれます。
+このレポートには、次の指標が含まれています。
 
 * **[!UICONTROL リバース DNS]**：Adobe Campaign は、IP アドレスにリバース DNS が指定されているかどうか、およびこれが IP を正しく指しているかどうかを確認します。
 

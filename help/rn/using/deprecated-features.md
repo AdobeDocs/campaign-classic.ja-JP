@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4efe5f8a9130e7925194e56e088b3745c0cbd11a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1632'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,13 +47,13 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
   <tr>
   <td>CRM コネクタ<br></td>
-   <td><p>キャンペーン20.3リリース以降、次のCRMコネクタはキャンペーンで非推奨となりました。</p>
+   <td><p>Campaign 20.3 リリース以降、次の CRM コネクタは Campaign で非推奨になりました。</p>
    <ul>
    <li>SOAP API - オンプレミス：2007、2015、2016</li>
    <li>SOAP API - オンライン：2015、2016</li>
    <li>Web API - Microsoft Dynamics CRM オンプレミス：2016、2016 Update 1</li>
    <li>Web API - Microsoft Dynamics CRM オンライン：2016、2016 Update 1</li>
-   <li>Oracle On Demand API</li>
+   <li>Oracle オンデマンド API</li>
    </ul>
   <p><em>削除予定日：2021 年 4 月</em></p>
   </td>

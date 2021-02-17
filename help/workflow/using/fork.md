@@ -6,11 +6,11 @@ description: 分岐ワークフローアクティビティの詳細を説明し�
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e5f718908d0bb6893e54c51700865ecda09c80db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ ht-degree: 54%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Fork]**&#x200B;アクティビティ&#x200B;**の後に追加された送信トランジションは、**&#x200B;を同時に実行しません。 この動作は、ワークフローのパフォーマンスに影響を与える可能性があります。 複数のアクティビティを個別に実行し、最終的にそれらを結合してから残りのワークフローを実行する必要がある場合は、このアクティビティを使用します。
+>**[!UICONTROL 分岐]**&#x200B;アクティビティの後に追加されたアウトバウンドトランジションは、同時には実行&#x200B;**されません**。この動作は、ワークフローのパフォーマンスに影響を与える可能性があります。 複数のアクティビティを個別に実行し、最終的にそれらを結合してから残りのワークフローを実行する必要がある場合は、このアクティビティを使用します。
 
-**[!UICONTROL Fork]**&#x200B;アクティビティを構成するには、それを開いて送信トランジションの番号とラベルを定義します。
+**[!UICONTROL 分岐]**&#x200B;アクティビティを設定するには、アクティビティを開き、該当するアウトバウンドトランジションの番号とラベルを定義します。
 
 ![](assets/s_user_segmentation_fork.png)
 
-その後、必要に応じて、各送信トランジションを設定し、[AND-join](../../workflow/using/and-join.md)アクティビティを使用して結合することができます。 このようにして、残りのワークフローは、**[!UICONTROL Fork]**&#x200B;アクティビティの送信トランジションが終了した場合にのみ実行されます。
+その後、必要に応じて、各アウトバウンドトランジションを設定し、[AND 結合](../../workflow/using/and-join.md)アクティビティを使用して結合できます。 このようにして、残りのワークフローは、**[!UICONTROL 分岐]**&#x200B;アクティビティのアウトバウンドトランジションが終了した場合にのみ実行されます。

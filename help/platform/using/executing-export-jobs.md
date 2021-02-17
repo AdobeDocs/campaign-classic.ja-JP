@@ -1,29 +1,29 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 書き出しジョブの設定
-description: Campaign Classicで書き出しジョブを設定および実行する方法について説明します。
+title: エクスポートジョブの設定
+description: Campaign Classic でエクスポートジョブを設定および実行する方法について説明します。
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1016'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
-# 書き出しジョブの構成{#executing-export-jobs}
+# エクスポートジョブの設定 {#executing-export-jobs}
 
-書き出しジョブを使用すると、データベースにアクセスしてデータを抽出できます。連絡先、クライアント、リスト、セグメントなど
+エクスポートジョブを使用すると、データベースにアクセスして連絡先、クライアント、リスト、セグメントなどのデータを抽出できます。
 
-例えば、キャンペーントラッキングデータ（トラッキング履歴など）を をスプレッドシートに含めます。 出力データは、txt、CSV、TAB または XML フォーマットです。
+例えば、キャンペーントラッキングデータ（トラッキング履歴など）をスプレッドシート形式で使用すると便利なことがあります。出力データは、CSV、TAB、XML のいずれかの形式です。
 
-このエクスポートウィザードでは、エクスポートの設定、オプションの定義、実行の開始を行うことができます。 これは、内容が書き出しの種類（単純または複数）と操作者の権限に依存する一連の画面です。
+エクスポートウィザードでは、エクスポートの設定、オプションの定義、実行の開始をおこなうことができます。 これは、エクスポートのタイプ（簡易または複数）やオペレーターの権限によって内容の異なる一連の画面です。
 
-エクスポートウィザードは、新しい書き出しジョブを作成すると表示されます（「[読み込みジョブと書き出しジョブの作成](../../platform/using/creating-import-export-jobs.md)」を参照）。
+エクスポートウィザードは、新しいエクスポートジョブを作成すると表示されます（「[インポートジョブとエクスポートジョブの作成](../../platform/using/creating-import-export-jobs.md)」を参照）。
 
 ## 手順 1 - エクスポートテンプレートの選択 {#step-1---choosing-the-export-template}
 
@@ -131,4 +131,4 @@ ht-degree: 88%
 
 ![](assets/s_ncs_user_export_wizard08.png)
 
-その後、インポートジョブの実行を監視できます（[ジョブの実行を監視する](../../platform/using/monitoring-jobs-execution.md)を参照）。
+その後、インポートジョブの実行を監視できます（[ジョブの実行の監視](../../platform/using/monitoring-jobs-execution.md)を参照）。

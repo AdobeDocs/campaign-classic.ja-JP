@@ -6,11 +6,11 @@ description: レポートプロパティ設定の詳細
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 97%
 
 「**[!UICONTROL レンダリング]**」タブでは、ページのデータ表示モードをパーソナライズできます。次の項目を選択できます。
 
-* グラフレンダリングエンジン：デフォルトでは、レンダリングエンジンはHTML 5です。
+* グラフレンダリングエンジン：デフォルトでは、レンダリングエンジンは HTML 5 です。
 * レポートでのナビゲーションタイプ（ボタンによるか、リンクによるか）。
 * レポート要素のラベルのデフォルト位置。この位置は、要素ごとにオーバーロードできます。
 * レポートページの生成に使用されるテンプレートまたはテーマ。

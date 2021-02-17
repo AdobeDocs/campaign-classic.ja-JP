@@ -6,18 +6,18 @@ description: Gold Standard リリースの Campaign Classic 互換性マトリ�
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d1f5561098bb867b8a62e8bcdb14f60829be1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # Gold Standard 互換性マトリックス{#compatibility-matrix-gs}
 
-このドキュメントでは、**Adobe Campaign Classic Gold Standard** のビルド 19.1 でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、このAdobe Campaignのバージョンと互換性がありません。
+このドキュメントでは、**Adobe Campaign Classic Gold Standard** のビルド 19.1 でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、このバージョンの Adobe Campaign とは互換性がありません。
 
 ## 重要な注意事項{#important-notes-gs}
 

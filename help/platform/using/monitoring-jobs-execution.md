@@ -2,26 +2,26 @@
 solution: Campaign Classic
 product: campaign
 title: ジョブの実行の監視
-description: ジョブの読み込みと書き出しの実行を監視する方法について説明します。
+description: インポートジョブとエクスポートジョブの実行を監視する方法について説明します。
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 
-# ジョブの実行を監視{#monitoring-job-execution}
+# ジョブの実行の監視 {#monitoring-job-execution}
 
-インポートジョブとエクスポートジョブの実行は、インポート/エクスポートジョブのリストから直接追跡できます。
+インポートジョブとエクスポートジョブの実行は、インポート／エクスポートジョブのリストから直接追跡できます。
 
 ![](assets/s_ncs_user_export_list_and_details.png)
 
-* 「**[!UICONTROL ジャーナル]**」タブを使用すると、実行に関するログメッセージを確認できます。
+* 「**[!UICONTROL ジャーナル]**」タブでは、実行に関するログメッセージを確認できます。
 * 「**[!UICONTROL 却下]**」タブには、却下されたレコードが表示されます。[エラーの場合の動作](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error)を参照してください。
 
 「**[!UICONTROL 一般]**」タブの&#x200B;**[!UICONTROL ステータス]**&#x200B;フィールドは、ジョブの現在のステータスを示します。

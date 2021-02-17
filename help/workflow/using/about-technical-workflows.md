@@ -6,9 +6,9 @@ description: Campaign Classic パッケージで使用できるテクニカル�
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f57f52d8807eb771e2416b6648e1d746a206fa96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1826'
 ht-degree: 100%
 

@@ -6,11 +6,11 @@ description: Campaign と AEM の統合を設定する方法を説明します
 audience: integrations
 content-type: reference
 topic-tags: adobe-experience-manager
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Experience Manager 経由で Adobe Campaign に接続するには、この
 >
 >セキュリティ上の問題を回避するために、AEM 専用のセキュリティゾーンを作成することを強くお勧めします。詳しくは、[インストールガイド](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。
 
-キャンペーンインスタンスがAdobeでホストされている場合は、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)チームにお問い合わせください。 Campaign をオンプレミスで使用している場合は、以下の手順に従います。
+Campaign インスタンスがアドビでホストされている場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。Campaign をオンプレミスで使用している場合は、以下の手順に従います。
 
 1. **serverConf.xml** 設定ファイルを開きます。
 1. 選択したセキュリティゾーンの **allowUserPassword** 属性を **true** に設定します。

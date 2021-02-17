@@ -814,7 +814,7 @@ SMS プロセスは、完了行を毎分チェックし、非同期に処理し�
 
 ### チェック中に詳細 SMPP トレースを有効にする {#enable-verbose}
 
-チェック中は、必ず詳細な SMPP トレースを有効にする必要があります。自分でログをチェックできない場合でも、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)が簡単にお手伝いできます。
+チェック中は、必ず詳細な SMPP トレースを有効にする必要があります。ログを自分で確認できない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にサポートを依頼してください。
 
 ### SMS をテストする {#test}
 

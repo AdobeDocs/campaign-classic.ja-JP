@@ -6,9 +6,9 @@ description: アクティビティについて
 audience: workflow
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '96'
 ht-degree: 100%
 

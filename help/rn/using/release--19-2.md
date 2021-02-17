@@ -6,11 +6,11 @@ description: リリース 19.2
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1415'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,14 +23,14 @@ _2020 年 12 月 23 日_
 
 >[!CAUTION]
 >
-> * このリリースには、新しい接続プロトコルが付属しています。adobeIDサービス(IMS)を介してキャンペーンに接続する場合、**2021年3月31日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるように、アップグレードが必要です。
+> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合、**2021 年 3 月 31 日**&#x200B;以降、Campaign サーバーもクライアントコンソールも Campaign に接続できるようにするにはアップグレードが必要です。
    >
    > 
-* このリリースには、[セキュリティ修正](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必須です。
+* このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 
 
 
-* 接続プロトコルは、新しい IMS 認証メカニズムに従うように更新されました。
+* 接続プロトコルが、新しい IMS 認証メカニズムに準拠するように更新されました。
 * サーバーサイドリクエストフォージェリ（SSRF）問題に対する保護を強化するために、セキュリティ問題を修正しました。（NEO-27777）
 
 ## ![](assets/do-not-localize/red_2.png) リリース 19.2.3 - ビルド 9081 {#release-19-2-3-build-9081}
@@ -142,7 +142,7 @@ Campaign Classic 実装では、次のシステムが[非推奨（廃止予定�
 
 _Campaign モバイル SDK_
 
-iOS SDK のビルド 1.0.26 が利用できるようになりました。この新しいビルドには、iOS 13 のサポートが追加されました。この新しいバージョンでは、通知の優先順位および iOS 13 プッシュ通知用の新しい登録トークン管理プロセスがサポートされるようになりました。以前のバージョンの SDK でアプリケーションを実行している場合は、新しい SDK でアプリケーションを再コンパイルする必要があります。SDKを取得するには、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+iOS SDK のビルド 1.0.26 が利用できるようになりました。この新しいビルドには、iOS 13 のサポートが追加されました。この新しいバージョンでは、通知の優先順位および iOS 13 プッシュ通知用の新しい登録トークン管理プロセスがサポートされるようになりました。以前のバージョンの SDK でアプリケーションを実行している場合は、新しい SDK でアプリケーションを再コンパイルする必要があります。SDK を入手するには、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **パッチ**
 

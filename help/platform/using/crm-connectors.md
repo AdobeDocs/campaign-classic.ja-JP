@@ -2,22 +2,22 @@
 solution: Campaign Classic
 product: campaign
 title: CRM コネクタ
-description: キャンペーンのCRMコネクタの概要
+description: Campaign の CRM コネクタの基礎知識
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 
 # CRM コネクタ{#crm-connectors}
 
-## CRMコネクタの概要{#about-crm-connectors}
+## CRM コネクタの基礎知識 {#about-crm-connectors}
 
 Adobe Campaign では、Adobe Campaign プラットフォームをサードパーティのシステムにリンクするための様々な CRM コネクタが提供されています。これらの CRM コネクタにより、連絡先、アカウント、購入などを同期したり、アプリケーションを様々なサードパーティおよびビジネスアプリケーションと簡単に統合したりすることができます。
 
@@ -28,26 +28,26 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 >この機能は、**CRM コネクタ**&#x200B;専用パッケージを通じて Adobe Campaign で使用できます。
 
 
-### 互換性のあるシステム{#compatible-crm-systems-and-limitations}
+### 対応するシステム {#compatible-crm-systems-and-limitations}
 
-サポートされるCRMとバージョンについて詳しくは、キャンペーン[互換表](../../rn/using/compatibility-matrix.md)を参照してください。
+サポートされている CRM とそのバージョンについて詳しくは、Campaign の[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
 
 >[!NOTE]
 >
 >CRM コネクタはセキュア URL（https）でのみ動作します。
 
-### 実装の手順 {#crm-implementation-steps}
+### 実装手順 {#crm-implementation-steps}
 
-キャンペーンとMicrosoft Dynamics [を接続する手順を説明します。](../../platform/using/crm-ms-dynamics.md)
+Campaign と Microsoft Dynamics を接続する手順については、[こちらの節](../../platform/using/crm-ms-dynamics.md)を参照してください。
 
-一般に、Adobe CampaignでCRMコネクタを使用するには、次の手順に従います。
+一般に、Adobe Campaign で CRM コネクタを使用するには、次の手順に従います。
 
 1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;ノードを使用して、新しい外部アカウントを作成します。
-1. キャンペーンの接続先のCRMシステムを選択します。
+1. Campaign の接続先となる CRM システムを選択します。
 1. 接続を有効にする設定を入力します。
-1. 構成ウィザードを実行して、使用可能なCRMテーブルを生成します。設定ウィザードでは、テーブルを収集し、一致するスキーマを作成できます。
+1. 設定ウィザードを実行して、使用可能な CRM テーブルを生成します。設定ウィザードでは、テーブルを収集し、一致するスキーマを作成できます。
 
-   **Salesforce**&#x200B;構成ウィザードの例：
+   **Salesforce** 設定ウィザードの例：
 
    ![](assets/crm_connectors_sfdc_launch.png)
 
@@ -57,7 +57,7 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 1. **[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードで、Adobe Campaign で生成されたスキーマを確認します。
 
-   **Salesforce**&#x200B;スキーマの例：
+   **Salesforce** スキーマの例：
 
    ![](assets/crm_connectors_sfdc_table.png)
 
@@ -69,7 +69,7 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
    >
    >Adobe Campaign の列挙のすべての値を CRM の値に置き換えることができます。そのためには、**[!UICONTROL 置換]**&#x200B;列の「**[!UICONTROL はい]**」を選択します。
 
-   **Salesforce**&#x200B;定義済みリストの例：
+   **Salesforce** 列挙の例：
 
    ![](assets/crm_connectors_sfdc_enum.png)
 
@@ -81,10 +81,10 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
    >[!NOTE]
    >
-   > Salesforceでの複数の選択定義済みリストはサポートされていません。
+   > Salesforce の複数選択リストはサポートされていません。
 
-1. Adobe CampaignデータとCRMシステム間でデータを同期するには、ワークフローを作成し、**[!UICONTROL CRMコネクタ]**&#x200B;アクティビティを使用する必要があります。
+1. Adobe Campaign データと CRM システムの間でデータを同期させるには、ワークフローを作成し、**[!UICONTROL CRM コネクタ]**&#x200B;アクティビティを使用する必要があります。
 
    ![](assets/crm_connectors_sfdc_wf.png)
 
-   データ同期[の詳細については、このページ](../../platform/using/crm-data-sync.md)を参照してください。
+   データ同期の詳細については、[こちらのページ](../../platform/using/crm-data-sync.md)を参照してください。

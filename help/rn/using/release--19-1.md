@@ -6,11 +6,11 @@ description: リリース 19.1
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3138'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ _2020 年 12 月 16 日_
 
 >[!CAUTION]
 >
-> * このリリースには、新しい接続プロトコルが付属しています。adobeIDサービス(IMS)を介してキャンペーンに接続する場合、**2021年3月31日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるように、アップグレードが必要です。
-> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必須です。
-> * oAuth認証を通じたExperience Cloudトリガー統合を使用する場合は、このページ](../../integrations/using/configuring-adobe-io.md)の[の説明に従ってAdobe I/Oに移る必要があります。 従来のoAuth認証モードは、**2021年4月30日**&#x200B;に終了します。
+> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合、**2021 年 3 月 31 日**&#x200B;以降、Campaign サーバーもクライアントコンソールも Campaign に接続できるようにするにはアップグレードが必要です。
+> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
+> * OAuth 認証を介した Experience Cloud トリガー統合を使用する場合は、[こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。 従来の OAuth 認証モードは、**2021 年 4 月 30 日**&#x200B;に廃止されます。
 
 
 
@@ -195,7 +195,7 @@ _2019 年 5 月 30 日_
 
 **Guardrail、堅牢性および拡張性の強化**
 
-* ライフスパン - XtkNewId シーケンス使用の最適化：最も容量が大きいテーブルを xtkNewId シーケンスから専用シーケンスへ移動させました。[詳細を表示](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* ライフスパン - XtkNewId シーケンス使用の最適化：最も容量が大きいテーブルを xtkNewId シーケンスから専用シーケンスへ移動させました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA over HTTP v2：FDA over HTTP プロトコルは、ハイブリッドデプロイメント（特に broadLog の取得および配信準備）で広く使用されています。データの取得時やプッシュ時のネットワークの問題と考えられるエラーを防ぐよう、堅牢性を強化しました。これを実現するには、両側のビルドを最新にする必要があります。そうでない場合、古いプロトコルが引き続き使用されます。
 * トラッキングワークフロー：トラッキングワークフローの堅牢性を強化しました。トラッキングログの挿入／更新および URL トラッキングのカスタマイズに関する複数の問題を修正しました。さらに、トラッキングワークフローで、エラーを引き起こし、ワークフローを停止する可能性のあるトラッキングログの問題を検出するようになりました。これらの問題は、現在は破棄され、処理されなくなりました。
 * クリーンアップワークフロー：潜在的なエラーと停止を防ぐため、クリーンアップワークフローを向上させました。これにより、データベースのサイズとパフォーマンスを最適化しました。

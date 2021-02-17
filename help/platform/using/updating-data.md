@@ -6,11 +6,11 @@ description: データの更新
 audience: platform
 content-type: reference
 topic-tags: profile-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '764'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 98%
 
    ![](assets/s_ncs_user_export_list_start.png)
 
-   エクスポートウィザードの構成方法についての詳細は、[この](../../platform/using/executing-export-jobs.md)セクションを参照してください。
+   エクスポートウィザードを設定する方法について詳しくは、[こちらの節](../../platform/using/executing-export-jobs.md)を参照してください。
 
 ## サービスの購読登録 {#subscribing-to-a-service}
 

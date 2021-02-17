@@ -6,11 +6,11 @@ description: リリース 20.1
 audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1435'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ _2020 年 12 月 23 日_
 
 >[!CAUTION]
 >
-> * このリリースには、新しい接続プロトコルが付属しています。adobeIDサービス(IMS)を介してキャンペーンに接続する場合、**2021年3月31日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるように、アップグレードが必要です。
+> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合、**2021 年 3 月 31 日**&#x200B;以降、Campaign サーバーもクライアントコンソールも Campaign に接続できるようにするにはアップグレードが必要です。
    >
    > 
-* このリリースには、[セキュリティ修正](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必須です。
+* このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 
 
-* 接続プロトコルは、新しい IMS 認証メカニズムに従うように更新されました。
+* 接続プロトコルは、新しい IMS 認証メカニズムに準拠するように更新されました。
 * サーバーサイドリクエストフォージェリ（SSRF）問題に対する保護を強化するために、セキュリティ問題を修正しました。（NEO-27777）
 
 ## ![](assets/do-not-localize/red_2.png) リリース 20.1.3 - ビルド 9124{#release-20-1-3-build-9124}

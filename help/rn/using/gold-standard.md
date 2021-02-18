@@ -34,10 +34,8 @@ _2020 年 12 月 22 日_
 > * このリリースには、新しい接続プロトコルが付属しています。adobeIDサービス(IMS)を介してキャンペーンに接続する場合、**2021年3月31日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるように、アップグレードが必要です。
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必須です。
 > * oAuth認証を通じたExperience Cloudトリガー統合を使用する場合は、このページ](../../integrations/using/configuring-adobe-io.md)の[の説明に従ってAdobe I/Oに移る必要があります。 従来のoAuth認証モードは、**2021年4月30日**&#x200B;に終了します。
-
 >
->
-詳しくは、[Gold Standard 11アップグレードFAQ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)を参照してください。
+>詳しくは、[Gold Standard 11アップグレードFAQ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)を参照してください。
 
 ビルド 9032@d3b452f には、次の機能強化および修正が含まれています。
 

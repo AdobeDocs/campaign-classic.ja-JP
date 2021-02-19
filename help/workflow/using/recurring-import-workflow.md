@@ -6,9 +6,9 @@ description: 繰り返し発生するインポート用のワークフローテ�
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1139'
 ht-degree: 100%
 

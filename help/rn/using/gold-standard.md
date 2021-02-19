@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3105372bc020057727e28d26e7969c31ac290115
 workflow-type: tm+mt
 source-wordcount: '1039'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,13 @@ _2020 年 12 月 22 日_
 
 >[!CAUTION]
 >
-> * このリリースには、新しい接続プロトコルが付属しています。adobeIDサービス(IMS)を介してキャンペーンに接続する場合、**2021年3月31日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるように、アップグレードが必要です。
-> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必須です。
-> * oAuth認証を通じたExperience Cloudトリガー統合を使用する場合は、このページ](../../integrations/using/configuring-adobe-io.md)の[の説明に従ってAdobe I/Oに移る必要があります。 従来のoAuth認証モードは、**2021年4月30日**&#x200B;に終了します。
+> * このリリースには、新しい接続プロトコルが付属しています。Adobe IDサービス（IMS）を介して Campaign に接続する場合は、**2021 年 3 月 31 日**&#x200B;以降、Campaign サーバーもクライアントコンソールも Campaign に接続できるようにするにはアップグレードが必要です。
+> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
+> * OAuth 認証を介した Experience Cloud トリガー統合を使用する場合は、[こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。 従来の OAuth 認証モードは、**2021 年 4 月 30 日**&#x200B;に廃止されます。
+
 >
->詳しくは、[Gold Standard 11アップグレードFAQ](https://helpx.adobe.com/campaign/kb/gold-standard-upgrade.html)を参照してください。
+>
+詳しくは、[Gold Standard 11 アップグレード FAQ](https://helpx.adobe.com/jp/campaign/kb/gold-standard-upgrade.html) を参照してください。
 
 ビルド 9032@d3b452f には、次の機能強化および修正が含まれています。
 
@@ -43,7 +45,7 @@ _2020 年 12 月 22 日_
 
 * パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合認証が変更され、Adobe I/O に移動しました。[詳細情報](../../integrations/using/configuring-adobe-io.md)
 
-* [iOS APNsレガシーバイナリプロトコル](https://developer.apple.com/news/?id=c88acm2b)のサポート終了後、このプロトコルを使用するすべてのインスタンスは、アップグレード後にHTTP/2プロトコルに更新されます。
+* [iOS APN レガシーバイナリプロトコルのサポート終了](https://developer.apple.com/news/?id=c88acm2b)後は、このプロトコルを使用するすべてのインスタンスがアップグレード後に HTTP/2 プロトコルに更新されます。
 
 * サーバーサイドリクエストフォージェリ（SSRF）問題に対する保護を強化するために、セキュリティ問題を修正しました。（NEO-27777）
 

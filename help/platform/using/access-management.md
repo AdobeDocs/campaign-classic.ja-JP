@@ -6,9 +6,9 @@ description: アクセス管理
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c24cdd21c2426ea12a1cbd76d78154256bc814c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3214'
 ht-degree: 100%
 
@@ -208,7 +208,7 @@ Adobe Campaign は、管理者（&#39;admin&#39;）、請求（&#39;billing&#39;
 
 >[!NOTE]
 >
->セキュリティガイドラインについて詳しくは、[Adobe Campaign セキュリティ設定チェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)を参照してください。
+>セキュリティガイドラインについて詳しくは、[Adobe Campaign セキュリティ設定チェックリスト](https://helpx.adobe.com/campaign/kb/acc-security.html)を参照してください。
 
 ## オペレーターグループ {#operator-groups}
 

@@ -315,7 +315,7 @@ E メールが失敗すると、リモートサーバーがプラットフォー
 * 特定の識別標準や、**送信者 ID**、**DomainKeys**、**DKIM**、**S/MIME** などドメイン名をチェックするための暗号鍵を有効化するかどうかを選択できます。
 * **SMTP リレー**&#x200B;パラメーターは、特定のドメインのリレーサーバーの IP アドレスおよびポートを設定できます。詳しくは、[この節](../../installation/using/configuring-campaign-server.md#smtp-relay)を参照してください。
 
-Outlook でメッセージの差出人アドレスに「**[!UICONTROL ...が代理で送信]**」と表示される場合、Microsoft が提供する旧式の専用 E メール認証標準である **Sender ID** を使用して E メールに署名しないようにしてください。**[!UICONTROL Sender ID]**&#x200B;オプションが有効な場合は、対応するボックスの選択を解除し、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。 配信品質に影響はありません。
+Outlook でメッセージの差出人アドレスに「**[!UICONTROL ...が代理で送信]**」と表示される場合、Microsoft が提供する旧式の専用 E メール認証標準である **Sender ID** を使用して E メールに署名しないようにしてください。「**[!UICONTROL 送信者 ID]**」オプションが有効な場合は、対応するボックスのチェックマークを外し、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に連絡します。配信品質に影響はありません。
 
 #### MX 管理 {#mx-management}
 

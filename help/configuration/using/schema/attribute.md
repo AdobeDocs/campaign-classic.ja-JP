@@ -139,7 +139,7 @@ _operation (string)、advanced (boolean)、applicableIf (string)、autoIncrement
    * datetime
    * datetimetz
    * datetimenotz
-   * 日付
+   * date
    * 重複
    * 列挙
    * float

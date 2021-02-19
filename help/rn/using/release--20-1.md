@@ -6,9 +6,9 @@ description: リリース 20.1
 audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 100%
 
@@ -24,8 +24,9 @@ _2020 年 12 月 23 日_
 >[!CAUTION]
 >
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合、**2021 年 3 月 31 日**&#x200B;以降、Campaign サーバーもクライアントコンソールも Campaign に接続できるようにするにはアップグレードが必要です。
->
-> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
+   >
+   > 
+* このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 
 
 * 接続プロトコルは、新しい IMS 認証メカニズムに準拠するように更新されました。

@@ -185,7 +185,7 @@ base61データベース上のMicrosoft SQL Server設定の例で、暗号化さ
 * **PostgreSQL**&#x200B;または&#x200B;**DB2**&#x200B;エンジンの場合は、データベースサーバーにアクセスするために、アプリケーションサーバーで定義されたDNS名（またはIPアドレス）を指定する必要があります。
 * **Microsoft SQL Server**&#x200B;エンジンの場合は、次を定義する必要があります。
 
-   1. データベースサーバーにアクセスするためにアプリケーションサーバーで定義されているDNS名（またはIPアドレス）、
+   1. データベースサーバーにアクセスするためにアプリケーションサーバー上で定義されているDNS名（またはIPアドレス）、
    1. microsoft SQL Serverにアクセスするためのセキュリティメソッド：**[!UICONTROL SQL Server認証]**&#x200B;または&#x200B;**[!UICONTROL Windows NT認証]**。
 
       ![](assets/s_ncs_install_db_mssql_exists_01.png)

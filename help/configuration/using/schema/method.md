@@ -35,7 +35,7 @@ method:==( help) |パラメーター)
 
 ## 親{#parents-10}
 
-`<methods>`  ,   `<interface />`
+`<methods>`  ,  `<interface />`
 
 ## 子 {#children-10}
 

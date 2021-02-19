@@ -38,7 +38,7 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 | ドメイン名の委任 | オンデマンド | オンデマンド | 使用不可 | [詳細情報](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html) |
 | SpamAssinのインストール | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../delivery/using/spamassassin.md) |
 | 配信品質レポートへのアクセス | 使用可能 | オンデマンド | 使用可能 | [詳細情報](../../delivery/using/monitoring-deliverability.md) |
-| LDAP認証の設定 | 利用不可 | 使用可能 | 使用可能 | [詳細情報](../../installation/using/connecting-through-ldap.md) |
+| LDAP認証の設定 | なし | 使用可能 | 使用可能 | [詳細情報](../../installation/using/connecting-through-ldap.md) |
 
 
 ## Federated Data Access{#fda}

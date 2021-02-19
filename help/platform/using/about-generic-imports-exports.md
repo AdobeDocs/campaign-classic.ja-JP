@@ -6,9 +6,9 @@ description: 一般的なインポートおよびエクスポートの詳細を�
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c650862efc74cfbe8f73f11ef905be9f35614088
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 100%
 

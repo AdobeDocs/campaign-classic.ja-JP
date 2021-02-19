@@ -81,7 +81,7 @@ https://`<server>`/nl/jsp/schemawsdl.jsp?スキーマ=`<schema>`
 
 次を含む：
 
-* **`<server>`**:adobe campaignアプリケーションサーバー(nlserver web)
+* **`<server>`**:Adobe Campaignアプリケーションサーバー(nlserver web)
 * **`<schema>`**:スキーマIDキー(名前空間:スキーマ名)
 
 ### スキーマ&#39;xtk:queryDef&#39; {#example-on-the--executequery--method-of-schema--xtk-querydef-}の&#39;ExecuteQuery&#39;メソッドの例
@@ -215,7 +215,7 @@ Adobe Campaignは、セキュリティゾーンの導入（**[この節](../../i
 
 * セッショントークンから生成されます。
 * ライフサイクルは24時間です（「serverConf.xml」ファイルで設定できます。デフォルトの期間は24時間です）
-* adobe campaignコンソールに保存されます。
+* Adobe Campaignコンソールに保存されます。
 * ウェブ経由でアクセスした場合：
 
    * ドキュメントーに保存されます。__securityTokenプロパティ

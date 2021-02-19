@@ -186,7 +186,7 @@ Adobe Campaignには4種類の`<element>`要素があります。
    * datetime
    * datetimetz
    * datetimenotz
-   * 日付
+   * date
    * 重複
    * 列挙
    * float

@@ -118,6 +118,6 @@ Adobe Campaignデータモデルを設計する際は、[そのまま使用で�
    ![](assets/data-model_documentation-tab.png)
 
 
-* **キャンペーンスキーマ**  — アプリケーションに含まれるデータの物理的および論理的な構造は、XMLで説明されています。スキーマと呼ばれる Adobe Campaign 特有の文法に従います。Adobe Campaignスキーマの詳細については、[このセクション](../../configuration/using/about-schema-reference.md)を読んでください。
+* **キャンペーンスキーマ**  — アプリケーションで保持されるデータの物理的および論理的な構造は、XMLで記述されます。スキーマと呼ばれる Adobe Campaign 特有の文法に従います。Adobe Campaignスキーマの詳細については、[このセクション](../../configuration/using/about-schema-reference.md)を読んでください。
 
 * **データモデルのベストプラクティス** -キャンペーンデータモデルのアーキテクチャと関連するベストプラクティスを [この節で説明します](../../configuration/using/data-model-best-practices.md#data-model-architecture)。

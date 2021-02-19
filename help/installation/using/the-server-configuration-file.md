@@ -60,7 +60,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
 * [Web](#web)
 * [wfserver](#wfserver)
 
-## 認証{#authentication}
+## 認証 {#authentication}
 
 次に、**認証**&#x200B;ノードの異なるパラメーターを示します。
 
@@ -2125,7 +2125,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
 
 **securityZone**&#x200B;ノードの異なるパラメーターを示します。
 
-詳しくは、[セキュリティゾーンの定義](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。
+詳しくは、「[セキュリティゾーンの定義](../../installation/using/configuring-campaign-server.md#defining-security-zones)」を参照してください。
 
 <table> 
  <thead> 
@@ -2223,7 +2223,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
 
 **securityZone > subNetwork**&#x200B;ノードの異なるパラメーターを示します。
 
-詳しくは、[セキュリティゾーンの定義](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。
+詳しくは、「[セキュリティゾーンの定義](../../installation/using/configuring-campaign-server.md#defining-security-zones)」を参照してください。
 
 <table> 
  <thead> 
@@ -3215,7 +3215,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> Identity Managementシステム(IMS)組織識別子：adobe experience cloud内の一意の組織識別子。特にVisitorIDサービスとIMS SSOで使用されます。<br /> </td> 
+   <td> Identity Managementシステム(IMS)組織識別子：Adobe Experience Cloud内の一意の組織識別子。特にVisitorIDサービスとIMS SSOで使用されます。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 

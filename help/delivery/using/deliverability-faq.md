@@ -6,9 +6,9 @@ description: Adobe Campaign Classic で配信品質を管理する際に確認�
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 100%
 

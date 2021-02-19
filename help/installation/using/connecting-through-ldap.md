@@ -185,7 +185,7 @@ LDAPディレクトリを使用して演算子を認証するには、対応す�
 
    このグループはAdobe Campaignに作成されません。 **[!UICONTROL ディレクトリ]**&#x200B;オプションで、Enable synchronization of user rights from authorizations and groups in the directoryを使用して、グループを作成し、グループを同期して一致を有効にする必要があります。
 
-1. Adobe Campaignにグループが存在し、イベント後にLDAPディレクトリがアクティブ化される。adobe campaign内のユーザーグループは、LDAPグループのコンテンツに自動的に置き換えられません。 同様に、グループがAdobe Campaign内にのみ存在する場合、LDAPでグループが作成および同期されるまで、LDAPユーザーを追加できません。
+1. Adobe Campaignにグループが存在し、イベント後にLDAPディレクトリがアクティブ化される。Adobe Campaign内のユーザーグループは、LDAPグループのコンテンツに自動的に置き換えられません。 同様に、グループがAdobe Campaign内にのみ存在する場合、LDAPでグループが作成および同期されるまで、LDAPユーザーを追加できません。
 
    Adobe Campaign別でもLDAP別でも、グループはその場で作成されることはありません。 これらは、Adobe CampaignとLDAPディレクトリの両方で個別に作成する必要があります。
 

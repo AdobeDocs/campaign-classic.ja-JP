@@ -25,7 +25,7 @@ Adobe CampaignAPIは、アプリケーション内のJavaScriptと、その外�
 
 >[!IMPORTANT]
 >
->1日あたりの認定エンジン呼び出し数は、ライセンス契約によって異なります。 詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-classic---product-description.html)を参照してください。\
+>1日あたりの認定エンジン呼び出し数は、ライセンス契約によって異なります。 詳しくは、[こちらのページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-classic---product-description.html)を参照してください。\
 >すべてのAPIのリスト（詳細な説明を含む）は、[この専用ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)で入手できます。
 
 ## 前提条件 {#prerequisites}

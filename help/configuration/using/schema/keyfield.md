@@ -28,7 +28,7 @@ keyfield:==EMPTY
 
 ## 親{#parents-9}
 
-`<key>`  ,   `<dbindex />`
+`<key>`  ,  `<dbindex />`
 
 ## 子 {#children-9}
 

@@ -95,6 +95,7 @@ vacuum full nmsdelivery;
 >* **vacuum**&#x200B;と&#x200B;**re-index**&#x200B;コマンドはテーブルをロックし、メンテナンスの実行中に一部のプロセスを一時停止します。
 >* 非常に大きなテーブル（通常5 Gbを超える）の場合、**真空フル**&#x200B;は非常に非効率になり、非常に長い時間を要します。 **YyyNmsBroadLogXxx**&#x200B;テーブルには使用しないことをお勧めします。
 >* このメンテナンス作業は、**[!UICONTROL SQL]**&#x200B;アクティビティを使用して、Adobe Campaignワークフローによって実装できます（詳しくは、[このセクション](../../workflow/using/architecture.md)を参照してください）。 バックアップウィンドウに衝突しないアクティビティが低い時間にメンテナンスをスケジュールしてください。
+
 >
 
 
@@ -103,8 +104,8 @@ vacuum full nmsdelivery;
 
 **vacuum full**&#x200B;はテーブルをロックするので、PostgreSQLは、オンラインテーブルの再構築を容易に実行する手段を提供しません。 つまり、テーブルを使用しない場合はメンテナンスを行う必要があります。 次のいずれかが可能です。
 
-* adobe campaignプラットフォームが停止した場合にメンテナンスを実行し、
-* 再構築中のテーブルに書き込みが行われる可能性の高い様々なAdobe Campaignサブサービスを停止します(**nlserver stop wfserver instance_name**)。ワークフロープロセスを停止します。
+* Adobe Campaignプラットフォームが停止した場合にメンテナンスを実行し、
+* 再構築中のテーブルに書き込みが行われそうな様々なAdobe Campaignサブサービスを停止します（**nlserver stop wfserver instance_name**&#x200B;は、ワークフロープロセスを停止します）。
 
 必要なDDLを生成するための特定の関数を使用した表の最適化の例を次に示します。 次のSQLでは、2つの新しい関数を作成できます。**GenRebuildTablePart1**&#x200B;と&#x200B;**GenRebuildTablePart2**。これは、テーブルを再作成するために必要なDDLを生成するのに使用できます。
 

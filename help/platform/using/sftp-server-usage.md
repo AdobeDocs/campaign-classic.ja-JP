@@ -6,9 +6,9 @@ description: SFTP サーバーのベストプラクティスとトラブルシ�
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 
 * デフォルトでは、作成したすべてのフォルダーは自分の識別子に対してのみ読み取り／書き込みモードになります。Campaign からアクセスする必要のあるフォルダーを作成する場合は、グループ全体に対して読み取り／書き込み権限を付与するように必ず設定します。そうしないと、同じグループ内の別の識別子でワークフローが実行された場合に、セキュリティ上の理由により、ファイルを作成または削除できないことがあります。
 
-* SFTP 接続を開始しようとしているパブリック IP は、Campaign インスタンスの許可リストに登録されている必要があります。許可リストへの IP アドレスの追加は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)を通じて依頼できます。
+* SFTP 接続を開始しようとしているパブリック IP は、Campaign インスタンスの許可リストに登録されている必要があります。許可リストへの IP アドレスの追加は、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)を通じて依頼できます。
 
 ## データベース使用のベストプラクティス {#sftp-server-best-practices}
 
@@ -66,7 +66,7 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 
 ## アドビがホストする SFTP サーバーとの接続の問題 {#sftp-server-troubleshooting}
 
-アドビがホストする SFTP サーバーとの接続で問題が発生した場合は、以下を確認し、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)を通じてその情報をアドビサポートチームに提供します。
+アドビがホストする SFTP サーバーとの接続で問題が発生した場合は、以下を確認し、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)を通じてその情報をアドビサポートチームに提供します。
 
 1. インスタンスが実行中であることを確認します。そのためには、ブラウザーを開き、インスタンスの **[!UICONTROL /r/test]** エンドポイントに対して **[!UICONTROL GET]** 呼び出しをおこないます。
 
@@ -98,11 +98,11 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
    >
    >Netcat ツールを使用すると、様々なオペレーティングシステムでネットワーク接続を簡単に管理できます（[https://eternallybored.org/misc/netcat/](https://eternallybored.org/misc/netcat/) を参照）。
 
-   ポートが開いていない場合は、接続元でアウトバウンド接続を開いてから、もう一度やり直してください。接続の問題が解消されない場合は、コマンドの出力を添えて[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)チームに連絡してください。
+   ポートが開いていない場合は、接続元でアウトバウンド接続を開いてから、もう一度やり直してください。接続の問題が解消されない場合は、コマンドの出力を添えて[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)チームに連絡してください。
 
 1. SFTP 接続を開始しようとしているパブリック IP が、許可リストへの登録のためにアドビサポートに提供した IP であることを確認します。
 1. パスワードベースの認証を使用している場合は、パスワードの有効期限が切れている可能性があります（パスワードの有効期間は 90 日間です）。そのため、キーベースの認証を使用することを強くお勧めします（[SFTP サーバーのベストプラクティス](#sftp-server-best-practices)を参照）。
-1. キーベースの認証を使用している場合は、使用しているキーとインスタンス設定用に[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)チームに提供したキーが同じであることを確認します。
+1. キーベースの認証を使用している場合は、使用しているキーとインスタンス設定用に[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)チームに提供したキーが同じであることを確認します。
 1. FileZilla または同等の FTP ツールを使用している場合は、サポートチケットで接続ログの詳細を提供してください。
 
 ## 「ホスト名を解決できませんでした」エラー

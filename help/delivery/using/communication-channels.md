@@ -6,9 +6,9 @@ description: 様々なチャネルでパーソナライズされたメッセー�
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 100%
 

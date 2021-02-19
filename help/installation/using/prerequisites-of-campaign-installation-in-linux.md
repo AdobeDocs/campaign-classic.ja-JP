@@ -208,7 +208,7 @@ Linux RPMパッケージは、Oracle・テクノロジー・ネットワーク�
 
 サポートされているライブラリのバージョンは&#x200B;**libdb2.so**&#x200B;です。
 
-## 実装の手順 {#implementation-steps}
+## 実装手順 {#implementation-steps}
 
 Linux用のAdobe Campaignのインストールは、次の順序で行う必要があります。サーバーのインストール後にインスタンスの設定が続きます。
 

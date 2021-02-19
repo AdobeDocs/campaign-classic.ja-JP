@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 346b72d522c947b2a2552176b910ded8d622f3ab
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 97%
 * [Campaign コントロールパネルにインストールされたキーを使用したデータの暗号化とエクスポート](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [増分クエリを使用した四半期ごとのリストの更新](../../workflow/using/quarterly-list-update.md)
 * [重複排除 - 重複アクティビティの結合機能の使用](../../workflow/using/deduplication-merge.md)
-* [定期インポートワークフローの設定](../../workflow/using/recurring-import-workflow.md)
+* [繰り返し発生するインポートワークフローの設定](../../workflow/using/recurring-import-workflow.md)
 
 ## ターゲティング {#designing-queries}
 

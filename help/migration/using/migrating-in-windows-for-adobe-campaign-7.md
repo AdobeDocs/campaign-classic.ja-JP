@@ -245,7 +245,7 @@ Adobe Campaignをデプロイするには、次の手順を適用します。
    >
    >上記の最初のコマンドでは、**config-default.xml**&#x200B;ファイルをコピーしないでください。
 
-1. Adobe Campaignv7の&#x200B;**serverConf.xml**&#x200B;ファイルと&#x200B;**config-default.xml**&#x200B;ファイルに、Adobe Campaign前のバージョンでの設定に合わせて設定を適用します。 **serverConf.xml**&#x200B;ファイルには、**Neolane v5/conf/serverConf.xml.diff**、**Neolane v6/conf/serverConf.xml.diff**、または&#x200B;**Adobe Campaignv6/conf/serverConf.xml.diff**&#x200B;ファイルを使用します。
+1. Adobe Campaignv7の&#x200B;**serverConf.xml**&#x200B;ファイルと&#x200B;**config-default.xml**&#x200B;ファイルに、Adobe Campaign前のバージョンでの設定に従って設定を適用します。 **serverConf.xml**&#x200B;ファイルには、**Neolane v5/conf/serverConf.xml.diff**、**Neolane v6/conf/serverConf.xml.diff**、または&#x200B;**Adobe Campaignv6/conf/serverConf.xml.diff**&#x200B;ファイルを使用します。
 
    >[!NOTE]
    >

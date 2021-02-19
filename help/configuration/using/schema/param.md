@@ -65,7 +65,7 @@ param:==help
    * datetime
    * datetimetz
    * datetimenotz
-   * 日付
+   * date
    * DOMDocument
    * DOMElement
    * 重複

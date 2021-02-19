@@ -68,7 +68,7 @@ FDAでSybase IQの外部データベースに接続するには、Adobe Campaign
 
 ## sybase IQ外部アカウント{#sybase-external}
 
-sybase IQ外部アカウントを使用すると、キャンペーンインスタンスをSybase IQの外部データベースに接続できます。
+Sybase IQ外部アカウントを使用すると、キャンペーンインスタンスをSybase IQの外部データベースに接続できます。
 
 1. キャンペーン&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 

@@ -494,7 +494,7 @@ sh
 >
 >標準アーキテクチャまたはエンタープライズアーキテクチャを使用する場合、メインアプリケーションサーバーは、各コンピューター上で追跡情報をアップロードする権限を持っている必要があります。
 
-冗長サーバーのURLは、**serverConf.xml**&#x200B;ファイルを介して、リダイレクトの構成で指定する必要があります。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
+冗長サーバーのURLは、**serverConf.xml**&#x200B;ファイルを介して、リダイレクト構成で指定する必要があります。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
 
 **例：**
 

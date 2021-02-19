@@ -6,9 +6,9 @@ description: ターゲット母集団の定義
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 100%
 

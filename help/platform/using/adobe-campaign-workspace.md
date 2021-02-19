@@ -6,9 +6,9 @@ description: Adobe Campaign ワークスペース
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2232'
 ht-degree: 100%
 

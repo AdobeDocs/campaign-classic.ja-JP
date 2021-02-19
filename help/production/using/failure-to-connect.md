@@ -54,14 +54,14 @@ ht-degree: 4%
 </tr>
 <tr> 
 <td>次のURLに接続します。<b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>
-<td>空白のページが取得された場合は、Adobe CampaignWebモジュールが起動しているかどうかを確認します。 nlserver pdumpコマンドは、DD/MM/YYYYのAdobe Campaign Classic(7.X YY.R build XXX@SHA1)のアプリケーションサーバーを返す必要があります。 そうでない場合は、コマンドnlserver開始Webを使用してモジュールを再起動します</td>
+<td>空白のページが取得された場合は、Adobe CampaignWebモジュールが起動しているかどうかを確認します。 コマンドnlserver pdumpは、DD/MM/YYYYのAdobe Campaign Classic(7.X YY.R build XXX@SHA1)のアプリケーションサーバーを返す必要があります。 そうでない場合は、コマンドnlserver開始Webを使用してモジュールを再起動します</td>
 </tr>
 <tr>
 <td>セキュリティゾーンの一般的な構成を確認します。</td>
 <td>セキュリティゾーンの設定についての詳細は、<a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=en#configuring-campaign-server"/>このセクションを参照してください。</a></td>
 </tr>
 <tr>
-<td>nlserver pdumpコマンドは<b>タスクなし</b>を返します。</td>
+<td>コマンドnlserver pdumpは<b>タスクなし</b>を返します。</td>
 <td>Adobe Campaignアプリケーション全体を再起動する必要があります。 これを行うには、次のコマンドを使用します。<b>nlserver watchdog -svc -noconsole</b></td>
 </tr>
 </tbody> 

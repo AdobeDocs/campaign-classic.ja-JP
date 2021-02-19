@@ -171,7 +171,7 @@ v5では、**sessiontoken**&#x200B;パラメーターがクライアント側(�
 
 ### SQL関数{#sql-functions}
 
-不明なSQL関数の呼び出しが、自動的にサーバーに送信されることはなくなりました。 現在、すべてのSQL関数は&#x200B;**xtk:funcList**&#x200B;スキーマに追加する必要があります（これについての詳細は[このセクション](../../configuration/using/adding-additional-sql-functions.md)を参照してください）。 移行時に、アップグレード後に、古い宣言されていないSQL関数との互換性を維持できるオプションが追加されます。 これらの関数を引き続き使用する場合は、**XtkPassUnknownSQLFunctionsToRDBMS**&#x200B;オプションが&#x200B;**[!UICONTROL 管理/プラットフォーム/オプション]**&#x200B;ノードレベルで実際に定義されていることを確認してください。
+不明なSQL関数の呼び出しが、自動的にサーバーに送信されることはなくなりました。 現在、すべてのSQL関数は&#x200B;**xtk:funcList**&#x200B;スキーマに追加する必要があります（詳しくは[このセクション](../../configuration/using/adding-additional-sql-functions.md)を参照してください）。 移行時に、アップグレード後に、古い宣言されていないSQL関数との互換性を維持できるオプションが追加されます。 これらの関数を引き続き使用する場合は、**XtkPassUnknownSQLFunctionsToRDBMS**&#x200B;オプションが&#x200B;**[!UICONTROL 管理/プラットフォーム/オプション]**&#x200B;ノードレベルで実際に定義されていることを確認してください。
 
 >[!IMPORTANT]
 >
@@ -452,7 +452,7 @@ allowSQLInjection="false"
 競合を解決するには、次の3つの方法が考えられます。
 
 * **[!UICONTROL 解決済みとして宣言]**:には、事前に演算子の介入が必要です。
-* **[!UICONTROL 新しいバージョンを承認する]**:adobe campaignで提供されるリソースがユーザーによって変更されていない場合に推奨されます。
+* **[!UICONTROL 新しいバージョンを承認する]**:Adobe Campaignで提供されるリソースがユーザーによって変更されていない場合に推奨されます。
 * **[!UICONTROL 現在のバージョンを保持]**:は、更新が拒否されたことを意味します。
 
    >[!IMPORTANT]
@@ -473,7 +473,7 @@ allowSQLInjection="false"
 
 ## Tomcat {#tomcat}
 
-Adobe Campaignv7の統合Tomcatサーバーは、バージョン(Tomcat 7)を変更しました。 したがって、インストールフォルダ(tomcat-6)も変更されました(tomcat 7)。 アップグレード後、パスが（**[!UICONTROL serverConf.xml]**&#x200B;ファイル内の）更新済みフォルダーにリンクしていることを確認します。
+Adobe Campaignv7の統合Tomcatサーバーで、バージョン(Tomcat 7)が変更されました。 したがって、インストールフォルダ(tomcat-6)も変更されました(tomcat 7)。 アップグレード後、パスが（**[!UICONTROL serverConf.xml]**&#x200B;ファイル内の）更新済みフォルダーにリンクしていることを確認します。
 
 ```
 $(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 

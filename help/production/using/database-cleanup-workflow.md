@@ -36,7 +36,7 @@ ht-degree: 2%
 デフォルトでは、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローは、毎日午前4時に開始するように構成されています。 スケジューラーを使用すると、ワークフローのトリガー頻度を変更できます。 次の頻度を使用できます。
 
 * **[!UICONTROL 1 日に数回]**
-* **[!UICONTROL 日次]**
+* **[!UICONTROL 毎日]**
 * **[!UICONTROL 毎週]**
 * **[!UICONTROL 1 回]**
 
@@ -114,7 +114,7 @@ ht-degree: 2%
    DROP TABLE grp$(l)
    ```
 
-1. **操作で回復した**&#x200B;タイプのリストをすべて選択すると、次のクエリが使用されて削除されます。
+1. **操作で回復した**&#x200B;タイプのリストをすべて選択すると、次のクエリを使用して削除されます。
 
    ```
    DELETE FROM NmsGroup WHERE iGroupId=$(l) 
@@ -438,7 +438,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
    DELETE FROM XtkTrackingLogRcp WHERE iTrackingLogId IN (SELECT iTrackingLogId FROM XtkTrackingLogRcp WHERE tsLog < $(tsDate) LIMIT 5000) 
    ```
 
-   **$(tsDate)**&#x200B;は、**NmsCleanup_TrackingLogPurgeDelay**&#x200B;オプションに定義されている期間を差し引いた現在のサーバーの日付です。
+   **$(tsDate)**&#x200B;は、**NmsCleanup_TrackingLogPurgeDelay**&#x200B;オプションに定義された期間を差し引いた現在のサーバーの日付です。
 
 1. 追跡統計テーブルは、一括削除を使用して削除されます。 次のクエリが使用されます。
 

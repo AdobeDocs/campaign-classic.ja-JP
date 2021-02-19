@@ -6,9 +6,9 @@ description: リリース 19.1
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3138'
 ht-degree: 100%
 
@@ -195,7 +195,7 @@ _2019 年 5 月 30 日_
 
 **Guardrail、堅牢性および拡張性の強化**
 
-* ライフスパン - XtkNewId シーケンス使用の最適化：最も容量が大きいテーブルを xtkNewId シーケンスから専用シーケンスへ移動させました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* ライフスパン - XtkNewId シーケンス使用の最適化：最も容量が大きいテーブルを xtkNewId シーケンスから専用シーケンスへ移動させました。[詳細を表示](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA over HTTP v2：FDA over HTTP プロトコルは、ハイブリッドデプロイメント（特に broadLog の取得および配信準備）で広く使用されています。データの取得時やプッシュ時のネットワークの問題と考えられるエラーを防ぐよう、堅牢性を強化しました。これを実現するには、両側のビルドを最新にする必要があります。そうでない場合、古いプロトコルが引き続き使用されます。
 * トラッキングワークフロー：トラッキングワークフローの堅牢性を強化しました。トラッキングログの挿入／更新および URL トラッキングのカスタマイズに関する複数の問題を修正しました。さらに、トラッキングワークフローで、エラーを引き起こし、ワークフローを停止する可能性のあるトラッキングログの問題を検出するようになりました。これらの問題は、現在は破棄され、処理されなくなりました。
 * クリーンアップワークフロー：潜在的なエラーと停止を防ぐため、クリーンアップワークフローを向上させました。これにより、データベースのサイズとパフォーマンスを最適化しました。

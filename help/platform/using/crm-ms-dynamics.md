@@ -6,9 +6,9 @@ description: Campaign と Microsoft Dynamics の接続
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 521bc3bf9b2507947007d7f458679275d407f910
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
 
@@ -56,10 +56,10 @@ Campaign Classic 内：
 
 
 >[!CAUTION]
->
 > Adobe Campaign を Microsoft Dynamics に接続する場合、次のことはできません。
 > * CRM の動作が変わり Adobe Campaign との互換性の問題が生じる可能性があるプラグインのインストール
 > * 複数の列挙の選択
+
 >
 
 

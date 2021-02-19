@@ -6,9 +6,9 @@ description: Campaign SDK をモバイルアプリに統合する方法を説明
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 100%
 

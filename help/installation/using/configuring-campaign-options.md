@@ -431,7 +431,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkTraceDeleteLogin</span> <br /> </td> 
-   <td> 「1」の値を入力して、レコードを削除する前に「変更者」フィールドを変更して、mData内の監査証跡情報を持つ要素の削除を追跡します。<br /> </td> 
+   <td> 「1」の値を入力すると、レコードを削除する前に「変更者」フィールドを変更して、mData内の監査証跡情報を持つ要素の削除が追跡されます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -684,7 +684,7 @@ ht-degree: 24%
    <td> 移行中、ツリー構造は、新しいバージョン標準に基づいて自動的に再編成されます。<br /> このオプションを使用すると、ナビゲーションツリーの自動移行を無効にできます。使用する場合は、移行後に古いフォルダを削除する必要があります。新しいフォルダを追加し、必要なチェックをすべて実行してください。<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">データタイプ：</span> Integer</p> </li> 
-     <li> <p> <span class="uicontrol">値（テキスト）</span> :3 </p> </li> 
+     <li> <p> <span class="uicontrol">値（テキスト）</span> :1 </p> </li> 
     </ul> このオプションは、標準搭載のナビゲーションツリーに加えられた変更が多すぎる場合にのみ使用してください。<br /> 詳しくは、 <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">この節を参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 

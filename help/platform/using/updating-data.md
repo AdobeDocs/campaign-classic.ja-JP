@@ -6,9 +6,9 @@ description: データの更新
 audience: platform
 content-type: reference
 topic-tags: profile-management
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 100%
 

@@ -167,7 +167,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
 
 ### 復元オプション{#restoration-option}
 
-このオプションを使用すると、既に変更されている場合に、そのまま使用できるオブジェクトを復元できます。 復元された各オブジェクトに対して、変更のバックアップが選択したフォルダに保存されます。
+このオプションを使用すると、既に変更されている場合に、そのまま使用できるオブジェクトを復元できます。 復元された各オブジェクトに対して、選択したフォルダに変更のバックアップが保存されます。
 
 ```
 nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instanceName>

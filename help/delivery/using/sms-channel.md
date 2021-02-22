@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 2aa1a1c5da7b552cae916885c011aa4aaf9b61db
 workflow-type: tm+mt
-source-wordcount: '3270'
-ht-degree: 100%
+source-wordcount: '3269'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign には、パーソナライズした SMS メッセージを大量
 
 1. コネクタとメッセージのタイプを指定する外部アカウント。
 
-   次のコネクタは、リリース 20.2 より非推奨となります：NetSize、一般的な SMPP（バイナリモードをサポートする SMPP バージョン 3.4）、Sybase365（SAP SMS 365）、CLX Communications、Tele2、O2、iOS。非推奨（廃止予定）の機能は引き続き使用できますが、それ以上の機能強化やサポートはおこなわれません。詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)を参照してください。
+   次のコネクタは、リリース20.2以降非推奨となります。汎用SMPP （バイナリ・モードをサポートするSMPPバージョン3.4）、Sybase365 (SAP SMS 365)、CLX Communications、Tele2、O2、iOS。 非推奨（廃止予定）の機能は引き続き使用できますが、それ以上の機能強化やサポートはおこなわれません。詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)を参照してください。
 
 1. 使用する外部アカウントへの参照を含んだ配信テンプレート。
 

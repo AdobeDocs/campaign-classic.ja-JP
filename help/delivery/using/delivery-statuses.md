@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: de0e4555d3e2c5dff8d86a22ff4db85953105db1
+source-git-commit: 29801740c10dc182bdb5f00114298d04385a3e1b
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 100%
+source-wordcount: '627'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,7 @@ ajouter screenshot -->
   </tr> 
   <tr> 
    <td> サービスプロバイダーによる判断<br /> </td> 
-   <td> SMS サービスプロバイダーが配信を受信しました。<br /> </td> 
+   <td> SMS サービスプロバイダーが配信を受信しました。<br /> ホスト型またはハイブリッド型のインストールの場合、 <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">拡張MTAにアップグレードした場合</a>、キャンペーンから拡張MTAに正常にメッセージが転送されました。</td> 
   </tr> 
   <tr> 
    <td> モバイルで受信済み<br /> </td> 
@@ -129,7 +129,7 @@ Adobe Campaign E メールの配信品質の最適化方法について詳しく
 
    この場合は、トラフィック管理（IP アフィニティ）の設定をチェックし、「**[!UICONTROL IP アドレスを使用してアフィニティを管理する]**」フィールドを使用して、アフィニティを管理する MTA に配信をリンクします。アフィニティについて詳しくは、[この節](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)を参照してください。
 
-* 実行中のキャンペーンが多すぎる場合、配信ステータスは「保留」のままになります。
+* 実行中のキャンペーンが多すぎる場合、配信ステータスは「保留」のままです。
 
    同時キャンペーンの制限は、**[!UICONTROL NmsOperation_LimitConcurrency]** オプションで定義されます。デフォルト値は 10 です。
 

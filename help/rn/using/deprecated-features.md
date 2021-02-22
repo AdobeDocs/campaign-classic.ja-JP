@@ -9,10 +9,10 @@ topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4efe5f8a9130e7925194e56e088b3745c0cbd11a
+source-git-commit: 425b2e5748703a8349b6f70968d1ef4c71f72b21
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 100%
+source-wordcount: '1717'
+ht-degree: 95%
 
 ---
 
@@ -45,6 +45,14 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <td><strong>機能</strong></td>
    <td><strong>置き換え</strong></td>
   </tr>
+    <tr>
+  <td>配信品質の技術的監視レポート<br></td>
+   <td><p>キャンペーン21.1リリース以降、Technical Deliverability Monitoring Reportは非推奨となりました。</p>
+   <p>必要に応じて、このレポートを毎日電子メールで機能削除日まで受け取ることができます。 リクエストするには、特定の<a href="https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">サポートケース</a>を開き、レポートの送信先のインスタンス名と電子メールアドレスを指定します。</p> 
+   <p>Adobeでは、インスタンスの配信品質のパフォーマンスを監視するための最適なツールを定義する際に、配信品質チームに相談することをお勧めします。</p>
+  <p><em>ターゲットの削除日：2021年末</em></p>
+  </td>
+ </tr>
   <tr>
   <td>CRM コネクタ<br></td>
    <td><p>Campaign 20.3 リリース以降、次の CRM コネクタは Campaign で非推奨になりました。</p>
@@ -83,7 +91,6 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <td>SMS コネクタ<br></td>
   <td><p> Campaign 20.2 リリースより、次の SMS コネクタは非推奨（廃止予定）になります。<p>
    <ul>
-   <li>NetSize</li>
    <li>一般的な SMPP（バイナリモードをサポートする SMPP バージョン 3.4）</li>
    <li>Sybase365（SAP SMS 365）</li>
    <li>CLX Communications</li>

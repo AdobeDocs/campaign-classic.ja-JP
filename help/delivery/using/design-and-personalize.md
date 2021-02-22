@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 2aa1a1c5da7b552cae916885c011aa4aaf9b61db
 workflow-type: tm+mt
 source-wordcount: '1277'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -156,6 +156,6 @@ E メールの制限を守るには、以下を考慮してください。
 
 メッセージをプレビューして、パーソナライゼーションと受信者に対する配信の表示方法を確認することをお勧めします。
 
-* 配信ウィザードの「**[!UICONTROL プレビュー]**」サブタブでは、特定の受信者向けに各コンテンツをレンダリングした結果を確認できます。コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。[詳細情報](../../delivery/using/defining-the-email-content.md#message-content)
+* 配信ウィザードでは、「**[!UICONTROL プレビュー]**」サブタブを使用して、受信者の各コンテンツのレンダリングを表示できます。 コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。[詳細情報](../../delivery/using/defining-the-email-content.md#message-content)
 
 * 各プレビュー中にスパム対策チェックが自動的に実行されます。「**[!UICONTROL プレビュー]**」サブタブで、[SpamAssicin](../../delivery/using/spamassassin.md) のスパムスコアを確認します。「**[!UICONTROL 詳細…]**」をクリックして、警告の詳細を確認します。その前に、SpamAssassin が Adobe Campaign アプリケーションサーバーに正しくインストールされ、設定されていることを確認してください。[詳細情報](../../installation/using/configuring-spamassassin.md)

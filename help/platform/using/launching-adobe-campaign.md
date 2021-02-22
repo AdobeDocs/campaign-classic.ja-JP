@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 87%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[
 
 専用のログイン／パスワードを使用して接続することもできます。
 
-1. 「**[!UICONTROL ログイン]**」フィールドに、オペレーターのアカウント ID を入力します。
+1. [**[!UICONTROL ログイン]**]フィールドに、演算子アカウント識別子を入力します。
 
    ID は、Adobe Campaign プラットフォームの管理者から付与されます。
 
@@ -41,9 +41,14 @@ Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[
 
    データベースに最初にアクセスする際のパスワードは、管理者が指定したものになります。接続すると、**[!UICONTROL ツール／パスワードを変更...]** メニューからパスワードを変更できます。オペレーターおよび接続について詳しくは、[アクセス管理](../../platform/using/access-management.md)を参照してください。
 
-1. 「**[!UICONTROL ログイン]**」をクリックして確定します。
+1. 「**[!UICONTROL ログイン]**」をクリックして確定します。<!--You can also press the **Enter** key to launch connection.-->
 
 これで、[Adobe Campaign ワークスペース](../../platform/using/adobe-campaign-workspace.md)にアクセスできるようになります。
+
+**[!UICONTROL サインイン画面]**&#x200B;では、次のキーボードショートカットが利用できます。
+* すべてのアクション可能な項目は、**Tab**&#x200B;キー（上から下）または&#x200B;**Tab** + **Shift**&#x200B;キー（下から上）で選択できます。
+* 接続を開始するには、**Enter**&#x200B;キーを押すこともできます。
+* **Escape**&#x200B;キーを使用して、**[!UICONTROL Login]**&#x200B;フィールドと&#x200B;**[!UICONTROL Password]**&#x200B;フィールドを、最後に成功した接続値にリセットできます。
 
 ## 接続の設定 {#setting-up-connections}
 
@@ -101,5 +106,5 @@ Gold Standard の詳細については、[この記事](https://helpx.adobe.com/
 **関連トピック**：
 
 * [Adobe Campaign のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support)
-* [アドビソフトウェア配布](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html)
+* [Adobe Campaignソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)
 * [Adobe Experience Cloud のサポートおよびエキスパートセッション](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
+source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
 workflow-type: tm+mt
 source-wordcount: '1415'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -24,8 +24,9 @@ _2020 年 12 月 23 日_
 >[!CAUTION]
 >
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合、**2021 年 3 月 31 日**&#x200B;以降、Campaign サーバーもクライアントコンソールも Campaign に接続できるようにするにはアップグレードが必要です。
->
-> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
+   >
+   > 
+* このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 
 
 
@@ -34,7 +35,7 @@ _2020 年 12 月 23 日_
 
 ## ![](assets/do-not-localize/red_2.png) リリース 19.2.3 - ビルド 9081 {#release-19-2-3-build-9081}
 
-_2020 年 2 月 7 日_
+_2020年2月7日_
 
 **強化点**
 
@@ -43,7 +44,7 @@ _2020 年 2 月 7 日_
 
 ## ![](assets/do-not-localize/red_2.png) リリース 19.2 - ビルド 9080 {#release-19-2-build-9080}
 
-_2019 年 12 月 02 日_
+_2019 年 12 月 2 日_
 
 **新機能**
 

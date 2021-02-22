@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 0%
+source-wordcount: '987'
+ht-degree: 1%
 
 ---
 
@@ -48,7 +48,7 @@ WindowsにSpamAssinをインストールして設定し、Adobe Campaignとの�
 
 ### SpamAssin {#installing-spamassassin}をインストール中
 
-1. ユーザーの資格情報を使用して、[ソフトウェア配布ポータル](https://experience.adobe.com/downloads)に接続します。 ソフトウェアの配布についての詳細は、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)を参照してください。
+1. ユーザーの資格情報を使用して、[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続します。 ソフトウェアの配布についての詳細は、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)を参照してください。
 1. **Neolane Spam Assacin （Windowsのインストール） (2.0)**&#x200B;ファイル(neolane_spamassign.2.0.zip)をダウンロードします。
 1. このファイルをAdobe Campaignサーバーにコピーし、解凍します。
 

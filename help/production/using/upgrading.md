@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 13%
+source-wordcount: '1193'
+ht-degree: 14%
 
 ---
 
@@ -50,7 +50,6 @@ ht-degree: 13%
       **iisreset /stop**
 
    * Adobe Campaignサービス：**nlserver6** net stop nlserver6
-
    >[!IMPORTANT]
    >
    >また、IISで使用される&#x200B;**nlsrvmod.dll**&#x200B;ファイルを新しいバージョンに置き換えるために、リダイレクトサーバー(webmdl)が停止していることを確認する必要があります。
@@ -71,7 +70,7 @@ ht-degree: 13%
 
 1. **setup.exe**&#x200B;を実行します。
 
-   このファイルをダウンロードするには、ユーザーの資格情報を使用して[ソフトウェア配布ポータル](https://experience.adobe.com/downloads)に接続します。 ソフトウェアの配布についての詳細は、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)を参照してください。
+   このファイルをダウンロードするには、ユーザーの資格情報を使用して[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続します。 ソフトウェアの配布についての詳細は、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)を参照してください。
 
 1. インストールモードを選択します。**[!UICONTROL 更新または修復]**&#x200B;を選択
 1. 「**[!UICONTROL 次へ]**」をクリックします。
@@ -125,11 +124,11 @@ ht-degree: 13%
 
 ### 更新されたパッケージを入手{#obtain-updated-packages}
 
-Adobe Campaignの両方の更新されたパッケージを回復することによる開始:ユーザーの資格情報を使用して、[ソフトウェア配布ポータル](https://experience.adobe.com/downloads)に接続します。 ソフトウェアの配布についての詳細は、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)を参照してください。
+Adobe Campaignの両方の更新されたパッケージを回復することによる開始:ユーザーの資格情報を使用して、[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)に接続します。 ソフトウェアの配布についての詳細は、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)を参照してください。
 
 ファイルは&#x200B;**nlserver6-v7-XXX.rpm**&#x200B;です。
 
-### 更新を実行{#perform-an-update}
+### 更新{#perform-an-update}を実行
 
 * RPMベースの配布(RedHat、SuSe)
 
@@ -173,8 +172,10 @@ Adobe Campaignの両方の更新されたパッケージを回復することに
 >
 >* スクリプトの名前は、**apache**&#x200B;の代わりに&#x200B;**httpd**&#x200B;にすることができます。
 >* 次の応答を取得するまで、このコマンドを実行する必要があります。
->
->   この操作は、Apacheが新しいライブラリを適用するために必要です。
+
+   >
+   >   
+   この操作は、Apacheが新しいライブラリを適用するために必要です。
 
 
 次に、Apacheを再起動します。

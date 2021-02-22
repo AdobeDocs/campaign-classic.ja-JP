@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 4efe5f8a9130e7925194e56e088b3745c0cbd11a
+source-git-commit: f00c0bda0ab3f2e07c015f4cfe5e3942f5620841
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 90%
+source-wordcount: '1707'
+ht-degree: 89%
 
 ---
 
@@ -147,7 +147,7 @@ FTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバー�
 
 外部アカウント構成の設定は、データベースエンジンによって異なります。 詳しくは、次の節を参照してください。
 
-* [Azure synapse](../../installation/using/configure-fda-synapse.md)へのアクセスを設定
+* [Azure Synapse](../../installation/using/configure-fda-synapse.md)へのアクセスを設定
 * [Hadoop](../../installation/using/configure-fda-hadoop.md)へのアクセスを設定
 * [Oracle](../../installation/using/configure-fda-oracle.md)へのアクセスを設定
 * [Netezza](../../installation/using/configure-fda-netezza.md)へのアクセスを設定
@@ -408,7 +408,7 @@ Salesforce CRM 外部アカウントを Adobe Campaign で使用できるよう�
 
 * **[!UICONTROL API バージョン]**
 
-   API のバージョン（**[!UICONTROL バージョン 37]**、**[!UICONTROL バージョン 21]** または&#x200B;**[!UICONTROL バージョン 15]**）。
+   **[!UICONTROL バージョン49]**、**[!UICONTROL バージョン37]**、**[!UICONTROL バージョン21]**、または&#x200B;**[!UICONTROL バージョン15]**&#x200B;の間のAPIのバージョン。
 
 この外部アカウントの場合、設定ウィザードで Salesforce CRM を設定する必要があります。
 

@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 5639f08ad709597d5f5c9e6bbd6932cffcbde40f
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
 source-wordcount: '2368'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 53%
 
 1. [サーバー構成ファイル](../../installation/using/the-server-configuration-file.md)の最新バージョンを取得します。
 
-1. 最新のビルドをダウンロードします。 [ダウンロードセンターの詳細を表示します](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html)。
+1. [最新のビルドをダウンロードします](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)。[詳細情報](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html)。
 
 また、ビルドのアップグレードを開始する前に、[役に立つすべてのコマンドライン](../../installation/using/command-lines.md)を知っておく必要があります。
 
@@ -163,7 +163,7 @@ ht-degree: 53%
 
 ### Adobe Campaignサーバーアプリケーションのアップグレード
 
-1. **Setup.exe**&#x200B;ファイルを実行します。 このファイルをダウンロードする必要がある場合は、[ダウンロードセンター](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)にアクセスしてください。
+1. **Setup.exe**&#x200B;ファイルを実行します。 このファイルをダウンロードする必要がある場合は、[ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)にアクセスしてください。
 
 1. インストールモードを選択します。**アップデート**&#x200B;または&#x200B;**修復**。
 
@@ -364,8 +364,8 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 #### コードの場所
 
 1. 組み込みコードは、データキットフォルダー内のXMLファイルに保存されます。 競合しているオブジェクトに対応する XML ファイルを探します。例：installationDirectory\datakit\nms\fra\form\recipient.xml
-1. 元のバージョンを取得します。を設定します。[](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)
-1. 新しいバージョンを取得します。[ダウンロードセンター](https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html)またはお客様のインストール済みファイルを使用します。
+1. 元のバージョンを取得します。を設定します。[](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+1. 新しいバージョンを取得します。[ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)またはお客様のインストール済みファイルを使用します。
 1. カスタムバージョンの取得：Campaign クライアント内からオブジェクトのソースコードを取得します。
 
 ### 差分表示の実行方法

@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
+source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
 workflow-type: tm+mt
 source-wordcount: '2561'
 ht-degree: 100%
@@ -61,7 +61,7 @@ _2020 年 9 月 11 日_
 
 ## ![](assets/do-not-localize/red_2.png) リリース 20.2.2 - ビルド 9180 {#release-20-2-2-build-9180}
 
-_2020 年 7 月 22 日_
+_2020 年 22 月 7 日_
 
 * 署名機能が無効な場合にトラッキングが機能しない問題を修正しました。（NEO-26411）
 * 許可されるべき場合に、パーソナライズされたドメインがブロックされる未署名のリンクが発生する問題を修正しました。（NEO-25210）

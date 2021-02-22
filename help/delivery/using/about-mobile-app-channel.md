@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 100%
+source-wordcount: '677'
+ht-degree: 93%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 **[!UICONTROL NMAC オプトアウト管理]**（mobileAppOptOutMgt）ワークフローにより、モバイルデバイスでの通知購読解除が更新されます。このワークフローの詳細については、[テクニカルワークフローのリスト](../../workflow/using/about-technical-workflows.md)を参照してください。
 
-Adobe Campaign はバイナリと HTTP/2 APNs の両方に対応しています。設定手順の詳細については、[Adobe Campaign でのモバイルアプリケーションの設定](../../delivery/using/configuring-the-mobile-application.md)の節を参照してください。
+Adobe CampaignはHTTP/2 APNと互換性があります。 設定手順の詳細については、[Adobe Campaign でのモバイルアプリケーションの設定](../../delivery/using/configuring-the-mobile-application.md)の節を参照してください。
 
 ## データパス {#data-path}
 
@@ -85,14 +85,7 @@ Adobe Campaign はバイナリと HTTP/2 APNs の両方に対応しています�
 
 ![](assets/nmac_delivery_view.png)
 
-Adobe Campaign サーバーが、次のポートで APNs サーバーと通信できる必要があります。
-
-* iOS バイナリコネクタの場合：2195（送信）および 2186（フィードバックサービス）
-* iOS HTTP/2 コネクタの場合：443
-
-   >[!NOTE]
-   >
-   > Campaign 20.3 リリース以降、iOS レガシーバイナリコネクタは非推奨となりました。このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
+Adobe Campaignサーバーは、iOS HTTP/2コネクタ用の443ポートのAPNsサーバーに接続できる必要があります。
 
 正しく動作することを確認するには、次のコマンドを使用します。
 
@@ -108,7 +101,5 @@ Adobe Campaign サーバーが、次のポートで APNs サーバーと通信�
    telnet gateway.push.apple.com
    ```
 
-iOS バイナリコネクタを使用した場合、MTA および web サーバーはポート 2195（送信）で、ワークフローサーバーはポート 2196（フィードバックサービス）でそれぞれ APNs と通信できる必要があります。
-
-iOS HTTP/2 コネクタを使用した場合、MTA、web サーバーおよびワークフローサーバーは、ポート 443 で APNs と通信できる必要があります。
+iOS HTTP/2コネクターを使用する場合、MTA、Webサーバー、およびワークフローサーバーが、ポート443のAPNに接続できる必要があります。
 

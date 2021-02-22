@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 translation-type: tm+mt
-source-git-commit: a1bd8dc2b5946b74cb880eff934e3b35cadfb2d2
+source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '909'
 ht-degree: 100%
 
 ---
@@ -32,10 +32,6 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 1. **[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;に移動します。
 1. **[!UICONTROL iOS ルーティング]**&#x200B;外部アカウントを選択します。
 1. 「**[!UICONTROL コネクタ]**」タブで、「**[!UICONTROL コネクタのアクセス URL]**」フィールドに「```http://localhost:8080/nms/jsp/iosHTTP2.jsp```」を入力します。
-
-   >[!NOTE]
-   >
-   > Campaign 20.3 リリース以降、iOS レガシーバイナリコネクタは非推奨となりました。このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
 
    ![](assets/nmac_connectors.png)
 

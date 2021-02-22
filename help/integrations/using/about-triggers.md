@@ -5,9 +5,8 @@ title: Adobe Experience Cloud Triggers について
 description: Adobe Experience Cloud Triggers の実装入門
 audience: integrations
 content-type: reference
-topic-tags: adobe-experience-manager
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d7de46abb71ca25ef765c6fb5443f6e338fba56e
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%

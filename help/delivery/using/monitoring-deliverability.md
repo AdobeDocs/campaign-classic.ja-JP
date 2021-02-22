@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 11377b0218e20da9b1a5398539ebaa192801b283
+source-git-commit: fa5679d91808edb8e3916d5f0e0f54c73198e934
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '485'
 ht-degree: 100%
 
 ---
@@ -25,14 +25,12 @@ Adobe Campaign が提供する機能を使用して、プラットフォーム�
 
 配信品質パッケージを使用すると以下にアクセスすることができます。
 
-* 毎日の配信品質のパフォーマンスに関する技術的なトラッキングレポート（技術的な監視）。このレポートはオンデマンドで利用でき、日次レポートを指定したアドレスに E メールで受信できます。詳しくは、アドビカスタマーケアチームにお問い合わせください。
 * [受信ボックスレンダリングレポート](../../delivery/using/inbox-rendering.md)を使用すると、コンテンツや評判をスキャンするために、主要な E メールクライアントにメッセージをプレビューできます。
 * メッセージ品質の概要（受信ボックス、スパム）。
 
 次のツールも使用できます。
 
 * **[!UICONTROL 配信スループット]**&#x200B;レポートは、一定期間にわたるプラットフォーム全体のスループットの概要を示します。詳しくは、[この節](../../reporting/using/global-reports.md#delivery-throughput)を参照してください。
-* **[!UICONTROL 配信品質の技術的監視]**&#x200B;レポートには、お使いのプラットフォーム向けに配信品質の指標が多く含まれています。詳しくは、[この節](#technical-deliverability-monitoring)を参照してください。
 * 各配信は、異なるインターネットサービスプロバイダー（ISP）に関するブロードキャスト統計情報レポートを生成します。配信品質に影響を与える可能性のあるデータ品質と評価の指標がいくつか表示されます。次の数値が含まれます。
    * **[!UICONTROL ハードバウンス]**&#x200B;はデータの質を示します。この数は 2％未満にする必要があります。
    * **[!UICONTROL ソフトバウンス]**&#x200B;は評判を示します。任意の ISP に対して、この値を 10％以下にする必要があります。
@@ -68,28 +66,6 @@ Signal Spam は、フランスのサービスで、フランスの ISP（Orange�
 [250ok](https://250ok.com/) は、IP、ドメインブロックリストおよび評判の指標を提供する、アドビの配信品質内部ツールの補完的な監視ソリューションです。
 
 提供される情報はリアルタイムで、これにより先を見越した支援が可能です。
-
-## 配信品質の技術的監視レポート {#technical-deliverability-monitoring}
-
-**配信品質の技術的監視**&#x200B;レポートには、お使いのプラットフォーム向けに配信品質の指標が多く含まれています。この日次レポートは E メールで受信できます。 リクエストするには、特定の[サポートケース](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)を開き、次を指定します。
-
-* インスタンスの名前
-* レポートの送信先の E メールアドレス
-
-このレポートには、次の指標が含まれています。
-
-* **[!UICONTROL リバース DNS]**：Adobe Campaign は、IP アドレスにリバース DNS が指定されているかどうか、およびこれが IP を正しく指しているかどうかを確認します。
-
-* **[!UICONTROL SPF]**（Sender Policy Framework）：E メール送信者が送信ドメインで承認されているかどうかを ISP およびメールボックスプロバイダーが確認できる認証メカニズムです。
-
-* **[!UICONTROL DomainKeys]**：Yahoo が開発したサービスで、E メール送信者の ID を認証するためのものです。
-
-* **[!UICONTROL IP および RBL ドメイン]**（リアルタイムブラックホールリスト）：ブロックリスト組織によって送信レピュテーションが低くフラグ付けされた IP アドレスおよびドメインのリスト。リストは、SpamHaus、SpamCop、SURBL/URIBL などの専門組織によって管理されます。現在、Adobe Campaign は、配信品質に大きな影響を与える RBL に対するチェックを処理します。これらの RBL は送信レピュテーションを反映し、E メールの受信が許可される前に ISP によって参照される可能性があります。
-
-* **[!UICONTROL SNDS]**（Smart Network Data Services）：[Windows Live Hotmail のスパム対策サービス](https://sendersupport.olc.protection.outlook.com/snds/FAQ.aspx)。このタイプの情報を提供する ISP は Hotmail のみです。ベンチマークスコアは、緑色のフィルター結果、0.1％未満の苦情率、ゼロスパムトラップです。
-
-これらの指標は毎日午前 9 時に更新されます。
-
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 

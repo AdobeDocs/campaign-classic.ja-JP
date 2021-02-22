@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 32db73de8308670dfd74d974072bd96b3a22fc31
+source-git-commit: a157082070b22e3621cb81411a5ddde387fd5fcf
 workflow-type: tm+mt
-source-wordcount: '8432'
+source-wordcount: '8458'
 ht-degree: 99%
 
 ---
@@ -593,6 +593,12 @@ TLS が有効な場合は、すべての証明書の確認をスキップしま�
 このオプションをオンにすると、接続はセキュリティで保護されなくなるため、実稼働環境では有効化しないでください。
 
 このオプションは、デバッグやテストの際に役立ちます。
+
+証明書の検証には、次の3つの異なる値のいずれかを選択できます。
+
+* 完全な証明書の確認（ホスト名を含む）、デフォルト。
+* ホスト名の検証をスキップ.
+* 証明書の検証をスキップ.
 
 #### バインド TON/NPI {#bind-ton-npi}
 

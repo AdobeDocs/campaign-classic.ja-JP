@@ -7,11 +7,11 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: チャネルをまたいだマーケティングキャンペーンを設計、計画、実行、管理、および最適化して、高いマーケティング投資回収率を実現します。
 solution: Campaign Classic
 sub-product: Adobe Campaign Classic
-type: Documentation
+type: ドキュメント
 translation-type: tm+mt
-source-git-commit: efa36dc08ce4dd59805bb9eba63a4249e14609d7
+source-git-commit: 4030eb1cf9aa78a10daffe9ea849aa205660e359
 workflow-type: tm+mt
-source-wordcount: '2349'
+source-wordcount: '2351'
 ht-degree: 98%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 98%
       + [Gold Standard リリースノート](rn/using/gold-standard.md)
       + [Gold Standard 互換性マトリックス](rn/using/compatibility-matrix-gs.md)
    + 以前のリリース {#previous-releases}
+      + [リリース 20.3](rn/using/release--20-3.md)
       + [リリース 20.2](rn/using/release--20-2.md)
       + [リリース 20.1](rn/using/release--20-1.md)
       + [リリース 19.2](rn/using/release--19-2.md)

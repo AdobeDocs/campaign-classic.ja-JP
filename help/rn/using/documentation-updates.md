@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 55cc09c0446e389029890e45b790bb5ec6ffdc27
+source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
 workflow-type: tm+mt
-source-wordcount: '3965'
-ht-degree: 98%
+source-wordcount: '4063'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,19 @@ ht-degree: 98%
 
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
 
-## 2021 年 2 月 {#feb-2021}
+## 2021 年 2 月 {#release-21.1}
+
+**21.1リリースに伴うドキュメントの更新**
+
+新しい&#x200B;**Eメールフィードバックサービス**&#x200B;機能（プライベートベータ版）は、[ここ](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service)にドキュメント化されています。
+
+**サーバー設定ファイル**&#x200B;セクションが更新され、キャンペーンがIMSを使用して別のサービスに接続するために必要な設定パラメーターが追加されました。 [詳細を表示](../../installation/using/the-server-configuration-file.md#ims)
+
+配信のステータスのリストで、**サービスプロバイダー**&#x200B;が考慮するの説明が更新されました。このステータスは、[電子メールフィードバックサービス](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service)を使用して送信される電子メール配信にも使用されるようになりました。 [詳細を表示](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
+
+新しいログオン画面でAdobe Campaignに接続するために使用できるキーボードショートカットがドキュメントに記載されるようになりました。 [詳細を表示](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
+
+**その他のアップデート**
 
 ワークフローを使用したA/Bテストの実行方法に関する詳細情報を含む新しい節を追加しました。 [詳細を表示](../../delivery/using/get-started-a-b-testing.md)
 
@@ -100,7 +112,7 @@ Android のプッシュ通知の改善点 - [詳細を表示](../../delivery/usi
 非推奨（廃止予定）および削除された機能ページが更新されました。[詳細を表示](../../rn/using/deprecated-features.md)
 
 Gold Standard リリースのリリースノートと互換性マトリックスが、専用の節で提供されるようになりました。
-[詳細を表示](../../rn/using/gold-standard.md#gs-10)。
+[詳細を表示](../../rn/using/gold-standard.md#gs-11)。
 
 パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合が変更され、Adobe I/O に移動しました。[詳細情報](../../integrations/using/configuring-adobe-io.md)
 

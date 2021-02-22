@@ -56,10 +56,10 @@ Campaign Classic 内：
 
 
 >[!CAUTION]
+>
 > Adobe Campaign を Microsoft Dynamics に接続する場合、次のことはできません。
 > * CRM の動作が変わり Adobe Campaign との互換性の問題が生じる可能性があるプラグインのインストール
 > * 複数の列挙の選択
-
 >
 
 

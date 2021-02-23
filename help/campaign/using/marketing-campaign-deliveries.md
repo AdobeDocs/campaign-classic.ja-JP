@@ -6,9 +6,9 @@ description: マーケティングキャンペーン配信の詳細
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1cde12d33551206da12e03a7e8deb198d427ab3a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3085'
 ht-degree: 100%
 

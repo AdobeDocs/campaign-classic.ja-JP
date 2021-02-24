@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
+source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
 workflow-type: tm+mt
 source-wordcount: '4084'
 ht-degree: 95%
@@ -45,6 +45,8 @@ Adobe Campaign拡張MTAセクションは[ここ](../../delivery/using/sending-w
 
 **電子メール**&#x200B;の送信セクションが再編成され、新しいサブセクションで明確化されました。 [詳細を表示](../../delivery/using/sending-messages.md)
 
+パーソナライズ可能な電子メールにリンクを追加する方法、およびトラッキングをサポートする情報を追加しました。 [詳細を表示](../../delivery/using/tracking-personalized-links.md)。
+
 ## 2021 年 1 月 {#jan-2021}
 
 **[!UICONTROL 分岐]**&#x200B;アクティビティの節にベストプラクティスの記述が補われました。 [詳細を表示](../../workflow/using/fork.md)
@@ -62,8 +64,6 @@ Adobe Campaign のインスタンスで使用されている埋め込み Tomcat 
 **監視**&#x200B;ガイドのトラブルシューティングの節が再構成され、ランディングページが追加されました。 [詳細を表示](../../production/using/troubleshooting.md)。
 
 新しい&#x200B;**データのインポートとエクスポート**&#x200B;の節が、ワークフロー、データ圧縮、暗号化、インポートのベストプラクティスに関する新しいページで利用できます。 [詳細を表示](../../platform/using/get-started-data-import-export.md)
-
-パーソナライズ可能な電子メールにリンクを追加する方法、およびトラッキングをサポートする情報を追加しました。 [詳細を表示](../../delivery/using/tracking-personalized-links.md)。
 
 ## 2020 年 12 月 {#dec-2020}
 

@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 96%
+source-wordcount: '342'
+ht-degree: 92%
 
 ---
 
@@ -169,3 +169,5 @@ ht-degree: 96%
 * メッセージの受信後に訪問のあったページの数：`[indicators/@totalWebPage]`
 * 最も低い購読解除率：`[indicators/@optOutRatio]`
 * トランザクション金額: `[indicators/@amount]`.
+
+これで、最終的な配信を定義できます([手順6:最終配信](../../delivery/using/a-b-testing-uc-final-delivery.md)を定義します)。

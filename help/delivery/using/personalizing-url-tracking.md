@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: パーソナライズされた URL のトラッキング
-description: パーソナライズされた URL のトラッキング
+title: URLトラッキングオプションの設定
+description: URLトラッキングオプションの設定
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 019c982dcf040fb2dc2a1c82d4a2ff5a964ec5fa
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '171'
+ht-degree: 92%
 
 ---
 
 
-# パーソナライズされた URL のトラッキング{#personalizing-url-tracking}
+# URLトラッキングオプションの設定{#personalizing-url-tracking}
 
 メッセージトラッキングの詳細設定には、配信ウィザードのツールバーにある&#x200B;**[!UICONTROL トラッキング＆画像]**&#x200B;アイコンからアクセスできます。
 

@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
+source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
 workflow-type: tm+mt
-source-wordcount: '4063'
-ht-degree: 96%
+source-wordcount: '4084'
+ht-degree: 95%
 
 ---
 
@@ -62,6 +62,8 @@ Adobe Campaign のインスタンスで使用されている埋め込み Tomcat 
 **監視**&#x200B;ガイドのトラブルシューティングの節が再構成され、ランディングページが追加されました。 [詳細を表示](../../production/using/troubleshooting.md)。
 
 新しい&#x200B;**データのインポートとエクスポート**&#x200B;の節が、ワークフロー、データ圧縮、暗号化、インポートのベストプラクティスに関する新しいページで利用できます。 [詳細を表示](../../platform/using/get-started-data-import-export.md)
+
+パーソナライズ可能な電子メールにリンクを追加する方法、およびトラッキングをサポートする情報を追加しました。 [詳細を表示](../../delivery/using/tracking-personalized-links.md)。
 
 ## 2020 年 12 月 {#dec-2020}
 

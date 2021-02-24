@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 346b72d522c947b2a2552176b910ded8d622f3ab
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 52%
+source-wordcount: '244'
+ht-degree: 51%
 
 ---
 
@@ -29,13 +29,14 @@ ht-degree: 52%
 
 この使用例を実行する主な手順は次のとおりです。
 
-* [手順1:ターゲット設定ワークフローの作成](#step-1--creating-a-targeting-workflow)
-* [手順2:母集団サンプルの設定](#step-2--configuring-population-samples)
-* [手順3:2つの配信テンプレートを作成](#step-3--creating-two-delivery-templates)
-* [手順4:ワークフローでの配信の設定](#step-4--configuring-the-deliveries-in-the-workflow)
-* [手順5:スクリプトの作成](#step-5--creating-the-script)
-* [手順7:ワークフローの開始](#step-7--starting-the-workflow)
-* [手順8:結果を分析します](#step-8--analyzing-the-result)。
+* [手順1:ターゲット設定ワークフローの作成](../../delivery/using/a-b-testing-uc-targeting-workflow.md)
+* [手順2:母集団サンプルの設定](../../delivery/using/a-b-testing-uc-population-samples.md)
+* [手順3:2つの配信テンプレートを作成](../../delivery/using/a-b-testing-uc-delivery-templates.md)
+* [手順4:ワークフローでの配信の設定](../../delivery/using/a-b-testing-uc-configuring-deliveries.md)
+* [手順5:スクリプトの作成](../../delivery/using/a-b-testing-uc-script.md)
+* [手順6:最終配信の定義](../../delivery/using/a-b-testing-uc-final-delivery.md)
+* [手順7:ワークフローの開始](../../delivery/using/a-b-testing-uc-start-workflow.md)
+* [手順8:結果の分析](../../delivery/using/a-b-testing-uc-analyzing.md)
 
 **関連トピック：**
 

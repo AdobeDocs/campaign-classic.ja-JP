@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: ドキュメント
 translation-type: tm+mt
-source-git-commit: 4030eb1cf9aa78a10daffe9ea849aa205660e359
+source-git-commit: 6dbf77c29dddc4b718910835520e4480e01d0d4a
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 98%
+source-wordcount: '2368'
+ht-degree: 97%
 
 ---
 
@@ -199,7 +199,11 @@ ht-degree: 98%
    + メッセージのトラッキング {#tracking-messages}
       + [メッセージトラッキングについて](delivery/using/about-message-tracking.md)
       + [トラッキングするリンクの設定方法](delivery/using/how-to-configure-tracked-links.md)
-      + [パーソナライズされた URL のトラッキング](delivery/using/personalizing-url-tracking.md)
+      + パーソナライズされたリンクの追跡{#tracking-personalized-links}
+         + [パーソナライズされたリンクの追跡を開始する](delivery/using/tracking-personalized-links.md)
+         + [追跡URLの検出](delivery/using/detecting-tracking-urls.md)
+         + [トラッキングの前処理手順](delivery/using/pre-processing-instructions.md)
+      + [URLトラッキングオプションの設定](delivery/using/personalizing-url-tracking.md)
       + [トラッキングログへのアクセス](delivery/using/accessing-the-tracking-logs.md)
       + [トラッキングのテスト](delivery/using/testing-tracking.md)
       + [トラッキングのトラブルシューティング](delivery/using/tracking-troubleshooting.md)

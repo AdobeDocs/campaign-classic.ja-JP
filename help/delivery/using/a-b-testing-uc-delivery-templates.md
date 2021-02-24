@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 75%
+source-wordcount: '99'
+ht-degree: 62%
 
 ---
 
@@ -31,3 +31,5 @@ ht-degree: 75%
 1. この手順を繰り返し、配信 B のテンプレートも作成します。
 
    ![](assets/use_case_abtesting_deliverymodel_003.png)
+
+これで、ワークフロー内の配信を設定できます([手順4:ワークフロー](../../delivery/using/a-b-testing-uc-configuring-deliveries.md)の配信を設定します)。

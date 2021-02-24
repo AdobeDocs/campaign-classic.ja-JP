@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 151667637a12667f5eda1590e64e01de493be9ce
+source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 1%
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 オブジェクトは次のいずれかになります。
 
-* *&quot;配信&quot;:現在の配信について（下記のサブセクションの詳細と制限を参照）。
+* &quot;配信&quot;:現在の配信について（下記のサブセクションの詳細と制限を参照）。
 * &quot;provider&quot;:現在の配信プロバイダー/ルーティング(nms:externalAccount)の場合。
 * 追加のスクリプトオブジェクト：オブジェクトがコンテキスト内で次を通して読み込まれる場合：**プロパティ** > **パーソナライゼーション** > **追加実行コンテキスト**&#x200B;のオブジェクト。
 * foreachループの項目：[下の](#<%@-foreach)セクションを参照してください。

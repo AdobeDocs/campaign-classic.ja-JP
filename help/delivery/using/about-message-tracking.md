@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 55cc09c0446e389029890e45b790bb5ec6ffdc27
+source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '686'
 ht-degree: 22%
 
 ---
@@ -57,7 +57,7 @@ Adobe Campaignでは、その追跡機能のおかげで、送信されたメッ
 
 **追跡されるリンクのパーソナライゼーション**
 
-Campaign Classicトラッキング機能を使用すると、パーソナライズ可能な電子メールにリンクを追加し、トラッキングをサポートできます。 [詳細情報](https://helpx.adobe.com/campaign/kb/tracking-personnalized-links.html)
+Campaign Classicトラッキング機能を使用すると、パーソナライズ可能な電子メールにリンクを追加し、トラッキングをサポートできます。 [詳細情報](../../delivery/using/tracking-personalized-links.md)
 
 **トラッキングログ**
 

@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 translation-type: tm+mt
-source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
+source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 93%
+source-wordcount: '195'
+ht-degree: 86%
 
 ---
 
@@ -80,3 +80,5 @@ ht-degree: 93%
    * ラベルを変更して、この母集団には A も B も含まれないように指定し、「**[!UICONTROL OK]**」をクリックしてアクティビティを閉じます。
 
       ![](assets/use_case_abtesting_createrecipients_013.png)
+
+これで2つの配信テンプレートを作成できます([手順3:2つの配信テンプレート](../../delivery/using/a-b-testing-uc-delivery-templates.md)を作成します)。

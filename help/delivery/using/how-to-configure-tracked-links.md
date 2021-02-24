@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 92%
 
 ---
 
@@ -19,11 +19,14 @@ ht-degree: 100%
 
 配信ごとに、メッセージの受信と、メッセージコンテンツに挿入されたリンクの有効化をトラッキングできます。これによって、ターゲットとした配信アクションに続く受信者の行動をトラッキングできます。
 
+トラッキングはメッセージに適用されますが、Web トラッキングを使用すると、受信者がどのように Web サイトを閲覧しているか（訪問したページ、購入など）を監視できます。web トラッキングの設定については、[この節](../../configuration/using/about-web-tracking.md)で説明しています。
+
 >[!NOTE]
 >
->トラッキングはメッセージに適用されますが、Web トラッキングを使用すると、受信者がどのように Web サイトを閲覧しているか（訪問したページ、購入など）を監視できます。
->
->Web トラッキングの設定については、[この節](../../configuration/using/about-web-tracking.md)で説明しています。
+>パーソナライゼーションを含む電子メールコンテンツ内のリンクは、特定の構文を追跡する必要があります。 パーソナライズ可能な電子メールにリンクを追加する方法、および追跡をサポートする電子メールについて詳しくは、[このセクション](../../delivery/using/tracking-personalized-links.md)を参照してください。
+
+
+
 
 メッセージトラッキングは、デフォルトで有効になっています。URL のトラッキング方法をパーソナライズするには、以下の手順に従います。
 

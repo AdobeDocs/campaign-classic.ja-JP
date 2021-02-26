@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 333d2221d4f86fe18232473385653ed8409adf54
+source-git-commit: 25673f33c626edd5b7f4c7ba240364b3ea8d616a
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 81%
+source-wordcount: '522'
+ht-degree: 98%
 
 ---
 
@@ -96,19 +96,9 @@ Adobe Campaign にプロジェクト資格情報を追加するには、Adobe Ca
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
 ```
 
-秘密鍵は、base64 UTF-8形式でエンコードする必要があります。 それには、次の手順に従います。
-
-1. [手順1：で生成された秘密鍵を使用します。Adobe I/Oプロジェクトセクション](#creating-adobe-io-project)を作成/更新します。 秘密鍵は、統合の作成に使用したものと同じにする必要があります。
-
-1. この[このWebサイト](https://www.base64encode.org/)を使って、秘密鍵を対応するフィールドに貼り付けます。
-
-   >[!NOTE]
-   >
-   >秘密鍵をコピー/貼り付けるときに、余分な行が自動的に追加されることがあります。 秘密鍵をエンコードする前に、必ず削除してください。
-
-1. 「**[!UICONTROL エンコード]**」をクリックします。
-
-1. 上述の詳細なコマンドを実行するには、base64 UTF-8形式でエンコードされた新しく生成された秘密鍵を使用します。
+>[!NOTE]
+>
+>秘密鍵は base64 UTF-8 形式でエンコードする必要があります。秘密鍵でない場合は、鍵をエンコードする前に、鍵から新しい行を削除してください。秘密鍵は、統合の作成に使用したものと同じである必要があります。秘密鍵の base64 エンコーディングをテストするには、[こちらの Web サイト](https://www.base64encode.org/)を使用します。
 
 ## 手順 3：パイプライン化されたタグの更新 {#update-pipelined-tag}
 

@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: e2dfc34b35e6ce03715bd5723cff578a1aacd559
+source-git-commit: 4a56feac374506bb33ae6770aa247a197f1669fb
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '219'
 ht-degree: 6%
 
 ---
 
 
-# 電子メール配信の確認{#confirming-email-delivery}
+# 電子メールを送信する主な手順{#confirming-email-delivery}
 
 電子メールが作成および設定されたら、メインターゲットに送信できます。 この節では、電子メールの配信を確認する主な手順を説明します。
 

@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
+source-git-commit: add0efb4efd5a37129c649b942799622947f3143
 workflow-type: tm+mt
-source-wordcount: '4084'
+source-wordcount: '4112'
 ht-degree: 95%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 95%
 このページには、毎月および Campaign の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
 
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
+
+## 2021 年 3 月 {#march-2021}
+
+タスクを終了し、今後の呼び出しを防ぐための、mession.setCompleted()メソッドの使用方法に関する情報が、**[!UICONTROL 高度なJavaScript]**&#x200B;アクティビティセクションに追加されました。 [詳細を表示](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
 ## 2021 年 2 月 {#release-21.1}
 

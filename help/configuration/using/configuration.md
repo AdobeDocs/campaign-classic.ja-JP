@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 translation-type: tm+mt
-source-git-commit: 6e0741d13aa954e81fe6416663399ffd1a81012f
+source-git-commit: 04b8287dba00adbc391d611cbaf63b36a4bc3d10
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 2%
@@ -297,7 +297,7 @@ XMLドキュメントには、ドキュメント名と名前空間を指定す�
 データスキーマー内のリンクフォルダーの宣言の例：
 
 ```
-<element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
+<element default="DefaultFolder('nmsFolder', [@_folder-id])" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="define" revLabel="Recipients" target="xtk:folder" type="link"/>
 ```
 
 「folder」という名前のフォルダーのリンク上の&#x200B;**`<nodemodel>`**&#x200B;の設定は次のとおりです。

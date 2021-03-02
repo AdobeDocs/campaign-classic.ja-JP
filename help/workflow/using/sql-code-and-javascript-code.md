@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 translation-type: tm+mt
-source-git-commit: 8bcfc8826a66517e6a648dbc57b681778718c33c
+source-git-commit: add0efb4efd5a37129c649b942799622947f3143
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 100%
+source-wordcount: '291'
+ht-degree: 87%
 
 ---
 
@@ -59,3 +59,12 @@ ht-degree: 100%
 * **[!UICONTROL 次の呼び出し]**：エディターの 2 番目のゾーンには、2 回目以降の呼び出し時に実行するスクリプトが含まれます。
 * **[!UICONTROL トランジション]**：アクティビティの出力トランジションを複数定義できます。
 * **[!UICONTROL スケジュール]**：「**[!UICONTROL スケジュール]**」タブでは、アクティビティをトリガーするタイミングをスケジュール設定できます。
+
+高度なJavaScriptは永続的なタスクで、完了とマークされていない場合は定期的に呼び出されます。 タスクを終了し、今後の呼び出しを防ぐには、**[!UICONTROL 次の呼び出し]**&#x200B;セクションで&#x200B;**タスク.setCompleted()**&#x200B;メソッドを使用する必要があります。
+
+```
+task.postEvent(task.transitionByName("ok")); // to transition to Ok branch
+task.setCompleted();
+
+return 0;
+```

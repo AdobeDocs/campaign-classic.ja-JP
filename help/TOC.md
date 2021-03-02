@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: ドキュメント
 translation-type: tm+mt
-source-git-commit: 6dbf77c29dddc4b718910835520e4480e01d0d4a
+source-git-commit: 4a56feac374506bb33ae6770aa247a197f1669fb
 workflow-type: tm+mt
-source-wordcount: '2368'
+source-wordcount: '2372'
 ht-degree: 97%
 
 ---
@@ -125,8 +125,8 @@ ht-degree: 97%
       + [E メール配信の作成](delivery/using/creating-an-email-delivery.md)
       + [E メールコンテンツの定義](delivery/using/defining-the-email-content.md)
       + [インタラクティブコンテンツの定義](delivery/using/defining-interactive-content.md)
-      + E メールの送信 {#sending-an-email}
-         + [電子メール配信の確認](delivery/using/sending-messages.md)
+      + 電子メール配信{#sending-an-email}を送信中
+         + [電子メールを送信する主な手順](delivery/using/sending-messages.md)
          + [E メールパラメーター](delivery/using/email-parameters.md)
          + [拡張MTAを使用した送信](delivery/using/sending-with-enhanced-mta.md)
          + [日本の携帯電話への発信](delivery/using/sending-emails-on-japanese-mobiles.md)

@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
+source-git-commit: 571821ce775a7c354d01404d14faee8d2a21c170
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 99%
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 ## ![](assets/do-not-localize/limited_2.png) リリース 20.1.4 - ビルド 9126 {#release-20-1-4-build-9126}
 
-_2020 年 12 月 23 日_
+_2020年12月23日_
 
 >[!CAUTION]
 >
@@ -34,7 +34,7 @@ _2020 年 12 月 23 日_
 
 ## ![](assets/do-not-localize/red_2.png) リリース 20.1.3 - ビルド 9124{#release-20-1-3-build-9124}
 
-_2020年5月6日_
+_2020 年 5 月 6 日_
 
 * SFTP キーに基づく認証が Debian 9 で動作しない&#x200B;**ファイル転送**&#x200B;アクティビティの問題を修正しました。（NEO-23183）
 
@@ -46,7 +46,7 @@ _2020 年 3 月 13 日_
 
 ## ![](assets/do-not-localize/red_2.png) リリース 20.1 - ビルド 9122{#release-20-1-build-9122}
 
-_2020年2月17日_
+_2020 年 2 月 17 日_
 
 **新機能**
 

@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: 1b02c3870ddc01705f01ea992e734cf0810e003a
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '510'
 ht-degree: 15%
 
 ---
@@ -47,7 +47,8 @@ Adobe Campaignクライアントコンソールをダウンロードしてイン
 
 >[!NOTE]
 >
->Windowsでは、Windowsサーバーの`[INSTALL]/bin`ディレクトリから直接&#x200B;**nlclient.exe**&#x200B;ファイルを起動できます。`[INSTALL]`は、Adobe Campaignーのインストールフォルダーのアクセスパスです。
+>キャンペーンマーケティングサーバーの特定のキャンペーンーにあるコンソール実行ファイルをコピーして、すべてのユーザーに最新バージョンへの更新を提案できます。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
+
 
 ## 接続を作成{#create-the-connection}
 

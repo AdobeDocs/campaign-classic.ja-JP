@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
+source-git-commit: 571821ce775a7c354d01404d14faee8d2a21c170
 workflow-type: tm+mt
 source-wordcount: '2561'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 
 ## ![](assets/do-not-localize/green_2.png) リリース 20.2.4 - ビルド 9187 {#release-20-2-4-build-9187}
 
-_2020 年 12 月 22 日_
+_2020年12月22日_
 
 >[!CAUTION]
 >
-> * このリリースには、新しい接続プロトコルが付属しています。Adobe IDサービス（IMS）を介して Campaign に接続する場合は、**2021 年 3 月 31 日**&#x200B;以降、Campaign サーバーもクライアントコンソールも Campaign に接続できるようにするにはアップグレードが必要です。
+> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合、**2021 年 3 月 31 日**&#x200B;以降、Campaign サーバーもクライアントコンソールも Campaign に接続できるようにするにはアップグレードが必要です。
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
-> * OAuth 認証を介した Experience Cloud トリガー統合を使用する場合は、[こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。 従来の OAuth 認証モードは、**2021 年 4 月 30 日**&#x200B;に廃止されます。
+> * oAuth認証を通じたExperience Cloudトリガー統合を使用する場合は、このページ](../../integrations/using/configuring-adobe-io.md)の[説明に従ってAdobe I/Oに移動する必要があります。 従来の OAuth 認証モードは、**2021 年 4 月 30 日**&#x200B;に廃止されます。
 
 
 
@@ -61,7 +61,7 @@ _2020 年 9 月 11 日_
 
 ## ![](assets/do-not-localize/red_2.png) リリース 20.2.2 - ビルド 9180 {#release-20-2-2-build-9180}
 
-_2020 年 22 月 7 日_
+_2020 年 7 月 22 日_
 
 * 署名機能が無効な場合にトラッキングが機能しない問題を修正しました。（NEO-26411）
 * 許可されるべき場合に、パーソナライズされたドメインがブロックされる未署名のリンクが発生する問題を修正しました。（NEO-25210）

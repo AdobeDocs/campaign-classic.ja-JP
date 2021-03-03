@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 97546a5a49880c5af51754fb5d7b02359f3d556c
+source-git-commit: 571821ce775a7c354d01404d14faee8d2a21c170
 workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 99%
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 ## ![](assets/do-not-localize/limited_2.png) リリース 19.2.4 - ビルド 9082 {#release-19-2-4-build-9082}
 
-_2020 年 12 月 23 日_
+_2020年12月23日_
 
 >[!CAUTION]
 >
@@ -35,7 +35,7 @@ _2020 年 12 月 23 日_
 
 ## ![](assets/do-not-localize/red_2.png) リリース 19.2.3 - ビルド 9081 {#release-19-2-3-build-9081}
 
-_2020年2月7日_
+_2020 年 2 月 7 日_
 
 **強化点**
 
@@ -44,7 +44,7 @@ _2020年2月7日_
 
 ## ![](assets/do-not-localize/red_2.png) リリース 19.2 - ビルド 9080 {#release-19-2-build-9080}
 
-_2019 年 12 月 2 日_
+_2019年12月3日_
 
 **新機能**
 

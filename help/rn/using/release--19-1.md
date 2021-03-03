@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
+source-git-commit: 571821ce775a7c354d01404d14faee8d2a21c170
 workflow-type: tm+mt
 source-wordcount: '3138'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 ## ![](assets/do-not-localize/limited_2.png) リリース 19.1.8 - ビルド 9039 {#release-19-1-8-build-9039}
 
-_2020 年 12 月 16 日_
+_2020年12月16日_
 
 >[!CAUTION]
 >
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合、**2021 年 3 月 31 日**&#x200B;以降、Campaign サーバーもクライアントコンソールも Campaign に接続できるようにするにはアップグレードが必要です。
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
-> * OAuth 認証を介した Experience Cloud トリガー統合を使用する場合は、[こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。 従来の OAuth 認証モードは、**2021 年 4 月 30 日**&#x200B;に廃止されます。
+> * oAuth認証を通じたExperience Cloudトリガー統合を使用する場合は、このページ](../../integrations/using/configuring-adobe-io.md)の[説明に従ってAdobe I/Oに移動する必要があります。 従来の OAuth 認証モードは、**2021 年 4 月 30 日**&#x200B;に廃止されます。
 
 
 
@@ -89,7 +89,7 @@ _2020 年 9 月 15 日_
 >
 >このビルドは、オンプレミスインストールにのみ使用します。ハイブリッドデプロイメントの場合、ホストされたインスタンスは 9032 ビルドを実行し続けます。9032 と互換性がないので、マーケティングインスタンスを 9035 ビルドにアップグレードしないでください。
 
-_2019 年 10 月 3 日_
+_2019年10月4日_
 
 **強化点**
 
@@ -101,7 +101,7 @@ _2019 年 10 月 3 日_
 
 ## ![](assets/do-not-localize/red_2.png) リリース 19.1.5 - ビルド 9033{#release-19-1-5-build-9033}
 
-_2019 年 8 月 13 日_
+_2019年8月14日_
 
 **強化点**
 
@@ -123,7 +123,7 @@ _2019 年 8 月 13 日_
 
 ## ![](assets/do-not-localize/red_2.png) リリース 19.1.2 - ビルド 9029{#release-19-1-2-build-9029}
 
-_2019 年 6 月 21 日_
+_2019年6月22日_
 
 **セキュリティの機能強化**
 
@@ -139,7 +139,7 @@ _2019 年 6 月 21 日_
 
 ## ![](assets/do-not-localize/red_2.png) リリース 19.1 - ビルド 9026{#release-19-1-build-9026}
 
-_2019 年 5 月 30 日_
+_2019年5月31日_
 
 **新機能**
 

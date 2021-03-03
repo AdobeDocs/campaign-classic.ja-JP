@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 3105372bc020057727e28d26e7969c31ac290115
+source-git-commit: 23ba4091a1ffaa0245c58e8d346c60b54f79b4a2
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '1112'
+ht-degree: 91%
 
 ---
 
@@ -27,15 +27,30 @@ Campaign Gold Standard プログラムの詳細については、[この記事](
 
 ## ![](assets/do-not-localize/green_2.png) Gold Standard 11 リリース{#gs-11}
 
-_2020 年 12 月 22 日_
+_2021年3月2日_
+
+ビルド（9032@10c2709）には、以下の修正が含まれています。
+
+* 配信での日付選択や画像管理など、コンソールの一部のコンポーネントが使用できない問題を修正しました。 （NEO-31453、NEO-31454）
+
+**コンソールのアップグレードのみが必須です。サーバのアップグレードは必要ありません。**
+
+>[!NOTE]
+>
+> [Adobeソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続して、新しいバージョンをダウンロードします。 このページ](../../installation/using/client-console-availability-for-windows.md)で、すべてのエンドユーザー[に対してコンソールの更新を提案する方法を説明します。
+
+
+_2020年12月22日_
 
 >[!CAUTION]
 >
-> * このリリースには、新しい接続プロトコルが付属しています。Adobe IDサービス（IMS）を介して Campaign に接続する場合は、**2021 年 3 月 31 日**&#x200B;以降、Campaign サーバーもクライアントコンソールも Campaign に接続できるようにするにはアップグレードが必要です。
+> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合、**2021 年 3 月 31 日**&#x200B;以降、Campaign サーバーもクライアントコンソールも Campaign に接続できるようにするにはアップグレードが必要です。
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
-> * OAuth 認証を介した Experience Cloud トリガー統合を使用する場合は、[こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。 従来の OAuth 認証モードは、**2021 年 4 月 30 日**&#x200B;に廃止されます。
+> * oAuth認証を通じたExperience Cloudトリガー統合を使用する場合は、このページ](../../integrations/using/configuring-adobe-io.md)の[説明に従ってAdobe I/Oに移動する必要があります。 従来の OAuth 認証モードは、**2021 年 4 月 30 日**&#x200B;に廃止されます。
+
 >
->詳しくは、[Gold Standard 11 アップグレード FAQ](https://helpx.adobe.com/jp/campaign/kb/gold-standard-upgrade.html) を参照してください。
+>
+詳しくは、[Gold Standard 11 アップグレード FAQ](https://helpx.adobe.com/jp/campaign/kb/gold-standard-upgrade.html) を参照してください。
 
 ビルド 9032@d3b452f には、次の機能強化および修正が含まれています。
 
@@ -79,7 +94,7 @@ _2020 年 6 月 22 日_
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 8 リリース{#gs-8}
 
-_2020 年 4 月 29 日_
+_2020年4月29日_
 
 ビルド（9032@3a9dc9c）には、以下の修正が含まれています。
 
@@ -112,7 +127,7 @@ _2020 年 3 月 9 日_
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 5 リリース{#gs-5}
 
-_2019 年 12 月 17 日_
+_2019年12月18日_
 
 ビルド（9032@d6b8062）には、以下の修正が含まれています。
 
@@ -120,7 +135,7 @@ _2019 年 12 月 17 日_
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 4 リリース{#gs-4}
 
-_2019 年 12 月 11 日_
+_2019年12月12日_
 
 ビルド（9032@bc4a935）には、以下の修正が含まれています。
 
@@ -128,7 +143,7 @@ _2019 年 12 月 11 日_
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 3 リリース{#gs-3}
 
-_2019 年 11 月 20 日_
+_2019年11月21日_
 
 ビルド（9032@3468c7b）には、以下の修正が含まれています。
 
@@ -138,7 +153,7 @@ _2019 年 11 月 20 日_
 
 ## ![](assets/do-not-localize/red_2.png) Gold Standard 2 リリース{#gs-2}
 
-_2019 年 9 月 19 日_
+_2019年9月20日_
 
 ビルド（9032@cee805c）には、以下の修正が含まれています。
 
@@ -147,7 +162,7 @@ _2019 年 9 月 19 日_
 
 ## ![](assets/do-not-localize/red_2.png) リリース 19.1.4 - ビルド 9032{#release-19-1-4-build-9032}
 
-_2019 年 8 月 13 日_
+_2019年8月14日_
 
 初期の 19.1.4 ビルドには以下の修正が含まれています。
 

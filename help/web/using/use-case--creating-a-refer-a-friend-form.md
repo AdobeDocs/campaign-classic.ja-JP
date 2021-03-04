@@ -7,15 +7,15 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 100%
+source-wordcount: '624'
+ht-degree: 99%
 
 ---
 
 
-# ユースケース：友達の紹介フォームの作成{#use-case-creating-a-refer-a-friend-form}
+# 使用例：リファラルフォーム{#use-case-creating-a-refer-a-friend-form}を作成する
 
 この例では、データベースの受信者に競合他社を紹介します。Web フォームには、回答を入力するセクションを用意し、別のセクションで、E メールアドレスを入力することで友達を紹介します。
 

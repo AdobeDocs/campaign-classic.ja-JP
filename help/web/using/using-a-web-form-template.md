@@ -7,15 +7,15 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 
-# Web フォームテンプレートの使用{#using-a-web-form-template}
+# Webフォームテンプレートの使用{#using-a-web-form-template}
 
 フォームテンプレートは、再利用可能な設定で、新しいフォームを作成できます。デフォルトでは、フォームテンプレートは、Web アプリケーションテンプレートと共に&#x200B;**[!UICONTROL リソース／テンプレート／Web アプリケーションテンプレート]**&#x200B;ノードに格納されています。
 

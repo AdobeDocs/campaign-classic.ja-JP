@@ -7,15 +7,15 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '503'
+ht-degree: 97%
 
 ---
 
 
-# ユースケース：オンライン調査への回答に関するレポートの表示{#use-case-displaying-report-on-answers-to-an-online-survey}
+# 使用例：オンライン調査{#use-case-displaying-report-on-answers-to-an-online-survey}に対する回答に関するレポートを表示する
 
 専用レポートを使用して、Adobe Campaign の調査に対する回答を収集して分析できます。
 

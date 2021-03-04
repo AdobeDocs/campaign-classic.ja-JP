@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 権限の管理
-description: 権限の管理
+title: ワークフロー権限の管理
+description: ワークフロー権限の管理方法を説明します
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 100%
+source-wordcount: '336'
+ht-degree: 96%
 
 ---
 
 
-# 権限の管理{#managing-rights}
+# ワークフロー権限の管理{#managing-rights}
 
 管理者でない Adobe Campaign オペレーターは、ワークフローの作成や実行、変更でアクセス権が必要になります。
 

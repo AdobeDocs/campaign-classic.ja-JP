@@ -7,15 +7,15 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 100%
+source-wordcount: '414'
+ht-degree: 98%
 
 ---
 
 
-# Web アプリケーションのトラッキング{#tracking-a-web-application}
+# Webアプリケーションでの訪問の追跡{#tracking-a-web-application}
 
 Adobe Campaign では、トラッキングタグを挿入することで、Web アプリケーションページへの訪問をトラッキングおよび測定できます。この機能は、すべての Web アプリケーションタイプ（フォーム、オンライン調査、DCE で作成された Web ページなど）で使用できます。
 

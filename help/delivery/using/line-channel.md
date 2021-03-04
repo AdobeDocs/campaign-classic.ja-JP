@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 14513d5ecbfdd5637b764c8f19bc01358e63c130
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 100%
+source-wordcount: '1163'
+ht-degree: 99%
 
 ---
 
 
-# LINE チャネル{#line-channel}
+# LINE配信を作成{#line-channel}
 
 LINE は、無料でインスタントメッセージング、音声通話、ビデオ通話ができるアプリケーションで、すべてのスマートフォン（iPhone、Android、Windows Phone、Blackberry、Nokia）と PC で利用可能です。Adobe Campaign では、LINE メッセージを送信できます。
 

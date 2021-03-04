@@ -7,15 +7,15 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 99%
 
 ---
 
 
-# ワークフローの監視{#supervising-workflows}
+# 使用例：ワークフロー{#supervising-workflows}を監督する
 
 この使用例では、一連のワークフローの状態（一時停止、停止、エラーあり）を監視するワークフローの作成について詳しく説明します。
 

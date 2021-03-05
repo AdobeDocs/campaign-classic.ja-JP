@@ -7,9 +7,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '4031'
+source-wordcount: '4027'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 このドキュメントでは、Adobe Campaignデータモデルを設計する際の主な推奨事項の概要を説明します。
 
-キャンペーンの組み込みテーブルとそのやり取りについての詳細は、[Campaign Classicデータモデル](../../configuration/using/about-data-model.md)の節を参照してください。
+キャンペーンの組み込みテーブルとそのやり取りについての詳細は、[このセクション](../../configuration/using/about-data-model.md)を参照してください。
 
 キャンペーンスキーマを使い始めるには、[このドキュメント](../../configuration/using/about-schema-reference.md)を読んでください。 [このドキュメント](../../configuration/using/about-schema-edition.md)のAdobe Campaignデータベースの概念データモデルを拡張するための拡張スキーマの設定方法を説明します。
 
@@ -148,7 +148,7 @@ Adobe Campaignの主キーは、あらかじめ用意されているすべての
 
 主キーをautoPKとしてAdobe Campaignしてカスタムテーブルを作成する場合は、カスタム専用シーケンスをそのテーブルに系統的に関連付ける必要があります。
 
-デフォルトでは、カスタムシーケンスの値は+1,000 ～ +2.1BBです。 技術的には、除外idを有効にすることで、4BBのフルレンジを取得できます。 この値は注意して使用し、負の数値から正の数値に渡すと1つのIDが失われます。通常、生成されたSQLクエリでは、レコード0はAdobe Campaign Classicによって無視されます。
+デフォルトでは、カスタムシーケンスの値は+1,000 ～ +2.1BBです。 技術的には、除外idを有効にすることで、4BBのフルレンジを取得できます。 この値は注意して使用し、負の数値から正の数値に渡すと1つのIDが失われます。通常、生成されたSQLクエリのAdobe Campaignではレコード0が無視されます。
 
 **関連トピック：**
 * **シーケンスの自動生成**&#x200B;機能について詳しくは、[このドキュメント](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html)を参照してください。

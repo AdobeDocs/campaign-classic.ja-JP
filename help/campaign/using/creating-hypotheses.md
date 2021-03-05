@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: 仮説の作成
-description: 仮説の作成
+description: キャンペーンResponse Managerで仮説を作成する方法を学びます。
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 100%
+source-wordcount: '1115'
+ht-degree: 86%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 仮説を計算できるのは、マーケティングキャンペーンが開始され、受信者に配信が届いた後です。仮説がオファーの提案に基づく場合、オファーの提案は少なくとも提示済みでアクティブである必要があります。オファーと配信の仮説は、**[!UICONTROL 測定の仮説]**&#x200B;フォルダーで、仮説テンプレートをもとに作成します。ただし、キャンペーンの開始前に配信またはキャンペーンで直接仮説を参照することもできます。この場合、仮説はマーケティングキャンペーンの開始後、実行設定に基づいて自動的に計算されます（詳しくは、[仮説テンプレートの実行設定](../../campaign/using/hypothesis-templates.md#hypothesis-template-execution-settings)を参照）。
 
-## オンザフライでの配信の仮説の作成 {#creating-a-hypothesis-on-the-fly-on-a-delivery}
+## 配信上での仮説の作成{#creating-a-hypothesis-on-the-fly-on-a-delivery}
 
 既存の配信の仮説を作成するには、以下の手順を実行します。
 
@@ -76,11 +76,11 @@ ht-degree: 100%
 
 1. 必要に応じ、設定を変更して仮説を再度開始します。
 
-## キャンペーン配信での仮説の参照 {#referencing-a-hypothesis-in-a-campaign-delivery}
+## キャンペーン配信{#referencing-a-hypothesis-in-a-campaign-delivery}で仮説を参照
 
 キャンペーンの開始前に、マーケティングキャンペーンで仮説を参照できます。この場合、仮説は配信の送信後、仮説テンプレートで定義した実行設定に基づいて自動的に開始されます。配信で仮説を作成するには、次の手順に従います。
 
-1. 「**[!UICONTROL 配信]**」タイプのテンプレートは必要に応じて 1 つまたは複数作成できます。[仮説モデルの作成](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)を参照してください。
+1. 必要に応じて、[このセクション](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)で説明されているように、1つ以上の&#x200B;**[!UICONTROL 配信]**&#x200B;タイプテンプレートを作成できます
 1. マーケティングキャンペーンとターゲティングワークフローを作成します。
 1. 配信ウィンドウで、「**[!UICONTROL 配信測定]**」アイコンをクリックします。
 1. 仮説テンプレートを選択します（モデルで定義したクエリが仮説ウィンドウに表示されます）。
@@ -89,7 +89,7 @@ ht-degree: 100%
 
    ![](assets/response_hypothesis_instance_creation_008.png)
 
-## キャンペーンの配信にデフォルトの仮説を追加する {#adding-a-default-hypothesis-to-deliveries-for-a-campaign}
+## キャンペーン追加{#adding-a-default-hypothesis-to-deliveries-for-a-campaign}の配信に対するデフォルトの仮説
 
 仮説はキャンペーンレベルで直接参照することができます。この場合、仮説はキャンペーンで作成したすべての配信に自動的にリンクされます。手順は次のとおりです。
 
@@ -108,13 +108,13 @@ ht-degree: 100%
 
 仮説の結果は、仮説の「**[!UICONTROL 一般]**」タブと「**[!UICONTROL 反応]**」タブで確認できます（[仮説のトラッキング](../../campaign/using/hypothesis-tracking.md)を参照）。
 
-詳しくは、[例：配信にリンクした仮説の作成](#example--creating-a-hypothesis-linked-to-a-delivery)も参照してください。
+詳しくは、[このサンプル](#example--creating-a-hypothesis-linked-to-a-delivery)を参照してください。
 
-## オファーの仮説の作成 {#creating-a-hypothesis-on-an-offer}
+## オファーに仮説を作成する{#creating-a-hypothesis-on-an-offer}
 
 オファーの提案の仮説を作成する方法は、オンザフライ配信の仮説の場合と同様です。仮説を実行できるのは、オファーがアクティブな間です。計算期間は、オファーの提案の日付に基づきます。仮説で受信者を購入にリンクできる場合、許可される可能性が高いオファーの提案のステータスを自動的に変更できます（詳しくは、[トランザクション](../../campaign/using/hypothesis-templates.md#transactions)を参照）。
 
-1. [仮説モデルの作成](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)の説明に従って、「**[!UICONTROL オファー]**」タイプのモデルを 1 つまたは複数作成します。
+1. [このセクション](../../campaign/using/hypothesis-templates.md#creating-a-hypothesis-model)で説明するように、1つ以上の&#x200B;**[!UICONTROL オファー]**&#x200B;タイプモデルを作成します。
 1. **[!UICONTROL キャンペーン管理／測定の仮説]**&#x200B;ノードに移動します。
 1. 前に作成したモデルを選択し、「**[!UICONTROL オファー]**」タイプの仮説を作成します。
 
@@ -138,11 +138,11 @@ ht-degree: 100%
 
    仮説テンプレートで「**[!UICONTROL オファーの提案ステータスを更新]**」オプションを有効にしてある場合は、オファーの提案ステータスが自動的に変更されるので、キャンペーンの効果についてフィードバックを得ることができます（詳しくは、[トランザクション](../../campaign/using/hypothesis-templates.md#transactions)を参照）。
 
-## 例：配信にリンクした仮説の作成 {#example--creating-a-hypothesis-linked-to-a-delivery}
+## 例：配信{#example--creating-a-hypothesis-linked-to-a-delivery}にリンクされた仮説を作成する
 
-この例では、配信にリンクした仮説を作成します。この仮説は、前に作成したモデルに基づきます（[例：配信の仮説テンプレートの作成](../../campaign/using/hypothesis-templates.md#example--creating-a-hypothesis-template-on-a-delivery)）。モデルから継承されたクエリを編集し、購入テーブルの特定の品についての仮説を作成します。
+この例では、配信にリンクした仮説を作成します。この仮説は、前に作成したモデルに基づいています（[このサンプル](../../campaign/using/hypothesis-templates.md#example--creating-a-hypothesis-template-on-a-delivery)を参照）。 モデルから継承されたクエリを編集し、購入テーブルの特定の品についての仮説を作成します。
 
-1. キャンペーンと配信を作成します（詳しくは、[キャンペーンの作成](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)を参照）。
+1. キャンペーンと配信を作成します(詳しくは、[マーケティングキャンペーンの作成](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)を参照してください)。
 
    この例では、ダイレクトメールタイプの配信を使用します。
 
@@ -174,7 +174,7 @@ ht-degree: 100%
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. ターゲティングワークフローを開始し、キャンペーンが終了するまで必要なチェックを実行します（詳しくは、[配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)を参照）。
+1. ターゲットワークフローを起動し、キャンペーンが完了するまで必要なチェックを実行します（詳しくは、[このセクション](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)を参照）。
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 

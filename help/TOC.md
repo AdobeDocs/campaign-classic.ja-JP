@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: ドキュメント
 translation-type: tm+mt
-source-git-commit: 14513d5ecbfdd5637b764c8f19bc01358e63c130
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2391'
 ht-degree: 61%
 
 ---
@@ -237,10 +237,12 @@ ht-degree: 61%
       + [マーケティングキャンペーンの設計](campaign/using/designing-marketing-campaigns.md)
       + [マーケティングキャンペーンへのアクセス](campaign/using/accessing-marketing-campaigns.md)
    + キャンペーンのオーケストレーション{#orchestrate-campaigns}
-      + [マーケティングキャンペーンの設定](campaign/using/setting-up-marketing-campaigns.md)
-      + [マーケティングキャンペーンテンプレート](campaign/using/marketing-campaign-templates.md)
-      + [マーケティングキャンペーン配信](campaign/using/marketing-campaign-deliveries.md)
-      + [マーケティングキャンペーンの承認](campaign/using/marketing-campaign-approval.md)
+      + [マーケティングキャンペーンの使い始めに](campaign/using/setting-up-marketing-campaigns.md)
+      + [テンプレートの作成と設定](campaign/using/marketing-campaign-templates.md)
+      + [追加配信](campaign/using/marketing-campaign-deliveries.md)
+      + [オーディエンスの選択](campaign/using/marketing-campaign-target.md)
+      + [ドキュメントとアセットの管理](campaign/using/marketing-campaign-assets.md)
+      + [承認の設定と管理](campaign/using/marketing-campaign-approval.md)
       + [キャンペーンの監視](campaign/using/marketing-campaign-monitoring.md)
       + [プロバイダー、在庫、予算](campaign/using/providers--stocks-and-budgets.md)
    + タスク、リソースおよび予算 {#tasks--resources-and-budgets}

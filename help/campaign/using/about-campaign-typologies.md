@@ -7,9 +7,9 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,7 @@ Adobe Campaign では、次の 4 種類のタイポロジルールをデザイ�
 
 ### タイポロジルールを使用した疲労管理の設定方法
 
-このビデオでは、タイポロジルールを活用して Adobe Campaign Classic で疲労管理を実装する方法を説明します。
+このビデオでは、タイポロジルールを活用して Adobe Campaign で疲労管理を実装する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
 
@@ -78,7 +78,7 @@ Adobe Campaign では、次の 4 種類のタイポロジルールをデザイ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
 
-Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 
 **関連トピック**
 

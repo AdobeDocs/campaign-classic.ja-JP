@@ -7,17 +7,17 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 100%
+source-wordcount: '258'
+ht-degree: 93%
 
 ---
 
 
-# マーケティングキャンペーンの監視 {#monitoring-marketing-campaigns}
+# マーケティングキャンペーンの監視{#monitoring-marketing-campaigns}
 
-## キャンペーントラッキング {#tracking-a-campaign}
+## キャンペーンの追跡{#tracking-a-campaign}
 
 キャンペーンごとに、「**[!UICONTROL 監査]**」タブを使用して、すべてのジョブとそのステータスを表示できます。このサブタブから次の情報にアクセスできます。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
-* 「**[!UICONTROL タスク]**」サブタブには、キャンペーンにリンクされているすべてのタスクがまとめられます。このビューを使用して、タスクを編集または削除できます。タスクは MRM アプリケーションで使用できます。詳しくは、[タスクの作成と管理](../../campaign/using/creating-and-managing-tasks.md)を参照してください。
+* 「**[!UICONTROL タスク]**」サブタブには、キャンペーンにリンクされているすべてのタスクがまとめられます。このビューを使用して、タスクを編集または削除できます。タスクは MRM アプリケーションで使用できます。詳しくは、[この節](../../campaign/using/creating-and-managing-tasks.md)を参照してください。
 
    ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
@@ -49,10 +49,10 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->配信の詳細に関連する情報は、[メッセージの送信](../../delivery/using/about-message-tracking.md)の節で説明しています。
+>配信の詳細に関する情報は、[このセクション](../../delivery/using/about-message-tracking.md)のセクションで確認できます。
 
 ## 実行のトラッキング {#execution-tracking}
 
 Adobe Campaign のホームページから「**[!UICONTROL 配信]**」をクリックして、配信のステータスを調べることができます。[配信トラッキング](#delivery-tracking)を参照してください。
 
-キャンペーンで実行されるプロセスに関連する情報は、キャンペーンの&#x200B;**[!UICONTROL 編集／「監査」]**&#x200B;タブに収集されます。このタブにキャンペーンの配信のリストを表示できます。[キャンペーンのトラッキング](#tracking-a-campaign)を参照してください。
+キャンペーンで実行されるプロセスに関連する情報は、キャンペーンの&#x200B;**[!UICONTROL 編集／「監査」]**&#x200B;タブに収集されます。このタブにキャンペーンの配信のリストを表示できます。[詳細情報](#tracking-a-campaign)。

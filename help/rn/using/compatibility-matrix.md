@@ -6,9 +6,9 @@ description: Campaign Classic 互換性マトリックス
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 07a13f206ada24dbfe54be754afe4f97834a23e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 </tbody>
 </table>
 
-## Web サーバー{#WebServers}
+## web サーバー{#WebServers}
 
 <table>
 <tbody>
@@ -180,13 +180,13 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr>
 <td>Microsoft Dynamics コネクタ</td>
 <td>
-<p>Web API：Dynamics 365 オンプレミスおよびオンライン</p>
+<p>web API：Dynamics 365 オンプレミスおよびオンライン</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## Federated Data Access (FDA){#FederatedDataAccessFDA}
+## Federated Data Access（FDA）{#FederatedDataAccessFDA}
 
 <table>
 <tbody>
@@ -327,5 +327,5 @@ Internet Explorer 11 はサポートされています。
 
 * [Campaign Classic リリースノート](../../rn/using/latest-release.md)
 * [インストールガイド](../../installation/using/general-architecture.md)
-* [廃止された機能およびシステム](../../rn/using/deprecated-features.md)
+* [非推奨（廃止予定）になった機能およびシステム](../../rn/using/deprecated-features.md)
 * [ビルドアップグレード手順](../../production/using/build-upgrade.md)

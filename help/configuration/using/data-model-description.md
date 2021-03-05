@@ -2,14 +2,14 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classicデータモデルの説明
-description: 本ドキュメントでは、Adobe Campaign Classicのデータモデルについて説明します。
+description: このドキュメントでは、Adobe Campaignデータモデルについて説明します。
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2379'
 ht-degree: 2%
 
 ---

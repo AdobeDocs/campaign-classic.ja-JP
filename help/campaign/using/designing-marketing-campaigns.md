@@ -1,29 +1,29 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: マーケティングキャンペーンの設計
+title: マーケティングキャンペーンの設計と実行
 description: マーケティングキャンペーンを定義、最適化、実行、分析します。
 audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '443'
+ht-degree: 92%
 
 ---
 
 
-# マーケティングキャンペーンの設計{#designing-marketing-campaigns}
+# マーケティングキャンペーンの設計と実行{#designing-marketing-campaigns}
 
-Adobe Campaign では、コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行および分析できます。Adobe Campaign により、マーケティング戦略の指示や実行を一元的におこなうことができます。詳しくは、[キャンペーンへのアクセス](../../campaign/using/accessing-campaigns.md)および[キャンペーンの設定](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
+Adobe Campaign では、コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行および分析できます。Adobe Campaign により、マーケティング戦略の指示や実行を一元的におこなうことができます。詳しくは、[アクセスキャンペーン](../../campaign/using/accessing-campaigns.md)および[マーケティングキャンペーンの作成](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
 
 また、**マーケティングリソース管理（MRM）**&#x200B;モジュールでは、関連するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調モードで制御できます。マーケティングリソース管理では、社内および社外のプロセス、リソース、マーケティングキャンペーンの管理に加えて、サードパーティ（エージェントや印刷業者など）との関係性も最適化および調整できます。詳しくは、[この節](../../campaign/using/about-marketing-resource-management.md)を参照してください。
 
 >[!NOTE]
 >
->Adobe Campaign のコア機能について詳しくは、[はじめに](../../platform/using/about-adobe-campaign-classic.md)の節を参照してください。\
+>Adobe Campaignのコア機能について詳しくは、[このセクション](../../platform/using/about-adobe-campaign-classic.md)を参照してください。\
 >様々なチャネルを使用した母集団のターゲティング、メッセージのパーソナライズおよびメッセージ配信に関連する機能について詳しくは、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。
 
 ![](assets/do-not-localize/how-to-video.png) [マーケティングキャンペーンの主要概念をビデオで確認](#video)
@@ -62,7 +62,7 @@ Adobe Campaign では、コミュニケーションおよびマーケティン�
 
    配信の概要は、配信の内容を構造的に記述したものです。すべての配信は、関連するオファー、添付するドキュメント、店舗へのリンクなどを含む配信の概要を参照できます。選択した配信の概要に従って、配信内でオファーを参照できます。
 
-   詳しくは、[配信の概要からのリンク済みリソースの関連付けと構造化](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)を参照してください。
+   詳しくは、[こちらの節](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)を参照してください。
 
 ## チュートリアル {#video}
 

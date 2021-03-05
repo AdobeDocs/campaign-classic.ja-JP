@@ -1,13 +1,13 @@
 ---
-keywords: Campaign  Classic;ホーム;人気のトピック
+keywords: Campaign Classic;ホーム;人気のトピック
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: tm+mt
-source-wordcount: '296'
+workflow-type: ht
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 新着情報
 
-* **[IMS／Adobe ID を使用した接続最新のビルドにアップグレードします。](integrations/using/about-adobe-id.md)**<br/>IMS を使用して Campaign に接続する場合は、** 2021 年 3 月 31 日&#x200B;**以降、Campaign に接続できるようにするにはアップグレードが必要です。
+* **[IMS/Adobe ID を使用した接続最新のビルドにアップグレードします。](integrations/using/about-adobe-id.md)**<br/>IMS を使用して Campaign に接続する場合、** 2021 年 3 月 31 日&#x200B;**以降、Campaign に接続できるようにするにはアップグレードが必要です。
 
 * **[Campaign インスタンスのセキュリティ保護](https://helpx.adobe.com/jp/campaign/kb/gold-standard-upgrade.html)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します。
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 | 便利なページ | 開発者向けリソース |
 |---|---|
-| [リリースノート](/help/rn/using/latest-release.md) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/jp/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [リリースノート](/help/rn/using/latest-release.md) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [ハウツービデオ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
 | [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [Campaign の概要](platform/using/about-adobe-campaign-classic.md) | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/acc-implementation.html) |

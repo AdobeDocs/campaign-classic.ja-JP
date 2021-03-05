@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 425b2e5748703a8349b6f70968d1ef4c71f72b21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 Campaign Classic 機能の差し迫った削除／置換を伝達するため、次の規則が適用されます。
 
 * まず、廃止予定のお知らせが来ます。非推奨（廃止予定）の機能は引き続き既存のユーザーに提供できサポートされますが、それ以上の機能強化やドキュメント化はおこなわれません。
-* 非推奨（廃止予定）の機能は、以下のリリースで最も早く削除されます。削除の実際のターゲット日は、このページで発表されます。
+* 非推奨（廃止予定）の機能は、以下のリリースで最も早く削除されます。実際の削除予定日は、このページで発表されます。
 
 このプロセスにより、顧客は、実際に削除する前に、新しいバージョンや非推奨（廃止予定）の機能の後継バージョンに実装を適応させるために、少なくとも 1 つのリリースサイクルを提供できます。
 
@@ -47,10 +47,10 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
     <tr>
   <td>配信品質の技術的監視レポート<br></td>
-   <td><p>キャンペーン21.1リリース以降、Technical Deliverability Monitoring Reportは非推奨となりました。</p>
-   <p>必要に応じて、このレポートを毎日電子メールで機能削除日まで受け取ることができます。 リクエストするには、特定の<a href="https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">サポートケース</a>を開き、レポートの送信先のインスタンス名と電子メールアドレスを指定します。</p> 
-   <p>Adobeでは、インスタンスの配信品質のパフォーマンスを監視するための最適なツールを定義する際に、配信品質チームに相談することをお勧めします。</p>
-  <p><em>ターゲットの削除日：2021年末</em></p>
+   <td><p>Campaign 21.1 リリース以降、配信品質の技術的監視レポートは非推奨となりました。</p>
+   <p>必要に応じて、削除予定日まで、このレポートを E メールで毎日受け取ることができます。レポートの送信をリクエストするには、特定の<a href="https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">サポートケース</a>を開き、インスタンス名と送信先の E メールアドレスを指定します。</p> 
+   <p>インスタンスの配信品質パフォーマンスを監視するための最適なツールを定義する際に、配信品質チームに相談することをお勧めします。</p>
+  <p><em>削除予定日：2021 年末</em></p>
   </td>
  </tr>
   <tr>
@@ -59,8 +59,8 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <ul>
    <li>SOAP API - オンプレミス：2007、2015、2016</li>
    <li>SOAP API - オンライン：2015、2016</li>
-   <li>Web API - Microsoft Dynamics CRM オンプレミス：2016、2016 Update 1</li>
-   <li>Web API - Microsoft Dynamics CRM オンライン：2016、2016 Update 1</li>
+   <li>web API - Microsoft Dynamics CRM オンプレミス：2016、2016 Update 1</li>
+   <li>web API - Microsoft Dynamics CRM オンライン：2016、2016 Update 1</li>
    <li>Oracle オンデマンド API</li>
    </ul>
   <p><em>削除予定日：2021 年 4 月</em></p>
@@ -143,7 +143,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <td>Campaign 18.10 リリースより、予測マーケティング機能は使用できなくなりました。</td>
   </tr> 
   <tr> 
-   <td>Web アプリケーション - マイクロサイト</td>
+   <td>web アプリケーション - マイクロサイト</td>
    <td>Campaign 18.10 リリースより、マイクロサイトは使用できなくなりました。Adobe Campaign 構成ファイルの専用ドメインのみにアクセスを制限することでセキュリティを向上させ、DNS エイリアスを使用して Campaign でパーソナライズされた URL を使用することができます。<a href="https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html">詳細情報</a></td>
   </tr> 
   <tr> 
@@ -182,7 +182,7 @@ Campaign Classic では、次のシステムが非推奨（廃止予定）にな
 
 ### クライアントコンソール {#client-console-eol}
 
-Adobe Campaign Classic クライアントコンソールは、次のシステムでは実行できなくなりました。エディターで非推奨になっています。Campaign クライアントコンソールをこれらのバージョンのいずれかで実行している場合は、削除のターゲット日より前に最新バージョンにアップグレードする必要があります。[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
+Adobe Campaign Classic クライアントコンソールは、次のシステムでは実行できなくなりました。エディターで非推奨になっています。Campaign クライアントコンソールをこれらのバージョンのいずれかで実行している場合は、削除予定日より前に最新バージョンにアップグレードする必要があります。[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
 
 * Windows Server 2003、2008、2008 R2
 * Windows 7、XP、Vista
@@ -201,7 +201,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 * Windows Server 2008。[詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/1163)
 * SLES 11。[詳細情報](https://www.suse.com/lifecycle)
 
-### Web サーバー {#web-server-eol}
+### web サーバー {#web-server-eol}
 
 19.1 Spring リリースより、Adobe Campaign は次の WEB サーバーへの対応を終了します。
 
@@ -213,7 +213,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 19.1 Spring リリースより、Adobe Campaign は次のツールへの対応を終了します。
 
 * Java JDK 7。[詳細情報](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
-* Libre Office 3.5／4.3／5.x（他のツールに埋め込まれた場合を除く）。[詳細情報](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
+* Libre Office 3.5/4.3/5.x（他のツールに埋め込まれた場合を除く）。[詳細情報](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### データベースエンジン {#dbe-eol}
 

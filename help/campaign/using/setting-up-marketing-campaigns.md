@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: マーケティングキャンペーンの設定
-description: マーケティングキャンペーンの設定
+title: マーケティングキャンペーンの作成
+description: マーケティングキャンペーンを作成し、実行する方法を学びます。
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 100%
+source-wordcount: '1294'
+ht-degree: 92%
 
 ---
 
 
-# マーケティングキャンペーンの設定{#setting-up-marketing-campaigns}
+# マーケティングキャンペーンの使い始めに{#setting-up-marketing-campaigns}
 
 キャンペーンには、アクション（配信）とプロセス（ファイルのインポートまたは抽出）だけでなく、マーケティングドキュメントや配信の概要といったリソースも含まれます。これらはマーケティングキャンペーンで使用されます。キャンペーンはプログラムの一部で、プログラムは 1 つのキャンペーンプランに含まれます。
 
@@ -23,33 +23,21 @@ ht-degree: 100%
 
 マーケティングキャンペーンを作成するには：
 
-1. キャンペーンの作成：キャンペーンとその特性（ラベル、タイプ、開始日と終了日、予算、関連リソース、マネージャー、参加者）を確認します。
+1. キャンペーンの作成：キャンペーンとその特性（ラベル、タイプ、開始日と終了日、予算、関連リソース、マネージャー、参加者）を確認します。[詳細情報](#creating-a-campaign)。
 
-   [キャンペーンの作成](#creating-a-campaign)を参照してください。
+1. ターゲット母集団の定義：ターゲット設定クエリを使用してワークフローを作成します。[詳細情報](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)。
 
-1. ターゲット母集団の定義：ターゲット設定クエリを使用してワークフローを作成します。
+1. 配信の作成：チャネルを選択し、送信するコンテンツを定義します。[詳細情報](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries)。
 
-   [ターゲット母集団の選択](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population)を参照してください。
+1. 配信を承認します。[詳細情報](../../campaign/using/marketing-campaign-approval.md)。
 
-1. 配信の作成：チャネルを選択し、送信するコンテンツを定義します。
+1. 配信を監視します。[詳細情報](../../campaign/using/marketing-campaign-monitoring.md)。
 
-   [配信の作成](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries)を参照してください。
+1. キャンペーンと関連コストを計画します。[詳細情報](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)。
 
-1. 配信を承認します。
+これらの手順が完了したら、配信を開始し（[このセクション](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)を参照）、配信に関するデータ、プロセス、情報を確認し、必要に応じて、関連ドキュメントを管理します（[このセクション](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)を参照）。 また、キャンペーンと配信の処理段階の実行を追跡することもできます（[このセクション](../../campaign/using/marketing-campaign-monitoring.md)を参照）。
 
-   [承認プロセス](../../campaign/using/marketing-campaign-approval.md#approval-process)を参照してください。
-
-1. 配信を監視します。
-
-   [監視](../../campaign/using/marketing-campaign-monitoring.md)を参照してください。
-
-1. キャンペーンと関連コストを計画します。
-
-   [サービスプロバイダーとそのコスト構造の作成](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)を参照してください。
-
-これらの手順が完了したら、配信を開始し（[配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)を参照）、データ、プロセスおよび配信に関連する情報を確認し、必要に応じて関連ドキュメントを管理します（[関連付けられたドキュメントの管理](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)を参照）。また、キャンペーンと配信の処理フェーズの実行をトラッキングすることもできます（[トラッキング](../../campaign/using/marketing-campaign-monitoring.md)を参照）。
-
-## プランとプログラム階層構造の作成 {#creating-plan-and-program-hierarchy}
+## 計画とプログラムの階層を作成{#creating-plan-and-program-hierarchy}
 
 マーケティングのプランおよびプログラムに関するフォルダー階層構造を設定するには：
 
@@ -71,7 +59,7 @@ ht-degree: 100%
 
 ## キャンペーンの作成 {#creating-a-campaign}
 
-### キャンペーンの追加 {#adding-a-campaign}
+### キャンペーンを追加 {#adding-a-campaign}
 
 キャンペーンのリストからキャンペーンを作成できます。このビューを表示するには、**[!UICONTROL キャンペーン]**&#x200B;ダッシュボードで&#x200B;**[!UICONTROL キャンペーン]**&#x200B;メニューを選択します。
 
@@ -99,7 +87,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_program_planning_filter.png)
 
-### キャンペーンの編集と設定 {#editing-and-configuring-a-campaign}
+### キャンペーンの編集と設定{#editing-and-configuring-a-campaign}
 
 作成したキャンペーンを編集し、パラメーターを定義できます。
 
@@ -115,11 +103,11 @@ ht-degree: 100%
 
 定期的なキャンペーンは、キャンペーンテンプレートの実行スケジュールに従って自動的に作成されるキャンペーンです。
 
-### 繰り返しキャンペーンの作成 {#creating-a-recurring-campaign}
+### 定期的なキャンペーンの作成{#creating-a-recurring-campaign}
 
 繰り返しキャンペーンは、実行するワークフローテンプレートと実行スケジュールを定義する特定のテンプレートから作成します。
 
-#### 繰り返しキャンペーン用のテンプレートの作成 {#creating-the-campaign-template}
+#### 定期キャンペーン用のテンプレートの作成{#creating-the-campaign-template}
 
 1. **[!UICONTROL 繰り返し]**&#x200B;キャンペーンテンプレートを作成します。
 
@@ -193,11 +181,11 @@ ht-degree: 100%
    >ワークフローと関連付けられたスケジュール行の開始日は、次の構文で、ワークフローの変数から取得できます。\
    >`$date(instance/vars/@startPlanningDate)`
 
-### 定期的なキャンペーンの作成 {#creating-a-periodic-campaign}
+### 定期的なキャンペーンを作成する{#creating-a-periodic-campaign}
 
 定期的なキャンペーンは、実行スケジュールに基づいてキャンペーンインスタンスを作成できる、特定のテンプレートをベースとするキャンペーンです。キャンペーンインスタンスは、テンプレートスケジュールで定義された頻度に従って、定期的なキャンペーンテンプレートをベースとして自動的に作成されます。
 
-#### キャンペーンテンプレートの作成 {#creating-the-campaign-template-1}
+#### キャンペーンテンプレート{#creating-the-campaign-template-1}を作成
 
 1. できれば既存のキャンペーンテンプレートを複製して、**[!UICONTROL 定期的]**&#x200B;なキャンペーンテンプレートを作成します。
 
@@ -239,4 +227,4 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
 
-Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

@@ -7,9 +7,9 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 translation-type: tm+mt
-source-git-commit: 4c3a2184ab09b1e1ed91d0127adc636a51808aec
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1011'
 ht-degree: 9%
 
 ---
@@ -23,7 +23,7 @@ Adobe Campaignでは、次の目的でデータスキーマを使用していま
 * Campaign アプリケーション内での異なるデータオブジェクト間リンクの定義
 * 各オブジェクトに含まれている個々のフィールドの定義と記述
 
-キャンペーンの組み込みテーブルとそのやり取りについての詳細は、[Campaign Classicデータモデル](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html)を参照してください。
+キャンペーンの組み込みテーブルとそのやり取りについての詳細は、[このセクション](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html)を参照してください。
 
 ## スキーマの拡張または作成{#extending-or-creating-schemas}
 

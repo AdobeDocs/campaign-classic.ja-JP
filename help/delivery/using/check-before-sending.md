@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 1330d4658d039f27a98535bf9885bffbfa0be3c9
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
@@ -64,7 +64,7 @@ E メール配信で使用するコンテンツがいくつかある場合は、
 
 ### 検証プロセスの実行
 
-Adobe Campaign のオペレーターやグループが関与する包括的な検証プロセスを定義して、ターゲットとメッセージコンテンツの両方を検証できます。キャンペーンの各種プロセス（ターゲット設定、コンテンツ、予算、抽出、配達確認の送信）の監視と制御をもれなく確実に実施します。ユーザーは、それぞれの権限に応じた通知を受け取ります。また、配達確認を受信したり、メッセージを検証または却下することもできます。詳しくは、[この節](../../campaign/using/marketing-campaign-approval.md#approval-process)を参照してください。
+Adobe Campaign のオペレーターやグループが関与する包括的な検証プロセスを定義して、ターゲットとメッセージコンテンツの両方を検証できます。キャンペーンの各種プロセス（ターゲット設定、コンテンツ、予算、抽出、配達確認の送信）の監視と制御をもれなく確実に実施します。ユーザーは、それぞれの権限に応じた通知を受け取ります。また、配達確認を受信したり、メッセージを検証または却下することもできます。詳しくは、[この節](../../campaign/using/marketing-campaign-approval.md)を参照してください。
 
 ### ウェーブの使用
 

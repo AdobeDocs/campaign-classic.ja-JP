@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 95%
 
 ---
 
@@ -26,9 +26,9 @@ Adobe Campaign には、プラットフォームの配信品質のパフォー�
 この機能は、Adobe Campaign の専用パッケージで使用できます。使用するには、このパッケージをインストールする必要があります。インストールしたら、サーバーを再起動してパッケージを有効にします。
 * ホストクライアントおよびハイブリッドクライアントの場合、**配信品質の監視**&#x200B;はアドビのテクニカルサポートおよびコンサルタントがインスタンスに設定します。詳しくは、アドビのアカウント担当者にお問い合わせください。
 
-* オンプレミスでのインストールの場合は、**[!UICONTROL ツール]**／**[!UICONTROL 詳細設定]**／**[!UICONTROL パッケージをインポート]**&#x200B;メニューから&#x200B;**[!UICONTROL 配信品質の監視 (E メールの配信品質)]** パッケージをインストールする必要があります。詳しくは、[Campaign Classic 標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+* オンプレミスでのインストールの場合は、**[!UICONTROL ツール]**／**[!UICONTROL 詳細設定]**／**[!UICONTROL パッケージをインポート]**&#x200B;メニューから&#x200B;**[!UICONTROL 配信品質の監視 (E メールの配信品質)]** パッケージをインストールする必要があります。詳しくは、[キャンペーン組み込みパッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
-Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!UICONTROL 配信品質の更新]**&#x200B;ワークフローが管理します。このワークフローは、デフォルトですべてのインスタンスにインストールされ、バウンスメールの検証ルールのリスト、ドメインのリストおよび MX のリストを初期化できます。**[!UICONTROL 配信品質の監視 (E メールの配信品質)]** パッケージをインストールすると、このワークフローが毎日夜間に実行されてルールリストを定期的に更新し、プラットフォームの配信品質の積極的管理が可能になります。
+Adobe Campaignでは、**配信品質監視**&#x200B;は、**[!UICONTROL 配信品質の更新]**&#x200B;ワークフローで管理されます。 このワークフローは、デフォルトですべてのインスタンスにインストールされ、バウンスメールの検証ルールのリスト、ドメインのリストおよび MX のリストを初期化できます。**[!UICONTROL 配信品質の監視 (E メールの配信品質)]** パッケージをインストールすると、このワークフローが毎日夜間に実行されてルールリストを定期的に更新し、プラットフォームの配信品質の積極的管理が可能になります。
 
 ## 背景 {#background}
 

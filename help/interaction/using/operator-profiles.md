@@ -7,7 +7,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 100%
@@ -22,7 +22,7 @@ ht-degree: 100%
 * **[!UICONTROL オファーマネージャー]**：オファーの作成と管理。ワークフローでオファーを使用する場合は、そのワークフローを実行するために、**[!UICONTROL 管理者]**&#x200B;または&#x200B;**[!UICONTROL オファーマネージャー]**&#x200B;のオペレーターグループにオペレーターが属している必要があります。
 * **[!UICONTROL 配信責任者]**：オファーの承認と使用
 
-インタラクションに特化したオペレーターを作成する手順は、このプラットフォームの他のすべてのオペレーターを作成する手順と同じです。詳しくは、[この節](../../platform/using/access-management.md#creating-an-operator)を参照してください。権限は、オペレーターの作成時に設定します。
+インタラクションに特化したオペレーターを作成する手順は、このプラットフォームの他のすべてのオペレーターを作成する手順と同じです。詳しくは、[この節](../../platform/using/access-management.md)を参照してください。権限は、オペレーターの作成時に設定します。
 
 ## オファーマネージャー {#offer-manager}
 

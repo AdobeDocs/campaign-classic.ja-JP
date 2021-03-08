@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: add0efb4efd5a37129c649b942799622947f3143
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '4112'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -27,47 +27,47 @@ ht-degree: 95%
 
 ## 2021 年 2 月 {#release-21.1}
 
-**21.1リリースに伴うドキュメントの更新**
+**21.1 リリースに伴うドキュメントのアップデート**
 
-新しい&#x200B;**Eメールフィードバックサービス**&#x200B;機能（プライベートベータ版）は、[ここ](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service)にドキュメント化されています。
+新しい **E メールフィードバックサービス**&#x200B;機能（プライベートベータ版）は、[ここ](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service)に記載されています。
 
-**サーバー設定ファイル**&#x200B;セクションが更新され、キャンペーンがIMSを使用して別のサービスに接続するために必要な設定パラメーターが追加されました。 [詳細を表示](../../installation/using/the-server-configuration-file.md#ims)
+**サーバー設定ファイル**&#x200B;の節が更新され、キャンペーンが IMS を使用して別のサービスに接続するために必要な設定パラメーターが追加されました。[詳細を表示](../../installation/using/the-server-configuration-file.md#ims)
 
-配信のステータスのリストで、**サービスプロバイダー**&#x200B;が考慮するの説明が更新されました。このステータスは、[電子メールフィードバックサービス](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service)を使用して送信される電子メール配信にも使用されるようになりました。 [詳細を表示](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
+配信ステータスのリストで、**サービスプロバイダーで受信済み**&#x200B;の説明が更新されました。このステータスは、[E メールフィードバックサービス](../../delivery/using/sending-with-enhanced-mta.md#email-feedback-service)を使用して送信される E メール配信にも使用されるようになりました。[詳細を表示](../../delivery/using/delivery-statuses.md#list-delivery-statuses)
 
-新しいログオン画面でAdobe Campaignに接続するために使用できるキーボードショートカットがドキュメントに記載されるようになりました。 [詳細を表示](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
+新しいログイン画面で Adobe Campaign に接続するために使用できるキーボードショートカットがドキュメントに記載されるようになりました。[詳細を表示](../../platform/using/launching-adobe-campaign.md#connecting-to-adobe-campaign)
 
 **その他のアップデート**
 
-ワークフローを使用したA/Bテストの実行方法に関する詳細情報を含む新しい節を追加しました。 [詳細を表示](../../delivery/using/get-started-a-b-testing.md)
+ワークフローを使用して A/B テストを実行する方法に関する詳細情報が記載された新しい節が追加されました。[詳細を表示](../../delivery/using/get-started-a-b-testing.md)
 
-Adobe Campaign拡張MTAセクションは[ここ](../../delivery/using/sending-with-enhanced-mta.md)に移動しました。
+Adobe Campaign Enhanced MTA の節は[ここ](../../delivery/using/sending-with-enhanced-mta.md)に移動しました。
 
-[!DNL Campaign Classic]のトラッキング機能の概要を示す新しいページが追加されました。 [詳細を表示](../../delivery/using/about-message-tracking.md)
+[!DNL Campaign Classic] のトラッキング機能の概要を説明した新しいページが追加されました。[詳細を表示](../../delivery/using/about-message-tracking.md)
 
-トラッキングに関連する一般的な問題の解決に役立つトラブルシューティングの節が追加されました。 [詳細を表示](../../delivery/using/tracking-troubleshooting.md)
+トラッキングに関連する一般的な問題の解決に役立つトラブルシューティングの節が追加されました。[詳細を表示](../../delivery/using/tracking-troubleshooting.md)
 
-**電子メール**&#x200B;の送信セクションが再編成され、新しいサブセクションで明確化されました。 [詳細を表示](../../delivery/using/sending-messages.md)
+**E メールの送信**&#x200B;の節が再編成され、新しいサブセクションで明確化されました。[詳細を表示](../../delivery/using/sending-messages.md)
 
-パーソナライズ可能な電子メールにリンクを追加する方法、およびトラッキングをサポートする情報を追加しました。 [詳細を表示](../../delivery/using/tracking-personalized-links.md)。
+トラッキングをサポートするパーソナライズ可能な E メールにリンクを追加する方法に関する情報を追加しました。[詳細を表示](../../delivery/using/tracking-personalized-links.md)。
 
 ## 2021 年 1 月 {#jan-2021}
 
-**[!UICONTROL 分岐]**&#x200B;アクティビティの節にベストプラクティスの記述が補われました。 [詳細を表示](../../workflow/using/fork.md)
+**[!UICONTROL 分岐]**&#x200B;アクティビティの節にベストプラクティスの記述が補われました。[詳細を表示](../../workflow/using/fork.md)
 
-**CRM コネクタ**&#x200B;の節の更新、改善、再構成がおこなわれました。 [詳細を表示](../../platform/using/crm-connectors.md)。
+**CRM コネクタ**&#x200B;の節の更新、改善、再構成がおこなわれました。[詳細を表示](../../platform/using/crm-connectors.md)。
 
-**Adobe Campaign と Microsoft Dynamics** を接続する手順が専用のページで詳しく説明されています。 [詳細を表示](../../platform/using/crm-ms-dynamics.md)。
+**Adobe Campaign と Microsoft Dynamics** を接続する手順が専用のページで詳しく説明されています。[詳細を表示](../../platform/using/crm-ms-dynamics.md)。
 
-Oracle オンデマンド API は、Campaign に接続された CRM として非推奨となりました。 [詳細を表示](../../rn/using/deprecated-features.md)。
+Oracle オンデマンド API は、Campaign に接続された CRM として非推奨となりました。[詳細を表示](../../rn/using/deprecated-features.md)。
 
-Adobe Campaign のインスタンスで使用されている埋め込み Tomcat Web サーブレットの現在のバージョンを調べる方法については、[こちら](../../production/using/locate-tomcat-version.md)を参照してください。
+Adobe Campaign のインスタンスで使用されている埋め込み Tomcat web サーブレットの現在のバージョンを調べる方法については、[こちら](../../production/using/locate-tomcat-version.md)を参照してください。
 
-テクニカルワークフローと関連するパッケージのリストが増補され、1 つのページにまとめられました。 [詳細を表示](../../workflow/using/about-technical-workflows.md)
+テクニカルワークフローと関連するパッケージのリストが増補され、1 つのページにまとめられました。[詳細を表示](../../workflow/using/about-technical-workflows.md)
 
-**監視**&#x200B;ガイドのトラブルシューティングの節が再構成され、ランディングページが追加されました。 [詳細を表示](../../production/using/troubleshooting.md)。
+**監視**&#x200B;ガイドのトラブルシューティングの節が再構成され、ランディングページが追加されました。[詳細を表示](../../production/using/troubleshooting.md)。
 
-新しい&#x200B;**データのインポートとエクスポート**&#x200B;の節が、ワークフロー、データ圧縮、暗号化、インポートのベストプラクティスに関する新しいページで利用できます。 [詳細を表示](../../platform/using/get-started-data-import-export.md)
+新しい&#x200B;**データのインポートとエクスポート**&#x200B;の節が、ワークフロー、データ圧縮、暗号化、インポートのベストプラクティスに関する新しいページで利用できます。[詳細を表示](../../platform/using/get-started-data-import-export.md)
 
 ## 2020 年 12 月 {#dec-2020}
 
@@ -140,7 +140,7 @@ Campaign オンプレミスモデル、ホストモデル、およびハイブ�
 
 レポートのプロパティページは、設定を容易にするために再編成され、強化されました。[詳細を表示](../../reporting/using/properties-of-the-report.md)
 
-レガシーバイナリプロトコルから HTTP/2 ベースの APN プロバイダー API に移行する方法の詳細に関する新しいテク二カルノートが作成されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
+レガシーバイナリプロトコルから HTTP/2 ベースの APN プロバイダー API に移行する方法の詳細に関する新しいテクニカルノートが作成されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
 
 ## 2020 年 9 月 {#september-2020}
 
@@ -287,7 +287,7 @@ Adobe Target のダイナミックオファーを Adobe Campaign の E メール
 
 Adobe Campaign で使用できる様々な言語の詳細を説明する新しい節を追加しました。[詳細を表示](../../platform/using/adobe-campaign-workspace.md#languages)
 
-アクセス管理ガイドラインを更新し、ネームド権限に関する詳細な情報が追加されました。[詳細を表示](../../platform/using/access-management.md#named-rights)
+アクセス管理ガイドラインを更新し、ネームド権限に関する詳細な情報が追加されました。[詳細を表示](../../platform/using/access-management-named-rights.md)
 
 ## 2020 年 2 月 {#february-2020}
 
@@ -395,7 +395,7 @@ Adobe Campaign Classic データモデルの基本を説明する新しいドキ
 
 logon() および query() で **HttpServletRequest** を使用する API 呼び出しの例が更新されました。[詳細を表示](../../configuration/using/web-service-calls.md)。
 
-スキーマ定義の **sqlDefault** 属性に関する推奨事項が追加されました。[詳細を表示](../../configuration/using/schema/attribute.md)）。
+スキーマ定義の **sqlDefault** 属性に関する推奨事項が追加されました。[詳細を表示](../../configuration/using/schema/attribute.md)。
 
 Adobe Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（CDP）の統合については、**Adobe Experience Cloud との統合**&#x200B;ガイドで参照されるようになりました。[詳細を表示](../../integrations/using/about-campaign-integrations.md)。
 
@@ -405,7 +405,7 @@ Adobe Campaign とアドビのリアルタイムカスタマーデータプラ�
 
 E メールの送信時に使用する文字エンコーディングの強制適用方法を説明する新しい節が追加されました。[詳細を表示](../../delivery/using/sending-messages.md#character-encoding)
 
-アクセス管理に関する節が更新され、「**プライバシーデータ権限**」が追加されました。[詳細を表示](../../platform/using/access-management.md#named-rights)
+アクセス管理に関する節が更新され、「**プライバシーデータ権限**」が追加されました。[詳細を表示](../../platform/using/access-management-named-rights.md)
 
 パーソナライゼーションフィールドの内容は 1024 文字を超過できないことを明確にする情報が追加されました。[詳細を表示](../../delivery/using/personalization-fields.md)
 

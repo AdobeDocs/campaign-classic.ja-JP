@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 オファーを作成するには、次の手順に従います。
 
-1. **[!UICONTROL キャンペーン]**&#x200B;ウィンドウに移動し、「**[!UICONTROL オファー]**」リンクをクリックします。
+1. 「**[!UICONTROL キャンペーン]**」タブに移動し、「**[!UICONTROL オファー]**」リンクをクリックします。
 
    ![](assets/offer_create_001.png)
 

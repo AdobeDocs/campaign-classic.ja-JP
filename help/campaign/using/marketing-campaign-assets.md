@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 69%
+ht-degree: 67%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 69%
 
    ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* リソースは、マーケティングリソースダッシュボード（**[!UICONTROL キャンペーン]**&#x200B;ウィンドウの「**[!UICONTROL マーケティングリソース]**」リンクからアクセス）で生成されるマーケティングリソースです。
+* リソースは、**[!UICONTROL キャンペーン]**&#x200B;タブの&#x200B;**[!UICONTROL リソース]**&#x200B;リンクを介してアクセスされるマーケティングリソースダッシュボードで生成されるマーケティングリソースです。
 
    ![](assets/s_ncs_user_mkg_resource_ovv.png)
 

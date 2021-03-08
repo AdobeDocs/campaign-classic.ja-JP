@@ -7,10 +7,10 @@ audience: social
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -109,7 +109,7 @@ Facebook の許可リクエスト画面に表示する&#x200B;**[!UICONTROL 利�
 
 Adobe Campaign の Facebook アプリケーションを使用すると、パーソナライズされたコンテンツを Facebook アプリケーションに表示できます。Facebook アプリケーションごとに、Adobe Campaign で Web アプリケーションを作成する必要があります。Facebook Web アプリケーションの作成手順は、次のとおりです。
 
-1. **[!UICONTROL ソーシャルネットワーク]**&#x200B;ウィンドウに移動し、「**[!UICONTROL アプリケーション]**」リンク、「**[!UICONTROL 作成]**」ボタンの順にクリックします。
+1. 「**[!UICONTROL ソーシャルネットワーク]**」タブに移動し、「**[!UICONTROL アプリケーション]**」リンクをクリックしてから、「**[!UICONTROL 作成]**」ボタンをクリックします。
 
    ![](assets/social_webapp_001.png)
 

@@ -7,10 +7,10 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 配信を設定したら、将来の配信で再利用するために、テンプレートとして保存できます。
 
-**キャンペーン**&#x200B;ウィンドウで、選択した配信を開きます。**テンプレートとして保存**&#x200B;ボタンをクリックして、テンプレートに名前を付けてから保存します。
+「**キャンペーン**」タブで、選択した配信を開きます。 **テンプレートとして保存**&#x200B;ボタンをクリックして、テンプレートに名前を付けてから保存します。
 
 ![](assets/dce_save_model.png)
 

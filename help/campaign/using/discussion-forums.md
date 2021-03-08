@@ -7,7 +7,7 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
@@ -95,7 +95,7 @@ Adobe Campaign のオペレーターは、ディスカッションフォーラ�
 
    ![](assets/platform_dashboard_operator_subscr_forums.png)
 
-   個人用ダッシュボードについて詳しくは、[この節](../../platform/using/access-management.md#operators)を参照してください。
+   個人用ダッシュボードについて詳しくは、[この節](../../platform/using/access-management-operators.md)を参照してください。
 
 * フォーラムの購読者を確認するには、メッセージリストの上にある「**[!UICONTROL このディスカッションフォーラムの購読者のリスト]**」リンクをクリックします。
 

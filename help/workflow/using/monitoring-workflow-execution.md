@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '2080'
 ht-degree: 100%
@@ -271,7 +271,7 @@ Campaign Classic インターフェイスを使用すると、事前定義され
 
 1. 表示を追加するフォルダーを右クリックします。
 1. **[!UICONTROL 新規フォルダーを追加]**／**[!UICONTROL 管理]**&#x200B;で、追加する表示を選択します。
-1. フォルダーをツリーに追加したら、元のフォルダーにかかわらずすべてのワークフローが表示されるように、表示として設定していることを確認します。表示の設定方法について詳しくは、[この節](../../platform/using/access-management.md#adding-folders-and-creating-views)を参照してください。
+1. フォルダーをツリーに追加したら、元のフォルダーにかかわらずすべてのワークフローが表示されるように、表示として設定していることを確認します。表示の設定方法について詳しくは、[この節](../../platform/using/access-management-folders.md)を参照してください。
 
 また、これらの表示に加えて、実行ステータスに応じてワークフローのリストをフィルタリングできるフィルターフォルダーを設定できます。手順は次のとおりです。
 

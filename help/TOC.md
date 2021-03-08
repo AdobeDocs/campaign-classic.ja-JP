@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: ドキュメント
 translation-type: tm+mt
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '2391'
+source-wordcount: '2412'
 ht-degree: 61%
 
 ---
@@ -69,10 +69,10 @@ ht-degree: 61%
       + [プロファイルの読み込みと書き出し](platform/using/exporting-and-importing-profiles.md)
       + [リストの作成と管理](platform/using/creating-and-managing-lists.md)
    + データのインポートとエクスポート{#importing-and-exporting-data}
-      + [データのインポートとエクスポートの基礎知識](platform/using/get-started-data-import-export.md)
+      + [データのインポートとエクスポートの基本を学ぶ](platform/using/get-started-data-import-export.md)
       + [ワークフローを使用したデータの読み込みと書き出し](platform/using/import-export-workflows.md)
       + 汎用のインポートとエクスポートを作成{#generic-imports-exports}
-         + [一般的なインポートおよびエクスポートの基礎知識](platform/using/about-generic-imports-exports.md)
+         + [一般的なインポートおよびエクスポートの基本を学ぶ](platform/using/about-generic-imports-exports.md)
          + [テンプレートの読み込みと書き出し](platform/using/creating-import-export-templates.md)
          + [インポートジョブとエクスポートジョブの作成](platform/using/creating-import-export-jobs.md)
          + [読み込みジョブの設定](platform/using/executing-import-jobs.md)
@@ -94,14 +94,18 @@ ht-degree: 61%
       + [クエリの作成手順](platform/using/steps-to-create-a-query.md)
       + [フィルター条件の定義](platform/using/defining-filter-conditions.md)
    + 権限{#permissions}
-      + [アクセス管理](platform/using/access-management.md)
+      + [権限設定を使用する](platform/using/access-management.md)
+      + [演算子の作成と管理](platform/using/access-management-operators.md)
+      + [グループの作成と管理](platform/using/access-management-groups.md)
+      + [ネームド権限を使用した権限の設定](platform/using/access-management-named-rights.md)
+      + [フォルダーへのアクセスの管理](platform/using/access-management-folders.md)
    + データパッケージと定義済みリスト{#administration-basics}
       + [データパッケージ](platform/using/working-with-data-packages.md)
       + [列挙](platform/using/managing-enumerations.md)
    + コネクタ {#connectors}
       + [コネクタについて](platform/using/about-connectors.md)
       + CRM コネクタ{#crm-connectors}
-         + [CRM コネクタの基礎知識](platform/using/crm-connectors.md)
+         + [CRM コネクタの基本を学ぶ](platform/using/crm-connectors.md)
          + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
          + [CRM とのデータの同期](platform/using/crm-data-sync.md)
       + [Adobe Analytics Data コネクタ](platform/using/adobe-analytics-data-connector.md)
@@ -172,7 +176,7 @@ ht-degree: 61%
       + [使用例：条件のシードアドレスを選択](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
       + [使用例：フィールドの置き換えの設定](delivery/using/use-case--configuring-the-field-substitution.md)
    + A/B テスト {#a-b-testing}
-      + [A/Bテストを始める](delivery/using/get-started-a-b-testing.md)
+      + [A/B テストの基本を学ぶ](delivery/using/get-started-a-b-testing.md)
       + [A/Bテストの設定](delivery/using/configuring-a-b-testing.md)
       + 使用例 {#use-case}
          + [この使用例について](delivery/using/a-b-testing-use-case.md)
@@ -201,9 +205,9 @@ ht-degree: 61%
       + [メッセージトラッキングについて](delivery/using/about-message-tracking.md)
       + [トラッキングするリンクの設定方法](delivery/using/how-to-configure-tracked-links.md)
       + パーソナライズされたリンクを追跡{#tracking-personalized-links}
-         + [パーソナライズされたリンクの追跡を開始する](delivery/using/tracking-personalized-links.md)
+         + [パーソナライズされたリンクのトラッキングの基本を学ぶ](delivery/using/tracking-personalized-links.md)
          + [追跡URLの検出](delivery/using/detecting-tracking-urls.md)
-         + [トラッキングの前処理手順](delivery/using/pre-processing-instructions.md)
+         + [トラッキングの前処理の手順](delivery/using/pre-processing-instructions.md)
       + [URLトラッキングオプションの設定](delivery/using/personalizing-url-tracking.md)
       + [トラッキングログへのアクセス](delivery/using/accessing-the-tracking-logs.md)
       + [テスト追跡](delivery/using/testing-tracking.md)
@@ -312,14 +316,14 @@ ht-degree: 61%
       + [概念と方法](reporting/using/concepts-and-methodology.md)
       + [使用例：オンライン調査の回答に関するレポートを表示する](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Webコンテンツの設計{#designing-content}
-   + Web アプリケーション {#web-applications}
-      + [Web アプリケーションの基本を学ぶ](web/using/about-web-applications.md)
+   + web アプリケーション {#web-applications}
+      + [web アプリケーションの基本を学ぶ](web/using/about-web-applications.md)
       + [新しいWebアプリケーションの作成](web/using/creating-a-new-web-application.md)
       + [Webアプリケーションの設計](web/using/designing-a-web-application.md)
       + [使用例：概要を作成する](web/using/use-cases--creating-overviews.md)
       + [Webアプリケーションの翻訳](web/using/translating-a-web-application.md)
       + [Webアプリケーションでの訪問の追跡](web/using/tracking-a-web-application.md)
-      + [Web アプリケーショントラッキングのオプトアウト](web/using/web-application-tracking-opt-out.md)
+      + [web アプリケーショントラッキングのオプトアウト](web/using/web-application-tracking-opt-out.md)
    + HTMLコンテンツの編集{#editing-html-content}
       + [HTML エディターの基本を学ぶ](web/using/about-campaign-html-editor.md)
       + [テンプレート管理](web/using/template-management.md)
@@ -328,11 +332,11 @@ ht-degree: 61%
       + [コンテンツ編集のベストプラクティス](web/using/content-editing-best-practices.md)
       + [ランディングページの作成](web/using/creating-a-landing-page.md)
       + [使用例：電子メール配信の作成](web/using/use-case--creating-an-email-delivery.md)
-   + Web フォーム {#web-forms}
-      + [Web フォームの基本を学ぶ](web/using/about-web-forms.md)
+   + web フォーム {#web-forms}
+      + [web フォームの基本を学ぶ](web/using/about-web-forms.md)
       + [Webフォームテンプレートの使用](web/using/using-a-web-form-template.md)
       + [Webフ追加ォームのフィールド](web/using/adding-fields-to-a-web-form.md)
-      + [Web フォームの静的要素](web/using/static-elements-in-a-web-form.md)
+      + [web フォームの静的要素](web/using/static-elements-in-a-web-form.md)
       + [Webフォームレイアウトの定義](web/using/defining-web-forms-layout.md)
       + [フォームレンダリング](web/using/form-rendering.md)
       + [ページの順序付けの定義](web/using/defining-web-forms-page-sequencing.md)
@@ -340,7 +344,7 @@ ht-degree: 61%
       + [Webフォームの発行](web/using/publishing-a-web-form.md)
       + [Webフォームのプロパティの定義](web/using/defining-web-forms-properties.md)
       + [Webフォームの翻訳](web/using/translating-a-web-form.md)
-      + [ユースケース：Web フォーム](web/using/use-cases--web-forms.md)
+      + [ユースケース：web フォーム](web/using/use-cases--web-forms.md)
    + オンライン調査 {#online-surveys}
       + [調査の基本を学ぶ](web/using/about-surveys.md)
       + [調査を作成するのための主な手順](web/using/getting-started-with-surveys.md)
@@ -388,7 +392,7 @@ ht-degree: 61%
       + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
       + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
 + ワークフローで自動化{#automating-with-workflows}
-   + ワークフローの基礎知識 {#introduction}
+   + ワークフローの基本を学ぶ {#introduction}
       + [ワークフローについて](workflow/using/about-workflows.md)
       + [アクティビティについて](workflow/using/about-activities.md)
       + [ワークフローの作成](workflow/using/building-a-workflow.md)
@@ -458,7 +462,7 @@ ht-degree: 61%
       + [イベントアクティビティについて](workflow/using/about-event-activities.md)
       + [ファイルコレクター](workflow/using/file-collector.md)
       + [ファイル転送](workflow/using/file-transfer.md)
-      + [Web ダウンロード](workflow/using/web-download.md)
+      + [web ダウンロード](workflow/using/web-download.md)
       + [インバウンド E メール](workflow/using/inbound-emails.md)
       + [インバウンド SMS](workflow/using/inbound-sms.md)
    + 使用例 {#use-cases}
@@ -778,8 +782,8 @@ ht-degree: 61%
       + [フォームの編集](configuration/using/editing-forms.md)
       + [フォームの構造](configuration/using/form-structure.md)
    + API {#api}
-      + [Web サービスについて](configuration/using/about-web-services.md)
-      + [Web サービスの呼び出し](configuration/using/web-service-calls.md)
+      + [web サービスについて](configuration/using/about-web-services.md)
+      + [web サービスの呼び出し](configuration/using/web-service-calls.md)
       + [データ指向 API](configuration/using/data-oriented-apis.md)
       + [ビジネス指向 API](configuration/using/business-oriented-apis.md)
       + [SOAP メソッドの実装](configuration/using/implementing-soap-methods.md)
@@ -799,13 +803,13 @@ ht-degree: 61%
       + [ワークフローを使用したプロファイルリストの作成](configuration/using/creating-a-profile-list-with-a-workflow.md)
       + [ワークフローの管理](configuration/using/managing-workflows.md)
       + [レポートの管理](configuration/using/managing-reports.md)
-   + Web トラッキングの設定 {#setting-up-web-tracking}
-      + [Web トラッキングについて](configuration/using/about-web-tracking.md)
-      + [Web トラッキングモード](configuration/using/web-tracking-mode.md)
-      + [Web トラッキングタグ：定義](configuration/using/web-tracking-tag--definition.md)
+   + web トラッキングの設定 {#setting-up-web-tracking}
+      + [web トラッキングについて](configuration/using/about-web-tracking.md)
+      + [web トラッキングモード](configuration/using/web-tracking-mode.md)
+      + [web トラッキングタグ：定義](configuration/using/web-tracking-tag--definition.md)
       + [ステージの設定](configuration/using/setup-stages.md)
       + [追加のパラメーター](configuration/using/additional-parameters.md)
-      + [Web トラッキングタグの作成](configuration/using/creating-web-tracking-tags.md)
+      + [web トラッキングタグの作成](configuration/using/creating-web-tracking-tags.md)
       + [サイトへのタグの挿入](configuration/using/inserting-tags-in-your-site.md)
       + [すべての訪問の収集](configuration/using/collecting-all-visits.md)
       + [匿名トラッキング](configuration/using/anonymous-tracking.md)

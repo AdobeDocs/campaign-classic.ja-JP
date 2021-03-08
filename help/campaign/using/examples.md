@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
 translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1374'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -161,7 +161,7 @@ ht-degree: 100%
 
 #### キャンペーンのパブリッシュ {#publishing-the-campaign}
 
-**キャンペーン**&#x200B;ウィンドウから&#x200B;**キャンペーンパッケージ**&#x200B;を追加します。
+**キャンペーンパッケージ**&#x200B;を&#x200B;**[!UICONTROL キャンペーン]**&#x200B;タブから追加できるようになりました。
 
 1. **[!UICONTROL 参照キャンペーン]**&#x200B;を選択します。パッケージの「**[!UICONTROL 編集]**」タブでは、キャンペーンで使用する&#x200B;**[!UICONTROL 承認モード]**&#x200B;を選択できます。
 

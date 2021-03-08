@@ -7,9 +7,9 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2844'
 ht-degree: 2%
 
 ---
@@ -616,7 +616,7 @@ logInfo("Done");
 
 ### パーソナライズされたレポート{#personalized-reports}
 
-<!--If you want to have the blue banner from v7 (allowing you access to the universes), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
+<!--If you want to have the blue banner from v7 (allowing you access to the tabs), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
 
 ![](assets/migration_reports_1.png)
 -->
@@ -631,7 +631,7 @@ Webアプリケーションファミリには2つあります。
 
 ### 識別されたWebアプリケーション{#identified-web-applications}
 
-レポート（[レポート](#reports)を参照）と同様に、JavaScriptを追加した場合は、必要に応じてチェックし、対応する必要があります。 v7の青いバナー（ユニバーサルを含む）を活用したい場合は、Webアプリケーションを再公開する必要があります。 JavaScriptコードが動作している場合は、v6.xレンダリングエンジンを選択できます。 そうでない場合は、コードを調整しながらv6.0レンダリングエンジンを使用し、次にv6.xレンダリングエンジンを使用します。
+レポート（[詳細](#reports)）と同様に、JavaScriptを追加した場合は、必要に応じてチェックして適応する必要があります。 v7の青いバナー（青いタブを含む）が役に立つようにするには、Webアプリケーションを再公開する必要があります。 JavaScriptコードが動作している場合は、v6.xレンダリングエンジンを選択できます。 そうでない場合は、コードを調整しながらv6.0レンダリングエンジンを使用し、次にv6.xレンダリングエンジンを使用します。
 
 >[!NOTE]
 レンダリングエンジンを選択する手順は、レポートを選択する手順と同じです。 「[パーソナライズされたレポート](#personalized-reports)」を参照してください。

@@ -7,9 +7,9 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '525'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 ### 環境 {#environment}
 
-* データベースエンジンタイプ(DBMS)は変更できません。 例えば、PostgreSQLエンジンからOracleエンジンに切り替えることはできません。 ただし、Oracle8エンジンからOracle10エンジンに切り替えることができます。
+* データベースエンジンタイプ(DBMS)は変更できません。 例えば、PostgreSQLエンジンからOracleエンジンに切り替えることはできません。 ただし、Oracle8のエンジンからOracle10のエンジンに切り替えることができます。
 * 非UnicodeデータベースからUnicodeデータベースに移動することはできません。
 
 ### レコメンデーション {#recommendation}
@@ -77,5 +77,5 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->**internal**&#x200B;パスワードは、すべてのトラッキングサーバーで同一にする必要があります。 詳しくは、[内部識別子](../../installation/using/campaign-server-configuration.md#internal-identifier)と[権限](../../platform/using/access-management.md#about-permissions)についての節を参照してください。
+>**internal**&#x200B;パスワードは、すべてのトラッキングサーバーで同一にする必要があります。 詳しくは、[内部識別子](../../installation/using/campaign-server-configuration.md#internal-identifier)と[権限](../../platform/using/access-management.md)の節を参照してください。
 

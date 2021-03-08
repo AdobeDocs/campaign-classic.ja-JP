@@ -7,7 +7,7 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 571821ce775a7c354d01404d14faee8d2a21c170
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '2561'
 ht-degree: 98%
@@ -191,7 +191,7 @@ Campaign で次のシステムがサポートされるようになりました�
 
 * 独自の Litmus アカウントを使用して、Adobe Campaign で受信ボックスレンダリングをプロビジョニングおよび利用できなくなりました。[詳細情報](../../delivery/using/inbox-rendering.md)。
 
-* フォルダーとビューの区別を明確にするために、ビュー名の色を濃い青から濃いシアンに変更しました。[詳細を表示](../../platform/using/access-management.md#about-views)
+* フォルダーとビューの区別を明確にするために、ビュー名の色を濃い青から濃いシアンに変更しました。[詳細を表示](../../platform/using/access-management-folders.md)
 
 * Campaign Classic は、英国、インドおよびカナダでホストされる Microsoft Dynamics CRM アカウントに接続できるようになりました。これは、Office 365 およびオンプレミス（Dynamics 2015）のデプロイメントタイプに適用されます。
 

@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 450889f845b7c5adad1085d7eba70e23030e6609
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 100%
+source-wordcount: '797'
+ht-degree: 97%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Campaign を使用する際の、プライバシーと同意に関する�
 
 また、データを継続利用するにあたって特定の同意を更新することが必要となる場合もあります。
 
-同意に関して強化されたこれらの要件をマーケティング業界におけるリスクと考えるのではなく、新しく導入された同意要件をブランドエンゲージメントやロイヤリティ、顧客の満足度や信頼度が正しく反映される指標として捉えることができます。
+マーケターは、これらの強化された同意要件を、ブランド関与と忠誠度、および顧客満足度と信頼の真の指標として受け入れる必要があります。
 
 ## 同意を管理{#manage-consent}
 

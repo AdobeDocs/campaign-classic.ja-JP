@@ -7,17 +7,17 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 
 # Message Center の処理時間{#message-center-processing-time}
 
-このレポートではリアルタイムキューに関する主な指標が表示されます。技術管理者対象のこのレポートは、コントロールインスタンスの&#x200B;**[!UICONTROL 監視]**&#x200B;ウィンドウからもアクセスすることができます。
+このレポートではリアルタイムキューに関する主な指標が表示されます。このレポートは、技術管理者を対象としており、コントロールインスタンスの&#x200B;**[!UICONTROL Monitoring]**&#x200B;タブからもアクセスできます。
 
 ![](assets/mc_reports_2.png)
 

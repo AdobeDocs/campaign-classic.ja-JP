@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '2080'
-ht-degree: 100%
+source-wordcount: '2082'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 100%
 
 ## エラーの管理 {#managing-errors}
 
-エラーが発生した場合、ワークフローが一時停止し、エラーの発生時に実行中だったアクティビティが赤く点滅します。以下に示すように、ワークフローの概要（**[!UICONTROL 監視]**&#x200B;ウィンドウ／「**[!UICONTROL ワークフロー]**」リンク）で、エラーが発生したワークフローのみを表示できます。
+エラーが発生した場合、ワークフローが一時停止し、エラーの発生時に実行中だったアクティビティが赤く点滅します。ワークフローの概要の「**[!UICONTROL 監視]**」タブ — **[!UICONTROL ワークフロー]**」リンクの下に、次のようにエラーのあるワークフローのみを表示できます。
 
 ![](assets/wf-global-view_filter_only_errors.png)
 
@@ -169,7 +169,7 @@ Adobe Campaign エクスプローラーでは、デフォルトでワークフ�
 
 「**[!UICONTROL インスタンスの監視]**」ページでは、Adobe Campaign サーバーのアクティビティを確認したり、エラーが発生したワークフローと配信のリストを表示することができます。
 
-このページにアクセスするには、**[!UICONTROL 監視]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 一般ビュー]**」リンクをクリックします。
+このページにアクセスするには、「**[!UICONTROL 監視]**」タブに移動し、「**[!UICONTROL 一般的な表示]**」リンクをクリックします。
 
 ![](assets/wf-monitoring_from-homepage.png)
 

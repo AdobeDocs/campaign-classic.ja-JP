@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: af2707c6d86215ff94911e670a1eb080572de23c
 workflow-type: tm+mt
-source-wordcount: '4112'
-ht-degree: 99%
+source-wordcount: '4171'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 99%
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
 
 ## 2021 年 3 月 {#march-2021}
+
+[権限管理章](../../platform/using/access-management.md)が改良され、[演算子](../../platform/using/access-management-operators.md)、[オペレーターのグループ](../../platform/using/access-management-groups.md)、[ネームド権限](../../platform/using/access-management-named-rights.md)、[フォルダ管理](../../platform/using/access-management-folders.md)に関する詳細を含むセクションに分割されました。
+
+以下の新しいページを通して、キャンペーンの作成および管理方法を学びます。
+* [キャンペーンテンプレートの作成と設定](../../campaign/using/marketing-campaign-templates.md)
+* [マーケティングキャンペーン配信](../../campaign/using/marketing-campaign-deliveries.md)
+* [キャンペーンのオーディエンスを選択します](../../campaign/using/marketing-campaign-target.md)
+* [関連ドキュメントの管理](../../campaign/using/marketing-campaign-assets.md)
+* [承認プロセスの設定と管理](../../campaign/using/marketing-campaign-approval.md)
 
 タスクを終了し、今後の呼び出しを防ぐための、mession.setCompleted()メソッドの使用方法に関する情報が、**[!UICONTROL 高度なJavaScript]**&#x200B;アクティビティセクションに追加されました。 [詳細を表示](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 

@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 100%
@@ -83,7 +83,7 @@ Adobe Campaign エクスプローラーの一般的なレイアウトについ�
 >
 >**[!UICONTROL プロファイルとターゲット／受信者]**&#x200B;リンクをクリックして、Adobe Campaign ツリーからこのリストの詳細ビューを表示することもできます。リスト表示は、ニーズに合わせて設定できます。列の追加または削除、列の順序の定義、データの並べ替えなどをおこなうことができます。リストの表示設定は、[Adobe Campaign エクスプローラーの使用](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)で説明しています。
 >
->受信者ビューを定義することもできます。この機能について詳しくは、[フォルダーとビュー](../../platform/using/access-management.md#folders-and-views)を参照してください。
+>受信者ビューを定義することもできます。この機能について詳しくは、[フォルダーとビュー](../../platform/using/access-management-folders.md)を参照してください。
 
 ## アクティブなプロファイル {#active-profiles}
 

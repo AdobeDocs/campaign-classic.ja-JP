@@ -7,10 +7,10 @@ audience: social
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '794'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -69,7 +69,7 @@ Twitter アプリケーションごとに、アプリケーション設定を含
 
    ![](assets/social_twitter_service_002.png)
 
-* **Adobe Campaign**：「**[!UICONTROL プロファイルとターゲット]**」領域に移動し、「**[!UICONTROL サービスと購読]**」リンクをクリックして、「**[!UICONTROL 作成]**」ボタンをクリックします。
+* **Adobe Campaign**:「 **[!UICONTROL プロファイルとターゲット」タブに移動し、「サー]** ビスと購読」リンクをクリックし、「 ****  **** 作成」ボタンをクリックします。
 
    ![](assets/social_twitter_service_007.png)
 

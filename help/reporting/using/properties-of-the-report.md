@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 translation-type: tm+mt
-source-git-commit: 43037b2b6b4e3b42f4b666d85a664b9fb117a015
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '462'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 匿名アクセス]**：このオプションでは、レポートへの無制限アクセスが可能になります。ただし、操作はできません。
 
-   「Web アプリ」技術的オペレーターの権限がレポート要素の表示に使用されます。詳しくは、[この節](../../platform/using/access-management.md#default-operators)を参照してください。
+   「webapp」技術演算子の権限を使用して、レポート要素を表示します。 詳しくは、[この節](../../platform/using/access-management-operators.md)を参照してください。
 
 * **[!UICONTROL アクセス制御]**：このオプションでは、Adobe Campaign オペレーターがログオン後にレポートにアクセスできるようになります。
 * **[!UICONTROL 特定のアカウントを使用]**：このオプションでは、「**[!UICONTROL オペレーター]**」フィールドで選択したオペレーターの権限でレポートを実行できるようになります。

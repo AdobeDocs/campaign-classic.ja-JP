@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1994'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -206,7 +206,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
 ### 在庫管理 {#stock-management}
 
-Adobe Campaign では、在庫が不足した場合または最小しきい値に達した場合にオペレーターのグループに警告できます。在庫レベルには、ナビゲーション領域の「**[!UICONTROL その他]**」リンクをクリックし、**[!UICONTROL キャンペーン]**&#x200B;ウィンドウの「**[!UICONTROL 在庫]**」リンクからアクセスできます。
+Adobe Campaign では、在庫が不足した場合または最小しきい値に達した場合にオペレーターのグループに警告できます。在庫レベルは、**[!UICONTROL キャンペーン]**&#x200B;タブの&#x200B;**[!UICONTROL 在庫]**&#x200B;リンクから、ナビゲーション領域の&#x200B;**[!UICONTROL その他の選択肢]**&#x200B;リンクからアクセスできます。
 
 ![](assets/s_ncs_user_stocks_view.png)
 

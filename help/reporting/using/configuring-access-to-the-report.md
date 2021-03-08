@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '794'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 * 「**[!UICONTROL 単一選択]**」：レポートは、特定のエンティティが選択されたときにのみアクセス可能です。
 * 「**[!UICONTROL 複数選択]**」：レポートは、複数のエンティティが選択されたときにアクセスされます。
-* 「**[!UICONTROL グローバル]**」：レポートは、使用可能なレポートのリスト（レポートウィンドウ内）を通じてアクセスされます。
+* **[!UICONTROL グローバル]** :レポートは、「レポート」タブの使用可能なレポートのリストを通じてアク **** セスします。
 
 ### 表示順序 {#display-sequence}
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 ### フィルターオプションの定義 {#defining-the-filtering-options}
 
-**[!UICONTROL レポート]**&#x200B;ウィンドウには、プラットフォームで使用可能なすべてのレポートが表示され、接続したオペレーターには、それらのレポートに対するアクセス権があります。
+「**[!UICONTROL レポート]**」タブには、プラットフォームで使用可能なすべてのレポートが表示され、接続された演算子がアクセス権を持つすべてのレポートが表示されます。
 
 デフォルトでは、レポートは関連度の順に並べ替えられますが、他のタイプのフィルター（アルファベット順、年齢順など）を適用することもできます。
 

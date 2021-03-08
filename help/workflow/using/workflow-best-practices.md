@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '1655'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -119,7 +119,7 @@ JavaScript の **[!UICONTROL logInfo()]** メソッドは、ワークフロー�
 
 ワークフローを作成する前に、ワークフロースーパーバイザーを必ず定義します。エラーが発生した場合、スーパーバイザーに通知されます。詳しくは、[エラーの管理](../../workflow/using/monitoring-workflow-execution.md#managing-errors)を参照してください。
 
-**[!UICONTROL 監視]**&#x200B;ウィンドウを定期的にチェックし、アクティブワークフロー全体のステータスを確認します。詳しくは、[インスタンスの監視](../../workflow/using/monitoring-workflow-execution.md#instance-supervision)を参照してください。
+「**[!UICONTROL 監視]**」タブを定期的にチェックして、アクティブなワークフローの全体的なステータスを表示します。 詳しくは、[インスタンスの監視](../../workflow/using/monitoring-workflow-execution.md#instance-supervision)を参照してください。
 
 ワークフローヒートマップを使用すれば、Adobe Campaign 管理者はインスタンス上の負荷を監視し、それに従ってワークフローを計画することができます。詳しくは、[ワークフローの監視](../../workflow/using/heatmap.md)を参照してください。
 

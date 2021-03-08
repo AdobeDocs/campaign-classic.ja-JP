@@ -7,10 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ## 手順 1：受信者リストの作成 {#step-1--creating-the-recipient-list}
 
-**[!UICONTROL プロファイルとターゲット]**&#x200B;ウィンドウに移動し、「**[!UICONTROL リスト]**」リンク、「**[!UICONTROL 作成]**」ボタンの順にクリックします。「**[!UICONTROL 新しいリスト]**」を選択し、レポートの送信先とする受信者のリストを新たに作成します。
+「**[!UICONTROL プロファイルとターゲット]**」タブに移動し、「**[!UICONTROL リスト]**」リンクをクリックしてから、「**[!UICONTROL 作成]**」ボタンをクリックします。 「**[!UICONTROL 新しいリスト]**」を選択し、レポートの送信先とする受信者のリストを新たに作成します。
 
 ![](assets/use_case_report_1.png)
 

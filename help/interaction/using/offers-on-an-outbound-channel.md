@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 ## オファーシミュレーションの実行 {#perform-an-offer-simulation}
 
-1. **[!UICONTROL プロファイルとターゲット]**&#x200B;ウィンドウで、「**[!UICONTROL シミュレーション]**」リンクをクリックし、「**[!UICONTROL 作成]**」ボタンをクリックします。
+1. 「**[!UICONTROL プロファイルとターゲット]**」タブで、「**[!UICONTROL シミュレーション]**」リンクをクリックし、「**[!UICONTROL 作成]**」ボタンをクリックします。
 
    ![](assets/offer_simulation_001.png)
 

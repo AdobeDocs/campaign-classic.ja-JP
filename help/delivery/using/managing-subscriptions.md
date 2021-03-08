@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 100%
+source-wordcount: '1155'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ E メールの場合、必須の購読解除リンクが自動的に生成され
 
 関連付けられた確認メッセージまたは購読者への自動配信を使用して、情報サービスを作成し、購読を管理できます。
 
-情報サービスマップにアクセスするには、**[!UICONTROL プロファイルとターゲット]**&#x200B;ウィンドウに移動して、「**[!UICONTROL サービスと購読]**」リンクをクリックします。
+情報サービスマップにアクセスするには、「**[!UICONTROL プロファイルとターゲット]**」タブを開き、「**[!UICONTROL サービスと購読]**」リンクをクリックします。
 
 ![](assets/s_ncs_user_services_new.png)
 

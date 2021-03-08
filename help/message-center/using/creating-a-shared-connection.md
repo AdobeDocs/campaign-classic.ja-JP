@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 translation-type: tm+mt
-source-git-commit: 5bc6c8a824929c6a61cf562fc961e5bdd1867837
+source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 100%
+source-wordcount: '1048'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 >
 >* コントロールインスタンスまたは実行インスタンスで [Message Center テクニカルワークフロー](../../message-center/using/technical-workflows.md)によって使用されるスキーマで作成されたスキーマ拡張は、Adobe Campaign トランザクションメッセージモジュールによって使用される別のインスタンスに複製する必要があります。
 >* コントロールインスタンスおよび実行インスタンスは、異なるマシンにインストールする必要があります。同じ Campaign インスタンスを共有できなくなります。
+
 >
 
 
@@ -137,11 +138,11 @@ ht-degree: 100%
 
 複数のコントロールインスタンスを使用するには、この設定をすべての実行インスタンスで実行する必要があります。
 
-1. **[!UICONTROL 管理／プロダクション／Message Center]** ノードにて、各オペレーターにつき 1 つのフォルダーを作成します。ここでは、**フォルダー 1** および&#x200B;**フォルダー 2** とします。フォルダーやビューの作成について詳しくは、[プラットフォーム](../../platform/using/access-management.md#folders-and-views)を参照してください。
+1. **[!UICONTROL 管理／プロダクション／Message Center]** ノードにて、各オペレーターにつき 1 つのフォルダーを作成します。ここでは、**フォルダー 1** および&#x200B;**フォルダー 2** とします。フォルダと表示の作成について詳しくは、[このページ](../../platform/using/access-management-folders.md)を参照してください。
 
    ![](assets/messagecenter_multi_control_3.png)
 
-1. デフォルトで用意されている Message Center のオペレーター（**mc**）を複製して、**mc1** と **mc2** オペレーターを作成します。オペレーターの作成について詳しくは、[この節](../../platform/using/access-management.md#operators)を参照してください。
+1. デフォルトで用意されている Message Center のオペレーター（**mc**）を複製して、**mc1** と **mc2** オペレーターを作成します。オペレーターの作成について詳しくは、[この節](../../platform/using/access-management-operators.md)を参照してください。
 
    ![](assets/messagecenter_multi_control_4.png)
 

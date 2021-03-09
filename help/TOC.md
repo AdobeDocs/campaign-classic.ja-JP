@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: ドキュメント
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: c256899e9b04c42df1b5938b5b0513079319cd6b
 workflow-type: tm+mt
-source-wordcount: '2412'
-ht-degree: 61%
+source-wordcount: '2457'
+ht-degree: 60%
 
 ---
 
@@ -42,20 +42,22 @@ ht-degree: 61%
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic の基本を学ぶ](platform/using/about-adobe-campaign-classic.md)
       + [起動Adobe Campaign](platform/using/launching-adobe-campaign.md)
-      + [Adobe Campaign ワークスペース](platform/using/adobe-campaign-workspace.md)
-      + よくある質問 {#faq}
-         + [よくある 件の質問](platform/using/common-questions.md)
-         + [グローバルな概念](platform/using/faq-key-concepts.md)
-         + [ビルドのアップグレード](platform/using/faq-build-upgrade.md)
-         + [プライバシー](platform/using/privacy-faq.md)
-         + [オーディエンス](platform/using/faq-audiences.md)
-         + [メッセージのデザイン](platform/using/faq-designing.md)
-         + [メッセージの送信](platform/using/faq-messages.md)
-         + [ワークフロー](platform/using/faq-workflows.md)
-         + [設定](platform/using/faq-campaign-config.md)
-         + [レポート](platform/using/faq-reporting.md)
-         + [開発](platform/using/faq-developers.md)
-      + [チュートリアル](platform/using/tutorials.md)
+      + Adobe Campaign ワークスペース{#campaign-workspace}
+         + [キャンペーンUIの概要](platform/using/adobe-campaign-workspace.md)
+         + [リストの参照とカスタマイズ](platform/using/adobe-campaign-ui-lists.md)
+         + よくある質問 {#faq}
+            + [よくある 件の質問](platform/using/common-questions.md)
+            + [グローバルな概念](platform/using/faq-key-concepts.md)
+            + [ビルドのアップグレード](platform/using/faq-build-upgrade.md)
+            + [プライバシー](platform/using/privacy-faq.md)
+            + [オーディエンス](platform/using/faq-audiences.md)
+            + [メッセージのデザイン](platform/using/faq-designing.md)
+            + [メッセージの送信](platform/using/faq-messages.md)
+            + [ワークフロー](platform/using/faq-workflows.md)
+            + [設定](platform/using/faq-campaign-config.md)
+            + [レポート](platform/using/faq-reporting.md)
+            + [開発](platform/using/faq-developers.md)
+         + [チュートリアル](platform/using/tutorials.md)
    + プライバシー {#privacy}
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
       + [プライバシーの管理](platform/using/privacy-management.md)
@@ -140,6 +142,7 @@ ht-degree: 61%
       + [SMS チャネル](delivery/using/sms-channel.md)
       + [SMS コネクタのプロトコルと設定](delivery/using/sms-protocol.md)
       + [SMS のトラブルシューティング](delivery/using/troubleshooting-sms.md)
+      + [拡張汎用SMPPコネクタへの移行](delivery/using/unsupported-connector-migration.md)
    + [LINEメッセージの送信](delivery/using/line-channel.md)
    + プッシュ通知の送信 {#sending-push-notifications}
       + [モバイルアプリチャネルについて](delivery/using/about-mobile-app-channel.md)
@@ -674,6 +677,14 @@ ht-degree: 61%
       + [データベースに接続](installation/using/connecting-to-database.md)
       + [データスキーマの作成](installation/using/creating-data-schema.md)
       + [データマッピングの定義](installation/using/defining-data-mapping.md)
+   + セキュリティおよびプライバシーチェックリスト {#security-privacy}
+      + [セキュリティとプライバシーの概要](installation/using/get-started-security-privacy.md)
+      + [プライバシー](installation/using/privacy.md)
+      + [アクセスの管理](installation/using/access-management.md)
+      + [スクリプティングとコーディングのガイドライン](installation/using/scripting-coding-guidelines.md)
+      + [ネットワーク、データベース、SSL／TLS](installation/using/network-database.md)
+      + [サーバー設定](installation/using/server-configuration.md)
+      + [Web サーバーの設定](installation/using/web-server-configuration.md)
    + 付録 {#appendices}
       + [サーバー設定ファイル](installation/using/the-server-configuration-file.md)
       + [Campaign ネットワークエンドポイント](installation/using/campaign-network-endpoints.md)
@@ -790,9 +801,8 @@ ht-degree: 61%
       + [JavaScript での SOAP メソッド](configuration/using/soap-methods-in-javascript.md)
       + [SQL 関数の追加](configuration/using/adding-additional-sql-functions.md)
    + ナビゲーション階層 {#navigation-hierarchy}
-      + [ナビゲーション階層について](configuration/using/about-navigation-hierarchy.md)
-      + [設定](configuration/using/configuration.md)
-      + [エディション](configuration/using/edition.md)
+      + [エクスプローラ階層の設定](configuration/using/configuration.md)
+      + [エクスプローラ階層の編集](configuration/using/edition.md)
    + カスタム受信者テーブルの使用 {#use-a-custom-recipient-table}
       + [カスタム受信者テーブルについて](configuration/using/about-custom-recipient-table.md)
       + [スキーマの特性](configuration/using/schema-characteristics.md)

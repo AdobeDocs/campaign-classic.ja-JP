@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 660b9ad4351fe611d99962f2b163858b1f70bc84
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: '2038'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 
 * 迷惑メール／プッシュ通知／SMS メッセージ（「スパム」）を送信しないでください。アドビは、顧客の生涯価値およびロイヤリティを促進するうえで許可型マーケティングの原則を重要視しています。したがって、未承諾メッセージの送信に Adobe Campaign を使用することを固く禁止しています。
 
-ここで、[セキュリティとプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)を参照して、セキュリティとプライバシーに関してチェックすべき重要な要素を確認します。
+ここで、[セキュリティとプライバシーチェックリスト](../../installation/using/get-started-security-privacy.md)を参照して、セキュリティとプライバシーに関してチェックすべき重要な要素を確認します。
 
 ### プライバシー規制 {#privacy-regulations}
 

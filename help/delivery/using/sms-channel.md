@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 translation-type: tm+mt
-source-git-commit: 2aa1a1c5da7b552cae916885c011aa4aaf9b61db
+source-git-commit: f78fa94fb4fb9236222886a167a46d252497b2aa
 workflow-type: tm+mt
-source-wordcount: '3269'
-ht-degree: 99%
+source-wordcount: '3252'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign には、パーソナライズした SMS メッセージを大量
 ### SMPP 外部アカウントの作成 {#creating-an-smpp-external-account}
 
 携帯電話に SMS を送信するには、まず SMPP 外部アカウントを作成する必要があります。
-SMS のプロトコルと設定について詳しくは、この[技術メモ](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)を参照してください。
+SMSのプロトコルと設定の詳細については、[ページ](../../delivery/using/sms-protocol.md)を参照してください。
 
 これをおこなうには、以下の手順に従います。
 
@@ -56,7 +56,7 @@ SMS のプロトコルと設定について詳しくは、この[技術メモ](h
 
    >[!CAUTION]
    >
-   > リリース 20.2 より、従来のコネクタは廃止され、サポートされていません。**[!UICONTROL 拡張された汎用 SMPP]** コネクタの使用をお勧めします。推奨コネクタに移行する方法について詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/sms-connector.html)を参照してください。
+   > リリース 20.2 より、従来のコネクタは廃止され、サポートされていません。**[!UICONTROL 拡張された汎用 SMPP]** コネクタの使用をお勧めします。推奨コネクタに移行する方法について詳しくは、この[ページ](../../delivery/using/unsupported-connector-migration.md)を参照してください。
 
 1. 「**[!UICONTROL ログファイルの詳細 SMPP トレースを有効にする]**」オプションを使用すると、ログファイル内のすべての SMPP トラフィックをダンプできます。コネクタのトラブルシューティングやプロバイダー側が確認できるトラフィックとの比較をおこなうには、このオプションを有効にする必要があります。
 
@@ -94,7 +94,7 @@ SMS のプロトコルと設定について詳しくは、この[技術メモ](h
 
    ただし、特定のプロバイダーで「+」がプレフィックスとして必要な場合は、プロバイダーにお問い合わせください。必要に応じて、このオプションを有効にするようプロバイダーから指示があります。
 
-   「**[!UICONTROL SMPP 経由での TLS を有効化]**」チェックボックスを使用すると、SMPP トラフィックを暗号化することができます。詳しくは、この[技術メモ](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)を参照してください。
+   「**[!UICONTROL SMPP 経由での TLS を有効化]**」チェックボックスを使用すると、SMPP トラフィックを暗号化することができます。詳しくは、この[ページ](../../delivery/using/sms-protocol.md)を参照してください。
 
 1. **[!UICONTROL 拡張された汎用 SMPP]** コネクタを設定している場合は、自動応答を設定できます。
 

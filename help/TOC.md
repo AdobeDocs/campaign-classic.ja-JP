@@ -9,7 +9,7 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: ドキュメント
 translation-type: tm+mt
-source-git-commit: c256899e9b04c42df1b5938b5b0513079319cd6b
+source-git-commit: 60b4565ec6dc3e7ffc4ffcff69fbcca9fa870614
 workflow-type: tm+mt
 source-wordcount: '2457'
 ht-degree: 60%
@@ -45,18 +45,18 @@ ht-degree: 60%
       + Adobe Campaign ワークスペース{#campaign-workspace}
          + [キャンペーンUIの概要](platform/using/adobe-campaign-workspace.md)
          + [リストの参照とカスタマイズ](platform/using/adobe-campaign-ui-lists.md)
-         + よくある質問 {#faq}
-            + [よくある 件の質問](platform/using/common-questions.md)
-            + [グローバルな概念](platform/using/faq-key-concepts.md)
-            + [ビルドのアップグレード](platform/using/faq-build-upgrade.md)
-            + [プライバシー](platform/using/privacy-faq.md)
-            + [オーディエンス](platform/using/faq-audiences.md)
-            + [メッセージのデザイン](platform/using/faq-designing.md)
-            + [メッセージの送信](platform/using/faq-messages.md)
-            + [ワークフロー](platform/using/faq-workflows.md)
-            + [設定](platform/using/faq-campaign-config.md)
-            + [レポート](platform/using/faq-reporting.md)
-            + [開発](platform/using/faq-developers.md)
+      + よくある質問 {#faq}
+         + [よくある 件の質問](platform/using/common-questions.md)
+         + [グローバルな概念](platform/using/faq-key-concepts.md)
+         + [ビルドのアップグレード](platform/using/faq-build-upgrade.md)
+         + [プライバシー](platform/using/privacy-faq.md)
+         + [オーディエンス](platform/using/faq-audiences.md)
+         + [メッセージのデザイン](platform/using/faq-designing.md)
+         + [メッセージの送信](platform/using/faq-messages.md)
+         + [ワークフロー](platform/using/faq-workflows.md)
+         + [設定](platform/using/faq-campaign-config.md)
+         + [レポート](platform/using/faq-reporting.md)
+         + [開発](platform/using/faq-developers.md)
          + [チュートリアル](platform/using/tutorials.md)
    + プライバシー {#privacy}
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)

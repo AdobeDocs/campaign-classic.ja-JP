@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: af2707c6d86215ff94911e670a1eb080572de23c
+source-git-commit: 660b9ad4351fe611d99962f2b163858b1f70bc84
 workflow-type: tm+mt
-source-wordcount: '4171'
-ht-degree: 98%
+source-wordcount: '4190'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 98%
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
 
 ## 2021 年 3 月 {#march-2021}
+
+セキュリティとプライバシーに関するベストプラクティスと確認を含む新しい節が追加されました。 [詳細を表示](../../installation/using/get-started-security-privacy.md)
 
 [権限管理章](../../platform/using/access-management.md)が改良され、[演算子](../../platform/using/access-management-operators.md)、[オペレーターのグループ](../../platform/using/access-management-groups.md)、[ネームド権限](../../platform/using/access-management-named-rights.md)、[フォルダ管理](../../platform/using/access-management-folders.md)に関する詳細を含むセクションに分割されました。
 

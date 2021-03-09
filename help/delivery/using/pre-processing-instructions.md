@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 9f898e28b981ea4257c9f4b73a579d322ddbba89
+source-git-commit: 3454af2faffacd43fa1ad852529dad175340a237
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 配信ウィザードから直接テストできます。 これらの指標はコンテンツプレビューに適用され、追跡ボタンをクリックしてURLのリストを表示します。
 
-## &lt;>{#<%@-include}
+## &lt;>{#include}
 
 最も一般的に使用される例を次に示します。
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 正しい構文を取得するには、配信ウィザードのパーソナライゼーションボタンを使用します。
 
-## &lt;%@ value {#<%@-value}
+## &lt;%@ value {#value}
 
 この命令は、すべての受信者に対して定数の配信のパラメータにアクセスを与えます。
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 * &quot;配信&quot;:現在の配信について（下記のサブセクションの詳細と制限を参照）。
 * &quot;provider&quot;:現在の配信プロバイダー/ルーティング(nms:externalAccount)の場合。
 * 追加のスクリプトオブジェクト：オブジェクトがコンテキスト内で次を通して読み込まれる場合：**プロパティ** > **パーソナライゼーション** > **追加実行コンテキスト**&#x200B;のオブジェクト。
-* foreachループの項目：[下の](#<%@-foreach)セクションを参照してください。
+* foreachループの項目：[下の](#foreach)セクションを参照してください。
 
 ### &quot;配信&quot;オブジェクト{#delivery-object}
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 >
 >`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
-### &lt;>{#<%@-value-in-javascript}
+### &lt;>{#value-in-javascript}
 
 スクリプトセクションで&lt;%@値を使用できるようにするには、2つの特別なオブジェクトを&lt;%と%>に置き換えます。
 
@@ -96,7 +96,7 @@ ht-degree: 1%
 `<%@ value object='endScript' %> is expanded in something like <% var iMode = 1 if(iMode == 1) { ... } else { ... } %>.
 ```
 
-## &lt;>{#<%@-foreach}
+## &lt;>{#foreach}
 
 この命令は、配信にロードされたオブジェクトの配列の反復を可能にし、オブジェクトに関連する個々のリンクを追跡します。
 

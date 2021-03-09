@@ -7,15 +7,15 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d6993725ed4060f2affce98c4a8a5211bda03bdf
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 2%
+source-wordcount: '127'
+ht-degree: 1%
 
 ---
 
 
-# エディション{#edition}
+# キャンペーンエクスプローラのナビゲーションツリーを編集{#edition}
 
 ナビゲーション階層の設定ドキュメントを作成および設定する画面は、**[!UICONTROL 管理/設定/ナビゲーション階層]**&#x200B;ノードからアクセスできます。
 

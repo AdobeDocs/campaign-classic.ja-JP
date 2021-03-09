@@ -7,15 +7,15 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 translation-type: tm+mt
-source-git-commit: c625b4109e2cb47446331cd009ff9827c8267c93
+source-git-commit: 5871674ee26766cf08439768df3fb07ea0f99e7b
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '682'
 ht-degree: 2%
 
 ---
 
 
-# カスタム受信者テーブルについて{#about-custom-recipient-table}
+# カスタム受信者テーブルの使用{#about-custom-recipient-table}
 
 ここでは、非標準の受信者テーブルを使用する際の原則について説明します。
 

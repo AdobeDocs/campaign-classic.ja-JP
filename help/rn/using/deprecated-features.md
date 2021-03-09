@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: campaign-classic-deprecated-features
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 425b2e5748703a8349b6f70968d1ef4c71f72b21
-workflow-type: ht
-source-wordcount: '1717'
+translation-type: tm+mt
+source-git-commit: f78fa94fb4fb9236222886a167a46d252497b2aa
+workflow-type: tm+mt
+source-wordcount: '1712'
 ht-degree: 100%
 
 ---
@@ -99,7 +99,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <li>iOS</li>
    </ul>
   <p>これらのコネクタのいずれかを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../delivery/using/sms-channel.md">詳細情報</a></p> 
-  <p>従来のコネクタを移行する方法については、この<a href="https://helpx.adobe.com/jp/campaign/kb/sms-connector.html">テクニカルノート</a>を参照してください。</p>
+  <p>従来のコネクタを移行する方法については、この<a href="../../delivery/using/unsupported-connector-migration.md">テクニカルノート</a>を参照してください。</p>
   <p><em>削除予定日：2021 年 4 月</em></p>
   </td> 
  </tr>

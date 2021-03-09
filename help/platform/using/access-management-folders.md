@@ -7,17 +7,17 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: d6993725ed4060f2affce98c4a8a5211bda03bdf
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 96%
+source-wordcount: '771'
+ht-degree: 92%
 
 ---
 
 
 # フォルダへのアクセスを管理{#folder-access-management}
 
-ツリー内の各フォルダーには、読み取り、書き込み、削除のアクセス権が設定されています。ファイルにアクセスするには、個別のオペレーターまたはオペレーターのグループが、少なくとも目的のファイルに対する読み取りアクセス権を持っている必要があります。
+エクスプローラ・ナビゲーション・ツリーの各フォルダには、アクセス権の読み取り、書き込み、削除が割り当てられています。 ファイルにアクセスするには、個別のオペレーターまたはオペレーターのグループが、少なくとも目的のファイルに対する読み取りアクセス権を持っている必要があります。
 
 ## フォルダーの権限
 
@@ -71,7 +71,7 @@ ht-degree: 96%
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-それらのフォルダーには、ツリー内にあるその他すべてのフォルダーと同じく、権限を付与できます。[フォルダーアクセスの管理](#folder-access-management)を参照してください。
+エクスプローラのナビゲーションツリーはカスタマイズできます。 この節](adobe-campaign-workspace.md)では、設定手順とベストプラクティス[について説明します。
 
 ### ビューについて {#about-views}
 

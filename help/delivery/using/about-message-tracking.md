@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 5e6a30cd70c6eb21398fda4ac0572fcefa780e0d
+source-git-commit: e52d1963b72593c5dab8ced9e459d25b05044022
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaignでは、その追跡機能のおかげで、送信されたメッ
 
 **トラッキングの保存**
 
-追跡を設定し、URLを入力したら、追跡サーバーを登録する必要があります。 [詳細情報](../../installation/using/deploying-an-instance.md#tracking-configuration#saving-tracking)
+追跡を設定し、URLを入力したら、追跡サーバーを登録する必要があります。 [詳細情報](../../installation/using/deploying-an-instance.md#saving-tracking)
 
 ## メッセージトラッキング {#message-tracking}
 
@@ -71,11 +71,11 @@ Campaign Classicトラッキング機能を使用すると、パーソナライ�
 
 <img src="assets/do-not-localize/icon-web-app.svg" width="60px">
 
-**Web アプリケーションのトラッキング**
+**web アプリケーションのトラッキング**
 
 また、トラッキングタグを含むWeb アプリケーションページの訪問を追跡および測定できます。 この機能は、フォームやオンライン調査など、すべての種類のWeb アプリケーションで使用できます。 [詳細情報](../../web/using/tracking-a-web-application.md)
 
-**Web アプリケーショントラッキングのオプトアウト**
+**web アプリケーショントラッキングのオプトアウト**
 
 Web アプリケーション追跡オプトアウトを使用すると、行動追跡をオプトアウトしたエンドユーザーのWeb行動の追跡を停止できます。 Webアプリケーションやランディングページにバナーを表示して、ユーザーがオプトアウトできるようにする機能を追加できます。 [詳細情報](../../web/using/web-application-tracking-opt-out.md)
 
@@ -103,7 +103,7 @@ Web アプリケーション追跡オプトアウトを使用すると、行動�
 
 各表には、様々なレポートで使用されるインジケータのリストと、配信タイプに応じたその計算式が示されます。 [詳細情報](../../reporting/using/indicator-calculation.md)
 
-## トラッキングのトラブルシューティング{#tracking-troubleshooting}
+## トラッキングのトラブルシューティング {#tracking-troubleshooting}
 
 <img src="assets/do-not-localize/icon-troubleshooting.svg" width="60px">
 

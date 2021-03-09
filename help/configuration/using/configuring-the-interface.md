@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d6327cb5307ab5d37c15afa45dfd180ef04cb5a2
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 3%
@@ -70,7 +70,7 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
 
    >[!NOTE]
    >
-   >**navtree**&#x200B;タイプのファイルについて詳しくは、[このページ](../../configuration/using/about-navigation-hierarchy.md)を参照してください。
+   >**navtree**&#x200B;タイプのファイルについて詳しくは、[このページ](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy)を参照してください。
 
    現在の例では、**navtree**&#x200B;ファイルは&#x200B;**cus:individual**&#x200B;スキーマに基づいている必要があり、次の形式になっています。
 

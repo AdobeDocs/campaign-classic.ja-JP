@@ -4,11 +4,11 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
-translation-type: ht
-source-git-commit: b5b9e42eca25193cf4d69f654e74a02afd8adca9
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 832d81c02c590afbe933f9ba63accbc0ba82f180
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 91%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 ![](platform/using/assets/do-not-localize/banner_acc_doc.jpg)
 
 ## 新着情報
+
+* **[APNs](technotes/ios-certificate-update.md)**<br/> 証明書の更新2021年3月29日に、APNsの更新はキャンペーンiOSチャネルに影響を与えます。iOSのプッシュチャネルが機能しなくなるのを防ぐために、設定を更新する必要があります。
 
 * **[IMS/Adobe ID を使用した接続最新のビルドにアップグレードします。](integrations/using/about-adobe-id.md)**<br/>IMS を使用して Campaign に接続する場合、** 2021 年 3 月 31 日&#x200B;**以降、Campaign に接続できるようにするにはアップグレードが必要です。
 
@@ -86,7 +88,6 @@ ht-degree: 100%
 | [リリースノート](/help/rn/using/latest-release.md) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [ハウツービデオ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
 | [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
-| [Campaign の概要](platform/using/about-adobe-campaign-classic.md) | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/acc-implementation.html) |
 | [Gold Standard アップグレード](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
 | [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md) | [セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) |
 | [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) | [監視のガイドライン](production/using/monitoring-guidelines.md) |

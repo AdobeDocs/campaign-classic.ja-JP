@@ -6,9 +6,9 @@ description: Campaign Classic アップグレードの詳細
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e6f6cfe1c1aa0d896fb6400d63b6023a983c6192
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ![](assets/do-not-localize/blue3.png) **リリース候補**（RC） - 新機能を備えた最新バージョン。
 
-**最新の RC ビルド**[は Campaign Classic 20.3 リリース](../../rn/using/latest-release.md)です
+**最新の RC ビルド**[は Campaign Classic 21.1 リリース](../../rn/using/latest-release.md)です
 
 ![](assets/do-not-localize/red3.png) **非推奨** - デプロイメントなし。既存の実装はアップグレードする必要があります。
 

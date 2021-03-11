@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: campaign-release-notes, latest-release-notes
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
 workflow-type: tm+mt
 source-wordcount: '2561'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ _2020年12月22日_
 
 >[!CAUTION]
 >
-> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合、**2021 年 3 月 31 日**&#x200B;以降、Campaign サーバーもクライアントコンソールも Campaign に接続できるようにするにはアップグレードが必要です。
+> * このリリースには、新しい接続プロトコルが付属しています。AdobeIDサービス(IMS)を介してキャンペーンに接続する場合、**2021年6月30日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるように、アップグレードが必要です。
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 > * oAuth認証を通じたExperience Cloudトリガー統合を使用する場合は、このページ](../../integrations/using/configuring-adobe-io.md)の[説明に従ってAdobe I/Oに移動する必要があります。 従来の OAuth 認証モードは、**2021 年 4 月 30 日**&#x200B;に廃止されます。
 

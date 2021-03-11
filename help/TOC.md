@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: ドキュメント
 translation-type: tm+mt
-source-git-commit: de017afc1e5d30b561ed2bb7485756f30ef8778a
+source-git-commit: 2a82c1f67d8bc6d8499383a600a003480e82510f
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2464'
 ht-degree: 60%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 60%
    + [互換性マトリックス](rn/using/compatibility-matrix.md)
    + [技術](technotes/technote.md)
    + [iOS証明書の更新](technotes/ios-certificate-update.md)
+   + [キャンペーン構成の更新](technotes/acc-config-updates.md)
 + はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic の基本を学ぶ](platform/using/about-adobe-campaign-classic.md)

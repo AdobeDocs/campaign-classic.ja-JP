@@ -5,10 +5,10 @@ product: campaign
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 832d81c02c590afbe933f9ba63accbc0ba82f180
+source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 91%
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 * **[APNs](technotes/ios-certificate-update.md)**<br/> 証明書の更新2021年3月29日に、APNsの更新はキャンペーンiOSチャネルに影響を与えます。iOSのプッシュチャネルが機能しなくなるのを防ぐために、設定を更新する必要があります。
 
-* **[IMS/Adobe ID を使用した接続最新のビルドにアップグレードします。](integrations/using/about-adobe-id.md)**<br/>IMS を使用して Campaign に接続する場合、** 2021 年 3 月 31 日&#x200B;**以降、Campaign に接続できるようにするにはアップグレードが必要です。
+* **[IMS/Adobe ID を使用した接続最新のビルド](integrations/using/about-adobe-id.md)**<br/>にアップグレードします。IMSを使用してキャンペーンに接続する場合は、** 2021年6月30日&#x200B;**以降にキャンペーンに接続できるようにアップグレードする必要があります。
 
 * **[Campaign インスタンスのセキュリティ保護](https://helpx.adobe.com/jp/campaign/kb/gold-standard-upgrade.html)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します。
 

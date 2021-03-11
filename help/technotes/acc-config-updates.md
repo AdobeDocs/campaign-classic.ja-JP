@@ -6,10 +6,10 @@ description: テクノテ
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 87844fae046dff69193d3462c802057499f406ef
+source-git-commit: 248c74485e8e5889ca630c8f60ac2fa085204c51
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 11%
+source-wordcount: '896'
+ht-degree: 13%
 
 ---
 
@@ -69,23 +69,33 @@ AdobeIDサービス(IMS)は、2021年6月31日から、Internet Explorerの古�
 
 **影響を受けているか**
 
-Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[に接続する場合、AdobeIDサービス(IMS)を通じて、上記の新しいバージョンの1つにアップグレードする必要があります。これは、**2021年6月30日**&#x200B;以降にキャンペーンサーバーとクライアントコンソールが接続できるためです。
+Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[に接続する場合は、AdobeIDサービス(IMS)を使用して、上記の新しいバージョンの1つにアップグレードする必要があります。 このリリースには、新しい接続プロトコルが付属しています。**2021年6月30日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるようにするには、アップグレードが必須です。
 
 **更新方法**
 
 ホストされるお客様は、次の操作は必要ありません。Adobeは既にインスタンスを新しいバージョンにアップグレードしています。
 
-オンプレミス/ハイブリッドのお客様は、新しいクライアントコンソールのメリットを活かすために、新しいバージョンの1つにアップグレードする必要があります。また、2021年3月31日&#x200B;**までにシームレスなトランジションを確保する必要があります。**
+オンプレミス/ハイブリッドのお客様は、新しいクライアントコンソールのメリットを活かすために、新しいバージョンの1つにアップグレードする必要があります。また、2021年6月30日&#x200B;**までにシームレスなトランジションを確保する必要があります。**
+
+すべてのインスタンスをアップグレードしたら、クライアントコンソールもこのバージョンにアップグレードする必要があります。
+
+* [Adobeソフトウェア配布](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en)にアクセスする方法を説明します。
+
+* [キャンペーンクライアントコンソールのインストール方法を説明します](../installation/using/installing-the-client-console.md)。
 
 ## Experience Cloudトリガーとの統合
 
-従来のoAuth認証サービスは提供終了に達し、2021年6月30日に廃止されます。 [詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)。
+従来のoAuth認証サービスが提供終了に達しました。 元々、パイプラインにアクセスするためのoAUTH認証設定に基づくトリガー統合認証は、Adobe I/Oに移行しました。2021年6月30日に退職します。 [詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)。
 
 **影響を受けているか**
 
 oAuth認証を通じて古いバージョンのトリガー統合を使用している場合は、**Adobe I/O**&#x200B;に移動する必要があります。
 
 **更新方法**
+
+インスタンスを新しいバージョンにアップグレードしたら、すべてのお客様は、[手順に従って新しい認証モード](../integrations/using/configuring-adobe-io.md)に移行する必要があります。 これには、新しいAdobe I/Oトークンを生成し、実装で使用する必要があります。  
+
+さらに、ハイブリッド環境の場合、パイプラインがミッドソーシングインスタンスで設定されていることを確認する必要があります。[詳細情報](../integrations/using/configuring-pipeline.md)。
 
 [Adobe I/O に移行する方法を説明します](../integrations/using/configuring-adobe-io.md).
 
@@ -119,4 +129,4 @@ APNsの変更に関する詳細は、このページ[を参照してください
 
 オンプレミス/ハイブリッドのお客様は、2021年3月29日&#x200B;**までにシームレスなトランジション**&#x200B;を確実に行えるように、設定を更新する必要があります。
 
-[新しい証明書を組み込む方法を学びます](ios-certificate-update.md)
+[新しい証明書を組み込む方法を説明します](ios-certificate-update.md)。

@@ -6,7 +6,7 @@ description: テクノテ
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 93dc5a16ce4880c132f4f91c72794892b00e7259
+source-git-commit: 87844fae046dff69193d3462c802057499f406ef
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 11%
@@ -38,16 +38,17 @@ ht-degree: 11%
 
 最新のキャンペーンバージョンには、SSRF(Server Side Request Forgery)の問題に対する保護を強化するセキュリティ修正が付属しています。 詳細[は、このページ](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)を参照してください。
 
-### 影響を受けているか
+**影響を受けているか**
 
 環境がキャンペーン21.1よりも低いビルドの場合は、影響を受けます。
 
-## 更新方法
+**更新方法**
 
 上記の新しいビルドの1つにアップグレードする必要があります。
 
 * ハイブリッド顧客の場合、Adobeはミッドソーシングインスタンスを新しいバージョンにアップグレードするので、そのマーケティングインスタンスもアップグレードすることを強くお勧めします。
-新しいビルドは、少なくともCampaign Classic17.9のリリースと互換性がありますが、セキュリティ上の差を防ぐため、Adobeではすべてのインスタンスを新しいビルドにアップグレードすることを強くお勧めします。 
+
+   新しいビルドは、少なくともCampaign Classic17.9のリリースと互換性がありますが、セキュリティ上の差を防ぐため、Adobeではすべてのインスタンスを新しいビルドにアップグレードすることを強くお勧めします。 
 
 * オンプレミスのお客様は、マーケティングインスタンスとミッドソーシングインスタンスを新しいビルドにアップグレードするように要求されます。
 
@@ -64,13 +65,13 @@ ht-degree: 11%
 
 ## IMSを使用してキャンペーンに接続
 
-AdobeIDサービス(IMS)は、2021年3月31日から、Internet Explorerの古いバージョンのサポートを停止します。 [詳細情報](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)。キャンペーンコンソールが更新され、IMSとの互換性が確保されました。
+AdobeIDサービス(IMS)は、2021年6月31日から、Internet Explorerの古いバージョンのサポートを停止します。 [詳細情報](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)。キャンペーンコンソールが更新され、IMSとの互換性が確保されました。
 
-### 影響を受けているか
+**影響を受けているか**
 
-Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[に接続する場合、AdobeIDサービス(IMS)を通じて、上記の新しいバージョンの1つにアップグレードする必要があります。これは、**2021年3月31日**&#x200B;以降にキャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるためです。
+Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[に接続する場合、AdobeIDサービス(IMS)を通じて、上記の新しいバージョンの1つにアップグレードする必要があります。これは、**2021年6月30日**&#x200B;以降にキャンペーンサーバーとクライアントコンソールが接続できるためです。
 
-### 更新方法
+**更新方法**
 
 ホストされるお客様は、次の操作は必要ありません。Adobeは既にインスタンスを新しいバージョンにアップグレードしています。
 
@@ -78,13 +79,13 @@ Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[�
 
 ## Experience Cloudトリガーとの統合
 
-従来のoAuth認証サービスは提供終了に達し、2021年4月30日に廃止されます。 [詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)。
+従来のoAuth認証サービスは提供終了に達し、2021年6月30日に廃止されます。 [詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)。
 
-### 影響を受けているか
+**影響を受けているか**
 
 oAuth認証を通じて古いバージョンのトリガー統合を使用している場合は、**Adobe I/O**&#x200B;に移動する必要があります。
 
-### 更新方法
+**更新方法**
 
 [Adobe I/O に移行する方法を説明します](../integrations/using/configuring-adobe-io.md).
 
@@ -92,11 +93,11 @@ oAuth認証を通じて古いバージョンのトリガー統合を使用して
 
 2021 年 3 月 31 日以降、Apple Push Notification Service（APN）は、レガシーバイナリプロトコルをサポートしなくなります。[詳細を表示](https://developer.apple.com/news/?id=c88acm2b)。
 
-### 影響を受けているか
+**影響を受けているか**
 
 インスタンスがキャンペーン21.1より古いバージョンで実行され、レガシーAppleバイナリプロトコルを使用してプッシュ通知を送信する場合は、HTTP/2ベースのAPNsプロバイダーAPIに更新する必要があります。
 
-### 更新方法
+**更新方法**
 
 ホストされるお客様は、次の操作は必要ありません。Adobeは既にインスタンスをHTTP/2ベースのAPIに更新しています。
 
@@ -108,11 +109,11 @@ oAuth認証を通じて古いバージョンのトリガー統合を使用して
 
 APNsの変更に関する詳細は、このページ[を参照してください。](https://developer.apple.com/news/?id=7gx0a2lp)
 
-### 影響を受けているか
+**影響を受けているか**
 
 キャンペーンを使用してiOSデバイスでプッシュ通知を送信する場合は、影響を受けます。
 
-### 更新方法
+**更新方法**
 
 ホストされるお客様は、次の操作は必要ありません。Adobeは既に新しいルート証明書を環境に組み込んでいます。
 

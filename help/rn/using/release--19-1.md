@@ -7,10 +7,10 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: 571821ce775a7c354d01404d14faee8d2a21c170
+source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
 workflow-type: tm+mt
 source-wordcount: '3138'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -23,13 +23,13 @@ _2020年12月16日_
 
 >[!CAUTION]
 >
-> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合、**2021 年 3 月 31 日**&#x200B;以降、Campaign サーバーもクライアントコンソールも Campaign に接続できるようにするにはアップグレードが必要です。
+> * このリリースには、新しい接続プロトコルが付属しています。AdobeIDサービス(IMS)を介してキャンペーンに接続する場合、**2021年6月30日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるように、アップグレードが必要です。
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 > * oAuth認証を通じたExperience Cloudトリガー統合を使用する場合は、このページ](../../integrations/using/configuring-adobe-io.md)の[説明に従ってAdobe I/Oに移動する必要があります。 従来の OAuth 認証モードは、**2021 年 4 月 30 日**&#x200B;に廃止されます。
 
 
 
-**強化点**
+**改善点**
 
 * 接続プロトコルは、新しい IMS 認証メカニズムに従うように更新されました。
 * パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合認証が変更され、Adobe I/O に移動しました。[詳細情報](../../integrations/using/configuring-adobe-io.md)

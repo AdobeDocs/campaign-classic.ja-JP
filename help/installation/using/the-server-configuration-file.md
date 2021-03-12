@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 translation-type: tm+mt
-source-git-commit: 2de8261feda6e64a84bd82e9fb71bc1fddf77113
+source-git-commit: 1bd40c6acaceb1bb4839807ae89c6956bc2b8d69
 workflow-type: tm+mt
-source-wordcount: '7929'
+source-wordcount: '7970'
 ht-degree: 39%
 
 ---
@@ -1690,6 +1690,8 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
 ### リレー{#relay}
 
 **mta > relay**&#x200B;ノードで、次のパラメーターを設定します。 これは、メッセージ配信のメールサーバーの設定です。
+
+リストは、MX DNSクエリが返すMXのリストと同じように扱われます。通常、最初のMXが使用可能な限り使用され、次のMXが使用されます。
 
 詳しくは、[SMTPリレー](../../installation/using/configuring-campaign-server.md#smtp-relay)を参照してください。
 

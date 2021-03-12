@@ -6,7 +6,7 @@ description: テクノテ
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 087abb5765b089aa707f3d3a6d33ad0949b26bc8
+source-git-commit: df04057716726a74196add3fbc400fffaca26fc9
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 13%
@@ -85,7 +85,7 @@ Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[�
 
 ## Experience Cloudトリガーとの統合
 
-従来のoAuth認証サービスが提供終了に達しました。 元々、パイプラインにアクセスするためのoAUTH認証設定に基づくトリガー統合認証は、Adobe I/Oに移行しました。2021年6月30日に退職します。 [詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)。
+従来のoAuth認証サービスが提供終了に達しました。 元々、パイプラインにアクセスするためのoAUTH認証設定に基づくトリガー統合認証は、Adobe I/Oに移行しました。**2021年4月30日**&#x200B;に退役します。 [詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)。
 
 **影響を受けているか**
 

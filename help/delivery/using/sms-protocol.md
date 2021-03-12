@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: a157082070b22e3621cb81411a5ddde387fd5fcf
+source-git-commit: 74610fa197dd9ef27342e08dd0ba3403c1a9acc0
 workflow-type: tm+mt
 source-wordcount: '8458'
 ht-degree: 99%
@@ -714,7 +714,7 @@ SR フィールド内の ID の `Extraction` 正規表現が十分に具体的�
 
 >[!IMPORTANT]
 >
->Adobe Campaign Classic およびハイブリッドアーキテクチャでは、拡張 SMPP コネクタに対して自動応答を適用するには、**外部アカウント**&#x200B;フォルダーの mid 演算子の書き込みアクセスを追加する必要があります。
+>Adobe Campaign Classicおよびハイブリッドアーキテクチャでは、拡張SMPPコネクタに対して自動応答を適用するには、**外部アカウント**&#x200B;フォルダーのmid演算子の書き込みアクセスを追加する必要があります。
 
 この機能を使用すると、MOにすばやくテキストを返信し、短いコード送信をブロックリストに対して処理できます。
 

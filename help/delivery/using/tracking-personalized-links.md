@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
+source-git-commit: 6b81d0ea22bf9d8f33e486535b4ce02fbae7b9ae
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 6%
+source-wordcount: '219'
+ht-degree: 7%
 
 ---
 
@@ -24,9 +24,7 @@ ht-degree: 6%
 * スクリプトはデータベースに直接アクセスできません（SQL関数とAPI関数は使用できません）。
 * Adobe CampaignがURLを検出できて、リンクを追跡できる必要があります。 [詳細情報](detecting-tracking-urls.md)
 
-これらのURLに[特定の前処理命令](pre-processing-instructions.md)を追加できます
-
-事前処理の指示に従います。
+特定の前処理命令を追加して、URLのスクリプトを作成し、追跡できます。 [詳細情報](pre-processing-instructions.md)
 
 追跡検出のために、Adobe Campaignは[Tidy](http://www.html-tidy.org/)を埋め込んでHTMLソースを解析し、パターンを検出します。 コンテンツのすべてのURLをリストして、個別に追跡できるようにします。 Adobe Campaignは再度Tidyを使用して、URL(`http://myurl.com`)をAdobe Campaignリダイレクトサーバーを指すURLに置き換えます。
 

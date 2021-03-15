@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 7a58da8fd20abbff9dcf8361536310de49a7905f
+source-git-commit: 8aab4bc23d688aa225cfc636936cf2835840e410
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 2%
@@ -24,8 +24,8 @@ ht-degree: 2%
 手順には次の3種類があります。
 
 * **[!DNL include]**:主に、オプション、パーソナライゼーションブロック、外部ファイル、またはページの一部のコードをファクタリングする場合。[詳細情報](#include)
-* &quot;**[!DNL value]**&quot;:を使用して、配信に読み込まれた配信、配信変数、カスタムオブジェクトのフィールドへのアクセスを許可します。 [詳細情報](#value)
-* &quot;**[!DNL foreach]**&quot;:を呼び出します。 [詳細情報](#foreach)
+* **[!DNL value]**:を使用して、配信に読み込まれた配信、配信変数、カスタムオブジェクトのフィールドへのアクセスを許可します。[詳細情報](#value)
+* **[!DNL foreach]**:を呼び出します。[詳細情報](#foreach)
 
 配信ウィザードから直接テストできます。 これらの指標はコンテンツプレビューに適用され、追跡ボタンをクリックしてURLのリストを表示します。
 
@@ -74,8 +74,8 @@ ht-degree: 2%
 場所：
 
 * **[!DNL object]**:オブジェクトの名前(例：配信、プロバイダーなど)。オブジェクトは次のいずれかになります。
-   * &quot;配信&quot;:現在の配信について（下記のサブセクションの詳細と制限を参照）。
-   * &quot;provider&quot;:現在の配信プロバイダー/ルーティング(nms:externalAccount)の場合。
+   * **[!DNL delivery]**:現在の配信について（下記のサブセクションの詳細と制限を参照）。
+   * **[!DNL provider]**:現在の配信プロバイダー/ルーティング(nms:externalAccount)の場合。
    * 追加のスクリプトオブジェクト：オブジェクトがコンテキスト内で次を通して読み込まれる場合：**プロパティ** > **パーソナライゼーション** > **追加実行コンテキスト**&#x200B;のオブジェクト。
    * foreachループの項目：[下の](#foreach)セクションを参照してください。
 * **[!DNL xpath]**:フィールドのxpath。
@@ -100,22 +100,28 @@ ht-degree: 2%
    ```
 
 
->[!NOTE]
->
->* `<%@ value object="delivery" xpath="@myCustomField" %>`命令には、ミッドソーシングを介して送信される配信には別の制限があります。 マーケティングプラットフォームとミッドソーシングプラットフォームの両方で、カスタムフィールド@myCustomFieldをnms:配信スキーマに追加する必要があります。
-   >
-   >
-* 配信パラメーター/変数の場合は、次の構文を使用します(配信オブジェクトの使用)。
->
->
-`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
+**注意**
+
+ミッドソーシング経由で送信される配信に次の手順を使用する場合は、マーケティングプラットフォームとミッドソーシングプラットフォームの両方のnms:配信スキーマにカスタムフィールド&#x200B;**@myCustomField**&#x200B;を追加する必要があります。
+
+```
+<%@ value object="delivery" xpath="@myCustomField" %>
+```
+
+配信パラメーター/変数の場合は、次の構文を使用します(配信オブジェクトの使用)。
+
+```
+<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>
+```
 
 ### [!DNL value] JavaScriptセクション内  {#value-in-javascript}
 
 JavaScriptセクションで&lt;%@値を使用できるようにするには、2つの特別なオブジェクトを&lt;%と%>に置き換えます。
 
-* `<%@ value object='startScript' %>`
-* `<%@ value object='endScript' %>`
+```
+<%@ value object='startScript' %>
+<%@ value object='endScript' %>
+```
 
 例：
 

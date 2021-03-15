@@ -6,33 +6,21 @@ description: テクノテ
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 1a7ec4899bc0fab3935c25918c586a20afb88d1a
+source-git-commit: 504a948daa60155b7c4970be24bd6d2049e5395b
 workflow-type: tm+mt
-source-wordcount: '974'
-ht-degree: 10%
+source-wordcount: '989'
+ht-degree: 13%
 
 ---
 
 
 # Adobe Campaign構成の更新 — 2021年3月{#acc-config-updates}
 
-最新のビルドおよび製品修正を使用して、インフラストラクチャと設定を更新しておく必要があります。 これらの修正は、サービスの継続性とセキュリティを確保するために必須です。
-
-キャンペーンユーザーは、次の最新バージョンのいずれかにアップグレードする必要があります。
-
-* ゴールドスタンダード11。 [詳細情報](../rn/using/gold-standard.md)
-* Campaign 21.1.1 リリース.[詳細情報](../rn/using/latest-release.md)
-* Campaign 20.3.3 リリース.[詳細情報](../rn/using/release--20-3.md)
-* Campaign 20.2.4 リリース.[詳細情報](../rn/using/release--20-2.md)
-* Campaign 20.1.4 リリース.[詳細情報](../rn/using/release--20-1.md)
-* Campaign 19.2.4 リリース.[詳細情報](../rn/using/release--19-2.md)
-* Campaign 19.1.8 リリース.[詳細情報](../rn/using/release--19-1.md)
-
-これらのビルドは、特定のキャンペーンサービスの継続性を確保します。Experience Cloudトリガー統合、APNs認証、およびAdobeIdentity Managementサービス(IMS)認証メカニズムに影響する新しい接続プロトコル。
+最新のビルドおよび製品修正を使用して、インフラストラクチャと設定を更新しておく必要があります。 これらの修正は、サービスの継続性とセキュリティを確保するために必須です。 さらに、サードパーティの変更に合わせて実装を調整する必要があります。
 
 ホストをご利用のお客様は、必要なビルドのアップグレードを定期的に行うことをAdobeからお知らせします。 コンプライアンスを確保するために、推奨事項に従ってアップグレードする必要があります。
 
-オンプレミス/ハイブリッドのお客様は、上記のいずれかのバージョンにアップグレードする必要があります。 また、環境が安全で、Adobeやサードパーティ製システムの変更が今後行われる準備を整えるために、いくつかの手動タスクを行う必要があります。
+オンプレミス/ハイブリッドのお客様は、セキュリティ上の理由から、このページに記載されているバージョンの1つにアップグレードする必要があります。 また、環境が安全で、Adobeやサードパーティ製システムの変更が今後行われる準備を整えるために、いくつかの手動タスクを行う必要があります。
 
 >[!NOTE]
 >
@@ -44,7 +32,15 @@ ht-degree: 10%
 
 **影響を受けているか**
 
-環境がキャンペーン19.1.8、19.2.4、20.1.4、20.2.4、20.3.3またはGold Standard 11よりも低いビルドの場合は、影響を受けます。
+環境の構築が下に示す構築よりも低い場合は、次の影響を受けます。
+
+* ゴールドスタンダード11。 [詳細情報](../rn/using/gold-standard.md)
+* Campaign 21.1.1 リリース.[詳細情報](../rn/using/latest-release.md)
+* Campaign 20.3.3 リリース.[詳細情報](../rn/using/release--20-3.md)
+* Campaign 20.2.4 リリース.[詳細情報](../rn/using/release--20-2.md)
+* Campaign 20.1.4 リリース.[詳細情報](../rn/using/release--20-1.md)
+* Campaign 19.2.4 リリース.[詳細情報](../rn/using/release--19-2.md)
+* Campaign 19.1.8 リリース.[詳細情報](../rn/using/release--19-1.md)
 
 **更新方法**
 
@@ -71,13 +67,25 @@ ht-degree: 10%
 >
 >他のバージョン用の新しいクライアントコンソールは、近日中に利用可能になります。
 
-## IMSを使用してキャンペーンに接続
+## AdobeIdentity Managementシステム(IMS)の更新
 
-AdobeIDサービス(IMS)は、2021年6月30日&#x200B;**から始まる古いバージョンのInternet Explorerのサポートを停止します。**[詳細情報](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)。キャンペーンクライアントコンソールが更新され、AdobeIMSとの互換性が確保されました。
+AdobeIDサービス(IMS)は、2021年6月30日&#x200B;**から始まる古いバージョンのInternet Explorerのサポートを停止します。**[詳細情報](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)。
+
+キャンペーンクライアントコンソールが更新され、次のキャンペーンバージョンのAdobeIMSとの互換性が確保されました。
 
 **影響を受けているか**
 
-Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[に接続する場合は、AdobeIDサービス(IMS)を使用して、上記の新しいバージョンの1つにアップグレードする必要があります。 これらのリリースには、新しい接続プロトコルが付属しています。**2021年6月30日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるようにするには、アップグレードが必須です。
+Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[に接続する場合は、AdobeIDサービス(IMS)を使用して、以下の新しいバージョンの1つにアップグレードする必要があります。
+
+* ゴールドスタンダード11。 [詳細情報](../rn/using/gold-standard.md)
+* Campaign 21.1.1 リリース.[詳細情報](../rn/using/latest-release.md)
+* Campaign 20.3.3 リリース.[詳細情報](../rn/using/release--20-3.md)
+* Campaign 20.2.4 リリース.[詳細情報](../rn/using/release--20-2.md)
+* Campaign 20.1.4 リリース.[詳細情報](../rn/using/release--20-1.md)
+* Campaign 19.2.4 リリース.[詳細情報](../rn/using/release--19-2.md)
+* Campaign 19.1.8 リリース.[詳細情報](../rn/using/release--19-1.md)
+
+これらのリリースには、新しい接続プロトコルが付属しています。**2021年6月30日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるようにするには、アップグレードが必須です。
 
 **更新方法**
 
@@ -97,7 +105,7 @@ Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[�
 
 **影響を受けているか**
 
-環境がキャンペーン19.1.8、20.2.4、Gold Standard 11よりも低いビルドを使用している場合、oAuth認証を通じて古いバージョンのトリガー統合を使用しています。**Adobe I/O**&#x200B;に移動する必要があります。
+インスタンスがキャンペーン19.1.8、20.2.4、Gold Standard 11 **より古いバージョンの**&#x200B;で実行されている場合、oAuth認証を使用して古いバージョンのトリガー統合を使用しています。**Adobe I/O**&#x200B;に移動する必要があります。
 
 **更新方法**
 
@@ -107,13 +115,15 @@ Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[�
 
 [Adobe I/O に移行する方法を説明します](../integrations/using/configuring-adobe-io.md).
 
-## HTTP/2ベースのAPNsプロバイダーAPI
+## APNsアップデート
+
+### HTTP/2ベースのAPNsプロバイダーAPI
 
 Apple Push Notification Service(APNs)は、**2021年3月31日**&#x200B;以降、レガシーバイナリプロトコルをサポートしなくなります。 [詳細を表示](https://developer.apple.com/news/?id=c88acm2b)。
 
 **影響を受けているか**
 
-インスタンスがキャンペーン21.1より古いバージョンで実行され、レガシーAppleバイナリプロトコルを使用してプッシュ通知を送信する場合は、HTTP/2ベースのAPNsプロバイダーAPIに更新する必要があります。
+インスタンスがキャンペーン21.1、**より古いバージョンで実行され、レガシーAppleバイナリプロトコルを使用してプッシュ通知を送信する場合は、HTTP/2ベースのAPNsプロバイダーAPIに更新する必要があります。**
 
 **更新方法**
 
@@ -121,7 +131,7 @@ Apple Push Notification Service(APNs)は、**2021年3月31日**&#x200B;以降、
 
 オンプレミス/ホストのお客様は、設定を更新する必要があります。 [HTTP/2への移行方法](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
 
-## APNsルート証明書の更新
+### APNsルート証明書の更新
 
 2021年3月29日に、Apple Push Notification Service(APNs)インフラストラクチャの更新がAdobe Campaign ClassiciOSのチャネルに影響を与えます。 iOSのプッシュチャネルの停止を回避するため、OSの構成は&#x200B;**必須**&#x200B;に変更されました。
 

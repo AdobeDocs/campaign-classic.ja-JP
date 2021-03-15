@@ -1,28 +1,32 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: パーソナライズされたリンクの追跡を開始する
+title: パーソナライズされたリンクのトラッキングの基本を学ぶ
 description: パーソナライズ可能な電子メールにリンクを記述し、Campaign Classicでの追跡をサポートする方法を説明します。
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 151667637a12667f5eda1590e64e01de493be9ce
+source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 0%
+source-wordcount: '214'
+ht-degree: 6%
 
 ---
 
 
-# パーソナライズされたリンクの追跡を開始する{#tracking-personalized-links}
+# パーソナライズされたリンクのトラッキングの基本を学ぶ {#tracking-personalized-links}
 
 パーソナライゼーションを含む電子メールコンテンツ内のリンクは、特定の構文を追跡する必要があります。
 
 電子メールコンテンツ（HTMLまたはテキスト）でJavaScriptを使用すると、動的なコンテンツを生成して受信者に送信できますが、次の2つの制限があります。
 
 * スクリプトはデータベースに直接アクセスできません（SQL関数とAPI関数は使用できません）。
-* リンクを追跡できるように(このドキュメントの目的)、Adobe CampaignがURLを検出できる必要があります。
+* Adobe CampaignがURLを検出できて、リンクを追跡できる必要があります。 [詳細情報](detecting-tracking-urls.md)
+
+これらのURLに[特定の前処理命令](pre-processing-instructions.md)を追加できます
+
+事前処理の指示に従います。
 
 追跡検出のために、Adobe Campaignは[Tidy](http://www.html-tidy.org/)を埋め込んでHTMLソースを解析し、パターンを検出します。 コンテンツのすべてのURLをリストして、個別に追跡できるようにします。 Adobe Campaignは再度Tidyを使用して、URL(`http://myurl.com`)をAdobe Campaignリダイレクトサーバーを指すURLに置き換えます。
 

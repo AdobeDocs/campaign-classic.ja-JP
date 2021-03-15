@@ -6,10 +6,10 @@ description: テクノテ
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: c9e3d12f8975b2c87f6f4aaf306fae71803786ad
+source-git-commit: 1a7ec4899bc0fab3935c25918c586a20afb88d1a
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 13%
+source-wordcount: '974'
+ht-degree: 10%
 
 ---
 
@@ -63,18 +63,17 @@ ht-degree: 13%
 
 ## キャンペーンクライアントコンソールの更新
 
-最新のGold Standard 11のビルドでは、配信での日付選択や画像管理など、コンソールの一部のコンポーネントを使用できない問題が修正されました。 コンソールのアップグレードは必須です。
+最新のゴールド標準11ビルドでは、配信の日付選択や画像管理など、クライアントコンソールの一部のコンポーネントを使用できない問題が修正されました。 コンソールのアップグレードは必須です。
 
 [詳細情報](../rn/using/gold-standard.md)。
 
-
 >[!NOTE]
 >
->他のバージョンのアップデートは、近日中にご利用いただけます。
+>他のバージョン用の新しいクライアントコンソールは、近日中に利用可能になります。
 
 ## IMSを使用してキャンペーンに接続
 
-AdobeIDサービス(IMS)は、2021年6月31日から、Internet Explorerの古いバージョンのサポートを停止します。 [詳細情報](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)。キャンペーンコンソールが更新され、IMSとの互換性が確保されました。
+AdobeIDサービス(IMS)は、2021年6月30日&#x200B;**から始まる古いバージョンのInternet Explorerのサポートを停止します。**[詳細情報](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)。キャンペーンクライアントコンソールが更新され、AdobeIMSとの互換性が確保されました。
 
 **影響を受けているか**
 
@@ -110,7 +109,7 @@ Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[�
 
 ## HTTP/2ベースのAPNsプロバイダーAPI
 
-2021 年 3 月 31 日以降、Apple Push Notification Service（APN）は、レガシーバイナリプロトコルをサポートしなくなります。[詳細を表示](https://developer.apple.com/news/?id=c88acm2b)。
+Apple Push Notification Service(APNs)は、**2021年3月31日**&#x200B;以降、レガシーバイナリプロトコルをサポートしなくなります。 [詳細を表示](https://developer.apple.com/news/?id=c88acm2b)。
 
 **影響を受けているか**
 
@@ -139,3 +138,11 @@ APNsの変更に関する詳細は、このページ[を参照してください
 オンプレミス/ハイブリッドのお客様は、2021年3月29日&#x200B;**までにシームレスなトランジション**&#x200B;を確実に行えるように、設定を更新する必要があります。
 
 [新しい証明書を組み込む方法を説明します](ios-certificate-update.md)。
+
+
+## 便利なリンク
+
+* [環境のアップグレード](../production/using/build-upgrade.md)
+* [ビルドアップグレードに関する FAQ](../platform/using/faq-build-upgrade.md)
+* [Campaign Classicビルドのダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)
+* [新しいクライアントコンソールをユーザーが利用できるようにする](../installation/using/client-console-availability-for-windows.md)

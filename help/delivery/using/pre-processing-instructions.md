@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 3454af2faffacd43fa1ad852529dad175340a237
+source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '647'
 ht-degree: 1%
 
 ---
@@ -17,19 +17,19 @@ ht-degree: 1%
 
 # 前処理命令{#pre-processing-instructions}
 
-&lt;%@命令はJavaScriptではなく、Adobe Campaignに固有の構文です。
+配信の内容で特定の構文を使用して、手順を追加し、追跡する電子メールのURLをスクリプト化できます。 &lt;%@命令はJavaScriptではありません。この構文はAdobe Campaignに固有です。
 
 これらは、配信コンテンツのコンテキストにのみ適用されます。 電子メールのURLをスクリプトし、引き続き（URLパラメーター以外）追跡する唯一の方法です。 これは、トラッキングするリンクを検出する前に配信分析中に適用される自動コピー/貼り付けと見なすことができます。
 
 手順には次の3種類があります。
 
-* &quot;**include**&quot;:主にオプション、パーソナライゼーションブロック、外部ファイル、またはページの一部のコードをファクタリングする
+* &quot;**include**&quot;:主に、オプション、パーソナライゼーションブロック、外部ファイル、またはページの一部のコードをファクタリングする場合
 * &quot;**値**&quot;:配信に読み込まれた配信、配信変数、カスタムオブジェクトのフィールドへのアクセスを許可するには
 * &quot;**foreach**&quot;:を呼び出します。
 
 配信ウィザードから直接テストできます。 これらの指標はコンテンツプレビューに適用され、追跡ボタンをクリックしてURLのリストを表示します。
 
-## &lt;>{#include}
+## [!DNL include] {#include}
 
 最も一般的に使用される例を次に示します。
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 正しい構文を取得するには、配信ウィザードのパーソナライゼーションボタンを使用します。
 
-## &lt;%@ value {#value}
+## [!DNL value] {#value}
 
 この命令は、すべての受信者に対して定数の配信のパラメータにアクセスを与えます。
 
@@ -53,18 +53,15 @@ ht-degree: 1%
 
 場所：
 
-* &quot;object&quot;:オブジェクトの名前(例：配信、プロバイダーなど)。
-* &quot;xpath&quot;:フィールドのxpath。
-* &quot;index&quot;（オプション）:&quot;object&quot;が配列（追加のスクリプトオブジェクトの場合）の場合、配列内の項目インデックス(0の開始)。
+* **[!DNL object]**:オブジェクトの名前(例：配信、プロバイダーなど)。オブジェクトは次のいずれかになります。
+   * &quot;配信&quot;:現在の配信について（下記のサブセクションの詳細と制限を参照）。
+   * &quot;provider&quot;:現在の配信プロバイダー/ルーティング(nms:externalAccount)の場合。
+   * 追加のスクリプトオブジェクト：オブジェクトがコンテキスト内で次を通して読み込まれる場合：**プロパティ** > **パーソナライゼーション** > **追加実行コンテキスト**&#x200B;のオブジェクト。
+   * foreachループの項目：[下の](#foreach)セクションを参照してください。
+* **[!DNL xpath]**:フィールドのxpath。
+* **[!DNL index]** （オプション）:が配列 **[!DNL object]** の場合（追加のスクリプトオブジェクトの場合）、配列の項目インデックス(0の開始)。
 
-オブジェクトは次のいずれかになります。
-
-* &quot;配信&quot;:現在の配信について（下記のサブセクションの詳細と制限を参照）。
-* &quot;provider&quot;:現在の配信プロバイダー/ルーティング(nms:externalAccount)の場合。
-* 追加のスクリプトオブジェクト：オブジェクトがコンテキスト内で次を通して読み込まれる場合：**プロパティ** > **パーソナライゼーション** > **追加実行コンテキスト**&#x200B;のオブジェクト。
-* foreachループの項目：[下の](#foreach)セクションを参照してください。
-
-### &quot;配信&quot;オブジェクト{#delivery-object}
+### [!DNL delivery] object {#delivery-object}
 
 電子メールのパーソナライゼーションの場合、配信オブジェクトには次の2つの方法でアクセスできます。
 
@@ -82,9 +79,9 @@ ht-degree: 1%
 >
 >`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
-### &lt;>{#value-in-javascript}
+### [!DNL value] JavaScriptセクション内  {#value-in-javascript}
 
-スクリプトセクションで&lt;%@値を使用できるようにするには、2つの特別なオブジェクトを&lt;%と%>に置き換えます。
+JavaScriptセクションで&lt;%@値を使用できるようにするには、2つの特別なオブジェクトを&lt;%と%>に置き換えます。
 
 * `<%@ value object='startScript' %>`
 * `<%@ value object='endScript' %>`
@@ -96,7 +93,7 @@ ht-degree: 1%
 `<%@ value object='endScript' %> is expanded in something like <% var iMode = 1 if(iMode == 1) { ... } else { ... } %>.
 ```
 
-## &lt;>{#foreach}
+## [!DNL foreach] {#foreach}
 
 この命令は、配信にロードされたオブジェクトの配列の反復を可能にし、オブジェクトに関連する個々のリンクを追跡します。
 

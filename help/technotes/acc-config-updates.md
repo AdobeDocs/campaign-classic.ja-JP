@@ -6,9 +6,9 @@ description: テクノテ
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 74610fa197dd9ef27342e08dd0ba3403c1a9acc0
+source-git-commit: c9e3d12f8975b2c87f6f4aaf306fae71803786ad
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '941'
 ht-degree: 13%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 13%
 
 **影響を受けているか**
 
-環境がキャンペーン21.1よりも低いビルドの場合は、影響を受けます。
+環境がキャンペーン19.1.8、19.2.4、20.1.4、20.2.4、20.3.3またはGold Standard 11よりも低いビルドの場合は、影響を受けます。
 
 **更新方法**
 
@@ -66,6 +66,11 @@ ht-degree: 13%
 最新のGold Standard 11のビルドでは、配信での日付選択や画像管理など、コンソールの一部のコンポーネントを使用できない問題が修正されました。 コンソールのアップグレードは必須です。
 
 [詳細情報](../rn/using/gold-standard.md)。
+
+
+>[!NOTE]
+>
+>他のバージョンのアップデートは、近日中にご利用いただけます。
 
 ## IMSを使用してキャンペーンに接続
 
@@ -93,7 +98,7 @@ Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[�
 
 **影響を受けているか**
 
-oAuth認証を通じて古いバージョンのトリガー統合を使用している場合は、**Adobe I/O**&#x200B;に移動する必要があります。
+環境がキャンペーン19.1.8、20.2.4、Gold Standard 11よりも低いビルドを使用している場合、oAuth認証を通じて古いバージョンのトリガー統合を使用しています。**Adobe I/O**&#x200B;に移動する必要があります。
 
 **更新方法**
 

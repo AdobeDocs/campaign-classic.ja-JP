@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
+source-git-commit: 7a58da8fd20abbff9dcf8361536310de49a7905f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 1%
+source-wordcount: '642'
+ht-degree: 2%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 1%
 
 手順には次の3種類があります。
 
-* &quot;**include**&quot;:主に、オプション、パーソナライゼーションブロック、外部ファイル、またはページの一部のコードをファクタリングする場合
-* &quot;**値**&quot;:配信に読み込まれた配信、配信変数、カスタムオブジェクトのフィールドへのアクセスを許可するには
-* &quot;**foreach**&quot;:を呼び出します。
+* **[!DNL include]**:主に、オプション、パーソナライゼーションブロック、外部ファイル、またはページの一部のコードをファクタリングする場合。[詳細情報](#include)
+* &quot;**[!DNL value]**&quot;:を使用して、配信に読み込まれた配信、配信変数、カスタムオブジェクトのフィールドへのアクセスを許可します。 [詳細情報](#value)
+* &quot;**[!DNL foreach]**&quot;:を呼び出します。 [詳細情報](#foreach)
 
 配信ウィザードから直接テストできます。 これらの指標はコンテンツプレビューに適用され、追跡ボタンをクリックしてURLのリストを表示します。
 
@@ -33,15 +33,33 @@ ht-degree: 1%
 
 最も一般的に使用される例を次に示します。
 
-* ミラーページリンクを含める：`<%@ include view="MirrorPage" %>`
-* ミラーページURL:&quot;`<a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page"`としての表示
-* 標準搭載の購読解除URL:`<%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>`
-* その他の例：
-   * `<%@ include file='http://www.google.com' %>`
-   * `<%@ include file='file:///X:/france/service/test.html' %>`
-   * `<%@ include option='NmsServer_URL' %>`
+* ミラーページリンクを含める：
 
-正しい構文を取得するには、配信ウィザードのパーソナライゼーションボタンを使用します。
+   ```
+   <%@ include view="MirrorPage" %>  
+   ```
+
+* ミラーページの URL:
+
+   ```
+   View as a <a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page.
+   ```
+
+* 標準搭載の購読解除URL:
+
+   ```
+   <%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>
+   ```
+
+* その他の例：
+
+   ```
+   <%@ include file='http://www.google.com' %>
+   <%@ include file='file:///X:/france/service/test.html' %>
+   <%@ include option='NmsServer_URL' %>
+   ```
+
+   正しい構文を取得するには、配信ウィザードのパーソナライゼーションボタンを使用します。
 
 ## [!DNL value] {#value}
 
@@ -49,7 +67,9 @@ ht-degree: 1%
 
 構文:
 
-`<%@ value object="myObject" xpath="@myField" index="1" %>`
+```
+<%@ value object="myObject" xpath="@myField" index="1" %>
+```
 
 場所：
 
@@ -65,19 +85,30 @@ ht-degree: 1%
 
 電子メールのパーソナライゼーションの場合、配信オブジェクトには次の2つの方法でアクセスできます。
 
-* JavaScriptの場合。 例：`<%= delivery.myField %>`
+* JavaScriptの使用：
+
+   ```
+   <%= delivery.myField %>`.
+   ```
 
    JavaScriptオブジェクト配信では、カスタムフィールドはサポートされていません。 MTAはプレビューで動作しますが、MTAでは動作しません。MTAは、標準搭載された配信スキーマにしかアクセスできないからです。
 
-* `<%@ value object="delivery"`前処理を通じて。
+* 前処理の使用：
 
-`<%@ value object="delivery" xpath="@myCustomField" %>`命令には、ミッドソーシングを介して送信される配信には別の制限があります。 マーケティングプラットフォームとミッドソーシングプラットフォームの両方で、カスタムフィールド@myCustomFieldをnms:配信スキーマに追加する必要があります。
+   ```
+   <%@ value object="delivery"
+   ```
+
 
 >[!NOTE]
 >
->配信パラメーター/変数の場合は、次の構文を使用します(配信オブジェクトの使用)。
+>* `<%@ value object="delivery" xpath="@myCustomField" %>`命令には、ミッドソーシングを介して送信される配信には別の制限があります。 マーケティングプラットフォームとミッドソーシングプラットフォームの両方で、カスタムフィールド@myCustomFieldをnms:配信スキーマに追加する必要があります。
+   >
+   >
+* 配信パラメーター/変数の場合は、次の構文を使用します(配信オブジェクトの使用)。
 >
->`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
+>
+`<%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>`
 
 ### [!DNL value] JavaScriptセクション内  {#value-in-javascript}
 
@@ -99,14 +130,16 @@ JavaScriptセクションで&lt;%@値を使用できるようにするには、2
 
 構文:
 
-`<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>`
+```
+<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>
+```
 
 場所：
 
-* &quot;object&quot;:開始元のオブジェクトの名前(通常は追加のスクリプトオブジェクトですが、配信にすることもできます)。
-* &quot;xpath&quot;（オプション）:ループ処理を行うコレクションのxpath。 初期設定は「。」で、ループする配列がオブジェクトです。
-* &quot;index&quot;（オプション）:xpathが「。」でない場合は、「。」 とobjectは配列自体、オブジェクトの項目インデックス(0の開始)です。
-* &quot;item&quot;（オプション）:foreachループ内に&lt;%@値を指定してアクセスできる新しいオブジェクトの名前。 初期設定は、スキーマ内のリンク名です。
+* **[!DNL object]**:開始元のオブジェクトの名前(通常は追加のスクリプトオブジェクトですが、配信にすることもできます)。
+* **[!DNL xpath]** （オプション）:ループ処理を行うコレクションのxpath。初期設定は「。」で、ループする配列がオブジェクトです。
+* **[!DNL index]** （オプション）:xpathが「。」でない場合は、「。」とobjectは配列自体、オブジェクトの項目インデックス(0の開始)です。
+* **[!DNL item]** （オプション）:アクセス可能な新しいオブジェクトの名前  &lt;>初期設定は、スキーマ内のリンク名です。
 
 例：
 

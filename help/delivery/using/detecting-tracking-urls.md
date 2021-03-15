@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 追跡URLの検出
-description: URLを追跡するための推奨パターンについて詳しく説明します。
+title: トラッキング URL の検出
+description: URLを追跡するための推奨パターンについての詳細
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 translation-type: tm+mt
-source-git-commit: 151667637a12667f5eda1590e64e01de493be9ce
+source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 2%
+source-wordcount: '297'
+ht-degree: 11%
 
 ---
 
 
-# 追跡URLの検出
+# トラッキング URL の検出
 
 ## 検出されない例
 
@@ -35,14 +35,14 @@ ht-degree: 2%
 >
 >その他すべてのパターンはAdobeでサポートされていないので、セキュリティ上のギャップを防ぐために避ける必要があります。
 
-## http://&lt;%=myURL%>パターンの警告
+## 保護されていないパターン
 
-`<a href="http://<%=myURL%>">`構文はセキュリティで保護されておらず、次の理由で使用することをお勧めしません。
+コンテンツにパーソナライズされたリンクを追加する場合、潜在的なセキュリティギャップを避けるために、URL の hostname 部分はパーソナライズしないでください。詳しくは、[こちらのページ](../../installation/using/privacy.md#url-personalization)を参照してください。
 
+例えば、`<a href="http://<%=myURL%>">`構文は&#x200B;**セキュリティで保護されていない**&#x200B;ので、避ける必要があります。
+
+* この構文を使用すると、Adobe Campaignによって生成されたリンクに1つ以上のパラメーターが含まれている場合に、セキュリティの問題が発生する可能性があります。
 * Tidyは、リンクの一部に誤ったパッチを適用する可能性があり、これはランダムに発生する可能性があります。 典型的な症状は、HTMLの一部で、電子メール配達確認には表示されますが、プレビューには表示されません。
 * URLのエスケープに問題があり、URLの一部の文字が問題を引き起こす可能性があります。
 * IDという名前のパラメーターをリダイレクトURLのパラメーターと競合させることはできません。
 * その後、Adobe Campaignは「myURL」のすべての可能な値をまったく異なって追跡するので、追跡の関心は配信の統計に限られます。
-
-詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#privacy)を参照してください。
-

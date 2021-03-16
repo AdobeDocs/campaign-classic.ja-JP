@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 translation-type: tm+mt
-source-git-commit: e6f6cfe1c1aa0d896fb6400d63b6023a983c6192
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
@@ -62,8 +62,8 @@ Gold Standard のユーザーは、[最新の GA Gold Standard ビルド](../../
 
 ## サポートおよびその他の役に立つリンク{#support}
 
-* [ヘルプとサポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support)
-* [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)
+* [ヘルプとサポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
+* [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja/control-panel/using/release-notes.html)
 * [最新のドキュメントのアップデート](../../rn/using/documentation-updates.md)
 * [非推奨（廃止予定）および削除された機能](../../rn/using/deprecated-features.md)
 

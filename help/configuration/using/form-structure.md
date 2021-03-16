@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: f82f71f4eed44f4f12ab7a65188d25ff6c552d35
 workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 4%
@@ -235,7 +235,7 @@ ht-degree: 4%
 
 * **visibleIf=&quot;@email=&#39;peter.martinezATneolane.net&#39;&quot;**:文字列型のデータに対して等しい値をテストします。比較値は引用符で囲む必要があります。
 * **visibleIf=&quot;@gender >= 1 and @gender != 2&quot;**:条件を数値に設定します。
-* **visibleIf=&quot;@boolean1==trueまたは@boolean2==false&quot;**:ブール値フィールドをテストします。
+* **visibleIf=&quot;@boolean1=trueまたは@boolean2=false&quot;**:ブール値フィールドをテストします。
 
 #### コンテナ{#enabling-container}を有効にしています
 
@@ -555,9 +555,9 @@ ht-degree: 4%
 
 ### コンテキスト{#updating-the-context}の更新
 
-フォームのコンテキストを変更するには、**`<set expr="<value>" xpath="<field>"/>`**&#x200B;タグを使用します。**`<field>`**&#x200B;は出力先フィールド、**`<value>`**&#x200B;は更新式または値です。
+フォームのコンテキストを変更するには、`<set expr="<value>" xpath="<field>"/>`タグを使用します。`<field>`は出力先フィールド、`<value>`は更新式または値です。
 
-**`<set>`**&#x200B;タグの使用例：
+`<set>`タグの使用例：
 
 * **`<set expr="'Test'" xpath="/tmp/@test" />`**:を指定すると、一時的な場所/tmp/@test1に「Test」値が配置されます。
 * **`<set expr="'Test'" xpath="@lastName" />`**:「lastName」属性のエンティティを「Test」値で更新します

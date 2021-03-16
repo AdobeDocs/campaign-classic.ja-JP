@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 87%
+source-wordcount: '597'
+ht-degree: 97%
 
 ---
 
@@ -105,6 +105,6 @@ Gold Standard の詳細については、[この記事](https://helpx.adobe.com/
 
 **関連トピック**：
 
-* [Adobe Campaign のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support)
+* [Adobe Campaign のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
 * [Adobe Campaignソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)
 * [Adobe Experience Cloud のサポートおよびエキスパートセッション](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

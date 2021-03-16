@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: ドキュメント
 translation-type: tm+mt
-source-git-commit: 2a82c1f67d8bc6d8499383a600a003480e82510f
+source-git-commit: 4552b8c73f0d547a9bb2dc7d8489927ea687f575
 workflow-type: tm+mt
-source-wordcount: '2464'
+source-wordcount: '2467'
 ht-degree: 60%
 
 ---
@@ -114,6 +114,7 @@ ht-degree: 60%
          + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
          + [CRM とのデータの同期](platform/using/crm-data-sync.md)
       + [Adobe Analytics Data コネクタ](platform/using/adobe-analytics-data-connector.md)
+   + [ヘルプとサポートのオプション](support.md)
 + メッセージの作成と送信{#sending-messages}
    + [メッセージの概要](delivery/using/communication-channels.md)
    + 配信を作成する際の主な手順 {#key-steps-when-creating-a-delivery}
@@ -329,7 +330,7 @@ ht-degree: 60%
       + [使用例：概要を作成する](web/using/use-cases--creating-overviews.md)
       + [Webアプリケーションの翻訳](web/using/translating-a-web-application.md)
       + [Webアプリケーションでの訪問の追跡](web/using/tracking-a-web-application.md)
-      + [web アプリケーショントラッキングのオプトアウト](web/using/web-application-tracking-opt-out.md)
+      + [Web アプリケーショントラッキングのオプトアウト](web/using/web-application-tracking-opt-out.md)
    + HTMLコンテンツの編集{#editing-html-content}
       + [HTML エディターの基本を学ぶ](web/using/about-campaign-html-editor.md)
       + [テンプレート管理](web/using/template-management.md)

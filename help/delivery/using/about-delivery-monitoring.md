@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: 54ba9d2ee05b1bd7de7616142e8ad6bcbac5f8eb
+source-git-commit: bc35a95d7deed1f0fd432ef8639f307ecf4d8e1f
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
@@ -38,8 +38,8 @@ ht-degree: 100%
 
 配信のパフォーマンスを確実に保つために、いくつかのガイドラインに従う必要があります。配信の送信時に発生する一般的な問題は、また、配信を効率的に送信する際に役立つものです。
 
-* [配信パフォーマンスとベストプラクティス](../../delivery/using/list-of-deliveries.md)
-* [配信送信のトラブルシューティング](../../delivery/using/delivery-dashboard.md)
+* [配信パフォーマンスとベストプラクティス](../../delivery/using/delivery-performances.md)
+* [配信送信のトラブルシューティング](../../delivery/using/delivery-troubleshooting.md)
 
 <img src="assets/do-not-localize/icon_failure.svg" width="60px">
 

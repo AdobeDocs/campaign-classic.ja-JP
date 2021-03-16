@@ -5,9 +5,9 @@ title: Adobe Experience Manager 統合の設定
 description: Campaign と AEM の統合を設定する方法を説明します
 audience: integrations
 content-type: reference
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a157082070b22e3621cb81411a5ddde387fd5fcf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
 ht-degree: 100%
 

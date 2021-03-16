@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '528'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Campaign Classic の操作について疑問がある場合は、以下に示す
 * [セルフヘルプオプションを参照する](../../platform/using/tutorials.md#how-to-videos)
 * [「はじめに」と「使用例」の節を読む](../../platform/using/tutorials.md#step-by-step-guides)
 * 答えが見つからない場合は、[エキスパートに質問する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
-* サポートが必要な場合は、[Campaign のヘルプとサポートのオプションを参照する](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support)
+* サポートが必要な場合は、[Campaign のヘルプとサポートのオプションを参照する](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
 
 ## 1. Campaign を最新版にアップグレードするにはどうすればよいですか？{#how-can-i-upgrade-campaign-to-the-latest-version-}
 

@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25673f33c626edd5b7f4c7ba240364b3ea8d616a
+source-git-commit: 42166334d361ffdac13842cd9d07ca7c9859bbb2
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 98%
+source-wordcount: '626'
+ht-degree: 70%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->oAuth 認証を通じて古いバージョンの Triggers 統合を使用する場合は、**以下の説明に従って Adobe I/O に移行する必要があります**。従来の OAuth 認証モードは、2021 年 4 月 30 日に廃止されます。[詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>oAuth 認証を通じて古いバージョンの Triggers 統合を使用する場合は、**以下の説明に従って Adobe I/O に移行する必要があります**。従来の OAuth 認証モードは、**2021 年 4 月 30 日**&#x200B;に廃止されます。[詳細情報](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)。
 >
->こうした Adobe I/O への移行中に、一部の着信トリガーが失われる可能性があることに注意してください。
+>この[!DNL Adobe I/O]への移動中に、受信トリガーが一部失われる可能性があることに注意してください。
 
 ## 前提条件 {#adobe-io-prerequisites}
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 
 ## 手順 1：Adobe I/O プロジェクトの作成と更新 {#creating-adobe-io-project}
 
-1. Adobe I/O にアクセスし、IMS 組織のシステム管理者権限でログインします。
+1. [!DNL Adobe I/O]にアクセスし、IMS組織のシステム管理者権限でログインします。
 
    >[!NOTE]
    >
@@ -66,17 +66,22 @@ ht-degree: 98%
 
 1. クライアント ID が空の場合は、「**[!UICONTROL キーペアを生成]**」を選択して、公開鍵と秘密鍵のペアを作成します。
 
+   その後、デフォルトの有効期限が365日と共にキーが自動的にダウンロードされます。 有効期限が切れたら、新しいキーペアを作成し、設定ファイルで統合を更新する必要があります。 オプション2を使用すると、有効期限が長い&#x200B;**[!UICONTROL 公開鍵]**&#x200B;を手動で作成してアップロードできます。
+
    ![](assets/do-not-localize/adobe_io_4.png)
 
-1. 公開鍵をアップロードし、「**[!UICONTROL Next]**」をクリックします。
+1. 「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/do-not-localize/adobe_io_5.png)
 
-1. 「**Analytics-&lt;組織名>**」という製品プロファイルを選択し、「**[!UICONTROL Save configured API]**」をクリックします。
+1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、必要に応じて新しい製品を作成します。 次に、「**[!UICONTROL 設定済みAPIを保存]**」をクリックします。
+
+   [!DNL Analytics] **[!UICONTROL 製品プロファイル]**&#x200B;の詳細については、[Adobe Analyticsのドキュメント](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html#admin-console)を参照してください。
 
    ![](assets/do-not-localize/adobe_io_6.png)
 
-1. プロジェクトから、「**[!UICONTROL Service Account (JWT)]**」を選択し、次の情報をコピーします。
+1. プロジェクトから&#x200B;**[!UICONTROL Adobe Analytics]**&#x200B;を選択し、**[!UICONTROL サービスアカウント(JWT)]**&#x200B;の下に次の情報をコピーします。
+
    * **[!UICONTROL クライアント ID]**
    * **[!UICONTROL クライアント秘密鍵]**
    * **[!UICONTROL テクニカルアカウント ID]**
@@ -96,9 +101,17 @@ Adobe Campaign にプロジェクト資格情報を追加するには、Adobe Ca
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
 ```
 
->[!NOTE]
->
->秘密鍵は base64 UTF-8 形式でエンコードする必要があります。秘密鍵でない場合は、鍵をエンコードする前に、鍵から新しい行を削除してください。秘密鍵は、統合の作成に使用したものと同じである必要があります。秘密鍵の base64 エンコーディングをテストするには、[こちらの Web サイト](https://www.base64encode.org/)を使用します。
+秘密鍵は、base64 UTF-8形式でエンコードする必要があります。 それには、次の手順に従います。
+
+1. [手順1：で生成された秘密鍵を使用します。Adobe I/Oプロジェクトセクション](#creating-adobe-io-project)を作成/更新します。 秘密鍵は、統合の作成に使用したものと同じにする必要があります。
+
+1. 次のコマンドを使用して秘密鍵をエンコードします。```base64 ./private.key```.
+
+   >[!NOTE]
+   >
+   >秘密鍵をコピー/貼り付けるときに、余分な行が自動的に追加されることがあります。 秘密鍵をエンコードする前に、必ず削除してください。
+
+1. 上述の詳細なコマンドを実行するには、base64 UTF-8形式でエンコードされた新しく生成された秘密鍵を使用します。
 
 ## 手順 3：パイプライン化されたタグの更新 {#update-pipelined-tag}
 

@@ -6,11 +6,11 @@ description: 最新の Campaign Classic リリース注意
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 14513d5ecbfdd5637b764c8f19bc01358e63c130
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Campaign Classic Gold Standard バージョン（最新の GA ビルド）につ
 
 ## ![](assets/do-not-localize/blue_2.png) リリース 21.1.1 - ビルド 9277 {#release-21-1-1-build-9277}
 
-_2021年2月22日_
+_2021 年 2 月 22 日_
 
 **セキュリティの機能強化**
 

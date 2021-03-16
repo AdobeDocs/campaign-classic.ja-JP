@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
-source-wordcount: '2368'
-ht-degree: 54%
+source-wordcount: '2367'
+ht-degree: 53%
 
 ---
 
@@ -413,5 +413,5 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 
 * [ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
 * [Campaign Classic リリースノート](../../rn/using/rn-overview.md)
-* [Campaign Classic のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acc-support-req)
+* [Campaign Classic のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
 * [Gold Standard プログラム](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)

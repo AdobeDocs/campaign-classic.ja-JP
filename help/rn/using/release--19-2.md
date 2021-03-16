@@ -19,7 +19,7 @@ ht-degree: 97%
 
 ## ![](assets/do-not-localize/limited_2.png) リリース 19.2.4 - ビルド 9082 {#release-19-2-4-build-9082}
 
-_2020年12月23日_
+_2020 年 12 月 23 日_
 
 >[!CAUTION]
 >
@@ -44,7 +44,7 @@ _2020 年 2 月 7 日_
 
 ## ![](assets/do-not-localize/red_2.png) リリース 19.2 - ビルド 9080 {#release-19-2-build-9080}
 
-_2019年12月3日_
+_2019 年 12 月 2 日_
 
 **新機能**
 

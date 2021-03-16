@@ -61,7 +61,7 @@ Adobe Campaign Classic は、このページに記載されているすべての
 </tbody>
 </table>
 
-## Web サーバー{#WebServers-gs}
+## web サーバー{#WebServers-gs}
 
 <table>
 <tbody>
@@ -323,5 +323,5 @@ Internet Explorer 11 はサポートされています。
 
 * [Campaign Classic リリースノート](../../rn/using/latest-release.md)
 * [インストールガイド](../../installation/using/general-architecture.md)
-* [廃止された機能およびシステム](../../rn/using/deprecated-features.md)
+* [非推奨（廃止予定）になった機能およびシステム](../../rn/using/deprecated-features.md)
 * [ビルドアップグレード手順](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)

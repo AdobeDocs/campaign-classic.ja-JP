@@ -6,11 +6,11 @@ description: モバイルアプリケーション設定の開始方法を説明�
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 965aee2e310dd7e35d7a65bf9a1bda5dc8eb0959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 

@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
 source-wordcount: '4213'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -25,18 +25,18 @@ ht-degree: 97%
 
 Campaign Classicに関するサポートを受けるためのガイドラインとリファレンスが新しいページに追加されました。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
 
-セキュリティとプライバシーに関するベストプラクティスと確認を含む新しい節が追加されました。 [詳細を表示](../../installation/using/get-started-security-privacy.md)
+セキュリティとプライバシーに関するベストプラクティスと実行するチェックについて説明する新しいセクションが追加されました。 [詳細情報](../../installation/using/get-started-security-privacy.md)
 
-[権限管理章](../../platform/using/access-management.md)が改良され、[演算子](../../platform/using/access-management-operators.md)、[オペレーターのグループ](../../platform/using/access-management-groups.md)、[ネームド権限](../../platform/using/access-management-named-rights.md)、[フォルダ管理](../../platform/using/access-management-folders.md)に関する詳細を含むセクションに分割されました。
+[権限管理の章](../../platform/using/access-management.md)が改訂され、[オペレーター](../../platform/using/access-management-operators.md)、[オペレーターのグループ](../../platform/using/access-management-groups.md)、[ネームド権限](../../platform/using/access-management-named-rights.md)、[フォルダー管理](../../platform/using/access-management-folders.md)の詳細などを説明する節に分割されました。
 
-以下の新しいページを通して、キャンペーンの作成および管理方法を学びます。
+以下の新しいページでは、キャンペーンの作成と管理の方法について説明します。
 * [キャンペーンテンプレートの作成と設定](../../campaign/using/marketing-campaign-templates.md)
-* [マーケティングキャンペーン配信](../../campaign/using/marketing-campaign-deliveries.md)
-* [キャンペーンのオーディエンスを選択します](../../campaign/using/marketing-campaign-target.md)
+* [マーケティングキャンペーンの配信](../../campaign/using/marketing-campaign-deliveries.md)
+* [キャンペーンのオーディエンスの選択](../../campaign/using/marketing-campaign-target.md)
 * [関連ドキュメントの管理](../../campaign/using/marketing-campaign-assets.md)
 * [承認プロセスの設定と管理](../../campaign/using/marketing-campaign-approval.md)
 
-タスクを終了し、今後の呼び出しを防ぐための、mession.setCompleted()メソッドの使用方法に関する情報が、**[!UICONTROL 高度なJavaScript]**&#x200B;アクティビティセクションに追加されました。 [詳細を表示](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
+task.setCompleted() メソッドを使用してタスクを終了し将来のリコールを防ぐ方法に関する情報が、「**[!UICONTROL 高度な JavaScript]**」アクティビティの節に追加されました。[詳細情報](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
 ## 2021 年 2 月 {#release-21.1}
 

@@ -6,11 +6,11 @@ description: URLトラッキングオプションの設定
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 019c982dcf040fb2dc2a1c82d4a2ff5a964ec5fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 

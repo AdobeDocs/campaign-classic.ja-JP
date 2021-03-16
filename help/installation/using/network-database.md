@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+source-git-commit: 63b2e6b95812f1649e636580984a1f0dcc9c5c53
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 61%
+source-wordcount: '135'
+ht-degree: 54%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 61%
 
 ## データベース
 
-データベースエンジンのセキュリティは必須です。
+データベースエンジンのセキュリティに関するベストプラクティスを適用する必要があります。
 
-### SSL/TLS設定*
+## SSL/TLSの設定
 
 証明書をチェックするには、OpenSSL を使用します。アクティブな暗号をチェックするには、nmap を使用します。
 

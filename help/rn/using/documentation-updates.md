@@ -7,9 +7,9 @@ audience: rns
 content-type: reference
 topic-tags: latest-documentation-updates
 translation-type: tm+mt
-source-git-commit: 660b9ad4351fe611d99962f2b163858b1f70bc84
+source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
-source-wordcount: '4190'
+source-wordcount: '4213'
 ht-degree: 97%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 97%
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
 
 ## 2021 年 3 月 {#march-2021}
+
+Campaign Classicに関するサポートを受けるためのガイドラインとリファレンスが新しいページに追加されました。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
 
 セキュリティとプライバシーに関するベストプラクティスと確認を含む新しい節が追加されました。 [詳細を表示](../../installation/using/get-started-security-privacy.md)
 

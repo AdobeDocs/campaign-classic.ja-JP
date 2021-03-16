@@ -6,11 +6,11 @@ description: 専用の使用例を通してA/Bテストを実行する方法を�
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 177b4e74c75e4fcca70dc90b5ff2c0406181e0f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 

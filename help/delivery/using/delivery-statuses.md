@@ -6,11 +6,11 @@ description: 配信ダッシュボードで使用できるステータスにつ�
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 29801740c10dc182bdb5f00114298d04385a3e1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '627'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ajouter screenshot -->
   </tr> 
   <tr> 
    <td> 無視<br /> </td> 
-   <td> 配信は、アドレスにエラーがあるので受信者に送信されませんでした。ブロックリストへの登録、強制隔離、未指定または重複の可能性があります。 <br /> </td> 
+   <td> 配信は、アドレスにエラーがあるので受信者に送信されませんでした。ブロックリストへの登録、強制隔離、未指定または重複の可能性があります。<br /> </td> 
   </tr> 
   <tr> 
    <td> 失敗<br /> </td> 
@@ -68,8 +68,8 @@ ajouter screenshot -->
    <td> 操作がオペレーターによってキャンセルされました。<br /> </td> 
   </tr> 
   <tr> 
-   <td> サービスプロバイダーによる判断<br /> </td> 
-   <td> SMS サービスプロバイダーが配信を受信しました。<br /> ホスト型またはハイブリッド型のインストールの場合、 <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">拡張MTAにアップグレードした場合</a>、キャンペーンから拡張MTAに正常にメッセージが転送されました。</td> 
+   <td> サービスプロバイダーで受信済み<br /> </td> 
+   <td> SMS サービスプロバイダーが配信を受信しました。<br />ホストインストールまたはハイブリッドインストールで、<a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">Enhanced MTA</a> にアップグレードしている場合、Campaign から Enhanced MTA に正常にメッセージが転送されました。</td> 
   </tr> 
   <tr> 
    <td> モバイルで受信済み<br /> </td> 
@@ -97,7 +97,7 @@ Adobe Campaign E メールの配信品質の最適化方法について詳しく
 
 配信が送信されず、ステータスが&#x200B;**[!UICONTROL 保留中]**&#x200B;のままである場合は、次のことが原因である可能性があります。
 
-* MTA（Message Transfert Agent）が開始されておらず、再起動する必要がある可能性があります。MTA は配信サーバーでモジュールとプロセスを実行し、配信サーバーは E メールの送信を管理します。
+* MTA（Message Transfer Agent）が開始されておらず、再起動する必要がある可能性があります。MTA は配信サーバーでモジュールとプロセスを実行し、配信サーバーは E メールの送信を管理します。
 
    これを確認してモジュールを開始する（必要な場合）には、次の手順を実行します。
 
@@ -123,13 +123,13 @@ Adobe Campaign E メールの配信品質の最適化方法について詳しく
 
       >[!NOTE]
       >
-      >`<INSTANCENAME>` をインスタンスの名前（production、development など）に置き換えます。インスタンス名は設定ファイルで識別されます。 `[path of application]nl6/conf/config-<INSTANCENAME>.xml`
+      >`<INSTANCENAME>` をインスタンスの名前（production、development など）に置き換えます。インスタンス名は設定ファイルで識別されます。`[path of application]nl6/conf/config-<INSTANCENAME>.xml`
 
 * 送信サーバーに設定されていないアフィニティを配信で使用している可能性があります。
 
    この場合は、トラフィック管理（IP アフィニティ）の設定をチェックし、「**[!UICONTROL IP アドレスを使用してアフィニティを管理する]**」フィールドを使用して、アフィニティを管理する MTA に配信をリンクします。アフィニティについて詳しくは、[この節](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)を参照してください。
 
-* 実行中のキャンペーンが多すぎる場合、配信ステータスは「保留」のままです。
+* 実行中のキャンペーンが多すぎる場合、配信ステータスは「保留」のままになります。
 
    同時キャンペーンの制限は、**[!UICONTROL NmsOperation_LimitConcurrency]** オプションで定義されます。デフォルト値は 10 です。
 

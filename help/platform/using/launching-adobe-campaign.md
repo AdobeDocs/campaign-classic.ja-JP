@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[
 
 専用のログイン／パスワードを使用して接続することもできます。
 
-1. [**[!UICONTROL ログイン]**]フィールドに、演算子アカウント識別子を入力します。
+1. 「**[!UICONTROL ログイン]**」フィールドに、オペレーターのアカウント ID を入力します。
 
    ID は、Adobe Campaign プラットフォームの管理者から付与されます。
 
@@ -45,10 +45,10 @@ Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[
 
 これで、[Adobe Campaign ワークスペース](../../platform/using/adobe-campaign-workspace.md)にアクセスできるようになります。
 
-**[!UICONTROL サインイン画面]**&#x200B;では、次のキーボードショートカットが利用できます。
-* すべてのアクション可能な項目は、**Tab**&#x200B;キー（上から下）または&#x200B;**Tab** + **Shift**&#x200B;キー（下から上）で選択できます。
-* 接続を開始するには、**Enter**&#x200B;キーを押すこともできます。
-* **Escape**&#x200B;キーを使用して、**[!UICONTROL Login]**&#x200B;フィールドと&#x200B;**[!UICONTROL Password]**&#x200B;フィールドを、最後に成功した接続値にリセットできます。
+**[!UICONTROL ログイン画面]**&#x200B;では、次のキーボードショートカットが利用できます。
+* すべてのアクション可能な項目は、**Tab** キー（上から下）または **Tab** + **Shift** キー（下から上）で選択できます。
+* 接続を開始するには、**Enter** キーを押すこともできます。
+* **Esc** キーを使用すると、「**[!UICONTROL ログイン]**」フィールドと「**[!UICONTROL パスワード]**」フィールドを、最後に成功した接続値にリセットできます。
 
 ## 接続の設定 {#setting-up-connections}
 
@@ -106,5 +106,5 @@ Gold Standard の詳細については、[この記事](https://helpx.adobe.com/
 **関連トピック**：
 
 * [Adobe Campaign のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
-* [Adobe Campaignソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)
+* [Adobe Campaign ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)
 * [Adobe Experience Cloud のサポートおよびエキスパートセッション](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

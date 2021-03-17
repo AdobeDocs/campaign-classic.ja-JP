@@ -7,7 +7,7 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 translation-type: tm+mt
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '2844'
 ht-degree: 2%
@@ -92,7 +92,7 @@ Adobe Campaignv7には、**セキュリティゾーン**&#x200B;の概念が含�
 
 **アップグレード後** （サーバーを再起動する前）に、セキュリティゾーンを構成する必要があります。
 
-セキュリティゾーンの構成は、[このセクション](../../installation/using/configuring-campaign-server.md#defining-security-zones)にあります。
+セキュリティゾーンの構成は、[このセクション](../../installation/using/security-zones.md)にあります。
 
 ### ユーザーパスワード{#user-passwords}
 

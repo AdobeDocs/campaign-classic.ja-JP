@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1092'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 2%
    * 最初に公開され、そのパブリックIP上のコンピュータを追跡し、指し示す。
    * 2つ目のエイリアスは、コンソールアクセスと同じコンピューターのポインティングのために、内部ユーザーに公開されます。
 
-* SMTP (25)、DNS (53)、HTTP (80)、HTTPS (443)、SQL （1521 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳しくは、[ネットワーク構成](../../installation/using/network-configuration.md)を参照してください。
+* SMTP (25)、DNS (53)、HTTP (80)、HTTPS (443)、SQL (1521)、Oracle用に5432などを開くように設定されたファイアウォール ポート。 詳しくは、[ネットワーク構成](../../installation/using/network-configuration.md)を参照してください。
 
 次の例では、インスタンスのパラメーターを示します。
 
@@ -164,12 +164,7 @@ ht-degree: 2%
 
    詳しくは、[キャンペーンサーバーの設定](../../installation/using/campaign-server-configuration.md)を参照してください。
 
-1. クライアントコンソールのセットアッププログラム(**setup-client-7.XX**、**YYYY.exe** for v7、**setup-client-6.XX**、**YYYY.exe** for v6.1)を&#x200B;**/datakitにコピーします。/nl/eng/jsp**&#x200B;フォルダー
-
-   この点について詳しくは、以下の節を参照してください。
-
-   * Linuxの場合：[Linux用のクライアントコンソールの可用性](../../installation/using/client-console-availability-for-linux.md)
-   * Windowsの場合：[Windowsでのクライアントコンソールの可用性](../../installation/using/client-console-availability-for-windows.md)
+1. クライアントコンソールのセットアッププログラム(**setup-client-7.XX**、**YYYY.exe** for v7、**setup-client-6.XX**、**YYYY.exe** for v6.1)を&#x200B;**/datakitにコピーします。/nl/eng/jsp**&#x200B;フォルダー [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
 
 1. 次の節で説明するWebサーバー統合手順(IIS、Apache)に従います。
 
@@ -212,14 +207,9 @@ ht-degree: 2%
 
    このURLを使用すると、クライアントセットアッププログラムのダウンロードページにアクセスできます。
 
-   アクセス制御ページに到達したら、**内部**&#x200B;ログインと関連するパスワードを入力します。
+   アクセス制御ページに到達したら、**内部**&#x200B;ログインと関連するパスワードを入力します。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
 
    ![](assets/s_ncs_install_access_client.png)
-
-   この点について詳しくは、以下の節を参照してください。
-
-   * Linuxの場合：[Linux用のクライアントコンソールの可用性](../../installation/using/client-console-availability-for-linux.md)
-   * Windowsの場合：[Windowsでのクライアントコンソールの可用性](../../installation/using/client-console-availability-for-windows.md)
 
 1. Adobe Campaignクライアントコンソールを開始（前のダウンロードページから、またはWindowsインストールの場合はサーバー上で直接起動）し、サーバー接続URLをhttps://console.campaign.netに設定し、**internal**&#x200B;ログインを使用して接続します。
 

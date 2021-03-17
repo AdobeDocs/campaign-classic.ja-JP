@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 translation-type: tm+mt
-source-git-commit: 1bd40c6acaceb1bb4839807ae89c6956bc2b8d69
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '7970'
 ht-degree: 39%
@@ -21,7 +21,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
 
 >[!NOTE]
 >
->サーバー側の設定は、Adobeがホストする配置に対してのみAdobeが実行できます。 各デプロイメントの詳細については、[「モデルのホスト](../../installation/using/hosting-models.md)」セクションまたは[このページ](../../installation/using/capability-matrix.md)を参照してください。 ホストモデルとハイブリッドモデルのインストールと設定の手順は、この[セクション](../../installation/using/hosted-model.md)に記載されています。
+>サーバー側の設定は、Adobeがホストする配置に対してのみAdobeが実行できます。 各デプロイメントの詳細については、[「モデルのホスト](../../installation/using/hosting-models.md)」セクションまたは[このページ](../../installation/using/capability-matrix.md)を参照してください。 ホストモデルとハイブリッドモデルのインストールと設定の手順は、この[セクション](../../installation/using/hosting-models.md)に記載されています。
 
 最初のパラメーターは、**共有**&#x200B;ノード内にあります。 これらはインスタンスに関連しています。 これらは、すべてのnlserverコマンド（nlserver web、nlserver wfserverなど）で使用される可能性があります。 他のセクションは、特定のnlserverサブコマンドに関連しています。
 
@@ -2193,7 +2193,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
 
 **securityZone**&#x200B;ノードの異なるパラメーターを示します。
 
-詳しくは、「[セキュリティゾーンの定義](../../installation/using/configuring-campaign-server.md#defining-security-zones)」を参照してください。
+詳しくは、「[セキュリティゾーンの定義](../../installation/using/security-zones.md)」を参照してください。
 
 <table> 
  <thead> 
@@ -2291,7 +2291,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
 
 **securityZone > subNetwork**&#x200B;ノードの異なるパラメーターを示します。
 
-詳しくは、「[セキュリティゾーンの定義](../../installation/using/configuring-campaign-server.md#defining-security-zones)」を参照してください。
+詳しくは、「[セキュリティゾーンの定義](../../installation/using/security-zones.md)」を参照してください。
 
 <table> 
  <thead> 

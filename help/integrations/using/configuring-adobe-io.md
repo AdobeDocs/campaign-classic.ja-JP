@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 42166334d361ffdac13842cd9d07ca7c9859bbb2
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 70%
+ht-degree: 74%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 70%
 この実装を開始する前に、以下の点を確認してください。
 
 * 有効な&#x200B;**組織識別子**：Identity Management システム（IMS）の組織識別子は、Adobe Experience Cloud 内の一意の識別子です。この識別子は、VisitorID サービスや IMS シングルサインオン（SSO）などに使用されます。[詳細情報](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja)
-* 組織への&#x200B;**開発者アクセス**。  [このページ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html)で説明する手順に従い、すべての製品プロファイルに関してこのアクセス権を提供するには、IMS 組織のシステム管理者権限をリクエストする必要があります。
+* 組織への&#x200B;**開発者アクセス**。[このページ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html)で説明する手順に従い、すべての製品プロファイルに関してこのアクセス権を提供するには、IMS 組織のシステム管理者権限をリクエストする必要があります。
 
 ## 手順 1：Adobe I/O プロジェクトの作成と更新 {#creating-adobe-io-project}
 
@@ -91,7 +91,7 @@ ht-degree: 70%
 
 >[!CAUTION]
 >
->Adobe I/O 証明書は 12 か月後に期限が切れます。 新しいキーペアを毎年生成する必要があります。
+>Adobe I/O 証明書は 12 か月後に期限が切れます。毎年新しいキーペアを生成する必要があります。
 
 ## 手順 2：Adobe Campaign へのプロジェクト資格情報の追加 {#add-credentials-campaign}
 
@@ -101,17 +101,17 @@ Adobe Campaign にプロジェクト資格情報を追加するには、Adobe Ca
 nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
 ```
 
-秘密鍵は、base64 UTF-8形式でエンコードする必要があります。 それには、次の手順に従います。
+秘密鍵は、Base64 UTF-8 形式でエンコードする必要があります。それには、次の手順に従います。
 
-1. [手順1：で生成された秘密鍵を使用します。Adobe I/Oプロジェクトセクション](#creating-adobe-io-project)を作成/更新します。 秘密鍵は、統合の作成に使用したものと同じにする必要があります。
+1. [手順 1：Adobe I/O プロジェクトの作成と更新](#creating-adobe-io-project)で生成された秘密鍵を使用します。秘密鍵は、統合の作成に使用したものと同じである必要があります。
 
 1. 次のコマンドを使用して秘密鍵をエンコードします。```base64 ./private.key```.
 
    >[!NOTE]
    >
-   >秘密鍵をコピー/貼り付けるときに、余分な行が自動的に追加されることがあります。 秘密鍵をエンコードする前に、必ず削除してください。
+   >秘密鍵をコピー/貼り付けるときに、余分な行が自動的に追加されることがあります。 その場合は、秘密鍵をエンコードする前に、余分な行を必ず削除してください。
 
-1. 上述の詳細なコマンドを実行するには、base64 UTF-8形式でエンコードされた新しく生成された秘密鍵を使用します。
+1. 上記で詳述されたコマンドを実行するには、Base64 UTF-8 形式でエンコードされた新しく生成された秘密鍵を使用します。
 
 ## 手順 3：パイプライン化されたタグの更新 {#update-pipelined-tag}
 

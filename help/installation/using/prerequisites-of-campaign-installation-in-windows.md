@@ -7,15 +7,15 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 12%
+source-wordcount: '142'
+ht-degree: 8%
 
 ---
 
 
-# Windows での Campaign のインストールの前提条件{#prerequisites-of-campaign-installation-in-windows}
+# Windowsでのキャンペーンのインストールを開始する{#prerequisites-of-campaign-installation-in-windows}
 
 Adobe Campaignのインストールに必要な技術的な構成とソフトウェアは、[互換表](../../rn/using/compatibility-matrix.md)に記載されています。
 

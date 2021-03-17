@@ -5,9 +5,9 @@ title: Adobe Experience Manager 統合の設定
 description: Campaign と AEM の統合を設定する方法を説明します
 audience: integrations
 content-type: reference
-translation-type: ht
-source-git-commit: a157082070b22e3621cb81411a5ddde387fd5fcf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Adobe Experience Manager 経由で Adobe Campaign に接続するには、この
 
 >[!CAUTION]
 >
->セキュリティ上の問題を回避するために、AEM 専用のセキュリティゾーンを作成することを強くお勧めします。詳しくは、[インストールガイド](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。
+>セキュリティ上の問題を回避するために、AEM 専用のセキュリティゾーンを作成することを強くお勧めします。詳しくは、[インストールガイド](../../installation/using/security-zones.md)を参照してください。
 
 Campaign インスタンスがアドビでホストされている場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。Campaign をオンプレミスで使用している場合は、以下の手順に従います。
 

@@ -6,11 +6,11 @@ description: パーソナライゼーションブロック
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df7c27e763e7e0c02189ed972f33eb03ca2a915f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1003'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
    >このブロックは、訪問者をターゲットとする配信でのみ使用できます。
 
 * **[!UICONTROL 登録の確認]**：購読を確認できるリンクを挿入します。
-* **[!UICONTROL ソーシャルネットワーク共有リンク]** :受信者が電子メールクライアント、Facebook、TwitterおよびLinkedInとミラーページコンテンツへのリンクを共有できるボタンを挿入します( [クイラルマーケティングを参照してください)。友人に転送する](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend))。
+* **[!UICONTROL ソーシャルネットワーク共有リンク]**：E メールクライアント、Facebook、Twitter および LinkedIn によってミラーページコンテンツへのリンクを受信者が共有できるボタンを挿入します（[バイラルマーケティング：友人への転送](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)を参照）。
 * **[!UICONTROL コンテンツ E メールのスタイル]**&#x200B;および&#x200B;**[!UICONTROL 通知スタイル]**：定義済みの HTML スタイルで E メールを書式設定するコードを生成します。これらのブロックは、配信のソースコードの **[!UICONTROL ...]** セクションにある **`<style>...</style>`** タグの間に挿入する必要があります。
 * **[!UICONTROL 単一モードのオファー承認 URL]**：インタラクションオファーを&#x200B;**[!UICONTROL 許可済み]**&#x200B;に設定できる URL を挿入します（[この節](../../interaction/using/offer-analysis-report.md)を参照）。
 

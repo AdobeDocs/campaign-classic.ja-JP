@@ -6,11 +6,11 @@ description: 配信の設定と送信
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1617'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,21 +35,21 @@ ht-degree: 89%
    >
    >配信が重複した場合はパラメーターがリセットされます。
 
-* **[!UICONTROL 複数のウェーブを使用して送信]**:詳しくは、「複数のウェーブを使用した [送信」を参照してください](#sending-using-multiple-waves)。
+* **[!UICONTROL 複数のウェーブを使用して送信]**：詳しくは、[複数のウェーブを使用した送信](#sending-using-multiple-waves)を参照してください。
 
 * **[!UICONTROL SMTP 配信をテスト]**：このオプションを使用すると、SMTP を使用した配信の送信をテストできます。配信は、SMTP サーバーに接続するところまで進められますが、送信されません。
 
    >[!NOTE]
    >
-   >MTA を呼び出さない、ミッドソーシングを使用するインストールの場合、このオプションを使用することは望ましくありません。SMTPサーバの設定について詳しくは、[このセクション](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)を参照してください。
+   >MTA を呼び出さない、ミッドソーシングを使用するインストールの場合、このオプションを使用することは望ましくありません。SMTP サーバーの設定について詳しくは、[この節](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)を参照してください。
 
-* **[!UICONTROL BCC で E メールを送信]**：このオプションを使用すると、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存することができます。詳しくは、[こちらの節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
+* **[!UICONTROL BCC で E メールを送信]**：このオプションを使用すると、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存することができます。詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
 
-## 配信の確認{#confirming-delivery}
+## 配信の確認 {#confirming-delivery}
 
-配信が設定され、送信の準備が整ったら、配信分析を実行したことを確認します。
+配信の設定が終わり、送信準備が整ったら、必ず配信分析を実行してください。
 
-これを行うには、「**[!UICONTROL 送信]**」をクリックし、目的のアクションを選択して、「**[!UICONTROL 分析]**」をクリックします。 詳しくは、[分析の起動](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
+これをおこなうには、「**[!UICONTROL 送信]**」をクリックし、目的のアクションを選択して、「**[!UICONTROL 分析]**」をクリックします。詳しくは、[分析の起動](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -173,9 +173,9 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->ホストインストールまたはハイブリッドインストールの場合、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合、配信の再試行設定は、キャンペーンで使用されなくなります。 ソフトバウンスの再試行とその間隔は、メッセージの E メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
+>ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードした場合、Campaign では配信の再試行設定が使用されなくなります。ソフトバウンスの再試行とその間隔は、メッセージの E メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
 
-レガシーキャンペーンMTAを使用したオンプレミスインストールおよびホスト/ハイブリッドインストールの場合、配信パラメーターの&#x200B;**[!UICONTROL 「配信]**」タブの中央のセクションは、配信の翌日に実行する再試行の数と再試行間の最小遅延を示します。
+従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、配信パラメーターの「**[!UICONTROL 配信]**」タブの中央セクションは、配信の翌日に実行する再試行の数と再試行間の最小遅延を示します。
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
@@ -193,7 +193,7 @@ ht-degree: 89%
 
    >[!IMPORTANT]
    >
-   >ホスト型またはハイブリッド型のインストールでは、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合、キャンペーン電子メール配信の&#x200B;**[!UICONTROL 配信期間]**&#x200B;設定は、**3.5日以下**&#x200B;に設定した場合にのみ使用されます。 3.5 日を超える値を定義した場合、その値は考慮されません。
+   >ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードした場合、Campaign の E メール配信の&#x200B;**[!UICONTROL 配信期間]**&#x200B;設定は、**3.5 日以下**&#x200B;に設定された場合にのみ使用されます。3.5 日を超える値を定義した場合、その値は考慮されません。
 
 * **リソースの有効期限**：「**[!UICONTROL 有効期限]**」フィールドは、アップロードされたリソース（主にミラーページと画像）に関して使用されます。ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 

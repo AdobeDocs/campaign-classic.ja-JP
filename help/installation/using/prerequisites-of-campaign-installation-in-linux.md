@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 ---
 
 
-# Linux での Campaign のインストールの前提条件{#prerequisites-of-campaign-installation-in-linux}
+# Linuxにキャンペーンをインストールするための前提条件{#prerequisites-of-campaign-installation-in-linux}
 
 ## ソフトウェアの前提条件{#software-prerequisites}
 
@@ -180,27 +180,27 @@ Adobe CampaignでPostgreSQLを使用するには、対応する&#x200B;**pgcrypt
 
 64ビットDebianのライブラリバージョンを取得します。例：**libclntsh.so**、**libclntsh.so.11.1**、**libclntsh.so.10.1**。
 
-Linux RPMパッケージは、Oracle・テクノロジー・ネットワークから入手できます。
+Linux RPMパッケージは、Oracleテクノロジーネットワークから入手できます。
 
 >[!NOTE]
 >
->既にOracle・クライアントをインストール済みで、グローバル・環境(例：/etc/プロファイル)が正しく設定されていない場合は、**nl6/customer.sh**&#x200B;スクリプトに、足りない情報を追加できます。詳しくは、[環境変数](../../installation/using/installing-packages-with-linux.md#environment-variables)を参照してください。
+>oracleクライアントを既にインストールしているが、グローバル環境(例：/etc/プロファイル)が正しく設定されていない場合は、**nl6/customer.sh**&#x200B;スクリプトに、足りない情報を追加できます。詳しくは、[環境変数](../../installation/using/installing-packages-with-linux.md#environment-variables)を参照してください。
 
 **トラブルシューティングとベストプラクティス**
 
-問題は、Oracleクライアントまたはサーバーのアップデート、バージョンの変更、またはインスタンスの最初のインストールの後に発生する可能性があります。
+問題は、Oracleクライアントまたはサーバーの更新、バージョンの変更の後、またはインスタンスの最初のインストール時に発生する可能性があります。
 
-クライアントコンソールで、ログ、ワークフローの最後の処理、次の処理などに予期しない時間の遅れ（1時間以上）があることに気付いた場合は、OracleクライアントのライブラリとOracleサーバーの間に問題が発生する可能性があります。 そのような問題を回避するには
+ログ、ワークフローの最後の処理、次の処理などに予期しない時間の遅れ（1時間以上）がクライアントコンソールで認識された場合は、OracleクライアントのライブラリとOracleサーバーの間で問題が発生する可能性があります。 そのような問題を回避するには
 
 1. **完全なクライアント**&#x200B;を必ず使用してください。
 
-   oracleインスタントクライアントバージョンを使用する際に、様々な問題が特定されました。 さらに、インスタントクライアントでTimezoneファイルを変更することはできません。
+   oracleインスタントクライアントのバージョンを使用する際に、様々な問題が見つかりました。 さらに、インスタントクライアントでTimezoneファイルを変更することはできません。
 
 1. **クライアントバージョン**&#x200B;と&#x200B;**データベースサーバーバージョン**&#x200B;が&#x200B;**同じ**&#x200B;であることを確認してください。
 
-   oracleの互換表にもかかわらずバージョンを混在させ、クライアントとサーバーのバージョンを一致させるための推奨事項が問題の原因として知られています。
+   oracleの互換表にもかかわらず、バージョンを混在させ、クライアントとサーバーのバージョンを一致させるための推奨事項を示すことが、問題の原因として知られています。
 
-   また、ORACLE_HOME値をチェックして、期待されるクライアントバージョン（マシンに複数のバージョンがインストールされている場合）を指していることを確認します。
+   また、ORACLE_HOMEの値をチェックして、期待されるクライアントのバージョン（マシンに複数のバージョンがインストールされている場合）を指しているかどうかを確認します。
 
 1. クライアントとサーバーが同じ&#x200B;**タイムゾーンファイル**&#x200B;を使用していることを確認します。
 

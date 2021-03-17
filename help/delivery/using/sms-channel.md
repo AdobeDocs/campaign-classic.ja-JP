@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: f78fa94fb4fb9236222886a167a46d252497b2aa
 workflow-type: tm+mt
 source-wordcount: '3252'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign には、パーソナライズした SMS メッセージを大量
 
 1. コネクタとメッセージのタイプを指定する外部アカウント。
 
-   次のコネクタは、リリース20.2以降非推奨となります。汎用SMPP （バイナリ・モードをサポートするSMPPバージョン3.4）、Sybase365 (SAP SMS 365)、CLX Communications、Tele2、O2、iOS。 非推奨（廃止予定）の機能は引き続き使用できますが、それ以上の機能強化やサポートはおこなわれません。詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)を参照してください。
+   リリース 20.2 より非推奨となるコネクタは次のとおりです。一般的な SMPP（バイナリモードをサポートする SMPP バージョン 3.4）、Sybase365（SAP SMS 365）、CLX Communications、Tele2、O2、iOS。非推奨（廃止予定）の機能は引き続き使用できますが、それ以上の機能強化やサポートはおこなわれません。詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)を参照してください。
 
 1. 使用する外部アカウントへの参照を含んだ配信テンプレート。
 
@@ -525,7 +525,7 @@ InSMS スキーマには、受信 SMS に関する情報が含まれます。そ
    >
    >次のフィールドは NetSize に特有のものです。
    >
-   >使用する通信事業者が NetSize ではない場合、これらのフィールドの値は空とみなされます。
+   >使用する通信事業者が NetSize ではない場合、これらのフィールドの値は空と見なされます。
 
 * **alias**：受信メッセージのエイリアス
 * **separator**：エイリアスとメッセージ本文との区切り記号
@@ -549,7 +549,7 @@ Adobe Campaign 経由で送信した SMS メッセージに対し、購読者か
 >
 >次の詳細手順は、SMPP コネクタ（拡張された SMPP コネクタは除く）の場合のみ有効です。詳しくは、[SMPP 外部アカウントの作成](#creating-an-smpp-external-account)の節を参照してください。
 >
->これは、米国の通信事業者が国内のマーケティングキャンペーンで実行する認証プロセスの一環です。このようなキーワードを含む購読者の SMS メッセージを受信した場合は、ただちに購読者に返信する必要があります。
+>これは、米国の通信事業者が国内のマーケティングキャンペーンで実行する認証プロセスの一環です。このようなキーワードを含む購読者の SMS メッセージを受信した場合は、直ちに購読者に返信する必要があります。
 
 1. 次のような XML ファイルを作成します。
 
@@ -590,10 +590,10 @@ Adobe Campaign 経由で送信した SMS メッセージに対し、購読者か
 
    Linux ではファイル名の大文字と小文字が区別される点に注意してください。
 
-1. このファイルを、Adobe Campaign の **conf** ディレクトリ内の、Web サーバーと同じ場所にコピーします。
+1. このファイルを、Adobe Campaign の **conf** ディレクトリ内の、web サーバーと同じ場所にコピーします。
 
 >[!IMPORTANT]
 >
 >こうした自動メッセージは、履歴には記録されず、[配信ダッシュボード](../../delivery/using/delivery-dashboard.md)にも表示されません。
 >
->これらのメッセージは、[商業的な頻度ルール](../../campaign/using/pressure-rules.md)の対象とはみなされません。
+>これらのメッセージは、[商業的な頻度ルール](../../campaign/using/pressure-rules.md)の対象とは見なされません。

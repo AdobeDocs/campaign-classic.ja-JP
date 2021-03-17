@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: トラッキング URL の検出
+title: 追跡URLの検出
 description: URLを追跡するための推奨パターンについての詳細
 audience: delivery
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
 workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 11%
+ht-degree: 86%
 
 ---
 
 
-# トラッキング URL の検出
+# 追跡URLの検出
 
 ## 検出されない例
 

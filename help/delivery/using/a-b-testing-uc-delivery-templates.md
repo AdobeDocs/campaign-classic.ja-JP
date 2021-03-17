@@ -2,20 +2,20 @@
 solution: Campaign Classic
 product: campaign
 title: 配信テンプレートの作成
-description: 専用の使用例を通してA/Bテストを実行する方法を学びます。
+description: 専用のユースケースを通して A/B テストを実行する方法を説明します。
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 50a10e16f320a67cb4ad0e31c1cbe8a9365b7887
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '99'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
 
-# 配信テンプレートの作成{#step-3--creating-two-delivery-templates}
+# 配信テンプレートの作成 {#step-3--creating-two-delivery-templates}
 
 ここでは、2 つの配信テンプレートを作成します。各テンプレートは、「**[!UICONTROL 分割]**」アクティビティとリンクした「**[!UICONTROL E メール配信]**」アクティビティで参照されます。詳しくは、[この節](../../delivery/using/about-templates.md)を参照してください。
 
@@ -32,4 +32,4 @@ ht-degree: 62%
 
    ![](assets/use_case_abtesting_deliverymodel_003.png)
 
-これで、ワークフロー内の配信を設定できます([手順4:ワークフロー](../../delivery/using/a-b-testing-uc-configuring-deliveries.md)の配信を設定します)。
+これで、ワークフロー内の配信を設定できます（[手順 4：ワークフローでの配信の設定](../../delivery/using/a-b-testing-uc-configuring-deliveries.md)を参照）。

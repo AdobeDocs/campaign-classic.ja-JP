@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 権限設定を使用する
+title: 権限の基本を学ぶ
 description: キャンペーン機能へのアクセスを許可する方法を学びます。
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: f7e4f129a96e80ec169428057f661165d8b967c9
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 66%
+ht-degree: 69%
 
 ---
 
 
-# アクセス許可を使用して開始する{#access-management}
+# 権限の基本を学ぶ{#access-management}
 
 Adobe Campaign は、様々なオペレーターに割り当てる一連の権利を定義したり、管理したりするのに役立ちます。以下の操作は、それらの権利に基づいて承認または拒否されます。
 
@@ -25,7 +25,7 @@ Adobe Campaign は、様々なオペレーターに割り当てる一連の権�
 
 権限は、オペレーターのプロファイルまたはオペレーターグループに付与されます。
 
-これらの操作は、オペレーターの Adobe Campaign に対する接続モードにリンクされた安全パラメーターに基づいて実行されます。[このページ](../../installation/using/configuring-campaign-server.md#defining-security-zones)のセキュリティゾーンの詳細。
+これらの操作は、オペレーターの Adobe Campaign に対する接続モードにリンクされた安全パラメーターに基づいて実行されます。[このページ](../../installation/using/security-zones.md)のセキュリティゾーンの詳細。
 
 ユーザーに付与できる権限には次の 2 種類があります。
 

@@ -5,11 +5,11 @@ title: パーソナライズされたコンテンツの作成
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2aa1a1c5da7b552cae916885c011aa4aaf9b61db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1277'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ E メールの制限を守るには、以下を考慮してください。
 
 レスポンシブデザインを使用すると、E メールを開封するデバイスに応じて E メールを最適に表示できます。
 
-* Web HTML ではなく、レスポンシブ E メール HTML を使用します
+* web HTML ではなく、レスポンシブ E メール HTML を使用します
 
 * プレビューモードと配達確認を使用して、できるだけ多くのデバイス上でレンダリングをテストします
 
@@ -150,12 +150,12 @@ E メールの制限を守るには、以下を考慮してください。
 
 * 配信ウィザードで、画像を含んだ HTML ページをインポートするか、HTML エディターの&#x200B;**[!UICONTROL 画像]**&#x200B;アイコンを使用して直接画像を挿入します。[詳細情報](../../delivery/using/defining-the-email-content.md#adding-images)
 
-* 画像が表示されない場合は、その画像がサーバー上で使用できることを確認してください。そのためには、配信から「ソース」タブをクリックします。使用する画像を探し、各画像の URL をコピーして Web ブラウザーに貼り付けます。画像が表示されない場合は、IT 管理者か、配信コンテンツを提供しているサードパーティベンダーに問い合わせてください。
+* 画像が表示されない場合は、その画像がサーバー上で使用できることを確認してください。そのためには、配信から「ソース」タブをクリックします。使用する画像を探し、各画像の URL をコピーして web ブラウザーに貼り付けます。画像が表示されない場合は、IT 管理者か、配信コンテンツを提供しているサードパーティベンダーに問い合わせてください。
 
-## メッセージのプレビュー  {#preview-msg}
+## メッセージのプレビュー{#preview-msg}
 
 メッセージをプレビューして、パーソナライゼーションと受信者に対する配信の表示方法を確認することをお勧めします。
 
-* 配信ウィザードでは、「**[!UICONTROL プレビュー]**」サブタブを使用して、受信者の各コンテンツのレンダリングを表示できます。 コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。[詳細情報](../../delivery/using/defining-the-email-content.md#message-content)
+* 配信ウィザードの「**[!UICONTROL プレビュー]**」サブタブでは、特定の受信者向けに各コンテンツをレンダリングした結果を確認できます。コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。[詳細情報](../../delivery/using/defining-the-email-content.md#message-content)
 
-* 各プレビュー中にスパム対策チェックが自動的に実行されます。「**[!UICONTROL プレビュー]**」サブタブで、[SpamAssicin](../../delivery/using/spamassassin.md) のスパムスコアを確認します。「**[!UICONTROL 詳細…]**」をクリックして、警告の詳細を確認します。その前に、SpamAssassin が Adobe Campaign アプリケーションサーバーに正しくインストールされ、設定されていることを確認してください。[詳細情報](../../installation/using/configuring-spamassassin.md)
+* 各プレビュー中にスパム対策チェックが自動的に実行されます。「**[!UICONTROL プレビュー]**」サブタブで、[SpamAssassin](../../delivery/using/spamassassin.md) のスパムスコアを確認します。「**[!UICONTROL 詳細…]**」をクリックして、警告の詳細を確認します。その前に、SpamAssassin が Adobe Campaign アプリケーションサーバーに正しくインストールされ、設定されていることを確認してください。[詳細情報](../../installation/using/configuring-spamassassin.md)

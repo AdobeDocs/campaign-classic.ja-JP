@@ -7,7 +7,7 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 98%
@@ -93,7 +93,7 @@ ht-degree: 98%
 
 パスワードの入力なしでコントロールインスタンスから実行インスタンスに接続できるようにするには、**Message Center** の「アクセス権」セクションでコントロールインスタンスの IP アドレスを入力します。ただし、デフォルトでは空のパスワードを使用することは禁止されています。
 
-空のパスワードを使用するには、実行インスタンスに移動し、イベントを配信する情報システムの IP アドレスに限定したセキュリティゾーンを定義します。このセキュリティゾーンは、空のパスワードと `<identifier> / <password>` タイプの接続を許可している必要があります。詳しくは、[この節](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。
+空のパスワードを使用するには、実行インスタンスに移動し、イベントを配信する情報システムの IP アドレスに限定したセキュリティゾーンを定義します。このセキュリティゾーンは、空のパスワードと `<identifier> / <password>` タイプの接続を許可している必要があります。詳しくは、[この節](../../installation/using/security-zones.md)を参照してください。
 
 >[!NOTE]
 >
@@ -148,7 +148,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >**mc1** と **mc2** オペレーターには、**[!UICONTROL Message Center の実行]**&#x200B;権限を与える必要があり、Adobe Campaign クライアントコンソールへのアクセス権は与えてはなりません。オペレーターは、必ずセキュリティゾーンにリンクされていなければなりません。詳しくは、[この節](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。
+   >**mc1** と **mc2** オペレーターには、**[!UICONTROL Message Center の実行]**&#x200B;権限を与える必要があり、Adobe Campaign クライアントコンソールへのアクセス権は与えてはなりません。オペレーターは、必ずセキュリティゾーンにリンクされていなければなりません。詳しくは、[この節](../../installation/using/security-zones.md)を参照してください。
 
 1. 各オペレーターで、「**[!UICONTROL 次のサブフォルダー内の情報に制限]**」ボックスをオンにし、該当フォルダー（**mc1** オペレーターは&#x200B;**フォルダー 1**、**mc2** オペレーターは&#x200B;**フォルダー 2**）を選択します。
 

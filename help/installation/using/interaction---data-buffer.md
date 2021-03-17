@@ -7,19 +7,17 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 3%
+source-wordcount: '299'
+ht-degree: 17%
 
 ---
 
 
 # インタラクション - データバッファ{#interaction-data-buffer}
 
->[!NOTE]
->
->一部の設定は、Adobeがホストする配置に対してのみAdobeが実行できます。 例えば、サーバー設定ファイルやインスタンス設定ファイルにアクセスする場合です。 各デプロイメントの詳細については、[「モデルのホスト](../../installation/using/hosting-models.md)」セクションまたは[このページ](../../installation/using/capability-matrix.md)を参照してください。
+データバッファゾーンを設定すると、オファー提案の計算が非同期化され、インバウンドインタラクションのパフォーマンスを向上できます。この設定は、インスタンス自体の設定ファイル（config-Instance.xml）で実行できます。
 
 Adobe Campaignでは、**データバッファーゾーン**&#x200B;がインタラクションモジュールに導入されました。 これにより、在庫とオファーの計算を非同期化して、受信インタラクションのパフォーマンス&#x200B;**を**&#x200B;向上させることができます。
 
@@ -27,12 +25,19 @@ Adobe Campaignでは、**データバッファーゾーン**&#x200B;がインタ
 
 受信者に関する提案を書き込む際のキューを回避するために、新しいプロセスは、提案を&#x200B;**非同期で**&#x200B;書き込む&#x200B;**データバッファゾーン**&#x200B;を生成する。 このデータ・バッファ・ゾーンは定期的に読み取られ、空になる。 既定の期間は約1秒の間隔です。したがって、提案書の作成はグループ化されます。
 
+>[!NOTE]
+>
+>インタラクションを分散アーキテクチャで使用する場合、これは必要不可欠なパラメーターです。
+
 データバッファーゾーン&#x200B;**設定**&#x200B;は、インスタンスの設定ファイル(config-Instance.xml)で実行できます。
 
->[!NOTE]
+>[!CAUTION]
+>
+>一部の設定は、Adobeがホストする配置に対してのみAdobeが実行できます。 例えば、サーバー設定ファイルやインスタンス設定ファイルにアクセスする場合です。 各デプロイメントの詳細については、[「モデルのホスト](../../installation/using/hosting-models.md)」セクションまたは[このページ](../../installation/using/capability-matrix.md)を参照してください。
 >
 >設定に変更を加えた場合は、Webサーバー(Apache:IIS)を再起動し、Adobe Campaignプロセスを実行する必要があります。\
 >データバッファゾーンを設定した後、適切なハードウェア設定が使用可能であることを確認してください。 （存在するメモリ量）。
+
 
 データバッファゾーンを設定した後、適切なハードウェア設定が使用可能であることを確認してください。 （存在するメモリ量）。
 

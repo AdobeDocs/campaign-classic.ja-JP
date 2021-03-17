@@ -1,57 +1,57 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 拡張MTAを使用したAdobe Campaign Classicでの送信
-description: Adobe Campaign拡張MTAを使用した電子メール送信の範囲と特性について説明します。
+title: Enhanced MTA を使用した Adobe Campaign Classic での送信
+description: Adobe Campaign Enhanced MTA を使用した E メール送信の範囲と特異性について説明します。
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c64b6eccd0ad45ebcf4ecc18150f4409f5c66bc2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1950'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
-# 拡張MTAでの送信{#sending-with-enhanced-mta}
+# Enhanced MTA を使用した送信 {#sending-with-enhanced-mta}
 
-**Adobe Campaign拡張MTA** (Mail Transfer Agent)は、アップグレードされた送信インフラストラクチャを提供し、配信性、評価、スループット、レポート、バウンス処理、IPランプのアップ、接続設定管理を改善します。
+**Adobe Campaign Enhanced MTA**（メール転送エージェント）は、アップグレードされた送信インフラストラクチャを提供し、配信品質、評判、スループット、レポート、バウンス処理、IP ランプアップ、接続設定管理を向上します。
 
-拡張性の向上、配信のスループットの向上、より多くの電子メールをより速く送信できるように実装されています。 これは、インターネットサービスプロバイダーからのフィードバックに基づいて電子メール送信設定をリアルタイムに変更する、新しいアダプティブ配信のテクニックを活用して達成できます。
+Adobe Campaign Enhanced MTA は、スケーラビリティの向上、配信スループットの増加、より多くの E メールをより速く送信できるように実装されています。これは、インターネットサービスプロバイダーからのフィードバックに基づいて E メール送信設定をリアルタイムに変更する、新しいアダプティブ配信のテクニックを活用して達成されます。
 
 >[!IMPORTANT]
 >
->Adobe Campaign拡張MTAは、Campaign Classicがホストするお客様またはハイブリッドのお客様のみ利用できます。 拡張MTAを使用するために、Campaign Classicのオンプレミスインストールをアップグレードすることはできません。
+>Adobe Campaign Enhanced MTA は、Campaign Classic のホスト型顧客またはハイブリッド型顧客のみ利用できます。Enhanced MTA を使用するために、Campaign Classic のオンプレミスインストールをアップグレードすることはできません。
 
-2018年9月以降にCampaign Classicインスタンスをプロビジョニングした場合は、拡張MTAを使用します。 その他のCampaign Classicのお客様の場合は、下記の[よくある質問](#enhanced-mta-faq)を参照してください。
+2018 年 9 月以降に Campaign Classic インスタンスをプロビジョニングした場合は、Enhanced MTA を使用しています。その他の Campaign Classic の顧客の場合は、下記の[よくある質問](#enhanced-mta-faq)を参照してください。
 
-拡張MTAの実装は、既存のキャンペーン機能の一部に影響を与える場合があります。 詳しくは、[拡張MTAの特殊性](#enhanced-mta-impacts)を参照してください。
+Enhanced MTA の実装は、既存の Campaign 機能の一部に影響を与える場合があります。詳しくは、[Enhanced MTA の特異性](#enhanced-mta-impacts)を参照してください。
 
 >[!NOTE]
 >
->Adobe Campaignのエンドユーザーで、インスタンスが拡張MTAにアップグレード済みかどうかを確認する場合は、社内キャンペーン管理者にお問い合わせください。
+>Adobe Campaign のエンドユーザーで、インスタンスが Enhanced MTA にアップグレード済みかどうかを確認する場合は、社内 Campaign 管理者にお問い合わせください。
 
 ## よくある質問 {#enhanced-mta-faq}
 
-### 使用状況とメリット
+### 使用法とメリット
 
-**拡張MTAとは**
+**Enhanced MTA とは何ですか？**
 
-SparkPostの商用電子メールMTA **Moment**&#x200B;を実行する新しいMTA (Mail Transfer Agent)を使用するように、Adobe Campaignをアップグレードできるようになりました。
+Adobe Campaign をアップグレードすると、SparkPost の商用 E メール MTA（**Momentum**）を実行する新しい MTA（メール転送エージェント）を使用できるようになります。
 
-Momementは、インボックスの最適な配信率を達成し維持するための高度なバウンス処理と自動配信品質最適化機能を含む、革新的で高パフォーマンスなMTAテクノロジーを表しています。<!--More than 37% of the world’s business email is sent using SparkPost’s MTA technology.-->
+Momentum は、インボックスの最適な配信率を達成し維持するための高度なバウンス処理と自動配信品質最適化機能を含む、革新的で高パフォーマンスな MTA テクノロジーを提供します。<!--More than 37% of the world’s business email is sent using SparkPost’s MTA technology.-->
 
-**メリットは何ですか。**
+**メリットは何ですか？**
 
-* 拡張MTAを使用するAdobe Campaignクライアントは、<!--300%-->全体的なスループット速度が大幅に向上し、<!--90%+-->ソフトバウンスが大幅に低下しています。
-* 拡張MTAは、最新のMTAテクノロジを使用して、電子メール配信の最適なスループット速度を提供します。
-* 受け取ったフィードバックに即時に自動的に適応させることで、リアルタイムの配信データを使用した、より正確でインテリジェントな電子メール配信も実現します。
+* Enhanced MTA を使用する Adobe Campaign クライアントは、<!--300%-->全体的なスループット速度が大幅に向上し、<!--90%+-->ソフトバウンスも大きく低下しています。
+* Enhanced MTA は、最新の MTA テクノロジーを使用して、E メール配信の最適なスループット速度を提供します。
+* 受け取ったフィードバックに即時に自動的に適応させることで、リアルタイムの配信データを使用した、より正確でインテリジェントな E メール配信も実現します。
 
-**ネイティブのAdobe CampaignMTAと拡張MTAを同時に使用できますか。**
+**ネイティブの Adobe Campaign MTA と Enhanced MTA を同時に使用できますか？**
 
-いいえ。インスタンスのアップグレード後は、電子メール配信に拡張MTAのみを使用できます。
+いいえ。インスタンスのアップグレード後は、E メール配信に Enhanced MTA のみ使用できます。
 
 <!--
 **Is there a fee associated with upgrading my instance to and subsequent use of the Enhanced MTA?**
@@ -64,166 +64,166 @@ No, there is no extra fee associated with the upgrade process to enable the use 
 * For Adobe Campaign Classic existing customers, we’ve implemented a phased rollout that covers all hosted or partially hosted (hybrid) instances. If you’re not already using it, we’ll be contacting you in the near future with the dates and details for upgrading your Adobe Campaign Classic instances to the Enhanced MTA.
 -->
 
-### 拡張MTAへのアップグレード
+### Enhanced MTA へのアップグレード
 
-**拡張MTAにアップグレードするために必要なもの**
+**Enhanced MTA にアップグレードするために必要なものは何ですか？**
 
-2018年9月以降にCampaign Classicインスタンスをプロビジョニングした場合は、拡張MTAを既に使用しているので、操作は必要ありません。
+2018 年 9 月以降に Campaign Classic インスタンスをプロビジョニングした場合は、Enhanced MTA を既に使用しているので、必要なアクションはありません。
 
-その他すべてのホストまたは部分的にホストされる（ハイブリッド）お客様の場合、Adobe Campaignチームは移行の日付を調整するために声を上げ、移行に必要な適切な手順の詳細を提供します。
-
->[!IMPORTANT]
->
->拡張MTAは、オンプレミスインストールでは使用できません。
-
-**インスタンスを拡張MTAにアップグレードするプロセスについて教えてください。**
-
-ホストされるインスタンスのプロセス全体で、数分のダウンタイムが必要です。 Adobeは、アップグレード後24時間までEメールのスループットと配信品質を監視し、Eメール配信に与える影響を評価します。
-
-問題が検出された場合、Adobeは、すばやく一時的にインスタンスをネイティブAdobe CampaignMTAに戻すことができます。
-
-現在、拡張MTAは電子メールチャネルにのみ影響します。 プッシュ通知とSMS配信は、引き続きネイティブキャンペーンMTAを使用し、アップグレードの影響を受けません。
-
-**拡張MTAにアップグレードした後、IPのウォーミングを再度行う必要がありますか。**
-
-いいえ。アップグレードする際に新しいIPに切り替える必要がないので、既存の、温められた電子メールIPを引き続き使用できます。
-
-**拡張MTAへのアップグレードは、現在進行中のキャンペーンや配信に影響を与えますか。**
-
-拡張MTAを使用するようにインスタンスをアップグレードする前に準備された配信は、新しいMTAを正しく使用するために再準備する必要があります。
-
-Adobe Campaignトランザクションメッセージング機能を使用するお客様の場合、トリガーへのAPI呼び出しと電子メールは、アップグレードの非常に短いダウンタイム中にキューに入れられ、アップグレードの完了時に試行されます。
-
-## MTAの特殊性の強化{#enhanced-mta-impacts}
-
-### MTAヘッダの強化
-
-最新のCampaign Classicインスタンスには、必要な拡張MTAヘッダーをすべてのメッセージに追加するコードが含まれています。 Adobe Campaign19.1（ビルド9032）以上を使用していて、そうでない場合は、（[serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)ファイル内で）マーケティングインスタンス設定に「useMoment=true」パラメーターを追加する必要があります。
-
-ただし、このコードを含まない古いインスタンスを使用する場合は、拡張MTA用の&#x200B;**[!UICONTROL タイポロジルール]**という新しいタイポロジルールを、キャンペーンインスタンス内の既存のすべてのタイポロジに追加する必要があります。
-このルールは、拡張MTAへのアップグレードの一環としてインストールされた**[!UICONTROL タイポロジ]**&#x200B;パッケージによって追加されます。
+その他すべてのホスト型または部分的にホストされている（ハイブリッド型）顧客の場合、Adobe Campaign チームから連絡が行き、移行の日付を調整し、移行に必要となる適切な手順の詳細を提供します。
 
 >[!IMPORTANT]
 >
->このタイポロジルールがタイポロジに表示される場合は、削除または変更をしないでください。 そうしないと、電子メール配信に悪影響が及ぶ可能性があります。
+>Enhanced MTA は、オンプレミスインストールでは使用できません。
 
-この&#x200B;**[!UICONTROL タイポロジ]**&#x200B;パッケージをAdobe Campaignマーケティングインスタンスにインストールする必要があります。
+**インスタンスを Enhanced MTA にアップグレードするプロセスとはどのようなものですか？**
 
-ハイブリッドクライアントの場合、拡張MTAへのアップグレードの一環として、Adobe Campaignチームからマーケティングインスタンスに&#x200B;**[!UICONTROL Typology]**&#x200B;パッケージをインストールする方法に関する手順が提供されます。 詳細な手順については、アカウント担当者にお問い合わせください。
+ホストされるインスタンスのプロセス全体で、数分のダウンタイムが必要です。アドビは、アップグレード後 24 時間まで E メールのスループットと配信品質を監視し、E メール配信に与える影響を評価します。
+
+問題が検出された場合、アドビは、インスタンスをネイティブ Adobe Campaign MTA にすばやく一時的に戻すことができます。
+
+現在、Enhanced MTA は E メールチャネルにのみ影響します。プッシュ通知と SMS 配信は、引き続きネイティブ Campaign MTA を使用し、アップグレードの影響は受けません。
+
+**Enhanced MTA にアップグレードした後、IP のウォーミングを再度おこなう必要がありますか？**
+
+いいえ。アップグレードする際に新しい IP に切り替える必要がないので、ウォーミングがおこなわれた既存の E メール IP を引き続き使用できます。
+
+**Enhanced MTA へのアップグレードは、現在進行中のキャンペーンや配信に影響を与えますか？**
+
+インスタンスを Enhanced MTA にアップグレードする前に既に準備済みだった配信は、新しい MTA を正しく使用するために、準備をやり直す必要があります。
+
+Adobe Campaign トランザクションメッセージ機能を使用する顧客の場合、E メールをトリガーする API 呼び出しは、アップグレードの非常に短いダウンタイム中にキューに入り、アップグレードの完了時に試行されます。
+
+## Enhanced MTA の特異性 {#enhanced-mta-impacts}
+
+### Enhanced MTA ヘッダー
+
+最新の Campaign Classic インスタンスには、必要な Enhanced MTA ヘッダーをすべてのメッセージに追加するコードが含まれています。Adobe Campaign 19.1（ビルド 9032）以上を使用していて、このケースに当てはまらない場合は、（[serverConf.xml](../../installation/using/the-server-configuration-file.md#mta) ファイルの）マーケティングインスタンス設定に「useMomentum=true」パラメーターを追加する必要があります。
+
+ただし、このコードを含まない古いインスタンスを使用している場合は、**[!UICONTROL Typology Rule for Enhanced MTAs]** という名前の新しいタイポロジルールを、Campaign インスタンス内のすべての既存タイポロジに追加する必要があります。
+このルールは、Enhanced MTA へのアップグレードの一環としてインストールされた**[!UICONTROL タイポロジ]**&#x200B;パッケージによって追加されます。
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Typology]**&#x200B;パッケージのインストール方法に関するAdobe Campaignチームの指示に従う必要があります。 そうしないと、電子メールの送信に使用するIPに重大な問題が発生する場合があります。
+>このタイポロジルールがタイポロジに表示される場合は、削除または変更をしないでください。E メール配信に悪い影響を与える可能性があります。
 
-類型について詳しくは、[このセクション](../../campaign/using/about-campaign-typologies.md)を参照してください。
+この&#x200B;**[!UICONTROL タイポロジ]**&#x200B;パッケージを Adobe Campaign マーケティングインスタンスにインストールする必要があります。
 
-### 新しいMXルール
+ハイブリッドクライアントの場合、Enhanced MTA へのアップグレードの一環として、Adobe Campaign チームからマーケティングインスタンスに&#x200B;**[!UICONTROL タイポロジ]**&#x200B;パッケージをインストールする方法に関する手順が提供されます。詳細な手順については、アカウント担当者にお問い合わせください。
 
-MX管理配信のスループットルールは使用されなくなりました。 拡張MTAには独自のMXルールがあり、このMXルールを使用して、独自の履歴電子メールの評価に基づいて、また電子メールを送信するドメインからのリアルタイムフィードバックに基づいて、ドメイン別にスループットをカスタマイズできます。
+>[!IMPORTANT]
+>
+>**[!UICONTROL タイポロジ]**&#x200B;パッケージのインストール方法に関する Adobe Campaign チームの指示に従う必要があります。従わない場合、E メールの送信に使用する IP に重大な問題が発生する場合があります。
+
+タイポロジについて詳しくは、[この節](../../campaign/using/about-campaign-typologies.md)を参照してください。
+
+### 新しい MX ルール
+
+MX 管理配信のスループットルールは使用されなくなりました。Enhanced MTA には独自の MX ルールがあります。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズできます。
 
 MX 設定について詳しくは、[この節](../../installation/using/email-deliverability.md#mx-configuration)を参照してください。
 
-### バウンスの資格
+### バウンスの選定
 
-キャンペーン&#x200B;**[!UICONTROL 配信ログ資格]**&#x200B;テーブルのバウンスの資格は、**同期**&#x200B;配信エラーメッセージには使用されなくなりました。 Enhanced MTA は、バウンスのタイプと選定を決定し、その情報を Campaign に返します。
+Campaign **[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、**同期**&#x200B;配信の失敗エラーメッセージには使用されなくなりました。Enhanced MTA は、バウンスのタイプと選定を決定し、その情報を Campaign に返します。
 
 >[!NOTE]
 >
->拡張MTAはSMTPバウンスの資格を得、その資格をキャンペーンバウンスの理由と資格にマッピングされたバウンスコードの形式でキャンペーンに返します。
+>Enhanced MTA は SMTP バウンスを選定し、その選定を Campaign バウンスの理由と選定にマッピングしたバウンスコードの形式で Campaign に返します。
 
-バウンスの資格について詳しくは、[このセクション](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)を参照してください。
+バウンスの選定について詳しくは、[この節](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)を参照してください。
 
 ### 配信スループット
 
-キャンペーン配信のスループットグラフには、電子メール受信者に対してスループットが表示されなくなります。 このグラフは、キャンペーンから拡張MTAへのメッセージのリレーのスループット速度を示します。
+Campaign 配信スループットグラフでは、E メール受信者に対するスループットが表示されなくなります。グラフには Campaign から Enhanced MTA へのメッセージのリレーのスループット速度が表示されるようになりました。
 
-配信のスループットの詳細については、[このセクション](../../reporting/using/global-reports.md#delivery-throughput)を参照してください。
+配信スループットについて詳しくは、[この節](../../reporting/using/global-reports.md#delivery-throughput)を参照してください。
 
 ### 有効期間
 
-キャンペーン配信の有効期間設定は、拡張MTAで&#x200B;**3.5日以下**&#x200B;に設定されている場合にのみ使用されます。 キャンペーンが3.5日を超える値を定義した場合は、考慮されません。
+キャンペーン配信の有効期間設定は、Enhanced MTA で **3.5 日以下**&#x200B;に設定されている場合にのみ使用されます。Campaign で 3.5 日を超える値を定義した場合、その値は考慮されません。
 
-例えば、有効期間がデフォルト値の5日間のキャンペーンに設定されている場合、ソフトバウンスメッセージは拡張MTAの再試行キューに入り、そのメッセージが拡張MTAに到達してから最大3.5日間再試行されます。 この場合、キャンペーンに設定された値は使用されません。
+例えば、Campaign で有効期間がデフォルト値の 5 日間に設定されている場合、ソフトバウンスメッセージは Enhanced MTA の再試行キューに入り、そのメッセージが Enhanced MTA に到達してから最大 3.5 日間再試行されます。この場合、Campaign に設定された値は使用されません。
 
-メッセージが3.5日間拡張MTAキューに入り、配信に失敗すると、タイムアウトになり、配信ログ内の&#x200B;**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;にステータスが更新されます。
+メッセージが Enhanced MTA キューに置かれた日数が 3.5 日に達しても配信に失敗した場合は、タイムアウトになり、配信ログでのステータスは、**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に更新されます。
 
 有効期間について詳しくは、[この節](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)を参照してください。
 
-### DKIM署名
+### DKIM 署名
 
-DKIM(DomainKeys Identified Mail)電子メール認証の署名は、拡張MTAによって行われます。 ネイティブの Campaign MTA による DKIM 署名は、Enhanced MTA アップグレードの一環としてドメイン管理テーブル内で無効になります。DKIMの詳細については、[このセクション](../../delivery/using/technical-recommendations.md#dkim)を参照してください。
+DKIM（DomainKeys Identified Mail）E メール認証の署名は、Enhanced MTA によっておこなわれます。ネイティブの Campaign MTA による DKIM 署名は、Enhanced MTA アップグレードの一環として、ドメイン管理テーブル内で無効になります。DKIM について詳しくは、[この節](../../delivery/using/technical-recommendations.md#dkim)を参照してください。
 
 ### 配信成功レポート
 
-電子メール配信[ダッシュボード](../../delivery/using/delivery-dashboard.md)の&#x200B;**[!UICONTROL 概要]**&#x200B;表示では、**[!UICONTROL 成功]**&#x200B;の開始は100%で終わり、配信[有効期間](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)を通じて徐々に減少し、ソフトバウンスとハードバウンスは拡張MTAから返されます。キャンペーン
+E メール配信[ダッシュボード](../../delivery/using/delivery-dashboard.md)の&#x200B;**[!UICONTROL 概要]**&#x200B;表示では、**[!UICONTROL 成功]**&#x200B;のパーセンテージは 100%から開始し、配信[有効期間](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)を通してソフトバウンスとハードバウンスが Enhanced MTA から Campaign に返されるたびに、徐々に減少します。
 
-実際、すべてのメッセージは、キャンペーンから拡張MTAへ正常に中継されると、[送信ログ](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)に&#x200B;**[!UICONTROL 送信済み]**&#x200B;として表示されます。 メッセージの[バウンス](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)が拡張MTAからキャンペーンに返されるまで、これらのメッセージはそのステータスのままです。
+実際、すべてのメッセージは、Campaign から Enhanced MTA へ正常に中継されるとすぐに、[送信ログ](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)に&#x200B;**[!UICONTROL 送信済み]**&#x200B;として表示されます。メッセージの[バウンス](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)が Enhanced MTA からキャンペーンに返されるまで、メッセージのステータスは変わりません。
 
-強化されたMTAからハードバウンスメッセージが報告されると、そのステータスが&#x200B;**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に変わり、**[!UICONTROL 成功]**&#x200B;の割合がそれに応じて減少します。
+Enhanced MTA からハードバウンスメッセージが返されると、ステータスが&#x200B;**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが減少します。
 
-ソフトバウンスメッセージが拡張MTAから返されると、**[!UICONTROL 送信済み]**&#x200B;と表示され、**[!UICONTROL 成功]**&#x200B;の割合はまだ更新されていません。 ソフトバウンスメッセージは、配信の有効期間全体で[再試行](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)されます。
+ソフトバウンスメッセージが Enhanced MTA から返されると、引き続き&#x200B;**[!UICONTROL 送信済み]**&#x200B;と表示され、**[!UICONTROL 成功]**&#x200B;の割合はまだ更新されません。ソフトバウンスメッセージは、配信の有効期間中ずっと[再試行](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)されます。
 
-* 有効期間の終了前に再試行が成功した場合、メッセージのステータスは&#x200B;**[!UICONTROL 送信済み]**&#x200B;のままとなり、**[!UICONTROL 成功]**&#x200B;の割合は変わりません。
+* 有効期間の終了前に再試行が成功した場合、メッセージのステータスは&#x200B;**[!UICONTROL 送信済み]**&#x200B;のままで、**[!UICONTROL 成功]**&#x200B;のパーセンテージは変わりません。
 
-* それ以外の場合は、ステータスが&#x200B;**[!UICONTROL 失敗]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;の割合が減少します。
+* それ以外の場合は、ステータスが&#x200B;**[!UICONTROL 失敗]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが減少します。
 
-その結果、有効期間の終わりまで待って、最終的な&#x200B;**[!UICONTROL 成功]**&#x200B;の割合と、実際に&#x200B;**[!UICONTROL 送信された]**&#x200B;および&#x200B;**[!UICONTROL 失敗した]**&#x200B;のメッセージの最終数を確認する必要があります。
+そのため、有効期間の終了まで待って、最終的な&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージと、実際に&#x200B;**[!UICONTROL 送信済み]**&#x200B;および&#x200B;**[!UICONTROL 失敗]**&#x200B;となったメッセージの最終数を確認する必要があります。
 
 <!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
-### 電子メールフィードバックサービス（ベータ版） {#email-feedback-service}
+### E メールフィードバックサービス（ベータ版） {#email-feedback-service}
 
-Email Feedback Service(EFS)機能を使用すると、フィードバックが拡張MTA(Message Transfer Agent)から直接取り込まれるので、各電子メールのステータスが正確にレポートされます。
+E メールフィードバックサービス（EFS）機能を使用すると、フィードバックが Enhanced MTA（メッセージ転送エージェント）から直接取り込まれるので、各 E メールのステータスが正確にレポートされます。
 
 >[!IMPORTANT]
 >
->電子メールフィードバックサービスは、現在ベータ版機能としてご利用いただけます。
+>E メールフィードバックサービスは、現在ベータ版機能としてご利用いただけます。
 >
 >このベータプログラムへの参加を希望される場合は、[このフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u)に記入し、お問い合わせください。
 
-配信が起動したら、キャンペーンから拡張MTAにメッセージが正常に中継された場合に、**[!UICONTROL 成功]**&#x200B;の割合に変更はありません。
+配信の開始後、Campaign から Enhanced MTA にメッセージが正常に中継されると、**[!UICONTROL 成功]**&#x200B;のパーセンテージは変更されません。
 
 <!--![](assets/efs-sending.png)-->
 
-配信ログには、対象アドレスごとにサービスプロバイダー&#x200B;]**のステータスに基づいて**[!UICONTROL &#x200B;考慮されるが表示されます。
+配信ログには、対象アドレスごとに&#x200B;**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;ステータスが表示されます。
 
 <!--![](assets/efs-pending.png)-->
 
-メッセージが対象プロファイルに実際に配信され、この情報が拡張MTAからリアルタイムでレポートされると、配信ログは、メッセージを受信した各アドレスの&#x200B;**[!UICONTROL 送信済み]**&#x200B;ステータスを示します。 **[!UICONTROL 成功]**&#x200B;の割合は、成功した各配信に応じて増加します。
+メッセージが対象プロファイルに実際に配信され、この情報が Enhanced MTA からリアルタイムでレポートされると、配信ログは、メッセージを受信した各アドレスの&#x200B;**[!UICONTROL 送信済み]**&#x200B;ステータスを示します。**[!UICONTROL 成功]**&#x200B;のパーセンテージは、成功した各配信に応じて増加します。
 
-強化されたMTAからハードバウンスメッセージが報告されると、ログのステータスが&#x200B;**[!UICONTROL サービスプロバイダー]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->に変更されます。
+Enhanced MTA からハードバウンスメッセージが報告されると、ログのステータスが&#x200B;**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->に変更されます。
 
-ソフトバウンスメッセージが拡張MTAから返されると、そのログのステータスは変更されません(**[!UICONTROL サービスプロバイダー]**&#x200B;が考慮)。[エラーの理由](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)のみが更新<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->されます。 **[!UICONTROL 成功]**&#x200B;の割合は変更されません。 その後、ソフトバウンスメッセージが配信[有効期間](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)を通して再試行されます。
+ソフトバウンスメッセージが Enhanced MTA から返されても、ログのステータスは変更されません（**[!UICONTROL サービスプロバイダーで受信済み]**）。[エラー理由](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)のみが更新されます<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->。**[!UICONTROL 成功]**&#x200B;のパーセンテージは変更されません。その後、ソフトバウンスメッセージが配信[有効期間](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)中ずっと再試行されます。
 
-* 有効期間の終了前に再試行が成功した場合、メッセージのステータスは&#x200B;**[!UICONTROL 送信済み]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;の割合が増えます。
+* 有効期間の終了前に再試行が成功した場合、メッセージのステータスは&#x200B;**[!UICONTROL 送信済み]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増えます。
 
-* それ以外の場合は、ステータスが&#x200B;**[!UICONTROL 失敗]**&#x200B;に変わります。 **[!UICONTROL 成功]** <!--and **[!UICONTROL Bounces + errors]** -->の割合は変更されません。
+* それ以外の場合は、ステータスが&#x200B;**[!UICONTROL 失敗]**&#x200B;に変わります。**[!UICONTROL 成功]**<!--and **[!UICONTROL Bounces + errors]** -->のパーセンテージは変更されません。
 
 >[!NOTE]
 >
->ハードバウンスとソフトバウンスの詳細については、[このセクション](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
+>ハードバウンスとソフトバウンスについて詳しくは、[この節](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
 >
->配信の一時的なエラー後の再試行について詳しくは、[このセクション](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
+>一時的な配信エラー後の再試行について詳しくは、[この節](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
 
 
-次の表に、KPIの変更と、EFS機能によって導入された送信ログのステータスを示します。
+次の表に、KPI の変更と、EFS 機能によって導入された送信ログのステータスを示します。
 
-**電子メールフィードバックサービス付き**
+**E メールフィードバックサービスを使用する**
 
-| 送信プロセスの手順 | KPIサマリ | ログのステータスの送信 |
+| 送信プロセスの手順 | KPI 概要 | 送信ログのステータス |
 |--- |--- |--- |
-| キャンペーンから拡張MTAへのメッセージの転送が正常に行われました | **** 成功率が表示されない(開始が0%で表示される) | サービスプロバイダーによる判断 |
-| 強化されたMTAからハードバウンスメッセージが返される | **[!UICONTROL 成功]**&#x200B;の割合に変更はありません | 失敗 |
-| ソフトバウンスメッセージが拡張MTAから返される | **[!UICONTROL 成功]**&#x200B;の割合に変更はありません | サービスプロバイダーによる判断 |
-| ソフトバウンスメッセージの再試行が成功しました | **[!UICONTROL それに応じて]** 成功の割合が増加します | 送信済み |
-| ソフトバウンスメッセージの再試行に失敗 | **[!UICONTROL 成功]**&#x200B;の割合に変更はありません | 失敗 |
+| Campaign から Enhanced MTA にメッセージが正常に転送される | **[!UICONTROL 成功]**&#x200B;パーセンテージが表示されない（0%から開始） | サービスプロバイダーで受信済み |
+| Enhanced MTA からハードバウンスメッセージが返される | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 失敗 |
+| ソフトバウンスメッセージが Enhanced MTA から返される | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | サービスプロバイダーで受信済み |
+| ソフトバウンスメッセージの再試行が成功する | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増加する | 送信済み |
+| ソフトバウンスメッセージの再試行に失敗する | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 失敗 |
 
-**電子メールフィードバックサービスなし**
+**E メールフィードバックサービスを使用しない**
 
-| 送信プロセスの手順 | KPIサマリ | ログのステータスの送信 |
+| 送信プロセスの手順 | KPI 概要 | 送信ログのステータス |
 |--- |--- |--- |
-| キャンペーンから拡張MTAへのメッセージの転送が正常に行われました | **[!UICONTROL 100%で]** の開始の成功率 | 送信済み |
-| 強化されたMTAからハードバウンスメッセージが返される | **** 成功率がそれに応じて減少 | 失敗 |
-| ソフトバウンスメッセージが拡張MTAから返される | **[!UICONTROL 成功]**&#x200B;の割合に変更はありません | 送信済み |
-| ソフトバウンスメッセージの再試行が成功しました | **[!UICONTROL 成功]**&#x200B;の割合に変更はありません | 送信済み | **[!UICONTROL それに応じて]** 成功の割合が増加します | 送信済み |
-| ソフトバウンスメッセージの再試行に失敗 | **** 成功率がそれに応じて減少 | 失敗 |
+| Campaign から Enhanced MTA にメッセージが正常に転送される | **[!UICONTROL 成功]**&#x200B;パーセンテージは 100%から開始 | 送信済み |
+| Enhanced MTA からハードバウンスメッセージが返される | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;パーセンテージが減少する | 失敗 |
+| ソフトバウンスメッセージが Enhanced MTA から返される | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 送信済み |
+| ソフトバウンスメッセージの再試行が成功する | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 送信済み | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増加する | 送信済み |
+| ソフトバウンスメッセージの再試行に失敗する | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;パーセンテージが減少する | 失敗 |

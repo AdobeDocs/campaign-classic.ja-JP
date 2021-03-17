@@ -7,7 +7,7 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 2%
@@ -27,7 +27,7 @@ Adobe Campaignv7の一部の主な変更では、有効な動作を確保する�
 * **tablespace**&#x200B;属性は、デフォルトで値を取り戻します。つまり、デプロイメント・ウィザードで定義された値です。
 * NmsRecipientテーブルに参照表示を追加した場合は、移行前にそれを削除する必要があります。
 
-この警告は、Oracleのユーザーにも関係しています。アップグレード後に&#x200B;**usetimestamptz:1**&#x200B;オプションを追加した場合（[タイムゾーン](../../migration/using/general-configurations.md#time-zones)を参照）、少なくとも1つの&#x200B;**date+time**&#x200B;フィールドを含むすべてのテーブルが再構築されます。
+この警告は、Oracleユーザーにも関係します。アップグレード後に&#x200B;**usetimestamptz:1**&#x200B;オプションを追加した場合（[タイムゾーン](../../migration/using/general-configurations.md#time-zones)を参照）、少なくとも1つの&#x200B;**date+time**&#x200B;フィールドを含むすべてのテーブルが再構築されます。
 
 ## 移行前{#before-the-migration}
 
@@ -39,7 +39,7 @@ Adobe Campaignv7に移行する際は、次の要素を設定する必要があ�
 
    「マルチタイムゾーン」モードを使用したい場合は、[タイムゾーン](../../migration/using/general-configurations.md#time-zones)の節を参照してください。
 
-   データベースとしてOracleを使用する場合は、Oracleタイムゾーンファイルがアプリケーションサーバーとデータベースサーバーの間で正しく同期されていることを確認してください。 詳しくは、[Oracle](../../migration/using/general-configurations.md#oracle)の節を参照してください。
+   oracleをデータベースとして使用する場合は、Oracleタイムゾーンファイルがアプリケーションサーバーとデータベースサーバーの間で正しく同期されていることを確認してください。 詳しくは、[Oracle](../../migration/using/general-configurations.md#oracle)の節を参照してください。
 
 * セキュリティゾーン
 
@@ -109,7 +109,7 @@ Adobe Campaignv7に移行する際は、次の要素を設定する必要があ�
 
 * セキュリティゾーン。
 
-   サーバーを起動する前に、セキュリティゾーンを構成する必要があります。 詳しくは、[このセクション](../../installation/using/configuring-campaign-server.md#defining-security-zones)と[セキュリティ](../../migration/using/general-configurations.md#security)を参照してください。
+   サーバーを起動する前に、セキュリティゾーンを構成する必要があります。 詳しくは、[このセクション](../../installation/using/security-zones.md)と[セキュリティ](../../migration/using/general-configurations.md#security)を参照してください。
 
 * スキーマ
 

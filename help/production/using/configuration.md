@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 3%
@@ -45,4 +45,4 @@ export TRACE_ADDR=localhost:<listening port>
 
 >[!NOTE]
 >
->セキュリティゾーンの設定について詳しくは、[この](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。
+>セキュリティゾーンの設定について詳しくは、[この](../../installation/using/security-zones.md)を参照してください。

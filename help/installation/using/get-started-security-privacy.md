@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: セキュリティとプライバシーの概要
+title: セキュリティとプライバシーの基本を学ぶ
 description: セキュリティとプライバシーに関する主要な要素についての詳細。
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: 45a77d3fc143ab9c6f9f17ab6118f8816254f6fd
+source-git-commit: 922603492d2c98d751683d3aa481e9ab19bca70c
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 64%
+source-wordcount: '450'
+ht-degree: 56%
 
 ---
 
 
-# セキュリティとプライバシーを使い始める{#get-started-security-privacy}
+# セキュリティとプライバシーの基本を学ぶ {#get-started-security-privacy}
 
-このセクションでは、セキュリティとプライバシーに関する確認が必要な主要要素について説明します。
+このセクションでは、セキュリティとプライバシーに関する確認が必要な主要要素について説明します。 一部の設定は、オンプレミスのお客様のみが実行できます。
 
 ## プライバシー
 
@@ -30,7 +30,7 @@ ht-degree: 64%
 * 暗号化されたパスワードが制限されていることを確認します。
 * ミラーページや Web アプリケーションのように、個人情報を含む可能性があるページを保護します。
 
-[詳細を表示](../../installation/using/privacy.md)
+[詳細情報](../../installation/using/privacy.md)
 
 ## アクセス管理
 
@@ -42,9 +42,9 @@ ht-degree: 64%
 * 各オペレーターのアクセス権が適切であることをチェックする
 * 管理オペレーターを使用しないようにし、さらに管理グループのオペレーターが多くなりすぎないようにする
 
-[詳細を表示](../../installation/using/access-management.md)
+[詳細情報](../../installation/using/access-management.md)
 
-## スクリプティングとコーディングのガイドライン
+## スクリプトとコーディングのガイドライン
 
 <img src="assets/do-not-localize/icon_scripting.svg" width="60px">
 
@@ -52,13 +52,13 @@ Adobe Campaign(ワークフロー、JavaScript、JSSPなど)で開発する場�
 
 * **スクリプティング**：SQL 文は使用しないようにします。文字列連結ではなく、パラメーター化関数を使用します。使用する SQL 関数を許可リストに追加して、SQL インジェクションを回避します。
 
-* **データモデルの保護**：ネームド権限を使用してオペレーターの操作を制限します。システムフィルター（sysFilter）を追加します。
+* **データモデルの保護**:ネームド権限を使用して演算子のアクションを制限し、システム・フィルターを追加(sysFilter)
 
-* **Web アプリケーションへの Captcha の追加**：パブリックのランディングページと購読ページに Captcha を追加する方法について説明します。
+* **Webアプリケーション追加でのcaptchas**:パブリックランディングページと購読ページにcaptchaを追加する方法を説明します。
 
-[詳細を表示](../../installation/using/scripting-coding-guidelines.md)
+[詳細情報](../../installation/using/scripting-coding-guidelines.md)
 
-## ネットワーク、データベース、SSL／TLS
+## ネットワーク、データベース、SSL/TLS
 
 <img src="assets/do-not-localize/icon_network.svg" width="60px">
 
@@ -66,7 +66,7 @@ Adobe Campaign(ワークフロー、JavaScript、JSSPなど)で開発する場�
 
 また、データベースエンジンのセキュリティに従う必要があります。
 
-[詳細を表示](../../installation/using/network-database.md)
+[詳細情報](../../installation/using/network-database.md)
 
 ## サーバー設定
 
@@ -84,17 +84,17 @@ Adobe Campaign(ワークフロー、JavaScript、JSSPなど)で開発する場�
 
 * また、HTTP ヘッダーを追加したり、checkIPConsistent、enableTLS、sessionTimeOutSec などを有効にしたりすることもできます。詳細については、[キャンペーンサーバー設定ドキュメント](../../installation/using/configuring-campaign-server.md)および[サーバー設定ファイルの説明](../../installation/using/the-server-configuration-file.md)を参照してください。
 
-[詳細を表示](../../installation/using/server-configuration.md)
+[詳細情報](../../installation/using/server-configuration.md)
 
-## Web サーバーの設定
+## Web サーバー設定
 
 <img src="assets/do-not-localize/icon_web.svg" width="60px">
 
 Webサーバー(Apache/IIS)を設定する際は、次のいくつかのベストプラクティスに従う必要があります。
 
-* 古い SSL のバージョンと暗号を無効にします。
-* TRACE メソッドを削除します。
+* 古い SSL のバージョンと暗号を無効にする
+* TRACEメソッドの削除
 * バナーを削除します。
-* クエリのサイズを制限して、重要なファイルがアップロードされないようにします。
+* 重要なファイルがアップロードされないようにクエリサイズを制限する
 
-[詳細を表示](../../installation/using/web-server-configuration.md)
+[詳細情報](../../installation/using/web-server-configuration.md)

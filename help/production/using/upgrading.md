@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 33debcd6e399d2780277644103a620d46c22022e
+source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1186'
 ht-degree: 14%
 
 ---
@@ -50,7 +50,6 @@ ht-degree: 14%
       **iisreset /stop**
 
    * Adobe Campaignサービス：**nlserver6** net stop nlserver6
-
    >[!IMPORTANT]
    >
    >また、IISで使用される&#x200B;**nlsrvmod.dll**&#x200B;ファイルを新しいバージョンに置き換えるために、リダイレクトサーバー(webmdl)が停止していることを確認する必要があります。
@@ -117,7 +116,7 @@ ht-degree: 14%
 * [更新の実行](#perform-an-update)、
 * [Webサーバーを再起動します](#reboot-the-web-server)。
 
-クライアントコンソールの更新方法については、[このセクション](../../installation/using/client-console-availability-for-linux.md)を参照してください。
+[クライアントコンソールの可用性についての詳細](../../installation/using/client-console-availability-for-windows.md)。
 
 >[!NOTE]
 >
@@ -129,7 +128,7 @@ Adobe Campaignの両方の更新されたパッケージを回復することに
 
 ファイルは&#x200B;**nlserver6-v7-XXX.rpm**&#x200B;です。
 
-### 更新を実行{#perform-an-update}
+### 更新{#perform-an-update}を実行
 
 * RPMベースの配布(RedHat、SuSe)
 
@@ -173,8 +172,10 @@ Adobe Campaignの両方の更新されたパッケージを回復することに
 >
 >* スクリプトの名前は、**apache**&#x200B;の代わりに&#x200B;**httpd**&#x200B;にすることができます。
 >* 次の応答を取得するまで、このコマンドを実行する必要があります。
->
->   この操作は、Apacheが新しいライブラリを適用するために必要です。
+
+   >
+   >   
+   この操作は、Apacheが新しいライブラリを適用するために必要です。
 
 
 次に、Apacheを再起動します。

@@ -1,13 +1,13 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Web サービスの呼び出し
-description: Web サービスの呼び出し
+title: web サービスの呼び出し
+description: web サービスの呼び出し
 audience: configuration
 content-type: reference
 topic-tags: api
 translation-type: tm+mt
-source-git-commit: c366326f6a439dabaa42fdd799ec2e55c180a929
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 ---
 
 
-# Web サービスの呼び出し{#web-service-calls}
+# web サービスの呼び出し{#web-service-calls}
 
 ## 一般情報 {#general-information}
 
@@ -188,7 +188,7 @@ WSDL記述開始。Webサービスを形成する「バインディング」に�
 
 ## 接続{#connectivity}
 
-Adobe Campaignは、セキュリティゾーンの導入（**[この節](../../installation/using/configuring-campaign-server.md#defining-security-zones)の**&#x200B;セキュリティゾーンの定義の章を参照）およびセッション管理の設定を通じて、認証メカニズムのセキュリティを強化しました。
+Adobe Campaignは、セキュリティゾーンの導入（**[この節](../../installation/using/security-zones.md)の**&#x200B;セキュリティゾーンの定義の章を参照）およびセッション管理の設定を通じて、認証メカニズムのセキュリティを強化しました。
 
 次の2つの認証モードを使用できます。
 

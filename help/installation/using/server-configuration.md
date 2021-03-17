@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 75%
+source-wordcount: '1159'
+ht-degree: 77%
 
 ---
 
@@ -29,8 +29,6 @@ ht-degree: 75%
 >
 >
 インスタンスが AWS でホストされているかどうかを確認するには、[この節](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)に記載されている手順に従います。
-
-セキュリティゾーンセルフサービスUIを使用してVPNセキュリティゾーン構成のエントリを管理する方法については、[このテクノチャ](https://helpx.adobe.com/jp/campaign/kb/configuring-security-zones-self-service.html)を参照してください。
 
 * subNetwork でリバースプロキシが許可されていないことを確認します。許可されている場合は、**すべての**&#x200B;トラフィックがこのローカル IP から来ているものとして検出され、信頼されます。
 
@@ -127,6 +125,6 @@ Adobe Campaignを使用すると、`<dbcnx .../>`要素にプレーンパスワ�
 
 デフォルトでは、Adobe Campaign はセッションを特定の IP に関連付けませんが、この機能を有効にして、セッションが乗っ取られないようにすることができます。これを行うには、[serverConf.xmlファイル](../../installation/using/the-server-configuration-file.md)で、`<authentication>`ノードのcheckIPConsistent属性を&#x200B;**true**&#x200B;に設定します。
 
-デフォルトでは、Adobe Campaign の MTA は、コンテンツを SMTP サーバーに送信する際にセキュリティ保護された接続を使用しません。この機能を有効にする必要があります（配信速度が低下する可能性があります）。これを行うには、`<smtp ...>`ノードでenableTLSをtr**ueに設定します。
+デフォルトでは、Adobe Campaign の MTA は、コンテンツを SMTP サーバーに送信する際にセキュリティ保護された接続を使用しません。この機能を有効にする必要があります（配信速度が低下する可能性があります）。これを行うには、`<smtp ...>`ノードで&#x200B;**enableTLS**&#x200B;を&#x200B;**true**&#x200B;に設定します。
 
 認証ノードでセッションの持続時間を短くすることができます（sessionTimeOutSec 属性）。

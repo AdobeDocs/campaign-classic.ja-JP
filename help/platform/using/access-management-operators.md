@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 97%
@@ -15,7 +15,7 @@ ht-degree: 97%
 ---
 
 
-# オペレータの作成と管理{#operators}
+# オペレーターの作成と管理 {#operators}
 
 ## キャンペーン演算子の使用を開始する{#about-operators}
 
@@ -33,7 +33,7 @@ Adobe Campaign と LDAP の統合について詳しくは、[このページ](..
 
 >[!IMPORTANT]
 >
->インスタンスにログオンするには、オペレーターがセキュリティゾーンにリンクされている必要があります。Adobe Campaign でのセキュリティゾーンについて詳しくは、[このページ](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。
+>インスタンスにログオンするには、オペレーターがセキュリティゾーンにリンクされている必要があります。Adobe Campaign でのセキュリティゾーンについて詳しくは、[このページ](../../installation/using/security-zones.md)を参照してください。
 
 Adobe ID を使用して Adobe Campaign に直接接続することもできます。詳しくは、この[ページ](../../integrations/using/about-adobe-id.md)を参照してください。
 
@@ -106,7 +106,7 @@ Adobe ID を使用して Adobe Campaign に直接接続することもできま�
    >このアカウントが無効になっていても、オペレーターは Campaign からアラートや通知を受け取ることができます。 このオペレーターへの Campaign 通知の送信を停止するには、プロファイルからメールアドレスを削除することを推奨します。
 
 * 「**[!UICONTROL リッチクライアントからのアクセスを禁止]**」オプションを使用すると、Adobe Campaign の使用を [Web アクセス](../../platform/using/adobe-campaign-workspace.md#console-and-web-access)または API に制限できます。これにより、Adobe Campaign クライアントコンソールにアクセスできなくなります。
-* 安全ゾーンをオペレーターに関連付けることができます。詳しくは、[このページ](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。
+* 安全ゾーンをオペレーターに関連付けることができます。詳しくは、[このページ](../../installation/using/security-zones.md)を参照してください。
 * また、適切なリンクを使用して、信頼できる IP マスクを定義することもできます。
 
    オペレーターは、このリストに含まれる IP アドレスからアクセスした場合、パスワードを入力することなく Adobe Campaign に接続できます。

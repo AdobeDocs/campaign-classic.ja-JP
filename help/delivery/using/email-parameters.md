@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Adobe Campaign Classicでの電子メールパラメーターの設定
-description: 電子メール配信に固有のオプションと設定について説明します。
+title: Adobe Campaign Classic での E メールパラメーターの設定
+description: E メール配信に固有のオプションと設定について説明します。
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e84387c7c396c60c429c3f625870a97a7fdaef5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
 # E メールパラメーター {#email-parameters}
 
-この節では、電子メール配信に固有のオプションとパラメーターについて説明します。
+この節では、E メール配信に固有のオプションとパラメーターについて説明します。
 
 ## BCC で E メールを送信{#email-bcc}
 
@@ -25,13 +25,13 @@ Adobe Campaign では、BCC アドレスをメッセージのターゲットに�
 
 このオプションを有効にしたら、送信したすべてのメッセージの正確なコピーがこの配信用に保持されます。
 
-「BCC で E メールを送信」の設定とベストプラクティスの詳細については、 [この節](../../installation/using/email-archiving.md)を参照してください。
+「BCC で E メールを送信」の設定とベストプラクティスの詳細については、[この節](../../installation/using/email-archiving.md)を参照してください。
 
 >[!NOTE]
 >
 >「BCC で E メールを送信」はオプションの機能です。この機能を有効にするには、ライセンス契約を確認したうえで、アカウント担当者にお問い合わせください。
 
-新しい配信または配信テンプレートを作成する場合、「BCC で E メールを送信」はデフォルトで有効になっていません。電子メール配信または配信テンプレートレベルで手動で有効にする必要があります。
+新しい配信または配信テンプレートを作成する場合、「BCC で E メールを送信」はデフォルトで有効になっていません。E メール配信または配信テンプレートレベルで手動で有効にする必要があります。
 
 E メール配信テンプレートの「BCC で E メールを送信」を有効にするには、次の手順に従います。
 
@@ -45,7 +45,7 @@ E メール配信テンプレートの「BCC で E メールを送信」を有�
 
 >[!NOTE]
 >
->BCC アドレスに送信された電子メールが開封され、クリックされた場合は、送信分析の&#x200B;**[!UICONTROL 合計開封数]**&#x200B;と&#x200B;**[!UICONTROL クリック数]**&#x200B;に含められますが、計算の誤りの原因となる可能性があります。
+>BCC アドレスに送信された E メールが開封され、クリックされた場合は、送信分析の&#x200B;**[!UICONTROL 合計開封数]**&#x200B;と&#x200B;**[!UICONTROL クリック数]**&#x200B;に含められますが、計算の誤りの原因となる可能性があります。
 
 ## メッセージ形式の選択 {#selecting-message-formats}
 
@@ -73,11 +73,11 @@ E メール配信テンプレートの「BCC で E メールを送信」を有�
 
 >[!NOTE]
 >
->電子メールの内容の定義について詳しくは、[このセクション](../../delivery/using/defining-the-email-content.md)を参照してください。
+>E メールの内容の定義について詳しくは、[この節](../../delivery/using/defining-the-email-content.md)を参照してください。
 
 ## ミラーページの生成 {#generating-mirror-page}
 
-ミラーページは、Web ブラウザーからオンラインアクセス可能な HTML ページです。コンテンツは E メールと変わりません。
+ミラーページは、web ブラウザーからオンラインアクセス可能な HTML ページです。コンテンツは E メールと変わりません。
 
 デフォルトでは、メールコンテンツ内にリンクが挿入されているとミラーページが生成されます。パーソナライゼーションブロックの挿入について詳しくは、[パーソナライゼーションブロック](../../delivery/using/personalization-blocks.md)を参照してください。
 
@@ -115,11 +115,11 @@ E メール配信テンプレートの「BCC で E メールを送信」を有�
 
 デフォルトでは、バウンスメールはプラットフォームのデフォルトエラーボックスに受信されますが、配信用の専用エラーアドレスを定義することもできます。
 
-また、バウンスメールの発生理由をアプリケーションで自動判定できない場合の調査用に、この画面から特定のアドレスを定義できます。これらの各フィールドに対して、**パーソナライズされたフィールド追加**&#x200B;アイコンを使用して、パーソナライズパラメーターを追加できます。
+また、バウンスメールの発生理由をアプリケーションで自動判定できない場合の調査用に、この画面から特定のアドレスを定義できます。**パーソナライゼーションフィールドの追加**&#x200B;アイコンを使用すると、各フィールドにパーソナライゼーションパラメーターを追加できます。
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 
-バウンスメールの管理について詳しくは、[このセクション](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management)を参照してください。
+バウンスメールの管理について詳しくは、[この節](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management)を参照してください。
 
 ## SMTP ヘッダーの追加 {#adding-smtp-headers}
 

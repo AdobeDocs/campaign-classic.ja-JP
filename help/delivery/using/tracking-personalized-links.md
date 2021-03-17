@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: パーソナライズされたリンクのトラッキングの基本を学ぶ
+title: パーソナライズされたリンクの追跡を開始する
 description: パーソナライズ可能な電子メールにリンクを記述し、Campaign Classicでの追跡をサポートする方法を説明します。
 audience: delivery
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 6b81d0ea22bf9d8f33e486535b4ce02fbae7b9ae
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 7%
+ht-degree: 87%
 
 ---
 
 
-# パーソナライズされたリンクのトラッキングの基本を学ぶ {#tracking-personalized-links}
+# パーソナライズされたリンクの追跡を開始する{#tracking-personalized-links}
 
 パーソナライゼーションを含む電子メールコンテンツ内のリンクは、特定の構文を追跡する必要があります。
 

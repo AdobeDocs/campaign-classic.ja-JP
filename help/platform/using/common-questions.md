@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+source-git-commit: baa41d876b889d2746f593e97f6b624dfffa5911
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Adobe Managed Services を使用している場合は、Campaign Gold Standard �
 
 ## 3. どうすればセキュリティゾーンを設定できますか？{#how-can-i-configure-security-zones-}
 
-セキュリティゾーンのセルフサービスインターフェイスを使用すると、Adobe Campaign Classic デプロイメントの VPN セキュリティゾーン設定にあるエントリを管理できます。Campaign のセキュリティゾーンについては、[この節](../../installation/using/configuring-campaign-server.md#defining-security-zones)を参照してください。
+セキュリティゾーンのセルフサービスインターフェイスを使用すると、Adobe Campaign Classic デプロイメントの VPN セキュリティゾーン設定にあるエントリを管理できます。Campaign のセキュリティゾーンについては、[この節](../../installation/using/security-zones.md)を参照してください。
 
 セキュリティゾーンセルフサービス UI について[詳しくはここをクリック](https://helpx.adobe.com/jp/campaign/kb/configuring-security-zones-self-service.html)してください。
 

@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1032'
 ht-degree: 100%
 
 ---
@@ -101,11 +101,6 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 このタイプの添付ファイルについては、次の設定手順に従います。
 
 1. アップロードするファイルを選択します。
-
-   >[!NOTE]
-   >
-   >ソースファイルは LibreOffice で作成する必要があります。インスタンスは、[この節](../../installation/using/before-starting.md)で説明されている前提条件に沿って設定されている必要があります。
-
 1. 必要な場合はラベルを指定します。
 1. 「**[!UICONTROL ファイルをサーバーにアップロード]**」を選択し、「**[!UICONTROL サーバーで更新]**」をクリックして転送を開始します。
 1. プレビューを表示するには、受信者を選択します。

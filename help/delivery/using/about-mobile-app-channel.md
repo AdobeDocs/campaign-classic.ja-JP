@@ -6,11 +6,11 @@ description: ここでは、Adobe Campaign Classic のモバイルアプリチ�
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 93%
 
 **[!UICONTROL NMAC オプトアウト管理]**（mobileAppOptOutMgt）ワークフローにより、モバイルデバイスでの通知購読解除が更新されます。このワークフローの詳細については、[テクニカルワークフローのリスト](../../workflow/using/about-technical-workflows.md)を参照してください。
 
-Adobe CampaignはHTTP/2 APNと互換性があります。 設定手順の詳細については、[Adobe Campaign でのモバイルアプリケーションの設定](../../delivery/using/configuring-the-mobile-application.md)の節を参照してください。
+Adobe Campaign は HTTP/2 APN と互換性があります。設定手順の詳細については、[Adobe Campaign でのモバイルアプリケーションの設定](../../delivery/using/configuring-the-mobile-application.md)の節を参照してください。
 
 ## データパス {#data-path}
 
@@ -85,7 +85,7 @@ Adobe CampaignはHTTP/2 APNと互換性があります。 設定手順の詳細�
 
 ![](assets/nmac_delivery_view.png)
 
-Adobe Campaignサーバーは、iOS HTTP/2コネクタ用の443ポートのAPNsサーバーに接続できる必要があります。
+Adobe Campaign サーバーは、iOS HTTP/2 コネクタ用の 443 ポートの APNs サーバーに接続できる必要があります。
 
 正しく動作することを確認するには、次のコマンドを使用します。
 
@@ -101,5 +101,5 @@ Adobe Campaignサーバーは、iOS HTTP/2コネクタ用の443ポートのAPNs�
    telnet gateway.push.apple.com
    ```
 
-iOS HTTP/2コネクターを使用する場合、MTA、Webサーバー、およびワークフローサーバーが、ポート443のAPNに接続できる必要があります。
+iOS HTTP/2 コネクタを使用する場合、MTA、web サーバーおよびワークフローサーバーは、ポート 443 で APNs と通信できる必要があります。
 

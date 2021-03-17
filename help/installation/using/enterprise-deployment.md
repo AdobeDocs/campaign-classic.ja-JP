@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1221'
 ht-degree: 2%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 2%
    * 最初に公開され、仮想IPアドレス(VIP)上のロードバランサーをトラッキングして指し示し、2つの正面サーバーに配布されます。
    * 2つ目は、内部ユーザーに対してコンソール経由でアクセスし、仮想IPアドレス(VIP)上のロードバランサーを指し示し、2つのアプリケーションサーバーに配布されます。
 
-* STMP (25)、DNS (53)、HTTP (80)、HTTPS (443)、SQL （1521 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳しくは、[データベースアクセス](../../installation/using/network-configuration.md#database-access)を参照してください。
+* STMP (25)、DNS (53)、HTTP (80)、HTTPS (443)、SQL (1521)、Oracle用に5432などを開くように設定されたファイアウォール ポート。 詳しくは、[データベースアクセス](../../installation/using/network-configuration.md#database-access)を参照してください。
 
 >[!CAUTION]
 >
@@ -165,12 +165,7 @@ ht-degree: 2%
 
    詳しくは、[キャンペーンサーバーの設定](../../installation/using/campaign-server-configuration.md)を参照してください。
 
-1. クライアントコンソールのセットアッププログラム(**setup-client-7.XX**、**YYYY.exe** for v7、**setup-client-6.XX**、**YYYY.exe** for v6.1)を&#x200B;**/datakitにコピーします。/nl/eng/jsp**&#x200B;フォルダー
-
-   この点について詳しくは、以下の節を参照してください。
-
-   * Linuxの場合：[Linux用のクライアントコンソールの可用性](../../installation/using/client-console-availability-for-linux.md)
-   * Windowsの場合：[Windowsのクライアントコンソールの可用性](../../installation/using/client-console-availability-for-windows.md)。
+1. クライアントコンソールのセットアッププログラム(**setup-client-7.XX**、**YYYY.exe** for v7、**setup-client-6.XX**、**YYYY.exe** for v6.1)を&#x200B;**/datakitにコピーします。/nl/eng/jsp**&#x200B;フォルダー [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
 
 1. Adobe Campaignサーバー(Windowsでは&#x200B;**net開始nlserver6**、Linuxでは&#x200B;**/etc/init.d/nlserver6開始**)を開始し、**nlserver pdump**&#x200B;コマンドをもう一度実行して、有効なすべてのモジュールの存在を確認します。
 
@@ -194,16 +189,11 @@ ht-degree: 2%
 
 1. URLを使用して&#x200B;**nlserver web**&#x200B;モジュールをテストします。[https://console.campaign.net/nl/jsp/logon.jsp](https://tracking.campaign.net/r/test).
 
-   このURLを使用すると、クライアントセットアッププログラムのダウンロードページにアクセスできます。
+   このURLを使用すると、クライアントセットアッププログラムのダウンロードページにアクセスできます。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
 
    アクセス制御ページに到達したら、**内部**&#x200B;ログインと関連するパスワードを入力します。
 
    ![](assets/s_ncs_install_access_client.png)
-
-   この点について詳しくは、以下の節を参照してください。
-
-   * Linuxの場合：[Linux用のクライアントコンソールの可用性](../../installation/using/client-console-availability-for-linux.md)
-   * Windowsの場合：[Windowsでのクライアントコンソールの可用性](../../installation/using/client-console-availability-for-windows.md)
 
 ### アプリケーションサーバー2のインストールと設定{#installing-and-configuring-the-application-server-2}
 

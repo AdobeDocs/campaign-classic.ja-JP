@@ -2,14 +2,14 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic ドキュメントのアップデート
-description: このページには、Adobe Campaign Classic の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています
-audience: rns
-content-type: reference
-topic-tags: latest-documentation-updates
+description: このページでは、Adobe Campaign Classicのドキュメントのすべての新機能と更新をリストします
+feature: 概要
+role: ビジネス従事者
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
 workflow-type: tm+mt
-source-wordcount: '4213'
+source-wordcount: '4214'
 ht-degree: 99%
 
 ---

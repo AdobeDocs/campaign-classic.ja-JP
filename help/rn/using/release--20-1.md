@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: リリース 20.1
 description: リリース 20.1
-audience: rns
-content-type: reference
-topic-tags: campaign-release-notes, latest-release-notes
+feature: 概要
+role: ビジネス従事者
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1439'
 ht-degree: 97%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 ## ![](assets/do-not-localize/limited_2.png) リリース 20.1.4 - ビルド 9126 {#release-20-1-4-build-9126}
 
-_2020年12月23日_
+_2020 年 12 月 23 日_
 
 >[!CAUTION]
 >

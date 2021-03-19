@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: リリース 20.3
-description: リリース 20.3
-audience: rns
-content-type: reference
-topic-tags: campaign-release-notes, latest-release-notes
+title: キャンペーン20.3リリースノート
+description: キャンペーン20.3のリリースノート
+feature: 概要
+role: ビジネス従事者
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 1bd40c6acaceb1bb4839807ae89c6956bc2b8d69
+source-git-commit: 1f718e26aeaa5ed5a58dfd0e3bc29d2dd9e995ee
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 97%
+source-wordcount: '1956'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ _2020 年 10 月 27 日_
 >
 > * このリリースには、新しい接続プロトコルが付属しています。AdobeIDサービス(IMS)を介してキャンペーンに接続する場合、**2021年6月30日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるように、アップグレードが必要です。
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
-> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。従来の OAuth 認証モードは、**2021 年 4 月 30 日**&#x200B;に廃止されます。
+> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。キャンペーン付きの従来のoAuth認証モードは、2021年11月30日に&#x200B;**終了します。**
 
 
 **新機能**

@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 4%
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 次のコマンドラインを使用するには、アプリケーションサーバーにアクセスする機能が必要です。 Adobeがホストする配置では、これらのコマンドはAdobeのみが実行できます。
 
-## インスタンス{#creating-an-instance}の作成
+## インスタンス{#creating-an-instance}を作成
 
 インスタンスの作成は、次の構文を使用して、コマンドラインを使用して実行できます。
 
@@ -31,7 +31,7 @@ nlserver config -addinstance:instance/masques DNS[/lang]
 
 **nlserver config -addinstance:instance1/demo*/eng**&#x200B;コマンドを使用すると、**instance1**&#x200B;という名前のインスタンスを英語で作成し、DNSマスクdemo*を使用できます。
 
-## データベース{#declaring-a-database}の宣言
+## データベース{#declaring-a-database}を宣言
 
 次の構文を使用して、既存のデータベースをコマンドラインからインスタンスに関連付けることができます。
 
@@ -42,7 +42,7 @@ nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 **`[rdbms]`**&#x200B;パラメーターには次の値を指定できます。
 
 * **postgresql**:PostgreSQLの場合、
-* **oracle**:oracleは
+* **oracle**:oracleのために
 * **mssql**:Microsoft SQL Serverの場合、
 * **DB2**:（DB2エンジン用）
 

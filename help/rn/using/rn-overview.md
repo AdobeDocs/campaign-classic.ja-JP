@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: アップグレードの基本を学ぶ
 description: Campaign Classic アップグレードの詳細
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
+feature: 概要
+role: ビジネス従事者
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ### Gold Standard{#upgrade-for-gold-standard-users}
 
-Gold Standard のユーザーは、[最新の GA Gold Standard ビルド](../../rn/using/gold-standard.md#gs-11)を使用することで、自動的に Gold Standard のアップグレードのメリットが得られるため、操作は必要ありません。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)。
+Gold Standard のユーザーは、[最新の GA Gold Standard ビルド](../../rn/using/gold-standard.md#gs-11)を使用することで、自動的に Gold Standard のアップグレードのメリットが得られるため、操作は必要ありません。[詳細情報](../../rn/using/gs-overview.md)。
 
 >[!NOTE]
 >Gold Standard の互換性マトリックスは、[GA 互換性マトリックス](../../rn/using/compatibility-matrix-gs.md)に記載されています。

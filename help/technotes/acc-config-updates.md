@@ -6,7 +6,7 @@ description: テクノテ
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 849a95c718f9dc58aeabc8a49d3bf8290ea79b86
+source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 13%
@@ -25,6 +25,7 @@ ht-degree: 13%
 >[!NOTE]
 >
 >これらの変更点に関するご質問は、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+
 
 ## セキュリティの更新
 
@@ -101,7 +102,7 @@ Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[�
 
 ## Experience Cloudトリガーとの統合
 
-従来のoAuth認証サービスが提供終了に達しました。 元々、パイプラインにアクセスするためのoAuth認証設定に基づくトリガー統合認証は、Adobe I/Oに移行しました。**2021年4月30日**&#x200B;に退役します。 [詳細情報](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)。
+従来のoAuth認証サービスが提供終了に達しました。 元々、パイプラインにアクセスするためのoAUTH認証設定に基づくトリガー統合認証は、Adobe I/Oに移行しました。**2021年11月30日**&#x200B;に退役します。 [詳細情報](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)。
 
 **影響を受けているか**
 

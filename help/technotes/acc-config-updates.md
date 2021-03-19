@@ -6,9 +6,9 @@ description: テクノテ
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
+source-git-commit: 587daebd8a779bb9d0917fd2dfab4144494809e3
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1027'
 ht-degree: 13%
 
 ---
@@ -72,11 +72,11 @@ ht-degree: 13%
 
 AdobeIDサービス(IMS)は、2021年6月30日&#x200B;**から始まる古いバージョンのInternet Explorerのサポートを停止します。**[詳細情報](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)。
 
-キャンペーンクライアントコンソールが更新され、次のキャンペーンバージョンのAdobeIMSとの互換性が確保されました。
+キャンペーンクライアントコンソールが更新され、AdobeIMSとの互換性が確保されました。
 
 **影響を受けているか**
 
-Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[に接続する場合は、AdobeIDサービス(IMS)を使用して、以下の新しいバージョンの1つにアップグレードする必要があります。
+Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[に接続する場合は、AdobeIdentity Managementサービス(IMS)を使用して、以下の新しいバージョンの1つにアップグレードする必要があります。
 
 * ゴールドスタンダード11。 [詳細情報](../rn/using/gold-standard.md)
 * Campaign 21.1.1 リリース.[詳細情報](../rn/using/latest-release.md)

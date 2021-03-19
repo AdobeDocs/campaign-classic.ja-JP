@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: ドキュメント
 translation-type: tm+mt
-source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
+source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2473'
 ht-degree: 96%
 
 ---
@@ -651,7 +651,7 @@ ht-degree: 96%
       + [タイムゾーン管理](installation/using/time-zone-management.md)
       + [ミッドソーシングサーバーのインストール](installation/using/mid-sourcing-server.md)
    + キャンペーン（オンプレミス）の導入{#initial-configuration}
-      + [初期設定について](installation/using/about-initial-configuration.md)
+      + [主な手順](installation/using/about-initial-configuration.md)
       + [インスタンスの作成とログオン](installation/using/creating-an-instance-and-logging-on.md)
       + [データベースの作成と設定](installation/using/creating-and-configuring-the-database.md)
       + [Campaign サーバーの設定](installation/using/campaign-server-configuration.md)

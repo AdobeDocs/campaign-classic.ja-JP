@@ -3,14 +3,14 @@ solution: Campaign Classic
 product: campaign
 title: 最新リリース
 description: 最新の Campaign Classic リリース注意
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: 14513d5ecbfdd5637b764c8f19bc01358e63c130
-workflow-type: ht
-source-wordcount: '903'
-ht-degree: 100%
+feature: 概要
+role: ビジネス従事者
+level: 初心者
+translation-type: tm+mt
+source-git-commit: d1796224df95663c39fa5975e88c03a923c94878
+workflow-type: tm+mt
+source-wordcount: '908'
+ht-degree: 98%
 
 ---
 
@@ -81,7 +81,7 @@ Campaign で次のシステムがサポートされるようになりました�
 IOB-090020 Error in SSL library: 'IOB-090013 error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed (code 336134278)'
 ```
 
-* ターゲットデータのパーソナライゼーションを含む新しい配信が送信されない問題を修正しました。
+* ターゲットデータのパーソナライゼーションを含む新しい配信が送信されない問題を修正しました(NEO-30323)。
 * マーケティングインスタンスで複数のクラッシュが発生し、コアファイルが生成される問題を修正しました。
 * 次のエラーが発生して、**トラッキング**&#x200B;ワークフローが失敗する問題を修正しました。（NEO-25206）
 

@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 2%
@@ -66,7 +66,7 @@ Adobe Campaignデータ（ログ、ダウンロード、リダイレクトなど
 
 * Linuxでは、**customer.sh**&#x200B;ファイルに移動し、次のことを示します。**XTK_VAR_DIR=/app/log/AdobeCampaign**&#x200B;をエクスポートします。
 
-   詳しくは、[パラメータのパーソナライズ](../../installation/using/installing-packages-with-linux.md#personalizing-parameters)を参照してください。
+   詳しくは、[パーソナライズパラメーター](../../installation/using/installing-packages-with-linux.md#personalizing-parameters)を参照してください。
 
 ## プロセスを有効にする{#enabling-processes}
 
@@ -122,6 +122,6 @@ Adobe Campaignデータ（ログ、ダウンロード、リダイレクトなど
    <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
    ```
 
-このファイルで使用できる他の配信パラメーターは、[配信パラメーターの個人化](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)に記載されています。
+このファイルで使用できる他の配信パラメーターは、[Personalize配信ーのパラメーター](../../installation/using/configuring-campaign-server.md#personalizing-delivery-parameters)に記載されています。
 
 [Eメール配信品質](../../installation/using/email-deliverability.md)も参照してください。

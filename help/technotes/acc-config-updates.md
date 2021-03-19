@@ -6,7 +6,7 @@ description: テクノテ
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 587daebd8a779bb9d0917fd2dfab4144494809e3
+source-git-commit: cac3e22dd9aa8220f6980bef0d57c11d47c91163
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 13%
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 上記の新しいビルドの1つにアップグレードする必要があります。
 
-* ハイブリッド顧客の場合、Adobeはミッドソーシングインスタンスを新しいバージョンにアップグレードするので、そのマーケティングインスタンスもアップグレードすることを強くお勧めします。
+* ハイブリッド顧客の場合、Adobeはマーケティングインスタンスを新しいバージョンにアップグレードし、そのマーケティングインスタンスもアップグレードすることを強くお勧めします。
 
    新しいビルドは、少なくともCampaign Classic17.9のリリースと互換性がありますが、セキュリティ上の差を防ぐため、Adobeではすべてのインスタンスを新しいビルドにアップグレードすることを強くお勧めします。 
 

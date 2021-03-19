@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Gold Standard 互換性マトリックス
+title: キャンペーンゴールド標準の互換表
 description: Gold Standard リリースの Campaign Classic 互換性マトリックス
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
-translation-type: ht
-source-git-commit: 9d1f5561098bb867b8a62e8bcdb14f60829be1ea
-workflow-type: ht
-source-wordcount: '514'
-ht-degree: 100%
+feature: 概要
+role: ビジネス従事者
+level: 初心者
+translation-type: tm+mt
+source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 98%
 
 ---
 

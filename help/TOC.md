@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: ドキュメント
 translation-type: tm+mt
-source-git-commit: baa41d876b889d2746f593e97f6b624dfffa5911
+source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
 workflow-type: tm+mt
-source-wordcount: '2470'
-ht-degree: 97%
+source-wordcount: '2474'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 97%
    + [アップグレードの基本を学ぶ](rn/using/rn-overview.md)
    + [最新リリース](rn/using/latest-release.md)
    + Gold Standard リリース {#gs-release}
+      + [ゴールド標準とは](rn/using/gs-overview.md)
       + [Gold Standard リリースノート](rn/using/gold-standard.md)
       + [Gold Standard 互換性マトリックス](rn/using/compatibility-matrix-gs.md)
    + 以前のリリース {#previous-releases}

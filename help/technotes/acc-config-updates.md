@@ -6,10 +6,10 @@ description: テクノテ
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 9b4b1bb5d016df8a7933ac0b96c6f110b0c4d7ac
+source-git-commit: b036dccc012b1948837549492d9a1b0726af459d
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 13%
+source-wordcount: '1068'
+ht-degree: 14%
 
 ---
 
@@ -43,6 +43,8 @@ ht-degree: 13%
 * Campaign 19.2.4 リリース.[詳細情報](../rn/using/release--19-2.md)
 * Campaign 19.1.8 リリース.[詳細情報](../rn/using/release--19-1.md)
 
+この節](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)で、バージョン[を確認する方法を説明します。
+
 **更新方法**
 
 上記の新しいビルドの1つにアップグレードする必要があります。
@@ -60,13 +62,12 @@ ht-degree: 13%
 
 ## キャンペーンクライアントコンソールの更新
 
-最新のゴールド標準11ビルドでは、配信の日付選択や画像管理など、クライアントコンソールの一部のコンポーネントを使用できない問題が修正されました。 コンソールのアップグレードは必須です。
+次のバージョンでは、配信の日付選択や画像管理など、クライアントコンソールの一部のコンポーネントを使用できない問題が修正されました。 **コンソール** のアップグレードは必須です。
 
-[詳細情報](../rn/using/gold-standard.md)。
-
->[!NOTE]
->
->この修正は、最新の[19.1.8](../rn/using/release--19-1.md#release-19-1-8-build-9039)、[19.2.4](../rn/using/release--19-2.md#release-19-2-4-build-9082)、[20.1.4](../rn/using/release--20-1.md#release-20-1-4-build-9126)でも利用できます。
+* 最新のGold Standard 11ビルド9032@10c2709。 [詳細情報](../rn/using/gold-standard.md)
+* Campaign 20.1.4 リリース.[詳細情報](../rn/using/release--20-1.md)
+* Campaign 19.2.4 リリース.[詳細情報](../rn/using/release--19-2.md)
+* Campaign 19.1.8 リリース.[詳細情報](../rn/using/release--19-1.md)
 
 ## AdobeIdentity Managementシステム(IMS)の更新
 
@@ -87,6 +88,8 @@ Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[�
 * Campaign 19.1.8 リリース.[詳細情報](../rn/using/release--19-1.md)
 
 これらのリリースには、新しい接続プロトコルが付属しています。**2021年6月30日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるようにするには、アップグレードが必須です。
+
+この節](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)で、バージョン[を確認する方法を説明します。
 
 **更新方法**
 
@@ -116,6 +119,8 @@ Adobe ID](../integrations/using/about-adobe-id.md)経由でキャンペーン[�
 * Campaign 20.2.4 リリース.[詳細情報](../rn/using/release--20-2.md)
 * Campaign 19.1.8 リリース.[詳細情報](../rn/using/release--19-1.md)
 
+この節](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)で、バージョン[を確認する方法を説明します。
+
 **更新方法**
 
 インスタンスを新しいバージョンにアップグレードしたら、すべてのお客様は、[手順に従って新しい認証モード](../integrations/using/configuring-adobe-io.md)に移行する必要があります。 これには、新しいAdobe I/Oトークンを生成し、実装で使用する必要があります。  
@@ -133,6 +138,8 @@ Apple Push Notification Service(APNs)は、**2021年3月31日**&#x200B;以降、
 **影響を受けているか**
 
 インスタンスがキャンペーン21.1、**より古いバージョンで実行され、レガシーAppleバイナリプロトコルを使用してプッシュ通知を送信する場合は、HTTP/2ベースのAPNsプロバイダーAPIに更新する必要があります。**
+
+この節](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)で、バージョン[を確認する方法を説明します。
 
 **更新方法**
 
@@ -157,7 +164,6 @@ APNsの変更に関する詳細は、このページ[を参照してください
 オンプレミス/ハイブリッドのお客様は、2021年3月29日&#x200B;**までにシームレスなトランジション**&#x200B;を確実に行えるように、設定を更新する必要があります。
 
 [新しい証明書を組み込む方法を説明します](ios-certificate-update.md)。
-
 
 ## 便利なリンク
 

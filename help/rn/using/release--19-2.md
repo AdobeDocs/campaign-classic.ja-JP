@@ -7,9 +7,9 @@ feature: null
 role: null
 level: null
 translation-type: tm+mt
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+source-git-commit: 96f5709b4c67d1979286cc1f71069a64435c5c70
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1484'
 ht-degree: 97%
 
 ---
@@ -18,6 +18,16 @@ ht-degree: 97%
 # リリース 19.2{#release-19-2}
 
 ## ![](assets/do-not-localize/limited_2.png) リリース 19.2.4 - ビルド 9082 {#release-19-2-4-build-9082}
+
+_2021 年 3 月 22 日_
+
+* 配信での日付選択や画像管理など、コンソールの一部のコンポーネントを使用できないリグレッションを修正しました。 （NEO-31453、NEO-31454）
+
+**コンソールのアップグレードのみ必須です。サーバーのアップグレードは必要ありません。**
+
+>[!NOTE]
+>
+> [アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続して、新しいバージョンをダウンロードします。 [このページ](../../installation/using/client-console-availability-for-windows.md)では、すべてのエンドユーザーに対してコンソールの更新を提案する方法について説明します。
 
 _2020 年 12 月 23 日_
 

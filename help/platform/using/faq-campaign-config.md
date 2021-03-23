@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 20dcdd91d71158bc373db68c3f61f6808b240bd2
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 100%
+source-wordcount: '768'
+ht-degree: 95%
 
 ---
 
@@ -41,9 +41,9 @@ Adobe Campaign の配信機能と高度なキャンペーン管理機能を、�
 
 ## E メール配信品質の設定方法は？ {#how-to-configure-email-deliverability-}
 
-[配信品質の設定](../../delivery/using/about-deliverability.md#configuration)節に加えて、配信品質に関する技術的な推奨事項を読み、インスタンスの設定方法を理解し、キャンペーン配信機能を最大限に活かしてください。
+『[Adobe配信品質ベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)』に加えて、技術的な推奨事項を読み、キャンペーン配信機能を最大限にするためにインスタンスの設定方法を理解してください。
 
-[詳しくはここをクリック](../../delivery/using/technical-recommendations.md)してください。
+[詳しくはここをクリック](../../delivery/using/about-deliverability.md)してください。
 
 ## コンテンツの承認はどのように実行できますか？ {#how-can-i-implement-content-approval-}
 

@@ -7,10 +7,10 @@ feature: 概要
 role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 99%
+source-wordcount: '527'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 このドキュメントでは、**Adobe Campaign Classic** の[最新ビルド](../../rn/using/latest-release.md)でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
 
-Gold Standard のユーザーの場合は、[Gold Standard 互換性マトリックス](../../rn/using/compatibility-matrix-gs.md)を参照してください。
+[!DNL Gold Standard]ユーザーの場合は、[[!DNL Gold Standard] 互換表](../../rn/using/compatibility-matrix-gs.md)を参照してください。
 
 ## 重要な注意事項{#important-notes}
 

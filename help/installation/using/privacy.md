@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 53%
+source-wordcount: '778'
+ht-degree: 54%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Campaign には、GDPR および CCPA に則ってプライバシーを遵
 >
 >不正な形式の署名済み URL がクリックされると、次のエラーが返されます。「リクエストされた URL &#39;...&#39; が見つかりませんでした。」
 
-また、キャンペーン20.2およびゴールド標準リリースから、ホストおよびハイブリッドのお客様は、拡張機能を使用して以前のビルドで生成されたURLを無効にできます。 このオプションはデフォルトでは無効です。この機能を有効にするには、[カスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+また、キャンペーン20.2および[!DNL Gold Standard]リリースを開始したホストおよびハイブリッドのお客様は、拡張機能を使用して以前のビルドで生成されたURLを無効にできます。 このオプションはデフォルトでは無効です。この機能を有効にするには、[カスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 オンプレミス環境でこの新しいメカニズムを有効にするには、すべての Campaign サーバーで次の手順を実行する必要があります。
 
@@ -65,7 +65,7 @@ Adobe Campaign には、GDPR および CCPA に則ってプライバシーを遵
 1. **nlserver** サービスを再起動します。
 1. トラッキングサーバーで、Webサーバー（Debianではapache2、CentOS/RedHatではhttpd、WindowsではIIS）を再起動します。
 
-Gold Standard 19.1.4を使用している場合、トラッキングリンクを使用するプッシュ通知配信またはアンカータグを使用する配信で問題が発生する可能性があります。 その場合、Adobeでは、リンクの追跡に使用する新しい署名メカニズムを無効にすることをお勧めします。
+[!DNL Gold Standard] 19.1.4で実行している場合、トラッキングリンクを使用するプッシュ通知配信またはアンカータグを使用する配信で問題が発生する可能性があります。 その場合、Adobeでは、リンクの追跡に使用する新しい署名メカニズムを無効にすることをお勧めします。
 
 **ホストおよびハイブリッド** のお客様は、 [カスタマー](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) ケアに連絡して、このメカニズムを無効にする必要があります。
 

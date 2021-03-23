@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 3a65bc08fd3b6cedfd7ef05a51fd8378f19daa85
+source-git-commit: 1d9c96d1cd8ba2a8099271165a1671d5589230fb
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 65%
+source-wordcount: '686'
+ht-degree: 69%
 
 ---
 
@@ -34,54 +34,62 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 
 <img src="platform/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### よくある質問
+### よくある質問（FAQ）
 
 新しいビルドにアップグレードする方法 ワークフローの実行を監視する方法を調べたり、データベースのクリーンアップワークフローについて知るには、[よくある 10 件の質問を参照してください](platform/using/common-questions.md)。
 
-### トピックQ&amp;A
-
-トピック別の特定の質疑応答のセットを読み上げます。
-
-* [重要な概念](platform/using/faq-key-concepts.md)
-* [Campaign 設定](platform/using/faq-campaign-config.md)
-* [レポート](platform/using/faq-reporting.md)
-* [ビルドのアップグレード](platform/using/faq-build-upgrade.md)
-* [メッセージのテスト、送信およびトラッキング](platform/using/faq-messages.md)
-* [ワークフロー](platform/using/faq-workflows.md)
-* [開発者](platform/using/faq-developers.md)
-* [配信品質](delivery/using/monitoring-deliverability.md)
-
-### 一般的な問題
-
-* [パフォーマンスとスループットの問題](production/using/performance-and-throughput-issues.md)
-* [配信パフォーマンス](delivery/using/delivery-performances.md)
-* [ワークフローのパフォーマンスの最適化](workflow/using/workflow-best-practices.md)
-* [ワークフロー実行のトラブルシューティング](workflow/using/monitoring-workflow-execution.md)
-* [SFTP サーバーの使用](platform/using/sftp-server-usage.md)
-* [配信エラーの理解](delivery/using/understanding-delivery-failures.md)
-
-### ベストプラクティス
-
-* [ワークフローのベストプラクティス](workflow/using/workflow-best-practices.md)
-* [テクニカルワークフローの監視](workflow/using/monitoring-technical-workflows.md)
-* [トラッキング管理の理解](delivery/using/about-message-tracking.md)
-* [監視ツールの理解](production/using/monitoring-guidelines.md)
-* [ワークフローを使用したデータのインポート](platform/using/import-export-workflows.md)
-* [複数のウェーブでのメッセージの送信  ](delivery/using/steps-sending-the-delivery.md)
-* [E メールコンテンツのデザイン](delivery/using/defining-the-email-content.md)
-* [配信のベストプラクティス](delivery/using/delivery-best-practices.md)
-
-### ハウツー
-
-* [最新ビルドへのアップグレード](production/using/build-upgrade.md)
-* [ビルドアップグレードに関する FAQ](platform/using/faq-build-upgrade.md)
-* [配信の監視](delivery/using/about-delivery-monitoring.md)
-* [強制隔離管理の理解](delivery/using/understanding-quarantine-management.md)
-* [セキュリティおよびプライバシーチェックリスト](installation/using/get-started-security-privacy.md)
-* [プライバシーと同意の管理](platform/using/privacy-management.md)
-* [クエリのデザイン](platform/using/steps-to-create-a-query.md)
-* [クエリのサンプル](workflow/using/querying-recipient-table.md)
-* [ワークフローの作成](workflow/using/building-a-workflow.md)
+<table>
+    <tr><td><strong>トピックQ&amp;A</strong></td><td><strong>一般的な問題</strong></td><td><strong>ベストプラクティス</strong></td><td><strong>ハウツー</strong></td></tr>
+    <tr>
+    <td valign="top">
+        <ul>
+        <li><a href="platform/using/faq-key-concepts.md">重要な概念</a></li>
+        <li><a href="platform/using/faq-campaign-config.md">Campaign 設定</a></li>
+        <li><a href="platform/using/faq-reporting.md">レポート</a></li>
+        <li><a href="platform/using/faq-build-upgrade.md">ビルドアップグレード</a></li>
+        <li><a href="platform/using/faq-messages.md">メッセージのテスト、送信およびトラッキング</a></li>
+        <li><a href="platform/using/faq-workflows.md">ワークフロー</a></li>
+        <li><a href="platform/using/faq-developers.md">開発者</a></li>
+        <li><a href="delivery/using/monitoring-deliverability.md">配信品質</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="production/using/performance-and-throughput-issues.md">パフォーマンスとスループットの問題</a></li>
+        <li><a href="delivery/using/delivery-performances.md">配信パフォーマンス</a></li>
+        <li><a href="workflow/using/workflow-best-practices.md">ワークフローのパフォーマンスの最適化</a></li>
+        <li><a href="workflow/using/monitoring-workflow-execution.md">ワークフロー実行のトラブルシューティング</a></li>
+        <li><a href="platform/using/sftp-server-usage.md">SFTP サーバーの使用</a></li>
+        <li><a href="delivery/using/understanding-delivery-failures.md">配信エラーについて</a></li>
+        </ul>
+    </td>
+   <td valign="top">
+        <ul>
+        <li><a href="workflow/using/workflow-best-practices.md">ワークフローのベストプラクティス</a></li>
+        <li><a href="workflow/using/monitoring-technical-workflows.md">テクニカルワークフローの監視</a></li>
+        <li><a href="delivery/using/about-message-tracking.md">トラッキング管理の理解</a></li>
+        <li><a href="production/using/monitoring-guidelines.md">監視ツールの理解</a></li>
+        <li><a href="platform/using/import-export-workflows.md">ワークフローを使用したデータのインポート</a></li>
+        <li><a href="delivery/using/steps-sending-the-delivery.md">複数のウェーブでのメッセージの送信</a></li>
+        <li><a href="delivery/using/defining-the-email-content.md">E メールコンテンツのデザイン</a></li>
+        <li><a href="delivery/using/delivery-best-practices.md">配信のベストプラクティス</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="production/using/build-upgrade.md">最新ビルドへのアップグレード</a></li>
+        <li><a href="platform/using/faq-build-upgrade.md">ビルドアップグレードに関する FAQ</a></li>
+        <li><a href="delivery/using/about-delivery-monitoring.md">配信の監視</a></li>
+        <li><a href="delivery/using/understanding-quarantine-management.md">強制隔離管理について</a></li>
+        <li><a href="installation/using/get-started-security-privacy.md">セキュリティとプライバシーのチェックリスト</a></li>
+        <li><a href="platform/using/privacy-management.md">プライバシーと同意の管理</a></li>
+        <li><a href="platform/using/steps-to-create-a-query.md">クエリのデザイン</a></li>
+        <li><a href="workflow/using/querying-recipient-table.md">クエリのサンプル</a></li>
+        <li><a href="workflow/using/building-a-workflow.md">ワークフローの作成</a></li>
+        </ul>
+    </td>
+    </tr>
+</table>
 
 ## Campaign コントロールパネル {#control-panel}
 
@@ -121,7 +129,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-新しい発券システムは[Adobe Admin Console](https://adminconsole.adobe.com/overview)を通じて立ち上げられました。 新しいシステムでは、各ユーザーに対して、正しい権限を持つ新しい個別のアカウントが必要です。Adobe ID を使用してログインできない場合は、Experience League 経由でのアクセスをリクエストすると、可能な限り迅速にカスタマーケアチームによって設定されます。[詳細情報](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)
+新しい発券システムは[Adobe Admin Console](https://adminconsole.adobe.com/overview)を通じて立ち上げられた。 新しいシステムでは、各ユーザーに対して、正しい権限を持つ新しい個別のアカウントが必要です。Adobe ID を使用してログインできない場合は、Experience League 経由でのアクセスをリクエストすると、可能な限り迅速にカスタマーケアチームによって設定されます。[詳細情報](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)
 
 ### エキスパートへの質問
 
@@ -129,16 +137,10 @@ Campaign Classic コミュニティに参加：既存の質問の回答を検索
 
 ### Campaign ダウンロードセンターにアクセス
 
-2020 年 6 月現在、Experience Cloud ソリューションソフトウェア配布は、従来の Neolane ダウンロードセンターに代わるものであり、ソフトウェア、パッケージ、ツールを検索してダウンロードするためのより効率的なエクスペリエンスを提供します。
-
-[](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html)ここをクリックして、Experience Cloud ソフトウェアの配布にアクセスできます。新しいダウンロードセンターについて詳しくは、[このページ](https://docs.adobe.com/content/heexperience-cloud/software-distribution/home.html)を参照してください。
+2020 年 6 月現在、Experience Cloud ソリューションソフトウェア配布は、従来の Neolane ダウンロードセンターに代わるものであり、ソフトウェア、パッケージ、ツールを検索してダウンロードするためのより効率的なエクスペリエンスを提供します。[](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html)ここをクリックして、Experience Cloud ソフトウェアの配布にアクセスできます。新しいダウンロードセンターについて詳しくは、[このページ](https://docs.adobe.com/content/heexperience-cloud/software-distribution/home.html)を参照してください。
 
 ### チケットの作成またはチャットの開始
 
-ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。
+ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。問題の解決やトラブルシューティングをサポートできるよう、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
 
-問題の解決やトラブルシューティングに役立つため、Adobe Admin Consoleでは[Adobeカスタマーサポート](https://adminconsole.adobe.com/overview)とのチャットを許可します。
-
-新しいシステムで雑誌号や開始を記録するには、[Adobe Admin Console](https://adminconsole.adobe.com/overview)に接続します。
-
-[このページ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)で説明されている詳細な手順に従ってください。
+新しいシステムで雑誌号や開始を記録するには、[Adobe Admin Console](https://adminconsole.adobe.com/overview)に接続します。 [このページ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)で説明されている詳細な手順に従ってください。

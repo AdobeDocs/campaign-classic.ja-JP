@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: ドキュメント
 translation-type: tm+mt
-source-git-commit: 95d0686c4ddeb4e25eb918ca92cbd6a0b1aa1f3c
+source-git-commit: 0b3bc9547d756352f4af5dac713f85666c96c425
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2448'
 ht-degree: 96%
 
 ---
@@ -24,10 +24,10 @@ ht-degree: 96%
 + リリースノート{#release-notes}
    + [アップグレードの基本を学ぶ](rn/using/rn-overview.md)
    + [最新リリース](rn/using/latest-release.md)
-   + Gold Standard リリース {#gs-release}
-      + [ゴールド標準とは](rn/using/gs-overview.md)
-      + [Gold Standard リリースノート](rn/using/gold-standard.md)
-      + [Gold Standard 互換性マトリックス](rn/using/compatibility-matrix-gs.md)
+   + [!DNL Gold Standard] release {#gs-release}
+      + [概要 [!DNL Gold Standard]](rn/using/gs-overview.md)
+      + [[!DNL Gold Standard] リリースノート](rn/using/gold-standard.md)
+      + [[!DNL Gold Standard] 互換行列](rn/using/compatibility-matrix-gs.md)
    + 以前のリリース {#previous-releases}
       + [リリース 20.3](rn/using/release--20-3.md)
       + [リリース 20.2](rn/using/release--20-2.md)
@@ -221,17 +221,11 @@ ht-degree: 96%
       + [トラッキングのテスト](delivery/using/testing-tracking.md)
       + [トラッキングのトラブルシューティング](delivery/using/tracking-troubleshooting.md)
    + 配信品質の管理 {#deliverability-management}
-      + [配信品質について](delivery/using/about-deliverability.md)
-      + [重要なチェックポイント](delivery/using/deliverability-key-points.md)
-      + [新しいプラットフォームの開始](delivery/using/starting-new-platform.md)
+      + [配信品質とは](delivery/using/about-deliverability.md)
       + [メッセージコンテンツの制御](delivery/using/control-message-content.md)
-      + [レピュテーションの向上](delivery/using/improve-reputation.md)
-      + [技術的な推奨事項](delivery/using/technical-recommendations.md)
       + [配信品質の監視](delivery/using/monitoring-deliverability.md)
       + [受信ボックスレンダリング](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
-      + [再エンゲージメントのベストプラクティス](delivery/using/re-engagement-best-practices.md)
-      + [ブロックリストデータベース](delivery/using/block-list-databases.md)
       + [トラブルシューティング](delivery/using/deliverability-faq.md)
    + コンテンツ管理モジュール {#content-management}
       + [コンテンツ管理について](delivery/using/about-content-management.md)

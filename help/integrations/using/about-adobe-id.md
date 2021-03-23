@@ -7,10 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 translation-type: tm+mt
-source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
+source-git-commit: 313f15a3097fa4c53c1bd802de0e73801acd410b
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 85%
+source-wordcount: '191'
+ht-degree: 77%
 
 ---
 
@@ -31,7 +31,7 @@ Campaign ユーザーは、Adobe ID を使用して Adobe Campaign コンソー�
 >
 >AdobeIDサービス(IMS)を通じてキャンペーンに接続する場合、**2021年6月30日**&#x200B;以降にキャンペーンに接続できるように、最新のビルドにアップグレードする必要があります。 このアップグレードは、Campaign サーバーとクライアントコンソールの両方で必須です。 現在のバージョンに応じて、次のリリースのいずれかにアップグレードする必要があります。
 >
-> * [Campaign Gold Standard 11](../../rn/using/gold-standard.md)
+> * [キャンペーン [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
 > * [Campaign 20.3.3](../../rn/using/latest-release.md)
 > * [Campaign 20.2.4](../../rn/using/release--20-2.md)
 > * [Campaign 20.1.4](../../rn/using/release--20-1.md)
@@ -42,7 +42,7 @@ Campaign ユーザーは、Adobe ID を使用して Adobe Campaign コンソー�
 
 
 
-## 関連トピック
+## その他のリソース
 
 | 便利なページ | その他のリソース |
 |---|---|

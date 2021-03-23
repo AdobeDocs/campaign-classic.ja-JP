@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: キャンペーンゴールド標準の互換表
-description: Gold Standard リリースの Campaign Classic 互換性マトリックス
+title: 互換性マトリックス キャンペーン [!DNL Gold Standard]
+description: ' [!DNL Gold Standard] リリースのCampaign Classic互換表'
 feature: 概要
 role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '512'
 ht-degree: 98%
 
 ---
 
 
-# Gold Standard 互換性マトリックス{#compatibility-matrix-gs}
+# [!DNL Gold Standard] 互換性マトリックス{#compatibility-matrix-gs}
 
-このドキュメントでは、**Adobe Campaign Classic Gold Standard** のビルド 19.1 でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、このバージョンの Adobe Campaign とは互換性がありません。
+このドキュメントでは、**Adobe Campaign Classic[!DNL Gold Standard]** のビルド 19.1 でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、このバージョンの Adobe Campaign とは互換性がありません。
 
 ## 重要な注意事項{#important-notes-gs}
 

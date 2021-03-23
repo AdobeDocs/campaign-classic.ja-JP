@@ -6,27 +6,34 @@ description: Adobe Campaign クラシックの配信品質の監視に関する�
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: ht
-source-git-commit: fa5679d91808edb8e3916d5f0e0f54c73198e934
-workflow-type: ht
-source-wordcount: '485'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d1a653a9a164c34bb70efcc86ff2d7bdf1130a2
+workflow-type: tm+mt
+source-wordcount: '552'
+ht-degree: 88%
 
 ---
 
 
 # 配信品質の監視{#monitoring-deliverability}
 
-以下に、Adobe Campaign が提供する様々な監視ツールの詳細と、配信品質の監視に関するその他のガイドラインを示します。
+以下に、Adobe Campaignが提供する様々な監視ツールの詳細と、Adobe Campaignが提供する機能を活用してプラットフォームの配信品質を監視するための追加のガイドラインを示します。
 
-## 監視ツール {#monitoring-tools}
+## 配信品質の監視 {#configuration}
 
-Adobe Campaign が提供する機能を使用して、プラットフォームの配信品質を監視します。
+この機能は、Adobe Campaign の専用パッケージで使用できます。使用するには、このパッケージをインストールする必要があります。インストールしたら、サーバーを再起動してパッケージを有効にします。
+* ホストクライアントおよびハイブリッドクライアントの場合、**配信品質の監視**&#x200B;はアドビのテクニカルサポートおよびコンサルタントがインスタンスに設定します。詳しくは、アドビのアカウント担当者にお問い合わせください。
+
+* オンプレミスでのインストールの場合は、**[!UICONTROL ツール]**／**[!UICONTROL 詳細設定]**／**[!UICONTROL パッケージをインポート]**&#x200B;メニューから&#x200B;**[!UICONTROL 配信品質の監視 (E メールの配信品質)]** パッケージをインストールする必要があります。詳しくは、[Campaign Classic 標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+
+Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!UICONTROL 配信品質の更新]**&#x200B;ワークフローが管理します。このワークフローは、デフォルトですべてのインスタンスにインストールされ、バウンスメールの検証ルールのリスト、ドメインのリストおよび MX のリストを初期化できます。**[!UICONTROL 配信品質の監視 (E メールの配信品質)]** パッケージをインストールすると、このワークフローが毎日夜間に実行されてルールリストを定期的に更新し、プラットフォームの配信品質の積極的管理が可能になります。
 
 配信品質パッケージを使用すると以下にアクセスすることができます。
 
 * [受信ボックスレンダリングレポート](../../delivery/using/inbox-rendering.md)を使用すると、コンテンツや評判をスキャンするために、主要な E メールクライアントにメッセージをプレビューできます。
 * メッセージ品質の概要（受信ボックス、スパム）。
+
+## 監視ツール {#monitoring-tools}
 
 次のツールも使用できます。
 
@@ -48,24 +55,10 @@ Adobe Campaign が提供する機能を使用して、プラットフォーム�
 * プラットフォーム全体で[配信スループット](../../reporting/using/global-reports.md#delivery-throughput)を定期的にチェックして、元のセットアップと整合性が取れているかどうかを検証します。
 * 配信テンプレートで[再試行](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)が適切に設定されていることを確認します（再試行期間が 30 分、再試行回数が 21 回以上）。
 * [バウンス](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management)メールボックスがアクセス可能で、アカウントの有効期限が近づいていないかを定期的に検証します。
-* 各配信スループットをチェックして、配信コンテンツの有効期限と整合性が取れていることを確認します（例：「フラッシュセール」は数日ではなく、数分で配信される必要があります）。
+* [配信ダッシュボード](../../delivery/using/delivery-dashboard.md)からアクセス可能な各配信のスループットをチェックし、配信の内容の有効性(例：「flash sales」は、日単位ではなく分単位で配信する必要があります。
 * [ウェーブ](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)を使用する場合、次のものがトリガーされる前に各ウェーブが完了するための十分な時間があることを検証します。
 * エラーの数と新しい[強制隔離](../../delivery/using/understanding-quarantine-management.md)が他の配信と整合性が取れていることをチェックします。
 * [配信ログ](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)の詳細を慎重に調べて、ハイライト表示されたエラーの種類をチェックします（ブロックリスト、DNS の問題、スパム対策ルールなど）。
-
-## Signal Spam {#signal-spam}
-
-Signal Spam は、フランスのサービスで、フランスの ISP（Orange、SFR）用の匿名化されたフィードバックループレポートを提供します。
-
-* このサービスを使用すると、フランスの ISP のレピュテーションをフォローし、顧客のアクティビティの進化をトラッキングできます。
-
-* また、Signal Spam は、専用インターフェンスを通じてエンドユーザーが記録した直接の苦情数を提供します。これらの苦情数は、E メールアドレスデータベースから強制隔離されます。
-
-## 250ok {#deliverability-250ok}
-
-[250ok](https://250ok.com/) は、IP、ドメインブロックリストおよび評判の指標を提供する、アドビの配信品質内部ツールの補完的な監視ソリューションです。
-
-提供される情報はリアルタイムで、これにより先を見越した支援が可能です。
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 

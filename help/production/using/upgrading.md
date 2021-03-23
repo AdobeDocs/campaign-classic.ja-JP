@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
+source-git-commit: cb24bc78b5cc09307ca470470464f204d9f41278
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1176'
 ht-degree: 14%
 
 ---
@@ -17,23 +17,24 @@ ht-degree: 14%
 
 # 新しいビルド（オンプレミス）にアップグレードする{#upgrading}
 
-アップグレードプロセスを開始する前に、アップグレード対象のAdobe Campaignのバージョンを決定して確認し、[リリースノート](../../rn/using/latest-release.md)を参照してください。
+アップグレードプロセスを開始する前に、アップグレード対象のAdobe Campaignのバージョンを確認し、[リリースノート](../../rn/using/latest-release.md)に問い合わせてください。
 
 >[!IMPORTANT]
 >
->更新する前に、各インスタンスでデータベースのバックアップを作成することを強くお勧めします。 詳しくは、[バックアップ](../../production/using/backup.md)を参照してください。\
->アップグレードを実行するには、インスタンスとログにアクセスする権限と権限を持っていることを確認します。
+>* Adobeでは、更新の前に各インスタンスでデータベースバックアップを行うことを強くお勧めします。 詳しくは、[こちらの節](../../production/using/backup.md)を参照してください。
+>* アップグレードを実行するには、インスタンスとログにアクセスする権限と権限があることを確認します。
+>* 開始する前に、[このセクション](../../installation/using/general-architecture.md)と[ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)の章を読んでください。
 
->[!NOTE]
 >
->[インストールガイド](../../installation/using/general-architecture.md)と[ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)の手引きも参照してください。
+
+
 
 ## Windows {#in-windows}
 
-新しいビルドを配信する際に新しいバージョンのAdobe Campaignを更新するには、Windowsで次の手順を適用する必要があります。
+Windows環境で、次の手順に従ってAdobe Campaignを新しいビルドに更新します。
 
 * [サービスのシャットダウン](#shut-down-services),
-* [Adobe Campaign サーバーアプリケーションのアップグレード](#upgrade-the-adobe-campaign-server-application),
+* [アプリケーションサーバーのアップグレード](#upgrade-the-adobe-campaign-server-application)、
 * [リソースの同期](#synchronize-resources),
 * [サービスの再起動](#restart-services).
 
@@ -88,9 +89,9 @@ ht-degree: 14%
 
 これにより、次の操作を実行できます。
 
-* リソースの同期,
-* スキーマの更新、
-* データベースを更新します。
+* リソースの同期
+* スキーマの更新
+* データベースの更新
 
 >[!NOTE]
 >
@@ -110,9 +111,9 @@ ht-degree: 14%
 
 ## Linux {#in-linux}
 
-新しいビルドが提供されるときに新しいバージョンのAdobe Campaignを更新するには、Linuxの手順を次に示します。
+Linux環境では、次の手順に従ってAdobe Campaignを新しいビルドに更新します。
 
-* [更新されたパッケージの取得](#obtain-updated-packages)、
+* [更新されたパッケージをダウンロードします](#obtain-updated-packages)。
 * [更新の実行](#perform-an-update)、
 * [Webサーバーを再起動します](#reboot-the-web-server)。
 
@@ -120,7 +121,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->Build 8757から、サードパーティのライブラリは不要になりました。
+>Build 8757では、サードパーティのライブラリは不要になりました。
 
 ### 更新されたパッケージを入手{#obtain-updated-packages}
 
@@ -239,7 +240,7 @@ Adobe Campaignの両方の更新されたパッケージを回復することに
 
 ### ベストプラクティス{#best-practices}
 
-更新エラーがデータベース構成にリンクされている可能性があります。 技術管理者とデータベース管理者が実行した設定が互換性があることを確認します。
+更新エラーがデータベース構成にリンクされている可能性があります。 技術管理者とデータベース管理者が実行する設定が互換性があることを確認します。
 
 例えば、Unicodeデータベースは、LATIN1データなどのストレージを許可するだけではありません。
 
@@ -247,11 +248,7 @@ Adobe Campaignの両方の更新されたパッケージを回復することに
 
 ### Windows {#in-windows-1}
 
-(**nlserver web**)Adobe Campaignアプリケーションサーバーがインストールされているマシン上で、ファイルをダウンロードしてコピーします
-
-**setup-client-6.XXXX.exe**
-
-**[アプリケーション]**datakitnlengjspのパス
+Adobe Campaignアプリケーションサーバーがインストールされているマシン(**nlserver web**)で、**setup-client-6.XXXX.exe** i n **[i n ]/datakit/nl/eng/jsp**&#x200B;のパスをダウンロードしてコピーします。
 
 次回クライアントコンソールに接続すると、ウィンドウに、アップデートの利用可能性が通知され、アップデートのダウンロードとインストールの可能性がオファーされます。
 
@@ -261,11 +258,7 @@ Adobe Campaignの両方の更新されたパッケージを回復することに
 
 ### Linux {#in-linux-1}
 
-Adobe Campaignアプリケーションサーバー(**nlserver web**)がインストールされているマシン上で、次のパッケージを取得します。
-
-**setup-client-6.XXXX.exe**
-
-それをコピーして、**/usr/local/neolane/nl6/datakit/nl/eng/jsp**&#x200B;として保存します。
+Adobe Campaignアプリケーションサーバー(**nlserver web**)がインストールされているマシンで、**setup-client-6.XXXX.exe**&#x200B;パッケージを取得し、**/usr/local/neolane/nl6/datakit/nl/eng/jsp&lt;a/>として保存します。**
 
 ```
  cp setup-client-6.XXXX.exe /usr/local/neolane/nl6/datakit/nl/eng/jsp

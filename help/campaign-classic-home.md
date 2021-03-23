@@ -5,10 +5,10 @@ product: campaign
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 91313fdc7aed6597d8d54d65b747c835e0cd9ccb
+source-git-commit: 5097eea4cf842b93af77ee828693f76a7182a8fe
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 83%
+source-wordcount: '300'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 83%
 
 * **[IMS/Adobe ID を使用した接続最新のビルド](integrations/using/about-adobe-id.md)**<br/>にアップグレードします。IMSを使用してキャンペーンに接続する場合は、** 2021年6月30日&#x200B;**以降にキャンペーンに接続できるようにアップグレードする必要があります。
 
-* **[Campaign インスタンスのセキュリティ保護](https://helpx.adobe.com/jp/campaign/kb/gold-standard-upgrade.html)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します。
+* **[Campaign インスタンスのセキュリティ保護](technotes/acc-config-updates.md)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します。
 
 * **[誤ったハードバウンスの削除](https://helpx.adobe.com/jp/campaign/kb/update-bounce-qualification.html)**<br/> Gmail の停止後に誤ったハードバウンスを更新する方法を説明します。
 
@@ -88,6 +88,6 @@ ht-degree: 83%
 | [リリースノート](/help/rn/using/latest-release.md) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [ハウツービデオ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
 | [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
-| [Gold Standard アップグレード](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
+| [[!DNL Gold Standard] アップグレード](rn/using/gs-overview.md) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
 | [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md) | [セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) |
 | [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) | [監視のガイドライン](production/using/monitoring-guidelines.md) |

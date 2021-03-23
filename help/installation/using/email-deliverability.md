@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 translation-type: tm+mt
-source-git-commit: fd6195ca447fa0345189f3153f44ad2f9a067210
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
-source-wordcount: '3040'
+source-wordcount: '3060'
 ht-degree: 19%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 19%
 >
 >設定によっては、Adobeがサーバとインスタンスの設定ファイルにアクセスする場合など、Adobeがホストする配置に対してのみ実行できる場合があります。 各デプロイメントの詳細については、[「モデルのホスト](../../installation/using/hosting-models.md)」セクションまたは[このページ](../../installation/using/capability-matrix.md)を参照してください。
 
-配信品質に関する概念とベストプラクティスについて詳しくは、[](../../delivery/using/about-deliverability.md)を参照してください。
+Adobe Campaignでの配信品質に関する概念とベストプラクティスについて詳しくは、[](../../delivery/using/about-deliverability.md)を参照してください。
 
-Adobe Campaignプラットフォームによる電子メールの効率的な送受信に関する技術的な推奨事項は、この[セクション](../../delivery/using/technical-recommendations.md)に記載されています。
+Adobeプラットフォームによる電子メールの効率的な送受信に関する技術的な推奨事項を含め、配信品質の詳細については、『[Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)』を参照してください。
 
 ## 動作の仕組み {#operating-principle}
 
@@ -133,7 +133,7 @@ Adobe Campaignプラットフォームによる電子メールの効率的な送
 
 >[!IMPORTANT]
 >
->ホスト型またはハイブリッド型のインストールの場合、[拡張MTA](../../delivery/using/sending-with-enhanced-mta.md)にアップグレードした場合、**[!UICONTROL MX management]**&#x200B;配信のスループットルールは使用されなくなります。 Enhanced MTA は独自の MX ルールを使用します。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
+>ホストインストールまたはハイブリッドインストールで [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードした場合、**[!UICONTROL MX 管理]**&#x200B;配信スループットは使用されなくなります。Enhanced MTA は独自の MX ルールを使用します。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
 
 以下の節は、レガシーキャンペーンMTAを使用したオンプレミスインストールおよびホスト/ハイブリッドインストールにのみ適用されます。
 

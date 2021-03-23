@@ -6,11 +6,11 @@ description: Adobe Campaign Enhanced MTA を使用した E メール送信の範
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: ht
-source-git-commit: c64b6eccd0ad45ebcf4ecc18150f4409f5c66bc2
-workflow-type: ht
-source-wordcount: '1950'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+workflow-type: tm+mt
+source-wordcount: '1962'
+ht-degree: 99%
 
 ---
 
@@ -151,7 +151,7 @@ Campaign 配信スループットグラフでは、E メール受信者に対す
 
 ### DKIM 署名
 
-DKIM（DomainKeys Identified Mail）E メール認証の署名は、Enhanced MTA によっておこなわれます。ネイティブの Campaign MTA による DKIM 署名は、Enhanced MTA アップグレードの一環として、ドメイン管理テーブル内で無効になります。DKIM について詳しくは、[この節](../../delivery/using/technical-recommendations.md#dkim)を参照してください。
+DKIM（DomainKeys Identified Mail）E メール認証の署名は、Enhanced MTA によっておこなわれます。ネイティブの Campaign MTA による DKIM 署名は、Enhanced MTA アップグレードの一環として、ドメイン管理テーブル内で無効になります。DKIMの詳細については、『[Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)』を参照してください。
 
 ### 配信成功レポート
 

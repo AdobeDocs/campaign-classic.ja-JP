@@ -5,11 +5,11 @@ title: パーソナライズされたコンテンツの作成
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-translation-type: ht
-source-git-commit: 2aa1a1c5da7b552cae916885c011aa4aaf9b61db
-workflow-type: ht
-source-wordcount: '1277'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+workflow-type: tm+mt
+source-wordcount: '1289'
+ht-degree: 98%
 
 ---
 
@@ -112,7 +112,7 @@ E メールの制限を守るには、以下を考慮してください。
 
 * E メールでの&#x200B;**認証文字の使用**：E メールアドレスで有効な文字のリストは「XtkEmail_Characters」オプションで定義されます。Campaign オプションにアクセスする方法については、[この節](../../installation/using/configuring-campaign-options.md)を参照してください。特殊文字を適切に処理するには、Adobe Campaign を Unicode でインストールする必要があります。
 
-* **E メール認証**&#x200B;設定：E メールヘッダーに DKIM 署名が含まれていることを確認します。DKIM（Domain Keys Identified Mail）認証を使用すると、受信 E メールサーバーは、送信したと主張する個人または法人によってメッセージが実際に送信されたかと、メッセージコンテンツが最初に送信された（および DKIM が「署名された」）ときと受信時で変更されているかどうかを検証できます。この標準は、通常、「From」または「Sender」ヘッダーのドメインを使用します。詳しくは、[この節](../../delivery/using/technical-recommendations.md#dkim)を参照してください。
+* **E メール認証**&#x200B;設定：E メールヘッダーに DKIM 署名が含まれていることを確認します。DKIM（Domain Keys Identified Mail）認証を使用すると、受信 E メールサーバーは、送信したと主張する個人または法人によってメッセージが実際に送信されたかと、メッセージコンテンツが最初に送信された（および DKIM が「署名された」）ときと受信時で変更されているかどうかを検証できます。この標準は、通常、「From」または「Sender」ヘッダーのドメインを使用します。詳しくは、『[Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)』を参照してください。
 
 ### レスポンシブ E メールデザイン
 
@@ -152,7 +152,7 @@ E メールの制限を守るには、以下を考慮してください。
 
 * 画像が表示されない場合は、その画像がサーバー上で使用できることを確認してください。そのためには、配信から「ソース」タブをクリックします。使用する画像を探し、各画像の URL をコピーして web ブラウザーに貼り付けます。画像が表示されない場合は、IT 管理者か、配信コンテンツを提供しているサードパーティベンダーに問い合わせてください。
 
-## メッセージのプレビュー{#preview-msg}
+## メッセージのプレビュー  {#preview-msg}
 
 メッセージをプレビューして、パーソナライゼーションと受信者に対する配信の表示方法を確認することをお勧めします。
 

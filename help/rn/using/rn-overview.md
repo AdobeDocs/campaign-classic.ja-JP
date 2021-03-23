@@ -7,10 +7,10 @@ feature: 概要
 role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: 3fe7cc4863fe512d433c3f0b0f25e912999b1876
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ![](assets/do-not-localize/green3.png) **一般提供**（GA） - 実稼働環境で検証済みで、Adobe が推奨します。
 
-**最新の GA ビルド**&#x200B;は、[Gold Standard 11 リリース](../../rn/using/gold-standard.md#gs-11)および [Campaign 20.2.4 リリース](../../rn/using/release--20-2.md#release-20-2-4-build-9187)です
+**最新の GA ビルド**&#x200B;は、[[!DNL Gold Standard]  11 リリース](../../rn/using/gold-standard.md#gs-11)および [Campaign 20.2.4 リリース](../../rn/using/release--20-2.md#release-20-2-4-build-9187)です
 
 ![](assets/do-not-localize/limited3.png) **限定提供**（LA） - オンデマンドデプロイメントのみ。
 
@@ -53,12 +53,12 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 オンプレミスユーザーは、アップグレードを実行できます。これをおこなうには、[最新の安定したビルドをダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)して、すべての環境をアップグレードする必要があります。[アップグレードプロセス](../../production/using/build-upgrade.md)の詳細については、[ビルドアップグレードの FAQ](../../platform/using/faq-build-upgrade.md) を参照してください。
 
-### Gold Standard{#upgrade-for-gold-standard-users}
+### [!DNL Gold Standard]{#upgrade-for-gold-standard-users}
 
-Gold Standard のユーザーは、[最新の GA Gold Standard ビルド](../../rn/using/gold-standard.md#gs-11)を使用することで、自動的に Gold Standard のアップグレードのメリットが得られるため、操作は必要ありません。[詳細情報](../../rn/using/gs-overview.md)。
+[!DNL Gold Standard]のホストユーザーは、[最新のGA [!DNL Gold Standard] build](../../rn/using/gold-standard.md#gs-11)を使用して、[!DNL Gold Standard]アップグレードを何も行わなくても、自動的にメリットを得られます。 [詳細情報](../../rn/using/gs-overview.md)。
 
 >[!NOTE]
->Gold Standard の互換性マトリックスは、[GA 互換性マトリックス](../../rn/using/compatibility-matrix-gs.md)に記載されています。
+>[!DNL Gold Standard]の互換表は[GA互換表](../../rn/using/compatibility-matrix-gs.md)にあります。
 
 ## サポートおよびその他の役に立つリンク{#support}
 

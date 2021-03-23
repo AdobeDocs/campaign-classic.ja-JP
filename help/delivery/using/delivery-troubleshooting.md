@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 translation-type: tm+mt
-source-git-commit: f3ba836bbb5a5f82d6a7868dcb15edc8e61b9a5b
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 * Adobe Campaign MTA 内でスロットルが発生している可能性があります。これは次の原因で発生します。
 
-   * メッセージ保留中（**[!UICONTROL 割り当てに達しました]**&#x200B;というメッセージ）：Campaign に定義されている宣言的 MX ルールによって宣言された割り当てに達しました。このメッセージについて詳しくは、[このページ](../../delivery/using/deliverability-faq.md)を参照してください。MX ルールについて詳しくは、[このページ](../../delivery/using/technical-recommendations.md#mx-rules)を参照してください。
+   * メッセージ保留中（**[!UICONTROL 割り当てに達しました]**&#x200B;というメッセージ）：Campaign に定義されている宣言的 MX ルールによって宣言された割り当てに達しました。このメッセージについて詳しくは、[このページ](../../delivery/using/deliverability-faq.md)を参照してください。MXルールの詳細については、[このセクション](../../installation/using/email-deliverability.md#about-mx-rules)を参照してください。
 
    * メッセージ保留中（**[!UICONTROL 動的フロー制御]**&#x200B;メッセージ）：指定された ISP にメッセージを配信しようとしたときに Campaign MTA でエラーが発生しました。エラーが甚大になることでブロックリストに登録されることのないよう、低速になります。
 

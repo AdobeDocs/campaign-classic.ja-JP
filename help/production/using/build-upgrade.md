@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 4d5d14565726c5c6e7c4e2e8a82cfa8cef87be0f
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2360'
 ht-degree: 53%
 
 ---
@@ -218,7 +218,7 @@ Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
 
 一部の設定では、新しいビルドに更新するために特定の追加タスクが必要です。
 
-#### トランザクションメッセージング
+#### トランザクションメッセージ
 
 キャンペーンインスタンスでトランザクションメッセージング(Message Center)が有効になっている場合、次の追加手順を実行してアップグレードする必要があります。
 
@@ -414,4 +414,4 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 * [ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
 * [Campaign Classic リリースノート](../../rn/using/rn-overview.md)
 * [Campaign Classic のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
-* [Gold Standard プログラム](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)
+* [[!DNL Gold Standard] プログラム](../../rn/using/gs-overview.md)

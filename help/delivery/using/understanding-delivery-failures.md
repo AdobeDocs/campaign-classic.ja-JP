@@ -6,11 +6,11 @@ description: 配信エラーの理解
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
-source-git-commit: 72fdac4afba6c786cfbd31f4a916b0539ad833e3
-workflow-type: ht
-source-wordcount: '2623'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+workflow-type: tm+mt
+source-wordcount: '2631'
+ht-degree: 99%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 100%
    >
    >バウンスメールボックスの設定については、[この節](../../installation/using/deploying-an-instance.md#managing-bounced-emails)で詳しく説明しています。
 
-   [フィードバックループ](../../delivery/using/technical-recommendations.md#feedback-loop)はバウンス E メールのように機能します。ユーザーが E メールをスパムとみなしたら、Adobe Campaign で E メールルールを設定して、このユーザーへのすべての配信をブロックできます。E メールをスパムとみなしたユーザーに送信されたメッセージは、この目的用に特別に作成された E メールボックスに自動的にリダイレクトされます。このようなユーザーのアドレスは、購読解除リンクをクリックしなかった場合でも、ブロックリストに登録されます。アドレスは、（**NmsRecipient**）受信者テーブルではなく、（**NmsAddress**）強制隔離テーブルでブロックリストに登録されます。
+   [フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)はバウンス E メールのように機能します。ユーザーが E メールをスパムとみなしたら、Adobe Campaign で E メールルールを設定して、このユーザーへのすべての配信をブロックできます。E メールをスパムとみなしたユーザーに送信されたメッセージは、この目的用に特別に作成された E メールボックスに自動的にリダイレクトされます。このようなユーザーのアドレスは、購読解除リンクをクリックしなかった場合でも、ブロックリストに登録されます。アドレスは、（**NmsRecipient**）受信者テーブルではなく、（**NmsAddress**）強制隔離テーブルでブロックリストに登録されます。
 
    >[!NOTE]
    >
@@ -230,10 +230,12 @@ E メールを受信者に配信できない場合は、リモートメッセー
 >ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードしている場合：
 >
 >* **[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、同期配信の失敗エラーメッセージには使用されなくなりました。**** Enhanced MTA は、バウンスのタイプと選定を決定し、その情報を Campaign に返します。
->
->* ****&#x200B;非同期バウンスは、引き続き、**[!UICONTROL インバウンド E メール]**&#x200B;ルールを通じて inMail プロセスで選定されます。詳しくは、[E メール管理ルール](#email-management-rules)を参照してください。
->
->* **Webhooks/EFS なし**&#x200B;で Enhanced MTA を使用する場合、**[!UICONTROL インバウンド E メール]**&#x200B;ルールは、非同期のバウンス E メールと同じ E メールアドレスを使用して、Enhanced MTA からの同期バウンス E メールを処理するためにも使用されます。
+   >
+   >
+* ****&#x200B;非同期バウンスは、引き続き、**[!UICONTROL インバウンド E メール]**&#x200B;ルールを通じて inMail プロセスで選定されます。詳しくは、[E メール管理ルール](#email-management-rules)を参照してください。
+   >
+   >
+* **Webhooks/EFS なし**&#x200B;で Enhanced MTA を使用する場合、**[!UICONTROL インバウンド E メール]**&#x200B;ルールは、非同期のバウンス E メールと同じ E メールアドレスを使用して、Enhanced MTA からの同期バウンス E メールを処理するためにも使用されます。
 
 
 従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、E メールの配信に失敗すると、Adobe Campaign 配信サーバーは、メッセージングサーバーまたはリモート DNS サーバーからエラーメッセージを受け取ります。エラーのリストは、リモートサーバーが返したメッセージに含まれる文字列で構成されます。エラータイプと理由が各エラーメッセージに割り当てられます。

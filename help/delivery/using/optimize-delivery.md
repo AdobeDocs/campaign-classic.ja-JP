@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 100%
@@ -50,7 +50,7 @@ ht-degree: 100%
 
    * E メールの配信品質を確認するときは、データ品質、メッセージとコンテンツ、送信インフラストラクチャ、レピュテーションという 4 つの主要カテゴリを中心に調べます。このトピックについて詳しくは、[この節](../../delivery/using/about-deliverability.md)を参照してください。
 
-* [このドキュメント](../../delivery/using/deliverability-key-points.md)に詳述されている推奨事項を適用してください。
+* [このドキュメント](../../delivery/using/about-deliverability.md)に詳述されている推奨事項を適用してください。
 
 * サポートが必要な場合は、アドビ担当者にお問い合わせください。
 

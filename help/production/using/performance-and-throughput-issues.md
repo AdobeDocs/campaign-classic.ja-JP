@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '711'
 ht-degree: 8%
 
 ---
@@ -52,7 +52,7 @@ Adobe Campaignは、CPUとRAMの使用状況をチェックする[ツール](../
 
 * MTAおよびMTAChildのプロセスとメモリ：**mta**&#x200B;モジュールは、**mtachild**&#x200B;子モジュールにメッセージを配布します。 各&#x200B;**mtachild**&#x200B;は、統計サーバーから認証を要求し、送信する前に、メッセージを準備します。 詳細は、この[ページ](../../installation/using/email-deliverability.md)を参照してください。
 * TLS設定：スループットが低下する可能性があるので、TLSをグローバルに有効にすることはお勧めしません。 その代わりに、配信品質チームが管理するドメインごとのTLS設定は、ニーズに応じて調整する必要があります。 詳細は、この[ページ](../../installation/using/email-deliverability.md#mx-configuration)を参照してください。
-* DKIM:DKIMのセキュリティレベルを確保するために、1024bは暗号化の推奨サイズであるベストプラクティスです。 これより小さいサイズの DKIM 鍵は、大多数のアクセスプロバイダーには有効とはみなされません。この[ページ](../../delivery/using/technical-recommendations.md#dkim)と[テクノテート](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)を参照してください。
+* DKIM:DKIMのセキュリティレベルを確保するために、暗号化サイズを推奨するベストプラクティスは1024bです。 これより小さいサイズの DKIM 鍵は、大多数のアクセスプロバイダーには有効とはみなされません。[このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)を参照してください。
 
 ## 配信品質の問題 {#deliverability-issues}
 
@@ -67,4 +67,4 @@ Adobe Campaignは、CPUとRAMの使用状況をチェックする[ツール](../
 
 >[!NOTE]
 >
->「[配信品質の重要点](../../delivery/using/deliverability-key-points.md)」も参照してください。
+>「[配信品質](../../delivery/using/about-deliverability.md)」の節も参照してください。 配信品質に関する詳細な詳細については、『[Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)』を参照してください。

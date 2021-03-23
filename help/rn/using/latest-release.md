@@ -7,10 +7,10 @@ feature: 概要
 role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: d1796224df95663c39fa5975e88c03a923c94878
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 98%
+source-wordcount: '906'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 このページには、**最新の Campaign Classic リリース候補バージョン**&#x200B;に加えられた新機能、改善点、および修正点が記載されています。
 
-Campaign Classic Gold Standard バージョン（最新の GA ビルド）については、[このページを参照してください](../../rn/using/gold-standard.md)。
+Campaign Classic[!DNL Gold Standard]版（最新のGAビルド）については、[このページ](../../rn/using/gold-standard.md)を参照してください。
 
 ## ![](assets/do-not-localize/blue_2.png) リリース 21.1.1 - ビルド 9277 {#release-21-1-1-build-9277}
 

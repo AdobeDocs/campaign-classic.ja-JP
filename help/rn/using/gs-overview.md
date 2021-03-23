@@ -1,35 +1,35 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Gold Standard アップグレード
-description: 'Campaign Classicゴールド標準とは '
+title: '[!DNL Gold Standard] アップグレード'
+description: Campaign Classic [!DNL Gold Standard] について
 feature: 概要
 role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 80%
+source-wordcount: '559'
+ht-degree: 74%
 
 ---
 
 
-# Gold Standard リリース {#gs-overviews}
+# [!DNL Gold Standard] リリース  {#gs-overviews}
 
-## ゴールド標準とは
+## [!DNL Gold Standard] について
 
 アドビおよび Adobe Campaign は、ソフトウェアソリューションを通じて最高のエクスペリエンスと価値を提供することを目指しています。アドビでは、アドビのソリューションがタスク実行のために活用する関連テクノロジーの最新バージョンにお客様がアクセスできるよう、取り組みを進めています。
 
 Adobe Campaign Classic は、お客様に最高のエクスペリエンスと価値を提供するために、様々なテクノロジーを活用しています。こうしたテクノロジーによる優れたセキュリティ、安定性、パフォーマンスを実現するには、Campaign Classic インスタンスを定期的にアップグレードして、常に最新版を使用する必要があります。
 
-Gold Standard は、Campaign Classic の長期サポートリリースです。ホストされている Gold Standard のユーザーは、安定した最新バージョンを使用することで、自動的に Gold Standard のアップグレードのメリットが得られるため、操作は必要ありません。オンプレミスおよびハイブリッドのお客様も、Gold Standard リリースのメリットを受けられます。古いビルドから移行する場合は、最初にこのバージョンにアップグレードすることをお勧めします。
+[!DNL Gold Standard] は、Campaign Classicの長期サポートリリースです。ホストされる[!DNL Gold Standard]ユーザーは、[!DNL Gold Standard]アップグレードのメリットを自動的に享受できます。最新の安定したバージョンを使用すると、何の操作も必要ありません。 オンプレミスおよびハイブリッドのお客様は、[!DNL Gold Standard]リリースの利点も活用できます。 古いビルドから移行する場合は、最初にこのバージョンにアップグレードすることをお勧めします。
 
 ## このアップグレードの実施が必要な理由
 
 ホスト対象のお客様は、Campaign Classicに関連するテクノロジーの1つ以上をアップグレードし、現在のビルドやバージョンを更新する必要があるとアカウントが特定された場合、Adobeから直接通知を受け取ります。
 
-古いバージョンで実行するオンプレミスまたはハイブリッドのお客様は、最新のゴールドスタンダードに移行することをAdobeに推奨しています。
+古いバージョンで動作するオンプレミスまたはハイブリッドのお客様は、最新の[!DNL Gold Standard]に移行することをAdobeに推奨します。
 
 これにより、アカウントの脆弱性を確実に保護し、アップデートされたパフォーマンステクノロジーを活用できるようになります。このアップグレードの実行により、ご利用のアカウントで、今後は、手作業や介入の必要が少ない、より容易な定期的アップグレードが実行できるようになります。
 
@@ -100,6 +100,6 @@ Gold Standard は、Campaign Classic の長期サポートリリースです。�
 
 ## その他のリソース
 
-* [Gold Standard リリースノート](gold-standard.md)
+* [[!DNL Gold Standard] リリースノート](gold-standard.md)
 * [ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
-* [Gold Standard 互換性マトリックス](compatibility-matrix-gs.md)
+* [[!DNL Gold Standard] 互換行列](compatibility-matrix-gs.md)

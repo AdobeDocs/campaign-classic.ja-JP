@@ -7,10 +7,10 @@ feature: 概要
 role: 建築家
 level: 初心者
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 09bd634142f643206c38ac5f881302a5d489ecaf
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 2%
+source-wordcount: '626'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaignは、次の管理対象サービスとして展開できます。
 
 * ブランドごとのトラッキングURLとミラーページURLを設定します。 トランザクションメッセージについては、[このセクション](../../message-center/using/configuring-multibranding.md)を参照してください。
 * クライアントコンソールをインストールします。[を参照して、](../../installation/using/installing-the-client-console.md)を参照してください。
-* 配信品質のツールとベストプラクティスについて詳しくは、『[はじめに](../../delivery/using/deliverability-key-points.md)』と『[詳細なドキュメント](../../delivery/using/about-deliverability.md)』を読んでください。
+* 配信品質のツールとベストプラクティスについて詳しくは、[詳細なドキュメント](../../delivery/using/about-deliverability.md)を参照してください。
 * キャンペーンオプションの設定：[を参照して、](../../installation/using/configuring-campaign-options.md)を参照してください。
 * CRMコネクタの設定：[を参照して、](../../platform/using/crm-connectors.md)を参照してください。
 
@@ -65,7 +65,7 @@ Adobe Campaignはオンプレミスでデプロイできます。ユーザー・
 * ブランドごとのトラッキングURLとミラーページURLを設定します。 トランザクションメッセージについては、[このセクション](../../message-center/using/configuring-multibranding.md)を参照してください。
 * クライアントコンソールをインストールします。[を参照して、](../../installation/using/installing-the-client-console.md)を参照してください。
 * 組み込みパッケージのインストール：[を参照して、](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
-* 配信品質：[MXルール](../../installation/using/email-deliverability.md#mx-configuration)と[E メールフォーマット](../../installation/using/email-deliverability.md#managing-email-formats)を構成します。 配信品質のツールとベストプラクティスについて詳しくは、『[はじめに](../../delivery/using/deliverability-key-points.md)』と『[詳細なドキュメント](../../delivery/using/about-deliverability.md)』を読んでください。
+* 配信品質：[MXルール](../../installation/using/email-deliverability.md#mx-configuration)と[E メールフォーマット](../../installation/using/email-deliverability.md#managing-email-formats)を構成します。 配信品質のツールとベストプラクティスについて詳しくは、[詳細なドキュメント](../../delivery/using/about-deliverability.md)を参照してください。
 * キャンペーンオプションの設定：[を参照して、](../../installation/using/configuring-campaign-options.md)を参照してください。
 * 外部データベース(Federated Data Access)の設定：[を参照して、](../../installation/using/about-fda.md)を参照してください。
 * CRMコネクタの設定：[を参照して、](../../platform/using/crm-connectors.md)を参照してください。

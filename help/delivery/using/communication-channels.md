@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 44f2aed49a12d51bb3b38f304e6b922f0faf68cc
+source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1211'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Adobe Campaign では、E メール、SMS、LINE メッセージ、プッシュ�
 
 >[!NOTE]
 >
->Adobe Campaign は、配信品質を監視し、E メール送信を最適化するための一連のツールを備えています。詳しくは、[配信品質の概要](../../delivery/using/deliverability-key-points.md)および[配信品質の管理](../../delivery/using/about-deliverability.md)を参照してください。
+>Adobe Campaign は、配信品質を監視し、E メール送信を最適化するための一連のツールを備えています。詳しくは、[この節](../../delivery/using/about-deliverability.md)を参照してください。
 
 配信の送信は、ワークフローのプロセスの中で配信を準備または送信することによって自動化できます。ワークフロー内の配信タイプのアクティビティについて詳しくは、[この節](../../workflow/using/about-action-activities.md)を参照してください。
 

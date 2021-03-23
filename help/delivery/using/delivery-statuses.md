@@ -6,11 +6,11 @@ description: 配信ダッシュボードで使用できるステータスにつ�
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: ht
-source-git-commit: 29801740c10dc182bdb5f00114298d04385a3e1b
-workflow-type: ht
-source-wordcount: '627'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
+workflow-type: tm+mt
+source-wordcount: '639'
+ht-degree: 94%
 
 ---
 
@@ -87,7 +87,7 @@ ajouter screenshot -->
  </tbody> 
 </table>
 
-Adobe Campaign E メールの配信品質の最適化方法について詳しくは、[配信品質のベストプラクティスガイド](../../delivery/using/deliverability-key-points.md)と[このページ](../../delivery/using/about-deliverability.md)を参照してください。
+Adobe Campaignの電子メールの配信品質を最適化する方法については、[このセクション](../../delivery/using/about-deliverability.md)を参照してください。 配信品質に関する詳細な詳細については、『[Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)』を参照してください。
 
 ## 保留中ステータス {#pending-status}
 

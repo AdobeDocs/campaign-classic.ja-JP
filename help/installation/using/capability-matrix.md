@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 46%
+source-wordcount: '296'
+ht-degree: 44%
 
 ---
 
@@ -56,5 +56,5 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 * [リリースノート](../../rn/using/latest-release.md)
 * [Campaign Classicのアップグレード](../../rn/using/rn-overview.md)
 * [非推奨（廃止予定）および削除された機能](../../rn/using/deprecated-features.md)
-* [Gold Standard リリース](../../rn/using/gold-standard.md)
-* [Gold Standard プログラム](https://helpx.adobe.com/jp/campaign/kb/gold-standard.html)
+* [[!DNL Gold Standard] リリース](../../rn/using/gold-standard.md)
+* [[!DNL Gold Standard] プログラム](../../rn/using/gs-overview.md)

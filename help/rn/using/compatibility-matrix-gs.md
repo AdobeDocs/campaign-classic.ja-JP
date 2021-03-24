@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 互換性マトリックス キャンペーン [!DNL Gold Standard]
+title: Campaign の互換性マトリックス [!DNL Gold Standard]
 description: ' [!DNL Gold Standard] リリースのCampaign Classic互換表'
 feature: 概要
 role: ビジネス従事者

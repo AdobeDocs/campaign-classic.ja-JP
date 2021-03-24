@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 74%
+ht-degree: 89%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign Classic は、お客様に最高のエクスペリエンスと価
 
 ## このアップグレードの実施が必要な理由
 
-ホスト対象のお客様は、Campaign Classicに関連するテクノロジーの1つ以上をアップグレードし、現在のビルドやバージョンを更新する必要があるとアカウントが特定された場合、Adobeから直接通知を受け取ります。
+ご利用のアカウントで Campaign Classic に関連する 1 つ以上のテクノロジーのアップグレードや、現在のビルドまたはバージョンのアップデートが必要なことが確認されると、アドビから直接通知されます。
 
 古いバージョンで動作するオンプレミスまたはハイブリッドのお客様は、最新の[!DNL Gold Standard]に移行することをAdobeに推奨します。
 
@@ -53,7 +53,7 @@ Adobe Campaign Classic は、お客様に最高のエクスペリエンスと価
     <li>Adobe Campaign Classic に使用される複数のテクノロジーは相互に連携して優れた価値を提供します。</li>
     <li>セキュリティを確保するには、すべてのインスタンスをアップデートする必要があります。</li>
     <li>常時焦点を当て、プロアクティブな保全をおこなわなければセキュリティは確保できません。</li>
-    <li>セキュリティ上のリスクは存在するため、無視することはできません。Campaign Classic用にアップグレードするたびに、セキュリティが向上します。</li>
+    <li>セキュリティ上のリスクは存在しており、無視することはできません。Campaign Classic をアップグレードするたびに、セキュリティが向上します。</li>
     </ul>
   </td>
 
@@ -63,7 +63,7 @@ Adobe Campaign Classic は、お客様に最高のエクスペリエンスと価
     <strong>サポートの向上</strong>
     </div>
     <ul>
-    <li>重要な問題のほとんどは、実際にはアップグレードによって解決されるので、回避できます。</li>
+    <li>重大な問題のほとんどは、実際にはアップグレードで解決し、回避することができます。</li>
     <li>定期的アップグレードの実行により、直面する課題が軽減、解消されて、効率が向上します。</li>
     <li>カスタマーケアの件数も減少するので、より迅速な解決が可能となり、アップグレード以外の問題に集中できるようになります。</li>
     </ul>
@@ -72,9 +72,9 @@ Adobe Campaign Classic は、お客様に最高のエクスペリエンスと価
 
 <tr>
   <td>
-      <img alt="保守" src="assets/do-not-localize/maintenance.png"/>
+      <img alt="メンテナンス" src="assets/do-not-localize/maintenance.png"/>
     <div>
-    <strong>メンテナンスと安定性の向上</strong>
+    <strong>メンテナンスと安定性の強化</strong>
     </div>
     <ul>
     <li>Adobe Campaign チームは、製品の安定性とパフォーマンスを向上させる方法を特定し、既知の問題も解決します。</li>
@@ -86,7 +86,7 @@ Adobe Campaign Classic は、お客様に最高のエクスペリエンスと価
 <td>
       <img alt="ビルドのアップグレード" src="assets/do-not-localize/upgrades.png" />
     <div>
-    <strong>容易なアップグレード</strong>
+    <strong>アップグレードが容易</strong>
     </a>
     </div>
     <ul>

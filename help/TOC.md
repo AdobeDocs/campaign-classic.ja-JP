@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 0b3bc9547d756352f4af5dac713f85666c96c425
 workflow-type: tm+mt
 source-wordcount: '2448'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 96%
    + [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md)
    + [互換性マトリックス](rn/using/compatibility-matrix.md)
    + [テクニカルノート](technotes/technote.md)
-   + [iOS証明書の更新](technotes/ios-certificate-update.md)
-   + [キャンペーン構成の更新](technotes/acc-config-updates.md)
+   + [iOS 証明書の更新](technotes/ios-certificate-update.md)
+   + [Campaign 設定の更新](technotes/acc-config-updates.md)
 + はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic の基本を学ぶ](platform/using/about-adobe-campaign-classic.md)
@@ -610,7 +610,7 @@ ht-degree: 96%
    + アーキテクチャの原則 {#architecture-and-hosting-models}
       + [一般的なアーキテクチャ](installation/using/general-architecture.md)
       + ホスティングのモデル{#hosting-models-lp}
-         + [キャンペーンホスティングモデル](installation/using/hosting-models.md)
+         + [Campaign ホスティングモデル](installation/using/hosting-models.md)
          + [機能マトリックス](installation/using/capability-matrix.md)
    + デプロイメントタイプ {#deployment-types-}
       + [デプロイメントタイプについて](installation/using/about-deployment-types.md)
@@ -621,13 +621,13 @@ ht-degree: 96%
       + [パワーブースターとパワークラスター](installation/using/power-booster-and-power-cluster.md)
    + セキュリティとプライバシーのチェックリスト {#security-privacy}
       + [セキュリティとプライバシーの基本を学ぶ](installation/using/get-started-security-privacy.md)
-      + [個人設定とプライバシー](installation/using/privacy.md)
+      + [パーソナライズ機能とプライバシー](installation/using/privacy.md)
       + [安全なアクセス管理](installation/using/access-management.md)
       + [スクリプトとコーディングのガイドライン](installation/using/scripting-coding-guidelines.md)
       + [ネットワーク、データベース、SSL/TLS](installation/using/network-database.md)
       + [サーバーのセキュリティ設定](installation/using/server-configuration.md)
-      + [Webサーバーのセキュリティ設定](installation/using/web-server-configuration.md)
-   + キャンペーンのインストール（オンプレミス）{#install-campaign-on-prem}
+      + [Web サーバーのセキュリティ設定](installation/using/web-server-configuration.md)
+   + Campaign のインストール（オンプレミス）{#install-campaign-on-prem}
       + デプロイメントのガイドライン {#deployment-guidelines}
          + [データベースサーバー](installation/using/database.md)
          + [アプリケーションサーバー](installation/using/application-server.md)
@@ -641,10 +641,10 @@ ht-degree: 96%
       + Linux での Campaign {#installing-campaign-in-linux-}
          + [前提条件](installation/using/prerequisites-of-campaign-installation-in-linux.md)
          + [パッケージのインストール](installation/using/installing-packages-with-linux.md)
-         + [Webサーバーへの統合](installation/using/integration-into-a-web-server-for-linux.md)
+         + [Web サーバーへの統合](installation/using/integration-into-a-web-server-for-linux.md)
       + [タイムゾーン管理](installation/using/time-zone-management.md)
       + [ミッドソーシングサーバーのインストール](installation/using/mid-sourcing-server.md)
-   + キャンペーン（オンプレミス）の導入{#initial-configuration}
+   + Campaign のデプロイ（オンプレミス） {#initial-configuration}
       + [主な手順](installation/using/about-initial-configuration.md)
       + [インスタンスの作成とログオン](installation/using/creating-an-instance-and-logging-on.md)
       + [データベースの作成と設定](installation/using/creating-and-configuring-the-database.md)
@@ -652,12 +652,12 @@ ht-degree: 96%
       + [インスタンスのデプロイ](installation/using/deploying-an-instance.md)
       + [組み込みパッケージのインストール](installation/using/installing-campaign-standard-packages.md)
    + Campaign の設定 {#additional-configurations}
-      + [キャンペーンサーバーの設定](installation/using/configuring-campaign-server.md)
+      + [Campaign サーバーの設定](installation/using/configuring-campaign-server.md)
       + [セキュリティゾーンの定義](installation/using/security-zones.md)
-      + [技術的な E メール設定](installation/using/email-deliverability.md)
-      + [電子メールBCCの設定](installation/using/email-archiving.md)
+      + [技術的な電子メール設定](installation/using/email-deliverability.md)
+      + [電子メール BCC の設定](installation/using/email-archiving.md)
       + [SpamAssassin の設定](installation/using/configuring-spamassassin.md)
-   + キャンペーン{#connect-to-campaign}に接続
+   + Campaign に接続{#connect-to-campaign}
       + [クライアントコンソールのインストール](installation/using/installing-the-client-console.md)
       + Adobe ID を使用した接続 {#connecting-via-an-adobe-id}
          + [概要： [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
@@ -665,10 +665,10 @@ ht-degree: 96%
          + [実装：Adobe [!DNL IMS]](integrations/using/implementing-ims.md)
          + [IMS のトラブルシューティング](integrations/using/ims-troubleshooting.md)
       + [LDAP 経由の接続](installation/using/connecting-through-ldap.md)
-   + キャンペーンを外部システムに接続{#accessing-external-database}
+   + Campaign を外部システムに接続{#accessing-external-database}
       + [外部アカウントの設定](installation/using/external-accounts.md)
-      + Federated Data Accessの構成{#configure-fda}
-         + [Federated Data Accessの概要](installation/using/about-fda.md)
+      + Federated Data Access の設定{#configure-fda}
+         + [Federated Data Access の概要](installation/using/about-fda.md)
          + 設定のガイドライン {#config-databases}
             + [設定の手順](installation/using/configure-fda.md)
             + [Snowflake の設定](installation/using/configure-fda-snowflake.md)

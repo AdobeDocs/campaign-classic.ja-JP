@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: キャンペーン18.4のリリースノート
-description: キャンペーン18.4のリリースノート
+title: Campaign 18.4 のリリースノート
+description: Campaign 18.4 のリリースノート
 feature: null
 role: null
 level: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2289'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

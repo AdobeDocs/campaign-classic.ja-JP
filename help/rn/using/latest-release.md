@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
 source-wordcount: '906'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -81,7 +81,7 @@ Campaign で次のシステムがサポートされるようになりました�
 IOB-090020 Error in SSL library: 'IOB-090013 error:14090086:SSL routines:ssl3_get_server_certificate:certificate verify failed (code 336134278)'
 ```
 
-* ターゲットデータのパーソナライゼーションを含む新しい配信が送信されない問題を修正しました(NEO-30323)。
+* ターゲットデータのパーソナライズ機能を使用した新しい配信が送信されない問題を修正しました（NEO-30323）。
 * マーケティングインスタンスで複数のクラッシュが発生し、コアファイルが生成される問題を修正しました。
 * 次のエラーが発生して、**トラッキング**&#x200B;ワークフローが失敗する問題を修正しました。（NEO-25206）
 

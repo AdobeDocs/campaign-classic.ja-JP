@@ -6,11 +6,11 @@ description: リリース 20.2
 feature: 概要
 role: ビジネス従事者
 level: 初心者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f718e26aeaa5ed5a58dfd0e3bc29d2dd9e995ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2567'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ _2020 年 12 月 22 日_
 
 >[!CAUTION]
 >
-> * このリリースには、新しい接続プロトコルが付属しています。AdobeIDサービス(IMS)を介してキャンペーンに接続する場合、**2021年6月30日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるように、アップグレードが必要です。
+> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス (IMS) を介して Campaign に接続する場合は、 **2021 年 6 月 30 日**&#x200B;以降、Campaign サーバーとクライアントコンソールのいずれも、Campaign に接続できるようにするには、アップグレードが必要です。
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
-> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。キャンペーン付きの従来のoAuth認証モードは、2021年11月30日に&#x200B;**終了します。**
+> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、 **2021 年 11 月 30 日**&#x200B;に終了します。
 
 
 
@@ -82,7 +82,7 @@ _2020 年 7 月 22 日_
 * [新しいシーケンス ID メカニズム](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)に切り替えた後、受信者テーブルを更新するすべての web アプリケーションは、アップグレード後に再公開されます。
 * 配信コンテンツの潜在的な XSS 脆弱性を修正しました。（NEO-17987、NEO-26073）
 
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/ja/control-panel/using/release-notes.html)。
 
 ## ![](assets/do-not-localize/red_2.png) リリース 20.2.1 - ビルド 9178 {#release-20-2-1-build-9178}
 

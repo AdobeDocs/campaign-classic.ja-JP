@@ -1,7 +1,7 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Campaign Classicの互換表
+title: Campaign Classic の互換性マトリックス
 description: Campaign Classic 互換性マトリックス
 feature: 概要
 role: ビジネス従事者
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 

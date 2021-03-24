@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic ドキュメントのアップデート
-description: このページでは、Adobe Campaign Classicのドキュメントのすべての新機能と更新をリストします
+description: このページでは、Adobe Campaign Classic のドキュメントのすべての新機能と更新をリストします
 feature: 概要
 role: ビジネス従事者
 level: 初心者
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: d41119e61ee2088e1b8cab65354547420f8e7737
 workflow-type: tm+mt
 source-wordcount: '4270'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 
 ## 2021 年 3 月 {#march-2021}
 
-Campaign Classicに関するサポートを受けるためのガイドラインとリファレンスが新しいページに追加されました。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
+Campaign Classic に関するサポートを受けるためのガイドラインとリファレンスが新しいページに追加されました。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
 
 セキュリティとプライバシーに関するベストプラクティスと実行するチェックについて説明する新しいセクションが追加されました。 [詳細情報](../../installation/using/get-started-security-privacy.md)
 

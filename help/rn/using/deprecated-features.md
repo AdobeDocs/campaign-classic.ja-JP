@@ -2,15 +2,15 @@
 solution: Campaign Classic
 product: campaign
 title: Campaign Classic の非推奨（廃止予定）および削除された機能
-description: このページリストは、Adobe Campaign Classicの機能を廃止および削除しました。
+description: このページには、Adobe Campaign Classic の非推奨および削除された機能が表示されます
 feature: 概要
 role: ビジネス従事者
 level: 初心者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1716'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

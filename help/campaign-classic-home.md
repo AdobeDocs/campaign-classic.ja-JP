@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 5097eea4cf842b93af77ee828693f76a7182a8fe
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 82%
+ht-degree: 99%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 82%
 
 ## 新着情報
 
-* **[APNs](technotes/ios-certificate-update.md)**<br/> 証明書の更新2021年3月29日に、APNsの更新はキャンペーンiOSチャネルに影響を与えます。iOSのプッシュチャネルが機能しなくなるのを防ぐために、設定を更新する必要があります。
+* **[APN 証明書のアップデート](technotes/ios-certificate-update.md)**<br/> 2021 年 3 月 29 日、APN のアップデートにより、Campaign iOS チャネルが影響を受けます。iOS のプッシュチャネルが機能しなくなるのを防ぐために、設定を更新する必要があります。
 
-* **[IMS/Adobe ID を使用した接続最新のビルド](integrations/using/about-adobe-id.md)**<br/>にアップグレードします。IMSを使用してキャンペーンに接続する場合は、** 2021年6月30日&#x200B;**以降にキャンペーンに接続できるようにアップグレードする必要があります。
+* **[IMS／Adobe ID を使用した接続最新ビルドへのアップグレード](integrations/using/about-adobe-id.md)**<br/> IMS を使用して Campaign に接続している場合、** 2021 年 6 月 30 日&#x200B;**以降も、Campaign に接続できるようにするには、アップグレードが必要です。
 
 * **[Campaign インスタンスのセキュリティ保護](technotes/acc-config-updates.md)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します。
 
@@ -87,7 +87,7 @@ ht-degree: 82%
 |---|---|
 | [リリースノート](/help/rn/using/latest-release.md) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [ハウツービデオ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
-| [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
+| [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/ja/campaign-classic/technicalresources/api/p-1.html) |
 | [[!DNL Gold Standard] アップグレード](rn/using/gs-overview.md) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
 | [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md) | [セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) |
 | [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) | [監視のガイドライン](production/using/monitoring-guidelines.md) |

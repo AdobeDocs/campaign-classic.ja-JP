@@ -6,7 +6,7 @@ description: テクニカルノート
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 01f4e4ee841a797f4be61ffc01096b7f651ce963
+source-git-commit: bdd746120f2162cf48eeb9d519513656bd4e75aa
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 58%
@@ -29,7 +29,7 @@ ht-degree: 58%
 >これらの変更に関するご質問は、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 
-## セキュリティの更新
+## セキュリティの更新 {#acc-security-updates}
 
 最新のキャンペーンバージョンには、サーバー側要求偽造(SSRF)の問題に対する保護を強化するセキュリティ修正が付属しています。 詳しくは、[このページ](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)を参照してください。
 
@@ -62,7 +62,7 @@ ht-degree: 58%
 >推奨期間内にアップグレードできない場合は、**Adobeカスタマーケアチームに連絡して、インスタンス**&#x200B;に短期間の手動セキュリティ修正を適用する必要があります。
 
 
-## Campaign Classicクライアントコンソールの更新
+## Campaign Classicクライアントコンソールの更新{#acc-cc-updates}
 
 最近識別された回帰を解決するには、次の&#x200B;**コンソールバージョン**&#x200B;をインストールする必要があります。 この問題は、配信での日付選択や画像管理など、クライアントコンソールの一部のコンポーネントが使用できなかった問題を修正しました。 **コンソールのアップグレードは必須です。**
 
@@ -105,7 +105,7 @@ dobe Identity Management サービス（IMS）を使用し、](../integrations/u
 
 * [Campaign クライアントコンソールのインストール方法](../installation/using/installing-the-client-console.md)
 
-## Experience Cloud トリガーとの統合
+## Experience Cloud トリガーとの統合  {#acc-triggers-updates}
 
 従来の OAuth 認証サービスは終了しました。 トリガー統合認証は、もともと OAuth 認証設定に基づいてパイプラインにアクセスしていましたが、Adobe I/O に移行しました。トリガー統合認証は、**2021 年 11 月 30 日**&#x200B;に廃止されます。[詳細情報](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)。
 
@@ -131,7 +131,7 @@ dobe Identity Management サービス（IMS）を使用し、](../integrations/u
 
 [Adobe I/O に移行する方法を説明します](../integrations/using/configuring-adobe-io.md)。
 
-## APN アップデート
+## APN アップデート  {#acc-apns-updates}
 
 ### HTTP/2 ベースの APN プロバイダー API
 

@@ -3,14 +3,14 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Analytics Data コネクタ
 description: Adobe Analytics Data コネクタ
-audience: platform
-content-type: reference
-topic-tags: connectors
+feature: 概要
+role: 営業者、管理者
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '1809'
-ht-degree: 100%
+source-wordcount: '1814'
+ht-degree: 99%
 
 ---
 

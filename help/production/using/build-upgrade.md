@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2355'
 ht-degree: 53%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 53%
 
 1. [サーバー構成ファイル](../../installation/using/the-server-configuration-file.md)の最新バージョンを取得します。
 
-1. [最新のビルドをダウンロードします](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)。[詳細情報](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html)。
+1. [最新のビルドをダウンロードします](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)。[詳細情報](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html)。
 
 また、ビルドのアップグレードを開始する前に、[役に立つすべてのコマンドライン](../../installation/using/command-lines.md)を知っておく必要があります。
 
@@ -413,5 +413,5 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 
 * [ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
 * [Campaign Classic リリースノート](../../rn/using/rn-overview.md)
-* [Campaign Classic のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
+* [Campaign Classic のヘルプとサポートのオプション](../../support.md)
 * [[!DNL Gold Standard] プログラム](../../rn/using/gs-overview.md)

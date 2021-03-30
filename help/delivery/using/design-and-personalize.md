@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: 40edacce1812a1722e5a23e5db7da11687c44ac8
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 98%
@@ -94,7 +94,7 @@ E メールの制限を守るには、以下を考慮してください。
 
 デフォルトでは、SMS の文字数は GSM（Global System for Mobile Communications）標準に準じています。GSM エンコードを使用する SMS メッセージは 160 文字以内に制限されています。複数の部分に分けて送信されるメッセージの場合は、SMS 1 件につき 153 文字以内です。
 
-表記変換では、SMS の特定の文字が GSM 標準に準じていない場合に、別の文字に置き換えられます。パーソナライゼーションフィールドを SMS メッセージのコンテンツに入れると、GSM エンコードに対応していない文字が含まれる場合があります。文字の表記変換を許可するには、対応する&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;の「SMPP チャネル設定」タブにあるチェックボックスをオンにします。詳しくは、[この節](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)を参照してください。
+表記変換では、SMS の特定の文字が GSM 標準に準じていない場合に、別の文字に置き換えられます。パーソナライゼーションフィールドを SMS メッセージのコンテンツに入れると、GSM エンコードに対応していない文字が含まれる場合があります。文字の表記変換を許可するには、対応する&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;の「SMPP チャネル設定」タブにあるチェックボックスをオンにします。詳しくは、[この節](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)を参照してください。
 
 **ヒント**：
 
@@ -102,7 +102,7 @@ E メールの制限を守るには、以下を考慮してください。
 
 * ただし、SMS メッセージに GSM 標準に準じていない文字が多数含まれる場合は、表記変換を有効にしてメッセージ送信のコストを抑えることができます。
 
-詳しくは、[この節](../../delivery/using/sms-channel.md#about-character-transliteration)を参照してください。
+詳しくは、[この節](../../delivery/using/sms-set-up.md#about-character-transliteration)を参照してください。
 
 ## フォーマット {#formatting}
 

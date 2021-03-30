@@ -7,10 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 40abbf1f981331b8a19d3607c57624aac22c91f2
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 78%
 
 ---
 
@@ -36,3 +36,9 @@ Adobe Campaign を使用すると、オーディエンスやセグメントを A
 
 * **訪問者 ID**：このタイプの識別子は、Adobe Experience Cloud の訪問者を Adobe Campaign 受信者に紐付けします。
 * **宣言済み ID**：このタイプの識別子は、すべてのタイプのデータを Adobe Campaign データベースからの要素に紐付けします。Adobe Campaign では、事前定義された紐付けキーとして示されます。
+
+   >[!NOTE]
+   >
+   > 宣言済みIDデータソースをPeopleコアサービス統合でも使用できるようになりました。
+   >
+   >Peopleコアサービス統合を使用していて、Audience Manager統合を追加する場合は、Adobe Audience Managerコンテキストでこの宣言済みIDデータソースに移行する際に収集されたID同期をすべて失わないように、Adobe Audience Managerコンサルタントの支援が必要です。

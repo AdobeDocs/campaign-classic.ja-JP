@@ -7,17 +7,17 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '3394'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 
 # フィルター条件の定義{#defining-filter-conditions}
 
-## 演算子の選択 {#choosing-the-operator}
+## 演算子{#choosing-the-operator}を選択します
 
 フィルター条件内で、演算子を使用して 2 つの値をリンクする必要があります。
 
@@ -117,7 +117,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 「および」、「または」、「例外」の使用{#using-and--or--except}
+## {#using-and--or--except}を除き、AND、ORを使用
 
 複数のフィルター条件を使用するクエリでは、条件間のリンクを定義する必要があります。次の 3 つのリンクが使用可能です。
 
@@ -146,7 +146,7 @@ ht-degree: 100%
 
 ![](assets/query_editor_nveau_31.png)
 
-## 条件の優先順位付け {#prioritizing-conditions}
+## 条件の優先順位を設定{#prioritizing-conditions}
 
 この節では、ツールバーの青色の矢印を使用して条件を優先順位付けする方法について説明します。
 
@@ -165,7 +165,7 @@ ht-degree: 100%
 
 「**[!UICONTROL 性別（@gender）が男性と等しい]**」条件が括弧の外に出されます。この条件は、「市区町村が横浜市と等しい」条件と同じレベルに移動しました。これらの条件は、「**[!UICONTROL および]**」でリンクされます。
 
-## 抽出するデータの選択 {#selecting-data-to-extract}
+## 抽出するデータを選択{#selecting-data-to-extract}
 
 使用可能フィールドはテーブルごとに異なります。すべてのフィールドは、**[!UICONTROL メイン要素]**&#x200B;と呼ばれるメインノードに保存されます。次の例では、使用可能フィールドは受信者テーブルにあります。フィールドは常にアルファベット順に表示されます。
 
@@ -259,13 +259,13 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->* 式を編集する出力列を追加するには、**[!UICONTROL 追加]**&#x200B;ボタン（サイドアイコンバーの上部）を使用します。式の編集について詳しくは、[式の作成](#building-expressions)を参照してください。
+>* 式を編集する出力列を追加するには、**[!UICONTROL 追加]**&#x200B;ボタン（サイドアイコンバーの上部）を使用します。式の編集について詳しくは、[このセクション](#building-expressions)を参照してください。
 >* 出力列を削除するには、赤い「x」（**削除**）をクリックします。
 >* 出力列の順序を変更するには、矢印を使用します。
 >* **[!UICONTROL 値の配分]**&#x200B;は、選択したフィールドの値の配分を表示する方法として機能します（例えば、受信者の市区町村、受信者の言語などにリンクした配信）。
 
 
-## 計算フィールドの作成 {#creating-calculated-fields}
+## 計算済みフィールドを作成{#creating-calculated-fields}
 
 必要に応じて、データフォーマット中に列を追加します。計算フィールドによって、データのプレビューセクションに列が追加されます。**[!UICONTROL 計算フィールドを追加]**&#x200B;をクリックします。
 
@@ -306,7 +306,7 @@ ht-degree: 100%
 
 ![](assets/query_editor_nveau_58.png)
 
-## 式の作成 {#building-expressions}
+## ビルド式{#building-expressions}
 
 式編集ツールを使用すると、集計の計算、関数の生成または式を使用した数式の編集をおこなうことができます。
 

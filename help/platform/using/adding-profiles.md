@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: プロファイルの追加
 description: プロファイルの追加
-audience: platform
-content-type: reference
-topic-tags: profile-management
+feature: プロファイル
+role: ビジネス従事者
+level: 初心者
 translation-type: tm+mt
-source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '80'
 ht-degree: 100%
 
 ---

@@ -6,9 +6,9 @@ description: Campaign 18.4 のリリースノート
 feature: null
 role: null
 level: null
-translation-type: ht
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
+workflow-type: tm+mt
 source-wordcount: '2289'
 ht-degree: 100%
 
@@ -144,7 +144,7 @@ ht-degree: 100%
 * 管理者が任意のオペレーターのパスワードを設定またはリセットできる機能が復元されました。そのためには、オペレーターを右クリックし、**[!UICONTROL アクション]**／**[!UICONTROL パスワードをリセット]**&#x200B;を選択して、そのオペレーターの新しいパスワードを設定します。オペレーターが最初の再接続時にパスワードを変更することをお勧めします。詳しくは、[詳細ドキュメント](../../production/using/lost-password.md)を参照してください。
 * 新しいマルチテナンシー機能を Adobe Target でサポートするために、Target との統合のためのオプションおよび外部アカウントの設定時に、新しい「at_property」パラメーターを URL に追加できるようになりました。このパラメーターに使用する値は、Adobe Target で参照でき、Target の呼び出し時に Campaign で使用されます。詳しくは、[詳細ドキュメント](../../integrations/using/inserting-a-dynamic-image.md)を参照してください。
 * Adobe Target によって提供される画像をクリックしたときに開くデフォルトのランディングページを指定できるようになりました。これまでは、この画像をクリックすると、電子メールの作成時に設定したデフォルト画像が表示されました。詳しくは、[詳細ドキュメント](../../integrations/using/inserting-a-dynamic-image.md)を参照してください。
-* トレース出力を強制的におこなうための「**SMPP トレースを有効にする**」チェックボックスが外部アカウントに追加されました。詳しくは、[詳細ドキュメント](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)を参照してください。
+* トレース出力を強制的におこなうための「**SMPP トレースを有効にする**」チェックボックスが外部アカウントに追加されました。詳しくは、[詳細ドキュメント](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)を参照してください。
 
 **技術面の変更点**
 

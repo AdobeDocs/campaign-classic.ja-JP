@@ -7,23 +7,23 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 
-# データの更新{#updating-data}
+# データ更新{#updating-data}
 
 受信者のプロファイルにリンクされているデータは、手動または自動で更新できます。
 
-## 自動更新の設定 {#setting-up-an-automatic-update}
+## 自動更新の設定{#setting-up-an-automatic-update}
 
 自動更新は、ワークフローを使用して設定できます。詳しくは、[この節](../../workflow/using/update-data.md)を参照してください。
 
-## 一括更新の実行 {#performing-a-mass-update}
+## 一括更新{#performing-a-mass-update}を実行
 
 手動更新を実行するには、選択した受信者を右クリックして「**[!UICONTROL アクション]**」ショートカットメニューを使用するか、**[!UICONTROL アクション]**&#x200B;アイコンを使用します。
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 ウィンドウの両方のセクションの「**[!UICONTROL 結果]**」列を確認し、「**[!UICONTROL 完了]**」をクリックして結合を実行します。
 
-## データのエクスポート {#exporting-data}
+## データのエクスポート{#exporting-data}
 
 リストのコンテンツをエクスポートできます。エクスポートを設定して実行するには、以下の手順に従います。
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
    エクスポートウィザードを設定する方法について詳しくは、[こちらの節](../../platform/using/executing-export-jobs.md)を参照してください。
 
-## サービスの購読登録 {#subscribing-to-a-service}
+## サービスを登録{#subscribing-to-a-service}
 
 ほとんどの場合、受信者は専用のランディングページからニュースレターを購読します。詳しくは、[この節](../../delivery/using/managing-subscriptions.md)を参照してください。一方で、フィルターを適用した受信者のプロファイルを、手動でサービス（ニュースレターやバイラルサービス）に購読登録することもできます。手順は次のとおりです。
 

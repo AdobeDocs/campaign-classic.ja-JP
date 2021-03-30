@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: introduction
 translation-type: tm+mt
-source-git-commit: 9aa0ecd423bfbf1082e9ce5bdb36aaf1611dea54
+source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 16%
+source-wordcount: '772'
+ht-degree: 15%
 
 ---
 
@@ -56,7 +56,9 @@ Campaign Classicのホームページからアクセスできる&#x200B;**[!UICO
 
 >[!NOTE]
 >
->Campaign コントロールパネルは管理者ユーザーのみがアクセスでき、Adobe Managed Servicesを使用するすべてのお客様が利用できます。
+>Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセスを許可する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
+>
+>インスタンスはAWSでホストされ、最新の[Gold Standard](../../rn/using/gs-overview.md)ビルドまたは[最新のGAビルド(21.1)](../../rn/using/latest-release.md)でアップグレードする必要があります。 [このセクション](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)でバージョンを確認する方法を説明します。 インスタンスがAWSでホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)に記載されている手順に従ってください。
 
 ### ワークフローの監視 {#monitoring-workflows}
 

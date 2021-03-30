@@ -7,15 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 3139a9bf5036086831e23acef21af937fcfda740
+source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 100%
+source-wordcount: '749'
+ht-degree: 85%
 
 ---
 
 
-# ファイルの解凍または復号化 {#unzipping-or-decrypting-a-file-before-processing}
+# ファイル{#unzipping-or-decrypting-a-file-before-processing}を解凍または復号化する
 
 Adobe Campaign では、圧縮されたファイルや暗号化されたファイルをインポートできます。「[データ読み込み（ファイル）](../../workflow/using/data-loading--file-.md)」アクティビティで読み取る前にファイルを解凍または復号化する前処理を定義できます。
 
@@ -25,7 +25,9 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
    >[!NOTE]
    >
-   >Campaign コントロールパネルは、AWS でホストされるすべてのお客様が利用できます（自分のマーケティングインスタンスをオンプレミスでホストするお客様を除く）。
+   >Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセスを許可する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
+   >
+   >インスタンスはAWSでホストされ、最新の[Gold Standard](../../rn/using/gs-overview.md)ビルドまたは[最新のGAビルド(21.1)](../../rn/using/latest-release.md)でアップグレードする必要があります。 [このセクション](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)でバージョンを確認する方法を説明します。 インスタンスがAWSでホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)に記載されている手順に従ってください。
 
 1. インストールした Adobe Campaign がアドビでホストされている場合は、必要なユーティリティをサーバーにインストールするよう[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に依頼します。
 1. Adobe Campaign のインストールがオンプレミスの場合：使用するユーティリティ（例：GPG、GZIP）およびアプリケーションサーバー上の必要なキー（暗号化キー）をインストールします。
@@ -44,9 +46,9 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 **関連トピック：**
 
 * [データの読み込み（ファイル）アクティビティ](../../workflow/using/data-loading--file-.md).
-* [ファイルの圧縮または暗号化](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+* [ファイルを圧縮または暗号化します](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file)。
 
-## ユースケース：コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート {#use-case-gpg-decrypt}
+## 使用例：Campaign コントロールパネル{#use-case-gpg-decrypt}が生成した鍵を使用して暗号化したデータを読み込む
 
 このユースケースでは、外部システムで暗号化されたデータを Campaign コントロールパネルで生成された鍵を使用してインポートするためのワークフローを作成します。
 

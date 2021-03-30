@@ -6,26 +6,24 @@ description: ここでは、Adobe Campaign Classic のモバイルアプリチ�
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: ht
-source-git-commit: 22f44f5723ab35e95caa438583fe06314c763ba1
-workflow-type: ht
-source-wordcount: '677'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 93%
 
 ---
 
 
-# モバイルアプリチャネルについて{#about-mobile-app-channel}
+# モバイルアプリチャネルの概要{#about-mobile-app-channel}
+
+**モバイルアプリチャネル**&#x200B;では、Adobe Campaignプラットフォームを使用して、パーソナライズされたプッシュ通知をアプリを介してiOSおよびAndroid端末に送信できます。
 
 >[!CAUTION]
 >
 >このドキュメントは、モバイルアプリケーションを Adobe Campaign プラットフォームに統合するプロセスについて説明しています。モバイルアプリケーションの作成方法や、通知を管理するためのモバイルアプリケーションの設定方法については説明していません。詳しくは、Apple [ドキュメント](https://developer.apple.com/jp/)および Android [ドキュメント](https://developer.android.com/index.html)を参照してください。
 
-以下の節で提供するのは、モバイルアプリチャネルに限定した情報です。
-
-配信の作成方法に関する全般的な情報については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。
-
-**モバイルアプリチャネル**&#x200B;では、Adobe Campaign プラットフォームを使用して iOS および Android の端末にパーソナライズされた通知をアプリ経由で送信できます。2 つの配信チャネルが使用可能です。
+2 つの配信チャネルが使用可能です。
 
 * Apple のモバイルデバイスへの通知の送信を有効にする iOS チャネル：
 
@@ -38,6 +36,7 @@ ht-degree: 100%
 これら 2 つのチャネルに対応して、キャンペーンワークフローには 2 つの配信アクティビティがあります。
 
 ![](assets/nmac_intro_3.png)
+
 
 >[!NOTE]
 >
@@ -56,7 +55,9 @@ ht-degree: 100%
 
 **[!UICONTROL NMAC オプトアウト管理]**（mobileAppOptOutMgt）ワークフローにより、モバイルデバイスでの通知購読解除が更新されます。このワークフローの詳細については、[テクニカルワークフローのリスト](../../workflow/using/about-technical-workflows.md)を参照してください。
 
-Adobe Campaign は HTTP/2 APN と互換性があります。設定手順の詳細については、[Adobe Campaign でのモバイルアプリケーションの設定](../../delivery/using/configuring-the-mobile-application.md)の節を参照してください。
+Adobe Campaign は HTTP/2 APN と互換性があります。設定手順の詳細については、[このセクション](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
+
+配信の作成方法に関する全般的な情報については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。
 
 ## データパス {#data-path}
 

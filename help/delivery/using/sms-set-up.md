@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 translation-type: tm+mt
-source-git-commit: 64f5b108173806aff53f7240e8c9d499cc332d72
+source-git-commit: 5a084ebe5295d19de24cf92c721d4692f0f5deb8
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1781'
 ht-degree: 95%
 
 ---
 
 
-# SMSチャネルのセットアップ{#setting-up-sms-channel}
+# SMSチャネルの構成{#setting-up-sms-channel}
 
 携帯電話に送信するには、次が必要です。
 
@@ -286,7 +286,7 @@ CR：キャリッジリターン
 
 ^ { } `[ ~ ]` | €
 
-## テキストのエンコードについて {#about-text-encodings}
+## テキストエンコーディング{#about-text-encodings}
 
 Adobe Campaign では、SMS メッセージの送信時に 1 つまたは複数のテキストエンコードを使用できます。エンコードごとに独自の文字セットがあり、SMS メッセージに入力できる文字数もそれぞれ異なります。
 

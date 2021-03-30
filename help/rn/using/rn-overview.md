@@ -7,9 +7,9 @@ feature: 概要
 role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 93%
 
 ---
@@ -62,7 +62,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ## サポートおよびその他の役に立つリンク{#support}
 
-* [ヘルプとサポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
+* [ヘルプとサポート](../../support.md)
 * [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja/control-panel/using/release-notes.html)
 * [最新のドキュメントのアップデート](../../rn/using/documentation-updates.md)
 * [非推奨（廃止予定）および削除された機能](../../rn/using/deprecated-features.md)

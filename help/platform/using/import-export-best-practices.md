@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: a2a99135bdd74d87c04262b53e074b6aa05e7915
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 データのインポート用に設計された汎用ワークフローテンプレートの例は、「[例：データインポート用ワークフローテンプレート](../../platform/using/creating-import-export-templates.md)」節で紹介されています。
 
-## フラットファイルフォーマットの使用 {#using-flat-file-formats}
+## フラットファイル形式を使用{#using-flat-file-formats}
 
 インポートで最も効率的なフォーマットは、フラットファイルです。フラットファイルは、データベースレベルで、一括モードでインポートできます。
 
@@ -52,7 +52,7 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-## 圧縮の使用 {#using-compression}
+## 圧縮{#using-compression}を使用
 
 可能な限り、圧縮されたファイルをインポートおよびエクスポートに使用します。GZIP がデフォルトでサポートされています。 **[!UICONTROL ファイルの読み込み]**&#x200B;および&#x200B;**[!UICONTROL ファイルの抽出]**&#x200B;ワークフローアクティビティでは、それぞれ、ファイルのインポート時に前処理を追加したり、データ抽出時に後処理を追加したりできます。
 
@@ -61,13 +61,13 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 * [データの読み込み（ファイル）アクティビティ](../../workflow/using/data-loading--file-.md)
 * [データ抽出（ファイル）アクティビティ](../../workflow/using/extraction--file-.md)
 
-## 差分モードでのインポート {#importing-in-delta-mode}
+## 差分モードでのインポート{#importing-in-delta-mode}
 
 定期的インポートは、差分モードでおこなう必要があります。つまり、毎回、テーブル全体ではなく、新規または変更されたデータのみが Adobe Campaign に送信されるようにします。
 
 完全インポートは、最初の読み込みにのみ使用する必要があります。
 
-## 一貫性の維持 {#maintaining-consistency}
+## 一貫性の維持{#maintaining-consistency}
 
 Adobe Campaign データベースのデータの一貫性を維持するには、次の原則に従います。
 

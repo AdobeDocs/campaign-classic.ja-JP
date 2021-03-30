@@ -7,10 +7,10 @@ feature: 概要
 role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: d41119e61ee2088e1b8cab65354547420f8e7737
+source-git-commit: 57c1ca827beac9a3c95e63ca17fdb43be237eb28
 workflow-type: tm+mt
-source-wordcount: '4270'
-ht-degree: 98%
+source-wordcount: '4295'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 98%
 
 ## 2021 年 3 月 {#march-2021}
 
-Campaign Classic に関するサポートを受けるためのガイドラインとリファレンスが新しいページに追加されました。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
+「[SMSを使用する前に」セクション](../../delivery/using/sms-channel.md)の構成を変更し、改善しました。 SMSチャネル](../../delivery/using/sms-set-up.md)の[設定方法、[SMS](../../delivery/using/sms-create.md)の作成方法、[送信方法、およびSMS](../../delivery/using/sms-send.md)の追跡方法を、専用のセクションで学習できます。
+
+Campaign Classic用の「ヘルプとサポートのオプション」ページが、コアドキュメントに統合されました。 [詳細情報](../../support.md)
 
 セキュリティとプライバシーに関するベストプラクティスと実行するチェックについて説明する新しいセクションが追加されました。 [詳細情報](../../installation/using/get-started-security-privacy.md)
 
@@ -440,7 +442,7 @@ Adobe Analytics Data Connector の新しいベストプラクティスのペー�
 
 配信のベストプラクティス入門ガイドが移動され、更新されました。[詳細を表示](../../delivery/using/delivery-best-practices.md)
 
-複数の外部アカウントが拡張された汎用 SMPP コネクタを同じプロバイダーアカウントで使用する際の問題を回避するための推奨事項が、SMS チャネルのドキュメントに追加されました。[詳細を表示](../../delivery/using/sms-channel.md#automatic-reply)
+複数の外部アカウントが拡張された汎用 SMPP コネクタを同じプロバイダーアカウントで使用する際の問題を回避するための推奨事項が、SMS チャネルのドキュメントに追加されました。[詳細を表示](../../delivery/using/sms-set-up.md#automatic-reply)
 
 ワークフローの同時実行を防ぐ方法に関する情報がスケジューラーアクティビティのドキュメントに追加されました。[詳細を表示](../../workflow/using/scheduler.md)
 

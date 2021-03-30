@@ -7,9 +7,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
 workflow-type: tm+mt
-source-wordcount: '2037'
+source-wordcount: '2027'
 ht-degree: 98%
 
 ---
@@ -168,7 +168,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 ビルドのアップグレード後に問題が発生した場合は、[アドビカスタマーサポート](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。カスタマーサポートは、ビルド日のスケジュール管理をおこない、ビルドアップグレード関連のチケットを開きます。
 
-詳しくは、[Campaign Classic のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)を参照してください。
+詳しくは、[Campaign Classic のヘルプとサポートのオプション](../../support.md)を参照してください。
 
 ## ビルドアップグレードのチェックリスト {#check-list}
 
@@ -204,5 +204,5 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 * [ビルドアップグレードの実行](../../production/using/build-upgrade.md)
 * [Campaign Classic リリースノート](../../rn/using/rn-overview.md)
-* [Campaign Classic のヘルプとサポートのオプション](https://helpx.adobe.com/campaign/kb/ac-support.html)
+* [Campaign Classic のヘルプとサポートのオプション](../../support.md)
 * [[!DNL Gold Standard] プログラム](../../rn/using/gs-overview.md)

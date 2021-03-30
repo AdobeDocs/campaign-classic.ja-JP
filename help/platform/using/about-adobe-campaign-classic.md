@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic について
 description: 主な機能、ユーザーインターフェイス、グローバルガイドラインについて説明します。
-audience: platform
-content-type: reference
-topic-tags: starting-with-adobe-campaign
+feature: 概要
+role: ビジネス従事者
+level: 初心者
 translation-type: tm+mt
-source-git-commit: cea4a26935312b1cb119a3fa671af7bf00788fe9
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '915'
 ht-degree: 100%
 
 ---

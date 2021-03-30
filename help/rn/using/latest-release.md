@@ -7,10 +7,10 @@ feature: 概要
 role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 98%
+source-wordcount: '902'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,15 @@ ht-degree: 98%
 
 このページには、**最新の Campaign Classic リリース候補バージョン**&#x200B;に加えられた新機能、改善点、および修正点が記載されています。
 
-Campaign Classic[!DNL Gold Standard]版（最新のGAビルド）については、[このページ](../../rn/using/gold-standard.md)を参照してください。
+>[!NOTE]
+>
+>キャンペーン&#x200B;**GAビルド**&#x200B;は次のとおりです。
+>* [[!DNL Gold Standard] 11リリース](../../rn/using/gold-standard.md#gs-11)
+>* [キャンペーン20.2.4リリース](../../rn/using/release--20-2.md#release-20-2-4-build-9187)
+
+>
+
+
 
 ## ![](assets/do-not-localize/blue_2.png) リリース 21.1.1 - ビルド 9277 {#release-21-1-1-build-9277}
 

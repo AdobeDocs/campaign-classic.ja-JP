@@ -3,23 +3,25 @@ solution: Campaign Classic
 product: campaign
 title: プロファイルについて
 description: プロファイルについて
-audience: platform
-content-type: reference
-topic-tags: profile-management
+feature: プロファイル、オーディエンス
+role: ビジネス実践者、データアーキテクト
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 100%
+source-wordcount: '1029'
+ht-degree: 77%
 
 ---
 
 
-# プロファイルについて{#about-profiles}
+# プロファイルの使用を開始する{#about-profiles}
 
-プロファイル（顧客、見込み客、ニュースレター購読者など）は、Adobe Campaign データベースで一元管理されます。プロファイルを取得してこのデータベースを作成するために使用可能なメカニズムは多数あります。web フォームによるオンライン収集、テキストファイルの手動または自動インポート、会社のデータベースまたは他の情報システムによるレプリケーションなどです。Adobe Campaign を利用すれば、マーケティング履歴、購入情報、嗜好、CRM データおよび関連する PI データを包括的に集約し、分析をおこなって、行動に移すことができます。
+プロファイルは、Adobe Campaignデータベースに集中化されます。 プロファイルを取得してこのデータベースを作成するために使用可能なメカニズムは多数あります。web フォームによるオンライン収集、テキストファイルの手動または自動インポート、会社のデータベースまたは他の情報システムによるレプリケーションなどです。Adobe Campaign を利用すれば、マーケティング履歴、購入情報、嗜好、CRM データおよび関連する PI データを包括的に集約し、分析をおこなって、行動に移すことができます。
 
-Adobe Campaign では、受信者は配信（E メール、SMS など）の送信先となるデフォルトプロファイルです。データベースに格納された受信者データを活用して、任意の配信のターゲットを絞り込み、配信コンテンツにパーソナライゼーションデータを追加することができます。データベースには、他のタイプのプロファイルも含まれています。それらのプロファイルは用途が異なります。例えば、シードプロファイルは、配信を最終的なターゲットに送信する前のテスト用に作成されます。
+「**プロファイル**」とは、エンドユーザー、見込み客またはリードを表している情報のレコード（例：nmsRecipient テーブル内のレコードや、cookie ID、顧客 ID、モバイル ID、または特定のチャネルに関連するその他の情報が含まれている外部テーブル内のレコード）のことです。
+
+Adobe Campaign では、受信者は配信（E メール、SMS など）の送信先となるデフォルトプロファイルです。データベースに保存された受信者データを使用すると、特定の配信を受け取るターゲットをフィルタリングし、配信のコンテンツにパーソナライズデータを追加できます。 データベースには、他のタイプのプロファイルも含まれています。それらのプロファイルは用途が異なります。例えば、シードプロファイルは、配信を最終的なターゲットに送信する前のテスト用に作成されます。
 
 ![](assets/do-not-localize/how-to-video.png) [動画でプロファイルの概念を理解する](#create-profiles-video)
 
@@ -55,11 +57,11 @@ Adobe Campaign では、作成、インポート、ターゲティング、ア�
 
 次のものにアクセスすることもできます。
 
-* リスト：[リストの作成および管理](../../platform/using/creating-and-managing-lists.md)を参照してください。
-* 購読サービス：[このページ](../../delivery/using/managing-subscriptions.md)を参照してください。
-* web アプリケーション：[このページ](../../web/using/about-web-applications.md)を参照してください。
-* インポートおよびエクスポート（ジョブ）：[一般的なインポートおよびエクスポート](../../platform/using/about-generic-imports-exports.md)を参照してください。
-* ターゲティングワークフロー：[このページ](../../workflow/using/building-a-workflow.md#implementation-steps-)を参照してください。
+* リスト- [詳細情報](../../platform/using/creating-and-managing-lists.md)
+* 購読サービス- [詳細情報](../../delivery/using/managing-subscriptions.md)
+* Webアプリケーション — [詳細情報](../../web/using/about-web-applications.md)
+* インポートとエクスポート（ジョブ） - [詳細情報](../../platform/using/about-generic-imports-exports.md)
+* ターゲットワークフロー- [詳細](../../workflow/using/building-a-workflow.md#implementation-steps-)
 
 受信者ページでは、編集、更新、追加、削除、並べ替えなど、頻繁におこなう操作をプロファイルに対して実行できます。
 
@@ -67,35 +69,37 @@ Adobe Campaign では、作成、インポート、ターゲティング、ア�
 
 デフォルトでは、受信者はツリーの&#x200B;**[!UICONTROL プロファイルとターゲット／受信者]**&#x200B;ノードに保存されています。このビューでは、受信者の作成のほか、次の操作を実行できます。
 
-* データベースのプロファイルの並べ替えおよびフィルター：[フィルターオプション](../../platform/using/filtering-options.md)を参照してください。
-* データベースからのプロファイルの移動、コピーまたは削除：[プロファイルの管理](../../platform/using/managing-profiles.md)を参照してください。
-* プロファイルの更新：[データの更新](../../platform/using/updating-data.md)を参照してください。
-* 受信者のエクスポート：[プロファイルのエクスポートとインポート](../../platform/using/exporting-and-importing-profiles.md)を参照してください。
-* 受信者グループの作成：[リストの作成および管理](../../platform/using/creating-and-managing-lists.md)を参照してください。
+* データベースのプロファイルを並べ替えてフィルタします — [詳細](../../platform/using/filtering-options.md)
+* データベースからプロファイルを移動、コピー、または削除します — [詳細情報](../../platform/using/managing-profiles.md)、
+* プロファイルの更新 — [詳細情報](../../platform/using/updating-data.md)
+* エクスポート受信者- [詳細情報](../../platform/using/exporting-and-importing-profiles.md)
+* 受信者グループの作成 — [詳細情報](../../platform/using/creating-and-managing-lists.md)
 
 高度な機能および設定にアクセスするには、「**[!UICONTROL エクスプローラー]**」アイコンをクリックする必要があります。
 
 ![](assets/d_ncs_user_interface01.png)
 
-Adobe Campaign エクスプローラーの一般的なレイアウトについては、[Adobe Campaign エクスプローラーの使用](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)で説明しています。
+Adobe Campaignエクスプローラーの一般的なレイアウトは、[このセクション](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)に示されています。
 
 >[!NOTE]
 >
->**[!UICONTROL プロファイルとターゲット／受信者]**&#x200B;リンクをクリックして、Adobe Campaign ツリーからこのリストの詳細ビューを表示することもできます。リスト表示は、ニーズに合わせて設定できます。列の追加または削除、列の順序の定義、データの並べ替えなどをおこなうことができます。リストの表示設定は、[Adobe Campaign エクスプローラーの使用](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)で説明しています。
+>**[!UICONTROL プロファイルとターゲット／受信者]**&#x200B;リンクをクリックして、Adobe Campaign ツリーからこのリストの詳細ビューを表示することもできます。リスト表示は、ニーズに合わせて設定できます。列の追加または削除、列の順序の定義、データの並べ替えなどをおこなうことができます。リスト表示の設定については、[このセクション](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)で説明します。
 >
->受信者ビューを定義することもできます。この機能について詳しくは、[フォルダーとビュー](../../platform/using/access-management-folders.md)を参照してください。
+>受信者ビューを定義することもできます。この機能の詳細については、[この](../../platform/using/access-management-folders.md)を参照してください。
 
 ## アクティブなプロファイル {#active-profiles}
 
 アクティブなプロファイルは、請求の対象として考慮されるプロファイルです。
 
+アクティブなプロファイル数は、**マーケティングインスタンス**&#x200B;でのみ使用できます。 実行インスタンス、すなわち MID（ミッドソーシング）および RT（Message Center／リアルタイムメッセージング）インスタンスの場合は使用できません。
+
+AWSでホストしている場合は、インスタンスで使用されるアクティブなプロファイルの数をCampaign コントロールパネルから直接監視することもできます。 詳しくは、[コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/performance-monitoring/active-profiles-monitoring.html)を参照してください。
+
 >[!NOTE]
 >
->AWS でホストされ、ビルド 8931 以降の Campaign Classic を使用している場合は、インスタンスで使用されるアクティブなプロファイルの数を Campaign コントロールパネルから直接監視することもできます。詳しくは、[コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/performance-monitoring/active-profiles-monitoring.html)を参照してください。
+>Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
 >
->アクティブなプロファイルのカウントを使用できるのは、**マーケティングインスタンス**&#x200B;のみです。実行インスタンス、すなわち MID（ミッドソーシング）および RT（Message Center／リアルタイムメッセージング）インスタンスの場合は使用できません。
-
-「**プロファイル**」とは、エンドユーザー、見込み客またはリードを表している情報のレコード（例：nmsRecipient テーブル内のレコードや、cookie ID、顧客 ID、モバイル ID、または特定のチャネルに関連するその他の情報が含まれている外部テーブル内のレコード）のことです。
+>インスタンスはAWSでホストされ、最新の[Gold Standard](../../rn/using/gs-overview.md)ビルドまたは[最新のGAビルド(21.1)](../../rn/using/latest-release.md)でアップグレードする必要があります。 [このセクション](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)でバージョンを確認する方法を説明します。 インスタンスがAWSでホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)に記載されている手順に従ってください。
 
 請求に関係するのは、**アクティブ**&#x200B;なプロファイルのみです。過去 12 か月以内にいずれかのチャネルでターゲットになるか通信がおこなわれたプロファイルは、アクティブとみなされます。
 

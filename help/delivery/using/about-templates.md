@@ -7,10 +7,10 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -35,4 +35,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->使用できるテンプレートの種類は、ユーザー自身が持つアクセス権、ユーザーのインスタンス設定およびコンテキストによって異なります。例えば、情報サービスを作成する際に、確認メッセージ用の配信テンプレートをリンクするとします。その場合にアクセスできるテンプレートは、ターゲットマッピングが購読マッピングであるテンプレートのみです。詳しくは、[ターゲットマッピングの選択](../../delivery/using/selecting-a-target-mapping.md)および[サービスと購読について](../../delivery/using/about-services-and-subscriptions.md)を参照してください。
+>使用できるテンプレートの種類は、ユーザー自身が持つアクセス権、ユーザーのインスタンス設定およびコンテキストによって異なります。例えば、情報サービスを作成する際に、確認メッセージ用の配信テンプレートをリンクするとします。その場合にアクセスできるテンプレートは、ターゲットマッピングが購読マッピングであるテンプレートのみです。詳しくは、[ターゲットマッピング](../../delivery/using/selecting-a-target-mapping.md)と[サービスと購読](../../delivery/using/about-services-and-subscriptions.md)の選択を参照してください。

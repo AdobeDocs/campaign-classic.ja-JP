@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# プロファイルのインポートおよびエクスポート{#exporting-and-importing-profiles}
+# プロファイルのインポートとエクスポート{#exporting-and-importing-profiles}
 
 [ワークフローを使用](#use-workflows)して、受信者プロファイルを Adobe Campaign データベースにインポートまたはエクスポートしたり、[一般的なインポートジョブやエクスポートジョブ](#create-jobs)を設定したりできます。
 

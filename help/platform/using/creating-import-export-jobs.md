@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 37cc6cd8b71ec82cd4e6a910d6664a51ed5c091e
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 100%
 これらはすべて、データのインポートウィザードまたはエクスポートウィザードを開きます。これらの詳細については以下の節で説明します。
 
 * [インポートジョブの設定](../../platform/using/executing-import-jobs.md)
-* [エクスポートジョブの設定](../../platform/using/executing-export-jobs.md)
+* [書き出しジョブの設定](../../platform/using/executing-export-jobs.md)

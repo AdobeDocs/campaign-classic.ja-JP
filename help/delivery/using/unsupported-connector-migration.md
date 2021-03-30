@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 584c11cc46d3a0cea3dcbbaef2700200fbdb8201
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 12%
@@ -47,7 +47,7 @@ ht-degree: 12%
 >
 >パラメーターを転送できる場合でも、**[!UICONTROL 拡張汎用SMPP]**&#x200B;コネクターを設定するには、他のパラメーターの入力に必要な情報を提供するプロバイダーとの対話が必要です。 詳しくは、この[ページ](../../delivery/using/sms-protocol.md)を参照してください。
 
-最初に、新しい&#x200B;**[!UICONTROL 拡張汎用SMPP]**&#x200B;外部アカウントを作成し、その後一部のパラメータを転置できるようにする必要があります。 詳細な手順は、[ページ](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)に記載されています。
+最初に、新しい&#x200B;**[!UICONTROL 拡張汎用SMPP]**&#x200B;外部アカウントを作成し、その後一部のパラメータを転置できるようにする必要があります。 詳細な手順は、[ページ](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)に記載されています。
 
 これで、新しく作成した&#x200B;**[!UICONTROL 拡張汎用SMPP]**&#x200B;外部アカウントの&#x200B;**[!UICONTROL モバイル]**&#x200B;タブから、以前のコネクタに応じてパラメータを入力する必要があります。
 

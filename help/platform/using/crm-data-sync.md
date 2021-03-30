@@ -7,15 +7,15 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 translation-type: tm+mt
-source-git-commit: 2838ced5f5d562914c0791e6a0b8f02dd61006b4
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '1618'
-ht-degree: 100%
+source-wordcount: '1617'
+ht-degree: 98%
 
 ---
 
 
-# Campaign と CRM の間のデータ同期 {#data-synchronization}
+# キャンペーンとCRMの間でデータを同期{#data-synchronization}
 
 Adobe Campaign と CRM の間の同期は、専用のワークフローアクティビティである「[CRM コネクタ](../../workflow/using/crm-connector.md)」で実行されます。
 
@@ -82,9 +82,9 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 
    詳しくは、[変数管理](#variable-management)を参照してください。
 
-### 変数管理 {#variable-management}
+### 変数の管理{#variable-management}
 
-「**[!UICONTROL 自動インデックス]**」オプションを使用すると、最後のインポート以降に変更されたオブジェクトのみを収集できます。
+**[!UICONTROL 自動インデックス]**&#x200B;オプションを有効にすると、最後の読み込み以降に変更されたオブジェクトのみが収集されます。
 
 ![](assets/crm_task_import_option.png)
 
@@ -115,7 +115,7 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
    >
    >これらの日付は、**yyyy/MM/dd hh:mm:ss** というフォーマットで表示されます。
 
-### フィルターデータ {#filtering-data}
+### データのフィルタリング {#filtering-data}
 
 様々な CRM で効率的に操作をおこなうために、次のルールを使用してフィルターを作成する必要があります。
 
@@ -242,7 +242,7 @@ CRM へのインポートまたは CRM からのインポート中にデータ�
    >
    >要素の削除期間は、CRM に固有の制限と一致している必要があります。したがって、例えば Salesforce.com の場合、削除されてから 30 日を経過した要素は収集することができません。
 
-## CRM でのオブジェクトの削除 {#deleting-objects-in-the-crm}
+## CRM 内のオブジェクトの削除 {#deleting-objects-in-the-crm}
 
 CRM 側でオブジェクトを削除するには、削除するリモート要素のプライマリキーを指定する必要があります。
 

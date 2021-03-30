@@ -3,14 +3,14 @@ solution: Campaign Classic
 product: campaign
 title: ネームド権限を使用した権限の設定
 description: ネームド権限を使用して権限を設定する方法を説明します
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: アクセス管理
+role: 営業者、管理者
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 95%
+source-wordcount: '568'
+ht-degree: 97%
 
 ---
 

@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 translation-type: tm+mt
-source-git-commit: f00c0bda0ab3f2e07c015f4cfe5e3942f5620841
+source-git-commit: bfe2e29ed904b6a04bab28455301437c63ab8118
 workflow-type: tm+mt
-source-wordcount: '1707'
-ht-degree: 89%
+source-wordcount: '1807'
+ht-degree: 86%
 
 ---
 
@@ -35,6 +35,7 @@ Adobe Campaign には、事前定義済みの外部アカウントのセット�
 * [Amazon Simple Storage Service（S3）外部アカウント](#amazon-simple-storage-service--s3--external-account)
 * [Microsoft Dynamics CRM 外部アカウント](#microsoft-dynamics-crm-external-account)
 * [Salesforce CRM 外部アカウント](#salesforce-crm-external-account)
+* [Azure BLOB ストレージ外部アカウント](#azure-blob-external-account)
 
 ## 外部アカウントの作成 {#creating-an-external-account}
 
@@ -98,7 +99,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 以下のチャネルを設定できます。
 
 * [E メール](../../installation/using/deploying-an-instance.md#email-channel-parameters)
-* [モバイル (SMS)](../../delivery/using/sms-channel.md#creating-an-smpp-external-account)
+* [モバイル (SMS)](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)
 * [電話](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)
 * [エージェンシー](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
@@ -147,7 +148,7 @@ FTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバー�
 
 外部アカウント構成の設定は、データベースエンジンによって異なります。 詳しくは、次の節を参照してください。
 
-* [Azure Synapse](../../installation/using/configure-fda-synapse.md)へのアクセスを設定
+* [Azure synapse](../../installation/using/configure-fda-synapse.md)へのアクセスを設定
 * [Hadoop](../../installation/using/configure-fda-hadoop.md)へのアクセスを設定
 * [Oracle](../../installation/using/configure-fda-oracle.md)へのアクセスを設定
 * [Netezza](../../installation/using/configure-fda-netezza.md)へのアクセスを設定
@@ -413,3 +414,23 @@ Salesforce CRM 外部アカウントを Adobe Campaign で使用できるよう�
 この外部アカウントの場合、設定ウィザードで Salesforce CRM を設定する必要があります。
 
 この設定について詳しくは、この[ページ](../../platform/using/crm-connectors.md)を参照してください。
+
+## Azure Blobストレージ外部アカウント(#azure-blob-external-account)
+
+**Azure Blobストレージ**&#x200B;外部アカウントは、**[!UICONTROL 転送ファイル]**&#x200B;ワークフローアクティビティを使用して、Adobe Campaignにデータをインポートまたはエクスポートするために使用できます。 詳しくは、[この節](../../workflow/using/file-transfer.md)を参照してください。
+
+![](assets/ext_account_23.png)
+
+**[!UICONTROL Azure外部アカウント]**&#x200B;をAdobe Campaignで動作するように構成するには、次の詳細を入力する必要があります。
+
+* **[!UICONTROL サーバー]**
+
+   Azure BLOBストレージサーバーのURLです。
+
+* **[!UICONTROL 暗号化]**
+
+   選択した暗号化のタイプ（**[!UICONTROL なし]**&#x200B;または **[!UICONTROL SSL]**）。
+
+* **[!UICONTROL アクセスキー]**
+
+   **[!UICONTROL アクセスキー]**&#x200B;の場所を知るには、[ページ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)を参照してください。

@@ -7,17 +7,17 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 
 # 使用例{#use-case}
 
-## 購読者の E メールフォーマットのフィルターの作成 {#creating-a-filter-on-the-email-format-of-subscribers}
+## サブスクライバーのE メールフォーマットに対するフィルターの作成{#creating-a-filter-on-the-email-format-of-subscribers}
 
 この使用例では、受信者の E メールフォーマットに基づいてニュースレターの購読を並べ替えるフィルターの作成方法を示します。
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   これらのフィールドにアクセスして、フィルターエディターの本文でフィルター条件を定義できます。アプリケーションフィルターは、詳細フィルターと同じ方法で定義されます。[詳細フィルターの作成](../../platform/using/creating-filters.md#creating-an-advanced-filter)を参照してください。
+   これらのフィールドにアクセスして、フィルターエディターの本文でフィルター条件を定義できます。アプリケーションフィルターは、詳細フィルターと同じ方法で定義されます。[アドバンスフィルターの作成](../../platform/using/creating-filters.md#creating-an-advanced-filter)を参照してください。
 
 1. E メールフォーマットが定義されていない購読のみを表示する、購読の新しいフィルターを作成します。
 

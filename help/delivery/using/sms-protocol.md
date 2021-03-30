@@ -7,20 +7,20 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 74610fa197dd9ef27342e08dd0ba3403c1a9acc0
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
-source-wordcount: '8458'
+source-wordcount: '8433'
 ht-degree: 99%
 
 ---
+
 
 # SMS コネクタのプロトコルと設定 {#sms-connector-protocol}
 
 >[!NOTE]
 >
->Adobe Campaign Standard の **SMS コネクタのプロトコルと設定**&#x200B;については、この[ページ](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-sms/sms-protocol.html?lang=ja#administrating)を参照してください。
->
 >このドキュメントにおけるプロトコル、フィールド名および値の詳細はすべて、[SMPP 3.4 仕様](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)を参照しています。
+
 
 ## 概要 {#overview}
 

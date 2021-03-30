@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 77%
+source-wordcount: '1209'
+ht-degree: 73%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 77%
 
 ## セキュリティゾーンの設定
 
->[!IMPORTANT]
->
->8977以降では、セキュリティゾーンのセルフサービスユーザーインターフェイスは使用できなくなりました。
->
->* AWSでホストしている場合は、許可リストにIPを追加するCampaign コントロールパネルを実行する必要があります。 詳しくは、[該当するドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)を参照してください。
->* AWS でホストされていない場合は、アドビのサポートチームに連絡し、IP を許可リストに追加してもらってください。
+8977以降では、セキュリティゾーンのセルフサービスユーザーインターフェイスは使用できなくなりました。 AWS でホストされていない場合は、アドビのサポートチームに連絡し、IP を許可リストに追加してもらってください。それ以外の場合は、許可リストへのIPの追加は[Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)で行う必要があります。
 
+インスタンスがAWSでホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)に記載されている手順に従ってください。
+
+>[!NOTE]
+> 
+>Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
 >
->
-インスタンスが AWS でホストされているかどうかを確認するには、[この節](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)に記載されている手順に従います。
+>インスタンスはAWSでホストされ、最新の[Gold Standard](../../rn/using/gs-overview.md)ビルドまたは[最新のGAビルド(21.1)](../../rn/using/latest-release.md)でアップグレードする必要があります。 [このセクション](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)でバージョンを確認する方法を説明します。
+
 
 * subNetwork でリバースプロキシが許可されていないことを確認します。許可されている場合は、**すべての**&#x200B;トラフィックがこのローカル IP から来ているものとして検出され、信頼されます。
 

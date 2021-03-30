@@ -5,9 +5,9 @@ product: campaign
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 9ce945af1ed1cabd5041a28812e540f814211071
+source-git-commit: 9f1c4110ef49c87719f1cc84ad08f687865561d1
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '295'
 ht-degree: 99%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 99%
 
 * **[HTTP/2 ベースの APN プロバイダー API への移行](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)**<br/>&#x200B;レガシーバイナリプロトコルから HTTP/2 ベースの APN プロバイダー API に移行する方法を説明します
 
-* **[サポート](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)**<br/> FAQ、ベストプラクティス、ヘルプリソースにアクセスしたり、サポートを依頼したりできます。
+* **[サポート](support.md)**<br/> FAQ、ベストプラクティス、ヘルプリソースにアクセスしたり、サポートを依頼したりできます。
 
 [その他の更新](/help/rn/using/documentation-updates.md)
 

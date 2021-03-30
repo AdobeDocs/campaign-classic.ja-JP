@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: ドキュメント
 translation-type: tm+mt
-source-git-commit: 0b3bc9547d756352f4af5dac713f85666c96c425
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
-source-wordcount: '2448'
-ht-degree: 99%
+source-wordcount: '2462'
+ht-degree: 98%
 
 ---
 
@@ -144,13 +144,16 @@ ht-degree: 99%
          + [日本の携帯電話向け送信](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [ファイルの添付](delivery/using/attaching-files.md)
    + SMS の送信 {#sending-messages-on-mobiles}
-      + [SMS チャネル](delivery/using/sms-channel.md)
+      + [SMSの使用を開始する](delivery/using/sms-channel.md)
+      + [SMSチャネルの構成](delivery/using/sms-set-up.md)
+      + [SMSの作成](delivery/using/sms-create.md)
+      + [SMSの送信と追跡](delivery/using/sms-send.md)
       + [SMS コネクタのプロトコルと設定](delivery/using/sms-protocol.md)
       + [SMS のトラブルシューティング](delivery/using/troubleshooting-sms.md)
       + [拡張汎用 SMPP コネクタへの移行](delivery/using/unsupported-connector-migration.md)
    + [LINE メッセージの送信](delivery/using/line-channel.md)
    + プッシュ通知の送信 {#sending-push-notifications}
-      + [モバイルアプリチャネルについて](delivery/using/about-mobile-app-channel.md)
+      + [モバイルアプリのチャネルをはじめる](delivery/using/about-mobile-app-channel.md)
       + [モバイルアプリケーションへの Campaign SDK の統合](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + モバイルアプリケーションの設定{#configure-the-mobile-app}
          + [アプリ設定の基本を学ぶ](delivery/using/get-started-app-config.md)

@@ -3,13 +3,13 @@ solution: Campaign Classic
 product: campaign
 title: 演算子グループの作成と管理
 description: オペレーターグループへのアクセス権を付与する方法を説明します。
-audience: platform
-content-type: reference
-topic-tags: administration-basics
+feature: アクセス管理
+role: 営業者、管理者
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '551'
 ht-degree: 95%
 
 ---
@@ -68,7 +68,6 @@ ht-degree: 95%
 
    * **[!UICONTROL フォルダーを挿入]**：Adobe Campaign ツリーにフォルダーを挿入する権限（関係する分岐に対して編集権限を持っていることが前提）。
    * **[!UICONTROL ワークフロー]**：ワークフローを使用する権限。
-
    >[!NOTE]
    >
    >このグループのオペレーターに配信開始の権利は付与されません。
@@ -99,6 +98,3 @@ ht-degree: 95%
 
    * **[!UICONTROL フォルダーを挿入]**：Adobe Campaign ツリーにフォルダーを挿入する権限（関係する分岐に対して編集権限を持っていることが前提）。
    * **[!UICONTROL フォルダーを編集]**：内部名、ラベル、関連する画像、サブフォルダーの順序など、フォルダーのプロパティを変更する権利。
-
-
-

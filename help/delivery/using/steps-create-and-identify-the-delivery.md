@@ -7,7 +7,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
@@ -52,7 +52,7 @@ ht-degree: 100%
 配信コンテンツの設定準備が整いました。配信コンテンツ定義は、各チャネル専用です。詳しくは、該当する節を参照してください。
 
 * [E メールコンテンツの定義](../../delivery/using/defining-the-email-content.md)
-* [SMS コンテンツの定義](../../delivery/using/sms-channel.md#defining-the-sms-content)
+* [SMS コンテンツの定義](../../delivery/using/sms-create.md#defining-the-sms-content)
 * [ダイレクトメールコンテンツの定義](../../delivery/using/defining-the-direct-mail-content.md)
 * [プッシュ通知](../../delivery/using/about-mobile-app-channel.md)
 

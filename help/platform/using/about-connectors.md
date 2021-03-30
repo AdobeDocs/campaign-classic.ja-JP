@@ -3,23 +3,23 @@ solution: Campaign Classic
 product: campaign
 title: コネクタについて
 description: コネクタについて
-audience: platform
-content-type: reference
-topic-tags: connectors
+feature: 概要
+role: ビジネス実践者、データアーキテクト
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 100%
+source-wordcount: '203'
+ht-degree: 93%
 
 ---
 
 
-# コネクタについて{#about-connectors}
+# コネクタの使用を開始する{#about-connectors}
 
 Adobe Campaign では、外部アプリケーションとの通信、データベースエンジンとの接続、Adobe Analytics との統合によるデータ共有を可能にするいくつかのコネクタを提供します。
 
-次のコネクタが含まれます。
+使用可能なコネクタは次のとおりです。
 
 * FDA コネクタ（**Federated Data Access**）を使用すると、Campaign を 1 つ以上の外部データベースに接続して、Campaign データに影響を与えることなく、それらに格納された情報を処理できます。[詳細情報](../../installation/using/about-fda.md)
 * CRM コネクタを使用すると、専用のワークフローアクティビティを使用した Adobe Campaign と CRM ソリューション間でデータを交換できます。[詳細情報](../../platform/using/crm-connectors.md)

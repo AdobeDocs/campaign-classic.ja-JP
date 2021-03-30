@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 100%
+source-wordcount: '1035'
+ht-degree: 99%
 
 ---
 
 
-# ファイルの添付{#attaching-files}
+# 電子メール{#attaching-files}へのファイルの添付
 
 ## E メールの添付ファイルについて {#about-email-attachments}
 
@@ -117,7 +117,7 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 >
 >パフォーマンスの問題を回避するために、パーソナライズされた URL からその場でダウンロードされた画像を添付ファイルとして含める場合は、デフォルトで各画像サイズが 100,000 バイトを超えないようにする必要があります。この推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
 
-### 計算済みファイルの添付 {#attach-a-calculated-file}
+### 計算されたファイルの添付 {#attach-a-calculated-file}
 
 配信の準備中に添付ファイルの名前を計算できます。これをおこなうには、「**[!UICONTROL 配信分析時にファイル名を生成（受信者プロファイルは利用不可）]**」オプションを選択します。
 
@@ -140,7 +140,7 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
 
-### パーソナライズ済みファイルの添付 {#attach-a-personalized-file}
+### パーソナライズされたファイルの添付 {#attach-a-personalized-file}
 
 添付ファイルを選択するときに、「**[!UICONTROL メッセージの配信中にファイル名を生成（受信者プロファイルを利用可）]**」オプションを選択できます。その後、送信するファイル名と受信者のパーソナライズデータをマップできます。
 

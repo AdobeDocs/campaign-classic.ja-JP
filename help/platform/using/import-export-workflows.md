@@ -7,21 +7,21 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 
-# ワークフローを使用したデータのインポートとエクスポート {#import-export-workflows}
+# ワークフロー{#import-export-workflows}を使用したデータのインポートとエクスポート
 
 ## データの収集 {#collecting-data-workflows}
 
 ワークフローは、一部のインポート処理を自動化する有効な手段になります。データをローカルファイルからインポートするか、SFTP からインポートするかに関係なく、ワークフローを使用してデータ管理手順を標準化することができます。
 
-### リストからのデータの使用：リスト読み込み {#using-data-from-a-list--read-list}
+### リストのデータを使用する：リスト読み込み{#using-data-from-a-list--read-list}
 
 ワークフローに送られるデータを、事前にデータが準備され、構造化されているリストから取り出すこともできます。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ワークフローでのリスト読み込みアクティビティの使用について詳しくは、[こちらのページ](../../workflow/using/read-list.md)を参照してください。
 
-### ファイルからのデータの読み込み {#loading-data-from-a-file}
+### ファイル{#loading-data-from-a-file}からデータをロード
 
 ワークフロー内で処理されるデータは、Adobe Campaign にインポートできるように、構造化ファイルから抽出することができます。
 
@@ -47,7 +47,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 データを収集したら、ワークフローで配信の拡充やデータベースの更新などに使用できます。詳しくは、[こちらのページ](../../workflow/using/how-to-use-workflow-data.md)を参照してください。
 
-## データのエクスポート {#exporting-data-via-a-workflow}
+## データのエクスポート{#exporting-data-via-a-workflow}
 
 ワークフローは、エクスポート処理の一部を自動化したり、データの変換に使用できるデータ管理アクティビティの一部を使用した後に正確なデータセットをエクスポートしたりするための有効な手段になります。
 

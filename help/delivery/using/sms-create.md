@@ -7,15 +7,15 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 translation-type: tm+mt
-source-git-commit: 64f5b108173806aff53f7240e8c9d499cc332d72
+source-git-commit: 5a084ebe5295d19de24cf92c721d4692f0f5deb8
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 82%
+source-wordcount: '440'
+ht-degree: 83%
 
 ---
 
 
-# SMS配信を作成して送信する{#creating-a-sms-delivery}
+# SMS 配信の作成 {#creating-a-sms-delivery}
 
 ## 配信チャネル{#selecting-the-delivery-channel}を選択
 

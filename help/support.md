@@ -3,15 +3,12 @@ solution: Campaign Classic
 product: campaign
 title: 'Campaign Classicのヘルプとサポートのオプション '
 description: Campaign Classicのサポートが必要ですか？ こちらから確認してください。
-audience: rns
-content-type: reference
-topic-tags: latest-release-notes
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 1d9c96d1cd8ba2a8099271165a1671d5589230fb
+source-git-commit: 108f6cf912bb855fd34263d9e069260769a3ef6a
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 69%
+source-wordcount: '771'
+ht-degree: 59%
 
 ---
 
@@ -97,7 +94,14 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 
 ### コントロールパネルとは
 
-コントロールパネルを使用すると、各インスタンスの設定を管理したり使用状況をトラッキングしたりできるので、Campaign Classic の製品管理者としての作業の効率を向上できます。[詳しくは、ここをクリックしてください。](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/key-features.html)
+キャンペーンCampaign コントロールパネルを使用すると、設定を管理し、各インスタンスの使用状況を追跡できるので、Campaign Classicの製品管理者としての作業の効率を向上できます。
+[詳しくは、ここをクリックしてください。](https://docs.adobe.com/content/hecontrol-panel/using/discover-control-panel/key-features.html)
+
+>[!NOTE]
+>
+>Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
+>
+>インスタンスはAWSでホストされ、最新の[Gold Standard](rn/using/gs-overview.md)ビルドまたは[最新のGAビルド(21.1)](rn/using/latest-release.md)でアップグレードする必要があります。 [このセクション](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)でバージョンを確認する方法を説明します。 インスタンスがAWSでホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)に記載されている手順に従ってください。
 
 ### コントロールパネルへのアクセス方法
 

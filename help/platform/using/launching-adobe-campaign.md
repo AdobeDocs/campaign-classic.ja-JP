@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 98%
+source-wordcount: '583'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 Campaign クライアントコンソールは、Campaign アプリケーションサーバーに接続できるリッチクライアントです。[このページ](../../installation/using/installing-the-client-console.md)では、クライアントコンソールをダウンロードして設定する方法を説明します。
 
-## Adobe Campaign の起動 {#starting-adobe-campaign}
+## 開始Adobe Campaign{#starting-adobe-campaign}
 
 Adobe Campaign を起動するには、**[!UICONTROL スタート／すべてのプログラム／Adobe Campaign v.X／Adobe Campaign クライアントコンソール]**&#x200B;を選択します。
 
@@ -27,7 +27,7 @@ Adobe Campaign を起動するには、**[!UICONTROL スタート／すべての
 
 ![](assets/acc-logon.png)
 
-## Adobe Campaign への接続 {#connecting-to-adobe-campaign}
+## Adobe Campaignに接続{#connecting-to-adobe-campaign}
 
 Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
 
@@ -50,7 +50,7 @@ Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[
 * 接続を開始するには、**Enter** キーを押すこともできます。
 * **Esc** キーを使用すると、「**[!UICONTROL ログイン]**」フィールドと「**[!UICONTROL パスワード]**」フィールドを、最後に成功した接続値にリセットできます。
 
-## 接続の設定 {#setting-up-connections}
+## 接続の設定{#setting-up-connections}
 
 入力ゾーンの上にあるリンクから、サーバー接続設定にアクセスできます。
 
@@ -74,7 +74,7 @@ Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[
 
 この機能について詳しくは、[アクセス管理](../../platform/using/access-management.md)の節で説明しています。
 
-## Adobe Campaign からの切断 {#disconnecting-from-adobe-campaign}
+## Adobe Campaignから切断{#disconnecting-from-adobe-campaign}
 
 Adobe Campaign から切断するには、アイコンバーの最初のアイコンを使用します。
 
@@ -84,7 +84,7 @@ Adobe Campaign から切断するには、アイコンバーの最初のアイ�
 >
 >ログオフしないでアプリケーションを閉じることもできます。
 
-## Adobe Campaign のバージョンの確認 {#getting-your-campaign-version}
+## Adobe Campaignのバージョンを取得{#getting-your-campaign-version}
 
 **[!UICONTROL ヘルプ／バージョン情報...]** メニューから、次の情報にアクセスできます。
 
@@ -105,6 +105,6 @@ Adobe Campaign から切断するには、アイコンバーの最初のアイ�
 
 **関連トピック**：
 
-* [Adobe Campaign のヘルプとサポートのオプション](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
+* [Adobe Campaign のヘルプとサポートのオプション](../../support.md)
 * [Adobe Campaign ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)
 * [Adobe Experience Cloud のサポートおよびエキスパートセッション](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt
-source-wordcount: '3206'
-ht-degree: 99%
+source-wordcount: '3201'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 インポートウィザードでは、インポートを設定し、そのオプション（データ変換など）を定義して、実行を開始できます。これは、インポートのタイプ（簡易または複数）やオペレーターの権限によって内容の異なる一連の画面です。
 
-インポートウィザードは、新しいインポートジョブを作成すると表示されます（[インポートジョブとエクスポートジョブの作成](../../platform/using/creating-import-export-jobs.md)を参照）。
+インポートウィザードは、新しい読み込みジョブを作成すると表示されます（[読み込みジョブと書き出しジョブの作成](../../platform/using/creating-import-export-jobs.md)を参照）。
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 ソースファイル内の各ラインは、レコードと一致しています。レコード内のデータは、スペース、タブ、文字などの区切り記号で区切られています。つまり、データは列の形式で取得され、各列はデータベースのフィールドに関連付けられます。
 
-## 手順 1 - インポートテンプレートの選択 {#step-1---choosing-the-import-template}
+## 手順1 -インポートテンプレート{#step-1---choosing-the-import-template}を選択
 
 インポートウィザードを起動するときは、まずテンプレートを選択する必要があります。例えば、ニュースレターを受け取った受信者のインポートを設定するには、以下の手順に従います。
 
@@ -85,7 +85,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
    * **[!UICONTROL 列挙を更新しない]**
 
-      データベース内の列挙値のリストをエンリッチメントしない場合に、このオプションを選択します。[列挙の管理](../../platform/using/managing-enumerations.md)を参照してください。
+      データベース内の列挙値のリストをエンリッチメントしない場合に、このオプションを選択します。「[定義済みリストの管理](../../platform/using/managing-enumerations.md)」を参照してください。
 
 * 「**[!UICONTROL 変数]**」タブ
 
@@ -115,7 +115,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 * 「**[!UICONTROL フォーマットを自動検出]**」は、データソースのフォーマットを再初期化する場合に使用します。このオプションを使用すると、「**[!UICONTROL ファイルフォーマットを変更するには、ここをクリックしてください...]**」オプションで書式設定したデータに、元のフォーマットを再適用できます。
 * 「**[!UICONTROL 詳細設定パラメーター]**」リンクを使用すると、ソースデータをフィルターし、詳細設定オプションにアクセスできます。この画面から、インポート対象をファイルの一部のみにすることを選択できます。フィルターを定義して、例えば、対応するラインの値に従って、「見込み客」または「顧客」タイプのユーザーのみをインポートすることもできます。これらのオプションを使用するのは、エキスパート JavaScript ユーザーのみである必要があります。
 
-### ファイルフォーマットの変更 {#changing-the-file-format}
+### ファイル形式{#changing-the-file-format}の変更
 
 「**[!UICONTROL ファイルフォーマットを変更するには、ここをクリックしてください...]**」オプションを使用すると、ソースファイルのデータを書式設定でき、特に列区切り記号および各フィールドのデータタイプを指定できます。この設定は、次のウィンドウで実行します。
 
@@ -244,7 +244,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 オプション「**[!UICONTROL 却下]**」および「**[!UICONTROL 無視]**」は、前述のように動作します。
 
-### エラーの場合の動作 {#behavior-in-the-event-of-an-error}
+### エラーの場合 {#behavior-in-the-event-of-an-error}
 
 ほとんどのデータ転送操作で、様々なタイプのエラーが発生します（一貫性のないラインフォーマット、無効な E メールアドレスなど）。インポートエンジンによって生成されるすべてのエラーおよびすべての警告は、保存され、インポートインスタンスにリンクされます。
 
@@ -311,7 +311,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
       ![](assets/s_ncs_user_import_wizard05_5.png)
 
-      これらの受信者用に新しいリストを作成するには、**[!UICONTROL リンクを選択]**&#x200B;をクリックしてから、**[!UICONTROL 作成]**&#x200B;をクリックします。リストの作成と管理については、[リストの作成および管理](../../platform/using/creating-and-managing-lists.md)で説明しています。
+      これらの受信者用に新しいリストを作成するには、**[!UICONTROL リンクを選択]**&#x200B;をクリックしてから、**[!UICONTROL 作成]**&#x200B;をクリックします。リストの作成と管理については、[このセクション](../../platform/using/creating-and-managing-lists.md)で説明します。
 
       ![](assets/s_ncs_user_import_wizard05_6.png)
 
@@ -329,10 +329,10 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 この手順を検証して次の手順を表示するには、「**[!UICONTROL 次へ]**」をクリックします。
 
-## 手順 6 - インポートの開始 {#step-6---launching-the-import}
+## 手順6 — インポート{#step-6---launching-the-import}を開始する
 
 ウィザードの最後の手順では、データのインポートを開始できます。そのためには、「**[!UICONTROL 開始]**」ボタンをクリックします。
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 
-その後、インポートジョブの実行を監視できます（[ジョブの実行の監視](../../platform/using/monitoring-jobs-execution.md)を参照）。
+その後、インポートジョブの実行を監視できます（[ジョブの実行を監視](../../platform/using/monitoring-jobs-execution.md)を参照）。

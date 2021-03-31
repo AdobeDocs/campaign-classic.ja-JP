@@ -6,11 +6,11 @@ description: リリース 20.2
 feature: 概要
 role: ビジネス従事者
 level: 初心者
-translation-type: ht
-source-git-commit: 1f718e26aeaa5ed5a58dfd0e3bc29d2dd9e995ee
-workflow-type: ht
-source-wordcount: '2567'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a25f9464a762defa5d9a3b45bb60a387c65b7c97
+workflow-type: tm+mt
+source-wordcount: '2838'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,26 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://docs.adobe.com/content/help/ja/control-panel/using/release-notes.html)。
 
-## ![](assets/do-not-localize/green_2.png) リリース 20.2.4 - ビルド 9187 {#release-20-2-4-build-9187}
+## ![](assets/do-not-localize/green_2.png) リリース 20.2.5 - ビルド 9188 {#release-20-2-5-build-9188}
+
+_2020 年 3 月 31 日_
+
+**改善点**
+
+* 無効なSOAP呼び出しでのクラッシュを防ぐための改善が行われました。 これにより、特定の複雑なクエリを実行しようとすると、インスタンスの動作が停止する場合があります。 （NEO-28796、NEO-30553）
+* ホスト名の検証が原因で、TLSを含むSMS配信が送信されない問題が修正されました。 （NEO-29581）
+* 一部の電子メールクライアントで、署名付きトラッキングリンクが機能しない問題を修正しました。 （NEO-28414、NEO-29615）
+* 重複IDと競合する可能性があるwebAppトラッキングタグを使用する場合の追跡IDシーケンスを修正しました。 （NEO-27931）
+* 実行中のワークフローが毎日wfserverを再起動すると停止する問題を修正しました。 （NEO-30047）
+* 管理者以外のユーザーが Adobe Experience Manager テンプレートの同期を試みるときに実行する API 呼び出しの使用に関するセキュリティ問題を修正しました。（NEO-32389、NEO-23487）
+* テンプレートから作成された配信の配信ダイアログを閉じると、コンソールがクラッシュする問題を修正しました。 （NEO-31547）
+* キャンペーンの&#x200B;**「ターゲット設定とワークフロー**」タブ内で配信を作成および保存する際に発生していた問題を修正しました。プレビューは次のエラーで失敗します。(NEO-29440)
+* Tomcat 8.5で、トランザクションメッセージログでエラーが発生する無効な回答が送信される問題を修正しました。 （NEO-30858）
+* 外部スレッド管理でメモリの破損が発生し、パフォーマンスに影響を与える問題が修正されました。
+* カスタムターゲットマッピングの使用時に課金ワークフローが失敗する可能性がある問題を修正しました。 カスタムスキーマの主キーは、整数値のみを許可する「sourceId」列に保存されます。 文字列値と整数値を使用できるようになりました。 （NEO-25914、NEO-28146）
+* 配信での日付選択や画像管理など、コンソールの一部のコンポーネントを使用できないリグレッションを修正しました。 （NEO-31453）
+
+## ![](assets/do-not-localize/red_2.png) リリース 20.2.4 - ビルド 9187 {#release-20-2-4-build-9187}
 
 _2020 年 12 月 22 日_
 
@@ -27,8 +46,7 @@ _2020 年 12 月 22 日_
 >
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス (IMS) を介して Campaign に接続する場合は、 **2021 年 6 月 30 日**&#x200B;以降、Campaign サーバーとクライアントコンソールのいずれも、Campaign に接続できるようにするには、アップグレードが必要です。
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
-> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、 **2021 年 11 月 30 日**&#x200B;に終了します。
-
+> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、**2021 年 11 月 30 日**&#x200B;に終了します。
 
 
 **改善点**
@@ -82,7 +100,7 @@ _2020 年 7 月 22 日_
 * [新しいシーケンス ID メカニズム](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)に切り替えた後、受信者テーブルを更新するすべての web アプリケーションは、アップグレード後に再公開されます。
 * 配信コンテンツの潜在的な XSS 脆弱性を修正しました。（NEO-17987、NEO-26073）
 
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/ja/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 ## ![](assets/do-not-localize/red_2.png) リリース 20.2.1 - ビルド 9178 {#release-20-2-1-build-9178}
 

@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: ドキュメント
 translation-type: tm+mt
-source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
+source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
 workflow-type: tm+mt
-source-wordcount: '2462'
+source-wordcount: '2481'
 ht-degree: 98%
 
 ---
@@ -113,6 +113,7 @@ ht-degree: 98%
       + CRM コネクタ{#crm-connectors}
          + [CRM コネクタの基本を学ぶ](platform/using/crm-connectors.md)
          + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
+         + [Salesforce.comとの接続](platform/using/crm-sfdc.md)
          + [CRM とのデータの同期](platform/using/crm-data-sync.md)
       + [Adobe Analytics データコネクタ](platform/using/adobe-analytics-data-connector.md)
    + [ヘルプとサポートのオプション](support.md)
@@ -211,6 +212,7 @@ ht-degree: 98%
       + [配信のトラブルシューティング](delivery/using/delivery-troubleshooting.md)
       + [配信ステータス](delivery/using/delivery-statuses.md)
       + [配信エラーについて](delivery/using/understanding-delivery-failures.md)
+      + [ISPの使用停止後にバウンスの資格を更新する](delivery/using/update-bounce-qualification.md)
       + [強制隔離管理について](delivery/using/understanding-quarantine-management.md)
    + メッセージのトラッキング {#tracking-messages}
       + [メッセージトラッキングについて](delivery/using/about-message-tracking.md)
@@ -658,6 +660,7 @@ ht-degree: 98%
       + [Campaign サーバーの設定](installation/using/configuring-campaign-server.md)
       + [セキュリティゾーンの定義](installation/using/security-zones.md)
       + [技術的な電子メール設定](installation/using/email-deliverability.md)
+      + [MXサーバーとキャンペーンの使用](installation/using/using-mx-servers.md)
       + [電子メール BCC の設定](installation/using/email-archiving.md)
       + [SpamAssassin の設定](installation/using/configuring-spamassassin.md)
    + Campaign に接続{#connect-to-campaign}
@@ -672,6 +675,7 @@ ht-degree: 98%
       + [外部アカウントの設定](installation/using/external-accounts.md)
       + Federated Data Access の設定{#configure-fda}
          + [Federated Data Access の概要](installation/using/about-fda.md)
+         + [ベストプラクティスと制限事項](installation/using/fda-best-practices.md)
          + 設定のガイドライン {#config-databases}
             + [設定の手順](installation/using/configure-fda.md)
             + [Snowflake の設定](installation/using/configure-fda-snowflake.md)

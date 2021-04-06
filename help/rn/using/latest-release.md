@@ -6,14 +6,14 @@ description: 最新の Campaign Classic リリース注意
 feature: 概要
 role: ビジネス従事者
 level: 初心者
+exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
+source-git-commit: 3db426580ba72668cd9fa274b57f925600eda27b
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 99%
+source-wordcount: '905'
+ht-degree: 98%
 
 ---
-
 
 # 最新リリース{#latest-release}
 
@@ -21,12 +21,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->キャンペーン&#x200B;**GAビルド**&#x200B;は次のとおりです。
->* [[!DNL Gold Standard] 11リリース](../../rn/using/gold-standard.md#gs-11)
->* [キャンペーン20.2.4リリース](../../rn/using/release--20-2.md#release-20-2-4-build-9187)
-
->
-
+>キャンペーン&#x200B;**GA (General Availability)ビルド**&#x200B;は次のとおりです。[[!DNL Gold Standard] 11リリース](../../rn/using/gold-standard.md#gs-11)と[キャンペーン20.2.5リリース](../../rn/using/release--20-2.md)。
 
 
 ## ![](assets/do-not-localize/blue_2.png) リリース 21.1.1 - ビルド 9277 {#release-21-1-1-build-9277}

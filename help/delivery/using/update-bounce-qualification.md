@@ -7,14 +7,14 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
+exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 0c93193ff30737870803f9fb25019f3162dcc96d
+source-git-commit: 3b5a6e6f03d9cb26ed372c3df069cbada36756a2
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 1%
 
 ---
-
 
 # ISPの停止後にバウンスの資格を更新{#update-bounce-qualification.md}
 
@@ -63,4 +63,3 @@ Googleは、この問題の原因となったGmailの障害と混乱を12月14�
 **関連トピック：**
 * [配信障害の把握](../../delivery/using/understanding-delivery-failures.md)
 * [バウンスメールの選定](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)
-

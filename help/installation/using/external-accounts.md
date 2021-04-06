@@ -6,38 +6,22 @@ description: 外部アカウントの作成方法
 audience: platform
 content-type: reference
 topic-tags: administration-basics
+exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 translation-type: tm+mt
-source-git-commit: bfe2e29ed904b6a04bab28455301437c63ab8118
+source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 86%
+source-wordcount: '1734'
+ht-degree: 81%
 
 ---
-
 
 # 外部アカウント{#external-accounts}
 
 Adobe Campaign には、事前定義済みの外部アカウントのセットが付属します。外部システムとの接続を設定するために、新しい外部アカウントを作成できます。
 
-外部アカウントは、テクニカルワークフローやキャンペーンワークフロー等の技術プロセスで使用されます。ワークフローのファイル転送や、その他のアプリケーション（Adobe Target、Experience Manager など）とのデータ交換をセットアップする際には外部アカウントを選択する必要があります。
+外部アカウントは、テクニカルワークフローやキャンペーンワークフロー等の技術プロセスで使用されます。例えば、ワークフローでのファイル転送、または他のアプリケーション(Adobe Target、Experience Managerなど)とのデータ交換を設定する場合は、外部アカウントを選択する必要があります。
 
-次のタイプの外部アカウントをセットアップできます。
-
-* [ルーティング外部アカウント](#routing-external-account)
-* [FTP 外部アカウント](#ftp-external-account)
-* [外部データベース外部アカウント](#external-database-external-account)
-* [Web 分析の外部アカウント](#web-analytics-external-account)
-* [Facebook Connect 外部アカウント](#facebook-connect-external-account)
-* [実行インスタンス外部アカウント](#execution-instance-external-account)
-* [Adobe Experience Cloud 外部アカウント](#adobe-experience-cloud-external-account)
-* [SFTP 外部アカウント](#sftp-external-account)
-* [Adobe Experience Manager の外部アカウント](#adobe-experience-manager-external-account)
-* [Amazon Simple Storage Service（S3）外部アカウント](#amazon-simple-storage-service--s3--external-account)
-* [Microsoft Dynamics CRM 外部アカウント](#microsoft-dynamics-crm-external-account)
-* [Salesforce CRM 外部アカウント](#salesforce-crm-external-account)
-* [Azure BLOB ストレージ外部アカウント](#azure-blob-external-account)
-
-## 外部アカウントの作成 {#creating-an-external-account}
+## 外部アカウントの作成{#creating-an-external-account}
 
 新しい外部アカウントを作成するには、次の手順に従います。 詳細な設定は、外部アカウントの種類に応じて異なります。
 
@@ -60,7 +44,9 @@ Adobe Campaign には、事前定義済みの外部アカウントのセット�
 
 外部アカウントが作成され、外部アカウントリストに追加されます。
 
-## バウンスメール外部アカウント {#bounce-mails-external-account}
+## キャンペーン固有の外部アカウント
+
+### バウンスメール {#bounce-mails-external-account}
 
 **バウンスメール**&#x200B;外部アカウントで、電子メールサービスの接続に使用する外部 POP3 アカウントを指定します。この外部アカウントについて詳しくは、この[ページ](../../workflow/using/inbound-emails.md)を参照してください。
 
@@ -90,7 +76,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 
    **[!UICONTROL デフォルト]**、**[!UICONTROL POP3 + STARTTLS]**、**[!UICONTROL POP3]** または **[!UICONTROL POP3S]** から選択した暗号化のタイプ。
 
-## ルーティング外部アカウント {#routing-external-account}
+### Routing{#routing-external-account}
 
 **[!UICONTROL ルーティング]**&#x200B;外部アカウントを使用すると、インストールしているパッケージに応じて、Adobe Campaign で利用可能な各チャネルを設定できます。
 
@@ -108,7 +94,31 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 * [iOS チャネル](../../delivery/using/configuring-the-mobile-application.md)
 * [Android チャネル](../../delivery/using/configuring-the-mobile-application-android.md)
 
-## FTP 外部アカウント {#ftp-external-account}
+
+### 実行インスタンス  {#execution-instance-external-account}
+
+分割アーキテクチャを使用している場合、コントロールインスタンスにリンクする実行インスタンスを指定し、両者を接続する必要があります。トランザクションメッセージテンプレートは実行インスタンスにデプロイされます。
+
+![](assets/ext_account_13.png)
+
+* **[!UICONTROL URL]**
+
+   実行インスタンスがインストールされているサーバーの URL。
+
+* **[!UICONTROL アカウント]**
+
+   アカウント名、オペレーターフォルダーで定義されている Message Center エージェントと同じである必要があります。
+
+* **[!UICONTROL パスワード]**
+
+   「オペレーター」フォルダーで定義されたアカウントのパスワード。
+
+この設定について詳しくは、この[ページ](../../message-center/using/creating-a-shared-connection.md#control-instance)を参照してください。
+
+
+## 外部システム外部アカウントへのアクセス
+
+### FTP {#ftp-external-account}
 
 FTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される FTP サーバー 898 など）との接続をセットアップするために、独自の外部アカウントを作成できます。詳しくは、この[ページ](../../workflow/using/file-transfer.md)を参照してください。
 
@@ -138,7 +148,29 @@ FTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバー�
 
 これらの資格情報の見つけ方については、この[ページ](https://help.dreamhost.com/hc/en-us/articles/115000675027-FTP-overview-and-credentials)を参照してください。
 
-## 外部データベース外部アカウント {#external-database-external-account}
+### SFTP {#sftp-external-account}
+
+SFTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される SFTP など）との接続をセットアップするために、独自の外部アカウントを作成できます。詳しくは、この[ページ](../../workflow/using/file-transfer.md)を参照してください。
+
+![](assets/ext_account_4.png)
+
+* **[!UICONTROL サーバー]**
+
+   SFTP サーバーの URL。
+
+* **[!UICONTROL ポート]**
+
+   FTP 接続のポート番号。デフォルトのポート番号は 22 です。
+
+* **[!UICONTROL アカウント]**
+
+   SFTP サーバーへの接続に使用するアカウント名。
+
+* **[!UICONTROL パスワード]**
+
+   SFTP サーバーへの接続に使用するパスワード。
+
+### 外部データベース(FDA) {#external-database-external-account}
 
 **外部データベース**&#x200B;型の外部アカウントを使用して、外部データベースに接続します。 Federated Data Access(FDA)オプションの詳細については、[このセクション](../../installation/using/about-fda.md)を参照してください。
 
@@ -157,15 +189,7 @@ FTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバー�
 * [Sybase IQ](../../installation/using/configure-fda-sybase.md)へのアクセスを設定
 * [Teradata](../../installation/using/configure-fda-teradata.md)へのアクセスを設定
 
-## Web 分析の外部アカウント {#web-analytics-external-account}
-
-**[!UICONTROL Web 分析（Adobe Analytics - データコネクタ）]**&#x200B;外部アカウントを使用すると、ユーザーは Adobe Analytics から Adobe Campaign へとセグメントの形式でデータを転送できます。反対に、Adobe Campaign から配信された E メールキャンペーンの指標と属性を Adobe Analytics - Data コネクタに送信します。
-
-![](assets/ext_account_10.png)
-
-この外部アカウントの場合は、トラッキングされる URL の計算式を強化し、2 つのソリューション間の接続を承認する必要があります。詳しくは、この[ページ](../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign)を参照してください。
-
-## Facebook Connect 外部アカウント {#facebook-connect-external-account}
+### Facebook接続{#facebook-connect-external-account}
 
 **[!UICONTROL Facebook Connect]** 外部アカウントがあれば、Facebook アプリケーションにパーソナライズしたコンテンツを表示でき、このソーシャルネットワーク経由で見込み客を獲得しやすくなります。
 
@@ -189,27 +213,9 @@ Facebook アプリケーションごとに、**[!UICONTROL Facebook Connect]** �
 
 これらの資格情報の見つけ方については、この[ページ](https://developers.facebook.com/docs/facebook-login/access-tokens)を参照してください。
 
-## 実行インスタンス外部アカウント {#execution-instance-external-account}
+## Adobeソリューション統合外部アカウント
 
-分割アーキテクチャを使用している場合、コントロールインスタンスにリンクする実行インスタンスを指定し、両者を接続する必要があります。トランザクションメッセージテンプレートは実行インスタンスにデプロイされます。
-
-![](assets/ext_account_13.png)
-
-* **[!UICONTROL URL]**
-
-   実行インスタンスがインストールされているサーバーの URL。
-
-* **[!UICONTROL アカウント]**
-
-   アカウント名、オペレーターフォルダーで定義されている Message Center エージェントと同じである必要があります。
-
-* **[!UICONTROL パスワード]**
-
-   「オペレーター」フォルダーで定義されたアカウントのパスワード。
-
-この設定について詳しくは、この[ページ](../../message-center/using/creating-a-shared-connection.md#control-instance)を参照してください。
-
-## Adobe Experience Cloud 外部アカウント {#adobe-experience-cloud-external-account}
+### Adobe Experience Cloud {#adobe-experience-cloud-external-account}
 
 Adobe ID を使用して Adobe Campaign コンソールに接続するには、**[!UICONTROL Adobe Experience Cloud（MAC）]**&#x200B;外部アカウントを設定する必要があります。
 
@@ -253,29 +259,15 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
 この設定について詳しくは、この[ページ](../../integrations/using/configuring-ims.md)を参照してください。
 
-## SFTP 外部アカウント {#sftp-external-account}
+## Web 分析 {#web-analytics-external-account}
 
-SFTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される SFTP など）との接続をセットアップするために、独自の外部アカウントを作成できます。詳しくは、この[ページ](../../workflow/using/file-transfer.md)を参照してください。
+**[!UICONTROL Web 分析（Adobe Analytics - データコネクタ）]**&#x200B;外部アカウントを使用すると、ユーザーは Adobe Analytics から Adobe Campaign へとセグメントの形式でデータを転送できます。反対に、Adobe Campaign から配信された E メールキャンペーンの指標と属性を Adobe Analytics - Data コネクタに送信します。
 
-![](assets/ext_account_4.png)
+![](assets/ext_account_10.png)
 
-* **[!UICONTROL サーバー]**
+この外部アカウントの場合は、トラッキングされる URL の計算式を強化し、2 つのソリューション間の接続を承認する必要があります。詳しくは、この[ページ](../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign)を参照してください。
 
-   SFTP サーバーの URL。
-
-* **[!UICONTROL ポート]**
-
-   FTP 接続のポート番号。デフォルトのポート番号は 22 です。
-
-* **[!UICONTROL アカウント]**
-
-   SFTP サーバーへの接続に使用するアカウント名。
-
-* **[!UICONTROL パスワード]**
-
-   SFTP サーバーへの接続に使用するパスワード。
-
-## Adobe Experience Manager の外部アカウント {#adobe-experience-manager-external-account}
+### Adobe Experience Manager {#adobe-experience-manager-external-account}
 
 **[!UICONTROL AEM（AEM インスタンス）]**&#x200B;外部アカウントを使用すれば、電子メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。
 
@@ -295,39 +287,11 @@ SFTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバー
 
 詳しくは、[この節](../../integrations/using/about-adobe-experience-manager.md)を参照してください。
 
-## Amazon Simple Storage Service（S3）外部アカウント {#amazon-simple-storage-service--s3--external-account}
 
-Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。詳しくは、この[ページ](../../workflow/using/file-transfer.md)を参照してください。
 
-![](assets/ext_account_3.png)
+## CRMコネクタ外部アカウント
 
-この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
-
-* **[!UICONTROL AWS S3 アカウントサーバー]**
-
-   サーバーの URL。次のように入力する必要があります。
-
-   ```
-   <S3bucket name>.s3.amazonaws.com/<s3object path>
-   ```
-
-* **[!UICONTROL AWS アクセスキー ID]**
-
-   AWS アクセスキー ID の見つけ方については、この[ページ](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
-
-* **[!UICONTROL AWS への秘密アクセスキー]**
-
-   AWS への秘密アクセスキーの見つけ方については、この[ページ](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
-
-* **[!UICONTROL AWS リージョン]**
-
-   AWS リージョンについて詳しくは、この[ページ](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
-
-* **[!UICONTROL サーバー側の暗号化を使用]**&#x200B;チェックボックスをオンにすると、ファイルを S3 暗号モードで保存できます。
-
-アクセスキー ID および秘密アクセスキーの見つけ方については、Amazon Web サービス[ドキュメント](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
-
-## Microsoft Dynamics CRM 外部アカウント {#microsoft-dynamics-crm-external-account}
+### Microsoft Dynamics CRM {#microsoft-dynamics-crm-external-account}
 
 **[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントがあれば、Microsoft Dynamics データを Adobe Campaign にインポートおよびエクスポートできます。
 
@@ -383,7 +347,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 この設定について詳しくは、この[ページ](../../platform/using/crm-connectors.md)を参照してください。
 
-## Salesforce CRM 外部アカウント {#salesforce-crm-external-account}
+### Salesforce.com CRM {#salesforce-crm-external-account}
 
 **[!UICONTROL Salesforce CRM]** 外部アカウントを使用すれば、Adobe Campaign から Salesforce データをインポートおよびエクスポートできます。
 
@@ -409,13 +373,47 @@ Salesforce CRM 外部アカウントを Adobe Campaign で使用できるよう�
 
 * **[!UICONTROL API バージョン]**
 
-   **[!UICONTROL バージョン49]**、**[!UICONTROL バージョン37]**、**[!UICONTROL バージョン21]**、または&#x200B;**[!UICONTROL バージョン15]**&#x200B;の間のAPIのバージョン。
+   APIのバージョンを選択します。
 
 この外部アカウントの場合、設定ウィザードで Salesforce CRM を設定する必要があります。
 
 この設定について詳しくは、この[ページ](../../platform/using/crm-connectors.md)を参照してください。
 
-## Azure Blobストレージ外部アカウント(#azure-blob-external-account)
+## データ転送外部アカウント
+
+### Amazon簡易ストレージサービス(S3) {#amazon-simple-storage-service--s3--external-account}
+
+Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。詳しくは、この[ページ](../../workflow/using/file-transfer.md)を参照してください。
+
+![](assets/ext_account_3.png)
+
+この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
+
+* **[!UICONTROL AWS S3 アカウントサーバー]**
+
+   サーバーの URL。次のように入力する必要があります。
+
+   ```
+   <S3bucket name>.s3.amazonaws.com/<s3object path>
+   ```
+
+* **[!UICONTROL AWS アクセスキー ID]**
+
+   AWS アクセスキー ID の見つけ方については、この[ページ](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
+
+* **[!UICONTROL AWS への秘密アクセスキー]**
+
+   AWS への秘密アクセスキーの見つけ方については、この[ページ](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
+
+* **[!UICONTROL AWS リージョン]**
+
+   AWS リージョンについて詳しくは、この[ページ](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
+
+* **[!UICONTROL サーバー側の暗号化を使用]**&#x200B;チェックボックスをオンにすると、ファイルを S3 暗号モードで保存できます。
+
+アクセスキー ID および秘密アクセスキーの見つけ方については、Amazon Web サービス[ドキュメント](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
+
+### Azure Blobストレージ(#azure-blob-external-account)
 
 **Azure Blobストレージ**&#x200B;外部アカウントは、**[!UICONTROL 転送ファイル]**&#x200B;ワークフローアクティビティを使用して、Adobe Campaignにデータをインポートまたはエクスポートするために使用できます。 詳しくは、[この節](../../workflow/using/file-transfer.md)を参照してください。
 

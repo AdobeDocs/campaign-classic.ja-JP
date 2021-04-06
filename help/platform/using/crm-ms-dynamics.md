@@ -1,19 +1,19 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Microsoft Dynamics CRM コネクタ
+title: キャンペーン- Microsoft Dynamics CRM Connector
 description: Campaign と Microsoft Dynamics の接続
 audience: platform
 content-type: reference
 topic-tags: connectors
+exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 translation-type: tm+mt
-source-git-commit: 521bc3bf9b2507947007d7f458679275d407f910
+source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 100%
+source-wordcount: '967'
+ht-degree: 99%
 
 ---
-
 
 # Campaign と Microsoft Dynamics 365 の接続{#connect-to-msdyn}
 
@@ -26,12 +26,6 @@ ht-degree: 100%
 * **オンプレミス**&#x200B;デプロイメントの場合は、Office 365 の主な手順を適用します。
 
 データ同期は、専用のワークフローアクティビティを使用して実行します。 [詳細情報](../../platform/using/crm-data-sync.md)。
-
-
->[!NOTE]
->
-> Campaign と互換性のある CRM システムのバージョンは、[互換性マトリックス](../../rn/using/compatibility-matrix.md#CRMconnectors)に記載されています。
-
 
 ## 実装手順{#microsoft-dynamics-implementation-steps}
 
@@ -56,10 +50,10 @@ Campaign Classic 内：
 
 
 >[!CAUTION]
->
 > Adobe Campaign を Microsoft Dynamics に接続する場合、次のことはできません。
 > * CRM の動作が変わり Adobe Campaign との互換性の問題が生じる可能性があるプラグインのインストール
 > * 複数の列挙の選択
+
 >
 
 

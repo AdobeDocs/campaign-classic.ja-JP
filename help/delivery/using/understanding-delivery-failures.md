@@ -6,14 +6,14 @@ description: 配信エラーの理解
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
+exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
+source-git-commit: b7a3046600845781a7393a9d1e9659550d9bfcdd
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 99%
+source-wordcount: '2665'
+ht-degree: 98%
 
 ---
-
 
 # 配信エラーの理解{#understanding-delivery-failures}
 
@@ -263,6 +263,10 @@ Adobe Campaign は、このメッセージをフィルター処理して変数�
 * **[!UICONTROL 無視]**：バウンスメールは Campaign MTA では無視され、このバウンスによって受信者のアドレスが隔離されることはありません。**配信品質の更新**&#x200B;ワークフローでは使用されず、クライアントインスタンスには送信されません。
 
 ![](assets/deliverability_qualif_status.png)
+
+>[!NOTE]
+>
+>ISPが使用不能になった場合、キャンペーン経由で送信された電子メールは、誤ってバウンスとしてマークされます。 これを修正するには、バウンスの資格を更新する必要があります。 詳しくは、[このページ](../../delivery/using/update-bounce-qualification.md)を参照してください。
 
 ### E メール管理ルール {#email-management-rules}
 

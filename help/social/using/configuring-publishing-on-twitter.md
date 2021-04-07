@@ -6,11 +6,11 @@ description: Twitter へのパブリッシュの設定
 audience: social
 content-type: reference
 topic-tags: configuration
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Twitter アプリケーションごとに、アプリケーション設定を含
 
    ![](assets/social_twitter_service_002.png)
 
-* **Adobe Campaign**:「 **[!UICONTROL プロファイルとターゲット」タブに移動し、「サー]** ビスと購読」リンクをクリックし、「 ****  **** 作成」ボタンをクリックします。
+* **Adobe Campaign**：「**[!UICONTROL プロファイルとターゲット]**」タブに移動し、「**[!UICONTROL サービスと購読]**」リンクをクリックして、「**[!UICONTROL 作成]**」ボタンをクリックします。
 
    ![](assets/social_twitter_service_007.png)
 

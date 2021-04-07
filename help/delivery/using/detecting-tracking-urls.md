@@ -1,16 +1,16 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 追跡URLの検出
-description: URLを追跡するための推奨パターンについての詳細
+title: トラッキング URL の検出
+description: URL をトラッキングするための推奨パターンについて詳しく説明します。
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 86%
 >
 >その他すべてのパターンはAdobeでサポートされていないので、セキュリティ上のギャップを防ぐために避ける必要があります。
 
-## 保護されていないパターン
+## セキュリティで保護されていないパターン
 
-コンテンツにパーソナライズされたリンクを追加する場合、潜在的なセキュリティギャップを避けるために、URL の hostname 部分はパーソナライズしないでください。詳しくは、[こちらのページ](../../installation/using/privacy.md#url-personalization)を参照してください。
+コンテンツにパーソナライズされたリンクを追加する場合、潜在的なセキュリティギャップを回避するために、URL のホスト名部分にパーソナライゼーションを含めないようにしてください。 詳しくは、[このページ](../../installation/using/privacy.md#url-personalization)を参照してください。
 
-例えば、`<a href="http://<%=myURL%>">`構文は&#x200B;**セキュリティで保護されていない**&#x200B;ので、避ける必要があります。
+例えば、`<a href="http://<%=myURL%>">` 構文は&#x200B;**安全ではない**&#x200B;ので、避ける必要があります。
 
-* この構文を使用すると、Adobe Campaignによって生成されたリンクに1つ以上のパラメーターが含まれている場合に、セキュリティの問題が発生する可能性があります。
+* この構文を使用すると、Adobe Campaign で生成されたリンクに 1 つ以上のパラメーターが含まれている場合に、セキュリティ上の問題が発生する可能性があります。
 * Tidyは、リンクの一部に誤ったパッチを適用する可能性があり、これはランダムに発生する可能性があります。 典型的な症状は、HTMLの一部で、電子メール配達確認には表示されますが、プレビューには表示されません。
 * URLのエスケープに問題があり、URLの一部の文字が問題を引き起こす可能性があります。
 * IDという名前のパラメーターをリダイレクトURLのパラメーターと競合させることはできません。

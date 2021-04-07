@@ -6,14 +6,14 @@ description: プロファイルの管理
 audience: platform
 content-type: reference
 topic-tags: profile-management
+exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
-
 
 # プロファイルの管理{#managing-profiles}
 
@@ -27,7 +27,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->データベース内のすべての受信者のリストを表示するには、ビューを作成する必要があります。詳しくは、[フォルダーと表示](../../platform/using/access-management-folders.md)を参照してください。
+>データベース内のすべての受信者のリストを表示するには、ビューを作成する必要があります。詳しくは、[フォルダーとビュー](../../platform/using/access-management-folders.md)を参照してください。
 
 ## 受信者を移動{#moving-recipients}
 
@@ -48,4 +48,3 @@ ht-degree: 94%
 「**[!UICONTROL 開始]**」をクリックして操作を起動します。次に示すように、ウィンドウの中ほどのセクションに進捗ステータスが表示されます。
 
 ![](assets/s_ncs_user_purge_folder_start.png)
-

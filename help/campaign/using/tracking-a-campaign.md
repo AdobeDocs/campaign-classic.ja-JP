@@ -6,11 +6,11 @@ description: キャンペーントラッキング
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 95%
 
 ## パッケージのフィルタリング {#filter-packages}
 
-**[!UICONTROL 「キャンペーン]**」タブから、既存のすべての分散型マーケティングキャンペーンを再グループ化する&#x200B;**[!UICONTROL キャンペーンパッケージ]**&#x200B;のリストを表示できます。 このリストをフィルタリングすると、例えば、パブリッシュ済み、承認待ちのキャンペーンのみを表示することが可能です。フィルタリングを実行するには、このビューの上部にあるリンクをクリックするか、「**[!UICONTROL リストをフィルター]**」リンクを使用して、表示するキャンペーンパッケージのステータスを選択します。
+「**[!UICONTROL キャンペーン]**」タブから、既存のすべての分散型マーケティングキャンペーンを再グループ化した&#x200B;**[!UICONTROL キャンペーンパッケージ]**&#x200B;リストを表示できます。 このリストをフィルタリングすると、例えば、パブリッシュ済み、承認待ちのキャンペーンのみを表示することが可能です。フィルタリングを実行するには、このビューの上部にあるリンクをクリックするか、「**[!UICONTROL リストをフィルター]**」リンクを使用して、表示するキャンペーンパッケージのステータスを選択します。
 
 ![](assets/mkg_dist_catalog_filter.png)
 

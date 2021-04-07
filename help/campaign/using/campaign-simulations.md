@@ -6,11 +6,11 @@ description: シミュレーション
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1373'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 
 シミュレーションを作成するには、次の手順に従います。
 
-1. 「**[!UICONTROL キャンペーン]**」タブを開き、「**[!UICONTROL 作成]**」セクション内の「**[!UICONTROL 詳細]**」リンクをクリックして、「**[!UICONTROL シミュレーション]**」オプションを選択します。
+1. 「**[!UICONTROL キャンペーン]**」タブを開き、「**[!UICONTROL 作成]**」セクション内の「**[!UICONTROL その他]**」リンクをクリックして、「**[!UICONTROL シミュレーション]**」オプションを選択します。
 
    ![](assets/simu_campaign_opti_01.png)
 

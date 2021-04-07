@@ -6,18 +6,18 @@ description: マーケティングキャンペーンの監視
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# マーケティングキャンペーンの監視{#monitoring-marketing-campaigns}
+# マーケティングキャンペーンの監視 {#monitoring-marketing-campaigns}
 
-## キャンペーンの追跡{#tracking-a-campaign}
+## キャンペーンのトラッキング {#tracking-a-campaign}
 
 キャンペーンごとに、「**[!UICONTROL 監査]**」タブを使用して、すべてのジョブとそのステータスを表示できます。このサブタブから次の情報にアクセスできます。
 
@@ -49,7 +49,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->配信の詳細に関する情報は、[このセクション](../../delivery/using/about-message-tracking.md)のセクションで確認できます。
+>配信の詳細については、[この節](../../delivery/using/about-message-tracking.md)を参照してください。
 
 ## 実行のトラッキング {#execution-tracking}
 

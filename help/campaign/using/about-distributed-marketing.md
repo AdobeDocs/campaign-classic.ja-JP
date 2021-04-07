@@ -6,11 +6,11 @@ description: 分散型マーケティングについて
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1175'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ Adobe Campaign では、セントラルエンティティ（本社、マーケ�
 
 ## ワークスペース {#workspace}
 
-キャンペーンパッケージのリストは、「**キャンペーン**」タブからアクセスできます。「**[!UICONTROL キャンペーンパッケージ]**」リンクをクリックします。
+キャンペーンパッケージのリストには、「**キャンペーン** 」タブからアクセスできます。「**[!UICONTROL キャンペーンパッケージ]**」リンクをクリックします。
 
 ![](assets/mkg_dist_home_local_op.png)
 

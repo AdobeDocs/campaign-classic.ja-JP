@@ -6,18 +6,18 @@ description: E メールの配信を確定し、E メールメッセージを配
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a56feac374506bb33ae6770aa247a197f1669fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # E メールを送信する主な手順 {#confirming-email-delivery}
 
-E メールが作成および設定されたら、メインターゲットに送信できます。この節では、電子メールの配信を確認する主な手順を説明します。
+E メールを作成および設定したら、メインターゲットに送信できます。 この節では、E メールの配信を確認するための主な手順を示します。
 
 1. E メール配信に固有の設定をすべて設定したことを確認します。詳しくは、[E メールパラメーター](../../delivery/using/email-parameters.md)を参照してください。
 1. E メールの準備が整ったら、メインターゲットに送信する前に、配達確認を送信して潜在的なエラーを検出することをお勧めします。詳しくは、[配達確認の送信](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)を参照してください。

@@ -1,37 +1,37 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: マーケティングキャンペーンターゲットオーディエンス
-description: マーケティングキャンペーンのオーディエンスを定義する方法を学びます。
+title: マーケティングキャンペーンのターゲットオーディエンス
+description: マーケティングキャンペーンのオーディエンスを定義する方法について説明します。
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1579'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# キャンペーンのオーディエンスを選択{#marketing-campaign-deliveries}
+# キャンペーンのオーディエンスの選択 {#marketing-campaign-deliveries}
 
-マーケティングキャンペーンでは、各配信に対して次の項目を定義できます。
+マーケティングキャンペーンでは、配信ごとに次の項目を定義できます。
 
-* オーディエンス - 詳細は、[ワークフローでのオーディエンスの構築](#building-the-main-target-in-a-workflow)と[ターゲット母集団の選択](#selecting-the-target-population)を参照してください。
-* コントロール母集団 — 詳細については、[このセクション](#defining-a-control-group)を参照してください。
-* シードアドレス - [こちら](../../delivery/using/about-seed-addresses.md)で詳しく説明します。
+* オーディエンス - 詳しくは、[ワークフローでのオーディエンスの作成](#building-the-main-target-in-a-workflow)と[ターゲット母集団の選択](#selecting-the-target-population)を参照してください。
+* コントロール母集団 - 詳しくは、[この節](#defining-a-control-group)を参照してください。
+* シードアドレス - 詳しくは [この節](../../delivery/using/about-seed-addresses.md)を参照してください。
 
 この情報の一部は、[キャンペーンテンプレート](../../campaign/using/marketing-campaign-templates.md#campaign-templates)から継承できます。
 
 配信ターゲットを作成するために、データベース内の受信者のフィルタリング条件を定義できます。この受信者選択モードは、[こちら](../../delivery/using/steps-defining-the-target-population.md)で説明します。
 
-## グループに送信
+## グループへの送信
 
-母集団をリストにインポートし、配信でこのリストをターゲットとして設定できます。これをおこなうには、以下の手順に従います。
+母集団をリストにインポートしてから、このリストを配信のターゲットにすることができます。 それには、次の手順に従います。
 
-1. 関連する配信を編集し、**[!UICONTROL 宛先]**&#x200B;リンクをクリックして、ターゲット母集団を変更します。
+1. 該当する配信を編集し、「**[!UICONTROL 宛先]**」リンクをクリックして、ターゲット母集団を変更します。
 
 1. 「**[!UICONTROL メインターゲット]**」タブで「**[!UICONTROL データベースで定義]**」オプションを選択し、「**[!UICONTROL 追加]**」をクリックして、受信者を選択します。
 
@@ -41,13 +41,13 @@ ht-degree: 89%
 
 ![](assets/s_user_target_group_next.png)
 
-## キャンペーンワークフロー{#building-the-main-target-in-a-workflow}でオーディエンスを構築
+## キャンペーンワークフローでのオーディエンスの作成 {#building-the-main-target-in-a-workflow}
 
-配信の主なターゲットは、キャンペーンワークフローでも定義できます。次のグラフ環境を使用すると、クエリ、テスト、演算子を使用してターゲットを作成できます。和集合、重複排除 - 重複、共有など
+配信のメインターゲットは、キャンペーンワークフローで定義することもできます。このグラフィカル環境では、クエリ、テスト、演算子（和集合、重複排除、共有など）を使用してターゲットを作成できます。
 
 >[!IMPORTANT]
 >
->1つのキャンペーンに追加できるワークフローは28個までです。 この上限を超えると、追加のワークフローはインターフェイスに表示されず、エラーが発生する可能性があります。
+>1 つのキャンペーンに追加できるワークフローは 28 個までです。 この上限を超えると、追加のワークフローはインターフェイスに表示されず、エラーが発生する可能性があります。
 
 ### ワークフローの作成 {#creating-a-targeting-workflow}
 
@@ -169,13 +169,13 @@ ht-degree: 89%
 
    ![](assets/s_user_segmentation_stop_unconditional.png)
 
-## 追加コントロール母集団{#defining-a-control-group}
+## コントロール母集団の追加 {#defining-a-control-group}
 
 コントロール母集団は、配信を受け取らない母集団です。配信を受け取るターゲット母集団の行動と比較することで、配信後の行動とキャンペーンの影響をトラッキングします。
 
 コントロール母集団は、メインターゲットから抽出できます。特定のグループまたはクエリから取得することもできます。
 
-### キャンペーン{#activating-the-control-group-for-a-campaign}のコントロール母集団をアクティブにします
+### キャンペーンのコントロール母集団の有効化 {#activating-the-control-group-for-a-campaign}
 
 コントロール母集団は、キャンペーンレベルで定義できます。この場合、該当するキャンペーンの配信ごとにコントロール母集団が適用されます。
 
@@ -191,7 +191,7 @@ ht-degree: 89%
 
 設定手順について詳しくは、[メインターゲットからのコントロール母集団の抽出](#extracting-the-control-group-from-the-main-target)および[コントロール母集団の追加](#adding-a-population)で説明しています。
 
-### 配信{#activating-the-control-group-for-a-delivery}のコントロール母集団をアクティブにします
+### 配信のコントロール母集団の有効化 {#activating-the-control-group-for-a-delivery}
 
 コントロール母集団は、配信レベルで定義できます。この場合、該当するキャンペーンの配信ごとにコントロール母集団が適用されます。
 
@@ -210,7 +210,7 @@ ht-degree: 89%
 
 設定手順について詳しくは、[メインターゲットからのコントロール母集団の抽出](#extracting-the-control-group-from-the-main-target)および[コントロール母集団の追加](#adding-a-population)で説明しています。
 
-### メインターゲット{#extracting-the-control-group-from-the-main-target}からコントロール母集団を抽出します
+### メインターゲットからのコントロール母集団の抽出 {#extracting-the-control-group-from-the-main-target}
 
 配信のメインターゲットから受信者を抽出できます。この場合、受信者は、この設定に影響を受ける配信アクションのターゲットから選ばれます。ランダムに抽出することも、受信者の並べ替え結果を使用することもできます。
 
@@ -227,7 +227,7 @@ ht-degree: 89%
 
 この設定は、ワークフロー内の共有アクティビティと同等で、ターゲットをサブセットに分割できます。コントロール母集団は、このようなサブセットのひとつです。詳しくは、[この節](../../workflow/using/architecture.md)を参照してください。
 
-### 新しい母集団をコントロール母集団として使用{#adding-a-population}
+### コントロール母集団としての新しい母集団の使用 {#adding-a-population}
 
 コントロール母集団として使用する新しい母集団を定義できます。この母集団は、受信者のグループから作成することも、特定のクエリを使用して作成することもできます。
 
@@ -240,7 +240,7 @@ ht-degree: 89%
 
 #### チュートリアルビデオ {#create-email-video}
 
-このビデオでは、Adobe Campaignでキャンペーンと電子メールを作成する方法を説明します。
+このビデオでは、Adobe Campaign でキャンペーンと E メールを作成する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 

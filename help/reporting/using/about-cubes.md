@@ -6,16 +6,16 @@ description: キューブについて
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '740'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# キューブの使用を開始する{#about-cubes}
+# キューブの基本を学ぶ{#about-cubes}
 
 データベースに格納されているデータの調査は、**マーケティング分析**&#x200B;モジュールを通じて提供されます。これにより、データの分析と測定、統計の計算、レポートの作成と計算のシンプル化および最適化が可能になります。それに加え、マーケティング分析では、レポートの作成とターゲット母集団の定義も可能です。ターゲット母集団は、一旦特定されると、Adobe Campaign で使用できるリスト（ターゲティングやセグメント化など）に格納されます。
 
@@ -89,7 +89,7 @@ ht-degree: 96%
 
 キューブを使用する主なコンテキストは次のとおりです。
 
-* データのエクスポートは、Adobe Campaignプラットフォームの&#x200B;**[!UICONTROL 「レポート]**」タブで設計されたレポートで直接実行できます。
+* データのエクスポートは、Adobe Campaign プラットフォームの「**[!UICONTROL レポート]**」タブで設計されたレポートで直接実行できます。
 
    それには、新しいレポートを作成し、使用するキューブを選択します。
 

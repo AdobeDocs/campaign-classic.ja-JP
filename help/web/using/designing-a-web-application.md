@@ -6,16 +6,16 @@ description: Web アプリケーションの設計
 audience: web
 content-type: reference
 topic-tags: web-applications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Webアプリケーションの設計{#designing-a-web-application}
+# Web アプリケーションの設計{#designing-a-web-application}
 
 Web アプリケーションは、[オンライン調査](../../web/using/about-surveys.md)と同じ原則に従って作成および管理されます。
 

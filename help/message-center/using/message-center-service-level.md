@@ -6,18 +6,18 @@ description: Message Center サービスレベル
 audience: message-center
 content-type: reference
 topic-tags: reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # Message Center サービスレベル{#message-center-service-level}
 
-このレポートでは、トランザクションメッセージに関する配信の統計およびエラーの分類が表示されます。エラータイプをクリックするとエラーの詳細を表示することができます。このレポートは、技術管理者を対象としており、コントロールインスタンスの&#x200B;**[!UICONTROL Monitoring]**&#x200B;タブからもアクセスできます。
+このレポートでは、トランザクションメッセージに関する配信の統計およびエラーの分類が表示されます。エラータイプをクリックするとエラーの詳細を表示することができます。技術管理者を対象としたこのレポートには、コントロールインスタンスの「**[!UICONTROL 監視]**」タブからアクセスすることもできます。
 
 ![](assets/mc_reports_1.png)
 

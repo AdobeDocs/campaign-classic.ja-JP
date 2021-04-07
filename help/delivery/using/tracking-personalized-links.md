@@ -6,11 +6,11 @@ description: パーソナライズ可能な電子メールにリンクを記述�
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b81d0ea22bf9d8f33e486535b4ce02fbae7b9ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 87%
 電子メールコンテンツ（HTMLまたはテキスト）でJavaScriptを使用すると、動的なコンテンツを生成して受信者に送信できますが、次の2つの制限があります。
 
 * スクリプトはデータベースに直接アクセスできません（SQL関数とAPI関数は使用できません）。
-* Adobe CampaignがURLを検出できて、リンクを追跡できる必要があります。 [詳細情報](detecting-tracking-urls.md)
+* リンクを追跡できるように、Adobe Campaign で URL を検出できる必要があります。 [詳細情報](detecting-tracking-urls.md)
 
-特定の前処理命令を追加して、URLのスクリプトを作成し、追跡できます。 [詳細情報](pre-processing-instructions.md)
+特定の前処理命令を追加して、URL のスクリプトを作成し、追跡することができます。 [詳細情報](pre-processing-instructions.md)
 
 追跡検出のために、Adobe Campaignは[Tidy](http://www.html-tidy.org/)を埋め込んでHTMLソースを解析し、パターンを検出します。 コンテンツのすべてのURLをリストして、個別に追跡できるようにします。 Adobe Campaignは再度Tidyを使用して、URL(`http://myurl.com`)をAdobe Campaignリダイレクトサーバーを指すURLに置き換えます。
 

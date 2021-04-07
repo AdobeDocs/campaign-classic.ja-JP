@@ -4,16 +4,16 @@ product: campaign
 title: プロファイルについて
 description: プロファイルについて
 feature: プロファイル、オーディエンス
-role: ビジネス実践者、データアーキテクト
-level: 初心者
+role: Business Practitioner, Data Architect
+level: Beginner
+exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 translation-type: tm+mt
-source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1024'
 ht-degree: 77%
 
 ---
-
 
 # プロファイルの使用を開始する{#about-profiles}
 

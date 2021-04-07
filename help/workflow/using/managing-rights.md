@@ -6,16 +6,16 @@ description: ワークフロー権限の管理方法を説明します
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# ワークフロー権限の管理{#managing-rights}
+# ワークフロー権限の管理 {#managing-rights}
 
 管理者でない Adobe Campaign オペレーターは、ワークフローの作成や実行、変更でアクセス権が必要になります。
 

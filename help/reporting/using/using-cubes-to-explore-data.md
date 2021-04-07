@@ -6,11 +6,11 @@ description: キューブを使用したデータ調査
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '991'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 
 ### 手順 1 - キューブに基づくレポートの作成 {#step-1---creating-a-report-based-on-a-cube}
 
-キューブに基づいてレポートを作成するには、「**[!UICONTROL レポート]**」タブの「**[!UICONTROL 作成]**」ボタンをクリックし、使用するキューブを選択します。
+キューブに基づいてレポートを作成するには、「**[!UICONTROL レポート]**」タブの「**[!UICONTROL 作成]**」ボタンをクリックして、使用するキューブを選択します。
 
 手順について詳しくは、[キューブに基づくレポートの作成 ](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube)を参照してください。
 
@@ -152,7 +152,7 @@ ht-degree: 96%
 
    カートの内容は、保存することも空にすることもできます。
 
-   関連するリストは、「**[!UICONTROL プロファイルとターゲット]**」タブを介してアクセスします。
+   関係するリストには、「**[!UICONTROL プロファイルとターゲット]**」タブからアクセスします。
 
    ![](assets/s_advuser_cube_in_report_config_02g.png)
 

@@ -6,11 +6,11 @@ description: レポートプロパティ設定の詳細
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 
 * **[!UICONTROL 匿名アクセス]**：このオプションでは、レポートへの無制限アクセスが可能になります。ただし、操作はできません。
 
-   「webapp」技術演算子の権限を使用して、レポート要素を表示します。 詳しくは、[この節](../../platform/using/access-management-operators.md)を参照してください。
+   「Web アプリ」テクニカルオペレーターの権限は、レポート要素を表示するために使用されます。 詳しくは、[この節](../../platform/using/access-management-operators.md)を参照してください。
 
 * **[!UICONTROL アクセス制御]**：このオプションでは、Adobe Campaign オペレーターがログオン後にレポートにアクセスできるようになります。
 * **[!UICONTROL 特定のアカウントを使用]**：このオプションでは、「**[!UICONTROL オペレーター]**」フィールドで選択したオペレーターの権限でレポートを実行できるようになります。

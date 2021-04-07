@@ -6,14 +6,14 @@ description: 配信品質のベストプラクティスを説明します
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
+exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 translation-type: tm+mt
-source-git-commit: 0420de856d1506ab92d8f0e0824bf439e0ac7dc7
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '716'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
-
 
 # 配信品質とは{#about-deliverability}
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 
 より正確に言うと、電子メールの配信品質とは、メッセージが宛先に到達する能力を、個人の電子メールアドレスを介して、短時間で、コンテンツや形式に関して期待される品質を持つ特性の集まりを指します。
 
-配信品質の概要と、主な配信品質の用語、概念、アプローチの詳細については、『[Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)』を参照してください。
+配信品質の概要と、主な配信品質の用語、概念、アプローチの詳細については、『[Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)』を参照してください。
 
 ## 配信品質の向上方法{#deliverability-key-points}
 
@@ -76,7 +76,7 @@ Adobeでは、無効なアドレスへのメッセージの送信を避け、不
 
 Adobe Campaignは、一貫して発生するスパムの苦情、ハードバウンス、ソフトバウンスを収集するリストを管理します。
 
-配信品質を保護するため、そのリスト上の住所を持つ受信者は、デフォルトでは、これらの連絡先に送信すると送信の評判が悪くなる可能性があるので、将来のすべての配信から除外されます。
+配信品質を保護するため、そのリスト上の住所を持つ受信者は、デフォルトでは、これらの連絡先に送信すると、送信の評判が悪くなる可能性があるので、将来のすべての配信から除外されます。
 
 一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムとみなします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
 

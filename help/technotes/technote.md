@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: テクノテ
-description: テクノテ
+title: テクニカルノート
+description: テクニカルノート
 hide: true
 hidefromtoc: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a50f094ae2f00060cfeb19dbc94534906728a28f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# テクノテ{#about}
+# テクニカルノート {#about}
 
-[TechNoteのダウンロード](guidelines.pdf)
+[テクニカルノートのダウンロード](guidelines.pdf)
 
 

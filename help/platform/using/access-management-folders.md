@@ -2,22 +2,22 @@
 solution: Campaign Classic
 product: campaign
 title: キャンペーンフォルダーへのアクセスの管理
-description: キャンペーンフォルダへのアクセスを許可し、表示を作成する方法を学びます。
+description: キャンペーンフォルダーへのアクセスを許可し、ビューを作成する方法について説明します。
 feature: アプリケーション設定
-role: 営業者、管理者
-level: 初心者
+role: Business Practitioner, Administrator
+level: Beginner
+exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 90%
+source-wordcount: '777'
+ht-degree: 98%
 
 ---
 
-
 # フォルダーへのアクセスの管理{#folder-access-management}
 
-エクスプローラ・ナビゲーション・ツリーの各フォルダには、アクセス権の読み取り、書き込み、削除が割り当てられています。 ファイルにアクセスするには、個別のオペレーターまたはオペレーターのグループが、少なくとも目的のファイルに対する読み取りアクセス権を持っている必要があります。
+エクスプローラーナビゲーションツリーの各フォルダーには、読み取り、書き込み、削除のアクセス権が割り当てられています。 ファイルにアクセスするには、オペレーターまたはオペレーターグループに少なくともファイルへの読み取りアクセス権が必要です。
 
 ## フォルダーとビュー {#folders-and-views}
 
@@ -27,7 +27,7 @@ ht-degree: 90%
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-エクスプローラのナビゲーションツリーはカスタマイズできます。 この節](adobe-campaign-workspace.md)では、設定手順とベストプラクティス[について説明します。
+エクスプローラーのナビゲーションツリーをカスタマイズできます。 設定手順とベストプラクティスについては、[この節](adobe-campaign-workspace.md)を参照してください。
 
 ### 表示{#about-views}とは
 
@@ -80,7 +80,7 @@ ht-degree: 90%
 
 
 
-## フォルダーの権限
+## フォルダーに対する権限
 
 ### フォルダーに対する権限の編集 {#edit-permissions-on-a-folder}
 

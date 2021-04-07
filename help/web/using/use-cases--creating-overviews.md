@@ -6,16 +6,16 @@ description: '"ユースケース：概要の作成"'
 audience: web
 content-type: reference
 topic-tags: web-applications
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# 使用例：概要ページの作成{#use-cases-creating-overviews}
+# ユースケース：概要ページの作成 {#use-cases-creating-overviews}
 
 次の例では、概要タイプの Web アプリケーションを作成して、データベースのすべての Web アプリケーションを表示します。次の要素を設定します。
 

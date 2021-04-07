@@ -6,11 +6,11 @@ description: イベントの収集
 audience: message-center
 content-type: reference
 topic-tags: event-processing
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,4 +28,4 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->実行インスタンス上では、**[!UICONTROL リアルタイムイベント]**&#x200B;または&#x200B;**[!UICONTROL バッチイベント]**&#x200B;を表示として設定する必要はありません。これは、アクセス権の問題を引き起こす可能性があるためです。 フォルダーを表示ーとして設定する方法の詳細については、[このセクション](../../platform/using/access-management-folders.md)を参照してください。
+>実行インスタンス上では、**[!UICONTROL リアルタイムイベント]**&#x200B;フォルダーまたは&#x200B;**[!UICONTROL バッチイベント]**&#x200B;フォルダーをビューとして設定しないでください。アクセス権の問題が発生するおそれがあるからです。 フォルダーをビューとして設定する方法について詳しくは、[この節](../../platform/using/access-management-folders.md)を参照してください。

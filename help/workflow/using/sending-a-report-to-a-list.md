@@ -6,11 +6,11 @@ description: ワークフローでのリストへのレポートの送信方法�
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 ## 手順 1：受信者リストの作成 {#step-1--creating-the-recipient-list}
 
-「**[!UICONTROL プロファイルとターゲット]**」タブに移動し、「**[!UICONTROL リスト]**」リンクをクリックしてから、「**[!UICONTROL 作成]**」ボタンをクリックします。 「**[!UICONTROL 新しいリスト]**」を選択し、レポートの送信先とする受信者のリストを新たに作成します。
+「**[!UICONTROL プロファイルとターゲット]**」タブに移動し、「**[!UICONTROL リスト]**」リンクをクリックしてから、「**[!UICONTROL 作成]**」ボタンをクリックします。「**[!UICONTROL 新しいリスト]**」を選択し、レポートの送信先とする受信者のリストを新たに作成します。
 
 ![](assets/use_case_report_1.png)
 

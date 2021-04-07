@@ -1,35 +1,35 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: マーケティングキャンペーンのドキュメントと配信の概要
-description: マーケティングキャンペーンのドキュメントと配信の概要の詳細
+title: マーケティングキャンペーンドキュメントと配信概要
+description: マーケティングキャンペーンドキュメントと配信概要の詳細
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '784'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
-# 関連ドキュメントの管理{#managing-associated-documents}
+# 関連ドキュメントの管理 {#managing-associated-documents}
 
-キャンペーンには、次の様々なドキュメントを関連付けることができます。レポート、写真、Webページ、図など これらのドキュメントは、任意の形式(Microsoft Word、PowerPoint、PNG、JPG、AcrobatPDFなど)で指定できます。
+レポート、写真、Web ページ、図などの様々なドキュメントをキャンペーンに関連付けることができます。 これらのドキュメントは、任意の形式（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDF など）にすることができます。
 
 >[!IMPORTANT]
 >
->この機能は、小規模なアセットやドキュメント向けに予約されています。
+>この機能は、小規模なアセットやドキュメント向けのものです。
 
-キャンペーンでは、プロモーションクーポン、特定のブランドや店舗に関する特別オファーなど、他の商品も参照できます。 これらの要素をアウトラインに含める場合は、ダイレクトメール配信に関連付けることができます。 「[配信の概要を介してリンクされたリソースの関連付けと構造化](#associating-and-structuring-resources-linked-via-a-delivery-outline)」を参照してください。
+キャンペーンでは、プロモーションクーポン、特定のブランドや店舗に関連する特別オファーなど、他のアイテムを参照することもできます。 これらの要素をアウトラインに含める場合は、ダイレクトメール配信に関連付けることができます。 [配信の概要を介してリンクしたリソースの関連付けと構造化](#associating-and-structuring-resources-linked-via-a-delivery-outline)を参照してください。
 
 >[!NOTE]
 >
->キャンペーンマーケティングリソース管理モジュールを使用している場合は、複数のユーザーが共同作業で使用できるマーケティングリソースのライブラリを管理することもできます。 [詳細情報](../../campaign/using/managing-marketing-resources.md)。
+>Campaign のマーケティングリソース管理モジュールを使用している場合は、複数のユーザーが共同作業に利用できるマーケティングリソースのライブラリを管理することもできます。 [詳細情報](../../campaign/using/managing-marketing-resources.md)。
 
-## 追加ドキュメント{#adding-documents}
+## ドキュメントの追加 {#adding-documents}
 
 ドキュメントは、キャンペーンレベル（コンテキストドキュメント）でもプログラムレベル（一般ドキュメント）でも関連付けることができます。
 
@@ -56,19 +56,19 @@ ht-degree: 67%
 
 このビューからドキュメントを編集および変更することもできます。
 
-## 配信の概要{#associating-and-structuring-resources-linked-via-a-delivery-outline}を介してリソースを関連付け、構築する
+## 配信の概要を介してリンクしたリソースの関連付けと構造化 {#associating-and-structuring-resources-linked-via-a-delivery-outline}
 
 >[!NOTE]
 >
 >配信の概要は、ダイレクトメールキャンペーンのコンテキストでのみ使用します。
 
-「配信の概要」は、構造化された一連の要素(ドキュメント、店舗、プロモーションクーポンなど)を表します。 会社によって作成され、特定のキャンペーンに対して作成されます。
+配信の概要は、構造化された一連の要素（ドキュメント、店舗、プロモーションクーポンなど）を表します。 これらは、会社が特定のキャンペーン用に作成したものです。
 
-これらの要素は配信の概要にグループ化され、各配信の概要は配信に関連付けられます。配信に添付するために、**サービスプロバイダー**&#x200B;に送信される抽出ファイルで参照されます。 例えば、ある支店と、その支店が使用するマーケティングカタログを参照する配信の概要を作成できます。
+これらの要素は配信の概要にグループ化され、各配信概要は配信に関連付けられます。配信に添付するために、**サービスプロバイダー**&#x200B;に送信する抽出ファイルで参照されます。 例えば、ある支店と、その支店が使用するマーケティングカタログを参照する配信の概要を作成できます。
 
 キャンペーンでは、配信の概要を使用して、関連する支店、提供するプロモーションオファー、ローカルイベントへの招待など、特定の条件に応じて配信に関連付ける外部要素を構造化できます。
 
-### アウトラインの作成{#creating-an-outline}
+### アウトラインの作成 {#creating-an-outline}
 
 概要を作成するには、関連するキャンペーンの&#x200B;**[!UICONTROL 編集／「ドキュメント」]**&#x200B;タブで「**[!UICONTROL 配信の概要]**」サブタブをクリックします。
 
@@ -76,7 +76,7 @@ ht-degree: 67%
 >
 >このタブが表示されていない場合、このキャンペーンではこの機能を使用できません。キャンペーンテンプレートの設定を参照してください。
 >   
->テンプレートの詳細については、[この](../../campaign/using/marketing-campaign-templates.md#campaign-templates)を参照してください。
+>テンプレートについて詳しくは、[この節](../../campaign/using/marketing-campaign-templates.md#campaign-templates)を参照してください。
 
 ![](assets/s_ncs_user_op_composition_link.png)
 
@@ -98,15 +98,15 @@ ht-degree: 67%
 
    ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* リソースは、**[!UICONTROL キャンペーン]**&#x200B;タブの&#x200B;**[!UICONTROL リソース]**&#x200B;リンクを介してアクセスされるマーケティングリソースダッシュボードで生成されるマーケティングリソースです。
+* リソースは、「**[!UICONTROL キャンペーン]**」タブの「**[!UICONTROL リソース]**」リンクを通じてアクセスできるマーケティングリソースダッシュボードで生成したマーケティングリソースです。
 
    ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
    >[!NOTE]
    >
-   >マーケティングリソースの詳細については、[この](../../campaign/using/managing-marketing-resources.md)を参照してください。
+   >マーケティングリソースについて詳しくは、[この節](../../campaign/using/managing-marketing-resources.md)を参照してください。
 
-### アウトラインを選択{#selecting-an-outline}
+### アウトラインの選択 {#selecting-an-outline}
 
 次の例に示すように、配信ごとに、抽出の概要専用のセクションから関連付ける概要を選択できます。
 
@@ -132,4 +132,4 @@ ht-degree: 67%
 
 >[!NOTE]
 >
->エクスポートの詳細については、[この](../../platform/using/get-started-data-import-export.md)セクションを参照してください。
+>エクスポートについて詳しくは、[この節](../../platform/using/get-started-data-import-export.md)を参照してください。

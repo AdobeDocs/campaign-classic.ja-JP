@@ -2,24 +2,24 @@
 solution: Campaign Classic
 product: campaign
 title: リストの管理とカスタマイズ
-description: リストを参照して設定する方法を学びます。
+description: リストの参照と設定の方法について説明します。
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d6327cb5307ab5d37c15afa45dfd180ef04cb5a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1198'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # リストの管理とカスタマイズ{#manage-and-customize-lists}
 
-エクスプローラを使用して、キャンペーンデータベース内のレコードのリストにアクセスできます。 これらのリストのフィルタリング、検索の実行、情報の追加、データのフィルタリングと並べ替えを行うことができます。
+エクスプローラーを使用して、Campaign データベース内のレコードのリストにアクセスできます。 これらのリストのフィルタリング、検索の実行、情報の追加、データのフィルタリングと並べ替えを行うことができます。
 
-## レコードをカウント{#counting-records}
+## レコードのカウント {#counting-records}
 
 Adobe Campaign には、デフォルトで、リストの最初の 200 件のレコードが読み込まれます。つまり、表示しているテーブルのすべてのレコードが表示されるわけではありません。リスト内のレコード数のカウントを実行して、レコードをさらに読み込むことができます。
 
@@ -29,7 +29,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 右側に数値ではなく「**?**」が表示される場合は、カウンターをクリックして計算を起動します。
 
-### さらにレコードを読み込む{#loading-more-records}
+### さらなるレコードの読み込み {#loading-more-records}
 
 追加レコード（デフォルトでは 200 ライン）を読み込んで表示するには、「**[!UICONTROL 読み込みを続行]**」をクリックします。
 
@@ -47,11 +47,11 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 ![](assets/s_ncs_user_configure_list.png)
 
-リスト設定ウィンドウで、**[!UICONTROL Advanced parameters]**（左下）をクリックし、取得する行数を変更します。
+リスト設定ウィンドウで、「**[!UICONTROL 詳細設定パラメーター]**」（左下）をクリックして、取得する行数を変更します。
 
 ![](assets/s_ncs_user_configurelist_advancedparam.png)
 
-## リストの構成{#configuring-lists}
+## リストの設定 {#configuring-lists}
 
 ### 列の追加 {#add-columns}
 
@@ -84,9 +84,9 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
    >
    >「**検索**」フィールドを使用して、使用可能フィールドで検索を実行できます。詳しくは、[この節](#sorting-a-list)を参照してください。
    >
-   >フィールドは、SQL フィールド、リンクテーブル、集計フィールドなどの特定のアイコンで識別されます。選択した各フィールドの説明が、使用可能フィールドのリストの下に表示されます。[詳細情報](#configuring-lists)。
+   >フィールドは、SQL フィールド、リンクテーブル、集計フィールドなどの特定のアイコンで識別されます。 選択した各フィールドの説明が、使用可能フィールドのリストの下に表示されます。[詳細情報](#configuring-lists)。
    >
-   >データを並べ替えたりフィルターしたりすることもできます。[この節](../../platform/using/filtering-options.md)を参照してください。
+   >データを並べ替えたりフィルタリングしたりすることもできます。 詳しくは、[この節](../../platform/using/filtering-options.md)を参照してください。
 
 1. 表示する列ごとにこの手順を繰り返します。
 1. 矢印を使用して&#x200B;**表示順序**&#x200B;を変更します。最も上にある列が、レコードのリストで左になります。
@@ -122,7 +122,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 リストがアクティブである（少なくとも 1 ラインが選択されている）ときは、F9 キーを使用して、すべての列が画面に表示されるように列幅を調整できます。
 
-### サブフォルダ{#display-sub-folders-records}内のデータを表示
+### サブフォルダー内のデータの表示 {#display-sub-folders-records}
 
 リストには、次の内容を表示できます。
 
@@ -133,7 +133,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 ![](assets/s_ncs_user_display_children_icon.png)
 
-## リスト構成の保存{#saving-a-list-configuration}
+## リスト設定の保存 {#saving-a-list-configuration}
 
 リストの設定は、ワークステーションレベルでローカルに定義されます。ローカルキャッシュがクリアされると、ローカルの設定が無効になります。
 
@@ -163,7 +163,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 ![](assets/s_ncs_user_folder_save_config_5.png)
 
-## リストのエクスポート{#exporting-a-list}
+## リストのエクスポート {#exporting-a-list}
 
 リストからデータをエクスポートするには、エクスポートウィザードを使用する必要があります。これにアクセスするには、リストからエクスポートする要素を選択し、右クリックして「**[!UICONTROL エクスポート...]**」を選択します。
 
@@ -173,7 +173,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 >
 >リストの要素をコピーまたは貼り付け機能を使用してエクスポートしないでください。
 
-## リストの並べ替え{#sorting-a-list}
+## リストの並べ替え {#sorting-a-list}
 
 リストに大量のデータが含まれている場合があります。これらのデータを並べ替えたり、標準フィルターまたは詳細フィルターを適用したりすることができます。並べ替えでは、データを昇順または降順で表示できます。フィルターでは、基準を定義または組み合わせて、選択したデータのみを表示できます。
 

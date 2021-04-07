@@ -6,11 +6,11 @@ description: 配信レポート
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1628'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 配信の概要からアクセス可能な様々なレポート経由で、配信の実行をトラッキングできます。レポートを表示するには、次の手順に従います。
 
-1. 「**[!UICONTROL キャンペーン]**」タブに移動し、「**[!UICONTROL 配信]**」リンクをクリックして配信のリストを表示します。
+1. 「**[!UICONTROL キャンペーン]**」タブに移動し、「**[!UICONTROL 配信]**」リンクをクリックして、配信のリストを表示します。
 1. 表示する配信の名前をクリックして詳細を確認します。
 
    ![](assets/s_ncs_user_detailled_report.png)

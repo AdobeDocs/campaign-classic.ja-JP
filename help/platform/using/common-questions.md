@@ -6,14 +6,14 @@ description: Adobe Campaign Classic FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
 translation-type: tm+mt
-source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 97%
 
 ---
-
 
 # よくある質問{#common-questions}
 
@@ -74,4 +74,3 @@ Campaign の最新ビルドでサポートされているすべてのシステ�
 サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。アドビは E メール配信用にドメインネームシステム（DNS）を考慮しています。これにより、クライアントがドメイン名と共に DNS エイリアスを使用することでブランドイメージを維持したり、E メール処理中の配信品質を最適化できるすべての技術的なベストプラクティスをアドビが自主的に実践したりできます。
 
 [詳しくはここをクリック](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)してください。
-

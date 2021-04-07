@@ -6,16 +6,16 @@ description: '"ユースケース：友達の紹介フォームの作成"'
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# 使用例：リファラルフォーム{#use-case-creating-a-refer-a-friend-form}を作成する
+# ユースケース：リファラルフォームの作成{#use-case-creating-a-refer-a-friend-form}
 
 この例では、データベースの受信者に競合他社を紹介します。Web フォームには、回答を入力するセクションを用意し、別のセクションで、E メールアドレスを入力することで友達を紹介します。
 

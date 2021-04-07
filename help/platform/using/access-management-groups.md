@@ -1,25 +1,25 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: 演算子グループの作成と管理
-description: オペレーターグループへのアクセス権を付与する方法を説明します。
+title: オペレーターグループの作成と管理
+description: オペレーターグループにアクセス権を付与する方法を説明します。
 feature: アクセス管理
-role: 営業者、管理者
-level: 初心者
+role: Business Practitioner, Administrator
+level: Beginner
+exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 95%
+source-wordcount: '547'
+ht-degree: 100%
 
 ---
 
+# オペレーターグループの作成と管理 {#operator-groups}
 
-# オペレーターグループの作成と管理{#operator-groups}
+オペレーターグループは、ツリーの&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーターグループ]**&#x200B;ノードを使用して作成します。
 
-オペレーターグループは、ツリーの&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーターグループ]**&#x200B;ノードを使って作成します。
-
-## 新しい演算子グループ{#creating-a-new-operator-group}を作成します
+## 新しいオペレーターグループの作成 {#creating-a-new-operator-group}
 
 新しいオペレーターグループを作成するには、以下の手順を実行します。
 

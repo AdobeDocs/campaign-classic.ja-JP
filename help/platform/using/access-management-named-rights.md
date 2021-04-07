@@ -4,16 +4,16 @@ product: campaign
 title: ネームド権限を使用した権限の設定
 description: ネームド権限を使用して権限を設定する方法を説明します
 feature: アクセス管理
-role: 営業者、管理者
-level: 初心者
+role: Business Practitioner, Administrator
+level: Beginner
+exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
 translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 97%
+source-wordcount: '564'
+ht-degree: 100%
 
 ---
-
 
 # ネームド権限を使用した権限の設定{#named-rights}
 

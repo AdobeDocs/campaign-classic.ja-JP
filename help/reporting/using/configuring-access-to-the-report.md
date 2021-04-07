@@ -6,11 +6,11 @@ description: レポートへのアクセスの設定
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 95%
 
 * 「**[!UICONTROL 単一選択]**」：レポートは、特定のエンティティが選択されたときにのみアクセス可能です。
 * 「**[!UICONTROL 複数選択]**」：レポートは、複数のエンティティが選択されたときにアクセスされます。
-* **[!UICONTROL グローバル]** :レポートは、「レポート」タブの使用可能なレポートのリストを通じてアク **** セスします。
+* **[!UICONTROL グローバル]**：レポートには、「**[!UICONTROL レポート]**」タブに表示される使用可能なレポートのリストからアクセスします。
 
 ### 表示順序 {#display-sequence}
 
@@ -63,7 +63,7 @@ ht-degree: 95%
 
 ### フィルターオプションの定義 {#defining-the-filtering-options}
 
-「**[!UICONTROL レポート]**」タブには、プラットフォームで使用可能なすべてのレポートが表示され、接続された演算子がアクセス権を持つすべてのレポートが表示されます。
+「**[!UICONTROL レポート]**」タブには、プラットフォームで使用可能で、かつ接続したオペレーターからアクセスできるすべてのレポートが表示されます。
 
 デフォルトでは、レポートは関連度の順に並べ替えられますが、他のタイプのフィルター（アルファベット順、年齢順など）を適用することもできます。
 

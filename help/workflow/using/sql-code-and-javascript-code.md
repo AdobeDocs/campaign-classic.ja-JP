@@ -6,11 +6,11 @@ description: SQL と JavaScript コードワークフローアクティビティ
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: add0efb4efd5a37129c649b942799622947f3143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 87%
 * **[!UICONTROL トランジション]**：アクティビティの出力トランジションを複数定義できます。
 * **[!UICONTROL スケジュール]**：「**[!UICONTROL スケジュール]**」タブでは、アクティビティをトリガーするタイミングをスケジュール設定できます。
 
-高度なJavaScriptは永続的なタスクで、完了とマークされていない場合は定期的に呼び出されます。 タスクを終了し、今後の呼び出しを防ぐには、**[!UICONTROL 次の呼び出し]**&#x200B;セクションで&#x200B;**タスク.setCompleted()**&#x200B;メソッドを使用する必要があります。
+高度な JavaScript は永続的なタスクであり、完了とマークされていない限り定期的に呼び出されます。 タスクを終了し、今後の再呼び出しを防ぐには、「**[!UICONTROL 次の呼び出し]**」セクションで **task.setCompleted()** メソッドを使用する必要があります。
 
 ```
 task.postEvent(task.transitionByName("ok")); // to transition to Ok branch

@@ -6,11 +6,11 @@ description: 共有接続の作成
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1048'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -138,7 +138,7 @@ ht-degree: 98%
 
 複数のコントロールインスタンスを使用するには、この設定をすべての実行インスタンスで実行する必要があります。
 
-1. **[!UICONTROL 管理／プロダクション／Message Center]** ノードにて、各オペレーターにつき 1 つのフォルダーを作成します。ここでは、**フォルダー 1** および&#x200B;**フォルダー 2** とします。フォルダと表示の作成について詳しくは、[このページ](../../platform/using/access-management-folders.md)を参照してください。
+1. **[!UICONTROL 管理／プロダクション／Message Center]** ノードにて、各オペレーターにつき 1 つのフォルダーを作成します。ここでは、**フォルダー 1** および&#x200B;**フォルダー 2** とします。フォルダーやビューの作成について詳しくは、[このページ](../../platform/using/access-management-folders.md)を参照してください。
 
    ![](assets/messagecenter_multi_control_3.png)
 

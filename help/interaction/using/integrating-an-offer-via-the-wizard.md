@@ -6,11 +6,11 @@ description: ウィザードモード
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 97%
 
 ![](assets/offer_delivery_009.png)
 
-ダイレクトメール配信[の詳細については、このセクション](../../delivery/using/about-direct-mail-channel.md)を参照してください。 マーケティングキャンペーン[の詳細については、この節](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
+ダイレクトメール配信の詳細については、[こちらの節](../../delivery/using/about-direct-mail-channel.md)を参照してください。 マーケティングキャンケーンの詳細については、 [こちらの節](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
 
 ### オファーを配信に挿入する主な手順 {#main-steps-for-inserting-an-offer-into-a-delivery}
 

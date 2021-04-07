@@ -6,14 +6,14 @@ description: Campaign Classic でインポートジョブを設定および実�
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
+exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
 translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '3201'
 ht-degree: 98%
 
 ---
-
 
 # インポートジョブの設定 {#executing-import-jobs}
 

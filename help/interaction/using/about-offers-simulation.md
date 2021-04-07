@@ -6,11 +6,11 @@ description: オファーのシミュレーションについて
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 94%
 
 オファーのシミュレーションを実行するには、次の手順に従います。
 
-1. 「**[!UICONTROL プロファイルとターゲット]**」タブで、「**[!UICONTROL シミュレーション]**」リンクをクリックし、「**[!UICONTROL 作成]**」ボタンをクリックします。
+1. 「**[!UICONTROL プロファイルとターゲット]**」タブで、「**[!UICONTROL シミュレーション]**」リンクをクリックしたあと、「**[!UICONTROL 作成]**」ボタンをクリックします。
 
    ![](assets/offer_simulation_001.png)
 

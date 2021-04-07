@@ -6,14 +6,14 @@ description: SMS コネクタの詳細と設定方法について説明します
 audience: delivery
 content-type: reference
 topic-tags: configuring-channels
+exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '8433'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # SMS コネクタのプロトコルと設定 {#sms-connector-protocol}
 
@@ -714,7 +714,7 @@ SR フィールド内の ID の `Extraction` 正規表現が十分に具体的�
 
 >[!IMPORTANT]
 >
->Adobe Campaign Classicおよびハイブリッドアーキテクチャでは、拡張SMPPコネクタに対して自動応答を適用するには、**外部アカウント**&#x200B;フォルダーのmid演算子の書き込みアクセスを追加する必要があります。
+>Adobe Campaign Classic およびハイブリッドアーキテクチャでは、拡張された SMPP コネクタに自動応答を適用するには、**外部アカウント**&#x200B;フォルダーに中間オペレーターの書き込みアクセス権を追加する必要があります。
 
 この機能を使用すると、MO にすばやくテキストを返信し、ショートコードごとのブロックリスト送信処理を実行できます。
 

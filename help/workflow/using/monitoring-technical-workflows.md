@@ -6,11 +6,11 @@ description: テクニカルワークフローの監視
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 
 ## インスタンスの監視ダッシュボード {#instance-monitoring-dashboard}
 
-インスタンス監視ダッシュボードは、「**[!UICONTROL 監視]**」タブからアクセスできます。
+インスタンス監視ダッシュボードには、「**[!UICONTROL 監視]**」タブからアクセスできます。
 
 ![](assets/monitoring_technical_workflows1.png)
 

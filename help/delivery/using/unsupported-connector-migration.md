@@ -1,35 +1,35 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: サポートされていないSMSコネクタの移行
-description: サポートされていないSMSコネクタを拡張汎用SMPPコネクタに移行する
+title: サポートされていない SMS コネクタの移行
+description: サポートされていない SMS コネクタの拡張汎用 SMPP コネクタへの移行
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 hidefromtoc: true
+exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
 translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
+# サポートされていない SMS コネクタの拡張汎用 SMPP コネクタへの移行{#unsupported-connector-migration}
 
-# サポートされていないSMSコネクタを拡張汎用SMPPコネクタ{#unsupported-connector-migration}に移行
-
-リリース20.2以降、レガシーコネクタは非推奨となります。 このドキュメントは、古いシステムでまだ実行中のコネクタを推奨のSMPPコネクタに移行する際に役立ちます。
+リリース 20.2 の時点で、従来のコネクタは非推奨（廃止予定）となっています。 このドキュメントは、古いシステムでまだ動作中のコネクタを推奨の SMPP コネクタに移行する際に役立ちます。
 
 >[!CAUTION]
 >
->この移行は必須ではありませんが、Adobeが推奨しているので、サポートされている最新バージョンのソフトウェアを確実に実行できます。
+>この移行は必須ではありませんが、推奨されています。この移行により、サポートされている最新バージョンのソフトウェアでの実行が保証されます。
 
-## SMSコネクタについて{#about-sms-connectors}
+## SMS コネクタについて {#about-sms-connectors}
 
-次のコネクタは、リリース20.2で非推奨となりました。
+次のコネクタは、リリース 20.2 で非推奨となりました。
 
-* **[!UICONTROL 汎用SMPP]** （バイナリモードをサポートするSMPPバージョン3.4）
-* **[!UICONTROL Sybase365]** (SAP SMS 365)
+* **[!UICONTROL 一般的な SMPP]**（バイナリモードをサポートする SMPP バージョン 3.4）
+* **[!UICONTROL Sybase365]** （SAP SMS 365）
 * **[!UICONTROL CLX Communications]**
 * **[!UICONTROL Tele2]**
 * **[!UICONTROL O2]**
@@ -37,44 +37,44 @@ ht-degree: 12%
 
 非推奨の機能は引き続き使用可能でサポートされますが、それ以上強化されることはありません。 **[!UICONTROL 拡張された汎用 SMPP]** コネクタの使用をお勧めします。
 
-廃止/削除された機能の詳細については、[ページ](../../rn/using/deprecated-features.md)を参照してください。
+非推奨および削除された機能の詳細については、[こちらのページ](../../rn/using/deprecated-features.md)を参照してください。
 
-古いSMSコネクタは、WebプロセスをオーバーロードするJava SMSコネクタを使用しています。 新しい&#x200B;**[!UICONTROL 拡張汎用SMPP]**&#x200B;コネクタに移行すると、この負荷はMTAに移動し、MTAがサポートするようになります。
+古い SMS コネクタは、Web プロセスに過大な負荷をかける Java SMS コネクタを使用しています。 新しい&#x200B;**[!UICONTROL 拡張された汎用 SMPP]** コネクタに移行すると、この負荷をサポートできる MTA に負荷が移動します。
 
-## 拡張汎用SMPPコネクタ{#migrating-extended-generic-smpp}への移行
+## 拡張された汎用 SMPP コネクタへの移行 {#migrating-extended-generic-smpp}
 
 >[!CAUTION]
 >
->パラメーターを転送できる場合でも、**[!UICONTROL 拡張汎用SMPP]**&#x200B;コネクターを設定するには、他のパラメーターの入力に必要な情報を提供するプロバイダーとの対話が必要です。 詳しくは、この[ページ](../../delivery/using/sms-protocol.md)を参照してください。
+>パラメーターの移行が可能な場合でも、**[!UICONTROL 拡張された汎用 SMPP]** コネクタを設定するには、残りのパラメーターの入力に必要な情報を提供するプロバイダーとの連携が必要です。 詳しくは、[こちらのページ](../../delivery/using/sms-protocol.md)を参照してください。
 
-最初に、新しい&#x200B;**[!UICONTROL 拡張汎用SMPP]**&#x200B;外部アカウントを作成し、その後一部のパラメータを転置できるようにする必要があります。 詳細な手順は、[ページ](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)に記載されています。
+まず、新しい「**[!UICONTROL 拡張された汎用 SMPP]**」外部アカウントを作成する必要があります。その後、場合によっては一部のパラメータを移行できます。 詳細な手順については、[こちらのページ](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)を参照してください。
 
-これで、新しく作成した&#x200B;**[!UICONTROL 拡張汎用SMPP]**&#x200B;外部アカウントの&#x200B;**[!UICONTROL モバイル]**&#x200B;タブから、以前のコネクタに応じてパラメータを入力する必要があります。
+新しく作成した「**[!UICONTROL 拡張された汎用 SMPP]**」外部アカウントの「**[!UICONTROL モバイル]**」タブから、以前のコネクタに応じてパラメーターを入力する必要があります。
 
-### 汎用コネクタ{#from-generic-connector}から
+### 汎用コネクタから {#from-generic-connector}
 
-**[!UICONTROL 汎用]**&#x200B;コネクタを選択する場合は、各状況に対応するカスタムJavaScriptコネクタが必要です。
+**[!UICONTROL 汎用]**&#x200B;コネクタを選択する場合は、それぞれの状況に適応するカスタム JavaScript コネクタが必要です。
 
-このコネクタが既にSMPPプロトコルを使用していることがわかっている場合は、**[!UICONTROL 拡張汎用SMPP]**&#x200B;コネクタに移行できます。 SMPPプロトコルがサポートされていない場合は、プロバイダに問い合わせて、コンサルタントの助けを借りて新しいコネクタをセットアップします。
+このコネクタが既に SMPP プロトコルを使用していることがわかっている場合は、**[!UICONTROL 拡張された汎用 SMPP]** コネクタに移行できます。 そうでない場合は、プロバイダーに SMPP プロトコルをサポートしているかどうかを確認し、コンサルタントの助けを借りて新しいコネクタを設定します。
 
-**[!UICONTROL 汎用]**&#x200B;コネクタから、新しく作成した&#x200B;**[!UICONTROL 拡張SMPP]**&#x200B;アカウントに転送できます。
+**[!UICONTROL 汎用]**&#x200B;コネクタから、新しく作成した「**[!UICONTROL 拡張された SMPP]**」アカウントに移行できます。
 
 ![](assets/smpp_generic.png)
 
-**[!UICONTROL 「Connection Settings]**」タブで、次の操作を行います。
+「**[!UICONTROL 接続設定]**」タブで以下を設定します。
 
 * **[!UICONTROL アカウント]**
 * **[!UICONTROL パスワード]**
 * **[!UICONTROL サーバー]**
 * **[!UICONTROL ポート]**
 
-### 汎用SMPPコネクタ{#from-generic-smpp-connector}から
+### 汎用 SMPP コネクタから {#from-generic-smpp-connector}
 
-**[!UICONTROL 汎用SMPP]**&#x200B;コネクタから、新しく作成した&#x200B;**[!UICONTROL 拡張SMPP]**&#x200B;アカウントに転送できます。
+**[!UICONTROL 汎用 SMPP]** コネクタから、新しく作成した「**[!UICONTROL 拡張された汎用 SMPP]**」アカウントに移行できます。
 
 ![](assets/smpp_generic_2.png)
 
-**[!UICONTROL 「Connection Settings]**」タブで、次の操作を行います。
+「**[!UICONTROL 接続設定]**」タブで以下を設定します。
 
 * **[!UICONTROL アカウント]**
 * **[!UICONTROL パスワード]**
@@ -82,7 +82,7 @@ ht-degree: 12%
 * **[!UICONTROL ポート]**
 * **[!UICONTROL システムタイプ]**
 
-**[!UICONTROL SMPPチャネル設定]**&#x200B;タブで、次の操作を行います。
+「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。
 
 * **[!UICONTROL ソース番号]**
 * **[!UICONTROL ソース NPI]**
@@ -90,22 +90,22 @@ ht-degree: 12%
 * **[!UICONTROL ソース TON]**
 * **[!UICONTROL 送信先 TON]**
 
-**[!UICONTROL 「Mapping of Encoding]**」タブで、次の操作を行います。
+「**[!UICONTROL エンコードのマッピング]**」タブで以下を設定します。 
 
 * **[!UICONTROL アウントバウンド SMS のコーディング]**
 
-**[!UICONTROL SMSC specificities]**&#x200B;タブで、次の操作を行います。
+「**[!UICONTROL SMSC 特異性]**」タブで以下を設定します。 
 
-* **[!UICONTROL MT確認で]** の **[!UICONTROL ID形式に対応する送信時のコーディング]**
-* **[!UICONTROL 受信時のコーディング]** がSRの **[!UICONTROL ID形式に対応]**
+* **[!UICONTROL 送信時のコーディング]**&#x200B;は **[!UICONTROL MT 確認の ID フォーマット]**&#x200B;に対応
+* **[!UICONTROL 受信時のコーディング]**&#x200B;は **[!UICONTROL SR の ID のフォーマット]**&#x200B;に対応
 
-### Sybase365コネクタ{#from-sybase}から
+### Sybase365 コネクタから {#from-sybase}
 
-**[!UICONTROL Sybase365]**&#x200B;コネクタから、新しく作成した&#x200B;**[!UICONTROL 拡張SMPP]**&#x200B;アカウントに転送できます。
+**[!UICONTROL Sybase365]** コネクタから、新しく作成した「**[!UICONTROL 拡張された汎用 SMPP]**」アカウントに移行できます。
 
 ![](assets/smpp_3.png)
 
-**[!UICONTROL 「Connection Settings]**」タブで、次の操作を行います。
+「**[!UICONTROL 接続設定]**」タブで以下を設定します。 
 
 * **[!UICONTROL アカウント]**
 * **[!UICONTROL パスワード]**
@@ -113,13 +113,13 @@ ht-degree: 12%
 * **[!UICONTROL ポート]**
 * **[!UICONTROL システムタイプ]**
 
-### CLXコネクタから{#from-clx}
+### CLX コネクタから {#from-clx}
 
-**[!UICONTROL CLX]**&#x200B;コネクタから、新しく作成した&#x200B;**[!UICONTROL 拡張SMPP]**&#x200B;アカウントに転送できます。
+**[!UICONTROL CLX]** コネクタから、新しく作成した「**[!UICONTROL 拡張された汎用 SMPP]**」アカウントに移行できます。
 
 ![](assets/smpp_4.png)
 
-**[!UICONTROL 「Connection Settings]**」タブで、次の操作を行います。
+「**[!UICONTROL 接続設定]**」タブで以下を設定します。 
 
 * **[!UICONTROL アカウント]**
 * **[!UICONTROL パスワード]**
@@ -127,22 +127,22 @@ ht-degree: 12%
 * **[!UICONTROL ポート]**
 * **[!UICONTROL システムタイプ]**
 
-**[!UICONTROL SMPPチャネル設定]**&#x200B;タブで、次の操作を行います。
+「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。
 
 * **[!UICONTROL ソース番号]**
 
-**[!UICONTROL SMSC specificities]**&#x200B;タブで、次の操作を行います。
+「**[!UICONTROL SMSC 特異性]**」タブで以下を設定します。 
 
-* **[!UICONTROL MT確認で]** の **[!UICONTROL ID形式に対応する送信時のコーディング]**
-* **[!UICONTROL 受信時のコーディング]** がSRの **[!UICONTROL ID形式に対応]**
+* **[!UICONTROL 送信時のコーディング]**&#x200B;は **[!UICONTROL MT 確認の ID フォーマット]**&#x200B;に対応
+* **[!UICONTROL 受信時のコーディング]**&#x200B;は **[!UICONTROL SR の ID のフォーマット]**&#x200B;に対応
 
-### Tele2コネクタから{#from-tele2}
+### Tele2 コネクタから {#from-tele2}
 
-**[!UICONTROL Tele2]**&#x200B;コネクタから、新しく作成した&#x200B;**[!UICONTROL 拡張SMPP]**&#x200B;アカウントに転送できます。
+**[!UICONTROL Tele2]** コネクタから、新しく作成した「**[!UICONTROL 拡張された汎用 SMPP]**」アカウントに移行できます。
 
 ![](assets/smpp_6.png)
 
-**[!UICONTROL 「Connection Settings]**」タブで、次の操作を行います。
+「**[!UICONTROL 接続設定]**」タブで以下を設定します。 
 
 * **[!UICONTROL アカウント]**
 * **[!UICONTROL パスワード]**
@@ -150,24 +150,24 @@ ht-degree: 12%
 * **[!UICONTROL ポート]**
 * **[!UICONTROL システムタイプ]**
 
-**[!UICONTROL SMPPチャネル設定]**&#x200B;タブで、次の操作を行います。
+「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。
 
 * **[!UICONTROL ソース番号]**
 * **[!UICONTROL ソース NPI]**
 * **[!UICONTROL 宛先の NPI]**
 * **[!UICONTROL ソース TON]**
 
-**[!UICONTROL 「Mapping of Encoding]**」タブで、次の操作を行います。
+「**[!UICONTROL エンコードのマッピング]**」タブで以下を設定します。 
 
 * **[!UICONTROL アウントバウンド SMS のコーディング]**
 
-### O2コネクタから{#from-O2}
+### O2 コネクタから {#from-O2}
 
-**[!UICONTROL O2]**&#x200B;コネクタから、新しく作成した&#x200B;**[!UICONTROL 拡張SMPP]**&#x200B;アカウントに転送できます。
+**[!UICONTROL O2]** コネクタから、新しく作成した「**[!UICONTROL 拡張された汎用 SMPP]**」アカウントに移行できます。
 
 ![](assets/smpp_5.png)
 
-**[!UICONTROL 「Connection Settings]**」タブで、次の操作を行います。
+「**[!UICONTROL 接続設定]**」タブで以下を設定します。 
 
 * **[!UICONTROL アカウント]**
 * **[!UICONTROL パスワード]**
@@ -175,7 +175,7 @@ ht-degree: 12%
 * **[!UICONTROL ポート]**
 * **[!UICONTROL システムタイプ]**
 
-**[!UICONTROL SMPPチャネル設定]**&#x200B;タブで、次の操作を行います。
+「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。
 
 * **[!UICONTROL ソース番号]**
 * **[!UICONTROL ソース NPI]**

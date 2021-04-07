@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: キャンペーン演算子の使用を開始する
-description: キャンペーンユーザーを作成および管理する方法について説明します。
+title: Campaign オペレーターの基本を学ぶ
+description: キャンペーンユーザーの作成および管理方法を説明します。
 feature: アクセス管理
-role: 営業者、管理者
-level: 初心者
+role: Business Practitioner, Administrator
+level: Beginner
+exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 97%
+source-wordcount: '1213'
+ht-degree: 100%
 
 ---
 
-
 # オペレーターの作成と管理 {#operators}
 
-## キャンペーン演算子の使用を開始する{#about-operators}
+## Campaign オペレーターの基本を学ぶ {#about-operators}
 
 オペレーターは、ログインしてアクションを実行する権限を持つ Adobe Campaign ユーザーです。
 
@@ -37,7 +37,7 @@ Adobe Campaign と LDAP の統合について詳しくは、[このページ](..
 
 Adobe ID を使用して Adobe Campaign に直接接続することもできます。詳しくは、この[ページ](../../integrations/using/about-adobe-id.md)を参照してください。
 
-## 演算子{#creating-an-operator}を作成します
+## オペレーターの作成 {#creating-an-operator}
 
 新しいオペレーターを作成し権限を付与するには、次の手順に従います。
 
@@ -77,7 +77,7 @@ Adobe ID を使用して Adobe Campaign に直接接続することもできま�
 >
 >「**[!UICONTROL セッションタイムアウト]**」フィールドでは、FDA セッションがタイムアウトするまでの遅延を調整できます。詳しくは、[Federated Data Access について](../../installation/using/about-fda.md)を参照してください。
 
-## 演算子のタイムゾーンを定義{#time-zone-of-the-operator}
+## オペレーターのタイムゾーンの定義 {#time-zone-of-the-operator}
 
 「**[!UICONTROL 一般]**」タブでは、オペレーターのタイムゾーンを選択できます。オペレーターは、デフォルトではサーバーのタイムゾーンで作業します。このドロップダウンリストから別のタイムゾーンを選択することもできます。
 
@@ -91,7 +91,7 @@ Adobe ID を使用して Adobe Campaign に直接接続することもできま�
 
 また、「**[!UICONTROL 地域設定]**」ドロップダウンリストでは、日付や数値を表示する書式を選択できます。
 
-## 追加権限{#access-rights-options}
+## 権限の追加 {#access-rights-options}
 
 オペレーターに関連付けられたグループとネームド権限を更新するには、「**[!UICONTROL アクセス権]**」タブを使用します。
 
@@ -127,7 +127,7 @@ Adobe ID を使用して Adobe Campaign に直接接続することもできま�
    >
    >これは非常に強い制限です。使用の際は十分注意してください。この種の権利を持つオペレーターがログインした場合は、ここで指定されたフォルダーの内容だけが表示され、ツリー内の他のノードにエクスプローラーでアクセスすることはできません。ただし、アクセスする機能の種類によっては（ワークフローなど）、通常見ることができないノード内のデータも表示されることがあります。
 
-### 設定の確認{#check-settings}
+### 設定の確認 {#check-settings}
 
 「**[!UICONTROL 監査]**」タブでは、オペレーターに関係する情報を参照できます。そのオペレーターが関与する領域内の設定内容に応じて、様々なタブが自動的に追加されます。
 

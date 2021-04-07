@@ -6,11 +6,11 @@ description: 指標の作成
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 97%
 
 手順は次のとおりです。
 
-1. 「**[!UICONTROL レポート]**」タブの「**[!UICONTROL 作成]**」ボタンをクリックし、先ほど作成したキューブを選択します。
+1. 「**[!UICONTROL レポート]**」タブの「**[!UICONTROL 作成]**」ボタンをクリックし、作成したキューブを選択します。
 
    ![](assets/s_advuser_cube_wz_14.png)
 

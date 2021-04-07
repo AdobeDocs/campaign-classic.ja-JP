@@ -6,11 +6,11 @@ description: マーケティングキャンペーン配信の詳細
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1552'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 97%
 
 ## 関連付けられたドキュメントの管理 {#managing-associated-documents}
 
-レポート、写真、Web ページ、ダイアグラムなど、様々なドキュメントをキャンペーンに関連付けることができます。これらのドキュメントには、あらゆるフォーマット（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDF など）を使用できます。この節](../../campaign/using/marketing-campaign-assets.md)では、ドキュメントをキャンペーン[にリンクする方法を説明します。
+レポート、写真、Web ページ、ダイアグラムなど、様々なドキュメントをキャンペーンに関連付けることができます。これらのドキュメントには、あらゆるフォーマット（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDF など）を使用できます。ドキュメントをキャンペーンにリンクする方法については、](../../campaign/using/marketing-campaign-assets.md)こちらの節[を参照してください。
 
 >[!IMPORTANT]
 >
@@ -199,7 +199,7 @@ ht-degree: 97%
 
    ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* リソースは、**[!UICONTROL キャンペーン]**&#x200B;タブの&#x200B;**[!UICONTROL リソース]**&#x200B;リンクを介してアクセスされるマーケティングリソースダッシュボードで生成されるマーケティングリソースです。
+* リソースは、「**[!UICONTROL キャンペーン]** 」タブの「**[!UICONTROL リソース]**」リンクからアクセスできるマーケティングリソースダッシュボードで生成されたマーケティングリソースです。
 
    ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
@@ -237,8 +237,8 @@ ht-degree: 97%
 
 #### チュートリアルビデオ {#create-email-video}
 
-このビデオでは、Adobe Campaignでキャンペーンと電子メールを作成する方法を説明します。
+このビデオでは、Adobe Campaign でキャンペーンと E メールを作成する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
-Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign に関するその他のハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)から入手できます。

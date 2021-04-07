@@ -6,11 +6,11 @@ description: タスクの作成と管理
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3901'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 タスクはキャンペーンに紐付いており、依存関係（関連タスクなど）も設定できます。各タスクにはステータス、優先順位、推定ワークロードおよび関連コストがあります。
 
-すべてのタスクは、**「キャンペーン**」タブからアクセスできるリストにグループ化されます。 詳しくは、[タスクへのアクセス](#accessing-tasks)を参照してください。
+すべてのタスクは、「**キャンペーン** 」タブからアクセスできるリストにグループ化されています。 詳しくは、[タスクへのアクセス](#accessing-tasks)を参照してください。
 
 タスクは、タスクが属するプログラムのスケジュールに表示できます。
 
@@ -57,7 +57,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 ## 新規タスクの作成 {#creating-a-new-task}
 
-タスクを作成するには、「**[!UICONTROL タスク]**」タブの「**[!UICONTROL キャンペーン]**」リンクをクリックし、「**[!UICONTROL 作成]**」を選択します。
+タスクを作成するには、「**[!UICONTROL キャンペーン]**」タブで「**[!UICONTROL タスク]**」リンクをクリックして、「**[!UICONTROL 作成]**」を選択します。
 
 ![](assets/s_ncs_user_task_create_new.png)
 

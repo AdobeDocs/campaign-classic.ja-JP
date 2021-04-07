@@ -6,14 +6,14 @@ description: SMSチャネルの使用を開始する
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
+exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
 translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 31%
 
 ---
-
 
 # SMSチャネルの使用を開始する{#sms-channel}
 
@@ -43,4 +43,3 @@ SMSを送信する主な手順は次のとおりです。
 >また、Adobe Campaign では、**Adobe Campaign モバイルアプリチャネル（NMAC）**&#x200B;オプションを使用してモバイル端末に通知を送信することもできます。
 > 
 >詳しくは、「[モバイルアプリのチャネルを使い始める](../../delivery/using/about-mobile-app-channel.md)」の節を参照してください。
-

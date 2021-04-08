@@ -5,14 +5,14 @@ title: イベントの設定
 description: カスタム実装用のイベントの設定方法を説明します
 audience: integrations
 content-type: reference
-translation-type: ht
-source-git-commit: d6327cb5307ab5d37c15afa45dfd180ef04cb5a2
-workflow-type: ht
+exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
+translation-type: tm+mt
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
+workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 100%
 
 ---
-
 
 # カスタム実装用のイベントの設定 {#events}
 
@@ -217,7 +217,7 @@ triggerType フィールドは、データの発生元となるトリガーを�
 
 >[!NOTE]
 >
->パイプラインイベントノードは組み込まれておらず、追加する必要があります。また、関連フォームも Campaign で作成する必要があります。これらの操作は、エキスパートユーザーのみに制限されます。詳細については、[ナビゲーション階層](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy) および [フォームの編集](../../configuration/using/editing-forms.md)を参照してください。
+>パイプラインイベントノードは組み込まれておらず、追加する必要があります。また、関連フォームも Campaign で作成する必要があります。これらの操作は、エキスパートユーザーのみに制限されます。詳細については、[ナビゲーション階層](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy) および [フォームの編集](../../configuration/using/editing-forms.md)を参照してください。
 
 ![](assets/triggers_7.png)
 

@@ -4,16 +4,16 @@ product: campaign
 title: アップグレードの基本を学ぶ
 description: Campaign Classic アップグレードの詳細
 feature: 概要
-role: ビジネス従事者
-level: 初心者
+role: Business Practitioner
+level: Beginner
+exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 translation-type: tm+mt
-source-git-commit: 7b1e6dd00943e10dff693d78b3aa7cf2ad3e6727
+source-git-commit: 2c47a3e42260a0f04d2c9a665f28c532212997f8
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '415'
 ht-degree: 93%
 
 ---
-
 
 # アップグレードの基本を学ぶ{#rn-overview}
 
@@ -29,7 +29,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ![](assets/do-not-localize/green3.png) **一般提供**（GA） - 実稼働環境で検証済みで、Adobe が推奨します。
 
-**最新の GA ビルド**&#x200B;は、[[!DNL Gold Standard]  11 リリース](../../rn/using/gold-standard.md#gs-11)および [Campaign 20.2.4 リリース](../../rn/using/release--20-2.md#release-20-2-4-build-9187)です
+**最新の GA ビルド**&#x200B;は、[[!DNL Gold Standard]  11 リリース](../../rn/using/gold-standard.md#gs-11)および [Campaign 20.2.5 リリース](../../rn/using/release--20-2.md#release-20-2-4-build-9187)です
 
 ![](assets/do-not-localize/limited3.png) **限定提供**（LA） - オンデマンドデプロイメントのみ。
 
@@ -51,7 +51,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ホスト型顧客（マネージドサービスまたはハイブリッド）は、環境をアップグレードするには、カスタマーケアに連絡する必要があります。
 
-オンプレミスユーザーは、アップグレードを実行できます。これをおこなうには、[最新の安定したビルドをダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)して、すべての環境をアップグレードする必要があります。[アップグレードプロセス](../../production/using/build-upgrade.md)の詳細については、[ビルドアップグレードの FAQ](../../platform/using/faq-build-upgrade.md) を参照してください。
+オンプレミスユーザーは、アップグレードを実行できます。これをおこなうには、[最新の安定したビルドをダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)して、すべての環境をアップグレードする必要があります。[アップグレードプロセス](../../production/using/build-upgrade.md)の詳細については、[ビルドアップグレードの FAQ](../../platform/using/faq-build-upgrade.md) を参照してください。
 
 ### [!DNL Gold Standard]{#upgrade-for-gold-standard-users}
 

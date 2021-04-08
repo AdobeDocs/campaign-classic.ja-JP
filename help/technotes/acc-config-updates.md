@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 translation-type: tm+mt
-source-git-commit: 2c47a3e42260a0f04d2c9a665f28c532212997f8
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 99%
+source-wordcount: '1107'
+ht-degree: 96%
 
 ---
 
@@ -117,7 +117,6 @@ Adobe Identity Management サービス（IMS）を通じて ](../integrations/us
 
 * Gold Standard 11。 [詳細情報](../rn/using/gold-standard.md)
 * Campaign 21.1.1 リリース。 [詳細情報](../rn/using/latest-release.md)
-* Campaign 20.3.3 リリース。 [詳細情報](../rn/using/release--20-3.md)
 * Campaign 20.2.5 リリース。 [詳細情報](../rn/using/release--20-2.md)
 * Campaign 19.1.8 リリース。 [詳細情報](../rn/using/release--19-1.md)
 
@@ -135,7 +134,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../integrations/us
 
 ### HTTP/2 ベースの APNs プロバイダー API
 
-Apple プッシュ通知サービス（APNs）は、**2021 年 3 月 31 日**&#x200B;をもって、従来のバイナリプロトコルをサポートしなくなります。 [詳細情報](https://developer.apple.com/news/?id=c88acm2b)。
+**2021年3月31日**&#x200B;以降、Apple Push Notification Service(APNs)は、従来のバイナリプロトコルをサポートしなくなりました。 [詳細情報](https://developer.apple.com/news/?id=c88acm2b)。
 
 **影響の有無**
 
@@ -151,7 +150,7 @@ Apple プッシュ通知サービス（APNs）は、**2021 年 3 月 31 日**&#x
 
 ### APNs ルート証明書の更新
 
-2021 年 3 月 29 日の Apple プッシュ通知サービス（APNs）インフラストラクチャの更新は、Adobe Campaign Classic iOS チャネルに影響を与えます。 iOS のプッシュチャネルの停止を回避するには、OS 設定の変更が&#x200B;**必須**&#x200B;です。
+2021年3月29日に、Apple Push Notification Service(APNs)インフラストラクチャの更新により、Adobe Campaign ClassiciOSのチャネルに影響が出ました。 iOS のプッシュチャネルの停止を回避するには、OS 設定の変更が&#x200B;**必須**&#x200B;です。
 
 APNs 変更の詳細については、[このページ](https://developer.apple.com/news/?id=7gx0a2lp)を参照してください。
 

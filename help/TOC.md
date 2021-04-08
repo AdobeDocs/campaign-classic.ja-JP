@@ -7,11 +7,11 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: チャネルをまたいだマーケティングキャンペーンを設計、計画、実行、管理、および最適化して、高いマーケティング投資回収率を実現します。
 solution: Campaign Classic
 sub-product: Adobe Campaign Classic
-type: ドキュメント
+type: Documentation
 translation-type: tm+mt
-source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
-source-wordcount: '2481'
+source-wordcount: '2483'
 ht-degree: 98%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 98%
       + [Adobe Campaign の起動](platform/using/launching-adobe-campaign.md)
       + Adobe Campaign のワークスペース{#campaign-workspace}
          + [Campaign UI の基本を学ぶ](platform/using/adobe-campaign-workspace.md)
+         + [キャンペーンエクスプローラを使用](platform/using/adobe-campaign-explorer.md)
          + [リストの参照とカスタマイズ](platform/using/adobe-campaign-ui-lists.md)
       + よくある質問（FAQ） {#faq}
          + [よくある質問](platform/using/common-questions.md)

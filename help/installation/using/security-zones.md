@@ -6,20 +6,30 @@ description: セキュリティゾーンの構成方法
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 830ec0ed80fdc6e27a8cc782b0e4b79abf033450
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 0%
+source-wordcount: '1044'
+ht-degree: 1%
 
 ---
 
 
-# セキュリティゾーンの定義{#defining-security-zones}
+# セキュリティゾーンの定義 {#defining-security-zones}
 
 各オペレーターは、インスタンスにログオンするためにゾーンにリンクされている必要があります。また、セキュリティゾーンに定義されているアドレスまたはアドレスセットに、オペレーターIPを含める必要があります。 セキュリティゾーンの設定は、Adobe Campaignサーバーの設定ファイルで行われます。
 
-演算子は、コンソールのプロファイル（**[!UICONTROL 管理/アクセス管理/演算子]**&#x200B;ノード）からセキュリティゾーンにリンクされます。 [このセクション](#linking-a-security-zone-to-an-operator)で、ゾーンをキャンペーン演算子にリンクする方法を説明します。
+演算子は、コンソールのプロファイルからセキュリティゾーンにリンクされ、**[!UICONTROL [管理] > [アクセス管理] > [演算子]]**&#x200B;ノードからアクセスできます。 [詳細情報](#linking-a-security-zone-to-an-operator)。
+
+>[!NOTE]
+>
+>この手順は、**オンプレミス**&#x200B;のデプロイメントに制限されます。
+>
+>**ホスト**&#x200B;のお客様として、[キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)にアクセスできる場合は、セキュリティゾーンセルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
+>
+>その他の&#x200B;**ハイブリッド/ホスト**&#x200B;のお客様は、Adobeに連絡して、自分のインスタンスのセキュリティゾーンを設定する必要があります。
+
 
 ## セキュリティゾーンの作成{#creating-security-zones}
 

@@ -4,14 +4,14 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 製品ドキュメント
 topic: Premium
+exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 translation-type: tm+mt
-source-git-commit: 9f1c4110ef49c87719f1cc84ad08f687865561d1
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 99%
+source-wordcount: '294'
+ht-degree: 95%
 
 ---
-
 
 # ヘルプセンター {#campaign-classic-documentation}
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 ## 新着情報
 
-* **[APN 証明書のアップデート](technotes/ios-certificate-update.md)**<br/> 2021 年 3 月 29 日、APN のアップデートにより、Campaign iOS チャネルが影響を受けます。iOS のプッシュチャネルが機能しなくなるのを防ぐために、設定を更新する必要があります。
+* **[APNs](technotes/ios-certificate-update.md)**<br/> 証明書の更新2021年3月29日に、APNsの更新がキャンペーンiOSチャネルに影響を与えました。iOS のプッシュチャネルが機能しなくなるのを防ぐために、設定を更新する必要があります。
 
 * **[IMS／Adobe ID を使用した接続最新ビルドへのアップグレード](integrations/using/about-adobe-id.md)**<br/> IMS を使用して Campaign に接続している場合、** 2021 年 6 月 30 日&#x200B;**以降も、Campaign に接続できるようにするには、アップグレードが必要です。
 

@@ -6,14 +6,14 @@ description: インターフェイスの設定
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
+exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 translation-type: tm+mt
-source-git-commit: d6327cb5307ab5d37c15afa45dfd180ef04cb5a2
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 3%
 
 ---
-
 
 # インターフェイスの設定{#configuring-the-interface}
 
@@ -70,7 +70,7 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
 
    >[!NOTE]
    >
-   >**navtree**&#x200B;タイプのファイルについて詳しくは、[このページ](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy)を参照してください。
+   >**navtree**&#x200B;タイプのファイルについて詳しくは、[このページ](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy)を参照してください。
 
    現在の例では、**navtree**&#x200B;ファイルは&#x200B;**cus:individual**&#x200B;スキーマに基づいている必要があり、次の形式になっています。
 
@@ -91,4 +91,3 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
    ```
 
 1. 作成を保存します。
-

@@ -6,14 +6,14 @@ description: ワークフローヒートマップで Campaign ワークフロー
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 translation-type: tm+mt
-source-git-commit: d34435b0b8714a87add6a5e3f82e4f94376f205b
+source-git-commit: 5b1c4426a0d59861aa61a7e53154b9adfda31d71
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1179'
 ht-degree: 100%
 
 ---
-
 
 # ワークフローヒートマップ {#workflow-heatmap}
 
@@ -40,7 +40,7 @@ Adobe Campaign ワークフローヒートマップは、現在実行中のす�
 
 ワークフローヒートマップを使用するには、[ワークフロー](../../workflow/using/about-workflows.md)、[アクティビティ](../../workflow/using/about-activities.md)および[ワークフローのベストプラクティス](../../workflow/using/workflow-best-practices.md)の概念を十分に理解しておく必要があります。
 
-ワークフローヒートマップは、Adobe Campaign の 18.10 リリースからデフォルトで使用できます。8700 から 8977（18.10）のビルドをご使用の場合も、この機能を利用できます。対応するパッケージをリクエストするには[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。パッケージのインストール方法を理解するには、[このページ](https://helpx.adobe.com/jp/campaign/kb/install-workflow-heatmap-package.html)の指示に従ってください。
+<!--The Workflow HeatMap is available by default in Adobe Campaign starting 18.10 release. If you have a build between 8700 and 8977 (18.10), you can also benefit from this capability. To request the corresponding package, contact the [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) and follow the instructions from [this page](https://helpx.adobe.com/campaign/kb/install-workflow-heatmap-package.html) to understand how to install it.-->
 
 ## ヒートマップの使用 {#using-the-heatmap}
 

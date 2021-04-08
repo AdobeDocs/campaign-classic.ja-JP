@@ -6,20 +6,20 @@ description: 設定
 audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
+exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 translation-type: tm+mt
-source-git-commit: 4a17b25516bd9cec409a16cff1e336c13f0df5a4
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 2%
 
 ---
 
-
 # キャンペーンエクスプローラーのナビゲーションツリーを構成{#configuration}
 
 エキスパートユーザーは、エクスプローラツリーでフォルダを追加し、カスタマイズできます。
 
-キャンペーンエクスプローラーとナビゲーションの階層[について詳しくは、このセクション](../../platform/using/adobe-campaign-workspace.md#about-navigation-hierarchy)を参照してください。
+キャンペーンエクスプローラーとナビゲーションの階層[について詳しくは、このセクション](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy)を参照してください。
 
 ナビゲーションリストが使用するフォルダーの種類は、**xtk:navtree**&#x200B;スキーマの文法に従うXMLドキュメントで記述されています。
 
@@ -312,4 +312,3 @@ XMLドキュメントには、ドキュメント名と名前空間を指定す�
 ...
 </nodeModel>
 ```
-

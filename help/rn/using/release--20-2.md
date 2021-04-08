@@ -4,24 +4,22 @@ product: campaign
 title: リリース 20.2
 description: リリース 20.2
 feature: 概要
-role: ビジネス従事者
-level: 初心者
+role: Business Practitioner
+level: Beginner
+exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 translation-type: tm+mt
-source-git-commit: a25f9464a762defa5d9a3b45bb60a387c65b7c97
+source-git-commit: 65662a49aefdd6b5f85b39677908696f093779e8
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2835'
 ht-degree: 92%
 
 ---
 
-
 # リリース 20.2{#release-20-2}
-
-![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://docs.adobe.com/content/help/ja/control-panel/using/release-notes.html)。
 
 ## ![](assets/do-not-localize/green_2.png) リリース 20.2.5 - ビルド 9188 {#release-20-2-5-build-9188}
 
-_2020 年 3 月 31 日_
+_2021 年 3 月 31 日_
 
 **改善点**
 
@@ -63,6 +61,8 @@ _2020 年 12 月 22 日_
 * マーケティングインスタンスに大きなコアダンプファイルを生成していた POSIX スレッド管理の問題を修正しました。（NEO-28117、NEO-29281）
 * 配信の準備中、または配信のプレビューが繰り返し発生している場合に、web プロセスがクラッシュする可能性がある問題を修正しました。（NEO-27790、NEO-27517）
 * 管理者以外のオペレーターによってトリガーされた場合に、配信または配達確認の送信が失敗する問題を修正しました。（NEO-28597）
+
+![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
 
 ## ![](assets/do-not-localize/red_2.png) リリース 20.2.3 - ビルド 9182 {#release-20-2-3-build-9182}
 

@@ -8,10 +8,10 @@ role: Business Practitioner, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 translation-type: tm+mt
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
 workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 77%
+ht-degree: 79%
 
 ---
 
@@ -79,11 +79,11 @@ Adobe Campaign では、作成、インポート、ターゲティング、ア�
 
 ![](assets/d_ncs_user_interface01.png)
 
-Adobe Campaignエクスプローラーの一般的なレイアウトは、[このセクション](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)に示されています。
+Adobe Campaignエクスプローラーの一般的なレイアウトは、[このページ](../../platform/using/adobe-campaign-explorer.md)に表示されます。
 
 >[!NOTE]
 >
->**[!UICONTROL プロファイルとターゲット／受信者]**&#x200B;リンクをクリックして、Adobe Campaign ツリーからこのリストの詳細ビューを表示することもできます。リスト表示は、ニーズに合わせて設定できます。列の追加または削除、列の順序の定義、データの並べ替えなどをおこなうことができます。リスト表示の設定については、[このセクション](../../platform/using/adobe-campaign-workspace.md#using-adobe-campaign-explorer)で説明します。
+>**[!UICONTROL プロファイルとターゲット／受信者]**&#x200B;リンクをクリックして、Adobe Campaign ツリーからこのリストの詳細ビューを表示することもできます。リスト表示は、ニーズに合わせて設定できます。列の追加または削除、列の順序の定義、データの並べ替えなどをおこなうことができます。リスト表示の設定については、[このページ](../../platform/using/adobe-campaign-ui-lists.md)で説明しています。
 >
 >受信者ビューを定義することもできます。この機能の詳細については、[この](../../platform/using/access-management-folders.md)を参照してください。
 
@@ -97,7 +97,7 @@ AWSでホストしている場合は、インスタンスで使用されるア�
 
 >[!NOTE]
 >
->Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
+>コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=jp#discover-control-panel)を参照してください。
 >
 >インスタンスはAWSでホストされ、最新の[Gold Standard](../../rn/using/gs-overview.md)ビルドまたは[最新のGAビルド(21.1)](../../rn/using/latest-release.md)でアップグレードする必要があります。 [このセクション](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)でバージョンを確認する方法を説明します。 インスタンスがAWSでホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)に記載されている手順に従ってください。
 

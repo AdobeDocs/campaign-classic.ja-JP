@@ -6,14 +6,14 @@ description: プライバシーリクエストの管理方法について説明�
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: 5b1c4426a0d59861aa61a7e53154b9adfda31d71
 workflow-type: tm+mt
-source-wordcount: '2591'
+source-wordcount: '2562'
 ht-degree: 100%
 
 ---
-
 
 # プライバシーリクエストの管理 {#privacy-requests}
 
@@ -21,11 +21,9 @@ ht-degree: 100%
 
 この情報は、GDPR、CCPA、PDPA、LGPD に適用されます。これらの規制について詳しくは、[こちら](../../platform/using/privacy-management.md#privacy-management-regulations)を参照してください。
 
-個人情報の販売のオプトアウト（CCPA に特有）については、[こちら](#sale-of-personal-information-ccpa)を参照してください。
+個人情報の販売のオプトアウト（CCPA に特有）については、[この節](#sale-of-personal-information-ccpa)を参照してください。
 
->[!IMPORTANT]
->
->このドキュメントで説明されているインストール手順は Campaign Classic 18.4（ビルド 8931 以降）以降に適用されます。以前のバージョンを使用している場合は、この[テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html)を参照してください。
+<!--Installation procedures described in this document are applicable starting Campaign Classic 18.4 (build 8931+). If you are running on a previous version, refer to this [technote](https://helpx.adobe.com/campaign/kb/how-to-install-gdpr-package-on-legacy-versions.html).-->
 
 ## プライバシーリクエストについて {#about-privacy-requests}
 

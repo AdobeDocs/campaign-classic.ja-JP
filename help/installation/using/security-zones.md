@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 translation-type: tm+mt
-source-git-commit: 830ec0ed80fdc6e27a8cc782b0e4b79abf033450
+source-git-commit: e31d386af4def80cdf258457fc74205b1ca823b3
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 1%
+source-wordcount: '1493'
+ht-degree: 26%
 
 ---
 
 
-# セキュリティゾーンの定義 {#defining-security-zones}
+# セキュリティゾーンの定義（オンプレミス）{#defining-security-zones}
 
 各オペレーターは、インスタンスにログオンするためにゾーンにリンクされている必要があります。また、セキュリティゾーンに定義されているアドレスまたはアドレスセットに、オペレーターIPを含める必要があります。 セキュリティゾーンの設定は、Adobe Campaignサーバーの設定ファイルで行われます。
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 >
 >**ホスト**&#x200B;のお客様として、[キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)にアクセスできる場合は、セキュリティゾーンセルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
 >
->その他の&#x200B;**ハイブリッド/ホスト**&#x200B;のお客様は、Adobeに連絡して、自分のインスタンスのセキュリティゾーンを設定する必要があります。
+>他の&#x200B;**ハイブリッド/ホスト型**&#x200B;お客様は、IPを許可リストに追加するために、Adobeサポートチームに連絡する必要があります。
 
 
 ## セキュリティゾーンの作成{#creating-security-zones}
@@ -36,7 +36,7 @@ ht-degree: 1%
 ゾーンは次の方法で定義します。
 
 * 1つ以上のIPアドレスの範囲（IPv4およびIPv6）
-* IPアドレスの各範囲にリンクされた技術名
+* IPアドレスの各範囲に関連付けられた技術的な名前
 
 セキュリティゾーンは相互にロックされています。つまり、別のゾーンに新しいゾーンを定義すると、各オペレータに割り当てられる権限を増やしながら、そのゾーンにログオンできるオペレータの数が減ります。
 
@@ -218,3 +218,36 @@ Adobe Campaignサーバーにアクセスする可能性の高いプロキシの
    ![](assets/zone_operator_selection.png)
 
 1. 「**[!UICONTROL OK]**」をクリックし、変更を保存してこれらの変更を適用します。
+
+
+
+## 推奨事項
+
+* subNetwork でリバースプロキシが許可されていないことを確認します。許可されている場合は、**すべての**&#x200B;トラフィックがこのローカル IP から来ているものとして検出され、信頼されます。
+
+* sessionTokenOnly=&quot;true&quot; の使用は最小限に抑えます。
+
+   * 警告：この属性がtrueに設定されている場合、演算子は&#x200B;**CRSF攻撃**&#x200B;にさらされる可能性があります。
+   * さらに、sessionToken cookie に httpOnly フラグが設定されていないので、一部のクライアント側 JavaScript コードがこれを読み取れる可能性があります。
+   * ただし、複数の実行セルで Message Center が sessionTokenOnly を必要とします。新しいセキュリティゾーンを作成し、sessionTokenOnly を true に設定して、**必要な IP のみ**&#x200B;をこのゾーンに追加します。
+
+* 可能な場合は、allowHTTPとshowErrorsをすべてfalseに設定し（localhostではなく）、確認します。
+
+   * allowHTTP = &quot;false&quot;：オペレーターは HTTPS を使用することを強制されます。
+   * showErrors = &quot;false&quot;：技術的エラー（SQL エラーなど）を非表示にします。これにより、表示される情報の量を抑えられますが、マーケターが（管理者に追加情報を要求することなしに）問題を解決することが難しくなります。
+
+* 調査、webApp、レポートを作成（実際にはプレビュー）する必要があるマーケティングユーザーまたは管理者が使用する IP に対してのみ、allowDebug を true に設定します。このフラグを使用すると、これらの IP でリレールールが表示され、デバッグできるようになります。
+
+* allowEmptyPassword、allowUserPassword、allowSQLInjection は決して true に設定しないでください。これらの属性は、v5 や v6.0 からの移行のためだけにあります。
+
+   * **allowEmptyPassword** を使用すると、オペレーターは空のパスワードを設定できます。この属性を使用する場合、すべてのオペレーターに所定の期限までにパスワードを設定するよう通知してください。この期限を経過したら、この属性を false に設定します。
+
+   * **allowUserPassword** を使用すると、オペレーターは資格情報をパラメーターとして送信できます（この情報は、Apache、IIS、プロキシでログに記録されます）。この機能は、以前に API の使用を簡素化するために使用されていました。クックブック（または仕様）で、サードパーティのアプリケーションがこれを使用していないかをチェックできます。使用されている場合、API の使用方法を変更して、なるべく早くこの機能を削除するよう通知する必要があります。
+
+   * **allowSQLInjection** を使用すると、ユーザーは古い構文を使用した SQL インジェクションを実行できます。[このページ](../../migration/using/general-configurations.md)で説明されている修正をできるだけ早く行い、この属性をfalseに設定できるようにします。 /nl/jsp/ping.jsp?zones=true を使用すると、セキュリティゾーン設定をチェックできます。このページには、現在の IP のセキュリティ対策のアクティブステータス（これらのセキュリティフラグで計算）が表示されます。
+
+* HttpOnly cookie／useSecurityToken：**sessionTokenOnly** フラグを参照してください。
+
+* 許可リストに追加する IP を最小限に抑える：セキュリティゾーンには、既にプライベートネットワーク用の 3 つの範囲が追加されています。通常、これらの IP アドレスをすべて使用することはありません。そのため、必要なもののみを保持するようにしてください。
+
+* webApp／内部オペレーターを更新して、localhost でのみアクセス可能となるようにしてください。

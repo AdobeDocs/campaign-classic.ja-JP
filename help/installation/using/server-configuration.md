@@ -6,58 +6,16 @@ description: サーバー設定のベストプラクティスの詳細を表示�
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 translation-type: tm+mt
-source-git-commit: 564eaedb09282c85593f638617baded0a63494a0
+source-git-commit: e31d386af4def80cdf258457fc74205b1ca823b3
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '623'
 ht-degree: 73%
 
 ---
 
-
 # サーバー設定 {#server-configuration}
-
-## セキュリティゾーンの設定
-
-8977以降では、セキュリティゾーンのセルフサービスユーザーインターフェイスは使用できなくなりました。 AWS でホストされていない場合は、アドビのサポートチームに連絡し、IP を許可リストに追加してもらってください。それ以外の場合は、許可リストへのIPの追加は[Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)で行う必要があります。
-
-インスタンスがAWSでホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)に記載されている手順に従ってください。
-
->[!NOTE]
-> 
->Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
->
->インスタンスはAWSでホストされ、最新の[Gold Standard](../../rn/using/gs-overview.md)ビルドまたは[最新のGAビルド(21.1)](../../rn/using/latest-release.md)でアップグレードする必要があります。 [このセクション](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)でバージョンを確認する方法を説明します。
-
-
-* subNetwork でリバースプロキシが許可されていないことを確認します。許可されている場合は、**すべての**&#x200B;トラフィックがこのローカル IP から来ているものとして検出され、信頼されます。
-
-* sessionTokenOnly=&quot;true&quot; の使用は最小限に抑えます。
-
-   * 警告：この属性がtrueに設定されている場合、演算子は&#x200B;**CRSF攻撃**&#x200B;にさらされる可能性があります。
-   * さらに、sessionToken cookie に httpOnly フラグが設定されていないので、一部のクライアント側 JavaScript コードがこれを読み取れる可能性があります。
-   * ただし、複数の実行セルで Message Center が sessionTokenOnly を必要とします。新しいセキュリティゾーンを作成し、sessionTokenOnly を true に設定して、**必要な IP のみ**&#x200B;をこのゾーンに追加します。
-
-* 可能な場合は、allowHTTPとshowErrorsをすべてfalseに設定し（localhostではなく）、確認します。
-
-   * allowHTTP = &quot;false&quot;：オペレーターは HTTPS を使用することを強制されます。
-   * showErrors = &quot;false&quot;：技術的エラー（SQL エラーなど）を非表示にします。これにより、表示される情報の量を抑えられますが、マーケターが（管理者に追加情報を要求することなしに）問題を解決することが難しくなります。
-
-* 調査、webApp、レポートを作成（実際にはプレビュー）する必要があるマーケティングユーザーまたは管理者が使用する IP に対してのみ、allowDebug を true に設定します。このフラグを使用すると、これらの IP でリレールールが表示され、デバッグできるようになります。
-
-* allowEmptyPassword、allowUserPassword、allowSQLInjection は決して true に設定しないでください。これらの属性は、v5 や v6.0 からの移行のためだけにあります。
-
-   * **allowEmptyPassword** を使用すると、オペレーターは空のパスワードを設定できます。この属性を使用する場合、すべてのオペレーターに所定の期限までにパスワードを設定するよう通知してください。この期限を経過したら、この属性を false に設定します。
-
-   * **allowUserPassword** を使用すると、オペレーターは資格情報をパラメーターとして送信できます（この情報は、Apache、IIS、プロキシでログに記録されます）。この機能は、以前に API の使用を簡素化するために使用されていました。クックブック（または仕様）で、サードパーティのアプリケーションがこれを使用していないかをチェックできます。使用されている場合、API の使用方法を変更して、なるべく早くこの機能を削除するよう通知する必要があります。
-
-   * **allowSQLInjection** を使用すると、ユーザーは古い構文を使用した SQL インジェクションを実行できます。[このページ](../../migration/using/general-configurations.md)で説明されている修正をできるだけ早く行い、この属性をfalseに設定できるようにします。 /nl/jsp/ping.jsp?zones=true を使用すると、セキュリティゾーン設定をチェックできます。このページには、現在の IP のセキュリティ対策のアクティブステータス（これらのセキュリティフラグで計算）が表示されます。
-
-* HttpOnly cookie／useSecurityToken：**sessionTokenOnly** フラグを参照してください。
-
-* 許可リストに追加する IP を最小限に抑える：セキュリティゾーンには、既にプライベートネットワーク用の 3 つの範囲が追加されています。通常、これらの IP アドレスをすべて使用することはありません。そのため、必要なもののみを保持するようにしてください。
-
-* webApp／内部オペレーターを更新して、localhost でのみアクセス可能となるようにしてください。
 
 ## ファイルアップロードの保護
 
@@ -70,7 +28,7 @@ nlclient／Web インターフェイスを使用して、サーバーにどの�
 * ETL（txt、csv、tab など）
 * その他
 
-これらすべてを serverConf/shared/datastore/@uploadAllowlist（有効な Java 正規表現）に追加します。詳しくは、[こちらのページ](../../installation/using/configuring-campaign-server.md#limiting-uploadable-files)を参照してください。
+これらすべてを serverConf/shared/datastore/@uploadAllowlist（有効な Java 正規表現）に追加します。詳しくは、[このページ](../../installation/using/configuring-campaign-server.md#limiting-uploadable-files)を参照してください。
 
 Adobe Campaign では、ファイルサイズは制限されません。ただし、IIS/Apacheを設定することで実行できます。 詳しくは、[この節](../../installation/using/web-server-configuration.md)を参照してください。
 

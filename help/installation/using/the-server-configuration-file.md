@@ -6,14 +6,14 @@ description: サーバー設定ファイル
 audience: installation
 content-type: reference
 topic-tags: appendices
+exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 0c83c989c7e3718a989a4943f5cde7ad4717fddc
 workflow-type: tm+mt
 source-wordcount: '7970'
 ht-degree: 39%
 
 ---
-
 
 # サーバー設定ファイル{#the-server-configuration-file}
 
@@ -53,7 +53,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
 * [パイプの](#pipelined)
 * [修復する](#repair)
 * [securityZone](#securityzone)
-* [sms](#sms)
+* [SMS](#sms)
 * [stat](#stat)
 * [syslogd](#syslogd)
 * [tracking](#tracking)
@@ -1939,7 +1939,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> publicId<br /> </td> 
-   <td> 関連付けられたパブリックアドレス ID です。統計サーバーのキーとして使用されます。数値で指定する必要があります。<a href="../../installation/using/email-deliverability.md#managing-ip-addresses">セクション</a>を参照してください。<br /> </td> 
+   <td> 関連付けられたパブリックアドレス ID です。統計サーバーのキーとして使用されます。数値で指定する必要があります。<a href="../../installation/using/email-deliverability.md#managing-ip-addresses">こちら</a>を参照してください。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
   </tr> 
   <tr> 
@@ -2193,7 +2193,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
 
 **securityZone**&#x200B;ノードの異なるパラメーターを示します。
 
-詳しくは、「[セキュリティゾーンの定義](../../installation/using/security-zones.md)」を参照してください。
+詳しくは、[セキュリティゾーンの定義](../../installation/using/security-zones.md)を参照してください。
 
 <table> 
  <thead> 
@@ -2291,7 +2291,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
 
 **securityZone > subNetwork**&#x200B;ノードの異なるパラメーターを示します。
 
-詳しくは、「[セキュリティゾーンの定義](../../installation/using/security-zones.md)」を参照してください。
+詳しくは、[セキュリティゾーンの定義](../../installation/using/security-zones.md)を参照してください。
 
 <table> 
  <thead> 
@@ -2330,7 +2330,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
  </tbody> 
 </table>
 
-## sms {#sms}
+## SMS {#sms}
 
 **sms**&#x200B;ノードの異なるパラメーターを示します。 これは、受信SMS管理モジュールの構成です。
 
@@ -2500,7 +2500,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> ポート<br /> </td> 
-   <td> サーバーリスニングポート. <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">セクション</a>を参照してください。<br /> </td> 
+   <td> サーバーリスニングポート. <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">こちら</a>を参照してください。<br /> </td> 
    <td> ショート<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3142,7 +3142,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> status<br /> </td> 
+   <td> ステータス<br /> </td> 
    <td> パブリックリソース(定義済みリスト)の同期ステータス。 指定可能な値は、「normal」（通常の実行）、「blacklist」(エラー404の場合はにブロックリスト追加されるURL)、「spare」（既存の場合はスペアサーバ上のファイルアップロード）です。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> normal<br /> </td> 
@@ -3486,4 +3486,3 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
  </tbody> 
 </table>
-

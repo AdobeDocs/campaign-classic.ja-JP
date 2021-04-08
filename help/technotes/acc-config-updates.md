@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 translation-type: tm+mt
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+source-git-commit: 2c47a3e42260a0f04d2c9a665f28c532212997f8
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -118,7 +118,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../integrations/us
 * Gold Standard 11。 [詳細情報](../rn/using/gold-standard.md)
 * Campaign 21.1.1 リリース。 [詳細情報](../rn/using/latest-release.md)
 * Campaign 20.3.3 リリース。 [詳細情報](../rn/using/release--20-3.md)
-* Campaign 20.2.4 リリース。 [詳細情報](../rn/using/release--20-2.md)
+* Campaign 20.2.5 リリース。 [詳細情報](../rn/using/release--20-2.md)
 * Campaign 19.1.8 リリース。 [詳細情報](../rn/using/release--19-1.md)
 
 バージョンを確認する方法については、](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)こちらの節[を参照してください。
@@ -147,7 +147,7 @@ Apple プッシュ通知サービス（APNs）は、**2021 年 3 月 31 日**&#x
 
 ホステッドサービスのお客様が新しいビルドにアップグレードした場合、お使いのインスタンスは既に HTTP/2 ベースの API に更新されています。
 
-オンプレミス／ホステッド環境のお客様は、設定を更新する必要があります。 [HTTP/2 への移行方法について説明します](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
+オンプレミス/ハイブリッドのお客様は、設定を更新する必要があります。 [HTTP/2 への移行方法について説明します](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
 
 ### APNs ルート証明書の更新
 

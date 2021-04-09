@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '1617'
 ht-degree: 100%
@@ -41,7 +41,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >MTA を呼び出さない、ミッドソーシングを使用するインストールの場合、このオプションを使用することは望ましくありません。SMTP サーバーの設定について詳しくは、[この節](../../installation/using/configuring-campaign-server.md#delivery-settings)を参照してください。
+   >MTA を呼び出さない、ミッドソーシングを使用するインストールの場合、このオプションを使用することは望ましくありません。SMTP サーバーの設定について詳しくは、[この節](../../installation/using/configure-delivery-settings.md)を参照してください。
 
 * **[!UICONTROL BCC で E メールを送信]**：このオプションを使用すると、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存することができます。詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
 

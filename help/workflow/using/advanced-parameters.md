@@ -6,14 +6,14 @@ description: 詳細設定パラメーター
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
+exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '524'
 ht-degree: 100%
 
 ---
-
 
 # 詳細設定パラメーター{#advanced-parameters}
 
@@ -49,7 +49,10 @@ ht-degree: 100%
 
 ## アフィニティ {#affinity}
 
-このフィールドでは、特定のマシン上でアクティビティを強制的に実行することができます。詳しくは、[傾向の管理](../../workflow/using/managing-propensity.md)を参照してください。
+ワークフローやワークフローアクティビティを固有のマシン上で強制的に実行することができます。これをおこなうには、ワークフローや関係するアクティビティのレベルで 1 つ以上のプロパティを定義する必要があります。
+
+高可用性のワークフロー設定について詳しくは、この[節](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities)を参照してください。
+
 
 ## 最大実行期間 {#max--execution-period}
 

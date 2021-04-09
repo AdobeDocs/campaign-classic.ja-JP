@@ -34,9 +34,8 @@ _2020 年 12 月 23 日_
 >[!CAUTION]
 >
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合は、 **2021 年 6 月 30 日**&#x200B;以降、Campaign サーバーとクライアントコンソールのいずれも、Campaign に接続できるようにするには、アップグレードが必要です。
-   >
-   > 
-* このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
+>
+> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 
 
 

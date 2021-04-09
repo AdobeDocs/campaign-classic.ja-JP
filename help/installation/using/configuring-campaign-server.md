@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '1582'
 ht-degree: 2%
 
 ---
@@ -38,9 +38,6 @@ Campaign Classic構成ファイルは、Adobe Campaignのインストールフ�
 * **serverConf.xml**:すべてのインスタンスの一般設定。このファイルは、Adobe Campaignサーバーの技術的なパラメーターを組み合わせたものです。これらはすべてのインスタンスで共有されます。 これらのパラメーターの一部については、以下で詳しく説明します。 この[セクション](../../installation/using/the-server-configuration-file.md)に示す、様々なノードとパラメーター。
 * **config-`<instance>`.xml** ( **** instanceはインスタンスの名前):インスタンスの特定の設定。サーバを複数のインスタンス間で共有する場合は、各インスタンスに固有のパラメータを関連ファイルに入力してください。
 
-一般的なサーバ設定のガイドラインは、[キャンペーンサーバ設定](../../installation/using/configuring-campaign-server.md)で詳しく説明しています。
-
-
 ## 構成範囲
 
 ニーズと設定に応じて、キャンペーンサーバーを設定または調整します。 次の操作をおこなうことができます。
@@ -50,12 +47,12 @@ Campaign Classic構成ファイルは、Adobe Campaignのインストールフ�
 * [URL権限](url-permissions.md)を設定
 * [セキュリティゾーン](security-zones.md)の定義
 * [Tomcat設定](configure-tomcat.md)を構成
-* [配信パラメーター](#delivery-settings)のカスタマイズ
+* [配信パラメーター](configure-delivery-settings.md)のカスタマイズ
 * [動的ページセキュリティを定義し、](#dynamic-page-security-and-relays)を中継します
 * [許可する外部コマンド](#restricting-authorized-external-commands)のリストを制限
 * [重複した追跡](#redundant-tracking)の設定
 * [高可用性とワークフローのアフィニティを管理](#high-availability-workflows-and-affinities)
-* ファイル管理の設定 — [詳細情報](#file-and-resmanagement)
+* ファイル管理の設定 — [詳細情報](file-res-management.md)
    * アップロードファイルの形式の制限
    * パブリックリソースへのアクセスを有効にする
    * プロキシ接続の設定
@@ -139,88 +136,6 @@ Adobe Campaignデータ（ログ、ダウンロード、リダイレクトなど
 * Linuxでは、**customer.sh**&#x200B;ファイルに移動し、次のことを示します。**XTK_VAR_DIR=/app/log/AdobeCampaign**&#x200B;をエクスポートします。
 
    詳しくは、[パーソナライズパラメーター](../../installation/using/installing-packages-with-linux.md#personalizing-parameters)を参照してください。
-
-## 配信設定を構成{#delivery-settings}
-
-配信パラメーターは、**serverConf.xml**&#x200B;フォルダーで設定する必要があります。
-
-* **DNS構成**:以 **`<dnsconfig>`** 降のMTAモジュールが行うMX型DNSクエリに応答するために使用するDNSサーバーの配信ドメインとIPアドレス（またはホスト）を指定します。
-
-   >[!NOTE]
-   >
-   >**nameServers**&#x200B;パラメーターは、Windowsでのインストールに必須です。 Linuxでのインストールの場合は、空のままにしておく必要があります。
-
-   ```
-   <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
-   ```
-
-また、ニーズや設定に応じて、次の設定を行うこともできます。[SMTPリレー](#smtp-relay)を構成し、[MTA子プロセス](#mta-child-processes)の数を調整します。[送信SMTPトラフィックの管理](#managing-outbound-smtp-traffic-with-affinities)。
-
-### SMTPリレー{#smtp-relay}
-
-MTAモジュールは、SMTPブロードキャスト用のネイティブメール転送エージェント（ポート25）として機能する。
-
-ただし、セキュリティポリシーで必要な場合は、リレーサーバーで置き換えることができます。 その場合、グローバルスループットは、中継サーバのスループットがAdobe Campaignのスループットより低い場合に限り、中継サーバのスループットとなります。
-
-この場合、これらのパラメーターは&#x200B;**`<relay>`**&#x200B;セクションでSMTPサーバーを設定することで設定されます。 メールの転送に使用するSMTPサーバーのIPアドレス（またはホスト）と、それに関連付けられたポート（デフォルトで25）を指定する必要があります。
-
-```
-<relay address="192.0.0.3" port="25"/>
-```
-
->[!IMPORTANT]
->
->この動作モードは、中継サーバ固有の性能（待ち時間、帯域など）が原因でスループットが大幅に低下する可能性があるので、配信に対する重大な制限を意味します。 また、（SMTPトラフィックの分析で検出される）同期配信エラーを認定する能力も限られ、中継サーバが使用できない場合は送信はできません。
-
-### MTA子プロセス{#mta-child-processes}
-
-サーバのCPU電力と使用可能なネットワークリソースに応じてブロードキャストパフォーマンスを最適化するために、子プロセスの数（デフォルトではmaxSpareServers）を制御できます。 この設定は、各コンピュータのMTA設定の&#x200B;**`<master>`**&#x200B;セクションで行います。
-
-```
-<master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">
-```
-
-[Eメール送信の最適化](../../installation/using/email-deliverability.md#email-sending-optimization)も参照してください。
-
-### アフィニティ{#managing-outbound-smtp-traffic-with-affinities}で送信SMTPトラフィックを管理
-
->[!IMPORTANT]
->
->アフィニティの設定は、サーバ間で一貫している必要があります。 構成の変更はMTAを実行するすべてのアプリケーションサーバーに複製される必要があるので、アフィニティ設定についてはAdobeにお問い合わせください。
-
-IPアドレスを持つアフィニティを介した送信SMTPトラフィックを改善できます。
-
-それには、次の手順に従います。
-
-1. **serverConf.xml**&#x200B;ファイルの&#x200B;**`<ipaffinity>`**&#x200B;セクションにアフィニティを入力します。
-
-   1つのアフィニティには、複数の異なる名前を付けることができます。区切るには、**;**&#x200B;文字を使用します。
-
-   例：
-
-   ```
-    IPAffinity name="mid.Server;WWserver;local.Server">
-             <IP address="XX.XXX.XX.XX" heloHost="myserver.us.campaign.net" publicId="123" excludeDomains="neo.*" weight="5"/
-   ```
-
-   関連するパラメーターを表示するには、**serverConf.xml**&#x200B;ファイルを参照してください。
-
-1. ドロップダウンリストでアフィニティを選択できるようにするには、**IPAffinity**&#x200B;定義済みリストにアフィニティ名を追加する必要があります。
-
-   ![](assets/ipaffinity_enum.png)
-
-   >[!NOTE]
-   >
-   >定義済みリストの詳細は[このドキュメント](../../platform/using/managing-enumerations.md)に記載されています。
-
-   次に示すように、タイポロジに使用するアフィニティを選択できます。
-
-   ![](assets/ipaffinity_typology.png)
-
-   >[!NOTE]
-   >
-   >[配信サーバの設定](../../installation/using/email-deliverability.md#delivery-server-configuration)も参照できます。
-
 
 
 ## 動的なページセキュリティとリレー{#dynamic-page-security-and-relays}
@@ -359,118 +274,7 @@ sh
 
 コンピューターのホスト名を取得するには、次のコマンドを実行します。**hostname -s**.
 
-## ファイルとリソースの管理{#file-and-resmanagement}
 
-### アップロードファイル形式の制限{#limiting-uploadable-files}
-
-**uploadWhiteList**&#x200B;属性を使用して、Adobe Campaignサーバーでアップロードできるファイルの種類を制限します。
-
-この属性は、**serverConf.xml**&#x200B;ファイルの&#x200B;**dataStore**&#x200B;要素内で使用できます。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
-
-この属性のデフォルト値は&#x200B;**です。+**&#x200B;を追加し、任意のファイルタイプをアップロードできます。
-
-使用可能な形式を制限するには、有効なJava正規式で属性値を置き換えます。 複数の値をコンマで区切って入力できます。
-
-次に例を示します。**uploadWhiteList=&quot;.*.png,.*.jpg&quot;**&#x200B;を使用すると、PNG形式とJPG形式をサーバにアップロードできます。 その他の形式は使用できません。
-
->[!NOTE]
->
->Internet Explorerでは、完全なファイルパスを正規式で検証する必要があります。
-
-また、Webサーバーを設定して、重要なファイルがアップロードされないようにすることもできます。 [詳細情報](web-server-configuration.md)
-
-### プロキシ接続の構成{#proxy-connection-configuration}
-
-例えば、**ファイル転送**&#x200B;ワークフローアクティビティを使用して、キャンペーンサーバーをプロキシ経由で外部システムに接続できます。 これを行うには、特定のコマンドを使用して&#x200B;**serverConf.xml**&#x200B;ファイルの&#x200B;**proxyConfig**&#x200B;セクションを設定する必要があります。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に一覧表示されます。
-
-次のプロキシ接続が可能です。HTTP、HTTPS、FTP、SFTP。 20.2キャンペーンリリース以降、HTTPおよびHTTPSプロトコルのパラメーターは&#x200B;**使用できなくなりました**。 これらのパラメーターは、9032を含む以前のビルドで引き続き使用できるので、以下に説明します。
-
->[!CAUTION]
->
->基本認証モードのみがサポートされています。 NTLM認証はサポートされていません。
->
->SOCKSプロキシはサポートされていません。
-
-
-次のコマンドを使用できます。
-
-```
-nlserver config -setproxy:[protocol]/[serverIP]:[port]/[login][:‘https’|'http’]
-```
-
-プロトコルのパラメータには、「http」、「https」、「ftp」のいずれかを使用できます。
-
-HTTP/HTTPSトラフィックと同じポートにFTPを設定する場合は、次を使用できます。
-
-```
-nlserver config -setproxy:http/198.51.100.0:8080/user
-```
-
-「http」および「https」オプションは、プロトコルパラメータが「ftp」の場合にのみ使用され、指定したポートでのトンネリングがHTTPSまたはHTTPを使用して実行されるかどうかを示します。
-
-プロキシサーバー経由のFTP/SFTPとHTTP/HTTPSトラフィックに異なるポートを使用する場合は、「ftp」プロトコルパラメーターを設定する必要があります。
-
-
-例：
-
-```
-nlserver config -setproxy:ftp/198.51.100.0:8080/user:’http’
-```
-
-次に、パスワードを入力します。
-
-HTTP接続は、proxyHTTPパラメーターで定義します。
-
-```
-<proxyConfig enabled=“1” override=“localhost*” useSingleProxy=“0”>
-<proxyHTTP address=“198.51.100.0" login=“user” password=“*******” port=“8080”/>
-</proxyConfig>
-```
-
-HTTPS接続は、proxyHTTPSパラメーターで定義されます。
-
-```
-<proxyConfig enabled=“1" override=“localhost*” useSingleProxy=“0">
-<proxyHTTPS address=“198.51.100.0” login=“user” password=“******” port=“8080"/>
-</proxyConfig>
-```
-
-FTP/FTPS接続は、proxyFTPパラメーターで定義されます。
-
-```
-<proxyConfig enabled=“1" override=“localhost*” useSingleProxy=“0">
-<proxyFTP address=“198.51.100.0” login=“user” password=“******” port=“5555" https=”true”/>
-</proxyConfig>
-```
-
-複数の接続タイプで同じプロキシを使用する場合、proxyHTTPのみがuseSingleProxyを&quot;1&quot;または&quot;true&quot;に設定して定義されます。
-
-プロキシを経由する必要がある内部接続がある場合は、それらをoverrideパラメーターに追加します。
-
-プロキシ接続を一時的に無効にする場合は、有効なパラメーターを「false」または「0」に設定します。
-
-### パブリックリソースの管理{#managing-public-resources}
-
-公開されるようにするには、キャンペーンにリンクされた電子メールやパブリックリソースで使用される画像が、外部からアクセス可能なサーバー上に存在する必要があります。 その後、外部の受信者や演算子で使用できます。 [詳細情報](../../installation/using/deploying-an-instance.md#managing-public-resources)。
-
-パブリックリソースは、Adobe Campaignインストールディレクトリの&#x200B;**/var/res/instance**&#x200B;ディレクトリに保存されます。
-
-一致するURLは次のとおりです。**http://server/res/instance**&#x200B;ここで&#x200B;**instance**&#x200B;は、トラッキングインスタンスの名前です。
-
-別のディレクトリを指定するには、**conf-`<instance>`.xml**&#x200B;ファイルにノードを追加して、サーバー上のストレージを設定します。 これは、次の行を追加することを意味します。
-
-```
-<serverconf>
-  <shared>
-    <dataStore hosts="media*" lang="fra">
-      <virtualDir name="images" path="/var/www/images"/>
-     <virtualDir name="publicFileRes" path="$(XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)/"/>
-    </dataStore>
-  </shared>
-</serverconf>
-```
-
-この場合、デプロイメントウィザードのウィンドウ上部に表示されるパブリックリソースの新しいURLは、このフォルダーを指す必要があります。
 
 ## 高可用性ワークフローとアフィニティ{#high-availability-workflows-and-affinities}
 

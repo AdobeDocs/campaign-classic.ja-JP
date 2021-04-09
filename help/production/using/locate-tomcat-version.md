@@ -6,16 +6,16 @@ description: Adobe Campaignのインスタンスで使用される埋め込みTo
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
 translation-type: tm+mt
-source-git-commit: 49e49d5e35d14a31236cc4f78188cdf77353fbbf
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
 
 ---
 
-
-# Tomcat バージョンの検索{#locate-tomcat-version}
+# Tomcatバージョン{#locate-tomcat-version}を検索
 
 Adobe Campaignは、Apache Tomcat **と呼ばれる**&#x200B;埋め込みWebサーブレットを使用して、アプリケーションと外部インターフェイス（クライアントコンソール、追跡されたURLリンク、SOAP呼び出しなど）との間のHTTP/HTTPS要求を処理します。 外部Webサーバー（通常はIISまたはApache）が、外部向けのAdobe Campaignインスタンス用にこのサーバーの前にあることがよくあります。
 

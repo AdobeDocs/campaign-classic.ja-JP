@@ -6,14 +6,14 @@ description: 一般設定
 audience: migration
 content-type: reference
 topic-tags: configuration
+exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 translation-type: tm+mt
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '2844'
+source-wordcount: '2843'
 ht-degree: 2%
 
 ---
-
 
 # 一般設定{#general-configurations}
 
@@ -104,7 +104,7 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->**internal**&#x200B;パスワードは、すべてのトラッキングサーバーで同一にする必要があります。 詳しくは、[このセクション](../../installation/using/campaign-server-configuration.md#internal-identifier)と[このセクション](../../platform/using/access-management.md)を参照してください。
+>**internal**&#x200B;パスワードは、すべてのトラッキングサーバーで同一にする必要があります。 詳しくは、[このセクション](../../installation/using/configuring-campaign-server.md#internal-identifier)と[このセクション](../../platform/using/access-management.md)を参照してください。
 
 ### v7 {#new-features-in-v7}の新機能
 
@@ -473,7 +473,7 @@ allowSQLInjection="false"
 
 ## Tomcat {#tomcat}
 
-Adobe Campaignv7の統合Tomcatサーバーで、バージョン(Tomcat 7)が変更されました。 したがって、インストールフォルダ(tomcat-6)も変更されました(tomcat 7)。 アップグレード後、パスが（**[!UICONTROL serverConf.xml]**&#x200B;ファイル内の）更新済みフォルダーにリンクしていることを確認します。
+Adobe Campaignv7の統合Tomcatサーバーのバージョンが変更されました。 したがって、インストールフォルダ(tomcat-6)も変更されました(tomcat 7)。 アップグレード後、パスが（**[!UICONTROL serverConf.xml]**&#x200B;ファイル内の）更新済みフォルダーにリンクしていることを確認します。
 
 ```
 $(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 

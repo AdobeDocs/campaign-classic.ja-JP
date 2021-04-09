@@ -1,31 +1,31 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: インスタンスの作成とログオン
-description: インスタンスの作成とログオン
+title: インスタンスの作成とログイン
+description: インスタンスの作成とログイン
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-
-# インスタンスの作成とログオン{#creating-an-instance-and-logging-on}
+# インスタンスの作成とログイン{#creating-an-instance-and-logging-on}
 
 新しいインスタンスとAdobe Campaign・データベースを作成するには、次のプロセスを適用します。
 
 1. 接続を作成します。
 1. ログオンして、関連するインスタンスを作成します。
-1. データベースを作成し、設定します。
+1. データベースの作成と設定.
 
 >[!NOTE]
 >
->これらの操作を実行できるのは、**内部**&#x200B;識別子だけです。 詳しくは、[内部識別子](../../installation/using/campaign-server-configuration.md#internal-identifier)を参照してください。
+>これらの操作を実行できるのは、**内部**&#x200B;識別子だけです。 詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
 Adobe Campaignコンソールを起動すると、ログインページにアクセスします。
 
@@ -82,4 +82,3 @@ Adobe Campaignコンソールを起動すると、ログインページにアク
    >[!NOTE]
    >
    >インスタンスは、コマンドラインから作成できます。 詳しくは、[コマンドライン](../../installation/using/command-lines.md)を参照してください。
-

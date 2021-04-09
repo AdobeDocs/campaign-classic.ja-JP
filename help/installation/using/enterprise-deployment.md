@@ -6,14 +6,14 @@ description: 企業へのデプロイメント
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
+exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 translation-type: tm+mt
-source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
-
 
 # 企業へのデプロイメント{#enterprise-deployment}
 
@@ -113,7 +113,7 @@ ht-degree: 2%
    nlserver config -internalpassword
    ```
 
-   詳しくは、[内部識別子](../../installation/using/campaign-server-configuration.md#internal-identifier)を参照してください。
+   詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
 1. 追跡用のDNSマスクを使用して&#x200B;**demo**&#x200B;インスタンスを作成し(この場合、**tracking.キャンペーン.net**)、クライアントコンソール(この場合、**console.キャンペーン.net**)にアクセスします。 それには、次の 2 つの方法があります。
 
@@ -151,7 +151,7 @@ ht-degree: 2%
    </serverconf>
    ```
 
-   詳しくは、[プロセスの有効化](../../installation/using/campaign-server-configuration.md#enabling-processes)を参照してください。
+   詳しくは、[この節](../../installation/using/configuring-campaign-server.md#enabling-processes)を参照してください。
 
 1. **serverConf.xml**&#x200B;ファイルを編集し、配信ドメインを指定して、MTAモジュールがMX型DNSクエリに応答するために使用するDNSサーバーのIP（またはホスト）アドレスを指定します。
 
@@ -163,7 +163,7 @@ ht-degree: 2%
    >
    >**nameServers**&#x200B;パラメーターは、Windowsでのみ使用されます。
 
-   詳しくは、[キャンペーンサーバーの設定](../../installation/using/campaign-server-configuration.md)を参照してください。
+   詳しくは、[キャンペーンサーバーの設定](../../installation/using/configuring-campaign-server.md)を参照してください。
 
 1. クライアントコンソールのセットアッププログラム(**setup-client-7.XX**、**YYYY.exe** for v7、**setup-client-6.XX**、**YYYY.exe** for v6.1)を&#x200B;**/datakitにコピーします。/nl/eng/jsp**&#x200B;フォルダー [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
 
@@ -229,7 +229,7 @@ ht-degree: 2%
    </serverconf>
    ```
 
-   詳しくは、[プロセスの有効化](../../installation/using/campaign-server-configuration.md#enabling-processes)を参照してください。
+   詳しくは、[この節](../../installation/using/configuring-campaign-server.md#enabling-processes)を参照してください。
 
 1. **serverConf.xml**&#x200B;ファイルを編集し、MTAモジュールのDNS設定を設定します。
 
@@ -241,7 +241,7 @@ ht-degree: 2%
    >
    >**nameServers**&#x200B;パラメーターはWindowsでのみ使用されます。
 
-   詳しくは、[キャンペーンサーバーの設定](../../installation/using/campaign-server-configuration.md)を参照してください。
+   詳しくは、[キャンペーンサーバーの設定](../../installation/using/configuring-campaign-server.md)を参照してください。
 
 1. Adobe Campaignサーバーの開始。
 
@@ -290,4 +290,3 @@ ht-degree: 2%
    * Windowsの場合：[Webサーバーを起動し、設定](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)をテストします。
 
 1. Adobe Campaignサーバーの開始。
-

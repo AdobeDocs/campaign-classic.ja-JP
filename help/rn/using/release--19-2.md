@@ -6,14 +6,14 @@ description: Campaign 19.2 のリリースノート
 feature: null
 role: null
 level: null
+exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
 translation-type: tm+mt
-source-git-commit: 96f5709b4c67d1979286cc1f71069a64435c5c70
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 100%
 
 ---
-
 
 # リリース 19.2{#release-19-2}
 
@@ -34,8 +34,9 @@ _2020 年 12 月 23 日_
 >[!CAUTION]
 >
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合は、 **2021 年 6 月 30 日**&#x200B;以降、Campaign サーバーとクライアントコンソールのいずれも、Campaign に接続できるようにするには、アップグレードが必要です。
->
-> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
+   >
+   > 
+* このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 
 
 
@@ -137,7 +138,7 @@ _2019 年 12 月 2 日_
    * PostgreSQL の「**XtkCleanup_NoStats**」オプションが強化され、データベースクリーンアップワークフローのストレージ最適化手順の動作をより適切に制御できるようになりました。[詳細を表示](../../production/using/database-cleanup-workflow.md#statistics-update)
 * アカウントのロックアウトメカニズムが **logon()** API に追加されました。このメカニズムでは、特定の期間内に一定回数以上連続してログインに失敗すると、それ以降のログイン試行が阻止されます。
 * 配信プロパティの新しいオプション「**最長パーソナライゼーション実行時間**」を使用すると、パーソナライゼーションの実行時間のタイムアウト期間を定義して、過度に長い間パーソナライゼーションフェーズが実行されないようにすることができます。[詳細を表示](../../delivery/using/personalization-fields.md#timing-out-personalization)
-* 「**FTP プロトコル**」オプションが追加され、SFTP 接続でプロキシ設定を使用できるようになりました。[詳細を表示](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)
+* 「**FTP プロトコル**」オプションが追加され、SFTP 接続でプロキシ設定を使用できるようになりました。[詳細を表示](../../installation/using/file-res-management.md)
 * オンプレミス環境で、SFTP 外部サーバーへのプロキシアクセスを新しくサポートするようになりました。
 * Campaign インスタンスと互換性のないパッケージのインストールを防ぐ、特別なガードレールが追加されました。[詳細を表示](../../installation/using/installing-campaign-standard-packages.md)
 
@@ -184,5 +185,3 @@ iOS SDK のビルド 1.0.26 が利用できるようになりました。この�
 * 予測モデルにアクセスする際の問題を修正しました。（NEO-19713）
 * Hadoop FDA データベースを使用した&#x200B;**分割**&#x200B;ワークフローアクティビティでのランダムサンプリングに影響する問題を修正しました。（NEO-16636）
 * ポストアップグレード後に一部の関数が無効と見なされる、Oracle の問題を修正しました。（NEO-12759）
-
-

@@ -6,14 +6,14 @@ description: スタンドアロンデプロイメント
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
+exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 translation-type: tm+mt
-source-git-commit: ae4b2ba6db140cdfb9ec4a38231fcc3e54b1478c
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 2%
+source-wordcount: '1088'
+ht-degree: 3%
 
 ---
-
 
 # スタンドアロンデプロイメント{#standalone-deployment}
 
@@ -112,7 +112,7 @@ ht-degree: 2%
    nlserver config -internalpassword
    ```
 
-   詳しくは、[内部識別子](../../installation/using/campaign-server-configuration.md#internal-identifier)を参照してください。
+   詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
 1. 追跡用のDNSマスクを使用して&#x200B;**demo**&#x200B;インスタンスを作成し(この場合、**tracking.キャンペーン.net**)、クライアントコンソール(この場合、**console.キャンペーン.net**)にアクセスします。 それには、次の 2 つの方法があります。
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
       ![](assets/install_create_new_connexion.png)
 
-      詳しくは、[インスタンスの作成と](../../installation/using/creating-an-instance-and-logging-on.md)へのログを参照してください。
+      詳しくは、[インスタンスの作成と](../../installation/using/creating-an-instance-and-logging-on.md)へのログオンを参照してください。
 
       または
 
@@ -150,7 +150,7 @@ ht-degree: 2%
    </serverconf>
    ```
 
-   詳しくは、[プロセスの有効化](../../installation/using/campaign-server-configuration.md#enabling-processes)を参照してください。
+   詳しくは、[この節](../../installation/using/configuring-campaign-server.md#enabling-processes)を参照してください。
 
 1. **serverConf.xml**&#x200B;ファイルを編集し、配信ドメインを指定して、MTAモジュールがMX型DNSクエリに応答するために使用するDNSサーバーのIP（またはホスト）アドレスを指定します。
 
@@ -162,7 +162,7 @@ ht-degree: 2%
    >
    >**nameServers**&#x200B;パラメーターはWindowsでのみ使用されます。
 
-   詳しくは、[キャンペーンサーバーの設定](../../installation/using/campaign-server-configuration.md)を参照してください。
+   詳しくは、[キャンペーンサーバーの設定](../../installation/using/configuring-campaign-server.md)を参照してください。
 
 1. クライアントコンソールのセットアッププログラム(**setup-client-7.XX**、**YYYY.exe** for v7、**setup-client-6.XX**、**YYYY.exe** for v6.1)を&#x200B;**/datakitにコピーします。/nl/eng/jsp**&#x200B;フォルダー [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
 
@@ -213,7 +213,7 @@ ht-degree: 2%
 
 1. Adobe Campaignクライアントコンソールを開始（前のダウンロードページから、またはWindowsインストールの場合はサーバー上で直接起動）し、サーバー接続URLをhttps://console.campaign.netに設定し、**internal**&#x200B;ログインを使用して接続します。
 
-   [インスタンスの作成と](../../installation/using/creating-an-instance-and-logging-on.md)および[内部識別子](../../installation/using/campaign-server-configuration.md#internal-identifier)のログを参照してください。
+   [このページ](../../installation/using/creating-an-instance-and-logging-on.md)と[このセクション](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
    初めてログインすると、データベース作成ウィザードが表示されます。
 
@@ -244,4 +244,3 @@ ht-degree: 2%
    * アクセス元：レポート、Web フォーム、ミラーページの2つのURLを指定します。
 
       ![](assets/d_ncs_install_web_url.png)
-

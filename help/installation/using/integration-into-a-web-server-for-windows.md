@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Windows 用 Web サーバーへの統合
-description: Windows 用 Web サーバーへの統合
+title: Windows 用 web サーバーへの統合
+description: Windows 用 web サーバーへの統合
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
+exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 4%
 
 ---
 
-
-# Windows 用 Web サーバーへの統合{#integration-into-a-web-server-for-windows}
+# Windows 用 web サーバーへの統合{#integration-into-a-web-server-for-windows}
 
 Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーションサーバーのエントリポイントとして機能するApache Tomcatが含まれます。
 
@@ -23,7 +23,7 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
 
 この場合、次のようになります。
 
-* デフォルトのリスニングポートは8080です。 変更する方法については、[Tomcatの設定](../../installation/using/configuring-campaign-server.md#configuring-tomcat)を参照してください。
+* デフォルトのリスニングポートは8080です。 これを変更するには、[この](../../installation/using/configure-tomcat.md)セクションを参照してください。
 * 次に、クライアントコンソールは、[https:// `<computer>`:8080](https://myserver.adobe.com:8080)などのURLを使用して接続します。
 
 ただし、セキュリティと管理上の理由から、Adobe Campaignを実行しているコンピュータがインターネット上に公開され、ネットワーク外のコンソールにアクセスする場合は、HTTPトラフィックのメインエントリポイントとして専用のWebサーバを使用することをお勧めします。
@@ -144,7 +144,7 @@ webmdl@default (1644) - 18.2 Mo
 
    ![](assets/s_ncs_install_iis7_parameters_step11.png)
 
-## 任意の追加設定 {#additional-configurations}
+## その他の設定 {#additional-configurations}
 
 ### アップロードファイルのサイズ制限の変更{#changing-the-upload-file-size-limit}
 
@@ -178,4 +178,3 @@ IIS Webサーバーを構成する場合、サーバーにアップロードさ�
 1. **existingResponse**&#x200B;行の&#x200B;**PassThrough**&#x200B;値を選択します。
 
 ![](assets/ins_iis_httperrors.png)
-

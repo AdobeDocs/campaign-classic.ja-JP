@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 4%
@@ -131,7 +131,7 @@ Adobe Campaignアプリケーションサーバーからデータベースの作
       >
       >**nameServers**&#x200B;パラメーターはWindowsでのみ使用されます。
 
-      詳しくは、[配信設定](configuring-campaign-server.md#delivery-settings)を参照してください。
+      詳しくは、[配信設定](configure-delivery-settings.md)を参照してください。
 
    * リダイレクトパラメーターの冗長なトラッキングサーバー：
 
@@ -140,7 +140,7 @@ Adobe Campaignアプリケーションサーバーからデータベースの作
       <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
       ```
 
-      詳しくは、[冗長トラッキング](../../installation/using/configuring-campaign-server.md#redundant-tracking)を参照してください。
+      詳しくは、[冗長トラッキング](configuring-campaign-server.md#redundant-tracking)を参照してください。
 
 1. Webサイトを開始し、URLからのリダイレクトをテストします。[https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
 

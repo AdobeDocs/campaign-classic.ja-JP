@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 translation-type: tm+mt
-source-git-commit: 0c83c989c7e3718a989a4943f5cde7ad4717fddc
+source-git-commit: e165af411d2580d69694f1730116cb198418bfe2
 workflow-type: tm+mt
 source-wordcount: '7970'
 ht-degree: 39%
@@ -2814,7 +2814,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
 
 **web**&#x200B;ノードの異なるパラメーターを示します。 これはWebモジュールの設定です。
 
-詳しくは、[](../../installation/using/configuring-campaign-server.md#default-port-for-tomcat)を参照してください。
+詳しくは、[](configuring-campaign-server.md#default-port-for-tomcat)を参照してください。
 
 <table> 
  <thead> 
@@ -2858,13 +2858,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> controlPort<br /> </td> 
-   <td> Tomcatリスニング制御ポート：<a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Tomcatの設定</a>を参照してください。<br /> </td> 
+   <td> Tomcatリスニング制御ポート：<a href="configure-tomcat.md" target="_blank">Tomcatの設定</a>を参照してください。<br /> </td> 
    <td> ショート<br /> </td> 
    <td> 8005<br /> </td> 
   </tr> 
   <tr> 
    <td> httpPort<br /> </td> 
-   <td> Tomcat HTTPリスニングポート：<a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Tomcatの設定</a>を参照してください。<br /> </td> 
+   <td> Tomcat HTTPリスニングポート：<a href="configure-tomcat.md" target="_blank">Tomcatの設定</a>を参照してください。<br /> </td> 
    <td> ショート<br /> </td> 
    <td> 8080<br /> </td> 
   </tr> 
@@ -3149,7 +3149,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> targetUrl<br /> </td> 
-   <td> ターゲットページのURL:<a href="../../installation/using/configuring-campaign-server.md#configuring-tomcat" target="_blank">Tomcatの設定</a>を参照してください。<br /> </td> 
+   <td> ターゲットページのURL:<a href="configure-tomcat.md" target="_blank">Tomcatの設定</a>を参照してください。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 

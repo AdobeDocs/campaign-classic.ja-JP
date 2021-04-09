@@ -6,14 +6,14 @@ description: 移行を開始する前に
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
+exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 translation-type: tm+mt
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 2%
 
 ---
-
 
 # 移行を開始する前に{#before-starting-migration}
 
@@ -77,5 +77,4 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->**internal**&#x200B;パスワードは、すべてのトラッキングサーバーで同一にする必要があります。 詳しくは、[内部識別子](../../installation/using/campaign-server-configuration.md#internal-identifier)と[権限](../../platform/using/access-management.md)の節を参照してください。
-
+>**internal**&#x200B;パスワードは、すべてのトラッキングサーバーで同一にする必要があります。 詳しくは、[内部識別子](../../installation/using/configuring-campaign-server.md#internal-identifier)と[権限](../../platform/using/access-management.md)の節を参照してください。

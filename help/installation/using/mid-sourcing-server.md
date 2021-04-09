@@ -6,14 +6,14 @@ description: この節では、キャンペーンでのミッドソーシング�
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
+exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # ミッドソーシングサーバー{#mid-sourcing-server}
 
@@ -61,7 +61,7 @@ ht-degree: 0%
    </serverconf>
    ```
 
-   詳しくは、[プロセスの有効化](../../installation/using/campaign-server-configuration.md#enabling-processes)を参照してください。
+   詳しくは、[この節](../../installation/using/configuring-campaign-server.md#enabling-processes)を参照してください。
 
 * 手順&#x200B;**6**、**9**、**10**&#x200B;は不要です。
 * **12**&#x200B;と&#x200B;**13**&#x200B;の手順の間に、接続URLの8080ポートを指定する必要があります（コンソールはWebサーバーを経由せずに直接Tomcatと通信するため）。 URLが[http://console.campaign.net:8080](http://console.campaign.net)になります。 手順&#x200B;**13**&#x200B;の間に、**[!UICONTROL ミッドソーシング]**&#x200B;に向けての問題パッケージと、インストールする問題を選択します。
@@ -180,4 +180,3 @@ ht-degree: 0%
 メッセージの配信を複数のミッドソーシングサーバーで管理する場合は、**[!UICONTROL ルーティングとミッドソーシングアカウントが交互に設定されているオプション]**&#x200B;を選択し、別のサーバーを指定します。
 
 ![](assets/s_ncs_install_midsourcing_tracking04.png)
-

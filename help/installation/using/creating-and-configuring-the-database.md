@@ -6,14 +6,14 @@ description: データベースの作成と設定
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
+exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 1%
 
 ---
-
 
 # データベースの作成と設定{#creating-and-configuring-the-database}
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 >
 >データベース、ユーザー、スキーマの名前に数字を開始したり、特殊文字を含めたりすることはできません。
 >
->これらの操作を実行できるのは、**内部**&#x200B;識別子だけです。 詳しくは、[内部識別子](../../installation/using/campaign-server-configuration.md#internal-identifier)を参照してください。
+>これらの操作を実行できるのは、**内部**&#x200B;識別子だけです。 詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
 ## ケース1:データベース{#case-1--creating-recycling-a-database}の作成/リサイクル
 
@@ -57,13 +57,13 @@ ht-degree: 1%
 
 選択したデータベースエンジンによって、サーバ識別情報が異なる場合があります。
 
-* **Oracle**&#x200B;エンジンの場合は、アプリケーションサーバーに対して定義された&#x200B;**TNS名**&#x200B;を設定します。
+* **Oracle**&#x200B;エンジンの場合は、アプリケーションサーバー用に定義された&#x200B;**TNS名**&#x200B;を設定します。
 * **PostgreSQL**&#x200B;または&#x200B;**DB2**&#x200B;エンジンの場合は、データベースサーバーにアクセスするために、アプリケーションサーバーで定義されたDNS名（またはIPアドレス）を指定する必要があります。
 * **Microsoft SQL Server**&#x200B;エンジンの場合は、次を定義する必要があります。データベースサーバーにアクセスするためにアプリケーションサーバーで定義されているDNS名（またはIPアドレス）。**DNS**&#x200B;または&#x200B;**DNS`\<instance>`** （インスタンスモード）、
 
    >[!CAUTION]
    >
-   > 20.3以降、Windows NT認証は廃止されます。 **[!UICONTROL Microsoft SQL Serverで使用できる認証モードは、SQL Server]** 認証のみになりました。[詳細を表示](../../rn/using/deprecated-features.md)
+   > 20.3以降、Windows NT認証は廃止されます。 **[!UICONTROL Microsoft SQL Serverで使用できる認証モードは、SQL Server]** 認証のみになりました。[詳細情報](../../rn/using/deprecated-features.md)
 
    ![](assets/s_ncs_install_db_mssql_creation01.png)
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >oracleのデータベースでは、**[!UICONTROL Unicodeストレージ]**&#x200B;オプションを使用すると、**NCLOB**&#x200B;および&#x200B;**NVARCHAR**&#x200B;型のフィールドを使用できます。
+   >oracleデータベースでは、**[!UICONTROL Unicodeストレージ]**&#x200B;オプションを使用すると、**NCLOB**&#x200B;および&#x200B;**NVARCHAR**&#x200B;型のフィールドを使用できます。
    > 
    >このオプションを選択しない場合、Oracleデータベースの文字セット(charset)は、すべての言語でデータストレージを有効にする必要があります（AL32UTF8を推奨）。
 
@@ -123,7 +123,7 @@ ht-degree: 1%
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
-* oracle、Microsoft SQL Server、またはPostgreSQLデータベースの場合、管理者は、データベースオブジェクトの作成時に使用する&#x200B;**ストレージパラメータ**&#x200B;を定義することもできます。
+* oracle、Microsoft SQL ServerまたはPostgreSQLデータベースの場合、管理者は、データベースオブジェクトの作成時に使用する&#x200B;**ストレージパラメータ**&#x200B;を定義することもできます。
 
    これらのパラメータは、正確な表領域名を受け取ります(警告：大文字と小文字が区別されます)。 それぞれ、次のオプションの&#x200B;**[!UICONTROL 管理/プラットフォーム/オプション]**&#x200B;ノードに保存されます（[このセクション](../../installation/using/configuring-campaign-options.md#database)を参照）。
 
@@ -132,7 +132,7 @@ ht-degree: 1%
    * **WdbcOptions_TableSpaceWork**:スキーマのない作業テーブル
    * **WdbcOptions_TableSpaceWorkIndex**:スキーマのない作業テーブルのインデックス
 
-* oracle・データベースの場合、Adobe Campaign・ユーザーはOracle・ライブラリにアクセスできる必要があります。通常は&#x200B;**oinstall**&#x200B;グループのメンバーです。
+* oracleデータベースの場合、Adobe CampaignユーザーはOracleライブラリ（通常は&#x200B;**oinstall**&#x200B;グループのメンバー）にアクセスできる必要があります。
 * 「**[!UICONTROL 管理者パスワード]**&#x200B;を設定または変更」オプションを使用すると、Adobe Campaign演算子にリンクされたパスワードを管理者権限で入力できます。
 
    セキュリティを確保するために、Adobe Campaignアカウント管理者パスワードを定義することをお勧めします。
@@ -159,7 +159,7 @@ base61データベース上のMicrosoft SQL Server設定の例で、暗号化さ
 
 データベースおよびユーザーは、データベース管理者が作成したデータベースであり、アクセス権が正しく設定されている必要があります。
 
-たとえば、Oracle・データベースの場合、必要な最小限の権限は次のとおりです。CONNECT、リソース、および無制限の表領域を付与します。
+例えば、Oracleデータベースの場合、必要な最小限の権限は次のとおりです。CONNECT、リソース、および無制限の表領域を付与します。
 
 既存のデータベースを使用する場合の設定手順は次のとおりです。
 
@@ -181,7 +181,7 @@ base61データベース上のMicrosoft SQL Server設定の例で、暗号化さ
 
 選択したデータベースエンジンによって、サーバ識別情報が異なる場合があります。
 
-* **Oracle**&#x200B;エンジンの場合は、アプリケーションサーバーに対して定義された&#x200B;**TNS名**&#x200B;を設定します。
+* **Oracle**&#x200B;エンジンの場合は、アプリケーションサーバー用に定義された&#x200B;**TNS名**&#x200B;を設定します。
 * **PostgreSQL**&#x200B;または&#x200B;**DB2**&#x200B;エンジンの場合は、データベースサーバーにアクセスするために、アプリケーションサーバーで定義されたDNS名（またはIPアドレス）を指定する必要があります。
 * **Microsoft SQL Server**&#x200B;エンジンの場合は、次を定義する必要があります。
 
@@ -222,8 +222,8 @@ base61データベース上のMicrosoft SQL Server設定の例で、暗号化さ
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
-* oracle、Microsoft SQL Server、またはPostgreSQLデータベースの場合、管理者は、データベースオブジェクトの作成時に使用する&#x200B;**ストレージパラメータ**&#x200B;を定義できます。
-* oracle・データベースの場合、Adobe Campaign・ユーザーはOracle・ライブラリにアクセスできる必要があります。通常は&#x200B;**oinstall**&#x200B;グループのメンバーです。
+* oracle、Microsoft SQL ServerまたはPostgreSQLデータベースの場合、管理者は、データベースオブジェクトの作成時に使用する&#x200B;**ストレージパラメータ**&#x200B;を定義できます。
+* oracleデータベースの場合、Adobe CampaignユーザーはOracleライブラリ（通常は&#x200B;**oinstall**&#x200B;グループのメンバー）にアクセスできる必要があります。
 * 「**[!UICONTROL 管理者パスワード]**&#x200B;を設定または変更」オプションを使用すると、Adobe Campaign演算子にリンクされたパスワードを管理者権限で入力できます。
 
    セキュリティを確保するために、Adobe Campaignアカウント管理者パスワードを定義することをお勧めします。
@@ -245,4 +245,3 @@ base61データベース上のMicrosoft SQL Server設定の例で、暗号化さ
 ```
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>
 ```
-

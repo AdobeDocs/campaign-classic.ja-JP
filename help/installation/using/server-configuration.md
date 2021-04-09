@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 70%
@@ -28,7 +28,7 @@ ht-degree: 70%
 * ETL（txt、csv、tab など）
 * その他
 
-これらすべてを serverConf/shared/datastore/@uploadAllowlist（有効な Java 正規表現）に追加します。詳しくは、[このページ](../../installation/using/configuring-campaign-server.md#limiting-uploadable-files)を参照してください。
+これらすべてを serverConf/shared/datastore/@uploadAllowlist（有効な Java 正規表現）に追加します。詳しくは、[このページ](../../installation/using/file-res-management.md)を参照してください。
 
 Adobe Campaign では、ファイルサイズは制限されません。ただし、IIS/Apacheを設定することで実行できます。 詳しくは、[この節](../../installation/using/web-server-configuration.md)を参照してください。
 

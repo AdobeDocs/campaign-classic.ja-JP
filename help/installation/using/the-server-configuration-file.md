@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 translation-type: tm+mt
-source-git-commit: e165af411d2580d69694f1730116cb198418bfe2
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '7970'
 ht-degree: 39%
@@ -201,7 +201,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
   </tr> 
   <tr> 
    <td> uploadAllowlist<br /> </td> 
-   <td> ダウンロードを許可されたファイル (「,」区切り)。この文字列は Java の有効な正規表現である必要があります。<a href="../../installation/using/configuring-campaign-server.md#limiting-uploadable-files" target="_blank">アップロード可能ファイルの制限</a>を参照してください。<br /> </td> 
+   <td> ダウンロードを許可されたファイル (「,」区切り)。この文字列は Java の有効な正規表現である必要があります。<a href="file-res-management.md" target="_blank">アップロード可能ファイルの制限</a>を参照してください。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '.+' <br /> </td> 
   </tr> 
@@ -425,7 +425,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
 
 **dataStore > virtualDir**&#x200B;ノードの異なるパラメーターを示します。 これは、仮想ディレクトリと実ディレクトリのマッピングの構成です。
 
-詳しくは、[パブリックリソースの管理](../../installation/using/configuring-campaign-server.md#managing-public-resources)を参照してください。
+詳しくは、[パブリックリソースの管理](file-res-management.md)を参照してください。
 
 <table> 
  <thead> 
@@ -867,7 +867,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 **proxyConfig**&#x200B;ノードの異なるパラメーターを示します。 これは、プロキシパラメーターの設定です。
 
-詳しくは、[プロキシ接続の設定](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)を参照してください。
+詳しくは、[プロキシ接続の設定](file-res-management.md)を参照してください。
 
 <table> 
  <thead> 
@@ -904,7 +904,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 **proxyConfig > HTTP Proxy / Secure proxy**&#x200B;ノードで、次のパラメーターを設定します。
 
-詳しくは、[プロキシ接続の設定](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)を参照してください。
+詳しくは、[プロキシ接続の設定](file-res-management.md)を参照してください。
 
 <table> 
  <thead> 

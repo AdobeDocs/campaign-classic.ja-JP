@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Web サーバーの設定
+title: Web サーバー設定
 description: Webサーバー設定の主なベストプラクティスの詳細を説明します。
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
+exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 translation-type: tm+mt
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 34%
+source-wordcount: '325'
+ht-degree: 40%
 
 ---
 
-
-# Web サーバーの設定 {#web-server-configuration}
+# Web サーバー設定 {#web-server-configuration}
 
 Webサーバー(Apache/IIS)の設定に関する主なベストプラクティスの一部を以下に示します。
 
@@ -58,7 +58,7 @@ Webサーバー(Apache/IIS)の設定に関する主なベストプラクティ�
    * ServerSignature **Off**
    * ServerTokens **Prod**
 
-   **IIS** ( [ドキュメントを参照](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs))で、次の設定を実行します。
+   **IISで**、次の設定を実行します。
 
    * **URLScan** をインストールします。
    * **Urlscan.ini** ファイルを編集して **RemoveServerHeader=1** を設定します。
@@ -66,7 +66,7 @@ Webサーバー(Apache/IIS)の設定に関する主なベストプラクティ�
 
 * クエリのサイズを制限して、重要なファイルがアップロードされないようにします。
 
-   **Apache** ( [ドキュメントを参照](http://httpd.apache.org/docs/2.2/mod/core.html#limitrequestbody))で、/ディレクトリに **** LimitRequestBodyディレクティブ（バイト単位のサイズ）を追加します。
+   **** Apache で、**LimitRequestBody** ディレクティブ（サイズはバイト単位で指定）を / ディレクトリに追加します。
 
    ```
    <Directory />

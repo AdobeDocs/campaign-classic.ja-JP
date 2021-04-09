@@ -4,16 +4,16 @@ product: campaign
 title: Campaign 18.10 のリリースノート
 description: Campaign 18.10 のリリースノート
 feature: 概要
-role: ビジネス従事者
-level: 初心者
-translation-type: ht
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
-workflow-type: ht
-source-wordcount: '2375'
+role: Business Practitioner
+level: Beginner
+exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
+translation-type: tm+mt
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+workflow-type: tm+mt
+source-wordcount: '2372'
 ht-degree: 100%
 
 ---
-
 
 # リリース 18.10{#release-18-10}
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **強化点**
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **新機能**
 
@@ -148,7 +148,7 @@ ht-degree: 100%
 
 * Campaign Classic API を[専用ページ](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)から入手できるようになりました。jsapi.chm ファイルを使用していた場合は、新しいオンラインバージョンを参照する必要があります。
 * PostgreSQL 10、Debian 9 および Teradata 16.20 がサポートされるようになりました。[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)を参照してください。
-* SFTP 接続を作成する際、プロキシ認証を使用できるようになりました。詳しくは、[詳細ドキュメント](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)を参照してください。（NEO-9868）
+* SFTP 接続を作成する際、プロキシ認証を使用できるようになりました。詳しくは、[詳細ドキュメント](../../installation/using/file-res-management.md)を参照してください。（NEO-9868）
 * ダイレクトメール配信テンプレートを使用して単一の配信を作成する際、配信プロパティで「**日付計算式**」オプションを使用できるようになりました。（NEO-9792）
 * Cookie のトラッキングと Web アプリケーションで、ドメイン名管理が強化されました。詳しくは、以下の「技術面の変更点」の節を参照してください。
 * 配信やランディングページでの Adobe Experience Cloud の共有アセットのインポートがセキュリティとパフォーマンスの面で強化されました。
@@ -240,4 +240,3 @@ PostgreSql で UTF-8 照合順序を使用する際、「LIKE &#39;string%’」
 * **SQL ビューに基づいた**&#x200B;特定のスキーマの要素を選択した後に新しい配信コンポジションを保存すると発生する Oracle のエラーを修正しました。（NEO-11682）
 * 「解凍」オプションを使用してファイルを読み込みアクティビティ経由で .csv ファイルを含んだ zip ファイルを処理すると、誤検出を含んだ却下ファイルが生成される問題を修正しました。
 * xtkjoblog はクリーンアップでパージされるようになりました。
-

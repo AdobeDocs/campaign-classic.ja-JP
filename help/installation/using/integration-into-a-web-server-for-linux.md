@@ -1,21 +1,21 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Linux 用 Web サーバーへの統合
+title: Linux 用 web サーバーへの統合
 description: キャンペーンをWebサーバーに統合する方法(Linux)
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
+exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 5%
 
 ---
 
-
-# Linux 用 Web サーバーへの統合{#integration-into-a-web-server-for-linux}
+# Linux 用 web サーバーへの統合{#integration-into-a-web-server-for-linux}
 
 Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーションサーバーのエントリポイントとして機能するApache Tomcatが含まれます。
 
@@ -23,7 +23,7 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
 
 この場合、次のようになります。
 
-* デフォルトのリスニングポートは8080です。 変更する方法については、[Tomcatの設定](../../installation/using/configuring-campaign-server.md#configuring-tomcat)を参照してください。
+* デフォルトのリスニングポートは8080です。 これを変更するには、[この](configure-tomcat.md)セクションを参照してください。
 * 次に、クライアントコンソールは次のようなURLを使用して接続します。
 
    ```

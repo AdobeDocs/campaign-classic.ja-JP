@@ -6,14 +6,14 @@ description: 標準デプロイメント
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
+exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '832'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
-
 
 # 標準デプロイメント{#standard-deployment}
 
@@ -54,7 +54,7 @@ LAN内のアプリケーションサーバーは、エンドユーザーに対�
    * 最初に公開され、仮想IPアドレス(VIP)上のロードバランサーをトラッキングして指し示し、2つの正面サーバーに配布されます。
    * 2つ目は、内部ユーザーに対してコンソール経由でアクセスし、同じアプリケーションサーバーを指し示す形で表示されます。
 
-* STMP (25)、DNS (53)、HTTP (80)、HTTPS (443)、SQL （1521 for PostgreSQLなど）を開くように設定されたファイアウォール ポート。 詳しくは、[データベースアクセス](../../installation/using/network-configuration.md#database-access)を参照してください。
+* STMP (25)、DNS (53)、HTTP (80)、HTTPS (443)、SQL (1521)、Oracle用に5432などを開くように設定されたファイアウォール ポート。 詳しくは、[データベースアクセス](../../installation/using/network-configuration.md#database-access)を参照してください。
 
 ### アプリケーションサーバーのインストール{#installing-the-application-server}
 
@@ -107,7 +107,7 @@ Adobe Campaignアプリケーションサーバーからデータベースの作
 
 1. **internal**&#x200B;をアプリケーションサーバーと同じに変更します。
 
-   詳しくは、[内部識別子](../../installation/using/campaign-server-configuration.md#internal-identifier)を参照してください。
+   詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
 1. データベースをインスタンスにリンクする：
 
@@ -117,7 +117,7 @@ Adobe Campaignアプリケーションサーバーからデータベースの作
 
 1. **config-default.xml**&#x200B;と&#x200B;**config-demo.xml**&#x200B;ファイルで、**web**、**trackinglogd**&#x200B;と&#x200B;**mta**&#x200B;モジュールを有効にします。
 
-   詳しくは、[プロセスの有効化](../../installation/using/campaign-server-configuration.md#enabling-processes)を参照してください。
+   詳しくは、[この節](../../installation/using/configuring-campaign-server.md#enabling-processes)を参照してください。
 
 1. **serverConf.xml**&#x200B;ファイルを編集し、次の内容を入力します。
 
@@ -131,7 +131,7 @@ Adobe Campaignアプリケーションサーバーからデータベースの作
       >
       >**nameServers**&#x200B;パラメーターはWindowsでのみ使用されます。
 
-      詳しくは、[配信設定](../../installation/using/campaign-server-configuration.md#delivery-settings)を参照してください。
+      詳しくは、[配信設定](configuring-campaign-server.md#delivery-settings)を参照してください。
 
    * リダイレクトパラメーターの冗長なトラッキングサーバー：
 
@@ -177,4 +177,3 @@ Adobe Campaignアプリケーションサーバーからデータベースの作
    >[!NOTE]
    >
    >以前に作成した2つのトラッキングサーバーの既存のインスタンスを使用し、**内部**&#x200B;ログインを使用します。
-

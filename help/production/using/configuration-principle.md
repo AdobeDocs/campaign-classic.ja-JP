@@ -6,14 +6,14 @@ description: 設定の原則
 audience: production
 content-type: reference
 topic-tags: production-procedures
+exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 4%
 
 ---
-
 
 # 設定の原則{#configuration-principle}
 
@@ -25,7 +25,7 @@ Adobe Campaignプラットフォームは、Apacheが使用する仮想ホスト
 
    >[!IMPORTANT]
    >
-   >**内部**&#x200B;識別子を使用してログオンするには、事前にパスワードを定義しておく必要があります。 詳しくは、[こちらの節](../../installation/using/campaign-server-configuration.md#internal-identifier)を参照してください。
+   >**内部**&#x200B;識別子を使用してログオンするには、事前にパスワードを定義しておく必要があります。 詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
 * 複数のテクニカルサーバ構成：これらの設定はすべて、インスタンスの特定の設定で過負荷になる可能性があります。
 

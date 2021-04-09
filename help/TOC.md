@@ -9,9 +9,9 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2489'
 ht-degree: 97%
 
 ---
@@ -659,7 +659,9 @@ ht-degree: 97%
       + [Campaign サーバーの設定](installation/using/configuring-campaign-server.md)
       + [セキュリティゾーンの定義](installation/using/security-zones.md)
       + [URL権限の設定](installation/using/url-permissions.md)
+      + [ファイルとリソース](installation/using/file-res-management.md)
       + [Tomcatの設定](installation/using/configure-tomcat.md)
+      + [配信設定の指定](installation/using/configure-delivery-settings.md)
       + [技術的な電子メール設定](installation/using/email-deliverability.md)
       + [MXサーバーとキャンペーンの使用](installation/using/using-mx-servers.md)
       + [電子メール BCC の設定](installation/using/email-archiving.md)

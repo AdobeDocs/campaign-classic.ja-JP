@@ -6,14 +6,14 @@ description: 通常のコマンド
 audience: production
 content-type: reference
 topic-tags: production-procedures
+exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 4%
 
 ---
-
 
 # 通常のコマンド{#usual-commands}
 
@@ -29,6 +29,7 @@ ht-degree: 4%
 >
 >* どのような場合でも、**-noconsole**&#x200B;引数を追加して、モジュールの起動後に表示されるコメントを削除できます。
 >* 逆に、引数&#x200B;**-verbose**&#x200B;を追加すると、詳細情報を表示できます。
+
 >
 
 
@@ -155,13 +156,15 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 
 >[!IMPORTANT]
 >
->**内部**&#x200B;識別子を使用してログオンするには、事前にパスワードを定義しておく必要があります。 詳しくは、[こちらの節](../../installation/using/campaign-server-configuration.md#internal-identifier)を参照してください。
+>**内部**&#x200B;識別子を使用してログオンするには、事前にパスワードを定義しておく必要があります。 詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
 >[!NOTE]
 >
 >* 一般に、設定ファイルを手動で変更する代わりに、**config**&#x200B;コマンドを使用できます
 >* パラメーターのリストを取得するには、**-?** パラメーター： **nlserver config - ?**
 >* oracleデータベースの場合は、アカウントを指定しないでください。 構文は次のとおりです。
+
 >
->  nlserver config -setdblogin:Oracle:test6@dbserver
+>  
+nlserver config -setdblogin:Oracle:test6@dbserver
 

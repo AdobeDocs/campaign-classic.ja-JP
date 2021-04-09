@@ -6,14 +6,14 @@ description: Linux でのパッケージのインストール
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
+exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 1%
+source-wordcount: '1211'
+ht-degree: 2%
 
 ---
-
 
 # Linux でのパッケージのインストール{#installing-packages-with-linux}
 
@@ -182,7 +182,7 @@ export neolane_LANG=fra
 
 必要に応じて、**customer.sh**&#x200B;ファイルを&#x200B;**vi customer.sh**&#x200B;コマンドを使用して編集し、設定を調整するか、行を追加します。
 
-* oracleのお客様の場合：
+* oracleクライアントの場合：
 
    ```
    export ORACLE_HOME=/usr/local/instantclient_10_2
@@ -190,7 +190,7 @@ export neolane_LANG=fra
    export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
    ```
 
-   環境変数ORACLE_HOMEの内容は、Oracleのインストールディレクトリと一致します。
+   oracle_HOME環境変数の内容は、Oracleのインストールディレクトリと一致します。
 
    TNS_ADMIN変数の内容は、**tnsnames.ora**&#x200B;ファイルの場所と一致する必要があります。
 
@@ -274,7 +274,7 @@ Adobe CampaignでOracleを使用する場合は、LinuxでOracleクライアン�
 
 * Adobe Campaignの設定
 
-   Adobe Campaign用にOracle・クライアントのインストールを終了するには、Adobe Campaignが使用する&#x200B;**.so**&#x200B;ファイルのシンボリック・リンクを作成する必要があります。
+   Adobe Campaign用のOracleクライアントのインストールを終了するには、Adobe Campaignで使用する&#x200B;**.so**&#x200B;ファイルのシンボリックリンクを作成する必要があります。
 
    これを行うには、次のコマンドを使用します。
 
@@ -359,4 +359,4 @@ nlserver stop web
 
 Adobe Campaignサーバは、すべてのインスタンスに対してすべての権限を持つ、**internal**&#x200B;という技術的なログインを定義します。 インストール直後は、ログインにパスワードがありません。 定義する必要があります。
 
-[内部識別子](../../installation/using/campaign-server-configuration.md#internal-identifier)を参照してください。
+詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。

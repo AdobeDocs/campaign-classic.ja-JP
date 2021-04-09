@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 translation-type: tm+mt
-source-git-commit: 65662a49aefdd6b5f85b39677908696f093779e8
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '2835'
 ht-degree: 92%
@@ -199,7 +199,7 @@ Campaign で次のシステムがサポートされるようになりました�
 
 * iOS HTTP2 コネクタを使用する iOS モバイルアプリケーション用の証明書は、プッシュ通知を送信する前に検証されるようになりました。これにより、期限切れの証明書による配信の失敗を回避できます。
 
-* HTTP プロキシ接続の管理が改善されました。[詳細情報](../../installation/using/configuring-campaign-server.md#proxy-connection-configuration)。
+* HTTP プロキシ接続の管理が改善されました。[詳細情報](../../installation/using/file-res-management.md)。
 
 * **[!UICONTROL JavaScript コード]**&#x200B;と&#x200B;**[!UICONTROL 高度な JavaScript コード]**&#x200B;のワークフローアクティビティに、制限時間後に実行を停止する新しいオプションが追加されました。デフォルト値は 1 時間です。[詳細情報](../../workflow/using/sql-code-and-javascript-code.md#javascript-code)。
 

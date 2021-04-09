@@ -8,21 +8,31 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: 8ab0aab42accbd1253d53e8133f5af0a38c724ea
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 39%
+source-wordcount: '338'
+ht-degree: 34%
 
 ---
 
 
-# URL権限の設定{#url-permissions}
+# URL権限の設定（オンプレミス）{#url-permissions}
 
 Campaign Classic インスタンスの JavaScript コード（ワークフローなど）で呼び出すことができる URL のデフォルトリストは、制限されています。リストに記載されている URL を使用すれば、インスタンスは正常に機能します。
 
 デフォルトでは、インスタンスは外部の URL にアクセスできないようになっています。ただし、許可されたURLのリストに外部URLを追加して、それらのURLにインスタンスを接続することは可能です。 これにより、Campaign インスタンスを SFTP サーバーや Web サイトなどの外部システムと接続して、ファイルやデータの転送が可能になります。
 
+>[!NOTE]
+>
+>この手順は、**オンプレミス**&#x200B;のデプロイメントに制限されます。
+>
+>**ホスト**&#x200B;のお客様は、[キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)にアクセスできる場合、URL権限セルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
+>
+>他の&#x200B;**ハイブリッド/ホスト型**&#x200B;お客様は、IPを許可リストに追加するために、Adobeサポートチームに連絡する必要があります。
+
+
 **ハイブリッド**&#x200B;および&#x200B;**オンプレミス**&#x200B;のデプロイメントの場合、管理者は、新しい&#x200B;**urlPermission**&#x200B;を&#x200B;**serverConf.xml**&#x200B;ファイルで参照する必要があります。
+
 
 次の3つの接続保護モードを使用できます。
 
@@ -46,7 +56,7 @@ Campaign Classic インスタンスの JavaScript コード（ワークフロー
 
 詳しくは、次の節を参照してください。
 
-* [コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
+* [コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 * [モデルのホスティング](hosting-models.md)
 * [Campaign サーバーの設定](configuring-campaign-server.md)
 * [キャンペーンサーバー設定ファイルのパラメーター](the-server-configuration-file.md)

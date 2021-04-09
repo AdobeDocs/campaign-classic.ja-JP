@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '2483'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -509,7 +509,6 @@ ht-degree: 98%
       + [外部データベースへのアクセス](workflow/using/accessing-an-external-database--fda-.md)
       + [権限の管理](workflow/using/managing-rights.md)
       + [アクティビティ画像の管理](workflow/using/managing-activity-images.md)
-      + [傾向の管理](workflow/using/managing-propensity.md)
       + [タイムゾーンの管理](workflow/using/managing-time-zones.md)
       + [テクニカルワークフロー](workflow/using/about-technical-workflows.md)
 + オファーの管理 {#managing-offers}
@@ -625,7 +624,7 @@ ht-degree: 98%
       + [企業へのデプロイメント](installation/using/enterprise-deployment.md)
       + [ミッドソーシングへのデプロイメント](installation/using/mid-sourcing-deployment.md)
       + [パワーブースターとパワークラスター](installation/using/power-booster-and-power-cluster.md)
-   + セキュリティとプライバシーのチェックリスト {#security-privacy}
+   + セキュリティとプライバシーの設定{#security-privacy}
       + [セキュリティとプライバシーの基本を学ぶ](installation/using/get-started-security-privacy.md)
       + [パーソナライズ機能とプライバシー](installation/using/privacy.md)
       + [安全なアクセス管理](installation/using/access-management.md)
@@ -654,12 +653,13 @@ ht-degree: 98%
       + [主な手順](installation/using/about-initial-configuration.md)
       + [インスタンスの作成とログオン](installation/using/creating-an-instance-and-logging-on.md)
       + [データベースの作成と設定](installation/using/creating-and-configuring-the-database.md)
-      + [Campaign サーバーの設定](installation/using/campaign-server-configuration.md)
       + [インスタンスのデプロイ](installation/using/deploying-an-instance.md)
       + [組み込みパッケージのインストール](installation/using/installing-campaign-standard-packages.md)
    + Campaign の設定 {#additional-configurations}
       + [Campaign サーバーの設定](installation/using/configuring-campaign-server.md)
       + [セキュリティゾーンの定義](installation/using/security-zones.md)
+      + [URL権限の設定](installation/using/url-permissions.md)
+      + [Tomcatの設定](installation/using/configure-tomcat.md)
       + [技術的な電子メール設定](installation/using/email-deliverability.md)
       + [MXサーバーとキャンペーンの使用](installation/using/using-mx-servers.md)
       + [電子メール BCC の設定](installation/using/email-archiving.md)

@@ -1,25 +1,25 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: サーバー設定
-description: サーバー設定のベストプラクティスの詳細を表示します。
+title: サーバーセキュリティの設定
+description: サーバー設定のベストプラクティスの詳細
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 translation-type: tm+mt
-source-git-commit: e31d386af4def80cdf258457fc74205b1ca823b3
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 73%
+source-wordcount: '628'
+ht-degree: 70%
 
 ---
 
-# サーバー設定 {#server-configuration}
+# サーバーのセキュリティ設定 {#server-configuration}
 
 ## ファイルアップロードの保護
 
-nlclient／Web インターフェイスを使用して、サーバーにどのようなファイルをアップロードしているかをオペレーターにチェックします。次に、業務上必要である可能性のあるものを示します。
+運用ユーザに対して、キャンペーンクライアントコンソールまたはWebインターフェイスを使用して、サーバにアップロードするファイルの種類を確認します。 次に、業務上必要である可能性のあるものを示します。
 
 * 画像（jpg、gif、png など）
 * コンテンツ（zip、html、css など）

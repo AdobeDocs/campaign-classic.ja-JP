@@ -6,14 +6,14 @@ description: Adobe Campaignの設定、監視、アップグレードプロセ�
 audience: production
 content-type: reference
 topic-tags: troubleshooting
+exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
 translation-type: tm+mt
-source-git-commit: 0f2986f88f72c191262248029ec620fad538c218
+source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
-
 
 # 本番用トラブルシューティング{#troubleshooting}
 
@@ -65,4 +65,4 @@ ht-degree: 21%
 
 * [Linux でのスタックトレース](../../production/using/stack-trace-in-linux.md)
 * [JSP の動作](../../production/using/jsp-behavior.md)
-* [Tomcat バージョンの検索](../../production/using/locate-tomcat-version.md)
+* [Tomcatバージョンの検索](../../production/using/locate-tomcat-version.md)

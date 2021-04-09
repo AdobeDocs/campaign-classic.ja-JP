@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 95%
@@ -127,7 +127,7 @@ Adobe Campaignの電子メールの配信品質を最適化する方法につい
 
 * 送信サーバーに設定されていないアフィニティを配信で使用している可能性があります。
 
-   この場合は、トラフィック管理（IP アフィニティ）の設定をチェックし、「**[!UICONTROL IP アドレスを使用してアフィニティを管理する]**」フィールドを使用して、アフィニティを管理する MTA に配信をリンクします。アフィニティについて詳しくは、[この節](../../installation/using/configuring-campaign-server.md#delivery-settings)を参照してください。
+   この場合は、トラフィック管理（IP アフィニティ）の設定をチェックし、「**[!UICONTROL IP アドレスを使用してアフィニティを管理する]**」フィールドを使用して、アフィニティを管理する MTA に配信をリンクします。アフィニティについて詳しくは、[この節](../../installation/using/configure-delivery-settings.md)を参照してください。
 
 * 実行中のキャンペーンが多すぎる場合、配信ステータスは「保留」のままになります。
 

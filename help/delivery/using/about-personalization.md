@@ -6,16 +6,16 @@ description: キャンペーンでメッセージをパーソナライズし、�
 audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
+exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
 translation-type: tm+mt
-source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
+source-git-commit: d3ef2783409a3a36badbd3f8248ba1bdf6acae7e
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 86%
 
 ---
 
-
-# パーソナライゼーション{#about-personalization}で開始
+# パーソナライゼーションの使用を開始する{#about-personalization}
 
 Adobe Campaign で配信されるメッセージは、コンテンツや外観をいくつかの方法でパーソナライズできます。さらに、受信者のプロファイルから取得した条件に基づいて、それらの方法を組み合わせることもできます。E メール配信の場合は、配信の要素やパーソナライゼーション条件を、メッセージの「**[!UICONTROL ソース]**」タブに JavaScript を記述して直接定義できます。Adobe Campaign には、全体として次のようなパーソナライゼーション機能が備わっています。
 

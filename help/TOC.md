@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: 60ab99d006599edfcb997829ea0c452a2daea219
 workflow-type: tm+mt
-source-wordcount: '2489'
-ht-degree: 97%
+source-wordcount: '2516'
+ht-degree: 96%
 
 ---
 
@@ -394,6 +394,10 @@ ht-degree: 97%
       + [カスタム実装用のイベントの設定](integrations/using/events.md)
       + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
       + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
+   + Adobe Experience Platformのソースと宛先{#aep-sources-destinations}
+      + [ソースと宛先の使用を開始する](integrations/using/get-started-sources-destinations.md)
+      + [Adobe Experience Platformオーディエンスをキャンペーンに取り込む](integrations/using/ingest-aep-data.md)
+      + [キャンペーンからAdobe Experience Platformへのデータのエクスポート](integrations/using/export-campaign-data.md)
 + ワークフローを使用した自動化 {#automating-with-workflows}
    + ワークフローの基本を学ぶ {#introduction}
       + [ワークフローについて](workflow/using/about-workflows.md)

@@ -4,22 +4,26 @@ product: campaign
 title: Adobe Campaign Classic ドキュメントのアップデート
 description: このページでは、Adobe Campaign Classic のドキュメントのすべての新機能と更新をリストします
 feature: 概要
-role: ビジネス従事者
-level: 初心者
+role: Business Practitioner
+level: Beginner
+exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 translation-type: tm+mt
-source-git-commit: 57c1ca827beac9a3c95e63ca17fdb43be237eb28
+source-git-commit: 69630f1450241e15d385dc03a3a2b02f6f7c850b
 workflow-type: tm+mt
-source-wordcount: '4295'
-ht-degree: 96%
+source-wordcount: '4324'
+ht-degree: 97%
 
 ---
-
 
 # ドキュメントのアップデート{#documentation-updates}
 
 このページには、毎月および Campaign の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
 
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
+
+## 2021 年 4 月 {#april-2021}
+
+新しいセクションでは、Campaign ClassicとAdobeのリアルタイム・カスタマー・データ・プラットフォーム(RTCDP)間でデータを共有するための、Adobe Experience Platformのソースと宛先の使い方について説明しました。 [詳細情報](../../integrations/using/get-started-sources-destinations.md)
 
 ## 2021 年 3 月 {#march-2021}
 
@@ -40,7 +44,7 @@ Campaign Classic用の「ヘルプとサポートのオプション」ページ�
 
 task.setCompleted() メソッドを使用してタスクを終了し将来のリコールを防ぐ方法に関する情報が、「**[!UICONTROL 高度な JavaScript]**」アクティビティの節に追加されました。[詳細情報](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
-「[配信品質](../../delivery/using/about-deliverability.md)」セクションが更新され、新しい「[Adobe配信品質のベストプラクティスガイド](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)」へのリンクが追加されました。 様々なAdobeソリューションに適用できる配信品質に関する一般的な情報はすべて、[ベストプラクティスガイド付録](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources)に移動されました。
+[配信品質](../../delivery/using/about-deliverability.md)の節が更新され、新しい[アドビ配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)へのリンクが追加されました。 様々なアドビソリューションに適用できる配信品質に関する一般的な情報はすべて、[ベストプラクティスガイド付録](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ja#additional-resources)に移動しました。
 
 ## 2021 年 2 月 {#release-21.1}
 

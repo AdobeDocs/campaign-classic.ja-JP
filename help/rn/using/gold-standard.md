@@ -4,22 +4,30 @@ product: campaign
 title: '[!DNL Gold Standard] リリースノート'
 description: Campaign Classic [!DNL Gold Standard]のリリースノート
 feature: 概要
-role: ビジネス従事者
-level: 初心者
+role: Business Practitioner
+level: Beginner
+exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+source-git-commit: ac01b3c064209362cc6142a716d2892c27753d76
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 94%
 
 ---
-
 
 # [!DNL Gold Standard] リリースノート{#gold-standard}
 
 このページリスト[!DNL Gold Standard]はリリースしています。 キャンペーン[!DNL Gold Standard] [の詳細については、このページ](gs-overview.md)を参照してください。
 
 ## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] 11リリース{#gs-11}
+
+_2021年4月14日_
+
+ビルド9032@d030c36には、次の修正が含まれています。
+
+* IMS接続画面で永続的なエラーメッセージが発生するクライアントコンソールの問題を修正しました。 （NEO-34821）
+
+**コンソールのアップグレードのみ必須です。サーバーのアップグレードは必要ありません。**
 
 _2021 年 3 月 2 日_
 
@@ -31,16 +39,16 @@ _2021 年 3 月 2 日_
 
 >[!NOTE]
 >
-> [アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続して、新しいバージョンをダウンロードします。 [このページ](../../installation/using/client-console-availability-for-windows.md)では、すべてのエンドユーザーに対してコンソールの更新を提案する方法について説明します。
+> [アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)に接続して、新しいバージョンをダウンロードします。 [このページ](../../installation/using/client-console-availability-for-windows.md)では、すべてのエンドユーザーに対してコンソールの更新を提案する方法について説明します。
 
 
 _2020 年 12 月 22 日_
 
 >[!CAUTION]
 >
-> * このリリースには、新しい接続プロトコルが付属しています。AdobeIDサービス(IMS)を介してキャンペーンに接続する場合、**2021年6月30日**&#x200B;以降、キャンペーンサーバーとクライアントコンソールの両方がキャンペーンに接続できるように、アップグレードが必要です。
+> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス (IMS) を介して Campaign に接続する場合は、 **2021 年 6 月 30 日**&#x200B;以降、Campaign サーバーとクライアントコンソールのいずれも、Campaign に接続できるようにするには、アップグレードが必要です。
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
-> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。キャンペーン付きの従来のoAuth認証モードは、2021年11月30日に&#x200B;**終了します。**
+> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、**2021 年 11 月 30 日**&#x200B;に終了します。
 
 >
 >

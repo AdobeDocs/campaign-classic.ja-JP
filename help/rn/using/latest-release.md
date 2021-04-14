@@ -4,14 +4,14 @@ product: campaign
 title: 最新リリース
 description: 最新の Campaign Classic リリース注意
 feature: 概要
-role: ビジネス従事者
-level: 初心者
+role: Business Practitioner
+level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 translation-type: tm+mt
-source-git-commit: 3db426580ba72668cd9fa274b57f925600eda27b
+source-git-commit: 2c2dff554c716468c0984f3d893bd29aa9fd4453
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 98%
+source-wordcount: '921'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,14 @@ ht-degree: 98%
 >キャンペーン&#x200B;**GA (General Availability)ビルド**&#x200B;は次のとおりです。[[!DNL Gold Standard] 11リリース](../../rn/using/gold-standard.md#gs-11)と[キャンペーン20.2.5リリース](../../rn/using/release--20-2.md)。
 
 
-## ![](assets/do-not-localize/blue_2.png) リリース 21.1.1 - ビルド 9277 {#release-21-1-1-build-9277}
+## ![](assets/do-not-localize/blue_2.png) リリース 21.1.2 - ビルド 9282 {#release-21-1-2-build-9282}
+
+_2021年4月14日_
+
+* パスワード管理が強化され、セキュリティが最適化されました。
+* MTAがクラッシュする可能性がある問題を修正しました。
+
+## ![](assets/do-not-localize/red_2.png) リリース 21.1.1 - ビルド 9277 {#release-21-1-1-build-9277}
 
 _2021 年 2 月 22 日_
 

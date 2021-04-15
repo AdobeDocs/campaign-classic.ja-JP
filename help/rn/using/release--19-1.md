@@ -6,18 +6,28 @@ description: Campaign 19.1 のリリースノート
 feature: null
 role: null
 level: null
+exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
 translation-type: tm+mt
-source-git-commit: 631e7a0f89a365626401a6157ef84442fa0fd59f
+source-git-commit: 5271a23f7d815d432cfec00c57555c18be1fd3c7
 workflow-type: tm+mt
-source-wordcount: '3209'
+source-wordcount: '3267'
 ht-degree: 99%
 
 ---
 
-
 # リリース 19.1{#release-19-1}
 
 ## ![](assets/do-not-localize/limited_2.png) リリース 19.1.8 - ビルド 9039 {#release-19-1-8-build-9039}
+
+_2021年4月16日_
+
+* IMS接続画面で永続的なエラーメッセージが発生するクライアントコンソールの問題を修正しました。 （NEO-34821）
+
+**コンソールのアップグレードのみ必須です。サーバーのアップグレードは必要ありません。**
+
+>[!NOTE]
+>
+> [アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続して、新しいバージョンをダウンロードします。 [このページ](../../installation/using/client-console-availability-for-windows.md)では、すべてのエンドユーザーに対してコンソールの更新を提案する方法について説明します。
 
 _2021 年 3 月 22 日_
 

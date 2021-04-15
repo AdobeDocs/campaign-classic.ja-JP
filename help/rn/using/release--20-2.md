@@ -8,16 +8,26 @@ role: Business Practitioner
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
 translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: 1c59afc7021af604559184cd0c21129af3759a8c
 workflow-type: tm+mt
-source-wordcount: '2835'
-ht-degree: 92%
+source-wordcount: '2975'
+ht-degree: 91%
 
 ---
 
 # リリース 20.2{#release-20-2}
 
 ## ![](assets/do-not-localize/green_2.png) リリース 20.2.5 - ビルド 9188 {#release-20-2-5-build-9188}
+
+_2021年4月16日_
+
+* IMS接続画面で永続的なエラーメッセージが発生するクライアントコンソールの問題を修正しました。 （NEO-34821）
+
+**コンソールのアップグレードのみ必須です。サーバーのアップグレードは必要ありません。**
+
+>[!NOTE]
+>
+> [アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続して、新しいバージョンをダウンロードします。 [このページ](../../installation/using/client-console-availability-for-windows.md)では、すべてのエンドユーザーに対してコンソールの更新を提案する方法について説明します。
 
 _2021 年 3 月 31 日_
 
@@ -37,6 +47,17 @@ _2021 年 3 月 31 日_
 * 配信での日付選択や画像管理など、コンソールの一部のコンポーネントを使用できないリグレッションを修正しました。 （NEO-31453）
 
 ## ![](assets/do-not-localize/red_2.png) リリース 20.2.4 - ビルド 9187 {#release-20-2-4-build-9187}
+
+_2021年4月16日_
+
+* IMS接続画面で永続的なエラーメッセージが発生するクライアントコンソールの問題を修正しました。 （NEO-34821）
+* 配信での日付選択や画像管理など、コンソールの一部のコンポーネントを使用できないリグレッションを修正しました。 （NEO-31453、NEO-31454）
+
+**コンソールのアップグレードのみ必須です。サーバーのアップグレードは必要ありません。**
+
+>[!NOTE]
+>
+> [アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)に接続して、新しいバージョンをダウンロードします。 [このページ](../../installation/using/client-console-availability-for-windows.md)では、すべてのエンドユーザーに対してコンソールの更新を提案する方法について説明します。
 
 _2020 年 12 月 22 日_
 

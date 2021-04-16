@@ -4,22 +4,22 @@ product: campaign
 title: Campaign Classic の互換性マトリックス
 description: Campaign Classic 互換性マトリックス
 feature: 概要
-role: ビジネス従事者
-level: 初心者
-translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
-workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 98%
+role: Business Practitioner
+level: Beginner
+exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '524'
+ht-degree: 100%
 
 ---
-
 
 # 互換性マトリックス{#compatibility-matrix}
 
 このドキュメントでは、**Adobe Campaign Classic** の[最新ビルド](../../rn/using/latest-release.md)でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
 
-[!DNL Gold Standard]ユーザーの場合は、[[!DNL Gold Standard] 互換表](../../rn/using/compatibility-matrix-gs.md)を参照してください。
+[!DNL Gold Standard] ユーザーの場合は、[[!DNL Gold Standard]  互換性マトリックス](../../rn/using/compatibility-matrix-gs.md)を参照してください。
 
 ## 重要な注意事項{#important-notes}
 

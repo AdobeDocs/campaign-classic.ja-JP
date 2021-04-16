@@ -27,7 +27,7 @@ _2021年4月16日_
 
 >[!NOTE]
 >
-> [アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続して、新しいバージョンをダウンロードします。 [このページ](../../installation/using/client-console-availability-for-windows.md)では、すべてのエンドユーザーに対してコンソールの更新を提案する方法について説明します。
+> [アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)に接続して、新しいバージョンをダウンロードします。 [このページ](../../installation/using/client-console-availability-for-windows.md)では、すべてのエンドユーザーに対してコンソールの更新を提案する方法について説明します。
 
 _2021 年 3 月 22 日_
 
@@ -138,7 +138,7 @@ _2019 年 8 月 13 日_
 
 >[!NOTE]
 >
->19.1.4 [!DNL Gold Standard]リリースは、この[ページ](../../rn/using/gold-standard.md)に記載されています。
+>[!DNL Gold Standard] 19.1.4 リリースはこの[ページ](../../rn/using/gold-standard.md)に記載されています。
 
 
 ## ![](assets/do-not-localize/red_2.png) リリース 19.1.2 - ビルド 9029{#release-19-1-2-build-9029}

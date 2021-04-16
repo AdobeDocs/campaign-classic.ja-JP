@@ -7,11 +7,11 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01daff5d95f4635182041b949a21c80cae5e4473
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1713'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <li>web API - Microsoft Dynamics CRM オンライン：2016、2016 Update 1</li>
    <li>Oracle オンデマンド API</li>
    </ul>
-  <p><em>ターゲットの削除日：2021年5月</em></p>
+  <p><em>削除予定日：2021 年 5 月</em></p>
   </td>
  </tr>
   <tr>
@@ -69,21 +69,21 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <td><p>Campaign 20.3 リリースより、iOS レガシーバイナリコネクタは非推奨（廃止予定）になります。<p>
   <p> このコネクタを使用している場合は、これに応じて実装を適応させる必要があります。
 <a href="https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html">詳細情報</a></p>
-  <p><em>ターゲットの削除日：2021年5月</em></p>
+  <p><em>削除予定日：2021 年 5 月</em></p>
   </td>
  </tr>
    <tr>
   <td>Demdex ドメイン<br></td>
   <td><p> Campaign 20.3 リリースより、Adobe Experience Cloud へのオーディエンスのインポートおよびエクスポートに使用する demdex ドメインは非推奨（廃止予定）になります。<p>
   <p>インポート/エクスポート外部アカウントに demdex ドメインを使用している場合は、それに応じて実装を適応させる必要があります。<a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">詳細情報</a></p> 
-  <p><em>ターゲットの削除日：2021年5月</em></p>
+  <p><em>削除予定日：2021 年 5 月</em></p>
   </td>
   <tr>
   <td>OAuth 認証（OAuth および JWT）<br></td>
   <td><p> Campaign 20.3 リリースより、パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合認証が変更され、Adobe I/O に移動しました。 <p>
   <p>Triggers 統合を使用している場合は、これに応じて実装を適応させる必要があります。<a href="../../integrations/using/configuring-adobe-io.md">詳細情報</a></p> 
   <p>OAuth 認証の廃止予定について詳しくは、この<a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">ページ</a>を参照してください。</p> 
-  <p><em>ターゲットの削除日：2021年11月</em></p>
+  <p><em>削除予定日：2021 年 11 月</em></p>
   </td>
   </tr>
   <td>SMS コネクタ<br></td>
@@ -98,14 +98,14 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    </ul>
   <p>これらのコネクタのいずれかを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../delivery/using/sms-channel.md">詳細情報</a></p> 
   <p><a href="../../delivery/using/unsupported-connector-migration.md">このテクニカルノート</a>では、従来のコネクタを移行する方法について説明します。</p>
-  <p><em>ターゲットの削除日：2021年5月</em></p>
+  <p><em>削除予定日：2021 年 5 月</em></p>
   </td> 
  </tr>
   <tr>  
    <td>FAX チャネル<br></td>
    <td><p>Campaign 20.2 リリースより、FAX チャネルは非推奨（廃止予定）になります。</p> 
    <p>このチャネルを使用する場合は、それに応じて実装を適応させる必要があります。Campaign チャネルの<a href="../../delivery/using/steps-about-delivery-creation-steps.md">詳細情報</a>を参照してください。</p>
-   <p><em>ターゲットの削除日：2021年5月</em></p></td>
+   <p><em>削除予定日：2021 年 5 月</em></p></td>
   </tr>
  </tbody> 
 </table>

@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 60ab99d006599edfcb997829ea0c452a2daea219
 workflow-type: tm+mt
 source-wordcount: '2516'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 96%
 + リリースノート{#release-notes}
    + [アップグレードの基本を学ぶ](rn/using/rn-overview.md)
    + [最新リリース](rn/using/latest-release.md)
-   + [!DNL Gold Standard] release {#gs-release}
-      + [概要 [!DNL Gold Standard]](rn/using/gs-overview.md)
+   + [!DNL Gold Standard] リリース {#gs-release}
+      + [ [!DNL Gold Standard]](rn/using/gs-overview.md) について
       + [[!DNL Gold Standard] リリースノート](rn/using/gold-standard.md)
-      + [[!DNL Gold Standard] 互換行列](rn/using/compatibility-matrix-gs.md)
+      + [[!DNL Gold Standard] 互換性マトリックス](rn/using/compatibility-matrix-gs.md)
    + 以前のリリース {#previous-releases}
       + [リリース 20.3](rn/using/release--20-3.md)
       + [リリース 20.2](rn/using/release--20-2.md)
@@ -48,7 +48,7 @@ ht-degree: 96%
       + [Adobe Campaign の起動](platform/using/launching-adobe-campaign.md)
       + Adobe Campaign のワークスペース{#campaign-workspace}
          + [Campaign UI の基本を学ぶ](platform/using/adobe-campaign-workspace.md)
-         + [キャンペーンエクスプローラを使用](platform/using/adobe-campaign-explorer.md)
+         + [Campaign エクスプローラーの使用](platform/using/adobe-campaign-explorer.md)
          + [リストの参照とカスタマイズ](platform/using/adobe-campaign-ui-lists.md)
       + よくある質問（FAQ） {#faq}
          + [よくある質問](platform/using/common-questions.md)
@@ -114,7 +114,7 @@ ht-degree: 96%
       + CRM コネクタ{#crm-connectors}
          + [CRM コネクタの基本を学ぶ](platform/using/crm-connectors.md)
          + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
-         + [Salesforce.comとの接続](platform/using/crm-sfdc.md)
+         + [Salesforce.com との接続](platform/using/crm-sfdc.md)
          + [CRM とのデータの同期](platform/using/crm-data-sync.md)
       + [Adobe Analytics データコネクタ](platform/using/adobe-analytics-data-connector.md)
    + [ヘルプとサポートのオプション](support.md)
@@ -146,16 +146,16 @@ ht-degree: 96%
          + [日本の携帯電話向け送信](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [ファイルの添付](delivery/using/attaching-files.md)
    + SMS の送信 {#sending-messages-on-mobiles}
-      + [SMSの使用を開始する](delivery/using/sms-channel.md)
-      + [SMSチャネルの構成](delivery/using/sms-set-up.md)
-      + [SMSの作成](delivery/using/sms-create.md)
-      + [SMSの送信と追跡](delivery/using/sms-send.md)
+      + [SMS の基本を学ぶ](delivery/using/sms-channel.md)
+      + [SMS チャネルの設定](delivery/using/sms-set-up.md)
+      + [SMS の作成](delivery/using/sms-create.md)
+      + [SMS の送信とトラック](delivery/using/sms-send.md)
       + [SMS コネクタのプロトコルと設定](delivery/using/sms-protocol.md)
       + [SMS のトラブルシューティング](delivery/using/troubleshooting-sms.md)
       + [拡張汎用 SMPP コネクタへの移行](delivery/using/unsupported-connector-migration.md)
    + [LINE メッセージの送信](delivery/using/line-channel.md)
    + プッシュ通知の送信 {#sending-push-notifications}
-      + [モバイルアプリのチャネルをはじめる](delivery/using/about-mobile-app-channel.md)
+      + [モバイルアプリチャネルの基本を学ぶ](delivery/using/about-mobile-app-channel.md)
       + [モバイルアプリケーションへの Campaign SDK の統合](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + モバイルアプリケーションの設定{#configure-the-mobile-app}
          + [アプリ設定の基本を学ぶ](delivery/using/get-started-app-config.md)
@@ -213,7 +213,7 @@ ht-degree: 96%
       + [配信のトラブルシューティング](delivery/using/delivery-troubleshooting.md)
       + [配信ステータス](delivery/using/delivery-statuses.md)
       + [配信エラーについて](delivery/using/understanding-delivery-failures.md)
-      + [ISPの使用停止後にバウンスの資格を更新する](delivery/using/update-bounce-qualification.md)
+      + [ISP の使用停止後にバウンスの資格を更新](delivery/using/update-bounce-qualification.md)
       + [強制隔離管理について](delivery/using/understanding-quarantine-management.md)
    + メッセージのトラッキング {#tracking-messages}
       + [メッセージトラッキングについて](delivery/using/about-message-tracking.md)
@@ -628,7 +628,7 @@ ht-degree: 96%
       + [企業へのデプロイメント](installation/using/enterprise-deployment.md)
       + [ミッドソーシングへのデプロイメント](installation/using/mid-sourcing-deployment.md)
       + [パワーブースターとパワークラスター](installation/using/power-booster-and-power-cluster.md)
-   + セキュリティとプライバシーの設定{#security-privacy}
+   + セキュリティとプライバシーの設定 {#security-privacy}
       + [セキュリティとプライバシーの基本を学ぶ](installation/using/get-started-security-privacy.md)
       + [パーソナライズ機能とプライバシー](installation/using/privacy.md)
       + [安全なアクセス管理](installation/using/access-management.md)
@@ -662,12 +662,12 @@ ht-degree: 96%
    + Campaign の設定 {#additional-configurations}
       + [Campaign サーバーの設定](installation/using/configuring-campaign-server.md)
       + [セキュリティゾーンの定義](installation/using/security-zones.md)
-      + [URL権限の設定](installation/using/url-permissions.md)
+      + [URL 権限の設定](installation/using/url-permissions.md)
       + [ファイルとリソース](installation/using/file-res-management.md)
-      + [Tomcatの設定](installation/using/configure-tomcat.md)
+      + [Tomcat の設定](installation/using/configure-tomcat.md)
       + [配信設定の指定](installation/using/configure-delivery-settings.md)
-      + [技術的な電子メール設定](installation/using/email-deliverability.md)
-      + [MXサーバーとキャンペーンの使用](installation/using/using-mx-servers.md)
+      + [技術的な E メール設定](installation/using/email-deliverability.md)
+      + [MX サーバーと Campaign の使用](installation/using/using-mx-servers.md)
       + [電子メール BCC の設定](installation/using/email-archiving.md)
       + [SpamAssassin の設定](installation/using/configuring-spamassassin.md)
    + Campaign に接続{#connect-to-campaign}

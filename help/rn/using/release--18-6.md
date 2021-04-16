@@ -7,16 +7,16 @@ audience: rn
 content-type: reference
 topic-tags: latest-release-notes
 feature: 概要
-role: ビジネス従事者
-level: 初心者
-translation-type: ht
-source-git-commit: ce60b2bd0a9d75ca429af2f740832b408ce3c48b
-workflow-type: ht
-source-wordcount: '819'
+role: Business Practitioner
+level: Beginner
+exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
+translation-type: tm+mt
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: tm+mt
+source-wordcount: '816'
 ht-degree: 100%
 
 ---
-
 
 # リリース 18.6{#release-18-6}
 
@@ -82,7 +82,7 @@ Query Banding について詳しくは、以下の記事を参照してくださ
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新ビルドにアップグレードする](../../production/using/build-upgrade.md)か、[テクニカルサポート](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新ビルドにアップグレードする](../../production/using/build-upgrade.md)か、[テクニカルサポート](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **新機能?**
 
@@ -100,7 +100,7 @@ Query Banding について詳しくは、以下の記事を参照してくださ
   </tr> 
   <tr> 
    <td> Windows Server 2016 のサポート<br /> </td> 
-   <td> Adobe Campaign は現在、Windows Server 2016 に対応しています。<a href="https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html">Campaign Classic の互換性マトリックス</a>を参照してください。<br /> </td> 
+   <td> Adobe Campaign は現在、Windows Server 2016 に対応しています。<a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Campaign Classic の互換性マトリックス</a>を参照してください。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

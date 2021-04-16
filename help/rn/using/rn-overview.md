@@ -7,11 +7,11 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8294b522efb51cb1b961c9284675c7966132e957
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,14 +51,14 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ホスト型顧客（マネージドサービスまたはハイブリッド）は、環境をアップグレードするには、カスタマーケアに連絡する必要があります。
 
-オンプレミスユーザーは、アップグレードを実行できます。これをおこなうには、[最新の安定したビルドをダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)して、すべての環境をアップグレードする必要があります。[アップグレードプロセス](../../production/using/build-upgrade.md)の詳細については、[ビルドアップグレードの FAQ](../../platform/using/faq-build-upgrade.md) を参照してください。
+オンプレミスユーザーは、アップグレードを実行できます。これをおこなうには、[最新の安定したビルドをダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)して、すべての環境をアップグレードする必要があります。[アップグレードプロセス](../../production/using/build-upgrade.md)の詳細については、[ビルドアップグレードの FAQ](../../platform/using/faq-build-upgrade.md) を参照してください。
 
 ### [!DNL Gold Standard]{#upgrade-for-gold-standard-users}
 
-[!DNL Gold Standard]のホストユーザーは、[最新のGA [!DNL Gold Standard] build](../../rn/using/gold-standard.md#gs-11)を使用して、[!DNL Gold Standard]アップグレードを何も行わなくても、自動的にメリットを得られます。 [詳細情報](../../rn/using/gs-overview.md)。
+ホストされている [!DNL Gold Standard] のユーザーは、自動的に [!DNL Gold Standard] のアップグレードのメリットが得られるため、アップグレードアクションを起こすことなく[最新の GA [!DNL Gold Standard]  ビルド](../../rn/using/gold-standard.md#gs-11)が利用できます。[詳細情報](../../rn/using/gs-overview.md)。
 
 >[!NOTE]
->[!DNL Gold Standard]の互換表は[GA互換表](../../rn/using/compatibility-matrix-gs.md)にあります。
+>[!DNL Gold Standard] の互換性マトリックスは、[GA 互換性マトリックス](../../rn/using/compatibility-matrix-gs.md)に記載されています。
 
 ## サポートおよびその他の役に立つリンク{#support}
 

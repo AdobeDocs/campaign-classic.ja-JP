@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: abd5c7430c3f7a1a056a014ad46a0b94157e259f
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->キャンペーン&#x200B;**GA (General Availability)ビルド**&#x200B;は次のとおりです。[[!DNL Gold Standard] 11リリース](../../rn/using/gold-standard.md#gs-11)と[キャンペーン20.2.5リリース](../../rn/using/release--20-2.md)。
+>Campaign **一般公開（GA）ビルド**&#x200B;は次のとおりです。[[!DNL Gold Standard]  11 リリース](../../rn/using/gold-standard.md#gs-11)と [Campaign 20.2.5 リリース](../../rn/using/release--20-2.md)。
 
 ## ![](assets/do-not-localize/blue_2.png) リリース 21.1.2 - ビルド 9282 {#release-21-1-2-build-9282}
 

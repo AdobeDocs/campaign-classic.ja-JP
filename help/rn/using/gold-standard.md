@@ -2,7 +2,7 @@
 solution: Campaign Classic
 product: campaign
 title: '[!DNL Gold Standard] リリースノート'
-description: Campaign Classic [!DNL Gold Standard]のリリースノート
+description: Campaign Classic  [!DNL Gold Standard] のリリースノート
 feature: 概要
 role: Business Practitioner
 level: Beginner
@@ -11,15 +11,15 @@ translation-type: tm+mt
 source-git-commit: 113a3535cd197f9b654fc1e50e20886e76ee886a
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
 # [!DNL Gold Standard] リリースノート{#gold-standard}
 
-このページリスト[!DNL Gold Standard]はリリースしています。 キャンペーン[!DNL Gold Standard] [の詳細については、このページ](gs-overview.md)を参照してください。
+このページには、[!DNL Gold Standard] のリリースがリストされています。Campaign [!DNL Gold Standard] の詳細については、[このページ](gs-overview.md)を参照してください。
 
-## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] 11リリース{#gs-11}
+## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] 11 リリース{#gs-11}
 
 _2021年4月14日_
 
@@ -51,7 +51,7 @@ _2020 年 12 月 22 日_
 
 >
 >
-詳しくは、[[!DNL Gold Standard] 11アップグレードFAQ](https://helpx.adobe.com/jp/campaign/kb/gold-standard-upgrade.html)を参照してください。
+詳しくは、[[!DNL Gold Standard]  11 アップグレード FAQ](https://helpx.adobe.com/jp/campaign/kb/gold-standard-upgrade.html) を参照してください。
 
 ビルド 9032@d3b452f には、次の機能強化および修正が含まれています。
 
@@ -65,7 +65,7 @@ _2020 年 12 月 22 日_
 
 * **エンリッチメント**&#x200B;アクティビティの実行時にワークフローが失敗する可能性がある問題を修正しました。（NEO-17338）
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 10リリース{#gs-10}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 10 リリース{#gs-10}
 
 _2020 年 7 月 7 日_
 
@@ -77,7 +77,7 @@ _2020 年 7 月 7 日_
 >
 >クライアントコンソールをこのリリースに含まれるものにアップグレードすることをお勧めします。[このページ](../../installation/using/installing-the-client-console.md)を参照してください。
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 9リリース{#gs-9}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 9 リリース{#gs-9}
 
 _2020 年 6 月 22 日_
 
@@ -93,7 +93,7 @@ _2020 年 6 月 22 日_
 * フィッシング詐欺対策サービスの問題を修正しました。（NEO-25283）
 * 特定のカスタムトラッキング式を使用する場合のトラッキングの問題を修正しました。（NEO-25277）
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 8リリース{#gs-8}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 8 リリース{#gs-8}
 
 _2020 年 4 月 29 日_
 
@@ -118,7 +118,7 @@ _2020 年 4 月 29 日_
 * クリーンアップワークフローがクラッシュする原因となる問題を修正しました。
 * クリーンアップワークフローログの軽度の問題を修正しました。
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 6リリース{#gs-6}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 6 リリース{#gs-6}
 
 _2020 年 3 月 9 日_
 
@@ -126,7 +126,7 @@ _2020 年 3 月 9 日_
 
 * FTP over SSL を使用する外部アカウントの問題を修正しました。（NEO-20498）
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 5リリース{#gs-5}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 5 リリース{#gs-5}
 
 _2019 年 12 月 17 日_
 
@@ -134,7 +134,7 @@ _2019 年 12 月 17 日_
 
 * モバイル（SMS、MMS）、プッシュ（iOS、Android）およびソーシャルネットワーク（Facebook、Twitter）の各通信チャネルでのトラッキングの問題を修正しました。（NEO-19595）
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 4リリース{#gs-4}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 4 リリース{#gs-4}
 
 _2019 年 12 月 11 日_
 
@@ -142,7 +142,7 @@ _2019 年 12 月 11 日_
 
 * MSSQL データベースでメッセージを送信する際のパフォーマンスの問題を修正しました。（NEO-17558）
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 3リリース{#gs-3}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 3 リリース{#gs-3}
 
 _2019 年 11 月 20 日_
 
@@ -152,7 +152,7 @@ _2019 年 11 月 20 日_
 * 複数の配信に関する累積レポートを表示する際の問題を修正しました。（NEO-18165）
 * Web サーバーがブロックまたはクラッシュする可能性がある問題を修正しました。
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 2リリース{#gs-2}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 2 リリース{#gs-2}
 
 _2019 年 9 月 19 日_
 

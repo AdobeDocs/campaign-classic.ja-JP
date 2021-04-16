@@ -1,19 +1,19 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Campaign の互換性マトリックス [!DNL Gold Standard]
-description: ' [!DNL Gold Standard] リリースのCampaign Classic互換表'
+title: Campaign  [!DNL Gold Standard] の互換性マトリックス
+description: Campaign Classic 互換性マトリックス（ [!DNL Gold Standard] リリース）
 feature: 概要
-role: ビジネス従事者
-level: 初心者
-translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
-workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 98%
+role: Business Practitioner
+level: Beginner
+exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '509'
+ht-degree: 100%
 
 ---
-
 
 # [!DNL Gold Standard] 互換性マトリックス{#compatibility-matrix-gs}
 
@@ -178,7 +178,7 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <p>API バージョン 15</p>
 </td>
 </tr>
-<tr><td>Oracle On Demand API</td>
+<tr><td>Oracle オンデマンド API</td>
 <td>
 <p>Web サービス v1.0 API</p>
 </td>

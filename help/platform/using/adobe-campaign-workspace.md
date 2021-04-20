@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign ワークスペース
 description: Campaign ワークスペースの使用方法とカスタマイズ方法を説明します。
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13

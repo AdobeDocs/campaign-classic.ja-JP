@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: ネームド権限を使用した権限の設定
 description: ネームド権限を使用して権限を設定する方法を説明します
-feature: アクセス管理
+feature: Access Management
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0

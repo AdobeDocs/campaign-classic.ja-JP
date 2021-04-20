@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Campaign Classic の非推奨（廃止予定）および削除された機能
 description: このページには、Adobe Campaign Classic の非推奨および削除された機能が表示されます
-feature: 概要
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645

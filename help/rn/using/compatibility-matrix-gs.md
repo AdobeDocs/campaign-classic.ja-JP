@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Campaign  [!DNL Gold Standard] の互換性マトリックス
 description: Campaign Classic 互換性マトリックス（ [!DNL Gold Standard] リリース）
-feature: 概要
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c

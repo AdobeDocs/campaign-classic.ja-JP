@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: キャンペーンフォルダーへのアクセスの管理
 description: キャンペーンフォルダーへのアクセスを許可し、ビューを作成する方法について説明します。
-feature: アプリケーション設定
+feature: Application Settings
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3

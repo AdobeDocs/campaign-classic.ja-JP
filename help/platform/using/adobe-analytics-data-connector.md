@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Analytics Data コネクタ
 description: Adobe Analytics Data コネクタ
-feature: 概要
-role: 営業者、管理者
-level: 初心者
+feature: Overview
+role: Business Practitioner, Administrator
+level: Beginner
 translation-type: tm+mt
 source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt

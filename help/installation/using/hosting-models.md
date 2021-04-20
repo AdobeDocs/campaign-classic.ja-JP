@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: ホスティングのモデル
 description: Discoverキャンペーンのホスティングモデル
-feature: 概要
-role: 建築家
-level: 初心者
+feature: Overview
+role: Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 09bd634142f643206c38ac5f881302a5d489ecaf
 workflow-type: tm+mt

@@ -6,7 +6,7 @@ description: Campaign 18.6 のリリースノート
 audience: rn
 content-type: reference
 topic-tags: latest-release-notes
-feature: 概要
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65

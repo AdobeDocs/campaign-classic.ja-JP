@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: '[!DNL Gold Standard] リリースノート'
 description: Campaign Classic  [!DNL Gold Standard] のリリースノート
-feature: 概要
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e

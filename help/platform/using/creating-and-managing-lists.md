@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: リストの作成および管理
 description: リストの作成および管理方法を説明します。
-feature: プロファイル
-role: ビジネス従事者
-level: 初心者
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
 workflow-type: tm+mt

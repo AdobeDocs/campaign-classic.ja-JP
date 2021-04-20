@@ -3,9 +3,9 @@ solution: Campaign Classic
 product: campaign
 title: 汎用インポートおよびエクスポートについて
 description: 一般的なインポートおよびエクスポートの詳細を説明します。
-feature: 概要
-role: ビジネス実践者、データアーキテクト
-level: 初心者
+feature: Overview
+role: Business Practitioner, Data Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
 workflow-type: tm+mt

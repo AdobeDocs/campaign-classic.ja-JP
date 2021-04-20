@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Campaign オペレーターの基本を学ぶ
 description: キャンペーンユーザーの作成および管理方法を説明します。
-feature: アクセス管理
+feature: Access Management
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39

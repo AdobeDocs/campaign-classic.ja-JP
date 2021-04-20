@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic ドキュメントのアップデート
 description: このページでは、Adobe Campaign Classic のドキュメントのすべての新機能と更新をリストします
-feature: 概要
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91

@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Campaign 20.3 リリースノート
 description: Campaign 20.3 のリリースノート
-feature: 概要
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265

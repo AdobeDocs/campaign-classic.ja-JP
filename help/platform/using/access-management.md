@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: 権限の基本を学ぶ
 description: Campaign 機能へのアクセスを許可する方法について説明します。
-feature: アクセス管理
+feature: Access Management
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e

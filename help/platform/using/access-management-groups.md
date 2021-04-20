@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: オペレーターグループの作成と管理
 description: オペレーターグループにアクセス権を付与する方法を説明します。
-feature: アクセス管理
+feature: Access Management
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525

@@ -9,10 +9,10 @@ solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 60ab99d006599edfcb997829ea0c452a2daea219
+source-git-commit: b741b10fd1d3a94a3e6c71e95ff43cc0ee54ebc7
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 98%
+source-wordcount: '2519'
+ht-degree: 99%
 
 ---
 
@@ -42,6 +42,7 @@ ht-degree: 98%
    + [テクニカルノート](technotes/technote.md)
    + [iOS 証明書の更新](technotes/ios-certificate-update.md)
    + [Campaign 設定の更新](technotes/acc-config-updates.md)
+   + [URLの更新の追跡](technotes/tracked-urls.md)
 + はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic の基本を学ぶ](platform/using/about-adobe-campaign-classic.md)
@@ -394,10 +395,10 @@ ht-degree: 98%
       + [カスタム実装用のイベントの設定](integrations/using/events.md)
       + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
       + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
-   + Adobe Experience Platformのソースと宛先{#aep-sources-destinations}
-      + [ソースと宛先の使用を開始する](integrations/using/get-started-sources-destinations.md)
-      + [Adobe Experience Platformオーディエンスをキャンペーンに取り込む](integrations/using/ingest-aep-data.md)
-      + [キャンペーンからAdobe Experience Platformへのデータのエクスポート](integrations/using/export-campaign-data.md)
+   + Adobe Experience Platform のソースと宛先{#aep-sources-destinations}
+      + [ソースと宛先の概要](integrations/using/get-started-sources-destinations.md)
+      + [Adobe Experience Platform オーディエンスの Campaign への取り込み](integrations/using/ingest-aep-data.md)
+      + [Campaign から Adobe Experience Platform にデータをエクスポート](integrations/using/export-campaign-data.md)
 + ワークフローを使用した自動化 {#automating-with-workflows}
    + ワークフローの基本を学ぶ {#introduction}
       + [ワークフローについて](workflow/using/about-workflows.md)

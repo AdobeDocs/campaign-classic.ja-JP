@@ -6,9 +6,9 @@ description: テクニカルノート
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: f47b0ecfd3e35d15a78779fd9f38cc93c798d5d2
+source-git-commit: 65ff09dd8ded029178c4c85489bf01ef80d16e8d
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '343'
 ht-degree: 15%
 
 ---
@@ -27,13 +27,13 @@ ht-degree: 15%
 
 環境が次のいずれかのバージョンで実行されている場合は、次の影響を受ける可能性があります。
 
-* ゴールド標準7 - 11 [詳細情報](../rn/using/gold-standard.md)
-* キャンペーン21.1.1 - 21.1.2リリース。 [詳細情報](../rn/using/latest-release.md)
-* キャンペーン20.3.1 - 20.3.3リリース。 [詳細情報](../rn/using/release--20-3.md)
-* キャンペーン20.2.1 - 20.2.3リリース。 [詳細情報](../rn/using/release--20-2.md)
-* キャンペーン20.1.1 - 21.1.3リリース。 [詳細情報](../rn/using/release--20-1.md)
-* キャンペーン19.2.2 - 19.2.3リリース。 [詳細情報](../rn/using/release--19-2.md)
-* キャンペーン19.1.5 - 19.1.7リリース。 [詳細情報](../rn/using/release--19-1.md)
+* ゴールド標準7 ～ 11。 [詳細情報](../rn/using/gold-standard.md)
+* キャンペーン21.1.1 ～ 21.1.2リリース。 [詳細情報](../rn/using/latest-release.md)
+* キャンペーン20.3.1 ～ 20.3.3リリース。 [詳細情報](../rn/using/release--20-3.md)
+* キャンペーン20.2.1 ～ 20.2.3リリース。 [詳細情報](../rn/using/release--20-2.md)
+* キャンペーン20.1.1 ～ 21.1.3リリース。 [詳細情報](../rn/using/release--20-1.md)
+* キャンペーン19.2.2 ～ 19.2.3リリース。 [詳細情報](../rn/using/release--19-2.md)
+* キャンペーン19.1.5 ～ 19.1.7リリース。 [詳細情報](../rn/using/release--19-1.md)
 
 バージョンを確認する方法については、](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)こちらの節[を参照してください。
 

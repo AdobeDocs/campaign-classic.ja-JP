@@ -6,14 +6,14 @@ description: オファーテンプレートの管理
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: e4a6cc22-05bd-4b8a-984d-d0706fc210e1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
 ---
-
 
 # オファーテンプレートの管理{#managing-offer-templates}
 
@@ -44,4 +44,3 @@ ht-degree: 100%
 これで、オファーの作成時にこのテンプレートを利用できるようになります。
 
 ![](assets/offer_modelcreated_001.png)
-

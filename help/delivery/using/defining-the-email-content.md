@@ -6,14 +6,14 @@ description: Adobe Campaign Classic を使用して E メールコンテンツ�
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
+exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 translation-type: ht
-source-git-commit: fe4262a1da011cb155651c5e786f19188139cff1
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '2064'
 ht-degree: 100%
 
 ---
-
 
 # E メールコンテンツの定義 {#defining-the-email-content}
 

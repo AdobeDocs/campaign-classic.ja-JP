@@ -6,14 +6,14 @@ description: コンテンツ編集のベストプラクティス
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '548'
 ht-degree: 100%
 
 ---
-
 
 # コンテンツ編集のベストプラクティス{#content-editing-best-practices}
 
@@ -94,4 +94,3 @@ ht-degree: 100%
 * まだ、n フィールドまたはパーソナライゼーションブロックを設定する必要があります。
 * 配信コンテンツの準備が整いました。変更を適用するには、再度分析を実行する必要があります。
 * 配信の送信準備が整いました。
-

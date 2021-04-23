@@ -6,14 +6,14 @@ description: Campaign Classic で A/B テストを設定する方法を説明し
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
+exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
 translation-type: ht
-source-git-commit: a341980e9d940857388bb2755e5eaa74824cf6ea
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '216'
 ht-degree: 100%
 
 ---
-
 
 # A/B テストの設定 {#configuring-a-b-testing}
 

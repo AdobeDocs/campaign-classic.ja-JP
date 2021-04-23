@@ -6,14 +6,14 @@ description: レポートへのアクセスの設定
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '794'
 ht-degree: 100%
 
 ---
-
 
 # レポートへのアクセスの設定{#configuring-access-to-the-report}
 
@@ -136,4 +136,3 @@ ht-degree: 100%
    ![](assets/s_ncs_advuser_report_publish_02.png)
 
 1. **[!UICONTROL 拡大]**&#x200B;アイコンをクリックすると、レポートが Web ブラウザーで開かれます。
-

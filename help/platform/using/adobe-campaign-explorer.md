@@ -1,17 +1,17 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Adobe Campaignエクスプローラを使用
-description: キャンペーンエクスプローラーの使い方
+title: Adobe Campaign エクスプローラーの使用
+description: Campaign エクスプローラーの使用方法について説明します
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f,f91d69a4-b794-40f0-b450-de862d7333e2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8405eefb2e79deeeca07e0c8231bdfa5200ec185
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

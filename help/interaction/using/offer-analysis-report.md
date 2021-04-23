@@ -6,14 +6,14 @@ description: オファー分析レポート
 audience: interaction
 content-type: reference
 topic-tags: tracking-offers
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 44c57b0c-3561-4943-812f-945f5fcbb142
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '85'
 ht-degree: 100%
 
 ---
-
 
 # オファー分析レポート{#offer-analysis-report}
 
@@ -40,4 +40,3 @@ ht-degree: 100%
 レポートの上部で使用できる様々な条件に基づいて、データをフィルタリングできます。目的の基準を選択して、「**[!UICONTROL 更新]**」リンクをクリックすると、レポートに適用されます。
 
 ![](assets/offer_report_criteria.png)
-

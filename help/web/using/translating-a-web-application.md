@@ -6,14 +6,14 @@ description: Web アプリケーションの翻訳
 audience: web
 content-type: reference
 topic-tags: web-applications
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 82c5c610-8161-4686-aa79-1b690e763765
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '374'
 ht-degree: 100%
 
 ---
-
 
 # Web アプリケーションの翻訳{#translating-a-web-application}
 
@@ -61,4 +61,3 @@ Web アプリケーションの&#x200B;**[!UICONTROL プロパティ]**&#x200B;�
 1. 文字列を翻訳して承認します。
 
    そうすると、Web アプリケーションの「**[!UICONTROL プレビュー]**」タブで目的の言語を選択することで、翻訳をプレビューできます。
-

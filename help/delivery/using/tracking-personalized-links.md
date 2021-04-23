@@ -6,14 +6,14 @@ description: パーソナライズ可能な電子メールにリンクを記述�
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
+exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
 translation-type: ht
-source-git-commit: 6b81d0ea22bf9d8f33e486535b4ce02fbae7b9ae
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '219'
 ht-degree: 100%
 
 ---
-
 
 # パーソナライズされたリンクの追跡を開始する{#tracking-personalized-links}
 

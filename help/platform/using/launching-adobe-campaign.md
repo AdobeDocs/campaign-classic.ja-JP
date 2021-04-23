@@ -7,11 +7,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 Campaign クライアントコンソールは、Campaign アプリケーションサーバーに接続できるリッチクライアントです。[このページ](../../installation/using/installing-the-client-console.md)では、クライアントコンソールをダウンロードして設定する方法を説明します。
 
-## 開始Adobe Campaign{#starting-adobe-campaign}
+## Adobe Campaign の利用開始 {#starting-adobe-campaign}
 
 Adobe Campaign を起動するには、**[!UICONTROL スタート／すべてのプログラム／Adobe Campaign v.X／Adobe Campaign クライアントコンソール]**&#x200B;を選択します。
 
@@ -27,7 +27,7 @@ Adobe Campaign を起動するには、**[!UICONTROL スタート／すべての
 
 ![](assets/acc-logon.png)
 
-## Adobe Campaignに接続{#connecting-to-adobe-campaign}
+## Adobe Campaign への接続 {#connecting-to-adobe-campaign}
 
 Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
 
@@ -50,7 +50,7 @@ Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[
 * 接続を開始するには、**Enter** キーを押すこともできます。
 * **Esc** キーを使用すると、「**[!UICONTROL ログイン]**」フィールドと「**[!UICONTROL パスワード]**」フィールドを、最後に成功した接続値にリセットできます。
 
-## 接続の設定{#setting-up-connections}
+## 接続の設定 {#setting-up-connections}
 
 入力ゾーンの上にあるリンクから、サーバー接続設定にアクセスできます。
 
@@ -74,7 +74,7 @@ Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[
 
 この機能について詳しくは、[アクセス管理](../../platform/using/access-management.md)の節で説明しています。
 
-## Adobe Campaignから切断{#disconnecting-from-adobe-campaign}
+## Adobe Campaign からの切断 {#disconnecting-from-adobe-campaign}
 
 Adobe Campaign から切断するには、アイコンバーの最初のアイコンを使用します。
 
@@ -84,7 +84,7 @@ Adobe Campaign から切断するには、アイコンバーの最初のアイ�
 >
 >ログオフしないでアプリケーションを閉じることもできます。
 
-## Adobe Campaignのバージョンを取得{#getting-your-campaign-version}
+## Adobe Campaign のバージョンの確認 {#getting-your-campaign-version}
 
 **[!UICONTROL ヘルプ／バージョン情報...]** メニューから、次の情報にアクセスできます。
 
@@ -97,11 +97,11 @@ Adobe Campaign から切断するには、アイコンバーの最初のアイ�
 
 アドビのカスタマーサポートチームに連絡する場合は、Adobe Campaign クライアントコンソールおよびアプリケーションサーバーのバージョン番号とビルド番号を伝える必要があります。
 
-[ [!DNL Gold Standard] Campaign バージョン](../../rn/using/gold-standard.md)を実行している場合は、「**[!UICONTROL バージョン情報]**」ボックスに表示される SHA/1 文字も共有する必要があります。例えば、Gold **Standard 10 リリース**&#x200B;の場合、ビルド番号は次のように **build 9032@efd8a94** と表示されます。
+[Campaign [!DNL Gold Standard] バージョン](../../rn/using/gold-standard.md)を実行している場合は、「**[!UICONTROL バージョン情報]**」ボックスに表示される SHA/1 文字も共有する必要があります。例えば、Gold **Standard 10 リリース**&#x200B;の場合、ビルド番号は次のように **build 9032@efd8a94** と表示されます。
 
 ![](assets/about-acc-gs.png)
 
-[!DNL Gold Standard] [の詳細については、この記事](../../rn/using/gs-overview.md)を参照してください。
+詳細については、[!DNL Gold Standard] [この記事](../../rn/using/gs-overview.md)を参照してください。
 
 **関連トピック**：
 

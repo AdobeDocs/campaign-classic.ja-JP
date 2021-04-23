@@ -6,14 +6,14 @@ description: Campaign Classic でインポートジョブとエクスポート�
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 85c48712-3704-41db-a255-a07ca8d02ec4
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # インポートジョブとエクスポートジョブの作成 {#creating-import-export-jobs}
 
@@ -37,4 +37,4 @@ ht-degree: 94%
 これらはすべて、データのインポートウィザードまたはエクスポートウィザードを開きます。これらの詳細については以下の節で説明します。
 
 * [インポートジョブの設定](../../platform/using/executing-import-jobs.md)
-* [書き出しジョブの設定](../../platform/using/executing-export-jobs.md)
+* [エクスポートジョブの設定](../../platform/using/executing-export-jobs.md)

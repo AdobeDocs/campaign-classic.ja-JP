@@ -6,14 +6,14 @@ description: Campaign Classic でエクスポートジョブを設定および�
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1016'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # エクスポートジョブの設定 {#executing-export-jobs}
 
@@ -23,9 +23,9 @@ ht-degree: 95%
 
 エクスポートウィザードでは、エクスポートの設定、オプションの定義、実行の開始をおこなうことができます。 これは、エクスポートのタイプ（簡易または複数）やオペレーターの権限によって内容の異なる一連の画面です。
 
-エクスポートウィザードは、新しい書き出しジョブを作成した後に表示されます（[読み込みジョブと書き出しジョブの作成](../../platform/using/creating-import-export-jobs.md)を参照）。
+エクスポートウィザードは、新しいエクスポートジョブを作成すると表示されます（[インポートジョブとエクスポートジョブの作成](../../platform/using/creating-import-export-jobs.md)を参照）。
 
-## 手順1 — エクスポートテンプレート{#step-1---choosing-the-export-template}を選択
+## 手順 1 - エクスポートテンプレートの選択 {#step-1---choosing-the-export-template}
 
 エクスポートウィザードを起動するときは、まずテンプレートを選択する必要があります。例えば、最近登録した受信者のエクスポートを設定するには、以下の手順に従います。
 
@@ -63,7 +63,7 @@ ht-degree: 95%
 
    前回の変更日を入力する必要があります。前回の変更日は、フィールドから取得するか、計算できます。
 
-## 手順3 — 出力形式を定義する{#step-3---defining-the-output-format}
+## 手順 3 - 出力フォーマットの定義 {#step-3---defining-the-output-format}
 
 エクスポートファイルの出力フォーマットを選択します。テキスト、固定列テキスト、CSV および XML フォーマットを使用できます。
 
@@ -72,7 +72,7 @@ ht-degree: 95%
 * 「**[!UICONTROL テキスト]**」フォーマットの場合、列を区切る区切り記号（タブ、コンマ、セミコロンまたはカスタム）および文字列を区切る区切り記号（シングルコーテーション、ダブルコーテーションまたはなし）を選択します。
 * 「**[!UICONTROL テキスト]**」および「**[!UICONTROL CSV]**」の場合、オプション「**[!UICONTROL 先頭行を列ヘッダーとして使用]**」を選択できます。
 * 日付フォーマットおよび数字のフォーマットを指定します。そのためには、該当するフィールドの「**[!UICONTROL 編集]**」ボタンをクリックし、エディターを使用します。
-* 列挙値が含まれるフィールドの場合、「**[!UICONTROL 列挙の内部値の代わりにラベルをエクスポート]**」を選択できます。例えば、タイトルを **1=Mr.**、**2=Miss**、**3=Mrs.**.」このオプションを選択した場合、**Mr.**、**Miss** および **Mrs.** がエクスポートされます。
+* 列挙値が含まれるフィールドの場合、「**[!UICONTROL 列挙の内部値の代わりにラベルをエクスポート]**」を選択できます。例えば、タイトルを **1=Mr.**、**2=Miss**、**3=Mrs.**.このオプションを選択した場合、**Mr.**、**Miss** および **Mrs.** がエクスポートされます。
 
 ## 手順 4 - データ選択 {#step-4---data-selection}
 
@@ -85,7 +85,7 @@ ht-degree: 95%
 
 1. 関数を呼び出すには、**[!UICONTROL 追加]**&#x200B;ボタンをクリックします。詳しくは、[関数のリスト](../../platform/using/defining-filter-conditions.md#list-of-functions)を参照してください。
 
-## 手順5 — 列の並べ替え{#step-5---sorting-columns}
+## 手順5 - 列の並べ替え {#step-5---sorting-columns}
 
 列の並べ替え順を選択します。
 
@@ -125,10 +125,10 @@ ht-degree: 95%
 
 ウィザードの下部にあるタブをクリックして、列での結果のプレビューから XML での結果に切り替えます。生成された SQL クエリを表示することもできます。
 
-## 手順9 — エクスポートを開始する{#step-9---launching-the-export}
+## 手順 9 - エクスポートの開始 {#step-9---launching-the-export}
 
 「**[!UICONTROL 開始]**」をクリックしてデータエクスポートを開始します。
 
 ![](assets/s_ncs_user_export_wizard08.png)
 
-その後、インポートジョブの実行を監視できます（[ジョブの実行を監視](../../platform/using/monitoring-jobs-execution.md)を参照）。
+その後、インポートジョブの実行を監視できます（[ジョブの実行の監視](../../platform/using/monitoring-jobs-execution.md)を参照）。

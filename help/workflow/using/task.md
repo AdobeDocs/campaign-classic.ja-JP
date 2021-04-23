@@ -6,14 +6,14 @@ description: タスクワークフローアクティビティの詳細を説明�
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 
 ---
-
 
 # タスク{#task}
 

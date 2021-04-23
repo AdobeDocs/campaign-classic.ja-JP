@@ -3,7 +3,7 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic ドキュメントのアップデート
 description: このページでは、Adobe Campaign Classic のドキュメントのすべての新機能と更新をリストします
-feature: Overview
+feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
@@ -21,11 +21,11 @@ ht-degree: 99%
 
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
 
-## 2021 年 4 月 {#april-2021}
+## 2021 年 4 月{#april-2021}
 
-新しいセクションでは、Campaign ClassicとAdobeのリアルタイム・カスタマー・データ・プラットフォーム(RTCDP)間でデータを共有するための、Adobe Experience Platformのソースと宛先の使い方について説明しました。 [詳細情報](../../integrations/using/get-started-sources-destinations.md)
+新しいセクションでは、Campaign ClassicとAdobeのリアルタイム・カスタマー・データ・プラットフォーム(RTCDP)間でデータを共有するための、Adobe Experience Platformのソースと宛先の使い方について説明しました。 [詳細](../../integrations/using/get-started-sources-destinations.md)
 
-## 2021 年 3 月 {#march-2021}
+## 2021 年 3 月{#march-2021}
 
 [「SMS の基本を学ぶ」セクション](../../delivery/using/sms-channel.md)の構成を変更し、改善しました。[SMS チャネルの設定方法](../../delivery/using/sms-set-up.md)、[SMS の作成方法](../../delivery/using/sms-create.md)、[SMS の送信方法および追跡方法](../../delivery/using/sms-send.md)を、専用の節で学習できます。
 

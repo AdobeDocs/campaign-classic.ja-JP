@@ -6,14 +6,14 @@ description: Web フォームページの順番の定義
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '739'
 ht-degree: 100%
 
 ---
-
 
 # Web フォームページの順番の定義{#defining-web-forms-page-sequencing}
 
@@ -125,4 +125,3 @@ ht-degree: 100%
 
 * 既存の HTML コンテンツをコピー＆ペーストできます。これをおこなうには、**[!UICONTROL ソースコードを表示]**&#x200B;をクリックして、HTML コードを挿入します。
 * 外部 URL を使用できます。これをおこなうには、対応するオプションを選択し、表示するページの URL を入力します。
-

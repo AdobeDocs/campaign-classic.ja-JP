@@ -6,14 +6,14 @@ description: プロバイダー、在庫、予算
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
+exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1994'
 ht-degree: 100%
 
 ---
-
 
 # プロバイダー、在庫、予算{#providers-stocks-and-budgets}
 
@@ -292,4 +292,3 @@ Adobe Campaign では、在庫が不足した場合または最小しきい値�
 >[!NOTE]
 >
 >予算の作成手順については、[予算の作成](../../campaign/using/controlling-costs.md#creating-a-budget)で説明しています。
-

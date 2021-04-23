@@ -6,14 +6,14 @@ description: 分散型マーケティングについて
 audience: campaign
 content-type: reference
 topic-tags: distributed-marketing
+exl-id: c166409b-e040-491e-840a-a41310935d75
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1175'
 ht-degree: 100%
 
 ---
-
 
 # 分散型マーケティングについて{#about-distributed-marketing}
 
@@ -165,4 +165,3 @@ Adobe Campaign では、セントラルエンティティ（本社、マーケ�
 1. ターゲットや予算などを評価します。
 1. キャンペーンのコンテンツをプレビューします。
 1. キャンペーンをオーダーします。
-

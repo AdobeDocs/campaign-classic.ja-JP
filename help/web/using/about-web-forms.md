@@ -6,14 +6,14 @@ description: Campaign の Web フォームの基礎知識
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '511'
 ht-degree: 100%
 
 ---
-
 
 # Web フォームの基礎知識{#about-web-forms}
 
@@ -80,6 +80,7 @@ Web フォームの設定とコンテンツを定義するには、次の手順�
 >
 >* ページデザイン中に、「**[!UICONTROL プレビュー]**」タブで最終的なレンダリングを表示できます。変更を表示するには、最初にフォームを保存します。すべてのエラーが「**[!UICONTROL ログ]**」タブに表示されます。
 >* ページの表示と情報ストレージが適切な順序でおこなわれることを確認するには、Web フォームのデバッグモードを有効にします。これをおこなうには、「**[!UICONTROL プレビュー]**」サブタブに移動し、「**[!UICONTROL デバッグモードを有効にする]**」チェックボックスをオンにして、すべての収集された情報と可能性のある実行エラーが各ページの下部に表示されるようにします。
+
 >
 
 
@@ -97,4 +98,3 @@ Web フォームの設定とコンテンツを定義するには、次の手順�
 「**[!UICONTROL OK]**」をクリックして、選択を承認します。
 
 ![](assets/s_ncs_admin_webform_confirm_storage.png)
-

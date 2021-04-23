@@ -6,14 +6,14 @@ description: オーディエンスの同期
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1228'
 ht-degree: 100%
 
 ---
-
 
 # オーディエンスの同期{#synchronizing-audiences}
 
@@ -139,7 +139,7 @@ Campaign Standard で配信ワークフローを作成することで、この�
 
 ## 配信の送信および監視 {#send-and-monitor-your-delivery}
 
-配信およびそのコンテンツの準備が整った後は、[この節](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html)で詳しく説明されている手順に従って配信を送信します。
+配信およびそのコンテンツの準備が整った後は、[この節](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html)で詳しく説明されている手順に従って配信を送信します。
 
 1. 配信ワークフローを実行します。この手順では、送信する E メールを準備します。
 1. 配信ダッシュボードから、配信を送信できることを手動で確認します。
@@ -151,4 +151,3 @@ Campaign Standard で配信ワークフローを作成することで、この�
       強制隔離は、Campaign v7 に自動的に同期されます。これにより、Campaign v7 で実行される次のターゲティングで、配信不能情報を考慮できます。
 
       Campaign Standard での強制隔離管理について詳しくは、[この節](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html)を参照してください。
-

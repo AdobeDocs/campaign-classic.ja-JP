@@ -6,14 +6,14 @@ description: マーケティングキャンペーン配信の詳細
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
+exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1552'
 ht-degree: 100%
 
 ---
-
 
 # マーケティングキャンペーン配信 {#marketing-campaign-deliveries}
 
@@ -241,4 +241,4 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
-Campaign に関するその他のハウツービデオは [こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)から入手できます。
+Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

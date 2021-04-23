@@ -6,14 +6,14 @@ description: アドビへの依頼の送信
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '156'
 ht-degree: 100%
 
 ---
-
 
 # アドビへの依頼の送信{#submitting-request-to-adobe}
 

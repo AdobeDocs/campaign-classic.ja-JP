@@ -3,21 +3,21 @@ solution: Campaign Classic
 product: campaign
 title: コネクタについて
 description: コネクタについて
-feature: Overview
+feature: 概要
 role: Business Practitioner, Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
-workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 93%
+exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '198'
+ht-degree: 100%
 
 ---
 
+# コネクタの基本を学ぶ{#about-connectors}
 
-# コネクタの使用を開始する{#about-connectors}
-
-Adobe Campaign では、外部アプリケーションとの通信、データベースエンジンとの接続、Adobe Analytics との統合によるデータ共有を可能にするいくつかのコネクタを提供します。
+Adobe Campaign には、外部アプリケーションとの通信、データベースエンジンとの接続、Adobe Analytics との統合によるデータ共有を可能にするいくつかのコネクタが用意されています。
 
 使用可能なコネクタは次のとおりです。
 
@@ -34,4 +34,3 @@ Adobe Campaign では、外部アプリケーションとの通信、データ�
 >[!NOTE]
 >
 >これらのモジュールの使用可否と使い方は、インストール構成のデプロイメントタイプによって異なります。[Campaign オンプレミス - ホスト機能マトリックス](../../installation/using/capability-matrix.md)を参照してください。
-

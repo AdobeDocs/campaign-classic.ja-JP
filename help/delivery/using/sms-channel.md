@@ -1,40 +1,40 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: SMSチャネルの使用を開始する
-description: SMSチャネルの使用を開始する
+title: SMS チャネルの基本を学ぶ
+description: SMS チャネルの基本を学ぶ
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 31%
+ht-degree: 100%
 
 ---
 
-# SMSチャネルの使用を開始する{#sms-channel}
+# SMS チャネルの基本を学ぶ{#sms-channel}
 
 
-Adobe Campaignを使用して、パーソナライズされたSMSメッセージを送信します。
+Adobe Campaign を使用すると、パーソナライズされた SMS メッセージを送信できます。
 
-SMSの送信を開始する前に：
+SMS の送信を開始する前：
 
-* 受信者プロファイルのプロファイルーに最低1台の携帯電話が含まれていることを確認してください。
-* Adobe Campaign での[配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)を確認します。
+* 受信者プロファイルに少なくとも携帯電話番号が含まれていることを確認します。
+* Adobe Campaign の[配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)を確認します。
 
-SMSを送信する主な手順は次のとおりです。
+SMS を送信するための主な手順は次のとおりです。
 
-* [SMSチャネルの構成](sms-set-up.md)
+* [SMS チャネルの設定](sms-set-up.md)
 * [SMS 配信の作成](sms-create.md)
 * [オーディエンスの定義](sms-create.md#selecting-the-target-population)
-* [SMSコンテンツの定義](sms-create.md#defining-the-sms-content)
-* [SMSの送信、監視、および追跡](sms-send.md)
+* [SMS コンテンツの定義](sms-create.md#defining-the-sms-content)
+* [SMS の送信、監視、追跡](sms-send.md)
 * [トラブルシューティング](troubleshooting-sms.md)
 
-また、SMSのプロトコルと設定についても詳しくなければなりません。 [このドキュメント](sms-protocol.md)のAdobe CampaignとSMPPプロバイダの間の接続設定を確認します。
+また、SMS のプロトコルと設定についても熟知している必要があります。Adobe Campaign と SMPP プロバイダーの間の接続設定については、[このドキュメント](sms-protocol.md)で確認します。
 
 配信の作成方法に関する全般的な情報については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。
 
@@ -42,4 +42,4 @@ SMSを送信する主な手順は次のとおりです。
 >
 >また、Adobe Campaign では、**Adobe Campaign モバイルアプリチャネル（NMAC）**&#x200B;オプションを使用してモバイル端末に通知を送信することもできます。
 > 
->詳しくは、「[モバイルアプリのチャネルを使い始める](../../delivery/using/about-mobile-app-channel.md)」の節を参照してください。
+>詳しくは、[モバイルアプリチャネルの基本を学ぶ](../../delivery/using/about-mobile-app-channel.md)の節を参照してください。

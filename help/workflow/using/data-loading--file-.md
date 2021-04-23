@@ -6,14 +6,14 @@ description: データ読み込み（ファイル）ワークフローアクテ�
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
-source-git-commit: ba460d8347c987291681641a1be208027acf1d2f
-workflow-type: tm+mt
+exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1161'
 ht-degree: 100%
 
 ---
-
 
 # データ読み込み（ファイル）{#data-loading-file}
 
@@ -132,4 +132,3 @@ ht-degree: 100%
 1. 次に、母集団の各タイプについて、実行されるプロセスを指定します。この例では、データベースの「**[!UICONTROL データを更新]**」を指定します。それには、「**[!UICONTROL データを更新]**」アクティビティを、分割アクティビティからの各アウトバウンドトランジションの最後に配置します。
 
    「**[!UICONTROL データを更新]**」アクティビティについて詳しくは、[データ更新](../../workflow/using/update-data.md)の節で説明しています。
-

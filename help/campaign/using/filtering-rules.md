@@ -6,14 +6,14 @@ description: フィルタールール
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '524'
 ht-degree: 100%
 
 ---
-
 
 # フィルタールール{#filtering-rules}
 
@@ -93,4 +93,3 @@ ht-degree: 100%
 >[!NOTE]
 >
 >グローバル抑止リストに含まれているアドレスやドメイン名は非公開です。除外された受信者の数に関する情報だけが配信分析ログに記録されます。
-

@@ -6,14 +6,14 @@ description: Adobe Campaign Enhanced MTA を使用した E メール送信の範
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
-source-git-commit: 6eb29742d5884096f2d06b763823aede48f5dcb3
-workflow-type: tm+mt
+exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1991'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # Enhanced MTA を使用した送信 {#sending-with-enhanced-mta}
 
@@ -98,7 +98,7 @@ Adobe Campaign トランザクションメッセージ機能を使用する顧�
 
 ### Enhanced MTA ヘッダー
 
-最新の Campaign Classic インスタンスには、必要な Enhanced MTA ヘッダーをすべてのメッセージに追加するコードが含まれています。Adobe Campaign19.1 （ビルド9032）以降を使用していて、そうでない場合は、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に&quot;useMoment=true&quot;パラメーターを実行インスタンス設定（[serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)ファイル内）に追加するよう要求する必要があります。/>ミッドソーシングインスタンス](../../installation/using/mid-sourcing-server.md)または[トランザクションメッセージ実行インスタンス](../../message-center/using/creating-a-shared-connection.md#execution-instance)（構成に応じて）[
+最新の Campaign Classic インスタンスには、必要な Enhanced MTA ヘッダーをすべてのメッセージに追加するコードが含まれています。Adobe Campaign 19.1（ビルド 9032）以降を使用していて、これに該当しない場合は、&quot;useMomentum=true&quot; パラメーターを実行インスタンス設定（[serverConf.xml](../../installation/using/the-server-configuration-file.md#mta) ファイル内）に追加するように[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に依頼する必要があります。このインスタンスは、設定に応じて、マーケティングインスタンス、[ミッドソーシングインスタンス](../../installation/using/mid-sourcing-server.md)、[トランザクションメッセージ実行インスタンス](../../message-center/using/creating-a-shared-connection.md#execution-instance)のいずれかになります。
 
 ただし、このコードを含まない古いインスタンスを使用している場合は、**[!UICONTROL Typology Rule for Enhanced MTAs]** という名前の新しいタイポロジルールを、Campaign インスタンス内のすべての既存タイポロジに追加する必要があります。
 このルールは、Enhanced MTA へのアップグレードの一環としてインストールされた**[!UICONTROL タイポロジ]**&#x200B;パッケージによって追加されます。
@@ -151,7 +151,7 @@ Campaign 配信スループットグラフでは、E メール受信者に対す
 
 ### DKIM 署名
 
-DKIM（DomainKeys Identified Mail）E メール認証の署名は、Enhanced MTA によっておこなわれます。ネイティブの Campaign MTA による DKIM 署名は、Enhanced MTA アップグレードの一環として、ドメイン管理テーブル内で無効になります。DKIMの詳細については、『[Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)』を参照してください。
+DKIM（DomainKeys Identified Mail）E メール認証の署名は、Enhanced MTA によっておこなわれます。ネイティブの Campaign MTA による DKIM 署名は、Enhanced MTA アップグレードの一環として、ドメイン管理テーブル内で無効になります。DKIM の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
 
 ### 配信成功レポート
 

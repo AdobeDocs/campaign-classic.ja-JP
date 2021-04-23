@@ -6,14 +6,14 @@ description: ワークフローでのリストへのレポートの送信方法�
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '719'
 ht-degree: 100%
 
 ---
-
 
 # リストへのレポートの送信{#sending-a-report-to-a-list}
 
@@ -128,6 +128,4 @@ ht-degree: 100%
    * 「**[!UICONTROL 受信者]**」フィールドと「**[!UICONTROL コンテンツ]**」フィールドで「**[!UICONTROL 配信で指定]**」を選択します。
    * **[!UICONTROL 実行するアクション]**：「**[!UICONTROL 準備と開始]**」を選択します。
    * 「**[!UICONTROL アウトバウンドトランジションを生成]**」チェックボックスと「**[!UICONTROL エラーを処理]**」チェックボックスをオフにします。
-
    ![](assets/use_case_report_11.png)
-

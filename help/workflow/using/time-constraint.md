@@ -6,14 +6,14 @@ description: 時間制限ワークフローアクティビティの詳細を説�
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 1dc5de05-4d36-4393-8113-d1f97bb7f732
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '88'
 ht-degree: 100%
 
 ---
-
 
 # 時間制限{#time-constraint}
 
@@ -24,4 +24,3 @@ ht-degree: 100%
 「**[!UICONTROL 実行期間外の場合は後で再試行]**」オプションが選択されている場合、実行期間外でも、タスクを再起動できます。停止期間の後で、ワークフローのアクションを完全に中止する場合、このオプションの選択を解除します。
 
 ![](assets/s_user_scheduled_wait.png)
-

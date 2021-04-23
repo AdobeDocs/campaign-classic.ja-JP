@@ -6,14 +6,14 @@ description: 組み込みレポートまたはカスタマイズされたレポ�
 audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '334'
 ht-degree: 100%
 
 ---
-
 
 # レポートの概要{#about-adobe-campaign-reporting-tools}
 

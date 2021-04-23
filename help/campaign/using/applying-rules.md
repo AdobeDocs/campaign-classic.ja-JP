@@ -6,14 +6,14 @@ description: ルールの適用
 audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1041'
 ht-degree: 100%
 
 ---
-
 
 # ルールの適用{#applying-rules}
 
@@ -146,4 +146,3 @@ ht-degree: 100%
 >
 >ライセンスに分散型マーケティングのオプションが含まれていれば、タイポロジおよびタイポロジルールに「**[!UICONTROL 分散型マーケティング]**」タブが追加されます。オプションの有無については、ライセンス契約をお確かめください。\
 >分散型マーケティングについて詳しくは、[分散型マーケティングについて](../../campaign/using/about-distributed-marketing.md)を参照してください。
-

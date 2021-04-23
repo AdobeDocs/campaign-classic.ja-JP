@@ -7,11 +7,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2027'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign は定期的に更新されています。公開されている[�
 
 お客様が最新バージョンの Adobe Campaign を使用することが非常に重要です。それにより、問題が発生した場合にアドビがより効率的に支援できるようになります。古いビルドで問題を特定、再現、修正するには、通常、時間がかかります。また、発生する問題の一部は、最近のビルドで修正されている可能性があります。
 
-[!DNL Gold Standard] は、Campaign Classicの長期サポートリリースです。ホストされる[!DNL Gold Standard]ユーザーは、[!DNL Gold Standard]アップグレードのメリットを自動的に享受できます。最新の安定したバージョンを使用すると、何の操作も必要ありません。 オンプレミスおよびハイブリッドのお客様は、[!DNL Gold Standard]リリースの利点も活用できます。 古いビルドから移行する場合は、最初にこのバージョンにアップグレードすることをお勧めします。[詳細情報](../../rn/using/gs-overview.md)。
+[!DNL Gold Standard] は、Campaign Classic の長期サポートリリースです。ホストされている [!DNL Gold Standard] のユーザーについては、安定した最新バージョンに [!DNL Gold Standard] が自動的にアップグレードされ、ユーザー側での操作は必要ありません。オンプレミスおよびハイブリッド環境のお客様も、[!DNL Gold Standard] リリースのメリットを享受できます。古いビルドから移行する場合は、まずこのバージョンにアップグレードすることをお勧めします。[詳細情報](../../rn/using/gs-overview.md)。
 
 ## ビルドのアップグレードとは何ですか？
 
@@ -104,7 +104,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 以下の[ビルドアップグレードのチェックリスト](#check-list)とテスト計画を確認し、これらのテストを実行できるリソースがアップグレード完了の 24～48 時間以内に利用可能であることを確認します。
 
-詳しくは、[このドキュメント](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)を参照してください。
+詳しくは、[このドキュメント](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)を参照してください。
 
 ## 夜間など営業時間外にビルドアップグレードを実行することはできますか？
 

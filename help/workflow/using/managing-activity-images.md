@@ -6,14 +6,14 @@ description: アクティビティ画像の管理
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '168'
 ht-degree: 100%
 
 ---
-
 
 # アクティビティ画像の管理{#managing-activity-images}
 
@@ -48,4 +48,3 @@ ht-degree: 100%
 >ツリーの&#x200B;**[!UICONTROL 管理／設定／画像]**&#x200B;ノードに保存されている画像を選択することができます。
 >  
 >画像は、PNG 形式、48 x 48 ピクセル、1,600 万色、透明の背景にする必要があります。
-

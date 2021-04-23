@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: キャンペーンでSMSを作成する
-description: キャンペーンを使用してSMSを作成する方法を学ぶ
+title: Campaign での SMS の作成
+description: Campaign で SMS を作成する方法について説明します
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-translation-type: tm+mt
-source-git-commit: 5a084ebe5295d19de24cf92c721d4692f0f5deb8
-workflow-type: tm+mt
+exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-
 # SMS 配信の作成 {#creating-a-sms-delivery}
 
-## 配信チャネル{#selecting-the-delivery-channel}を選択
+## 配信チャネルの選択 {#selecting-the-delivery-channel}
 
 新しい SMS 配信を作成するには、次の手順に従います。
 
@@ -26,14 +26,14 @@ ht-degree: 83%
 >配信の作成に関するグローバルな概念については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)で説明しています。
 
 1. 新しい配信を作成します（例えば、配信ダッシュボードから）。
-1. 先ほど作成した配信テンプレート「**モバイルに送信済み（SMPP）**」を選択します。詳しくは、「[配信テンプレートの変更](sms-set-up.md#changing-the-delivery-template)」の節を参照してください。
+1. 先ほど作成した配信テンプレート「**モバイルに送信済み（SMPP）**」を選択します。詳しくは、[配信テンプレートの変更](sms-set-up.md#changing-the-delivery-template)の節を参照してください。
 
    ![](assets/s_user_mobile_wizard.png)
 
 1. ラベル、コードおよび説明を設定して配信を識別します。詳しくは、[この節](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery)を参照してください。
 1. 「**[!UICONTROL 続行]**」をクリックすると、入力した情報が確定され、メッセージ設定ウィンドウが表示されます。
 
-## SMSコンテンツを定義{#defining-the-sms-content}
+## SMS コンテンツの定義 {#defining-the-sms-content}
 
 SMS のコンテンツを作成するには、次の手順に従います。
 
@@ -57,7 +57,7 @@ SMS のコンテンツを作成するには、次の手順に従います。
 
    >[!NOTE]
    >
-   >SMS メッセージの文字数には制限があり、Latin-1（ISO-8859-1）コードページを使用する場合は 160 字以内です。メッセージが Unicode で作成されている場合、上限は 70 文字です。また、使用する文字によってメッセージの長さ制限が変化することがあります。メッセージの長さの詳細については、[SMS文字変換](#about-character-transliteration)の節を参照してください。
+   >SMS メッセージの文字数には制限があり、Latin-1（ISO-8859-1）コードページを使用する場合は 160 字以内です。メッセージが Unicode で作成されている場合、上限は 70 文字です。また、使用する文字によってメッセージの長さ制限が変化することがあります。メッセージの長さについて詳しくは、[SMS 文字の表記変更について](#about-character-transliteration)の節を参照してください。
    >
    >パーソナライゼーションフィールドまたは条件付きコンテンツが含まれる場合、メッセージのサイズは受信者によって異なります。メッセージの長さはパーソナライゼーションを適用した後の状態で評価する必要があります。
    >
@@ -65,11 +65,10 @@ SMS のコンテンツを作成するには、次の手順に従います。
 
 1. NetSize コネクタ、またはいずれかの SMPP コネクタを使用する場合は、配信の送信者名をパーソナライズできます。詳しくは、[詳細設定パラメーター](#advanced-parameters)の節を参照してください。
 
-## ターゲット母集団を選択{#selecting-the-target-population}
+## ターゲット母集団の選択 {#selecting-the-target-population}
 
 配信のターゲット母集団を選択する際の詳細なプロセスについては、[この節](../../delivery/using/steps-defining-the-target-population.md)を参照してください。
 
-パーソナライゼーションフィールドの使い方についての詳細は、[この](../../delivery/using/about-personalization.md)を参照してください。
+パーソナライゼーションフィールドの使用について詳しくは、[この節](../../delivery/using/about-personalization.md)を参照してください。
 
-シードリストを含める方法について詳しくは、[このページ](../../delivery/using/about-seed-addresses.md)を参照してください。
-
+シードリストの追加については、[このページ](../../delivery/using/about-seed-addresses.md)を参照してください。

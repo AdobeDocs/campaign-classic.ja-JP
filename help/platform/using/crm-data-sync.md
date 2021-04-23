@@ -6,16 +6,16 @@ description: Campaign と CRM の間のデータ管理
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1617'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-
-# キャンペーンとCRMの間でデータを同期{#data-synchronization}
+# Campaign と CRM の間のデータ同期 {#data-synchronization}
 
 Adobe Campaign と CRM の間の同期は、専用のワークフローアクティビティである「[CRM コネクタ](../../workflow/using/crm-connector.md)」で実行されます。
 
@@ -82,9 +82,9 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 
    詳しくは、[変数管理](#variable-management)を参照してください。
 
-### 変数の管理{#variable-management}
+### 変数の管理 {#variable-management}
 
-**[!UICONTROL 自動インデックス]**&#x200B;オプションを有効にすると、最後の読み込み以降に変更されたオブジェクトのみが収集されます。
+「**[!UICONTROL 自動インデックス]**」オプションを有効にすると、前回のインポート以降に変更されたオブジェクトのみを収集できます。
 
 ![](assets/crm_task_import_option.png)
 

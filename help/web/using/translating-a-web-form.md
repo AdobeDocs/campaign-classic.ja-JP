@@ -6,14 +6,14 @@ description: Web フォームの翻訳
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+exl-id: 72959141-ca18-4512-80c7-239efd31f711
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1662'
 ht-degree: 100%
 
 ---
-
 
 # Web フォームの翻訳{#translating-a-web-form}
 
@@ -477,4 +477,3 @@ Web アプリケーションをデフォルト以外の言語に翻訳するに�
 1. 「**[!UICONTROL 追加]**」ボタンをクリックして、「**[!UICONTROL 内部名]**」、「**[!UICONTROL ラベル]**」および画像の識別子（フラグ）を入力します。新しい画像を追加するには、管理者にお問い合わせください。
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)
-

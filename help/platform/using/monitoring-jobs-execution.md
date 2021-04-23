@@ -6,14 +6,14 @@ description: インポートジョブとエクスポートジョブの実行を�
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '192'
 ht-degree: 100%
 
 ---
-
 
 # ジョブの実行の監視 {#monitoring-job-execution}
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * 「**[!UICONTROL ジャーナル]**」タブでは、実行に関するログメッセージを確認できます。
-* 「**[!UICONTROL 却下]**」タブには、却下されたレコードが表示されます。[この節](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error)を参照してください。
+* 「**[!UICONTROL 却下]**」タブには、却下されたレコードが表示されます。詳しくは、[この節](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error)を参照してください。
 
 「**[!UICONTROL 一般]**」タブの&#x200B;**[!UICONTROL ステータス]**&#x200B;フィールドは、ジョブの現在のステータスを示します。
 

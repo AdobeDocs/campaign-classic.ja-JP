@@ -6,14 +6,14 @@ description: Web フォームの回答
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '892'
 ht-degree: 100%
 
 ---
-
 
 # Web フォームの回答{#web-forms-answers}
 
@@ -142,4 +142,3 @@ ht-degree: 100%
 >実行できる操作は、**[!UICONTROL シンプルな紐付け]**、**[!UICONTROL 更新または挿入]**、**[!UICONTROL 挿入]**、**[!UICONTROL 更新]**、**[!UICONTROL 削除]**&#x200B;です。\
 >オペレーターのデフォルトのフォルダーは、オペレーターが書き込み権限を持つ最初のフォルダーです。\
 >[この節](../../platform/using/access-management.md)を参照してください。
-

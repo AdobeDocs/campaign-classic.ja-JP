@@ -6,14 +6,14 @@ description: シードアドレスの追加
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-translation-type: tm+mt
-source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
-workflow-type: tm+mt
+exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
-
 
 # シードアドレスの追加{#adding-seed-addresses}
 
@@ -39,13 +39,13 @@ ht-degree: 90%
 
    そのためには、**[!UICONTROL 動的条件を編集...]** リンクをクリックし、シードアドレスの選択パラメーターを入力します。例えば、ある特定のフォルダーに格納されているすべてのシードアドレスや、組織の特定の部門に属しているシードアドレスを含めることができます。
 
-   この節では、次の例を示します。[使用例：条件](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)のシードアドレスを選択します。
+   この例については、[ユースケース：条件に基づいたシードアドレスの選択](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)の節を参照してください。
 
 >[!NOTE]
 >
 >このオプションを選択するのは、デフォルトの **nms:recipient** テーブル以外の受信者テーブルを使用し、Adobe Campaign の&#x200B;**[!UICONTROL 配信品質]**&#x200B;モジュールに備わっている受信ボックスレンダリング機能を利用する場合です。
 >
->詳しくは、[外部受信者テーブル](../../delivery/using/using-an-external-recipient-table.md)の使用および[インボックスレンダリング](../../delivery/using/inbox-rendering.md)のドキュメントを参照してください。
+>詳しくは、[外部の受信者テーブルの使用](../../delivery/using/using-an-external-recipient-table.md)および[受信ボックスレンダリング](../../delivery/using/inbox-rendering.md)に関するドキュメントを参照してください。
 
 また、配信では、アドレスを抽出ファイルに挿入する際の方法をカスタマイズすることもできます。デフォルトでは出力ファイルの並べ替え順に従って挿入されますが、ファイルの冒頭または末尾に挿入する指定や、メインターゲットの送信者中にランダムに挿入する指定が可能です。
 

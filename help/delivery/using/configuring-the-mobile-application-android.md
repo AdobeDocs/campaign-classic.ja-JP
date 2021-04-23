@@ -9,14 +9,14 @@ topic-tags: sending-push-notifications
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 1d7d48f52f69e4902eafa6806c2cd9170c21fe5a
-workflow-type: tm+mt
+exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1862'
 ht-degree: 100%
 
 ---
-
 
 # Android の設定手順
 

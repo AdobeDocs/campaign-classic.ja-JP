@@ -6,14 +6,14 @@ description: 調査の設計
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
-source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '834'
 ht-degree: 100%
 
 ---
-
 
 # 調査の設計{#building-a-survey}
 
@@ -137,4 +137,3 @@ Adobe Campaign による質問のランダムな抽選を有効にできます�
 >[!CAUTION]
 >
 >質問をランダムに表示する（ページの「**[!UICONTROL ランダムに表示]**」オプションがチェックされている）場合、1 つ以上の選択肢が必須となる複数選択の質問を使用しないように注意してください。
-

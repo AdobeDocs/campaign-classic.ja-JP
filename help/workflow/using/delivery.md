@@ -6,14 +6,14 @@ description: 配信タイプワークフローアクティビティについて�
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1040'
 ht-degree: 100%
 
 ---
-
 
 # 配信{#delivery}
 
@@ -158,7 +158,7 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* スキーマ
+* schema
 * recCount
 
 この 3 つの値セットは、配信によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記憶するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
@@ -168,4 +168,3 @@ ht-degree: 100%
 >[!NOTE]
 >
 >「**[!UICONTROL ターゲット母集団を取得しない]**」オプションが選択されている場合、出力パラメーターはありません。
-

@@ -6,14 +6,14 @@ description: Campaign での初めての調査作成
 audience: web
 content-type: reference
 topic-tags: online-surveys
-translation-type: tm+mt
-source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '959'
 ht-degree: 100%
 
 ---
-
 
 # 調査を作成するための主な手順{#getting-started-with-surveys}
 
@@ -152,4 +152,3 @@ ht-degree: 100%
 >パブリック URL には、調査の内部名が含まれます。内部名を修正すると、URL は自動的に更新されます。すべての調査へのリンクも、更新する必要があります。
 >
 >フォームへのリンクを含む配信が、既に送信されている場合、このリンクは機能しなくなります。
-

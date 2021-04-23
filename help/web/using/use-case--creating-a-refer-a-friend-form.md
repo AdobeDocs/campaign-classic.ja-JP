@@ -6,14 +6,14 @@ description: '"ユースケース：友達の紹介フォームの作成"'
 audience: web
 content-type: reference
 topic-tags: online-surveys
+exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '624'
 ht-degree: 100%
 
 ---
-
 
 # ユースケース：リファラルフォームの作成{#use-case-creating-a-refer-a-friend-form}
 
@@ -126,4 +126,3 @@ ht-degree: 100%
    ![](assets/s_ncs_admin_survey_viral_sample_9.png)
 
    被紹介者のプロファイルには、紹介者によって入力された情報が含まれます。被紹介者のプロファイルは、フォームスクリプトに入力された設定に基づいて格納されます。被紹介者がニュースレターを購読することに決めると、受信者テーブルに保存されます。
-

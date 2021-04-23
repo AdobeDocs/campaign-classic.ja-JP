@@ -6,14 +6,14 @@ description: 動的画像の挿入
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '905'
 ht-degree: 100%
 
 ---
-
 
 # Target の動的コンテンツの挿入 {#inserting-a-dynamic-image}
 

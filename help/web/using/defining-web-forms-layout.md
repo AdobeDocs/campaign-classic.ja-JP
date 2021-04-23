@@ -6,14 +6,14 @@ description: Web フォームレイアウトの定義
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '528'
 ht-degree: 100%
 
 ---
-
 
 # Web フォームレイアウトの定義{#defining-web-forms-layout}
 
@@ -91,4 +91,3 @@ Web フォームのレイアウトは、各コンテナでページごとに定�
 * 左／右：ラベルはフィールドの右または左に配置されます。
 * 上／下：ラベルはフィールドの上または下に配置されます。
 * 非表示：ラベルは表示されません。
-

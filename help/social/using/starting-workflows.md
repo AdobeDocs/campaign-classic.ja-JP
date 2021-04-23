@@ -6,14 +6,14 @@ description: ワークフローの開始
 audience: social
 content-type: reference
 topic-tags: configuration
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: a104d8ce-1c28-4da9-bcbf-c17adb1c85c1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '101'
 ht-degree: 100%
 
 ---
-
 
 # ワークフローの開始{#starting-workflows}
 
@@ -26,4 +26,3 @@ ht-degree: 100%
 使用しないソーシャルネットワークがある場合は、一致するワークフローを開始しないことをお勧めします。プロダクションワークフローが停止したという警告を受け取らないようにするには、該当するワークフローのプロパティの「**[!UICONTROL 実行]**」タブで重大度レベル「**[!UICONTROL 通常]**」を選択します。
 
 ![](assets/social_start_workflows2.png)
-

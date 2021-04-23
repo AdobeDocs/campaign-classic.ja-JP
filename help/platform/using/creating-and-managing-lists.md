@@ -3,21 +3,21 @@ solution: Campaign Classic
 product: campaign
 title: リストの作成および管理
 description: リストの作成および管理方法を説明します。
-feature: Profiles
+feature: プロファイル
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 95%
+exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '870'
+ht-degree: 100%
 
 ---
 
-
 # リストの作成と管理{#creating-and-managing-lists}
 
-## リストとは{#about-lists-in-adobe-campaign}
+## リストとは {#about-lists-in-adobe-campaign}
 
 リストは、配信アクションのターゲットにしたり、インポート操作時やワークフロー実行時に更新したりできるプロファイルの静的なセットです。例えば、クエリによってデータベースから抽出した母集団からリストを作成できます。
 
@@ -37,7 +37,7 @@ Adobe Campaign では、2 つのリストタイプを使用できます。
 
 ![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#create-list-video)
 
-## グループ{#creating-a-profile-list-from-a-group}からのプロファイルリストの作成
+## グループからのプロファイルリストの作成 {#creating-a-profile-list-from-a-group}
 
 **[!UICONTROL プロファイルとターゲット]**&#x200B;リンクを使用して作成した&#x200B;**[!UICONTROL グループ]**&#x200B;タイプリストは、デフォルトの Adobe Campaign プロファイルテーブル（nms:recipient）に基づいている必要があります。
 
@@ -69,9 +69,9 @@ Adobe Campaign では、2 つのリストタイプを使用できます。
 
 ![](assets/s_ncs_user_new_recipient_from_group.png)
 
-プロファイルリストは、他のリストと同様に設定できます。[この節](../../platform/using/adobe-campaign-workspace.md#configuring-lists)を参照してください。
+プロファイルリストは、他のリストと同様に設定できます。詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md#configuring-lists)を参照してください。
 
-## リストへのデータのリンク{#linking-data-to-a-list}
+## リストへのデータのリンク {#linking-data-to-a-list}
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Adobe Campaign ホームページからリストを編集することもでき�
 
 ![](assets/s_ncs_user_add_selection_to_group_5.png)
 
-## リストからプロファイルを削除{#removing-a-profile-from-a-list}
+## リストからのプロファイルの削除 {#removing-a-profile-from-a-list}
 
 次の操作で、リストからプロファイルを削除することができます。
 
@@ -118,7 +118,7 @@ Adobe Campaign ホームページからリストを編集することもでき�
 
    ![](assets/recipient_remove_a_list.png)
 
-## プロファイルのリストの削除{#deleting-a-list-of-profiles}
+## プロファイルリストの削除 {#deleting-a-list-of-profiles}
 
 Adobe Campaign ツリーのグループリストから 1 つ以上のリストを削除できます。そのためには、Adobe Campaign ホームページで&#x200B;**[!UICONTROL 詳細設定／エクスプローラー]**&#x200B;リンクを選択し、ツリーを編集します。該当するグループを選択して右クリックします。「**[!UICONTROL 削除]**」を選択します。削除を確定するよう求める警告メッセージが表示されます。
 
@@ -136,7 +136,7 @@ Adobe Campaign ツリーのグループリストから 1 つ以上のリスト�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-### ワークフローを使用した受信者のリストの作成方法{#create-list-in-a-wf-video}
+### ワークフローを使用して受信者のリストを作成する方法 {#create-list-in-a-wf-video}
 
 受信者をターゲットにするためのワークフローを作成する方法や、E メールターゲットでリストを使用する前にワークフローが繰り返されるようにする方法を説明します。
 

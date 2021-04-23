@@ -6,14 +6,14 @@ description: レポートに対するアクション
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '573'
 ht-degree: 100%
 
 ---
-
 
 # レポートに対するアクション{#actions-on-reports}
 
@@ -111,4 +111,3 @@ document.nl_waitBeforeRender = true;
 レポートアーカイブを削除できます。それには、レポートが格納されている Adobe Campaign ノードに移動します。「**[!UICONTROL 履歴]**」タブをクリックし、削除するアーカイブを選択して、「**[!UICONTROL 削除]**」をクリックします。
 
 ![](assets/s_ncs_advuser_report_history_01.png)
-

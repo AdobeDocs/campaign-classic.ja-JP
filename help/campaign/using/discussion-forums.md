@@ -6,14 +6,14 @@ description: ディスカッションフォーラム
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
+exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 translation-type: ht
-source-git-commit: 693e38477b318ee44e0373a04d8524ddf128fe36
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '799'
 ht-degree: 100%
 
 ---
-
 
 # ディスカッションフォーラム{#discussion-forums}
 
@@ -111,6 +111,4 @@ Adobe Campaign のオペレーターは、ディスカッションフォーラ�
 
    * Adobe Campaign のホームページで、**[!UICONTROL キャンペーン／ブラウジング／配信]**&#x200B;に移動し、「**[!UICONTROL ディスカッションフォーラムの通知]**」の配信を開きます。
    * エクスプローラーで、**[!UICONTROL 管理／プロダクション／自動作成されたオブジェクト／テクニカル配信／ワークフローの通知]**&#x200B;に移動し、「**[!UICONTROL ディスカッションフォーラムの通知]**」をクリックします。
-
    「**[!UICONTROL ディスカッションフォーラムの通知]**」ボックスの「**[!UICONTROL 編集／配信]**」タブで配信ログを確認します。「**[!UICONTROL トラッキング／ログ]**」および「**[!UICONTROL 除外の原因]**」タブを確認することもできます。
-

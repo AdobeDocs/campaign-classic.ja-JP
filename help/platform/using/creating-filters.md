@@ -6,14 +6,14 @@ description: フィルターの作成
 audience: platform
 content-type: reference
 topic-tags: filtering-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2087'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
-
 
 # フィルターの作成{#creating-filters}
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->ユーザーインターフェイスの設定は、デバイスレベルでローカルに定義されます。 このデータは、特にデータの更新時に問題が発生した場合に、クリーンアップが必要になる場合があります。 そのためには、**[!UICONTROL ファイル／ローカルキャッシュをクリア]**&#x200B;メニューを使用します。
+>ユーザーインターフェイスの設定は、デバイスレベルでローカルに定義されます。 このデータはクリーンアップが必要になる場合があります。 特に、データの更新時に問題が発生した場合に必要です。そのためには、**[!UICONTROL ファイル／ローカルキャッシュをクリア]**&#x200B;メニューを使用します。
 
 ## 使用可能なフィルターのタイポロジ {#typology-of-available-filters}
 
@@ -41,7 +41,7 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
   >
   >The **%** character replaces any character string. For example, the string `%@yahoo.com` lets you display all the profiles with an e-mail address in the domain "yahoo.com".
 -->
-リストのデフォルトのフィルターを変更できます。この点について詳しくは、[デフォルトのフィルタ](#altering-the-default-filter)の変更を参照してください。
+リストのデフォルトのフィルターを変更できます。詳しくは、[デフォルトのフィルターの変更](#altering-the-default-filter)を参照してください。
 
 * **標準フィルター**
 
@@ -51,15 +51,15 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
 
    ![](assets/filters_recipient_simple_filter.png)
 
-   単純なフィルターについて詳しくは、[単純なフィルターの作成](#creating-a-simple-filter)を参照してください。
+   標準フィルターについて詳しくは、[標準フィルターの作成](#creating-a-simple-filter)を参照してください。
 
 * **詳細フィルター**
 
    **詳細フィルター**&#x200B;は、データに対する単一のクエリや連結したクエリを使用して作成されます。
 
-   アドバンスフィルターの作成について詳しくは、[アドバンスフィルターの作成](#creating-an-advanced-filter)を参照してください。
+   詳細フィルターの作成について詳しくは、[詳細フィルターの作成](#creating-an-advanced-filter)を参照してください。
 
-   関数を使用してフィルターのコンテンツを定義できます。詳しくは、[関数](#creating-an-advanced-filter-with-functions)を使用したアドバンスフィルターの作成を参照してください。
+   関数を使用してフィルターの内容を定義できます。詳しくは、[関数を使用した詳細フィルターの作成](#creating-an-advanced-filter-with-functions)を参照してください。
 
    >[!NOTE]
    >
@@ -69,9 +69,9 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
 
    **アプリケーションフィルター**&#x200B;は、その設定を他のオペレーターと使用および共有するために保存された詳細フィルターです。
 
-   リストの上にある「**[!UICONTROL フィルター]**」ボタンを使用すると、組み合わせてフィルターを絞り込むことができる一連のアプリケーションフィルターが表示されます。これらのフィルターを作成する方法は、[フィルターを保存](#saving-a-filter)に記載されています。
+   リストの上にある「**[!UICONTROL フィルター]**」ボタンを使用すると、組み合わせてフィルターを絞り込むことができる一連のアプリケーションフィルターが表示されます。これらのフィルターを作成する方法については、[フィルターの保存](#saving-a-filter)を参照してください。
 
-## デフォルトのフィルタ{#altering-the-default-filter}の変更
+## デフォルトのフィルターの変更 {#altering-the-default-filter}
 
 受信者リストのデフォルトのフィルターを変更するには、ツリーの&#x200B;**[!UICONTROL プロファイルとターゲット／定義済みフィルター]**&#x200B;ノードをクリックします。
 
@@ -92,9 +92,9 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
 
    >[!NOTE]
    >
-   >フィルター定義ウィンドウの詳細については、[アドバンスフィルターの作成](#creating-an-advanced-filter)および[フィルターの保存](#saving-a-filter)を参照してください。
+   >フィルター定義ウィンドウについて詳しくは、[詳細フィルターの作成](#creating-an-advanced-filter)および[フィルターの保存](#saving-a-filter)を参照してください。
 
-## 単純なフィルターの作成{#creating-a-simple-filter}
+## 標準フィルターの作成 {#creating-a-simple-filter}
 
 **標準フィルター**&#x200B;を作成するには、次の手順に従います。
 
@@ -128,7 +128,7 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
 
    ![](assets/s_ncs_user_delete_filter.png)
 
-## アドバンスフィルターの作成{#creating-an-advanced-filter}
+## 詳細フィルターの作成 {#creating-an-advanced-filter}
 
 **詳細フィルター**&#x200B;を作成するには、次の手順に従います。
 
@@ -168,9 +168,9 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
 
 ![](assets/s_ncs_user_filter_adv_remove.png)
 
-詳細フィルターを保存して、今後の使用のために保持できます。このタイプのフィルターの詳細については、[フィルターの保存](#saving-a-filter)を参照してください。
+詳細フィルターを保存して、今後の使用のために保持できます。このタイプのフィルターについて詳しくは、[フィルターの保存](#saving-a-filter)を参照してください。
 
-### 関数{#creating-an-advanced-filter-with-functions}を使用したアドバンスフィルタの作成
+### 関数を使用した詳細フィルターの作成 {#creating-an-advanced-filter-with-functions}
 
 詳細フィルターでは関数を使用できます。**関数を使用したフィルター**&#x200B;は式エディターを使用して作成されますが、式エディターでは、データベースデータと高度な関数を使用して数式を作成できます。関数を使用してフィルターを作成するには、詳細フィルターの作成手順の 1、2 および 3 を繰り返してから、次の手順に従います。
 
@@ -183,7 +183,7 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
 
    * 「**[!UICONTROL フィールドのみ]**」は、フィールドを選択する場合に使用します。これはデフォルトのモードです。
    * 「**[!UICONTROL 集計]**」は、使用する集計数式（カウント、合計、平均、最大、最小）を選択する場合に使用します。
-   * 「**[!UICONTROL ユーザーフィルター]**」は、既存のユーザーフィルターのいずれかを選択する場合に使用します。ユーザーフィルターの詳細については、[フィルター](#saving-a-filter)の保存を参照してください。
+   * 「**[!UICONTROL ユーザーフィルター]**」は、既存のユーザーフィルターのいずれかを選択する場合に使用します。ユーザーフィルターについて詳しくは、[フィルターの保存](#saving-a-filter)を参照してください。
    * 「**[!UICONTROL 式]**」は、式エディターにアクセスする場合に使用します。
 
       式エディターでは、詳細フィルターを定義できます。次のような画面です。
@@ -194,9 +194,9 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
 
       >[!NOTE]
       >
-      >式に基づくフィルターの作成の例については、[このセクション](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is)を参照してください。
+      >式に基づくフィルター作成の例については、[この節](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is)を参照してください。
 
-## フィルター{#saving-a-filter}を保存
+## フィルターの保存 {#saving-a-filter}
 
 フィルターは各オペレーター専用であり、オペレーターがクライアントコンソールのキャッシュをクリアするたびに再初期化されます。
 
@@ -220,9 +220,9 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
 
 ![](assets/s_ncs_user_filter_combination.png)
 
-## フィルタ受信者{#filtering-recipients}
+## 受信者のフィルタリング {#filtering-recipients}
 
-定義済みフィルター（[フィルターの保存](#saving-a-filter)を参照）を使用すると、データベースに含まれる受信者のプロファイルをフィルターできます。 フィルターは、ツリーの&#x200B;**[!UICONTROL プロファイルとターゲット／定義済みフィルター]**&#x200B;ノードから編集できます。「**[!UICONTROL フィルター]**」ボタンを使用すると、ワークスペースの上部セクションにフィルターが表示されます。
+定義済みフィルター（[フィルターの保存](#saving-a-filter)を参照）を使用すれば、データベースに含まれている受信者のプロファイルをフィルタリングできます。フィルターは、ツリーの&#x200B;**[!UICONTROL プロファイルとターゲット／定義済みフィルター]**&#x200B;ノードから編集できます。「**[!UICONTROL フィルター]**」ボタンを使用すると、ワークスペースの上部セクションにフィルターが表示されます。
 
 フィルターを選択してその定義を表示し、フィルターされたデータのプレビューにアクセスします。
 
@@ -377,4 +377,3 @@ Adobe Campaign では、次のフィルタータイプを使用できます。
    このオプションは、配信ウィザードで提供される多重定義できない「配信の受信者」および「フォルダーに属する配信の受信者」フィルターに対して有効です。
 
    ![](assets/s_ncs_user_filter_advanced_param.png)
-

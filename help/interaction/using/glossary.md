@@ -6,14 +6,14 @@ description: 用語集
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1113'
 ht-degree: 100%
 
 ---
-
 
 # 用語集{#glossary}
 
@@ -78,4 +78,3 @@ ht-degree: 100%
 * **定義済みフィルター**：定義済みフィルタールールでは、オファーのパラメーター（オファーコードなど）を考慮に入れることができます。定義済みフィルターはオファーを作成した後でも再利用できます。
 * **オファー表示域**：オファーを表示するためにチャネルで使用される情報。オファー表示域は、オファーが表示されるスペースのレンダリング関数から作成でき、インターフェイス（HTML ブロックなど）に直接埋め込むこともできます。オファーはスペースに基づいて表示される場合があります。
 * **変更プロセス**：特定の環境で有効化されるプロセスで、連絡先が明示的または暗黙的に特定されない場合に匿名環境へ通話を転送します。
-

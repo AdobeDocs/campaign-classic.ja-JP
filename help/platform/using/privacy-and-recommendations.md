@@ -6,14 +6,14 @@ description: プライバシーと同意の詳細を説明します
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 translation-type: ht
-source-git-commit: 660b9ad4351fe611d99962f2b163858b1f70bc84
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '2038'
 ht-degree: 100%
 
 ---
-
 
 # プライバシーと同意{#privacy-and-recommendations}
 

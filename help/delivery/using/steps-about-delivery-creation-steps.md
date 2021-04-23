@@ -6,14 +6,14 @@ description: Adobe Campaign Classic の配信作成の主な手順を確認し�
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
-workflow-type: tm+mt
+exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '132'
 ht-degree: 100%
 
 ---
-
 
 # 配信作成手順について {#about-delivery-creation}
 

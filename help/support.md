@@ -5,11 +5,11 @@ title: 'Campaign Classic のヘルプおよびサポートオプション '
 description: Campaign Classic のサポートが必要な場合は、こちらから確認してください。
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -40,13 +40,13 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
     <tr>
     <td valign="top">
         <ul>
-        <li><a href="platform/using/faq-key-concepts.md">重要な概念</a></li>
+        <li><a href="platform/using/faq-key-concepts.md">主要概念</a></li>
         <li><a href="platform/using/faq-campaign-config.md">Campaign 設定</a></li>
         <li><a href="platform/using/faq-reporting.md">レポート</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">ビルドアップグレード</a></li>
         <li><a href="platform/using/faq-messages.md">メッセージのテスト、送信、トラッキング</a></li>
         <li><a href="platform/using/faq-workflows.md">ワークフロー</a></li>
-        <li><a href="platform/using/faq-developers.md">開発者</a></li>
+        <li><a href="platform/using/faq-developers.md">デベロッパー</a></li>
         <li><a href="delivery/using/monitoring-deliverability.md">配信品質</a></li>
         </ul>
     </td>
@@ -77,10 +77,10 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <li><a href="production/using/build-upgrade.md">最新ビルドへのアップグレード</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">ビルドアップグレードに関する FAQ</a></li>
         <li><a href="delivery/using/about-delivery-monitoring.md">配信の監視</a></li>
-        <li><a href="delivery/using/understanding-quarantine-management.md">強制隔離管理について</a></li>
+        <li><a href="delivery/using/understanding-quarantine-management.md">強制隔離管理の理解</a></li>
         <li><a href="installation/using/get-started-security-privacy.md">セキュリティとプライバシーのチェックリスト</a></li>
-        <li><a href="platform/using/privacy-management.md">プライバシーと同意の管理</a></li>
-        <li><a href="platform/using/steps-to-create-a-query.md">クエリの設計</a></li>
+        <li><a href="platform/using/privacy-management.md">プライバシーと同意管理</a></li>
+        <li><a href="platform/using/steps-to-create-a-query.md">クエリのデザイン</a></li>
         <li><a href="workflow/using/querying-recipient-table.md">クエリのサンプル</a></li>
         <li><a href="workflow/using/building-a-workflow.md">ワークフローの作成</a></li>
         </ul>
@@ -94,14 +94,14 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 
 ### コントロールパネルとは？
 
-キャンペーンCampaign コントロールパネルを使用すると、設定を管理し、各インスタンスの使用状況を追跡できるので、Campaign Classicの製品管理者としての作業の効率を向上できます。
+Campaign コントロールパネルを使用すると、各インスタンスの設定を管理したり使用状況をトラッキングしたりできるので、Campaign Classic の製品管理者としての作業を効率化できます。
 詳しくは、[ここをクリック](https://docs.adobe.com/content/help/ja-JP/control-panel/using/discover-control-panel/key-features.html)してください。
 
 >[!NOTE]
 >
->Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
+>コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)を参照してください。
 >
->インスタンスはAWSでホストされ、最新の[Gold Standard](rn/using/gs-overview.md)ビルドまたは[最新のGAビルド(21.1)](rn/using/latest-release.md)でアップグレードする必要があります。 [このセクション](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)でバージョンを確認する方法を説明します。 インスタンスがAWSでホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)に記載されている手順に従ってください。
+>インスタンスは AWS でホストする必要があり、また最新の [Gold Standard](rn/using/gs-overview.md) ビルドまたは[最新の GA ビルド（21.1）](rn/using/latest-release.md)にアップグレードする必要があります。 バージョンを確認する方法については、[この節](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
 
 ### コントロールパネルにアクセスするには？
 
@@ -133,7 +133,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-新しい発券システムは[Adobe Admin Console](https://adminconsole.adobe.com/overview)を通じて立ち上げられた。 新しいシステムでは、ユーザーごとに、正しい権限を持つ新しい個別のアカウントが必要です。 Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。 [詳細情報](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)
+新しいチケット発行システムが [Adobe Admin Console](https://adminconsole.adobe.com/overview) で利用できるようになりました。新しいシステムでは、ユーザーごとに、正しい権限を持つ新しい個別のアカウントが必要です。 Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。 [詳細情報](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)
 
 ### エキスパートへの質問
 
@@ -141,10 +141,10 @@ Campaign Classic コミュニティへの参加：既存の質問の回答を検
 
 ### Campaign ダウンロードセンターへのアクセス
 
-2020 年 6 月現在、Experience Cloud ソリューションソフトウェア配布は、従来の Neolane ダウンロードセンターに代わるものであり、ソフトウェア、パッケージ、ツールを検索してダウンロードするためのより効率的なエクスペリエンスを提供します。Experience Cloud ソフトウェア配布にアクセスするには、[ここをクリック](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)します。新しいダウンロードセンターについて詳しくは、[このページ](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html)を参照してください。
+2020 年 6 月現在、Experience Cloud ソリューションソフトウェア配布は、従来の Neolane ダウンロードセンターに代わるものであり、ソフトウェア、パッケージ、ツールの検索およびダウンロードのエクスペリエンスが効率化されています。Experience Cloud ソフトウェア配布にアクセスするには、[ここをクリック](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)します。新しいダウンロードセンターについて詳しくは、[このページ](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html)を参照してください。
 
 ### チケットの作成またはチャットの開始
 
-ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。問題の解決またはトラブルシューティングを支援するために、 Adobe Admin Console では、アドビカスタマーサポートとチャットできます。
+ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。 問題の解決やトラブルシューティングのヘルプとして、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
 
-新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview) に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)を参照してください。
+新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview) に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)を参照してください。

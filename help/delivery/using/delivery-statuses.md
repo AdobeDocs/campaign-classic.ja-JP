@@ -7,11 +7,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ ajouter screenshot -->
  </tbody> 
 </table>
 
-Adobe Campaignの電子メールの配信品質を最適化する方法については、[このセクション](../../delivery/using/about-deliverability.md)を参照してください。 配信品質に関する詳細な詳細については、『[Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)』を参照してください。
+Adobe Campaign の E メールの配信品質を最適化する方法について、[この節](../../delivery/using/about-deliverability.md)を参照してください。配信品質の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
 
 ## 保留中ステータス {#pending-status}
 

@@ -6,14 +6,14 @@ description: Web フォームへのフィールドの追加
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2550'
 ht-degree: 100%
 
 ---
-
 
 # Web フォームへのフィールドの追加{#adding-fields-to-a-web-form}
 
@@ -381,6 +381,7 @@ Captcha は、ビジュアルの下に配置された入力フィールドでペ
 >* Adobe Campaign は、アップロードされたリソースのサイズまたはタイプを制御しません。そのため、安全なタイプのイントラネットサイトのみのアップロードフィールドを使用することを強くお勧めします。
 >* いくつかのサーバーがインスタンス（ロードバランシングアーキテクチャ）にリンクされている場合、同じサーバーに到達する Web フォームに対する呼び出しを確認する必要があります。
 >* これらの実装には、Adobe Campaign コンサルティングチームの支援が必要です。
+
 >
 
 
@@ -396,4 +397,3 @@ Captcha は、ビジュアルの下に配置された入力フィールドでペ
 次の例では、ユーザーがこのページを承認するたびに、受信者プロファイルの「**起源**」フィールドに自動的に値が入力されます。定数は、このページには表示されません。
 
 ![](assets/s_ncs_admin_survey_constante.png)
-

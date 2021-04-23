@@ -6,14 +6,14 @@ description: ACS コネクタのトラブルシューティング
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '812'
 ht-degree: 100%
 
 ---
-
 
 # ACS コネクタのトラブルシューティング{#troubleshooting-the-acs-connector}
 
@@ -112,4 +112,3 @@ ht-degree: 100%
 * **Campaign Standard で、プロファイル、オーディエンスまたはランディングページキャンペーンを編集できません。これはどういう意味ですか。**
 
    Campaign v7 から同期したリソースは、データ整合性を確保するために、Campaign Standard では読み取り専用モードになります。これらの要素のいずれかを編集する必要がある場合は、Campaign v7 で編集してから Campaign Standard で変更をレプリケートできます。
-

@@ -12,14 +12,14 @@ discoiquuid: 4113c3fe-a279-4fe1-be89-ea43c96edc34
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
-source-git-commit: 32a14eb99847dc04a582623204bc856c29fa4359
-workflow-type: tm+mt
+exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '570'
 ht-degree: 100%
 
 ---
-
 
 # 重複排除 - 重複アクティビティの結合機能の使用 {#deduplication-merge}
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 | 最終変更日 | 名 | 姓 | 電子メール | 携帯電話 | 電話 |
 |-----|------------|-----------|-------|--------------|------|
 | 2020/5/19 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 2020/7/22 | Bobby | ティズナー | bob@mycompany.com |  | 777-777-7777 |
+| 2020/7/22 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
 | 2020/10/03 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
 
 重複排除 - 重複アクティビティの&#x200B;**[!UICONTROL 結合]**&#x200B;機能を使用して、重複排除 - 重複の一連のルールを設定し、単一の結果データレコードに結合するフィールドのグループを定義できます。 例えば、一連の重複レコードでは、最も古い電話番号または最新の名前を保持するように選択できます。
@@ -101,15 +101,15 @@ ht-degree: 100%
 
 | 変更日 | 名 | 姓 | 電子メール | 携帯電話 | 電話 |
 -----|------------|-----------|-------|--------------|------|
-| 2020/5/19 | ロバート | ティズナー | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 2020/7/22 | ボビー | ティズナー | bob@mycompany.com |  | 777-777-7777 |
-| 2020/10/03 | ボブ |  | bob@mycompany.com |  | 888-888-8888 |
+| 2020/5/19 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
+| 2020/7/22 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
+| 2020/10/03 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
 
 前述のルールに従って、3 つのレコードから結果が結合されます。 比較後、最新の名前と携帯電話が、元の電話番号と共に使用されていると結論付けられます。
 
 | 名 | 姓 | 電子メール | 携帯電話 | 電話 |
 |------------|-----------|-------|--------------|------|
-| ボビー | ティズナー | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+| Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
 >[!NOTE]
 >

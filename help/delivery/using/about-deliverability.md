@@ -7,92 +7,92 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
 # 配信品質とは{#about-deliverability}
 
-配信品質を使用すると、バウンスを発生させたりスパムとしてマークされたりすることなく、受信者の受信トレイに届いたキャンペーンの成功を測定できます。 [配信品質が重要な理由を学ぶ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters)。
+配信品質は、バウンスしたりスパムと見なされることなく受信者のインボックスに到達するキャンペーンの成否を測定する手法です。[配信品質が重要な理由について説明します](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=ja#why-deliverability-matters)。
 
-より正確に言うと、電子メールの配信品質とは、メッセージが宛先に到達する能力を、個人の電子メールアドレスを介して、短時間で、コンテンツや形式に関して期待される品質を持つ特性の集まりを指します。
+正確には、E メール配信品質とは、メッセージが、期待される品質の内容と形式を持ち、個人の E メールアドレスを通じて短時間で宛先に到達できるかどうかを判断するための一連の特性のことを指します。
 
-配信品質の概要と、主な配信品質の用語、概念、アプローチの詳細については、『[Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)』を参照してください。
+配信品質の概要と、配信品質の主要な用語、概念、アプローチの詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
 
-## 配信品質の向上方法{#deliverability-key-points}
+## 配信品質を向上させる方法 {#deliverability-key-points}
 
-配信品質の問題は、通常、インターネットサービスプロバイダーやメールサーバ管理者が実装したスパムに対する保護の対策に関連しています。
+配信品質の問題は、通常、インターネットサービスプロバイダーおよびメールサーバー管理者が実行するスパム対策の指標に関係しています。
 
-* 成功する電子メールマーケティングキャンペーンを設計する方法に関する一般的な推奨事項については、[配信品質の戦略と定義](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html)を参照してください。
+* 成功する E メールマーケティングキャンペーンを設計する方法に関する一般的な推奨事項については、[配信品質の戦略と定義](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=ja)を参照してください。
 
-* Adobe Campaignの電子メールの配信品質を最適化する方法について、より具体的な推奨事項を示すために、Adobeは、この節に示すベストプラクティスを使用することをお勧めします。
+* Adobe Campaign の E メールの配信品質を最適化する方法に関する具体的な推奨事項については、この節に示すベストプラクティスに従うことをお勧めします。
 
 >[!NOTE]
 >
->ISPは、顧客をスパム業者から保護するために、新しい高度なフィルタリング技術を継続的に開発する必要があるので、電子メールの配信品質は、常に変化する基準とルールに特徴付けられています。 定期的に更新される『[Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)』を参照してください。
+>ISP は顧客をスパム業者から保護するために、新しい高度なフィルタリング技術を継続的に開発する必要があるので、E メールの配信品質は常に変化する基準とルールを特徴としています。必ず、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。これは定期的に更新されます。
 
 ### 配信品質率
 
-配信品質率は、受信者の受信トレイに届いたメッセージの数を、配信されたメッセージの数と比較した値です。 配信品質を向上させるために、この率を上げる作業を行う場合があります。
+配信品質率は、受信者のインボックスに届いたメッセージの数と配信されたメッセージの数との比率ですこの比率を高めることにより、配信品質を向上させることができます。
 
-Adobe Campaignにより、配信品質は、特に多くの要因に左右されます。
+Adobe Campaign では、配信品質は多くの要因に左右されます。特に次のような要因があげられます。
 
-* インスタンスの正しい設定：Adobeの担当者にお問い合わせください。
-* 正当なネットワーク構成：[このセクション](../../delivery/using/optimize-delivery.md#network-config)と[ドメインの設定と方法](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy)を参照してください。
-* IPアドレスの評価：[IP戦略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy)を参照してください。
-* 対象となるアドレスの質：「[強制隔離管理](../../delivery/using/optimize-delivery.md#quarantine-management)」を参照してください。
-* [苦情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html)と[ハードバウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)率が低い。
-* メッセージの内容：[電子メールコンテンツの制御](../../delivery/using/control-message-content.md)を参照してください。
-* メッセージ認証(SPF、DKIM、DMARC):[このセクション](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)を参照してください。
-* 送信者の評価：主なISPが送り手の評判を評価する方法については、[このセクション](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html)を参照してください。
+* インスタンスの正しい設定：詳しくはアドビ担当者にお問い合わせください。
+* 適切なネットワーク構成：[この節](../../delivery/using/optimize-delivery.md#network-config)と[ドメインの設定と戦略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#transition-process)を参照してください。
+* IP アドレスの評価：[IP 戦略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#ip-strategy)を参照してください。
+* アドレスの品質の目標：[強制隔離管理](../../delivery/using/optimize-delivery.md#quarantine-management)を参照してください。
+* 低い[苦情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja)率と[ハードバウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)率。
+* メッセージコンテンツ：[E メールコンテンツの制御](../../delivery/using/control-message-content.md)を参照してください。
+* メッセージ認証（SPF、DKIM、DMARC）：[この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
+* 送信者の評判：主要 ISP が送信者の評判を評価する方法については、[この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=ja)を参照してください。
 
-## キャンペーン配信品質ツール{#deliverability-tools}
+## Campaign の配信品質ツール{#deliverability-tools}
 
 <!--Adobe Campaign provides a number of tools designed to ensure optimal deliverability.-->
-Adobe Campaignには、プラットフォームの配信パフォーマンスを追跡し、改善するためのツールがいくつか用意されています。 また、キャンペーンを使用する際の配信品質を最適化するために考慮すべき主な原則についても説明します。
+Adobe Campaign には、プラットフォームの配信品質パフォーマンスを追跡し改善するためのツールがいくつか用意されています。 また、Campaign を使用する際に配信品質を最適化するために考慮すべき主な原則についても説明します。
 
-### 注意深くメッセージを作成する
+### メッセージの慎重な作成
 
-メッセージを設定、デザイン、テストする場合は、次の節に示すベストプラクティスに従っていることを確認してください。 Adobe Campaignが提供するすべての機能を活用すると、配信品質を向上できます。
+メッセージを設定、デザイン、テストする場合は、次の節に示すベストプラクティスに従うようにしてください。 Adobe Campaign で提供されるすべての機能を活用すると、配信品質の向上に役立ちます。
 
 * [配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)
 * [E メールコンテンツの制御](../../delivery/using/control-message-content.md)
 * [受信ボックスレンダリング](../../delivery/using/inbox-rendering.md)
 * [配達確認の送信](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)
 
-### 重複のオプトイン{#double-opt-in}を通じて同意を確認
+### ダブルオプトインによる同意確認 {#double-opt-in}
 
-Adobeでは、無効なアドレスへのメッセージの送信を避け、不適切な通信を制限し、送信者の評判を向上させるために、重複オプトインメカニズムの実装をお勧めします。 この方法を使用すると、受信者が意図的に購読していることを確認できます。
+無効なアドレスへのメッセージ送信を回避し、不適切な通信を制限し、送信者の評判を向上させるには、ダブルオプトインのメカニズムの実装をお勧めします。この方法を使用すると、購読が受信者の意図によるものであることを確認できます。
 
-詳しくは、[二重のオプトインを備えた購読フォームの作成](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in)を参照してください。
+詳しくは、[ダブルオプトインを備えた購読フォームの作成](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in)を参照してください。
 
-お客様からデータを収集する際のベストプラクティスについて詳しくは、『[Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene)』を参照してください。
+顧客からデータを収集する際のベストプラクティスについて詳しくは、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=ja#data-quality-and-hygiene)を参照してください。
 
 ### 強制隔離管理の活用
 
-Adobe Campaignは、一貫して発生するスパムの苦情、ハードバウンス、ソフトバウンスを収集するリストを管理します。
+Adobe Campaign は、絶えず発生するスパムの苦情、ハードバウンス、ソフトバウンスを収集したリストを管理します。
 
-配信品質を保護するため、そのリスト上の住所を持つ受信者は、デフォルトでは、これらの連絡先に送信すると、送信の評判が悪くなる可能性があるので、将来のすべての配信から除外されます。
+配信品質を保護するため、アドレスがこのリストにある受信者は、デフォルトでは今後のすべての配信から除外されます。これらの連絡先に送信すると、送信の評判が低下する可能性があるからです。
 
-一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムとみなします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
+一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムと見なします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
 
-この点について詳しくは、以下の節を参照してください。
+詳しくは、以下の節を参照してください。
 
 * [配信エラーの理解](../../delivery/using/understanding-delivery-failures.md)
 * [強制隔離管理の理解](../../delivery/using/understanding-quarantine-management.md)
-* [強制隔離対ブロックリスト](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+* [強制隔離とブロックリストの比較](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ### 監視ツールとレポートツールの使用
 
-Adobe Campaignが提供する機能を使用して、配信品質を監視します。
+Adobe Campaign が提供する機能を使用して、配信品質を監視します。
 
-Adobe Campaignを使用すると、組み込みのリアルタイムインジケーターとレポートを使用して、配信のパフォーマンスを確認し、配信に関するインサイトを向上できます。
+Adobe Campaign では、一連の組み込みのリアルタイムインジケーターとレポートを使用して配信のパフォーマンスを確認し、配信に関するインサイトを強化できます。
 
-この点について詳しくは、以下の節を参照してください。
+詳しくは、以下の節を参照してください。
 
 * [配信品質の監視](../../delivery/using/monitoring-deliverability.md)
 * [配信の監視について](../../delivery/using/about-delivery-monitoring.md)

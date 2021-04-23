@@ -6,14 +6,14 @@ description: Campaign Classic に関する FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-translation-type: tm+mt
-source-git-commit: d1b38acc5209a5c96ab7a35fe9640159141b110f
-workflow-type: tm+mt
+exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '768'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # Campaign 設定に関する FAQ {#settings-faq}
 
@@ -41,7 +41,7 @@ Adobe Campaign の配信機能と高度なキャンペーン管理機能を、�
 
 ## E メール配信品質の設定方法は？ {#how-to-configure-email-deliverability-}
 
-『[Adobe配信品質ベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)』に加えて、技術的な推奨事項を読み、キャンペーン配信機能を最大限にするためにインスタンスの設定方法を理解してください。
+[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)に加えて、配信品質に関する技術的な推奨事項に目を通し、Campaign の配信機能を最大限に活用するためのインスタンスの設定方法を理解してください。
 
 [詳しくはここをクリック](../../delivery/using/about-deliverability.md)してください。
 

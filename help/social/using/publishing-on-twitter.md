@@ -6,14 +6,14 @@ description: Twitter へのパブリッシュ
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
-translation-type: tm+mt
-source-git-commit: 6d5dbc16ed6c6e5a2e62ceb522e2ccd64b142825
-workflow-type: tm+mt
+exl-id: e030c029-d1ee-4749-94e3-6bdfc8d89a34
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1026'
 ht-degree: 100%
 
 ---
-
 
 # Twitter へのパブリッシュ{#publishing-on-twitter}
 

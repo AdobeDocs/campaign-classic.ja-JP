@@ -6,16 +6,16 @@ description: 列挙の管理
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '935'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-
-# 定義済みリストの管理{#managing-enumerations}
+# 列挙の管理{#managing-enumerations}
 
 列挙（「定義済みリスト」とも呼ばれます）とは、特定のフィールドへの入力候補としてシステムによって表示される値のリストです。列挙を利用することでフィールドの値を統一することができ、データ入力時やクエリでの利用に便利です。
 
@@ -44,7 +44,7 @@ ht-degree: 96%
 
 * 「**[!UICONTROL クローズ]**」オプションを選択すると、ユーザーは用意された選択肢の値を使用できますが新しい値を追加することはできません。
 
-## データの標準化{#standardizing-data}
+## データの標準化 {#standardizing-data}
 
 ### エイリアスクレンジングについて {#about-alias-cleansing}
 
@@ -70,7 +70,7 @@ ht-degree: 96%
 
 ![](assets/s_ncs_user_itemized_list_alias_option.png)
 
-#### エイリアス{#creating-an-alias}の作成
+#### エイリアスの作成 {#creating-an-alias}
 
 エイリアスを作成するには、「**[!UICONTROL 追加]**」をクリックします。
 
@@ -88,7 +88,7 @@ ht-degree: 96%
 
 ![](assets/s_ncs_user_itemized_list_alias_create_3.png)
 
-その後、ユーザーが（Adobe Campaign コンソールまたはフォームの）会社フィールドに **NEILSEN** と入力すると、**NIELSEN Ltd** という値に自動置換されます。値の置換は&#x200B;**エイリアスクレンジング**&#x200B;ワークフローによって実行されます。「[データクレンジングの実行](#running-data-cleansing)」を参照してください。
+その後、ユーザーが（Adobe Campaign コンソールまたはフォームの）会社フィールドに **NEILSEN** と入力すると、**NIELSEN Ltd** という値に自動置換されます。値の置換は&#x200B;**エイリアスクレンジング**&#x200B;ワークフローによって実行されます。[データクレンジングの実行](#running-data-cleansing)を参照してください。
 
 ![](assets/s_ncs_user_itemized_list_alias_use.png)
 
@@ -110,15 +110,15 @@ ht-degree: 96%
 
 ![](assets/s_ncs_user_itemized_list_alias_detail2.png)
 
-#### エイリアスヒット{#retrieving-alias-hits}を取得
+#### エイリアスヒット数の取得 {#retrieving-alias-hits}
 
 ユーザーによって入力された値をエイリアスに変換することもできます。定義済みリストに含まれない値がユーザーによって入力された場合に、その値が「**[!UICONTROL エイリアス]**」タブに追加されます。
 
-入力値は&#x200B;**エイリアスクレンジング**&#x200B;テクニカルワークフローによって毎晩復元され、定義済みリストに反映されます。[データクレンジングの実行](#running-data-cleansing)を参照
+入力値は&#x200B;**エイリアスクレンジング**&#x200B;テクニカルワークフローによって毎晩復元され、定義済みリストに反映されます。[データクレンジングの実行](#running-data-cleansing)を参照してください。
 
-必要な場合は、その値が入力された回数を「**[!UICONTROL ヒット数]**」列に表示させることもできます。ただし、この値を計算するために長い時間と大量のメモリが必要となる場合があります。詳しくは、「[エントリ回数の計算](#calculating-entry-occurrences)」を参照してください。
+必要な場合は、その値が入力された回数を「**[!UICONTROL ヒット数]**」列に表示させることもできます。ただし、この値を計算するために長い時間と大量のメモリが必要となる場合があります。詳しくは、[エントリ出現回数の計算](#calculating-entry-occurrences)を参照してください。
 
-### データクレンジング{#running-data-cleansing}を実行
+### データクレンジングの実行 {#running-data-cleansing}
 
 データクレンジングは&#x200B;**[!UICONTROL エイリアスクレンジング]**&#x200B;ワークフローによって実行されます。列挙用に定義された設定は、実行時に適用されます。[エイリアスクレンジングワークフロー](#alias-cleansing-workflow)を参照してください。
 
@@ -132,7 +132,7 @@ ht-degree: 96%
 
 「**[!UICONTROL 開始]**」ボタンをクリックすると、データクレンジングが実行されます。
 
-#### エントリ回数の計算{#calculating-entry-occurrences}
+#### エントリ出現回数の計算 {#calculating-entry-occurrences}
 
 定義済みリストの「**[!UICONTROL エイリアス]**」サブタブでは、入力されたすべての値の中に特定のエイリアスが含まれていた回数を表示できます。この情報は推定値であり、「**[!UICONTROL ヒット数]**」列に表示されます。
 
@@ -161,4 +161,3 @@ ht-degree: 96%
 このワークフローには、**[!UICONTROL 管理／プロダクション／テクニカルワークフロー]**&#x200B;ノードでアクセスできます。
 
 ![](assets/s_ncs_user_itemized_list_alias_wf.png)
-

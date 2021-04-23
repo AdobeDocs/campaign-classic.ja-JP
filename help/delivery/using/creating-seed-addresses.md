@@ -6,14 +6,14 @@ description: シードアドレスの作成方法と使用方法を説明しま�
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '440'
 ht-degree: 100%
 
 ---
-
 
 # シードアドレスの作成{#creating-seed-addresses}
 

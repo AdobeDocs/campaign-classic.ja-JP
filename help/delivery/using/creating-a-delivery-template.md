@@ -6,14 +6,14 @@ description: 配信テンプレートの作成
 audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
-translation-type: tm+mt
-source-git-commit: 6335c1cd327a83dbc8c4d43c4ab795b84531c3e1
-workflow-type: tm+mt
+exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '387'
 ht-degree: 100%
 
 ---
-
 
 # 配信テンプレートの作成{#creating-a-delivery-template}
 

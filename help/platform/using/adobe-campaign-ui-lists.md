@@ -6,14 +6,14 @@ description: リストの参照と設定の方法について説明します。
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
+exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 translation-type: ht
-source-git-commit: d6327cb5307ab5d37c15afa45dfd180ef04cb5a2
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1198'
 ht-degree: 100%
 
 ---
-
 
 # リストの管理とカスタマイズ{#manage-and-customize-lists}
 

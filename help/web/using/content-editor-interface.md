@@ -6,14 +6,14 @@ description: コンテンツエディターのインターフェイス
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: tm+mt
-source-git-commit: c93931820887306c0ef64ef05d4f0ba2ca5a98aa
-workflow-type: tm+mt
+exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '537'
 ht-degree: 100%
 
 ---
-
 
 # コンテンツエディターのインターフェイス{#content-editor-interface}
 
@@ -87,4 +87,3 @@ DCE 編集ウィンドウは、3 つの異なるセクションに分類され�
 >[!CAUTION]
 >
 >特定のツールバー機能を使用すると、HTML コンテンツを書式設定できます。ただし、ページに CSS スタイルシートが含まれる場合、スタイルシートからの&#x200B;**指示**&#x200B;が、ツールバーで指定された指示よりも&#x200B;**優先**&#x200B;されることがあります。
-

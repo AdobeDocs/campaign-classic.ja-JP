@@ -6,14 +6,14 @@ description: しきい値の監視
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '97'
 ht-degree: 100%
 
 ---
-
 
 # しきい値の監視{#monitoring-thresholds}
 
@@ -24,4 +24,3 @@ ht-degree: 100%
 >[!NOTE]
 >
 >キュー内の保留中のイベント数が、Adobe Campaign のプロセス監視ページの「[システム指標](../../production/using/monitoring-processes.md#system-indicators)」セクションに表示されます。デプロイウィザードについて詳しくは、[この節](../../installation/using/deploying-an-instance.md#deployment-wizard)を参照してください。
-

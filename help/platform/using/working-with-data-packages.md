@@ -6,16 +6,16 @@ description: データパッケージの使用
 audience: platform
 content-type: reference
 topic-tags: administration-basics
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2512'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-
-# データパッケージの操作{#working-with-data-packages}
+# データパッケージの使用{#working-with-data-packages}
 
 ## データパッケージについて {#about-data-packages}
 
@@ -83,19 +83,19 @@ XML ドキュメントの先頭と末尾には必ず **`<package>`** 要素を�
 
 データパッケージの作成は、任意のテキストエディターを使って手作業でおこなうことができます。ただし、XML ドキュメントの構造は常に &quot;xtk:navtree&quot; データスキーマに準拠している必要があります。Adobe Campaign コンソールには、データパッケージのエクスポートとインポートを実行できるモジュールがあります。
 
-## パッケージのエクスポート{#exporting-packages}
+## パッケージのエクスポート {#exporting-packages}
 
 ### パッケージのエクスポートについて {#about-package-export}
 
 パッケージは次の 3 つの方法でエクスポートできます。
 
-* **[!UICONTROL パッケージエクスポートウィザード]**&#x200B;を使用して、単一のパッケージにオブジェクトセットをエクスポートできます。詳しくは、[パッケージ内のオブジェクトのセットの書き出し](#exporting-a-set-of-objects-in-a-package)を参照してください。
+* **[!UICONTROL パッケージエクスポートウィザード]**&#x200B;を使用して、単一のパッケージにオブジェクトセットをエクスポートできます。詳しくは、[パッケージへの一連のオブジェクトのエクスポート](#exporting-a-set-of-objects-in-a-package)を参照してください。
 * **単一のオブジェクト**&#x200B;を右クリックして、**[!UICONTROL アクション／パッケージにエクスポート]**&#x200B;を選択して、パッケージにエクスポートできます。
-* **パッケージ定義**&#x200B;を使用して、パッケージ構造を作成し、オブジェクトを追加した後、パッケージにエクスポートできます。詳しくは、[パッケージ定義の管理](#managing-package-definitions)を参照してください。
+* **パッケージ定義**&#x200B;を使用して、パッケージ構造を作成し、オブジェクトを追加した後、パッケージにエクスポートできます。詳しくは、 [パッケージ定義の管理](#managing-package-definitions)を参照してください。
 
-パッケージをエクスポートした後、そのパッケージと追加されたエンティティを他の Campaign インスタンスにインポートすることもできます。
+パッケージをエクスポートしたら、そのパッケージと追加したすべてのエンティティを別の Campaign インスタンスにインポートできます。
 
-### パッケージ{#exporting-a-set-of-objects-in-a-package}内のオブジェクトセットの書き出し
+### パッケージへの一連のオブジェクトのエクスポート {#exporting-a-set-of-objects-in-a-package}
 
 Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／詳細設定／パッケージをエクスポート]**&#x200B;メニューを選択すると、パッケージエクスポートウィザードにアクセスできます。
 
@@ -141,7 +141,7 @@ Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツー�
 
    ![](assets/ncs_datapackage_export7.png)
 
-### 依存関係の管理{#managing-dependencies}
+### 依存関係の管理 {#managing-dependencies}
 
 Adobe Campaign のエクスポートメカニズムでは、エクスポートされる様々な要素間のリンクをトラッキングできます。
 
@@ -154,7 +154,7 @@ Adobe Campaign のエクスポートメカニズムでは、エクスポート�
 >
 >スキーマ要素に関連付けられる整合性タイプの定義については、[この節](../../configuration/using/database-mapping.md#links--relation-between-tables)を参照してください。
 
-#### キャンペーンのエクスポート{#exporting-a-campaign}
+#### キャンペーンのエクスポート {#exporting-a-campaign}
 
 キャンペーンをエクスポートする方法の例を以下に示します。エクスポートするマーケティングキャンペーンには、「MyWorkflow」フォルダー（ノード：管理／プロダクション／テクニカルワークフロー／キャンペーンプロセス／MyWorkflow）内のタスク（ラベル：「MyTask」）およびワークフロー（ラベル：「CampaignWorkflow」）が含まれます。
 
@@ -222,18 +222,18 @@ template="xtk:folder" pkgAdmin="@id != 0">
 >
 >**preCreate** 値は、リンクタイプのイベントに対してのみ使用できます。この値を指定すると、エクスポートされるパッケージ内のまだロードされていないエンティティを参照するリンクを作成することが認められます。
 
-## パッケージ定義の管理{#managing-package-definitions}
+## パッケージ定義の管理 {#managing-package-definitions}
 
 パッケージ定義では、パッケージ構造を作成し、エンティティを追加してから、単一のパッケージにエクスポートできます。その後、このパッケージと追加されたすべてのエンティティを他の Campaign インスタンスにインポートできます。
 
 **関連トピック：**
 
 * [パッケージ定義の作成](#creating-a-package-definition)
-* [パッケージ定追加義のエンティティ](#adding-entities-to-a-package-definition)
-* [パッケージ定義の生成の設定](#configuring-package-definitions-generation)
+* [パッケージ定義へのエンティティの追加](#adding-entities-to-a-package-definition)
+* [パッケージ定義の生成に関する設定](#configuring-package-definitions-generation)
 * [パッケージ定義からのパッケージのエクスポート](#exporting-packages-from-a-package-definition)
 
-### パッケージ定義{#creating-a-package-definition}を作成します
+### パッケージ定義の作成 {#creating-a-package-definition}
 
 パッケージ定義には、**[!UICONTROL 管理／設定／パッケージ管理／パッケージ定義]**&#x200B;メニューからアクセスできます。
 
@@ -245,13 +245,13 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 **関連トピック：**
 
-* [パッケージ定追加義のエンティティ](#adding-entities-to-a-package-definition)
-* [パッケージ定義の生成の設定](#configuring-package-definitions-generation)
+* [パッケージ定義へのエンティティの追加](#adding-entities-to-a-package-definition)
+* [パッケージ定義の生成に関する設定](#configuring-package-definitions-generation)
 * [パッケージ定義からのパッケージのエクスポート](#exporting-packages-from-a-package-definition)
 
-### パッケージ定義{#adding-entities-to-a-package-definition}追加のエンティティ
+### パッケージ定義へのエンティティの追加 {#adding-entities-to-a-package-definition}
 
-「**[!UICONTROL コンテンツ]**」タブで「**[!UICONTROL 追加]**」ボタンをクリックし、パッケージでエクスポートするエンティティを選択します。エンティティを選択する際のベストプラクティスは、[このセクション](#exporting-a-set-of-objects-in-a-package)に記載されています。
+「**[!UICONTROL コンテンツ]**」タブで「**[!UICONTROL 追加]**」ボタンをクリックし、パッケージとしてエクスポートするエンティティを選択します。エンティティを選択する際のベストプラクティスについては、[この節](#exporting-a-set-of-objects-in-a-package)を参照してください。
 
 ![](assets/packagedefinition_addentities.png)
 
@@ -265,11 +265,11 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
    ![](assets/packagedefinition_packageselection.png)
 
-1. エンティティがパッケージ定義に追加され、パッケージと共にエクスポートされます（[このセクション](#exporting-packages-from-a-package-definition)を参照）。
+1. エンティティをパッケージ定義に追加すると、そのエンティティがパッケージとしてエクスポートされます（[この節](#exporting-packages-from-a-package-definition)を参照）。
 
    ![](assets/packagedefinition_entityadded.png)
 
-### パッケージ定義の生成{#configuring-package-definitions-generation}を設定
+### パッケージ定義の生成に関する設定 {#configuring-package-definitions-generation}
 
 パッケージの生成は、パッケージ定義の「**[!UICONTROL コンテンツ]**」タブで設定できます。設定をおこなうには、「**[!UICONTROL 生成パラメーター]**」リンクをクリックします。
 
@@ -289,7 +289,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
    >
    >この場合は「**[!UICONTROL デフォルト値を含める]**」オプションを選択すると、元のインスタンスからすべての属性がパッケージにエクスポートされるので、複数のバージョンが結合されることはありません。
 
-### パッケージ定義{#exporting-packages-from-a-package-definition}からのパッケージのエクスポート
+### パッケージ定義からのパッケージのエクスポート {#exporting-packages-from-a-package-definition}
 
 パッケージ定義からパッケージをエクスポートするには、以下の手順に従います。
 
@@ -299,15 +299,15 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
    ![](assets/packagedefinition_packageexport.png)
 
-## パッケージをインポート {#importing-packages}
+## パッケージのインポート {#importing-packages}
 
-Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／詳細設定／パッケージインポート]**&#x200B;メニューを選択すると、パッケージインポートウィザードにアクセスできます。
+Adobe Campaign クライアントコンソールのメインメニューで&#x200B;**[!UICONTROL ツール／詳細設定／パッケージインポート...]**&#x200B;を選択すると、パッケージインポートウィザードにアクセスできます。
 
 （例えば、別の Adobe Campaign インスタンスから）事前にエクスポートしたパッケージをインポートするか、ライセンス条件によっては[組み込みパッケージ](../../installation/using/installing-campaign-standard-packages.md)をインポートすることができます。
 
 ![](assets/ncs_datapackage_import.png)
 
-### ファイルからパッケージをインストール {#installing-a-package-from-a-file}
+### ファイルからのパッケージのインストール {#installing-a-package-from-a-file}
 
 既存のデータパッケージをインポートするには、パッケージの XML ファイルを選択し、「**[!UICONTROL 開く]**」をクリックします。
 
@@ -319,7 +319,7 @@ Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツー�
 
 ![](assets/ncs_datapackage_import_2.png)
 
-### 組み込みパッケージ{#installing-a-standard-package}のインストール
+### 組み込みパッケージのインストール {#installing-a-standard-package}
 
 標準パッケージは、Adobe Campaign の設定時にインストールされる組み込みパッケージです。権限とデプロイメントモデルに応じて、新しいオプションやアドオンを入手する場合や、新しいオファーにアップグレードする場合に、新しい標準パッケージをインポートできます。
 

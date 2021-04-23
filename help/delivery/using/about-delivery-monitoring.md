@@ -6,14 +6,14 @@ description: Campaign Classic 配信監視機能について詳しく説明し�
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
+exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 translation-type: ht
-source-git-commit: bc35a95d7deed1f0fd432ef8639f307ecf4d8e1f
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '288'
 ht-degree: 100%
 
 ---
-
 
 # 配信監視の概要 {#about-delivery-monitoring}
 

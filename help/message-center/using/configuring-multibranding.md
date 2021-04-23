@@ -6,14 +6,14 @@ description: マルチブランディングの設定
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: aa2e7ef7-fe69-41c8-9c90-bfb1533031a5
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '235'
 ht-degree: 100%
 
 ---
-
 
 # マルチブランディングの設定{#configuring-multibranding}
 
@@ -81,4 +81,3 @@ ht-degree: 100%
 1. 手順 1 で定義したように、各ブランドにつき外部アカウントを 1 つ作成し、内部名を同一にします。
 1. 各ブランドにつきデフォルトの配信テンプレートを 1 つ作成します。
 1. 配信テンプレートの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、ルーティングを各ブランドの外部アカウントに設定します。
-

@@ -6,14 +6,14 @@ description: ワークフローを使用した自動化
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: tm+mt
-source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
-workflow-type: tm+mt
+exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1197'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # ワークフローを使用した自動化{#automating-via-workflows}
 
@@ -78,7 +78,7 @@ Adobe Campaign のクライアントインターフェイスで設定したワ�
 
 ## 例 {#examples}
 
-### コンテンツの作成と配信の自動化{#automating-content-creation-and-delivery}
+### コンテンツの作成と配信の自動化 {#automating-content-creation-and-delivery}
 
 次の例では、コンテンツブロックの作成および配信を自動化します。
 
@@ -160,7 +160,7 @@ Adobe Campaign のクライアントインターフェイスで設定したワ�
 
 アクティビティの最後のアクションは、配信を準備し、開始することです。
 
-### 後で公開するためのコンテンツの作成{#creating-content-and-publishing-it-later}
+### 後で公開するコンテンツの作成 {#creating-content-and-publishing-it-later}
 
 この例では、コンテンツブロックを作成し、特定の時間が経過した後にファイルのパブリッシュを開始します。
 
@@ -192,7 +192,7 @@ Adobe Campaign のクライアントインターフェイスで設定したワ�
 
 ![](assets/d_ncs_content_workflow9.png)
 
-### 配信とそのコンテンツを作成{#creating-the-delivery-and-its-content}
+### 配信とコンテンツの作成 {#creating-the-delivery-and-its-content}
 
 この例も最初の例と同じ考え方です。最初の手順では、配信アクションを作成するだけです。
 
@@ -214,11 +214,11 @@ Adobe Campaign のクライアントインターフェイスで設定したワ�
 
 アクティビティの最後のアクションは、配信を準備し、開始することです。
 
-### FTPからのコンテンツのインポート{#importing-content-from-ftp}
+### FTP からのコンテンツのインポート {#importing-content-from-ftp}
 
 FTP または SFTP サーバー上の HTML ファイルに配信コンテンツが格納されている場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。[この例](../../workflow/using/loading-delivery-content.md)を参照してください。
 
-### AmazonSimpleストレージサービス(S3)コネクタ{#importing-content-from-amazon-simple-storage-service--s3--connector}からコンテンツをインポート
+### Amazon Simple Storage Service（S3）コネクタからのコンテンツのインポート {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
 配信コンテンツが Amazon Simple Storage Service（S3）バケットにある場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。[この例](../../workflow/using/loading-delivery-content.md)を参照してください。
 

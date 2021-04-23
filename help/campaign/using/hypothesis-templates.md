@@ -6,14 +6,14 @@ description: 仮説テンプレート
 audience: campaign
 content-type: reference
 topic-tags: response-manager
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1564'
 ht-degree: 100%
 
 ---
-
 
 # 仮説テンプレート{#hypothesis-templates}
 
@@ -235,4 +235,3 @@ ht-degree: 100%
    作成したテンプレートを使用して、購入テーブルで製品または記事の仮説を実行できます。
 
 1. 「**[!UICONTROL 保存]**」をクリックしてテンプレートを記録します。
-

@@ -6,14 +6,14 @@ description: Facebook アプリの例
 audience: social
 content-type: reference
 topic-tags: annexes
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2125'
 ht-degree: 100%
 
 ---
-
 
 # Facebook アプリの例{#examples-of-facebook-apps}
 
@@ -308,4 +308,3 @@ Twitter のフォロワーと同様（[動作の仕組み](../../social/using/pu
 >[!NOTE]
 >
 >この機能を使用する前に、Facebook アプリケーションと **[!UICONTROL Facebook Connect]** タイプの外部アカウントを作成する必要があります。詳しくは、[外部アカウントの設定](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)を参照してください。
-

@@ -7,11 +7,11 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Campaign Classic の操作について疑問がある場合は、以下に示す
 
 Adobe Campaign Classic は、お客様に最高のエクスペリエンスと価値を提供するために、様々なテクノロジーを活用しています。こうしたテクノロジーによる優れたセキュリティ、安定性、パフォーマンスを実現するには、Campaign Classic インスタンスを定期的にアップグレードして、常に最新版を使用する必要があります。
 
-Adobe Managed Servicesを使用している場合は、キャンペーン[!DNL Gold Standard]のアップグレードが役立ちます。 詳しくは、[この記事](../../rn/using/gs-overview.md)を参照してください。
+Adobe Managed Services を使用している場合は、Campaign [!DNL Gold Standard] のアップグレードサービスを利用できます。詳しくは、[この記事](../../rn/using/gs-overview.md)を参照してください。
 
 環境の更新方法について詳しくは、[この節](../../production/using/build-upgrade.md)を参照してください。また、このトピックに関する[よくある質問](../../platform/using/faq-build-upgrade.md)も参照してください。
 

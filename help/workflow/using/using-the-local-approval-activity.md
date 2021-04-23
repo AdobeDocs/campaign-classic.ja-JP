@@ -6,14 +6,14 @@ description: 「ローカルの承認」アクティビティの使用方法を�
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1430'
 ht-degree: 100%
 
 ---
-
 
 # ローカルの承認アクティビティの使用{#using-the-local-approval-activity}
 
@@ -219,4 +219,3 @@ ht-degree: 100%
 承認ログの「**[!UICONTROL ターゲット]**」タブには、ターゲットの受信者とその承認ステータスが一覧表示されます。このステータスは必要に応じて変更できます。
 
 ![](assets/local_validation_admin_6.png)
-

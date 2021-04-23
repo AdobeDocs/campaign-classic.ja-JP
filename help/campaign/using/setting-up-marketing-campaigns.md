@@ -6,14 +6,14 @@ description: マーケティングキャンペーンを作成して実行する�
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
+exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 translation-type: ht
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1294'
 ht-degree: 100%
 
 ---
-
 
 # マーケティングキャンペーンの基本を学ぶ{#setting-up-marketing-campaigns}
 

@@ -1,34 +1,34 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: キャンペーンSMSチャネルのセットアップ
-description: キャンペーンでSMSチャネルを構成する方法
+title: Campaign SMS チャネルの設定
+description: Campaign で SMS チャネルを設定する方法について説明します
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-translation-type: tm+mt
-source-git-commit: 5a084ebe5295d19de24cf92c721d4692f0f5deb8
-workflow-type: tm+mt
+exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1781'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-
-# SMSチャネルの構成{#setting-up-sms-channel}
+# SMS チャネルの設定 {#setting-up-sms-channel}
 
 携帯電話に送信するには、次が必要です。
 
 1. コネクタとメッセージのタイプを指定する外部アカウント。
 
-   レガシーコネクタは非推奨になりました。 非推奨（廃止予定）の機能は引き続き使用できますが、それ以上の機能強化やサポートはおこなわれません。詳しくは、[このページ](../../rn/using/deprecated-features.md)を参照してください。
+   従来のコネクタは非推奨（廃止予定）になりました。 非推奨（廃止予定）の機能は引き続き使用できますが、それ以上の機能強化やサポートは行われません。詳しくは、[このページ](../../rn/using/deprecated-features.md)を参照してください。
 
-1. 使用する外部アカウントへの参照を含んだ配信テンプレート。
+1. この外部アカウントの参照元となる配信テンプレート。
 
-## SMPP外部アカウントの作成{#creating-an-smpp-external-account}
+## SMPP 外部アカウントの作成 {#creating-an-smpp-external-account}
 
 携帯電話に SMS を送信するには、まず SMPP 外部アカウントを作成する必要があります。
-SMSのプロトコルと設定の詳細については、[ページ](../../delivery/using/sms-protocol.md)を参照してください。
+SMS プロトコルと設定の詳細については、こちらの [ページ](../../delivery/using/sms-protocol.md)を参照してください。
 
 これをおこなうには、以下の手順に従います。
 
@@ -82,13 +82,13 @@ SMSのプロトコルと設定の詳細については、[ページ](../../deliv
 
    ただし、特定のプロバイダーで「+」がプレフィックスとして必要な場合は、プロバイダーにお問い合わせください。必要に応じて、このオプションを有効にするようプロバイダーから指示があります。
 
-   「**[!UICONTROL SMPP 経由での TLS を有効化]**」チェックボックスを使用すると、SMPP トラフィックを暗号化することができます。詳しくは、この[ページ](../../delivery/using/sms-protocol.md)を参照してください。
+   「**[!UICONTROL SMPP 経由での TLS を有効化]**」チェックボックスを使用すると、SMPP トラフィックを暗号化することができます。詳しくは、この [ページ](../../delivery/using/sms-protocol.md)を参照してください。
 
 1. **[!UICONTROL 拡張された汎用 SMPP]** コネクタを設定している場合は、自動応答を設定できます。
 
    詳しくは、[この節](#automatic-reply)を参照してください。
 
-## SMS文字変換{#about-character-transliteration}
+## SMS 文字の表記変換 {#about-character-transliteration}
 
 文字の表記変換は、「**[!UICONTROL モバイル]**」タブの SMPP モバイル配信外部アカウントで設定できます。
 
@@ -286,7 +286,7 @@ CR：キャリッジリターン
 
 ^ { } `[ ~ ]` | €
 
-## テキストエンコーディング{#about-text-encodings}
+## テキストエンコーディング {#about-text-encodings}
 
 Adobe Campaign では、SMS メッセージの送信時に 1 つまたは複数のテキストエンコードを使用できます。エンコードごとに独自の文字セットがあり、SMS メッセージに入力できる文字数もそれぞれ異なります。
 
@@ -342,9 +342,9 @@ Adobe Campaign では、SMS メッセージの送信時に 1 つまたは複数�
 
    ![](assets/extended_smpp_system-type.png)
 
-拡張汎用SMPPコネクタを使用した外部アカウントの設定手順については、「[SMPP外部アカウントの作成](#creating-an-smpp-external-account)」の節を参照してください。
+拡張汎用 SMPP コネクタを使用して外部アカウントを設定する手順について詳しくは、[SMPP 外部アカウントの作成](#creating-an-smpp-external-account)の節を参照してください。
 
-## 配信テンプレートを変更{#changing-the-delivery-template}
+## 配信テンプレートの変更 {#changing-the-delivery-template}
 
 Adobe Campaign には、モバイルへの配信用テンプレートが用意されています。このテンプレートは&#x200B;**[!UICONTROL リソース／テンプレート／配信テンプレート]**&#x200B;ノードにあります。詳しくは、[テンプレートについて](../../delivery/using/about-templates.md)の節を参照してください。
 

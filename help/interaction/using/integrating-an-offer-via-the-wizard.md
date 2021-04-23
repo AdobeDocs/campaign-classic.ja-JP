@@ -6,14 +6,14 @@ description: ウィザードモード
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
+exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
 translation-type: ht
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '845'
 ht-degree: 100%
 
 ---
-
 
 # ウィザードモード{#integrating-an-offer-via-the-wizard}
 
@@ -117,4 +117,3 @@ ht-degree: 100%
    >[!NOTE]
    >
    >オファーが配信で直接生成される場合、オファーランキングと重み付けに関する情報は、提案テーブルにのみ保存されます。
-

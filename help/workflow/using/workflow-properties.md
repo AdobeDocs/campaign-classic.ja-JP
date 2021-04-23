@@ -6,14 +6,14 @@ description: キャンペーンワークフローのプロパティの詳細を�
 audience: workflow
 content-type: reference
 topic-tags: advanced-management
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '617'
 ht-degree: 100%
 
 ---
-
 
 # ワークフローのプロパティ{#workflow-properties}
 
@@ -83,4 +83,3 @@ ht-degree: 100%
    ログオン後に受信者が問題の解決にあたれるよう、「**[!UICONTROL ワークフロースーパーバイザーへの通知]**」デフォルトテンプレートには、Web 経由で Adobe Campaign コンソールにアクセスするためのリンクがあります。
 
    パーソナライズされたテンプレートを作成するには、**[!UICONTROL 管理／キャンペーン管理／技術配信／テンプレート]**&#x200B;の順に移動します。
-

@@ -6,11 +6,11 @@ description: テクニカルノート
 hide: false
 hidefromtoc: true
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ APNs の変更について詳しくは、[このページ](https://developer.app
 
 1. **AAACertificateServices 5/12/2020** ルート証明書を[このページ](https://support.sectigo.com/Com_KnowledgeDetailPage?Id=kA03l00000117cL)からダウンロードします。
 
-1. AAA証明書がOSとJAVAの両方のTrustoreに存在することを確認します。 ない場合は追加します。
+1. AAA 証明書が OS と Java の両方のトラストストアに存在することを確認します。 存在しない場合は追加します。
 
 1. Adobe Campaign Web サービスの再起動：
 

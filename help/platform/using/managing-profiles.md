@@ -7,11 +7,11 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,15 +29,15 @@ ht-degree: 97%
 >
 >データベース内のすべての受信者のリストを表示するには、ビューを作成する必要があります。詳しくは、[フォルダーとビュー](../../platform/using/access-management-folders.md)を参照してください。
 
-## 受信者を移動{#moving-recipients}
+## 受信者の移動 {#moving-recipients}
 
 1 人以上の受信者を選択し、受信者リストからドラッグして目的のフォルダーにドロップすることができます。このアクションを確定するよう求める警告メッセージが表示されます。
 
-## 受信者をコピー{#copying-a-recipient}
+## 受信者のコピー {#copying-a-recipient}
 
 同じフォルダー内で受信者をコピーするには、目的の受信者を右クリックし、「**[!UICONTROL コピー]**」を選択します。
 
-## 受信者の削除{#deleting-recipients}
+## 受信者の削除 {#deleting-recipients}
 
 受信者を削除するには、受信者を特定のフォルダーに移動し、このフォルダーのコンテンツをパージします。この際に、「**[!UICONTROL 削除]**」オプションを&#x200B;**使用しないことを強くお勧めします**。
 

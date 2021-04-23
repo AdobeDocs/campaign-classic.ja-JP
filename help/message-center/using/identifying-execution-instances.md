@@ -6,14 +6,14 @@ description: 実行インスタンスの識別
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: bf81a058-8715-4da2-a2d5-4362c433c549
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '107'
 ht-degree: 100%
 
 ---
-
 
 # 実行インスタンスの識別{#identifying-execution-instances}
 
@@ -22,4 +22,3 @@ ht-degree: 100%
 手動で識別子を割り当てるには、各実行インスタンスにてデプロイウィザードを開き、**[!UICONTROL Message Center]** ウィンドウに移動し、インスタンスに任意の識別子を指定します。
 
 ![](assets/messagecenter_id_execinstance_001.png)
-

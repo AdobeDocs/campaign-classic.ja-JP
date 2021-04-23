@@ -6,14 +6,14 @@ description: Web アプリケーションの同期
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '853'
 ht-degree: 100%
 
 ---
-
 
 # Web アプリケーションの同期{#synchronizing-web-applications}
 
@@ -134,4 +134,3 @@ E メールを作成、設計、送信する手順は、従来の E メールと
 1. 「**[!UICONTROL 購読]**」タブをクリックします。ニュースレターサービスが表示されます。
 
    ![](assets/acs_connect_lp_21.png)
-

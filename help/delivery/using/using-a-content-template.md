@@ -6,14 +6,14 @@ description: コンテンツテンプレートの使用
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '439'
 ht-degree: 100%
 
 ---
-
 
 # コンテンツテンプレートの使用{#using-a-content-template}
 

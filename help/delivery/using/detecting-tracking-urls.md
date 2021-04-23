@@ -6,14 +6,14 @@ description: URL をトラッキングするための推奨パターンについ
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
+exl-id: 7611d6a1-6c55-4ba3-b905-58426c944991
 translation-type: ht
-source-git-commit: 768fe62db4efd1217c22973c7e5dc31097d67bae
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '297'
 ht-degree: 100%
 
 ---
-
 
 # 追跡URLの検出
 

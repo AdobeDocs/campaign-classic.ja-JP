@@ -6,14 +6,14 @@ description: フロー制御アクティビティについて
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '233'
 ht-degree: 100%
 
 ---
-
 
 # フロー制御アクティビティについて{#about-flow-control-activities}
 
@@ -32,4 +32,3 @@ ht-degree: 100%
 * **承認**：実行を続行するための承認を求めるメールをオペレーターまたはオペレーターのグループに送信し、承認を待機します。[承認](../../workflow/using/approval.md)の節を参照してください。
 * **アラート**：オペレーターまたはオペレーターグループに警告を送信できます。[アラート](../../workflow/using/alert.md)の節を参照してください。
 * **タスク**：タスクの実行を設定できます。[タスク](../../workflow/using/task.md)の節を参照してください。
-

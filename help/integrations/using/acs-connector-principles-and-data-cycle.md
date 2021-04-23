@@ -6,14 +6,14 @@ description: ACS コネクタの原則とデータサイクル
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2046'
 ht-degree: 100%
 
 ---
-
 
 # ACS コネクタの原則とデータサイクル{#acs-connector-principles-and-data-cycle}
 
@@ -327,4 +327,3 @@ ACS コネクタに関連するすべての技術要素は、エクスプロー�
 
 1. 権限管理がフォルダーベースの場合、**[!UICONTROL 管理／ACS コネクタ／権限管理／フォルダーマッピング]**&#x200B;に移動して、カスタムテーブルにリンクされたフォルダーのセキュリティグループを定義します。[権限の変換](#rights-conversion)を参照してください。
 1. **[!UICONTROL 新規レプリケーション]**&#x200B;ワークフロー（テンプレートではなく、ワークフローインスタンス自体）を使用して、レプリケートするカスタムテーブルおよびフィールドを含めます。[テクニカルワークフローおよびレプリケーションワークフロー](#technical-and-replication-workflows)を参照してください。
-

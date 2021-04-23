@@ -6,14 +6,14 @@ description: テスト環境の作成
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 49ac279b-bc67-4311-b0a4-0e23f2a99c52
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '126'
 ht-degree: 100%
 
 ---
-
 
 # テスト環境の作成{#creating-a-test-environment}
 
@@ -36,4 +36,3 @@ ht-degree: 100%
 1. テストが完了して、その環境を本番用として使用する場合は、デザイン環境でオファーおよびスペースを複製します（右クリックして、**[!UICONTROL アクション]**／**[!UICONTROL デプロイ]**）。
 
    ![](assets/migration_interaction_5.png)
-

@@ -6,14 +6,14 @@ description: プロファイルの編集
 audience: platform
 content-type: reference
 topic-tags: profile-management
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # プロファイルの編集{#editing-a-profile}
 
@@ -98,4 +98,3 @@ ht-degree: 97%
 >[!NOTE]
 >
 >トラッキング機能について詳しくは、[このページ](../../delivery/using/delivery-dashboard.md)を参照してください。
-

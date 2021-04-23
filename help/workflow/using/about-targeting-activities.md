@@ -6,14 +6,14 @@ description: ターゲティングアクティビティについて
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
-source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: tm+mt
+exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '404'
 ht-degree: 100%
 
 ---
-
 
 # ターゲティングアクティビティについて{#about-targeting-activities}
 
@@ -39,4 +39,3 @@ ht-degree: 100%
 * **リストの更新**：インバウンドアクティビティの結果をリストに記録します。[リストの更新](../../workflow/using/list-update.md)の節を参照してください。
 * **データを更新**：データベース内のデータを大量に更新します。[データを更新](../../workflow/using/update-data.md)の節を参照してください。
 * **CRM コネクタ**：Adobe Campaign と CRM の間の同期を設定します。[CRM コネクタ](../../workflow/using/crm-connector.md)の節を参照してください。
-

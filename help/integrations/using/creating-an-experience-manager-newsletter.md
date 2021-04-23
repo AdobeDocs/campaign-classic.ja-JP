@@ -5,14 +5,14 @@ title: Experience Manager ニュースレターの作成
 description: Experience Manager ニュースレターの作成
 audience: integrations
 content-type: reference
+exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
 translation-type: ht
-source-git-commit: d7de46abb71ca25ef765c6fb5443f6e338fba56e
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '370'
 ht-degree: 100%
 
 ---
-
 
 # Experience Manager ニュースレターの作成{#creating-an-experience-manager-newsletter}
 

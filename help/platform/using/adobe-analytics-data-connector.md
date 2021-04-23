@@ -3,17 +3,17 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Analytics Data コネクタ
 description: Adobe Analytics Data コネクタ
-feature: Overview
+feature: 概要
 role: Business Practitioner, Administrator
 level: Beginner
-translation-type: tm+mt
-source-git-commit: f2bd093d3a010e079b7f5adf3371e21d07a4f3ae
-workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 99%
+exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
+source-wordcount: '1810'
+ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics Data コネクタ{#adobe-analytics-data-connector}
 
@@ -281,4 +281,3 @@ Adobe Campaign にはパーソナライズされた配信テンプレートが�
 **[!UICONTROL リマーケティングの効率]**&#x200B;レポートは、グローバルレポートページからアクセスします。このレポートでは、Adobe Campaign のリマーケティングキャンペーン後における、カート放棄数に対するコンバージョンされた連絡先（何かを購入したなど）数を表示できます。週ごと、月ごとまたは Adobe Campaign と Web 分析ツール間の同期開始以降のコンバージョン率が計算されます。
 
 ![](assets/webanalytics_reporting.png)
-

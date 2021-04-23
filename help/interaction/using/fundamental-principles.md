@@ -6,14 +6,14 @@ description: 基本原則
 audience: interaction
 content-type: reference
 topic-tags: general-operation
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
 
 ---
-
 
 # 基本原則{#fundamental-principles}
 
@@ -42,4 +42,3 @@ ht-degree: 100%
 （実行された設定に従って）あるオファーが提示できる、または提示する必要があると、すぐにオファーエンジンが仲介者の役割を果たします。つまり、コンタクト先に関して受け取ったデータとアプリケーションで指定したとおりに適用できる様々なルールを組み合わせて、コンタクト先ごとに最適なオファーを自動的に算出します。
 
 ![](assets/architecture_interaction2.png)
-

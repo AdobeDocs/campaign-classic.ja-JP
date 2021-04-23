@@ -6,14 +6,14 @@ description: 共有接続の作成
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
+exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
 translation-type: ht
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1048'
 ht-degree: 100%
 
 ---
-
 
 # 共有接続の作成{#creating-a-shared-connection}
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 >
 >* コントロールインスタンスまたは実行インスタンスで [Message Center テクニカルワークフロー](../../message-center/using/technical-workflows.md)によって使用されるスキーマで作成されたスキーマ拡張は、Adobe Campaign トランザクションメッセージモジュールによって使用される別のインスタンスに複製する必要があります。
 >* コントロールインスタンスおよび実行インスタンスは、異なるマシンにインストールする必要があります。同じ Campaign インスタンスを共有できなくなります。
+
 >
 
 
@@ -156,4 +157,3 @@ ht-degree: 100%
 1. 各オペレーターには、各自のフォルダーへの読み取り／書き込みの権限を与えます。これをおこなうには、フォルダーを右クリックして「**[!UICONTROL プロパティ]**」を選択します。次に「**[!UICONTROL セキュリティ]**」タブを選択し、該当オペレーター（**フォルダー 1** では **mc1**、**フォルダー 2** では **mc2**）を追加します。**[!UICONTROL 「データを読み取る」／「データを書き込み」]**&#x200B;ボックスの両方が選択されていることを確認します。
 
    ![](assets/messagecenter_multi_control_6.png)
-

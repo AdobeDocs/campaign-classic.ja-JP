@@ -6,14 +6,14 @@ description: 作成した配信のリストにアクセスする方法を説明�
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
-source-git-commit: f2a126d0aa471831f84d4c8457cfd6f0fae7b14f
-workflow-type: tm+mt
+exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '174'
 ht-degree: 100%
 
 ---
-
 
 # 配信のリストへのアクセス {#list-of-deliveries}
 

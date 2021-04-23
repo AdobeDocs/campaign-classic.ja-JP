@@ -6,14 +6,14 @@ description: マーケティングキャンペーンテンプレート
 audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
+exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 translation-type: ht
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '1168'
 ht-degree: 100%
 
 ---
-
 
 # キャンペーンテンプレートの作成と設定 {#campaign-templates}
 

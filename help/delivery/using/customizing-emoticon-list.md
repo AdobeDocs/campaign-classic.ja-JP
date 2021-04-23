@@ -6,14 +6,14 @@ description: Adobe Campaign Classic を使用するときに顔文字リスト�
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '474'
 ht-degree: 100%
 
 ---
-
 
 # 顔文字リストのカスタマイズ {#customize-emoticons}
 

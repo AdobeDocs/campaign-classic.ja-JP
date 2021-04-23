@@ -6,14 +6,14 @@ description: プレゼンテーションの管理
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1084'
 ht-degree: 100%
 
 ---
-
 
 # プレゼンテーションの管理{#managing-offer-presentation}
 
@@ -157,4 +157,3 @@ ht-degree: 100%
 次の例では、**Special offers** カテゴリと **Call center** スペースに属し、重み付けが **20** 未満である提案が、2 回のプレゼンテーションの後にカウント対象となります。
 
 ![](assets/offer_typology_013.png)
-

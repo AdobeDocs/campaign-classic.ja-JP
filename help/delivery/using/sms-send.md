@@ -1,23 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: SMSの送信、監視、および追跡
-description: キャンペーンでのSMSの送信、監視、および追跡方法を説明します。
+title: SMS の送信、監視、追跡
+description: Campaign で SMS を送信、監視、追跡する方法を説明します。
 audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
-translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
-workflow-type: tm+mt
+exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
+# SMS 配信の送信、監視、追跡{#sms-properties}
 
-# SMS配信の送信、監視、および追跡{#sms-properties}
-
-## SMSメッセージを送信{#sending-sms-messages}
+## SMS メッセージの送信{#sending-sms-messages}
 
 メッセージを承認し、作成する配信の受信者に対して送信するには、「**[!UICONTROL 送信]**」をクリックします。
 
@@ -58,15 +58,15 @@ ht-degree: 93%
 
 * **メッセージごとの SMS の最大数**：1 件のメッセージ送信に使用できる SMS の数を指定します。値が 0 の場合、メッセージの配信に使用する SMS の数に制限はありません。また、例えば 1 や 2 の場合、この数の SMS に収まらない長さのメッセージは送信されません。
 
-## SMS {#monitoring-and-tracking-sms-deliveries}を監視および追跡する
+## SMS の監視と追跡 {#monitoring-and-tracking-sms-deliveries}
 
 メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、以下の節を参照してください。
 
 * [配信の監視](../../delivery/using/about-delivery-monitoring.md)
-* [配信エラーについて](../../delivery/using/understanding-delivery-failures.md)
+* [配信失敗について](../../delivery/using/understanding-delivery-failures.md)
 * [メッセージトラッキングについて](../../delivery/using/about-message-tracking.md)
 
-## 受信メッセージを処理{#processing-inbound-messages}
+## インバウンドメッセージの処理 {#processing-inbound-messages}
 
 **nlserver sms** モジュールは、一定の時間間隔で SMS ルーターにクエリを発行します。これにより、Adobe Campaign で配信の進行状況をトラッキングし、ステータスレポートや受信者の購読解除リクエストに対処できます。
 
@@ -110,7 +110,7 @@ InSMS スキーマには、受信 SMS に関する情報が含まれます。そ
 * **operatorCode**：通信事業者のネットワークコード
 * **linkedSmsId**：応答の SMS において、送信 SMS にリンクされた Adobe Campaign 識別子（broadlogId）
 
-## 自動返信の管理（米国の規則） {#managing-automatic-replies--american-regulation-}
+## 自動返信の管理（米国の規制への対応）{#managing-automatic-replies--american-regulation-}
 
 Adobe Campaign 経由で送信した SMS メッセージに対し、購読者から STOP、HELP、YES のようなキーワードを含む応答が返ってきた場合、米国市場では、自動応答メッセージを返すように設定しておく必要があります。
 
@@ -120,7 +120,7 @@ Adobe Campaign 経由で送信した SMS メッセージに対し、購読者か
 
 >[!IMPORTANT]
 >
->次の詳細手順は、SMPP コネクタ（拡張された SMPP コネクタは除く）の場合のみ有効です。詳しくは、[SMPP外部アカウントの作成](sms-set-up.md#creating-an-smpp-external-account)の節を参照してください。
+>次の詳細手順は、SMPP コネクタ（拡張された SMPP コネクタは除く）の場合のみ有効です。詳しくは、[SMPP 外部アカウントの作成](sms-set-up.md#creating-an-smpp-external-account)の節を参照してください。
 >
 >これは、米国の通信事業者が国内のマーケティングキャンペーンで実行する認証プロセスの一環です。このようなキーワードを含む購読者の SMS メッセージを受信した場合は、直ちに購読者に返信する必要があります。
 
@@ -167,6 +167,6 @@ Adobe Campaign 経由で送信した SMS メッセージに対し、購読者か
 
 >[!IMPORTANT]
 >
->こうした自動メッセージは、履歴には記録されず、配信ダッシュボードにも表示されません。[詳細情報](../../delivery/using/delivery-dashboard.md)。
+>こうした自動メッセージは、履歴には記録されず、そのため、配信ダッシュボードには表示されません。[詳細情報](../../delivery/using/delivery-dashboard.md)。
 >
->これらのメッセージは、商業上の圧力規則では考慮されていません。 [詳細情報](../../campaign/using/pressure-rules.md)。
+>これらのメッセージは、商業的圧力ルールでは考慮されていません。 [詳細情報](../../campaign/using/pressure-rules.md)。

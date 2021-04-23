@@ -6,25 +6,25 @@ description: ターゲット母集団の定義
 audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
-translation-type: tm+mt
-source-git-commit: 8e0c6951be9d2f9fb0e58af213cb8db4079f2225
-workflow-type: tm+mt
+exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1746'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # ターゲット母集団の定義 {#defining-the-target-population}
 
 ## ターゲット母集団について {#about-target-populations}
 
-各配信に対して、次の複数のタイプのターゲット母集団を定義できます。
+配信ごとに、次の数種類のターゲット母集団を定義できます。
 
-* **メインオーディエンス**:メッセージを受信するプロファイル。[詳細情報](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
-* **配達確認**:検証サイクルに関係する配達確認メッセージの受信者。[詳細情報](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
-* **シードアドレス**:配信ターゲット外で、配信を受け取る受信者(マーケティングキャンペーンのコンテキストでのみ)。[詳細情報](../../delivery/using/about-seed-addresses.md)
-* **コントロール母集団**:配信を受け取らない訪問者で、行動とキャンペーンの影響の追跡に使用されます(マーケティングキャンペーンのコンテキストでのみ)。[詳細情報](../../campaign/using/marketing-campaign-target.md#defining-a-control-group)。
+* **メインオーディエンス**：メッセージを受信するプロファイル。[詳細情報](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
+* **配達確認**：検証サイクルに関与する、配達確認メッセージの受信者。[詳細情報](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
+* **シードアドレス**：配信ターゲットには含まれないが、配信を受け取る受信者（マーケティングキャンペーンのコンテキストでのみ）。[詳細情報](../../delivery/using/about-seed-addresses.md)
+* **コントロール母集団**：配信を受け取らない母集団。行動とキャンペーンの影響の追跡に使用されます（マーケティングキャンペーンのコンテキストでのみ）。[詳細情報](../../campaign/using/marketing-campaign-target.md#defining-a-control-group)。
 
 ## 配信のメイン受信者の選択 {#selecting-the-main-target}
 

@@ -6,14 +6,14 @@ description: Web フォームのパブリッシュ
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1056'
 ht-degree: 100%
 
 ---
-
 
 # Web フォームのパブリッシュ{#publishing-a-web-form}
 
@@ -160,4 +160,3 @@ E メールで招待状を配信する場合、データの紐付けに「**[!UI
 >[!NOTE]
 >
 >提供された回答を完全にトラッキングし、回答をエクスポートして、専用のレポートを表示または作成するには、オプションの&#x200B;**調査**&#x200B;モジュールを使用します。詳しくは、[この節](../../web/using/about-surveys.md)を参照してください。
-

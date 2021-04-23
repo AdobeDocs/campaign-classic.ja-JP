@@ -7,11 +7,11 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7a3046600845781a7393a9d1e9659550d9bfcdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2665'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 98%
    >
    >バウンスメールボックスの設定については、[この節](../../installation/using/deploying-an-instance.md#managing-bounced-emails)で詳しく説明しています。
 
-   [フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)はバウンス E メールのように機能します。ユーザーが E メールをスパムとみなしたら、Adobe Campaign で E メールルールを設定して、このユーザーへのすべての配信をブロックできます。E メールをスパムとみなしたユーザーに送信されたメッセージは、この目的用に特別に作成された E メールボックスに自動的にリダイレクトされます。このようなユーザーのアドレスは、購読解除リンクをクリックしなかった場合でも、ブロックリストに登録されます。アドレスは、（**NmsRecipient**）受信者テーブルではなく、（**NmsAddress**）強制隔離テーブルでブロックリストに登録されます。
+   [フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops)はバウンス E メールのように機能します。ユーザーが E メールをスパムとみなしたら、Adobe Campaign で E メールルールを設定して、このユーザーへのすべての配信をブロックできます。E メールをスパムとみなしたユーザーに送信されたメッセージは、この目的用に特別に作成された E メールボックスに自動的にリダイレクトされます。このようなユーザーのアドレスは、購読解除リンクをクリックしなかった場合でも、ブロックリストに登録されます。アドレスは、（**NmsRecipient**）受信者テーブルではなく、（**NmsAddress**）強制隔離テーブルでブロックリストに登録されます。
 
    >[!NOTE]
    >
@@ -266,7 +266,7 @@ Adobe Campaign は、このメッセージをフィルター処理して変数�
 
 >[!NOTE]
 >
->ISPが使用不能になった場合、キャンペーン経由で送信された電子メールは、誤ってバウンスとしてマークされます。 これを修正するには、バウンスの資格を更新する必要があります。 詳しくは、[このページ](../../delivery/using/update-bounce-qualification.md)を参照してください。
+>ISP を利用できなくなった場合、Campaign を通じて送信された E メールは、誤ってバウンスとしてマークされます。 これを修正するには、バウンスの認定条件を更新する必要があります。 詳しくは、[このページ](../../delivery/using/update-bounce-qualification.md)を参照してください。
 
 ### E メール管理ルール {#email-management-rules}
 

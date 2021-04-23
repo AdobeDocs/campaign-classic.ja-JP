@@ -6,14 +6,14 @@ description: トラッキングのテスト
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '254'
 ht-degree: 100%
 
 ---
-
 
 # トラッキングのテスト{#testing-tracking}
 
@@ -39,4 +39,3 @@ ht-degree: 100%
    E メールログのトラッキングを確認するには、「**タイプ**」列で「**開く**」と「**[!UICONTROL E メールのクリック]**」という値を検索します。
 
    開いているログが表示されない場合は、配信を開いて&#x200B;**プロパティ**&#x200B;にアクセスし、「**トラッキングを有効化**」と「**[!UICONTROL 開封数のトラッキング]**」の両方のオプションがオンになっていることを確認します。
-

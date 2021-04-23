@@ -6,14 +6,14 @@ description: 電子メール配信ユースケースの作成
 audience: web
 content-type: reference
 topic-tags: editing-html-content
-translation-type: tm+mt
-source-git-commit: 46aa896929c960abeb501642a5ffbbb56de4802e
-workflow-type: tm+mt
+exl-id: e2679f12-459b-466d-9c82-60a28363b104
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '783'
 ht-degree: 100%
 
 ---
-
 
 # ユースケース：E メール配信の作成{#use-case-creating-an-email-delivery}
 

@@ -6,14 +6,14 @@ description: 待機ワークフローアクティビティの詳細を説明し�
 audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 
 ---
-
 
 # 待機{#wait}
 
@@ -32,4 +32,3 @@ ht-degree: 100%
 * 一方、例えば、地域設定が「Français」に設定されている場合は、**s**（秒）、**mn**（分）、**h**（時間）、**j**（日）、**m**（月）、**a**（年）のようになります。承認時に、値は最も読みやすい単位に自動的に変換されます。上の例では、「**90s**」は「**1mn 30s**」のように変換されます。
 
    デフォルトの単位は日（**d**）です。
-

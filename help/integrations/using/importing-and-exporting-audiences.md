@@ -6,14 +6,14 @@ description: オーディエンスのインポートおよびエクスポート
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '661'
 ht-degree: 100%
 
 ---
-
 
 # オーディエンスのインポートおよびエクスポート{#importing-and-exporting-audiences}
 
@@ -82,4 +82,3 @@ Adobe Campaign と People コアサービス間の同期には、24～36 時間�
 >[!NOTE]
 >
 >紐付けするには、レコードに Adobe Experience Cloud ID（「訪問者 ID」または「宣言済み ID」）が必要です。Adobe Experience Cloud ID がないレコードは、オーディエンスのエクスポートおよびインポート中に無視されます。
-

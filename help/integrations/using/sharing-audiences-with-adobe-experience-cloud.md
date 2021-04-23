@@ -6,14 +6,14 @@ description: オーディエンスを Adobe Experience Cloud と共有する
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
-translation-type: tm+mt
-source-git-commit: 40abbf1f981331b8a19d3607c57624aac22c91f2
-workflow-type: tm+mt
+exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '308'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
-
 
 # オーディエンスを Adobe Experience Cloud と共有する{#sharing-audiences-with-adobe-experience-cloud}
 
@@ -39,6 +39,6 @@ Adobe Campaign を使用すると、オーディエンスやセグメントを A
 
    >[!NOTE]
    >
-   > 宣言済みIDデータソースをPeopleコアサービス統合でも使用できるようになりました。
+   > 宣言済み ID データソースも People コアサービス統合で使用できるようになりました。 
    >
-   >Peopleコアサービス統合を使用していて、Audience Manager統合を追加する場合は、Adobe Audience Managerコンテキストでこの宣言済みIDデータソースに移行する際に収集されたID同期をすべて失わないように、Adobe Audience Managerコンサルタントの支援が必要です。
+   >People コアサービス統合を使用していて、Audience Manager 統合を追加する場合は、Adobe Audience Manager コンテキストでこの宣言済み ID データソースに移行する際に収集された ID 同期がすべて失われないように、Adobe Audience Manager コンサルタントの支援が必要です。

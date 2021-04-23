@@ -6,14 +6,14 @@ description: イベントアクティビティについて
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '104'
 ht-degree: 100%
 
 ---
-
 
 # イベントアクティビティについて{#about-event-activities}
 
@@ -23,4 +23,3 @@ ht-degree: 100%
 * ファイル転送：サーバーへファイルを転送します。[ファイル転送](../../workflow/using/file-transfer.md)を参照してください。
 * Web ダウンロード：Web からファイルをダウンロードします。[Web ダウンロード](../../workflow/using/web-download.md)を参照してください。
 * E メール受信 &amp; SMS：E メールまたは SMS メッセージを収集して処理します。[インバウンド SMS](../../workflow/using/inbound-sms.md) および[インバウンド E メール](../../workflow/using/inbound-emails.md)を参照してください。
-

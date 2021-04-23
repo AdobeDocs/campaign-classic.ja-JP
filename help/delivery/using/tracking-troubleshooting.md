@@ -6,14 +6,14 @@ description: この節では、Adobe Campaign Classic でのトラッキング�
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
+exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
 translation-type: ht
-source-git-commit: efa36dc08ce4dd59805bb9eba63a4249e14609d7
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '759'
 ht-degree: 100%
 
 ---
-
 
 # トラッキングのトラブルシューティング {#tracking-troubleshooting}
 

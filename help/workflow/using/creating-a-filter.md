@@ -6,14 +6,14 @@ description: クエリを実行する際のフィルターの作成方法を説�
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '228'
 ht-degree: 100%
 
 ---
-
 
 # フィルターの作成 {#creating-a-filter}
 

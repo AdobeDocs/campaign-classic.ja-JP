@@ -7,9 +7,9 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8433'
 ht-degree: 100%
 
@@ -847,7 +847,7 @@ SMS プロセスは、完了行を毎分チェックし、非同期に処理し�
 
 `BIND_* PDU` の数が多すぎないか確認します。数が多すぎる場合は、接続が不安定であることを示している可能性があります。詳しくは、[不安定な接続の問題](../../delivery/using/sms-protocol.md#issues-unstable-connection)の節を参照してください。
 
-#### INQUIRE_LINK {#enquire-link-pdus}
+#### ENQUIRE_LINK {#enquire-link-pdus}
 
 接続がアイドル状態のときに `ENQUIRE_LINK PDU` が定期的に交換されていることを確認します。
 

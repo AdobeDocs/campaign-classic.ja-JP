@@ -6,11 +6,11 @@ description: テクニカルノート
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1107'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../integrations/us
 
 * [Campaign クライアントコンソールのインストール方法について説明します](../installation/using/installing-the-client-console.md)。
 
-## Experience Cloud トリガーとの統合  {#acc-triggers-updates}
+## Experience Cloud トリガーとの統合 {#acc-triggers-updates}
 
 従来の OAuth 認証サービスはサポート終了になりました。 トリガー統合の認証は、もともとパイプラインにアクセスするために OAuth 認証設定に基づいていましたが、Adobe I/O に移行しました。**2021 年 11 月 30 日**&#x200B;を以て廃止されます。 [詳細情報](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)。
 
@@ -130,11 +130,11 @@ Adobe Identity Management サービス（IMS）を通じて ](../integrations/us
 
 [Adobe I/O への移行方法について説明します](../integrations/using/configuring-adobe-io.md)。
 
-## APNs の更新  {#acc-apns-updates}
+## APNs の更新 {#acc-apns-updates}
 
 ### HTTP/2 ベースの APNs プロバイダー API
 
-**2021年3月31日**&#x200B;以降、Apple Push Notification Service(APNs)は、従来のバイナリプロトコルをサポートしなくなりました。 [詳細情報](https://developer.apple.com/news/?id=c88acm2b)。
+**2021 年 3 月 31 日**&#x200B;以降、Apple Push Notification サービス（APNs）は、従来のバイナリプロトコルをサポートしません。 [詳細情報](https://developer.apple.com/news/?id=c88acm2b)。
 
 **影響の有無**
 
@@ -146,11 +146,11 @@ Adobe Identity Management サービス（IMS）を通じて ](../integrations/us
 
 ホステッドサービスのお客様が新しいビルドにアップグレードした場合、お使いのインスタンスは既に HTTP/2 ベースの API に更新されています。
 
-オンプレミス/ハイブリッドのお客様は、設定を更新する必要があります。 [HTTP/2 への移行方法について説明します](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
+オンプレミス／ハイブリッド環境のお客様は、設定を更新する必要があります。 [HTTP/2 への移行方法について説明します](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
 
 ### APNs ルート証明書の更新
 
-2021年3月29日に、Apple Push Notification Service(APNs)インフラストラクチャの更新により、Adobe Campaign ClassiciOSのチャネルに影響が出ました。 iOS のプッシュチャネルの停止を回避するには、OS 設定の変更が&#x200B;**必須**&#x200B;です。
+2021 年 3 月 29 日、Apple Push Notification サービス（APNs）インフラストラクチャのアップデートにより Adobe Campaign Classic iOS チャネルに影響が生じました。iOS のプッシュチャネルの停止を回避するには、OS 設定の変更が&#x200B;**必須**&#x200B;です。
 
 APNs 変更の詳細については、[このページ](https://developer.apple.com/news/?id=7gx0a2lp)を参照してください。
 

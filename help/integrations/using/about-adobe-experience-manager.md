@@ -5,14 +5,14 @@ title: Adobe Experience Manager について
 description: Adobe Experience Manager について
 audience: integrations
 content-type: reference
+exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
 translation-type: ht
-source-git-commit: d7de46abb71ca25ef765c6fb5443f6e338fba56e
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '230'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Experience Manager について{#about-adobe-experience-manager}
 

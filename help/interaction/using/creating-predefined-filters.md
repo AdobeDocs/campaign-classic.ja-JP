@@ -6,14 +6,14 @@ description: 定義済みフィルターの作成
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 399e9468-bf70-425d-af0b-72c29636b513
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '118'
 ht-degree: 100%
 
 ---
-
 
 # 定義済みフィルターの作成{#creating-predefined-filters}
 

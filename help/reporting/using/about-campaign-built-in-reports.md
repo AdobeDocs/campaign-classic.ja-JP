@@ -6,14 +6,14 @@ description: Campaign の組み込みレポートについて
 audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '272'
 ht-degree: 100%
 
 ---
-
 
 # Campaign の組み込みレポートについて{#about-campaign-built-in-reports}
 

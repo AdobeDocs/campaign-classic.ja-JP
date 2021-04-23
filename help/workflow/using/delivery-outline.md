@@ -6,14 +6,14 @@ description: 配信の概要ワークフローアクティビティの詳細を�
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '273'
 ht-degree: 100%
 
 ---
-
 
 # 配信の概要{#delivery-outline}
 
@@ -48,4 +48,3 @@ Adobe Campaign の配信の概要について詳しくは、この[節](../../ca
    プレビューでは、配信で指定されたオファーの数が考慮されます。ワークフローを実行する際に考慮されるのは、配信の概要で指定されたオファーの数です。
 
    ![](assets/int_compo_offre_wf1.png)
-

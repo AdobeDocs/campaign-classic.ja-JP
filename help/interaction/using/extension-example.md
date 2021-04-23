@@ -6,14 +6,14 @@ description: 拡張の例
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '153'
 ht-degree: 100%
 
 ---
-
 
 # 拡張の例{#extension-example}
 
@@ -32,4 +32,3 @@ ht-degree: 100%
    ![](assets/s_ncs_configuration_offer_context.png)
 
 * SOAP 呼び出しを設定する際に、**context** XML 要素を挿入し、インタラクションスキーマに追加されたコンテキスト情報を参照します。詳しくは、[SOAP による統合（サーバーサイド）](../../interaction/using/integration-via-soap--server-side-.md)を参照してください。
-

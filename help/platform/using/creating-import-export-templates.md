@@ -6,14 +6,14 @@ description: Campaign Classic でインポート／エクスポートテンプ�
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 1180e664-5ead-4d5d-b1c3-6fe397c1f3a2
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # インポートおよびエクスポートテンプレートの作成 {#creating-import-export-templates}
 
@@ -32,4 +32,4 @@ ht-degree: 94%
 テンプレートを設定するプロセスは、次の節で示したプロセスと同じです。
 
 * [インポートジョブの設定](../../platform/using/executing-import-jobs.md)
-* [書き出しジョブの設定](../../platform/using/executing-export-jobs.md)
+* [エクスポートジョブの設定](../../platform/using/executing-export-jobs.md)

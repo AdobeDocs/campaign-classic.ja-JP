@@ -6,14 +6,14 @@ description: 強制隔離管理の理解
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
-source-git-commit: 6a856c95f21b52c66a9b7359133227394fae05a5
-workflow-type: tm+mt
+exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2702'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # 強制隔離管理の理解{#understanding-quarantine-management}
 
@@ -125,7 +125,7 @@ Adobe Campaign では、エラーメッセージの選定で割り当てられ�
 * **ハードエラー**：対応する E メールアドレスがただちに強制隔離されます。
 * **ソフトエラー**：ただちにアドレスが強制隔離されることはありませんが、エラーカウンターがインクリメントされます。詳しくは、[ソフトエラー管理](#soft-error-management)を参照してください。
 
-ユーザーが電子メールをスパムと見なした場合（[フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)）、Adobeが管理する技術的なメールボックスにメッセージが自動的にリダイレクトされます。 さらに、その E メールアドレスは自動的に強制隔離されます。
+ユーザーが E メールをスパム（[フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops)）と見なした場合、メッセージは、アドビが管理するテクニカルメールボックスに自動的にリダイレクトされます。さらに、その E メールアドレスは自動的に強制隔離されます。
 
 強制隔離されたアドレスのリストの「**[!UICONTROL エラー理由]**」フィールドには、選択されたアドレスが強制隔離された理由が示されます。Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、E メールアドレスは必ず小文字でインポートしてください。
 

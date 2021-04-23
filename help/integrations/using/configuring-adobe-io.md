@@ -9,11 +9,11 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3ca92325f70cb3b9cca1ec5f6b7ddb5a02f9159
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 
 ## 前提条件 {#adobe-io-prerequisites}
 
-この統合は、**Campaign Classic20.3、20.2.4、19.1.8、および[!DNL Gold Standard] 11リリース**&#x200B;からのみ適用されます。
+この統合は、 **Campaign Classic 20.3、20.2.4、19.1.8 と [!DNL Gold Standard] 11 リリース**&#x200B;以降にのみ適用されます。
 
 この実装を開始する前に、以下の点を確認してください。
 
@@ -74,7 +74,7 @@ ht-degree: 97%
 
    ![](assets/do-not-localize/adobe_io_5.png)
 
-1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、必要に応じて新しいプロファイルを作成します。 この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に対する権限は必要ありません。 [!DNL Analytics] **[!UICONTROL 製品プロファイル]**&#x200B;の詳細については、[Adobe Analytics ドキュメント](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja#admin-console)を参照してください。
+1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、必要に応じて新しいプロファイルを作成します。 この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;には権限は必要ありません。 [!DNL Analytics] **[!UICONTROL 製品プロファイル]**&#x200B;の詳細については、[Adobe Analytics ドキュメント](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=ja#admin-console)を参照してください。
 
    次に、「**[!UICONTROL 設定済み API を保存]**」をクリックします。
 

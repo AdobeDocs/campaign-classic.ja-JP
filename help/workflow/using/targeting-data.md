@@ -6,14 +6,14 @@ description: ワークフローでのデータのターゲティングについ�
 audience: workflow
 content-type: reference
 topic-tags: -general-operation
-translation-type: tm+mt
-source-git-commit: bb7e3ce726e2c589c033686cf3ab2960de140d91
-workflow-type: tm+mt
+exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '2011'
 ht-degree: 100%
 
 ---
-
 
 # データのターゲティング{#targeting-data}
 
@@ -256,4 +256,3 @@ Adobe Campaign では、より効率的で柔軟なツールを提供するこ�
 * 「**[!UICONTROL エンリッチメント]**」アクティビティを使用して、スキーマに即座にコラムを追加したり、特定の要素に情報を追加できます。詳しくは、アクティビティのリポジトリの[エンリッチメント](../../workflow/using/enrichment.md)の節で説明しています。
 * **[!UICONTROL スキーマを編集]**&#x200B;アクティビティを使用して、スキーマの構造を変更できます。詳しくは、アクティビティのリポジトリの[スキーマを編集](../../workflow/using/edit-schema.md)の節で説明しています。
 * 「**[!UICONTROL ディメンションを変更]**」アクティビティを使用して、ターゲットの構築サイクル中にターゲティングディメンションを変更できます。詳しくは、[ディメンションを変更](../../workflow/using/change-dimension.md)の節で説明しています。
-

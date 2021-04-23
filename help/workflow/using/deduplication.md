@@ -6,14 +6,14 @@ description: 重複排除ワークフローアクティビティの詳細を説�
 audience: workflow
 content-type: reference
 topic-tags: targeting-activities
-translation-type: tm+mt
-source-git-commit: 55e2297c5c60a48be230d06a3c1880d79b8ea5f2
-workflow-type: tm+mt
+exl-id: 38add4fe-6238-45de-863e-895ebca189b7
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1146'
 ht-degree: 100%
 
 ---
-
 
 # 重複排除{#deduplication}
 
@@ -24,14 +24,14 @@ ht-degree: 100%
 | 最終変更日 | 名 | 姓 | 電子メール | 携帯電話 | 電話 |
 -----|------------|-----------|-------|--------------|------
 | 2020/02/03 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
-| 2020/05/19 | Robert | ティズナー | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
-| 2020/07/22 | Bobby | ティズナー | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 2020/05/19 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 2020/07/22 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
 **[!UICONTROL 重複排除 - 重複]**&#x200B;アクティビティには、重複を識別した後、行全体を一意のレコードとして保持する機能があります。 例えば、上記の使用例で、アクティビティが最も古い&#x200B;**[!UICONTROL 日付]**&#x200B;のレコードのみを保持するように設定されている場合、結果は次のようになります。
 
 | 日付 | 名 | 姓 | 電子メール | 携帯電話 | 電話 |
 -----|----------|------------|-------|--------------|------
-| 2020/02/03 | ボブ | ティズナー | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+| 2020/02/03 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
 選択したマスターレコードは、フィールドデータと重複行の他の関連データを結合せずに、データを繰り越します。
 
@@ -39,8 +39,8 @@ ht-degree: 100%
 
 | 日付 | 名 | 姓 | 電子メール | 携帯電話 | 電話 |
 -----|------------|-----------|-------|--------------|------
-| 2020/05/19 | ロバート | ティズナー | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
-| 2020/07/22 | ボビー | ティズナー | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 2020/05/19 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 2020/07/22 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
 ## ベストプラクティス{#best-practices}
 
@@ -66,6 +66,7 @@ ht-degree: 100%
    >[!NOTE]
    >
    >外部ファイルなどの外部データを入力として使用する場合は、必ず「**[!UICONTROL 一時スキーマ]**」オプションを選択してください。
+
    >
    >次の手順で、「**[!UICONTROL その他]**」オプションで使用される基準または条件を選択できます。
 
@@ -171,7 +172,7 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* スキーマ
+* schema
 * recCount
 
 この 3 つの値セットは、重複排除によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を保存するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

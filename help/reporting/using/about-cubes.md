@@ -6,14 +6,14 @@ description: キューブについて
 audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
+exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '740'
 ht-degree: 100%
 
 ---
-
 
 # キューブの基本を学ぶ{#about-cubes}
 
@@ -110,4 +110,3 @@ ht-degree: 100%
    ![](assets/s_advuser_cube_in_report.png)
 
    詳しくは、[レポートのデータの調査](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report)を参照してください。
-

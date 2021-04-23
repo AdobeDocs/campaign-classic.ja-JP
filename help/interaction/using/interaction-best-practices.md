@@ -6,14 +6,14 @@ description: ここでは、Adobe Campaign Classic のインタラクション�
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 98413cde-50c9-416c-8316-85837f724c27
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1197'
 ht-degree: 100%
 
 ---
-
 
 # インタラクションのベストプラクティス{#interaction-best-practices}
 

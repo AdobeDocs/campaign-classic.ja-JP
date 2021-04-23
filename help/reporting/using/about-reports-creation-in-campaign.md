@@ -6,14 +6,14 @@ description: Campaign でのレポート作成について
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
+exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
 translation-type: ht
-source-git-commit: 11ff62238a8fb73658f2263c25dbeb27d2e0fb23
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '167'
 ht-degree: 100%
 
 ---
-
 
 # レポートを作成する主な手順{#about-reports-creation-in-campaign}
 
@@ -31,4 +31,3 @@ Campaign データベース内のデータに関する統計情報を生成す�
 1. 表示オプション（表示タイプ、共有レポートなど）を設定します。[レポートの表示コンテキスト](../../reporting/using/configuring-access-to-the-report.md#report-display-context)、[条件付きコンテンツの定義](../../reporting/using/defining-a-conditional-content.md)および[レポートへのアクセスの設定](../../reporting/using/configuring-access-to-the-report.md)を参照してください。
 1. レポートをパブリッシュします（パブリッシュウィザードを使用）。[レポートのパブリッシュ](../../reporting/using/configuring-access-to-the-report.md#publishing-the-report)を参照してください。
 1. レポートの変換（エクスポート）、履歴の作成、ブラウザーでの表示などをおこないます。[レポートに対するアクション](../../reporting/using/actions-on-reports.md)を参照してください。
-

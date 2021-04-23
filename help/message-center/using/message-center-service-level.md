@@ -6,14 +6,14 @@ description: Message Center サービスレベル
 audience: message-center
 content-type: reference
 topic-tags: reports
+exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
 translation-type: ht
-source-git-commit: 278dec636373b5ccd3b631bd29607ebe894d53c3
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '257'
 ht-degree: 100%
 
 ---
-
 
 # Message Center サービスレベル{#message-center-service-level}
 
@@ -33,4 +33,3 @@ ht-degree: 100%
 >[!NOTE]
 >
 >警告（オレンジ）およびアラート（赤）指標のしきい値は、デプロイウィザードで設定することができます。[しきい値の監視](../../message-center/using/monitoring-thresholds.md)を参照してください。
-

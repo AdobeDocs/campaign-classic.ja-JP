@@ -6,14 +6,14 @@ description: データ抽出（ (ファイル）) ワークフローアクティ
 audience: workflow
 content-type: reference
 topic-tags: action-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '350'
 ht-degree: 100%
 
 ---
-
 
 # データ抽出（ファイル）{#extraction-file}
 
@@ -66,4 +66,3 @@ ht-degree: 100%
 * **[!UICONTROL 最小値]**：フィールド（数値その他）の最小値を計算します。
 * **[!UICONTROL 最大値]**：フィールド（数値その他）の最大値を計算します。
 * **[!UICONTROL 平均]**：数値フィールドの値の平均を計算します。
-

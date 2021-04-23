@@ -6,14 +6,14 @@ description: 配信パフォーマンスとベストプラクティスについ�
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
-translation-type: tm+mt
-source-git-commit: 8bf1b5b1a6763cf933d86f2af61b2bb68e870222
-workflow-type: tm+mt
+exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # 配信パフォーマンスのベストプラクティス{#delivery-performances}
 
@@ -53,6 +53,6 @@ ht-degree: 95%
 
 * **配信のサイズ**：サイズの大きい配信は、完了までに時間がかかることがあります。MTA の子はデフォルトのバッチサイズを処理するように設定されます。この設定はほとんどのインスタンスで機能しますが、配信が頻繁に遅くなる場合はチェックする必要があります。
 * **配信のターゲット**：配信パフォーマンスはソフトバウンスエラーの影響を受けることがあり、再試行設定に従って処理されます。エラーの数が多いと、より多くの再試行が必要になります。
-* **プラットフォーム全体の負荷**：大きな配信を複数送信すると、プラットフォーム全体に影響することがあります。IP レピュテーションと配信品質の問題もチェックできます。詳しくは、[このセクション](../../delivery/using/about-deliverability.md)と[Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)を参照してください。
+* **プラットフォーム全体の負荷**：大きな配信を複数送信すると、プラットフォーム全体に影響することがあります。IP レピュテーションと配信品質の問題もチェックできます。詳しくは、[この節](../../delivery/using/about-deliverability.md)と[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
 
 プラットフォームとデータベースのメンテナンスも、配信の送信パフォーマンスに影響することがあります。詳しくは、[このページ](../../production/using/database-performances.md)を参照してください。

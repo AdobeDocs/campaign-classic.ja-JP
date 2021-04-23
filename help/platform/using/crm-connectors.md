@@ -7,11 +7,11 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37802e52f1d1d38d9c3d59c439f23114a594bfef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,4 +41,4 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 Campaign と Microsoft Dynamics を接続する手順については、[こちらの節](../../platform/using/crm-ms-dynamics.md)を参照してください。
 
 
-キャンペーンとSalesforceを接続する手順を順を追って説明します。[](../../platform/using/crm-sfdc.md)
+Campaign と Salesforce を接続する手順については、[この節](../../platform/using/crm-sfdc.md)を参照してください。

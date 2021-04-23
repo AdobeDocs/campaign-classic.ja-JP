@@ -6,14 +6,14 @@ description: Web フォームプロパティの定義
 audience: web
 content-type: reference
 topic-tags: web-forms
-translation-type: tm+mt
-source-git-commit: 21219f4a85a0caec4531acda33ab8bba5c7605d6
-workflow-type: tm+mt
+exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '1262'
 ht-degree: 100%
 
 ---
-
 
 # Web フォームプロパティの定義{#defining-web-forms-properties}
 
@@ -175,4 +175,3 @@ Web フォームは、**[!UICONTROL オンライン]**&#x200B;の状態で、現
 テストボックスを使用すると、ページの並び順の条件を設定できます。
 
 ![](assets/s_ncs_admin_survey_test_box.png)
-

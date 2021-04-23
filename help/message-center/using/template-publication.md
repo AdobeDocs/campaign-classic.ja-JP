@@ -6,14 +6,14 @@ description: トランザクションメッセージテンプレートのパブ�
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-translation-type: tm+mt
-source-git-commit: 02dee9c4cc03784ccc20f147f816798248bd10f2
-workflow-type: tm+mt
+exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '261'
 ht-degree: 100%
 
 ---
-
 
 # テンプレートのパブリッシュ{#template-publication}
 

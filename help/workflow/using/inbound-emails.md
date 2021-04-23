@@ -6,14 +6,14 @@ description: インバウンド E メールワークフローアクティビテ�
 audience: workflow
 content-type: reference
 topic-tags: event-activities
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '367'
 ht-degree: 100%
 
 ---
-
 
 # インバウンド E メール{#inbound-emails}
 
@@ -79,4 +79,3 @@ ht-degree: 100%
    ![](assets/email_rec_edit_3.png)
 
    有効期限の設定は、スケジュール設定アクティビティの場合と同じです。[有効期限](../../workflow/using/defining-approvals.md)を参照してください。
-

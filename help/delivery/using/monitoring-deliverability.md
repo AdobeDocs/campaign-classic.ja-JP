@@ -6,18 +6,18 @@ description: Adobe Campaign クラシックの配信品質の監視に関する�
 audience: delivery
 content-type: reference
 topic-tags: deliverability-management
-translation-type: tm+mt
-source-git-commit: 5d1a653a9a164c34bb70efcc86ff2d7bdf1130a2
-workflow-type: tm+mt
+exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-
 # 配信品質の監視{#monitoring-deliverability}
 
-以下に、Adobe Campaignが提供する様々な監視ツールの詳細と、Adobe Campaignが提供する機能を活用してプラットフォームの配信品質を監視するための追加のガイドラインを示します。
+以下に、Adobe Campaign に用意されている様々な監視ツールの詳細と、Adobe Campaign 提供の機能を活用したプラットフォームの配信品質の監視に関するその他のガイドラインを示します。
 
 ## 配信品質の監視 {#configuration}
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 
 Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!UICONTROL 配信品質の更新]**&#x200B;ワークフローが管理します。このワークフローは、デフォルトですべてのインスタンスにインストールされ、バウンスメールの検証ルールのリスト、ドメインのリストおよび MX のリストを初期化できます。**[!UICONTROL 配信品質の監視 (E メールの配信品質)]** パッケージをインストールすると、このワークフローが毎日夜間に実行されてルールリストを定期的に更新し、プラットフォームの配信品質の積極的管理が可能になります。
 
-配信品質パッケージを使用すると以下にアクセスすることができます。
+配信品質パッケージを使用すると、以下にアクセスすることができます。
 
 * [受信ボックスレンダリングレポート](../../delivery/using/inbox-rendering.md)を使用すると、コンテンツや評判をスキャンするために、主要な E メールクライアントにメッセージをプレビューできます。
 * メッセージ品質の概要（受信ボックス、スパム）。
@@ -55,7 +55,7 @@ Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!
 * プラットフォーム全体で[配信スループット](../../reporting/using/global-reports.md#delivery-throughput)を定期的にチェックして、元のセットアップと整合性が取れているかどうかを検証します。
 * 配信テンプレートで[再試行](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)が適切に設定されていることを確認します（再試行期間が 30 分、再試行回数が 21 回以上）。
 * [バウンス](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management)メールボックスがアクセス可能で、アカウントの有効期限が近づいていないかを定期的に検証します。
-* [配信ダッシュボード](../../delivery/using/delivery-dashboard.md)からアクセス可能な各配信のスループットをチェックし、配信の内容の有効性(例：「flash sales」は、日単位ではなく分単位で配信する必要があります。
+* [配信ダッシュボード](../../delivery/using/delivery-dashboard.md)で各配信スループットをチェックして、配信コンテンツの効力（例：「フラッシュセール」の配信期間は数日ではなく数分にする必要がある）と合致していることを確認します。
 * [ウェーブ](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)を使用する場合、次のものがトリガーされる前に各ウェーブが完了するための十分な時間があることを検証します。
 * エラーの数と新しい[強制隔離](../../delivery/using/understanding-quarantine-management.md)が他の配信と整合性が取れていることをチェックします。
 * [配信ログ](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)の詳細を慎重に調べて、ハイライト表示されたエラーの種類をチェックします（ブロックリスト、DNS の問題、スパム対策ルールなど）。

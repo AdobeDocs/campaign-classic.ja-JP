@@ -6,14 +6,14 @@ description: コンテキストの使用
 audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '510'
 ht-degree: 100%
 
 ---
-
 
 # コンテキストの使用{#using-the-context}
 
@@ -88,4 +88,3 @@ ht-degree: 100%
 統計に関係のあるデータを選択する場合、使用可能なフィールドは、クエリで指定されたデータと一致します。
 
 ![](assets/s_ncs_advuser_report_datasource_1.png)
-

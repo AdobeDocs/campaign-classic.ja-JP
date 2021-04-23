@@ -6,9 +6,9 @@ description: カスタム実装用のイベントの設定方法を説明しま�
 audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1205'
 ht-degree: 100%
 

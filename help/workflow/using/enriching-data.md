@@ -6,14 +6,14 @@ description: エンリッチメントワークフローアクティビティの�
 audience: workflow
 content-type: reference
 topic-tags: use-cases
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '823'
 ht-degree: 100%
 
 ---
-
 
 # データのエンリッチメント{#enriching-data}
 
@@ -125,4 +125,3 @@ Web アプリケーション経由での競争への参加を案内する内容�
 1. 各サブセットについて、個々に別々の配信テンプレートを使用して、「**[!UICONTROL 配信]**」タイプアクティビティを追加します。
 
    ![](assets/uc1_enrich_20.png)
-

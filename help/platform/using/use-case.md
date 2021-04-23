@@ -6,18 +6,18 @@ description: 使用例
 audience: platform
 content-type: reference
 topic-tags: filtering-data
-translation-type: tm+mt
-source-git-commit: b05b8daad449aeb1f5226fdd76744776c6553b63
-workflow-type: tm+mt
+exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-
 # 使用例{#use-case}
 
-## サブスクライバーのE メールフォーマットに対するフィルターの作成{#creating-a-filter-on-the-email-format-of-subscribers}
+## 購読者の E メールフォーマットに関するフィルターの作成 {#creating-a-filter-on-the-email-format-of-subscribers}
 
 この使用例では、受信者の E メールフォーマットに基づいてニュースレターの購読を並べ替えるフィルターの作成方法を示します。
 
@@ -44,7 +44,7 @@ ht-degree: 94%
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   これらのフィールドにアクセスして、フィルターエディターの本文でフィルター条件を定義できます。アプリケーションフィルターは、詳細フィルターと同じ方法で定義されます。[アドバンスフィルターの作成](../../platform/using/creating-filters.md#creating-an-advanced-filter)を参照してください。
+   これらのフィールドにアクセスして、フィルターエディターの本文でフィルター条件を定義できます。アプリケーションフィルターは、詳細フィルターと同じ方法で定義されます。[詳細フィルターの作成](../../platform/using/creating-filters.md#creating-an-advanced-filter)を参照してください。
 
 1. E メールフォーマットが定義されていない購読のみを表示する、購読の新しいフィルターを作成します。
 
@@ -58,4 +58,3 @@ ht-degree: 94%
    現在のフィルターの名前は、リストの上に表示されます。フィルターをキャンセルするには、**[!UICONTROL このフィルターを削除]**&#x200B;アイコンをクリックします。
 
    ![](assets/s_ncs_user_filter_on_subscriptions.png)
-

@@ -6,14 +6,14 @@ description: トランザクションメッセージ内のシードアドレス�
 audience: message-center
 content-type: reference
 topic-tags: message-templates
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '194'
 ht-degree: 100%
 
 ---
-
 
 # トランザクションメッセージ内のシードアドレスの管理{#managing-seed-addresses-in-transactional-messages}
 

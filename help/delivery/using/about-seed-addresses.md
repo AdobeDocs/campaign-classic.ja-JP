@@ -6,14 +6,14 @@ description: シードアドレスについて
 audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
-translation-type: tm+mt
-source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
-workflow-type: tm+mt
+exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '388'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
-
 
 # シードアドレスについて{#about-seed-addresses}
 
@@ -21,13 +21,13 @@ ht-degree: 76%
 
 これらを使用する主な理由の 1 つが、**メーリングリスト保護**&#x200B;です。メーリングリストにシードアドレスを挿入すると、メーリングリストに送信された配信をシードアドレスが受信するので、第三者によってメーリングリストが使用されているかどうかを知ることができます。
 
-また、シードアドレスは、配信を送信することで、**プレビューを実行し、送信前に**&#x200B;配達確認のパーソナライズとレンダリングをテストできます([シードアドレスを配達確認として使用](../../delivery/using/steps-defining-the-target-population.md#using-seed-addresses-as-proof)を参照)。
+さらに、シードアドレスを使用すると、配達確認を送信することで、送信前に&#x200B;**配信のパーソナライゼーションとレンダリングをプレビューおよびテスト**&#x200B;できます（[配達確認としてのシードアドレスの使用](../../delivery/using/steps-defining-the-target-population.md#using-seed-addresses-as-proof)を参照）。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](../../delivery/using/steps-defining-the-target-population.md#seeds-and-proofs-video)
 
 シードアドレス機能には次のメリットがあります。
 
-* フィールドを受信者プロファイルから取得したデータにランダムに置き換える：これにより、例えば「シードアドレス」セクションに電子メールアドレスのみを入力し、キャンペーンがプロファイルから他のフィールドに自動的に入力できるようになります(使用例：フィールドの置き換え](../../delivery/using/use-case--configuring-the-field-substitution.md)を設定します)。[
+* 受信者プロファイルから取得したデータでフィールドをランダムに置換できます。例えば、シードアドレスセクションなどの E メールアドレスを入力するだけで、プロファイルに基づいて他のフィールドに値を自動的に入力できます（[ユースケース：フィールド置換の設定](../../delivery/using/use-case--configuring-the-field-substitution.md)を参照）。
 * データ管理機能を利用するワークフローを使用する場合、配信で処理される追加のデータをシードアドレスのレベルで入力し、値を強制できます。これにより、ランダムな値による置換を回避します。
 * シードアドレスは、**[!UICONTROL クリック数]**、**[!UICONTROL 開封数]**、**[!UICONTROL 購読解除]**&#x200B;の配信統計に関するレポートからは自動的に除外されます。
 
@@ -37,7 +37,7 @@ ht-degree: 76%
 >
 >シードアドレスは受信者テーブルに属さず、別のテーブルに作成されます。新しいデータで受信者テーブルを拡張する場合、シードアドレステーブルも同じデータで拡張する必要があります。そうしないと、拡張されたフィールドはシードアドレスでは考慮されません。
 >
->シードアドレステーブルの拡張方法の例をこの節に示します。[使用例：条件](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)のシードアドレスを選択
+>シードアドレステーブルの拡張方法の例については、[ユースケース：条件に基づくシードアドレスの選択](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)の節を参照してください。
 
 ダイレクトメール配信の場合、シードアドレスは抽出時に追加され、出力ドキュメントに織り込まれます。
 

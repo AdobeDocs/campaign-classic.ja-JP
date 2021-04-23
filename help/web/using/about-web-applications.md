@@ -6,14 +6,14 @@ description: 動的な Web アプリケーション、ランディングペー�
 audience: web
 content-type: reference
 topic-tags: web-applications
-translation-type: tm+mt
-source-git-commit: e76eb171aac1f7088ff8647f99c928ec349b24fc
-workflow-type: tm+mt
+exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '717'
 ht-degree: 100%
 
 ---
-
 
 # Web アプリケーションの概要{#about-web-applications}
 
@@ -102,4 +102,3 @@ Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／テンプレー�
 >[!CAUTION]
 >
 >利用可能なアプリケーションは、オプションおよびモジュールによって異なります。使用許諾契約書を確認してください。
-

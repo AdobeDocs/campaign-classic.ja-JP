@@ -6,18 +6,18 @@ description: ここでは、Adobe Campaign Classic のモバイルアプリチ�
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-translation-type: tm+mt
-source-git-commit: 9237e11edec4114b2bd0932e6128775f36aad27c
-workflow-type: tm+mt
+exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
+# モバイルアプリチャネルの基本を学ぶ{#about-mobile-app-channel}
 
-# モバイルアプリチャネルの概要{#about-mobile-app-channel}
-
-**モバイルアプリチャネル**&#x200B;では、Adobe Campaignプラットフォームを使用して、パーソナライズされたプッシュ通知をアプリを介してiOSおよびAndroid端末に送信できます。
+**モバイルアプリチャネル**&#x200B;では、Adobe Campaign プラットフォームを使用して、パーソナライズされた通知をアプリから iOS および Android 端末に送信できます。
 
 >[!CAUTION]
 >
@@ -55,7 +55,7 @@ ht-degree: 93%
 
 **[!UICONTROL NMAC オプトアウト管理]**（mobileAppOptOutMgt）ワークフローにより、モバイルデバイスでの通知購読解除が更新されます。このワークフローの詳細については、[テクニカルワークフローのリスト](../../workflow/using/about-technical-workflows.md)を参照してください。
 
-Adobe Campaign は HTTP/2 APN と互換性があります。設定手順の詳細については、[このセクション](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
+Adobe Campaign は HTTP/2 APN と互換性があります。設定手順について詳しくは、[この節](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
 
 配信の作成方法に関する全般的な情報については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。
 
@@ -103,4 +103,3 @@ Adobe Campaign サーバーは、iOS HTTP/2 コネクタ用の 443 ポートの 
    ```
 
 iOS HTTP/2 コネクタを使用する場合、MTA、web サーバーおよびワークフローサーバーは、ポート 443 で APNs と通信できる必要があります。
-

@@ -5,14 +5,14 @@ title: Adobe Experience Manager 統合の設定
 description: Campaign と AEM の統合を設定する方法を説明します
 audience: integrations
 content-type: reference
+exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
 translation-type: ht
-source-git-commit: d88815e36f7be1b010dcaeee51013a5da769b4a8
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
 workflow-type: ht
 source-wordcount: '607'
 ht-degree: 100%
 
 ---
-
 
 # 統合の設定{#configuring-the-integration}
 
@@ -130,4 +130,3 @@ AEM 外部アカウントを設定するには、以下の手順に従います�
 1. **Externalizer サービス**&#x200B;を設定します。
 
    設定方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/jp/experience-manager/6-5/sites/developing/using/externalizer.html)を参照してください。
-

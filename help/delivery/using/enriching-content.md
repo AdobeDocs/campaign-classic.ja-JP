@@ -6,14 +6,14 @@ description: コンテンツのエンリッチメント
 audience: delivery
 content-type: reference
 topic-tags: content-management
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
-workflow-type: tm+mt
+exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '669'
 ht-degree: 100%
 
 ---
-
 
 # コンテンツのエンリッチメント{#enriching-content}
 
@@ -260,4 +260,3 @@ for each(var contact in content.contact)
 JavaScript コードのコンテンツが&#x200B;**[!UICONTROL 管理／設定／コンテンツ管理／JavaScript コード]**&#x200B;フォルダーを使用して追加されます。また、コンテンツは変換ごとにパブリッシュテンプレートに追加される必要があります。
 
 ![](assets/d_ncs_content_link5.png)
-

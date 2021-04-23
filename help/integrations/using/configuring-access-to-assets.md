@@ -6,14 +6,14 @@ description: Assets へのアクセスの設定
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
-translation-type: tm+mt
-source-git-commit: 5d5d4b87bae44ce0a93458f79179434a5bf315c3
-workflow-type: tm+mt
+exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '607'
 ht-degree: 100%
 
 ---
-
 
 # Assets へのアクセスの設定{#configuring-access-to-assets}
 
@@ -69,5 +69,3 @@ Adobe Campaign と Adobe Experience Manager を統合する方法については
 >[!NOTE]
 >
 >**[!UICONTROL Adobe Experience Cloud との統合]**&#x200B;パッケージも Adobe Campaign インスタンスにインストールされている場合、Adobe Experience Cloud ライブラリで使用可能なアセットだけを使用することができます。AEM Assets ライブラリのアセットにもアクセスするには、AEM Assets と Adobe Experience Cloud を同期する必要があります。AEM Assets 内のアセットも、Adobe Experience Cloud ライブラリで使用可能になります。その場合、特定の配信テンプレートを作成する必要はありません。AEM Assets と Adobe Experience Cloud 間の同期について詳しくは、[詳細ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/configure-assets-cc-integration.html?lang=ja#integration)を参照してください。
-
-

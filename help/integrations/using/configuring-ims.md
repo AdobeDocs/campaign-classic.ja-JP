@@ -6,14 +6,14 @@ description: Adobe ID 経由の接続方法を説明します
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
-translation-type: tm+mt
-source-git-commit: db595e59f4725ba5d125e688e7bfc6d1c1a03d9f
-workflow-type: tm+mt
+exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
+translation-type: ht
+source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
 ---
-
 
 # IMS の設定{#configuring-ims}
 
@@ -66,4 +66,3 @@ IMS との統合を使用するには：
    >関連付けマスクは、Adobe ID を使用した接続が正常に機能するために必要です。
 
 * Adobe Experience Cloud 接続情報、特に Adobe Experience Cloud テナント名。
-

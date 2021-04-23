@@ -3,15 +3,15 @@ solution: Campaign Classic
 product: campaign
 title: キャンペーンフォルダーへのアクセスの管理
 description: キャンペーンフォルダーへのアクセスを許可し、ビューを作成する方法について説明します。
-feature: Application Settings
+feature: アプリケーション設定
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '777'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 ## フォルダーとビュー {#folders-and-views}
 
-### フォルダ{#about-folders}とは
+### フォルダーとは {#about-folders}
 
 フォルダーとは Adobe Campaign ツリーのノードです。ノードを作成するには、ツリーを右クリックし、**[!UICONTROL 新規フォルダーを追加]**&#x200B;メニューを使用します。デフォルトでは、最初のメニューを使用すると現在のコンテキストに対応したフォルダーを追加できます。
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 
 エクスプローラーのナビゲーションツリーをカスタマイズできます。 設定手順とベストプラクティスについては、[この節](adobe-campaign-workspace.md)を参照してください。
 
-### 表示{#about-views}とは
+### ビューとは {#about-views}
 
 また、必要に応じて、データアクセスの制限やツリー内のコンテンツの整理を目的としたビューを作成できます。それらのビューにはアクセス権を設定できます。
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 
 ![](assets/s_ncs_user_view_name_color.png)
 
-### 追加フォルダと表示の作成{#adding-folders-and-creating-views}
+### フォルダーの追加とビューの作成 {#adding-folders-and-creating-views}
 
 以下の例では、特定のデータを表示するための新しいフォルダーを作成します。
 

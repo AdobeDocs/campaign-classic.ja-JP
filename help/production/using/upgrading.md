@@ -24,7 +24,6 @@ ht-degree: 14%
 >* Adobeでは、更新の前に各インスタンスでデータベースバックアップを行うことを強くお勧めします。 詳しくは、[こちらの節](../../production/using/backup.md)を参照してください。
 >* アップグレードを実行するには、インスタンスとログにアクセスする権限と権限があることを確認します。
 >* 開始する前に、[このセクション](../../installation/using/general-architecture.md)と[ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)の章を読んでください。
-
 >
 
 
@@ -51,6 +50,7 @@ Windows環境で、次の手順に従ってAdobe Campaignを新しいビルド�
       **iisreset /stop**
 
    * Adobe Campaignサービス：**nlserver6** net stop nlserver6
+
    >[!IMPORTANT]
    >
    >また、IISで使用される&#x200B;**nlsrvmod.dll**&#x200B;ファイルを新しいバージョンに置き換えるために、リダイレクトサーバー(webmdl)が停止していることを確認する必要があります。
@@ -129,7 +129,7 @@ Adobe Campaignの両方の更新されたパッケージを回復することに
 
 ファイルは&#x200B;**nlserver6-v7-XXX.rpm**&#x200B;です。
 
-### 更新{#perform-an-update}を実行
+### 更新を実行{#perform-an-update}
 
 * RPMベースの配布(RedHat、SuSe)
 
@@ -173,10 +173,8 @@ Adobe Campaignの両方の更新されたパッケージを回復することに
 >
 >* スクリプトの名前は、**apache**&#x200B;の代わりに&#x200B;**httpd**&#x200B;にすることができます。
 >* 次の応答を取得するまで、このコマンドを実行する必要があります。
-
-   >
-   >   
-   この操作は、Apacheが新しいライブラリを適用するために必要です。
+>
+>   この操作は、Apacheが新しいライブラリを適用するために必要です。
 
 
 次に、Apacheを再起動します。

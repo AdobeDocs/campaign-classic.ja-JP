@@ -184,6 +184,7 @@ JavaScript セクションで &lt;%@ value を使用できるようにするた�
    }
    <%@ value object='endScript' %>
    ```
+
 1. 関数を呼び出して記事を表示します。
 
    ```

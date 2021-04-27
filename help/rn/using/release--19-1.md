@@ -7,11 +7,11 @@ feature: null
 role: null
 level: null
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5271a23f7d815d432cfec00c57555c18be1fd3c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 99%
 
 ## ![](assets/do-not-localize/limited_2.png) リリース 19.1.8 - ビルド 9039 {#release-19-1-8-build-9039}
 
-_2021年4月16日_
+_2021 年 4 月 15 日_
 
-* IMS接続画面で永続的なエラーメッセージが発生するクライアントコンソールの問題を修正しました。 （NEO-34821）
+* IMS 接続画面で永続的なエラーメッセージが発生する原因となっていたクライアントコンソールの不具合を修正しました。 （NEO-34821）
 
 **コンソールのアップグレードのみ必須です。サーバーのアップグレードは必要ありません。**
 
@@ -215,7 +215,7 @@ _2019 年 5 月 30 日_
 
 **Guardrail、堅牢性および拡張性の強化**
 
-* ライフスパン - XtkNewId シーケンス使用の最適化：最も容量が大きいテーブルを xtkNewId シーケンスから専用シーケンスへ移動させました。[詳細を表示](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* ライフスパン - XtkNewId シーケンス使用の最適化：最も容量が大きいテーブルを xtkNewId シーケンスから専用シーケンスへ移動させました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA over HTTP v2：FDA over HTTP プロトコルは、ハイブリッドデプロイメント（特に broadLog の取得および配信準備）で広く使用されています。データの取得時やプッシュ時のネットワークの問題と考えられるエラーを防ぐよう、堅牢性を強化しました。これを実現するには、両側のビルドを最新にする必要があります。そうでない場合、古いプロトコルが引き続き使用されます。
 * トラッキングワークフロー：トラッキングワークフローの堅牢性を強化しました。トラッキングログの挿入／更新および URL トラッキングのカスタマイズに関する複数の問題を修正しました。さらに、トラッキングワークフローで、エラーを引き起こし、ワークフローを停止する可能性のあるトラッキングログの問題を検出するようになりました。これらの問題は、現在は破棄され、処理されなくなりました。
 * クリーンアップワークフロー：潜在的なエラーと停止を防ぐため、クリーンアップワークフローを向上させました。これにより、データベースのサイズとパフォーマンスを最適化しました。

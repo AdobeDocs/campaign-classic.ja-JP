@@ -25,7 +25,7 @@ ht-degree: 100%
    + [アップグレードの基本を学ぶ](rn/using/rn-overview.md)
    + [最新リリース](rn/using/latest-release.md)
    + [!DNL Gold Standard] リリース {#gs-release}
-      + [ [!DNL Gold Standard]](rn/using/gs-overview.md) について
+      + [ [!DNL Gold Standard] について](rn/using/gs-overview.md)
       + [[!DNL Gold Standard] リリースノート](rn/using/gold-standard.md)
       + [[!DNL Gold Standard] 互換性マトリックス](rn/using/compatibility-matrix-gs.md)
    + 以前のリリース {#previous-releases}
@@ -79,7 +79,7 @@ ht-degree: 100%
    + データのインポートとエクスポート {#importing-and-exporting-data}
       + [データのインポートとエクスポートの基本を学ぶ](platform/using/get-started-data-import-export.md)
       + [ワークフローを使用したデータのインポートとエクスポート](platform/using/import-export-workflows.md)
-      + 一般的なインポートおよびエクスポートの作成 {#generic-imports-exports} 
+      + 一般的なインポートおよびエクスポートの作成 {#generic-imports-exports}
          + [一般的なインポートおよびエクスポートの基本を学ぶ](platform/using/about-generic-imports-exports.md)
          + [インポートおよびエクスポートテンプレートの作成](platform/using/creating-import-export-templates.md)
          + [インポートジョブとエクスポートジョブの作成](platform/using/creating-import-export-jobs.md)
@@ -320,7 +320,7 @@ ht-degree: 100%
       + [レポートに対するアクション](reporting/using/actions-on-reports.md)
    + キューブを使用したレポートの設計 {#designing-reports-with-cubes}
       + [キューブの基本を学ぶ](reporting/using/about-cubes.md)
-      +  [指標の作成](reporting/using/creating-indicators.md)
+      + [指標の作成](reporting/using/creating-indicators.md)
       + [キューブを使用したデータ調査](reporting/using/using-cubes-to-explore-data.md)
       + [概念と手法](reporting/using/concepts-and-methodology.md)
       + [使用例：オンラインサーベイへの回答に関するレポートの表示](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)

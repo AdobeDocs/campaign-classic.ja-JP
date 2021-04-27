@@ -7,11 +7,11 @@ feature: null
 role: null
 level: null
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6f5a536a5ac1286cdf6f1c9f53377fe8d0f55bed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1542'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 98%
 
 ## ![](assets/do-not-localize/limited_2.png) リリース 19.2.4 - ビルド 9082 {#release-19-2-4-build-9082}
 
-_2021年4月16日_
+_2021 年 4 月 15 日_
 
-* IMS接続画面で永続的なエラーメッセージが発生するクライアントコンソールの問題を修正しました。 （NEO-34821）
+* IMS 接続画面で永続的なエラーメッセージが発生する原因となっていたクライアントコンソールの不具合を修正しました。 （NEO-34821）
 
 **コンソールのアップグレードのみ必須です。サーバーのアップグレードは必要ありません。**
 

@@ -7,11 +7,11 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: da87e8aac5d5419c8b21803e4041da166d8ffde9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1560'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 98%
 
 ## ![](assets/do-not-localize/limited_2.png) リリース 20.1.4 - ビルド 9126 {#release-20-1-4-build-9126}
 
-_2021年4月16日_
+_2021 年 4 月 15 日_
 
-* IMS接続画面で永続的なエラーメッセージが発生するクライアントコンソールの問題を修正しました。 （NEO-34821）
+* IMS 接続画面で永続的なエラーメッセージが発生する原因となっていたクライアントコンソールの不具合を修正しました。 （NEO-34821）
 
 **コンソールのアップグレードのみ必須です。サーバーのアップグレードは必要ありません。**
 

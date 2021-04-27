@@ -7,11 +7,11 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: abd5c7430c3f7a1a056a014ad46a0b94157e259f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 98%
 
 ## ![](assets/do-not-localize/blue_2.png) リリース 21.1.2 - ビルド 9282 {#release-21-1-2-build-9282}
 
-_2021年4月16日_
+_2021 年 4 月 15 日_
 
-* パスワード管理が強化され、セキュリティが最適化されました。
-* MTAがクラッシュする可能性がある問題を修正しました。
+* パスワード管理が向上し、セキュリティが最適化されました。 
+* MTA がクラッシュする可能性がある問題を修正しました。
 
 ## ![](assets/do-not-localize/red_2.png) リリース 21.1.1 - ビルド 9277 {#release-21-1-1-build-9277}
 

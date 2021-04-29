@@ -1,68 +1,68 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: キャンペーンからAdobe Experience Platformへのデータのエクスポート
-description: Campaign ClassicからAdobe Experience Platformにデータをエクスポートする方法を説明します。
+title: Campaign から Adobe Experience Platform へのデータのエクスポート
+description: Campaign Classic から Adobe Experience Platform にデータをエクスポートする方法を説明します。
 audience: integrations
 content-type: reference
-translation-type: tm+mt
-source-git-commit: 1c07c3b10a6d38ca67c20746a51301d71aec0015
-workflow-type: tm+mt
+exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
+translation-type: ht
+source-git-commit: 44ea4acb384fd7cb9de8b5be8132446ee0023cfe
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
+# Campaign から Adobe Experience Platform へのデータのエクスポート {#sources}
 
-# キャンペーンからAdobe Experience Platformへのデータのエクスポート{#sources}
+Campaign Classic データをアドビのリアルタイム顧客データプラットフォーム（RTCDP）にエクスポートするには、まず、Campaign Classic でワークフローを作成して、共有するデータを S3 または Azure Blob のストレージの場所にエクスポートする必要があります。
 
-Campaign ClassicデータをAdobeリアルタイムCustomer Data Platform (RTCDP)にエクスポートするには、まず、Campaign Classicでワークフローを構築して、共有するデータをS3またはAzure BLOBストレージの場所にエクスポートする必要があります。
-
-ワークフローが構成され、ストレージの場所にデータが送信されたら、S3またはAzure BLOBストレージの場所をAdobeエクスペリエンスプラットフォームの&#x200B;**Source**&#x200B;として接続する必要があります。
+ワークフローを構成し、ストレージの場所にデータが送信されたら、S3 または Azure Blob のストレージの場所を Adobe Experience Platform の&#x200B;**ソース**&#x200B;として接続する必要があります。
 
 >[!NOTE]
 >
->キャンペーン生成データのみ（送信、開く、クリック数など）をエクスポートすることをお勧めします。 Adobe Experience Platformに サードパーティのソース（CRMなど）から取り込まれたデータは、Adobe Experience Platformに直接読み込む必要があります。
+>Campaign で生成されたデータのみ（送信数、開封数、クリック数など）をAdobe Experience Platform にエクスポートすることをお勧めします。サードパーティのソース（CRM など）から取り込まれたデータは、Adobe Experience Platform に直接インポートする必要があります。
 
-## Campaign Classicでの書き出しワークフローの作成
+## Campaign Classic でのエクスポートワークフローの作成
 
-Campaign ClassicからS3またはAzure Blobストレージの場所にデータをエクスポートするには、エクスポートするデータをターゲットするワークフローを構築し、ストレージの場所に送信する必要があります。
+Campaign Classic から S3 または Azure Blob ストレージの場所にデータをエクスポートするには、エクスポート対象データにターゲットを絞って、そのデータをストレージの場所に送信するワークフローを構築する必要があります。
 
-これを行うには、以下を追加して設定します。
+これをおこなうには、以下を追加して設定します。
 
-* ターゲットデータをCSVファイルに抽出する&#x200B;**[!UICONTROL データ抽出（ファイル）]**&#x200B;アクティビティ。 このアクティビティの設定方法について詳しくは、[この](../../workflow/using/extraction--file-.md)セクションを参照してください。
+* ターゲットデータを CSV ファイルに抽出する&#x200B;**[!UICONTROL データ抽出（ファイル）]**&#x200B;アクティビティ。 このアクティビティの設定方法について詳しくは、[こちらの節](../../workflow/using/extraction--file-.md)を参照してください。
 
    ![](assets/rtcdp-extract-file.png)
 
-* CSVファイルをストレージの場所に転送する&#x200B;**[!UICONTROL ファイル転送]**&#x200B;アクティビティ。 このアクティビティの設定方法について詳しくは、[この](../../workflow/using/file-transfer.md)セクションを参照してください。
+* CSV ファイルをストレージの場所に転送する&#x200B;**[!UICONTROL ファイル転送]**&#x200B;アクティビティ。 分割アクティビティの設定方法について詳しくは、[こちらの節](../../workflow/using/file-transfer.md)を参照してください。
 
    ![](assets/rtcdp-file-transfer.png)
 
-例えば、以下のワークフローでは、ログを定期的にCSVファイルに抽出し、そのファイルをストレージーの場所に転送します。
+例えば、以下のワークフローでは、ログを定期的に CSV ファイルに抽出し、そのファイルをストレージの場所に転送します。
 
 ![](assets/aep-export.png)
 
 ## ストレージの場所をソースとして接続する
 
-S3またはAzure BLOBストレージの場所をAdobeエクスペリエンスプラットフォームの&#x200B;**ソース**&#x200B;として接続する主な手順を以下に示します。 これらの各手順に関する詳細は、[ソースコネクタドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)を参照してください。
+S3 または Azure Blob ストレージの場所を Adobe Experience Platform の&#x200B;**ソース**&#x200B;として接続する主な手順を以下に示します。 これらの各手順について詳しくは、[ソースコネクタのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)を参照してください。
 
-1. Adobe Experience Platform **[!UICONTROL ソース]**&#x200B;メニューで、ストレージの場所への接続を作成します。
+1. Adobe Experience Platform の「**[!UICONTROL ソース]**」メニューで、ストレージの場所への接続を作成します。
 
-   * [AmazonS3ソース接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
-   * [Azure BLOBコネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)
+   * [Amazon S3 ソース接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=ja)
+   * [Azure Blob コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=ja)
 
    >[!NOTE]
    >
-   >ストレージの場所は、AmazonS3、パスワード付きSFTP、SSHキー付きSFTP、またはAzure Blob接続です。 Adobe Campaignにデータを送信する推奨される方法は、AmazonS3またはAzure Blobを使用する方法です：
+   >ストレージの場所は、Amazon S3、パスワードを使用した SFTP、SSH キーを使用した SFTP、または Azure Blob 接続に設定できます。 Adobe Campaign にデータを送信する際には、Amazon S3 または Azure Blob を使用する方法を推奨します。
 
    ![](assets/rtcdp-connector.png)
 
-1. クラウドストレージのバッチ接続のデータフローを設定します。 データフローとは、ストレージの場所からAdobe Experience Platformデータセットにデータを取得し、取り込むスケジュール設定されたタスクです。 この手順では、データ選択、CSVフィールドのXDMスキーマへのマッピングなど、ストレージの場所からのデータインジェストを設定できます。
+1. クラウドストレージのバッチ接続のデータフローを設定します。 データフローとは、ストレージの場所からデータを取得し、Adobe Experience Platform データセットに取り込むようスケジュール設定されたタスクです。 この手順では、データ選択や、CSV フィールドの XDM スキーマへのマッピングなど、ストレージの場所からデータを取得するよう設定できます。
 
-   詳細な情報は、[このページ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html)にあります。
+   詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html?lang=ja)を参照してください。
 
    ![](assets/rtcdp-map-xdm.png)
 
-1. ソースの設定が完了すると、Adobe Experience Platformは指定したストレージーの場所からファイルをインポートします。
+1. ソースの設定が完了すると、Adobe Experience Platform は指定したストレージの場所からファイルをインポートします。
 
-   この操作は、必要に応じてスケジュールできます。 インスタンスに既に存在する負荷に応じて、1日に最大6回エクスポートを実行することをお勧めします。
+   この操作は、必要に応じてスケジュールできます。 エクスポートの実行回数は、インスタンスに既に存在する負荷に応じて、1 日最大 6 回までとすることをお勧めします。

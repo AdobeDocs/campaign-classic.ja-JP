@@ -4,11 +4,11 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classic 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-translation-type: ht
-source-git-commit: bd6f77606517a0d3ceaa3c2b398733521af3ae43
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 52341396fd85e470257e37a1d9404eae775acda8
+workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 100%
 
 ## 新着情報
 
+* **[誤ったハード](https://helpx.adobe.com/jp/campaign/kb/update-bounce-qualification.html)**<br/> バウンスの削除Appleの停止後に誤ったハードバウンスを更新する方法を学びます。
+
 * **[APN 証明書のアップデート](technotes/ios-certificate-update.md)**<br/> 2021 年 3 月 29 日、APN のアップデートにより、Campaign iOS チャネルが影響を受けます。iOS のプッシュチャネルが機能しなくなるのを防ぐために、設定を更新する必要があります。
 
 * **[IMS／Adobe ID を使用した接続最新ビルドへのアップグレード](integrations/using/about-adobe-id.md)**<br/> IMS を使用して Campaign に接続している場合、** 2021 年 6 月 30 日&#x200B;**以降も、Campaign に接続できるようにするには、アップグレードが必要です。
 
 * **[Campaign インスタンスのセキュリティ保護](technotes/acc-config-updates.md)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します。
 
-* **[誤ったハードバウンスの削除](https://helpx.adobe.com/jp/campaign/kb/update-bounce-qualification.html)**<br/> Gmail の停止後に誤ったハードバウンスを更新する方法を説明します。
-
-* **[Adobe Experience Cloud Triggers 統合の更新](integrations/using/configuring-adobe-io.md)**<br/> レガシー oAuth 認証サービスが提供終了になりました。Adobe I/O に移行する方法を説明します
+* **[Adobe Experience Cloud Triggers 統合の更新](integrations/using/configuring-adobe-io.md)**<br/>レガシー oAuth 認証サービスが提供終了になりました。Adobe I/O に移行する方法を説明します
 
 * **[HTTP/2 ベースの APN プロバイダー API への移行](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)**<br/>&#x200B;レガシーバイナリプロトコルから HTTP/2 ベースの APN プロバイダー API に移行する方法を説明します
 

@@ -9,9 +9,9 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 7c161862a4ce2e86e7968fd61af6b8ca28d6623f
+source-git-commit: 378be6d4ef4ff69818d45c608a61b9a3506398be
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '438'
 ht-degree: 60%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 60%
 
 ## コンテキスト
 
-2021年4月26日、Appleのグローバルな問題により、有効なAppleの電子メールアドレスに送信された一部の電子メールメッセージが、Appleのサーバーから無効な電子メールアドレスとして誤ってハードバウンスされ、次のバウンスが返されました。 &quot;550 5.1.1 <email address>:ユーザー参照に成功しましたが、ユーザーレコードが見つかりませんでした。」
+2021年4月26日、Appleのグローバルな問題により、有効なAppleの電子メールアドレスに送信された一部の電子メールメッセージが、Appleのサーバーから無効な電子メールアドレスとして誤ってハードバウンスされ、次のバウンスが返されました。 &quot;550 5.1.1 &#39;電子メールアドレス&#39;:ユーザー参照に成功しましたが、ユーザーレコードが見つかりませんでした。」
 
 この問題は2016年4月27日に発生し、継続は米国東部標準時の午前7時～午後1時です。
 

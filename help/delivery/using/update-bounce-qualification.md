@@ -9,10 +9,10 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: ad7f0725a5ce1dea9b5b3ab236c839a816b29382
+source-git-commit: 98f55ee27a1172ce4a0590f46affe8947fd58d0f
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 62%
+source-wordcount: '428'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +22,14 @@ ht-degree: 62%
 
 ISP が機能停止した場合、Campaign 経由で送信された E メールは、受信者に正常に届きません。これらの E メールは、誤ってバウンスと見なされます。
 
-2021年4月26日、Appleのグローバルな問題により、有効なAppleの電子メールアドレスに送信された一部の電子メールメッセージが、Appleのサーバーから無効な電子メールアドレスとして誤ってハードバウンスされ、次のバウンスが返されました。*&quot;550 5.1.1 <email address>:ユーザー参照に成功しましたが、ユーザーレコードが見つかりませんでした。」*この問題は2016年4月27日に発生し、継続は米国東部標準時の午前7時～午後1時です。
+2021年4月26日、Appleのグローバルな問題により、有効なAppleの電子メールアドレスに送信された一部の電子メールメッセージが、Appleのサーバーから無効な電子メールアドレスとして誤ってハードバウンスされ、次のバウンスが返されました。
+
+
+```
+“550 5.1.1 <email address>: user lookup success but no user record found.”
+```
+
+この問題は2016年4月27日に発生し、継続は米国東部標準時の午前7時～午後1時です。
 
 >[!NOTE]
 >
@@ -44,7 +51,7 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 
 * 強制隔離リストの&#x200B;**[!UICONTROL エラーテキスト]**&#x200B;フィールドに SMTP バウンス応答情報が含まれている Campaign インスタンスの場合：
 
-   * **エラーテキスト(強制隔離テキスト)** に「ユーザー参照成功、ユーザーレコードが見つかりません」が **含まれ、AND** エラーテキスト(強制隔離テキスト)に「support.apple.com」が含まれています**
+   * **エラーテキスト(強制隔離テキスト)** に「ユーザー参照成功しましたが、ユーザーレコードが見つかりません」が **含まれ、** エラーテキスト(強制隔離テキスト)に「support.apple.com」が含まれています。
    * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午前 07 時 00 分以降
    * **更新ステータス(@lastModified)** が2021年4月26日01:00:00 PM以前に
 

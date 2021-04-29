@@ -9,27 +9,22 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 98f55ee27a1172ce4a0590f46affe8947fd58d0f
+source-git-commit: 7c161862a4ce2e86e7968fd61af6b8ca28d6623f
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 63%
+source-wordcount: '436'
+ht-degree: 60%
 
 ---
 
-# ISP 機能停止後のバウンス認定条件の更新 {#update-bounce-qualification.md}
+# Appleの停止後に、誤ったハードバウンスを更新する{#update-bounce-qualification.md}
 
 ## コンテキスト
 
-ISP が機能停止した場合、Campaign 経由で送信された E メールは、受信者に正常に届きません。これらの E メールは、誤ってバウンスと見なされます。
-
-2021年4月26日、Appleのグローバルな問題により、有効なAppleの電子メールアドレスに送信された一部の電子メールメッセージが、Appleのサーバーから無効な電子メールアドレスとして誤ってハードバウンスされ、次のバウンスが返されました。
-
-
-```
-“550 5.1.1 <email address>: user lookup success but no user record found.”
-```
+2021年4月26日、Appleのグローバルな問題により、有効なAppleの電子メールアドレスに送信された一部の電子メールメッセージが、Appleのサーバーから無効な電子メールアドレスとして誤ってハードバウンスされ、次のバウンスが返されました。 &quot;550 5.1.1 <email address>:ユーザー参照に成功しましたが、ユーザーレコードが見つかりませんでした。」
 
 この問題は2016年4月27日に発生し、継続は米国東部標準時の午前7時～午後1時です。
+
+ISP が機能停止した場合、Campaign 経由で送信された E メールは、受信者に正常に届きません。これらの E メールは、誤ってバウンスと見なされます。
 
 >[!NOTE]
 >

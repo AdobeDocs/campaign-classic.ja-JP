@@ -9,7 +9,7 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 translation-type: tm+mt
-source-git-commit: 9260b467119475e9e0352b6e521d6f2ca426165c
+source-git-commit: 718b490d48c6cfabdb24ab18dffb6db664f2a46c
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 60%
@@ -53,7 +53,7 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 * 強制隔離リストの&#x200B;**[!UICONTROL エラーテキスト]**&#x200B;フィールドにインバウンド E メールのルール情報が含まれている Campaign インスタンスの場合：
 
    * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
-   * **電子メールドメイン(@domain)** がicloud.comに等しい、または電子メールドメイン(@domain)がme.comに等しい」または「電子メールドメイン(@domain)がmac.comに等しい」
+   * **電子メールドメイン(@domain)** がicloud.com **と等しいか、または** 電子メールドメイン(@domain)がme.com **と等しいか、電子メールドメイン(@domain)がmac.com** と等しい
    * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午前 07 時 00 分以降
    * **更新ステータス(@lastModified)** が2021年4月26日01:00:00 PM以前に
 

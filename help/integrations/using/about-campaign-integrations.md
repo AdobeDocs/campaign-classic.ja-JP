@@ -7,9 +7,9 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 326ccbad77f3bd03a8eba22d7714084d52d2f02b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '777'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Adobe Experience Cloud ID サービス（ID サービス）は、Experience Clou
  <tbody> 
   <tr> 
    <td> <strong>アドビのリアルタイムカスタマーデータプラットフォーム（RTCDP）</strong><br /> </td> 
-   <td> Adobe Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（RTCDP）の統合により、セグメントデータを共有し、オーディエンスを Adobe Campaign にインポートできます。<br /> <p>Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（CDP）の統合について詳しくは、<a href="../../integrations/using/get-started-sources-destinations.md">こちら</a>を参照してください。</p><br /> </td> 
+   <td> Adobe Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（RTCDP）の統合により、セグメントデータを共有し、オーディエンスを Adobe Campaign にインポートできます。<br /> <p>Campaign とアドビのリアルタイム顧客データプラットフォーム（CDP）の統合について詳しくは、<a href="../../integrations/using/get-started-sources-destinations.md">こちら</a>を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Identity Management システム（IMS）- Adobe ID</strong><br /> </td> 

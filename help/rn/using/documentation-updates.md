@@ -7,11 +7,11 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-translation-type: ht
-source-git-commit: 69630f1450241e15d385dc03a3a2b02f6f7c850b
-workflow-type: ht
-source-wordcount: '4324'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
+workflow-type: tm+mt
+source-wordcount: '4317'
+ht-degree: 99%
 
 ---
 
@@ -336,7 +336,7 @@ Hadoop FDA コネクタの機能強化 - [詳細を表示](../../installation/us
 
 インストールガイドを更新し、互換性マトリックスの最新バージョンと同期しました。新しいサポート対象システムが追加されました。非推奨（廃止予定）およびサポート対象外のシステムに関する記載は削除されました。[詳細を表示](../../installation/using/general-architecture.md)
 
-互換性マトリックスを更新し、Hadoop 3.0 および Snowflake の FDA コネクタを追加しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
+互換性マトリックスを更新し、Hadoop 3.0 および Snowflake の FDA コネクタを追加しました。[詳細を表示](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 IP アフィニティのベストプラクティスがインストールガイドに追加されました。[詳細を表示](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -354,7 +354,7 @@ URL レポート設定の新しいパラメーターは、[こちら](../../repo
 
 「**Campaign Classic オンプレミスとホスト機能マトリックス**」ページが更新され、新しい FDA コネクタが追加されました。[詳細を表示](../../installation/using/capability-matrix.md)。
 
-**Campaign Classic 機能マトリックス**&#x200B;ページを更新しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
+**Campaign Classic 機能マトリックス**&#x200B;ページを更新しました。[詳細を表示](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 新しい **[!UICONTROL Nmsaddress のクリーンアップ]**&#x200B;ワークフローの情報は、[ここ](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress)に記載されています。
 
@@ -404,7 +404,7 @@ AMP を使用したインタラクティブコンテンツ - [詳細を表示](.
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-Adobe Campaign Enhanced MTA のドキュメントが入手できるようになりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html)
+Adobe Campaign Enhanced MTA のドキュメントが入手できるようになりました。[詳細を表示](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 キャンペーン内で「開始準備中」の状態に留まるワークフローをトラブルシュートする方法について、新しい節が追加されました。[詳細を表示](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -436,7 +436,7 @@ E メールの送信時に使用する文字エンコーディングの強制適
 
 ## 2019 年 10 月 {#october-2019}
 
-Campaign Standard および Campaign Classic のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
+ Campaign のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
 GDPR の入門ガイドが改善され、強化されました。GDPR や CCPA を含む、プライバシー管理に関するドキュメントになりました。[詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/campaign-privacy.html)
 
@@ -466,7 +466,7 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 **19.1 リリースに含まれる新機能**
 
-コントロールパネル - [詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
+コントロールパネル - [詳細を表示](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 監査記録 - [詳細を表示](../../production/using/audit-trail.md)
 
@@ -474,7 +474,7 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 ビルドアップグレードに関する新しい FAQ が作成されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/build-upgrade-faq.html)
 
-[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)が更新されました。サポートされるデータベースシステム、Android/iOS のバージョン、および関連する SDK のリストが更新されました。[19.0 互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix-19-0.html)がアーカイブされました。
+[互換性マトリックス](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)が更新されました。サポートされるデータベースシステム、Android/iOS のバージョン、および関連する SDK のリストが更新されました。[19.0 互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix-19-0.html)がアーカイブされました。
 
 「Campaign Classic の非推奨（廃止予定）および削除された機能」ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
@@ -496,7 +496,7 @@ Experience Cloud Triggers のテクニカルノートが更新されました。
 
 Apache の設定手順が更新されました。[詳細を表示](../../installation/using/integration-into-a-web-server-for-linux.md)
 
-Campaign Standard および Classic のエンドポイントのリストを含む新しいページが追加されました。[詳細を表示](../../installation/using/campaign-network-endpoints.md)
+Classicのエンドポイントのリストを含む新しいページが追加されました。 [詳細を表示](../../installation/using/campaign-network-endpoints.md)
 
 データパッケージのベストプラクティス記事が更新されました。[詳細を表示](../../configuration/using/data-model-best-practices.md)
 
@@ -529,7 +529,7 @@ Analytics Data Connector の節が更新され、インターフェイスの変�
 共有オーディエンスの統合に関するドキュメントが更新されました。
 [詳細を表示](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-[SMS コネクタのプロトコルと設定](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)および[シーケンスの自動生成](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)のテクニカルノートが更新されました。
+[SMS コネクタのプロトコルと設定](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)および[シーケンスの自動生成](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)のテクニカルノートが更新されました。
 
 テクニカルワークフローの節が更新されました。[詳細を表示](../../workflow/using/about-technical-workflows.md)
 

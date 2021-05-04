@@ -7,11 +7,11 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
+workflow-type: tm+mt
 source-wordcount: '958'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 
       ![](assets/deliv_coup_11.png)
 
-      クーポンは、割り当てた名前ではなくコードとしてメッセージに挿入されます。コードは、Campaign 標準データモデル内で使用されます。
+      クーポンは、割り当てた名前ではなくコードとしてメッセージに挿入されます。コードは、キャンペーンootbデータモデル内で使用されます。
    ![](assets/deliv_coup_12.png)
 
 1. テストを実行して、クーポンに割り当てた名前を確認します。「**[!UICONTROL プレビュー]**」タブに移動し、「**[!UICONTROL パーソナライゼーションをテスト]**」をクリックします。テストする受信者を選択します。

@@ -6,14 +6,14 @@ description: キャンペーンオプションの設定方法を学びます
 audience: installation
 content-type: reference
 topic-tags: appendices
+exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 translation-type: tm+mt
-source-git-commit: a9d58e25ab17baaabf4ff8c109b53e83c7d93218
+source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
 workflow-type: tm+mt
 source-wordcount: '3930'
 ht-degree: 24%
 
 ---
-
 
 # Campaign Classic のオプションのリスト{#configuring-campaign-options}
 
@@ -55,7 +55,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> 特定の演算子またはオペレーターのグループが配信のプロパティで配信を開始するように指定されている場合に、配信の担当者が送信を確認できるようにします。</p><p> これを行うには、値として「1」を入力して、オプションをアクティブにします。 このオプションを非アクティブにするには、"0"と入力します。</p><p> すると、送信確認プロセスがデフォルトとして機能します。つまり、配信プロパティで送信用に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが、送信を確認し、実行できるようになります。<a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">この節</a>を参照してください。</p> </td> 
+   <td><p> 特定の演算子またはオペレーターのグループが配信のプロパティで配信を開始するように指定されている場合に、配信の担当者が送信を確認できるようにします。</p><p> これを行うには、値として「1」を入力して、オプションをアクティブにします。 このオプションを非アクティブにするには、"0"と入力します。</p><p> すると、送信確認プロセスがデフォルトとして機能します。つまり、配信プロパティで送信用に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが、送信を確認し、実行できるようになります。詳しくは、<a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">この節</a>を参照してください。</p> </td> 
    <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
    <td> Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者受信者(nms:database)との対話を行います。<br /> option値は、外部受信者テーブルと一致するスキーマの名前に対応する必要があります。<br /> </td> 
@@ -285,11 +285,11 @@ ht-degree: 24%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NcmResourcesDir</span> <br /> </td> 
-   <td> Adobe Campaignクライアントコンソールでのパブリケーションに関するリソースの場所。 <a href="../../delivery/using/formatting.md#image-referencing">この節</a>を参照してください。<br /> </td> 
+   <td> Adobe Campaignクライアントコンソールでのパブリケーションに関するリソースの場所。 詳しくは、<a href="../../delivery/using/formatting.md#image-referencing">この節</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmResourcesDirPreview</span> <br /> </td> 
-   <td> Adobe Campaignクライアントコンソールでプレビューするリソースの場所。 <a href="../../delivery/using/formatting.md#image-referencing">この節</a>を参照してください。<br /> </td> 
+   <td> Adobe Campaignクライアントコンソールでプレビューするリソースの場所。 詳しくは、<a href="../../delivery/using/formatting.md#image-referencing">この節</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_DefaultIgnoredImage</span> <br /> </td> 
@@ -629,11 +629,11 @@ ht-degree: 24%
   </tr>  
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Adobe Campaign標準表のデータを格納する表領域の名前。<br />「データベースの <a href="../../installation/using/creating-and-configuring-the-database.md">作成と設定」を参照してください</a>。</td> 
+   <td> Adobe Campaignのootb表のデータを含む表領域の名前。<br />「データベースの <a href="../../installation/using/creating-and-configuring-the-database.md">作成と設定」を参照してください</a>。</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
-   <td> Adobe Campaign の標準テーブルのインデックスを格納するためのテーブル領域の名前.<br />「データベースの <a href="../../installation/using/creating-and-configuring-the-database.md">作成と設定」を参照してください</a>。</td> 
+   <td> Adobe Campaignのootb表のインデックスを含める表領域の名前。<br />「データベースの <a href="../../installation/using/creating-and-configuring-the-database.md">作成と設定」を参照してください</a>。</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceWork</span> <br /> </td> 
@@ -645,7 +645,7 @@ ht-degree: 24%
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> バックアップとレプリケーションを最適化するために、Microsoft SQL Serverで作業テーブル用に別々のデータベースを構成できます。 このオプションは、一時データベースの名前に対応します。指定した場合、このデータベースに作業テーブルが書き込まれます。 例：「tempdb.dbo」 （名前はドットで終わる必要があります）。 <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">詳細を表示</a> <br /> </td> 
+   <td> バックアップとレプリケーションを最適化するために、Microsoft SQL Serverで作業テーブル用に別々のデータベースを構成できます。 このオプションは、一時データベースの名前に対応します。指定した場合、このデータベースに作業テーブルが書き込まれます。 例：「tempdb.dbo」 （名前はドットで終わる必要があります）。 <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">詳細情報</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
@@ -684,7 +684,7 @@ ht-degree: 24%
    <td> 移行中、ツリー構造は、新しいバージョン標準に基づいて自動的に再編成されます。<br /> このオプションを使用すると、ナビゲーションツリーの自動移行を無効にできます。使用する場合は、移行後に古いフォルダを削除する必要があります。新しいフォルダを追加し、必要なチェックをすべて実行してください。<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">データタイプ：</span> Integer</p> </li> 
-     <li> <p> <span class="uicontrol">値（テキスト）</span> :1 </p> </li> 
+     <li> <p> <span class="uicontrol">値（テキスト）</span> :3 </p> </li> 
     </ul> このオプションは、標準搭載のナビゲーションツリーに加えられた変更が多すぎる場合にのみ使用してください。<br /> 詳しくは、 <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">この節を参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
@@ -1012,7 +1012,7 @@ ht-degree: 24%
  </tbody> 
 </table>
 
-## Web フォーム {#web-forms}
+## web フォーム {#web-forms}
 
 <table> 
  <thead> 
@@ -1044,4 +1044,3 @@ ht-degree: 24%
   </tr> 
  </tbody> 
 </table>
-

@@ -3,15 +3,15 @@ solution: Campaign Classic
 product: campaign
 title: Campaign Classic の互換性マトリックス
 description: Campaign Classic 互換性マトリックス
-feature: Overview
+feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 translation-type: tm+mt
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+source-git-commit: 2ce19e135ce1eb47d760c5407446312bc2d3c303
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 92%
 
 ---
 
@@ -275,19 +275,25 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 </tbody>
 </table>
 
-## クライアントコンソールのオペレーティングシステム{#ClientConsoleoperatingsystems}
+## クライアントコンソール {#ClientConsoleoperatingsystems}
+
+キャンペーンクライアントコンソールを使用するには、次のオペレーティングシステムとブラウザが必要です。
+
+### オペレーティングシステム
 
 <table>
 <tbody>
 <tr>
-<td>Windows Server</td>
+<td>Microsoft Windows Server</td>
 <td>
 <p>2016</p>
 <p>2012</p>
 </td>
+<td>
+</td>
 </tr>
 <tr>
-<td>Windows</td>
+<td>Microsoft Windows</td>
 <td>
 <p>8</p>
 <p>10（日本語インスタンスの場合に推奨）</p>
@@ -295,6 +301,30 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 </tr>
 </tbody>
 </table>
+
+### ブラウザー
+
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge</p>
+</td>
+<td>
+<p>最新バージョン</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Microsoft Internet Explorer</p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## モバイル SDK{#MobileSDK}
 
@@ -319,9 +349,53 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 ## ブラウザー{#Browsers}
 
-次のブラウザーでは、最新バージョンがサポートされています。Microsoft Edge、Mozilla Firefox、Google Chrome、Safari。
+次のブラウザーは、Web Accessのキャンペーンーと互換性があります。
 
-Internet Explorer 11 はサポートされています。
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge</p>
+</td>
+<td>
+<p>最新バージョン</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Mozilla Firefox</p>
+</td>
+<td>
+<p>最新バージョン</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Google Chrome</p>
+</td>
+<td>
+<p>最新バージョン</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Safari</p>
+</td>
+<td>
+<p>最新バージョン</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Microsoft Internet Explorer</p>
+</td>
+<td>
+<p>11</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## その他の関連ヘルプ{#Morelikethis}
 

@@ -8,7 +8,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
 translation-type: tm+mt
-source-git-commit: 548ed5710cced016606283198f81a8f13c65ac10
+source-git-commit: 69f6fcd21b27f095781bca4a62153086382f3d7f
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 92%
@@ -273,7 +273,7 @@ Adobe Campaign Classic は、このページに記載されているすべての
 
 ## クライアントコンソール {#ClientConsoleoperatingsystems}
 
-:warning:キャンペーンクライアントコンソールを使用するには、次のオペレーティングシステムとブラウザが必要です。
+:warning:キャンペーンクライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。
 
 ### オペレーティングシステム
 

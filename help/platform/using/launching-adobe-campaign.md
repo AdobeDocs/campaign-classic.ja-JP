@@ -7,17 +7,22 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '583'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2c275751ab86e98652820bf461c617442480c725
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 97%
 
 ---
 
 # Adobe Campaign の起動{#launching-adobe-campaign}
 
 Campaign クライアントコンソールは、Campaign アプリケーションサーバーに接続できるリッチクライアントです。[このページ](../../installation/using/installing-the-client-console.md)では、クライアントコンソールをダウンロードして設定する方法を説明します。
+
+
+>[!CAUTION]
+>
+>[互換表](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)のAdobe Campaignクライアントコンソールとのシステムとツールの互換性を確認します。
 
 ## Adobe Campaign の利用開始 {#starting-adobe-campaign}
 

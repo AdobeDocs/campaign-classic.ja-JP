@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
 translation-type: tm+mt
-source-git-commit: 62b2fdd807a654ab81d19a1b5c0d8ac88648e45c
+source-git-commit: 548ed5710cced016606283198f81a8f13c65ac10
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '538'
 ht-degree: 92%
 
 ---
@@ -300,14 +300,6 @@ Adobe Campaign Classic は、このページに記載されているすべての
 
 <table>
 <tbody>
-<tr>
-<td>
-<p>Microsoft Edge</p>
-</td>
-<td>
-<p>最新バージョン</p>
-</td>
-</tr>
 <tr>
 <td>
 <p>Microsoft Internet Explorer</p>

@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## トラッキング {#tracking-deliveries}
 
-受信者の動作をより深く知るには、受信、開封、リンクのクリック、購読解除など、配信に対するユーザーの反応を追跡します。Campaign Classic では、この情報は、配信がターゲットとする受信者の「トラッキング」タブと配信の「トラッキング」タブに表示されます。
+受信者の動作をより深く知るには、受信、開封、リンクのクリック、購読解除など、配信に対するユーザーの反応を追跡します。Campaign Classic では、この情報は、配信のターゲットとなる受信者の「トラッキング」タブと配信の「トラッキング」タブに表示されます。
 
 **ヒント**：メッセージトラッキングは、デフォルトで有効になっています。URL を設定するには、配信ウィザードの下部のセクションで「URL を表示」オプションを選択します。メッセージの URL ごとに、トラッキングを有効化するかどうかを選択できます。
 

@@ -7,11 +7,11 @@ feature: Profiles、Audiences
 role: Business Practitioner, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c733b68a06fba9bb24cd1c1995ffc99a1277be87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Adobe Campaign エクスプローラーの一般的なレイアウトについ�
 
 アクティブなプロファイルの数は、**マーケティングインスタンス**&#x200B;にのみ使用できます。実行インスタンス、すなわち MID（ミッドソーシング）インスタンスおよび RT（Message Center／リアルタイムメッセージング）インスタンスには使用できません。
 
-AWS でホストされている場合は、インスタンスで使用されているアクティブなプロファイルの数をコントロールパネルから直接監視することもできます。詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html)を参照してください。
+AWS でホストされている場合は、インスタンスで使用されているアクティブなプロファイルの数をコントロールパネルから直接監視することもできます。詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja)を参照してください。
 
 請求に関係するのは、**アクティブ**&#x200B;なプロファイルのみです。過去 12 か月以内にいずれかのチャネルでターゲットになるか通信がおこなわれたプロファイルは、アクティブとみなされます。
 
@@ -103,7 +103,7 @@ AWS でホストされている場合は、インスタンスで使用されて�
 >
 >ただし、Facebook および Twitter チャネルは考慮されません。
 
-**[!UICONTROL アクティブなプロファイルの数]**&#x200B;の概要は、Campaign の&#x200B;**[!UICONTROL 管理／キャンペーン管理／顧客指標]**&#x200B;メニューから表示できます。実際のカウントは、**[!UICONTROL アクティブな請求プロファイルの数]**（**[!UICONTROL billingActiveContactCount]**）[テクニカルワークフロー](../../workflow/using/about-technical-workflows.md)がおこないます。このワークフローは毎日実行され、新しいデータを&#x200B;**[!UICONTROL 顧客指標]**&#x200B;メニューの現在の期間に対する既存のレポートに追加します。各期間は 12 か月続きます。
+**[!UICONTROL アクティブなプロファイルの数]**&#x200B;の概要は、Campaign の&#x200B;**[!UICONTROL 管理／キャンペーン管理／顧客指標]**&#x200B;メニューで表示できます。実際のカウントは、**[!UICONTROL アクティブな請求プロファイルの数]**（**[!UICONTROL billingActiveContactCount]**）[テクニカルワークフロー](../../workflow/using/about-technical-workflows.md)がおこないます。このワークフローは毎日実行され、新しいデータを&#x200B;**[!UICONTROL 顧客指標]**&#x200B;メニューの現在の期間に対する既存のレポートに追加します。各期間は 12 か月続きます。
 
 ## チュートリアルビデオ {#create-profiles-video}
 

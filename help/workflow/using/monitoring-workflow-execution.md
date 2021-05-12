@@ -7,11 +7,11 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2082'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -261,7 +261,7 @@ Campaign Classic インターフェイスを使用すると、事前定義され
 * **[!UICONTROL 実行中]**：実行中のすべてのワークフローを表示します。
 * **[!UICONTROL 一時停止]**：一時停止されたすべてのワークフローを表示します。
 * **[!UICONTROL 失敗]**：失敗したすべてのワークフローを表示します。
-* **[!UICONTROL 開始を保留中]**：operationMgt プロセスによって開始されるのを待機しているすべてのワークフローをリストします。この表示は、**マーケティングキャンペーン**&#x200B;パッケージでのみ利用できます([キャンペーン組み込みパッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照)。
+* **[!UICONTROL 開始を保留中]**：operationMgt プロセスによって開始されるのを待機しているすべてのワークフローをリストします。このビューは、**マーケティングキャンペーン**&#x200B;パッケージでのみ使用できます（[Campaign 組み込みパッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照）。
 
 ![](assets/workflow-monitoring-views.png)
 

@@ -436,7 +436,7 @@ E メールの送信時に使用する文字エンコーディングの強制適
 
 ## 2019 年 10 月 {#october-2019}
 
- Campaign のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
+Campaign のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
 GDPR の入門ガイドが改善され、強化されました。GDPR や CCPA を含む、プライバシー管理に関するドキュメントになりました。[詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/campaign-privacy.html)
 
@@ -496,7 +496,7 @@ Experience Cloud Triggers のテクニカルノートが更新されました。
 
 Apache の設定手順が更新されました。[詳細を表示](../../installation/using/integration-into-a-web-server-for-linux.md)
 
-Classicのエンドポイントのリストを含む新しいページが追加されました。 [詳細を表示](../../installation/using/campaign-network-endpoints.md)
+Classic のエンドポイントのリストを含んだ新しいページが追加されました。[詳細を表示](../../installation/using/campaign-network-endpoints.md)
 
 データパッケージのベストプラクティス記事が更新されました。[詳細を表示](../../configuration/using/data-model-best-practices.md)
 

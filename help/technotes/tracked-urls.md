@@ -5,11 +5,11 @@ title: テクニカルノート
 description: テクニカルノート
 hide: true
 hidefromtoc: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 51773f48bac90febe44c6796b8cc08fce072bab3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '355'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 91%
 
 環境が次のいずれかのバージョンで実行されている場合は、影響を受ける可能性があります。
 
-* Gold Standard 8 ～ 11。[詳細情報](../rn/using/gold-standard.md#gs-8)
-* キャンペーン21.1.1 （ビルド9277）から21.1.2 （ビルド9282）リリースまで [詳細情報](../rn/using/latest-release.md)
-* キャンペーン20.3.1 （ビルド9228） ～ 20.3.3 （ビルド9234）リリース。 [詳細情報](../rn/using/release--20-3.md)
-* キャンペーン20.2.1 （ビルド9178）から20.2.4 （ビルド9187）リリースまで [詳細情報](../rn/using/release--20-2.md)
-* キャンペーン20.1.1 （ビルド9122）から21.1.3 （ビルド9124）リリースまで [詳細情報](../rn/using/release--20-1.md)
-* キャンペーン19.2.2 （ビルド9080）から19.2.3 （ビルド9081）リリースまで [詳細情報](../rn/using/release--19-2.md)
-* キャンペーン19.1.5 （ビルド9033）から19.1.7 （ビルド9036）リリースまで [詳細情報](../rn/using/release--19-1.md)
+* Gold Standard 8～11。[詳細情報](../rn/using/gold-standard.md#gs-8)
+* Campaign 21.1.1（ビルド 9277）～21.1.2（ビルド 9282）リリース。[詳細情報](../rn/using/latest-release.md)
+* Campaign 20.3.1（ビルド 9228）～20.3.3（ビルド 9234）リリース。[詳細情報](../rn/using/release--20-3.md)
+* Campaign 20.2.1（ビルド 9178）～20.2.4（ビルド 9187）リリース。[詳細情報](../rn/using/release--20-2.md)
+* Campaign 20.1.1（ビルド 9122）～21.1.3（ビルド 9124）リリース。[詳細情報](../rn/using/release--20-1.md)
+* Campaign 19.2.2（ビルド 9080）～19.2.3（ビルド 9081）リリース。[詳細情報](../rn/using/release--19-2.md)
+* Campaign 19.1.5（ビルド 9033）～19.1.7（ビルド 9036）リリース。[詳細情報](../rn/using/release--19-1.md)
 
 バージョンを確認する方法については、](../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)こちらの節[を参照してください。
 

@@ -7,21 +7,18 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '439'
-ht-degree: 100%
+source-git-commit: dc3151a77350aa2b2acd989a57f5b489c1a98962
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 91%
 
 ---
 
-# Response Manager について{#about-response-manager}
+# キャンペーンResponse Managerの使用を開始する{#about-response-manager}
 
-## 目標 {#objectives}
+Adobe Campaignオファーとは、様々なコミュニケーションチャネルにわたるマーケティングキャンペーンやオファーの提案の成功と収益性を測定できる、Response Managementアドオンです。電子メール、モバイル、ダイレクトメールなど
 
-Adobe Campaign には応答管理アプリケーション（Response Manager）が用意されています。これを使用すると、すべての通信チャネル（E メール、モバイル、電話、ダイレクトメール、FAX、代理店、その他）のマーケティングキャンペーンやオファー提案の成功および収益性を測定できます。
-
-## 仮説の概念 {#hypothesis-concept}
+## 仮説 {#hypothesis-concept}
 
 配信受信後のターゲットの行動を推測するために、コンタクト日から指定の期間に仮説を設定できます。仮説は、購入と購入の詳細情報を保存する「**トランザクション**」テーブルに基づいて作成されます。
 
@@ -41,7 +38,7 @@ Adobe Campaign には応答管理アプリケーション（Response Manager）�
 
 各仮説は単一のトランザクションテーブルにリンクされます。1 つの配信またはオファーを、複数の仮説にリンクすることができます。
 
-## 方法 {#method}
+## 実装の手順 {#method}
 
 Response Manager の使用を開始する前に、[設定](../../campaign/using/configuration.md)を参照して必要な設定を実行してください。
 

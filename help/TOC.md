@@ -8,16 +8,15 @@ user-guide-description: チャネルをまたいだマーケティングキャ�
 solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
-translation-type: ht
-source-git-commit: b741b10fd1d3a94a3e6c71e95ff43cc0ee54ebc7
-workflow-type: ht
-source-wordcount: '2519'
-ht-degree: 100%
+source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
+workflow-type: tm+mt
+source-wordcount: '2521'
+ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign Classic ガイド {#using}
+# Adobe Campaign Classicv7ガイド {#using}
 
 + [製品ドキュメント](campaign-classic-home.md)
 + [最新の更新](rn/using/documentation-updates.md)
@@ -37,7 +36,7 @@ ht-degree: 100%
       + [リリース 18.10](rn/using/release--18-10.md)
       + [リリース 18.6](rn/using/release--18-6.md)
       + [リリース 18.4](rn/using/release--18-4.md)
-   + [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md)
+   + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
    + [互換性マトリックス](rn/using/compatibility-matrix.md)
    + [テクニカルノート](technotes/technote.md)
    + [iOS 証明書の更新](technotes/ios-certificate-update.md)
@@ -47,7 +46,7 @@ ht-degree: 100%
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic の基本を学ぶ](platform/using/about-adobe-campaign-classic.md)
       + [Adobe Campaign の起動](platform/using/launching-adobe-campaign.md)
-      + Adobe Campaign のワークスペース{#campaign-workspace}
+      + Adobe Campaign ワークスペース{#campaign-workspace}
          + [Campaign UI の基本を学ぶ](platform/using/adobe-campaign-workspace.md)
          + [Campaign エクスプローラーの使用](platform/using/adobe-campaign-explorer.md)
          + [リストの参照とカスタマイズ](platform/using/adobe-campaign-ui-lists.md)
@@ -66,20 +65,20 @@ ht-degree: 100%
          + [チュートリアル](platform/using/tutorials.md)
    + プライバシー {#privacy}
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
-      + [プライバシーの管理](platform/using/privacy-management.md)
+      + [プライバシー管理](platform/using/privacy-management.md)
       + [プライバシーリクエスト](platform/using/privacy-requests.md)
    + プロファイル管理 {#profile-management}
       + [プロファイルについて](platform/using/about-profiles.md)
       + [プロファイルの編集](platform/using/editing-a-profile.md)
       + [プロファイルの追加](platform/using/adding-profiles.md)
       + [プロファイルの管理](platform/using/managing-profiles.md)
-      + [データの更新](platform/using/updating-data.md)
+      + [データ更新](platform/using/updating-data.md)
       + [プロファイルのインポートとエクスポート](platform/using/exporting-and-importing-profiles.md)
       + [リストの作成と管理](platform/using/creating-and-managing-lists.md)
    + データのインポートとエクスポート {#importing-and-exporting-data}
-      + [データのインポートとエクスポートの基本を学ぶ](platform/using/get-started-data-import-export.md)
+      + [データのインポートとエクスポートの基礎知識](platform/using/get-started-data-import-export.md)
       + [ワークフローを使用したデータのインポートとエクスポート](platform/using/import-export-workflows.md)
-      + 一般的なインポートおよびエクスポートの作成 {#generic-imports-exports}
+      + 一般的なインポートおよびエクスポートの作成 {#generic-imports-exports} 
          + [一般的なインポートおよびエクスポートの基本を学ぶ](platform/using/about-generic-imports-exports.md)
          + [インポートおよびエクスポートテンプレートの作成](platform/using/creating-import-export-templates.md)
          + [インポートジョブとエクスポートジョブの作成](platform/using/creating-import-export-jobs.md)
@@ -117,8 +116,8 @@ ht-degree: 100%
          + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
          + [Salesforce.com との接続](platform/using/crm-sfdc.md)
          + [CRM とのデータの同期](platform/using/crm-data-sync.md)
-      + [Adobe Analytics データコネクタ](platform/using/adobe-analytics-data-connector.md)
-   + [ヘルプとサポートのオプション](support.md)
+      + [Adobe Analytics Data コネクタ](platform/using/adobe-analytics-data-connector.md)
+   + [ヘルプとサポートオプション](support.md)
 + メッセージの作成と送信 {#sending-messages}
    + [メッセージの基本を学ぶ](delivery/using/communication-channels.md)
    + 配信を作成する際の主な手順 {#key-steps-when-creating-a-delivery}
@@ -167,7 +166,7 @@ ht-degree: 100%
    + ダイレクトメールの送信 {#sending-direct-mail}
       + [ダイレクトメールチャネルについて](delivery/using/about-direct-mail-channel.md)
       + [ダイレクトメール配信の作成](delivery/using/creating-a-direct-mail-delivery.md)
-      + [ダイレクトメールコンテンツの定義](delivery/using/defining-the-direct-mail-content.md)
+      + [ダイレクトメールのコンテンツの定義](delivery/using/defining-the-direct-mail-content.md)
       + [検証](delivery/using/validating.md)
    + 配信テンプレートの使用 {#using-delivery-templates}
       + [テンプレートについて](delivery/using/about-templates.md)
@@ -190,10 +189,10 @@ ht-degree: 100%
       + [使用事例：基準に基づくシードアドレスの選択](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
       + [使用例：フィールド置換の設定](delivery/using/use-case--configuring-the-field-substitution.md)
    + A/B テスト {#a-b-testing}
-      + [A/B テストの基本を学ぶ](delivery/using/get-started-a-b-testing.md)
+      + [A/B テストの概要](delivery/using/get-started-a-b-testing.md)
       + [A/B テストの設定](delivery/using/configuring-a-b-testing.md)
       + 使用例 {#use-case}
-         + [この使用例について](delivery/using/a-b-testing-use-case.md)
+         + [このユースケースについて](delivery/using/a-b-testing-use-case.md)
          + [ターゲティングワークフローの作成](delivery/using/a-b-testing-uc-targeting-workflow.md)
          + [母集団サンプルの設定](delivery/using/a-b-testing-uc-population-samples.md)
          + [配信テンプレートの作成](delivery/using/a-b-testing-uc-delivery-templates.md)
@@ -205,7 +204,7 @@ ht-degree: 100%
    + サービスと購読 {#subscriptions-and-referrals}
       + [サービスと購読について](delivery/using/about-services-and-subscriptions.md)
       + [購読の管理](delivery/using/managing-subscriptions.md)
-      + [バイラルマーケティングとソーシャルマーケティング](delivery/using/viral-and-social-marketing.md)
+      + [バイラルおよびソーシャルマーケティング](delivery/using/viral-and-social-marketing.md)
    + 配信の監視 {#monitoring-deliveries}
       + [配信監視の基本を学ぶ](delivery/using/about-delivery-monitoring.md)
       + [配信リストへのアクセス](delivery/using/list-of-deliveries.md)
@@ -213,14 +212,14 @@ ht-degree: 100%
       + [配信パフォーマンスのベストプラクティス](delivery/using/delivery-performances.md)
       + [配信のトラブルシューティング](delivery/using/delivery-troubleshooting.md)
       + [配信ステータス](delivery/using/delivery-statuses.md)
-      + [配信エラーについて](delivery/using/understanding-delivery-failures.md)
-      + [ISP の使用停止後にバウンスの資格を更新](delivery/using/update-bounce-qualification.md)
-      + [強制隔離管理について](delivery/using/understanding-quarantine-management.md)
+      + [配信失敗について](delivery/using/understanding-delivery-failures.md)
+      + [ISP 機能停止後のバウンス認定条件の更新](delivery/using/update-bounce-qualification.md)
+      + [強制隔離管理の理解](delivery/using/understanding-quarantine-management.md)
    + メッセージのトラッキング {#tracking-messages}
       + [メッセージトラッキングについて](delivery/using/about-message-tracking.md)
       + [トラッキングするリンクの設定方法](delivery/using/how-to-configure-tracked-links.md)
       + パーソナライズされたリンクのトラッキング {#tracking-personalized-links}
-         + [パーソナライズされたリンクのトラッキングの基本を学ぶ](delivery/using/tracking-personalized-links.md)
+         + [パーソナライズされたリンクの追跡を開始する](delivery/using/tracking-personalized-links.md)
          + [トラッキング URL の検出](delivery/using/detecting-tracking-urls.md)
          + [トラッキング用の前処理命令](delivery/using/pre-processing-instructions.md)
       + [URL トラッキングオプションの設定](delivery/using/personalizing-url-tracking.md)
@@ -231,7 +230,7 @@ ht-degree: 100%
       + [配信品質とは](delivery/using/about-deliverability.md)
       + [メッセージコンテンツの制御](delivery/using/control-message-content.md)
       + [配信品質の監視](delivery/using/monitoring-deliverability.md)
-      + [受信ボックスレンダリング](delivery/using/inbox-rendering.md)
+      + [Campaign の](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [トラブルシューティング](delivery/using/deliverability-faq.md)
    + コンテンツ管理モジュール {#content-management}
@@ -271,7 +270,7 @@ ht-degree: 100%
       + [コントロールルール](campaign/using/control-rules.md)
       + [フィルタールール](campaign/using/filtering-rules.md)
       + [ルールの適用](campaign/using/applying-rules.md)
-      + [キャンペーンのシミュレーション](campaign/using/campaign-simulations.md)
+      + [シミュレーション](campaign/using/campaign-simulations.md)
    + 分散型マーケティング {#distributed-marketing}
       + [分散型マーケティングについて](campaign/using/about-distributed-marketing.md)
       + [ローカルキャンペーンの作成](campaign/using/creating-a-local-campaign.md)
@@ -299,7 +298,7 @@ ht-degree: 100%
       + [配信レポート](reporting/using/delivery-reports.md)
       + [累積レポート](reporting/using/cumulative-reports.md)
       + [指標の計算](reporting/using/indicator-calculation.md)
-      + [人／ユーザーと受信者](reporting/using/person-people-recipients.md)
+      + [「人」と「受信者」](reporting/using/person-people-recipients.md)
    + 母集団の分析{#analyzing-populations}
       + [記述的分析について](reporting/using/about-descriptive-analysis.md)
       + [記述的分析ウィザードの使用](reporting/using/using-the-descriptive-analysis-wizard.md)
@@ -307,7 +306,7 @@ ht-degree: 100%
       + [使用例](reporting/using/use-cases.md)
    + レポートの新規作成{#creating-new-reports}
       + [レポートを設計する際の主な手順](reporting/using/about-reports-creation-in-campaign.md)
-      + [レポートの新規作成](reporting/using/creating-a-new-report.md)
+      + [レポートの新規作成 ](reporting/using/creating-a-new-report.md)
       + [分析するデータの収集](reporting/using/collecting-data-to-analyze.md)
       + [コンテキストの使用](reporting/using/using-the-context.md)
       + [テーブルの作成](reporting/using/creating-a-table.md)
@@ -320,13 +319,13 @@ ht-degree: 100%
       + [レポートに対するアクション](reporting/using/actions-on-reports.md)
    + キューブを使用したレポートの設計 {#designing-reports-with-cubes}
       + [キューブの基本を学ぶ](reporting/using/about-cubes.md)
-      + [指標の作成](reporting/using/creating-indicators.md)
+      + [ 指標の作成](reporting/using/creating-indicators.md)
       + [キューブを使用したデータ調査](reporting/using/using-cubes-to-explore-data.md)
-      + [概念と手法](reporting/using/concepts-and-methodology.md)
+      + [概念と方法](reporting/using/concepts-and-methodology.md)
       + [使用例：オンラインサーベイへの回答に関するレポートの表示](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Web コンテンツの設計 {#designing-content}
    + web アプリケーション {#web-applications}
-      + [web アプリケーションの基本を学ぶ](web/using/about-web-applications.md)
+      + [Web アプリケーションの基礎知識](web/using/about-web-applications.md)
       + [新規 Web アプリケーションの作成](web/using/creating-a-new-web-application.md)
       + [Web アプリケーションの設計](web/using/designing-a-web-application.md)
       + [使用例：概要の作成](web/using/use-cases--creating-overviews.md)
@@ -342,7 +341,7 @@ ht-degree: 100%
       + [ランディングページの作成](web/using/creating-a-landing-page.md)
       + [使用例：電子メール配信の作成](web/using/use-case--creating-an-email-delivery.md)
    + web フォーム {#web-forms}
-      + [web フォームの基本を学ぶ](web/using/about-web-forms.md)
+      + [Web フォームの基礎知識](web/using/about-web-forms.md)
       + [Web フォームテンプレートの使用](web/using/using-a-web-form-template.md)
       + [Web フォームへのフィールドの追加](web/using/adding-fields-to-a-web-form.md)
       + [Web フォームの静的要素](web/using/static-elements-in-a-web-form.md)
@@ -353,15 +352,15 @@ ht-degree: 100%
       + [Web フォームの公開](web/using/publishing-a-web-form.md)
       + [Web フォームプロパティの定義](web/using/defining-web-forms-properties.md)
       + [Web フォームの翻訳](web/using/translating-a-web-form.md)
-      + [ユースケース：web フォーム](web/using/use-cases--web-forms.md)
+      + [ユースケース：Web フォーム](web/using/use-cases--web-forms.md)
    + オンライン調査 {#online-surveys}
-      + [調査の基本を学ぶ](web/using/about-surveys.md)
-      + [調査を作成するのための主な手順](web/using/getting-started-with-surveys.md)
+      + [調査の基礎知識](web/using/about-surveys.md)
+      + [調査を作成するための主な手順](web/using/getting-started-with-surveys.md)
       + [サーベイの設計](web/using/building-a-survey.md)
       + [回答の管理](web/using/managing-answers.md)
-      + [収集したデータの公開、トラッキング、使用](web/using/publish--track-and-use-collected-data.md)
+      + [収集したデータのパブリッシュ、トラッキングおよび使用](web/using/publish--track-and-use-collected-data.md)
       + [サーベイの設定](web/using/configuring-surveys.md)
-      + [使用例：リファラルフォームの作成](web/using/use-case--creating-a-refer-a-friend-form.md)
+      + [ユースケース：リファラルフォームの作成](web/using/use-case--creating-a-refer-a-friend-form.md)
 + Adobe Experience Cloud との統合 {#integrating-with-adobe-experience-cloud}
    + [Campaign 統合について](integrations/using/about-campaign-integrations.md)
    + オーディエンスの共有 {#audience-sharing}
@@ -375,7 +374,7 @@ ht-degree: 100%
       + [アクセスの設定： [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
       + [共有アセットの挿入](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [情報 [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
+      + [について [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [統合の設定](integrations/using/configuring-the-integration.md)
       + [ [!DNL Experience Manager]  ニュースレターの作成](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
@@ -396,9 +395,9 @@ ht-degree: 100%
       + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
       + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
    + Adobe Experience Platform のソースと宛先{#aep-sources-destinations}
-      + [ソースと宛先の概要](integrations/using/get-started-sources-destinations.md)
+      + [ソースと宛先の基本を学ぶ](integrations/using/get-started-sources-destinations.md)
       + [Adobe Experience Platform オーディエンスの Campaign への取り込み](integrations/using/ingest-aep-data.md)
-      + [Campaign から Adobe Experience Platform にデータをエクスポート](integrations/using/export-campaign-data.md)
+      + [Campaign から Adobe Experience Platform へのデータのエクスポート](integrations/using/export-campaign-data.md)
 + ワークフローを使用した自動化 {#automating-with-workflows}
    + ワークフローの基本を学ぶ {#introduction}
       + [ワークフローについて](workflow/using/about-workflows.md)
@@ -417,7 +416,7 @@ ht-degree: 100%
       + [ターゲティングアクティビティについて](workflow/using/about-targeting-activities.md)
       + [クエリ](workflow/using/query.md)
       + [増分処理クエリ](workflow/using/incremental-query.md)
-      + [リストの読み込み](workflow/using/read-list.md)
+      + [リスト読み込み](workflow/using/read-list.md)
       + [和集合](workflow/using/union.md)
       + [積集合](workflow/using/intersection.md)
       + [除外](workflow/using/exclusion.md)
@@ -438,7 +437,7 @@ ht-degree: 100%
       + [フロー制御アクティビティについて](workflow/using/about-flow-control-activities.md)
       + [開始および終了](workflow/using/start-and-end.md)
       + [分岐](workflow/using/fork.md)
-      + [AND 結合](workflow/using/and-join.md)
+      + [AND-join](workflow/using/and-join.md)
       + [スケジューラー](workflow/using/scheduler.md)
       + [テスト](workflow/using/test.md)
       + [待機](workflow/using/wait.md)
@@ -470,7 +469,7 @@ ht-degree: 100%
       + [イベントアクティビティについて](workflow/using/about-event-activities.md)
       + [ファイルコレクター](workflow/using/file-collector.md)
       + [ファイル転送](workflow/using/file-transfer.md)
-      + [web ダウンロード](workflow/using/web-download.md)
+      + [Web ダウンロード](workflow/using/web-download.md)
       + [インバウンド E メール](workflow/using/inbound-emails.md)
       + [インバウンド SMS](workflow/using/inbound-sms.md)
    + 使用例 {#use-cases}
@@ -493,7 +492,7 @@ ht-degree: 100%
          + [「重複排除」アクティビティの結合機能の使用](workflow/using/deduplication-merge.md)
          + [繰り返しインポートワークフローの設定](workflow/using/recurring-import-workflow.md)
       + クエリの設計 {#designing-queries}
-         + [増分クエリを使用した四半期ごとのリスト更新](workflow/using/quarterly-list-update.md)
+         + [増分クエリを使用した四半期ごとのリストの更新](workflow/using/quarterly-list-update.md)
       + クエリとフィルター {#designing-queries}
          + [受信者テーブルのクエリ](workflow/using/querying-recipient-table.md)
          + [配信情報のクエリ](workflow/using/querying-delivery-information.md)
@@ -550,7 +549,7 @@ ht-degree: 100%
    + 単一インタラクション {#unitary-interactions}
       + [インバウンドチャネルについて](interaction/using/about-inbound-channels.md)
       + [JavaScript による統合（クライアント側）](interaction/using/integration-via-javascript--client-side-.md)
-      + [SOAP による統合（サーバー側）](interaction/using/integration-via-soap--server-side-.md)
+      + [SOAP を使用した統合（サーバーサイド）](interaction/using/integration-via-soap--server-side-.md)
       + [匿名インタラクション](interaction/using/anonymous-interactions.md)
    + オファーのトラッキング {#tracking-offers}
       + [オファーの提案履歴](interaction/using/offer-proposition-history.md)
@@ -588,7 +587,7 @@ ht-degree: 100%
       + [パーソナライゼーションデータ](message-center/using/personalization-data.md)
       + [メッセージのプレビュー](message-center/using/transactional-message-preview.md)
       + [配達確認の送信](message-center/using/sending-a-proof.md)
-      + [テンプレートの公開](message-center/using/template-publication.md)
+      + [テンプレートのパブリッシュ](message-center/using/template-publication.md)
       + [テンプレートの非公開](message-center/using/template-unpublication.md)
    + イベントの処理 {#event-processing}
       + [イベントの処理について](message-center/using/about-event-processing.md)
@@ -674,7 +673,7 @@ ht-degree: 100%
    + Campaign に接続{#connect-to-campaign}
       + [クライアントコンソールのインストール](installation/using/installing-the-client-console.md)
       + Adobe ID を使用した接続 {#connecting-via-an-adobe-id}
-         + [概要： [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
+         + [について [!DNL Adobe ID]](integrations/using/about-adobe-id.md)
          + [設定：Adobe [!DNL IMS]](integrations/using/configuring-ims.md)
          + [実装：Adobe [!DNL IMS]](integrations/using/implementing-ims.md)
          + [IMS のトラブルシューティング](integrations/using/ims-troubleshooting.md)
@@ -712,7 +711,7 @@ ht-degree: 100%
       + [監視のガイドライン](production/using/monitoring-guidelines.md)
    + 本番環境の場合の手順 {#production-procedures}
       + [設定の原則](production/using/configuration-principle.md)
-      + [動作の仕組み](production/using/operating-principle.md)
+      + [動作の原則](production/using/operating-principle.md)
       + [管理](production/using/administration.md)
       + [設定](production/using/configuration.md)
       + [ログファイル](production/using/log-files.md)

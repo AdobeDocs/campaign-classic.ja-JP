@@ -2,13 +2,12 @@
 keywords: Campaign Classic;ホーム;人気のトピック
 solution: Campaign Classic
 product: campaign
-title: Adobe Campaign Classic 製品ドキュメント
+title: Adobe Campaign Classicv7製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-translation-type: ht
-source-git-commit: 9260b467119475e9e0352b6e521d6f2ca426165c
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 97%
 
 ---
 

@@ -7,7 +7,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: 53d8e2ff56481497c7805b92a7885a662a1924cf
+source-git-commit: 527ac9f4e408228aaa1354693a191c1e77e76b68
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 92%
@@ -115,7 +115,7 @@ ht-degree: 92%
 
 キャンペーンワークフローヒートマップが役立つ主な例は 2 つあります。
 
-### 並列ワークフロー数の削減 {#reducing-the-number-of-concurrent-workflows}
+### 同時ワークフロー数の削減{#reducing-the-number-of-concurrent-workflows}
 
 ワークフローヒートマップは、キャンペーン管理者がインスタンスの負荷を把握し、適切な時間に既存または新規のワークフローを計画するのに役立ちます。
 

@@ -7,9 +7,8 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-translation-type: tm+mt
 source-git-commit: fdcb96c3c4afed1f36529e658eda26766226c44f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '642'
 ht-degree: 100%
 

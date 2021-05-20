@@ -7,11 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
-translation-type: tm+mt
 source-git-commit: 2c275751ab86e98652820bf461c617442480c725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +21,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 >[!CAUTION]
 >
->[互換表](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)のAdobe Campaignクライアントコンソールとのシステムとツールの互換性を確認します。
+>お使いのシステムおよびツールと Adobe Campaign クライアントコンソールの互換性を確認するには、[互換性マトリックス](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)を参照してください。
 
 ## Adobe Campaign の利用開始 {#starting-adobe-campaign}
 

@@ -7,11 +7,10 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-translation-type: tm+mt
 source-git-commit: 69f6fcd21b27f095781bca4a62153086382f3d7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +96,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <table>
 <tbody>
 <tr>
-<td>Java 開発キット（JDK）</td>
+<td>Java Development Kit（JDK）</td>
 <td>
 <p>11</p>
 <p>9</p>
@@ -277,7 +276,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 ## クライアントコンソール {#ClientConsoleoperatingsystems}
 
-:warning:キャンペーンクライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。
+:warning: Campaign クライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。
 
 ### オペレーティングシステム
 
@@ -331,7 +330,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <td>iOS</td>
 <td>
 <p>iOS 9 ～ 14</p>
-<p>モバイル SDK ビルド 1.0.26 のサポート。32 および 64 ビットバージョンとの互換性。</p>
+<p>モバイル SDK ビルド 1.0.26 付き（32 ビットおよび 64 ビットバージョンと互換）</p>
 </td>
 </tr>
 </tbody>
@@ -339,7 +338,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 ## ブラウザー{#Browsers}
 
-次のブラウザーは、Web Accessのキャンペーンーと互換性があります。
+次のブラウザーは Campaign for Web Access と互換性があります。
 
 <table>
 <tbody>
@@ -387,9 +386,9 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 </table>
 
 
-## その他の関連ヘルプ{#Morelikethis}
+## その他の関連リソース{#Morelikethis}
 
 * [Campaign Classic リリースノート](../../rn/using/latest-release.md)
 * [インストールガイド](../../installation/using/general-architecture.md)
-* [非推奨（廃止予定）になった機能およびシステム](../../rn/using/deprecated-features.md)
+* [非推奨（廃止予定）の機能およびシステム](../../rn/using/deprecated-features.md)
 * [ビルドアップグレード手順](../../production/using/build-upgrade.md)

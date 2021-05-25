@@ -1,24 +1,24 @@
 ---
-audience: end-user
-breadcrumb-title: ヘルプセンター
+solution: Campaign Classic
 product: campaign
-title: Campaign Classic ガイド
+sub-product: Adobe Campaign Classic
+title: Adobe Campaign Classic v7ヘルプセンター
+breadcrumb-title: Campaign Classicv7
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: チャネルをまたいだマーケティングキャンペーンを設計、計画、実行、管理、および最適化して、高いマーケティング投資回収率を実現します。
-solution: Campaign Classic
-sub-product: Adobe Campaign Classic
+audience: end-user
 type: Documentation
-source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
+source-git-commit: 43f49ecb651e37a7e166f8823c75d938338b952c
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2522'
 ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign Classicv7ガイド {#using}
+# Adobe Campaign Classic v7ドキュメント{#campaign-v7}
 
-+ [製品ドキュメント](campaign-classic-home.md)
++ [Campaign Classicv7ドキュメント](campaign-classic-home.md)
 + [最新の更新](rn/using/documentation-updates.md)
 + リリースノート{#release-notes}
    + [アップグレードの基本を学ぶ](rn/using/rn-overview.md)
@@ -55,7 +55,7 @@ ht-degree: 99%
          + [グローバル概念](platform/using/faq-key-concepts.md)
          + [ビルドアップグレード](platform/using/faq-build-upgrade.md)
          + [プライバシー](platform/using/privacy-faq.md)
-         + [オーディエンス](platform/using/faq-audiences.md)
+         + [Audiences](platform/using/faq-audiences.md)
          + [メッセージのデザイン](platform/using/faq-designing.md)
          + [メッセージの送信](platform/using/faq-messages.md)
          + [ワークフロー](platform/using/faq-workflows.md)
@@ -63,7 +63,7 @@ ht-degree: 99%
          + [レポート](platform/using/faq-reporting.md)
          + [開発](platform/using/faq-developers.md)
          + [チュートリアル](platform/using/tutorials.md)
-   + プライバシー {#privacy}
+   + プライバシー{#privacy}
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
       + [プライバシー管理](platform/using/privacy-management.md)
       + [プライバシーリクエスト](platform/using/privacy-requests.md)

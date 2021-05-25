@@ -8,17 +8,17 @@ user-guide-description: チャネルをまたいだマーケティングキャ�
 solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
-source-git-commit: 0bb3e853299c3ce0dc1bcbc2fd8a0bd4ef110bee
+source-git-commit: a9a32b383d4709d9f0adf1e886d2ec3a9d601652
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2522'
 ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign Classic v7ガイド {#using}
+# Adobe Campaign Classic v7ドキュメント {#using}
 
-+ [製品ドキュメント](campaign-classic-home.md)
++ [Campaign v7ドキュメント](campaign-classic-home.md)
 + [最新の更新](rn/using/documentation-updates.md)
 + リリースノート{#release-notes}
    + [アップグレードの基本を学ぶ](rn/using/rn-overview.md)

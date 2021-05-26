@@ -3,15 +3,14 @@ solution: Campaign Classic
 product: campaign
 title: アップグレードの基本を学ぶ
 description: Campaign Classic アップグレードの詳細
-feature: Overview
+feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-translation-type: tm+mt
-source-git-commit: 8294b522efb51cb1b961c9284675c7966132e957
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +62,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 ## サポートおよびその他の役に立つリンク{#support}
 
 * [ヘルプとサポート](../../support.md)
-* [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja/control-panel/using/release-notes.html)
+* [コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
 * [最新のドキュメントのアップデート](../../rn/using/documentation-updates.md)
 * [非推奨（廃止予定）および削除された機能](../../rn/using/deprecated-features.md)
 

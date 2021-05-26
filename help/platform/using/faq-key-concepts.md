@@ -7,11 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '887'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '885'
+ht-degree: 99%
 
 ---
 
@@ -84,7 +83,7 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 [詳しくはここをクリック](../../delivery/using/about-email-channel.md)してください。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこれを確認する](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
+![](assets/do-not-localize/how-to-video.png) [動画でこれを確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
 
 ## SMS メッセージの送信方法は？{#how-to-send-sms-messages-}
 

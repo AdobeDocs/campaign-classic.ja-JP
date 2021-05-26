@@ -7,9 +7,9 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 3413a54b1f45d23dcec9bf363bcf714a94642245
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
 workflow-type: tm+mt
-source-wordcount: '4389'
+source-wordcount: '4387'
 ht-degree: 98%
 
 ---
@@ -441,7 +441,7 @@ E メールの送信時に使用する文字エンコーディングの強制適
 
 パーソナライゼーションフィールドの内容は 1024 文字を超過できないことを明確にする情報が追加されました。[詳細を表示](../../delivery/using/personalization-fields.md)
 
-コントロールパネルのドキュメントは、新しいコラボレーションドキュメントセットに統合されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
+コントロールパネルのドキュメントは、新しいコラボレーションドキュメントセットに統合されました。[詳細を表示](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
 
 配信のベストプラクティス入門ガイドが更新されました。[詳細を表示](../../delivery/using/delivery-best-practices.md)
 
@@ -477,7 +477,7 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 **19.1 リリースに含まれる新機能**
 
-コントロールパネル - [詳細を表示](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+コントロールパネル - [詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
 
 監査記録 - [詳細を表示](../../production/using/audit-trail.md)
 

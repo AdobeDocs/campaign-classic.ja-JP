@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: campaign-optimization
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
-source-git-commit: 42040c519a9430ff0529913c1d567e9315b1a95d
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 98%
 
 ---
 
@@ -89,6 +89,5 @@ Campaign に関するその他のハウツービデオは[こちら](https://exp
 
 * [任意のチャネルの配信に対する自動ビジネスルールの適用](https://helpx.adobe.com/jp/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
 
-* [キャンペーンタイポロジについて](../../campaign/using/pressure-rules.md)
+* [タイポロジと疲労管理の概要](../../campaign/using/pressure-rules.md)
 
-* [頻度ルールによるマーケティング疲労の管理](https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)

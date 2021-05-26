@@ -7,9 +7,9 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-source-git-commit: 69f6fcd21b27f095781bca4a62153086382f3d7f
-workflow-type: ht
-source-wordcount: '538'
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -140,10 +140,10 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016</p>
+<p>2016年</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
-<p>警告：Linux で Campaign サーバーを実行している場合、Microsoft SQL Server はプライマリデータベースとしてサポートされません。<a href="https://docs.adobe.com/content/help/ja-JP/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/database.html#Microsoft_SQL_Server">詳細情報</a>。</p>
+<p>警告：Linux で Campaign サーバーを実行している場合、Microsoft SQL Server はプライマリデータベースとしてサポートされません。</p>
 </td>
 </tr>
 <tr>
@@ -220,10 +220,10 @@ Adobe Campaign Classic は、このページに記載されているすべての
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019</p>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
+<p>2019年</p>
+<p>2017年</p>
+<p>2016年</p>
+<p>2014年</p>
 <p>2012 SP1 および SP2</p>
 </td>
 </tr>
@@ -281,8 +281,8 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016</p>
-<p>2012</p>
+<p>2016年</p>
+<p>2012年</p>
 </td>
 </tr>
 <tr>

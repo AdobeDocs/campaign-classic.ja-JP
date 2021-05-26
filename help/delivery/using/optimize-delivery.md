@@ -6,11 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '743'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +31,7 @@ ht-degree: 100%
 
 * ワークフローの実行：ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために不可欠です。[このドキュメント](../../workflow/using/workflow-best-practices.md#execution-and-performance)に示すガイドラインに従います。
 
-* ホストされているお客様は、[Campaign コントロールパネル](https://docs.adobe.com/content/help/ja-JP/control-panel/using/discover-control-panel/key-features.html)の[パフォーマンス監視](https://docs.adobe.com/content/help/ja-JP/control-panel/using/performance-monitoring/about-performance-monitoring.html)機能を使用して、プラットフォームを監視できます。
+* [Campaignコントロールパネルの](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html)機能を利用して、[パフォーマンス監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html)機能を使用して、プラットフォームを監視できます。
 
 ## ネットワーク設定の確認 {#network-config}
 
@@ -69,7 +68,7 @@ ht-degree: 100%
 * Adobe Campaign では、返されるエラーのタイプに応じて不正なアドレスを管理します。詳しくは、[この節](../../delivery/using/understanding-quarantine-management.md)を参照してください。
 
 
-* 一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムとみなします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
+* 一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムと見なします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
 
 * 強制隔離管理は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。
 

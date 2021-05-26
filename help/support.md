@@ -5,11 +5,10 @@ title: 'Campaign Classic のヘルプおよびサポートオプション '
 description: Campaign Classic のサポートが必要な場合は、こちらから確認してください。
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '799'
+ht-degree: 86%
 
 ---
 
@@ -95,39 +94,40 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 ### コントロールパネルとは？
 
 Campaign コントロールパネルを使用すると、各インスタンスの設定を管理したり使用状況をトラッキングしたりできるので、Campaign Classic の製品管理者としての作業を効率化できます。
-詳しくは、[ここをクリック](https://docs.adobe.com/content/help/ja-JP/control-panel/using/discover-control-panel/key-features.html)してください。
+詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html)してください。
 
 >[!NOTE]
 >
->コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)を参照してください。
+>コントロールパネルは、すべての管理者ユーザーからアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)を参照してください。
 >
 >インスタンスは AWS でホストする必要があり、また最新の [Gold Standard](rn/using/gs-overview.md) ビルドまたは[最新の GA ビルド（21.1）](rn/using/latest-release.md)にアップグレードする必要があります。 バージョンを確認する方法については、[この節](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
 
 ### コントロールパネルにアクセスするには？
 
-コントロールパネルは、Adobe Experience Cloud から直接利用できます。 アクセスできるのは、管理者ユーザーのみです。 詳しくは、[ここをクリック](https://docs.adobe.com/content/help/ja-JP/control-panel/using/discover-control-panel/accessing-control-panel.html)してください。
+コントロールパネルは、Adobe Experience Cloud から直接利用できます。 アクセスできるのは、管理者ユーザーのみです。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html)してください。
 
 ### コントロールパネルのよくある質問（FAQ）
 
-Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://docs.adobe.com/content/help/ja-JP/control-panel/using/faq.html)します。
+Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)します。
 
 ### SFTP 管理
 
-コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量を監視したり、許可リストの IP アドレスや SSH 公開鍵を管理できます。 詳しくは、[ここをクリック](https://docs.adobe.com/content/help/ja-JP/control-panel/using/sftp-management/about-sftp-management.html)してください。
+コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量を監視したり、許可リストの IP アドレスや SSH 公開鍵を管理できます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)してください。
 
 ### サブドメインおよび証明書
 
-サブドメインとその証明書を監視できます。 詳細情報：
-* [サブドメインのブランディング](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
-* [新しいサブドメインの設定](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
-* [SSL 証明書の監視](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html)
+サブドメインとその証明書を監視できます。 詳しくは、次のページを参照してください。
+* [サブドメインのブランディング](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+* [新しいサブドメインの設定](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
+* [SSL 証明書の監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html)
 
 ### インスタンス設定
 
-コントロールパネルでの Campaign Classic インスタンス設定の管理方法を説明します。 詳細情報：
-* [許可リストの IP](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/ip-whitelisting-instance-access.html)
-* [URL へのアクセス権限](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/url-permissions.html)
-* [インスタンスの詳細](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/instance-details.html)
+コントロールパネルでの Campaign Classic インスタンス設定の管理方法を説明します。 詳しくは、次のページを参照してください。
+* [許可リストにIPを追](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html) 加してCampaignインスタンスにアクセスする
+* [URLへのアクセス権限の管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
+* [インスタンスの詳細へのアクセス](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
+* [データ暗号化用のGPGキーの管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
 
 ## ヘルプのリクエスト {#support}
 
@@ -141,10 +141,10 @@ Campaign Classic コミュニティへの参加：既存の質問の回答を検
 
 ### Campaign ダウンロードセンターへのアクセス
 
-2020 年 6 月現在、Experience Cloud ソリューションソフトウェア配布は、従来の Neolane ダウンロードセンターに代わるものであり、ソフトウェア、パッケージ、ツールの検索およびダウンロードのエクスペリエンスが効率化されています。Experience Cloud ソフトウェア配布にアクセスするには、[ここをクリック](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)します。新しいダウンロードセンターについて詳しくは、[このページ](https://docs.adobe.com/content/help/ja-JP/experience-cloud/software-distribution/home.html)を参照してください。
+2020 年 6 月現在、Experience Cloud ソリューションソフトウェア配布は、従来の Neolane ダウンロードセンターに代わるものであり、ソフトウェア、パッケージ、ツールの検索およびダウンロードのエクスペリエンスが効率化されています。Experience Cloud ソフトウェア配布にアクセスするには、[ここをクリック](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)します。新しいダウンロードセンターについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)を参照してください。
 
 ### チケットの作成またはチャットの開始
 
 ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。 問題の解決やトラブルシューティングのヘルプとして、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
 
-新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview) に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)を参照してください。
+新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview) に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)を参照してください。

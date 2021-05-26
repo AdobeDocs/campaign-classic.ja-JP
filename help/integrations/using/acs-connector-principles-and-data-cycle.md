@@ -7,11 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '2046'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '2044'
+ht-degree: 99%
 
 ---
 
@@ -85,7 +84,7 @@ ACS コネクタは、Campaign Standard から Campaign v7 に以下の項目を
 
 ACS コネクタは、Campaign v7 と Campaign Standard の間で強制隔離を同期します。
 
-例えば、Campaign v7 から Campaign Standard にレプリケートされたプロファイルには、E メールアドレスが含まれます。E メールアドレスが Campaign Standard によって強制隔離されると、次の同期時にデータが Campaign v7 に渡されます。強制隔離について詳しくは、[強制隔離の管理](../../delivery/using/understanding-quarantine-management.md)および [Campaign Standard の強制隔離](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html)を参照してください。
+例えば、Campaign v7 から Campaign Standard にレプリケートされたプロファイルには、E メールアドレスが含まれます。E メールアドレスが Campaign Standard によって強制隔離されると、次の同期時にデータが Campaign v7 に渡されます。強制隔離について詳しくは、[強制隔離の管理](../../delivery/using/understanding-quarantine-management.md)および [Campaign Standard の強制隔離](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html)を参照してください。
 
 ### レプリケートされたプロファイルの使用 {#using-replicated-profiles}
 

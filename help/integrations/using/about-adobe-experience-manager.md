@@ -6,11 +6,10 @@ description: Adobe Experience Manager について
 audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '230'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 90%
 
 ---
 
@@ -36,10 +35,4 @@ Adobe Campaign は、Adobe Experience Manager 6.1、6.2、6.3、6.4 および 6.
 >
 >Adobe Campaign Classic テンプレートは、Adobe Experience Manager 6.5 では使用できなくなりました。
 
-詳しくは、お使いの Adobe Experience Manager のバージョンで提供されるドキュメントを参照してください。
-
-* [Adobe Experience Manager 6.1 の場合はここをクリックしてください。](https://docs.adobe.com/docs/en/aem/6-1/administer/integration/marketing-cloud/campaign/campaignonpremise.html)
-* [Adobe Experience Manager 6.2 の場合はここをクリックしてください。](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/campaign/campaignonpremise.html)
-* [Adobe Experience Manager 6.3 の場合はここをクリックしてください。](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/campaignonpremise.html)
-* [Adobe Experience Manager 6.4 の場合はここをクリックしてください。](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignonpremise.html)
-* [Adobe Experience Manager 6.5 の場合はここをクリックしてください。](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/campaignonpremise.html)
+詳しくは、[Adobe Experience Managerのドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html)を参照してください。

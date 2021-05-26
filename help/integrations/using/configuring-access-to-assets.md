@@ -7,10 +7,9 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '607'
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '548'
 ht-degree: 100%
 
 ---
@@ -28,7 +27,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->2 つのパッケージ（**[!UICONTROL AEM 統合]**&#x200B;および **[!UICONTROL Adobe Marketing Experience との統合]**）がインストールされている場合、Adobe Experience Cloud ライブラリで使用可能なアセットだけを使用できます。AEM Assets ライブラリのアセットにもアクセスするには、AEM Assets と Adobe Experience Cloud を同期する必要があります。AEM Assets 内のアセットも、Adobe Experience Cloud ライブラリで使用可能になります。AEM Assets と Adobe Experience Cloud の同期について詳しくは、[詳細ドキュメント](https://docs.adobe.com/docs/ja/aod/overview/collaborating/aem-assets-aod-sync.html)を参照してください。
+>2 つのパッケージ（**[!UICONTROL AEM 統合]**&#x200B;および **[!UICONTROL Adobe Marketing Experience との統合]**）がインストールされている場合、Adobe Experience Cloud ライブラリで使用可能なアセットだけを使用できます。
 
 ## Experience Cloud Assets との統合 {#integrating-with-experience-cloud-assets}
 

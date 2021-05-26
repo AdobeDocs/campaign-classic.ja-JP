@@ -7,11 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '661'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 95%
 
 ---
 
@@ -47,7 +46,7 @@ ht-degree: 100%
 >
 >Adobe Analytics から Adobe Campaign にオーディエンスをインポートする場合は、最初に People コアサービスまたは Audience Manager でそれらのオーディエンスを共有する必要があります。このプロセスには 12～24 時間を要し、Campaign との同期にはさらに 24～36 時間が必要です。
 >
->場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、この[ドキュメント](https://docs.adobe.com/content/help/ja-JP/analytics/components/segmentation/segmentation-workflow/seg-publish.translate.html)を参照してください。
+>場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。PeopleコアサービスとAudience ManagerでのAdobe Analyticsオーディエンスの共有について詳しくは、[Adobe Analyticsのドキュメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)を参照してください。
 
 オーディエンスデータは、同期されるたびに完全に置き換えられます。インポートできるのはセグメントのみです。キーと値のペア、特徴、ルールなどの詳細データはサポートされません。
 

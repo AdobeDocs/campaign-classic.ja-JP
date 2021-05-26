@@ -7,11 +7,10 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '1826'
-ht-degree: 100%
+source-git-commit: 214838cabeaec082080b3378f7eba837b8af89ad
+workflow-type: tm+mt
+source-wordcount: '1828'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +33,7 @@ ht-degree: 100%
 | テクニカルワークフロー | パッケージ | 説明 |
 |------|--------|-----------|
 | **エイリアスクレンジング**（aliasCleansing） | 配信 | 列挙値を標準化します。デフォルトで、毎日午前 3 時にトリガーされます。 |
-| **請求**（請求） | 配信 | システムアクティビティレポートを「請求」オペレーターにメールで送信します。デフォルトで、毎月 25 日にトリガーされます。 |
+| **請求**（請求） | 配信 | システムアクティビティレポートを「請求」オペレーターにメールで送信します。マーケティングインスタンスで、毎月25日にトリガーされます。 |
 | **Twitter 統計の計算**（statsTwitter） | ソーシャルネットワーク（ソーシャルマーケティング） | リツイートと訪問にリンクされた統計を計算します。 |
 | **Campaign ジョブ**（operationMgt） | マーケティングキャンペーン（キャンペーン） | マーケティングキャンペーンに関するジョブ（ターゲティングの開始、ファイル抽出など）を管理します。また、繰り返しキャンペーンと定期的キャンペーンに関連するワークフローも作成します。 |
 | **ヒートマップサービスのデータを収集**（collectDataHeatMapService） | デフォルトでインストール | このワークフローは、ヒートマップサービスに必要なデータを取得します。 |

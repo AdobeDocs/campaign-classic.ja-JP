@@ -7,11 +7,10 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '365'
-ht-degree: 100%
+source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +25,7 @@ ht-degree: 100%
 IMS との統合を使用するには：
 
 * Adobe Experience Cloud 組織と IMS ID（Adobe Experience Cloud の初回接続時に付与されます）が必要です。
-* Experience Cloud にユーザーを追加する必要があります。詳しくは、[このページ](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/admin-getting-started.html)を参照してください。
+* Experience Cloud にユーザーを追加する必要があります。詳しくは、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)を参照してください。
 
 >[!NOTE]
 >
@@ -54,7 +53,7 @@ IMS との統合を使用するには：
 
 次の情報を入力します。
 
-* 使用する IMS サーバーの接続情報（ID および Secret）。この情報は、Adobe サポートから提供されます。詳しくは、[Adobe Experience Cloud 管理者向け FAQ](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/faq.html) を参照してください。
+* 使用する IMS サーバーの接続情報（ID および Secret）。この情報は、Adobe サポートから提供されます。詳しくは、[Adobe Experience Cloud 管理者向け FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html) を参照してください。
 
    **[!UICONTROL コールバックサーバー]**&#x200B;アドレスは **https** で指定する必要があります。このフィールドは、お客様の Adobe Campaign インスタンスのアクセス URL に対応します。
 

@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: response-manager
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 source-git-commit: dc3151a77350aa2b2acd989a57f5b489c1a98962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# キャンペーンResponse Managerの使用を開始する{#about-response-manager}
+# Campaign Response Manager の概要{#about-response-manager}
 
-Adobe Campaignオファーとは、様々なコミュニケーションチャネルにわたるマーケティングキャンペーンやオファーの提案の成功と収益性を測定できる、Response Managementアドオンです。電子メール、モバイル、ダイレクトメールなど
+Adobe Campaign は、マーケティングキャンペーンの成功や収益性を測定したり、メール、モバイル、ダイレクトメールなどの通信チャネル全体で提案したりできる、応答管理アドオンを提供します。
 
 ## 仮説 {#hypothesis-concept}
 

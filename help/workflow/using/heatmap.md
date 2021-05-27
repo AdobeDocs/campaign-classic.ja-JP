@@ -1,26 +1,26 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: キャンペーンワークフローヒートマップ
-description: ワークフローヒートマップで ワークフローを監視する
+title: Campaign ワークフローヒートマップ
+description: ワークフローヒートマップで ワークフローを監視
 audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 source-git-commit: e6969a3ed61bde692b2f72b3711f12ce46a0025f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1181'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # ワークフローヒートマップ {#workflow-heatmap}
 
- Campaign ワークフローヒートマップは、現在実行中のすべてのワークフローを色分けしてグラフィカルに表現します。**キャンペーン管理者**&#x200B;のみが使用できます。
+Campaign ワークフローヒートマップは、現在実行中のすべてのワークフローを色分けしてわかりやすく表示します。 **キャンペーン管理者**&#x200B;のみが使用できます。
 
-[このページ](../../production/using/monitoring-guidelines.md)でキャンペーンプロセスを監視する追加の方法を見つけてください。
+[このページ](../../production/using/monitoring-guidelines.md)では、Campaign プロセスを監視するその他の方法を紹介します。
 
-## ワークフローHeatMapの使い始めに{#about-the-workflow-heatmap}
+## ワークフローヒートマップの概要 {#about-the-workflow-heatmap}
 
 並列ワークフロー数の概要をすばやく確認できるワークフローヒートマップを使用すれば、Adobe Campaign プラットフォームの管理者は、インスタンスの負荷を監視し、それに従ってワークフローを計画できます。
 
@@ -30,7 +30,7 @@ ht-degree: 92%
 * 持続時間別にワークフローをフィルターし、問題が発生する可能性のあるワークフローを確認
 * 持続時間別にアクティビティをフィルターし、問題が発生する可能性のあるアクティビティを確認
 * 個々のワークフローおよびすべての関連アクティビティを持続時間と合わせて容易に検索
-* ワークフローの種類でフィルター：[テクニカルワークフロー](../../workflow/using/building-a-workflow.md#technical-workflows)または[キャンペーンワークフロー](../../workflow/using/building-a-workflow.md#campaign-workflows)
+* ワークフロータイプによるフィルタリング：[テクニカルワークフロー](../../workflow/using/building-a-workflow.md#technical-workflows) または [キャンペーンワークフロー](../../workflow/using/building-a-workflow.md#campaign-workflows)
 * 分析の対象となる特定のワークフローを探す
 
 >[!NOTE]
@@ -39,11 +39,11 @@ ht-degree: 92%
 
 ワークフローヒートマップを使用するには、[ワークフロー](../../workflow/using/about-workflows.md)、[アクティビティ](../../workflow/using/about-activities.md)および[ワークフローのベストプラクティス](../../workflow/using/workflow-best-practices.md)の概念を十分に理解しておく必要があります。
 
-## ワークフローHeatMapのカスタマイズ{#using-the-heatmap}
+## ワークフローヒートマップのカスタマイズ {#using-the-heatmap}
 
 >[!NOTE]
 >
->ワークフローHeatMapにデータが表示されない場合は、「**[!UICONTROL データをロード]**」ボタンをクリックします。
+>ワークフローヒートマップにデータが表示されない場合は、「**[!UICONTROL データを読み込み]**」ボタンをクリックします。
 
 1. **[!UICONTROL 監視]**&#x200B;に移動し、「**[!UICONTROL ワークフローヒートマップ]**」リンクをクリックして「**[!UICONTROL キャンペーンワークフローヒートマップ]**」ページを表示します。
 
@@ -66,7 +66,7 @@ ht-degree: 92%
 
    ![](assets/wkf_monitoring_filters_duration.png)
 
-1. また、**[!UICONTROL ワークフロー]**&#x200B;ドロップダウンリストから特定のワークフローを選択することもできます。
+1. 「**[!UICONTROL ワークフロー]**」ドロップダウンリストから特定のワークフローを選択することもできます。
 
    ![](assets/wkf_monitoring_filters_workflows.png)
 
@@ -83,7 +83,7 @@ ht-degree: 92%
 
 1. 一部のワークフローを編集した場合は、「**[!UICONTROL データを再読み込み]**」ボタンをクリックして、グリッドに表示されているデータを更新します。
 
-## ワークフローHeatMapの解釈{#reading-the-heatmap}
+## ワークフローヒートマップの解釈 {#reading-the-heatmap}
 
 キャンペーンワークフローヒートマップは、グリッドの左上から右下に自然に読み取ることが可能で、緑から赤の色分けにより「ホットゾーン」を見つけられます。
 
@@ -111,11 +111,11 @@ ht-degree: 92%
 1. ワークフロー ID または名前をクリックすると、ワークフローを直接開けます。
 1. 「**[!UICONTROL キャンペーンワークフローヒートマップ]**」ビューに戻るには、「**[!UICONTROL ホーム]**」ボタンをクリックします。
 
-## 使用例：HeatMapを使って{#use-cases--using-the-heatmap-to-take-actions}を行う
+## 使用例：ヒートマップを使用したアクションの実行 {#use-cases--using-the-heatmap-to-take-actions}
 
-キャンペーンワークフローヒートマップが役立つ主な例は 2 つあります。
+Campaign ワークフローヒートマップは主に、2 つのケースで役立ちます。
 
-### 同時ワークフロー数の削減{#reducing-the-number-of-concurrent-workflows}
+### 並列ワークフロー数の削減 {#reducing-the-number-of-concurrent-workflows}
 
 ワークフローヒートマップは、キャンペーン管理者がインスタンスの負荷を把握し、適切な時間に既存または新規のワークフローを計画するのに役立ちます。
 
@@ -130,7 +130,7 @@ ht-degree: 92%
    * パフォーマンスの問題が発生し、グリッドに 1 つまたは複数の赤いセルが表示される場合は、いくつかのワークフローの開始時間を変更することを検討してください。マーケティングユーザーに、忙しい「ホットな」時間から利用により適した時間枠に手動でワークフローを移動するよう依頼します。こうすることで、1 日をとおして安定した活動レベルを維持できます。
    * ピークを避け、インスタンスが過負荷にならないようにするには、新しいワークフローを計画する前にヒートマップを確認して最適な時間を選択します。新しいワークフローの開始には、グリッド内の灰色または緑のセルに対応するタイムスロットを検討します。
 
-### パフォーマンスに影響を与える長期にわたるワークフローを探す{#finding-long-running-workflows-that-impact-performance}
+### パフォーマンスに影響を与える長時間実行されるワークフローの検索 {#finding-long-running-workflows-that-impact-performance}
 
 キャンペーン管理者は、ワークフローヒートマップを使用することで、アクティビティの進行を遅らせる可能性のある最長のワークフローを見つけることができます。
 
@@ -146,7 +146,7 @@ ht-degree: 92%
    * マーケティングユーザーに、処理時間を短縮するため、最長のワークフローを分割するように通知します。
    * 特定のワークフローと特定のアクティビティ（JavaScript、インポート、エクスポートなど）に関する詳細な分析を開始し、問題部分を特定して容易に解決できるようにします。
 
-## HeatMapを使用してワークフロー計画を改善する{#example--using-the-heatmap-to-improve-workflow-planning}
+## ヒートマップを使用したワークフロー計画の改善 {#example--using-the-heatmap-to-improve-workflow-planning}
 
 次の例は、Adobe Campaign ワークフローヒートマップを使用すると、計画作業の効率化およびパフォーマンス向上が実現できることを示します。
 

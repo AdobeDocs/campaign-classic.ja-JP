@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: テクニカルノート
 description: テクニカルノート
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-translation-type: ht
-source-git-commit: d7eabfbebf016d2632d95d34a5b36719ccc1d88a
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 100%
 
@@ -105,7 +103,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../integrations/us
 
 * [Campaign クライアントコンソールのインストール方法について説明します](../installation/using/installing-the-client-console.md)。
 
-## Experience Cloud トリガーとの統合 {#acc-triggers-updates}
+## Experience Cloud トリガーとの統合  {#acc-triggers-updates}
 
 従来の OAuth 認証サービスはサポート終了になりました。 トリガー統合の認証は、もともとパイプラインにアクセスするために OAuth 認証設定に基づいていましたが、Adobe I/O に移行しました。**2021 年 11 月 30 日**&#x200B;を以て廃止されます。 [詳細情報](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)。
 
@@ -130,7 +128,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../integrations/us
 
 [Adobe I/O への移行方法について説明します](../integrations/using/configuring-adobe-io.md)。
 
-## APNs の更新 {#acc-apns-updates}
+## APNs の更新  {#acc-apns-updates}
 
 ### HTTP/2 ベースの APNs プロバイダー API
 

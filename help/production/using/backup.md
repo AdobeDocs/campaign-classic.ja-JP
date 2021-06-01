@@ -1,42 +1,40 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: バックアップ
 description: バックアップ
 audience: production
 content-type: reference
 topic-tags: data-processing
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 2%
 
 ---
 
-
 # バックアップ{#backup}
 
-マシン上の問題（物理的な問題でもシステム関連の問題でも）のイベントにデータが失われないように、バックアップは不可欠です。
+マシン上の問題（物理的な問題でもシステム関連の問題でも）が発生した場合にデータが失われないように、バックアップは不可欠です。
 
-データは、次の2つの場所に別々に保存されます。
+データは次の2つの場所に保存されます。
 
-* 物理ファイルはAdobe Campaignディレクトリに格納され、
-* その他のデータはデータベースに格納されます。
+* 物理ファイルはAdobe Campaignディレクトリに格納されます。
+* その他のデータは、データベースに格納されます。
 
-データの大部分はデータベースにあります。 これは、バックアップする情報の99%を表します。
+ほとんどのデータはデータベースに格納されます。 これは、バックアップする情報の99%を表します。
 
 ## 物理ファイル{#physical-files}
 
-ファイルは、次の複数のカテゴリーに分けられます。
+ファイルは、次の複数のカテゴリに分類されます。
 
-* 構成ファイル（**nl6/conf**&#x200B;内）
+* **nl6/conf**&#x200B;にある設定ファイル
 
    これにより、Adobe Campaignを非常に迅速に再設定できます。
 
 * リダイレクトファイル** nl6/var/`<instancename>`/redir**
 
-   これらはトラッキング（「前頭」と呼ばれることが多い）サーバー上にあり、以前のキャンペーンのリダイレクトがすべて含まれます。 これらは、以前のキャンペーンでも引き続き使用されます。
+   これらは、追跡（多くの場合、「前方」と呼ばれる）サーバー上にあり、以前のキャンペーンのリダイレクトをすべて含みます。 これらは、以前のキャンペーンでも引き続き使用されます。
 
 * ログファイル：**nl6/var/`<instancename>`/log**
 
@@ -50,7 +48,7 @@ ht-degree: 2%
 
 * nl6/var/`<instanceName>`/log （オプション）
 
-* nl6/var/`<instanceName>`/relay（オプション）
+* nl6/var/`<instanceName>`/relay （オプション）
 
 >[!IMPORTANT]
 >
@@ -58,6 +56,6 @@ ht-degree: 2%
 
 ## データベース {#database}
 
-データベースには、Adobe Campaignリッチクライアントコンソールに表示されるすべての情報と、すべての基幹業務データが含まれます。
+データベースには、Adobe Campaignのリッチクライアントコンソールに表示されるすべての情報と、すべての事業部門データが含まれています。
 
-この操作は、ホスティング会社とそのデータベース管理者が行います。
+この操作は、ホスティング会社と、特にデータベース管理者が担当します。

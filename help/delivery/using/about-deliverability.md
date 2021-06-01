@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign の配信品質について
 description: 配信品質のベストプラクティスを説明します
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 100%
 
@@ -33,7 +31,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ISP は顧客をスパム業者から保護するために、新しい高度なフィルタリング技術を継続的に開発する必要があるので、E メールの配信品質は常に変化する基準とルールを特徴としています。必ず、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。これは定期的に更新されます。
+>ISP は顧客をスパム業者から保護するために、新しい高度なフィルタリング技術を継続的に開発する必要があるので、E メールの配信品質は常に変化する基準とルールを特徴としています。必ず、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)を参照してください。これは定期的に更新されます。
 
 ### 配信品質率
 

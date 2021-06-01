@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: ワークフローを使用した自動化
 description: ワークフローを使用した自動化
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 100%
 
@@ -72,7 +70,7 @@ Adobe Campaign のクライアントインターフェイスで設定したワ�
 
    「ファイル」タイプのパブリッシュによって、変換テンプレートごとに出力ファイルを生成します。生成されたファイルごとに送信トランジションが有効化されます。パラメーターは、「contentId」変数に保存されているコンテンツの識別子と、「filename」変数に保存されているファイル名です。
 
-### トランジション {#transition}
+### 「TRANSITION」タブ {#transition}
 
 「**アウトバウンドトランジションを生成**」オプションを使用して、**[!UICONTROL コンテンツ管理]**&#x200B;アクティビティに出力トランジションを追加し、新しいアクティビティをワークフローの実行にリンクできます。このオプションをオンにしてから、トランジションのラベルを入力します。
 

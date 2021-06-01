@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 要素と属性
 description: 要素と属性
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 5%
 
 ---
-
 
 # 結合要素{#join--element}
 
@@ -23,9 +21,9 @@ join:==EMPTY
 
 ## 属性 {#attributes-7}
 
-* @dstFilterExpr（文字列）
-* @xpath-dst（文字列）
-* @xpath-src（文字列）
+* @dstFilterExpr (string)
+* @xpath-dst (string)
+* @xpath-src (string)
 
 ## 親{#parents-7}
 
@@ -39,21 +37,21 @@ join:==EMPTY
 
 SQLテーブル間の結合を作成するフィールドを定義できます。
 
-## 使用と使用のコンテキスト{#use-and-context-of-use-5}
+## {#use-and-context-of-use-5}の使用と使用のコンテキスト
 
-`<join>`要素は、親`<element>`要素が「リンク」タイプの場合にのみ使用できます。 これは、親要素で「@type=link」属性が宣言されている必要があることを意味します。
+`<join>`要素は、親の`<element>`要素が「link」タイプの場合にのみ使用できます。 これは、親要素に「@type=link」属性を宣言する必要があることを意味します。
 
 `<join>`要素でリモートテーブルの名前と名前空間を指定する必要はありません。 親`<element>`で指定する必要があります。
 
-規則に従って、リンクはスキーマの最後に定義されます。
+慣例により、リンクはスキーマの最後に定義されます。
 
-リンクタイプ要素が定義されているときに`<join>`要素が指定されていない場合、リンクは両方のテーブルのプライマリキーに自動的に配置されます。
+リンクタイプ要素の定義時に`<join>`要素が指定されていない場合、リンクは両方のテーブルのプライマリキーに自動的に配置されます。
 
 ## 属性の説明{#attribute-description-7}
 
-* **dstFilterExpr (string)**:この属性を使用すると、リモート・テーブルの有効な値の数を制限できます。
-* **xpath-dst (string)**:この属性は、Xpath（リモートテーブルの@name属性）を受け取ります。
-* **xpath-src（文字列）**:この属性は、Xpath(現在のスキーマの@name属性)を受け取ります。
+* **dstFilterExpr（文字列）**:この属性を使用すると、リモートテーブルの有効な値の数を制限できます。
+* **xpath-dst（文字列）**:この属性は、Xpath(リモート・テーブルの@name属性)を受け取ります。
+* **xpath-src（文字列）**:この属性はXpath(現在のスキーマの@name属性)を受け取ります。
 
 ## 例 {#examples-6}
 
@@ -63,7 +61,7 @@ SQLテーブル間の結合を作成するフィールドを定義できます�
 <join xpath-dst="@compagny-id" xpath-src="@email"/>
 ```
 
-「@country」フィールドの内容（「EN」値を含む必要がある）に基づいて、「cus:Country」テーブルに向けてフィルターされたリンク。
+「EN」値を含む「@country」フィールドの内容に基づいて、「cus:Country」テーブルに対するフィルターされたリンク：
 
 ```
 <element name="StockEN" type="link" label="MyLink" target="cus:Stock">

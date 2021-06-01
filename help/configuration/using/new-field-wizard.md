@@ -1,29 +1,27 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 新しいフィールドウィザード
 description: 新しいフィールドウィザード
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 4%
 
 ---
 
-
 # 新しいフィールドウィザード{#new-field-wizard}
 
-**[!UICONTROL ツール/詳細/追加新しいフィールド]**&#x200B;からアクセスできるウィザードを使用すると、1つ以上のフィールドをデータベースのテーブルに追加できます。
+**[!UICONTROL ツール/詳細設定/新しいフィールドを追加]**&#x200B;でアクセスできるウィザードを使用して、データベース内のテーブルに1つ以上のフィールドを追加できます。
 
 ウィザードを検証すると、拡張するテーブルの拡張スキーマが更新され、SQLスクリプトが起動してデータベースの物理構造が変更されます。
 
-このアシスタントの利点は、データスキーマの構造を知る必要なく、すばやくフィールドを追加できることです。
+このアシスタントには、データスキーマの構造を把握する必要なく、すばやくフィールドを追加できるという利点があります。
 
-主な短所は、データおよび拡張するプロパティの制限です。
+主な欠点は、データと拡張するプロパティの制限です。
 
 ウィザードの画面には、次の手順が含まれます。
 
@@ -35,9 +33,9 @@ ht-degree: 4%
 
    ![](assets/d_ncs_integration_schema_addfield2.png)
 
-1. 変更を確認するには、「**[!UICONTROL 完了]**」ボタンをクリックします。
+1. 変更を確定するには、「**[!UICONTROL 完了]**」ボタンをクリックします。
 
-この例では、「cus:受信者」と呼ばれる拡張子ファイルが自動的に作成され、対応するSQLスクリプトが実行されます。
+この例では、「cus:recipient」という拡張子ファイルが自動的に作成され、対応するSQLスクリプトが実行されます。
 
 ```
 <srcSchema extendedSchema="nms:recipient" label="Recipients" name="recipient"  namespace="cus">  
@@ -49,5 +47,4 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->デフォルトでは、追加されたフィールドは、プロパティ&#x200B;**user**（値が「true」の）を使用して宣言されます。 これにより、「treeEdit」型のコントロール（「Input Form」を参照）を使用して、拡張スキーマの入力フォーム内のフィールドを表示および編集できます。
-
+>デフォルトでは、追加されたフィールドは、**user**&#x200B;プロパティ（値は「true」）で宣言されます。 これにより、「treeEdit」タイプのコントロール（入力フォームを参照）を使用して、拡張スキーマの入力フォーム内のフィールドを表示および編集できます。

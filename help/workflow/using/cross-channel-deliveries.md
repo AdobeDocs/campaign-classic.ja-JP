@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: クロスチャネル配信
 description: クロスチャネル配信の詳細を説明します
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
@@ -23,7 +21,7 @@ ht-degree: 100%
 
 次に、使用可能な様々なチャネルを示します。
 
-* [E メール](../../delivery/using/about-email-channel.md)
+* [メール](../../delivery/using/about-email-channel.md)
 * [ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)
 * [モバイル](../../delivery/using/sms-channel.md)
 * [Twitter](../../social/using/publishing-on-twitter.md)

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: マーケティングキャンペーンへのアクセス
 description: マーケティングキャンペーンへのアクセス
@@ -7,9 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 100%
 

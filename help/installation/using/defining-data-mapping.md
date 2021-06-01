@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 外部データベースへのアクセス
 description: 外部データベースへのアクセス
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: a7253ca7-47e5-4def-849d-3ce1c9b948fb
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
 
 ---
-
 
 # データマッピングの削除 {#defining-data-mapping}
 

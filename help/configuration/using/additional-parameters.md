@@ -1,32 +1,30 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: その他のWebトラッキングパラメーター
-description: Webトラッキングのパラメーターの詳細
+title: 追加のWebトラッキングパラメーター
+description: Webトラッキングのパラメーターの詳細を説明します
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
 
 ---
 
+# 追加パラメーター{#additional-parameters}
 
-# 追加のパラメーター{#additional-parameters}
+## パラメータの定義{#definition-of-parameters}
 
-## パラメーターの定義{#definition-of-parameters}
+Adobe Campaignプラットフォームでは、2つのトランザクションタイプWebトラッキングパラメーターが標準として提供されています。
 
-Adobe Campaignプラットフォームでは、標準として2つのTRANSACTION型Webトラッキングパラメーターをオファーします。
+* **量**:トランザクションの金額を表します。
+* **記事**:トランザクション内の品目数を表します。
 
-* **amount**:は、トランザクションの金額を表します。
-* **記事**:トランザクション内の項目数を表します。
+これらのパラメーターは&#x200B;**nms:webTrackingLog**&#x200B;スキーマで定義され、レポートに表示される指標の一部です。
 
-これらのパラメーターは&#x200B;**nms:webTrackingLog**&#x200B;スキーマーで定義され、レポートに表示されるインジケーターの一部です。
-
-追加のパラメーターを定義するには、このスキーマーを拡張する必要があります。
+追加のパラメーターを定義するには、このスキーマを拡張する必要があります。
 
 **例**：
 
@@ -42,23 +40,23 @@ Adobe Campaignプラットフォームでは、標準として2つのTRANSACTION
 </srcSchema>
 ```
 
-(配信ーまたは受信者ーの)トラッキングログリストを設定することで、これらのパラメーターの値を表示できます。
+（配信または受信者の）トラッキングログリストを設定して、これらのパラメーターの値を表示できます。
 
-## リダイレクトサーバーの構成{#redirection-server-configuration}
+## リダイレクションサーバーの構成{#redirection-server-configuration}
 
-サーバー設定では、Webトラッキングパラメーターに対して考慮する最大文字数を定義できます。
+サーバーの設定で、Webトラッキングパラメーターに使用する最大文字数を定義できます。
 
 >[!IMPORTANT]
 >
->考慮に入れる最大文字数を増やすと、プラットフォームのWebトラッキングのパフォーマンスに影響を与える可能性があります。
+>考慮する最大文字数を増やすと、プラットフォームのWebトラッキングパフォーマンスに影響を与える可能性があります。
 
-これを行うには、**serverConf.xml**&#x200B;ファイルの&#x200B;**`<trackinglogd>`**&#x200B;要素の&#x200B;**webTrackingParamSize**&#x200B;属性を変更します。 このファイルは、Adobe Campaignインストールディレクトリの&#x200B;**conf**&#x200B;サブディレクトリに保存されます。
+これをおこなうには、**serverConf.xml**&#x200B;ファイルの&#x200B;**`<trackinglogd>`**&#x200B;要素の&#x200B;**webTrackingParamSize**&#x200B;属性を変更します。 このファイルは、Adobe Campaignインストールディレクトリの&#x200B;**conf**&#x200B;サブディレクトリに保存されます。
 
 **例**：
 
-デフォルト値は64文字です。 この値を使用すると、**amount**&#x200B;および&#x200B;**article**(&quot;amount=xxxxxxx&amp;article=xxxxxxxxx&quot;)標準パラメーターを考慮に入れます。
+デフォルト値は64文字です。 この値を使用すると、**amount**&#x200B;および&#x200B;**article**(&quot;amount=xxxxxxx&amp;article=xxxxxxxx&quot;)標準パラメーターを考慮に入れることができます。
 
-上記の拡張スキーマの例に示した両方のパラメーター（名前のサイズと値のサイズ）を考慮し、設定を変更して100文字を考慮に入れることができます(&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxx&amp;code=xxxxxx&quot;)。
+上記の拡張スキーマの例で示した両方のパラメーター（名前のサイズ+値のサイズ）を考慮することで、100文字を考慮に入れるように設定を変更できます(「amount=xxxxxxxxx&amp;article=xxxxxxx&amp;mode=xxxxxxxxxxxxxxxx&amp;code=xxx」)。
 
 ```
 <trackinglogd args="" autoStart="false" initScript="" maxCreateFileRetry="5" maxLogsSizeOnDiskMb="500"
@@ -69,23 +67,23 @@ webTrackingParamSize="64"/>
 
 設定を変更した場合は、次の操作を行う必要があります。
 
-* リダイレクトモジュールをホストするWebサーバー（Apache、IISなど）を停止し、
-* Adobe Campaignサーバーを停止します。Windowsでは&#x200B;**net stop nlserver6**、Linuxでは&#x200B;**/etc/init.d/nlserver6 stop**、
+* リダイレクトモジュールをホストするWebサーバー（Apache、IISなど）を停止します。
+* Adobe Campaignサーバーを停止します。**Windowsでは** net stop nlserver6 **、Linuxでは/etc/init.d/nlserver6 stop**
 
    >[!NOTE]
    >
-   >20.1からは、（Linuxの場合は）次のコマンドを使用することをお勧めします。**systemctl stop nlserver**
+   >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）。**systemctl stop nlserver**
 
 * Linuxでは、**ipcrm**&#x200B;コマンドを使用して共有メモリセグメントを削除します。
-* Adobe Campaignサーバーを再起動します。Windowsでは&#x200B;**net開始nlserver6**、Linuxでは&#x200B;**/etc/init.d/nlserver6開始**、
+* Adobe Campaignサーバーを再起動します。**Windowsでは**/etc/init.d/nlserver6 start **、Linuxではnet start nlserver6**
 
    >[!NOTE]
    >
-   >20.1からは、（Linuxの場合は）次のコマンドを使用することをお勧めします。**systemctl開始nlserver**
+   >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）。**systemctl start nlserver**
 
 * Webサーバーを再起動します。
 
-**例**:Linuxの設定を考慮に入れて。
+**例**:Linuxでの設定を考慮して
 
 ```
 adobe@selma:~$ systemctl stop nlserver
@@ -111,5 +109,4 @@ adobe@selma:~$ systemctl start apache2
 
 >[!NOTE]
 >
->Linuxでは、**webTrackingParamSize**&#x200B;または&#x200B;**maxSharedLogs**&#x200B;のパラメーターのサイズを増やすと、共有メモリ(SHM)のサイズを増やす必要がある場合があります。
-
+>Linuxの場合、**webTrackingParamSize**&#x200B;または&#x200B;**maxSharedLogs**&#x200B;パラメーターのサイズを大きくすると、共有メモリ(SHM)のサイズを大きくする必要が出る場合があります。

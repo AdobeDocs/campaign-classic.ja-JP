@@ -7,9 +7,8 @@ feature: アプリケーション設定
 role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
+workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 100%
 
@@ -76,9 +75,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->[トランザクションメッセージ](../../message-center/using/about-transactional-messaging.md)イベントを管理する場合、**[!UICONTROL リアルタイムイベント]**&#x200B;または&#x200B;**[!UICONTROL バッチイベント]**&#x200B;フォルダーを実行インスタンス上の表示として設定しないでください。これは、アクセス権の問題につながる可能性があります。 アクセス管理について詳しくは、[この節](../../message-center/using/event-collection.md)を参照してください。
-
-
+>[トランザクションメッセージ](../../message-center/using/about-transactional-messaging.md)イベントを管理する場合、**[!UICONTROL リアルタイムイベント]**&#x200B;または&#x200B;**[!UICONTROL バッチイベント]**&#x200B;フォルダーを実行インスタンス上の表示として設定しないでください。これは、アクセス権の問題につながる可能性があります。 アクセス管理について詳しくは、[この節](../../message-center/using/about-event-processing.md#event-collection)を参照してください。
 
 ## フォルダーに対する権限
 

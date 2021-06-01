@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: その他の設定
 description: Adobe Campaign Classicでトランザクションメッセージ用の追加設定を行う方法を説明します。
@@ -7,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: a9054fb8e10bef37675922b2f81c7615cd04c1bb
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 86%

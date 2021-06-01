@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: パーソナライズされたコンテンツの作成
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 100%
 
@@ -152,7 +150,7 @@ E メールの制限を守るには、以下を考慮してください。
 
 * 画像が表示されない場合は、その画像がサーバー上で使用できることを確認してください。そのためには、配信から「ソース」タブをクリックします。使用する画像を探し、各画像の URL をコピーして web ブラウザーに貼り付けます。画像が表示されない場合は、IT 管理者か、配信コンテンツを提供しているサードパーティベンダーに問い合わせてください。
 
-## メッセージのプレビュー {#preview-msg}
+## メッセージのプレビュー  {#preview-msg}
 
 メッセージをプレビューして、パーソナライゼーションと受信者に対する配信の表示方法を確認することをお勧めします。
 

@@ -7,9 +7,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
+workflow-type: tm+mt
 source-wordcount: '1991'
 ht-degree: 100%
 
@@ -98,7 +97,7 @@ Adobe Campaign トランザクションメッセージ機能を使用する顧�
 
 ### Enhanced MTA ヘッダー
 
-最新の Campaign Classic インスタンスには、必要な Enhanced MTA ヘッダーをすべてのメッセージに追加するコードが含まれています。Adobe Campaign 19.1（ビルド 9032）以降を使用していて、これに該当しない場合は、&quot;useMomentum=true&quot; パラメーターを実行インスタンス設定（[serverConf.xml](../../installation/using/the-server-configuration-file.md#mta) ファイル内）に追加するように[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に依頼する必要があります。このインスタンスは、設定に応じて、マーケティングインスタンス、[ミッドソーシングインスタンス](../../installation/using/mid-sourcing-server.md)、[トランザクションメッセージ実行インスタンス](../../message-center/using/creating-a-shared-connection.md#execution-instance)のいずれかになります。
+最新の Campaign Classic インスタンスには、必要な Enhanced MTA ヘッダーをすべてのメッセージに追加するコードが含まれています。Adobe Campaign 19.1（ビルド 9032）以降を使用していて、これに該当しない場合は、&quot;useMomentum=true&quot; パラメーターを実行インスタンス設定（[serverConf.xml](../../installation/using/the-server-configuration-file.md#mta) ファイル内）に追加するように[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に依頼する必要があります。このインスタンスは、設定に応じて、マーケティングインスタンス、[ミッドソーシングインスタンス](../../installation/using/mid-sourcing-server.md)、[トランザクションメッセージ実行インスタンス](../../message-center/using/configuring-instances.md#execution-instance)のいずれかになります。
 
 ただし、このコードを含まない古いインスタンスを使用している場合は、**[!UICONTROL Typology Rule for Enhanced MTAs]** という名前の新しいタイポロジルールを、Campaign インスタンス内のすべての既存タイポロジに追加する必要があります。
 このルールは、Enhanced MTA へのアップグレードの一環としてインストールされた**[!UICONTROL タイポロジ]**&#x200B;パッケージによって追加されます。

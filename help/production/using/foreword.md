@@ -1,22 +1,20 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 前書き
 description: 前書き
 audience: production
 content-type: reference
 topic-tags: introduction
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: c9e92fec-383e-46ba-bce1-183ac8f637de
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 3%
 
 ---
 
-
 # 前書き{#foreword}
 
-このドキュメントでは、Adobe Campaignの実稼働手順を詳しく説明します。設定、監視、プロセスのアップグレード、データ処理、データベースの保守手順および推奨事項。 このドキュメントの最後にトラブルシューティングの節があります。
+このドキュメントでは、Adobe Campaignの実稼動手順について詳しく説明します。設定、監視、アップグレードプロセス、データ処理、データベースのメンテナンス手順および推奨事項。 トラブルシューティングの節は、このドキュメントの最後に記載されています。
 
-製造手続きは慎重に行う必要があり、影響は事前に十分に考慮し、手続きは厳密に行う必要があります。 エキスパートユーザーのみが実行する必要があります。 アップグレード後の手順を開始する前に、Adobe Campaignにご連絡いただくことを強くお勧めします。
+実稼動手順は慎重に実行する必要があり、事前に十分に検討し、手順は厳密に実行する必要があります。 エキスパートユーザーのみが実行する必要があります。 実稼動環境での手順（アップグレード後の手順）を開始する前に、Adobe Campaignに問い合わせることを強くお勧めします。

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: ビルドアップグレードに関する FAQ
 description: Campaign のビルドアップグレードに関するよくある質問
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 100%
 
@@ -104,9 +102,9 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 以下の[ビルドアップグレードのチェックリスト](#check-list)とテスト計画を確認し、これらのテストを実行できるリソースがアップグレード完了の 24～48 時間以内に利用可能であることを確認します。
 
-詳しくは、[このドキュメント](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)を参照してください。
+詳しくは、[このドキュメント](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)を参照してください。
 
-## 夜間など営業時間外にビルドアップグレードを実行することはできますか？
+## 夜間や営業時間外にビルドアップグレードを実行することはできますか？
 
 アップグレードは、営業時間外に実行できます。ビジネスユーザーがインスタンスに接続しない営業時間外に、環境をアップグレードすることをお勧めします。
 

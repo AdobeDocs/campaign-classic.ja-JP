@@ -1,15 +1,14 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: メッセージ配信の最適化
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 95%
 
 * ワークフローの実行：ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために不可欠です。[このドキュメント](../../workflow/using/workflow-best-practices.md#execution-and-performance)に示すガイドラインに従います。
 
-* [Campaignコントロールパネルの](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html)機能を利用して、[パフォーマンス監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html)機能を使用して、プラットフォームを監視できます。
+* [Campaignコントロールパネルの](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)機能を利用して、[パフォーマンス監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html)機能を使用して、プラットフォームを監視できます。
 
 ## ネットワーク設定の確認 {#network-config}
 

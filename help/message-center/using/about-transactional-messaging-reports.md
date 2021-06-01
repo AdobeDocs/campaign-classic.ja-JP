@@ -1,22 +1,23 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: トランザクションメッセージレポートについて
-description: トランザクションメッセージレポートについて
+title: トランザクションメッセージレポートへのアクセス
+description: Adobe Campaign Classicトランザクションメッセージレポートにアクセスする方法を説明します。
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: 42d43d67-7660-4d81-9280-10f030aa8f0e
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '46'
-ht-degree: 100%
+source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+workflow-type: tm+mt
+source-wordcount: '52'
+ht-degree: 36%
 
 ---
 
-# トランザクションメッセージレポートについて{#about-transactional-messaging-reports}
+# トランザクションメッセージレポート{#about-transactional-messaging-reports}へのアクセス
 
-Adobe Campaign では、実行インスタンスのスムーズな運用とアクティビティのコントロールを可能にするレポートが複数用意されています。これらの Message Center レポートは、コントロールインスタンスの「**[!UICONTROL レポート]**」タブからアクセスすることができます。
+Adobe Campaign では、実行インスタンスのスムーズな運用とアクティビティのコントロールを可能にするレポートが複数用意されています。
+
+これらのMessage Centerレポートは、**コントロールインスタンス**&#x200B;の&#x200B;**[!UICONTROL 「レポート]**」タブからアクセスできます。
 
 ![](assets/messagecenter_reporting_002.png)

@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 統合の設定
 description: 統合の設定
 audience: integrations
 content-type: reference
 exl-id: 84399496-33fd-4936-85e7-32de8503740f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 

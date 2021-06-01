@@ -1,29 +1,27 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: データスキーマ
 description: データスキーマ
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 2%
+ht-degree: 64%
 
 ---
-
 
 # データスキーマ{#data-schemas}
 
 ## 原則 {#principles}
 
-スキーマを編集、作成および設定するには、Adobe Campaignクライアントコンソールの&#x200B;**[!UICONTROL 管理/設定/データスキーマ]**&#x200B;ノードをクリックします。
+スキーマを編集、作成および設定するには、Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードをクリックします。
 
 >[!NOTE]
 >
->そのまま使用できるデータスキーマは、Adobe Campaign Classicコンソールの管理者のみが削除できます。
+>標準のデータスキーマは、Adobe Campaign Classicコンソールの管理者のみが削除できます。
 
 ![](assets/d_ncs_integration_schema_navtree.png)
 
@@ -33,7 +31,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->「名前」編集コントロールを使用すると、名前と名前空間で構成されるスキーマキーを入力できます。 スキーマのルート要素の「name」属性と「名前空間」属性は、スキーマのXML編集ゾーンで自動的に更新されます。
+>「名前」編集コントロールを使用すると、名前と名前空間で構成されるスキーマキーを入力できます。 スキーマのルート要素の「name」属性と「namespace」属性は、スキーマの XML 編集ゾーンで自動的に更新されます。
 
 プレビューは、拡張スキーマを自動的に生成します。
 
@@ -43,15 +41,15 @@ ht-degree: 2%
 >
 >ソーススキーマを保存すると、拡張スキーマの生成が自動的に開始されます。
 
-スキーマの完全な構造を確認する必要がある場合は、「プレビュー」タブを使用できます。 スキーマを拡張すると、そのすべての拡張を視覚化できます。 補完的に、「ドキュメント」タブには、すべてのスキーマ属性と要素、およびそのプロパティ（SQLフィールド、タイプ/長さ、ラベル、説明）が表示されます。 「ドキュメント」タブは、生成されたスキーマにのみ適用されます。 詳しくは、「[スキーマの再生成](../../configuration/using/regenerating-schemas.md)」を参照してください。
+スキーマの構造全体を確認する必要がある場合は、「プレビュー」タブを使用できます。 スキーマを拡張すると、そのすべての拡張を視覚化できます。 「ドキュメント」タブには、補足情報として、すべてのスキーマ属性と要素、およびそのプロパティ（SQL フィールド、タイプ／長さ、ラベル、説明）が表示されます。 「ドキュメント」タブは、生成されたスキーマにのみ適用されます。詳しくは、[スキーマの再生成](../../configuration/using/regenerating-schemas.md)の節を参照してください。
 
-## 例：契約表の作成{#example--creating-a-contract-table}
+## 例：契約テーブルの作成{#example--creating-a-contract-table}
 
-次の例では、Adobe Campaignデータベースのデータベースモデルに&#x200B;**contracts**&#x200B;の新しいテーブルを作成します。 次の表に、各契約の所有者および共有者の姓と名と電子メールアドレスを格納します。
+次の例では、Adobe Campaignデータベースのデータベースモデルに&#x200B;**contracts**&#x200B;の新しいテーブルを作成します。 このテーブルには、契約ごとに、所有者と共同所有者の姓と名および E メールアドレスを格納できます。
 
-これを行うには、テーブルのスキーマを作成し、対応するテーブルを生成するためにデータベース構造を更新する必要があります。 次のような流れになります。
+それには、テーブルのスキーマを作成し、対応するテーブルを生成するためのデータベース構造を更新する必要があります。 次のような流れになります。
 
-1. Adobe Campaignツリーの&#x200B;**[!UICONTROL 管理/設定/データスキーマ]**&#x200B;ノードを編集し、**[!UICONTROL 新規]**&#x200B;をクリックします。
+1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードを編集し、「**[!UICONTROL 新規]**」をクリックします。
 1. 「**[!UICONTROL データモデルに新しいテーブルを作成]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/s_ncs_configuration_create_new_schema.png)
@@ -62,13 +60,13 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >デフォルトでは、ユーザーが作成したスキーマは「cus」名前空間に保存されます。 詳しくは、[スキーマのID](../../configuration/using/about-schema-reference.md#identification-of-a-schema)を参照してください。
+   >デフォルトでは、ユーザーが作成したスキーマは「cus」名前空間に保存されます。 詳しくは、[スキーマの ID](../../configuration/using/about-schema-reference.md#identification-of-a-schema) を参照してください。
 
-1. テーブルのコンテンツを作成します。 設定が足りないことを確認するために、入力ウィザードを使用することをお勧めします。 これを行うには、「**[!UICONTROL 挿入]**」ボタンをクリックし、追加する設定のタイプを選択します。
+1. テーブルの内容を作成します。 設定が欠落していないことを確認するには、入力ウィザードを使用することをお勧めします。 それには、「**[!UICONTROL 挿入]**」ボタンをクリックし、追加する設定のタイプを選択します。
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 
-1. 契約表の設定を定義します。
+1. 契約テーブルの設定を定義します。
 
    ```
    <srcSchema desc="Active contracts" img="ncm:channels.png" label="Contracts" labelSingular="Contract" mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
@@ -86,7 +84,7 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-   契約追加の種類と、契約番号にインデックスを付けます。
+   契約のタイプを追加し、契約番号にインデックスを配置します。
 
    ```
    <srcSchema _cs="Contracts (cus)" desc="Active contracts" entitySchema="xtk:srcSchema" img="ncm:channels.png"
@@ -120,5 +118,4 @@ ht-degree: 2%
 
    ![](assets/s_ncs_configuration_structure.png)
 
-1. データベース構造を更新して、スキーマがリンクされるテーブルを作成します。 詳しくは、[データベース構造の更新](../../configuration/using/updating-the-database-structure.md)を参照してください。
-
+1. データベース構造を更新して、スキーマのリンク先となるテーブルを作成します。 詳しくは、[データベース構造の更新](../../configuration/using/updating-the-database-structure.md)を参照してください。

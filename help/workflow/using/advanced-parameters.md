@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 詳細設定パラメーター
 description: 詳細設定パラメーター
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-translation-type: ht
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -37,7 +35,7 @@ ht-degree: 100%
 
 このフィールドでは、アクティビティにリンクする画像を変更できます。詳しくは、[アクティビティ画像の管理](../../workflow/using/managing-activity-images.md)を参照してください。
 
-## 実行 {#execution}
+## 「EXECUTION」タブ {#execution}
 
 このフィールドでは、タスクがトリガーされたときに実行されるアクションを定義できます。次の 3 つのオプションが使用可能です。
 

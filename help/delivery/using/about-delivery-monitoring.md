@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 配信監視の概要
 description: Campaign Classic 配信監視機能について詳しく説明します。
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
 
@@ -39,7 +37,7 @@ ht-degree: 100%
 配信のパフォーマンスを確実に保つために、いくつかのガイドラインに従う必要があります。配信の送信時に発生する一般的な問題は、また、配信を効率的に送信する際に役立つものです。
 
 * [配信パフォーマンスとベストプラクティス](../../delivery/using/delivery-performances.md)
-* [配信送信のトラブルシューティング](../../delivery/using/delivery-troubleshooting.md)
+* [配信送信トラブルシューティング](../../delivery/using/delivery-troubleshooting.md)
 
 <img src="assets/do-not-localize/icon_failure.svg" width="60px">
 

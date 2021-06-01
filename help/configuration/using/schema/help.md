@@ -1,25 +1,23 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 要素と属性
 description: 要素と属性
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 25%
 
 ---
 
-
 # ヘルプ要素{#help--element}
 
 ## コンテンツモデル{#content-model-6}
 
-help:=EMPTY
+help:==EMPTY
 
 ## 属性 {#attributes-6}
 
@@ -35,7 +33,7 @@ help:=EMPTY
 
 ## 説明 {#description-6}
 
-この要素では、`<element>`または`<attribute>`   エレメント。 テキストのみを含めることができ、データベースのXMLに保存されます。
+この要素は、`<element>`または`<attribute>`   要素。 テキストのみを含めることができ、XML形式でデータベースに格納されます。
 
 ## 属性の説明{#attribute-description-6}
 

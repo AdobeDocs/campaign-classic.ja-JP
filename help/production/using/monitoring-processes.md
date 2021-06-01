@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: 214838cabeaec082080b3378f7eba837b8af89ad
+source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
 workflow-type: tm+mt
 source-wordcount: '3779'
 ht-degree: 2%
@@ -44,7 +44,8 @@ ht-degree: 2%
 
 #### Windows {#in-windows}
 
-* **[!UICONTROL 保留中のイベントがキューに入れられました]** :インジケーターは、 **Message Centerに固有です**。詳しくは、[この節](../../message-center/using/monitoring-thresholds.md)を参照してください。
+* **[!UICONTROL 保留中のイベントがキューに入れられました]** :インジケーターは、 **Message Centerに固有です**。詳しくは、[この節](../../message-center/using/additional-configurations.md#monitoring-thresholds)を参照してください。
+
 * **[!UICONTROL メモリ]** :物理メモリ(RAM)に関する情報。
 
    **[!UICONTROL 現在の値]** :実際のメモリ消費量。
@@ -101,7 +102,8 @@ ht-degree: 2%
 
 ![](assets/production_system_indicators_linux_001.png)
 
-* **[!UICONTROL 保留中のイベントがキューに入れられました]** :インジケーターは、 **Message Centerに固有です**。詳しくは、[この節](../../message-center/using/monitoring-thresholds.md)を参照してください。
+* **[!UICONTROL 保留中のイベントがキューに入れられました]** :インジケーターは、 **Message Centerに固有です**。詳しくは、[この節](../../message-center/using/additional-configurations.md#monitoring-thresholds)を参照してください。
+
 * **[!UICONTROL 負荷平均(1/5/15分)]** :負荷に関する情報、つまり、最後の1分、5分、15分間にマシン上で実行されたプロセスによるプロセッサの使用率
 
    **[!UICONTROL 現在の値]** :装置の実際の負荷。
@@ -489,7 +491,7 @@ Adobe Campaignでは、検出された異常値に関するレポートを電子
 * **netreport.tgz** （Linuxインストール）または&#x200B;**netreport.zip** （Windowsインストール）ファイルが必要です。
 * 監視対象のマシンに監視をインストールしないことを強くお勧めします。
 * JREまたはJDKを使用しているマシンにインストールする必要があります。
-* Linuxでは、監視対象のマシンに&#x200B;**bc**&#x200B;パッケージが必要です。 詳しくは、[この節](../../installation/using/installing-packages-with-linux.md#distribution-based-on-rpm--packages)を参照してください。
+* Linuxでは、監視対象のマシンに&#x200B;**bc**&#x200B;パッケージが必要です。 詳細については、[このセクション](../../installation/using/installing-packages-with-linux.md#distribution-based-on-rpm--packages)を参照してください。
 
 ### インストール手順{#installation-procedure}
 

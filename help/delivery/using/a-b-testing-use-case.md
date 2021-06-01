@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: このユースケースについて
 description: 専用のユースケースを通して A/B テストを実行する方法を説明します。
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -40,5 +38,5 @@ ht-degree: 100%
 
 **関連トピック：**
 
-* [A/B テストの概要](../../delivery/using/get-started-a-b-testing.md)
+* [A/B テストの基本を学ぶ](../../delivery/using/get-started-a-b-testing.md)
 * [A/B テストの設定](../../delivery/using/configuring-a-b-testing.md)

@@ -1,31 +1,28 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: ワークフローの管理
 description: ワークフローの管理
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 617b0050-6b04-4c68-9f63-511baae99f41
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 10%
 
 ---
 
-
 # ワークフローの管理{#managing-workflows}
 
-デフォルトでは、新しいワークフローは、事前設定済みで受信者テーブル(nms:受信者)に基づくワークフローテンプレートに基づいています。 **Nms_DefaultRcpSchema**&#x200B;オプションで参照されているカスタム受信者のテーブルに基づいて自動的にワークフローを作成するには（「[インターフェイスの設定](../../configuration/using/configuring-the-interface.md)」を参照）、新しいワークフローテンプレートを作成する必要があります。
+デフォルトでは、新しいワークフローは、事前設定され、受信者テーブル(nms:recipient)に基づいたワークフローテンプレートに基づいています。 **Nms_DefaultRcpSchema**&#x200B;オプションで参照される受信者のカスタムテーブルに基づいて自動的に受信するには（[インターフェイスの設定](../../configuration/using/configuring-the-interface.md)の節を参照）、新しいワークフローテンプレートを作成する必要があります。
 
-**[!UICONTROL リソース/テンプレート/ワークフローテンプレート]**&#x200B;ノードを使用して、新しいテンプレートを作成します。 テンプレートのプロパティで、提供されるディメンションは外部受信者テーブルと一致します。
+**[!UICONTROL リソース/テンプレート/ワークフローテンプレート]**&#x200B;ノードを使用して、新しいテンプレートを作成します。 テンプレートのプロパティで、提供されたディメンションは、外部の受信者テーブルと一致します。
 
-最近作成したワークフローに基づいて新しいテンプレートを作成すると、パーソナライズされたテーブルが、ワークフローのグローバルターゲット設定とフィルタリングディメンションに対してデフォルトで選択されます。
+最近作成したテンプレートに基づいて新しいワークフローを作成すると、ワークフローのグローバルターゲティングおよびフィルタリングディメンションに対して、パーソナライズされたテーブルがデフォルトで選択されます。
 
-ワークフローで使用されるすべてのアクティビティは、追加の手動設定を必要とせずに、カスタムテーブルを使用します。
+ワークフローで使用されるすべてのアクティビティで、追加の手動設定を必要とせずにカスタムテーブルが使用されます。
 
 ワークフローについて詳しくは、[この節](../../workflow/using/about-workflows.md)を参照してください。
 
 ![](assets/cfg_external_table_workflow.png)
-

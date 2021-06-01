@@ -1,26 +1,24 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Snowflake へのアクセスの設定
-description: FDAでSnowflakeへのアクセスを設定する方法を説明します。
+description: FDAでSnowflakeへのアクセスを設定する方法
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 535339b5a9b39625100d630b0b831df143dbeb01
+exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 72%
 
 ---
 
-
 # Snowflake へのアクセスの設定 {#configure-access-to-snowflake}
 
-キャンペーン&#x200B;**Federated Data Access** (FDA)オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って[!DNL Snowflake]へのアクセスを設定します。
+外部データベースに保存された情報を処理するには、Campaignの&#x200B;**Federated Data Access**(FDA)オプションを使用します。 [!DNL Snowflake]へのアクセスを設定するには、以下の手順に従います。
 
-1. [CentOS](#snowflake-centos)、[Windows](#snowflake-windows)、または[Debian](#snowflake-debian)に[!DNL Snowflake]を設定します。
-1. キャンペーンで[!DNL Snowflake] [外部アカウント](#snowflake-external)を設定
+1. [CentOS](#snowflake-centos)、[Windows](#snowflake-windows)または[Debian](#snowflake-debian)に[!DNL Snowflake]を設定します。
+1. Campaignで[!DNL Snowflake] [外部アカウント](#snowflake-external)を設定します
 
 
 >[!NOTE]
@@ -48,7 +46,7 @@ CentOSで[!DNL Snowflake]を設定するには、次の手順に従います。
    /etc/init.d/nlserver6 start
    ```
 
-1. キャンペーンでは、[!DNL Snowflake]外部アカウントを設定できます。 外部アカウントの構成方法について詳しくは、[この](#snowflake-external)を参照してください。
+1. Campaignでは、[!DNL Snowflake]外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[この節](#snowflake-external)を参照してください。
 
 ## Windows での Snowflake。{#snowflake-windows}
 
@@ -56,7 +54,7 @@ CentOSで[!DNL Snowflake]を設定するには、次の手順に従います。
 
 1. ODBC ドライバーを設定します。詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)を参照してください。
 
-1. キャンペーンでは、[!DNL Snowflake]外部アカウントを設定できます。 外部アカウントの構成方法について詳しくは、[この](#snowflake-external)を参照してください。
+1. Campaignでは、[!DNL Snowflake]外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[この節](#snowflake-external)を参照してください。
 
 ## Debian での Snowflake{#snowflake-debian}
 
@@ -76,13 +74,13 @@ CentOSで[!DNL Snowflake]を設定するには、次の手順に従います。
    systemctl start nlserver.service
    ```
 
-1. キャンペーンでは、[!DNL Snowflake]外部アカウントを設定できます。 外部アカウントの構成方法について詳しくは、[この](#snowflake-external)を参照してください。
+1. Campaignでは、[!DNL Snowflake]外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[この節](#snowflake-external)を参照してください。
 
 ## Snowflake 外部アカウント{#snowflake-external}
 
-[!DNL Snowflake]外部アカウントを作成して、キャンペーンインスタンスを[!DNL Snowflake]外部データベースに接続する必要があります。
+Campaignインスタンスを[!DNL Snowflake]外部データベースに接続するには、[!DNL Snowflake]外部アカウントを作成する必要があります。
 
-1. キャンペーン&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
+1. Campaignの&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL 新規]**」をクリックします。
 

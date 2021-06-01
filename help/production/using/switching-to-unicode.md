@@ -1,25 +1,23 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Unicode への切り替え
 description: Unicode への切り替え
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 4cfecf2f-cf98-42c1-b979-cdd26d5de48b
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 7%
 
 ---
 
-
 # Unicode への切り替え{#switching-to-unicode}
 
-Linux/PostgreSQLの既存の&#x200B;**prod**&#x200B;インスタンスの場合、unicodeに切り替える手順は次のとおりです。
+Linux/PostgreSQLの既存の&#x200B;**prod**&#x200B;インスタンスの場合、Unicodeに切り替える手順は次のとおりです。
 
-1. データベースへの書き込みプロセスを停止します。
+1. データベースに書き込むプロセスを停止します。
 
    ```
    su - neolane
@@ -52,7 +50,7 @@ Linux/PostgreSQLの既存の&#x200B;**prod**&#x200B;インスタンスの場合�
    update XtkOption set sStringValue = 'u'||sStringValue where sName='XtkDatabaseId' and sStringValue not like 'u%';
    ```
 
-1. トラッキングサーバーでは、次の操作を行います。
+1. トラッキングサーバー上：
 
    ```
    su - neolane
@@ -60,7 +58,7 @@ Linux/PostgreSQLの既存の&#x200B;**prod**&#x200B;インスタンスの場合�
    vi config-prod.xml
    ```
 
-   デ追加ータベース識別子(**databaseId**)に関連する値の前にある&#x200B;**u**&#x200B;文字：
+   データベース識別子に関連する値の前に&#x200B;**u**&#x200B;文字を追加します(**databaseId**)。
 
    ```
    <web>
@@ -68,7 +66,7 @@ Linux/PostgreSQLの既存の&#x200B;**prod**&#x200B;インスタンスの場合�
    </web>
    ```
 
-1. データベースを呼び出すサーバーの場合：
+1. データベースを呼び出すサーバーで、次の操作を行います。
 
    ```
    su - neolane
@@ -95,8 +93,7 @@ Linux/PostgreSQLの既存の&#x200B;**prod**&#x200B;インスタンスの場合�
    /etc/init.d/apache start
    ```
 
-1. スイッチを確認します。 これを行うには、Adobe Campaignコンソールから接続し、次の操作を行います。
+1. スイッチを確認します。 これをおこなうには、Adobe Campaignコンソールから接続し、次の手順に従います。
 
-   * データが正しく表示され、特にアクセント付きの文字が正しく表示されていることを確認します。
-   * 配信を起動し、トラッキングの取得が機能するかどうかを確認します。
-
+   * データ（特にアクセント記号付き文字）が正しく表示されることを確認します。
+   * 配信を開始し、トラッキングの取得が機能することを確認します。

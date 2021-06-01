@@ -1,30 +1,27 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: 移行の警告
-description: 移行の警告
+title: 移行に関する警告
+description: 移行に関する警告
 audience: migration
 content-type: reference
 topic-tags: migration-overview
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 46b46fc9-c7c9-4c74-b5f3-7935d5368520
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 3%
 
 ---
 
+# 移行に関する警告{#migration-warnings}
 
-# 移行の警告{#migration-warnings}
-
-* 移行プロセスは、エキスパートユーザーのみが利用できます。 少なくとも、Adobe Campaignのデータベースエキスパート、システム管理者およびアプリケーション開発者が支援する必要があります。
-* 移行を開始する前に、使用するシステムおよびシステムコンポーネントがv7と互換性があることを確認してください。 [互換表](../../rn/using/compatibility-matrix.md)を参照してください。
-* Messaging Cloud Messaging(以前のミッドソーシング)を使用している場合は、移行手順全体を開始する前に、Adobe Campaignにお問い合わせください。
-* 移行プロセスを開始する前に、****&#x200B;データをバックアップする必要があります。
+* 移行プロセスは、エキスパートユーザー向けに用意されています。 少なくともAdobe Campaignのデータベースエキスパート、システム管理者およびアプリケーション開発者の支援が必要です。
+* 移行を開始する前に、使用するシステムおよびシステムコンポーネントがv7と互換性があることを確認します。 [互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
+* Adobe Campaign Cloud Messaging（以前のミッドソーシング）を使用している場合は、移行手順全体を開始する前にAdobe Campaignにお問い合わせください。
+* 移行プロセスを開始する前に、データを&#x200B;**バックアップする必要があります。**
 * 移行プロセスが完了するまでに数日かかる場合があります。
-* Adobe Campaignv7は、設定上、5.11および6.02バージョンより厳しくなっています。 これは主に、データの破損などの問題を回避し、データベース内のデータの整合性を維持するためです。 その結果、v5.11およびv6.02で提供される特定の機能はv7では動作しなくなる可能性があり、移行後に適応する必要がある場合があります。 製品に取り組む前に、すべての構成、特にAdobe Campaignの使用に必要なワークフローを系統的にテストすることをお勧めします。
+* Adobe Campaign v7は、設定に関しては、5.11および6.02のバージョンより厳しくなっています。 これは、主に、データの破損や、データベース内のデータの整合性を維持するなどの問題を回避するためです。 その結果、v5.11およびv6.02で提供されている特定の関数はv7では動作しなくなり、移行後に適応が必要になる場合があります。 実稼動環境に移行する前に、すべての設定(特にAdobe Campaignの使用に必要なワークフロー)を体系的にテストすることをお勧めします。
 
 >[!NOTE]
 >
->また、[移行を開始する前に](../../migration/using/before-starting-migration.md)セクションを参照する必要があります。
-
+>移行を開始する前に、[](../../migration/using/before-starting-migration.md)の節も参照してください。

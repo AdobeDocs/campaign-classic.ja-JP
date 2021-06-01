@@ -2,20 +2,19 @@
 solution: Campaign Classic
 product: campaign
 title: Message Center のイベント履歴
-description: Message Center のイベント履歴
+description: Message Centerのイベント履歴レポートの詳細を説明します。
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: 04d4791b-a1dd-4361-a469-6f5aff0f41b8
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '147'
-ht-degree: 100%
+source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 93%
 
 ---
 
-# Message Center のイベント履歴{#history-of-message-center-events}
+# Message Center のイベント履歴 {#history-of-message-center-events}
 
 **[!UICONTROL Message Center のイベント履歴]**&#x200B;レポートは、処理したイベント数やトランザクションメッセージとして配信したイベント数など、Message Center のアクティビティの概要を示します。
 

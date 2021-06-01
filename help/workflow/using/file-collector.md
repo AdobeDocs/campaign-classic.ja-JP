@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: ファイルコレクター
 description: ファイルコレクターワークフローアクティビティの詳細を説明します
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 100%
 
@@ -23,7 +21,7 @@ ht-degree: 100%
 
 ファイルコレクターが監視するファイルは、このワークフローを担当する wfserver モジュールが実行されるサーバー上に存在する必要があります。1 つのインスタンスに複数の wfserver モジュールがデプロイされている場合は、これらのファイルを使用するアクティビティのアフィニティか、またはワークフローのアフィニティ全体を指定する必要があります。
 
-## プロパティ {#properties}
+## 「PROPERTIES」タブ {#properties}
 
 「**[!UICONTROL ファイルコレクター]**」アクティビティの最初のタブで、ソースディレクトリを選択し、必要に応じて、収集したファイルをフィルターします。他のタブ（「**[!UICONTROL スケジュール]**」タブおよび「**[!UICONTROL 期日]**」タブ）については、[インバウンド E メール](../../workflow/using/inbound-emails.md)を参照してください。
 

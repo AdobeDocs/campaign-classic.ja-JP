@@ -1,42 +1,40 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adobe Campaign Classicのスキーマリファレンスについて
-description: Adobe Campaign Classicデータベースの概念データモデルを拡張するための拡張スキーマの構成方法を学びます。
+description: Adobe Campaign Classicデータベースの概念的データモデルを拡張するための拡張スキーマの設定方法について説明します。
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 7%
+ht-degree: 61%
 
 ---
-
 
 # スキーマリファレンスについて{#about-schema-reference}
 
 この章では、Adobe Campaignデータベースの概念的データモデルを拡張するための拡張スキーマの設定方法について説明します。
 
-キャンペーンの組み込みテーブルとそのやり取りについての詳細は、[Campaign Classicデータモデル](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html)を参照してください。
+Campaignの組み込みテーブルとそのインタラクションについての詳細は、[Campaign Classicデータモデル](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html)を参照してください。
 
-アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。**スキーマ**&#x200B;と呼ばれるAdobe Campaign固有の文法に従います。
+アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。 **スキーマ**&#x200B;と呼ばれる Adobe Campaign 特有の文法に従います。
 
-スキーマは、データベーステーブルに関連付けられたXMLドキュメントです。 データ構造を定義し、表のSQL定義を説明します。
+スキーマは、データベーステーブルに関連付けられた XML ドキュメントです。 この中でデータ構造を定義し、表の SQL 定義を記述します。
 
 * テーブルの名前
 * フィールド
 * インデックス
 * 他のテーブルとのリンク
 
-また、データの格納に使用するXML構造についても説明します。
+また、データの格納に使用する XML 構造についても説明します。
 
 * 要素と属性
 * 要素の階層
 * 要素と属性の種類
 * デフォルト値
-* ラベル、説明、およびその他のプロパティ。
+* ラベル、説明およびその他のプロパティ。
 
 スキーマを使用すると、データベース内にエンティティを定義できます。 エンティティごとにスキーマがあります。
 
@@ -44,11 +42,11 @@ ht-degree: 7%
 
 ![](assets/reference_schema_intro.png)
 
-## スキーマの構文{#syntax-of-schemas}
+## スキーマの構文 {#syntax-of-schemas}
 
-スキーマのルート要素は&#x200B;**`<srcschema>`**&#x200B;です。 **`<element>`**&#x200B;と&#x200B;**`<attribute>`**&#x200B;のサブ要素が含まれます。
+スキーマのルート要素は **`<srcschema>`** です。 **`<element>`** と **`<attribute>`** のサブ要素が含まれます。
 
-最初の&#x200B;**`<element>`**&#x200B;サブ要素は、エンティティのルートに一致します。
+最初の **`<element>`** サブ要素は、エンティティのルートに一致します。
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -64,30 +62,30 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->エンティティのルートスキーマは、要素と同じ名前を持ちます。
+>エンティティのルート要素はスキーマと同じ名前を持ちます。
 
 ![](assets/s_ncs_configuration_schema_and_entity.png)
 
-**`<element>`**&#x200B;タグはエンティティ要素の名前を定義します。 **`<attribute>`** スキーマのタグは、リンク先の **`<element>`** タグの属性の名前を定義します。
+**`<element>`** タグはエンティティ要素の名前を定義します。 スキーマの **`<attribute>`** タグは、リンク先の **`<element>`** タグの属性の名前を定義します。
 
-## スキーマのID {#identification-of-a-schema}
+## スキーマの ID {#identification-of-a-schema}
 
 データスキーマは、名前と名前空間で識別されます。
 
-名前空間を使用すると、スキーマのセットを目標領域別にグループ化できます。 例えば、**cus**&#x200B;名前空間は、顧客固有の設定(**customers**)に使用します。
+名前空間を使用すると、一連のスキーマを目標領域別にグループ化できます。 例えば、**cus** 名前空間は、顧客固有の設定（**customers**）に使用します。
 
 >[!IMPORTANT]
 >
->標準として、名前空間名は簡潔にし、XML命名規則に従って、許可された文字のみを含める必要があります。
+>基準としては、名前空間の名前は簡潔なものにし、XML 命名規則に従って許可された文字のみで構成する必要があります。
 >
 >識別子の先頭を数字にすることはできません。
 
-特定の名前空間は、Adobe Campaignアプリケーションの操作に必要なシステムエンティティの説明のために予約されています。
+特定の名前空間は、Adobe Campaignアプリケーションの操作に必要なシステムエンティティの説明用に予約されています。
 
-* **xtk**:プラットフォームシステムデータについて
-* **nl**:出願の全体的な使用に関して
-* **nms**:配信(受信者、配信、追跡等)に関する
+* **xtk**:プラットフォームシステムデータに関して
+* **nl**:アプリケーションの全体的な使用に関して
+* **nms**:配信（受信者、配信、トラッキングなど）に関して
 * **ncm**:コンテンツ管理に関して
-* **temp**:一時スキーマ用に予約。
+* **temp**:一時的なスキーマ用に予約されています。
 
-スキーマのIDキーは、名前空間と名前をコロンで区切った文字列です。例：**cus:受信者**。
+スキーマの識別キーは、コロンで区切られた名前空間と名前を使用して構築された文字列です。例：**cus:recipient**&#x200B;とします。

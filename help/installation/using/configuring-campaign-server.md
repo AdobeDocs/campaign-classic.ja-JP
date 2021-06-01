@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Campaign サーバーの設定
 description: Campaign サーバーの設定
@@ -7,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1580'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -22,12 +21,12 @@ ht-degree: 2%
 
 これらの手順は、オンプレミス&#x200B;**/**&#x200B;ハイブリッド&#x200B;**デプロイメントに制限され、管理権限が必要です。**
 
-**ホストされる**&#x200B;デプロイメントの場合、サーバー側の設定はAdobeのみで設定できます。 ただし、IPCampaign コントロールパネル管理やURL権限など、[キャンペーン管理](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html)内で設定でき許可リストる設定もあります。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)。
+**ホストされる**&#x200B;デプロイメントの場合、サーバー側の設定はAdobeのみで設定できます。 ただし、IPCampaign コントロールパネル管理やURL権限など、[キャンペーン管理](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)内で設定でき許可リストる設定もあります。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)。
 
 詳しくは、次の節を参照してください。
 
 * [コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
-* [ホスティングのモデル](../../installation/using/hosting-models.md)
+* [ホスティングモデル](../../installation/using/hosting-models.md)
 * [Campaign Classicオンプレミスとホスト機能のマトリックス](../../installation/using/capability-matrix.md)
 
 ## 設定ファイル

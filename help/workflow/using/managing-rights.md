@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: ワークフロー権限の管理
 description: ワークフロー権限の管理方法を説明します
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 

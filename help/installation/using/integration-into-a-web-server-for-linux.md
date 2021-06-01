@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Linux 用 web サーバーへの統合
-description: キャンペーンをWebサーバーに統合する方法(Linux)
+description: CampaignをWebサーバーに統合する方法を説明します(Linux)。
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
-translation-type: tm+mt
-source-git-commit: b0a1e0596e985998f1a1d02236f9359d0482624f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 5%
@@ -17,32 +15,32 @@ ht-degree: 5%
 
 # Linux 用 web サーバーへの統合{#integration-into-a-web-server-for-linux}
 
-Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーションサーバーのエントリポイントとして機能するApache Tomcatが含まれます。
+Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーションサーバーのエントリポイントとして機能するApache Tomcatが含まれています。
 
-この統合Tomcatサーバーを使用して、HTTP要求を処理できます。
+この統合Tomcatサーバーを使用して、HTTPリクエストを処理できます。
 
 この場合、次のようになります。
 
-* デフォルトのリスニングポートは8080です。 これを変更するには、[この](configure-tomcat.md)セクションを参照してください。
-* 次に、クライアントコンソールは次のようなURLを使用して接続します。
+* デフォルトのリスニングポートは8080です。 これを変更するには、[この節](configure-tomcat.md)を参照してください。
+* その後、クライアントコンソールは、次のようなURLを使用して接続します。
 
    ```
    http://<computer>:8080
    ```
 
-ただし、セキュリティと管理上の理由から、Adobe Campaignを実行しているコンピュータがインターネット上に公開され、ネットワーク外のコンソールにアクセスする場合は、HTTPトラフィックのメインエントリポイントとして専用のWebサーバを使用することをお勧めします。
+ただし、セキュリティと管理上の理由から、Adobe Campaignを実行しているコンピューターがインターネット上で公開され、ネットワーク外のコンソールにアクセスする場合は、専用のWebサーバーをHTTPトラフィックのメインエントリポイントとして使用することをお勧めします。
 
-また、Webサーバーでは、HTTPsプロトコルを使用してデータの機密性を保証できます。
+また、Webサーバーを使用すると、HTTPプロトコルによるデータの機密性を保証できます。
 
-同様に、トラッキング機能を使用する場合はWebサーバを使用する必要があります。この機能は、Webサーバへの拡張モジュールとしてのみ使用できます。
+同様に、トラッキング機能を使用する場合は、Webサーバーを使用する必要があります。この機能は、Webサーバーへの拡張モジュールとしてのみ使用できます。
 
 >[!NOTE]
 >
->トラッキング機能を使用しない場合は、ApacheまたはIISの標準インストールを実行し、キャンペーンへのリダイレクトを行うことができます。 追跡用Webサーバー拡張モジュールは不要です。
+>トラッキング機能を使用しない場合は、ApacheまたはIISの標準インストールを実行し、Campaignにリダイレクトできます。 トラッキングWebサーバー拡張モジュールは不要です。
 
-## Apache WebサーバーとDebianの設定{#configuring-the-apache-web-server-with-debian}
+## DebianでのApache Webサーバーの設定{#configuring-the-apache-web-server-with-debian}
 
-このプロセスは、APTに基づく配布の下にApacheをインストールした場合に適用されます。
+このプロセスは、APTに基づくディストリビューションの下にApacheをインストールした場合に適用されます。
 
 次の手順に従います。
 
@@ -52,13 +50,13 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
    a2dismod auth_basic authn_file authz_default authz_user autoindex cgi dir env negotiation userdir
    ```
 
-   **エイリアス**、**authz_host**、**mime**&#x200B;モジュールが引き続き有効であることを確認します。 それには、次のコマンドを使用します。
+   **alias**、**authz_host**&#x200B;および&#x200B;**mime**&#x200B;モジュールが引き続き有効になっていることを確認します。 それには、次のコマンドを使用します。
 
    ```
    a2enmod  alias authz_host mime
    ```
 
-1. **nlsrv.load**&#x200B;ファイルを&#x200B;**/etc/apache2/mods-available**&#x200B;に作成し、次の内容を挿入します。
+1. **nlsrv.load**&#x200B;ファイルを&#x200B;**/etc/apache2/mods-available**&#x200B;に作成し、次のコンテンツを挿入します。
 
    Debian 8の場合：
 
@@ -72,13 +70,13 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
    ln -s /usr/local/[INSTALL]/nl6/conf/apache_neolane.conf /etc/apache2/mods-available/nlsrv.conf
    ```
 
-1. 次のコマンドを使用して、このモジュールをアクティブにします。
+1. 次のコマンドを使用して、このモジュールを有効にします。
 
    ```
     a2enmod nlsrv
    ```
 
-   Adobe Campaignページに&#x200B;**mod_rewrite**&#x200B;モジュールを使用する場合は、**nlsrv.load**&#x200B;および&#x200B;**nlsrv.conf**&#x200B;ファイルの名前を&#x200B;**zz-nlsrv.load**&#x200B;および&#x200B;**zz-nlsrv.conf**&#x200B;に変更する必要があります。 モジュールをアクティブにするには、次のコマンドを実行します。
+   Adobe Campaignページ用に&#x200B;**mod_rewrite**&#x200B;モジュールを使用する場合、**nlsrv.load**&#x200B;および&#x200B;**nlsrv.conf**&#x200B;ファイルの名前を&#x200B;**zz-nlsrv.load**&#x200B;および&#x200B;**zz-nlsrv.conf**&#x200B;に変更する必要があります。 モジュールをアクティブにするには、次のコマンドを実行します。
 
    ```
    a2enmod zz-nlsrv
@@ -94,7 +92,7 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
 
    変更を保存します。
 
-1. 次に、次のタイプのコマンドを使用して、Adobe CampaignユーザーをApacheユーザーグループに追加したり、その逆を行ったりします。
+1. 次に、次のタイプのコマンドを使用して、Adobe CampaignユーザーをApacheユーザーグループに追加し、その逆を実行します。
 
    ```
    usermod neolane -G www-data
@@ -109,7 +107,7 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
 
 ## RHELでのApache Webサーバーの設定{#configuring-apache-web-server-in-rhel}
 
-この手順は、RPM（RHEL、CentOS、およびSuse）ベースのパッケージでApacheをインストールし、保護した場合に適用されます。
+この手順は、RPM（RHEL、CentOSおよびSuse）ベースのパッケージでApacheをインストールし、保護している場合に適用されます。
 
 次の手順に従います。
 
@@ -121,7 +119,7 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
    mime
    ```
 
-1. 次のモジュールを非アクティブにします。
+1. 次のモジュールのアクティベートを解除します。
 
    ```
    auth_basic
@@ -136,7 +134,7 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
    userdir
    ```
 
-   非アクティブ化されたモジュールにリンクされた関数にコメントを付けます。
+   非アクティブ化されたモジュールに関連する関数にコメントを付けます。
 
    ```
    DirectoryIndex
@@ -163,7 +161,7 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
 
 1. **RHEL7**&#x200B;の場合：
 
-   追加`/etc/systemd/system/httpd.service`ファイルに次の内容が含まれます。
+   次の内容の`/etc/systemd/system/httpd.service`ファイルを追加します。
 
    ```
    .include /usr/lib/systemd/system/httpd.service
@@ -178,7 +176,7 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
    systemctl daemon-reload
    ```
 
-1. 次に、次のコマンドを実行して、Adobe Campaign演算子をApache演算子グループに追加し、逆に追加します。
+1. 次に、コマンドを実行して、Adobe CampaignオペレーターをApacheオペレーターグループに追加し、その逆も実行します。
 
    ```
    usermod -a -G neolane apache
@@ -196,9 +194,9 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
    systemctl start nlserver
    ```
 
-## Webサーバーの起動と設定のテスト{#launching-the-web-server-and-testing-the-configuration}
+## Webサーバーを起動し、設定をテストします。{#launching-the-web-server-and-testing-the-configuration}
 
-これで、Apacheを起動して設定をテストできます。 これで、Adobe Campaignモジュールのコンソールにバナーが表示されます（特定のオペレーティングシステムに2つのバナーが表示されます）。
+これで、Apacheを起動して設定をテストできます。 Adobe Campaignモジュールのコンソールにバナーが表示されます（特定のオペレーティングシステムでは2つのバナー）。
 
 ```
  /etc/init.d/apache start
@@ -215,15 +213,15 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
 12:26:28 >   Server started
 ```
 
-次に、テストURLを送信して応答するかどうかを確認します。
+次に、テストURLを送信して応答することを確認します。
 
-コマンドラインで次のコマンドを実行して、このテストを実行できます。
+これは、次のコマンドを実行して、コマンドラインからテストできます。
 
 ```
  telnet localhost 80  
 ```
 
-以下を入手する必要があります。
+次の情報を取得する必要があります。
 
 ```
 Trying 127.0.0.1...
@@ -231,7 +229,7 @@ Connected to localhost.localdomain.
 Escape character is '^]'.
 ```
 
-次のように入力します。
+次に、次を入力します。
 
 ```
 GET /r/test
@@ -244,4 +242,4 @@ GET /r/test
 Connection closed by foreign host.
 ```
 
-また、URL [`https://<computer>`](https://myserver.adobe.com/r/test)をウェブブラウザからリクエストすることもできます。
+WebブラウザーからURL [`https://<computer>`](https://myserver.adobe.com/r/test)を要求することもできます。

@@ -1,33 +1,31 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 移行のテスト
 description: 移行のテスト
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 3%
 
 ---
 
-
 # 移行のテスト{#testing-the-migration}
 
 ## 一般的な手順{#general-procedure}
 
-設定に応じて、いくつかの方法で移行テストを実施できます。
+設定に応じて、移行テストを実行する方法がいくつかあります。
 
-移行テストを実施するには、テスト/開発環境が必要です。 開発環境は、次のライセンスの対象となります。ライセンス契約を確認するか、Adobe Campaignの営業サービスに連絡してください。
+移行テストを実行するには、テスト/開発環境が必要です。 開発環境には、次のライセンスが適用されます。ライセンス契約を確認するか、Adobe Campaignの販売サービスにお問い合わせください。
 
-1. 進行中の開発をすべて停止し、制作環境に持ち越します。
+1. 進行中のすべての開発を停止し、実稼動環境に引き継ぎます。
 1. 開発環境データベースのバックアップを作成します。
-1. 開発インスタンスのすべてのAdobe Campaignプロセスを停止します。
-1. 本番環境・データベースのバックアップを作成し、開発環境としてリストアします。
-1. Adobe Campaignサービスを開始する前に、**freezeInstance.js**&#x200B;の焼灼スクリプトを実行し、バックアップの開始時に実行していたオブジェクトのデータベースを消去できます。
+1. 開発インスタンスですべてのAdobe Campaignプロセスを停止します。
+1. 実稼動環境データベースのバックアップを作成し、開発環境として復元します。
+1. Adobe Campaignサービスを開始する前に、**freezeInstance.js**&#x200B;焼灼スクリプトを実行して、バックアップの開始時に実行中だったオブジェクトをデータベースから消去します。
 
    ```
    nlserver javascript nms:freezeInstance.js -instance:<instance> -arg:<run|dry>
@@ -35,34 +33,34 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >コマンドはデフォルトで&#x200B;**dry**&#x200B;モードで起動し、コマンドが実行したすべての要求をリストします。起動は行われません。 焼灼要求を実行するには、コマンドで&#x200B;**run**&#x200B;を使用します。
+   >コマンドは、デフォルトで&#x200B;**dry**&#x200B;モードで起動し、そのコマンドで実行されたすべてのリクエストが、起動されずにリストされます。 注意喚起要求を実行するには、コマンドで&#x200B;**run**&#x200B;を使用します。
 
-1. バックアップを復元して、正しいバックアップであることを確認します。 データベース、テーブル、データなどにアクセスできることを確認します。
+1. バックアップを復元しようとして、正しいバックアップを作成してください。 データベース、テーブル、データなどにアクセスできることを確認します。
 1. 開発環境で移行手順をテストします。
 
-   詳細な手順については、[Adobe Campaign7](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)への移行に必要な前提条件の節を参照してください。
+   完全な手順については、 [Adobe Campaign 7への移行の前提条件](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)の節で詳しく説明しています。
 
-1. 開発環境の移行に成功した場合は、実稼働環境を移行できます。
+1. 開発環境の移行が成功した場合は、実稼動環境を移行できます。
 
 >[!IMPORTANT]
 >
->データ構造が変更されたため、v5プラットフォームとv7プラットフォームの間では、データパッケージの読み込みと書き出しを行うことはできません。
+>データ構造が変更されたので、v5プラットフォームとv7プラットフォームの間でデータパッケージのインポートおよびエクスポートはできません。
 
 >[!NOTE]
 >
->Adobe Campaignの更新コマンド(**postupgrade**)を使用すると、リソースの同期とスキーマおよびデータベースの更新を行うことができます。 この操作は、アプリケーションサーバー上でのみ1回実行できます。 リソースを同期した後、**postupgrade**&#x200B;コマンドを使用して、同期でエラーが発生したか警告が発生したかを検出できます。
+>Adobe Campaign updateコマンド(**postupgrade**)を使用すると、リソースを同期し、スキーマとデータベースを更新できます。 この操作は、アプリケーションサーバー上で1回だけ実行できます。 リソースを同期した後に、**postupgrade**&#x200B;コマンドを使用して、同期でエラーが発生したか警告が発生したかを検出できます。
 
 ## 移行ツール{#migration-tools}
 
 様々なオプションを使用して、移行による影響を測定し、潜在的な問題を特定できます。 以下のオプションが実行されます。
 
-* を設定します。****
+* **config**&#x200B;コマンドで、次の操作を実行します。
 
    ```
    nlserver.exe config <option> -instance:<instanceName>
    ```
 
-* またはアップグレード後：
+* またはポストアップグレード時に次の操作を行います。
 
    ```
    nlserver.exe config -postupgrade <option> -instance:<instanceName>
@@ -72,27 +70,27 @@ ht-degree: 3%
 >
 >**-instance:`<instanceame>`**&#x200B;オプションを使用する必要があります。 **-allinstances**&#x200B;オプションは使用しないことをお勧めします。
 
-### -showCustomEntitiesと —showDeletedEntitiesのオプション{#showcustomentities-and--showdeletedentities-options}
+### -showCustomEntitiesおよび —showDeletedEntitiesオプション{#showcustomentities-and--showdeletedentities-options}
 
-* **-showCustomEntities**&#x200B;オプションは、次の非標準オブジェクトのリストを表示します。
+* **-showCustomEntities**&#x200B;オプションは、非標準オブジェクトのリストを表示します。
 
    ```
    nlserver.exe config -showCustomEntities -instance:<instanceName>
    ```
 
-   送信済みメッセージの例：
+   送信メッセージの例：
 
    ```
    xtk_migration:opsecurity2 xtk:entity
    ```
 
-* **-showDeletedEntities**&#x200B;オプションは、データベースまたはファイルシステムに存在しないすべての標準オブジェクトのリストを表示します。 見つからない各オブジェクトに対して、パスが指定されます。
+* **-showDeletedEntities**&#x200B;オプションは、データベースまたはファイルシステムに見つからないすべての標準オブジェクトのリストを表示します。 見つからないオブジェクトごとに、パスが指定されます。
 
    ```
    nlserver.exe config -showDeletedEntities -instance:<instanceName>
    ```
 
-   送信済みメッセージの例：
+   送信メッセージの例：
 
    ```
    Out of the box object 'nms:deliveryCustomizationMdl' belonging to the 'xtk:srcSchema' schema has not been found in the file system.
@@ -100,9 +98,9 @@ ht-degree: 3%
 
 ### 検証プロセス{#verification-process}
 
-アップグレード後のコマンドに標準として統合されているため、このプロセスにより、移行が失敗する可能性のある警告やエラーを表示できます。 **エラーが表示された場合、移行は実行されていません。** この場合は、すべてのエラーを修正し、アップグレード後に開始を再度行ってください。
+このプロセスは、ポストアップグレードコマンドの標準として統合され、移行が失敗する可能性のある警告およびエラーを表示できます。 **エラーが表示された場合、移行は実行されていません。** これが発生した場合は、すべてのエラーを修正し、ポストアップグレードを再起動します。
 
-次のコマンドを使用して、検証プロセスを個別に（移行せずに）開始できます。
+次のコマンドを使用して、検証プロセスを単独で（移行なしで）開始できます。
 
 ```
 nlserver.exe config -postupgrade -check -instance:<instanceName>
@@ -112,7 +110,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
 >
 >JST-310040コードを持つ警告とエラーはすべて無視してください。
 
-次の式を検索します（大文字と小文字が区別されます）。
+次の式が検索されます（大文字と小文字が区別されます）。
 
 <table> 
  <thead> 
@@ -128,22 +126,22 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> .@<br /> </td> 
    <td> PU-0001<br /> </td> 
    <td> 警告<br /> </td> 
-   <td> このタイプの構文は、配信のパーソナライゼーションではサポートされなくなりました。 <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>を参照してください。 それ以外の場合は、値の型が正しいかどうかを確認します。<br /> </td> 
+   <td> このタイプの構文は、配信のパーソナライゼーションではサポートされなくなりました。 <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>を参照してください。 正しくない場合は、値の型が正しいことを確認します。<br /> </td> 
   </tr> 
   <tr> 
    <td> common.js<br /> </td> 
    <td> PU-0002<br /> </td> 
    <td> 警告<br /> </td> 
-   <td> このライブラリは使用できません。<br /> </td> 
+   <td> このライブラリは使用しないでください。<br /> </td> 
   </tr> 
   <tr> 
-   <td> logon(<br /> </td> 
+   <td> logon(<br />) </td> 
    <td> PU-0003<br /> </td> 
    <td> 警告<br /> </td> 
-   <td> この接続メソッドは使用しなくなります。 <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">識別されたWebアプリケーション</a>を参照してください。<br /> </td> 
+   <td> この接続方法は使用しないでください。 <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">識別されたWebアプリケーション</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
-   <td> new SoapMethodCall(<br /> </td> 
+   <td> 新しいSoapMethodCall(<br /> </td> 
    <td> PU-0004<br /> </td> 
    <td> 警告<br /> </td> 
    <td> この関数は、<strong>sessionTokenOnly</strong>モードのセキュリティゾーンから実行されるJavaScriptコードで使用される場合にのみサポートされます。<br /> </td> 
@@ -152,22 +150,22 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> sql=<br /> </td> 
    <td> PU-0005<br /> </td> 
    <td> エラー<br /> </td> 
-   <td> このタイプのエラーは、移行エラーの原因となります。 <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>を参照してください。<br /> </td> 
+   <td> このタイプのエラーは、移行エラーを引き起こします。 <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br />を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> エラー<br /> </td> 
-   <td> このタイプのエラーは、移行エラーの原因となります。 <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>を参照してください。 概要タイプのWebアプリケーションエラーログ（v6.02からの移行）を取得する場合は、<a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Web アプリケーション</a>を参照してください。<br /> </td> 
+   <td> このタイプのエラーは、移行エラーを引き起こします。 <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>を参照してください。 概要タイプのWebアプリケーションエラーログを取得する場合（v6.02から移行する場合）、<a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">Webアプリケーション</a>.<br />を参照してください。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-データベースとスキーマコヒーレンス・チェックも行う。
+データベースとスキーマの一貫性チェックも実行されます。
 
 ### 復元オプション{#restoration-option}
 
-このオプションを使用すると、既に変更されている場合に、そのまま使用できるオブジェクトを復元できます。 復元された各オブジェクトに対して、選択したフォルダに変更のバックアップが保存されます。
+このオプションを使用すると、標準のオブジェクトが変更されている場合に、そのオブジェクトを復元できます。 復元された各オブジェクトに対して、変更のバックアップが選択したフォルダに保存されます。
 
 ```
 nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instanceName>
@@ -175,8 +173,8 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 
 >[!NOTE]
 >
->フォルダーの絶対パスを使用し、フォルダーツリー構造を維持することを強くお勧めします。 次に例を示します。backupFolder\nms\srcSchema\billing.xml
+>絶対フォルダーパスを使用し、フォルダーツリー構造を維持することを強くお勧めします。 例：backupFolder\nms\srcSchema\billing.xml.
 
 ### 移行を再開しています{#resuming-migration}
 
-移行の失敗後にアップグレード後に再起動すると、停止した場所と同じ場所から再開されます。
+移行エラーの後にポストアップグレードを再開すると、停止した場所から再開されます。

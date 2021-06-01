@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 要素と属性
 description: 要素と属性
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: fb0862f9-5dcc-49f2-b99b-9822aaf3a680
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 10%
 
 ---
-
 
 # keyfield要素{#keyfield--element}
 
@@ -40,12 +38,12 @@ keyfield:==EMPTY
 
 ## 属性の説明{#attribute-description-9}
 
-* **xlink (MNTOKEN)**:リレーションテーブル（N-Nリンク）のジョインで定義された外部キーを自動的に参照できます。
-* **xpath (MNTOKEN)**: `<attribute>`  要素のインデックスまたはキーの定義。この属性は、キーまたはインデックスを定義するスキーマ属性へのパスを定義するXpathを受け取ります。
+* **xlink (MNTOKEN)**:では、リレーションテーブル（N-Nリンク）の結合で定義された外部キーを自動的に参照できます。
+* **xpath (MNTOKEN)**:要素のインデックスまたはキーの `<attribute>`  定義。この属性は、キーまたはインデックスを定義するスキーマ属性へのパスを定義するXpathを受け取ります。
 
 ## 例 {#examples-}
 
-「@name」上のXpathを持つインデックス内の「sName」フィールドの選択：
+「@name」のXpathを持つインデックス内の「sName」フィールドの選択：
 
 ```
 <keyfield xpath="@name"/>

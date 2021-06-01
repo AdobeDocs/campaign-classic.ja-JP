@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 60%
+source-wordcount: '1277'
+ht-degree: 54%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->実行インスタンスを複数のコントロールインスタンスで使用する場合、フォルダーおよびオペレーターごとにデータを分けることができます。詳しくは、[複数のコントロールインスタンスの使用](#using-several-control-instances)を参照してください。
+>実行インスタンスを複数のコントロールインスタンスで使用する場合、フォルダーおよびオペレーターごとにデータを分けることができます。詳しくは、[複数のコントロールインスタンス](#using-several-control-instances)の使用を参照してください。
 
 ### 外部アカウントの作成
 
@@ -91,7 +91,7 @@ ht-degree: 60%
 
    ![](assets/messagecenter_create_extaccount_008.png)
 
-   Federated Data Access（FDA） について詳しくは、[外部データベースへのアクセス](../../installation/using/about-fda.md)を参照してください。
+   Federated Data Access(FDA)の詳細については、[この節](../../installation/using/about-fda.md)を参照してください。
 
 1. 「**[!UICONTROL 接続をテスト]**」をクリックし、コントロールインスタンスと実行インスタンスがリンクされたことを確認します。
 
@@ -131,7 +131,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->実行インスタンスを複数のコントロールインスタンスで使用する場合、フォルダーおよびオペレーターごとにデータを分けることができます。詳しくは、[複数のコントロールインスタンスの使用](#using-several-control-instances)を参照してください。
+>実行インスタンスを複数のコントロールインスタンスで使用する場合、フォルダーおよびオペレーターごとにデータを分けることができます。詳しくは、[複数のコントロールインスタンス](#using-several-control-instances)の使用を参照してください。
 
 1. 実行インスタンスで、オペレーターフォルダー（ **[!UICONTROL 管理/アクセス管理/オペレーター]** ）に移動します。
 1. **Message Center** エージェントを選択します。
@@ -162,11 +162,11 @@ ht-degree: 60%
 >
 >以下の手順は、コントロールインスタンス&#x200B;**で**&#x200B;実行する必要があります。
 
-1. **コントロール 1** コントロールインスタンス内では、各実行インスタンスにつき 1 つの外部アカウントを作成し、それぞれの外部アカウントに **mc1** オペレーターを入力します。その後は、すべての実行インスタンス上に&#x200B;**mc1**&#x200B;演算子が作成されるようになります（[実行インスタンスの設定](#configuring-execution-instances)を参照）。
+1. **コントロール1**&#x200B;コントロールインスタンスで、実行インスタンスごとに1つの外部アカウントを作成し、各外部アカウントに&#x200B;**mc1**&#x200B;演算子を入力します。 その後は、すべての実行インスタンス上に&#x200B;**mc1**&#x200B;演算子が作成されるようになります（[実行インスタンスの設定](#configuring-execution-instances)を参照）。
 
    ![](assets/messagecenter_multi_control_1.png)
 
-1. **コントロール 2** コントロールインスタンス内では、各実行インスタンスにつき 2 つの外部アカウントを作成し、それぞれの外部アカウントに **mc2** オペレーターを入力します。その後は、すべての実行インスタンス上に&#x200B;**mc2**&#x200B;演算子が作成されるようになります（[実行インスタンスの設定](#configuring-execution-instances)を参照）。
+1. **コントロール2**&#x200B;コントロールインスタンス上で、実行インスタンスごとに1つの外部アカウントを作成し、各外部アカウントに&#x200B;**mc2**&#x200B;演算子を入力します。 その後は、すべての実行インスタンス上に&#x200B;**mc2**&#x200B;演算子が作成されるようになります（[実行インスタンスの設定](#configuring-execution-instances)を参照）。
 
    ![](assets/messagecenter_multi_control_2.png)
 

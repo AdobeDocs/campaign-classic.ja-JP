@@ -1,33 +1,32 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Linux でのスタックトレース
 description: Linux でのスタックトレース
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 11%
 
 ---
 
-
 # Linux でのスタックトレース{#stack-trace-in-linux}
 
-**スタックトレース**&#x200B;は、**core**&#x200B;型のファイルに含まれるトレースを表します。 このファイルは、マシンエラーのイベントで生成されます。 エラーの接触チャネルを識別できます。
+**スタックトレース**&#x200B;は、**core**&#x200B;タイプのファイルに含まれるトレースを表します。 このファイルは、マシンエラーが発生した場合に生成されます。 エラーの発生元を特定できます。
 
 >[!NOTE]
 >
->* **コア**&#x200B;ファイルの名前は&#x200B;**core.`<num>`**&#x200B;です。
->* **gdb - GNU** Debuggerをマシンにインストールする必要があります。
+>* **core**&#x200B;ファイルの名前は&#x200B;**core.`<num>`**&#x200B;です。
+>* **gdb - GNU Debuggerをマシン** にインストールする必要があります。
+
 >
 
 
 
-Adobe Campaignのテクニカルサポートから、この&#x200B;**スタックトレース**&#x200B;を求められます。 これを取得するには、Linuxで次のコマンドを入力します。
+Adobe Campaignのテクニカルサポートから、この&#x200B;**スタックトレース**&#x200B;が必要です。 これを取得するには、Linuxで次のコマンドを入力します。
 
 ```
 su - neolane
@@ -54,9 +53,9 @@ gdb nlserver <coreFile>
 #16 0x5565918a in clone () from /lib/tls/libc.so.6
 ```
 
-Adobe Campaignのテクニカルサポートから、特定の実行可能ファイル（アドビから提供されるファイル）を使用してこのコマンドを実行するように求められる場合があります。
+Adobe Campaignのテクニカルサポートから、特定の実行可能ファイル（アドビから提供されるもの）を使用してこのコマンドを実行するように求められる場合があります。
 
-この場合、**nlserver**&#x200B;をAdobe Campaignが提供する実行可能ファイルに置き換えて、次のコマンドを実行します。
+この場合は、**nlserver**&#x200B;をAdobe Campaignが提供する実行可能ファイルに置き換えて、次のコマンドを実行します。
 
 ```
 gdb nlserver <coreFile>
@@ -67,4 +66,3 @@ gdb nlserver <coreFile>
 ```
 gdb nlserver.1823 <coreFile>
 ```
-

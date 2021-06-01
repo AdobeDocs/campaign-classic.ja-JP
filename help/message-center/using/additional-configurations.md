@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 86%
+source-wordcount: '786'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 86%
 
 ## しきい値の監視 {#monitoring-thresholds}
 
-**Message Center のサービスレベル**&#x200B;と **Message Center の処理時間**&#x200B;のレポートに表示される指標について、警告しきい値（オレンジ）とアラートしきい値（赤）を設定できます（[トランザクションメッセージレポートについて](../../message-center/using/about-transactional-messaging-reports.md)を参照）。
+**Message Centerのサービスレベル**&#x200B;および&#x200B;**Message Centerの処理時間**&#x200B;レポートに表示される指標の警告しきい値（オレンジ）とアラートのしきい値（赤）を設定できます（[トランザクションメッセージレポートへのアクセス](../../message-center/using/about-transactional-messaging-reports.md)を参照）。
 
 それには、次の手順に従います。
 
@@ -109,7 +109,7 @@ Once the control and execution modules are installed on the same instance, you m
 
    >[!NOTE]
    >
-   >[コントロールインスタンス](../../message-center/using/configuring-instances.md#control-instance)の節で、実行インスタンスタイプの外部アカウントを作成する方法を説明します。
+   >[この節](../../message-center/using/configuring-instances.md#control-instance)で実行インスタンスタイプの外部アカウントを作成する方法を説明します。
 
 1. nms:extAccount スキーマを拡張し、トラッキング URL を追加します。
 

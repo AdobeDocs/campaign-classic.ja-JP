@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 増分クエリを使用した四半期ごとのリストの更新
 description: この使用例では、増分処理クエリを使用して、受信者リストを自動更新します。
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 100%
 

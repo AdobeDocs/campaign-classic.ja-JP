@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 繰り返し発生するインポートの設定
 description: 繰り返し発生するインポート用のワークフローテンプレートを設定する方法について説明します。
@@ -7,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 100%

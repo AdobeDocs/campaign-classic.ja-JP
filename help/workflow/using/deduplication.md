@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 重複排除
 description: 重複排除ワークフローアクティビティの詳細を説明します
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
 
@@ -40,7 +38,7 @@ ht-degree: 100%
 | 日付 | 名 | 姓 | 電子メール | 携帯電話 | 電話 |
 -----|------------|-----------|-------|--------------|------
 | 2020/05/19 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
-| 2020/07/22 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 2020/07/22 | ボビー | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
 ## ベストプラクティス{#best-practices}
 
@@ -66,6 +64,7 @@ ht-degree: 100%
    >[!NOTE]
    >
    >外部ファイルなどの外部データを入力として使用する場合は、必ず「**[!UICONTROL 一時スキーマ]**」オプションを選択してください。
+
    >
    >次の手順で、「**[!UICONTROL その他]**」オプションで使用される基準または条件を選択できます。
 
@@ -171,7 +170,7 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
 この 3 つの値セットは、重複排除によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を保存するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

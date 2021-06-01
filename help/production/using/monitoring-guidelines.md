@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 監視のガイドライン
 description: Campaign インスタンスとプロセスを監視するためのガイドラインとベストプラクティスを確認します。
@@ -7,10 +6,10 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -49,7 +48,7 @@ Campaign Classicのホームページからアクセスできる「**[!UICONTROL
 
 監査記録を使用すると、インスタンス内のオプション、ワークフローおよびスキーマに関する変更の完全な履歴を視覚化できます。 詳しくは、[ここをクリック](../../production/using/audit-trail.md)してください。
 
-**Campaign コントロールパネル**
+**コントロールパネル**
 
 「 」Campaign コントロールパネルでは、インスタンスの複数の設定を管理できます。URL権限の管理、サーバーのビルドバージョンなど、インスタンスの詳細の確認をおこないます。 また、インスタンスに接続されているSFTPサーバーの使用可能な領域を監視することもできます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)してください。
 

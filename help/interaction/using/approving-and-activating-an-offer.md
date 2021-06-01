@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: オファーの承認と有効化
 description: オファーの承認と有効化
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
 

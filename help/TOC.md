@@ -8,10 +8,10 @@ user-guide-description: チャネルをまたいだマーケティングキャ�
 solution: Campaign Classic
 sub-product: Adobe Campaign Classic
 type: Documentation
-source-git-commit: a9a32b383d4709d9f0adf1e886d2ec3a9d601652
+source-git-commit: a9054fb8e10bef37675922b2f81c7615cd04c1bb
 workflow-type: tm+mt
-source-wordcount: '2522'
-ht-degree: 99%
+source-wordcount: '2477'
+ht-degree: 98%
 
 ---
 
@@ -567,40 +567,26 @@ ht-degree: 99%
       + [インバウンドチャネルでのオファー](interaction/using/offers-on-an-inbound-channel.md)
       + [アウトバウンドチャネルでのオファー](interaction/using/offers-on-an-outbound-channel.md)
 + トランザクションメッセージ {#transactional-messaging}
-   + トランザクションメッセージの基本を学ぶ {#introduction}
-      + [トランザクションメッセージについて](message-center/using/about-transactional-messaging.md)
+   + [トランザクションメッセージの基本を学ぶ](message-center/using/about-transactional-messaging.md)
+   + トランザクションメッセージの設定{#configure-transactional-messaging}
       + [トランザクションメッセージのアーキテクチャ](message-center/using/transactional-messaging-architecture.md)
-      + [イベントの説明](message-center/using/event-description.md)
-   + インスタンスの設定 {#instance-configuration}
-      + [共有接続の作成](message-center/using/creating-a-shared-connection.md)
-      + [実行インスタンスの特定](message-center/using/identifying-execution-instances.md)
-      + [しきい値の監視](message-center/using/monitoring-thresholds.md)
-      + [イベントのパージ](message-center/using/purging-events.md)
-      + [テクニカルワークフロー](message-center/using/technical-workflows.md)
-      + [イベントタイプの作成](message-center/using/creating-event-types.md)
-      + [マルチブランディングの設定](message-center/using/configuring-multibranding.md)
+      + [インスタンスの設定](message-center/using/configuring-instances.md)
+      + [その他の設定](message-center/using/additional-configurations.md)
    + メッセージテンプレート {#message-templates}
-      + [トランザクションメッセージテンプレートについて](message-center/using/introduction.md)
-      + [メッセージテンプレートの作成](message-center/using/creating-the-message-template.md)
-      + [メッセージコンテンツの作成](message-center/using/creating-message-content.md)
-      + [トランザクションメッセージでのシードアドレスの管理](message-center/using/managing-seed-addresses-in-transactional-messages.md)
-      + [パーソナライゼーションデータ](message-center/using/personalization-data.md)
-      + [トランザクションメッセージのプレビュー](message-center/using/transactional-message-preview.md)
-      + [配達確認の送信](message-center/using/sending-a-proof.md)
-      + [テンプレートの公開](message-center/using/template-publication.md)
-      + [テンプレートの非公開](message-center/using/template-unpublication.md)
-   + イベントの処理 {#event-processing}
-      + [イベントの処理について](message-center/using/about-event-processing.md)
-      + [イベントの収集](message-center/using/event-collection.md)
-      + [テンプレートへのルーティング](message-center/using/routing-towards-a-template.md)
+      + [イベントタイプの作成](message-center/using/creating-event-types.md)
+      + [メッセージテンプレートのデザイン](message-center/using/creating-the-message-template.md)
+      + [メッセージテンプレートのテスト](message-center/using/testing-message-templates.md)
+      + [メッセージテンプレートの公開](message-center/using/publishing-message-templates.md)
+   + トランザクションイベント処理{#processing}
+      + [イベントの説明](message-center/using/event-description.md)
+      + [イベントの処理](message-center/using/about-event-processing.md)
       + [配信の実行](message-center/using/delivery-execution.md)
    + レポート {#reports}
-      + [トランザクションメッセージレポートについて](message-center/using/about-transactional-messaging-reports.md)
+      + [トランザクションメッセージレポートへのアクセス](message-center/using/about-transactional-messaging-reports.md)
       + [Message Center のイベント履歴](message-center/using/history-of-message-center-events.md)
       + [Message Center のサービスレベル](message-center/using/message-center-service-level.md)
       + [Message Center の処理時間](message-center/using/message-center-processing-time.md)
-   + 使用例 {#use-case}
-      + [添付ファイル付きトランザクションメールの送信](message-center/using/transactional-email-with-attachments.md)
+   + [ユースケース](message-center/using/transactional-email-with-attachments.md)
 + ソーシャルメディアとの統合 {#integrating-with-social-media}
    + [ソーシャルマーケティングについて](social/using/about-social-marketing.md)
    + 設定 {#configuration}

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 最終配信の定義
 description: 専用の使用例を通してA/Bテストを実行する方法を学びます。
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: bc23a444-a872-48fb-8bba-64b301541089
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 100%
 

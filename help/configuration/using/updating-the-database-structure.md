@@ -1,23 +1,21 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: データベース構造の更新
 description: データベース構造の更新
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 6c1e061b-8636-4285-8d83-97474544d252
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 7%
+ht-degree: 49%
 
 ---
 
-
 # データベース構造の更新{#updating-the-database-structure}
 
-データベースに行った変更を適用するには、スキーマの更新ウィザードを起動します。 このウィザードにアクセスするには、**[!UICONTROL ツール/詳細/データベース構造を更新]**&#x200B;を使用します。 データベースの物理構造が論理的な記述と一致するかどうかを確認し、SQL更新スクリプトを実行します。
+スキーマに対する変更を適用するには、データベース更新ウィザードを起動します。 このウィザードには、 **[!UICONTROL ツール/詳細設定/データベース構造を更新]**&#x200B;からアクセスできます。 データベースの物理構造が論理的な記述と一致するかどうかを確認し、SQL 更新スクリプトを実行します。
 
 ![](assets/d_ncs_integration_schema_update.png)
 
@@ -25,19 +23,18 @@ ht-degree: 7%
 
 ![](assets/d_ncs_integration_schema_update_select.png)
 
-**[!UICONTROL ストアド・プロシージャ]**&#x200B;と&#x200B;**[!UICONTROL 初期化データのインポート]**&#x200B;の各オプションを使用して、初期SQLスクリプトと、データベースの作成時に実行されるデータパッケージを起動します。
+「**[!UICONTROL ストアド・プロシージャの追加]**」および「**[!UICONTROL 初期化データのインポート]**」オプションを使用して、初期SQLスクリプトと、データベースの作成時に実行されるデータ・パッケージを起動します。
 
-外部データパッケージから一連のデータを読み込むことができます。 これを行うには、「**[!UICONTROL パッケージの読み込み]**」を選択し、パッケージのXMLファイルを入力します。
+外部データパッケージから一連のデータを読み込むことができます。 これをおこなうには、「**[!UICONTROL パッケージをインポート]**」を選択し、パッケージのXMLファイルを入力します。
 
-次の手順に従い、データベース更新SQLスクリプトを表示します。
+手順に従い、データベース更新 SQL スクリプトを表示します。
 
 ![](assets/d_ncs_integration_schema_update2.png)
 
 >[!NOTE]
 >
->これは編集フィールドにあり、SQLコードを削除または追加するために変更できます。
+>このスクリプトは編集フィールドにあり、編集して SQL コードを削除または追加することもできます。
 
 次に、データベースの更新を起動します。
 
 ![](assets/d_ncs_integration_schema_update3.png)
-

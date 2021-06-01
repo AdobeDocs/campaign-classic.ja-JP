@@ -1,43 +1,41 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: スキーマエディションについて
-description: スキーマ版を使い始める
+description: スキーマエディションの概要
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
-translation-type: tm+mt
-source-git-commit: 87028ec81a8cae6793d45d7c840511b59cd0287c
+exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1011'
-ht-degree: 9%
+ht-degree: 64%
 
 ---
 
-
 # スキーマエディションについて{#about-schema-edition}
 
-Adobe Campaignでは、次の目的でデータスキーマを使用しています。
+Adobe Campaign では、次の目的でデータスキーマを使用しています。
 
 * アプリケーション内のデータオブジェクトが基盤となるデータベーステーブルにどのように関連付けられるかの定義
 * Campaign アプリケーション内での異なるデータオブジェクト間リンクの定義
 * 各オブジェクトに含まれている個々のフィールドの定義と記述
 
-キャンペーンの組み込みテーブルとそのやり取りについての詳細は、[このセクション](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html)を参照してください。
+Adobe Campaign キャンペーンの組み込みテーブルとそのやり取りについて詳しくは、[この節](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html)を参照してください。
 
-## スキーマの拡張または作成{#extending-or-creating-schemas}
+## スキーマ{#extending-or-creating-schemas}の拡張または作成
 
-受信者テーブル(nms:受信者)など、キャンペーンのコアデータスキーマの1つにフィールドやインデックスなどの要素を追加するには、そのスキーマを拡張する必要があります。 詳しくは、[スキーマの拡張](../../configuration/using/extending-a-schema.md)の節を参照してください。
+受信者テーブル(nms:recipient)など、Campaignのコアデータスキーマの1つにフィールドやインデックスなどの要素を追加するには、そのスキーマを拡張する必要があります。 詳しくは、[スキーマの拡張](../../configuration/using/extending-a-schema.md)の節を参照してください。
 
-Adobe Campaignにあらかじめ用意されているタイプのデータをまったく新しく追加するには（例えば契約表）、カスタムスキーマを直接作成します。 詳しくは、「[データスキーマ](../../configuration/using/data-schemas.md)」の節を参照してください。
+Adobe Campaign にあらかじめ用意されていないまったく新しい型のデータ（例：契約表）を追加するには、カスタムスキーマを直接作成します。 詳しくは、[データスキーマ](../../configuration/using/data-schemas.md)の節を参照してください。
 
 ![](assets/schemaextension_getting_started_1.png)
 
-作業対象のスキーマを拡張または作成したら、ベストプラクティスは、XMLコンテンツ要素を次に示すのと同じ順序で定義することです。
+作業するスキーマを拡張または作成したら、ベストプラクティスは、以下に示すのと同じ順序でXMLコンテンツ要素を定義することです。
 
 ## 列挙 {#enumerations}
 
-定義済みリストは、最初に、スキーマのメイン要素の前に定義されます。 特定のフィールドに対してリストが持つ選択肢を制限するために、ユーザーに値を表示できます。
+定義済みリストは、スキーマのメイン要素より先に定義します。 これにより、特定のフィールドに使用できる値のリストを表示して、ユーザーによる選択肢を制限することができます。
 
 例：
 
@@ -49,7 +47,7 @@ Adobe Campaignにあらかじめ用意されているタイプのデータをま
 </enumeration>
 ```
 
-フィールドを定義する際、次のように定義済みリストを使用できます。
+フィールドを定義する際は、次のような定義済みリストを使用できます。
 
 ```
 <attribute desc="Type of Transaction" label="Transaction Type" name="transactionType" 
@@ -58,15 +56,15 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!NOTE]
 >
->また、ユーザーが管理する定義済みリスト（通常は&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL プラットフォーム]**&#x200B;の下）を使用して、特定のフィールドの値を指定することもできます。 これらは効果的にグローバルな定義済みリストであり、作業対象の特定のスキーマ以外で定義済みリストを使用する場合は、より良い選択肢となります。
+>ユーザーが管理する定義済みリスト（通常は&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**&#x200B;の下にあり）を使用して、特定のフィールドの値を指定することもできます。これらは事実上グローバルな定義済みリストであり、作業している特定のスキーマ以外で使用する場合にも役立ちます。
 
-定義済みリストの詳細については、[定義済みリスト](../../configuration/using/schema-structure.md#enumerations)と[`<enumeration>`要素](../../configuration/using/schema/enumeration.md)の節を参照してください。
+列挙について詳しくは、 [列挙](../../configuration/using/schema-structure.md#enumerations)と[`<enumeration>`要素](../../configuration/using/schema/enumeration.md)の節を参照してください。
 
 ## インデックス {#index}
 
 インデックスは、スキーマのメイン要素で宣言された最初の要素です。
 
-一意であるかどうかに関係なく、1つ以上のフィールドを参照できます。
+一意である場合もそうでない場合もあり、1つ以上のフィールドを参照します。
 
 例：
 
@@ -83,19 +81,19 @@ type="string" enum="exTransactionTypeEnum"/>
 </dbindex>
 ```
 
-**xpath**&#x200B;属性は、スキーマ内のインデックスを作成するフィールドを指します。
+**xpath**&#x200B;属性は、インデックスを作成するスキーマ内のフィールドを指します。
 
 >[!IMPORTANT]
 >
->インデックスが提供するSQLクエリの読み取りパフォーマンスの向上には、レコードの書き込みパフォーマンスのヒットも伴うことを覚えておくことが重要です。 したがって、インデックスは用心して使用する必要があります。
+>インデックスが提供するSQLクエリ読み取りパフォーマンスの向上には、レコードの書き込み時のパフォーマンスヒットも伴うことを覚えておくことが重要です。 したがって、インデックスは予防策を講じて使用する必要があります。
 
-インデックスの詳細については、[インデックス付きフィールド](../../configuration/using/database-mapping.md#indexed-fields)の節を参照してください。
+インデックスについて詳しくは、 [インデックス付きのフィールド](../../configuration/using/database-mapping.md#indexed-fields)の節を参照してください。
 
-## キー{#keys}
+## キー {#keys}
 
-各テーブルには少なくとも1つのキーが必要で、多くの場合、**@autopk=true**&#x200B;属性を&quot;true&quot;に設定すると、スキーマのメイン要素にキーが自動的に設定されます。
+各テーブルには少なくとも1つのキーが必要で、多くの場合、**@autopk=true**&#x200B;属性を「true」に設定することで、スキーマのメイン要素に自動的にキーが確立されます。
 
-主キーは、**internal**&#x200B;属性を使用して定義することもできます。
+プライマリキーは、**internal** 属性を使用して定義することもできます。
 
 例：
 
@@ -105,21 +103,21 @@ type="string" enum="exTransactionTypeEnum"/>
 </key>
 ```
 
-この例では、**@autopk**&#x200B;属性で作成する代わりに、独自の「householdId」プライマリキーを指定する「id」という名前のデフォルトのプライマリキーを作成します。
+この例では、**@autopk**&#x200B;属性で「id」という名前のデフォルトのプライマリキーを作成する代わりに、独自の「householdId」プライマリキーを指定します。
 
 >[!IMPORTANT]
 >
->新しいスキーマを作成するときや、スキーマ拡張の際には、スキーマ全体で同じプライマリキーシーケンス値（@pkSequence）を維持する必要があります。
+>スキーマを新しく作成するときや、スキーマを拡張するときは、スキーマ全体で同じプライマリキーのシーケンス値（@pkSequence）を保持する必要があります。
 
-キーの詳細については、[キーの管理](../../configuration/using/database-mapping.md#management-of-keys)の節を参照してください。
+キーについて詳しくは、[キーの管理](../../configuration/using/database-mapping.md#management-of-keys)の節を参照してください。
 
-## 属性（フィールド） {#attributes--fields-}
+## 属性（フィールド）{#attributes--fields-}
 
-属性を使用すると、データオブジェクトを構成するフィールドを定義できます。 スキーマ版ツールバーの「**[!UICONTROL 挿入]**」ボタンを使用して、空の属性テンプレートをカーソルのあるXMLにドロップできます。 詳しくは、「[データスキーマ](../../configuration/using/data-schemas.md)」の節を参照してください。
+属性を使用すると、データオブジェクトを構成するフィールドを定義できます。 スキーマエディションのツールバーの「**[!UICONTROL 挿入]**」ボタンを使用すると、カーソルのある XML に空の属性テンプレートをドロップできます。詳しくは、[データスキーマ](../../configuration/using/data-schemas.md)の節を参照してください。
 
 ![](assets/schemaextension_getting_started_2.png)
 
-属性の完全なリストは、[`<attribute>`要素](../../configuration/using/schema/attribute.md)セクションで確認できます。 最も一般的に使用される属性の一部を以下に示します。
+属性の完全なリストは、[`<attribute>`要素](../../configuration/using/schema/attribute.md)の節で確認できます。 よく使用される属性の一部を次に示します。
 
 * **@advanced**
 * **@dataPolicy**
@@ -136,7 +134,7 @@ type="string" enum="exTransactionTypeEnum"/>
 * **@xml**
 * **@type**
 
-   Adobe Campaignが生成したデータ型のマッピングをリストした表を様々なデータベース管理システムで表示するには、[Adobe Campaign/DBMSデータの型のマッピング](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data)の節を参照してください。
+   様々なデータベース管理システムに対してAdobe Campaignが生成するデータ型のマッピングの一覧表を表示するには、[Adobe Campaign/DBMSデータのタイプのマッピング](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data)の節を参照してください。
 
 各属性について詳しくは、[属性の説明](../../configuration/using/schema/attribute.md)の節を参照してください。
 
@@ -148,19 +146,19 @@ type="string" enum="exTransactionTypeEnum"/>
 <attribute name="transactionDate" label="Transaction Date" type="datetime" default="GetDate()"/>
 ```
 
-共通属性をフィールドのテンプレートとして使用する場合の例で、必須ともマークされます。
+必須のマークも付けるフィールドのテンプレートとして共通属性を使用する例：
 
 ```
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
 ```
 
-**@advanced**&#x200B;属性を使用して非表示にする計算済みフィールドの例：
+“”**@advanced** 属性を使用して非表示にする計算フィールドの例。
 
 ```
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
-XMLフィールドの例は、SQLフィールドにも格納され、**@dataPolicy**&#x200B;属性を持ちます。
+**@dataPolicy** 属性を持ち、SQL フィールドにも格納される XML フィールドの例。
 
 ```
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
@@ -168,33 +166,33 @@ XMLフィールドの例は、SQLフィールドにも格納され、**@dataPoli
 
 >[!IMPORTANT]
 >
->ほとんどの属性はデータベースの物理フィールドに対して1 ～ 1の基数に基づいてリンクされますが、XMLフィールドや計算済みフィールドには該当しません。\
->XMLフィールドは、テーブルのメモ型フィールド(「mData」)に格納されます。\
->ただし、計算済みフィールドは、クエリを起動するたびに動的に作成されるので、アプリケーションレイヤーにのみ存在します。
+>ほとんどの属性はデータベースの物理フィールドに対して 1 - 1 の基数に従ってリンクされますが、これは XML フィールドや計算フィールドには該当しません。\
+>XML フィールドは、テーブルのメモ型フィールド（mData）に格納されます。\
+>ただし、計算フィールドはクエリを起動するたびに動的に作成されるので、作用するレイヤーにのみ存在します。
 
 ## リンク {#links}
 
-リンクは、スキーマのメイン要素の最後の要素の一部です。 インスタンス内のすべての様々なスキーマが相互にどのように関連付けられるかを定義します。
+スキーマのメイン要素の中で最後の要素のいくつかはリンクです。 リンクは、インスタンス内の様々なスキーマを相互にどのように関連付けるかを定義します。
 
-リンク先のテーブルの&#x200B;**外部キー**&#x200B;を含むスキーマでリンクが宣言されます。
+リンクは、リンク先のテーブルの&#x200B;**外部キー**&#x200B;を含んだスキーマで宣言します。
 
-基数には次の3種類があります。1-1、1-N、N-N。デフォルトで使用される1-N型です。
+基数には、1 - 1、1 - N、N - N の 3 つのタイプがあります。デフォルトで使用するのは 1 - N タイプです。
 
 ### 例 {#examples-1}
 
-受信者テーブル(標準搭載のスキーマ)とカスタムトランザクションのテーブル間の1-Nリンクの例を次に示します。
+受信者テーブル（標準提供のスキーマ）とカスタムトランザクションテーブルの間の 1 - N リンクの例：
 
 ```
 <element label="Recipient" name="lnkRecipient" revLink="lnkTransactions" target="nms:recipient" type="link"/>
 ```
 
-カスタムスキーマ「Car」(「cus」名前空間内)と受信者テーブル間の1-1リンクの例を次に示します。
+カスタムスキーマ「Car」（「cus」名前空間内）と受信者テーブルの間の 1 - 1 リンクの例：
 
 ```
 <element label="Car" name="lnkCar" revCardinality="single" revLink="recipient" target="cus:car" type="link"/>
 ```
 
-受信者テーブルと、主キーではなく、電子メールアドレスに基づくアドレスのテーブルとの外部結合の例：
+受信者テーブルと、プライマリキーでないメールアドレスで構成されるアドレステーブルとの外部結合の例：
 
 ```
 <element name="emailInfo" label="Email Info" revLink="recipient" target="nms:address" type="link" externalJoin="true">
@@ -202,13 +200,13 @@ XMLフィールドの例は、SQLフィールドにも格納され、**@dataPoli
 </element>
 ```
 
-ここで、「xpath-dst」はターゲットスキーマの主キーに対応し、「xpath-src」はソーススキーマの外部キーに対応します。
+「xpath-dst」はターゲットスキーマのプライマリキーに対応し、「xpath-src」はソーススキーマの外部キーに対応します。
 
 ## 監査記録 {#audit-trail}
 
-スキーマの下部に含めると便利な要素の1つに、トラッキング要素（監査証跡）があります。
+スキーマの最後に含めると便利な要素の 1 つは、トラッキング要素（監査記録）です。
 
-次の例を使用して、テーブル内のすべてのデータの作成日、データを作成したユーザー、日付、および最終変更の作成者に関するフィールドを含めます。
+次の例を使用すると、テーブル内のすべてのデータの作成日、作成者、最終更新日、最終更新者に関するフィールドを含めることができます。
 
 ```
 <element aggregate="xtk:common:auditTrail" name="auditTrail"/>
@@ -216,7 +214,7 @@ XMLフィールドの例は、SQLフィールドにも格納され、**@dataPoli
 
 ## データベース構造の更新 {#updating-the-database-structure}
 
-変更が完了し、保存されたら、SQL構造に影響を与える可能性のある変更をデータベースに適用する必要があります。 これを行うには、データベース更新ウィザードを使用します。
+変更を完了して保存したらデータベースに適用する必要がありますが、この変更は SQL 構造に影響を与える可能性があります。そのためには、データベース更新ウィザードを使用します。
 
 ![](assets/schemaextension_getting_started_3.png)
 
@@ -224,5 +222,4 @@ XMLフィールドの例は、SQLフィールドにも格納され、**@dataPoli
 
 >[!NOTE]
 >
->変更がデータベース構造に影響を与えない場合は、スキーマを再生成する必要があります。 これを行うには、更新するスキーマを選択し、右クリックして&#x200B;**[!UICONTROL Actions/Regenerate selectedスキーマ...を選択します。]**. 詳しくは、「[スキーマの再生成](../../configuration/using/regenerating-schemas.md)」を参照してください。
-
+>変更がデータベース構造に影響を与えない場合は、スキーマを再生成するだけです。 それには、更新するスキーマを選択し、右クリックして&#x200B;**[!UICONTROL アクション／選択したスキーマを再生成...]**&#x200B;を選択します。詳しくは、[スキーマの再生成](../../configuration/using/regenerating-schemas.md)の節を参照してください。

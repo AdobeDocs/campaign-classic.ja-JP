@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Message Center の処理時間
 description: 詳しくは、 Message Centerの処理時間レポートを参照してください。
@@ -7,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
-source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 89%

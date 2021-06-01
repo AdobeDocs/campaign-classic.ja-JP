@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 書式設定
 description: 書式設定
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 100%
 
@@ -69,7 +67,7 @@ JavaScript テンプレートは、スキーマやフォームと同様に、名
 **例**：
 
 * **content.@name**：メイン要素の「name」属性の値を取得します。
-* **content.@`['name']`**: **content.@name** 構文と同一です。
+* **コンテンツ@`['name']`**: **content.@name** 構文と同一です。
 * **content.chapter.length**：`<chapter` コレクション要素にある要素数を返します。
 * **content.chapter`[0]`.@name**：最初の `<chapter>` 要素の名前を取得します。
 * **chapter.name()**：`<chapter>` 要素の名前を返します。

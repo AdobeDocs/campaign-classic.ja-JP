@@ -1,21 +1,19 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: スクリプティングとコーディングのガイドライン
-description: Adobe Campaign(ワークフロー、JavaScript、JSSPなど)で開発する際に従うガイドラインについて詳しく説明します。
+title: スクリプトとコーディングのガイドライン
+description: Adobe Campaign（ワークフロー、JavaScript、JSSPなど）で開発する際に従うガイドラインについて説明します。
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-translation-type: tm+mt
-source-git-commit: f03554302c77a39a3ad68d47417ed930f43302b7
+exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
-
-# スクリプティングとコーディングのガイドライン{#scripting-coding-guidelines}
+# スクリプトとコーディングのガイドライン {#scripting-coding-guidelines}
 
 ## スクリプト作成
 
@@ -27,7 +25,7 @@ ht-degree: 70%
 
 * どうしても必要な場合は、文字列連結ではなく、パラメーター化関数（prepare 文）を使用します。
 
-   悪い練習：
+   悪い方法：
 
    ```
    sqlGetInt( "select iRecipientId from NmsRecipient where sEmail ='" + request.getParameter('email') +  "'  limit 1" )
@@ -54,7 +52,7 @@ SQL インジェクションを回避するには、Adobe Campaign で使用す�
 
 >[!IMPORTANT]
 >
->8140より古いビルドを使用している場合は、**XtkPassUnknownSQLFunctionsToRDBMS**&#x200B;オプションが&#39;1&#39;に設定されている可能性があります。 データベースを保護する場合は、このオプションを削除します（または「0」に設定します）。
+>8140より古いビルドを使用している場合、**XtkPassUnknownSQLFunctionsToRDBMS**&#x200B;オプションは「1」に設定される可能性があります。 データベースを保護する場合は、このオプションを削除します（または「0」に設定します）。
 
 ユーザー入力を使用してクエリや SQL 文でフィルターを作成する場合は、常にエスケープ処理をおこなう必要があります（[Campaign JSAPI のドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)「データ保護：関数のエスケープ」を参照）。次の関数が該当します。
 
@@ -76,7 +74,7 @@ SQL インジェクションを回避するには、Adobe Campaign で使用す�
 
 フォルダーベースのセキュリティモデルに加えて、ネームド権限を使用してオペレーターの操作を制限できます。
 
-* データへの読み取り/書き込みを防ぐために、いくつかのシステムフィルター(sysFilter)を追加できます（[このページ](../../configuration/using/filtering-schemas.md)を参照）。
+* データの読み取り/書き込みを防ぐために、システムフィルター(sysFilter)を追加できます（[このページ](../../configuration/using/filtering-schemas.md)を参照）。
 
    ```
    <sysFilter name="writeAccess">    
@@ -84,7 +82,7 @@ SQL インジェクションを回避するには、Adobe Campaign で使用す�
    </sysFilter>
    ```
 
-* スキーマで定義された一部の操作（SOAP メソッド）を保護することもできます。アクセス属性を、対応する名前のrightを値として設定します。
+* スキーマで定義された一部の操作（SOAP メソッド）を保護することもできます。アクセス属性に、対応するネームド権限を値として設定します。
 
    ```
    <method name="grantVIPAccess" access="myNewRole">
@@ -98,7 +96,7 @@ SQL インジェクションを回避するには、Adobe Campaign で使用す�
 
 >[!IMPORTANT]
 >
->navtreeのコマンドノードでネームド権限を使用できます。 これにより、ユーザーエクスペリエンスは向上しますが、保護はされません（非表示／無効にするには、クライアント側のみを使用します）。アクセス属性を使用する必要があります。
+>ネームド権限は、ナビゲーションツリーのコマンドノードで使用できます。 これにより、ユーザーエクスペリエンスは向上しますが、保護はされません（非表示／無効にするには、クライアント側のみを使用します）。アクセス属性を使用する必要があります。
 
 ### オーバーフローテーブル
 
@@ -116,7 +114,7 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
 
 1. **[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL パーソナライゼーションブロック]**&#x200B;に移動し、新しいパーソナライゼーションブロックを作成します。
 
-1. **[!UICONTROL Web アプリケーション]**&#x200B;のコンテンツタイプを使用し、「**[!UICONTROL カスタマイズメニューに表示]**」をオンにします。
+1. **[!UICONTROL Webアプリケーション]**&#x200B;のコンテンツタイプを使用し、「**[!UICONTROL カスタマイズメニューに表示]**」をオンにします。
 
    詳しくは、[このページ](../../delivery/using/personalization-blocks.md)を参照してください。
 
@@ -160,13 +158,13 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
 
    ![](assets/scripting-captcha2.png)
 
-1. ブランチTrueの条件を`"[vars/captchaValid]"`等しいTrueで編集します。
+1. 分岐Trueの条件を`"[vars/captchaValid]"`がTrueに等しいと編集します。
 
    ![](assets/scripting-captcha3.png)
 
-1. **[!UICONTROL スクリプト]**&#x200B;アクティビティを編集します。 コンテンツは、選択したcaptchaエンジンに応じて異なります。
+1. **[!UICONTROL スクリプト]**&#x200B;アクティビティを編集します。 コンテンツは、選択したCaptchaエンジンに応じて異なります。
 
-1. 最後に、パーソナライズしたブロックをページに追加できます。[このページ](../../web/using/editing-content.md)を参照。
+1. 最後に、パーソナライズしたブロックをページに追加できます。[このページ](../../web/using/editing-content.md)を参照してください。
 
    ![](assets/scripting-captcha4.png)
 
@@ -174,11 +172,11 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
 
 >[!IMPORTANT]
 >
->reCAPTCHA統合の場合、HTMLに（`<head>...</head>`の）クライアント側のJavaScriptを追加する必要があります。
+>reCAPTCHA統合の場合、クライアント側のJavaScriptをHTML内（`<head>...</head>`内）に追加する必要があります。
 >
 >`<script src="https://www.google.com/recaptcha/api.js" async defer></script>`
 
-### キャンペーンカプチャ
+### Campaign Captcha
 
 ```javascript
 var captchaID = request.getParameter("captchaID");
@@ -196,9 +194,9 @@ else
 
 6 行目：あらゆる種類のエラーメッセージを出力できます。
 
-### Google Recaptcha
+### Google recaptcha
 
-[公式文書](https://developers.google.com/recaptcha/docs/verify)を参照してください。
+[公式ドキュメント](https://developers.google.com/recaptcha/docs/verify)を参照してください。
 
 ```javascript
 ctx.vars.captchaValid = false

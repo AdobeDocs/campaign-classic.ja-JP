@@ -1,24 +1,22 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: フォームの識別
 description: フォームの識別
 audience: configuration
 content-type: reference
 topic-tags: input-forms
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 14%
+ht-degree: 59%
 
 ---
 
-
 # フォームの識別{#identifying-a-form}
 
-入力フォームを使用すると、Adobe Campaignクライアントコンソールから、データスキーマに関連付けられたインスタンスを編集できます。
+入力フォームを使用すると、データスキーマに関連付けられたインスタンスを Adobe Campaign クライアントコンソールから編集できます。 
 
-フォームは名前と名前空間で識別されます。
+フォームは名前と名前空間で識別します。
 
-フォームのIDキーは、名前空間と名前をコロン(:)で区切った文字列です(例：「cus:contact」)。
+フォームの識別キーは、コロン(&#39;:&#39;)で区切られた名前空間と名前で構成される文字列です(例：&quot;cus:contact&quot;)。

@@ -2,20 +2,19 @@
 solution: Campaign Classic
 product: campaign
 title: 配信の実行
-description: 配信の実行
+description: トランザクションメッセージ配信の実行と監視について詳しく説明します。
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '230'
-ht-degree: 100%
+source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 86%
 
 ---
 
-# 配信の実行{#delivery-execution}
+# 配信の実行 {#delivery-execution}
 
 ## を送信中のトランザクションメッセージ {#transactional-message-send}
 
@@ -39,7 +38,7 @@ ht-degree: 100%
 
 ## トランザクションメッセージの監視 {#transactional-message-monitoring}
 
-トランザクションメッセージを監視するには、配信ログを確認します。配信ログへのアクセスについては、[この節](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)を参照してください。
+トランザクションメッセージを監視するには、[配信ログ](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)を確認します。
 
 実行インスタンスから送信されるトランザクション配信は、1 時間ごとに実行されるテクニカルワークフロー（**[!UICONTROL Message Center 実行インスタンス]**）を通じてコントロールインスタンスに同期されます。
 
@@ -73,3 +72,5 @@ Let's take a [delivery template](../../message-center/using/introduction.md) lab
 To summarize, the deliveries weekly accumulate the events based on the latest event update, and not on the event creation date.
 
 Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID changes every week.-->
+
+実行インスタンスのアクティビティと実行を監視するには、[トランザクションメッセージレポート](../../message-center/using/about-transactional-messaging-reports.md)を参照してください。

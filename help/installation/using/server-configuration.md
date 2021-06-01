@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: サーバーセキュリティの設定
-description: サーバー設定のベストプラクティスの詳細
+title: サーバーのセキュリティ設定
+description: サーバー設定のベストプラクティスの詳細を説明します
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-translation-type: tm+mt
-source-git-commit: ae4f86f3703b9bfe7f08fd5c2580dd5da8c28cbd
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 70%
@@ -19,7 +17,7 @@ ht-degree: 70%
 
 ## ファイルアップロードの保護
 
-運用ユーザに対して、キャンペーンクライアントコンソールまたはWebインターフェイスを使用して、サーバにアップロードするファイルの種類を確認します。 次に、業務上必要である可能性のあるものを示します。
+CampaignクライアントコンソールまたはWebインターフェイスを使用して、サーバーにアップロードするファイルの種類を運用ユーザーに確認します。 次に、ビジネス上必要である可能性のあるものを示します。
 
 * 画像（jpg、gif、png など）
 * コンテンツ（zip、html、css など）
@@ -30,11 +28,11 @@ ht-degree: 70%
 
 これらすべてを serverConf/shared/datastore/@uploadAllowlist（有効な Java 正規表現）に追加します。詳しくは、[このページ](../../installation/using/file-res-management.md)を参照してください。
 
-Adobe Campaign では、ファイルサイズは制限されません。ただし、IIS/Apacheを設定することで実行できます。 詳しくは、[この節](../../installation/using/web-server-configuration.md)を参照してください。
+Adobe Campaign では、ファイルサイズは制限されません。ただし、IIS/Apacheを設定することで実行できます。 詳細については、[この節](../../installation/using/web-server-configuration.md)を参照してください。
 
 ## リレー
 
-詳細は、[このページ](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays)を参照してください。
+詳しくは、[このページ](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays)を参照してください。
 
 デフォルトでは、すべての動的ページは、Web モジュールが起動されるマシンのローカルの Tomcat サーバーに自動的にリレーされます。それらの一部をリレーしないように設定することもできます。Adobe Campaign モジュールの一部（Web アプリ、インタラクション、一部の JSP など）を使用しない場合、リレールールから除外できます。
 
@@ -44,13 +42,13 @@ Adobe Campaign では、ファイルサイズは制限されません。ただ�
 
 ## 発信接続の保護
 
-Campaign Classic インスタンスの JavaScript コード（ワークフローなど）で呼び出すことができる URL のデフォルトリストは、が制限される。 新しいURLを許可するには、管理者は[serverConf.xmlファイル](../../installation/using/the-server-configuration-file.md)でURLを参照する必要があります。
+Campaign Classic インスタンスの JavaScript コード（ワークフローなど）で呼び出すことができる URL のデフォルトリストは、が制限される。 新しいURLを許可するには、管理者が[serverConf.xmlファイル](../../installation/using/the-server-configuration-file.md)でそのURLを参照する必要があります。
 
 3 つの接続保護モードがあります。
 
-* **ブロック** :許可リストに属していないURLはすべてブロックされ、エラーメッセージが表示されます。これは、ポストアップグレード後のデフォルトのモードです。
-* **権限設定** :許可リストに属していないURLはすべて許可されます。
-* **警告** :許可リスト上にないすべてのURLは許可されますが、JSインタプリタは警告を発し、管理者がそれらを収集できるようにします。このモードでは JST-310027 警告メッセージが追加されます。
+* **ブロック** :そのメッセージに属さないURLはすべて許可リストにブロックされ、エラーメッセージが表示されます。これは、ポストアップグレード後のデフォルトのモードです。
+* **許可** :そのユーザーに属さないURLをすべて許可リストできます。
+* **警告** :許可リスト上にないすべてのURLが許可されますが、JSインタプリタが警告を表示するので、管理者はそれらを収集できます。このモードでは JST-310027 警告メッセージが追加されます。
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -66,11 +64,11 @@ Campaign Classic インスタンスの JavaScript コード（ワークフロー
 
 ## コマンドの制限（サーバー側）
 
-いくつかのコマンドがブラックリストに追加され、execCommand 関数で実行できないようになりました。また、セキュリティを強化するために、外部コマンド実行専用の Unix ユーザーが追加されました。ホストされているインスタンスの場合は、この制限が自動的に適用されます。オンプレミスインストールの場合は、[このページ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)の指示に従って、手動でこの制限を設定できます。 また、ワークフローアクティビティとして「**[!UICONTROL スクリプト]**」と「**[!UICONTROL 外部タスク]**」を選択できなくなりました（新しくインストールされたインスタンスの場合）。
+いくつかのコマンドがブラックリストに追加され、execCommand 関数で実行できないようになりました。また、セキュリティを強化するために、外部コマンド実行専用の Unix ユーザーが追加されました。ホストされているインスタンスの場合は、この制限が自動的に適用されます。オンプレミスインストールの場合は、[このページ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)の指示に従って、この制限を手動で設定できます。 また、ワークフローアクティビティとして「**[!UICONTROL スクリプト]**」と「**[!UICONTROL 外部タスク]**」を選択できなくなりました（新しくインストールされたインスタンスの場合）。
 
 ## その他の設定
 
-すべてのページにHTTPヘッダを追加できます（詳しくは、[このページ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)を参照）。
+すべてのページにHTTPヘッダーを追加できます（詳しくは、[このページ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)を参照）。
 
 * HSTS、X-FRAME-OPTIONS、CSP などのヘッダーを追加できます。
 * 本番環境に適用する前に、テスト環境でテストする必要があります。
@@ -79,10 +77,10 @@ Campaign Classic インスタンスの JavaScript コード（ワークフロー
    >
    >特定のヘッダーを追加すると、Adobe Campaign で異常が発生する場合があります。
 
-Adobe Campaignを使用すると、`<dbcnx .../>`要素にプレーンパスワードを設定できます。 この機能は使用しないでください。
+Adobe Campaignでは、`<dbcnx .../>`要素にプレーンパスワードを設定できます。 この機能は使用しないでください。
 
-デフォルトでは、Adobe Campaign はセッションを特定の IP に関連付けませんが、この機能を有効にして、セッションが乗っ取られないようにすることができます。これを行うには、[serverConf.xmlファイル](../../installation/using/the-server-configuration-file.md)で、`<authentication>`ノードのcheckIPConsistent属性を&#x200B;**true**&#x200B;に設定します。
+デフォルトでは、Adobe Campaign はセッションを特定の IP に関連付けませんが、この機能を有効にして、セッションが乗っ取られないようにすることができます。これをおこなうには、[serverConf.xmlファイル](../../installation/using/the-server-configuration-file.md)で、`<authentication>`ノードのcheckIPConsistent属性を&#x200B;**true**&#x200B;に設定します。
 
-デフォルトでは、Adobe Campaign の MTA は、コンテンツを SMTP サーバーに送信する際にセキュリティ保護された接続を使用しません。この機能を有効にする必要があります（配信速度が低下する可能性があります）。これを行うには、`<smtp ...>`ノードで&#x200B;**enableTLS**&#x200B;を&#x200B;**true**&#x200B;に設定します。
+デフォルトでは、Adobe Campaign の MTA は、コンテンツを SMTP サーバーに送信する際にセキュリティ保護された接続を使用しません。この機能を有効にする必要があります（配信速度が低下する可能性があります）。これをおこなうには、`<smtp ...>`ノードで&#x200B;**enableTLS**&#x200B;を&#x200B;**true**&#x200B;に設定します。
 
 認証ノードでセッションの持続時間を短くすることができます（sessionTimeOutSec 属性）。

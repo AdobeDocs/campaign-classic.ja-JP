@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 除外
 description: 除外ワークフローアクティビティの詳細を説明します
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: f4fe97d9-6571-4aa5-8022-b0af9d5a6a13
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 
@@ -53,7 +51,7 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
 この 3 つの値セットは、除外によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

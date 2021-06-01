@@ -7,7 +7,7 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+source-git-commit: c41ca3d518391a648629ebc3fcd4c916e92c3a79
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 43%
@@ -23,6 +23,7 @@ ht-degree: 43%
 イベントデータの例：
 
 ![](assets/messagecenter_events_request_001.png)
+
 ## イベント処理手順{#event-processing}
 
 トランザクションメッセージイベントを処理するには、次の手順を実行インスタンスに適用します。

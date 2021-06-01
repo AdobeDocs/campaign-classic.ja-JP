@@ -1,36 +1,34 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: ネットワーク、データベース、SSL／TLS
+title: ネットワーク、データベース、SSL/TLS
 description: ネットワーク、データベース、SSL/TLS設定のベストプラクティスの詳細を説明します。
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
-translation-type: tm+mt
-source-git-commit: 63b2e6b95812f1649e636580984a1f0dcc9c5c53
+exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 54%
 
 ---
 
-
-# ネットワーク、データベース、SSL／TLS {#network-database}
+# ネットワーク、データベース、SSL/TLS {#network-database}
 
 ## ネットワーク設定
 
-オンプレミスタイプのアーキテクチャを導入する際に確認する必要がある重要な点は、[ネットワーク設定](../../installation/using/network-configuration.md)です。 Tomcat サーバーに外部から直接アクセスできないことを確認します。
+オンプレミスタイプのアーキテクチャをデプロイする際に確認すべき重要な点は、[ネットワーク設定](../../installation/using/network-configuration.md)です。 Tomcat サーバーに外部から直接アクセスできないことを確認します。
 
 * 外部 IP の Tomcat ポート（8080）を閉じます（localhost では動作する必要があります）。
 * 標準 HTTP ポート（80）を Tomcat ポート（8080）にマッピングしないようにします。
 
-可能な場合は、次の安全なチャネルを使用します。POP3はPOP3（またはTLS上のPOP3）の代わりにPOP3Sを使用します。
+可能な場合は、セキュアチャネルを使用します。POP3（またはPOP3 over TLS）の代わりにPOP3Sが使用されます。
 
 ## データベース
 
-データベースエンジンのセキュリティに関するベストプラクティスを適用する必要があります。
+データベースエンジンのセキュリティのベストプラクティスを適用する必要があります。
 
-## SSL/TLSの設定
+## SSL/TLS設定
 
 証明書をチェックするには、OpenSSL を使用します。アクティブな暗号をチェックするには、nmap を使用します。
 

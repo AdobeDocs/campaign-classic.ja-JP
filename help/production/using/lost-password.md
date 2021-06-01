@@ -1,49 +1,47 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: パスワードを忘れた場合
 description: パスワードを忘れた場合
 audience: production
 content-type: reference
 topic-tags: troubleshooting
-translation-type: tm+mt
-source-git-commit: 1fdee02e98ce66ec184d8587d0838557f027cf75
+exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 7%
 
 ---
 
-
 # パスワードを忘れた場合{#lost-password}
 
-パスワードを失った場合は、パスワードの変更や復元が可能です。
+パスワードを変更または復元できます。
 次の2つのシナリオが考えられます。
 
-* [Adobe Campaign演算子によってパスワードが失われました](#password-lost-by-campaign-operator)
-* [内部パスワードの損失](#internal-password-lost) （オンプレミスのお客様のみ）
+* [Adobe Campaignのオペレーターがパスワードを失った](#password-lost-by-campaign-operator)
+* [内部パスワードの紛失](#internal-password-lost) （オンプレミス版のお客様のみ）
 
-## キャンペーン演算子{#password-lost-by-campaign-operator}によってパスワードが失われました
+## Campaignオペレーター{#password-lost-by-campaign-operator}によってパスワードが失われた
 
-Adobe Campaign演算子がパスワードを失った場合は、パスワードを変更できます。
-これをおこなうには、以下の手順に従います。
+Adobe Campaignのオペレーターがパスワードを失った場合は、パスワードを変更できます。
+それには、次の手順に従います。
 
-1. オペレーター経由で管理者権限を持つ接続。
+1. 管理者権限を持つオペレーターを使用して接続します。
 1. 演算子を右クリックします。
-1. **[!UICONTROL アクション]**/**[!UICONTROL パスワードをリセット]**&#x200B;を選択します。
+1. **[!UICONTROL アクション]** > **[!UICONTROL パスワードをリセット]**&#x200B;を選択します。
 
    ![](assets/operator-passwd.png)
 
-1. 演算子の新しいパスワードを設定します。 オペレーターが最初に再接続する際に、パスワードを変更することをお勧めします。
+1. オペレーターの新しいパスワードを設定します。 オペレーターが最初の再接続時にパスワードを変更することをお勧めします。
 
 ## 内部パスワードが失われました{#internal-password-lost}
 
 >[!NOTE]
 >
->この節は、オンプレミスのお客様にのみ当てはまります。
+>この節の説明は、オンプレミス版のお客様のみに当てはまります。
 
 内部パスワードが失われた場合は、再初期化する必要があります。
-これを行うには、次の手順を適用します。
+これをおこなうには、次の手順に従います。
 
 1. **/usr/local/neolane/nl6/conf/serverConf.xml**&#x200B;ファイルを編集します。
 
@@ -54,9 +52,9 @@ Adobe Campaign演算子がパスワードを失った場合は、パスワード
    <xtk internalPassword="myPassword"/>
    ```
 
-1. 引用符で囲んだ文字列を削除します（次の場合）。**myPassword**
+1. 引用符で囲まれた文字列を削除します（この場合は次のようにします）。**myPassword**
 
-   次の行を取得します。
+   次の行が得られます。
 
    ```
    !-- XTK authentication mode internalPassword : Password of internal account -->
@@ -65,7 +63,7 @@ Adobe Campaign演算子がパスワードを失った場合は、パスワード
 
 1. 変更を保存し、ファイルを閉じます。
 
-1. 新しいパスワードを設定します。 これを行うには、次のコマンドを入力します。
+1. 新しいパスワードを設定します。 これをおこなうには、次のコマンドを入力します。
 
    ```
    nlserver config -internalpassword
@@ -77,4 +75,4 @@ Adobe Campaign演算子がパスワードを失った場合は、パスワード
    Confirmation 
    ```
 
-1. これで、新しいパスワードを使用して、**内部**&#x200B;モードで接続できます。
+1. これで、新しいパスワードを使用して&#x200B;**内部**&#x200B;モードで接続できます。

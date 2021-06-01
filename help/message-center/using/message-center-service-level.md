@@ -1,27 +1,30 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Message Center サービスレベル
-description: Message Center サービスレベル
+title: Message Center のサービスレベル
+description: Message Centerのサービスレベルレポートの詳細を説明します。
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 89%
 
 ---
 
-# Message Center サービスレベル{#message-center-service-level}
+# Message Center サービスレベル {#message-center-service-level}
 
-このレポートでは、トランザクションメッセージに関する配信の統計およびエラーの分類が表示されます。エラータイプをクリックするとエラーの詳細を表示することができます。技術管理者を対象としたこのレポートには、コントロールインスタンスの「**[!UICONTROL 監視]**」タブからアクセスすることもできます。
+このレポートでは、トランザクションメッセージに関する配信の統計およびエラーの分類が表示されます。エラータイプをクリックするとエラーの詳細を表示することができます。
+
+技術管理者向けのこのレポートは、コントロールインスタンスの「**[!UICONTROL 監視]**」タブからもアクセスできます。
 
 ![](assets/mc_reports_1.png)
 
-このレポートでは、総合的な統計または特定の実行インスタンスに関する統計のいずれかを選択して表示することができます。また、チャネルおよび一定期間の検索条件を追加することもできます。「**[!UICONTROL 全期間の指標]**」セクションに表示される指標は、選択した期間を対象に計算されます。
+このレポートでは、総合的な統計または特定の実行インスタンスに関する統計のいずれかを選択して表示することができます。また、チャネルおよび一定期間の検索条件を追加することもできます。
+
+「**[!UICONTROL 全期間の指標]**」セクションに表示される指標は、選択した期間を対象に計算されます。
 
 * **[!UICONTROL 受信 (スループット、1 時間あたりのイベント数)]**：Message Center のキューに入ったイベントの 1 時間あたりの平均数。
 * **[!UICONTROL 受信 (イベントの量)]**：Message Center のキューに入ったイベントの数。
@@ -32,4 +35,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->警告（オレンジ）およびアラート（赤）指標のしきい値は、デプロイウィザードで設定することができます。[しきい値の監視](../../message-center/using/monitoring-thresholds.md)を参照してください。
+>警告（オレンジ）およびアラート（赤）指標のしきい値は、デプロイウィザードで設定することができます。[しきい値の監視](../../message-center/using/additional-configurations.md#monitoring-thresholds)を参照してください。

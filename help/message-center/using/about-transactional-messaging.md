@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 12%
@@ -40,7 +40,7 @@ ht-degree: 12%
 
 Adobe Campaignトランザクションメッセージモジュールは、情報システムに統合され、返されるイベントをパーソナライズされたトランザクションメッセージに変更します。 これらのメッセージは、個別に送信することも、E メール、SMS またはプッシュ通知を介してまとめて送信することもできます。
 
-この機能は、特定のアーキテクチャに依存しています。ここで、**実行インスタンス**&#x200B;は&#x200B;**コントロールインスタンス**&#x200B;とは別になっています。 この配布により、可用性が高く、負荷管理が向上します。 詳しくは、[トランザクションメッセージインスタンス](../../message-center/using/transactional-messaging-architecture.md)を参照してください。
+この機能は、特定のアーキテクチャに依存しています。ここで、**実行インスタンス**&#x200B;は&#x200B;**コントロールインスタンス**&#x200B;とは別になっています。 この配布により、可用性が高く、負荷管理が向上します。 詳しくは、[トランザクションメッセージのアーキテクチャ](../../message-center/using/transactional-messaging-architecture.md)を参照してください。
 
 >[!NOTE]
 >
@@ -81,8 +81,8 @@ Adobe Campaignでパーソナライズされたトランザクションメッセ
 
 トランザクションメッセージテンプレートを設計して公開すると、対応するイベントがトリガーされた場合、以下の主な手順が&#x200B;**実行インスタンス**&#x200B;で実行されます。
 
-1. 外部情報システムによってイベントが生成されると、関連データが&#x200B;**PushEvent**&#x200B;および&#x200B;**PushEvents**&#x200B;メソッドを介してCampaignに送信されます。 [イベントの収集](#event-collection)を参照してください。
-1. イベントは、適切なメッセージテンプレートにリンクされています。 [テンプレート](#routing-towards-a-template)へのルーティングを参照してください。
+1. 外部情報システムによってイベントが生成されると、関連データが&#x200B;**PushEvent**&#x200B;および&#x200B;**PushEvents**&#x200B;メソッドを介してCampaignに送信されます。 [イベントの収集](../../message-center/using/about-event-processing.md#event-collection)を参照してください。
+1. イベントは、適切なメッセージテンプレートにリンクされています。 [テンプレート](../../message-center/using/about-event-processing.md#routing-towards-a-template)へのルーティングを参照してください。
 1. エンリッチメントステージが完了すると、配信が送信されます。 [配信の実行](../../message-center/using/delivery-execution.md)を参照してください。 各ターゲット受信者は、パーソナライズされたメッセージを受信します。
 
 ## 関連トピック {#related-topics}
@@ -90,4 +90,4 @@ Adobe Campaignでパーソナライズされたトランザクションメッセ
 * [通信チャネルの概要](../../delivery/using/communication-channels.md)
 * [配信の作成に関する主な手順](../../delivery/using/steps-about-delivery-creation-steps.md)
 * [トランザクションメッセージのアーキテクチャ](../../message-center/using/transactional-messaging-architecture.md)
-* [トランザクションメッセージレポートについて](../../message-center/using/about-transactional-messaging-reports.md)
+* [トランザクションメッセージレポートへのアクセス](../../message-center/using/about-transactional-messaging-reports.md)

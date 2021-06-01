@@ -7,18 +7,18 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
 workflow-type: tm+mt
 source-wordcount: '1732'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
 # 外部アカウント{#external-accounts}
 
-Adobe Campaign には、事前定義済みの外部アカウントのセットが付属します。外部システムとの接続を設定するには、新しい外部アカウントを作成できます。
+Adobe Campaign には、事前に定義された一連の外部アカウントが付属しています。外部システムとの接続を設定する場合は、新しい外部アカウントを作成します。
 
-外部アカウントは、テクニカルワークフローやキャンペーンワークフロー等の技術プロセスで使用されます。例えば、ワークフロー内のファイル転送や、他のアプリケーション(Adobe Target、Experience Managerなど)とのデータ交換を設定する場合は、外部アカウントを選択する必要があります。
+外部アカウントは、テクニカルワークフローやキャンペーンワークフローなどの技術プロセスで使用されます。例えば、ワークフローにおけるファイル転送や、他のアプリケーション（Adobe Target、Experience Manager など）とのデータ交換などをセットアップする場合、外部アカウントを選択する必要がありす。
 
 ##  外部アカウントの作成 {#creating-an-external-account}
 
@@ -112,7 +112,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 
    「オペレーター」フォルダーで定義されたアカウントのパスワード。
 
-この設定について詳しくは、この[ページ](../../message-center/using/creating-a-shared-connection.md#control-instance)を参照してください。
+この設定について詳しくは、この[ページ](../../message-center/using/configuring-instances.md#control-instance)を参照してください。
 
 
 ## 外部システムの外部アカウントへのアクセス

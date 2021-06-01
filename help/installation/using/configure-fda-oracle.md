@@ -1,26 +1,24 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Oracle へのアクセスの設定
-description: FDAでのOracleへのアクセスを設定する方法を学びます。
+description: FDAでOracleへのアクセスを設定する方法
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 73%
 
 ---
 
-
 # Oracle へのアクセスの設定 {#configure-access-to-oracle}
 
-キャンペーン[Federated Data Access](../../installation/using/about-fda.md) (FDA)オプションを使用して、外部データベースに格納された情報を処理します。 次の手順に従って、Oracleへのアクセスを設定します。
+外部データベースに保存された情報を処理するには、Campaignの[Federated Data Access](../../installation/using/about-fda.md)(FDA)オプションを使用します。 次の手順に従って、Oracleへのアクセスを設定します。
 
-1. [Linux](#oracle-linux)または[Windows](#azure-windows)でOracleを設定
-1. キャンペーンでOracle[外部アカウント](#oracle-external)を設定
+1. [Linux](#oracle-linux)または[Windows](#azure-windows)上でOracleを設定する
+1. CampaignでOracle[外部アカウント](#oracle-external)を設定します
 
 ## Oracle（Linux） {#oracle-linux}
 
@@ -62,7 +60,7 @@ FDA で Oracle 外部データベースに接続するには、Adobe Campaign �
       yum install libaio1
       ```
 
-1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。外部アカウントの構成方法について詳しくは、[この](#oracle-external)を参照してください。
+1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[この節](#oracle-external)を参照してください。
 
 ## Oracle（Windows） {#oracle-windows}
 
@@ -74,13 +72,13 @@ FDA で Oracle 外部データベースに接続するには、Adobe Campaign �
 
 1. TNS_ADMIN 環境変数を追加して値を C:\Oracle に設定し、マシンを再起動します。
 
-1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。外部アカウントの構成方法について詳しくは、[この](#oracle-external)を参照してください。
+1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[この節](#oracle-external)を参照してください。
 
 ## Oracle 外部アカウント {#oracle-external}
 
-[!DNL Oracle]外部アカウントを使用すると、キャンペーンインスタンスをOracle外部データベースに接続できます。
+[!DNL Oracle]外部アカウントを使用すれば、CampaignインスタンスをOracle外部データベースに接続できます。
 
-1. キャンペーン&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]**&#x200B;を選択します。
+1. Campaignの&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]**&#x200B;を選択します。
 
 1. 「**[!UICONTROL 新規]**」を選択します。
 
@@ -97,6 +95,4 @@ FDA で Oracle 外部データベースに接続するには、Adobe Campaign �
    * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
 
    * **[!UICONTROL タイムゾーン]**：サーバーのタイムゾーン
-
    ![](assets/oracle_config.png)
-

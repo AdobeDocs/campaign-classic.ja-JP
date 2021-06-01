@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: コンテンツの編集
 description: コンテンツの編集
@@ -7,9 +6,8 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 100%
 
@@ -137,6 +135,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 >* 新しいウィンドウ (_blank)
 >* 現在のウィンドウ (_self)
 >* ブラウザーのデフォルト動作
+
 >
 
 
@@ -202,8 +201,9 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 >[!NOTE]
 >
 >* **削除**&#x200B;アイコン：ブロックおよびそのすべてのコンテンツを削除します。
->
->* **複製**&#x200B;アイコン：ブロックおよびブロックに関連するすべてのスタイルを複製します。
+   >
+   >
+* **複製**&#x200B;アイコン：ブロックおよびブロックに関連するすべてのスタイルを複製します。
 
 
 ## 画像とアニメーションの管理 {#managing-images-and-animations}

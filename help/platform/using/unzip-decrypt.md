@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: ファイルの解凍または復号化
 description: 処理をおこなう前に Campaign Classic でファイルを解凍または復号化する方法について説明します。
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 100%
 
@@ -56,7 +54,7 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 このユースケースを実行する手順は次のとおりです。
 
-1. Campaign コントロールパネルを使用して、キーペア（公開鍵と秘密鍵）を生成します。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)を参照してください。
+1. Campaign コントロールパネルを使用して、キーペア（公開鍵と秘密鍵）を生成します。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)を参照してください。
 
    * 公開鍵は外部システムと共有され、外部システムはこのキーを使用して Campaign に送信するデータを暗号化します。
    * 秘密鍵は、受信する暗号化されたデータを復号化するために Campaign Classic で使用されます。

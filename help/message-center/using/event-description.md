@@ -1,25 +1,24 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: メッセージセンターイベントの説明
-description: トランザクションメッセージイベントの詳細
+title: イベントの説明
+description: SOAPメソッドを使用して、Adobe Campaign Classicでトランザクションメッセージイベントを管理する方法を説明します。
 audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '747'
-ht-degree: 100%
+source-git-commit: d39b15b0efc6cbd6ab24e074713be6f8fc90e5fc
+workflow-type: tm+mt
+source-wordcount: '752'
+ht-degree: 94%
 
 ---
 
-# イベントの説明{#event-description}
+# イベントの説明 {#event-description}
 
-## トランザクションメッセージのデータモデルについて {#about-transactional-messaging-datamodel}
+## トランザクションメッセージデータモデル{#about-transactional-messaging-datamodel}
 
-トランザクションメッセージは Adobe Campaign データモデルに依存し、2 つの追加の別個のテーブルを使用します。これらの[テーブル](../../configuration/using/data-model-description.md#message-center-module)（**NmsRtEvent** および **NmsBatchEvent**）には同じフィールドが含まれており、一方でリアルタイムイベントを管理し、もう一方でバッチイベントを管理できます。
+トランザクションメッセージは Adobe Campaign データモデルに依存し、2 つの追加の別個のテーブルを使用します。これらの[テーブル](../../configuration/using/data-model-description.md#message-center-module)、**NmsRtEvent**&#x200B;および&#x200B;**NmsBatchEvent**&#x200B;には同じフィールドが含まれ、一方でリアルタイムイベントを管理し、他方でバッチイベントを管理できます。
 
 ## SOAP メソッド {#soap-methods}
 

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: データスキーマ
 description: データスキーマ
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 100%
 
@@ -71,7 +69,7 @@ Adobe Campaign でのデータスキーマの作成と設定について詳し�
 </element>
 ```
 
-## プロパティ {#properties}
+## 「PROPERTIES」タブ {#properties}
 
 様々なプロパティを使用して、データスキーマの **`<element>`** 要素と **`<attribute>`** 要素をエンリッチメントできます。
 

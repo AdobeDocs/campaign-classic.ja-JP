@@ -7,9 +7,8 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-translation-type: ht
-source-git-commit: d5579fa1928888a088fe99b685f4d12bf2bde25b
-workflow-type: ht
+source-git-commit: 54d503e97a4374927c4ebe3ba4e0ec05e51d47db
+workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 100%
 
@@ -29,7 +28,7 @@ AMP E メールのテストと送信について詳しくは、[AMP E メール�
 
 >[!NOTE]
 >
-> ハイブリッドおよびホストアーキテクチャの場合、パッケージは、[ミッドソーシングサーバー](../../installation/using/mid-sourcing-server.md)と[実行インスタンス](../../message-center/using/creating-a-shared-connection.md#execution-instance)を含むすべてのサーバーにインストールする必要があります。アカウント担当者にお問い合わせください。
+> ハイブリッドおよびホストアーキテクチャの場合、パッケージは、[ミッドソーシングサーバー](../../installation/using/mid-sourcing-server.md)と[実行インスタンス](../../message-center/using/configuring-instances.md#execution-instance)を含むすべてのサーバーにインストールする必要があります。アカウント担当者にお問い合わせください。
 
 ## AMP for Email について {#about-amp-for-email}
 

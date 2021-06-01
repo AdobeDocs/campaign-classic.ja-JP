@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -34,4 +34,4 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->警告（オレンジ）およびアラート（赤）指標のしきい値は、Adobe Campaign デプロイウィザードで設定することができます。[しきい値の監視](../../message-center/using/additional-configurations.md#monitoring-thresholds)を参照してください。
+>警告（オレンジ）およびアラート（赤）指標のしきい値は、Adobe Campaign デプロイウィザードで設定することができます。[モニタのしきい値](../../message-center/using/additional-configurations.md#monitoring-thresholds)を参照してください。

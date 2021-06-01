@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: コンテンツ管理
 description: コンテンツ管理
@@ -7,11 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -103,4 +101,4 @@ ht-degree: 100%
 
 ## 例 {#examples}
 
-この[節](../../delivery/using/automating-via-workflows.md#examples)の例を参照してください。
+例 この[セクション](../../delivery/using/automating-via-workflows.md#examples)に記載されています。

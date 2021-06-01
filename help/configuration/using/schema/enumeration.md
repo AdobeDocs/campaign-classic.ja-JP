@@ -1,33 +1,31 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 要素と属性
 description: 要素と属性
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 10%
 
 ---
 
-
-# 定義済みリスト要素{#enumeration--element}
+# 列挙要素{#enumeration--element}
 
 ## コンテンツモデル{#content-model-5}
 
-定義済みリスト:==(help| value)
+enumeration:==(help| value)
 
 ## 属性 {#attributes-5}
 
-* @basetype（文字列）
-* @default（文字列）
-* @desc （文字列）
-* @label（文字列）
-* @name（文字列）
+* @basetype (string)
+* @default (string)
+* @desc (string)
+* @label (string)
+* @name (string)
 * @template (string)
 
 ## 親{#parents-5}
@@ -41,17 +39,17 @@ ht-degree: 10%
 
 ## 説明 {#description-5}
 
-この要素を使用して、値の定義済みリストを定義できます。 定義済みリストは、で定義されているスキーマに属していますが、別のスキーマを介してアクセスできます。
+この要素を使用して、値の列挙を定義できます。 列挙は、定義されているスキーマに属していますが、別のスキーマからアクセスできます。
 
-## 使用と使用のコンテキスト{#use-and-context-of-use-4}
+## {#use-and-context-of-use-4}の使用と使用のコンテキスト
 
-定義済みリストは、スキーマの開始時（メイン要素が定義される前）に定義されます。
+列挙は、スキーマの開始時（メイン要素が定義される前）に定義されます。
 
 ## 属性の説明{#attribute-description-5}
 
-* **basetype (string)**:定義済みリストに格納される値のタイプ。
+* **basetype（文字列）**:列挙に保存される値のタイプ。
 
-   使用可能なタイプのリスト:
+   使用可能なタイプのリスト：
 
    * いずれか
    * bin
@@ -59,18 +57,18 @@ ht-degree: 10%
    * boolean
    * バイト
    * CDATA
-   * datetime
+   * 日時
    * datetimetz
    * datetimenotz
    * date
    * DOMDocument
    * DOMElement
    * 重複
-   * 列挙
+   * enum
    * float
    * html
    * int64
-   * link
+   * リンク
    * 長い
    * メモ
    * MNTOKEN
@@ -82,15 +80,15 @@ ht-degree: 10%
    * 間隔
    * uuid
 
-* **default（文字列）**:デフォルト値。デフォルト値は、定義済みリストで定義されている値の1つでもかまいません。
-* **desc（文字列）**:定義済みリストの説明。
-* **label (string)**:定義済みリストラベル
-* **name（文字列）**:定義済みリストの内部名。
-* **template (string)**:この属性は、複数のスキーマが共有する `<enumeration>` 要素への参照を定義します。定義は自動的に現在のスキーマにコピーされます。
+* **デフォルト（文字列）**:デフォルト値。デフォルト値は、列挙で定義された値の1つでもかまいません。
+* **desc（文字列）**:列挙の説明。
+* **label（文字列）**:列挙ラベル
+* **名前（文字列）**:列挙の内部名。
+* **テンプレート（文字列）**:この属性は、複数のスキーマで共有さ `<enumeration>` れる要素への参照を定義します。定義は、現在のスキーマに自動的にコピーされます。
 
 ## 例 {#examples-4}
 
-データベースに値が格納される定義済みリスト値の例：
+データベースに値が格納される列挙値の例：
 
 ```
     <enumeration name="myEnum">
@@ -103,7 +101,7 @@ ht-degree: 10%
     </element>
 ```
 
-デフォルト値を持つ定義済みリストの定義：
+デフォルト値の列挙の定義：
 
 ```
  <enumeration basetype="byte" default="email" name="canal">

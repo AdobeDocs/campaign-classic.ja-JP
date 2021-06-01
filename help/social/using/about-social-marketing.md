@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: ソーシャルマーケティングについて
 description: Campaign を使用して、Facebook や Twitter 経由で顧客とやり取りする方法を説明します。
@@ -7,9 +6,8 @@ audience: social
 content-type: reference
 topic-tags: introduction
 exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
 

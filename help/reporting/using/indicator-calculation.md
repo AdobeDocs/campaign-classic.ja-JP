@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 指標の計算
 description: 指標の計算
@@ -7,9 +6,8 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '3021'
 ht-degree: 100%
 
@@ -665,7 +663,7 @@ ht-degree: 100%
    <td> Sum(iIf([url/@category]='twitter',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delicious<br /> </td> 
+   <td> おいしい<br /> </td> 
    <td> @delicious<br /> </td> 
    <td> URL カテゴリが「delicious」に等しいすべての @totalClicks の合計。<br /> </td> 
    <td> Sum(iIf([url/@category]='delicious',@totalClicks,0))<br /> </td> 

@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: ワークフローのプロパティ
 description: キャンペーンワークフローのプロパティの詳細を説明します
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 100%
 
@@ -35,7 +33,7 @@ ht-degree: 100%
 
    このオプションでは、ワークフローの起動を低アクティビティの時間帯へと延期することができます。一部のワークフローはデータベースエンジンのリソースの観点からみて、コストが割高になることがあります。このような場合、実行スケジュールを夜間などの低アクティビティの時間に設定するようお勧めします。低アクティビティの時間設定は、「**[!UICONTROL キャンペーンのプロセス]**」テクニカルワークフローでおこないます。
 
-### 実行 {#execution}
+### 「EXECUTION」タブ {#execution}
 
 * **[!UICONTROL デフォルトのアフィニティ]**
 

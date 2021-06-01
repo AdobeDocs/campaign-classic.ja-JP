@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: ユースケース - E メール配信の作成
 description: 電子メール配信ユースケースの作成
@@ -7,9 +6,8 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 100%
 

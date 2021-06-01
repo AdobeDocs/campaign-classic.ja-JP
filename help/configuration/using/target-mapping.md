@@ -1,32 +1,30 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: ターゲットマッピング
-description: ターゲットマッピングの作成方法を学びます。
+description: ターゲットマッピングの作成方法を説明します
 audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 38333669-5598-4811-a121-b677c1413f56
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 2%
 
 ---
 
-
 # ターゲットマッピング{#target-mapping}
 
 ターゲットマッピングの作成は、次の2つの場合に必要です。
 
-* Adobe Campaignが提供するもの以外の受信者テーブルを使用する場合、
-* ターゲットマッピング画面の標準ターゲティングディメンションと異なるフィルタリングディメンションを設定する場合。
+* Adobe Campaignで指定された受信者テーブル以外の受信者テーブルを使用する場合、
+* ターゲットマッピング画面の標準ターゲティングディメンションとは異なるフィルタリングディメンションを設定する場合。
 
-ターゲットマッピングの作成ウィザードは、カスタムテーブルを使用するのに必要なすべてのスキーマを作成する際に役立ちます。
+ターゲットマッピング作成ウィザードは、カスタムテーブルを使用するために必要なすべてのスキーマを作成するのに役立ちます。
 
 ## カスタムテーブル{#creating-and-configuring-schemas-linked-to-the-custom-table}にリンクされたスキーマの作成と設定
 
-ターゲットマッピングを作成する前に、Adobe Campaignが新しい受信者データスキーマで動作するために、いくつかの設定が必要です。
+Adobe Campaignが新しい受信者データスキーマを使用して操作するには、ターゲットマッピングを作成する前に、いくつかの設定が必要です。
 
 それには、次の手順に従います。
 
@@ -34,7 +32,7 @@ ht-degree: 2%
 
    詳しくは、[スキーマリファレンス(xtk:srcSchema)](../../configuration/using/about-schema-reference.md)を参照してください。
 
-   この例では、次のフィールドを含む非常に単純なテーブル、顧客スキーマを作成します。ID、名、姓、電子メールアドレス、携帯電話番号。 この表に保存されている個人に電子メールやSMSのアラートを送信できるようにすることが目的です。
+   この例では、顧客スキーマを作成し、次のフィールドを含む非常にシンプルなテーブルを作成します。ID、名、姓、電子メールアドレス、携帯電話番号。 目的は、このテーブルに格納された個人にEメールまたはSMSアラートを送信することです。
 
    スキーマの例(cus:individual)
 
@@ -53,7 +51,7 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-1. =&quot;true&quot;属性を使用して、スキーマを外部表示として宣言します。 [表示属性](../../configuration/using/schema-characteristics.md#the-view-attribute)を参照してください。
+1. =&quot;true&quot;属性を使用して、スキーマを外部ビューとして宣言します。 [ビュー属性](../../configuration/using/schema-characteristics.md#the-view-attribute)を参照してください。
 
    ```
     <srcSchema desc="External recipient table" namespace="cus" view="true"....>
@@ -61,7 +59,7 @@ ht-degree: 2%
     </srcSchema>
    ```
 
-1. ダイレクトメールアドレスを追加する必要がある場合は、次の種類の構造を使用してください。
+1. ダイレクトメールアドレスを追加する必要がある場合は、次のタイプの構造を使用してください。
 
    ```
    <element advanced="true" name="postalAddress" template="nms:common:postalAddress">
@@ -84,45 +82,45 @@ ht-degree: 2%
 
 1. **[!UICONTROL 管理/キャンペーン管理/ターゲットマッピング]**&#x200B;ノードをクリックします。
 1. 「**新規**」ボタンをクリックして、ターゲットマッピング作成ウィザードを開きます。
-1. 「**ラベル**」フィールドに入力し、先ほど作成したスキーマを「**ターゲティングディメンション**」フィールドで選択します。
+1. 「**ラベル**」フィールドに入力し、「**ターゲティングディメンション**」フィールドで作成したスキーマを選択します。
 
    ![](assets/mapping_diffusion_wizard_1.png)
 
-1. **アドレスフォーム**&#x200B;を編集ウィンドウで、様々な配信アドレスと一致するスキーマのフィールドを選択します。 ここで、**@email**&#x200B;と&#x200B;**@mobile**&#x200B;の各フィールドをマッピングできます。
+1. **アドレスフォームを編集**&#x200B;ウィンドウで、様々な配信アドレスと一致するスキーマのフィールドを選択します。 ここでは、**@email**&#x200B;フィールドと&#x200B;**@mobile**&#x200B;フィールドをマッピングします。
 
    ![](assets/mapping_diffusion_wizard_2.png)
 
-1. 次の&#x200B;**ストレージ**&#x200B;ウィンドウで、「**拡張スキーマのサフィックス**」フィールドにサフィックスを入力し、新しいスキーマとAdobe Campaignが提供する標準のスキーマを区別します。
+1. 次の&#x200B;**ストレージ**&#x200B;ウィンドウで、「拡張スキーマの&#x200B;**サフィックス**」フィールドに新しいスキーマをAdobe Campaignが提供する標準のスキーマと区別するために入力します。
 
-   「**[!UICONTROL 新しい追加のフィールドを定義]**」をクリックして、配信でターゲットするディメンションを選択します。
+   「**[!UICONTROL 新しい追加フィールドを定義]**」をクリックして、配信のターゲットにするディメンションを選択します。
 
-   デフォルトでは、除外管理はメッセージと同じテーブルに保存されます。 ターゲットマッピングにリンクされた追跡のストレージを設定する場合は、「**追跡用のストレージスキーマを生成**」ボックスをオンにします。
+   デフォルトでは、除外管理はメッセージと同じテーブルに保存されます。 ターゲットマッピングにリンクされたトラッキングのストレージを設定する場合は、「**トラッキングのストレージスキーマを生成**」ボックスをオンにします。
 
    ![](assets/mapping_diffusion_wizard_3.png)
 
    >[!IMPORTANT]
    >
-   >Adobe Campaignは、同じブロードローグやトラッキングログのスキーマにリンクされた複数の受信者スキーマ(ターゲットスキーマ)をサポートしていません。 そうでない場合は、後でデータ調整の異常が発生する可能性があります。 詳しくは、[推奨と制限](../../configuration/using/about-custom-recipient-table.md)ページを参照してください。
+   >Adobe Campaignは、同じbroadlogスキーマやtrackinglogスキーマにリンクされた、複数の受信者スキーマをサポートしていません。 それ以外の場合は、後でデータの紐付けに異常が生じる可能性があります。 詳しくは、[推奨と制限](../../configuration/using/about-custom-recipient-table.md)ページを参照してください。
 
-1. 「**拡張子**」ウィンドウで、生成するオプションのスキーマを選択します(使用可能なスキーマのリストは、Adobe Campaignプラットフォームにインストールされているモジュールに応じて異なります)。
+1. **拡張機能**&#x200B;ウィンドウで、生成するオプションのスキーマを選択します(使用可能なスキーマのリストは、Adobe Campaignプラットフォームにインストールされているモジュールによって異なります)。
 
    ![](assets/mapping_diffusion_wizard_4.png)
 
 1. 「**保存**」ボタンをクリックして、ウィザードを閉じます。
 
-   ウィザードは、開始スキーマを使用して、新しいターゲットマッピングを動作させるために必要なその他のスキーマをすべて作成します。
+   ウィザードでは、開始スキーマを使用して、新しいターゲットマッピングを機能させるために必要なその他すべてのスキーマを作成します。
 
    ![](assets/mapping_schema_list.png)
 
-## ターゲットマッピング{#using-target-mapping}を使用
+## ターゲットマッピング{#using-target-mapping}の使用
 
 新しいスキーマを配信のターゲットとして使用する方法は2つあります。
 
-* マッピングに基づいて1つ以上の配信テンプレートを作成
-* 次に示すように、配信を作成する際に、ターゲットの選択時に直接マッピングを選択します。
+* マッピングに基づいて1つ以上の配信テンプレートを作成する
+* 配信の作成時に、ターゲットの選択時に直接マッピングを選択します（下図を参照）。
 
 ![](assets/mapping_selection_ciblage.png)
 
 **関連トピック**
 
-* [顧客の要求に迅速に対応し、データにアクセス](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Quicklyrespondtocustomerrequeststoaccesstheirdata)
+* [顧客の要求に迅速に応じて、データにアクセス](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Quicklyrespondtocustomerrequeststoaccesstheirdata)

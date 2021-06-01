@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: SOAP を使用した統合（サーバーサイド）
 description: SOAP を使用した統合（サーバーサイド）
@@ -7,9 +6,8 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
 

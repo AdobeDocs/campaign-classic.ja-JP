@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 配信エラーの理解
 description: 配信エラーの理解
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-translation-type: ht
-source-git-commit: b7a3046600845781a7393a9d1e9659550d9bfcdd
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '2665'
 ht-degree: 100%
 
@@ -230,10 +228,12 @@ E メールを受信者に配信できない場合は、リモートメッセー
 >ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードしている場合：
 >
 >* **[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、同期配信の失敗エラーメッセージには使用されなくなりました。**** Enhanced MTA は、バウンスのタイプと選定を決定し、その情報を Campaign に返します。
->
->* ****&#x200B;非同期バウンスは、引き続き、**[!UICONTROL インバウンド E メール]**&#x200B;ルールを通じて inMail プロセスで選定されます。詳しくは、[E メール管理ルール](#email-management-rules)を参照してください。
->
->* **Webhooks/EFS なし**&#x200B;で Enhanced MTA を使用する場合、**[!UICONTROL インバウンド E メール]**&#x200B;ルールは、非同期のバウンス E メールと同じ E メールアドレスを使用して、Enhanced MTA からの同期バウンス E メールを処理するためにも使用されます。
+   >
+   >
+* ****&#x200B;非同期バウンスは、引き続き、**[!UICONTROL インバウンド E メール]**&#x200B;ルールを通じて inMail プロセスで選定されます。詳しくは、[E メール管理ルール](#email-management-rules)を参照してください。
+   >
+   >
+* **Webhooks/EFS なし**&#x200B;で Enhanced MTA を使用する場合、**[!UICONTROL インバウンド E メール]**&#x200B;ルールは、非同期のバウンス E メールと同じ E メールアドレスを使用して、Enhanced MTA からの同期バウンス E メールを処理するためにも使用されます。
 
 
 従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、E メールの配信に失敗すると、Adobe Campaign 配信サーバーは、メッセージングサーバーまたはリモート DNS サーバーからエラーメッセージを受け取ります。エラーのリストは、リモートサーバーが返したメッセージに含まれる文字列で構成されます。エラータイプと理由が各エラーメッセージに割り当てられます。

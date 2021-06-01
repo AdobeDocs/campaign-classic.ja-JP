@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 要素と属性
 description: 要素と属性
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 11%
 
 ---
-
 
 # param要素{#param--element}
 
@@ -23,14 +21,14 @@ param:==help
 
 ## 属性 {#attributes-12}
 
-* @_operation（文字列）
-* @desc （文字列）
-* @enum （文字列）
-* @inout （文字列）
-* @label（文字列）
+* @_operation (string)
+* @desc (string)
+* @enum (string)
+* @inout (string)
+* @label (string)
 * @localizable (string)
 * @name (MNTOKEN)
-* @名前空間(MNTOKEN)
+* @namespace (MNTOKEN)
 * @type (string)
 
 ## 親{#parents-12}
@@ -43,18 +41,18 @@ param:==help
 
 ## 説明 {#description-12}
 
-この要素では、SOAPメソッドを呼び出すためのパラメーターを定義できます。
+この要素を使用して、SOAPメソッドを呼び出すためのパラメーターを定義できます。
 
 ## 属性の説明{#attribute-description-12}
 
-* **desc（文字列）**: `<param>` 要素に関する説明。
-* **inout (string)**:この属性は、SOAP呼び出しの入力(in)または出力(out)にパラメーターが存在するかどうかを定義します。この属性を指定しない場合、デフォルトのパラメーターは入力(「@inout=in」)になります。
-* **label (string)**: `<param>` label
-* **localizable (string)**:この属性がアクティブ化されている場合、収集ツールに対して翻訳用の「@label」属性の値を復元するよう指示します（内部使用）。
-* **name (MNTOKEN)**:内部名  `<param>`
-* **type (string)**:この属性は、 `<param>` 要素のタイプを定義します
+* **desc（文字列）**:要素に関する説 `<param>` 明。
+* **inout （文字列）**:この属性は、パラメーターがSOAP呼び出しの入力(in)と出力(out)のどちらにあるかを定義します。この属性を指定しない場合、デフォルトのパラメーターは入力(「@inout=in」)です。
+* **label（文字列）**: `<param>` label
+* **localizable（文字列）**:有効になっている場合、この属性は、翻訳用の「@label」属性の値を復元するように収集ツールに指示します（内部使用）。
+* **名前(MNTOKEN)**:内部名  `<param>`
+* **型（文字列）**:この属性は、要素のタイプを定義し `<param>` ます
 
-   使用可能なタイプのリスト:
+   使用可能なタイプのリスト：
 
    * いずれか
    * bin
@@ -62,18 +60,18 @@ param:==help
    * boolean
    * バイト
    * CDATA
-   * datetime
+   * 日時
    * datetimetz
    * datetimenotz
    * date
    * DOMDocument
    * DOMElement
    * 重複
-   * 列挙
+   * enum
    * float
    * html
    * int64
-   * link
+   * リンク
    * 長い
    * メモ
    * MNTOKEN
@@ -87,7 +85,7 @@ param:==help
 
 ## 例 {#examples-9}
 
-文字列タイプの&quot;serviceName&quot;受信設定の定義：
+文字列タイプの「serviceName」受信設定の定義：
 
 ```
 <param desc="Name of the information service(s) (separated with commas)"

@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 81%
+source-wordcount: '1226'
+ht-degree: 78%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->必要な設定について詳しくは、[複数のコントロールインスタンスの使用](../../message-center/using/configuring-instances.md#using-several-control-instances)を参照してください。
+>必要な設定について詳しくは、[複数のコントロールインスタンス](../../message-center/using/configuring-instances.md#using-several-control-instances)の使用を参照してください。
 
 ## 実行インスタンス {#execution-instance}
 
@@ -181,7 +181,7 @@ LINE チャネルとトランザクションメッセージを組み合わせる
 
 * **[!UICONTROL LINE コネクト]**&#x200B;パッケージを両方のインスタンスにインストールします。
 * **[!UICONTROL トランザクションメッセージコントロール]**&#x200B;パッケージをマーケティングインスタンスに、**[!UICONTROL トランザクションメッセージ実行]**&#x200B;パッケージを実行インスタンスに、それぞれインストールします。
-* 両方のインスタンスで LINE の&#x200B;**外部アカウント**&#x200B;と&#x200B;**サービス**&#x200B;を作成します。このとき、同じ名前を使用してこれらが同期されるようにします。LINE の外部アカウントとサービスの作成方法について詳しくは、[この節](../../delivery/using/line-channel.md#creating-a-line-account-and-an-external-account-)を参照してください。
+* 両方のインスタンスで LINE の&#x200B;**外部アカウント**&#x200B;と&#x200B;**サービス**&#x200B;を作成します。このとき、同じ名前を使用してこれらが同期されるようにします。LINEの外部アカウントとサービスの作成方法について詳しくは、[この節](../../delivery/using/line-channel.md#setting-up-line-channel)を参照してください。
 
 次に、**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;を選択して、それぞれのインスタンスで異なる外部アカウントを設定する必要があります。
 
@@ -248,4 +248,4 @@ LINE チャネルとトランザクションメッセージを組み合わせる
 
 
 
-1. これで、トランザクションメッセージの作成を開始できる状態になりました。詳しくは、この[ページ](../../message-center/using/creating-the-message-template.md)を参照してください。
+1. これで、[トランザクションメッセージ](../../message-center/using/creating-the-message-template.md)の作成を開始できます。

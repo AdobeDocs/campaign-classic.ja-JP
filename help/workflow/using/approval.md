@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 承認
 description: 承認
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 100%
 
@@ -51,7 +49,7 @@ ht-degree: 100%
 
 ![](assets/s_advuser_validation_from_console.png)
 
-## プロパティ {#properties}
+## 「PROPERTIES」タブ {#properties}
 
 カスタマイズ変数は、レビュー担当者に送信するメッセージに使用でき、メッセージのタイトルまたは本文に挿入できます。
 

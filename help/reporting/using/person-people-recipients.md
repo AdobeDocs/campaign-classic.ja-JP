@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 配信に関するレポート
 description: 配信に関するレポート
@@ -7,9 +6,8 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%
 
@@ -98,7 +96,7 @@ Florian のアクション（1 回の開封と 9 回のクリック）は、次�
 |  | クリックした受信者数 | クリックしたユーザー数 | 開封した受信者数 |
 |---|---|---|---|
 | John | - | - | - |
-| Marie | - | - | +1 |
+| 麻里恵 | - | - | +1 |
 | Florian | +1 | +1 | +1 |
 | 小計 | 1 | 1 | 2 |
 
@@ -119,7 +117,7 @@ Florian のアクション（1 回の開封と 9 回のクリック）は、次�
 |  | クリックした受信者数 | クリックしたユーザー数 | 開封した受信者数 |
 |---|---|---|---|
 | John | - | - | - |
-| Marie | - | - | +1 |
+| 麻里恵 | - | - | +1 |
 | Florian | +1 | +1 | +1 |
 | 不明なユーザー | - | +1 | - |
 | 小計 | 1 | 2 | 2 |
@@ -143,7 +141,7 @@ Henry が実行した開封と 4 回のクリックは、次のログに表示�
 |  | クリックした受信者数 | クリックしたユーザー数 | 開封した受信者数 |
 |---|---|---|---|
 | John | - | - | - |
-| Marie | - | - | +1 |
+| 麻里恵 | - | - | +1 |
 | Florian | +1 | +1 | +1 |
 | 不明なユーザー | - | +1 | - |
 | Henry | +1 | +4 | +1 |

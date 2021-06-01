@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: イベントの処理
 description: Adobe Campaign Classicでのトランザクションメッセージイベントの処理方法を説明します。
@@ -7,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: c41ca3d518391a648629ebc3fcd4c916e92c3a79
+source-git-commit: b46a483594f210c4530a934194c6d2b73deaeaf9
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 43%

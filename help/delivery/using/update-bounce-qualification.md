@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: ISP 機能停止後のバウンス認定条件の更新
 description: ISP が機能停止した後にバウンスの認定条件を更新する方法を説明します。
@@ -8,9 +7,8 @@ content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-translation-type: ht
-source-git-commit: 718b490d48c6cfabdb24ab18dffb6db664f2a46c
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 

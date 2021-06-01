@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: 外部データベースへのアクセス権
+title: 外部データベースにアクセスする権限
 description: 外部データベースのアクセス権限
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 99%
 
 ---
-
 
 # リモートデータベースのアクセス権 {#remote-database-access-rights}
 

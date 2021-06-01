@@ -1,14 +1,13 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 'Campaign Classic のヘルプおよびサポートオプション '
 description: Campaign Classic のサポートが必要な場合は、こちらから確認してください。
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 
@@ -32,7 +31,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 
 ### よくある質問（FAQ）
 
-新しいビルドにアップグレードする方法は？  ワークフローの実行を監視する方法を調べたり、データベースのクリーンアップワークフローについて知るには、[よくある 10 件の質問を参照してください](platform/using/common-questions.md)。
+新しいビルドにアップグレードする方法は？ ワークフローの実行を監視する方法データベースのクリーンアップワークフローについて知るには、[よくある 10 件の質問を参照してください](platform/using/common-questions.md)。
 
 <table>
     <tr><td><strong>トピック Q&amp;A</strong></td><td><strong>一般的な問題</strong></td><td><strong>ベストプラクティス</strong></td><td><strong>ハウツー</strong></td></tr>
@@ -94,7 +93,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 ### コントロールパネルとは？
 
 Campaign コントロールパネルを使用すると、各インスタンスの設定を管理したり使用状況をトラッキングしたりできるので、Campaign Classic の製品管理者としての作業を効率化できます。
-詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html)してください。
+詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)してください。
 
 >[!NOTE]
 >
@@ -104,7 +103,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 ### コントロールパネルにアクセスするには？
 
-コントロールパネルは、Adobe Experience Cloud から直接利用できます。 アクセスできるのは、管理者ユーザーのみです。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html)してください。
+コントロールパネルは、Adobe Experience Cloud から直接利用できます。 アクセスできるのは、管理者ユーザーのみです。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ja)してください。
 
 ### コントロールパネルのよくある質問（FAQ）
 
@@ -117,17 +116,17 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 ### サブドメインおよび証明書
 
 サブドメインとその証明書を監視できます。 詳しくは、次のページを参照してください。
-* [サブドメインのブランディング](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
-* [新しいサブドメインの設定](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
-* [SSL 証明書の監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html)
+* [サブドメインのブランディング](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja)
+* [新しいサブドメインの設定](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja)
+* [SSL 証明書の監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja)
 
 ### インスタンス設定
 
 コントロールパネルでの Campaign Classic インスタンス設定の管理方法を説明します。 詳しくは、次のページを参照してください。
-* [許可リストにIPを追](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html) 加してCampaignインスタンスにアクセスする
-* [URLへのアクセス権限の管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
-* [インスタンスの詳細へのアクセス](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
-* [データ暗号化用のGPGキーの管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
+* [許可リストにIPを追](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja) 加してCampaignインスタンスにアクセスする
+* [URLへのアクセス権限の管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja)
+* [インスタンスの詳細へのアクセス](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ja)
+* [データ暗号化用のGPGキーの管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja)
 
 ## ヘルプのリクエスト {#support}
 

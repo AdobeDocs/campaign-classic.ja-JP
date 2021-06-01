@@ -1,35 +1,33 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 要素と属性
 description: 要素と属性
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: bad7fb4b-43d9-4033-ae0d-cf191d89114b
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 6%
 
 ---
 
-
 # 値要素{#value--element}
 
 ## コンテンツモデル{#content-model-16}
 
-value:==help
+値：==help
 
 ## 属性 {#attributes-16}
 
 * @applicableIf (string)
-* @desc （文字列）
+* @desc (string)
 * @enabledIf (string)
 * @img (string)
-* @label（文字列）
-* @name（文字列）
-* @value（文字列）
+* @label (string)
+* @name (string)
+* @value (string)
 
 ## 親{#parents-16}
 
@@ -41,17 +39,17 @@ value:==help
 
 ## 説明 {#description-16}
 
-この要素を使用すると、定義済みリストに保存される値を定義できます。
+この要素を使用すると、列挙に保存される値を定義できます。
 
 ## 属性の説明{#attribute-description-16}
 
-* **applicableIf (string)**:この属性を使用すると、定義済みリスト値をオプションにできます。XTK式を受け取ります。
-* **desc（文字列）**:定義済みリスト値の説明。
-* **enabledIf (string)**:定義済みリスト値をアクティブ化する条件を指定します。
-* **img （文字列）**:画像が「名前空間:image_name」フォームの定義済みリストにリンクされている。画像をアプリケーションサーバーに読み込む必要があります。
-* **label (string)**:定義済みリスト値のラベル。
-* **name（文字列）**:定義済みリスト値の内部名。
-* **value（文字列）**:定義済みリスト値の値。値のタイプは、定義済みリストのタイプに基づいて定義されます。 定義済みリストが文字列型の場合、文字列型の値のみを含めることができます。
+* **applicableIf (string)**:この属性を使用すると、列挙値をオプションにできます。XTK式を受け取ります。
+* **desc（文字列）**:列挙値の説明。
+* **enabledIf（文字列）**:列挙値を有効化するための条件。
+* **img （文字列）**:画像は、「namespace:image_name」フォームの列挙にリンクされています。イメージをアプリケーションサーバーに読み込む必要があります。
+* **label（文字列）**:列挙値のラベル。
+* **名前（文字列）**:列挙値の内部名。
+* **値（文字列）**:列挙値の値。値のタイプは、列挙のタイプに基づいて定義されます。 列挙が文字列タイプの場合は、文字列タイプの値のみを含めることができます。
 
 ## 例 {#examples-13}
 

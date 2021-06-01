@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -34,4 +34,4 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->警告（オレンジ）およびアラート（赤）指標のしきい値は、デプロイウィザードで設定することができます。[しきい値の監視](../../message-center/using/additional-configurations.md#monitoring-thresholds)を参照してください。
+>警告（オレンジ）およびアラート（赤）指標のしきい値は、デプロイウィザードで設定することができます。[モニタのしきい値](../../message-center/using/additional-configurations.md#monitoring-thresholds)を参照してください。

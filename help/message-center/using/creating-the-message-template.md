@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e86350cf12db37e3f2c227563057b97922601729
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 78%
+source-wordcount: '511'
+ht-degree: 73%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 78%
 >
 >イベントタイプは事前に作成しておく必要があります。 詳しくは、[イベントタイプの作成](../../message-center/using/creating-event-types.md)を参照してください。
 
-トランザクションメッセージテンプレートには、トランザクションメッセージをパーソナライズするために必要な情報が含まれています。 また、テンプレートを使用すると、メッセージのプレビューを検証したり、最終ターゲットへ配信する前にシードアドレスを使用した配達確認を送信することもできます。詳しくは、[トランザクションメッセージテンプレートのテスト](../../message-center/using/testing-message-templates.md)を参照してください。
+トランザクションメッセージテンプレートには、トランザクションメッセージをパーソナライズするために必要な情報が含まれています。 また、テンプレートを使用すると、メッセージのプレビューを検証したり、最終ターゲットへ配信する前にシードアドレスを使用した配達確認を送信することもできます。詳しくは、[テストトランザクションメッセージテンプレート](../../message-center/using/testing-message-templates.md)を参照してください。
 
 ## メッセージテンプレートの作成 {#creating-message-template}
 
@@ -53,7 +53,7 @@ ht-degree: 78%
 
 ## メッセージコンテンツの作成 {#creating-message-content}
 
-トランザクションメッセージコンテンツの定義は、Adobe Campaign の通常の配信と同様です。例えば、E メール配信では、HTML またはテキストフォーマットでコンテンツを作成したり、添付ファイルを追加したり、配信オブジェクトをパーソナライズすることができます。詳しくは、[E メールの配信](../../delivery/using/about-email-channel.md)の章を参照してください。
+トランザクションメッセージコンテンツの定義は、Adobe Campaign の通常の配信と同様です。例えば、E メール配信では、HTML またはテキストフォーマットでコンテンツを作成したり、添付ファイルを追加したり、配信オブジェクトをパーソナライズすることができます。詳しくは、[Eメール配信](../../delivery/using/about-email-channel.md)の章を参照してください。
 
 >[!IMPORTANT]
 >

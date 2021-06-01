@@ -1,14 +1,12 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: '[!DNL Gold Standard] アップグレード'
 description: Campaign Classic  [!DNL Gold Standard]  とは
-feature: Overview
+feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: c36a78f6-3332-465d-92f5-48f70b8bdddd
-translation-type: tm+mt
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 100%
@@ -23,7 +21,7 @@ ht-degree: 100%
 
 Adobe Campaign Classic は、お客様に最高のエクスペリエンスと価値を提供するために、様々なテクノロジーを活用しています。こうしたテクノロジーによる優れたセキュリティ、安定性、パフォーマンスを実現するには、Campaign Classic インスタンスを定期的にアップグレードして、常に最新版を使用する必要があります。
 
-[!DNL Gold Standard] は、Campaign Classic の長期サポートリリースです。ホストされている [!DNL Gold Standard] のユーザーは、自動的に [!DNL Gold Standard] のアップグレードのメリットが得られるため、アップグレードアクションを起こすことなく最新の安定したバージョンが利用できます。オンプレミスおよびハイブリッドの顧客も、[!DNL Gold Standard] リリースのメリットを受けられます。古いビルドから移行する場合は、最初にこのバージョンにアップグレードすることをお勧めします。
+[!DNL Gold Standard] は、Campaign Classic の長期サポートリリースです。ホストされている [!DNL Gold Standard] のユーザーについては、安定した最新バージョンに [!DNL Gold Standard] が自動的にアップグレードされ、ユーザー側での操作は必要ありません。オンプレミスおよびハイブリッドの顧客も、[!DNL Gold Standard] リリースのメリットを受けられます。古いビルドから移行する場合は、最初にこのバージョンにアップグレードすることをお勧めします。
 
 ## このアップグレードの実施が必要な理由
 

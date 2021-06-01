@@ -1,42 +1,40 @@
 ---
-solution: Campaign Classic
 product: campaign
-title: キャンペーンオンプレミス、ハイブリッド、およびホスト機能マトリックス
-description: ホスト型デプロイメントとオンプレミスデプロイメントの主な違いを学ぶ
+title: Campaignオンプレミス、ハイブリッド、ホスト機能のマトリックス
+description: ホスト型デプロイメントとオンプレミス型デプロイメントの主な違いについて説明します。
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
-translation-type: tm+mt
-source-git-commit: b77a56a97e499f60c092fae45c7809f7bfd9f2ea
+exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 44%
+ht-degree: 45%
 
 ---
 
-
 # モデルごとの機能マトリックス{#capability-matrix-per-model}
 
-Adobe Campaign Classic には一連のモジュールとオプションが付属しています。これらのモジュールの使用可否と使い方は、インストール構成のデプロイメントタイプによって異なります。この記事では、完全にホストされた(Managed Services)デプロイメントとオンプレミスデプロイメントの特定の機能の主な違いについて詳しく説明します。
+Adobe Campaign Classic には一連のモジュールとオプションが付属しています。これらのモジュールの使用可否と使い方は、インストール構成のデプロイメントタイプによって異なります。この記事では、完全にホストされた(Managed Services)デプロイメントとオンプレミスデプロイメントの間の特定の機能の主な違いに関する詳細を説明します。
 
-このページでは、ホスト(Managed Services)デプロイメントとオンプレミスデプロイメントの主な違いを示します。 ハイブリッド展開の特殊性は、Adobeがホストし、オンプレミスでホストする要素に依存します。
+このページでは、ホスト型(Managed Services)デプロイメントとオンプレミスデプロイメントの主な違いについて説明します。 ハイブリッドデプロイメント特有の特性は、Adobeがホストし、お客様のプレミスでホストされる要素に依存します。
 
-このセクション](../../installation/using/hosting-models.md)では、異なるホスティングモデルが導入[されています。
+この節](../../installation/using/hosting-models.md)では、異なるホスティングモデルが導入されました。[
 
-## 展開モデルごとの可用性{#capability-matrix}
+## デプロイメントモデルごとの可用性{#capability-matrix}
 
 | 機能 | ホスト | ハイブリッド | オンプレミス | 詳細 |
 |-----------------------------------------------|------------------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Campaign サーバーの設定 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../installation/using/the-server-configuration-file.md) |
-| BCC で E メールを送信 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../installation/using/email-archiving.md) |
+| BCC でメールを送信 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../installation/using/email-archiving.md) |
 | Message Center実行インスタンスの管理 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../message-center/using/about-transactional-messaging.md) |
 | ミッドソーシングプラットフォームの管理 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../installation/using/mid-sourcing-server.md) |
-| Litmusを使用したインボックスレンダリング | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../delivery/using/inbox-rendering.md) |
-| IMS(Adobe ID)との統合 | オンデマンド | オンデマンド | オンデマンド | [詳細情報](../../integrations/using/about-adobe-id.md) |
-| ファイル転送用のデータの暗号化/復号化 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../platform/using/unzip-decrypt.md) |
+| Litmusを使用した受信ボックスレンダリング | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../delivery/using/inbox-rendering.md) |
+| IMSとの統合(Adobe ID) | オンデマンド | オンデマンド | オンデマンド | [詳細情報](../../integrations/using/about-adobe-id.md) |
+| ファイル転送のデータの暗号化/復号化 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../platform/using/unzip-decrypt.md) |
 | ファイルの圧縮/解凍 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../platform/using/unzip-decrypt.md) |
-| ドメイン名の委任 | オンデマンド | オンデマンド | 使用不可 | [詳細情報](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html) |
-| SpamAssinのインストール | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../delivery/using/spamassassin.md) |
+| ドメイン名のデリゲーション | オンデマンド | オンデマンド | 使用不可 | [詳細情報](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html) |
+| SpamAssassinのインストール | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../delivery/using/spamassassin.md) |
 | 配信品質レポートへのアクセス | 使用可能 | オンデマンド | 使用可能 | [詳細情報](../../delivery/using/monitoring-deliverability.md) |
 | LDAP認証の設定 | なし | 使用可能 | 使用可能 | [詳細情報](../../installation/using/connecting-through-ldap.md) |
 
@@ -47,7 +45,7 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 
 >[!CAUTION]
 >
->FDAを介した外部データベースへのアクセスは、[Snowflakeコネクタ](../../installation/using/configure-fda-snowflake.md)を除き、オンプレミスまたはハイブリッドインストールでのみ可能です。
+>FDAを使用した外部データベースへのアクセスは、[Snowflakeコネクタ](../../installation/using/configure-fda-snowflake.md)を除き、オンプレミスまたはハイブリッドインストールでのみ可能です。
 
 
 **関連項目：**

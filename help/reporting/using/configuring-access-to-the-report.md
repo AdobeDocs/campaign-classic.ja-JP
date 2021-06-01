@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: レポートへのアクセスの設定
 description: レポートへのアクセスの設定
@@ -7,9 +6,8 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 100%
 

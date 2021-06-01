@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: プライバシーと同意
 description: プライバシーと同意の詳細を説明します
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
 

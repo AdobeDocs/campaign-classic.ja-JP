@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: JavaScript のスクリプトとテンプレート
 description: JavaScript のスクリプトとテンプレート
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1255'
 ht-degree: 100%
 
@@ -87,7 +85,7 @@ logInfo("Start date: " + task.creationDate)
 
 特定のイベント変数は、さまざまなアクティビティが変更し、読み取ります。これらのイベント変数はすべて文字列タイプの変数です。例えば、エクスポートでは、エクスポートされたファイルの完全名が、変数 **[!UICONTROL vars.filename]** に設定されます。すべての読み取られた変数および変更された変数については、アクティビティの「**入力パラメーター**」と「**出力パラメーター**」のセクションにある[アクティビティについて](../../workflow/using/about-activities.md)を参照してください。
 
-### 使用例 {#example}
+### ユースケース {#example}
 
 >[!NOTE]
 >

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 要素と属性
 description: 要素と属性
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: 71e98d45-3660-4d86-a5ca-8e55ae5896eb
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 11%
 
 ---
-
 
 # 条件要素{#condition--element}
 
@@ -25,7 +23,7 @@ ht-degree: 11%
 
 * @boolOperator (string)
 * @enabledIf (string)
-* @expr（文字列）
+* @expr (string)
 
 ## 親{#parents-2}
 
@@ -37,17 +35,17 @@ ht-degree: 11%
 
 ## 説明 {#description-2}
 
-この要素を使用して、フィルター条件を定義できます。
+この要素では、フィルター条件を定義できます。
 
-## 使用と使用のコンテキスト{#use-and-context-of-use-2}
+## {#use-and-context-of-use-2}の使用と使用のコンテキスト
 
 1つの`<sysfiler>`要素に複数のフィルター条件を含めることができます。
 
 ## 属性の説明{#attribute-description-2}
 
-* **boolOperator (string)**:複数 `<conditions>` が同じ  `<sysfilter>` 要素内で定義されている場合、この属性を使用すると、それらを組み合わせることができます。デフォルトでは、論理リンクは`<condition>`要素間の「AND」です。 「@boolOperator」属性を使用すると、「OR」と「AND」タイプのリンクを組み合わせることができます。
-* **enabledIf (string)**:条件アクティベーションテスト。
-* **expr（文字列）**:XTK式。
+* **boolOperator（文字列）**:複数のが同 `<conditions>` じ要素内で定義され  `<sysfilter>` ている場合、この属性を使用して結合できます。デフォルトでは、`<condition>`要素間の論理リンクは「AND」です。 「@boolOperator」属性を使用すると、「OR」と「AND」タイプのリンクを組み合わせることができます。
+* **enabledIf（文字列）**:条件のアクティブ化テスト。
+* **式（文字列）**:XTK式。
 
 ## 例 {#examples-2}
 

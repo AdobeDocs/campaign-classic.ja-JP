@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 一般的なインポートのサンプル
 description: インポートジョブを使用して実行できる一般的なインポートの詳細を学びます。
@@ -7,9 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 100%
 

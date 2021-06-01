@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Web ダウンロード
 description: Web ダウンロードワークフローアクティビティの詳細を説明します
@@ -7,9 +6,8 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 100%
 
@@ -19,7 +17,7 @@ ht-degree: 100%
 
 「**Web ダウンロード**」アクティビティは、明示的 URL、外部アカウント、Adobe Campaign インスタンス上のファイルのダウンロードを開始します。HTTP プロトコルが使用されます。GET または POST のいずれかによるダウンロードです。
 
-## プロパティ {#properties}
+## 「PROPERTIES」タブ {#properties}
 
 1. **Web ファイルの選択**
 

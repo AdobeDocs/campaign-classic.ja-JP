@@ -7,7 +7,7 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: bce114f36d1ec4582fc79e750d48155ba0d7cd1f
+source-git-commit: b211948f1b6a64d0734d1d23f6df4951af88445a
 workflow-type: tm+mt
 source-wordcount: '4387'
 ht-degree: 98%
@@ -113,7 +113,7 @@ Adobe Campaign のインスタンスで使用されている埋め込み Tomcat 
 
 SMS コネクタのプロトコルと設定に関するページの完全な説明が、[こちら](../../delivery/using/sms-protocol.md)で参照できるようになりました。
 
-アクセス権の問題を回避するために、イベントフォルダーを実行インスタンス上の表示として設定しないように警告する注を、**トランザクションメッセージ**&#x200B;の節に追加しました。[詳細を表示](../../message-center/using/event-collection.md)
+アクセス権の問題を回避するために、イベントフォルダーを実行インスタンス上の表示として設定しないように警告する注を、**トランザクションメッセージ**&#x200B;の節に追加しました。[詳細を表示](../../message-center/using/about-event-processing.md#event-collection)
 
 ## 2020 年 11 月 {#nov-2020}
 
@@ -259,7 +259,7 @@ Azure Synapse FDA コネクタ - [詳細を表示](../../installation/using/conf
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-トランザクションメッセージテンプレートを非公開にする新しいオプションについては、[この節](../../message-center/using/template-unpublication.md)に記載されています。
+トランザクションメッセージテンプレートを非公開にする新しいオプションについては、[この節](../../message-center/using/publishing-message-templates.md#template-unpublication)に記載されています。
 
 パーソナライズされた URL からダウンロードした画像と添付ファイルを含む E メールを送信するときに制限を設定できる新しいオプションが、Campaign Classic オプションのリストに追加されました。[詳細を表示](../../installation/using/configuring-campaign-options.md#delivery)
 
@@ -519,7 +519,7 @@ Adobe Campaign Classic のオファーカタログの使用に関する新しい
 
 [Campaign Classic オンプレミスとホスト機能マトリックス](../../installation/using/capability-matrix.md)のページが更新され、「BCC で E メールを送信」に関する情報が追加されました。
 
-トランザクションメッセージングのドキュメントが更新され、テンプレートのパブリッシュに関する注意事項が追加されました。[詳細を表示](../../message-center/using/template-publication.md)
+トランザクションメッセージングのドキュメントが更新され、テンプレートのパブリッシュに関する注意事項が追加されました。[詳細を表示](../../message-center/using/publishing-message-templates.md#template-publication)
 
 未処理のバウンスメールの節が更新され、「転送先アドレス」フィールドおよび「エラーのアドレス」フィールドに関する詳細が追加されました。[詳細を表示](../../installation/using/deploying-an-instance.md)
 

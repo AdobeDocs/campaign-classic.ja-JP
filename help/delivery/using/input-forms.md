@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 入力フォーム
 description: 入力フォーム
@@ -7,9 +6,8 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 100%
 
@@ -73,7 +71,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 >
 >入力フォームは、入力するコンテンツに必要なフレームを自動的に追加するために、**`<form>`** 要素の **type=&quot;contentForm&quot;** 属性を参照する必要があります。
 
-## 書式設定 {#formatting}
+## フォーマット設定 {#formatting}
 
 コントロールを互いに相対的に配置する作業は、HTML テーブルで使用される配置に似ています。1 つのコントロールを複数の列に分割したり、複数の要素を組み合わせたり、空きスペースの占有を指定したりできます。ただし、書式設定で許可されているのは割合の記述のみです。オブジェクトの固定寸法は指定できません。
 

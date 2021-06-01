@@ -1,36 +1,52 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Adobe Campaign Classic トランザクションメッセージのアーキテクチャ
-description: ここでは、Adobe Campaign Classic トランザクションメッセージのアーキテクチャについて説明します。
+title: トランザクションメッセージのアーキテクチャ
+description: ここでは、Adobe Campaign Classicトランザクションメッセージのアーキテクチャと、トランザクションメッセージを配信するために使用できるチャネルについて説明します。
 audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
-source-wordcount: '1151'
-ht-degree: 100%
+source-git-commit: a9054fb8e10bef37675922b2f81c7615cd04c1bb
+workflow-type: tm+mt
+source-wordcount: '1234'
+ht-degree: 81%
 
 ---
 
-# トランザクションメッセージのアーキテクチャ{#transactional-messaging-architecture}
+# トランザクションメッセージのアーキテクチャ {#transactional-messaging-architecture}
 
-## 実行およびコントロールインスタンスについて {#about-execution-and-control-instances}
+トランザクションメッセージは、次の複数のインスタンスで構成される特定のアーキテクチャに依存します。
 
-Adobe Campaign のトランザクションメッセージ機能（Message Center とも呼ばれます）は、スケーラビリティをサポートし、365 日 24 時間サービスを提供するように設計されています。Message Center は、以下のいくつかのインスタンスで構成されています。
+* **コントロールインスタンス**。このインスタンスでメッセージテンプレートが作成されます。
 
-* 1 つのコントロールインスタンス：メッセージテンプレートを作成します。
-* 1 つまたは複数の実行インスタンス：イベントを受け取り、メッセージを配信します。
-
-これらの機能を使用するために、Adobe Campaign のユーザーはコントロールインスタンスにログオンし、トランザクションメッセージテンプレートの作成、シードリストを使用したメッセージプレビューの生成、レポートの表示、実行インスタンスの監視をおこないます。
-
-実行インスタンスは、イベントを受け取り、イベントをトランザクションメッセージテンプレートにリンクし、パーソナライズしたメッセージをそれぞれの受信者に送信します。
+* イベントを受信し、メッセージを配信する1つ以上の&#x200B;**実行インスタンス**。
 
 ![](assets/messagecenter_diagram.png)
 
-## 複数のコントロールインスタンスのサポート {#supporting-several-control-instances}
+| コントロールインスタンス | 実行インスタンス |
+|--- |--- |
+| Adobe Campaignユーザーがコントロールインスタンスにログオンすると、次の操作が可能になります。 <ul><li>トランザクションメッセージテンプレートの作成</li><li>シードリストを使用してメッセージのプレビューを生成する</li><li>レポートを表示</li><li>実行インスタンスの監視</li></ul> | 実行インスタンスは次の目的で使用します。 <ul><li>イベントの受信</li><li>トランザクションメッセージテンプレートにリンクする</li><li>各受信者にパーソナライズされたメッセージを送信</li></ul> |
+
+## インスタンス{#installing-instances}をインストールします
+
+トランザクションメッセージパッケージをインストールする際の注意事項がいくつかあります。本番環境で使用する前に、テスト環境で動作させることをお勧めします。また、互換性のある Adobe Campaign のライセンスが必要です。詳しくは、アドビのアカウント担当者にお問い合わせください。
+
+>[!IMPORTANT]
+>
+>コントロールインスタンスおよび実行インスタンスは、異なるマシンにインストールする必要があります。同じ Campaign インスタンスを共有できなくなります。
+
+複数のチャネルを使用する場合は、トランザクションメッセージパッケージをインストールする前に関連パッケージをインストールして設定する必要があります。詳しくは、[配信チャネルの追加](#adding-a-delivery-channel)を参照してください。
+
+## コントロールインスタンス {#control-instance}
+
+コントロールインスタンスをコンピューターにインストールするには、**[!UICONTROL ツール]** / **[!UICONTROL 詳細]** / **[!UICONTROL パッケージをインポート]**&#x200B;メニューから&#x200B;**[!UICONTROL トランザクションメッセージコントロール]**&#x200B;パッケージを選択します。 詳しくは、[Campaign Classic 標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+
+![](assets/messagecenter_install_controlinstance_001.png)
+
+コントロールインスタンスを設定する詳細な手順については、[この節](../../message-center/using/configuring-instances.md#control-instance)を参照してください。
+
+### 複数のコントロールインスタンス{#supporting-several-control-instances}をサポートします。
 
 >[!IMPORTANT]
 >
@@ -42,31 +58,27 @@ Adobe Campaign のトランザクションメッセージ機能（Message Center
 
 >[!NOTE]
 >
->必要な設定について詳しくは、[複数のコントロールインスタンスの使用](../../message-center/using/creating-a-shared-connection.md#using-several-control-instances)を参照してください。
+>必要な設定について詳しくは、[複数のコントロールインスタンスの使用](../../message-center/using/configuring-instances.md#using-several-control-instances)を参照してください。
 
-## インスタンスのインストール {#installing-instances}
+## 実行インスタンス {#execution-instance}
 
-トランザクションメッセージパッケージをインストールする際の注意事項がいくつかあります。本番環境で使用する前に、テスト環境で動作させることをお勧めします。また、互換性のある Adobe Campaign のライセンスが必要です。詳しくは、アドビのアカウント担当者にお問い合わせください。
+実行インスタンスをコンピューターにインストールするには、**[!UICONTROL ツール]** / **[!UICONTROL 詳細]** / **[!UICONTROL パッケージをインポート]**&#x200B;メニューで&#x200B;**[!UICONTROL トランザクションメッセージ実行]**&#x200B;パッケージを選択します。 詳しくは、[Campaign Classic 標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+
+![](assets/messagecenter_install_executioninstance_001.png)
+
+実行インスタンスを設定する詳細な手順については、[この節](../../message-center/using/configuring-instances.md#execution-instance)を参照してください。
+
+## 使用可能な配信チャネル
+
+Eメールチャネルはデフォルトで使用できます。 トランザクションメッセージを複数のチャネルで配信するには、他のチャネル（モバイルチャネル、モバイルアプリチャネルなど）を追加します。
 
 >[!IMPORTANT]
 >
->コントロールインスタンスおよび実行インスタンスは、異なるマシンにインストールする必要があります。同じ Campaign インスタンスを共有できなくなります。
+>配信チャネル（モバイルチャネル、モバイルアプリチャネルなど）の追加は、トランザクションメッセージパッケージのインストール前におこなう必要があります。
 
-複数のチャネルを使用する場合は、トランザクションメッセージパッケージをインストールする前に関連パッケージをインストールして設定する必要があります。[配信チャネルの追加](#adding-a-delivery-channel)を参照してください。
+### 配信チャネル{#adding-a-delivery-channel}の追加
 
-* コントロールインスタンスをインストールするには、「**[!UICONTROL トランザクションメッセージコントロール]**」モジュールを選択します。
-
-   ![](assets/messagecenter_install_controlinstance_001.png)
-
-* 実行インスタンスをインストールするには、「**[!UICONTROL トランザクションメッセージ実行]**」モジュールを選択します。
-
-   ![](assets/messagecenter_install_executioninstance_001.png)
-
-## 配信チャネルの追加 {#adding-a-delivery-channel}
-
-配信チャネル（モバイルチャネル、モバイルアプリチャネルなど）の追加は、トランザクションメッセージパッケージのインストール前におこなう必要があります。
-
-アドビでは、配信チャネルパッケージをインストールする前に、必ずトランザクションメッセージパッケージを追加することをお勧めします。
+Adobeでは、トランザクションメッセージパッケージ&#x200B;**をインストールする前に、必ず配信チャネルパッケージを追加することをお勧めします。**
 
 E メールチャネルのトランザクションメッセージプロジェクトを開始し、プロジェクトの最中に新規でチャネルを追加することにした場合は、次の手順に従います。
 
@@ -115,7 +127,7 @@ Create your delivery templates the way you would for an email campaign:
 
 You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).-->
 
-## トランザクションメッセージおよびプッシュ通知 {#transactional-messaging-and-push-notifications}
+### トランザクションプッシュ通知 {#transactional-messaging-and-push-notifications}
 
 トランザクションメッセージでは、モバイルアプリチャネルモジュールと組み合わせることで、通知を介してモバイルデバイスにトランザクションメッセージをプッシュすることができます。
 
@@ -162,7 +174,7 @@ You also have to enable the unitary mode on your offer spaces. For more on this,
 >
 >メッセージテンプレートの作成に変更はありません。
 
-## トランザクションメッセージと LINE {#transactional-messaging-and-line}
+### トランザクションメッセージと LINE {#transactional-messaging-and-line}
 
 LINE チャネルとトランザクションメッセージを組み合わせると、コンシューマー向けモバイルデバイスにインストールされた LINE アプリでリアルタイムメッセージを送信できます。これは、LINE ユーザーがブランドのページを追加したときに歓迎メッセージを送信するために使用されます。
 
@@ -237,4 +249,4 @@ LINE チャネルとトランザクションメッセージを組み合わせる
 
 
 
-1. これで、トランザクションメッセージの作成を開始できる状態になりました。詳しくは、この[ページ](../../message-center/using/introduction.md)を参照してください。
+1. これで、トランザクションメッセージの作成を開始できる状態になりました。詳しくは、この[ページ](../../message-center/using/creating-the-message-template.md)を参照してください。

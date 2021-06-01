@@ -1,34 +1,32 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Sybase IQ へのアクセスを設定する
-description: FDAでのSybase IQへのアクセスを設定する方法を学びます。
+description: FDAでのSybase IQへのアクセスの設定方法を説明します
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 0fdf8259-5cab-4a9d-adb3-6c55ec5c8851
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 67%
 
 ---
 
-
 # Sybase IQ へのアクセスを設定する {#configure-access-to-sybase-iq}
 
-キャンペーン&#x200B;**Federated Data Access** (FDA)オプションを使用して、外部データベースに格納された情報を処理します。 次の手順に従って、Sybase IQへのアクセスを設定します。
+外部データベースに保存された情報を処理するには、Campaignの&#x200B;**Federated Data Access**(FDA)オプションを使用します。 次の手順に従って、Sybase IQへのアクセスを設定します。
 
-1. [Sybase IQデータベース](#configuring-sybase)を構成
-1. キャンペーンでSybase IQ[外部アカウント](#sybase-external)を設定
+1. [Sybase IQデータベース](#configuring-sybase)を設定します
+1. CampaignでSybase IQ[外部アカウント](#sybase-external)を設定します
 
 ## sybase IQ構成{#configuring-sybase}
 
-FDAでSybase IQの外部データベースに接続するには、Adobe Campaignサーバで以下の追加設定が必要です。
+FDAで外部Sybase IQに接続するには、Adobe Campaignサーバーで追加の設定が必要になります。
 
 >[!NOTE]
 >
->起動する前に、**unixodbc**&#x200B;パッケージがサーバー上にあることを確認してください。
+>起動する前に、**unixodbc**&#x200B;パッケージがサーバー上にあることを確認します。
 
 1. **iq_odbc** をインストールします。インストールの終了時にエラーが発生することがあります。このエラーは無視してかまいません。
 
@@ -68,9 +66,9 @@ FDAでSybase IQの外部データベースに接続するには、Adobe Campaign
 
 ## sybase IQ外部アカウント{#sybase-external}
 
-Sybase IQ外部アカウントを使用すると、キャンペーンインスタンスをSybase IQの外部データベースに接続できます。
+Sybase IQ外部アカウントを使用すれば、CampaignインスタンスをSybase IQ外部データベースに接続できます。
 
-1. キャンペーン&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
+1. Campaignの&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL 新規]**」をクリックし、「**[!UICONTROL タイプ]**」として「**[!UICONTROL 外部データベース]**」を選択します。
 
@@ -89,4 +87,3 @@ Sybase IQ外部アカウントを使用すると、キャンペーンインス�
 >[!NOTE]
 >
 >Windows の場合は、Sybase IQ クライアントを Adobe Campaign サーバーにインストールし、ODBC 接続を作成する必要があります。Adobe Campaign サーバー（nlserver）を Windows でサービスとして実行しているときに、システムデータソースを作成してください。
-

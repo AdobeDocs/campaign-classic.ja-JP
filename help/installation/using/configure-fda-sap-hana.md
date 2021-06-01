@@ -1,26 +1,24 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: SAP HANA へのアクセスを設定する
-description: FDAでのSAP HANAへのアクセスを設定する方法を学びます。
+description: FDAでSAP HANAへのアクセスを設定する方法
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: 39bfe775-e182-4a0b-ad3c-b7a901297c90
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 71%
 
 ---
 
-
 # SAP HANA へのアクセスを設定する {#configure-access-to-sap-hana}
 
-キャンペーン[Federated Data Access](../../installation/using/about-fda.md) (FDA)オプションを使用して、外部データベースに格納された情報を処理します。 次の手順に従って、SAP HANAへのアクセスを設定します。
+外部データベースに保存された情報を処理するには、Campaignの[Federated Data Access](../../installation/using/about-fda.md)(FDA)オプションを使用します。 次の手順に従って、SAP HANAへのアクセスを設定します。
 
-1. [SAP HANAデータベース](#sap-config)を構成
-1. キャンペーンでSAP HANA[外部アカウント](#sap-external)を設定
+1. [SAP HANAデータベース](#sap-config)を設定
+1. CampaignでSAP HANA[外部アカウント](#sap-external)を設定します
 
 ## SAP HANAドライバ{#sap-config}
 
@@ -62,9 +60,9 @@ FDA で SAP HANA 外部データベースに接続するには、Adobe Campaign 
 
 ## SAP HANA外部アカウント{#sap-external}
 
-SAP HANA外部アカウントを使用すると、キャンペーンインスタンスをSAP HANAの外部データベースに接続できます。
+SAP HANA外部アカウントを使用すれば、CampaignインスタンスをSAP HANA外部データベースに接続できます。
 
-1. キャンペーン&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
+1. Campaignの&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;で、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL 新規]**」をクリックし、「**[!UICONTROL タイプ]**」として「**[!UICONTROL 外部データベース]**」を選択します。
 

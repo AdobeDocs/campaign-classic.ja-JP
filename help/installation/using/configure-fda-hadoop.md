@@ -1,26 +1,24 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Hadoop へのアクセスの設定
-description: FDAでのHadoopへのアクセスを設定する方法を学びます。
+description: FDAでHadoopへのアクセスを設定する方法
 audience: platform
 content-type: reference
 topic-tags: connectors
-translation-type: tm+mt
-source-git-commit: 972885c3a38bcd3a260574bacbb3f507e11ae05b
+exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 82%
 
 ---
 
-
 # Hadoop へのアクセスの設定 {#configure-access-to-hadoop}
 
-キャンペーン&#x200B;**Federated Data Access** (FDA)オプションを使用して、外部データベースに格納された情報を処理します。 次の手順に従って、Hadoopへのアクセスを設定します。
+外部データベースに保存された情報を処理するには、Campaignの&#x200B;**Federated Data Access**(FDA)オプションを使用します。 次の手順に従って、Hadoopへのアクセスを設定します。
 
-1. [Hadoopデータベース](#configuring-hadoop)を構成
-1. キャンペーンでHadoop[外部アカウント](#hadoop-external)を設定
+1. [Hadoopデータベース](#configuring-hadoop)を設定
+1. CampaignでHadoop[外部アカウント](#hadoop-external)を設定します
 
 ## Hadoop 3.0 の設定 {#configuring-hadoop}
 
@@ -37,7 +35,7 @@ FDA で Hadoop 外部データベースに接続するには、Adobe Campaign �
    systemctl start nlserver.service
    ```
 
-1. Campaign Classic では、[!DNL Hadoop] 外部アカウントを設定できます。外部アカウントの構成方法について詳しくは、[この](#hadoop-external)を参照してください。
+1. Campaign Classic では、[!DNL Hadoop] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[この節](#hadoop-external)を参照してください。
 
 ## Hadoop 外部アカウント {#hadoop-external}
 
@@ -84,9 +82,9 @@ FDA で Hadoop 外部データベースに接続するには、Adobe Campaign �
 
 ## Hadoop 2.1 の設定 {#configure-access-hadoop-2}
 
-hadoop2.1に接続する必要がある場合は、[Windows](#for-windows)または[Linux](#for-linux)に対して次に説明する手順に従ってください。
+hadoop2.1に接続する必要がある場合は、[Windows](#for-windows)または[Linux](#for-linux)の場合は、以下の手順に従います。
 
-### Windows用hadoop2.1 {#for-windows}
+### Windows向けhadoop2.1 {#for-windows}
 
 1. Windows 用の ODBC ドライバーと [Azure HD Insight](https://www.microsoft.com/en-us/download/details.aspx?id=40886) ドライバーをインストールします。
 1. ODBC DataSource Adminstrator ツールを実行して、DSN（データソース名）を作成します。ユーザーが変更できる Hive 用 System DSN サンプルが提供されています。
@@ -100,9 +98,9 @@ hadoop2.1に接続する必要がある場合は、[Windows](#for-windows)また
    User/Password: admin/<your password here>
    ```
 
-1. [このセクション](#hadoop-external)で詳しく説明するように、Hadoop外部アカウントを作成します。
+1. [この節](#hadoop-external)で説明したように、Hadoop外部アカウントを作成します。
 
-### Hadoop2.1 for Linux {#for-linux}
+### Linux用hadoop2.1 {#for-linux}
 
 1. Linux 用の unixODBC をインストールします。
 
@@ -110,7 +108,7 @@ hadoop2.1に接続する必要がある場合は、[Windows](#for-windows)また
    apt-get install unixodbc
    ```
 
-1. HortonWorksからApache Hive用のODBCドライバをダウンロードしてインストールします。[https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html).
+1. HortonWorksからApache Hive用のODBCドライバーをダウンロードしてインストールします。[https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html).
 
    ```
    dpkg -i hive-odbc-native_2.1.10.1014-2_amd64.deb
@@ -187,5 +185,4 @@ hadoop2.1に接続する必要がある場合は、[Windows](#for-windows)また
    isql vorac -v
    ```
 
-1. [このセクション](#hadoop-external)で詳しく説明するように、Hadoop外部アカウントを作成します。
-
+1. [この節](#hadoop-external)で説明したように、Hadoop外部アカウントを作成します。

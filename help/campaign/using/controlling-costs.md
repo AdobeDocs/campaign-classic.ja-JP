@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: コスト管理
 description: コスト管理
@@ -7,9 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+workflow-type: tm+mt
 source-wordcount: '2539'
 ht-degree: 100%
 
@@ -215,7 +213,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 予算の承認を使用してキャンペーンにコミットされた金額のチェックを実行できます。その他の承認を設定する場合は、キャンペーンで追加のチェックポイントスタイルタスクを作成できます。[タスクのタイプ](../../campaign/using/creating-and-managing-tasks.md#types-of-task)を参照してください。
 
-### 例 ：{#example}
+### 例 {#example}
 
 以下を使用してキャンペーンを作成するとします。
 

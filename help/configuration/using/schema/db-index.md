@@ -1,19 +1,17 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: 要素と属性
 description: 要素と属性
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
-translation-type: tm+mt
-source-git-commit: 922257b157f8d76d6e703b0510ff689d1aa4d067
+exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
+source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 2%
 
 ---
-
 
 # dbindex要素{#dbindex--element}
 
@@ -23,11 +21,11 @@ dbindex:==keyfield
 
 ## 属性 {#attributes-3}
 
-* @_operation（文字列）
+* @_operation (string)
 * @applicableIf (string)
-* @label（文字列）
+* @label (string)
 * @name (MNTOKEN)
-* @unique（ブール値）
+* @unique (boolean)
 
 ## 親{#parents-3}
 
@@ -39,38 +37,38 @@ dbindex:==keyfield
 
 ## 説明 {#description-3}
 
-この要素を使用すると、テーブルにリンクされたインデックスを定義できます。
+この要素を使用して、テーブルにリンクするインデックスを定義できます。
 
-## 使用と使用のコンテキスト{#use-and-context-of-use-3}
+## {#use-and-context-of-use-3}の使用と使用のコンテキスト
 
-複数のインデックスを定義できます。 1つのインデックスで、テーブルの1つ以上のフィールドを参照できます。 インデックス宣言は、通常、メインスキーマ要素の定義に従います。
+複数のインデックスを定義できます。 1つのインデックスは、テーブルの1つ以上のフィールドを参照できます。 インデックス宣言は、通常、メインのスキーマ要素の定義に従います。
 
-`<dbindex>`に定義される`<keyfield>`要素の順序は非常に重要です。 最初の`<keyfield>`は、クエリが主に基づくインデクション基準にする必要があります。
+`<dbindex>`で定義されている`<keyfield>`要素の順序は非常に重要です。 最初の`<keyfield>`は、クエリの主な基になるインデックス基準である必要があります。
 
-データベース内のインデックスの名前は、テーブルの名前とインデックスの名前を連結して計算されます。 次に例を示します。インデックス作成クエリ中の、テーブル名「Sample」、名前空間「Cus」、インデックス名「MyIndex」 —>インデックスフィールドの名前：&quot;CusSample_myIndex&quot;.
+データベース内のインデックスの名前は、テーブルの名前とインデックスの名前を連結して計算されます。 例：テーブル名「Sample」、名前空間「Cus」、インデックス名「MyIndex」 —>インデックス作成クエリ中のインデックスフィールドの名前：&quot;CusSample_myIndex&quot;.
 
 ## 属性の説明{#attribute-description-3}
 
-* **_operation (string)**:データベースに書き込むタイプを定義します。
+* **_operation （文字列）**:データベースに書き込むタイプを定義します。
 
-   この属性は主に、標準搭載されたスキーマを拡張する場合に使用します。
+   この属性は、主に標準のスキーマを拡張する際に使用されます。
 
    アクセス可能な値は次のとおりです。
 
-   * &quot;none&quot;:和解のみ。 つまり、Adobe Campaignは、要素を更新せずに回復します。要素が存在しない場合はエラーが発生します。
-   * &quot;insertOrUpdate&quot;:挿入時に更新します。 つまり、Adobe Campaignは、要素を更新するか、存在しない場合は作成します。
+   * &quot;none&quot;:紐付けのみ。 つまり、Adobe Campaignは更新せずに要素を回復し、要素が存在しない場合はエラーを生成します。
+   * &quot;insertOrUpdate&quot;:を挿入して更新します。 つまり、Adobe Campaignは要素を更新するか、存在しない場合は作成します。
    * &quot;insert&quot;:挿入。 つまり、Adobe Campaignは、要素が存在するかどうかを確認せずに要素を挿入します。
-   * &quot;update&quot;:更新。 これは、Adobe Campaignが要素を更新するか、存在しない場合はエラーを生成することを意味します。
-   * &quot;delete&quot;:削除。 つまり、Adobe Campaignは要素を回復および削除します。
+   * &quot;update&quot;:更新。 つまり、Adobe Campaignは要素を更新するか、存在しない場合はエラーを生成します。
+   * &quot;delete&quot;:削除します。 つまり、Adobe Campaignは要素を復元および削除します。
 
 * **applicableIf (string)**:インデックスを考慮する条件 — XTK式を受け取ります。
-* **label (string)**:indexラベル。
-* **name (MNTOKEN)**:一意のインデックス名。
-* **unique (boolean)**:このオプションが有効な場合(@unique=&quot;true&quot;)、属性はフィールド全体でのインデックスの一意性を保証します。
+* **label（文字列）**:インデックスラベル
+* **名前(MNTOKEN)**:一意のインデックス名。
+* **一意（ブール値）**:このオプションが有効(@unique=&quot;true&quot;)の場合、属性はフィールド全体でインデックスの一意性を保証します。
 
 ## 例 {#examples-3}
 
-「id」フィールドでのインデックスの作成。 (`<dbindex>`要素トリガーの「@unique」属性は、データベース(クエリ)にインデックスが作成されたときに「UNIQUE」SQLキーワードを追加します)。
+「id」フィールドでのインデックスの作成。 (`<dbindex>`要素トリガーの「@unique」属性で、データベース（クエリ）でインデックスが作成された際の「UNIQUE」SQLキーワードを追加します)。
 
 ```
 <element label="Sample" name="Sample">
@@ -89,7 +87,7 @@ ALTER TABLE CusSample ALTER COLUMN iSampleId SET NOT NULL;
 CREATE UNIQUE INDEX CusSample_myIndex ON CusSample(iSampleId);
 ```
 
-「@mail」フィールドと「@phoneNumber」フィールドに複合インデックスを作成します。
+「@mail」フィールドと「@phoneNumber」フィールドの複合インデックスの作成：
 
 ```
 <element label="NewSchemaUser" name="NewSchemaUser">

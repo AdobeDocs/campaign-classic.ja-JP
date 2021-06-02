@@ -22,6 +22,7 @@ ht-degree: 15%
 >* Adobeでは、更新する前に各インスタンスでデータベースのバックアップを作成することを強くお勧めします。 詳しくは、[こちらの節](../../production/using/backup.md)を参照してください。
 >* アップグレードを実行するには、インスタンスとログにアクセスする権限と権限があることを確認してください。
 >* [この節](../../installation/using/general-architecture.md)と[ビルドのアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)の章を読んでから、始めてください。
+
 >
 
 
@@ -48,7 +49,6 @@ Windows環境でAdobe Campaignを新しいビルドに更新するには、次�
       **iisreset /stop**
 
    * Adobe Campaignサービス：**net stop nlserver6**
-
    >[!IMPORTANT]
    >
    >また、IISで使用される&#x200B;**nlsrvmod.dll**&#x200B;ファイルを新しいバージョンに置き換えるには、リダイレクションサーバー(webmdl)が停止していることを確認する必要があります。
@@ -127,7 +127,7 @@ Linux環境でAdobe Campaignを新しいビルドに更新するには、次の�
 
 ファイルは&#x200B;**nlserver6-v7-XXX.rpm**&#x200B;です。
 
-### 更新を実行します{#perform-an-update}
+### 更新{#perform-an-update}を実行します
 
 * RPMベースの配布(RedHat、SuSe)
 
@@ -157,7 +157,7 @@ Linux環境でAdobe Campaignを新しいビルドに更新するには、次の�
 >
 >完全なインストール手順については、[この節](../../installation/using/installing-campaign-standard-packages.md)で詳しく説明しています。 リソースは自動的に同期されますが、エラーが発生していないことを確認する必要があります。 詳しくは、[アップグレードの競合の解決](#resolving-upgrade-conflicts)を参照してください。
 
-### Webサーバーを再起動します。{#reboot-the-web-server}
+### Webサーバー{#reboot-the-web-server}を再起動します。
 
 新しいライブラリを適用するには、Apacheをシャットダウンする必要があります。
 
@@ -171,8 +171,10 @@ Linux環境でAdobe Campaignを新しいビルドに更新するには、次の�
 >
 >* スクリプトは、**apache**&#x200B;ではなく、**httpd**&#x200B;と呼ばれる場合があります。
 >* 次の応答が返されるまで、このコマンドを実行する必要があります。
->
->   この操作は、Apacheが新しいライブラリを適用するために必要です。
+
+   >
+   >   
+   この操作は、Apacheが新しいライブラリを適用するために必要です。
 
 
 次に、Apacheを再起動します。
@@ -240,7 +242,7 @@ Linux環境でAdobe Campaignを新しいビルドに更新するには、次の�
 
 例えば、Unicodeデータベースは、LATIN1データなどのストレージを許可するだけではありません。
 
-## 使用可能な更新をクライアントコンソールに警告する{#warn-the-client-consoles-of-the-available-update}
+## 使用可能な更新{#warn-the-client-consoles-of-the-available-update}をクライアントコンソールに警告する
 
 ### Windows {#in-windows-1}
 

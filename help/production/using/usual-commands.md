@@ -27,7 +27,6 @@ ht-degree: 4%
 >
 >* いずれの場合でも、**-noconsole**&#x200B;引数を追加して、モジュールの起動後に表示されるコメントを削除できます。
 >* 逆に、引数&#x200B;**-verbose**&#x200B;を追加して、詳細を表示できます。
-
 >
 
 
@@ -161,8 +160,6 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 >* 一般に、設定ファイルを手動で変更する代わりに、 **config**&#x200B;コマンドを使用できます
 >* パラメーターのリストを取得するには、**-?** パラメーター： **nlserver設定 —?**
 >* アカウントデータベースの場合は、Oracleを指定しないでください。 構文は次のようになります。
-
 >
->  
-nlserver config -setdblogin:Oracle:test6@dbserver
+>  nlserver config -setdblogin:Oracle:test6@dbserver
 

@@ -9,7 +9,7 @@ exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 手順は以下のとおりです。
 
-1. [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=en#encrypting-data)を使用して、インスタンスに GPG キーペアをインストールします。
+1. [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=en#encrypting-data?lang=ja)を使用して、インスタンスに GPG キーペアをインストールします。
 
    >[!NOTE]
    >
-   >Campaign コントロールパネルは管理者ユーザーに制限され、特定のCampaignバージョンでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)
+   >Campaign コントロールパネルは管理者ユーザーに制限され、特定の Campaign バージョンでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)
 
 1. インストールした Adobe Campaign がアドビでホストされている場合は、必要なユーティリティをサーバーにインストールするよう[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に依頼します。
 1. Adobe Campaign のインストールがオンプレミスの場合：使用するユーティリティ（例：GPG、GZIP）およびアプリケーションサーバー上の必要なキー（暗号化キー）をインストールします。
@@ -90,4 +90,4 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
 
-Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.ad?lang=obe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

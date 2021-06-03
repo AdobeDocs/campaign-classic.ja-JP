@@ -9,11 +9,11 @@ exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '934'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 誕生日の E メールの送信{#sending-a-birthday-email}
+# 誕生日の電子メール送信{#sending-a-birthday-email}
 
 ## はじめに {#introduction}
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 この（日々実行される）ワークフローでは、現在の日付が誕生日であるすべての受信者を選択します。
 
-![](assets/do-not-localize/how-to-video.png) このユースケースはビデオでも紹介しています。詳しくは、[ワークフローの作成](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html)のビデオを参照してください。
+![](assets/do-not-localize/how-to-video.png) このユースケースはビデオでも紹介しています。詳しくは、[ワークフローの作成](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html?lang=ja)のビデオを参照してください。
 
 これをおこなうには、キャンペーンを作成して、「**[!UICONTROL ターゲティングとワークフロー]**」タブをクリックします。詳しくは、[ワークフローのメインターゲットの作成](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)の節を参照してください。
 

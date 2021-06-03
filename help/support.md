@@ -7,7 +7,7 @@ exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ### SFTP 管理
 
-コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量を監視したり、許可リストの IP アドレスや SSH 公開鍵を管理できます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)してください。
+コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量を監視したり、許可リストの IP アドレスや SSH 公開鍵を管理できます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja)してください。
 
 ### サブドメインおよび証明書
 
@@ -123,10 +123,10 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 ### インスタンス設定
 
 コントロールパネルでの Campaign Classic インスタンス設定の管理方法を説明します。 詳しくは、次のページを参照してください。
-* [許可リストにIPを追](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja) 加してCampaignインスタンスにアクセスする
-* [URLへのアクセス権限の管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja)
+* [許可リストに IP を追加](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)して Campaign インスタンスにアクセスします
+* [URL 権限の管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja)
 * [インスタンスの詳細へのアクセス](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ja)
-* [データ暗号化用のGPGキーの管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja)
+* [データ暗号化用の GPG キーの管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja)
 
 ## ヘルプのリクエスト {#support}
 

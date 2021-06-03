@@ -9,7 +9,7 @@ exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Adobe Experience Cloud は、共通データプラットフォーム上に構築され、強力なコアサービスの共通セットと統合されたクラス最高のソリューションの包括的なセットです。
 
-Adobe Campaign と [Adobe Experience Cloud ソリューション](https://experienceleague.adobe.com/docs/core-services/interface/marketing-cloud-integrations.html)および[コアサービス](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html)との間で使用可能な機能の統合について説明します。その後、ソリューションの実装を最新化し、Experience Cloud を実装して、顧客属性やオーディエンスなどの機能を使用できるようにします。
+Adobe Campaign と [Adobe Experience Cloud ソリューション](https://experienceleague.adobe.com/docs/core-services/interface/marketing-cloud-integrations.html?lang=ja)および[コアサービス](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=ja)との間で使用可能な機能の統合について説明します。その後、ソリューションの実装を最新化し、Experience Cloud を実装して、顧客属性やオーディエンスなどの機能を使用できるようにします。
 
 ![](assets/ExCloud-solutions.png)
 
@@ -36,13 +36,13 @@ Adobe Campaign と統合できるアドビのソリューションとコアサ�
 
 ## ID と Cookie の管理 {#id-and-cookies}
 
-Adobe Campaign をインストールする場合、または既存のインストールを Adobe Experience Cloud に統合する場合、[Adobe Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html)は有効になっています。このサービスは、Adobe Campaign がトラッキング機能のために最初に使用した永続 Cookie を置き換えます。
+Adobe Campaign をインストールする場合、または既存のインストールを Adobe Experience Cloud に統合する場合、[Adobe Experience Cloud ID サービス](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)は有効になっています。このサービスは、Adobe Campaign がトラッキング機能のために最初に使用した永続 Cookie を置き換えます。
 
 Adobe Experience Cloud ID サービス（ID サービス）は、Experience Cloud 内のすべてのソリューションをまたいで訪問者を識別する、永続的な汎用 ID を提供します。
 
 固有の訪問者 ID が受信者に割り当てられ、トラッキングログが生成されます。この ID は **[!UICONTROL nms:trackingLogRcp]** テーブルの「**[!UICONTROL リクエスター UUID (@sourceID)]**」フィールドに保存されます。**そのため、訪問者 ID サービスが実装される前に存在していた受信者のトラッキングデータは、これ以降使用することはできません。**
 
-この ID は、他の Adobe Experience Cloud ソリューションに同じ CNAME で認識されます。[詳細情報](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html)
+この ID は、他の Adobe Experience Cloud ソリューションにより、同じ CNAME で認識されます。[詳細情報](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=ja)
 
 ## Experience Cloud との統合 {#experience-cloud-integrations}
 

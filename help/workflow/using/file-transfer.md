@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >SFTP サーバー使用のベストプラクティスおよびトラブルシューティングについて詳しくは、[このページ](../../platform/using/sftp-server-usage.md)を参照してください。
 
-## 「PROPERTIES」タブ {#properties}
+## プロパティ {#properties}
 
 「**[!UICONTROL アクション]**」フィールドのドロップダウンリストで、アクティビティのアクションを選択します。
 

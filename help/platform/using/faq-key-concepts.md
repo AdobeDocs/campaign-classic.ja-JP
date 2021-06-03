@@ -9,7 +9,7 @@ exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 [詳しくはここをクリック](../../delivery/using/about-email-channel.md)してください。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこれを確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html)
+![](assets/do-not-localize/how-to-video.png) [動画でこれを確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html?lang=ja)
 
 ## SMS メッセージの送信方法は？{#how-to-send-sms-messages-}
 

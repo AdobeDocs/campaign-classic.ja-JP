@@ -9,7 +9,7 @@ exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,6 +42,6 @@ Campaign ユーザーは、Adobe ID を使用して Adobe Campaign コンソー�
 
 | 便利なページ | その他のリソース |
 |---|---|
-| [IMS の設定](../../integrations/using/configuring-ims.md) | [Experience Cloud に関する FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html) |
+| [IMS の設定](../../integrations/using/configuring-ims.md) | [Experience Cloud に関する FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja) |
 | [IMS の実装](../../integrations/using/implementing-ims.md) | [アクセス管理](../../platform/using/access-management.md) |
 | [IMS のトラブルシューティング](../../integrations/using/ims-troubleshooting.md) | [キャンペーンパッケージのインストール](../../installation/using/installing-campaign-standard-packages.md) |

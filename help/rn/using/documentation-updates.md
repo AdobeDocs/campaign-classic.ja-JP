@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 8d535439923d6753777b7edd7fb768f685ec5522
 workflow-type: tm+mt
 source-wordcount: '4416'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,17 +27,17 @@ ht-degree: 98%
 
 ワークフローヒートマップレポートのドキュメントが更新され、改善されました。 [詳細情報](../../workflow/using/heatmap.md)
 
-Campaignクライアントコンソールの要件が互換性マトリックスで更新されました。 [詳細情報](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
+Campaign クライアントコンソールの要件が互換性マトリックスで更新されました。 [詳細情報](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
 
-手順のCampaignクライアントコンソールのインストールが改善され、明確になりました。 [詳細情報](../../installation/using/installing-the-client-console.md)
+Campaign クライアントコンソールのインストール手順を改善し、明確にしました。[詳細情報](../../installation/using/installing-the-client-console.md)
 
-トラッキングされるURLの署名の問題に関する新しいテクニカルノートが作成されました。 [詳細情報](../../technotes/tracked-urls.md)
+トラッキングする URL の署名の問題に関する新しいテクニカルノートが作成されました。 [詳細情報](../../technotes/tracked-urls.md)
 
 ## 2021 年 4 月{#april-2021}
 
 Adobe Experience Platform のソースと宛先を使って Campaign Classic と Adobe Real-time Customer Data Platform（RTCDP）間でデータを共有する方法について、新しい節で説明しています。[詳細情報](../../integrations/using/get-started-sources-destinations.md)
 
-ISPの停止後にバウンスの選定を更新する方法を学ぶための新しいテクニカルノートが作成されました。 [詳細](../../delivery/using/update-bounce-qualification.md)
+ISP の停止後にバウンスの選定を更新する方法を学ぶための新しいテクニカルノートが作成されました。[詳細](../../delivery/using/update-bounce-qualification.md)
 
 ## 2021 年 3 月{#march-2021}
 
@@ -288,7 +288,7 @@ Spam Assassin のインストールの節が、新しいインストールファ
 
 配信品質のトラブルシューティングの節が移動され、改善されました。[詳細を表示](../../delivery/using/deliverability-faq.md)
 
-新しいプラットフォームを開始する際の配信品質ガイドラインが強化されました。[詳細を表示](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html#transition-process?lang=ja)
+新しいプラットフォームを開始する際の配信品質ガイドラインが強化されました。[詳細を表示](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja#transition-process)
 
 添付ファイル付きトランザクション E メールの送信の節が移動され、更新されました。[詳細を表示](../../message-center/using/transactional-email-with-attachments.md)
 

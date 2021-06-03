@@ -8,7 +8,7 @@ exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -34,4 +34,4 @@ Adobe Campaign は、Adobe Experience Manager 6.1、6.2、6.3、6.4 および 6.
 >
 >Adobe Campaign Classic テンプレートは、Adobe Experience Manager 6.5 では使用できなくなりました。
 
-詳しくは、[Adobe Experience Managerのドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html)を参照してください。
+詳しくは、[Adobe Experience Manager のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html?lang=ja)を参照してください。

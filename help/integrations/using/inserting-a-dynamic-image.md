@@ -9,7 +9,7 @@ exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 99%
 
 これを実現するには、Adobe Campaign と Target の両方で、次の手順を実行する必要があります。
 
-1. [ダイナミックオファーの E メールへの挿入](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
+1. [電子メールへの動的なオファーの挿入](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
 1. [リダイレクトオファーの作成](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
 1. [オーディエンスの作成](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
-1. [エクスペリエンスターゲット設定アクティビティの作成](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
-1. [E メールのプレビューと送信](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
+1. [エクスペリエンスのターゲット設定アクティビティの作成](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
+1. [電子メールのプレビューと送信](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
 ## ダイナミックオファーの E メールへの挿入 {#inserting-dynamic-offer}
 
@@ -58,7 +58,7 @@ Adobe Campaign では、2 通りの方法で Target から E メールに動的�
 * **[!UICONTROL ランディングページ]**：デフォルト画像をデフォルトのランディングページにリダイレクトする場合。この URL は、デフォルト画像が最終的な E メールに表示される場合にのみ使用され、オプションです。
 * **[!UICONTROL 追加の決定パラメーター]**：Adobe Target セグメントで定義されたフィールドと Adobe Campaign フィールド間のマッピングを指定します。使用する Adobe Campaign フィールドは、rawbox で指定されている必要があります。この例では、「国」フィールドを追加しています。
 
-Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。Target の Enterprise 権限について詳しくは、[このページ](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html)を参照してください。
+Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。Target の Enterprise 権限について詳しくは、[このページ](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=ja)を参照してください。
 
 ![](assets/target_13.png)
 
@@ -96,13 +96,13 @@ Target で、2 つのオーディエンスを作成し、オファーに訪問�
 
 1. 残りのオーディエンスについても同じ手順を繰り返します。
 
-## エクスペリエンスターゲット設定アクティビティの作成 {#creating-targeting-activity}
+## エクスペリエンスのターゲット設定アクティビティの作成 {#creating-targeting-activity}
 
-Target で、エクスペリエンスターゲット設定アクティビティを作成し、異なるエクスペリエンスを定義して、対応するオファーに関連付けます。
+Target で、エクスペリエンスのターゲット設定アクティビティを作成し、異なるエクスペリエンスを定義して、対応するオファーに関連付けます。
 
 ### オーディエンスの定義 {#defining-the-audience}
 
-1. エクスペリエンスターゲット設定アクティビティを作成するには、「**[!UICONTROL アクティビティ]**」タブで、「**[!UICONTROL アクティビティを作成]**」をクリックし、「**[!UICONTROL エクスペリエンスターゲット設定]**」をクリックします。
+1. エクスペリエンスのターゲット設定アクティビティを作成するには、「**[!UICONTROL アクティビティ]**」タブで、「**[!UICONTROL アクティビティを作成]**」をクリックし、「**[!UICONTROL エクスペリエンスのターゲット設定]**」をクリックします。
 
    ![](assets/target_10.png)
 
@@ -116,7 +116,7 @@ Target で、エクスペリエンスターゲット設定アクティビティ�
 
    ![](assets/target_10_3.png)
 
-1. 「**[!UICONTROL エクスペリエンスのターゲットを追加]**」をクリックして、別のエクスペリエンスを作成します。
+1. 「**[!UICONTROL エクスペリエンスのターゲット設定を追加]**」をクリックして、別のエクスペリエンスを作成します。
 
 ### 場所とコンテンツの定義 {#defining-location-content}
 

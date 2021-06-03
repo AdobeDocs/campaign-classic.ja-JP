@@ -462,7 +462,7 @@ XML コンテンツの投影を使用する場合：
 <group label="Group2"/>
 ```
 
-## XPath {#referencing-with-xpath}を使用した参照
+## XPathを使用した参照 {#referencing-with-xpath}
 
 Adobe Campaign では、XPath 言語を使用して、データスキーマに属する要素または属性を参照します。
 
@@ -484,7 +484,6 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 >
 >* **location/@city** が無効です。**`[location/@city]`** を使用してください。
 >* **`[@email]`** と **@email** は同等です。
-
 >
 
 

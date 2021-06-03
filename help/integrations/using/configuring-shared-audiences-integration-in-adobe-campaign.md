@@ -9,7 +9,7 @@ exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 1. [手順 1：Adobe Campaign での外部アカウントの設定または確認](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 1. [手順 2：データソースの設定](#step-2--configure-the-data-source)
-1. [手順 3：キャンペーントラッキングサーバーの設定](#step-3--configure-campaign-tracking-server)
+1. [手順 3：Campaignトラッキングサーバーの設定](#step-3--configure-campaign-tracking-server)
 1. [手順 4：訪問者 ID サービスの設定](#step-4--configure-the-visitor-id-service)
 
 >[!IMPORTANT]
@@ -85,6 +85,6 @@ Campaign トラッキングサーバーがドメインに登録されている�
 
 ## 手順 4：訪問者 ID サービスの設定 {#step-4--configure-the-visitor-id-service}
 
-訪問者 ID サービスを web のプロパティや web サイトで設定したことがない場合は、次の[ドキュメント](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html)を参照してサービスの設定方法を確認するか、次の[動画](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)をご覧ください。
+訪問者 ID サービスを web のプロパティや web サイトで設定したことがない場合は、次の[ドキュメント](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=ja)を参照してサービスの設定方法を確認するか、次の[動画](https://helpx.adobe.com/jp/marketing-cloud/how-to/email-marketing.html#step-two)をご覧ください。
 
 設定とプロビジョニングが完了し、統合を使用してオーディエンスまたはセグメントをインポートおよびエクスポートできるようになりました。

@@ -9,7 +9,7 @@ exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -143,9 +143,9 @@ Campaign Standard で配信ワークフローを作成することで、この�
 1. 配信ダッシュボードから、配信を送信できることを手動で確認します。
 1. 配信のレポートとログを監視します。
 
-   * **Campaign Standard**：任意の配信について、配信に関する[レポート](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html)および[ログ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html)にアクセスします。
+   * **Campaign Standard**：任意の配信について、配信に関する[レポート](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html?lang=ja)および[ログ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=ja)にアクセスします。
    * **Campaign v7 および Campaign Standard**：配信 ID、E メール配信ログ、E メールトラッキングログが、Campaign v7 に同期されます。Campaign v7 からマーケティングキャンペーンの包括的なビューを得ることができます。
 
       強制隔離は、Campaign v7 に自動的に同期されます。これにより、Campaign v7 で実行される次のターゲティングで、配信不能情報を考慮できます。
 
-      Campaign Standard での強制隔離管理について詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en)を参照してください。
+      Campaign Standard での強制隔離管理について詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=ja)を参照してください。

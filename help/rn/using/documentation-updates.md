@@ -6,9 +6,9 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 8d535439923d6753777b7edd7fb768f685ec5522
 workflow-type: tm+mt
-source-wordcount: '4387'
+source-wordcount: '4416'
 ht-degree: 98%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 98%
 このページには、毎月および Campaign の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
 
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
+
+## 2021 年 6 月{#june-2021}
+
+**トランザクションメッセージ**&#x200B;の節が再編成され、新しい「はじめに」の節が追加されました。この節には、プロセスをより深く理解できるよう、[拡張されたスキーマ](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle)が含まれています。 [詳細情報](../../message-center/using/about-transactional-messaging.md)
 
 ## 2021 年 5 月 {#may-2021}
 

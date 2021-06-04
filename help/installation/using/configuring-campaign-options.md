@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: b99de2a47bac08578d6e660595eb14c0858bf9fd
+source-git-commit: c095d7ddde4b4ac23467ebd0fa8ee2fb613aacdc
 workflow-type: tm+mt
-source-wordcount: '3964'
+source-wordcount: '3944'
 ht-degree: 24%
 
 ---
@@ -53,10 +53,6 @@ ht-degree: 24%
 (要素名はコンマ区切りで指定)
 例 : custom_nms_recipient.<br /> </td> 
   </tr> 
-  <tr> 
-   <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
-   <td> Enhanced MTAが送信した電子メールの生のコピーを送信するBCC電子メールアドレス。<br /> </td> 
-  </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
    <td><p> 配信のプロパティで配信を開始するために特定のオペレーターまたはオペレーターのグループが指定されている場合、配信を担当するオペレーターに送信の確認を許可できます。</p><p> これをおこなうには、値に「1」を入力して、オプションを有効にします。 このオプションを無効にするには、"0"と入力します。</p><p> すると、送信確認プロセスがデフォルトとして機能します。つまり、配信プロパティで送信用に指定されたオペレーターまたはオペレーターのグループ（または管理者）のみが、送信を確認し、実行できるようになります。詳しくは、<a href="../../campaign/using/marketing-campaign-deliveries.md#starting-an-online-delivery">この節</a>を参照してください。</p> </td> 

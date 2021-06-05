@@ -6,10 +6,10 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 8d535439923d6753777b7edd7fb768f685ec5522
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '4416'
-ht-degree: 99%
+source-wordcount: '4441'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,10 @@ Campaign クライアントコンソールの要件が互換性マトリック�
 Campaign クライアントコンソールのインストール手順を改善し、明確にしました。[詳細情報](../../installation/using/installing-the-client-console.md)
 
 トラッキングする URL の署名の問題に関する新しいテクニカルノートが作成されました。 [詳細情報](../../technotes/tracked-urls.md)
+
+**21.1.3 リリースに伴うドキュメントのアップデート**
+
+「請求（請求）」テクニカルワークフローの説明に、「アクティブな請求プロファイルの数(billingActiveContactCount)」で最初に実行されたタスクが含まれるようになりました。 [詳細情報](../../workflow/using/about-technical-workflows.md)
 
 ## 2021 年 4 月{#april-2021}
 
@@ -456,7 +460,7 @@ GDPR の入門ガイドが改善され、強化されました。GDPR や CCPA �
 
 Campaign Classic でのトラッキングについて、新しいトラブルシューティングページが追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/classic-tracking-troubleshooting.html)。
 
-Adobe Analytics Data Connector の新しいベストプラクティスのページが追加されました。[Adobe Analytics Data Connector の詳細を表示](../../platform/using/adobe-analytics-data-connector.md)
+Adobe Analytics Connector の新しいベストプラクティスのページが追加されました。[Adobe Analytics Connector の詳細を表示](../../platform/using/adobe-analytics-connector.md)
 
 配信のベストプラクティス入門ガイドが移動され、更新されました。[詳細を表示](../../delivery/using/delivery-best-practices.md)
 
@@ -534,8 +538,8 @@ Adobe Campaign Classic のオファーカタログの使用に関する新しい
 Campaign Classic で使用できる様々な外部アカウントと、その設定方法に関する情報が追加されました。
 [詳細を表示](../../installation/using/external-accounts.md)
 
-Analytics Data Connector の節が更新され、インターフェイスの変更が反映されるようになりました。
-[詳細を表示](../../platform/using/adobe-analytics-data-connector.md)
+Analytics Connector の節が更新され、インターフェイスの変更が反映されるようになりました。
+[詳細を表示](../../platform/using/adobe-analytics-connector.md)
 
 請求レポートに関する情報が追加されました。
 [詳細を表示](../../production/using/monitoring-processes.md)

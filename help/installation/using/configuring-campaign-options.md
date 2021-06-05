@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: c095d7ddde4b4ac23467ebd0fa8ee2fb613aacdc
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '3944'
+source-wordcount: '3975'
 ht-degree: 24%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 24%
 # Campaign Classic のオプションのリスト{#configuring-campaign-options}
 
 **[!UICONTROL 管理/プラットフォーム/オプション]**&#x200B;ノードを使用すると、Adobe Campaignのオプションを設定できます。 一部はCampaignのインストール時に組み込まれ、それ以外は必要に応じて手動で追加できます。 使用可能なオプションは、インスタンスと共にインストールされるパッケージによって異なります。
+
 
 >[!CAUTION]
 >
@@ -401,6 +402,14 @@ ht-degree: 24%
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td> <span class="uicontrol">RestrictEditingOOTBSchema</span> <br /> </td> 
+   <td> （21.1.3リリース以降）1を選択すると（デフォルト値）、このオプションは組み込みスキーマのエディションを無効にします。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">RestrictEditingOOTBJavascript</span> <br /> </td> 
+   <td> （21.1.3リリース以降）1を選択すると（デフォルト値）、このオプションは組み込みのjavascriptコードのエディションを無効にします。<br /> </td> 
+  </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
    <td> (互換モードのインストール：build&gt;6000)有効にすると（値「1」）、このオプションを使用して、外部アカウントやインスタンスへの接続用にデータベースに保存されている古いパスワードを使用できます。<br /> </td> 

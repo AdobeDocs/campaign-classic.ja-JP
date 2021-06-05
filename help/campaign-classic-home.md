@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 28083eb0271c8c148955fa33978479dc3683eaed
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 78%
 
 ---
 
@@ -16,17 +16,15 @@ ht-degree: 100%
 
 ## 新着情報
 
+* **[6月リリースが公開されました。](rn/using/latest-release.md)**<br/> リリースノートの新機能、改善点、修正点を確認する
+
 * **[誤ったハードバウンスの削除](delivery/using/update-bounce-qualification.md)**<br/> Apple の停止後に、誤ったハードバウンスを更新する方法を説明します。
 
-* **[APN 証明書のアップデート](technotes/ios-certificate-update.md)**<br/> 2021 年 3 月 29 日、APN のアップデートにより、Campaign iOS チャネルが影響を受けます。iOS のプッシュチャネルが機能しなくなるのを防ぐために、設定を更新する必要があります。
+* **[IMS／Adobe ID を使用した接続最新のビルドへのアップグレード](integrations/using/about-adobe-id.md)**<br/> IMSを使用してCampaignに接続する場合、2021年6月30日(PT)以降にCampaignに接続できるように、アップグレードする必要があります。****
 
-* **[IMS／Adobe ID を使用した接続最新ビルドへのアップグレード](integrations/using/about-adobe-id.md)**<br/> IMS を使用して Campaign に接続している場合、** 2021 年 6 月 30 日&#x200B;**以降も、Campaign に接続できるようにするには、アップグレードが必要です。
-
-* **[Campaign インスタンスのセキュリティ保護](technotes/acc-config-updates.md)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します。
+* **[Campaignインスタンスを保](technotes/acc-config-updates.md)**<br/> 護します。Campaignプラットフォームを保護するために最新のビルドに更新します。
 
 * **[Adobe Experience Cloud Triggers 統合の更新](integrations/using/configuring-adobe-io.md)**<br/>レガシー oAuth 認証サービスが提供終了になりました。Adobe I/O に移行する方法を説明します
-
-* **[HTTP/2 ベースの APN プロバイダー API への移行](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)**<br/>&#x200B;レガシーバイナリプロトコルから HTTP/2 ベースの APN プロバイダー API に移行する方法を説明します
 
 * **[サポート](support.md)**<br/> FAQ、ベストプラクティス、ヘルプリソースにアクセスしたり、サポートを依頼したりできます。
 

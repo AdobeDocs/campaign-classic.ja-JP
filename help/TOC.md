@@ -7,10 +7,10 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: チャネルをまたいだマーケティングキャンペーンを設計、計画、実行、管理、および最適化して、高いマーケティング投資回収率を実現します。
 sub-product: Adobe Campaign Classic
 type: Documentation
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 99%
+source-wordcount: '2485'
+ht-degree: 98%
 
 ---
 
@@ -115,7 +115,8 @@ ht-degree: 99%
          + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
          + [Salesforce.com との接続](platform/using/crm-sfdc.md)
          + [CRM とのデータの同期](platform/using/crm-data-sync.md)
-      + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector.md)
+      + [Adobe Analytics Connector](platform/using/adobe-analytics-connector.md)
+      + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
    + [ヘルプとサポートオプション](support.md)
 + メッセージの作成と送信 {#sending-messages}
    + [メッセージの基本を学ぶ](delivery/using/communication-channels.md)
@@ -670,7 +671,9 @@ ht-degree: 99%
          + [ベストプラクティスと制限事項](installation/using/fda-best-practices.md)
          + 設定のガイドライン {#config-databases}
             + [設定の手順](installation/using/configure-fda.md)
+            + [Verticaの設定](installation/using/configure-fda-vertica.md)
             + [Snowflake の設定](installation/using/configure-fda-snowflake.md)
+            + [Google BigQueryの設定](installation/using/configure-fda-google-big-query.md)
             + [Azure Synapse の設定](installation/using/configure-fda-synapse.md)
             + [Hadoop の設定](installation/using/configure-fda-hadoop.md)
             + [Oracle の設定](installation/using/configure-fda-oracle.md)

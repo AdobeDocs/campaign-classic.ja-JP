@@ -6,126 +6,178 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 100%
+source-wordcount: '1329'
+ht-degree: 99%
 
 ---
 
-# LINE 配信の作成{#line-channel}
+# LINE 配信を作成{#line-channel}
 
-LINE は、無料でインスタントメッセージング、音声通話、ビデオ通話ができるアプリケーションで、すべてのスマートフォン（iPhone、Android、Windows Phone、Blackberry、Nokia）と PC で利用可能です。Adobe Campaign では、LINE メッセージを送信できます。
+>[!NOTE]
+>
+>[!DNL LINE] は、オンプレミスインストールまたは管理されたサービスインストールでのみ使用できます。
 
-LINE は、オンプレミスインストールまたは管理されたサービスインストールでのみ使用できます。
+[!DNL LINE] は、無料のインスタントメッセージング、音声、ビデオ通話用のアプリケーションで、すべてのモバイル OS と PC で利用できます。
 
-また LINE は、コンシューマー向けモバイルデバイスにインストールされた LINE アプリでリアルタイムメッセージを送信するために、トランザクションメッセージモジュールと組み合わせることができます。詳しくは、この[ページ](../../message-center/using/transactional-messaging-architecture.md#transactional-messaging-and-line)を参照してください。
+また [!DNL LINE] は、コンシューマー向けモバイルデバイスにインストールされた [!DNL LINE] アプリでリアルタイムメッセージを送信するために、トランザクションメッセージモジュールと組み合わせることができます。詳しくは、この[ページ](../../message-center/using/transactional-messaging-architecture.md#transactional-messaging-and-line)を参照してください。
 
 ![](assets/line_message.png)
 
-以下の節では、LINE チャネルに固有の情報を提供します。配信の作成方法に関する全般的な情報については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。
+[!DNL LINE] チャネルを使用する手順は次のとおりです。
 
-LINE チャネルを使用する手順は次のとおりです。
+1. [LINE チャネルの設定](#setting-up-line-channel)
+1. [ 配信の作成](#creating-the-delivery)
+1. [コンテンツタイプの設定](#defining-the-content)
+1. [配信の監視（トラッキング、強制隔離、レポートなど）](#accessing-reports)
 
-1. 配信の作成
-1. メッセージコンテンツの設定
-1. ターゲット母集団の選択
-1. メッセージの送信
-1. 配信の監視（トラッキング、強制隔離、レポートなど）
+## LINE チャネルの設定{#setting-up-line-channel}
 
-## LINE チャネルの設定 {#setting-up-line-channel}
+[!DNL LINE] アカウントと外部アカウントを作成する前に、まず LINE パッケージをインスタンスにインストールする必要があります。詳しくは、インストールガイドの [LINE](../../installation/using/installing-campaign-standard-packages.md#line-package) の節を参照してください。
 
-### LINE アカウントと外部アカウントの作成 {#creating-a-line-account-and-an-external-account-}
+まず、Adobe Campaign にリンクできるように、[!DNL LINE] アカウントを作成する必要があります。[!DNL LINE] アカウントをモバイルアプリケーションで追加したユーザーに [!DNL LINE] メッセージを送信できます。外部アカウントと [!DNL LINE] アカウントは、プラットフォームの機能管理者のみが管理できます。
 
->[!NOTE]
->
->LINE アカウントと外部アカウントを作成する前に、まず LINE パッケージをインスタンスにインストールする必要があります。詳しくは、インストールガイドの [LINE](../../installation/using/installing-campaign-standard-packages.md#line-package) の節を参照してください。
+[!DNL LINE] アカウントを作成して設定する方法については、[LINE デベロッパードキュメント](https://developers.line.biz/ja/)を参照してください。
 
-まず、Adobe Campaign にリンクできるように、LINE アカウントを作成する必要があります。LINE アカウントをモバイルアプリケーションで追加したユーザーに LINE メッセージを送信できます。外部アカウントと LINE アカウントは、プラットフォームの機能管理者のみが管理できます。
+### LINE サービスの作成と設定{#configure-line-service}
 
-LINE アカウントを作成して設定するには、[https://developers.line.me/](https://developers.line.me/) を参照してください。
+[!DNL LINE] サービスを作成するには：
 
-LINE サービスを作成して設定するには、[購読の管理](../../delivery/using/managing-subscriptions.md)を参照してください。
+1. Adobe Campaign Classic のホームページから「**[!UICONTROL プロファイルとターゲット]**」タブを選択します。
 
-![](assets/line_service.png)
+1. 左側のメニューで、「**[!UICONTROL サービスと購読]**」を選択し、「**[!UICONTROL 作成]**」をクリックします。
 
-Adobe Campaign で外部アカウントを作成する手順は次のとおりです。
+   ![](assets/line_service_1.png)
 
-1. **管理**／**プラットフォーム**&#x200B;ツリー構造で、「**外部アカウント**」タブをクリックします。
-1. 次に「**新規**」アイコンをクリックします。
+1. **[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 内部名]**&#x200B;を新しいサービスに追加します。
+
+1. 「**[!UICONTROL タイプ]**」ドロップダウンから「**[!UICONTROL LINE]**」を選択します。
+
+   ![](assets/line_service_2.png)
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+購読とサービスの詳細については、「[購読の管理](../../delivery/using/managing-subscriptions.md)」を参照してください。
+
+### LINE 外部アカウントの設定 {#configure-line-external}
+
+[!DNL LINE] サービスを作成した後、Adobe Campaign 上で [!DNL LINE] 外部アカウントを設定する必要があります。
+
+1. **[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**&#x200B;ツリー構造で、「**[!UICONTROL 外部アカウント]**」タブをクリックします。
+
+1. 組み込みの **[!UICONTROL LINE V2 ルーティング]**&#x200B;外部アカウントを選択します。
 
    ![](assets/line_config.png)
 
-1. 「**ラベル**」フィールドと「**内部名**」フィールドに入力します。
-1. 「**[!UICONTROL タイプ]**」フィールドで「ルーティング」を選択し、「**チャネル**」フィールドで「LINE」を選択します。
-1. 「**[!UICONTROL 保存]**」をクリックして LINE 外部アカウントを作成します。
-1. 「**一般**」アイコンの下に **LINE** のパーソナライゼーションフィールドが表示されます。次のフィールドに入力します。
+1. 外部アカウントの「**[!UICONTROL LINE]**」タブをクリックし、外部アカウントの設定開始に移動します。次のフィールドに入力します。
 
    ![](assets/line_config_2.png)
 
-   * **Channel のエイリアス**：**[!UICONTROL チャネル]**／「**[!UICONTROL 技術的設定]**」タブの LINE アカウント経由で提供されます。
-   * **Channel ID**：**チャネル**／**基本情報パネル**&#x200B;タブの LINE アカウント経由で提供されます。
-   * **Channel 秘密鍵**：**チャネル**／「**基本情報パネル」**&#x200B;タブの LINE アカウント経由で提供されます。
-   * **アクセストークン**：開発者ポータルの LINE アカウント経由で提供されるか、または「**[!UICONTROL アクセストークンを取得]**」ボタンをクリックすることで提供されます。
-   * **アクセストークンの有効期限**：アクセストークンの有効期限日を指定できます。
-   * **LINE 購読サービス**：ユーザーがどのサービスを購読するかを指定できます。
+   * **[!UICONTROL Channel エイリアス]**：**[!UICONTROL チャネル]**／「**[!UICONTROL 技術的設定]**」タブの [!DNL LINE] アカウント経由で提供されます。
+   * **[!UICONTROL Channel ID]**：**[!UICONTROL チャネル]**／「**[!UICONTROL 基本情報パネル]**」タブの [!DNL LINE] アカウント経由で提供されます。
+   * **[!UICONTROL Channel 秘密鍵]**：**[!UICONTROL チャネル]**／「**[!UICONTROL 基本情報パネル]**」タブの [!DNL LINE] アカウント経由で提供されます。
+   * **[!UICONTROL アクセストークン]**：開発者ポータルの [!DNL LINE] アカウント経由で提供されるか、または「**[!UICONTROL アクセストークンを取得]**」ボタンをクリックすることで提供されます。
+   * **[!UICONTROL アクセストークンの有効期限]**：アクセストークンの有効期限日を指定できます。
+   * **[!UICONTROL LINE 購読サービス]**：ユーザーがどのサービスを購読するかを指定できます。
+
+1. 設定が完了したら、「**[!UICONTROL 保存]**」をクリックします。
+
+1. **[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL 管理]**／**[!UICONTROL プロダクション]**／**[!UICONTROL テクニカルワークフロー]**／**[!UICONTROL LINE ワークフロー]**&#x200B;を選択して、**[!UICONTROL LINE V2 アクセストークンの更新（updateLineAccessToken）]**&#x200B;と&#x200B;**[!UICONTROL ブロックした LINE ユーザーを削除（deleteBlockedLineUsers）]**&#x200B;ワークフローが開始されているかどうかを確認します。
+
+[!DNL LINE] が Adobe Campaign で設定され、LINE 配信の作成と購読者への送信を開始できます。
+
+## LINE 配信を作成{#creating-the-delivery}
 
 >[!NOTE]
 >
->**[!UICONTROL LINE アクセストークンの更新（updateLineAccessToken）]**&#x200B;と&#x200B;**[!UICONTROL ブロックした LINE ユーザーを削除（deleteBlockedLineUsers）]**&#x200B;のワークフローが開始されたことを確認する必要があります。エクスプローラーから、**[!UICONTROL 管理／プロダクション／テクニカルワークフロー／LINE ワークフロー]**&#x200B;をクリックして、ワークフローのステータスを確認します。
+>新しい受信者に [!DNL LINE] 配信を初めて送信する場合は、利用条件と配信への同意に関する公式 LINE メッセージを追加する必要があります。公式メッセージは、[次のリンク](https://terms.line.me/OA_privacy?lang=ja)から入手できます。
 
-## 配信の作成 {#creating-the-delivery}
-
-**LINE** 配信を作成するには、次の手順に従う必要があります。
-
->[!NOTE]
->
->配信の作成に関するグローバルな概念については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)で説明しています。
+[!DNL LINE] 配信を作成するには、次の手順に従う必要があります。
 
 1. 「**[!UICONTROL キャンペーン]**」タブで、「**[!UICONTROL 配信]**」を選択し、「**[!UICONTROL 作成]**」ボタンをクリックします。
-1. 表示されるウィンドウで、「**[!UICONTROL LINE V2 配信]**」配信テンプレートを選択します。
+
+   ![](assets/line_message_07.png)
+
+1. **[!UICONTROL LINE V2 配信]**&#x200B;配信テンプレートを選択します。
 
    ![](assets/line_message_01.png)
 
-1. ラベル、コードおよび説明を設定して配信を識別します。詳しくは、[この節](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery)を参照してください。
+1. **[!UICONTROL ラベル]**、**[!UICONTROL 配信コード]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を設定して配信を識別します。詳しくは、[この節](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery)を参照してください。
+
 1. 「**[!UICONTROL 続行]**」をクリックして配信を作成します。
 
-## コンテンツの定義 {#defining-the-content}
+1. 配信エディターで、「**[!UICONTROL 宛先]**」を選択して [!DNL LINE] 配信の受信者をターゲットします。ターゲティングは、**[!UICONTROL 訪問者の購読（複数）（nms:visitorSub）]**&#x200B;でおこなわれます。
 
-LINE 配信のコンテンツを定義するには、最初にメッセージタイプを配信に追加する必要があります。それぞれの LINE 配信には最大で 5 件のメッセージを含めることができます。
+   詳しくは、[ターゲット母集団の識別](../../delivery/using/steps-defining-the-target-population.md)を参照してください。
 
-次の 2 つのメッセージタイプから選択できます。
+   ![](assets/line_message_08.png)
 
-* テキストメッセージ
-* 画像とリンク
+1. 「**[!UICONTROL 追加]**」をクリックして、「**[!UICONTROL 配信ターゲット母集団]**」を選択します。
+
+   ![](assets/line_message_09.png)
+
+1. [!DNL LINE] 購読者を直接ターゲットするか [!DNL LINE] 購読に応じてユーザーをターゲットするかを選択し、「**[!UICONTROL 次へ]**」をクリックします。この例では、「**[!UICONTROL LINE V2 購読別]**」を選択しています。
+
+1. 「**[!UICONTROL フォルダー]**」ドロップダウンで「**[!UICONTROL Line-V2]**」を選択し、[!DNL LINE] サービスを選択します。「**[!UICONTROL 完了]**」、「**[!UICONTROL OK]**」の順にクリックして、配信のパーソナライズを開始します。
+
+   ![](assets/line_message_10.png)
+
+1. 配信エディターで、「**[!UICONTROL 追加]**」をクリックして 1 つまたは複数のメッセージを追加し、**[!UICONTROL コンテンツタイプ]**&#x200B;を選択します。
+
+   利用可能な様々な&#x200B;**[!UICONTROL コンテンツタイプ]**&#x200B;について詳しくは、[コンテンツタイプの定義](#defining-the-content)を参照してください。
+
+   ![](assets/line_message_11.png)
+
+1. 配信を正しく作成して設定すると、事前に定義したターゲットに送信することができます。
+
+   配信の送信について詳しくは、[メッセージの送信](../../delivery/using/sending-messages.md)を参照してください。
+
+1. メッセージを送信した後、レポートにアクセスして配信の有効性を測定します。
+
+   [!DNL LINE] レポートの詳細については、[レポートへのアクセス](#accessing-reports)を参照してください。
+
+## コンテンツタイプの定義{#defining-the-content}
+
+[!DNL LINE] 配信のコンテンツを定義するには、最初にメッセージタイプを配信に追加する必要があります。それぞれの [!DNL LINE] 配信には最大で 5 件のメッセージを含めることができます。
+
+次の3つのメッセージタイプから選択できます。
+
+* [テキストメッセージ](#configuring-a-text-message-delivery)
+* [画像とリンク](#configuring-an-image-and-link-delivery)
+* [ビデオメッセージ](#configuring-a-video-message-delivery)
 
 ### テキストメッセージの配信の設定 {#configuring-a-text-message-delivery}
 
-**テキストメッセージ**&#x200B;の LINE 配信は、テキスト形式で受信者に送信されるメッセージです。
+>[!NOTE]
+>
+>`<%@ include option='NmsServer_URL' %>/webApp/APP3?id=<%=escapeUrl(cryptString(visitor.id))%>` の構文によって、LINE メッセージに Web アプリへのリンクを含めることができます。
+
+**[!UICONTROL テキストメッセージ]**&#x200B;の [!DNL LINE] 配信は、テキスト形式で受信者に送信されるメッセージです。
 
 ![](assets/line_message_02.png)
 
-このタイプのメッセージの設定は、E メールの&#x200B;**テキスト**&#x200B;の設定と類似しています。詳しくは、この[ページ](../../delivery/using/defining-the-email-content.md#message-content)を参照してください。
+このタイプのメッセージの設定は、E メールの&#x200B;**[!UICONTROL テキスト]**&#x200B;の設定と類似しています。詳しくは、この[ページ](../../delivery/using/defining-the-email-content.md#message-content)を参照してください。
 
 ### 画像とリンクの配信の設定 {#configuring-an-image-and-link-delivery}
 
-**画像とリンク**&#x200B;の LINE 配信は、1 つまたは複数の URL を含む可能性のある画像の形式で受信者に送信されるメッセージです。
+**[!UICONTROL 画像とリンク]**&#x200B;の [!DNL LINE] 配信は、1 つまたは複数の URL を含む可能性のある画像形式で受信者に送信されるメッセージです。
 
 以下を使用できます。
 
-* **パーソナライズされた画像**
+* **[!UICONTROL パーソナライズされた画像]**
 
    >[!NOTE]
    >
-   >**%SIZE%** 変数：この変数は、受信者のモバイルデバイスの画面サイズに応じて画像の表示を最適化できます。
+   >**%SIZE%** 変数を使用すると、受信者のモバイルデバイスの画面サイズに応じて画像の表示を最適化できます。
 
    ![](assets/line_message_04.png)
 
-* **画像 URL**
+* **[!UICONTROL デバイスの画面サイズごとの画像 URL]**
 
    ![](assets/line_message_03.png)
 
-   画像 URL は、様々な画像解像度を使用して、モバイルデバイスでの配信の表示を最適化できます。同じ高さと幅の画像のみがサポートされます。
+   「**[!UICONTROL デバイスの画面サイズごとに画像を定義]**」オプションを使用すると、様々な画像解像度を使用して、モバイルデバイス上の配信の視認性を最適化できます。同じ高さと幅の画像のみがサポートされます。
 
    画像は、画面サイズに従って定義できます。
 
@@ -135,7 +187,7 @@ LINE 配信のコンテンツを定義するには、最初にメッセージタ
    * 300 px
    * 240 px
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >1040 x 1040 px サイズは、リンクを含むすべての LINE 画像に必須です。
 
@@ -143,45 +195,41 @@ LINE 配信のコンテンツを定義するには、最初にメッセージタ
 
 * **[!UICONTROL リンク]**
 
+   「**[!UICONTROL リンク]**」セクションでは、画像を複数のクリック可能な領域に分割する様々なレイアウトから選択できます。それぞれに専用の&#x200B;**[!UICONTROL リンク URL]** を割り当てることができます。
+
    ![](assets/line_message_05.png)
 
-   「**[!UICONTROL リンク]**」セクションでは、画像を複数のクリック可能な領域に分割する様々なレイアウトから選択できます。次に、そのそれぞれに専用のリンクを割り当てることができます。
+### ビデオメッセージの配信の設定 {#configuring-a-video-message-delivery}
 
->[!NOTE]
->
->&lt;%@ include option=&#39;NmsServer_URL&#39; %>/webApp/APP3?id=&lt;%=escapeUrl(cryptString(visitor.id))%> の構文によって、LINE メッセージに Web アプリへのリンクを含めることができます。
+**[!UICONTROL ビデオメッセージ]** [!DNL LINE] 配信は、URL を含むビデオの形式で受信者に送信されるメッセージです。
 
-### 推奨事項 {#recommendations}
+「**[!UICONTROL プレビュー画像 URL]**」フィールドを使用すると、プレビュー画像の URL を追加できます。文字数の制限は 1000 です。ファイルサイズの上限が 1 MB の JPEG と PNG がサポートされます。
 
-* 新しい受信者に LINE 配信を初めて送信する場合は、利用条件と配信への同意に関する公式 LINE メッセージを追加する必要があります。公式メッセージは、[https://terms.line.me/OA_privacy/](https://terms.line.me/OA_privacy/sp?lang=fr) から入手できます。
+**[!UICONTROL ビデオ画像 URL]** フィールドを使用すると、文字数制限が 1000 のビデオファイルの URL を追加できます。ファイルサイズの上限が 200 MB の mp4 形式のみがサポートされます。
 
-## ターゲット母集団の選択 {#selecting-the-target-population}
+一部のデバイスで再生すると、幅の広いビデオや高いビデオが断ち切れる場合があります。
 
-LINE 配信の受信者の選択は、E メール配信の受信者の定義に類似しています。詳しくは、[ターゲット母集団の識別](../../delivery/using/steps-defining-the-target-population.md)を参照してください。
-
-ターゲティングは、**訪問者**&#x200B;に対して実行されます。
-
-## メッセージの送信 {#sending-messages}
-
-配信を正しく作成して設定すると、事前に定義したターゲットに送信することができます。
-
-LINE 配信の送信は、E メール配信の送信に類似しています。配信の送信について詳しくは、[メッセージの送信](../../delivery/using/sending-messages.md)を参照してください。
+![](assets/line_message_06.png)
 
 ## レポートへのアクセス {#accessing-reports}
 
-エクスプローラーで&#x200B;**[!UICONTROL プロファイルとターゲット／サービスと購読／LINE]** をクリックすると、LINE サービスでレポートを表示できます。次に LINE サービスで「**[!UICONTROL レポート]**」アイコンをクリックします。
+配信を送信した後、**[!UICONTROL エクスプローラー]**&#x200B;の&#x200B;**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;で [!DNL LINE] レポートを表示できます。
 
-![](assets/line_reports.png)
-
-LINE 配信でレポートを表示するには、**[!UICONTROL キャンペーン管理／配信]**&#x200B;をクリックしてから、目的の配信を選択します。トラッキングレポートはクリックスルー率を示しています。LINE では開封率は考慮されません。
+>[!NOTE]
+>
+>トラッキングレポートはクリックスルー率を示しています。[!DNL LINE] では開封率は考慮されません。
 
 ![](assets/line_reports_01.png)
+
+[!DNL LINE] サービスレポートの場合は、「**[!UICONTROL エクスプローラー]**」タブから、**[!UICONTROL プロファイルとターゲット]**／**[!UICONTROL サービスと購読]**／**[!UICONTROL LINE-V2]** にアクセスします。次に [!DNL LINE] サービスで「**[!UICONTROL レポート]**」アイコンをクリックします。
+
+![](assets/line_reports.png)
 
 ## 例：パーソナライズした LINE メッセージの作成と送信 {#example--create-and-send-a-personalized-line-message}
 
 この例では、受信者に応じてパーソナライズされるデータを含むテキストメッセージと画像を作成して設定します。
 
-1. 「**[!UICONTROL キャンペーン]**」タブから「**[!UICONTROL 配信]**」メニューをクリックします。「作成」ボタンをクリックして LINE 配信を作成します。
+1. 「**[!UICONTROL Campaign]**」タブから「**[!UICONTROL 作成]**」ボタンをクリックして [!DNL LINE] 配信を作成します。
 
    ![](assets/line_usecase.png)
 
@@ -191,25 +239,28 @@ LINE 配信でレポートを表示するには、**[!UICONTROL キャンペー�
 
 1. 配信の設定ウィンドウで、ターゲット母集団を選択します。
 
+   詳しくは、[ターゲット母集団の識別](../../delivery/using/steps-defining-the-target-population.md)を参照してください。
+
    ![](assets/line_usecase_02.png)
 
-1. 「**[!UICONTROL 追加]**」をクリックしてメッセージを作成し、**[!UICONTROL メッセージタイプ]**&#x200B;を選択します。
+1. 「**[!UICONTROL 追加]**」をクリックしてメッセージを作成し、**[!UICONTROL コンテンツタイプ]**&#x200B;を選択します。
 
-   ここでは、最初にテキストメッセージを作成します。
+   ここでは、最初に&#x200B;**[!UICONTROL テキストメッセージ]**&#x200B;を作成します。
 
    ![](assets/line_usecase_03.png)
 
-1. パーソナライズされたテキストを挿入する位置にカーソルを置き、ドロップダウンアイコンをクリックして&#x200B;**[!UICONTROL 訪問者／名]**&#x200B;を選択します。
+1. パーソナライズされたテキストを挿入する位置にカーソルを置き、ドロップダウンアイコンをクリックしてから、**[!UICONTROL 訪問者]**／**[!UICONTROL 名]**&#x200B;を選択します。
 
    ![](assets/line_usecase_05.png)
 
 1. 画像を追加するために同じ手順を繰り返し、「**[!UICONTROL メッセージタイプ]**」ドロップダウンで「**[!UICONTROL 画像とリンク]**」を選択します。
 
-   画像の URL を追加します。
+   **[!UICONTROL 画像の URL]** を追加します。
 
    ![](assets/line_usecase_07.png)
 
 1. 「**[!UICONTROL リンク]**」セクションで、画像を複数のクリック可能な領域に分割するレイアウトを選択します。
+
 1. 画像の各領域に URL を割り当てます。
 
    ![](assets/line_usecase_08.png)
@@ -219,3 +270,4 @@ LINE 配信でレポートを表示するには、**[!UICONTROL キャンペー�
    配信がターゲットに送信されます。
 
    ![](assets/line_usecase_06.png)
+

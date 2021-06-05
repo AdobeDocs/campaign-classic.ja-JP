@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 52%
+source-wordcount: '1340'
+ht-degree: 51%
 
 ---
 
@@ -69,7 +69,7 @@ Adobe Campaignは、連携して動作する一連のサーバー側プロセス
 
 * トラッキング：トラッキングログの復元と統合。リダイレクトサーバーからログを取得し、レポートモジュールで使用する集計インジケーターを作成します。
 * クリーンアップ：データベースのクリーニング。 古いレコードを削除し、データベースが加速度的に肥大化するのを防ぎます。
-* 請求：プラットフォームのアクティビティレポート（データベースのサイズ、マーケティングアクション数など）の自動送信。
+* 請求：プラットフォームに関するアクティビティレポートの自動送信（データベースサイズ、マーケティングアクションの数、アクティブなプロファイルの数など）
 
 **配信サーバー**（nlserver mta）
 

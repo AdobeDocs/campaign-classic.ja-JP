@@ -6,10 +6,10 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: fc40dae282c045dd73547e34ea307297f64c66fa
 workflow-type: tm+mt
-source-wordcount: '4441'
-ht-degree: 98%
+source-wordcount: '4490'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,18 @@ ht-degree: 98%
 
 **トランザクションメッセージ**&#x200B;の節が再編成され、新しい「はじめに」の節が追加されました。この節には、プロセスをより深く理解できるよう、[拡張されたスキーマ](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle)が含まれています。 [詳細情報](../../message-center/using/about-transactional-messaging.md)
 
+**21.1.3 リリースに伴うドキュメントのアップデート**
+
+AdobeJourney Orchestrationとの統合 — [詳細](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html)。 ステップバイステップの使用例は、[このページ](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html)に記載されています。
+
+LINEチャネルの強化 — [詳細](../../delivery/using/line-channel.md)
+
+新しいVertica FDAコネクタ — [詳細](../../installation/using/configure-fda-vertica.md)
+
+新しいGoogle Big Query FDAコネクタ — [詳細](../../installation/using/configure-fda-google-big-query.md)
+
+「請求（請求）」テクニカルワークフローの説明に、「アクティブな請求プロファイルの数(billingActiveContactCount)」で最初に実行されたタスクが含まれるようになりました。 [詳細情報](../../workflow/using/about-technical-workflows.md)
+
 ## 2021 年 5 月 {#may-2021}
 
 ワークフローヒートマップレポートのドキュメントが更新され、改善されました。 [詳細情報](../../workflow/using/heatmap.md)
@@ -32,10 +44,6 @@ Campaign クライアントコンソールの要件が互換性マトリック�
 Campaign クライアントコンソールのインストール手順を改善し、明確にしました。[詳細情報](../../installation/using/installing-the-client-console.md)
 
 トラッキングする URL の署名の問題に関する新しいテクニカルノートが作成されました。 [詳細情報](../../technotes/tracked-urls.md)
-
-**21.1.3 リリースに伴うドキュメントのアップデート**
-
-「請求（請求）」テクニカルワークフローの説明に、「アクティブな請求プロファイルの数(billingActiveContactCount)」で最初に実行されたタスクが含まれるようになりました。 [詳細情報](../../workflow/using/about-technical-workflows.md)
 
 ## 2021 年 4 月{#april-2021}
 

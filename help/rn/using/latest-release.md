@@ -6,10 +6,10 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 100%
+source-wordcount: '1951'
+ht-degree: 53%
 
 ---
 
@@ -21,7 +21,144 @@ ht-degree: 100%
 >
 >Campaign **一般公開（GA）ビルド**&#x200B;は次のとおりです。[[!DNL Gold Standard]  11 リリース](../../rn/using/gold-standard.md#gs-11)と [Campaign 20.2.5 リリース](../../rn/using/release--20-2.md)。
 
-## ![](assets/do-not-localize/blue_2.png) リリース 21.1.2 - ビルド 9282 {#release-21-1-2-build-9282}
+## ![](assets/do-not-localize/blue_2.png) リリース 21.1.3 - ビルド 9330 {#release-21-1-3-build-9330}
+
+_2021年6月5日_
+
+**新機能**
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Orchestration統合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Campaign ClassicとJourney Orchestrationの統合は現在GAです。 Adobe Campaign Classicのトランザクションメッセージ機能を使用して、Journey OrchestrationがEメール、プッシュ通知、SMSを送信できます。</p>
+<p>Journey Orchestration インスタンスと Campaign Classic インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html">Journey Orchestrationのドキュメント</a>を参照してください。 この<a href="https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html">節</a>では、ステップバイステップの使用例を示します。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>LINEチャネルの機能強化</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>LINEチャネルに次の機能が追加されました。
+</p>
+<ul> 
+<li><p>LINEビデオメッセージタイプのサポート</p></li>
+<li><p>LINEパートナー登録APIのサポート</p></li>
+<li><p>LINEサーバー側エラーまたはネットワークタイムアウトの場合にメッセージ送信の再試行をサポート</p></li>
+</ul>
+<p>詳しくは、<a href="../../delivery/using/line-channel.md">詳細ドキュメント</a>を参照してください。</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Vertica FDAコネクタ</strong><br/> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>これで、Adobe Campaign ClassicインスタンスをVertica外部データベースに接続できます。 この接続は、新しい外部アカウントで管理されます。</p>
+<p>詳しくは、<a href="../../installation/using/configure-fda-vertica.md">詳細ドキュメント</a>を参照してください。</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Google Big Query FDAコネクタ</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>これで、Adobe Campaign ClassicインスタンスをGoogle Big Query外部データベースに接続できます。 この接続は、新しい外部アカウントで管理されます。
+</p>
+<p>詳しくは、<a href="../../installation/using/configure-fda-google-big-query.md">詳細ドキュメント</a>を参照してください。</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**セキュリティの機能強化**
+
+* データベース接続の詳細をすべて返す&#x200B;**xtk:session#GetCnxInfo** APIメソッドへのアクセスが、管理者ユーザーのみに制限されるようになりました。 （NEO-27779）
+* 非推奨（廃止予定）のdecryptString関数は、CRM関連のJavaScriptファイルのdecryptPasswordに置き換えられました。
+* トラッキング署名機能が改善され、サードパーティツール（Eメールクライアント、インターネットブラウザー、安全なリンクセキュリティツール）がトラッキング対象リンクを変更した場合のリダイレクトエラーの追跡リスクが軽減されました。
+* 大文字を含めるとトラッキングされるURLが機能しない場合がある問題を修正しました。 トラッキングされるURLの署名メカニズムでは大文字と小文字が区別されるようになりました。 （NEO-28414）
+
+**互換性の更新**
+
+Campaign で次のシステムがサポートされるようになりました。
+* Google Big Query FDAコネクタ
+* Vertica FDAコネクタ
+* PostgreSQL 13
+
+詳しくは、[Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
+
+**非推奨（廃止予定）の機能**
+
+* Campaign 21.1リリースより、Adobe Analytics Data Connectorは非推奨（廃止予定）となります。 このコネクタを使用する場合は、新しいコネクタAdobe Analytics Connectorに応じて実装を適応させる必要があります。
+詳しくは、[詳細ドキュメント](../../platform/using/adobe-analytics-connector.md)を参照してください。
+* Debian 8のサポートは非推奨（廃止予定）となりました。
+* 20.3でのOracleCRMの廃止に続いて、関連する外部アカウントがインターフェイスから削除されました。
+
+詳しくは、[非推奨（廃止予定）の機能と削除された機能のページ](../../rn/using/deprecated-features.md)を参照してください。
+
+**改善点**
+
+* ワークフローの保存時に、アクティビティ名が一意で、トランジションが常に「 」アクティビティに続くことを確認する追加のチェックが追加されました。
+* **請求（請求）**&#x200B;テクニカルワークフローに、削除された&#x200B;**アクティブな請求プロファイルの数**(billingActiveContactCount)ワークフローによって元々実行されたタスクが含まれるようになりました。 ワークフローによって毎月送信される電子メールレポートに、インスタンス上のアクティブなプロファイルの数に関する情報が表示されるようになりました。 [詳細情報](../../workflow/using/about-technical-workflows.md)。
+* 新しい&#x200B;**_keyOnMData**&#x200B;属性が追加され、メモデータの操作にキーを使用できるようになりました。
+
+**その他の変更**
+
+* Windows用opensslサードパーティをバージョン1.1.1hに更新しました。
+* Debianパッケージの説明で、nlserverがAdobe Campaign Classicサーバーに変更されました。
+
+**パッチ**
+
+* セッションタイムアウトを編集して、ユーザーが設定時間の後もログインし続けた特定の時間が経過した後にユーザーをログアウトする問題を修正しました。
+* 配信が読み取り専用として表示されるが、配信プロパティで編集可能なままになっていた問題を修正しました。
+* Webアプリケーションのデザイン時に編集ツールバーが表示されないエラーを修正しました。
+* Eメールにリンクを追加する際に、Adobe Campaign Classicヘッダー付きのEメールのテキストバージョンが表示されるエラーを修正しました。 (NEO-29211)
+* HTTP接続でFDAを使用する場合、**ミッドソーシング（配信ログ）**(defaultMidSourcingLog)ワークフローが、**NmsMidSourcing_LogsPeriodHour**&#x200B;オプションで設定された時間枠で停止していました。 これにより、この設定期間後に発生したデータでレコードが更新されなくなります。 （NEO-30833）
+* message centerの同期ワークフローを実行した後に発生する問題を修正しました。 配信オブジェクトフォルダーがカスタムフォルダーに移動されるたびに、ワークフローによって配信が汎用の&#x200B;**トランザクションメッセージ履歴**&#x200B;フォルダーに戻されます。 （NEO-27445）
+* **ブロードキャスト統計**、**トラッキング指標**、**共有アクティビティの統計**&#x200B;レポートを表示しようとするとエラーメッセージが表示される問題を修正しました。
+* **Oracleオンデマンド**&#x200B;ワークフローアクティビティは、OracleCRMコネクタの廃止に続いて、インターフェイスから削除されました。
+* ワークフローサーバー(wfserver)モジュールの毎日の再起動後に処理ワークフローの実行が停止する問題を修正しました。 （NEO-30047）
+* MX管理ドキュメントが更新されず、IPレピュテーションに悪影響を与える可能性がある問題を修正しました。 （NEO-29897）
+* SOAP呼び出しを受け取るとWebプロセスがクラッシュする問題を修正しました。 (NEO-28796)(NEO-29600)
+* SAP HANAFDAインデックスの作成に失敗する問題を修正しました。 （NEO-29664）
+* ヘッダーを含むSOAP呼び出しを実行する際に、トランザクションメッセージが&#x200B;**待機**&#x200B;状態のままになる可能性がある問題を修正しました。 （NEO-28737）
+* teradataFDAコネクタを使用する際に発生していた問題を修正しました。すべての一時テーブルは、クラスタの1つのノードで作成され、スプール領域全体を消費し、Teradataがクラッシュする可能性があります。 一時テーブルが多くのノードで生成されるようになりました。 （NEO-28230）
+* Webアプリケーションを使用する際に、トラッキングタグの&#x200B;**nms:trackingURL**&#x200B;スキーマに間違ったプライマリキーが生成される問題を修正しました。 （NEO-27931）
+* ODBC 3.xとの互換性が強化され、エラーメッセージの正確性が確保されました。
+* Eメール配信でカスタムコンテンツテンプレートが使用されるとコンソールがクラッシュする可能性がある問題を修正しました。 （NEO-31547）
+* 接続が遅い、または応答サイズが大きいためにTomcatが有効な応答を送信できない問題を修正しました。
+* PostgreSQLデータベースからUUIDを読み取る際に発生する可能性がある問題を修正しました。
+* オファーにリンクされた提案データを検索する際に、パフォーマンスの問題が発生する可能性がある問題を修正しました。 （NEO-27554）
+* IMSサービスがアクティブ化されても応答しない場合にWebプロセスが応答しなくなる問題を修正しました。
+* 特定の結合メカニズムが配信のパーソナライゼーションに失敗したため、配達確認のグループを含む配信を送信できなかった問題を修正しました。 （NEO-14391）
+* 配信テーブルをターゲットとするクエリとエンリッチメントアクティビティの場合に、アラートアクティビティでアラートを送信できなかった問題を修正しました。 （NEO-25157）
+
+## ![](assets/do-not-localize/red_2.png) リリース 21.1.2 - ビルド 9282 {#release-21-1-2-build-9282}
 
 _2021 年 4 月 15 日_
 

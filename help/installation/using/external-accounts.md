@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 82%
+source-wordcount: '1727'
+ht-degree: 80%
 
 ---
 
@@ -241,7 +241,7 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
 * **[!UICONTROL IMS 組織 ID]**
 
-   IMS 組織の ID。組織IDを見つけるには、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html)（**IMS組織IDはどこにありますか？**）を参照してください。
+   IMS 組織の ID。組織IDを見つけるには、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja)（**IMS組織IDはどこにありますか？**）を参照してください。
 
 * **[!UICONTROL 関連付けマスク]**
 
@@ -259,11 +259,11 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
 ## Web 分析 {#web-analytics-external-account}
 
-**[!UICONTROL Web 分析（Adobe Analytics - データコネクタ）]**&#x200B;外部アカウントを使用すると、ユーザーは Adobe Analytics から Adobe Campaign へとセグメントの形式でデータを転送できます。反対に、Adobe Campaign から配信された E メールキャンペーンの指標と属性を Adobe Analytics - Data コネクタに送信します。
+**[!UICONTROL Web分析]**&#x200B;外部アカウントを使用すると、Adobe AnalyticsからAdobe Campaignにセグメントの形式でデータを転送できます。 反対に、Adobe Campaignから配信されたEメールキャンペーンの指標と属性をAdobe Analyticsコネクタに送信します。
 
 ![](assets/ext_account_10.png)
 
-この外部アカウントの場合は、トラッキングされる URL の計算式を強化し、2 つのソリューション間の接続を承認する必要があります。詳しくは、この[ページ](../../platform/using/adobe-analytics-data-connector.md#step-2--create-the-external-account-in-campaign)を参照してください。
+この外部アカウントの場合は、トラッキングされる URL の計算式を強化し、2 つのソリューション間の接続を承認する必要があります。詳しくは、この[ページ](../../platform/using/adobe-analytics-connector.md#external-account-classic)を参照してください。
 
 ### Adobe Experience Manager {#adobe-experience-manager-external-account}
 

@@ -6,9 +6,9 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 28083eb0271c8c148955fa33978479dc3683eaed
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '1953'
 ht-degree: 53%
 
 ---
@@ -23,14 +23,14 @@ ht-degree: 53%
 
 ## ![](assets/do-not-localize/blue_2.png) リリース 21.1.3 - ビルド 9330 {#release-21-1-3-build-9330}
 
-_2021年6月5日_
+_2021年6月6日_
 
 **新機能**
 
 <table>
 <thead>
 <tr>
-<th><strong>Journey Orchestration統合</strong><br/></th>
+<th><strong>AdobeJourney Orchestration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -47,7 +47,7 @@ _2021年6月5日_
 <table> 
 <thead>
 <tr> 
-<th> <strong>LINEチャネルの機能強化</strong><br /> </th> 
+<th> <strong>LINEチャネルの強化</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 

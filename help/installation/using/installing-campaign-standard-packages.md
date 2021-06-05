@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 27%
@@ -189,7 +189,7 @@ ht-degree: 27%
   </tr> 
   <tr> 
    <td> Web 分析コネクタ<br /> </td> 
-   <td> Adobe CampaignとAdobe AnalyticsがWeb分析コネクタパッケージを介してやり取りできるようにします。 トランザクションメッセージ（Message Centerパッケージ）との互換性がない。 <a href="../../platform/using/adobe-analytics-data-connector.md">詳細情報</a><br /> </td> 
+   <td> Adobe CampaignとAdobe AnalyticsがWeb分析コネクタパッケージを介してやり取りできるようにします。 トランザクションメッセージ（Message Centerパッケージ）との互換性がない。 <a href="../../platform/using/adobe-analytics-connector.md">詳細情報</a><br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 

@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 100%
+source-wordcount: '625'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
    ![](assets/file_transfert_edit.png)
 
-   「**[!UICONTROL 外部アカウントを使用]**」をチェックして、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;ノードで設定した S3、FTP または SFTP アカウントを選択します。次に、ダウンロードするファイルが含まれているサーバーのディレクトリを指定します。
+   「**[!UICONTROL 外部アカウント]**&#x200B;を使用」をオンにして、ツリーの&#x200B;**[!UICONTROL 管理/プラットフォーム/外部アカウント]**&#x200B;ノードで設定したAzure Blobストレージ、S3、FTPまたはSFTPアカウントを選択します。 次に、ダウンロードするファイルが含まれているサーバーのディレクトリを指定します。
 
    ![](assets/file_transfert_edit_external.png)
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 * **[!UICONTROL セッションログを表示]**
 
-   S3、FTP または SFTP 転送のログを取得し、ワークフローのログに含めることができます。
+   Azure BLOBストレージ、S3、FTPまたはSFTP転送のログを復元し、ワークフローのログに含めることができます。
 
 * **[!UICONTROL 休止モードを無効にする]**
 

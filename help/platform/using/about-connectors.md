@@ -6,10 +6,10 @@ feature: 概要
 role: Business Practitioner, Data Architect
 level: Beginner
 exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '194'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign には、外部アプリケーションとの通信、データ�
 
 * FDA コネクタ（**Federated Data Access**）を使用すると、Campaign を 1 つ以上の外部データベースに接続して、Campaign データに影響を与えることなく、それらに格納された情報を処理できます。[詳細情報](../../installation/using/about-fda.md)
 * CRM コネクタを使用すると、専用のワークフローアクティビティを使用した Adobe Campaign と CRM ソリューション間でデータを交換できます。[詳細情報](../../platform/using/crm-connectors.md)
-* Analytics Data コネクタ（旧 **Adobe Genesis**）を使用すると、Adobe Campaign と Adobe Analytics との間でデータを共有できます。[詳細情報](../../platform/using/adobe-analytics-data-connector.md)
+* Analyticsコネクタを使用すると、Adobe CampaignとAdobe Analyticsの間でデータを共有できます。 [詳細情報](../../platform/using/adobe-analytics-connector.md)
 
 また、Campaign を次のような他の複数のシステムと統合できます。
 

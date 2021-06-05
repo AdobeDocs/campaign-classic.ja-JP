@@ -6,10 +6,10 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: da699fbba527a44a048d5562a8311e70c00f74fd
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 100%
+source-wordcount: '1629'
+ht-degree: 95%
 
 ---
 
@@ -42,6 +42,13 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <td><strong>置き換え</strong></td>
   </tr>
     <tr>
+  <td>Adobe Analytics Data Connector<br></td>
+   <td><p>Campaign 21.1リリースより、Adobe Analytics Data Connectorは非推奨（廃止予定）となります。</p>
+   <p>このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../platform/using/adobe-analytics-connector.md">詳細情報</a></p>
+  <p><em>削除予定日：2022 年</em></p>
+  </td>
+ </tr>
+    <tr>
   <td>配信品質の技術的監視レポート<br></td>
    <td><p>Campaign 21.1 リリース以降、配信品質の技術的監視レポートは非推奨となりました。</p>
    <p>必要に応じて、削除予定日まで、このレポートを E メールで毎日受け取ることができます。レポートの送信をリクエストするには、特定の<a href="https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">サポートケース</a>を開き、インスタンス名と送信先の E メールアドレスを指定します。</p> 
@@ -50,60 +57,12 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </td>
  </tr>
   <tr>
-  <td>CRM コネクタ<br></td>
-   <td><p>Campaign 20.3 リリース以降、次の CRM コネクタは Campaign で非推奨になりました。</p>
-   <ul>
-   <li>SOAP API - オンプレミス：2007、2015、2016</li>
-   <li>SOAP API - オンライン：2015、2016</li>
-   <li>web API - Microsoft Dynamics CRM オンプレミス：2016、2016 Update 1</li>
-   <li>web API - Microsoft Dynamics CRM オンライン：2016、2016 Update 1</li>
-   <li>Oracle オンデマンド API</li>
-   </ul>
-  <p><em>削除予定日：2021 年 5 月</em></p>
-  </td>
- </tr>
-  <tr>
-  <td>iOS レガシーバイナリ<br></td>
-  <td><p>Campaign 20.3 リリースより、iOS レガシーバイナリコネクタは非推奨（廃止予定）になります。<p>
-  <p> このコネクタを使用している場合は、これに応じて実装を適応させる必要があります。
-<a href="https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html">詳細情報</a></p>
-  <p><em>削除予定日：2021 年 5 月</em></p>
-  </td>
- </tr>
-   <tr>
-  <td>Demdex ドメイン<br></td>
-  <td><p> Campaign 20.3 リリースより、Adobe Experience Cloud へのオーディエンスのインポートおよびエクスポートに使用する demdex ドメインは非推奨（廃止予定）になります。<p>
-  <p>インポート/エクスポート外部アカウントに demdex ドメインを使用している場合は、それに応じて実装を適応させる必要があります。<a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">詳細情報</a></p> 
-  <p><em>削除予定日：2021 年 5 月</em></p>
-  </td>
-  <tr>
   <td>OAuth 認証（OAuth および JWT）<br></td>
   <td><p> Campaign 20.3 リリースより、パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合認証が変更され、Adobe I/O に移動しました。 <p>
   <p>Triggers 統合を使用している場合は、これに応じて実装を適応させる必要があります。<a href="../../integrations/using/configuring-adobe-io.md">詳細情報</a></p> 
   <p>OAuth 認証の廃止予定について詳しくは、この<a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">ページ</a>を参照してください。</p> 
   <p><em>削除予定日：2021 年 11 月</em></p>
   </td>
-  </tr>
-  <td>SMS コネクタ<br></td>
-  <td><p> Campaign 20.2 リリースより、次の SMS コネクタは非推奨（廃止予定）になります。<p>
-   <ul>
-   <li>一般的な SMPP（バイナリモードをサポートする SMPP バージョン 3.4）</li>
-   <li>Sybase365（SAP SMS 365）</li>
-   <li>CLX Communications</li>
-   <li>Tele2</li>
-   <li>O2</li>
-   <li>iOS</li>
-   </ul>
-  <p>これらのコネクタのいずれかを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../delivery/using/sms-channel.md">詳細情報</a></p> 
-  <p><a href="../../delivery/using/unsupported-connector-migration.md">このテクニカルノート</a>では、従来のコネクタを移行する方法について説明します。</p>
-  <p><em>削除予定日：2021 年 5 月</em></p>
-  </td> 
- </tr>
-  <tr>  
-   <td>FAX チャネル<br></td>
-   <td><p>Campaign 20.2 リリースより、FAX チャネルは非推奨（廃止予定）になります。</p> 
-   <p>このチャネルを使用する場合は、それに応じて実装を適応させる必要があります。Campaign チャネルの<a href="../../delivery/using/steps-about-delivery-creation-steps.md">詳細情報</a>を参照してください。</p>
-   <p><em>削除予定日：2021 年 5 月</em></p></td>
   </tr>
  </tbody> 
 </table>
@@ -113,11 +72,20 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
 この節には、Campaign Standard から削除された機能が記載されています。
 
 <table> 
- <tbody> 
+ <tbody>
   <tr> 
    <td><strong>領域 - 機能</strong></td>
    <td><strong>置き換え</strong></td> 
-  </tr> 
+  </tr>
+  <tr>  
+   <td>FAX チャネル<br></td>
+   <td><p>Campaign 21.1.3リリースより、FAXチャネルは使用できなくなりました。 <a href="../../delivery/using/steps-about-delivery-creation-steps.md">詳細情報</a></p>
+  <tr>
+  <td>Demdex ドメイン<br></td>
+  <td><p> Campaign 21.1.3リリースより、Adobe Experience Cloudへのオーディエンスのインポートおよびエクスポートに使用するdemdexドメインは使用できなくなりました。 <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">詳細情報</a></p> 
+  </td>
+  </td>
+  </tr>
    <tr> 
    <td>Windows NT 認証<br></td>
    <td><p>Campaign 20.3 リリースより、Microsoft SQL Server で新しいデータベースを設定する際の使用可能な認証方法から Windows NT 認証が削除されました。<a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">詳細情報</a></p></td>
@@ -158,7 +126,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <tr> 
    <td>モバイルチャネル - LINE v1</td>
    <td>Campaign 18.4 リリースより、LINE Connect パッケージは使用できなくなりました。代わりに、新しい LINE Channel パッケージを使用することをお勧めします。<a href="../../delivery/using/line-channel.md">詳細情報</a></td>
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -186,8 +154,9 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 >[!NOTE]
 >Campaign 20.1 リリースより、Campaign Classic クライアントコンソール 32 ビットは Campaign の最新バージョンとの互換性がなくなります。64 ビットのクライアントコンソールを使用する必要があります。
 
-
 ### オペレーティングシステム {#o-s-eol}
+
+21.1.3リリースより、Debian 8のサポートは非推奨（廃止予定）となります。
 
 19.1 リリースより、Adobe Campaign は次のオペレーティングシステムへの対応を終了します。
 
@@ -209,7 +178,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 19.1 Spring リリースより、Adobe Campaign は次のツールへの対応を終了します。
 
 * Java JDK 7。[詳細情報](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
-* Libre Office 3.5/4.3/5.x（他のツールに埋め込まれた場合を除く）。[詳細情報](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
+* Libre Office 3.5 / 4.3 / 5.x（別のツールに埋め込まれる場合を除く） [詳細情報](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### データベースエンジン {#dbe-eol}
 
@@ -243,6 +212,11 @@ Campaign Classic は、Federated Data Access（FDA）の次のサーバーと互
 * AsterData 5.0。AsterData は提供が終了しました（EOL）。[詳細情報](https://en.wikipedia.org/wiki/Aster_Data_Systems)
 * Sybase IQ 15.2、15.4、15.5、Sybase ASE 15.0。より新しいバージョンの Sybase は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://sites.google.com/site/dbatipsandtricks/time-tracker)
 * HiveSQL 経由の Hadoop：Hadoop 2.7.3、HiveSQL 1.2.1。Adobe Campaign Classic は、Federated Data Access（FDA）を通じて、HiveSQL 経由の Hadoop の一覧に示されたバージョンを引き続きサポートしますが、これらのバージョンは、HortonWorks（HDP 2.4.X、2.5.x、2.6.x）および HDInsight 3.4（HDP 2.4）、3.5（HDP 2.5）、3.6（HDP 2.6）と統合されます。
+* SOAP API - オンプレミス：2007、2015、2016
+* SOAP API - オンライン：2015、2016
+* web API - Microsoft Dynamics CRM オンプレミス：2016、2016 Update 1
+* web API - Microsoft Dynamics CRM オンライン：2016、2016 Update 1
+* Oracle オンデマンド API&lt;
 
 **RDBMS サーバー**
 
@@ -252,3 +226,14 @@ Adobe Campaign は、次の RDBMS サーバーと互換性がありません。
 * SQL Server 2005
 * MySQL 5.1
 * DB2 UDB 9.7
+
+### SMS コネクタ {#sms-eol}
+
+Adobe Campaignは、次のSMSコネクタと互換性がありません。
+
+* 一般的な SMPP（バイナリモードをサポートする SMPP バージョン 3.4）
+* Sybase365（SAP SMS 365）
+* CLX Communications
+* Tele2
+* O2
+* iOS

@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 100%
+source-wordcount: '1710'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,6 @@ ht-degree: 100%
 | **ミッドソーシング（配信カウンター）**（defaultMidSourcingDlv） | ミッドソーシング転送 | ミッドソーシングサーバー上の配信のカウント情報を収集します。カウント情報には、送信された配信の数など、一般的な配信指標が含まれています。開封数などのトラッキング情報は含まれていません。デフォルトで、10 分おきにトリガーされます。 |
 | **ミッドソーシング（配信ログ）**（defaultMidSourcingLog） | ミッドソーシング転送 | ミッドソーシングサーバー上の配信ログを収集します。デフォルトで、1 時間おきにトリガーされます。 |
 | **NMAC オプトアウト管理**（mobileAppOptOutMgt） | モバイルアプリチャネル | モバイルデバイスの通知の購読解除を更新します。午前 1 時から午前 0 時の間に、6 時間ごとにトリガーします。詳しくは、[この節](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)を参照してください。 |
-| **アクティブな請求プロファイルの数**（billingActiveContactCount） | 配信 | このワークフローは、アクティブなプロファイルの数をカウントします。デフォルトで、毎晩午前 1 時にトリガーされます。「プロファイル」とは、エンドユーザー、見込み客またはリードを表している情報のレコード（例：nmsRecipient テーブル内のレコードや、cookie ID、顧客 ID、携帯電話の識別情報、または特定のチャネルに関連するその他の情報が含まれている外部テーブル内のレコード）のことです。請求は「アクティブ」なプロファイルのみに関係します。過去 12 ヶ月以内にいずれかのチャネルでターゲットになるか通信がおこなわれたプロファイルは「アクティブ」とみなされます。ただし、Facebook および Twitter チャネルは考慮されません。アクティブなプロファイルの数の概要は、管理／キャンペーン管理／顧客指標メニューから表示できます。 |
 | **オファー通知**（offerMgt） | 配信 | 承認されたオファーと、オファーカタログに含まれるすべてのカテゴリをオンライン環境にデプロイします。 |
 | **一時停止されたワークフローのクリーンアップ**（cleanupPausedWorkflows） | 配信 | このワークフローは、重要度が通常に設定された一時停止中のワークフローを分析し、長期間一時停止状態が続いている場合に警告と通知をトリガーします。1 ヶ月後、一時停止中のテクニカルワークフローは無条件で停止されます。デフォルトで、毎週月曜日の午前 5 時にトリガーされます。詳しくは、[一時停止されたワークフローの処理](../../workflow/using/monitoring-workflow-execution.md#handling-of-paused-workflows)を参照してください。 |
 | **プライバシーリクエストのクリーンアップ**（cleanupPrivacyRequests） | プライバシーデータ保護規則 | このワークフローでは、90 日より古いアクセス要求ファイルが消去されます。 |
@@ -69,7 +68,7 @@ ht-degree: 100%
 | **提案の同期**（propositionSynch） | 実行インスタンスによるオファーエンジンのコントロール | このワークフローは、インタラクションで使用するマーケティングインスタンスと実行インスタンスの間で提案を同期します。 |
 | **Web イベントの復元**（webAnalyticsGetWebEvents） | Web 分析コネクタ | 指定したサイトでのインターネットユーザーの行動に関するセグメントを 1 時間に 1 回ダウンロードし、Adobe Campaign データベースに格納してリマーケティングワークフローを開始します。 |
 | **レポート集計**（reportingAggregates） | 配信 | レポートで使用される集計を更新します。デフォルトで、毎日午前 2 時にトリガーされます。 |
-| **指標とキャンペーン属性の送信**（webAnalyticsSendMetrics） | Web 分析コネクタ | Adobe® Genesis コネクタ経由で、Adobe Campaign から Adobe Experience Cloud Suite に電子メールキャンペーン指標を送信します。該当する指標は、送信済み（iSent）、オープン数合計（iTotalRecipientOpen）、クリックした受信者の合計数（iTotalRecipientClick）、エラー（iError）、オプトアウト（opt-out）（iOptOut）です。 |
+| **指標とキャンペーン属性の送信**（webAnalyticsSendMetrics） | Web 分析コネクタ | Adobe® Analyticsコネクタを使用して、Adobe CampaignからAdobe Experience Cloud Suiteに電子メールキャンペーン指標を送信できます。 該当する指標は、送信済み（iSent）、オープン数合計（iTotalRecipientOpen）、クリックした受信者の合計数（iTotalRecipientClick）、エラー（iError）、オプトアウト（opt-out）（iOptOut）です。 |
 | **在庫 : オーダーおよびアラート**（stockMgt） | マーケティングキャンペーン（キャンペーン） | このワークフローは、受注明細に対する在庫計算を開始し、警告アラートのしきい値を管理します。 |
 | **Facebook ファンの同期**（syncFacebookFans） | ソーシャルネットワーク（ソーシャルマーケティング） | 毎日午前 7 時に Facebook ファンを Adobe Campaign にインポートします。 |
 | **Facebook ページの同期**（syncFacebook） | ソーシャルネットワーク（ソーシャルマーケティング） | 毎日午前 7 時に Facebook ページを Adobe Campaign と同期します。 |

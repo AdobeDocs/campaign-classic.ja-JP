@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 61%
+source-wordcount: '381'
+ht-degree: 58%
 
 ---
 
@@ -74,18 +74,13 @@ Campaignの組み込みテーブルとそのインタラクションについて
 
 名前空間を使用すると、一連のスキーマを目標領域別にグループ化できます。 例えば、**cus** 名前空間は、顧客固有の設定（**customers**）に使用します。
 
+スキーマの識別キーは、コロンで区切られた名前空間と名前を使用して構築された文字列です。例：**cus:recipient**&#x200B;とします。
+
 >[!IMPORTANT]
 >
->基準としては、名前空間の名前は簡潔なものにし、XML 命名規則に従って許可された文字のみで構成する必要があります。
+>名前空間の名前は簡潔にし、XML命名規則に従って許可された文字のみを含める必要があります。
 >
 >識別子の先頭を数字にすることはできません。
+>
+>次の名前空間は、Adobe Campaignアプリケーションの操作に必要なシステムエンティティの説明のために予約されており、使用しないでください。**xtk**、**nl**、**nms**、**ncm**、**temp**、**ncl**、**crm****xxl**。
 
-特定の名前空間は、Adobe Campaignアプリケーションの操作に必要なシステムエンティティの説明用に予約されています。
-
-* **xtk**:プラットフォームシステムデータに関して
-* **nl**:アプリケーションの全体的な使用に関して
-* **nms**:配信（受信者、配信、トラッキングなど）に関して
-* **ncm**:コンテンツ管理に関して
-* **temp**:一時的なスキーマ用に予約されています。
-
-スキーマの識別キーは、コロンで区切られた名前空間と名前を使用して構築された文字列です。例：**cus:recipient**&#x200B;とします。

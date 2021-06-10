@@ -6,24 +6,14 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 1312f7c319c96851bc83ae21501164e2688d0dff
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 36%
+source-wordcount: '417'
+ht-degree: 39%
 
 ---
 
 # ベストプラクティスと制限事項
-
-## 一時スキーマ{#create-temporary-schemas}を作成します。
-
-FDAを使用して、Greenplum外部データベースへのアクセスを複数管理できます。 専用オプションを使用すると、外部アカウントの設定時に、作業スキーマを直接作成できます。
-
-![](assets/fda_work_table.png)
-
->[!NOTE]
->
->このオプションは、PostgreSQL Greenplumでのみ使用できます。
 
 ## 外部データを使用してEメールのパーソナライゼーションを最適化{#optimizing-email-personalization-with-external-data}
 

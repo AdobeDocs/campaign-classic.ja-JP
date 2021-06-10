@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 8c47027099559549320abf68016386cc85dcda5a
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 80%
+source-wordcount: '1726'
+ht-degree: 81%
 
 ---
 
@@ -411,7 +411,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 アクセスキー ID および秘密アクセスキーの見つけ方については、Amazon Web サービス[ドキュメント](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
 
-### Azure Blobストレージ(#azure-blob-external-account)
+### Azure Blob ストレージ {#azure-blob-external-account}
 
 **Azure Blob Storage**&#x200B;外部アカウントを使用して、**[!UICONTROL ファイルを転送]**&#x200B;ワークフローアクティビティを使用して、Adobe Campaignにデータをインポートまたはエクスポートできます。 詳しくは、[この節](../../workflow/using/file-transfer.md)を参照してください。
 

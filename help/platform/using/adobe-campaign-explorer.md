@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f,f91d69a4-b794-40f0-b450-de862d7333e2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: bdc19e80744643097463e4e721b05a2ac8e51a2e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 97%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Campaign エクスプローラーにアクセスするには、ツール�
 
 >[!CAUTION]
 >
->1600 x 900 ピクセル未満の解像度が Adobe Campaign でサポートされます。
+>1600 x 900ピクセル未満の解像度は、Adobe Campaignではサポートされません。
 
 **[!UICONTROL エクスプローラー]**&#x200B;ワークスペースで&#x200B;**[!UICONTROL 詳細]**&#x200B;ゾーンの一部が切り詰められているように見える場合は、ゾーンの上部にある矢印を使用してゾーンを拡大するか、「**[!UICONTROL 拡大]**」ボタンをクリックします。
 

@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 8c47027099559549320abf68016386cc85dcda5a
+source-git-commit: 11de485a97d112b308c145775537d9b6255f124f
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 81%
+source-wordcount: '1739'
+ht-degree: 80%
 
 ---
 
@@ -178,6 +178,9 @@ Campaignと互換性のある外部データベースは、互換性マトリッ
 
 外部アカウントの設定は、データベースエンジンによって異なります。 詳しくは、以下の節を参照してください。
 
+* [Vertica](../../installation/using/configure-fda-vertica.md)へのアクセスを設定する
+* [Snowflake](../../installation/using/configure-fda-snowflake.md)へのアクセスを設定する
+* [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)へのアクセスを設定する
 * [Azure synapse](../../installation/using/configure-fda-synapse.md)へのアクセスを設定する
 * [Hadoop](../../installation/using/configure-fda-hadoop.md)へのアクセスを設定する
 * [Oracle](../../installation/using/configure-fda-oracle.md)へのアクセスを設定する

@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 11de485a97d112b308c145775537d9b6255f124f
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 44%
+source-wordcount: '331'
+ht-degree: 42%
 
 ---
 
@@ -40,6 +40,10 @@ FDAを使用して外部データベースへのアクセスを設定するに�
 Adobe Campaign から外部データベースにアクセスできるようにするには、使用する外部データベースに応じて特定の設定をおこなう必要があります。これらの設定は、基本的に、ドライバーをインストールし、Adobe Campaignサーバー上の各RDBMSに属する環境変数を宣言し、外部アカウントを設定することです。
 
 詳しくは、以下のリンクを参照してください。
+
+* Campaignと[Vertica](../../installation/using/configure-fda-vertica.md)を接続します。
+
+* Campaignと[Google BigQuery](../../installation/using/configure-fda-google-big-query.md)の接続
 
 * Campaignと[Azure synapse](../../installation/using/configure-fda-synapse.md)を接続します。
 

@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 1312f7c319c96851bc83ae21501164e2688d0dff
 workflow-type: tm+mt
-source-wordcount: '7970'
+source-wordcount: '7969'
 ht-degree: 39%
 
 ---
@@ -335,7 +335,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
   </tr> 
   <tr> 
    <td> プロバイダー<br /> </td> 
-   <td> タイプ（列挙）。 有効な値は、「Oracle」、「MSSQL」(Microsoft SQL Server)、「PostgreSQL」(PostgreSQL、Greenplum)、「Teradata」、「DB2」、「Netezza」、「AsterData」、「SAPHANA」(SAP HANA)、「RedShift」(AmazonRead RedShift)です)、「ODBC」(ODBC(Sybase ASE、Sybase IQ)、「リレー」（リモートデータベースへのHTTPリレー）。<br /> </td> 
+   <td> タイプ（列挙）。 有効な値は、「Oracle」、「MSSQL」(Microsoft SQL Server)、「PostgreSQL」(PostgreSQL)、「Teradata」、「DB2」、「MySQL」、「Netezza」、「AsterData」、「SAPHANA」(SAP HANA)、「RedShift」(AmazonRedshift)、ODBC`(ODBC(Sybase ASE、Sybase IQ)、`Relay`（リモートデータベースへのHTTPリレー）。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 

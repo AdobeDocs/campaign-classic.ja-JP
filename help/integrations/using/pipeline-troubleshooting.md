@@ -5,10 +5,10 @@ description: 統合の設定
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 45a84e1bf43678bbc31d8bac15a7e6520204fdc2
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '649'
+ht-degree: 89%
 
 ---
 
@@ -82,3 +82,9 @@ Analytics のタイムスタンプが、Campaign でのイベントの作成日�
 1. 再試行の原因となる可能性のあるエラーを pipelined.log で探します。該当する場合は、エラーを修正します。
 1. [!DNL pipelined] ステータスページでキューのサイズを確認します。キューのサイズが大きい場合は、JS のパフォーマンスを向上させます。
 1. ボリュームに伴って遅延が増加するようなので、メッセージを少なくして Analytics にトリガーを設定します。
+
+**既存の認証からAdobeI/O認証へのステージインスタンスのアップグレード**
+
+ステージインスタンスで統合認証を変更しても、実稼動インスタンスの設定には影響しません。 ステージインスタンスをアップグレードし、認証をAdobeI/Oに更新して、ステージインスタンスでトリガーをテストすることもできます。
+
+実稼動インスタンスは引き続き従来の認証を使用し、この変更による影響は受けません。

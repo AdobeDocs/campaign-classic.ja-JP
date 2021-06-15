@@ -7,7 +7,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1058'
 ht-degree: 100%
 
@@ -46,8 +46,10 @@ _2020 年 12 月 22 日_
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス (IMS) を介して Campaign に接続する場合は、 **2021 年 6 月 30 日**&#x200B;以降、Campaign サーバーとクライアントコンソールのいずれも、Campaign に接続できるようにするには、アップグレードが必要です。
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 > * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、**2021 年 11 月 30 日**&#x200B;に終了します。
+
 >
->詳しくは、[[!DNL Gold Standard]  11 アップグレード FAQ](https://helpx.adobe.com/jp/campaign/kb/gold-standard-upgrade.html) を参照してください。
+>
+詳しくは、[[!DNL Gold Standard]  11 アップグレード FAQ](https://helpx.adobe.com/jp/campaign/kb/gold-standard-upgrade.html) を参照してください。
 
 ビルド 9032@d3b452f には、次の機能強化および修正が含まれています。
 
@@ -95,11 +97,11 @@ _2020 年 4 月 29 日_
 
 ビルド（9032@3a9dc9c）には、以下の修正が含まれています。
 
-* E メール内のリンクの追跡に関するセキュリティを改善。これは、あらゆる顧客に対してデフォルトで有効です。さらに、強化されたセキュリティ機能が利用できます。この機能はカスタマーケアにご連絡いただくと有効にできます。これを非ホスト型顧客が有効にするための手順と機能の詳細については、[セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
+* E メール内のリンクの追跡に関するセキュリティを改善。これは、あらゆる顧客に対してデフォルトで有効です。さらに、強化されたセキュリティ機能が利用できます。この機能はカスタマーケアにご連絡いただくと有効にできます。これを非ホスト型顧客が有効にするための手順と機能の詳細については、[セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
 
 >[!CAUTION]
 >
->トラッキングリンクを使用したプッシュ通知、またはアンカータグを使用した配信で問題が発生した場合は、トラッキングリンク用の新しい署名メカニズムを無効にすることをお勧めします。手順について詳しくは、[このページ](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
+>トラッキングリンクを使用したプッシュ通知、またはアンカータグを使用した配信で問題が発生した場合は、トラッキングリンク用の新しい署名メカニズムを無効にすることをお勧めします。手順について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
 
 * LINE 配信に画像が表示されない可能性がある問題を修正しました。（NEO-23207）
 * SFTP キーに基づく認証が Debian 9 で動作しない&#x200B;**ファイル転送**&#x200B;アクティビティの問題を修正しました。（NEO-23183）

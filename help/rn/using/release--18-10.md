@@ -7,7 +7,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2372'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **強化点**
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **新機能**
 

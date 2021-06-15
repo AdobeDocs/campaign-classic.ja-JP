@@ -7,7 +7,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1953'
 ht-degree: 100%
 
@@ -114,7 +114,7 @@ Cookie について詳しくは、[この節](../../platform/using/privacy-and-r
 
 **その他の変更**
 
-* SFTP に相対パスを使用するときに、`~/` 文字が自動的に追加されなくなりました。必要に応じて、パスに `~/` 文字を手動で追加できますが、**絶対パス**&#x200B;を使用することをお勧めします。
+* SFTP に相対パスを使用した際に、`~/` 文字が自動的に追加されなくなりました。必要に応じて、パスに `~/` 文字を手動で追加できますが、**絶対パス**&#x200B;を使用することをお勧めします。
 * Microsoft SQL Server で新しいデータベースを設定する際の使用可能な認証方法から Windows NT 認証が削除されました。[詳細を表示](../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine)
 * パフォーマンスを向上させるために、データベースのクリーンアップワークフローが Teradata 用に最適化されました。（NEO-19959）
 * Adobe Target から画像を挿入するときに、外部アカウントでテナント名が空だった場合に表示されるエラーメッセージを改善しました。

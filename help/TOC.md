@@ -8,9 +8,9 @@ user-guide-description: チャネルをまたいだマーケティングキャ�
 sub-product: Adobe Campaign Classic
 type: Documentation
 source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2485'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 98%
          + [ジョブの実行の監視](platform/using/monitoring-jobs-execution.md)
          + [一般的なインポートのサンプル](platform/using/import-operations-samples.md)
       + データの暗号化と圧縮の管理 {#managing-data-encryption-compression}
-         + [処理前のファイルの解凍または復号化](platform/using/unzip-decrypt.md)
+         + [処理前のファイルの解凍と復号化](platform/using/unzip-decrypt.md)
          + [処理前のファイルの圧縮または暗号化](platform/using/zip-encrypt.md)
       + ベストプラクティスとトラブルシューティング {#best-practices}
          + [インポートとエクスポートのベストプラクティス](platform/using/import-export-best-practices.md)
@@ -115,7 +115,7 @@ ht-degree: 98%
          + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
          + [Salesforce.com との接続](platform/using/crm-sfdc.md)
          + [CRM とのデータの同期](platform/using/crm-data-sync.md)
-      + [Adobe Analytics Connector](platform/using/adobe-analytics-connector.md)
+      + [Adobe Analytics コネクタ](platform/using/adobe-analytics-connector.md)
       + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
    + [ヘルプとサポートオプション](support.md)
 + メッセージの作成と送信 {#sending-messages}
@@ -567,7 +567,7 @@ ht-degree: 98%
       + [インバウンドチャネルでのオファー](interaction/using/offers-on-an-inbound-channel.md)
       + [アウトバウンドチャネルでのオファー](interaction/using/offers-on-an-outbound-channel.md)
 + トランザクションメッセージ {#transactional-messaging}
-   + [トランザクションメッセージの基本を学ぶ](message-center/using/about-transactional-messaging.md)
+   + [トランザクションメッセージの概要](message-center/using/about-transactional-messaging.md)
    + トランザクションメッセージの設定{#configure-transactional-messaging}
       + [トランザクションメッセージのアーキテクチャ](message-center/using/transactional-messaging-architecture.md)
       + [インスタンスの設定](message-center/using/configuring-instances.md)
@@ -671,9 +671,9 @@ ht-degree: 98%
          + [ベストプラクティスと制限事項](installation/using/fda-best-practices.md)
          + 設定のガイドライン {#config-databases}
             + [設定の手順](installation/using/configure-fda.md)
-            + [Verticaの設定](installation/using/configure-fda-vertica.md)
+            + [Vertica の設定](installation/using/configure-fda-vertica.md)
             + [Snowflake の設定](installation/using/configure-fda-snowflake.md)
-            + [Google BigQueryの設定](installation/using/configure-fda-google-big-query.md)
+            + [Google BigQuery の設定](installation/using/configure-fda-google-big-query.md)
             + [Azure Synapse の設定](installation/using/configure-fda-synapse.md)
             + [Hadoop の設定](installation/using/configure-fda-hadoop.md)
             + [Oracle の設定](installation/using/configure-fda-oracle.md)

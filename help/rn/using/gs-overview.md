@@ -7,7 +7,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: c36a78f6-3332-465d-92f5-48f70b8bdddd
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 アドビおよび Adobe Campaign は、ソフトウェアソリューションを通じて最高のエクスペリエンスと価値を提供することを目指しています。アドビでは、アドビのソリューションがタスク実行のために活用する関連テクノロジーの最新バージョンにお客様がアクセスできるよう、取り組みを進めています。
 
-Adobe Campaign Classic は、お客様に最高のエクスペリエンスと価値を提供するために、様々なテクノロジーを活用しています。こうしたテクノロジーによる優れたセキュリティ、安定性、パフォーマンスを実現するには、Campaign Classic インスタンスを定期的にアップグレードして、常に最新版を使用する必要があります。
+Adobe Campaign Classic には、お客様に価値を提供するために、様々なテクノロジーが使用されています。こうしたテクノロジーによる優れたセキュリティ、安定性、パフォーマンスを実現するには、Campaign Classic インスタンスを定期的にアップグレードして、常に最新版を使用する必要があります。
 
 [!DNL Gold Standard] は、Campaign Classic の長期サポートリリースです。ホストされている [!DNL Gold Standard] のユーザーについては、安定した最新バージョンに [!DNL Gold Standard] が自動的にアップグレードされ、ユーザー側での操作は必要ありません。オンプレミスおよびハイブリッドの顧客も、[!DNL Gold Standard] リリースのメリットを受けられます。古いビルドから移行する場合は、最初にこのバージョンにアップグレードすることをお勧めします。
 
@@ -99,5 +99,5 @@ Adobe Campaign Classic は、お客様に最高のエクスペリエンスと価
 ## その他のリソース
 
 * [[!DNL Gold Standard] リリースノート](gold-standard.md)
-* [ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
+* [ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
 * [[!DNL Gold Standard] 互換性マトリックス](compatibility-matrix-gs.md)

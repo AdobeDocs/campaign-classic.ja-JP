@@ -7,9 +7,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: fc40dae282c045dd73547e34ea307297f64c66fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4490'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,21 +19,21 @@ ht-degree: 97%
 
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
 
-## 2021 年 6 月{#june-2021}
+## 2021 年 6 月 {#june-2021}
 
-**トランザクションメッセージ**&#x200B;の節が再編成され、新しい「はじめに」の節が追加されました。この節には、プロセスをより深く理解できるよう、[拡張されたスキーマ](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle)が含まれています。 [詳細情報](../../message-center/using/about-transactional-messaging.md)
+**トランザクションメッセージ**&#x200B;の節を編成し直して、新しく「はじめに」の節を明確にしました。この節では、プロセスをより深く理解できるよう、[拡張スキーマ](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle)についても説明しています。[詳細を読む](../../message-center/using/about-transactional-messaging.md)
 
 **21.1.3 リリースに伴うドキュメントのアップデート**
 
-AdobeJourney Orchestrationとの統合 — [詳細](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html)。 ステップバイステップの使用例は、[このページ](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html)に記載されています。
+Adobe Journey Orchestration との統合 — [詳細情報](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=ja)。ステップバイステップの使用例については、[このページ](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=ja)を参照してください
 
-LINEチャネルの強化 — [詳細](../../delivery/using/line-channel.md)
+LINE チャネルの強化 — [詳細情報](../../delivery/using/line-channel.md)
 
-新しいVertica FDAコネクタ — [詳細](../../installation/using/configure-fda-vertica.md)
+新しい Vertica FDA コネクタ — [詳細情報](../../installation/using/configure-fda-vertica.md)
 
-新しいGoogle Big Query FDAコネクタ — [詳細](../../installation/using/configure-fda-google-big-query.md)
+新しい Google BigQuery FDA コネクタ — [詳細情報](../../installation/using/configure-fda-google-big-query.md)
 
-「請求（請求）」テクニカルワークフローの説明に、「アクティブな請求プロファイルの数(billingActiveContactCount)」で最初に実行されたタスクが含まれるようになりました。 [詳細情報](../../workflow/using/about-technical-workflows.md)
+「請求」テクニカルワークフローの説明に、「アクティブな請求プロファイルの数（billingActiveContactCount）」で初めに実行したタスクを含みました。[詳細情報](../../workflow/using/about-technical-workflows.md)
 
 ## 2021 年 5 月 {#may-2021}
 
@@ -362,7 +362,7 @@ Hadoop FDA コネクタの機能強化 - [詳細を表示](../../installation/us
 
 インストールガイドを更新し、互換性マトリックスの最新バージョンと同期しました。新しいサポート対象システムが追加されました。非推奨（廃止予定）およびサポート対象外のシステムに関する記載は削除されました。[詳細を表示](../../installation/using/general-architecture.md)
 
-互換性マトリックスを更新し、Hadoop 3.0 および Snowflake の FDA コネクタを追加しました。[詳細を表示](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+互換性マトリックスを更新し、Hadoop 3.0 および Snowflake の FDA コネクタを追加しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
 IP アフィニティのベストプラクティスがインストールガイドに追加されました。[詳細を表示](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -380,7 +380,7 @@ URL レポート設定の新しいパラメーターは、[こちら](../../repo
 
 「**Campaign Classic オンプレミスとホスト機能マトリックス**」ページが更新され、新しい FDA コネクタが追加されました。[詳細を表示](../../installation/using/capability-matrix.md)。
 
-**Campaign Classic 機能マトリックス**&#x200B;ページを更新しました。[詳細を表示](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+**Campaign Classic 機能マトリックス**&#x200B;ページを更新しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
 新しい **[!UICONTROL Nmsaddress のクリーンアップ]**&#x200B;ワークフローの情報は、[ここ](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress)に記載されています。
 
@@ -430,7 +430,7 @@ AMP を使用したインタラクティブコンテンツ - [詳細を表示](.
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-Adobe Campaign Enhanced MTA のドキュメントが入手できるようになりました。[詳細を表示](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
+Adobe Campaign Enhanced MTA のドキュメントが入手できるようになりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html)
 
 キャンペーン内で「開始準備中」の状態に留まるワークフローをトラブルシュートする方法について、新しい節が追加されました。[詳細を表示](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -468,7 +468,7 @@ GDPR の入門ガイドが改善され、強化されました。GDPR や CCPA �
 
 Campaign Classic でのトラッキングについて、新しいトラブルシューティングページが追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/classic-tracking-troubleshooting.html)。
 
-Adobe Analytics Connector の新しいベストプラクティスのページが追加されました。[Adobe Analytics Connector の詳細を表示](../../platform/using/adobe-analytics-connector.md)
+Adobe Analytics Connector のベストプラクティスのページを新しく追加しました。[Adobe Analytics Connector の詳細を読む](../../platform/using/adobe-analytics-connector.md)
 
 配信のベストプラクティス入門ガイドが移動され、更新されました。[詳細を表示](../../delivery/using/delivery-best-practices.md)
 
@@ -500,7 +500,7 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 ビルドアップグレードに関する新しい FAQ が作成されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/build-upgrade-faq.html)
 
-[互換性マトリックス](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)が更新されました。サポートされるデータベースシステム、Android/iOS のバージョン、および関連する SDK のリストが更新されました。[19.0 互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix-19-0.html)がアーカイブされました。
+[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)が更新されました。サポートされるデータベースシステム、Android/iOS のバージョン、および関連する SDK のリストが更新されました。[19.0 互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix-19-0.html)がアーカイブされました。
 
 「Campaign Classic の非推奨（廃止予定）および削除された機能」ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
@@ -546,7 +546,7 @@ Adobe Campaign Classic のオファーカタログの使用に関する新しい
 Campaign Classic で使用できる様々な外部アカウントと、その設定方法に関する情報が追加されました。
 [詳細を表示](../../installation/using/external-accounts.md)
 
-Analytics Connector の節が更新され、インターフェイスの変更が反映されるようになりました。
+Analytics Connector の節を更新し、インターフェイスの変更を反映させました。
 [詳細を表示](../../platform/using/adobe-analytics-connector.md)
 
 請求レポートに関する情報が追加されました。
@@ -555,7 +555,7 @@ Analytics Connector の節が更新され、インターフェイスの変更が
 共有オーディエンスの統合に関するドキュメントが更新されました。
 [詳細を表示](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-[SMS コネクタのプロトコルと設定](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)および[シーケンスの自動生成](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)のテクニカルノートが更新されました。
+[SMS コネクタのプロトコルと設定](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)および[シーケンスの自動生成](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)のテクニカルノートが更新されました。
 
 テクニカルワークフローの節が更新されました。[詳細を表示](../../workflow/using/about-technical-workflows.md)
 

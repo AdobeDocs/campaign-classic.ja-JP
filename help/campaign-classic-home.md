@@ -4,9 +4,9 @@ product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 28083eb0271c8c148955fa33978479dc3683eaed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 78%
 
 ## 新着情報
 
-* **[6月リリースが公開されました。](rn/using/latest-release.md)**<br/> リリースノートの新機能、改善点、修正点を確認する
+* **[6 月リリースを公開](rn/using/latest-release.md)**<br/> 新機能、改善点、修正点をリリースノートでご確認ください
 
-* **[誤ったハードバウンスの削除](delivery/using/update-bounce-qualification.md)**<br/> Apple の停止後に、誤ったハードバウンスを更新する方法を説明します。
+* **[誤ったハードバウンスの削除](delivery/using/update-bounce-qualification.md)**<br/> Apple サービス停止が発生した後に、誤ったハードバウンスを更新する方法を説明します
 
-* **[IMS／Adobe ID を使用した接続最新のビルドへのアップグレード](integrations/using/about-adobe-id.md)**<br/> IMSを使用してCampaignに接続する場合、2021年6月30日(PT)以降にCampaignに接続できるように、アップグレードする必要があります。****
+* **[IMS／Adobe ID で接続している場合は、最新ビルドへのアップグレードが必要 ](integrations/using/about-adobe-id.md)**<br/>IMS で Campaign に接続している場合、** 2021 年 6 月 30 日（PT）**以降も、Campaign に接続できるようにするにはアップグレードが必要です
 
-* **[Campaignインスタンスを保](technotes/acc-config-updates.md)**<br/> 護します。Campaignプラットフォームを保護するために最新のビルドに更新します。
+* **[Campaign インスタンスのセキュリティ保護](technotes/acc-config-updates.md)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します
 
 * **[Adobe Experience Cloud Triggers 統合の更新](integrations/using/configuring-adobe-io.md)**<br/>レガシー oAuth 認証サービスが提供終了になりました。Adobe I/O に移行する方法を説明します
 
-* **[サポート](support.md)**<br/> FAQ、ベストプラクティス、ヘルプリソースにアクセスしたり、サポートを依頼したりできます。
+* **[サポート](support.md)**<br/>FAQ、ベストプラクティス、ヘルプリソース、サポート依頼などにアクセスできます
 
 [その他の更新](/help/rn/using/documentation-updates.md)
 
@@ -81,7 +81,7 @@ ht-degree: 78%
 | 便利なページ | 開発者向けリソース |
 |---|---|
 | [リリースノート](/help/rn/using/latest-release.md) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [ハウツービデオ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
+| [ビデオガイド、チュートリアル](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
 | [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [[!DNL Gold Standard] アップグレード](rn/using/gs-overview.md) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
 | [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md) | [セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) |

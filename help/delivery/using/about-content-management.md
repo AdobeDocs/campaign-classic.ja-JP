@@ -6,16 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # コンテンツ管理について{#about-content-management}
 
-Adobe Campaign コンテンツマネージャーモジュールは、定期的ニュースレターや Web サイトを作成するためにインストールできる、Campaign Classic の[標準パッケージ](../../installation/using/installing-campaign-standard-packages.md)の 1 つです。このモジュールを使用して、メッセージを作成、検証、パブリッシュできます。
+Adobe Campaign Content Managerモジュールは、定期的ニュースレターやWebサイトを作成するためにインストールできる、特定のCampaign Classic[組み込みパッケージ](../../installation/using/installing-campaign-standard-packages.md)です。 このモジュールを使用して、メッセージを作成、検証、パブリッシュできます。
 
 >[!NOTE]
 >

@@ -5,10 +5,10 @@ description: 統合の設定
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: 45a84e1bf43678bbc31d8bac15a7e6520204fdc2
+source-git-commit: 9a126d16b394333163b974ad9690f7c93fb3034a
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 89%
+source-wordcount: '694'
+ht-degree: 80%
 
 ---
 
@@ -40,7 +40,7 @@ JSON 設定を **NmsPipeline_Config** オプションで指定します。この
 
 1. authPrivateKey が設定されていることを確認します。
 1. authPrivateKey が @ から始まり、= で終わり、およそ 4000 文字の長さであることを確認します。
-1. 元のキーを探します。元のキーが、RSA 形式で、4096 ビット長であり、「-----BEGIN RSA PRIVATE KEY-----」で始まることを確認します。
+1. 元のキーを探し、次の値を確認します。RSA形式では、4096ビット長で、`-----BEGIN RSA PRIVATE KEY-----`で始まる。
    <br>必要に応じて、キーを再作成し、Adobe Analytics に登録します。
 1. キーが [!DNL pipelined] と同じインスタンス内でエンコードされたことを確認します。<br>必要に応じて、サンプルの JavaScript またはワークフローを使用してエンコードをやり直します。
 
@@ -51,6 +51,21 @@ JSON 設定を **NmsPipeline_Config** オプションで指定します。この
 1. このページで鍵の暗号化の手順を実行します。
 1. キーが同じインスタンスで暗号化されていることを確認します。
 1. 設定ファイルの authPrivateKey が生成されたキーと一致することを確認します。<br>必ず OpenSSL を使用してキーペアを生成してください。例えば、PuttyGen では適切な形式が生成されません。
+
+**パイプライン化されたプロセスが失敗し、「is no longer to get access token」（アクセストークンを取得できません）と表示される**
+
+ログは次のようになります。
+
+```
+2021-05-31T08:42:18.124Z        66462   66501   1       error   log     Listener: JWT Token is empty. (iRc=16384)
+2021-05-31T08:42:18.210Z        66462   66501   1       error   log     Unknown authentication mode: 'Bearer realm="Adobe Analytics"'. (iRc=-55)
+2021-05-31T08:42:18.210Z        66462   66501   1       error   log     BAS-010007 Function not implemented (iRc=-55)
+2021-05-31T08:42:48.582Z        66462   66501   1       warning log     Connection seems to have been lost. Attempting to reconnect.
+2021-05-31T08:43:09.156Z        66462   66501   1       error   log     INT-150012 The HTTP query returned a 'Forbidden' type error (403) (iRc=-53)
+2021-05-31T08:43:09.160Z        66462   66501   1       error   log     Error while authenticating: '{"error":"This client: df73c224e5-triggers-test is no longer allowed to get access token."}' (iRc=16384)
+```
+
+このエラーメッセージは、認証がレガシーOmnitureベースのOAuthを使用して設定されていることを意味します。 認証をアップグレードするには、「 Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md)のAdobe I/Oの設定」ドキュメントを参照してください。[
 
 **トリガーが取得されない**
 

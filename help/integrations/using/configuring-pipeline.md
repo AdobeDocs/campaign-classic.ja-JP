@@ -5,10 +5,10 @@ description: パイプラインの設定方法を説明します
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: cf102a5e669ffe136e6ec2429343725ec6c3722e
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,11 @@ ht-degree: 100%
 
 この設定を開始する前に、次を使用していることを確認してください。
 
-* Adobe Campaign 20.3、20.2.4、19.1.8 または [!DNL Gold Standard]11 以降
+* 最低でも、次のAdobe Campaignビルドの1つ：
+   * 19.1.8.9039
+   * 19.1.4.9032.GS.11
+   * 20.2.4.9187
+   * 20.3.1
 * Adobe Analytics Standard 版
 
 また、次も必要です。

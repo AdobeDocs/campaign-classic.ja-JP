@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 100%
@@ -28,7 +28,7 @@ IMS（Adobe Identity Management System）との統合により、ユーザーは
 
 Adobe ID を使用した Campaign Classic へのアクセスについて[詳しくは、ここをクリック](../../integrations/using/about-adobe-id.md)してください。
 
-## 使用している Campaign のバージョンは？{#what-is-my-version-of-campaign-}
+## 使用している Campaign のバージョンを確認する方法はありますか？ {#what-is-my-version-of-campaign-}
 
 Campaign クライアントコンソールの&#x200B;**ヘルプ／バージョン情報...**&#x200B;メニューで、お使いの[バージョンおよびビルド番号](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を確認できます。
 
@@ -42,7 +42,7 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 
 Campaign 管理者は、組織のユーザーに対して権限を設定できます。
 
-一連の権限および制限により、承認または拒否される操作を以下に示します。
+以下は、各種の権限や制限によって承認または拒否できる操作です。
 
 * 特定の機能へのアクセス
 * 特定のデータへのアクセス
@@ -74,7 +74,7 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 例えば、ワークフローを使用して、サーバーからファイルをダウンロードしたり、ファイルを解凍したり、ファイルに含まれるレコードを Adobe Campaign データベースにインポートしたりできます。
 
-また、通知したり、プロセスを選択および承認したりできる 1 人または複数のオペレーターをワークフローに参加させることもできます。この方法では、配信アクションを作成し、1 人または複数のオペレーターにタスクを割り当てて、コンテンツに取り組んだり、ターゲットを指定したり、配信開始前に配達確認を承認したりできます。
+またワークフローには、1 人または複数のオペレーターを関連付けて、通知の対象とすることや、プロセスの選択や承認に関与させることもできます。この方法により、配信アクションを作成して 1 人または複数のオペレーターにタスクを割り当て、コンテンツに対して作業する、ターゲットを指定する、配信開始前に配達確認を承認する、などが可能になります。
 
 ワークフローについて[詳しくはここをクリック](../../workflow/using/about-workflows.md)してください。「[ワークフローのベストプラクティス](../../workflow/using/building-a-workflow.md)」も参照してください。
 
@@ -90,7 +90,7 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 ## プッシュ通知の送信方法は？{#how-to-send-push-notifications-}
 
-Adobe Campaign を使用すると、アプリを介して iOS および Android 端末に[パーソナライズされたプッシュ通知を送信](../../delivery/using/creating-notifications.md)できます。
+Adobe Campaign を使用すると、アプリを介して iOS および Android 端末に[パーソナライズされたプッシュ通知を送信](../../delivery/using/create-notifications-ios.md)できます。
 
 ## オンライン調査の設計および共有方法は？{#how-to-design-and-share-an-online-survey-}
 
@@ -122,7 +122,7 @@ Campaign でのトラッキング管理について詳しくは、[このペー�
 
 ## 廃止予定の機能およびバージョンのリストはありますか？{#is-there-a-list-of-deprecated-features-and-versions-}
 
-アドビでは、製品の機能を継続的に評価し、各機能をより効果的なバージョンで置き換えるために長期的な計画を策定したり、将来の期待や拡張に備えるために選択したパーツの再実装を決定したりしています。Campaign はサードパーティ製ツールと連携しており、サポート対象バージョンのみに対応するために、定期的に互換性が更新されています。
+アドビでは、製品の機能を継続的に評価し、各機能をより強力なバージョンに置き換えるために長期的な計画を策定したり、将来的な想定や拡張に備えるために特定のパーツの再実装を決定したりしています。Campaign はサードパーティ製ツールと連携しており、サポート対象バージョンのみに対応するために、定期的に互換性が更新されています。
 
 [詳しくはここをクリック](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)してください。
 

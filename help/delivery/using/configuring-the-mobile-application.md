@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 100%
+source-wordcount: '743'
+ht-degree: 93%
 
 ---
 
@@ -19,9 +19,18 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Android 用のアプリの設定方法と Android 用の配信の作成方法については、[この節](../../delivery/using/configuring-the-mobile-application-android.md)を参照してください。
+>Android 用のアプリの設定方法と Android 用の配信の作成方法については、[この節](configuring-the-mobile-application-android.md)を参照してください。
 
-## iOS 外部アカウントの設定 {#configuring-external-account-ios}
+主な手順は次のとおりです。
+
+1. [iOS外部アカウントの設定](#configuring-external-account-ios)
+1. [iOSサービスの設定](#configuring-ios-service)
+1. [CampaignでのiOSモバイルアプリの統合](#creating-ios-app)
+
+その後、iOSデバイス用に[プッシュ通知を作成](create-notifications-ios.md)できます。
+
+
+## iOS外部アカウントの設定{#configuring-external-account-ios}
 
 iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します。
 
@@ -37,7 +46,7 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
 これで、iOS コネクタが設定されました。サービスの作成を開始できます。
 
-## iOS サービスの設定 {#configuring-ios-service}
+## iOSサービス{#configuring-ios-service}の設定
 
 >[!CAUTION]
 >
@@ -64,9 +73,9 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
 1. iOS の開発用アプリケーションおよび本番用アプリケーションを作成します。詳しくは、[この節](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app)を参照してください。
 
-## iOS モバイルアプリケーションの作成 {#creating-ios-app}
+## iOSモバイルアプリ{#creating-ios-app}の作成
 
-サービスの作成後に、iOS アプリケーションを作成する必要があります。
+サービスを作成したら、CampaignでiOSアプリケーションを作成します。 次の手順に従います。
 
 1. 新しく作成したサービスで、「**[!UICONTROL 追加]**」ボタンをクリックしてアプリケーションタイプを選択します。
 
@@ -117,39 +126,3 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 1. 「**[!UICONTROL 完了]**」をクリックします。
 
 これで、Campaign Classic で iOS アプリケーションを使用する準備が整いました。
-
-## iOS のリッチ通知の作成 {#creating-ios-delivery}
-
-iOS 10 以降では、リッチ通知を生成することができます。Adobe Campaign では、変数を使用して通知を送信し、デバイスでリッチ通知を表示できます。
-
-次に、新しい配信を作成し、作成したモバイルアプリケーションにリンクする必要があります。
-
-1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;に移動します。
-
-1. 「**[!UICONTROL 新規]**」をクリックします。
-
-   ![](assets/nmac_android_3.png)
-
-1. 「**[!UICONTROL 配信テンプレート]**」ドロップダウンで「**[!UICONTROL iOS 配信（ios）]**」を選択します。配信に&#x200B;**[!UICONTROL ラベル]**&#x200B;を追加します。
-
-1. 「**[!UICONTROL 宛先]**」をクリックして、ターゲットにする母集団を定義します。デフォルトでは、**[!UICONTROL 購読者のアプリケーション]**&#x200B;ターゲットマッピングが適用されます。「**[!UICONTROL 追加]**」をクリックして、前の手順で作成したサービスを選択します。
-
-   ![](assets/nmac_ios_9.png)
-
-1. **[!UICONTROL ターゲットのタイプ]**&#x200B;ウィンドウで、「**[!UICONTROL iOS モバイルアプリケーション (iPhone、iPad) の購読者]**」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
-
-1. 「**[!UICONTROL サービス]**」ドロップダウンで、前の手順で作成したサービスを選択し、ターゲットするアプリケーションを選択して「**[!UICONTROL 完了]**」をクリックします。**[!UICONTROL アプリケーション変数]**&#x200B;は、設定手順で追加された内容に応じて自動的に追加されます。
-
-   ![](assets/nmac_ios_6.png)
-
-1. リッチ通知を編集します。
-
-   ![](assets/nmac_ios_7.png)
-
-1. 通知を編集ウィンドウの「**[!UICONTROL 可変コンテンツ]**」ボックスをオンにして、モバイルアプリケーションがメディアコンテンツをダウンロードできるようにします。
-
-1. 「**[!UICONTROL 保存]**」をクリックし、配信を送信します。
-
-プッシュ通知が購読者のモバイル iOS デバイスで受信されると、画像と web ページが表示されます。
-
-![](assets/nmac_ios_8.png)

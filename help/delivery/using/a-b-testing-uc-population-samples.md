@@ -6,16 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '191'
+ht-degree: 91%
 
 ---
 
 # 母集団サンプルの設定 {#step-2--configuring-population-samples}
 
-## 「クエリ」アクティビティの設定{#configuring-the-query-activity}
+## クエリアクティビティ{#configuring-the-query-activity}の設定
 
 * 「**[!UICONTROL クエリ]**」アクティビティをダブルクリックします。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
    ![](assets/use_case_abtesting_createrecipients_003.png)
 
-## 分割アクティビティの設定 {#configuring-the-split-activity}
+## 分割アクティビティの設定{#configuring-the-split-activity}
 
 このアクティビティでは、配信 A を受信する母集団、配信 B を受信する母集団、その他の母集団といったように複数の母集団を作成することができます。ランダムな抽出をおこなうことで、各配信の母集団の部分のみをターゲティングすることが可能です。
 
@@ -79,4 +79,4 @@ ht-degree: 100%
 
       ![](assets/use_case_abtesting_createrecipients_013.png)
 
-これで2つの配信テンプレートを作成できます([手順3:2つの配信テンプレート](../../delivery/using/a-b-testing-uc-delivery-templates.md)を作成します)。
+これで、2つの配信テンプレートを作成できます。 [詳細情報](a-b-testing-uc-delivery-templates.md)).

@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 100%
+source-wordcount: '1074'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->iOS 用にアプリを設定する方法と iOS 用の配信を作成する方法については、[この節](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
+>iOS 用にアプリを設定する方法と iOS 用の配信を作成する方法については、[この節](configuring-the-mobile-application.md)を参照してください。
 
 主な手順は次のとおりです。
 
@@ -31,9 +31,9 @@ ht-degree: 100%
 1. [Campaign でモバイルアプリを作成する](#creating-android-app)
 1. [追加データでアプリスキーマを拡張する](#extend-subscription-schema)
 
-その後、[Android リッチ通知を作成](#creating-android-delivery)できるようになります。
+その後、[Android リッチ通知を作成](create-notifications-android.md)できるようになります。
 
-## Android 外部アカウントの設定 {#configuring-external-account-android}
+## Android外部アカウント{#configuring-external-account-android}の設定
 
 Android の場合、2 種類のコネクタを使用できます。
 
@@ -58,7 +58,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
    * **maxGCMConnectPerChild**：それぞれの子サーバーで開始できる、FCM に対する並列 HTTP リクエストの最大数（デフォルト値は 8）。
 
-## Android サービスの設定 {#configuring-android-service}
+## Androidサービス{#configuring-android-service}の設定
 
 ![](assets/do-not-localize/how-to-video.png) [Android サービスの設定方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ja#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
 
@@ -71,7 +71,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
    >[!NOTE]
    >
-   >デフォルトの「**[!UICONTROL 購読者のアプリケーション（nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。ターゲットマッピングの作成について詳しくは、[設定ガイド](../../configuration/using/about-custom-recipient-table.md)を参照してください。
+   >デフォルトの「**[!UICONTROL 購読者のアプリケーション（nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。ターゲットマッピングの作成について詳しくは、[この節](../../configuration/using/about-custom-recipient-table.md)を参照してください。
 
    ![](assets/nmac_ios.png)
 
@@ -79,9 +79,9 @@ Android の場合、2 種類のコネクタを使用できます。
 
    ![](assets/nmac_service_2.png)
 
-1. Android アプリケーションを作成します。詳しくは、[この節](../../delivery/using/configuring-the-mobile-application-android.md#creating-android-app)を参照してください。
+1. Android アプリケーションを作成します。詳細については、[このセクション](../../delivery/using/configuring-the-mobile-application-android.md#creating-android-app)を参照してください。
 
-## Android モバイルアプリケーションの作成 {#creating-android-app}
+## Androidモバイルアプリケーション{#creating-android-app}を作成します。
 
 サービスの作成後に、Android アプリケーションを作成する必要があります。
 
@@ -93,7 +93,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
    ![](assets/nmac_android.png)
 
-1. Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ「**[!UICONTROL 統合キー]**」が定義されていることを確認します。詳しくは、[Campaign SDK をモバイルアプリケーションに統合する](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)を参照してください。
+1. Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ「**[!UICONTROL 統合キー]**」が定義されていることを確認します。詳細については、[このセクション](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)を参照してください。
 
    >[!NOTE]
    >
@@ -111,8 +111,8 @@ Android の場合、2 種類のコネクタを使用できます。
 
 サービスと新しいモバイルアプリケーションを作成したら、選択された API バージョンに応じてモバイルアプリケーションを設定する必要があります。
 
-* **HTTP v1** の設定について詳しくは、こちらの[節](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)を参照してください。
-* **HTTP（レガシー）**&#x200B;の設定について詳しくは、こちらの[節](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http)を参照してください。
+* **HTTP v1の** 設定について詳しくは、この節 [を参照してください](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)。
+* **HTTP（レガシー）** の設定について詳しくは、この節 [を参照してください](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http)。
 
 #### HTTP v1 API の設定{#android-service-httpv1}
 
@@ -120,7 +120,7 @@ HTTP v1 API バージョンを設定するには、次の手順に従います�
 
 1. **[!UICONTROL モバイルアプリケーション作成ウィザード]**&#x200B;ウィンドウの「**[!UICONTROL API バージョン]**」ドロップダウンで「**[!UICONTROL HTTPV1]**」を選択します。
 
-1. 「**[!UICONTROL プロジェクトの詳細を抽出するプロジェクトの json ファイルを読み込む...]**」をクリックして、JSON キーファイルを直接読み込みます。JSON ファイルの抽出方法については、[このページ](https://firebase.google.com/docs/admin/setup#initialize-sdk)を参照してください。
+1. 「**[!UICONTROL プロジェクトの詳細を抽出するプロジェクトの json ファイルを読み込む...]**」をクリックして、JSON キーファイルを直接読み込みます。JSONファイルの抽出方法について詳しくは、[このページ](https://firebase.google.com/docs/admin/setup#initialize-sdk)を参照してください。
 
    次の詳細を手動で入力することもできます。
    * **[!UICONTROL プロジェクト ID]**
@@ -188,110 +188,4 @@ HTTP（レガシー）API バージョンを設定するには、次の手順に
 
    >[!CAUTION]
    >
-   >「**[!UICONTROL 購読パラメーター]**」タブの設定名が、モバイルアプリケーションコードの設定名と同じであることを確認します。[Campaign SDK をモバイルアプリケーションに統合する](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)の節を参照してください。
-
-## Android のリッチ通知の作成 {#creating-android-delivery}
-
-Firebase Cloud Messaging では、次の 2 種類のメッセージの中から選択できます。
-
-* **[!UICONTROL データメッセージ]**は、クライアントアプリで処理されます。
-   <br>メッセージは、デバイスへの Android 通知を生成して表示するモバイルアプリケーションに直接送信されます。データメッセージには、カスタムアプリケーション変数のみが含まれます。
-
-* **[!UICONTROL 通知メッセージ]**は、FCM SDK によって自動的に処理されます。
-   <br> FCM は、クライアントアプリに代わって、ユーザーのデバイスにメッセージを自動的に表示します。通知メッセージには、事前に定義された一連のパラメーターとオプションが含まれていますが、カスタムアプリケーション変数を使用してさらにパーソナライズすることもできます。
-
-Firebase Cloud Messaging のメッセージタイプについて詳しくは、[FCM ドキュメント](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages)を参照してください。
-
-### データメッセージの作成　{#creating-data-message}
-
-1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;に移動します。
-
-1. 「**[!UICONTROL 新規]**」をクリックします。
-
-   ![](assets/nmac_android_3.png)
-
-1. 「**[!UICONTROL 配信テンプレート]**」ドロップダウンで「**[!UICONTROL Android 配信（android）]**」を選択します。配信に&#x200B;**[!UICONTROL ラベル]**&#x200B;を追加します。
-
-1. 「**[!UICONTROL 宛先]**」をクリックして、ターゲットにする母集団を定義します。デフォルトでは、**[!UICONTROL 購読者のアプリケーション]**&#x200B;ターゲットマッピングが適用されます。「**[!UICONTROL 追加]**」をクリックしてサービスを選択します。
-
-   ![](assets/nmac_android_7.png)
-
-1. **[!UICONTROL ターゲットのタイプ]******&#x200B;ウィンドウで、「Android モバイルアプリケーションの購読者」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
-
-1. 「**[!UICONTROL サービス]**」ドロップダウンで、以前に作成したサービスとアプリケーションを選択して「**[!UICONTROL 完了]**」をクリックします。**[!UICONTROL アプリケーション変数]**&#x200B;は、設定手順で追加された内容に応じて自動的に追加されます。
-
-   ![](assets/nmac_android_6.png)
-
-1. 「**[!UICONTROL メッセージタイプ]**」で「**[!UICONTROL データメッセージ]**」を選択します。
-
-1. リッチ通知を編集します。
-
-   ![](assets/nmac_android_5.png)
-
-1. 必要に応じて、以前設定した&#x200B;**[!UICONTROL アプリケーション変数]**&#x200B;に情報を追加できます。**[!UICONTROL アプリケーション変数]**&#x200B;は、Android サービスで設定する必要があり、モバイルデバイスに送信されるメッセージペイロードの一部です。
-
-1. 「**[!UICONTROL 保存]**」をクリックし、配信を送信します。
-
-プッシュ通知が購読者のモバイル Android デバイスで受信されると、画像と web ページが表示されます。
-
-![](assets/nmac_android_4.png)
-
-### 通知メッセージの作成 {#creating-notification-message}
-
->[!NOTE]
->
->通知メッセージのその他のオプションは、HTTP v1 API 設定でのみ使用できます。詳しくは、[この節](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)を参照してください。
-
-![](assets/do-not-localize/how-to-video.png) [Android プッシュ通知の作成方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=ja#additional-resources)
-
-1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;に移動します。
-
-1. 「**[!UICONTROL 新規]**」をクリックします。
-
-   ![](assets/nmac_android_3.png)
-
-1. 「**[!UICONTROL 配信テンプレート]**」ドロップダウンで「**[!UICONTROL Android 配信（android）]**」を選択します。配信に&#x200B;**[!UICONTROL ラベル]**&#x200B;を追加します。
-
-1. 「**[!UICONTROL 宛先]**」をクリックして、ターゲットにする母集団を定義します。デフォルトでは、**[!UICONTROL 購読者のアプリケーション]**&#x200B;ターゲットマッピングが適用されます。「**[!UICONTROL 追加]**」をクリックしてサービスを選択します。
-
-   ![](assets/nmac_android_7.png)
-
-1. **[!UICONTROL ターゲットのタイプ]******&#x200B;ウィンドウで、「Android モバイルアプリケーションの購読者」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
-
-1. 「**[!UICONTROL サービス]**」ドロップダウンで、以前に作成したサービスとアプリケーションを選択して「**[!UICONTROL 完了]**」をクリックします。
-
-   ![](assets/nmac_android_6.png)
-
-1. 「**[!UICONTROL メッセージタイプ]**」で「**[!UICONTROL 通知メッセージ]**」を選択します。
-
-1. タイトルを追加し、メッセージを編集します。「**[!UICONTROL 通知オプション]**」を使用して、プッシュ通知をパーソナライズします。
-
-   * **[!UICONTROL チャネル ID]**：通知のチャネル ID を設定します。このチャネル ID を持つ通知を受信するには、このチャネル ID を持つチャネルをアプリで事前に作成しておく必要があります。
-   * **[!UICONTROL サウンド]**：デバイスが通知を受け取るときに再生するサウンドを設定します。
-   * **[!UICONTROL 色]**：通知アイコンの色を設定します。
-   * **[!UICONTROL アイコン]**：プロファイルのデバイスに表示される通知アイコンを設定します。
-   * **[!UICONTROL タグ]**：通知ドロワー内の既存の通知を置き換えるために使用する識別子を設定します。
-   * **[!UICONTROL クリックアクション]**：通知のユーザークリックに関連付けられたアクションを設定します。
-
-   **[!UICONTROL 通知オプション]**&#x200B;とこれらのフィールドに入力する方法について詳しくは、[FCM のドキュメント](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification)を参照してください。
-
-   ![](assets/nmac_android_8.png)
-
-1. アプリケーションが HTTP v1 API プロトコルを使用して設定されている場合は、以下の **[!UICONTROL HTTPV1 その他のオプション]**&#x200B;を使用して、プッシュ通知をさらにパーソナライズできます。
-
-   * **[!UICONTROL ティッカー]**：通知のティッカーテキストを設定します。Android 5.0 Lollipop に設定されたデバイスでのみ使用できます。
-   * **[!UICONTROL 画像]**：通知に表示する画像の URL を設定します。
-   * **[!UICONTROL 通知数]**：アプリケーションアイコンに直接表示する新しい未読情報の数を設定します。
-   * **[!UICONTROL スティッキー]**：true または false に設定します。false に設定した場合、ユーザーがクリックすると通知が自動的に閉じます。true に設定した場合、ユーザーがクリックしても通知は表示されます。
-   * **[!UICONTROL 通知優先度]**：通知の優先度レベルを、デフォルト、最小、低、高のいずれかに設定します。詳しくは、[FCM のドキュメント](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#NotificationPriority)を参照してください。
-   * **[!UICONTROL 表示]**：通知の表示レベルをパブリック、プライベート、秘密のいずれかに設定します。詳しくは、[FCM のドキュメント](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility)を参照してください。
-
-   **[!UICONTROL HTTPV1 その他のオプション]**&#x200B;とこれらのフィールドを設定する方法について詳しくは、[FCM ドキュメント](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification)を参照してください。
-
-   ![](assets/nmac_android_9.png)
-
-1. 必要に応じて、以前設定した&#x200B;**[!UICONTROL アプリケーション変数]**&#x200B;に情報を追加できます。**[!UICONTROL アプリケーション変数]**&#x200B;は、Android サービスで設定する必要があり、モバイルデバイスに送信されるメッセージペイロードの一部です。
-
-1. 「**[!UICONTROL 保存]**」をクリックし、配信を送信します。
-
-プッシュ通知が購読者のモバイル Android デバイスで受信されると、画像と web ページが表示されます。
+   >「**[!UICONTROL 購読パラメーター]**」タブの設定名が、モバイルアプリケーションコードの設定名と同じであることを確認します。[この節](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)を参照してください。

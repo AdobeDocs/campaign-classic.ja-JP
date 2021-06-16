@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: bc23a444-a872-48fb-8bba-64b301541089
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '118'
 ht-degree: 100%
 
 ---
@@ -26,4 +26,4 @@ A/B テストの勝者を選択するスクリプトの作成後は、最終配�
 
 （「**[!UICONTROL Javascript コード]**」アクティビティで定義された）トランジションで指定された配信を準備することで、次の手順で説明する、承認と配信の開始が可能になります。
 
-これで、ワークフローを開始できます([手順7を参照：ワークフロー](../../delivery/using/a-b-testing-uc-start-workflow.md)の開始を参照)。
+これで、ワークフローを開始できます。[詳細情報](a-b-testing-uc-start-workflow.md)。

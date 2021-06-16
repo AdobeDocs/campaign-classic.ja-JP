@@ -7,9 +7,9 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaignでは、豊富な顧客データを使用して、Eメール、モバイル、オフラインなど、顧客が実際に求める動的なキャンペーンを作成、調整、配信できます。
 sub-product: Adobe Campaign Classic
 type: Documentation
-source-git-commit: a4fc52e68cbca861e1b942e0c7e41f3d5dc3df54
+source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2512'
 ht-degree: 98%
 
 ---
@@ -161,7 +161,9 @@ ht-degree: 98%
          + [アプリ設定の基本を学ぶ](delivery/using/get-started-app-config.md)
          + [iOS の設定手順](delivery/using/configuring-the-mobile-application.md)
          + [Android の設定手順](delivery/using/configuring-the-mobile-application-android.md)
-      + [通知の作成](delivery/using/creating-notifications.md)
+      + プッシュ通知の作成{#create-a-push-msg}
+         + [iOS用プッシュメッセージの作成](delivery/using/create-notifications-ios.md)
+         + [Android用プッシュメッセージの作成](delivery/using/create-notifications-android.md)
       + [トラブルシューティング](delivery/using/troubleshooting.md)
    + ダイレクトメールの送信 {#sending-direct-mail}
       + [ダイレクトメールチャネルについて](delivery/using/about-direct-mail-channel.md)

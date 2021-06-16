@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## スクリプトの例 {#example-of-a-script}
 
-ターゲティングワークフローで、以下のようにスクリプトを使用します。詳しくは、[実装](#implementation)を参照してください。
+ターゲティングワークフローで、以下のようにスクリプトを使用します。詳細については、[このセクション](#implementation)を参照してください。
 
 ```
  // query the database to find the winner (best open rate)
@@ -65,7 +65,7 @@ ht-degree: 100%
    vars.deliveryId = delivery.id
 ```
 
-スクリプトについて詳しくは、[スクリプトの詳細](#details-of-the-script)を参照してください。
+このスクリプトの詳細については、 [こちらの節](#details-of-the-script)を参照してください。
 
 ## 実装 {#implementation}
 
@@ -168,4 +168,4 @@ ht-degree: 100%
 * 最も低い購読解除率：`[indicators/@optOutRatio]`
 * トランザクション金額: `[indicators/@amount]`.
 
-これで、最終的な配信を定義できます([手順6:最終配信](../../delivery/using/a-b-testing-uc-final-delivery.md)を定義します)。
+これで、最終配信を定義できます。 [詳細情報](a-b-testing-uc-final-delivery.md)。

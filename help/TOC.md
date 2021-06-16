@@ -1,16 +1,16 @@
 ---
 audience: end-user
-breadcrumb-title: ヘルプセンター
+breadcrumb-title: Campaign Classicv7ドキュメント
 product: campaign
-title: Campaign Classic ガイド
+title: Campaign Classic v7 ガイド
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: チャネルをまたいだマーケティングキャンペーンを設計、計画、実行、管理、および最適化して、高いマーケティング投資回収率を実現します。
+user-guide-description: Adobe Campaignでは、豊富な顧客データを使用して、Eメール、モバイル、オフラインなど、顧客が実際に求める動的なキャンペーンを作成、調整、配信できます。
 sub-product: Adobe Campaign Classic
 type: Documentation
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: ht
-source-wordcount: '2485'
-ht-degree: 100%
+source-git-commit: a4fc52e68cbca861e1b942e0c7e41f3d5dc3df54
+workflow-type: tm+mt
+source-wordcount: '2498'
+ht-degree: 98%
 
 ---
 

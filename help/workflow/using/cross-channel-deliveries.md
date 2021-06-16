@@ -6,18 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '293'
+ht-degree: 82%
 
 ---
 
 # クロスチャネル配信{#cross-channel-deliveries}
 
 クロスチャネル配信は、キャンペーンワークフローアクティビティの「**[!UICONTROL 配信]**」タブから使用可能です。
-
-クロスチャネル配信を使用して、特定のチャネルに固有の配信を作成できます。従来の配信ウィザードと同じ方法で、配信およびコンテンツのベースとなるテンプレートを指定できます。
 
 次に、使用可能な様々なチャネルを示します。
 
@@ -26,12 +24,14 @@ ht-degree: 100%
 * [モバイル](../../delivery/using/sms-channel.md)
 * [Twitter](../../social/using/publishing-on-twitter.md)
 * [Facebook](../../social/using/publishing-on-facebook.md)
-* [iOS](../../delivery/using/creating-notifications.md#sending-notifications-on-ios)
-* [Android](../../delivery/using/creating-notifications.md#sending-notifications-on-android)
+* [iOS](../../delivery/using/create-notifications-ios.md)
+* [Android](../../delivery/using/create-notifications-android.md)
+
+配信のベースとするテンプレートを選択し、そのコンテンツを定義します。
 
 各種ターゲティングアクティビティを使用して、ワークフローの配信アップストリームのターゲットを指定できます。
 
-例えば、ここでは、プッシュ通知購読者に E メールまたは SMS を送信し、1 週間後にプッシュ通知を通知するワークフローを作成します。手順は次のとおりです。
+次の例では、プッシュ通知購読者向けのEメールまたはSMSを送信し、1週間後にプッシュ通知を送信するワークフローを作成します。 手順は次のとおりです。
 
 1. キャンペーンを作成します。
 1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、ワークフローに&#x200B;**[!UICONTROL クエリ]**&#x200B;を追加します。
@@ -39,7 +39,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >プッシュ通知の場合、必ず&#x200B;**購読者のアプリケーション**&#x200B;ターゲットディメンションを使用するようにします。
+   >プッシュ通知の場合は、**購読者のアプリケーション**&#x200B;ターゲットディメンションを使用します。
 
    ![](assets/cross_channel_delivery_1.png)
 

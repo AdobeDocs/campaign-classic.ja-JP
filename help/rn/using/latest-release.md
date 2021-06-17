@@ -56,7 +56,7 @@ _2021 年 6 月 5 日（PT）_
 </p>
 <ul> 
 <li><p>LINE 動画メッセージのサポート</p></li>
-<li><p>LINE PARTNER REGISTRATION API のサポート</p></li>
+<li><p>LINE Partner Registration API のサポート</p></li>
 <li><p>LINE のサーバー側のエラーやネットワークタイムアウトが発生した場合、適切な再送信を実施ト</p></li>
 </ul>
 <p>詳しくは、<a href="../../delivery/using/line-channel.md">詳細ドキュメント</a>を参照してください。</p>

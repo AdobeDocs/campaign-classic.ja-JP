@@ -7,7 +7,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 28083eb0271c8c148955fa33978479dc3683eaed
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 100%
 
@@ -55,9 +55,9 @@ _2021 年 6 月 5 日（PT）_
 <td> <p>LINE チャネルに次の改善が追加されました。
 </p>
 <ul> 
-<li><p>LINE 動画メッセージタイプのサポート</p></li>
-<li><p>LINE パートナー登録 API のサポート</p></li>
-<li><p>LINE でサーバーサイドエラーやネットワークタイムアウトが発生した場合、メッセージの再送信をサポート</p></li>
+<li><p>LINE 動画メッセージのサポート</p></li>
+<li><p>LINE PARTNER REGISTRATION API のサポート</p></li>
+<li><p>LINE のサーバー側のエラーやネットワークタイムアウトが発生した場合、適切な再送信を実施ト</p></li>
 </ul>
 <p>詳しくは、<a href="../../delivery/using/line-channel.md">詳細ドキュメント</a>を参照してください。</p>
 </td> 

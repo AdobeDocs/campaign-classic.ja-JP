@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 ## クーポンの E メール配信への挿入 {#inserting-a-coupon-into-an-email-delivery}
 
-次の例では、配信をホームページから作成します。配信の作成方法について詳しくは、[この節](../../delivery/using/about-email-channel.md)を参照してください。また、ワークフローの配信にクーポンを追加することもできます。
+次の例では、配信をホームページから作成します。配信の作成方法について詳しくは、[この節](about-email-channel.md)を参照してください。また、ワークフローの配信にクーポンを追加することもできます。
 
 1. **[!UICONTROL Campaigns]** に移動し、「**[!UICONTROL 配信]**」を選択します。
 1. 「**[!UICONTROL 作成]**」をクリックします。

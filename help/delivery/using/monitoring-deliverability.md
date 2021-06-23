@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!
 
 配信品質パッケージを使用すると、以下にアクセスすることができます。
 
-* [受信ボックスレンダリングレポート](../../delivery/using/inbox-rendering.md)を使用すると、コンテンツや評判をスキャンするために、主要な E メールクライアントにメッセージをプレビューできます。
+* [受信ボックスレンダリングレポート](inbox-rendering.md)を使用すると、コンテンツや評判をスキャンするために、主要な E メールクライアントにメッセージをプレビューできます。
 * メッセージ品質の概要（受信ボックス、スパム）。
 
 ## 監視ツール {#monitoring-tools}
@@ -41,22 +41,22 @@ Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!
    * **[!UICONTROL ソフトバウンス]**&#x200B;は評判を示します。任意の ISP に対して、この値を 10％以下にする必要があります。
 
    詳しくは、[配信統計](../../reporting/using/global-reports.md#delivery-statistics)を参照してください。
-* より一般的に、[配信ダッシュボード](../../delivery/using/about-delivery-monitoring.md)は次の項目のアクセスを提供します。
-   * [配信の概要](../../delivery/using/delivery-dashboard.md#delivery-summary)：送信の詳細、送信するメッセージ数、処理済みおよび送信済みの成功件数を表示します。
-   * [配信ログと履歴](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)：除外されたターゲットとその理由を示します。
-   * [トラッキングログ](../../delivery/using/delivery-dashboard.md#tracking-logs)：開封数およびクリック数などのトラッキング情報を示します。
+* より一般的に、[配信ダッシュボード](about-delivery-monitoring.md)は次の項目のアクセスを提供します。
+   * [配信の概要](delivery-dashboard.md#delivery-summary)：送信の詳細、送信するメッセージ数、処理済みおよび送信済みの成功件数を表示します。
+   * [配信ログと履歴](delivery-dashboard.md#delivery-logs-and-history)：除外されたターゲットとその理由を示します。
+   * [トラッキングログ](delivery-dashboard.md#tracking-logs)：開封数およびクリック数などのトラッキング情報を示します。
 
 ## 監視のガイドライン {#monitoring-guidelines}
 
 配信品質の監視に関する追加のガイドラインを示します。
 
 * プラットフォーム全体で[配信スループット](../../reporting/using/global-reports.md#delivery-throughput)を定期的にチェックして、元のセットアップと整合性が取れているかどうかを検証します。
-* 配信テンプレートで[再試行](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)が適切に設定されていることを確認します（再試行期間が 30 分、再試行回数が 21 回以上）。
-* [バウンス](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management)メールボックスがアクセス可能で、アカウントの有効期限が近づいていないかを定期的に検証します。
-* [配信ダッシュボード](../../delivery/using/delivery-dashboard.md)で各配信スループットをチェックして、配信コンテンツの効力（例：「フラッシュセール」の配信期間は数日ではなく数分にする必要がある）と合致していることを確認します。
-* [ウェーブ](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)を使用する場合、次のものがトリガーされる前に各ウェーブが完了するための十分な時間があることを検証します。
-* エラーの数と新しい[強制隔離](../../delivery/using/understanding-quarantine-management.md)が他の配信と整合性が取れていることをチェックします。
-* [配信ログ](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)の詳細を慎重に調べて、ハイライト表示されたエラーの種類をチェックします（ブロックリスト、DNS の問題、スパム対策ルールなど）。
+* 配信テンプレートで[再試行](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)が適切に設定されていることを確認します（再試行期間が 30 分、再試行回数が 21 回以上）。
+* [バウンス](understanding-delivery-failures.md#bounce-mail-management)メールボックスがアクセス可能で、アカウントの有効期限が近づいていないかを定期的に検証します。
+* [配信ダッシュボード](delivery-dashboard.md)で各配信スループットをチェックして、配信コンテンツの効力（例：「フラッシュセール」の配信期間は数日ではなく数分にする必要がある）と合致していることを確認します。
+* [ウェーブ](steps-sending-the-delivery.md#sending-using-multiple-waves)を使用する場合、次のものがトリガーされる前に各ウェーブが完了するための十分な時間があることを検証します。
+* エラーの数と新しい[強制隔離](understanding-quarantine-management.md)が他の配信と整合性が取れていることをチェックします。
+* [配信ログ](delivery-dashboard.md#delivery-logs-and-history)の詳細を慎重に調べて、ハイライト表示されたエラーの種類をチェックします（ブロックリスト、DNS の問題、スパム対策ルールなど）。
 
 <!--### Delivery Reports - Broadcast Statistics {#broadcast-statistics}
 

@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: configuring-channels
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '8433'
 ht-degree: 100%
@@ -55,7 +55,7 @@ SMS プロバイダー経由で大量の SMS を送信する場合、次の 3 �
 
 SMS は、テキストよりも多くの情報を伝送します。SMS によって提供される情報のリストを以下に示します。
 
-* テキスト。140 バイトに制限されます。つまり、エンコーディングに応じて 70～160 文字の範囲です。詳細と制限については、[SMS テキストエンコーディング](../../delivery/using/sms-protocol.md#sms-text-encoding)を参照してください。
+* テキスト。140 バイトに制限されます。つまり、エンコーディングに応じて 70～160 文字の範囲です。詳細と制限については、[SMS テキストエンコーディング](sms-protocol.md#sms-text-encoding)を参照してください。
 
 * 受信者アドレス。`ADC` または `MSISDN` とも呼ばれます。SMS を受信する携帯電話の番号です。
 
@@ -174,7 +174,7 @@ PDU にはオプションのフィールドを指定できます。ここでは�
 
 * **registered_delivery**：SR が要求されているかどうかを示します。Adobe Campaign は、自動返信を除き、常にこのフラグを設定します。マルチパートメッセージの場合、フラグは最初のパーツに対してのみ設定されます。すべてのバージョンで同じ動作がおこなわれます。
 
-* **data_coding**：テキストフィールドで使用されるエンコーディングを示します。詳しくは、[SMS テキストエンコーディング](../../delivery/using/sms-protocol.md#sms-text-encoding)の節を参照してください。
+* **data_coding**：テキストフィールドで使用されるエンコーディングを示します。詳しくは、[SMS テキストエンコーディング](sms-protocol.md#sms-text-encoding)の節を参照してください。
 
 * **short_message**：メッセージのテキスト。UDH を使用する場合は、UHD ヘッダーも含まれます。
 
@@ -206,7 +206,7 @@ Adobe Campaign では、次のオプションフィールドがサポートさ�
 
 * **esm_class**：PDU が MO か SR かを識別するために使用します。
 
-* **short_message**：メッセージのテキスト。SR の場合、SMPP プロトコル仕様の付録 B に記載されているデータが含まれます。詳しくは、[SR エラー管理](../../delivery/using/sms-protocol.md#sr-error-management)を参照してください。
+* **short_message**：メッセージのテキスト。SR の場合、SMPP プロトコル仕様の付録 B に記載されているデータが含まれます。詳しくは、[SR エラー管理](sms-protocol.md#sr-error-management)を参照してください。
 
 Adobe Campaign は、`receipted_message_id` オプションフィールドのメッセージ ID を読み取ることができます（設定によっては可）。
 
@@ -228,7 +228,7 @@ Adobe Campaign Classic は、SR と MO がデータベースに挿入された�
 
 ### マルチパート SMS （ロング SMS） {#multipart}
 
-マルチパート SMS（ロング SMS）は、複数のパーツで送信される SMS です。モバイルネットワークプロトコルの技術的な制限により、SMS は 140 バイト以下にする必要があり、超える場合は分割する必要があります。SMS に収まる文字数について詳しくは、[SMS テキストエンコーディング](../../delivery/using/sms-protocol.md#sms-text-encoding)の節を参照してください。
+マルチパート SMS（ロング SMS）は、複数のパーツで送信される SMS です。モバイルネットワークプロトコルの技術的な制限により、SMS は 140 バイト以下にする必要があり、超える場合は分割する必要があります。SMS に収まる文字数について詳しくは、[SMS テキストエンコーディング](sms-protocol.md#sms-text-encoding)の節を参照してください。
 
 長いメッセージの各部分は、個々の SMS です。これらのパーツは、ネットワーク上を単独で移動し、受信側携帯電話によって組み立てられます。再試行と接続性の問題を処理するために、Adobe Campaign はこれらのパーツを逆順に送信し、メッセージの最初の部分（最後の送信）でのみ SR を要求します。携帯電話は最初の部分を受け取ったときにのみメッセージを表示するので、他の部分の再試行は携帯電話で重複を生成しません。
 
@@ -240,15 +240,15 @@ Adobe Campaign Classic は、SR と MO がデータベースに挿入された�
 
 * **message_payload**：長いメッセージを単一の `SUBMIT_SM PDU` で送る方法です。プロバイダーはこれを分割する必要があります。つまり、Adobe Campaign が送信されたパーツの数を正確に把握することは不可能です。一部のプロバイダーはこのモードを必要としますが、UDH をサポートしていない場合にのみ使用することをお勧めします。
 
-プロトコルとフォーマットについて詳しくは、[SUBMIT_SM PDU](../../delivery/using/sms-protocol.md#information-pdu) の `esm_class`、`short_message`、`message_payload` の各フィールドの説明を参照してください。
+プロトコルとフォーマットについて詳しくは、[SUBMIT_SM PDU](sms-protocol.md#information-pdu) の `esm_class`、`short_message`、`message_payload` の各フィールドの説明を参照してください。
 
 ### スループットの上限とウィンドウ {#throughput-capping}
 
-ほとんどのプロバイダーでは、各 SMPP 接続にスループットの制限が必要です。これは、外部アカウント内に多数の SMS を設定することで達成できます。スループットのスロットルは接続ごとに発生します。有効なスループットの合計は、接続ごとの制限値に接続の合計数を乗じた値です。これについては、[同時接続](../../delivery/using/sms-protocol.md#connection-settings)の節で詳しく説明します。
+ほとんどのプロバイダーでは、各 SMPP 接続にスループットの制限が必要です。これは、外部アカウント内に多数の SMS を設定することで達成できます。スループットのスロットルは接続ごとに発生します。有効なスループットの合計は、接続ごとの制限値に接続の合計数を乗じた値です。これについては、[同時接続](sms-protocol.md#connection-settings)の節で詳しく説明します。
 
-最大スループットに達するには、最大送信ウィンドウを微調整する必要があります。送信ウィンドウは、`SUBMIT_SM_RESP` を待たずに送信できる `SUBMIT_SM PDU` の数です。詳しくは、[送信ウィンドウの設定](../../delivery/using/sms-protocol.md#throughput-timeouts)の節を参照してください。
+最大スループットに達するには、最大送信ウィンドウを微調整する必要があります。送信ウィンドウは、`SUBMIT_SM_RESP` を待たずに送信できる `SUBMIT_SM PDU` の数です。詳しくは、[送信ウィンドウの設定](sms-protocol.md#throughput-timeouts)の節を参照してください。
 
-### SR およびエラー管理（「付録 B」）{#sr-error-management}
+### SR およびエラー管理（「付録 B」） {#sr-error-management}
 
 SMPP プロトコルは、`RESP PDU` に標準の同期エラーを定義しますが、SR のエラーコードは定義しません。各プロバイダーは、独自のエラーコードと意味を使用します。
 
@@ -365,7 +365,7 @@ SMPP プロトコルの実装は、それぞれ多くのバリエーションを
 
 SMPP プロバイダーへの接続を許可する MTA インスタンスの数に制限を設定できます。このオプションを有効にすると、最大で使用できる MTA の数を指定できます。
 
-このオプションを使用すると、接続数をより細かく制御できます。[同時接続](../../delivery/using/sms-protocol.md#connection-settings)を参照してください。
+このオプションを使用すると、接続数をより細かく制御できます。[同時接続](sms-protocol.md#connection-settings)を参照してください。
 
 実行中の MTA の数より大きい値を設定すると、すべての MTA は通常どおりに実行されます。このオプションは制限にすぎず、追加の MTA を生成できません。
 
@@ -375,7 +375,7 @@ SMPP プロバイダーへの接続を許可する MTA インスタンスの数�
 
 #### SMSC 実装名 {#smsc-implementation-name}
 
-SMSC 実装の名前を設定します。プロバイダーの名前に設定する必要があります。このフィールドに追加する内容については、管理者または配信品質チームにお問い合わせください。このフィールドの役割は、[SR エラー管理](../../delivery/using/sms-protocol.md#sr-error-management)の節で説明しています。
+SMSC 実装の名前を設定します。プロバイダーの名前に設定する必要があります。このフィールドに追加する内容については、管理者または配信品質チームにお問い合わせください。このフィールドの役割は、[SR エラー管理](sms-protocol.md#sr-error-management)の節で説明しています。
 
 #### サーバー {#server}
 
@@ -447,7 +447,7 @@ Adobe Campaign Classic では、MT 関連のトラフィックの場合は MTA �
 
 このチェックボックスをオンにすると、テキストエンコーディングは、失敗する代わりに、おおよそのバージョンに変換を試みます。ターゲットエンコーディングで相当する文字がない場合、テキストエンコーディングは失敗します。
 
-エンコーディング処理の一般的な説明については、[エンコーディングの具体的なマッピングの定義設定](../../delivery/using/sms-protocol.md#SMSC-specifics)を参照してください。
+エンコーディング処理の一般的な説明については、[エンコーディングの具体的なマッピングの定義設定](sms-protocol.md#SMSC-specifics)を参照してください。
 
 #### 受信 MO をデータベースに格納 {#incoming-mo-storing}
 
@@ -545,7 +545,7 @@ TCP 接続試行と `BIND_*_RESP` 応答の間のタイムアウト。タイム�
 
 **エンコーディングの特定のマッピングの定義**
 
-テキストエンコーディングについて詳しくは、[SMS テキストエンコーディング](../../delivery/using/sms-protocol.md#sms-text-encoding)の節を参照してください。
+テキストエンコーディングについて詳しくは、[SMS テキストエンコーディング](sms-protocol.md#sms-text-encoding)の節を参照してください。
 
 この設定を使用すると、仕様とは異なるカスタムエンコーディングマッピングを定義できます。エンコーディングのリストと `data_coding` 値を宣言できます。
 
@@ -572,7 +572,7 @@ UCS-2 は、Adobe Campaign でサポートされるすべての文字をエン�
 
 このオプションをオフにすると、長い SMS は MTA によって分割され、UDH と共に複数の `SUBMIT_SM PDU` に送信されます。メッセージは、UDH データに従って携帯電話によって再構成されます。
 
-このオプションをオンにすると、長い SMS が 1 つの SUBMIT_SM PDU に送信され、message_payload オプションフィールドにテキストが入力されます。詳しくは、[SMPP 仕様](../../delivery/using/sms-protocol.md#ACS-SMPP-connector)を参照してください。
+このオプションをオンにすると、長い SMS が 1 つの SUBMIT_SM PDU に送信され、message_payload オプションフィールドにテキストが入力されます。詳しくは、[SMPP 仕様](sms-protocol.md#ACS-SMPP-connector)を参照してください。
 
 この機能が有効になっている場合、Adobe Campaign は SMS パーツを個別にカウントできません。すべてのメッセージは、1 つのパーツで送信済みとしてカウントされます。
 
@@ -636,7 +636,7 @@ BIND PDU の address_range フィールドにそのまま送信されます。�
 
 #### SR に含まれている ID の抽出用正規表現 {#regex-extraction}
 
-SR 形式は、SMPP プロトコル仕様に厳密には適用されません。これは、仕様書の[付録 B](../../delivery/using/sms-protocol.md#sr-error-management)（167 ページ）で説明されている推奨事項にすぎません。一部の SMPP 実装者は、このフィールドの形式を変更するので、Adobe Campaign は正しいフィールドを抽出する方法が必要です。
+SR 形式は、SMPP プロトコル仕様に厳密には適用されません。これは、仕様書の[付録 B](sms-protocol.md#sr-error-management)（167 ページ）で説明されている推奨事項にすぎません。一部の SMPP 実装者は、このフィールドの形式を変更するので、Adobe Campaign は正しいフィールドを抽出する方法が必要です。
 
 デフォルトでは、`id:` の後に最大 10 文字の英数字を取り込みます。
 
@@ -650,7 +650,7 @@ SR 形式は、SMPP プロトコル仕様に厳密には適用されません。
 
 不明な stat/err フィールドの組み合わせのメッセージが検出されると、これらの正規表現が stat フィールドに適用され、SR が成功したかエラーになったかが判別されます。これらのどの範囲とも一致しない stat 値を持つ SR は無視されます。
 
-デフォルトでは、`DELIV` で始まる stat 値（例：[付録 B](../../delivery/using/sms-protocol.md#sr-error-management) 内の `DELIVRD`）は、正常に配信されたと見なされ、エラーに一致するすべての stat 値（例：`REJECTED`、`UNDELIV`）はエラーと見なされます。
+デフォルトでは、`DELIV` で始まる stat 値（例：[付録 B](sms-protocol.md#sr-error-management) 内の `DELIVRD`）は、正常に配信されたと見なされ、エラーに一致するすべての stat 値（例：`REJECTED`、`UNDELIV`）はエラーと見なされます。
 
 #### MT 確認の ID 形式 {#id-format-mt}
 
@@ -843,7 +843,7 @@ SMS プロセスは、完了行を毎分チェックし、非同期に処理し�
 
 `BIND_* PDUs` が正しく送信されていることを確認します。最も重要な点は、プロバイダーが常に成功した `BIND_*_RESP PDUs` を返すことです（command_status = 0）。
 
-`BIND_* PDU` の数が多すぎないか確認します。数が多すぎる場合は、接続が不安定であることを示している可能性があります。詳しくは、[不安定な接続の問題](../../delivery/using/sms-protocol.md#issues-unstable-connection)の節を参照してください。
+`BIND_* PDU` の数が多すぎないか確認します。数が多すぎる場合は、接続が不安定であることを示している可能性があります。詳しくは、[不安定な接続の問題](sms-protocol.md#issues-unstable-connection)の節を参照してください。
 
 #### ENQUIRE_LINK {#enquire-link-pdus}
 

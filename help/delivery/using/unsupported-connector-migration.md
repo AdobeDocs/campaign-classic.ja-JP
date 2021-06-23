@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 hidefromtoc: true
 exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 100%
@@ -43,9 +43,9 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->パラメーターの移行が可能な場合でも、**[!UICONTROL 拡張された汎用 SMPP]** コネクタを設定するには、残りのパラメーターの入力に必要な情報を提供するプロバイダーとの連携が必要です。 詳しくは、[こちらのページ](../../delivery/using/sms-protocol.md)を参照してください。
+>パラメーターの移行が可能な場合でも、**[!UICONTROL 拡張された汎用 SMPP]** コネクタを設定するには、残りのパラメーターの入力に必要な情報を提供するプロバイダーとの連携が必要です。 詳しくは、[こちらのページ](sms-protocol.md)を参照してください。
 
-まず、新しい「**[!UICONTROL 拡張された汎用 SMPP]**」外部アカウントを作成する必要があります。その後、場合によっては一部のパラメータを移行できます。 詳細な手順については、[こちらのページ](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)を参照してください。
+まず、新しい「**[!UICONTROL 拡張された汎用 SMPP]**」外部アカウントを作成する必要があります。その後、場合によっては一部のパラメータを移行できます。 詳細な手順については、[こちらのページ](sms-set-up.md#creating-an-smpp-external-account)を参照してください。
 
 新しく作成した「**[!UICONTROL 拡張された汎用 SMPP]**」外部アカウントの「**[!UICONTROL モバイル]**」タブから、以前のコネクタに応じてパラメーターを入力する必要があります。
 

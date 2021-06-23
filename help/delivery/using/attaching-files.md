@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 100%
@@ -30,7 +30,7 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 
 >[!NOTE]
 >
->多くの場合、このタイプの設定は配信テンプレートを使用して実行されます。詳しくは、[テンプレートについて](../../delivery/using/about-templates.md)を参照してください。
+>多くの場合、このタイプの設定は配信テンプレートを使用して実行されます。詳しくは、[テンプレートについて](about-templates.md)を参照してください。
 
 ## ローカルファイルの添付 {#attaching-a-local-file}
 

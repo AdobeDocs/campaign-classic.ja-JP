@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 100%
@@ -85,7 +85,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >コンテンツの生成について詳しくは、[コンテンツインスタンスの作成](../../delivery/using/using-a-content-template.md#creating-a-content-instance)を参照してください。
+   >コンテンツの生成について詳しくは、[コンテンツインスタンスの作成](using-a-content-template.md#creating-a-content-instance)を参照してください。
 
 ### 配信 {#delivery}
 
@@ -95,7 +95,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->コンテンツに基づく配信作成の例については、[コンテンツインスタンスの配信](../../delivery/using/using-a-content-template.md#delivering-a-content-instance)を参照してください。
+>コンテンツに基づく配信作成の例については、[コンテンツインスタンスの配信](using-a-content-template.md#delivering-a-content-instance)を参照してください。
 
 ### 集約 {#aggregator}
 

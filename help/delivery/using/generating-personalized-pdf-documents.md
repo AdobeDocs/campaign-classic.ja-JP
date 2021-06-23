@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Adobe Campaign では、LibreOffice または Microsoft Word ドキュメント�
 
 ドキュメントをパーソナライズする場合、E メールのパーソナライゼーションと同じ JavaScript 機能を使用します。
 
-「**[!UICONTROL メッセージの配信中にファイルのコンテンツはパーソナライズされて PDF に変換]**」オプションを有効化する必要があります。このオプションは、配信 E メールにファイルを添付する際にアクセスできます。計算済み添付ファイルについて詳しくは、[ファイルの添付](../../delivery/using/attaching-files.md)の節を参照してください。
+「**[!UICONTROL メッセージの配信中にファイルのコンテンツはパーソナライズされて PDF に変換]**」オプションを有効化する必要があります。このオプションは、配信 E メールにファイルを添付する際にアクセスできます。計算済み添付ファイルについて詳しくは、[ファイルの添付](attaching-files.md)の節を参照してください。
 
 請求書のヘッダーのパーソナライゼーションの例：
 

@@ -7,9 +7,9 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaignでは、豊富な顧客データを使用して、Eメール、モバイル、オフラインなど、顧客が実際に求める動的なキャンペーンを作成、調整、配信できます。
 sub-product: Adobe Campaign Classic
 type: Documentation
-source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
+source-git-commit: 9febe6bc68c8bc31714a74455fa70ef83920ded9
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2518'
 ht-degree: 98%
 
 ---
@@ -38,9 +38,11 @@ ht-degree: 98%
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
    + [互換性マトリックス](rn/using/compatibility-matrix.md)
    + [テクニカルノート](technotes/technote.md)
+   + [Adobe Analyticsコネクタに関するFAQ](technotes/aa-connector-migration.md)
    + [iOS 証明書の更新](technotes/ios-certificate-update.md)
    + [Campaign 設定の更新](technotes/acc-config-updates.md)
    + [トラッキング対象 URL の更新](technotes/tracked-urls.md)
+   + [IMSの更新](technotes/ims-updates.md)
 + はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic の概要](platform/using/about-adobe-campaign-classic.md)

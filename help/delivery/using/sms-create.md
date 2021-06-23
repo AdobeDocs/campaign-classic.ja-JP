@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
@@ -21,14 +21,14 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->配信の作成に関するグローバルな概念については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)で説明しています。
+>配信の作成に関するグローバルな概念については、[この節](steps-about-delivery-creation-steps.md)で説明しています。
 
 1. 新しい配信を作成します（例えば、配信ダッシュボードから）。
 1. 先ほど作成した配信テンプレート「**モバイルに送信済み（SMPP）**」を選択します。詳しくは、[配信テンプレートの変更](sms-set-up.md#changing-the-delivery-template)の節を参照してください。
 
    ![](assets/s_user_mobile_wizard.png)
 
-1. ラベル、コードおよび説明を設定して配信を識別します。詳しくは、[この節](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery)を参照してください。
+1. ラベル、コードおよび説明を設定して配信を識別します。詳しくは、[この節](steps-create-and-identify-the-delivery.md#identifying-the-delivery)を参照してください。
 1. 「**[!UICONTROL 続行]**」をクリックすると、入力した情報が確定され、メッセージ設定ウィンドウが表示されます。
 
 ## SMS コンテンツの定義 {#defining-the-sms-content}
@@ -39,7 +39,7 @@ SMS のコンテンツを作成するには、次の手順に従います。
 
    ![](assets/s_ncs_user_wizard_sms01_138.png)
 
-   パーソナライゼーションフィールドの使用方法について詳しくは、[パーソナライゼーションについて](../../delivery/using/about-personalization.md)の節で説明しています。
+   パーソナライゼーションフィールドの使用方法について詳しくは、[パーソナライゼーションについて](about-personalization.md)の節で説明しています。
 
 1. ページ下部の「**[!UICONTROL プレビュー]**」をクリックすると、メッセージにパーソナライゼーションを含めたレンダリング結果を表示して確認できます。プレビューを起動するには、ツールバーの&#x200B;**[!UICONTROL パーソナライゼーションをテスト]**&#x200B;ボタンで受信者を選択します。定義済みターゲットの中から受信者を選択することも、別の受信者を指定することもできます。
 
@@ -65,8 +65,8 @@ SMS のコンテンツを作成するには、次の手順に従います。
 
 ## ターゲット母集団の選択 {#selecting-the-target-population}
 
-配信のターゲット母集団を選択する際の詳細なプロセスについては、[この節](../../delivery/using/steps-defining-the-target-population.md)を参照してください。
+配信のターゲット母集団を選択する際の詳細なプロセスについては、[この節](steps-defining-the-target-population.md)を参照してください。
 
-パーソナライゼーションフィールドの使用について詳しくは、[この節](../../delivery/using/about-personalization.md)を参照してください。
+パーソナライゼーションフィールドの使用について詳しくは、[この節](about-personalization.md)を参照してください。
 
-シードリストの追加については、[このページ](../../delivery/using/about-seed-addresses.md)を参照してください。
+シードリストの追加については、[このページ](about-seed-addresses.md)を参照してください。

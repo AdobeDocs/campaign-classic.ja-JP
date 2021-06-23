@@ -6,10 +6,10 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '523'
-ht-degree: 100%
+source-git-commit: 9703e9d5cf0dba91d3f38d265756bdae69267c28
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <table>
 <tbody>
 <tr>
-<td>Java Development Kit (JDK)</td>
+<td>Java Development Kit（JDK）</td>
 <td>
 <p>8</p>
 <p>このアプリケーションは、Oracle が開発した Java Development Kit（JDK）および OpenJDK に対して承認されています。</p>
@@ -139,7 +139,7 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016</p>
+<p>2016年</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
 <p>警告：Linux で Campaign サーバーを実行している場合、Microsoft SQL Server はプライマリデータベースとしてサポートされません。</p>
@@ -176,11 +176,6 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <p>API バージョン 15</p>
 </td>
 </tr>
-<tr><td>Oracle オンデマンド API</td>
-<td>
-<p>Web サービス v1.0 API</p>
-</td>
-</tr>
 <tr>
 <td>Microsoft Dynamics</td>
 <td>
@@ -192,7 +187,7 @@ Adobe Campaign Classic は、このページに記載されているすべての
 </tbody>
 </table>
 
-## Federated Data Access (FDA){#FederatedDataAccessFDA-gs}
+## Federated Data Access（FDA）{#FederatedDataAccessFDA-gs}
 
 <table>
 <tbody>
@@ -219,10 +214,10 @@ Adobe Campaign Classic は、このページに記載されているすべての
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019</p>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
+<p>2019年</p>
+<p>2017年</p>
+<p>2016年</p>
+<p>2014年</p>
 <p>2012 SP1 および SP2</p>
 </td>
 </tr>
@@ -271,7 +266,7 @@ Adobe Campaign Classic は、このページに記載されているすべての
 
 ## クライアントコンソール {#ClientConsoleoperatingsystems}
 
-:warning: Campaign クライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。
+:warning: Campaignクライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。
 
 ### オペレーティングシステム
 
@@ -280,8 +275,8 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016</p>
-<p>2012</p>
+<p>2016年</p>
+<p>2012年</p>
 </td>
 </tr>
 <tr>

@@ -6,20 +6,20 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 0e0912c68d132919eeac9b91b93960e70011153e
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1217'
 ht-degree: 3%
 
 ---
 
 # RDBMS 固有の推奨事項{#rdbms-specific-recommendations}
 
-メンテナンス計画の設定に役立つように、この節では、Adobe Campaignがサポートする様々なRDBMSエンジンに適した推奨事項とベストプラクティスを示します。 ただし、これらは単なる推奨事項です。 内部の手順や制約に従って、ニーズに合わせて変更を加える必要があります。 データベース管理者は、これらのプランを作成し、実行するレスポンスを持ちます。
+メンテナンス計画の設定に役立つように、この節では、Adobe Campaignがサポートする様々なRDBMSエンジンに適した推奨事項とベストプラクティスを示します。 ただし、これらは単なる推奨事項です。 内部の手順や制約に従って、ニーズに合わせて変更を加える必要があります。 データベース管理者は、これらのプランを作成して実行する責任を負います。
 
 ## PostgreSQL {#postgresql}
 
-### 大きなテーブルを検出しています{#detecting-large-tables}
+### 大きなテーブルの検出 {#detecting-large-tables}
 
 1. データベースに次のビューを追加できます。
 
@@ -36,73 +36,132 @@ ht-degree: 3%
     ORDER BY 3 DESC, 1, 2 DESC;
    ```
 
-1. 次のコマンドを実行すると、大きなテーブルとインデックスを指定できます。
+1. このクエリを実行して、大きなテーブルとインデックスを見つけることができます。
 
    ```
-   select * from uvSpace;
+   SELECT * FROM uvSpace;
    ```
 
-### シンプルなメンテナンス{#simple-maintenance}
+   また、このクエリを実行して、例えば、すべてのインデックス・サイズを一括して表示することもできます。
 
-PostgreSQLでは、**真空フル**&#x200B;と&#x200B;**reindex**&#x200B;が一般的に使用できます。
+   ```
+   SELECT
+      tablename,
+      sum(size_mbytes) AS "sizeMB_all",
+      (
+         SELECT sum(size_mbytes)
+         FROM uvspace
+         AS uv2
+         WHERE
+            INDEXNAME IS NULL
+            AND uv1.tablename = uv2.tablename
+      ) AS "sizeMB_data",
+      (
+         SELECT sum(size_mbytes)
+         FROM uvspace 
+         AS uv2 
+         WHERE
+            INDEXNAME IS NOT NULL
+            AND uv1.tablename = uv2.tablename
+      ) AS "sizeMB_index",
+      (
+         SELECT ROW_COUNT
+         FROM uvspace
+         AS uv2
+         WHERE
+            INDEXNAME IS NULL
+            AND uv1.tablename = uv2.tablename
+      ) AS ROWS FROM uvspace AS uv1
+      GROUP BY tablename
+      ORDER BY 2 DESC
+   ```
 
-次に、次の2つのコマンドを使用して定期的に実行するSQLメンテナンス計画の典型的な例を示します。
+### シンプルなメンテナンス {#simple-maintenance}
+
+PostgreSQLでは、次の一般的なキーワードを使用できます。
+
+* 真空（完全、分析、詳細）
+* REINDEX
+
+VACUUM操作を実行し、分析し、時間を指定するには、次の構文を使用します。
 
 ```
-vacuum full nmsdelivery;
- reindex table nmsdelivery;
- 
- vacuum full nmsdeliverystat;
- reindex table nmsdeliverystat;
- 
- vacuum full xtkworkflow;
- reindex table xtkworkflow;
- 
- vacuum full xtkworkflowevent;
- reindex table xtkworkflowevent;
- 
- vacuum full xtkworkflowjob;
- reindex table xtkworkflowjob;
- 
- vacuum full xtkworkflowlog;
- reindex table xtkworkflowlog;
- 
- vacuum full xtkworkflowtask;
- reindex table xtkworkflowtask;
- 
- vacuum full xtkjoblog;
- reindex table xtkjoblog;
- 
- vacuum full xtkjob;
- reindex table xtkjob;
- 
- vacuum full nmsaddress;
- reindex table nmsaddress;
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) <table>;
+```
 
- vacuum full nmsdeliverypart;
- reindex table nmsdeliverypart;
- 
- vacuum full nmsmirrorpageinfo;
- reindex table nmsmirrorpageinfo;
+ANALYZE文は省略しないことを強くお勧めします。 それ以外の場合、バキュームされたテーブルには統計情報が残りません。 理由は、新しいテーブルが作成され、古いテーブルが削除されるからです。 その結果、テーブルのオブジェクトID(OID)は変更されますが、統計は計算されません。 その結果、パフォーマンスの問題が直ちに発生します。
+
+定期的に実行されるSQLメンテナンス計画の典型的な例を次に示します。
+
+```
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsdelivery;
+REINDEX TABLE nmsdelivery;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsdeliverystat;
+REINDEX TABLE nmsdeliverystat;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflow;
+REINDEX TABLE xtkworkflow;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowevent;
+REINDEX TABLE xtkworkflowevent;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowjob;
+REINDEX TABLE xtkworkflowjob;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowlog;
+REINDEX TABLE xtkworkflowlog;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowtask;
+REINDEX TABLE xtkworkflowtask;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkjoblog;
+REINDEX TABLE xtkjoblog;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) xtkjob;
+REINDEX TABLE xtkjob;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsaddress;
+REINDEX TABLE nmsaddress;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsdeliverypart;
+REINDEX TABLE nmsdeliverypart;
+
+\timing on
+VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
+REINDEX TABLE nmsmirrorpageinfo;
 ```
 
 >[!NOTE]
 >
->* Adobeでは、以下の小さなテーブルから始めることをお勧めします。この方法は、大きなテーブル（失敗のリスクが最も高い）でプロセスが失敗した場合、メンテナンスの少なくとも一部が完了している場合に使用します。
->* Adobeは、大幅な更新が必要な、データモデル固有のテーブルを追加するコマンドを再実行します。 これは、日次データレプリケーションフローが大きい場合、**NmsRecipient**&#x200B;に該当します。
->* **vacuum**&#x200B;および&#x200B;**re-index**&#x200B;コマンドはテーブルをロックし、メンテナンスの実行中に一部のプロセスを一時停止します。
->* 非常に大きなテーブル（通常は5 Gbを超える）の場合、**真空フル**&#x200B;は非常に非効率になり、非常に長い時間がかかる可能性があります。 Adobeは、 **YyyNmsBroadLogXxx**&#x200B;テーブルには使用しないことをお勧めします。
->* このメンテナンス操作は、**[!UICONTROL SQL]**&#x200B;アクティビティを使用して、Adobe Campaignワークフローによって実装できます（詳しくは、[この節](../../workflow/using/architecture.md)を参照）。 バックアップウィンドウに衝突しない低アクティビティ時間のメンテナンスをスケジュールしてください。
+>* Adobeでは、以下の小さなテーブルから始めることをお勧めします。この方法では、（失敗のリスクが最も高い）大きなテーブルでプロセスが失敗した場合、メンテナンスの少なくとも一部が完了しています。
+>* Adobeでは、重要な更新を受ける可能性のある、データモデルに固有のテーブルを追加することをお勧めします。 これは、日次データレプリケーションフローが大きい場合、**NmsRecipient**&#x200B;に該当します。
+>* VACUUM文とREINDEX文はテーブルをロックし、メンテナンスの実行中に一部のプロセスを一時停止します。
+>* 非常に大きなテーブル（通常は5 Gbを超える）では、VACUUM FULL文は非常に非効率になり、非常に長い時間がかかる場合があります。 Adobeは、 **YyyNmsBroadLogXxx**&#x200B;テーブルには使用しないことをお勧めします。
+>* このメンテナンス操作は、Adobe Campaignワークフローで、**[!UICONTROL SQL]**&#x200B;アクティビティを使用して実装できます。 詳しくは、[この節](../../workflow/using/architecture.md)を参照してください。バックアップウィンドウに衝突しない低アクティビティ時間のメンテナンスをスケジュールしてください。
+
 >
 
 
 
-### データベースの再構築{#rebuilding-a-database}
+### データベースの再構築 {#rebuilding-a-database}
 
-**真空フル**&#x200B;はテーブルをロックするので、PostgreSQLはオンラインテーブルの再構築を簡単に実行する方法を提供しません。 つまり、テーブルを使用しない場合はメンテナンスを実行する必要があります。 次のいずれかが可能です。
+VACUUM FULL文はテーブルをロックするので、PostgreSQLはオンラインテーブルの再構築を簡単に実行する方法を提供しません。 つまり、テーブルを使用しない場合はメンテナンスを実行する必要があります。 次のいずれかが可能です。
 
 * Adobe Campaignプラットフォームが停止したら、メンテナンスを実行します。
-* 再構築中のテーブルに書き込む可能性の高い様々なAdobe Campaignサブサービスを停止します（**nlserver stop wfserver instance_name**&#x200B;は、ワークフロープロセスを停止します）。
+* 再構築中のテーブルに書き込む可能性が高い様々なAdobe Campaignサブサービスを停止します（**nlserver stop wfserver instance_name**&#x200B;は、ワークフロープロセスを停止します）。
 
 必要なDDLを生成する特定の関数を使用した表のデフラグの例を次に示します。 次のSQLでは、2つの新しい関数を作成できます。**GenRebuildTablePart1**&#x200B;と&#x200B;**GenRebuildTablePart2**。これは、テーブルを再作成するために必要なDDLを生成するために使用できます。
 
@@ -369,15 +428,15 @@ function sqlGetMemo(strSql)
 1. **[!UICONTROL 管理/メンテナンスプラン]**&#x200B;フォルダーに移動し、右クリックして「**[!UICONTROL メンテナンスプランウィザード]**」を選択します。
 1. 最初のページが表示されたら、「**[!UICONTROL 次へ]**」をクリックします。
 1. 作成するメンテナンスプランのタイプ（タスクごとに個別のスケジュールを選択するか、プラン全体で単一のスケジュールを選択する）を選択し、「**[!UICONTROL 変更…」]**&#x200B;ボタン。
-1. **[!UICONTROL ジョブスケジュールのプロパティ]**&#x200B;ウィンドウで、目的の実行設定を選択し、「 **[!UICONTROL OK]** 」をクリックしてから、「 **[!UICONTROL 次へ]** 」をクリックします。
-1. 実行するメンテナンスタスクを選択し、「 **[!UICONTROL 次へ]** 」をクリックします。
+1. **[!UICONTROL ジョブスケジュールのプロパティ]**&#x200B;ウィンドウで、目的の実行設定を選択し、「**[!UICONTROL OK]**」をクリックしてから、「**[!UICONTROL 次へ]**」をクリックします。
+1. 実行するメンテナンスタスクを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    >[!NOTE]
    >
    >少なくとも以下に示すメンテナンスタスクを実行することをお勧めします。 統計の更新タスクは、データベースクリーンアップワークフローによって既に実行されている場合でも、選択できます。
 
 1. ドロップダウンリストで、**[!UICONTROL Database Check Integrity]**&#x200B;タスクを実行するデータベースを選択します。
-1. データベースを選択して「 **[!UICONTROL OK]** 」をクリックし、「 **[!UICONTROL 次へ]** 」をクリックします。
+1. データベースを選択し、「**[!UICONTROL OK]**」をクリックし、「**[!UICONTROL 次へ]**」をクリックします。
 1. データベースに割り当てる最大サイズを設定し、「**[!UICONTROL 次へ]**」をクリックします。
 
    >[!NOTE]
@@ -400,14 +459,14 @@ function sqlGetMemo(strSql)
 
       >[!NOTE]
       >
-      >再構築インデックス・プロセスは、プロセッサの使用に関してはより制約が大きく、データベース・リソースをロックします。 再構築中にインデックスを使用可能にする場合は、「**[!UICONTROL インデックスを再インデックス中にオンラインに維持]** 」オプションをチェックします。
+      >再構築インデックス・プロセスは、プロセッサの使用に関してはより制約が大きく、データベース・リソースをロックします。 再構築中にインデックスを使用できるようにするには、「**[!UICONTROL インデックスを再インデックス中にオンラインに維持]** 」オプションを選択します。
 
-1. アクティビティレポートに表示するオプションを選択し、「 **[!UICONTROL 次へ]** 」をクリックします。
-1. メンテナンスプラン用に設定されたタスクのリストを確認し、「 **[!UICONTROL 完了]** 」をクリックします。
+1. アクティビティレポートに表示するオプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
+1. メンテナンスプランに設定されているタスクのリストを確認し、「**[!UICONTROL 完了]**」をクリックします。
 
    メンテナンス計画の概要と、様々なステップのステータスが表示されます。
 
-1. メンテナンス計画が完了したら、「 ****&#x200B;を閉じる」をクリックします。
+1. メンテナンス計画が完了したら、「**[!UICONTROL 閉じる]**」をクリックします。
 1. Microsoft SQL Serverエクスプローラーで、**[!UICONTROL 管理/メンテナンスプラン]**&#x200B;フォルダーをダブルクリックします。
 1. Adobe Campaignメンテナンスプランを選択します。様々な手順について詳しくは、ワークフローを参照してください。
 
@@ -429,4 +488,4 @@ function sqlGetMemo(strSql)
 
 このオプションを「tempdb.dbo」に設定すると、作業用テーブルがMicrosoft SQL Serverのデフォルトの一時データベースに作成されます。 データベース管理者は、tempdbデータベースへの書き込みアクセスを許可する必要があります。
 
-このオプションを設定すると、Adobe Campaignで設定されているすべてのMicrosoft SQL Serverデータベース（メインデータベースおよび外部アカウント）でこのオプションが使用されます。 2つの外部アカウントが同じサーバーを共有する場合は、競合が発生する可能性があります（tempdbは一意になります）。 同様に、2つのCampaignインスタンスが同じMSSQLサーバーを使用する場合、同じtempdbを使用すると競合が発生する可能性があります。
+このオプションを設定すると、Adobe Campaignで設定されているすべてのMicrosoft SQL Serverデータベース（メインデータベースおよび外部アカウント）でこのオプションが使用されます。 2つの外部アカウントが同じサーバーを共有する場合は、競合が発生する可能性があります（tempdbは一意です）。 同様に、2つのCampaignインスタンスが同じMSSQLサーバーを使用する場合、同じtempdbを使用すると競合が発生する可能性があります。

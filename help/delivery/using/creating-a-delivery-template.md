@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_campaign_save_as_scenario_a.png)
 
-設定モードについて詳しくは、[テンプレートと配信とのリンク](../../delivery/using/creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery)を参照してください。
+設定モードについて詳しくは、[テンプレートと配信とのリンク](creating-a-delivery-from-a-template.md#linking-the-template-to-a-delivery)を参照してください。
 
 ## 新しいテンプレートの作成 {#creating-a-new-template}
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 >
 >設定エラーを防ぐために、新しいテンプレートを作成するのではなく、ネイティブテンプレートをコピーしてプロパティを変更することをお勧めします。
 
-## チュートリアルビデオ {#delivery-template-video}
+## チュートリアル動画 {#delivery-template-video}
 
 ### 配信テンプレートの設定方法
 

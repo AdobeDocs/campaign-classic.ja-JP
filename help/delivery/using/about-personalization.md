@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
@@ -17,10 +17,10 @@ ht-degree: 100%
 
 Adobe Campaign で配信されるメッセージは、コンテンツや外観をいくつかの方法でパーソナライズできます。さらに、受信者のプロファイルから取得した条件に基づいて、それらの方法を組み合わせることもできます。E メール配信の場合は、配信の要素やパーソナライゼーション条件を、メッセージの「**[!UICONTROL ソース]**」タブに JavaScript を記述して直接定義できます。Adobe Campaign には、全体として次のようなパーソナライゼーション機能が備わっています。
 
-* メッセージ形式のパーソナライズ：[メッセージコンテンツ](../../delivery/using/defining-the-email-content.md#message-content)を参照してください。
-* パーソナライゼーションフィールドの動的な挿入：[パーソナライゼーションフィールド](../../delivery/using/personalization-fields.md)を参照してください。
-* 定義済みパーソナライゼーションブロックの挿入：[パーソナライゼーションブロック](../../delivery/using/personalization-blocks.md)を参照してください。
-* 条件付きコンテンツの作成：[条件付きコンテンツ](../../delivery/using/conditional-content.md)の節を参照してください。
+* メッセージ形式のパーソナライズ：[メッセージコンテンツ](defining-the-email-content.md#message-content)を参照してください。
+* パーソナライゼーションフィールドの動的な挿入：[パーソナライゼーションフィールド](personalization-fields.md)を参照してください。
+* 定義済みパーソナライゼーションブロックの挿入：[パーソナライゼーションブロック](personalization-blocks.md)を参照してください。
+* 条件付きコンテンツの作成：[条件付きコンテンツ](conditional-content.md)の節を参照してください。
 
 >[!CAUTION]
 >

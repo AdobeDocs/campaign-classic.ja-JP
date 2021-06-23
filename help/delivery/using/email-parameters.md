@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 この節では、E メール配信に固有のオプションとパラメーターについて説明します。
 
-## BCC で E メールを送信{#email-bcc}
+## BCC でメールを送信 {#email-bcc}
 
 Adobe Campaign では、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存することができます。
 
@@ -71,13 +71,13 @@ E メール配信テンプレートの「BCC で E メールを送信」を有�
 
 >[!NOTE]
 >
->E メールの内容の定義について詳しくは、[この節](../../delivery/using/defining-the-email-content.md)を参照してください。
+>E メールの内容の定義について詳しくは、[この節](defining-the-email-content.md)を参照してください。
 
 ## ミラーページの生成 {#generating-mirror-page}
 
 ミラーページは、web ブラウザーからオンラインアクセス可能な HTML ページです。コンテンツは E メールと変わりません。
 
-デフォルトでは、メールコンテンツ内にリンクが挿入されているとミラーページが生成されます。パーソナライゼーションブロックの挿入について詳しくは、[パーソナライゼーションブロック](../../delivery/using/personalization-blocks.md)を参照してください。
+デフォルトでは、メールコンテンツ内にリンクが挿入されているとミラーページが生成されます。パーソナライゼーションブロックの挿入について詳しくは、[パーソナライゼーションブロック](personalization-blocks.md)を参照してください。
 
 配信プロパティの「**[!UICONTROL 有効性]**」タブにある「**[!UICONTROL モード]**」フィールドを使用すると、このページの生成モードを変更できます。
 
@@ -117,7 +117,7 @@ E メール配信テンプレートの「BCC で E メールを送信」を有�
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab.png)
 
-バウンスメールの管理について詳しくは、[この節](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management)を参照してください。
+バウンスメールの管理について詳しくは、[この節](understanding-delivery-failures.md#bounce-mail-management)を参照してください。
 
 ## SMTP ヘッダーの追加 {#adding-smtp-headers}
 

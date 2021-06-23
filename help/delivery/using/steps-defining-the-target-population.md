@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1746'
 ht-degree: 100%
@@ -19,14 +19,14 @@ ht-degree: 100%
 
 配信ごとに、次の数種類のターゲット母集団を定義できます。
 
-* **メインオーディエンス**：メッセージを受信するプロファイル。[詳細情報](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)
-* **配達確認**：検証サイクルに関与する、配達確認メッセージの受信者。[詳細情報](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)
-* **シードアドレス**：配信ターゲットには含まれないが、配信を受け取る受信者（マーケティングキャンペーンのコンテキストでのみ）。[詳細情報](../../delivery/using/about-seed-addresses.md)
+* **メインオーディエンス**：メッセージを受信するプロファイル。[詳細情報](steps-defining-the-target-population.md#selecting-the-main-target)
+* **配達確認**：検証サイクルに関与する、配達確認メッセージの受信者。[詳細情報](steps-defining-the-target-population.md#defining-a-specific-proof-target)
+* **シードアドレス**：配信ターゲットには含まれないが、配信を受け取る受信者（マーケティングキャンペーンのコンテキストでのみ）。[詳細情報](about-seed-addresses.md)
 * **コントロール母集団**：配信を受け取らない母集団。行動とキャンペーンの影響の追跡に使用されます（マーケティングキャンペーンのコンテキストでのみ）。[詳細情報](../../campaign/using/marketing-campaign-target.md#defining-a-control-group)。
 
 ## 配信のメイン受信者の選択 {#selecting-the-main-target}
 
-ほとんどの場合、メインターゲットは Adobe Campaign データベースから抽出されます（デフォルトモード）。ただし、受信者は、外部ファイルに保存することもできます。詳しくは、[この節](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients)を参照してください。
+ほとんどの場合、メインターゲットは Adobe Campaign データベースから抽出されます（デフォルトモード）。ただし、受信者は、外部ファイルに保存することもできます。詳しくは、[この節](steps-defining-the-target-population.md#selecting-external-recipients)を参照してください。
 
 配信の受信者を選択するには、次の手順に従います。
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL ターゲットマッピング]**&#x200B;ドロップダウンリストでターゲットマッピングを選択します。Adobe Campaign のデフォルトターゲットマッピングは&#x200B;**[!UICONTROL 受信者]**&#x200B;で、**nms:recipient** スキーマに基づきます。
 
-   他のターゲットマッピングも使用でき、一部のターゲットマッピングは特定の設定に関連付けることができます。ターゲットマッピングについて詳しくは、[ターゲットマッピングの選択](../../delivery/using/selecting-a-target-mapping.md)を参照してください。
+   他のターゲットマッピングも使用でき、一部のターゲットマッピングは特定の設定に関連付けることができます。ターゲットマッピングについて詳しくは、[ターゲットマッピングの選択](selecting-a-target-mapping.md)を参照してください。
 
 1. 「**[!UICONTROL 追加]**」ボタンをクリックし、制限フィルターを定義します。
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. デフォルトでは、受信者はデータベースにインポートされます。「**[!UICONTROL ターゲットマッピング]**」を選択する必要があります。ターゲットマッピングについて詳しくは、[ターゲットマッピングの選択](../../delivery/using/selecting-a-target-mapping.md)を参照してください。
+1. デフォルトでは、受信者はデータベースにインポートされます。「**[!UICONTROL ターゲットマッピング]**」を選択する必要があります。ターゲットマッピングについて詳しくは、[ターゲットマッピングの選択](selecting-a-target-mapping.md)を参照してください。
 
    「**[!UICONTROL 受信者をデータベースにインポートしない]**」を選択することもできます。
 
@@ -150,7 +150,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >強制隔離管理について詳しくは、[強制隔離管理の理解](../../delivery/using/understanding-quarantine-management.md)を参照してください。
+   >強制隔離管理について詳しくは、[強制隔離管理の理解](understanding-quarantine-management.md)を参照してください。
 
 * **[!UICONTROL 配信を制限]**：メッセージ数の上限を設定します。送信するメッセージの最大数を指定し、配信件数を限定します。指定されたメッセージの最大数よりもターゲットの規模が大きい場合は、ターゲットの中から送信先がランダムに選択されます。
 
@@ -181,11 +181,11 @@ ht-degree: 100%
 
 配達確認ターゲットを選択する場合は、「**[!UICONTROL 配達確認の特定ターゲットの定義]**」オプションを使用して、データベースに格納されたプロファイルの中から特定の配達確認受信者を選択します。
 
-このオプションを選択し、メインターゲットを定義する場合と同じように、「**[!UICONTROL 追加]**」ボタンをクリックして受信者を選択します。[メインターゲットの選択](../../delivery/using/steps-defining-the-target-population.md#selecting-the-main-target)を参照してください。
+このオプションを選択し、メインターゲットを定義する場合と同じように、「**[!UICONTROL 追加]**」ボタンをクリックして受信者を選択します。[メインターゲットの選択](steps-defining-the-target-population.md#selecting-the-main-target)を参照してください。
 
 ![](assets/s_ncs_user_wizard_email01_143.png)
 
-配達確認の送信について詳しくは、[この節](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)を参照してください。
+配達確認の送信について詳しくは、[この節](steps-validating-the-delivery.md#sending-a-proof)を参照してください。
 
 ### 配達確認のアドレス置換の使用 {#using-address-substitution-in-proof}
 
@@ -219,15 +219,15 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->シードアドレスについては、[シードアドレスについて](../../delivery/using/about-seed-addresses.md)で説明します。
+>シードアドレスについては、[シードアドレスについて](about-seed-addresses.md)で説明します。
 
 「**[!UICONTROL 特定のターゲットとシードアドレス]**」オプションを使用すると、特定の配達確認ターゲットの定義とシードアドレスの使用を組み合わせることができます。関連する設定は、異なる 2 つのサブタブで定義します。
 
 関連トピック：
 
 * [配達確認のターゲットの選択](#selecting-the-proof-target)
-* [シードアドレスについて](../../delivery/using/about-seed-addresses.md)
-* [使用例：条件によるシードアドレスの選択](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+* [シードアドレスについて](about-seed-addresses.md)
+* [使用例：条件によるシードアドレスの選択](use-case--selecting-seed-addresses-on-criteria.md)
 
 ## チュートリアルビデオ {#seeds-and-proofs-video}
 

@@ -6,22 +6,22 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
 
 ---
 
-# 配信パフォーマンスのベストプラクティス{#delivery-performances}
+# 配信パフォーマンスのベストプラクティス {#delivery-performances}
 
 配信の問題が発生した場合の配信パフォーマンスを確保すると共に、パフォーマンスの確認に以下のガイドラインに従うことをお勧めします。
 
 **関連トピック：**
 
-* [配信ダッシュボード](../../delivery/using/delivery-dashboard.md)
-* [配信のトラブルシューティング](../../delivery/using/delivery-troubleshooting.md)
-* [配信品質について](../../delivery/using/about-deliverability.md)
+* [配信ダッシュボード](delivery-dashboard.md)
+* [配信のトラブルシューティング](delivery-troubleshooting.md)
+* [配信品質について](about-deliverability.md)
 
 ## パフォーマンスのベストプラクティス {#best-practices-performance}
 
@@ -45,12 +45,12 @@ ht-degree: 100%
 >
 >ISP は、操作がない状態が続くアドレスを無効にします。この新しいステータスについての通知を送信者に送信するために、バウンスメッセージが送信されます。
 
-## パフォーマンス問題のチェックリスト{#performance-issues}
+## パフォーマンス問題のチェックリスト {#performance-issues}
 
 配信のパフォーマンスが悪い場合は、次の項目を確認できます。
 
 * **配信のサイズ**：サイズの大きい配信は、完了までに時間がかかることがあります。MTA の子はデフォルトのバッチサイズを処理するように設定されます。この設定はほとんどのインスタンスで機能しますが、配信が頻繁に遅くなる場合はチェックする必要があります。
 * **配信のターゲット**：配信パフォーマンスはソフトバウンスエラーの影響を受けることがあり、再試行設定に従って処理されます。エラーの数が多いと、より多くの再試行が必要になります。
-* **プラットフォーム全体の負荷**：大きな配信を複数送信すると、プラットフォーム全体に影響することがあります。IP レピュテーションと配信品質の問題もチェックできます。詳しくは、[この節](../../delivery/using/about-deliverability.md)と[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
+* **プラットフォーム全体の負荷**：大きな配信を複数送信すると、プラットフォーム全体に影響することがあります。IP レピュテーションと配信品質の問題もチェックできます。詳しくは、[この節](about-deliverability.md)と[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
 
 プラットフォームとデータベースのメンテナンスも、配信の送信パフォーマンスに影響することがあります。詳しくは、[このページ](../../production/using/database-performances.md)を参照してください。

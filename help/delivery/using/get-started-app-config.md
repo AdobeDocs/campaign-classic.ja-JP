@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 96%
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 Adobe Campaign でプッシュ通知を送信するには、次の操作が必要です。
 
-* Neotrips モバイルアプリケーション用に、**[!UICONTROL モバイルアプリケーション]**&#x200B;タイプの情報サービスを作成します。iOS については、[この節](../../delivery/using/configuring-the-mobile-application.md#configuring-ios-service)を参照してください。Android については、[この節](../../delivery/using/configuring-the-mobile-application-android.md#configuring-android-service)を参照してください。
+* Neotrips モバイルアプリケーション用に、**[!UICONTROL モバイルアプリケーション]**&#x200B;タイプの情報サービスを作成します。iOS については、[この節](configuring-the-mobile-application.md#configuring-ios-service)を参照してください。Android については、[この節](configuring-the-mobile-application-android.md#configuring-android-service)を参照してください。
 * このサービスに、iOS バージョンと Android バージョンのアプリケーションを追加します。
 * [iOS](create-notifications-ios.md)と[Android](create-notifications-android.md)の配信を作成します。
 
@@ -29,7 +29,7 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作が必�
 >
 >サービスの「**[!UICONTROL 購読]**」タブに移動して、サービスの購読者（モバイルデバイスにアプリケーションをインストールして、通知の受信に同意したすべてのユーザー）のリストを表示します。
 
-## パッケージ{#installing-package-ios}をインストールします。
+## パッケージのインストール {#installing-package-ios}
 
 ![](assets/do-not-localize/how-to-video.png) [モバイルアプリパッケージのインストール方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=ja#sending-messages)
 
@@ -63,6 +63,6 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作が必�
 
 この手順が完了したら、Android および iOS アプリを設定できます。これらの節を参照してください。
 
-* [iOS の設定手順](../../delivery/using/configuring-the-mobile-application.md)
+* [iOS の設定手順](configuring-the-mobile-application.md)
 
-* [Android の設定手順](../../delivery/using/configuring-the-mobile-application-android.md)
+* [Android の設定手順](configuring-the-mobile-application-android.md)

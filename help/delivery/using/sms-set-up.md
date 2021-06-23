@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1781'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 ## SMPP 外部アカウントの作成 {#creating-an-smpp-external-account}
 
 携帯電話に SMS を送信するには、まず SMPP 外部アカウントを作成する必要があります。
-SMS プロトコルと設定の詳細については、こちらの [ページ](../../delivery/using/sms-protocol.md)を参照してください。
+SMS プロトコルと設定の詳細については、こちらの [ページ](sms-protocol.md)を参照してください。
 
 これをおこなうには、以下の手順に従います。
 
@@ -42,7 +42,7 @@ SMS プロトコルと設定の詳細については、こちらの [ページ](
 
    >[!CAUTION]
    >
-   > リリース 20.2 より、従来のコネクタは廃止され、サポートされていません。**[!UICONTROL 拡張された汎用 SMPP]** コネクタの使用をお勧めします。推奨コネクタに移行する方法について詳しくは、この[ページ](../../delivery/using/unsupported-connector-migration.md)を参照してください。
+   > リリース 20.2 より、従来のコネクタは廃止され、サポートされていません。**[!UICONTROL 拡張された汎用 SMPP]** コネクタの使用をお勧めします。推奨コネクタに移行する方法について詳しくは、この[ページ](unsupported-connector-migration.md)を参照してください。
 
 1. 「**[!UICONTROL ログファイルの詳細 SMPP トレースを有効にする]**」オプションを使用すると、ログファイル内のすべての SMPP トラフィックをダンプできます。コネクタのトラブルシューティングやプロバイダー側が確認できるトラフィックとの比較をおこなうには、このオプションを有効にする必要があります。
 
@@ -80,7 +80,7 @@ SMS プロトコルと設定の詳細については、こちらの [ページ](
 
    ただし、特定のプロバイダーで「+」がプレフィックスとして必要な場合は、プロバイダーにお問い合わせください。必要に応じて、このオプションを有効にするようプロバイダーから指示があります。
 
-   「**[!UICONTROL SMPP 経由での TLS を有効化]**」チェックボックスを使用すると、SMPP トラフィックを暗号化することができます。詳しくは、この [ページ](../../delivery/using/sms-protocol.md)を参照してください。
+   「**[!UICONTROL SMPP 経由での TLS を有効化]**」チェックボックスを使用すると、SMPP トラフィックを暗号化することができます。詳しくは、この [ページ](sms-protocol.md)を参照してください。
 
 1. **[!UICONTROL 拡張された汎用 SMPP]** コネクタを設定している場合は、自動応答を設定できます。
 
@@ -344,7 +344,7 @@ Adobe Campaign では、SMS メッセージの送信時に 1 つまたは複数�
 
 ## 配信テンプレートの変更 {#changing-the-delivery-template}
 
-Adobe Campaign には、モバイルへの配信用テンプレートが用意されています。このテンプレートは&#x200B;**[!UICONTROL リソース／テンプレート／配信テンプレート]**&#x200B;ノードにあります。詳しくは、[テンプレートについて](../../delivery/using/about-templates.md)の節を参照してください。
+Adobe Campaign には、モバイルへの配信用テンプレートが用意されています。このテンプレートは&#x200B;**[!UICONTROL リソース／テンプレート／配信テンプレート]**&#x200B;ノードにあります。詳しくは、[テンプレートについて](about-templates.md)の節を参照してください。
 
 SMS チャネルでの配信の場合は、使用するチャネルコネクタへの参照を含んだテンプレートを作成する必要があります。
 

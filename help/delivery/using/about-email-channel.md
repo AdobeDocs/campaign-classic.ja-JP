@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 82%
@@ -25,10 +25,10 @@ E メールの送信を開始する前に：
 
 E メールを送信するための主な手順を以下に示します。
 
-* [E メール配信の作成](../../delivery/using/creating-an-email-delivery.md)
-* [ターゲット母集団の定義](../../delivery/using/steps-defining-the-target-population.md)
-* [E メールコンテンツの定義](../../delivery/using/defining-the-email-content.md)
-* [Eメールの送信](../../delivery/using/sending-messages.md)
-* [配信の監視](../../delivery/using/about-delivery-monitoring.md)
+* [E メール配信の作成](creating-an-email-delivery.md)
+* [ターゲット母集団の定義](steps-defining-the-target-population.md)
+* [E メールコンテンツの定義](defining-the-email-content.md)
+* [Eメールの送信](sending-messages.md)
+* [配信の監視](about-delivery-monitoring.md)
 
 以下の節では、E メールチャネルに関する情報を提供します。配信の作成方法に関する全般的な情報については、[この節](steps-about-delivery-creation-steps.md)を参照してください。

@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 100%
@@ -14,17 +14,17 @@ ht-degree: 100%
 
 # パーソナライズされたコンテンツの作成 {#build-personalized-content}
 
-メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。考えられるエラーの多くは、[パーソナライゼーション](../../delivery/using/about-personalization.md)、[フォーマット設定](../../delivery/using/defining-the-email-content.md#message-content)、[画像](../../delivery/using/defining-the-email-content.md#adding-images)に関係しています。
+メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。考えられるエラーの多くは、[パーソナライゼーション](about-personalization.md)、[フォーマット設定](defining-the-email-content.md#message-content)、[画像](defining-the-email-content.md#adding-images)に関係しています。
 
 ## パーソナライゼーションの最適化 {#optimize-personalization}
 
 配信の実行を妨げる可能性がある一般的な問題を回避し、受信者のエクスペリエンスを向上させるために、Adobe Campaign でメッセージをパーソナライズできます。
 
-Adobe Campaign データベースに保存されている受信者データや、トラッキング、ランディングページ、購読などを通じて収集した受信者データを使用できます。パーソナライゼーションの基本については、[この節](../../delivery/using/personalization-fields.md)を参照してください。
+Adobe Campaign データベースに保存されている受信者データや、トラッキング、ランディングページ、購読などを通じて収集した受信者データを使用できます。パーソナライゼーションの基本については、[この節](personalization-fields.md)を参照してください。
 
 エラーを避けるために、メッセージコンテンツが適切に設計されていることを確認します。多くのエラーはパーソナライゼーションに関係しています。
 
-**ヒント**：サードパーティベンダーが提供する外部ファイルに基づくパーソナライゼーションフィールドには、間違った外部 HTML コンテンツが含まれている場合があります。この問題を避けるには、構文、タグの使い方、使用されている文字などを確認します。例えば、Adobe Campaign のパーソナライゼーションタグは必ず &lt;%=table.field%> という形式で使用します。詳しくは、[この節](../../delivery/using/about-personalization.md)を参照してください。
+**ヒント**：サードパーティベンダーが提供する外部ファイルに基づくパーソナライゼーションフィールドには、間違った外部 HTML コンテンツが含まれている場合があります。この問題を避けるには、構文、タグの使い方、使用されている文字などを確認します。例えば、Adobe Campaign のパーソナライゼーションタグは必ず &lt;%=table.field%> という形式で使用します。詳しくは、[この節](about-personalization.md)を参照してください。
 
 パーソナライゼーションブロック内でのパラメーターの使い方が間違っていると、問題になる場合があります。例えば、JavaScript の変数は次のように使用する必要があります。
 
@@ -34,9 +34,9 @@ Adobe Campaign データベースに保存されている受信者データや�
     
     %>
 
-パーソナライゼーションブロックについて詳しくは、[この節](../../delivery/using/personalization-blocks.md)を参照してください。
+パーソナライゼーションブロックについて詳しくは、[この節](personalization-blocks.md)を参照してください。
 
-配信準備の分析を向上させるために、ワークフローでパーソナライゼーションデータを準備できます。このオプションは、パーソナライゼーションデータが外部テーブルから Federated Data Access（FDA）を介して送られる場合に特に使用します。このオプションについては、[この節](../../delivery/using/personalization-fields.md#optimizing-personalization)を参照してください。
+配信準備の分析を向上させるために、ワークフローでパーソナライゼーションデータを準備できます。このオプションは、パーソナライゼーションデータが外部テーブルから Federated Data Access（FDA）を介して送られる場合に特に使用します。このオプションについては、[この節](personalization-fields.md#optimizing-personalization)を参照してください。
 
 ## 最適化されたコンテンツの作成 {#optimize-content}
 
@@ -54,7 +54,7 @@ E メールを作成する際は、以下の一般的なベストプラクティ
 
 ### 件名
 
-メールの開封率を向上させる[件名](../../delivery/using/defining-the-email-content.md#message-content)にします。
+メールの開封率を向上させる[件名](defining-the-email-content.md#message-content)にします。
 
 * 長すぎる件名は避けます。最大 50 文字にします
 
@@ -64,15 +64,15 @@ E メールを作成する際は、以下の一般的なベストプラクティ
 
 ### ミラーページ
 
-ミラーページリンクを必ず含めます。E メールの先頭がお勧めです。[詳細情報](../../delivery/using/sending-messages.md#generating-the-mirror-page)
+ミラーページリンクを必ず含めます。E メールの先頭がお勧めです。[詳細情報](sending-messages.md#generating-the-mirror-page)
 
 ### 購読解除リンク
 
-購読解除リンクは不可欠です。購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。デフォルトでは、メッセージが分析される場合、[タイポロジルール](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)でオプトアウトリンクが含まれているかどうかがチェックされ、見つからない場合は警告が表示されます。
+購読解除リンクは不可欠です。購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。デフォルトでは、メッセージが分析される場合、[タイポロジルール](steps-validating-the-delivery.md#validation-process-with-typologies)でオプトアウトリンクが含まれているかどうかがチェックされ、見つからない場合は警告が表示されます。
 
 **ヒント**：ヒューマンエラーが発生する可能性は常にあるので、毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。例えば、配達確認を送信するときは、リンクが有効であること、フォームがオンラインであること、「今後のこの受信者への連絡は不要」フィールドが「はい」に変更されていることを確認します。
 
-オプトアウトリンクを挿入する方法については、[この節](../../delivery/using/personalization-blocks.md#personalization-blocks-example)を参照してください。
+オプトアウトリンクを挿入する方法については、[この節](personalization-blocks.md#personalization-blocks-example)を参照してください。
 
 ### E メールのサイズ
 
@@ -92,7 +92,7 @@ E メールの制限を守るには、以下を考慮してください。
 
 デフォルトでは、SMS の文字数は GSM（Global System for Mobile Communications）標準に準じています。GSM エンコードを使用する SMS メッセージは 160 文字以内に制限されています。複数の部分に分けて送信されるメッセージの場合は、SMS 1 件につき 153 文字以内です。
 
-表記変換では、SMS の特定の文字が GSM 標準に準じていない場合に、別の文字に置き換えられます。パーソナライゼーションフィールドを SMS メッセージのコンテンツに入れると、GSM エンコードに対応していない文字が含まれる場合があります。文字の表記変換を許可するには、対応する&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;の「SMPP チャネル設定」タブにあるチェックボックスをオンにします。詳しくは、[この節](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)を参照してください。
+表記変換では、SMS の特定の文字が GSM 標準に準じていない場合に、別の文字に置き換えられます。パーソナライゼーションフィールドを SMS メッセージのコンテンツに入れると、GSM エンコードに対応していない文字が含まれる場合があります。文字の表記変換を許可するには、対応する&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;の「SMPP チャネル設定」タブにあるチェックボックスをオンにします。詳しくは、[この節](sms-set-up.md#creating-an-smpp-external-account)を参照してください。
 
 **ヒント**：
 
@@ -100,13 +100,13 @@ E メールの制限を守るには、以下を考慮してください。
 
 * ただし、SMS メッセージに GSM 標準に準じていない文字が多数含まれる場合は、表記変換を有効にしてメッセージ送信のコストを抑えることができます。
 
-詳しくは、[この節](../../delivery/using/sms-set-up.md#about-character-transliteration)を参照してください。
+詳しくは、[この節](sms-set-up.md#about-character-transliteration)を参照してください。
 
 ## フォーマット {#formatting}
 
 フォーマットに関する一般的なエラーを回避するには、次の点を確認します。
 
-* 正しい&#x200B;**日付フォーマット**：Adobe Campaign では、JavaScript テンプレートと XSL スタイルシート用の日付のフォーマット関数を提供しています。[詳細情報](../../delivery/using/formatting.md#date-display)
+* 正しい&#x200B;**日付フォーマット**：Adobe Campaign では、JavaScript テンプレートと XSL スタイルシート用の日付のフォーマット関数を提供しています。[詳細情報](formatting.md#date-display)
 
 * E メールでの&#x200B;**認証文字の使用**：E メールアドレスで有効な文字のリストは「XtkEmail_Characters」オプションで定義されます。Campaign オプションにアクセスする方法については、[この節](../../installation/using/configuring-campaign-options.md)を参照してください。特殊文字を適切に処理するには、Adobe Campaign を Unicode でインストールする必要があります。
 
@@ -146,14 +146,14 @@ E メールの制限を守るには、以下を考慮してください。
 
 * インスタンスの設定でパブリックリソースの管理が有効になっているかどうかを確認できます。[詳細情報](../../installation/using/deploying-an-instance.md#managing-public-resources)
 
-* 配信ウィザードで、画像を含んだ HTML ページをインポートするか、HTML エディターの&#x200B;**[!UICONTROL 画像]**&#x200B;アイコンを使用して直接画像を挿入します。[詳細情報](../../delivery/using/defining-the-email-content.md#adding-images)
+* 配信ウィザードで、画像を含んだ HTML ページをインポートするか、HTML エディターの&#x200B;**[!UICONTROL 画像]**&#x200B;アイコンを使用して直接画像を挿入します。[詳細情報](defining-the-email-content.md#adding-images)
 
 * 画像が表示されない場合は、その画像がサーバー上で使用できることを確認してください。そのためには、配信から「ソース」タブをクリックします。使用する画像を探し、各画像の URL をコピーして web ブラウザーに貼り付けます。画像が表示されない場合は、IT 管理者か、配信コンテンツを提供しているサードパーティベンダーに問い合わせてください。
 
-## メッセージのプレビュー  {#preview-msg}
+## メッセージのプレビュー {#preview-msg}
 
 メッセージをプレビューして、パーソナライゼーションと受信者に対する配信の表示方法を確認することをお勧めします。
 
-* 配信ウィザードの「**[!UICONTROL プレビュー]**」サブタブでは、特定の受信者向けに各コンテンツをレンダリングした結果を確認できます。コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。[詳細情報](../../delivery/using/defining-the-email-content.md#message-content)
+* 配信ウィザードの「**[!UICONTROL プレビュー]**」サブタブでは、特定の受信者向けに各コンテンツをレンダリングした結果を確認できます。コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。[詳細情報](defining-the-email-content.md#message-content)
 
-* 各プレビュー中にスパム対策チェックが自動的に実行されます。「**[!UICONTROL プレビュー]**」サブタブで、[SpamAssassin](../../delivery/using/spamassassin.md) のスパムスコアを確認します。「**[!UICONTROL 詳細…]**」をクリックして、警告の詳細を確認します。その前に、SpamAssassin が Adobe Campaign アプリケーションサーバーに正しくインストールされ、設定されていることを確認してください。[詳細情報](../../installation/using/configuring-spamassassin.md)
+* 各プレビュー中にスパム対策チェックが自動的に実行されます。「**[!UICONTROL プレビュー]**」サブタブで、[SpamAssassin](spamassassin.md) のスパムスコアを確認します。「**[!UICONTROL 詳細…]**」をクリックして、警告の詳細を確認します。その前に、SpamAssassin が Adobe Campaign アプリケーションサーバーに正しくインストールされ、設定されていることを確認してください。[詳細情報](../../installation/using/configuring-spamassassin.md)

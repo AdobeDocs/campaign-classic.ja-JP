@@ -6,16 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 91%
 
 ---
 
-# iOSの通知を作成する{#create-notifications-ios}
+# iOS用通知の作成{#create-notifications-ios}
 
-この節では、iOS通知の配信に関する要素について説明します。 配信の作成に関するグローバルな概念については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)で説明しています。
+この節では、iOS通知の配信に関する要素について説明します。 配信の作成に関するグローバルな概念については、[この節](steps-about-delivery-creation-steps.md)で説明しています。
 
 新しい配信を作成して開始します。
 
@@ -37,7 +37,7 @@ iOSデバイス用にプッシュ通知を作成するには、次の手順に�
    >
    >パーソナライゼーションフィールドの使用について詳しくは、[この節](about-personalization.md)を参照してください。
    >
-   >シードリストの追加について詳しくは、[シードアドレスについて](../../delivery/using/about-seed-addresses.md)を参照してください。
+   >シードリストの追加について詳しくは、[シードアドレスについて](about-seed-addresses.md)を参照してください。
 
 1. 「**[!UICONTROL iOS モバイルアプリケーション (iPhone、iPad) の購読者]**」を選択してモバイルアプリケーション（この場合は Neotrips）に関連するサービスを選択し、アプリケーションの iOS バージョンを選択します。
 
@@ -63,7 +63,7 @@ iOSデバイス用にプッシュ通知を作成するには、次の手順に�
    >
    >「**[!UICONTROL バッジ]**」と「**[!UICONTROL アラートおよびバッジ]**」タイプの通知では、バッジの値（モバイルアプリケーションのロゴの上にある数字）を変更できます。バッジを更新するには、値として 0 を入力します。フィールドが空の場合、バッジの値は変更されません。
 
-1. **[!UICONTROL 顔文字を挿入]**&#x200B;アイコンをクリックして、プッシュ通知に顔文字を挿入します。顔文字のリストをカスタマイズするには、[この節](../../delivery/using/customizing-emoticon-list.md)を参照してください。
+1. **[!UICONTROL 顔文字を挿入]**&#x200B;アイコンをクリックして、プッシュ通知に顔文字を挿入します。顔文字のリストをカスタマイズするには、[この節](customizing-emoticon-list.md)を参照してください。
 
 1. 「**[!UICONTROL アクションボタン]**」を使用すると、アラート通知に表示されるアクションボタンのラベルを定義できます（ペイロードの **action_loc_key** フィールド）。iOS アプリケーションでローカライズ可能文字列を管理する場合は（**Localizable.strings**）、対応するキーをこのフィールドに入力します。アプリケーションでローカライズ可能テキストを管理しない場合は、アクションボタンに表示するラベルを入力します。ローカライズ可能文字列について詳しくは、[Apple のドキュメント](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1)を参照してください。
 1. 「**[!UICONTROL サウンドを再生]**」フィールドで、通知を受信したときにモバイル端末で再生されるサウンドを選択します。
@@ -92,12 +92,12 @@ iOSデバイス用にプッシュ通知を作成するには、次の手順に�
 
 メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、以下の節を参照してください。
 
-* [プッシュ通知の強制隔離](../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines)
-* [配信の監視](../../delivery/using/about-delivery-monitoring.md)
-* [配信エラーについて](../../delivery/using/understanding-delivery-failures.md)
+* [プッシュ通知の強制隔離](understanding-quarantine-management.md#push-notification-quarantines)
+* [配信の監視](about-delivery-monitoring.md)
+* [配信エラーについて](understanding-delivery-failures.md)
 
 
-## iOSのリッチ通知{#creating-ios-delivery}の作成
+## iOSのリッチ通知の作成 {#creating-ios-delivery}
 
 iOS 10 以降では、リッチ通知を生成することができます。Adobe Campaign では、変数を使用して通知を送信し、デバイスでリッチ通知を表示できます。
 

@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
 >[!NOTE]
 >
->ミラーページの生成について詳しくは、[ミラーページの生成](../../delivery/using/sending-messages.md#generating-the-mirror-page)を参照してください。
+>ミラーページの生成について詳しくは、[ミラーページの生成](sending-messages.md#generating-the-mirror-page)を参照してください。
 
 1. 新しい配信を作成するか、E メールタイプの既存の配信を開きます。
 1. 配信ウィザードで、「**[!UICONTROL 件名]**」をクリックし、メッセージの件名の編集や件名の入力をおこないます。
@@ -100,24 +100,12 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
    >[!NOTE]
    >
-   >ミラーページの生成について詳しくは、[ミラーページの生成](../../delivery/using/sending-messages.md#generating-the-mirror-page)を参照してください。
+   >ミラーページの生成について詳しくは、[ミラーページの生成](sending-messages.md#generating-the-mirror-page)を参照してください。
 
 * **[!UICONTROL ミラーページへのリンク]**：ミラーページへのリンク、「このメッセージが正しく表示されない場合は、ここをクリックしてください」を挿入します。
 * **[!UICONTROL 購読解除リンク]**：すべての配信を購読解除（ブロックリスト登録）できるリンクを挿入します。
-* **[!UICONTROL 固有名詞の書式設定関数]**：Javascript の **[!UICONTROL toSmartCase]** 関数を生成します。この関数は各単語の最初の文字を大文字に変更します。このブロックは配信のソースコードの **`<script>...</script>`** タグの間に挿入する必要があります。
-
-   次の例では、関数を使用して、要素「My header」を「My new header」で置き換え、各単語の先頭を大文字に変換しています。
-
-   ```
-   <h1 id="sample">My header</h1>
-   <script><%@ include view='toSmartCase'%>;
-   document.getElementById("sample").innerHTML = toSmartCase("My new header");
-   </script>
-   ```
-
-   ![](assets/s_ncs_user_personalized_block_uppercasefunction.png)
-
-* **[!UICONTROL 登録ページ URL]**：購読 URL を挿入します（[サービスと購読について](../../delivery/using/about-services-and-subscriptions.md)を参照）。
+* **[!UICONTROL 固有名詞の書式設定関数]**：Javascript の **[!UICONTROL toSmartCase]** 関数を生成します。この関数は各単語の最初の文字を大文字に変更します。
+* **[!UICONTROL 登録ページ URL]**：購読 URL を挿入します（[サービスと購読について](about-services-and-subscriptions.md)を参照）。
 * **[!UICONTROL 登録リンク]**：インスタンスの設定時に定義された購読リンクを挿入します。
 * **[!UICONTROL 登録リンク（リファラーを含む）]**：購読リンクを挿入し、訪問者と配信を識別できるようにします。このリンクは、インスタンスの設定時に定義されたものです。
 
@@ -126,7 +114,7 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
    >このブロックは、訪問者をターゲットとする配信でのみ使用できます。
 
 * **[!UICONTROL 登録の確認]**：購読を確認できるリンクを挿入します。
-* **[!UICONTROL ソーシャルネットワーク共有リンク]**：E メールクライアント、Facebook、Twitter および LinkedIn によってミラーページコンテンツへのリンクを受信者が共有できるボタンを挿入します（[バイラルマーケティング：友人への転送](../../delivery/using/viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)を参照）。
+* **[!UICONTROL ソーシャルネットワーク共有リンク]**：E メールクライアント、Facebook、Twitter および LinkedIn によってミラーページコンテンツへのリンクを受信者が共有できるボタンを挿入します（[バイラルマーケティング：友人への転送](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)を参照）。
 * **[!UICONTROL コンテンツ E メールのスタイル]**&#x200B;および&#x200B;**[!UICONTROL 通知スタイル]**：定義済みの HTML スタイルで E メールを書式設定するコードを生成します。これらのブロックは、配信のソースコードの **[!UICONTROL ...]** セクションにある **`<style>...</style>`** タグの間に挿入する必要があります。
 * **[!UICONTROL 単一モードのオファー承認 URL]**：インタラクションオファーを&#x200B;**[!UICONTROL 許可済み]**&#x200B;に設定できる URL を挿入します（[この節](../../interaction/using/offer-analysis-report.md)を参照）。
 

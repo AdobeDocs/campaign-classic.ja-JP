@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 メッセージを送信する前に、配信パラメーターと配信設定に矛盾がないことも確認します。
 
-## 検証が重要な理由{#validation-is-key}
+## 検証が重要な理由 {#validation-is-key}
 
 配信を送信する前に、配信を本当に届けたい受信者にメッセージが届くかどうかを確認する必要があります。そのためには、メッセージのコンテンツと配信パラメーターを検証します。
 
 この手順により、メインターゲットに配信する前に、エラーを検出して修正できます。
 
-配信を検証する手順については、[この節](../../delivery/using/steps-validating-the-delivery.md)を参照してください。
+配信を検証する手順については、[この節](steps-validating-the-delivery.md)を参照してください。
 
 ## 受信ボックスレンダリング {#inbox-and-email-rendering}
 
@@ -36,13 +36,13 @@ ht-degree: 100%
 
 * 受信ボックスレンダリング機能は、E メールキャンペーンで E メールが主要な ISP（インターネットサービスプロバイダー）および Web メールサービスのフィルターを無事通過できるかどうかを確認するために非常に重要です。このようなツールは、テスト用受信ボックスのネットワークに E メールのプリフライトコピーを送信します。これにより、メッセージがこれらのサービスでどのように表示（レンダリング）されるかを確認できます。このツールには、迅速な識別および修正に役立つレポートとコード修正オプションも含まれており、配信品質を向上させることができます。
 
-詳しくは、[この節](../../delivery/using/inbox-rendering.md)を参照してください。
+詳しくは、[この節](inbox-rendering.md)を参照してください。
 
 ## 配達確認メッセージ {#proof-messages}
 
 配達確認を送信すると、オプトアウトリンクやミラーページ、その他のリンクの確認、メッセージの検証、画像の表示の確認、エラーの検出などをおこなうことができます。また、様々なデバイス上でデザインとレンダリングを確認することもできます。
 
-詳しくは、[この節](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)を参照してください。
+詳しくは、[この節](steps-validating-the-delivery.md#sending-a-proof)を参照してください。
 
 ## 配信の A/B テストの設定 {#a-b-testing-deliveries}
 
@@ -54,7 +54,7 @@ E メール配信で使用するコンテンツがいくつかある場合は、
 
 * その中で成功率が最も高いバージョンを選び、そのバージョンを残りのターゲットに送信します
 
-詳しくは、[この節](../../delivery/using/get-started-a-b-testing.md)を参照してください。
+詳しくは、[この節](get-started-a-b-testing.md)を参照してください。
 
 ## メッセージを確実に配信する {#make-sure-your-message-is-delivered}
 
@@ -66,7 +66,7 @@ Adobe Campaign のオペレーターやグループが関与する包括的な�
 
 ### ウェーブの使用
 
-ウェーブを使用すると、送信するボリュームを徐々に増やせます。これにより、メッセージがスパムとしてマークされず、また 1 日あたりのメッセージ数を制限できます。ウェーブを使用すると、一度に大量のメッセージを送信するのではなく、配信をいくつかのバッチに分割できます。詳しくは、[この節](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)を参照してください。
+ウェーブを使用すると、送信するボリュームを徐々に増やせます。これにより、メッセージがスパムとしてマークされず、また 1 日あたりのメッセージ数を制限できます。ウェーブを使用すると、一度に大量のメッセージを送信するのではなく、配信をいくつかのバッチに分割できます。詳しくは、[この節](steps-sending-the-delivery.md#sending-using-multiple-waves)を参照してください。
 
 ### メッセージの優先順位
 

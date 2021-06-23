@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '2665'
 ht-degree: 100%
 
 ---
 
-# 配信エラーの理解{#understanding-delivery-failures}
+# 配信エラーについて{#understanding-delivery-failures}
 
 ## 配信エラーについて {#about-delivery-failures}
 
@@ -31,13 +31,13 @@ ht-degree: 100%
 
 **関連トピック：**
 
-* [配信ログと履歴](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)
-* [失敗ステータス](../../delivery/using/delivery-performances.md#failed-status)
+* [配信ログと履歴](delivery-dashboard.md#delivery-logs-and-history)
+* [失敗ステータス](delivery-performances.md#failed-status)
 * [配信エラーのタイプと理由](#delivery-failure-types-and-reasons)
 
 ## 配信エラーのタイプと理由 {#delivery-failure-types-and-reasons}
 
-メッセージエラーには次の 3 つのタイプがあります。それぞれのエラータイプによって、アドレスが強制隔離されるかどうかが決まります。詳しくは、[アドレスを強制隔離する条件](../../delivery/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)を参照してください。
+メッセージエラーには次の 3 つのタイプがあります。それぞれのエラータイプによって、アドレスが強制隔離されるかどうかが決まります。詳しくは、[アドレスを強制隔離する条件](understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)を参照してください。
 
 * **ハード**：「ハード」エラーは無効なアドレスの存在を示します。このエラーは、アドレスが無効であることを明示的に示すエラーメッセージ（例：「不明なユーザー」）を伴います。
 * **ソフト**：これは一時的なエラーか、「無効なドメイン」または「メールボックス容量超過」など、分類が不可能なエラーです。
@@ -186,11 +186,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードした場合、Campaign では配信の再試行設定が使用されなくなります。ソフトバウンスの再試行とその間隔は、メッセージの E メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
+>ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、Campaign では配信の再試行設定が使用されなくなります。ソフトバウンスの再試行とその間隔は、メッセージの E メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
 
-従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、配信期間を変更するには、配信または配信テンプレートの高度なパラメーターに移動し、対応するフィールドに目的の期間を指定します。[有効期間の定義](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)を参照してください。
+従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、配信期間を変更するには、配信または配信テンプレートの高度なパラメーターに移動し、対応するフィールドに目的の期間を指定します。[有効期間の定義](steps-sending-the-delivery.md#defining-validity-period)を参照してください。
 
-デフォルトの設定では、1 時間間隔で 5 回、その後 4 日間は 1 日に 1 回再試行されます。再試行の回数の変更は、グローバルに（アドビの技術管理者にお問い合わせください）、または配信や配信テンプレートごとに（[再試行の設定](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)を参照）おこなうことができます。
+デフォルトの設定では、1 時間間隔で 5 回、その後 4 日間は 1 日に 1 回再試行されます。再試行の回数の変更は、グローバルに（アドビの技術管理者にお問い合わせください）、または配信や配信テンプレートごとに（[再試行の設定](steps-sending-the-delivery.md#configuring-retries)を参照）おこなうことができます。
 
 ## 同期エラーと非同期エラー {#synchronous-and-asynchronous-errors}
 
@@ -207,7 +207,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >苦情数管理については、[配信品質の管理](../../delivery/using/about-deliverability.md)の節で詳しく説明しています。
+   >苦情数管理については、[配信品質の管理](about-deliverability.md)の節で詳しく説明しています。
 
 ## バウンスメール管理 {#bounce-mail-management}
 
@@ -219,19 +219,21 @@ E メールを受信者に配信できない場合は、リモートメッセー
 
 >[!IMPORTANT]
 >
->ホストインストールまたはハイブリッドインストールで [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードした場合、大部分の E メール管理は使用されなくなります。詳しくは、[この節](#email-management-rules)を参照してください。
+>ホストインストールまたはハイブリッドインストールで [Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、大部分の E メール管理は使用されなくなります。詳しくは、[この節](#email-management-rules)を参照してください。
 
-### バウンスメールの選定 {#bounce-mail-qualification}
+### バウンスメールの認定 {#bounce-mail-qualification}
 
 >[!IMPORTANT]
 >
->ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードしている場合：
+>ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードしている場合：
 >
 >* **[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、同期配信の失敗エラーメッセージには使用されなくなりました。**** Enhanced MTA は、バウンスのタイプと選定を決定し、その情報を Campaign に返します。
->
->* ****&#x200B;非同期バウンスは、引き続き、**[!UICONTROL インバウンド E メール]**&#x200B;ルールを通じて inMail プロセスで選定されます。詳しくは、[E メール管理ルール](#email-management-rules)を参照してください。
->
->* **Webhooks/EFS なし**&#x200B;で Enhanced MTA を使用する場合、**[!UICONTROL インバウンド E メール]**&#x200B;ルールは、非同期のバウンス E メールと同じ E メールアドレスを使用して、Enhanced MTA からの同期バウンス E メールを処理するためにも使用されます。
+   >
+   >
+* ****&#x200B;非同期バウンスは、引き続き、**[!UICONTROL インバウンド E メール]**&#x200B;ルールを通じて inMail プロセスで選定されます。詳しくは、[E メール管理ルール](#email-management-rules)を参照してください。
+   >
+   >
+* **Webhooks/EFS なし**&#x200B;で Enhanced MTA を使用する場合、**[!UICONTROL インバウンド E メール]**&#x200B;ルールは、非同期のバウンス E メールと同じ E メールアドレスを使用して、Enhanced MTA からの同期バウンス E メールを処理するためにも使用されます。
 
 
 従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、E メールの配信に失敗すると、Adobe Campaign 配信サーバーは、メッセージングサーバーまたはリモート DNS サーバーからエラーメッセージを受け取ります。エラーのリストは、リモートサーバーが返したメッセージに含まれる文字列で構成されます。エラータイプと理由が各エラーメッセージに割り当てられます。
@@ -262,13 +264,13 @@ Adobe Campaign は、このメッセージをフィルター処理して変数�
 
 >[!NOTE]
 >
->ISP を利用できなくなった場合、Campaign を通じて送信された E メールは、誤ってバウンスとしてマークされます。 これを修正するには、バウンスの認定条件を更新する必要があります。 詳しくは、[このページ](../../delivery/using/update-bounce-qualification.md)を参照してください。
+>ISP を利用できなくなった場合、Campaign を通じて送信された E メールは、誤ってバウンスとしてマークされます。 これを修正するには、バウンスの認定条件を更新する必要があります。 詳しくは、[このページ](update-bounce-qualification.md)を参照してください。
 
 ### E メール管理ルール {#email-management-rules}
 
 >[!IMPORTANT]
 >
->ホストインストールまたはハイブリッドインストールで [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードした場合、大部分の E メール管理は使用されなくなります。詳しくは、以下の節を参照してください。
+>ホストインストールまたはハイブリッドインストールで [Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、大部分の E メール管理は使用されなくなります。詳しくは、以下の節を参照してください。
 
 メールルールには、**[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／メールルールセット]**&#x200B;ノードからアクセスします。E メール管理ルールがウィンドウの下部に表示されます。
 
@@ -290,7 +292,7 @@ Adobe Campaign は、このメッセージをフィルター処理して変数�
 
 >[!IMPORTANT]
 >
->ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードしている場合、またインスタンスに **Webhooks/EFS** 機能がある場合、同期配信障害エラーメッセージに&#x200B;**[!UICONTROL インバウンド E メール]**&#x200B;ルールが使用されなくなりました。詳しくは、[この節](#bounce-mail-qualification)を参照してください。
+>ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードしている場合、またインスタンスに **Webhooks/EFS** 機能がある場合、同期配信障害エラーメッセージに&#x200B;**[!UICONTROL インバウンド E メール]**&#x200B;ルールが使用されなくなりました。詳しくは、[この節](#bounce-mail-qualification)を参照してください。
 
 従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、これらのルールには、リモートサーバーから返される文字列のリストが含まれるので、エラー（**ハード**、**ソフト**&#x200B;または&#x200B;**無視**）を選定できます。
 
@@ -306,7 +308,7 @@ E メールが失敗すると、リモートサーバーがプラットフォー
 
 >[!IMPORTANT]
 >
->ホストインストールまたはハイブリッドインストールで [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードした場合、**[!UICONTROL ドメイン管理]**&#x200B;は使用されなくなります。**DKIM（DomainKeys Identified Mail）** E メール認証の署名は、すべてのドメインのメッセージに対して Enhanced MTA によっておこなわれます。Enhanced MTA レベルで特に指定されていない限り、**Sender ID**、**、DomainKeys**、または **S/MIME** を使用して署名することはありません。
+>ホストインストールまたはハイブリッドインストールで [Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、**[!UICONTROL ドメイン管理]**&#x200B;は使用されなくなります。**DKIM（DomainKeys Identified Mail）** E メール認証の署名は、すべてのドメインのメッセージに対して Enhanced MTA によっておこなわれます。Enhanced MTA レベルで特に指定されていない限り、**Sender ID**、**、DomainKeys**、または **S/MIME** を使用して署名することはありません。
 
 従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、Adobe Campaign メッセージングサーバーは、1 つの&#x200B;**ドメイン管理**&#x200B;ルールをすべてのドメインに適用します。
 
@@ -321,7 +323,7 @@ Outlook でメッセージの差出人アドレスに「**[!UICONTROL ...が代�
 
 >[!IMPORTANT]
 >
->ホストインストールまたはハイブリッドインストールで [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md) にアップグレードした場合、**[!UICONTROL MX 管理]**&#x200B;配信スループットは使用されなくなります。Enhanced MTA は独自の MX ルールを使用します。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
+>ホストインストールまたはハイブリッドインストールで [Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、**[!UICONTROL MX 管理]**&#x200B;配信スループットは使用されなくなります。Enhanced MTA は独自の MX ルールを使用します。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
 
 従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合：
 

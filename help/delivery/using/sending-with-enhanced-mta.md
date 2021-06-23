@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1991'
 ht-degree: 100%
@@ -129,7 +129,7 @@ Campaign **[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウン�
 >
 >Enhanced MTA は SMTP バウンスを選定し、その選定を Campaign バウンスの理由と選定にマッピングしたバウンスコードの形式で Campaign に返します。
 
-バウンスの選定について詳しくは、[この節](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)を参照してください。
+バウンスの選定について詳しくは、[この節](understanding-delivery-failures.md#bounce-mail-qualification)を参照してください。
 
 ### 配信スループット
 
@@ -145,7 +145,7 @@ Campaign 配信スループットグラフでは、E メール受信者に対す
 
 メッセージが Enhanced MTA キューに置かれた日数が 3.5 日に達しても配信に失敗した場合は、タイムアウトになり、配信ログでのステータスは、**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に更新されます。
 
-有効期間について詳しくは、[この節](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)を参照してください。
+有効期間について詳しくは、[この節](steps-sending-the-delivery.md#defining-validity-period)を参照してください。
 
 ### DKIM 署名
 
@@ -153,13 +153,13 @@ DKIM（DomainKeys Identified Mail）E メール認証の署名は、Enhanced MTA
 
 ### 配信成功レポート
 
-E メール配信[ダッシュボード](../../delivery/using/delivery-dashboard.md)の&#x200B;**[!UICONTROL 概要]**&#x200B;表示では、**[!UICONTROL 成功]**&#x200B;のパーセンテージは 100%から開始し、配信[有効期間](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)を通してソフトバウンスとハードバウンスが Enhanced MTA から Campaign に返されるたびに、徐々に減少します。
+E メール配信[ダッシュボード](delivery-dashboard.md)の&#x200B;**[!UICONTROL 概要]**&#x200B;表示では、**[!UICONTROL 成功]**&#x200B;のパーセンテージは 100%から開始し、配信[有効期間](steps-sending-the-delivery.md#defining-validity-period)を通してソフトバウンスとハードバウンスが Enhanced MTA から Campaign に返されるたびに、徐々に減少します。
 
-実際、すべてのメッセージは、Campaign から Enhanced MTA へ正常に中継されるとすぐに、[送信ログ](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)に&#x200B;**[!UICONTROL 送信済み]**&#x200B;として表示されます。メッセージの[バウンス](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)が Enhanced MTA からキャンペーンに返されるまで、メッセージのステータスは変わりません。
+実際、すべてのメッセージは、Campaign から Enhanced MTA へ正常に中継されるとすぐに、[送信ログ](delivery-dashboard.md#delivery-logs-and-history)に&#x200B;**[!UICONTROL 送信済み]**&#x200B;として表示されます。メッセージの[バウンス](understanding-delivery-failures.md#delivery-failure-types-and-reasons)が Enhanced MTA からキャンペーンに返されるまで、メッセージのステータスは変わりません。
 
 Enhanced MTA からハードバウンスメッセージが返されると、ステータスが&#x200B;**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが減少します。
 
-ソフトバウンスメッセージが Enhanced MTA から返されると、引き続き&#x200B;**[!UICONTROL 送信済み]**&#x200B;と表示され、**[!UICONTROL 成功]**&#x200B;の割合はまだ更新されません。ソフトバウンスメッセージは、配信の有効期間中ずっと[再試行](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)されます。
+ソフトバウンスメッセージが Enhanced MTA から返されると、引き続き&#x200B;**[!UICONTROL 送信済み]**&#x200B;と表示され、**[!UICONTROL 成功]**&#x200B;の割合はまだ更新されません。ソフトバウンスメッセージは、配信の有効期間中ずっと[再試行](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)されます。
 
 * 有効期間の終了前に再試行が成功した場合、メッセージのステータスは&#x200B;**[!UICONTROL 送信済み]**&#x200B;のままで、**[!UICONTROL 成功]**&#x200B;のパーセンテージは変わりません。
 
@@ -169,7 +169,7 @@ Enhanced MTA からハードバウンスメッセージが返されると、ス�
 
 <!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
-### E メールフィードバックサービス（ベータ版） {#email-feedback-service}
+### E メールフィードバックサービス（ベータ版）  {#email-feedback-service}
 
 E メールフィードバックサービス（EFS）機能を使用すると、フィードバックが Enhanced MTA（メッセージ転送エージェント）から直接取り込まれるので、各 E メールのステータスが正確にレポートされます。
 
@@ -191,7 +191,7 @@ E メールフィードバックサービス（EFS）機能を使用すると、
 
 Enhanced MTA からハードバウンスメッセージが報告されると、ログのステータスが&#x200B;**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->に変更されます。
 
-ソフトバウンスメッセージが Enhanced MTA から返されても、ログのステータスは変更されません（**[!UICONTROL サービスプロバイダーで受信済み]**）。[エラー理由](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)のみが更新されます<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->。**[!UICONTROL 成功]**&#x200B;のパーセンテージは変更されません。その後、ソフトバウンスメッセージが配信[有効期間](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)中ずっと再試行されます。
+ソフトバウンスメッセージが Enhanced MTA から返されても、ログのステータスは変更されません（**[!UICONTROL サービスプロバイダーで受信済み]**）。[エラー理由](understanding-delivery-failures.md#delivery-failure-types-and-reasons)のみが更新されます<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->。**[!UICONTROL 成功]**&#x200B;のパーセンテージは変更されません。その後、ソフトバウンスメッセージが配信[有効期間](steps-sending-the-delivery.md#defining-validity-period)中ずっと再試行されます。
 
 * 有効期間の終了前に再試行が成功した場合、メッセージのステータスは&#x200B;**[!UICONTROL 送信済み]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増えます。
 
@@ -199,9 +199,9 @@ Enhanced MTA からハードバウンスメッセージが報告されると、�
 
 >[!NOTE]
 >
->ハードバウンスとソフトバウンスについて詳しくは、[この節](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
+>ハードバウンスとソフトバウンスについて詳しくは、[この節](understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
 >
->一時的な配信エラー後の再試行について詳しくは、[この節](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
+>一時的な配信エラー後の再試行について詳しくは、[この節](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
 
 
 次の表に、KPI の変更と、EFS 機能によって導入された送信ログのステータスを示します。

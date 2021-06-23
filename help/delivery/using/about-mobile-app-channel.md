@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 100%
@@ -53,9 +53,9 @@ ht-degree: 100%
 
 **[!UICONTROL NMAC オプトアウト管理]**（mobileAppOptOutMgt）ワークフローにより、モバイルデバイスでの通知購読解除が更新されます。このワークフローの詳細については、[テクニカルワークフローのリスト](../../workflow/using/about-technical-workflows.md)を参照してください。
 
-Adobe Campaign は HTTP/2 APN と互換性があります。設定手順について詳しくは、[この節](../../delivery/using/configuring-the-mobile-application.md)を参照してください。
+Adobe Campaign は HTTP/2 APN と互換性があります。設定手順について詳しくは、[この節](configuring-the-mobile-application.md)を参照してください。
 
-配信の作成方法に関する全般的な情報については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。
+配信の作成方法に関する全般的な情報については、[この節](steps-about-delivery-creation-steps.md)を参照してください。
 
 ## データパス {#data-path}
 

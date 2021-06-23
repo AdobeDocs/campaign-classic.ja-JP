@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e3e2ac09de6a9e846e9f9262d522b9395a725648
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
@@ -40,7 +40,7 @@ ht-degree: 100%
 | 2020/05/19 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 | 2020/07/22 | ボビー | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
-## ベストプラクティス{#best-practices}
+## ベストプラクティス {#best-practices}
 
 重複排除の実行中、インバウンドフローは個別に処理されます。例えば、受信者 A がクエリ 1 とクエリ 2 の結果に見つかった場合、それらは重複排除されません。
 
@@ -64,6 +64,7 @@ ht-degree: 100%
    >[!NOTE]
    >
    >外部ファイルなどの外部データを入力として使用する場合は、必ず「**[!UICONTROL 一時スキーマ]**」オプションを選択してください。
+
    >
    >次の手順で、「**[!UICONTROL その他]**」オプションで使用される基準または条件を選択できます。
 

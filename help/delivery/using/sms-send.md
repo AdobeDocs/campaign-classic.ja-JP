@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 100%
@@ -15,16 +15,16 @@ ht-degree: 100%
 
 # SMS 配信の送信、監視、追跡{#sms-properties}
 
-## SMS メッセージの送信{#sending-sms-messages}
+## SMS メッセージの送信 {#sending-sms-messages}
 
 メッセージを承認し、作成する配信の受信者に対して送信するには、「**[!UICONTROL 送信]**」をクリックします。
 
 配信を検証および送信する際の詳細なプロセスについては、以下の節を参照してください。
 
-* [配信の検証](../../delivery/using/steps-validating-the-delivery.md)
-* [配信の送信](../../delivery/using/steps-sending-the-delivery.md)
+* [配信の検証](steps-validating-the-delivery.md)
+* [配信の送信](steps-sending-the-delivery.md)
 
-## 詳細設定パラメーター {#advanced-parameters}
+## 詳細パラメーター {#advanced-parameters}
 
 **[!UICONTROL プロパティ]**&#x200B;ボタンをクリックすると、高度な配信パラメーターにアクセスできます。SMS 配信に特有のパラメーターは、「**[!UICONTROL 配信]**」タブの「**[!UICONTROL SMS パラメーター]**」節にあります。
 
@@ -60,9 +60,9 @@ ht-degree: 100%
 
 メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、以下の節を参照してください。
 
-* [配信の監視](../../delivery/using/about-delivery-monitoring.md)
-* [配信失敗について](../../delivery/using/understanding-delivery-failures.md)
-* [メッセージトラッキングについて](../../delivery/using/about-message-tracking.md)
+* [配信の監視](about-delivery-monitoring.md)
+* [配信失敗について](understanding-delivery-failures.md)
+* [メッセージトラッキングについて](about-message-tracking.md)
 
 ## インバウンドメッセージの処理 {#processing-inbound-messages}
 
@@ -108,7 +108,7 @@ InSMS スキーマには、受信 SMS に関する情報が含まれます。そ
 * **operatorCode**：通信事業者のネットワークコード
 * **linkedSmsId**：応答の SMS において、送信 SMS にリンクされた Adobe Campaign 識別子（broadlogId）
 
-## 自動返信の管理（米国の規制への対応）{#managing-automatic-replies--american-regulation-}
+## 自動返信の管理（米国の規制への対応） {#managing-automatic-replies--american-regulation-}
 
 Adobe Campaign 経由で送信した SMS メッセージに対し、購読者から STOP、HELP、YES のようなキーワードを含む応答が返ってきた場合、米国市場では、自動応答メッセージを返すように設定しておく必要があります。
 
@@ -165,6 +165,6 @@ Adobe Campaign 経由で送信した SMS メッセージに対し、購読者か
 
 >[!IMPORTANT]
 >
->こうした自動メッセージは、履歴には記録されず、そのため、配信ダッシュボードには表示されません。[詳細情報](../../delivery/using/delivery-dashboard.md)。
+>こうした自動メッセージは、履歴には記録されず、そのため、配信ダッシュボードには表示されません。[詳細情報](delivery-dashboard.md)。
 >
 >これらのメッセージは、商業的圧力ルールでは考慮されていません。 [詳細情報](../../campaign/using/pressure-rules.md)。

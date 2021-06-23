@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
@@ -30,7 +30,7 @@ ht-degree: 100%
 >
 >リストに表示されるチャネルの種類は、ライセンス契約の内容に応じて異なります。
 
-ニーズに合わせて具体的なパラメーターをあらかじめ設定しておきたい場合は、新しい配信テンプレートを作成できます。テンプレートについて詳しくは、[この節](../../delivery/using/about-templates.md)を参照してください。
+ニーズに合わせて具体的なパラメーターをあらかじめ設定しておきたい場合は、新しい配信テンプレートを作成できます。テンプレートについて詳しくは、[この節](about-templates.md)を参照してください。
 
 ## 配信の識別 {#identifying-the-delivery}
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 配信コンテンツの設定準備が整いました。配信コンテンツ定義は、各チャネル専用です。詳しくは、該当する節を参照してください。
 
-* [E メールコンテンツの定義](../../delivery/using/defining-the-email-content.md)
-* [SMS コンテンツの定義](../../delivery/using/sms-create.md#defining-the-sms-content)
-* [ダイレクトメールのコンテンツの定義](../../delivery/using/defining-the-direct-mail-content.md)
-* [プッシュ通知](../../delivery/using/about-mobile-app-channel.md)
+* [E メールコンテンツの定義](defining-the-email-content.md)
+* [SMS コンテンツの定義](sms-create.md#defining-the-sms-content)
+* [ダイレクトメールのコンテンツの定義](defining-the-direct-mail-content.md)
+* [プッシュ通知](about-mobile-app-channel.md)

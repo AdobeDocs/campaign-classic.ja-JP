@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 100%
@@ -37,7 +37,7 @@ SpamAssassin は、次のような様々なスパム検出技法を活用しま�
 
 E メール配信を作成して、そのコンテンツを定義したら、以下の手順に従って、リスクを評価します。
 
-配信の作成およびデザインについて詳しくは、[この節](../../delivery/using/about-email-channel.md)を参照してください。
+配信の作成およびデザインについて詳しくは、[この節](about-email-channel.md)を参照してください。
 
 1. 「**[!UICONTROL プレビュー]**」タブに移動します。
 1. 配信をプレビューする受信者を選択します。

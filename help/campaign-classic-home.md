@@ -3,20 +3,22 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 615b56c5f4362b0f47ec5700be7d170c0e108f4c
+source-git-commit: a9120e2db43fcb035e9760819e9c53148979da4f
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 98%
+source-wordcount: '262'
+ht-degree: 90%
 
 ---
 
-# Campaign Classicv7ドキュメント{#campaign-classic-documentation}
+# Campaign Classicv7ドキュメント {#campaign-classic-documentation}
 
 ![](platform/using/assets/do-not-localize/banner_acc_doc.jpg)
 
 ## 新着情報
 
 * **[6 月リリースを公開](rn/using/latest-release.md)**<br/> 新機能、改善点、修正点をリリースノートでご確認ください
+
+* **[Apple Mailのプライバシー保護に関するFAQ iOS 15に関するAppleの発表に対する](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> 最初のガイダンスを確認します。
 
 * **[誤ったハードバウンスの削除](delivery/using/update-bounce-qualification.md)**<br/> Apple サービス停止が発生した後に、誤ったハードバウンスを更新する方法を説明します
 
@@ -25,8 +27,6 @@ ht-degree: 98%
 * **[Campaign インスタンスのセキュリティ保護](technotes/acc-config-updates.md)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します
 
 * **[Adobe Experience Cloud Triggers 統合の更新](integrations/using/configuring-adobe-io.md)**<br/>レガシー oAuth 認証サービスが提供終了になりました。Adobe I/O に移行する方法を説明します
-
-* **[サポート](support.md)**<br/>FAQ、ベストプラクティス、ヘルプリソース、サポート依頼などにアクセスできます
 
 [その他の更新](/help/rn/using/documentation-updates.md)
 

@@ -13,9 +13,8 @@ index: y
 internal: n
 snippet: y
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
-translation-type: ht
-source-git-commit: 6854d06f8dc445b56ddfde7777f02916a60f2b63
-workflow-type: ht
+source-git-commit: e3e2ac09de6a9e846e9f9262d522b9395a725648
+workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
 
@@ -23,7 +22,7 @@ ht-degree: 100%
 
 # 重複排除 - 重複アクティビティの結合機能の使用 {#deduplication-merge}
 
-## この使用例について {#about-this-use-case}
+## このユースケースについて {#about-this-use-case}
 
 この使用例では、**[!UICONTROL 重複排除 - 重複]**&#x200B;アクティビティで&#x200B;**[!UICONTROL 結合]**&#x200B;機能を使用する方法を説明します。
 
@@ -100,16 +99,16 @@ ht-degree: 100%
 これらのルールを設定した後、**[!UICONTROL 重複排除 - 重複]**&#x200B;アクティビティの最後に次のデータを受け取ります。
 
 | 変更日 | 名 | 姓 | 電子メール | 携帯電話 | 電話 |
------|------------|-----------|-------|--------------|------|
+|-----|------------|-----------|-------|--------------|------|
 | 2020/5/19 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 2020/7/22 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
+| 2020/7/22 | ボビー | Tisner | bob@mycompany.com |  | 777-777-7777 |
 | 2020/10/03 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
 
 前述のルールに従って、3 つのレコードから結果が結合されます。 比較後、最新の名前と携帯電話が、元の電話番号と共に使用されていると結論付けられます。
 
 | 名 | 姓 | 電子メール | 携帯電話 | 電話 |
 |------------|-----------|-------|--------------|------|
-| Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
+| ボビー | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
 >[!NOTE]
 >

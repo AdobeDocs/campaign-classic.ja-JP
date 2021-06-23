@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 
    分析時に適用されるルールについては、[この節](#validation-process-with-typologies)を参照してください。使用可能な検証モードについて詳しくは、[承認モードの変更](#changing-the-approval-mode)の節を参照してください。
 
-1. **配達確認の送信**：この手順では、コンテンツ、URL、パーソナライゼーションなどを制御できます。詳しくは、[配達確認の送信](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)と[特定の配達確認ターゲットの定義](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)を参照してください。
+1. **配達確認の送信**：この手順では、コンテンツ、URL、パーソナライゼーションなどを制御できます。詳しくは、[配達確認の送信](steps-validating-the-delivery.md#sending-a-proof)と[特定の配達確認ターゲットの定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -48,7 +48,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >分析時に使用される検証ルールについて詳しくは、[タイポロジを使用したプロセスの検証](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)の節で説明しています。
+   >分析時に使用される検証ルールについて詳しくは、[タイポロジを使用したプロセスの検証](steps-validating-the-delivery.md#validation-process-with-typologies)の節で説明しています。
 
 1. 分析は、「**[!UICONTROL 停止]**」をクリックしていつでも停止できます。
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 * **[!UICONTROL 配信のラベルとコード]**：このセクションのオプションは、配信分析フェーズでこれらのフィールドの値を計算するために使用されます。「**[!UICONTROL 配信分析中に実行フォルダーを計算]**」フィールドを選択すると、分析フェーズにこの配信アクションを格納するフォルダーの名前が計算されます。
 * **[!UICONTROL 承認モード]**：このフィールドでは、分析が完了した後に手動または自動で配信を定義できます。検証モードについて詳しくは、[承認モードの変更](#changing-the-approval-mode)の節を参照してください。
 * **[!UICONTROL データベース内で配信部分を準備]**：このオプションを使用すると、配信分析のパフォーマンスを向上できます。詳しくは、[この節](#improving-delivery-analysis)を参照してください。
-* **[!UICONTROL ワークフローを使用してパーソナライゼーションデータを準備]**：このオプションを使用すると、配信に含まれるパーソナライゼーションデータを自動ワークフローで準備でき、パーソナライゼーションの実行パフォーマンスを大幅に向上させることができます。詳しくは、[パーソナライゼーションの最適化](../../delivery/using/personalization-fields.md#optimizing-personalization)を参照してください。
+* **[!UICONTROL ワークフローを使用してパーソナライゼーションデータを準備]**：このオプションを使用すると、配信に含まれるパーソナライゼーションデータを自動ワークフローで準備でき、パーソナライゼーションの実行パフォーマンスを大幅に向上させることができます。詳しくは、[パーソナライゼーションの最適化](personalization-fields.md#optimizing-personalization)を参照してください。
 * **[!UICONTROL 別のプロセスでジョブを開始]**：このオプションを選択すると、別のプロセスで配信分析を開始できます。分析機能は、デフォルトでは、Adobe Campaign アプリケーションサーバープロセス（web nlserver）を使用します。このオプションを選択すると、アプリケーションサーバーにエラーが発生した場合でも分析を完了できます。
 * **[!UICONTROL ログの分析中に生成された SQL クエリを記録]**：分析フェーズ中、配信ログに SQL クエリのログを記録します。
 * **[!UICONTROL 配信時にパーソナライゼーションスクリプトを無視]**：HTML コンテンツに含まれる JavaScript ディレクティブの解釈をスキップします。このオプションを選択すると、配信されるコンテンツ内に、**&lt;%=** タグで始まる JavaScript ディレクティブがそのまま表示されます。
@@ -127,27 +127,28 @@ ht-degree: 100%
 
 ## 配達確認の送信 {#sending-a-proof}
 
-メッセージの設定にエラーが含まれていそうな箇所を見つけるために、配信の検証サイクルを設定することを強くお勧めします。必要に応じて、テスト受信者に配達確認を送信してコンテンツを承認するサイクルを実施します。この場合、変更を加えるたびに配達確認を送信して、コンテンツを承認することになります。
+メッセージの設定にエラーが含まれていそうな箇所を見つけるために、配信の検証サイクルを設定することを強くお勧めします。必要に応じた頻度で、テスト受信者に配達確認を送信してコンテンツを承認するサイクルを実施します。この場合、変更を加えるたびに配達確認を送信して、コンテンツを承認することになります。
 
 >[!NOTE]
 >
->* 使用可能な検証モードについて詳しくは、[承認モードの変更](../../delivery/using/steps-validating-the-delivery.md#changing-the-approval-mode)を参照してください。
->* 配達確認ターゲットの設定について詳しくは、 [特定の配達確認ターゲットの定義](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)を参照してください。
+>* 使用可能な検証モードについて詳しくは、[承認モードの変更](steps-validating-the-delivery.md#changing-the-approval-mode)を参照してください。
+>* 配達確認ターゲットの設定について詳しくは、 [特定の配達確認ターゲットの定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)を参照してください。
+
 >
 
 
 
 配達確認を送信するには、次の手順に従います。
 
-1. [特定の配達確認ターゲットの定義](../../delivery/using/steps-defining-the-target-population.md#defining-a-specific-proof-target)の説明に従って配達確認ターゲットを設定したことを確認します。
+1. [特定の配達確認ターゲットの定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)の説明に従って配達確認ターゲットを設定したことを確認します。
 1. 配信ウィザードの上部のバーで「**[!UICONTROL 配達確認を送信]**」をクリックします。
 
    ![](assets/s_ncs_user_email_del_send_proof.png)
 
-1. メッセージの分析を開始します。[配信の分析](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
-1. これで、配信を送信できます（[配信の送信](../../delivery/using/steps-sending-the-delivery.md)を参照）。
+1. メッセージの分析を開始します。[配信の分析](steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
+1. これで、配信を送信できます（[配信の送信](steps-sending-the-delivery.md)を参照）。
 
-   配信が送信されると、配達確認は自動的に作成されて番号が付けられ、配信リストに表示されます。コンテンツやプロパティにアクセスしたい場合は、配達確認を編集できます。詳しくは、この[ページ](../../delivery/using/about-delivery-monitoring.md)を参照してください。
+   配信が送信されると、配達確認は自動的に作成されて番号が付けられ、配信リストに表示されます。コンテンツやプロパティにアクセスしたい場合は、配達確認を編集できます。詳しくは、この[ページ](about-delivery-monitoring.md)を参照してください。
 
    ![](assets/s_ncs_user_delivery_validation_cycle_03a.png)
 
@@ -172,7 +173,7 @@ ht-degree: 100%
 次のオプションを使用できます。
 
 * 最初のオプションを選択すると、配達確認のコピーを保持できます。
-* 次の 2 つのオプションを使用すると、ブロックリスト上の受信者と強制隔離中のアドレスを保持できます。メインターゲットのこれらのオプションについては、[除外設定のカスタマイズ](../../delivery/using/steps-defining-the-target-population.md#customizing-exclusion-settings)を参照してください。これらのアドレスは、配信ターゲットの場合はデフォルトで除外されますが、配達確認ターゲットの場合はデフォルトで保持されます。
+* 次の 2 つのオプションを使用すると、ブロックリスト上の受信者と強制隔離中のアドレスを保持できます。メインターゲットのこれらのオプションについては、[除外設定のカスタマイズ](steps-defining-the-target-population.md#customizing-exclusion-settings)を参照してください。これらのアドレスは、配信ターゲットの場合はデフォルトで除外されますが、配達確認ターゲットの場合はデフォルトで保持されます。
 * 「**[!UICONTROL 配達確認の配信コードを保持]**」オプションを選択すると、配達確認の配信コードが、対応する配信の配信コードと同じ値になります。このコードは、配信ウィザードの最初の手順で指定されます。
 * デフォルトでは、配達確認の件名の前には「配達確認#」が付けられます。ここで、「#」は配達確認の番号です。このプレフィックスは「**[!UICONTROL ラベルのプレフィックス]**」フィールドで変更できます。
 

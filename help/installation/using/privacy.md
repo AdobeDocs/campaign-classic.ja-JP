@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: f31591949bb033ff250cf4b33eddcc2c1d31cc6c
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 63%
+source-wordcount: '899'
+ht-degree: 50%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign には、GDPR および CCPA に則ってプライバシーを遵
 
 例：
 
-1. ワークフローを作成し、「クエリ」アクティビティを追加します。 詳細情報.
+1. ワークフローを作成し、「クエリ」アクティビティを追加します。 詳細情報。
 
 1. クエリアクティビティを開き、次のようにnmsTrackingUrlテーブルにフィルターを作成します。ソースURLがhttp://&lt;%で始まる、またはソースURLがhttps://&lt;%で始まる。
 
@@ -47,27 +47,35 @@ Adobe Campaign には、GDPR および CCPA に則ってプライバシーを遵
 
 <img src="assets/privacy-query-dynamic-url.png">
 
-### 署名のメカニズム
+### URL署名
 
-セキュリティを強化するために、Eメール内のリンクを追跡するための新しい署名メカニズムがビルド19.1.4(9032@3a9dc9c)で導入され、ビルド19.1.4(9032@3a9dc9c)およびCampaign 20.2で利用できます。このオプションは、すべてのお客様に対してデフォルトで有効です。
+セキュリティを強化するために、Eメール内のリンクを追跡するための署名メカニズムが導入されました。 ビルド19.1.4(9032@3a9dc9c)およびCampaign 20.2で使用できます。この機能はデフォルトで有効になっています。
 
 >[!NOTE]
 >
->不正な形式の署名済み URL がクリックされると、次のエラーが返されます。「リクエストされた URL &#39;...&#39; が見つかりませんでした。」
+>形式が正しくない署名済みURLがクリックされると、次のエラーが返されます。&quot;要求されたURL &#39;...&#39;が見つかりませんでした。&quot;
 
-さらに、Campaign 20.2および[!DNL Gold Standard]リリースより、ホスト版およびハイブリッド版のお客様は、以前のビルドで生成されたURLを無効にする機能強化を使用できます。 このオプションはデフォルトでは無効です。この機能を有効にするには、[カスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+さらに、Campaign 20.2と[!DNL Gold Standard]リリース以降は、以前のビルドで生成されたURLを無効にする機能強化を使用できます。 この機能はデフォルトでは無効になっています。 この機能を有効にするには、[カスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html?lang=ja)にお問い合わせください。
 
-オンプレミス環境でこの新しいメカニズムを有効にするには、すべての Campaign サーバーで次の手順を実行する必要があります。
+[!DNL Gold Standard] 19.1.4を実行している場合、トラッキングリンクを使用したプッシュ通知配信や、アンカータグを使用した配信で問題が発生する可能性があります。 その場合は、URL署名を無効にすることをお勧めします。
+
+Campaignをオンプレミスで実行している場合でも、ハイブリッドアーキテクチャで実行している場合でも、URL署名を無効にするには、[カスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に連絡する必要があります。
+
+ハイブリッドアーキテクチャでCampaignを実行している場合、URL署名を有効にする前に、ホストされているミッドソーシングインスタンスが次のようにアップグレードされていることを確認します。
+* オンプレミスのマーケティングインスタンスより前
+* オンプレミスのマーケティングインスタンスと同じバージョンまたは少し高いバージョンに対して
+
+そうしないと、次の問題が発生する可能性があります。
+* ミッドソーシングインスタンスをアップグレードする前は、URLはこのインスタンスを通じて署名なしで送信されます。
+* ミッドソーシングインスタンスをアップグレードし、両方のインスタンスでURL署名が有効になると、以前に署名なしで送信されたURLは拒否されます。 これは、マーケティングインスタンスから提供されたトラッキングファイルによって署名が要求されるためです。
+
+以前のビルドで生成されたURLを無効にするには、すべてのCampaignサーバーで同時に次の手順に従います。
 
 1. サーバー設定ファイル（serverConf.xml）で、**blockRedirectForUnsignedTrackingLink** を **true** に変更します。
 1. **nlserver** サービスを再起動します。
 1. トラッキングサーバーで、Web サーバー（Debian では apache2、CentOS/RedHat では httpd、Windows では IIS）を再起動します。
 
-[!DNL Gold Standard] 19.1.4で実行しているお客様は、トラッキングリンクを使用したプッシュ通知配信、またはアンカータグを使用した配信で問題が発生する可能性があります。 その場合、Adobeは、トラッキングリンク用の新しい署名メカニズムを無効にすることをお勧めします。
-
-**ホスト型およびハイブリッド** 型の顧客は、このメカニズムを無 [効にす](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) る必要があります。
-
-**オンプレミスのお** 客様は、次の手順に従います。
+URL署名を有効にするには、次の手順をすべてのCampaignサーバーで同時に実行します。
 
 1. サーバー設定ファイル （serverConf.xml）で、**signEmailLinks** を **false** に変更します。
 1. **nlserver** サービスを再起動します。

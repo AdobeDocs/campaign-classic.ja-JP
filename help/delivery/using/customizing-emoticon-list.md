@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ポップアップに表示される顔文字リストは、リストに値を表示して、特定のフィールドに対するユーザーの選択肢を制限できる列挙によって決まります。
 顔文字のリスト順序はカスタマイズすることができます。また、リストに他の顔文字を追加することもできます。
-顔文字は E メールとプッシュで使用できます。詳しくは、この[ページ](../../delivery/using/defining-the-email-content.md#inserting-emoticons)を参照してください。
+顔文字は E メールとプッシュで使用できます。詳しくは、この[ページ](defining-the-email-content.md#inserting-emoticons)を参照してください。
 
 ## 新しい顔文字の追加 {#add-new-emoticon}
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 1. 変更を有効にするには、Adobe Campaign Classic から切断してから再接続します。新しい顔文字が&#x200B;**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウに表示されない場合は、キャッシュをクリアする必要がある可能性があります。詳しくは、[この節](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear)を参照してください。
 
-1. 新しい顔文字は、前の手順で設定したように、配信の&#x200B;**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウの 61 番目の位置で確認できます。配信での顔文字の使用方法について詳しくは、この[ページ](../../delivery/using/defining-the-email-content.md#inserting-emoticons)を参照してください。
+1. 新しい顔文字は、前の手順で設定したように、配信の&#x200B;**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウの 61 番目の位置で確認できます。配信での顔文字の使用方法について詳しくは、この[ページ](defining-the-email-content.md#inserting-emoticons)を参照してください。
 
    ![](assets/emoticon_4.png)
 

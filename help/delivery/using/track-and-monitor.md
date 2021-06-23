@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 キャンペーンを制御するには、メッセージが実際に受信者に配信されたことを確認する必要があります。
 
-キャンペーン配信ダッシュボードから、処理済みメッセージと配信監査ログを確認できます。配信ログのメッセージのステータスも制御できます。詳しくは、[こちら](../../delivery/using/about-delivery-monitoring.md)を参照してください。
+キャンペーン配信ダッシュボードから、処理済みメッセージと配信監査ログを確認できます。配信ログのメッセージのステータスも制御できます。詳しくは、[こちら](about-delivery-monitoring.md)を参照してください。
 
 配信が送信されず、そのステータスが「**保留中**」のままになっている場合は、どのような状況が考えられるでしょうか。
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 **ヒント**：メッセージトラッキングは、デフォルトで有効になっています。URL を設定するには、配信ウィザードの下部のセクションで「URL を表示」オプションを選択します。メッセージの URL ごとに、トラッキングを有効化するかどうかを選択できます。
 
-詳しくは、[トラッキングの設定](../../delivery/using/how-to-configure-tracked-links.md)と[トラッキング指標](../../reporting/using/delivery-reports.md#tracking-indicators)の節を参照してください。
+詳しくは、[トラッキングの設定](how-to-configure-tracked-links.md)と[トラッキング指標](../../reporting/using/delivery-reports.md#tracking-indicators)の節を参照してください。
 
 ## 配信パフォーマンス {#delivery-performances}
 
@@ -60,6 +60,6 @@ ht-degree: 100%
 
 * [画像の表示の問題](../../production/using/image-display-issues.md)
 
-* [配信パフォーマンスの問題](../../delivery/using/delivery-performances.md)
+* [配信パフォーマンスの問題](delivery-performances.md)
 
 * [一時ファイルの問題](../../production/using/temporary-files.md) — *オンプレミスのお客様のみ*

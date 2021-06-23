@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 100%
@@ -37,4 +37,4 @@ ht-degree: 100%
 
 これで、ワークフローを開始できます。配信が送信されると、配信ログ内の 3 つのサブセットの動作をトラッキングして、どのサブセットが最も成功したかを確認できます。
 
-また、ワークフローを使用すると、プロセスの自動化が可能です。より良いパフォーマンスを示した配信バリアントを自動的に識別して、その他の母集団に送信できます。詳しくは、この専用の[ユースケース](../../delivery/using/a-b-testing-use-case.md)を参照してください。
+また、ワークフローを使用すると、プロセスの自動化が可能です。より良いパフォーマンスを示した配信バリアントを自動的に識別して、その他の母集団に送信できます。詳しくは、この専用の[ユースケース](a-b-testing-use-case.md)を参照してください。

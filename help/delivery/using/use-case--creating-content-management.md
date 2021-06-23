@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 100%
@@ -58,7 +58,7 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 >
 >Adobe Campaign でのデータスキーマの作成と設定について詳しくは、[この節](../../configuration/using/about-schema-edition.md)を参照してください。
 >
->コンテンツ管理に関する設定要素について詳しくは、[データスキーマ](../../delivery/using/data-schemas.md)で説明しています。
+>コンテンツ管理に関する設定要素について詳しくは、[データスキーマ](data-schemas.md)で説明しています。
 
 データスキーマを作成するには、次の手順に従います。
 
@@ -82,7 +82,7 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 
    ![](assets/s_ncs_content_param_schema_step2.png)
 
-   詳しくは、[スキーマの編集](../../delivery/using/data-schemas.md#editing-schemas)を参照してください。
+   詳しくは、[スキーマの編集](data-schemas.md#editing-schemas)を参照してください。
 
    コンテンツ内で参照されている要素ごとに、対応するタイプを選択する必要があります。
 
@@ -170,7 +170,7 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 >
 >Adobe Campaign でのフォームの作成と設定について詳しくは、[この節](../../configuration/using/identifying-a-form.md)を参照してください。
 >
->コンテンツ管理に関する設定要素について詳しくは、[入力フォーム](../../delivery/using/input-forms.md)で説明しています。
+>コンテンツ管理に関する設定要素について詳しくは、[入力フォーム](input-forms.md)で説明しています。
 
 コンテンツ管理用の入力フォームを作成するには、次の手順に従います。
 
@@ -220,7 +220,7 @@ XSLT 言語を使用して、XML ドキュメントを別の出力ドキュメ�
 
 >[!NOTE]
 >
->ドキュメントの構成（JavaScript テンプレートまたは XSL テンプレート）に関連する制約については、[フォーマット設定](../../delivery/using/formatting.md)で詳しく説明しています。
+>ドキュメントの構成（JavaScript テンプレートまたは XSL テンプレート）に関連する制約については、[フォーマット設定](formatting.md)で詳しく説明しています。
 
 Adobe Campaign で JavaScript テンプレートを使用するには、次の手順に従います。
 
@@ -231,7 +231,7 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
 1. テンプレート名を入力し、コンテンツ管理用に作成したスキーマを選択します。
 1. メッセージに表示したいセットコンテンツをインポートします。
 
-   [JavaScript テンプレート](../../delivery/using/formatting.md#javascript-templates)で詳しく説明している構文を順守しつつ、可変要素を追加します。
+   [JavaScript テンプレート](formatting.md#javascript-templates)で詳しく説明している構文を順守しつつ、可変要素を追加します。
 
    今回の例のコンテンツを表示するには、JavaScript テンプレートに次の要素を含める必要があります。
 
@@ -324,7 +324,7 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
    </html>
    ```
 
-   テンプレートの冒頭で関数を呼び出すことによって、Adobe Campaign データベースからパーソナライゼーションデータを取得する呼び出し（この場合は recipient.firstName と recipient.lastName）を設定でき、配信時にも利用できます。詳しくは、[JavaScript テンプレートの取り込み](../../delivery/using/formatting.md#including-a-javascript-template)を参照してください。
+   テンプレートの冒頭で関数を呼び出すことによって、Adobe Campaign データベースからパーソナライゼーションデータを取得する呼び出し（この場合は recipient.firstName と recipient.lastName）を設定でき、配信時にも利用できます。詳しくは、[JavaScript テンプレートの取り込み](formatting.md#including-a-javascript-template)を参照してください。
 
    今回の例では、次のようなコードが関数に含まれます。
 
@@ -353,7 +353,7 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
 
 >[!NOTE]
 >
->コンテンツパブリッシュテンプレートについて詳しくは、[パブリッシュテンプレート](../../delivery/using/publication-templates.md)を参照してください。
+>コンテンツパブリッシュテンプレートについて詳しくは、[パブリッシュテンプレート](publication-templates.md)を参照してください。
 
 手順は次のとおりです。
 
@@ -379,7 +379,7 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
 
 >[!NOTE]
 >
->コンテンツの作成について詳しくは、[コンテンツテンプレートの使用](../../delivery/using/using-a-content-template.md)を参照してください。
+>コンテンツの作成について詳しくは、[コンテンツテンプレートの使用](using-a-content-template.md)を参照してください。
 
 ### 配信ウィザードでのコンテンツの作成 {#creating-content-in-the-delivery-wizard}
 

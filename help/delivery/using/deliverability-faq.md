@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 100%
@@ -49,13 +49,13 @@ MX 設定について詳しくは、[この節](../../installation/using/email-d
    * 「**[!UICONTROL ブロックリスト登録済み]**」ステータスは、フィードバックループの結果です（人がメッセージをスパムとしてレポートする場合）。
 
    * **[!UICONTROL 強制隔離]**&#x200B;というステータスは、ソフトバウンスまたはハードバウンスの結果です。
-   詳しくは、[この節](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)を参照してください。
+   詳しくは、[この節](understanding-quarantine-management.md#quarantine-vs-denylist)を参照してください。
 
 * **様々な強制隔離エラーの原因は何を意味しますか。**
 
    未定義、不明なユーザー、無効なドメイン、ブロックリストに登録されたアドレス、拒否、無視されたエラー、未到達、無効なアカウント、メールボックス容量超過、未接続の 10 個の原因が考えられます。
 
-   詳しくは、[強制隔離管理の理解](../../delivery/using/understanding-quarantine-management.md)を参照してください。
+   詳しくは、[強制隔離管理の理解](understanding-quarantine-management.md)を参照してください。
 
 ## ブロックリストからの削除 {#remove-from-denylist}
 

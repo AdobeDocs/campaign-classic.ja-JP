@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 0e0912c68d132919eeac9b91b93960e70011153e
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 83%
 
 ---
 
@@ -21,10 +21,17 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->パーソナライゼーションを含む電子メールコンテンツ内のリンクは、特定の構文を追跡する必要があります。 パーソナライズ可能な電子メールにリンクを追加する方法、および追跡をサポートする電子メールについて詳しくは、[このセクション](../../delivery/using/tracking-personalized-links.md)を参照してください。
+>パーソナライゼーションを含む電子メールコンテンツ内のリンクは、特定の構文を追跡する必要があります。 パーソナライズ可能な電子メールにリンクを追加する方法、および追跡をサポートする電子メールについて詳しくは、[このセクション](tracking-personalized-links.md)を参照してください。
 
+トラッキング式を適用する前に、「**[!UICONTROL テキストコンテンツ]**」タブでURLを区切り文字で囲むことを強くお勧めします。 このタブに入力するURL区切り文字は、Adobe Campaignで文字列内のURLを識別するために使用されます。 次の区切り文字のペアを使用できます。
+* 括弧( )
+* 角括弧[ ]
+* 中括弧{ }
 
-
+この例では、URL https://www.adobe.comの後にセミコロン(;)が続きます。 セミコロンは、受信者のEメールクライアントによってURLの一部として解釈される場合があります。 その結果、リンクが壊れる場合があります。 この問題を回避するには、次のいずれかの方法でURLを区切り文字で囲みます。
+* (https://www.adobe.com/jp);
+* [https://www.adobe.com/jp];
+* {https://www.adobe.com/jp};
 
 メッセージトラッキングは、デフォルトで有効になっています。URL のトラッキング方法をパーソナライズするには、以下の手順に従います。
 

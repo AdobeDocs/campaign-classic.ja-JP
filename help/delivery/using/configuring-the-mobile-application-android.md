@@ -9,7 +9,7 @@ index: y
 internal: n
 snippet: y
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 94%
@@ -33,7 +33,7 @@ ht-degree: 94%
 
 その後、[Android リッチ通知を作成](create-notifications-android.md)できるようになります。
 
-## Android外部アカウント{#configuring-external-account-android}の設定
+## Android外部アカウントの設定 {#configuring-external-account-android}
 
 Android の場合、2 種類のコネクタを使用できます。
 
@@ -58,7 +58,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
    * **maxGCMConnectPerChild**：それぞれの子サーバーで開始できる、FCM に対する並列 HTTP リクエストの最大数（デフォルト値は 8）。
 
-## Androidサービス{#configuring-android-service}の設定
+## Androidサービスの設定 {#configuring-android-service}
 
 ![](assets/do-not-localize/how-to-video.png) [Android サービスの設定方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ja#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
 
@@ -79,9 +79,9 @@ Android の場合、2 種類のコネクタを使用できます。
 
    ![](assets/nmac_service_2.png)
 
-1. Android アプリケーションを作成します。詳細については、[このセクション](../../delivery/using/configuring-the-mobile-application-android.md#creating-android-app)を参照してください。
+1. Android アプリケーションを作成します。詳細については、[このセクション](configuring-the-mobile-application-android.md#creating-android-app)を参照してください。
 
-## Androidモバイルアプリケーション{#creating-android-app}を作成します。
+## Androidモバイルアプリケーションの作成 {#creating-android-app}
 
 サービスの作成後に、Android アプリケーションを作成する必要があります。
 
@@ -93,7 +93,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
    ![](assets/nmac_android.png)
 
-1. Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ「**[!UICONTROL 統合キー]**」が定義されていることを確認します。詳細については、[このセクション](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)を参照してください。
+1. Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ「**[!UICONTROL 統合キー]**」が定義されていることを確認します。詳細については、[このセクション](integrating-campaign-sdk-into-the-mobile-application.md)を参照してください。
 
    >[!NOTE]
    >
@@ -111,8 +111,8 @@ Android の場合、2 種類のコネクタを使用できます。
 
 サービスと新しいモバイルアプリケーションを作成したら、選択された API バージョンに応じてモバイルアプリケーションを設定する必要があります。
 
-* **HTTP v1の** 設定について詳しくは、この節 [を参照してください](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)。
-* **HTTP（レガシー）** の設定について詳しくは、この節 [を参照してください](../../delivery/using/configuring-the-mobile-application-android.md#android-service-http)。
+* **HTTP v1の** 設定について詳しくは、この節 [を参照してください](configuring-the-mobile-application-android.md#android-service-httpv1)。
+* **HTTP（レガシー）** の設定について詳しくは、この節 [を参照してください](configuring-the-mobile-application-android.md#android-service-http)。
 
 #### HTTP v1 API の設定{#android-service-httpv1}
 
@@ -188,4 +188,4 @@ HTTP（レガシー）API バージョンを設定するには、次の手順に
 
    >[!CAUTION]
    >
-   >「**[!UICONTROL 購読パラメーター]**」タブの設定名が、モバイルアプリケーションコードの設定名と同じであることを確認します。[この節](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)を参照してください。
+   >「**[!UICONTROL 購読パラメーター]**」タブの設定名が、モバイルアプリケーションコードの設定名と同じであることを確認します。[この節](integrating-campaign-sdk-into-the-mobile-application.md)を参照してください。

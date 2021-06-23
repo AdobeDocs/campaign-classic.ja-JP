@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 100%
@@ -23,15 +23,15 @@ ajouter screenshot -->
 
 ![](assets/delivery-status.png)
 
-発生する可能性のある様々な配信障害とその解決方法についての詳細は、[このページ](../../delivery/using/understanding-delivery-failures.md)を参照してください。
+発生する可能性のある様々な配信障害とその解決方法についての詳細は、[このページ](understanding-delivery-failures.md)を参照してください。
 
 **関連トピック：**
 
-* [配信ダッシュボード](../../delivery/using/delivery-dashboard.md)
-* [配信のトラブルシューティング](../../delivery/using/delivery-troubleshooting.md)
-* [配信品質について](../../delivery/using/about-deliverability.md)
+* [配信ダッシュボード](delivery-dashboard.md)
+* [配信のトラブルシューティング](delivery-troubleshooting.md)
+* [配信品質について](about-deliverability.md)
 
-## 配信ステータスのリスト{#list-delivery-statuses}
+## 配信ステータスのリスト {#list-delivery-statuses}
 
 <table> 
  <thead> 
@@ -51,7 +51,7 @@ ajouter screenshot -->
   </tr> 
   <tr> 
    <td> 失敗<br /> </td> 
-   <td> 無効なアドレスやインボックスが満杯であることが原因で、配信は受信者に到達できませんでした。パーソナライゼーションブロックの問題に関係していることもあり、その場合、スキーマが配信マッピングと一致しないとエラーが生成されます。<a href="../../delivery/using/understanding-delivery-failures.md" target="_blank">配信エラーの理解</a><br />を参照してください。 </td> 
+   <td> 無効なアドレスやインボックスが満杯であることが原因で、配信は受信者に到達できませんでした。パーソナライゼーションブロックの問題に関係していることもあり、その場合、スキーマが配信マッピングと一致しないとエラーが生成されます。<a href="understanding-delivery-failures.md" target="_blank">配信エラーの理解</a><br />を参照してください。 </td> 
   </tr>
   <tr> 
    <td> 保留中<br /> </td> 
@@ -67,7 +67,7 @@ ajouter screenshot -->
   </tr> 
   <tr> 
    <td> サービスプロバイダーで受信済み<br /> </td> 
-   <td> SMS サービスプロバイダーが配信を受信しました。<br />ホストインストールまたはハイブリッドインストールで、<a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">Enhanced MTA</a> にアップグレードしている場合、Campaign から Enhanced MTA に正常にメッセージが転送されました。</td> 
+   <td> SMS サービスプロバイダーが配信を受信しました。<br />ホストインストールまたはハイブリッドインストールで、<a href="sending-with-enhanced-mta.md" target="_blank">Enhanced MTA</a> にアップグレードしている場合、Campaign から Enhanced MTA に正常にメッセージが転送されました。</td> 
   </tr> 
   <tr> 
    <td> モバイルで受信済み<br /> </td> 
@@ -85,13 +85,13 @@ ajouter screenshot -->
  </tbody> 
 </table>
 
-Adobe Campaign の E メールの配信品質を最適化する方法について、[この節](../../delivery/using/about-deliverability.md)を参照してください。配信品質の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
+Adobe Campaign の E メールの配信品質を最適化する方法について、[この節](about-deliverability.md)を参照してください。配信品質の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
 
 ## 保留中ステータス {#pending-status}
 
 配信を確認した後に、配信のステータスが&#x200B;**[!UICONTROL 保留中]**&#x200B;である場合があります。このステータスは、一部のリソースが使用可能になるのを実行プロセスが待機していることを意味します。
 
-**[!UICONTROL 保留中]**&#x200B;ステータスは、配信はスケジュールされたが特定の日付まで保留されることを意味している可能性があります。詳しくは、[配信のスケジュール](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending)の節を参照してください。
+**[!UICONTROL 保留中]**&#x200B;ステータスは、配信はスケジュールされたが特定の日付まで保留されることを意味している可能性があります。詳しくは、[配信のスケジュール](steps-sending-the-delivery.md#scheduling-the-delivery-sending)の節を参照してください。
 
 配信が送信されず、ステータスが&#x200B;**[!UICONTROL 保留中]**&#x200B;のままである場合は、次のことが原因である可能性があります。
 
@@ -137,5 +137,5 @@ Adobe Campaign の E メールの配信品質を最適化する方法につい�
 **関連トピック：**
 
 * [配信ログと履歴](#delivery-logs-and-history)
-* [配信エラーの理解](../../delivery/using/understanding-delivery-failures.md)
-* [配信エラーのタイプと理由](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)
+* [配信エラーについて](understanding-delivery-failures.md)
+* [配信エラーのタイプと理由](understanding-delivery-failures.md#delivery-failure-types-and-reasons)

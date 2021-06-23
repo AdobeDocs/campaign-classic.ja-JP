@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Adobe Campaign を使用すると、パーソナライズされた SMS メッセ
 SMS の送信を開始する前：
 
 * 受信者プロファイルに少なくとも携帯電話番号が含まれていることを確認します。
-* Adobe Campaign の[配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)を確認します。
+* Adobe Campaign の[配信のベストプラクティス](delivery-best-practices.md)を確認します。
 
 SMS を送信するための主な手順は次のとおりです。
 
@@ -34,10 +34,10 @@ SMS を送信するための主な手順は次のとおりです。
 
 また、SMS のプロトコルと設定についても熟知している必要があります。Adobe Campaign と SMPP プロバイダーの間の接続設定については、[このドキュメント](sms-protocol.md)で確認します。
 
-配信の作成方法に関する全般的な情報については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)を参照してください。
+配信の作成方法に関する全般的な情報については、[この節](steps-about-delivery-creation-steps.md)を参照してください。
 
 >[!NOTE]
 >
 >また、Adobe Campaign では、**Adobe Campaign モバイルアプリチャネル（NMAC）**&#x200B;オプションを使用してモバイル端末に通知を送信することもできます。
 > 
->詳しくは、[モバイルアプリチャネルの基本を学ぶ](../../delivery/using/about-mobile-app-channel.md)の節を参照してください。
+>詳しくは、[モバイルアプリチャネルの基本を学ぶ](about-mobile-app-channel.md)の節を参照してください。

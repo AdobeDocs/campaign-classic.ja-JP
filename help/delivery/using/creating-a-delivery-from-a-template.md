@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 100%
@@ -43,4 +43,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->配信の設定について詳しくは、[E メールコンテンツの定義](../../delivery/using/defining-the-email-content.md)を参照してください。
+>配信の設定について詳しくは、[E メールコンテンツの定義](defining-the-email-content.md)を参照してください。

@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Adobe Campaign のトラッキング機能により、送信されたメッセ�
 
 この情報は、配信の各受信者のプロファイルの「**[!UICONTROL トラッキング]**」タブで取得されます。このタブには、リストから選択した受信者がトラッキングおよびクリックしたすべての URL が表示されます。これは、配信画面に現在も表示されている配信内でトラッキングされたすべての URL の累積です。このリストは設定可能で、一般的には、クリックされた URL、クリックの日時、URL が含まれていたドキュメントが表示されます。詳しくは、[この節](../../platform/using/editing-a-profile.md#tracking-tab)を参照してください。
 
-**配信ダッシュボード**&#x200B;は、配信と、メッセージの送信時に結果として起こる問題を監視するための重要な要素でもあります。詳しくは[この節](../../delivery/using/delivery-dashboard.md)を参照してください。
+**配信ダッシュボード**&#x200B;は、配信と、メッセージの送信時に結果として起こる問題を監視するための重要な要素でもあります。詳しくは[この節](delivery-dashboard.md)を参照してください。
 
 次の図に、ユーザーと様々なサーバー間のダイアログのステージを示します。
 
@@ -47,23 +47,23 @@ Adobe Campaign のトラッキング機能により、送信されたメッセ�
 
 **トラッキングされたリンク**
 
-メッセージの受信、およびメッセージコンテンツに挿入されたリンクのアクティベーションをトラッキングし、受信者の動作を詳しく把握できます。[詳細情報](../../delivery/using/how-to-configure-tracked-links.md)
+メッセージの受信、およびメッセージコンテンツに挿入されたリンクのアクティベーションをトラッキングし、受信者の動作を詳しく把握できます。[詳細情報](how-to-configure-tracked-links.md)
 
 **URL トラッキング**
 
-トラッキングオプションは、トラッキングされる URL をアクティブ化または非アクティブ化することで設定できます。[詳細情報](../../delivery/using/personalizing-url-tracking.md)
+トラッキングオプションは、トラッキングされる URL をアクティブ化または非アクティブ化することで設定できます。[詳細情報](personalizing-url-tracking.md)
 
 **トラッキングされたリンクのパーソナライゼーション**
 
-Campaign Classic のトラッキング機能を使用すると、パーソナライズ可能な E メールにリンクを追加し、トラッキングをサポートできます。[詳細情報](../../delivery/using/tracking-personalized-links.md)
+Campaign Classic のトラッキング機能を使用すると、パーソナライズ可能な E メールにリンクを追加し、トラッキングをサポートできます。[詳細情報](tracking-personalized-links.md)
 
 **トラッキングログ**
 
-配信が送信され、トラッキングがアクティブ化されると、トラッキングテクニカルワークフローはトラッキングデータを取得します。このデータは、配信の「トラッキング」タブに表示されます。[詳細情報](../../delivery/using/accessing-the-tracking-logs.md)
+配信が送信され、トラッキングがアクティブ化されると、トラッキングテクニカルワークフローはトラッキングデータを取得します。このデータは、配信の「トラッキング」タブに表示されます。[詳細情報](accessing-the-tracking-logs.md)
 
 **トラッキングのテスト**
 
-トラッキング用のメッセージを送信する前に、ミラーページ、E メールログ、リンクでトラッキングをテストできます。[詳細情報](../../delivery/using/testing-tracking.md)
+トラッキング用のメッセージを送信する前に、ミラーページ、E メールログ、リンクでトラッキングをテストできます。[詳細情報](testing-tracking.md)
 
 ## web アプリケーショントラッキング {#web-application-tracking}
 
@@ -77,7 +77,7 @@ Campaign Classic のトラッキング機能を使用すると、パーソナラ
 
 web アプリケーショントラッキングのオプトアウトを使用すると、行動トラッキングをオプトアウトしたエンドユーザーの web 行動のトラッキングを停止できます。web アプリケーションやランディングページにバナーを表示して、ユーザーがオプトアウトできるようにする機能を追加できます。[詳細情報](../../web/using/web-application-tracking-opt-out.md)
 
-## トラッキングレポート{#tracking-reports}
+## トラッキングレポート {#tracking-reports}
 
 <img src="assets/do-not-localize/icon_monitor.svg" width="60px">
 
@@ -105,7 +105,7 @@ web アプリケーショントラッキングのオプトアウトを使用す�
 
 <img src="assets/do-not-localize/icon-troubleshooting.svg" width="60px">
 
-以下のトラブルシューティングのヒントは、Adobe Campaign Classic でトラッキングを使用する場合に発生する最も一般的な問題の解決に役立ちます。より高度なトラブルシューティングについては、[この節](../../delivery/using/tracking-troubleshooting.md)を参照してください。
+以下のトラブルシューティングのヒントは、Adobe Campaign Classic でトラッキングを使用する場合に発生する最も一般的な問題の解決に役立ちます。より高度なトラブルシューティングについては、[この節](tracking-troubleshooting.md)を参照してください。
 
 * trackinglogd プロセスが実行中であることを確認します。
 

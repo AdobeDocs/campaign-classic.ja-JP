@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
-source-wordcount: '1459'
-ht-degree: 100%
+source-wordcount: '1458'
+ht-degree: 98%
 
 ---
 
@@ -364,7 +364,7 @@ JavaScript テンプレートを使用して、次のコンテンツ管理を実
 
 1. このコンテンツテンプレートを配信で使用できます。
 
-   詳しくは、[コンテンツテンプレートの使用](../../delivery/using/using-a-content-template.md)を参照してください。
+   詳しくは、[コンテンツテンプレートの使用](using-a-content-template.md)を参照してください。
 
 ## XSL スタイルシート {#xsl-stylesheets}
 
@@ -564,7 +564,7 @@ HTML 出力ドキュメントに入力する画像は、絶対参照または相
 
 ## 日付の表示 {#date-display}
 
-XML 入力ドキュメントでは、日付は内部 XML 形式（**YYYY/MM/DD HH:MM:SS**）で保存されます。例：2018/10/01 12:23:30
+XML入力ドキュメントでは、日付は内部XML形式で保存されます。**YYYY/MM/DD HH:MM:SS**(例：2018/10/01 12:23:30)
 
 Adobe Campaign では、以下に詳しく説明するように、JavaScript テンプレートと XSL スタイルシート用の日付の書式設定関数を提供しています。
 

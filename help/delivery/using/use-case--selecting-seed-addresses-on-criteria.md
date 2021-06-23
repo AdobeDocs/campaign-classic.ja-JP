@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ## 手順 1 - 配信の作成 {#step-1---creating-a-delivery}
 
-配信の作成手順について詳しくは、[E メール配信の作成](../../delivery/using/creating-an-email-delivery.md)の節で説明しています。
+配信の作成手順について詳しくは、[E メール配信の作成](creating-an-email-delivery.md)の節で説明しています。
 
 この例では、配信責任者がニュースレターを作成し、受信者を選択します。
 

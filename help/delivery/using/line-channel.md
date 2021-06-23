@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 99%
 
 ---
 
-# LINE 配信を作成{#line-channel}
+# LINE 配信の作成{#line-channel}
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 99%
 1. [コンテンツタイプの設定](#defining-the-content)
 1. [配信の監視（トラッキング、強制隔離、レポートなど）](#accessing-reports)
 
-## LINE チャネルの設定{#setting-up-line-channel}
+## LINE チャネルの設定 {#setting-up-line-channel}
 
 [!DNL LINE] アカウントと外部アカウントを作成する前に、まず LINE パッケージをインスタンスにインストールする必要があります。詳しくは、インストールガイドの [LINE](../../installation/using/installing-campaign-standard-packages.md#line-package) の節を参照してください。
 
@@ -40,7 +40,7 @@ ht-degree: 99%
 
 [!DNL LINE] アカウントを作成して設定する方法については、[LINE デベロッパードキュメント](https://developers.line.biz/ja/)を参照してください。
 
-### LINE サービスの作成と設定{#configure-line-service}
+### LINE サービスの作成と設定 {#configure-line-service}
 
 [!DNL LINE] サービスを作成するには：
 
@@ -58,7 +58,7 @@ ht-degree: 99%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-購読とサービスの詳細については、「[購読の管理](../../delivery/using/managing-subscriptions.md)」を参照してください。
+購読とサービスの詳細については、「[購読の管理](managing-subscriptions.md)」を参照してください。
 
 ### LINE 外部アカウントの設定 {#configure-line-external}
 
@@ -87,7 +87,7 @@ ht-degree: 99%
 
 [!DNL LINE] が Adobe Campaign で設定され、LINE 配信の作成と購読者への送信を開始できます。
 
-## LINE 配信を作成{#creating-the-delivery}
+## LINE 配信を作成 {#creating-the-delivery}
 
 >[!NOTE]
 >
@@ -103,13 +103,13 @@ ht-degree: 99%
 
    ![](assets/line_message_01.png)
 
-1. **[!UICONTROL ラベル]**、**[!UICONTROL 配信コード]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を設定して配信を識別します。詳しくは、[この節](../../delivery/using/steps-create-and-identify-the-delivery.md#identifying-the-delivery)を参照してください。
+1. **[!UICONTROL ラベル]**、**[!UICONTROL 配信コード]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を設定して配信を識別します。詳しくは、[この節](steps-create-and-identify-the-delivery.md#identifying-the-delivery)を参照してください。
 
 1. 「**[!UICONTROL 続行]**」をクリックして配信を作成します。
 
 1. 配信エディターで、「**[!UICONTROL 宛先]**」を選択して [!DNL LINE] 配信の受信者をターゲットします。ターゲティングは、**[!UICONTROL 訪問者の購読（複数）（nms:visitorSub）]**&#x200B;でおこなわれます。
 
-   詳しくは、[ターゲット母集団の識別](../../delivery/using/steps-defining-the-target-population.md)を参照してください。
+   詳しくは、[ターゲット母集団の識別](steps-defining-the-target-population.md)を参照してください。
 
    ![](assets/line_message_08.png)
 
@@ -131,13 +131,13 @@ ht-degree: 99%
 
 1. 配信を正しく作成して設定すると、事前に定義したターゲットに送信することができます。
 
-   配信の送信について詳しくは、[メッセージの送信](../../delivery/using/sending-messages.md)を参照してください。
+   配信の送信について詳しくは、[メッセージの送信](sending-messages.md)を参照してください。
 
 1. メッセージを送信した後、レポートにアクセスして配信の有効性を測定します。
 
    [!DNL LINE] レポートの詳細については、[レポートへのアクセス](#accessing-reports)を参照してください。
 
-## コンテンツタイプの定義{#defining-the-content}
+## コンテンツタイプの定義 {#defining-the-content}
 
 [!DNL LINE] 配信のコンテンツを定義するには、最初にメッセージタイプを配信に追加する必要があります。それぞれの [!DNL LINE] 配信には最大で 5 件のメッセージを含めることができます。
 
@@ -157,7 +157,7 @@ ht-degree: 99%
 
 ![](assets/line_message_02.png)
 
-このタイプのメッセージの設定は、E メールの&#x200B;**[!UICONTROL テキスト]**&#x200B;の設定と類似しています。詳しくは、この[ページ](../../delivery/using/defining-the-email-content.md#message-content)を参照してください。
+このタイプのメッセージの設定は、E メールの&#x200B;**[!UICONTROL テキスト]**&#x200B;の設定と類似しています。詳しくは、この[ページ](defining-the-email-content.md#message-content)を参照してください。
 
 ### 画像とリンクの配信の設定 {#configuring-an-image-and-link-delivery}
 
@@ -239,7 +239,7 @@ ht-degree: 99%
 
 1. 配信の設定ウィンドウで、ターゲット母集団を選択します。
 
-   詳しくは、[ターゲット母集団の識別](../../delivery/using/steps-defining-the-target-population.md)を参照してください。
+   詳しくは、[ターゲット母集団の識別](steps-defining-the-target-population.md)を参照してください。
 
    ![](assets/line_usecase_02.png)
 

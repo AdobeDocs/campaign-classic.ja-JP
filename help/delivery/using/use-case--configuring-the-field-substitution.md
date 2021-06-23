@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 配信の作成 {#step-1---creating-a-delivery}
 
-配信の作成手順について詳しくは、[E メール配信の作成](../../delivery/using/creating-an-email-delivery.md)の節で説明しています。
+配信の作成手順について詳しくは、[E メール配信の作成](creating-an-email-delivery.md)の節で説明しています。
 
 以下は、配信責任者がニュースレターを作成した例です。
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 この列挙は、顧客が好む読み物のジャンルを指定するためのものです。
 
-データスキーマに加えたこの変更がシードアドレスの&#x200B;**入力フォーム**&#x200B;に表示されるようにするには、入力フォームを更新する必要があります。[入力フォームの更新](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form)の節を参照してください。
+データスキーマに加えたこの変更がシードアドレスの&#x200B;**入力フォーム**&#x200B;に表示されるようにするには、入力フォームを更新する必要があります。[入力フォームの更新](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form)の節を参照してください。
 
 ## パーソナライゼーションの設定 {#configuring-personalization}
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. 配信リストとシードアドレスを設定します。[ターゲット母集団の特定](../../delivery/using/steps-defining-the-target-population.md)を参照してください。
+1. 配信リストとシードアドレスを設定します。[ターゲット母集団の特定](steps-defining-the-target-population.md)を参照してください。
 
    この例では、**SF ジャンルを好んで読む**&#x200B;顧客をメインターゲット母集団にします。
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 動的条件を編集...]**&#x200B;リンクについて詳しくは、[使用例：条件によるシードアドレスの選択](../../delivery/using/use-case--selecting-seed-addresses-on-criteria.md)を参照してください。
+   >**[!UICONTROL 動的条件を編集...]**&#x200B;リンクについて詳しくは、[使用例：条件によるシードアドレスの選択](use-case--selecting-seed-addresses-on-criteria.md)を参照してください。
 
 1. 「**[!UICONTROL プレビュー]**」タブをクリックし、いずれかのシードアドレスを選択して、パーソナライゼーションをテストします。
 

@@ -6,36 +6,36 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
 
 ---
 
-# 配信送信トラブルシューティング{#delivery-troubleshooting}
+# 配信送信トラブルシューティング {#delivery-troubleshooting}
 
 この節では、配信を送信する際に発生する可能性のある一般的な問題と、そのトラブルシューティング方法についてリストします。
 
-さらに、[このページ](../../delivery/using/delivery-performances.md)に記載されているベストプラクティスとチェックリストに従って、配信のパフォーマンスを確保してください。
+さらに、[このページ](delivery-performances.md)に記載されているベストプラクティスとチェックリストに従って、配信のパフォーマンスを確保してください。
 
 **関連トピック：**
 
-* [配信ステータス](../../delivery/using/delivery-statuses.md)
-* [配信ダッシュボード](../../delivery/using/delivery-dashboard.md)
-* [配信エラーの理解](../../delivery/using/understanding-delivery-failures.md)
+* [配信ステータス](delivery-statuses.md)
+* [配信ダッシュボード](delivery-dashboard.md)
+* [配信エラーについて](understanding-delivery-failures.md)
 
 ## 配信が遅い {#slow-deliveries}
 
 「**[!UICONTROL 送信]**」ボタンをクリックした後に、配信が通常より長くかかっているように見えることがあります。これは様々な要素が原因として考えられます。
 
-* 一部の E メールプロバイダーが、ブロックリストに IP アドレスを追加している可能性があります。この場合は、broadLog を確認して[この節](../../delivery/using/about-deliverability.md)を参照してください。
+* 一部の E メールプロバイダーが、ブロックリストに IP アドレスを追加している可能性があります。この場合は、broadLog を確認して[この節](about-deliverability.md)を参照してください。
 
-* 迅速に処理するには配信が大きすぎる可能性があります。これは、JavaScript の高度なパーソナライゼーションで、または配信が 60KB を超えている場合に発生することがあります。コンテンツのガイドラインについて詳しくは、Adobe Campaign の[配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)を参照してください。
+* 迅速に処理するには配信が大きすぎる可能性があります。これは、JavaScript の高度なパーソナライゼーションで、または配信が 60KB を超えている場合に発生することがあります。コンテンツのガイドラインについて詳しくは、Adobe Campaign の[配信のベストプラクティス](delivery-best-practices.md)を参照してください。
 
 * Adobe Campaign MTA 内でスロットルが発生している可能性があります。これは次の原因で発生します。
 
-   * メッセージ保留中（**[!UICONTROL 割り当てに達しました]**&#x200B;というメッセージ）：Campaign に定義されている宣言的 MX ルールによって宣言された割り当てに達しました。このメッセージについて詳しくは、[このページ](../../delivery/using/deliverability-faq.md)を参照してください。MX ルールについて詳しくは、[この節](../../installation/using/email-deliverability.md#about-mx-rules)を参照してください。
+   * メッセージ保留中（**[!UICONTROL 割り当てに達しました]**&#x200B;というメッセージ）：Campaign に定義されている宣言的 MX ルールによって宣言された割り当てに達しました。このメッセージについて詳しくは、[このページ](deliverability-faq.md)を参照してください。MX ルールについて詳しくは、[この節](../../installation/using/email-deliverability.md#about-mx-rules)を参照してください。
 
    * メッセージ保留中（**[!UICONTROL 動的フロー制御]**&#x200B;メッセージ）：指定された ISP にメッセージを配信しようとしたときに Campaign MTA でエラーが発生しました。エラーが甚大になることでブロックリストに登録されることのないよう、低速になります。
 

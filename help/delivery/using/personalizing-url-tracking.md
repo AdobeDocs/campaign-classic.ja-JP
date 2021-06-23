@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->E メール内の画像の管理もこのウィンドウで設定します。[画像の追加](../../delivery/using/defining-the-email-content.md#adding-images)を参照してください。
+>E メール内の画像の管理もこのウィンドウで設定します。[画像の追加](defining-the-email-content.md#adding-images)を参照してください。
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 トラッキングする URL は、ツリー形式で中央のウィンドウに一覧表示されます。
 
-メッセージの URL ごとに個別にトラッキングを有効化または無効化できます。詳しくは、[この節](../../delivery/using/how-to-configure-tracked-links.md)を参照してください。
+メッセージの URL ごとに個別にトラッキングを有効化または無効化できます。詳しくは、[この節](how-to-configure-tracked-links.md)を参照してください。
 
 「**[!UICONTROL 詳細設定]**」タブで、トラッキングされる URL と開封された URL の計算式をパーソナライズできます。
 

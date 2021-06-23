@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 3958fff140cc9bf6c371f0c4207cafc9a27bb725
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1004'
 ht-degree: 4%
 
 ---
@@ -34,7 +34,7 @@ Adobe Campaignには、HTTP（およびSOAP）を介してアプリケーショ�
 >
 >トラッキング機能を使用しない場合は、ApacheまたはIISの標準インストールを実行し、Campaignにリダイレクトできます。 トラッキングWebサーバー拡張モジュールは不要です。
 
-## IIS Webサーバー{#configuring-the-iis-web-server}の設定
+## IIS Webサーバーの設定 {#configuring-the-iis-web-server}
 
 IIS Webサーバーの設定手順は、ほとんどグラフィカルです。 Adobe Campaignサーバーのリソースにアクセスするには、Webサイト（作成済みまたは作成保留中）を使用する必要があります。Java(.jsp)ファイル、スタイルシート(.css、.xsl)、画像(.png)、リダイレクト用のISAPI DLLなど
 
@@ -101,13 +101,16 @@ IIS 7では、標準のサービスに加えて、ISAPI拡張とISAPIフィル�
 
    ![](assets/s_ncs_install_iis7_parameters_step9.png)
 
-### Webサーバーの起動と設定のテスト{#launching-the-web-server-and-testing-the-configuration}
+### Webサーバーの起動と設定のテスト {#launching-the-web-server-and-testing-the-configuration}
 
 次に、設定が正しいかどうかをテストする必要があります。
 
 これをおこなうには、次の手順に従います。
 
 1. **iisreset**&#x200B;コマンドラインを使用してIISサーバーを再起動します。
+
+1. Adobe Campaignサービスを開始し、実行中であることを確認します。
+
 1. 次のURLをWebブラウザーに挿入して、トラッキングモジュールをテストします。
 
    ```
@@ -144,7 +147,7 @@ webmdl@default (1644) - 18.2 Mo
 
 ## その他の設定 {#additional-configurations}
 
-### アップロードファイルのサイズ制限{#changing-the-upload-file-size-limit}の変更
+### アップロードファイルのサイズ制限の変更 {#changing-the-upload-file-size-limit}
 
 IIS Webサーバーを設定する場合、サーバーにアップロードされる設定ファイルに対して、約28 MBの制限が自動的に適用されます。
 
@@ -164,7 +167,7 @@ IIS Webサーバーを設定する場合、サーバーにアップロードさ�
 >
 >このIISオプションの詳細については、[公式ドキュメント](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)の「使い方」の節を参照してください。
 
-### HTTPエラーメッセージ表示{#configuring-http-error-message-display}の設定
+### HTTPエラーメッセージ表示の設定 {#configuring-http-error-message-display}
 
 6.1バージョンのIISサーバーを使用している場合、メッセージに望ましくないHTMLコードが表示されるので、生成されたエラーメッセージを読み取るのが困難な場合があります。
 

@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 100%
@@ -75,7 +75,7 @@ E メールを作成するとします。まず受信者の名前を挿入し、
 
 ## パーソナライゼーションの最適化 {#optimizing-personalization}
 
-配信プロパティの「**[!UICONTROL 分析]**」タブで使用できる専用のオプション、「**[!UICONTROL ワークフローを使用してパーソナライゼーションデータを準備]**」を使用して、パーソナライゼーションを最適化できます。配信の分析について詳しくは、[この節](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
+配信プロパティの「**[!UICONTROL 分析]**」タブで使用できる専用のオプション、「**[!UICONTROL ワークフローを使用してパーソナライゼーションデータを準備]**」を使用して、パーソナライゼーションを最適化できます。配信の分析について詳しくは、[この節](steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
 
 このオプションを選択すると、配信の分析時に、一時テーブル内のターゲットにリンクするすべてのデータ（FDA にリンクするテーブルのデータなど）を保存するワークフローが自動的に作成、実行されます。
 

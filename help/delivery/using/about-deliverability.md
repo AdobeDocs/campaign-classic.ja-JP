@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 100%
@@ -40,15 +40,15 @@ ht-degree: 100%
 Adobe Campaign では、配信品質は多くの要因に左右されます。特に次のような要因があげられます。
 
 * インスタンスの正しい設定：詳しくはアドビ担当者にお問い合わせください。
-* 適切なネットワーク構成：[この節](../../delivery/using/optimize-delivery.md#network-config)と[ドメインの設定と戦略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#transition-process)を参照してください。
+* 適切なネットワーク構成：[この節](optimize-delivery.md#network-config)と[ドメインの設定と戦略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#transition-process)を参照してください。
 * IP アドレスの評価：[IP 戦略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#ip-strategy)を参照してください。
-* アドレスの品質の目標：[強制隔離管理](../../delivery/using/optimize-delivery.md#quarantine-management)を参照してください。
+* アドレスの品質の目標：[強制隔離管理](optimize-delivery.md#quarantine-management)を参照してください。
 * 低い[苦情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja)率と[ハードバウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)率。
-* メッセージコンテンツ：[E メールコンテンツの制御](../../delivery/using/control-message-content.md)を参照してください。
+* メッセージコンテンツ：[E メールコンテンツの制御](control-message-content.md)を参照してください。
 * メッセージ認証（SPF、DKIM、DMARC）：[この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
 * 送信者の評判：主要 ISP が送信者の評判を評価する方法については、[この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=ja)を参照してください。
 
-## Campaign の配信品質ツール{#deliverability-tools}
+## Campaign の配信品質ツール {#deliverability-tools}
 
 <!--Adobe Campaign provides a number of tools designed to ensure optimal deliverability.-->
 Adobe Campaign には、プラットフォームの配信品質パフォーマンスを追跡し改善するためのツールがいくつか用意されています。 また、Campaign を使用する際に配信品質を最適化するために考慮すべき主な原則についても説明します。
@@ -57,10 +57,10 @@ Adobe Campaign には、プラットフォームの配信品質パフォーマ�
 
 メッセージを設定、デザイン、テストする場合は、次の節に示すベストプラクティスに従うようにしてください。 Adobe Campaign で提供されるすべての機能を活用すると、配信品質の向上に役立ちます。
 
-* [配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)
-* [E メールコンテンツの制御](../../delivery/using/control-message-content.md)
-* [受信ボックスレンダリング](../../delivery/using/inbox-rendering.md)
-* [配達確認の送信](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)
+* [配信のベストプラクティス](delivery-best-practices.md)
+* [E メールコンテンツの制御](control-message-content.md)
+* [受信ボックスレンダリング](inbox-rendering.md)
+* [配達確認の送信](steps-validating-the-delivery.md#sending-a-proof)
 
 ### ダブルオプトインによる同意確認 {#double-opt-in}
 
@@ -80,9 +80,9 @@ Adobe Campaign は、絶えず発生するスパムの苦情、ハードバウ�
 
 詳しくは、以下の節を参照してください。
 
-* [配信エラーの理解](../../delivery/using/understanding-delivery-failures.md)
-* [強制隔離管理の理解](../../delivery/using/understanding-quarantine-management.md)
-* [強制隔離とブロックリストの比較](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+* [配信エラーについて](understanding-delivery-failures.md)
+* [強制隔離管理について](understanding-quarantine-management.md)
+* [強制隔離とブロックリストの比較](understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ### 監視ツールとレポートツールの使用
 
@@ -92,8 +92,8 @@ Adobe Campaign では、一連の組み込みのリアルタイムインジケ�
 
 詳しくは、以下の節を参照してください。
 
-* [配信品質の監視](../../delivery/using/monitoring-deliverability.md)
-* [配信の監視について](../../delivery/using/about-delivery-monitoring.md)
+* [配信品質の監視](monitoring-deliverability.md)
+* [配信の監視について](about-delivery-monitoring.md)
 * [Campaign の組み込みレポートについて](../../reporting/using/about-campaign-built-in-reports.md)
 
 <!--TO REMOVE

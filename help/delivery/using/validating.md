@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
@@ -15,13 +15,13 @@ ht-degree: 100%
 
 # 検証{#validating}
 
-配信を検証する際のグローバル概念については、[この節](../../delivery/using/steps-validating-the-delivery.md)で説明しています。
+配信を検証する際のグローバル概念については、[この節](steps-validating-the-delivery.md)で説明しています。
 
-ダイレクトメール配信の出力ファイルは、配信分析中に生成されます。ファイルの内容は、選択した出力列によって異なります（[抽出ファイル](../../delivery/using/defining-the-direct-mail-content.md#extraction-file)を参照）。
+ダイレクトメール配信の出力ファイルは、配信分析中に生成されます。ファイルの内容は、選択した出力列によって異なります（[抽出ファイル](defining-the-direct-mail-content.md#extraction-file)を参照）。
 
 >[!NOTE]
 >
->分析フェーズについて詳しくは、[配信の分析](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)で説明しています。
+>分析フェーズについて詳しくは、[配信の分析](steps-validating-the-delivery.md#analyzing-the-delivery)で説明しています。
 
 分析フェーズではファイルが生成されますが、受信者に関する情報（配信ログなど）は更新されません。したがって、このジョブをキャンセルしても問題は発生しません。
 

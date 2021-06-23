@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-詳しくは、完全な実装例、[配信ウィザードでのコンテンツの作成](../../delivery/using/use-case--creating-content-management.md#creating-content-in-the-delivery-wizard)を参照してください。
+詳しくは、完全な実装例、[配信ウィザードでのコンテンツの作成](use-case--creating-content-management.md#creating-content-in-the-delivery-wizard)を参照してください。
 
 ## コンテンツインスタンスの作成 {#creating-a-content-instance}
 
@@ -69,13 +69,13 @@ Adobe Campaign のツリー内で直接コンテンツを作成して、ワー�
 
    >[!NOTE]
    >
-   >未承認コンテンツの生成を可能にする設定ができます。そのためには、パブリッシュテンプレートの関連オプションを変更します。詳しくは、[パブリッシュテンプレートの作成と設定](../../delivery/using/publication-templates.md#creating-and-configuring-the-template)を参照してください。
+   >未承認コンテンツの生成を可能にする設定ができます。そのためには、パブリッシュテンプレートの関連オプションを変更します。詳しくは、[パブリッシュテンプレートの作成と設定](publication-templates.md#creating-and-configuring-the-template)を参照してください。
 
    デフォルトでは、HTML コンテンツとテキストコンテンツは、Adobe Campaign インスタンスの&#x200B;**パブリッシュ**&#x200B;フォルダーに生成されます。パブリッシュフォルダーは、**NcmPublishingDir** オプションを使用して変更できます。
 
 ## コンテンツインスタンスの配信 {#delivering-a-content-instance}
 
-コンテンツインスタンスを作成して配信するためには、配信テンプレートをこのコンテンツの生成に使用するパブリッシュテンプレートにリンクする必要があります。詳しくは、[配信](../../delivery/using/publication-templates.md#delivery)を参照してください。
+コンテンツインスタンスを作成して配信するためには、配信テンプレートをこのコンテンツの生成に使用するパブリッシュテンプレートにリンクする必要があります。詳しくは、[配信](publication-templates.md#delivery)を参照してください。
 
 さらに、コンテンツストレージフォルダーは、このパブリッシュテンプレートから取得するコンテンツの専用フォルダーにする必要があります（1 つのコンテンツフォルダーで複数のタイプのコンテンツを生成できるようにすると、配信を自動的に生成できません）。
 

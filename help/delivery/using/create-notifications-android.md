@@ -6,16 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: fb2f1769aadbc128d76f343a5fa58ee4e3bda72a
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 95%
 
 ---
 
-# Androidの通知を作成します。{#create-notificaations-android}
+# Android用通知の作成{#create-notificaations-android}
 
-Adobe Campaignを使用して、Androidデバイスでプッシュ通知を送信します。 配信の作成に関するグローバルな概念については、[この節](../../delivery/using/steps-about-delivery-creation-steps.md)で説明しています。
+Adobe Campaignを使用して、Androidデバイスでプッシュ通知を送信します。 配信の作成に関するグローバルな概念については、[この節](steps-about-delivery-creation-steps.md)で説明しています。
 
 新しい配信を作成して開始します。
 
@@ -31,7 +31,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 Firebase Cloud Messaging のメッセージタイプについて詳しくは、[FCM ドキュメント](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages)を参照してください。
 
-## データメッセージ{#creating-data-message}を作成します
+## データメッセージの作成 {#creating-data-message}
 
 1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;に移動します。
 
@@ -65,11 +65,11 @@ Firebase Cloud Messaging のメッセージタイプについて詳しくは、[
 
 ![](assets/nmac_android_4.png)
 
-## 通知メッセージ{#creating-notification-message}を作成します
+## 通知メッセージの作成 {#creating-notification-message}
 
 >[!NOTE]
 >
->通知メッセージのその他のオプションは、HTTP v1 API 設定でのみ使用できます。詳しくは、[この節](../../delivery/using/configuring-the-mobile-application-android.md#android-service-httpv1)を参照してください。
+>通知メッセージのその他のオプションは、HTTP v1 API 設定でのみ使用できます。詳しくは、[この節](configuring-the-mobile-application-android.md#android-service-httpv1)を参照してください。
 
 ![](assets/do-not-localize/how-to-video.png) [Android プッシュ通知の作成方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=ja#additional-resources)
 

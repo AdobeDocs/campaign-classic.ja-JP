@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 0a80912aae4cab58b6f06918a673aaca3883fbdf
 workflow-type: tm+mt
 source-wordcount: '2562'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # プライバシーリクエストの管理 {#privacy-requests}
 
-プライバシー管理に関する一般的なプレゼンテーションについては、[こちら](../../platform/using/privacy-management.md)を参照してください。
+プライバシー管理に関する一般的なプレゼンテーションについては、[この節](../../platform/using/privacy-management.md)を参照してください。
 
 この情報は、GDPR、CCPA、PDPA、LGPD に適用されます。これらの規制について詳しくは、[こちら](../../platform/using/privacy-management.md#privacy-management-regulations)を参照してください。
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ## プライバシーリクエストについて {#about-privacy-requests}
 
-Adobe Campaign では、プライバシー対応の一環として、アクセスリクエストと削除リクエストの処理が可能です。**アクセス権利**&#x200B;および&#x200B;**忘れ去られる権利**（削除リクエスト）については[こちら](../../platform/using/privacy-management.md#right-access-forgotten)で説明しています。
+プライバシーの準備を容易にするために、Adobe Campaign でアクセス要求と削除要求の処理が可能になりました。**アクセス権利**&#x200B;および&#x200B;**忘れ去られる権利**（削除リクエスト）については[こちら](../../platform/using/privacy-management.md#right-access-forgotten)で説明しています。
 
 ここでは、アクセスリクエストと削除リクエストの作成方法および Adobe Campaign での処理方法について説明します。
 
@@ -137,7 +137,7 @@ Adobe Campaign には、Adobe Campaign に保存されているデータに対�
 * **[!UICONTROL 完了]**：リクエストの処理が終了しました。エラーは発生していません。
 * **[!UICONTROL エラー]**：ワークフローにおいて、エラーが発生しました。理由は、プライバシーリクエストのリストの「**[!UICONTROL リクエストのステータス]**」列に表示されます。例えば、「**[!UICONTROL エラー: データが見つかりません]**」は、データ主体の&#x200B;**[!UICONTROL 紐付け値]**&#x200B;と一致する受信者データがデータベースに見つからなかったことを示します。
 
-### 2 段階プロセス{#two-step-process}
+### 2 段階プロセス {#two-step-process}
 
 デフォルトでは、**2 段階プロセス**&#x200B;が有効になっています。このモードで新しい削除リクエストを作成した場合、必ずアクセスリクエストが先に実行されます。これにより、削除前にデータを確認することができます。
 
@@ -165,7 +165,7 @@ Adobe Campaign は、アクセスリクエストの処理時に JSSP を生成�
 
 データ主体のデータファイルの例を以下に示します。
 
-![](assets/privacy-access-file.png)
+![](assets/do-not-localize/privacy-access-file.png)
 
 データ管理者は JSSP URL が含まれる Web アプリケーションを簡単に作成できます。これにより、データ主体のデータファイルを Web ページから使用できるようになります。
 
@@ -257,7 +257,7 @@ API を使用してプライバシーリクエストを送信する場合、最�
 
 1. &quot;Logon&quot; メソッドを使用し、リクエストのパラメーターとしてユーザー名とパスワードを渡します。セッショントークンを含む応答が返されます。SoapUI を使用する場合の例を以下に示します。
 
-   ![](assets/privacy-api.png)
+   ![](assets/do-not-localize/privacy-api.png)
 
 1. 返されたセッショントークンを後続のすべての API 呼び出しの認証として使用します。これは 24 時間後に有効期限切れになります。
 
@@ -269,7 +269,7 @@ API を使用してプライバシーリクエストを送信する場合、最�
 
    **[!UICONTROL CreateRequestByName]** を使用する場合の例を以下に示します。上記で提供されたセッショントークンを認証として使用する方法に注目してください。応答は、作成されたリクエストの ID になります。
 
-   ![](assets/privacy-api-2.png)
+   ![](assets/do-not-localize/privacy-api-2.png)
 
    上記の手順を実行するためには、以下の点を考慮してください。
 
@@ -374,7 +374,7 @@ Campaign Classic 内で JS から API を呼び出す方法の例を以下に示
    // User can use a simple queryDef with requestID as a parameter to check request status.
    ```
 
-## 個人情報の販売のオプトアウト（CCPA）{#sale-of-personal-information-ccpa}
+## 個人情報の販売のオプトアウト（CCPA） {#sale-of-personal-information-ccpa}
 
 **カリフォルニア州消費者プライバシー法**（CCPA）は、カリフォルニア州民に個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスをおこなう特定の事業者に対してデータ保護の責任を課します。
 
@@ -388,9 +388,9 @@ Adobe Campaign が提供する[同意管理](../../platform/using/privacy-manage
 
 >[!IMPORTANT]
 >
->データ主体のリクエストを受け取り、CCPA のリクエスト日を追跡するのは、データ管理者の責任です。アドビはテクノロジープロバイダーとして、オプトアウトの方法を提供するだけです。 データ管理者としての役割について詳しくは、「[個人データとペルソナ](../../platform/using/privacy-and-recommendations.md#personal-data)」を参照してください。
+>データ主体のリクエストを受け取り、CCPA のリクエスト日を追跡するのは、データ管理者の責任です。アドビはテクノロジープロバイダーとして、オプトアウトの方法を提供するだけです。 データ管理者としての役割について詳しくは、[個人データとペルソナ](../../platform/using/privacy-and-recommendations.md#personal-data)を参照してください。
 
-### 前提条件{#ccpa-prerequisite}
+### 前提条件 {#ccpa-prerequisite}
 
 この情報を活用するには、Adobe Campaign Classic でこのフィールドを作成する必要があります。この場合、**[!UICONTROL 受信者]**&#x200B;テーブルにブール値フィールドを追加します。新しいフィールドが作成されると、Campaign API によって自動的にサポートされます。
 

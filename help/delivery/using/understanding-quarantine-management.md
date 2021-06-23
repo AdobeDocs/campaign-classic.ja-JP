@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '2702'
 ht-degree: 100%
@@ -29,9 +29,9 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 
 一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムと見なします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
 
-また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。配信を保護および最適化するベストプラクティスについて詳しくは、[このページ](../../delivery/using/delivery-best-practices.md)を参照してください。
+また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。配信を保護および最適化するベストプラクティスについて詳しくは、[このページ](delivery-best-practices.md)を参照してください。
 
-### 強制隔離対ブロックリスト{#quarantine-vs-denylist}
+### 強制隔離とブロックリストの比較 {#quarantine-vs-denylist}
 
 **強制隔離**&#x200B;は、プロファイル自体ではなく、アドレスのみに適用されます。つまり、2 つのプロファイルに同じ E メールアドレスがある場合、そのアドレスが強制隔離されると、両方のプロファイルが影響を受けます。
 
@@ -49,7 +49,7 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 
 ### 配信用の強制隔離アドレスの識別 {#identifying-quarantined-addresses-for-a-delivery}
 
-特定の配信について強制隔離されたアドレスのリストは、配信準備フェーズの途中で、配信ダッシュボードの配信ログに記録されます（[配信ログと履歴](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history)を参照）。
+特定の配信について強制隔離されたアドレスのリストは、配信準備フェーズの途中で、配信ダッシュボードの配信ログに記録されます（[配信ログと履歴](delivery-dashboard.md#delivery-logs-and-history)を参照）。
 
 ### プラットフォーム全体の強制隔離アドレスの識別 {#identifying-quarantined-addresses-for-the-entire-platform}
 
@@ -68,7 +68,7 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 >強制隔離数の増加は、データベースの「老朽化」に関連する、正常な影響です。例えば、E メールアドレスの寿命が 3 年と考えられ、受信者テーブルが毎年 50％増加する場合、強制隔離の増加は次のように計算できます。
 >
 >1 年目の終了時：(1*0.33)/(1+0.5)=22%
->2 年目の終了時：((1.22*0.33)+0.33)/(1.5+0.75)=32.5%
+2 年目の終了時：((1.22*0.33)+0.33)/(1.5+0.75)=32.5%
 
 ### 配信レポートでの強制隔離アドレスの識別 {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -111,14 +111,13 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 その後、ステータスは「**[!UICONTROL 有効]**」に変わります。
 
 >[!IMPORTANT]
->
->アドレスのステータスが「**[!UICONTROL 強制隔離中]**」または「**[!UICONTROL ブロックリストに登録済み]**」の受信者は、E メールを受信した場合でも削除されません。
+アドレスのステータスが「**[!UICONTROL 強制隔離中]**」または「**[!UICONTROL ブロックリストに登録済み]**」の受信者は、E メールを受信した場合でも削除されません。
 
 エラー数およびエラーの間隔も変更できます。そのためには、デプロイメントウィザードの設定（**[!UICONTROL E メールチャネル]**／**[!UICONTROL 詳細設定パラメーター]**）を変更します。デプロイメントウィザードについて詳しくは、[この節](../../installation/using/deploying-an-instance.md)を参照してください。
 
 ## アドレスを強制隔離する条件 {#conditions-for-sending-an-address-to-quarantine}
 
-Adobe Campaign では、エラーメッセージの選定で割り当てられた配信のエラータイプと理由に応じて強制隔離を管理します（[バウンスメールの選定](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)および[配信のエラータイプと理由](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照）。
+Adobe Campaign では、エラーメッセージの選定で割り当てられた配信のエラータイプと理由に応じて強制隔離を管理します（[バウンスメールの選定](understanding-delivery-failures.md#bounce-mail-qualification)および[配信のエラータイプと理由](understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照）。
 
 * **無視のエラー**：アドレスを強制隔離しません。
 * **ハードエラー**：対応する E メールアドレスがただちに強制隔離されます。
@@ -136,7 +135,7 @@ Adobe Campaign では、エラーメッセージの選定で割り当てられ�
 
 * エラーカウンターが制限しきい値に達すると、アドレスが強制隔離されます。
 * デフォルトの設定では、しきい値はエラー 5 回に設定されています。2 つのエラーは、24 時間以上間隔を開けて発生した場合に別のエラーとしてカウントされます。5 回目のエラー発生時にアドレスが強制隔離されます。
-* エラーカウンターのしきい値は変更できます。詳しくは、[一時的な配信エラーの後の再試行](../../delivery/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
+* エラーカウンターのしきい値は変更できます。詳しくは、[一時的な配信エラーの後の再試行](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
 
 最後に重大なエラーが発生したのが 10 日以上前の場合、エラーカウンターが再初期化されます。アドレスのステータスが「**有効**」に変わり、**データベースクリーンアップ**&#x200B;ワークフローが強制隔離のリストからアドレスを削除します。
 
@@ -252,11 +251,10 @@ Adobe Campaign は通知ごとに FCM サーバーから直接同期エラーを
 配信分析中に、ターゲットから除外されたすべてのデバイスが自動的に **excludeLogAppSubRcp** テーブルに追加されます。
 
 >[!NOTE]
->
->Baidu コネクタを使用している場合、さらに別の種類のエラーがあります。
->* 配信開始時の接続の問題：エラータイプは「**[!UICONTROL 未定義]**」で、エラーの理由は「**[!UICONTROL 未到達]**」です。再試行は実行されます。
->* 配信中の接続切断：ソフトエラーが生成され、エラーの理由は「**[!UICONTROL 拒否]**」です。再試行は実行されます。
->* 送信中に Baidu により同期エラーが返される：ハードエラーが生成され、エラーの理由は「**[!UICONTROL 拒否]**」です。再試行はありません。
+Baidu コネクタを使用している場合、さらに別の種類のエラーがあります。
+* 配信開始時の接続の問題：エラータイプは「**[!UICONTROL 未定義]**」で、エラーの理由は「**[!UICONTROL 未到達]**」です。再試行は実行されます。
+* 配信中の接続切断：ソフトエラーが生成され、エラーの理由は「**[!UICONTROL 拒否]**」です。再試行は実行されます。
+* 送信中に Baidu により同期エラーが返される：ハードエラーが生成され、エラーの理由は「**[!UICONTROL 拒否]**」です。再試行はありません。
 
 Adobe Campaign は 10 分ごとに Baidu サーバーにアクセスし、送信済みメッセージのステータスを取得し、broadLog を更新します。メッセージが送信済みと宣言されると、broadLog のメッセージのステータスが「**[!UICONTROL 受信済み]**」に設定されます。Baidu がエラーを宣言すると、ステータスは「**[!UICONTROL 失敗]**」に設定されます。
 
@@ -476,8 +474,7 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
 SMS メッセージの強制隔離メカニズムは、全体として通常のプロセスと同じものです。[強制隔離について](#about-quarantines)を参照してください。SMS 特有の方式を以下に示します。
 
 >[!NOTE]
->
->**[!UICONTROL 配信ログの選定]**&#x200B;テーブルは、**拡張された汎用 SMPP** コネクタには適用されません。
+**[!UICONTROL 配信ログの選定]**&#x200B;テーブルは、**拡張された汎用 SMPP** コネクタには適用されません。
 
 <table> 
  <tbody> 
@@ -528,16 +525,15 @@ SMS メッセージの強制隔離メカニズムは、全体として通常の�
 
 **拡張された汎用 SMPP コネクタの場合**
 
-SMPP プロトコルを使用して SMS メッセージを送信する場合のエラー管理の方法は異なります。拡張された汎用 SMPP コネクタについて詳しくは、[このページ](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)を参照してください。
+SMPP プロトコルを使用して SMS メッセージを送信する場合のエラー管理の方法は異なります。拡張された汎用 SMPP コネクタについて詳しくは、[このページ](sms-set-up.md#creating-an-smpp-external-account)を参照してください。
 
 SMPP コネクタは、返された SR（ステータスレポート）メッセージからデータを取得し、正規表現（regex）を使用して、そのコンテンツをフィルター処理します。このデータは、次に、**[!UICONTROL 配信ログの検証]**&#x200B;テーブル（**[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信不能件数の管理]**&#x200B;メニューから使用できます）に見つかった情報と照合されます。
 
 新しいタイプのエラーが検証される前に、エラーの理由はデフォルトで常に「**拒否**」に設定されます。
 
 >[!NOTE]
->
->エラーのタイプと理由は E メールの場合と同じです。[配信エラーのタイプと理由](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
->配信ログの検証テーブルに適切なエラータイプおよび理由を設定するために、ステータスコードおよびエラーコードのリストをプロバイダーに問い合わせてください。
+エラーのタイプと理由は E メールの場合と同じです。[配信エラーのタイプと理由](understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
+配信ログの検証テーブルに適切なエラータイプおよび理由を設定するために、ステータスコードおよびエラーコードのリストをプロバイダーに問い合わせてください。
 
 生成されるメッセージの例：
 
@@ -546,13 +542,13 @@ SR Generic DELIVRD 000|#MESSAGE#
 ```
 
 * SMS のエラーコードを E メールのエラーコードと区別するために、すべてのエラーメッセージは **SR** で始まります。
-* エラーメッセージの 2 つ目の部分（この例では **Generic**）は、SMSC 実装の名前（例えば、SMS 外部アカウントの「**[!UICONTROL SMSC 実装名]**」フィールドに定義されている名前）を指します。[このページ](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)を参照してください。
+* エラーメッセージの 2 つ目の部分（この例では **Generic**）は、SMSC 実装の名前（例えば、SMS 外部アカウントの「**[!UICONTROL SMSC 実装名]**」フィールドに定義されている名前）を指します。[このページ](sms-set-up.md#creating-an-smpp-external-account)を参照してください。
 
    同じエラーコードであってもプロバイダーごとに意味が異なる場合があるので、エラーコードを生成したプロバイダーがこのフィールドでわかります。これにより、該当するプロバイダーのドキュメントでエラーを調べることができます。
 
 * エラーメッセージの 3 つ目の部分（この例では **DELIVRD**）は、SMS 外部アカウントに定義されたステータス抽出用正規表現を使用して SR から取得されたステータスコードに対応します。
 
-   この正規表現は、外部アカウントの「**[!UICONTROL SMSC 特異性]**」タブで指定します。[このページ](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)を参照してください。
+   この正規表現は、外部アカウントの「**[!UICONTROL SMSC 特異性]**」タブで指定します。[このページ](sms-set-up.md#creating-an-smpp-external-account)を参照してください。
 
    ![](assets/tech_quarant_error_regex.png)
 
@@ -560,10 +556,10 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 * エラーメッセージの 4 つ目の部分（この例では **000**）は、SMS 外部アカウントに定義されたエラーコード抽出用正規表現を使用して SR から抽出されたエラーコードに対応します。
 
-   この正規表現は、外部アカウントの「**[!UICONTROL SMSC 特異性]**」タブで指定します。[このページ](../../delivery/using/sms-set-up.md#creating-an-smpp-external-account)を参照してください。
+   この正規表現は、外部アカウントの「**[!UICONTROL SMSC 特異性]**」タブで指定します。[このページ](sms-set-up.md#creating-an-smpp-external-account)を参照してください。
 
    デフォルトでは、**SMPP 3.4 仕様**&#x200B;の&#x200B;**付録 B** に規定されているとおり、**err:** フィールドが抽出されます。
 
-* パイプ記号（|）以降の文字列は、**[!UICONTROL 配信ログの検証]**&#x200B;テーブルの&#x200B;**[!UICONTROL 最初のテキスト]**&#x200B;列にのみ表示されます。このコンテンツは、常に、メッセージが正規化された後に **#MESSAGE#** で置き換えられます。これにより、同じようなエラーに対して複数のエントリが含まれるのを防ぐことができます。これは、E メールの場合と同じです。詳しくは、[バウンスメールの選定](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)を参照してください。
+* パイプ記号（|）以降の文字列は、**[!UICONTROL 配信ログの検証]**&#x200B;テーブルの&#x200B;**[!UICONTROL 最初のテキスト]**&#x200B;列にのみ表示されます。このコンテンツは、常に、メッセージが正規化された後に **#MESSAGE#** で置き換えられます。これにより、同じようなエラーに対して複数のエントリが含まれるのを防ぐことができます。これは、E メールの場合と同じです。詳しくは、[バウンスメールの選定](understanding-delivery-failures.md#bounce-mail-qualification)を参照してください。
 
 拡張された汎用 SMPP コネクタは、ヒューリスティックを適用して実用的なデフォルト値を見つけます。例えば、**DELIV** で始まるステータスは、ほとんどのプロバイダーでよく使用されている **DELIVRD** または **DELIVERED** と一致するので、成功とみなされます。これ以外のステータスはハードエラーとみなされます。

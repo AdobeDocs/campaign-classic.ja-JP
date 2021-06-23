@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 91%
@@ -19,7 +19,7 @@ Adobe Campaign Content Managerモジュールは、定期的ニュースレタ�
 
 >[!NOTE]
 >
->この節では、コンテンツ管理モジュールについて説明します。E メール配信コンテンツのデザイン方法について詳しくは、[この節](../../delivery/using/defining-the-email-content.md)を参照してください。
+>この節では、コンテンツ管理モジュールについて説明します。E メール配信コンテンツのデザイン方法について詳しくは、[この節](defining-the-email-content.md)を参照してください。
 
 コンテンツ管理モジュールには、作業グループ、ワークフローおよびコンテンツ集計機能が含まれます。そのため、メッセージを自動的に書式設定できます（E メール、郵便、SMS、Web など）。
 

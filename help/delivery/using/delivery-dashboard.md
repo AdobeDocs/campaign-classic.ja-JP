@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 100%
@@ -32,10 +32,10 @@ ht-degree: 100%
 
 **関連トピック：**
 
-* [配信エラーの理解](../../delivery/using/understanding-delivery-failures.md)
-* [強制隔離管理の理解](../../delivery/using/understanding-quarantine-management.md)
-* [配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)
-* [配信品質の管理](../../delivery/using/about-deliverability.md)
+* [配信エラーについて](understanding-delivery-failures.md)
+* [強制隔離管理について](understanding-quarantine-management.md)
+* [配信のベストプラクティス](delivery-best-practices.md)
+* [配信品質の管理](about-deliverability.md)
 
 ## 配信の概要 {#delivery-summary}
 
@@ -49,11 +49,11 @@ ht-degree: 100%
 
 ![](assets/delivery-report.png)
 
-## 配信ログ、履歴、除外{#delivery-logs-and-history}
+## 配信ログ、履歴、除外 {#delivery-logs-and-history}
 
 「**[!UICONTROL 配信]**」タブには、この配信内で発生した事象の履歴が表示されます。このタブには、配信ログ、つまり、送信されたメッセージのリストとそのステータスおよび関連メッセージが含まれます。
 
-1 つの配信について、（例えば）配信が失敗した受信者や、アドレスが強制隔離中の受信者のみを表示できます。そのためには、「**[!UICONTROL フィルター]**」ボタンをクリックして、「**[!UICONTROL ステータス別]**」を選択します。ドロップダウンリストでステータスを選択します。各種ステータスについて詳しくは、[このページ](../../delivery/using/delivery-statuses.md)を参照してください。
+1 つの配信について、（例えば）配信が失敗した受信者や、アドレスが強制隔離中の受信者のみを表示できます。そのためには、「**[!UICONTROL フィルター]**」ボタンをクリックして、「**[!UICONTROL ステータス別]**」を選択します。ドロップダウンリストでステータスを選択します。各種ステータスについて詳しくは、[このページ](delivery-statuses.md)を参照してください。
 
 >[!NOTE]
 >
@@ -63,11 +63,11 @@ ht-degree: 100%
 
 「**[!UICONTROL このメッセージのミラーページを表示]**」リンクを使用して、リストから選択した配信のコンテンツのミラーページを新しいウィンドウに表示できます。
 
-ミラーページは、HTML コンテンツが定義済みの配信に対してのみ表示可能です。詳しくは、[ミラーページの生成](../../delivery/using/sending-messages.md#generating-the-mirror-page)を参照してください。
+ミラーページは、HTML コンテンツが定義済みの配信に対してのみ表示可能です。詳しくは、[ミラーページの生成](sending-messages.md#generating-the-mirror-page)を参照してください。
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
-## 配信トラッキングログと履歴{#tracking-logs}
+## 配信トラッキングログと履歴 {#tracking-logs}
 
 「**[!UICONTROL トラッキング]**」タブには、この配信のトラッキング履歴が一覧表示されます。このタブには、送信されたメッセージのトラッキングデータ、つまり、Adobe Campaign によってトラッキングされたすべての URL が表示されます。トラッキングデータは 1 時間ごとに更新されます。
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 >
 >配信トラッキングが有効になっていない場合、このタブは表示されません。
 
-トラッキング設定は、配信ウィザードの適切なステージで実行されます。[トラッキングするリンクの設定方法](../../delivery/using/how-to-configure-tracked-links.md)を参照してください。
+トラッキング設定は、配信ウィザードの適切なステージで実行されます。[トラッキングするリンクの設定方法](how-to-configure-tracked-links.md)を参照してください。
 
 **[!UICONTROL トラッキング]**&#x200B;データは、配信レポートに表示されます。[この節](../../reporting/using/delivery-reports.md)を参照してください。
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 
 これにより、様々な Web クライアント、Web メールおよびデバイスで受信者へのメッセージの表示が最適化されていることを確認してください。
 
-受信ボックスレンダリングについて詳しくは、[このページ](../../delivery/using/inbox-rendering.md)を参照してください。
+受信ボックスレンダリングについて詳しくは、[このページ](inbox-rendering.md)を参照してください。
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 **[!UICONTROL 更新]**&#x200B;ボタンを使用してデータを更新できます。「**[!UICONTROL フィルター]**」ボタンを使用して、データに対してフィルターを定義します。
 
-特別なアイコンによって、エラーまたは警告を識別できます。[配信の分析](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
+特別なアイコンによって、エラーまたは警告を識別できます。[配信の分析](steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
 
 「**[!UICONTROL 配達確認]**」サブタブには、送信済みの配達確認のリストが表示されます。
 
@@ -121,7 +121,7 @@ ht-degree: 100%
 
 配信ダッシュボードで各種レポートの配信をトラッキングすることもできます。詳しくは、[この節](../../reporting/using/delivery-reports.md)を参照してください。
 
-## 使用例：送信者の IP アドレスをログに追加する{#use-case}
+## 使用例：送信者の IP アドレスをログに追加する {#use-case}
 
 この節では、配信で各 E メールを送信した IP アドレスに関する配信ログ情報を追加する方法を学びます。
 

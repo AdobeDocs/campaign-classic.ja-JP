@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 100%
@@ -103,8 +103,8 @@ Adobe Campaign を使用した配信のデザインと送信に関するベス�
 
 関連項目：
 
-* [配信品質の概要](../../delivery/using/about-deliverability.md)
+* [配信品質の概要](about-deliverability.md)
 
-* [配信の作成手順](../../delivery/using/steps-about-delivery-creation-steps.md)
+* [配信の作成手順](steps-about-delivery-creation-steps.md)
 
 * [セキュリティ／プライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)

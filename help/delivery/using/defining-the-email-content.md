@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 このウィンドウでは、E メールのメッセージヘッダーを作成するために必要なすべての情報を入力できます。この情報はパーソナライズ可能です。パーソナライズするには、入力フィールドの右にあるボタンを使用してパーソナライゼーションフィールドを挿入します。
 
-パーソナライゼーションフィールドの挿入方法および使用方法については、[パーソナライゼーションについて](../../delivery/using/about-personalization.md)の節を参照してください。
+パーソナライゼーションフィールドの挿入方法および使用方法については、[パーソナライゼーションについて](about-personalization.md)の節を参照してください。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->パーソナライゼーションフィールドの使用方法については、[パーソナライゼーションについて](../../delivery/using/about-personalization.md)を参照してください。
+>パーソナライゼーションフィールドの使用方法については、[パーソナライゼーションについて](about-personalization.md)を参照してください。
 
 **[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウを使用して、件名行に顔文字を挿入することもできます。
 
@@ -91,7 +91,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >パーソナライゼーションフィールドの使用方法については、[パーソナライゼーションについて](../../delivery/using/about-personalization.md)を参照してください。
+   >パーソナライゼーションフィールドの使用方法については、[パーソナライゼーションについて](about-personalization.md)を参照してください。
 
    ページの下部にあるタブでは、作成されるページの HTML コードや、メッセージにパーソナライゼーションを含めたレンダリング結果を表示して確認できます。これらを表示するには、「**[!UICONTROL プレビュー]**」をクリックし、ツールバーの&#x200B;**[!UICONTROL パーソナライゼーションをテスト]**&#x200B;ボタンを使用して受信者を選択します。定義済みターゲットの中から受信者を選択することも、別の受信者を指定することもできます。
 
@@ -137,7 +137,7 @@ Select the format of the email in the lower section of the window:
 
 Adobe Campaign では、特定の条件下での動的な E メールの送信を可能にする、新しいインタラクティブ [AMP for Email](https://amp.dev/about/email/) フォーマットを試すことができます。
 
-詳しくは、[この節](../../delivery/using/defining-interactive-content.md)を参照してください。
+詳しくは、[この節](defining-interactive-content.md)を参照してください。
 
 ## コンテンツ管理の使用 {#using-content-management}
 
@@ -151,9 +151,9 @@ Adobe Campaign では、特定の条件下での動的な E メールの送信�
 
 >[!NOTE]
 >
->Adobe Campaign のコンテンツ管理について詳しくは、[この節](../../delivery/using/about-content-management.md)を参照してください。
+>Adobe Campaign のコンテンツ管理について詳しくは、[この節](about-content-management.md)を参照してください。
 
-## 顔文字を挿入{#inserting-emoticons}
+## 顔文字を挿入 {#inserting-emoticons}
 
 E メールコンテンツに顔文字を挿入できます。
 
@@ -164,7 +164,7 @@ E メールコンテンツに顔文字を挿入できます。
 
 1. 挿入が完了したら、「**[!UICONTROL 閉じる]**」ボタンをクリックします。
 
-顔文字のリストをカスタマイズするには、この[ページ](../../delivery/using/customizing-emoticon-list.md)を参照してください。
+顔文字のリストをカスタマイズするには、この[ページ](customizing-emoticon-list.md)を参照してください。
 
 ## 画像の追加 {#adding-images}
 
@@ -215,7 +215,7 @@ HTML 形式の E メール配信には、画像を含めることができます
 
 >[!NOTE]
 >
->パフォーマンスの問題を回避するために、パーソナライズされた URL からその場でダウンロードされた画像を[添付ファイル](../../delivery/using/attaching-files.md)として含める場合、デフォルトで各画像サイズが 100,000 バイトを超えないようにする必要があります。この推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
+>パフォーマンスの問題を回避するために、パーソナライズされた URL からその場でダウンロードされた画像を[添付ファイル](attaching-files.md)として含める場合、デフォルトで各画像サイズが 100,000 バイトを超えないようにする必要があります。この推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
 
 ここでは、4 個の画像を含んだ配信を例にとって説明します。
 

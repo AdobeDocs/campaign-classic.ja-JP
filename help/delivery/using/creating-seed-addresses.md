@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
@@ -58,4 +58,4 @@ Adobe Campaign では、シードアドレスのテンプレートも作成可�
 
    ![](assets/s_ncs_user_seedlist_folder_is_model.png)
 
-   これにより、このフォルダーに格納したアドレスをアドレステンプレートとして使用できるようになります。これらを配信またはキャンペーンにインポートし、該当する配信およびキャンペーンに特有のニーズに基づいて変更することができます（[シードアドレスの追加](../../delivery/using/adding-seed-addresses.md)を参照）。
+   これにより、このフォルダーに格納したアドレスをアドレステンプレートとして使用できるようになります。これらを配信またはキャンペーンにインポートし、該当する配信およびキャンペーンに特有のニーズに基づいて変更することができます（[シードアドレスの追加](adding-seed-addresses.md)を参照）。

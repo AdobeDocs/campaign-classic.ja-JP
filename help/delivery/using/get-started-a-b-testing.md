@@ -6,14 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
 
 ---
 
-# A/B テストの概要 {#get-started-a-b-testing}
+# A/B テストの基本を学ぶ {#get-started-a-b-testing}
 
 A/B テストを使用すると、複数のバージョンを相互に比較して、ターゲット母集団に最も大きな影響を与える配信を識別できます。
 
@@ -23,7 +23,7 @@ A/B テストを使用すると、複数のバージョンを相互に比較し�
 
 ![](assets/a-b-testing-schema.png)
 
-Campaign Classic により、A/B テストはワークフローを通じて実装されます。ターゲットにする母集団と、各バリアントを受け取るグループを指定します（[A/B テストの設定](../../delivery/using/configuring-a-b-testing.md)を参照）。
+Campaign Classic により、A/B テストはワークフローを通じて実装されます。ターゲットにする母集団と、各バリアントを受け取るグループを指定します（[A/B テストの設定](configuring-a-b-testing.md)を参照）。
 
 主な手順は次のとおりです。
 
@@ -37,4 +37,4 @@ Campaign Classic により、A/B テストはワークフローを通じて実�
 
 >[!NOTE]
 >
->また、ワークフローを使用すると、プロセスの自動化が可能です。より良いパフォーマンスを示した配信バリアントを自動的に識別して、その他の母集団に送信できます。詳しくは、この専用の[ユースケース](../../delivery/using/a-b-testing-use-case.md)を参照してください。
+>また、ワークフローを使用すると、プロセスの自動化が可能です。より良いパフォーマンスを示した配信バリアントを自動的に識別して、その他の母集団に送信できます。詳しくは、この専用の[ユースケース](a-b-testing-use-case.md)を参照してください。

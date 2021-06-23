@@ -6,14 +6,14 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 778f0a9436f26c10b266019f761b499ab7547be1
+source-git-commit: c612b47463427751eff27d6092e371c918c87d93
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 99%
+source-wordcount: '1634'
+ht-degree: 98%
 
 ---
 
-# 非推奨（廃止予定）および削除された機能 {#deprecated-and-removed-features}
+# 非推奨および削除された機能 {#deprecated-and-removed-features}
 
 アドビは、製品の機能を評価し続けて、より新しい代替手段に置き換えるべき旧機能を特定し、全体的な顧客の価値を向上させ、常に後方互換性を慎重に考慮します。Adobe Campaign Classic はサードパーティ製ツールと連携しており、サポート対象バージョンのみに対応するために、定期的に互換性が更新されています。Adobe Campaign Classic と互換性がなくなったバージョンを、以下および[互換性マトリックス](../../rn/using/compatibility-matrix.md)に示します。
 
@@ -43,9 +43,9 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
     <tr>
   <td>Adobe Analytics コネクタ<br></td>
-   <td><p>Campaign 21.1 リリース以降、Adobe Analytics コネクタは非推奨になりました。</p>
+   <td><p>Campaign 21.1.3 リリース以降、Adobe Analytics コネクタは非推奨になりました。</p>
    <p>このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../platform/using/adobe-analytics-connector.md">詳細情報</a></p>
-  <p><em>削除予定：2022 年</em></p>
+  <p><em>削除のターゲット日：2022年3月2日</em></p>
   </td>
  </tr>
     <tr>
@@ -134,7 +134,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
 
 Campaign Classic では、次のシステムが非推奨（廃止予定）になっています。[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照し、互換性がなくなる前に、新しいバージョンにアップグレードするか、新しいシステムに移行してください。
 
-### Adobe Campaign 20.2 リリース {#compat-20-2-release}
+### Adobe Campaign 20.2 リリース  {#compat-20-2-release}
 
 20.2 リリースより、レガシー SMS コネクタは非推奨（廃止予定）になります。[非推奨（廃止予定）の機能の節](#deprecated-features)を参照してください。
 

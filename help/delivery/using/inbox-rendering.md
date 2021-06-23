@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Adobe Campaign の「**受信ボックスレンダリング**」で使用でき�
 
 >[!NOTE]
 >
->受信ボックスレンダリングは、配信のパーソナライゼーションをテストするには必要ありません。パーソナライゼーションは、**[!UICONTROL プレビュー]**&#x200B;および[配達確認](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)などの Adobe Campaign ツールで確認できます。
+>受信ボックスレンダリングは、配信のパーソナライゼーションをテストするには必要ありません。パーソナライゼーションは、**[!UICONTROL プレビュー]**&#x200B;および[配達確認](steps-validating-the-delivery.md#sending-a-proof)などの Adobe Campaign ツールで確認できます。
 
 ## 受信ボックスレンダリングを有効にする {#activating-inbox-rendering}
 
@@ -82,6 +82,7 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 >
 >* 受信ボックスレンダリングレポートが生成されるたびに、メッセージングクライアントあたり 1 つのトークンが差し引かれます（Outlook 2000 レンダリングに 1 トークン、Outlook 2010 レンダリングに 1 トークン、Apple Mail 9 レンダリングに 1 トークン、というようになります）。
 >* 同じ配信について、受信ボックスレンダリングを再生成する場合、使用可能なトークンの数は、生成したレンダリングの数だけ再度減ります。
+
 >
 
 
@@ -96,14 +97,14 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 
 E メール配信を作成し、そのコンテンツとターゲット母集団を定義したら、以下の手順に従います。
 
-配信の作成、デザインおよびターゲティングについて詳しくは、[この節](../../delivery/using/about-email-channel.md)を参照してください。
+配信の作成、デザインおよびターゲティングについて詳しくは、[この節](about-email-channel.md)を参照してください。
 
 1. 配信の上部のバーで、「**[!UICONTROL 受信ボックスレンダリング]**」ボタンをクリックします。
 1. 「**[!UICONTROL 分析]**」を選択してキャプチャプロセスを開始します。
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   配達確認が送信されます。E メール送信後数分で、その配達確認からレンダリングサムネイルにアクセスできます。配達確認の送信について詳しくは、[この節](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)を参照してください。
+   配達確認が送信されます。E メール送信後数分で、その配達確認からレンダリングサムネイルにアクセスできます。配達確認の送信について詳しくは、[この節](steps-validating-the-delivery.md#sending-a-proof)を参照してください。
 
 1. 送信後、配達確認は配信リストに表示されます。ダブルクリックします。
 

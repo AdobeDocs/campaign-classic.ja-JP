@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 100%
@@ -29,7 +29,7 @@ E メールが受信者に確実に届くようにし、E メールの配信品�
 
 >[!NOTE]
 >
->E メールコンテンツの編集について詳しくは、[E メールコンテンツの定義](../../delivery/using/defining-the-email-content.md)と[パーソナライズされたコンテンツの作成](../../delivery/using/design-and-personalize.md)を参照してください。
+>E メールコンテンツの編集について詳しくは、[E メールコンテンツの定義](defining-the-email-content.md)と[パーソナライズされたコンテンツの作成](design-and-personalize.md)を参照してください。
 
 ## 送信者のアドレス {#sender-address}
 
@@ -37,23 +37,23 @@ E メールが受信者に確実に届くようにし、E メールの配信品�
 
 インスタンスレベル（**[!UICONTROL ツール／詳細設定／デプロイメントウィザード...]**...）または最も頻繁に使用されるシナリオで、必ず正しいアドレスを指定する必要があります。
 
-詳しくは、[送信者の定義](../../delivery/using/defining-the-email-content.md)を参照してください。
+詳しくは、[送信者の定義](defining-the-email-content.md)を参照してください。
 
 ## パーソナライゼーション {#personalization}
 
 受信者のエクスペリエンスを向上させ、受信者が E メールを開くようにするために、Adobe Campaign ではメッセージをパーソナライズできます。
 
-Adobe Campaign でのパーソナライゼーションフィールドの使用について詳しくは、[この節](../../delivery/using/personalization-fields.md)を参照してください。
+Adobe Campaign でのパーソナライゼーションフィールドの使用について詳しくは、[この節](personalization-fields.md)を参照してください。
 
-コンテンツを作成する際にパーソナライゼーションを最適化するためのヒントについては、[この節](../../delivery/using/design-and-personalize.md#optimize-personalization)を参照してください。
+コンテンツを作成する際にパーソナライゼーションを最適化するためのヒントについては、[この節](design-and-personalize.md#optimize-personalization)を参照してください。
 
 ## オプトアウトリンクとフォーム {#opt-out}
 
-デフォルトでは、メッセージが分析されると、オプトアウトリンクが含まれているかどうかが[タイポロジルール](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies)でチェックされ、含まれていない場合は警告が表示されます。このルールを変更して、単純な警告ではなくエラーを表示し、このリンクなしに配信がおこなわれないようにすることができます。
+デフォルトでは、メッセージが分析されると、オプトアウトリンクが含まれているかどうかが[タイポロジルール](steps-validating-the-delivery.md#validation-process-with-typologies)でチェックされ、含まれていない場合は警告が表示されます。このルールを変更して、単純な警告ではなくエラーを表示し、このリンクなしに配信がおこなわれないようにすることができます。
 
 毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。例えば、配達確認を送信する際に、リンクが有効であること、フォームがオンラインであること、「**[!UICONTROL 今後のこの受信者への連絡は不要]**」フィールドが「**[!UICONTROL はい]**」に変更されることを確認します。リンクの入力時やフォームの変更時にヒューマンエラーが発生する可能性は常にあるので、このチェックは体系的におこなう必要があります。
 
-オプトアウトリンクを挿入する方法については、[この節](../../delivery/using/personalization-blocks.md#personalization-blocks-example)を参照してください。
+オプトアウトリンクを挿入する方法については、[この節](personalization-blocks.md#personalization-blocks-example)を参照してください。
 
 オプトアウトリンクをクリックした受信者が選択を確認できないとしても、配信開始後に購読解除に関する問題が検出された場合は購読解除を手動で実行できます（一括更新機能を使用するなど）。
 
@@ -67,7 +67,7 @@ Adobe Campaign でのパーソナライゼーションフィールドの使用�
 
 この確認のために、Adobe Campaign ではレンダリングをキャプチャして専用のレポートで利用できるようにしています。これにより、異なるコンテキストで受信される可能性のある送信済みのメッセージをプレビューできます。
 
-詳しくは、[受信ボックスレンダリング](../../delivery/using/inbox-rendering.md)を参照してください。
+詳しくは、[受信ボックスレンダリング](inbox-rendering.md)を参照してください。
 
 ## SpamAssassin {#spamassassin}
 
@@ -75,4 +75,4 @@ SpamAssassin と連携するように Adobe Campaign を設定できます。連
 
 配信を開始する前に、「**[!UICONTROL プレビュー]**」タブでリスクを評価できます。テストの結果が警告メッセージとして表示されます。
 
-詳しくは、[この節](../../delivery/using/spamassassin.md)を参照してください。
+詳しくは、[この節](spamassassin.md)を参照してください。

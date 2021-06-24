@@ -3,7 +3,7 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: a9120e2db43fcb035e9760819e9c53148979da4f
+source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 90%
@@ -20,9 +20,9 @@ ht-degree: 90%
 
 * **[Apple Mailのプライバシー保護に関するFAQ iOS 15に関するAppleの発表に対する](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> 最初のガイダンスを確認します。
 
-* **[誤ったハードバウンスの削除](delivery/using/update-bounce-qualification.md)**<br/> Apple サービス停止が発生した後に、誤ったハードバウンスを更新する方法を説明します
+* **[IMS／Adobe ID で接続している場合は、最新ビルドへのアップグレードが必要 ](technotes/ims-updates.md)**<br/>IMS で Campaign に接続している場合、** 2021 年 6 月 30 日（PT）**以降も、Campaign に接続できるようにするにはアップグレードが必要です
 
-* **[IMS／Adobe ID で接続している場合は、最新ビルドへのアップグレードが必要 ](integrations/using/about-adobe-id.md)**<br/>IMS で Campaign に接続している場合、** 2021 年 6 月 30 日（PT）**以降も、Campaign に接続できるようにするにはアップグレードが必要です
+* **[誤ったハードバウンスの削除](delivery/using/update-bounce-qualification.md)**<br/> Apple サービス停止が発生した後に、誤ったハードバウンスを更新する方法を説明します
 
 * **[Campaign インスタンスのセキュリティ保護](technotes/acc-config-updates.md)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します
 

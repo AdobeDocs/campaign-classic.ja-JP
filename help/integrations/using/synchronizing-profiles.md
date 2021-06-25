@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1258'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 
    ![](assets/acs_connect_profile_sync_01.png)
 
-1. 新しい受信者が Campaign Standard に追加されたことを確認します。プロファイルを確認する際に、Campaign v7 に入力したデータが Campaign Standard でも利用可能であることを確認します。Campaign Standard でのプロファイルの場所について詳しくは、[ナビゲーションの基本](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html)を参照してください。
+1. 新しい受信者が Campaign Standard に追加されたことを確認します。プロファイルを確認する際に、Campaign v7 に入力したデータが Campaign Standard でも利用可能であることを確認します。Campaign Standard でのプロファイルの場所について詳しくは、[ナビゲーションの基本](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=ja)を参照してください。
 
    ![](assets/acs_connect_profile_sync_02.png)
 
@@ -59,7 +59,7 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 
    ![](assets/acs_connect_profile_sync_03.png)
 
-1. 受信者の名前が Campaign Standard で更新されていることを確認します。Campaign Standard でのプロファイルの場所について詳しくは、[ナビゲーションの基本](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html)を参照してください。
+1. 受信者の名前が Campaign Standard で更新されていることを確認します。Campaign Standard でのプロファイルの場所について詳しくは、[ナビゲーションの基本](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html)を参照してください。
 
    ![](assets/acs_connect_profile_sync_04.png)
 
@@ -172,6 +172,6 @@ Campaign v7 Web アプリケーションを使用して、受信者によるサ�
 
    ![](assets/acs_connect_profile_sync_22.png)
 
-1. Campaign Standard に移動して、受信者のプロファイルの詳細を開きます。「**[!UICONTROL 今後の連絡は不要 (すべてのチャネル)]**」の隣にチェックボックスが表示されていることを確認します。Campaign Standard でのプロファイルの場所について詳しくは、[ナビゲーションの基本](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html)を参照してください。
+1. Campaign Standard に移動して、受信者のプロファイルの詳細を開きます。「**[!UICONTROL 今後の連絡は不要 (すべてのチャネル)]**」の隣にチェックボックスが表示されていることを確認します。Campaign Standard でのプロファイルの場所について詳しくは、[ナビゲーションの基本](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html)を参照してください。
 
    ![](assets/acs_connect_profile_sync_23.png)

@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 100%
+source-wordcount: '902'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 1. [エクスペリエンスのターゲット設定アクティビティの作成](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
 1. [電子メールのプレビューと送信](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
-## ダイナミックオファーの E メールへの挿入 {#inserting-dynamic-offer}
+## 電子メールへの動的なオファーの挿入 {#inserting-dynamic-offer}
 
 Adobe Campaign で E メールのターゲットとコンテンツを定義したら、Target から動的イメージを挿入することができます。
 
@@ -78,7 +78,7 @@ Target では、オファーのバージョンを複数作成できます。各�
 
    ![](assets/target_6.png)
 
-1. 残りのリダイレクトオファーについても同じ手順を繰り返します。詳しくは、この[ページ](https://docs.adobe.com/help/ja-JP/target/using/experiences/offers/offer-redirect.html)を参照してください。
+1. 残りのリダイレクトオファーについても同じ手順を繰り返します。詳しくは、この[ページ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html)を参照してください。
 
 ## オーディエンスの作成 {#audiences-target}
 
@@ -148,7 +148,7 @@ Target で、エクスペリエンスのターゲット設定アクティビテ�
 
 ![](assets/target_experience_2.png)
 
-## Campaign Classic での E メールのプレビューと送信{#preview-send-email}
+## Campaign Classic での E メールのプレビューと送信 {#preview-send-email}
 
 Adobe Campaign では、E メールをプレビューして、様々な受信者に対するレンダリングをテストできます。作成されたエクスペリエンスごとに画像が変化することがわかります。E メール作成について詳しくは、この[ページ](../../delivery/using/defining-the-email-content.md)を参照してください。
 

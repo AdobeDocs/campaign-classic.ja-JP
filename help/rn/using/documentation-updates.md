@@ -6,14 +6,14 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: fc40dae282c045dd73547e34ea307297f64c66fa
-workflow-type: ht
-source-wordcount: '4490'
-ht-degree: 100%
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+workflow-type: tm+mt
+source-wordcount: '4486'
+ht-degree: 99%
 
 ---
 
-# ドキュメントのアップデート{#documentation-updates}
+# ドキュメントの更新{#documentation-updates}
 
 このページには、毎月および Campaign の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
 
@@ -45,13 +45,13 @@ Campaign クライアントコンソールのインストール手順を改善�
 
 トラッキングする URL の署名の問題に関する新しいテクニカルノートが作成されました。 [詳細情報](../../technotes/tracked-urls.md)
 
-## 2021 年 4 月{#april-2021}
+## 2021 年 4 月 {#april-2021}
 
 Adobe Experience Platform のソースと宛先を使って Campaign Classic と Adobe Real-time Customer Data Platform（RTCDP）間でデータを共有する方法について、新しい節で説明しています。[詳細情報](../../integrations/using/get-started-sources-destinations.md)
 
-ISP の停止後にバウンスの選定を更新する方法を学ぶための新しいテクニカルノートが作成されました。[詳細](../../delivery/using/update-bounce-qualification.md)
+ISP の停止後にバウンスの選定を更新する方法を学ぶための新しいテクニカルノートが作成されました。[詳細情報](../../delivery/using/update-bounce-qualification.md)
 
-## 2021 年 3 月{#march-2021}
+## 2021 年 3 月 {#march-2021}
 
 [「SMS の基本を学ぶ」セクション](../../delivery/using/sms-channel.md)の構成を変更し、改善しました。[SMS チャネルの設定方法](../../delivery/using/sms-set-up.md)、[SMS の作成方法](../../delivery/using/sms-create.md)、[SMS の送信方法および追跡方法](../../delivery/using/sms-send.md)を、専用の節で学習できます。
 
@@ -116,7 +116,7 @@ Adobe Campaign のインスタンスで使用されている埋め込み Tomcat 
 
 新しい&#x200B;**データのインポートとエクスポート**&#x200B;の節が、ワークフロー、データ圧縮、暗号化、インポートのベストプラクティスに関する新しいページで利用できます。[詳細を表示](../../platform/using/get-started-data-import-export.md)
 
-## 2020 年 12 月 {#dec-2020}
+## 2020 月 12 日 {#dec-2020}
 
 **配信の監視**&#x200B;の節が、主題に沿ったトピックに再編成されました。[詳細を表示](../../delivery/using/about-delivery-monitoring.md)
 
@@ -128,7 +128,7 @@ Adobe Campaign のインスタンスで使用されている埋め込み Tomcat 
 
 SMS コネクタのプロトコルと設定に関するページの完全な説明が、[こちら](../../delivery/using/sms-protocol.md)で参照できるようになりました。
 
-アクセス権の問題を回避するために、イベントフォルダーを実行インスタンス上の表示として設定しないように警告する注を、**トランザクションメッセージ**&#x200B;の節に追加しました。[詳細を表示](../../message-center/using/about-event-processing.md#event-collection)
+アクセス権の問題を回避するために、イベントフォルダーを実行インスタンス上の表示として設定しないように警告する注を、**トランザクションメッセージ**&#x200B;の節に追加しました。[詳細情報](../../message-center/using/about-event-processing.md#event-collection)
 
 ## 2020 年 11 月 {#nov-2020}
 
@@ -254,7 +254,7 @@ Campaign Classic のプライバシー管理ページが更新され、「規則
 
 **[!UICONTROL スケジューラー]**&#x200B;アクティビティの節に、ベストプラクティスが追加されました。[詳細を表示](../../workflow/using/scheduler.md)
 
-## 2020 年 6 月{#june-2020}
+## 2020 年 6 月 {#june-2020}
 
 強制隔離されたアドレスの削除の節が更新されました。これには、アドレスが強制隔離リストから自動的に削除される場合の明確な説明も含まれます。[詳細を表示](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
@@ -304,9 +304,9 @@ Spam Assassin のインストールの節が、新しいインストールファ
 
 添付ファイル付きトランザクション E メールの送信の節が移動され、更新されました。[詳細を表示](../../message-center/using/transactional-email-with-attachments.md)
 
-データパッケージのベストプラクティスに関する節が移動および更新されました。[詳細を表示](../../platform/using/working-with-data-packages.md#data-package-best-practices)
+データパッケージのベストプラクティスに関する節が移動および更新されました。[詳細情報](../../platform/using/working-with-data-packages.md#data-package-best-practices)
 
-## 2020 年 4 月 {#april-2020}
+## 2020年4月 {#april-2020}
 
 FDA 権限テーブルは、「外部データベースへのアクセス（FDA）」ドキュメントに移動されました。[詳細を表示](../../installation/using/remote-database-access-rights.md)
 
@@ -320,9 +320,9 @@ Adobe Campaign の組み込みデータモデルに関する節の各テーブ�
 
 [バウンスメール強制隔離](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)と [E メール管理ルール](../../delivery/using/understanding-delivery-failures.md#email-management-rules)の節の情報を更新して強化しました。
 
-Adobe Campaign Enhanced MTA の記事が更新されました。現在は Campaign Classic にのみ適用されます。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html)
+Adobe Campaign Enhanced MTA の記事が更新されました。現在は Campaign Classic にのみ適用されます。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html)
 
-## 2020 年 3 月 {#march-2020}
+## 2020年3月 {#march-2020}
 
 データモデルのベストプラクティスを更新し、[シーケンス](../../configuration/using/data-model-best-practices.md#sequences)、[パフォーマンス](../../configuration/using/data-model-best-practices.md#performance)、[大きなテーブル](../../configuration/using/data-model-best-practices.md#large-tables)などの新しい節を追加しました。[詳細を表示](../../configuration/using/data-model-best-practices.md)
 
@@ -334,7 +334,7 @@ Adobe Target のダイナミックオファーを Adobe Campaign の E メール
 
 Adobe Campaign で使用できる様々な言語の詳細を説明する新しい節を追加しました。[詳細を表示](../../platform/using/adobe-campaign-workspace.md#languages)
 
-アクセス管理ガイドラインを更新し、ネームド権限に関する詳細な情報が追加されました。[詳細を表示](../../platform/using/access-management-named-rights.md)
+アクセス管理ガイドラインを更新し、ネームド権限に関する詳細な情報が追加されました。[詳細情報](../../platform/using/access-management-named-rights.md)
 
 ## 2020 年 2 月 {#february-2020}
 
@@ -346,9 +346,9 @@ Adobe Campaign データモデルの設計時のベストプラクティスと�
 
 E メール用の AMP が、新しい E メールプロバイダーでサポートされるようになりました。関連ドキュメントが更新されました。[詳細を表示](../../delivery/using/defining-interactive-content.md)
 
-E メールのアーカイブの節が改善されました。[詳細を表示](../../installation/using/email-archiving.md#recommendations-and-limitations)
+E メールのアーカイブの節が改善されました。[詳細情報](../../installation/using/email-archiving.md#recommendations-and-limitations)
 
-## 2020 年 1 月{#release-20-1}
+## 2020 年 1 月 {#release-20-1}
 
 **20.1 リリースに含まれる新機能**
 
@@ -362,7 +362,7 @@ Hadoop FDA コネクタの機能強化 - [詳細を表示](../../installation/us
 
 インストールガイドを更新し、互換性マトリックスの最新バージョンと同期しました。新しいサポート対象システムが追加されました。非推奨（廃止予定）およびサポート対象外のシステムに関する記載は削除されました。[詳細を表示](../../installation/using/general-architecture.md)
 
-互換性マトリックスを更新し、Hadoop 3.0 および Snowflake の FDA コネクタを追加しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
+互換性マトリックスを更新し、Hadoop 3.0 および Snowflake の FDA コネクタを追加しました。[詳細を表示](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 IP アフィニティのベストプラクティスがインストールガイドに追加されました。[詳細を表示](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -380,7 +380,7 @@ URL レポート設定の新しいパラメーターは、[こちら](../../repo
 
 「**Campaign Classic オンプレミスとホスト機能マトリックス**」ページが更新され、新しい FDA コネクタが追加されました。[詳細を表示](../../installation/using/capability-matrix.md)。
 
-**Campaign Classic 機能マトリックス**&#x200B;ページを更新しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
+**Campaign Classic 機能マトリックス**&#x200B;ページを更新しました。[詳細を表示](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 
 新しい **[!UICONTROL Nmsaddress のクリーンアップ]**&#x200B;ワークフローの情報は、[ここ](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress)に記載されています。
 
@@ -408,7 +408,7 @@ Adobe Campaign Classic のオファー管理およびインタラクションモ
 
 ワークフローでインスタンス変数を使用する方法の例が追加されました。[詳細を表示](../../workflow/using/javascript-scripts-and-templates.md)
 
-## 2019 年 12 月 {#december-2019}
+## 2019 月 12 日 {#december-2019}
 
 「WdbcOptions_TempDbName」オプションがキャンペーンオプションのリストに追加されました。[詳細を表示](../../installation/using/configuring-campaign-options.md)
 
@@ -430,7 +430,7 @@ AMP を使用したインタラクティブコンテンツ - [詳細を表示](.
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-Adobe Campaign Enhanced MTA のドキュメントが入手できるようになりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html)
+Adobe Campaign Enhanced MTA のドキュメントが入手できるようになりました。[詳細を表示](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
 
 キャンペーン内で「開始準備中」の状態に留まるワークフローをトラブルシュートする方法について、新しい節が追加されました。[詳細を表示](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -460,7 +460,7 @@ E メールの送信時に使用する文字エンコーディングの強制適
 
 配信のベストプラクティス入門ガイドが更新されました。[詳細を表示](../../delivery/using/delivery-best-practices.md)
 
-## 2019 年 10 月 {#october-2019}
+## 2019 年 10 月 日 {#october-2019}
 
 Campaign のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html)
 
@@ -478,7 +478,7 @@ Adobe Analytics Connector のベストプラクティスのページを新しく
 
 オンプレミスインストールの受信ボックスレンダリングを設定する手順がドキュメントに追加されました。[詳細を表示](../../delivery/using/inbox-rendering.md#activating-inbox-rendering)
 
-## 2019 年 9 月 {#september-2019}
+## 2019年9月 {#september-2019}
 
 Campaign Classic の管理に関する一般的なガイドラインを提供する新しいページが追加されました。[詳細を表示](../../production/using/monitoring-guidelines.md)
 
@@ -492,7 +492,7 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 **19.1 リリースに含まれる新機能**
 
-コントロールパネル - [詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
+コントロールパネル - [詳細を表示](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 監査記録 - [詳細を表示](../../production/using/audit-trail.md)
 
@@ -500,7 +500,7 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 ビルドアップグレードに関する新しい FAQ が作成されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/build-upgrade-faq.html)
 
-[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)が更新されました。サポートされるデータベースシステム、Android/iOS のバージョン、および関連する SDK のリストが更新されました。[19.0 互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix-19-0.html)がアーカイブされました。
+[互換性マトリックス](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)が更新されました。サポートされるデータベースシステム、Android/iOS のバージョン、および関連する SDK のリストが更新されました。[19.0 互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix-19-0.html)がアーカイブされました。
 
 「Campaign Classic の非推奨（廃止予定）および削除された機能」ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
 
@@ -555,7 +555,7 @@ Analytics Connector の節を更新し、インターフェイスの変更を反
 共有オーディエンスの統合に関するドキュメントが更新されました。
 [詳細を表示](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-[SMS コネクタのプロトコルと設定](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)および[シーケンスの自動生成](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)のテクニカルノートが更新されました。
+[SMS コネクタのプロトコルと設定](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)および[シーケンスの自動生成](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)のテクニカルノートが更新されました。
 
 テクニカルワークフローの節が更新されました。[詳細を表示](../../workflow/using/about-technical-workflows.md)
 
@@ -567,7 +567,7 @@ Campaign ハードウェアのサイズ設定ガイドが更新されました�
 
 Teradata 外部アカウントの Query Banding に関する情報が追加されました。[詳細を表示](../../installation/using/external-accounts.md)
 
-## 2019 年 1 月{#release-doc-16-01-2019}
+## 2019 年 1 月 日{#release-doc-16-01-2019}
 
 Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](../../integrations/using/about-triggers.md)
 
@@ -599,4 +599,4 @@ E メールコンテンツの定義の節に、デジタルコンテンツエデ
 
 ワークフローのエンリッチメントアクティビティを使用してカスタムデータフィールドを含む E メールを送信する方法に関する使用例が追加されました。[詳細を表示](../../workflow/using/email-enrichment-with-custom-date-fields.md)
 
-機能に関するビデオが[ここ](https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/overview.html)に移動されました。
+機能に関するビデオが[ここ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)に移動されました。

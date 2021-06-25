@@ -6,9 +6,9 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
-source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
+source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '2973'
 ht-degree: 100%
 
 ---
@@ -81,7 +81,7 @@ _2020 年 12 月 22 日_
 * 配信の準備中、または配信のプレビューが繰り返し発生している場合に、web プロセスがクラッシュする可能性がある問題を修正しました。（NEO-27790、NEO-27517）
 * 管理者以外のオペレーターによってトリガーされた場合に、配信または配達確認の送信が失敗する問題を修正しました。（NEO-28597）
 
-![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)。
 
 ## ![](assets/do-not-localize/red_2.png) リリース 20.2.3 - ビルド 9182 {#release-20-2-3-build-9182}
 
@@ -119,7 +119,7 @@ _2020 年 7 月 22 日_
 * [新しいシーケンス ID メカニズム](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)に切り替えた後、受信者テーブルを更新するすべての web アプリケーションは、アップグレード後に再公開されます。
 * 配信コンテンツの潜在的な XSS 脆弱性を修正しました。（NEO-17987、NEO-26073）
 
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
 
 ## ![](assets/do-not-localize/red_2.png) リリース 20.2.1 - ビルド 9178 {#release-20-2-1-build-9178}
 

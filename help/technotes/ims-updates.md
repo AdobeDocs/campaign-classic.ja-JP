@@ -4,7 +4,7 @@ title: IMSを使用してAdobe Campaignに接続するための環境の更新
 description: Campaign - IMSの更新
 hide: true
 hidefromtoc: true
-source-git-commit: b8f3ba60e34f6c5429c63ed934083ebae180cf43
+source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 21%
@@ -38,13 +38,13 @@ Adobe ID](../integrations/using/about-adobe-id.md)を介してCampaign [にAdobe
    以下に示す新しいバージョンの 1 つにアップグレードする必要があります。
 
    * Gold Standard 11。 [詳細情報](../rn/using/gold-standard.md)
-   * Campaign 20.3.3 リリース。 [詳細情報](../rn/using/release--20-3.md)
+   * Campaign 21.1.3 リリース。 [詳細情報](../rn/using/latest-release.md)
    * Campaign 20.2.4 リリース。 [詳細情報](../rn/using/release--20-2.md)
    * Campaign 20.1.4 リリース。 [詳細情報](../rn/using/release--20-1.md)
    * Campaign 19.2.4 リリース。 [詳細情報](../rn/using/release--19-2.md)
    * Campaign 19.1.8 リリース。 [詳細情報](../rn/using/release--19-1.md)
 
-これらのリリースには、新しい接続プロトコルが付属しています。 アップグレードは、Campaignサーバーとクライアントコンソールの両方に必須です。すべてのインスタンスをアップグレードしたら、**2021年6月30日**&#x200B;以降にCampaignに接続できるように、クライアントコンソールをこのバージョンにアップグレードする必要があります。
+   これらのリリースには、新しい接続プロトコルが付属しています。 アップグレードは、Campaignサーバーとクライアントコンソールの両方に必須です。すべてのインスタンスをアップグレードしたら、**2021年6月30日**&#x200B;以降にCampaignに接続できるように、クライアントコンソールをこのバージョンにアップグレードする必要があります。
 
 さらに、[Windows版](../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)の最新の更新（**Internet Explorer 11**&#x200B;組み込み）が各ユーザーのマシンにインストールされていることを確認します。
 

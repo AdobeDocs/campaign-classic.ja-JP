@@ -6,10 +6,10 @@ feature: null
 role: null
 level: null
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
-source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
+source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 100%
+source-wordcount: '1542'
+ht-degree: 99%
 
 ---
 
@@ -42,8 +42,9 @@ _2020 年 12 月 23 日_
 >[!CAUTION]
 >
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合は、 **2021 年 6 月 30 日**&#x200B;以降、Campaign サーバーとクライアントコンソールのいずれも、Campaign に接続できるようにするには、アップグレードが必要です。[詳細情報](../../technotes/ims-updates.md)
->
-> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
+   >
+   > 
+* このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 
 
 
@@ -107,7 +108,7 @@ _2019 年 12 月 2 日_
   <tr> 
 <td> <p>Adobe Campaign では、新しいインタラクティブ <a href="https://amp.dev/about/email/">AMP for Email</a> フォーマットを試すことができます。このフォーマットでは、マーケターは、メッセージ内に AMP コンポーネントを含め、メッセージ内で直接アクション可能な、リッチで動的なインタラクティブコンテンツを使用して E メールエクスペリエンスを強化できます。</p>
    <p> この機能はパブリックベータ版としてリリースされています。</p>
-   <p>詳しくは、<a href="../../delivery/using/defining-interactive-content.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">チュートリアルビデオ</a>を参照してください。</p><br /></td> 
+   <p>詳しくは、<a href="../../delivery/using/defining-interactive-content.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/defining-interactive-email-content-with-amp.html">チュートリアルビデオ</a>を参照してください。</p><br /></td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,7 +6,7 @@ feature: 概要
 role: Architect
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 2%
@@ -31,7 +31,7 @@ Adobe Campaignは、次のようにManaged Serviceとしてデプロイできま
 
 * ブランドごとのトラッキングおよびミラーページURLの設定 トランザクションメッセージについては、[をこの節](../../message-center/using/additional-configurations.md#configuring-multibranding)で参照してください。
 * クライアントコンソールをインストールします。この節](../../installation/using/installing-the-client-console.md)を[で参照してください。
-* 配信品質ツールとベストプラクティスの詳細については、[詳細ドキュメント](../../delivery/using/about-deliverability.md)を参照してください。
+* 配信品質ツールとベストプラクティスの詳細については、[詳細なドキュメント](../../delivery/using/about-deliverability.md)を参照してください。
 * キャンペーンオプションの設定：この節](../../installation/using/configuring-campaign-options.md)を[で参照してください。
 * CRMコネクタを設定します。この節](../../platform/using/crm-connectors.md)を[で参照してください。
 
@@ -41,7 +41,7 @@ Adobe Campaignはオンプレミスでデプロイできます。ユーザーイ
 
 ![](assets/deployment_onpremise.png)
 
-オンプレミス型のお客様は、Campaign Classicのデプロイを開始する前に、次の前提条件および推奨事項に注意してください。
+オンプレミス型のお客様は、Campaign Classicのデプロイを開始する前に、次の前提条件と推奨事項に注意してください。
 
 * [互換性マトリックス](../../rn/using/compatibility-matrix.md)を読み、Adobe Campaignでサポートされているすべてのバージョンのシステムとコンポーネントを示します。
 * 環境に応じて、Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md)の[前提条件とLinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md)の[前提条件を確認します。
@@ -63,7 +63,7 @@ Adobe Campaignはオンプレミスでデプロイできます。ユーザーイ
 * ブランドごとのトラッキングおよびミラーページURLの設定 トランザクションメッセージについては、[をこの節](../../message-center/using/additional-configurations.md#configuring-multibranding)で参照してください。
 * クライアントコンソールをインストールします。この節](../../installation/using/installing-the-client-console.md)を[で参照してください。
 * 組み込みパッケージのインストール：この節](../../installation/using/installing-campaign-standard-packages.md)を[で参照してください。
-* 配信品質：[MXルール](../../installation/using/email-deliverability.md#mx-configuration)と[eメールフォーマット](../../installation/using/email-deliverability.md#managing-email-formats)を設定します。 配信品質ツールとベストプラクティスの詳細については、[詳細ドキュメント](../../delivery/using/about-deliverability.md)を参照してください。
+* 配信品質：[MXルール](../../installation/using/email-deliverability.md#mx-configuration)と[eメールフォーマット](../../installation/using/email-deliverability.md#managing-email-formats)を設定します。 配信品質ツールとベストプラクティスの詳細については、[詳細なドキュメント](../../delivery/using/about-deliverability.md)を参照してください。
 * キャンペーンオプションの設定：この節](../../installation/using/configuring-campaign-options.md)を[で参照してください。
 * 外部データベース(Federated Data Access)の設定：この節](../../installation/using/about-fda.md)を[で参照してください。
 * CRMコネクタの設定：この節](../../platform/using/crm-connectors.md)を[で参照してください。

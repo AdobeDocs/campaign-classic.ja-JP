@@ -335,7 +335,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
   </tr> 
   <tr> 
    <td> プロバイダー<br /> </td> 
-   <td> タイプ（列挙）。 有効な値は、「Oracle」、「MSSQL」(Microsoft SQL Server)、「PostgreSQL」(PostgreSQL)、「Teradata」、「DB2」、「MySQL」、「Netezza」、「AsterData」、「SAPHANA」(SAP HANA)、「RedShift」(AmazonRedshift)、ODBC`(ODBC(Sybase ASE、Sybase IQ)、`Relay`（リモートデータベースへのHTTPリレー）。<br /> </td> 
+   <td> タイプ（列挙）。 有効な値は、「Oracle」、「MSSQL」(Microsoft SQL Server)、「PostgreSQL」(PostgreSQL)、「Teradata」、「DB2」、「MySQL」、「Netezza」、「AsterData」、「SAPHANA」(SAP HANA)、「RedShift」(AmazonRedshift)、ODBC&grave;(ODBC(Sybase ASE、Sybase IQ)、`Relay`（リモートデータベースへのHTTPリレー）。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 

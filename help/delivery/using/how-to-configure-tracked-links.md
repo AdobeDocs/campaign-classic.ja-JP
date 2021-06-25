@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: 0e0912c68d132919eeac9b91b93960e70011153e
+source-git-commit: 98bbbb36c9f8156cc34e826a024ff6e6e3f3fee3
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 83%
@@ -28,7 +28,7 @@ ht-degree: 83%
 * 角括弧[ ]
 * 中括弧{ }
 
-この例では、URL https://www.adobe.comの後にセミコロン(;)が続きます。 セミコロンは、受信者のEメールクライアントによってURLの一部として解釈される場合があります。 その結果、リンクが壊れる場合があります。 この問題を回避するには、次のいずれかの方法でURLを区切り文字で囲みます。
+この例では、URL https://www.adobe.comの後にセミコロンが続きます。 セミコロンは、受信者のEメールクライアントによって、URLの一部として解釈される場合があります。 その結果、リンクが壊れる場合があります。 この問題を回避するには、次のいずれかの方法でURLを区切り文字で囲みます。
 * (https://www.adobe.com/jp);
 * [https://www.adobe.com/jp];
 * {https://www.adobe.com/jp};

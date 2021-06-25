@@ -6,10 +6,10 @@ feature: null
 role: null
 level: null
 exl-id: 8540b5f0-194b-45f3-b497-5d30efb318b8
-source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
+source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
 workflow-type: tm+mt
-source-wordcount: '3269'
-ht-degree: 100%
+source-wordcount: '3263'
+ht-degree: 99%
 
 ---
 
@@ -171,11 +171,11 @@ _2019 年 5 月 30 日_
  <tbody> 
   <tr> 
    <td> コントロールパネル<br /> </td> 
-   <td> <p>管理者ユーザーの作業効率を高めるために、ストレージを監視、IP アドレスを許可リストに追加、および各インスタンスに SSH キーをインストールすることで、SFTP サーバーの設定を管理します。コントロールパネルは、現時点で AWS 上でホストされているユーザーのみが利用できます（<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud から今すぐログイン</a>）。</p> <p>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/control-panel/control-panel-overview.translate.html">ハウツービデオ</a>を参照してください。 </p><p>注意：最新の Campaign ビルドへのアップグレードには、コントロールパネルへのアクセスは不要です。</p> </td> 
+   <td> <p>管理者ユーザーの作業効率を高めるために、ストレージを監視、IP アドレスを許可リストに追加、および各インスタンスに SSH キーをインストールすることで、SFTP サーバーの設定を管理します。コントロールパネルは、現時点で AWS 上でホストされているユーザーのみが利用できます（<a href="https://experiencecloud.adobe.com/campaign/controlpanel/">Experience Cloud から今すぐログイン</a>）。</p> <p>詳しくは、<a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=ja">ハウツービデオ</a>を参照してください。 </p><p>注意：最新の Campaign ビルドへのアップグレードには、コントロールパネルへのアクセスは不要です。</p> </td> 
   </tr> 
     <tr> 
    <td> 監査記録<br /> </td> 
-   <td> <p>管理者は、Adobe Campaign Classic インスタンス内で加えられた変更を監視および管理することで、生産性を高めます。監査証跡は、ソーススキーマ、ワークフローおよびオプションでおこなわれたアクションを記録します。要素が作成、変更または削除されたかどうかをすばやく確認できます。</p><p>詳しくは、<a href="../../production/using/audit-trail.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-classic-learn/tutorials/monitoring/audit-trail.html">ハウツービデオ</a>を参照してください。</p></td> 
+   <td> <p>管理者は、Adobe Campaign Classic インスタンス内で加えられた変更を監視および管理することで、生産性を高めます。監査証跡は、ソーススキーマ、ワークフローおよびオプションでおこなわれたアクションを記録します。要素が作成、変更または削除されたかどうかをすばやく確認できます。</p><p>詳しくは、<a href="../../production/using/audit-trail.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/monitoring/audit-trail.html">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> Guardrail、堅牢性、および拡張性<br /> </td> 

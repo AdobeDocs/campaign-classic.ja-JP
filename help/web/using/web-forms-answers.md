@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
@@ -115,9 +115,9 @@ ht-degree: 100%
 
 このボックスを使用するには、次の 2 つの方法があります。
 
-* Web フォームが E メールで送信したリンクでアクセスできる場合で、アプリケーションにアクセスするユーザーが既にデータベースにある場合、「**[!UICONTROL プリロードされたレコードを更新]**」オプションをチェックできます。詳しくは、[E メールによるフォームの配信](../../web/using/publishing-a-web-form.md#delivering-a-form-via-email)を参照してください。
+* Web フォームが E メールで送信したリンクでアクセスできる場合で、アプリケーションにアクセスするユーザーが既にデータベースにある場合、「**[!UICONTROL プリロードされたレコードを更新]**」オプションをチェックできます。詳しくは、[E メールによるフォームの配信](publishing-a-web-form.md#delivering-a-form-via-email)を参照してください。
 
-   この場合、Adobe Campaign は、ユーザープロファイルの暗号化されたプライマリキー（Adobe Campaign が各プロファイルに割り当てた一意の識別子）を使用します。プリロードボックスを使用して情報をプリロードするように設定する必要があります。詳しくは、[フォームデータのプリロード](../../web/using/publishing-a-web-form.md#pre-loading-the-form-data)を参照してください。
+   この場合、Adobe Campaign は、ユーザープロファイルの暗号化されたプライマリキー（Adobe Campaign が各プロファイルに割り当てた一意の識別子）を使用します。プリロードボックスを使用して情報をプリロードするように設定する必要があります。詳しくは、[フォームデータのプリロード](publishing-a-web-form.md#pre-loading-the-form-data)を参照してください。
 
    >[!CAUTION]
    >

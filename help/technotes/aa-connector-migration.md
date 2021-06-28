@@ -4,10 +4,10 @@ title: Adobe Analytics Connectorへの移行
 description: Campaign - Analyticsコネクタに関するFAQ
 hide: true
 hidefromtoc: true
-source-git-commit: 248bd7774c01adb44ce33d0499c2b01d013e75bd
+source-git-commit: cde4ed65abb2458fc40639b92314f8d56b18b78c
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 10%
+source-wordcount: '840'
+ht-degree: 9%
 
 ---
 
@@ -22,12 +22,12 @@ Campaign Classicv7 21.1.3リリースより、Adobe Analytics Data Connectorは�
 
 >[!NOTE]
 >
->これらの変更点に関するご質問は、[アドビのサポート](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>これらの変更点に関するご質問は、[FAQ](#faq-aa)を参照してください。 詳しくは、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 
 ## 何が変わった？
 
-Adobe AnalyticsとCampaign Classicの新しい統合が可能になりました。 主な変更点を以下に示します。
+Campaign Classicv7とAdobe Analyticsの新しい統合が利用できるようになりました。 主な変更点を以下に示します。
 
 * Adobe Campaign Classic認証とAdobe Analytics認証の統合は、ユーザー/パスワードからAdobeIdentity Managementサービス(IMS)に移行しました。 そのため、Analyticsコネクタの実装を開始する前に、AdobeIMSを実装し、Adobe ID](../integrations/using/about-adobe-id.md)を介してCampaign [に接続する必要があります。
 
@@ -58,7 +58,7 @@ Adobe AnalyticsとCampaign Classicの新しい統合が可能になりました�
 すべてのインスタンスがアップグレードされると、新しい統合](../platform/using/adobe-analytics-connector.md)をAdobe Analytics Connectorに[実装し、シームレスな移行を確実におこなえるようになります。
 
 
-## よくある質問
+## よくある質問{#faq-aa}
 
 **ログを取得するにはどうすればよいですか？**
 
@@ -71,17 +71,21 @@ Adobe AnalyticsとCampaign Classicの新しい統合が可能になりました�
 * ユーザーインターフェイスの詳細モードを有効にするには：詳細モードで`web`プロセスを再実行します。
 * **webAnalytics**&#x200B;ワークフローの詳細モードを有効にするには：ワークフローのプロパティから「**エンジンで実行**」オプションを選択し、詳細モードで`wfserver`を再実行します。
 
-**統合所有者が管理者ではない**
+**「統合所有者が管理者ではない」エラーが意味するエラーは何ですか？**
 
 Data Connectorsの「Integration Owner Not Admin」エラーについて詳しくは、[このページ](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error)を参照してください。
 
-**Analyticsに存在する既存のeVar/events/reportsuiteはCampaignに表示されません**
+**新しいコネクタへの移行が完了したら、古いデータおよびレポートスイートはどうなりますか。**
+
+移行後、新しいコネクタ（古いコネクタから移行済み）は、同じレポートスイートへのデータのプッシュを開始し、既存のデータは影響を受けません。既存のデータに追加されます。
+
+**Analyticsに存在する一部の既存のeVar/イベント/レポートスイートは、Campaignで表示されません。どうすればよいですか。**
 
 統合は、日々の操作で、テクニカルアカウントトークンのデータに依存します。 テクニカルアカウントユーザーに関連付けられた製品プロファイルからディメンション/指標/レポートスイートに対する権限がない場合、使用するAPIは、単にそれらのリクエストで遅延します。
 
 Analyticsコンポーネントの詳細（指標、ディメンション、セグメント、レポートスイートなど）を読んでいる場合、APIは、結果でこれらのコンポーネントを返しません（Analytics側で何かが削除されたか、存在しないように見える場合があります）。 Analytics APIはこれらのリクエストを拒否し、エラーアウトします。
 
-解決策は、テクニカルユーザートークンのAnalyticsユーザーコンテキストの製品プロファイルを、新しく作成または欠落したコンポーネントで更新し、[Adobe Admin Console](https://adminconsole.adobe.com/)にこれらのコンポーネントを追加することです。
+解決策は、テクニカルユーザートークンのAnalyticsユーザーコンテキストの&#x200B;**製品プロファイル**&#x200B;を、[Adobe Admin Console](https://adminconsole.adobe.com/)に追加することで、新しく作成または欠落したコンポーネントで更新することです。 ガイダンスについて詳しくは、[Adobeカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 ## 役立つリンク
 

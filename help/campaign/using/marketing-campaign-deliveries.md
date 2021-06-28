@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 100%
@@ -116,7 +116,7 @@ ht-degree: 100%
 
 ## 関連付けられたドキュメントの管理 {#managing-associated-documents}
 
-レポート、写真、Web ページ、ダイアグラムなど、様々なドキュメントをキャンペーンに関連付けることができます。これらのドキュメントには、あらゆるフォーマット（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDF など）を使用できます。ドキュメントをキャンペーンにリンクする方法については、](../../campaign/using/marketing-campaign-assets.md)こちらの節[を参照してください。
+キャンペーンには、レポート、写真、web ページ、図などの様々なドキュメントを関連付けることができます。これらのドキュメントは、任意の形式（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDF など）にすることができます。ドキュメントをキャンペーンにリンクする方法については、](../../campaign/using/marketing-campaign-assets.md)こちらの節[を参照してください。
 
 >[!IMPORTANT]
 >
@@ -126,7 +126,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->MRM を使用している場合は、共同作業している複数の参加者が使用できるマーケティングリソースのライブラリも管理できます。[マーケティングリソースの管理](../../campaign/using/managing-marketing-resources.md)を参照してください。
+>MRM を使用している場合は、共同作業している複数の参加者が使用できるマーケティングリソースのライブラリも管理できます。[マーケティングリソースの管理](../../mrm/using/managing-marketing-resources.md)を参照してください。
 
 ### ドキュメントの追加 {#adding-documents}
 
@@ -203,7 +203,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >マーケティングリソースについて詳しくは、[マーケティングリソースの管理](../../campaign/using/managing-marketing-resources.md)を参照してください。
+   >マーケティングリソースについて詳しくは、[マーケティングリソースの管理](../../mrm/using/managing-marketing-resources.md)を参照してください。
 
 #### 概要の選択 {#selecting-an-outline}
 

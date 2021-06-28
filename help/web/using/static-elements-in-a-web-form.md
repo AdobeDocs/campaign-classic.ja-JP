@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 100%
+source-wordcount: '1077'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
    >
    >サーバー側では、スクリプトは、Adobe Campaign が提供する [Campaign JSAPI ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)で定義された関数を使用できます。
 
-## HTML コンテンツの挿入 {#inserting-html-content}
+## HTMLコンテンツの挿入 {#inserting-html-content}
 
 フォームページに、ハイパーテキストリンク、画像、書式設定された段落、ビデオなどの HTML コンテンツを含めることができます。
 
@@ -46,9 +46,9 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
 >[!NOTE]
 >
->HTML エディターに入力した文字列は、「**[!UICONTROL テキスト]**」サブタブで定義されている場合にのみ、翻訳されます。そうでない場合、収集されません。詳しくは、[Web フォームの翻訳](../../web/using/translating-a-web-form.md)を参照してください。
+>HTML エディターに入力した文字列は、「**[!UICONTROL テキスト]**」サブタブで定義されている場合にのみ、翻訳されます。そうでない場合、収集されません。詳しくは、[Web フォームの翻訳](translating-a-web-form.md)を参照してください。
 
-### リンクの挿入 {#inserting-a-link}
+### リンクを挿入 {#inserting-a-link}
 
 次の例のように、編集ウィンドウのフィールドに入力します。
 
@@ -85,7 +85,7 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
    ![](assets/s_ncs_admin_survey_link_next.png)
 
-   リンクで置き換える場合は、「**[!UICONTROL 次へ]**」および「**[!UICONTROL 戻る]**」ボタンを非表示することができます。この[ページ](../../web/using/defining-web-forms-page-sequencing.md)を参照してください。
+   リンクで置き換える場合は、「**[!UICONTROL 次へ]**」および「**[!UICONTROL 戻る]**」ボタンを非表示することができます。この[ページ](defining-web-forms-page-sequencing.md)を参照してください。
 
    リンクは、デフォルトで使用される「**[!UICONTROL 次へ]**」ボタンを置き換えます。
 
@@ -107,68 +107,15 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
    >[!NOTE]
    >
-   >Web フォームのページの順番について詳しくは、[Web フォームページの順番の定義](../../web/using/defining-web-forms-page-sequencing.md)を参照してください。
+   >Web フォームのページの順番について詳しくは、[Web フォームページの順番の定義](defining-web-forms-page-sequencing.md)を参照してください。
 
-* Facebook プロファイルから取得したデータによるフォームのフィールドのプリロード
-
-   >[!CAUTION]
-   >
-   >この機能は、**[!UICONTROL Social Marketing]** アプリケーションがインストールされている場合にのみ使用できます。このオプションを使用するには、**[!UICONTROL Facebook Connect]** タイプの外部アカウントと連動する Facebook アプリケーションを作成する必要があります。詳しくは、[このページ](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)を参照してください。
-
-   「**[!UICONTROL Facebook による事前ロードをおこなう]**」オプションを使用すると、フォームにボタンを挿入して、Facebook プロファイル情報を使用してフィールドをプリロードできます。
-
-   ![](assets/web_social_webapp_037.png)
-
-   ユーザーが&#x200B;**[!UICONTROL 自動入力]**&#x200B;ボタンをクリックすると、Facebook のアプリの許可ウィンドウが開きます。
-
-   ![](assets/web_social_webapp_029.png)
-
-   >[!NOTE]
-   >
-   >外部アカウントの設定時に拡張された権限のリストを変更できます。拡張された権限を入力しない場合、Facebook は、デフォルトでは、基本プロファイル情報を転送します。\
-   >拡張権限のリストとその構文を表示するには、[https://developers.facebook.com/docs/reference/api/permissions/](https://developers.facebook.com/docs/reference/api/permissions/) をクリックします。
-
-   ユーザーが情報の共有に同意すれば、フォームのフィールドにプリロードされます。
-
-   ![](assets/web_social_webapp_030.png)
-
-この事例では、次の要素で構成された Web アプリケーションを作成しました。
-
-* フォームを含むページ
-* **[!UICONTROL レコード]**&#x200B;アクティビティ
-* **[!UICONTROL 終了]**&#x200B;アクティビティ
-
-![](assets/social_webapp_031.png)
-
-プリロードボタンを追加するには、次の手順に従います。
-
-1. フォームを作成します。
-
-   ![](assets/social_webapp_032.png)
-
-1. フォームのフィールドと同じレベルに移動し、リンクを追加します。
-
-   ![](assets/social_webapp_033.png)
-
-1. ラベルを入力し、**[!UICONTROL ボタン]**&#x200B;タイプを選択します。
-
-   ![](assets/social_webapp_034.png)
-
-1. 「**[!UICONTROL アクション]**」フィールドに移動して、「**[!UICONTROL Facebook による事前ロードをおこなう]**」を選択します。
-
-   ![](assets/social_webapp_035.png)
-
-1. 「**[!UICONTROL アプリケーション]**」フィールドに移動して、以前作成した **[!UICONTROL Facebook Connect]** タイプの外部アカウントを選択します。詳しくは、[このページ](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)を参照してください。
-
-   ![](assets/social_webapp_036.png)
-
-### HTML コンテンツのパーソナライゼーション {#personalizing-html-content}
+### HTMLコンテンツのパーソナライズ {#personalizing-html-content}
 
 フォームページの HTML コンテンツを前のページで記録したデータでパーソナライズできます。例えば、自動車保険の Web フォームを作成して、最初のページで連絡先情報および自動車のブランドを提供できます。
 
 ![](assets/s_ncs_admin_survey_tag_ctx_1.png)
 
-パーソナライゼーションフィールドを使用して、ユーザー名と選択したブランドを次のページに再挿入できます。使用する構文は、情報ストレージモードによって異なります。詳しくは、[収集された情報の使用](../../web/using/web-forms-answers.md#using-collected-information)を参照してください。
+パーソナライゼーションフィールドを使用して、ユーザー名と選択したブランドを次のページに再挿入できます。使用する構文は、情報ストレージモードによって異なります。詳しくは、[収集された情報の使用](web-forms-answers.md#using-collected-information)を参照してください。
 
 >[!NOTE]
 >
@@ -191,7 +138,7 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
 「**[!UICONTROL テキスト]**」タブでは、HTML の &lt;%= 文字と %> 文字の間で使用できる変数フィールドを構文 **$(IDENTIFIER)**.を使用して作成できます。
 
-この方法を使用すると、文字列を容易にローカライズできます。[Web フォームの翻訳](../../web/using/translating-a-web-form.md)を参照してください。
+この方法を使用すると、文字列を容易にローカライズできます。[Web フォームの翻訳](translating-a-web-form.md)を参照してください。
 
 例えば、「最終コンタクト日：」という文字列を HTML コンテンツに表示できる、**Contact** フィールドを作成できます。これをおこなうには、以下の手順に従います。
 
@@ -214,7 +161,7 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
-この操作モードでは、Web フォームのテキストを 1 回だけ定義でき、統合翻訳ツールを使用して翻訳を管理できます。詳しくは、[Web フォームの翻訳](../../web/using/translating-a-web-form.md)を参照してください。
+この操作モードでは、Web フォームのテキストを 1 回だけ定義でき、統合翻訳ツールを使用して翻訳を管理できます。詳しくは、[Web フォームの翻訳](translating-a-web-form.md)を参照してください。
 
 ## 画像の挿入 {#inserting-images}
 

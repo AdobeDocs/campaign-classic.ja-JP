@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign に接続すると、ホームページが表示されます。
 * **キャンペーンカレンダー**：プラン、マーケティングプログラム、配信およびキャンペーンのカレンダーです。[キャンペーンカレンダー](#campaign-calendar)を参照してください。
 * **キャンペーン**：すべてのマーケティングプログラムに含まれるキャンペーンにアクセスします。
 * **配信**：キャンペーンにリンクされた配信にアクセスします。
-* **Web アプリケーション**：Web アプリケーション（フォーム、調査など）にアクセスします。
+* **Webアプリケーション**:webアプリケーション（フォーム、ランディングページなど）にアクセスする。
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ Adobe Campaign では、予算、ターゲット、コンテンツなどを承�
 
 キャンペーンごとに、オペレーターが専用のフォーラムでメッセージをやり取りできます。
 
-詳しくは、[ディスカッションフォーラム](../../campaign/using/discussion-forums.md)を参照してください。
+詳しくは、[ディスカッションフォーラム](../../mrm/using/discussion-forums.md)を参照してください。
 
 #### レポート {#reports}
 

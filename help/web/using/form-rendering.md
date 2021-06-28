@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 100%
@@ -69,9 +69,9 @@ ht-degree: 100%
 
 次のプロパティを定義できます。
 
-* **[!UICONTROL ラベルの位置]**：[ラベルの位置の定義](../../web/using/defining-web-forms-layout.md#defining-the-position-of-labels)を参照
+* **[!UICONTROL ラベルの位置]**：[ラベルの位置の定義](defining-web-forms-layout.md#defining-the-position-of-labels)を参照
 * **[!UICONTROL ラベルのフォーマット]**：テキストを折り返す、または折り返さない
-* **[!UICONTROL セル数]**：[ページへのフィールドの配置](../../web/using/defining-web-forms-layout.md#positioning-the-fields-on-the-page)を参照
+* **[!UICONTROL セル数]**：[ページへのフィールドの配置](defining-web-forms-layout.md#positioning-the-fields-on-the-page)を参照
 * **[!UICONTROL 水平方向の整列]**（左、右、中央揃え）および&#x200B;**[!UICONTROL 垂直方向の整列]**（高、低、中央）。
 * ゾーンの&#x200B;**[!UICONTROL 幅]**：これは、パーセンテージまたは em、point、pixel（デフォルト値）で表示できます。
 * 最大の&#x200B;**[!UICONTROL 長さ]**：許容される最大文字数（テキスト、数値およびパスワードタイプのコントロール）
@@ -146,17 +146,17 @@ ht-degree: 100%
 
 * メインツリーには、フォームコンテキストのパラメーターが含まれます。デフォルトパラメーターは、識別子（受信者の暗号化された識別子に一致）、言語および接触チャネルです。
 
-   詳しくは、この[ページ](../../web/using/defining-web-forms-properties.md#form-url-parameters)を参照してください。
+   詳しくは、この[ページ](defining-web-forms-properties.md#form-url-parameters)を参照してください。
 
 * **[!UICONTROL 受信者]**&#x200B;サブツリーには、フォームに挿入され、データベースに格納された入力フィールドが含まれます。
 
-   詳しくは、[データベースへのデータの格納](../../web/using/web-forms-answers.md#storing-data-in-the-database)を参照してください。
+   詳しくは、[データベースへのデータの格納](web-forms-answers.md#storing-data-in-the-database)を参照してください。
 
-* **[!UICONTROL 変数]**&#x200B;サブツリーには、このフォームで使用可能な変数が含まれます。詳しくは、[ローカル変数へのデータの格納](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable)を参照してください。
+* **[!UICONTROL 変数]**&#x200B;サブツリーには、このフォームで使用可能な変数が含まれます。詳しくは、[ローカル変数へのデータの格納](web-forms-answers.md#storing-data-in-a-local-variable)を参照してください。
 
-詳しくは、[選択した値に応じた異なるオプションの表示](../../web/using/use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values)で説明されている使用例を参照してください。
+詳しくは、[選択した値に応じた異なるオプションの表示](use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values)で説明されている使用例を参照してください。
 
-また、**[!UICONTROL テスト]**&#x200B;オブジェクトを使用するフォームページの表示に条件を設定することもできます。詳しくは、この[ページ](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display)を参照してください。
+また、**[!UICONTROL テスト]**&#x200B;オブジェクトを使用するフォームページの表示に条件を設定することもできます。詳しくは、この[ページ](defining-web-forms-page-sequencing.md#conditional-page-display)を参照してください。
 
 ## 既存のフォームからの要素のインポート {#importing-elements-from-an-existing-form}
 

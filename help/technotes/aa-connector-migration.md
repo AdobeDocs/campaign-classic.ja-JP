@@ -4,9 +4,9 @@ title: Adobe Analytics Connectorへの移行
 description: Campaign - Analyticsコネクタに関するFAQ
 hide: true
 hidefromtoc: true
-source-git-commit: cde4ed65abb2458fc40639b92314f8d56b18b78c
+source-git-commit: 41478c656ffd4e113788149e6cca9ed00602789e
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '836'
 ht-degree: 9%
 
 ---
@@ -71,9 +71,9 @@ Campaign Classicv7とAdobe Analyticsの新しい統合が利用できるよう�
 * ユーザーインターフェイスの詳細モードを有効にするには：詳細モードで`web`プロセスを再実行します。
 * **webAnalytics**&#x200B;ワークフローの詳細モードを有効にするには：ワークフローのプロパティから「**エンジンで実行**」オプションを選択し、詳細モードで`wfserver`を再実行します。
 
-**「統合所有者が管理者ではない」エラーが意味するエラーは何ですか？**
+**「統合所有者が管理者でない」エラーとは何を意味しますか？**
 
-Data Connectorsの「Integration Owner Not Admin」エラーについて詳しくは、[このページ](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error)を参照してください。
+[このページ](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error)のData Connectors `Integration Owner Not Admin`エラーについて詳しくは、こちらを参照してください。
 
 **新しいコネクタへの移行が完了したら、古いデータおよびレポートスイートはどうなりますか。**
 

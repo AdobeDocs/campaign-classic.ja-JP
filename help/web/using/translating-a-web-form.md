@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Web アプリケーションは、編集言語で設計されます。これは�
 >
 >デフォルトでは、編集言語とデフォルト言語は、コンソールの言語と同じです。
 
-## 言語の選択{#choosing-languages}
+## 言語の選択 {#choosing-languages}
 
 1 つまたは複数の翻訳言語を定義するには、Web アプリケーションの「**[!UICONTROL プロパティ]**」ボタンをクリックし、「**[!UICONTROL ローカライゼーション]**」タブをクリックします。**[!UICONTROL 追加]**&#x200B;ボタンをクリックして、Web アプリケーションの新しい翻訳言語を定義します。
 
@@ -51,7 +51,7 @@ Adobe Campaign には、複数言語の翻訳を実行および管理するた�
 
 このタブを初めて開いたときは、何のデータも含まれていません。**[!UICONTROL 翻訳する文字列を収集]**&#x200B;リンクをクリックし、Web アプリケーションの文字列を更新します。
 
-Adobe Campaign はフィールドのラベルとすべての静的要素（HTML ブロック、Javascript など）の「**[!UICONTROL テキスト]**」タブで定義された文字列を収集します。静的要素について詳しくは、[Web フォームの静的要素](../../web/using/static-elements-in-a-web-form.md)で説明しています。
+Adobe Campaign はフィールドのラベルとすべての静的要素（HTML ブロック、Javascript など）の「**[!UICONTROL テキスト]**」タブで定義された文字列を収集します。静的要素について詳しくは、[Web フォームの静的要素](static-elements-in-a-web-form.md)で説明しています。
 
 ![](assets/s_ncs_admin_survey_trad_tab.png)
 

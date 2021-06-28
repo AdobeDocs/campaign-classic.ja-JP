@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 27%
@@ -15,7 +15,7 @@ ht-degree: 27%
 
 # Campaign Classic 組み込みパッケージのインストール{#installing-campaign-standard-packages}
 
-## 組み込みパッケージについて{#campaign-standard-packages}
+## 組み込みパッケージについて {#campaign-standard-packages}
 
 組み込みパッケージには、ニーズや契約に応じてインストールできる一連の機能が含まれています。 Campaignの組み込みパッケージの完全なリストは、以下で確認できます。
 
@@ -43,7 +43,7 @@ ht-degree: 27%
 
 これで、パッケージがインストールされました。
 
-### 標準パッケージのリスト{#list-of-standard-packages}
+### 標準パッケージのリスト {#list-of-standard-packages}
 
 次の表に、すべてのCampaign組み込みパッケージを示します。
 
@@ -68,7 +68,7 @@ ht-degree: 27%
   </tr> 
   <tr> 
    <td> マーケティングリソース（MRM）<br /> </td> 
-   <td> タスク、予算およびマーケティングリソースの管理とトラッキングを提供し、マーケティングアクションを協調モードで制御します。 <a href="../../campaign/using/about-marketing-resource-management.md">詳細情報</a> <br /> </td> 
+   <td> タスク、予算およびマーケティングリソースの管理とトラッキングを提供し、マーケティングアクションを協調モードで制御します。 <a href="../../mrm/using/about-marketing-resource-management.md">詳細情報</a> <br /> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 
@@ -139,7 +139,7 @@ ht-degree: 27%
   </tr> 
   <tr> 
    <td> オンライン調査 (調査マネージャー)<br /> </td> 
-   <td> オンラインフォームを作成および管理して、プロファイル情報の追加または変更、購読、購読解除、競合参加フォームを作成および管理します。 （オプション）<a href="../../web/using/about-surveys.md">詳細情報</a> <br /> </td> 
+   <td> オンラインフォームを作成および管理して、プロファイル情報の追加または変更、購読、購読解除、競合参加フォームを作成および管理します。 （オプション）<a href="../../surveys/using/about-surveys.md">詳細情報</a> <br /> </td> 
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
@@ -235,7 +235,7 @@ ht-degree: 27%
  </tbody> 
 </table>
 
-### Message Centerパッケージ{#message-center-package}
+### Message Centerパッケージ {#message-center-package}
 
 配信チャネル（Eメール、モバイルチャネル、モバイルアプリチャネルなど）を トランザクションメッセージ（Message Centerパッケージ）をインストールする前に EメールのみのMessage Centerプロジェクトを開始し、その後新しいチャネルを追加する必要がある場合は、次の手順に従います。
 

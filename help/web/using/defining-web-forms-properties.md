@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Web フォームでは、独自の要件を満たすための設定やパーソ�
 
 ![](assets/s_ncs_admin_survey_properties_general_tab.png)
 
-フォームテンプレートは、フォームの作成中に選択されます。後から変更することはできません。フォームテンプレートの作成と管理について詳しくは、[Web フォームテンプレートの使用](../../web/using/using-a-web-form-template.md)を参照してください。
+フォームテンプレートは、フォームの作成中に選択されます。後から変更することはできません。フォームテンプレートの作成と管理について詳しくは、[Web フォームテンプレートの使用](using-a-web-form-template.md)を参照してください。
 
 ## フォームデータストレージ {#form-data-storage}
 
@@ -53,7 +53,7 @@ Web フォームのフィールドは、デフォルトで、受信者テーブ�
 
 「**[!UICONTROL ローカライゼーション]**」タブを使用すると、Web フォームのデザインと表示言語を選択できます。
 
-[Web フォームの翻訳](../../web/using/translating-a-web-form.md)を参照してください。
+[Web フォームの翻訳](translating-a-web-form.md)を参照してください。
 
 ## フォームのブラウジングとレンダリング {#form-browsing-and-rendering}
 
@@ -77,7 +77,7 @@ Web フォームのフィールドは、デフォルトで、受信者テーブ�
 
 「**[!UICONTROL レンダリング]**」タブの「**[!UICONTROL テンプレート]**」フィールドを使用すると、使用可能な中からテーマを選択できます。
 
-テーマは、ツリーの&#x200B;**[!UICONTROL 管理／設定／フォームのレンダリング]**&#x200B;ノードに保存されます。[フォームレンダリングテンプレートの選択](../../web/using/form-rendering.md#selecting-the-form-rendering-template)を参照してください。
+テーマは、ツリーの&#x200B;**[!UICONTROL 管理／設定／フォームのレンダリング]**&#x200B;ノードに保存されます。[フォームレンダリングテンプレートの選択](form-rendering.md#selecting-the-form-rendering-template)を参照してください。
 
 プロパティウィンドウの下の部分にレンダリングのサンプルが表示されます。**[!UICONTROL リンクを編集]**&#x200B;アイコンを使用すると、選択したテーマの設定が表示されます。
 
@@ -85,13 +85,13 @@ Web フォームのフィールドは、デフォルトで、受信者テーブ�
 
 ## フォームのテキスト {#texts-in-the-form}
 
-「**[!UICONTROL ページ]**」タブを使用すると、フォームヘッダーおよびフッターのコンテンツを定義できます。[ヘッダーとフッターの定義](../../web/using/form-rendering.md#defining-headers-and-footers)を参照してください。
+「**[!UICONTROL ページ]**」タブを使用すると、フォームヘッダーおよびフッターのコンテンツを定義できます。[ヘッダーとフッターの定義](form-rendering.md#defining-headers-and-footers)を参照してください。
 
-また、翻訳も管理できます。[Web フォームの翻訳](../../web/using/translating-a-web-form.md)を参照してください。
+また、翻訳も管理できます。[Web フォームの翻訳](translating-a-web-form.md)を参照してください。
 
 ## フォームのアクセシビリティ {#accessibility-of-the-form}
 
-Web フォームは、**[!UICONTROL オンライン]**&#x200B;の状態で、現在の日付が有効期間内である場合に、ユーザーがアクセスできます。フォームのステータスは、パブリッシュステージ（[フォームのパブリッシュ](../../web/using/publishing-a-web-form.md#publishing-a-form)を参照）の間に修正できます。ステータスは、プロパティウィンドウの「**[!UICONTROL 一般]**」タブの「**プロジェクト**」セクションに表示されます。
+Web フォームは、**[!UICONTROL オンライン]**&#x200B;の状態で、現在の日付が有効期間内である場合に、ユーザーがアクセスできます。フォームのステータスは、パブリッシュステージ（[フォームのパブリッシュ](publishing-a-web-form.md#publishing-a-form)を参照）の間に修正できます。ステータスは、プロパティウィンドウの「**[!UICONTROL 一般]**」タブの「**プロジェクト**」セクションに表示されます。
 
 有効期間は、**[!UICONTROL 開始]**&#x200B;日から&#x200B;**[!UICONTROL 終了日]**&#x200B;までです。これらのフィールドに日付が指定されていない場合、フォームは永続的に有効です。
 
@@ -150,7 +150,7 @@ Web フォームは、**[!UICONTROL オンライン]**&#x200B;の状態で、現
 
 ![](assets/s_ncs_admin_survey_properties_param.png)
 
-パラメーターの値が取得されるストレージの場所を指定する必要があります。これをおこなうには、いずれかのストレージオプションを選択し、「**[!UICONTROL ストレージ]**」タブをクリックして、関連するフィールドまたは変数を選択します。ストレージオプションについて詳しくは、[回答ストレージフィールド](../../web/using/web-forms-answers.md#response-storage-fields)を参照してください。
+パラメーターの値が取得されるストレージの場所を指定する必要があります。これをおこなうには、いずれかのストレージオプションを選択し、「**[!UICONTROL ストレージ]**」タブをクリックして、関連するフィールドまたは変数を選択します。ストレージオプションについて詳しくは、[回答ストレージフィールド](web-forms-answers.md#response-storage-fields)を参照してください。
 
 回答者のステータス（0、1 またはその他の値）は、フォームにアクセスするために URL に追加されます。この情報は、フォームのページまたはテストボックスで再利用できます。表示されるページは、次に示すように、コンテキストの値に基づいて条件を設定できます。
 

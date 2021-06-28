@@ -6,9 +6,9 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1026'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
    ![](assets/s_ncs_admin_survey_preload_methods_002.png)
 
-   フィールドは、「**[!UICONTROL パラメーター]**」タブを使用してフォームプロパティに追加できます（[パラメーターの追加](../../web/using/defining-web-forms-properties.md#adding-parameters)を参照）。フォーム URL または入力ゾーンに配置されます。
+   フィールドは、「**[!UICONTROL パラメーター]**」タブを使用してフォームプロパティに追加できます（[パラメーターの追加](defining-web-forms-properties.md#adding-parameters)を参照）。フォーム URL または入力ゾーンに配置されます。
 
    >[!CAUTION]
    >
@@ -81,7 +81,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 1. **フォーム編集中**
 
-   これは、最初のデザインフェーズです。新しいフォームが作成されると、編集フェーズになります。テスト目的でのみ、フォームにアクセスし、パラメーター **[!UICONTROL __uuid]** をその URL で使用する必要があります。この URL は、「**[!UICONTROL プレビュー]**」サブタブでアクセスできます。[フォーム URL パラメーター](../../web/using/defining-web-forms-properties.md#form-url-parameters)を参照してください。
+   これは、最初のデザインフェーズです。新しいフォームが作成されると、編集フェーズになります。テスト目的でのみ、フォームにアクセスし、パラメーター **[!UICONTROL __uuid]** をその URL で使用する必要があります。この URL は、「**[!UICONTROL プレビュー]**」サブタブでアクセスできます。[フォーム URL パラメーター](defining-web-forms-properties.md#form-url-parameters)を参照してください。
 
    >[!CAUTION]
    >
@@ -123,7 +123,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 * 「**[!UICONTROL フォームが閉じられた場合に表示するメッセージをパーソナライズ...]**」リンクをクリックし、有効となっていないフォームにユーザーがアクセスしようとした場合に表示するエラーメッセージを定義します。
 
-   [フォームのアクセシビリティ](../../web/using/defining-web-forms-properties.md#accessibility-of-the-form)を参照してください。
+   [フォームのアクセシビリティ](defining-web-forms-properties.md#accessibility-of-the-form)を参照してください。
 
 ### E メールによるフォームの配信 {#delivering-a-form-via-email}
 
@@ -135,7 +135,7 @@ E メールで招待状を配信する場合、データの紐付けに「**[!UI
 
 この場合、データストレージの紐付けキーは、受信者の暗号化された識別子である必要があります。詳しくは、[フォームデータのプリロード](#pre-loading-the-form-data)を参照してください。
 
-この場合、レコードボックスの「**[!UICONTROL プリロードされたレコードを更新]**」オプションをチェックする必要があります。詳しくは、[Web フォームの回答の保存](../../web/using/web-forms-answers.md#saving-web-forms-answers)を参照してください。
+この場合、レコードボックスの「**[!UICONTROL プリロードされたレコードを更新]**」オプションをチェックする必要があります。詳しくは、[Web フォームの回答の保存](web-forms-answers.md#saving-web-forms-answers)を参照してください。
 
 ![](assets/s_ncs_admin_survey_save_box_option.png)
 
@@ -154,7 +154,3 @@ E メールで招待状を配信する場合、データの紐付けに「**[!UI
 ![](assets/s_ncs_admin_survey_trace_edit.png)
 
 例えば、リマインダーの送信時に非回答者のみをターゲットにしたり、回答者のみに特別なコミュニケーションを提供したりするために、クエリで提供された回答ログを処理できます。
-
->[!NOTE]
->
->提供された回答を完全にトラッキングし、回答をエクスポートして、専用のレポートを表示または作成するには、オプションの&#x200B;**調査**&#x200B;モジュールを使用します。詳しくは、[この節](../../web/using/about-surveys.md)を参照してください。

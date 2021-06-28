@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
-source-wordcount: '3203'
+source-wordcount: '3193'
 ht-degree: 5%
 
 ---
@@ -109,18 +109,18 @@ Adobe Campaignデータベースで、すべての電子メールアドレスを
 * **[!UICONTROL 今後連絡を希望しない受信者を除外]** :このオプションを選択した場合、「受信ブロックリスト者に連絡しない」で、
 * **[!UICONTROL コピーを自動的に無視]** :このオプションを選択した場合、重複アドレスは配信されません。
 
-### パラメーター{#retry-parameters}を再試行します
+### 再試行パラメーター {#retry-parameters}
 
 リカバリに関する情報は、「**リカバリ期間**」および「**リカバリ回数**」フィールドに記載されています。受信者に到達できない場合（受信ボックスがいっぱいになった場合など）は、デフォルトでは、各試行の間隔（最大配信時間内）が1時間で5回ずつ連絡が試行されます。 これらの値は、ニーズに合わせて変更できます。
 
-### 強制隔離パラメーター{#quarantine-parameters}
+### 強制隔離パラメーター {#quarantine-parameters}
 
 強制隔離の設定オプションを次に示します。
 
 * **[!UICONTROL 2つの重大なエラーの間の時間]** :値（デフォルトでは「1d」）を入力します。1日)を定義して、エラーが発生した場合にエラーカウンターを増分するまでのアプリケーションの待機時間を定義します。
 * **[!UICONTROL 強制隔離前のエラーの最大数]** :この値に達すると、Eメールアドレスが強制隔離されます（デフォルトは「5」）。6回目のエラー発生時にアドレスが強制隔離されます)。これは、連絡先が後続の配信から自動的に除外されることを意味します。
 
-## バウンスメールの管理{#managing-bounced-emails}
+## バウンス電子メールの管理 {#managing-bounced-emails}
 
 配信エラーを検証するには、バウンスメールが非常に重要です。 これらのエラーは、ルールが原因を特定した後、 NP@Iに分類されます。
 
@@ -130,7 +130,7 @@ Adobe Campaignデータベースで、すべての電子メールアドレスを
 
 ![](assets/s_ncs_install_deployment_wiz_06.png)
 
-### 受信メールの取得に使用するPOPアカウント{#pop-account-used-to-retrieve-incoming-mails}
+### 受信メールの取得に使用するPOPアカウント {#pop-account-used-to-retrieve-incoming-mails}
 
 受信電子メールを取得するためのアカウントに接続するパラメーターを指定します。
 
@@ -258,7 +258,7 @@ URLに値が入力されたら、トラッキングサーバーを登録する�
 
 URL検索&#x200B;**にリンクされるパラメーターは、標準インストールの場合は変更**&#x200B;しないでください。 その他のパラメーターについては、Adobeにお問い合わせください。
 
-## モバイルチャネルパラメーター{#mobile-channel-parameters}
+## モバイルチャネルパラメーター {#mobile-channel-parameters}
 
 次の手順では、モバイルへの配信（SMSおよびWAPプッシュ）のデフォルト設定を定義できます。
 
@@ -279,7 +279,7 @@ URL検索&#x200B;**にリンクされるパラメーターは、標準インス�
 
 **優先度**&#x200B;ドロップダウンリストで、次の操作を実行します。「標準」、「高」または「緊急」を選択して、送信するメッセージに適用します。
 
-### 詳細設定パラメーター {#advanced-parameters}
+### 詳細パラメーター {#advanced-parameters}
 
 **詳細設定パラメーター…**&#x200B;リンクを使用して、再試行および強制隔離のオプションにアクセスできます。
 
@@ -309,11 +309,11 @@ URL検索&#x200B;**にリンクされるパラメーターは、標準インス�
 
 この手順では、インターネットで公開されるAdobe CampaignページのアクセスURLを定義できます。
 
-また、Webフォームにリンクするパブリッシュオプションもここに示す必要があります。
+また、Webフォームにリンクするパブリッシュオプションもここに指定する必要があります。
 
 ![](assets/s_ncs_install_deployment_wiz_15.png)
 
-### Web上で公開されているサーバ{#servers-exposed-on-the-web}
+### Web上で公開されるサーバー {#servers-exposed-on-the-web}
 
 このページを使用してサーバーURLを設定し、次の操作を行います。
 
@@ -325,7 +325,7 @@ URL検索&#x200B;**にリンクされるパラメーターは、標準インス�
 
 Adobe Campaignでは、これらの3つのURLを区別して、複数のプラットフォームに負荷を分散できます。
 
-## パブリックリソースの管理{#managing-public-resources}
+## パブリックリソースの管理 {#managing-public-resources}
 
 >[!IMPORTANT]
 >
@@ -370,9 +370,9 @@ Adobe Campaignでは、これらの3つのURLを区別して、複数のプラ�
 * Eメールでの画像の使用と管理について詳しくは、[この節](../../delivery/using/defining-the-email-content.md#adding-images)を参照してください。
 * 配信ウィザードで、これらのURLから呼び出された画像のステータスが「無視」になります。
 
-### パブリッシュモード{#publication-modes}
+### 公開モード {#publication-modes}
 
-ウィザードの下部のセクションでは、パブリックリソースとパブリック画像のパブリッシュオプションを選択できます。 これらのオプションは、Webフォームと調査でも使用できます。
+ウィザードの下部のセクションでは、パブリックリソースとパブリック画像のパブリッシュオプションを選択できます。
 
 次のパブリッシュモードを使用できます。
 
@@ -423,7 +423,7 @@ Adobe Campaignでは、これらの3つのURLを区別して、複数のプラ�
 >
 >パブリックリソースストレージディレクトリを変更できます。 詳しくは、[パブリックリソースの管理](#managing-public-resources)を参照してください。
 
-### パブリックリソースの同期{#synchronizing-public-resources}
+### パブリックリソースの同期 {#synchronizing-public-resources}
 
 この機能を使用すると、複数のスペア・サーバ上でパブリック・リソース&#x200B;**を**&#x200B;同期できます。
 
@@ -485,7 +485,7 @@ startRedirection="true" startRedirectionInModule="true" trackWebVisitors="false"
  </relay>
 ```
 
-## データのパージ{#purging-data}
+## データのパージ {#purging-data}
 
 デプロイウィザードの最後の段階では、古いデータの自動パージを設定できます。 値は日数で表します。
 

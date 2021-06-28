@@ -6,10 +6,10 @@ audience: social
 content-type: reference
 topic-tags: annexes
 exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
 workflow-type: tm+mt
-source-wordcount: '2125'
-ht-degree: 100%
+source-wordcount: '2382'
+ht-degree: 94%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 ![](assets/social_webapp_042.png)
 
-## 設定を Facebook アプリケーションに転送するには？{#how-to-forward-settings-to-a-facebook-application-}
+## 設定を Facebook アプリケーションに転送するには？ {#how-to-forward-settings-to-a-facebook-application-}
 
 >[!IMPORTANT]
 >
@@ -120,7 +120,7 @@ Facebook によって Adobe Campaign に転送された匿名データの中で�
 
 ![](assets/social_webapp_018.png)
 
-## ファンデータを取得するには？{#how-to-acquire-fan-data-}
+## ファンデータを取得するには？ {#how-to-acquire-fan-data-}
 
 >[!IMPORTANT]
 >
@@ -297,7 +297,7 @@ Twitter のフォロワーと同様（[動作の仕組み](../../social/using/pu
    >
    >Adobe Campaign でファンのチェックインを収集するには、サービス設定画面の「**[!UICONTROL 購読]**」ボタンをクリックする必要があります。詳しくは、[外部アカウントの設定](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)を参照してください。
 
-## Facebook プロフィールデータを使用したフォームのフィールドのプリロード方法 {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
+## facebookプロファイルデータを使用したフォームのプリロード方法 {#how-to-pre-load-the-fields-of-a-form-using-facebook-profile-data}
 
 **[!UICONTROL ソーシャルマーケティング]**&#x200B;アプリケーションを使用すると、Facebook のプロフィール情報を使用してフィールドをプリロードするためのボタンをフォームに追加できます。このオプション（すべての Web アプリケーションテンプレート（**[!UICONTROL ページ]**&#x200B;タイプのアクティビティ）で使用できます）について詳しくは、[この節](../../web/using/static-elements-in-a-web-form.md#inserting-html-content)を参照してください。
 
@@ -306,3 +306,55 @@ Twitter のフォロワーと同様（[動作の仕組み](../../social/using/pu
 >[!NOTE]
 >
 >この機能を使用する前に、Facebook アプリケーションと **[!UICONTROL Facebook Connect]** タイプの外部アカウントを作成する必要があります。詳しくは、[外部アカウントの設定](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)を参照してください。
+
+**Facebook プロファイルから取得したデータによるフォームのフィールドのプリロード**
+
+Webフォームを作成し、フォームのページでユーザーが操作しない要素を含めます。これらは、画像、HTMLコンテンツ、横棒、ハイパーリンクなどの静的要素です。 Webフォームの静的要素について詳しくは、[このページ](../../web/using/static-elements-in-a-web-form.md)を参照してください。
+
+静的要素を挿入する際に、「**[!UICONTROL Facebookによる事前ロード]**」オプションを使用すると、Facebookのプロファイル情報を使用してフィールドをプリロードするためのボタンをフォームに挿入できます。
+
+![](assets/web_social_webapp_037.png)
+
+ユーザーが&#x200B;**[!UICONTROL 自動入力]**&#x200B;ボタンをクリックすると、Facebook のアプリの許可ウィンドウが開きます。
+
+![](assets/web_social_webapp_029.png)
+
+>[!NOTE]
+>
+>外部アカウントを設定する際に、拡張された権限のリストを変更できます。 拡張権限が設定されていない場合、Facebookは、デフォルトで、基本プロファイル情報を転送します。\
+>拡張権限のリストとその構文を表示するには、[Facebookのドキュメント](https://developers.facebook.com/docs/reference/api/permissions)を参照してください。
+
+ユーザーが情報の共有に同意すれば、フォームのフィールドにプリロードされます。
+
+![](assets/web_social_webapp_030.png)
+
+この事例では、次の要素で構成された Web アプリケーションを作成しました。
+
+* フォームを含むページ
+* **[!UICONTROL レコード]**&#x200B;アクティビティ
+* **[!UICONTROL 終了]**&#x200B;アクティビティ
+
+![](assets/social_webapp_031.png)
+
+プリロードボタンを追加するには、次の手順に従います。
+
+1. フォームを作成します。
+
+   ![](assets/social_webapp_032.png)
+
+1. フォームのフィールドと同じレベルに移動し、リンクを追加します。
+
+   ![](assets/social_webapp_033.png)
+
+1. ラベルを入力し、**[!UICONTROL ボタン]**&#x200B;タイプを選択します。
+
+   ![](assets/social_webapp_034.png)
+
+1. 「**[!UICONTROL アクション]**」フィールドに移動して、「**[!UICONTROL Facebook による事前ロードをおこなう]**」を選択します。
+
+   ![](assets/social_webapp_035.png)
+
+1. 「**[!UICONTROL アプリケーション]**」フィールドに移動して、以前作成した **[!UICONTROL Facebook Connect]** タイプの外部アカウントを選択します。詳しくは、[このページ](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)を参照してください。
+
+   ![](assets/social_webapp_036.png)
+

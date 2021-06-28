@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 100%
@@ -47,7 +47,7 @@ Adobe Campaign でランディングページの設定を開始する前に、HT
 
 >[!NOTE]
 >
->Web アプリケーションの作成について詳しくは、[この節](../../web/using/creating-a-new-web-application.md)を参照してください。
+>Web アプリケーションの作成について詳しくは、[この節](creating-a-new-web-application.md)を参照してください。
 
 ## 手順 1 - テンプレートの選択と読み込み {#step-1---selecting-and-loading-templates}
 

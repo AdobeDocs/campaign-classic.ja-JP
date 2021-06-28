@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_admin_survey_no_next_page.png)
 
-これらのボタンをリンクに置き換えることができます。[HTML コンテンツの挿入](../../web/using/static-elements-in-a-web-form.md#inserting-html-content)を参照してください。
+これらのボタンをリンクに置き換えることができます。[HTML コンテンツの挿入](static-elements-in-a-web-form.md#inserting-html-content)を参照してください。
 
 ## ジャンプの挿入 {#inserting-a-jump}
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_admin_survey_jump_sample1.png)
 
-1. フォームプロパティで、ローカル変数（**next**）に格納されたパラメーター（**next**）を追加します。ローカル変数について詳しくは、[ローカル変数へのデータの格納](../../web/using/web-forms-answers.md#storing-data-in-a-local-variable)で説明しています。
+1. フォームプロパティで、ローカル変数（**next**）に格納されたパラメーター（**next**）を追加します。ローカル変数について詳しくは、[ローカル変数へのデータの格納](web-forms-answers.md#storing-data-in-a-local-variable)で説明しています。
 
    ![](assets/s_ncs_admin_survey_jump_sample2.png)
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 ## フォームの別のページへのリンクの挿入 {#inserting-a-link-to-another-page-of-the-form}
 
-フォームの別のページへのリンクを挿入できます。これをおこなうには、**[!UICONTROL リンク]**&#x200B;タイプの静的要素をページに追加します。詳しくは、[リンクの挿入](../../web/using/static-elements-in-a-web-form.md#inserting-a-link)を参照してください。
+フォームの別のページへのリンクを挿入できます。これをおこなうには、**[!UICONTROL リンク]**&#x200B;タイプの静的要素をページに追加します。詳しくは、[リンクの挿入](static-elements-in-a-web-form.md#inserting-a-link)を参照してください。
 
 ## 条件付きページ表示 {#conditional-page-display}
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ストレージモードについて詳しくは、[回答ストレージフィールド](../../web/using/web-forms-answers.md#response-storage-fields)で説明しています。
+>ストレージモードについて詳しくは、[回答ストレージフィールド](web-forms-answers.md#response-storage-fields)で説明しています。
 
 この例では、変数を使用します。
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 
 ### パラメーターに基づいて表示 {#display-based-on-parameters}
 
-また、Web フォームの初期化パラメーターに応じて、またはデータベースに格納された値に応じて、ページの順番をパーソナライズできます。[フォーム URL パラメーター](../../web/using/defining-web-forms-properties.md#form-url-parameters)を参照してください。
+また、Web フォームの初期化パラメーターに応じて、またはデータベースに格納された値に応じて、ページの順番をパーソナライズできます。[フォーム URL パラメーター](defining-web-forms-properties.md#form-url-parameters)を参照してください。
 
 ## スクリプトの追加 {#adding-scripts}
 

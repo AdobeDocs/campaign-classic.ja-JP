@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 * **分割**：ターゲットを複数のサブセットに分割します。[分割](../../workflow/using/split.md)の節を参照してください。
 * **セル**：各種サブセットのビューをデータ列の形式で提供し、これらのサブセットが多数ある場合に操作を容易にします。詳しくは、[セル](../../workflow/using/cells.md)の節を参照してください。
 * **オファー（セル別）**：各オファーを、母集団の各サブセットとリンクします。[オファー（セル別）](../../workflow/using/offers-by-cell.md)の節を参照してください。
-* **調査の回答**：調査中に収集した情報を取得します。詳しくは、[この節](../../web/using/getting-started-with-surveys.md)を参照してください。
+* **調査の回答**：調査中に収集した情報を取得します。詳しくは、[この節](../../surveys/using/getting-started-with-surveys.md)を参照してください。
 * **配信の概要**：配信の概要を追加できます。[配信の概要](../../workflow/using/delivery-outline.md)の節を参照してください。
 * **エンリッチメント**：作業用テーブルまたはワークフローに列を追加します。[エンリッチメント](../../workflow/using/enrichment.md)の節を参照してください。
 * **スキーマ編集**：データを変換、標準化します。必要に応じて、データのエンリッチメントもおこないます。詳しくは、[スキーマ編集](../../workflow/using/edit-schema.md)の節を参照してください。

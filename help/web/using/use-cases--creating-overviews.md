@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
@@ -169,7 +169,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_configuration_webapp_container.png)
 
-   要素のレイアウトについては、[この節](../../web/using/about-web-forms.md)を参照してください。
+   要素のレイアウトについては、[この節](about-web-forms.md)を参照してください。
 
 1. **dottedFilter** を適用します。
 

@@ -6,7 +6,7 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Adobe Campaign におけるマーケティングキャンペーンのサイク�
 
 ![](assets/d_ncs_user_emarketing.png)
 
-### 統合された顧客プロファイル {#integrated-customer-profile}
+### Integrated Customer Profile {#integrated-customer-profile}
 
 プロファイル（顧客、見込み客、ニュースレター購読者など）は、Adobe Campaign データベースで一元管理されます。プロファイルを取得してこのデータベースを作成するために使用可能なメカニズムは多数あります。web フォームによるオンライン収集、テキストファイルの手動または自動インポート、会社のデータベースまたは他の情報システムによるレプリケーションなどです。Adobe Campaign を利用すれば、マーケティング履歴、購入情報、嗜好、CRM データおよび関連する PII データを包括的に集約し、分析をおこなって、行動に移すことができます。
 
@@ -47,13 +47,13 @@ Adobe Campaign には、高度にターゲティングされた最適なオフ�
 
 高度なデータ管理機能は、データ処理機能を強化します。データマートでモデル化されていないデータを含めることで、ターゲティングプロセスを簡素化し、最適化します。この機能について詳しくは、[このページ](../../workflow/using/targeting-data.md#data-management)で説明しています。
 
-### クロスチャネルのキャンペーンオーケストレーション {#cross-channel-campaign-orchestration}
+### クロスチャネルキャンペーンのオーケストレーション {#cross-channel-campaign-orchestration}
 
-Adobe Campaign では、ターゲティングおよびパーソナライズされたキャンペーンの設計と編成を複数のチャネル（E メール、ダイレクトメール、SMS、プッシュ通知）でおこなうことができます。すべてのキャンペーンおよび通信をスケジュール、編成、設定、パーソナライズ、自動化、実行および測定するために必要なすべての機能が、単一のインターフェイスに用意されています。キャンペーンのスケジュールおよび実行について詳しくは、[このページ](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
+Adobe Campaign を使用すると、メール、ダイレクトメール、SMS、プッシュ通知などの複数のチャネルで、ターゲットを絞りパーソナライズしたキャンペーンの設計とオーケストレーションを行えます。すべてのキャンペーンおよび通信をスケジュール、編成、設定、パーソナライズ、自動化、実行および測定するために必要なすべての機能が、単一のインターフェイスに用意されています。キャンペーンのスケジュールおよび実行について詳しくは、[このページ](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
 
 ### パーソナライゼーションとリアルタイムのインタラクション {#personalization-and-real-time-interaction}
 
-顧客プロファイルと環境設定に基づいてメッセージコンテンツとヘッダーを効果的にパーソナライズすることで、顧客の注意を引き、応答率を向上させます。メッセージコンテンツ管理とパーソナライゼーションについて詳しくは、[このページ](../../delivery/using/about-personalization.md)を参照してください。コンテンツ、通知および承認サイクルの協調管理について詳しくは、[この節](../../campaign/using/about-marketing-resource-management.md)で説明しています。
+顧客プロファイルと環境設定に基づいてメッセージコンテンツとヘッダーを効果的にパーソナライズすることで、顧客の注意を引き、応答率を向上させます。メッセージコンテンツ管理とパーソナライゼーションについて詳しくは、[このページ](../../delivery/using/about-personalization.md)を参照してください。コンテンツ、通知および承認サイクルの協調管理について詳しくは、[この節](../../mrm/using/about-marketing-resource-management.md)で説明しています。
 
 ### 分析とレポート {#analysis-and-reporting}
 
@@ -71,13 +71,13 @@ Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マ�
 
 * [チャネル](../../delivery/using/steps-about-delivery-creation-steps.md)：各種チャネル（E メール、SMS、LINE、モバイルアプリ、ダイレクトメール）を使用した配信のデザインと送信
 * [キャンペーン](../../campaign/using/designing-marketing-campaigns.md)：クロスチャネルキャンペーンのオーケストレーション
-* [MRM](../../campaign/using/about-marketing-resource-management.md)：マーケティングリソースと予算の管理
+* [MRM](../../mrm/using/about-marketing-resource-management.md)：マーケティングリソースと予算の管理
 * [インタラクション](../../interaction/using/interaction-and-offer-management.md)：Campaign のオファーの管理
 * [Message Center](../../message-center/using/about-transactional-messaging.md)：E メール、SMS またはモバイルアプリでのトランザクションメッセージの送信
 * [ソーシャルマーケティング](../../social/using/about-social-marketing.md)：ソーシャルメディア（Facebook、Twitter）でのコミュニケーション
 * [ワークフロー](../../workflow/using/about-workflows.md)／データ管理：プロセスの自動化と、ワークフローを使用したデータの管理
 * [web アプリケーション](../../web/using/about-web-applications.md)：web ページおよびフォームの作成
-* [調査マネージャー](../../web/using/about-surveys.md)：オンライン調査および集計の作成
+* [調査マネージャー](../../surveys/using/about-surveys.md)：オンライン調査および集計の作成
 * [コンテンツマネージャー](../../delivery/using/about-content-management.md)：E メールコンテンツの管理
 * [分散型マーケティング](../../campaign/using/about-distributed-marketing.md)：セントラルエージェントやローカルエージェントのキャンペーンの調整
 * [Response Manager](../../campaign/using/about-response-manager.md)：顧客の応答の管理

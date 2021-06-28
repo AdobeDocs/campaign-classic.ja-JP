@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 調査への回答を収集するには、次の手順に従います。
 
-1. ワークフローを作成し、**[!UICONTROL 調査の回答]**&#x200B;アクティビティを追加します。このアクティビティの使用について詳しくは、[この節](../../web/using/publish--track-and-use-collected-data.md#using-the-collected-data)を参照してください。
+1. ワークフローを作成し、**[!UICONTROL 調査の回答]**&#x200B;アクティビティを追加します。このアクティビティの使用について詳しくは、[この節](../../surveys/using/publish--track-and-use-collected-data.md#using-the-collected-data)を参照してください。
 1. このアクティビティを編集し、分析対象となる回答が得られた調査を選択します。
 1. 「**[!UICONTROL すべての回答データを選択]**」オプションを有効にして、すべての情報を収集します。
 

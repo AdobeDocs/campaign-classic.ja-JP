@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: cbfaf6a2c187ad62f7b6c9042b69f5e522fcfd02
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
@@ -37,22 +37,22 @@ DCE を使用すると、ページ要素の挿入や書式設定、HTML ペー�
 
 単純な **Web アプリケーション**&#x200B;を作成するには、次の操作が必要です。
 
-1. Web アプリケーションを作成します（[詳細情報](../../web/using/creating-a-landing-page.md)）
-1. 既存のコンテンツを選択するか、標準テンプレートからコンテンツを作成します（[詳細情報](../../web/using/template-management.md)）
-1. コンテンツの編集と設定をおこないます（[詳細情報](../../web/using/editing-content.md)）
-1. Web アプリケーションを公開します（[詳細情報](../../web/using/creating-a-landing-page.md#step-3---publishing-content)）
+1. Web アプリケーションを作成します（[詳細情報](creating-a-landing-page.md)）
+1. 既存のコンテンツを選択するか、標準テンプレートからコンテンツを作成します（[詳細情報](template-management.md)）
+1. コンテンツの編集と設定をおこないます（[詳細情報](editing-content.md)）
+1. Web アプリケーションを公開します（[詳細情報](creating-a-landing-page.md#step-3---publishing-content)）
 
 >[!NOTE]
 >
->Web アプリケーションのコンテキストでの完全な実装例については、[こちらの節](../../web/using/creating-a-landing-page.md)を参照してください。
+>Web アプリケーションのコンテキストでの完全な実装例については、[こちらの節](creating-a-landing-page.md)を参照してください。
 
 **E メール配信**&#x200B;を作成するには、次の操作が必要です。
 
-1. DCE テンプレートから配信を作成します（[詳細情報](../../web/using/use-case--creating-an-email-delivery.md)）
-1. 既存のコンテンツを選択するか、[標準テンプレート](../../web/using/template-management.md)からコンテンツを作成します
+1. DCE テンプレートから配信を作成します（[詳細情報](use-case--creating-an-email-delivery.md)）
+1. 既存のコンテンツを選択するか、[標準テンプレート](template-management.md)からコンテンツを作成します
 1. オンラインコンテンツの編集と設定をおこないます
 1. 配信を送信します（[詳細情報](../../delivery/using/steps-about-delivery-creation-steps.md)）
 
 >[!NOTE]
 >
->E メール配信のコンテキストでの完全な実装例については、[こちらのユースケース](../../web/using/use-case--creating-an-email-delivery.md)を参照してください。
+>E メール配信のコンテキストでの完全な実装例については、[こちらのユースケース](use-case--creating-an-email-delivery.md)を参照してください。

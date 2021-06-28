@@ -7,10 +7,10 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaignでは、豊富な顧客データを使用して、Eメール、モバイル、オフラインなど、顧客が実際に求める動的なキャンペーンを作成、調整、配信できます。
 sub-product: Adobe Campaign Classic
 type: Documentation
-source-git-commit: 9febe6bc68c8bc31714a74455fa70ef83920ded9
+source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
 workflow-type: tm+mt
 source-wordcount: '2518'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -261,12 +261,6 @@ ht-degree: 98%
       + [承認の設定と管理](campaign/using/marketing-campaign-approval.md)
       + [キャンペーンの監視](campaign/using/marketing-campaign-monitoring.md)
       + [プロバイダー、在庫、予算](campaign/using/providers--stocks-and-budgets.md)
-   + タスク、リソースおよび予算 {#tasks--resources-and-budgets}
-      + [マーケティングリソース管理について](campaign/using/about-marketing-resource-management.md)
-      + [タスクの作成と管理](campaign/using/creating-and-managing-tasks.md)
-      + [コストの管理](campaign/using/controlling-costs.md)
-      + [マーケティングリソースの管理](campaign/using/managing-marketing-resources.md)
-      + [ディスカッションフォーラム](campaign/using/discussion-forums.md)
    + キャンペーンの最適化 {#campaign-optimization}
       + [キャンペーンタイポロジについて](campaign/using/about-campaign-typologies.md)
       + [頻度ルール](campaign/using/pressure-rules.md)
@@ -275,20 +269,26 @@ ht-degree: 98%
       + [フィルタリングルール](campaign/using/filtering-rules.md)
       + [ルールの適用](campaign/using/applying-rules.md)
       + [キャンペーンシミュレーション](campaign/using/campaign-simulations.md)
-   + 分散型マーケティング {#distributed-marketing}
-      + [分散型マーケティングについて](campaign/using/about-distributed-marketing.md)
-      + [ローカルキャンペーンの作成](campaign/using/creating-a-local-campaign.md)
-      + [協調キャンペーンの作成](campaign/using/creating-a-collaborative-campaign.md)
-      + [キャンペーンパッケージの公開](campaign/using/publishing-the-campaign-package.md)
-      + [キャンペーンへのアクセス](campaign/using/accessing-campaigns.md)
-      + [キャンペーンのトラッキング](campaign/using/tracking-a-campaign.md)
-      + [ユースケース](campaign/using/examples.md)
-   + Response Manager {#response-manager}
-      + [Response Manager の基本を学ぶ](campaign/using/about-response-manager.md)
-      + [設定](campaign/using/configuration.md)
-      + [仮説テンプレート](campaign/using/hypothesis-templates.md)
-      + [仮説の作成](campaign/using/creating-hypotheses.md)
-      + [仮説のトラッキング](campaign/using/hypothesis-tracking.md)
++ マーケティングリソース管理 {#mrm}
+   + [マーケティングリソース管理について](mrm/using/about-marketing-resource-management.md)
+   + [タスクの作成と管理](mrm/using/creating-and-managing-tasks.md)
+   + [コストの管理](mrm/using/controlling-costs.md)
+   + [マーケティングリソースの管理](mrm/using/managing-marketing-resources.md)
+   + [ディスカッションフォーラム](mrm/using/discussion-forums.md)
++ 分散型マーケティング {#distributed-marketing}
+   + [分散型マーケティングについて](campaign/using/about-distributed-marketing.md)
+   + [ローカルキャンペーンの作成](campaign/using/creating-a-local-campaign.md)
+   + [協調キャンペーンの作成](campaign/using/creating-a-collaborative-campaign.md)
+   + [キャンペーンパッケージの公開](campaign/using/publishing-the-campaign-package.md)
+   + [キャンペーンへのアクセス](campaign/using/accessing-campaigns.md)
+   + [キャンペーンのトラッキング](campaign/using/tracking-a-campaign.md)
+   + [ユースケース](campaign/using/examples.md)
++ Response Manager {#response-manager}
+   + [Response Manager の基本を学ぶ](campaign/using/about-response-manager.md)
+   + [設定](campaign/using/configuration.md)
+   + [仮説テンプレート](campaign/using/hypothesis-templates.md)
+   + [仮説の作成](campaign/using/creating-hypotheses.md)
+   + [仮説のトラッキング](campaign/using/hypothesis-tracking.md)
 + レポートの設計と共有{#reporting}
    + レポートの基本を学ぶ{#reporting-in-adobe-campaign}
       + [レポートツール](reporting/using/about-adobe-campaign-reporting-tools.md)
@@ -326,7 +326,6 @@ ht-degree: 98%
       + [指標の作成](reporting/using/creating-indicators.md)
       + [キューブを使用したデータ調査](reporting/using/using-cubes-to-explore-data.md)
       + [概念と手法](reporting/using/concepts-and-methodology.md)
-      + [ユースケース：オンラインサーベイへの回答に関するレポートの表示](reporting/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Web コンテンツの設計 {#designing-content}
    + web アプリケーション {#web-applications}
       + [web アプリケーションの基本を学ぶ](web/using/about-web-applications.md)
@@ -357,14 +356,15 @@ ht-degree: 98%
       + [web フォームプロパティの定義](web/using/defining-web-forms-properties.md)
       + [web フォームの翻訳](web/using/translating-a-web-form.md)
       + [ユースケース：web フォーム](web/using/use-cases--web-forms.md)
-   + オンライン調査 {#online-surveys}
-      + [調査の基本を学ぶ](web/using/about-surveys.md)
-      + [調査を作成するための主な手順](web/using/getting-started-with-surveys.md)
-      + [調査の設計](web/using/building-a-survey.md)
-      + [回答の管理](web/using/managing-answers.md)
-      + [収集したデータの公開、トラッキングおよび使用](web/using/publish--track-and-use-collected-data.md)
-      + [調査の設定](web/using/configuring-surveys.md)
-      + [ユースケース：リファラルフォームの作成](web/using/use-case--creating-a-refer-a-friend-form.md)
++ オンライン調査の作成{#online-surveys}
+   + [調査の基本を学ぶ](surveys/using/about-surveys.md)
+   + [調査を作成するための主な手順](surveys/using/getting-started-with-surveys.md)
+   + [調査の設計](surveys/using/building-a-survey.md)
+   + [回答の管理](surveys/using/managing-answers.md)
+   + [収集したデータの公開、トラッキングおよび使用](surveys/using/publish--track-and-use-collected-data.md)
+   + [調査の設定](surveys/using/configuring-surveys.md)
+   + [ユースケース：リファラルフォームの作成](surveys/using/use-case--creating-a-refer-a-friend-form.md)
+   + [ユースケース：オンラインサーベイへの回答に関するレポートの表示](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Adobe Experience Cloud との統合 {#integrating-with-adobe-experience-cloud}
    + [Campaign 統合について](integrations/using/about-campaign-integrations.md)
    + オーディエンスの共有 {#audience-sharing}

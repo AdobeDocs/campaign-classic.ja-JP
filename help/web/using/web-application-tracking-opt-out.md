@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Adobe Campaign は、サンプルバナーを提供します（ニーズに合�
 >
 >独自のバナーを作成するには、標準バナーをパーソナライズする必要があります。
 
-バナーを有効化するには、Web アプリケーションプロパティを設定する必要があります。[Web アプリケーションの設計](../../web/using/designing-a-web-application.md)の節を参照してください。
+バナーを有効化するには、Web アプリケーションプロパティを設定する必要があります。[Web アプリケーションの設計](designing-a-web-application.md)の節を参照してください。
 
 Web トラッキングが有効化されている場合、次の設定ができます。
 
@@ -64,7 +64,7 @@ Web トラッキングが有効化されている場合、次の設定ができ�
 
 「**ここにメッセージを挿入してください**」の部分をトラッキング情報が含まれるブロックに置き換える必要があります。この置き換えは、オプトアウトバナーに関する新たなパーソナライゼーションブロック内で実行する必要があります。
 
-バナーは専用の CSS と共に提供されます。ただし、Web ページを作成して設定する際に、スタイルを上書きできます。[このページ](../../web/using/content-editor-interface.md)を参照してください。
+バナーは専用の CSS と共に提供されます。ただし、Web ページを作成して設定する際に、スタイルを上書きできます。[このページ](content-editor-interface.md)を参照してください。
 
 ## API を使用したオプトアウト Cookie の設定 {#setting-the-opt-out-cookie-using-api}
 

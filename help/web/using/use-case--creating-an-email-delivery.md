@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 100%
@@ -28,7 +28,7 @@ ht-degree: 100%
 >
 >将来の配信のコンテンツをホストするために、開始する前に少なくとも 1 つの **HTML テンプレート**&#x200B;が設定されている必要があります。
 >
->配信&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、「**[!UICONTROL コンテンツ編集モード]**」（「**[!UICONTROL 詳細]**」タブ）が「**[!UICONTROL DCE]**」に設定されていることを確認します。編集者の最適な操作を確認するには、[コンテンツ編集のベストプラクティス](../../web/using/content-editing-best-practices.md)を参照してください。
+>配信&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、「**[!UICONTROL コンテンツ編集モード]**」（「**[!UICONTROL 詳細]**」タブ）が「**[!UICONTROL DCE]**」に設定されていることを確認します。編集者の最適な操作を確認するには、[コンテンツ編集のベストプラクティス](content-editing-best-practices.md)を参照してください。
 
 ## 手順 1 - 配信の作成 {#step-1---creating-a-delivery}
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 ![](assets/dce_select_from_file_template.png)
 
-このコンテンツをテンプレートとして保存し、後で利用することもできます。パーソナライズされたコンテンツテンプレートを作成すると、テンプレートのリストからプレビューできるようになります。詳しくは、[テンプレート管理](../../web/using/template-management.md)を参照してください。
+このコンテンツをテンプレートとして保存し、後で利用することもできます。パーソナライズされたコンテンツテンプレートを作成すると、テンプレートのリストからプレビューできるようになります。詳しくは、[テンプレート管理](template-management.md)を参照してください。
 
 >[!CAUTION]
 >
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 * リンクを画像に挿入します。
 
-   画像を使用して配信の受信者を外部アドレスに導くには、関連する画像をクリックしてポップアップツールバーを表示し、最初のアイコン上にマウスポインターを置いて、**[!UICONTROL 外部 URL へのリンク]**&#x200B;をクリックします。詳しくは、[リンクの追加](../../web/using/editing-content.md#adding-a-link)を参照してください。
+   画像を使用して配信の受信者を外部アドレスに導くには、関連する画像をクリックしてポップアップツールバーを表示し、最初のアイコン上にマウスポインターを置いて、**[!UICONTROL 外部 URL へのリンク]**&#x200B;をクリックします。詳しくは、[リンクの追加](editing-content.md#adding-a-link)を参照してください。
 
    ![](assets/dce_externalpage.png)
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 * リンクをテキストに挿入します。
 
-   外部リンクを配信のテキストに統合するには、テキストの一部またはテキストのブロックを選択して、ポップアップツールバーの最初のアイコンをクリックします。**[!UICONTROL 外部 URL へのリンク]**&#x200B;をクリックして、「**[!UICONTROL URL]**」フィールドにリンクアドレスを入力します。詳しくは、[リンクの追加](../../web/using/editing-content.md#adding-a-link)を参照してください。
+   外部リンクを配信のテキストに統合するには、テキストの一部またはテキストのブロックを選択して、ポップアップツールバーの最初のアイコンをクリックします。**[!UICONTROL 外部 URL へのリンク]**&#x200B;をクリックして、「**[!UICONTROL URL]**」フィールドにリンクアドレスを入力します。詳しくは、[リンクの追加](editing-content.md#adding-a-link)を参照してください。
 
    リンクは、ウィンドウの右側のセクションを使用して、いつでも変更できます。
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 
 * Web アプリケーションへのリンクの統合
 
-   デジタルコンテンツエディターを使用すると、Adobe Campaign コンソールから Web アプリケーションへのリンクを統合できます（ランディングページやフォームページなど）。詳しくは、[Web アプリケーションへのリンク](../../web/using/editing-content.md#link-to-a-web-application)を参照してください。
+   デジタルコンテンツエディターを使用すると、Adobe Campaign コンソールから Web アプリケーションへのリンクを統合できます（ランディングページやフォームページなど）。詳しくは、[Web アプリケーションへのリンク](editing-content.md#link-to-a-web-application)を参照してください。
 
    Web アプリケーションへのリンクのテキストフィールドを選択して、最初のアイコンをクリックします。**[!UICONTROL Web アプリケーションへのリンク]**&#x200B;を選択し、「**Web アプリケーション**」フィールドの末尾にあるアイコンをクリックして、目的のアプリケーションを選択します。
 

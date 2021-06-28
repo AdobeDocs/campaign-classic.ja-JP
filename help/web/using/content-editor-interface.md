@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 100%
@@ -21,9 +21,9 @@ DCE 編集ウィンドウは、3 つの異なるセクションに分類され�
 
 ![](assets/dce_decoupe_window_nb.png)
 
-1. **上部**&#x200B;のセクションは、ユーザーに対するメッセージの表示領域です。これらのメッセージは、Web アプリケーションのステータスや作成される配信、およびコンテンツに関連する警告やエラーメッセージを示します。詳しくは、[HTML コンテンツのステータス](../../web/using/content-editing-best-practices.md#html-content-statuses)を参照してください。
-1. ウィンドウの&#x200B;**左側**&#x200B;のセクションは、コンテンツを編集するための領域です。この領域から、ポップアップツールバーを使用して直接コンテンツを操作できます（画像へのリンクの挿入、フォントの変更、フィールドの削除など）。詳しくは、[フォームの編集](../../web/using/editing-content.md#editing-forms)を参照してください。
-1. ウィンドウの&#x200B;**右側**&#x200B;のセクションは、コントロールパネル領域です。この領域は、エディターの様々なオプション、特にページ見出しの設定に関するものとブロックの全般的なオプションをグループ化します（境界線の追加、データベースフィールドと入力ゾーンのリンク、Web ページのプロパティへのアクセスなど）。詳しくは、[グローバルオプション](#global-options)および[コンテンツの編集](../../web/using/editing-content.md)の節を参照してください。
+1. **上部**&#x200B;のセクションは、ユーザーに対するメッセージの表示領域です。これらのメッセージは、Web アプリケーションのステータスや作成される配信、およびコンテンツに関連する警告やエラーメッセージを示します。詳しくは、[HTML コンテンツのステータス](content-editing-best-practices.md#html-content-statuses)を参照してください。
+1. ウィンドウの&#x200B;**左側**&#x200B;のセクションは、コンテンツを編集するための領域です。この領域から、ポップアップツールバーを使用して直接コンテンツを操作できます（画像へのリンクの挿入、フォントの変更、フィールドの削除など）。詳しくは、[フォームの編集](editing-content.md#editing-forms)を参照してください。
+1. ウィンドウの&#x200B;**右側**&#x200B;のセクションは、コントロールパネル領域です。この領域は、エディターの様々なオプション、特にページ見出しの設定に関するものとブロックの全般的なオプションをグループ化します（境界線の追加、データベースフィールドと入力ゾーンのリンク、Web ページのプロパティへのアクセスなど）。詳しくは、[グローバルオプション](#global-options)および[コンテンツの編集](editing-content.md)の節を参照してください。
 
 ## グローバルオプション {#global-options}
 
@@ -71,12 +71,12 @@ DCE 編集ウィンドウは、3 つの異なるセクションに分類され�
 
 次の操作をおこなうことができます。
 
-* 1 つまたは複数のブロックの表示を決定（[表示条件の定義](../../web/using/editing-content.md#defining-a-visibility-condition)を参照）
-* 境界線とフレームを定義（[境界線と背景の追加](../../web/using/editing-content.md#adding-a-border-and-background)を参照）
-* 画像の属性（サイズ、キャプション）を定義（[画像プロパティの編集](../../web/using/editing-content.md#editing-image-properties)を参照）
-* データベースをフォーム要素（入力ゾーン、チェックボックス）にリンク（[フォームのデータプロパティの変更](../../web/using/editing-content.md#changing-the-data-properties-for-a-form)を参照）
-* フォームの一部を必須にする（[フォームのデータプロパティの変更](../../web/using/editing-content.md#changing-the-data-properties-for-a-form)を参照）
-* ボタンのアクションを定義（[ボタンへのアクションの追加](../../web/using/editing-content.md#adding-an-action-to-a-button)を参照）
+* 1 つまたは複数のブロックの表示を決定（[表示条件の定義](editing-content.md#defining-a-visibility-condition)を参照）
+* 境界線とフレームを定義（[境界線と背景の追加](editing-content.md#adding-a-border-and-background)を参照）
+* 画像の属性（サイズ、キャプション）を定義（[画像プロパティの編集](editing-content.md#editing-image-properties)を参照）
+* データベースをフォーム要素（入力ゾーン、チェックボックス）にリンク（[フォームのデータプロパティの変更](editing-content.md#changing-the-data-properties-for-a-form)を参照）
+* フォームの一部を必須にする（[フォームのデータプロパティの変更](editing-content.md#changing-the-data-properties-for-a-form)を参照）
+* ボタンのアクションを定義（[ボタンへのアクションの追加](editing-content.md#adding-an-action-to-a-button)を参照）
 
 ## コンテンツツールバー {#content-toolbar}
 

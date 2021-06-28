@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: about-marketing-campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Adobe Campaign では、コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行および分析できます。Adobe Campaign により、マーケティング戦略の指示や実行を一元的におこなうことができます。詳細については、[キャンペーンへのアクセス](../../campaign/using/accessing-campaigns.md)および[マーケティングキャンペーンの作成](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
 
-また、**マーケティングリソース管理（MRM）**&#x200B;モジュールでは、関連するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調モードで制御できます。マーケティングリソース管理では、社内および社外のプロセス、リソース、マーケティングキャンペーンの管理に加えて、サードパーティ（エージェントや印刷業者など）との関係性も最適化および調整できます。詳しくは、[この節](../../campaign/using/about-marketing-resource-management.md)を参照してください。
+また、**マーケティングリソース管理（MRM）**&#x200B;モジュールでは、関連するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調モードで制御できます。マーケティングリソース管理では、社内および社外のプロセス、リソース、マーケティングキャンペーンの管理に加えて、サードパーティ（エージェントや印刷業者など）との関係性も最適化および調整できます。詳しくは、[この節](../../mrm/using/about-marketing-resource-management.md)を参照してください。
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Adobe Campaign では、コミュニケーションおよびマーケティン�
 
 ![](assets/do-not-localize/how-to-video.png) [マーケティングキャンペーンの主要概念をビデオで確認](#video)
 
-## 主な概念 {#core-concepts}
+## 主要コンセプト {#core-concepts}
 
 キャンペーンのコンテキストにおける以下の概念を理解しておく必要があります。
 

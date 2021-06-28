@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
@@ -27,7 +27,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
-* 「**[!UICONTROL タスク]**」サブタブには、キャンペーンにリンクされているすべてのタスクがまとめられます。このビューを使用して、タスクを編集または削除できます。タスクは MRM アプリケーションで使用できます。詳しくは、[この節](../../campaign/using/creating-and-managing-tasks.md)を参照してください。
+* 「**[!UICONTROL タスク]**」サブタブには、キャンペーンにリンクされているすべてのタスクがまとめられます。このビューを使用して、タスクを編集または削除できます。タスクは MRM アプリケーションで使用できます。詳しくは、[この節](../../mrm/using/creating-and-managing-tasks.md)を参照してください。
 
    ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 

@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 98%
@@ -94,7 +94,7 @@ Adobe Campaign を使用すると、アプリを介して iOS および Android 
 
 ## オンライン調査の設計および共有方法は？ {#how-to-design-and-share-an-online-survey-}
 
-[オンライン調査を作成](../../web/using/getting-started-with-surveys.md)する方法として、Campaign Classic でオンライン調査を設計して公開する重要な手順があります。
+[オンライン調査を作成](../../surveys/using/getting-started-with-surveys.md)する方法として、Campaign Classic でオンライン調査を設計して公開する重要な手順があります。
 
 ## ランディングページの作成方法は？ {#how-to-create-landing-page-}
 

@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 100%
@@ -135,6 +135,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 >* 新しいウィンドウ (_blank)
 >* 現在のウィンドウ (_self)
 >* ブラウザーのデフォルト動作
+
 >
 
 
@@ -200,8 +201,9 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 >[!NOTE]
 >
 >* **削除**&#x200B;アイコン：ブロックおよびそのすべてのコンテンツを削除します。
->
->* **複製**&#x200B;アイコン：ブロックおよびブロックに関連するすべてのスタイルを複製します。
+   >
+   >
+* **複製**&#x200B;アイコン：ブロックおよびブロックに関連するすべてのスタイルを複製します。
 
 
 ## 画像とアニメーションの管理 {#managing-images-and-animations}
@@ -251,7 +253,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 フィールド名がエディターに表示され、黄色でハイライトされます。パーソナライゼーションが生成されると（例えば、ランディングページのプレビュー時）、ターゲット化された受信者のプロファイルで置き換えられます。
 
-例については、[パーソナライゼーションフィールドの挿入](../../web/using/creating-a-landing-page.md#inserting-a-personalization-field)の節で説明しています。
+例については、[パーソナライゼーションフィールドの挿入](creating-a-landing-page.md#inserting-a-personalization-field)の節で説明しています。
 
 ### パーソナライゼーションブロックの挿入 {#inserting-a-personalization-block}
 

@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 82c5c610-8161-4686-aa79-1b690e763765
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Web アプリケーションの&#x200B;**[!UICONTROL プロパティ]**&#x200B;�
 
 このオプションを使用すると、ブロックコンテンツを翻訳する必要があるかどうかを示すことができます。
 
-翻訳される文字列は、アプリケーションの「**[!UICONTROL 翻訳]**」タブを使用して、Web アプリケーションの他の文字列と同じ方法で収集されます。詳しくは、[このページ](../../web/using/translating-a-web-form.md)を参照してください。
+翻訳される文字列は、アプリケーションの「**[!UICONTROL 翻訳]**」タブを使用して、Web アプリケーションの他の文字列と同じ方法で収集されます。詳しくは、[このページ](translating-a-web-form.md)を参照してください。
 
 翻訳する文字列にフラグを設定するには：
 

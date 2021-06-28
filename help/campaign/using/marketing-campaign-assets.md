@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Campaign のマーケティングリソース管理モジュールを使用している場合は、複数のユーザーが共同作業に利用できるマーケティングリソースのライブラリを管理することもできます。 [詳細情報](../../campaign/using/managing-marketing-resources.md)。
+>Campaign のマーケティングリソース管理モジュールを使用している場合は、複数のユーザーが共同作業に利用できるマーケティングリソースのライブラリを管理することもできます。 [詳細情報](../../mrm/using/managing-marketing-resources.md)。
 
 ## ドキュメントの追加 {#adding-documents}
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >マーケティングリソースについて詳しくは、[この節](../../campaign/using/managing-marketing-resources.md)を参照してください。
+   >マーケティングリソースについて詳しくは、[この節](../../mrm/using/managing-marketing-resources.md)を参照してください。
 
 ### アウトラインの選択 {#selecting-an-outline}
 

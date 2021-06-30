@@ -33,6 +33,6 @@ E メールを作成および設定したら、メインターゲットに送信
 次の節では、E メール配信に固有の設定について詳しく説明します。
 <!--* [Generating the mirror page](generating-mirror-page.md)
 * [Email BCC](email-bcc.md)-->
-* [E メールパラメーター](email-parameters.md)
-* [Enhanced MTA を使用した E メールの送信](sending-with-enhanced-mta.md)
-* [日本の携帯電話向け E メールの送信](sending-emails-on-japanese-mobiles.md)
+* [メールパラメーター](email-parameters.md)
+* [MTA 強化機能を使用したメールの送信](sending-with-enhanced-mta.md)
+* [日本の携帯電話向けのメールの送信](sending-emails-on-japanese-mobiles.md)

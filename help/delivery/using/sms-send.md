@@ -61,8 +61,8 @@ ht-degree: 100%
 メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、以下の節を参照してください。
 
 * [配信の監視](about-delivery-monitoring.md)
-* [配信失敗について](understanding-delivery-failures.md)
-* [メッセージトラッキングについて](about-message-tracking.md)
+* [配信エラーについて](understanding-delivery-failures.md)
+* [メッセージのトラッキングについて](about-message-tracking.md)
 
 ## インバウンドメッセージの処理 {#processing-inbound-messages}
 

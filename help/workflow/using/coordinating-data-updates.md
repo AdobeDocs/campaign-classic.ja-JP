@@ -54,4 +54,4 @@ ht-degree: 98%
 **関連トピック：**
 
 * [同時複数実行の防止](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
-* [データを更新アクティビティ](../../workflow/using/update-data.md)
+* [データ更新アクティビティ](../../workflow/using/update-data.md)

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 CRM ツールを Adobe Campaign と同期させる方法については、[CRM コネクタの設定](../../platform/using/crm-connectors.md)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [Adobe Campaign と Microsoft Dynamics 365 の統合](https://helpx.adobe.com/campaign/kt/acc/using/acc-integrate-dynamics365-with-acc-feature-video-set-up.html)に関するこちらのユースケースビデオをご覧ください。
+![](assets/do-not-localize/how-to-video.png) [Adobe Campaign と Microsoft Dynamics 365 の統合](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/integrating/dynamics365-integration.html?lang=ja)に関するこちらのユースケースビデオをご覧ください。
 
 ## 問題がマシン固有またはユーザー固有の場合にソフトキャッシュの消去を実行する方法を教えてください。{#perform-soft-cache-clear}
 

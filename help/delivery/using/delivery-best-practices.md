@@ -107,4 +107,4 @@ Adobe Campaign を使用した配信のデザインと送信に関するベス�
 
 * [配信の作成手順](steps-about-delivery-creation-steps.md)
 
-* [セキュリティ／プライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)
+* [セキュリティとプライバシーのチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html)

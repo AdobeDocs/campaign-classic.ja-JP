@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 最新リリース
-description: 最新の Campaign Classic リリース注意
+description: 最新の Campaign Classic リリースノート
 feature: 概要
 role: Business Practitioner
 level: Beginner

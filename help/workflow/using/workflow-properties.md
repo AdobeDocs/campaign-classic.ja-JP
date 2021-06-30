@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: advanced-management
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
    このオプションでは、ワークフローの起動を低アクティビティの時間帯へと延期することができます。一部のワークフローはデータベースエンジンのリソースの観点からみて、コストが割高になることがあります。このような場合、実行スケジュールを夜間などの低アクティビティの時間に設定するようお勧めします。低アクティビティの時間設定は、「**[!UICONTROL キャンペーンのプロセス]**」テクニカルワークフローでおこないます。
 
-### 「EXECUTION」タブ {#execution}
+### 実行 {#execution}
 
 * **[!UICONTROL デフォルトのアフィニティ]**
 

@@ -15,7 +15,7 @@ ht-degree: 68%
 
 ---
 
-# Adobe Experience Cloud Triggers 用の Adobe I/O の設定{#configuring-adobe-io}
+# Adobe Experience Cloud Triggers 用の Adobe I/O の設定 {#configuring-adobe-io}
 
 >[!CAUTION]
 >

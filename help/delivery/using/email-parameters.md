@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# E メールパラメーター {#email-parameters}
+# メールパラメーター {#email-parameters}
 
 この節では、E メール配信に固有のオプションとパラメーターについて説明します。
 

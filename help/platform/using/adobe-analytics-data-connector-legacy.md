@@ -15,11 +15,11 @@ ht-degree: 99%
 
 ---
 
-# Adobe Analytics Data コネクタ{#adobe-analytics-data-connector-legacy}
+# Adobe Analytics コネクタ{#adobe-analytics-data-connector-legacy}
 
 >[!IMPORTANT]
 >
->Adobe Analytics Data コネクタ は非推奨（廃止予定）となりました。 非推奨（廃止予定）の機能は引き続き使用できますが、それ以上の機能強化やサポートは行われません。詳しくは、[このページ](../../rn/using/deprecated-features.md)を参照してください。
+>Adobe Analytics データコネクタは非推奨となりました。非推奨（廃止予定）の機能は引き続き使用できますが、それ以上の機能強化やサポートは行われません。詳しくは、[このページ](../../rn/using/deprecated-features.md)を参照してください。
 
 ## Data コネクタ統合について {#about-data-connector-integration}
 

@@ -38,5 +38,5 @@ ht-degree: 98%
 
 **関連トピック：**
 
-* [A/B テストの基本を学ぶ](get-started-a-b-testing.md)
+* [A/B テストの概要](get-started-a-b-testing.md)
 * [A/B テストの設定](configuring-a-b-testing.md)

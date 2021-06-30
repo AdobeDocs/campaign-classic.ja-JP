@@ -7,16 +7,16 @@ content-type: reference
 topic-tags: event-activities
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
 source-git-commit: 8c47027099559549320abf68016386cc85dcda5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # ファイル転送{#file-transfer}
 
-「**ファイル転送**」アクティビティで、ファイルの送受信、サーバー上のファイルの有無の確認、ファイルのリスト作成ができます。使用されるプロトコルは、Azure Blob Storage、Amazon Simple Storage Service(S3)、FTPまたはSFTPです。
-S3、Azure Blob StorageまたはSFTP接続を使用すると、Adobeのリアルタイム顧客データプラットフォームを使用して、セグメントデータをAdobe Campaignにインポートすることもできます。 詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ja)を参照してください。
+「**ファイル転送**」アクティビティで、ファイルの送受信、サーバー上のファイルの有無の確認、ファイルのリスト作成ができます。Azure Blob Storage、Amazon Simple Storage Service (S3)、FTP、SFTP のいずれかのプロトコルを使用します。
+S3、Azure Blob Storage、SFTP 接続のいずれかを使用すると、Adobe のリアルタイム顧客データプラットフォームで、セグメントデータを Adobe Campaign にインポートすることもできます。詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ S3、Azure Blob StorageまたはSFTP接続を使用すると、Adobeのリアル
 
    ![](assets/file_transfert_edit.png)
 
-   「**[!UICONTROL 外部アカウント]**&#x200B;を使用」をオンにして、ツリーの&#x200B;**[!UICONTROL 管理/プラットフォーム/外部アカウント]**&#x200B;ノードで設定したAzure Blobストレージ、S3、FTPまたはSFTPアカウントを選択します。 次に、ダウンロードするファイルが含まれているサーバーのディレクトリを指定します。
+   「**[!UICONTROL 外部アカウントを使用]**」のチェックボックスをオンにして、ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;ノードに設定されている Azure Blob storage アカウント、S3 アカウント、FTP アカウントまたは SFTP アカウントからアカウントを選択します。次に、ダウンロードするファイルが含まれているサーバーのディレクトリを指定します。
 
    ![](assets/file_transfert_edit_external.png)
 
@@ -87,7 +87,7 @@ S3、Azure Blob StorageまたはSFTP接続を使用すると、Adobeのリアル
 
 * **[!UICONTROL セッションログを表示]**
 
-   Azure BLOBストレージ、S3、FTPまたはSFTP転送のログを復元し、ワークフローのログに含めることができます。
+   Azure Blob Storage、S3、FTP または SFTP 転送のログを回復し、ワークフローのログに含めることができます。
 
 * **[!UICONTROL 休止モードを無効にする]**
 

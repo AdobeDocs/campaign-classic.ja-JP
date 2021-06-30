@@ -15,7 +15,7 @@ ht-degree: 91%
 
 # 母集団サンプルの設定 {#step-2--configuring-population-samples}
 
-## クエリアクティビティ{#configuring-the-query-activity}の設定
+## クエリアクティビティの設定 {#configuring-the-query-activity}
 
 * 「**[!UICONTROL クエリ]**」アクティビティをダブルクリックします。
 
@@ -29,7 +29,7 @@ ht-degree: 91%
 
    ![](assets/use_case_abtesting_createrecipients_003.png)
 
-## 分割アクティビティの設定{#configuring-the-split-activity}
+## 分割アクティビティの設定 {#configuring-the-split-activity}
 
 このアクティビティでは、配信 A を受信する母集団、配信 B を受信する母集団、その他の母集団といったように複数の母集団を作成することができます。ランダムな抽出をおこなうことで、各配信の母集団の部分のみをターゲティングすることが可能です。
 

@@ -37,7 +37,7 @@ ht-degree: 96%
 1. 「購入品」テーブルから集計したデータを使用して、「連絡先」データをエンリッチメントする
 1. サマリーリストの作成
 
-## 手順1:ファイルを読み込み、インポートしたデータを紐付け{#step-1--loading-the-file-and-reconciling-the-imported-data}します。
+## 手順1:ファイルを読み込み、インポートしたデータを紐付け {#step-1--loading-the-file-and-reconciling-the-imported-data}
 
 読み込むデータは、「購入品」に関係する、以下の形式のデータです。
 
@@ -110,7 +110,7 @@ Phone;500;London 5
 
 ![](assets/uc2_enrich_population1.png)
 
-## 手順2:エンリッチメントされたデータを「購入品」テーブルに書き込む{#step-2--writing-enriched-data-to-the--purchases--table}
+## 手順2:「購入品」テーブルへのエンリッチメントされたデータの書き込み {#step-2--writing-enriched-data-to-the--purchases--table}
 
 このステップでは、インポートされエンリッチメントされたデータを「購入品」テーブルに書き込む方法を詳しく説明します。これをおこなうには、「**データを更新**」アクティビティを使用する必要があります。
 
@@ -134,7 +134,7 @@ Phone;500;London 5
 
 ![](assets/uc2_enrich_miseajour.png)
 
-## 手順3:「連絡先」データのエンリッチメント{#step-3--enriching--contact--data-}
+## 手順3:「連絡先」データのエンリッチメント {#step-3--enriching--contact--data-}
 
 「連絡先」スキーマは「購入品」スキーマと物理的にリンクします。これは、フィルタリングディメンションにリンクしたデータを追加するという、「エンリッチメント」オプションの別のオプションが利用できることを意味します。
 
@@ -170,7 +170,7 @@ Phone;500;London 5
 
    ![](assets/uc2_enrich_enrich8.png)
 
-## 手順4:サマリーリスト{#step-4--creating-and-adding-to-a-summary-list}を作成して追加します。
+## 手順4:概要リストの作成と追加 {#step-4--creating-and-adding-to-a-summary-list}
 
 最後のステップでは、エンリッチメントしたデータをすべてリストに書き込みます。
 

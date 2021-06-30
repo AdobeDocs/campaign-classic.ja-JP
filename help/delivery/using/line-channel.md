@@ -9,7 +9,7 @@ exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
 workflow-type: tm+mt
 source-wordcount: '1329'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ ht-degree: 99%
 
 [!DNL LINE] 配信のコンテンツを定義するには、最初にメッセージタイプを配信に追加する必要があります。それぞれの [!DNL LINE] 配信には最大で 5 件のメッセージを含めることができます。
 
-次の3つのメッセージタイプから選択できます。
+次の 3 つのメッセージタイプから選択できます。
 
 * [テキストメッセージ](#configuring-a-text-message-delivery)
 * [画像とリンク](#configuring-an-image-and-link-delivery)

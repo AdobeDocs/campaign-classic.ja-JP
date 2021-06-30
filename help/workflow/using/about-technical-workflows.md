@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 98%
 | **提案の同期**（propositionSynch） | 実行インスタンスによるオファーエンジンのコントロール | このワークフローは、インタラクションで使用するマーケティングインスタンスと実行インスタンスの間で提案を同期します。 |
 | **Web イベントの復元**（webAnalyticsGetWebEvents） | Web 分析コネクタ | 指定したサイトでのインターネットユーザーの行動に関するセグメントを 1 時間に 1 回ダウンロードし、Adobe Campaign データベースに格納してリマーケティングワークフローを開始します。 |
 | **レポート集計**（reportingAggregates） | 配信 | レポートで使用される集計を更新します。デフォルトで、毎日午前 2 時にトリガーされます。 |
-| **指標とキャンペーン属性の送信**（webAnalyticsSendMetrics） | Web 分析コネクタ | Adobe® Analyticsコネクタを使用して、Adobe CampaignからAdobe Experience Cloud Suiteに電子メールキャンペーン指標を送信できます。 該当する指標は、送信済み（iSent）、オープン数合計（iTotalRecipientOpen）、クリックした受信者の合計数（iTotalRecipientClick）、エラー（iError）、オプトアウト（opt-out）（iOptOut）です。 |
+| **指標とキャンペーン属性の送信**（webAnalyticsSendMetrics） | Web 分析コネクタ | このワークフローを使用すると、Adobe® Analytics コネクタ経由で、Adobe Campaign から Adobe Experience Cloud スイートにメールキャンペーンの指標を送信できます。該当する指標は、送信済み（iSent）、オープン数合計（iTotalRecipientOpen）、クリックした受信者の合計数（iTotalRecipientClick）、エラー（iError）、オプトアウト（opt-out）（iOptOut）です。 |
 | **在庫 : オーダーおよびアラート**（stockMgt） | マーケティングキャンペーン（キャンペーン） | このワークフローは、受注明細に対する在庫計算を開始し、警告アラートのしきい値を管理します。 |
 | **Facebook ファンの同期**（syncFacebookFans） | ソーシャルネットワーク（ソーシャルマーケティング） | 毎日午前 7 時に Facebook ファンを Adobe Campaign にインポートします。 |
 | **Facebook ページの同期**（syncFacebook） | ソーシャルネットワーク（ソーシャルマーケティング） | 毎日午前 7 時に Facebook ページを Adobe Campaign と同期します。 |

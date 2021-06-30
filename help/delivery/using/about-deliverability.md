@@ -58,8 +58,8 @@ Adobe Campaign には、プラットフォームの配信品質パフォーマ�
 メッセージを設定、デザイン、テストする場合は、次の節に示すベストプラクティスに従うようにしてください。 Adobe Campaign で提供されるすべての機能を活用すると、配信品質の向上に役立ちます。
 
 * [配信のベストプラクティス](delivery-best-practices.md)
-* [E メールコンテンツの制御](control-message-content.md)
-* [受信ボックスレンダリング](inbox-rendering.md)
+* [メールコンテンツの制御](control-message-content.md)
+* [受信ボックスのレンダリング](inbox-rendering.md)
 * [配達確認の送信](steps-validating-the-delivery.md#sending-a-proof)
 
 ### ダブルオプトインによる同意確認 {#double-opt-in}

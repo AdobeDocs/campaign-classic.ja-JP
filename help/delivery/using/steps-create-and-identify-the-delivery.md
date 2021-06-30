@@ -49,7 +49,7 @@ ht-degree: 100%
 
 配信コンテンツの設定準備が整いました。配信コンテンツ定義は、各チャネル専用です。詳しくは、該当する節を参照してください。
 
-* [E メールコンテンツの定義](defining-the-email-content.md)
+* [メールコンテンツの定義](defining-the-email-content.md)
 * [SMS コンテンツの定義](sms-create.md#defining-the-sms-content)
 * [ダイレクトメールのコンテンツの定義](defining-the-direct-mail-content.md)
 * [プッシュ通知](about-mobile-app-channel.md)

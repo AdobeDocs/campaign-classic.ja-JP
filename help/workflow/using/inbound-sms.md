@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: event-activities
 exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 「**インバウンド SMS**」アクティビティでは、外部サーバーからテキストメッセージをダウンロードして処理できます。
 
-## 「PROPERTIES」タブ {#properties}
+## プロパティ {#properties}
 
 ![](assets/sms_rec_edit.png)
 

@@ -1,33 +1,33 @@
 ---
 product: campaign
 title: トランザクションメッセージのアーキテクチャ
-description: ここでは、Adobe Campaign Classicトランザクションメッセージのアーキテクチャと、トランザクションメッセージを配信するために使用できるチャネルについて説明します。
+description: この節では、Adobe Campaign Classicトランザクションメッセージのアーキテクチャと、トランザクションメッセージを配信するために使用できるチャネルについて説明します。
 audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1226'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # トランザクションメッセージのアーキテクチャ {#transactional-messaging-architecture}
 
-トランザクションメッセージは、次の複数のインスタンスで構成される特定のアーキテクチャに依存します。
+トランザクションメッセージは、次の複数のインスタンスで構成される特有のアーキテクチャで実現します。
 
-* **コントロールインスタンス**。このインスタンスでメッセージテンプレートが作成されます。
+* 1 つの&#x200B;**コントロールインスタンス**。このインスタンス上でメッセージテンプレートを作成します。
 
-* イベントを受信し、メッセージを配信する1つ以上の&#x200B;**実行インスタンス**。
+* 1 つまたは複数の&#x200B;**実行インスタンス**。イベントを受け取り、メッセージを配信します。
 
 ![](assets/messagecenter_diagram.png)
 
 | コントロールインスタンス | 実行インスタンス |
 |--- |--- |
-| Adobe Campaignユーザーがコントロールインスタンスにログオンすると、次の操作が可能になります。 <ul><li>トランザクションメッセージテンプレートの作成</li><li>シードリストを使用してメッセージのプレビューを生成する</li><li>レポートを表示</li><li>実行インスタンスの監視</li></ul> | 実行インスタンスは次の目的で使用します。 <ul><li>イベントの受信</li><li>トランザクションメッセージテンプレートにリンクする</li><li>各受信者にパーソナライズされたメッセージを送信</li></ul> |
+| Adobe Campaign ユーザーがコントロールインスタンスにログオンすると、次の操作が可能になります。 <ul><li>トランザクションメッセージテンプレートの作成</li><li>シードリストを使用したメッセージプレビューの生成</li><li>レポートの表示</li><li>実行インスタンスの監視</li></ul> | 実行インスタンスは次の目的で使用します。 <ul><li>イベントの受信</li><li>トランザクションメッセージテンプレートへのイベントのリンク</li><li>各受信者へのパーソナライズされたメッセージの送信</li></ul> |
 
-## インスタンス{#installing-instances}をインストールします
+## インスタンスのインストール {#installing-instances}
 
 トランザクションメッセージパッケージをインストールする際の注意事項がいくつかあります。本番環境で使用する前に、テスト環境で動作させることをお勧めします。また、互換性のある Adobe Campaign のライセンスが必要です。詳しくは、アドビのアカウント担当者にお問い合わせください。
 
@@ -39,13 +39,13 @@ ht-degree: 78%
 
 ## コントロールインスタンス {#control-instance}
 
-コントロールインスタンスをコンピューターにインストールするには、**[!UICONTROL ツール]** / **[!UICONTROL 詳細]** / **[!UICONTROL パッケージをインポート]**&#x200B;メニューから&#x200B;**[!UICONTROL トランザクションメッセージコントロール]**&#x200B;パッケージを選択します。 詳しくは、[Campaign Classic 標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+コントロールインスタンスをコンピューターにインストールするには、**[!UICONTROL ツール]**／**[!UICONTROL 詳細]**／**[!UICONTROL パッケージをインポート]**&#x200B;メニューから、**[!UICONTROL トランザクションメッセージコントロール]**&#x200B;パッケージを選択します。詳しくは、[Campaign Classic 標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
 ![](assets/messagecenter_install_controlinstance_001.png)
 
-コントロールインスタンスを設定する詳細な手順については、[この節](../../message-center/using/configuring-instances.md#control-instance)を参照してください。
+コントロールインスタンスを設定する手順について詳しくは、[この節](../../message-center/using/configuring-instances.md#control-instance)を参照してください。
 
-### 複数のコントロールインスタンス{#supporting-several-control-instances}をサポートします。
+### 複数のコントロールインスタンスのサポート {#supporting-several-control-instances}
 
 >[!IMPORTANT]
 >
@@ -57,27 +57,27 @@ ht-degree: 78%
 
 >[!NOTE]
 >
->必要な設定について詳しくは、[複数のコントロールインスタンス](../../message-center/using/configuring-instances.md#using-several-control-instances)の使用を参照してください。
+>必要な設定について詳しくは、[複数のコントロールインスタンスの使用](../../message-center/using/configuring-instances.md#using-several-control-instances)を参照してください。
 
 ## 実行インスタンス {#execution-instance}
 
-実行インスタンスをコンピューターにインストールするには、**[!UICONTROL ツール]** / **[!UICONTROL 詳細]** / **[!UICONTROL パッケージをインポート]**&#x200B;メニューで&#x200B;**[!UICONTROL トランザクションメッセージ実行]**&#x200B;パッケージを選択します。 詳しくは、[Campaign Classic 標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+実行インスタンスをコンピューターにインストールするには、**[!UICONTROL ツール]**／**[!UICONTROL 詳細]**／**[!UICONTROL パッケージをインポート]**&#x200B;メニューから、**[!UICONTROL トランザクションメッセージ実行]**&#x200B;パッケージを選択します。詳しくは、[Campaign Classic 標準パッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
 ![](assets/messagecenter_install_executioninstance_001.png)
 
-実行インスタンスを設定する詳細な手順については、[この節](../../message-center/using/configuring-instances.md#execution-instance)を参照してください。
+実行インスタンスを設定する手順について詳しくは、[この節](../../message-center/using/configuring-instances.md#execution-instance)を参照してください。
 
 ## 使用可能な配信チャネル
 
-Eメールチャネルはデフォルトで使用できます。 トランザクションメッセージを複数のチャネルで配信するには、他のチャネル（モバイルチャネル、モバイルアプリチャネルなど）を追加します。
+メールチャネルはデフォルトで使用できます。トランザクションメッセージを複数のチャネルで配信するには、他のチャネル（モバイルチャネル、モバイルアプリチャネルなど）を追加します。
 
 >[!IMPORTANT]
 >
->配信チャネル（モバイルチャネル、モバイルアプリチャネルなど）の追加は、トランザクションメッセージパッケージのインストール前におこなう必要があります。
+>配信チャネル（モバイルチャネル、モバイルアプリチャネルなど）の追加は、トランザクションメッセージパッケージをインストールする前におこなう必要があります。
 
-### 配信チャネル{#adding-a-delivery-channel}の追加
+### 配信チャネルの追加 {#adding-a-delivery-channel}
 
-Adobeでは、トランザクションメッセージパッケージ&#x200B;**をインストールする前に、必ず配信チャネルパッケージを追加することをお勧めします。**
+アドビでは、**トランザクションメッセージパッケージをインストールする前に、必ず配信チャネルパッケージを追加する**&#x200B;ことをお勧めします。
 
 E メールチャネルのトランザクションメッセージプロジェクトを開始し、プロジェクトの最中に新規でチャネルを追加することにした場合は、次の手順に従います。
 
@@ -181,7 +181,7 @@ LINE チャネルとトランザクションメッセージを組み合わせる
 
 * **[!UICONTROL LINE コネクト]**&#x200B;パッケージを両方のインスタンスにインストールします。
 * **[!UICONTROL トランザクションメッセージコントロール]**&#x200B;パッケージをマーケティングインスタンスに、**[!UICONTROL トランザクションメッセージ実行]**&#x200B;パッケージを実行インスタンスに、それぞれインストールします。
-* 両方のインスタンスで LINE の&#x200B;**外部アカウント**&#x200B;と&#x200B;**サービス**&#x200B;を作成します。このとき、同じ名前を使用してこれらが同期されるようにします。LINEの外部アカウントとサービスの作成方法について詳しくは、[この節](../../delivery/using/line-channel.md#setting-up-line-channel)を参照してください。
+* 両方のインスタンスで LINE の&#x200B;**外部アカウント**&#x200B;と&#x200B;**サービス**&#x200B;を作成します。このとき、同じ名前を使用してこれらが同期されるようにします。LINE の外部アカウントとサービスの作成方法については、[この節](../../delivery/using/line-channel.md#setting-up-line-channel)を参照してください。
 
 次に、**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;を選択して、それぞれのインスタンスで異なる外部アカウントを設定する必要があります。
 
@@ -248,4 +248,4 @@ LINE チャネルとトランザクションメッセージを組み合わせる
 
 
 
-1. これで、[トランザクションメッセージ](../../message-center/using/creating-the-message-template.md)の作成を開始できます。
+1. これで[トランザクションメッセージの作成](../../message-center/using/creating-the-message-template.md)を開始できます。

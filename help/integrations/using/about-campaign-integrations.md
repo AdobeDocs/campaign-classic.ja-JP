@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
 source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -89,8 +89,8 @@ Adobe Experience Cloud ID サービス（ID サービス）は、Experience Clou
    <td> <strong>Triggers コアサービス</strong>と Adobe Campaign を統合すると、Web サイト上で Adobe Analytics によってトラッキングされている特定の動作に対する反応としてパーソナライズされた E メールを送信できます。<br /> <p>Adobe Campaign と Experience Cloud Triggers の統合について詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html">こちら</a>を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Adobe Analytics Connector</strong><br /> </td> 
-   <td> <strong>Adobe Analytics </strong> Connectorallows Adobe CampaignとAdobe Analyticsは、電子メールキャンペーン後のユーザー行動に関するセグメントを介してやり取りします。反対に、Adobe Campaignから配信されたEメールキャンペーンの指標と属性をAdobe Analyticsに送信します。<br /> <p><a href="../../platform/using/adobe-analytics-connector.md">CampaignとAnalytics</a> コネクタの統合について詳しく説明します。</p><br /> </td> 
+   <td> <strong>Adobe Analytics コネクタ</strong><br /> </td> 
+   <td> <strong>Adobe Analytics コネクタ</strong>を使用すると、メールキャンペーン後のユーザー行動に関するセグメントについて、Adobe Campaign と Adobe Analytics を連携させることができます。このコネクタは、Adobe Campaign から配信された メールキャンペーンの指標と属性を Adobe Analytics に送信します。<br /> <p>Campaign と Analytics のコネクタでの統合に関する<a href="../../platform/using/adobe-analytics-connector.md">詳細情報</a>。</p><br /> </td> 
   </tr> 
  </tbody> 
 </table>

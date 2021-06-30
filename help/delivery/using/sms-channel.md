@@ -29,7 +29,7 @@ SMS を送信するための主な手順は次のとおりです。
 * [SMS 配信の作成](sms-create.md)
 * [オーディエンスの定義](sms-create.md#selecting-the-target-population)
 * [SMS コンテンツの定義](sms-create.md#defining-the-sms-content)
-* [SMS の送信、監視、追跡](sms-send.md)
+* [SMS の送信、監視、トラッキング](sms-send.md)
 * [トラブルシューティング](troubleshooting-sms.md)
 
 また、SMS のプロトコルと設定についても熟知している必要があります。Adobe Campaign と SMPP プロバイダーの間の接続設定については、[このドキュメント](sms-protocol.md)で確認します。

@@ -102,7 +102,7 @@ E メールの制限を守るには、以下を考慮してください。
 
 詳しくは、[この節](sms-set-up.md#about-character-transliteration)を参照してください。
 
-## フォーマット {#formatting}
+## フォーマット設定を行う {#formatting}
 
 フォーマットに関する一般的なエラーを回避するには、次の点を確認します。
 

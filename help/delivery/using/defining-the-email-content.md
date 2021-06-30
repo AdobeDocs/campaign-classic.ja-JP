@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# E メールコンテンツの定義 {#defining-the-email-content}
+# メールコンテンツの定義 {#defining-the-email-content}
 
 ## 送信者 {#sender}
 

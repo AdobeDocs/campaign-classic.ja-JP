@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 次の手順に従って、Adobe Campaign での設定を開始します。
 
-1. [Adobe Campaign での AEM 統合パッケージのインストール](#install-the-aem-integration-package-in-adobe-campaign)
+1. [Adobe Campaign への AEM 統合パッケージのインストール](#install-the-aem-integration-package-in-adobe-campaign)
 1. [外部アカウントの設定](#configure-the-external-account)
 1. [AEM リソースフィルターの設定](#configure-aem-resources-filtering)
 

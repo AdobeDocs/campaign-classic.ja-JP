@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: action-activities
 exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,4 +101,4 @@ ht-degree: 98%
 
 ## 例 {#examples}
 
-例 この[セクション](../../delivery/using/automating-via-workflows.md#examples)に記載されています。
+例については、[この節](../../delivery/using/automating-via-workflows.md#examples)を参照してください。

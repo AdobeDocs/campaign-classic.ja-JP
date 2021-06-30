@@ -27,7 +27,7 @@ ht-degree: 100%
 
 各配信に対して、専用のダッシュボードを使用できます。レポート、ミラーページ、除外、トラッキングログ、レンダリングなど、送信中に発生した問題の発生や、配信に関する様々なタイプの情報を監視できます。
 
-* [配信のリストへのアクセス](list-of-deliveries.md)
+* [配信リストへのアクセス](list-of-deliveries.md)
 * [配信ダッシュボード](delivery-dashboard.md)
 
 <img src="assets/do-not-localize/icon_guidelines.svg" width="60px">
@@ -36,8 +36,8 @@ ht-degree: 100%
 
 配信のパフォーマンスを確実に保つために、いくつかのガイドラインに従う必要があります。配信の送信時に発生する一般的な問題は、また、配信を効率的に送信する際に役立つものです。
 
-* [配信パフォーマンスとベストプラクティス](delivery-performances.md)
-* [配信送信トラブルシューティング](delivery-troubleshooting.md)
+* [配信のパフォーマンスとベストプラクティス](delivery-performances.md)
+* [配信の送信に関わるトラブルシューティング](delivery-troubleshooting.md)
 
 <img src="assets/do-not-localize/icon_failure.svg" width="60px">
 

@@ -21,7 +21,7 @@ ht-degree: 100%
 
 1. **配信コンテンツの定義**&#x200B;配信コンテンツ定義は、各チャネル専用です。詳しくは、該当する節を参照してください。
 
-   * [E メールチャネル](defining-the-email-content.md)
+   * [メールチャネル](defining-the-email-content.md)
    * [SMS チャネル](sms-create.md#defining-the-sms-content)
    * [ダイレクトメールチャネル](defining-the-direct-mail-content.md)
    * [モバイルアプリケーションチャネル](about-mobile-app-channel.md)

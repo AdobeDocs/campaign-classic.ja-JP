@@ -1,23 +1,23 @@
 ---
 product: campaign
-title: テストトランザクションメッセージテンプレート
-description: Adobe Campaign Classicでプレビューおよびテストするために、トランザクションメッセージ内のシードアドレスを管理する方法について説明します。
+title: トランザクションメッセージテンプレートのテスト
+description: トランザクションメッセージ内のシードアドレスを管理して、Adobe Campaign Classic でプレビューおよびテストする方法について説明します。
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
-# テストトランザクションメッセージテンプレート{#testing-message-templates}
+# トランザクションメッセージテンプレートのテスト {#testing-message-templates}
 
 [メッセージテンプレート](../../message-center/using/creating-the-message-template.md)の準備が整ったら、次の手順に従ってプレビューし、テストします。
 
-## トランザクションメッセージでのシードアドレスの管理 {#managing-seed-addresses-in-transactional-messages}
+## トランザクションメッセージのシードアドレスの管理 {#managing-seed-addresses-in-transactional-messages}
 
 シードアドレスを使用すると、E メールまたは SMS 配信の前に、メッセージのプレビューを表示したり、配達確認を送信したり、メッセージのパーソナライゼーションを検証したりすることができます。シードアドレスは配信に関連付けられ、その他の配信に利用することはできません。
 
@@ -57,13 +57,13 @@ ht-degree: 65%
 
 ## パーソナライゼーションデータ {#personalization-data}
 
-メッセージテンプレート内のデータを使い、トランザクションメッセージのパーソナライゼーションをテストできます。この機能は、プレビューを生成したり、配達確認を送信するために使用されます。様々なインターネットアクセスプロバイダー向けにメッセージのレンダリングを表示することもできます。 詳しくは、[受信ボックスレンダリング](../../delivery/using/inbox-rendering.md)を参照してください。
+メッセージテンプレート内のデータを使い、トランザクションメッセージのパーソナライゼーションをテストできます。この機能は、プレビューを生成したり、配達確認を送信するために使用されます。さまざまなインターネットアクセスプロバイダーに向けたメッセージのレンダリングを表示することもできます。詳しくは、[受信ボックスのレンダリング](../../delivery/using/inbox-rendering.md)を参照してください。
 
-このデータの目的は、最終配信の前にメッセージを検証することです。これらのメッセージは、実際に処理するデータとは一致しません。 ただし、XML構造は、次に示すように、実行インスタンスに格納されるイベントの構造と同じである必要があります。
+このデータの目的は、最終的に配信する前にメッセージをテストすることです。このメッセージは、処理される実際のデータと同一のものではありません。ただし以下に示すように、XML 構造は実行インスタンスに保存されているイベントの構造と同一です。
 
 ![](assets/messagecenter_create_custo_006.png)
 
-この情報により、パーソナライゼーションタグを使用してメッセージコンテンツをパーソナライズできます（詳しくは、[メッセージコンテンツの作成](../../message-center/using/creating-the-message-template.md#creating-message-content)を参照）。
+この情報を使用して、パーソナライズ機能のタグを使用してメッセージコンテンツをパーソナライズできます。詳しくは、[メッセージコンテンツの作成](../../message-center/using/creating-the-message-template.md#creating-message-content)を参照してください。
 
 1. トランザクションメッセージテンプレートを選択します。
 
@@ -75,7 +75,7 @@ ht-degree: 65%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## メッセージのプレビュー {#transactional-message-preview}
+## トランザクションメッセージのプレビュー {#transactional-message-preview}
 
 1 つまたは複数のシードアドレスとメッセージ本文を作成したら、メッセージをプレビューして、パーソナライゼーションを確認することができます。
 
@@ -91,16 +91,16 @@ ht-degree: 65%
 
    ![](assets/messagecenter_create_seedaddr_009.png)
 
-シードアドレスを使用して、様々なインターネットアクセスプロバイダー向けのメッセージのレンダリングを表示することもできます。 詳しくは、[受信ボックスレンダリング](../../delivery/using/inbox-rendering.md)を参照してください。
+シードアドレスを使用して、さまざまなインターネットアクセスプロバイダーに向けたメッセージのレンダリングを表示することもできます。詳しくは、[受信ボックスのレンダリング](../../delivery/using/inbox-rendering.md)を参照してください。
 
-## 配達確認の送信 {#sending-a-proof}
+## 配達確認を送信 {#sending-a-proof}
 
 作成済みのシードアドレスへ配達確認を送信することで、メッセージ配信をテストできます。
 
-配達確認の送信は、[通常の配信](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)と同じ手順に従います。 ただし、トランザクションメッセージでは、事前に次の操作を実行する必要があります。
+配達確認の送信は、[通常の配信](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)の場合と同じプロセスでおこないます。ただし、トランザクションメッセージでは、事前に次の操作を実行する必要があります。
 
-* [パーソナライゼーションデータ](#personalization-data)を使用して、1つ以上の[シードアドレス](#managing-seed-addresses-in-transactional-messages)を作成します。
-* [メッセージコンテンツの作成](../../message-center/using/creating-the-message-template.md#creating-message-content).
+* [パーソナライズ機能のデータ](#personalization-data)を使用して、1 つまたは複数の[シードアドレス](#managing-seed-addresses-in-transactional-messages)を作成します。
+* [メッセージコンテンツを作成](../../message-center/using/creating-the-message-template.md#creating-message-content)します。
 
 配達確認を送信するには：
 
@@ -118,4 +118,4 @@ ht-degree: 65%
 
 ![](assets/messagecenter_send_proof_003.png)
 
-これで、メッセージテンプレートを[公開](../../message-center/using/publishing-message-templates.md)する準備が整いました。
+これで、メッセージテンプレートを[パブリッシュ](../../message-center/using/publishing-message-templates.md)する準備が整いました。

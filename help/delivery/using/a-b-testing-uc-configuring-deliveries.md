@@ -13,7 +13,7 @@ ht-degree: 58%
 
 ---
 
-# ワークフローの配信を設定します。 {#step-4--configuring-the-deliveries-in-the-workflow}
+# ワークフローでの配信の設定 {#step-4--configuring-the-deliveries-in-the-workflow}
 
 [母集団が作成されたら、](a-b-testing-uc-population-samples.md)配信を設定できます。 この使用例では、最初の2つの配信によって、母集団AとBに異なるコンテンツを送信できます。3番目の配信はフォールバック配信です。AまたはBに属さない受信者に送信されます。その内容はスクリプトで計算され、開封率が最も高い受信者に応じてAまたはBと同じになります。 3 番目の配信の待機期間を設定し、配信 A、配信 B の結果を特定する必要があります。そのため、3 番目の配信には「**[!UICONTROL 待機]**」アクティビティを実装します。
 

@@ -81,7 +81,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_delivery_tracking_tab.png)
 
-## 受信ボックスレンダリング {#delivery-rendering}
+## 受信ボックスのレンダリング {#delivery-rendering}
 
 「**[!UICONTROL 受信ボックスレンダリング]**」タブにより、異なるコンテキストで受信される可能性のある送信済みのメッセージをプレビューして、メジャーなデスクトップおよびアプリケーションの互換性を確認できます。
 

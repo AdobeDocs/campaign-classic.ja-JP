@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1294'
 ht-degree: 100%
 
@@ -221,7 +221,7 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
-このビデオでは、マーケティングプラン、プログラムおよびキャンペーンの作成方法を紹介します。
+このビデオでは、マーケティングプラン、プログラム、キャンペーンなどの作成方法を紹介します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
 

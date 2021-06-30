@@ -1,27 +1,27 @@
 ---
 product: campaign
 title: トランザクションメッセージテンプレートのデザイン
-description: Adobe Campaign Classicでトランザクションメッセージテンプレートを作成およびデザインする方法について説明します。
+description: Adobe Campaign Classic でトランザクションメッセージテンプレートを作成およびデザインする方法について説明します。
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
-# トランザクションメッセージテンプレートの設計{#creating-the-message-template}
+# トランザクションメッセージテンプレートのデザイン {#creating-the-message-template}
 
-すべてのイベントがパーソナライズされたメッセージへと確実に変換されるようにするには、各イベントタイプに合うメッセージテンプレートを作成する必要があります。
+各イベントをパーソナライズされたメッセージに変えるには、各イベントタイプに一致するメッセージテンプレートを作成する必要があります。
 
 >[!IMPORTANT]
 >
->イベントタイプは事前に作成しておく必要があります。 詳しくは、[イベントタイプの作成](../../message-center/using/creating-event-types.md)を参照してください。
+>イベントタイプは事前に作成しておく必要があります。詳しくは、[イベントタイプの作成](../../message-center/using/creating-event-types.md)を参照してください。
 
-トランザクションメッセージテンプレートには、トランザクションメッセージをパーソナライズするために必要な情報が含まれています。 また、テンプレートを使用すると、メッセージのプレビューを検証したり、最終ターゲットへ配信する前にシードアドレスを使用した配達確認を送信することもできます。詳しくは、[テストトランザクションメッセージテンプレート](../../message-center/using/testing-message-templates.md)を参照してください。
+テンプレートには、トランザクションメッセージをパーソナライズするために必要な情報が含まれています。テンプレートを使用すると、メッセージのプレビューを検証したり、最終的なターゲットへ配信する前にシードアドレスを使用した配達確認を送信することもできます。詳しくは、[トランザクションメッセージテンプレートのテスト](../../message-center/using/testing-message-templates.md)を参照してください。
 
 ## メッセージテンプレートの作成 {#creating-message-template}
 
@@ -47,13 +47,13 @@ ht-degree: 73%
    >
    >イベントタイプを複数のテンプレートにリンクすることはできません。
 
-1. 特性と説明を入力し、「**[!UICONTROL 続行]**」をクリックして、メッセージ本文を作成します（[メッセージコンテンツの作成](#creating-message-content)を参照）。
+1. 特性と説明を入力したら、「**[!UICONTROL 続行]**」をクリックしてメッセージ本文を作成します。[メッセージコンテンツの作成](#creating-message-content)を参照してください。
 
    ![](assets/messagecenter_create_model_004.png)
 
 ## メッセージコンテンツの作成 {#creating-message-content}
 
-トランザクションメッセージコンテンツの定義は、Adobe Campaign の通常の配信と同様です。例えば、E メール配信では、HTML またはテキストフォーマットでコンテンツを作成したり、添付ファイルを追加したり、配信オブジェクトをパーソナライズすることができます。詳しくは、[Eメール配信](../../delivery/using/about-email-channel.md)の章を参照してください。
+トランザクションメッセージコンテンツの定義は、Adobe Campaign の通常の配信と同様です。例えば、E メール配信では、HTML またはテキストフォーマットでコンテンツを作成したり、添付ファイルを追加したり、配信オブジェクトをパーソナライズすることができます。詳しくは、[メール配信](../../delivery/using/about-email-channel.md)の章を参照してください。
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ ht-degree: 73%
 
 1. メッセージの本文を入力します。
 
-1. テキスト本文に、**[!UICONTROL リアルタイムイベント/イベントXML]**&#x200B;メニューを使用してタグを挿入します。
+1. **[!UICONTROL リアルタイムイベント／イベント XML]** メニューを使用して、テキスト本文にタグを挿入します。
 
    ![](assets/messagecenter_create_custo_002.png)
 
@@ -85,4 +85,4 @@ ht-degree: 73%
 
 1. コンテンツを保存します。
 
-これで、メッセージは[テスト](../../message-center/using/testing-message-templates.md)の準備が整いました。
+これで、メッセージを[テスト](../../message-center/using/testing-message-templates.md)する準備が整いました。

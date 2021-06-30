@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: event-activities
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 「**Web ダウンロード**」アクティビティは、明示的 URL、外部アカウント、Adobe Campaign インスタンス上のファイルのダウンロードを開始します。HTTP プロトコルが使用されます。GET または POST のいずれかによるダウンロードです。
 
-## 「PROPERTIES」タブ {#properties}
+## プロパティ {#properties}
 
 1. **Web ファイルの選択**
 

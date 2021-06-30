@@ -46,7 +46,7 @@ ht-degree: 99%
 公開鍵と秘密鍵のペアが使用されます。このプロセスは、ユーザー／パスワードと同じ機能ですが、より安全になっています。
 認証は、Adobe I/O プロジェクトを介した Marketing Cloud に対してサポートされます。
 
-## 手順 1：Adobe I/O プロジェクトの作成とアップデート{#creating-adobe-io-project}
+## 手順 1：Adobe I/O プロジェクトの作成とアップデート {#creating-adobe-io-project}
 
 ホスト型の顧客は、カスタマーサポートチケットを作成し、Triggers 統合用の Adobe I/O テクニカルアカウントトークンを使用して、組織を有効にすることができます。
 

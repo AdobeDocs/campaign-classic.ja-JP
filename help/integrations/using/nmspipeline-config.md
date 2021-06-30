@@ -5,7 +5,7 @@ description: 統合の設定
 audience: integrations
 content-type: reference
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
 ht-degree: 100%
 

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Microsoft Dynamics CRM 内：
 1. アプリユーザーの作成
 1. 秘密鍵のエンコード
 
-[詳しくは、こちらの節を参照してください](#config-crm-microsoft)
+[詳しくは、この節を参照してください](#config-crm-microsoft)
 
 Campaign Classic 内：
 1. 新しい外部アカウントの作成
@@ -44,14 +44,14 @@ Campaign Classic 内：
 1. 設定ウィザードを使用したテーブルのマッピングと列挙の同期
 1. 同期ワークフローの作成
 
-[詳しくは、こちらの節を参照してください](#configure-acc-for-microsoft)
+[詳しくは、この節を参照してください](#configure-acc-for-microsoft)
 
 
 >[!CAUTION]
->
 > Adobe Campaign を Microsoft Dynamics に接続する場合、次のことはできません。
 > * CRM の動作が変わり Adobe Campaign との互換性の問題が生じる可能性があるプラグインのインストール
 > * 複数の列挙の選択
+
 >
 
 

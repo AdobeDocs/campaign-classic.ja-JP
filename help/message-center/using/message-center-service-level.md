@@ -1,27 +1,27 @@
 ---
 product: campaign
 title: Message Center のサービスレベル
-description: Message Centerのサービスレベルレポートの詳細を説明します。
+description: Message Center のサービスレベルレポートについて説明します。
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Message Center サービスレベル {#message-center-service-level}
+# Message Center のサービスレベル {#message-center-service-level}
 
-このレポートでは、トランザクションメッセージに関する配信の統計およびエラーの分類が表示されます。エラータイプをクリックするとエラーの詳細を表示することができます。
+このレポートでは、トランザクションメッセージに関する配信の統計およびエラーの内容が表示されます。エラーのタイプをクリックするとエラーの詳細を表示できます。
 
-技術管理者向けのこのレポートは、コントロールインスタンスの「**[!UICONTROL 監視]**」タブからもアクセスできます。
+技術管理者向けのこのレポートには、コントロールインスタンスの「**[!UICONTROL 監視]**」タブからもアクセスできます。
 
 ![](assets/mc_reports_1.png)
 
-このレポートでは、総合的な統計または特定の実行インスタンスに関する統計のいずれかを選択して表示することができます。また、チャネルおよび一定期間の検索条件を追加することもできます。
+このレポートでは、全体的な統計を表示するか、特定の実行インスタンスに関連する統計を表示するかを選択できます。チャネル別や特定の期間でデータをフィルタリングすることもできます。
 
 「**[!UICONTROL 全期間の指標]**」セクションに表示される指標は、選択した期間を対象に計算されます。
 
@@ -34,4 +34,4 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->警告（オレンジ）およびアラート（赤）指標のしきい値は、デプロイウィザードで設定することができます。[モニタのしきい値](../../message-center/using/additional-configurations.md#monitoring-thresholds)を参照してください。
+>警告（オレンジ）およびアラート（赤）指標のしきい値は、デプロイウィザードで設定することができます。[しきい値の監視](../../message-center/using/additional-configurations.md#monitoring-thresholds)を参照してください。

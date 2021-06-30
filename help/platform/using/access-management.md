@@ -7,7 +7,7 @@ role: Business Practitioner, Administrator
 level: Beginner
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -50,8 +50,8 @@ Adobe Campaign は、様々なオペレーターに割り当てる一連の権�
 
 関連トピック：
 
-* [ワークフローの権限の管理](../../workflow/using/managing-rights.md)
-* [分散型マーケティングの権限の管理](../../campaign/using/about-distributed-marketing.md#operators-and-entities)
-* [インタラクションモジュールの権限の管理](../../interaction/using/operator-profiles.md)
+* [ワークフローの権限管理](../../workflow/using/managing-rights.md)
+* [分散型マーケティングの権限管理](../../campaign/using/about-distributed-marketing.md#operators-and-entities)
+* [インタラクションモジュールの権限管理](../../interaction/using/operator-profiles.md)
 * [スキーマへのアクセスのフィルタリング](../../configuration/using/filtering-schemas.md)
-* [PI 表示の制限](../../configuration/using/restricting-pii-view.md)
+* [個人情報表示の制限](../../configuration/using/restricting-pii-view.md)

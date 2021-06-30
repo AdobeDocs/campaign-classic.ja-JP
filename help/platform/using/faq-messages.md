@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
 ht-degree: 100%
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 ## テストと検証 {#test-and-validate-before-sending}
 
-メッセージを送信する前に、Adobe Campaign の中でテストおよび検証手順を実行する方法を学習します。
+メッセージを送信する前に Adobe Campaign 内でテストおよび検証手順を実行する方法を説明します。
 
-### 配信分析とは {#what-is-the-delivery-analysis-}
+### 配信分析とは何ですか？ {#what-is-the-delivery-analysis-}
 
 配信分析は、ターゲット母集団が計算され、配信コンテンツが準備される段階です。この段階が完了すると、配信は送信できる状態になります。ログを参照して、問題がないことを確認します。
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 ### メッセージ送信前の承認プロセスはどのようにして設定できますか？ {#how-can-i-set-up-an-approval-process-before-sending-messages-}
 
-メッセージの設定にエラーが含まれていそうな箇所を見つけるために、配信の検証サイクルを設定することを強くお勧めします。必要に応じて、テスト受信者に配達確認を送信してコンテンツを承認するサイクルを実施します。この場合、変更を加えるたびに配達確認を送信して、コンテンツを承認することになります。
+メッセージの設定にエラーが含まれていそうな箇所を見つけるために、配信の検証サイクルを設定することを強くお勧めします。必要に応じた頻度で、テスト受信者に配達確認を送信してコンテンツを承認するサイクルを実施します。この場合、変更を加えるたびに配達確認を送信して、コンテンツを承認することになります。
 
 [詳しくはここをクリック](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)してください。
 

@@ -45,7 +45,7 @@ Adobe Campaign について詳しくは、以下の使用例と例を確認し�
 
 ### トレーニングセッションと動画
 
-これらの短い動画や詳細な動画の他に、[トレーニングコース](https://learning.adobe.com/catalog.html)や特集[プレゼンテーション動画](https://www.adobe.com/training/video.html)を Adobe.com で視聴できます。
+これらの短い動画や詳細な動画の他に、[トレーニングコース](https://learning.adobe.com/catalog.html)や特集[プレゼンテーション動画](https://experienceleague.adobe.com/docs/home-tutorials.html?lang=ja)を Adobe.com で視聴できます。
 
 ### Experience League コース
 

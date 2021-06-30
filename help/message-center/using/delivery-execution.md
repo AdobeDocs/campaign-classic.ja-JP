@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: 配信の実行
-description: トランザクションメッセージ配信の実行と監視について詳しく説明します。
+description: トランザクションメッセージ配信の実行と監視について説明します。
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -72,4 +72,4 @@ To summarize, the deliveries weekly accumulate the events based on the latest ev
 
 Therefore, when extracting transactional messaging delivery logs from the control instance, the delivery ID associated with each delivery log ID changes every week.-->
 
-実行インスタンスのアクティビティと実行を監視するには、[トランザクションメッセージレポート](../../message-center/using/about-transactional-messaging-reports.md)を参照してください。
+実行インスタンスのアクティビティと実行の監視については、[トランザクションメッセージレポート](../../message-center/using/about-transactional-messaging-reports.md)を参照してください。

@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: c612b47463427751eff27d6092e371c918c87d93
 workflow-type: tm+mt
 source-wordcount: '1634'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -220,7 +220,7 @@ Campaign Classic は、Federated Data Access（FDA）の次のサーバーと互
 
 **RDBMS サーバー**
 
-19.1 Springリリースより、Adobe Campaignは次のRDBMSサーバーへの対応を終了します。
+19.1 Spring リリースより、Adobe Campaign は次の RDBMS サーバーへの対応を終了します。
 
 * Oracle 10GR2
 * PostgreSQL 9.0 ～ 9.3

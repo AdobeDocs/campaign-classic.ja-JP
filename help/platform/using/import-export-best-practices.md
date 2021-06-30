@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 **関連トピック：**
 
-* [データの読み込み（ファイル）アクティビティ](../../workflow/using/data-loading--file-.md)
+* [データ読み込み（ファイル）アクティビティ](../../workflow/using/data-loading--file-.md)
 * [データ抽出（ファイル）アクティビティ](../../workflow/using/extraction--file-.md)
 
 ## 差分モードでのインポート {#importing-in-delta-mode}

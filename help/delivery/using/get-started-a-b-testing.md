@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# A/B テストの基本を学ぶ {#get-started-a-b-testing}
+# A/B テストの概要 {#get-started-a-b-testing}
 
 A/B テストを使用すると、複数のバージョンを相互に比較して、ターゲット母集団に最も大きな影響を与える配信を識別できます。
 

@@ -1,25 +1,25 @@
 ---
 product: campaign
-title: 'メッセージテンプレートの公開 '
-description: Adobe Campaign Classicでのトランザクションメッセージテンプレートの公開と非公開について説明します。
+title: 'メッセージテンプレートのパブリッシュ '
+description: Adobe Campaign Classic でのトランザクションメッセージテンプレートのパブリッシュと非公開処理について説明します。
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '530'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# メッセージテンプレート{#publishing-template-messages}を公開します。
+# メッセージテンプレートのパブリッシュ {#publishing-template-messages}
 
 ## テンプレートのパブリッシュ {#template-publication}
 
-コントロールインスタンス上に作成された[メッセージテンプレート](../../message-center/using/creating-the-message-template.md)が完了し、[テスト](../../message-center/using/testing-message-templates.md)が完了したら、それを公開できます。 このプロセスは、すべての実行インスタンスでも公開されます。
+[メッセージテンプレート](../../message-center/using/creating-the-message-template.md)がコントロールインスタンス上で作成され、[テスト](../../message-center/using/testing-message-templates.md)が完了したら、パブリッシュできます。このプロセスにより、メッセージテンプレートはすべての実行インスタンスでもパブリッシュされます。
 
-パブリッシュすると、自動的に実行インスタンスに&#x200B;**2つのメッセージテンプレート**&#x200B;が作成され、**リアルタイムイベント**&#x200B;と&#x200B;**バッチイベント**&#x200B;にリンクされたメッセージを送信できます。
+パブリッシュすると、実行インスタンスで自動的に **2 つのメッセージテンプレート**&#x200B;が作成され、**リアルタイムイベント**&#x200B;と&#x200B;**バッチイベント**&#x200B;にリンクされたメッセージを送信できるようになります。
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ ht-degree: 86%
 
 ![](assets/messagecenter_deployed_model_001.png)
 
-テンプレートが公開されると、対応するイベントがトリガーされた場合、実行インスタンスはイベントを受け取り、トランザクションテンプレートにリンクし、対応するトランザクションメッセージを各受信者に送信します。詳しくは、[イベント処理](../../message-center/using/about-event-processing.md)を参照してください。
+テンプレートがパブリッシュされ、対応するイベントがトリガーされた場合、実行インスタンスはイベントを受け取って、トランザクションテンプレートにリンクし、対応するトランザクションメッセージを各受信者に送信します。詳しくは、[イベント処理](../../message-center/using/about-event-processing.md)を参照してください。
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ ht-degree: 86%
 >
 >ただし、空でない値を追加すると、次回のパブリッシュ後に、対応するフィールドが通常どおり更新されます。
 
-## テンプレートの非公開 {#template-unpublication}
+## テンプレートの非公開処理 {#template-unpublication}
 
 メッセージテンプレートは、実行インスタンスで公開した後に非公開にできます。テンプレートの公開プロセスについて詳しくは、[この節](#template-publication)を参照してください。
 

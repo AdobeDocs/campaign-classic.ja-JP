@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: その他の設定
-description: Adobe Campaign Classicでトランザクションメッセージ用の追加設定を行う方法を説明します。
+description: Adobe Campaign Classic でトランザクションメッセージ用の追加設定を行う方法を説明します。
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 81%
 
 ## しきい値の監視 {#monitoring-thresholds}
 
-**Message Centerのサービスレベル**&#x200B;および&#x200B;**Message Centerの処理時間**&#x200B;レポートに表示される指標の警告しきい値（オレンジ）とアラートのしきい値（赤）を設定できます（[トランザクションメッセージレポートへのアクセス](../../message-center/using/about-transactional-messaging-reports.md)を参照）。
+**Message Center のサービスレベル**&#x200B;と **Message Center の処理時間**&#x200B;のレポートに表示される指標について、警告しきい値（オレンジ）とアラートしきい値（赤）を設定できます。[トランザクションメッセージレポートへのアクセス](../../message-center/using/about-transactional-messaging-reports.md)を参照してください。
 
-それには、次の手順に従います。
+これは、次の手順に従って行います。
 
 1. **実行インスタンス**&#x200B;でデプロイウィザードを開きます。
 
-1. **[!UICONTROL Message Center]**&#x200B;ページに移動します。
+1. **[!UICONTROL Message Center]** ページに移動します。
 
-1. 矢印を使用して、しきい値を変更します。
+1. 矢印でしきい値を変更します。
 
    ![](assets/messagecenter_monitor_events_001.png)
 
@@ -49,7 +49,7 @@ ht-degree: 81%
 
 ![](assets/messagecenter_delete_events_002.png)
 
-データベースクリーンアップワークフローについて詳しくは、[この節](../../production/using/database-cleanup-workflow.md)を参照してください。
+データベースのクリーンアップワークフローについて詳しくは、[この節](../../production/using/database-cleanup-workflow.md)を参照してください。
 
 
 ## テクニカルワークフロー {#technical-workflows}
@@ -91,7 +91,7 @@ Once the control and execution modules are installed on the same instance, you m
 
 ## マルチブランディングの設定 {#configuring-multibranding}
 
-この節では、Adobe Campaign でトランザクションメッセージのためのブランドごとのトラッキングとミラーページの URL を設定する方法について説明します。
+この節では、Adobe Campaign でのトランザクションメッセージのために、トラッキングとミラーページの URL をブランドごとに設定するソリューションの 1 つを説明します。
 
 ### 前提条件 {#prerequisites}
 
@@ -103,13 +103,13 @@ Once the control and execution modules are installed on the same instance, you m
 
 ### 実行インスタンス {#execution-instance}
 
-実行インスタンスで、次の手順に従います。
+実行インスタンスでは、次の手順に従います。
 
-1. 各ブランドごとに外部アカウントを 1 つ作成します。
+1. ブランドごとに 1 つの外部アカウントを作成します。
 
    >[!NOTE]
    >
-   >[この節](../../message-center/using/configuring-instances.md#control-instance)で実行インスタンスタイプの外部アカウントを作成する方法を説明します。
+   >実行インスタンスタイプの外部アカウントを作成する方法については、[この節](../../message-center/using/configuring-instances.md#control-instance)を参照してください。
 
 1. nms:extAccount スキーマを拡張し、トラッキング URL を追加します。
 
@@ -154,16 +154,16 @@ Once the control and execution modules are installed on the same instance, you m
 
 ### コントロールインスタンス {#control-instance}
 
-コントロールインスタンスでは、配信テンプレートと外部アカウントをリンクする必要があります。
+コントロールインスタンスでは、配信テンプレートと外部アカウントをリンクします。
 
-それには、次の手順に従います。
+次の手順に従ってこれを行います。
 
-1. [実行インスタンス](#execution-instance)（手順1）で定義したのと同じ内部名を持つ、ブランドごとに1つの外部アカウントを作成します。
+1. [実行インスタンス](#execution-instance)で定義したもの（手順 1）と同じ内部名で、ブランドごとに 1 つの外部アカウントを作成します。
 
-1. 各ブランドにつきデフォルトの配信テンプレートを 1 つ作成します。
+1. ブランドごとに 1 つのデフォルトの配信テンプレートを作成します。
 
    >[!NOTE]
    >
-   >    [この節](../../delivery/using/creating-a-delivery-template.md#creating-a-new-template)で配信テンプレートを作成する方法を説明します。
+   >    配信テンプレートを作成する方法については、[この節](../../delivery/using/creating-a-delivery-template.md#creating-a-new-template)を参照してください。
 
-1. 配信テンプレートの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、ルーティングを各ブランドの外部アカウントに設定します。
+1. 配信テンプレートの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、ブランドの外部アカウントへのルーティングを設定します。

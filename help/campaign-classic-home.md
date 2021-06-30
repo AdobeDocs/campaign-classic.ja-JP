@@ -6,7 +6,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 * **[6 月リリースを公開](rn/using/latest-release.md)**<br/> 新機能、改善点、修正点をリリースノートでご確認ください
 
-* **[Apple Mailのプライバシー保護に関するFAQ iOS 15に関するAppleの発表に対する](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> 最初のガイダンスを確認します。
+* **[Apple のメールプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ja)**<br/> iOS 15 に関する Apple の発表に対応した最初のガイダンスを確認します。
 
 * **[IMS／Adobe ID で接続している場合は、最新ビルドへのアップグレードが必要 ](technotes/ims-updates.md)**<br/>IMS で Campaign に接続している場合、** 2021 年 6 月 30 日（PT）**以降も、Campaign に接続できるようにするにはアップグレードが必要です
 

@@ -64,7 +64,7 @@ Campaign Classic では、配信テンプレートはデフォルトで&#x200B;*
 **関連トピック：**
 
 * [重複排除 - 重複アクティビティ](../../workflow/using/deduplication.md)。
-* [使用例：重複排除 - 重複アクティビティの結合機能の使用](../../workflow/using/deduplication-merge.md)
+* [使用例：重複排除アクティビティの結合機能の使用](../../workflow/using/deduplication-merge.md)
 
 ## E メールアドレスのインデックス化 {#index-addresses}
 

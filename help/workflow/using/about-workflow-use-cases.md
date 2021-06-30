@@ -9,7 +9,7 @@ internal: n
 snippet: y
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 * [ローカルの承認アクティビティの使用](../../workflow/using/using-the-local-approval-activity.md)
 * [A/B テスト](../../delivery/using/a-b-testing-use-case.md)
-* [誕生日の E メールの送信](../../workflow/using/sending-a-birthday-email.md)
+* [誕生日メールの送信](../../workflow/using/sending-a-birthday-email.md)
 * [配信コンテンツの読み込み](../../workflow/using/loading-delivery-content.md)
 * [クロスチャネル配信ワークフロー](../../workflow/using/cross-channel-delivery-workflow.md)
 * [カスタム日付フィールドを使用した E メールエンリッチメント](../../workflow/using/email-enrichment-with-custom-date-fields.md)
@@ -39,8 +39,8 @@ ht-degree: 100%
 
 * [リストへのレポートの送信](../../workflow/using/sending-a-report-to-a-list.md)
 * [ワークフローの監視](../../workflow/using/supervising-workflows.md)
-* [パーソナライズされたアラートのオペレーターへの送信](../../workflow/using/sending-personalized-alerts-to-operators.md)
-* [配信送信前の受信者承認プロセスの設定](../../workflow/using/using-the-local-approval-activity.md)
+* [オペレーターへのパーソナライズされたアラートの送信](../../workflow/using/sending-personalized-alerts-to-operators.md)
+* [配信を送信する前の受信者承認プロセスの設定](../../workflow/using/using-the-local-approval-activity.md)
 
 ## データ管理 {#management}
 
@@ -50,10 +50,10 @@ ht-degree: 100%
 * [サマリーリストの作成](../../workflow/using/creating-a-summary-list.md)
 * [データのエンリッチメント](../../workflow/using/enriching-data.md)
 * [集計の使用](../../workflow/using/using-aggregates.md)
-* [Campaign コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート](../../platform/using/unzip-decrypt.md)
+* [Campaign コントロールパネルで生成したキーを使用した暗号化されたデータのインポート](../../platform/using/unzip-decrypt.md)
 * [Campaign コントロールパネルにインストールされたキーを使用したデータの暗号化とエクスポート](../../workflow/using/how-to-use-workflow-data.md#use-case-gpg-encrypt)
-* [増分クエリを使用した四半期ごとのリストの更新](../../workflow/using/quarterly-list-update.md)
-* [重複排除 - 重複アクティビティの結合機能の使用](../../workflow/using/deduplication-merge.md)
+* [増分処理クエリを使用した四半期ごとのリストの更新](../../workflow/using/quarterly-list-update.md)
+* [重複排除アクティビティの結合機能の使用](../../workflow/using/deduplication-merge.md)
 * [繰り返し発生するインポートワークフローの設定](../../workflow/using/recurring-import-workflow.md)
 
 ## ターゲティング {#designing-queries}
@@ -63,9 +63,9 @@ ht-degree: 100%
 * [受信者テーブルに対するクエリ](../../workflow/using/querying-recipient-table.md)
 * [配信情報に対するクエリ](../../workflow/using/querying-delivery-information.md)
 * [集計計算の実行](../../workflow/using/performing-aggregate-computing.md)
-* [グループ化管理を使用したクエリ](../../workflow/using/querying-using-grouping-management.md)
+* [グループ管理を使用したクエリ](../../workflow/using/querying-using-grouping-management.md)
 * [多対多の関係を使用したクエリ](../../workflow/using/querying-using-many-to-many-relationship.md)
-* [列挙タイプ計算フィールドの追加](../../workflow/using/adding-enumeration-type-calculated-field.md)
+* [列挙タイプの計算フィールドの追加](../../workflow/using/adding-enumeration-type-calculated-field.md)
 * [フィルターの作成](../../workflow/using/creating-a-filter.md)
 * [重複した受信者のフィルタリング](../../workflow/using/filtering-duplicated-recipients.md)
 * [クエリでのインスタンス変数の呼び出し](../../workflow/using/javascript-scripts-and-templates.md#calling-an-instance-variable-in-a-query)

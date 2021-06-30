@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: tracking-messages
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
 source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
 ht-degree: 100%
 
@@ -126,7 +126,7 @@ NmsTracking_Pointer オプションを更新する場合は、次の手順に従
 
 1. トラッキングワークフローを再度開始します。
 
-## トラッキングが一部の webMail で動作しない {#webmail}
+## トラッキングが一部の Web メールで動作しない {#webmail}
 
 クリックトラッキングの数式をカスタマイズして、カスタムの Adobe Analytics トラッキングの数式を指定できます。
 

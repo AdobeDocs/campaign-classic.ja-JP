@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: advanced-parameters
 exl-id: 01adb584-5308-4d41-a6f1-223a97efa10f
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 >
 >ルールは、データが定義されているチャネルのみに制限する必要があります。この例では、インバウンド Web チャネルのみにルールを制限しています（「**[!UICONTROL 次の場合に考慮]**」フィールド）。
 
-### パーソナライゼーション {#personalization}
+### パーソナライズ機能 {#personalization}
 
 この追加データは、オファーをパーソナライズする際にも使用できます。例えば、ナビゲーション言語用の条件を追加できます。
 

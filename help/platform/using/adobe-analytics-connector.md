@@ -1,8 +1,8 @@
 ---
 solution: Campaign Classic
 product: campaign
-title: Adobe Analyticsコネクタ
-description: Adobe Analyticsコネクタの詳細
+title: Adobe Analytics コネクタ
+description: Adobe Analytics コネクタの詳細
 feature: 概要
 role: Business Practitioner, Administrator
 level: Beginner
@@ -10,25 +10,25 @@ exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 source-git-commit: c612b47463427751eff27d6092e371c918c87d93
 workflow-type: tm+mt
 source-wordcount: '1786'
-ht-degree: 86%
+ht-degree: 99%
 
 ---
 
 # Adobe Analytics コネクタ{#adobe-analytics-connector}
 
-## Adobe Analytics Connector統合について {#about-analytics-connector-integration}
+## Adobe Analytics コネクタの統合について {#about-analytics-connector-integration}
 
-Adobe Analyticsコネクタを使用すると、Adobe CampaignとAdobe Analyticsは、**[!UICONTROL Web分析コネクタ]**&#x200B;パッケージを介してやり取りできます。 Adobe Data コネクタは、E メールキャンペーン後のユーザー行動に関するデータをセグメントの形式で Adobe Campaign に送信します。反対に、Adobe Campaignから配信されたEメールキャンペーンの指標と属性をAdobe Analyticsに送信します。
+Adobe Analytics コネクタを使用すると、Adobe Campaign と Adobe Analytics が **[!UICONTROL Web 分析コネクタ]**&#x200B;パッケージを介してやり取りできます。 メールキャンペーン後のユーザー行動に関するデータをセグメントの形式で Adobe Campaign に送信します。逆に、Adobe Campaign から配信された メールキャンペーンの指標と属性を Adobe Analytics に送信します。
 
 >[!CAUTION]
 >
->* Adobe Analytics Connector には、トランザクションメッセージ（Message Center）との互換性はありません。
+>* Adobe Analytics コネクタは、トランザクションメッセージ（Message Center）との互換性はありません。
    >
    >
 * 開始する前に、AdobeIdentity Managementシステム(IMS)がCampaignに実装されていることを確認します。 詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
 
 
-Adobe Analytics Connector を使用すると、Adobe Campaign はインターネットのオーディエンスを測定できます（Web 分析）。このような統合を通じて、Adobe Campaign では 1 つ以上のサイトでマーケティングキャンペーン後の訪問者の行動に関するデータを収集し、（分析後に）訪問者を購入者に変換できるようリマーケティングキャンペーンを実行できます。また反対に、Adobe Campaign では、Web 分析ツールを使用して指標およびキャンペーン属性をプラットフォームに転送できます。
+Adobe Analytics コネクタを使用すると、Adobe Campaign でインターネットオーディエンスを測定することができます（Web 分析）。このような統合を通じて、Adobe Campaign では 1 つ以上のサイトでマーケティングキャンペーン後の訪問者の行動に関するデータを収集し、（分析後に）訪問者を購入者に変換できるようリマーケティングキャンペーンを実行できます。また反対に、Adobe Campaign では、Web 分析ツールを使用して指標およびキャンペーン属性をプラットフォームに転送できます。
 
 各ツールのアクションフィールドは次のとおりです。
 
@@ -49,13 +49,13 @@ Data コネクタを設定するには、Adobe Campaign インスタンスに接
 
 1. [Adobe Analytics でのレポートスイートの作成](#report-suite-analytics)
 1. [コンバージョン変数と成功イベントの設定](#configure-conversion-success)
-1. [Adobe Campaign での外部アカウントの設定 Classic](#external-account-classic)
+1. [Adobe Campaign Classic での外部アカウントの設定](#external-account-classic)
 
 ### Adobe Analytics でのレポートスイートの作成 {#report-suite-analytics}
 
-Adobe Analytics/Adobe Campaign Classic統合を設定するには、[!DNL Adobe Analytics]インスタンスに接続し、次の操作を実行する必要があります。
+Adobe Analytics と Adobe Campaign Classic の統合を設定するには、[!DNL Adobe Analytics] インスタンスに接続し、次の操作を実行する必要があります。
 
-1. [!DNL Adobe Analytics] から&#x200B;**[!UICONTROL 「管理」タブ]**&#x200B;を選択し、「**[!UICONTROL すべての管理者]**」をクリックします。
+1. [!DNL Adobe Analytics] から、「**[!UICONTROL 管理]**」タブを選択し、「**[!UICONTROL すべての管理者]**」をクリックします。
 
    ![](assets/analytics_connnector_1.png)
 
@@ -63,7 +63,7 @@ Adobe Analytics/Adobe Campaign Classic統合を設定するには、[!DNL Adobe 
 
    ![](assets/analytics_connnector_2.png)
 
-1. **[!UICONTROL レポートスイートマネージャー]**&#x200B;ページで、**[!UICONTROL 新規作成]**／**[!UICONTROL レポートスイート]**&#x200B;をクリックします。
+1. **[!UICONTROL レポートスイートマネージャー]**&#x200B;ページで、「**[!UICONTROL 新規作成]**」、「**[!UICONTROL レポートスイート]**」の順にクリックします。
 
    **[!UICONTROL レポートスイート]**&#x200B;の作成に関する詳細な手順については、[この節](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=ja#prerequisites)を参照してください。
 
@@ -76,12 +76,12 @@ Adobe Analytics/Adobe Campaign Classic統合を設定するには、[!DNL Adobe 
    * **[!UICONTROL レポートスイート ID]**
    * **[!UICONTROL サイトのタイトル]**
    * **[!UICONTROL タイムゾーン]**
-   * **[!UICONTROL ライブ移行日]**
-   * **[!UICONTROL 1 日あたりの予想ページビュー数]**
+   * **[!UICONTROL ライブ化の日付]**
+   * **[!UICONTROL 予想日別ページビュー数]**
 
    ![](assets/analytics_connnector_4.png)
 
-1. 設定が完了したら「**[!UICONTROL レポートスイートを作成]**」をクリックします。
+1. 設定が完了したら、「**[!UICONTROL レポートスイートを作成]**」をクリックします。
 
 ### コンバージョン変数と成功イベントの設定 {#configure-conversion-success}
 
@@ -89,11 +89,11 @@ Adobe Analytics/Adobe Campaign Classic統合を設定するには、[!DNL Adobe 
 
 1. 以前に設定した&#x200B;**[!UICONTROL レポートスイート]**&#x200B;を選択します。
 
-1. 「**[!UICONTROL 設定を編集]**」ボタンから&#x200B;**[!UICONTROL コンバージョン]**／**[!UICONTROL コンバージョン変数]**&#x200B;を選択します。
+1. 「**[!UICONTROL 設定を編集]**」ボタンから、**[!UICONTROL コンバージョン]**／**[!UICONTROL コンバージョン変数]**&#x200B;を選択します。
 
    ![](assets/analytics_connnector_5.png)
 
-1. 「**[!UICONTROL 新規追加]**」をクリックして、メールキャンペーンの効果を測定するために必要な ID として、キャンペーン名（cid）および iNmsBroadlog（bid）テーブル ID などを作成します。
+1. 「**[!UICONTROL 新規追加]**」をクリックし、メールキャンペーンの効果測定に必要な ID として、内部キャンペーン名（cid）および iNmsBroadlog（bid）テーブル ID を作成します。
 
    **[!UICONTROL コンバージョン変数]**&#x200B;の編集方法については、[この節](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=ja#admin-tools)を参照してください。
 
@@ -101,7 +101,7 @@ Adobe Analytics/Adobe Campaign Classic統合を設定するには、[!DNL Adobe 
 
 1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
-1. 次に、**[!UICONTROL 成功イベント]**&#x200B;を作成するために、「**[!UICONTROL 設定を編集]**」ボタンから&#x200B;**[!UICONTROL コンバージョン]**／**[!UICONTROL 成功イベント]**&#x200B;を選択します。
+1. 次に、**[!UICONTROL 成功イベント]**&#x200B;を作成するには、「**[!UICONTROL 設定を編集]**」ボタンから&#x200B;**[!UICONTROL コンバージョン]**／**[!UICONTROL 成功イベント]**&#x200B;を選択します。
 
    ![](assets/analytics_connnector_7.png)
 
@@ -109,11 +109,11 @@ Adobe Analytics/Adobe Campaign Classic統合を設定するには、[!DNL Adobe 
 
    * **[!UICONTROL クリック済み]**
    * **[!UICONTROL 開封済み]**
-   * **[!UICONTROL ユーザークリック数]**
+   * **[!UICONTROL ユーザーがクリック]**
    * **[!UICONTROL 処理済み]**
    * **[!UICONTROL スケジュール済み]**
    * **[!UICONTROL 送信済み]**
-   * **[!UICONTROL 合計バウンス数]**
+   * **[!UICONTROL バウンス数合計]**
    * **[!UICONTROL ユニーククリック数]**
    * **[!UICONTROL ユニーク開封数]**
    * **[!UICONTROL 購読解除済み]**
@@ -124,58 +124,58 @@ Adobe Analytics/Adobe Campaign Classic統合を設定するには、[!DNL Adobe 
 
 1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
-レポートスイートを設定する際に、Adobe Campaign Classicで&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を設定する必要があります。
+レポートスイートを設定したら、Adobe Campaign Classic で&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を設定する必要があります。
 
-### Adobe Campaign Classicでの外部アカウントの設定 {#external-account-classic}
+### Adobe Campaign Classic での外部アカウントの設定 {#external-account-classic}
 
 >[!IMPORTANT]
 >
-> この統合を機能させるには、Adobe Campaignに&#x200B;**[!UICONTROL Web分析コネクタ]**&#x200B;パッケージをインストールする必要があります。
+> この統合を機能させるには、Adobe Campaign に **[!UICONTROL Web 分析コネクタ]**&#x200B;パッケージをインストールする必要があります。
 >
->パッケージのインストールについて詳しくは、この[ページ](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+>パッケージのインストールについて詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
-次に、Adobe Campaign で **[!UICONTROL web 分析]**&#x200B;外部アカウントを設定し、2 つのソリューション間の同期を有効にする必要があります。
+次に、Adobe Campaign で **[!UICONTROL Web 分析]**&#x200B;外部アカウントを設定して、2 つのソリューション間の同期を有効にしてください。
 
-外部アカウントの設定時に&#x200B;**[!UICONTROL レポートスイート]**、**[!UICONTROL コンバージョン変数]**&#x200B;または&#x200B;**[!UICONTROL 成功イベント]**&#x200B;のいずれかが表示されない場合は、**[!UICONTROL 製品プロファイル]**&#x200B;内で新しく作成したコンポーネントに対する権限がありません。
+外部アカウントの設定時に&#x200B;**[!UICONTROL レポートスイート]**、**[!UICONTROL コンバージョン変数]**、**[!UICONTROL 成功イベント]**&#x200B;のいずれかが表示されない場合は、新しく作成したコンポーネントに対する権限が、ユーザーに関連付けられた&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;にないことをい意味します。
 
-詳しくは、[Adobe Analytics 製品プロファイル](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja#product-profile-admins)のページを参照してください。
+詳しくは、 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja#product-profile-admins)Adobe Analytics の製品プロファイル[のページを参照してください。
 
-1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]** フォルダーに移動して、「**[!UICONTROL 新規]**」をクリックします。
+1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;フォルダーで、「**[!UICONTROL 新規]**」をクリックします。
 
    ![](assets/analytics_connnector_9.png)
 
-1. ドロップダウンリストを使用して、**[!UICONTROL 統合]**&#x200B;ドロップダウンから **[!UICONTROL web 分析]**&#x200B;タイプと **[!UICONTROL Adobe Analytics]** を選択します。
+1. ドロップダウンリストを使用して、**[!UICONTROL 統合]**&#x200B;ドロップダウンから「**[!UICONTROL Web 分析]**」タイプと「**[!UICONTROL Adobe Analytics]**」を選択します。
 
    ![](assets/analytics_connnector_10.png)
 
-1. 「**[!UICONTROL 統合]**」ドロップダウンの横にある「**[!UICONTROL 設定]**」をクリックします。
+1. **[!UICONTROL 統合]**&#x200B;ドロップダウンの横にある「**[!UICONTROL 設定]**」をクリックします。
 
-1. 「**[!UICONTROL Analytics 統合の設定]**」ウィンドウで、以前に作成したレポートスイートに外部アカウントをマッピングし、次の情報を設定します。
+1. 「**[!UICONTROL Analytics 統合の設定]**」ウィンドウで、次の情報を提供し以前に作成したレポートスイートと外部アカウントをマッピングします。
 
    * **[!UICONTROL メール]**
-   * **[!UICONTROL IMS 組織]**
-   * **[!UICONTROL Analytics 会社]**
+   * **[!UICONTROL IMS Org]**
+   * **[!UICONTROL Analytics の会社]**
    * **[!UICONTROL レポートスイート]**
 
-1. **[!UICONTROL eVars]** カテゴリから、[!DNL Adobe Analytics]で設定した 2 つの&#x200B;**[!UICONTROL コンバージョン変数]**&#x200B;をマッピングします。
+1. 「**[!UICONTROL eVars]**」カテゴリから、[!DNL Adobe Analytics] で設定した 2 つの&#x200B;**[!UICONTROL コンバージョン変数]**&#x200B;をマッピングします。
 
    ![](assets/analytics_connnector_11.png)
 
-1. **[!UICONTROL イベント]**&#x200B;カテゴリから、[!DNL Adobe Analytics]で設定された 10 個の&#x200B;**[!UICONTROL 成功イベント]**&#x200B;をマッピングします。
+1. 「**[!UICONTROL イベント]**」カテゴリから、[!DNL Adobe Analytics] で設定した 10 個の&#x200B;**[!UICONTROL 成功イベント]**&#x200B;をマッピングします。
 
 1. 終了したら「**[!UICONTROL 送信]**」をクリックします。 Adobe Campaign は、マッピングされた Analytics の&#x200B;**[!UICONTROL レポートスイート]**&#x200B;に、**[!UICONTROL データソース]**、**[!UICONTROL 計算指標]**、**[!UICONTROL リマーケティングセグメント]**&#x200B;および&#x200B;**[!UICONTROL 分類]**&#x200B;を作成します。
 
-   [!DNL Adobe Analytics] と Adobe Campaign の同期が完了したら、ウィンドウを閉じることができます。
+   [!DNL Adobe Analytics] とAdobe Campaign の同期が完了したら、ウィンドウを閉じます。
 
-1. 設定は、**[!UICONTROL Analytics 統合の設定]**&#x200B;ウィンドウの「**[!UICONTROL データ設定]**」タブで確認できます。
+1. 設定は、「**[!UICONTROL Analytics 統合の設定]**」ウィンドウの「**[!UICONTROL データ設定]**」タブで確認できます。
 
-   「**[!UICONTROL 同期]**」ボタンを使用すると、[!DNL Adobe Campaign] は [!DNL Adobe Analytics] でおこなった名前の変更を同期します。[!DNL Adobe Analytics]内でコンポーネントを削除すると、[!DNL Adobe Campaign] 内で取り消し線が引かれるか、「**見つかりません**」というメッセージが表示されます。
+   「**[!UICONTROL 同期]**」ボタンを使用すると、[!DNL Adobe Campaign] は [!DNL Adobe Analytics] で行った名前の変更を同期します。[!DNL Adobe Analytics] でコンポーネントを削除すると、そのコンポーネントは [!DNL Adobe Campaign] で取り消し線が引かれるか、「**見つかりません**」というメッセージと共に表示されます。
 
    ![](assets/analytics_connnector_12.png)
 
 1. 必要に応じて、「**[!UICONTROL セグメントを更新]**」タブでセグメントを追加または削除できます。
 
-1. 「**[!UICONTROL 外部アカウントt]**」で、「**[!UICONTROL 式をエンリッチメントする...]**」リンクをクリックして URL 計算式を変更し、web 分析ツールの統合情報（キャンペーン ID）と、アクティビティをトラッキングする必要があるサイトのドメインを指定します。
+1. 「**[!UICONTROL 外部アカウント]**」で、「**[!UICONTROL 式をエンリッチメントする...]**」リンクをクリックして URL 計算式を変更し、Web 分析ツールの統合情報（キャンペーン ID）とアクティビティをトラッキングする必要があるサイトのドメインを指定します。
 
    ![](assets/analytics_connnector_13.png)
 
@@ -191,7 +191,7 @@ Adobe Analytics/Adobe Campaign Classic統合を設定するには、[!DNL Adobe 
 
    >[!IMPORTANT]
    >
-   >この設定モードはエキスパートユーザー向けに用意されています。この式にエラーがあった場合、メール配信が停止する可能性があります。
+   >この設定モードは、エキスパートユーザー向けに用意されているものです。この式にエラーがあった場合、メール配信が停止する可能性があります。
 
 1. 「**[!UICONTROL 詳細設定]**」タブでは、より技術的な設定を設定または変更できます。
 
@@ -204,16 +204,16 @@ Adobe Analytics/Adobe Campaign Classic統合を設定するには、[!DNL Adobe 
 
 ### Web 分析プロセスのテクニカルワークフロー {#technical-workflows-of-web-analytics-processes}
 
-Adobe CampaignとAdobe Analytics間のデータ交換は、バックグラウンドタスクとして実行される4つのテクニカルワークフローで処理されます。
+Adobe Campaign と Adobe Analytics の間のデータ交換は、バックグラウンドタスクとして実行される 4 つのテクニカルワークフローによって処理されます。
 
-これらは、Adobe Campaignツリーの&#x200B;**[!UICONTROL 管理]** / **[!UICONTROL プロダクション]** / **[!UICONTROL テクニカルワークフロー]** / **[!UICONTROL Web分析プロセス]**&#x200B;フォルダーで使用できます。
+これらのワークフローは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プロダクション]**／**[!UICONTROL テクニカルワークフロー]**／**[!UICONTROL Web 分析プロセス]**&#x200B;フォルダーにあります。
 
 ![](assets/webanalytics_workflows.png)
 
 * **[!UICONTROL Web イベントの復元]**：このワークフローでは、指定したサイトでのユーザーの行動に関するセグメントを 1 時間に 1 回ダウンロードし、Adobe Campaign データベースに格納してリマーケティングワークフローを開始します。
-* **[!UICONTROL イベントパージ]**：このワークフローでは、「**[!UICONTROL 存続期間]**」フィールドで設定した期間に基づいてデータベースからすべてのイベントを削除できます。詳しくは、Adobe Campaign Classic](#external-account-classic)での外部アカウントの設定を参照してください。[
+* **[!UICONTROL イベントパージ]**：このワークフローでは、「**[!UICONTROL 存続期間]**」フィールドで設定した期間に基づいてデータベースからすべてのイベントを削除できます。詳しくは、](#external-account-classic)Adobe Campaign Classic での外部アカウントの設定[を参照してください。
 * **[!UICONTROL コンバージョン済みの連絡先の特定]**：リマーケティングキャンペーン後に購入をおこなった訪問者のディレクトリ。このワークフローで収集されたデータは、**[!UICONTROL リマーケティングの効率]**&#x200B;レポートでアクセスできます。この[ページ](#creating-a-re-marketing-campaign)を参照してください。
-* **[!UICONTROL 指標とキャンペーン属性の送信]**:Adobe Analyticsコネクタを使用して、Adobe Campaign経由でAdobe Experience Cloudにeメールキャンペーン指標を送信できます。このワークフローは毎日午前 4 時にトリガーされ、データを Analysis に送信するには 24 時間かかります。
+* **[!UICONTROL 指標とキャンペーン属性の送信]**：Adobe Analytics Connector を使用して Adobe Campaign から Adobe Experience Cloud にメールキャンペーンの指標を送信できます。このワークフローは毎日午前 4 時にトリガーされ、データを Analysis に送信するには 24 時間かかります。
 
    ワークフローは再起動しないでください。再起動すると、以前のデータがすべて再送され、Analytics の結果に歪みが生じる可能性があります。
 
@@ -256,7 +256,7 @@ Adobe Campaign で配信を送信した後、Adobe Experience Cloud でサイト
    ![](assets/webanalytics_delivery_properties_003.png)
 
 1. 配信プロパティを開きます。
-1. 「**[!UICONTROL Web 分析]**」タブに移動し、前に作成した外部アカウントを選択します。[Adobe Campaign Classic](#external-account-classic)での外部アカウントの設定を参照してください。
+1. 「**[!UICONTROL Web 分析]**」タブに移動し、前に作成した外部アカウントを選択します。[Adobe Campaign Classic での外部アカウントの設定](#external-account-classic)を参照してください。
 
    ![](assets/webanalytics_delivery_properties_002.png)
 
@@ -270,7 +270,7 @@ Adobe Campaign で最初のキャンペーンでターゲットとした受信�
 
 Adobe Campaign にはパーソナライズされた配信テンプレートが用意されており、これを使用するか、またはこれをベースとして使用することによってキャンペーンを準備することができます。
 
-1. **[!UICONTROL エクスプローラー]**&#x200B;から、Adobe Campaignツリーの&#x200B;**[!UICONTROL リソース]** / **[!UICONTROL テンプレート]** / **[!UICONTROL 配信テンプレート]**&#x200B;フォルダーに移動します。
+1. **[!UICONTROL エクスプローラー]**&#x200B;で、Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL 配信テンプレート]**&#x200B;フォルダーに移動します。
 
 1. 「**[!UICONTROL E メール配信（リマーケティング）]**」テンプレートまたは Adobe Campaign に用意されているリマーケティングテンプレートのサンプルを複製します。
 

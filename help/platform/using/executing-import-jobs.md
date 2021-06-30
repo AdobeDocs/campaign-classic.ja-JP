@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3201'
 ht-degree: 100%
 
@@ -219,7 +219,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 >
 >したがって、紐付けはこのフォルダーに対してのみ実行されます（フォルダーが選択されない場合を除く）。
 
-### 重複排除 {#deduplication}
+### 重複の除外 {#deduplication}
 
 >[!NOTE]
 >

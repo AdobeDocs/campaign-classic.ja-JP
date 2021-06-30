@@ -62,4 +62,4 @@ ht-degree: 100%
 
 * [配信パフォーマンスの問題](delivery-performances.md)
 
-* [一時ファイルの問題](../../production/using/temporary-files.md) — *オンプレミスのお客様のみ*
+* [一時ファイルの問題](../../production/using/temporary-files.md) - *オンプレミスのお客様のみ*

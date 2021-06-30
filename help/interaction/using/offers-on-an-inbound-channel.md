@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2154'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 1. [匿名オファースペースの作成](#creating-anonymous-offer-spaces)
 1. [オファーカテゴリとテーマの作成](#creating-an-offer-category-and-a-theme)
 1. [匿名オファーの作成](#creating-anonymous-offers)
-1. [Web サイト上の Web オファースペースの設定](#configure-the-web-offer-space-on-the-website)
+1. [Web サイト上の web オファースペースの設定](#configure-the-web-offer-space-on-the-website)
 
 ### 匿名環境の作成 {#creating-an-anonymous-environment}
 
@@ -175,21 +175,21 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
 * 匿名のインバウンドインタラクションに特化したオファーカタログの作成手順：
 
-   1. [匿名コンタクト向け環境の作成](#creating-an-environment-for-anonymous-contacts)
+   1. [匿名連絡先向け環境の作成](#creating-an-environment-for-anonymous-contacts)
    1. [匿名環境向けオファースペースの設定](#configuring-offer-spaces-for-the-anonymous-environment)
-   1. [匿名環境のオファーカテゴリの作成](#creating-offer-categories-in-an-anonymous-environment)
+   1. [匿名環境でのオファーカテゴリの作成](#creating-offer-categories-in-an-anonymous-environment)
    1. [匿名訪問者向けオファーの作成](#creating-offers-for-anonymous-visitors)
 
-* 識別されたインバウンドインタラクションに特化したオファーカタログの作成手順：
+* 識別したインバウンドインタラクションに特化したオファーカタログの作成手順：
 
-   1. [識別された環境のオファースペースの設定](#configure-the-offer-spaces-in-the-identified-environment)
-   1. [識別された環境のオファーカテゴリの作成](#creating-offer-categories-in-an-identified-environment)
+   1. [識別した環境でのオファースペース設定](#configure-the-offer-spaces-in-the-identified-environment)
+   1. [識別した環境でのオファーカテゴリ作成](#creating-offer-categories-in-an-identified-environment)
    1. [パーソナライズされたオファーの作成](#creating-personalized-offers)
 
 * オファーエンジン呼び出しの設定：
 
-   1. [Web ページのオファースペースの設定](#configuring-offer-spaces-on-the-web-page)
-   1. [識別されたオファースペースの詳細設定](#specifying-the-advanced-settings-of-the-identified-offer-spaces)
+   1. [Web ページのオファースペース設定](#configuring-offer-spaces-on-the-web-page)
+   1. [識別したオファースペースの詳細設定](#specifying-the-advanced-settings-of-the-identified-offer-spaces)
 
 ### 匿名コンタクト向け環境の作成 {#creating-an-environment-for-anonymous-contacts}
 

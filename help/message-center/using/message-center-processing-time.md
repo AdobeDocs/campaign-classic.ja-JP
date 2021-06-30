@@ -1,27 +1,27 @@
 ---
 product: campaign
 title: Message Center の処理時間
-description: 詳しくは、 Message Centerの処理時間レポートを参照してください。
+description: Message Center の処理時間レポートについて説明します。
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
 source-git-commit: e86350cf12db37e3f2c227563057b97922601729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '253'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Message Center の処理時間 {#message-center-processing-time}
 
-このレポートではリアルタイムキューに関する主な指標が表示されます。
+このレポートでは、リアルタイムキューに関する主な指標が表示されます。
 
-技術管理者向けのこのレポートは、コントロールインスタンスの「**[!UICONTROL 監視]**」タブからもアクセスできます。
+技術管理者向けのこのレポートには、コントロールインスタンスの「**[!UICONTROL 監視]**」タブからもアクセスできます。
 
 ![](assets/mc_reports_2.png)
 
-**[!UICONTROL Message Center サービスレベル]**&#x200B;レポートと同じく、総合的な統計または特定の実行インスタンスに関する統計のいずれかを選択して表示することができます。また、チャネルおよび一定期間の検索条件を追加することもできます。
+**[!UICONTROL Message Center サービスレベル]**&#x200B;のレポートと同じように、総合的な統計か、特定の実行インスタンスに関する統計のいずれかを選択して表示することができます。チャネル別や、指定の期間でデータをフィルタリングすることもできます。
 
 「**[!UICONTROL 全期間の指標]**」セクションに表示される指標は、選択した期間を対象に計算されます。
 
@@ -34,4 +34,4 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->警告（オレンジ）およびアラート（赤）指標のしきい値は、Adobe Campaign デプロイウィザードで設定することができます。[モニタのしきい値](../../message-center/using/additional-configurations.md#monitoring-thresholds)を参照してください。
+>警告（オレンジ）およびアラート（赤）指標のしきい値は、Adobe Campaign デプロイウィザードで設定することができます。[しきい値の監視](../../message-center/using/additional-configurations.md#monitoring-thresholds)を参照してください。

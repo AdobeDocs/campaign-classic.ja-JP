@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Adobe Campaign では、以下のためにデータスキーマが使用され�
 
 メッセージを送信するために、Campaign で標準以外の受信者テーブルを作成および実装できます。
 
-[詳しくはここをクリック](../../configuration/using/about-custom-recipient-table.md)
+[詳しくはこちらをクリックしてください。](../../configuration/using/about-custom-recipient-table.md)
 
 ## Campaign でクエリを定義するためのベストプラクティスは？{#what-are-the-best-practices-to-define-queries-in-campaign-}
 

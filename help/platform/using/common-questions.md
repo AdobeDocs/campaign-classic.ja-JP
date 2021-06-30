@@ -19,7 +19,7 @@ Campaign Classic の操作について疑問がある場合は、以下に示す
 
 * [チュートリアル動画を見る](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)
 * [セルフヘルプオプションを参照する](../../platform/using/tutorials.md#how-to-videos)
-* [「はじめに」と「使用例」の節を読む](../../platform/using/tutorials.md#step-by-step-guides)
+* [「概要」と「使用例」の節を参照する](../../platform/using/tutorials.md#step-by-step-guides)
 * 答えが見つからない場合は、[エキスパートに質問する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 * サポートが必要な場合は、[Campaign のヘルプとサポートのオプションを参照する](../../support.md)
 

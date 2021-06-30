@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: content-management
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Adobe Campaign でのデータスキーマの作成と設定について詳し�
 </element>
 ```
 
-## 「PROPERTIES」タブ {#properties}
+## プロパティ {#properties}
 
 様々なプロパティを使用して、データスキーマの **`<element>`** 要素と **`<attribute>`** 要素をエンリッチメントできます。
 

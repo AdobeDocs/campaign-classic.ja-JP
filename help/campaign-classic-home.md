@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: c0a3d9217696f5f5622a6af8f64c62b1a9fbce20
+source-git-commit: 8a0535180640c63201d1a59539eac8c91a53cb8b
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 98%
+source-wordcount: '257'
+ht-degree: 96%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 98%
 
 | 便利なページ | 開発者向けリソース |
 |---|---|
-| [リリースノート](/help/rn/using/latest-release.md) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [リリースノート](/help/rn/using/latest-release.md) | [エラーメッセージのリスト](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [ビデオガイド、チュートリアル](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
 | [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [[!DNL Gold Standard] アップグレード](rn/using/gs-overview.md) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |

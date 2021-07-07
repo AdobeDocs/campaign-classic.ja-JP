@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 1da8b954f1ed8b3e1433b920149e968cb89a97c5
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '676'
+ht-degree: 94%
 
 ---
 
@@ -91,13 +91,15 @@ Adobe Campaign サーバーは、iOS HTTP/2 コネクタ用の 443 ポートの 
 * テスト用：
 
    ```
-   telnet gateway.sandbox.push.apple.com
+   api.development.push.apple.com:443
    ```
 
 * 本番：
 
    ```
-   telnet gateway.push.apple.com
+   api.push.apple.com:443
    ```
 
-iOS HTTP/2 コネクタを使用する場合、MTA、web サーバーおよびワークフローサーバーは、ポート 443 で APNs と通信できる必要があります。
+iOS HTTP/2コネクタを使用する場合、MTAおよびWebサーバーは、ポート443でAPNsと通信できる必要があります。
+
+プロキシ経由でiOS HTTP/2コネクタを使用する必要がある場合は、この[ページ](../../installation/using/file-res-management.md#proxy-connection-configuration)を参照してください。

@@ -6,16 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 939552f127207f258448b2a82bb8c4c000371694
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 1%
+source-wordcount: '612'
+ht-degree: 0%
 
 ---
 
 # ファイルとリソースの管理{#file-and-resmanagement}
 
-## アップロードファイル形式{#limiting-uploadable-files}の制限
+## アップロードファイル形式の制限 {#limiting-uploadable-files}
 
 **uploadWhiteList**&#x200B;属性を使用して、Adobe Campaignサーバーでアップロードできるファイルタイプを制限します。
 
@@ -31,9 +31,9 @@ ht-degree: 1%
 >
 >Internet Explorerでは、完全なファイルパスを正規表現で検証する必要があります。
 
-また、Webサーバーを設定して、重要なファイルがアップロードされないようにすることもできます。 [詳細情報](web-server-configuration.md)
+また、Webサーバーを設定して、重要なファイルがアップロードされないようにすることもできます。 [詳細](web-server-configuration.md)
 
-## プロキシ接続の設定{#proxy-connection-configuration}
+## プロキシ接続の設定 {#proxy-connection-configuration}
 
 例えば、**ファイル転送**&#x200B;ワークフローアクティビティを使用して、Campaignサーバーをプロキシ経由で外部システムに接続できます。 これを実現するには、特定のコマンドを使用して&#x200B;**serverConf.xml**&#x200B;ファイルの&#x200B;**proxyConfig**&#x200B;セクションを設定する必要があります。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に記載されています。
 
@@ -103,7 +103,20 @@ FTP/FTPS接続は、proxyFTPパラメーターで定義されます。
 
 プロキシ接続を一時的に無効にする場合は、enabledパラメーターを「false」または「0」に設定します。
 
-## パブリックリソースの管理{#managing-public-resources}
+プロキシ経由でiOS HTTP/2コネクタを使用する必要がある場合、次のHTTPプロキシモードがサポートされます。
+
+* 認証なしのHTTP
+* HTTP基本認証
+
+プロキシモードを有効にするには、`serverconf.xml`ファイルで次の変更を行う必要があります。
+
+```
+<nmac useHTTPProxy="true">
+```
+
+このiOS HTTP/2コネクタについて詳しくは、この[ページ](../../delivery/using/about-mobile-app-channel.md)を参照してください。
+
+## パブリックリソースの管理 {#managing-public-resources}
 
 キャンペーンに関連するEメールやパブリックリソースで使用される画像を公開するには、外部からアクセス可能なサーバー上に存在する必要があります。 その後、外部の受信者やオペレーターが使用できるようになります。 [詳細情報](../../installation/using/deploying-an-instance.md#managing-public-resources)。
 

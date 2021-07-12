@@ -3,10 +3,10 @@ product: campaign
 title: Adobe Campaign Classic について
 description: 主な機能、ユーザーインターフェイス、グローバルガイドラインについて説明します。
 feature: 概要
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 100%
@@ -41,9 +41,9 @@ Adobe Campaign では、受信者は配信（E メール、SMS など）の送�
 
 プロファイル管理の基礎は、[プロファイルについて](../../platform/using/about-profiles.md)で説明しています。
 
-### ターゲティングされたセグメント {#targeted-segmentation}
+### ターゲティングされたセグメント化 {#targeted-segmentation}
 
-Adobe Campaign には、高度にターゲティングされた最適なオファーを作成できる、強力で使いやすいセグメント化機能とターゲティング機能が用意されています。記述的分析機能では、マーケティングキャンペーンのアップストリームおよびダウンストリームの情報を分析でき、フィルター管理および[グラフィカルクエリエディター](../../platform/using/about-queries-in-campaign.md)機能を使用して、購読者の母集団やサンプルをフィルターしたり、無制限の数の基準を使用してターゲットグループを作成したりすることができます。分析およびターゲティング機能について詳しくは、[このページ](../../reporting/using/about-descriptive-analysis.md)および[フィルターの作成](../../platform/using/creating-filters.md)の節で説明しています。
+Adobe Campaign には強力で使いやすいセグメント化機能とターゲティング機能が備わっており、高度にターゲティングされた最適なオファーを作成できます。記述的分析機能では、マーケティングキャンペーンのアップストリームおよびダウンストリームの情報を分析でき、フィルター管理および[グラフィカルクエリエディター](../../platform/using/about-queries-in-campaign.md)機能を使用して、購読者の母集団やサンプルをフィルターしたり、無制限の数の基準を使用してターゲットグループを作成したりすることができます。分析およびターゲティング機能について詳しくは、[このページ](../../reporting/using/about-descriptive-analysis.md)および[フィルターの作成](../../platform/using/creating-filters.md)の節で説明しています。
 
 高度なデータ管理機能は、データ処理機能を強化します。データマートでモデル化されていないデータを含めることで、ターゲティングプロセスを簡素化し、最適化します。この機能について詳しくは、[このページ](../../workflow/using/targeting-data.md#data-management)で説明しています。
 

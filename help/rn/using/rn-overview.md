@@ -3,17 +3,17 @@ product: campaign
 title: アップグレードの基本を学ぶ
 description: Campaign Classic アップグレードの詳細
 feature: 概要
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
 ---
 
-# アップグレードの基本を学ぶ{#rn-overview}
+# アップグレードの概要{#rn-overview}
 
 Adobe Campaign は定期的に更新されています。年間平均で 2～3 個のマイナーバージョンがリリースされ、新機能、改善点および修正点が追加されています。さらに、累積的な修正のみを含むビルドを定期的にリリースしています。
 

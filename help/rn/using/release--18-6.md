@@ -6,19 +6,19 @@ audience: rn
 content-type: reference
 topic-tags: latest-release-notes
 feature: 概要
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # リリース 18.6{#release-18-6}
 
-## リリース 18.6.2 - ビルド 8949{#release-18-6-3-build-8949}
+## リリース18.6.2 — ビルド8949{#release-18-6-3-build-8949}
 
 2018 年 8 月 22 日
 
@@ -74,13 +74,13 @@ Query Banding について詳しくは、以下の記事を参照してくださ
 * [https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw](https://docs.teradata.com/reader/cY5B%7EoeEUFWjgN2kBnH3Vw/a5G1iz%7Eve68yTMa24kVjVw)
 * [https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ](https://docs.teradata.com/reader/rgAb27O_xRmMVc_aQq2VGw/qVNfdszBssrZ7ttrE7AtmQ)
 
-## リリース 18.6 - ビルド 8947{#release-18-6-build-8947}
+## リリース18.6 — ビルド8947{#release-18-6-build-8947}
 
 2018 年 6 月 25 日
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新ビルドにアップグレードする](../../production/using/build-upgrade.md)か、[テクニカルサポート](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新ビルドにアップグレードする](../../production/using/build-upgrade.md)か、[テクニカルサポート](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **新機能?**
 
@@ -98,7 +98,7 @@ Query Banding について詳しくは、以下の記事を参照してくださ
   </tr> 
   <tr> 
    <td> Windows Server 2016 のサポート<br /> </td> 
-   <td> Adobe Campaign は現在、Windows Server 2016 に対応しています。<a href="https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html">Campaign Classic の互換性マトリックス</a>を参照してください。<br /> </td> 
+   <td> Adobe Campaign は現在、Windows Server 2016 に対応しています。<a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Campaign Classic の互換性マトリックス</a>を参照してください。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

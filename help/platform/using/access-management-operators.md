@@ -3,11 +3,11 @@ product: campaign
 title: Campaign オペレーターの基本を学ぶ
 description: キャンペーンユーザーの作成および管理方法を説明します。
 feature: アクセス管理
-role: Business Practitioner, Administrator
+role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # オペレーターの作成と管理 {#operators}
 
-## Campaign オペレーターの基本を学ぶ {#about-operators}
+## Campaign オペレーターの基本を学ぶ  {#about-operators}
 
 オペレーターは、ログインしてアクションを実行する権限を持つ Adobe Campaign ユーザーです。
 

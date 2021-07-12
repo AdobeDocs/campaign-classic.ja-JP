@@ -3,13 +3,13 @@ product: campaign
 title: Campaign Classic の互換性マトリックス
 description: Campaign Classic 互換性マトリックス
 feature: 概要
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 1caacff8b10c8593945b872d045fdaab3f26190c
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -284,7 +284,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 ## クライアントコンソール {#ClientConsoleoperatingsystems}
 
-:warning: Campaignクライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。
+:warning: Campaign クライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。
 
 ### オペレーティングシステム
 

@@ -3,11 +3,11 @@ product: campaign
 title: リストの作成および管理
 description: リストの作成および管理方法を説明します。
 feature: プロファイル
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # リストの作成と管理{#creating-and-managing-lists}
 
-## リストとは {#about-lists-in-adobe-campaign}
+## リストとは  {#about-lists-in-adobe-campaign}
 
 リストは、配信アクションのターゲットにしたり、インポート操作時やワークフロー実行時に更新したりできるプロファイルの静的なセットです。例えば、クエリによってデータベースから抽出した母集団からリストを作成できます。
 

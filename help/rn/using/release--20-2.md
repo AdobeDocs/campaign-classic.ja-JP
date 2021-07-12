@@ -3,10 +3,10 @@ product: campaign
 title: リリース 20.2
 description: リリース 20.2
 feature: 概要
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
-source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '2973'
 ht-degree: 100%
@@ -61,7 +61,7 @@ _2020 年 12 月 22 日_
 
 >[!CAUTION]
 >
-> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合は、 **2021 年 6 月 30 日**&#x200B;以降、Campaign サーバーとクライアントコンソールのいずれも、Campaign に接続できるようにするには、アップグレードが必要です。[詳細情報](../../technotes/ims-updates.md)
+> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合は、 **2021 年 6 月 30 日**&#x200B;以降、Campaign サーバーとクライアントコンソールのいずれも、Campaign に接続できるようにするには、アップグレードが必要です。[詳細](../../technotes/ims-updates.md)
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 > * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、**2021 年 11 月 30 日**&#x200B;に終了します。
 

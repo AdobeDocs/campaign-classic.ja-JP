@@ -3,19 +3,19 @@ product: campaign
 title: Campaign 18.10 のリリースノート
 description: Campaign 18.10 のリリースノート
 feature: 概要
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '2372'
-ht-degree: 100%
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
+source-wordcount: '2370'
+ht-degree: 98%
 
 ---
 
 # リリース 18.10{#release-18-10}
 
-## リリース 18.10.6 - ビルド 8985{#release-18-10-6-build-8985}
+## リリース18.10.6 — ビルド8985{#release-18-10-6-build-8985}
 
 2019 年 7 月 12 日
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 * 内部アカウントを使用する際にセキュリティゾーンパッケージを実行するための権限が改善されました。
 * mtachild ログでエラーが発生する原因となっていた問題を修正しました。（NEO-8978）
 
-## リリース 18.10.5 - ビルド 8984{#release-18-10-5-build-8984}
+## リリース18.10.5 — ビルド8984{#release-18-10-5-build-8984}
 
 2019 年 4 月 23 日
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 * データが失われる問題を修正するため、ワークフローヒートマップの 10,000 レコードの制限を削除しました。（NEO-12329）
 * エンリッチメントワークフローアクティビティで「メインセットからのすべての追加データを維持」オプションを使用した際の問題を修正しました。（NEO-13291）
 
-## リリース 18.10.4 - ビルド 8983{#release-18-10-4-build-8983}
+## リリース18.10.4 — ビルド8983{#release-18-10-4-build-8983}
 
 2019 年 4 月 15 日
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 * Analytics 統合で、% 文字を使用した AAM セグメントデータを取得できるようになりました。（NEO-12025）
 * HTTP2 を使用して通知を送信する際に Tomcat がクラッシュする問題を修正しました。（NEO-12701）
 
-## リリース 18.10.3 - ビルド 8981{#release-18-10-3-build-8981}
+## リリース18.10.3 — ビルド8981{#release-18-10-3-build-8981}
 
 2019 年 1 月 29 日
 
@@ -74,13 +74,13 @@ ht-degree: 100%
 * モバイルアプリケーションでプッシュ通知を送信する際に文字がエスケープされる問題を修正しました。
 * ミッドソーシング外部アカウントで FDA から SOAP 同期メソッドに切り替えることができない問題を修正しました。
 
-## リリース 18.10.2 - ビルド 8978{#release-18-10-2-build-8978}
+## リリース18.10.2 — ビルド8978{#release-18-10-2-build-8978}
 
 2018 年 12 月 6 日
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **強化点**
 
@@ -96,13 +96,13 @@ ht-degree: 100%
 * ワークフローヒートマップのワークフロー持続期間の計算で発生していた問題を修正しました。
 
 
-## リリース 18.10 - ビルド 8977{#release-18-10-build-8977}
+## リリース18.10 — ビルド8977{#release-18-10-build-8977}
 
 2018 年 11 月 5 日
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **新機能**
 
@@ -138,7 +138,7 @@ ht-degree: 100%
 
 * SSRF（サーバーサイドリクエストフォージェリ）攻撃や DoS（サービス拒否）攻撃に対する脆弱性につながるセキュリティ上の問題を修正しました。（NEO-11453）
 * X-Robots-Tag（nocache ヘッダー）を使用した場合に、Campaign からコンテンツ（トラッキングリダイレクト、ミラーページ、調査など）が提供されるようになりました。これにより、インターネット検索エンジンによるコンテンツのインデックス作成を防ぎます。（NEO-11101）
-* 購読 API（nms:subscription:Unsubscribe および nms:subscription:Subscribe）の XTK 挿入の問題を修正しました。
+* 購読API（nms:subscription:購読解除およびnms:subscription:購読）のXTK挿入の問題を修正しました。
 * 購読解除 Web アプリケーションの XTK 挿入の問題を修正しました。
 * 一部の SMS ログで不用意に表示されていたパスワードを削除しました。
 

@@ -3,10 +3,10 @@ product: campaign
 title: Campaign Classic の非推奨（廃止予定）および削除された機能
 description: このページには、Adobe Campaign Classic の非推奨および削除された機能が表示されます
 feature: 概要
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: c612b47463427751eff27d6092e371c918c87d93
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1634'
 ht-degree: 99%
@@ -178,7 +178,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 19.1 Spring リリースより、Adobe Campaign は次のツールへの対応を終了します。
 
 * Java JDK 7。[詳細情報](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
-* Libre Office 3.5／4.3／5.x（他のツールに埋め込まれた場合を除く）。[詳細情報](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
+* Libre Office 3.5／4.3／5.x（他のツールに埋め込まれた場合を除く）。[詳細](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### データベースエンジン {#dbe-eol}
 

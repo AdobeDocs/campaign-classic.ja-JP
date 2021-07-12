@@ -3,17 +3,17 @@ product: campaign
 title: 汎用インポートおよびエクスポートについて
 description: 一般的なインポートおよびエクスポートの詳細を説明します。
 feature: 概要
-role: Business Practitioner, Data Architect
+role: User, Data Architect
 level: Beginner
 exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 100%
 
 ---
 
-# インポートジョブとエクスポートジョブの基本を学ぶ{#about-generic-imports-exports}
+# インポートジョブとエクスポートジョブの基本を学ぶ {#about-generic-imports-exports}
 
 Adobe Campaign Classic には、一般的なインポートおよびエクスポートが用意されています。例えば、ターゲット母集団の一部になる顧客や見込み客のリストを抽出したり、外部ファイルからデータをデータベースに入力したりすることができます。
 

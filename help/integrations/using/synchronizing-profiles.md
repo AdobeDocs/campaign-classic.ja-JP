@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: acs-connector
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1258'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 >
 >購読解除サービスについて Web アプリケーションを設定するには、以下の手順を実行する前に、コンサルタントにお問い合わせください。
 
-## 新しい受信者の作成 {#creating-a-new-recipient}
+## 新規受信者の作成 {#creating-a-new-recipient}
 
 1. Campaign Standard へのレプリケーション用の新しい受信者を Campaign v7 で作成します。受信者の姓、名、E メールアドレス、郵送先住所など、可能な限りの情報を入力します。ただし、敬称は次の[受信者の編集](#editing-a-recipient)の節で追加するので、**[!UICONTROL 敬称]**&#x200B;は選択しないでください。詳しくは、[受信者の追加](../../platform/using/adding-profiles.md)を参照してください。
 
@@ -59,7 +59,7 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 
    ![](assets/acs_connect_profile_sync_03.png)
 
-1. 受信者の名前が Campaign Standard で更新されていることを確認します。Campaign Standard でのプロファイルの場所について詳しくは、[ナビゲーションの基本](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html)を参照してください。
+1. 受信者の名前が Campaign Standard で更新されていることを確認します。Campaign Standard でのプロファイルの場所について詳しくは、[ナビゲーションの基本](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=ja)を参照してください。
 
    ![](assets/acs_connect_profile_sync_04.png)
 
@@ -172,6 +172,6 @@ Campaign v7 Web アプリケーションを使用して、受信者によるサ�
 
    ![](assets/acs_connect_profile_sync_22.png)
 
-1. Campaign Standard に移動して、受信者のプロファイルの詳細を開きます。「**[!UICONTROL 今後の連絡は不要 (すべてのチャネル)]**」の隣にチェックボックスが表示されていることを確認します。Campaign Standard でのプロファイルの場所について詳しくは、[ナビゲーションの基本](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html)を参照してください。
+1. Campaign Standard に移動して、受信者のプロファイルの詳細を開きます。「**[!UICONTROL 今後の連絡は不要 (すべてのチャネル)]**」の隣にチェックボックスが表示されていることを確認します。Campaign Standard でのプロファイルの場所について詳しくは、[ナビゲーションの基本](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=ja)を参照してください。
 
    ![](assets/acs_connect_profile_sync_23.png)

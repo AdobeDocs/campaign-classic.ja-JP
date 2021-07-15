@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: action-activities
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
 source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 82%
 
 クロスチャネル配信は、キャンペーンワークフローアクティビティの「**[!UICONTROL 配信]**」タブから使用可能です。
 
-次に、使用可能な様々なチャネルを示します。
+使用可能な様々なチャネルを以下に示します。
 
 * [メール](../../delivery/using/about-email-channel.md)
 * [ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)
@@ -31,7 +31,7 @@ ht-degree: 82%
 
 各種ターゲティングアクティビティを使用して、ワークフローの配信アップストリームのターゲットを指定できます。
 
-次の例では、プッシュ通知購読者向けのEメールまたはSMSを送信し、1週間後にプッシュ通知を送信するワークフローを作成します。 手順は次のとおりです。
+以下の例では、プッシュ通知購読者に E メールまたは SMS を送信してから 1 週間後にプッシュ通知を通知するワークフローを作成します。手順は次のとおりです。
 
 1. キャンペーンを作成します。
 1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、ワークフローに&#x200B;**[!UICONTROL クエリ]**&#x200B;を追加します。
@@ -39,7 +39,7 @@ ht-degree: 82%
 
    >[!NOTE]
    >
-   >プッシュ通知の場合は、**購読者のアプリケーション**&#x200B;ターゲットディメンションを使用します。
+   >プッシュ通知の場合は、**購読者のアプリケーション**&#x200B;のターゲットディメンションを使用します。
 
    ![](assets/cross_channel_delivery_1.png)
 

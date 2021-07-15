@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
 ht-degree: 100%
 
 ---
 
-# 使用例：条件によるシードアドレスの選択{#use-case-selecting-seed-addresses-on-criteria}
+# ユースケース：条件に基づくシードアドレスの選択{#use-case-selecting-seed-addresses-on-criteria}
 
 配信またはキャンペーンのフレームワーク内で、「**[!UICONTROL 動的条件を編集]**」リンクをクリックすると、特定の選択条件に基づいてシードアドレスを指定できます。
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ## 手順 2 - 共通値の作成 {#step-2---creating-a-common-value}
 
-シードアドレス間に共通する値（この例では「部門」フィールドの「購買」）を作成するには、まず、使用するシードアドレスの&#x200B;**データスキーマ**&#x200B;を拡張し、スキーマに関連付けられた入力フォームを編集する必要があります。
+この例（購買部門）のような共通の値を作成するには、最初にシードアドレスの&#x200B;**データスキーマ**&#x200B;を拡張し、関連する入力フォームを編集する必要があります。
 
 ### データスキーマの拡張 {#extending-the-data-schema}
 
@@ -95,7 +95,7 @@ ht-degree: 100%
 
 1. Adobe Campaign との接続を一旦切断し、再接続します。これで、シードアドレスのデータスキーマに加えた変更が有効になります。ただし、変更をシードアドレス画面の表示にも反映させるには、スキーマに対応する&#x200B;**[!UICONTROL 入力フォーム]**&#x200B;を更新する必要があります。[入力フォームの更新](#updating-the-input-form)の節を参照してください。
 
-#### リンクされたテーブルに基づくデータスキーマの拡張 {#extending-the-data-schema-from-a-linked-table}
+#### リンクされたテーブルからのデータスキーマの拡張 {#extending-the-data-schema-from-a-linked-table}
 
 シードアドレスのデータスキーマでは、受信者データスキーマ「受信者」（nms）にリンクされたテーブル内の値を使用できます。
 

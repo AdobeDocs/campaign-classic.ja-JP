@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: a-b-testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -79,4 +79,4 @@ ht-degree: 91%
 
       ![](assets/use_case_abtesting_createrecipients_013.png)
 
-これで、2つの配信テンプレートを作成できます。 [詳細情報](a-b-testing-uc-delivery-templates.md)).
+これで、2 つの配信テンプレートを作成できるようになりました。 [詳細情報](a-b-testing-uc-delivery-templates.md)）。

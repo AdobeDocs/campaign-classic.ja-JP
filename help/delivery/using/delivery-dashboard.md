@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1242'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## 配信の概要 {#delivery-summary}
 
-「**[!UICONTROL 概要]**」タブには、配信ステータス、使用するチャネル、送信者に関する情報、件名、実行に関連する情報など、配信の内容が表示されます。
+「**[!UICONTROL 概要]**」タブには、配信のステータス、使用するチャネル、送信者に関する情報、件名、実行に関連する情報など、配信の特性が表示されています。
 
 ## 配信レポート {#delivery-reports}
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ![](assets/delivery-report.png)
 
-## 配信ログ、履歴、除外 {#delivery-logs-and-history}
+## 配信ログ、履歴および除外 {#delivery-logs-and-history}
 
 「**[!UICONTROL 配信]**」タブには、この配信内で発生した事象の履歴が表示されます。このタブには、配信ログ、つまり、送信されたメッセージのリストとそのステータスおよび関連メッセージが含まれます。
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
-## 配信トラッキングログと履歴 {#tracking-logs}
+## 配信トラッキングのログと履歴 {#tracking-logs}
 
 「**[!UICONTROL トラッキング]**」タブには、この配信のトラッキング履歴が一覧表示されます。このタブには、送信されたメッセージのトラッキングデータ、つまり、Adobe Campaign によってトラッキングされたすべての URL が表示されます。トラッキングデータは 1 時間ごとに更新されます。
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_delivery_tracking_tab.png)
 
-## 受信ボックスのレンダリング {#delivery-rendering}
+## 受信ボックスレンダリング {#delivery-rendering}
 
 「**[!UICONTROL 受信ボックスレンダリング]**」タブにより、異なるコンテキストで受信される可能性のある送信済みのメッセージをプレビューして、メジャーなデスクトップおよびアプリケーションの互換性を確認できます。
 
@@ -121,7 +121,7 @@ ht-degree: 100%
 
 配信ダッシュボードで各種レポートの配信をトラッキングすることもできます。詳しくは、[この節](../../reporting/using/delivery-reports.md)を参照してください。
 
-## 使用例：送信者の IP アドレスをログに追加する {#use-case}
+## ユースケース：ログへの送信者 IP アドレスの追加 {#use-case}
 
 この節では、配信で各 E メールを送信した IP アドレスに関する配信ログ情報を追加する方法を学びます。
 

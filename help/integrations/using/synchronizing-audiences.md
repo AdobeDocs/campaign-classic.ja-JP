@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: acs-connector
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ Campaign Standard で配信ワークフローを作成することで、この�
 
    このアクティビティは、選択したオーディエンスのデータを取得するために使用されます。また、必要に応じて、このアクティビティの「**[!UICONTROL ソースフィルター]**」タブを使用して、追加のソースフィルターを適用できます。
 
-1. 「**[!UICONTROL E メール配信]**」アクティビティを追加して、他の[「E メール配信」アクティビティ](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html)として設定します。
+1. 「**[!UICONTROL E メール配信]**」アクティビティを追加して、他の[「E メール配信」アクティビティ](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html?lang=ja)として設定します。
 1. 配信コンテンツを開きます。
 1. パーソナライゼーションフィールドの追加ポップアップから、**[!UICONTROL 追加データ（targetData）]**&#x200B;ノードを探します。このノードには、最初のターゲティングワークフローで計算されたオーディエンスの追加データが含まれます。これらは他のパーソナライゼーションフィールドとして使用できます。
 

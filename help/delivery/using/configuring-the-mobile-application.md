@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# iOS の設定手順 {#configuring-the-mobile-application-in-adobe-campaign-ios}
+# iOS 向けの設定手順 {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
 パッケージがインストールされたら、Adobe Campaign Classic で iOS アプリの設定を定義できます。
 
@@ -23,14 +23,14 @@ ht-degree: 93%
 
 主な手順は次のとおりです。
 
-1. [iOS外部アカウントの設定](#configuring-external-account-ios)
-1. [iOSサービスの設定](#configuring-ios-service)
-1. [CampaignでのiOSモバイルアプリの統合](#creating-ios-app)
+1. [iOS 外部アカウントの設定](#configuring-external-account-ios)
+1. [iOS サービスの設定](#configuring-ios-service)
+1. [Campaign での iOS モバイルアプリの統合](#creating-ios-app)
 
-その後、iOSデバイス用に[プッシュ通知を作成](create-notifications-ios.md)できます。
+これで、[iOS デバイス用のプッシュ通知を作成](create-notifications-ios.md)できます。
 
 
-## iOS外部アカウントの設定 {#configuring-external-account-ios}
+## iOS 外部アカウントの設定 {#configuring-external-account-ios}
 
 iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します。
 
@@ -46,7 +46,7 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
 これで、iOS コネクタが設定されました。サービスの作成を開始できます。
 
-## iOSサービスの設定 {#configuring-ios-service}
+## iOS サービスの設定 {#configuring-ios-service}
 
 >[!CAUTION]
 >
@@ -73,9 +73,9 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
 1. iOS の開発用アプリケーションおよび本番用アプリケーションを作成します。詳しくは、[この節](configuring-the-mobile-application.md#creating-ios-app)を参照してください。
 
-## iOSモバイルアプリの作成 {#creating-ios-app}
+## iOS モバイルアプリの作成 {#creating-ios-app}
 
-サービスを作成したら、CampaignでiOSアプリケーションを作成します。 次の手順に従います。
+サービスを作成したら、Campaign で iOS アプリケーションを作成します。以下の手順に従います。
 
 1. 新しく作成したサービスで、「**[!UICONTROL 追加]**」ボタンをクリックしてアプリケーションタイプを選択します。
 

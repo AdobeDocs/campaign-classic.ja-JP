@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: adobe-target
 exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
 source-git-commit: 94e609f3df94c553e2ec84ee427887a767b9af21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -37,4 +37,4 @@ Adobe Campaign を設定するには：
 
 >[!CAUTION]
 >
->ハイブリッドおよびホストアーキテクチャの場合、[ミッドソーシングサーバー](../../installation/using/mid-sourcing-server.md)および[実行インスタンス](../../message-center/using/configuring-instances.md#execution-instance)を含め、これらのオプションをすべてのサーバーに設定する必要があります。
+>ハイブリッドアーキテクチャとホストアーキテクチャの場合、これらのオプションは、[ミッドソーシングサーバー](../../installation/using/mid-sourcing-server.md)と[実行インスタンス](../../message-center/using/configuring-instances.md#execution-instance)を含むすべてのサーバーで設定する必要があります。

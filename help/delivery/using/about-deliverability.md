@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliverability-management
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ISP は顧客をスパム業者から保護するために、新しい高度なフィルタリング技術を継続的に開発する必要があるので、E メールの配信品質は常に変化する基準とルールを特徴としています。必ず、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)を参照してください。これは定期的に更新されます。
+>ISP は顧客をスパム業者から保護するために、新しい高度なフィルタリング技術を継続的に開発する必要があるので、E メールの配信品質は常に変化する基準とルールを特徴としています。必ず、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。これは定期的に更新されます。
 
 ### 配信品質率
 

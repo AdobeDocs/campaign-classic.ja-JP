@@ -8,9 +8,9 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -45,15 +45,15 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 * 強制隔離リストの&#x200B;**[!UICONTROL エラーテキスト]**&#x200B;フィールドに SMTP バウンス応答情報が含まれている Campaign インスタンスの場合：
 
    * **エラーテキスト（強制隔離テキスト）**&#x200B;に「user lookup success but no user record found」が含まれ、かつ&#x200B;**エラーテキスト（強制隔離テキスト）**&#x200B;に「support.apple.com」が含まれている
-   * **更新ステータス(@lastModified)** が午前4/26/202107時以降:00:に
-   * **更新ステータス(@lastModified)** (4/26/2021 01:00: 00 PM以前)
+   * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午前 07:00:00 以降
+   * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午後 01:00:00 以前
 
 * 強制隔離リストの&#x200B;**[!UICONTROL エラーテキスト]**&#x200B;フィールドにインバウンド E メールのルール情報が含まれている Campaign インスタンスの場合：
 
    * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
    * **メールドメイン（@domain）**&#x200B;が icloud.com と等しいか、または&#x200B;**メールドメイン（@domain）**&#x200B;が me.com と等しいか、または&#x200B;**メールドメイン（@domain）**&#x200B;が mac.com と等しい
-   * **更新ステータス(@lastModified)** が午前4/26/202107時以降:00:に
-   * **更新ステータス(@lastModified)** (4/26/2021 01:00: 00 PM以前)
+   * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午前 07:00:00 以降
+   * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午後 01:00:00 以前
 
 影響を受けた受信者のリストを取得したら、ステータスを&#x200B;**[!UICONTROL 有効]**&#x200B;に設定して&#x200B;**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローにより強制隔離リストから削除されるようにするか、テーブルからただ削除します。
 

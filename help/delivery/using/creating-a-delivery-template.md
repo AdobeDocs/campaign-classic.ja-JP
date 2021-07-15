@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: using-delivery-templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
 ht-degree: 100%
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 # 配信テンプレートの作成{#creating-a-delivery-template}
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#delivery-template-video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#delivery-template-video)
 
-## テンプレートへの既存の配信の変換 {#converting-an-existing-delivery-to-a-template}
+## 既存配信のテンプレートへの変換 {#converting-an-existing-delivery-to-a-template}
 
 配信をテンプレートに変換すると、新しい繰り返し配信アクションの作成に使用できます。配信をテンプレートに変換するには、ツリーの&#x200B;**[!UICONTROL キャンペーン管理]**&#x200B;ノードからアクセスできる配信リストで、配信を選択し、
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 >
 >設定エラーを防ぐために、新しいテンプレートを作成するのではなく、ネイティブテンプレートをコピーしてプロパティを変更することをお勧めします。
 
-## チュートリアル動画 {#delivery-template-video}
+## チュートリアルビデオ {#delivery-template-video}
 
 ### 配信テンプレートの設定方法
 

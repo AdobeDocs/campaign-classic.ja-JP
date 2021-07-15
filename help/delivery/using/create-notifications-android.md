@@ -1,21 +1,21 @@
 ---
 product: campaign
-title: Androidデバイス用のプッシュ通知の作成
-description: Android用のプッシュ通知を作成する方法を説明します
+title: Android デバイス用のプッシュ通知の作成
+description: Android 用のプッシュ通知を作成する方法を説明します
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '818'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Android用通知の作成{#create-notificaations-android}
+# Android 用通知の作成{#create-notificaations-android}
 
-Adobe Campaignを使用して、Androidデバイスでプッシュ通知を送信します。 配信の作成に関するグローバルな概念については、[この節](steps-about-delivery-creation-steps.md)で説明しています。
+Adobe Campaign を使用して、Android デバイスにプッシュ通知を送信します。配信の作成に関するグローバルな概念については、[この節](steps-about-delivery-creation-steps.md)で説明しています。
 
 新しい配信を作成して開始します。
 

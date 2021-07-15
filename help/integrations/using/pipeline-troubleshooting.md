@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 source-git-commit: 9a126d16b394333163b974ad9690f7c93fb3034a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ JSON 設定を **NmsPipeline_Config** オプションで指定します。この
 
 1. authPrivateKey が設定されていることを確認します。
 1. authPrivateKey が @ から始まり、= で終わり、およそ 4000 文字の長さであることを確認します。
-1. 元のキーを探し、次の値を確認します。RSA形式では、4096ビット長で、`-----BEGIN RSA PRIVATE KEY-----`で始まる。
+1. 元のキーを探して、それが RSA 形式で、長さが 4096 ビット、`-----BEGIN RSA PRIVATE KEY-----` で始まることを確認します。
    <br>必要に応じて、キーを再作成し、Adobe Analytics に登録します。
 1. キーが [!DNL pipelined] と同じインスタンス内でエンコードされたことを確認します。<br>必要に応じて、サンプルの JavaScript またはワークフローを使用してエンコードをやり直します。
 
@@ -52,7 +52,7 @@ JSON 設定を **NmsPipeline_Config** オプションで指定します。この
 1. キーが同じインスタンスで暗号化されていることを確認します。
 1. 設定ファイルの authPrivateKey が生成されたキーと一致することを確認します。<br>必ず OpenSSL を使用してキーペアを生成してください。例えば、PuttyGen では適切な形式が生成されません。
 
-**パイプライン化されたプロセスが失敗し、「is no longer to get access token」（アクセストークンを取得できません）と表示される**
+**pipelined が失敗し、「アクセストークンを取得できません」と表示される**
 
 ログは次のようになります。
 
@@ -65,7 +65,7 @@ JSON 設定を **NmsPipeline_Config** オプションで指定します。この
 2021-05-31T08:43:09.160Z        66462   66501   1       error   log     Error while authenticating: '{"error":"This client: df73c224e5-triggers-test is no longer allowed to get access token."}' (iRc=16384)
 ```
 
-このエラーメッセージは、認証がレガシーOmnitureベースのOAuthを使用して設定されていることを意味します。 認証をアップグレードするには、「 Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md)のAdobe I/Oの設定」ドキュメントを参照してください。[
+このエラーメッセージは、従来の Omniture ベースの OAuth を使用して認証が設定されていることを意味します。認証をアップグレードするには、[Adobe Experience Cloud Triggers の Adobe I/O の設定](../../integrations/using/configuring-adobe-io.md)を参照してください。
 
 **トリガーが取得されない**
 

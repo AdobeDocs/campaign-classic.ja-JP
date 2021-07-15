@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliverability-management
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # 配信品質の監視{#monitoring-deliverability}
 
-以下に、Adobe Campaign に用意されている様々な監視ツールの詳細と、Adobe Campaign 提供の機能を活用したプラットフォームの配信品質の監視に関するその他のガイドラインを示します。
+以下に、Adobe Campaign に用意されている様々な監視ツールの詳細と、Adobe Campaign で提供される機能を活用してプラットフォームの配信品質を監視する方法に関するその他のガイドラインを示します。
 
 ## 配信品質の監視 {#configuration}
 

@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: a-b-testing
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
 ht-degree: 100%
 
 ---
 
-# A/B テストの概要 {#get-started-a-b-testing}
+# A/B テストの基本を学ぶ {#get-started-a-b-testing}
 
 A/B テストを使用すると、複数のバージョンを相互に比較して、ターゲット母集団に最も大きな影響を与える配信を識別できます。
 

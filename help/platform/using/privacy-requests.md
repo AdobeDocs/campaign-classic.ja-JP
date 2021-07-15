@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 source-git-commit: 0a80912aae4cab58b6f06918a673aaca3883fbdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2562'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ Adobe Campaign には、Adobe Campaign に保存されているデータに対�
 
 標準では、E メール、電話、携帯電話の 3 つの名前空間を使用できます。別の名前空間（受信者用のカスタムフィールドなど）が必要な場合、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 名前空間]**&#x200B;で新しく作成することができます。
 
-## プライバシー要求の作成 {#create-privacy-request-ui}
+## プライバシーリクエストの作成 {#create-privacy-request-ui}
 
 **Adobe Campaign インターフェイス**&#x200B;では、プライバシーリクエストを作成し、その推移をトラッキングできます。新しいプライバシーリクエストを作成するには、次の手順に従います。
 

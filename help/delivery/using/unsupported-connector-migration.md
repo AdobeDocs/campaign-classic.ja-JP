@@ -8,13 +8,13 @@ topic-tags: sending-messages-on-mobiles
 hidefromtoc: true
 exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
 ht-degree: 100%
 
 ---
 
-# サポートされていない SMS コネクタの拡張汎用 SMPP コネクタへの移行{#unsupported-connector-migration}
+# サポートされていない SMS コネクタの、拡張された汎用 SMPP コネクタへの移行{#unsupported-connector-migration}
 
 リリース 20.2 の時点で、従来のコネクタは非推奨（廃止予定）となっています。 このドキュメントは、古いシステムでまだ動作中のコネクタを推奨の SMPP コネクタに移行する際に役立ちます。
 

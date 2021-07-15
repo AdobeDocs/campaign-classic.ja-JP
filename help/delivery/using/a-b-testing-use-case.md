@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: ABテストの使用例
+title: A/B テストのユースケース
 description: 専用のユースケースを通して A/B テストを実行する方法を説明します。
 audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

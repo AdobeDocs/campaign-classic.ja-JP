@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: editing-html-content
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
 source-git-commit: cbfaf6a2c187ad62f7b6c9042b69f5e522fcfd02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
 ht-degree: 100%
 
 ---
 
-# Campaign の HTML エディターの基礎知識{#about-campaign-html-editor}
+# Campaign の HTML エディターの基本を学ぶ{#about-campaign-html-editor}
 
 **デジタルコンテンツエディター（DCE）**&#x200B;は、Adobe Campaign 内で HTML 形式のコンテンツやテンプレートを容易に作成できる HTML コンテンツエディターです。
 
@@ -27,7 +27,7 @@ DCE を使用すると、ページ要素の挿入や書式設定、HTML ペー�
 >
 >すべての外部リソースは、HTTPS URL で参照する必要があります。
 
-## デジタルコンテンツエディターの主な使用手順 {#content-editor-general-operation}
+## デジタルコンテンツエディターを使用するための主要な手順 {#content-editor-general-operation}
 
 この節では、DCE でのコンテンツの編集と編集したコンテンツのアップロードの主な手順を、Web アプリケーションや配信デザインのコンテキストで説明します。
 

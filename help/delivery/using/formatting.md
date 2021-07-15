@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: content-management
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1458'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ JavaScript テンプレートは、スキーマやフォームと同様に、名
 **例**：
 
 * **content.@name**：メイン要素の「name」属性の値を取得します。
-* **コンテンツ@`['name']`**: **content.@name** 構文と同一です。
+* **content.@`['name']`**: **content.@name** 構文と同一です。
 * **content.chapter.length**：`<chapter` コレクション要素にある要素数を返します。
 * **content.chapter`[0]`.@name**：最初の `<chapter>` 要素の名前を取得します。
 * **chapter.name()**：`<chapter>` 要素の名前を返します。
@@ -155,7 +155,7 @@ JavaScript テンプレートは、スキーマやフォームと同様に、名
    <%= recipient.@lastName %>
    ```
 
-### JavaScript テンプレートの取り込み {#including-a-javascript-template}
+### JavaScript テンプレートの組み込み {#including-a-javascript-template}
 
 関数または変数のライブラリを構成して、後で使用することができます。そのためには、**eval** 関数を使用して JavaScript テンプレートをインポートします。JavaScript テンプレートをインポートすることにより、他の JavaScript テンプレートで宣言されている追加機能でコンテキストを高度なものにできます。
 
@@ -183,7 +183,7 @@ JavaScript テンプレートは、スキーマやフォームと同様に、名
 >
 >出力ドキュメントをプレビューするために、変更を保存する必要はありません。
 
-### JavaScript テンプレートの作成および使用例 {#example-of-how-to-create-and-use-a-javascript-template}
+### JavaScript テンプレートを作成および使用する方法の例 {#example-of-how-to-create-and-use-a-javascript-template}
 
 JavaScript テンプレートを使用して、次のコンテンツ管理を実施するために必要な設定を次に示します。
 
@@ -476,7 +476,7 @@ XSLT 言語を使用して、XML ドキュメントを出力ドキュメント�
    <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>
    ```
 
-### スタイルシートの取り込み {#including-stylesheets}
+### スタイルシートの組み込み {#including-stylesheets}
 
 テンプレートまたは変数のライブラリを構築して、複数のスタイルシートで共有できます。上述の「longMonth」**テンプレート**&#x200B;は、後で再利用できるように、スタイルシート内の離れた場所にテンプレートを配置する典型的な有効事例です。
 
@@ -564,11 +564,11 @@ HTML 出力ドキュメントに入力する画像は、絶対参照または相
 
 ## 日付の表示 {#date-display}
 
-XML入力ドキュメントでは、日付は内部XML形式で保存されます。**YYYY/MM/DD HH:MM:SS**(例：2018/10/01 12:23:30)
+XML 入力ドキュメントでは、日付は内部 XML 形式 **YYYY/MM/DD HH:MM:SS**（例：2018/10/01 12:23:30）で保存されます。
 
-Adobe Campaign では、以下に詳しく説明するように、JavaScript テンプレートと XSL スタイルシート用の日付の書式設定関数を提供しています。
+Adobe Campaign には、以下に詳しく説明するように、JavaScript テンプレートと XSL スタイルシート用の日付書式設定関数が用意されています。
 
-### JavaScript の日付の書式設定 {#javascript-date-formatting}
+### JavaScript での日付書式設定 {#javascript-date-formatting}
 
 目的のフォーマットで日付を表示するには、**formatDate** 関数を使用します。この関数は、日付のコンテンツと出力フォーマットを指定する文字列（構文は **%4Y/%2M/%2D %2H%2N%2S**）を入力として取得します。
 
@@ -599,7 +599,7 @@ Adobe Campaign では、以下に詳しく説明するように、JavaScript テ
    <%= displayDate(content.@date) %>
    ```
 
-### XSL の日付の書式設定 {#xsl-date-formatting}
+### XSL での日付書式設定 {#xsl-date-formatting}
 
 XSLT 構文に標準の日付管理関数はありません。目的のフォーマットで日付を表示するには、外部関数 **date-format** を使用します。この関数は、日付のコンテンツと出力フォーマットを指定する文字列（構文は **%4Y/%2M/%2D %2H%2N%2S**）を入力として取得します。
 

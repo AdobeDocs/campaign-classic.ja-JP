@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1329'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 
 [!DNL LINE] が Adobe Campaign で設定され、LINE 配信の作成と購読者への送信を開始できます。
 
-## LINE 配信を作成 {#creating-the-delivery}
+## LINE 配信の作成 {#creating-the-delivery}
 
 >[!NOTE]
 >
@@ -147,7 +147,7 @@ ht-degree: 100%
 * [画像とリンク](#configuring-an-image-and-link-delivery)
 * [ビデオメッセージ](#configuring-a-video-message-delivery)
 
-### テキストメッセージの配信の設定 {#configuring-a-text-message-delivery}
+### テキストメッセージ配信の設定 {#configuring-a-text-message-delivery}
 
 >[!NOTE]
 >
@@ -157,9 +157,9 @@ ht-degree: 100%
 
 ![](assets/line_message_02.png)
 
-このタイプのメッセージの設定は、E メールの&#x200B;**[!UICONTROL テキスト]**&#x200B;の設定と類似しています。詳しくは、この[ページ](defining-the-email-content.md#message-content)を参照してください。
+このタイプのメッセージの設定は、E メールの&#x200B;**[!UICONTROL テキスト]**&#x200B;の設定と類似しています。詳しくは、[このページ](defining-the-email-content.md#message-content)を参照してください。
 
-### 画像とリンクの配信の設定 {#configuring-an-image-and-link-delivery}
+### 画像およびリンク配信の設定 {#configuring-an-image-and-link-delivery}
 
 **[!UICONTROL 画像とリンク]**&#x200B;の [!DNL LINE] 配信は、1 つまたは複数の URL を含む可能性のある画像形式で受信者に送信されるメッセージです。
 
@@ -199,7 +199,7 @@ ht-degree: 100%
 
    ![](assets/line_message_05.png)
 
-### ビデオメッセージの配信の設定 {#configuring-a-video-message-delivery}
+### ビデオメッセージ配信の設定 {#configuring-a-video-message-delivery}
 
 **[!UICONTROL ビデオメッセージ]** [!DNL LINE] 配信は、URL を含むビデオの形式で受信者に送信されるメッセージです。
 
@@ -225,9 +225,9 @@ ht-degree: 100%
 
 ![](assets/line_reports.png)
 
-## 例：パーソナライズした LINE メッセージの作成と送信 {#example--create-and-send-a-personalized-line-message}
+## 例：パーソナライズされた LINE メッセージの作成と送信 {#example--create-and-send-a-personalized-line-message}
 
-この例では、受信者に応じてパーソナライズされるデータを含むテキストメッセージと画像を作成して設定します。
+この例では、受信者に応じてパーソナライズされるデータを含んだテキストメッセージと画像を作成して設定します。
 
 1. 「**[!UICONTROL Campaign]**」タブから「**[!UICONTROL 作成]**」ボタンをクリックして [!DNL LINE] 配信を作成します。
 

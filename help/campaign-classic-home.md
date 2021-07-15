@@ -4,25 +4,25 @@ product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 8a0535180640c63201d1a59539eac8c91a53cb8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Campaign Classicv7ドキュメント {#campaign-classic-documentation}
+# Campaign Classic v7 ドキュメント {#campaign-classic-documentation}
 
 ![](platform/using/assets/do-not-localize/banner_acc_doc.jpg)
 
-## 新着情報
+## 新機能
 
 * **[6 月リリースを公開](rn/using/latest-release.md)**<br/> 新機能、改善点、修正点をリリースノートでご確認ください
 
-* **[Apple のメールプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ja)**<br/> iOS 15 に関する Apple の発表に対応した最初のガイダンスを確認します。
+* **[Apple Mail のプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ja)**<br/> iOS 15 に関する Apple の発表に対応した最初のガイダンスです。
 
 * **[IMS／Adobe ID で接続している場合は、最新ビルドへのアップグレードが必要 ](technotes/ims-updates.md)**<br/>IMS で Campaign に接続している場合、** 2021 年 6 月 30 日（PT）**以降も、Campaign に接続できるようにするにはアップグレードが必要です
 
-* **[誤ったハードバウンスの削除](delivery/using/update-bounce-qualification.md)**<br/> Apple サービス停止が発生した後に、誤ったハードバウンスを更新する方法を説明します
+* **[誤ったハードバウンスの削除](delivery/using/update-bounce-qualification.md)**<br/> Apple のサービスが停止した後に誤ったハードバウンスを更新する方法を説明します
 
 * **[Campaign インスタンスのセキュリティ保護](technotes/acc-config-updates.md)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します
 
@@ -80,7 +80,7 @@ ht-degree: 96%
 
 | 便利なページ | 開発者向けリソース |
 |---|---|
-| [リリースノート](/help/rn/using/latest-release.md) | [エラーメッセージのリスト](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
+| [リリースノート](/help/rn/using/latest-release.md) | [エラーメッセージのリスト](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja) |
 | [ビデオガイド、チュートリアル](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
 | [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [[!DNL Gold Standard] アップグレード](rn/using/gs-overview.md) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |

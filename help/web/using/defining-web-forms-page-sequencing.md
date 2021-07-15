@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
 ht-degree: 100%
 
@@ -75,9 +75,9 @@ ht-degree: 100%
 
 フォームの別のページへのリンクを挿入できます。これをおこなうには、**[!UICONTROL リンク]**&#x200B;タイプの静的要素をページに追加します。詳しくは、[リンクの挿入](static-elements-in-a-web-form.md#inserting-a-link)を参照してください。
 
-## 条件付きページ表示 {#conditional-page-display}
+## ページの条件付き表示 {#conditional-page-display}
 
-### 回答に基づいて表示 {#display-based-on-responses}
+### 回答に応じた表示 {#display-based-on-responses}
 
 **[!UICONTROL テスト]**&#x200B;ボックスを使用すると、フォームのページの順番に条件を設定できます。テスト結果に応じた様々な分岐線を定義できますこれにより、ユーザーが提供する回答に応じて異なるページを表示できます。
 
@@ -105,13 +105,13 @@ ht-degree: 100%
 
 ![](assets/s_ncs_admin_survey_test_ex3.png)
 
-### パラメーターに基づいて表示 {#display-based-on-parameters}
+### パラメーターに応じた表示 {#display-based-on-parameters}
 
 また、Web フォームの初期化パラメーターに応じて、またはデータベースに格納された値に応じて、ページの順番をパーソナライズできます。[フォーム URL パラメーター](defining-web-forms-properties.md#form-url-parameters)を参照してください。
 
 ## スクリプトの追加 {#adding-scripts}
 
-**[!UICONTROL スクリプト]**&#x200B;オブジェクトを使用すると、JavaScript のスクリプトを直接入力して、例えば、フィールドの値を修正したり、データベースからデータを取得したり、Adobe Campaign API を呼び出したりすることができます。
+**[!UICONTROL スクリプト]**&#x200B;オブジェクトを使用すると、JavaScript のスクリプトを直接入力し、例えばフィールドの値を修正したり、データベースからデータを取得したり、Adobe Campaign API を呼び出したりすることができます。
 
 ## 終了ページのパーソナライズ {#personalizing-the-end-page}
 

@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Campaign では、キャンペーンライフサイクルに関連する�
 
 Adobe Campaign では、管理するマーケティングリソースそれぞれのステータスと履歴をいつでもトラッキングし、最新のバージョンを確認できます。
 
-## ターゲティングディメンションの追加 {#adding-a-marketing-resource}
+## マーケティングリソースの追加 {#adding-a-marketing-resource}
 
 マーケティングリソースには「**[!UICONTROL キャンペーン]**」タブからアクセスします。
 
@@ -128,7 +128,7 @@ Adobe Campaign では、管理するマーケティングリソースそれぞ�
 >
 >各マーケティングリソースのレビュー担当者に加え、管理者権限を持つオペレーターとリソースマネージャーも、マーケティングリソースを承認できます。
 
-### リソースのパブリッシュ {#publishing-a-resource}
+### リソースの公開 {#publishing-a-resource}
 
 マーケティングリソースを承認したら、パブリッシュする必要があります。パブリッシュプロセスは、企業の要件に応じて実装ごとに異なります。例えば、リソースをエクストラネット上またはその他のサーバー上にパブリッシュできる場合もあれば、特定の情報を外部のサービスプロバイダーに送信できる場合もあります。
 

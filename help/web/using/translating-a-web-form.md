@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
 ht-degree: 100%
 
@@ -410,7 +410,7 @@ URL の言語の前に他のパラメーターがある場合。例：**https://
 >
 >デフォルトで提供されている以外の言語を追加するには、[翻訳言語の追加](#adding-a-translation-language)を参照してください。
 
-## 例：いくつかの言語での Web アプリケーションの表示 {#example--displaying-a-web-application-in-several-languages}
+## 例：複数の言語での Web アプリケーションの表示 {#example--displaying-a-web-application-in-several-languages}
 
 次の Web フォームは、英語、フランス語、ドイツ語、スペイン語の 4 つの言語で使用できます。文字列は、すべて Web フォームの「**[!UICONTROL 翻訳]**」タブで翻訳されています。デフォルト言語が英語なので、調査がパブリッシュされる際には、英語で表示するための標準 URL が使用されます。
 
@@ -435,7 +435,7 @@ URL の言語の前に他のパラメーターがある場合。例：**https://
 
 >[!CAUTION]
 >
->このセクションはエキスパートユーザー専用です。
+>このセクションはエキスパートユーザーのみを対象にしています。
 
 ### システム文字列の翻訳 {#translating-the-system-strings}
 

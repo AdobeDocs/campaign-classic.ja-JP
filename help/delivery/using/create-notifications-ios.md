@@ -1,27 +1,27 @@
 ---
 product: campaign
-title: iOSデバイス用のプッシュ通知の作成
-description: iOS用のプッシュ通知の作成方法を説明します。
+title: iOS デバイス用のプッシュ通知の作成
+description: iOS 用のプッシュ通知を作成する方法を説明します
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# iOS用通知の作成{#create-notifications-ios}
+# iOS 用通知の作成{#create-notifications-ios}
 
-この節では、iOS通知の配信に関する要素について説明します。 配信の作成に関するグローバルな概念については、[この節](steps-about-delivery-creation-steps.md)で説明しています。
+ここでは、iOS 用通知の配信に固有の要素について説明します。配信の作成に関するグローバルな概念については、[この節](steps-about-delivery-creation-steps.md)で説明しています。
 
 新しい配信を作成して開始します。
 
 ![](assets/nmac_delivery_1.png)
 
-iOSデバイス用にプッシュ通知を作成するには、次の手順に従います。
+iOS デバイス用のプッシュ通知を作成するには、次の手順に従います。
 
 1. 「**[!UICONTROL iOS 配信]**」配信テンプレートを選択します。
 
@@ -76,7 +76,7 @@ iOSデバイス用にプッシュ通知を作成するには、次の手順に�
 
    >[!NOTE]
    >
-   >アプリケーション変数は、モバイルアプリケーションのコードで定義され、サービスの作成中に入力される必要があります。詳細については、[このセクション](configuring-the-mobile-application.md)を参照してください。
+   >アプリケーション変数は、モバイルアプリケーションのコードで定義され、サービスの作成中に入力される必要があります。詳細については、[この節](configuring-the-mobile-application.md)を参照してください。
 
 1. 通知を設定したら、「**[!UICONTROL プレビュー]**」タブをクリックして通知をプレビューします。
 
@@ -97,7 +97,7 @@ iOSデバイス用にプッシュ通知を作成するには、次の手順に�
 * [配信エラーについて](understanding-delivery-failures.md)
 
 
-## iOSのリッチ通知の作成 {#creating-ios-delivery}
+## iOS 用のリッチ通知の作成 {#creating-ios-delivery}
 
 iOS 10 以降では、リッチ通知を生成することができます。Adobe Campaign では、変数を使用して通知を送信し、デバイスでリッチ通知を表示できます。
 

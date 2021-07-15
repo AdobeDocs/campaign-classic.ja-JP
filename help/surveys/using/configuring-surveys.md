@@ -7,19 +7,19 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # オンライン調査の設定{#configuring-surveys}
 
-## 調査のプロパティ。 {#survey-properties}
+## 調査のプロパティ {#survey-properties}
 
 オンライン調査では、独自の要件を満たすため、自由に設定やカスタマイズをおこなうことができます。パラメーターは、プロパティウィンドウで入力する必要があります。
 
-使用可能なパラメーターについては、[このドキュメント](../../web/using/defining-web-forms-properties.md)で詳しく説明しています。
+使用可能なパラメーターについて詳しくは、[このドキュメント](../../web/using/defining-web-forms-properties.md)を参照してください。
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 

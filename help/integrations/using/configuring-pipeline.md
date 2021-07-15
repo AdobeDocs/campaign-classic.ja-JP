@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: cf102a5e669ffe136e6ec2429343725ec6c3722e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 この設定を開始する前に、次を使用していることを確認してください。
 
-* 最低でも、次のAdobe Campaignビルドの1つ：
+* 次のいずれかの Adobe Campaign ビルド以上
    * 19.1.8.9039
    * 19.1.4.9032.GS.11
    * 20.2.4.9187
@@ -46,7 +46,7 @@ ht-degree: 99%
 公開鍵と秘密鍵のペアが使用されます。このプロセスは、ユーザー／パスワードと同じ機能ですが、より安全になっています。
 認証は、Adobe I/O プロジェクトを介した Marketing Cloud に対してサポートされます。
 
-## 手順 1：Adobe I/O プロジェクトの作成とアップデート {#creating-adobe-io-project}
+## 手順 1：Adobe I/O プロジェクトの作成と更新 {#creating-adobe-io-project}
 
 ホスト型の顧客は、カスタマーサポートチケットを作成し、Triggers 統合用の Adobe I/O テクニカルアカウントトークンを使用して、組織を有効にすることができます。
 
@@ -110,7 +110,7 @@ ht-degree: 99%
 
 パイプラインサービスは、各コンシューマーが取得したメッセージを追跡します。異なるインスタンスに異なるコンシューマーを使用すると、すべてのメッセージを各インスタンスに送信するようにできます。
 
-### パイプラインオプションの推奨 {#pipeline-option-recommendation}
+### パイプラインオプションの推奨事項 {#pipeline-option-recommendation}
 
 パイプラインオプションを設定するには、次の推奨事項に従う必要があります。
 

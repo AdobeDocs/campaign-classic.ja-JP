@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: targeting-activities
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 source-git-commit: e3e2ac09de6a9e846e9f9262d522b9395a725648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 | 日付 | 名 | 姓 | 電子メール | 携帯電話 | 電話 |
 -----|------------|-----------|-------|--------------|------
 | 2020/05/19 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
-| 2020/07/22 | ボビー | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
+| 2020/07/22 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
 ## ベストプラクティス {#best-practices}
 
@@ -64,6 +64,7 @@ ht-degree: 100%
    >[!NOTE]
    >
    >外部ファイルなどの外部データを入力として使用する場合は、必ず「**[!UICONTROL 一時スキーマ]**」オプションを選択してください。
+
    >
    >次の手順で、「**[!UICONTROL その他]**」オプションで使用される基準または条件を選択できます。
 
@@ -133,7 +134,7 @@ ht-degree: 100%
 
 ワークフローを実行した場合、重複が検出されたすべての受信者は結果から除外され（結果的に配信からも除外される）、重複リストに追加されます。このリストを再利用することで、重複を再度検出しなくてもすみます。
 
-## フィールドを単一のデータレコードに結合する {#merging-fields-into-single-record}
+## フィールドの結合による単一データレコードの作成 {#merging-fields-into-single-record}
 
 **[!UICONTROL 結合]**&#x200B;機能を使用すると、重複排除 - 重複の一連のルールを設定して、単一の結果データレコードに結合するフィールドまたはフィールドのグループを定義できます。
 
@@ -169,7 +170,7 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* スキーマ
+* schema
 * recCount
 
 この 3 つの値セットは、重複排除によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を保存するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

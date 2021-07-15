@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '887'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Adobe Campaign の機能は、次の規則の遵守に役立ちます。
 >
 >個人データおよびデータを管理する様々なエンティティ（データ管理者、データ処理者、データ主体）について詳しくは、[個人データとペルソナ](../../platform/using/privacy-and-recommendations.md#personal-data)を参照してください。
 
-## アクセスする権限と忘れられる権利 {#right-access-forgotten}
+## アクセス権と忘れられる権利 {#right-access-forgotten}
 
 プライバシーの準備を容易にするために、Adobe Campaign では&#x200B;**アクセス**&#x200B;要求と&#x200B;**削除**&#x200B;要求の処理が可能になりました。
 

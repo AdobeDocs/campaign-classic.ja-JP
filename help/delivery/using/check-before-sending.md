@@ -6,13 +6,13 @@ content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
 ht-degree: 100%
 
 ---
 
-# 送信前にすべてのチェックを実行する {#perform-all-checks}
+# 送信前の全チェックの実行 {#perform-all-checks}
 
 メッセージを用意できたら、そのコンテンツがすべてのデバイス上で正しく表示されることを確認します。また、パーソナライゼーションの誤りや壊れたリンクなどのエラーがないことも確認します。
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 配信を検証する手順については、[この節](steps-validating-the-delivery.md)を参照してください。
 
-## 受信ボックスのレンダリング {#inbox-and-email-rendering}
+## 受信ボックスレンダリング {#inbox-and-email-rendering}
 
 受信ボックスレンダリングを使用すると、主な E メールクライアントでメッセージをプレビューし、コンテンツとレピュテーションをスキャンし、受信者がどのようにメッセージを読むかを確認できます。
 
@@ -56,7 +56,7 @@ E メール配信で使用するコンテンツがいくつかある場合は、
 
 詳しくは、[この節](get-started-a-b-testing.md)を参照してください。
 
-## メッセージを確実に配信する {#make-sure-your-message-is-delivered}
+## メッセージの確実な配信 {#make-sure-your-message-is-delivered}
 
 最後の手順です。メッセージが実際に関連性の高い受信者に配信されるように Adobe Campaign Classic の機能を最大限に活用します。
 

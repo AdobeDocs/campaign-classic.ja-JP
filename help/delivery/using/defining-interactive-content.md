@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 source-git-commit: 94e609f3df94c553e2ec84ee427887a767b9af21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1588'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ AMP E メールのテストと送信について詳しくは、[AMP E メール�
 
 >[!NOTE]
 >
-> ハイブリッドおよびホストアーキテクチャの場合、パッケージは、[ミッドソーシングサーバー](../../installation/using/mid-sourcing-server.md)と[実行インスタンス](../../message-center/using/configuring-instances.md#execution-instance)を含むすべてのサーバーにインストールする必要があります。
+> ハイブリッドアーキテクチャとホストアーキテクチャの場合、パッケージは、[ミッドソーシングサーバー](../../installation/using/mid-sourcing-server.md)と[実行インスタンス](../../message-center/using/configuring-instances.md#execution-instance)を含むすべてのサーバーにインストールする必要があります。
 
 
 ## AMP for Email について {#about-amp-for-email}
@@ -45,9 +45,9 @@ AMP for Email のフォーマット、仕様および要件について詳しく
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#amp-email-video)
 
-## Adobe Campaign で AMP for Email を使用するための重要な手順 {#key-steps-to-use-amp}
+## Adobe Campaign で AMP for Email を使用するための主要な手順 {#key-steps-to-use-amp}
 
-Adobe Campaign で AMP E メールを正常にテストして送信するには、以下の手順に従います。
+Adobe Campaign で AMP E メールを正常にテストして送信するには、次の手順に従います。
 1. **[!UICONTROL AMP サポート]**&#x200B;パッケージをインストールします。[Campaign 組み込みパッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 1. Adobe Campaign 内で E メールを作成し、AMP コンテンツを作成します。[Adobe Campaign での AMP E メールコンテンツの作成](#build-amp-email-content)を参照してください。
 1. AMP フォーマットをサポートする E メールプロバイダーからのすべての配信要件に従っていることを確認します。[AMP for Email の配信要件](#amp-for-email-delivery-requirements)を参照してください。
@@ -129,7 +129,7 @@ AMP フォーマットを使用して E メールを作成するには、以下�
 
 ## AMP for Email の配信要件 {#amp-for-email-delivery-requirements}
 
-Adobe Campaign で AMP コンテンツを作成する場合、（受信者の E メールプロバイダー特有の）動的な E メールの配信条件を満たす必要があります。
+Adobe Campaign で AMP コンテンツを作成する場合は、動的な E メールの配信条件を満たす必要があります。これは、受信者のメールプロバイダーに固有の条件です。
 
 現在、この形式のテストをサポートしている E メールプロバイダーは Gmail、Outlook、Mail.ru の 3 つです。
 
@@ -148,9 +148,9 @@ Gmail アカウントに対して AMP フォーマットで配信をテストす
 
 1. Adobe Campaign では、適切に設定された E メールアドレスに対して AMP を利用した動的な E メールを配信し、その内容と動作を検証できます。[選択したアドレスに対する AMP E メール配信のテスト](#testing-amp-delivery-for-selected-addresses)を参照してください。
 
-1. テストが完了すると、該当する E メールプロバイダーに登録して、送信者ドメインを許可リストに登録することで、AMP for Email プログラムの一環として配信またはキャンペーンを送信できます。[E メールロバイダーへの登録と AMP E メールの配信](#delivering-amp-emails-by-registering)を参照してください。
+1. テストが完了すると、該当する E メールプロバイダーに登録して、送信者ドメインを許可リストに登録することで、AMP for Email プログラムの一環として配信またはキャンペーンを送信できます。[メールプロバイダーへの登録による AMP E メールの配信](#delivering-amp-emails-by-registering)を参照してください。
 
-### 選択したアドレスに対する AMP E メール配信のテスト {#testing-amp-delivery-for-selected-addresses}
+### 選択したアドレスへの AMP E メール配信のテスト {#testing-amp-delivery-for-selected-addresses}
 
 Adobe Campaign から選択した E メールアドレスへの動的なメッセージの送信をテストできます。
 
@@ -170,7 +170,7 @@ Gmail および Outlook の場合、まずはターゲットとする Gmail お�
 
 Mail.ru アドレスへの AMP E メールの送信をテストするには、[Mail.ru 開発者向けドキュメント](https://postmaster.mail.ru/amp/?lang=en#howto)（**ユーザーの場合**&#x200B;の節）の手順に従います。
 
-### E メールロバイダーへの登録と AMP E メールの配信 {#delivering-amp-emails-by-registering}
+### メールプロバイダーへの登録による AMP E メールの配信 {#delivering-amp-emails-by-registering}
 
 送信者ドメインを許可リストに追加するために、サポート対象の E メールプロバイダーに登録して、動的な E メールの配信を試すことができます。
 

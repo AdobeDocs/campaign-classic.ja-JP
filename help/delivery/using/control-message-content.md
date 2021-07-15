@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliverability-management
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ E メールが受信者に確実に届くようにし、E メールの配信品�
 >
 >E メールコンテンツの編集について詳しくは、[E メールコンテンツの定義](defining-the-email-content.md)と[パーソナライズされたコンテンツの作成](design-and-personalize.md)を参照してください。
 
-## 送信者のアドレス {#sender-address}
+## 送信者アドレス {#sender-address}
 
 一部の ISP は、メッセージを受け付ける前に、送信者アドレス（**[!UICONTROL From]**）の有効性をチェックします。不正な形式のアドレスは、受信サーバーによって拒否される可能性があります。
 
@@ -61,7 +61,7 @@ Adobe Campaign でのパーソナライゼーションフィールドの使用�
 
 追加の確認のリクエストは信頼できません。ユーザーが 2 つの E メールアドレスを同じボックスにリダイレクトさせている可能性があります（firstname.lastname@club.com と firstname.lastname@internet-club.com など）。受信者が最初のアドレスのみを覚えていて、もう 1 つのアドレスに送信されたメッセージを使用して購読解除する場合、暗号化された識別子と入力された E メールアドレスが一致しないので、フォームはこれを拒否します。
 
-## 受信ボックスのレンダリング {#message-responsiveness}
+## 受信ボックスレンダリング {#message-responsiveness}
 
 メッセージを送信する前に、メッセージが様々なデバイスでどのように表示されるかを確認して、メッセージの応答性をテストできます。 これは、各種の web クライアント、web メール、デバイスでメッセージの表示が確実に最適化されるようにするためです。
 

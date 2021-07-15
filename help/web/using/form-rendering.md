@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
 ht-degree: 100%
 
@@ -118,7 +118,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_admin_survey_required_custom_msg2.png)
 
-### データ形式のチェック {#checking-data-format}
+### データ形式の確認 {#checking-data-format}
 
 その値がデータベースの既存のフィールドに格納されるフォームのチェックの場合、ストレージフィールドのルールが適用されます。
 
@@ -158,7 +158,7 @@ ht-degree: 100%
 
 また、**[!UICONTROL テスト]**&#x200B;オブジェクトを使用するフォームページの表示に条件を設定することもできます。詳しくは、この[ページ](defining-web-forms-page-sequencing.md#conditional-page-display)を参照してください。
 
-## 既存のフォームからの要素のインポート {#importing-elements-from-an-existing-form}
+## 既存フォームからの要素のインポート {#importing-elements-from-an-existing-form}
 
 他の Web フォームからフィールドまたはコンテナをインポートできます。これにより、アドレスブロック、ニュースレターの購読エリアなど、フォームに挿入される再利用可能なブロックのライブラリを作成できます。
 

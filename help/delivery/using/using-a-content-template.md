@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: content-management
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 コンテンツインスタンスの作成にも使用できます。コンテンツインスタンスを作成したら、いつでも配信（[コンテンツインスタンスの配信](#delivering-a-content-instance)を参照）またはエクスポート（[コンテンツインスタンスの作成](#creating-a-content-instance)を参照）できます。
 
-## コンテンツ管理からの配信の作成 {#creating-a-delivery-via-content-management}
+## コンテンツ管理による配信の作成 {#creating-a-delivery-via-content-management}
 
 配信内のコンテンツテンプレートの入力フィールドを使用してコンテンツを作成することができます。配信コンテンツを定義するためのタブが配信ウィザードに追加されます。
 

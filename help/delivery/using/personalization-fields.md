@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->パーソナライゼーションフィールドのコンテンツは、1024 文字以内である必要があります。
+>パーソナライゼーションフィールドのコンテンツは、1024 文字以内にする必要があります。
 
 ## データソース {#data-sources}
 

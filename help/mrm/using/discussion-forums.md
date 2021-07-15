@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: ディスカッションフォーラム
-description: Campaignディスカッションフォーラムの使用方法を説明します
+description: Campaign ディスカッションフォーラムの利用方法を説明します
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign のオペレーターは、ディスカッションフォーラ�
 
 ![](assets/mrm_forum_access_link.png)
 
-## フォーラムの使用 {#using-a-forum}
+## フォーラムの利用 {#using-a-forum}
 
 メッセージとメッセージへの回答は、時間順（新しい順）に表示されます。
 
@@ -47,7 +47,7 @@ Adobe Campaign のオペレーターは、ディスカッションフォーラ�
 
 メッセージに返信すると、元のメッセージの投稿者に通知が届きます。
 
-**メッセージを書く**
+**メッセージの作成**
 
 「**[!UICONTROL ディスカッションフォーラム]**」ボックスで以下の手順に従います。
 
@@ -66,7 +66,7 @@ Adobe Campaign のオペレーターは、ディスカッションフォーラ�
 >
 >一度フォーラムに投稿すると、メッセージの変更や削除はできません。
 
-## オペレーターの個人用フォーラムに投稿 {#posting-to-the-personal-forum-of-an-operator}
+## オペレーターの個人用フォーラムへの投稿 {#posting-to-the-personal-forum-of-an-operator}
 
 オペレーターのフォーラムへのメッセージの投稿は、例えば、特定のキャンペーンに関係するメッセージを投稿しなくても、Adobe Campaign での会話を把握したい場合に便利です。個人用フォーラムは公開されているので、投稿するメッセージはすべてのオペレーターに表示されます。個人用フォーラムに投稿があるたびに、そのオペレーターにメッセージが届きます。
 

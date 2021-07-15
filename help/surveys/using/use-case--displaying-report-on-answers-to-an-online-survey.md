@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 >
 >このユースケースは、**調査マネージャー**&#x200B;オプションを入手した場合にのみ、実行できます。使用許諾契約書を確認してください。
 
-## 手順 1 - データ収集および格納ワークフローの作成 {#step-1---creating-the-data-collection-and-storage-workflow}
+## 手順 1 - データ収集およびストレージワークフローの作成 {#step-1---creating-the-data-collection-and-storage-workflow}
 
 調査への回答を収集するには、次の手順に従います。
 

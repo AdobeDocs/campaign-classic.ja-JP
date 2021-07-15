@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-applications
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_configuration_webapp_preview.png)
 
-## フォルダーのフィルターの追加 {#adding-a-filter-on-a-folder}
+## フォルダーに関するフィルターの追加 {#adding-a-filter-on-a-folder}
 
 概要では、Adobe Campaign ツリーでの場所に応じてデータにアクセスすることを選択できます。これが、フォルダーのフィルターです。フォルダーのフィルターを概要に追加するには、次の手順に従います。
 
@@ -158,7 +158,7 @@ ht-degree: 100%
 >
 >JavaScript ライブラリは、サーバー上で更新するのに 5 分かかります。サーバーを再起動して、この遅延を待機するのを回避できます。
 
-## リストのフィルターと更新 {#filtering-and-updating-the-list}
+## リストのフィルタリングと更新 {#filtering-and-updating-the-list}
 
 ここでは、特定のオペレーターによって作成された Web アプリケーションの概要を表示するフィルターを作成します。このフィルターは、リンクエディターで作成されます。オペレーターを選択したら、リストを更新してフィルターを適用します。これには、更新リンクを作成する必要があります。
 

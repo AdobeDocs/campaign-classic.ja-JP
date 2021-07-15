@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1994'
 ht-degree: 100%
 
@@ -137,7 +137,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
 ![](assets/s_ncs_user_supplier_cost_structure_calc_04.png)
 
-### サービスに関連付けられたジョブの設定 {#configuring-processes-associated-with-a-service}
+### サービスに関連付けられたプロセスの設定 {#configuring-processes-associated-with-a-service}
 
 「**[!UICONTROL ジョブ]**」タブで、サービスに関連付けられたジョブに関する情報を関連付けることができます。
 
@@ -204,7 +204,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
 ### 在庫管理 {#stock-management}
 
-Adobe Campaign では、在庫が不足した場合または最小しきい値に達した場合にオペレーターのグループに警告できます。在庫レベルには、ナビゲーション領域の「 **[!UICONTROL その他の選択肢]**」リンクを介して、「**[!UICONTROL キャンペーン]**」タブの「**[!UICONTROL 在庫]**」リンクからアクセスできます。
+Adobe Campaign では、在庫がなくなった場合または最小しきい値に達した場合、オペレーターのグループに警告できます。在庫レベルには、ナビゲーション領域の「 **[!UICONTROL その他の選択肢]**」リンクを介して、「**[!UICONTROL キャンペーン]**」タブの「**[!UICONTROL 在庫]**」リンクからアクセスできます。
 
 ![](assets/s_ncs_user_stocks_view.png)
 
@@ -243,7 +243,7 @@ Adobe Campaign では、在庫が不足した場合または最小しきい値�
 
 #### 在庫とコストカテゴリの関連付け {#associating-a-stock-with-cost-categories}
 
-次のように、指定したサービスプロバイダーの在庫品目を、いずれかのコストカテゴリに紐付けることができます。
+サービスプロバイダーが指定された場合、サービスでは、次のように、在庫品目をコストカテゴリの 1 つで参照できます。
 
 ![](assets/s_ncs_user_stocks_select_from_supplier.png)
 

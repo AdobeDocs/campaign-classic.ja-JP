@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: editing-html-content
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ Web アプリケーションに挿入された各ページについて、これ�
 
 ![](assets/dce_uc1_lp_enchainement.png)
 
-### コンテンツの修正 {#modifying-content}
+### コンテンツの変更 {#modifying-content}
 
 最初に、ページの色を変更します。手順は次のとおりです。
 
@@ -153,7 +153,7 @@ Web アプリケーションに挿入された各ページについて、これ�
 
 ![](assets/dce_uc1_edit_champperso.png)
 
-## 手順 3 - コンテンツのパブリッシュ {#step-3---publishing-content}
+## 手順 3 - コンテンツの公開 {#step-3---publishing-content}
 
 コンテンツは、Web アプリケーションダッシュボードからパブリッシュされます。「**[!UICONTROL パブリッシュ]**」ボタンをクリックして、実行します。
 

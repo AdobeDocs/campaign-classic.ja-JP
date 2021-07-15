@@ -1,16 +1,16 @@
 ---
 audience: end-user
-breadcrumb-title: Campaign Classicv7ドキュメント
+breadcrumb-title: Campaign Classic v7 ドキュメント
 product: campaign
 title: Campaign Classic v7 ガイド
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
-user-guide-description: Adobe Campaignでは、豊富な顧客データを使用して、Eメール、モバイル、オフラインなど、顧客が実際に求める動的なキャンペーンを作成、調整、配信できます。
+user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: Adobe Campaign Classic
 type: Documentation
 source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2518'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ ht-degree: 97%
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
    + [互換性マトリックス](rn/using/compatibility-matrix.md)
    + [テクニカルノート](technotes/technote.md)
-   + [Adobe Analyticsコネクタに関するFAQ](technotes/aa-connector-migration.md)
+   + [Adobe Analytics Connector の FAQ](technotes/aa-connector-migration.md)
    + [iOS 証明書の更新](technotes/ios-certificate-update.md)
    + [Campaign 設定の更新](technotes/acc-config-updates.md)
    + [トラッキング対象 URL の更新](technotes/tracked-urls.md)
-   + [IMSの更新](technotes/ims-updates.md)
+   + [IMS の更新](technotes/ims-updates.md)
 + はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic の概要](platform/using/about-adobe-campaign-classic.md)
@@ -164,8 +164,8 @@ ht-degree: 97%
          + [iOS の設定手順](delivery/using/configuring-the-mobile-application.md)
          + [Android の設定手順](delivery/using/configuring-the-mobile-application-android.md)
       + プッシュ通知の作成{#create-a-push-msg}
-         + [iOS用プッシュメッセージの作成](delivery/using/create-notifications-ios.md)
-         + [Android用プッシュメッセージの作成](delivery/using/create-notifications-android.md)
+         + [iOS 用プッシュメッセージの作成](delivery/using/create-notifications-ios.md)
+         + [Android 用プッシュメッセージの作成](delivery/using/create-notifications-android.md)
       + [トラブルシューティング](delivery/using/troubleshooting.md)
    + ダイレクトメールの送信 {#sending-direct-mail}
       + [ダイレクトメールチャネルについて](delivery/using/about-direct-mail-channel.md)
@@ -356,7 +356,7 @@ ht-degree: 97%
       + [web フォームプロパティの定義](web/using/defining-web-forms-properties.md)
       + [web フォームの翻訳](web/using/translating-a-web-form.md)
       + [ユースケース：web フォーム](web/using/use-cases--web-forms.md)
-+ オンライン調査の作成{#online-surveys}
++ オンライン調査の作成 {#online-surveys}
    + [調査の基本を学ぶ](surveys/using/about-surveys.md)
    + [調査を作成するための主な手順](surveys/using/getting-started-with-surveys.md)
    + [調査の設計](surveys/using/building-a-survey.md)
@@ -364,7 +364,7 @@ ht-degree: 97%
    + [収集したデータの公開、トラッキングおよび使用](surveys/using/publish--track-and-use-collected-data.md)
    + [調査の設定](surveys/using/configuring-surveys.md)
    + [ユースケース：リファラルフォームの作成](surveys/using/use-case--creating-a-refer-a-friend-form.md)
-   + [ユースケース：オンラインサーベイへの回答に関するレポートの表示](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
+   + [ユースケース：オンライン調査への回答に関するレポートの表示](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
 + Adobe Experience Cloud との統合 {#integrating-with-adobe-experience-cloud}
    + [Campaign 統合について](integrations/using/about-campaign-integrations.md)
    + オーディエンスの共有 {#audience-sharing}

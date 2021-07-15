@@ -6,7 +6,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 配信テンプレートについて詳しくは、[この節](creating-a-delivery-template.md)を参照してください。
 
-## 配信テンプレートの概要 {#gs-templates}
+## 配信テンプレートの基本を学ぶ {#gs-templates}
 
 [配信テンプレート](creating-a-delivery-template.md)を使用すると、一連の技術的および機能的プロパティをニーズに合わせて事前に定義しておき、それらのプロパティを以降の配信で再利用することができます。これにより、作業時間を短縮でき、必要に応じて配信を標準化できます。
 

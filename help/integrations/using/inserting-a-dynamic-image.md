@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 99%
 1. [エクスペリエンスのターゲット設定アクティビティの作成](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
 1. [電子メールのプレビューと送信](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
-## 電子メールへの動的なオファーの挿入 {#inserting-dynamic-offer}
+## E メールへの動的なオファーの挿入 {#inserting-dynamic-offer}
 
 Adobe Campaign で E メールのターゲットとコンテンツを定義したら、Target から動的イメージを挿入することができます。
 
@@ -78,7 +78,7 @@ Target では、オファーのバージョンを複数作成できます。各�
 
    ![](assets/target_6.png)
 
-1. 残りのリダイレクトオファーについても同じ手順を繰り返します。詳しくは、この[ページ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html)を参照してください。
+1. 残りのリダイレクトオファーについても同じ手順を繰り返します。詳しくは、この[ページ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ja)を参照してください。
 
 ## オーディエンスの作成 {#audiences-target}
 
@@ -96,9 +96,9 @@ Target で、2 つのオーディエンスを作成し、オファーに訪問�
 
 1. 残りのオーディエンスについても同じ手順を繰り返します。
 
-## エクスペリエンスのターゲット設定アクティビティの作成 {#creating-targeting-activity}
+## 「エクスペリエンスのターゲット設定」アクティビティの作成 {#creating-targeting-activity}
 
-Target で、エクスペリエンスのターゲット設定アクティビティを作成し、異なるエクスペリエンスを定義して、対応するオファーに関連付けます。
+Target で、「エクスペリエンスのターゲット設定」アクティビティを作成し、様々なエクスペリエンスを定義して、それらを対応するオファーに関連付けます。
 
 ### オーディエンスの定義 {#defining-the-audience}
 

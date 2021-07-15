@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
 ht-degree: 100%
 
 ---
 
-# 配信の送信に関わるトラブルシューティング {#delivery-troubleshooting}
+# 配信の送信に関するトラブルシューティング {#delivery-troubleshooting}
 
 この節では、配信を送信する際に発生する可能性のある一般的な問題と、そのトラブルシューティング方法についてリストします。
 

@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: 収集したデータの公開、トラッキングおよび使用
-description: 調査で収集されたデータをパブリッシュ、トラッキング、使用する方法を説明します
+description: 調査で収集されたデータを公開、トラッキング、使用する方法を説明します
 audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '877'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 
 各調査には、ステータス、説明、パブリック URL および利用スケジュールを表示できる独自のダッシュボードがあります。また、利用可能なレポートを表示できます。[詳細情報](#reports-on-surveys)。
 
-調査のパブリック URL は、ダッシュボードに表示されます。
+調査の公開 URL は、ダッシュボードに表示されます。
 
 ![](assets/survey_public_url.png)
 
@@ -111,7 +111,7 @@ URL パラメーターについて詳しくは、[このページ](../../web/usi
    >
    >データのエクスポートおよびその設定のステージについて詳しくは、[この節](../../platform/using/about-generic-imports-exports.md)を参照してください。
 
-## 収集されたデータの使用 {#using-the-collected-data}
+## 収集したデータの使用 {#using-the-collected-data}
 
 オンライン調査で収集された情報は、ターゲティングワークフローのフレームワーク内で復元できます。これをおこなうには、**[!UICONTROL 調査の回答]**&#x200B;ボックスを使用します。
 
@@ -161,4 +161,4 @@ URL パラメーターについて詳しくは、[このページ](../../web/usi
 
 ## データの標準化 {#standardizing-data}
 
-エイリアスを使用して収集したデータに対して、Adobe Campaign で、標準化プロセスを設定できます。これにより、データベースに格納されたデータを標準化できます。これをおこなうには、関連情報を含む定義済みリストでエイリアスを定義します。[詳細情報](../../platform/using/managing-enumerations.md#about-enumerations)
+エイリアスを使用して収集したデータに対して、Adobe Campaign で標準化プロセスを設定できます。これにより、データベースに保存されているデータを標準化できます。それには、関連情報を含んだ項目別リストでエイリアスを定義します。[詳細情報](../../platform/using/managing-enumerations.md#about-enumerations)

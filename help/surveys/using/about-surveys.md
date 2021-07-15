@@ -7,52 +7,52 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
 # 調査の基本を学ぶ{#about-surveys}
 
-Adobe Campaign には、Web アプリケーションを定義およびパブリッシュするためのグラフィカルなモジュールが含まれています。これは、エクストラネット上の編集フォームや、テーブル、グラフ、入力フォームなどを含むデータベースのデータを含む通知フォームなどのページを作成するために使用します。 この機能を使用して、ユーザーが情報を検索または入力できるWebページをデザインおよび投稿します。
+Adobe Campaign には、web アプリケーションを定義および公開するためのグラフィカルモジュールが含まれています。これは、エクストラネット上の編集フォームや、テーブル、グラフ、入力フォームなど、データベースのデータを含んだ通知フォームのページを作成するために使用します。この機能を使用すると、ユーザーが情報を検索または入力できる web ページをデザインし配信できます。
 
-オプションの&#x200B;**Survey**&#x200B;アドオンを使用すると、プロファイル情報の追加や変更、情報サービスの購読や購読解除、入場フォームなど、オンラインアンケートの作成と管理を行う新しいタイプのWebアプリケーションを作成できます。 回答が収集されると、データベースまたはローカル変数に格納されます。データモデルは、アンケートの回答を使用して動的に拡張できます。結果をリアルタイムに表示したり、回答をフィルターしたり、専用のグラフを使用してそれらを分析したりできます。
+オプションの&#x200B;**調査**&#x200B;アドオンを使用すると、新しいタイプの web アプリケーションを作成して、プロファイル情報を追加または修正するフォーム、情報サービスを購読または購読解除するフォーム、コンテストにエントリーするフォームなど、オンラインアンケートを作成および管理できます。回答が収集されると、データベースまたはローカル変数に格納されます。データモデルは、アンケートの回答を使用して動的に拡張できます。結果をリアルタイムに表示したり、回答をフィルターしたり、専用のグラフを使用してそれらを分析したりできます。
 
 この章では、**調査**、フィールドとページの管理、ストレージモードとレコードの作成と管理の方法について詳しく説明します。
 
-[!DNL :bulb:] 最初の調査の作成方法については、このページ [を参照してください](getting-started-with-surveys.md)。
+[!DNL :bulb:] 初めての調査の作成方法については、[このページ](getting-started-with-surveys.md)を参照してください。
 
 >[!NOTE]
 >
->* 標準のWebフォームを作成する詳細な手順については、[このドキュメント](../../web/using/about-web-forms.md)を参照してください。
+>* 標準 web フォームの作成手順について詳しくは、[このドキュメント](../../web/using/about-web-forms.md)を参照してください。
    >
    >
-* Webアプリケーションの管理について詳しくは、[このドキュメント](../../web/using/about-web-applications.md)を参照してください。 その他について詳しくは、この章を参照してください。
+* Web アプリケーション管理について詳しくは、[このドキュメント](../../web/using/about-web-applications.md)を参照してください。詳しくは、この章を参照してください。
 
 
-## 機能範囲 {#campaign-surveys-scope}
+## 機能の範囲 {#campaign-surveys-scope}
 
-Adobe Campaignでは、[Webアプリケーション](../../web/using/about-web-forms.md)を使用して次の操作をおこないます。
+Adobe Campaign では、[web アプリケーション](../../web/using/about-web-forms.md)を使用して以下を行います。
 
 * 複数ページのフォームの作成
-* 統合された翻訳ツールを使用して、多言語のフォームを管理する
+* 統合翻訳ツールによる多言語フォームの管理
 * グラフィカルインターフェイス、複数列のページレイアウトの管理
-* パーソナライゼーションを追加し、フィールドの位置を定義します。
-* 回答に応じた調査フィールドの条件の表示
-* 条件ページの表示
-* 期待されるデータのタイプ（数値、Eメールアドレス、日付など）に応じて、承認前に情報を確認します。 および必須フィールド
-* Eメールの招待状/通知を送信する
+* パーソナライゼーションの追加とフィールド位置の定義
+* 回答に応じた調査フィールドの条件付き表示
+* ページの条件付き表示
+* 想定されるデータのタイプ（番号、E メールアドレス、日付など）と必須フィールドに応じた承認前の情報確認
+* E メールの招待状／通知の送信
 * エラーページと終了ページのパーソナライズ
-* フォームに画像、ビデオ、ハイパーテキストリンク、Captchaなどを追加します。
+* フォームへの画像、ビデオ、ハイパーテキストリンク、Captcha などの追加
 
-オプションの調査作成モジュールは、使いやすいUIと次の追加機能を提供します。
+オプションの調査作成モジュールには、使いやすい UI と次の追加機能が用意されています。
 
-* データベースの動的な拡張（最初のデータモデルに含まれない回答の作成）：[詳細情報](../../surveys/using/managing-answers.md#storing-collected-answers)。
-* スコア管理：[詳細情報](../../surveys/using/managing-answers.md#score-management)。
-* 質問のランダム表示：[詳細情報](../../surveys/using/building-a-survey.md#adding-questions)。
-* 回答のリアルタイムトラッキング：[詳細情報](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking)。
-* 専用レポートの生成。[詳細情報](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys)。
+* データベースの動的な拡張：初期のデータモデルに含まれていない回答の作成。[詳細情報](../../surveys/using/managing-answers.md#storing-collected-answers)
+* スコア管理。[詳細情報](../../surveys/using/managing-answers.md#score-management)
+* 質問のランダム表示[詳細情報](../../surveys/using/building-a-survey.md#adding-questions)
+* 回答のリアルタイムトラッキング[詳細情報](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking)
+* 専用レポートの生成。[詳細情報](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys)
 
 
 ## 実装手順 {#surveys-implementation-steps}
@@ -64,7 +64,7 @@ Adobe Campaignでは、[Webアプリケーション](../../web/using/about-web-f
 1. 調査をパブリッシュしてから受信者に配信します（例：配信または Web サイトにリンクを含める）。
 1. 回答を監視し、レポートを表示します。
 
-これらの手順の設定と順番について詳しくは、[このドキュメント](../../web/using/about-web-forms.md)を参照してください。 ここでは、調査に関する設定についてのみ説明します。
+これらの手順の設定と順番について詳しくは、[このドキュメント](../../web/using/about-web-forms.md)を参照してください。この章では、調査に固有の設定についてのみ詳しく説明します。
 
 >[!CAUTION]
 >
@@ -72,7 +72,7 @@ Adobe Campaignでは、[Webアプリケーション](../../web/using/about-web-f
 
 ## 設定 {#settings}
 
-デフォルトでは、調査はAdobe Campaignツリーの&#x200B;**[!UICONTROL リソース/オンライン/Webアプリケーション]**&#x200B;ノードで利用できます。
+デフォルトでは、調査は Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／オンライン／Web アプリケーション]**&#x200B;ノードに格納されます。
 
 設定は、次のフォルダーに格納されます。
 
@@ -81,4 +81,4 @@ Adobe Campaignでは、[Webアプリケーション](../../web/using/about-web-f
 
 >[!NOTE]
 >
->設定の詳細は、[このドキュメント](../../web/using/about-web-forms.md)で確認できます。
+>設定の詳細については、[このドキュメント](../../web/using/about-web-forms.md)を参照してください。

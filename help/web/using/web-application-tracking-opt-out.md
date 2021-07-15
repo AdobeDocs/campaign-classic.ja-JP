@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-applications
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '670'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Web トラッキングが有効化されている場合、次の設定ができ�
 
 バナーは専用の CSS と共に提供されます。ただし、Web ページを作成して設定する際に、スタイルを上書きできます。[このページ](content-editor-interface.md)を参照してください。
 
-## API を使用したオプトアウト Cookie の設定 {#setting-the-opt-out-cookie-using-api}
+## API を使用したオプトアウト cookie の設定 {#setting-the-opt-out-cookie-using-api}
 
 Adobe Campaign は cookie 値の管理およびユーザー設定の回復に利用できる API を提供します。
 

@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tracking-messages
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 source-git-commit: 98bbbb36c9f8156cc34e826a024ff6e6e3f3fee3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 83%
 >
 >パーソナライゼーションを含む電子メールコンテンツ内のリンクは、特定の構文を追跡する必要があります。 パーソナライズ可能な電子メールにリンクを追加する方法、および追跡をサポートする電子メールについて詳しくは、[このセクション](tracking-personalized-links.md)を参照してください。
 
-トラッキング式を適用する前に、「**[!UICONTROL テキストコンテンツ]**」タブでURLを区切り文字で囲むことを強くお勧めします。 このタブに入力するURL区切り文字は、Adobe Campaignで文字列内のURLを識別するために使用されます。 次の区切り文字のペアを使用できます。
-* 括弧( )
-* 角括弧[ ]
-* 中括弧{ }
+トラッキング式を適用する前に、「**[!UICONTROL テキストコンテンツ]**」タブで URL を区切り文字で囲むことを強くお勧めします。 このタブに入力する URL 区切り文字は、Adobe Campaign で文字列内の URL を識別するために使用されます。 次の区切り文字のペアを使用できます。
+* 括弧 ( )
+* 角括弧 [ ]
+* 中括弧 { }
 
-この例では、URL https://www.adobe.comの後にセミコロンが続きます。 セミコロンは、受信者のEメールクライアントによって、URLの一部として解釈される場合があります。 その結果、リンクが壊れる場合があります。 この問題を回避するには、次のいずれかの方法でURLを区切り文字で囲みます。
+この例では、URL https://www.adobe.com の後にセミコロンが続きます。 セミコロンは、受信者の E メールクライアントで、URL の一部として解釈される場合があります。 その結果、リンク切れになる場合があります。 この問題を回避するには、次のいずれかの方法で URL を区切り文字で囲みます。
 * (https://www.adobe.com/jp);
 * [https://www.adobe.com/jp];
 * {https://www.adobe.com/jp};

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: content-management
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1216'
 ht-degree: 100%
 
@@ -212,7 +212,7 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 
 1. 「**[!UICONTROL 保存]**」をクリックして入力フォームを作成します。
 
-## 手順 4 - 構成テンプレートの作成 {#step-4---creating-the-construction-template}
+## 手順 4 - 構築テンプレートの作成 {#step-4---creating-the-construction-template}
 
 XSLT 言語を使用して、XML ドキュメントを別の出力ドキュメントに変換できます。この変換は、スタイルシートというドキュメントに XML で記述します。
 

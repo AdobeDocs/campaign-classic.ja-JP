@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: configuring-channels
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8433'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ SMS プロバイダー経由で大量の SMS を送信する場合、次の 3 �
 
 確認応答と SR は両方ともトリガーエラーを起こす可能性があります。そのため、この 2 つを区別するとトラブルシューティングに役立ちます。
 
-### SMS によって送信される情報 {#information-sms}
+### SMS で送信される情報 {#information-sms}
 
 SMS は、テキストよりも多くの情報を伝送します。SMS によって提供される情報のリストを以下に示します。
 
@@ -224,7 +224,7 @@ Adobe Campaign Classic は、SR と MO がデータベースに挿入された�
 
 #### ENQUIRE_LINK_RESP {#enquire-links-resp}
 
-この PDU は、接続が有効であることを確認します。
+この PDU は、接続が動作していることを確認します。
 
 ### マルチパート SMS（長文 SMS） {#multipart}
 
@@ -242,7 +242,7 @@ Adobe Campaign Classic は、SR と MO がデータベースに挿入された�
 
 プロトコルとフォーマットについて詳しくは、[SUBMIT_SM PDU](sms-protocol.md#information-pdu) の `esm_class`、`short_message`、`message_payload` の各フィールドの説明を参照してください。
 
-### スループットの上限とウィンドウ {#throughput-capping}
+### スループットのキャッピングとウィンドウイング {#throughput-capping}
 
 ほとんどのプロバイダーでは、各 SMPP 接続にスループットの制限が必要です。これは、外部アカウント内に多数の SMS を設定することで達成できます。スループットのスロットルは接続ごとに発生します。有効なスループットの合計は、接続ごとの制限値に接続の合計数を乗じた値です。これについては、[同時接続](sms-protocol.md#connection-settings)の節で詳しく説明します。
 
@@ -287,7 +287,7 @@ err フィールドには、プロバイダー固有のエラーコードが含�
 
 最後に、テキストフィールドには通常、MT のテキストの先頭が含まれます。これは Adobe Campaign では無視され、一部のプロバイダーは PII の漏洩やネットワーク帯域幅の消費を防ぐために送信しません。このフィールドを読み込むと、テスト MT に一致する SR をより容易に見つけられるため、トラブルシューティングの際に使用できます。
 
-### Adobe Campaign Classic の拡張された汎用 SMPP での SR 処理の例 {#sr-processing}
+### Adobe Campaign Classic の拡張された汎用 SMPP における SR 処理の例 {#sr-processing}
 
 次の例では、付録 B の推奨に従った実装、外部アカウントのデフォルト値、成功した SMS MT を示します。
 
@@ -423,11 +423,11 @@ TLS を使用してプロバイダーに接続します。接続が暗号化さ�
 
 Adobe Campaign Classic では、MT 関連のトラフィックの場合は MTA ログ、MO および SR 関連のトラフィックの場合は SMS ログにログ出力が記録されます。
 
-### レシーバー接続設定 {#receiver-connection}
+### 受信者接続設定 {#receiver-connection}
 
-このセクションは、分離された&#x200B;**トランスミッター + レシーバー**&#x200B;モードでのみ表示されます。
+このセクションは、分離された&#x200B;**送信者 + 受信者**&#x200B;モードでのみ表示されます。
 
-#### 受信機に別のパラメーターを使用 {#receiver-parameters}
+#### 受信者に別のパラメーターを使用 {#receiver-parameters}
 
 このチェックボックスをオフにすると、トランスミッターとレシーバーに同じ設定が適用されます。
 
@@ -439,7 +439,7 @@ Adobe Campaign Classic では、MT 関連のトラフィックの場合は MTA �
 
 ### SMPP チャネル設定 {#smpp-channel-settings}
 
-#### 文字の置き換えを許可 {#allow-character-transliteration}
+#### 文字の表記変換を許可 {#allow-character-transliteration}
 
 文字の置き換えとは、見つからない文字に相当する文字を探す処理です。例えば、フランス語の「ê」（曲折アクセント記号付きの e）文字は GSM エンコーディングでは見つかりませんが、可読性を損なうことなく「e」に置き換えることができます。
 
@@ -481,7 +481,7 @@ Adobe Campaign Classic の KPI には全く異なるメカニズムがあるの�
 
 * 自動応答機能のブロックリスト設定では、特定のショートコードに対してのみ、強制隔離に送信されます。
 
-#### ソース TON/NPI、ターゲット TON/NPI {#ton-npi}
+#### 出力元 TON/NPI、出力先 TON/NPI {#ton-npi}
 
 TON（数値のタイプ）と NPI（数値計画インジケータ）は、[SMPP 3.4 仕様](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)の 5.2.5 節（117 ページ）で説明されています。これらの値は、プロバイダーのニーズに合わせて設定する必要があります。
 
@@ -525,7 +525,7 @@ TON（数値のタイプ）と NPI（数値計画インジケータ）は、[SMP
 
 #### 再接続までの時間 {#time-reconnection}
 
-TCP 接続が失われた場合、コネクタは接続を試行する前に、この秒数間待機します。
+TCP 接続が失われた場合、コネクタは、この秒数の間待機してから接続を試みます。
 
 #### MT の有効期間 {#expiration-period}
 
@@ -539,7 +539,7 @@ TCP 接続試行と `BIND_*_RESP` 応答の間のタイムアウト。タイム�
 
 `enquire_link` は、接続を有効に保つために送信される特別な種類の PDU です。この期間は秒単位です。キャンペーンコネクタは、帯域幅を節約するために接続がアイドル状態の場合にのみ `enquire_link` を送信します。この期間の 2 回後に RESP を受信しなかった場合、接続が切断されたと見なされ、再接続プロセスがトリガーされます。
 
-### SMSC の詳細 {#SMSC-specifics}
+### SMSC 固有の設定 {#SMSC-specifics}
 
 これらの設定は、Adobe Campaign コネクタを SMPP 実装の特殊性のほとんどに適応させるための詳細設定です。
 
@@ -584,7 +584,7 @@ UCS-2 は、Adobe Campaign でサポートされるすべての文字をエン�
 
 この機能は、自動返信ブロックリスト機能の動作にも影響します。チェックボックスがオフの場合、強制隔離テーブルに挿入される電話番号に + プレフィックスが追加され、SMPP プロトコル自体によって電話番号から + プレフィックスが削除されるのを補正します。
 
-#### TLS 証明書チェックをスキップ {#skip-tls}
+#### TLS 証明書チェックのスキップ {#skip-tls}
 
 TLS が有効な場合は、すべての証明書の確認をスキップします。
 
@@ -598,7 +598,7 @@ TLS が有効な場合は、すべての証明書の確認をスキップしま�
 * ホスト名の検証をスキップ。
 * 証明書の検証をスキップ。
 
-#### バインド TON/NPI {#bind-ton-npi}
+#### TON／NPI のバインド {#bind-ton-npi}
 
 [SMPP 3.4 仕様](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)の 5.2.5 節（117 ページ）で説明されている TON（番号のタイプ）と NPI（採番計画インジケータ）。これらの値は、プロバイダーのニーズに応じて設定する必要があります。
 
@@ -652,7 +652,7 @@ SR 形式は、SMPP プロトコル仕様に厳密には適用されません。
 
 デフォルトでは、`DELIV` で始まる stat 値（例：[付録 B](sms-protocol.md#sr-error-management) 内の `DELIVRD`）は、正常に配信されたと見なされ、エラーに一致するすべての stat 値（例：`REJECTED`、`UNDELIV`）はエラーと見なされます。
 
-#### MT 確認の ID 形式 {#id-format-mt}
+#### MT 受信確認の ID 形式 {#id-format-mt}
 
 これは、`SUBMIT_SM_RESP PDU` の `message_id` フィールドに返される ID の形式を示します。
 
@@ -734,7 +734,7 @@ SR フィールド内の ID の `Extraction` 正規表現が十分に具体的�
 
 一部のパラメーターは、配信テンプレートごとに設定できます。
 
-### 開始フィールド {#from-field}
+### 送信者フィールド {#from-field}
 
 このフィールドはオプションです。送信者アドレス（oADC）を上書きできます。このフィールドの内容は、`SUBMIT_SM PDU` の `source_addr` フィールドに配置されます。
 
@@ -780,7 +780,7 @@ MTA は、配信パーツを送信する際に、MTA の子を生成します。
 
 SMS プロセスは SR のみを処理し、プロバイダーに接続し、接続を開いたままにします。このプロセスは、10 分ごとに再接続し、新しい設定を再読み込みします。これは通常の操作です。
 
-### MT、SR、broadLog エントリの一致 {#matching-mt}
+### MT、SR、broadLog エントリの照合 {#matching-mt}
 
 中間テーブル `nmsProviderMsgId` は、broadLog と非同期にコミットされる前に、MT および SR データを一時的に格納するために使用されます。
 
@@ -810,15 +810,16 @@ SMS プロセスは、完了行を毎分チェックし、非同期に処理し�
 
 このチェックリストは、公開前に確認する必要がある事項をリストアップしています。設定が不完全な場合、多くの問題が発生する可能性があります。
 
-### 外部アカウントの競合を確認 {#external-account-conflict}
+### 外部アカウントの競合の確認 {#external-account-conflict}
 
 古い SMS 外部アカウントがないことを確認します。テストアカウントを無効のままにしておくと、実稼働システムで再有効化し、競合が発生する可能性があります。
 
 1 つの Adobe Campaign インスタンス上に同じプロバイダーに接続する複数のアカウントがある場合は、プロバイダーに問い合わせて、これらのアカウント間の接続が実際に区別されることを確認してください。複数のアカウントに同じログインを割り当てる場合は、追加の設定が必要です。
 
-### チェック中に詳細 SMPP トレースを有効にする {#enable-verbose}
+### チェック時の詳細 SMPP トレースの有効化 {#enable-verbose}
 
-チェック中は、必ず詳細な SMPP トレースを有効にする必要があります。ログを自分で確認できない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にサポートを依頼してください。
+チェック中は必ず詳細 SMPP トレースを有効にしてください。
+ログを自分で確認できない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にサポートを依頼してください。
 
 ### SMS のテスト {#test}
 
@@ -833,7 +834,7 @@ SMS プロセスは、完了行を毎分チェックし、非同期に処理し�
 * **MO が処理されていることを確認する**：MO を処理する必要がある場合（自動応答、MO のデータベースへの格納など）、いくつかテストを試してみてください。すべての自動返信キーワードに対して SMS を送信し、返信速度が適切である（数秒以内）ことを確認します。Adobe Campaign が 
 正常な `DELIVER_SM_RESP`（command_status=0）で返信することをログで確認します。
 
-### PDU のチェック {#check-pdus}
+### PDU の確認 {#check-pdus}
 
 メッセージが正常に表示された場合でも、PDU が正しくフォーマットされているかどうかを確認することが重要です。
 
@@ -878,8 +879,8 @@ SMS プロセスは、完了行を毎分チェックし、非同期に処理し�
 
 ### プロバイダーへの問い合わせ {#provider}
 
-SMS が正常に終了した場合でも、プロバイダーに問い合わせて、問題が解決したかどうかを確認してください。
+SMS が正常に終了した場合でも、プロバイダーに問い合わせて、すべて問題ないかどうかを確認してください。
 
-### 詳細 SMPP トレースを無効にする {#disable-verbose}
+### 詳細 SMPP トレースの無効化 {#disable-verbose}
 
 すべてのチェックが完了したら、最後に&#x200B;**詳細な SMPP トレースを無効**&#x200B;にして、多くのログを生成しないようにします。実稼働システムでも、トラブルシューティング用にこれらを再度有効化できます。

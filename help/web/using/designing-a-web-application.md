@@ -7,23 +7,23 @@ content-type: reference
 topic-tags: web-applications
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# web アプリケーションの設計{#designing-a-web-application}
+# Web アプリケーションの設計{#designing-a-web-application}
 
-Webアプリケーションは、[Webフォーム](about-web-forms.md)と同じ原則に従って作成および管理されます。
+Web アプリケーションは、[web フォーム](about-web-forms.md)と同じ原則に従って作成および管理されます。
 
 >[!CAUTION]
 >
->「**[!UICONTROL プレビュー]**」サブタブを使用して、Webアプリケーションのデザイン中にエラーを確認します。
+>「**[!UICONTROL プレビュー]**」サブタブを使用すると、Web アプリケーションの設計中にエラーを確認できます。
 >
->Webアプリケーションが公開されるまで、変更はエンドユーザーには公開されません。
+>Web アプリケーションが公開されるまで、変更はエンドユーザーには公開されません。
 
-## Web アプリケーションへのグラフの追加 {#inserting-charts-in-a-web-application}
+## Web アプリケーションへのグラフの挿入 {#inserting-charts-in-a-web-application}
 
 Web アプリケーションにグラフを含めることができます。そのためには、ツールバーにあるグラフのドロップダウンリストを使用して、挿入するグラフのタイプを選択します。
 
@@ -33,7 +33,7 @@ Web アプリケーションにグラフを含めることができます。そ�
 
 ![](assets/s_ncs_admin_webapps_graph.png)
 
-## Web アプリケーションへのテーブルの追加 {#inserting-tables-in-a-web-application}
+## Web アプリケーションへのテーブルの挿入 {#inserting-tables-in-a-web-application}
 
 テーブルを追加するには、ツールバーにあるテーブルのドロップダウンリストを使用して、使用するテーブルのタイプを選択します。
 

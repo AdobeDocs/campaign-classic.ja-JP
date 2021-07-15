@@ -7,41 +7,41 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '963'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # 調査を作成するための主な手順{#getting-started-with-surveys}
 
-以下に、次の組み込みテンプレートを使用して、簡単な調査を作成する主な手順の概要を示します。
+ここでは、次の組み込みテンプレートを使用して、簡単な調査を作成するための主な手順の概要を説明します。
 
 ![](assets/s_ncs_admin_survey_result.png)
 
 手順は次のとおりです。
 
-1. [手順1 — 調査を作成する](#step-1---creating-a-survey),
-1. [手順2 — テンプレートの選択](#step-2---selecting-the-template),
-1. [手順3 — 調査の構築](#step-3---building-the-survey),
-1. [手順4 — ページコンテンツの作成](#step-4---creating-the-page-content),
-1. [手順5 — 調査データの保存](#step-5---storing-the-survey-data-),
-1. [手順6 — ページを公開する](#step-6---publishing-the-pages),
-1. [手順7 — オンライン調査を共有する](#step-7---sharing-your-online-survey)。
+1. [手順 1 - 調査の作成](#step-1---creating-a-survey)
+1. [手順 2 - テンプレートの選択](#step-2---selecting-the-template)
+1. [手順 3 - 調査の作成](#step-3---building-the-survey)
+1. [手順 4 - ページコンテンツの作成](#step-4---creating-the-page-content)
+1. [手順 5 - 調査データの格納](#step-5---storing-the-survey-data-)
+1. [手順 6 - ページの公開](#step-6---publishing-the-pages)
+1. [手順 7 - オンライン調査の共有](#step-7---sharing-your-online-survey)
 
-## 手順1 — 調査の作成 {#step-1---creating-a-survey}
+## 手順 1 - 調査の作成 {#step-1---creating-a-survey}
 
 新しい調査を作成するには、「**[!UICONTROL キャンペーン]**」または「**[!UICONTROL プロファイルとターゲット]**」タブに移動して、**[!UICONTROL Web アプリケーション]**&#x200B;メニューをクリックします。フォームのリストの上にある「**[!UICONTROL 作成]**」ボタンをクリックします。
 
 ![](assets/s_ncs_admin_survey_create.png)
 
-## 手順2 — テンプレートの選択 {#step-2---selecting-the-template}
+## 手順 2 - テンプレートの選択 {#step-2---selecting-the-template}
 
-調査テンプレートを選択して、調査に名前を付けます。この名前は、エンドユーザーには表示されませんが、Adobe Campaign 内で調査を識別するのに使用できます。「**[!UICONTROL 保存]**」をクリックして、調査を Web アプリケーションのリストに追加します。
+調査テンプレートを選択して、調査に名前を付けます。この名前は、エンドユーザーには表示されませんが、Adobe Campaign 内で調査を識別するのに使用できます。「**[!UICONTROL 保存]**」をクリックすると、調査が Web アプリケーションのリストに追加されます。
 
 ![](assets/s_ncs_admin_survey_wz_00.png)
 
-## 手順3 — 調査の構築 {#step-3---building-the-survey}
+## 手順 3 - 調査の作成 {#step-3---building-the-survey}
 
 調査は、ダイアグラムで構築されます。ダイアグラムには、コンテンツが作成されるページ、データがプリロードおよび保存される手順およびテストフェーズの各要素が配置されます。また、スクリプトおよびクエリも挿入できます。
 
@@ -58,9 +58,9 @@ ht-degree: 90%
 
    ![](assets/s_ncs_admin_survey_end.png)
 
-## 手順4 — ページコンテンツの作成 {#step-4---creating-the-page-content}
+## 手順 4 - ページコンテンツの作成 {#step-4---creating-the-page-content}
 
-次の例では、**[!UICONTROL ページ（v5 互換）]**&#x200B;タイプのページを使用します。このタイプのページは、「**[!UICONTROL 編集]**」タブの詳細設定メニューからアクセスします。
+次の例では、**[!UICONTROL Page（v5 互換）]**&#x200B;タイプのページを使用します。このタイプのページは、「**[!UICONTROL 編集]**」タブの詳細設定メニューからアクセスします。
 
 ![](assets/s_ncs_admin_survey_pagev5.png)
 
@@ -112,7 +112,7 @@ ht-degree: 90%
 
    ![](assets/s_ncs_admin_survey_preview.png)
 
-## 手順5 — 調査データの保存 {#step-5---storing-the-survey-data-}
+## 手順 5 - 調査データの格納 {#step-5---storing-the-survey-data-}
 
 ストレージボックスを使用すると、ユーザーの回答をデータベースに保存できます。既にデータベースにあるプロファイルを識別するために、紐付けキーを選択する必要があります。
 
@@ -124,7 +124,7 @@ ht-degree: 90%
 
 「**[!UICONTROL OK]**」をクリックして確認し、「**[!UICONTROL 保存]**」をクリックして調査を保存します。
 
-## 手順6 — ページの公開 {#step-6---publishing-the-pages}
+## 手順 6 - ページの公開 {#step-6---publishing-the-pages}
 
 ユーザーが HTML ページにアクセスできるようにするには、アプリケーションを使用可能にする必要があります。編集中の状態から本番にしなければなりません。調査を本番に移行するには、パブリッシュする必要があります。これには、以下の手順に従います。
 
@@ -137,7 +137,7 @@ ht-degree: 90%
 
    ![](assets/survey_published.png)
 
-## 手順7 — オンライン調査を共有する {#step-7---sharing-your-online-survey}
+## 手順 7 - オンライン調査の共有 {#step-7---sharing-your-online-survey}
 
 本番に移行された調査はサーバーでアクセスでき、配信可能となります。調査にアクセスするための URL は、ダッシュボードに表示されます。
 

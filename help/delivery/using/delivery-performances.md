@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 >
 >ISP は、操作がない状態が続くアドレスを無効にします。この新しいステータスについての通知を送信者に送信するために、バウンスメッセージが送信されます。
 
-## パフォーマンス問題のチェックリスト {#performance-issues}
+## パフォーマンスに関する問題のチェックリスト {#performance-issues}
 
 配信のパフォーマンスが悪い場合は、次の項目を確認できます。
 

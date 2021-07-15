@@ -6,7 +6,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Campaign Classic では、配信テンプレートはデフォルトで&#x200B;*
 
 シードアドレスは、定義されたターゲット条件に合わない受信者を配信のターゲットにして、メインターゲットに送信する前に配信テストをおこなう場合に使用します。詳しくは、[この節](about-seed-addresses.md)を参照してください。
 
-## 重複したアドレス {#deduplicate-addresses}
+## アドレスの重複排除 {#deduplicate-addresses}
 
 重複した E メールアドレスがあると、ターゲットに影響する可能性があるので、E メールアドレスの重複を回避することが重要です。
 
@@ -66,7 +66,7 @@ Campaign Classic では、配信テンプレートはデフォルトで&#x200B;*
 * [重複排除 - 重複アクティビティ](../../workflow/using/deduplication.md)。
 * [使用例：重複排除アクティビティの結合機能の使用](../../workflow/using/deduplication-merge.md)
 
-## E メールアドレスのインデックス化 {#index-addresses}
+## E メールアドレスのインデックス作成 {#index-addresses}
 
 このアプリケーションで使用する SQL クエリのパフォーマンスを最適化するには、データスキーマのメイン要素からインデックスを宣言します。
 

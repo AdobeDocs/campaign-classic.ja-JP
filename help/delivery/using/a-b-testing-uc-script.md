@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: a-b-testing
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 ## スクリプトの例 {#example-of-a-script}
 
-ターゲティングワークフローで、以下のようにスクリプトを使用します。詳細については、[このセクション](#implementation)を参照してください。
+次のスクリプトをターゲティングワークフローでそのまま使用できます。詳しくは、[この節](#implementation)を参照してください。
 
 ```
  // query the database to find the winner (best open rate)
@@ -65,7 +65,7 @@ ht-degree: 97%
    vars.deliveryId = delivery.id
 ```
 
-このスクリプトの詳細については、 [こちらの節](#details-of-the-script)を参照してください。
+このスクリプトの詳細については、[こちらの節](#details-of-the-script)を参照してください。
 
 ## 実装 {#implementation}
 
@@ -168,4 +168,4 @@ ht-degree: 97%
 * 最も低い購読解除率：`[indicators/@optOutRatio]`
 * トランザクション金額: `[indicators/@amount]`.
 
-これで、最終配信を定義できます。 [詳細情報](a-b-testing-uc-final-delivery.md)。
+これで、最終配信を定義できます。[詳細情報](a-b-testing-uc-final-delivery.md)。

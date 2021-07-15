@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: a-b-testing
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
 source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '86'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 93%
 
 1. 3 番目の配信のコンテンツが決定したら、ターゲットとコンテンツを承認します。
 
-これで、結果を分析できます。 [詳細情報](a-b-testing-uc-analyzing.md)。
+これで結果を分析できるようになりました。 [詳細情報](a-b-testing-uc-analyzing.md)。

@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: tracking-messages
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# メッセージトラッキングの概要 {#get-started-tracking}
+# メッセージトラッキングの基本を学ぶ {#get-started-tracking}
 
 Adobe Campaign のトラッキング機能により、送信されたメッセージをトラッキングし、開封、リンクのクリック、購読解除といった受信者の動作を確認できます。
 
@@ -65,13 +65,13 @@ Campaign Classic のトラッキング機能を使用すると、パーソナラ
 
 トラッキング用のメッセージを送信する前に、ミラーページ、E メールログ、リンクでトラッキングをテストできます。[詳細情報](testing-tracking.md)
 
-## web アプリケーショントラッキング {#web-application-tracking}
+## Web アプリケーショントラッキング {#web-application-tracking}
 
 <img src="assets/do-not-localize/icon-web-app.svg" width="60px">
 
 **web アプリケーションのトラッキング**
 
-また、トラッキングタグを含む web アプリケーションページの訪問をトラッキングおよび測定できます。この機能は、フォームやランディングページなど、すべてのWebアプリケーションタイプで使用できます。 [詳細情報](../../web/using/tracking-a-web-application.md)
+また、トラッキングタグを含む web アプリケーションページの訪問をトラッキングおよび測定できます。この機能は、フォームやランディングページなど、あらゆる種類の Web アプリケーションで使用できます。[詳細情報](../../web/using/tracking-a-web-application.md)
 
 **web アプリケーショントラッキングのオプトアウト**
 

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: using-delivery-templates
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # テンプレートからの配信の作成{#creating-a-delivery-from-a-template}
 
-## テンプレートと配信とのリンク {#linking-the-template-to-a-delivery}
+## 配信へのテンプレートのリンク {#linking-the-template-to-a-delivery}
 
 既存のテンプレートをベースにして配信を作成するには、利用可能な配信テンプレートのリストからテンプレートを選択します。
 

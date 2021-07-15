@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1552'
 ht-degree: 100%
 
@@ -167,7 +167,7 @@ ht-degree: 100%
 
 キャンペーンでは、配信の概要を使用して、関連する支店、提供するプロモーションオファー、ローカルイベントへの招待など、特定の条件に応じて配信に関連付ける外部要素を構造化できます。
 
-#### 概要の作成 {#creating-an-outline}
+#### アウトラインの作成 {#creating-an-outline}
 
 概要を作成するには、関連するキャンペーンの&#x200B;**[!UICONTROL 編集／「ドキュメント」]**&#x200B;タブで「**[!UICONTROL 配信の概要]**」サブタブをクリックします。
 

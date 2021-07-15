@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: web-applications
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# web アプリケーションへの訪問のトラッキング{#tracking-a-web-application}
+# Web アプリケーションへの訪問のトラッキング{#tracking-a-web-application}
 
-Adobe Campaign では、トラッキングタグを挿入することで、Web アプリケーションページへの訪問をトラッキングおよび測定できます。この機能は、すべてのWebアプリケーションタイプ（フォーム、Webページなど）で使用できます。
+Adobe Campaign では、トラッキングタグを挿入することで、web アプリケーションページへの訪問をトラッキングおよび測定できます。この機能は、すべての web アプリケーションタイプ（フォーム、web ページなど）で使用できます。
 
 そのため、複数のナビゲーションパスを定義して、成功を評価できます。復元したデータは、各アプリケーションのレポートで使用できます。
 
@@ -36,7 +36,7 @@ Adobe Campaign では、トラッキングタグを挿入することで、Web �
    * **バウンス率**：最初のステップのみ表示した人の数
    * **コンバージョンファネル**：各ステップ間の損失率
 
-   さらに、**扇形**&#x200B;のグラフに、そのソースに応じた母集団が表示されます。
+   さらに、**扇形**&#x200B;グラフ（円グラフ）に、そのソースに応じた母集団が表示されます。
 
 ## トラフィックソースの識別 {#identifying-the-traffic-source}
 
@@ -55,9 +55,9 @@ Web アプリケーションのトラフィックソースを識別するため�
 
 >[!NOTE]
 >
->匿名トラッキングは、Campaignのインストール時にデプロイウィザードでこのオプションが有効になっている場合にのみ使用できます。
+>匿名トラッキングは、Campaign のインストール時にデプロイメントウィザードでこのオプションが有効になっている場合にのみ使用できます。
 
-## デジタルコンテンツエディター（DCE）で設計された Web アプリケーション {#web-applications-designed-with-digital-content-editor--dce-}
+## デジタルコンテンツエディター（DCE）で設計された web アプリケーション {#web-applications-designed-with-digital-content-editor--dce-}
 
 Web アプリケーションが HTML コンテンツエディター - **デジタルコンテンツエディター（DCE）** - を使用して作成されている場合、トラッキングタグは、エディターの「**[!UICONTROL プロパティ]**」タブで挿入されます。デジタルコンテンツエディター（DCE）について詳しくは、[この節](about-campaign-html-editor.md)を参照してください。
 

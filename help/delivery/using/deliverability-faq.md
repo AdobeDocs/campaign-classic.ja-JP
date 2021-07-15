@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliverability-management
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ MX 設定について詳しくは、[この節](../../installation/using/email-d
 
 それでも問題が解決されない場合は、商用サービス、配信品質サービスまたは[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
-## ブロックリスト対強制隔離 {#denylist-versus-quarantine}
+## ブロックリストと強制隔離の比較 {#denylist-versus-quarantine}
 
 * **ブロックリストに登録された E メールアドレスと強制隔離 E メールアドレスの違いについて教えてください。**
 

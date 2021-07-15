@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '958'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 **[!UICONTROL ステータス]**、**[!UICONTROL チャネル]**&#x200B;および&#x200B;**[!UICONTROL アドレス]**&#x200B;の値は、自動的に入力されます。ただし、**[!UICONTROL 引き換え日]**&#x200B;の値は、Campaign によって復元されません。クーポン引き換えの詳細を含むファイルをインポートすることで、入力できます。
 
-## クーポンの E メール配信への挿入 {#inserting-a-coupon-into-an-email-delivery}
+## E メール配信へのクーポンの挿入 {#inserting-a-coupon-into-an-email-delivery}
 
 次の例では、配信をホームページから作成します。配信の作成方法について詳しくは、[この節](about-email-channel.md)を参照してください。また、ワークフローの配信にクーポンを追加することもできます。
 
@@ -149,7 +149,7 @@ ht-degree: 100%
 >
 >デフォルトでは、クーポン管理モジュールは、**nms:recipient** テーブルを使用します。他のテーブルの使用方法については、[スキーマの編集](../../configuration/using/data-schemas.md)を参照してください。
 
-## 不十分なクーポンの管理 {#managing-insufficient-coupons}
+## 不足クーポンの管理 {#managing-insufficient-coupons}
 
 メッセージよりもクーポンが少ない場合、配信分析が停止します。このような場合、より多くのクーポンをインポートするか、メッセージの数を制限することができます。メッセージの数を制限する場合は、次の手順に従います。
 

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1617'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->配信の所有者のみが配信を開始できます。 別のオペレーター（またはオペレーターグループ）が配信を開始できるようにするには、レビュー担当者として「**[!UICONTROL 配信開始：]**」フィールドに追加する必要があります。詳しくは、[この節](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)を参照してください。
+>配信を開始できるのは配信所有者だけです。別のオペレーター（またはオペレーターグループ）が配信を開始できるようにするには、レビュー担当者として「**[!UICONTROL 配信開始：]**」フィールドに追加する必要があります。詳しくは、[この節](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)を参照してください。
 
 ## 配信の追加パラメーター {#delivery-additiona-parameters}
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 * [配信エラーについて](understanding-delivery-failures.md)
 * [メッセージトラッキングについて](about-message-tracking.md)
 
-## 配信送信のスケジュール設定 {#scheduling-the-delivery-sending}
+## 配信の送信スケジュール設定 {#scheduling-the-delivery-sending}
 
 配信をスケジュールしたり、母集団に対する営業頻度を管理して過剰な営業活動をしないようするために、メッセージの配信を遅らせることができます。
 

@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
 ht-degree: 100%
 
 ---
 
-# 使用例：フィールド置換の設定{#use-case-configuring-the-field-substitution}
+# ユースケース：フィールド置換の設定{#use-case-configuring-the-field-substitution}
 
 ランダムなフィールド置換は、配信時に、シードアドレスの未入力部分に当てはめる値（例えば、名前、市区町村など）を受信者リストから取得して使用する機能です。
 

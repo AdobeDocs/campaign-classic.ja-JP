@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 >
 >このオプションは、**調査**&#x200B;タイプの Web アプリケーションでのみ使用できます。他のタイプの Web フォームには提供されません。
 
-### アーカイブされたフィールドに格納 {#storing-in-an-archived-field}
+### アーカイブされたフィールドへの保存 {#storing-in-an-archived-field}
 
 調査で提供された回答を保存するための新しいストレージスペースを追加することで、データテンプレートを簡単に拡張できます。これをおこなうには、入力フィールドを作成する際に、「**[!UICONTROL 質問に対する回答を保存]**」オプションを選択します。「**[!UICONTROL 新しいフィールド]**」リンクをクリックして、プロパティを指定します。
 
@@ -99,11 +99,11 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 ### ストレージ設定 {#storage-settings}
 
-調査の回答をXML形式でアーカイブできます。 これにより、収集した回答の生のコピーを保存できます。これは、定義済みリストのデータが過度に標準化される場合に役立ちます。 [詳細情報](../../surveys/using/publish--track-and-use-collected-data.md#standardizing-data)
+調査の回答を XML 形式でアーカイブできます。これにより、収集した回答の生のコピーを保存でき、項目別リストのデータが過度に標準化される場合に役に立ちます。[詳細情報](../../surveys/using/publish--track-and-use-collected-data.md#standardizing-data)
 
 >[!CAUTION]
 >
->生の応答のアーカイブは、必要なストレージ領域に影響します。 このオプションは注意して使用してください。
+>生の回答をアーカイブすると、必要なストレージスペースに影響します。このオプションは注意して使用してください。
 
 手順は次のとおりです。
 

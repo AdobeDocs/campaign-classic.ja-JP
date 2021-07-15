@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: web-applications
 exl-id: 5ccf5a21-48aa-4c0d-8cc8-457eb07d9f74
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
 ht-degree: 100%
 
 ---
 
-# web アプリケーションの新規作成{#creating-a-new-web-application}
+# Web アプリケーションの新規作成{#creating-a-new-web-application}
 
 作成時に web アプリケーションタイプが選択されます。
 

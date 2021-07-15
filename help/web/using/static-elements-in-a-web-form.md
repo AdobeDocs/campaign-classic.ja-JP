@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
 source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1077'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Web フォームの静的要素{#static-elements-in-a-web-form}
 
-フォームのページにユーザーインタラクションのない要素を含めることができます。これらは、画像、HTML コンテンツ、横棒またはハイパーリンクなどの、静的要素です。これらの要素は、ツールバーの最初のボタンで「**[!UICONTROL 静的要素]**」を選択して作成します。
+ユーザーインタラクションのない要素をフォームのページに含めることができます。これらは、画像、HTML コンテンツ、横棒グラフまたはハイパーリンクなどの静的要素です。これらの要素は、ツールバーの最初のボタンで「**[!UICONTROL 静的要素]**」を選択して作成します。
 
 ![](assets/s_ncs_admin_survey_add_static_element.png)
 
@@ -30,7 +30,7 @@ ht-degree: 98%
    >
    >サーバー側では、スクリプトは、Adobe Campaign が提供する [Campaign JSAPI ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)で定義された関数を使用できます。
 
-## HTMLコンテンツの挿入 {#inserting-html-content}
+## HTML コンテンツの挿入 {#inserting-html-content}
 
 フォームページに、ハイパーテキストリンク、画像、書式設定された段落、ビデオなどの HTML コンテンツを含めることができます。
 
@@ -48,7 +48,7 @@ HTML エディターを使用すると、フォームページに挿入するコ
 >
 >HTML エディターに入力した文字列は、「**[!UICONTROL テキスト]**」サブタブで定義されている場合にのみ、翻訳されます。そうでない場合、収集されません。詳しくは、[Web フォームの翻訳](translating-a-web-form.md)を参照してください。
 
-### リンクを挿入 {#inserting-a-link}
+### リンクの挿入 {#inserting-a-link}
 
 次の例のように、編集ウィンドウのフィールドに入力します。
 
@@ -109,7 +109,7 @@ HTML エディターを使用すると、フォームページに挿入するコ
    >
    >Web フォームのページの順番について詳しくは、[Web フォームページの順番の定義](defining-web-forms-page-sequencing.md)を参照してください。
 
-### HTMLコンテンツのパーソナライズ {#personalizing-html-content}
+### HTML コンテンツのパーソナライズ {#personalizing-html-content}
 
 フォームページの HTML コンテンツを前のページで記録したデータでパーソナライズできます。例えば、自動車保険の Web フォームを作成して、最初のページで連絡先情報および自動車のブランドを提供できます。
 
@@ -161,7 +161,7 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
    ![](assets/s_ncs_admin_survey_html_content_preview.png)
 
-この操作モードでは、Web フォームのテキストを 1 回だけ定義でき、統合翻訳ツールを使用して翻訳を管理できます。詳しくは、[Web フォームの翻訳](translating-a-web-form.md)を参照してください。
+この操作モードでは、Web フォームのテキストを 1 回だけ定義でき、統合翻訳ツールを使用して翻訳を管理できます。詳しくは、[web フォームの翻訳](translating-a-web-form.md)を参照してください。
 
 ## 画像の挿入 {#inserting-images}
 

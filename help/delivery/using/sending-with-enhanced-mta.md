@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1991'
 ht-degree: 100%
 
@@ -169,7 +169,7 @@ Enhanced MTA からハードバウンスメッセージが返されると、ス�
 
 <!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
 
-### E メールフィードバックサービス（ベータ版）  {#email-feedback-service}
+### E メールフィードバックサービス（ベータ版） {#email-feedback-service}
 
 E メールフィードバックサービス（EFS）機能を使用すると、フィードバックが Enhanced MTA（メッセージ転送エージェント）から直接取り込まれるので、各 E メールのステータスが正確にレポートされます。
 

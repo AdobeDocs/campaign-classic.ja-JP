@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
 source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
@@ -37,13 +37,13 @@ Adobe Managed Services を使用している場合は、Campaign [!DNL Gold Stan
 
 データベースクリーンアップワークフローについて[詳しくは、ここをクリック](../../production/using/database-cleanup-workflow.md)してください。
 
-## 3. どうすればセキュリティゾーンを設定できますか？ {#how-can-i-configure-security-zones-}
+## 3. セキュリティゾーンを設定するにはどうすればよいですか？ {#how-can-i-configure-security-zones-}
 
 セキュリティゾーンのセルフサービスインターフェイスを使用すると、Adobe Campaign Classic デプロイメントの VPN セキュリティゾーン設定にあるエントリを管理できます。Campaign のセキュリティゾーンについては、[この節](../../installation/using/security-zones.md)を参照してください。
 
 セキュリティゾーンセルフサービス UI について[詳しくはここをクリック](https://helpx.adobe.com/jp/campaign/kb/configuring-security-zones-self-service.html)してください。
 
-## 4. 配信をエラーなく確実に送信するにはどうすればよいですか？ {#how-can-i-make-sure-my-delivery-is-sent-without-errors-}
+## 4. エラーを起こさずに配信を確実に送信するにはどうすればよいですか？ {#how-can-i-make-sure-my-delivery-is-sent-without-errors-}
 
 Adobe Campaign には、E メール配信を監視するための一連のダッシュボードおよびツールが用意されています。
 
@@ -53,7 +53,7 @@ Adobe Campaign には、E メール配信を監視するための一連のダッ
 
 Campaign ワークフローの実行を監視する方法については、[このページ](../../workflow/using/starting-a-workflow.md)を参照してください。
 
-## 6. どうすれば Campaign Classic に接続できますか？ {#how-can-i-connect-to-campaign-classic-}
+## 6. Campaign Classic に接続するにはどうすればよいですか？ {#how-can-i-connect-to-campaign-classic-}
 
 Adobe Campaign Classic に接続するには、Adobe Campaign クライアントコンソールを起動して、インスタンスに対するログイン名とパスワードを入力する必要があります。
 
@@ -61,13 +61,13 @@ Adobe Campaign Classic に接続するには、Adobe Campaign クライアント
 
 ## 7. Campaign Classic と互換性のあるシステムやコンポーネントはどれですか？ {#which-systems-and-components-campaign-classic-is-compatible-with-}
 
-Campaign の最新ビルドでサポートされているすべてのシステムおよびコンポーネントのリストは、「[Adobe Campaign Classic 互換性マトリックス](../../rn/using/compatibility-matrix.md)」で入手できます。
+Campaign の最新ビルドでサポートされているすべてのシステムおよびコンポーネントのリストについては、[Adobe Campaign Classic 互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
 
 ## 8. Campaign Classic のリリースノートはどこにありますか？ {#where-are-campaign-classic-release-notes-}
 
-最新の Campaign Classic リリースノートは[このページ](../../rn/using/latest-release.md)で参照できます。
+Campaign Classic の最新のリリースノートについては、[このページ](../../rn/using/latest-release.md)を参照してください。
 
-## 9. ドメインの設定はどのような手順でおこないますか？ {#what-is-the-procedure-for-domain-delegation-}
+## 9. ドメインの設定はどのような手順で行いますか？ {#what-is-the-procedure-for-domain-delegation-}
 
 サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。アドビは E メール配信用にドメインネームシステム（DNS）を考慮しています。これにより、クライアントがドメイン名と共に DNS エイリアスを使用することでブランドイメージを維持したり、E メール処理中の配信品質を最適化できるすべての技術的なベストプラクティスをアドビが自主的に実践したりできます。
 

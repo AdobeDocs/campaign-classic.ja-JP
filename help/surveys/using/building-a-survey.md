@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: online-surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-フォームのページは、入力ゾーン（テキスト）、選択フィールド（リスト、チェックボックスなど）および静的要素（画像、HTML コンテンツなど）を定義および設定できる、特別なエディターで作成されます。これらは「コンテナ」に収集し、要件に従ってレイアウトできます。 [詳細情報](#adding-questions)).
+フォームのページは、入力ゾーン（テキスト）、選択フィールド（リスト、チェックボックスなど）および静的要素（画像、HTML コンテンツなど）を定義および設定できる、特別なエディターで作成されます。「コンテナ」に収集し、要件に応じてレイアウトすることができます。[詳細情報](#adding-questions)。
 
 >[!NOTE]
 >
->Webフォームのコンテンツの定義方法と画面レイアウトの作成方法について詳しくは、[このドキュメント](../../web/using/about-web-forms.md)を参照してください。
+>Web フォームのコンテンツの定義および画面レイアウトの作成方法について詳しくは、[このドキュメント](../../web/using/about-web-forms.md)を参照してください。
 
-## フィールドを追加 {#adding-fields}
+## フィールドの追加 {#adding-fields}
 
 フォームのフィールドは、ユーザーによる情報の入力とオプションの選択を可能にします。フォームの各ページでは、ツールバーの最初のボタンから&#x200B;**[!UICONTROL ウィザードを使用して追加]**&#x200B;メニューを使用して作成されます。
 
@@ -60,9 +60,9 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 利用可能なフィールドの様々なタイプについて詳しくは、[この節](../../web/using/about-web-forms.md)を参照してください。
 
-## 調査に特有の要素 {#survey-specific-elements}
+## 調査固有の要素 {#survey-specific-elements}
 
-オンライン調査は、Webアプリケーションの機能に基づいています。 調査固有の機能については、以下で詳しく説明します。
+オンライン調査は、web アプリケーションの機能に基づいています。調査固有の機能については、以下で詳しく説明します。
 
 ### 複数選択 {#multiple-choice}
 
@@ -108,7 +108,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 >[!NOTE]
 >
->HTMLエディターの使用について詳しくは、[このドキュメント](../../web/using/about-web-forms.md)を参照してください。
+>HTML エディターの使用について詳しくは、[このドキュメント](../../web/using/about-web-forms.md)を参照してください。
 
 次に例を示します。
 

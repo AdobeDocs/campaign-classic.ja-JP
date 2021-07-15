@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: editing-html-content
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
 source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >
 >将来の配信のコンテンツをホストするために、開始する前に少なくとも 1 つの **HTML テンプレート**&#x200B;が設定されている必要があります。
 >
->配信&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、「**[!UICONTROL コンテンツ編集モード]**」（「**[!UICONTROL 詳細]**」タブ）が「**[!UICONTROL DCE]**」に設定されていることを確認します。編集者の最適な操作を確認するには、[コンテンツ編集のベストプラクティス](content-editing-best-practices.md)を参照してください。
+>配信&#x200B;**[!UICONTROL プロパティ]**&#x200B;で、「**[!UICONTROL コンテンツ編集モード]**」（「**[!UICONTROL 詳細]**」タブ）が「**[!UICONTROL DCE]**」に設定されていることを確認します。エディターの最適な操作を確保するには、[コンテンツ編集のベストプラクティス](content-editing-best-practices.md)を参照してください。
 
 ## 手順 1 - 配信の作成 {#step-1---creating-a-delivery}
 

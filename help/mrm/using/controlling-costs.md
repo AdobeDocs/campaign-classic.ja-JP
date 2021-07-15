@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: コストの管理
+title: コスト管理
 description: コスト管理の方法を説明します
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2539'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# コストの管理{#controlling-costs}
+# コスト管理{#controlling-costs}
 
 Adobe Campaign では、マーケティングリソース管理モジュールを使用して、予約済み、コミット済みおよび請求済みのマーケティングコストを管理し、カテゴリ別に分類できます。
 
@@ -126,7 +126,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 既存のカテゴリを選択することも、フィールドに直接入力して新しいカテゴリを定義することもできます。入力を確認すると表示される確認メッセージで、既存のカテゴリのリストにカテゴリを追加し、必要に応じて「特性」と関連付けることができます。この情報は予算レポートに使用されます。
 
-### 予算のリンク {#linking-a-budget-to-another}
+### 別の予算への予算のリンク {#linking-a-budget-to-another}
 
 予算をメイン予算にリンクすることができます。リンクするには、セカンダリ予算の「**[!UICONTROL 関連予算]**」フィールドでメイン予算を選択します。
 
@@ -166,7 +166,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 >[!NOTE]
 >
->コストカテゴリと構造について詳しくは、サービスプロバイダーとそのコストカテゴリの作成](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)を参照してください。[
+>コストのカテゴリと構造については、[サービスプロバイダーとそのコストカテゴリの作成](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)を参照してください。
 
 ## コストのコミット、計算および請求 {#cost-commitment--calculation-and-charging}
 
@@ -219,7 +219,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 * 固定コストのタスク
 * 日次コストのタスク
 
-#### 手順1 — 予算の作成 {#step-1---creating-the-budget}
+#### 手順 1 - 予算の作成 {#step-1---creating-the-budget}
 
 1. **[!UICONTROL キャンペーン管理／予算]**&#x200B;ノードで新しい予算を作成します。
 
@@ -227,7 +227,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 ![](assets/s_user_cost_mgmt_sample_1.png)
 
-#### 手順2 — サービスプロバイダーを設定し、コスト構造を定義する {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
+#### 手順 2 - サービスプロバイダーの設定とコスト構造の定義 {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
 1. **[!UICONTROL 管理／キャンペーン]**&#x200B;ノードで、サービスプロバイダーとサービステンプレートおよびそのコスト構造を作成します。詳しくは、[サービスプロバイダーとそのコストカテゴリの作成](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)を参照してください。
 
@@ -249,7 +249,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
    ![](assets/s_user_cost_mgmt_sample_7.png)
 
-#### 手順3 — キャンペーンの予算を請求する {#step-3---charging-the-budget-in-the-campaign}
+#### 手順 3 - キャンペーンでの予算請求 {#step-3---charging-the-budget-in-the-campaign}
 
 1. キャンペーンを作成し、手順 1 で作成した予算を選択します。
 
@@ -265,7 +265,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 1. 「**[!UICONTROL OK]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックして情報を確認します。計算されたコストが概算暫定コストで更新されます。
 
-#### 手順4 — ダイレクトメール配信の作成 {#step-4---creating-the-direct-mail-delivery}
+#### 手順 4 - ダイレクトメール配信の作成 {#step-4---creating-the-direct-mail-delivery}
 
 1. キャンペーンのワークフローを作成し、クエリアクティビティの位置付けを指定してターゲットを選択します（受信者の住所を指定する必要があります）。
 
@@ -297,9 +297,9 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 計算されたコストを編集すると、コストの内訳、およびコスト計算のステータスと日付を確認できます。
 
-#### 手順5 — タスクの作成 {#step-5---creating-tasks}
+#### 手順 5 - タスクの作成 {#step-5---creating-tasks}
 
-このキャンペーンには、前にコスト構造を作成した2つのタスクを追加します（[手順2 — サービスプロバイダーの設定とコスト構造の定義](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)を参照）。 追加するには、キャンペーンダッシュボードで「**[!UICONTROL タスクを追加]**」ボタンをクリックします。タスクに名前を付けて「**[!UICONTROL 保存]**」をクリックします。
+このキャンペーンには、上記（[手順 2 - サービスプロバイダーの設定とコスト構造の定義](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)）でコスト構造を作成した 2 つのタスクを追加します。追加するには、キャンペーンダッシュボードで「**[!UICONTROL タスクを追加]**」ボタンをクリックします。タスクに名前を付けて「**[!UICONTROL 保存]**」をクリックします。
 
 1. タスクリストにタスクが追加されます。タスクを設定するには、編集する必要があります。
 

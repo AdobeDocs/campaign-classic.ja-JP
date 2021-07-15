@@ -10,9 +10,9 @@ internal: n
 snippet: y
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1074'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 94%
 1. [Campaign でモバイルアプリを作成する](#creating-android-app)
 1. [追加データでアプリスキーマを拡張する](#extend-subscription-schema)
 
-その後、[Android リッチ通知を作成](create-notifications-android.md)できるようになります。
+これで、[Android リッチ通知を作成](create-notifications-android.md)できるようになります。
 
-## Android外部アカウントの設定 {#configuring-external-account-android}
+## Android 外部アカウントの設定 {#configuring-external-account-android}
 
 Android の場合、2 種類のコネクタを使用できます。
 
@@ -58,7 +58,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
    * **maxGCMConnectPerChild**：それぞれの子サーバーで開始できる、FCM に対する並列 HTTP リクエストの最大数（デフォルト値は 8）。
 
-## Androidサービスの設定 {#configuring-android-service}
+## Android サービスの設定 {#configuring-android-service}
 
 ![](assets/do-not-localize/how-to-video.png) [Android サービスの設定方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ja#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
 
@@ -79,9 +79,9 @@ Android の場合、2 種類のコネクタを使用できます。
 
    ![](assets/nmac_service_2.png)
 
-1. Android アプリケーションを作成します。詳細については、[このセクション](configuring-the-mobile-application-android.md#creating-android-app)を参照してください。
+1. Android アプリケーションを作成します。詳しくは、[この節](configuring-the-mobile-application-android.md#creating-android-app)を参照してください。
 
-## Androidモバイルアプリケーションの作成 {#creating-android-app}
+## Android モバイルアプリケーションの作成 {#creating-android-app}
 
 サービスの作成後に、Android アプリケーションを作成する必要があります。
 
@@ -93,7 +93,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
    ![](assets/nmac_android.png)
 
-1. Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ「**[!UICONTROL 統合キー]**」が定義されていることを確認します。詳細については、[このセクション](integrating-campaign-sdk-into-the-mobile-application.md)を参照してください。
+1. Adobe Campaign と、SDK を使用するアプリケーションコードで同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。詳しくは、[この節](integrating-campaign-sdk-into-the-mobile-application.md)を参照してください。
 
    >[!NOTE]
    >
@@ -107,12 +107,12 @@ Android の場合、2 種類のコネクタを使用できます。
 
 デフォルトでは、Adobe Campaign は&#x200B;**[!UICONTROL 購読者のアプリケーション（nms:appSubscriptionRcp）]**&#x200B;テーブルの「**[!UICONTROL ユーザー ID]**」（@userKey）フィールドにキーを保存します。このキーによって購読情報を受信者にリンクできます。追加データ（複雑な紐付けキーなど）を収集するには、次の設定を適用する必要があります。
 
-### API バージョンを選択します。{#select-api-version}
+### API バージョンの選択{#select-api-version}
 
-サービスと新しいモバイルアプリケーションを作成したら、選択された API バージョンに応じてモバイルアプリケーションを設定する必要があります。
+サービスと新しいモバイルアプリケーションを作成したら、選択した API バージョンに応じてモバイルアプリケーションを設定する必要があります。
 
-* **HTTP v1の** 設定について詳しくは、この節 [を参照してください](configuring-the-mobile-application-android.md#android-service-httpv1)。
-* **HTTP（レガシー）** の設定について詳しくは、この節 [を参照してください](configuring-the-mobile-application-android.md#android-service-http)。
+* **HTTP v1** の設定について詳しくは、[この節](configuring-the-mobile-application-android.md#android-service-httpv1)を参照してください。
+* **HTTP（レガシー）**&#x200B;の設定について詳しくは、[この節](configuring-the-mobile-application-android.md#android-service-http)を参照してください。
 
 #### HTTP v1 API の設定{#android-service-httpv1}
 
@@ -120,7 +120,7 @@ HTTP v1 API バージョンを設定するには、次の手順に従います�
 
 1. **[!UICONTROL モバイルアプリケーション作成ウィザード]**&#x200B;ウィンドウの「**[!UICONTROL API バージョン]**」ドロップダウンで「**[!UICONTROL HTTPV1]**」を選択します。
 
-1. 「**[!UICONTROL プロジェクトの詳細を抽出するプロジェクトの json ファイルを読み込む...]**」をクリックして、JSON キーファイルを直接読み込みます。JSONファイルの抽出方法について詳しくは、[このページ](https://firebase.google.com/docs/admin/setup#initialize-sdk)を参照してください。
+1. 「**[!UICONTROL プロジェクトの詳細を抽出するプロジェクトの json ファイルを読み込む...]**」をクリックして、JSON キーファイルを直接読み込みます。JSON ファイルの抽出方法について詳しくは、[このページ](https://firebase.google.com/docs/admin/setup#initialize-sdk)を参照してください。
 
    次の詳細を手動で入力することもできます。
    * **[!UICONTROL プロジェクト ID]**

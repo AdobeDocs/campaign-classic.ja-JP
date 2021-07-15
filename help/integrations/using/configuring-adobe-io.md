@@ -9,9 +9,9 @@ internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 source-git-commit: 934964b31c4f8f869253759eaf49961fa5589bff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 
 >[!CAUTION]
 >
->oAuth 認証を通じて古いバージョンの Triggers 統合を使用する場合は、**以下の説明に従って Adobe I/O に移行する必要があります**。Campaign での従来の OAuth 認証モードは、2021 年 11 月 30 日に廃止される予定です。 [詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
+>OAuth 認証による旧バージョンのトリガー統合を使用している場合は、**以下に説明するように Adobe I/O に移行する必要があります**。Campaign での従来の OAuth 認証モードは、2021 年 11 月 30 日に廃止される予定です。 [詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 >
 >[!DNL Adobe I/O] へのこうした移行中に、一部の着信トリガーが失われる可能性があることに注意してください。
 
@@ -30,24 +30,24 @@ ht-degree: 68%
 この実装を開始する前に、以下の点を確認してください。
 
 * 有効な&#x200B;**組織識別子**：Identity Management システム（IMS）の組織識別子は、Adobe Experience Cloud 内の一意の識別子です。この識別子は、VisitorID サービスや IMS シングルサインオン（SSO）などに使用されます。[詳細情報](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja)
-* 組織への&#x200B;**開発者アクセス**。IMS組織のシステム管理者は、「**開発者を単一の製品プロファイルに追加**」に従う必要があります。
-このページの[](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html)で詳しく説明している手順では、トリガーに関連付けられたAdobe Analytics製品の`Analytics - {tenantID}`製品プロファイルに対する開発者アクセス権を提供します。
+* 組織への&#x200B;**開発者のアクセス**。IMS 組織のシステム管理者は、[このページ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html)で詳しく説明している「**単一の製品プロファイルへの開発者の追加**」
+手順に従って、トリガーに関連する Adobe Analytics 製品の `Analytics - {tenantID}` 製品プロファイルに対するアクセス権を開発者に提供する必要があります。
 
 ## 手順 1：Adobe I/O プロジェクトの作成と更新 {#creating-adobe-io-project}
 
-1. [!DNL Adobe I/O]にアクセスし、IMS組織の開発者アクセス権を使用してログインします。
+1. [!DNL Adobe I/O] にアクセスし、IMS 組織の開発者アクセス権を使用してログインします。
 
    >[!NOTE]
    >
    > 正しい組織ポータルにログインしていることを確認します。
 
-1. 既存の統合クライアント識別子（クライアントID）をインスタンス設定ファイルims/authIMSTAClientIdから抽出します。 属性が存在しないか空の場合は、クライアント識別子が設定されていません。
+1. 既存の統合クライアント識別子（クライアント ID） をインスタンス設定ファイル（ims/authIMSTAClientId）から抽出します。存在しない属性または空の属性は、クライアント識別子が設定されていないことを示します。
 
    >[!NOTE]
    >
    >クライアント識別子が空の場合は、Adobe I/O で直接&#x200B;**[!UICONTROL 新しいプロジェクトを作成]**&#x200B;できます。
 
-1. 抽出したクライアント識別子を使用して、既存のプロジェクトを識別します。前の手順で抽出したものと同じクライアント識別子を持つ既存のプロジェクトを探します。
+1. 抽出したクライアント識別子を使用して、既存のプロジェクトを識別します。前の手順で抽出されたものと同じクライアント識別子を持つ既存のプロジェクトを探します。
 
    ![](assets/do-not-localize/adobe_io_8.png)
 
@@ -69,7 +69,7 @@ ht-degree: 68%
 
    >[!CAUTION]
    >
-   >ダウンロードプロンプトが表示されたら、config.zipファイルを保存する必要があります。これは、再度ダウンロードできないためです。
+   >再度ダウンロードすることができないので、ダウンロードプロンプトが表示されたら、config.zip ファイルを保存してください。
 
    ![](assets/do-not-localize/adobe_io_4.png)
 
@@ -100,36 +100,36 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->[手順1でクライアント識別子が空でなかった場合、この手順は不要です。Adobe I/Oプロジェクト](#creating-adobe-io-project)を作成/更新します。
+>[手順1：Adobe I/O プロジェクトの作成／更新](#creating-adobe-io-project)でクライアント識別子が空でなかった場合、この手順は不要です。
 
 秘密鍵は、Base64 UTF-8 形式でエンコードする必要があります。それには、次の手順に従います。
 
 1. [手順 1：Adobe I/O プロジェクトの作成と更新](#creating-adobe-io-project)で生成された秘密鍵を使用します。秘密鍵は、統合の作成に使用したものと同じである必要があります。
 
-1. コマンド `base64 ./private.key > private.key.base64` を使用して秘密鍵をエンコードします。これにより、base64コンテンツが新しいファイル`private.key.base64`に保存されます。
+1. `base64 ./private.key > private.key.base64` というコマンドを使用して秘密鍵をエンコードします。これにより、base64 コンテンツが新しいファイル `private.key.base64` に保存されます。
 
    >[!NOTE]
    >
    >秘密鍵をコピーして貼り付けるときに、余分な行が自動的に追加される場合があります。 これは、秘密鍵をエンコードする前に忘れずに削除してください。
 
-1. ファイル`private.key.base64`から内容をコピーします。
+1. ファイル `private.key.base64` からコンテンツをコピーします。
 
-1. Adobe Campaignインスタンスがインストールされている各コンテナにSSHでログインし、次のコマンドを実行してAdobe Campaignにプロジェクト資格情報を追加します（`neolane`ユーザーとして）。 これにより、**[!UICONTROL テクニカルアカウント]**&#x200B;資格情報がインスタンス設定ファイルに挿入されます。
+1. Adobe Campaign インスタンスがインストールされている各コンテナに SSH 経由でログインし、`neolane` ユーザーとして次のコマンドを実行して Adobe Campaign にプロジェクト資格情報を追加します。これにより、**[!UICONTROL テクニカルアカウント]**&#x200B;資格情報がインスタンス設定ファイルに挿入されます。
 
    ```
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
 
-## 手順 3：パイプライン化されたタグの更新 {#update-pipelined-tag}
+## 手順 3：パイプラインタグの更新 {#update-pipelined-tag}
 
 >[!NOTE]
 >
->[手順1でクライアント識別子が空でなかった場合、この手順は不要です。Adobe I/Oプロジェクト](#creating-adobe-io-project)を作成/更新します。
+>[手順 1：Adobe I/O プロジェクトの作成／更新](#creating-adobe-io-project)でクライアント識別子が空でなかった場合、この手順は不要です。
 
-[!DNL pipelined] タグを更新するには、設定ファイル（**config-&lt;インスタンス名>.xml**）で、認証タイプを以下のように Adobe I/O プロジェクトに更新する必要があります。
+[!DNL pipelined] タグを更新するには、設定ファイル **config-&lt; instance-name >.xml** で、以下のように認証タイプを Adobe I/O プロジェクトに更新する必要があります。
 
 ```
 <pipelined ... authType="imsJwtToken"  ... />
 ```
 
-次に、`config -reload`を実行し、[!DNL pipelined]を再起動して変更を反映します。
+次に、`config -reload` を実行し、[!DNL pipelined] を再起動して変更内容を反映させます。

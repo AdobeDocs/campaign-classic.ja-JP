@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 * [配信の検証](steps-validating-the-delivery.md)
 * [配信の送信](steps-sending-the-delivery.md)
 
-## 詳細パラメーター {#advanced-parameters}
+## 詳細設定パラメーター {#advanced-parameters}
 
 **[!UICONTROL プロパティ]**&#x200B;ボタンをクリックすると、高度な配信パラメーターにアクセスできます。SMS 配信に特有のパラメーターは、「**[!UICONTROL 配信]**」タブの「**[!UICONTROL SMS パラメーター]**」節にあります。
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 * [配信エラーについて](understanding-delivery-failures.md)
 * [メッセージのトラッキングについて](about-message-tracking.md)
 
-## インバウンドメッセージの処理 {#processing-inbound-messages}
+## 受信メッセージの処理 {#processing-inbound-messages}
 
 **nlserver sms** モジュールは、一定の時間間隔で SMS ルーターにクエリを発行します。これにより、Adobe Campaign で配信の進行状況をトラッキングし、ステータスレポートや受信者の購読解除リクエストに対処できます。
 

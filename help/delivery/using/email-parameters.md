@@ -7,17 +7,17 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
 ht-degree: 100%
 
 ---
 
-# メールパラメーター {#email-parameters}
+# E メールパラメーター {#email-parameters}
 
 この節では、E メール配信に固有のオプションとパラメーターについて説明します。
 
-## BCC でメールを送信 {#email-bcc}
+## BCC で E メールを送信 {#email-bcc}
 
 Adobe Campaign では、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存することができます。
 
@@ -107,7 +107,7 @@ E メール配信テンプレートの「BCC で E メールを送信」を有�
 
 ![](assets/s_ncs_user_email_del_properties_smtp_tab_encoding.png)
 
-## バウンスメールの管理 {#managing-bounce-emails}
+## バウンス E メールの管理 {#managing-bounce-emails}
 
 配信パラメーターの「**[!UICONTROL SMTP]**」タブでは、バウンスメール管理を設定できます。
 

@@ -8,9 +8,9 @@ topic-tags: sending-push-notifications
 version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -290,9 +290,9 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 
    >[!NOTE]
    >
-   >バージョン7.0以降、**application:didReceiveRemoteNotification:fetchCompletionHandler**&#x200B;関数を実装すると、オペレーティングシステムはこの関数のみを呼び出します。 したがって、**application:didReceiveRemoteNotification** 関数は呼び出されません。
+   >バージョン 7.0 以降は、**application:didReceiveRemoteNotification:fetchCompletionHandler** 関数を実装すると、オペレーティングシステムはこの関数のみを呼び出します。したがって、**application:didReceiveRemoteNotification** 関数は呼び出されません。
 
-## 無音の通知のトラッキング {#silent-notification-tracking}
+## サイレント通知のトラッキング {#silent-notification-tracking}
 
 iOS では、無音の通知（表示されることなくモバイルアプリケーションに直接送信される通知またはデータ）を送信できます。Adobe Campaign では、このような通知をトラッキングすることができます。
 
@@ -332,7 +332,7 @@ iOS では、無音の通知（表示されることなくモバイルアプリ�
 }
 ```
 
-### registerDeviceStatus デリゲート {#registerdevicestatus-delegate}
+### RegisterDeviceStatus デリゲート {#registerdevicestatus-delegate}
 
 >[!NOTE]
 >
@@ -424,7 +424,7 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 @end
 ```
 
-**registerDeviceStatus** デリゲートを実装するには、以下の手順を実行します。
+**RegisterDeviceStatus** デリゲートを実装するには、以下の手順を実行します。
 
 1. SDK の初期化中に **setDelegate** を実装します。
 

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: subscriptions-and-referrals
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ E メールの場合、必須の購読解除リンクが自動的に生成され
 
 ## 情報サービスの作成 {#creating-an-information-service}
 
-関連付けられた確認メッセージまたは購読者への自動配信を使用して、情報サービスを作成し、購読を管理できます。
+関連する確認メッセージや購読者への自動配信を備えた情報サービスを作成し、そのサービスの購読を管理できます。
 
 情報サービスマップにアクセスするには、「**[!UICONTROL プロファイルとターゲット]**」タブを開いて、「 **[!UICONTROL サービスと購読]**」リンクをクリックします。
 
@@ -142,7 +142,7 @@ E メールの場合、必須の購読解除リンクが自動的に生成され
 
 ### 受信者のサービスからの購読解除 {#unsubscribing-a-recipient-from-a-service}
 
-#### 手動購読解除 {#manual-unsubscribing}
+#### 手動での購読解除 {#manual-unsubscribing}
 
 法令により、E メール配信には購読解除リンクを含める必要があります。受信者は、このリンクをクリックして自分のプロファイルを更新し、今後の配信のターゲットから除外させることができます。
 
@@ -162,8 +162,8 @@ E メールの場合、必須の購読解除リンクが自動的に生成され
 
 母集団の購読解除ワークフローを設定することもできます。そのためには、購読ワークフローと同じ手順に従いますが、「**[!UICONTROL 購読解除]**」オプションを選択します。[受信者のサービスへの購読登録](#subscribing-a-recipient-to-a-service)を参照してください。
 
-### 購読者トラッキング {#subscriber-tracking}
+### 購読者のトラッキング {#subscriber-tracking}
 
-ダッシュボードの「**[!UICONTROL レポート]**」リンクを使用して、情報サービスの購読の推移をトラッキングできます。
+ダッシュボードの「**[!UICONTROL レポート]**」リンクを使用して、情報サービスの購読の変化をトラッキングできます。
 
 ![](assets/s_ncs_user_services_report.png)

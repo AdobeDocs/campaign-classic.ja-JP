@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: content-management
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 >
 >実際には、スキーマ、フォーム、パブリッシュテンプレートに同じキーを使用することをお勧めします。
 
-## パブリッシュテンプレートの作成と設定 {#creating-and-configuring-the-template}
+## テンプレートの作成と設定 {#creating-and-configuring-the-template}
 
 パブリッシュテンプレートは、デフォルトでは&#x200B;**[!UICONTROL 管理／設定／パブリッシュテンプレート]**&#x200B;ノードに保存されます。新しいテンプレートを作成するには、テンプレートのリストの上の&#x200B;**[!UICONTROL 新規]**&#x200B;ボタンをクリックします。
 

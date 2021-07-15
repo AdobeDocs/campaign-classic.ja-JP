@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 
 このファイルは、サーバー上で、このテンプレートから作成された別の配信に添付できるようになります。
 
-### パーソナライズ済みメッセージの添付 {#attach-a-personalized-message}
+### パーソナライズされたメッセージの添付 {#attach-a-personalized-message}
 
 「**[!UICONTROL 各メッセージの配信時に、ファイルコンテンツをパーソナライズして PDF 形式に変換します]**」オプションを使用すると、パーソナライゼーションフィールドでファイルを選択できます（対象の受信者の姓と名など）。
 
@@ -115,7 +115,7 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 >
 >パフォーマンスの問題を回避するために、パーソナライズされた URL からその場でダウンロードされた画像を添付ファイルとして含める場合は、デフォルトで各画像サイズが 100,000 バイトを超えないようにする必要があります。この推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
 
-### 計算されたファイルの添付 {#attach-a-calculated-file}
+### 計算済みファイルの添付 {#attach-a-calculated-file}
 
 配信の準備中に添付ファイルの名前を計算できます。これをおこなうには、「**[!UICONTROL 配信分析時にファイル名を生成（受信者プロファイルは利用不可）]**」オプションを選択します。
 

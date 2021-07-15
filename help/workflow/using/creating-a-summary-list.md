@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-cases
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1060'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 96%
 1. 「購入品」テーブルから集計したデータを使用して、「連絡先」データをエンリッチメントする
 1. サマリーリストの作成
 
-## 手順1:ファイルを読み込み、インポートしたデータを紐付け {#step-1--loading-the-file-and-reconciling-the-imported-data}
+## 手順 1：ファイルの読み込みとインポートしたデータの紐付け {#step-1--loading-the-file-and-reconciling-the-imported-data}
 
 読み込むデータは、「購入品」に関係する、以下の形式のデータです。
 
@@ -110,7 +110,7 @@ Phone;500;London 5
 
 ![](assets/uc2_enrich_population1.png)
 
-## 手順2:「購入品」テーブルへのエンリッチメントされたデータの書き込み {#step-2--writing-enriched-data-to-the--purchases--table}
+## 手順 2：「購入品」テーブルへのエンリッチデータの書き込み {#step-2--writing-enriched-data-to-the--purchases--table}
 
 このステップでは、インポートされエンリッチメントされたデータを「購入品」テーブルに書き込む方法を詳しく説明します。これをおこなうには、「**データを更新**」アクティビティを使用する必要があります。
 
@@ -134,7 +134,7 @@ Phone;500;London 5
 
 ![](assets/uc2_enrich_miseajour.png)
 
-## 手順3:「連絡先」データのエンリッチメント {#step-3--enriching--contact--data-}
+## 手順 3：「連絡先」データのエンリッチメント {#step-3--enriching--contact--data-}
 
 「連絡先」スキーマは「購入品」スキーマと物理的にリンクします。これは、フィルタリングディメンションにリンクしたデータを追加するという、「エンリッチメント」オプションの別のオプションが利用できることを意味します。
 
@@ -170,7 +170,7 @@ Phone;500;London 5
 
    ![](assets/uc2_enrich_enrich8.png)
 
-## 手順4:概要リストの作成と追加 {#step-4--creating-and-adding-to-a-summary-list}
+## 手順 4：概要リストの作成とリストへのデータの追加 {#step-4--creating-and-adding-to-a-summary-list}
 
 最後のステップでは、エンリッチメントしたデータをすべてリストに書き込みます。
 

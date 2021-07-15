@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: about-deliveries-and-channels
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1746'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 * **シードアドレス**：配信ターゲットには含まれないが、配信を受け取る受信者（マーケティングキャンペーンのコンテキストでのみ）。[詳細情報](about-seed-addresses.md)
 * **コントロール母集団**：配信を受け取らない母集団。行動とキャンペーンの影響の追跡に使用されます（マーケティングキャンペーンのコンテキストでのみ）。[詳細情報](../../campaign/using/marketing-campaign-target.md#defining-a-control-group)。
 
-## 配信のメイン受信者の選択 {#selecting-the-main-target}
+## 配信の主要受信者の選択 {#selecting-the-main-target}
 
 ほとんどの場合、メインターゲットは Adobe Campaign データベースから抽出されます（デフォルトモード）。ただし、受信者は、外部ファイルに保存することもできます。詳しくは、[この節](steps-defining-the-target-population.md#selecting-external-recipients)を参照してください。
 
@@ -110,7 +110,7 @@ ht-degree: 100%
 >
 >E メール配信用のメッセージコンテンツを定義する際に、ミラーページへのリンクを含めないように注意してください。この配信モードでは、ミラーページを生成できません。
 
-### 除外設定の設定 {#customizing-exclusion-settings}
+### 除外設定のセットアップ {#customizing-exclusion-settings}
 
 アドレスエラーと品質評価の情報はサービスプロバイダー（IAP）から提供されます。この情報は、配信アクションの後、サービスプロバイダーから返されるファイルに基づき、受信者プロファイルに自動的に反映されます。また、プロファイル上では読み取り専用情報として参照できます。
 
@@ -187,7 +187,7 @@ ht-degree: 100%
 
 配達確認の送信について詳しくは、[この節](steps-validating-the-delivery.md#sending-a-proof)を参照してください。
 
-### 配達確認のアドレス置換の使用 {#using-address-substitution-in-proof}
+### 配達確認でのアドレス置換の使用 {#using-address-substitution-in-proof}
 
 データベースで専用の受信者を選択する代わりに、「**[!UICONTROL アドレスの代用]**」オプションを使用できます。
 

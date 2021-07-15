@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作が必�
 
 * Neotrips モバイルアプリケーション用に、**[!UICONTROL モバイルアプリケーション]**&#x200B;タイプの情報サービスを作成します。iOS については、[この節](configuring-the-mobile-application.md#configuring-ios-service)を参照してください。Android については、[この節](configuring-the-mobile-application-android.md#configuring-android-service)を参照してください。
 * このサービスに、iOS バージョンと Android バージョンのアプリケーションを追加します。
-* [iOS](create-notifications-ios.md)と[Android](create-notifications-android.md)の配信を作成します。
+* [iOS](create-notifications-ios.md) と [Android](create-notifications-android.md) 用の配信を作成します。
 
 ![](assets/nmac_service_diagram.png)
 
@@ -31,7 +31,7 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作が必�
 
 ## パッケージのインストール {#installing-package-ios}
 
-![](assets/do-not-localize/how-to-video.png) [モバイルアプリパッケージのインストール方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=ja#sending-messages)
+![](assets/do-not-localize/how-to-video.png) [モバイルアプリパッケージのインストール方法をビデオで確認](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=ja#sending-messages)
 
 ハイブリッド／ホスト型のお客様は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)チームに連絡して、Campaign のプッシュ通知チャネルにアクセスします。
 

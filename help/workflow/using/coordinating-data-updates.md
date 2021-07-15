@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-cases
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
 source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '303'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,5 +53,5 @@ ht-degree: 98%
 
 **関連トピック：**
 
-* [同時複数実行の防止](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
-* [データ更新アクティビティ](../../workflow/using/update-data.md)
+* [複数の同時実行の防止](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
+* [ 「データを更新」アクティビティ](../../workflow/using/update-data.md)

@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Adobe Campaign Classic ドキュメントのアップデート
+title: Adobe Campaign Classic ドキュメントの更新
 description: このページでは、Adobe Campaign Classic のドキュメントのすべての新機能と更新をリストします
 feature: 概要
 role: User
@@ -9,13 +9,13 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '4476'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # ドキュメントの更新{#documentation-updates}
 
-このページには、毎月および Campaign の各リリースに関するすべての新機能とドキュメントのアップデートが記載されています。
+このページでは、すべての新機能とドキュメント更新情報の一覧が月ごとおよび Campaign リリースごとに記載されています。
 
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
 
@@ -116,7 +116,7 @@ Adobe Campaign のインスタンスで使用されている埋め込み Tomcat 
 
 新しい&#x200B;**データのインポートとエクスポート**&#x200B;の節が、ワークフロー、データ圧縮、暗号化、インポートのベストプラクティスに関する新しいページで利用できます。[詳細を表示](../../platform/using/get-started-data-import-export.md)
 
-## 2020 月 12 日 {#dec-2020}
+## 2020 年 12 月 {#dec-2020}
 
 **配信の監視**&#x200B;の節が、主題に沿ったトピックに再編成されました。[詳細を表示](../../delivery/using/about-delivery-monitoring.md)
 
@@ -306,7 +306,7 @@ Spam Assassin のインストールの節が、新しいインストールファ
 
 データパッケージのベストプラクティスに関する節が移動および更新されました。[詳細情報](../../platform/using/working-with-data-packages.md#data-package-best-practices)
 
-## 2020年4月 {#april-2020}
+## 2020 年 4 月 {#april-2020}
 
 FDA 権限テーブルは、「外部データベースへのアクセス（FDA）」ドキュメントに移動されました。[詳細を表示](../../installation/using/remote-database-access-rights.md)
 
@@ -322,7 +322,7 @@ Adobe Campaign の組み込みデータモデルに関する節の各テーブ�
 
 Adobe Campaign Enhanced MTA の記事が更新されました。現在は Campaign Classic にのみ適用されます。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html)
 
-## 2020年3月 {#march-2020}
+## 2020 年 3 月 {#march-2020}
 
 データモデルのベストプラクティスを更新し、[シーケンス](../../configuration/using/data-model-best-practices.md#sequences)、[パフォーマンス](../../configuration/using/data-model-best-practices.md#performance)、[大きなテーブル](../../configuration/using/data-model-best-practices.md#large-tables)などの新しい節を追加しました。[詳細を表示](../../configuration/using/data-model-best-practices.md)
 
@@ -408,7 +408,7 @@ Adobe Campaign Classic のオファー管理およびインタラクションモ
 
 ワークフローでインスタンス変数を使用する方法の例が追加されました。[詳細を表示](../../workflow/using/javascript-scripts-and-templates.md)
 
-## 2019 月 12 日 {#december-2019}
+## 2019 年 12 月 {#december-2019}
 
 「WdbcOptions_TempDbName」オプションがキャンペーンオプションのリストに追加されました。[詳細を表示](../../installation/using/configuring-campaign-options.md)
 
@@ -460,9 +460,9 @@ E メールの送信時に使用する文字エンコーディングの強制適
 
 配信のベストプラクティス入門ガイドが更新されました。[詳細を表示](../../delivery/using/delivery-best-practices.md)
 
-## 2019 年 10 月 日 {#october-2019}
+## 2019 年 10 月 {#october-2019}
 
-Campaign のエラーメッセージのリストが更新されました。[詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
+Campaign のエラーメッセージのリストが更新されました。[詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja)
 
 GDPR の入門ガイドが改善され、強化されました。GDPR や CCPA を含む、プライバシー管理に関するドキュメントになりました。[詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/campaign-privacy.html)
 
@@ -478,7 +478,7 @@ Adobe Analytics Connector のベストプラクティスのページを新しく
 
 オンプレミスインストールの受信ボックスレンダリングを設定する手順がドキュメントに追加されました。[詳細を表示](../../delivery/using/inbox-rendering.md#activating-inbox-rendering)
 
-## 2019年9月 {#september-2019}
+## 2019 年 9 月 {#september-2019}
 
 Campaign Classic の管理に関する一般的なガイドラインを提供する新しいページが追加されました。[詳細を表示](../../production/using/monitoring-guidelines.md)
 
@@ -567,7 +567,7 @@ Campaign ハードウェアのサイズ設定ガイドが更新されました�
 
 Teradata 外部アカウントの Query Banding に関する情報が追加されました。[詳細を表示](../../installation/using/external-accounts.md)
 
-## 2019 年 1 月 日{#release-doc-16-01-2019}
+## 2019 年 1 月{#release-doc-16-01-2019}
 
 Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](../../integrations/using/about-triggers.md)
 

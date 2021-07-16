@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2038'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Adobe Campaign は、Adobe Experience Cloud ソリューションの一部です
 
 Adobe Experience Cloud のプライバシーについて詳しくは、[このページ](https://www.adobe.com/jp/privacy/marketing-cloud.html)を参照してください。
 
-## 個人データとペルソナ{#personal-data}
+## 個人データとペルソナ {#personal-data}
 
 プライバシーを管理する場合、どのデータを誰がどのように扱うかを定義することが重要です。
 * **個人データ**&#x200B;は、生存する個人を直接または間接的に識別できる情報です。
@@ -85,7 +85,7 @@ Campaign を、[Adobe Analytics](../../platform/using/adobe-analytics-connector.
 
 したがって、個人データを収集し共有する会社はデータ管理者で、そのクライアントはデータ主体です。Adobe Campaign は、お客様の指示に従って個人データを処理する際に、データ処理者として機能します。[プライバシーリクエスト](#privacy-requests)を管理する場合など、データ主体との関係を処理するのはデータ管理者側の責任となるため注意が必要です。
 
-### 使用例のシナリオ{#use-case-scenario}
+### 使用例のシナリオ {#use-case-scenario}
 
 さまざまなペルソナがどのように関わり合っているかを説明するため、GDPR の顧客体験の高レベルの使用例を以下に示します。
 
@@ -120,7 +120,7 @@ Adobe Campaign を使用すると、個人情報や機密情報などのデー�
 * 同意と権限の管理を通じて、受信者の好みを追跡し、組織内の誰がどのデータにアクセスできるかを管理できます。詳しくは、[この節](#consent)を参照してください。
 * 受信者からのプライバシーリクエストを円滑に処理して管理します。詳しくは、[この節](#privacy-requests)を参照してください。
 
-## プライバシーの管理 {#privacy-management}
+## プライバシー管理 {#privacy-management}
 
 プライバシー管理とは、プライバシー規制（GDPR、CCPA など）の遵守に役立つすべてのプロセスとツールを指します。プライバシー管理の概要については、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)で確認してください。
 
@@ -176,7 +176,7 @@ Adobe Campaign では、送信された E メールと配信受信者の動作�
 
 これをおこなうには、[トラッキング用リンク](../../delivery/using/how-to-configure-tracked-links.md)をメッセージに追加して、配信ダッシュボードの「[トラッキング](../../delivery/using/delivery-dashboard.md#tracking-logs)」タブで配信と受信者の動作の影響を測定します。トラッキングデータは、[トラッキングインジケーター](../../reporting/using/delivery-reports.md#tracking-indicators)レポートで解釈されます。
 
-### web トラッキング {#web-tracking}
+### Web トラッキング {#web-tracking}
 
 また、Adobe Campaign では、受信者が web サイトをどのように参照するかを監視できます。トラッキングタグを挿入して、情報を収集し、web アプリケーションページ上の訪問回数を測定します。詳しくは、[web アプリケーションのトラッキング](../../web/using/tracking-a-web-application.md)を参照してください。
 

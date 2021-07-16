@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
 
 ---
 
-# データのインポートとエクスポートの基礎知識 {#get-started-data-import-export}
+# データのインポートとエクスポートの基本を学ぶ {#get-started-data-import-export}
 
 Adobe Campaign Classic は、データのインポートとエクスポートを可能にするデータ管理機能を備えています。 これらの操作は、ワークフローまたは一般的なインポートおよびエクスポートのいずれかを使用して実行できます。
 

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 100%
 
@@ -421,7 +421,7 @@ Adobe Campaign クライアントコンソールのメインメニューで&#x20
 
 特定のキャンペーンに対しては、パッケージ番号「200」を使用しないでください。この番号は、すべてのキャンペーンに関する情報を更新する際に使用されます。
 
-#### アップデートパッケージ{#update-package}
+#### アップデートパッケージ {#update-package}
 
 最後に、アップデートパッケージの番号について説明します。アップデートパッケージには、プレフィックスが「5」のパッケージ番号（エンティティ、機能またはキャンペーン）が割り当てられます。次に例を示します。
 * 5001 で 1 つのスキーマを更新

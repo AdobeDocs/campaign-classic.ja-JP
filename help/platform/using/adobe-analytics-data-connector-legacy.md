@@ -11,17 +11,17 @@ hide: true
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1834'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Adobe Analytics コネクタ{#adobe-analytics-data-connector-legacy}
+# Adobe Analytics Data Connector{#adobe-analytics-data-connector-legacy}
 
 >[!IMPORTANT]
 >
 >Adobe Analytics データコネクタは非推奨となりました。非推奨（廃止予定）の機能は引き続き使用できますが、それ以上の機能強化やサポートは行われません。詳しくは、[このページ](../../rn/using/deprecated-features.md)を参照してください。
 
-## Data コネクタ統合について {#about-data-connector-integration}
+## コネクタの統合について {#about-data-connector-integration}
 
 >[!IMPORTANT]
 >
@@ -48,7 +48,7 @@ Adobe Analytics と Adobe Campaign の統合の実装について詳しくは、
 
 ## 統合の設定 {#setting-up-the-integration}
 
-Data コネクタを設定するには、Adobe Campaign インスタンスに接続し、次の操作を実行する必要があります。
+コネクタを設定するには、Adobe Campaign インスタンスに接続し、次の操作を実行する必要があります。
 
 * [手順 1：Analytics での統合の設定](#step-1--configure-integration-in-analytics)
 * [手順 2：Campaign での外部アカウントの作成](#step-2--create-the-external-account-in-campaign)
@@ -68,7 +68,7 @@ Data コネクタを設定するには、Adobe Campaign インスタンスに接
 
 1. 「**[!UICONTROL 管理者]**」タブで、「**[!UICONTROL Data Connectors]**」を選択します。
 
-   **[!UICONTROL Data Connectors]** メニューにアクセスするには、次の Analytics ツールの権限が必要です。詳しくは、この[ページ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)を参照してください。
+   **[!UICONTROL Data Connectors]** メニューにアクセスするには、次の Analytics ツールの権限が必要です。詳しくは、この[ページ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=ja)を参照してください。
    * 統合（作成）
    * 統合（更新）
    * 統合（削除）
@@ -247,7 +247,7 @@ Adobe Campaign で配信を送信した後、Adobe Experience Cloud でサイト
 
    ![](assets/webanalytics_delivery_properties_002.png)
 
-1. 配信を送信し、Adobe Analytics でレポートにアクセスできるようになりました。
+1. 配信を送信し、Adobe Analytics で配信のレポートにアクセスできるようになりました。
 
 ## リマーケティングキャンペーンの作成 {#creating-a-re-marketing-campaign}
 

@@ -9,7 +9,7 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -155,7 +155,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <p>2016年</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
-<p>警告：Linux で Campaign サーバーを実行している場合、Microsoft SQL Server はプライマリデータベースとしてサポートされません。[詳細情報](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers)。</p>
+<p>警告：Linux で Campaign サーバーを実行している場合、Microsoft SQL Server はプライマリデータベースとしてサポートされません。［詳細情報］（../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers）。</p>
 </td>
 </tr>
 </tbody>

@@ -9,7 +9,7 @@ exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: c5e1b10b82c8ea1cf8bcb617ee48fe13e16fbfd9
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ _2021 年 4 月 14 日_
 
 >[!CAUTION]
 >
-> * Adobe IDを使用してCampaignにAdobeIdentity Managementサービス(IMS)で接続している場合、2021年6月30日以降にCampaignに接続できるようにするには、Campaignサーバーとクライアントコンソールの両方のアップグレードが必須です。 ****[詳細](../../technotes/ims-updates.md)
+> * Adobe IDを使用してCampaignにAdobeIdentity Managementサービス(IMS)で接続している場合、2021年6月30日以降にCampaignに接続できるようにするには、Campaignサーバーとクライアントコンソールの両方のアップグレードが必須です。 ****[詳細情報](../../technotes/ims-updates.md)
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 > * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、**2021 年 11 月 30 日**&#x200B;に終了します。
 
@@ -48,7 +48,7 @@ _2021 年 3 月 2 日_
 
 >[!NOTE]
 >
-> [アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続して、新しいバージョンをダウンロードします。 [このページ](../../installation/using/client-console-availability-for-windows.md)では、すべてのエンドユーザーに対してコンソールの更新を提案する方法について説明します。
+> [アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)に接続して、新しいバージョンをダウンロードします。 [このページ](../../installation/using/client-console-availability-for-windows.md)では、すべてのエンドユーザーに対してコンソールの更新を提案する方法について説明します。
 
 _2020 年 12 月 22 日_
 
@@ -73,7 +73,7 @@ _2020 年 12 月 22 日_
 
 * **エンリッチメント**&#x200B;アクティビティの実行時にワークフローが失敗する可能性がある問題を修正しました。（NEO-17338）
 
-## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 10 リリース{#gs-10}
+## ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard]  10 リリース{#gs-10}
 
 _2020 年 7 月 7 日_
 

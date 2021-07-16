@@ -10,22 +10,22 @@ exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1786'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Adobe Analytics コネクタ{#adobe-analytics-connector}
+# Adobe Analytics Connector{#adobe-analytics-connector}
 
-## Adobe Analytics コネクタの統合について {#about-analytics-connector-integration}
+## Adobe Analytics Connector の統合について {#about-analytics-connector-integration}
 
 Adobe Analytics コネクタを使用すると、Adobe Campaign と Adobe Analytics が **[!UICONTROL Web 分析コネクタ]**&#x200B;パッケージを介してやり取りできます。 メールキャンペーン後のユーザー行動に関するデータをセグメントの形式で Adobe Campaign に送信します。逆に、Adobe Campaign から配信された メールキャンペーンの指標と属性を Adobe Analytics に送信します。
 
 >[!CAUTION]
 >
->* Adobe Analytics コネクタは、トランザクションメッセージ（Message Center）との互換性はありません。
+>* Adobe Analytics Connector は、トランザクションメッセージ（Message Center）との互換性はありません。
    >
    >
-* 開始する前に、AdobeIdentity Managementシステム(IMS)がCampaignに実装されていることを確認します。 詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
+* 開始する前に、Adobe Identity Management System（IMS）が Campaign に実装されていることを確認します。詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
 
 
 Adobe Analytics コネクタを使用すると、Adobe Campaign でインターネットオーディエンスを測定することができます（Web 分析）。このような統合を通じて、Adobe Campaign では 1 つ以上のサイトでマーケティングキャンペーン後の訪問者の行動に関するデータを収集し、（分析後に）訪問者を購入者に変換できるようリマーケティングキャンペーンを実行できます。また反対に、Adobe Campaign では、Web 分析ツールを使用して指標およびキャンペーン属性をプラットフォームに転送できます。
@@ -45,7 +45,7 @@ Adobe Analytics コネクタを使用すると、Adobe Campaign でインター�
 
 ## 統合の設定 {#setting-up-the-integration}
 
-Data コネクタを設定するには、Adobe Campaign インスタンスに接続し、次の操作を実行する必要があります。
+コネクタを設定するには、Adobe Campaign インスタンスに接続し、次の操作を実行する必要があります。
 
 1. [Adobe Analytics でのレポートスイートの作成](#report-suite-analytics)
 1. [コンバージョン変数と成功イベントの設定](#configure-conversion-success)
@@ -260,7 +260,7 @@ Adobe Campaign で配信を送信した後、Adobe Experience Cloud でサイト
 
    ![](assets/webanalytics_delivery_properties_002.png)
 
-1. 配信を送信し、Adobe Analytics でレポートにアクセスできるようになりました。
+1. 配信を送信し、Adobe Analytics で配信のレポートにアクセスできるようになりました。
 
 ## リマーケティングキャンペーンの作成 {#creating-a-re-marketing-campaign}
 

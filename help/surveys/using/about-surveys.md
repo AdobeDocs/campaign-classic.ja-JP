@@ -26,9 +26,8 @@ Adobe Campaign には、web アプリケーションを定義および公開す�
 >[!NOTE]
 >
 >* 標準 web フォームの作成手順について詳しくは、[このドキュメント](../../web/using/about-web-forms.md)を参照してください。
-   >
-   >
-* Web アプリケーション管理について詳しくは、[このドキュメント](../../web/using/about-web-applications.md)を参照してください。詳しくは、この章を参照してください。
+>
+>* Web アプリケーション管理について詳しくは、[このドキュメント](../../web/using/about-web-applications.md)を参照してください。詳しくは、この章を参照してください。
 
 
 ## 機能の範囲 {#campaign-surveys-scope}

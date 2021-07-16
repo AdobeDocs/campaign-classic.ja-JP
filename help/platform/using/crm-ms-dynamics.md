@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 * **Office 365** と共に使用します。 この統合を設定する主な手順については、[こちらのビデオ](#microsoft-dynamics-office-365)を参照してください。
 * **オンプレミス**&#x200B;デプロイメントの場合は、Office 365 の主な手順を適用します。
 
-データ同期は、専用のワークフローアクティビティを使用して実行します。 [詳細情報](../../platform/using/crm-data-sync.md)。
+データ同期は、専用のワークフローアクティビティを使用して実行します。 [詳細情報](../../platform/using/crm-data-sync.md)
 
 ## 実装手順{#microsoft-dynamics-implementation-steps}
 
@@ -48,10 +48,10 @@ Campaign Classic 内：
 
 
 >[!CAUTION]
->
 > Adobe Campaign を Microsoft Dynamics に接続する場合、次のことはできません。
 > * CRM の動作が変わり Adobe Campaign との互換性の問題が生じる可能性があるプラグインのインストール
 > * 複数の列挙の選択
+
 >
 
 
@@ -73,7 +73,7 @@ Campaign Classic 内：
 
 詳しくは、[こちらのページ](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory)を参照してください。
 
-### Microsoft Dynamics クライアントシークレットの生成 {#config-client-secret-microsoft}
+### Microsoft Dynamics Client シークレットの生成 {#config-client-secret-microsoft}
 
 クライアントシークレットは、クライアント ID に対して一意のキーです。 証明書キー識別子を取得するには、次の手順に従います。
 

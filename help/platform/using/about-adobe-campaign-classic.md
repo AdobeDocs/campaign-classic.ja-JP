@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Campaign Classic の概要{#about-adobe-campaign-classic}
+# Campaign Classic の基本を学ぶ{#about-adobe-campaign-classic}
 
 高いレベルの顧客エンゲージメントを実現し、優れたエクスペリエンスを提供するには、あらゆる顧客接点で一貫したカスタマージャーニーを用意する必要があります。最新のマーケティングソリューションを利用すれば、マーケティング ROI の最大化とロイヤリティの強化を実現するクロスチャネルのマーケティングキャンペーンを効率的に設計、計画、展開、管理、最適化することができます。
 
@@ -51,7 +51,7 @@ Adobe Campaign には強力で使いやすいセグメント化機能とター�
 
 Adobe Campaign を使用すると、メール、ダイレクトメール、SMS、プッシュ通知などの複数のチャネルで、ターゲットを絞りパーソナライズしたキャンペーンの設計とオーケストレーションを行えます。すべてのキャンペーンおよび通信をスケジュール、編成、設定、パーソナライズ、自動化、実行および測定するために必要なすべての機能が、単一のインターフェイスに用意されています。キャンペーンのスケジュールおよび実行について詳しくは、[このページ](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
 
-### パーソナライゼーションとリアルタイムのインタラクション {#personalization-and-real-time-interaction}
+### パーソナライゼーションとリアルタイムインタラクション {#personalization-and-real-time-interaction}
 
 顧客プロファイルと環境設定に基づいてメッセージコンテンツとヘッダーを効果的にパーソナライズすることで、顧客の注意を引き、応答率を向上させます。メッセージコンテンツ管理とパーソナライゼーションについて詳しくは、[このページ](../../delivery/using/about-personalization.md)を参照してください。コンテンツ、通知および承認サイクルの協調管理について詳しくは、[この節](../../mrm/using/about-marketing-resource-management.md)で説明しています。
 
@@ -59,7 +59,7 @@ Adobe Campaign を使用すると、メール、ダイレクトメール、SMS�
 
 Adobe Campaign では、顧客のデータおよびプロファイルを段階的にエンリッチメントすることによって、顧客の行動を監視および解釈できます。レポートおよび分析ツールを使用すると、各新規キャンペーンから利益を得たり、マーケティング戦略のターゲティングを向上させたり、投資への影響および投資利益率を最適化したりできます。詳しくは、[このページ](../../reporting/using/delivery-reports.md)を参照してください。
 
-### Adobe Experience Cloud 統合 {#adobe-experience-cloud-integrations}
+### Adobe Experience Cloud の統合 {#adobe-experience-cloud-integrations}
 
 Adobe Campaign の配信機能と高度なキャンペーン管理機能を、ユーザーエクスペリエンスのパーソナライズを支援するために作成された一連のソリューション（Adobe Experience Manager、Adobe Analytics、Adobe Target または Adobe Experience Cloud Triggers など）と組み合わせることができます。Adobe IMS と統合し、Adobe ID を使用して Campaign にログインすることもできます。クロスソリューションと認証統合について詳しくは、[この節](../../integrations/using/about-adobe-id.md)を参照してください。
 

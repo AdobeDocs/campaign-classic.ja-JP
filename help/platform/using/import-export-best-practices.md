@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '523'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 * 区切り記号：タブまたはセミコロン
 * 最初の行は見出し
 * 文字列の区切り記号なし
-* 日付フォーマット：YYYY/MM/DD HH:mm:SS
+* 日付の形式：YYYY/MM/DD HH:mm:SS
 
 インポートするファイルの例：
 

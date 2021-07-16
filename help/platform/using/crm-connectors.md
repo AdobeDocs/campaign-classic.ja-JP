@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 >この機能は、**CRM コネクタ**&#x200B;専用パッケージを通じて Adobe Campaign で使用できます。
 
 
-### 対応するシステム {#compatible-crm-systems-and-limitations}
+### 互換性のあるシステム {#compatible-crm-systems-and-limitations}
 
 サポートされている CRM とそのバージョンについて詳しくは、Campaign の[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
 

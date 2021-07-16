@@ -9,7 +9,7 @@ exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1560'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ _2020 年 12 月 23 日_
 
 >[!CAUTION]
 >
-> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を介して Campaign に接続する場合は、 **2021 年 6 月 30 日**&#x200B;以降、Campaign サーバーとクライアントコンソールのいずれも、Campaign に接続できるようにするには、アップグレードが必要です。[詳細](../../technotes/ims-updates.md)
+> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を通じて Campaign に接続している場合、**2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign サーバーとクライアントコンソールの両方が Campaign に接続できるようにするには、アップグレードする必要があります。[詳細情報](../../technotes/ims-updates.md)
    >
    > 
 * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
@@ -77,7 +77,7 @@ _2020 年 2 月 17 日_
  <tbody> 
   <tr> 
    <td> <p>Snowflake は完全管理されたクラウドデータウェアハウスで、ストレージおよびコンピュートの両方のレベルで拡張できます。この新しいコネクタを使うと、Adobe Campaign は Snowflake の力を活用してビッグデータのセグメント化を実行できるようになりました。このコネクタは、アドビがホストする顧客を含め、すべての顧客が利用できます。</p>
-    <p>詳しくは、<a href="../../installation/using/configure-fda-snowflake.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html">チュートリアルビデオ</a>を参照してください。</p>
+    <p>詳しくは、<a href="../../installation/using/configure-fda-snowflake.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html?lang=ja">チュートリアルビデオ</a>を参照してください。</p>
    </td> 
   </tr> 
  </tbody> 

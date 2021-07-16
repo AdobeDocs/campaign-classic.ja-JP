@@ -9,11 +9,11 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
 workflow-type: tm+mt
 source-wordcount: '1634'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 非推奨および削除された機能 {#deprecated-and-removed-features}
+# 非推奨（廃止予定）および削除された機能 {#deprecated-and-removed-features}
 
 アドビは、製品の機能を評価し続けて、より新しい代替手段に置き換えるべき旧機能を特定し、全体的な顧客の価値を向上させ、常に後方互換性を慎重に考慮します。Adobe Campaign Classic はサードパーティ製ツールと連携しており、サポート対象バージョンのみに対応するために、定期的に互換性が更新されています。Adobe Campaign Classic と互換性がなくなったバージョンを、以下および[互換性マトリックス](../../rn/using/compatibility-matrix.md)に示します。
 
@@ -29,7 +29,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
 
 ## 非推奨（廃止予定）の機能 {#deprecated-features}
 
-この節では、最新の Campaign Classic リリースで非推奨とマークされている機能を一覧化します。
+この節では、最新の Campaign Classic リリースで非推奨（廃止予定）となった機能の一覧を示します。
 
 一般に、将来のリリースで削除される予定の機能は、まず非推奨に設定されます。これらの機能は、新しい Campaign Classic の顧客は利用できなくなるか、新しい実装には使用するべきではないものです。また、製品ドキュメントからも削除されます。
 
@@ -43,9 +43,9 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
     <tr>
   <td>Adobe Analytics コネクタ<br></td>
-   <td><p>Campaign 21.1.3 リリース以降、Adobe Analytics コネクタは非推奨になりました。</p>
+   <td><p>Campaign 21.1.3 リリース以降、Adobe Analytics Data Connector は非推奨（廃止予定）になりました。</p>
    <p>このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../platform/using/adobe-analytics-connector.md">詳細情報</a></p>
-  <p><em>削除のターゲット日：2022年3月2日</em></p>
+  <p><em>削除予定日：2022 年 3 月 1 日（PT）</em></p>
   </td>
  </tr>
     <tr>
@@ -132,7 +132,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
 
 ## 非推奨（廃止予定）の互換性 {#deprecated-compatibility}
 
-Campaign Classic では、次のシステムが非推奨（廃止予定）になっています。[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照し、互換性がなくなる前に、新しいバージョンにアップグレードするか、新しいシステムに移行してください。
+Campaign Classic では、次のシステムが非推奨（廃止予定）になっています。[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照して、互換性がなくなる前に新しいバージョンにアップグレードするか新しいシステムに移行してください。
 
 ### Adobe Campaign 20.2 リリース  {#compat-20-2-release}
 
@@ -166,9 +166,9 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 * Windows Server 2008。[詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/1163)
 * SLES 11。[詳細情報](https://www.suse.com/lifecycle)
 
-### web サーバー {#web-server-eol}
+### Web サーバー {#web-server-eol}
 
-19.1 Spring リリースより、Adobe Campaign は次の WEB サーバーへの対応を終了します。
+19.1 Spring リリース以降、Adobe Campaign は下記の web サーバーに対応しなくなります。
 
 * Apache 2.2。[詳細情報](https://httpd.apache.org/)
 * Microsoft IIS 7。[詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/810)
@@ -178,7 +178,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 19.1 Spring リリースより、Adobe Campaign は次のツールへの対応を終了します。
 
 * Java JDK 7。[詳細情報](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
-* Libre Office 3.5／4.3／5.x（他のツールに埋め込まれた場合を除く）。[詳細](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
+* Libre Office 3.5／4.3／5.x（他のツールに埋め込まれた場合を除く）。[詳細情報](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### データベースエンジン {#dbe-eol}
 

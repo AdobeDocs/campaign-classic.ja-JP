@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '1617'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1615'
+ht-degree: 97%
 
 ---
 
@@ -92,7 +92,7 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 >
 >このメモは、一般的な「**[!UICONTROL CRM コネクタ]**」アクティビティにのみ適用されます。他の CRM アクティビティの場合、プロセスは自動です。
 >
->このオプションは、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;を使用して手動で作成および設定する必要があります。これはテキストオプションである必要があり、その値は、**yyyy/MM/dd hh:mm:ss** というフォーマットに一致する必要があります。
+>このオプションは、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;を使用して手動で作成および設定する必要があります。これはテキストオプションである必要があり、その値は次の形式と一致する必要があります。**yyyy/MM/dd hh:mm:ss**&#x200B;です。
 > 
 >以降のインポートではこのオプションを手動で更新する必要があります。
 
@@ -111,7 +111,7 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 
    >[!NOTE]
    >
-   >これらの日付は、**yyyy/MM/dd hh:mm:ss** というフォーマットで表示されます。
+   >これらの日付は、次の形式で表示されます。**yyyy/MM/dd hh:mm:ss**&#x200B;です。
 
 ### データのフィルタリング {#filtering-data}
 
@@ -184,7 +184,7 @@ Adobe Campaign データを CRM にエクスポートすると、コンテンツ
    >
    >エクスポートされるレコードのリストとエクスポートの結果は、ワークフローが終了または再開されるまでアクセス可能な一時ファイルに保存されます。これにより、同じレコードを複数回エクスポートしたりデータを失ったりすることなく、エラーが発生した場合にプロセスを再度開始できます。
 
-## 任意の追加設定 {#additional-configurations}
+## その他の設定 {#additional-configurations}
 
 ### データフォーマット {#data-format}
 

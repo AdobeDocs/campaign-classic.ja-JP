@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
 source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Adobe Campaign を使用する際の、プライバシーと同意に関する�
 
 * Adobe Campaign の各ユーザーについて、要求されるタスクの実行に必要なアクセス権限が設定され、それ以外のタスクをおこなう権限が設定されていないことを確認してください。
 
-## ユーザーエンゲージメントを保持{#preserve-user-engagement}
+## ユーザーエンゲージメントを保持 {#preserve-user-engagement}
 
 ### データ管理者がユーザーエンゲージメントへの影響を最小限に抑えながら同意を得るにはどうすればよいですか。
 
@@ -84,7 +84,7 @@ Adobe Campaign には既に同意管理機能があり、カスタマイズさ�
 
 例えば、Adobe Campaign のデータモデルを拡張することにより、ユーザーがオプトインしたかどうかを追跡するだけでなく、オプトインのタイムスタンプや、同意の正確な範囲を把握するための特定の指標を追跡することもできます。
 
-## データ削除{#data-deletion}
+## データ削除 {#data-deletion}
 
 ### データ管理者は自社の顧客（データ主体）の要求に応じて Adobe Campaign のどのデータを削除できますか。
 
@@ -98,7 +98,7 @@ Adobe Campaign には既に同意管理機能があり、カスタマイズさ�
 
 Adobe Campaign のレポートは、配信ログとトラッキングログを集計したデータから計算された指標に基づいています。このため、個々のログを削除しても、レポートに表示される測定値には影響はありません。
 
-## データの再インポート{#re-import-data}
+## データの再インポート {#re-import-data}
 
 ### 後日にデータを再インポートする必要性を考慮する必要はありますか？
 

@@ -23,8 +23,9 @@ Adobe Analytics コネクタを使用すると、Adobe Campaign と Adobe Analyt
 >[!CAUTION]
 >
 >* Adobe Analytics Connector は、トランザクションメッセージ（Message Center）との互換性はありません。
->
->* 開始する前に、Adobe Identity Management System（IMS）が Campaign に実装されていることを確認します。詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
+   >
+   >
+* 開始する前に、Adobe Identity Management System（IMS）が Campaign に実装されていることを確認します。詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
 
 
 Adobe Analytics コネクタを使用すると、Adobe Campaign でインターネットオーディエンスを測定することができます（Web 分析）。このような統合を通じて、Adobe Campaign では 1 つ以上のサイトでマーケティングキャンペーン後の訪問者の行動に関するデータを収集し、（分析後に）訪問者を購入者に変換できるようリマーケティングキャンペーンを実行できます。また反対に、Adobe Campaign では、Web 分析ツールを使用して指標およびキャンペーン属性をプラットフォームに転送できます。

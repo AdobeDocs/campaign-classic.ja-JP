@@ -187,7 +187,7 @@ Campaign オンプレミスモデル、ホストモデル、およびハイブ�
 
 レポートのプロパティページは、設定を容易にするために再編成され、強化されました。[詳細を表示](../../reporting/using/properties-of-the-report.md)
 
-レガシーバイナリプロトコルから HTTP/2 ベースの APN プロバイダー API に移行する方法の詳細に関する新しいテクニカルノートが作成されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
+レガシーバイナリプロトコルから HTTP/2 ベースの APN プロバイダー API に移行する方法の詳細に関する新しいテクニカルノートが作成されました。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
 
 ## 2020 年 9 月 {#september-2020}
 

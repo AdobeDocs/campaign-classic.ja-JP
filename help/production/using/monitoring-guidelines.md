@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 27%
@@ -25,7 +25,7 @@ Campaign Classicのホームページからアクセスできる「**[!UICONTROL
 
 ![](assets/monitoring_tab.png)
 
-## 監視Campaign Classicプロセス{#monitoring-campaign-classic-processes}
+## Campaign Classicプロセスの監視 {#monitoring-campaign-classic-processes}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">インスタンスの監視</a></p></td>
@@ -36,7 +36,7 @@ Campaign Classicのホームページからアクセスできる「**[!UICONTROL
 
 様々なキャンペーンプロセスを監視するその他の方法を使用できます。 インスタンスを監視する方法はいくつかあり、システムが正常であることを確認し、ワークフローの設定や配信の送信などの際に発生する可能性のある問題のトラブルシューティングをおこなうことができます。
 
-### インスタンスの監視{#monitoring-instance}
+### インスタンスの監視 {#monitoring-instance}
 
 <img src="assets/do-not-localize/icon_system.svg" width="60px">
 
@@ -56,7 +56,7 @@ Campaign Classicのホームページからアクセスできる「**[!UICONTROL
 >
 >コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
 >
->インスタンスは AWS でホストされ、最新の [Gold Standard](../../rn/using/gs-overview.md) ビルドまたは[最新の GA ビルド（21.1）](../../rn/using/latest-release.md)にアップグレードする必要があります。 バージョンを確認する方法については、[この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
+>インスタンスは AWS でホストされ、最新の [Gold Standard](../../rn/using/gs-overview.md) ビルドまたは[最新の GA ビルド（21.1.3）](../../rn/using/latest-release.md)にアップグレードする必要があります。 バージョンを確認する方法については、[この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
 
 ### ワークフローの監視 {#monitoring-workflows}
 
@@ -82,7 +82,7 @@ Campaign Classicのホームページからアクセスできる「**[!UICONTROL
 
 ワークフローを使用する際のガイドラインとベストプラクティスに従うことで、パフォーマンスを向上できます。 詳しくは、次の節を参照してください。
 * [ワークフローを使用する際のベストプラクティス](../../workflow/using/workflow-best-practices.md)
-* [監視ワークフローの実行](../../workflow/using/monitoring-workflow-execution.md)
+* [ワークフローの実行の監視](../../workflow/using/monitoring-workflow-execution.md)
 
 ### 配信の監視 {#monitoring-deliveries}
 
@@ -103,7 +103,7 @@ SMTPレポートには、ドメインごとに配信統計とSMTPエラーが表
 * [配信パフォーマンスの問題](../../delivery/using/delivery-performances.md)
 * [一時ファイルの問題](../../production/using/temporary-files.md)  — オンプレミ *スでのホスティングモデルのみ*
 
-### データベース{#monitoring-database}の監視
+### データベースの監視 {#monitoring-database}
 
 <img src="assets/do-not-localize/icon_database.svg" width="60px">
 
@@ -127,7 +127,7 @@ SMTPレポートには、ドメインごとに配信統計とSMTPエラーが表
 
 マシン上の問題（物理的な問題でもシステム関連の問題でも）が発生した場合にデータが失われないように、バックアップは不可欠です。 詳しくは、[ここをクリック](../../production/using/backup.md)してください。復元手順については、[この節](../../production/using/restoration.md)で説明します。
 
-## Campaign Classicの技術原則{#campaign-classic-technical-principles}
+## Campaign Classicの技術原則 {#campaign-classic-technical-principles}
 
 技術リソースは、Campaign Classicドキュメントに記載されています。 インスタンスに対して技術的な操作を実行する前に、これらのトピックについて理解しておくことをお勧めします。
 

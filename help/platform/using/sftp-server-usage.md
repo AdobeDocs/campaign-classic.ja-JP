@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 100%
@@ -45,7 +45,7 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 >
 >コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
 >
->インスタンスは、最新の [Gold Standard](../../rn/using/gs-overview.md) ビルドまたは[最新の GA ビルド（21.1）](../../rn/using/latest-release.md)を使用してアップグレードする必要があります。 バージョンを確認する方法については、[この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。
+>インスタンスは、最新の [Gold Standard](../../rn/using/gs-overview.md) ビルドまたは[最新の GA ビルド（21.1.3）](../../rn/using/latest-release.md)を使用してアップグレードする必要があります。 バージョンを確認する方法については、[この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。
 
 * サーバーのサイズ機能は、ライセンスによって異なります。いずれの場合でも、最小限のデータを保持し、必要な期間だけデータを保持します（最長で 15 日）。
 

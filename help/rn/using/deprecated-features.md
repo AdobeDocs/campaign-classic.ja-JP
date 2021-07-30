@@ -6,10 +6,10 @@ feature: 概要
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 23d22283df418bb32eb7d2cb226bb7926e73bd0c
+source-git-commit: 4420aab0067048d1fb47b184ede579235dcd9819
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 100%
+source-wordcount: '1649'
+ht-degree: 99%
 
 ---
 
@@ -236,7 +236,7 @@ Adobe Campaign は、次の SMS コネクタと互換性がありません。
 
 ### CRM コネクタ {#crm-connectors}
 
-Campaign 21.1 リリース以降、次の CRM コネクタは Campaign で非推奨になりました。
+Campaign 21.1リリースより、次のCRMコネクタはCampaignとの互換性を失います。
 
 * SOAP API - オンプレミス：2007、2015、2016
 * SOAP API - オンライン：2015、2016

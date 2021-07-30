@@ -6,9 +6,9 @@ feature: 概要
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
 workflow-type: tm+mt
-source-wordcount: '4476'
+source-wordcount: '4485'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 100%
 このページでは、すべての新機能とドキュメント更新情報の一覧が月ごとおよび Campaign リリースごとに記載されています。
 
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
+
+## 2021 年 7 月 {#july-2021}
+
+[Campaign 21.1.3 リリース](../../rn/using/latest-release.md#release-21-1-3-build-9330)は一般提供（GA）に移行しました。
+
 
 ## 2021 年 6 月 {#june-2021}
 

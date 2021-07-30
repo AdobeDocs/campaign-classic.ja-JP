@@ -4,8 +4,8 @@ title: 'Campaign Classic のヘルプおよびサポートオプション '
 description: Campaign Classic のサポートが必要な場合は、こちらから確認してください。
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
+workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 
 <img src="platform/using/assets/do-not-localize/icon-control-panel.svg" width="60px">
 
-### コントロールパネルとは？
+### コントロールパネルとは
 
 Campaign コントロールパネルを使用すると、各インスタンスの設定を管理したり使用状況をトラッキングしたりできるので、Campaign Classic の製品管理者としての作業を効率化できます。
 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)してください。
@@ -99,7 +99,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 >
 >コントロールパネルは、すべての管理者ユーザーからアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)を参照してください。
 >
->インスタンスは AWS でホストする必要があり、また最新の [Gold Standard](rn/using/gs-overview.md) ビルドまたは[最新の GA ビルド（21.1）](rn/using/latest-release.md)にアップグレードする必要があります。 バージョンを確認する方法については、[この節](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
+>インスタンスは AWS でホストされ、最新の [Gold Standard](rn/using/gs-overview.md) ビルドまたは[最新の GA ビルド（21.1.3）](rn/using/latest-release.md)にアップグレードする必要があります。 バージョンを確認する方法については、[この節](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
 
 ### コントロールパネルにアクセスするには？
 
@@ -107,7 +107,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 ### コントロールパネルのよくある質問（FAQ）
 
-Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)します。
+Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)します。
 
 ### SFTP 管理
 
@@ -140,10 +140,10 @@ Campaign Classic コミュニティへの参加：既存の質問の回答を検
 
 ### Campaign ダウンロードセンターへのアクセス
 
-2020 年 6 月現在、Experience Cloud ソリューションソフトウェア配布は、従来の Neolane ダウンロードセンターに代わるものであり、ソフトウェア、パッケージ、ツールの検索およびダウンロードのエクスペリエンスが効率化されています。Experience Cloud ソフトウェア配布にアクセスするには、[ここをクリック](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)します。新しいダウンロードセンターについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)を参照してください。
+2020 年 6 月現在、Experience Cloud ソリューションソフトウェア配布は、従来の Neolane ダウンロードセンターに代わるものであり、ソフトウェア、パッケージ、ツールの検索およびダウンロードのエクスペリエンスが効率化されています。Experience Cloud ソフトウェア配布にアクセスするには、[ここをクリック](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)します。新しいダウンロードセンターについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)を参照してください。
 
 ### チケットの作成またはチャットの開始
 
 ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。 問題の解決やトラブルシューティングのヘルプとして、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
 
-新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview) に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)を参照してください。
+新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview) に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)を参照してください。

@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 11de485a97d112b308c145775537d9b6255f124f
+source-git-commit: 94664ec56d269afef926663c52b84ccaaab02480
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 80%
+source-wordcount: '1827'
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Campaign には、事前に定義された一連の外部アカウント�
 
 外部アカウントは、テクニカルワークフローやキャンペーンワークフローなどの技術プロセスで使用されます。例えば、ワークフローにおけるファイル転送や、他のアプリケーション（Adobe Target、Experience Manager など）とのデータ交換などをセットアップする場合、外部アカウントを選択する必要がありす。
 
-##  外部アカウントの作成 {#creating-an-external-account}
+## 外部アカウントの作成 {#creating-an-external-account}
 
 新しい外部アカウントを作成するには、次の手順に従います。 詳細な設定は、外部アカウントのタイプによって異なります。
 
@@ -74,7 +74,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 
    **[!UICONTROL デフォルト]**、**[!UICONTROL POP3 + STARTTLS]**、**[!UICONTROL POP3]** または **[!UICONTROL POP3S]** から選択した暗号化のタイプ。
 
-### Routing{#routing-external-account}
+### ルーティング{#routing-external-account}
 
 **[!UICONTROL ルーティング]**&#x200B;外部アカウントを使用すると、インストールしているパッケージに応じて、Adobe Campaign で利用可能な各チャネルを設定できます。
 
@@ -168,11 +168,11 @@ SFTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバー
 
    SFTP サーバーへの接続に使用するパスワード。
 
-### 外部データベース(FDA) {#external-database-external-account}
+### 外部データベース（FDA） {#external-database-external-account}
 
-**外部データベース**&#x200B;タイプの外部アカウントを使用して、外部データベースに接続します。 Federated Data Access(FDA)オプションの詳細については、[この節](../../installation/using/about-fda.md)を参照してください。
+**外部データベース**&#x200B;タイプの外部アカウントを使用して、外部データベースに接続します。 Federated Data Access（FDA）オプションについて詳しくは、[この節](../../installation/using/about-fda.md)を参照してください。
 
-Campaignと互換性のある外部データベースは、互換性マトリックス[に記載されています。](../../rn/using/compatibility-matrix.md)
+ Campaign と互換性のある外部データベースは、[互換性マトリックス](../../rn/using/compatibility-matrix.md)に記載されています。
 
 ![](assets/ext_account_11.png)
 
@@ -288,19 +288,17 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
 詳しくは、[この節](../../integrations/using/about-adobe-experience-manager.md)を参照してください。
 
-
-
-## CRMコネクタの外部アカウント
+## CRM コネクタの外部アカウント
 
 ### Microsoft Dynamics CRM {#microsoft-dynamics-crm-external-account}
-
-**[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントがあれば、Microsoft Dynamics データを Adobe Campaign にインポートおよびエクスポートできます。
-
-Campaign - Microsoft Dynamics CRMコネクタについて詳しくは、この[ページ](../../platform/using/crm-ms-dynamics.md)を参照してください。
 
 >[!NOTE]
 >
 > **[!UICONTROL オンプレミ]** スおよび **[!UICONTROL Office 365]** のデプロイメントタイプは非推奨（廃止予定）となりました。[詳細情報](../../rn/using/deprecated-features.md)。
+
+**[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントを使用すると、Microsoft Dynamics データを Adobe Campaign に読み込みおよび書き出しできます。
+
+Campaign - Microsoft Dynamics CRMコネクタについて詳しくは、この[ページ](../../platform/using/crm-ms-dynamics.md)を参照してください。
 
 **[!UICONTROL Web API]** デプロイメントタイプと&#x200B;**[!UICONTROL パスワード資格情報]**&#x200B;認証を使用する場合、以下の詳細を指定する必要があります。
 
@@ -314,13 +312,15 @@ Campaign - Microsoft Dynamics CRMコネクタについて詳しくは、この[�
 
    Microsoft CRM サーバーの URL。
 
+   Microsoft CRM **[!UICONTROL サーバーURL]**&#x200B;を見つけるには、Microsoft Dynamics CRMアカウントにアクセスし、**Dynamics 365**&#x200B;をクリックして、アプリを選択します。 次に、ブラウザーのアドレスバーに&#x200B;**[!UICONTROL サーバーURL]**&#x200B;を探します。例：`https://myserver.crm.dynamics.com/`.
+
 * **[!UICONTROL クライアント識別子]**
 
    **[!UICONTROL コードを更新]**&#x200B;カテゴリ、**[!UICONTROL クライアント ID]** フィールドの Microsoft Azure 管理ポータルにあるクライアント ID。
 
 * **[!UICONTROL CRM バージョン]**
 
-   **[!UICONTROL Dynamics CRM 2007]**、**[!UICONTROL Dynamics CRM 2015]** または **[!UICONTROL Dynamics CRM 2016]** の CRM バージョン。
+   **[!UICONTROL Dynamics CRM 365]** CRMバージョンを選択します。
 
 **[!UICONTROL Web API]** デプロイメントタイプと&#x200B;**[!UICONTROL 証明書]**&#x200B;認証を使用する場合、以下の詳細を指定する必要があります。
 
@@ -330,9 +330,13 @@ Campaign - Microsoft Dynamics CRMコネクタについて詳しくは、この[�
 
    Microsoft CRM サーバーの URL。
 
+   Microsoft CRM **[!UICONTROL サーバーURL]**&#x200B;を見つけるには、Microsoft Dynamics CRMアカウントにアクセスし、**Dynamics 365**&#x200B;をクリックして、アプリを選択します。 次に、ブラウザーのアドレスバーに&#x200B;**[!UICONTROL サーバーURL]**&#x200B;を探します。例：`https://myserver.crm.dynamics.com/`.
+
 * **[!UICONTROL 秘密鍵 (Base64 エンコード)]**
 
-   Base 64 にエンコードされた秘密鍵
+   秘密鍵はBase64にエンコードする必要があります。
+
+   これを行うには、Base64エンコーダの助けを借りるか、Linuxのコマンドライン`base64 -w0 private.key`を使用します。
 
 * **[!UICONTROL カスタムキー識別子]**
 
@@ -348,7 +352,7 @@ Campaign - Microsoft Dynamics CRMコネクタについて詳しくは、この[�
 
 この設定について詳しくは、この[ページ](../../platform/using/crm-connectors.md)を参照してください。
 
-### Salesforce.com CRM {#salesforce-crm-external-account}
+### Salesforce.com CRM  {#salesforce-crm-external-account}
 
 **[!UICONTROL Salesforce CRM]** 外部アカウントを使用すれば、Adobe Campaign から Salesforce データをインポートおよびエクスポートできます。
 
@@ -382,7 +386,7 @@ Salesforce CRM 外部アカウントを Adobe Campaign で使用できるよう�
 
 ## データ外部アカウントの転送
 
-### Amazon Simple Storage Service(S3) {#amazon-simple-storage-service--s3--external-account}
+### Amazon Simple Storage Service（S3） {#amazon-simple-storage-service--s3--external-account}
 
 Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。詳しくは、この[ページ](../../workflow/using/file-transfer.md)を参照してください。
 
@@ -420,7 +424,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 ![](assets/ext_account_23.png)
 
-Adobe Campaignと連携するように&#x200B;**[!UICONTROL Azure外部アカウント]**&#x200B;を設定するには、次の情報を提供する必要があります。
+**** Azure 外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報が必要です。
 
 * **[!UICONTROL サーバー]**
 
@@ -432,4 +436,4 @@ Adobe Campaignと連携するように&#x200B;**[!UICONTROL Azure外部アカウ
 
 * **[!UICONTROL アクセスキー]**
 
-   **[!UICONTROL アクセスキー]**&#x200B;の見つけ方については、[ページ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)を参照してください。
+   **[!UICONTROL アクセスキー]**&#x200B;の見つけ方については、[ページ](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)を参照してください。

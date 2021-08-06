@@ -2,10 +2,8 @@
 product: campaign
 title: Adobe Analytics Connector への移行
 description: Campaign - Analytics Connector に関する FAQ
-hide: true
-hidefromtoc: true
-source-git-commit: 41478c656ffd4e113788149e6cca9ed00602789e
-workflow-type: ht
+source-git-commit: e61f9facac61f942d26b4ffcb5a84a43ede6872d
+workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 100%
 
@@ -37,7 +35,7 @@ Campaign Classic v7と Adobe Analytics の間で新しい統合が利用でき�
 
 * 組み込みのテクニカルワークフローとその動作は変わりません。 Adobe Analytics との間でデータのプッシュ／プルを行うためにワークフローで使用されるバックエンド API のみ変更されました。
 
-* 新しいコネクタを動作させるには、`nlserver`プロセスを IMS テクニカルアカウントユーザーに設定してください。この変更は、アドビで行う必要があります。 これを実装するには、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+* 新しいコネクタを動作させるには、`nlserver`プロセスを IMS テクニカルアカウントユーザーに設定してください。この変更は、アドビで行う必要があります。 これを実装するには、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 * Adobe Analytics との間でデータをプルしたりプッシュしたりするためにカスタマイズされたワークフローで Adobe Genesis API を使用していた場合は、新しい Adobe Analytics 1.4/2.0 API を使用する必要があります。[詳細情報](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360047148832-Replacements-for-Data-Connector-API-calls)
 
@@ -85,7 +83,7 @@ Campaign Classic v7と Adobe Analytics の間で新しい統合が利用でき�
 
 Analytics コンポーネント（指標、ディメンション、セグメント、レポートスイートなど）の詳細について読み取っている場合、API は、結果にこれらのコンポーネントを返しません（Analytics 側で何かが削除されたか存在しないように見えます）。Analytics API はこれらのリクエストを拒否し、エラーになります。
 
-解決策としては、[Adobe Admin Console](https://adminconsole.adobe.com/) でこれらのコンポーネントを追加することにより、テクニカルユーザートークンの Analytics ユーザーコンテキストの&#x200B;**製品プロファイル**&#x200B;を更新して、新しく作成または欠落したコンポーネントを反映させます。詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+解決策としては、[Adobe Admin Console](https://adminconsole.adobe.com/) でこれらのコンポーネントを追加することにより、テクニカルユーザートークンの Analytics ユーザーコンテキストの&#x200B;**製品プロファイル**&#x200B;を更新して、新しく作成または欠落したコンポーネントを反映させます。詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 ## 参考になるリンク
 

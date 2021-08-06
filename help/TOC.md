@@ -7,10 +7,10 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: Adobe Campaign Classic
 type: Documentation
-source-git-commit: ee3d643e4ba607b3d7ca816eabf862b867d1f3f4
-workflow-type: ht
-source-wordcount: '2518'
-ht-degree: 100%
+source-git-commit: a54a6f9b8afedf8a200b80b027f908163faebeaa
+workflow-type: tm+mt
+source-wordcount: '2525'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,6 @@ ht-degree: 100%
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
    + [互換性マトリックス](rn/using/compatibility-matrix.md)
    + [テクニカルノート](technotes/technote.md)
-   + [Adobe Analytics Connector の FAQ](technotes/aa-connector-migration.md)
    + [iOS 証明書の更新](technotes/ios-certificate-update.md)
    + [Campaign 設定の更新](technotes/acc-config-updates.md)
    + [トラッキング対象 URL の更新](technotes/tracked-urls.md)
@@ -117,8 +116,10 @@ ht-degree: 100%
          + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
          + [Salesforce.com との接続](platform/using/crm-sfdc.md)
          + [CRM とのデータの同期](platform/using/crm-data-sync.md)
-      + [Adobe Analytics コネクタ](platform/using/adobe-analytics-connector.md)
-      + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
+      + Adobe Analytics コネクタ {#analytics-connector}
+         + [Adobe Analyticsコネクタの統合](platform/using/adobe-analytics-connector.md)
+         + [Adobe Analytics Connector に移行する方法](technotes/aa-connector-migration.md)
+         + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
    + [ヘルプとサポートオプション](support.md)
 + メッセージの作成と送信 {#sending-messages}
    + [メッセージの基本を学ぶ](delivery/using/communication-channels.md)

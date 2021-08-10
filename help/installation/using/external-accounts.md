@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 94664ec56d269afef926663c52b84ccaaab02480
+source-git-commit: 7adde72f615e7c697fa2284235e180c29bc6d470
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 79%
@@ -92,7 +92,6 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 * [iOS チャネル](../../delivery/using/configuring-the-mobile-application.md)
 * [Android チャネル](../../delivery/using/configuring-the-mobile-application-android.md)
 
-
 ### 実行インスタンス  {#execution-instance-external-account}
 
 分割アーキテクチャを使用している場合、コントロールインスタンスにリンクする実行インスタンスを指定し、両者を接続する必要があります。トランザクションメッセージテンプレートは実行インスタンスにデプロイされます。
@@ -112,7 +111,6 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
    「オペレーター」フォルダーで定義されたアカウントのパスワード。
 
 この設定について詳しくは、この[ページ](../../message-center/using/configuring-instances.md#control-instance)を参照してください。
-
 
 ## 外部システムの外部アカウントへのアクセス
 

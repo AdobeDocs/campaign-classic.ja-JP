@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: 9fb5b1a256a7c77e64a449aea9a4489de1f9123a
+source-git-commit: 7adde72f615e7c697fa2284235e180c29bc6d470
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 72%
+source-wordcount: '1122'
+ht-degree: 66%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 72%
 
 Microsoft Dynamics CRM 内：
 1. Microsoft Dynamics クライアント ID の取得
-1. Microsoft Dynamics Client シークレットの生成
+1. Microsoft Dynamics証明書キー識別子とキーIDを生成する
 1. 権限の設定
 1. アプリユーザーの作成
 1. 秘密鍵のエンコード
@@ -66,9 +66,9 @@ Campaign Classic 内：
 
 詳しくは、[こちらのページ](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory)を参照してください。
 
-### Microsoft Dynamics Client シークレットの生成 {#config-client-secret-microsoft}
+### Microsoft Dynamics証明書キー識別子とキーIDを生成する {#config-certificate-key-id}
 
-クライアントシークレットは、クライアント ID に対して一意のキーです。 証明書キー識別子を取得するには、次の手順に従います。
+**証明書キー識別子(customKeyIdentifier)**&#x200B;と&#x200B;**キーID(keyId)**&#x200B;を取得するには、次の手順に従います。
 
 1. **Azure Active Directory／アプリ登録**&#x200B;に移動し、以前に作成されたアプリケーションを選択します。
 1. 「**証明書とシークレット**」をクリックします。
@@ -88,6 +88,8 @@ Campaign Classic 内：
 1. その後、base64でエンコードする必要があります。 これを行うには、Base64エンコーダの助けを借りるか、Linuxのコマンドライン`base64 -w0 private.key`を使用します。
 
 1. **マニフェスト**&#x200B;リンクをクリックして、**証明書キー識別子(customKeyIdentifier)**&#x200B;と&#x200B;**キーID(keyId)**&#x200B;を取得します。
+
+証明書&#x200B;**[!UICONTROL OA-Auth type]**&#x200B;を使用してMicrosoft Dynamics CRM外部アカウントを設定するには、後で&#x200B;**証明書キー識別子(customKeyIdentifier)**&#x200B;と&#x200B;**キーID(keyId)**&#x200B;が必要になります。
 
 ### 権限の設定 {#config-permissions-microsoft}
 
@@ -192,6 +194,10 @@ Microsoft Dynamics 365とCampaignに接続するには、Campaignで専用の&#x
    ![](assets/crm_connectors_msdynamics_06.png)
 
 これで Campaign と Microsoft Dynamics が接続されました。 2 つのシステム間でデータの同期を設定できます。 詳しくは、[データ同期](../../platform/using/crm-data-sync.md)の節を参照してください。
+
+>[!NOTE]
+>
+> 次の2つのURLを必ず許可リストに追加する必要があります。サーバーのURLと`login.microsoftonline.com`がサーバー設定に含まれている。
 
 ## サポートされるフィールドデータ型 {#ms-dyn-supported-types}
 

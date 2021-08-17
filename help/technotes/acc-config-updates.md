@@ -5,8 +5,8 @@ description: テクニカルノート
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 037e56040bd63edfdfee5ab6bf73b45d3a138072
-workflow-type: ht
+source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
+workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../integrations/us
 
 * Gold Standard 11。 [詳細情報](../rn/using/gold-standard.md)
 * Campaign 21.1.1 リリース。 [詳細情報](../rn/using/latest-release.md)
-* Campaign 20.2.4 リリース。 [詳細情報](../rn/using/release--20-2.md)
+* Campaign 20.2.5 リリース。 [詳細情報](../rn/using/release--20-2.md)
 * Campaign 20.1.4 リリース。 [詳細情報](../rn/using/release--20-1.md)
 * Campaign 19.2.4 リリース。 [詳細情報](../rn/using/release--19-2.md)
 * Campaign 19.1.8 リリース。 [詳細情報](../rn/using/release--19-1.md)
@@ -162,7 +162,7 @@ Campaign を使用して iOS デバイスでプッシュ通知を送信する場
 
 [新しい証明書を組み込む方法を説明します](ios-certificate-update.md)。
 
-## 役立つリンク
+## 参考になるリンク
 
 * [環境のアップグレード](../production/using/build-upgrade.md)
 * [ビルドのアップグレードに関する FAQ](../platform/using/faq-build-upgrade.md)

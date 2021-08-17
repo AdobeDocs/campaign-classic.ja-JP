@@ -4,8 +4,8 @@ title: IMS を使用して Adobe Campaign に接続するための環境の更�
 description: Campaign - IMS の更新
 hide: true
 hidefromtoc: true
-source-git-commit: 883ac681e0bf0e4ccf916c745924b7340a4d22f9
-workflow-type: ht
+source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
+workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../integra
 
    * Gold Standard 11。 [詳細情報](../rn/using/gold-standard.md)
    * Campaign 21.1.3 リリース。 [詳細情報](../rn/using/latest-release.md)
-   * Campaign 20.2.4 リリース。 [詳細情報](../rn/using/release--20-2.md)
+   * Campaign 20.2.5 リリース。 [詳細情報](../rn/using/release--20-2.md)
    * Campaign 20.1.4 リリース。 [詳細情報](../rn/using/release--20-1.md)
    * Campaign 19.2.4 リリース。 [詳細情報](../rn/using/release--19-2.md)
    * Campaign 19.1.8 リリース。 [詳細情報](../rn/using/release--19-1.md)
@@ -75,7 +75,7 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../integra
 
 ![](../integrations/using/assets/do-not-localize/errorMsg.png)
 
-このような警告が表示された場合は、使用しているオペレーティングシステムの最新のアップデートをインストールしてください。 [詳細情報](https://helpx.adobe.com/jp/x-productkb/global/update-operating-system-and-browser.html)
+このような警告が表示された場合は、使用しているオペレーティングシステムの最新のアップデートをインストールしてください。 [詳細情報](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
 **2021 年 6 月 30 日（PT）以降**、次のメッセージが表示され、Adobe Campaign に接続できなくなります。
 

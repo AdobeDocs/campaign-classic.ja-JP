@@ -5,10 +5,10 @@ description: テクニカルノート
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 550c4afc5cc77867b56d17565bef3f18b1df12a2
+source-git-commit: 28d60a02e3c94264c5ee311cf6ea2d21fd89bd4b
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../integrations/us
 
 ## Experience Cloud トリガーとの統合 {#acc-triggers-updates}
 
-従来の OAuth 認証サービスはサポート終了になりました。 トリガー統合認証は、元々、パイプラインにアクセスするためにoAUTH認証設定に基づいていたので、Adobe I/Oに移動しました。[Campaignの従来のoAuth認証モードは、**2021年8月19日(PT)に廃止](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)されました。** ホスト環境のメリットは、**2021年11月30日(PT)までです。** オンプレミスまたはハイブリッドのお客様は、Adobeカスタマーケアに連絡して、サポートを2021年11月30日まで延長してください。 Adobeに[OAuthアプリケーション](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)のAppIDを指定する必要があります。
+従来の OAuth 認証サービスはサポート終了になりました。 トリガー統合認証は、元々、パイプラインにアクセスするためにoAUTH認証設定に基づいていたので、Adobe I/Oに移動しました。[Campaignの従来のoAuth認証モードは、**2021年8月19日(PT)に廃止](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)されました。** ホスト環境のメリットは、**2021年11月30日(PT)までです。** オンプレミスまたはハイブリッドのお客様は、Adobeカスタマーケアに連絡して、サポートを2021年11月30日まで延長してください。 Adobeに[OAuthアプリケーション](../integrations/using/configuring-pipeline.md?lang=en#step-optional)のAppIDを指定する必要があります。
 
 **影響の有無**
 

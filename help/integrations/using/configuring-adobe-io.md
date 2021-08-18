@@ -8,10 +8,10 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 601cc3883d7fa8abaa86161365c4230cbe30765c
+source-git-commit: 550c4afc5cc77867b56d17565bef3f18b1df12a2
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 96%
+source-wordcount: '751'
+ht-degree: 94%
 
 ---
 
@@ -22,8 +22,7 @@ ht-degree: 96%
 >OAuth 認証による旧バージョンのトリガー統合を使用している場合は、**以下に説明するように Adobe I/O に移行する必要があります**。
 >[!DNL Adobe I/O] へのこうした移行中に、一部の着信トリガーが失われる可能性があることに注意してください。
 >
->Campaignを使用した従来のoAuth認証モードは、ハイブリッド環境およびオンプレミス環境の場合は2021年8月18日(a0/>)、ホスト環境の場合は&#x200B;**2021年11月30日(a3/>)に廃止されます。******[詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
-
+>[Campaignの従来のoAuth認証モードは、**2021年8月19日(PT)に廃止](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)されました。** ホスト環境のメリットは、**2021年11月30日(PT)までです。** オンプレミスまたはハイブリッドのお客様は、Adobeカスタマーケアに連絡して、サポートを2021年11月30日まで延長してください。 Adobeに[OAuthアプリケーション](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)のAppIDを指定する必要があります。
 
 ## 前提条件 {#adobe-io-prerequisites}
 

@@ -5,10 +5,10 @@ description: テクニカルノート
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 8e18a3633e6b806a971678d985c55c123854438e
+source-git-commit: 601cc3883d7fa8abaa86161365c4230cbe30765c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1110'
+ht-degree: 96%
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../integrations/us
 
 ## Experience Cloud トリガーとの統合 {#acc-triggers-updates}
 
-従来の OAuth 認証サービスはサポート終了になりました。 トリガー統合の認証は、もともとパイプラインにアクセスするために OAuth 認証設定に基づいていましたが、Adobe I/O に移行しました。**2021 年 11 月 30 日**&#x200B;を以て廃止されます。 [詳細情報](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)。
+従来の OAuth 認証サービスはサポート終了になりました。 トリガー統合認証は、元々、パイプラインにアクセスするためにoAUTH認証設定に基づいていたので、Adobe I/Oに移動しました。ハイブリッド環境およびオンプレミス環境の場合は&#x200B;**2021年8月18日**、ホスト環境の場合は&#x200B;**2021年11月30日**&#x200B;に廃止されます。 [詳細情報](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)。
 
 **影響の有無**
 

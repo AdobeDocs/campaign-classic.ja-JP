@@ -6,10 +6,10 @@ feature: 概要
 role: User
 level: Beginner
 exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
-source-git-commit: 601cc3883d7fa8abaa86161365c4230cbe30765c
+source-git-commit: 550c4afc5cc77867b56d17565bef3f18b1df12a2
 workflow-type: tm+mt
-source-wordcount: '1966'
-ht-degree: 98%
+source-wordcount: '1995'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ _2020 年 10 月 27 日_
 >
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を通じて Campaign に接続している場合、 **2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign サーバーとクライアントコンソールの両方が Campaign に接続できるようにするには、アップグレードする必要があります。[詳細情報](../../technotes/ims-updates.md)
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
-> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaignを使用した従来のoAuth認証モードは、ハイブリッド環境およびオンプレミス環境の場合は2021年8月18日(a0/>)、ホスト環境の場合は&#x200B;**2021年11月30日(a3/>)に廃止されます。******
+> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。[Campaignの従来のoAuth認証モードは、**2021年8月19日(PT)に廃止](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)されました。** ホスト環境のメリットは、**2021年11月30日(PT)までです。** オンプレミスまたはハイブリッドのお客様は、Adobeカスタマーケアに連絡して、サポートを2021年11月30日まで延長してください。 Adobeに[OAuthアプリケーション](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)のAppIDを指定する必要があります。
 
 
 **新機能**

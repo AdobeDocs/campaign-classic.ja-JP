@@ -8,10 +8,10 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: f4c6e416353d6b921cefced830b3380996f10751
+source-git-commit: 8e18a3633e6b806a971678d985c55c123854438e
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,11 +19,9 @@ ht-degree: 96%
 
 >[!CAUTION]
 >
->OAuth 認証による旧バージョンのトリガー統合を使用している場合は、**以下に説明するように Adobe I/O に移行する必要があります**。
->[!DNL Adobe I/O] へのこうした移行中に、一部の着信トリガーが失われる可能性があることに注意してください。
+>OAuth 認証による旧バージョンのトリガー統合を使用している場合は、**以下に説明するように Adobe I/O に移行する必要があります**。Campaign での従来の OAuth 認証モードは、2021 年 11 月 30 日に廃止される予定です。 [詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
 >
->Campaignを使用した従来のoAuth認証モードは、ハイブリッド環境およびオンプレミス環境の場合は2021年8月18日(a0/>)、ホスト環境の場合は&#x200B;**2021年11月30日(a3/>)に廃止されます。******[詳細情報](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)
-
+>[!DNL Adobe I/O] へのこうした移行中に、一部の着信トリガーが失われる可能性があることに注意してください。
 
 ## 前提条件 {#adobe-io-prerequisites}
 

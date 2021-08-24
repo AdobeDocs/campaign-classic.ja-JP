@@ -5,9 +5,9 @@ description: パイプラインの設定方法を説明します
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 6a5253c1aa35e904635919f6c863930d376b473f
+source-git-commit: b6aa797133e6f916bf085794aeb99d61a8f7bc40
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '914'
 ht-degree: 99%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 99%
 顧客 ID、秘密鍵、認証エンドポイントなどの認証パラメーターは、インスタンス設定ファイルで設定します。
 処理されるトリガーのリストは、JSON フォーマットでオプションに設定されます。
 トリガーは、E メールを送信するキャンペーンワークフローでターゲティングに使用されます。キャンペーンは、両方のトリガーイベントを持つ顧客が E メールを受信するように設定されています。
-
->[!CAUTION]
->
->ハイブリッドデプロイメントの場合は、パイプラインが中間インスタンスに設定されていることを確認します。
 
 ## 前提条件 {#prerequisites}
 

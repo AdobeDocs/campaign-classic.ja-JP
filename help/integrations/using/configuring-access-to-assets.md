@@ -6,23 +6,23 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '548'
-ht-degree: 100%
+source-git-commit: eb630b29dba8cc34046e2f14e9ed6ba8c017ea5d
+workflow-type: tm+mt
+source-wordcount: '564'
+ht-degree: 86%
 
 ---
 
 # Assets へのアクセスの設定{#configuring-access-to-assets}
 
-この節では、Assets コアサービスまたは Adobe Experience Manager Assets ライブラリとの統合機能で使用するために必要な Adobe Campaign の設定手順を説明します。
+この節では、Adobe Campaignで、AssetsコアサービスまたはAdobe Experience Manager Assets(AEM Assets)ライブラリとの統合機能を使用するために必要な設定手順について説明します。
 
 >[!CAUTION]
 >
 >これらの統合は同時におこないます。次の情報をよく読んでから設定をおこなってください。
 
-* **Experience Cloud Assets** との統合：この統合により、Adobe Experience Cloud ライブラリから画像を挿入できます。設定とライセンスモデルに応じて、このライブラリは Assets コアサービスまたは Assets On Demand になります。この統合は、Adobe Campaign に **[!UICONTROL Adobe Experience Cloud との統合]**&#x200B;組み込みパッケージをインストールすることによって設定する必要があります。
-* **AEM Assets** との統合：この統合により、Adobe Experience Manager Assets ライブラリから画像を挿入できます。この統合は、Adobe Campaign に **[!UICONTROL AEM 統合]**&#x200B;組み込みパッケージをインストールすることによって設定する必要があります。
+* **Experience Cloud Assets** との統合：この統合により、Adobe Experience Cloud ライブラリから画像を挿入できます。この統合は、Adobe Campaign に **[!UICONTROL Adobe Experience Cloud との統合]**&#x200B;組み込みパッケージをインストールすることによって設定する必要があります。
+* **AEM Assets**&#x200B;との統合：この統合により、Adobe Experience Manager Assetsライブラリから画像を挿入できます。 この統合は、Adobe Campaign に **[!UICONTROL AEM 統合]**&#x200B;組み込みパッケージをインストールすることによって設定する必要があります。この統合は、Adobe Experience Manager 6.5では使用できなくなりました。
 
 >[!NOTE]
 >
@@ -45,6 +45,11 @@ Adobe Campaign と Adobe Experience Cloud の間の接続を有効化するに�
 >この統合に関連する機能は、IMS から Adobe ID を使用して接続するユーザーだけが使用できます。
 
 ## AEM Assets との統合 {#integrating-with-aem-assets}
+
+
+>[!CAUTION]
+>
+>この機能は、Adobe Experience Manager 6.5以降では廃止されています。 [詳細](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/deprecated-removed-features.html?lang=en#removed-features)
 
 AEM Assets と Adobe Campaign を統合するには、まず Adobe Experience Manager と Adobe Campaign 間の統合を設定する必要があります。この設定には、主に次のことが必要になります。
 

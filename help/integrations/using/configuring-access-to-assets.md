@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-source-git-commit: eb630b29dba8cc34046e2f14e9ed6ba8c017ea5d
+source-git-commit: 7bcd80a9b89982542ae6944ae0c96c02d83cd198
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 86%
+source-wordcount: '539'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 86%
 >これらの統合は同時におこないます。次の情報をよく読んでから設定をおこなってください。
 
 * **Experience Cloud Assets** との統合：この統合により、Adobe Experience Cloud ライブラリから画像を挿入できます。この統合は、Adobe Campaign に **[!UICONTROL Adobe Experience Cloud との統合]**&#x200B;組み込みパッケージをインストールすることによって設定する必要があります。
-* **AEM Assets**&#x200B;との統合：この統合により、Adobe Experience Manager Assetsライブラリから画像を挿入できます。 この統合は、Adobe Campaign に **[!UICONTROL AEM 統合]**&#x200B;組み込みパッケージをインストールすることによって設定する必要があります。この統合は、Adobe Experience Manager 6.5では使用できなくなりました。
+* **AEM Assets**&#x200B;との統合：この統合により、Adobe Experience Manager Assetsライブラリから画像を挿入できます。 この統合は、Adobe Campaign に **[!UICONTROL AEM 統合]**&#x200B;組み込みパッケージをインストールすることによって設定する必要があります。この統合は、Adobe Experience Manager 6.4以降は使用できなくなりました。
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Adobe Campaign と Adobe Experience Cloud の間の接続を有効化するに�
 
 >[!CAUTION]
 >
->この機能は、Adobe Experience Manager 6.5以降では廃止されています。 [詳細](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/deprecated-removed-features.html?lang=en#removed-features)
+>この機能は、Adobe Experience Manager 6.4以降では廃止されています。 [詳細](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=en#removed-features)
 
 AEM Assets と Adobe Campaign を統合するには、まず Adobe Experience Manager と Adobe Campaign 間の統合を設定する必要があります。この設定には、主に次のことが必要になります。
 
@@ -71,4 +71,4 @@ Adobe Campaign と Adobe Experience Manager を統合する方法については
 
 >[!NOTE]
 >
->**[!UICONTROL Adobe Experience Cloud との統合]**&#x200B;パッケージも Adobe Campaign インスタンスにインストールされている場合、Adobe Experience Cloud ライブラリで使用可能なアセットだけを使用することができます。AEM Assets ライブラリのアセットにもアクセスするには、AEM Assets と Adobe Experience Cloud を同期する必要があります。AEM Assets 内のアセットも、Adobe Experience Cloud ライブラリで使用可能になります。その場合、特定の配信テンプレートを作成する必要はありません。AEM Assets と Adobe Experience Cloud 間の同期について詳しくは、[詳細ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/configure-assets-cc-integration.html?lang=ja#integration)を参照してください。
+>**[!UICONTROL Adobe Experience Cloud との統合]**&#x200B;パッケージも Adobe Campaign インスタンスにインストールされている場合、Adobe Experience Cloud ライブラリで使用可能なアセットだけを使用することができます。AEM Assets ライブラリのアセットにもアクセスするには、AEM Assets と Adobe Experience Cloud を同期する必要があります。AEM Assets 内のアセットも、Adobe Experience Cloud ライブラリで使用可能になります。その場合、特定の配信テンプレートを作成する必要はありません。

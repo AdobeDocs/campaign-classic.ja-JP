@@ -2,20 +2,31 @@
 product: campaign
 title: '[!DNL Gold Standard] リリースノート'
 description: Campaign Classic  [!DNL Gold Standard] のリリースノート
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 550c4afc5cc77867b56d17565bef3f18b1df12a2
+source-git-commit: 2c548465a73bcd817c6d2b18853f4f074ed6adfa
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 91%
+source-wordcount: '1160'
+ht-degree: 87%
 
 ---
 
 # [!DNL Gold Standard] リリースノート{#gold-standard}
 
+![](../../assets/v7-only.svg)
+
 このページには、[!DNL Gold Standard] のリリースがリストされています。Campaign [!DNL Gold Standard] の詳細については、[このページ](gs-overview.md)を参照してください。
+
+## ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] 12 リリース{#gs-12}
+
+_2021年8月28日_
+
+ビルド(9032@99a3894)には、以下の修正が含まれています。
+
+* トラッキング署名機能が改善され、サードパーティツール（Eメールクライアント、インターネットブラウザーなど）に関連するエラーが 特殊文字を処理します。 URLパラメーターがエンコードされるようになりました。
+* コンソールにブロッカーのエラーメッセージが表示される可能性がある日付選択機能の問題を修正しました。 （NEO-36345）
 
 ## ![](assets/do-not-localize/green_2.png) [!DNL Gold Standard] 11 リリース{#gs-11}
 
@@ -24,19 +35,18 @@ _2021 年 4 月 14 日_
 ビルド 9032@d030c36 には、以下の修正が含まれています。
 
 * IMS 接続画面で永続的なエラーメッセージが発生する原因となっていたクライアントコンソールの不具合を修正しました。 （NEO-34821）
-* このコンソールビルドは、[IMSアクセス](../../technotes/ims-updates.md)を維持するために必要です。
+* このコンソールビルドは、[IMSアクセス](../../technotes/using/ims-updates.md)を維持するために必要です。
 
 **コンソールのアップグレードのみ必須です。サーバーのアップグレードは必要ありません。**
 
 >[!CAUTION]
 >
-> * Adobe IDを使用してCampaignにAdobeIdentity Managementサービス(IMS)で接続している場合、2021年6月30日以降にCampaignに接続できるようにするには、Campaignサーバーとクライアントコンソールの両方のアップグレードが必須です。 ****[詳細情報](../../technotes/ims-updates.md)
+> * Adobe IDを使用してCampaignにAdobeIdentity Managementサービス(IMS)で接続している場合、2021年6月30日以降にCampaignに接続できるようにするには、Campaignサーバーとクライアントコンソールの両方のアップグレードが必須です。 ****[詳細情報](../../technotes/using/ims-updates.md)
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 > * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。[Campaignの従来のoAuth認証モードは、**2021年8月19日(PT)に廃止](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)されました。** ホスト環境のメリットは、**2021年11月30日(PT)までです。** オンプレミスまたはハイブリッドのお客様は、Adobeカスタマーケアに連絡して、サポートを2021年11月30日まで延長してください。 Adobeに[OAuthアプリケーション](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)のAppIDを指定する必要があります。
 
 >
->
-詳しくは、[[!DNL Gold Standard] 11アップグレードに関するFAQ](https://helpx.adobe.com/jp/campaign/kb/gold-standard-upgrade.html)を参照してください。
+>詳しくは、[[!DNL Gold Standard] 11アップグレードに関するFAQ](https://helpx.adobe.com/jp/campaign/kb/gold-standard-upgrade.html)を参照してください。
 
 _2021 年 3 月 2 日_
 
@@ -55,7 +65,7 @@ _2020 年 12 月 22 日_
 <!--
 >[!CAUTION]
 >
-> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/ims-updates.md)
+> * This release comes with a new connection protocol: if you are connecting to Campaign through Adobe Identity Service (IMS), upgrade is mandatory for both Campaign server and client console to be able to connect to Campaign after **June 30, 2021**. [Learn more](../../technotes/using/ims-updates.md)
 > * This release comes with a [security fix](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): upgrade is mandatory to reinforce your environment security. 
 > * If you are using the Experience Cloud Triggers integration through oAuth authentication, you need to move to Adobe I/O as described [in this page](../../integrations/using/configuring-adobe-io.md). Legacy oAuth authentication mode with Campaign will be retired on **November 30, 2021**.
 >

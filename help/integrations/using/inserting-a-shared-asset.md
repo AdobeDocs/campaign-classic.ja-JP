@@ -6,18 +6,14 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
-source-git-commit: 46c8807a433d87a091a06fe60cf684919fddb5c6
+source-git-commit: d399c4800fe6c5b128a6ccb5fec15262cbef5ee8
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 91%
+source-wordcount: '232'
+ht-degree: 100%
 
 ---
 
 # 共有アセットを挿入{#inserting-a-shared-asset}
-
->[!CAUTION]
->
-> Experience Cloudアセットは廃止されました。 新しい実装の場合、Adobe Campaign ClassicとExperience Cloudアセットを統合できなくなりました。
 
 Adobe Experience Cloud から共有されるアセットは、E メールやランディングページで次のように使用できます。
 

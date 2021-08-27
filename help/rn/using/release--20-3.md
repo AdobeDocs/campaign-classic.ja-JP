@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e927b7fc-95cd-4e08-bab7-ceeb6e67c265
-source-git-commit: 01f91abe127629e2d3d0889172969f2f4ba09f46
+source-git-commit: d5585f0130611db399811536e80e76b61c998b9c
 workflow-type: tm+mt
 source-wordcount: '2010'
 ht-degree: 96%
@@ -169,4 +169,4 @@ Linux では、_apache_neolane.conf_ が `conf` ディレクトリにインス�
 * ワークフローの「**分割**」アクティビティの残りのターゲットデータを表示すると、サーバーがクラッシュする原因となった問題を修正しました。
 * 式パーサーをクリーニングする際にメモリの破損を防ぐことで、サーバーのクラッシュの問題を修正しました。（NEO-26856）
 * 管理者以外のユーザーがインスタンス変数を定義しているエンリッチメントアクティビティの問題を修正しました。（NEO-25653）
-* FDAデータベース(Teradate、Snowflake)へのワークフローデータの書き出しをブロックする可能性がある問題を修正しました。
+* FDAデータベース(Teradata、Snowflake)へのワークフローデータの書き出しをブロックする可能性がある問題を修正しました。

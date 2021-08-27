@@ -1,0 +1,94 @@
+---
+product: campaign
+title: Adobe Analytics Connector への移行
+description: Campaign - Analytics Connector に関する FAQ
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 94%
+
+---
+
+# Adobe Analytics Connector に移行する方法 {#acc-aa-faq}
+
+![](../../assets/v7-only.svg)
+
+Campaign Classic v7 21.1.3 リリース以降、Adobe Analytics Data Connector は非推奨になりました。[詳細情報](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=ja)
+
+2021年8月1日に、Adobe Campaign Classicは従来のData Connectors UIから削除されましたが、既存のCampaign統合は引き続きデータを収集し、2022年3月1日までAdobe Analyticsに渡します。 この日以降、統合は、データを収集してAdobe Analyticsに渡す処理を停止します。
+
+従来の Data Connectors 統合に代わる、Adobe Exchange 上の新しい Adobe Analytics Connector 統合に移行する必要があります。詳しくは、[このページ](../../platform/using/adobe-analytics-connector.md)を参照してください。
+
+>[!NOTE]
+>
+>これらの変更点に関するご質問については、[FAQ](#faq-aa) を参照してください。 詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+
+## 変更点
+
+Campaign Classic v7と Adobe Analytics の間で新しい統合が利用できるようになりました。 主な変更点を以下に示します。
+
+* Adobe Campaign Classic と Adobe Analytics 認証の統合は、ユーザー／パスワードから Adobe Identity Management サービス（IMS）に移行しました。 そのため、Analytics Connector の実装を開始する前に、Adobe IMSを実装し、[Adobe ID を使用して](../../integrations/using/about-adobe-id.md) Campaign に接続する必要があります。
+
+* Adobe Analytics では、**コンタクト日**&#x200B;分類（日付タイプ）が廃止されました。移行された統合でも、同じタイプのままです。 Campaign で作成される&#x200B;**コンタクト日**&#x200B;の場合、タイプは&#x200B;**文字列**&#x200B;になります。
+
+* **処理ルール** は、新しい統合の一部として Adobe Campaign によって作成されます。**処理ルール**&#x200B;は、Adobe Analytics から手動で作成するか、クライアントサイド JavaScript 実装を直接使用する必要があります。 **処理ルール** は、既存の統合に対してはそのまま維持されます。
+
+* 組み込みのテクニカルワークフローとその動作は変わりません。 Adobe Analytics との間でデータのプッシュ／プルを行うためにワークフローで使用されるバックエンド API のみ変更されました。
+
+* 新しいコネクタを動作させるには、`nlserver`プロセスを IMS テクニカルアカウントユーザーに設定してください。この変更は、アドビで行う必要があります。 これを実装するには、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+
+* Adobe Analytics との間でデータをプルしたりプッシュしたりするためにカスタマイズされたワークフローで Adobe Genesis API を使用していた場合は、新しい Adobe Analytics 1.4/2.0 API を使用する必要があります。[詳細情報](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360047148832-Replacements-for-Data-Connector-API-calls)
+
+## 影響の有無
+
+既存の Adobe Analytics Data Connector（旧称：Genesis 統合）を使用し、統合が Campaign 21.1.3 よりも古いビルドで実装されている場合は、影響を受けます。
+
+バージョンを確認する方法については、](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)この節[を参照してください。
+
+## 更新方法
+
+**2022 年 3 月 1 日までに**、Campaign 21.1.3（またはそれ以上）にアップグレードする必要があります。
+
+ホステッド環境のお客様の場合、アドビはお客様と協力してインスタンスを新しいバージョンにアップグレードします。
+
+オンプレミス／ハイブリッド環境のお客様の場合は、新しい統合のメリットを享受するには、新しいバージョンの 1 つにアップグレードする必要があります。
+
+すべてのインスタンスがアップグレードされると、Adobe Analytics Connector に[新しい統合を実装し](../../platform/using/adobe-analytics-connector.md)、シームレスな移行を確実に行うことができるようになります。
+
+
+## FAQ{#faq-aa}
+
+**ログを取得するにはどうすればよいですか？**
+
+ユーザーインターフェイス設定とワークフローは、**詳細**&#x200B;ログを備えています。
+
+詳細モードでは、Adobe Analytics への API リクエストごとに、リクエストヘッダーと応答ヘッダーも出力されます。
+
+オンプレミスユーザーは、次のように詳細モードを実装できます。
+
+* ユーザーインターフェイスの詳細モードを有効にするには：詳細モードで `web` プロセスを再実行します。
+* **webAnalytics** ワークフローの詳細モードを有効にするには、ワークフローのプロパティから「**エンジンで実行**」オプションを選択し、`wfserver` を詳細モードで再実行します。
+
+**「Integration Owner Not Admin」エラーは何を意味しますか？**
+
+コネクタの `Integration Owner Not Admin` エラーについて詳しくは、[このページ](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error)を参照してください。
+
+**新しいコネクタへの移行が完了したら、古いデータおよびレポートスイートはどうなりますか？**
+
+移行後、（古いコネクタから移行した）新しいコネクタは、同じレポートスイートへのデータのプッシュを開始しますが、既存のデータは影響を受けません。データは既存のデータに追加されます。
+
+**Analytics に存在する一部の既存の eVar／イベント／レポートスイートは、Campaign では表示されません。 どうすればよいですか？**
+
+日々の操作については、統合はテクニカルアカウントトークンのデータに依存します。テクニカルアカウントユーザーに関連する製品プロファイルにディメンション／指標／レポートスイートに対する権限が見当たらない場合、使用する API はそれらのリクエストに対してただ失敗するだけです。
+
+Analytics コンポーネント（指標、ディメンション、セグメント、レポートスイートなど）の詳細について読み取っている場合、API は、結果にこれらのコンポーネントを返しません（Analytics 側で何かが削除されたか存在しないように見えます）。Analytics API はこれらのリクエストを拒否し、エラーになります。
+
+解決策としては、[Adobe Admin Console](https://adminconsole.adobe.com/) でこれらのコンポーネントを追加することにより、テクニカルユーザートークンの Analytics ユーザーコンテキストの&#x200B;**製品プロファイル**&#x200B;を更新して、新しく作成または欠落したコンポーネントを反映させます。詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+
+## 参考になるリンク
+
+* [環境のアップグレード](../../production/using/build-upgrade.md)
+* [ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
+* [Campaign Classic ビルドのダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)
+* [ユーザーへの新しいクライアントコンソールの公開](../../installation/using/client-console-availability-for-windows.md)
+* [Campaign クライアントコンソールのインストール](../../installation/using/installing-the-client-console.md)

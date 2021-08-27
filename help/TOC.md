@@ -5,11 +5,11 @@ product: campaign
 title: Campaign Classic v7 ガイド
 breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
-sub-product: Adobe Campaign Classic
+sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: a54a6f9b8afedf8a200b80b027f908163faebeaa
+source-git-commit: a066eedd2ba7848f6dcefcb1476a0b834cb1d49a
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2522'
 ht-degree: 99%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 99%
       + [リリース 18.4](rn/using/release--18-4.md)
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
    + [互換性マトリックス](rn/using/compatibility-matrix.md)
-   + [テクニカルノート](technotes/technote.md)
-   + [iOS 証明書の更新](technotes/ios-certificate-update.md)
-   + [Campaign 設定の更新](technotes/acc-config-updates.md)
-   + [トラッキング対象 URL の更新](technotes/tracked-urls.md)
-   + [IMS の更新](technotes/ims-updates.md)
+   + [テクニカルノート](technotes/using/technote.md)
+   + [iOS 証明書の更新](technotes/using/ios-certificate-update.md)
+   + [Campaign 設定の更新](technotes/using/acc-config-updates.md)
+   + [トラッキング対象 URL の更新](technotes/using/tracked-urls.md)
+   + [IMS の更新](technotes/using/ims-updates.md)
 + はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic の概要](platform/using/about-adobe-campaign-classic.md)
@@ -118,7 +118,7 @@ ht-degree: 99%
          + [CRM とのデータの同期](platform/using/crm-data-sync.md)
       + Adobe Analytics コネクタ {#analytics-connector}
          + [Adobe Analyticsコネクタの統合](platform/using/adobe-analytics-connector.md)
-         + [Adobe Analytics Connector に移行する方法](technotes/aa-connector-migration.md)
+         + [Adobe Analytics Connector に移行する方法](technotes/using/aa-connector-migration.md)
          + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
    + [ヘルプとサポートオプション](support.md)
 + メッセージの作成と送信 {#sending-messages}
@@ -263,13 +263,13 @@ ht-degree: 99%
       + [キャンペーンの監視](campaign/using/marketing-campaign-monitoring.md)
       + [プロバイダー、在庫、予算](campaign/using/providers--stocks-and-budgets.md)
    + キャンペーンの最適化 {#campaign-optimization}
-      + [キャンペーンタイポロジについて](campaign/using/about-campaign-typologies.md)
-      + [頻度ルール](campaign/using/pressure-rules.md)
-      + [一貫性ルール](campaign/using/consistency-rules.md)
-      + [コントロールルール](campaign/using/control-rules.md)
-      + [フィルタリングルール](campaign/using/filtering-rules.md)
-      + [ルールの適用](campaign/using/applying-rules.md)
-      + [キャンペーンシミュレーション](campaign/using/campaign-simulations.md)
+      + [キャンペーンタイポロジについて](campaign-opt/using/about-campaign-typologies.md)
+      + [頻度ルール](campaign-opt/using/pressure-rules.md)
+      + [一貫性ルール](campaign-opt/using/consistency-rules.md)
+      + [コントロールルール](campaign-opt/using/control-rules.md)
+      + [フィルタリングルール](campaign-opt/using/filtering-rules.md)
+      + [ルールの適用](campaign-opt/using/applying-rules.md)
+      + [キャンペーンシミュレーション](campaign-opt/using/campaign-simulations.md)
 + マーケティングリソース管理 {#mrm}
    + [マーケティングリソース管理について](mrm/using/about-marketing-resource-management.md)
    + [タスクの作成と管理](mrm/using/creating-and-managing-tasks.md)
@@ -277,19 +277,19 @@ ht-degree: 99%
    + [マーケティングリソースの管理](mrm/using/managing-marketing-resources.md)
    + [ディスカッションフォーラム](mrm/using/discussion-forums.md)
 + 分散型マーケティング {#distributed-marketing}
-   + [分散型マーケティングについて](campaign/using/about-distributed-marketing.md)
-   + [ローカルキャンペーンの作成](campaign/using/creating-a-local-campaign.md)
-   + [協調キャンペーンの作成](campaign/using/creating-a-collaborative-campaign.md)
-   + [キャンペーンパッケージの公開](campaign/using/publishing-the-campaign-package.md)
-   + [キャンペーンへのアクセス](campaign/using/accessing-campaigns.md)
-   + [キャンペーンのトラッキング](campaign/using/tracking-a-campaign.md)
-   + [ユースケース](campaign/using/examples.md)
+   + [分散型マーケティングについて](distributed/using/about-distributed-marketing.md)
+   + [ローカルキャンペーンの作成](distributed/using/creating-a-local-campaign.md)
+   + [協調キャンペーンの作成](distributed/using/creating-a-collaborative-campaign.md)
+   + [キャンペーンパッケージの公開](distributed/using/publishing-the-campaign-package.md)
+   + [キャンペーンへのアクセス](distributed/using/accessing-campaigns.md)
+   + [キャンペーンのトラッキング](distributed/using/tracking-a-campaign.md)
+   + [ユースケース](distributed/using/examples.md)
 + Response Manager {#response-manager}
-   + [Response Manager の基本を学ぶ](campaign/using/about-response-manager.md)
-   + [設定](campaign/using/configuration.md)
-   + [仮説テンプレート](campaign/using/hypothesis-templates.md)
-   + [仮説の作成](campaign/using/creating-hypotheses.md)
-   + [仮説のトラッキング](campaign/using/hypothesis-tracking.md)
+   + [Response Manager の基本を学ぶ](response/using/about-response-manager.md)
+   + [設定](response/using/configuration.md)
+   + [仮説テンプレート](response/using/hypothesis-templates.md)
+   + [仮説の作成](response/using/creating-hypotheses.md)
+   + [仮説のトラッキング](response/using/hypothesis-tracking.md)
 + レポートの設計と共有{#reporting}
    + レポートの基本を学ぶ{#reporting-in-adobe-campaign}
       + [レポートツール](reporting/using/about-adobe-campaign-reporting-tools.md)

@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 8a0535180640c63201d1a59539eac8c91a53cb8b
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 96%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 * **[6 月リリースを公開](rn/using/latest-release.md)**<br/> 新機能、改善点、修正点をリリースノートでご確認ください
 
-* **[Apple Mail のプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ja)**<br/> iOS 15 に関する Apple の発表に対応した最初のガイダンスです。
+* **[Apple Mail のプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/using/apple-mail-privacy-faq.html)**<br/> iOS 15 に関する Apple の発表に対応した最初のガイダンスです。
 
-* **[IMS／Adobe ID で接続している場合は、最新ビルドへのアップグレードが必要 ](technotes/ims-updates.md)**<br/>IMS で Campaign に接続している場合、** 2021 年 6 月 30 日（PT）**以降も、Campaign に接続できるようにするにはアップグレードが必要です
+* **[IMS／Adobe ID で接続している場合は、最新ビルドへのアップグレードが必要 ](technotes/using/ims-updates.md)**<br/>IMS で Campaign に接続している場合、** 2021 年 6 月 30 日（PT）**以降も、Campaign に接続できるようにするにはアップグレードが必要です
 
 * **[誤ったハードバウンスの削除](delivery/using/update-bounce-qualification.md)**<br/> Apple のサービスが停止した後に誤ったハードバウンスを更新する方法を説明します
 
-* **[Campaign インスタンスのセキュリティ保護](technotes/acc-config-updates.md)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します
+* **[Campaign インスタンスのセキュリティ保護](technotes/using/acc-config-updates.md)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します
 
 * **[Adobe Experience Cloud Triggers 統合の更新](integrations/using/configuring-adobe-io.md)**<br/>レガシー oAuth 認証サービスが提供終了になりました。Adobe I/O に移行する方法を説明します
 

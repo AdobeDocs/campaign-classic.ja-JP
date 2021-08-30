@@ -2,18 +2,20 @@
 product: campaign
 title: リリース 20.2
 description: リリース 20.2
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
-source-git-commit: 550c4afc5cc77867b56d17565bef3f18b1df12a2
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
-source-wordcount: '3013'
+source-wordcount: '3012'
 ht-degree: 98%
 
 ---
 
 # リリース 20.2{#release-20-2}
+
+![](../../assets/v7-only.svg)
 
 ## ![](assets/do-not-localize/limited_2.png) リリース 20.2.5 - ビルド 9188 {#release-20-2-5-build-9188}
 
@@ -61,7 +63,7 @@ _2020 年 12 月 22 日_
 
 >[!CAUTION]
 >
-> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を通じて Campaign に接続している場合、 **2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign サーバーとクライアントコンソールの両方が Campaign に接続できるようにするには、アップグレードする必要があります。[詳細情報](../../technotes/ims-updates.md)
+> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を通じて Campaign に接続している場合、 **2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign サーバーとクライアントコンソールの両方が Campaign に接続できるようにするには、アップグレードする必要があります。[詳細情報](../../technotes/using/ims-updates.md)
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 > * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。[Campaignの従来のoAuth認証モードは、**2021年8月19日(PT)に廃止](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)されました。** ホスト環境のメリットは、**2021年11月30日(PT)までです。** オンプレミスまたはハイブリッドのお客様は、Adobeカスタマーケアに連絡して、サポートを2021年11月30日まで延長してください。 Adobeに[OAuthアプリケーション](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)のAppIDを指定する必要があります。
 

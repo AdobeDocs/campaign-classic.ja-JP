@@ -2,18 +2,20 @@
 product: campaign
 title: Adobe Campaign Classic ドキュメントの更新
 description: このページでは、Adobe Campaign Classic のドキュメントのすべての新機能と更新をリストします
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
-source-wordcount: '4485'
+source-wordcount: '4484'
 ht-degree: 100%
 
 ---
 
 # ドキュメントの更新{#documentation-updates}
+
+![](../../assets/v7-only.svg)
 
 このページでは、すべての新機能とドキュメント更新情報の一覧が月ごとおよび Campaign リリースごとに記載されています。
 
@@ -48,7 +50,7 @@ Campaign クライアントコンソールの要件が互換性マトリック�
 
 Campaign クライアントコンソールのインストール手順を改善し、明確にしました。[詳細情報](../../installation/using/installing-the-client-console.md)
 
-トラッキングする URL の署名の問題に関する新しいテクニカルノートが作成されました。 [詳細情報](../../technotes/tracked-urls.md)
+トラッキングする URL の署名の問題に関する新しいテクニカルノートが作成されました。 [詳細情報](../../technotes/using/tracked-urls.md)
 
 ## 2021 年 4 月 {#april-2021}
 
@@ -210,7 +212,7 @@ Campaign オンプレミスモデル、ホストモデル、およびハイブ�
 
 次のトピックのハウツービデオを視聴できるようになりました。
 
-* [タイポロジルールと定義済みフィルターを使用した疲労管理の設定方法](../../campaign/using/about-campaign-typologies.md)
+* [タイポロジルールと定義済みフィルターを使用した疲労管理の設定方法](../../campaign-opt/using/about-campaign-typologies.md)
 
 * [キャンペーンへの E メールの作成方法](../../campaign/using/marketing-campaign-deliveries.md)
 

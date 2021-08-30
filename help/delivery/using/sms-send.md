@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 100%
 
 ---
 
 # SMS 配信の送信、監視、追跡{#sms-properties}
+
+![](../../assets/common.svg)
 
 ## SMS メッセージの送信 {#sending-sms-messages}
 
@@ -167,4 +169,4 @@ Adobe Campaign 経由で送信した SMS メッセージに対し、購読者か
 >
 >こうした自動メッセージは、履歴には記録されず、そのため、配信ダッシュボードには表示されません。[詳細情報](delivery-dashboard.md)。
 >
->これらのメッセージは、商業的圧力ルールでは考慮されていません。 [詳細情報](../../campaign/using/pressure-rules.md)。
+>これらのメッセージは、商業的圧力ルールでは考慮されていません。 [詳細情報](../../campaign-opt/using/pressure-rules.md)。

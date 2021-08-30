@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # メッセージの検証、送信、およびトラッキング {#validate-send-track}
+
+![](../../assets/common.svg)
 
 ## テストと検証 {#test-and-validate-before-sending}
 
@@ -52,7 +54,7 @@ ht-degree: 100%
 
 キャンペーン間の競合を回避するために、Adobe Campaign では制限ルールを適用して、様々な組み合わせをテストできます。このテストにより、企業のコミュニケーションポリシーに準拠しつつ、顧客のニーズと期待に応える最適なメッセージを送信できます。
 
-[詳しくはここをクリック](../../campaign/using/about-campaign-typologies.md)してください。
+[詳しくはここをクリック](../../campaign-opt/using/about-campaign-typologies.md)してください。
 
 ## メッセージの送信 {#send-your-messages}
 

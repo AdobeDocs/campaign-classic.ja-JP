@@ -2,18 +2,20 @@
 product: campaign
 title: Campaign オペレーターの基本を学ぶ
 description: キャンペーンユーザーの作成および管理方法を説明します。
-feature: アクセス管理
+feature: Access Management
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1211'
 ht-degree: 100%
 
 ---
 
 # オペレーターの作成と管理 {#operators}
+
+![](../../assets/common.svg)
 
 ## Campaign オペレーターの基本を学ぶ  {#about-operators}
 
@@ -45,7 +47,7 @@ Adobe ID を使用して Adobe Campaign に直接接続することもできま�
 
 1. ユーザーの「**[!UICONTROL 識別パラメーター]**」として、ログイン、パスワード、名前を指定します。ログインとパスワードは、そのオペレーターが Adobe Campaign にログオンするときに使われます。ログオンしたユーザーは、**[!UICONTROL ツール／パスワードを変更]**&#x200B;メニューを選択して自分のパスワードを変更できます。オペレーターは処理の承認などの通知を E メールで受信するので、オペレーターの E メールは必要不可欠です。
 
-   このセクションでは、オペレーターと組織エンティティとのリンクを設定することもできます。詳しくは、[このページ](../../campaign/using/about-distributed-marketing.md)を参照してください。
+   このセクションでは、オペレーターと組織エンティティとのリンクを設定することもできます。詳しくは、[このページ](../../distributed/using/about-distributed-marketing.md)を参照してください。
 
 1. オペレーターに付与する権限を、「**[!UICONTROL オペレーターアクセス権]**」セクションで選択します。
 

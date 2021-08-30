@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '1991'
 ht-degree: 100%
 
 ---
 
 # Enhanced MTA を使用した送信 {#sending-with-enhanced-mta}
+
+![](../../assets/common.svg)
 
 **Adobe Campaign Enhanced MTA**（メール転送エージェント）は、アップグレードされた送信インフラストラクチャを提供し、配信品質、評判、スループット、レポート、バウンス処理、IP ランプアップ、接続設定管理を向上します。
 
@@ -113,7 +115,7 @@ Adobe Campaign トランザクションメッセージ機能を使用する顧�
 >
 >**[!UICONTROL タイポロジ]**&#x200B;パッケージのインストール方法に関する Adobe Campaign チームの指示に従う必要があります。従わない場合、E メールの送信に使用する IP に重大な問題が発生する場合があります。
 
-タイポロジについて詳しくは、[この節](../../campaign/using/about-campaign-typologies.md)を参照してください。
+タイポロジについて詳しくは、[この節](../../campaign-opt/using/about-campaign-typologies.md)を参照してください。
 
 ### 新しい MX ルール
 

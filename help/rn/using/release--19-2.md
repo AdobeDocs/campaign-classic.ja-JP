@@ -3,7 +3,7 @@ product: campaign
 title: リリース 19.2
 description: Campaign 19.2 のリリースノート
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
-source-git-commit: 2a92cfc705e27332cfdf8c7357a6a03c84dc6c9f
+source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 100%
@@ -11,6 +11,8 @@ ht-degree: 100%
 ---
 
 # リリース 19.2{#release-19-2}
+
+![](../../assets/v7-only.svg)
 
 ## ![](assets/do-not-localize/limited_2.png) リリース 19.2.4 - ビルド 9082 {#release-19-2-4-build-9082}
 
@@ -38,7 +40,7 @@ _2020 年 12 月 23 日_
 
 >[!CAUTION]
 >
-> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を通じて Campaign に接続している場合、**2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign サーバーとクライアントコンソールの両方が Campaign に接続できるようにするには、アップグレードする必要があります。[詳細情報](../../technotes/ims-updates.md)
+> * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を通じて Campaign に接続している場合、**2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign サーバーとクライアントコンソールの両方が Campaign に接続できるようにするには、アップグレードする必要があります。[詳細情報](../../technotes/using/ims-updates.md)
 >
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 

@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 100%
 
 ---
 
 # オファーの作成{#creating-an-offer}
+
+![](../../assets/v7-only.svg)
 
 ## オファーの作成 {#creating-the-offer}
 
@@ -181,6 +183,6 @@ ht-degree: 100%
 
 オファーの提案に対して実行された仮説は、「**[!UICONTROL 測定]**」タブで参照できます。
 
-仮説の作成について詳しくは、[このページ](../../campaign/using/about-response-manager.md)を参照してください。
+仮説の作成について詳しくは、[このページ](../../response/using/about-response-manager.md)を参照してください。
 
 ![](assets/offer_hypothesis_001.png)

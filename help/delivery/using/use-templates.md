@@ -5,14 +5,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 100%
 
 ---
 
 # テンプレートの使用 {#use-templates}
+
+![](../../assets/common.svg)
 
 配信テンプレートは、一般的なアクティビティについての既製のシナリオを提供し、作業の効率化に役立ちます。配信テンプレートを使用すれば、最小限のカスタマイズをおこなうだけで、より迅速に新しいキャンペーンをデプロイできます。
 
@@ -66,4 +68,4 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 例えば、アウトバウンドトラフィックの制御を強化するために、使用可能な IP アドレスを定義するには、サブドメインごとに 1 つのアフィニティを定義し、アフィニティごとに 1 つのタイポロジを作成します。アフィニティはインスタンスの設定ファイルで定義されます。Adobe Campaign 管理者にお問い合わせください。
 
-タイポロジについて詳しくは、[この節](../../campaign/using/about-campaign-typologies.md)を参照してください。
+タイポロジについて詳しくは、[この節](../../campaign-opt/using/about-campaign-typologies.md)を参照してください。

@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2379'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# キャンペーンデータモデルの説明{#data-model-description}
+# Campaignデータモデルの説明{#data-model-description}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign には、事前定義済みのデータモデルが付属しています。ここでは、Adobe Campaign データモデルの組み込みテーブルとそのインタラクションについて詳しく説明します。
 
@@ -25,7 +27,7 @@ Adobe Campaign には、事前定義済みのデータモデルが付属して�
 >
 >アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。スキーマと呼ばれる Adobe Campaign 特有の文法に従います。Adobe Campaignスキーマについて詳しくは、[この節](../../configuration/using/about-schema-reference.md)を参照してください。
 
-## メインテーブル{#description-main-tables}の説明
+## メインテーブルの説明 {#description-main-tables}
 
 Adobe Campaignは、互いにリンクされたテーブルを含むリレーショナルデータベースに依存します。
 
@@ -53,7 +55,7 @@ iFolderIdフィールドは、受信者を実行フォルダーにリンクす�
 
 sCountryCodeフィールドは、受信者に関連付けられた国の3166-1 Alpha 2 ISOコード（2文字）です。 このフィールドは、実際には国参照テーブル(NmsCountry)の外部キーで、国ラベルと他の国コードデータが含まれます。 国が入力されていない場合、値「XX」が保存されます（ゼロのIDレコードの代わりに使用されます）。
 
-受信者テーブルについて詳しくは、[この節](../../configuration/using/about-data-model.md#default-recipient-table)を参照してください。
+ 受信者テーブルの詳細については、[この節](../../configuration/using/about-data-model.md#default-recipient-table)を参照してください。
 
 ### NmsGroup {#NmsGroup}
 
@@ -103,7 +105,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 
 ツリーは、 iParentIdフィールドとiChildCountフィールドで管理されます。 sFullNameフィールドは、ツリー内のフォルダーのフルパスを示します。 最後に、sNameフォルダーの内部名を表すフィールドに一意のインデックスが存在します。
 
-## 配信とトラッキング{#delivery-and-tracking}
+## 配信とトラッキング {#delivery-and-tracking}
 
 このテーブルは&#x200B;**配信**&#x200B;モジュールにリンクされています。このモジュールを使用すると、配信と、メッセージの送信時に結果として発生する問題を監視できます。 詳しくは、[配信の監視](../../delivery/using/about-delivery-monitoring.md)を参照してください。 トラッキングについて詳しくは、[メッセージのトラッキング](../../delivery/using/about-message-tracking.md)を参照してください。
 
@@ -111,7 +113,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 
 **NmsBroadLogMsg**:このテーブルは、 **nms:** broadLogMsgschemaと一致します。配信ログテーブルの拡張です。
 
-## キャンペーン管理{#campaign-management}
+## キャンペーン管理 {#campaign-management}
 
 この表は、**マーケティングキャンペーン**&#x200B;モジュールにリンクされています。このモジュールを使用して、コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行および分析できます。 詳しくは、[マーケティングキャンペーンについて](../../campaign/using/designing-marketing-campaigns.md)を参照してください。
 
@@ -127,9 +129,9 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 * **NmsTask**:このテーブルは **nms:** taskschemaと一致します。マーケティングタスクの定義が含まれます。
 * **NmsAsset**:このテーブルは、 **nms:** assetschemaと一致します。マーケティングリソースの定義が含まれます。
 
-## 通信の整合性{#communication-consistency}
+## 通信の一貫性 {#communication-consistency}
 
-このテーブルセットは、**キャンペーンの最適化**&#x200B;モジュールにリンクされています。このモジュールを使用して、配信の送信を制御、フィルタリングおよび監視できます。 詳しくは、[キャンペーンタイポロジについて](../../campaign/using/about-campaign-typologies.md)を参照してください。
+このテーブルセットは、**キャンペーンの最適化**&#x200B;モジュールにリンクされています。このモジュールを使用して、配信の送信を制御、フィルタリングおよび監視できます。 詳しくは、[キャンペーンタイポロジについて](../../campaign-opt/using/about-campaign-typologies.md)を参照してください。
 
 ![](assets/data-model_typology.png)
 
@@ -139,9 +141,9 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 * **NmsVolumeLine**:このテーブルは、 **nms:** volumeLineschemaと一致します。容量ルールの稼動ラインのセットが含まれます。
 * **NmsVolumeConsumed**:このテーブルは、 **nms:** volumeConsumedschemaと一致します。処理能力ルールの消費ラインがすべて含まれます。
 
-## 応答管理{#response-management}
+## 応答管理 {#response-management}
 
-この表のセットは、**Response Manager**&#x200B;モジュールにリンクされています。このモジュールを使用して、マーケティングキャンペーンの成功と収益性を測定したり、すべてのコミュニケーションチャネルのオファーの提案を測定したりできます。 詳しくは、[Response manager](../../campaign/using/about-response-manager.md)についてを参照してください。
+この表のセットは、**Response Manager**&#x200B;モジュールにリンクされています。このモジュールを使用して、マーケティングキャンペーンの成功と収益性を測定したり、すべてのコミュニケーションチャネルのオファーの提案を測定したりできます。 詳しくは、[Response manager](../../response/using/about-response-manager.md)についてを参照してください。
 
 ![](assets/data-model_response.png)
 
@@ -199,7 +201,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 
 特定の仮説に対する個人の反応を表すレコードが含まれます。 これらのレコードは仮説の実行中に作成されました。
 
-## シミュレーションと配信{#simulation-and-delivery}
+## シミュレーションと配信 {#simulation-and-delivery}
 
 このテーブルセットは、**シミュレーション**&#x200B;モジュールにリンクされています。このモジュールを使用すると、提案を受信者に送信する前に、カテゴリまたは環境に属するオファーの配分をテストできます。 詳しくは、[オファーのシミュレーション](../../interaction/using/about-offers-simulation.md)についてを参照してください。
 
@@ -209,7 +211,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 * **NmsDlvSimulationRel**:次の表は、  **nms:** dlvSimulationRelschemaと一致します。シミュレーションで考慮される配信のリストが含まれます。 シミュレーションの範囲はXML形式で保存されます。
 * **NmsOfferSimulationRel**:この表は、 **nms:** offerSimulationRelschemaと一致します。シミュレーションをオファーにリンクできます。
 
-## インタラクションモジュール{#interaction-module}
+## インタラクションモジュール {#interaction-module}
 
 このテーブルセットは、**インタラクション**&#x200B;モジュールにリンクされており、1つまたは複数の適応済みオファーを作成することで、特定のコンタクト先とのインタラクション中にリアルタイムで応答できます。 詳しくは、[インタラクションとオファーの管理](../../interaction/using/interaction-and-offer-management.md)を参照してください。
 
@@ -221,7 +223,7 @@ sInternalName配信またはシナリオの内部名を表すフィールドに�
 * **NmsOfferCategory**:このテーブルは **nms:offerCategory**&#x200B;と一致します。オファーカテゴリが含まれます。
 * **NmsOfferEnv**:この表は、 **nms:offerEnv**&#x200B;と一致します。オファー環境が含まれます。
 
-## Message Centerモジュール{#message-center-module}
+## Message Centerモジュール {#message-center-module}
 
 次の表は、**トランザクションメッセージ**(Message Center)モジュールにリンクされています。このモジュールでは、ユーザーに送信され、情報システムからトリガーされるイベントから生成される個別の通信と個別の通信を管理できます。 詳しくは、[トランザクションメッセージ](../../message-center/using/about-transactional-messaging.md)についてを参照してください。
 
@@ -247,7 +249,7 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 * **NmsPurl**: This table matches the **nms:purl** schema.-->
 
-## NMACモジュール{#nmac-module}
+## NMACモジュール {#nmac-module}
 
 この表は、**モバイルアプリチャネル**&#x200B;にリンクされています。このチャネルを使用して、iOSおよびAndroidの端末にアプリを介してパーソナライズされた通知を送信できます。 詳しくは、[モバイルアプリチャネル](../../delivery/using/about-mobile-app-channel.md)についてを参照してください。
 
@@ -258,7 +260,7 @@ This set of tables is linked to the **Web applications** functionality, which al
 * **NmsTrackingLogAppSubRcp**:このテーブルは、 **nms:** trackingLogAppSubRcpschemaと一致します。
 * **NmsBroadLogAppSubRcp**:このテーブルは、 **nms:** broadLogAppSubRcpschemaと一致します。
 
-## ソーシャルマーケティングモジュール{#social-marketing-module}
+## ソーシャルマーケティングモジュール {#social-marketing-module}
 
 この表は、**ソーシャルネットワークの管理**&#x200B;モジュールにリンクされています。このモジュールを使用すると、FacebookとTwitterを介して顧客や見込み客とやり取りできます。 詳しくは、[ソーシャルマーケティングについて](../../social/using/about-social-marketing.md)を参照してください。
 

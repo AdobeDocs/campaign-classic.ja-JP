@@ -2,18 +2,20 @@
 product: campaign
 title: 最新リリース
 description: 最新の Campaign Classic リリースノート
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: c59529a0a4d72ecb795569591d62a68f030a0ac7
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '1950'
 ht-degree: 99%
 
 ---
 
 # 最新リリース{#latest-release}
+
+![](../../assets/v7-only.svg)
 
 このページでは、**最新のCampaign Classicリリース**&#x200B;に加えられた新機能、改善点、修正点を示します。
 
@@ -115,7 +117,7 @@ Campaign で次のシステムがサポートされるようになりました�
 **非推奨（廃止予定）の機能**
 
 * Campaign 21.1 リリース以降、Adobe Analytics コネクタは非推奨になりました。このコネクタを使用している場合は、ご利用の実装に新しい Adobe Analytics コネクタを適用する必要があります。
-詳しくは、[詳細ドキュメント](../../technotes/aa-connector-migration.md)を参照してください。
+詳しくは、[詳細ドキュメント](../../technotes/using/aa-connector-migration.md)を参照してください。
 * Debian 8 のサポートは廃止されました。
 * 20.3 での Oracle CRM の廃止を受け、関連する外部アカウントがインターフェイスから削除されました。
 

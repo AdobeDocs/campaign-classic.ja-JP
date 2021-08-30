@@ -2,18 +2,20 @@
 product: campaign
 title: 権限の基本を学ぶ
 description: Campaign 機能へのアクセスを許可する方法について説明します。
-feature: アクセス管理
+feature: Access Management
 role: User, Admin
 level: Beginner
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '253'
 ht-degree: 100%
 
 ---
 
 # 権限の基本を学ぶ{#access-management}
+
+![](../../assets/common.svg)
 
 Adobe Campaign は、様々なオペレーターに割り当てる一連の権利を定義したり、管理したりするのに役立ちます。以下の操作は、それらの権利に基づいて承認または拒否されます。
 
@@ -51,7 +53,7 @@ Adobe Campaign は、様々なオペレーターに割り当てる一連の権�
 関連トピック：
 
 * [ワークフローの権限管理](../../workflow/using/managing-rights.md)
-* [分散型マーケティングの権限管理](../../campaign/using/about-distributed-marketing.md#operators-and-entities)
+* [分散型マーケティングの権限管理](../../distributed/using/about-distributed-marketing.md#operators-and-entities)
 * [インタラクションモジュールの権限管理](../../interaction/using/operator-profiles.md)
 * [スキーマへのアクセスのフィルタリング](../../configuration/using/filtering-schemas.md)
 * [個人情報表示の制限](../../configuration/using/restricting-pii-view.md)

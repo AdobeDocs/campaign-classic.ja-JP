@@ -5,14 +5,16 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
 
 ---
 
 # 送信前の全チェックの実行 {#perform-all-checks}
+
+![](../../assets/common.svg)
 
 メッセージを用意できたら、そのコンテンツがすべてのデバイス上で正しく表示されることを確認します。また、パーソナライゼーションの誤りや壊れたリンクなどのエラーがないことも確認します。
 
@@ -90,7 +92,7 @@ Adobe Campaign のオペレーターやグループが関与する包括的な�
 
 * IPAffinity 要素ごとに、使用可能な IP アドレスを宣言します。[詳細情報](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
-* 選択した[タイポロジ](../../campaign/using/about-campaign-typologies.md)で「**[!UICONTROL IP アドレスを使用したアフィニティの管理]**」フィールドを使用すると、アフィニティを管理する配信サーバー（MTA）と配信を関連付けることができます。[詳細情報](../../campaign/using/applying-rules.md#control-outgoing-smtp-traffic)。
+* 選択した[タイポロジ](../../campaign-opt/using/about-campaign-typologies.md)で「**[!UICONTROL IP アドレスを使用したアフィニティの管理]**」フィールドを使用すると、アフィニティを管理する配信サーバー（MTA）と配信を関連付けることができます。[詳細情報](../../campaign-opt/using/applying-rules.md#control-outgoing-smtp-traffic)。
 
 * E メールを送信したら、配信の送信元 IP アドレスをヘッダーで確認します。ヘッダー情報は E メール管理者から入手できます。
 
@@ -100,7 +102,7 @@ Adobe Campaign のオペレーターやグループが関与する包括的な�
 
 ### タイポロジの使用
 
-タイポロジルールを使用すると、特定の条件に基づいてターゲットの一部を除外できます。このテストにより、企業のコミュニケーションポリシーに準拠しつつ、顧客のニーズと期待に応える最適なメッセージを送信できます。例えば、ニュースレターの対象から未成年の受信者を除外できます。詳しくは、[この例](../../campaign/using/filtering-rules.md)を参照してください。
+タイポロジルールを使用すると、特定の条件に基づいてターゲットの一部を除外できます。このテストにより、企業のコミュニケーションポリシーに準拠しつつ、顧客のニーズと期待に応える最適なメッセージを送信できます。例えば、ニュースレターの対象から未成年の受信者を除外できます。詳しくは、[この例](../../campaign-opt/using/filtering-rules.md)を参照してください。
 
 ### ファイルを添付しない
 

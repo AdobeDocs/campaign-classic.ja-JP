@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: 8a0535180640c63201d1a59539eac8c91a53cb8b
+source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 主要概念 {#key-concepts}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign の利用を開始するための主要な手順を説明します。
 

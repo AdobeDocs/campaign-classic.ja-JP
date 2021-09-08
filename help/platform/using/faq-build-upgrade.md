@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ビルドアップグレードに関する FAQ {#build-upgrade-faq}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign は定期的に更新されています。公開されている[リリースノート](../../rn/using/rn-overview.md)に記載されているように、アドビでは、新機能、機能強化、修正を含むマイナーバージョンを毎年平均 2 ～ 3 回リリースしています。さらに、累積的な修正のみを含むビルドを定期的にリリースしています。この定期的なアップデートは、環境の安全性を完全に維持し、アドビ製品の使用環境を明確に向上させ、製品を最新の状態で最大限に活用することを目的としています。
 

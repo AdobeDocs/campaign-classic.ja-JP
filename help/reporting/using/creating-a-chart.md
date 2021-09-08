@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '772'
-ht-degree: 100%
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 96%
 
 ---
 
 # グラフの作成{#creating-a-chart}
+
+![](../../assets/common.svg)
 
 データベース内のデータを収集してグラフに表示することもできます。Adobe Campaign では、様々なグラフ表示が可能です。次に、それらの設定について説明します。
 
@@ -39,7 +41,7 @@ ht-degree: 100%
 
       ![](assets/reporting_graph_add_filter.png)
 
-   * コンテキストデータを使用する場合は、それをデータソースとして選択し、「**[!UICONTROL 詳細設定パラメーター]**」リンクをクリックします。次に、統計に関係するデータを選択します。
+   * コンテキストデータを使用するには、**[!UICONTROL Source]**&#x200B;ドロップダウンから「**[!UICONTROL Context data]**」を選択し、「**[!UICONTROL Advanced settings...」をクリックします。]**&#x200B;リンクをクリックします。 次に、統計に関係するデータを選択します。
 
       ![](assets/reporting_graph_from_context.png)
 
@@ -116,32 +118,6 @@ Adobe Campaign では、様々なタイプのグラフ表示が可能です。�
 ### コンバージョン：ファネル {#conversion--funnel}
 
 このタイプのグラフでは、測定された要素のコンバージョン率を追跡できます。
-
-### 進捗状況：ゲージ {#progress--gauge}
-
-このタイプのグラフでは、定義された目標値と比較した値の進捗状況を表示できます。次の例では、目標とする 100 件の配信のうち、正常に送信された配信の数（76）が黒い目盛り盤に表示されています。このゲージは、特定の状況に対応する 3 つの範囲に分かれています。
-
-![](assets/reporting_graph_type_gauge.png)
-
-グラフの設定時に次の要素を定義します。
-
-![](assets/reporting_graph_type_gauge1.png)
-
-* 「**[!UICONTROL 値]**」フィールドは、グラフの黒い目盛り盤で表されます。進捗状況の計算対象となる要素を表します。表す値は既に保存されている必要があります。
-* 「**[!UICONTROL 目標]**」フィールドは、達成すべき最大値を表します。
-* 「**[!UICONTROL その他のマーク]**」フィールドを使用すると、グラフに 2 番目の指標を追加できます。
-* 「**[!UICONTROL 開始／終了]**」フィールドでは、グラフの計算範囲を示す値を指定できます。
-* 「**[!UICONTROL 値の範囲]**」フィールドでは、一定の範囲の値に状態（なし、不良、許容可能、良い）を割り当て、進捗状況をわかりやすくすることができます。
-
-「**[!UICONTROL 表示設定]**」セクションでは、「**[!UICONTROL 外観を変更]**」リンクを使用して、グラフの表示方法を設定できます。
-
-![](assets/reporting_graph_type_gauge2.png)
-
-「**[!UICONTROL ゲージの下に値を表示]**」オプションでは、グラフの下に値の進捗を表示できます。
-
-「**[!UICONTROL 開口率]**」フィールド（0 から 1 までの値）では、全円を上限としてグラフの開口率を編集できます。上図の例の場合、値 0.50 は半円に対応します。
-
-「**[!UICONTROL 幅]**」フィールドでは、グラフのサイズを編集できます。
 
 ## グラフとのインタラクション {#interaction-with-the-chart}
 

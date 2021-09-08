@@ -2,18 +2,20 @@
 product: campaign
 title: Campaign Classic の非推奨（廃止予定）および削除された機能
 description: このページには、Adobe Campaign Classic の非推奨および削除された機能が表示されます
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 9c73d13fe3d062ce69c948dba7d57dad573f6856
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 98%
+source-wordcount: '1664'
+ht-degree: 97%
 
 ---
 
 # 非推奨（廃止予定）および削除された機能 {#deprecated-and-removed-features}
+
+![](../../assets/v7-only.svg)
 
 アドビは、製品の機能を評価し続けて、より新しい代替手段に置き換えるべき旧機能を特定し、全体的な顧客の価値を向上させ、常に後方互換性を慎重に考慮します。Adobe Campaign Classic はサードパーティ製ツールと連携しており、サポート対象バージョンのみに対応するために、定期的に互換性が更新されています。Adobe Campaign Classic と互換性がなくなったバージョンを、以下および[互換性マトリックス](../../rn/using/compatibility-matrix.md)に示します。
 
@@ -78,12 +80,16 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <td><strong>置き換え</strong></td> 
   </tr>
   <tr>  
+   <td>レポート<br></td>
+   <td><p>AdobeFlash PlayerEOLに続き、ゲージレポートとグラフレンダリングエンジンは使用できなくなりました。 <a href="../../reporting/using/creating-a-new-report.md">詳細情報</a></p>
+  </tr>
+  <tr>  
    <td>FAX チャネル<br></td>
    <td><p>Campaign 21.1.3 リリース以降、FAX チャネルは使用できなくなりました。<a href="../../delivery/using/steps-about-delivery-creation-steps.md">詳細情報</a></p>
+  </tr>
   <tr>
   <td>Demdex ドメイン<br></td>
   <td><p> Campaign 21.1.3 リリース以降、Adobe Experience Cloud へのオーディエンスの読み込みおよび書き出しに demdex ドメインを使用できなくなりました。<a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">詳細情報</a></p> 
-  </td>
   </td>
   </tr>
    <tr> 

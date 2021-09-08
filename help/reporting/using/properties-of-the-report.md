@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '462'
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+workflow-type: tm+mt
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
 
 # レポートのプロパティ{#properties-of-the-report}
+
+![](../../assets/common.svg)
 
 必要に応じて、レポートを完全にパーソナライズしたり、設定したりできます。それには、レポートのプロパティを編集します。レポートのプロパティには、アクティビティ順序チャートの上にある「**[!UICONTROL プロパティ]**」ボタンをクリックしてアクセスします。
 
@@ -35,7 +37,7 @@ ht-degree: 100%
 
 * **アクセス制御**&#x200B;パラメーター。これらの設定については、以下で説明します。
 
-## レポートへのアクセスの制御{#report-accessibility}
+## レポートへのアクセスの制御 {#report-accessibility}
 
 レポートは、Adobe Campaign コンソールまたは Web ブラウザーからアクセスできます。その場合は、次に示すように、レポートへのアクセス制御の設定が必要になることがあります。
 
@@ -68,7 +70,6 @@ ht-degree: 100%
 
 「**[!UICONTROL レンダリング]**」タブでは、ページのデータ表示モードをパーソナライズできます。次の項目を選択できます。
 
-* グラフレンダリングエンジン：デフォルトでは、レンダリングエンジンは HTML 5 です。
 * レポートでのナビゲーションタイプ（ボタンによるか、リンクによるか）。
 * レポート要素のラベルのデフォルト位置。この位置は、要素ごとにオーバーロードできます。
 * レポートページの生成に使用されるテンプレートまたはテーマ。

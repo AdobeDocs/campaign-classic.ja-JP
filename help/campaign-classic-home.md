@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+source-git-commit: 661a53b19e0fd8c6038c0957dbe2656152b0814c
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 ## 新機能
 
-* **[6 月リリースを公開](rn/using/latest-release.md)**<br/> 新機能、改善点、修正点をリリースノートでご確認ください
+* **[9月リリースが公開されました。](rn/using/latest-release.md)**<br/> 新機能、改善点、修正点をリリースノートでご確認ください
 
 * **[Apple Mail のプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/using/apple-mail-privacy-faq.html)**<br/> iOS 15 に関する Apple の発表に対応した最初のガイダンスです。
 

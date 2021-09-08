@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+source-git-commit: 877ac37102a09a40ea59ef073afa00b9d9bd7dde
 workflow-type: tm+mt
-source-wordcount: '4484'
-ht-degree: 100%
+source-wordcount: '4562'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,19 @@ ht-degree: 100%
 このページでは、すべての新機能とドキュメント更新情報の一覧が月ごとおよび Campaign リリースごとに記載されています。
 
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
+
+## 2021 年 8 月{#aug-2021}
+
+新しいワークフローアクティビティを追加しました。データソースの変更 — [詳細](../../workflow/using/change-data-source.md)
+
+次のドキュメントページに適用可能なバッジが追加されました。**v7**&#x200B;はCampaign Classicv7機能のみに適用され、**v7 &amp; v8**&#x200B;は一般的な機能に適用されます。
+
+Adobe Experience Manager 6.4以降、CampaignとAEM Assetsの統合に関するメモを追加しました。[詳細](../../integrations/using/configuring-access-to-assets.md)
+
+レポートとWebアプリケーションのスクリーンショットとパラメーターは、AdobeFlashの削除後に更新されました。
+
+**ゲージ**&#x200B;グラフタイプが削除されました。
+
 
 ## 2021 年 7 月 {#july-2021}
 

@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: f232588b981d262ef67ff8b7a6f39ff3ea2505d3
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # データベースクリーンアップのワークフロー{#database-cleanup-workflow}
+
+![](../../assets/v7-only.svg)
 
 ## はじめに {#introduction}
 
@@ -25,7 +27,7 @@ ht-degree: 2%
 
 データベースのクリーンアップは、次の2つのレベルで設定します。（ワークフロースケジューラー）と、デプロイウィザードで、
 
-### ワークフロースケジューラ{#the-scheduler}
+### ワークフロースケジューラ {#the-scheduler}
 
 >[!NOTE]
 >
@@ -75,7 +77,7 @@ ht-degree: 2%
 
 **[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローで実行されるすべてのタスクについて、以下の節で説明します。
 
-## データベースクリーンアップワークフロー{#tasks-carried-out-by-the-database-cleanup-workflow}によって実行されるタスク
+## データベースクリーンアップワークフローで実行されるタスク {#tasks-carried-out-by-the-database-cleanup-workflow}
 
 ワークフロースケジューラーで定義された日時（[スケジューラー](#the-scheduler)を参照）に、ワークフローエンジンがデータベースのクリーンアッププロセスを開始します。 データベースクリーンアップは、データベースに接続し、以下に示す順序でタスクを実行します。
 
@@ -88,7 +90,7 @@ ht-degree: 2%
 >
 >以下の節では、データベースクリーンアップワークフローで実行されるタスクについて説明します。これらのタスクは、SQL言語に詳しいデータベース管理者やユーザー向けに用意されています。
 
-### クリーンアップを削除するリスト{#lists-to-delete-cleanup}
+### クリーンアップを削除するリスト {#lists-to-delete-cleanup}
 
 **[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローで最初に実行されたタスクは、**deleteStatus !=** NmsGroup **の0**&#x200B;属性。 これらのグループにリンクされ、他のテーブルに存在するレコードも削除されます。
 
@@ -120,7 +122,7 @@ ht-degree: 2%
 
    ここで、**$(l)**&#x200B;はリスト識別子です。
 
-### 削除またはリサイクルする配信のクリーンアップ{#cleanup-of-deliveries-to-be-deleted-or-recycled}
+### 削除またはリサイクルする配信のクリーンアップ {#cleanup-of-deliveries-to-be-deleted-or-recycled}
 
 このタスクは、削除またはリサイクルするすべての配信を削除します。
 
@@ -170,7 +172,7 @@ ht-degree: 2%
 
    **$(l)**&#x200B;は配信の識別子です。
 
-#### ミッドソーシング{#deliveries-using-mid-sourcing}を使用する配信
+#### ミッドソーシングを使用した配信 {#deliveries-using-mid-sourcing}
 
 **[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローは、ミッドソーシングサーバー上の配信も削除します。
 
@@ -184,7 +186,7 @@ ht-degree: 2%
 
 1. ステータスの値が&#x200B;**[!UICONTROL 開始保留中]** 、 **[!UICONTROL 処理中]** 、 **[!UICONTROL 回復待ち]** 、 **[!UICONTROL 回復中]** 、 **[!UICONTROL 一時停止要求]** 、 **[!UICONTROL 進行中]**&#x200B;の場合または&#x200B;**[!UICONTROL 一時停止]**（値51、55、61、62、71、72、75）、配信が停止し、タスクがリンクされた情報を削除します。
 
-### 期限切れの配信のクリーンアップ{#cleanup-of-expired-deliveries}
+### 期限切れの配信のクリーンアップ {#cleanup-of-expired-deliveries}
 
 このタスクは、有効期間が切れた配信を停止します。
 
@@ -240,7 +242,7 @@ ht-degree: 2%
 
    **配信状態95**&#x200B;は&#x200B;**[!UICONTROL 完了]**&#x200B;ステータスに、**配信状態85**&#x200B;は&#x200B;**[!UICONTROL 停止]**&#x200B;ステータスに、**$(curDate)**&#x200B;は現在のサーバー日に一致します。
 
-### ミラーページのクリーンアップ{#cleanup-of-mirror-pages}
+### ミラーページのクリーンアップ {#cleanup-of-mirror-pages}
 
 このタスクでは、配信で使用されているWebリソース（ミラーページ）を削除します。
 
@@ -273,7 +275,7 @@ ht-degree: 2%
 
    ここで、**$(strIn)**&#x200B;は配信識別子のリストです。
 
-### 作業用テーブルのクリーンアップ{#cleanup-of-work-tables}
+### 作業用テーブルのクリーンアップ {#cleanup-of-work-tables}
 
 このタスクは、ステータスが&#x200B;**[!UICONTROL 編集中]** 、 **[!UICONTROL 停止]**&#x200B;または&#x200B;**[!UICONTROL 削除]**&#x200B;の配信に一致するすべての作業用テーブルをデータベースから削除します。
 
@@ -297,7 +299,7 @@ ht-degree: 2%
    DROP TABLE wkDlv_15487_1;
    ```
 
-### インポートによって生成された却下のクリーンアップ{#cleanup-of-rejects-generated-by-imports-}
+### インポートによって生成された却下のクリーンアップ {#cleanup-of-rejects-generated-by-imports-}
 
 この手順を使用すると、インポート中にすべてのデータが処理されなかったレコードを削除できます。
 
@@ -315,13 +317,13 @@ ht-degree: 2%
    DELETE FROM XtkReject WHERE iJobId NOT IN (SELECT iJobId FROM XtkJob)
    ```
 
-### ワークフローインスタンスのクリーンアップ{#cleanup-of-workflow-instances}
+### ワークフローインスタンスのクリーンアップ {#cleanup-of-workflow-instances}
 
 このタスクは、識別子(**lWorkflowId**)と履歴(**lHistory**)を使用して各ワークフローインスタンスを削除します。 作業用テーブルのクリーンアップタスクを再実行すると、非アクティブなテーブルが削除されます。 また、削除されたワークフローの孤立した作業用テーブル（wkf%とwkfhisto%）もすべて削除されます。
 
 >[!NOTE]
 >
->履歴のパージ頻度は、「**History in days**」フィールド（デフォルト値は30日）で各ワークフローに対して指定します。 このフィールドは、ワークフロープロパティの「**実行**」タブにあります。 詳細については、[このセクション](../../workflow/using/workflow-properties.md#execution)を参照してください。
+>履歴のパージ頻度は、「**History in days**」フィールド（デフォルト値は30日）で各ワークフローに対して指定します。 このフィールドは、ワークフロープロパティの「**実行**」タブにあります。 詳しくは、[この節](../../workflow/using/workflow-properties.md#execution)を参照してください。
 
 1. 削除するワークフローのリストを復元するには、次のクエリを使用します。
 
@@ -376,7 +378,7 @@ ht-degree: 2%
    DROP TABLE wkf15487_12;
    ```
 
-### ワークフローログインのクリーンアップ{#cleanup-of-workflow-logins}
+### ワークフローログインのクリーンアップ {#cleanup-of-workflow-logins}
 
 このタスクでは、次のクエリを使用してワークフローログインを削除します。
 
@@ -384,7 +386,7 @@ ht-degree: 2%
 DELETE FROM XtkWorkflowLogin WHERE iWorkflowId NOT IN (SELECT iWorkflowId FROM XtkWorkflow)
 ```
 
-### 孤立した作業用テーブルのクリーンアップ{#cleanup-of-orphan-work-tables}
+### 孤立した作業用テーブルのクリーンアップ {#cleanup-of-orphan-work-tables}
 
 このタスクは、グループにリンクされた孤立した作業用テーブルを削除します。 **NmsGroup**&#x200B;テーブルには、クレンジング対象のグループ（0とは異なる型）が格納されます。 テーブル名のプレフィックスは&#x200B;**grp**&#x200B;です。 クレンジング対象のグループを識別するには、次のクエリを使用します。
 
@@ -392,7 +394,7 @@ DELETE FROM XtkWorkflowLogin WHERE iWorkflowId NOT IN (SELECT iWorkflowId FROM X
 SELECT iGroupId FROM NmsGroup WHERE iType>0"
 ```
 
-### 訪問者のクリーンアップ{#cleanup-of-visitors}
+### 訪問者のクリーンアップ {#cleanup-of-visitors}
 
 このタスクでは、一括削除を使用して、古いレコードを訪問者テーブルから削除します。 古いレコードは、最後の変更がデプロイウィザードで定義された保存期間より前のものです（[デプロイウィザード](#deployment-wizard)を参照）。 次のクエリが使用されます。
 
@@ -402,7 +404,7 @@ DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WH
 
 ここで、**$(tsDate)**&#x200B;は現在のサーバーの日付です。この日付から、**NmsCleanup_VisitorPurgeDelay**&#x200B;オプションに定義した期間を引きます。
 
-### NPAIのクリーンアップ{#cleanup-of-npai}
+### NPAIのクリーンアップ {#cleanup-of-npai}
 
 このタスクを実行すると、有効なアドレスと一致するレコードを&#x200B;**NmsAddress**&#x200B;テーブルから削除できます。 一括削除の実行には、次のクエリが使用されます。
 
@@ -412,7 +414,7 @@ DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WH
 
 **status 2**&#x200B;は&#x200B;**[!UICONTROL 有効な]**&#x200B;ステータスに一致し、**$(tsDate1)**&#x200B;は現在のサーバーの日付に一致します。**$(tsDate2)**&#x200B;は&#x200B;**NmsCleanup_LastCleanup**&#x200B;オプションに一致します。
 
-### 購読{#cleanup-of-subscriptions-}のクリーンアップ
+### 購読のクリーンアップ {#cleanup-of-subscriptions-}
 
 このタスクは、一括削除を使用して、ユーザーが&#x200B;**NmsSubscription**&#x200B;テーブルから削除したすべてのサブスクリプションを削除します。 次のクエリが使用されます。
 
@@ -420,7 +422,7 @@ DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WH
 DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 ```
 
-### トラッキングログのクリーンアップ{#cleanup-of-tracking-logs}
+### トラッキングログのクリーンアップ {#cleanup-of-tracking-logs}
 
 このタスクは、トラッキングおよびWebトラッキングログテーブルから古いレコードを削除します。 古いレコードは、デプロイウィザードで定義された保存期間より前のレコードです（[デプロイウィザード](#deployment-wizard)を参照）。
 
@@ -433,7 +435,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 1. 一括削除は、以前に復元したテーブルのリスト内のすべてのテーブルをパージするために使用します。 次のクエリが使用されます。
 
    ```
-   DELETE FROM XtkTrackingLogRcp WHERE iTrackingLogId IN (SELECT iTrackingLogId FROM XtkTrackingLogRcp WHERE tsLog < $(tsDate) LIMIT 5000) 
+   DELETE FROM NmsTrackingLogRcp WHERE iTrackingLogId IN (SELECT iTrackingLogId FROM NmsTrackingLogRcp WHERE tsLog < $(tsDate) LIMIT 5000) 
    ```
 
    ここで、 **$(tsDate)**&#x200B;は、**NmsCleanup_TrackingLogPurgeDelay**&#x200B;オプションに定義した期間を差し引いた現在のサーバー日です。
@@ -446,7 +448,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
    ここで、 **$(tsDate)**&#x200B;は、**NmsCleanup_TrackingStatPurgeDelay**&#x200B;オプションに定義した期間を差し引いた現在のサーバー日付です。
 
-### 配信ログのクリーンアップ{#cleanup-of-delivery-logs}
+### 配信ログのクリーンアップ {#cleanup-of-delivery-logs}
 
 このタスクでは、様々なテーブルに保存されている配信ログをパージできます。
 
@@ -473,7 +475,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
    ここで、 **$(option)**&#x200B;は、 **NmsCleanup_BroadLogPurgeDelay**&#x200B;オプションに定義された日付と一致します（[デプロイウィザード](#deployment-wizard)を参照）。
 
-### NmsEmailErrorStatテーブルのクリーンアップ{#cleanup-of-the-nmsemailerrorstat-table-}
+### NmsEmailErrorStatテーブルのクリーンアップ {#cleanup-of-the-nmsemailerrorstat-table-}
 
 このタスクは、**NmsEmailErrorStat**&#x200B;テーブルをクレンジングします。 メインプログラム(**coalesceErrors**)は、次の2つの日付を定義します。
 
@@ -521,7 +523,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
 クリーンアップは、**NmsEmailError**&#x200B;テーブルと&#x200B;**cleanupNmsMxDomain**&#x200B;テーブルで実行されます。
 
-### NmsEmailErrorテーブル{#cleanup-of-the-nmsemailerror-table-}のクリーンアップ
+### NmsEmailErrorテーブルのクリーンアップ {#cleanup-of-the-nmsemailerror-table-}
 
 次のクエリが使用されます。
 
@@ -531,7 +533,7 @@ DELETE FROM NmsEmailError WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmai
 
 このクエリは、**NmsEmailErrorStat**&#x200B;内のリンクされたレコードを持たない行を&#x200B;**NmsEmailError**&#x200B;テーブルからすべて削除します。
 
-### NmsMxDomainテーブル{#cleanup-of-the-nmsmxdomain-table-}のクリーンアップ
+### NmsMxDomainテーブルのクリーンアップ {#cleanup-of-the-nmsmxdomain-table-}
 
 次のクエリが使用されます。
 
@@ -541,7 +543,7 @@ DELETE FROM NmsMxDomain WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmailE
 
 このクエリは、**NmsEmailErrorStat**&#x200B;テーブル内のリンクされたレコードを持たない行を、**NmsMxDomain**&#x200B;テーブルからすべて削除します。
 
-### 提案のクリーンアップ{#cleanup-of-propositions}
+### 提案のクリーンアップ {#cleanup-of-propositions}
 
 **インタラクション**&#x200B;モジュールがインストールされている場合、このタスクが実行され、**NmsPropositionXxx**&#x200B;テーブルがパージされます。
 
@@ -553,7 +555,7 @@ DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FRO
 
 ここで、 **$(option)**&#x200B;は、 **NmsCleanup_PropositionPurgeDelay**&#x200B;オプション用に定義された日付です（[デプロイウィザード](#deployment-wizard)を参照）。
 
-### シミュレーションテーブルのクリーンアップ{#cleanup-of-simulation-tables}
+### シミュレーションテーブルのクリーンアップ {#cleanup-of-simulation-tables}
 
 このタスクは、孤立したシミュレーションテーブル（オファーのシミュレーションや配信のシミュレーションにリンクされなくなったテーブル）を消去します。
 
@@ -569,7 +571,7 @@ DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FRO
    DROP TABLE wkSimu_456831_aggr
    ```
 
-### 監査記録のクリーンアップ{#cleanup-of-audit-trail}
+### 監査記録のクリーンアップ {#cleanup-of-audit-trail}
 
 次のクエリが使用されます。
 
@@ -579,7 +581,7 @@ DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
 
 ここで、 **$(tsDate)**&#x200B;は、**XtkCleanup_AuditTrailPurgeDelay**&#x200B;オプションに定義した期間が停止される現在のサーバーの日付です。
 
-### Nmsaddress {#cleanup-of-nmsaddress}のクリーンアップ
+### Nmsaddressのクリーンアップ {#cleanup-of-nmsaddress}
 
 次のクエリが使用されます。
 
@@ -589,7 +591,7 @@ DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WH
 
 このクエリは、iOSとAndroidに関連するすべてのエントリを削除します。
 
-### 統計の更新とストレージの最適化{#statistics-update}
+### 統計の更新とストレージの最適化 {#statistics-update}
 
 **XtkCleanup_NoStats**&#x200B;オプションを使用すると、クリーンアップワークフローのストレージ最適化手順の動作を制御できます。
 
@@ -613,7 +615,7 @@ SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema I
 
 また、このクリーンアップワークフローでは、**NmsCleanup_AppSubscriptionRcpPurgeDelay**&#x200B;オプションで設定された時間以降に更新されていない無効= 1のエントリもすべて削除します。
 
-### セッション情報{#cleansing-session-information}をクレンジングする
+### セッション情報のクレンジング {#cleansing-session-information}
 
 このタスクは、**sessionInfo**&#x200B;テーブルから情報をクレンジングします。次のクエリが使用されます。
 
@@ -621,10 +623,10 @@ SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema I
  DELETE FROM XtkSessionInfo WHERE tsexpiration < $(curdate) 
 ```
 
-### 有効期限切れのイベント{#cleansing-expired-events}のクレンジング
+### 有効期限切れのイベントのクレンジング {#cleansing-expired-events}
 
 このタスクは、実行インスタンスで受信および保存されたイベントと、コントロールインスタンスでアーカイブされたイベントをクレンジングします。
 
-### クレンジング反応{#cleansing-reactions}
+### クレンジング反応 {#cleansing-reactions}
 
 このタスクは、仮説自体が削除された反応（テーブル&#x200B;**NmsRemaMatchRcp**）をクレンジングします。

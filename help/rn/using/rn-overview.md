@@ -2,18 +2,20 @@
 product: campaign
 title: アップグレードの基本を学ぶ
 description: Campaign Classic アップグレードの詳細
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 69f7b494c244fdf01a65ebe8d55c141d947a0980
+source-git-commit: 5b1c59c450aaedbd8dbf6df8685817e4a7e02056
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '412'
 ht-degree: 97%
 
 ---
 
 # アップグレードの概要{#rn-overview}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign は定期的に更新されています。年間平均で 2～3 個のマイナーバージョンがリリースされ、新機能、改善点および修正点が追加されています。さらに、累積的な修正のみを含むビルドを定期的にリリースしています。
 
@@ -27,7 +29,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ![](assets/do-not-localize/green3.png) **一般提供**（GA） - 実稼働環境で検証済みで、Adobe が推奨します。
 
-**最後のGAビルド**&#x200B;は次のとおりです。[[!DNL Gold Standard] 11リリース](../../rn/using/gold-standard.md)および[Campaign 21.1.3リリース](../../rn/using/latest-release.md#release-21-1-3-build-9330)です。
+**最後のGAビルド**&#x200B;は次のとおりです。[[!DNL Gold Standard] 12リリース](../../rn/using/gold-standard.md)および[Campaign 21.1.4リリース](../../rn/using/latest-release.md#release-21-1-4-build-9340)です。
 
 ![](assets/do-not-localize/limited3.png) **限定提供**（LA） - オンデマンドデプロイメントのみ。
 
@@ -53,7 +55,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ### [!DNL Gold Standard]{#upgrade-for-gold-standard-users}
 
-ホストされている [!DNL Gold Standard] のユーザーは、自動的に [!DNL Gold Standard] のアップグレードのメリットが得られるため、アップグレードアクションを起こすことなく[最新の GA [!DNL Gold Standard]  ビルド](../../rn/using/gold-standard.md#gs-11)が利用できます。[詳細情報](../../rn/using/gs-overview.md)。
+ホストされている [!DNL Gold Standard] のユーザーは、自動的に [!DNL Gold Standard] のアップグレードのメリットが得られるため、アップグレードアクションを起こすことなく[最新の GA [!DNL Gold Standard]  ビルド](../../rn/using/gold-standard.md#gs-12)が利用できます。[詳細情報](../../rn/using/gs-overview.md)。
 
 >[!NOTE]
 >[!DNL Gold Standard] の互換性マトリックスは、[GA 互換性マトリックス](../../rn/using/compatibility-matrix-gs.md)に記載されています。

@@ -6,18 +6,20 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
-source-wordcount: '480'
-ht-degree: 100%
+source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 96%
 
 ---
 
 # パーソナライズした PDF ドキュメントの生成{#generating-personalized-pdf-documents}
 
+![](../../assets/common.svg)
+
 ## 様々な PDF ドキュメントについて {#about-variable-pdf-documents}
 
-Adobe Campaign では、LibreOffice または Microsoft Word ドキュメントから（E メール添付ファイル、ダイレクトメール配信用に）PDF ドキュメントを生成することができます。
+Adobe Campaignでは、LibreOfficeまたはMicrosoft Wordドキュメントから電子メール添付ファイル用の可変PDFドキュメントを生成できます。
 
 サポートされる拡張子は、「.docx」、「.doc」および「.odt」です。
 

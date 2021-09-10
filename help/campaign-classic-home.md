@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: a53ad78121c530469dc1fdc1aadd71d7d4426890
+source-git-commit: 12b191ffe3d407f1a69393278a7678a14e53d23e
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 98%
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 * **[Campaign インスタンスのセキュリティ保護](technotes/using/acc-config-updates.md)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します
 
-* **[Adobe Experience Cloud Triggers 統合の更新](integrations/using/configuring-adobe-io.md)**<br/>レガシー oAuth 認証サービスが提供終了になりました。Adobe I/O に移行する方法を説明します
+* **[Adobe Experience Cloud Triggers統合の](integrations/using/configuring-adobe-io.md)**<br/> 更新レガシーoAuth認証サービスが提供終了になりました。Adobe I/O
 
 [その他の更新](/help/rn/using/documentation-updates.md)
 

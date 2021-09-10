@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 5b1c59c450aaedbd8dbf6df8685817e4a7e02056
+source-git-commit: 21c985d628f672f3c3864fff1a14ab71a24ccfc7
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 97%
+source-wordcount: '422'
+ht-degree: 93%
 
 ---
 
@@ -35,9 +35,9 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ![](assets/do-not-localize/blue3.png) **リリース候補**（RC） - 新機能を備えた最新バージョン。
 
-**最新の RC ビルド**[は Campaign Classic 21.1 リリース](../../rn/using/latest-release.md)です
+![](assets/do-not-localize/orange3.png) **使用できなくなりました**  — デプロイメントされません。バグ修正はありません。 新しいビルドへの更新をお勧めします。
 
-![](assets/do-not-localize/red3.png) **非推奨** - デプロイメントなし。既存の実装はアップグレードする必要があります。
+![](assets/do-not-localize/red3.png) **非推奨** - デプロイメントなし。バグ修正はありません。 既存の実装はアップグレードする必要があります。
 
 ## 推奨事項{#recommendations}
 

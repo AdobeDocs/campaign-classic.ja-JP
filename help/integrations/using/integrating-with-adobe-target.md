@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: ht
+source-git-commit: b458ac67733a2f0e508df729add37d9a78dbcbd8
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 
 ---
 
 # Adobe Target との統合{#integrating-with-adobe-target}
+
+![](../../assets/v7-only.svg)
 
 Adobe Experience Cloud 内での Adobe Campaign と Adobe Target（Classic および Standard）間の統合により、Adobe Campaign の E メール配信に Adobe Target からのオファーを含めることができます。
 

@@ -8,10 +8,10 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 0399bca5b452533f171076aa87be8d1e8d9ad1ed
+source-git-commit: 5eea976f86b62987c38c0fcd893bf3532a2cf301
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 94%
+source-wordcount: '755'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 94%
 
 ## 前提条件 {#adobe-io-prerequisites}
 
-この統合は、 **Campaign Classic 20.3、20.2.4、19.1.8 と [!DNL Gold Standard] 11 リリース**&#x200B;以降にのみ適用されます。
+この統合は、**Campaign Classic20.2.4以降、19.1.8およびGold Standard 11リリース**&#x200B;からのみ適用されます。
 
 この実装を開始する前に、以下の点を確認してください。
 

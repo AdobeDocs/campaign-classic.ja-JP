@@ -3,18 +3,20 @@ solution: Campaign Classic
 product: campaign
 title: Adobe Analytics コネクタ
 description: Adobe Analytics コネクタの詳細
-feature: 概要
+feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: b458ac67733a2f0e508df729add37d9a78dbcbd8
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1785'
 ht-degree: 100%
 
 ---
 
 # Adobe Analytics Connector{#adobe-analytics-connector}
+
+![](../../assets/v7-only.svg)
 
 ## Adobe Analytics Connector の統合について {#about-analytics-connector-integration}
 
@@ -243,7 +245,6 @@ Adobe Campaign と Adobe Analytics の間のデータ交換は、バックグラ
    * **[!UICONTROL タグ 2]** (webAnalytics/@tag2)
    * **[!UICONTROL タグ 3]** (webAnalytics/@tag3)
    * **[!UICONTROL コンタクト日]** (scheduling/@contactDate)
-
 
 
 ## Adobe Campaign での配信のトラッキング {#tracking-deliveries-in-adobe-campaign}

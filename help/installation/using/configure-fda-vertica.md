@@ -1,20 +1,21 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Verticaへのアクセスの設定
 description: FDAでVerticaへのアクセスを設定する方法を説明します。
 audience: platform
 content-type: reference
 topic-tags: connectors
-source-git-commit: a7c080fe4db72f659659c7cac8f2c02031822e04
+exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
+source-git-commit: 0cfe8439007b56014eba497c511904c4f11b39ce
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 19%
 
 ---
 
+# Verticaへのアクセスの設定 {#configure-fda-vertica}
 
-# Vertica {#configure-fda-vertica}へのアクセスを設定する
+![](../../assets/v7-only.svg)
 
 外部データベースに保存された情報を処理するには、Campaignの&#x200B;**Federated Data Access**(FDA)オプションを使用します。 [!DNL Vertica]へのアクセスを設定するには、以下の手順に従います。
 
@@ -24,11 +25,11 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->[!DNL Vertica] コネクタは、ハイブリッドおよびオンプレミスのデプロイメントで使用できます。詳しくは、[こちらのページ](../../installation/using/capability-matrix.md)を参照してください。
+>[!DNL Vertica] コネクタは、ハイブリッドおよびオンプレミスのデプロイメントで使用できます。詳しくは、[このページ](../../installation/using/capability-matrix.md)を参照してください。
 
 ![](assets/snowflake_3.png)
 
-## CentOSでのVertica {#vertica-centos}
+## Vertica on CentOS {#vertica-centos}
 
 CentOSで[!DNL Vertica]を設定するには、次の手順に従います。
 
@@ -144,7 +145,7 @@ CentOSで[!DNL Vertica]を設定するには、次の手順に従います。
 
 1. Adobe Campaignでは、[!DNL Vertica]外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[この節](#vertica-external)を参照してください。
 
-## Vertica外部アカウント{#vertica-external}
+## Vertica外部アカウント {#vertica-external}
 
 Campaignインスタンスを[!DNL Vertica]外部データベースに接続するには、[!DNL Vertica]外部アカウントを作成する必要があります。
 

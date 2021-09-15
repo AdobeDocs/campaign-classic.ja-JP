@@ -1,20 +1,21 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Google BigQueryへのアクセスの設定
 description: FDAでGoogle BigQueryへのアクセスを設定する方法を説明します
 audience: platform
 content-type: reference
 topic-tags: connectors
-source-git-commit: 911302475b5ece96d527575148ee611fdb839753
+exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
+source-git-commit: 0cfe8439007b56014eba497c511904c4f11b39ce
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 7%
 
 ---
 
+# Google BigQueryへのアクセスの設定 {#configure-fda-google-big-query}
 
-# Google BigQuery {#configure-fda-google-big-query}へのアクセスを設定する
+![](../../assets/v7-only.svg)
 
 外部データベースに保存された情報を処理するには、Adobe Campaign Classic **Federated Data Access**(FDA)オプションを使用します。 [!DNL Google BigQuery]へのアクセスを設定するには、以下の手順に従います。
 
@@ -24,39 +25,39 @@ ht-degree: 7%
 
 >[!NOTE]
 >
-> [!DNL Google BigQuery] コネクタは、ハイブリッドおよびオンプレミスのデプロイメントで使用できます。詳しくは、[こちらのページ](../../installation/using/capability-matrix.md)を参照してください。
+> [!DNL Google BigQuery] コネクタは、ハイブリッドおよびオンプレミスのデプロイメントで使用できます。詳しくは、[このページ](../../installation/using/capability-matrix.md)を参照してください。
 
 ![](assets/snowflake_3.png)
 
-## Windows上のGoogle BigQuery {#google-windows}
+## WindowsでのGoogle BigQuery {#google-windows}
 
-### Windowsでのドライバの設定{#driver-window}
+### Windowsでのドライバの設定 {#driver-window}
 
 1. [Windows 用の ODBC ドライバー](https://cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers)をダウンロードします。
 
-1. WindowsでODBCドライバーを設定します。 詳しくは、[こちらのページ](https://storage.googleapis.com/simba-bq-release/jdbc/Simba%20JDBC%20Driver%20for%20Google%20BigQuery%20Install%20and%20Configuration%20Guide.pdf)を参照してください。
+1. WindowsでODBCドライバーを設定します。 詳しくは、[このページ](https://storage.googleapis.com/simba-bq-release/jdbc/Simba%20JDBC%20Driver%20for%20Google%20BigQuery%20Install%20and%20Configuration%20Guide.pdf)を参照してください。
 
 1. [!DNL Google BigQuery]コネクタを機能させるには、Adobe Campaign Classicで接続するために次のパラメーターが必要です。
 
    * **[!UICONTROL プロジェクト]**:既存のプロジェクトを作成または使用する。
 
-      詳しくは、この[ページ](https://cloud.google.com/resource-manager/docs/creating-managing-projects)を参照してください。
+      詳しくは、[このページ](https://cloud.google.com/resource-manager/docs/creating-managing-projects)を参照してください。
 
    * **[!UICONTROL サービスアカウント]**:サービスアカウントを作成します。
 
-      詳しくは、この[ページ](https://cloud.google.com/iam/docs/creating-managing-service-accounts)を参照してください。
+      詳しくは、[このページ](https://cloud.google.com/iam/docs/creating-managing-service-accounts)を参照してください。
 
    * **[!UICONTROL キーファイルパス]**:サービス **[!UICONTROL アカウ]** ントには、ODBCを介し **[!UICONTROL た接]** 続に対してキ [!DNL Google BigQuery] ーファイルが必要です。
 
-      詳しくは、この[ページ](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)を参照してください。
+      詳しくは、[このページ](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)を参照してください。
 
    * **[!UICONTROL データセット]**: **** ODBC接続の場合、データセットはオプションです。各クエリはテーブルのあるデータセットを提供する必要があるので、Adobe Campaign Classicの[!DNL Google BigQuery]FDAコネクタには&#x200B;**[!UICONTROL データセット]**&#x200B;を指定する必要があります。
 
-      詳しくは、この[ページ](https://cloud.google.com/bigquery/docs/datasets)を参照してください。
+      詳しくは、[このページ](https://cloud.google.com/bigquery/docs/datasets)を参照してください。
 
 1. Adobe Campaign Classicでは、[!DNL Google BigQuery]外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[この節](#google-external)を参照してください。
 
-### Windowsでの一括読み込みの設定{#bulk-load-window}
+### Windowsでの一括読み込みの設定 {#bulk-load-window}
 
 >[!NOTE]
 >
@@ -80,9 +81,9 @@ ht-degree: 7%
 
 1. Adobe Campaign Classicを再起動して、変更を反映します。
 
-## LinuxのGoogle BigQuery {#google-linux}
+## LinuxでのGoogle BigQuery {#google-linux}
 
-### Linuxでのドライバの設定{#driver-linux}
+### Linuxでのドライバの設定 {#driver-linux}
 
 1. ODBCドライバーをインストールする前に、システムを更新する必要があります。 LinuxまたはCentOSで、次のコマンドを実行します。
 
@@ -204,7 +205,7 @@ ht-degree: 7%
 
 1. Adobe Campaign Classicでは、[!DNL Google BigQuery]外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[この節](#google-external)を参照してください。
 
-### Linuxでの一括読み込みの設定{#bulk-load-linux}
+### Linuxでの一括読み込みの設定 {#bulk-load-linux}
 
 >[!NOTE]
 >
@@ -224,7 +225,7 @@ ht-degree: 7%
 
 1. Adobe Campaign Classicを再起動して、変更を反映します。
 
-## Google BigQuery外部アカウント{#google-external}
+## Google BigQuery外部アカウント {#google-external}
 
 Adobe Campaign Classicインスタンスを[!DNL Google BigQuery]外部データベースに接続するには、[!DNL Google BigQuery]外部アカウントを作成する必要があります。
 

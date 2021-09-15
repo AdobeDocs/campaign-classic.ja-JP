@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 0c6e328087135fd9b35ca6cf0669090be0c93957
+source-git-commit: b3a3ec871bca9132f10b319ba1f93aeda80d6747
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 93%
@@ -29,7 +29,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ![](assets/do-not-localize/green3.png) **一般提供**（GA） - 実稼働環境で検証済みで、Adobe が推奨します。
 
-**最後のGAビルド**&#x200B;は次のとおりです。[[!DNL Gold Standard] 12リリース](../../rn/using/gold-standard.md)および[Campaign 21.1.4リリース](../../rn/using/latest-release.md#release-21-1-4-build-9340)です。
+**最後のGAビルド**&#x200B;は次のとおりです。[[!DNL Gold Standard] 11リリース](../../rn/using/gold-standard.md#gs-11)および[Campaign 21.1.4リリース](../../rn/using/latest-release.md#release-21-1-4-build-9340)です。
 
 ![](assets/do-not-localize/limited3.png) **限定提供**（LA） - オンデマンドデプロイメントのみ。
 

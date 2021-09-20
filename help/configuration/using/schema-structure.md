@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
 # スキーマの構造{#schema-structure}
+
+![](../../assets/v7-only.svg)
 
 `<srcschema>` の基本的な構造は次のとおりです。
 
@@ -166,7 +168,7 @@ ht-degree: 87%
 </srcSchema>
 ```
 
-### Adobe Campaign/DBMSデータのタイプのマッピング{#mapping-the-types-of-adobe-campaign-dbms-data}
+### Adobe Campaign/DBMSデータのタイプのマッピング {#mapping-the-types-of-adobe-campaign-dbms-data}
 
 次の表に、様々なデータベース管理システム用にAdobe Campaignで生成されるデータのタイプに対するマッピングを示します。
 
@@ -197,7 +199,7 @@ ht-degree: 87%
    <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
-   <td> Byte<br /> </td> 
+   <td> バイト<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
    <td> NUMERIC(3)<br /> </td> 
@@ -295,9 +297,9 @@ ht-degree: 87%
  </tbody> 
 </table>
 
-## 「PROPERTIES」タブ {#properties}
+## プロパティ {#properties}
 
-データスキーマの **`<elements>`** 要素と **`<attributes>`** 要素は、様々なプロパティを使用して強化できます。 現在の要素を説明するためにラベルを入力できます。
+データスキーマの&#x200B;**`<elements>`**&#x200B;要素と&#x200B;**`<attributes>`**&#x200B;要素は、様々なプロパティを使用してエンリッチメントできます。 現在の要素を説明するためにラベルを入力できます。
 
 ### ラベルと説明 {#labels-and-descriptions}
 
@@ -356,7 +358,7 @@ ht-degree: 87%
 
 ### 列挙 {#enumerations}
 
-#### 任意の定義済みリスト{#free-enumeration}
+#### 任意の定義済みリスト {#free-enumeration}
 
 **userEnum** プロパティを使用すると、任意の定義済みリストを定義して、このフィールドに入力した値を記憶して表示することができます。構文は以下のようになります。
 
@@ -372,7 +374,7 @@ ht-degree: 87%
 >
 >Adobe Campaign クライアントコンソールでは、**[!UICONTROL 管理／定義済みリスト]**&#x200B;ノードを使用して、定義済みリストを管理します。
 
-#### 定義済みリストを設定{#set-enumeration}
+#### 定義済みリストを設定 {#set-enumeration}
 
 **enum** プロパティを使用すると、考えられる値のリストが事前にわかっている場合に使用できる、固定の定義済みリストを定義できます。
 
@@ -406,7 +408,7 @@ ht-degree: 87%
 * **name**：内部的に保存された値の名前。
 * **label**：グラフィカルインターフェイスで表示されるラベル
 
-#### dbenum 定義済みリスト{#dbenum-enumeration}
+#### dbenum 定義済みリスト {#dbenum-enumeration}
 
 * **dbenum** プロパティを使用すると、**enum** プロパティと類似したプロパティを持つ定義済みリストを定義できます。
 
@@ -420,7 +422,7 @@ ht-degree: 87%
 
 ### 例 {#example}
 
-プロパティが設定されたスキーマの例を次に示します。
+プロパティが設定されたスキーマの例を示します。
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -484,8 +486,8 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 >
 >* **location/@city** が無効です。**`[location/@city]`** を使用してください。
 >* **`[@email]`** と **@email** は同等です。
->
 
+>
 
 
 次の算術演算のように、複雑な式を定義することもできます。

@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
 workflow-type: tm+mt
 source-wordcount: '2512'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # データパッケージの使用{#working-with-data-packages}
+
+![](../../assets/common.svg)
 
 ## データパッケージについて {#about-data-packages}
 
@@ -299,7 +301,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ## パッケージのインポート {#importing-packages}
 
-Adobe Campaign クライアントコンソールのメインメニューで&#x200B;**[!UICONTROL ツール／詳細設定／パッケージインポート...]**&#x200B;を選択すると、パッケージインポートウィザードにアクセスできます。
+Adobe Campaignクライアントコンソールの&#x200B;**[!UICONTROL ツール/詳細設定/パッケージをインポート]**&#x200B;メインメニューから、パッケージインポートウィザードにアクセスできます。
 
 （例えば、別の Adobe Campaign インスタンスから）事前にエクスポートしたパッケージをインポートするか、ライセンス条件によっては[組み込みパッケージ](../../installation/using/installing-campaign-standard-packages.md)をインポートすることができます。
 

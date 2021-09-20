@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 27%
 
 組み込みパッケージをインストールするには：
 
-1. Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／高度なツール／パッケージをインポート...]**&#x200B;からパッケージ読み込みウィザードにアクセスします。
+1. Adobe Campaignクライアントコンソールで、**[!UICONTROL ツール/詳細設定/パッケージをインポート]**&#x200B;からパッケージインポートウィザードにアクセスします。
 1. 「**[!UICONTROL 標準パッケージをインストール]**」を選択します。
 1. パッケージリストで、インストールするパッケージを確認します。
    >[!NOTE]

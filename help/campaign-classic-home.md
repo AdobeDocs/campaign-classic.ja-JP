@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 12b191ffe3d407f1a69393278a7678a14e53d23e
+source-git-commit: 1d662f2f6d4b664e1cc2977cd3207d1b71983b04
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 89%
+source-wordcount: '260'
+ht-degree: 80%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 
 * **[9月リリースが公開されました。](rn/using/latest-release.md)**<br/> 新機能、改善点、修正点をリリースノートでご確認ください
 
-* **[Apple Mail のプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ja)**<br/> iOS 15 に関する Apple の発表に対応した最初のガイダンスです。
+* **[Apple Mailのプライバシー保護に関す](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)** るFAQ **[](technotes/using/apple-mail-app-privacy-protection.md)**<br/> とテクニカルノートiOS 15に関するAppleの発表に応じて、最初のガイダンスを見つけます
 
 * **[IMS／Adobe ID で接続している場合は、最新ビルドへのアップグレードが必要 ](technotes/using/ims-updates.md)**<br/>IMS で Campaign に接続している場合、** 2021 年 6 月 30 日（PT）**以降も、Campaign に接続できるようにするにはアップグレードが必要です
 

@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
+workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作が必�
 
 インストール手順は次のとおりです。
 
-1. Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／高度なツール／パッケージをインポート...]**&#x200B;からパッケージ読み込みウィザードにアクセスします。
+1. Adobe Campaignクライアントコンソールで、**[!UICONTROL ツール/詳細設定/パッケージをインポート]**&#x200B;からパッケージインポートウィザードにアクセスします。
 
    ![](assets/package_ios.png)
 

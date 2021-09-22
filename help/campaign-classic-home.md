@@ -3,7 +3,7 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 1d662f2f6d4b664e1cc2977cd3207d1b71983b04
+source-git-commit: acb2c4e90c4ce349ea9c1ad53d703c13195872e1
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 80%
@@ -28,7 +28,7 @@ ht-degree: 80%
 
 * **[Adobe Experience Cloud Triggers統合の](integrations/using/configuring-adobe-io.md)**<br/> 更新レガシーoAuth認証サービスが提供終了になりました。Adobe I/O
 
-[その他の更新](/help/rn/using/documentation-updates.md)
+[その他の更新](rn/using/documentation-updates.md)
 
 ## トップページ
 
@@ -80,7 +80,7 @@ ht-degree: 80%
 
 | 便利なページ | 開発者向けリソース |
 |---|---|
-| [リリースノート](/help/rn/using/latest-release.md) | [エラーメッセージのリスト](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja) |
+| [リリースノート](rn/using/latest-release.md) | [エラーメッセージのリスト](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja) |
 | [ビデオガイド、チュートリアル](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
 | [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html) |
 | [[!DNL Gold Standard] アップグレード](rn/using/gs-overview.md) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |

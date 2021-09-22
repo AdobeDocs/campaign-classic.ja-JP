@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1206'
 ht-degree: 2%
 
 ---
 
 # Linux でのパッケージのインストール{#installing-packages-with-linux}
+
+![](../../assets/v7-only.svg)
 
 Linux 32ビットプラットフォームの場合は、Adobe Campaign 32ビットをインストールします。 Linux 64ビットプラットフォームの場合は、Adobe Campaign 64ビットをインストールします。
 
@@ -33,7 +35,7 @@ Adobe Campaignには、これらのバージョンごとに1つのパッケー�
 
 **ping`hostname`**&#x200B;コマンドを実行して、サーバーが自身に到達できることを確認できます。
 
-## RPMパッケージに基づく配布{#distribution-based-on-rpm--packages}
+## RPMパッケージに基づく配布 {#distribution-based-on-rpm--packages}
 
 Adobe CampaignをRPM(RHEL、CentOS、SUSE)オペレーティングシステムにインストールするには、次の手順に従います。
 
@@ -68,9 +70,9 @@ CentOSを使用する場合は、bc.x86_64パッケージをインストール�
 yum install bc.x86_64
 ```
 
-## APT(Debian)に基づく配布{#distribution-based-on-apt--debian-}
+## APT(Debian)に基づく配布 {#distribution-based-on-apt--debian-}
 
-### Debian 64ビットの場合{#in-debian-64-bits}
+### Debian 64ビットの場合 {#in-debian-64-bits}
 
 Adobe Campaign 64ビットをDebian 64ビットオペレーティングシステムにインストールするには、次の手順に従います。
 
@@ -126,7 +128,7 @@ Debian 8/9オペレーティングシステムにAdobe Campaignをインスト�
    aptitude install openjdk-7-jdk (Debian 9)
    ```
 
-## パラメーター{#personalizing-parameters}のパーソナライズ
+## パラメーターのパーソナライズ {#personalizing-parameters}
 
 一部のパラメーターは、**customer.sh**&#x200B;ファイルを使用してパーソナライズできます
 
@@ -136,7 +138,7 @@ Debian 8/9オペレーティングシステムにAdobe Campaignをインスト�
 chmod +x /usr/local/neolane/nl6/customer.sh
 ```
 
-### サーバーエンコーディング{#server-encoding}
+### サーバーエンコーディング {#server-encoding}
 
 デフォルトでは、サーバーはiso8859-15環境で起動されます。 ただし、サーバーはUTF-8環境で起動できます。
 
@@ -153,7 +155,7 @@ mkdir -p /usr/local/neolane/nl6
 touch /usr/local/neolane/nl6/unicodeenv
 ```
 
-### サーバーのデフォルト言語{#default-language-for-the-server}
+### サーバーのデフォルト言語 {#default-language-for-the-server}
 
 英語とフランス語の両方をサポートしています。 デフォルトでは英語が使用されます。
 
@@ -250,7 +252,7 @@ systemctl stop nlserver
 systemctl start nlserver
 ```
 
-### Linuxのoracleクライアント{#oracle-client-in-linux}
+### Linuxのoracleクライアント {#oracle-client-in-linux}
 
 Adobe CampaignでOracleを使用する場合は、LinuxでOracleクライアントレイヤーを設定する必要があります。
 
@@ -281,9 +283,9 @@ Adobe CampaignでOracleを使用する場合は、LinuxでOracleクライアン�
    ln -s libclntsh.so.10.1 libclntsh.so
    ```
 
-問題が発生した場合は、[Oracleのインストールに関するドキュメント](https://www.oracle.com/pls/db112/portal.portal_db?selected=11)に記載されているパッケージが正しくインストールされていることを確認してください。
+問題が発生した場合は、[Oracleのインストールに関するドキュメント](https://docs.oracle.com/)に記載されているパッケージが正しくインストールされていることを確認してください。
 
-## {#installation-checks}のインストールの確認
+## インストールの確認 {#installation-checks}
 
 次のコマンドを使用して、初期インストールテストを実行できます。
 
@@ -298,7 +300,7 @@ Adobe Campaignが起動されていない場合の応答は次のようになり
 no task
 ```
 
-## サーバの最初の起動{#first-start-up-of-the-server}
+## サーバーの最初の起動 {#first-start-up-of-the-server}
 
 インストールテストが完了したら、次のコマンドを入力します。
 
@@ -353,8 +355,8 @@ nlserver stop web
 12:18:31 >   Web server stopped (pid=29188, tid=-1224824320)...
 ```
 
-## 内部識別子{#password-for-the-internal-identifier}のパスワード
+## 内部識別子のパスワード {#password-for-the-internal-identifier}
 
 Adobe Campaignサーバーは、すべてのインスタンスに対するすべての権限を持つ、**内部**&#x200B;というテクニカルログインを定義します。 インストール直後に、ログインにパスワードが含まれていません。 定義する必要があります。
 
-詳細については、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
+詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。

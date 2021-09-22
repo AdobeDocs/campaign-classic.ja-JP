@@ -5,18 +5,20 @@ description: Campaign 18.6 のリリースノート
 audience: rn
 content-type: reference
 topic-tags: latest-release-notes
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: a849ce10-0972-4c42-b10e-67a81c79bc65
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '810'
 ht-degree: 100%
 
 ---
 
 # リリース 18.6{#release-18-6}
+
+![](../../assets/v7-only.svg)
 
 ## リリース 18.6.2 - ビルド 8949{#release-18-6-3-build-8949}
 
@@ -107,7 +109,7 @@ Query Banding について詳しくは、以下の記事を参照してくださ
 
 decryptString
 
-**decryptString** 関数は廃止される予定です。[廃止される機能および削除された機能](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)についての記事を参照してください。
+**decryptString** 関数は廃止される予定です。[廃止される機能および削除された機能](deprecated-features.md)についての記事を参照してください。
 
 新規のお客様は、ランディングページで受信者の暗号化 ID を復号化する際にのみ、この関数を使用します。外部アカウントに保管されているパスワードを復号化するには、新しい **decryptPassword** 関数を使用します。
 

@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: ed43a632a962747c9402ff8d5f0ce442c2cc6490
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 2%
@@ -15,6 +15,8 @@ ht-degree: 2%
 
 # ターゲットマッピング{#target-mapping}
 
+![](../../assets/v7-only.svg)
+
 ターゲットマッピングの作成は、次の2つの場合に必要です。
 
 * Adobe Campaignで指定された受信者テーブル以外の受信者テーブルを使用する場合、
@@ -22,7 +24,7 @@ ht-degree: 2%
 
 ターゲットマッピング作成ウィザードは、カスタムテーブルを使用するために必要なすべてのスキーマを作成するのに役立ちます。
 
-## カスタムテーブル{#creating-and-configuring-schemas-linked-to-the-custom-table}にリンクされたスキーマの作成と設定
+## カスタムテーブルにリンクされたスキーマの作成と設定 {#creating-and-configuring-schemas-linked-to-the-custom-table}
 
 Adobe Campaignが新しい受信者データスキーマを使用して操作するには、ターゲットマッピングを作成する前に、いくつかの設定が必要です。
 
@@ -94,7 +96,9 @@ Adobe Campaignが新しい受信者データスキーマを使用して操作す
 
    「**[!UICONTROL 新しい追加フィールドを定義]**」をクリックして、配信のターゲットにするディメンションを選択します。
 
-   デフォルトでは、除外管理はメッセージと同じテーブルに保存されます。 ターゲットマッピングにリンクされたトラッキングのストレージを設定する場合は、「**トラッキングのストレージスキーマを生成**」ボックスをオンにします。
+   デフォルトでは、除外管理はメッセージと同じテーブルに保存されます。
+
+   ターゲットマッピングにリンクされたトラッキングのストレージを設定する場合は、「**トラッキングのストレージスキーマを生成**」ボックスをオンにします。
 
    ![](assets/mapping_diffusion_wizard_3.png)
 
@@ -112,7 +116,7 @@ Adobe Campaignが新しい受信者データスキーマを使用して操作す
 
    ![](assets/mapping_schema_list.png)
 
-## ターゲットマッピング{#using-target-mapping}の使用
+## ターゲットマッピングの使用 {#using-target-mapping}
 
 新しいスキーマを配信のターゲットとして使用する方法は2つあります。
 

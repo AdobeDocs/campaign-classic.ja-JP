@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 97%
+source-wordcount: '1657'
+ht-degree: 95%
 
 ---
 
@@ -114,7 +114,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr> 
   <tr> 
    <td>web アプリケーション - マイクロサイト</td>
-   <td>Campaign 18.10 リリースより、マイクロサイトは使用できなくなりました。Adobe Campaign 構成ファイルの専用ドメインのみにアクセスを制限することでセキュリティを向上させ、DNS エイリアスを使用して Campaign でパーソナライズされた URL を使用することができます。<a href="https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html">詳細情報</a></td>
+   <td>Campaign 18.10 リリースより、マイクロサイトは使用できなくなりました。Adobe Campaign 構成ファイルの専用ドメインのみにアクセスを制限することでセキュリティを向上させ、DNS エイリアスを使用して Campaign でパーソナライズされた URL を使用することができます。</td>
   </tr> 
   <tr> 
    <td>プッシュ通知 - iOS バイナリコネクタ</td>
@@ -183,7 +183,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 19.1 Spring リリースより、Adobe Campaign は次のツールへの対応を終了します。
 
-* Java JDK 7。[詳細情報](http://www.oracle.com/technetwork/java/javase/eol-135779.html)
+* Java JDK 7。[詳細情報](https://www.oracle.com/technetwork/java/javase/eol-135779.html)
 * Libre Office 3.5／4.3／5.x（他のツールに埋め込まれた場合を除く）。[詳細情報](https://wiki.documentfoundation.org/ReleasePlan/Archive#End-of-Life_Releases)
 
 ### データベースエンジン {#dbe-eol}
@@ -201,14 +201,14 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 19.1 Spring リリースより、Adobe Campaign は次の FDA サーバーへの対応を終了します。
 
 * PostgreSQL 9.3。[詳細情報](https://www.postgresql.org/support/versioning)
-* MySQL 5.5。[詳細情報](http://www.fromdual.com/support-for-mysql-from-oracle)
-* DB2 9.5。[詳細情報](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* MySQL 5.5。[詳細情報](https://www.fromdual.com/support-for-mysql-from-oracle)
+* DB2 9.5。[詳細情報](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
 * Teradata 14 – 14.1。[詳細情報](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)
 
 Campaign Classic は、Federated Data Access（FDA）の次のサーバーと互換性がありません。
 
-* DB2 UDB 9.5、9.7。より新しいバージョンの DB2 は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](http://www-01.ibm.com/support/docview.wss?uid=swg21168270)
-* Oracle 9i、10G R2。より新しいバージョンの Oracle は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](http://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
+* DB2 UDB 9.5、9.7。より新しいバージョンの DB2 は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
+* Oracle 9i、10G R2。より新しいバージョンの Oracle は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
 * PostgreSQL 8.3、8.4、9.0、9.1、9.2。より新しいバージョンの PostgreSQL は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://www.postgresql.org/support/versioning)
 * MSSQL 2000、2005、2008 R2。より新しいバージョンの SQL Server は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/1044)
 * MySQL 5.1。より新しいバージョンの MySQL は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://en.wikipedia.org/wiki/InfiniDB)

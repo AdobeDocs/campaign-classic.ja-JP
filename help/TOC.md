@@ -7,9 +7,9 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
+source-git-commit: 1f6846f29c44719fdbd334327466619ed265452a
 workflow-type: tm+mt
-source-wordcount: '2531'
+source-wordcount: '2535'
 ht-degree: 99%
 
 ---
@@ -118,6 +118,7 @@ ht-degree: 99%
          + [Salesforce.com との接続](platform/using/crm-sfdc.md)
          + [CRM とのデータの同期](platform/using/crm-data-sync.md)
       + Adobe Analytics コネクタ {#analytics-connector}
+         + [Adobe Analytics Connectorのプロビジョニング](platform/using/adobe-analytics-provisioning.md)
          + [Adobe Analyticsコネクタの統合](platform/using/adobe-analytics-connector.md)
          + [Adobe Analytics Connector に移行する方法](technotes/using/aa-connector-migration.md)
          + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)

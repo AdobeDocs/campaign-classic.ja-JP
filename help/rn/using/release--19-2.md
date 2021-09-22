@@ -3,9 +3,9 @@ product: campaign
 title: リリース 19.2
 description: Campaign 19.2 のリリースノート
 exl-id: 3c529e4e-8787-41d2-b85d-3feaa5432196
-source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1537'
 ht-degree: 100%
 
 ---
@@ -150,7 +150,7 @@ _2019 年 12 月 2 日_
 
 _非推奨（廃止予定）のシステム_
 
-Campaign Classic 実装では、次のシステムが[非推奨（廃止予定）](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)となりました。
+Campaign Classic 実装では、次のシステムが[非推奨（廃止予定）](deprecated-features.md)となりました。
 * Apache 2.2
 * Centos 6
 

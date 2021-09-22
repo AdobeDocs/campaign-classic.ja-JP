@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '298'
 ht-degree: 45%
 
 ---
 
 # モデルごとの機能マトリックス{#capability-matrix-per-model}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign Classic には一連のモジュールとオプションが付属しています。これらのモジュールの使用可否と使い方は、インストール構成のデプロイメントタイプによって異なります。この記事では、完全にホストされた(Managed Services)デプロイメントとオンプレミスデプロイメントの間の特定の機能の主な違いに関する詳細を説明します。
 
@@ -21,19 +23,19 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 
 この節](../../installation/using/hosting-models.md)では、異なるホスティングモデルが導入されました。[
 
-## デプロイメントモデルごとの可用性{#capability-matrix}
+## デプロイメントモデルごとの可用性 {#capability-matrix}
 
 | 機能 | ホスト | ハイブリッド | オンプレミス | 詳細 |
 |-----------------------------------------------|------------------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Campaign サーバーの設定 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../installation/using/the-server-configuration-file.md) |
-| BCC でメールを送信 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../installation/using/email-archiving.md) |
+| BCC で E メールを送信 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../installation/using/email-archiving.md) |
 | Message Center実行インスタンスの管理 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../message-center/using/about-transactional-messaging.md) |
 | ミッドソーシングプラットフォームの管理 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../installation/using/mid-sourcing-server.md) |
 | Litmusを使用した受信ボックスレンダリング | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../delivery/using/inbox-rendering.md) |
 | IMSとの統合(Adobe ID) | オンデマンド | オンデマンド | オンデマンド | [詳細情報](../../integrations/using/about-adobe-id.md) |
 | ファイル転送のデータの暗号化/復号化 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../platform/using/unzip-decrypt.md) |
 | ファイルの圧縮/解凍 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../platform/using/unzip-decrypt.md) |
-| ドメイン名のデリゲーション | オンデマンド | オンデマンド | 使用不可 | [詳細情報](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html) |
+| ドメイン名のデリゲーション | オンデマンド | オンデマンド | 使用不可 | [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja) |
 | SpamAssassinのインストール | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../delivery/using/spamassassin.md) |
 | 配信品質レポートへのアクセス | 使用可能 | オンデマンド | 使用可能 | [詳細情報](../../delivery/using/monitoring-deliverability.md) |
 | LDAP認証の設定 | なし | 使用可能 | 使用可能 | [詳細情報](../../installation/using/connecting-through-ldap.md) |

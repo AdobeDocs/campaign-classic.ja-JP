@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 100%
 
 ---
 
 # よくある質問{#common-questions}
+
+![](../../assets/common.svg)
 
 Campaign Classic の操作について疑問がある場合は、以下に示すよくある 10 件の質問や、該当するページにあるその他の一般的な質問を参照してください。また、次のこともできます。
 
@@ -71,4 +73,4 @@ Campaign Classic の最新のリリースノートについては、[このペ�
 
 サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。アドビは E メール配信用にドメインネームシステム（DNS）を考慮しています。これにより、クライアントがドメイン名と共に DNS エイリアスを使用することでブランドイメージを維持したり、E メール処理中の配信品質を最適化できるすべての技術的なベストプラクティスをアドビが自主的に実践したりできます。
 
-[詳しくはここをクリック](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)してください。
+[詳しくはここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja)してください。

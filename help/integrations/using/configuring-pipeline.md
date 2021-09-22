@@ -5,7 +5,7 @@ description: パイプラインの設定方法を説明します
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: b6aa797133e6f916bf085794aeb99d61a8f7bc40
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 99%
@@ -13,6 +13,8 @@ ht-degree: 99%
 ---
 
 # パイプラインの設定 {#configuring-pipeline}
+
+![](../../assets/common.svg)
 
 顧客 ID、秘密鍵、認証エンドポイントなどの認証パラメーターは、インスタンス設定ファイルで設定します。
 処理されるトリガーのリストは、JSON フォーマットでオプションに設定されます。
@@ -111,7 +113,7 @@ ht-degree: 99%
 パイプラインオプションを設定するには、次の推奨事項に従う必要があります。
 
 * 「**[!UICONTROL トリガー]**」の下にあるトリガーを追加または編集します。残りのトリガーは編集しません。
-* JSON が有効であることを確認します。JSON 検証ツールを使用できます。例として、この [web サイト](http://jsonlint.com/)を参照してください。
+* JSON が有効であることを確認します。JSON 検証ツールを使用できます。例として、この [web サイト](https://jsonlint.com/)を参照してください。
 * 「Name」は、トリガー ID に対応します。ワイルドカード「*」は、すべてのトリガーを取得します。
 * 「Consumer」は、呼び出し元のインスタンスまたはアプリケーションの名前に対応します。
 * パイプライン化されたプロセスでは、「aliases」トピックもサポートしています。

@@ -6,20 +6,22 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: 1113afb573bad958ec7cc2cf008f71c8e751e8f9
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 84%
 
 ---
 
 # シードアドレスについて{#about-seed-addresses}
 
+![](../../assets/common.svg)
+
 シードアドレスは、定義されたターゲット条件に合わない受信者を配信のターゲットにする場合に使用されます。これにより、配信スコープ外の受信者が他のターゲット受信者と同様に配信を受信することができます。
 
-これらを使用する主な理由の 1 つが、**メーリングリスト保護**&#x200B;です。メーリングリストにシードアドレスを挿入すると、メーリングリストに送信された配信をシードアドレスが受信するので、第三者によってメーリングリストが使用されているかどうかを知ることができます。
+これらを使用する主な理由の 1 つが、**メーリングリスト保護**&#x200B;です。メーリングリストにシードアドレスを挿入すると、メーリングリストに送信された配信をシードアドレスが受け取るので、第三者によって使用されているかどうかを知ることができます。
 
-さらに、シードアドレスを使用すると、配達確認を送信することで、送信前に&#x200B;**配信のパーソナライゼーションとレンダリングをプレビューおよびテスト**&#x200B;できます（[配達確認としてのシードアドレスの使用](steps-defining-the-target-population.md#using-seed-addresses-as-proof)を参照）。
+さらに、シードアドレスを使用すると、配達確認を送信することで、送信前に配信のパーソナライゼーションとレンダリングを&#x200B;**プレビューおよびテストできます（[配達確認としてのシードアドレスの使用](steps-defining-the-target-population.md#using-seed-addresses-as-proof)を参照）。**
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](steps-defining-the-target-population.md#seeds-and-proofs-video)
 
@@ -35,7 +37,7 @@ ht-degree: 100%
 >
 >シードアドレスは受信者テーブルに属さず、別のテーブルに作成されます。新しいデータで受信者テーブルを拡張する場合、シードアドレステーブルも同じデータで拡張する必要があります。そうしないと、拡張されたフィールドはシードアドレスでは考慮されません。
 >
->シードアドレステーブルの拡張方法の例については、[ユースケース：条件に基づくシードアドレスの選択](use-case--selecting-seed-addresses-on-criteria.md)の節を参照してください。
+>シードアドレステーブルの拡張方法の例については、[ユースケース：条件に基づくシードアドレスの選択](use-case--selecting-seed-addresses-on-criteria.md)の節を参照してください。。
 
 ダイレクトメール配信の場合、シードアドレスは抽出時に追加され、出力ドキュメントに織り込まれます。
 
@@ -46,5 +48,4 @@ ht-degree: 100%
 >* 「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」オプションは使用できません。
 >* 要素のコレクションが抽出される場合、「**[!UICONTROL 単一行（エキスパートユーザー）]**」オプションをオンにしない限り、それらのフィールドのシードアドレスの値は空になります。詳しくは、[この節](../../platform/using/executing-export-jobs.md#step-7---data-formatting)を参照してください。
 >
-
 

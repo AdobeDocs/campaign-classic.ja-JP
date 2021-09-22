@@ -2,14 +2,15 @@
 product: campaign
 title: Adobe Analytics Connector への移行
 description: Campaign - Analytics Connector に関する FAQ
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
+source-git-commit: 4b6fc31aefd12b3667501503fc5e10d5f1f0738f
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 94%
+source-wordcount: '850'
+ht-degree: 92%
 
 ---
 
-# Adobe Analytics Connector に移行する方法 {#acc-aa-faq}
+# 既存のGenesis統合をAdobe Analytics Connectorに移行する方法 {#acc-aa-faq}
 
 ![](../../assets/v7-only.svg)
 
@@ -49,12 +50,9 @@ Campaign Classic v7と Adobe Analytics の間で新しい統合が利用でき�
 
 **2022 年 3 月 1 日までに**、Campaign 21.1.3（またはそれ以上）にアップグレードする必要があります。
 
-ホステッド環境のお客様の場合、アドビはお客様と協力してインスタンスを新しいバージョンにアップグレードします。
+ホステッド環境のお客様の場合、アドビはお客様と協力してインスタンスを新しいバージョンにアップグレードします。その後、[Adobe Analyticsコネクタ](../../platform/using/adobe-analytics-connector.md)を使用できます。
 
-オンプレミス／ハイブリッド環境のお客様の場合は、新しい統合のメリットを享受するには、新しいバージョンの 1 つにアップグレードする必要があります。
-
-すべてのインスタンスがアップグレードされると、Adobe Analytics Connector に[新しい統合を実装し](../../platform/using/adobe-analytics-connector.md)、シームレスな移行を確実に行うことができるようになります。
-
+オンプレミス／ハイブリッド環境のお客様の場合は、新しい統合のメリットを享受するには、新しいバージョンの 1 つにアップグレードする必要があります。すべてのインスタンスがアップグレードされると、Adobe Analytics Connector に[新しい統合を実装し](../../platform/using/adobe-analytics-provisioning.md)、シームレスな移行を確実に行うことができるようになります。
 
 ## FAQ{#faq-aa}
 

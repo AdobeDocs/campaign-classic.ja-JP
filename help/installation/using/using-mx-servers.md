@@ -7,18 +7,20 @@ content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
 
 # Campaign での MX サーバーの使用 {#using-mx-servers}
 
+![](../../assets/v7-only.svg)
+
 MXサーバーがAdobe Campaign Classicと連携する仕組みを説明します。
 
-## MXサーバ{#mx-servers}
+## MXサーバー {#mx-servers}
 
 ### MXサーバーとは
 
@@ -87,4 +89,4 @@ MXルールには6つの異なるレベルのスループットがあり、主�
 * [MX設定](../../installation/using/email-deliverability.md#mx-configuration)
 * [技術的なEメール設定](../../installation/using/email-deliverability.md)
 * [配信エラーについて](../../delivery/using/understanding-delivery-failures.md)
-* [Campaign Classic — テクニカルRecommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/acc-technical-recommendations.html)
+* [Campaign Classic — テクニカルRecommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html)

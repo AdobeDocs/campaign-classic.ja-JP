@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 877ac37102a09a40ea59ef073afa00b9d9bd7dde
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '4562'
+source-wordcount: '4533'
 ht-degree: 98%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
 
-## 2021 年 8 月{#aug-2021}
+## 2021年8月{#aug-2021}
 
 新しいワークフローアクティビティを追加しました。データソースの変更 — [詳細](../../workflow/using/change-data-source.md)
 
@@ -268,11 +268,11 @@ Campaign Classic の監視に関するガイドラインを含む新しい節を
 
 Campaign Classic のプライバシー管理ページが更新され、「規則」フィールドに関する情報が追加されました。このフィールドは、自動プライバシーリクエストプロセスを設定する API を使用する場合に利用できます。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-「プライバシー管理の概要」ページが更新され、タイの個人データ保護法（PDPA）とブラジルの Lei Geral de Proteção de Dados（LGPD）に関する情報が含まれるようになりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+「プライバシー管理の概要」ページが更新され、タイの個人データ保護法（PDPA）とブラジルの Lei Geral de Proteção de Dados（LGPD）に関する情報が含まれるようになりました。[詳細を表示](../../platform/using/privacy-and-recommendations.md)
 
 サブワークフローのログおよびエラー発生時の動作に関する情報が追加されました。[詳細を表示](../../workflow/using/sub-workflow.md)
 
-**[!UICONTROL スケジューラー]**&#x200B;アクティビティの節に、ベストプラクティスが追加されました。[詳細を表示](../../workflow/using/scheduler.md)
+**[!UICONTROL スケジューラー]**&#x200B;アクティビティの節に、ベストプラクティスが追加されました。[詳細情報](../../workflow/using/scheduler.md)
 
 ## 2020 年 6 月 {#june-2020}
 
@@ -520,9 +520,9 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 ビルドアップグレードに関する新しい FAQ が作成されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/build-upgrade-faq.html)
 
-[互換性マトリックス](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)が更新されました。サポートされるデータベースシステム、Android/iOS のバージョン、および関連する SDK のリストが更新されました。[19.0 互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix-19-0.html)がアーカイブされました。
+[互換性マトリックス](compatibility-matrix.md)が更新されました。サポートされるデータベースシステム、Android/iOS のバージョン、および関連する SDK のリストが更新されました。19.0 互換性マトリックスがアーカイブされました。
 
-「Campaign Classic の非推奨（廃止予定）および削除された機能」ページが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/deprecated-and-removed-features.html)
+「Campaign Classic の非推奨（廃止予定）および削除された機能」ページが更新されました。[詳細を表示](deprecated-features.md)
 
 インストールガイドにサーバー設定ファイルの説明が追加されました。[詳細を表示](../../installation/using/the-server-configuration-file.md)
 
@@ -579,7 +579,7 @@ Analytics Connector の節を更新し、インターフェイスの変更を反
 
 テクニカルワークフローの節が更新されました。[詳細を表示](../../workflow/using/about-technical-workflows.md)
 
-Campaign ドメイン名の設定手順が改善および更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)
+Campaign ドメイン名の設定手順が改善および更新されました。
 
 Google Cloud Messaging（GCM）から Firebase Cloud Messaging（FCM）への Android アプリの移行手順が更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/migrate-to-fcm.html)
 

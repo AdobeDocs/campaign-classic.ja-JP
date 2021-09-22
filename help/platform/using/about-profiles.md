@@ -2,18 +2,20 @@
 product: campaign
 title: プロファイルについて
 description: プロファイルについて
-feature: Profiles、Audiences
+feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: ed43a632a962747c9402ff8d5f0ce442c2cc6490
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 100%
+source-wordcount: '849'
+ht-degree: 98%
 
 ---
 
 # プロファイルの基本を学ぶ{#about-profiles}
+
+![](../../assets/common.svg)
 
 プロファイルは、Adobe Campaign データベースで一元管理されます。 プロファイルを取得してこのデータベースを作成するために使用可能なメカニズムは多数あります。web フォームによるオンライン収集、テキストファイルの手動または自動インポート、会社のデータベースまたは他の情報システムによるレプリケーションなどです。Adobe Campaign を利用すれば、マーケティング履歴、購入情報、嗜好、CRM データおよび関連する PI データを包括的に集約し、分析をおこなって、行動に移すことができます。
 
@@ -91,13 +93,11 @@ Adobe Campaign エクスプローラーの一般的なレイアウトについ�
 
 請求に関係するのは、**アクティブ**&#x200B;なプロファイルのみです。過去 12 か月以内にいずれかのチャネルでターゲットになるか通信がおこなわれたプロファイルは、アクティブとみなされます。
 
-配信の準備中に（タイポロジルール、強制隔離によって）除外されたプロファイルは、考慮されません。プロファイルは、複数の配信のターゲットになっていても一度しかカウントされません。
+複数の配信のターゲットとなっているプロファイルは1回だけカウントされます。
 
 >[!NOTE]
 >
 >ただし、Facebook および Twitter チャネルは考慮されません。
-
-Campaign エクスプローラーで、**[!UICONTROL 管理／キャンペーン管理／顧客指標]**&#x200B;を参照し、アクティブなプロファイル数の概要を確認します。 実際のカウントは、**[!UICONTROL アクティブな請求プロファイル数]** ([!UICONTROL billingActiveContactCount]) [テクニカルワークフロー](../../workflow/using/about-technical-workflows.md)によって実行されます。 このワークフローは毎日実行され、**[!UICONTROL 顧客指標]**&#x200B;フォルダーの当期の既存レポートに新しいデータを追加します。
 
 アクティブなプロファイルの数は、**マーケティングインスタンス**&#x200B;にのみ使用できます。実行インスタンス、すなわち MID（ミッドソーシング）インスタンスおよび RT（Message Center／リアルタイムメッセージング）インスタンスには使用できません。
 

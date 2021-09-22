@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: 7adde72f615e7c697fa2284235e180c29bc6d470
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1117'
 ht-degree: 66%
 
 ---
 
 # Campaign と Microsoft Dynamics 365 の接続{#connect-to-msdyn}
+
+![](../../assets/common.svg)
 
 このページでは、Campaign Classic を **Microsoft Dynamics CRM 365** に接続する方法について説明します。
 
@@ -64,7 +66,7 @@ Campaign Classic 内：
 
 保存すると、Campaign のクライアント識別子である&#x200B;**アプリケーション ID** が取得されます。
 
-詳しくは、[こちらのページ](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory)を参照してください。
+詳しくは、[こちらのページ](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory)を参照してください。
 
 ### Microsoft Dynamics証明書キー識別子とキーIDを生成する {#config-certificate-key-id}
 
@@ -113,7 +115,7 @@ Campaign Classic 内：
 
 1. 「**管理者の同意を付与**」をクリックします。
 
-詳しくは、[Azureのドキュメント](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal)を参照してください。
+詳しくは、[Azureのドキュメント](https://docs.microsoft.com/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal)を参照してください。
 
 ### アプリユーザーの作成 {#create-app-user-microsoft}
 
@@ -153,7 +155,7 @@ Campaign Classic 内：
 
 >[!NOTE]
 >
-> Microsoft](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#microsoft-dynamics-crm-2011-endpoint)の[RDSの廃止後、オンプレミス型およびOffice 365型のCRMデプロイメントは、Campaignとの互換性を失います。 Adobe Campaignは、CRMバージョン&#x200B;**動的CRM 365**&#x200B;のWeb APIデプロイメントのみをサポートするようになりました。 [詳細情報](../../rn/using/deprecated-features.md#crm-connectors)。
+> Microsoft](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891%28v=crm.8%29#microsoft-dynamics-crm-2011-endpoint)の[RDSの廃止後、オンプレミス型およびOffice 365型のCRMデプロイメントは、Campaignとの互換性を失います。 Adobe Campaignは、CRMバージョン&#x200B;**動的CRM 365**&#x200B;のWeb APIデプロイメントのみをサポートするようになりました。 [詳細情報](../../rn/using/deprecated-features.md#crm-connectors)。
 
 Microsoft Dynamics 365とCampaignに接続するには、Campaignで専用の&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を作成して設定する必要があります。
 

@@ -2,20 +2,22 @@
 product: campaign
 title: Adobe Analytics Data コネクタ
 description: Adobe Analytics Data コネクタ
-feature: 概要
+feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1810'
 ht-degree: 100%
 
 ---
 
 # Adobe Analytics Data Connector{#adobe-analytics-data-connector-legacy}
+
+![](../../assets/common.svg)
 
 >[!IMPORTANT]
 >
@@ -30,8 +32,6 @@ ht-degree: 100%
 Data コネクタ（旧 Adobe Genesis）を使用すると、Adobe Campaign と Adobe Analytics の間で、**Web 分析コネクタ**&#x200B;パッケージを介したインタラクションが可能になります。Adobe Data コネクタは、E メールキャンペーン後のユーザー行動に関するデータをセグメントの形式で Adobe Campaign に送信します。反対に、Adobe Campaign から配信された E メールキャンペーンの指標と属性を Adobe Analytics - Data コネクタに送信します。
 
 Adobe Campaign では、Data コネクタを使用してインターネットオーディエンスを測定することができます（Web 分析）。このような統合を通じて、Adobe Campaign では 1 つ以上のサイトでマーケティングキャンペーン後の訪問者の行動に関するデータを収集し、（分析後に）訪問者を購入者に変換できるようリマーケティングキャンペーンを実行できます。また反対に、Adobe Campaign では、Web 分析ツールを使用して指標およびキャンペーン属性をプラットフォームに転送できます。
-
-Adobe Analytics と Adobe Campaign の統合の実装について詳しくは、[このドキュメント](https://helpx.adobe.com/jp/marketing-cloud/how-to/analytics-ac.html)を参照してください。
 
 各ツールのアクションフィールドは次のとおりです。
 
@@ -231,7 +231,6 @@ Adobe Campaign と Adobe Analytics - Data コネクタとの間のデータ交�
    * **[!UICONTROL タグ 2]** (webAnalytics/@tag2)
    * **[!UICONTROL タグ 3]** (webAnalytics/@tag3)
    * **[!UICONTROL コンタクト日]** (scheduling/@contactDate)
-
 
 
 ## Adobe Campaign での配信のトラッキング {#tracking-deliveries-in-adobe-campaign}

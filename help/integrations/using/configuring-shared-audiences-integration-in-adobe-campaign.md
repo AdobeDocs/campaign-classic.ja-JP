@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '540'
+source-git-commit: 830c4146d72cd5a744d026a499cfe8613a255da7
+workflow-type: tm+mt
+source-wordcount: '542'
 ht-degree: 100%
 
 ---
 
 # Adobe Campaign での共有オーディエンスの統合の設定{#configuring-shared-audiences-integration-in-adobe-campaign}
+
+![](../../assets/common.svg)
 
 この依頼を送信すると、アドビによって統合のプロビジョニングが進められます。また、お客様には設定を完了させるための詳細情報が届きます。
 
@@ -77,11 +79,11 @@ AWS リージョンについて詳しくは、[このページ](https://aws.amaz
 
    ![](assets/aam_config_3.png)
 
-## 手順 3：キャンペーントラッキングサーバーの設定 {#step-3--configure-campaign-tracking-server}
+## 手順 3：Campaignトラッキングサーバーの設定 {#step-3--configure-campaign-tracking-server}
 
 People コアサービスまたは Audience Manager との統合を設定する場合は、Campaign トラッキングサーバーも設定する必要があります。
 
-Campaign トラッキングサーバーがドメインに登録されていることを確認する必要があります（CNAME）。ドメイン名のデリゲーションについて詳しくは、[この記事](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)を参照してください。
+Campaign トラッキングサーバーがドメインに登録されていることを確認する必要があります（CNAME）。ドメイン名のデリゲーションについて詳しくは、[この記事](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja)を参照してください。
 
 ## 手順 4：訪問者 ID サービスの設定 {#step-4--configure-the-visitor-id-service}
 

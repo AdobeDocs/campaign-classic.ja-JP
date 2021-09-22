@@ -5,15 +5,17 @@ description: デフォルトの配信ワークフローの詳細を説明しま�
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: ht
-source-wordcount: '438'
+source-git-commit: 794be3d196ea8292699bbf29c8a7038177763e31
+workflow-type: tm+mt
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
 
 
 # 配信{#deliveries}
+
+![](../../assets/common.svg)
 
 以下に説明するワークフローは、デフォルトで&#x200B;**配信**&#x200B;モジュールと共にインストールされます。
 
@@ -35,11 +37,6 @@ ht-degree: 100%
    <td> システムアクティビティレポートを「請求」オペレーターにメールで送信します。デフォルトで、毎月 25 日にトリガーされます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">請求（アクティブなプロファイル）</span> <br /> </td> 
-   <td> <span class="uicontrol">billingActiveContactCount</span> <br /> </td> 
-   <td> <p>このワークフローは、アクティブなプロファイルの数をカウントします。デフォルトで、毎晩午前 1 時にトリガーされます。</p> <p>「<strong>プロファイル</strong>」とは、エンドユーザー、見込み客またはリードを表している情報のレコード（例：nmsRecipient テーブル内のレコードや、cookie ID、顧客 ID、モバイル ID、または特定のチャネルに関連するその他の情報が含まれている外部テーブル内のレコード）のことです。請求は「アクティブ」なプロファイルのみに関係します。過去 12 ヶ月以内にいずれかのチャネルでターゲットになるか通信がおこなわれたプロファイルは「アクティブ」とみなされます。</p> <p>ただし、Facebook および Twitter チャネルは考慮されません。</p> <p><span class="uicontrol">アクティブなプロファイルの数</span>の概要は、<span class="uicontrol">管理</span>／<span class="uicontrol">キャンペーン管理</span>／<span class="uicontrol">顧客指標</span>メニューから表示できます。</p> </td> 
-  </tr> 
-  <tr> 
    <td> <span class="uicontrol">エイリアスクレンジング</span> <br /> </td> 
    <td> <span class="uicontrol">aliasCleansing</span> <br /> </td> 
    <td> 列挙値を標準化します。デフォルトで、毎日午前 3 時にトリガーされます。<br /> </td> 
@@ -57,7 +54,7 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">一時停止されたワークフローのクリーンアップ</span> <br /> </td> 
    <td> <span class="uicontrol">cleanupPausedWorkflows</span> <br /> </td> 
-   <td> <p>このワークフローは、重要度が通常に設定された一時停止中のワークフローを分析し、長期間一時停止状態が続いている場合に警告と通知をトリガーします。1 ヶ月後、一時停止中のテクニカルワークフローは無条件で停止されます。デフォルトで、毎週月曜日の午前 5 時にトリガーされます。</p> <p>詳しくは、<a href="../../workflow/using/monitoring-workflow-execution.md#handling-of-paused-workflows" target="_blank">一時停止されたワークフローの処理</a>を参照してください。</p></td> 
+   <td> <p>このワークフローは、重要度が通常に設定された一時停止中のワークフローを分析し、長期間一時停止状態が続いている場合に警告と通知をトリガーします。1 ヶ月後、一時停止中のテクニカルワークフローは無条件で停止されます。デフォルトで、毎週月曜日の午前 5 時にトリガーされます。</p> <p>詳しくは、<a href="monitoring-workflow-execution.md#handling-of-paused-workflows" target="_blank">一時停止されたワークフローの処理</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">オファー通知</span> <br /> </td> 

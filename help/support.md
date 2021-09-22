@@ -4,9 +4,9 @@ title: 'Campaign Classic のヘルプおよびサポートオプション '
 description: Campaign Classic のサポートが必要な場合は、こちらから確認してください。
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 5b1c59c450aaedbd8dbf6df8685817e4a7e02056
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '801'
 ht-degree: 100%
 
 ---
@@ -136,7 +136,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.cadobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 
 ### Campaign ダウンロードセンターへのアクセス
 

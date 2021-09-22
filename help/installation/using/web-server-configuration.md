@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 40%
+source-wordcount: '322'
+ht-degree: 37%
 
 ---
 
 # Web サーバー設定 {#web-server-configuration}
+
+![](../../assets/v7-only.svg)
 
 Webサーバー(Apache/IIS)の設定に関する主なベストプラクティスを以下に示します。
 
@@ -74,9 +76,9 @@ Webサーバー(Apache/IIS)の設定に関する主なベストプラクティ�
    </Directory>
    ```
 
-   **IISの** (ドキュメン [ト](http://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)を参照)で、コンテンツフィルターオプションに **maxAllowedContentLength** （許容される最大コンテンツ長）を設定します。
+   **IISの** (ドキュメン [ト](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)を参照)で、コンテンツフィルターオプションに **maxAllowedContentLength** （許容される最大コンテンツ長）を設定します。
 
 関連トピック ： 
 
-* [Adobe Marketing Cloudコンプライアンスの概要](https://marketing.adobe.com/resources/help/en_US/xref/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
+* [Adobe Marketing Cloudコンプライアンスの概要](https://experienceleague.adobe.com/docs/core-services/assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
 * [Adobe Campaignセキュリティの概要](https://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/campaign/pdfs/54658.en.campaign.wp.adb-security.pdf) (PDF)

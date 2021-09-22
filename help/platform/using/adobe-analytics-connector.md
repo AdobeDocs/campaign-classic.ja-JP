@@ -5,11 +5,11 @@ description: Adobe Analytics コネクタの詳細
 feature: Overview
 role: User, Admin
 level: Beginner
-exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
-source-git-commit: 0cfe8439007b56014eba497c511904c4f11b39ce
+exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
+source-git-commit: 1f6846f29c44719fdbd334327466619ed265452a
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 100%
+source-wordcount: '1723'
+ht-degree: 93%
 
 ---
 
@@ -45,49 +45,54 @@ Adobe Analytics コネクタを使用すると、Adobe Campaign でインター�
 
 ## 統合の設定 {#setting-up-the-integration}
 
+>[!IMPORTANT]
+>
+> ハイブリッドおよびオンプレミス実装の場合は、この[ページ](../../platform/using/adobe-analytics-provisioning.md)で説明されているプロビジョニング手順に従ってください。
+
 コネクタを設定するには、Adobe Campaign インスタンスに接続し、次の操作を実行する必要があります。
 
-1. [Adobe Analytics でのレポートスイートの作成](#report-suite-analytics)
 1. [コンバージョン変数と成功イベントの設定](#configure-conversion-success)
 1. [Adobe Campaign Classic での外部アカウントの設定](#external-account-classic)
 
-### Adobe Analytics でのレポートスイートの作成 {#report-suite-analytics}
+<!--
+### Create your Report suite in Adobe Analytics {#report-suite-analytics}
 
-Adobe Analytics と Adobe Campaign Classic の統合を設定するには、[!DNL Adobe Analytics] インスタンスに接続し、次の操作を実行する必要があります。
+To set up the Adobe Analytics/Adobe Campaign Classic integration, you must connect to your [!DNL Adobe Analytics] instance and perform the following operations:
 
-1. [!DNL Adobe Analytics] から、「**[!UICONTROL 管理]**」タブを選択し、「**[!UICONTROL すべての管理者]**」をクリックします。
+1. From [!DNL Adobe Analytics], select the **[!UICONTROL Admin tab]** then click **[!UICONTROL All admin]**.
 
    ![](assets/analytics_connnector_1.png)
 
-1. 「**[!UICONTROL レポートスイート]**」をクリックします。
+1. Click **[!UICONTROL Report suites]**.
 
    ![](assets/analytics_connnector_2.png)
 
-1. **[!UICONTROL レポートスイートマネージャー]**&#x200B;ページで、「**[!UICONTROL 新規作成]**」、「**[!UICONTROL レポートスイート]**」の順にクリックします。
+1. From the **[!UICONTROL Report suite manager]** page, click **[!UICONTROL Create new]** then **[!UICONTROL Report suite]**.
 
-   **[!UICONTROL レポートスイート]**&#x200B;の作成に関する詳細な手順については、[この節](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=ja#prerequisites)を参照してください。
+   For the detailed procedure on **[!UICONTROL Report suite]** creation, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=en#prerequisites).
 
    ![](assets/analytics_connnector_3.png)
 
-1. テンプレートを選択します。
+1. Select a template. 
 
-1. 次の情報を使用して、新しいレポートスイートを設定します。
+1. Configure your new report suite with the following information:
 
-   * **[!UICONTROL レポートスイート ID]**
-   * **[!UICONTROL サイトのタイトル]**
-   * **[!UICONTROL タイムゾーン]**
-   * **[!UICONTROL ライブ化の日付]**
-   * **[!UICONTROL 予想日別ページビュー数]**
+   * **[!UICONTROL Report Suite ID]**
+   * **[!UICONTROL Site Title]**
+   * **[!UICONTROL Time Zone]**
+   * **[!UICONTROL Go Live Date]**
+   * **[!UICONTROL Estimated Page Views Per Day]**
 
    ![](assets/analytics_connnector_4.png)
 
-1. 設定が完了したら、「**[!UICONTROL レポートスイートを作成]**」をクリックします。
+1. When configured, click **[!UICONTROL Create report suite]**.
+-->
 
 ### コンバージョン変数と成功イベントの設定 {#configure-conversion-success}
 
-**[!UICONTROL レポートスイート]**&#x200B;を作成した後、次のように&#x200B;**[!UICONTROL コンバージョン変数]**&#x200B;と&#x200B;**[!UICONTROL 成功イベント]**&#x200B;を設定する必要があります。
+**[!UICONTROL コンバージョン変数]**&#x200B;と&#x200B;**[!UICONTROL 成功イベント]**&#x200B;を次のように設定する必要があります。
 
-1. 以前に設定した&#x200B;**[!UICONTROL レポートスイート]**&#x200B;を選択します。
+1. Adobe Campaignとリンクする&#x200B;**[!UICONTROL レポートスイート]**&#x200B;を選択します。
 
 1. 「**[!UICONTROL 設定を編集]**」ボタンから、**[!UICONTROL コンバージョン]**／**[!UICONTROL コンバージョン変数]**&#x200B;を選択します。
 
@@ -118,13 +123,19 @@ Adobe Analytics と Adobe Campaign Classic の統合を設定するには、[!DN
    * **[!UICONTROL ユニーク開封数]**
    * **[!UICONTROL 購読解除済み]**
 
-   **[!UICONTROL 成功イベント]**&#x200B;の設定方法については、[この節](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=ja#admin-tools)を参照してください。
+   **[!UICONTROL 成功イベント]**&#x200B;の設定方法については、[この節](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=ja#admin-tools)を参照してください。。
+
+   >[!NOTE]
+   >
+   > 数値型の&#x200B;**[!UICONTROL 成功イベント]**&#x200B;のみがサポートされます。
 
    ![](assets/analytics_connnector_8.png)
 
 1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
-レポートスイートを設定したら、Adobe Campaign Classic で&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を設定する必要があります。
+**[!UICONTROL コンバージョン変数]**&#x200B;と&#x200B;**[!UICONTROL 成功イベント]**&#x200B;を設定したら、Analyticsコネクタ用に作成された&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に変数が含まれていることを確認します。 詳しくは、[Adobe Analytics製品プロファイルの作成](../../platform/using/adobe-analytics-provisioning.md#analytics-product-profile)を参照してください。
+
+次に、Adobe Campaign Classicで&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を設定する必要があります。
 
 ### Adobe Campaign Classic での外部アカウントの設定 {#external-account-classic}
 
@@ -150,7 +161,7 @@ Adobe Analytics と Adobe Campaign Classic の統合を設定するには、[!DN
 
 1. **[!UICONTROL 統合]**&#x200B;ドロップダウンの横にある「**[!UICONTROL 設定]**」をクリックします。
 
-1. 「**[!UICONTROL Analytics 統合の設定]**」ウィンドウで、次の情報を提供し以前に作成したレポートスイートと外部アカウントをマッピングします。
+1. **[!UICONTROL Analytics統合の設定]**&#x200B;ウィンドウで、次の情報を提供する外部アカウントをレポートスイートにマッピングします。
 
    * **[!UICONTROL メール]**
    * **[!UICONTROL IMS Org]**

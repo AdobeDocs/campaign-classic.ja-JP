@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # SpamAssassin の設定{#configuring-spamassassin}
+
+![](../../assets/v7-only.svg)
 
 >[!NOTE]
 >
@@ -37,16 +39,16 @@ Adobe CampaignでSpamAssassinを使用すると、Adobe Campaignから送信さ�
 
 SpamAssassinとそのモジュールをPerlにデプロイするには、HTTP接続（TCP/80フロー）を介したインターネットアクセスを備えたAdobe Campaignアプリケーションサーバーが必要です。
 
-## Windowsマシンへのインストール{#installing-on-a-windows-machine}
+## Windowsマシンへのインストール {#installing-on-a-windows-machine}
 
 Adobe Campaignとの統合を有効にするためにWindowsにSpamAssassinをインストールして設定するには、次の手順に従います。
 
 1. SpamAssassinのインストール
 1. SpamAssassinをAdobe Campaignに統合
 
-### SpamAssassin {#installing-spamassassin}のインストール
+### SpamAssassinのインストール {#installing-spamassassin}
 
-1. ユーザーの資格情報を使用して、[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)に接続します。 ソフトウェアの配布について詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)を参照してください。
+1. ユーザーの資格情報を使用して、[ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?lang=ja)に接続します。 ソフトウェアの配布について詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja?lang=en)を参照してください。
 1. **Neolane Spam Assassin（Windowsインストール）(2.0)**&#x200B;ファイル(neolane_spamassassin.2.0.zip)をダウンロードします。
 1. このファイルをAdobe Campaignサーバーにコピーし、解凍します。
 
@@ -95,7 +97,7 @@ Adobe Campaignとの統合を有効にするためにWindowsにSpamAssassinを�
 
       このテスト用Eメールのトリガーは、SpamAssassinによる1,000ポイントのスコアです。 これは、望ましくないと検出され、インストールが成功し、完全に機能していることを意味します。
 
-### SpamAssassinをAdobe Campaignに統合する{#integrating-spamassassin-into-adobe-campaign}
+### SpamAssassinのAdobe Campaignへの統合 {#integrating-spamassassin-into-adobe-campaign}
 
 1. **`[INSTALL]/conf/serverConf.xml`**&#x200B;ファイルを編集します。 **serverConf.xml**&#x200B;で使用できるすべてのパラメーターは、この[セクション](../../installation/using/the-server-configuration-file.md)に記載されています。
 1. **Web**&#x200B;ノードの&#x200B;**spamCheck**&#x200B;要素の&#x200B;**command**&#x200B;属性の値を変更します。 これをおこなうには、次のコマンドを実行します。
@@ -134,9 +136,9 @@ Adobe Campaignとの統合を有効にするためにWindowsにSpamAssassinを�
    sa-update --no-gpg
    ```
 
-## Linuxマシンへのインストール{#installing-on-a-linux-machine}
+## Linuxマシンへのインストール {#installing-on-a-linux-machine}
 
-### Debian {#installation-steps-in-debian}でのインストール手順
+### Debianでのインストール手順 {#installation-steps-in-debian}
 
 * 必要に応じて、次のコマンドを使用してPerlとSpamAssassinをインストールします。
 
@@ -151,7 +153,7 @@ Adobe Campaignとの統合を有効にするためにWindowsにSpamAssassinを�
    /usr/local/[NSTALL]/nl6/bin/spamcheck.pl"/>
    ```
 
-### RHEL/CentOS {#installation-steps-in-rhel-centos}のインストール手順
+### RHEL/CentOSでのインストール手順 {#installation-steps-in-rhel-centos}
 
 必要に応じて、Perlをインストールし、CPANを使用してパッケージを回復します。
 
@@ -165,9 +167,9 @@ cpan XML::Writer
 cpan Mail::SpamAssassin
 ```
 
-### フィルター規則{#updating-filter-rules}を更新しています
+### フィルタールールの更新 {#updating-filter-rules}
 
-フィルタールールは、**sa-update**&#x200B;ツールを使用して自動的に更新できます。 詳しくは、公式のSpamAssassin Webサイト[http://spamassassin.apache.org/](http://spamassassin.apache.org/)を参照してください。
+フィルタールールは、**sa-update**&#x200B;ツールを使用して自動的に更新できます。 詳しくは、公式のSpamAssassin Webサイト[https://spamassassin.apache.org/](https://spamassassin.apache.org/)を参照してください。
 
 Debianでは、更新は毎日自動的におこなわれます。
 
@@ -185,7 +187,7 @@ test -x /usr/bin/sa-update || exit 0
 crontab-e
 ```
 
-### パフォーマンスの最適化{#performance-optimization}
+### パフォーマンスの最適化 {#performance-optimization}
 
 Linuxでのパフォーマンスを向上させるには、**/etc/spamassassin/local.cf**&#x200B;ファイルを編集し、ファイルの最後に次の行を追加します。
 

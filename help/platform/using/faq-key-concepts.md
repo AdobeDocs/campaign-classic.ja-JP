@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '866'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Campaign 管理者は、組織のユーザーに対して権限を設定でき�
 
 Adobe Campaign には、GDPR および CCPA に則ってプライバシーを遵守するのに役立つ一連のツールが用意されています。
 
-[このドキュメント](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)を参照して、Adobe Campaign のツールと機能、ベストプラクティスについて把握し、GDPR を遵守しながらアドビのサービスを利用する方法を学んでください。Adobe Campaign Classic の実装手順については、[この記事](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)を参照してください。
+[このドキュメント](privacy-and-recommendations.md)を参照して、Adobe Campaign のツールと機能、ベストプラクティスについて把握し、GDPR を遵守しながらアドビのサービスを利用する方法を学んでください。Adobe Campaign Classic の実装手順については、[この記事](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)を参照してください。
 
 ## Campaign ユーザーインターフェイスについて知っておくべき概念は何ですか？ {#what-are-campaign-user-interface-concepts-i-should-know-}
 
@@ -126,7 +126,7 @@ Campaign でのトラッキング管理について詳しくは、[このペー�
 
 アドビでは、製品の機能を継続的に評価し、各機能をより強力なバージョンに置き換えるために長期的な計画を策定したり、将来的な想定や拡張に備えるために特定のパーツの再実装を決定したりしています。Campaign はサードパーティ製ツールと連携しており、サポート対象バージョンのみに対応するために、定期的に互換性が更新されています。
 
-[詳しくはここをクリック](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html?lang=ja)してください。
+[詳しくはここをクリック](../../rn/using/deprecated-features.md)してください。
 
 ## リリースされた新しいドキュメント更新やヘルプ資料はありますか？ {#are-there-new-documentation-updates-and-help-materials-released-}
 

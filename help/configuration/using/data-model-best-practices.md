@@ -6,14 +6,16 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
-source-wordcount: '4030'
-ht-degree: 55%
+source-wordcount: '4024'
+ht-degree: 54%
 
 ---
 
 # データモデルのベストプラクティス{#data-model-best-practices}
+
+![](../../assets/v7-only.svg)
 
 このドキュメントでは、Adobe Campaign データモデルを設計する際の主な推奨事項の概要を説明します。
 
@@ -29,9 +31,9 @@ Adobe Campaignシステムは非常に柔軟で、最初の実装を超えて拡
 
 ## データモデルアーキテクチャ {#data-model-architecture}
 
-Adobe Campaign は強力なクロスチャネルキャンペーン管理ツールであり、オンラインとオフラインのマーケティング戦略を融合して、パーソナライズされた顧客体験を構築できます。
+Adobe Campaign は強力なクロスチャネルキャンペーン管理システムであり、オンラインとオフラインのマーケティング戦略を融合して、パーソナライズされた顧客体験を作成できます。
 
-### 顧客中心アプローチ {#customer-centric-approach}
+### 顧客中心のアプローチ {#customer-centric-approach}
 
 ほとんどのメールサービスプロバイダーは、リスト中心アプローチを使用して顧客と通信していますが、Adobe Campaign は、リレーショナルデータベースに基づいて、顧客と顧客の属性を幅広く視野に入れて活用しています。
 
@@ -47,7 +49,7 @@ Adobe Campaignのデフォルトのデータモデルについては、このド
 >
 >Adobe Campaign Classicでは、カスタム顧客テーブルを作成できます。 ただし、ほとんどの場合は、事前に作成された追加のテーブルや機能を持つ標準の[受信者テーブル](../../configuration/using/about-data-model.md#default-recipient-table)を利用することをお勧めします。
 
-### Adobe Campaign のデータ {#data-for-campaign}
+### Adobe Campaign 用データ {#data-for-campaign}
 
 Adobe Campaign に送信すべきデータ マーケティングアクティビティに必要なデータを決定することがきわめて重要です。
 
@@ -63,7 +65,7 @@ Adobe Campaign で必要な属性であるかどうかを判断するには、�
 
 これらのいずれにも該当しない場合、その属性は Adobe Campaign でまず必要にならないと思われます。
 
-### データ型の選択 {#data-types}
+### データタイプの選択 {#data-types}
 
 システムのアーキテクチャとパフォーマンスを適切な状態に保つには、次のベストプラクティスに従って Adobe Campaign のデータを設定します。
 
@@ -88,7 +90,7 @@ Adobe Campaign で必要な属性であるかどうかを判断するには、�
 
 SQLServerデータベースの場合、パフォーマンスが必要な場合は、「クラスター化インデックス」の使用を検討できます。 Adobeはこれを処理しないので、SQLで作成する必要があります。
 
-### 専用テーブルスペース{#dedicated-tablespaces}
+### 専用テーブルスペース {#dedicated-tablespaces}
 
 スキーマのテーブルスペース属性を使用すると、テーブル専用のテーブルスペースを指定できます。
 
@@ -108,7 +110,7 @@ Adobe Campaign リソースには 3 つの識別情報があり、別の識別�
 | 名前（または内部名） | <ul><li>この情報は、テーブル内のレコードの一意の識別子です。 この値は、通常は生成された名前で手動で更新できます。</li><li>この識別子は、Adobe Campaign の別のインスタンスにデプロイされたときにその値を保持し、空にはしないでください。</li></ul> | <ul><li>オブジェクトをある環境から別の環境にデプロイする場合は、Adobe Campaign で生成されたレコード名を変更します。</li><li>オブジェクトに名前空間属性（*schema*&#x200B;など）がある場合、この共通の名前空間は、作成されたすべてのカスタムオブジェクトで活用されます。 一部の予約済み名前空間は使用しないでください。*nms*、*xtk*、*nl*、*ncl*、*crm*、*xxl*。</li><li>オブジェクトに名前空間（*workflow* や *delivery* など）がない場合、この名前空間は内部名オブジェクトのプレフィックスとして追加されます（*namespaceMyObjectName*）。</li><li>スペース「 」、セミコロン「;」、ハイフン「-」などの特殊文字は使用しないでください。 これらの文字はすべて、アンダースコア「_」（許可されている文字）に置き換えられます。 例えば、「abc-def」と「abc:def」は「abc_def」として保存され、相互に上書きされます。</li></ul> |
 | ラベル | <ul><li>ラベルは、Adobe Campaign 内のオブジェクトまたはレコードのビジネス識別子です。</li><li>このオブジェクトでは、スペースと特殊文字も使用できます。</li><li>レコードの一意性は保証されません。</li></ul> | <ul><li>オブジェクトラベルの構造を決定することをお勧めします。</li><li>これは、Adobe Campaign ユーザーにとって、レコードまたはオブジェクトを識別するための最も使いやすい解決策です。</li></ul> |
 
-## カスタム内部キー{#custom-internal-keys}
+## カスタム内部キー {#custom-internal-keys}
 
 プライマリキーは、Adobe Campaign で作成されるすべてのテーブルに必要です。
 
@@ -240,7 +242,7 @@ Adobeでは、パフォーマンスが向上する可能性があるので、追
 
 外部結合 (1-0..1) を実行するリンクは、システムのパフォーマンスに影響を与えるので、慎重に使用してください。
 
-## データ保持 — クリーンアップとパージ{#data-retention}
+## データ保持 — クリーンアップとパージ {#data-retention}
 
 Adobe Campaign はデータウェアハウスでもレポートツールでもありません。 したがって、Adobe Campaign ソリューションの高いパフォーマンスを確保するには、データベースの増大を抑制する必要があります。 これを達成するには、以下のベストプラクティスが役に立ちます。
 
@@ -249,7 +251,7 @@ Adobe Campaign はデータウェアハウスでもレポートツールでも�
 * ログを長く保つ場合は、データベースのサイズと送信されるメッセージのボリュームに応じて、この決定を慎重におこなう必要があります。 Adobe Campaignのシーケンスは32ビットの整数です。
 * これらの表では、一度に10億個を超えるレコードを使用しないこと（21億4000万IDの約50%）をお勧めし、使用可能なすべてのIDを消費するリスクを抑えます。 この場合、一部のお客様は、保持期間を180日未満に抑える必要があります。
 
-[キャンペーンのプライバシーとセキュリティのガイドライン](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#consent)でのデータ保持について詳しく説明します。
+[キャンペーンのプライバシーとセキュリティのガイドライン](../../platform/using/privacy-and-recommendations.md)でのデータ保持について詳しく説明します。
 
 Campaignデータベースのクリーンアップワークフロー[について詳しくは、この節](../../production/using/database-cleanup-workflow.md)を参照してください。
 

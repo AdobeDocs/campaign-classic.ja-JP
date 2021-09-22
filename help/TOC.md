@@ -7,13 +7,12 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 1f6846f29c44719fdbd334327466619ed265452a
+source-git-commit: aac596caf559b25ba3fff94aca410a66ecc08b27
 workflow-type: tm+mt
-source-wordcount: '2535'
-ht-degree: 99%
+source-wordcount: '2546'
+ht-degree: 98%
 
 ---
-
 
 # Adobe Campaign Classic v7 ドキュメント {#using}
 
@@ -850,3 +849,7 @@ ht-degree: 99%
       + [v6.02 特有の設定](migration/using/specific-configurations-in-v6-02.md)
       + [v6.10 特有の設定](migration/using/specific-configurations-in-v6-10.md)
    + [ロールバック手順](migration/using/about-rollback.md)
++ テクニカルノート {#technotes}
+   + Adobe Managed Servicesへの移行{#dc-migration}
+      + [パブリッククラウドへの移行](technotes/using/dc-migration.md)
+      + [FAQ](technotes/using/dc-migration-faq.md)

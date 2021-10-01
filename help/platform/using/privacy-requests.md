@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 0a80912aae4cab58b6f06918a673aaca3883fbdf
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '2562'
 ht-degree: 100%
 
 ---
 
 # プライバシーリクエストの管理 {#privacy-requests}
+
+![](../../assets/common.svg)
 
 プライバシー管理に関する一般的なプレゼンテーションについては、[この節](../../platform/using/privacy-management.md)を参照してください。
 

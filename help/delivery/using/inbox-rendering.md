@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '852'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 受信ボックスレンダリング{#inbox-rendering}
+
+![](../../assets/common.svg)
 
 ## 受信ボックスレンダリングについて {#about-inbox-rendering}
 
@@ -82,8 +84,8 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 >
 >* 受信ボックスレンダリングレポートが生成されるたびに、メッセージングクライアントあたり 1 つのトークンが差し引かれます（Outlook 2000 レンダリングに 1 トークン、Outlook 2010 レンダリングに 1 トークン、Apple Mail 9 レンダリングに 1 トークン、というようになります）。
 >* 同じ配信について、受信ボックスレンダリングを再生成する場合、使用可能なトークンの数は、生成したレンダリングの数だけ再度減ります。
->
 
+>
 
 
 残りの使用可能なトークンの数は、[受信ボックスレンダリングレポート](#inbox-rendering-report)の&#x200B;**[!UICONTROL 一般概要]**&#x200B;に表示されます。

@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '431'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # IMS のトラブルシューティング{#ims-troubleshooting}
+
+![](../../assets/common.svg)
 
 以下で紹介するトラブルシューティングのヒントは、**オンプレミス版**&#x200B;のお客様が IMS 統合を使用する際によく発生する問題を解決するのに役立ちます。**ホスト版**&#x200B;のお客様は、アドビにお問い合わせください。
 

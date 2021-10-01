@@ -6,16 +6,18 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '946'
 ht-degree: 100%
 
 ---
 
-# データ更新{#update-data}
+# データを更新{#update-data}
 
-**データを更新**&#x200B;タイプのアクティビティは、データベースのフィールドを一括で更新します。
+![](../../assets/common.svg)
+
+**データを更新**&#x200B;タイプのアクティビティは、データベースのフィールドを一括更新します。
 
 ## 操作のタイプ {#operation-type}
 
@@ -114,9 +116,9 @@ ht-degree: 100%
 
 定義したルールに該当する場合、セカンダリレコードのデータはメインレコードに関連付けられます。選択した更新のタイプに従って、セカンダリレコードは削除されることもあります。
 
-## 例：エンリッチメントに続くデータ更新 {#example--update-data-following-an-enrichment}
+## 例：エンリッチメント後のデータ更新 {#example--update-data-following-an-enrichment}
 
-エンリッチメントアクティビティの後にデータ更新例を提供する要約リストを作成する方法については、使用例の[手順 2：「購入品」テーブルへのエンリッチメントされたデータの書き込み](../../workflow/using/creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table)の節を参照してください。
+要約リスト作成の詳細を説明するユースケースの[手順 2：「購入品」テーブルへのエンリッチメントされたデータの書き込み](creating-a-summary-list.md#step-2--writing-enriched-data-to-the--purchases--table)の節では、エンリッチメントアクティビティ後のデータ更新の例を示しています。
 
 ## 入力パラメーター {#input-parameters}
 

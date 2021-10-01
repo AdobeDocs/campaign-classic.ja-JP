@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
 workflow-type: ht
 source-wordcount: '853'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Web アプリケーションの同期{#synchronizing-web-applications}
+
+![](../../assets/v7-only.svg)
 
 この使用例では、Campaign Standard を使用して、Campaign v7 Web アプリケーションへのリンクを含む通信を送信します。受信者が E メールのリンクをクリックすると、受信者のデータおよびニュースレターへの購読リンクがプリロードされた、いくつかのフィールドを含むフォームが Web アプリケーションに表示されます。受信者は、自分のデータを更新したり、サービスを購読したりできます。受信者のプロファイルは Campaign v7 で更新され、その情報が Campaign Standard にレプリケートされます。
 
@@ -27,7 +29,7 @@ Campaign v7 に多くのサービスおよび Web アプリケーションがあ
 * Campaign v7 で作成され、パブリッシュされたサービスおよび Web アプリケーション。
 * Web アプリケーションには、**[!UICONTROL Adobe Campaign の暗号化]**&#x200B;の識別方法を使用する&#x200B;**[!UICONTROL プリロード]**&#x200B;アクティビティが含まれている必要があります。
 
-## Web およびサービスの作成 {#creating-the-web-application-and-service}
+## Web アプリケーションおよびサービスの作成 {#creating-the-web-application-and-service}
 
 Campaign v7 では、受信者がサービスを購読できる Web アプリケーションを作成できます。Web アプリケーションおよびサービスは、Campaign v7 で設計および格納され、Campaign Standard 通信を使用してこのサービスを更新できます。Campaign v7 の Web アプリケーションについて詳しくは、[この節](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)を参照してください。
 
@@ -80,7 +82,7 @@ Campaign v7 と Campaign Standard との間で必要なデータをレプリケ�
 
    ![](assets/acs_connect_lp_10.png)
 
-## E メールの設計と送信 {#designing-and-sending-the-email}
+## メールの設計と送信 {#designing-and-sending-the-email}
 
 ここでは、Campaign Standard E メールで、Campaign v7 Web アプリケーションからレプリケートされたランディングページへのリンクを含める方法を確認します。
 
@@ -104,7 +106,7 @@ E メールを作成、設計、送信する手順は、従来の E メールと
 
    ![](assets/acs_connect_lp_15.png)
 
-## 更新情報の取得 {#retrieving-the-updated-information}
+## 最新情報の取得 {#retrieving-the-updated-information}
 
 受信者が Web アプリケーションを使用して自分のデータを更新すると、Adobe Campaign v7 は更新された情報を同期的に取得します。次に、Campaign v7 から Campaign Standard にレプリケートされます。
 

@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '743'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # iOS 向けの設定手順 {#configuring-the-mobile-application-in-adobe-campaign-ios}
+
+![](../../assets/common.svg)
 
 パッケージがインストールされたら、Adobe Campaign Classic で iOS アプリの設定を定義できます。
 

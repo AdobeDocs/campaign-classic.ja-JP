@@ -2,12 +2,12 @@
 product: campaign
 title: Campaign Classic の互換性マトリックス
 description: Campaign Classic 互換性マトリックス
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 571dd96d1f3bff5c3dab05dce5319f913f29a670
-workflow-type: tm+mt
+source-git-commit: 987434c2b6b92fbb6f24924f92795cb282b61cd4
+workflow-type: ht
 source-wordcount: '545'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # 互換性マトリックス{#compatibility-matrix}
 
-このドキュメントでは、**Adobe Campaign Classic** の[最新ビルド](../../rn/using/latest-release.md)でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
+![](../../assets/v7-only.svg)
+
+このドキュメントでは、**Adobe Campaign Classic v7** の[最新ビルド](../../rn/using/latest-release.md)でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
 
 [!DNL Gold Standard] ユーザーの場合は、[[!DNL Gold Standard]  互換性マトリックス](../../rn/using/compatibility-matrix-gs.md)を参照してください。
 
@@ -152,7 +154,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016年</p>
+<p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
 <p>警告：Linux で Campaign サーバーを実行している場合、Microsoft SQL Server はプライマリデータベースとしてサポートされません。［詳細情報］（../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers）。</p>
@@ -228,10 +230,10 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019年</p>
-<p>2017年</p>
-<p>2016年</p>
-<p>2014年</p>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
 <p>2012 SP1 および SP2</p>
 </td>
 </tr>
@@ -293,8 +295,8 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016年</p>
-<p>2012年</p>
+<p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>

@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '823'
 ht-degree: 100%
@@ -15,11 +15,13 @@ ht-degree: 100%
 
 # データのエンリッチメント{#enriching-data}
 
+![](../../assets/common.svg)
+
 ## データのエンリッチメントについて {#about-enriching-data}
 
-この使用例では、ターゲティングワークフローの「**[!UICONTROL エンリッチメント]**」アクティビティの使用方法を詳しく説明します。「**[!UICONTROL エンリッチメント]**」アクティビティの使用について詳しくは、[エンリッチメント](../../workflow/using/enrichment.md)を参照してください。
+この使用例では、ターゲティングワークフローの「**[!UICONTROL エンリッチメント]**」アクティビティの使用方法を詳しく説明します。「**[!UICONTROL エンリッチメント]**」アクティビティの使用について詳しくは、[エンリッチメント](enrichment.md)を参照してください。
 
-E メール配信にカスタム日付を含めてエンリッチメントする方法の使用例については、[この節](../../workflow/using/email-enrichment-with-custom-date-fields.md)でも説明します。
+E メール配信にカスタム日付を含めてエンリッチメントする方法の使用例については、[この節](email-enrichment-with-custom-date-fields.md)でも説明します。
 
 Web アプリケーション経由での競争への参加を案内する内容が、マーケティングデータベースの連絡先に送られます。競合の結果は、「**[!UICONTROL 競合の結果]**」テーブルに復元されます。このテーブルは、連絡先テーブル（**[!UICONTROL 受信者]**）にリンクされています。「**[!UICONTROL 競合の結果]**」テーブルには、以下のフィールドがあります。
 

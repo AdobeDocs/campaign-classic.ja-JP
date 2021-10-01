@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 263e5ffe-9302-4823-a814-fdc955e3f90a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 概要{#overview}
+
+![](../../assets/v7-only.svg)
 
 ソーシャルマーケティングでは、受信者のプロファイルとは対照的に、様々な Facebook ページや Twitter アカウントに配信を送信できます。Facebook では、配信コンテンツがページウォール上の記事として表示され、すべてのページファンのニュースフィードにも表示されます。Twitter では、配信コンテンツはツイートの形式をとり、アカウントフォロワーのホームページに表示されます。また、自分のフォロワーに、ダイレクトメッセージを送信することもできます。
 

@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 85c48712-3704-41db-a255-a07ca8d02ec4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '139'
 ht-degree: 100%
 
 ---
 
 # インポートジョブおよびエクスポートジョブの作成 {#creating-import-export-jobs}
+
+![](../../assets/common.svg)
 
 テンプレートを設定したら、Adobe Campaign の複数のコンテキストでインポートおよびエクスポート操作を開始することができます。
 

@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
 ---
 
-# 開始および終了{#start-and-end}
+# 開始と終了{#start-and-end}
+
+![](../../assets/common.svg)
 
 「**[!UICONTROL 開始]**」アクティビティおよび「**[!UICONTROL 終了]**」アクティビティを使用して、ワークフローの開始と終了を視覚的に示します。これらのアクティビティは、機能上の影響はないので、省略可能です。
 

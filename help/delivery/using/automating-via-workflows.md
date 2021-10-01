@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1197'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ワークフローを使用した自動化{#automating-via-workflows}
+
+![](../../assets/common.svg)
 
 ## コンテンツ管理アクティビティ {#content-management-activity}
 
@@ -190,7 +192,7 @@ Adobe Campaign のクライアントインターフェイスで設定したワ�
 
 ![](assets/d_ncs_content_workflow9.png)
 
-### 配信とコンテンツの作成 {#creating-the-delivery-and-its-content}
+### 配信とそのコンテンツの作成 {#creating-the-delivery-and-its-content}
 
 この例も最初の例と同じ考え方です。最初の手順では、配信アクションを作成するだけです。
 

@@ -6,8 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '2087'
 ht-degree: 100%
 
@@ -15,11 +15,13 @@ ht-degree: 100%
 
 # フィルターの作成{#creating-filters}
 
+![](../../assets/common.svg)
+
 ホームページの&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;メニューから Adobe Campaign ツリー内を移動すると、データベースに含まれているデータがリストに表示されます。これらのリストは、オペレーターが必要とするデータのみが表示されるように設定できます。これにより、フィルターされたデータに対してアクションを起動できます。フィルター設定を使用すると、リストから&#x200B;**[!UICONTROL 動的に]**&#x200B;データを選択できます。データが変更されると、フィルターされたデータは更新されます。
 
 >[!NOTE]
 >
->ユーザーインターフェイスの設定は、デバイスレベルでローカルに定義されます。 このデータはクリーンアップが必要になる場合があります。 特に、データの更新時に問題が発生した場合に必要です。そのためには、**[!UICONTROL ファイル／ローカルキャッシュをクリア]**&#x200B;メニューを使用します。
+>ユーザーインターフェイスの設定は、デバイスレベルでローカルに定義されます。 このデータはクリーンアップが必要になる場合があります。 特に、データの更新時に問題が発生した場合に必要です。それには、**[!UICONTROL ファイル／ローカルキャッシュをクリア]**&#x200B;メニューを使用します。
 
 ## 使用可能なフィルターのタイポロジ {#typology-of-available-filters}
 

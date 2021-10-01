@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Campaign Response Managerの設定
-description: Campaign Response Managerの設定方法を説明します
+title: Campaign Response Manager の設定
+description: Campaign Response Manager の設定方法を説明します
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Campaign Response Managerの設定{#configuration}
+# Campaign Response Manager の設定{#configuration}
 
 ![](../../assets/v7-only.svg)
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 
 >[!CAUTION]
 >
->アプリケーションの組み込みスキーマを変更せずに、スキーマ拡張メカニズムを使用します。 標準スキーマを変更すると、今後アプリケーションのアップグレード時にスキーマが更新されなくなり、Adobe Campaign の使用中に誤作動が生じる可能性があります。
+>アプリケーションの組み込みスキーマは変更しないでください。その代わりに、スキーマ拡張メカニズムを使用します。標準スキーマを変更すると、今後アプリケーションのアップグレード時にスキーマが更新されなくなり、Adobe Campaign の使用中に誤作動が生じる可能性があります。
 
 測定する様々なテーブル（トランザクション、トランザクションの詳細）に加え、テーブルと配信、オファーおよび個人間の関係を定義するには、反応モジュールを使用する前にアプリケーションを統合する必要があります。
 
@@ -55,9 +55,9 @@ ht-degree: 89%
 
 ![](assets/response_data_model.png)
 
-### 回答の管理と受信者 {#response-management-with-adobe-campaign-recipients}
+### 応答管理と受信者 {#response-management-with-adobe-campaign-recipients}
 
-この例では、Adobe Campaignの組み込み受信者テーブル&#x200B;**[!UICONTROL nms:recipient]**&#x200B;を使用して、反応管理モジュールに購入テーブルを統合します。
+この例では、Adobe Campaign に組み込まれている受信者テーブル **[!UICONTROL nms:recipient]** を使用して、応答管理モジュールに購入テーブルを統合します。
 
 購入テーブルスキーマへのリンクを追加するために、**[!UICONTROL nms:remaMatchRcp]** 受信者の反応ログのテーブルを拡張します。以下の例では、購入テーブルを **demo:purchase** と呼びます。
 
@@ -100,11 +100,11 @@ name="remaMatchRcp" namespace="cus">
 </srcSchema>
 ```
 
-### パーソナライズした受信者テーブルを使用した反応管理 {#response-management-with-a-personalized-recipient-table}
+### パーソナライズした受信者テーブルを使用した応答管理 {#response-management-with-a-personalized-recipient-table}
 
-この例では、Adobe Campaign で使用可能な受信者テーブル以外の、個人のテーブルを使用して購入テーブルを反応管理モジュールに統合します。
+この例では、Adobe Campaign で使用可能な受信者テーブル以外の個人のテーブルを使用して、購入テーブルを応答管理モジュールに統合します。
 
-* **[!UICONTROL nms:remaMatch]**&#x200B;スキーマから新しい応答ログスキーマを作成します。
+* **[!UICONTROL nms:remaMatch]** スキーマから派生した新しい応答ログスキーマを作成します。
 
    個人のテーブルは Adobe Campaign の受信者テーブルとは異なるので、**[!UICONTROL nms:remaMatch]** スキーマを基に、反応ログの新しいスキーマを作成する必要があります。このスキーマに配信ログと購入テーブルへのリンクを入力します。
 
@@ -127,7 +127,7 @@ name="remaMatchRcp" namespace="cus">
    </srcSchema>
    ```
 
-* **[!UICONTROL nms:remaHypothesis]**&#x200B;スキーマの仮説フォームを変更します。
+* **[!UICONTROL nms:remaHypothesis]** スキーマの仮説フォームを修正します。
 
    デフォルトでは、反応ログのリストは受信者ログに表示されます。上述の手順で作成した新しい反応ログを表示するには、仮説フォームを修正する必要があります。
 

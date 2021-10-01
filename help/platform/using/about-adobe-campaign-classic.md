@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '923'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Adobe Campaign は、対話的なマーケティングキャンペーンの構�
 
 >[!AVAILABILITY]
 >
->* このコレクションのヘルプ資料は、[最新のビルド](../../rn/using/latest-release.md)のCampaign Classicv7に適用されます。 セクションがCampaign v8にも適用される場合は、特定のバッジを使用できます。
+>* このコレクションのヘルプ資料は、Campaign Classic v7 の[最新ビルド](../../rn/using/latest-release.md)に適用されます。 節の内容が Campaign v8 にも当てはまる場合は、特定のバッジを使用できます。
 >
->* Adobe Campaign v8のドキュメントは[こちら](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)から入手できます。
+>* Adobe Campaign v8 のドキュメントは[こちら](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja)から入手できます。
 
 
 ![](assets/do-not-localize/how-to-video.png) [主な特長と機能をビデオで確認](#video)

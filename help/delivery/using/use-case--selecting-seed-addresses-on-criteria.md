@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '913'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ユースケース：条件に基づくシードアドレスの選択{#use-case-selecting-seed-addresses-on-criteria}
+
+![](../../assets/common.svg)
 
 配信またはキャンペーンのフレームワーク内で、「**[!UICONTROL 動的条件を編集]**」リンクをクリックすると、特定の選択条件に基づいてシードアドレスを指定できます。
 

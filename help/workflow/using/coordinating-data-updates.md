@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '303'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # データ更新の調整{#coordinating-data-updates}
+
+![](../../assets/common.svg)
 
 この使用例では、1 つのワークフローを複数実行する場合に、付随する複数の更新を管理できるワークフローの作成について詳述します。
 
@@ -53,5 +55,5 @@ ht-degree: 100%
 
 **関連トピック：**
 
-* [複数の同時実行の防止](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
-* [ 「データを更新」アクティビティ](../../workflow/using/update-data.md)
+* [複数の同時実行の防止](monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)
+* [ 「データを更新」アクティビティ](update-data.md)

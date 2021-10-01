@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: f4fe97d9-6571-4aa5-8022-b0af9d5a6a13
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '357'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 除外{#exclusion}
+
+![](../../assets/common.svg)
 
 「**除外**」タイプのアクティビティでは、別のターゲットを 1 つ以上抽出したメインターゲットからターゲットを作成します。
 
@@ -23,7 +25,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->除外アクティビティの設定と使用について詳しくは、[母集団の除外（除外）](../../workflow/using/targeting-data.md#excluding-a-population--exclusion-)を参照してください。
+>除外アクティビティの設定と使用について詳しくは、[母集団の除外（除外）](targeting-data.md#excluding-a-population--exclusion-)を参照してください。
 
 残りの母集団を利用するには、「**[!UICONTROL 補集合を生成]**」オプションをチェックします。補集合には、メインの入力母集団から出力母集団を引いたものが含まれます。その後、次の図のように、追加の出力トランジションがアクティビティに追加されます。
 

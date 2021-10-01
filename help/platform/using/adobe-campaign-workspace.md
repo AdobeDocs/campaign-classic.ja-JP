@@ -2,18 +2,20 @@
 product: campaign
 title: Adobe Campaign ワークスペース
 description: Campaign ワークスペースの使用方法とカスタマイズ方法を説明します。
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 99%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
+source-wordcount: '851'
+ht-degree: 100%
 
 ---
 
 # Adobe Campaign ワークスペース{#adobe-campaign-workspace}
+
+![](../../assets/common.svg)
 
 ## Adobe Campaign インターフェイスの詳細 {#about-adobe-campaign-interface}
 
@@ -141,7 +143,7 @@ Adobe Campaign Classic インスタンスは、言語によって日時の形式
  </tbody> 
 </table>
 
-### 列挙での値の追加 {#add-values-in-an-enumeration}
+### 列挙への値の追加 {#add-values-in-an-enumeration}
 
 ドロップダウンリストがある入力フィールドを使用して、列挙値を入力できます。この値は、保存してドロップダウンリストのオプションとして提供できます。例えば、受信者プロファイルの「**[!UICONTROL 一般]**」タブの「**[!UICONTROL 市区町村]**」フィールドで、「ロンドン」と入力します。Enter キーを押してこの値を確定すると、この値をフィールドに関連付けられた列挙に対して保存するかどうかを尋ねるメッセージが表示されます。
 

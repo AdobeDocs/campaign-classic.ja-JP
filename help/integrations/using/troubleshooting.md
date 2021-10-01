@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 61bb184e-affa-430c-8571-56e911cd5a3d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '141'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # トラブルシューティング{#troubleshooting}
+
+![](../../assets/common.svg)
 
 エラーが発生した場合、次の要素が正しく設定されていることを確認してください。
 

@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 7cbabbae-375f-4336-9afa-6356f37a79d0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '156'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 重複した受信者のフィルタリング {#filtering-duplicated-recipients}
+
+![](../../assets/common.svg)
 
 この例では、配信に複数回出現する受信者をフィルターし、重複したプロファイルを取得します。
 

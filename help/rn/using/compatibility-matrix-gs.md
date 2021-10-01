@@ -2,18 +2,20 @@
 product: campaign
 title: Campaign  [!DNL Gold Standard] の互換性マトリックス
 description: Campaign Classic 互換性マトリックス（ [!DNL Gold Standard] リリース）
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: 5c0ccaf6-7f82-4e4b-9247-261dbd0f127c
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
-workflow-type: tm+mt
-source-wordcount: '514'
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
+source-wordcount: '513'
 ht-degree: 100%
 
 ---
 
 # [!DNL Gold Standard] 互換性マトリックス{#compatibility-matrix-gs}
+
+![](../../assets/v7-only.svg)
 
 このドキュメントでは、**Adobe Campaign Classic[!DNL Gold Standard]** のビルド 19.1 でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、このバージョンの Adobe Campaign とは互換性がありません。
 
@@ -139,7 +141,7 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016年</p>
+<p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
 <p>警告：Linux で Campaign サーバーを実行している場合、Microsoft SQL Server はプライマリデータベースとしてサポートされません。</p>
@@ -214,10 +216,10 @@ Adobe Campaign Classic は、このページに記載されているすべての
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019年</p>
-<p>2017年</p>
-<p>2016年</p>
-<p>2014年</p>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
 <p>2012 SP1 および SP2</p>
 </td>
 </tr>
@@ -275,8 +277,8 @@ Adobe Campaign Classic は、このページに記載されているすべての
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016年</p>
-<p>2012年</p>
+<p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>

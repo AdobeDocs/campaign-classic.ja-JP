@@ -6,14 +6,16 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
-source-wordcount: '1226'
+source-wordcount: '1225'
 ht-degree: 100%
 
 ---
 
 # トランザクションメッセージのアーキテクチャ {#transactional-messaging-architecture}
+
+![](../../assets/v7-only.svg)
 
 トランザクションメッセージは、次の複数のインスタンスで構成される特有のアーキテクチャで実現します。
 
@@ -222,7 +224,7 @@ LINE チャネルとトランザクションメッセージを組み合わせる
    * **[!UICONTROL サーバー]**：キャンペーンのサーバー URL（実行インスタンスのもの）を入力します。
    * **[!UICONTROL アカウント]**：実行インスタンスへのアクセスに使用するアカウントを入力します。
    * **[!UICONTROL パスワード]**：実行インスタンスへのアクセスに使用するアカウントのパスワードを入力します。
-   * **[!UICONTROL データソース]**：**[!UICONTROL nms:extAccount:ID]** という構文で、実行インスタンスの外部データベースアカウントを入力します。
+   * **[!UICONTROL データソース]**：**[!UICONTROL nms:extAccount:ID]** の構文で実行インスタンスの外部データベースアカウントを入力します。
 
 
 1. **マーケティング**&#x200B;インスタンスで、して、データ同期ワークフローを作成するための&#x200B;**[!UICONTROL 実行インスタンス]**&#x200B;外部アカウントを次の設定で作成します。

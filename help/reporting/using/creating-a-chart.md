@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: creating-new-reports
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 96%
 
       ![](assets/reporting_graph_add_filter.png)
 
-   * コンテキストデータを使用するには、**[!UICONTROL Source]**&#x200B;ドロップダウンから「**[!UICONTROL Context data]**」を選択し、「**[!UICONTROL Advanced settings...」をクリックします。]**&#x200B;リンクをクリックします。 次に、統計に関係するデータを選択します。
+   * コンテキストデータを使用するには、「**[!UICONTROL ソース]**」ドロップダウンから「**[!UICONTROL コンテキストデータ]**」を選択し、「**[!UICONTROL 詳細設定...]**」リンクをクリックします。次に、統計に関係するデータを選択します。
 
       ![](assets/reporting_graph_from_context.png)
 
@@ -63,7 +63,7 @@ Adobe Campaign では、様々なタイプのグラフ表示が可能です。�
 
 バリエーションは、選択したグラフタイプによって異なります。バリエーションは「**[!UICONTROL バリエーション]**」リンクを介して選択します。
 
-### 分類：円グラフ {#breakdown--pie-charts}
+### 内訳：円グラフ {#breakdown--pie-charts}
 
 このタイプのグラフでは、測定された要素の概要を表示できます。
 
@@ -93,7 +93,7 @@ Adobe Campaign では、様々なタイプのグラフ表示が可能です。�
 
 ### 変化：折れ線グラフと面グラフ {#evolution--curves-and-areas}
 
-このタイプのグラフでは、1 つまたは複数の測定値の時間的変化を把握できます。
+このタイプのグラフィック表現では、1 つまたは複数の測定値の時間的変化を把握できます。
 
 ![](assets/reporting_graph_type_curve.png)
 

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
 source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
 ht-degree: 100%
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign でオムニチャネルメッセージをデザインするための主な手順を理解します。
+Adobe Campaign でオムニチャネルメッセージをデザインするための主な手順について説明します。
 
-## Campaign で E メールをデザインする際の具体的なガイドラインはありますか？ {#are-there-specific-guidelines-when-designing-emails-with-campaign-}
+## Campaign でメールをデザインする際の具体的なガイドラインはありますか？ {#are-there-specific-guidelines-when-designing-emails-with-campaign-}
 
 E メールのデザインを始める前に、配信のデザインと Adobe Campaign での送信に関する概念とベストプラクティスを理解しておくことをお勧めします。
 
@@ -31,19 +31,19 @@ E メールのデザインを始める前に、配信のデザインと Adobe Ca
 
 [詳しくはここをクリック](../../delivery/using/about-templates.md)してください。
 
-## Campaign で E メールを作成するために、既存の HTML を簡単にインポートできますか？ {#can-i-easily-import-an-existing-html-to-create-an-email-in-campaign-}
+## Campaign で既存の HTML をインポートしてメールを簡単に作成できますか？ {#can-i-easily-import-an-existing-html-to-create-an-email-in-campaign-}
 
 Adobe Campaign で電子メールを作成して送信するために、既存の HTML をワンクリックでインポートする方法があります。
 
 [詳しくはここをクリック](../../delivery/using/defining-the-email-content.md#message-content)してください。
 
-## Campaign DCE を使用して E メールのコンテンツを作成するにはどうすればよいですか？ {#how-to-use-campaign-dce-to-create-an-email-content-}
+## Campaign DCE を使用してメールのコンテンツを作成する方法は？ {#how-to-use-campaign-dce-to-create-an-email-content-}
 
-[Campaign デジタルコンテンツエディターでの E メールのデザイン](../../web/using/use-case--creating-an-email-delivery.md)：Campaign DCE を使用して E メールをデザインする方法を、例を通して理解できます。
+[Campaign デジタルコンテンツエディターでのメールのデザイン](../../web/using/use-case--creating-an-email-delivery.md)では、Campaign DCE を使用してメールをデザインする方法を、例を通して説明しています。
 
 ## 購読ベースのニュースレターを Campaign で作成するにはどうすればよいですか？ {#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
 
-[ニュースレターサービスの作成](../../delivery/using/managing-subscriptions.md)：ニュースレターを作成し購読を管理するための主な手順がわかります。
+[ニュースレターサービスの作成](../../delivery/using/managing-subscriptions.md)では、ニュースレターを作成し購読を管理するための主な手順を説明しています。
 
 ## メッセージをパーソナライズするにはどうすればよいですか？ {#how-can-i-personalize-messages-}
 
@@ -54,7 +54,7 @@ Adobe Campaign で配信されるメッセージは、コンテンツや外観�
 * 定義済みパーソナライゼーションブロックを挿入するか、独自のブロックを作成します。[詳しくはここをクリック](../../delivery/using/personalization-blocks.md)してください。
 * 条件付きコンテンツの作成：[詳しくはここをクリック](../../delivery/using/conditional-content.md)してください。また、[この節](../../delivery/using/conditional-content.md)も参照してください。
 
-## 多言語のメッセージを送信することはできますか？ {#can-i-send-multilingual-messages-}
+## 多言語メッセージを送信できますか？ {#can-i-send-multilingual-messages-}
 
 受信者の環境設定や国などに応じて、多言語のメッセージを受信者に送信することができます。
 

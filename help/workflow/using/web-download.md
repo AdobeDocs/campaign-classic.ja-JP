@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '446'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Web ダウンロード{#web-download}
+
+![](../../assets/common.svg)
 
 「**Web ダウンロード**」アクティビティは、明示的 URL、外部アカウント、Adobe Campaign インスタンス上のファイルのダウンロードを開始します。HTTP プロトコルが使用されます。GET または POST のいずれかによるダウンロードです。
 
@@ -61,8 +63,8 @@ ht-degree: 100%
 
    ![](assets/download_web_edit_advanced.png)
 
-   「**[!UICONTROL エラーを処理]**」オプションについて詳しくは、[エラーを処理](../../workflow/using/monitoring-workflow-execution.md#processing-errors)を参照してください。
+   「**[!UICONTROL エラーを処理]**」オプションについて詳しくは、[エラーを処理](monitoring-workflow-execution.md#processing-errors)を参照してください。
 
 ## 出力パラメーター {#output-parameters}
 
-* filename：ダウンロードファイルの名前を入力します。
+* filename：ダウンロードしたファイルの完全名。

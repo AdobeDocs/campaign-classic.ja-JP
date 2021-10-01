@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 98413cde-50c9-416c-8316-85837f724c27
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1197'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # インタラクションのベストプラクティス{#interaction-best-practices}
+
+![](../../assets/v7-only.svg)
 
 ## 一般的な推奨事項 {#general-recommendations}
 
@@ -56,9 +58,9 @@ Adobe Campaign のインタラクションを効率的に運用するには、�
 
 ## オファー管理のヒントとテクニック {#tips-managing-offers}
 
-ここでは、Adobe Campaign Classic におけるオファーの管理とインタラクションモジュールの使用に関する、より詳細なアドバイスを提示します。
+ここでは、Adobe Campaign Classic におけるオファーの管理とインタラクションモジュールの使用に関する詳細なアドバイスを提供します。
 
-### E メール配信での複数のオファースペースの使用 {#multiple-offer-spaces}
+### メール配信での複数のオファースペースの使用 {#multiple-offer-spaces}
 
 配信にオファーを含める場合、一般に、そのオファーは、エンリッチメントアクティビティ（または他の類似アクティビティ）を介したキャンペーンワークフローで選択されたアップストリームです。
 

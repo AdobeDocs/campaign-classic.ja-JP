@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '354'
 ht-degree: 100%
 
 ---
 
 # Campaign と Salesforce.com の接続{#connect-to-sfdc}
+
+![](../../assets/common.svg)
 
 このページでは、Campaign Classic を **Salesforce** に接続する方法について説明します。
 

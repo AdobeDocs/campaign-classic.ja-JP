@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '524'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 詳細設定パラメーター{#advanced-parameters}
+
+![](../../assets/common.svg)
 
 アクティビティのプロパティ画面にある「**[!UICONTROL 詳細]**」タブでは、エラーが発生した場合の動作や、アクティビティの実行期間を定義できるほか、初期化スクリプトを入力することも可能です。このタブには、次の 2 つのバージョンがあります。
 
@@ -33,7 +35,7 @@ ht-degree: 100%
 
 ## 画像 {#image}
 
-このフィールドでは、アクティビティにリンクする画像を変更できます。詳しくは、[アクティビティ画像の管理](../../workflow/using/managing-activity-images.md)を参照してください。
+このフィールドでは、アクティビティにリンクする画像を変更できます。詳しくは、[アクティビティ画像の管理](managing-activity-images.md)を参照してください。
 
 ## 実行 {#execution}
 
@@ -65,7 +67,7 @@ ht-degree: 100%
 
 ## タイムゾーン {#time-zone}
 
-このフィールドでは、アクティビティのタイムゾーンを選択できます。詳しくは、[タイムゾーンの管理](../../workflow/using/managing-time-zones.md)を参照してください。
+このフィールドでは、アクティビティのタイムゾーンを選択できます。詳しくは、[タイムゾーンの管理](managing-time-zones.md)を参照してください。
 
 ## エラーの場合 {#in-case-of-errors}
 
@@ -76,7 +78,7 @@ ht-degree: 100%
 
 ## 初期化スクリプト {#initialization-script}
 
-このフィールドでは、変数を初期化したり、アクティビティのプロパティを変更したりできます。詳しくは、[JavaScript のスクリプトとテンプレート](../../workflow/using/javascript-scripts-and-templates.md)を参照してください。
+このフィールドでは、変数を初期化したり、アクティビティのプロパティを変更したりできます。詳しくは、[JavaScript のスクリプトとテンプレート](javascript-scripts-and-templates.md)を参照してください。
 
 ## コメント {#comment}
 

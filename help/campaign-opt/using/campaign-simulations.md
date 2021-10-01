@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1373'
 ht-degree: 100%
 
@@ -137,7 +137,7 @@ ht-degree: 100%
 
 ![](assets/simu_campaign_opti_11.png)
 
-#### 結果の参照 {#exploring-results}
+#### 結果の検討 {#exploring-results}
 
 「**[!UICONTROL 除外を調査]**」サブタブでは、シミュレーションによって生成されたデータを分析できます。
 

@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
@@ -15,11 +15,13 @@ ht-degree: 100%
 
 # ワークフローデータの使用方法{#how-to-use-workflow-data}
 
+![](../../assets/common.svg)
+
 ## データベースの更新 {#updating-the-database}
 
 収集したすべてのデータは、データベースを更新するために、または配信内で使用できます。例えば、メッセージのコンテンツのパーソナライゼーション機能をエンリッチメントすること（メッセージ内に契約件数を含める、過去 1 年間のショッピングカートの平均購入額を指定するなど）や、母集団のターゲティングを詳細におこなうこと（契約の共有者にメッセージを送る、オンラインサービスの高額契約者上位 1,000 人をターゲティングするなど）ができます。このデータは、リストにエクスポートまたはアーカイブできます。
 
-### リストおよびダイレクト更新 {#lists-and-direct-updates}
+### リスト更新とダイレクト更新 {#lists-and-direct-updates}
 
 Adobe Campaign データベースのデータおよび既存のリストは、2 つの専用アクティビティを使用して更新できます。
 
@@ -29,21 +31,21 @@ Adobe Campaign データベースのデータおよび既存のリストは、2 
 
    ![](assets/s_user_create_list.png)
 
-   [リストの更新](../../workflow/using/list-update.md)を参照してください。
+   [リストの更新](list-update.md)を参照してください。
 
 * **[!UICONTROL データを更新]**&#x200B;アクティビティでは、データベースのフィールドを一括で更新します。
 
-   詳しくは、[データを更新](../../workflow/using/update-data.md)を参照してください。
+   詳しくは、[データを更新](update-data.md)を参照してください。
 
 ### 購読／購読解除の管理 {#subscription-unsubscription-management}
 
-ワークフロー経由で受信者の情報サービスの購読を登録および解除する方法については、[購読サービス](../../workflow/using/subscription-services.md)を参照してください。
+ワークフローを介した受信者の情報サービスへの購読登録と情報サービスからの購読登録解除については、[購読サービス](subscription-services.md)を参照してください。
 
-## ワークフロー経由での送信 {#sending-via-a-workflow}
+## ワークフローを介した送信 {#sending-via-a-workflow}
 
 ### 配信アクティビティ {#delivery-activity}
 
-配信アクティビティについて詳しくは、[配信](../../workflow/using/delivery.md)を参照してください。
+配信アクティビティについて詳しくは、[配信](delivery.md)を参照してください。
 
 ### 配信のエンリッチメントとターゲティング {#enriching-and-targeting-deliveries}
 
@@ -57,7 +59,7 @@ Adobe Campaign データベースのデータおよび既存のリストは、2 
 
 ![](assets/s_advuser_using_additional_data.png)
 
-ワークフローテーブル内に含まれるデータは、名前で識別されます。名前は常に、「**targetData**」リンクから構成されます。詳しくは、[ターゲットデータ](../../workflow/using/data-life-cycle.md#target-data)を参照してください。
+ワークフローテーブル内に含まれるデータは、名前で識別されます。名前は常に、「**targetData**」リンクから構成されます。詳しくは、[ターゲットデータ](data-life-cycle.md#target-data)を参照してください。
 
 さらに、メール配信のフレームワークでは、パーソナライゼーションフィールドで、ターゲティングワークフローステージで実行されるターゲット式のデータを使用できます。以下に例を示します。
 

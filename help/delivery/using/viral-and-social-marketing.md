@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: subscriptions-and-referrals
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '611'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # バイラルおよびソーシャルマーケティング{#viral-and-social-marketing}
+
+![](../../assets/common.svg)
 
 ## バイラルマーケティングについて {#about-viral-marketing}
 

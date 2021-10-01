@@ -5,7 +5,7 @@ description: Adobe Experience Platform のオーディエンスを Campaign Clas
 audience: integrations
 content-type: reference
 exl-id: 6db8a653-b649-402c-8814-24826edadba7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '304'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 ---
 
 # Adobe Experience Platform セグメントの Campaign への取り込み {#destinations}
+
+![](../../assets/common.svg)
 
 Adobe Experience Platform をキャンペーンに取り込んでワークフローで使用するには、まず Adobe Campaign を Adobe Experience Platform の&#x200B;**宛先**&#x200B;として接続し、エクスポート対象セグメントを使用して設定する必要があります。
 

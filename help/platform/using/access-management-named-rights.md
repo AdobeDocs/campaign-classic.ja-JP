@@ -2,18 +2,20 @@
 product: campaign
 title: ネームド権限を使用した権限の設定
 description: ネームド権限を使用して権限を設定する方法を説明します
-feature: アクセス管理
+feature: Access Management
 role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
-workflow-type: tm+mt
-source-wordcount: '564'
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
+source-wordcount: '562'
 ht-degree: 100%
 
 ---
 
 # ネームド権限を使用した権限の設定{#named-rights}
+
+![](../../assets/common.svg)
 
 ネームド権限は、個別のオペレーターやオペレーターのグループに付与する権限を定義するものです。Adobe Campaign には、運用方法の参考として、デフォルトのネームド権限セットがあらかじめ用意されています。それらのネームド権限の設定は、ツリーの&#x200B;**[!UICONTROL 管理／アクセス管理／ネームド権限]**&#x200B;で編集できます。
 
@@ -63,7 +65,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->このリストは、プラットフォームにインストールされているアドオンに応じて変わることがあります。
+>このリストは、プラットフォームにインストールされているアドオンによって変わることがあります。
 
 ## アクセス権マトリックス {#access-rights-matrix}
 

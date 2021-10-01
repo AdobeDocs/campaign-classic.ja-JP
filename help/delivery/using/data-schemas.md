@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '546'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # データスキーマ{#data-schemas}
+
+![](../../assets/common.svg)
 
 Adobe Campaign のデータスキーマ使用に関する一般的な原理を一部紹介します。
 
@@ -150,7 +152,7 @@ Adobe Campaign でのデータスキーマの作成と設定について詳し�
 
 chapter の構造は、メイン要素の外側にある「section」という名前の要素に移されます。chapter と section は、「section」要素を参照します。
 
-## 計算文字列 {#compute-string}
+## 文字列を計算 {#compute-string}
 
 **計算文字列**&#x200B;は、コンテンツインスタンスを表す文字列を構成するのに使用する XPath 式です。
 

@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '487'
 ht-degree: 100%
 
 ---
 
 # プロファイルの編集{#editing-a-profile}
+
+![](../../assets/common.svg)
 
 プロファイルに関連する情報を表示するには、プロファイルリストでプロファイルの名前をクリックします。
 

@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: e3e2ac09de6a9e846e9f9262d522b9395a725648
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1146'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 重複排除{#deduplication}
+
+![](../../assets/common.svg)
 
 重複排除は、インバウンドアクティビティの結果から重複を削除します。重複排除は、メールアドレス、電話番号やその他のフィールドに対して実行されます。
 
@@ -64,6 +66,7 @@ ht-degree: 100%
    >[!NOTE]
    >
    >外部ファイルなどの外部データを入力として使用する場合は、必ず「**[!UICONTROL 一時スキーマ]**」オプションを選択してください。
+
    >
    >次の手順で、「**[!UICONTROL その他]**」オプションで使用される基準または条件を選択できます。
 
@@ -139,7 +142,7 @@ ht-degree: 100%
 
 例えば、一連の重複レコードでは、最も古い電話番号または最新の名前を保持するように選択できます。
 
-この機能を利用する使用例については、[この節](../../workflow/using/deduplication-merge.md)を参照してください。
+この機能を利用する使用例については、[この節](deduplication-merge.md)を参照してください。
 
 それをおこなうには、次の手順に従います。
 
@@ -155,7 +158,7 @@ ht-degree: 100%
 
 1. 機能を有効化した後、「**[!UICONTROL 結合]**」タブが&#x200B;**[!UICONTROL 重複排除 - 重複]**&#x200B;アクティビティに追加されます。 結合するフィールドのグループと、それらに関連付けられたルールを定義できます。
 
-   詳しくは、[この節](../../workflow/using/deduplication-merge.md)で詳しく説明している使用事例を参照してください。
+   詳しくは、[この節](deduplication-merge.md)で詳しく説明している使用事例を参照してください。
 
    ![](assets/dedup3.png)
 

@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '751'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 指標の作成{#creating-indicators}
+
+![](../../assets/common.svg)
 
 キューブを機能させるには、関係のあるディメンションと測定を特定し、キューブにそれらを作成する必要があります。
 
@@ -90,7 +92,7 @@ ht-degree: 100%
 
    詳しくは、[bin の動的管理](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins)を参照してください。
 
-## 指標の構築 {#building-indicators}
+## 指標の作成 {#building-indicators}
 
 ディメンションを定義したら、セルに表示する値の計算モードを指定する必要があります。それには、対応する指標を「**[!UICONTROL 測定]**」タブで作成します。キューブを使用するレポートに表示する列と同じ数の測定を作成します。
 

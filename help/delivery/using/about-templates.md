@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '279'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # テンプレートについて{#about-templates}
+
+![](../../assets/common.svg)
 
 配信設定は、再利用できるように配信テンプレートに保存できます。テンプレートには配信の完全な設定を保存したり、部分的な設定のみ保存したりできます。
 

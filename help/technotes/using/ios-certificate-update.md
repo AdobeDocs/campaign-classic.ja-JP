@@ -6,13 +6,13 @@ hide: false
 hidefromtoc: true
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
 ht-degree: 100%
 
 ---
 
-# Apple プッシュ通知サービスサーバー証明書の更新 {#apns-certificate-update}
+# Apple Push Notification サービスのサーバー証明書の更新 {#apns-certificate-update}
 
 ![](../../assets/v7-only.svg)
 

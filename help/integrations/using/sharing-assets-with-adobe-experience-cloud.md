@@ -6,14 +6,16 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: b28aa5a5-afba-458b-8a85-375493c6c836
-source-git-commit: eb630b29dba8cc34046e2f14e9ed6ba8c017ea5d
-workflow-type: tm+mt
+source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # アセットを Adobe Experience Cloud と共有する{#sharing-assets-with-adobe-experience-cloud}
+
+![](../../assets/common.svg)
 
 Experience Cloud Assets は、複数のソリューション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。アセットとは、デジタルドキュメント、画像、ビデオまたはオーディオファイルを表します。
 
@@ -30,4 +32,4 @@ Adobe Campaign で E メール配信またはランディングページを編�
 
 >[!NOTE]
 >
->Adobe Campaignオンプレミス環境では、AEM Assetsもオンプレミスでない限り、Assetsコアサービスとの統合は使用できません。
+>Adobe Campaign オンプレミス環境の場合、AEM Assets もオンプレミスでない限り、Assets コアサービスと統合することはできません。

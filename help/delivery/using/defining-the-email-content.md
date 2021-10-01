@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: f2300b265fa97e5b208519ab2446927d14f5f91c
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '2066'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # E メールコンテンツの定義 {#defining-the-email-content}
+
+![](../../assets/common.svg)
 
 ## 送信者 {#sender}
 
@@ -187,12 +189,11 @@ HTML 形式の E メール配信には、画像を含めることができます
 >[!IMPORTANT]
 >
 >* 画像へのアクセスパスは、手動でのアップロード時やメッセージの送信時に変更されます。
-   > 
-   >
-* パフォーマンスの問題を回避するために、パーソナライズされたURLからその場でダウンロードされた画像を[添付ファイル](attaching-files.md)として含める場合、各画像サイズはデフォルトで100,000バイトを超えないようにする必要があります。 この推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
+> 
+>* パーソナライズされた URL からその場でダウンロードされた画像を[添付ファイル](attaching-files.md)として含める場合は、パフォーマンスの問題を回避するために、デフォルトで各画像サイズが 100,000 バイトを超えないようにする必要があります。この推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
 
 
-**使用例：メッセージに画像を送る**
+**ユースケース：画像付きメッセージの送信**
 
 ここでは、4 個の画像を含んだ配信を例にとって説明します。
 

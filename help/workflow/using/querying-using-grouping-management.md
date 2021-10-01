@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '309'
 ht-degree: 100%
 
 ---
 
-# グループ化管理を使用したクエリ {#querying-using-grouping-management}
+# グループ管理を使用したクエリ {#querying-using-grouping-management}
+
+![](../../assets/common.svg)
 
 この例では、クエリを実行して、以前の配信でターゲットとされた回数が 30 回を超えるすべての E メールドメインを検索します。
 

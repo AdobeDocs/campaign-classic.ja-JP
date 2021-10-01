@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '548'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # コンテンツ編集のベストプラクティス{#content-editing-best-practices}
+
+![](../../assets/common.svg)
 
 エディターの最適な操作のために、次のガイドラインを確認することをお勧めします。
 
@@ -40,7 +42,7 @@ ht-degree: 100%
 * ページに 1 組の `<body> </body>` のみ存在することを確認してください。
 * CSS または JS ファイルがアップロードされても、.zip ファイルに含まれる画像はアップロードされません。したがって、CSS に存在するこれらの画像への参照は更新されません。
 
-## コンテンツエディターでサポートされる形式 {#content-editor-supported-formats}
+## コンテンツエディターでサポートされるフォーマット {#content-editor-supported-formats}
 
 デジタルコンテンツエディターは、HTML 形式をサポートします。いつでも&#x200B;**ソース**&#x200B;モードに切り替えることができます。
 

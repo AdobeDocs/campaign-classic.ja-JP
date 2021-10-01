@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1181'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ワークフローヒートマップ {#workflow-heatmap}
+
+![](../../assets/common.svg)
 
 Campaign ワークフローヒートマップは、現在実行中のすべてのワークフローを色分けしてわかりやすく表示します。 **キャンペーン管理者**&#x200B;のみが使用できます。
 
@@ -29,14 +31,14 @@ Campaign ワークフローヒートマップは、現在実行中のすべて�
 * 持続時間別にワークフローをフィルターし、問題が発生する可能性のあるワークフローを確認
 * 持続時間別にアクティビティをフィルターし、問題が発生する可能性のあるアクティビティを確認
 * 個々のワークフローおよびすべての関連アクティビティを持続時間と合わせて容易に検索
-* ワークフロータイプによるフィルタリング：[テクニカルワークフロー](../../workflow/using/building-a-workflow.md#technical-workflows) または [キャンペーンワークフロー](../../workflow/using/building-a-workflow.md#campaign-workflows)
+* ワークフロータイプによるフィルタリング：[テクニカルワークフロー](building-a-workflow.md#technical-workflows) または [キャンペーンワークフロー](building-a-workflow.md#campaign-workflows)
 * 分析の対象となる特定のワークフローを探す
 
 >[!NOTE]
 >
->**ワークフローヒートマップ**&#x200B;に加え、一連のワークフローのステータスを監視してスーパーバイザーに定期的なメッセージを送信するワークフローを作成できます。詳しくは、[該当する節](../../workflow/using/supervising-workflows.md)を参照してください。
+>**ワークフローヒートマップ**&#x200B;に加え、一連のワークフローのステータスを監視してスーパーバイザーに定期的なメッセージを送信するワークフローを作成できます。詳しくは、[該当する節](supervising-workflows.md)を参照してください。
 
-ワークフローヒートマップを使用するには、[ワークフロー](../../workflow/using/about-workflows.md)、[アクティビティ](../../workflow/using/about-activities.md)および[ワークフローのベストプラクティス](../../workflow/using/workflow-best-practices.md)の概念を十分に理解しておく必要があります。
+ワークフローヒートマップを使用するには、[ワークフロー](about-workflows.md)、[アクティビティ](about-activities.md)および[ワークフローのベストプラクティス](workflow-best-practices.md)の概念を十分に理解しておく必要があります。
 
 ## ワークフローヒートマップのカスタマイズ {#using-the-heatmap}
 
@@ -75,8 +77,8 @@ Campaign ワークフローヒートマップは、現在実行中のすべて�
 
 1. また、**[!UICONTROL ワークフロータイプ]**&#x200B;に基づいてフィルタリングすることも可能です。
 
-   * **[!UICONTROL テクニカル]**：[標準のテクニカルワークフロー](../../workflow/using/building-a-workflow.md#technical-workflows)および[データ管理ワークフロー](../../workflow/using/targeting-data.md#data-management)のみが表示されます。
-   * **[!UICONTROL マーケティング]**：[キャンペーンワークフロー](../../workflow/using/building-a-workflow.md#campaign-workflows)と呼ばれる、マーケティングキャンペーンにリンクされたワークフローのみが表示されます。
+   * **[!UICONTROL テクニカル]**：[標準のテクニカルワークフロー](building-a-workflow.md#technical-workflows)および[データ管理ワークフロー](targeting-data.md#data-management)のみが表示されます。
+   * **[!UICONTROL マーケティング]**：[キャンペーンワークフロー](building-a-workflow.md#campaign-workflows)と呼ばれる、マーケティングキャンペーンにリンクされたワークフローのみが表示されます。
 
 1. 特定のワークフローを名前で検索するには、「**[!UICONTROL ワークフロー名フィルター]**」フィールドも使用できます。
 
@@ -110,11 +112,11 @@ Campaign ワークフローヒートマップは、現在実行中のすべて�
 1. ワークフロー ID または名前をクリックすると、ワークフローを直接開けます。
 1. 「**[!UICONTROL キャンペーンワークフローヒートマップ]**」ビューに戻るには、「**[!UICONTROL ホーム]**」ボタンをクリックします。
 
-## 使用例：ヒートマップを使用したアクションの実行 {#use-cases--using-the-heatmap-to-take-actions}
+## ユースケース：ヒートマップを使用したアクションの実行 {#use-cases--using-the-heatmap-to-take-actions}
 
-Campaign ワークフローヒートマップは主に、2 つのケースで役立ちます。
+Campaign ワークフローヒートマップは主に 2 つの場合に役立ちます。
 
-### 並列ワークフロー数の削減 {#reducing-the-number-of-concurrent-workflows}
+### 同時実行ワークフロー数の削減 {#reducing-the-number-of-concurrent-workflows}
 
 ワークフローヒートマップは、キャンペーン管理者がインスタンスの負荷を把握し、適切な時間に既存または新規のワークフローを計画するのに役立ちます。
 
@@ -129,7 +131,7 @@ Campaign ワークフローヒートマップは主に、2 つのケースで役
    * パフォーマンスの問題が発生し、グリッドに 1 つまたは複数の赤いセルが表示される場合は、いくつかのワークフローの開始時間を変更することを検討してください。マーケティングユーザーに、忙しい「ホットな」時間から利用により適した時間枠に手動でワークフローを移動するよう依頼します。こうすることで、1 日をとおして安定した活動レベルを維持できます。
    * ピークを避け、インスタンスが過負荷にならないようにするには、新しいワークフローを計画する前にヒートマップを確認して最適な時間を選択します。新しいワークフローの開始には、グリッド内の灰色または緑のセルに対応するタイムスロットを検討します。
 
-### パフォーマンスに影響を与える長時間実行されるワークフローの検索 {#finding-long-running-workflows-that-impact-performance}
+### パフォーマンスに影響を与える長時間実行ワークフローの検索 {#finding-long-running-workflows-that-impact-performance}
 
 キャンペーン管理者は、ワークフローヒートマップを使用することで、アクティビティの進行を遅らせる可能性のある最長のワークフローを見つけることができます。
 

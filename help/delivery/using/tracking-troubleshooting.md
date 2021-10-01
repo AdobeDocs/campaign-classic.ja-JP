@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '759'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # トラッキングのトラブルシューティング {#tracking-troubleshooting}
+
+![](../../assets/common.svg)
 
 この節では、Adobe Campaign Classic でのトラッキングの設定と実装に関するよくある質問について説明します。
 
@@ -112,7 +114,7 @@ $ grep -Rn 50x000000000FD7EC86
 
    リクエストされたリンクをリダイレクトするために Apache がトラッキング URL を読み取れるように、少なくともパーミッションは 644 が必要です。
 
-## NmsTracking_Pointer オプションの更新 {#updating-option}
+## NmsTracking_Pointer オプションの更新  {#updating-option}
 
 NmsTracking_Pointer オプションを更新する場合は、次の手順に従います。
 

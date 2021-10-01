@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
-source-wordcount: '966'
+source-wordcount: '983'
 ht-degree: 100%
 
 ---
 
 # E メールパラメーター {#email-parameters}
+
+![](../../assets/common.svg)
 
 この節では、E メール配信に固有のオプションとパラメーターについて説明します。
 
@@ -30,6 +32,10 @@ Adobe Campaign では、BCC アドレスをメッセージのターゲットに�
 >「BCC で E メールを送信」はオプションの機能です。この機能を有効にするには、ライセンス契約を確認したうえで、アカウント担当者にお問い合わせください。
 
 新しい配信または配信テンプレートを作成する場合、「BCC で E メールを送信」はデフォルトで有効になっていません。E メール配信または配信テンプレートレベルで手動で有効にする必要があります。
+
+>[!NOTE]
+>
+>Enhanced MTA でメールの BCC を使用する場合、このオプションはすべての配信に対して自動的に有効になります。
 
 E メール配信テンプレートの「BCC で E メールを送信」を有効にするには、次の手順に従います。
 

@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '963'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 調査を作成するための主な手順{#getting-started-with-surveys}
+
+![](../../assets/v7-only.svg)
 
 ここでは、次の組み込みテンプレートを使用して、簡単な調査を作成するための主な手順の概要を説明します。
 

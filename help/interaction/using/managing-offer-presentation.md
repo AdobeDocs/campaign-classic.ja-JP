@@ -6,20 +6,22 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
-source-wordcount: '1084'
+source-wordcount: '1083'
 ht-degree: 100%
 
 ---
 
 # プレゼンテーションの管理{#managing-offer-presentation}
 
+![](../../assets/v7-only.svg)
+
 ## プレゼンテーションルールの概要 {#presentation-rules-overview}
 
 インタラクションでは、プレゼンテーションルールを使用してオファーの提案のフローを制御できます。インタラクションに特化したそれらのルールをタイポロジルールと呼びます。タイポロジルールを利用すると、既に受信者に送信された提案の履歴に基づいてオファーを除外できます。ルールは環境内で参照されます。
 
-## オファープレゼンテーションルールの作成および参照 {#creating-and-referencing-an-offer-presentation-rule}
+## オファープレゼンテーションルールの作成と参照 {#creating-and-referencing-an-offer-presentation-rule}
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL タイポロジ管理]**／**[!UICONTROL タイポロジルール]**&#x200B;ノードに移動します。
 1. タイポロジルールを作成し、「**[!UICONTROL オファーのプレゼンテーション]**」タイプを選択します。
@@ -63,7 +65,7 @@ ht-degree: 100%
 
 「**[!UICONTROL オファーのプレゼンテーション]**」タブで、環境内に設定されているのと同じディメンションをプレゼンテーションルールにも指定する必要があります。
 
-「**[!UICONTROL ターゲティングディメンション]**」は、オファーの提案を受け取る受信者のテーブル（デフォルトは nms:recipients）に一致します。「**[!UICONTROL ストレージディメンション]**」は、ターゲティングディメンションにリンクした提案履歴のテーブル（デフォルトでは nms:propositionRcp）に一致します。
+「**[!UICONTROL ターゲティングディメンション]**」は、オファーの提案を受け取る受信者のテーブル（デフォルトは nms:recipients）に一致します。「 **[!UICONTROL ストレージディメンション]**」は、ターゲティングディメンションにリンクした提案履歴のテーブル（デフォルトでは :nms:propositionRcp）に一致します。
 
 ![](assets/offer_typology_009.png)
 
@@ -92,9 +94,9 @@ ht-degree: 100%
 
 ![](assets/offer_typology_011.png)
 
-## 提案および受信者の定義 {#defining-propositions-and-recipients}
+## 提案と受信者の定義 {#defining-propositions-and-recipients}
 
-「**[!UICONTROL カウントする提案]**」セクションで受信者と提案を指定すると、提案履歴にそれらが所定の回数出現した場合に、「**[!UICONTROL 一般]**」タブで定義されたオファーの除外が適用されます。
+「**[!UICONTROL カウントする提案]**」セクションで受信者と提案の両方を指定すると、提案履歴にそれらが所定の回数出現した場合に、「**[!UICONTROL 一般]**」タブで定義されたオファーの除外が適用されます。
 
 ### 提案のフィルタリング {#filtering-propositions}
 
@@ -144,7 +146,7 @@ ht-degree: 100%
 
 ### 受信者の定義 {#defining-recipients}
 
-受信者を指定するには、「**[!UICONTROL ターゲティングディメンションからクエリを編集]**」リンクをクリックし、そのルールに関係する受信者を選択します。
+受信者を指定するには、「**[!UICONTROL ターゲティングディメンションからクエリを編集...]**」リンクをクリックし、そのルールに関係する受信者を選択します。
 
 ![](assets/offer_typology_012.png)
 

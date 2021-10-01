@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 5c11bd0f-2df7-4c7f-b682-955fedf8e664
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1103'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Facebook アプリケーションの作成{#creating-a-facebook-application}
+
+![](../../assets/v7-only.svg)
 
 Web アプリケーションのおかげで、ソーシャルマーケティングでは Facebook アプリケーションにパーソナライズしたコンテンツを表示でき、このソーシャルネットワーク経由で見込み客を獲得しやすくなります。Facebook タイプ Web アプリケーションのその他の例については、[Facebook アプリケーションの例](../../social/using/examples-of-facebook-apps.md)を参照してください。
 
@@ -90,7 +92,7 @@ Facebook アプリケーションごとに、**[!UICONTROL Facebook Connect]** �
 
    ![](assets/social_webapp_fb_013.png)
 
-## 利用規約およびプライバシーポリシーのリンクの入力 {#entering-the-terms-of-service-and-privacy-policy-links}
+## サービスの利用条件およびプライバシーポリシーのリンクの入力 {#entering-the-terms-of-service-and-privacy-policy-links}
 
 Facebook の許可リクエスト画面に表示する&#x200B;**[!UICONTROL 利用規約]**&#x200B;および&#x200B;**[!UICONTROL プライバシーポリシー]**&#x200B;へのリンクを追加することを強くお勧めします。
 
@@ -137,7 +139,7 @@ Adobe Campaign の Facebook アプリケーションを使用すると、パー�
 
    ![](assets/social_webapp_004.png)
 
-## Facebook タブの設定 {#configuring-facebook-tabs}
+## Facebook のタブの設定 {#configuring-facebook-tabs}
 
 Facebook ページにタブとして表示される Facebook アプリケーションを設定できます。それには、次の手順に従います。
 

@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1168'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # キャンペーンテンプレートの作成と設定 {#campaign-templates}
+
+![](../../assets/common.svg)
 
 すべてのマーケティングキャンペーンは、主な特性と機能を格納したテンプレートに基づいています。 キャンペーンテンプレートは、**[!UICONTROL リソース／テンプレート／キャンペーンテンプレート]**&#x200B;ノードで一元管理されます。デフォルトのテンプレートは、標準として提供されます。デフォルトのテンプレートで、使用可能なすべてのモジュール（ドキュメント、タスク、シードアドレスなど）を使用して、新しいキャンペーンを作成できますが、提供されるモジュールは、ユーザーの権限と Adobe Campaign プラットフォームの設定によって異なります。
 
@@ -167,11 +169,11 @@ ht-degree: 100%
 
 ### テンプレート実行パラメーター {#template-execution-parameters}
 
-「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクを使用して、配信ターゲット（コントロール母集団、シードアドレスなど）を処理するためのテンプレートの詳細オプションと、キャンペーンの測定およびワークフローの実行の設定をすることができます。
+「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクを使用すると、配信ターゲット（コントロール母集団、シードアドレスなど）を処理するためのテンプレートの詳細オプションと、キャンペーンの測定およびワークフローの実行を設定することができます。
 
 ![](assets/s_ncs_user_op_template_tab1.2.png)
 
-## キャンペーン実行の追跡{#campaign-reverse-scheduling}
+## キャンペーン実行のトラッキング{#campaign-reverse-scheduling}
 
 キャンペーンのスケジュールを作成し、達成度を追跡できます。例えば、特定の日付のイベントスケジュールを作成できます。 キャンペーンテンプレートでは、キャンペーンの終了日に基づいてタスクの開始日を計算できるようになりました。
 

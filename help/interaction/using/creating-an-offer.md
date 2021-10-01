@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 「**[!UICONTROL 実施要件]**」タブで、そのオファーが有効で提示可能である期間、ターゲットに適用するフィルター、オファーの重み付けを定義します。
 
-### 実施期間の定義 {#defining-the-eligibility-period-of-an-offer}
+### オファーの実施期間の定義 {#defining-the-eligibility-period-of-an-offer}
 
 オファーの実施期間を定義するには、ドロップダウンリストを使用して、開始日と終了日をカレンダーから選択します。
 

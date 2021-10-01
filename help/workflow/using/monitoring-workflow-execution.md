@@ -6,24 +6,26 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
-source-wordcount: '2082'
+source-wordcount: '2098'
 ht-degree: 100%
 
 ---
 
 # 監視ワークフローの実行 {#monitoring-workflow-execution}
 
+![](../../assets/common.svg)
+
 この節では、ワークフローの実行を監視する方法について説明します。
 
-[この節](../../workflow/using/supervising-workflows.md#supervising-workflows)では、一連のワークフローの状態（一時停止、停止、エラーあり）を監視できるワークフローの作成方法に関する使用例も示します。
+[この節](supervising-workflows.md#supervising-workflows)では、一連のワークフローの状態（一時停止、停止、エラーあり）を監視できるワークフローの作成方法に関する使用例も示します。
 
-また、インスタンスの管理者は、**監査記録**&#x200B;を使用して、アクティビティおよびワークフローに対する最後の変更（ワークフローの状態）を確認できます。詳しくは、[該当する節](../../production/using/audit-trail.md)を参照してください。
+また、インスタンスの管理者は、**監査記録**&#x200B;を使用して、アクティビティおよびワークフローに対する最後の変更（ワークフローの状態）を確認できます。詳しくは、[Campaign Classic v7 実稼働ガイド](../../production/using/audit-trail.md)を参照してください。
 
-様々なキャンペーンプロセスを監視するその他の方法については、[このページ](../../production/using/monitoring-guidelines.md)で説明しています。
+様々なキャンペーンプロセスを監視するその他の方法については、[Campaign Classic v7 実稼動ガイド](../../production/using/monitoring-guidelines.md)を参照してください。
 
-## 進行情報の表示 {#displaying-progress}
+## 進捗状況の表示 {#displaying-progress}
 
 ツールバーの各アイコンを使用して、進行情報を表示し、実行を監視することができます。
 
@@ -95,21 +97,21 @@ ht-degree: 100%
 
 ## ログのパージ {#purging-the-logs}
 
-ワークフローの履歴は自動でパージされません。すべてのメッセージは、デフォルトで保持されます。履歴は、**[!UICONTROL ファイル／アクション]**&#x200B;メニューを選択するか、リストの上にあるツールバー内の「**[!UICONTROL アクション]**」ボタンをクリックすることでパージできます。「**[!UICONTROL 履歴をパージ]**」を選択します。**[!UICONTROL アクション]**&#x200B;メニューで使用可能なオプションについて詳しくは、[アクションツールバー](../../workflow/using/starting-a-workflow.md)の節を参照してください。
+ワークフローの履歴は自動でパージされません。すべてのメッセージは、デフォルトで保持されます。履歴は、**[!UICONTROL ファイル／アクション]**&#x200B;メニューを選択するか、リストの上にあるツールバー内の「**[!UICONTROL アクション]**」ボタンをクリックすることでパージできます。「**[!UICONTROL 履歴をパージ]**」を選択します。**[!UICONTROL アクション]**&#x200B;メニューで使用可能なオプションについて詳しくは、[アクションツールバー](starting-a-workflow.md)の節を参照してください。
 
 ![](assets/purge_historique.png)
 
-## 作業用テーブルとワークフローのスキーマ {#worktables-and-workflow-schema}
+## 作業用テーブルとワークフロースキーマ {#worktables-and-workflow-schema}
 
 ワークフローは、特定のアクティビティ経由で操作される作業用テーブルを伝達します。Adobe Campaign では、データ管理アクティビティ経由で、ワークフローの作業用テーブルの列の編集、名前変更およびエンリッチメントが可能です。例えば、契約の共同受益者に関する追加情報を集める際に、クライアントのニーズに従った命名法に応じて列の名前を付けることができます。
 
 さらに、各種作業のディメンション間にリンクを作成したり、ディメンションの変更を定義することもできます。例えば、データベース内に記録された各契約について、契約のメイン所有者を指名し、追加情報内の共同所有者データを使用します。
 
-ワークフローが停止すると、ワークフローの作業用テーブルは自動的に削除されます。作業用テーブルを保持したい場合、**[!UICONTROL リストの更新]**&#x200B;アクティビティを使用してリストに保存します（[リストの更新](../../workflow/using/list-update.md)を参照）。
+ワークフローが停止すると、ワークフローの作業用テーブルは自動的に削除されます。作業用テーブルを保持したい場合、**[!UICONTROL リストの更新]**&#x200B;アクティビティを使用してリストに保存します（[リストの更新](list-update.md)を参照）。
 
 ## エラーの管理 {#managing-errors}
 
-エラーが発生した場合、ワークフローが一時停止し、エラーの発生時に実行中だったアクティビティが赤く点滅します。「**[!UICONTROL 監視]**」タブのワークフロー概要で「**[!UICONTROL ワークフロー]**」リンクをクリックすると、以下に示すように、エラーのあるワークフローのみ表示できます。
+エラーが発生すると、ワークフローが一時停止し、エラー発生時に実行中だったアクティビティが赤く点滅します。「**[!UICONTROL 監視]**」タブのワークフロー概要で「**[!UICONTROL ワークフロー]**」リンクをクリックすると、以下に示すように、エラーのあるワークフローのみ表示できます。
 
 ![](assets/wf-global-view_filter_only_errors.png)
 
@@ -141,9 +143,9 @@ Adobe Campaign エクスプローラーでは、デフォルトでワークフ�
 >
 >この設定は、各アクティビティに個別に適用できます。それには、アクティビティのプロパティを編集し、「**[!UICONTROL 詳細設定]**」タブでエラー管理モードを選択します。
 
-ワークフローの実行のトラブルシューティングについて詳しくは、[該当する節](../../production/using/workflow-execution.md)を参照してください。
+ワークフローの実行のトラブルシューティングについて詳しくは、[Campaign Classic v7 実稼動ガイド](../../production/using/workflow-execution.md)を参照してください。
 
-## エラーを処理 {#processing-errors}
+## 処理エラー {#processing-errors}
 
 アクティビティについては、「**[!UICONTROL エラーを処理]**」オプションに、エラー発生時に有効にされる特定のトランジションが表示されます。この場合、ワークフローはエラーモードに入らず、実行は継続されます。
 
@@ -165,7 +167,7 @@ Adobe Campaign エクスプローラーでは、デフォルトでワークフ�
 
 ## インスタンスの監視 {#instance-supervision}
 
-「**[!UICONTROL インスタンスの監視]**」ページでは、Adobe Campaign サーバーのアクティビティを確認したり、エラーが発生したワークフローと配信のリストを表示することができます。
+**[!UICONTROL インスタンスの監視]**&#x200B;ページでは、Adobe Campaign サーバーのアクティビティを確認したり、エラーが発生したワークフローと配信のリストを表示することができます。
 
 このページにアクセスするには、「**[!UICONTROL 監視]** 」タブに移動し、「**[!UICONTROL 一般ビュー]**」リンクをクリックします。
 
@@ -228,29 +230,29 @@ instance.vars.isRunning = false
    logInfo("Workflow already running, parallel execution not allowed.");
    ```
 
-使用例については、[データ更新の調整](../../workflow/using/coordinating-data-updates.md)の節で説明しています。
+使用例については、[データ更新の調整](coordinating-data-updates.md)の節で説明しています。
 
-## データベースメンテナンス {#database-maintenance}
+## データベースのメンテナンス {#database-maintenance}
 
 ワークフローは、多くの作業用テーブルを使用します。作業用テーブルは、メンテナンスしないと、領域を消費し、プラットフォーム全体の低速化を招きます。データベースメンテナンスについて詳しくは、この[節](../../production/using/tables-to-maintain.md)を参照してください。
 
-**管理／プロダクション／テクニカルワークフロー**&#x200B;ノードからアクセスできる&#x200B;**データベースクリーンアップ**&#x200B;ワークフローを使用すると、古いデータを削除して、データベースの急激な増加を回避できます。ワークフローは、ユーザーの操作なしで自動的にトリガーされます。この[節](../../production/using/database-cleanup-workflow.md)を参照してください。
+**管理／プロダクション／テクニカルワークフロー**&#x200B;ノードからアクセスできる&#x200B;**データベースクリーンアップ**&#x200B;ワークフローを使用すると、古いデータを削除して、データベースの急激な増加を回避できます。ワークフローは、ユーザーの操作なしで自動的にトリガーされます。[Campaign Classic v7 実稼動ガイド](../../production/using/database-cleanup-workflow.md)を参照してください。
 
-また、特定のテクニカルワークフローを作成して、領域を消費する不必要なデータをパージできます。この[節](../../production/using/application-objects.md)とこの[ページ](#purging-the-logs)を参照してください。
+また、特定のテクニカルワークフローを作成して、ディスク容量を消費する不必要なデータをパージできます。[Campaign Classic v7 実稼動ガイド](../../production/using/application-objects.md)と[この節](#purging-the-logs)を参照してください。
 
-## 一時停止中のワークフローの処理 {#handling-of-paused-workflows}
+## 一時停止したワークフローの処理 {#handling-of-paused-workflows}
 
 デフォルトでは、ワークフローを一時停止しても作業用テーブルはパージされません。ビルド 8880 以降では、長期間一時停止状態が続いているワークフローは自動的に停止され、作業用テーブルがパージされます。この処理は以下のようにトリガーされます。
 
 * 一時停止状態になっている期間が 7 日を超えたワークフローは監視ダッシュボード（および監視 API）に警告として表示され、スーパーバイザーグループに通知が送信されます。
-* 同じことが毎週、**[!UICONTROL cleanupPausedWorkflows]** テクニカルワークフローがトリガーされたときに繰り返されます。ワークフローについて詳しくは、[この節](../../workflow/using/delivery.md)を参照してください。
+* 同じことが毎週、**[!UICONTROL cleanupPausedWorkflows]** テクニカルワークフローがトリガーされたときに繰り返されます。ワークフローについて詳しくは、[この節](delivery.md)を参照してください。
 * 4 回目の通知後（デフォルトでは一時停止状態が 1 ヶ月続いた後）、ワークフローは無条件で停止されます。停止後、ワークフローにログが表示されます。テーブルは次回の&#x200B;**[!UICONTROL クリーンアップ]**&#x200B;ワークフローの実行時にパージされます。
 
 停止までの期間は NmsServer_PausedWorkflowPeriod オプションを通じて設定できます。
 
 ワークフローのスーパーバイザーには通知が届きます。作成者および最後にワークフローを変更したユーザーにも通知が届きます。管理者には通知は届きません。
 
-## ステータスに応じたワークフローのフィルタリング {#filtering-workflows-status}
+## ステータスに応じたワークフローのフィルタリング{#filtering-workflows-status}
 
 Campaign Classic インターフェイスを使用すると、事前定義された&#x200B;**表示**&#x200B;を使用して、インスタンス上のすべてのワークフローの実行ステータスを監視できます。これらの表示にアクセスするには、**[!UICONTROL 管理]**／**[!UICONTROL 監査]**／**[!UICONTROL ワークフローステータス]**&#x200B;ノードを開きます。
 
@@ -259,7 +261,7 @@ Campaign Classic インターフェイスを使用すると、事前定義され
 * **[!UICONTROL 実行中]**：実行中のすべてのワークフローを表示します。
 * **[!UICONTROL 一時停止]**：一時停止されたすべてのワークフローを表示します。
 * **[!UICONTROL 失敗]**：失敗したすべてのワークフローを表示します。
-* **[!UICONTROL 開始を保留中]**：operationMgt プロセスによって開始されるのを待機しているすべてのワークフローをリストします。このビューは、**マーケティングキャンペーン**&#x200B;パッケージでのみ使用できます（[Campaign 組み込みパッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照）。
+* **[!UICONTROL 開始を保留中]**：operationMgt プロセスによって開始されるのを待機しているすべてのワークフローをリストします。このビューは、**マーケティングキャンペーン**&#x200B;パッケージでのみ使用できます。詳しくは、[Campaign Classic v7 インストールガイド](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
 ![](assets/workflow-monitoring-views.png)
 

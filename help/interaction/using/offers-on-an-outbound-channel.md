@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '465'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # アウトバウンドチャネル{#offers-on-an-outbound-channel}
 
-## E メールのオファー配信 {#email-offer-delivery}
+![](../../assets/v7-only.svg)
+
+## メールによるオファー配信 {#email-offer-delivery}
 
 データベースにアフリカ旅行のカテゴリがあり、各オファーの実施要件、コンテキスト、表示域は既に設定されているとします。これから、E メール経由でオファーを提示するためのキャンペーンを作成します。
 

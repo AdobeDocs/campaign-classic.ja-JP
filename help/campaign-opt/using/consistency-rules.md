@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Adobe Campaign では、キャンペーンタイポロジに含まれる一連�
 
 最大負荷を定義するには、稼動ラインを定義する必要があります。その方法は 2 つあります。1 つ以上の稼動ラインを手動で作成するか（[稼動ラインを 1 つずつ追加する](#adding-availability-lines-one-by-one)を参照）、稼動の範囲を作成するかです。期間の頻度は自動化できます（[稼働ラインセットを追加](#add-a-set-of-availability-lines)を参照）。
 
-### 稼動ラインを 1 つずつ追加する {#adding-availability-lines-one-by-one}
+### 稼動ラインの個別追加 {#adding-availability-lines-one-by-one}
 
 稼動ラインを作成するには、「**[!UICONTROL 追加]**」ボタンをクリックして、「**[!UICONTROL 稼動ラインを追加]**」を選択します。稼動の期間と負荷を入力します。
 

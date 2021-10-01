@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: distributed-marketing
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1696'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ### Web インターフェイス {#web-interface}
 
-「**分散型マーケティング**」タブでは、Web インターフェイスのタイプを選択し、ローカルエンティティがキャンペーンをオーダーする際に入力するデフォルトの値とパラメーターを指定することができます。
+「**分散型マーケティング**」タブでは、Web インターフェイスのタイプを選択し、ローカルエンティティがキャンペーンをオーダーする際に入力するデフォルト値とパラメーターを指定することができます。
 
 Web インターフェイスは、キャンペーンのオーダー時にローカルエンティティが入力するフォームに対応します。
 
@@ -157,7 +157,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 >[!NOTE]
 >
->キャンペーンのテンプレートと一般的な設定について詳しくは、[キャンペーンテンプレート](../../campaign/using/marketing-campaign-templates.md#campaign-templates)で説明しています。
+>キャンペーンテンプレートとその一般的な設定について詳しくは、[キャンペーンテンプレート](../../campaign/using/marketing-campaign-templates.md#campaign-templates)を参照してください。
 
 ## キャンペーンパッケージの作成 {#creating-the-campaign-package}
 
@@ -192,7 +192,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 ### オーディエンス {#audience}
 
-セントラルエンティティは、「**[!UICONTROL パッケージをローカルエンティティセットに制限]**」をオンにすることで、ローカルキャンペーンを使用するローカルエンティティを限定できます。
+セントラルエンティティは、「**[!UICONTROL パッケージをローカルエンティティセットに制限]**」をオンにすることで、ローカルキャンペーンを使用するローカルエンティティを指定できます。
 
 ![](assets/s_advuser_mkg_dist_create_mutual_entry3.png)
 
@@ -284,11 +284,11 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 >[!NOTE]
 >
->オーダーがまだ承認されていなければ、ローカルエンティティはオーダーに変更を加えることができます。
+>オーダーが承認されるまでは、ローカルエンティティはオーダーに変更を加えることができます。
 
 ### 承認プロセス {#approval-process}
 
-#### E メールによる通知 {#email-notification}
+#### メール通知 {#email-notification}
 
 ローカルエンティティがキャンペーンをオーダーすると、レビュー担当者に以下のような E メールが送信されます。
 
@@ -300,7 +300,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 ![](assets/mkg_dist_command_valid_web.png)
 
-#### Adobe Campaign コンソールを使用する承認 {#approving-via-the-adobe-campaign-console}
+#### Adobe Campaign コンソールを使用した承認 {#approving-via-the-adobe-campaign-console}
 
 オーダーの承認は、キャンペーンのオーダーの概要で、コンソールから実行することもできます。オーダーを承認するには、オーダーを選択して、「**[!UICONTROL オーダーを承認]**」をクリックします。
 

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '438'
 ht-degree: 100%
@@ -15,6 +15,8 @@ ht-degree: 100%
 ---
 
 # Apple 停止後の誤ったハードバウンスの更新 {#update-bounce-qualification.md}
+
+![](../../assets/common.svg)
 
 ## コンテキスト
 

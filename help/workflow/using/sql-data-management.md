@@ -6,26 +6,35 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
-source-wordcount: '428'
+source-wordcount: '452'
 ht-degree: 100%
 
 ---
 
 # SQL データ管理{#sql-data-management}
 
-「**SQL データ管理**」アクティビティでは、作業用テーブルを作成および設定する独自の SQL クエリを記述できます。
+![](../../assets/common.svg)
+
+「**SQL データ管理**」アクティビティでは、独自の SQL スクリプトを記述して、作業用テーブルの作成と作業用テーブルへのデータ入力を行えます。
 
 ## 前提条件 {#prerequisites}
 
 アクティビティを設定する前に、以下の前提条件を満たしていることを確認してください。
 
 * このアクティビティは、リモートデータソースに対してのみ使用できます。そのため、インスタンスに **[!UICONTROL FDA]**（Federated Data Access）パッケージをインストールする必要があります。[詳細情報](../../installation/using/about-fda.md)。
-* アウトバウンドスキーマがデータベースに存在し、FDA データベースにリンクされている必要があります。 [詳細情報](../../configuration/using/about-schema-reference.md)。
+
+   詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
+
+   ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 ドキュメント](../../installation/using/about-fda.md)
+
+   ![](assets/do-not-localize/v8.png)[  Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja)
+
+* アウトバウンドスキーマがデータベースに存在し、FDA データベースにリンクされている必要があります。 
 * ワークフローを実行するオペレーターには、**[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** ネームド権限が必要です。[詳細情報](../../platform/using/access-management-named-rights.md)。
 
-## 「SQL データ管理」アクティビティの設定{#configuring-the-sql-data-management-activity}
+## 「SQL データ管理」アクティビティの設定 {#configuring-the-sql-data-management-activity}
 
 1. アクティビティの「**[!UICONTROL ラベル]**」を指定します。
 1. 使用する&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を選択し、この外部アカウントにリンクする&#x200B;**[!UICONTROL アウトバウンドスキーマ]**&#x200B;を選択します。

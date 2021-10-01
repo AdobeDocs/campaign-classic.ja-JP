@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '768'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 人／ユーザーと受信者 {#person-people-and-recipients}
+
+![](../../assets/common.svg)
 
 このサンプルは、Adobe Campaign における人／ユーザーと受信者との違いを理解するのに役立ちます。ここでは、次の指標に対する計算方式を説明しながら、ユーザーと受信者の違いに注目するために何人かのユーザーに配信を送信します。
 

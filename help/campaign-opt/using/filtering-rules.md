@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 ![](assets/campaign_opt_create_filter_05.png)
 
-## フィルタールールの調整 {#conditioning-a-filtering-rule}
+## フィルタールールの条件付け {#conditioning-a-filtering-rule}
 
 リンクされている配信や配信の概要に基づいて、フィルタールールを適用する範囲を制限することができます。
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 >
 >フィルターの設定を配信テンプレートで定義すると、そのテンプレートを使用して作成されるすべての新しい配信に、自動的にこの設定が適用されます。
 
-## デフォルトの配信性能除外ルール {#default-deliverability-exclusion-rules}
+## デフォルトの配信除外ルール {#default-deliverability-exclusion-rules}
 
 デフォルトで利用できるフィルタールールには「**[!UICONTROL アドレスを除外]**」（**[!UICONTROL addressExclusions]**）および「**[!UICONTROL ドメインを除外]**」（**[!UICONTROL domainExclusions]**）の 2 つがあります。電子メールの分析時には、配信性能インスタンスで管理された暗号化グローバル抑止リストに含まれている禁止アドレスや禁止ドメイン名がこれらのルールによって照合され、受信者の電子メールアドレスが該当していないかどうかの確認処理が実行されます。該当した場合、その受信者宛てにはメッセージが送信されません。
 

@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: annexes
 exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
-source-git-commit: c7068c172c35e067d2dbed9233ec3b84633603fd
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '2382'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Facebook アプリの例{#examples-of-facebook-apps}
+
+![](../../assets/v7-only.svg)
 
 ユーザーが Facebook アプリケーションのタブをクリックすると、幅が 810 ピクセルのスペースに表示されます。Adobe Campaign では、Facebook タイプの Web アプリケーションを使用して、Facebook アプリケーションに表示するコンテンツを定義およびパーソナライズできるので、プロフィールの取得が容易になります。
 

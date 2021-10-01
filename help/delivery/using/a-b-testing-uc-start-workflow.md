@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '86'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ワークフローの開始 {#step-7--starting-the-workflow}
+
+![](../../assets/common.svg)
 
 1. 「**[!UICONTROL 開始]**」ワークフローをクリックします。
 

@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1025'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 分散アーキテクチャ{#distributed-architectures}
+
+![](../../assets/v7-only.svg)
 
 ## 原則 {#principle}
 
@@ -52,7 +54,7 @@ ht-degree: 100%
 * 提案の同期は、FDA 接続によって排他的に実行されます。
 * インタラクションと Message Center を同じインスタンス上で使用する場合は、どちらについても、同期は FDA プロトコルを使用しておこなわれます。
 
-## パッケージの設定 {#packages-configuration}
+## パッケージ設定 {#packages-configuration}
 
 **インタラクション**（オファー、提案、受信者など）に直接リンクされたあらゆるスキーマの拡張は、実行インスタンス上にデプロイする必要があります。
 

@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '568'
 ht-degree: 100%
@@ -15,9 +15,11 @@ ht-degree: 100%
 
 # 承認{#approval}
 
+![](../../assets/common.svg)
+
 **承認**&#x200B;タスクは、オペレーターの関与を必要とします。オペレーターにはタスクが割り当てられ、E メールメッセージ内にリンクされた Web ページを使用するか、コンソールを使用して回答できます。
 
-## タスク割り当て {#task-assignment}
+## タスクの割り当て {#task-assignment}
 
 デフォルトで、承認はオペレーターのグループに割り当てられます。このグループは、「ニュースレターコンテンツグループ」や「ニュースレターターゲットグループ」などのロールを表します。グループ内の各オペレーターが回答できますが、最初の回答だけが反映されます（複数の承認が存在する場合を除く）。
 
@@ -63,7 +65,7 @@ ht-degree: 100%
 
 テンプレートを編集してメッセージのレイアウトをカスタマイズできますが、コピーを作成してもかまいません。ターゲットメカニズム（外部ファイル、ターゲットマッピング）は、通知を正しく処理するのに必要なので、編集できません。
 
-承認の例については、[承認の定義](../../workflow/using/defining-approvals.md)を参照してください。
+承認の例については、[承認の定義](defining-approvals.md)を参照してください。
 
 ## 出力パラメーター {#output-parameters}
 

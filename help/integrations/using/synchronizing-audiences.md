@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
 workflow-type: ht
 source-wordcount: '1204'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # オーディエンスの同期{#synchronizing-audiences}
+
+![](../../assets/v7-only.svg)
 
 Campaign v7 の高度な機能を使用して、高度なリストを作成できます。このリストは（追加データを含め）、オーディエンスとして Campaign Standard とシームレスにリアルタイムで直接共有できます。Campaign Standard ユーザーはそのオーディエンスを Adobe Campaign Standard で使用できます。
 

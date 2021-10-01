@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '218'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # インバウンドチャネルについて{#about-inbound-channels}
+
+![](../../assets/v7-only.svg)
 
 オファーは、インバウンドチャネルまたはアウトバウンドチャネルを使用して、様々なオファースペースに提示できます。この章では、インバウンドチャネルについていくつかの具体的な機能を説明します。
 

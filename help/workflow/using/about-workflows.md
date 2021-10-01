@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: introduction
 exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '655'
 ht-degree: 100%
 
 ---
 
-# ワークフローの概要{#gs-workflows}
+# ワークフローの基本を学ぶ{#gs-workflows}
+
+![](../../assets/common.svg)
 
 ## ワークフローについて{#about-workflows}
 
@@ -27,9 +29,9 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 Adobe Campaign では、ワークフローを使用して次のことをおこないます。
 
-* キャンペーンのターゲティングの実行。[詳細情報](../../workflow/using/building-a-workflow.md#implementation-steps-)
-* キャンペーンの作成：キャンペーンごとに、「**[!UICONTROL ワークフロー]**」タブを使用してターゲットを作成したり、配信を作成したりできます。[詳細情報](../../workflow/using/building-a-workflow.md#campaign-workflows)
-* テクニカルプロセスの実行：クリーンアップ、トラッキング情報の収集または試算。[詳細情報](../../workflow/using/building-a-workflow.md#technical-workflows)
+* キャンペーンのターゲティングの実行。[詳細情報](building-a-workflow.md#implementation-steps-)
+* キャンペーンの作成：キャンペーンごとに、「**[!UICONTROL ワークフロー]**」タブを使用してターゲットを作成したり、配信を作成したりできます。[詳細情報](building-a-workflow.md#campaign-workflows)
+* テクニカルプロセスの実行：クリーンアップ、トラッキング情報の収集または試算。[詳細情報](building-a-workflow.md#technical-workflows)
 
 ワークフローは、プロセス定義（想定される結果を表すワークフローモデル）と、このプロセスのインスタンス（実際に実行中の処理を表すワークフローインスタンス）の両方を意味します。
 
@@ -45,7 +47,7 @@ Adobe Campaign では、ワークフローを使用して次のことをおこ�
 
    ワークフローのダイアグラムでは、指定されたアクティビティが、特にループまたは繰り返し（定期的）アクションがある場合に複数のタスクを生成できます。
 
-   すべてのワークフローアクティビティのリストは、使用例やサンプルとともに[この節](../../workflow/using/about-activities.md)で確認できます。
+   すべてのワークフローアクティビティのリストは、使用例やサンプルとともに[この節](about-activities.md)で確認できます。
 
 * **[!UICONTROL トランジション]**
 
@@ -57,22 +59,22 @@ Adobe Campaign では、ワークフローを使用して次のことをおこ�
    >
    >未終了のトランジションを含んでいても、ワークフローは実行可能です。その場合、警告メッセージが生成され、トランジションに到達するとワークフローはいったん一時停止しますが、エラーは生成されません。つまり、トランジションを終了せずにワークフローを開始したり、未終了のトランジションをワークフローに追加することができます。
 
-   ワークフローの構築方法について詳しくは、[この節](../../workflow/using/building-a-workflow.md)を参照してください。
+   ワークフローの構築方法について詳しくは、[この節](building-a-workflow.md)を参照してください。
 
 * **[!UICONTROL 作業用テーブル]**
 
    作業用テーブルには、トランジションによって実行されるすべての情報が含まれます。各ワークフローは、複数の作業用テーブルを使用します。作業用テーブルに伝達されたデータは、パージされない限り、ワークフローをスムースに処理するためにライフサイクル全体で使用されます。不要なテーブルは、ワークフローが休止状態になるたびにパージされます。また、最大のワークフローの実行中にサーバーの過負荷を回避する目的でパージされることがあります。
 
-   ワークフローのデータおよびテーブルについて詳しくは、[この節](../../workflow/using/how-to-use-workflow-data.md)を参照してください。
+   ワークフローのデータおよびテーブルについて詳しくは、[この節](how-to-use-workflow-data.md)を参照してください。
 
-## 主要事項とベストプラクティス{#principles-workflows}
+## 主な原則とベストプラクティス{#principles-workflows}
 
 ワークフローを使用してプロセスを自動化するためのガイダンスとベストプラクティスについては、次の節を参照してください。
 
-* ワークフローアクティビティについて詳しくは、[このページ](../../workflow/using/how-to-use-workflow-data.md)を参照してください。
-* ワークフローを構築する方法については、[この節](../../workflow/using/building-a-workflow.md)を参照してください。
+* ワークフローアクティビティについて詳しくは、[このページ](how-to-use-workflow-data.md)を参照してください。
+* ワークフローを構築する方法については、[この節](building-a-workflow.md)を参照してください。
 * ワークフローを使用して Campaign にデータをインポートする方法については、[この節](../../platform/using/import-export-workflows.md)を参照してください。
-* ワークフローのベストプラクティスについて詳しくは、[このページ](../../workflow/using/workflow-best-practices.md)を参照してください。
-* ワークフローの実行に関するガイダンスについては、[この節](../../workflow/using/starting-a-workflow.md)を参照してください。
-* ワークフローを監視する方法については、[このページ](../../workflow/using/monitoring-workflow-execution.md)を参照してください。
-* ワークフローを使用するためのアクセス権をユーザーに付与する方法については、[このページ](../../workflow/using/managing-rights.md)を参照してください。
+* ワークフローのベストプラクティスについて詳しくは、[このページ](workflow-best-practices.md)を参照してください。
+* ワークフローの実行に関するガイダンスについては、[この節](starting-a-workflow.md)を参照してください。
+* ワークフローを監視する方法については、[このページ](monitoring-workflow-execution.md)を参照してください。
+* ワークフローを使用するためのアクセス権をユーザーに付与する方法については、[このページ](managing-rights.md)を参照してください。

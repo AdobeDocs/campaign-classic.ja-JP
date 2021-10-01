@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '660'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # オファーの承認と有効化{#approving-and-activating-an-offer}
+
+![](../../assets/v7-only.svg)
 
 オファーコンテンツが完成したら、オファーを承認して、ライブ環境への複製と配信が実行されるようにする必要があります。承認は、オファーのコンテンツおよび実施要件に関しておこなわれます。
 
@@ -103,7 +105,7 @@ ht-degree: 100%
 
 ![](assets/offer_validate_013.png)
 
-## オファーのパブリッシュ {#publishing-the-offer}
+## オファーの公開 {#publishing-the-offer}
 
 コンテンツと実施要件が両方とも承認されると、承認サイクルが完了した各オファーに対して自動実行されるワークフローによって、オファーがパブリッシュされます。また、オファーカタログに含まれるスペースやカテゴリをデザイン環境からライブ環境に（必要に応じて）同期するために、**[!UICONTROL オファー通知]**&#x200B;ワークフローが 1 時間ごとに実行されます。
 

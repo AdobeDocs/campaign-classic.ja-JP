@@ -5,7 +5,7 @@ description: Adobe Experience Manager について
 audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '160'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 ---
 
 # Adobe Experience Manager について{#about-adobe-experience-manager}
+
+![](../../assets/common.svg)
 
 Adobe Campaign と Adobe Experience Manager の間の統合では、E メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。
 

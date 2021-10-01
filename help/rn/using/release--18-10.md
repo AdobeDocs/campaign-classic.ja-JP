@@ -2,18 +2,20 @@
 product: campaign
 title: Campaign 18.10 のリリースノート
 description: Campaign 18.10 のリリースノート
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
-workflow-type: tm+mt
-source-wordcount: '2370'
-ht-degree: 99%
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
+source-wordcount: '2369'
+ht-degree: 100%
 
 ---
 
 # リリース 18.10{#release-18-10}
+
+![](../../assets/v7-only.svg)
 
 ## リリース 18.10.6 - ビルド 8985{#release-18-10-6-build-8985}
 
@@ -80,7 +82,7 @@ ht-degree: 99%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **強化点**
 
@@ -102,7 +104,7 @@ ht-degree: 99%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **新機能**
 
@@ -138,7 +140,7 @@ ht-degree: 99%
 
 * SSRF（サーバーサイドリクエストフォージェリ）攻撃や DoS（サービス拒否）攻撃に対する脆弱性につながるセキュリティ上の問題を修正しました。（NEO-11453）
 * X-Robots-Tag（nocache ヘッダー）を使用した場合に、Campaign からコンテンツ（トラッキングリダイレクト、ミラーページ、調査など）が提供されるようになりました。これにより、インターネット検索エンジンによるコンテンツのインデックス作成を防ぎます。（NEO-11101）
-* 購読API（nms:subscription:購読解除およびnms:subscription:購読）のXTK挿入の問題を修正しました。
+* 購読 API（nms:subscription:Unsubscribe および nms:subscription:Subscribe）の XTK 挿入の問題を修正しました。
 * 購読解除 Web アプリケーションの XTK 挿入の問題を修正しました。
 * 一部の SMS ログで不用意に表示されていたパスワードを削除しました。
 

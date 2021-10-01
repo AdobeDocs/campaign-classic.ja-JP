@@ -6,8 +6,8 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '158'
 ht-degree: 100%
 
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # CRM コネクタ{#crm-connectors}
 
-## CRM コネクタの基礎知識 {#about-crm-connectors}
+![](../../assets/common.svg)
+
+## CRM コネクタの基本を学ぶ {#about-crm-connectors}
 
 Adobe Campaign では、Adobe Campaign プラットフォームをサードパーティのシステムにリンクするための様々な CRM コネクタが提供されています。これらの CRM コネクタにより、連絡先、アカウント、購入などを同期したり、アプリケーションを様々なサードパーティおよびビジネスアプリケーションと簡単に統合したりすることができます。
 
@@ -36,7 +38,7 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 ### 実装手順 {#crm-implementation-steps}
 
-Campaign と Microsoft Dynamics を接続する手順については、[こちらの節](../../platform/using/crm-ms-dynamics.md)を参照してください。
+Campaign と Microsoft Dynamics を接続する手順については、[この節](../../platform/using/crm-ms-dynamics.md)を参照してください。
 
 
 Campaign と Salesforce を接続する手順については、[この節](../../platform/using/crm-sfdc.md)を参照してください。

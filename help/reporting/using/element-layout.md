@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '436'
 ht-degree: 100%
@@ -15,13 +15,15 @@ ht-degree: 100%
 
 # 要素のレイアウト{#element-layout}
 
+![](../../assets/common.svg)
+
 [グラフのタイプとバリエーション](../../reporting/using/creating-a-chart.md#chart-types-and-variants)で説明する様々なグラフに加えて、表示を適応させたり、レポートページに要素を追加したりできます。
 
 コンテナを使用すると、ページの複数の要素をリンクし、それらのレイアウトを列やセルで設定できます。それらの使用方法について詳しくは、[この節](../../web/using/defining-web-forms-layout.md#creating-containers)を参照してください。
 
 ツリーのルートでレポートのレイアウトを設定し、コンテナごとにそれをオーバーロードできます。ページは列に並べ替えられます。コンテナも列に並べ替えられます。静的要素およびグラフィカル要素のみ、セルに並べ替えられます。
 
-## 各ページのオプションの定義 {#defining-the-options-for-each-page}
+## ページごとのオプションの定義 {#defining-the-options-for-each-page}
 
 レポートの各ページでオプションを使用できます。
 

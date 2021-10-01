@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1255'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # JavaScript のスクリプトとテンプレート{#javascript-scripts-and-templates}
+
+![](../../assets/common.svg)
 
 スクリプトを使用すると、値を計算したり、プロセス内の異なるタスク間でデータを交換したりできるほか、SOAP コールを使用して個別の操作を実行することが可能です。
 
@@ -26,7 +28,7 @@ ht-degree: 100%
 
    ![](assets/script-button.png)
 
-## オブジェクトの公開 {#objects-exposed}
+## 公開されるオブジェクト {#objects-exposed}
 
 ワークフローのコンテキストで実行される JavaScript は、一連の追加グローバルオブジェクトにアクセスします。
 
@@ -71,7 +73,7 @@ logInfo("Start date: " + task.creationDate)
 
 ### タスク変数 {#task-variables}
 
-タスク変数（**[!UICONTROL task.vars.xxx]**）はローカル変数に相当します。現在のタスクにのみ使用されます。この変数は、永続的なアクティビティでデータの維持に使用されるほか、同じアクティビティの別々のスクリプトでデータを交換する場合に使用されることもあります。
+タスク変数（**[!UICONTROL task.vars.xxx]**）はローカル変数に相当します。現在のタスクにのみ使用されます。この変数は、永続的なアクティビティでデータの維持に使用されるほか、同じアクティビティの異なるスクリプト間でデータを交換する場合に使用されることもあります。
 
 ### イベント変数 {#event-variables}
 
@@ -79,17 +81,17 @@ logInfo("Start date: " + task.creationDate)
 
 >[!CAUTION]
 >
->「[AND 結合](../../workflow/using/and-join.md)」タイプアクティビティの場合、この変数は結合されますが、同じ変数を 2 回定義した場合、競合が生じ、値が未確定になります。
+>「[AND 結合](and-join.md)」タイプアクティビティの場合、この変数は結合されますが、同じ変数を 2 回定義した場合、競合が生じ、値が未確定になります。
 
 イベントは最も使用されることの多い変数です。インスタンス変数より優先して使用することをお勧めします。
 
-特定のイベント変数は、さまざまなアクティビティが変更し、読み取ります。これらのイベント変数はすべて文字列タイプの変数です。例えば、エクスポートでは、エクスポートされたファイルの完全名が、変数 **[!UICONTROL vars.filename]** に設定されます。すべての読み取られた変数および変更された変数については、アクティビティの「**入力パラメーター**」と「**出力パラメーター**」のセクションにある[アクティビティについて](../../workflow/using/about-activities.md)を参照してください。
+特定のイベント変数は、さまざまなアクティビティが変更し、読み取ります。これらのイベント変数はすべて文字列タイプの変数です。例えば、エクスポートでは、エクスポートされたファイルの完全名が、変数 **[!UICONTROL vars.filename]** に設定されます。すべての読み取られた変数および変更された変数については、アクティビティの「**入力パラメーター**」と「**出力パラメーター**」のセクションにある[アクティビティについて](about-activities.md)を参照してください。
 
 ### 使用例 {#example}
 
 >[!NOTE]
 >
->その他のワークフローの使用例については、[この節](../../workflow/using/about-workflow-use-cases.md)を参照してください。
+>その他のワークフローの使用例については、[この節](about-workflow-use-cases.md)を参照してください。
 
 **例 1**
 
@@ -177,9 +179,9 @@ logInfo("Start date: " + task.creationDate)
 
    ![](assets/wkf_var_in_query.png)
 
-## 高度な機能 {#advanced-functions}
+## 高度な関数 {#advanced-functions}
 
-標準の JavaScript 関数に加え、さまざまな特殊な関数を利用することができます。これらの関数を使用すると、ファイルの操作や、データベース内のデータの読み出し、変更、ログへのメッセージの追加などが可能になります。
+標準の JavaScript 関数に加え、特殊な関数も使用できます。これらの関数では、ファイルの操作、データベース内のデータの読み取りや変更、ログへのメッセージの追加などが可能になります。
 
 ### ジャーナル {#journal}
 

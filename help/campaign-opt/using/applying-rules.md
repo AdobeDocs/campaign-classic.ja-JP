@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1041'
 ht-degree: 100%
 
@@ -68,9 +68,9 @@ ht-degree: 100%
 
 「**[!UICONTROL パーソナライゼーションの開始時にルールを再適用]**」オプションを使用すると、パーソナライゼーションのフェーズで自動的にルールを適用できます（「**[!UICONTROL 頻度]**」フィールドで指定されている有効期間内であっても、ルールは再適用されます）。
 
-## ルールの適用フェーズの選択 {#selecting-the-rule-application-phase}
+## ルール適用フェーズの選択 {#selecting-the-rule-application-phase}
 
-タイポロジルールは、配信のターゲティング、分析およびパーソナライゼーションのフェーズで、特定の順序に従って適用されます。
+タイポロジルールは、対象となる配信のターゲティング、分析およびパーソナライゼーションの各フェーズで、特定の順序に従って適用されます。
 
 ### 実行順序 {#execution-order}
 

@@ -2,18 +2,20 @@
 product: campaign
 title: プロファイルの追加
 description: プロファイルの追加
-feature: プロファイル
+feature: Profiles
 role: User
 level: Beginner
 exl-id: befa8948-ef2e-4f4d-a002-3f26d8516a0d
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
-workflow-type: tm+mt
-source-wordcount: '77'
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
+source-wordcount: '76'
 ht-degree: 100%
 
 ---
 
 # プロファイルの追加{#adding-profiles}
+
+![](../../assets/common.svg)
 
 ほとんどの場合、プロファイルは[ワークフローを使用して Campaign にインポート](../../platform/using/import-export-workflows.md)されます。ただし、「**[!UICONTROL 作成]**」ボタンをクリックして、1 つ以上のプロファイルをインターフェイスから直接追加することもできます。それにより、プロファイルはデータベースに追加されます。
 

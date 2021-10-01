@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '1016'
 ht-degree: 100%
 
 ---
 
 # エクスポートジョブの設定 {#executing-export-jobs}
+
+![](../../assets/common.svg)
 
 エクスポートジョブを使用すると、データベースにアクセスして連絡先、クライアント、リスト、セグメントなどのデータを抽出できます。
 
@@ -72,7 +74,7 @@ ht-degree: 100%
 * 日付フォーマットおよび数字のフォーマットを指定します。そのためには、該当するフィールドの「**[!UICONTROL 編集]**」ボタンをクリックし、エディターを使用します。
 * 列挙値が含まれるフィールドの場合、「**[!UICONTROL 列挙の内部値の代わりにラベルをエクスポート]**」を選択できます。例えば、タイトルを **1=Mr.**、**2=Miss**、**3=Mrs.**.このオプションを選択した場合、**Mr.**、**Miss** および **Mrs.** がエクスポートされます。
 
-## 手順 4 - データ選択 {#step-4---data-selection}
+## 手順 4 - データの選択 {#step-4---data-selection}
 
 エクスポートするフィールドを選択します。手順は次のとおりです。
 
@@ -95,7 +97,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
-## 手順 7 - データフォーマット {#step-7---data-formatting}
+## 手順 7 - データのフォーマット設定 {#step-7---data-formatting}
 
 出力ファイルのフィールドの順序およびラベルを変更し、ソースデータに変換を適用できます。
 

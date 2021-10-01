@@ -5,7 +5,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '94'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 ---
 
 # 配信のベストプラクティス {#delivery-best-practices}
+
+![](../../assets/common.svg)
 
 Adobe Campaign を使用した配信のデザインと送信に関するベストプラクティスについて説明します。トピック間を移動してガイダンスを確認するには、次のリンクを使用してください。
 

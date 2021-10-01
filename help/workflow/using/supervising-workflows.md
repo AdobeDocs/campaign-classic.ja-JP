@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '647'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ユースケース：ワークフローの監視{#supervising-workflows}
+
+![](../../assets/common.svg)
 
 この使用例では、一連のワークフローの状態（一時停止、停止、エラーあり）を監視するワークフローの作成について詳しく説明します。
 
@@ -31,9 +33,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ワークフローに加え、キャンペーン&#x200B;**ワークフローヒートマップ**&#x200B;を使用することで、現在実行中のワークフローの詳細を分析することができます。詳しくは、[該当する節](../../workflow/using/heatmap.md)を参照してください。
+>ワークフローに加え、キャンペーン&#x200B;**ワークフローヒートマップ**&#x200B;を使用することで、現在実行中のワークフローの詳細を分析することができます。詳しくは、[該当する節](heatmap.md)を参照してください。
 >
->**ワークフローの実行を監視**&#x200B;する方法について詳しくは、[この節](../../workflow/using/monitoring-workflow-execution.md)を参照してください。
+>**ワークフローの実行を監視**&#x200B;する方法について詳しくは、[この節](monitoring-workflow-execution.md)を参照してください。
 
 ## 手順 1：監視ワークフローの作成 {#step-1--creating-the-monitoring-workflow}
 

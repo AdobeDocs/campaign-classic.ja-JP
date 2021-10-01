@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7d1bb3c6-d056-4212-9500-75459a0046fa
 source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
 ht-degree: 100%
 
@@ -17,15 +17,15 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign のワークフローを使用して、複数のプロセスとタスクを調整する方法を学習します。
+Adobe Campaign のワークフローを使用して、複数のプロセスとタスクを調整する方法について説明します。
 
 ## ワークフローを作成するための重要な手順は？ {#what-are-the-key-steps-to-create-a-workflow-}
 
-[最初のワークフローの作成方法についてはここをクリック](../../workflow/using/building-a-workflow.md)：Campaign でワークフローを構築するための概念とベストプラクティスがわかります。
+ワークフローを初めて作成する方法については[ここをクリック](../../workflow/using/building-a-workflow.md)：Campaign でワークフローを構築するための概念とベストプラクティスがわかります。
 
-## Campaign でのデータのインポートはどのようにおこなえますか？ {#how-can-i-import-data-in-campaign-}
+## Campaign でデータをインポートするにはどうすればよいですか？ {#how-can-i-import-data-in-campaign-}
 
-データをインポートするためのベストプラクティスについては、[こちらの節](../../platform/using/import-export-best-practices.md)を参照してください。
+データをインポートするためのベストプラクティスについては、[この節](../../platform/using/import-export-best-practices.md)を参照してください。
 
 ## ワークフローの実行を監視できますか？ {#can-i-monitor-workflow-execution-}
 
@@ -37,7 +37,7 @@ Campaign ワークフローの実行を監視する方法については、[こ�
 
 [詳しくはここをクリック](../../workflow/using/update-data.md)してください。
 
-## データ管理機能はどのように利用できますか？ {#how-can-i-leverage-data-management-capabilities-}
+## データ管理機能を利用するにはどうすればよいですか？ {#how-can-i-leverage-data-management-capabilities-}
 
 Adobe Campaign では、より効率的で柔軟なツールを提供することで、複雑なターゲティングの課題を解決するための一連のアクティビティを利用できます。データ管理アクティビティを使用すると、契約や購読、配信に対する反応などに関連する情報を使用して、連絡先とのすべての通信の一貫した管理の実装が可能になります。データ管理によって、セグメント化の操作時にデータのライフサイクルをトラッキングできます。具体例を以下に示します。
 
@@ -49,7 +49,7 @@ Adobe Campaign では、より効率的で柔軟なツールを提供するこ�
 
 ## パーソナライズされたメッセージの送信を自動化できますか？ {#can-i-automate-personalized-messages-sending-}
 
-競合の最高スコアに応じてパーソナライズされたメッセージをユーザーに送信する場合は、[この使用例](../../workflow/using/enriching-data.md)を参照してください。
+競合の最高スコアに応じてパーソナライズされたメッセージをユーザーに送信する場合は、[このユースケース](../../workflow/using/enriching-data.md)を参照してください。
 
 ## ワークフローでオーディエンスをサブセットに分割するにはどうすればよいですか？ {#how-can-i-split-an-audience-in-subsets-with-a-workflow-}
 
@@ -63,4 +63,4 @@ Adobe Campaign では、より効率的で柔軟なツールを提供するこ�
 
 ## 新しい受信者を識別してターゲットにするにはどうすればよいですか？ {#how-can-i-identify-and-target-new-recipients-}
 
-[この使用例](../../workflow/using/using-aggregates.md)では、データベースに追加された最新の受信者を自動的に識別し、歓迎メッセージを送信する方法を理解できます。
+データベースに追加された最新の受信者を集計を使用して自動的に識別し、それらの受信者にあいさつメッセージを送信する方法については、[このユースケース](../../workflow/using/using-aggregates.md)を参照してください。

@@ -6,14 +6,16 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '318'
 ht-degree: 100%
 
 ---
 
-# SOAP を使用した統合（サーバーサイド）{#integration-via-soap-server-side}
+# SOAP を使用した統合（サーバー側）{#integration-via-soap-server-side}
+
+![](../../assets/v7-only.svg)
 
 オファー管理のために用意されている SOAP web サービスは、Adobe Campaign で通常使用されるものとは異なります。前の節で説明したインタラクション URL でアクセスして、特定のコンタクト先に対するオファーを提示または更新できます。
 

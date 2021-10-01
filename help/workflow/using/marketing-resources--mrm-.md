@@ -5,7 +5,7 @@ description: マーケティングリソース（MRM）
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 
 
 # マーケティングリソース（MRM）{#marketing-resources-mrm}
+
+![](../../assets/common.svg)
 
 以下に説明するワークフローは、デフォルトで&#x200B;**マーケティングリソース（MRM）**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../campaign/using/designing-marketing-campaigns.md)を参照してください。
 

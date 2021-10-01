@@ -6,19 +6,21 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
-source-wordcount: '1685'
+source-wordcount: '1692'
 ht-degree: 100%
 
 ---
 
 # クエリ{#query}
 
+![](../../assets/common.svg)
+
 ## クエリの作成 {#creating-a-query}
 
-クエリを使用することで、基準に応じてターゲットを選択できます。セグメントコードをクエリの結果に関連付け、結果に追加データを挿入することができます。
-クエリサンプルの詳細は、[この節](../../workflow/using/querying-recipient-table.md)を参照してください。
+クエリを使用すると、条件に応じてターゲットを選択できます。セグメントコードをクエリの結果に関連付け、結果に追加データを挿入することができます。
+クエリサンプルの詳細は、[この節](querying-recipient-table.md)を参照してください。
 
 >[!NOTE]
 >
@@ -36,7 +38,7 @@ ht-degree: 100%
 
    フィルタリングディメンションにより、ターゲットされた個人に関連する情報など、これらの要素の収集が可能になります（連絡先、最終的な合意内容など）。
 
-   詳しくは、[ターゲティングとフィルタリングディメンション](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions)を参照してください。
+   詳しくは、[ターゲティングとフィルタリングディメンション](building-a-workflow.md#targeting-and-filtering-dimensions)を参照してください。
 
    ![](assets/s_user_segmentation_query_edit.png)
 
@@ -52,7 +54,7 @@ ht-degree: 100%
 
 1. 手順 1 で「**[!UICONTROL フィルター条件]**」を選択した場合、または&#x200B;**[!UICONTROL フィルター]**／**[!UICONTROL 詳細設定フィルター]**&#x200B;オプションを使用する場合、後からフィルター条件を手動で追加する必要があります。
 
-   また、対応するボックスを選択することで、データのグループ化条件を追加できます。それには、フィルタリングディメンションが、クエリのターゲティングディメンションとは異なっている必要があります。グループ化について詳しくは、この[節](../../workflow/using/querying-using-grouping-management.md)を参照してください。
+   また、対応するボックスを選択することで、データのグループ化条件を追加できます。それには、フィルタリングディメンションが、クエリのターゲティングディメンションとは異なっている必要があります。グループ化について詳しくは、この[節](querying-using-grouping-management.md)を参照してください。
 
    式ビルダーを、AND、OR、EXCEPT などの論理オプションと組み合わせて使用することで、条件をさらに追加することもできます。その後、選択した条件の組み合わせに&#x200B;**[!UICONTROL 対応する SQL クエリ]**&#x200B;をプレビューできます。詳しくは、この[節](../../platform/using/defining-filter-conditions.md#building-expressions)を参照してください。
 
@@ -73,7 +75,7 @@ ht-degree: 100%
 ![](assets/wf_add_data_1st_option.png)
 
 * 「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」を選択し、Adobe Campaign データベース内のデータを選択します。
-* 「**[!UICONTROL 外部データ]**」を選択し、外部データベース内のデータを追加します。このオプションは、**Federated Data Access** オプションを購入済みである場合のみ、使用できます。詳しくは、[外部データベースへのアクセス（FDA）](../../workflow/using/accessing-an-external-database--fda-.md)を参照してください。
+* 「**[!UICONTROL 外部データ]**」を選択し、外部データベース内のデータを追加します。このオプションは、**Federated Data Access** オプションを購入済みである場合のみ、使用できます。詳しくは、[外部データベースへのアクセス（FDA）](accessing-an-external-database--fda-.md)を参照してください。
 * 「**[!UICONTROL オファーの提案]**」オプションを選択し、オファーエンジンによって生成された最良の提案を保存する列セットを追加します。このオプションは、**インタラクション**&#x200B;モジュールを購入済みである場合のみ、使用できます。
 
 プラットフォームにオプションモジュールが何もインストールされていない場合、このステージは表示されません。次のステージに直接移動します。
@@ -90,10 +92,10 @@ Adobe Campaign データベースからデータを追加するには：
 
    以下を追加できます。
 
-   * ターゲット母集団から取り出したデータに基づいて自動生成されるフィールド、または集計（先月の保留中の購入の件数、レシートの平均額など）。一例は、[データの選択](../../workflow/using/targeting-data.md#selecting-data)を参照してください。
+   * ターゲット母集団から取り出したデータに基づいて自動生成されるフィールド、または集計（先月の保留中の購入の件数、レシートの平均額など）。一例は、[データの選択](targeting-data.md#selecting-data)を参照してください。
    * 出力列のリストの右側にある「**[!UICONTROL 新規]**」ボタンを使用して作成された新規フィールド。
 
-      例えば、契約者のリスト、最新 5 回の配達といった情報コレクションを追加することもできます。コレクションは、同じプロファイルで複数の値を持つことができるフィールドと一致します（1-N 関係）。詳しくは、[追加データの編集](../../workflow/using/targeting-data.md#editing-additional-data)を参照してください。
+      例えば、契約者のリスト、最新 5 回の配達といった情報コレクションを追加することもできます。コレクションは、同じプロファイルで複数の値を持つことができるフィールドと一致します（1-N 関係）。詳しくは、[追加データの編集](targeting-data.md#editing-additional-data)を参照してください。
 
 ターゲット母集団にリンクされたデータコレクションを追加するには：
 
@@ -123,13 +125,13 @@ Adobe Campaign データベースからデータを追加するには：
 
 1. 「**[!UICONTROL ライン数を制限]**」オプションを選択した場合、収集データをフィルターする順序を定義します。収集したライン数が制限ライン数を超えた場合、このフィルターの順序により、維持されるラインが決まります。
 
-## 例：シンプルな受信者の属性のターゲティング {#example--targeting-on-simple-recipient-attributes}
+## 例：シンプルな受信者属性に基づくターゲティング {#example--targeting-on-simple-recipient-attributes}
 
 以下の例のクエリは、フランス在住の 18 歳から 30 歳の男性を識別しようとしています。例えば、このクエリは、対象の男性に限定オファーを提供するワークフローなどで使用されます。
 
 >[!NOTE]
 >
->追加のクエリのサンプルについては、[この節](../../workflow/using/querying-recipient-table.md)を参照してください。
+>追加のクエリのサンプルについては、[この節](querying-recipient-table.md)を参照してください。
 
 1. クエリに名前を付けて、**[!UICONTROL クエリを編集...]** リンクを選択します。
 1. 使用可能なフィルターのタイプのリストから、「**[!UICONTROL フィルター条件]**」を選択します。
@@ -184,7 +186,11 @@ Adobe Campaign データベースからデータを追加するには：
 
    各クエリの実行計画がどのようなものになるのか知っている必要があります。リアルタイムクエリや毎分実行されるニアリアルタイムクエリの場合は特に、フルテーブルスキャンを避けます。
 
-詳しくは、[データモデルのベストプラクティス](https://helpx.adobe.com/jp/campaign/kb/acc-data-model-best-practices.html)および[データベースマッピング](../../configuration/using/database-mapping.md)の節を参照してください。
+   詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
+
+   ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 ドキュメント](../../configuration/using/database-mapping.md)
+
+   ![](assets/do-not-localize/v8.png)[  Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=ja)
 
 ### 関数 {#functions}
 
@@ -211,7 +217,7 @@ Adobe Campaign データベースからデータを追加するには：
 
 `select iRecipientId from nmsRecipient INNER JOIN nmsBroadLog ON (...)`
 
-フィルタリングディメンションについて詳しくは、[この節](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions)を参照してください。
+フィルタリングディメンションについて詳しくは、[この節](building-a-workflow.md#targeting-and-filtering-dimensions)を参照してください。
 
 ### アーキテクチャ {#architecture}
 

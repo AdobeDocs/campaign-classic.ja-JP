@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1060'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 概要リストの作成{#creating-a-summary-list}
+
+![](../../assets/common.svg)
 
 この使用例では、ファイルや以下に示すいくつかのエンリッチメントの収集後にサマリーリストを作成できるワークフローについて、作成の手順を詳しく説明します。この例では、店舗で購入をおこなった顧客の連絡先のリストをベースにします。
 
@@ -92,7 +94,7 @@ Phone;500;London 5
 
    ![](assets/uc2_enrich_enrich3.png)
 
-各種リンクについて詳しくは、[データのエンリッチメントと変更](../../workflow/using/targeting-data.md#enriching-and-modifying-data)を参照してください。
+各種リンクについて詳しくは、[データのエンリッチメントと変更](targeting-data.md#enriching-and-modifying-data)を参照してください。
 
 以下のウィンドウで、（メインセットにある）ソースフィールドと、ターゲットフィールド（「店舗」スキーマに属する）を選択して結合条件を作成し、データの紐付けを設定する必要があります。
 

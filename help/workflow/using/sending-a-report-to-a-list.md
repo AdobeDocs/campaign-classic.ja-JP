@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '719'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # リストへのレポートの送信{#sending-a-report-to-a-list}
+
+![](../../assets/common.svg)
 
 この使用例では、標準の月次「**[!UICONTROL トラッキング指標]**」レポートを PDF 形式で作成する方法と、そのレポートをリストに記載の受信者に送信する方法を詳しく説明します。
 
@@ -89,7 +91,7 @@ ht-degree: 100%
 
    ![](assets/use_case_report_9.png)
 
-   スケジューラーの設定について詳しくは、[スケジューラー](../../workflow/using/scheduler.md)を参照してください。
+   スケジューラーの設定について詳しくは、[スケジューラー](scheduler.md)を参照してください。
 
 1. 次に、「**[!UICONTROL JavaScript コード]**」タイプアクティビティを追加します。
 

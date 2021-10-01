@@ -6,16 +6,18 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '799'
 ht-degree: 100%
 
 ---
 
-# 日本の携帯電話向け E メールの送信 {#sending-emails-on-japanese-mobiles}
+# 日本の携帯電話向けのメール送信 {#sending-emails-on-japanese-mobiles}
 
-## 日本の携帯電話向けの E メールフォーマット {#email-formats-for-japanese-mobiles}
+![](../../assets/common.svg)
+
+## 日本の携帯電話向けのメールフォーマット {#email-formats-for-japanese-mobiles}
 
 Adobe Campaign は、日本の携帯電話向けに特化した E メールフォーマットとして、**デコメール**（DoCoMo 携帯）、**デコレメール**（Softbank 携帯）および&#x200B;**デコレーションメール**（KDDI au 携帯）の 3 種を用意しています。これらのフォーマットには、コーディング、構造、サイズに関する特定の制約事項があります。制限事項と推奨事項について詳しくは、[この節](#limitations-and-recommendations)を参照してください。
 
@@ -48,7 +50,7 @@ Adobe Campaign は、日本の携帯電話向けに特化した E メールフ�
 >* Softbank については、[このページ](https://www.support.softbankmobile.co.jp/partner/home_tech3/index.cfm)を参照してください。
 
 
-## E メールコンテンツのテスト {#testing-the-email-content}
+## メールコンテンツのテスト {#testing-the-email-content}
 
 ### メッセージのプレビュー {#previewing-the-message}
 
@@ -89,7 +91,7 @@ Campaign を使用して日本語 E メール形式で E メールを受信者�
 * 2 つの配信を作成します。1 つは日本人の受信者専用で、もう 1 つは他の受信者用です。[この節](#designing-a-specific-delivery-for-japanese-formats)を参照してください。
 * または、1 つの配信を作成し、使用するフォーマットを Adobe Campaign で自動検出します。[この節](#designing-a-delivery-for-all-formats)を参照してください。
 
-### 日本独自のフォーマットでの配信の作成 {#designing-a-specific-delivery-for-japanese-formats}
+### 日本独自のフォーマットに対応する配信のデザイン {#designing-a-specific-delivery-for-japanese-formats}
 
 日本の携帯電話向けと、標準の E メールフォーマットを使用する受信者向けの 2 つの配信を含むワークフローを作成できます。
 
@@ -99,7 +101,7 @@ Campaign を使用して日本語 E メール形式で E メールを受信者�
 
 ![](assets/deco-mail_07.png)
 
-### すべてのフォーマットを 1 つの配信でデザイン {#designing-a-delivery-for-all-formats}
+### すべてのフォーマットに対応する配信のデザイン {#designing-a-delivery-for-all-formats}
 
 Adobe Campaign がドメインに応じてフォーマットを動的に管理する場合（プロファイルの E メールフォーマットを「**[!UICONTROL 不明]**」、「**[!UICONTROL HTML]**」または「**[!UICONTROL テキスト]**」とした場合）は、すべての受信者に同じ配信を送信できます。
 

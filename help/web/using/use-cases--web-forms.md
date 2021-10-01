@@ -6,14 +6,16 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '992'
 ht-degree: 100%
 
 ---
 
-# ユースケース：Web フォーム{#use-cases-web-forms}
+# ユースケース：web フォーム{#use-cases-web-forms}
+
+![](../../assets/common.svg)
 
 ## 二重のオプトインを備えた購読フォームの作成 {#create-a-subscription--form-with-double-opt-in}
 
@@ -149,7 +151,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_7b.png)
 
-### 手順 4 - フォームのパブリッシュとテスト {#step-4---publishing-and-testing-the-form}
+### 手順 4 - フォームの公開とテスト {#step-4---publishing-and-testing-the-form}
 
 これで、ユーザーがアクセスできるようにフォームをパブリッシュできます。
 
@@ -180,7 +182,7 @@ Web フォームのワークフローには、次のアクティビティが含�
    Adobe Campaign では、ユーザープロファイルが更新されます。
 
    * ブロックリストへの登録が解除されます。
-   * 情報サービスの購読が登録されます。
+   * 情報サービスを購読しています。
 
       ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
 

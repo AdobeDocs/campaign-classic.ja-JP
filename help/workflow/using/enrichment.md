@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
-source-wordcount: '1425'
+source-wordcount: '1421'
 ht-degree: 100%
 
 ---
 
 # エンリッチメント{#enrichment}
+
+![](../../assets/common.svg)
 
 「**[!UICONTROL エンリッチメント]**」アクティビティでは、プロファイルリストに情報を追加し、リンクを既存のテーブルに追加できます（新しい結合を作成）。データベース内のプロファイルと紐付ける条件も定義できます。
 
@@ -50,15 +52,15 @@ ht-degree: 100%
 
 エンリッチメントアクティビティのコンテキストでの操作に関する使用例については、次の節でも説明します。
 
-* [カスタム日付フィールドを使用した E メールエンリッチメント](../../workflow/using/email-enrichment-with-custom-date-fields.md).
-* [データのエンリッチメント](../../workflow/using/enriching-data.md)
-* [サマリーリストの作成](../../workflow/using/creating-a-summary-list.md)
+* [カスタム日付フィールドを使用した E メールエンリッチメント](email-enrichment-with-custom-date-fields.md).
+* [データのエンリッチメント](enriching-data.md)
+* [サマリーリストの作成](creating-a-summary-list.md)
 
 ## 情報の追加 {#adding-information}
 
 「**[!UICONTROL エンリッチメント]**」アクティビティを使用して作業用テーブルに列を追加します。このアクティビティは、クエリアクティビティの補完として使用できます。
 
-追加の列の設定について詳しくは、[データの追加](../../workflow/using/query.md#adding-data)を参照してください。
+追加の列の設定について詳しくは、[データの追加](query.md#adding-data)を参照してください。
 
 「**[!UICONTROL プライマリセット]**」フィールドでは、インバウンドトラジションを選択できます。アクティビティの作業用テーブルのデータはエンリッチメントされます。
 
@@ -98,7 +100,7 @@ ht-degree: 100%
 
 ![](assets/enrichment_content_after_without_additional.png)
 
-## リンクを作成 {#creating-a-link}
+## リンクの作成 {#creating-a-link}
 
 エンリッチメントアクティビティを使用して、作業データと Adobe Campaign データベースの間にリンクを作成できます。これは、インバウンドデータ間のワークフローへのローカルリンクとなります。
 
@@ -151,13 +153,13 @@ ht-degree: 100%
 
 エンリッチメントアクティビティを使用すると、配信の受信者へのオファーに、オファーやリンクを追加できます。
 
-エンリッチメントアクティビティについて詳しくは、この[節](../../workflow/using/enrichment.md)を参照してください。
+エンリッチメントアクティビティについて詳しくは、この[節](enrichment.md)を参照してください。
 
 例えば、配信の前に受信者クエリ用のデータをエンリッチメントできます。
 
 ![](assets/int_enrichment_offer1.png)
 
-クエリを設定した後におこなう作業（この[節](../../workflow/using/query.md)を参照）：
+クエリを設定した後におこなう作業（この[節](query.md)を参照）：
 
 1. エンリッチメントアクティビティを追加し、開きます。
 1. 「**[!UICONTROL エンリッチメント]**」タブで、「**[!UICONTROL データを追加]**」を選択します。
@@ -176,7 +178,7 @@ ht-degree: 100%
 
       ![](assets/int_enrichment_offer4.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[クロスチャネル配信](../../workflow/using/cross-channel-deliveries.md)を参照してください。
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[クロスチャネル配信](cross-channel-deliveries.md)を参照してください。
 
    プレビュー可能な提案の数は、配信で直接実行された設定ではなく、エンリッチメントアクティビティで実行された設定によって決まります。
 
@@ -198,13 +200,13 @@ ht-degree: 100%
 
    ![](assets/int_enrichment_link2.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[クロスチャネル配信](../../workflow/using/cross-channel-deliveries.md)を参照してください。
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[クロスチャネル配信](cross-channel-deliveries.md)を参照してください。
 
    >[!NOTE]
    >
    >プレビュー可能な提案の数は、配信で実行された設定によって決まります。
 
-## オファーのランク付けと重み付けの格納 {#storing-offer-rankings-and-weights}
+## オファーのランク付けと重み付けの保存 {#storing-offer-rankings-and-weights}
 
 デフォルトでは、オファーの配信に「**エンリッチメント**」アクティビティを使用すると、オファーのランク付けと重み付けが提案テーブルに格納されません。
 
@@ -212,7 +214,7 @@ ht-degree: 100%
 
 次の方法でこの情報を保存することができます。
 
-1. エンリッチメントアクティビティ内で、クエリの後、配信アクティビティの前に、オファーエンジンの呼び出しを作成します。この[節](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine)を参照してください。
+1. クエリアクティビティの後かつ配信アクティビティの前に配置されたエンリッチメントアクティビティにオファーエンジンの呼び出しを作成します。
 1. アクティビティのメインウィンドウで「**[!UICONTROL 追加データを編集...]**」を選択します。
 
    ![](assets/ita_enrichment_rankweight_1.png)

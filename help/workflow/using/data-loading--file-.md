@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1161'
 ht-degree: 100%
 
 ---
 
-# データ読み込み（ファイル）{#data-loading-file}
+# データ読み込み (ファイル){#data-loading-file}
+
+![](../../assets/common.svg)
 
 ## 用途 {#use}
 
@@ -78,7 +80,7 @@ ht-degree: 100%
 * **[!UICONTROL デフォルト値]**：選択したエラーの処理方法に応じてデフォルトの値を選択します。
 * **[!UICONTROL マッピング]**：このフィールドは列の詳細設定の場合のみ表示されます（ダブルクリックまたは列リストの右側のオプションを選択してアクセスした場合）。これにより、特定の値を読み込んだときに、その値を変換します。例えば、「three」を「3」に変換できます。
 
-## 例：データを取得してデータベースに読み込む {#example--collecting-data-and-loading-it-in-the-database}
+## 例：データの収集とデータベースへの読み込み {#example--collecting-data-and-loading-it-in-the-database}
 
 以下の例では、サーバー上のファイルを毎日取得し、コンテンツを読み込み、そのコンテンツの情報に基づいてデータベース内のデータを更新することができます。取得するファイルには、購入をおこなった顧客（3,000 ユーロ以上または未満）、購入の返金をおこなった顧客、または店舗を訪れただけで何も購入しなかった顧客に関する情報が含まれています。この情報に基づいて、様々な処理がデータベースの顧客プロファイルに適用されます。
 
@@ -88,7 +90,7 @@ ht-degree: 100%
 
    「**[!UICONTROL ディレクトリ]**」タブには、取得するファイルに関する情報が表示されます。この例では、サーバーの tmp/Adobe/Data/files ディレクトリに格納されている、「customers」という単語をファイル名含むテキストファイルが取得されます。
 
-   **[!UICONTROL ファイルコレクター]**&#x200B;の使用方法について詳しくは、[ファイルコレクター](../../workflow/using/file-collector.md)の節を参照してください。
+   **[!UICONTROL ファイルコレクター]**&#x200B;の使用方法について詳しくは、[ファイルコレクター](file-collector.md)の節を参照してください。
 
    ![](assets/s_advuser_load_file_sample_1.png)
 
@@ -100,7 +102,7 @@ ht-degree: 100%
 
    それには、編集ツールの右下にある「**[!UICONTROL 変更...]**」ボタンをクリックして、スケジュールを設定します。
 
-   詳しくは、[スケジューラー](../../workflow/using/scheduler.md)を参照してください。
+   詳しくは、[スケジューラー](scheduler.md)を参照してください。
 
 1. 次に、「データ読み込み (ファイル)」アクティビティを設定して、取得したファイルを読み込む方法を指定できます。それには、読み込むファイルと同じ構造を持つサンプルファイルを選択します。
 
@@ -129,4 +131,4 @@ ht-degree: 100%
 
 1. 次に、母集団の各タイプについて、実行されるプロセスを指定します。この例では、データベースの「**[!UICONTROL データを更新]**」を指定します。それには、「**[!UICONTROL データを更新]**」アクティビティを、分割アクティビティからの各アウトバウンドトランジションの最後に配置します。
 
-   「**[!UICONTROL データを更新]**」アクティビティについて詳しくは、[データ更新](../../workflow/using/update-data.md)の節で説明しています。
+   「**[!UICONTROL データを更新]**」アクティビティについて詳しくは、[データ更新](update-data.md)の節で説明しています。

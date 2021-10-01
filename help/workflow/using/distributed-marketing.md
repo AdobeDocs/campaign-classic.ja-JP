@@ -5,7 +5,7 @@ description: 分散型マーケティングパッケージの詳細を説明し�
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '69'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # 分散型マーケティング{#distributed-marketing}
 
-以下に説明するワークフローは、デフォルトで&#x200B;**分散型マーケティング**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../campaign/using/about-distributed-marketing.md)を参照してください。
+![](../../assets/common.svg)
+
+以下に説明するワークフローは、デフォルトで&#x200B;**分散型マーケティング**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../distributed/using/about-distributed-marketing.md)を参照してください。
 
 <table> 
  <tbody> 

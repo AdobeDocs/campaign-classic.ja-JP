@@ -5,7 +5,7 @@ description: Adobe Experience Cloud ソリューションワークフローと�
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '109'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 
 
 # Adobe Experience Cloud ソリューションとの統合{#integrations-with-adobe-experience-cloud-solutions}
+
+![](../../assets/common.svg)
 
 以下に説明するワークフローは、デフォルトで **Adobe Experience Cloud との統合**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../integrations/using/configuring-ims.md#installing-the-package)を参照してください。
 

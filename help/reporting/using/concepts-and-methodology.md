@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1565'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # キューブのベストプラクティス{#concepts-and-methodology}
+
+![](../../assets/common.svg)
 
 ## データビニング {#data-binning}
 
@@ -66,7 +68,7 @@ SQL マスクを使用して、複数の値を組み合わせてフィルター�
 
    列挙の値が更新されるたびに、対応する bin がそれに合わせて自動的に変更されます。
 
-### 値の範囲の作成 {#creating-value-ranges}
+### 値範囲の作成 {#creating-value-ranges}
 
 所定の区間に基づいて、値を範囲にグループ化できます。
 

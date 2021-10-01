@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
@@ -15,23 +15,25 @@ ht-degree: 100%
 
 # スケジューラー {#scheduler}
 
+![](../../assets/common.svg)
+
 **スケジューラー**&#x200B;は、スケジュールで指定された時間にトランジションを有効化する永続的なタスクです。
 
 「**[!UICONTROL スケジューラー]**」アクティビティは、予約済みの開始とみなされます。アクティビティのグラフ内の配置ルールは、「**[!UICONTROL 開始]**」アクティビティのルールと同じものです。このアクティビティはインバウンドトランジションを持つことはできません。
 
-## ベストプラクティス{#best-practices}
+## ベストプラクティス {#best-practices}
 
 * システム全体のパフォーマンスが落ちたり、データベースにブロックが作成されたりする可能性があるので、ワークフローの実行スケジュールは 15 分以上の間隔を空けてください。
 
-* ワークフロー内のブランチごとに複数の&#x200B;**[!UICONTROL スケジューラー]**&#x200B;アクティビティを使用しないでください。[アクティビティの使用](../../workflow/using/workflow-best-practices.md#using-activities)を参照してください。
+* ワークフロー内のブランチごとに複数の&#x200B;**[!UICONTROL スケジューラー]**&#x200B;アクティビティを使用しないでください。[アクティビティの使用](workflow-best-practices.md#using-activities)を参照してください。
 
 * スケジューラーアクティビティを使用すると、同時に複数のワークフローが実行される場合があります。例えば、1 時間ごとにワークフローの実行をトリガーするようにスケジューラーを設定できますが、ワークフロー全体の実行に 1 時間以上かかる場合があります。
 
-   ワークフローが既に実行中の場合、実行をスキップしたいことがあります。ワークフローの同時実行を防ぐ方法について詳しくは、[このページ](../../workflow/using/monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)を参照してください。
+   ワークフローが既に実行中の場合、実行をスキップしたいことがあります。ワークフローの同時実行を防ぐ方法について詳しくは、[このページ](monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)を参照してください。
 
 * なお、ワークフローがインポートなどの長期タスクを実行している場合、または wfserver が当分の間停止している場合は、トランジションを数時間後に有効化することができます。この場合、スケジューラーによって有効化されるタスクの実行の制限が一定期間必要になることがあります。
 
-## 「スケジューラー」アクティビティの設定 {#configuring-scheduler-activity}
+## 「スケジューラー」アクティビティの設定  {#configuring-scheduler-activity}
 
 スケジューラーは、トランジションの有効化スケジュールを定義します。設定するには、グラフィックオブジェクトをダブルクリックして、「**[!UICONTROL 変更...]**」をクリックします。
 

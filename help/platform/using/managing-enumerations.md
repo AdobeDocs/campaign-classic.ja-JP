@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '935'
 ht-degree: 100%
 
 ---
 
 # 列挙の管理{#managing-enumerations}
+
+![](../../assets/common.svg)
 
 列挙（「定義済みリスト」とも呼ばれます）とは、特定のフィールドへの入力候補としてシステムによって表示される値のリストです。列挙を利用することでフィールドの値を統一することができ、データ入力時やクエリでの利用に便利です。
 
@@ -62,7 +64,7 @@ ht-degree: 100%
    >
    >データのクレンジング機能を使用する必要がある場合は、定義済みリストで「**[!UICONTROL エイリアスクレンジング]**」オプションを選択します。
 
-### エイリアスの利用 {#using-aliases}
+### エイリアスの使用 {#using-aliases}
 
 「**[!UICONTROL エイリアスクレンジング]**」は、選択した定義済みリストにおいてエイリアスを使用するためのオプションです。このオプションを選択すると、ウィンドウの下部に「**[!UICONTROL エイリアス]**」タブが表示されます。
 
@@ -90,7 +92,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_itemized_list_alias_use.png)
 
-#### 値のエイリアスへの変換 {#converting-values-into-aliases}
+#### 値からエイリアスへの変換 {#converting-values-into-aliases}
 
 列挙の値をエイリアスに変換するには、値のリストを右クリックし、「**[!UICONTROL 値をエイリアスに変換...]**」を選択します。
 

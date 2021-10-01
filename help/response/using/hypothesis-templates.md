@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: 仮説テンプレート
-description: Campaign Response Managerで仮説テンプレートを作成する方法を説明します。
+description: Campaign Response Manager で仮説テンプレートを作成する方法について説明します。
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1505'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -30,19 +30,19 @@ ht-degree: 85%
 1. **[!UICONTROL 新規]**&#x200B;をクリックするか、テンプレートのリストを右クリックし、ドロップダウンリストで「**[!UICONTROL 新規]**」を選択します。
 1. 仮説ラベルを入力します。
 1. 「**[!UICONTROL 仮説タイプ]**」で、テンプレートをオファーと配信どちらの仮説用にするかを指定します。
-1. **[!UICONTROL 配信]**&#x200B;タイプのテンプレートの場合、測定の実行にコントロール母集団を使用するかどうかを指定します。 [詳細情報](#properties-of-a-hypothesis-template)
-1. 「**[!UICONTROL 配信]**」タイプテンプレートの場合は、特定のチャネルを選択するか、「**[!UICONTROL チャネル]**」ドロップダウンリストを使用してAdobe Campaignで使用可能なすべてのチャネルにテンプレートを適用します。 [詳細情報](#properties-of-a-hypothesis-template)
-1. 「**[!UICONTROL 実行フォルダー]**」で、このテンプレートを基に作成する仮説を作成して自動的に実行するフォルダーを選択します。
+1. **[!UICONTROL 配信]**&#x200B;タイプのテンプレートの場合は、測定の実行にコントロール母集団を使用するかどうかを指定します。 [詳細情報](#properties-of-a-hypothesis-template)
+1. **[!UICONTROL 配信]**&#x200B;タイプのテンプレートの場合は、「**[!UICONTROL チャネル]**」ドロップダウンリストを使用して、特定のチャネルを選択することも、Adobe Campaign で使用可能なすべてのチャネルにテンプレートを適用することも可能です。[詳細情報](#properties-of-a-hypothesis-template)
+1. このテンプレートを基に仮説を作成して自動的に実行するフォルダーを「**[!UICONTROL 実行フォルダー]**」で選択します。
 1. 実行設定を選択します。 [詳細情報](#hypothesis-template-execution-settings)
 1. 仮説の計算期間を指定します。 [詳細情報](#hypothesis-template-execution-settings)
 
    >[!CAUTION]
    >
-   >この期間は、コンタクト日をもとに決定されます。
+   >この期間は、コンタクト日を基に決定されます。
 
 1. 「**[!UICONTROL トランザクション]**」タブで、仮説の計算に必要なテーブルとフィールドを指定します。 [詳細情報](#transactions)
-1. テンプレートを「**[!UICONTROL オファー]**」タイプの仮説用に設定する場合は、「**[!UICONTROL オファーの提案ステータスを更新]**」オプションを有効にできます。有効にする場合は、変更したいオファーの提案ステータスを選択します。
-1. 仮説を適用するスコープを指定します。 [詳細情報](#hypothesis-perimeter)
+1. テンプレートを&#x200B;**[!UICONTROL オファー]**&#x200B;タイプの仮説用に設定する場合は、「**[!UICONTROL オファーの提案ステータスを更新]**」オプションを有効にできます。有効にする場合は、変更したいオファーの提案ステータスを選択します。
+1. 仮説を適用する範囲を指定します。 [詳細情報](#hypothesis-perimeter)
 1. 必要に応じて、スクリプトを使用してフィルターを完了します。 [詳細情報](#hypothesis-perimeter)
 
 ### 仮説テンプレートのプロパティ {#properties-of-a-hypothesis-template}
@@ -65,7 +65,7 @@ ht-degree: 85%
 
    コントロール母集団の定義と設定について詳しくは、[この節](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)を参照してください。
 
-* **[!UICONTROL チャネル]**：特定のチャネルを選択するか、ドロップダウンリストで「**[!UICONTROL すべてのチャネル]**」を選択して仮説テンプレートを Adobe Campaign コンソールのすべてのチャネルで使用できるようにします。テンプレートを特定のチャネル用に設定すると、仮説を作成する際に、チャネルごとに配信を自動的にフィルターできます。 [詳細情報](creating-hypotheses.md)
+* **[!UICONTROL チャネル]**：ドロップダウンリストで特定のチャネルを選択するか、「**[!UICONTROL すべてのチャネル]**」を選択して仮説テンプレートを Adobe Campaign コンソールのすべてのチャネルで使用できるようにします。テンプレートを特定のチャネル用に設定すると、仮説の作成時に配信がチャネルごとに自動的にフィルターされます。[詳細情報](creating-hypotheses.md)
 
    ![](assets/response_properties_001.png)
 
@@ -113,7 +113,7 @@ ht-degree: 85%
 
 ### トランザクション {#transactions}
 
-このタブに含まれる様々なフィールドとテーブルでは、トランザクションに関連する受信者の反応の履歴を保存することができます。応答管理用テーブルの詳細については、この[節](../../configuration/using/about-schema-reference.md)を参照してください。
+このタブには、トランザクションの観点から受信者の反応の履歴を保存できる様々なフィールドとテーブルが含まれています。応答管理専用のテーブルについて詳しくは、[この節](../../configuration/using/about-schema-reference.md)を参照してください。
 
 * **[!UICONTROL スキーマ（反応ログストレージ）]**：受信者の反応テーブルを選択します。Adobe Campaign の組み込みテーブルは、**NmsRemaMatchRcp** です。
 * **[!UICONTROL トランザクションスキーマ]**：仮説で使用するテーブル（トランザクションまたは購入テーブル）を選択します。
@@ -127,10 +127,10 @@ ht-degree: 85%
 
    ![](assets/response_measurement_001.png)
 
-   仮説はオンザフライで開始します。すぐに開始したい場合は、強制的に開始することもできます。それ以外の場合は、仮説の作成日に基づいて、設定された計算終了日に基づいて自動的にトリガーされます。 [詳細情報](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)）。
+   仮説はオンザフライで開始します。すぐに開始したい場合は、強制的に開始することもできます。そうでない場合は、仮説の作成日に基づいて設定された計算終了日に基づいて、自動的にトリガーされます。[詳細情報](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)）。
 
-* **[!UICONTROL トランザクション/利益金額]**:これらのフィールドはオプションで、売上高指標を自動的に計算できます。[詳細情報](hypothesis-tracking.md#indicators)
-* **[!UICONTROL 単位金額]**:売上高の計算に使用する金額を設定できます。[詳細情報](hypothesis-tracking.md#indicators)
+* **[!UICONTROL トランザクション／利益金額]**：これらのフィールドはオプションで、売上高指標の自動計算に使用できます。[詳細情報](hypothesis-tracking.md#indicators)
+* **[!UICONTROL 単位金額]**：売上高を計算するための金額を設定できます。[詳細情報](hypothesis-tracking.md#indicators)
 
    ![](assets/response_transactions_001.png)
 
@@ -139,11 +139,11 @@ ht-degree: 85%
 
    ![](assets/response_offer_status_001.png)
 
-### 仮説ペリメーター {#hypothesis-perimeter}
+### 仮説境界 {#hypothesis-perimeter}
 
 仮説で使用するトランザクションテーブルとフィールドを定義し終えたら、フィルターを使用してターゲットのトランザクションと配信を指定し、仮説のスコープをより詳細に設定できます。JavaScript スクリプトを使用してトランザクションテーブルで参照する製品を明示的に指定することもできます。
 
-* **トランザクションのフィルター**:「スコ **** ープ」タブで仮説のフィルターを設定できます。手順は次のとおりです。
+* **トランザクションのフィルター**：「**[!UICONTROL スコープ]**」タブで仮説のフィルターを設定できます。手順は次のとおりです。
 
    1. 「**[!UICONTROL クエリを編集]**」リンクをクリックします。
 

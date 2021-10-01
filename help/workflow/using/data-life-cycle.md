@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '530'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # データのライフサイクル {#data-life-cycle}
+
+![](../../assets/common.svg)
 
 ## 作業用テーブル {#work-table}
 
@@ -31,7 +33,7 @@ ht-degree: 100%
 
    ![](assets/wf-right-click-display.png)
 
-   詳しくは、[作業用テーブルとワークフローのスキーマ](../../workflow/using/monitoring-workflow-execution.md#worktables-and-workflow-schema)を参照してください。
+   詳しくは、[作業用テーブルとワークフローのスキーマ](monitoring-workflow-execution.md#worktables-and-workflow-schema)を参照してください。
 
 * ターゲットを分析
 
@@ -45,7 +47,7 @@ ht-degree: 100%
 
 ![](assets/wf-purge-data-option.png)
 
-## ターゲットデータ {#target-data}
+## データのターゲティング {#target-data}
 
 ワークフローの作業用テーブルに保存されたデータは、パーソナライゼーションフィールドからアクセスできます。
 

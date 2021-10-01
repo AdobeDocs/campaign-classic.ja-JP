@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '195'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 記述的分析について{#about-descriptive-analysis}
+
+![](../../assets/common.svg)
 
 データベース内のデータに関する統計を生成するために、専用ウィザードを使用して記述的分析レポートを作成し、その内容や表示方法を必要に応じて調整します。
 

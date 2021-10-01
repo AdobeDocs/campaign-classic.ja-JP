@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 7b562dba-7e4b-40a7-91db-7b9379de44ca
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '135'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # セル{#cells}
+
+![](../../assets/common.svg)
 
 「**[!UICONTROL セル]**」アクティビティは、フォームのデータ列内の各種サブセットのビューを提供します。このアクティビティは、サブセットの操作を容易にし、パーソナライゼーションの可能性を拡大しやすいように設計されています。
 

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
 source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '768'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-ニーズに合わせて Campaign インスタンスを設定するための主な設定内容について学習します。
+ニーズに合わせて Campaign インスタンスを設定するための主な設定内容について説明します。
 
 ## Campaign インターフェイスの言語を変更できますか？  {#can-i-change-the-language-of-campaign-interface-}
 
@@ -33,25 +33,25 @@ Adobe Campaign の配信機能と高度なキャンペーン管理機能を、�
 
 [他のアドビソリューションとの連携方法](../../integrations/using/about-campaign-integrations.md)と、[Campaign での IMS の設定方法](../../integrations/using/about-adobe-id.md)を参照してください。
 
-## トラッキング機能を Campaign インスタンスで設定するにはどうすればよいですか？  {#how-can-i-set-up-tracking-capabilities-on-my-campaign-instance-}
+## トラッキング機能を Campaign インスタンスに設定するにはどうすればよいですか？  {#how-can-i-set-up-tracking-capabilities-on-my-campaign-instance-}
 
 エキスパートユーザーは、Campaign インスタンス上でトラッキング機能を設定できます。
 
 [詳しくはここをクリック](../../installation/using/deploying-an-instance.md#tracking-configuration)してください。
 
-## E メール配信品質の設定方法は？  {#how-to-configure-email-deliverability-}
+## メール配信品質の設定方法は？  {#how-to-configure-email-deliverability-}
 
 [アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)に加えて、配信品質に関する技術的な推奨事項に目を通し、Campaign の配信機能を最大限に活用するためのインスタンスの設定方法を理解してください。
 
 詳しくは、[ここをクリック](../../delivery/using/about-deliverability.md)してください。
 
-## コンテンツの承認はどのように実行できますか？  {#how-can-i-implement-content-approval-}
+## コンテンツの承認を実行するにはどうすればよいですか？ {#how-can-i-implement-content-approval-}
 
 Campaign では、マーケティングキャンペーンのメインステップの承認プロセスを協調モードで設定できます。キャンペーンごとに、配信ターゲット、コンテンツ、およびコストを承認できます。承認を担当する Adobe Campaign オペレーターは、E メールで通知を受け、コンソールから、または Web 接続を介して、承認を許可または却下できます。
 
 Campaign で配信コンテンツの承認を実装する手順について[詳しくはここをクリック](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)してください。
 
-## 外部データベースに保存されているデータにどうすればアクセスできますか？  {#how-can-i-access-data-stored-in-an-external-database-}
+## 外部データベースに保存されているデータにアクセスするにはどうすればよいですか？ {#how-can-i-access-data-stored-in-an-external-database-}
 
 Adobe Campaign では、Federated Data Access（FDA）オプションを利用することができます。このオプションを使用すると、1 つ以上の外部データベースに格納されている情報を処理することが可能です。Adobe Campaign データの構造を変更しなくても、外部データにアクセスできます。
 
@@ -59,7 +59,7 @@ Adobe Campaign では、Federated Data Access（FDA）オプションを利用�
 
 ## Campaign を接続できる外部データベースはどれですか？  {#which-external-databases-can-i-connect-campaign-to-}
 
-Federated Data Access（FDA）を使用した Campaign と外部データベースとの互換性のリストについては、[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
+Federated Data Access（FDA）を使用して Campaign との互換性を確保できる外部データベースの一覧については、[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。
 
 ## Adobe Campaign を LDAP と統合できますか？  {#can-adobe-campaign-integrate-with-ldap-}
 
@@ -67,7 +67,7 @@ Federated Data Access（FDA）を使用した Campaign と外部データベー�
 
 [方法についてはここをクリック](../../installation/using/connecting-through-ldap.md)してください。
 
-## どうすれば Campaign で CRM コネクタを設定できますか？  {#how-can-i-set-up-crm-connectors-in-campaign-}
+## Campaign に CRM コネクタを設定するにはどうすればよいですか？ {#how-can-i-set-up-crm-connectors-in-campaign-}
 
 Adobe Campaign では、Adobe Campaign プラットフォームをサードパーティのシステムにリンクするための様々な CRM コネクタが提供されています。これらの CRM コネクタにより、連絡先、アカウント、購入などを同期したり、アプリケーションを様々なサードパーティおよびビジネスアプリケーションと簡単に統合したりすることができます。
 
@@ -77,7 +77,7 @@ CRM ツールを Adobe Campaign と同期させる方法については、[CRM �
 
 ![](assets/do-not-localize/how-to-video.png) [Adobe Campaign と Microsoft Dynamics 365 の統合](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/integrating/dynamics365-integration.html?lang=ja)に関するこちらのユースケースビデオをご覧ください。
 
-## 問題がマシン固有またはユーザー固有の場合にソフトキャッシュの消去を実行する方法を教えてください。 {#perform-soft-cache-clear}
+## 問題がマシン固有またはユーザー固有の場合にソフトキャッシュの消去を実行する方法は？ {#perform-soft-cache-clear}
 
 新しいロゴを正しく反映させる、マシン固有／ユーザー固有のデータを正しく書き出すなどの問題が発生した場合は、Windows（Windows 7、Windows XP、Windows 10）でソフトキャッシュの消去を実行する必要があります。
 
@@ -87,7 +87,7 @@ CRM ツールを Adobe Campaign と同期させる方法については、[CRM �
 
 それでも問題が解決しない場合は、次の手順を実行して、ハードキャッシュを消去してみてください。
 
-## 問題がマシン固有またはユーザー固有の場合にハードキャッシュの消去を実行する方法を教えてください。 {#perform-hard-cache-clear}
+## 問題がマシン固有またはユーザー固有の場合にハードキャッシュの消去を実行する方法は？ {#perform-hard-cache-clear}
 
 新しいロゴを正しく反映させる、マシン固有／ユーザー固有のデータを正しく書き出すなどの問題が発生した場合は、Windows（Windows 7、Windows XP、Windows 10）でハードキャッシュの消去を実行する必要があります。
 

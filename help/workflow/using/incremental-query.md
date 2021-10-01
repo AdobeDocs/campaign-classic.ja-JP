@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '379'
 ht-degree: 100%
 
 ---
 
-# 増分処理クエリ{#incremental-query}
+# 増分クエリ{#incremental-query}
+
+![](../../assets/common.svg)
 
 増分処理クエリは、指標に基づいて定期的にターゲットを選択します。その際、過去にターゲティングされた人を除外します。
 
@@ -23,8 +25,8 @@ ht-degree: 100%
 
 **関連トピック：**
 
-* [ユースケース：増分処理クエリを使用した四半期ごとのリストの更新](../../workflow/using/quarterly-list-update.md)
-* [クエリの作成](../../workflow/using/query.md#creating-a-query)
+* [ユースケース：増分処理クエリを使用した四半期ごとのリストの更新](quarterly-list-update.md)
+* [クエリの作成](query.md#creating-a-query)
 
 >[!CAUTION]
 >

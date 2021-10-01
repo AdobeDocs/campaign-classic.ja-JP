@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '272'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Campaign の組み込みレポートについて{#about-campaign-built-in-reports}
+
+![](../../assets/common.svg)
 
 この章では、Adobe Campaign の組み込みレポートとそれらの内容およびコンテキストの一覧を示します。この情報があれば、プラットフォームで既に使用できるレポートを作成しないで済みます。
 

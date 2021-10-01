@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '642'
 ht-degree: 100%
 
 ---
 
-# 命令の前処理{#pre-processing-instructions}
+# 命令の前処理 {#pre-processing-instructions}
+
+![](../../assets/common.svg)
 
 配信コンテンツで特定の構文を使用して、命令を追加し、トラッキングされる E メールの URL をスクリプト化できます。 &lt;%@ 命令は JavaScript ではありません。Adobe Campaign 固有の構文です。
 
@@ -112,7 +114,7 @@ E メールのパーソナライゼーションの場合、delivery オブジェ
 <%@ value object="delivery" xpath="variables/var[@name='myVar']/@stringValue" %>
 ```
 
-### JavaScript セクション内の [!DNL value] {#value-in-javascript}
+### JavaScript セクション内の [!DNL value]  {#value-in-javascript}
 
 JavaScript セクションで &lt;%@ value を使用できるようにするために、次の 2 つの特別なオブジェクトが &lt;% と %> に置き換えられます。
 

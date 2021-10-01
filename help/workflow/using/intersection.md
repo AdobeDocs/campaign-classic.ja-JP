@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '410'
 ht-degree: 100%
@@ -15,13 +15,15 @@ ht-degree: 100%
 
 # 積集合{#intersection}
 
+![](../../assets/common.svg)
+
 「**積集合**」タイプのアクティビティは、受信したターゲットの積集合からターゲットを作成します。
 
 積集合は、すべてのインバウンドアクティビティの結果に共通する母集団のみを抽出します。ターゲットは、受信したすべての結果から作成されます。そのため、すべての先行アクティビティは、積集合が実行される前に完了している必要があります。このアクティビティを設定するには、結果を考慮してアクティビティのラベルとオプションを入力する必要があります。
 
 ![](assets/s_user_segmentation_inter.png)
 
-積集合アクティビティの設定と使用について詳しくは、[結合データの抽出（積集合）](../../workflow/using/targeting-data.md#extracting-joint-data--intersection-)を参照してください。
+積集合アクティビティの設定と使用について詳しくは、[結合データの抽出（積集合）](targeting-data.md#extracting-joint-data--intersection-)を参照してください。
 
 残りの母集団を処理するには、「**[!UICONTROL 補集合を生成]**」オプションをチェックします。補集合には、すべてのインバウンドアクティビティから積集合を引いた結果の和集合が含まれます。その後、次の図のように、追加のアウトバウンドトランジションがアクティビティに追加されます。
 

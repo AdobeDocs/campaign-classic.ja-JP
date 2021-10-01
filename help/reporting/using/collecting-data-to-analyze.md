@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '526'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 分析するデータの収集{#collecting-data-to-analyze}
+
+![](../../assets/common.svg)
 
 レポートの作成に使用するデータは、レポートページで直接選択することも（詳しくは、[コンテキストの使用](../../reporting/using/using-the-context.md)を参照）、1 つまたは複数のクエリで収集することもできます。
 
@@ -63,7 +65,7 @@ ht-degree: 100%
 
 ## クエリでのフィルターオプション {#filtering-options-in-the-queries}
 
-データベース全体に対するクエリを実行しないようにするために、データをフィルターする必要があります。
+データベース全体に対してクエリを実行しないようにするために、データをフィルターする必要があります。
 
 ### 簡易フィルター {#simplified-filter}
 

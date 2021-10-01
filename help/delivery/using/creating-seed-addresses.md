@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '440'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # シードアドレスの作成{#creating-seed-addresses}
+
+![](../../assets/common.svg)
 
 シードアドレスの管理には、標準的なプロファイルやターゲットではなく、Adobe Campaign 階層構造の&#x200B;**[!UICONTROL リソース／キャンペーン管理／シードアドレス]**&#x200B;でアクセスできる専用ノードを使用します。
 

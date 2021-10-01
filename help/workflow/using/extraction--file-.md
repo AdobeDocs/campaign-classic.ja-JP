@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '350'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # データ抽出（ファイル）{#extraction-file}
+
+![](../../assets/common.svg)
 
 「**[!UICONTROL データ抽出 (ファイル)]**」アクティビティを使用して、ワークフローテーブルから外部ファイルにデータを抽出できます。
 
@@ -48,7 +50,7 @@ ht-degree: 100%
 
 データの抽出中に実行する後処理を定義して、ファイルを圧縮または暗号化できます。これをおこなうには、アクティビティの「 **[!UICONTROL スクリプト]**」タブに目的のコマンドを追加する必要があります。
 
-この点について詳しくは、「[ファイルの圧縮または暗号化](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file)」の節を参照してください。
+この点について詳しくは、「[ファイルの圧縮または暗号化](how-to-use-workflow-data.md#zipping-or-encrypting-a-file)」の節を参照してください。
 
 ![](assets/postprocessing_dataextraction.png)
 

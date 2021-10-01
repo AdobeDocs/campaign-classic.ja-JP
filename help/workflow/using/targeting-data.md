@@ -6,24 +6,26 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
-source-wordcount: '2011'
+source-wordcount: '2031'
 ht-degree: 100%
 
 ---
 
 # データのターゲティング{#targeting-data}
 
+![](../../assets/common.svg)
+
 ## クエリの作成 {#creating-queries}
 
 ### データの選択 {#selecting-data}
 
-「**[!UICONTROL クエリ]**」アクティビティでは、ターゲット母集団を作成するために必要な基本データを選択できます。詳しくは、[クエリの作成](../../workflow/using/query.md#creating-a-query)を参照してください。
+「**[!UICONTROL クエリ]**」アクティビティでは、ターゲット母集団を作成するために必要な基本データを選択できます。詳しくは、[クエリの作成](query.md#creating-a-query)を参照してください。
 
-データベースからデータをクエリおよび絞り込むには、「[増分処理クエリ](../../workflow/using/incremental-query.md)」および「[リスト読み込み](../../workflow/using/read-list.md)」アクティビティも使用できます。
+データベースからデータをクエリおよび絞り込むには、「[増分処理クエリ](incremental-query.md)」および「[リスト読み込み](read-list.md)」アクティビティも使用できます。
 
-ワークフローのライフサイクルを通じて転送され、処理される追加情報を収集することができます。詳しくは、[データの追加](../../workflow/using/query.md#adding-data)および[追加データの編集](#editing-additional-data)を参照してください。
+ワークフローのライフサイクルを通じて転送され、処理される追加情報を収集することができます。詳しくは、[データの追加](query.md#adding-data)および[追加データの編集](#editing-additional-data)を参照してください。
 
 ### 追加データの編集 {#editing-additional-data}
 
@@ -51,7 +53,7 @@ ht-degree: 100%
 
 ![](assets/query_add_columns_collection.png)
 
-### 追加データを使用したターゲットの絞り混み {#refining-the-target-using-additional-data}
+### 追加データを使用したターゲットの絞り込み {#refining-the-target-using-additional-data}
 
 収集された追加データを使用して、データベース内でのフィルターされたデータを絞り込むことができます。それには、「**[!UICONTROL 追加データを使用してターゲットを絞り込み...]**」リンクをクリックします。このリンクを使用して、追加したデータをフィルターできます。
 
@@ -79,7 +81,7 @@ ht-degree: 100%
 
 ## データのセグメント化 {#segmenting-data}
 
-### 複数のターゲットの組み合わせ（和集合） {#combining-several-targets--union-}
+### 複数のターゲットの組み合わせ（和集合）  {#combining-several-targets--union-}
 
 和集合アクティビティでは、1 つのトランジション内で複数のアクティビティの結果を組み合わせることができます。セットは、同質である必要はありません。
 
@@ -117,7 +119,7 @@ ht-degree: 100%
 
    ![](assets/join_limit_nb_priority.png)
 
-### 結合データの抽出（積集合） {#extracting-joint-data--intersection-}
+### 結合データの抽出（積集合）  {#extracting-joint-data--intersection-}
 
 ![](assets/traitements.png)
 
@@ -125,9 +127,9 @@ ht-degree: 100%
 
 さらに、列の選択だけ、またはインバウンド母集団によって共有される列だけを保持することもできます。
 
-積集合アクティビティについて詳しくは、[積集合](../../workflow/using/intersection.md)の節で説明しています。
+積集合アクティビティについて詳しくは、[積集合](intersection.md)の節で説明しています。
 
-### 母集団の除外（除外） {#excluding-a-population--exclusion-}
+### 母集団の除外（除外）  {#excluding-a-population--exclusion-}
 
 除外アクティビティを使用して、異なるターゲット母集団からターゲットの要素を除外できます。このアクティビティの出力ターゲティングディメンションは、メインセットからのものになります。
 
@@ -157,7 +159,7 @@ ht-degree: 100%
 
    ![](assets/split-subset-config-all-data.png)
 
-   **[!UICONTROL 分割]**&#x200B;アクティビティでフィルター条件を使用して、ターゲットを別々の母集団にセグメント化する方法を示した例については、[この節](../../workflow/using/cross-channel-delivery-workflow.md)を参照してください。
+   **[!UICONTROL 分割]**&#x200B;アクティビティでフィルター条件を使用して、ターゲットを別々の母集団にセグメント化する方法を示した例については、[この節](cross-channel-delivery-workflow.md)を参照してください。
 
    「**[!UICONTROL ラベル]**」フィールドでは、新しく作成したサブセットに、アウトバウンドトランジションと一致する名前を付けることができます。
 
@@ -175,7 +177,11 @@ ht-degree: 100%
 
    ![](assets/split-subset-config-add_external_data.png)
 
-   詳しくは、[この節](../../installation/using/about-fda.md)を参照してください。
+   詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
+
+   ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 ドキュメント](../../installation/using/about-fda.md)
+
+   ![](assets/do-not-localize/v8.png)[  Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja)
 
 次に、新しいサブセットを追加する必要があります。
 
@@ -193,7 +199,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >**Federated Data Access** オプションを購入している場合、外部データベース内に含まれる情報に基づいて、サブセットを作成できます。それには「**[!UICONTROL ターゲティングディメンション]**」フィールド内で、外部テーブルのスキーマを選択します。詳しくは、[外部データベースへのアクセス（FDA）](../../workflow/using/accessing-an-external-database--fda-.md)を参照してください。
+   >**Federated Data Access** オプションを購入している場合、外部データベース内に含まれる情報に基づいて、サブセットを作成できます。それには「**[!UICONTROL ターゲティングディメンション]**」フィールド内で、外部テーブルのスキーマを選択します。詳しくは、[外部データベースへのアクセス（FDA）](accessing-an-external-database--fda-.md)を参照してください。
 
 サブセットが作成されたら、分割アクティビティは、デフォルトでサブセットと同数の出力トランジションを表示します。
 
@@ -207,23 +213,23 @@ ht-degree: 100%
 
 ![](assets/wf_split_single_output.png)
 
-サブセットは、**[!UICONTROL セル]**&#x200B;アクティビティを使用して作成することもできます。詳しくは、[セル](../../workflow/using/cells.md)の節を参照してください。
+サブセットは、**[!UICONTROL セル]**&#x200B;アクティビティを使用して作成することもできます。詳しくは、[セル](cells.md)の節を参照してください。
 
-### ターゲット済みのデータの使用 {#using-targeted-data}
+### ターゲットデータの使用 {#using-targeted-data}
 
 識別され、準備されたデータは、次のコンテキストで使用できます。
 
 * 各種ワークフローステージで、データ操作の後でデータベース内のデータを更新できます。
 
-   詳しくは、[データを更新](../../workflow/using/update-data.md)を参照してください。
+   詳しくは、[データを更新](update-data.md)を参照してください。
 
 * さらに、既存のリストのコンテンツを更新できます。
 
-   詳しくは、[リストの更新](../../workflow/using/list-update.md)を参照してください。
+   詳しくは、[リストの更新](list-update.md)を参照してください。
 
 * ワークフロー内で直接、配信を準備または開始できます。
 
-   詳しくは、[配信](../../workflow/using/delivery.md)、[配信コントロール](../../workflow/using/delivery-control.md)および[連続配信](../../workflow/using/continuous-delivery.md)を参照してください。
+   詳しくは、[配信](delivery.md)、[配信コントロール](delivery-control.md)および[連続配信](continuous-delivery.md)を参照してください。
 
 ## データ管理 {#data-management}
 
@@ -235,9 +241,9 @@ Adobe Campaign では、より効率的で柔軟なツールを提供するこ�
 
 これらの操作を実装するために、Adobe Campaign は以下を提供します。
 
-* データ収集アクティビティは、[ファイル転送](../../workflow/using/file-transfer.md)、[データ読み込み（ファイル）](../../workflow/using/data-loading--file-.md)、[データ読み込み（RDBMS）](../../workflow/using/data-loading--rdbms-.md)、[データ更新](../../workflow/using/update-data.md)です。データ収集の最初の手順では、その他のアクティビティ内で処理するためにデータを準備します。ワークフローを正確に実行し、予測した結果が確実に得られるようにするには、複数のパラメーターを監視する必要がります。例えば、データをインポートする場合、データのプライマリキー（Pkey）は、レコードごとに一意である必要があります。
-* ターゲティングアクティビティを強化するデータ管理オプションは、[クエリ](../../workflow/using/query.md)、[和集合](../../workflow/using/union.md)、[積集合](../../workflow/using/intersection.md)、[分割](../../workflow/using/split.md)です。これにより、データの紐付けが可能な場合、様々なターゲティングディメンションから和集合または積集合を設定できます。
-* データ変換アクティビティは、[エンリッチメント](../../workflow/using/enrichment.md)、[ディメンションを変更](../../workflow/using/change-dimension.md)です。
+* データ収集アクティビティは、[ファイル転送](file-transfer.md)、[データ読み込み（ファイル）](data-loading--file-.md)、[データ読み込み（RDBMS）](data-loading--rdbms-.md)、[データ更新](update-data.md)です。データ収集の最初の手順では、その他のアクティビティ内で処理するためにデータを準備します。ワークフローを正確に実行し、予測した結果が確実に得られるようにするには、複数のパラメーターを監視する必要がります。例えば、データをインポートする場合、データのプライマリキー（Pkey）は、レコードごとに一意である必要があります。
+* ターゲティングアクティビティを強化するデータ管理オプションは、[クエリ](query.md)、[和集合](union.md)、[積集合](intersection.md)、[分割](split.md)です。これにより、データの紐付けが可能な場合、様々なターゲティングディメンションから和集合または積集合を設定できます。
+* データ変換アクティビティは、[エンリッチメント](enrichment.md)、[ディメンションを変更](change-dimension.md)です。
 
 >[!CAUTION]
 >
@@ -247,10 +253,10 @@ Adobe Campaign では、より効率的で柔軟なツールを提供するこ�
 
 ### データのエンリッチメントと変更 {#enriching-and-modifying-data}
 
-ターゲティングディメンションに加えて、フィルタリングディメンションでも、収集したデータの特性を指定できます。詳しくは、[ターゲティングとフィルタリングディメンション](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions)を参照してください。
+ターゲティングディメンションに加えて、フィルタリングディメンションでも、収集したデータの特性を指定できます。詳しくは、[ターゲティングとフィルタリングディメンション](building-a-workflow.md#targeting-and-filtering-dimensions)を参照してください。
 
 識別され、収集されたデータに対して、ターゲットの構築を最適化するために、エンリッチメントや集計、操作をおこなうことができます。それには、[データのセグメント化](#segmenting-data)の節で詳述する各種データ操作アクティビティに加えて、以下を使用します。
 
-* 「**[!UICONTROL エンリッチメント]**」アクティビティを使用して、スキーマに即座にコラムを追加したり、特定の要素に情報を追加できます。詳しくは、アクティビティのリポジトリの[エンリッチメント](../../workflow/using/enrichment.md)の節で説明しています。
-* **[!UICONTROL スキーマを編集]**&#x200B;アクティビティを使用して、スキーマの構造を変更できます。詳しくは、アクティビティのリポジトリの[スキーマを編集](../../workflow/using/edit-schema.md)の節で説明しています。
-* 「**[!UICONTROL ディメンションを変更]**」アクティビティを使用して、ターゲットの構築サイクル中にターゲティングディメンションを変更できます。詳しくは、[ディメンションを変更](../../workflow/using/change-dimension.md)の節で説明しています。
+* 「**[!UICONTROL エンリッチメント]**」アクティビティを使用して、スキーマに即座にコラムを追加したり、特定の要素に情報を追加できます。詳しくは、アクティビティのリポジトリの[エンリッチメント](enrichment.md)の節で説明しています。
+* **[!UICONTROL スキーマを編集]**&#x200B;アクティビティを使用して、スキーマの構造を変更できます。詳しくは、アクティビティのリポジトリの[スキーマを編集](edit-schema.md)の節で説明しています。
+* 「**[!UICONTROL ディメンションを変更]**」アクティビティを使用して、ターゲットの構築サイクル中にターゲティングディメンションを変更できます。詳しくは、[ディメンションを変更](change-dimension.md)の節で説明しています。

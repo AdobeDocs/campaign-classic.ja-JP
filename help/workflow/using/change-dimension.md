@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '396'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ディメンションを変更{#change-dimension}
+
+![](../../assets/common.svg)
 
 「ディメンションを変更」アクティビティを使用して、ターゲットの構築サイクル中にターゲティングディメンションを変更できます。軸の移動は、データテンプレートと入力ディメンションに依存します。これにより、「契約」ディメンションから「クライアント」ディメンションに切り替えることができます。
 
@@ -55,7 +57,7 @@ ht-degree: 100%
 
       >[!NOTE]
       >
-      >追加列の作成と管理について詳しくは、[データの追加](../../workflow/using/query.md#adding-data)を参照してください。
+      >追加列の作成と管理について詳しくは、[データの追加](query.md#adding-data)を参照してください。
 
    * 以前のターゲティングディメンション（軸変更の前）を選択し、受信者の「**[!UICONTROL 場所]**」サブツリーで「**[!UICONTROL 郵便番号]**」を選択して「**[!UICONTROL 式を編集]**」をクリックします。
 

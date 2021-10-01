@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '410'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # オペレーターのプロファイル{#operator-profiles}
+
+![](../../assets/v7-only.svg)
 
 インタラクションを使用するオペレーターには、オファーマネージャーと配信責任者という 2 つのタイプがあります。それぞれが異なる権限を持ち、ツリーやプラットフォームの一部にのみアクセスできます。
 
@@ -43,7 +45,7 @@ ht-degree: 100%
    >
    >オファーマネージャーは、2 つの状況においてのみオファーを承認できます。1 つは、誰もレビュー担当者として割り当てられていない場合です。もう 1 つは、テンプレートの作成を担当するオペレーター（レビュー担当者の割り当て権限を持つ）が、オファーのベースとなるオファーテンプレートで、自分自身をレビュー担当者に指定した場合です。
 
-## 配信責任者 {#delivery-manager}
+## 配信マネージャー {#delivery-manager}
 
 1. 新しいオペレーターを作成します。
 1. **[!UICONTROL グループとネームド権限]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 配信責任者]**」グループを選択します。
@@ -60,7 +62,7 @@ ht-degree: 100%
    >
    >配信責任者がオファーを承認できるのは、オファーの設定時に、自分がレビュー担当者として定義されている場合のみです。
 
-## オペレーターに関する権限の概要 {#recap-of-rights-according-to-operator}
+## オペレーター別の権限の概要 {#recap-of-rights-according-to-operator}
 
 <table> 
  <tbody> 

@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '219'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # E メールを送信する主な手順 {#confirming-email-delivery}
+
+![](../../assets/common.svg)
 
 E メールを作成および設定したら、メインターゲットに送信できます。 この節では、E メールの配信を確認するための主な手順を示します。
 

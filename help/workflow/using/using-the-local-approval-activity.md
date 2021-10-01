@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1430'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ローカルの承認アクティビティの使用{#using-the-local-approval-activity}
+
+![](../../assets/common.svg)
 
 ターゲティングワークフローに統合されている&#x200B;**[!UICONTROL ローカルの承認]**&#x200B;アクティビティでは、配信の前に受信者の認証プロセスを設定することができます。
 
@@ -51,7 +53,7 @@ ht-degree: 100%
 
 データ配分テンプレートを使用すると、ターゲティングによって生じる母集団の数をデータのグループ別に制限できるほか、個々の値をローカルのスーパーバイザーに割り当てることが可能です。この例では、配分フィールドとして「**[!UICONTROL E メールアドレスドメイン]**」フィールドを定義し、各ローカルスーパーバイザーにドメインを割り当てています。
 
-データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution)を参照してください。
+データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](split.md#limiting-the-number-of-subset-records-per-data-distribution)を参照してください。
 
 1. データ配分テンプレートを作成するには、**[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;の順にノードを移動し、「**[!UICONTROL 新規]**」をクリックします。
 
@@ -102,11 +104,11 @@ ht-degree: 100%
 * 2 つ目の&#x200B;**[!UICONTROL ローカルの承認]**&#x200B;アクティビティ
 * 1 つの&#x200B;**[!UICONTROL 終了]**&#x200B;アクティビティ
 
-### クエリ、積集合、および分割 {#queries--intersection-and-split}
+### クエリ、積集合および分割 {#queries--intersection-and-split}
 
 上流のターゲティングは、2 つのクエリ、1 つの積集合、1 つの分割で構成されます。データ配分テンプレートを使用する&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティでは、ターゲティングによって生じる母集団の数を制限することができます。
 
-分割アクティビティの設定について詳しくは、[分割](../../workflow/using/split.md)を参照してください。データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution)を参照してください。
+分割アクティビティの設定について詳しくは、[分割](split.md)を参照してください。データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](split.md#limiting-the-number-of-subset-records-per-data-distribution)を参照してください。
 
 クエリによる母集団の数を制限しない場合は、「**[!UICONTROL クエリ]**」、「**[!UICONTROL 積集合]**」、および「**[!UICONTROL 分割]**」アクティビティを使用する必要はありません。このケースでは、1 つ目の「**[!UICONTROL ローカルの承認]**」アクティビティで、データ配分テンプレートの作成を完了させます。
 
@@ -134,7 +136,7 @@ ht-degree: 100%
 
 「**[!UICONTROL ローカルの承認]**」アクティビティでは、ローカルの個々のスーパーバイザーに通知を送信できます。
 
-「**[!UICONTROL ローカルの承認]**」アクティビティの設定について詳しくは、[ローカルの承認](../../workflow/using/local-approval.md)を参照してください。
+「**[!UICONTROL ローカルの承認]**」アクティビティの設定について詳しくは、[ローカルの承認](local-approval.md)を参照してください。
 
 ![](assets/local_validation_workflow_2.png)
 
@@ -174,7 +176,7 @@ ht-degree: 100%
 
 ![](assets/local_validation_intro_3.png)
 
-### 管理者による承認トラッキングの通知メールを送信します。{#approval-tracking-by-the-administrator}
+### 管理者による承認トラッキング {#approval-tracking-by-the-administrator}
 
 「ローカルの承認」アクティビティが起動されるごとに、承認タスクが作成されます。管理者は、これらの承認タスクを個々に管理することができます。
 

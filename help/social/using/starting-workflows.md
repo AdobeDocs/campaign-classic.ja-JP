@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: a104d8ce-1c28-4da9-bcbf-c17adb1c85c1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '101'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ワークフローの開始{#starting-workflows}
+
+![](../../assets/v7-only.svg)
 
 **[!UICONTROL ソーシャルネットワーク管理]**&#x200B;ワークフローは、**[!UICONTROL 管理／プロダクション／テクニカルワークフロー／ソーシャルネットワーク管理]**&#x200B;ノードからアクセス可能で、Adobe Campaign を Twitter および Facebook と同期できます。
 

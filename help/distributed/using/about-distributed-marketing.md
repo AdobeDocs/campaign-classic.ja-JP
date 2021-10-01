@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: distributed-marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1178'
 ht-degree: 100%
 
 ---
 
-# 分散型マーケティングの概要{#about-distributed-marketing}
+# 分散型マーケティングの基本を学ぶ{#about-distributed-marketing}
 
 ![](../../assets/v7-only.svg)
 
@@ -91,7 +91,7 @@ Adobe Campaign では、セントラルエンティティ（本社、マーケ�
 
 ## オペレーターとエンティティ {#operators-and-entities}
 
-まず始めに、**[!UICONTROL アクセス管理]**&#x200B;フォルダーで、セントラルエンティティおよびローカルエンティティのオペレーターを指定します。
+まず、**[!UICONTROL アクセス管理]**&#x200B;フォルダーで、セントラルエンティティおよびローカルエンティティのオペレーターを指定します。
 
 ![](assets/s_advuser_mkg_dist_tree.png)
 

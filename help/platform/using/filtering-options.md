@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
 ---
 
 # フィルターオプション{#filtering-options}
+
+![](../../assets/common.svg)
 
 ## フィルタリングについて {#about-filtering}
 
@@ -42,7 +44,7 @@ ht-degree: 100%
 
 デフォルトの表示モードに戻るには、フォルダー選択フィールドの右側にあるバツ印を使用します。
 
-## ステータスでフィルタリング {#filter-by-status}
+## ステータスでフィルター {#filter-by-status}
 
 表示される情報のタイプに応じて、ステータスのフィルターを適用できます。例えば、配信の場合、次に示すように完了した配信のみが表示されるように選択できます。
 

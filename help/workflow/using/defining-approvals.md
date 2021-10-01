@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '870'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 承認の定義 {#defining-approvals}
+
+![](../../assets/common.svg)
 
 承認により、オペレーターはワークフロー管理に関する意思決定をおこなったり、実行の継続を確定したりできます。
 
@@ -35,7 +37,7 @@ ht-degree: 100%
 >
 >いったん保存した応答は、変更できません。
 
-## E メールの送信 {#sending-emails}
+## メールの送信 {#sending-emails}
 
 Web ページへのリンクが記載された承認メッセージを受け取り、ページ上で応答することができます。ターゲット済みのオペレーターが、承認 E メールを受け取るようにするには、オペレーターの E メールアドレスが入力されている必要があります。入力していない場合、オペレータは応答にコンソールを使用する必要があります。
 

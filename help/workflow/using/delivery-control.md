@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '180'
 ht-degree: 100%
@@ -15,13 +15,15 @@ ht-degree: 100%
 
 # 配信コントロール{#delivery-control}
 
+![](../../assets/common.svg)
+
 「**配信コントロール**」タイプアクションでは、配信を開始、一時停止、または中止できます。
 
-これは、トランジション内で指定された配信、明示的に選択された配信、またはスクリプトで自動生成された配信です。詳しくは、[配信](../../workflow/using/delivery.md)を参照してください。
+これは、トランジション内で指定された配信、明示的に選択された配信、またはスクリプトで自動生成された配信です。詳しくは、[配信](delivery.md)を参照してください。
 
 ![](assets/edit_diffusion_act.png)
 
-「**[!UICONTROL 開始]**」を選択した場合、アクティビティは配信の開始に必要なすべての手順を実行します（ターゲットの計算、コンテンツの準備、配信）。これらの手順の一部が、先行のワークフローアクティビティによって実行されている場合、再度実行されることはありません。例えば、ターゲットの推定が「**[!UICONTROL 配信]**」タイプアクティビティによって既に実行されている場合（[配信](../../workflow/using/delivery.md)を参照）、「**[!UICONTROL 配信に基づくアクション]**」アクティビティが残りの手順を開始します（コンテンツの準備と配信）。
+「**[!UICONTROL 開始]**」を選択した場合、アクティビティは配信の開始に必要なすべての手順を実行します（ターゲットの計算、コンテンツの準備、配信）。これらの手順の一部が、先行のワークフローアクティビティによって実行されている場合、再度実行されることはありません。例えば、ターゲットの推定が「**[!UICONTROL 配信]**」タイプアクティビティによって既に実行されている場合（[配信](delivery.md)を参照）、「**[!UICONTROL 配信に基づくアクション]**」アクティビティが残りの手順を開始します（コンテンツの準備と配信）。
 
 次のオプションを使用できます。
 
@@ -31,7 +33,7 @@ ht-degree: 100%
 
 * **[!UICONTROL エラーを処理]**
 
-   [エラーを処理](../../workflow/using/monitoring-workflow-execution.md#processing-errors)を参照してください。
+   [エラーを処理](monitoring-workflow-execution.md#processing-errors)を参照してください。
 
 ## 入力パラメーター {#input-parameters}
 

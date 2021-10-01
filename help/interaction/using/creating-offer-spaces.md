@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1032'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # オファースペースの作成{#creating-offer-spaces}
+
+![](../../assets/v7-only.svg)
 
 オファースペースの作成を実行できるのは、オファースペースのサブフォルダーへのアクセス権を持つ&#x200B;**技術管理者**&#x200B;のみです。オファースペースは、デザイン環境にのみ作成でき、オファーの承認時にライブ環境に自動的に複製されます。
 
@@ -94,7 +96,7 @@ ht-degree: 100%
 >
 >「送信済み」ステータスの配信にオファーがリンクされると、そのオファーの提案のステータスは自動的に「提示済み」に変更されます。
 
-### 提案作成時のステータス設定 {#configuring-the-status-when-the-proposition-is-created}
+### 提案作成時のステータスの設定 {#configuring-the-status-when-the-proposition-is-created}
 
 インタラクションエンジンによってオファーの提案が作成されると、ステータスは、インタラクションがインバウンドかアウトバウンドかによって変更されます。これら 2 つのうち、どちらの値が選択されるかは、そのオファースペースが&#x200B;**[!UICONTROL デザイン]**&#x200B;環境でどのように設定されたかによって決まります。
 
@@ -107,7 +109,7 @@ ht-degree: 100%
 
    ![](assets/offer_update_status_001.png)
 
-### 提案承認時のステータス設定 {#configuring-the-status-when-the-proposition-is-accepted}
+### 提案承認時のステータスの設定 {#configuring-the-status-when-the-proposition-is-accepted}
 
 オファーの提案が承認されると、デフォルトで提供される値のいずれかを使用して、提案の新しいステータスを設定できます。受信者がオファー内のリンクをクリックし、インタラクションエンジンが呼び出されると、更新が有効になります。
 

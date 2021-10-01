@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: e030c029-d1ee-4749-94e3-6bdfc8d89a34
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1026'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # Twitter へのパブリッシュ{#publishing-on-twitter}
 
-## Twitter アカウントへのパブリッシュ {#publishing-on-your-twitter-accounts}
+![](../../assets/v7-only.svg)
+
+## Twitter アカウントでの公開 {#publishing-on-your-twitter-accounts}
 
 設定が完了すると、ソーシャルマーケティングで Twitter アカウントにツイートを送信できます。
 
@@ -28,7 +30,7 @@ Twitter には次の制限があります。
 
 ### 配信の作成 {#creating-the-delivery}
 
-「**[!UICONTROL ツイート（Twitter）]**」配信テンプレートに基づいて新しい配信を作成します。
+「**[!UICONTROL ツイート (Twitter)]**」配信テンプレートに基づいて新しい配信を作成します。
 
 ![](assets/social_twitter_delivery_001.png)
 
@@ -121,7 +123,7 @@ Twitter には次の制限があります。
 
 ## 購読者へのダイレクトメッセージの送信 {#sending-direct-messages-to-subscribers}
 
-### 動作の仕組み {#operating-principle}
+### 動作原理 {#operating-principle}
 
 「**[!UICONTROL Twitter アカウントを同期]**」ワークフロー（[Twitter アカウントの同期](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)を参照）は、Twitter 購読者のリストを取得して、ダイレクトメッセージを送信できるようにします。取得したフォロワーは、「訪問者」という特定のテーブルに格納されます。Twitter フォロワーのリストを表示するには、**[!UICONTROL プロファイルとターゲット／訪問者]**&#x200B;ノードに移動します。
 
@@ -152,7 +154,7 @@ Twitter には次の制限があります。
 
 ### 配信の作成 {#creating-the-delivery-}
 
-「**[!UICONTROL ツイート（ダイレクトメッセージ）]**」配信テンプレートに基づいて新しい配信を作成します。
+「**[!UICONTROL ツイート (ダイレクトメッセージ)]**」配信テンプレートに基づいて新しい配信を作成します。
 
 ![](assets/social_twitter_delivery_010.png)
 

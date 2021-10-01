@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '439'
 ht-degree: 100%
@@ -15,11 +15,13 @@ ht-degree: 100%
 
 # サブワークフロー{#sub-workflow}
 
+![](../../assets/common.svg)
+
 **[!UICONTROL サブワークフロー]**&#x200B;を使用すれば、別のワークフローの実行をトリガーし、結果を取得できます。このアクティビティにより、簡素化されたインターフェイス経由で、複雑なワークフローを使用できます。
 
 1 つのワークフローで複数のサブワークフローを呼び出すことができます。サブワークフローは、同期して実行されます。
 
-以下の例では、プライマリワークフローが、ジャンプを使用してサブワークフローを呼び出しています。ジャンプタイプのグラフィカルオブジェクトについて詳しくは、[この節](../../workflow/using/jump--start-point-and-end-point-.md)を参照してください。
+以下の例では、プライマリワークフローが、ジャンプを使用してサブワークフローを呼び出しています。ジャンプタイプのグラフィカルオブジェクトについて詳しくは、[この節](jump--start-point-and-end-point-.md)を参照してください。
 
 1. 別のワークフローでサブワークフローとして使用するワークフローを作成します。
 1. ワークフローの最初に、優先度が 1 の&#x200B;**[!UICONTROL ジャンプ (終了点)]** アクティビティを挿入します。「終了点」タイプのジャンプが複数ある場合、Adobe Campaign は一番小さい数の「終了点」ジャンプを使用します。
@@ -59,7 +61,7 @@ ht-degree: 100%
 >
 >サブワークフローでエラーが発生した場合は、プライマリワークフローが一時停止し、サブワークフローのコピーが作成されます。
 
-## 入力パラメーター（オプション）{#input-parameters--optional-}
+## 入力パラメーター（オプション） {#input-parameters--optional-}
 
 * tableName
 * schema

@@ -7,17 +7,17 @@ content-type: reference
 topic-tags: response-manager
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
 ht-degree: 100%
 
 ---
 
-# Campaign Response Manager の概要{#about-response-manager}
+# Campaign Response Manager の基本を学ぶ{#about-response-manager}
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign は、マーケティングキャンペーンの成功や収益性を測定したり、メール、モバイル、ダイレクトメールなどの通信チャネル全体で提案したりできる、応答管理アドオンを提供します。
+Adobe Campaign では、マーケティングキャンペーンの成功や収益性を測定したり、メール、モバイル、ダイレクトメールなどのあらゆる通信チャネルでオファーを提案したりできる、応答管理アドオンを提供しています。
 
 ## 仮説 {#hypothesis-concept}
 
@@ -48,7 +48,7 @@ Response Manager の使用を開始する前に、[設定](configuration.md)を�
 測定の仮説を定義および作成するには、以下の手順に従います。
 
 1. 仮説モデルを定義します。[詳細情報](hypothesis-templates.md#creating-a-hypothesis-model)
-1. 既存の配信で 1 つまたは複数の仮説を作成します。[詳細情報](creating-hypotheses.md#referencing-a-hypothesis-in-a-campaign-delivery)
+1. 既存の配信に 1 つまたは複数の仮説を作成します。[詳細情報](creating-hypotheses.md#referencing-a-hypothesis-in-a-campaign-delivery)
 
    または
 

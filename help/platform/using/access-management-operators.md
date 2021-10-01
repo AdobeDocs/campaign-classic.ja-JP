@@ -7,7 +7,7 @@ role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1211'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-## Campaign オペレーターの基本を学ぶ  {#about-operators}
+## Campaign オペレーターの概要  {#about-operators}
 
 オペレーターは、ログインしてアクションを実行する権限を持つ Adobe Campaign ユーザーです。
 

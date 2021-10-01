@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 2135a836-245f-406e-b351-c27d38e0f9fd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1063'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Facebook のウォールへのパブリッシュ{#publishing-on-facebook-walls}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign で Facebook のウォールにパブリケーションを送信するには、これらのページへの書き込みアクセス権を Adobe Campaign にデリゲートする必要があります。それには、次の設定手順に従います。
 

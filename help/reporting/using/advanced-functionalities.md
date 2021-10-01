@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '647'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 高度な機能{#advanced-functionalities}
+
+![](../../assets/common.svg)
 
 技術的ユーザーは、[一般的なプロパティ](../../reporting/using/properties-of-the-report.md)に加えて、次のような高度な機能を利用してレポートを設定できます。
 
@@ -29,7 +31,7 @@ ht-degree: 100%
 
 ## スクリプトの操作 {#adding-a-script}
 
-### 外部参照スクリプト{#external-script}
+### 外部スクリプトの参照 {#external-script}
 
 レポートページの呼び出し時にクライアントサイドやサーバーサイドで実行される JavaScript コードを参照できます。
 
@@ -45,7 +47,7 @@ ht-degree: 100%
 
 クライアントサイドでの通常の実行の場合、参照されるスクリプトは JavaScript で記述されている必要があり、一般的なブラウザーとの互換性も必要です。詳しくは、[この節](../../web/using/web-forms-answers.md)を参照してください。
 
-### スクリプトアクティビティの追加{#script-activity}
+### スクリプトアクティビティの追加 {#script-activity}
 
 [レポートをデザイン](../../reporting/using/creating-a-new-report.md#modelizing-the-chart)する際に、**[!UICONTROL スクリプト]**&#x200B;アクティビティを使用してデータを処理し、SQL 言語を有効にしない複雑なクエリを簡単に作成できます。スクリプトウィンドウでクエリを直接入力できます。
 
@@ -116,4 +118,4 @@ if( ctx.@_historyId.toString().length == 0 )
 
 ## 別のレポートの呼び出し {#calling-up-another-report}
 
-**ジャンプ**&#x200B;アクティビティは、矢印のないトランジションのようなものです。これを使用すると、アクティビティ間を移動したり、別のレポートにアクセスしたりできます。
+**ジャンプ**&#x200B;アクティビティは、矢印のないトランジションのようなもので、あるアクティビティから別のアクティビティに移動したり、別のレポートにアクセスしたりできます。

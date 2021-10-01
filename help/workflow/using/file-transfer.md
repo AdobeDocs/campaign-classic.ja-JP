@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: 8c47027099559549320abf68016386cc85dcda5a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '631'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # ファイル転送{#file-transfer}
 
-「**ファイル転送**」アクティビティで、ファイルの送受信、サーバー上のファイルの有無の確認、ファイルのリスト作成ができます。Azure Blob Storage、Amazon Simple Storage Service (S3)、FTP、SFTP のいずれかのプロトコルを使用します。
+![](../../assets/common.svg)
+
+「**ファイル転送**」アクティビティでは、ファイルの送受信、ファイルの有無の確認、サーバー上のファイルのリストアップが可能です。Azure Blob Storage、Amazon Simple Storage Service (S3)、FTP、SFTP のいずれかのプロトコルを使用します。
 S3、Azure Blob Storage、SFTP 接続のいずれかを使用すると、Adobe のリアルタイム顧客データプラットフォームで、セグメントデータを Adobe Campaign にインポートすることもできます。詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ja)を参照してください。
 
 >[!NOTE]
@@ -71,7 +73,7 @@ S3、Azure Blob Storage、SFTP 接続のいずれかを使用すると、Adobe �
 すべてのファイルを転送する場合、次の 2 つのオプションがあります。
 
 * 「**[!UICONTROL 不明なファイルを処理]**」オプションは、指定したディレクトリにファイルがない場合に有効化されるトランジションを追加します。
-* 「**[!UICONTROL エラーを処理]**」オプションについて詳しくは、[エラーを処理](../../workflow/using/monitoring-workflow-execution.md#processing-errors)を参照してください。
+* 「**[!UICONTROL エラーを処理]**」オプションについて詳しくは、[エラーを処理](monitoring-workflow-execution.md#processing-errors)を参照してください。
 
 「**[!UICONTROL 詳細設定パラメーター]**」リンクを使用して、次のオプションにアクセスできます。
 
@@ -93,7 +95,7 @@ S3、Azure Blob Storage、SFTP 接続のいずれかを使用すると、Adobe �
 
    データ転送に使用する接続ポートを指定できます。
 
-「**[!UICONTROL ファイル履歴化設定...]**」リンクでアクセスできるオプションについて詳しくは、[Web ダウンロード](../../workflow/using/web-download.md)（**[!UICONTROL ファイル履歴化]**&#x200B;の手順）を参照してください。
+「**[!UICONTROL ファイル履歴化設定...]**」リンクでアクセスできるオプションについて詳しくは、[Web ダウンロード](web-download.md)（**[!UICONTROL ファイル履歴化]**&#x200B;の手順）を参照してください。
 
 ## 入力パラメーター {#input-parameters}
 

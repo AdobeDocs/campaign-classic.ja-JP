@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cb062cb2-dfea-46aa-8d9e-580e4dc7bb25
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '170'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # カテゴリのレコメンデーション{#recommending-a-category}
+
+![](../../assets/v7-only.svg)
 
 場合によっては、受信者は、すべてのオファーを受ける資格があるわけではないと見なされることがあります。すべての受信者がオファーの提案を受け取れるように、システムで 1 つまたは様々なオファーカテゴリをレコメンデーションに追加できます。メインオファーとは異なり、それらの「バックアップ」オファーには、資格のある重み付けの大きいオファーがない場合にのみ提示されるように、小さい（ただし 0 ではない）重み付けを設定する必要があります。また、レコメンデーションに必ず含められるよう、バックアップオファーにはプレゼンテーションルールが何も適用されていない状態にしておく必要があります。これにより、提案中に重みの大きいオファーがない場合でも、受信者は、このカテゴリのオファーを少なくとも 1 つ受け取ります。
 

@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '168'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # アクティビティ画像の管理{#managing-activity-images}
+
+![](../../assets/common.svg)
 
 さまざまなワークフローのダイアグラムに画像が使用されますが、これらの画像が変更することができます。ただし、それには一定の制限があります。以下に示すのは実装のステージです。
 

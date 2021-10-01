@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: e612a4e7-f4ef-4db4-afab-5544b73430d3
-source-git-commit: 515587695115c23d9b248ecb87a7ae89ea7c62a0
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
 ---
 
 # チュートリアル{#tutorials}
+
+![](../../assets/common.svg)
 
 ## 詳細な手順ガイド {#step-by-step-guides}
 

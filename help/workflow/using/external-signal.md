@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '171'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 外部シグナル{#external-signal}
+
+![](../../assets/common.svg)
 
 「**外部シグナル**」アクティビティを使用して、スケジュールに対して、ワークフロー内のタスクセットの実行をトリガーできます。
 
@@ -25,9 +27,9 @@ PostEvent 関数について詳しくは、SOAP 呼び出しに関するオン�
 
 ![](assets/edit_signal.png)
 
-期限の設定について詳しくは、[有効期限](../../workflow/using/defining-approvals.md)を参照してください。
+期限の設定について詳しくは、[有効期限](defining-approvals.md)を参照してください。
 
-「**遅延**」フィールドでは、選択した単位で期限を指定できます。[待機](../../workflow/using/wait.md)を参照してください。
+「**遅延**」フィールドでは、選択した単位で期限を指定できます。[待機](wait.md)を参照してください。
 
 各行は、期限のタイプとトランジションとの紐付けを表します。
 

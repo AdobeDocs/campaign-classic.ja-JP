@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '764'
 ht-degree: 100%
 
 ---
 
 # データを更新{#updating-data}
+
+![](../../assets/common.svg)
 
 受信者のプロファイルにリンクされているデータは、手動または自動で更新できます。
 

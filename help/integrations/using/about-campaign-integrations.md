@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: 4a41aea9edfe5e6ca0454049cbb2892449eec153
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '762'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Adobe Campaign 統合の基本を学ぶ {#about-campaign-integrations}
+
+![](../../assets/common.svg)
 
 Adobe Experience Cloud は、共通データプラットフォーム上に構築され、強力なコアサービスの共通セットと統合されたクラス最高のソリューションの包括的なセットです。
 
@@ -26,7 +28,6 @@ Adobe Campaign と統合できるアドビのソリューションとコアサ�
 >[!CAUTION]
 >
 >これらの統合のほとんどでは、Adobe ID 経由でログインするために、Adobe Identity Management システム（IMS）を実装する必要があります。詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
-
 
 ## ソリューションのリンク {#working-with-experience-cloud-solutions}
 

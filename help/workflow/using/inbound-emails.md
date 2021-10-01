@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '367'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # インバウンド E メール{#inbound-emails}
+
+![](../../assets/common.svg)
 
 「**インバウンド E メール**」アクティビティでは、POP3 メールサーバーから E メールメッセージをダウンロードして処理できます。
 
@@ -68,7 +70,7 @@ ht-degree: 100%
 
    アクティビティのスケジュールを設定するには、「**[!UICONTROL スケジュール設定]**」タブをクリックして、「**[!UICONTROL プランの実行]**」を選択します。「**[!UICONTROL 変更]**」ボタンをクリックして、スケジュールを設定します。
 
-   スケジュールの設定は、スケジュール設定アクティビティの場合と同じです。[スケジューラー](../../workflow/using/scheduler.md)を参照してください。
+   スケジュールの設定は、スケジュール設定アクティビティの場合と同じです。[スケジューラー](scheduler.md)を参照してください。
 
 1. **[!UICONTROL 有効期限]**
 
@@ -76,4 +78,4 @@ ht-degree: 100%
 
    ![](assets/email_rec_edit_3.png)
 
-   有効期限の設定は、スケジュール設定アクティビティの場合と同じです。[有効期限](../../workflow/using/defining-approvals.md)を参照してください。
+   有効期限の設定は、スケジュール設定アクティビティの場合と同じです。[有効期限](defining-approvals.md)を参照してください。

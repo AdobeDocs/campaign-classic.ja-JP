@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ワークフローのライフサイクル {#workflow-life-cycle}
+
+![](../../assets/common.svg)
 
 ワークフローサイクルには、3 つの主要なステップがあります。
 
@@ -41,4 +43,4 @@ ht-degree: 100%
 
 オペレーターの管理について詳しくは、この[節](../../platform/using/access-management.md)を参照してください。
 
-ワークフローの監視方法について詳しくは、[この節](../../workflow/using/monitoring-workflow-execution.md)を参照してください。
+ワークフローの監視方法について詳しくは、[この節](monitoring-workflow-execution.md)を参照してください。

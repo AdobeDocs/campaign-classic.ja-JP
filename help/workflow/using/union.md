@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '316'
 ht-degree: 100%
@@ -15,13 +15,15 @@ ht-degree: 100%
 
 # 和集合{#union}
 
+![](../../assets/common.svg)
+
 複数のインバウンドアクティビティの結果を 1 つのターゲット内にグループ化します。ターゲットは、受信したすべての結果から作成されます。そのため、すべての先行アクティビティは、和集合が実行される前に完了している必要があります。
 
 ![](assets/s_user_segmentation_union.png)
 
 >[!NOTE]
 >
->和集合アクティビティの設定と使用について詳しくは、[複数のターゲットの組み合わせ（和集合）](../../workflow/using/targeting-data.md#combining-several-targets--union-)を参照してください。
+>和集合アクティビティの設定と使用について詳しくは、[複数のターゲットの組み合わせ（和集合）](targeting-data.md#combining-several-targets--union-)を参照してください。
 
 ## 和集合の例 {#union-example}
 
@@ -35,7 +37,7 @@ ht-degree: 100%
 
    受信者の最大数を入力することによって、また、母集団が優先されるクエリを選択することによって、この最終的な数を指定します。
 
-1. 和集合アクティビティを承認してから、リスト更新アクティビティを設定します（[リスト更新](../../workflow/using/list-update.md)を参照）。
+1. 和集合アクティビティを承認してから、リスト更新アクティビティを設定します（[リスト更新](list-update.md)を参照）。
 1. ワークフローを開始します。結果数が表示され、リスト更新アクティビティ内に定義されたリストが作成または更新されます。このリストには、両方のクエリのための受信者のセット、または該当する場合は前述の手順で定義した数が含まれます。
 
    ![](assets/union_example.png)

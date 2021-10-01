@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: distributed-marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1374'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## ローカルキャンペーン（フォーム）の作成  {#creating-a-local-campaign--by-form-}
 
-**フォーム**&#x200B;タイプの  Web インターフェイスを使用するには、**Web アプリケーション**&#x200B;を使用する必要があります。Web アプリケーションには、設定に応じて、パーソナライズされたあらゆる種類の定義済み要素を含めることができます。例えば、専用の API を使用して、ターゲット、予算、コンテンツなどを評価するリンクを含めることができます。
+**フォーム**&#x200B;タイプの Web インターフェイスを使用するには、**Web アプリケーション**&#x200B;を使用する必要があります。Web アプリケーションには、設定に応じて、パーソナライズされたあらゆる種類の定義済み要素を含めることができます。例えば、専用の API を使用して、ターゲット、予算、コンテンツなどを評価するリンクを含めることができます。
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ ht-degree: 100%
    var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
    ```
 
-## 協調キャンペーン（ターゲットの承認）の作成  {#creating-a-collaborative-campaign--by-target-approval-}
+## 協調キャンペーンの作成（ターゲットの承認）  {#creating-a-collaborative-campaign--by-target-approval-}
 
 ### はじめに {#introduction}
 
@@ -100,9 +100,9 @@ ht-degree: 100%
 1. 協調キャンペーンを作成します。
 1. キャンペーンをパブリッシュします。
 
-### ローカルエンティティの手順 {#local-entity-side}
+### ローカルエンティティ側 {#local-entity-side}
 
-1. キャンペーンの参加者として指定されているローカルエンティティに、E メールの通知が送信されます。
+1. キャンペーンの参加者として指定されているローカルエンティティにメール通知が届きます。
 
    ![](assets/mkg_dist_use_case_target_valid8.png)
 
@@ -116,7 +116,7 @@ ht-degree: 100%
 
 連絡先の確認が終了すると、キャンペーンは自動的に開始されます。
 
-### セントラルエンティティの手順 {#central-entity-side}
+### セントラルエンティティ側 {#central-entity-side}
 
 #### データ配分アクティビティの作成 {#creating-a-data-distribution-activity}
 
@@ -159,7 +159,7 @@ ht-degree: 100%
 
 1. レコードを保存します。
 
-#### キャンペーンのパブリッシュ {#publishing-the-campaign}
+#### キャンペーンの公開 {#publishing-the-campaign}
 
 「**[!UICONTROL キャンペーン]**」タブから&#x200B;**キャンペーンパッケージ**&#x200B;を追加できるようになりました。
 
@@ -178,7 +178,7 @@ ht-degree: 100%
 
    ![](assets/mkg_dist_use_case_target_valid2.png)
 
-## 協調キャンペーン（フォーム）の作成  {#creating-a-collaborative-campaign--by-form-}
+## 協調キャンペーンの作成（フォーム）  {#creating-a-collaborative-campaign--by-form-}
 
 ### はじめに {#introduction-1}
 
@@ -208,7 +208,7 @@ ht-degree: 100%
 1. Web フォームを更新します。
 1. キャンペーンパッケージを作成し、パブリッシュします。
 
-### ローカルエンティティの手順 {#local-entity-side-1}
+### ローカルエンティティ側 {#local-entity-side-1}
 
 1. キャンペーンの参加者として選択されているローカルエンティティに、キャンペーンへの参加を通知する E メールが送信されます。
 
@@ -226,7 +226,7 @@ ht-degree: 100%
 
    ![](assets/mkg_dist_use_case_form_9.png)
 
-### セントラルエンティティの手順 {#central-entity-side-1}
+### セントラルエンティティ側 {#central-entity-side-1}
 
 1. 協調キャンペーン（フォーム）を実装するには、**協調キャンペーン（フォーム）**&#x200B;テンプレートを使用して、キャンペーンを作成する必要があります。
 

@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '669'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # コンテンツのエンリッチメント{#enriching-content}
+
+![](../../assets/common.svg)
 
 集約機能を利用すると、コンテンツを外部データでエンリッチメントできます。このデータは、汎用クエリまたはリンクされたテーブルから取得します。
 

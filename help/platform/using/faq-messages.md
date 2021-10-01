@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
 source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
 ht-degree: 100%
 
 ---
 
-# メッセージの検証、送信、およびトラッキング {#validate-send-track}
+# メッセージの検証、送信およびトラッキング {#validate-send-track}
 
 ![](../../assets/v7-only.svg)
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 [シードアドレスについて詳しくはここをクリック](../../delivery/using/about-seed-addresses.md)してください。
 
-### メッセージ送信前の承認プロセスはどのようにして設定できますか？  {#how-can-i-set-up-an-approval-process-before-sending-messages-}
+### メッセージ送信前の承認プロセスを設定するにはどうすればよいですか？ {#how-can-i-set-up-an-approval-process-before-sending-messages-}
 
 メッセージの設定にエラーが含まれていそうな箇所を見つけるために、配信の検証サイクルを設定することを強くお勧めします。必要に応じた頻度で、テスト受信者に配達確認を送信してコンテンツを承認するサイクルを実施します。この場合、変更を加えるたびに配達確認を送信して、コンテンツを承認することになります。
 
@@ -58,13 +58,13 @@ ht-degree: 100%
 
 ## メッセージの送信 {#send-your-messages}
 
-Adobe Campaign で、様々なチャネルでメッセージを送信する方法を学習します。
+Adobe Campaign を使用して様々なチャネルでメッセージを送信する方法について説明します。
 
-### どうすれば E メールをウェーブで送信できますか？  {#how-can-i-send-emails-in-waves-}
+### メールをウェーブで送信するにはどうすればよいですか？ {#how-can-i-send-emails-in-waves-}
 
-配信を大きな母集団に送信する前に、[ウェーブの設定](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)でメッセージを複数のバッチに分割して負荷を分散させることができます。
+配信を大きな母集団に送信する前に、メッセージを複数のバッチに分割して負荷を分散させるように[ウェーブを設定](../../delivery/using/steps-sending-the-delivery.md#sending-using-multiple-waves)することができます。
 
-### Campaign で E メールを作成する主な手順は？  {#which-are-the-key-steps-to-create-an-email-in-campaign-}
+### Campaign でメールを作成する主な手順は？  {#which-are-the-key-steps-to-create-an-email-in-campaign-}
 
 E メール配信は、作成と検証が済むと送信できます。E メールをすぐにメインターゲットに送信することも、配信を後日スケジュールすることもできます。必要に応じて、その前にターゲット母集団を推定することもできます。
 
@@ -76,7 +76,7 @@ E メール配信は、作成と検証が済むと送信できます。E メー�
 
 [詳しくはここをクリック](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending)してください。
 
-### E メールに添付ファイルを追加できますか？  {#can-i-add-an-attachment-to-emails-}
+### メールに添付ファイルを追加できますか？  {#can-i-add-an-attachment-to-emails-}
 
 Campaign Classic では、パーソナライズされた添付ファイルを E メールに追加できます。
 
@@ -84,9 +84,9 @@ Campaign Classic では、パーソナライズされた添付ファイルを E 
 
 ## メッセージのトラッキングと影響の測定 {#track-your-messages-and-measure-their-impact}
 
-メッセージを送信した後で、Adobe Campaign でトラッキングして影響を測定する方法を学習します。
+メッセージを送信した後で Adobe Campaign でメッセージをトラッキングし影響を測定する方法について説明します。
 
-### E メール配信でトラッキング対象リンクをどのようにして設定できますか？  {#how-can-i-configure-tracked-links-in-an-email-delivery-}
+### メール配信でトラッキング対象リンクを設定するにはどうすればよいですか？ {#how-can-i-configure-tracked-links-in-an-email-delivery-}
 
 配信ごとに、メッセージの受信と、メッセージコンテンツに挿入されたリンクの有効化をトラッキングできます。これによって、ターゲットとした配信アクションに続く受信者の行動をトラッキングできます。
 
@@ -96,7 +96,7 @@ Campaign Classic でのメッセージのトラッキング方法について[�
 
 ### 配信およびトラッキングのログはどこで参照できますか？  {#where-can-i-access-delivery-and-tracking-logs-}
 
-配信のトラッキング方法と受信者の動作については、[このページ](../../delivery/using/delivery-dashboard.md)を参照してください。
+配信をトラッキングし受信者の行動を把握する方法については、[このページ](../../delivery/using/delivery-dashboard.md)を参照してください。
 
 ### 配信レポートはどこで取得できますか？  {#where-can-i-get-delivery-reports-}
 
@@ -104,7 +104,7 @@ Adobe Campaign には、配信を監視し、メッセージをトラッキン�
 
 [組み込みレポートについて詳しくは、ここをクリック](../../reporting/using/delivery-reports.md)してください。
 
-### Adobe Campaign では強制隔離アドレスをどのように評価および管理していますか？  {#how-does-adobe-campaign-qualify-and-manage-quarantine-addresses-}
+### Adobe Campaign では強制隔離アドレスをどのように選定および管理していますか？  {#how-does-adobe-campaign-qualify-and-manage-quarantine-addresses-}
 
 Adobe Campaign では、強制隔離されたアドレスのリストを管理します。アドレスが強制隔離されている受信者は、配信分析時にデフォルトで除外され、ターゲットにされなくなります。例えば、メールボックスの容量が超過している場合や、アドレスが存在しない場合などに、E メールアドレスを強制隔離できます。
 

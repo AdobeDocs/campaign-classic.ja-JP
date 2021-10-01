@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1094'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ワークフローモード{#integrating-an-offer-via-a-workflow}
+
+![](../../assets/v7-only.svg)
 
 配信アクティビティ自体を除く、いくつかのワークフローアクティビティを使用すると、オファーの提示方法を定義できます。
 
@@ -111,7 +113,7 @@ ht-degree: 100%
    >
    >プレビュー可能な提案の数は、配信で実行された設定によって決まります。
 
-### オファーのランク付けと重み付けの格納 {#storing-offer-rankings-and-weights}
+### オファーのランク付けと重み付けの保存 {#storing-offer-rankings-and-weights}
 
 デフォルトでは、オファーの配信に「**エンリッチメント**」アクティビティを使用すると、オファーのランク付けと重み付けが提案テーブルに格納されません。
 
@@ -136,7 +138,7 @@ ht-degree: 100%
 
 ## オファーエンジン {#offer-engine}
 
-「**[!UICONTROL オファーエンジン]**」アクティビティも、配信の前にオファーエンジンの呼び出しを指定できます。
+「**[!UICONTROL オファーエンジン]**」アクティビティでも、配信の前にオファーエンジンに対する呼び出しを指定できます。
 
 このアクティビティは、エンリッチメントアクティビティと同じ原則でエンジン呼び出しによって作動します。つまり、配信の前に、インバウンド母集団のデータを、エンジンによって自動生成されたオファーでエンリッチメントします。
 

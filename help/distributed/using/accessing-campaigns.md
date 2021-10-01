@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: distributed-marketing
 exl-id: 5534bd5b-6888-4bf6-8a39-109c6fc0f6c3
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
 ht-degree: 100%
 
@@ -37,4 +37,4 @@ ht-degree: 100%
 
 ## キャンペーンの実行 {#campaign-execution}
 
-各ローカルエンティティは、キャンペーンワークフローを実行し、キャンペーンのテンプレートで定義されているプロセスに基づいて必要な承認をおこないます。
+各ローカルエンティティでは、キャンペーンワークフローを実行し、キャンペーンのテンプレートで定義されているプロセスに基づいて必要な承認を行うことができます。

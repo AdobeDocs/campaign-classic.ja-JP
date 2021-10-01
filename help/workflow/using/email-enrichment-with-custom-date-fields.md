@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '631'
 ht-degree: 100%
 
 ---
 
-# カスタム日付フィールドを使用した E メールエンリッチメント{#email-enrichment-with-custom-date-fields}
+# カスタム日付フィールドを使用したメールエンリッチメント{#email-enrichment-with-custom-date-fields}
+
+![](../../assets/common.svg)
 
 この例では、今月の誕生日を祝う受信者にカスタム日付フィールドを含む E メールを送信します。E メールには、誕生日の前後 1 週間有効なクーポンが含まれます。
 

@@ -6,18 +6,20 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
-source-wordcount: '617'
+source-wordcount: '621'
 ht-degree: 100%
 
 ---
 
 # ワークフローのプロパティ{#workflow-properties}
 
-## 「実行」タブ{#execution-tab}
+![](../../assets/common.svg)
 
-ワークフローの&#x200B;**[!UICONTROL プロパティ]**&#x200B;ウィンドウの「**[!UICONTROL 実行]**」タブは次の 3 つのセクションに分かれます。
+## 「実行」タブ {#execution-tab}
+
+ワークフローの&#x200B;**[!UICONTROL プロパティ]**&#x200B;ウィンドウの「**[!UICONTROL 実行]**」タブは次の 3 つのセクションに分かれています。
 
 ![](assets/wf_execution_tab.png)
 
@@ -39,7 +41,7 @@ ht-degree: 100%
 
    インストールに複数のワークフローサーバーが存在する場合、このフィールドを使用して、ワークフローを実行するマシンを選択します。このフィールドで定義した値がどのサーバーにも存在しない場合、ワークフローは保留中となります。
 
-   この[節](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities)を参照してください。
+   この [Campaign Classic v7 インストールガイド](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities)を参照してください。
 
 * **[!UICONTROL 履歴（日数）]**
 

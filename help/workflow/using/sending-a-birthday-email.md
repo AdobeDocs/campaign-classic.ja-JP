@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '934'
 ht-degree: 100%
 
 ---
 
-# 誕生日の電子メール送信{#sending-a-birthday-email}
+# 誕生日メールの送信{#sending-a-birthday-email}
+
+![](../../assets/common.svg)
 
 ## はじめに {#introduction}
 
@@ -38,7 +40,7 @@ ht-degree: 100%
    ![](assets/recur_delivery2.png)
 
 
-## その日が誕生日の受信者の識別 {#identifying-recipients-whose-birthday-it-is}
+## 当日が誕生日の受信者の識別 {#identifying-recipients-whose-birthday-it-is}
 
 ワークフローが毎日起動するように「**[!UICONTROL スケジューラー]**」アクティビティを設定したら、誕生日が現在の日付の受信者をすべて特定します。
 
@@ -96,7 +98,7 @@ ht-degree: 100%
 
 「**[!UICONTROL クエリ]**」アクティビティの結果を、「**[!UICONTROL E メール配信]**」アクティビティにリンクし、リストに記載されている受信者全員に誕生日の E メールを送信します。
 
-## 2 月 29 日に生まれた受信者を含む（オプション）{#including-recipients-born-on-february-29th--optional-}
+## 2 月 29 日に生まれた受信者を含む（オプション） {#including-recipients-born-on-february-29th--optional-}
 
 2 月 29 日に生まれた受信者全員を含めたい場合、この使用例では、閏年かどうかに関わらず、リスト内の受信者に対し、誕生日に繰り返し E メールを送信する方法を示します。
 
@@ -124,7 +126,7 @@ ht-degree: 100%
 
 現在の日付に対応する誕生日を持つ受信者の選択については、[その日が誕生日の受信者の識別](#identifying-recipients-whose-birthday-it-is)の節で説明しています。
 
-### 手順 2：閏年であるかどうかを選択 {#step-2--select-whether-or-not-it-is-a-leap-year}
+### 手順 2：閏年かどうかの選択 {#step-2--select-whether-or-not-it-is-a-leap-year}
 
 「**[!UICONTROL テスト]**」アクティビティでは、今年が閏年であるかどうか、また現在の日付が 3 月 1 日であるかどうかの確認ができます。
 
@@ -184,7 +186,7 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 
 ![](assets/birthday-workflow_usecase_4.png)
 
-### 手順 3：2 月 29 日生まれの受信者をすべて選択 {#step-3--select-any-recipients-born-on-february-29th}
+### 手順 3：2 月 29 日生まれの全受信者の選択 {#step-3--select-any-recipients-born-on-february-29th}
 
 **[!UICONTROL 分岐]**&#x200B;アクティビティを作成し、アウトバウンドトランジションの 1 つを&#x200B;**[!UICONTROL クエリ]**&#x200B;アクティビティとリンクします。
 
@@ -202,7 +204,7 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 
 >[!CAUTION]
 >
->ワークフローを実行するには、キャンペーンパッケージに関するテクニカルワークフローを開始する必要があります。詳しくは、[テクニカルワークフローのリスト](../../workflow/using/about-technical-workflows.md)の節を参照してください。
+>ワークフローを実行するには、キャンペーンパッケージに関するテクニカルワークフローを開始する必要があります。詳しくは、[テクニカルワークフローのリスト](about-technical-workflows.md)の節を参照してください。
 >
 >キャンペーンに対して承認手順が有効になっている場合は、これらの手順が確認された後でのみ配信されます。詳しくは、[承認するプロセスの選択](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved)の節を参照してください。
 

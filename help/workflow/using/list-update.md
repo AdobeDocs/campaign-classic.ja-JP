@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '542'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # リスト更新{#list-update}
+
+![](../../assets/common.svg)
 
 「**リスト更新**」アクティビティは、受信者リストのトランジションに指定された母集団を保存します。
 
@@ -41,7 +43,7 @@ ht-degree: 100%
 
 1. クエリの後に「**[!UICONTROL リスト更新]**」アクティビティを直接追加し、開いて編集することができます。
 
-   ワークフローでのクエリの作成について詳しくは、[クエリ](../../workflow/using/query.md)を参照してください。
+   ワークフローでのクエリの作成について詳しくは、[クエリ](query.md)を参照してください。
 
 1. アクティビティのラベルを選択する必要があります。
 1. 「**[!UICONTROL 必要に応じてリストを作成（名前を自動生成）]**」オプションを選択します。このオプションでは、最初のワークフローが実行されるとリストが作成され、それ以降ワークフローが実行されるたびに更新されます。
@@ -65,7 +67,7 @@ ht-degree: 100%
 
 ## 出力パラメーター {#output-parameters}
 
-* groupId：グループの ID。
+* groupId：グループ ID。
 
 ## チュートリアルビデオ {#video}
 

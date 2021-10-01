@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
-source-wordcount: '293'
+source-wordcount: '301'
 ht-degree: 100%
 
 ---
 
 # クロスチャネル配信{#cross-channel-deliveries}
+
+![](../../assets/common.svg)
 
 クロスチャネル配信は、キャンペーンワークフローアクティビティの「**[!UICONTROL 配信]**」タブから使用可能です。
 
@@ -22,8 +24,8 @@ ht-degree: 100%
 * [メール](../../delivery/using/about-email-channel.md)
 * [ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)
 * [モバイル](../../delivery/using/sms-channel.md)
-* [Twitter](../../social/using/publishing-on-twitter.md)
-* [Facebook](../../social/using/publishing-on-facebook.md)
+* [Twitter](../../social/using/publishing-on-twitter.md)（Campaign Classic v7 のみ）
+* [Facebook](../../social/using/publishing-on-facebook.md)（Campaign Classic v7 のみ）
 * [iOS](../../delivery/using/create-notifications-ios.md)
 * [Android](../../delivery/using/create-notifications-android.md)
 

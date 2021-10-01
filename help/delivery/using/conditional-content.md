@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '493'
 ht-degree: 100%
@@ -15,12 +15,14 @@ ht-degree: 100%
 
 # 条件付きコンテンツ{#conditional-content}
 
+![](../../assets/common.svg)
+
 条件付きコンテンツフィールドを設定することで、例えば受信者のプロファイルに基づいて動的パーソナライゼーションを作成できます。特定の条件が成立した場合に、テキストブロックや画像を切り替えることができます。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#conditionnal-content-video)
 
 
-## E メール内での条件の使用 {#using-conditions-in-an-email}
+## メールでの条件の使用 {#using-conditions-in-an-email}
 
 次の例では、受信者の性別と興味の対象に基づいて動的にパーソナライズされるメッセージを作成する方法について説明します。
 
@@ -75,9 +77,9 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_conditional_content08.png)
 
-## 多言語の E メールの作成 {#creating-multilingual-email}
+## 多言語メールの作成 {#creating-multilingual-email}
 
-以下の例では、多言語の E メールを作成する方法について説明します。コンテンツは、受信者の優先言語に基づいて、いずれかの言語で表示されます。
+以下の例では、多言語メールの作成方法について説明します。コンテンツは、受信者の優先言語に基づいて、いずれかの言語で表示されます。
 
 1. E メールを作成し、ターゲット母集団を選択します。この例では、表示するバージョンを決定する条件は、受信者のプロファイルの&#x200B;**言語**&#x200B;の値に基づいています。この例では、これらの値は **EN**、**FR**、**ES** に設定されています。
 1. E メールの HTML コンテンツで、「**[!UICONTROL ソース]**」タブをクリックし、次のコードを貼り付けます。

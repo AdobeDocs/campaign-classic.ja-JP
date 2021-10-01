@@ -6,14 +6,16 @@ audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: 1da8b954f1ed8b3e1433b920149e968cb89a97c5
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # モバイルアプリチャネルの基本を学ぶ{#about-mobile-app-channel}
+
+![](../../assets/common.svg)
 
 **モバイルアプリチャネル**&#x200B;では、Adobe Campaign プラットフォームを使用して、パーソナライズされた通知をアプリから iOS および Android 端末に送信できます。
 
@@ -100,6 +102,6 @@ Adobe Campaign サーバーは、iOS HTTP/2 コネクタ用の 443 ポートの 
    api.push.apple.com:443
    ```
 
-iOS HTTP/2コネクタを使用する場合、MTAおよびWebサーバーは、ポート443でAPNsと通信できる必要があります。
+iOS HTTP/2 コネクタを使用する場合、MTA と web サーバーはポート 443 で APN と接続できる必要があります。
 
-プロキシ経由でiOS HTTP/2コネクタを使用する必要がある場合は、この[ページ](../../installation/using/file-res-management.md#proxy-connection-configuration)を参照してください。
+プロキシ経由で iOS HTTP/2 コネクタを使用する必要がある場合は、[このページ](../../installation/using/file-res-management.md#proxy-connection-configuration)を参照してください。

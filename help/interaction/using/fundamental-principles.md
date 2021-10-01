@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: general-operation
 exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # 基本原則{#fundamental-principles}
 
-## 環境のデプロイメント {#deploying-environments}
+![](../../assets/v7-only.svg)
+
+## 環境のデプロイ {#deploying-environments}
 
 オファーを管理する際に使用する各ターゲティングディメンション用に、次の2つの環境があります。
 
@@ -31,7 +33,7 @@ ht-degree: 100%
 
 ![](assets/architecture_interaction1.png)
 
-## インタラクションタイプとコンタクト方法 {#interaction-types-and-contact-methods}
+## インタラクションタイプと連絡方法 {#interaction-types-and-contact-methods}
 
 インタラクションには、（コンタクト先によって開始される）インバウンドインタラクションと、（オファー作成者によって開始される）アウトバウンドインタラクションの 2 つのタイプがあります。
 

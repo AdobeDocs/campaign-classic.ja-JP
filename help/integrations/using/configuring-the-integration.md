@@ -5,7 +5,7 @@ description: Campaign と AEM の統合を設定する方法を説明します
 audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '607'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 ---
 
 # 統合の設定{#configuring-the-integration}
+
+![](../../assets/common.svg)
 
 ## Adobe Campaign での設定 {#configuring-in-adobe-campaign}
 
@@ -26,7 +28,7 @@ ht-degree: 100%
 
 パーソナライゼーションフィールドやパーソナライゼーションブロックの管理などの高度な設定については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/jp/experience-manager/6-5/sites/administering/using/campaignonpremise.html)を参照してください。
 
-### Adobe Campaign での AEM 統合パッケージのインストール {#install-the-aem-integration-package-in-adobe-campaign}
+### Adobe Campaign への AEM 統合パッケージのインストール {#install-the-aem-integration-package-in-adobe-campaign}
 
 最初に **[!UICONTROL AEM 統合]**&#x200B;パッケージをインストールする必要があります。
 

@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: targeting-activities
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
 source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,4 +39,4 @@ ht-degree: 96%
 * **リストの更新**：インバウンドアクティビティの結果をリストに記録します。[リストの更新](../../workflow/using/list-update.md)の節を参照してください。
 * **データを更新**：データベース内のデータを大量に更新します。[データを更新](../../workflow/using/update-data.md)の節を参照してください。
 * **CRM コネクタ**：Adobe Campaign と CRM の間の同期を設定します。[CRM コネクタ](../../workflow/using/crm-connector.md)の節を参照してください。
-* **[!UICONTROL データソースの変更]**:ワークフローの作業用テーブルのデータソースを変 **[!UICONTROL 更できます]**。これにより、FDA、FFDA、ローカルデータベースなど、様々なデータソースにわたって、より柔軟にデータを管理できます。[CRM コネクタ](../../workflow/using/change-data-source.md)の節を参照してください。
+* **[!UICONTROL データソースを変更]**：ワークフロー&#x200B;**[!UICONTROL 作業用テーブル]**&#x200B;のデータソースを変更できます。これにより、FDA、FFDA、ローカルデータベースなど、様々なデータソースにわたって、より柔軟にデータを管理できます。[CRM コネクタ](../../workflow/using/change-data-source.md)の節を参照してください。

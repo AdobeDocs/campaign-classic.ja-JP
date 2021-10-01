@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1277'
 ht-degree: 100%
@@ -15,6 +15,8 @@ ht-degree: 100%
 
 
 # インスタンスの設定 {#creating-a-shared-connection}
+
+![](../../assets/v7-only.svg)
 
 トランザクションメッセージ機能を使用するには、コントロールインスタンスと実行インスタンスを設定する必要があります。次のいずれかを使用できます。
 * 1 つまたは複数の実行インスタンスに関連付けられた [ 1 つのコントロールインスタンス](#control-instance) 
@@ -117,7 +119,7 @@ ht-degree: 100%
 
 ![](assets/messagecenter_create_extaccount_006bis.png)
 
-## 実行インスタンスを設定 {#execution-instance}
+## 実行インスタンスの設定  {#execution-instance}
 
 >[!NOTE]
 >
@@ -131,7 +133,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->実行インスタンスを複数のコントロールインスタンスで使用する場合、フォルダーおよびオペレーターごとにデータを分けることができます。詳しくは、[複数のコントロールインスタンスの使用](#using-several-control-instances)を参照してください。
+>複数のコントロールインスタンスで実行インスタンスを使用する場合、フォルダーおよびオペレーターごとにデータを分けることができます。詳しくは、[複数のコントロールインスタンスの使用](#using-several-control-instances)を参照してください。
 
 1. 実行インスタンスで、オペレーターフォルダー（**[!UICONTROL 管理／アクセス管理／オペレーター]**）に移動します。
 1. **Message Center** エージェントを選択します。
@@ -148,7 +150,7 @@ ht-degree: 100%
 
 複数の実行インスタンスを使用する場合は、各実行インスタンスに対してこれらの手順を繰り返します。
 
-## 複数のコントロールインスタンスを使用 {#using-several-control-instances}
+## 複数のコントロールインスタンスの使用 {#using-several-control-instances}
 
 1 つの実行クラスターは複数のコントロールインスタンスで共有することができます。このタイプのアーキテクチャでは次の設定が必要です。
 
@@ -156,7 +158,7 @@ ht-degree: 100%
 
 すべての実行インスタンスのツリーにて、オペレーターにつきフォルダーを 1 つずつ作成し（**フォルダー 1** と&#x200B;**フォルダー 2**）、各オペレーターのフォルダーに対するお互いのデータアクセスを制限します。
 
-### コントロールインスタンスを設定 {#configuring-control-instances}
+### コントロールインスタンスの設定 {#configuring-control-instances}
 
 >[!NOTE]
 >
@@ -174,7 +176,7 @@ ht-degree: 100%
    >
    >コントロールインスタンスの設定については、[この節](#control-instance)を参照してください。
 
-### 実行インスタンスを設定 {#configuring-execution-instances}
+### 実行インスタンスの設定 {#configuring-execution-instances}
 
 >[!NOTE]
 >

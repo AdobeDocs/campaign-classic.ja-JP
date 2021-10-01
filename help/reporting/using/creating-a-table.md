@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '2643'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # テーブルの作成{#creating-a-table}
+
+![](../../assets/common.svg)
 
 レポートにテーブルを追加して、データを表示できます。追加できるテーブルには、キューブの測定に基づいて作成されたピボットテーブル、グループ化されたリスト、値の分類を含むテーブルがあります。
 
@@ -27,7 +29,7 @@ ht-degree: 100%
 >
 >テーブルを含む&#x200B;**[!UICONTROL ページ]**&#x200B;アクティビティの前に、レポートで分析するデータを収集するための&#x200B;**[!UICONTROL クエリ]**&#x200B;または&#x200B;**[!UICONTROL スクリプト]**&#x200B;アクティビティが必要です。これらのアクティビティについて詳しくは、[分析するデータの収集](../../reporting/using/collecting-data-to-analyze.md)および[スクリプトアクティビティ](../../reporting/using/advanced-functionalities.md#script-activity)を参照してください。
 
-### 動作の仕組み {#operating-principle}
+### 動作原理 {#operating-principle}
 
 複数のデータカテゴリを一度に分析しなければならないことがあります。グループ化されたリストでは、データを組み合わせて、同じテーブル内のデータの様々なグループに関する統計を作成できます。それには、テーブルにグループを作成します。
 
@@ -37,7 +39,7 @@ ht-degree: 100%
 
 ![](assets/s_advuser_ergo_listgroup_005.png)
 
-### 実装の手順 {#implementation-steps}
+### 実装手順 {#implementation-steps}
 
 完全な実装例は、[使用例：グループリストを含むレポートの作成](#use-case--create-a-report-with-a-group-list)で説明しています。
 
@@ -195,7 +197,7 @@ ht-degree: 100%
 
 ![](assets/s_advuser_ergo_listgroup_016.png)
 
-## 使用例：グループリストを含むレポートの作成 {#use-case--create-a-report-with-a-group-list}
+## ユースケース：グループリストを含んだレポートの作成 {#use-case--create-a-report-with-a-group-list}
 
 この例では、2 ページから成るレポートを作成します。最初のページには、キャンペーンのリストとキャンペーンごとの合計配信数のほか、送信されたメッセージの数が表示されます。配信名はクリック可能なリンクになっており、それをクリックすると、レポートの 2 番目のページに移動し、テーブルやグラフで選択した配信の E メールドメインごとの配信の分類が表示されます。2 番目のページでは、テーブルはグラフの凡例になります。
 

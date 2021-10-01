@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '230'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # 繰り返し配信{#recurring-delivery}
 
-「**[!UICONTROL 繰り返し配信]**」アクティビティでは、キャンペーン固有の配信テンプレートの繰り返しを設定できます。
+![](../../assets/common.svg)
+
+「**[!UICONTROL 繰り返し配信]**」アクティビティでは、キャンペーン固有の配信テンプレートの発生件数を設定できます。
 
 ![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#recurring-delivery-video)
 
@@ -31,7 +33,7 @@ ht-degree: 100%
 
 このアクティビティの設定プロセスで使用できるオプションは、配信テンプレートの作成プロセスで使用できるオプションとほぼ同じです。詳しくは、[この節](../../delivery/using/about-templates.md)を参照してください。
 
-このアクティビティの使用例については、この[節](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)を参照してください。
+このアクティビティの使用例については、この[節](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)を参照してください。
 
 ## 繰り返し配信の設定方法
 

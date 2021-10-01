@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1628'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 配信レポート {#delivery-reports}
+
+![](../../assets/common.svg)
 
 配信の概要からアクセス可能な様々なレポート経由で、配信の実行をトラッキングできます。レポートを表示するには、次の手順に従います。
 
@@ -118,7 +120,7 @@ ht-degree: 100%
 
 ## URL とクリックストリーム {#urls-and-click-streams}
 
-このレポートは、配信後に訪問されたページのリストを表示します。
+このレポートでは、配信後に訪問されたページのリストを示します。
 
 ![](assets/s_ncs_user_url_report.png)
 

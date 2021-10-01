@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '458'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 配信パフォーマンスのベストプラクティス {#delivery-performances}
+
+![](../../assets/common.svg)
 
 配信の問題が発生した場合の配信パフォーマンスを確保すると共に、パフォーマンスの確認に以下のガイドラインに従うことをお勧めします。
 

@@ -6,14 +6,16 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # インポートとエクスポートのベストプラクティス {#import-export-best-practices}
+
+![](../../assets/common.svg)
 
 次に説明するいくつかのシンプルなルールに注意して従うと、データベース内のデータの一貫性を確保し、データベースの更新時またはデータのエクスポート時の一般的なエラーを避けるのに非常に有効です。
 
@@ -38,7 +40,7 @@ ht-degree: 98%
 * 区切り記号：タブまたはセミコロン
 * 最初の行は見出し
 * 文字列の区切り記号なし
-* 日付の形式：YYYY/MM/DD HH:mm:SS
+* 日付フォーマット：YYYY/MM/DD HH:mm:SS
 
 インポートするファイルの例：
 

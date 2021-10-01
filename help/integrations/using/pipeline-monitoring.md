@@ -5,7 +5,7 @@ description: 統合の設定
 audience: integrations
 content-type: reference
 exl-id: 84399496-33fd-4936-85e7-32de8503740f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 ---
 
 # パイプラインの監視 {#pipeline-monitoring}
+
+![](../../assets/common.svg)
 
 [!DNL pipelined] ステータス Web サービスは、[!DNL pipelined] プロセスのステータスに関する情報を提供します。
 

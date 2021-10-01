@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
-source-git-commit: 360fd1ed8970c17c0687eaca0a4c1960d6f5838c
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '783'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ユースケース：E メール配信の作成{#use-case-creating-an-email-delivery}
+
+![](../../assets/common.svg)
 
 この使用例では、Adobe Campaign デジタルコンテンツエディター（DCE）を使用した E メール配信をデザインするための手順を説明します。
 

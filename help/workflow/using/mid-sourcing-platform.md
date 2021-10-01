@@ -5,7 +5,7 @@ description: ミッドソーシングプラットフォーム
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '52'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 
 
 # ミッドソーシングプラットフォーム{#mid-sourcing-platform}
+
+![](../../assets/common.svg)
 
 以下に説明するワークフローは、デフォルトで&#x200B;**ミッドソーシングプラットフォーム**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../installation/using/mid-sourcing-deployment.md)を参照してください。
 

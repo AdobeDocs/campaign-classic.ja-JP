@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: a-b-testing
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
-source-git-commit: 895aa2fd4fa9c7c71c0073e9be33c12d4e92c9fa
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '93'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 配信テンプレートの作成 {#step-3--creating-two-delivery-templates}
+
+![](../../assets/common.svg)
 
 ここでは、2 つの配信テンプレートを作成します。各テンプレートは、「**[!UICONTROL 分割]**」アクティビティとリンクした「**[!UICONTROL E メール配信]**」アクティビティで参照されます。詳細については、[この節](about-templates.md)を参照してください。
 

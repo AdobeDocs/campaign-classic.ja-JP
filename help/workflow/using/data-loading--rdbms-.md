@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '203'
 ht-degree: 100%
@@ -15,9 +15,11 @@ ht-degree: 100%
 
 # データの読み込み（RDBMS）{#data-loading-rdbms}
 
+![](../../assets/common.svg)
+
 「**[!UICONTROL データの読み込み（RDBMS）]**」アクティビティでは、外部データベースに直接アクセスし、ターゲティングに必要なデータを収集できます。
 
-パフォーマンスを向上させるには、外部データベースのデータを使用できるクエリアクティビティの使用をお勧めします。詳しくは、[外部データベースへのアクセス（FDA）](../../workflow/using/accessing-an-external-database--fda-.md)を参照してください。
+パフォーマンスを向上させるには、外部データベースのデータを使用できるクエリアクティビティの使用をお勧めします。詳しくは、[外部データベースへのアクセス（FDA）](accessing-an-external-database--fda-.md)を参照してください。
 
 手順は以下のようになります。
 

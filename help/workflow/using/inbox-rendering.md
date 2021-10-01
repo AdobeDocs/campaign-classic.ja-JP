@@ -5,7 +5,7 @@ description: ここでは、受信ボックスレンダリングパッケージ�
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '73'
 ht-degree: 100%
@@ -13,7 +13,9 @@ ht-degree: 100%
 ---
 
 
-# 受信ボックスレンダリング (IR){#inbox-rendering}
+# 受信ボックスレンダリング（IR）{#inbox-rendering}
+
+![](../../assets/common.svg)
 
 以下に説明するワークフローは、デフォルトで&#x200B;**受信ボックスレンダリング (IR)** モジュールと共にインストールされます。受信ボックスレンダリングについて詳しくは、[この節](../../delivery/using/inbox-rendering.md)を参照してください。
 

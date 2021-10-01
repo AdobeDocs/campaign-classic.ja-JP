@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '213'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 配信に関するレポートについて{#reports-on-deliveries}
+
+![](../../assets/common.svg)
 
 Adobe Campaign は、お客様のコンソールまたはインターネットブラウザー経由でアクセス可能な、いくつかのタイプのレポートを提供しています。
 

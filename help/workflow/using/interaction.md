@@ -5,9 +5,9 @@ description: インタラクション
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
-source-wordcount: '153'
+source-wordcount: '171'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,16 @@ ht-degree: 100%
 
 # インタラクション{#interaction}
 
-以下に説明するワークフローは、デフォルトで&#x200B;**オファーエンジン (インタラクション)** モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../interaction/using/interaction-and-offer-management.md)を参照してください。
+![](../../assets/common.svg)
+
+以下に説明するワークフローは、デフォルトで&#x200B;**オファーエンジン (インタラクション)**&#x200B;アドオンと共にインストールされます。
+
+詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
+
+![](assets/do-not-localize/v7.jpeg)[  Campaign v7 ドキュメント](../../interaction/using/interaction-and-offer-management.md)
+
+![](assets/do-not-localize/v8.png)[  Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html?lang=ja)
+
 
 <table> 
  <tbody> 

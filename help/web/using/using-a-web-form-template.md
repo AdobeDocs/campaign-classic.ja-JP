@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 0cbb8e4c-8cb4-4dd7-ad09-b8b3165c19a8
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '226'
 ht-degree: 100%
@@ -15,11 +15,13 @@ ht-degree: 100%
 
 # Web フォームテンプレートの使用{#using-a-web-form-template}
 
+![](../../assets/common.svg)
+
 フォームテンプレートは、再利用可能な設定で、新しいフォームを作成できます。デフォルトでは、フォームテンプレートは、Web アプリケーションテンプレートと共に&#x200B;**[!UICONTROL リソース／テンプレート／Web アプリケーションテンプレート]**&#x200B;ノードに格納されています。
 
 ここから、新しいテンプレートを作成したり、既存のフォームをテンプレートに変換したりできます。
 
-## 既存のフォームのテンプレートへの変換 {#convert-an-existing-form-into-a-template}
+## 既存フォームからテンプレートへの変換 {#convert-an-existing-form-into-a-template}
 
 フォームは、テンプレートに変更して、その設定を再利用できます。これをおこなうには、フォームを選択し、右クリックして&#x200B;**[!UICONTROL アクション／テンプレートとして保存]**&#x200B;を選択します。
 

@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1253'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Facebook へのパブリッシュ{#publishing-on-facebook}
+
+![](../../assets/v7-only.svg)
 
 設定が完了すると、ソーシャルマーケティングで Facebook ページのウォールにパブリケーションを投稿できます。
 
@@ -26,7 +28,7 @@ Facebook には次の制限があります。
 
 ## 配信の作成 {#creating-the-delivery}
 
-「**[!UICONTROL ブランドページにパブリッシュ]**」配信テンプレートを使用して、新しい配信を作成します。
+「**[!UICONTROL ブランドページに公開]**」配信テンプレートを使用して、新しい配信を作成します。
 
 ![](assets/social_facebook_delivery_001.png)
 
@@ -90,7 +92,7 @@ Facebook には次の制限があります。
 * **[!UICONTROL YouTube リンク付きステータス]**
 * **[!UICONTROL フォトアルバム]**
 
-### ステータスのパブリッシュ {#publishing-a-status}
+### ステータスの公開 {#publishing-a-status}
 
 ステータスタイプの配信には、次の例のようにテキストのみを含めることができます。
 
@@ -100,7 +102,7 @@ Facebook には次の制限があります。
 
 ![](assets/social_facebook_delivery_015.png)
 
-### リンク付きステータスのパブリッシュ {#publishing-a-status-with-a-link}
+### リンク付きステータスの公開 {#publishing-a-status-with-a-link}
 
 リンク付きステータスタイプの配信には、テキスト、画像、およびリンクを含めることができます。以下の節では、配信編集画面のフィールドと Facebook 上の最終的な投稿との相関について説明します。
 
@@ -138,7 +140,7 @@ Facebook には次の制限があります。
 
 ![](assets/social_facebook_delivery_005.png)
 
-### YouTube リンク付きステータスのパブリッシュ {#publishing-a-status-with-a-youtube-link}
+### YouTube リンク付きステータスの公開 {#publishing-a-status-with-a-youtube-link}
 
 このタイプのコンテンツを使用すると、YouTube 動画へのリンクを投稿できます。通常のリンク付きステータスと同様に、ステータス、名前、キャプション、説明および追加のリンクを定義できます。画像は Facebook が自動的に追加します。配信編集画面のフィールドと Facebook 上の最終的な投稿との相関を以下に示します。
 
@@ -158,7 +160,7 @@ Facebook には次の制限があります。
 
 ![](assets/social_facebook_delivery_youtube.png)
 
-### フォトアルバムのパブリッシュ {#publishing-a-photo-album}
+### フォトアルバムの公開 {#publishing-a-photo-album}
 
 このタイプのコンテンツを使用すると、フォトアルバムをパブリッシュできます。アルバムの名前と説明、さらに各写真のキャプションを追加できます。配信編集画面のフィールドと Facebook 上の最終的な投稿との相関を以下に示します。
 

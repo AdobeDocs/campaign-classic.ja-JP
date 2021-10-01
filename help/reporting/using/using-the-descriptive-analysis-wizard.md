@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: analyzing-populations
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1644'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 記述的分析ウィザードの使用{#using-the-descriptive-analysis-wizard}
+
+![](../../assets/common.svg)
 
 記述的分析レポートを作成するには、専用のウィザードを使用します。設定は、分析するデータおよび希望するレンダリングによって異なります。
 
@@ -106,7 +108,7 @@ ht-degree: 100%
 
    ![](assets/reporting_descriptive_initialize_modulo_result.png)
 
-### テーブルでのデータ表示 {#displaying-data-in-the-table}
+### データのテーブル表示 {#displaying-data-in-the-table}
 
 ツールバーを使用すると、列の削除、列ではなく行でのデータ表示、列の左または右への移動、値の計算の表示または変更など、テーブルでの変数の表示をパーソナライズできます。
 
@@ -116,7 +118,7 @@ ht-degree: 100%
 
 統計の名前や小計の表示／非表示を切り替えたり、統計の方向を選択したりできます。詳しくは、[分析レポートの表示設定](../../reporting/using/processing-a-report.md#analysis-report-display-settings)を参照してください。
 
-### グラフでのデータ表示 {#displaying-data-in-the-chart}
+### データのグラフ表示 {#displaying-data-in-the-chart}
 
 記述的分析ウィザードの最初の段階では、テーブルを使用せずにグラフ形式のみでデータを表示することを選択できます。その場合は、グラフを設定する際に変数選択をおこなう必要があります。まず、表示する変数の数を選択し、関連するデータベースのフィールドを選択します。
 

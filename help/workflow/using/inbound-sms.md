@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '118'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # インバウンド SMS{#inbound-sms}
 
-「**インバウンド SMS**」アクティビティでは、外部サーバーからテキストメッセージをダウンロードして処理できます。
+![](../../assets/common.svg)
+
+「**インバウンド SMS**」アクティビティでは、外部アカウントからテキストメッセージをダウンロードして処理できます。
 
 ## プロパティ {#properties}
 
@@ -31,4 +33,4 @@ ht-degree: 100%
 
 1. **[!UICONTROL 有効期限]**
 
-「**[!UICONTROL スクリプト]**」、「**[!UICONTROL スケジュール]**」および「**[!UICONTROL 有効期限]**」の各タブについて詳しくは、[インバウンド E メール](../../workflow/using/inbound-emails.md)を参照してください。
+「**[!UICONTROL スクリプト]**」、「**[!UICONTROL スケジュール]**」および「**[!UICONTROL 有効期限]**」の各タブについて詳しくは、[インバウンド E メール](inbound-emails.md)を参照してください。

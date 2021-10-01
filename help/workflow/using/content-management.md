@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '463'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # コンテンツ管理{#content-management}
+
+![](../../assets/common.svg)
 
 「**コンテンツ管理**」アクティビティでは、コンテンツの作成と操作、およびこのコンテンツに基づくファイルの生成をおこなうことができます。その後、このコンテンツを「配信」アクティビティ経由で配信できます。
 
@@ -101,4 +103,4 @@ ht-degree: 100%
 
 ## 例 {#examples}
 
-例については、[この節](../../delivery/using/automating-via-workflows.md#examples)を参照してください。
+この[節](../../delivery/using/automating-via-workflows.md#examples)の例を参照してください。

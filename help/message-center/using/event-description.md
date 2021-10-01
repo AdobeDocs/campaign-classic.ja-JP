@@ -6,14 +6,16 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '752'
 ht-degree: 100%
 
 ---
 
-# イベントの説明 {#event-description}
+# イベントの記述 {#event-description}
+
+![](../../assets/v7-only.svg)
 
 ## トランザクションメッセージのデータモデル {#about-transactional-messaging-datamodel}
 
@@ -152,7 +154,7 @@ PushEvents の使用例：
     </ctx>
 ```
 
-## SOAP 呼び出しにより返される情報： {#information-returned-by-the-soap-call}
+## SOAP 呼び出しから返される情報 {#information-returned-by-the-soap-call}
 
 イベントを受け取ると、Adobe Campaign は一意の戻り識別子を生成します。これが、アーカイブバージョンのイベントの識別子になります。
 

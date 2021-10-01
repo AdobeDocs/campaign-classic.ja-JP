@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
-source-git-commit: 94e609f3df94c553e2ec84ee427887a767b9af21
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '212'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Adobe Target との統合の設定{#configuring-the-integration-with-adobe-target}
+
+![](../../assets/common.svg)
 
 ## 前提条件 {#prerequisites}
 

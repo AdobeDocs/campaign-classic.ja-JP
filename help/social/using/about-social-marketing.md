@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: introduction
 exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ソーシャルマーケティングについて{#about-social-marketing}
+
+![](../../assets/v7-only.svg)
 
 ソーシャルネットワークを管理するために設計された&#x200B;**ソーシャルネットワーク管理**（ソーシャルマーケティング）アプリケーションを使用すると、Facebook や Twitter を使用して顧客や見込み客とやり取りすることができます。
 

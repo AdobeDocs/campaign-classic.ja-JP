@@ -6,7 +6,7 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
-source-git-commit: 86963746d3de3396963d221ddbd1ef7d89733d2f
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '877'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 収集したデータの公開、トラッキングおよび使用{#publish-track-and-use-collected-data}
+
+![](../../assets/v7-only.svg)
 
 フォームの作成、設定、パブリッシュが完了したら、オーディエンスとリンクを共有して反応をトラッキングできます。
 

@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '2154'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # インバウンドチャネル{#offers-on-an-inbound-channel}
 
-## 匿名訪問者に対するオファー提案 {#presenting-an-offer-to-an-anonymous-visitor}
+![](../../assets/v7-only.svg)
+
+## 匿名訪問者に対するオファーの提案 {#presenting-an-offer-to-an-anonymous-visitor}
 
 Neobank という会社のサイトで、ページを閲覧した匿名訪問者に対するオファーを Web サイト上に表示するものとします。
 
@@ -147,7 +149,7 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
 同じユーザーが何回もページにアクセスすると、カテゴリの各オファーに適用されている重み付けは等しいので、いずれかのオファーが表示されます。
 
-## コンタクト先が識別されていない場合の匿名環境への切り替え {#switching-to-an-anonymous-environment-in-case-of-unidentified-contacts}
+## 連絡先が識別されていない場合の匿名環境への切り替え {#switching-to-an-anonymous-environment-in-case-of-unidentified-contacts}
 
 Neobank が、異なる 2 つのターゲットに向けたマーケティングオファーを作成するものとします。匿名の Web サイトブラウザーに対しては、汎用的なオファーを表示します。ユーザーが Neobank 発行の ID を持った顧客であると判明した場合は、ログイン後すぐに、パーソナライズされたオファーを表示するようにします。
 
@@ -191,7 +193,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
    1. [Web ページのオファースペース設定](#configuring-offer-spaces-on-the-web-page)
    1. [識別したオファースペースの詳細設定](#specifying-the-advanced-settings-of-the-identified-offer-spaces)
 
-### 匿名コンタクト向け環境の作成 {#creating-an-environment-for-anonymous-contacts}
+### 匿名連絡先向け環境の作成 {#creating-an-environment-for-anonymous-contacts}
 
 1. 配信マッピングウィザードで、匿名インバウンドインタラクション向けのオファー環境を作成します（**訪問者**&#x200B;マッピング）。詳しくは、[オファー環境の作成](../../interaction/using/live-design-environments.md#creating-an-offer-environment)を参照してください。
 
@@ -224,7 +226,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
    ![](assets/offer_inbound_fallback_example_026.png)
 
-### 匿名環境のオファーカテゴリの作成 {#creating-offer-categories-in-an-anonymous-environment}
+### 匿名環境でのオファーカテゴリの作成 {#creating-offer-categories-in-an-anonymous-environment}
 
 まず、「**Best Offer**」（ベストオファー）および「**Partner**」（パートナー）という 2 つのオファーカテゴリを作成します。各カテゴリには、匿名コンタクト向けのオファーを 2 件ずつ用意します。
 
@@ -276,7 +278,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
 1. 各オファーに対して承認サイクルを実行し、ライブ環境への反映を開始します。コンテンツの承認時には、オファーに応じて「**Partner**」または「**Best Offer**」のいずれかのオファースペースを有効化します。
 
-### 識別された環境のオファースペースの設定 {#configure-the-offer-spaces-in-the-identified-environment}
+### 識別した環境でのオファースペースの設定 {#configure-the-offer-spaces-in-the-identified-environment}
 
 この Web サイトに提示するオファーは、「**Best Offer**」および「**Partner**」の 2 つの異なるカテゴリから取得されます。この例では、各カテゴリに特定のオファースペースを 1 つずつ作成します。
 
@@ -295,7 +297,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
    ![](assets/offer_inbound_fallback_example_007.png)
 
-### 識別されたオファースペースの詳細設定 {#specifying-the-advanced-settings-of-the-identified-offer-spaces}
+### 識別したオファースペースの詳細設定の指定 {#specifying-the-advanced-settings-of-the-identified-offer-spaces}
 
 この例では、Adobe Campaign データベースの E メールアドレス情報を利用してコンタクト先を識別します。受信者の E メールをスペースに追加するには、次の手順に従います。
 
@@ -317,7 +319,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
    ![](assets/offer_inbound_fallback_example_048.png)
 
-### 識別された環境のオファーカテゴリの作成 {#creating-offer-categories-in-an-identified-environment}
+### 識別した環境でのオファーカテゴリの作成 {#creating-offer-categories-in-an-identified-environment}
 
 「**Best Offer**」および「**Partner**」という 2 つのカテゴリを作成し、パーソナライズされたオファーを各カテゴリに 2 つずつ用意します。
 

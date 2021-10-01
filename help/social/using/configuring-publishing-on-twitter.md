@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 2d2a6e32-587d-4a7b-ba1c-d9140da53f64
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '794'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # Twitter へのパブリッシュの設定{#configuring-publishing-on-twitter}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign で Twitter アカウントに対してツイートを送信できるようにするには、これらのアカウントの Adobe Campaign への書き込みアクセス権をデリゲートする必要があります。それには、次の設定手順に従います。
 

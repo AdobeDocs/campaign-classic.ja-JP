@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: annexes
 exl-id: 83883ba3-e4dc-428c-a377-1986cfd1fe55
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '76'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # トラッキング{#tracking}
+
+![](../../assets/v7-only.svg)
 
 ソーシャルマーケティングは、Facebook および Twitter の配信の反応率を測定したり、Facebook のプロフィールの獲得を分析したりできるレポートを提供します。次のレポートを使用できます。
 

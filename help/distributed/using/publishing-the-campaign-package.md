@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: distributed-marketing
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
 ht-degree: 100%
 
@@ -41,11 +41,11 @@ ht-degree: 100%
 
 ## 他のレビュー担当者の追加 {#adding-other-reviewers}
 
-キャンペーンパッケージの「**[!UICONTROL 承認パラメーター...]**」タブにある「**[!UICONTROL 編集...]**」リンクを使用すると、他のレビュー担当者を追加することができます。
+キャンペーンパッケージの「**[!UICONTROL 承認パラメーター...]**」タブにある「**[!UICONTROL 編集...]**」リンクを使用すると、他のレビュー担当者を追加できます。
 
 ![](assets/s_advuser_mkg_dist_select_op_valid.png)
 
-## 承認の期間 {#approval-periods}
+## 承認期間 {#approval-periods}
 
 デフォルトでは、レビュー担当者には登録日から 3 日間、承認を処理するための期間が与えられます。
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 承認の期間が定義され、パッケージの承認が申請されると、実行スケジュールが「**[!UICONTROL 監査]**」タブに表示されます。スケジュールには、現在の設定に基づいて算出された処理期限と設定されたすべてのリマインダーの日付が含まれます。
 
-## Adobe Campaign コンソールを使用する承認 {#approving-via-the-adobe-campaign-console}
+## Adobe Campaign コンソールを使用した承認 {#approving-via-the-adobe-campaign-console}
 
 レビュー担当者が一人も指定されていないか、通知を受けたオペレーターが誰もパッケージを承認していない場合、「**[!UICONTROL パッケージを承認]**」ボタンを使用して、キャンペーンパッケージの&#x200B;**[!UICONTROL ダッシュボード]**&#x200B;またはパッケージの概要から直接、承認の段階に進むことができます。
 

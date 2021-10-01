@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '820'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 入力フォーム{#input-forms}
+
+![](../../assets/common.svg)
 
 Adobe Campaign の入力フォーム使用に関する一般的な原理を一部紹介します。
 
@@ -119,7 +121,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 >
 >コントロールの左側にコレクション要素のラベルを表示しないようにするには、**nolabel=&quot;true&quot;** 属性を追加します。
 
-#### リストの詳細表示 {#zoom-in-a-list}
+#### リストのズームイン {#zoom-in-a-list}
 
 リストデータの挿入と編集は、別々の編集フォームで実行できます。
 

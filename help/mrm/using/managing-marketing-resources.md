@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
-source-git-commit: 690f7c4e62203127da7a7055afa0ee8ad4a2bce4
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1445'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # マーケティングリソースの管理{#managing-marketing-resources}
+
+![](../../assets/v7-only.svg)
 
 Adobe Campaign では、キャンペーンライフサイクルに関連するマーケティングリソースを管理およびトラッキングできます。マーケティングリソースとは、パンフレットや視覚資料、または複数のオペレーターが関係するその他の通信媒体です。
 

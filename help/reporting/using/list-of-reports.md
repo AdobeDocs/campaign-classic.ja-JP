@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1007'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # レポートのリスト{#list-of-reports}
+
+![](../../assets/common.svg)
 
 ## 配信に関するレポート {#reports-on-deliveries}
 
@@ -200,7 +202,7 @@ ht-degree: 100%
    <td> モバイルアプリケーションごとのアクティブな購読の分類（モバイルアプリチャネルのアドオンに依存）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 購読トラッキング（subscriptionsProgress）<br /> </td> 
+   <td> 購読のトラッキング （subscriptionsProgress）<br /> </td> 
    <td> 情報サービスの購読数の変化。<br /> </td> 
   </tr> 
   <tr> 

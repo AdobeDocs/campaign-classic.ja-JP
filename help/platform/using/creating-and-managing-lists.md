@@ -2,18 +2,20 @@
 product: campaign
 title: リストの作成および管理
 description: リストの作成および管理方法を説明します。
-feature: プロファイル
+feature: Profiles
 role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
-workflow-type: tm+mt
-source-wordcount: '870'
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
+source-wordcount: '869'
 ht-degree: 100%
 
 ---
 
 # リストの作成と管理{#creating-and-managing-lists}
+
+![](../../assets/common.svg)
 
 ## リストとは  {#about-lists-in-adobe-campaign}
 

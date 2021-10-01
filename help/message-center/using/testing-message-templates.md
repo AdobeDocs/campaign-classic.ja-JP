@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '578'
 ht-degree: 100%
@@ -15,9 +15,11 @@ ht-degree: 100%
 
 # トランザクションメッセージテンプレートのテスト {#testing-message-templates}
 
-[メッセージテンプレート](../../message-center/using/creating-the-message-template.md)の準備が整ったら、次の手順に従ってプレビューし、テストします。
+![](../../assets/v7-only.svg)
 
-## トランザクションメッセージのシードアドレスの管理 {#managing-seed-addresses-in-transactional-messages}
+[メッセージテンプレート](../../message-center/using/creating-the-message-template.md)の準備が整ったら、次の手順に従ってプレビューしテストします。
+
+## トランザクションメッセージでのシードアドレスの管理 {#managing-seed-addresses-in-transactional-messages}
 
 シードアドレスを使用すると、E メールまたは SMS 配信の前に、メッセージのプレビューを表示したり、配達確認を送信したり、メッセージのパーソナライゼーションを検証したりすることができます。シードアドレスは配信に関連付けられ、その他の配信に利用することはできません。
 
@@ -93,7 +95,7 @@ ht-degree: 100%
 
 シードアドレスを使用して、さまざまなインターネットアクセスプロバイダーに向けたメッセージのレンダリングを表示することもできます。詳しくは、[受信ボックスのレンダリング](../../delivery/using/inbox-rendering.md)を参照してください。
 
-## 配達確認を送信 {#sending-a-proof}
+## 配達確認の送信 {#sending-a-proof}
 
 作成済みのシードアドレスへ配達確認を送信することで、メッセージ配信をテストできます。
 

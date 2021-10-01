@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '711'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # イベントの処理 {#about-event-processing}
+
+![](../../assets/v7-only.svg)
 
 トランザクションメッセージのコンテキストでは、イベントは外部の情報システムによって生成され、**[!UICONTROL PushEvent]** および **[!UICONTROL PushEvents]** メソッドを介して Adobe Campaign に送信されます（[イベントの説明](../../message-center/using/event-description.md)を参照）。
 
@@ -23,7 +25,7 @@ ht-degree: 100%
 
 ![](assets/messagecenter_events_request_001.png)
 
-## イベント処理手順 {#event-processing}
+## イベントの処理手順 {#event-processing}
 
 トランザクションメッセージのイベントを処理するには、次の手順を実行インスタンスに適用します。
 

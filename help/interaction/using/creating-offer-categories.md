@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: ed97a1b5-c870-4b67-98b6-16adc316fd46
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '289'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # オファーカテゴリの作成{#creating-offer-categories}
+
+![](../../assets/v7-only.svg)
 
 オファーカテゴリの作成は、**[!UICONTROL デザイン]**&#x200B;環境でのみ実行できます。オファーカテゴリで作成／修正されたオファーが承認されると、オファーカテゴリは、自動的に&#x200B;**[!UICONTROL ライブ]**&#x200B;環境にデプロイされます（つまり、利用できるようになります）。デフォルトでは、**[!UICONTROL デザイン]**&#x200B;環境には、すべてのオファーを受け取るカテゴリが含まれています。サブカテゴリを作成すると、カタログオファーに階層を追加できます。
 

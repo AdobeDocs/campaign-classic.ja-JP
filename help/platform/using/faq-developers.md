@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
 source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-オープンなソリューションである Adobe Campaign は、カスタマイズと高度なアプリケーション開発ができるようになっています。
+オープンなソリューションである Adobe Campaign は、カスタマイズと高度なアプリケーション開発に対応しています。
 
 ## Campaign データモデルとは何ですか？ {#what-is-the-campaign-data-model}
 
@@ -39,7 +39,7 @@ Adobe Campaign では、以下のためにデータスキーマが使用され�
 
 ## カスタム受信者テーブルの使用方法は？ {#how-to-use-a-custom-recipient-table-}
 
-メッセージを送信するために、Campaign で標準以外の受信者テーブルを作成および実装できます。
+Campaign で標準以外の受信者テーブルを作成および実装して、メッセージを送信できます。
 
 [詳しくはこちらをクリックしてください。](../../configuration/using/about-custom-recipient-table.md)
 
@@ -55,7 +55,7 @@ Adobe Campaign のクエリツールは、ターゲット母集団の作成、�
 
 [ここをクリック](../../workflow/using/query.md)して、Campaign クエリエディターを開きます。
 
-## データパッケージはどうすればインポートできますか？ {#how-can-i-import-a-data-package-}
+## データパッケージをインポートするにはどうすればよいですか？ {#how-can-i-import-a-data-package-}
 
 Adobe Campaign では、パッケージシステムを通じて、プラットフォーム設定とデータをエクスポートまたはインポートできます。データパッケージを使用すると、XML 形式のファイル経由で Adobe Campaign データベース内のエンティティを表示できます。パッケージに含まれる 1 つのエンティティは、それに該当するすべてのデータによって表現されます。
 
@@ -63,6 +63,6 @@ Adobe Campaign では、パッケージシステムを通じて、プラット�
 
 Campaign の設定をインポートおよびエクスポートするためにデータパッケージを使用する方法については、[ここをクリック](../../platform/using/working-with-data-packages.md)してください。
 
-## Campaign Classic API のリストはどこにありますか？ {#where-can-i-find-the-list-of-campaign-classic-apis}
+## Campaign Classic API のリストはどこで参照できますか？ {#where-can-i-find-the-list-of-campaign-classic-apis}
 
-詳細な説明を含むすべての Campaign API は、この[専用ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)で利用できます。
+すべての Campaign API とその詳細な説明については、この[専用ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)を参照してください。

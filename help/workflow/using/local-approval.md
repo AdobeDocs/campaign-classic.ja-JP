@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '699'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ローカルの承認{#local-approval}
+
+![](../../assets/common.svg)
 
 ターゲティングワークフローに統合する場合、「**[!UICONTROL ローカルの承認]**」アクティビティでは、配信が送信される前に受信者の承認プロセスを設定できます。
 
@@ -23,7 +25,7 @@ ht-degree: 100%
 >
 >このアクティビティを使用するには、キャンペーンオプションの 1 つである分散型マーケティングモジュールを購入する必要があります。使用許諾契約書を確認してください。
 
-配分テンプレートを使用した「**[!UICONTROL ローカルの承認]**」アクティビティの例については、[ローカルの承認アクティビティの使用](../../workflow/using/using-the-local-approval-activity.md)を参照してください。
+配分テンプレートを使用した「**[!UICONTROL ローカルの承認]**」アクティビティの例については、[ローカルの承認アクティビティの使用](using-the-local-approval-activity.md)を参照してください。
 
 まず、アクティビティのラベルを入力し、「**[!UICONTROL 実行するアクション]**」フィールドを指定します。
 
@@ -33,7 +35,7 @@ ht-degree: 100%
 
    ![](assets/local_validation_intro_2.png)
 
-* **増分処理クエリ**：クエリを実行し、実行を計画します。[増分処理クエリ](../../workflow/using/incremental-query.md)の節を参照してください。
+* **増分処理クエリ**：クエリを実行し、実行を計画します。[増分処理クエリ](incremental-query.md)の節を参照してください。
 
    ![](assets/local_validation_intro_3.png)
 
@@ -49,7 +51,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 配分のコンテキスト]**：「**[!UICONTROL 分割]**」タイプアクティビティを使用してターゲット母集団を限定する場合、「**[!UICONTROL トランジションで指定]**」オプションを選択します。この場合、配分テンプレートは分割アクティビティに入力されます。ターゲット母集団を限定しない場合、ここで「**[!UICONTROL 手動で指定]**」オプションを選択し、「**[!UICONTROL データ配分]**」フィールドに配分テンプレートを入力します。
 
-   データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](../../workflow/using/split.md#limiting-the-number-of-subset-records-per-data-distribution)を参照してください。
+   データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](split.md#limiting-the-number-of-subset-records-per-data-distribution)を参照してください。
 
 * **[!UICONTROL 承認管理]**
 
@@ -83,7 +85,7 @@ ht-degree: 100%
 
 ## 例：ワークフロー配信の承認 {#example--approving-a-workflow-delivery}
 
-この例では、ワークフロー配信の承認プロセスのセットアップ方法を示します。配信ワークフローの作成について詳しくは、[例：配信ワークフロー](../../workflow/using/delivery.md#example--delivery-workflow)の節を参照してください。
+この例では、ワークフロー配信の承認プロセスのセットアップ方法を示します。配信ワークフローの作成について詳しくは、[例：配信ワークフロー](delivery.md#example--delivery-workflow)の節を参照してください。
 
 オペレーターは、2 つの方法（メールメッセージ内にリンクされた Web ページを使用するか、コンソール経由）のいずれかで、配信を承認できます。
 

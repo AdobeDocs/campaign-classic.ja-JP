@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '3021'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 指標の計算 {#indicator-calculation}
+
+![](../../assets/common.svg)
 
 ## ユーザーアクティビティ {#user-activities-1}
 
@@ -445,7 +447,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 購読トラッキング {#subscription-tracking-1}
+## 購読のトラッキング  {#subscription-tracking-1}
 
 このレポートは、**[!UICONTROL サービス]**&#x200B;テーブル（nms:service）に基づいています。
 
@@ -889,7 +891,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 開封の分類 {#breakdown-of-opens-1}
+## 開封数の分類 {#breakdown-of-opens-1}
 
 このレポートは、**配信**&#x200B;テーブル（nms:delivery）および&#x200B;**トラッキングログ**&#x200B;テーブル（nms:trackingLogRcp）に基づいています。
 

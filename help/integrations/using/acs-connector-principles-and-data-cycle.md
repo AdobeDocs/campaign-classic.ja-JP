@@ -6,7 +6,7 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
 workflow-type: ht
 source-wordcount: '2044'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ACS コネクタの原則とデータサイクル{#acs-connector-principles-and-data-cycle}
+
+![](../../assets/v7-only.svg)
 
 ## はじめに {#introduction}
 
@@ -46,7 +48,7 @@ ACS コネクタを使用すると、デジタルマーケターが Campaign Sta
 
 ## プロセス {#process}
 
-### データレプリケーション {#data-replication}
+### データのレプリケーション {#data-replication}
 
 ![](assets/acs_connect_flows_01.png)
 
@@ -126,7 +128,7 @@ ACS コネクタには、2 つのタイプの実装があります。どちら�
 
 ACS コネクタに関連するすべての技術要素は、エクスプローラーの&#x200B;**[!UICONTROL 管理／ACS コネクタ]**&#x200B;ノードで使用できます。
 
-### テクニカルワークフローおよびレプリケーションワークフロー {#technical-and-replication-workflows}
+### テクニカルワークフローとレプリケーションワークフロー {#technical-and-replication-workflows}
 
 このパッケージをインストールしたら、**[!UICONTROL 管理／ACS コネクタ／プロセス]**&#x200B;で、テクニカルワークフローを使用できます。
 

@@ -5,9 +5,9 @@ description: ミッドソーシング転送ワークフローの詳細を説明�
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
-source-wordcount: '104'
+source-wordcount: '107'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # ミッドソーシング転送{#transfer-to-mid-sourcing}
 
-以下に説明するワークフローは、デフォルトで&#x200B;**ミッドソーシング転送**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../installation/using/mid-sourcing-deployment.md)を参照してください。
+![](../../assets/common.svg)
+
+以下に説明するワークフローは、デフォルトで&#x200B;**ミッドソーシング転送**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、[Campaign Classic v7 インストールガイド](../../installation/using/mid-sourcing-deployment.md)を参照してください。
 
 <table> 
  <tbody> 

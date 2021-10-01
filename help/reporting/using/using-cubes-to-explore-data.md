@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '991'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # キューブを使用したデータ調査{#using-cubes-to-explore-data}
+
+![](../../assets/common.svg)
 
 マーケティング分析を使用すると、レポートの作成と、キューブを介したデータベースからのデータの特定および選択が容易になります。これにより、以下が可能になります。
 
@@ -31,7 +33,7 @@ ht-degree: 100%
 
 キューブに基づいてレポートを作成するには、「**[!UICONTROL レポート]**」タブの「**[!UICONTROL 作成]**」ボタンをクリックして、使用するキューブを選択します。
 
-手順について詳しくは、[キューブに基づくレポートの作成 ](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube)を参照してください。
+プロセスについて詳しくは、[キューブに基づくレポートの作成 ](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube)を参照してください。
 
 ### 手順 2 - 行と列の選択 {#step-2---selecting-lines-and-columns}
 

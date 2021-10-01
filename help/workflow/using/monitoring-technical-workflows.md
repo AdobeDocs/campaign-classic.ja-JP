@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '545'
 ht-degree: 100%
@@ -15,11 +15,13 @@ ht-degree: 100%
 
 # テクニカルワークフローの監視 {#monitoring-technical-workflows}
 
+![](../../assets/common.svg)
+
 テクニカルワークフローは監視する必要があり、失敗した場合にアクションをおこなう必要があります。
 
 様々なキャンペーンプロセスを監視するその他の方法については、[このページ](../../production/using/monitoring-guidelines.md)で説明しています。
 
-## インスタンスの監視ダッシュボード {#instance-monitoring-dashboard}
+## インスタンス監視ダッシュボード {#instance-monitoring-dashboard}
 
 インスタンス監視ダッシュボードには、「**[!UICONTROL 監視]**」タブからアクセスできます。
 
@@ -37,26 +39,26 @@ ht-degree: 100%
 
 正常に動作するようにするには、テクニカルワークフローに応じて次で詳しく説明されている手順を実行します。
 
-各テクニカルワークフローで実行される処理について詳しく理解するには、この[節](../../workflow/using/about-technical-workflows.md)を参照してください。
+各テクニカルワークフローで実行される処理について詳しく理解するには、この[節](about-technical-workflows.md)を参照してください。
 
 **[!UICONTROL データベースクリーンアップワークフロー（「cleanup」）]**&#x200B;の場合：
 
-1. 毎日、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローが実行され、正常に完了していることを確認します。詳しくは、この[ページ](../../workflow/using/delivery.md)を参照してください。
+1. 毎日、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローが実行され、正常に完了していることを確認します。詳しくは、この[ページ](delivery.md)を参照してください。
 1. ジャーナルを確認して、経過時間が長期間、比較的一定していて、他のワークフローに干渉していないことを検証します。
 1. 詳しくは、この[ページ](../../production/using/database-cleanup-workflow.md)を確認してください。
 
 **[!UICONTROL トラッキングワークフロー（「tracking」）]**&#x200B;の場合：
 
-トラッキングワークフローがスケジュールどおりに実行され（デフォルトでは 1 時間ごと）、繰り返し発生するエラーがジャーナルにハイライト表示されていないことを確認します。詳しくは、[この節](../../workflow/using/delivery.md)を参照してください。
+トラッキングワークフローがスケジュールどおりに実行され（デフォルトでは 1 時間ごと）、繰り返し発生するエラーがジャーナルにハイライト表示されていないことを確認します。詳しくは、[この節](delivery.md)を参照してください。
 
 **[!UICONTROL 配信品質の更新（「deliverabilityUpdate」）]**&#x200B;の場合：
 
-1. 毎日、**[!UICONTROL 配信品質の更新]**&#x200B;ワークフローが実行され、正常に完了していることを確認します。詳しくは、この[ページ](../../workflow/using/delivery.md)を参照してください。
+1. 毎日、**[!UICONTROL 配信品質の更新]**&#x200B;ワークフローが実行され、正常に完了していることを確認します。詳しくは、この[ページ](delivery.md)を参照してください。
 1. ルールが定期的に更新されていることをジャーナルで検証します。
 
 **[!UICONTROL キャンペーンプロセス（「operationMgt」、「deliveryMgt」など]**）の場合：
 
-1. **[!UICONTROL キャンペーンプロセス]**&#x200B;フォルダーにあるすべてのワークフローを確認します。詳しくは、この[ページ](../../workflow/using/about-technical-workflows.md)を参照してください。
+1. **[!UICONTROL キャンペーンプロセス]**&#x200B;フォルダーにあるすべてのワークフローを確認します。詳しくは、この[ページ](about-technical-workflows.md)を参照してください。
 1. ワークフローがスケジュールどおりに実行され、繰り返し発生するエラーがジャーナルにハイライト表示されていないことを確認します。
 
 ## ワークフロー監視 {#workflow-supervision}

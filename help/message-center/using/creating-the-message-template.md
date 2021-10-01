@@ -6,7 +6,7 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
-source-git-commit: e86350cf12db37e3f2c227563057b97922601729
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '511'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # トランザクションメッセージテンプレートのデザイン {#creating-the-message-template}
+
+![](../../assets/v7-only.svg)
 
 各イベントをパーソナライズされたメッセージに変えるには、各イベントタイプに一致するメッセージテンプレートを作成する必要があります。
 

@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '797'
 ht-degree: 100%
 
 ---
 
 # プライバシーに関する FAQ {#privacy-faq}
+
+![](../../assets/common.svg)
 
 Adobe Campaign を使用する際の、プライバシーと同意に関するよくある質問の一部を以下に示します。
 
@@ -64,7 +66,7 @@ Adobe Campaign を使用する際の、プライバシーと同意に関する�
 
 * Adobe Campaign の各ユーザーについて、要求されるタスクの実行に必要なアクセス権限が設定され、それ以外のタスクをおこなう権限が設定されていないことを確認してください。
 
-## ユーザーエンゲージメントを保持 {#preserve-user-engagement}
+## ユーザーエンゲージメントの保持 {#preserve-user-engagement}
 
 ### データ管理者がユーザーエンゲージメントへの影響を最小限に抑えながら同意を得るにはどうすればよいですか。
 
@@ -104,7 +106,7 @@ Adobe Campaign のレポートは、配信ログとトラッキングログを�
 
 Adobe Campaign では、レコードは外部データソースからアップロードされることがよくあります。
 
-削除要求を受け取った場合、当該データ主体に関するすべてのデータをシステムから削除する必要があります。
+データ管理者は、削除要求を受け取ったら、当該データ主体に関する必要なすべてのデータをすべてのシステムから確実に削除する必要があります。
 
 ## 再オプトイン {#opt-in-again}
 

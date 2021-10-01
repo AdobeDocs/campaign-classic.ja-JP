@@ -5,7 +5,7 @@ description: Campaign Classic から Adobe Experience Platform にデータを�
 audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '503'
 ht-degree: 100%
@@ -13,6 +13,8 @@ ht-degree: 100%
 ---
 
 # Campaign から Adobe Experience Platform へのデータのエクスポート {#sources}
+
+![](../../assets/common.svg)
 
 Campaign Classic データをアドビのリアルタイム顧客データプラットフォーム（RTCDP）にエクスポートするには、まず、Campaign Classic でワークフローを作成して、共有するデータを S3 または Azure Blob のストレージの場所にエクスポートする必要があります。
 

@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '845'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # ウィザードモード{#integrating-an-offer-via-the-wizard}
+
+![](../../assets/v7-only.svg)
 
 配信を作成する際に、次の 2 つの方法でオファーを統合できます。
 
@@ -28,7 +30,7 @@ ht-degree: 100%
 
 ダイレクトメール配信の詳細については、[こちらの節](../../delivery/using/about-direct-mail-channel.md)を参照してください。 マーケティングキャンケーンの詳細については、 [こちらの節](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
 
-### オファーを配信に挿入する主な手順 {#main-steps-for-inserting-an-offer-into-a-delivery}
+### オファーを配信に挿入するための主な手順 {#main-steps-for-inserting-an-offer-into-a-delivery}
 
 オファーの提案を配信に挿入するには、次の手順に従います。
 
@@ -66,7 +68,7 @@ ht-degree: 100%
 
    ![](assets/offer_delivery_010.png)
 
-### オファーエンジン呼び出しのパラメーター {#parameters-for-calling-offer-engine}
+### オファーエンジンを呼び出すためのパラメーター {#parameters-for-calling-offer-engine}
 
 * **[!UICONTROL スペース]**：オファーエンジンを有効化するために選択する必要がある、オファー環境のスペース。
 * **[!UICONTROL カテゴリ]**：オファーが分類される特定のフォルダー。カテゴリが指定されてない場合、テーマが選択されていない限り、その環境に含まれるすべてのオファーがオファーエンジンによって考慮されます。

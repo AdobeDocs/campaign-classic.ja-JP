@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '474'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 顔文字リストのカスタマイズ {#customize-emoticons}
+
+![](../../assets/common.svg)
 
 ポップアップに表示される顔文字リストは、リストに値を表示して、特定のフィールドに対するユーザーの選択肢を制限できる列挙によって決まります。
 顔文字のリスト順序はカスタマイズすることができます。また、リストに他の顔文字を追加することもできます。

@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '167'
 ht-degree: 100%
 
 ---
 
-# レポートを作成する主な手順{#about-reports-creation-in-campaign}
+# レポートを作成するための主な手順{#about-reports-creation-in-campaign}
+
+![](../../assets/common.svg)
 
 Campaign データベース内のデータに関する統計情報を生成するために、レポートを作成し、その内容やレイアウトをニーズに応じて変更できます。これらのレポートは、他のオペレーターと共有できます。
 

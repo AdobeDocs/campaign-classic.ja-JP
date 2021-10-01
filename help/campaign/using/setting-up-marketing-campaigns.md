@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1294'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # マーケティングキャンペーンの基本を学ぶ{#setting-up-marketing-campaigns}
+
+![](../../assets/common.svg)
 
 キャンペーンには、アクション（配信）とプロセス（ファイルのインポートまたは抽出）だけでなく、マーケティングドキュメントや配信の概要といったリソースも含まれます。これらはマーケティングキャンペーンで使用されます。キャンペーンはプログラムの一部で、プログラムは 1 つのキャンペーンプランに含まれます。
 
@@ -95,7 +97,7 @@ ht-degree: 100%
 
 すると、キャンペーンダッシュボードが表示されます。
 
-## 繰り返しキャンペーンと定期的キャンペーン {#recurring-and-periodic-campaigns}
+## 繰り返しキャンペーンと定期的なキャンペーン {#recurring-and-periodic-campaigns}
 
 繰り返しキャンペーンは、特定のテンプレートをベースとするキャンペーンで、関連付けられたスケジュールに従って実行するようにワークフローが設定されています。そのため、1 つのキャンペーン内でワークフローが繰り返されます。ターゲティングは実行ごとに複製され、各種プロセスとターゲット母集団がトラッキングされます。ターゲットの推定を使用したシミュレーションを開始するために、自動ワークフロー作成時の対象期間によって、将来のターゲティングをあらかじめ実行することもできます。
 
@@ -103,7 +105,7 @@ ht-degree: 100%
 
 ### 繰り返しキャンペーンの作成 {#creating-a-recurring-campaign}
 
-繰り返しキャンペーンは、実行するワークフローテンプレートと実行スケジュールを定義する特定のテンプレートから作成します。
+繰り返しキャンペーンは、実行するワークフローテンプレートと実行スケジュールを定義した特定のテンプレートから作成します。
 
 #### 繰り返しキャンペーン用のテンプレートの作成 {#creating-the-campaign-template}
 
@@ -140,7 +142,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_op_template_recur_wf_option.png)
 
-#### 繰り返しキャンペーンを作成する {#create-the-recurring-campaign}
+#### 繰り返しキャンペーンの作成 {#create-the-recurring-campaign}
 
 繰り返しキャンペーンを作成し、テンプレートで定義されたスケジュールに従ってワークフローを実行するには、以下の手順を実行します。
 

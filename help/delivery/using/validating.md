@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '268'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 検証{#validating}
+
+![](../../assets/common.svg)
 
 配信を検証する際のグローバル概念については、[この節](steps-validating-the-delivery.md)で説明しています。
 

@@ -5,9 +5,9 @@ description: ソーシャルマーケティングテクニカルワークフロ�
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
-source-wordcount: '116'
+source-wordcount: '118'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,13 @@ ht-degree: 100%
 
 # ソーシャルマーケティング{#social-marketing}
 
-以下に説明するワークフローは、デフォルトで&#x200B;**ソーシャルマーケティング**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../social/using/starting-workflows.md)を参照してください。
+![](../../assets/common.svg)
+
+>[!AVAILABILITY]
+>
+>:warning: この機能は、Campaign Classic v7 でのみ使用できます。[詳細情報](../../social/using/about-social-marketing.md)
+
+以下に説明するワークフローは、デフォルトで&#x200B;**ソーシャルマーケティング**&#x200B;モジュールと共にインストールされます。
 
 <table> 
  <tbody> 

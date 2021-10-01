@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '273'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 配信の概要{#delivery-outline}
+
+![](../../assets/common.svg)
 
 **配信の概要**&#x200B;では、キャンペーンワークフローに概要を使用できます。概要は、あらかじめキャンペーン内に作成しておく必要があります。
 

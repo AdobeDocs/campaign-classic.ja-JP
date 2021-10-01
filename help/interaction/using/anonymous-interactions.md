@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a8face46-a933-4f2c-8299-ccb66f05967d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '467'
 ht-degree: 100%
@@ -15,9 +15,11 @@ ht-degree: 100%
 
 # 匿名インタラクション{#anonymous-interactions}
 
+![](../../assets/v7-only.svg)
+
 ![](assets/do-not-localize/how-to-video.png)識別されたターゲットと匿名ターゲットへのオファーの配信方法の概要については、この[ビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/indetified-and-anonymous-interaction-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com)をご覧ください。
 
-## 匿名インタラクション向け環境のターゲティングと格納 {#targeting-and-storing-an-environment-for-anonymous-interactions}
+## 匿名インタラクション向け環境のターゲティングと保存 {#targeting-and-storing-an-environment-for-anonymous-interactions}
 
 デフォルトでは、インタラクションには、受信者テーブルをターゲットとするように事前設定された環境（識別されたオファー）が 1 つ用意されています。別のテーブル（匿名オファー用の訪問者テーブルや特定の受信者テーブル）をターゲットにする場合、ターゲットマッピングウィザードを使用して環境を作成する必要があります。詳しくは、[オファー環境の作成](../../interaction/using/live-design-environments.md#creating-an-offer-environment)を参照してください。
 
@@ -49,7 +51,7 @@ ht-degree: 100%
 
 ![](assets/identification_anonymous_visitors.png)
 
-## 識別されない匿名の訪問者の処理 {#processing-unidentified-anonymous-visitors}
+## 識別されていない匿名訪問者の処理 {#processing-unidentified-anonymous-visitors}
 
 分析の結果、匿名の訪問者が識別されなかった場合、そのデータを所定のスペースに格納できます。これにより、指定したタイポロジルールに合致する、特にこのタイプの訪問者向けのオファーを提案できます。
 

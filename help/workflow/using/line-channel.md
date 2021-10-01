@@ -5,7 +5,7 @@ description: LINE チャネル
 audience: workflow
 content-type: reference
 topic-tags: technical-workflows
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '95'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 
 
 # LINE チャネル{#line-channel}
+
+![](../../assets/common.svg)
 
 以下に説明するワークフローは、デフォルトで&#x200B;**LINE Channel** モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../delivery/using/line-channel.md)を参照してください。
 

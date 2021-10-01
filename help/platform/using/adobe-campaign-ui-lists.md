@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '1198'
 ht-degree: 100%
 
 ---
 
 # リストの管理とカスタマイズ{#manage-and-customize-lists}
+
+![](../../assets/common.svg)
 
 エクスプローラーを使用して、Campaign データベース内のレコードのリストにアクセスできます。 これらのリストのフィルタリング、検索の実行、情報の追加、データのフィルタリングと並べ替えを行うことができます。
 
@@ -27,7 +29,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 右側に数値ではなく「**?**」が表示される場合は、カウンターをクリックして計算を起動します。
 
-### さらなるレコードの読み込み {#loading-more-records}
+### 追加レコードの読み込み {#loading-more-records}
 
 追加レコード（デフォルトでは 200 ライン）を読み込んで表示するには、「**[!UICONTROL 読み込みを続行]**」をクリックします。
 
@@ -118,7 +120,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 ### 列の幅の調整 {#adjust-column-width}
 
-リストがアクティブである（少なくとも 1 ラインが選択されている）ときは、F9 キーを使用して、すべての列が画面に表示されるように列幅を調整できます。
+リストがアクティブである（少なくとも 1 ラインが選択されている）ときは、F9 キーを使用して、すべての列が画面に表示されるように列の幅を調整できます。
 
 ### サブフォルダー内のデータの表示 {#display-sub-folders-records}
 

@@ -6,18 +6,20 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1136'
 ht-degree: 100%
 
 ---
 
-# 繰り返し発生するインポートワークフローの設定 {#setting-up-a-recurring-import}
+# 繰り返しインポートワークフローの設定 {#setting-up-a-recurring-import}
+
+![](../../assets/common.svg)
 
 同じ構造のファイルを定期的にインポートする必要がある場合は、ワークフローテンプレートを使用することをお勧めします。
 
-この例では、Adobe Campaign データベースの CRM からのプロファイルのインポートに再利用できるワークフローを事前設定する方法を示します。各アクティビティで使用できるすべての設定について詳しくは、この[節](../../workflow/using/about-activities.md)を参照してください。
+この例では、Adobe Campaign データベースの CRM からのプロファイルのインポートに再利用できるワークフローを事前設定する方法を示します。各アクティビティで使用できるすべての設定について詳しくは、この[節](about-activities.md)を参照してください。
 
 1. **[!UICONTROL リソース／テンプレート／ワークフローテンプレート]**&#x200B;から、新しいワークフローテンプレートを作成します。
 1. 次のアクティビティを追加します。

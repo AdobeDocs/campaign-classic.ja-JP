@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
 source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '194'
 ht-degree: 100%
 
@@ -37,6 +37,7 @@ Campaign ユーザーは、Adobe ID を使用して Adobe Campaign コンソー�
 > * [Campaign 20.1.4](../../rn/using/release--20-1.md)
 > * [Campaign 19.2.4](../../rn/using/release--19-2.md)
 > * [Campaign 19.1.8](../../rn/using/release--19-1.md)
+
 >
 > [!DNL :bulb:] [IMS 更新の詳細を説明します](../../technotes/using/ims-updates.md)。
 

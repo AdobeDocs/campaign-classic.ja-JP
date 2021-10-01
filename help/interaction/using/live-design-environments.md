@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '489'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # ライブ／デザイン環境{#live-design-environments}
 
-## 動作の仕組み {#operating-principle}
+![](../../assets/v7-only.svg)
+
+## 動作原理 {#operating-principle}
 
 インタラクションは、次の 2 つのオファー環境を使用して運用されます。
 

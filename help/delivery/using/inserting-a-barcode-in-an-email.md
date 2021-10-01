@@ -5,7 +5,7 @@ description: E メールへのバーコードの挿入
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '526'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 
 
 # E メールへのバーコードの挿入{#inserting-a-barcode-in-an-email}
+
+![](../../assets/common.svg)
 
 バーコード生成モジュールを使用して、2D バーコードなど、一般的基準に適合する、複数のタイプのバーコードを作成できます。
 

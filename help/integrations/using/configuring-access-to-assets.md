@@ -6,27 +6,29 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-source-git-commit: 7bcd80a9b89982542ae6944ae0c96c02d83cd198
-workflow-type: tm+mt
+source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
+workflow-type: ht
 source-wordcount: '539'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Assets へのアクセスの設定{#configuring-access-to-assets}
 
-この節では、Adobe Campaignで、AssetsコアサービスまたはAdobe Experience Manager Assets(AEM Assets)ライブラリとの統合機能を使用するために必要な設定手順について説明します。
+![](../../assets/common.svg)
+
+この節では、Assets コアサービスまたは Adobe Experience Manager Assets（AEM Assets）ライブラリとの統合機能で使用するために必要な Adobe Campaign の設定手順を説明します。
 
 >[!CAUTION]
 >
 >これらの統合は同時におこないます。次の情報をよく読んでから設定をおこなってください。
 
-* **Experience Cloud Assets** との統合：この統合により、Adobe Experience Cloud ライブラリから画像を挿入できます。この統合は、Adobe Campaign に **[!UICONTROL Adobe Experience Cloud との統合]**&#x200B;組み込みパッケージをインストールすることによって設定する必要があります。
-* **AEM Assets**&#x200B;との統合：この統合により、Adobe Experience Manager Assetsライブラリから画像を挿入できます。 この統合は、Adobe Campaign に **[!UICONTROL AEM 統合]**&#x200B;組み込みパッケージをインストールすることによって設定する必要があります。この統合は、Adobe Experience Manager 6.4以降は使用できなくなりました。
+* **Experience Cloud Assets** との統合：この統合により、Adobe Experience Cloud ライブラリから画像を挿入できます。この統合は、Adobe Campaign に **[!UICONTROL Adobe Experience Cloud との統合]**&#x200B;組み込みパッケージをインストールすることで設定する必要があります。
+* **AEM Assets** との統合：この統合により、Adobe Experience Manager Assets ライブラリから画像を挿入できるようになります。この統合は、Adobe Campaign に **[!UICONTROL AEM 統合]**&#x200B;組み込みパッケージをインストールすることで設定する必要があります。この統合は、Adobe Experience Manager 6.4 以降では使用できなくなりました。
 
 >[!NOTE]
 >
->2 つのパッケージ（**[!UICONTROL AEM 統合]**&#x200B;および **[!UICONTROL Adobe Marketing Experience との統合]**）がインストールされている場合、Adobe Experience Cloud ライブラリで使用可能なアセットだけを使用できます。
+>2 つのパッケージ（**[!UICONTROL AEM 統合]**&#x200B;および **[!UICONTROL Adobe Marketing Experience との統合]**）がインストールされている場合は、Adobe Experience Cloud ライブラリで使用可能なアセットだけを使用できます。
 
 ## Experience Cloud Assets との統合 {#integrating-with-experience-cloud-assets}
 
@@ -49,7 +51,7 @@ Adobe Campaign と Adobe Experience Cloud の間の接続を有効化するに�
 
 >[!CAUTION]
 >
->この機能は、Adobe Experience Manager 6.4以降では廃止されています。 [詳細](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=en#removed-features)
+>この機能は、Adobe Experience Manager 6.4 以降では廃止されています。 [詳細情報](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=ja#removed-features)
 
 AEM Assets と Adobe Campaign を統合するには、まず Adobe Experience Manager と Adobe Campaign 間の統合を設定する必要があります。この設定には、主に次のことが必要になります。
 

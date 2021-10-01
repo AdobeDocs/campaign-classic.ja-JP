@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: creating-new-reports
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '510'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # コンテキストの使用{#using-the-context}
+
+![](../../assets/common.svg)
 
 データを&#x200B;**[!UICONTROL テーブル]**&#x200B;や&#x200B;**[!UICONTROL グラフ]**&#x200B;の形式で表す場合は、新しいクエリ（[データに対する直接フィルターの定義](#defining-a-direct-filter-on-data)を参照）またはレポートコンテキスト（[コンテキストデータの使用](#using-context-data)を参照）の 2 つのソースからデータを取得できます。
 
@@ -29,7 +31,7 @@ ht-degree: 100%
 
 ![](assets/reporting_filter_data_from_page.png)
 
-### 例：グラフでフィルターを使用する {#example--use-a-filter-in-a-chart}
+### 例：グラフでのフィルターの使用 {#example--use-a-filter-in-a-chart}
 
 次の例では、フランスに居住し、この 1 年間に買い物をした受信者のプロファイルのみを表示するグラフを作成します。
 
@@ -45,7 +47,7 @@ ht-degree: 100%
 
 ![](assets/reporting_graph_with_2vars_preview.png)
 
-### 例：ピボットテーブルでフィルターを使用する {#example--use-a-filter-in-a-pivot-table}
+### 例：ピボットテーブルでのフィルターの使用 {#example--use-a-filter-in-a-pivot-table}
 
 この例では、フィルターを使用することで、パリ以外に居住している顧客のみをピボットテーブルに表示できます。事前に別のクエリを使用する必要はありません。
 

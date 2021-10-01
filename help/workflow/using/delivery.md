@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1040'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 配信{#delivery}
+
+![](../../assets/common.svg)
 
 「**配信**」タイプのアクティビティで配信アクションを作成できます。入力要素を使用して構築できます。
 
@@ -81,7 +83,7 @@ ht-degree: 100%
    * **[!UICONTROL 配達確認を送信]**：配信の配達確認を送信できます。このアクションは、「**[!UICONTROL 配信]**」で配信のツールバーから「**配達確認を送信**」ボタンをクリックするのと同等です。
    * **[!UICONTROL 準備と開始]**：完全な分析プロセス（ターゲットの計算とコンテンツの準備）を起動し、配信を送信します。このアクションは、「**[!UICONTROL 配信]**」を使用して配信をメインターゲットに送信する場合に、「**[!UICONTROL 可能な限り早く配信]**」、「**[!UICONTROL 分析]**」、「**配信を確定**」オプションの順にクリックするのと同等です。
 
-   ワークフローで後から使用される「**[!UICONTROL 配信に基づくアクション]**」アクティビティを使用して、配信の開始に必要な残りの手順を開始できます（ターゲットの計算、コンテンツの準備、配信）。詳しくは、[配信コントロール](../../workflow/using/delivery-control.md)を参照してください。
+   ワークフローで後から使用される「**[!UICONTROL 配信に基づくアクション]**」アクティビティを使用して、配信の開始に必要な残りの手順を開始できます（ターゲットの計算、コンテンツの準備、配信）。詳しくは、[配信コントロール](delivery-control.md)を参照してください。
 
    さらに、次のオプションを使用できます。
 
@@ -95,7 +97,7 @@ ht-degree: 100%
 
    * **[!UICONTROL エラーを処理]**
 
-      [配信コントロール](../../workflow/using/delivery-control.md)を参照してください。
+      [配信コントロール](delivery-control.md)を参照してください。
    「**スクリプト**」タブで、配信パラメーターを編集できます。
 
    ![](assets/edit_diffusion_fil_script.png)
@@ -125,11 +127,11 @@ ht-degree: 100%
    Do you wish to approve delivery (<%= vars.recCount %> recipient(s))?
    ```
 
-   これは JavaScript で記述された式を含むメッセージです。**[!UICONTROL vars.recCount]** は、前のタスクの配信のターゲットとなった受信者数を表します。JavaScript 式について詳しくは、[JavaScript のスクリプトとテンプレート](../../workflow/using/javascript-scripts-and-templates.md)を参照してください。
+   これは JavaScript で記述された式を含むメッセージです。**[!UICONTROL vars.recCount]** は、前のタスクの配信のターゲットとなった受信者数を表します。JavaScript 式について詳しくは、[JavaScript のスクリプトとテンプレート](javascript-scripts-and-templates.md)を参照してください。
 
    ![](assets/new-workflow-param-validation.png)
 
-   承認タスクについて詳しくは、[承認](../../workflow/using/approval.md)を参照してください。
+   承認タスクについて詳しくは、[承認](approval.md)を参照してください。
 
 ## 入力パラメーター {#input-parameters}
 

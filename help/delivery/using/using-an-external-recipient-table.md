@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '85'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 外部の送信者テーブルの使用{#using-an-external-recipient-table}
+
+![](../../assets/common.svg)
 
 配信テーブルが外部のテーブルの場合は、追加設定が必要です。**[!UICONTROL nms:seedmember]** スキーマを拡張する必要があります。次のように、適切なフィールドを定義するためのタブがシードアドレスに追加されます。
 

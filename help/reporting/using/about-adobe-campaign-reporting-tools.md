@@ -6,14 +6,16 @@ audience: reporting
 content-type: reference
 topic-tags: reporting-in-adobe-campaign
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '334'
 ht-degree: 100%
 
 ---
 
-# レポートの概要{#about-adobe-campaign-reporting-tools}
+# レポートの基本を学ぶ {#about-adobe-campaign-reporting-tools}
+
+![](../../assets/common.svg)
 
 Adobe Campaign では、[組み込みレポート](../../reporting/using/about-campaign-built-in-reports.md)のほかにも、様々なコンテキストで様々なニーズに応えるレポートを生成できます。このドキュメントでは、使用モードと実装モードの基本事項について詳しく説明します。
 

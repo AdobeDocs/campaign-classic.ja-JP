@@ -2,18 +2,20 @@
 product: campaign
 title: キャンペーンフォルダーへのアクセスの管理
 description: キャンペーンフォルダーへのアクセスを許可し、ビューを作成する方法について説明します。
-feature: アプリケーション設定
+feature: Application Settings
 role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-source-git-commit: 6c28e6cd78ce7a8ee5c0dc7e671de780787b9f57
-workflow-type: tm+mt
-source-wordcount: '777'
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
+source-wordcount: '775'
 ht-degree: 100%
 
 ---
 
 # フォルダーへのアクセスの管理{#folder-access-management}
+
+![](../../assets/common.svg)
 
 エクスプローラーナビゲーションツリーの各フォルダーには、読み取り、書き込み、削除のアクセス権が割り当てられています。 ファイルにアクセスするには、オペレーターまたはオペレーターグループに少なくともファイルへの読み取りアクセス権が必要です。
 
@@ -104,7 +106,7 @@ ht-degree: 100%
 
    ![](assets/s_ncs_user_folder_properties_security03.png)
 
-### 権限のサブフォルダーへの反映 {#propagate-permissions}
+### 権限の反映 {#propagate-permissions}
 
 権限やアクセス権をサブフォルダーに反映させることができます。これを実行するには、フォルダープロパティの「**[!UICONTROL サブフォルダーにも反映]**」オプションを選択します。
 

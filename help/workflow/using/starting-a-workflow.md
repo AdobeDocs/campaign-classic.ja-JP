@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '854'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # ワークフローの開始 {#starting-a-workflow}
 
-ワークフローは、必ず手動で開始します。開始しても、スケジューラー（[スケジューラー](../../workflow/using/scheduler.md)を参照）経由で指定された情報またはアクティビティのスケジュール設定に基づいて、ワークフローが非アクティブのままになることもあります。
+![](../../assets/common.svg)
+
+ワークフローは、必ず手動で開始します。開始しても、スケジューラー（[スケジューラー](scheduler.md)を参照）経由で指定された情報またはアクティビティのスケジュール設定に基づいて、ワークフローが非アクティブのままになることもあります。
 
 ターゲティングワークフローの実行に関連するアクション（開始、停止、一時停止など）は、**非同期**&#x200B;プロセスです。プロセスの実行順序は記録され、サーバーが順序を適用できるようになるとすぐに実行されます。
 
@@ -25,7 +27,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->オペレーターがワークフローに対するアクションを実行すると（開始、停止、一時停止など）、アクションは即座に実行されるのではなく、[ワークフローモジュール](../../workflow/using/architecture.md)に処理されるまでキューに入れられるので、ご注意ください。
+>オペレーターがワークフローに対するアクションを実行すると（開始、停止、一時停止など）、アクションは即座に実行されるのではなく、[ワークフローモジュール](architecture.md)に処理されるまでキューに入れられるので、ご注意ください。
 
 ## アクションツールバー {#actions-toolbar}
 
@@ -57,7 +59,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 履歴をパージ]**
 
-   このアクションでは、ワークフローの履歴をパージできます。詳しくは、[ログのパージ](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs)を参照してください。
+   このアクションでは、ワークフローの履歴をパージできます。詳しくは、[ログのパージ](monitoring-workflow-execution.md#purging-the-logs)を参照してください。
 
 * **[!UICONTROL シミュレーションモードで開始]**
 
@@ -91,7 +93,7 @@ ht-degree: 100%
 
 **[!UICONTROL 開く]**：アクティビティのプロパティを開きます。
 
-**[!UICONTROL ログを表示]**：選択したアクティビティのタスク実行ログを表示します。[ログの表示](../../workflow/using/monitoring-workflow-execution.md#displaying-logs)を参照してください。
+**[!UICONTROL ログを表示]**：選択したアクティビティのタスク実行ログを表示します。[ログの表示](monitoring-workflow-execution.md#displaying-logs)を参照してください。
 
 **[!UICONTROL 保留中のタスクを今すぐ実行]**：保留中のタスクをただちに開始します。
 
@@ -101,7 +103,7 @@ ht-degree: 100%
 
 **[!UICONTROL ビットマップとしてコピー]**：すべてのアクティビティのスクリーンショットを撮ることができます。
 
-**[!UICONTROL 通常の実行 / 有効にするが実行しない / 有効にしない]**：これらのオプションは、「**[!UICONTROL 詳細設定]**」タブからも選択できます。詳しくは、[実行](../../workflow/using/advanced-parameters.md#execution)を参照してください。
+**[!UICONTROL 通常の実行 / 有効にするが実行しない / 有効にしない]**：これらのオプションは、「**[!UICONTROL 詳細設定]**」タブからも選択できます。詳しくは、[実行](advanced-parameters.md#execution)を参照してください。
 
 **[!UICONTROL 保存 / キャンセル]**：ワークフローに加えた変更を保存またはキャンセルします。
 

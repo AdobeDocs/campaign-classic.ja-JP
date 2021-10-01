@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '469'
 ht-degree: 100%
 
 ---
 
-# 多対多関係を使用したクエリ {#querying-using-a-many-to-many-relationship}
+# 多対多の関係を使用したクエリ {#querying-using-a-many-to-many-relationship}
+
+![](../../assets/common.svg)
 
 この例では、過去 7 日間連絡されていない受信者を収集します。このクエリは、すべての配信を対象とします。
 

@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '3201'
 ht-degree: 100%
 
 ---
 
 # インポートジョブの設定 {#executing-import-jobs}
+
+![](../../assets/common.svg)
 
 Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式の 1 つ以上のファイルから、データベースにデータをインポートできます。これらのファイルはテーブル（メインテーブルまたはリンクされたテーブル）に関連付けられ、ソースファイルの各フィールドはデータベースのフィールドに関連付けられます。
 

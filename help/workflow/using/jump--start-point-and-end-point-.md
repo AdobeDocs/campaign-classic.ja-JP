@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: flow-control-activities
 exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '117'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 # ジャンプ（開始点と終了点）{#jump-start-point-and-end-point}
 
-「**[!UICONTROL ジャンプ]**」タイプのグラフィカルオブジェクトは、特に、交差するトランジションを持つ複雑なダイアグラムの可読性を向上させます。
+![](../../assets/common.svg)
+
+「**[!UICONTROL ジャンプ]**」タイプのグラフィックオブジェクトは、特に、交差するトランジションを持つ複雑なダイアグラムを読みやすくするために使用されます。
 
 ジャンプは、矢印のないトランジションです。
 
@@ -29,4 +31,4 @@ ht-degree: 100%
 
 ![](assets/s_user_segmentation_jump_in.png)
 
-ダイアグラムの可読性を向上させるには、ジャンプに関連付けられた画像に、そのジャンプの番号が表示されるように変更します。[アクティビティ画像の管理](../../workflow/using/managing-activity-images.md)を参照してください。
+ダイアグラムの可読性を向上させるには、ジャンプに関連付けられた画像に、そのジャンプの番号が表示されるように変更します。[アクティビティ画像の管理](managing-activity-images.md)を参照してください。

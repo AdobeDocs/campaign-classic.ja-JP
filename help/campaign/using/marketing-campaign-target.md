@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '1579'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # キャンペーンのオーディエンスの選択 {#marketing-campaign-deliveries}
+
+![](../../assets/common.svg)
 
 マーケティングキャンペーンでは、配信ごとに次の項目を定義できます。
 
@@ -86,7 +88,7 @@ ht-degree: 100%
 1. **[!UICONTROL 新しいワークフロー]**&#x200B;テンプレートを選択し、このワークフローに名前を付けます。
 1. 「**[!UICONTROL OK]**」をクリックしてワークフローの作成を確定し、このワークフローのダイアグラムを作成します。
 
-### ワークフローの実行{#executing-a-workflow}
+### ワークフローの実行 {#executing-a-workflow}
 
 適切な権限がある場合は、ツールバーの&#x200B;**[!UICONTROL 開始]**&#x200B;ボタンから手動でターゲティングワークフローを開始できます。
 

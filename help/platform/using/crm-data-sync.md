@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '1615'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Campaign と CRM の間のデータ同期 {#data-synchronization}
+
+![](../../assets/common.svg)
 
 Adobe Campaign と CRM の間の同期は、専用のワークフローアクティビティである「[CRM コネクタ](../../workflow/using/crm-connector.md)」で実行されます。
 
@@ -92,7 +94,7 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 >
 >このメモは、一般的な「**[!UICONTROL CRM コネクタ]**」アクティビティにのみ適用されます。他の CRM アクティビティの場合、プロセスは自動です。
 >
->このオプションは、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;を使用して手動で作成および設定する必要があります。これはテキストオプションである必要があり、その値は次の形式と一致する必要があります。**yyyy/MM/dd hh:mm:ss**&#x200B;です。
+>このオプションは、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;を使用して手動で作成および設定する必要があります。これはテキストオプションである必要があり、その値は **yyyy/MM/dd hh:mm:ss** フォーマットに一致する必要があります。
 > 
 >以降のインポートではこのオプションを手動で更新する必要があります。
 
@@ -111,7 +113,7 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 
    >[!NOTE]
    >
-   >これらの日付は、次の形式で表示されます。**yyyy/MM/dd hh:mm:ss**&#x200B;です。
+   >これらの日付は、**yyyy/MM/dd hh:mm:ss** フォーマットで表示されます。
 
 ### データのフィルタリング {#filtering-data}
 
@@ -251,4 +253,3 @@ CRM 側でオブジェクトを削除するには、削除するリモート要�
 >[!NOTE]
 >
 >「**[!UICONTROL 却下を処理]**」オプションがオフの場合でも、却下された列ごとに警告が生成されます。
-

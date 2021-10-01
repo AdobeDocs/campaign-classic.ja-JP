@@ -6,23 +6,25 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '282'
 ht-degree: 100%
 
 ---
 
-# 増分クエリを使用した四半期ごとのリストの更新 {#quarterly-list-update}
+# 増分処理クエリを使用した四半期ごとのリスト更新 {#quarterly-list-update}
 
-次の例では、[増分処理クエリ](../../workflow/using/incremental-query.md)を使用して、受信者リストを自動更新します。これらの受信者は、季節ごとのマーケティングキャンペーンの一部としてターゲットされています。
+![](../../assets/common.svg)
+
+次の例では、[増分処理クエリ](incremental-query.md)を使用して、受信者リストを自動更新します。これらの受信者は、季節ごとのマーケティングキャンペーンの一部としてターゲットされています。
 
 季節ごとのマーケティングキャンペーンでは、季節に合ったスポーツアクティビティを季節の初めに提案します。そのため、受信者リストは四半期ごとに更新されます。ただし、リストの受信者がこのキャンペーンのターゲット設定されるのは、9 ヶ月に 1 回のみにする必要があります。これにより、受信者の資格取得頻度の間隔が空き、年間を通じて季節ごとに異なるアクティビティが提供されます。
 
 ![](assets/incremental_query_example.png)
 
 1. 新しいワークフローに、増分処理クエリとリスト更新アクティビティを追加します。
-1. アクティビティの「**[!UICONTROL 増分処理クエリ]**」タブを[クエリの作成](../../workflow/using/query.md#creating-a-query)の説明に従って設定します。
+1. アクティビティの「**[!UICONTROL 増分処理クエリ]**」タブを[クエリの作成](query.md#creating-a-query)の説明に従って設定します。
 1. 「**[!UICONTROL スケジュール設定と履歴]**」タブを選択し、履歴の日数を 270 日と指定します。この指定により、既にターゲットされた受信者は、今後 270 日間（およそ 9 ヶ月間）はターゲットされません。
 
    次に、「**[!UICONTROL 変更]**」ボタンをクリックします。
@@ -33,6 +35,6 @@ ht-degree: 100%
 
    ![](assets/incremental_query_example_2.png)
 
-1. 増分処理クエリを承認した後で、[リストの更新](../../workflow/using/list-update.md)の説明に従って、リスト更新アクティビティを設定します。
+1. 増分処理クエリを承認した後で、[リストの更新](list-update.md)の説明に従って、リスト更新アクティビティを設定します。
 
 このように設定しておくことで、次の季節が始まる直前にワークフローが自動的に開始されます。リストは更新され、オファーを受ける資格のある新しい受信者が含められます。

@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
-workflow-type: tm+mt
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+workflow-type: ht
 source-wordcount: '928'
 ht-degree: 100%
 
 ---
 
 # クエリの作成手順{#steps-to-create-a-query}
+
+![](../../assets/common.svg)
 
 Adobe Campaign でクエリを作成する手順は次のとおりです。
 
@@ -68,7 +70,7 @@ Adobe Campaign でクエリを作成する手順は次のとおりです。
 
 ![](assets/query_editor_nveau_57.png)
 
-## 手順 4 - データのフィルター {#step-4---filter-data}
+## 手順 4 - データのフィルタリング {#step-4---filter-data}
 
 クエリエディターでは、データをフィルターして検索を絞り込むことができます。
 

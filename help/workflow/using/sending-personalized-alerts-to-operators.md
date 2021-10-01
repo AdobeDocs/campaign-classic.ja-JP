@@ -6,14 +6,16 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '371'
 ht-degree: 100%
 
 ---
 
-# パーソナライズされたアラートのオペレーターへの送信{#sending-personalized-alerts-to-operators}
+# オペレーターへのパーソナライズされたアラートの送信{#sending-personalized-alerts-to-operators}
+
+![](../../assets/common.svg)
 
 この例では、ニュースレターを開封したがそれに含まれるリンクをクリックしなかったプロファイルの名前を記載したアラートをオペレーターに送信します。
 
@@ -28,7 +30,7 @@ ht-degree: 100%
 
 ![](assets/uc_operator_1.png)
 
-## 母集団のインスタンス変数への保存 {#saving-the-population-to-the-instance-variable}
+## インスタンス変数への母集団の保存 {#saving-the-population-to-the-instance-variable}
 
 以下のコードを **[!UICONTROL JavaScript コード]**&#x200B;アクティビティに追加します。
 
@@ -65,9 +67,9 @@ JavaScript コードがワークフロー情報に対応していることを確
 
    ![](assets/uc_operator_6.png)
 
-## 母集団の数のテスト {#testing-the-population-count}
+## 母集団数のテスト {#testing-the-population-count}
 
-以下のコードを&#x200B;**[!UICONTROL テスト]**&#x200B;アクティビティに追加して、ターゲットにした母集団が少なくとも 1 つのプロファイルを含むかどうかを確認します。
+以下のコードを「**[!UICONTROL テスト]**」アクティビティに追加すると、ターゲットにした母集団が少なくとも 1 つのプロファイルを含んでいるかどうかを確認できます。
 
 ```
 var.recCount>0

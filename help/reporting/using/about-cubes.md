@@ -6,7 +6,7 @@ audience: reporting
 content-type: reference
 topic-tags: designing-reports-with-cubes
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '740'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # キューブの基本を学ぶ{#about-cubes}
+
+![](../../assets/common.svg)
 
 データベースに格納されているデータの調査は、**マーケティング分析**&#x200B;モジュールを通じて提供されます。これにより、データの分析と測定、統計の計算、レポートの作成と計算のシンプル化および最適化が可能になります。それに加え、マーケティング分析では、レポートの作成とターゲット母集団の定義も可能です。ターゲット母集団は、一旦特定されると、Adobe Campaign で使用できるリスト（ターゲティングやセグメント化など）に格納されます。
 

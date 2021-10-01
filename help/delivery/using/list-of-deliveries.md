@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '174'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 配信リストへのアクセス {#list-of-deliveries}
+
+![](../../assets/common.svg)
 
 配信には、配信リストからアクセスします。配信リストには、ツリーの&#x200B;**[!UICONTROL キャンペーン管理／配信]**&#x200B;ノードからアクセスします。
 

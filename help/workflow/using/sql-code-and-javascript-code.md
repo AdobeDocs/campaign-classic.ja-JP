@@ -6,7 +6,7 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: ht
 source-wordcount: '291'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # SQL コードと JavaScript コード{#sql-code-and-javascript-code}
+
+![](../../assets/common.svg)
 
 ## SQL コード {#sql-code}
 
@@ -27,11 +29,11 @@ ht-degree: 100%
 
 * **[!UICONTROL エラーを処理]**
 
-   [エラーを処理](../../workflow/using/monitoring-workflow-execution.md#processing-errors)を参照してください。
+   [エラーを処理](monitoring-workflow-execution.md#processing-errors)を参照してください。
 
 ## JavaScript コードと高度な JavaScript コード {#javascript-code}
 
-**[!UICONTROL JavaScript コード]**&#x200B;と&#x200B;**[!UICONTROL 高度な JavaScript コード]**&#x200B;アクティビティは、ワークフローのコンテキストで JavaScript スクリプトを実行します。スクリプティングについて詳しくは、[JS のスクリプトとテンプレート](../../workflow/using/javascript-scripts-and-templates.md)の節を参照してください。
+**[!UICONTROL JavaScript コード]**&#x200B;と&#x200B;**[!UICONTROL 高度な JavaScript コード]**&#x200B;アクティビティは、ワークフローのコンテキストで JavaScript スクリプトを実行します。スクリプティングについて詳しくは、[JS のスクリプトとテンプレート](javascript-scripts-and-templates.md)の節を参照してください。
 
 ### 実行遅延 {#exec-delay}
 
@@ -47,7 +49,7 @@ ht-degree: 100%
 
 * **[!UICONTROL スクリプト]**：実行されるスクリプトがエディターの中央部に記述されています。
 
-* **[!UICONTROL エラーを処理]**：[エラーの処理](../../workflow/using/monitoring-workflow-execution.md#processing-errors)を参照してください。
+* **[!UICONTROL エラーを処理]**：[エラーの処理](monitoring-workflow-execution.md#processing-errors)を参照してください。
 
 ### 高度な JavaScript コード {#adv-js-code-desc}
 

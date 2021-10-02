@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
    このオプションを設定すると、（特に環境のオファースペースを設定する際の）匿名インタラクションに特有の機能を有効にできます。また、「識別された」環境を「匿名」環境に切り替えることができるオプションを設定することもできます。
 
-   例えば、受信者環境のオファースペース（識別されたコンタクト先）と訪問者環境に合ったオファースペース（識別されていないコンタクト先）をリンクすると、受信者が識別されている場合とそうでない場合とで異なるオファーを提供できます。詳しくは、[オファースペースの作成](../../interaction/using/creating-offer-spaces.md)を参照してください。
+   例えば、受信者環境のオファースペース（識別されたコンタクト先）と訪問者環境に合ったオファースペース（識別されていないコンタクト先）をリンクすると、この方法では、連絡先が識別されているかどうかに応じて、様々なオファーが連絡先に提供されます。 詳しくは、[オファースペースの作成](../../interaction/using/creating-offer-spaces.md)を参照してください。
 
    ![](assets/offer_env_anonymous_003.png)
 

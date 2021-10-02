@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: using-delivery-templates
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 84%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 1. 事前定義済みの配信テンプレート
 
-   Adobe Campaign 管理者は、新しい配信テンプレートを作成できます。作成した配信テンプレートは、オペレーター（適切なアクセス権を持っている場合）が再利用することも、サーバープロセスを使用して自動的に再利用することもできます。例えば、E メール配信テンプレートを設定しておくと、ユーザーがそのテンプレートを使用して配信を作成する際は、単にテキストまたは HTML コンテンツを入力して配信するだけで済みます。その他の選択項目は、管理者によって既に設定されています。
+   Adobe Campaign 管理者は、新しい配信テンプレートを作成できます。作成した配信テンプレートは、オペレーター（適切なアクセス権を持っている場合）が再利用することも、サーバープロセスを使用して自動的に再利用することもできます。例えば、E メール配信テンプレートを設定し、このテンプレートを使用して配信を作成する場合、ユーザーはテキストまたは HTML コンテンツを入力して配信するだけで済みます。その他の選択肢は、管理者によって既に定義されています。
 
 >[!NOTE]
 >

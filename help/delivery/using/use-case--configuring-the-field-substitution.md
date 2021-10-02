@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 この使用例では、**My online library** サイトで、顧客が好きな読み物のジャンルに応じた割引販売の情報を送付するとします。
 
-配信責任者は、好みのジャンルにリンクされたパーソナライゼーションフィールドを自分の E メールに統合しました。使用したいシードアドレスがいくつかありますが、それらのシードアドレスのテーブルにはパーソナライゼーションフィールドがあるものの、パーソナライゼーションの値が格納されていません。
+配信責任者は、好みのジャンルにリンクされたパーソナライゼーションフィールドを自分の E メールに統合しました。目的は、次のようなシードアドレスを使用することです。これらのシードアドレスのテーブルにはパーソナライゼーションフィールドがありますが、そこに値が保存されていません。
 
 ランダムなフィールド置換を使用するには、次の条件が揃っている必要があります。
 

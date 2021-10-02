@@ -1,41 +1,41 @@
 ---
 product: campaign
-title: URLへのアクセス権限の設定
-description: URLへのアクセス権限の設定方法を説明します
+title: URL へのアクセス権限の設定
+description: URL へのアクセス権限の設定方法を説明します
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814,6fe8da3b-57b9-4a69-8602-a03993630b27
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: dab18d24f5471034a2169dd674e6f7000de30cac
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 36%
 
 ---
 
-# URLへのアクセス権限の設定（オンプレミス）{#url-permissions}
+# URL へのアクセス権限の設定（オンプレミス）{#url-permissions}
+
+![](../../assets/v7-only.svg)
 
 Campaign Classic インスタンスの JavaScript コード（ワークフローなど）で呼び出すことができる URL のデフォルトリストは、制限されています。リストに記載されている URL を使用すれば、インスタンスは正常に機能します。
 
-デフォルトでは、インスタンスは外部の URL にアクセスできないようになっています。ただし、外部のURLを承認済みURLリストに追加して、インスタンスからアクセスできるようにすることもできます。 これにより、Campaign インスタンスを SFTP サーバーや Web サイトなどの外部システムと接続して、ファイルやデータの転送が可能になります。
+デフォルトでは、インスタンスは外部の URL にアクセスできないようになっています。ただし、外部の URL を承認済み URL リストに追加して、インスタンスからアクセスできるようにすることもできます。 これにより、Campaign インスタンスを SFTP サーバーや web サイトなどの外部システムと接続して、ファイルやデータの転送が可能になります。
 
 >[!NOTE]
 >
->この手順は、**オンプレミス**&#x200B;デプロイメントに制限されます。
+>この手順は、**オンプレミス** のデプロイメントに制限されます。
 >
->**ホスト**&#x200B;のお客様は、[CampaignCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)にアクセスできる場合、URL権限セルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja)
+>**ホスト** のお客様は、[CampaignCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) にアクセスできる場合、URL 権限セルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja)
 >
->その他の&#x200B;**ハイブリッド/ホスト型**&#x200B;のお客様は、Adobeサポートチームに連絡して、許可リストにIPを追加する必要があります。
+>その他の **ハイブリッド/ホスト型** のお客様は、Adobeサポートチームに連絡して、許可リストに IP を追加する必要があります。
+
+**ハイブリッド** および **オンプレミス** のデプロイメントの場合、管理者は、新しい **urlPermission** を **serverConf.xml** ファイルで参照する必要があります。
 
 
-**ハイブリッド**&#x200B;と&#x200B;**オンプレミス**&#x200B;のデプロイメントの場合、管理者は、**serverConf.xml**&#x200B;ファイルで新しい&#x200B;**urlPermission**&#x200B;を参照する必要があります。
+次の 3 つの接続保護モードを使用できます。
 
-
-次の3つの接続保護モードを使用できます。
-
-* **ブロック**:そのユーザーに属さないURLはすべて許可リストブロックされ、エラーメッセージが表示されます。これは、ポストアップグレード後のデフォルトのモードです。
-* **許可**:そのユーザーに属さないURLをす許可リストべて許可します。
-* **警告**:このに属さないURLはすべて許可されます許可リストが、JSインタープリターが警告を表示するので、管理者はこの警告を収集できます。このモードでは JST-310027 警告メッセージが追加されます。
+* **ブロック**:該当する URL に属さない URL はすべて許可リストブロックされ、エラーメッセージが表示されます。これは、ポストアップグレード後のデフォルトのモードです。
+* **許可**:そのユーザーに属さない URL はす許可リストべて許可されます。
+* **警告**:このに属さない URL はすべて許可されます許可リストが、JS インタープリタが警告を表示するので、管理者はこの URL を収集できます。このモードでは JST-310027 警告メッセージが追加されます。
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -47,14 +47,14 @@ Campaign Classic インスタンスの JavaScript コード（ワークフロー
 
 >[!IMPORTANT]
 >
->デフォルトでは、新しい実装では&#x200B;**ブロック**&#x200B;モードが使用されます。
+>デフォルトでは、新しい実装では **ブロック** モードが使用されます。
 >
->移行を行う既存のお客様は、一時的に&#x200B;**警告**&#x200B;モードを使用できます。 URLを許可する前にアウトバウンドトラフィックを分析します。 許可されたURLのリストを定義したら、URLをに追加許可リストし、**ブロック**&#x200B;モードを有効にします。
+>移行を行った既存のお客様は、一時的に **警告** モードを使用できます。 URL を許可する前にアウトバウンドトラフィックを分析します。 許可された URL のリストを定義したら、その URL をに追加し許可リストて、**ブロック** モードを有効にします。
 
 詳しくは、次の節を参照してください。
 
-* [コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+* [コントロールパネルに関するドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 * [ホスティングモデル](hosting-models.md)
 * [Campaign サーバーの設定](configuring-campaign-server.md)
-* [Campaignサーバー設定ファイルのパラメーター](the-server-configuration-file.md)
-* [セキュリティ／プライバシーチェックリスト](get-started-security-privacy.md)
+* [Campaign サーバー設定ファイルのパラメーター](the-server-configuration-file.md)
+* [セキュリティとプライバシーのチェックリスト](get-started-security-privacy.md)

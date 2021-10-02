@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '2562'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '2560'
+ht-degree: 99%
 
 ---
 
@@ -384,7 +384,7 @@ Campaign Classic 内で JS から API を呼び出す方法の例を以下に示
 
 Adobe Campaign が提供する[同意管理](../../platform/using/privacy-management.md#consent-management)ツールに加えて、消費者が個人情報の販売をオプトアウトしたかどうかをトラッキングすることもできます。
 
-消費者が自分の個人情報を、システムを通じて第三者に売り渡すことを許可しないことにします。Adobe Campaign では、この情報を保存してトラッキングできます。
+連絡先は、お使いのシステムを通じて、自分の個人情報が第三者に販売されることを許可しないと判断できます。 Adobe Campaign では、この情報を保存してトラッキングできます。
 
 これをおこなうには、プロファイルテーブルを拡張して、「**[!UICONTROL CCPA のオプトアウト]**」フィールドを追加する必要があります。
 

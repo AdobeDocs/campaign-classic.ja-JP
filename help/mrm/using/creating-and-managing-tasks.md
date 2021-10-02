@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '3899'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '3898'
+ht-degree: 99%
 
 ---
 
@@ -247,7 +247,7 @@ Adobe Campaign のオペレーターのプロファイルを表示するには�
 
 ### オペレーターの稼働状況 {#operator-availability}
 
-タスクダッシュボードでオペレーター名の横にアイコンが表示される場合、そのオペレーターはタスクの期間中に別のタスクかイベントで既に作業していることを意味します（オペレーターが担当または関係しているタスクでは、「**[!UICONTROL 割り当て先]**」フィールドまたはタスクの「**[!UICONTROL リソース]**」ボックスにそのオペレーターが表示されます）。
+タスクダッシュボードでオペレーター名の横にアイコンが表示される場合、そのオペレーターはタスクの期間中に別のタスクかイベントで既に作業していることを意味しますオペレーターが担当または関与しているタスクは、「**[!UICONTROL 割り当て先]**」フィールドまたはタスク「**[!UICONTROL リソース]**」ボックスに表示されます。
 
 ![](assets/mrm_task_alert_operator_busy.png)
 

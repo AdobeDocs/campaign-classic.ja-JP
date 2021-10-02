@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '218'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 オファーがオファーエンジンによって選択されるためには、承認され、実稼働環境で利用できる必要があります。詳しくは、[オファーの承認と有効化](../../interaction/using/approving-and-activating-an-offer.md)を参照してください。
 
-コンタクト先がインバウンドである場合、2 つの結果が考えられます。1 つは、ユーザーが閲覧しているサイトによってユーザーが識別されないという結果、もう 1 つは、ユーザーが識別されるという結果です。オファーエンジンは、ユーザーが識別されているかどうかに応じて異なるオファーを提示します。
+コンタクト先がインバウンドの場合、次の 2 つの結果が考えられます。ページを閲覧しているユーザーは、web サイトで識別できます。 オファーエンジンは、ユーザーが識別されているかどうかに応じて異なるオファーを提示します。
 
 インバウンドチャネルでオファーを提示できるようにする前に、オファーを提示する場所にオファーエンジン呼び出しを設定する必要があります。インバウンドインタラクションでは、ほとんどの場合、これは Web ページです。
 

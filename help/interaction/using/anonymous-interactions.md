@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a8face46-a933-4f2c-8299-ccb66f05967d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '467'
-ht-degree: 100%
+source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 匿名の訪問者が接続する際に、それらの訪問者が Cookie 識別プロセスに送信されることがあります。この暗黙の認識は、訪問者のブラウザーの履歴に基づいています。
 
-この手順では、Cookie から復元されたデータとデータベースのデータの比較がおこなわれます。その結果、訪問者が認識される（暗黙的に推測される）場合もあれば、認識されない（その結果、匿名のままの）場合もあります。
+この手順では、Cookie から復元されたデータとデータベースのデータの比較がおこなわれます。訪問者が認識される（暗黙的に推測される）場合もあれば、認識されない（したがって匿名のままの）場合もあります。
 
 この分析を実行するには、オファースペースで、「**[!UICONTROL ブラウザー履歴に基づいて個人を暗示的に識別]**」オプションをオンにします。
 

@@ -7,9 +7,9 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 77c7f1edc531509580c76f55dcb2809c18a04133
+source-git-commit: 37115de5871d773dc7b97c5150ef1eab583e3104
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2567'
 ht-degree: 98%
 
 ---
@@ -617,7 +617,7 @@ ht-degree: 98%
       + [ミッドソーシングへのデプロイメント](installation/using/mid-sourcing-deployment.md)
       + [パワーブースターとパワークラスター](installation/using/power-booster-and-power-cluster.md)
    + セキュリティとプライバシーの設定 {#security-privacy}
-      + [セキュリティとプライバシーの概要](installation/using/get-started-security-privacy.md)
+      + [セキュリティとプライバシーのチェックリスト](installation/using/get-started-security-privacy.md)
       + [パーソナライゼーションとプライバシー](installation/using/privacy.md)
       + [安全なアクセス管理](installation/using/access-management.md)
       + [スクリプトとコーディングのガイドライン](installation/using/scripting-coding-guidelines.md)

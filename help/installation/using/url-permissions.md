@@ -5,9 +5,9 @@ description: URL へのアクセス権限の設定方法を説明します
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-source-git-commit: dab18d24f5471034a2169dd674e6f7000de30cac
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '337'
 ht-degree: 36%
 
 ---
@@ -26,7 +26,7 @@ Campaign Classic インスタンスの JavaScript コード（ワークフロー
 >
 >**ホスト** のお客様は、[CampaignCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) にアクセスできる場合、URL 権限セルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja)
 >
->その他の **ハイブリッド/ホスト型** のお客様は、Adobeサポートチームに連絡して、許可リストに IP を追加する必要があります。
+>その他の **ハイブリッド/ホスト型** のお客様は、Adobeに IP を追加するために、サポートチームに連絡する必要があ許可リストります。
 
 **ハイブリッド** および **オンプレミス** のデプロイメントの場合、管理者は、新しい **urlPermission** を **serverConf.xml** ファイルで参照する必要があります。
 

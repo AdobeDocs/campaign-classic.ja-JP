@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '1588'
-ht-degree: 100%
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+workflow-type: tm+mt
+source-wordcount: '1586'
+ht-degree: 96%
 
 ---
 
@@ -150,7 +150,7 @@ Gmail アカウントに対して AMP フォーマットで配信をテストす
 
 1. Adobe Campaign では、適切に設定された E メールアドレスに対して AMP を利用した動的な E メールを配信し、その内容と動作を検証できます。[選択したアドレスに対する AMP E メール配信のテスト](#testing-amp-delivery-for-selected-addresses)を参照してください。
 
-1. テストが完了すると、該当する E メールプロバイダーに登録して、送信者ドメインを許可リストに登録することで、AMP for Email プログラムの一環として配信またはキャンペーンを送信できます。[メールプロバイダーへの登録による AMP E メールの配信](#delivering-amp-emails-by-registering)を参照してください。
+1. テストが完了すると、該当する E メールプロバイダーに登録して、送信者ドメインをに追加することで、AMP for Email プログラムの一部として配信またはキャンペーンを送信でき許可リストます。 [メールプロバイダーへの登録による AMP E メールの配信](#delivering-amp-emails-by-registering)を参照してください。
 
 ### 選択したアドレスへの AMP E メール配信のテスト {#testing-amp-delivery-for-selected-addresses}
 
@@ -174,7 +174,7 @@ Mail.ru アドレスへの AMP E メールの送信をテストするには、[M
 
 ### メールプロバイダーへの登録による AMP E メールの配信 {#delivering-amp-emails-by-registering}
 
-送信者ドメインを許可リストに追加するために、サポート対象の E メールプロバイダーに登録して、動的な E メールの配信を試すことができます。
+動的な E メールの配信は、送信者ドメインを登録するために、サポートされている E メールプロバイダーに登録してテストでき許可リストます。
 
 >[!NOTE]
 >

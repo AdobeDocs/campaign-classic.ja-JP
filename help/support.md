@@ -4,10 +4,10 @@ title: 'Campaign Classic のヘルプおよびサポートオプション '
 description: Campaign Classic のサポートが必要な場合は、こちらから確認してください。
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 100%
+source-wordcount: '799'
+ht-degree: 96%
 
 ---
 
@@ -99,7 +99,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 >
 >コントロールパネルは、すべての管理者ユーザーからアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)を参照してください。
 >
->インスタンスは AWS でホストされ、最新の [Gold Standard](rn/using/gs-overview.md) ビルドまたは[最新の GA ビルド（21.1.4）](rn/using/latest-release.md)にアップグレードする必要があります。 バージョンを確認する方法については、[この節](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
+>インスタンスは AWS でホストし、最新の [Gold Standard](rn/using/gs-overview.md) ビルドまたは[最新の GA ビルド（21.1.4）](rn/using/latest-release.md)にアップグレードする必要があります。 バージョンを確認する方法については、[この節](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
 
 ### コントロールパネルにアクセスするには？
 
@@ -111,7 +111,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ### SFTP 管理
 
-コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量を監視したり、許可リストの IP アドレスや SSH 公開鍵を管理できます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja)してください。
+コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量の監視、ストレージ上の IP アドレスの管許可リスト理、SSH 公開鍵を実行できます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja)してください。
 
 ### サブドメインおよび証明書
 
@@ -123,7 +123,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 ### インスタンス設定
 
 コントロールパネルでの Campaign Classic インスタンス設定の管理方法を説明します。 詳しくは、以下のページを参照してください。
-* [許可リストに IP を追加](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)して Campaign インスタンスにアクセスします
+* [許可リストに IP を追](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja) 加して Campaign インスタンスにアクセスする
 * [URL 権限の管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja)
 * [インスタンスの詳細へのアクセス](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ja)
 * [データ暗号化用の GPG キーの管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja)

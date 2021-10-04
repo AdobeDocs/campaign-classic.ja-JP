@@ -2,11 +2,9 @@
 product: campaign
 title: IMS を使用して Adobe Campaign に接続するための環境の更新
 description: Campaign - IMS の更新
-hide: true
-hidefromtoc: true
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: ed9e76495efb0cb49e248a7d38417642c5094a11
-workflow-type: ht
+source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
+workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -78,7 +76,7 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../inte
 
 ![](../../integrations/using/assets/do-not-localize/errorMsg.png)
 
-このような警告が表示された場合は、使用しているオペレーティングシステムの最新のアップデートをインストールしてください。 [詳細情報](https://helpx.adobe.com/jp/x-productkb/global/update-operating-system-and-browser.html)
+このような警告が表示された場合は、使用しているオペレーティングシステムの最新のアップデートをインストールしてください。 [詳細情報](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
 **2021 年 6 月 30 日（PT）以降**、次のメッセージが表示され、Adobe Campaign に接続できなくなります。
 

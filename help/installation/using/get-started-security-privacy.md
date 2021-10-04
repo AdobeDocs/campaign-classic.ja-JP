@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: セキュリティとプライバシーの概要
+title: セキュリティとプライバシーのチェックリスト
 description: セキュリティとプライバシーに関して確認すべき重要な要素について詳しく説明します。
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 64%
+source-wordcount: '487'
+ht-degree: 54%
 
 ---
 
-# セキュリティとプライバシーの概要 {#get-started-security-privacy}
+# セキュリティとプライバシーのチェックリスト{#get-started-security-privacy}
+
+![](../../assets/v7-only.svg)
 
 この節では、セキュリティとプライバシーに関して確認すべき重要な要素について説明します。 一部の設定はオンプレミスのお客様のみ実行できます。
 
@@ -48,11 +50,11 @@ ht-degree: 64%
 
 Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する場合、常に次のガイドラインに従います。
 
-* **スクリプティング**：SQL 文は使用しないようにします。文字列連結ではなく、パラメーター化関数を使用します。使用する SQL 関数を許可リストに追加して、SQL インジェクションを回避します。
+* **スクリプティング**:SQL 文を避けるには、文字列連結の代わりにパラメータ化関数を使用し、使用する SQL 関数をパラメータに追加して SQL インジェクションを避け許可リストます。
 
 * **データモデルの保護**：ネームド権限を使用してオペレーターのアクションを制限し、システムフィルター（sysFilter）を追加します
 
-* **WebアプリケーションにCaptchaを追加します**。パブリックのランディングページとサブスクリプションページにcaptchaを追加する方法を説明します。
+* **Web アプリケーションに Captcha を追加**:パブリックのランディングページとサブスクリプションページに captcha を追加する方法を説明します。
 
 [詳細情報](../../installation/using/scripting-coding-guidelines.md)
 
@@ -66,21 +68,25 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 [詳細情報](../../installation/using/network-database.md)
 
+>[!CAUTION]
+>
+>2021 年 7 月 14 日以降、TLS 1.2 プロトコルをサポートしないクライアントシステムは、すべてのAdobe製品およびサービスへのアクセスを失います。 この日より前に、すべてのユーザーおよびクライアントシステムが TLS 1.2 に準拠していることを確認してください。 [詳細情報](https://helpx.adobe.com/in/x-productkb/multi/eol-tls-support.html)
+
 ## サーバー設定
 
 <img src="assets/do-not-localize/icon_server.svg" width="60px">
 
-設定は、すべてのサーバーでおこなう必要があります。設定ファイルのタイプは&#x200B;**serverConf.xml**&#x200B;と&#x200B;**`config-<instance>.xml`**&#x200B;です。 次に、確認する必要がある重要な要素を示します。
+設定は、すべてのサーバーでおこなう必要があります。設定ファイルのタイプは **serverConf.xml** と **`config-<instance>.xml`** です。 次に、確認する必要がある重要な要素を示します。
 
-* **セキュリティゾーン**:プロキシのクライアントのIPアドレスを直接考慮するようにセキュリティゾーンを設定します。
+* **セキュリティゾーン**:プロキシのクライアントの IP アドレスを直接考慮するように、セキュリティゾーンを設定します。
 
-* **ファイルのアップロード保護**:新しいuploadAllowList属性を使用して、Adobe Campaignサーバーにアップロードできるファイルのタイプを制限します。これは、サーバー設定ファイルで使用できます。
+* **ファイルのアップロード保護**:新しい uploadAllowList 属性を使用して、Adobe Campaignサーバーにアップロードできるファイルのタイプを制限します。これは、サーバー設定ファイルで使用できます。
 
 * **リレー**：使用していないモジュール／アプリケーションのリレールールを無効にして、リレー設定を微調整します。
 
 * **送信接続の保護**&#x200B;と&#x200B;**コマンドの制限**（サーバー側）
 
-* また、HTTP ヘッダーを追加したり、checkIPConsistent、enableTLS、sessionTimeOutSec などを有効にしたりすることもできます。詳しくは、[Campaignサーバー設定のドキュメント](../../installation/using/configuring-campaign-server.md)および[サーバー設定ファイルの説明](../../installation/using/the-server-configuration-file.md)を参照してください。
+* また、HTTP ヘッダーを追加したり、checkIPConsistent、enableTLS、sessionTimeOutSec などを有効にしたりすることもできます。詳しくは、[Campaign サーバーの設定に関するドキュメント ](../../installation/using/configuring-campaign-server.md) および [ サーバーの設定ファイルに関する説明 ](../../installation/using/the-server-configuration-file.md) を参照してください。
 
 [詳細情報](../../installation/using/server-configuration.md)
 
@@ -88,7 +94,7 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 <img src="assets/do-not-localize/icon_web.svg" width="60px">
 
-Webサーバー(Apache/IIS)を設定する際は、次のベストプラクティスに従う必要があります。
+Web サーバー (Apache/IIS) を設定する際は、次のベストプラクティスに従う必要があります。
 
 * 古い SSL のバージョンと暗号を無効にする
 * メソッドのTRACE

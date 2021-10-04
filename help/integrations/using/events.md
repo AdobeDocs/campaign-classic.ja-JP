@@ -5,10 +5,10 @@ description: カスタム実装用のイベントの設定方法を説明しま�
 audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Javascript コードの編集には技術スキルが必要なので、きちん
 
 パイプラインでは JavaScript 関数を使用して各メッセージを処理します。この関数はユーザー定義関数です。
 
-これは、「JSConnector」属性の下の **[!UICONTROL NmsPipeline_Config]** オプションで設定します。この JavaScript は、イベントを受信するたびに呼び出されます。[!DNL pipelined] プロセスで実行されます。
+これは、「JSConnector」属性の下の **[!UICONTROL NmsPipeline_Config]** オプションで設定します。この JavaScript は、イベントを受け取るたびに呼び出されます。 [!DNL pipelined] プロセスで実行されます。
 
 サンプルの JavaScript ファイルは、cus:triggers.js です。
 

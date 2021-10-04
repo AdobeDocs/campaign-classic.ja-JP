@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '1117'
-ht-degree: 66%
+source-wordcount: '1116'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 66%
 
 このページでは、Campaign Classic を **Microsoft Dynamics CRM 365** に接続する方法について説明します。
 
-**Web API**（推奨）を使用したデプロイが可能です。 Microsot Dynamics との接続を設定する手順については、[以下の節](#microsoft-dynamics-implementation-step)を参照してください。
+**Web API** を使用したデプロイメントが可能です（推奨）。 Microsot Dynamics との接続を設定する手順については、[以下の節](#microsoft-dynamics-implementation-step)を参照してください。
 
 データ同期は、専用のワークフローアクティビティを使用して実行します。 [詳細情報](../../platform/using/crm-data-sync.md)
 
@@ -29,7 +29,7 @@ ht-degree: 66%
 
 Microsoft Dynamics CRM 内：
 1. Microsoft Dynamics クライアント ID の取得
-1. Microsoft Dynamics証明書キー識別子とキーIDを生成する
+1. Microsoft Dynamics 証明書キー識別子およびキー ID の生成
 1. 権限の設定
 1. アプリユーザーの作成
 1. 秘密鍵のエンコード
@@ -68,9 +68,9 @@ Campaign Classic 内：
 
 詳しくは、[こちらのページ](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory)を参照してください。
 
-### Microsoft Dynamics証明書キー識別子とキーIDを生成する {#config-certificate-key-id}
+### Microsoft Dynamics 証明書キー識別子およびキー ID の生成 {#config-certificate-key-id}
 
-**証明書キー識別子(customKeyIdentifier)**&#x200B;と&#x200B;**キーID(keyId)**&#x200B;を取得するには、次の手順に従います。
+**証明書キー識別子（customKeyIdentifier）**&#x200B;と&#x200B;**キー ID（keyId）**&#x200B;を取得するには、次の手順に従います。
 
 1. **Azure Active Directory／アプリ登録**&#x200B;に移動し、以前に作成されたアプリケーションを選択します。
 1. 「**証明書とシークレット**」をクリックします。
@@ -85,37 +85,37 @@ Campaign Classic 内：
 
    >[!NOTE]
    >
-   >証明書の有効期間を延長するためのコードサンプルで、日数`-days 365`を変更できます。
+   >コードサンプルの `-days 365` で日数を変更することで、証明書の有効期間を延長することができます。
 
-1. その後、base64でエンコードする必要があります。 これを行うには、Base64エンコーダの助けを借りるか、Linuxのコマンドライン`base64 -w0 private.key`を使用します。
+1. その後、base64 でエンコードする必要があります。 それには、Base64 エンコーダーを利用するか、Linux の場合はコマンドライン `base64 -w0 private.key` を使用します。
 
-1. **マニフェスト**&#x200B;リンクをクリックして、**証明書キー識別子(customKeyIdentifier)**&#x200B;と&#x200B;**キーID(keyId)**&#x200B;を取得します。
+1. 「**マニフェスト**」リンクをクリックして、**証明書キー識別子（customKeyIdentifier）**&#x200B;と&#x200B;**キー ID（keyId）**&#x200B;を取得します。
 
-証明書&#x200B;**[!UICONTROL OA-Auth type]**&#x200B;を使用してMicrosoft Dynamics CRM外部アカウントを設定するには、後で&#x200B;**証明書キー識別子(customKeyIdentifier)**&#x200B;と&#x200B;**キーID(keyId)**&#x200B;が必要になります。
+**証明書キー識別子（customKeyIdentifier）**&#x200B;と&#x200B;**キー ID（keyId）**&#x200B;は、後で「**[!UICONTROL CRM O-Auth タイプ]**」として「証明書」を使用して Microsoft Dynamics CRM 外部アカウントを設定する際に必要になります。
 
 ### 権限の設定 {#config-permissions-microsoft}
 
-**手順1**:作成した **アプリ** の必須権限を設定します。
+**手順 1**：作成したアプリに&#x200B;**必要な権限**&#x200B;を設定する
 
 1. **Azure Active Directory／アプリ登録**&#x200B;に移動し、以前に作成されたアプリケーションを選択します。
 1. 左上の「**設定**」をクリックします。
 1. 「**必要な権限**」で、「**追加**」と **API／Dynamics CRM オンライン**&#x200B;をクリックします。
-1. **「**&#x200B;を選択」をクリックし、「**組織ユーザーとしてDynamics 365にアクセス**」チェックボックスをオンにして、「**選択**」をクリックします。
-1. 次に、アプリから&#x200B;****&#x200B;を管理メニューの下の&#x200B;**マニフェスト**&#x200B;を選択します。
+1. 「 **選択**」をクリックし、「**組織ユーザーとして Dynamics 365 にアクセス**」チェックボックスを有効にして、「**選択**」をクリックします。
+1. 次に、アプリから&#x200B;**管理**&#x200B;メニューの下の&#x200B;**マニフェスト**&#x200B;を選択します。
 
-1. **マニフェスト**&#x200B;エディターで、`allowPublicClient`プロパティを`null`から`true`に設定し、「**保存**」をクリックします。
+1. **マニフェスト**&#x200B;エディターで、`allowPublicClient` プロパティを `null` から `true` に設定し、「**保存**」をクリックします。
 
-**手順2**:管理者の同意の付与
+**手順 2**：管理者の同意を付与する
 
-1. **Azure Active Directory/エンタープライズアプリケーション**&#x200B;に移動します。
+1. **Azure Active Directory／エンタープライズアプリケーション**&#x200B;に移動します。
 
-1. テナント全体の管理者の同意を与えるアプリケーションを選択します。
+1. テナント全体での管理者の同意を付与するアプリケーションを選択します。
 
 1. 左側のペインメニューから、「**セキュリティ**」の下の「**権限**」を選択します。
 
-1. 「**管理者の同意を付与**」をクリックします。
+1. 「**管理者の同意の付与**」をクリックします。
 
-詳しくは、[Azureのドキュメント](https://docs.microsoft.com/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal)を参照してください。
+詳しくは、[Azure のドキュメント](https://docs.microsoft.com/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-from-the-azure-portal)を参照してください。
 
 ### アプリユーザーの作成 {#create-app-user-microsoft}
 
@@ -155,23 +155,23 @@ Campaign Classic 内：
 
 >[!NOTE]
 >
-> Microsoft](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891%28v=crm.8%29#microsoft-dynamics-crm-2011-endpoint)の[RDSの廃止後、オンプレミス型およびOffice 365型のCRMデプロイメントは、Campaignとの互換性を失います。 Adobe Campaignは、CRMバージョン&#x200B;**動的CRM 365**&#x200B;のWeb APIデプロイメントのみをサポートするようになりました。 [詳細情報](../../rn/using/deprecated-features.md#crm-connectors)。
+> [Microsoft の RDS](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891%28v=crm.8%29#microsoft-dynamics-crm-2011-endpoint) の廃止後、オンプレミス型および Office 365 型の CRM デプロイメントは Campaign との互換性がなくなりました。Adobe Campaign では、CRM バージョンの **Dynamic CRM 365** について、Web API デプロイメントのみをサポートするようになりました。 [詳細情報](../../rn/using/deprecated-features.md#crm-connectors)。
 
-Microsoft Dynamics 365とCampaignに接続するには、Campaignで専用の&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を作成して設定する必要があります。
+Microsoft Dynamics 365 と Campaign を接続するには、Campaign で専用の&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を作成し設定する必要があります。
 
 1. **[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;に移動します。
 
-1. **[!UICONTROL Microsoft Dynamics CRM]**&#x200B;外部アカウントを選択します。 「**[!UICONTROL 有効]**」オプションをオンにします。
+1. 「**[!UICONTROL Microsoft Dynamics CRM]**」タイプの外部アカウントを選択します。 「**[!UICONTROL 有効]**」オプションをオンにします。
 
-1. Microsoft Dynamics 365とCampaignの接続に必要な情報を入力します。
+1. Microsoft Dynamics 365 と Campaign の接続に必要な情報を入力します。
 
    >[!NOTE]
    >
-   >各&#x200B;**[!UICONTROL CRM O-Authタイプ]**&#x200B;を使用したMicrosoft Dynamics CRM外部アカウントの設定については、この節](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)で[詳しく説明します。
+   >**[!UICONTROL CRM O-Auth タイプ]**&#x200B;ごとの Microsoft Dynamics CRM 外部アカウントの設定について詳しくは、[この節](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)を参照してください。
 
    ![](assets/crm-ms-dynamics-ext-account.png)
 
-1. **[!UICONTROL Microsoft CRM設定ウィザードをクリックします。]**&#x200B;リンクをクリックします。Adobe Campaignは、Microsoft Dynamicsデータテンプレートからテーブルを自動的に検出します。
+1. 「**[!UICONTROL Microsoft CRM 設定ウィザード...]**」リンクをクリックします。Adobe Campaign が Microsoft Dynamics データテンプレートからテーブルを自動的に検出します。
 
    ![](assets/crm_connectors_msdynamics_02.png)
 
@@ -199,9 +199,9 @@ Microsoft Dynamics 365とCampaignに接続するには、Campaignで専用の&#x
 
 >[!NOTE]
 >
-> 次の2つのURLを必ず許可リストに追加する必要があります。サーバーのURLと`login.microsoftonline.com`がサーバー設定に含まれている。
+> 次の 2 つの URL を必ずに追加す許可リストる必要があります。サーバーの URL と `login.microsoftonline.com`（サーバー設定）
 
-## サポートされるフィールドデータ型 {#ms-dyn-supported-types}
+## サポートされているフィールドデータタイプ {#ms-dyn-supported-types}
 
 Microsoft Dynamics 365 でサポートされる／サポートされない属性タイプは、次のとおりです。
 

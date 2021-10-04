@@ -7,12 +7,13 @@ breadcrumb-url: /docs/campaign-classic/using/campaign-classic-home.html
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: aac596caf559b25ba3fff94aca410a66ecc08b27
+source-git-commit: 77c7f1edc531509580c76f55dcb2809c18a04133
 workflow-type: tm+mt
-source-wordcount: '2546'
+source-wordcount: '2569'
 ht-degree: 98%
 
 ---
+
 
 # Adobe Campaign Classic v7 ドキュメント {#using}
 
@@ -36,12 +37,6 @@ ht-degree: 98%
       + [リリース 18.4](rn/using/release--18-4.md)
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
    + [互換性マトリックス](rn/using/compatibility-matrix.md)
-   + [テクニカルノート](technotes/using/technote.md)
-   + [iOS 証明書の更新](technotes/using/ios-certificate-update.md)
-   + [Apple iOSでのメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
-   + [Campaign 設定の更新](technotes/using/acc-config-updates.md)
-   + [トラッキング対象 URL の更新](technotes/using/tracked-urls.md)
-   + [IMS の更新](technotes/using/ims-updates.md)
 + はじめに {#getting-started}
    + Adobe Campaign の利用開始 {#starting-with-adobe-campaign}
       + [Adobe Campaign Classic の概要](platform/using/about-adobe-campaign-classic.md)
@@ -116,10 +111,10 @@ ht-degree: 98%
          + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
          + [Salesforce.com との接続](platform/using/crm-sfdc.md)
          + [CRM とのデータの同期](platform/using/crm-data-sync.md)
-      + Adobe Analytics コネクタ {#analytics-connector}
-         + [Adobe Analytics Connectorのプロビジョニング](platform/using/adobe-analytics-provisioning.md)
-         + [Adobe Analyticsコネクタの統合](platform/using/adobe-analytics-connector.md)
-         + [Adobe Analytics Connector に移行する方法](technotes/using/aa-connector-migration.md)
+      + Adobe Analytics コネクタ{#analytics-connector}
+         + [Adobe Analytics Connector のプロビジョニング](platform/using/adobe-analytics-provisioning.md)
+         + [Adobe Analytics コネクタの統合](platform/using/adobe-analytics-connector.md)
+         + [Adobe Analytics コネクタへの移行方法](technotes/using/aa-connector-migration.md)
          + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
    + [ヘルプとサポートオプション](support.md)
 + メッセージの作成と送信 {#sending-messages}
@@ -439,7 +434,7 @@ ht-degree: 98%
       + [購読サービス](workflow/using/subscription-services.md)
       + [データ更新](workflow/using/update-data.md)
       + [CRM コネクタ](workflow/using/crm-connector.md)
-      + [データソースの変更](workflow/using/change-data-source.md)
+      + [データソースを変更](workflow/using/change-data-source.md)
    + フロー制御アクティビティ {#flow-control-activities}
       + [フロー制御アクティビティについて](workflow/using/about-flow-control-activities.md)
       + [開始および終了](workflow/using/start-and-end.md)
@@ -850,6 +845,16 @@ ht-degree: 98%
       + [v6.10 特有の設定](migration/using/specific-configurations-in-v6-10.md)
    + [ロールバック手順](migration/using/about-rollback.md)
 + テクニカルノート {#technotes}
-   + Adobe Managed Servicesへの移行{#dc-migration}
+   + [ハードウェアのサイズ決定の推奨事項](technotes/using/hardware-sizing.md)
+   + アップグレードと移行 {#technote-migration}
+      + [テクニカルノート](technotes/using/technote.md)
+      + [Campaign 設定の更新](technotes/using/acc-config-updates.md)
+      + [IMS の更新](technotes/using/ims-updates.md)
+   + 電子メールとプッシュ通知 {#technotes-email}
+      + [Apple iOS でのメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
+      + [Apple Mail プライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+      + [iOS 証明書の更新](technotes/using/ios-certificate-update.md)
+      + [トラッキング対象 URL の更新](technotes/using/tracked-urls.md)
+   + Adobe Managed Services への移行 {#dc-migration}
       + [パブリッククラウドへの移行](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)

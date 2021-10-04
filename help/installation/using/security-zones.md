@@ -5,10 +5,10 @@ description: セキュリティゾーンの構成方法を説明します
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
-source-git-commit: dab18d24f5471034a2169dd674e6f7000de30cac
+source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 32%
+source-wordcount: '1491'
+ht-degree: 29%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 32%
 >
 >**ホスト** のお客様は、[ キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) にアクセスできる場合、セキュリティゾーンセルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)
 >
->その他の **ハイブリッド/ホスト型** のお客様は、Adobeサポートチームに連絡して、許可リストに IP を追加する必要があります。
+>その他の **ハイブリッド/ホスト型** のお客様は、Adobeに IP を追加するために、サポートチームに連絡する必要があ許可リストります。
 
 ## セキュリティゾーンの作成 {#creating-security-zones}
 
@@ -225,7 +225,7 @@ Adobe Campaignサーバーにアクセスする可能性が高いプロキシの
 * sessionTokenOnly=&quot;true&quot; の使用は最小限に抑えます。
 
    * 警告：この属性が true に設定されている場合、オペレーターは **CRSF 攻撃** にさらされる可能性があります。
-   * さらに、sessionToken cookie に httpOnly フラグが設定されていないので、一部のクライアント側 JavaScript コードがこれを読み取れる可能性があります。
+   * また、 sessionToken Cookie に httpOnly フラグが設定されていないので、一部のクライアント側 JavaScript コードで読み取ることができます。
    * ただし、複数の実行セルで Message Center が sessionTokenOnly を必要とします。新しいセキュリティゾーンを作成し、sessionTokenOnly を true に設定して、**必要な IP のみ**&#x200B;をこのゾーンに追加します。
 
 * 可能な場合は、allowHTTP と showErrors をすべて false に設定し（localhost ではない）、確認します。
@@ -245,6 +245,6 @@ Adobe Campaignサーバーにアクセスする可能性が高いプロキシの
 
 * HttpOnly cookie／useSecurityToken：**sessionTokenOnly** フラグを参照してください。
 
-* 許可リストに追加する IP を最小限に抑える：セキュリティゾーンには、既にプライベートネットワーク用の 3 つの範囲が追加されています。通常、これらの IP アドレスをすべて使用することはありません。そのため、必要なもののみを保持するようにしてください。
+* に追加される IP を最小許可リスト化：標準では、セキュリティゾーンに、プライベートネットワーク用の 3 つの範囲を追加しました。 通常、これらの IP アドレスをすべて使用することはありません。そのため、必要なもののみを保持するようにしてください。
 
 * webApp／内部オペレーターを更新して、localhost でのみアクセス可能となるようにしてください。

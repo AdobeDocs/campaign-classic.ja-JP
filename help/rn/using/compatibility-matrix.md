@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: f6f1feffbd328f9756c9cd71c4186ba7cd674d76
+source-git-commit: 235e8abcaed2659d745ebfeca24dc2f0278a6e5a
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 85%
+source-wordcount: '600'
+ht-degree: 79%
 
 ---
 
@@ -119,7 +119,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 </tbody>
 </table>
 
-## RDBMS サーバー{#RDBMSservers}
+## 関連データベース管理システム (RDBMS){#RDBMSservers}
 
 <table>
 <tbody>
@@ -133,10 +133,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 </td>
 </tr>
 <tr>
-<td>
-<p>PostgreSQL</p>
-<p>ホスト環境のデフォルトのデータベースサーバー</p>
-</td>
+<td>PostgreSQL</td>
 <td>
 <p>13.x</p>
 <p>12.x</p>
@@ -145,7 +142,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <p>9.6.x</p>
 <p>9.5.x</p>
 <p>9.4.x</p>
-<p>注意：上記のバージョンで Amazon RDS for PostgreSQL を使用することもできます。</p>
+<p><strong>注意：</strong> 上記のバージョンでAmazon RDS for PostgreSQL を使用することもできます。</p>
 </td>
 </tr>
 <tr>
@@ -156,7 +153,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <p>2016 年</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
-<p>警告：Linux で Campaign サーバーを実行している場合、Microsoft SQL Server はプライマリデータベースとしてサポートされません。［詳細情報］（../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers）。</p>
+<p><strong>重要：</strong> Microsoft SQL Server は、Campaign サーバーを Linux で実行している場合、プライマリデータベースとしてサポートされません。［詳細情報］（../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers）。</p>
 </td>
 </tr>
 </tbody>
@@ -164,7 +161,10 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 >[!NOTE]
 >
->RDBMS ドライバーは RDBMS サーバーのバージョンと一致する必要があります。
+>* RDBMS ドライバーは RDBMS サーバーのバージョンと一致する必要があります。
+>
+>* PostgreSQL はホスト環境の RDBMS です。
+
 
 ## CRM コネクタ{#CRMconnectors}
 

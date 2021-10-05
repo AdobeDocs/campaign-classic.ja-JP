@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: editing-html-content
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 デジタルコンテンツエディターのインポート機能は、次のサポートされる形式で、次のように動作します。
 
 * CSS：.zip ファイルに含まれる画像はインポートされません。CSS のこれらの画像への参照は、更新されません。
-* JS：.zip ファイルに含まれる画像はインポートされません。JS のこれらの画像への参照は、更新されません。
+* JS：.zip ファイルに含まれる画像はインポートされません。JS のこれらの画像への参照は更新されません。
 * IFrame：リンクされたページは、インポートされません。
 * ランディングページおよび Web アプリ： **form** タグが見つからない場合、警告が表示されます。`<form> </form>` が常にメッセージ本文に存在する必要があります。
 

@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: Adobe Campaign Classic ドキュメントの更新
+title: Adobe Campaign Classic v7 ドキュメントの更新
 description: このページでは、Adobe Campaign Classic のドキュメントのすべての新機能と更新をリストします
 feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: cee019432c64eaaefac86a27b731355242fd1555
 workflow-type: tm+mt
-source-wordcount: '4533'
+source-wordcount: '4580'
 ht-degree: 98%
 
 ---
@@ -21,22 +21,34 @@ ht-degree: 98%
 
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
 
-## 2021年8月{#aug-2021}
+## 2021年10月{#oct-2021}
 
-新しいワークフローアクティビティを追加しました。データソースの変更 — [詳細](../../workflow/using/change-data-source.md)
+既存のテクニカルノートは、新しい **テクニカルノート** の節にグループ化されました。
 
-次のドキュメントページに適用可能なバッジが追加されました。**v7**&#x200B;はCampaign Classicv7機能のみに適用され、**v7 &amp; v8**&#x200B;は一般的な機能に適用されます。
+**ハードウェアのサイズ変更の推奨事項** ページが更新され、**テクニカルノート** の節に追加されました。 [詳細情報](../../technotes/using/hardware-sizing.md)
 
-Adobe Experience Manager 6.4以降、CampaignとAEM Assetsの統合に関するメモを追加しました。[詳細](../../integrations/using/configuring-access-to-assets.md)
+## 2021年9月{#sept-2021}
 
-レポートとWebアプリケーションのスクリーンショットとパラメーターは、AdobeFlashの削除後に更新されました。
+**21.1.4 リリースに伴うドキュメントのアップデート**
 
 **ゲージ**&#x200B;グラフタイプが削除されました。
+
+Adobe Flash の提供終了に伴い、レポートと web アプリケーションのスクリーンショットおよびパラメーターが更新されました。
+
+[ 請求テクニカルワークフロー ](../../production/using/monitoring-processes.md#billing-report) の説明が更新され、新しいガードレールが追加されました。
+
+## 2021 年 8 月{#aug-2021}
+
+「データソースを変更」という新しいワークフローアクティビティが追加されました - [詳細情報](../../workflow/using/change-data-source.md)
+
+適用の可否を示すバッジがドキュメントページに追加されました。**v7 に適用**&#x200B;の場合は Campaign Classic v7 機能にのみ適用され、**v7 と v8 に適用**&#x200B;の場合は両方のバージョンに共通する機能に適用されます。
+
+Adobe Experience Manager 6.4 以降は Campaign と AEM Assets の統合が廃止されていることを示す注記が追加されました。[詳細情報](../../integrations/using/configuring-access-to-assets.md)
 
 
 ## 2021 年 7 月 {#july-2021}
 
-[Campaign 21.1.3 リリース](../../rn/using/latest-release.md#release-21-1-3-build-9330)は一般提供（GA）に移行しました。
+[Campaign 21.1.3 リリース](../../rn/using/latest-release.md#release-21-1-3-build-9330)が一般提供（GA）に移行しました。
 
 
 ## 2021 年 6 月 {#june-2021}
@@ -270,7 +282,7 @@ Campaign Classic のプライバシー管理ページが更新され、「規則
 
 「プライバシー管理の概要」ページが更新され、タイの個人データ保護法（PDPA）とブラジルの Lei Geral de Proteção de Dados（LGPD）に関する情報が含まれるようになりました。[詳細を表示](../../platform/using/privacy-and-recommendations.md)
 
-サブワークフローのログおよびエラー発生時の動作に関する情報が追加されました。[詳細を表示](../../workflow/using/sub-workflow.md)
+サブワークフローのログと、エラーが発生した場合の動作に関する情報が追加されました。 [詳細を表示](../../workflow/using/sub-workflow.md)
 
 **[!UICONTROL スケジューラー]**&#x200B;アクティビティの節に、ベストプラクティスが追加されました。[詳細情報](../../workflow/using/scheduler.md)
 
@@ -380,7 +392,7 @@ Hadoop FDA コネクタの機能強化 - [詳細を表示](../../installation/us
 
 [インストール](../../installation/using/general-architecture.md)、[実稼動](../../production/using/foreword.md)、および[設定](../../configuration/using/additional-parameters.md)ガイドが、nlserver サービスの起動に使用する新しい systemd ユニットについて更新されました。引き続き /etc/init.d/nlserver6 を使用できますが、nlserver サービスとのインタラクションには systemctl コマンドを使用することをお勧めします。
 
-インストールガイドを更新し、互換性マトリックスの最新バージョンと同期しました。新しいサポート対象システムが追加されました。非推奨（廃止予定）およびサポート対象外のシステムに関する記載は削除されました。[詳細を表示](../../installation/using/general-architecture.md)
+インストールガイドが更新され、互換性マトリックスの最新バージョンと同期されました。 新しいサポート対象システムが追加されました。非推奨（廃止予定）およびサポートされていないシステムの発生が削除されました。 [詳細を表示](../../installation/using/general-architecture.md)
 
 互換性マトリックスを更新し、Hadoop 3.0 および Snowflake の FDA コネクタを追加しました。[詳細を表示](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 

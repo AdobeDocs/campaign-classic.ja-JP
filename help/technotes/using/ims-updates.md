@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: IMS を使用して Adobe Campaign に接続するための環境の更新
+title: テクニカルノート — IMS を使用してAdobe Campaignに接続する環境の更新
 description: Campaign - IMS の更新
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
+source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '591'
+ht-degree: 84%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-2021 年 6 月 30 日（PT）に [Adobe Identity Management System](https://helpx.adobe.com/jp/enterprise/using/identity.html)（IMS）のログイン機能が変更され、引き続き Adobe Campaign を使用する際に影響が出る可能性があります。Adobe Campaign Classic v7 を中断することなく引き続き使用できるようにする方法を説明します。
+2021 年 6 月 30 日に、[AdobeIdentity Managementシステム ](https://helpx.adobe.com/jp/enterprise/using/identity.html)(IMS) のログイン機能が変更され、Adobe Campaignの引き続き使用する際に影響を及ぼす可能性がありました。 Adobe Campaign Classic v7 を中断することなく引き続き使用できるようにする方法を説明します。
 
 ## 変更点
 
-Adobe Identity Management Service（IMS）は、**2021 年 6 月 30 日（PT）**&#x200B;以降、古いバージョンの Internet Explorer をサポートしなくなります。[詳細情報](https://helpx.adobe.com/jp/x-productkb/global/update-operating-system-and-browser.html)。
+AdobeIdentity Managementサービス (IMS) は、2021 年 6 月 30 日に、古いバージョンの Internet Explorer のサポートを停止しました。****[詳細情報](https://helpx.adobe.com/jp/x-productkb/global/update-operating-system-and-browser.html)。
 
 アドビは、2021 年 6 月 30 日（PT）以降も、すべてのお客様に対して引き続き IMS 機能を提供したいと考えています。IMS はセキュリティフレームワークの一部で、ユーザーがクライアントコンソール、したがって Adobe Campaign にログインできるようにするものです。
 
@@ -28,7 +28,7 @@ Adobe Identity Management Service（IMS）は、**2021 年 6 月 30 日（PT）*
 
 Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../integrations/using/about-adobe-id.md) Campaign に接続しており、下記に示すバージョンより古いバージョンの Campaign を使用している場合は、影響を受けます。
 
-更新済みでも、古いバージョンの Microsoft Internet Explorer を使用している場合は、Internet Explorer 11 にアップグレードする必要があります。
+既にアップグレード済みで、古いバージョンの Microsoft Internet Explorer を使用している場合は、Internet Explorer 11 にアップグレードする必要があります。
 
 ## 更新方法
 
@@ -78,7 +78,7 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../inte
 
 このような警告が表示された場合は、使用しているオペレーティングシステムの最新のアップデートをインストールしてください。 [詳細情報](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
-**2021 年 6 月 30 日（PT）以降**、次のメッセージが表示され、Adobe Campaign に接続できなくなります。
+Internet Explorer のバージョンを更新しなかった場合は、次のメッセージが表示され、Adobe Campaignに接続できなくなります。
 
 ![](../../integrations/using/assets/do-not-localize/errorUpdateReq.png)
 

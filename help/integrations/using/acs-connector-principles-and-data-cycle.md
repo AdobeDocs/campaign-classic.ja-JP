@@ -6,8 +6,8 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '2044'
 ht-degree: 100%
 
@@ -149,7 +149,7 @@ ACS コネクタに関連するすべての技術要素は、エクスプロー�
 * **[!UICONTROL `[ACS] Service replication`]**（newServiceReplication）：この増分ワークフローは、選択したサービスを Campaign Standard にレプリケートします。使用例の [Web アプリケーションの同期](../../integrations/using/synchronizing-web-applications.md)を参照してください。
 * **[!UICONTROL `[ACS] Landing pages replication`]**（newLandingPageReplication）：この増分ワークフローは、選択した Web アプリケーションを Campaign Standard にレプリケートします。Campaign v7 Web アプリケーションは、Campaign Standard でランディングページとして表示されます。使用例の [Web アプリケーションの同期](../../integrations/using/synchronizing-web-applications.md)を参照してください。
 * **[!UICONTROL `[ACS] New replication`]**（newReplication）：この増分ワークフローは、カスタムテーブルのレプリケートに使用できる例です。[高度な実装](#advanced-implementation)を参照してください。
-* **[!UICONTROL `[ACS] Delivery-mesage replication`]**（newDlvMsgQualification）：この増分ワークフローは、配信メッセージを Campaign Standard から Campaign v7 にレプリケートします。
+* **[!UICONTROL `[ACS] Delivery-message replication`]**（newDlvMsgQualification）：この増分ワークフローは、配信メッセージを Campaign Standard から Campaign v7 にレプリケートします。
 * **[!UICONTROL `[ACS] Profile delivery log replication`]**（newRcpDeliveryLogReplication）：この増分ワークフローは、配信 ID、E メール配信ログおよび E メールトラッキングログを Campaign Standard から Campaign v7 にレプリケートします。ここでは、Campaign Standard から Campaign v7 の nms:recipients テーブルの一部であるプロファイルに送信された配信のみが考慮されます。
 * **[!UICONTROL `[ACS] New delivery log replication`]**（newRcpDeliveryLogReplication）：この増分ワークフローは、配信 ID、E メール配信ログおよび E メールトラッキングログを Campaign Standard から Campaign v7 にレプリケートします。ここでは、Campaign Standard から Campaign v7 の（nms:recipient 以外の定義する）特定のテーブルの一部であるプロファイルに送信された配信のみが考慮されます。
 

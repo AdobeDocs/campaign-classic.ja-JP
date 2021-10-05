@@ -5,10 +5,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '593'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 1. 「**[!UICONTROL 送信者]**」フィールドで、ブランド名など、受信者が容易に識別できる名前を使用して、配信の開封率を高めます。受信者のエクスペリエンスの質を高めるために、「Megastore（担当：田中）」のように個人名を追加する方法もあります。
 
-1. 「**[!UICONTROL 返信アドレスのテキスト]**」フィールドでは、送信者のアドレスがデフォルトで返信に使用されます。カスタマーサポートの代表アドレスなど、実際にある既存のアドレスを使用することをお勧めします。そうすれば、受信者から返信が来た場合に、カスタマーサポートが対応することができます。
+1. 「**[!UICONTROL 返信アドレスのテキスト]**」フィールドでは、送信者のアドレスがデフォルトで返信に使用されます。 カスタマーサポートの代表アドレスなど、実際にある既存のアドレスを使用することをお勧めします。そうすれば、受信者から返信が来た場合に、カスタマーサポートが対応することができます。
 
 ### コントロール母集団の設定
 

@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
-workflow-type: ht
-source-wordcount: '539'
-ht-degree: 100%
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
+source-wordcount: '540'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 Adobe Campaign と Experience Cloud Assets 間の統合を使用するには、次が必要です。
 
 * Adobe Experience Cloud 組織
-* Adobe IMS 認証モードが有効であること
+* Adobe IMS認証モードが有効
 
 Adobe Campaign と Adobe Experience Cloud の間の接続を有効化するには、IMS（Adobe ID 接続サービス）を介して接続を設定します。この設定について詳しくは、[Adobe ID を使用して接続](../../integrations/using/about-adobe-id.md)ドキュメントで説明しています。設定時には以下をおこないます。
 
@@ -51,7 +51,7 @@ Adobe Campaign と Adobe Experience Cloud の間の接続を有効化するに�
 
 >[!CAUTION]
 >
->この機能は、Adobe Experience Manager 6.4 以降では廃止されています。 [詳細情報](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=ja#removed-features)
+>この機能は、Adobe Experience Manager 6.4 以降で廃止されました。 [ 詳細 ](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=ja#removed-features)
 
 AEM Assets と Adobe Campaign を統合するには、まず Adobe Experience Manager と Adobe Campaign 間の統合を設定する必要があります。この設定には、主に次のことが必要になります。
 

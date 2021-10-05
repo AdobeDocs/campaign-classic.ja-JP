@@ -2,14 +2,14 @@
 product: campaign
 title: Campaign Classicv7 向けのハードウェアのサイズ変更の推奨事項
 description: Campaign Classicv7 向けのハードウェアのサイズ変更の推奨事項
-source-git-commit: 3912874210ab16a132e51d9bb71508c8d244fe22
+source-git-commit: 0deb18bb0376fc5e94d063145280426ff54db786
 workflow-type: tm+mt
-source-wordcount: '2513'
+source-wordcount: '2512'
 ht-degree: 1%
 
 ---
 
-# Campaign Classicv7 向けのハードウェアのサイズ変更の推奨事項 {#hardware-sizing-reco}
+# ハードウェアのサイズ決定の推奨事項{#hardware-sizing-reco}
 
 ![](../../assets/v7-only.svg)
 
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->このガイドは、一般的なサンプルガイドとしてのみ提供されています。 Campaign プロジェクトを開始する前に、Adobe Campaignカスタマーサクセスマネージャーに相談して、デプロイメントの正確なサイズ設定を測定する必要があります。 **インフラス** トラクチャやハードウェアは、この処理が完了するまで使用しないか、デプロイしてください。
+>この記事は、一般的なサンプルガイドとしてのみ提供されています。 Campaign プロジェクトを開始する前に、Adobe Campaignカスタマーサクセスマネージャーに相談して、デプロイメントの正確なサイズ設定を測定する必要があります。 **インフラス** トラクチャやハードウェアは、この処理が完了するまで使用しないか、デプロイしてください。
 
-このドキュメントでは、オンプレミスのデータセンターまたは仮想化クラウド環境でのAdobe Campaign Classic v7 導入に関する一般的なガイドラインを示します。 このタイプのデプロイメント（**ハイブリッド** または **ミッドソーシング** と呼ばれる）は、Campaign マーケティングインスタンスとマーケティングデータベースを運用管理の下に配置し、E メール、SMS または SMPP メッセージを送信します。
+このドキュメントでは、オンプレミスのデータセンターまたは仮想化クラウド環境でのAdobe Campaign Classic v7 の導入に関する一般的な推奨事項を示します。 このタイプのデプロイメント（**ハイブリッド** または **ミッドソーシング** と呼ばれる）は、Campaign マーケティングインスタンスとマーケティングデータベースを運用管理の下に配置し、E メール、SMS または SMPP メッセージを送信します。
 
 マーケティングインスタンスは、Adobe Campaignアーキテクチャの一部で、すべてのマーケティングアクティビティを推進し、キャンペーンから返されるすべての受信者データと分析データを保存します。 マーケティングインスタンスは、Adobe Campaignサービスを実行する一連のオンプレミスサーバーで、リレーショナルデータベースです。
 
@@ -258,5 +258,6 @@ Adobeでは、Adobe Campaignの仮想化導入に対してパフォーマンス�
 ## 関連トピック
 
 * [キャンペーン監視プロセス](../../production/using/monitoring-processes.md)
+* [Campaign の一般的なアーキテクチャ](../../installation/using/general-architecture.md)
 * [パフォーマンスとスループットの問題](../../production/using/performance-and-throughput-issues.md)
 * [セキュリティとプライバシーのチェックリスト](../../installation/using/get-started-security-privacy.md)

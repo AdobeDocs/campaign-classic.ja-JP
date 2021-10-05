@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: technical-workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 56470602e3acf777d5b00c293060c644c1fbbc37
+source-git-commit: e82bcef34ba8a9d5a7e6c4a59552d8cb7c800ca5
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 97%
+source-wordcount: '1724'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 
 デフォルトでは、テクニカルワークフローは、**[!UICONTROL 管理]**／**[!UICONTROL プロダクション]**／**[!UICONTROL テクニカルワークフロー]**&#x200B;ノードのサブフォルダーで使用できます。
 
-テクニカルワークフローは、管理権限を持つオペレーターのみが開始および変更できます。 権限の詳細については、[](../../platform/using/access-management-groups.md#default-groups)を参照してください。
+テクニカルワークフローは、管理権限を持つオペレーターのみが開始および変更できます。 権限の詳細については、[](../../platform/using/access-management-groups.md#default-groups) を参照してください。
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ ht-degree: 97%
 |------|--------|-----------|
 | **エイリアスクレンジング**（aliasCleansing） | 配信 | 列挙値を標準化します。デフォルトで、毎日午前 3 時にトリガーされます。 |
 | **請求**（請求） | 配信 | システムアクティビティレポートを「請求」オペレーターにメールで送信します。マーケティングインスタンスで、毎月25日にトリガーされます。 |
-| **Twitter 統計の計算**（statsTwitter） | ソーシャルネットワーク（ソーシャルマーケティング） - Campaign v7のみ | リツイートと訪問にリンクされた統計を計算します。 |
+| **Twitter 統計の計算**（statsTwitter） | ソーシャルネットワーク（ソーシャルマーケティング） - Campaign v7 のみ | リツイートと訪問にリンクされた統計を計算します。 |
 | **Campaign ジョブ**（operationMgt） | マーケティングキャンペーン（キャンペーン） | マーケティングキャンペーンに関するジョブ（ターゲティングの開始、ファイル抽出など）を管理します。また、繰り返しキャンペーンと定期的キャンペーンに関連するワークフローも作成します。 |
 | **ヒートマップサービスのデータを収集**（collectDataHeatMapService） | デフォルトでインストール | このワークフローは、ヒートマップサービスに必要なデータを取得します。 |
 | **プライバシーリクエストを収集**（collectPrivacyRequests） | プライバシーデータ保護規則 | このワークフローでは、Adobe Campaign に保存されている受信者のデータを生成し、プライバシーリクエストの画面でダウンロードできるようにします。 |
@@ -56,7 +56,7 @@ ht-degree: 97%
 | **Adobe Experience Cloud からのオーディエンスのインポート**（importSharedAudience） | Adobe Experience Cloud との統合 | このワークフローでは、別の Adobe Experience Cloud ソリューションのオーディエンスおよびセグメントを Adobe Campaign にインポートできます。 |
 | **キャンペーンの配信ジョブ**（deliveryMgt） | マーケティングキャンペーン（キャンペーン） | 承認された配信をトリガーし、外部配信のサービスプロバイダーの後処理を開始します。また、承認通知とリマインダーも送信します。 |
 | **サービスプロバイダーのジョブ**（supplierMgt） | マーケティングキャンペーン（キャンペーン） | 配信が承認されると、プロバイダーの処理（発送担当への E メール送信および後処理）を開始します。 |
-| **LINE V2 アクセストークンの更新**（updateLineV2AccessToken） | LINE チャネル - Campaign v7のみ | このワークフローは、アクセストークンを LINE V2 に更新します。 |
+| **LINE V2 アクセストークンの更新**（updateLineV2AccessToken） | LINE チャネル - Campaign v7 のみ | このワークフローは、アクセストークンを LINE V2 に更新します。 |
 | **MID から LINE ユーザー ID への移行**（MIDToUserIDMigration） | LINE チャネル | このワークフローは、LINE V1 から LINE V2 へ移行用に、LINE V2 ユーザーの ID を生成します。 |
 | **マーケティングリソース通知**（assetMgt） | マーケティングリソース（MRM） | マーケティングリソースの承認とパブリッシュにリンクされた通知を管理します。 |
 | **Message Center>external_account_name>**（mcSynch_&lt;external_account_name>） | トランザクションメッセージコントロール（Message Center - コントロール） | このワークフローの機能は次のとおりです。 <ul><li>操作によって処理されるイベントリストを復元します。</li><li>配信メッセージの選定を復元するために NmsBroadLogMsg テーブルと同期します。</li><li>NmsBroadLogMsg テーブルとの同期が完了するとただちに、イベント配信ログを復元します。</li><li>配信 URL のトラッキングを復元するために NmsTrackingUrl テーブルと同期します。</li><li>NmsTrackingUrl テーブルとの同期が完了するとただちに、イベントトラッキング URL を復元します。</li><li>配信の送信後 3 時間おきに、強制隔離されたすべての E メールアドレスを復元できます。</li></ul> |
@@ -74,10 +74,10 @@ ht-degree: 97%
 | **レポート集計**（reportingAggregates） | 配信 | レポートで使用される集計を更新します。デフォルトで、毎日午前 2 時にトリガーされます。 |
 | **指標とキャンペーン属性の送信**（webAnalyticsSendMetrics） | Web 分析コネクタ | このワークフローを使用すると、Adobe® Analytics コネクタ経由で、Adobe Campaign から Adobe Experience Cloud スイートにメールキャンペーンの指標を送信できます。該当する指標は、送信済み（iSent）、オープン数合計（iTotalRecipientOpen）、クリックした受信者の合計数（iTotalRecipientClick）、エラー（iError）、オプトアウト（opt-out）（iOptOut）です。 |
 | **在庫 : オーダーおよびアラート**（stockMgt） | マーケティングキャンペーン（キャンペーン） | このワークフローは、受注明細に対する在庫計算を開始し、警告アラートのしきい値を管理します。 |
-| **Facebook ファンの同期**（syncFacebookFans） | ソーシャルネットワーク（ソーシャルマーケティング） - Campaign v7のみ | 毎日午前 7 時に Facebook ファンを Adobe Campaign にインポートします。 |
-| **Facebook ページの同期**（syncFacebook） | ソーシャルネットワーク（ソーシャルマーケティング） - Campaign v7のみ | 毎日午前 7 時に Facebook ページを Adobe Campaign と同期します。 |
-| **Twitter ページとの同期**（syncTwitter） | ソーシャルネットワーク（ソーシャルマーケティング） - Campaign v7のみ | 毎日午前 7 時に Twitter のフォロワーを Adobe Campaign にインポートします。 |
-| **タスク通知**（taskMgt） | マーケティングリソース（MRM） - Campaign v7のみ | マーケティングキャンペーンのタスクに関する通知メッセージを送信できます。 |
+| **Facebook ファンの同期**（syncFacebookFans） | ソーシャルネットワーク（ソーシャルマーケティング） - Campaign v7 のみ | 毎日午前 7 時に Facebook ファンを Adobe Campaign にインポートします。 |
+| **Facebook ページの同期**（syncFacebook） | ソーシャルネットワーク（ソーシャルマーケティング） - Campaign v7 のみ | 毎日午前 7 時に Facebook ページを Adobe Campaign と同期します。 |
+| **Twitter ページとの同期**（syncTwitter） | ソーシャルネットワーク（ソーシャルマーケティング） - Campaign v7 のみ | 毎日午前 7 時に Twitter のフォロワーを Adobe Campaign にインポートします。 |
+| **タスク通知**（taskMgt） | マーケティングリソース（MRM） - Campaign v7 のみ | マーケティングキャンペーンのタスクに関する通知メッセージを送信できます。 |
 | **トラッキング**（トラッキング | 配信 | トラッキング情報のリカバリと紐付けを実行します。トラッキングおよび配信の統計情報、特に Message Center のアーカイブワークフローで使用される統計情報の再計算を保証します。デフォルトでは、1 時間に 1 回トリガーされます。 |
 | **イベントステータスを更新**（updateEventsStatus） | トランザクションメッセージ実行（Message Center - 実行） | イベントにステータスを割り当てます。イベントのステータスには次のものがあります。<ul><li>保留中：イベントはキューで待機中です。イベントはまだメッセージテンプレートと関連付けられていません。</li><li>配信待ち：イベントはキューに入っており、メッセージテンプレートが関連付けられ、現在配信処理中です。</li><li>送信済み：このステータスは配信ログからコピーされます。配信が送信されたことを示します。</li><li>配信で無視：このステータスは配信ログからコピーされます。配信が無視されたことを示します。</li><li>配信エラー：このステータスは配信ログからコピーされます。配信に失敗したことを示します。</li><li>対象外のイベント：イベントを、メッセージテンプレートに関連付けられませんでした。イベントは再処理されません。</li></ul> |
-| **配信品質の更新**（deliverabilityUpdate） | 配信 | 配信品質の監視（E メール配信品質）パッケージがインストールされると、このワークフローは夜間に実行され、バウンス E メールの認定ルールと、ドメインと MX のリストを管理します。 これには、プラットフォームで HTTPS ポートを開く必要があります |
+| **配信品質の更新**（deliverabilityUpdate） | 配信 | 配信品質の監視（E メールの配信品質）パッケージをインストールすると、このワークフローは毎日夜間に実行され、バウンス E メールの選定ルールと、ドメインと MX のリストを管理します。 これには、プラットフォームで HTTPS ポートを開く必要があります。 |

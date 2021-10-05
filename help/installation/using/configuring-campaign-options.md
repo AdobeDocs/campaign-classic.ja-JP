@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
 workflow-type: tm+mt
 source-wordcount: '3994'
 ht-degree: 24%
@@ -687,7 +687,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSequence_AutoGeneration</span> <br /> </td> 
-   <td> この時点以降に作成された、autopk="true"を使用し、属性"pkSequence"を使用しないカスタマイズされたすべてのスキーマは、自動生成されたシーケンス"auto_ 
+   <td> この時間以降に作成された、autopk="true"を使用し、属性"pkSequence"を使用しないカスタマイズされたすべてのスキーマは、自動生成シーケンス"auto_ 
     &lt;schemanamespace&gt; 
      &lt;schemaname&gt;
        _seq 

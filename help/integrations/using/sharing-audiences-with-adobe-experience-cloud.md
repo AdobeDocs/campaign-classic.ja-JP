@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -34,8 +34,8 @@ Adobe Campaign を使用すると、オーディエンスやセグメントを A
 
 この統合では、2 つのタイプの Adobe Experience Cloud ID をサポートしています。
 
-* **訪問者 ID**：このタイプの識別子は、Adobe Experience Cloud の訪問者を Adobe Campaign 受信者に紐付けします。
-* **宣言済み ID**：このタイプの識別子は、すべてのタイプのデータを Adobe Campaign データベースからの要素に紐付けします。Adobe Campaign では、事前定義された紐付けキーとして示されます。
+* **訪問者 ID**:このタイプの識別子は、Adobe Experience Cloudの訪問者をAdobe Campaignの受信者に紐付けします。
+* **宣言済み ID**:このタイプの識別子は、すべてのタイプのデータをAdobe Campaignデータベースからの要素に紐付けします。Adobe Campaign では、事前定義された紐付けキーとして示されます。
 
    >[!NOTE]
    >

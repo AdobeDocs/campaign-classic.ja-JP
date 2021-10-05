@@ -1,25 +1,27 @@
 ---
 product: campaign
 title: プライバシー
-description: プライバシーに関するベストプラクティスの詳細を説明します。
+description: プライバシーに関して従うべきベストプラクティスの詳細を説明します。
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: f31591949bb033ff250cf4b33eddcc2c1d31cc6c
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '900'
 ht-degree: 50%
 
 ---
 
 # プライバシー {#privacy}
 
+![](../../assets/v7-only.svg)
+
 ## プライバシーリクエスト
 
 Adobe Campaign には、GDPR および CCPA に則ってプライバシーを遵守するのに役立つ一連のツールが用意されています。
 
-プライバシー管理の概要とAdobe Campaignでの実装手順に関する一般情報については、[このページ](../../platform/using/privacy-management.md)を参照してください。 また、ベストプラクティスや、ユーザープロセスとペルソナの概要も確認できます。
+プライバシー管理の概要とAdobe Campaignでの実装手順に関する一般情報については、[ このページ ](../../platform/using/privacy-management.md) を参照してください。 また、ベストプラクティスや、ユーザープロセスとペルソナの概要も確認できます。
 
 ## URL のパーソナライゼーション {#url-personalization}
 
@@ -33,13 +35,13 @@ Adobe Campaign には、GDPR および CCPA に則ってプライバシーを遵
 
 ### レコメンデーション
 
-上記を使用していないことを検証し確認するには、[キャンペーン汎用クエリエディター](../../platform/using/steps-to-create-a-query.md)でトラッキングURLテーブルに対してクエリを実行するか、[クエリアクティビティ](../../workflow/using/query.md)でフィルター条件を使用してワークフローを作成します。
+上記を使用していないことを検証し確認するには、[Campaign Generic Query Editor](../../platform/using/steps-to-create-a-query.md) で URL テーブルの追跡に関するクエリを実行するか、[ クエリアクティビティ ](../../workflow/using/query.md) でフィルター条件を使用してワークフローを作成します。
 
 例：
 
-1. ワークフローを作成し、「クエリ」アクティビティを追加します。 詳細情報。
+1. ワークフローを作成し、「クエリ」アクティビティを追加します。 詳細情報.
 
-1. クエリアクティビティを開き、次のようにnmsTrackingUrlテーブルにフィルターを作成します。ソースURLがhttp://&lt;%で始まる、またはソースURLがhttps://&lt;%で始まる。
+1. 「クエリ」アクティビティを開き、次のように nmsTrackingUrl テーブルのフィルターを作成します。ソース URL がhttp://&lt;%で始まるか、ソース URL がhttps://&lt;%で始まる。
 
 1. ワークフローを実行し、結果があるかを確認します。
 
@@ -47,35 +49,35 @@ Adobe Campaign には、GDPR および CCPA に則ってプライバシーを遵
 
 <img src="assets/privacy-query-dynamic-url.png">
 
-### URL署名
+### URL 署名
 
-セキュリティを強化するために、Eメール内のリンクを追跡するための署名メカニズムが導入されました。 ビルド19.1.4(9032@3a9dc9c)およびCampaign 20.2で使用できます。この機能はデフォルトで有効になっています。
+セキュリティを強化するために、E メール内のリンクを追跡するための署名メカニズムが導入されました。 ビルド 19.1.4(9032@3a9dc9c) および Campaign 20.2 で使用できます。この機能はデフォルトで有効になっています。
 
 >[!NOTE]
 >
->形式が正しくない署名済みURLがクリックされると、次のエラーが返されます。&quot;要求されたURL &#39;...&#39;が見つかりませんでした。&quot;
+>形式が正しくない署名済み URL がクリックされると、次のエラーが返されます。&quot;要求された URL &#39;...&#39;が見つかりませんでした。&quot;
 
-さらに、Campaign 20.2と[!DNL Gold Standard]リリース以降は、以前のビルドで生成されたURLを無効にする機能強化を使用できます。 この機能はデフォルトでは無効になっています。 この機能を有効にするには、[カスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html?lang=ja)にお問い合わせください。
+また、Campaign 20.2 と [!DNL Gold Standard] リリース以降は、機能強化を使用して、以前のビルドで生成された URL を無効にできます。 この機能はデフォルトで無効になっています。 この機能を有効にするには、[ カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) にお問い合わせください。
 
-[!DNL Gold Standard] 19.1.4を実行している場合、トラッキングリンクを使用したプッシュ通知配信や、アンカータグを使用した配信で問題が発生する可能性があります。 その場合は、URL署名を無効にすることをお勧めします。
+[!DNL Gold Standard] 19.1.4 を実行している場合、トラッキングリンクを使用したプッシュ通知配信や、アンカータグを使用した配信で問題が発生する可能性があります。 その場合は、URL 署名を無効にすることをお勧めします。
 
-Campaignをオンプレミスで実行している場合でも、ハイブリッドアーキテクチャで実行している場合でも、URL署名を無効にするには、[カスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に連絡する必要があります。
+Campaign をオンプレミスで実行している場合でも、ハイブリッドアーキテクチャで実行している場合でも、[ カスタマーケア ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) に問い合わせて、URL 署名を無効にする必要があります。
 
-ハイブリッドアーキテクチャでCampaignを実行している場合、URL署名を有効にする前に、ホストされているミッドソーシングインスタンスが次のようにアップグレードされていることを確認します。
+ハイブリッドアーキテクチャで Campaign を実行している場合は、URL 署名を有効にする前に、ホストされているミッドソーシングインスタンスが次のようにアップグレードされていることを確認します。
 * オンプレミスのマーケティングインスタンスより前
-* オンプレミスのマーケティングインスタンスと同じバージョンまたは少し高いバージョンに対して
+* オンプレミスのマーケティングインスタンスと同じバージョン、または少し高いバージョンに対して
 
-そうしないと、次の問題が発生する可能性があります。
-* ミッドソーシングインスタンスをアップグレードする前は、URLはこのインスタンスを通じて署名なしで送信されます。
-* ミッドソーシングインスタンスをアップグレードし、両方のインスタンスでURL署名が有効になると、以前に署名なしで送信されたURLは拒否されます。 これは、マーケティングインスタンスから提供されたトラッキングファイルによって署名が要求されるためです。
+そうしないと、次の問題の一部が発生する可能性があります。
+* ミッドソーシングインスタンスがアップグレードされる前は、URL はこのインスタンスを通じて署名なしで送信されます。
+* ミッドソーシングインスタンスをアップグレードし、両方のインスタンスで URL 署名を有効にすると、以前に署名なしで送信された URL は拒否されます。 これは、マーケティングインスタンスから提供されたトラッキングファイルによって署名が要求されるためです。
 
-以前のビルドで生成されたURLを無効にするには、すべてのCampaignサーバーで同時に次の手順に従います。
+以前のビルドで生成された URL を無効にするには、すべての Campaign サーバーで同時に次の手順を実行します。
 
 1. サーバー設定ファイル（serverConf.xml）で、**blockRedirectForUnsignedTrackingLink** を **true** に変更します。
 1. **nlserver** サービスを再起動します。
 1. トラッキングサーバーで、Web サーバー（Debian では apache2、CentOS/RedHat では httpd、Windows では IIS）を再起動します。
 
-URL署名を有効にするには、次の手順をすべてのCampaignサーバーで同時に実行します。
+URL 署名を有効にするには、次の手順をすべての Campaign サーバーで同時に実行します。
 
 1. サーバー設定ファイル （serverConf.xml）で、**signEmailLinks** を **false** に変更します。
 1. **nlserver** サービスを再起動します。
@@ -150,7 +152,7 @@ URL署名を有効にするには、次の手順をすべてのCampaignサーバ
 
    >[!NOTE]
    >
-   >`$(loginId) = 0 or $(login) = 'admin'`を`hasNamedRight('admin')`に置き換えると、管理者権限を持つすべてのユーザーに対し、これらのパスワードを表示させることができます。
+   >`$(loginId) = 0 or $(login) = 'admin'` を `hasNamedRight('admin')` に置き換えて、管理者権限を持つすべてのユーザーにこれらのパスワードの表示を許可できます。
 
 ## PII を含むページの保護
 
@@ -172,12 +174,12 @@ URL署名を有効にするには、次の手順をすべてのCampaignサーバ
    *Disallow: /
    ```
 
-   IISの場合は、[このページ](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files)を参照してください。
+   IIS の場合は、[ このページ ](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files) を参照してください。
 
-   Apacheの場合は、**/var/www/robots.txt**(Debian)にファイルを配置できます。
+   Apache の場合は、**/var/www/robots.txt**(Debian) にファイルを配置できます。
 
-1. 場合によっては、**robots.txt**&#x200B;ファイルを追加するだけではセキュリティ上十分ではありません。 例えば、他の Web サイトに自社ページへのリンクがある場合は、検索結果に自社ページの情報が表示される可能性があります。
+1. **robots.txt** ファイルを追加するだけでは、セキュリティ上十分ではありません。 例えば、他の Web サイトに自社ページへのリンクがある場合は、検索結果に自社ページの情報が表示される可能性があります。
 
 **robots.txt** ファイルに加え、**X-Robots-Tag** ヘッダーも追加することをお勧めします。Apache の場合も IIS の場合も、このヘッダーの追加は **serverConf.xml** 設定ファイルでおこなえます。
 
-詳しくは、[この記事](https://developers.google.com/search/reference/robots_meta_tag)を参照してください。
+詳しくは、[ この記事 ](https://developers.google.com/search/reference/robots_meta_tag) を参照してください。

@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '486'
 ht-degree: 54%
 
 ---
@@ -70,7 +70,7 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 >[!CAUTION]
 >
->2021 年 7 月 14 日以降、TLS 1.2 プロトコルをサポートしないクライアントシステムは、すべてのAdobe製品およびサービスへのアクセスを失います。 この日より前に、すべてのユーザーおよびクライアントシステムが TLS 1.2 に準拠していることを確認してください。 [詳細情報](https://helpx.adobe.com/in/x-productkb/multi/eol-tls-support.html)
+>2021 年 7 月 14 日以降、TLS 1.2 プロトコルをサポートしないクライアントシステムは、すべてのAdobe製品およびサービスへのアクセスを失います。 この日より前に、すべてのユーザーおよびクライアントシステムが TLS 1.2 に準拠していることを確認してください。 [詳細情報](https://helpx.adobe.com/x-productkb/multi/eol-tls-support.html)
 
 ## サーバー設定
 

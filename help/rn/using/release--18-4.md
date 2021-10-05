@@ -3,10 +3,10 @@ product: campaign
 title: Campaign 18.4 のリリースノート
 description: Campaign 18.4 のリリースノート
 exl-id: bbad81ba-a09f-4d67-9309-628ea7a08c9b
-source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '2289'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 * E メールのアーカイブログが強化され、どの E メールが正常に配信されたかまたは BCC アーカイブで失敗したかがより簡単にはっきりと確認できるようになりました。（NEO-10675）
 * トラッキングブロードログでカスタマー IP の代わりにロードバランサー IP が表示されてしまうという問題を修正しました。（NEO-11295）
 * PostgreSQL データベースへの FDA 接続を使用した際に LATIN1 エンコードで発生するエラーを修正しました。（NEO-11299）
-* 「**[!UICONTROL ワークフローを使用してパーソナライゼーションデータを準備]**」配信オプションを使用したときに発生する問題を修正しました。（NEO-11047、NEO-11301）
+* 「**[!UICONTROL ワークフローを使用してパーソナライゼーションデータを準備]** 」配信オプションを使用した際に発生していた問題を修正しました。 （NEO-11047、NEO-11301）
 * 配信のプロパティが誤って上書きされるというランダム問題を修正しました。（NEO-11015）
 * **[!UICONTROL 調査の回答]**&#x200B;ワークフローアクティビティの計算フィールドを使用した際に発生する問題を修正しました。（NEO-11382）
 * **[!UICONTROL 調査の回答]**&#x200B;ワークフローアクティビティで、XML 形式で格納されているデータを使用した際に発生する問題を修正しました。（NEO-10816）
@@ -171,7 +171,7 @@ queryDef に対して「orderBy」句に関する変更がおこなわれまし�
    </select>
    <orderBy>
       <node expr="@logDate"/>
-      <node expr="@id"/> <!-- implicitely added before 18.4, you can add it manually on your query, if you relied on this implicit order clauses --!>
+      <node expr="@id"/> <!-- implicitly added before 18.4, you can add it manually on your query, if you relied on this implicit order clauses --!>
    </orderBy>
 </queryDef>
 ```

@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '1204'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -98,7 +98,7 @@ Campaign Standard でレプリケートされない追加データを必要と�
 
 1. 前に作成したワークフローに「**[!UICONTROL リストの更新]**」アクティビティを追加して、更新または作成するリストを指定します。
 
-   Campaign v7 でリストを保存するフォルダーを指定します。リストは実装時に定義されたフォルダーマッピングに依存します。Campaign Standard で共有すると、表示に影響する可能性があります。[権限の変更](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion)の節を参照してください。
+   Campaign v7 でリストを保存するフォルダーを指定します。リストは、実装時に定義されたフォルダーマッピングに依存します。フォルダーマッピングをCampaign Standardで共有すると、表示に影響を与える可能性があります。 [権限の変更](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion)の節を参照してください。
 
 1. 「**[!UICONTROL ACS と共有]**」オプションがオンになっていることを確認します。デフォルトでオンになっています。
 

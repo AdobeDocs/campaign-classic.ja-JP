@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '2369'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **強化点**
 
@@ -91,7 +91,7 @@ ht-degree: 100%
 * 配信でシードアドレスを使用する際に ID が枯渇していた問題を修正しました。（NEO-11842）
 * 複雑なワークフローを使用する際にクライアントがフリーズすることがあった問題を修正しました。（NEO-11847）
 * 1:N リンクを含む値の配分を使用する際に発生していた表示の問題を修正しました。（NEO-11820）
-* ワークフローヒートマップでの Oracle のエラーを修正しました。
+* ワークフローヒートマップのOracleエラーを修正しました。
 * エンリッチメントアクティビティでオファーの提案を追加する際に発生していた権利の問題を修正しました。
 * SQL データ管理接続の問題を修正しました。
 * 負の ID の場合に一時的なワークフローテーブル名の生成で発生していた問題を修正しました。
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **新機能**
 

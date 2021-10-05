@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
 workflow-type: tm+mt
 source-wordcount: '3090'
 ht-degree: 19%
@@ -119,7 +119,7 @@ Adobeプラットフォームによる E メールの効率的な送受信に関
 
 ### 設定の開始 {#start-configuration}
 
-デフォルトでは、**stat** モジュールは各インスタンスに対して起動されます。 インスタンスが同じマシン上で相互化されている場合、またはインスタンスが同じ IP アドレスを共有している場合は、単一の統計サーバーが使用されます。その他の人々は障害を持たなければなりません
+デフォルトでは、**stat** モジュールは各インスタンスに対して起動されます。 インスタンスが同じマシン上でプールされる場合、またはインスタンスが同じ IP アドレスを共有する場合は、単一の統計サーバーが使用されます。その他の人々は障害を持たなければなりません
 
 ### サーバーポートの定義 {#definition-of-the-server-port}
 

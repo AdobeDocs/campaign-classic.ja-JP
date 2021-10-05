@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 089ade04a7324f8052738f18b34c09b429275c00
+source-git-commit: 23c5892189c59008f82ec453c97d24efe82fd2ae
 workflow-type: tm+mt
-source-wordcount: '2567'
-ht-degree: 98%
+source-wordcount: '2566'
+ht-degree: 97%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 98%
          + [CRM コネクタの基本を学ぶ](platform/using/crm-connectors.md)
          + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
          + [Salesforce.com との接続](platform/using/crm-sfdc.md)
-         + [CRM とのデータの同期](platform/using/crm-data-sync.md)
+         + [データと CRM の同期](platform/using/crm-data-sync.md)
       + Adobe Analytics コネクタ{#analytics-connector}
          + [Adobe Analytics Connector のプロビジョニング](platform/using/adobe-analytics-provisioning.md)
          + [Adobe Analytics コネクタの統合](platform/using/adobe-analytics-connector.md)
@@ -213,7 +213,6 @@ ht-degree: 98%
       + [配信のトラブルシューティング](delivery/using/delivery-troubleshooting.md)
       + [配信ステータス](delivery/using/delivery-statuses.md)
       + [配信失敗について](delivery/using/understanding-delivery-failures.md)
-      + [ISP 機能停止後のバウンス認定条件の更新](delivery/using/update-bounce-qualification.md)
       + [強制隔離管理について](delivery/using/understanding-quarantine-management.md)
    + メッセージのトラッキング {#tracking-messages}
       + [メッセージトラッキングについて](delivery/using/about-message-tracking.md)
@@ -852,6 +851,7 @@ ht-degree: 98%
    + 電子メールとプッシュ通知 {#technotes-email}
       + [Apple iOS でのメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
       + [Apple Mail プライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+      + [誤ったハードバウンスの更新方法](delivery/using/update-bounce-qualification.md)
       + [iOS 証明書の更新](technotes/using/ios-certificate-update.md)
       + [トラッキング対象 URL の更新](technotes/using/tracked-urls.md)
    + Adobe Managed Services への移行 {#dc-migration}

@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: personalizing-deliveries
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
-workflow-type: ht
-source-wordcount: '958'
-ht-degree: 100%
+source-git-commit: 0deb18bb0376fc5e94d063145280426ff54db786
+workflow-type: tm+mt
+source-wordcount: '960'
+ht-degree: 98%
 
 ---
 
@@ -149,7 +149,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->デフォルトでは、クーポン管理モジュールは、**nms:recipient** テーブルを使用します。他のテーブルの使用方法については、[スキーマの編集](../../configuration/using/data-schemas.md)を参照してください。
+>デフォルトでは、クーポン管理モジュールは、**nms:recipient** テーブルを使用します。[詳細情報](../../configuration/using/about-data-model.md#default-recipient-table)。
+>
+>カスタム受信者テーブル [ の使用方法については、このページ ](../../configuration/using/about-custom-recipient-table.md) を参照してください。
 
 ## 不足クーポンの管理 {#managing-insufficient-coupons}
 

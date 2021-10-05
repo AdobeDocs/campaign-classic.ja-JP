@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 3%
@@ -15,19 +15,21 @@ ht-degree: 3%
 
 # インターフェイスの設定{#configuring-the-interface}
 
-Adobe Campaignインターフェイスで新しい受信者テーブルを表示し、ダイアログを表示するには、次の手順に従います。
+![](../../assets/v7-only.svg)
+
+Adobe Campaignインターフェイスで新しい受信者テーブルを表示してダイアログを表示するには、次の手順に従います。
 
 * 新しいフォームを作成して、新しい受信者テーブルの内容を編集します。
 * エクスプローラーツリーのフォルダーに新しいタイプを入力します。
-* 新しいWebアプリケーションを作成し、Adobe Campaignホームページからカスタムテーブルにアクセスします。
+* 新しい Web アプリケーションを作成し、Adobe Campaignホームページからカスタムテーブルにアクセスします。
 
-Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者データベース(nms:recipient)と対話します。 したがって、この変数は変更する必要があります。
+Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者データベース (nms:recipient) と対話します。 この変数は変更する必要があります。
 
-1. エクスプローラーの&#x200B;**[!UICONTROL 管理/プラットフォーム/オプション]**&#x200B;ノードに移動します。
-1. **Nms_DefaultRcpSchema**&#x200B;変数の値を、外部の受信者テーブル(この場合はcus:individual)と同じです。
+1. エクスプローラーの **[!UICONTROL 管理/プラットフォーム/オプション]** ノードに移動します。
+1. **Nms_DefaultRcpSchema** 変数の値を、外部の受信者テーブル ( この場合はcus:individual)。
 1. 変更を保存します。
 
-## 新しいフォーム{#creating-a-new-form-}の作成
+## 新しいフォームの作成 {#creating-a-new-form-}
 
 新しいフォームを作成すると、外部の受信者テーブルのデータを表示および編集できます。
 
@@ -35,15 +37,15 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
 >
 >フォームの名前は、対象となるスキーマの名前と同じにする必要があります。
 
-1. エクスプローラーの&#x200B;**管理/設定/入力フォーム**&#x200B;ノードに移動します。
-1. 新しい&#x200B;**xtk:form**&#x200B;タイプ&#x200B;**form**&#x200B;ファイルを作成します。
-1. テーブルテンプレートに応じて、必要なすべての監視とフィールドについて説明します。
+1. エクスプローラーの **管理/設定/入力フォーム** ノードに移動します。
+1. 新しい **xtk:form** タイプ **form** ファイルを作成します。
+1. テーブルテンプレートに応じて、必要なすべての監視およびフィールドについて説明します。
 
    >[!NOTE]
    >
-   >**form**&#x200B;タイプのファイルについて詳しくは、[このページ](../../configuration/using/identifying-a-form.md)を参照してください。
+   >**form** タイプのファイルの詳細については、[ このページ ](../../configuration/using/identifying-a-form.md) を参照してください。
 
-   この例では、**form**&#x200B;ファイルは&#x200B;**cus:individual**&#x200B;スキーマに基づいている必要があるので、次のレイアウトにする必要があります。
+   この例では、**form** ファイルは **cus:individual** スキーマに基づいている必要があるので、次のレイアウトにする必要があります。
 
    ```
    <container colspan="2">
@@ -60,17 +62,17 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
 
 1. 作成を保存します。
 
-## ナビゲーション階層{#creating-a-new-type-of-folder-in-the-navigation-hierarchy}に新しいタイプのフォルダーを作成する
+## ナビゲーション階層での新しいタイプのフォルダーの作成 {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}
 
-1. **[!UICONTROL 管理/設定/ナビゲーション階層]**&#x200B;ノードに移動します。
-1. 新しい&#x200B;**xtk:navtree**&#x200B;タイプ&#x200B;**navtree**&#x200B;ドキュメントを作成します。
-1. テーブルテンプレートに応じて、必要なすべての監視とフィールドについて説明します。
+1. **[!UICONTROL 管理/設定/ナビゲーション階層]** ノードに移動します。
+1. 新しい **xtk:navtree** タイプ **navtree** ドキュメントを作成します。
+1. テーブルテンプレートに応じて、必要なすべての監視およびフィールドについて説明します。
 
    >[!NOTE]
    >
-   >**navtree**&#x200B;タイプのファイルについて詳しくは、[このページ](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy)を参照してください。
+   >**navtree** タイプのファイルについて詳しくは、[ このページ ](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy) を参照してください。
 
-   現在の例では、**navtree**&#x200B;ファイルは&#x200B;**cus:individual**&#x200B;スキーマに基づいている必要があり、次の形式にする必要があります。
+   現在の例では、**navtree** ファイルは **cus:individual** スキーマに基づいている必要があるので、次の形式にする必要があります。
 
    ```
     <model name="root">

@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 987434c2b6b92fbb6f24924f92795cb282b61cd4
-workflow-type: ht
-source-wordcount: '545'
-ht-degree: 100%
+source-git-commit: 134f248fbcd456573365d5b32831b75dac4b73de
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 86%
 
 ---
 
@@ -154,7 +154,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016</p>
+<p>2016 年</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
 <p>警告：Linux で Campaign サーバーを実行している場合、Microsoft SQL Server はプライマリデータベースとしてサポートされません。［詳細情報］（../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers）。</p>
@@ -168,6 +168,8 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 >PostgreSQL は、ホスト環境のデフォルトのデータベースサーバーです。
 
 ## CRM コネクタ{#CRMconnectors}
+
+Adobe Campaignと互換性のある顧客関係管理 (CRM) システムを次に示します。 [Campaign CRM コネ](../../platform/using/crm-connectors.md) クタについて詳しく説明します。
 
 <table>
 <tbody>
@@ -187,6 +189,8 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 </table>
 
 ## Federated Data Access（FDA）{#FederatedDataAccessFDA}
+
+Adobe Campaign [Federated Data Access モジュール ](../../installation/using/about-fda.md) と互換性のある外部データベースを以下に示します。
 
 <table>
 <tbody>
@@ -230,10 +234,10 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019</p>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
+<p>2019 年</p>
+<p>2017 年</p>
+<p>2016 年</p>
+<p>2014 年</p>
 <p>2012 SP1 および SP2</p>
 </td>
 </tr>
@@ -286,7 +290,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 ## クライアントコンソール {#ClientConsoleoperatingsystems}
 
-:warning: Campaign クライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。
+[Campaign クライアントコンソール ](../../installation/using/installing-the-client-console.md) を使用するには、次のオペレーティングシステムとブラウザーが **必要です**。
 
 ### オペレーティングシステム
 
@@ -295,8 +299,8 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016</p>
-<p>2012</p>
+<p>2016 年</p>
+<p>2012 年</p>
 </td>
 </tr>
 <tr>
@@ -311,6 +315,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 ### ブラウザー
 
+[]
 <table>
 <tbody>
 <tr>
@@ -326,6 +331,8 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 
 ## モバイル SDK{#MobileSDK}
+
+以下に示すオペレーティングシステムでは、関連する [ モバイル SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) を使用して、Campaign を使用してプッシュ通知 ](../../delivery/using/about-mobile-app-channel.md) を [ 送信できます。
 
 <table>
 <tbody>
@@ -348,7 +355,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 ## ブラウザー{#Browsers}
 
-次のブラウザーは Campaign for Web Access と互換性があります。
+次のブラウザーは、[Web Access](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-) の Campaign と互換性があります。
 
 <table>
 <tbody>
@@ -399,6 +406,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 ## その他の関連リソース{#Morelikethis}
 
 * [Campaign Classic リリースノート](../../rn/using/latest-release.md)
-* [インストールガイド](../../installation/using/general-architecture.md)
+* [Campaign の一般的なアーキテクチャ](../../installation/using/general-architecture.md)
+* [ハードウェアのサイズ決定の推奨事項](../../technotes/using/hardware-sizing.md)
 * [非推奨（廃止予定）の機能およびシステム](../../rn/using/deprecated-features.md)
 * [ビルドアップグレード手順](../../production/using/build-upgrade.md)

@@ -1,13 +1,11 @@
 ---
 product: campaign
-title: テクニカルノート
-description: テクニカルノート
-hide: false
-hidefromtoc: true
+title: テクニカルノート - Apple Push Notification サービスのサーバー証明書の更新
+description: Apple Push Notification サービスのサーバー証明書の更新
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '137'
+source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
+workflow-type: tm+mt
+source-wordcount: '149'
 ht-degree: 100%
 
 ---
@@ -16,7 +14,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-2021 年 3 月 29 日の Apple プッシュ通知サービス（APNs）インフラストラクチャの更新は、Adobe Campaign Classic iOS チャネルに影響を与えます。 iOS のプッシュチャネルの停止を回避するには、OS 設定の変更が&#x200B;**必須**&#x200B;です。
+2021 年 3 月 29 日、Apple Push Notification サービス（APNs）インフラストラクチャのアップデートにより Adobe Campaign Classic iOS チャネルに影響が生じました。iOS のプッシュチャネルの停止を回避するには、OS 設定の変更が&#x200B;**必須**&#x200B;です。
 
 APNs の変更について詳しくは、[このページ](https://developer.apple.com/news/?id=7gx0a2lp)を参照してください。
 

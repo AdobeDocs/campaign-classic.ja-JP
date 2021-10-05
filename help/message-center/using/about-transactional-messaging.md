@@ -6,10 +6,10 @@ audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ Adobe Campaign を使用すると、買い物かごに製品を追加した顧�
 
 ### コントロールインスタンスで実行する手順
 
-**コントロールインスタンス**&#x200B;で、次の操作を実行する必要があります。
+**コントロールインスタンス** で、次の操作を実行する必要があります。
 
 1. [イベントタイプの作成](../../message-center/using/creating-event-types.md)。
 1. [メッセージテンプレートの作成とデザイン](../../message-center/using/creating-the-message-template.md)。この手順で、イベントをメッセージにリンクします。

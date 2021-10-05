@@ -7,10 +7,10 @@ content-type: reference
 topic-tags: sending-push-notifications
 version: Classic v7
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -340,7 +340,7 @@ iOS では、無音の通知（表示されることなくモバイルアプリ�
 >
 >これは iOS 専用であることに注意してください。
 
-iOS では、このデリゲートプロトコルを使用すると、**registerDevice** 呼び出しの結果を取得し、これを使用して登録時にエラーが発生したかどうかを知ることができます。
+iOS では、このデリゲートプロトコルを使用すると、 **registerDevice** 呼び出しの結果を取得し、このプロトコルを使用して登録中にエラーが発生したかどうかを知ることができます。
 
 **registerDeviceStatus** プロトタイプ：
 
@@ -348,7 +348,7 @@ iOS では、このデリゲートプロトコルを使用すると、**register
 - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
 ```
 
-**Status**：登録が成功したか、エラーが発生したかを知ることができます。
+**** Status：登録が成功したか、エラーが発生したかを知ることができます。
 
 **ErrorReason**：発生したエラーに関する詳細情報を提供します。使用可能なエラーとその説明について詳しくは、以下の表を参照してください。
 

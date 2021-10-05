@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '325'
-ht-degree: 100%
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 91%
 
 ---
 
@@ -63,6 +63,6 @@ Campaign Classic では、圧縮ファイルまたは暗号化ファイルのイ
 
 <img src="assets/do-not-localize/icon_bestpractices.svg" width="60px">
 
-インポートおよびエクスポート操作を実行する際は、いくつかの[ベストプラクティス](../../platform/using/import-export-best-practices.md)に従って、データベース内のデータの一貫性を確保し、更新またはエクスポート時の一般的なエラーの発生を防いでください。
+データベース内のデータの一貫性を確保し、更新操作やエクスポート操作中の一般的なエラーを避けるために、インポートおよびエクスポート操作を実行する際は、いくつかの [ ベストプラクティス ](../../platform/using/import-export-best-practices.md) に従う必要があります。
 
 さらに、SFTP サーバーの使用に関する推奨事項と一般的な問題については、[こちらの節](../../platform/using/sftp-server-usage.md)を参照してください。

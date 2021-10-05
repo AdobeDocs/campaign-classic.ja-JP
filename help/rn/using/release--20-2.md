@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: fcaab1aa-c8f9-4606-b0d8-eb481a38f588
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
 workflow-type: tm+mt
 source-wordcount: '3012'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -65,14 +65,14 @@ _2020 年 12 月 22 日_
 >
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を通じて Campaign に接続している場合、 **2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign サーバーとクライアントコンソールの両方が Campaign に接続できるようにするには、アップグレードする必要があります。[詳細情報](../../technotes/using/ims-updates.md)
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
-> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。[Campaignの従来のoAuth認証モードは、**2021年8月19日(PT)に廃止](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)されました。** ホスト環境のメリットは、**2021年11月30日(PT)までです。** オンプレミスまたはハイブリッドのお客様は、Adobeカスタマーケアに連絡して、サポートを2021年11月30日まで延長してください。 Adobeに[OAuthアプリケーション](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)のAppIDを指定する必要があります。
+> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。[Campaign の従来の oAuth 認証モードは、**2021 年 9 月** に廃止されました。 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)ホスト環境は、**2022 年 2 月 23 日** までは拡張機能のメリットが得られます。 オンプレミスまたはハイブリッドのお客様は、Adobeカスタマーケアに連絡して、2022 年 2 月までサポートを拡張してください。 [OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) をアドビに伝える必要があります。
 
 
 **改善点**
 
 * 接続プロトコルは、新しい IMS 認証メカニズムに従うように更新されました。
 * パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合認証が変更され、Adobe I/O に移動しました。[詳細情報](../../integrations/using/configuring-adobe-io.md)
-* [iOS APN レガシーバイナリプロトコルのサポート終了](https://developer.apple.com/news/?id=c88acm2b)後は、このプロトコルを使用するすべてのインスタンスがアップグレード後に HTTP/2 プロトコルに更新されます。
+* [iOS APN レガシーバイナリプロトコルのサポート終了](https://developer.apple.com/jp/news/?id=c88acm2b)後は、このプロトコルを使用するすべてのインスタンスがアップグレード後に HTTP/2 プロトコルに更新されます。
 * サーバーサイドリクエストフォージェリ（SSRF）問題に対する保護を強化するために、セキュリティ問題を修正しました。（NEO-27777）
 * 接続エラーが発生した後に SMPP コネクタの非アクティブ化が発生し、他の SMS 配信が送信されず、パフォーマンスの問題が発生する問題を修正しました。（NEO-28609）
 * 式パーサーをクリーニングする際にメモリの破損を防ぐことで、サーバーのクラッシュの問題を修正しました。（NEO-26856）
@@ -91,7 +91,7 @@ _2020 年 9 月 11 日_
 
 * 配信部分の単一の誤った関数により配信過負荷となり、配信準備がブロックされる問題を修正しました。（NEO-27346）
 * アップグレード後、web アプリケーションの再発行前に Apache と web サーバーが無効になる問題を修正しました。（NEO-27155）
-* HTML テンプレート管理で、タブの解釈が誤っているためにトラッキング URL が表示される問題を修正しました。（NEO-25909）
+* HTML テンプレート管理で、タブの解釈が誤っているためにトラッキング URL が表示される問題を修正しました。 （NEO-25909）
 * 管理対象外のデータソースが原因で失敗する可能性があるデータベースのクリーンアップワークフローに関する問題を修正しました。（NEO-23160、NEO-23364）
 * クリーンアップワークフローで、期限切れのリストが 1 つずつではなく 100 個ずつ削除されるようになりました。
 * 外部アカウントの内部名を変更できなかった問題を修正しました。（NEO-27323）
@@ -321,7 +321,7 @@ Linux の例はこの[ページ](../../configuration/using/additional-parameters
 * クリーンアップワークフローがクラッシュする原因となる問題を修正しました。
 * 実行インスタンスでテンプレートを公開する際に発生する可能性がある問題を修正しました。
 * collectPrivacyRequests テクニカルワークフローを実行できない可能性がある問題を修正しました。（NEO-20513、NEO-25169）
-* ビルド 9080 にアップグレードした後に Audience Manager に接続しようとすると発生する可能性がある問題を修正しました。（NEO-20511、NEO-25167）
+* ビルド 9080 にアップグレードした後にAudience Managerに接続しようとすると発生する可能性がある問題を修正しました。 （NEO-20511、NEO-25167）
 * PDF または XLS 形式でレポートをエクスポートする際に発生する可能性がある問題を修正しました。（NEO-20982、NEO-23493、NEO-23348）
 * 配信が送信された後、配信リストで配信が 2 回表示される可能性がある問題を修正しました。
 * ミッドソーシング経由で配信を送信するようにルーティングが設定されている場合に発生する可能性がある配信準備の問題を修正しました。

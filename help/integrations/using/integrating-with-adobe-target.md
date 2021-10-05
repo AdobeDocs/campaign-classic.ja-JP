@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: 0996cc313be93300bce2f094c97e45a794cd459e
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 91%
+source-wordcount: '171'
+ht-degree: 94%
 
 ---
 
@@ -19,18 +19,17 @@ ht-degree: 91%
 
 Adobe Experience Cloud 内での Adobe Campaign と Adobe Target（Classic および Standard）間の統合により、Adobe Campaign の E メール配信に Adobe Target からのオファーを含めることができます。
 
-これは、Adobe Campaign を使用して送信された E メールを受信者が開封すると、Adobe Target が呼び出され、コンテンツの動的バージョンが表示されるという仕組みになっています。この動的バージョンは、E メールを作成したときに事前に指定したルールに応じて自動生成されます。
+これは、Adobe Campaign を使用して送信された E メールを受信者が開封すると、Adobe Target が呼び出され、コンテンツの動的バージョンが表示されるという仕組みになっています。この動的バージョンは、E メールの作成時に事前に指定したルールに応じて自動生成されます。
 
-Adobe Campaign と Adobe Target の統合について詳しくは、[4 つのヒントとテクニック](https://business.adobe.com/content/dam/dx/us/en/products/campaign/pdfs/Adobe_Campaign_for_Target_Tips_and_Tricks.pdf)を参照してください。
 >[!NOTE]
 >
->この統合が対応するのは、静的画像だけです。残りのコンテンツをパーソナライズすることはできません。
+>この統合では、静的画像のみをサポートします。残りのコンテンツをパーソナライズすることはできません。
 
 Adobe Target は複数のタイプのデータを使用できます。
 
 * Adobe Campaign データマートからのデータ
 * Adobe Target で訪問者 ID にリンクされたセグメント。ただし、使用されるデータに法的制限がない場合に限ります。
-* Adobe Target データ：ユーザーエージェント、IP アドレス、位置情報データ
+* Adobe Targetデータ：ユーザーエージェント， IP アドレス，位置情報データ
 
 >[!NOTE]
 >

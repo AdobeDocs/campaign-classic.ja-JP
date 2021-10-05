@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
+source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 67%
+ht-degree: 65%
 
 ---
 
@@ -62,7 +62,7 @@ Campaign のインスタンスが JavaScript コード（ワークフローな�
 
 新しいクライアントはブロックモードを使用します。新しい URL を許可する場合は、管理者に問い合わせて、URL を管理者に追加する必要があり許可リストます。
 
-移行してきた既存の顧客は、しばらくの間は、警告モードを使用できます。その間、URL を分析する前に、アウトバウンドトラフィックを分析する必要があります。
+移行してきた既存の顧客は、しばらくの間は、警告モードを使用できます。その間、URL を認証する前に、アウトバウンドトラフィックを分析する必要があります。
 
 ## コマンドの制限（サーバー側）
 

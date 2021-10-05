@@ -9,10 +9,10 @@ index: y
 internal: n
 snippet: y
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '1074'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -120,7 +120,7 @@ HTTP v1 API バージョンを設定するには、次の手順に従います�
 
 1. **[!UICONTROL モバイルアプリケーション作成ウィザード]**&#x200B;ウィンドウの「**[!UICONTROL API バージョン]**」ドロップダウンで「**[!UICONTROL HTTPV1]**」を選択します。
 
-1. 「**[!UICONTROL プロジェクトの詳細を抽出するプロジェクトの json ファイルを読み込む...]**」をクリックして、JSON キーファイルを直接読み込みます。JSON ファイルの抽出方法について詳しくは、[このページ](https://firebase.google.com/docs/admin/setup#initialize-sdk)を参照してください。
+1. 「**[!UICONTROL プロジェクトの JSON ファイルを読み込んでプロジェクトの詳細を抽出…」をクリックします。]** をクリックして、JSON キーファイルを直接読み込みます。 JSON ファイルの抽出方法について詳しくは、[このページ](https://firebase.google.com/docs/admin/setup#initialize-sdk)を参照してください。
 
    次の詳細を手動で入力することもできます。
    * **[!UICONTROL プロジェクト ID]**

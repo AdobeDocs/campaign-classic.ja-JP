@@ -6,14 +6,16 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 89%
+source-wordcount: '1313'
+ht-degree: 87%
 
 ---
 
-# BCC で E メールを送信{#email-archiving}
+# メール BCC の設定 {#email-archiving}
+
+![](../../assets/v7-only.svg)
 
 プラットフォームから送信された電子メールのコピーを保持するようにAdobe Campaignを設定できます。
 
@@ -23,15 +25,15 @@ ht-degree: 89%
 
 ## Recommendationsと限界 {#recommendations-and-limitations}
 
-* 「BCCでEメールを送信」機能はオプションです。 使用許諾契約書を確認してください。
+* 「BCC でメールを送信」はオプションの機能です。ライセンス契約をご確認ください。
 * ホ **スト型およびハイブリッド型アーキテクチャの場合は**、アカウント担当者に問い合わせてアクティブ化してください。 BCC に設定するメールアドレスをアドビ システムズにご提供いただく必要があります。
-* **オンプレミスインストール**&#x200B;の場合は、以下のガイドラインに従ってアクティブ化します。 [EメールBCCのアクティブ化（オンプレミス）](#activating-email-archiving--on-premise-)および[BCC電子メールアドレスの設定（オンプレミス）](#configuring-the-bcc-email-address--on-premise-)の節を参照してください。
+* **オンプレミスインストール** の場合は、次のガイドラインに従ってアクティブ化します。 [E メール BCC のアクティブ化（オンプレミス）](#activating-email-archiving--on-premise-) および [BCC 電子メールアドレスの設定（オンプレミス）](#configuring-the-bcc-email-address--on-premise-) の節を参照してください。
 * BCC に設定できるメールアドレスは 1 つだけです。
-* 「BCC で E メールを送信」を設定したら、配信テンプレートまたは「**[!UICONTROL BCC で E メールを送信]**」オプションの配信で、その機能が有効になっていることを確認します。詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
+* 「BCC でメールを送信」を設定したら、配信テンプレートまたは「**[!UICONTROL BCC でメールを送信]**」オプション経由の配信で、その機能が有効になっていることを確認します。詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
 * 正常に送信された電子メールのみが考慮され、バウンスは考慮されません。
-* Adobe Campaign17.2（ビルド8795）で電子メールアーカイブシステムが変更されました。 既にEメールのアーカイブを使用している場合は、新しいEメールBCCシステムに手動でアップグレードする必要があります。 詳しくは、[新しいEメールのBCC](#updated-email-archiving-system--bcc-)への移行の節を参照してください。
+* Adobe Campaign17.2（ビルド8795）で電子メールアーカイブシステムが変更されました。 既に電子メールのアーカイブを使用している場合は、新しい電子メール BCC システムに手動でアップグレードする必要があります。 詳しくは、[ 新しい E メールの BCC](#updated-email-archiving-system--bcc-) への移行の節を参照してください。
 
-## EメールのBCC（オンプレミス） {#activating-email-archiving--on-premise-}の有効化
+## E メール BCC のアクティブ化（オンプレミス） {#activating-email-archiving--on-premise-}
 
 Adobe Campaignがオンプレミスでインストールされている場合にBCC電子メールアーカイブをアクティブにするには、次の手順に従います。
 
@@ -63,7 +65,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 >[!NOTE]
 >
->ミッドソーシングインスタンスでは、BCC Eメールのディレクトリはミッドソーシングサーバー上にあります。
+>ミッドソーシングインスタンスでは、BCC 電子メールのディレクトリはミッドソーシングサーバー上にあります。
 >
 >deliveryIDとbroadlogIDは、電子メールのステータスが送信されない場合に、ミッドソーシングサーバーから取得されます。 ステータスが「 **[!UICONTROL 送信済み]**」に変わると、これらのIDはマーケティングサーバーから取得されます。
 
@@ -98,7 +100,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 電子メール送信のスループットに従って、これらのパラメーターを必ず調整してください。 例えば、MTAが1時間に30,000通の電子メールを送信する設定では、 **pollDelay** パラメーターを600に、 **acquireLimitパラメーターを5000に、****** smtpNbConnectionパラメーターを2に設定できます。 つまり、2つのSMTP接続を使用している場合、10分ごとに5,000通の電子メールがBCCアドレスに送信されます。
 
-## BCC電子メールアドレスの設定（オンプレミス） {#configuring-the-bcc-email-address--on-premise-}
+## BCC電子メールアドレスの設定（オンプレミス）  {#configuring-the-bcc-email-address--on-premise-}
 
 >[!IMPORTANT]
 >
@@ -121,7 +123,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 >
 >また、リレーは、送信されていない電子メールも含め、すべての電子メールに **[!UICONTROL 送信済み]** ステータスを割り当てます。 したがって、すべてのメッセージはアーカイブされます。
 
-## 新しいEメールBCCへの移行{#updated-email-archiving-system--bcc-}
+## 新しい E メール BCC への移動 {#updated-email-archiving-system--bcc-}
 
 >[!IMPORTANT]
 >
@@ -133,15 +135,43 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 1. 必要に応じて、 **compressionFormat** パラメーターを **1に設定します** 。
 1. archivingType **パラメーターを** 1に設定します ****。
 
-EメールのBCCを設定したら、配信テンプレートまたは配信で「**[!UICONTROL BCCでEメールを送信]**」オプションを選択していることを確認します。 詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
+電子メール BCC を設定したら、配信テンプレートまたは配信で「**[!UICONTROL BCC で E メールを送信]**」オプションを選択していることを確認します。 詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
 
-## EメールBCCのベストプラクティス{#best-practices}
+## BCC で E メールを送信するベストプラクティス {#best-practices}
 
 * **BCCアドレスメールボックス**:MTAから送信されるすべての電子メールをアーカイブするのに十分な受信容量があることを確認します。
-* **MTAの相互化**:BCCアーカイブ機能は、MTAレベルで機能します。 MTAから送信されるすべての電子メールを重複できます。 MTAは複数のインスタンス（開発、テスト、実稼動など）にまたがって、または複数のクライアント(ミッドソーシング環境内など)にまたがって相互化できるので、この機能を設定するとセキュリティに影響します。
+* **MTA プーリング**:BCC アーカイブ機能は、MTA レベルで機能します。MTAから送信されるすべての電子メールを重複できます。 MTA は複数のインスタンス（開発、テスト、実稼動など）にまたがって、または複数のクライアント（ミッドソーシング環境内など）にまたがってプールできるので、この機能を設定するとセキュリティに影響します。
 
    * 複数のクライアントとMTAを共有し、そのうちの1つがこのオプションをアクティブにしている場合、このクライアントは同じMTAを共有する他のクライアントの電子メールにすべてアクセスします。 このような状況を回避するには、クライアントごとに異なるMTAを使用します。
    * 1つのクライアントに対して複数のインスタンス（開発、テスト、実稼動）で同じMTAを使用する場合、3つのインスタンスすべてから送信されるメッセージは、dataLogPathオプションで複製されます。
 
 * **接続ごとの電子メール**:BCC電子メールのアーカイブは、接続を開き、その接続を介してすべての電子メールを送信しようとすることで動作します。 Adobeは、社内のテクニカルコンタクトに、特定の接続で受け入れられる電子メールの数を確認することを推奨します。 この数を増やすと、BCCのスループットに大きな影響を与える可能性があります。
-* **BCC送信IP**:現在、BCC電子メールは、通常のMTAプロキシを通じて送信されません。 代わりに、MTAサーバーから宛先の電子メールサーバーへの直接接続が開かれます。 つまり、使用している電子メールサーバーの設定に応じ許可リストて、ネットワーク上のにIPを追加する必要が生じる場合があります。
+* **BCC送信IP**:現在、BCC電子メールは、通常のMTAプロキシを通じて送信されません。 代わりに、MTAサーバーから宛先の電子メールサーバーへの直接接続が開かれます。 つまり、使用している電子メールサーバーの設定に応じ許可リストて、ネットワーク上のに IP を追加する必要が生じる場合があります。
+
+<!--## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}
+
+For **hosted and hybrid architectures**, if you have the latest instance of Adobe Campaign, or if you have upgraded to the Enhanced MTA and using Adobe Campaign 19.2 or later, you can use Email BCC with Enhanced MTA, which is more reliable, efficient, and has lower latency.
+
+### Activating Email BCC with Enhanced MTA
+
+To activate this feature, you must contact your account executive to communicate the BCC email address to be used for archiving.
+
+>[!NOTE]
+>
+>If you were already using BCC email archiving, you can provide the same address as you were using before or use a new one. If you keep the same, you still have to contact your account executive to set it up for you.
+
+### Specificities and recommendations
+
+Email BCC with Enhanced MTA is not activated at the delivery level: once this feature is enabled, **all sent deliveries** are sent to the BCC email address. There is no need to select the **[!UICONTROL Email BCC]** option in the delivery template or in the delivery.
+
+If you were already using BCC and if you keep the same address, you could see a significant increase in the volumes sent to the BCC address.
+
+Consequently, make sure:
+* The BCC address has enough reception capacity to archive all the emails that are sent.
+* You have the required MTA infrastructure capacity to receive 100% of your email volume delivered to a single address.
+
+### Limitations
+
+* Email BCC with Enhanced MTA delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md).
+
+* There is no reporting available on the delivery status of the emails sent to the BCC email address.-->

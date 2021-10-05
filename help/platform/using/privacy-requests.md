@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
 workflow-type: tm+mt
 source-wordcount: '2560'
 ht-degree: 99%
@@ -294,7 +294,7 @@ Campaign Classic 内で JS から API を呼び出す方法の例を以下に示
    ```
    loadLibrary("nms:gdpr.js");
    /**************************** 
-   This code calls an API to create new Privay request on the DB.
+   This code calls an API to create new Privacy request on the DB.
    It requires 4 parameters below.
    Feel free to change parameter values.
    ****************************/
@@ -319,7 +319,7 @@ Campaign Classic 内で JS から API を呼び出す方法の例を以下に示
    ```
    loadLibrary("nms:gdpr.js");
    /**************************** 
-   This code calls an API to create new Privay request on the DB.
+   This code calls an API to create new Privacy request on the DB.
    It requires 5 parameters below.
    Feel free to change parameter values.
    ****************************/
@@ -350,7 +350,7 @@ Campaign Classic 内で JS から API を呼び出す方法の例を以下に示
    ```
    loadLibrary("nms:gdpr.js");
    /**************************** 
-   This code calls an API to create new Privay request on the DB.
+   This code calls an API to create new Privacy request on the DB.
    It requires 5 parameters below.
    Feel free to change parameter values 
    ****************************/

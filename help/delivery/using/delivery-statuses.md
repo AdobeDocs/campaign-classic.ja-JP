@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '639'
-ht-degree: 100%
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ajouter screenshot -->
 
-配信の送信が完了すると、配信ダッシュボードにステータスが表示され、送信が成功したかどうかを監視できます。可能なステータスについては、次の節で詳しく説明します。
+配信の送信が完了すると、配信ダッシュボードにステータスが表示され、送信が成功したかどうかを監視できます。 可能なステータスについては、次の節で詳しく説明します。
 
 ![](assets/delivery-status.png)
 
@@ -97,7 +97,7 @@ Adobe Campaign の E メールの配信品質を最適化する方法につい�
 
 配信が送信されず、ステータスが&#x200B;**[!UICONTROL 保留中]**&#x200B;のままである場合は、次のことが原因である可能性があります。
 
-* MTA（Message Transfer Agent）が開始されておらず、再起動する必要がある可能性があります。MTA は配信サーバーでモジュールとプロセスを実行し、配信サーバーは E メールの送信を管理します。
+* MTA(Message Transfer Agent) は、配信サーバー上でモジュールとプロセスを実行し、E メールの送信を管理します。MTA が開始されていない場合や、再起動が必要な場合があります。
 
    これを確認してモジュールを開始する（必要な場合）には、次の手順を実行します。
 

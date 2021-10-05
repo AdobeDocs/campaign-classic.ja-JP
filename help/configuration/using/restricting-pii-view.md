@@ -6,22 +6,24 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 73%
+ht-degree: 70%
 
 ---
 
-# PI の閲覧を制限{#restricting-pii-view}
+# PI ビューの制限{#restricting-pii-view}
+
+![](../../assets/v7-only.svg)
 
 ## 概要 {#overview}
 
-データレコードにアクセスするためにマーケティングユーザーが必要で、名、姓、電子メールアドレスなど、個人識別情報(PII)を表示したくないお客様もいます。 Adobe Campaign は、プライバシーを保護し、一般のキャンペーンオペレーターによるデータの乱用を防止するための方法を提案します。
+データレコードにアクセスするためにマーケティングユーザーが必要で、名、姓、電子メールアドレスなど、個人を特定できる情報 (PII) を表示したくないお客様もいます。 Adobe Campaign は、プライバシーを保護し、一般のキャンペーンオペレーターによるデータの乱用を防止するための方法を提案します。
 
 ## 実装 {#implementation}
 
-任意の要素または属性に適用できる新しい属性がスキーマに追加され、既存の属性&#x200B;**[!UICONTROL visibleIf]**&#x200B;を補完します。 この属性は **[!UICONTROL accessibleIf]** です。 現在のユーザーコンテキストに関連する XTK 式を含む場合、例えば **[!UICONTROL HasNamedRight]** や **[!UICONTROL $(login)]** を利用できます。
+任意の要素または属性に適用できる新しい属性がスキーマに追加され、既存の属性 **[!UICONTROL visibleIf]** を補完します。 この属性は **[!UICONTROL accessibleIf]** です。 現在のユーザーコンテキストに関連する XTK 式を含む場合、例えば **[!UICONTROL HasNamedRight]** や **[!UICONTROL $(login)]** を利用できます。
 
 この使用法を示す受信者スキーマ拡張のサンプルを以下に示します。
 
@@ -41,7 +43,7 @@ ht-degree: 73%
 主なプロパティは次のとおりです。
 
 * **[!UICONTROL visibleIf]**：メタデータからフィールドが非表示になります。したがって、スキーマ表示、列選択、式ビルダー内でフィールドにアクセスすることはできません。 ただし、フィールド名を式に手動で入力した場合は、値が表示され、データは非表示にはなりません。
-* **[!UICONTROL accessibleIf]**：結果のクエリからデータを非表示にします（空の値に置き換えます）。 visibleIf が空の場合、**[!UICONTROL accessibleIf]** と同じ式を取得します。
+* **[!UICONTROL accessibleIf]**：結果のクエリからデータを非表示にします（空の値に置き換えます）。 visibleIf が空の場合は、 **[!UICONTROL accessibleIf]** と同じ式が返されます。
 
 Campaign でこの属性を使用した場合の結果は次のとおりです。
 
@@ -56,7 +58,7 @@ Campaign でこの属性を使用した場合の結果は次のとおりです�
 
 ## 推奨事項 {#recommendations}
 
-各配信で、Eメールアドレスが&#x200B;**[!UICONTROL broadLog]**&#x200B;テーブルと&#x200B;**[!UICONTROL forecastLog]**&#x200B;テーブルにコピーされます。そのため、これらのフィールドも保護する必要があります。
+各配信で、E メールアドレスが **[!UICONTROL broadLog]** テーブルと **[!UICONTROL forecastLog]** テーブルにコピーされます。その結果、これらのフィールドも保護する必要があります。
 
 以下に、これを実装するログテーブル拡張のサンプルを示します。
 
@@ -89,4 +91,4 @@ Campaign でこの属性を使用した場合の結果は次のとおりです�
 
 >[!NOTE]
 >
->この制限は、技術以外のユーザーに適用されます。関連する権限を持つ技術ユーザーは、データを取得できます。 したがって、この方法は100%安全ではありません。
+>この制限は、技術以外のユーザーに適用されます。関連する権限を持つ技術ユーザーは、データを取得できます。 したがって、この方法は 100%安全ではありません。

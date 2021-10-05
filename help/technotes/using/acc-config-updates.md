@@ -1,18 +1,16 @@
 ---
 product: campaign
-title: テクニカルノート
-description: テクニカルノート
-hide: true
-hidefromtoc: true
+title: テクニカルノート - Adobe Campaign設定の更新
+description: Adobe Campaign設定の更新
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: b458ac67733a2f0e508df729add37d9a78dbcbd8
+source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1137'
 ht-degree: 94%
 
 ---
 
-# Adobe Campaign設定の更新（2021年） {#acc-config-updates}
+# Adobe Campaign設定の更新（2021 年） {#acc-config-updates}
 
 ![](../../assets/v7-only.svg)
 
@@ -103,7 +101,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../../integrations
 
 ## Experience Cloud トリガーとの統合 {#acc-triggers-updates}
 
-従来の OAuth 認証サービスはサポート終了になりました。 トリガー統合認証は、元々、パイプラインにアクセスするためにoAUTH認証設定に基づいていたので、Adobe I/Oに移動しました。[Campaignの従来のoAuth認証モードは、**2021年8月19日(PT)に廃止](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)されました。** ホスト環境のメリットは、**2021年11月30日(PT)までです。** オンプレミスまたはハイブリッドのお客様は、Adobeカスタマーケアに連絡して、サポートを2021年11月30日まで延長してください。 Adobeに[OAuthアプリケーション](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)のAppIDを指定する必要があります。
+従来の OAuth 認証サービスはサポート終了になりました。 トリガー統合認証は、元々は oAUTH 認証設定に基づいており、パイプラインにアクセスするためにAdobe I/Oに移行しました。[Campaign の従来の oAuth 認証モードは、**2021 年 9 月** に廃止されました。 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)ホスト環境は、**2022 年 2 月 23 日** までは拡張機能のメリットが得られます。 オンプレミスまたはハイブリッドのお客様は、Adobeカスタマーケアに連絡して、2022 年 2 月までサポートを拡張してください。 [OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) をアドビに伝える必要があります。
 
 **影響の有無**
 
@@ -130,7 +128,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../../integrations
 
 ### HTTP/2 ベースの APNs プロバイダー API
 
-**2021 年 3 月 31 日**&#x200B;以降、Apple Push Notification サービス（APNs）は、従来のバイナリプロトコルをサポートしません。 [詳細情報](https://developer.apple.com/news/?id=c88acm2b)。
+**2021 年 3 月 31 日**&#x200B;以降、Apple Push Notification サービス（APNs）は、従来のバイナリプロトコルをサポートしません。 [詳細情報](https://developer.apple.com/jp/news/?id=c88acm2b)。
 
 **影響の有無**
 

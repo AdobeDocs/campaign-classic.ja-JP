@@ -6,14 +6,16 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: d2d0ff575edbee18febb5ec895fcec1e0ae34de7
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 52%
 
 ---
 
 # データスキーマの作成 {#creating-the-data-schema}
+
+![](../../assets/v7-only.svg)
 
 外部データベースにスキーマを作成する手順は、次のとおりです。
 
@@ -21,7 +23,13 @@ ht-degree: 100%
 
    ![](assets/wf_new_schema_fda.png)
 
-1. スキーマの名前と説明を入力し、データベースへの接続を有効にする外部アカウントを選択します。これにより、外部データベースで使用できるテーブルのリストにアクセスできます。収集するデータを含むテーブルを選択します。
+1. スキーマに **[!UICONTROL 名前空間]** と **[!UICONTROL 名前]** を入力し、**[!UICONTROL 外部アカウント]** を選択して、データベースへの接続を有効にします。 これにより、外部データベースで使用できるテーブルのリストにアクセスできます。
+
+   ![](assets/wf_new_schema_select_table_fda.png)
+
+1. 「**[!UICONTROL テーブル名]**」フィールドから、収集するデータが格納されているテーブルを選択します。
+
+   Snowflakeを使用すると、データベース・ユーザーに正しい権限が付与されている場合は、ここでビューを選択できます。 ビューを使用する場合、Adobe Campaignは XML スキーマを自動的に生成できないので、自分で作成する必要があります。 ビューの詳細については、[Snowflakeのドキュメント ](https://docs.snowflake.com/en/user-guide/views-introduction.html) を参照してください。
 
    ![](assets/wf_new_schema_select_table_fda.png)
 

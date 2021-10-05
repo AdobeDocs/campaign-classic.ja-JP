@@ -6,68 +6,70 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
 workflow-type: tm+mt
 source-wordcount: '1001'
-ht-degree: 23%
+ht-degree: 25%
 
 ---
 
-# Campaignクライアントコンソールのインストールと更新{#installing-the-client-console}
+# Campaign クライアントコンソールのインストールと更新{#installing-the-client-console}
+
+![](../../assets/v7-only.svg)
 
 Campaign クライアントコンソールは、Campaign アプリケーションサーバーに接続できるリッチクライアントです。
 
 クライアントコンソールのインストールを開始する前に、次の操作を行う必要があります。
 
-* [互換性マトリックス](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)のAdobe Campaignとのシステムおよびツールの互換性を確認してください
-* CampaignサーバーURLの取得
-* ユーザー資格情報の取得
+* お使いのシステムとツールについて、Adobe Campaign クライアントコンソールとの互換性を[互換性マトリックス](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)で確認してください。
+* Campaign サーバーの URL を取得する
+* ユーザー資格情報を取得する
 
 クライアントコンソールをインストールまたは更新するプロセスは、Adobe Campaign Classicの実装によって異なります。
-実装に必要な事項については、以下の詳細を確認してください。
+実装に必要な情報については、以下の詳細を確認してください。
 
-![](assets/do-not-localize/how-to-video.png) ビデオでAdobe Campaign Clientのインストールとセットアップ方法を確認 [する](#video)
+![](assets/do-not-localize/how-to-video.png) ビデオでAdobe Campaign Client のインストールとセットアップの [方法](#video)
 
 >[!CAUTION]
 >
->CampaignクライアントコンソールとCampaignアプリケーションサーバーは、同じ製品バージョン&#x200B;**で**&#x200B;を実行する必要があります。 Adobeは、**同じ製品ビルド**&#x200B;を使用することを強くお勧めします。 [この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)でCampaignクライアントとサーバーのバージョンを確認する方法を説明します。
+>Campaign クライアントコンソールと Campaign アプリケーションサーバーは、同じ製品バージョン **で** 実行する必要があります。 Adobeは、**同じ製品ビルド** を使用することを強くお勧めします。 Campaign クライアントとサーバーのバージョンを確認する方法については、[ この節 ](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) を参照してください。
 
-## Adobeホスト実装{#hosted-customers}
+## Adobeがホストする実装 {#hosted-customers}
 
-ホスト型の顧客に対しては、クライアントコンソールをインストールまたは更新する方法が2つあります。
+ホスト型の顧客に対しては、次の 2 つの方法でクライアントコンソールをインストールまたは更新できます。
 
-1. Adobeは、直接デプロイできます。 コンソールが更新されると、最新のクライアントコンソールバージョンをポップアップウィンドウでダウンロードするように求められます。
+1. Adobeは、直接デプロイできます。 コンソールを更新すると、最新のクライアントコンソールバージョンをポップアップウィンドウでダウンロードするように求められます。
 
-1. [ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)からクライアントコンソールにダウンロードできます。
+1. [ ソフトウェア配布 ](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) からクライアントコンソールにダウンロードできます。
 
-   **更新を完了するには、管理者アクセス権が必要です。ユーザーに管理者権限がない場合、システム管理者は、すべてのクライアントコンソールに**&#x200B;をデプロイする必要があります。
+   **更新を完了するには、管理者アクセス権が必要です。ユーザーが管理者権限を持っていない場合、システム管理者はすべてのクライアントコンソールにデプロイする必要があります**
 
-## ハイブリッドおよびオンプレミス実装{#hybrid-onprem-customers}
+## ハイブリッドおよびオンプレミスの実装 {#hybrid-onprem-customers}
 
 Adobe Campaignユーザーが、作成および設定したインスタンスにログオンできるようにするには、クライアントコンソールを使用する必要があります。
 
-### コンソールをユーザーが使用できるようにする{#make-console-available}
+### コンソールをユーザーが使用できるようにする {#make-console-available}
 
-Adobe Campaignアプリケーションサーバー(nlserver web)の起動に使用されるコンピューターがクライアントコンソールからユーザー接続を受け取ったら、Adobe CampaignリッチクライアントのセットアッププログラムをHTMLインターフェイスを介して使用できるように設定できます。 新しいバージョンのクライアントコンソールが使用可能な場合は、クライアントコンソールを起動すると、そのコンソールをダウンロードするようにユーザーが招待されます。
+Adobe Campaignアプリケーションサーバー (nlserver web) の起動に使用するコンピューターがクライアントコンソールからユーザー接続を受け取った場合、Adobe Campaignのリッチクライアントのセットアッププログラムを HTML インターフェイスを介して使用できるように設定できます。 新しいバージョンのクライアントコンソールが使用可能な場合は、クライアントコンソールを起動すると、そのコンソールをダウンロードするように招待されます。
 
-これをおこなうには、次の操作を行う必要があります。
+これをおこなうには、次の操作をおこなう必要があります。
 
 1. コンソールインストールプログラムを含むパッケージを選択します。
 
-   このファイルは、v7の場合はsetup-client-7.X.XXXX.exe、v6.1の場合はsetup-client-6.X.XXXX.exeと呼ばれます。ここで、XはAdobe Campaignのサブバージョン、XXXXはビルドです。   数値
+   このファイルは、v7 の場合は setup-client-7.X.XXXX.exe、v6.1 の場合は setup-client-6.X.XXXX.exe と呼ばれます。ここで、X はAdobe Campaignのサブバージョンで、XXX はビルドです。   数値
 
-1. このパッケージを、 /datakit/nl/eng/jspの下のAdobe Campaignインストールフォルダー（ハイブリッドインストールの場合はマーケティングサーバー上）にコピーして貼り付けます。
+1. このパッケージを、（ハイブリッドインストールの場合はマーケティングサーバーの）Adobe Campaignインストールフォルダーの/datakit/nl/eng/jsp の下にコピーして貼り付けます。
 
 1. Adobe Campaignサーバーを起動します。
 
 
-### 今後の質問オプション
+### 今後のこの質問オプションの使用
 
-Adobeは、「**[!UICONTROL この質問]**&#x200B;は選択しないでください」オプションを選択し、新しいバージョンのコンソールが利用可能になったときにすべてのユーザーに警告が表示されるようにすることをお勧めします。  このオプションを選択すると、新しく利用可能になったバージョンは通知されません。
+Adobeは、「**[!UICONTROL この質問]** は選択しないでください」オプションを選択したままにして、新しいバージョンのコンソールが利用可能になったときにすべてのユーザーに警告が表示されるようにすることをお勧めします。  このオプションを選択すると、新しく利用可能になったバージョンは通知されません。
 
-「**[!UICONTROL この質問を表示しない]**」が選択されている場合は、このプロンプトをリセットできます。 以下の変更は、Windowsレジストリの編集に慣れたシステム管理者のみが行う必要があります。
+**[!UICONTROL この質問を今後確認しない]** を選択した場合は、このプロンプトをリセットできます。 Windows レジストリの編集に慣れたシステム管理者のみが、次の変更を行う必要があります。
 
-1. **[!UICONTROL スタート/]**&#x200B;を実行メニューの&#x200B;**regedit**&#x200B;コマンドを使用して、レジストリエディターを開きます。
+1. **[!UICONTROL スタート/]** を実行メニューの **regedit** コマンドを使用して、レジストリエディタを開きます。
 
 1. ノードを検索して展開します。
 
@@ -75,24 +77,24 @@ Adobeは、「**[!UICONTROL この質問]**&#x200B;は選択しないでくだ�
    \HKEY_CURRENT_USER\Software\Neolane\NL_6\nlclient
    ```
 
-1. **confAdvisedUpgrade**&#x200B;エントリを削除し、レジストリエディターを閉じます。
+1. **confAdvisedUpgrade** エントリを削除し、レジストリエディタを閉じます。
 
 >[!NOTE]
 >
->既存の実装に更新されたコンソールを適用する場合、クライアントコンソールを更新するよう求めるプロンプトがユーザーに自動的に表示されます。 初めてCampaignを実装する場合は、ユーザーはコンソールをダウンロードする必要があります。 両方のオプションの詳細については、以下を参照してください
+>既存の実装に更新されたコンソールを適用する場合、クライアントコンソールを更新するよう求めるプロンプトがユーザーに自動的に表示されます。 初めて Campaign を実装する場合、ユーザーはコンソールをダウンロードする必要があります。 両方のオプションの詳細については、以下を参照してください
 
-### 既存の実装のコンソールを更新します。{#update-the-client-console}
+### 既存の実装用にコンソールを更新する{#update-the-client-console}
 
-コンソールがCampaignサーバーフォルダーで使用可能になると、最新のクライアントコンソールバージョンをポップアップウィンドウでダウンロードするよう求めるプロンプトが表示されます。
+コンソールが Campaign サーバーフォルダーで使用可能になると、最新のクライアントコンソールバージョンをポップアップウィンドウでダウンロードするように求められます。
 
-**ユーザーが更新を完了するには、管理者アクセス権が必要です。ユーザーに管理者権限がない場合、システム管理者は、すべてのクライアントコンソールに**&#x200B;をデプロイする必要があります。
+**更新を完了するには、管理者アクセス権が必要です。ユーザーが管理者権限を持っていない場合、システム管理者はすべてのクライアントコンソールにデプロイする必要があります**
 
 
 ### 新しい実装用にコンソールをダウンロードします。{#download-the-client-console}
 
-次の手順に従って、コンソールをダウンロードしてインストールする必要があります。
+ユーザーは、次の手順に従ってコンソールをダウンロードし、インストールする必要があります。
 
-1. Webブラウザーを開き、次のアドレスからコンソールをダウンロードします。
+1. Web ブラウザーを開き、次のアドレスからコンソールをダウンロードします。
 
    [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://myserver.adobe.com/nl/jsp/logon.jsp).
 
@@ -100,17 +102,17 @@ Adobeは、「**[!UICONTROL この質問]**&#x200B;は選択しないでくだ�
 
    ![](assets/s_ncs_install_setup_download01.png)
 
-   必要に応じて、インスタンスの作成中に定義された内部アカウントの資格情報を使用します。
+   必要に応じて、インスタンスの作成時に定義した内部アカウントの資格情報を使用します。
 
-1. インストールページの「**[!UICONTROL ダウンロード]**」リンクをクリックします。
-1. クライアント設定ファイルをダウンロードして保存します。
-1. Windows上のコンピューターでダウンロードしたファイルを実行します。インストールが開始します。 クライアントコンソールのデフォルトのインストールパスは&#x200B;**$PROGRAMFILES$/Adobe/Adobe Campaign Classic vXクライアント**&#x200B;です。「X」はAdobe Campaignのバージョンに応じて「6」または「7」です。
+1. インストールページの **[!UICONTROL ダウンロード]** リンクをクリックします。
+1. クライアントセットアップファイルをダウンロードして保存します。
+1. Windows のコンピューターでダウンロードしたファイルを実行します。インストールが開始します。 クライアントコンソールのデフォルトのインストールパスは **$PROGRAMFILES$/Adobe/Adobe Campaign Classic vX クライアント** です。「X」はAdobe Campaignのバージョンに応じて「6」または「7」です。
 
-### 接続を作成します。初めてユーザーのみ{#create-the-connection}
+### 接続の作成（初回ユーザーのみ）{#create-the-connection}
 
 クライアントコンソールをインストールしたら、次の手順に従ってアプリケーションサーバーへの接続を作成します。
 
-1. **Adobe Campaign**&#x200B;プログラムグループのWindowsの&#x200B;**[!UICONTROL 開始]**&#x200B;メニューからコンソールを起動します。
+1. **Adobe Campaign** プログラムグループの Windows の **[!UICONTROL 開始]** メニューからコンソールを起動します。
 
 1. 資格情報フィールドの右上隅にあるリンクをクリックして、接続設定ウィンドウにアクセスします。
 
@@ -124,7 +126,7 @@ Adobeは、「**[!UICONTROL この質問]**&#x200B;は選択しないでくだ�
 
    例えば、[`https://<machine>.<domain>.com`](https://myserver.adobe.com) タイプの URL を使用できます。
 
-1. AdobeIMSが組織に対して設定されている場合は、「**[!UICONTROL Adobe IDに接続]**」オプションをオンにします。
+1. Adobe IMSが組織に対して設定されている場合は、「**[!UICONTROL Adobe IDに接続]**」オプションをオンにします。
 
 1. 「**[!UICONTROL OK]**」をクリックして設定を保存します。
 
@@ -138,7 +140,7 @@ Adobeは、「**[!UICONTROL この質問]**&#x200B;は選択しないでくだ�
 
 既存のインスタンスにログオンするには、以下の手順に従います。
 
-1. **Adobe Campaign**&#x200B;プログラムグループのWindowsの&#x200B;**[!UICONTROL 開始]**&#x200B;メニューからコンソールを起動します。
+1. **Adobe Campaign** プログラムグループの Windows の **[!UICONTROL 開始]** メニューからコンソールを起動します。
 
 1. 資格情報フィールドの右上隅にあるリンクをクリックして、接続設定ウィンドウにアクセスします。
 
@@ -146,7 +148,7 @@ Adobeは、「**[!UICONTROL この質問]**&#x200B;は選択しないでくだ�
 
 1. 「**[!UICONTROL OK]**」をクリックします。
 
-1. ユーザーログイン資格情報を入力し、「**[!UICONTROL ログイン]**」をクリックします。
+1. ユーザーのログイン資格情報を入力し、「**[!UICONTROL ログイン]**」をクリックします。
 
 
 **関連トピック**
@@ -156,8 +158,8 @@ Adobeは、「**[!UICONTROL この質問]**&#x200B;は選択しないでくだ�
 
 ## チュートリアルビデオ
 
-このビデオでは、Adobe Campaign Clientのインストールおよび設定方法を示します。
+このビデオでは、Adobe Campaign Client のインストールおよび設定方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
 
-Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.ad?lang=obe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。

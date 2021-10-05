@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
-source-wordcount: '1262'
-ht-degree: 100%
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Web フォームでは、独自の要件を満たすための設定やパーソナライズを完全におこなうことができます。パラメーターは、プロパティウィンドウで入力する必要があります。
+Web フォームを完全に設定およびパーソナライズして、要件を満たすことができます。 パラメーターは、プロパティウィンドウで入力する必要があります。
 
 プロパティウィンドウは、Web フォームのツールバーにある「**[!UICONTROL プロパティ]**」ボタンを使用してアクセスできます。このウィンドウを使用すると、Web フォームに特有の様々な設定にアクセスできます。一部の設定は、テンプレートの設定に由来することがあります。
 

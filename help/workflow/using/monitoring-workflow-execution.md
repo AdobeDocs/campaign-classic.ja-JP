@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+workflow-type: tm+mt
 source-wordcount: '2098'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 [この節](supervising-workflows.md#supervising-workflows)では、一連のワークフローの状態（一時停止、停止、エラーあり）を監視できるワークフローの作成方法に関する使用例も示します。
 
-また、インスタンスの管理者は、**監査記録**&#x200B;を使用して、アクティビティおよびワークフローに対する最後の変更（ワークフローの状態）を確認できます。詳しくは、[Campaign Classic v7 実稼働ガイド](../../production/using/audit-trail.md)を参照してください。
+また、インスタンスの管理者は、**監査記録** を使用して、アクティビティおよびワークフローに対する最後の変更（ワークフローの状態）を確認できます。 詳しくは、[Campaign Classic v7 実稼働ガイド](../../production/using/audit-trail.md)を参照してください。
 
 様々なキャンペーンプロセスを監視するその他の方法については、[Campaign Classic v7 実稼動ガイド](../../production/using/monitoring-guidelines.md)を参照してください。
 
@@ -242,11 +242,11 @@ instance.vars.isRunning = false
 
 ## 一時停止したワークフローの処理 {#handling-of-paused-workflows}
 
-デフォルトでは、ワークフローを一時停止しても作業用テーブルはパージされません。ビルド 8880 以降では、長期間一時停止状態が続いているワークフローは自動的に停止され、作業用テーブルがパージされます。この処理は以下のようにトリガーされます。
+デフォルトでは、ワークフローを一時停止しても作業用テーブルはパージされません。ビルド 8880 以降では、長期間一時停止状態が続いているワークフローは自動的に停止され、作業用テーブルがパージされます。この動作は、次のようにトリガーされます。
 
 * 一時停止状態になっている期間が 7 日を超えたワークフローは監視ダッシュボード（および監視 API）に警告として表示され、スーパーバイザーグループに通知が送信されます。
 * 同じことが毎週、**[!UICONTROL cleanupPausedWorkflows]** テクニカルワークフローがトリガーされたときに繰り返されます。ワークフローについて詳しくは、[この節](delivery.md)を参照してください。
-* 4 回目の通知後（デフォルトでは一時停止状態が 1 ヶ月続いた後）、ワークフローは無条件で停止されます。停止後、ワークフローにログが表示されます。テーブルは次回の&#x200B;**[!UICONTROL クリーンアップ]**&#x200B;ワークフローの実行時にパージされます。
+* 4 回の通知の後（デフォルトでは一時停止状態の 1 ヶ月後）、ワークフローは無条件で停止されます。 停止後、ワークフローにログが表示されます。テーブルは次回の&#x200B;**[!UICONTROL クリーンアップ]**&#x200B;ワークフローの実行時にパージされます。
 
 停止までの期間は NmsServer_PausedWorkflowPeriod オプションを通じて設定できます。
 

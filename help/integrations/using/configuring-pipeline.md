@@ -5,7 +5,7 @@ description: パイプラインの設定方法を説明します
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: b8f74c290106d57630c5d486c04b8424132e3297
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 99%
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 * 次のいずれかの Adobe Campaign ビルド以上
    * 19.1.8.9039
-   * 19.1.4.9032 — ゴールド標準11
+   * 19.1.4.9032 - Gold Standard 11
    * 20.2.4.9187
    * 20.3.1
 * Adobe Analytics Standard 版
@@ -127,7 +127,7 @@ ht-degree: 99%
 
 | オプション | 説明 |
 |:-:|:-:|
-| appName（レガシー） | 公開鍵がアップロードされた OAuth レガシーアプリケーションに登録されている OAuth アプリケーションの App ID。詳しくは、この[ページ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md.)を参照してください。 |
+| appName（レガシー） | 公開鍵がアップロードされた OAuth レガシーアプリケーションに登録されている OAuth アプリケーションの App ID。詳しくは、この[ページ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)を参照してください。 |
 | authGatewayEndpoint（レガシー） | ゲートウェイトークンを取得するための URL。デフォルト：```https://api.omniture.com``` |
 | authPrivateKey（レガシー） | 秘密鍵、OAuth レガシーアプリケーションにアップロードされた公開部分、XtkKey オプション「```cryptString("PRIVATE_KEY")```」で暗号化された AES。 |
 | disableAuth（レガシー） | 認証の無効化（ゲートウェイトークンを使用せずに接続することは、一部の開発パイプラインエンドポイントでのみ可能）。 |

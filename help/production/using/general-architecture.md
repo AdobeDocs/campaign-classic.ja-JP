@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 4%
@@ -15,7 +15,9 @@ ht-degree: 4%
 
 # 一般的なアーキテクチャ{#general-architecture}
 
-## 最小アーキテクチャ{#minimum-architecture}
+![](../../assets/v7-only.svg)
+
+## 最小アーキテクチャ {#minimum-architecture}
 
 最小限の設定では、Adobe Campaignは次の操作をおこないます。
 
@@ -26,8 +28,8 @@ ht-degree: 4%
 
 次の図は、最小アーキテクチャのコンテキストに関係するトラフィックは次のみであることを示しています。
 
-1. インターネットを介したAdobe CampaignサーバーへのHTTPプロトコルトラフィック
-1. インターネットを介したAdobe Campaignサーバーとの間のSMTPプロトコルトラフィック。
+1. インターネットを介したAdobe Campaignサーバーへの HTTP プロトコルトラフィック
+1. インターネット経由でのAdobe Campaignサーバーとの間の SMTP プロトコルトラフィック。
 
 ## 分散アーキテクチャ {#distributed-architecture}
 
@@ -35,22 +37,22 @@ Adobe Campaignは複数のモジュールで構成され、複数のマシンに
 
 * 負荷分散
 * モジュールの冗長性の設定
-* 複数のサービスプロバイダーに分類されたアーキテクチャの構築（提供されるサービスのセグメント化）。
+* 複数のサービスプロバイダーにわたって分類されたアーキテクチャの構築（提供されるサービスのセグメント化）。
 
 ![](assets/architecturerepartie.png)
 
-複数のマシンにわたるモジュールの配布により、使用の柔軟性が高く、適応性が向上します。
+複数のマシンにモジュールを分散させることで、使用の柔軟性が高く、適応性が向上します。
 
 >[!NOTE]
 >
->様々なアーキテクチャについて詳しくは、[この節](../../installation/using/general-architecture.md)を参照してください。
+>様々なアーキテクチャについて詳しくは、[ この節 ](../../installation/using/general-architecture.md) を参照してください。
 
-## オープン・ポートのリスト{#list-of-open-ports}
+## オープン・ポートのリスト {#list-of-open-ports}
 
 | ポート番号 | 対象となるAdobe Campaignモジュールまたはアプリケーション | 設定可能 |
 |---|---|---|
-| 443/tcpまたは80/tcp | Webサーバー(Apache/IIS) | はい |
+| 443/tcp または 80/tcp | Web サーバー (Apache/IIS) | はい |
 | 6666/udp （ローカル） | Adobe Campaign:Syslogd | はい |
-| 8005/tcp （ローカル） | Adobe Campaign:webモジュール | はい |
-| 8080/tcp | Adobe Campaign:webモジュール(tomcat) | はい |
+| 8005/tcp （ローカル） | Adobe Campaign:web モジュール | はい |
+| 8080/tcp | Adobe Campaign:web モジュール (tomcat) | はい |
 | 7777 | 統計サーバ（統計サーバ） | はい |

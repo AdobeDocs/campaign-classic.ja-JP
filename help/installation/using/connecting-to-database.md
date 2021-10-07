@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: 外部データベースへのアクセス
-description: 外部データベースへの接続方法を説明します
+description: 外部データベースへの接続方法の詳細
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 98%
@@ -14,6 +14,8 @@ ht-degree: 98%
 ---
 
 # データベースへの接続 {#connecting-to-the-database}
+
+![](../../assets/v7-only.svg)
 
 外部データベースへの接続を有効にするには、対象のデータソースおよびデータの読み込みが必要なテーブルの名前を接続パラメーターで指定する必要があります。
 
@@ -96,7 +98,7 @@ ht-degree: 98%
 
 これで、データはセキュアな SSL プロトコル経由で送信されます。
 
-## 任意の追加設定 {#additional-configurations}
+## その他の設定 {#additional-configurations}
 
 必要に応じて、外部データベースのデータを処理するためのスキーマを作成できます。同様に、Adobe Campaign では外部テーブルのデータでマッピングを定義できます。これらは一般的な設定で、ワークフローだけに適用されるわけではありません。
 

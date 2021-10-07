@@ -6,16 +6,18 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 27%
 
 ---
 
-# スキーマ参照{#schema-reference}
+# スキーマリファレンス {#schema-reference}
 
-スキーマを編集する際に、ソーススキーマ(xtk:srcSchema)に基づく承認システムを使用できます。 「データベース構造の更新…」を使用してデータベースを更新する際に、エラーが検出される場合もあります。 ウィザード。
+![](../../assets/v7-only.svg)
+
+スキーマを編集する際に、ソーススキーマ (xtk:srcSchema) に基づく承認システムを使用できます。 「データベース構造の更新…」を使用してデータベースを更新する際に、エラーが発生する場合もあります。 ウィザード
 
 デフォルトでは、Adobe Campaignスキーマでは、すべてのブール型属性は「false」です。 これらをアクティブにするには、スキーマで属性を指定し、その値を「true」に設定する必要があります。
 

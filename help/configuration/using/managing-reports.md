@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -15,13 +15,15 @@ ht-degree: 3%
 
 # レポートの管理{#managing-reports}
 
-カスタムテーブルと、ターゲットマッピングを介してリンクされたテーブルのデータを考慮するには、デフォルトのAdobe Campaign受信者（nm:recipientまたはスキーマリンク）に固有のスキーマに基づくレポートを再開発する必要があります（[ターゲットマッピング](../../configuration/using/target-mapping.md)の節を参照）。
+![](../../assets/v7-only.svg)
 
-新しいレポートを作成するには、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
+カスタムテーブルと、ターゲットマッピングを介してリンクされたテーブルのデータを考慮するには、デフォルトのAdobe Campaign受信者（nm:recipient またはスキーマリンク）に固有のスキーマに基づくレポートを再開発する必要があります（[ ターゲットマッピング ](../../configuration/using/target-mapping.md) の節を参照）。
 
-場合によっては、これらのテーブルに固有の新しいキューブを配置する必要があります。 キューブについて詳しくは、[この節](../../reporting/using/about-cubes.md)を参照してください。
+新しいレポートを作成するには、[ この節 ](../../reporting/using/about-reports-creation-in-campaign.md) を参照してください。
 
-次のレポートが対象となります。
+場合によっては、これらのテーブルに固有の新しいキューブを配置する必要があります。 キューブについて詳しくは、[ この節 ](../../reporting/using/about-cubes.md) を参照してください。
+
+次のレポートが対象です。
 
 * **[!UICONTROL 最近の提案トラッキング]** (recentPropositions):リアルタイム提案トラッキング。
 * **[!UICONTROL 開封数の分類]** (opensByUserAgent):ユーザーソフトウェアに従って分類された開き。

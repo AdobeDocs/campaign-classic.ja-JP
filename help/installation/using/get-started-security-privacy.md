@@ -54,7 +54,7 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **データモデルの保護**：ネームド権限を使用してオペレーターのアクションを制限し、システムフィルター（sysFilter）を追加します
 
-* **Web アプリケーションに Captcha を追加**:パブリックのランディングページとサブスクリプションページに captcha を追加する方法を説明します。
+* **Add captchas in web applications**: learn how to add captchas in your public landing pages and subscription pages.
 
 [詳細情報](../../installation/using/scripting-coding-guidelines.md)
 
@@ -70,7 +70,7 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 >[!CAUTION]
 >
->2021 年 7 月 14 日以降、TLS 1.2 プロトコルをサポートしないクライアントシステムは、すべてのAdobe製品およびサービスへのアクセスを失います。 この日より前に、すべてのユーザーおよびクライアントシステムが TLS 1.2 に準拠していることを確認してください。 [詳細情報](https://helpx.adobe.com/x-productkb/multi/eol-tls-support.html)
+>2021 年 7 月 14 日以降、TLS 1.2 プロトコルをサポートしないクライアントシステムは、すべてのAdobe製品およびサービスへのアクセスを失います。 Ensure that all user and client systems are TLS 1.2 compliant before this date. [詳細情報](https://helpx.adobe.com/x-productkb/multi/eol-tls-support.html)
 
 ## サーバー設定
 
@@ -99,6 +99,6 @@ Web サーバー (Apache/IIS) を設定する際は、次のベストプラク�
 * 古い SSL のバージョンと暗号を無効にする
 * メソッドのTRACE
 * バナーを削除します。
-* クエリのサイズを制限して、重要なファイルがアップロードされないようにする
+* Limit query size to prevent important files from being uploaded
 
 [詳細情報](../../installation/using/web-server-configuration.md)

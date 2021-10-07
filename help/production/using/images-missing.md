@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 6ccda57d-f7a3-4501-b2f4-59fcb05f9013
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 5%
@@ -15,17 +15,19 @@ ht-degree: 5%
 
 # 画像が見つからない{#images-missing}
 
-17.9リリースでは、いくつかのファイル（特にアイコン）が移動されました。
+![](../../assets/v7-only.svg)
+
+17.9 リリースでは、いくつかのファイル（特にアイコン）が移動されました。
 
 ホスト型のお客様の場合、影響はありません。 オンプレミスインストールの場合は、以下をお読みください。
 
-**Apacheユーザー：**
+**Apache ユーザー：**
 
-提供された&#x200B;**apache_neolane.conf**&#x200B;を使用しているApacheユーザーには影響はありません。
+Apache ユーザーが提供された **apache_neolane.conf** を使用している場合、影響はありません。
 
-**IISユーザー：**
+**IIS ユーザー：**
 
-IISユーザー(Windows)の場合、ビルドの更新後に、コンソールにいくつかのアイコンが表示されません。 追加のIIS更新手順が必要です。
+IIS ユーザー (Windows) の場合、ビルドの更新後、コンソールにいくつかのアイコンが表示されません。 追加の IIS 更新手順が必要です。
 
-1. ビルドの更新後、Campaignのインストールディレクトリにある&#x200B;**iis_neolane_setup.vbs**&#x200B;をダブルクリックします。 デフォルトのパスはC:\Program Files (x86)\Adobe\Adobe Campaign v7\confです。
-1. 前の手順で更新したIISサイトを再起動します。
+1. ビルドの更新後、Campaign のインストールディレクトリにある **iis_neolane_setup.vbs** をダブルクリックします。 デフォルトのパスはC:\Program Files (x86)\Adobe\Adobe Campaign v7\confです。
+1. 前の手順で更新した IIS サイトを再起動します。

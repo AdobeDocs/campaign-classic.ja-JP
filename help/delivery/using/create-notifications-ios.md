@@ -5,15 +5,17 @@ description: iOS 用のプッシュ通知を作成する方法を説明します
 audience: delivery
 content-type: reference
 topic-tags: sending-push-notifications
-exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: a129f49d4f045433899fd7fdbd057fb16d0ed36a
-workflow-type: ht
+exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
+source-git-commit: 1de1f7aafd7eb18c1160460ddd5c84ac59473664
+workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
 
 ---
 
 # iOS 用通知の作成{#create-notifications-ios}
+
+![](../../assets/common.svg)
 
 ここでは、iOS 用通知の配信に固有の要素について説明します。配信の作成に関するグローバルな概念については、[この節](steps-about-delivery-creation-steps.md)で説明しています。
 

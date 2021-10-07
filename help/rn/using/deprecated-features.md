@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '1657'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -81,7 +81,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
   <tr>  
    <td>レポート<br></td>
-   <td><p>AdobeFlash PlayerEOLに続き、ゲージレポートとグラフレンダリングエンジンは使用できなくなりました。 <a href="../../reporting/using/creating-a-new-report.md">詳細情報</a></p>
+   <td><p>Adobe Flash Player の提供終了に伴い、ゲージレポートとグラフレンダリングエンジンは使用できなくなりました。 <a href="../../reporting/using/creating-a-new-report.md">詳細情報</a></p>
   </tr>
   <tr>  
    <td>FAX チャネル<br></td>
@@ -242,10 +242,10 @@ Adobe Campaign は、次の SMS コネクタと互換性がありません。
 
 ### CRM コネクタ {#crm-connectors}
 
-Campaign 21.1リリースより、次のCRMコネクタはCampaignとの互換性を失います。
+Campaign 21.1 リリース以降、次の CRM コネクタは Campaign との互換性がなくなりました。
 
 * SOAP API - オンプレミス：2007、2015、2016
 * SOAP API - オンライン：2015、2016
 * Web API - Microsoft Dynamics CRM 2016
 * Web API - Microsoft Dynamics CRM 2016 Update 1
-* Oracle オンデマンド API
+* Oracle On Demand API

@@ -2,7 +2,8 @@
 product: campaign
 title: Campaign Classicv7 向けのハードウェアのサイズ変更の推奨事項
 description: Campaign Classicv7 向けのハードウェアのサイズ変更の推奨事項
-source-git-commit: 0deb18bb0376fc5e94d063145280426ff54db786
+exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
+source-git-commit: ee296e0ce25570d1fe62238e505f978df17c1f24
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 1%

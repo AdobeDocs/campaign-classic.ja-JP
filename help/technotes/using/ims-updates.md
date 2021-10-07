@@ -28,7 +28,7 @@ AdobeIdentity Managementサービス (IMS) は、2021 年 6 月 30 日に、古�
 
 Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../integrations/using/about-adobe-id.md) Campaign に接続しており、下記に示すバージョンより古いバージョンの Campaign を使用している場合は、影響を受けます。
 
-既にアップグレード済みで、古いバージョンの Microsoft Internet Explorer を使用している場合は、Internet Explorer 11 にアップグレードする必要があります。
+既にアップグレード済みで、古いバージョンのMicrosoft Internet Explorer を使用している場合は、Internet Explorer 11 にアップグレードする必要があります。
 
 ## 更新方法
 

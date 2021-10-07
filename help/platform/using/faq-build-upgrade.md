@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 以下の[ビルドアップグレードのチェックリスト](#check-list)とテスト計画を確認し、これらのテストを実行できるリソースがアップグレード完了の 24～48 時間以内に利用可能であることを確認します。
 
-詳しくは、[このドキュメント](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)を参照してください。
+詳しくは、[このドキュメント](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)を参照してください。
 
 ## 夜間や営業時間外にビルドアップグレードを実行することはできますか？
 

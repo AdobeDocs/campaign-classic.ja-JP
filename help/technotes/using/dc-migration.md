@@ -19,7 +19,7 @@ ht-degree: 67%
 
 ## コンテキスト
 
-アドビは、Adobe Campaign Classicのお客様に最高のエクスペリエンスと価値を提供することに取り組んでいます。 長年にわたって、クラウドでお客様をホスティングすることの価値と信頼性を実現してきました。アドビの [Gold Standard Initiative](../../rn/using/gold-standard.md) の一環として、アドビは、すべてのお客様を Adobe Managed Services（AWS のパブリッククラウド）に移行し、より優れた信頼性の高いサービスを提供しています。
+アドビは、Adobe Campaign Classicのお客様に最高のエクスペリエンスと価値を提供することに取り組んでいます。 長年にわたって、クラウドでお客様をホスティングすることの価値と信頼性を実現してきました。アドビの [Gold Standard Initiative](../../rn/using/gold-standard.md) の一環として、すべてのお客様を Adobe Managed Services(AWSのパブリッククラウド ) に移行し、より優れた信頼性の高いサービスを提供しています。
 
 このプログラムには、3 つの主な目標があります。
 
@@ -32,7 +32,7 @@ ht-degree: 67%
 * **ビルドのアップグレード**  - Adobe Campaign Classicソフトウェアが最新の安全なビルド番号に更新されても、メジャー/マイナーのビルドレベルは同じままです。例：Campaign v7 20.2.3 ビルド 9182 から Campaign v7 21.2.5 ビルド 9188。 [詳細情報](../../platform/using/faq-build-upgrade.md)。
 * **MID/RT**  -Adobeクラウドでホストされるメッセージ実行サーバー（バッチキャンペーンの場合は MID、リアルタイム単一メッセージの場合は RT）
 * **Gold Standard のアップグレード**  — このプログラムは、セキュリティの向上、サポートの向上、メンテナンスと安定性の向上を提供します。また、将来のアップグレードが容易になり、Campaign の新機能にアクセスできるようになります。[詳細情報](../../rn/using/gs-overview.md)。
-* **AWS**  - Amazon Web サービス (Amazonパブリッククラウド )
+* **AWS**  - Amazon Web Services(Amazon Public Cloud)
 * **SFTP**  — 保護されたファイル転送プロトコル。[詳細情報](../../platform/using/sftp-server-usage.md)。
 
 
@@ -86,9 +86,9 @@ ht-degree: 67%
 
 このクラウドへの移行は、Adobe Campaign インスタンスの **[Gold Standard 認定](../../rn/using/gs-overview.md)**&#x200B;を取得するための最初のステップです。この移行は、パブリッククラウド（AWS）ではないデータセンターでホストされている場合に必須です。
 
-Adobe Managed Services クラウドは、最新の、安全で最適化された環境であるAmazon Web Services(AWS) でホストされます。 [AWS の詳細](https://aws.amazon.com/application-hosting/benefits/)を参照してください。
+Adobe Managed Services クラウドは、最新の、安全で最適化された環境であるAmazon Web Services(AWS) でホストされています。 [AWS](https://aws.amazon.com/application-hosting/benefits/)の詳細
 
-Adobeは、レガシーデータセンターの廃止を計画しています。そこで稼働するAdobe Campaignインスタンスは、新しい参照データセンター (AWS) に転送する必要があります。
+Adobeは、レガシーデータセンターの廃止を計画しています。そこで稼働するAdobe Campaignインスタンスは、新しい参照データセンター、AWSに転送する必要があります。
 
 現在の場所は&#x200B;**セキュリティとパフォーマンスの脆弱性**&#x200B;が存在する可能性があるので、これは、進むべきクリティカルパスです。
 
@@ -146,7 +146,7 @@ Adobeは、レガシーデータセンターの廃止を計画しています。
 
 **Campaign サーバー**
 
-既存の Campaign サーバー（実際にはコンテナ）は、「リフト&amp;シフト」アプローチでパブリッククラウド (AWS) に移動されます。 つまり、新しいサーバーのインストールは必要ありませんが、サーバー全体が新しいデータセンターに転送されます。低レベルの技術的再構成と同じように、この操作に必要な作業はありません。
+既存の Campaign サーバー（実際にはコンテナ）は、「上昇率とシフト」のアプローチで、パブリッククラウド (AWS) に移動されます。 つまり、新しいサーバーのインストールは必要ありませんが、サーバー全体が新しいデータセンターに転送されます。低レベルの技術的再構成と同じように、この操作に必要な作業はありません。
 
 **サーバー名**
 

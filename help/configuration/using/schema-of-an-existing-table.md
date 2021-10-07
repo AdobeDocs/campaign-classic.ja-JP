@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 15%
@@ -15,22 +15,24 @@ ht-degree: 15%
 
 # 既存のテーブルのスキーマ{#schema-of-an-existing-table}
 
+![](../../assets/v7-only.svg)
+
 ## 概要 {#overview}
 
-アプリケーションが既存のテーブル、SQLビュー、またはリモート・データベースのデータにアクセスする必要がある場合は、次のデータを使用してAdobe Campaignでスキーマを作成します。
+アプリケーションが既存のテーブル、SQL ビュー、またはリモート・データベースのデータにアクセスする必要がある場合は、次のデータを使用してAdobe Campaignでスキーマを作成します。
 
-* テーブル名：「sqltable」属性を使用して、テーブルの名前（dblinkを使用する場合のエイリアス）を入力します。
+* テーブル名：「sqltable」属性を使用して、テーブルの名前（dblink を使用する場合のエイリアス）を入力します。
 * スキーマキー：紐付けフィールドの参照
 * インデックス：クエリの生成に使用
-* XML構造内のフィールドとその場所：アプリケーションで使用するフィールドにのみ入力します。
+* XML 構造内のフィールドとその場所：アプリケーションで使用するフィールドにのみ入力します。
 * リンク：ベースの他のテーブルとの結合がある場合。
 
 ## 実装 {#implementation}
 
-対応するスキーマを作成するには、次のステージに従います。
+対応するスキーマを作成するには、次のステージを適用します。
 
 1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードを編集し、「**[!UICONTROL 新規]**」をクリックします。
-1. 「既存のテーブルまたはSQLビューからデータにアクセス&#x200B;]**」オプションを選択し、「**[!UICONTROL &#x200B;次へ&#x200B;]**」をクリックします。**[!UICONTROL 
+1. 「**[!UICONTROL 既存のテーブルまたは SQL ビューからデータにアクセス]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/s_ncs_configuration_extand_a_schema.png)
 
@@ -42,7 +44,7 @@ ht-degree: 15%
 
    ![](assets/s_ncs_configuration_view_create_schema.png)
 
-   テーブル作成SQLスクリプトを生成しないように、 `<srcSchema>`ルート要素にview=&quot;true&quot;属性を設定する必要があります。
+   テーブル作成 SQL スクリプトを生成しないように、 `<srcSchema>` ルート要素の view=&quot;true&quot;属性をスキーマに設定する必要があります。
 
 **例**：
 
@@ -59,6 +61,6 @@ ht-degree: 15%
 
 ## 外部データベースへのアクセス {#accessing-an-external-database}
 
-「**Federated Data Access - FDA**」オプションを使用すると、外部データベースに格納されたデータにアクセスできます。
+「**Federated Data Access - FDA**」オプションを使用すると、外部データベースに保存されているデータにアクセスできます。
 
-外部データベースのデータにアクセスするためにスキーマに対して実行される設定については、[このページ](../../installation/using/creating-data-schema.md)で詳しく説明します。
+外部データベースのデータにアクセスするためにスキーマに対して実行する設定について詳しくは、[ このページ ](../../installation/using/creating-data-schema.md) を参照してください。

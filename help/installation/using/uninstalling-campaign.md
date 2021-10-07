@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Campaign のアンインストール
-description: Campaignのアンインストール方法を説明します
+description: Campaign のアンインストール方法を説明します
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: e2b026ba-aaf3-443d-8c36-c908288a14fd
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 30%
@@ -14,6 +14,8 @@ ht-degree: 30%
 ---
 
 # Campaign のアンインストール{#uninstalling-campaign}
+
+![](../../assets/v7-only.svg)
 
 >[!CAUTION]
 >
@@ -39,4 +41,4 @@ rm -rf /user/local/neolane
 
 **Windows の場合：**
 
-この[ページ](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version)を参照してください。Campaignのインストールフォルダーを削除することを忘れないでください。
+この[ページ](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version)を参照してください。Campaign のインストールフォルダーを忘れずに削除してください。

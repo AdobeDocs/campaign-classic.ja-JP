@@ -13,11 +13,11 @@ ht-degree: 100%
 
 ---
 
-# Adobe Campaign での共有オーディエンスの統合の設定{#configuring-shared-audiences-integration-in-adobe-campaign}
+# Adobe Campaign での共有オーディエンス統合の設定{#configuring-shared-audiences-integration-in-adobe-campaign}
 
 ![](../../assets/common.svg)
 
-この依頼を送信すると、アドビによって統合のプロビジョニングが進められます。また、お客様には設定を完了させるための詳細情報が届きます。
+このリクエストを送信すると、アドビ側で統合のプロビジョニングが進められます。また、設定を完了するための詳細情報がお客様に届きます。
 
 1. [手順 1：Adobe Campaign での外部アカウントの設定または確認](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 1. [手順 2：データソースの設定](#step-2--configure-the-data-source)

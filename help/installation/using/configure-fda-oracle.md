@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: Oracle へのアクセスの設定
-description: FDAでOracleへのアクセスを設定する方法
+description: FDA でOracleへのアクセスを設定する方法を説明します
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 73%
@@ -15,10 +15,12 @@ ht-degree: 73%
 
 # Oracle へのアクセスの設定 {#configure-access-to-oracle}
 
-外部データベースに保存された情報を処理するには、Campaignの[Federated Data Access](../../installation/using/about-fda.md)(FDA)オプションを使用します。 次の手順に従って、Oracleへのアクセスを設定します。
+![](../../assets/v7-only.svg)
 
-1. [Linux](#oracle-linux)または[Windows](#azure-windows)上でOracleを設定する
-1. CampaignでOracle[外部アカウント](#oracle-external)を設定します
+Campaign の [Federated Data Access](../../installation/using/about-fda.md)(FDA) オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って、Oracleへのアクセスを設定します。
+
+1. [Linux](#oracle-linux) または [Windows](#azure-windows) でOracleを設定する
+1. oracle[ 外部アカウント ](#oracle-external) を Campaign で設定します
 
 ## Oracle（Linux） {#oracle-linux}
 
@@ -60,7 +62,7 @@ FDA で Oracle 外部データベースに接続するには、Adobe Campaign �
       yum install libaio1
       ```
 
-1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[この節](#oracle-external)を参照してください。
+1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[ この節 ](#oracle-external) を参照してください。
 
 ## Oracle（Windows） {#oracle-windows}
 
@@ -72,15 +74,15 @@ FDA で Oracle 外部データベースに接続するには、Adobe Campaign �
 
 1. TNS_ADMIN 環境変数を追加して値を C:\Oracle に設定し、マシンを再起動します。
 
-1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[この節](#oracle-external)を参照してください。
+1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[ この節 ](#oracle-external) を参照してください。
 
 ## Oracle 外部アカウント {#oracle-external}
 
-[!DNL Oracle]外部アカウントを使用すれば、CampaignインスタンスをOracle外部データベースに接続できます。
+[!DNL Oracle] 外部アカウントを使用すれば、Campaign インスタンスをOracleの外部データベースに接続できます。
 
-1. Campaignの&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]**&#x200B;を選択します。
+1. Campaign **[!UICONTROL エクスプローラー]** から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]** を選択します。
 
-1. 「**[!UICONTROL 新規]**」を選択します。
+1. **[!UICONTROL 新規]** を選択します。
 
 1. 外部アカウント&#x200B;**[!UICONTROL タイプ]**&#x200B;として、「**[!UICONTROL 外部データベース]**」を選択します。
 

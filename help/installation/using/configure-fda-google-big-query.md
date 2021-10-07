@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Google BigQuery へのアクセスの設定
-description: FDA で Google BigQuery へのアクセスを設定する方法を説明します
+description: FDA でGoogle BigQuery へのアクセスを設定する方法を説明します
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -29,7 +29,7 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
 
 ![](assets/snowflake_3.png)
 
-## Windows での Google BigQuery {#google-windows}
+## Google BigQuery（Windows 版） {#google-windows}
 
 ### Windows でドライバを設定 {#driver-window}
 
@@ -65,7 +65,7 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
 >
 >Python3 を使用することをお勧めします。詳しくは、[ ページ ](https://www.python.org/downloads/) を参照してください。
 
-一括読み込みユーティリティを使用すると、Google Cloud SDK を通じてより高速な転送が可能です。
+一括読み込みユーティリティを使用すると、Google Cloud SDK を通じて高速転送が可能です。
 
 1. この [ ページ ](https://cloud.google.com/sdk/docs/downloads-versioned-archives) から Windows 64 ビット (x86_64) アーカイブをダウンロードし、対応するディレクトリに展開します。
 
@@ -81,7 +81,7 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
 
 1. Adobe Campaign Classicを再起動して、変更を反映します。
 
-## Linux での Google BigQuery {#google-linux}
+## Google BigQuery(Linux) {#google-linux}
 
 ### Linux でのドライバの設定 {#driver-linux}
 
@@ -171,7 +171,7 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
    SwapFilePath=/tmp
    ```
 
-1. システムドライバファイルまたは現在の `odbcinst.ini` ファイルを使用している場合は、`/etc/odbcinst.ini` を Google BigQuery ドライバの場所 `/opt/simba/googlebigqueryodbc/lib/libgooglebigqueryodbc_sb[Bitness].so` を指すように設定します。
+1. システムドライバファイルまたは現在の `odbcinst.ini` ファイルを使用している場合は、Google BigQuery ドライバの場所 `/opt/simba/googlebigqueryodbc/lib/libgooglebigqueryodbc_sb[Bitness].so` を指すように `/etc/odbcinst.ini` を設定します。
 
    例：
 
@@ -213,7 +213,7 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
 >
 >Python3 を使用することをお勧めします。詳しくは、[ ページ ](https://www.python.org/downloads/) を参照してください。
 
-一括読み込みユーティリティを使用すると、Google Cloud SDK を通じてより高速な転送が可能です。
+一括読み込みユーティリティを使用すると、Google Cloud SDK を通じて高速転送が可能です。
 
 1. この [ ページ ](https://cloud.google.com/sdk/docs/downloads-versioned-archives) に Linux 64 ビット (x86_64) アーカイブをダウンロードし、対応するディレクトリに展開します。
 

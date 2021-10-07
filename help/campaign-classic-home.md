@@ -6,7 +6,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: acb2c4e90c4ce349ea9c1ad53d703c13195872e1
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 80%
 
 ## 新機能
 
-* **[9月リリースが公開されました。](rn/using/latest-release.md)**<br/> 新機能、改善点、修正点をリリースノートでご確認ください
+* **[9 月リリースが公開されました。](rn/using/latest-release.md)**<br/> 新機能、改善点、修正点をリリースノートでご確認ください
 
-* **[Apple Mailのプライバシー保護に関す](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)** るFAQ **[](technotes/using/apple-mail-app-privacy-protection.md)**<br/> とテクニカルノートiOS 15に関するAppleの発表に応じて、最初のガイダンスを見つけます
+* **[Apple Mail プライバシー保護に関す](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)** る FAQ とテク **[](technotes/using/apple-mail-app-privacy-protection.md)**<br/> ニカルノートiOS 15 に関するAppleの発表に応じて、最初のガイダンスを見つけます
 
 * **[IMS／Adobe ID で接続している場合は、最新ビルドへのアップグレードが必要 ](technotes/using/ims-updates.md)**<br/>IMS で Campaign に接続している場合、** 2021 年 6 月 30 日（PT）**以降も、Campaign に接続できるようにするにはアップグレードが必要です
 
@@ -26,7 +26,7 @@ ht-degree: 80%
 
 * **[Campaign インスタンスのセキュリティ保護](technotes/using/acc-config-updates.md)**<br/> 最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します
 
-* **[Adobe Experience Cloud Triggers統合の](integrations/using/configuring-adobe-io.md)**<br/> 更新レガシーoAuth認証サービスが提供終了になりました。Adobe I/O
+* **[Adobe Experience Cloud Triggers統合の](integrations/using/configuring-adobe-io.md)**<br/> 更新レガシー oAuth 認証サービスが提供終了になりました。Adobe I/O
 
 [その他の更新](rn/using/documentation-updates.md)
 

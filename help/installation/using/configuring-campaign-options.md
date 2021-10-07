@@ -315,7 +315,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmPublishingDir</span> <br /> </td> 
-   <td> 公開用ルートフォルダー.<br /> HTML およびテキストコンテンツの生成について詳しくは、この <a href="../../delivery/using/using-a-content-template.md">節を参照してください</a>。<br /> </td> 
+   <td> 公開用ルートフォルダー.<br /> HTMLおよびテキストコンテンツの生成について詳しくは、この <a href="../../delivery/using/using-a-content-template.md">節を参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkImageUrl</span> <br /> </td> 
@@ -659,7 +659,7 @@ ht-degree: 24%
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> Microsoft SQL Server 上の作業用テーブルに対して別のデータベースを構成し、バックアップとレプリケーションを最適化できます。 このオプションは、一時データベースの名前に対応します。作業用テーブルを指定した場合、このデータベースに書き込みます。 例：「tempdb.dbo」と入力します。 （名前の末尾はドットにする必要があります）。 <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">詳細情報</a> <br /> </td> 
+   <td> Microsoft SQL Server 上の作業用テーブルに対して別のデータベースを設定し、バックアップとレプリケーションを最適化できます。 このオプションは、一時データベースの名前に対応します。作業用テーブルを指定した場合、このデータベースに書き込みます。 例：「tempdb.dbo」と入力します。 （名前の末尾はドットにする必要があります）。 <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">詳細情報</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 

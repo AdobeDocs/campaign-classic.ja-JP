@@ -6,18 +6,20 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 10%
 
 ---
 
-# 列挙要素{#enumeration--element}
+# 列挙要素 {#enumeration--element}
 
-## コンテンツモデル{#content-model-5}
+![](../../../assets/v7-only.svg)
 
-enumeration:==(help| value)
+## コンテンツモデル {#content-model-5}
+
+列挙：==(help| value)
 
 ## 属性 {#attributes-5}
 
@@ -28,7 +30,7 @@ enumeration:==(help| value)
 * @name (string)
 * @template (string)
 
-## 親{#parents-5}
+## 親 {#parents-5}
 
 `<srcschema>`
 
@@ -41,13 +43,13 @@ enumeration:==(help| value)
 
 この要素を使用して、値の列挙を定義できます。 列挙は、定義されているスキーマに属していますが、別のスキーマからアクセスできます。
 
-## {#use-and-context-of-use-4}の使用と使用のコンテキスト
+## 使用と使用のコンテキスト {#use-and-context-of-use-4}
 
-列挙は、スキーマの開始時（メイン要素が定義される前）に定義されます。
+列挙は、スキーマの開始時（メイン要素の定義前）に定義されます。
 
-## 属性の説明{#attribute-description-5}
+## 属性の説明 {#attribute-description-5}
 
-* **basetype（文字列）**:列挙に保存される値のタイプ。
+* **basetype （文字列）**:列挙に保存される値のタイプ。
 
    使用可能なタイプのリスト：
 
@@ -80,11 +82,11 @@ enumeration:==(help| value)
    * 間隔
    * uuid
 
-* **デフォルト（文字列）**:デフォルト値。デフォルト値は、列挙で定義された値の1つでもかまいません。
-* **desc（文字列）**:列挙の説明。
-* **label（文字列）**:列挙ラベル
+* **デフォルト（文字列）**:デフォルト値。デフォルト値は、列挙で定義された値の 1 つでもかまいません。
+* **desc （文字列）**:列挙の説明。
+* **label （文字列）**:列挙ラベル
 * **名前（文字列）**:列挙の内部名。
-* **テンプレート（文字列）**:この属性は、複数のスキーマで共有さ `<enumeration>` れる要素への参照を定義します。定義は、現在のスキーマに自動的にコピーされます。
+* **template （文字列）**:この属性は、複数のスキーマで共有さ `<enumeration>` れる要素への参照を定義します。定義は、現在のスキーマに自動的にコピーされます。
 
 ## 例 {#examples-4}
 

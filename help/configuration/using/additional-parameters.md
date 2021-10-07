@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: 追加のWebトラッキングパラメーター
-description: Webトラッキングのパラメーターの詳細を説明します
+title: 追加の Web トラッキングパラメーター
+description: Web トラッキングのパラメーターの詳細
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -15,14 +15,16 @@ ht-degree: 1%
 
 # 追加パラメーター{#additional-parameters}
 
-## パラメータの定義{#definition-of-parameters}
+![](../../assets/v7-only.svg)
 
-Adobe Campaignプラットフォームでは、2つのトランザクションタイプWebトラッキングパラメーターが標準として提供されています。
+## パラメーターの定義 {#definition-of-parameters}
+
+Adobe Campaignプラットフォームでは、標準として 2 つのトランザクションタイプの Web トラッキングパラメーターが用意されています。
 
 * **量**:トランザクションの金額を表します。
 * **記事**:トランザクション内の品目数を表します。
 
-これらのパラメーターは&#x200B;**nms:webTrackingLog**&#x200B;スキーマで定義され、レポートに表示される指標の一部です。
+これらのパラメーターは **nms:webTrackingLog** スキーマで定義され、レポートに表示される指標の一部です。
 
 追加のパラメーターを定義するには、このスキーマを拡張する必要があります。
 
@@ -42,21 +44,21 @@ Adobe Campaignプラットフォームでは、2つのトランザクション�
 
 （配信または受信者の）トラッキングログリストを設定して、これらのパラメーターの値を表示できます。
 
-## リダイレクションサーバーの構成{#redirection-server-configuration}
+## リダイレクトサーバーの構成 {#redirection-server-configuration}
 
-サーバーの設定で、Webトラッキングパラメーターに使用する最大文字数を定義できます。
+サーバーの設定で、Web トラッキングパラメーターに使用する最大文字数を定義できます。
 
 >[!IMPORTANT]
 >
->考慮する最大文字数を増やすと、プラットフォームのWebトラッキングパフォーマンスに影響を与える可能性があります。
+>考慮する最大文字数を増やすと、プラットフォームの Web トラッキングのパフォーマンスに影響を与える可能性があります。
 
-これをおこなうには、**serverConf.xml**&#x200B;ファイルの&#x200B;**`<trackinglogd>`**&#x200B;要素の&#x200B;**webTrackingParamSize**&#x200B;属性を変更します。 このファイルは、Adobe Campaignインストールディレクトリの&#x200B;**conf**&#x200B;サブディレクトリに保存されます。
+そのためには、**serverConf.xml** ファイルの **`<trackinglogd>`** 要素の **webTrackingParamSize** 属性を変更します。 このファイルは、Adobe Campaignインストールディレクトリの **conf** サブディレクトリに保存されます。
 
 **例**：
 
-デフォルト値は64文字です。 この値を使用すると、**amount**&#x200B;および&#x200B;**article**(&quot;amount=xxxxxxx&amp;article=xxxxxxxx&quot;)標準パラメーターを考慮に入れることができます。
+デフォルト値は 64 文字です。 この値を使用すると、**amount** および **article**(&quot;amount=xxxxxxx&amp;article=xxxxxxx&quot;) 標準パラメーターを考慮に入れることができます。
 
-上記の拡張スキーマの例で示した両方のパラメーター（名前のサイズ+値のサイズ）を考慮することで、100文字を考慮に入れるように設定を変更できます(「amount=xxxxxxxxx&amp;article=xxxxxxx&amp;mode=xxxxxxxxxxxxxxxx&amp;code=xxx」)。
+上記の拡張スキーマの例で示した両方のパラメーター（名前のサイズと値のサイズ）を考慮することで、100 文字を考慮に入れるように設定を変更できます (&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxxx&amp;code=xxxxx&quot;)。
 
 ```
 <trackinglogd args="" autoStart="false" initScript="" maxCreateFileRetry="5" maxLogsSizeOnDiskMb="500"
@@ -67,23 +69,23 @@ webTrackingParamSize="64"/>
 
 設定を変更した場合は、次の操作を行う必要があります。
 
-* リダイレクトモジュールをホストするWebサーバー（Apache、IISなど）を停止します。
-* Adobe Campaignサーバーを停止します。**Windowsでは** net stop nlserver6 **、Linuxでは/etc/init.d/nlserver6 stop**
+* リダイレクトモジュールをホストする Web サーバー（Apache、IIS など）を停止します。
+* Adobe Campaignサーバーを停止します。**Windows では** net stop nlserver6 **、Linux では /etc/init.d/nlserver6 stop**
 
    >[!NOTE]
    >
-   >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）。**systemctl stop nlserver**
+   >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。**systemctl stop nlserver**
 
-* Linuxでは、**ipcrm**&#x200B;コマンドを使用して共有メモリセグメントを削除します。
-* Adobe Campaignサーバーを再起動します。**Windowsでは**/etc/init.d/nlserver6 start **、Linuxではnet start nlserver6**
+* Linux では、**ipcrm** コマンドを使用して共有メモリセグメントを削除します。
+* Adobe Campaignサーバーを再起動します。**Windows では**/etc/init.d/nlserver6 start **、Linux では net start nlserver6**
 
    >[!NOTE]
    >
-   >20.1以降では、代わりに次のコマンドを使用することをお勧めします（Linuxの場合）。**systemctl start nlserver**
+   >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。**systemctl start nlserver**
 
-* Webサーバーを再起動します。
+* Web サーバーを再起動します。
 
-**例**:Linuxでの設定を考慮して
+**例**:Linux での設定を考慮して
 
 ```
 adobe@selma:~$ systemctl stop nlserver
@@ -109,4 +111,4 @@ adobe@selma:~$ systemctl start apache2
 
 >[!NOTE]
 >
->Linuxの場合、**webTrackingParamSize**&#x200B;または&#x200B;**maxSharedLogs**&#x200B;パラメーターのサイズを大きくすると、共有メモリ(SHM)のサイズを大きくする必要が出る場合があります。
+>Linux では、**webTrackingParamSize** または **maxSharedLogs** パラメーターのサイズを大きくすると、共有メモリ (SHM) のサイズを大きくする必要が生じる場合があります。

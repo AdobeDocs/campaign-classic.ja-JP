@@ -6,18 +6,20 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 0fb74318-fe09-473c-8e33-1f3afd66b4cc
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 4%
 
 ---
 
-# メソッド要素{#method--element}
+# メソッド要素 {#method--element}
 
-## コンテンツモデル{#content-model-10}
+![](../../../assets/v7-only.svg)
 
-method:==( help |パラメーター)
+## コンテンツモデル {#content-model-10}
+
+method:==( help |パラメーター )
 
 ## 属性 {#attributes-10}
 
@@ -31,7 +33,7 @@ method:==( help |パラメーター)
 * @pkonly (boolean)
 * @static (boolean)
 
-## 親{#parents-10}
+## 親 {#parents-10}
 
 `<methods>`  ,  `<interface />`
 
@@ -42,22 +44,22 @@ method:==( help |パラメーター)
 
 ## 説明 {#description-10}
 
-この要素を使用して、SOAPメソッドを定義できます。
+この要素を使用して、SOAP メソッドを定義できます。
 
-## {#use-and-context-of-use-7}の使用と使用のコンテキスト
+## 使用と使用のコンテキスト {#use-and-context-of-use-7}
 
-SOAPメソッドを使用すると、アプリケーションプロセスが有効になります。
+SOAP メソッドを使用すると、アプリケーションプロセスを有効にできます。
 
-新しいメソッド（非ネイティブ）を宣言するには、「@library」が必要です。ライブラリに使用される名前空間と名前は、宣言が含まれるスキーマの名前空間と名前とは独立しています。
+新しいメソッド（非ネイティブ）を宣言するには、「@library」が必要です。ライブラリに使用する名前空間と名前は、宣言が含まれるスキーマの名前空間と名前とは独立しています。
 
-## 属性の説明{#attribute-description-10}
+## 属性の説明 {#attribute-description-10}
 
-* **アクセス（文字列）**:この属性は、メソッドを使用するためのアクセス制御を定義します。この属性がない場合は、識別が必須です。 使用できる値は次のとおりです。「anonymous」、「admin」、「sql」。
-* **const (boolean)**:有効になっている場合、この属性は宣言されたメソッドによってエンティティが変更されることを意味します。
-* **label（文字列）**:メソッドのラベル。
-* **ライブラリ（文字列）**:このメソッドは、アプリケーションにネイティブではありません。この属性は、メソッド定義が見つかったメソッドライブラリの値を取ります(nms:mylibrary.js)。
-* **名前(MNTOKEN)**:一意のメソッド名。
-* **static (boolean)**:この属性が有効になっている場合、メソッドは自律型と見なされ、呼び出される際に、すべてのパラメータをメソッドに指定する必要があります。
+* **アクセス（文字列）**:この属性は、メソッドを使用するためのアクセス制御を定義します。この属性がない場合は、識別が必須です。 使用できる値は次のとおりです。&#39;anonymous&#39;、&#39;admin&#39;、&#39;sql&#39;。
+* **const (boolean)**:有効になっている場合、この属性は宣言されたメソッドによってエンティティが変更されることを意味します
+* **label （文字列）**:メソッドのラベル。
+* **ライブラリ（文字列）**:このメソッドは、アプリケーションにネイティブではありません。この属性は、メソッド定義が見つかったメソッドライブラリの値 (nms:mylibrary.js) を取得します。
+* **名前 (MNTOKEN)**:一意のメソッド名。
+* **static (boolean)**:この属性が有効な場合、メソッドは自律型と見なされ、呼び出し時にすべてのパラメータをメソッドに指定する必要があります。
 
 ## 例 {#examples-7}
 

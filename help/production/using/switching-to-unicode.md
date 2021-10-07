@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4cfecf2f-cf98-42c1-b979-cdd26d5de48b
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 7%
@@ -15,7 +15,9 @@ ht-degree: 7%
 
 # Unicode への切り替え{#switching-to-unicode}
 
-Linux/PostgreSQLの既存の&#x200B;**prod**&#x200B;インスタンスの場合、Unicodeに切り替える手順は次のとおりです。
+![](../../assets/v7-only.svg)
+
+Linux/PostgreSQL の既存の **prod** インスタンスの場合、Unicode に切り替える手順は次のとおりです。
 
 1. データベースに書き込むプロセスを停止します。
 
@@ -31,7 +33,7 @@ Linux/PostgreSQLの既存の&#x200B;**prod**&#x200B;インスタンスの場合�
    pg_dump mydatabase > mydatabase.sql
    ```
 
-1. Unicodeデータベースの作成：
+1. Unicode データベースの作成：
 
    ```
    createdb -E UNICODE mydatabase_unicode
@@ -43,7 +45,7 @@ Linux/PostgreSQLの既存の&#x200B;**prod**&#x200B;インスタンスの場合�
    psql mydatabase_unicode < mydatabase.sql
    ```
 
-1. データベースがUnicodeであることを示すオプションを更新します。
+1. データベースが Unicode であることを示すオプションを更新します。
 
    ```
    psql mydatabase_unicode
@@ -58,7 +60,7 @@ Linux/PostgreSQLの既存の&#x200B;**prod**&#x200B;インスタンスの場合�
    vi config-prod.xml
    ```
 
-   データベース識別子に関連する値の前に&#x200B;**u**&#x200B;文字を追加します(**databaseId**)。
+   データベース識別子に関連する値の前に **u** 文字を追加します (**databaseId**)。
 
    ```
    <web>
@@ -66,7 +68,7 @@ Linux/PostgreSQLの既存の&#x200B;**prod**&#x200B;インスタンスの場合�
    </web>
    ```
 
-1. データベースを呼び出すサーバーで、次の操作を行います。
+1. データベースを呼び出すサーバーの場合：
 
    ```
    su - neolane
@@ -74,7 +76,7 @@ Linux/PostgreSQLの既存の&#x200B;**prod**&#x200B;インスタンスの場合�
    vi config-prod.xml
    ```
 
-   データベース参照の変更：
+   データベース参照を変更します。
 
    ```
    <dataSource name="default">
@@ -95,5 +97,5 @@ Linux/PostgreSQLの既存の&#x200B;**prod**&#x200B;インスタンスの場合�
 
 1. スイッチを確認します。 これをおこなうには、Adobe Campaignコンソールから接続し、次の手順に従います。
 
-   * データ（特にアクセント記号付き文字）が正しく表示されることを確認します。
+   * データ（特にアクセント記号付きの文字）が正しく表示されていることを確認します。
    * 配信を開始し、トラッキングの取得が機能することを確認します。

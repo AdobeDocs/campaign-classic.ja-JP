@@ -6,41 +6,43 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 3%
+ht-degree: 23%
 
 ---
 
 # 設定{#configuration}
 
-## syslogdリスニングポート{#changing-the-syslogd-listening-port}の変更
+![](../../assets/v7-only.svg)
 
-デフォルトでは、**syslogd**&#x200B;リスニングポートは666(udp)です。 必要に応じて、環境変数を使用して変更できます。
+## syslogd リスニングポートの変更 {#changing-the-syslogd-listening-port}
+
+デフォルトでは、**syslogd** リスニングポートは 666(udp) です。 必要に応じて、環境変数を使用して変更できます。
 
 設定が完了すると、この変数はすべてのAdobe Campaignモジュールで考慮されます。
 
-### Linuxの場合{#in-linux}
+### Linux の場合 {#in-linux}
 
-**customer.sh**&#x200B;ファイルを編集し、次の行を追加します。
+**customer.sh** ファイルを編集し、次の行を追加します。
 
 ```
 export TRACE_ADDR=localhost:<listening port>
 ```
 
-### Windowsの場合{#in-windows}
+### Windows の場合 {#in-windows}
 
-**localhost**&#x200B;値を使用して&#x200B;**TRACE_ADDR**&#x200B;環境変数を作成する必要があります。**`<listening port="" />`**&#x200B;と入力します。
+**localhost** 値を使用して **TRACE_ADDR** 環境変数を作成する必要があります。**`<listening port="" />`**.
 
 >[!IMPORTANT]
 >
->この環境変数を作成した後で、プラットフォームが機能していることを確認するために、いくつかのテストを実行することをお勧めします。
+>この環境変数を作成した後で、テストを実行して、プラットフォームが機能していることを確認することをお勧めします。
 
 ## セキュリティゾーンの設定 {#configuring-security-zones}
 
-インスタンスにログオンするには、各オペレーターをゾーンにリンクする必要があります。また、セキュリティゾーンに定義されているアドレスまたはアドレスセットにオペレーターのIPを含める必要があります。 テクニカルゾーンの設定は、Adobe Campaignサーバーの設定ファイルで実行されます。 オペレーターとセキュリティゾーンのリンクは、コンソール（ **[!UICONTROL 管理/アクセス管理/オペレーター]**&#x200B;ノード）で定義する必要があります。
+インスタンスにログオンするには、各オペレーターがゾーンにリンクされている必要があります。また、セキュリティゾーンで定義されたアドレスまたはアドレスセットにオペレーターの IP が含まれている必要があります。テクニカルゾーンの設定は、Adobe Campaignサーバーの設定ファイルで実行されます。 オペレーターのセキュリティゾーンへのリンクは、コンソール（ **[!UICONTROL 管理/アクセス管理/オペレーター]** ノード）で定義する必要があります。
 
 >[!NOTE]
 >
->セキュリティゾーンの設定について詳しくは、[この節](../../installation/using/security-zones.md)を参照してください。
+>セキュリティゾーンの設定について詳しくは、[ この節 ](../../installation/using/security-zones.md) を参照してください。

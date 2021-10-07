@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 5%
@@ -15,13 +15,15 @@ ht-degree: 5%
 
 # サイトへのタグの挿入{#inserting-tags-in-your-site}
 
-## 単純なメソッド{#simple-method}
+![](../../assets/v7-only.svg)
 
-このメソッドは、追跡するWebページのHTMLソースコードに&#x200B;**`<img>`** HTMLタグを挿入することで、リダイレクションサーバーにHTTP呼び出しを送信する方法です。
+## 簡単な方法 {#simple-method}
+
+このメソッドは、追跡する Web ページのHTMLソースコードに **`<img>`** HTMLタグを挿入することで、リダイレクトサーバーに HTTP 呼び出しを送信する方法です。
 
 >[!IMPORTANT]
 >
->この方法では、Webブラウザーから送信されたCookieを使用して受信者を識別しますが、100%の信頼性はありません。
+>この方法では、Web ブラウザーから送信された Cookie を使用して受信者を識別しますが、100%の信頼性はありません。
 
 **例**：
 
@@ -33,15 +35,15 @@ ht-degree: 5%
 
 ![](assets/d_ncs_integration_webtracking_structure2.png)
 
-コンソールで追跡するページを定義する際に、サンプルのWebトラッキングタグを生成して、コピーし、Webページのソースコードに貼り付けることができます。
+コンソールで追跡するページを定義する際に、サンプルの Web トラッキングタグを生成して、コピーし、Web ページのソースコードに貼り付けることができます。
 
-ただし、TRANSACTIONタイプのタグを使用する場合、トランザクション情報（量、項目数）と拡張機能スキーマで定義された情報を挿入するために、JavaScriptを使用してサンプルタグを変更する必要があります。
+ただし、TRANSACTION タイプのタグを使用する場合は、トランザクション情報（量、項目数）と拡張機能スキーマで定義された情報を挿入するために、JavaScript を使用してサンプルタグを変更する必要があります。
 
-### タグの静的挿入{#static-insertion-of-tags}
+### タグの静的挿入 {#static-insertion-of-tags}
 
-静的タグの挿入を実行するには、コンソールで生成されたタグをコピーして貼り付けるか、手動で作成したタグをWebページのソースに貼り付けます。
+静的タグの挿入を実行するには、コンソールで生成されたタグをコピーして貼り付けるか、手動で作成したタグを Web ページのソースに貼り付けます。
 
-**例**:フォームを表示するページへのwebトラッキングタグの挿入
+**例**:フォームを表示するページへの web トラッキングタグの挿入
 
 ```
 <html>
@@ -63,7 +65,7 @@ ht-degree: 5%
 </html>
 ```
 
-確認ページ(「amount.md」)にTRANSACTIONタイプのWebトラッキングタグを挿入する。
+確認ページ (「amount.md」) に TRANSACTION タイプの Web トラッキングタグを挿入する。
 
 ```
 <html>
@@ -85,11 +87,11 @@ ht-degree: 5%
 </html>
 ```
 
-### Webトラッキングタグ{#dynamic-generation-of-web-tracking-tags}の動的生成
+### Web トラッキングタグの動的生成 {#dynamic-generation-of-web-tracking-tags}
 
-Webページが動的に生成される場合、ページ生成時にWebトラッキングタグを追加できます。
+Web ページが動的に生成される場合は、ページ生成時に Web トラッキングタグを追加できます。
 
-**例**:JSPに追加されたWebトラッキング。
+**例**:JSP に追加された Web トラッキング。
 
 ```
 <%@page import="java.util.Random" %>
@@ -122,19 +124,19 @@ Webページが動的に生成される場合、ページ生成時にWebトラ�
 </html>
 ```
 
-## 最適な方法{#optimum-method-}
+## 最適方法 {#optimum-method-}
 
-リダイレクトサーバーに送信される情報を制御する場合、最も信頼性の高い方法は、ページ生成言語を使用してHTTPクエリを同期的に実行することです。
+リダイレクトサーバーに送信される情報を制御する場合、最も信頼性の高い方法は、ページ生成言語を使用して HTTP クエリを同期的に実行することです。
 
-作成するURLは、[Webトラッキングタグで定義されている構文ルールに従う必要があります。定義](../../configuration/using/web-tracking-tag--definition.md)。
+作成する URL は、[Web トラッキングタグで定義された構文ルールに従う必要があります。定義 ](../../configuration/using/web-tracking-tag--definition.md)。
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 
 >[!NOTE]
 >
->リダイレクションとWebトラッキングではcookieを使用します。同期HTTP呼び出しを実行するWebサーバーが、リダイレクションサーバーと同じドメインにあることが重要です。 様々なHTTP交換では、「id」、「uuid」および「uuid230」のCookieを伝える必要があります。
+>リダイレクトと Web トラッキングでは cookie を使用します。同期 HTTP 呼び出しを実行する Web サーバーは、リダイレクトサーバーと同じドメインに置くことが重要です。 様々な HTTP 交換が、「id」、「uuid」および「uuid230」の Cookie を伝える必要があります。
 
-**例**:Javaでの動的な生成（アカウント番号を使用した受信者認証）。
+**例**:Java での動的な生成（アカウント番号を使用した受信者認証）。
 
 ```
 [...]

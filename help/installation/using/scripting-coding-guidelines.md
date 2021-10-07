@@ -50,7 +50,7 @@ ht-degree: 63%
    cnx.dispose()
    ```
 
-SQL インジェクションを避けるには、Adobe Campaignで使用するに SQL 関数を追加する必要がありま許可リストす。 オペレーターに追加され許可リストると、式エディターでオペレーターに表示されるようになります。 [このページ](../../configuration/using/adding-additional-sql-functions.md)を参照してください。
+SQL インジェクションを避けるには、Adobe Campaignで使用するに SQL 関数を追加する必要がありま許可リストす。 オペレーターに追加され許可リストると、式エディターで演算子が表示されます。 [このページ](../../configuration/using/adding-additional-sql-functions.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -143,7 +143,7 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
    * 1 ～ 6 行目では、必要な入力をすべて生成します。
    * 7 行目から最終行では、エラーを処理します。
    * 4 行目では、Captcha のグレーボックスのサイズ（width/height）と、生成される単語の長さ（minWordSize/maxWordSize）を変更できます。
-   * Google reCAPTCHA を使用する前に、Google に登録し、新しい reCAPTCHA サイトを作成する必要があります。
+   * Google reCAPTCHA を使用する前に、Googleに登録し、新しい reCAPTCHA サイトを作成する必要があります。
 
       `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
    検証ボタンを無効にすることが必要な場合もありますが、標準的なボタンやリンクは用意されていないので、HTML 自体で実現することをお勧めします。その方法については、[ このページ ](https://developers.google.com/recaptcha/) を参照してください。
@@ -174,7 +174,7 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
 
 >[!IMPORTANT]
 >
->reCAPTCHA 統合の場合、クライアント側の JavaScript を HTML 内（`<head>...</head>` 内）に追加する必要があります。
+>reCAPTCHA 統合の場合は、HTML（`<head>...</head>` 内）にクライアント側の JavaScript を追加する必要があります。
 >
 >`<script src="https://www.google.com/recaptcha/api.js" async defer></script>`
 

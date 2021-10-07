@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 64%
@@ -14,6 +14,8 @@ ht-degree: 64%
 ---
 
 # データスキーマ{#data-schemas}
+
+![](../../assets/v7-only.svg)
 
 ## 原則 {#principles}
 
@@ -25,7 +27,7 @@ ht-degree: 64%
 
 ![](assets/d_ncs_integration_schema_navtree.png)
 
-編集フィールドには、ソーススキーマのXMLコンテンツが表示されます。
+編集フィールドには、ソーススキーマの XML コンテンツが表示されます。
 
 ![](assets/d_ncs_integration_schema_edition.png)
 
@@ -33,7 +35,7 @@ ht-degree: 64%
 >
 >「名前」編集コントロールを使用すると、名前と名前空間で構成されるスキーマキーを入力できます。 スキーマのルート要素の「name」属性と「namespace」属性は、スキーマの XML 編集ゾーンで自動的に更新されます。
 
-プレビューは、拡張スキーマを自動的に生成します。
+プレビューによって、拡張スキーマが自動的に生成されます。
 
 ![](assets/d_ncs_integration_schema_edition2.png)
 
@@ -41,11 +43,11 @@ ht-degree: 64%
 >
 >ソーススキーマを保存すると、拡張スキーマの生成が自動的に開始されます。
 
-スキーマの構造全体を確認する必要がある場合は、「プレビュー」タブを使用できます。 スキーマを拡張すると、そのすべての拡張を視覚化できます。 「ドキュメント」タブには、補足情報として、すべてのスキーマ属性と要素、およびそのプロパティ（SQL フィールド、タイプ／長さ、ラベル、説明）が表示されます。 「ドキュメント」タブは、生成されたスキーマにのみ適用されます。詳しくは、[スキーマの再生成](../../configuration/using/regenerating-schemas.md)の節を参照してください。
+スキーマの構造を完全に確認する必要がある場合は、「プレビュー」タブを使用できます。 スキーマを拡張すると、そのすべての拡張を視覚化できます。 「ドキュメント」タブには、補足情報として、すべてのスキーマ属性と要素、およびそのプロパティ（SQL フィールド、タイプ／長さ、ラベル、説明）が表示されます。 「ドキュメント」タブは、生成されたスキーマにのみ適用されます。詳しくは、[ スキーマの再生成 ](../../configuration/using/regenerating-schemas.md) の節を参照してください。
 
-## 例：契約テーブルの作成{#example--creating-a-contract-table}
+## 例：契約テーブルの作成 {#example--creating-a-contract-table}
 
-次の例では、Adobe Campaignデータベースのデータベースモデルに&#x200B;**contracts**&#x200B;の新しいテーブルを作成します。 このテーブルには、契約ごとに、所有者と共同所有者の姓と名および E メールアドレスを格納できます。
+次の例では、Adobe Campaignデータベースのデータベースモデルに **contracts** の新しいテーブルを作成します。 このテーブルには、契約ごとに、所有者と共同所有者の姓と名および E メールアドレスを格納できます。
 
 それには、テーブルのスキーマを作成し、対応するテーブルを生成するためのデータベース構造を更新する必要があります。 次のような流れになります。
 
@@ -62,7 +64,7 @@ ht-degree: 64%
    >
    >デフォルトでは、ユーザーが作成したスキーマは「cus」名前空間に保存されます。 詳しくは、[スキーマの ID](../../configuration/using/about-schema-reference.md#identification-of-a-schema) を参照してください。
 
-1. テーブルの内容を作成します。 設定が欠落していないことを確認するには、入力ウィザードを使用することをお勧めします。 それには、「**[!UICONTROL 挿入]**」ボタンをクリックし、追加する設定のタイプを選択します。
+1. テーブルの内容を作成します。 入力ウィザードを使用して、設定が欠落していないことを確認することをお勧めします。 それには、「**[!UICONTROL 挿入]**」ボタンをクリックし、追加する設定のタイプを選択します。
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 
@@ -118,4 +120,4 @@ ht-degree: 64%
 
    ![](assets/s_ncs_configuration_structure.png)
 
-1. データベース構造を更新して、スキーマのリンク先となるテーブルを作成します。 詳しくは、[データベース構造の更新](../../configuration/using/updating-the-database-structure.md)を参照してください。
+1. データベース構造を更新して、スキーマのリンク先となるテーブルを作成します。 詳しくは、[ データベース構造の更新 ](../../configuration/using/updating-the-database-structure.md) を参照してください。

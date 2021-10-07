@@ -337,7 +337,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
   </tr> 
   <tr> 
    <td> プロバイダー<br /> </td> 
-   <td> タイプ（列挙）。 指定できる値は、「Oracle」、「MSSQL」(Microsoft SQL Server)、「PostgreSQL」(PostgreSQL)、「Teradata」、「DB2」、「MySQL」、「Netezza」、「AsterData」、「SAPHANA」(SAP HANA)、「RedShift」(AmazonRedshift)、ODBC`(ODBC(Sybase ASE、Sybase IQ)、`Relay`（リモートデータベースへの HTTP リレー）。<br /> </td> 
+   <td> タイプ（列挙）。 指定できる値は、「Oracle」、「MSSQL」(Microsoft SQL Server)、「PostgreSQL」(PostgreSQL)、「Teradata」、「DB2」、「MySQL」、「Netezza」、「AsterData」、「SAPHANA」(SAP HANA)、「RedShift」、「ODBC' (ODBC(Sybase ASE、Sybase IQ)、 'リレー' （リモートデータベースへの HTTP リレー）。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'Oracle'<br /> </td> 
   </tr> 
@@ -582,7 +582,7 @@ Adobe Campaignの全体的な設定は、インストールディレクトリの
 
 ## htmlToPdf {#htmltopdf}
 
-**htmlToPdf** ノードの異なるパラメータを次に示します。 Web ページを PDF ドキュメントに変換するサービスの設定です。
+**htmlToPdf** ノードの異なるパラメータを次に示します。 Web ページを変換ドキュメントに変換するサービスのPDFです。
 
 <table> 
  <thead> 

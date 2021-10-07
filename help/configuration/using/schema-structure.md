@@ -130,7 +130,7 @@ ht-degree: 86%
 
 データタイプは、**`<attribute>`** 要素と **`<element>`** 要素の **type** 属性を介して入力されます。
 
-詳細なリストは、[`<attribute>`要素](../../configuration/using/schema/attribute.md)と[`<element>`要素](../../configuration/using/schema/element.md)の説明に記載されています。
+詳細なリストは、[`<attribute>` 要素 ](../../configuration/using/schema/attribute.md) と [`<element>` 要素 ](../../configuration/using/schema/element.md) の説明に記載されています。
 
 この属性が空の場合、要素に子要素が含まれていない限り、**string** がデフォルトのデータタイプになります。 子要素が含まれる場合は、要素を階層的に構成するためにのみ使用します（この例では&#x200B;**`<location>`**&#x200B;要素）。
 
@@ -147,11 +147,11 @@ ht-degree: 86%
 * **datetimenotz**：タイムゾーンデータを含まない日付＋時刻。
 * **timespan**：継続時間。例：年齢順。
 * **memo**：長いテキストフィールド（複数行）。例：説明、注釈など
-* **uuid**：「uniqueidentifier」フィールド GUIDをサポートする（Microsoft SQL Serverでのみサポート）
+* **uuid**：「uniqueidentifier」フィールド GUID をサポートする (Microsoft SQL Server でのみサポート )
 
    >[!NOTE]
    >
-   >Microsoft SQL Server以外のエンジンに&#x200B;**uuid**&#x200B;フィールドを含めるには、「newuuid()」関数を追加し、デフォルト値で完了する必要があります。
+   >Microsoft SQL Server 以外のエンジンに **uuid** フィールドを含めるには、「newuuid()」関数を追加し、デフォルト値で完了する必要があります。
 
 次に、入力したタイプのスキーマ例を示します。
 
@@ -168,9 +168,9 @@ ht-degree: 86%
 </srcSchema>
 ```
 
-### Adobe Campaign/DBMSデータのタイプのマッピング {#mapping-the-types-of-adobe-campaign-dbms-data}
+### Adobe Campaign/DBMS データのタイプのマッピング {#mapping-the-types-of-adobe-campaign-dbms-data}
 
-次の表に、様々なデータベース管理システム用にAdobe Campaignで生成されるデータのタイプに対するマッピングを示します。
+次の表に、様々なデータベース管理システムに対して、Adobe Campaignで生成されるデータのタイプのマッピングを示します。
 
 <table> 
  <tbody> 
@@ -185,10 +185,10 @@ ht-degree: 86%
   <tr> 
    <td> 文字列<br /> </td> 
    <td> VARCHAR(255)<br /> </td> 
-   <td> VARCHAR2 （unicodeの場合はNVARCHAR2）<br /> </td> 
+   <td> VARCHAR2 (NVARCHAR2 （unicode の場合）<br /> </td> 
    <td> VARCHAR (VARCHAR CHARACTER SET UNICODE if Unicode)<br /> </td> 
    <td> VARCHAR<br /> </td> 
-   <td> VARCHAR (NVARCHAR （unicodeの場合）<br /> </td> 
+   <td> VARCHAR (NVARCHAR （unicode の場合）<br /> </td> 
   </tr> 
   <tr> 
    <td> ブール値<br /> </td> 
@@ -216,7 +216,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td> 重複<br /> </td> 
-   <td> ダブル精度<br /> </td> 
+   <td> 倍精度 <br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> DOUBLE<br /> </td> 
@@ -224,10 +224,10 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td> 長いテキスト<br /> </td> 
-   <td> INTEGER<br /> </td> 
+   <td> 整数 <br /> </td> 
    <td> NUMBER(10)<br /> </td> 
-   <td> INTEGER<br /> </td> 
-   <td> INTEGER<br /> </td> 
+   <td> 整数 <br /> </td> 
+   <td> 整数 <br /> </td> 
    <td> INT<br /> </td> 
   </tr> 
   <tr> 
@@ -271,8 +271,8 @@ ht-degree: 86%
    <td> MS SQL &lt; 2008:DATETIME<br /> MS SQL &gt;= 2012:DATETIME2<br /> </td> 
   </tr> 
   <tr> 
-   <td> 期間<br /> </td> 
-   <td> ダブル精度<br /> </td> 
+   <td> 期間 <br /> </td> 
+   <td> 倍精度 <br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> FLOAT<br /> </td> 
    <td> DOUBLE<br /> </td> 
@@ -280,11 +280,11 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td> メモ<br /> </td> 
-   <td> テキスト<br /> </td> 
-   <td> CLOB （Unicodeの場合はNCLOB）<br /> </td> 
-   <td> CLOB（UNICODEの場合はCLOB文字セットUNICODE）<br /> </td> 
+   <td> テキスト <br /> </td> 
+   <td> CLOB （Unicode の場合は NCLOB）<br /> </td> 
+   <td> CLOB（UNICODE の場合は CLOB 文字セット UNICODE）<br /> </td> 
    <td> CLOB(6M)<br /> </td> 
-   <td> TEXT （Unicodeの場合はNTEXT）<br /> </td> 
+   <td> TEXT （Unicode の場合は NTEXT）<br /> </td> 
   </tr> 
   <tr> 
    <td> Blob<br /> </td> 
@@ -292,14 +292,14 @@ ht-degree: 86%
    <td> BLOB<br /> </td> 
    <td> BLOB<br /> </td> 
    <td> BLOB(4M)<br /> </td> 
-   <td> 画像<br /> </td> 
+   <td> 画像 <br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## プロパティ {#properties}
 
-データスキーマの&#x200B;**`<elements>`**&#x200B;要素と&#x200B;**`<attributes>`**&#x200B;要素は、様々なプロパティを使用してエンリッチメントできます。 現在の要素を説明するためにラベルを入力できます。
+データスキーマの **`<elements>`** 要素と **`<attributes>`** 要素は、様々なプロパティを使用してエンリッチメントできます。 現在の要素を説明するためにラベルを入力できます。
 
 ### ラベルと説明 {#labels-and-descriptions}
 
@@ -337,7 +337,7 @@ ht-degree: 86%
 
 **default** プロパティを使用すると、コンテンツ作成時にデフォルト値を返す式を定義できます。
 
-値は、XPath 言語に準拠した式である必要があります。 詳しくは、[XPath](../../configuration/using/schema-structure.md#referencing-with-xpath)を使用した参照を参照してください。
+値は、XPath 言語に準拠した式である必要があります。 詳しくは、[XPath](../../configuration/using/schema-structure.md#referencing-with-xpath) を使用した参照を参照してください。
 
 **例**：
 
@@ -464,7 +464,7 @@ XML コンテンツの投影を使用する場合：
 <group label="Group2"/>
 ```
 
-## XPathを使用した参照 {#referencing-with-xpath}
+## XPath を使用した参照 {#referencing-with-xpath}
 
 Adobe Campaign では、XPath 言語を使用して、データスキーマに属する要素または属性を参照します。
 

@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 4%
@@ -15,22 +15,24 @@ ht-degree: 4%
 
 # Windows でのクライアントコンソールの可用性{#client-console-availability-for-windows}
 
+![](../../assets/v7-only.svg)
+
 Adobe Campaignユーザーが、作成および設定したインスタンスにログオンできるようにするには、クライアントコンソールを使用する必要があります。
 
 ## クライアントコンソールを使用可能にする
 
-Adobe Campaignアプリケーションサーバー(**nlserver web**)の起動に使用されるコンピューターがクライアントコンソールからユーザー接続を受け取ったら、Adobe CampaignリッチクライアントのセットアッププログラムをHTMLインターフェイスで使用できるように設定できます。 新しいバージョンのクライアントコンソールが使用可能な場合は、クライアントコンソールを起動すると、そのコンソールをダウンロードするようにユーザーが招待されます。
+Adobe Campaignアプリケーションサーバー (**nlserver web**) の起動に使用されたコンピューターがクライアントコンソールからユーザー接続を受け取った場合、HTMLインターフェイスを介してAdobe Campaignのリッチクライアントのセットアッププログラムを使用できます。 新しいバージョンのクライアントコンソールが使用可能な場合は、クライアントコンソールを起動すると、そのコンソールをダウンロードするように招待されます。
 
-これをおこなうには、次の操作を行う必要があります。
+これをおこなうには、次の操作をおこなう必要があります。
 
 1. コンソールインストールプログラムを含むパッケージを選択します。
 
-   このファイルは、v7の場合は`setup-client-7.X.XXXX.exe`、v6.1の場合は`setup-client-6.X.XXXX.exe`と呼ばれ、`X`はAdobe Campaignのサブバージョン、`XXXX`はビルド番号です。
+   このファイルは、v7 の場合は `setup-client-7.X.XXXX.exe`、v6.1 の場合は `setup-client-6.X.XXXX.exe` と呼ばれ、`X` はAdobe Campaignのサブバージョン、`XXXX` はビルド番号です。
 
-1. このパッケージを、（ハイブリッドインストールのマーケティングサーバーの）Adobe Campaignインストールフォルダーの&#x200B;**/datakit/nl/eng/jsp**&#x200B;の下にコピーして貼り付けます。
+1. このパッケージを、（ハイブリッドインストールのマーケティングサーバーの）Adobe Campaignインストールフォルダーの **/datakit/nl/eng/jsp** の下にコピーして貼り付けます。
 1. Adobe Campaignサーバーを起動します。
 
-次のURLを使用すると、Campaignユーザーは、Webブラウザーを使用してコンソールインストールプログラムをダウンロードできます。
+次の URL を使用すると、Campaign ユーザーは、Web ブラウザーを使用してコンソールインストールプログラムをダウンロードできます。
 
 ```
 https://<your Adobe Campaign server>:>port number>/nl/jsp/logon.jsp
@@ -38,21 +40,21 @@ https://<your Adobe Campaign server>:>port number>/nl/jsp/logon.jsp
 
 このページには、アプリケーションで定義されたログインとパスワードが必要です。
 
-この節](../../installation/using/installing-the-client-console.md)で、コンソール[のインストール方法を説明します。
+コンソール [ のインストール方法については、この節 ](../../installation/using/installing-the-client-console.md) を参照してください。
 
 ## エンドユーザーにクライアントコンソールのアップグレードを提案する
 
-コンソールがCampaignサーバーフォルダーで使用可能になると、ユーザーは、専用のプロンプトウィンドウで最新のクライアントコンソールバージョンをダウンロードするよう招待されます。 Adobeは、「**[!UICONTROL この質問]**&#x200B;は選択しないでください」オプションを選択し、新しいバージョンのコンソールが利用可能になったときにすべてのユーザーに警告が表示されるようにすることをお勧めします。
+コンソールが Campaign サーバーフォルダーで使用可能になると、ユーザーは、専用のプロンプトウィンドウで最新のクライアントコンソールバージョンをダウンロードするように招待されます。 Adobeは、「**[!UICONTROL この質問]** は選択しないでください」オプションを選択したままにして、新しいバージョンのコンソールが利用可能になったときにすべてのユーザーに警告が表示されるようにすることをお勧めします。
 
 このオプションを選択し、最新バージョンをダウンロードしないことを選択した場合、他のユーザーには新しい利用可能なバージョンが通知されません。
 
-このオプションを選択した場合は、このプロンプトをリセットできます。 以下の変更は、Windowsレジストリの編集に慣れたシステム管理者のみが行う必要があります。
+このオプションを選択した場合は、このプロンプトをリセットできます。 Windows レジストリの編集に慣れたシステム管理者のみが、次の変更を行う必要があります。
 
-1. **[!UICONTROL スタート/]**&#x200B;を実行メニューの&#x200B;**regedit**&#x200B;コマンドを使用して、レジストリエディターを開きます。
+1. **[!UICONTROL スタート/]** を実行メニューの **regedit** コマンドを使用して、レジストリエディタを開きます。
 1. ノードを検索して展開します。
 
    ```
    \HKEY_CURRENT_USER\Software\Neolane\NL_6\nlclient
    ```
 
-1. **confAdvisedUpgrade**&#x200B;エントリを削除し、レジストリエディターを閉じます。
+1. **confAdvisedUpgrade** エントリを削除し、レジストリエディタを閉じます。

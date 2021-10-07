@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: accessing-built-in-reports
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3021'
 ht-degree: 100%
 
@@ -665,7 +665,7 @@ ht-degree: 100%
    <td> Sum(iIf([url/@category]='twitter',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delicious<br /> </td> 
+   <td> おいしい <br /> </td> 
    <td> @delicious<br /> </td> 
    <td> URL カテゴリが「delicious」に等しいすべての @totalClicks の合計。<br /> </td> 
    <td> Sum(iIf([url/@category]='delicious',@totalClicks,0))<br /> </td> 

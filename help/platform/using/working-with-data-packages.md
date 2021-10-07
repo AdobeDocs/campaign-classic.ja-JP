@@ -95,7 +95,7 @@ XML ドキュメントの先頭と末尾には必ず **`<package>`** 要素を�
 
 パッケージをエクスポートしたら、そのパッケージと追加したすべてのエンティティを別の Campaign インスタンスにインポートできます。
 
-### パッケージへの一連のオブジェクトのエクスポート {#exporting-a-set-of-objects-in-a-package}
+### パッケージに含まれる一連のオブジェクトのエクスポート {#exporting-a-set-of-objects-in-a-package}
 
 Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／詳細設定／パッケージをエクスポート]**&#x200B;メニューを選択すると、パッケージエクスポートウィザードにアクセスできます。
 
@@ -269,7 +269,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
    ![](assets/packagedefinition_entityadded.png)
 
-### パッケージ定義の生成に関する設定 {#configuring-package-definitions-generation}
+### パッケージ定義の生成の設定 {#configuring-package-definitions-generation}
 
 パッケージの生成は、パッケージ定義の「**[!UICONTROL コンテンツ]**」タブで設定できます。設定をおこなうには、「**[!UICONTROL 生成パラメーター]**」リンクをクリックします。
 
@@ -301,7 +301,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ## パッケージのインポート {#importing-packages}
 
-Adobe Campaignクライアントコンソールの&#x200B;**[!UICONTROL ツール/詳細設定/パッケージをインポート]**&#x200B;メインメニューから、パッケージインポートウィザードにアクセスできます。
+Adobe Campaignクライアントコンソールの **[!UICONTROL ツール/詳細設定/パッケージをインポート]** のメインメニューから、パッケージのインポートウィザードにアクセスできます。
 
 （例えば、別の Adobe Campaign インスタンスから）事前にエクスポートしたパッケージをインポートするか、ライセンス条件によっては[組み込みパッケージ](../../installation/using/installing-campaign-standard-packages.md)をインポートすることができます。
 
@@ -356,9 +356,9 @@ Adobe Campaignクライアントコンソールの&#x200B;**[!UICONTROL ツー�
 
 スキーマとデータベースの構造に注意してください。スキーマを含むパッケージのインポートの後にスキーマの生成が必要です。
 
-### ソリューション {#data-package-solution}
+### 解決策 {#data-package-solution}
 
-#### パッケージのタイプ {#package-types}
+#### パッケージの種類 {#package-types}
 
 まず、様々なタイプのパッケージを定義します。次の 4 つのタイプのみが使用されます。
 

@@ -47,7 +47,7 @@ Adobe Analytics コネクタを使用すると、Adobe Campaign でインター�
 
 >[!IMPORTANT]
 >
-> ハイブリッドおよびオンプレミス実装の場合は、この[ページ](../../platform/using/adobe-analytics-provisioning.md)で説明されているプロビジョニング手順に従ってください。
+> ハイブリッドおよびオンプレミスの実装の場合は、この [ ページ ](../../platform/using/adobe-analytics-provisioning.md) で説明されているプロビジョニング手順に従ってください。
 
 コネクタを設定するには、Adobe Campaign インスタンスに接続し、次の操作を実行する必要があります。
 
@@ -90,9 +90,9 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
 ### コンバージョン変数と成功イベントの設定 {#configure-conversion-success}
 
-**[!UICONTROL コンバージョン変数]**&#x200B;と&#x200B;**[!UICONTROL 成功イベント]**&#x200B;を次のように設定する必要があります。
+**[!UICONTROL コンバージョン変数]** と **[!UICONTROL 成功イベント]** を次のように設定する必要があります。
 
-1. Adobe Campaignとリンクする&#x200B;**[!UICONTROL レポートスイート]**&#x200B;を選択します。
+1. Adobe Campaignとリンクする **[!UICONTROL レポートスイート]** を選択します。
 
 1. 「**[!UICONTROL 設定を編集]**」ボタンから、**[!UICONTROL コンバージョン]**／**[!UICONTROL コンバージョン変数]**&#x200B;を選択します。
 
@@ -127,15 +127,15 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
    >[!NOTE]
    >
-   > 数値型の&#x200B;**[!UICONTROL 成功イベント]**&#x200B;のみがサポートされます。
+   > 数値型の **[!UICONTROL 成功イベント]** のみがサポートされます。
 
    ![](assets/analytics_connnector_8.png)
 
 1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
-**[!UICONTROL コンバージョン変数]**&#x200B;と&#x200B;**[!UICONTROL 成功イベント]**&#x200B;を設定したら、Analyticsコネクタ用に作成された&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;に変数が含まれていることを確認します。 詳しくは、[Adobe Analytics製品プロファイルの作成](../../platform/using/adobe-analytics-provisioning.md#analytics-product-profile)を参照してください。
+**[!UICONTROL コンバージョン変数]** と **[!UICONTROL 成功イベント]** を設定した後、Analytics コネクタ用に作成された **[!UICONTROL 製品プロファイル]** に変数が含まれていることを確認します。 詳しくは、[Adobe Analytics製品プロファイルの作成 ](../../platform/using/adobe-analytics-provisioning.md#analytics-product-profile) を参照してください。
 
-次に、Adobe Campaign Classicで&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を設定する必要があります。
+次に、Adobe Campaign Classicで **[!UICONTROL 外部アカウント]** を設定する必要があります。
 
 ### Adobe Campaign Classic での外部アカウントの設定 {#external-account-classic}
 
@@ -161,7 +161,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
 1. **[!UICONTROL 統合]**&#x200B;ドロップダウンの横にある「**[!UICONTROL 設定]**」をクリックします。
 
-1. **[!UICONTROL Analytics統合の設定]**&#x200B;ウィンドウで、次の情報を提供する外部アカウントをレポートスイートにマッピングします。
+1. **[!UICONTROL Analytics 統合の設定]** ウィンドウで、次の情報を提供して、外部アカウントをレポートスイートにマッピングします。
 
    * **[!UICONTROL メール]**
    * **[!UICONTROL IMS Org]**

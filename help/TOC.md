@@ -849,7 +849,7 @@ ht-degree: 97%
       + [Campaign 設定の更新](technotes/using/acc-config-updates.md)
       + [IMS の更新](technotes/using/ims-updates.md)
    + 電子メールとプッシュ通知 {#technotes-email}
-      + [Apple iOS でのメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
+      + [Apple iOSでのメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
       + [Apple Mail プライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
       + [誤ったハードバウンスの更新方法](delivery/using/update-bounce-qualification.md)
       + [iOS 証明書の更新](technotes/using/ios-certificate-update.md)

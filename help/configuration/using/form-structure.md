@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 93%
@@ -14,6 +14,8 @@ ht-degree: 93%
 ---
 
 # フォームの構造{#form-structure}
+
+![](../../assets/v7-only.svg)
 
 フォームは、構造化された XML 文書として記述され、フォームスキーマ **xtk:form** の文法に従います。
 
@@ -61,7 +63,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->**label**&#x200B;属性を`<input>`要素に追加することで、データスキーマで定義されたラベルをオーバーロードできます。\
+>**label** 属性を `<input>` 要素に追加することで、データスキーマに定義されたラベルをオーバーロードできます。\
 >`<input label="E-mail address" xpath="@name" />`
 
 デフォルトでは、各フィールドが 1 行に表示され、データのタイプに応じて、すべての空きスペースを占有します。
@@ -156,11 +158,11 @@ ht-degree: 93%
 </container>
 ```
 
-### コンテナのタイプ{#types-of-container}
+### コンテナのタイプ {#types-of-container}
 
 コンテナを使用して、ページ形式の一連のフィールドを使用した複雑なコントロールを作成します。
 
-#### タブコンテナ{#tab-container}
+#### タブコンテナ {#tab-container}
 
 タブコンテナは、タブからアクセス可能なページのデータを書式設定します。
 
@@ -183,13 +185,13 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->**style=&quot;down|up**（デフォルト）**&quot;**機能は、コントロールの下または上にタブラベルを強制的に垂直方向に配置します。 この機能はオプションです。
+>**style=&quot;down|up**（デフォルト）**&quot;** 機能は、コントロールの下または上にタブラベルを垂直に配置します。 この機能はオプションです。
 >![](assets/d_ncs_integration_form_exemple7.png)
 >`<container style="down" type="notebook">  ... </container>`
 
-#### アイコンリスト{#icon-list}
+#### アイコンリスト {#icon-list}
 
-このコンテナには、表示するページを選択できる垂直のアイコンバーが表示されます。
+このコンテナには、表示するページを選択できる垂直アイコンバーが表示されます。
 
 ![](assets/d_ncs_integration_form_exemple8.png)
 
@@ -212,7 +214,7 @@ ht-degree: 93%
 
 画像は、**[!UICONTROL 管理／設定／画像]**&#x200B;ノードから入手できます。
 
-#### 表示コンテナ{#visibility-container}
+#### 表示コンテナ {#visibility-container}
 
 動的条件を使用して、一連のコントロールをマスクできます。
 
@@ -235,7 +237,7 @@ ht-degree: 93%
 * **visibleIf=&quot;@gender >= 1 and @gender != 2&quot;**：数値の条件です。
 * **visibleIf=&quot;@boolean1=true or @boolean2=false&quot;**：ブール値フィールドをテストします。
 
-#### コンテナ{#enabling-container}を有効にしています
+#### コンテナの有効化 {#enabling-container}
 
 このコンテナを使用すると、動的条件に基づく一連のデータを有効または無効にできます。 コントロールを無効にすると、コントロールを編集できなくなります。 次の例は、「性別」フィールドの値からコントロールを有効にする方法を示しています。
 
@@ -250,7 +252,7 @@ ht-degree: 93%
 
 有効化コンテナは、**type=&quot;enabledGroup&quot;** 属性で定義します。**enabledIf** 属性にアクティブ化の条件が含まれています。
 
-## リンク{#editing-a-link}の編集
+## リンクの編集 {#editing-a-link}
 
 リンクは、データスキーマ内で次のように宣言します。
 
@@ -270,7 +272,7 @@ ht-degree: 93%
 
 ドロップダウンリストを使用して、作成済みのレコードのリストからターゲット要素を選択します。
 
-**[!UICONTROL リンク]**&#x200B;を変更（フォルダー）アイコンをクリックすると、ターゲット要素のリストとフィルターゾーンを含む選択フォームが開きます。
+**[!UICONTROL リンク]** を変更（フォルダー）アイコンをクリックすると、ターゲット要素とフィルターゾーンのリストを含む選択フォームが開きます。
 
 ![](assets/d_ncs_integration_form_exemple10.png)
 
@@ -360,7 +362,7 @@ ht-degree: 93%
 </input>
 ```
 
-### 関係テーブル{#relationship-table}
+### 関係テーブル {#relationship-table}
 
 関連テーブルを使用すると、2 つのテーブルをN-N 基数とリンクできます。 関係テーブルには、2 つのテーブルへのリンクのみが含まれます。
 
@@ -392,7 +394,7 @@ ht-degree: 93%
 >
 >**xpathEditTarget** 属性を使用すると、入力したリンク上で選択した行を強制的に編集できます。
 
-### リストのプロパティ{#list-properties}
+### リストのプロパティ {#list-properties}
 
 * **noToolbar**：ツールバーを非表示にする（値「true」）
 * **toolbarCaption**：ツールバーのラベルをオーバーロードする
@@ -403,7 +405,7 @@ ht-degree: 93%
 * **xpathEditTarget**：入力されたリンクの編集を設定します
 * **xpathChoiceTarget**：さらに、入力したリンクの選択フォームを起動します
 
-## メモリリストコントロール{#memory-list-controls}
+## メモリリストコントロール {#memory-list-controls}
 
 メモリリストを使用すると、リストデータのプリロードを使用してコレクション要素を編集できます。 このリストはフィルタリングまたは設定できません。
 
@@ -443,7 +445,7 @@ ht-degree: 93%
 
 **toolbarCaption** 属性は、ツールバーの水平方向の配置を強制し、リスト上にタイトルを入力します。
 
-#### リストの詳細表示 {#zoom-in-a-list}
+#### リストのズームイン {#zoom-in-a-list}
 
 リスト内のデータの挿入と編集は、別の編集フォームに入力できます。
 
@@ -478,7 +480,7 @@ ht-degree: 93%
 * **zoomOnAdd**：追加時に編集フォームを起動する
 * **xpathChoiceTarget**：さらに、入力したリンクの選択フォームを起動します
 
-## 編集不可のフィールド{#non-editable-fields}
+## 編集不可のフィールド {#non-editable-fields}
 
 フィールドを表示し、編集されないようにするには、**`<value>`** タグを使用するか、**`<input>`** タグの **readOnly=&quot;true&quot;** 属性に入力します。
 
@@ -516,7 +518,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple20.png)
 
-## ナビゲーション階層の編集{#navigation-hierarchy-edit}
+## ナビゲーション階層の編集 {#navigation-hierarchy-edit}
 
 このコントロールは、編集する一連のフィールドにツリーを構築します。
 
@@ -537,9 +539,9 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple18.png)
 
-## 式フィールド{#expression-field}
+## 式フィールド {#expression-field}
 
-式フィールドは、式からフィールドを動的に更新します。 **`<input>`** タグは、更新するフィールドのパスを入力するための **xpath** 属性と、更新式を含む **expr** 属性とともに使用されます。
+式フィールドは、式からフィールドを動的に更新します。**`<input>`** タグは、更新するフィールドのパスを入力するための **xpath** 属性と、更新式を含む **expr** 属性とともに使用されます。
 
 ```
 <!-- Example: updating the boolean1 field from the value contained in the field with path /tmp/@flag -->
@@ -551,7 +553,7 @@ ht-degree: 93%
 
 入力フォームを実行すると、編集するエンティティのデータを含む XML ドキュメントが初期化されます。 このドキュメントはフォームのコンテキストを表し、ワークスペースとして使用できます。
 
-### コンテキスト{#updating-the-context}の更新
+### コンテキストの更新 {#updating-the-context}
 
 フォームのコンテキストを変更するには、`<set expr="<value>" xpath="<field>"/>` タグを使用します。`<field>` は出力先フィールド、`<value>` は更新式または値です。
 
@@ -604,7 +606,7 @@ ht-degree: 93%
 
 ## ウィザード {#wizards}
 
-ウィザードに従って、一連のデータ入力手順をページ形式で実行できます。 入力したデータは、フォームを検証するときに保存されます。
+ウィザードに従って、一連のデータ入力手順をページの形式で実行できます。 入力したデータは、フォームを検証するときに保存されます。
 
 ウィザードの構造は次のとおりです。
 

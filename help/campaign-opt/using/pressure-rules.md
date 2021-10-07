@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: campaign-optimization
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3428'
 ht-degree: 100%
 
@@ -159,7 +159,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 >  または
 >
 >* 「**[!UICONTROL 考慮する期間]**」フィールドに **7d** と入力し、さらに「**[!UICONTROL 暫定カレンダーで配信を考慮]**」オプションを選択します。\
->オプション：配信日から過去 7 日の間に送信された配信および配信日から 7 日後までスケジュールされている配信が計算に含められます。
+   >オプション：配信日から過去 7 日の間に送信された配信および配信日から 7 日後までスケジュールされている配信が計算に含められます。
 >
 >期間の開始日は、データベースの設定によって異なります。
 

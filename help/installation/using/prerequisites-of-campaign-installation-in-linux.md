@@ -116,7 +116,7 @@ yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu
 
 ### 日本語インスタンス用のフォント {#fonts-for-japanese-instances}
 
-日本語インスタンスでは、レポートを PDF 形式に書き出すために特定の文字のフォントが必要です。
+日本語インスタンスでは、レポートをPDF形式で書き出すために特定の文字のフォントが必要です。
 
 Debian で、次のコマンドを追加します。
 

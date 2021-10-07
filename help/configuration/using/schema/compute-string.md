@@ -6,16 +6,18 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 12%
 
 ---
 
-# 計算文字列要素{#compute-string--element}
+# 計算文字列要素 {#compute-string--element}
 
-## コンテンツモデル{#content-model-1}
+![](../../../assets/v7-only.svg)
+
+## コンテンツモデル {#content-model-1}
 
 compute-string:==EMPTY
 
@@ -23,7 +25,7 @@ compute-string:==EMPTY
 
 @expr
 
-## 親{#parents-1}
+## 親 {#parents-1}
 
 `<element>`
 
@@ -33,15 +35,15 @@ compute-string:==EMPTY
 
 ## 説明 {#description-1}
 
-`<compute-string>`要素を使用して、XTK式に基づいて文字列を生成し、複数の値に基づいてインターフェイスに「built」ラベルを表示できます。
+`<compute-string>` 要素を使用すると、XTK 式に基づいて文字列を生成し、複数の値に基づいて「built」ラベルをインターフェイスに表示できます。
 
-## {#use-and-context-of-use-1}の使用と使用のコンテキスト
+## 使用と使用のコンテキスト {#use-and-context-of-use-1}
 
-`<compute-string>`が定義されていない場合、デフォルトでは、スキーマ内のプライマリキーの値を持つ`<compute-string>`要素が入力されます。
+`<compute-string>` が定義されていない場合は、デフォルトで `<compute-string>` 要素が入力され、スキーマのプライマリキーの値が設定されます。
 
-## 属性の説明{#attribute-description-1}
+## 属性の説明 {#attribute-description-1}
 
-* **式（文字列）**:XTKやXpathの式
+* **expr（文字列）**:XTK や Xpath の式
 
 ## 例 {#examples-1}
 

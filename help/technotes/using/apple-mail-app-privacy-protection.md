@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Apple のメールアプリでのメールプライバシー保護
-description: Apple のメールプライバシー保護機能によるキャンペーンの影響について説明します。
+title: Appleのメールアプリでのメールプライバシー保護
+description: Appleのメールプライバシー保護機能によるキャンペーンの影響について説明します。
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
 workflow-type: tm+mt
@@ -10,13 +10,13 @@ ht-degree: 1%
 
 ---
 
-# Apple のメールアプリでのメールプライバシー保護
+# Appleのメールアプリでのメールプライバシー保護
 
 ![v7 および v8 に適用](../../assets/common.svg)
 
 ## 変更点
 
-2021 年に、Apple はネイティブの Mail アプリケーションに新しいプライバシー保護機能を導入しました。 このアプリには、Apple のメールプライバシー保護機能が含まれるようになりました。 基本的に、送信者は、Apple のメールプライバシー保護機能を有効にすることを選択した受信者に関する情報を収集するために、トラッキングピクセルを使用できなくなりました。 [詳細を表示](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target=&quot;_blank&quot;}。
+2021 年に、Appleはネイティブの Mail アプリケーションに新しいプライバシー保護機能を導入しました。 このアプリには、Appleのメールプライバシー保護機能が含まれるようになりました。 基本的に、送信者は、Appleのメールプライバシー保護機能を有効にするように選択した受信者に関する情報を収集するために、トラッキングピクセルを使用できなくなりました。 [詳細を表示](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target=&quot;_blank&quot;}。
 
 ## キャンペーンへの影響
 
@@ -24,7 +24,7 @@ Adobe Campaignは、追跡ピクセルを使用して、電子メールの開封
 
 ## 私はどのような行動をとるべきですか？
 
-Apple の新機能は、電子メールのプライバシー保護に関して業界で生まれるものの形です。 アドビでは、Adobeの推奨に従うことを強くお勧めします。
+Appleの新機能は、電子メールのプライバシー保護に関して業界で提供されるものの形です。 アドビでは、Adobeの推奨に従うことを強くお勧めします。
 
 ### キャンペーントリガーへの影響の評価
 
@@ -32,7 +32,7 @@ Apple の新機能は、電子メールのプライバシー保護に関して�
 
 ### データの保持
 
-データを保持し、現在の知識をデバイスに統合します。 主要業績評価指標 (KPI) は、ユーザーエージェントに基づいて設定できます。 例えば、iOS および Apple の Mail アプリを使用するユーザーのプロファイルに関する KPI を作成できます。 [ ヒントとコツ ](#preserve-tracking-data) を読んでください。
+データを保持し、現在の知識をデバイスに統合します。 主要業績評価指標 (KPI) は、ユーザーエージェントに基づいて設定できます。 例えば、iOSとAppleの Mail アプリを使用するユーザーのプロファイルに関する KPI を作成できます。 [ ヒントとコツ ](#preserve-tracking-data) を読んでください。
 
 ### 保持期間を超えたトラッキングログをアーカイブする
 
@@ -44,8 +44,8 @@ Adobe Campaignの保持期間を超えたトラッキングログをアーカイ
 
 ### 開封率の現在の傾向を評価
 
-iOS デバイスで Apple の Mail アプリを使用するオーディエンスの割合を決定します。
-この評価を使用して、潜在的な異常ギャップとその原因を特定できます。 ギャップがキャンペーンのパフォーマンスの問題に起因するか、Apple のプライバシー保護機能に起因するかを判断できます。 [ ヒントとコツ ](#measure-ios-footprint) を読んでください。
+iOSデバイスでApple Mail アプリを使用するオーディエンスの割合を決定します。
+この評価を使用して、潜在的な異常ギャップとその原因を特定できます。 ギャップがキャンペーンのパフォーマンスの問題に起因するものか、Appleのプライバシー保護機能に起因するものかを判断できます。 [ ヒントとコツ ](#measure-ios-footprint) を読んでください。
 
 ### キャンペーン戦略とパフォーマンス指標の再評価
 
@@ -55,7 +55,7 @@ iOS デバイスで Apple の Mail アプリを使用するオーディエンス
 
 ## ヒントとテクニック
 
-### iOS 全体の設置面積を測定 {#measure-ios-footprint}
+### iOS全体の設置面積を測定する {#measure-ios-footprint}
 
 Adobe Campaignデータからインサイトを収集するには、標準のレポートを使用できます。
 
@@ -259,7 +259,7 @@ E メールの開封がセグメント化、ターゲティング、リターゲ
 
    ![](assets/identify-email-open-tracking-20.png)
 
-   リストが空でない場合、電子メール通知用の HTML テーブルに挿入されます。
+   リストが空でない場合は、電子メール通知用のHTMLテーブルに挿入されます。
 
    ![](assets/identify-email-open-tracking-21.png)
 
@@ -294,7 +294,7 @@ E メールの開封がセグメント化、ターゲティング、リターゲ
    instance.vars.workflowList = sWorkflowList;
    ```
 
-1. HTML テーブルが通知テンプレートに追加されます。
+1. HTMLテーブルが通知テンプレートに追加されます。
 
    ```js
    <%= instance.vars.workflowLIst%>
@@ -316,8 +316,8 @@ E メールの開封がセグメント化、ターゲティング、リターゲ
 
 * 特定の電子メールメッセージを開いた、またはクリックスルーした人に関連付けられているプロファイル
 * 開封日
-* 使用されたデバイス（iPhone、Mac など）
-* オペレーティングシステムとバージョン（iOS 15、macOS 12、Windows 10 など）。
+* 使用されたデバイス ( 例：iPhone、Mac)
+* オペレーティングシステムとバージョン ( 例：iOS 15、macOS 12、Windows 10)。
 * メールアプリケーションや Web ブラウザーなどのアプリケーションと、バージョン（例：Outlook 2019）
 
 #### 追跡データを保持する必要があるのはなぜですか？
@@ -328,8 +328,8 @@ E メールの開封がセグメント化、ターゲティング、リターゲ
 
    インスタンスの設定を確認します。 [詳細情報](../../platform/using/privacy-management.md#data-retention)。
 
-* Apple の最近の変更に加えて、トラッキングデータを使用して、オーディエンスのエンゲージメントを推進する莫大な値を追加できます。
-* Apple は、ネイティブのメールアプリとメールプライバシー保護機能にさらに変更を加える可能性があります。
+* Appleでの最近の変更に加えて、トラッキングデータを使用して、オーディエンスのエンゲージメントを推進する莫大な値を追加できます。
+* Appleは、ネイティブのメールアプリとメールプライバシー保護機能にさらに変更を加える可能性があります。
 
 これらの理由により、このデータをできるだけ早くエクスポートすることを強くお勧めします。 そうしないと、一部のオーディエンスのトラッキングデータに悪影響が及ぶ可能性があります。
 
@@ -397,16 +397,16 @@ E メールの開封がセグメント化、ターゲティング、リターゲ
 
 ![](assets/export-tracking-data-5.png)
 
-##### 高度な実装：iOS デバイス別の分類
+##### 高度な実装：iOSデバイスによる分類
 
-ワークフローを使用して、受信者が Apple のメールアプリを使用しているかどうかを判断できます。 トラッキングログは、デバイス別に分割できます。 例えば、クエリフィルターを使用して、iOS デバイスでレコードを分類できます。
+ワークフローを使用して、受信者がApple Mail アプリを使用するかどうかを判断できます。 トラッキングログは、デバイス別に分割できます。 例えば、クエリフィルターを使用して、iOSデバイスでレコードを分類できます。
 
 | アプリケーション | オペレーティングシステムまたはデバイス  | クエリフィルター |
 | --- | --- | --- |
 | Apple Mail | iOS 15 | `operating System (Browser) contains 'iOS 15' and browser (Browser) contains 'ApplewebKit'` |
-| Apple Mail | iOS 14 または iOS 13 | `browser contains 'AppleWebKit' and operating System of browser contains 'iOS 14' or operating System of browser contains 'iOS 13'` |
-| Apple Mail | iOS モバイルデバイス：iPad、iPod、iPhone | `device (Browser) contains iPhone or device (Browser) equal to iPod or device (Browser) equal to iPad and browser (Browser) equal to 'AppleWebKit'` |
-| Apple Mail | iPhone、iPad、iPod | `browser (Browser) equal to 'AppleWebKit' and device (Browser) equal to iPhone or device (Browser) equal to iPod or device (Browser) equal to iPad` |
+| Apple Mail | iOS 14 またはiOS 13 | `browser contains 'AppleWebKit' and operating System of browser contains 'iOS 14' or operating System of browser contains 'iOS 13'` |
+| Apple Mail | iOSモバイルデバイス：iPad、iPod、iPhone | `device (Browser) contains iPhone or device (Browser) equal to iPod or device (Browser) equal to iPad and browser (Browser) equal to 'AppleWebKit'` |
+| Apple Mail | iPhone、iPadまたは iPod | `browser (Browser) equal to 'AppleWebKit' and device (Browser) equal to iPhone or device (Browser) equal to iPod or device (Browser) equal to iPad` |
 | Apple Mail | Mac | `browser (Browser) equal to 'AppleWebKit' and operating System (Browser) contains 'Mac'` |
 | Safari | macOS | `browser (Browser) equal to 'Safari' and device (Browser) equal to PC and operating System (Browser) contains 'Mac'` |
 | Safari | モバイルデバイス | `browser (Browser) equal to 'Safari' and device (Browser) equal to iPad or device (Browser) equal to iPod or device (Browser) equal to iPhone` |
@@ -420,7 +420,7 @@ E メールの開封がセグメント化、ターゲティング、リターゲ
 * 抑制リストの作成
 * レポート
 
-次の例は、ワークフローを使用して iOS デバイス別にレコードを分類する方法を示しています。
+次の例は、ワークフローを使用してiOSデバイスでレコードを分類する方法を示しています。
 
 * 最初のワークフローの例は、次のアクティビティで構成されます。
 
@@ -453,4 +453,4 @@ E メールの開封がセグメント化、ターゲティング、リターゲ
 
 ## 参考になるリンク
 
-[Apple メールのプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html) {target=&quot;_blank&quot;}
+[Appleメールプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target=&quot;_blank&quot;}

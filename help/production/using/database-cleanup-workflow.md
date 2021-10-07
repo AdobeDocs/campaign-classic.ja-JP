@@ -139,7 +139,7 @@ ht-degree: 2%
 
       **$(l)** は配信の識別子です。
 
-   * クーポンテーブル (**NmsCouponValue**) では、次のクエリが使用されます（一括削除を含む）。
+   * In the coupon table (**NmsCouponValue**), the following query is used (with mass-deletions):
 
       ```
       DELETE FROM NmsCouponValue WHERE iMessageId IN (SELECT iMessageId FROM NmsCouponValue WHERE EXISTS (SELECT B.iBroadLogId FROM $(BroadLogTableName) B WHERE B.iDeliveryId = $(l) AND B.iBroadLogId = iMessageId ) LIMIT 5000)
@@ -266,7 +266,7 @@ ht-degree: 2%
 
    **$(dl)** は配信の識別子です。
 
-1. 次に、エントリが配信ログに追加されます。
+1. An entry is then added to the delivery log.
 1. パージされた配信は識別され、後で再処理する必要がなくなります。 次のクエリが実行されます。
 
    ```
@@ -309,7 +309,7 @@ ht-degree: 2%
    DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l))
    ```
 
-   **$(curDate)** は、**NmsCleanup_RejectsPurgeDelay** オプションに定義した期間を差し引いた現在のサーバーの日付です（[Deployment wizard](#deployment-wizard) を参照）。**$(l)** は、最大レコード数です削除されました。
+   where **$(curDate)** is the current server date from which we subtract the period defined for the **NmsCleanup_RejectsPurgeDelay** option (refer to [Deployment wizard](#deployment-wizard)) and **$(l)** is the maximum number of records to be mass deleted.
 
 1. すべてのオーファン却下は、次のクエリを使用して削除されます。
 
@@ -317,7 +317,7 @@ ht-degree: 2%
    DELETE FROM XtkReject WHERE iJobId NOT IN (SELECT iJobId FROM XtkJob)
    ```
 
-### ワークフローインスタンスのクリーンアップ {#cleanup-of-workflow-instances}
+### Cleanup of workflow instances {#cleanup-of-workflow-instances}
 
 このタスクは、識別子 (**lWorkflowId**) と履歴 (**lHistory**) を使用して、各ワークフローインスタンスを削除します。 作業用テーブルのクリーンアップタスクを再実行することで、非アクティブなテーブルを削除します。 また、削除されたワークフローの孤立した作業用テーブル（wkf%と wkfhisto%）もすべて削除されます。
 
@@ -446,7 +446,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
    DELETE FROM NmsTrackingStats WHERE iTrackingStatsId IN (SELECT iTrackingStatsId FROM NmsTrackingStats WHERE tsStart < $(tsDate) LIMIT 5000) 
    ```
 
-   ここで、**$(tsDate)** は、**NmsCleanup_TrackingStatPurgeDelay** オプションに定義した期間を差し引いた現在のサーバーの日付です。
+   **$(tsDate)** は、現在のサーバーの日付です。この日付から、**NmsCleanup_TrackingStatPurgeDelay** オプションに定義した期間を差し引きます。
 
 ### 配信ログのクリーンアップ {#cleanup-of-delivery-logs}
 
@@ -458,14 +458,14 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
    SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL UNION SELECT distinct(sBroadLogExclSchema) FROM NmsDeliveryMapping WHERE sBroadLogExclSchema IS NOT NULL
    ```
 
-1. ミッドソーシングを使用する場合、**NmsBroadLogMid** テーブルは配信マッピングで参照されません。 **nms:broadLogMid** スキーマが、前のクエリで復元したリストに追加されます。
-1. 次に、**データベースのクリーンアップ** ワークフローは、以前に復元したテーブルから古いデータを削除します。 次のクエリが使用されます。
+1. ミッドソーシングを使用する場合、**NmsBroadLogMid** テーブルは配信マッピングで参照されません。 The **nms:broadLogMid** schema is added to the list recovered by the previous query.
+1. 次に、**データベースのクリーンアップ** ワークフローは、以前に復元したテーブルから古いデータを削除します。 The following query is used:
 
    ```
    DELETE FROM $(tableName) WHERE iBroadLogId IN (SELECT iBroadLogId FROM $(tableName) WHERE tsLastModified < $(option) LIMIT 5000) 
    ```
 
-   **$(tableName)** はスキーマのリスト内の各テーブルの名前で、 **$(option)** は **NmsCleanup_BroadLogPurgeDelay** オプション用に定義された日付です（[ デプロイウィザード ](#deployment-wizard) を参照）。
+   where **$(tableName)** is the name of each table in the list of schemas, and **$(option)** is the date defined for the **NmsCleanup_BroadLogPurgeDelay** option (refer to [Deployment wizard](#deployment-wizard)).
 
 1. 最後に、**NmsProviderMsgId** テーブルが存在するかどうかを確認します。 その場合、古いデータはすべて次のクエリを使用して削除されます。
 
@@ -492,9 +492,9 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 "SELECT COUNT(*) FROM NmsEmailErrorStat WHERE tsDate>= $(start) AND tsDate< $(end)"
 ```
 
-ここで、 **$end** と **$start** は、前に定義した開始日と終了日です。
+where **$end** and **$start** are the start and end dates defined previously.
 
-合計が 0 より大きい場合：
+If the total is greater than 0:
 
 1. 特定のしきい値（20 に等しい）を超えるエラーのみを保持するために、次のクエリが実行されます。
 
@@ -502,7 +502,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
    "SELECT iMXIP, iPublicId, SUM(iTotalConnections), SUM(iTotalErrors), SUM(iMessageErrors), SUM(iAbortedConnections), SUM(iFailedConnections), SUM(iRefusedConnections), SUM(iTimeoutConnections) FROM NmsEmailErrorStat WHERE tsDate>=$(start ) AND tsDate<$(end ) GROUP BY iMXIP, iPublicId HAVING SUM(iTotalErrors) >= 20"
    ```
 
-1. **coalescingErrors** メッセージが表示されます。
+1. The **coalescingErrors** message is displayed.
 1. 開始日と終了日の間に発生したすべてのエラーを削除する新しい接続が作成されます。 次のクエリが使用されます。
 
    ```
@@ -589,7 +589,7 @@ DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
 DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WHERE iStatus=STATUS_QUARANTINE AND tsLastModified < $(NmsCleanup_AppSubscriptionRcpPurgeDelay + 5d) AND iType IN (MESSAGETYPE_IOS, MESSAGETYPE_ANDROID ) LIMIT 5000)
 ```
 
-このクエリは、iOS と Android に関連するすべてのエントリを削除します。
+このクエリは、iOSと Android に関連するすべてのエントリを削除します。
 
 ### 統計の更新とストレージの最適化 {#statistics-update}
 

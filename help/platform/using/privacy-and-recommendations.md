@@ -87,7 +87,7 @@ Campaign を、[Adobe Analytics](../../platform/using/adobe-analytics-connector.
 
 したがって、個人データを収集し共有する会社はデータ管理者で、そのクライアントはデータ主体です。Adobe Campaign は、お客様の指示に従って個人データを処理する際に、データ処理者として機能します。[プライバシーリクエスト](#privacy-requests)を管理する場合など、データ主体との関係を処理するのはデータ管理者側の責任となるため注意が必要です。
 
-### 使用例のシナリオ {#use-case-scenario}
+### ユースケースシナリオ {#use-case-scenario}
 
 さまざまなペルソナがどのように関わり合っているかを説明するため、GDPR の顧客体験の高レベルの使用例を以下に示します。
 

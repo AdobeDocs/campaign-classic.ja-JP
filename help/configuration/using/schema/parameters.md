@@ -6,16 +6,18 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 54538c3e-3232-4bf7-a09c-dacf0f072be5
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 26%
 
 ---
 
-# パラメータ要素{#parameters--element}
+# パラメータ要素 {#parameters--element}
 
-## コンテンツモデル{#content-model-13}
+![](../../../assets/v7-only.svg)
+
+## コンテンツモデル {#content-model-13}
 
 パラメータ：==param
 
@@ -23,7 +25,7 @@ ht-degree: 26%
 
 なし
 
-## 親{#parents-13}
+## 親 {#parents-13}
 
 `<method>`
 
@@ -33,13 +35,13 @@ ht-degree: 26%
 
 ## 説明 {#description-13}
 
-この要素は、`<parameter>`要素のグループを定義します。
+この要素は `<parameter>` 要素のグループを定義します。
 
-## {#use-and-context-of-use-8}の使用と使用のコンテキスト
+## 使用と使用のコンテキスト {#use-and-context-of-use-8}
 
-この要素は、`<method>`要素の1つの`<param>`子要素に対しても必須です。
+この要素は必須です。`<method>` 要素の 1 つの `<param>` 子要素の場合でも同様です。
 
-## 属性の説明{#attribute-description-13}
+## 属性の説明 {#attribute-description-13}
 
 なし
 

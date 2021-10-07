@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 98d646919fedc66ee9145522ad0c5f15b25dbf2e
+source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 56%
@@ -15,7 +15,9 @@ ht-degree: 56%
 
 # フォームの編集{#editing-forms}
 
-入力フォームの作成と設定画面には、Adobe Campaignクライアントコンソールの&#x200B;**[!UICONTROL 管理] / [!UICONTROL 設定] / [!UICONTROL 入力フォーム]**&#x200B;フォルダーからアクセスできます。
+![](../../assets/v7-only.svg)
+
+入力フォームの作成と設定画面には、Adobe Campaignクライアントコンソールの **[!UICONTROL 管理 ] / [!UICONTROL  設定 ] / [!UICONTROL  入力フォーム]** フォルダーからアクセスできます。
 
 ![](assets/d_ncs_integration_form_arbo.png)
 

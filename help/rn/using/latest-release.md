@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 31ff1863623c088d28d9e4d15337bbc7a9843171
+source-git-commit: ebd5b04c30c54142433056904a5d80f5a8744ded
 workflow-type: tm+mt
-source-wordcount: '2457'
-ht-degree: 98%
+source-wordcount: '2459'
+ht-degree: 97%
 
 ---
 
@@ -28,9 +28,9 @@ _2021 年 10 月 9 日_
 
 **パッチ**
 
-* **インタラクション** モジュールを [ パワーブースター ](../../installation/using/power-booster-and-power-cluster.md) オプションと共に使用すると、オファーの提案が保存されない可能性がある問題を修正しました。 （NEO-39263）
+* **インタラクション** モジュールを [ パワーブースター ](../../installation/using/power-booster-and-power-cluster.md) オプションと共に使用すると、適切なオファー管理ができなくなる可能性がある問題を修正しました。 （NEO-39263）
 
-* ミッドソーシングインスタンスで複数の IP アフィニティを使用する場合に発生する可能性がある「ipaffinity xxx がミッドサーバー xxx に見つかりません」というエラーを修正しました。 （NEO-37514）
+* 複数のミッドソーシングインスタンスで複数の IP アフィニティを使用する場合に、配信の送信時に発生する可能性がある「ipaffinity xxx がミッドサーバー xxx に見つかりません」というエラーを修正しました。 （NEO-37514）
 
 
 ## ![](assets/do-not-localize/orange_2.png) リリース 21.1.4 - ビルド 9342 {#release-21-1-4-build-9342}

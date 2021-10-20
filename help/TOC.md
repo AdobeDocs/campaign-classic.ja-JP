@@ -9,7 +9,7 @@ type: Documentation
 source-git-commit: 23c5892189c59008f82ec453c97d24efe82fd2ae
 workflow-type: tm+mt
 source-wordcount: '2566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -109,9 +109,9 @@ ht-degree: 97%
          + [CRM コネクタの基本を学ぶ](platform/using/crm-connectors.md)
          + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
          + [Salesforce.com との接続](platform/using/crm-sfdc.md)
-         + [データと CRM の同期](platform/using/crm-data-sync.md)
+         + [CRM とのデータの同期](platform/using/crm-data-sync.md)
       + Adobe Analytics コネクタ{#analytics-connector}
-         + [Adobe Analytics Connector のプロビジョニング](platform/using/adobe-analytics-provisioning.md)
+         + [Adobe Analytics コネクタのプロビジョニング](platform/using/adobe-analytics-provisioning.md)
          + [Adobe Analytics コネクタの統合](platform/using/adobe-analytics-connector.md)
          + [Adobe Analytics コネクタへの移行方法](technotes/using/aa-connector-migration.md)
          + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
@@ -843,17 +843,17 @@ ht-degree: 97%
       + [v6.10 特有の設定](migration/using/specific-configurations-in-v6-10.md)
    + [ロールバック手順](migration/using/about-rollback.md)
 + テクニカルノート {#technotes}
-   + [ハードウェアのサイズ決定の推奨事項](technotes/using/hardware-sizing.md)
-   + アップグレードと移行 {#technote-migration}
+   + [ハードウェアサイズについての推奨事項](technotes/using/hardware-sizing.md)
+   + アップグレードと移行{#technote-migration}
       + [テクニカルノート](technotes/using/technote.md)
       + [Campaign 設定の更新](technotes/using/acc-config-updates.md)
       + [IMS の更新](technotes/using/ims-updates.md)
-   + 電子メールとプッシュ通知 {#technotes-email}
-      + [Apple iOSでのメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
-      + [Apple Mail プライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html)
+   + メールとプッシュ通知 {#technotes-email}
+      + [Apple iOS のメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
+      + [Apple Mail のプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ja)
       + [誤ったハードバウンスの更新方法](delivery/using/update-bounce-qualification.md)
       + [iOS 証明書の更新](technotes/using/ios-certificate-update.md)
       + [トラッキング対象 URL の更新](technotes/using/tracked-urls.md)
-   + Adobe Managed Services への移行 {#dc-migration}
+   + Adobe Managed Services への移行{#dc-migration}
       + [パブリッククラウドへの移行](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)

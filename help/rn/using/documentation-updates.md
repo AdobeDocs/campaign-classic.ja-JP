@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Adobe Campaign Classic v7 ドキュメントの更新
-description: このページでは、Adobe Campaign Classic のドキュメントのすべての新機能と更新をリストします
+description: このページには、Adobe Campaign Classic のドキュメントの新機能と更新がすべてリストアップされています
 feature: Overview
 role: User
 level: Beginner
@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: cee019432c64eaaefac86a27b731355242fd1555
 workflow-type: tm+mt
 source-wordcount: '4580'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 98%
 
 ## 2021年10月{#oct-2021}
 
-既存のテクニカルノートは、新しい **テクニカルノート** の節にグループ化されました。
+既存のテクニカルノートは、新しい&#x200B;**テクニカルノート**&#x200B;の節にグループ化されました。
 
-**ハードウェアのサイズ変更の推奨事項** ページが更新され、**テクニカルノート** の節に追加されました。 [詳細情報](../../technotes/using/hardware-sizing.md)
+**ハードウェアサイズについての推奨事項**&#x200B;ページが更新され、**テクニカルノート**&#x200B;の節に追加されました。 [詳細情報](../../technotes/using/hardware-sizing.md)
 
 ## 2021年9月{#sept-2021}
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 
 Adobe Flash の提供終了に伴い、レポートと web アプリケーションのスクリーンショットおよびパラメーターが更新されました。
 
-[ 請求テクニカルワークフロー ](../../production/using/monitoring-processes.md#billing-report) の説明が更新され、新しいガードレールが追加されました。
+[請求テクニカルワークフロー](../../production/using/monitoring-processes.md#billing-report)の説明が更新され、新しいガードレールが追加されました。
 
 ## 2021 年 8 月{#aug-2021}
 
@@ -282,7 +282,7 @@ Campaign Classic のプライバシー管理ページが更新され、「規則
 
 「プライバシー管理の概要」ページが更新され、タイの個人データ保護法（PDPA）とブラジルの Lei Geral de Proteção de Dados（LGPD）に関する情報が含まれるようになりました。[詳細を表示](../../platform/using/privacy-and-recommendations.md)
 
-サブワークフローのログと、エラーが発生した場合の動作に関する情報が追加されました。 [詳細を表示](../../workflow/using/sub-workflow.md)
+サブワークフローのログおよびエラー発生時の動作に関する情報が追加されました。[詳細を表示](../../workflow/using/sub-workflow.md)
 
 **[!UICONTROL スケジューラー]**&#x200B;アクティビティの節に、ベストプラクティスが追加されました。[詳細情報](../../workflow/using/scheduler.md)
 
@@ -392,7 +392,7 @@ Hadoop FDA コネクタの機能強化 - [詳細を表示](../../installation/us
 
 [インストール](../../installation/using/general-architecture.md)、[実稼動](../../production/using/foreword.md)、および[設定](../../configuration/using/additional-parameters.md)ガイドが、nlserver サービスの起動に使用する新しい systemd ユニットについて更新されました。引き続き /etc/init.d/nlserver6 を使用できますが、nlserver サービスとのインタラクションには systemctl コマンドを使用することをお勧めします。
 
-インストールガイドが更新され、互換性マトリックスの最新バージョンと同期されました。 新しいサポート対象システムが追加されました。非推奨（廃止予定）およびサポートされていないシステムの発生が削除されました。 [詳細を表示](../../installation/using/general-architecture.md)
+インストールガイドを更新し、互換性マトリックスの最新バージョンと同期しました。新しいサポート対象システムが追加されました。非推奨（廃止予定）およびサポート対象外のシステムに関する記載が削除されました。[詳細を表示](../../installation/using/general-architecture.md)
 
 互換性マトリックスを更新し、Hadoop 3.0 および Snowflake の FDA コネクタを追加しました。[詳細を表示](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
 

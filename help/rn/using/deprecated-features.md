@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
 workflow-type: tm+mt
 source-wordcount: '1657'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr> 
   <tr> 
    <td>web アプリケーション - マイクロサイト</td>
-   <td>Campaign 18.10 リリースより、マイクロサイトは使用できなくなりました。Adobe Campaign 構成ファイルの専用ドメインのみにアクセスを制限することでセキュリティを向上させ、DNS エイリアスを使用して Campaign でパーソナライズされた URL を使用することができます。</td>
+   <td>Campaign 18.10 リリース以降、マイクロサイトは使用できなくなりました。Adobe Campaign 設定ファイルの専用ドメインのみにアクセスを制限することでセキュリティを向上させ、DNS エイリアスを使用して Campaign でパーソナライズされた URL を使用することができます。</td>
   </tr> 
   <tr> 
    <td>プッシュ通知 - iOS バイナリコネクタ</td>
@@ -177,7 +177,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 19.1 Spring リリース以降、Adobe Campaign は下記の web サーバーに対応しなくなります。
 
 * Apache 2.2。[詳細情報](https://httpd.apache.org/)
-* Microsoft IIS 7。[詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/810)
+* Microsoft IIS 7。[詳細情報](https://support.microsoft.com/en-us/lifecycle/search/810)
 
 ### ツール {#tools-eol}
 

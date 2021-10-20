@@ -9,7 +9,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: ebd5b04c30c54142433056904a5d80f5a8744ded
 workflow-type: tm+mt
 source-wordcount: '2459'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Campaign のビルドステータスを[このページ](rn-overview.md)で把�
 
 ## ![](assets/do-not-localize/green_2.png) リリース 21.1.4 - ビルド 9343 {#release-21-1-4-build-9343}
 
-_2021 年 10 月 9 日_
+_2021年10月8日（PT）_
 
 **パッチ**
 
-* **インタラクション** モジュールを [ パワーブースター ](../../installation/using/power-booster-and-power-cluster.md) オプションと共に使用すると、適切なオファー管理ができなくなる可能性がある問題を修正しました。 （NEO-39263）
+* **インタラクション**&#x200B;モジュールを[パワーブースター](../../installation/using/power-booster-and-power-cluster.md)オプションとともに使用すると、適切なオファー管理ができなくなる可能性がある問題を修正しました。 （NEO-39263）
 
 * 複数のミッドソーシングインスタンスで複数の IP アフィニティを使用する場合に、配信の送信時に発生する可能性がある「ipaffinity xxx がミッドサーバー xxx に見つかりません」というエラーを修正しました。 （NEO-37514）
 
@@ -119,7 +119,7 @@ _2021 年 6 月 5 日（PT）_
 <td> <p>LINE チャネルに次の改善が追加されました。
 </p>
 <ul> 
-<li><p>LINE 動画メッセージのサポート</p></li>
+<li><p>LINE ビデオメッセージのサポート</p></li>
 <li><p>LINE Partner Registration API のサポート</p></li>
 <li><p>LINE のサーバー側のエラーやネットワークタイムアウトが発生した場合、適切な再送信を実施ト</p></li>
 </ul>

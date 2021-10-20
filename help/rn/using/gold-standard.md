@@ -9,7 +9,7 @@ exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: 86eb9814fae42992b5ca0ce233f88ad90086007d
 workflow-type: tm+mt
 source-wordcount: '1191'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ _2021 年 4 月 14 日_
 >
 > * Adobe Identity Management サービス（IMS）を使用して Adobe ID で Campaign に接続する場合、**2021 年 6 月 30 日**（PT）以降も Campaign に接続できるようにするには、Campaign サーバーとクライアントコンソールの両方をアップグレードする必要があります。[詳細情報](../../technotes/using/ims-updates.md)
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
-> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。[Campaign の従来の oAuth 認証モードは、**2021 年 9 月** に廃止されました。 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)ホスト環境は、**2022 年 2 月 23 日** までは拡張機能のメリットが得られます。 オンプレミスまたはハイブリッドのお客様は、Adobeカスタマーケアに連絡して、2022 年 2 月までサポートを拡張してください。 [OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) をアドビに伝える必要があります。
+> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign を使用した従来の oAuth 認証モード [は廃止されている](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja) on **2021 年 9 月**. ホスト環境では、**2022年2月23日**（PT）まで延長サポートを受けられます。オンプレミスまたはハイブリッド環境のお客様は、アドビのカスタマーケアに連絡して、サポートを2022年2月まで延長してください。 [OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) をアドビに伝える必要があります。
 
 >
 >詳しくは、[[!DNL Gold Standard]  11 アップグレード FAQ](https://helpx.adobe.com/jp/campaign/kb/gold-standard-upgrade.html) を参照してください。

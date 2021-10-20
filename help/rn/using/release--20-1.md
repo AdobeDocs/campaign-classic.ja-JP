@@ -9,7 +9,7 @@ exl-id: 7e4234c9-3d8f-4014-a870-75e91cfad725
 source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
 workflow-type: tm+mt
 source-wordcount: '1559'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ _2020 年 2 月 17 日_
 
 * 強制隔離の管理と、プッシュ通知機能（nms:address および nms:appSubscriptionRcp）で使用されるテーブルのクリーンアップを改善しました。iOS（HTTP2 コネクタのみ）の場合、無効なトークンは、Android と同じ方法で処理されるようになりました。NmsAppSubscriptionRcp テーブルに無効化フラグが設定されました。[詳細を表示](../../production/using/database-cleanup-workflow.md#subscription-cleanup--nmac-)
 
-* **JavaScript コード**&#x200B;および **JavaScript コード**&#x200B;ワークフローアクティビティにタイムアウト期間を定義する新しいオプションが追加されました。これにより、JavaScript 実行フェーズが長時間実行されるのを防ぎます。 タイムアウト期間が経過すると、ワークフローは停止します。デフォルトのタイムアウトは 1 時間です。[詳細を表示](../../workflow/using/sql-code-and-javascript-code.md)
+* **JavaScript コード**&#x200B;および **JavaScript コード**&#x200B;ワークフローアクティビティにタイムアウト期間を定義する新しいオプションが追加されました。これにより、JavaScript の実行段階が長時間続くのを防ぎます。タイムアウト期間が経過すると、ワークフローは停止します。デフォルトのタイムアウトは 1 時間です。[詳細を表示](../../workflow/using/sql-code-and-javascript-code.md)
 
 * 一致するアフィニティがミッドソーシングサーバーで見つからない場合、配信分析が停止し、対応するエラーメッセージが表示されるようになりました。
 

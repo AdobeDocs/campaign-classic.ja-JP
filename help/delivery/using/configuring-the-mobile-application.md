@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '744'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
 ## iOS モバイルアプリの作成 {#creating-ios-app}
 
-サービスを作成したら、Campaign でiOSアプリケーションを作成します。 以下の手順に従います。
+サービスを作成したら、Campaign で iOS アプリケーションを作成します。以下の手順に従います。
 
 1. 新しく作成したサービスで、「**[!UICONTROL 追加]**」ボタンをクリックしてアプリケーションタイプを選択します。
 

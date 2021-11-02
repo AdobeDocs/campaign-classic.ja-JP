@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: acs-connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '857'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Campaign v7 では、以下のオブジェクトが作成されています。
 
    ![](assets/acs_connect_lp_5.png)
 
-1. **[!UICONTROL プロファイルとターゲット／受信者]**&#x200B;に移動し、受信者を選択します。このプロファイルがまだサービスを購読していないことがわかります。
+1. **[!UICONTROL プロファイルとターゲット／受信者]**&#x200B;に移動し、受信者を選択します。このプロファイルはまだサービスを購読していないことがわかります。
 
    ![](assets/acs_connect_lp_6.png)
 
@@ -70,7 +70,7 @@ Campaign v7 と Campaign Standard との間で必要なデータをレプリケ�
 
    ![](assets/acs_connect_lp_7.png)
 
-1. Campaign v7 受信者を検索し、この受信者がCampaign Standardに表示されることを確認します。
+1. Campaign v7 受信者を検索して、この受信者が Campaign Standard に表示されることを確認します。
 
    ![](assets/acs_connect_lp_8.png)
 
@@ -102,7 +102,7 @@ E メールを作成、設計、送信する手順は、従来の E メールと
 
    ![](assets/acs_connect_lp_14.png)
 
-1. この受信者が電話番号を追加し、ニュースレターの購読ボックスを確認します。
+1. この受信者は電話番号を追加して、ニュースレター購読のチェックボックスをオンにします。
 
    ![](assets/acs_connect_lp_15.png)
 
@@ -118,7 +118,7 @@ E メールを作成、設計、送信する手順は、従来の E メールと
 
    ![](assets/acs_connect_lp_17.png)
 
-1. 「**[!UICONTROL 購読]**」タブで、この受信者がニュースレターサービスを購読したこともわかります。
+1. 「**[!UICONTROL 購読]**」タブでは、この受信者がニュースレターサービスを購読したこともわかります。
 
    ![](assets/acs_connect_lp_18.png)
 

@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: テクニカルノート - Adobe Campaign設定の更新
-description: Adobe Campaign設定の更新
+title: テクニカルノート - Adobe Campaign 設定の更新
+description: Adobe Campaign 設定の更新
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1137'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Adobe Campaign設定の更新（2021 年） {#acc-config-updates}
+# Adobe Campaign 設定の更新（2021 年） {#acc-config-updates}
 
 ![](../../assets/v7-only.svg)
 
@@ -101,7 +101,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../../integrations
 
 ## Experience Cloud トリガーとの統合 {#acc-triggers-updates}
 
-従来の OAuth 認証サービスはサポート終了になりました。 トリガー統合認証は、元々は oAUTH 認証設定に基づいており、パイプラインにアクセスするためにAdobe I/Oに移行しました。[Campaign の従来の oAuth 認証モードは、**2021 年 9 月** に廃止されました。 ](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)ホスト環境は、**2022 年 2 月 23 日** までは拡張機能のメリットが得られます。 オンプレミスまたはハイブリッドのお客様は、Adobeカスタマーケアに連絡して、2022 年 2 月までサポートを拡張してください。 [OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) をアドビに伝える必要があります。
+従来の OAuth 認証サービスはサポート終了になりました。 トリガー統合の認証は、もともとパイプラインにアクセスするための OAuth 認証設定に基づいていましたが、Adobe I/O に移行されました。Campaign での従来の OAuth 認証モードは **2021年9月** に[廃止されました](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)。ホスト環境では、**2022年2月23日**（PT）まで延長サポートを受けられます。オンプレミス環境またはハイブリッド環境のお客様は、アドビカスタマーケアに連絡して、サポートを 2022年2月まで延長してください。[OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) をアドビに伝える必要があります。
 
 **影響の有無**
 

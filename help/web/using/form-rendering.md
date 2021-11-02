@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 source-git-commit: 9b914099f6755d6ae83f98697a3a38f8cfa625e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 ## フォームレンダリングテンプレートの選択 {#selecting-the-form-rendering-template}
 
-フォーム設定により、ページ生成に使用するテンプレートを選択できます。これらにアクセスするには、フォームの詳細ツールバーの「**[!UICONTROL プロパティ]**」ボタンをクリックし、「**[!UICONTROL レンダリング]**」タブを選択します。 デフォルトで、多数のテンプレート（スタイルシート）を使用できます。
+フォーム設定により、ページ生成に使用するテンプレートを選択できます。これらにアクセスするには、フォームの詳細ツールバーの「**[!UICONTROL プロパティ]**」ボタンをクリックして、「**[!UICONTROL レンダリング]**」タブを選択します。デフォルトで、多数のテンプレート（スタイルシート）を使用できます。
 
 ![](assets/s_ncs_admin_survey_rendering_select.png)
 

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
 source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Adobe Campaign には、GDPR および CCPA に則ってプライバシーを遵
 
 Adobe Campaign ワークスペースの基本事項について詳しくは、[この節](../../platform/using/adobe-campaign-workspace.md)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [動画で Campaign ワークスペースを確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html?lang=ja)
+![](assets/do-not-localize/how-to-video.png) [ビデオで Campaign ワークスペースを確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html?lang=ja)
 
 ## メッセージのオーディエンスを選択するにはどうすればよいですか？ {#how-can-i-select-the-target-population-of-my-messages-}
 
@@ -84,7 +84,7 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 [詳しくはここをクリック](../../delivery/using/about-email-channel.md)してください。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこれを確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html?lang=ja)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこれを確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/creating-a-campaign-and-an-email.html?lang=ja)
 
 ## SMS メッセージを送信するにはどうすればよいですか？ {#how-to-send-sms-messages-}
 

@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Campaign インスタンスがアドビでホストされている場合は、[�
 
 **[!UICONTROL AEM 統合]**&#x200B;パッケージにより、Adobe Experience Cloud の外部アカウントが作成されました。次は、そのアカウントを Adobe Experience Manager インスタンスに接続するように設定する必要があります。
 
-AEM外部アカウントを設定するには、次の手順に従います。
+AEM 外部アカウントを設定するには、次の手順に従います。
 
 1. 「**[!UICONTROL エクスプローラー]**」ボタンをクリックします。
 

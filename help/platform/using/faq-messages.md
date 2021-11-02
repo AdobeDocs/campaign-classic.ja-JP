@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
 source-git-commit: 6d53ba957fb567a9a921544418a73a9bde37c97b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Campaign Classic でのメッセージのトラッキング方法について[�
 
 ### 配信およびトラッキングのログはどこで参照できますか？  {#where-can-i-access-delivery-and-tracking-logs-}
 
-配信のトラッキング方法と受信者の行動については、このページ ](../../delivery/using/delivery-dashboard.md) を参照してください。[
+配信のトラッキング方法と受信者の動作については、[このページ](../../delivery/using/delivery-dashboard.md)を参照してください。
 
 ### 配信レポートはどこで取得できますか？  {#where-can-i-get-delivery-reports-}
 

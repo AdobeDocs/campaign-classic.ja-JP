@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: introduction
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 source-git-commit: f007dcbf63d7a69a6d532d0be99b0fa90f4f6d7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->トランザクションメッセージには特定のライセンスが必要です。 ライセンス契約をご確認ください。
+>トランザクションメッセージを利用するには特定のライセンスが必要です。使用許諾契約書を確認してください。
 
 <!--Before starting with transactional messaging, make sure you read the corresponding [best practices and limitations]().-->
 
@@ -68,7 +68,7 @@ Adobe Campaign を使用すると、買い物かごに製品を追加した顧�
 
 ### コントロールインスタンスで実行する手順
 
-**コントロールインスタンス** で、次の操作を実行する必要があります。
+**コントロールインスタンス**&#x200B;で、次の操作を実行する必要があります。
 
 1. [イベントタイプの作成](../../message-center/using/creating-event-types.md)。
 1. [メッセージテンプレートの作成とデザイン](../../message-center/using/creating-the-message-template.md)。この手順で、イベントをメッセージにリンクします。

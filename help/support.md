@@ -5,9 +5,9 @@ description: Campaign Classic のサポートが必要な場合は、こちら�
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -107,11 +107,11 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 ### コントロールパネルのよくある質問（FAQ）
 
-Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)します。
+Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)します。
 
 ### SFTP 管理
 
-コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量の監視、ストレージ上の IP アドレスの管許可リスト理、SSH 公開鍵を実行できます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja)してください。
+コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量を監視したり、許可リストの IP アドレスや SSH 公開鍵を管理できます。詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja)してください。
 
 ### サブドメインおよび証明書
 
@@ -123,7 +123,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 ### インスタンス設定
 
 コントロールパネルでの Campaign Classic インスタンス設定の管理方法を説明します。 詳しくは、以下のページを参照してください。
-* [許可リストに IP を追](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja) 加して Campaign インスタンスにアクセスする
+* [許可リストに IP を追加](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)して Campaign インスタンスにアクセスする方法
 * [URL 権限の管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja)
 * [インスタンスの詳細へのアクセス](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ja)
 * [データ暗号化用の GPG キーの管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja)
@@ -146,4 +146,4 @@ Campaign Classic コミュニティへの参加：既存の質問の回答を検
 
 ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。 問題の解決やトラブルシューティングのヘルプとして、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
 
-新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview) に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)を参照してください。
+新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview) に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)を参照してください。

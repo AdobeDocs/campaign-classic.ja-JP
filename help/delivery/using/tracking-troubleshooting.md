@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tracking-messages
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
 source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -132,7 +132,7 @@ NmsTracking_Pointer オプションを更新する場合は、次の手順に従
 
 クリックトラッキングの数式をカスタマイズして、カスタムの Adobe Analytics トラッキングの数式を指定できます。
 
-このようなカスタマイズは、不要な改行文字を追加しないように、注意しておこなう必要があります。JavaScript 式の外にある改行文字は、すべて最終式に含まれます。
+このようなカスタマイズは、不要な改行文字を追加しないように、注意しておこなう必要があります。JavaScript 式の外にある改行文字はすべて、最終的な式に含まれます。
 
 この種の追加の改行文字がトラッキング URL に含まれている場合、一部の webMail（AOL、GMail など）で問題が発生します。
 
@@ -159,7 +159,7 @@ NmsTracking_Pointer オプションを更新する場合は、次の手順に従
    %>&cid=<%= message.delivery.internalName %>&bid=<%= message.id.toString().toLowerCase() %><% } %>
    ```
 
-余分な改行がどこにあるかを理解するために、JavaScript 式を固定文字列 STRING で置き換えることができます。
+余分な改行がどこにあるかを理解するには、JavaScript 式を固定文字列 STRING に置き換えることができます。
 
 ```
 // Incorrect
@@ -195,7 +195,7 @@ STRING1&cid=STRING2&bid=STRING3
    %>
    ```
 
-余分な改行がどこにあるかを理解するために、JavaScript 式を固定文字列 STRING で置き換えることができます。
+余分な改行がどこにあるかを理解するには、JavaScript 式を固定文字列 STRING に置き換えることができます。
 
 ```
 // Incorrect

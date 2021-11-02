@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: web-applications
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1031'
 ht-degree: 100%
 
@@ -175,7 +175,7 @@ ht-degree: 100%
 
 1. **dottedFilter** を適用します。
 
-   このスタイルは、前に選択した&#x200B;**[!UICONTROL 単一ページ Web アプリケーション]**&#x200B;テンプレートで参照されます。
+   このスタイルは、前に選択した&#x200B;**[!UICONTROL 単一ページ web アプリケーション]**&#x200B;テンプレートで参照されます。
 
    ![](assets/s_ncs_configuration_webapp_container002.png)
 

@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2512'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -301,9 +301,9 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ## パッケージのインポート {#importing-packages}
 
-Adobe Campaignクライアントコンソールの **[!UICONTROL ツール/詳細設定/パッケージをインポート]** のメインメニューから、パッケージのインポートウィザードにアクセスできます。
+Adobe Campaign クライアントコンソールのメインメニューで&#x200B;**[!UICONTROL ツール／詳細設定／パッケージをインポート]**&#x200B;を選択すると、パッケージインポートウィザードにアクセスできます。
 
-（例えば、別の Adobe Campaign インスタンスから）事前にエクスポートしたパッケージをインポートするか、ライセンス条件によっては[組み込みパッケージ](../../installation/using/installing-campaign-standard-packages.md)をインポートすることができます。
+ライセンス条項に応じて、（例えば、別の Adobe Campaign インスタンスから）既にエクスポートしたパッケージをインポートするか、[組み込みパッケージ](../../installation/using/installing-campaign-standard-packages.md)をインポートすることができます。
 
 ![](assets/ncs_datapackage_import.png)
 

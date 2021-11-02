@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: -general-operation
 exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 93%
 
    進行中のタスクがなくなったとき、またはオペレーターがインスタンスを明示的に停止したときに、ワークフローは「終了」となります。
 
-例えば、以下のワークフローでは、「**開始**」アクティビティと「**配信**」アクティビティがアウトライン化され、「**承認**」アクティビティが点滅します。
+例えば、次のワークフローでは、「**開始**」アクティビティと「**配信**」アクティビティには青色の輪郭が表示されるのに対して、「**承認**」アクティビティは点滅します。
 
 ![](assets/new-workflow-6.png)
 

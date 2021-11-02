@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-cases
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1541'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ ht-degree: 98%
 
 アウトバウンドトランジションには、過去 7 日間、E メールを開封していない受信者が含まれます。
 
-反対に、1 件以上の E メールを開封した受信者をフィルターする場合、クエリは次のようになります。この場合、**[!UICONTROL フィルタリングディメンション]** は **[!UICONTROL トラッキングログ (Recipients)]** に設定する必要があります。
+反対に、1 件以上の E メールを開封した受信者をフィルターする場合、クエリは次のようになります。この場合、「**[!UICONTROL フィルタリングディメンション]**」は「**[!UICONTROL トラッキングログ (Recipients)]**」に設定してください。
 
 ![](assets/query_open_5.png)
 

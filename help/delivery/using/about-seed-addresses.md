@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: using-seed-addresses
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
 source-git-commit: 1113afb573bad958ec7cc2cf008f71c8e751e8f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 84%
 
 シードアドレスは、定義されたターゲット条件に合わない受信者を配信のターゲットにする場合に使用されます。これにより、配信スコープ外の受信者が他のターゲット受信者と同様に配信を受信することができます。
 
-これらを使用する主な理由の 1 つが、**メーリングリスト保護**&#x200B;です。メーリングリストにシードアドレスを挿入すると、メーリングリストに送信された配信をシードアドレスが受け取るので、第三者がそのアドレスを使用しているかどうかを知ることができます。
+これらを使用する主な理由の 1 つが、**メーリングリスト保護**&#x200B;です。メーリングリストにシードアドレスを挿入すると、メーリングリストに送信された配信をシードアドレスが受信できるので、第三者によってメーリングリストが使用されているかどうかを知ることができます。
 
-さらに、シードアドレスを使用すると、配達確認を送信することで、送信前に **配信のパーソナライゼーションとレンダリングをプレビューおよびテストできます（** 配達確認としてのシードアドレスの使用 ](steps-defining-the-target-population.md#using-seed-addresses-as-proof) を参照）。[
+さらに、シードアドレスを使用すると、配達確認を送信することで、送信前に&#x200B;**配信のパーソナライゼーションとレンダリングをプレビューおよびテスト**&#x200B;できます（[配達確認としてのシードアドレスの使用](steps-defining-the-target-population.md#using-seed-addresses-as-proof)を参照）。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](steps-defining-the-target-population.md#seeds-and-proofs-video)
 

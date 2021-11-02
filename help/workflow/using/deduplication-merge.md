@@ -14,9 +14,9 @@ internal: n
 snippet: y
 exl-id: a6b10585-7bf9-4fef-b886-db081b6d3acc
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '570'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 98%
 
 ## このユースケースについて {#about-this-use-case}
 
-この使用例では、**[!UICONTROL 重複排除 - 重複]**&#x200B;アクティビティで&#x200B;**[!UICONTROL 結合]**&#x200B;機能を使用する方法を説明します。
+このユースケースでは、「**[!UICONTROL 重複排除]**」アクティビティで&#x200B;**[!UICONTROL 結合]**&#x200B;機能を使用する方法を説明します。
 
-この機能の詳細については、[ この節 ](deduplication.md#merging-fields-into-single-record) を参照してください。
+この機能について詳しくは、[この節](deduplication.md#merging-fields-into-single-record)を参照してください。
 
 **[!UICONTROL 重複排除 - 重複]**&#x200B;アクティビティは、データセットから重複行を削除するために使用します。 この使用例では、次のデータが E メールフィールドに基づいて複製されます。
 

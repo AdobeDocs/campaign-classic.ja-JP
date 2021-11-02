@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1243'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -192,7 +192,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->データベースの物理構造の更新が正常に完了したら、変更を考慮に入れるために、接続を解除し、再接続する必要があります。
+>データベースの物理構造の更新が正常に完了したら、変更を反映するために、接続を解除し、再接続する必要があります。
 
 ### 手順 3：変更の検証
 

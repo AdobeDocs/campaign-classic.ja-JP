@@ -5,9 +5,9 @@ description: 統合の設定
 audience: integrations
 content-type: reference
 source-git-commit: c6d5e597a02a1210507b0c6d84ab7d170e877eb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -76,8 +76,8 @@ ht-degree: 96%
 
 ## パイプラインオプションの設定方法 {#configure-pipeline-option}
 
-「triggers」配列内の Experience Cloud トリガーを追加または編集します。残りの部分は編集しないでください。
-この [web サイト ](https://jsonlint.com/) の助けを借りて、JSON が有効であることを確認してください。
+「triggers」配列内の Experience Cloud トリガーを追加または編集します。他の部分は編集しないでください。
+この [web サイト](https://jsonlint.com/)を使用して、JSON が有効であることを確認してください。
 
 * 「name」はトリガー ID です。ワイルドカード「*」を指定すると、すべてのトリガーが取得されます。
 * 「consumer」は、nlserver インスタンスを一意に識別する一意の文字列です。通常は、インスタンス名自体を指定できます。複数の環境（開発／ステージ／実稼動環境）の場合は、各インスタンスがメッセージのコピーを取得するように、環境ごとに一意になるようにしてください。

@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: acs-connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 source-git-commit: f007dcbf63d7a69a6d532d0be99b0fa90f4f6d7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2044'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ACS コネクタを使用すると、デジタルマーケターが Campaign Sta
 
 >[!NOTE]
 >
->ACS コネクタは、使用許諾契約に基づいて Campaign v7 に含まれます。 ACS コネクタを使用するには、Campaign v7 と Campaign Standard との間で切り替えられることを確認します。バージョンおよび含まれる機能について不明な場合は、管理者にお問い合わせください。
+>ACS コネクタは、ライセンス契約の下で Campaign v7 に付属しています。ACS コネクタを使用するには、Campaign v7 と Campaign Standard との間で切り替えられることを確認します。バージョンおよび含まれる機能について不明な場合は、管理者にお問い合わせください。
 
 ## プロセス {#process}
 

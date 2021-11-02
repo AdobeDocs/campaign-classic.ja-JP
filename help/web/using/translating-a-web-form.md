@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -346,7 +346,7 @@ URL の言語の前に他のパラメーターがある場合。例：**https://
    <td> ○<br /> </td> 
   </tr> 
   <tr> 
-   <td> ポルトガル語（ブラジル）(pt_BR)<br /> </td> 
+   <td> ポルトガル語（ブラジル）（pt_BR）<br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 

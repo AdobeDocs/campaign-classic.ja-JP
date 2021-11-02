@@ -9,9 +9,9 @@ internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 source-git-commit: bf063ec8f06c3e8e70011a5b5101f17e163a383c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,17 +24,16 @@ ht-degree: 92%
 >OAuth 認証による旧バージョンのトリガー統合を使用している場合は、以下に説明するように **Adobe I/O に移行する必要があります**。
 >[!DNL Adobe I/O] へのこうした移行中に、一部の着信トリガーが失われる可能性があることに注意してください。
 >
->Campaign を使用した従来の oAuth 認証モードは、2021 年 10 月 20 日 (PT)**に廃止されます。**&#x200B;ホスト環境は、**2022 年 2 月 23 日** までは拡張機能のメリットが得られます。 オンプレミスまたはハイブリッドのお客様は、Adobeカスタマーケアに連絡して、2022 年 2 月までサポートを拡張してください。 Adobeするには、[OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) を指定する必要があります。
+>Campaign の従来の OAuth 認証モードは、**2021年10月20日**（PT）に廃止されます。ホスト環境では、**2022年2月23 日**（PT）まで延長サポートを受けられます。オンプレミス環境またはハイブリッド環境のお客様は、アドビカスタマーケアに連絡してサポートを 2022年2月まで延長してください。アドビに [OAuth アプリケーションの AppID を伝える](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)必要があります。
 
 ## 前提条件 {#adobe-io-prerequisites}
 
-この統合は、**Campaign Classic20.2.4 以降、19.1.8 および Gold Standard 11 リリース** からのみ適用されます。
+この統合は、**Campaign Classic 20.2.4 以降、19.1.8、Gold Standard 11 リリース**&#x200B;にのみ適用されます。
 
 この実装を開始する前に、以下の点を確認してください。
 
 * 有効な&#x200B;**組織識別子**：Identity Management システム（IMS）の組織識別子は、Adobe Experience Cloud 内の一意の識別子です。この識別子は、VisitorID サービスや IMS シングルサインオン（SSO）などに使用されます。[詳細情報](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja)
-* 組織への&#x200B;**開発者のアクセス**。IMS 組織のシステム管理者は、[このページ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html)で詳しく説明している「**単一の製品プロファイルへの開発者の追加**」
-手順に従って、トリガーに関連する Adobe Analytics 製品の `Analytics - {tenantID}` 製品プロファイルに対するアクセス権を開発者に提供する必要があります。
+* 組織への&#x200B;**開発者のアクセス**。IMS 組織のシステム管理者は、[このページ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html)で詳しく説明している「**単一の製品プロファイルへの開発者の追加**」手順に従って、トリガーに関連する Adobe Analytics 製品の `Analytics - {tenantID}` 製品プロファイルに対するアクセス権を開発者に提供する必要があります。
 
 ## 手順 1：Adobe I/O プロジェクトの作成と更新 {#creating-adobe-io-project}
 

@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-cases
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ JavaScript コードがワークフロー情報に対応していることを確
 
 これらの情報を取得するには、以下の手順に従います。
 
-1. **[!UICONTROL クエリ]** アクティビティからアウトバウンドトランジションを右クリックし、「**[!UICONTROL ターゲットを表示]**」を選択します。
+1. 「**[!UICONTROL クエリ]**」アクティビティからのアウトバウンドトランジションを右クリックし、「**[!UICONTROL ターゲットを表示]**」を選択します。
 
    ![](assets/uc_operator_4.png)
 

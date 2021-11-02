@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: adobe-target
 exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
 source-git-commit: 0996cc313be93300bce2f094c97e45a794cd459e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Adobe Target は複数のタイプのデータを使用できます。
 
 * Adobe Campaign データマートからのデータ
 * Adobe Target で訪問者 ID にリンクされたセグメント。ただし、使用されるデータに法的制限がない場合に限ります。
-* Adobe Targetデータ：ユーザーエージェント， IP アドレス，位置情報データ
+* Adobe Target データ：ユーザーエージェント、IP アドレス、位置情報データ
 
 >[!NOTE]
 >
->Adobe Campaign と Adobe Target 間の統合に関する情報は、[Adobe Target ヘルプページ](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja)を参照してください。
+>Adobe Campaign と Adobe Target の統合については、[Adobe Target ヘルプページ](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja)も参照してください。

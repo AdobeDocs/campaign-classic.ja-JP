@@ -110,10 +110,10 @@ ht-degree: 100%
          + [Microsoft Dynamics 365 との接続](platform/using/crm-ms-dynamics.md)
          + [Salesforce.com との接続](platform/using/crm-sfdc.md)
          + [CRM とのデータの同期](platform/using/crm-data-sync.md)
-      + Adobe Analytics コネクタ{#analytics-connector}
-         + [Adobe Analytics コネクタのプロビジョニング](platform/using/adobe-analytics-provisioning.md)
-         + [Adobe Analytics コネクタの統合](platform/using/adobe-analytics-connector.md)
-         + [Adobe Analytics コネクタへの移行方法](technotes/using/aa-connector-migration.md)
+      + Adobe Analytics Connector{#analytics-connector}
+         + [Adobe Analytics Connector のプロビジョニング](platform/using/adobe-analytics-provisioning.md)
+         + [Adobe Analytics Connectorの統合](platform/using/adobe-analytics-connector.md)
+         + [Adobe Analytics Connectorへの移行方法](technotes/using/aa-connector-migration.md)
          + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
    + [ヘルプとサポートオプション](support.md)
 + メッセージの作成と送信 {#sending-messages}
@@ -464,7 +464,7 @@ ht-degree: 100%
       + [SQL コードと JavaScript コード](workflow/using/sql-code-and-javascript-code.md)
       + [SQL データ管理](workflow/using/sql-data-management.md)
       + [nlserver モジュール](workflow/using/nlserver-module.md)
-      + [集計を更新](workflow/using/update-aggregate.md)
+      + [集計の更新](workflow/using/update-aggregate.md)
    + イベントアクティビティ {#event-activities}
       + [イベントアクティビティについて](workflow/using/about-event-activities.md)
       + [ファイルコレクター](workflow/using/file-collector.md)

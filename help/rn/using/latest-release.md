@@ -178,7 +178,7 @@ Campaign で次のシステムがサポートされるようになりました�
 
 **非推奨（廃止予定）の機能**
 
-* Campaign 21.1 リリース以降、Adobe Analytics コネクタは非推奨になりました。このコネクタを使用している場合は、ご利用の実装に新しい Adobe Analytics コネクタを適用する必要があります。
+* Campaign 21.1 リリース以降、Adobe Analytics Connectorは非推奨になりました。このコネクタを使用している場合は、ご利用の実装に新しい Adobe Analytics Connectorを適用する必要があります。
 詳しくは、[詳細ドキュメント](../../technotes/using/aa-connector-migration.md)を参照してください。
 * Debian 8 のサポートは廃止されました。
 * 20.3 での Oracle CRM の廃止を受け、関連する外部アカウントがインターフェイスから削除されました。

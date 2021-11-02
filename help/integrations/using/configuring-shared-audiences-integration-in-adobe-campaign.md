@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: 830c4146d72cd5a744d026a499cfe8613a255da7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
 ht-degree: 100%
 
@@ -87,6 +87,6 @@ Campaign トラッキングサーバーがドメインに登録されている�
 
 ## 手順 4：訪問者 ID サービスの設定 {#step-4--configure-the-visitor-id-service}
 
-訪問者 ID サービスを web のプロパティや web サイトで設定したことがない場合は、次の[ドキュメント](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=ja)を参照してサービスの設定方法を確認するか、次の[動画](https://helpx.adobe.com/jp/marketing-cloud/how-to/email-marketing.html#step-two)をご覧ください。
+訪問者 ID サービスを web プロパティや web サイトで設定したことがない場合は、次の[ドキュメント](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=ja)を参照してサービスの設定方法を確認するか、次の[ビデオ](https://helpx.adobe.com/jp/marketing-cloud/how-to/email-marketing.html#step-two)をご覧ください。
 
-設定とプロビジョニングが完了し、統合を使用してオーディエンスまたはセグメントをインポートおよびエクスポートできるようになりました。
+設定とプロビジョニングが完了し、統合を使用してオーディエンスやセグメントのインポートおよびエクスポートを行えるようになりました。

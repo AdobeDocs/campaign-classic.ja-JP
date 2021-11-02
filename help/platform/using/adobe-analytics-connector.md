@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Adobe Analytics コネクタ
-description: Adobe Analytics コネクタの詳細
+title: Adobe Analytics Connector
+description: Adobe Analytics Connectorの詳細
 feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
 source-git-commit: 1f6846f29c44719fdbd334327466619ed265452a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1723'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 ## Adobe Analytics Connector の統合について {#about-analytics-connector-integration}
 
-Adobe Analytics コネクタを使用すると、Adobe Campaign と Adobe Analytics が **[!UICONTROL Web 分析コネクタ]**&#x200B;パッケージを介してやり取りできます。 メールキャンペーン後のユーザー行動に関するデータをセグメントの形式で Adobe Campaign に送信します。逆に、Adobe Campaign から配信された メールキャンペーンの指標と属性を Adobe Analytics に送信します。
+Adobe Analytics Connectorを使用すると、Adobe Campaign と Adobe Analytics が **[!UICONTROL Web 分析コネクタ]**&#x200B;パッケージを介してやり取りできます。 メールキャンペーン後のユーザー行動に関するデータをセグメントの形式で Adobe Campaign に送信します。逆に、Adobe Campaign から配信された メールキャンペーンの指標と属性を Adobe Analytics に送信します。
 
 >[!CAUTION]
 >
@@ -28,7 +28,7 @@ Adobe Analytics コネクタを使用すると、Adobe Campaign と Adobe Analyt
 >* 開始する前に、Adobe Identity Management System（IMS）が Campaign に実装されていることを確認します。詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
 
 
-Adobe Analytics コネクタを使用すると、Adobe Campaign でインターネットオーディエンスを測定することができます（Web 分析）。このような統合を通じて、Adobe Campaign では 1 つ以上のサイトでマーケティングキャンペーン後の訪問者の行動に関するデータを収集し、（分析後に）訪問者を購入者に変換できるようリマーケティングキャンペーンを実行できます。また反対に、Adobe Campaign では、Web 分析ツールを使用して指標およびキャンペーン属性をプラットフォームに転送できます。
+Adobe Analytics Connectorを使用すると、Adobe Campaign でインターネットオーディエンスを測定することができます（Web 分析）。このような統合を通じて、Adobe Campaign では 1 つ以上のサイトでマーケティングキャンペーン後の訪問者の行動に関するデータを収集し、（分析後に）訪問者を購入者に変換できるようリマーケティングキャンペーンを実行できます。また反対に、Adobe Campaign では、Web 分析ツールを使用して指標およびキャンペーン属性をプラットフォームに転送できます。
 
 各ツールのアクションフィールドは次のとおりです。
 
@@ -47,7 +47,7 @@ Adobe Analytics コネクタを使用すると、Adobe Campaign でインター�
 
 >[!IMPORTANT]
 >
-> ハイブリッドおよびオンプレミスの実装の場合は、この [ ページ ](../../platform/using/adobe-analytics-provisioning.md) で説明されているプロビジョニング手順に従ってください。
+> ハイブリッド実装およびオンプレミス実装の場合は、[このページ](../../platform/using/adobe-analytics-provisioning.md)で説明されているプロビジョニング手順に必ず従ってください。
 
 コネクタを設定するには、Adobe Campaign インスタンスに接続し、次の操作を実行する必要があります。
 
@@ -90,9 +90,9 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
 ### コンバージョン変数と成功イベントの設定 {#configure-conversion-success}
 
-**[!UICONTROL コンバージョン変数]** と **[!UICONTROL 成功イベント]** を次のように設定する必要があります。
+**[!UICONTROL コンバージョン変数]**&#x200B;と&#x200B;**[!UICONTROL 成功イベント]**&#x200B;を次のように設定する必要があります。
 
-1. Adobe Campaignとリンクする **[!UICONTROL レポートスイート]** を選択します。
+1. Adobe Campaign とリンクする&#x200B;**[!UICONTROL レポートスイート]**&#x200B;を選択します。
 
 1. 「**[!UICONTROL 設定を編集]**」ボタンから、**[!UICONTROL コンバージョン]**／**[!UICONTROL コンバージョン変数]**&#x200B;を選択します。
 
@@ -127,15 +127,15 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
    >[!NOTE]
    >
-   > 数値型の **[!UICONTROL 成功イベント]** のみがサポートされます。
+   > 数値タイプの&#x200B;**[!UICONTROL 成功イベント]**&#x200B;のみサポートされています。
 
    ![](assets/analytics_connnector_8.png)
 
-1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
+1. 完了したら「**[!UICONTROL 保存]**」をクリックします。
 
-**[!UICONTROL コンバージョン変数]** と **[!UICONTROL 成功イベント]** を設定した後、Analytics コネクタ用に作成された **[!UICONTROL 製品プロファイル]** に変数が含まれていることを確認します。 詳しくは、[Adobe Analytics製品プロファイルの作成 ](../../platform/using/adobe-analytics-provisioning.md#analytics-product-profile) を参照してください。
+**[!UICONTROL コンバージョン変数]**&#x200B;と&#x200B;**[!UICONTROL 成功イベント]**&#x200B;を設定したら、Analytics Connector 用に作成された&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;にこれらの変数が含まれていることを確認します。詳しくは、[Adobe Analytics 製品プロファイルの作成](../../platform/using/adobe-analytics-provisioning.md#analytics-product-profile)を参照してください。
 
-次に、Adobe Campaign Classicで **[!UICONTROL 外部アカウント]** を設定する必要があります。
+次に、Adobe Campaign Classic で&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を設定する必要があります。
 
 ### Adobe Campaign Classic での外部アカウントの設定 {#external-account-classic}
 
@@ -161,7 +161,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
 1. **[!UICONTROL 統合]**&#x200B;ドロップダウンの横にある「**[!UICONTROL 設定]**」をクリックします。
 
-1. **[!UICONTROL Analytics 統合の設定]** ウィンドウで、次の情報を提供して、外部アカウントをレポートスイートにマッピングします。
+1. **[!UICONTROL Analytics 統合を設定]**&#x200B;ウィンドウで、次の情報を指定して外部アカウントをレポートスイートにマッピングします。
 
    * **[!UICONTROL メール]**
    * **[!UICONTROL IMS Org]**

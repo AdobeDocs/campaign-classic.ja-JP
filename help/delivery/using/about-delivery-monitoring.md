@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 91%
 
 ![](../../assets/common.svg)
 
-送信後に配信を監視することは、マーケティングキャンペーンを効率的にし、顧客に連絡を取るための重要な手順です。
+配信を送信後に監視することは、マーケティングキャンペーンを効率化し顧客に確実にリーチするための重要なステップです。
 
 この節では、配信の送信後に監視できる情報の詳細、および配信の障害や強制隔離の管理方法について説明します。
 

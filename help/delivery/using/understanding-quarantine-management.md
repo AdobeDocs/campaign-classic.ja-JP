@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2703'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -261,7 +261,7 @@ Adobe Campaign は 10 分ごとに Baidu サーバーにアクセスし、送信
 
 **Android V2 の場合**
 
-Android V2 の強制隔離メカニズムは、Android V1 と同じプロセスを使用します。購読と除外の更新にも同じことが当てはまります。 詳しくは、[Android V1](#android-quarantine) の節を参照してください。
+Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセスを使用しており、同じことがサブスクリプションと除外の更新にも当てはまります。詳しくは、[Android V1](#android-quarantine) の節を参照してください。
 
 <table> 
  <tbody> 

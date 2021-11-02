@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: unitary-interactions
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
 source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 88%
 
 ![](assets/do-not-localize/how-to-video.png) インバウンドチャネルでのオファーの配信方法について詳しくは、こちらの[ビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html)も参照してください。
 
-オファーがオファーエンジンによって選択されるためには、承認され、実稼働環境で利用できる必要があります。詳しくは、[オファーの承認と有効化](../../interaction/using/approving-and-activating-an-offer.md)を参照してください。
+オファーエンジンでオファーが選択されるようにするには、オファーが承認され、実稼働環境で利用できるようになっている必要があります。詳しくは、[オファーの承認と有効化](../../interaction/using/approving-and-activating-an-offer.md)を参照してください。
 
-コンタクト先がインバウンドの場合、次の 2 つの結果が考えられます。ページを閲覧しているユーザーは、web サイトで識別できます。 オファーエンジンは、ユーザーが識別されているかどうかに応じて異なるオファーを提示します。
+コンタクト先がインバウンドの場合、結果として、ページを閲覧しているユーザーを web サイトで識別できる場合とできない場合が考えられます。オファーエンジンは、ユーザーが識別されているかどうかに応じて異なるオファーを提示します。
 
 インバウンドチャネルでオファーを提示できるようにする前に、オファーを提示する場所にオファーエンジン呼び出しを設定する必要があります。インバウンドインタラクションでは、ほとんどの場合、これは Web ページです。
 

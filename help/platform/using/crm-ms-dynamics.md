@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1116'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -199,7 +199,7 @@ Microsoft Dynamics 365 と Campaign を接続するには、Campaign で専用�
 
 >[!NOTE]
 >
-> 次の 2 つの URL を必ずに追加す許可リストる必要があります。サーバーの URL と `login.microsoftonline.com`（サーバー設定）
+> サーバー設定で 2 つの URL（サーバー URL と `login.microsoftonline.com`）を許可リストに追加する必要があります。
 
 ## サポートされているフィールドデータタイプ {#ms-dyn-supported-types}
 

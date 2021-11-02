@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
 source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -52,15 +52,15 @@ ht-degree: 88%
 
    ![](assets/offer_operators_create_002.png)
 
-配信責任者に割り当てられる権限によって、次のタスクを実行できます。
+割り当てられた権限で配信マネージャーが実行できるタスクは次のとおりです。
 
 * **[!UICONTROL ライブ]**&#x200B;環境を表示する。
 * オファーカテゴリを表示および修正する。
-* この配信責任者がレビュー担当者に指定されている場合は、オファーを承認します。
+* 自分がレビュー担当者の 1 人として指定されている場合、オファーを承認する。
 
    >[!NOTE]
    >
-   >配信責任者は、オファーの設定時にレビュー担当者として定義されている場合にのみ、オファーを承認できます。
+   >配信マネージャーがオファーを承認するには、オファーの設定時にレビュー担当者として指定されている必要があります。
 
 ## オペレーター別の権限の概要 {#recap-of-rights-according-to-operator}
 

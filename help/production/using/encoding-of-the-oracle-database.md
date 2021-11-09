@@ -17,6 +17,6 @@ ht-degree: 58%
 
 ![](../../assets/v7-only.svg)
 
-Adobe CampaignはデフォルトのOracleエンコーディングを使用します。
+Adobe Campaignでは、デフォルトのOracleエンコーディングを使用します。
 
 異なるものを使用すると、非互換性が発生する場合があります。 詳しくは、[この節](../../installation/using/database.md#oracle)を参照してください。

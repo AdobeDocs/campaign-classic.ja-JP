@@ -82,7 +82,7 @@ ht-degree: 100%
 * **[!UICONTROL ポート]**
 * **[!UICONTROL システムタイプ]**
 
-「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。
+「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。 
 
 * **[!UICONTROL ソース番号]**
 * **[!UICONTROL ソース NPI]**
@@ -127,7 +127,7 @@ ht-degree: 100%
 * **[!UICONTROL ポート]**
 * **[!UICONTROL システムタイプ]**
 
-「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。
+「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。 
 
 * **[!UICONTROL ソース番号]**
 
@@ -150,7 +150,7 @@ ht-degree: 100%
 * **[!UICONTROL ポート]**
 * **[!UICONTROL システムタイプ]**
 
-「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。
+「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。 
 
 * **[!UICONTROL ソース番号]**
 * **[!UICONTROL ソース NPI]**
@@ -175,7 +175,7 @@ ht-degree: 100%
 * **[!UICONTROL ポート]**
 * **[!UICONTROL システムタイプ]**
 
-「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。
+「**[!UICONTROL SMPP チャネル設定]**」タブで以下を設定します。 
 
 * **[!UICONTROL ソース番号]**
 * **[!UICONTROL ソース NPI]**

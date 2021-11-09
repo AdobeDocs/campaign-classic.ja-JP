@@ -17,15 +17,15 @@ ht-degree: 80%
 
 ![](../../assets/v7-only.svg)
 
-Campaign の [Federated Data Access](../../installation/using/about-fda.md)(FDA) オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って、Teradataへのアクセスを設定します。
+キャンペーンを使用 [Federated Data Access](../../installation/using/about-fda.md) (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、Teradataへのアクセスを設定します。
 
-1. [Teradataドライバ ](#teradata-config) をインストールして設定します
-1. Campaign でTeradata[ 外部アカウント ](#teradata-external) を設定します
-1. teradataおよび Campaign サーバー用の [ 追加の設定 ](#teradata-additional-configurations) をセットアップします
+1. インストールと設定 [Teradataドライバ](#teradata-config)
+1. teradataの設定 [外部アカウント](#teradata-external) キャンペーン内
+1. 設定 [追加設定](#teradata-additional-configurations) (Teradataと Campaign サーバーの場合 )
 
 ## Teradata設定 {#teradata-config}
 
-Campaign に接続するには、Teradata用のドライバーをインストールする必要があります。
+Campaign に接続するTeradataのドライバをインストールする必要があります。
 
 1. [Teradata 用の ODBC ドライバー](https://downloads.teradata.com/download/connectivity/odbc-driver/linux)をインストールします。
 
@@ -68,13 +68,13 @@ Campaign に接続するには、Teradata用のドライバーをインストー
 
 >[!NOTE]
 >
->FDA で外部Teradataに接続するには、Adobe Campaignサーバーで追加の設定手順が必要です。 [詳細情報](#teradata-additional-configurations)。
+>FDA で外部Teradataベースに接続するには、Adobe Campaignサーバーで追加の設定手順が必要です。 [詳細情報](#teradata-additional-configurations)。
 
 ## Teradata 外部アカウント{#teradata-external}
 
 Teradata 外部アカウントを使用すれば、Campaign インスタンスを Teradata 外部データベースに接続することができます。
 
-1. Campaign の **[!UICONTROL エクスプローラー]** で、**[!UICONTROL 管理]** / **[!UICONTROL プラットフォーム]** / **[!UICONTROL 外部アカウント]** をクリックします。
+1. キャンペーンから **[!UICONTROL エクスプローラ]**&#x200B;をクリックし、 **[!UICONTROL 管理]** / **[!UICONTROL Platform]** / **[!UICONTROL 外部アカウント]**.
 
 1. 「**[!UICONTROL 新規]**」をクリックし、「**[!UICONTROL タイプ]**」として「**[!UICONTROL 外部データベース]**」を選択します。
 
@@ -82,9 +82,9 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 
 1. Teradata **[!UICONTROL 外部アカウントを設定するには]**、次を指定する必要があります。
 
-   * **[!UICONTROL 型]**:Teradatatype を選択 **** します。
+   * **[!UICONTROL タイプ]**:を選択します。 **[!UICONTROL Teradata]** タイプ。
 
-   * **[!UICONTROL サーバー]**:teradata・サーバの URL または名前
+   * **[!UICONTROL サーバー]**:teradataサーバーの URL または名前
 
    * **[!UICONTROL アカウント]**:teradata・データベースへのアクセスに使用するアカウントの名前
 
@@ -92,9 +92,9 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 
    * **[!UICONTROL データベース]**:データベースの名前（オプション）
 
-   * **[!UICONTROL オプション]**:渡すTeradata。次の形式を使用します。&#39;parameter=value&#39;です。 値の区切り文字として半列を使用します。
+   * **[!UICONTROL オプション]**:teradataを渡すオプション。 次の形式を使用します。&#39;parameter=value&#39;. 値間の区切り文字としてセミコロンを使用します。
 
-   * **[!UICONTROL タイムゾーン]**:タイムゾーンのTeradata。[詳細情報](#timezone)
+   * **[!UICONTROL タイムゾーン]**:タイムゾーンがTeradataで設定されました。 [詳細情報](#timezone)
 
 ### Query Banding
 
@@ -102,17 +102,17 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 
 ![](assets/ext_account_20.png)
 
-このオプションを設定すると、Campaign ユーザーがTeradataデータベースに対してクエリを実行するたびに、Adobe Campaignは、このユーザーに関連付けられたキーのリストで構成されたメタデータを送信します。 Teradata 管理者は、このデータを監査目的や、アクセス権の管理に使用できます。
+このオプションを設定すると、Campaign ユーザーがTeradataデータベースに対してクエリを実行するたびに、Adobe Campaignはこのユーザーに関連付けられたキーのリストで構成されたメタデータを送信します。 Teradata 管理者は、このデータを監査目的や、アクセス権の管理に使用できます。
 
 >[!NOTE]
 >
 >**[!UICONTROL Query banding]** について詳しくは、[Teradata ドキュメント](https://docs.teradata.com/reader/cY5B~oeEUFWjgN2kBnH3Vw/a5G1iz~ve68yTMa24kVjVw)を参照してください。
 
-Query Banding を設定するには、次の手順に従います。
+Query Banding を設定するには、以下の手順に従います。
 
-1. **[!UICONTROL デフォルト]** を使用して、ユーザーにクエリバンドが関連付けられていない場合に使用するデフォルトのクエリバンドを入力します。 このフィールドが空になっている場合、クエリバンドがないユーザーは Teradata を使用できません。
+1. 以下を使用：  **[!UICONTROL デフォルト]** をクリックして、ユーザーにクエリバンドが関連付けられていない場合に使用するデフォルトのクエリバンドを入力します。 このフィールドが空になっている場合、クエリバンドがないユーザーは Teradata を使用できません。
 
-1. **[!UICONTROL Users]** フィールドを使用して、各ユーザーのクエリバンドを指定します。 キーと値のペアを必要な数だけ追加できます。例：priority=1;workload=highユーザーにクエリバンドが割り当てられていない場合は、「**[!UICONTROL デフォルト]**」フィールドが適用されます。
+1. 以下を使用： **[!UICONTROL ユーザー]** フィールドを使用して、各ユーザーのクエリバンドを指定します。 キーと値のペアを必要な数だけ追加できます。例：priority=1;workload=highユーザーにクエリバンドが割り当てられていない場合は、「**[!UICONTROL デフォルト]**」フィールドが適用されます。
 
 1. この機能を有効にするには、「**[!UICONTROL アクティブ]**」ボックスをオンにします。
 
@@ -126,7 +126,7 @@ Query Banding を設定するには、次の手順に従います。
 * Campaign 18.10 以降は、外部アカウントのオプションに「ODBCDriverName=&quot;Teradataデータベース ODBC ドライバー 16.10&quot;」を追加できます。 バージョン番号は異なる場合があります。正確な番号は、odbcad32.exe を実行して「ドライバー」タブにアクセスすると見つかります。
 
 
-* 古いバージョンの Campaign を使用している場合は、ドライバーのインストールによって作成された odbcinst.ini のTeradataセクションを、Teradataと呼ばれる新しいセクションにコピーする必要があります。 この場合は、Regedit を使用できます。 ベースが latin1 の場合は、オプションに **APICharSize=1** を追加する必要があります。
+* 古いバージョンの Campaign を使用している場合は、ドライバーのインストールによって作成された odbcinst.ini のTeradataセクションを、Teradataと呼ばれる新しいセクションにコピーする必要があります。 この場合は、regedit を使用できます。 ベースが latin1 の場合は、 **APICharSize=1** 」をクリックします。
 
 ## その他の設定 {#teradata-additional-configurations}
 

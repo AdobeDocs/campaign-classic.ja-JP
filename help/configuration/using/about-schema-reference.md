@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Adobe Campaign Classicのスキーマリファレンスについて
-description: Adobe Campaign Classicデータベースの概念的データモデルを拡張するための拡張スキーマの設定方法について説明します。
+description: Adobe Campaign Classicデータベースの概念的データモデルを拡張するために拡張スキーマを設定する方法について説明します。
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
@@ -17,9 +17,9 @@ ht-degree: 58%
 
 ![](../../assets/v7-only.svg)
 
-この章では、Adobe Campaignデータベースの概念的データモデルを拡張するための拡張スキーマの設定方法について説明します。
+この章では、Adobe Campaignデータベースの概念的データモデルを拡張するために拡張スキーマを設定する方法について説明します。
 
-Campaign の組み込みテーブルとそのインタラクションについて詳しくは、[Campaign Classicデータモデル ](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html) を参照してください。
+Campaign の組み込みテーブルとそのインタラクションについて詳しくは、 [Campaign Classicデータモデル](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html).
 
 アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。 **スキーマ**&#x200B;と呼ばれる Adobe Campaign 特有の文法に従います。
 
@@ -76,13 +76,13 @@ Campaign の組み込みテーブルとそのインタラクションについ�
 
 名前空間を使用すると、一連のスキーマを目標領域別にグループ化できます。 例えば、**cus** 名前空間は、顧客固有の設定（**customers**）に使用します。
 
-スキーマの識別キーは、コロンで区切られた名前空間と名前を使用して構築された文字列です。例：**cus:recipient**。
+スキーマの識別キーは、コロンで区切られた名前空間と名前を使用して作成された文字列です。例： **cus:recipient**.
 
 >[!IMPORTANT]
 >
->名前空間の名前は簡潔で、XML 命名規則に従って許可された文字のみを含む必要があります。
+>名前空間の名前は簡潔で、XML 命名規則に従って許可された文字のみを含める必要があります。
 >
 >識別子の先頭を数字にすることはできません。
 >
->次の名前空間は、Adobe Campaignアプリケーションの操作に必要なシステムエンティティの説明のために予約されており、使用しないでください。**xtk**、**nl**、**nms**、**ncm**、**temp**、**ncl**、**crm****xxl**。
+>次の名前空間は、Adobe Campaignアプリケーションの操作に必要なシステムエンティティの説明用に予約されており、使用しないでください。 **xtk**, **nl**, **nms**, **ncm**, **temp**, **ncl**, **crm**, **xxl**.
 

@@ -52,7 +52,7 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 このユースケースでは、外部システムで暗号化されたデータを Campaign コントロールパネルで生成されたキーを使用してインポートするためのワークフローを作成します。
 
-![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
 このユースケースを実行する手順は次のとおりです。
 

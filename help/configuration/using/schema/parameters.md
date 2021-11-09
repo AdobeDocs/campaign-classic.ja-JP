@@ -13,7 +13,7 @@ ht-degree: 26%
 
 ---
 
-# パラメータ要素 {#parameters--element}
+# パラメーター要素 {#parameters--element}
 
 ![](../../../assets/v7-only.svg)
 
@@ -35,11 +35,11 @@ ht-degree: 26%
 
 ## 説明 {#description-13}
 
-この要素は `<parameter>` 要素のグループを定義します。
+この要素は、 `<parameter>`  要素。
 
 ## 使用と使用のコンテキスト {#use-and-context-of-use-8}
 
-この要素は必須です。`<method>` 要素の 1 つの `<param>` 子要素の場合でも同様です。
+この要素は、1 つの `<param>` の子要素 `<method>`  要素。
 
 ## 属性の説明 {#attribute-description-13}
 

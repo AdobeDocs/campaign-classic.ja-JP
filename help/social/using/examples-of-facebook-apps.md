@@ -285,7 +285,7 @@ Twitter のフォロワーと同様（[動作の仕組み](../../social/using/pu
 
 訪問者の詳細ページの&#x200B;**[!UICONTROL アクティビティ]**&#x200B;画面には、以下の情報が含まれています。
 
-* 「Open Graph」タイプのファンアクティビティ：再生した音楽、視聴済み動画、既読記事、インストールされたアプリケーションの推測（Deezer、Spotify、Dailymotion、Yahoo ニュースなど）
+* 「Open Graph」タイプのファンアクティビティ：再生した音楽、視聴済みビデオ、既読記事、インストールされたアプリケーションの推測（Deezer、Spotify、Dailymotion、Yahoo ニュースなど）
 
    ![](assets/social_facebook_activities.png)
 

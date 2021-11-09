@@ -23,9 +23,9 @@ ht-degree: 11%
 
 ## 属性 {#attributes-2}
 
-* @boolOperator (string)
-* @enabledIf (string)
-* @expr (string)
+* @boolOperator （文字列）
+* @enabledIf （文字列）
+* @expr （文字列）
 
 ## 親 {#parents-2}
 
@@ -41,11 +41,11 @@ ht-degree: 11%
 
 ## 使用と使用のコンテキスト {#use-and-context-of-use-2}
 
-1 つの `<sysfiler>` 要素に複数のフィルター条件を含めることができます。
+1 `<sysfiler>`  要素には、複数のフィルター条件を含めることができます。
 
 ## 属性の説明 {#attribute-description-2}
 
-* **boolOperator（文字列）**:同じ要素内 `<conditions>` で複数が定義されて  `<sysfilter>` いる場合、この属性を使用してそれらを組み合わせることができます。デフォルトでは、論理リンクは `<condition>` 要素間は「AND」です。 「@boolOperator」属性を使用すると、「OR」と「AND」タイプのリンクを組み合わせることができます。
+* **boolOperator（文字列）**:複数の `<conditions>` が同じ  `<sysfilter>` 要素を使用すると、この属性を組み合わせることができます。 デフォルトでは、論理リンクは次の間にあります。 `<condition>` 要素は「AND」です。 「@boolOperator」属性を使用して、「OR」と「AND」タイプのリンクを組み合わせることができます。
 * **enabledIf (string)**:条件のアクティベーションテスト。
 * **expr（文字列）**:XTK 式。
 

@@ -135,6 +135,7 @@ ht-degree: 100%
 >
 >* 使用可能な検証モードについて詳しくは、[承認モードの変更](steps-validating-the-delivery.md#changing-the-approval-mode)を参照してください。
 >* 配達確認ターゲットの設定について詳しくは、 [特定の配達確認ターゲットの定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)を参照してください。
+
 >
 
 

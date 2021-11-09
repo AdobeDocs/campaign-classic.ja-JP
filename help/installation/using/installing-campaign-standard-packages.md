@@ -9,7 +9,7 @@ exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 26%
 
 ## 組み込みパッケージについて {#campaign-standard-packages}
 
-組み込みパッケージには、ニーズや契約に応じてインストールできる一連の機能が含まれています。 Campaign の組み込みパッケージの完全なリストは、以下で確認できます。
+組み込みパッケージには、必要に応じて、および契約に応じてインストールできる一連の機能が含まれています。 Campaign の組み込みパッケージの完全なリストは、以下で確認できます。
 
 >[!CAUTION]
 >
 >使用許諾契約に記載されているオプションに対応するパッケージのみをインストールできます。
 >
->新しいパッケージをインストールすると、すべてのプラットフォームに影響を与える可能性があります。最終的なデプロイメントの前に、テストおよび検証をおこなう必要があります。
+>新しいパッケージをインストールすると、すべてのプラットフォームに影響を与える可能性があります。最終的なデプロイメントの前に、テストと検証をおこなう必要があります。
 >
->パッケージをインストールした後は、アンインストールできません。
+>インストールしたパッケージはアンインストールできません。
 
 組み込みパッケージをインストールするには：
 
-1. Adobe Campaignクライアントコンソールの **[!UICONTROL ツール/詳細設定/パッケージをインポート]** から、パッケージインポートウィザードにアクセスします。
+1. Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／高度なツール／パッケージをインポート]**&#x200B;から、パッケージインポートウィザードにアクセスします。
 1. 「**[!UICONTROL 標準パッケージをインストール]**」を選択します。
 1. パッケージリストで、インストールするパッケージを確認します。
    >[!NOTE]
@@ -43,11 +43,11 @@ ht-degree: 26%
 
 1. インストールウィンドウを&#x200B;**[!UICONTROL 閉じます]**。
 
-これでパッケージがインストールされました。
+これで、パッケージがインストールされました。
 
 ### 標準パッケージのリスト {#list-of-standard-packages}
 
-次の表に、すべての Campaign 組み込みパッケージを示します。
+次の表に、すべての Campaign 組み込みパッケージの一覧を示します。
 
 <table> 
  <thead> 
@@ -60,12 +60,12 @@ ht-degree: 26%
  <tbody> 
   <tr> 
    <td> 配信<br /> </td> 
-   <td> 配信と、メッセージの送信時に結果的に発生する問題を監視します。 <a href="../../delivery/using/about-delivery-monitoring.md">詳細情報</a><br /> </td> 
+   <td> 配信と、メッセージの送信時に結果として起こる問題を監視します。 <a href="../../delivery/using/about-delivery-monitoring.md">詳細情報</a><br /> </td> 
    <td> すべて</td> 
   </tr> 
   <tr> 
    <td> マーケティングキャンペーン（キャンペーン）<br /> </td> 
-   <td> コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行、分析します。 <a href="../../campaign/using/designing-marketing-campaigns.md">詳細</a><br /> </td> 
+   <td> 通信およびマーケティングキャンペーンを定義、最適化、実行および分析します。 <a href="../../campaign/using/designing-marketing-campaigns.md">詳細</a><br /> </td> 
    <td> マーケティング</td>
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> オファーエンジン（インタラクション）<br /> </td> 
-   <td> 特定の連絡先（顧客またはターゲット）とのインタラクション中に、1 つまたは複数の適合したオファーを提示して、リアルタイムで応答します。  （オプション）<a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">詳細</a> <br /> </td> 
+   <td> 特定の連絡先（顧客またはターゲット）とのインタラクション中に、1 つまたは複数の適応したオファーを作成して、リアルタイムで応答します。  （オプション）<a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">詳細</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
@@ -106,7 +106,7 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> トランザクションメッセージ実行 (Message Center - 実行) <br /> </td> 
-   <td> 高い可用性と優れた負荷管理を実現 （オプション）<a href="../../message-center/using/about-transactional-messaging.md">詳細</a><br /> </td> 
+   <td> 高い可用性と優れた負荷管理を確保します。 （オプション）<a href="../../message-center/using/about-transactional-messaging.md">詳細</a><br /> </td> 
    <td> 実行<br /> </td>
   </tr> 
   <tr> 
@@ -126,12 +126,12 @@ ht-degree: 26%
   </tr> 
    <tr> 
    <td> 電話チャネル<br /> </td> 
-   <td> Adobe Campaignで電話チャネルを使用して配信を送信します。 コールセンターに使用します。 （オプション）<a href="../../delivery/using/communication-channels.md">詳細</a> <br /> </td> 
+   <td> Adobe Campaignで電話チャネルを使用して配信を送信します。 コールセンターに使用されます。 （オプション）<a href="../../delivery/using/communication-channels.md">詳細</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
    <td> モバイルアプリチャネル<br /> </td> 
-   <td> Adobe Campaignプラットフォームを使用して、パーソナライズされた通知をiOSおよび Android の端末にアプリ経由で送信します。 （オプション）<a href="../../delivery/using/about-mobile-app-channel.md">詳細</a> <br /> </td> 
+   <td> Adobe Campaignプラットフォームを使用して、アプリを介してiOSおよび Android の端末にパーソナライズされた通知を送信します。 （オプション）<a href="../../delivery/using/about-mobile-app-channel.md">詳細</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> オンライン調査 (調査マネージャー)<br /> </td> 
-   <td> プロファイル情報の追加や変更、購読、購読解除、競合参加者の入力フォームを行うオンラインフォームを作成および管理します。 （オプション）<a href="../../surveys/using/about-surveys.md">詳細</a> <br /> </td> 
+   <td> プロファイル情報の追加や変更、購読、購読解除、競合他社の入力フォームを行うオンラインフォームを作成および管理します。 （オプション）<a href="../../surveys/using/about-surveys.md">詳細</a> <br /> </td> 
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
@@ -151,17 +151,17 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> Response Manager<br /> </td> 
-   <td> マーケティングキャンペーンの成功と収益性、またはすべてのコミュニケーションチャネルのオファーの提案を測定します。  （オプション）<a href="../../response/using/about-response-manager.md">詳細</a> <br /> </td> 
+   <td> すべての通信チャネルに対するマーケティングキャンペーンまたはオファーの提案の成功と収益性を測定します。  （オプション）<a href="../../response/using/about-response-manager.md">詳細</a> <br /> </td> 
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
    <td> 外部データへのアクセス (Federated Data Access)<br /> </td> 
-   <td> 1 つ以上の外部データベースに格納された情報を処理して、Adobe Campaignデータの構造を変更せずに外部データにアクセスできるようにするための Federated Data Access(FDA) オプションが用意されています。  （オプション）<a href="../../workflow/using/accessing-an-external-database--fda-.md">詳細</a> <br /> </td> 
+   <td> 1 つ以上の外部データベースに保存されている情報を処理するために、 Federated Data Access(FDA) オプションが用意されており、Adobe Campaignデータの構造を変更せずに外部データにアクセスできます。  （オプション）<a href="../../workflow/using/accessing-an-external-database--fda-.md">詳細</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
    <td> キャンペーンの最適化<br /> </td> 
-   <td> 配信の送信を制御、フィルタリングおよび監視し、会社のコミュニケーションポリシーに従って、顧客のニーズと期待に応える最適なメッセージを送信します。 （オプション）<a href="../../campaign-opt/using/about-campaign-typologies.md">詳細</a> <br /> </td> 
+   <td> 配信の送信を制御、フィルタリングおよび監視し、会社の通信ポリシーに従って、送信されたメッセージが顧客のニーズと期待に最も合うようにします。 （オプション）<a href="../../campaign-opt/using/about-campaign-typologies.md">詳細</a> <br /> </td> 
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
@@ -170,18 +170,18 @@ ht-degree: 26%
    <td> すべて </td> 
   </tr> 
   <tr> 
-   <td> クーポン管理 <br /> </td> 
+   <td> クーポン管理<br /> </td> 
    <td> 次回のマーケティングオファーに追加するクーポンのセットを作成します。 （オプション）<a href="../../delivery/using/personalized-coupons.md">詳細</a> <br /> </td> 
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
    <td> 受信ボックスレンダリング（IR）<br /> </td> 
-   <td> 様々なコンテキストで受信される可能性のある、送信されたメッセージをプレビューし、メジャーなデスクトップおよびアプリケーションの互換性を確認できます。 （オプション）<a href="../../delivery/using/inbox-rendering.md">詳細</a><br /> </td> 
+   <td> 異なるコンテキストで受信される可能性のある、送信されたメッセージをプレビューし、メジャーなデスクトップおよびアプリケーションの互換性を確認できます。 （オプション）<a href="../../delivery/using/inbox-rendering.md">詳細</a><br /> </td> 
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
    <td> セントラル／ローカルマーケティング（分散型マーケティング）<br /> </td> 
-   <td> セントラルエンティティ（本社、マーケティング部門など）間で協調キャンペーンを実装 ローカルエンティティ（販売ポイント、地域機関など） （オプション）<a href="../../distributed/using/about-distributed-marketing.md">詳細</a><br /> </td> 
+   <td> セントラルエンティティ（本社、マーケティング部門など）間の協調キャンペーンの実装 ローカルエンティティ（セールスポイント、地域機関など） （オプション）<a href="../../distributed/using/about-distributed-marketing.md">詳細</a><br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 
@@ -196,7 +196,7 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> AEM 統合<br /> </td> 
-   <td> AEMのコンテンツ編集機能やAdobe Campaignの配信能力を活用するために、E メール配信のコンテンツやフォームをAdobe Experience Managerで直接管理できます。 <a href="../../integrations/using/about-adobe-experience-manager.md">詳細</a> <br /> </td> 
+   <td> E メール配信とフォームのコンテンツをAdobe Experience Managerで直接管理し、AEMのコンテンツ編集機能やAdobe Campaignの配信能力を活用することができます。 <a href="../../integrations/using/about-adobe-experience-manager.md">詳細</a> <br /> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 
@@ -211,7 +211,7 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> プライバシーデータ保護規則<br /> </td> 
-   <td> プライバシーのコンプライアンスに役立つ追加機能がCampaign Classicされます。 <a href="https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html">詳細</a> <br /> </td> 
+   <td> プライバシーのコンプライアンスに役立つ追加機能がCampaign Classicに含まれています。 <a href="https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html">詳細</a> <br /> </td> 
    <td> すべて</td> 
   </tr> 
   <tr> 
@@ -221,12 +221,12 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> ミッドソーシングプラットフォーム<br /> </td> 
-   <td> この設定は、ホスト型 (ASP) 設定と内部化の間の最適な中間ソリューションです。 外向きの実行コンポーネントは、Adobe Campaignでホストされる「ミッドソーシング」サーバーで実行されます。 （オプション）<a href="../../installation/using/mid-sourcing-server.md">詳細</a> <br /> </td> 
+   <td> この設定は、ホスト (ASP) 設定と内部化の間の最適な中間ソリューションです。 外向きの実行コンポーネントは、Adobe Campaignでホストされる「ミッドソーシング」サーバーで実行されます。 （オプション）<a href="../../installation/using/mid-sourcing-server.md">詳細</a> <br /> </td> 
    <td> ミッドソーシング </td> 
   </tr> 
   <tr> 
    <td> AMP サポート<br /> </td> 
-   <td> 新しいインタラクティブ AMP for E メールフォーマットを使用し、動的な E メールを送信できます。 （オプション）<a href="../../delivery/using/defining-interactive-content.md">詳細</a> <br /> </td> 
+   <td> 新しいインタラクティブ AMP for e メールフォーマットを使用して、動的な E メールを送信できます。 （オプション）<a href="../../delivery/using/defining-interactive-content.md">詳細</a> <br /> </td> 
    <td> すべて </td> 
   </tr> 
   <tr> 
@@ -239,16 +239,16 @@ ht-degree: 26%
 
 ### Message Center パッケージ {#message-center-package}
 
-配信チャネル（E メール、モバイルチャネル、モバイルアプリチャネルなど）を トランザクションメッセージ（Message Center パッケージ）をインストールする前に E メールのみの Message Center プロジェクトを開始し、その後新しいチャネルを追加する必要がある場合は、次の手順に従います。
+配信チャネル（E メール、モバイルチャネル、モバイルアプリチャネルなど）を トランザクションメッセージ（Message Center パッケージ）をインストールする前に、 E メールのみの Message Center プロジェクトを開始し、その後新しいチャネルを追加する必要がある場合は、次の手順に従う必要があります。
 
-1. パッケージインポートウィザードを使用して、新しいチャネル（例：**モバイルチャネル**）をインストールします (**[!UICONTROL ツール/詳細設定/パッケージをインポート/Adobe Campaignパッケージ]**)。
-1. ファイルを読み込み（**[!UICONTROL ツール/詳細/パッケージを読み込み/ファイル]**）、次の項目を選択します。
+1. 新しいチャネル（例： ）をインストールします。 **モバイルチャネル**、パッケージインポートウィザード ( **[!UICONTROL ツール/詳細設定/パッケージをインポート/Adobe Campaignパッケージ]**) をクリックします。
+1. ファイル ( **[!UICONTROL ツール/詳細設定/パッケージをインポート/ファイル]**) をクリックし、次を選択します。
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. **[!UICONTROL インポートする XML データコンテンツ]** には、関連するチャネルに対応する Message Center 配信テンプレートのみを残します。 例えば、**モバイルチャネル** を追加した場合は、**[!UICONTROL モバイルトランザクションメッセージ]**(smsTriggerMessage) テンプレートに対応する **entities** 要素のみを残します。 **モバイルアプリチャネル** を追加した場合は、**iOSトランザクションメッセージ** テンプレート (iosTriggerMessage) と **Android トランザクションメッセージ**(androidTriggerMessage) のみを残します。
+1. 内 **[!UICONTROL インポートする XML データコンテンツ]**&#x200B;関連するチャネルに対応する Message Center の配信テンプレートのみを残します。 例えば、 **モバイルチャネル**、 **エンティティ** 次に対応する要素 **[!UICONTROL モバイルトランザクションメッセージ]** (smsTriggerMessage) テンプレート。 次の **モバイルアプリチャネル**、 **iOSトランザクションメッセージ** テンプレート (iosTriggerMessage) および **Android トランザクションメッセージ** (androidTriggerMessage)。
 
    ![](assets/messagecenter_install_channel.png)
 

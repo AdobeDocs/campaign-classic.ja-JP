@@ -17,10 +17,10 @@ ht-degree: 78%
 
 ![](../../assets/v7-only.svg)
 
-Campaign の [Federated Data Access](../../installation/using/about-fda.md)(FDA) オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って、Microsoft Analytics へのアクセスをAzure synapseします。
+キャンペーンを使用 [Federated Data Access](../../installation/using/about-fda.md) (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、Microsoft Analytics へのアクセスをAzure synapseします。
 
-1. [CentOS](#azure-centos)、[Windows](#azure-windows) または [Debian](#azure-debian) でAzure synapseを設定します。
-1. azure synapse[ 外部アカウント ](#azure-external) を Campaign で設定します
+1. でAzure synapseを設定 [CentOS](#azure-centos), [Windows](#azure-windows) または [Debian](#azure-debian)
+1. azure synapse [外部アカウント](#azure-external) キャンペーン内
 
 ## CentOS での Azure Synapse {#azure-centos}
 
@@ -87,7 +87,7 @@ CentOS でAzure synapseを設定するには、次の手順に従います。
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. Campaign では、[!DNL Azure Synapse] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[ この節 ](#azure-external) を参照してください。
+1. Campaign では、 [!DNL Azure Synapse] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#azure-external).
 
 1. Azure Synapse Analytics は TCP 1433 ポートを通じて通信するので、ファイアウォール上でこのポートを開く必要があります。次のコマンドを使用します。
 
@@ -114,7 +114,7 @@ CentOS でAzure synapseを設定するには、次の手順に従います。
 
 Windows で Azure Synaps を設定するには、以下を実行します。
 
-1. まず、Microsoft ODBC ドライバーをインストールします。[ このページ ](https://www.microsoft.com/en-us/download/details.aspx?id=50420) にあります。
+1. まず、Microsoft ODBC ドライバーをインストールします。これは、 [このページ](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
 1. 次のファイルを選択してインストールします。
 
@@ -124,7 +124,7 @@ Windows で Azure Synaps を設定するには、以下を実行します。
 
 1. ODBC ドライバーをインストールした後、必要に応じてテストできます。詳しくは、この[ページ](https://docs.microsoft.com/ja-jp/sql/connect/odbc/windows/system-requirements-installation-and-driver-files?view=sql-server-ver15)を参照してください。
 
-1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[ この節 ](#azure-external) を参照してください。
+1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、 [この節](#azure-external).
 
 1. Azure Synapse Analytics は TCP 1433 ポートを通じて通信するので、Windows Defender ファイアウォール上でこのポートを開く必要があります。詳しくは、[Windows のドキュメント](https://docs.microsoft.com/ja-jp/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule)を参照してください。
 
@@ -179,7 +179,7 @@ Debian で Azure Synapse を設定するには、以下を実行します。
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[ この節 ](#azure-external) を参照してください。
+1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、 [この節](#azure-external).
 
 1. Azure Synapse Analytics と確実に接続できるように Debian で iptables を設定するには、次のコマンドを使用して、ホスト名に対してアウトバウンド TCP 1433 ポートを有効にします。
 
@@ -196,9 +196,9 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
 [!DNL Azure Synapse] 外部アカウントを使用すれば、Campaign インスタンスを Azure Synapse 外部データベースに接続することができます。
 
-[!DNL Azure Synapse] 外部アカウントを作成するには、次の手順に従います。
+次の手順で [!DNL Azure Synapse] 外部アカウントは、次の手順に従います。
 
-1. Campaign **[!UICONTROL エクスプローラー]** から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]** をクリックします。
+1. キャンペーンから **[!UICONTROL エクスプローラ]**&#x200B;をクリックし、 **[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL 外部アカウント]**.
 
 1. 「**[!UICONTROL 新規]**」をクリックします。
 

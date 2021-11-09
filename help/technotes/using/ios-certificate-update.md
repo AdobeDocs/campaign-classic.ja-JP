@@ -4,7 +4,7 @@ title: テクニカルノート - Apple プッシュ通知サービスのサー�
 description: Apple プッシュ通知サービスのサーバー証明書の更新
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
 source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
 

@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: スクリプトとコーディングのガイドライン
-description: Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する際に従うべきガイドラインについて詳しく説明します。
+description: Learn more about the guidelines to follow when developing in Adobe Campaign (workflows, Javascript, JSSP, etc.).
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -41,7 +41,7 @@ ht-degree: 63%
 
    >[!IMPORTANT]
    >
-   >sqlSelect はこの機能をサポートしていないので、DBEngine クラスのクエリ関数を使用する必要があります。
+   >sqlSelect doesn&#39;t support this feature, so you have to use the query function of DBEngine class:
 
    ```
    var cnx = application.getConnection()
@@ -50,11 +50,11 @@ ht-degree: 63%
    cnx.dispose()
    ```
 
-SQL インジェクションを避けるには、Adobe Campaignで使用するに SQL 関数を追加する必要がありま許可リストす。 オペレーターに追加され許可リストると、式エディターで演算子が表示されます。 [このページ](../../configuration/using/adding-additional-sql-functions.md)を参照してください。
+SQL インジェクションを回避するには、Adobe Campaignで使用するに SQL 関数を追加する必要がありま許可リストす。 Once they are added to the allowlist, they become visible to your operators in the expression editor. [このページ](../../configuration/using/adding-additional-sql-functions.md)を参照してください。
 
 >[!IMPORTANT]
 >
->8140 より古いビルドを使用している場合、 **XtkPassUnknownSQLFunctionsToRDBMS** オプションは「1」に設定される可能性があります。 データベースを保護する場合は、このオプションを削除します（または「0」に設定します）。
+>If you are using a build that is older than 8140, the **XtkPassUnknownSQLFunctionsToRDBMS** option might be set to &#39;1&#39;. データベースを保護する場合は、このオプションを削除します（または「0」に設定します）。
 
 ユーザー入力を使用してクエリや SQL 文でフィルターを作成する場合は、常にエスケープ処理をおこなう必要があります（[Campaign JSAPI のドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)「データ保護：関数のエスケープ」を参照）。次の関数が該当します。
 
@@ -65,9 +65,9 @@ SQL インジェクションを避けるには、Adobe Campaignで使用する�
 
 ## 新しいデータモデルの保護
 
-### フォルダーベース
+### Folder base
 
-次のページを参照してください。
+Refer to these pages:
 
 * [フォルダーアクセスのプロパティ](../../platform/using/access-management.md)
 * [リンクされたフォルダー](../../configuration/using/configuration.md#linked-folder)
@@ -76,7 +76,7 @@ SQL インジェクションを避けるには、Adobe Campaignで使用する�
 
 フォルダーベースのセキュリティモデルに加えて、ネームド権限を使用してオペレーターの操作を制限できます。
 
-* システムフィルター (sysFilter) を追加して、データの読み書きを防ぐことができます（[ このページ ](../../configuration/using/filtering-schemas.md) を参照）。
+* データの読み取り/書き込みを防ぐために、システムフィルタ (sysFilter) を追加できます ( [このページ](../../configuration/using/filtering-schemas.md)) をクリックします。
 
    ```
    <sysFilter name="writeAccess">    
@@ -84,7 +84,7 @@ SQL インジェクションを避けるには、Adobe Campaignで使用する�
    </sysFilter>
    ```
 
-* スキーマで定義された一部の操作（SOAP メソッド）を保護することもできます。アクセス属性に、対応するネームド権限を値として設定します。
+* スキーマで定義された一部の操作（SOAP メソッド）を保護することもできます。対応するネームド権限を値として、アクセス属性を設定します。
 
    ```
    <method name="grantVIPAccess" access="myNewRole">
@@ -104,7 +104,7 @@ SQL インジェクションを避けるには、Adobe Campaignで使用する�
 
 オペレーターのアクセスレベルに応じて機密データ（スキーマの一部）を保護する必要がある場合、フォーム定義で非表示にしないでください（enabledIf／visibleIf 条件）。
 
-エンティティ全体が画面で読み込まれます。また、列定義で表示することもできます。この操作をおこなうには、オーバーフローテーブルを作成する必要があります。[ このページ ](../../configuration/using/examples-of-schemas-edition.md#overflow-table) を参照してください。
+エンティティ全体が画面で読み込まれます。また、列定義で表示することもできます。この操作をおこなうには、オーバーフローテーブルを作成する必要があります。参照 [このページ](../../configuration/using/examples-of-schemas-edition.md#overflow-table).
 
 ## Web アプリケーションへの Captcha の追加
 
@@ -116,7 +116,7 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
 
 1. **[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL パーソナライゼーションブロック]**&#x200B;に移動し、新しいパーソナライゼーションブロックを作成します。
 
-1. **[!UICONTROL Web アプリケーション]** のコンテンツタイプを使用し、「**[!UICONTROL カスタマイズメニューに表示]**」をオンにします。
+1. 以下を使用： **[!UICONTROL Web アプリケーション]** コンテンツタイプとチェック **[!UICONTROL カスタマイズメニューに表示]**.
 
    詳しくは、[このページ](../../delivery/using/personalization-blocks.md)を参照してください。
 
@@ -143,14 +143,14 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
    * 1 ～ 6 行目では、必要な入力をすべて生成します。
    * 7 行目から最終行では、エラーを処理します。
    * 4 行目では、Captcha のグレーボックスのサイズ（width/height）と、生成される単語の長さ（minWordSize/maxWordSize）を変更できます。
-   * Google reCAPTCHA を使用する前に、Googleに登録し、新しい reCAPTCHA サイトを作成する必要があります。
+   * Before using Google reCAPTCHA, you must register on Google and create a new reCAPTCHA site.
 
       `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
-   検証ボタンを無効にすることが必要な場合もありますが、標準的なボタンやリンクは用意されていないので、HTML 自体で実現することをお勧めします。その方法については、[ このページ ](https://developers.google.com/recaptcha/) を参照してください。
+   検証ボタンを無効にすることが必要な場合もありますが、標準的なボタンやリンクは用意されていないので、HTML 自体で実現することをお勧めします。その方法については、 [このページ](https://developers.google.com/recaptcha/).
 
 ### Web アプリケーションの更新
 
-1. Web アプリケーションのプロパティにアクセスして、**captchaValid** という名前のブール値変数を追加します。
+1. Access the properties of your web application to add a boolean variable named **captchaValid**.
 
    ![](assets/scripting-captcha.png)
 
@@ -160,13 +160,13 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
 
    ![](assets/scripting-captcha2.png)
 
-1. 分岐 True の条件を `"[vars/captchaValid]"` が True に等しいと編集します。
+1. 分岐の条件を次の値で編集 `"[vars/captchaValid]"` が True と等しい。
 
    ![](assets/scripting-captcha3.png)
 
-1. **[!UICONTROL スクリプト]** アクティビティを編集します。 コンテンツは、選択した Captcha エンジンによって異なります。
+1. を編集します。 **[!UICONTROL スクリプト]** アクティビティ。 The content will depend on the chosen captcha engine.
 
-1. 最後に、パーソナライズされたブロックをページに追加できます。[ このページ ](../../web/using/editing-content.md) を参照してください。
+1. 最後に、パーソナライズされたブロックをページに追加できます。参照する [このページ](../../web/using/editing-content.md).
 
    ![](assets/scripting-captcha4.png)
 
@@ -174,7 +174,7 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
 
 >[!IMPORTANT]
 >
->reCAPTCHA 統合の場合は、HTML（`<head>...</head>` 内）にクライアント側の JavaScript を追加する必要があります。
+>For reCAPTCHA integration, you have to add client-side JavaScript in the HTML (in `<head>...</head>`):
 >
 >`<script src="https://www.google.com/recaptcha/api.js" async defer></script>`
 
@@ -198,7 +198,7 @@ else
 
 ### Google recaptcha
 
-[ 公式ドキュメント ](https://developers.google.com/recaptcha/docs/verify) を参照してください。
+Please refer to the [official documentation](https://developers.google.com/recaptcha/docs/verify).
 
 ```javascript
 ctx.vars.captchaValid = false
@@ -228,6 +228,6 @@ JSON.parse を使用するには、webApp に「shared/json2.js」を含める�
 
 ![](assets/scripting-captcha6.png)
 
-ビルド 8797 以降では、検証 API URL を使用するには、 urlPermission ノードにを追加して、 serverConf ファイルの許可リストに URL を追加する必要があります。
+Since build 8797, in order to use the verification API URL, you have to add it to the allowlist in the serverConf file by adding in urlPermission node:
 
 `<url dnsSuffix="www.google.com" urlRegEx="https://www.google.com/recaptcha/api/siteverify"/>`

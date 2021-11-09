@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Adobe Campaign Classic には、一般的なインポートおよびエクスポートが用意されています。例えば、ターゲット母集団の一部になる顧客や見込み客のリストを抽出したり、外部ファイルからデータをデータベースに入力したりすることができます。
 
-![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](../../platform/using/exporting-and-importing-profiles.md#import-profiles-video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](../../platform/using/exporting-and-importing-profiles.md#import-profiles-video)
 
 一般的なインポートおよびエクスポートは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL プロファイルおよびターゲット／ジョブ／一般的なインポートおよびエクスポート]**&#x200B;ノードから管理されます。
 

@@ -22,7 +22,7 @@ Adobe Campaign v6 から v7 にアップグレードする場合は、次のガ�
 * Windows でクライアントまたはサーバーをアップグレードする場合は、いずれの場合も Adobe Campaign v6 をアンインストールしてから v7 をインストールします。事前に必ずログと設定ファイルのバックアップをとってください。
 * Linux でサーバーをアップグレードする場合は、Adobe Campaign v6 パッケージを削除してから v7 をインストールします。
 
-移行手順とベストプラクティスの詳細については、以下を参照してください。
+移行手順とベストプラクティスの詳細については、次を参照してください。
 
 * [ビルドアップグレードの実行](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)
 * [移行の概要](../../migration/using/about-migration.md)

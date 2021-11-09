@@ -20,17 +20,17 @@ ht-degree: 7%
 失われたパスワードを変更または復元できます。
 次の 2 つのシナリオが考えられます。
 
-* [Adobe Campaignオペレーターがパスワードを失った](#password-lost-by-campaign-operator)
-* [内部パスワードの紛失](#internal-password-lost) （オンプレミス版のお客様のみ）
+* [Adobe Campaignオペレーターによって失われたパスワード](#password-lost-by-campaign-operator)
+* [内部パスワードが失われました](#internal-password-lost) （オンプレミス版のお客様のみ）
 
-## Campaign オペレーターがパスワードを失った {#password-lost-by-campaign-operator}
+## Campaign オペレーターによって失われたパスワード {#password-lost-by-campaign-operator}
 
 Adobe Campaignのオペレーターがパスワードを失った場合は、パスワードを変更できます。
 これは、次の手順に従って行います。
 
 1. 管理者権限を持つオペレーター経由で接続します。
 1. 演算子を右クリックします。
-1. **[!UICONTROL アクション]** > **[!UICONTROL パスワードをリセット]** を選択します。
+1. 選択 **[!UICONTROL アクション]** > **[!UICONTROL パスワードをリセット]**.
 
    ![](assets/operator-passwd.png)
 
@@ -40,21 +40,21 @@ Adobe Campaignのオペレーターがパスワードを失った場合は、パ
 
 >[!NOTE]
 >
->この節の説明は、オンプレミス版のお客様のみに当てはまります。
+>この節の説明はオンプレミス版のお客様のみに当てはまります。
 
 内部パスワードが失われた場合は、再初期化する必要があります。
 これをおこなうには、次の手順に従います。
 
-1. **/usr/local/neolane/nl6/conf/serverConf.xml** ファイルを編集します。
+1. を編集します。 **/usr/local/neolane/nl6/conf/serverConf.xml** ファイル。
 
-1. **internalPassword** 行に移動します。
+1. 次に移動： **internalPassword** 行
 
    ```
    <!-- XTK authentication mode internalPassword : Password of internal account -->
    <xtk internalPassword="myPassword"/>
    ```
 
-1. 引用符で囲まれた文字列を削除します。この場合は次のようにします。**myPassword**
+1. 引用符で囲まれた文字列を削除します（この場合は次のようにします）。 **myPassword**
 
    次の行が得られます。
 
@@ -77,4 +77,4 @@ Adobe Campaignのオペレーターがパスワードを失った場合は、パ
    Confirmation 
    ```
 
-1. これで、新しいパスワードを使用して **内部** モードで接続できます。
+1. これで、新しいパスワードを使用して、 **内部** モード。

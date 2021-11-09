@@ -17,16 +17,16 @@ ht-degree: 3%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaignインターフェイスで新しい受信者テーブルを表示してダイアログを表示するには、次の手順に従います。
+Adobe Campaignインターフェイスで新しい受信者テーブルを表示し、ダイアログを表示するには、次の手順に従います。
 
-* 新しいフォームを作成して、新しい受信者テーブルの内容を編集します。
+* 新しいフォームを作成して、新しい受信者テーブルのコンテンツを編集します。
 * エクスプローラーツリーのフォルダーに新しいタイプを入力します。
 * 新しい Web アプリケーションを作成し、Adobe Campaignホームページからカスタムテーブルにアクセスします。
 
-Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者データベース (nms:recipient) と対話します。 この変数は変更する必要があります。
+Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者データベース (nms:recipient) とのダイアログを作成します。 したがって、この変数は変更する必要があります。
 
-1. エクスプローラーの **[!UICONTROL 管理/プラットフォーム/オプション]** ノードに移動します。
-1. **Nms_DefaultRcpSchema** 変数の値を、外部の受信者テーブル ( この場合はcus:individual)。
+1. 次に移動： **[!UICONTROL 管理/プラットフォーム/オプション]** エクスプローラーのノード。
+1. 値を **Nms_DefaultRcpSchema** 変数に含まれるデータを格納します。この変数には、外部の受信者テーブルに一致するスキーマの名前 ( この場合はcus:individual) の形式で指定します。
 1. 変更を保存します。
 
 ## 新しいフォームの作成 {#creating-a-new-form-}
@@ -37,15 +37,15 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
 >
 >フォームの名前は、対象となるスキーマの名前と同じにする必要があります。
 
-1. エクスプローラーの **管理/設定/入力フォーム** ノードに移動します。
-1. 新しい **xtk:form** タイプ **form** ファイルを作成します。
+1. 次に移動： **管理/設定/入力フォーム** エクスプローラーのノード。
+1. 新しい **xtk:form** type **フォーム** ファイル。
 1. テーブルテンプレートに応じて、必要なすべての監視およびフィールドについて説明します。
 
    >[!NOTE]
    >
-   >**form** タイプのファイルの詳細については、[ このページ ](../../configuration/using/identifying-a-form.md) を参照してください。
+   >詳しくは、 **フォーム** タイプファイル： [このページ](../../configuration/using/identifying-a-form.md).
 
-   この例では、**form** ファイルは **cus:individual** スキーマに基づいている必要があるので、次のレイアウトにする必要があります。
+   現在の例では、 **フォーム** ファイルは **cus:individual** スキーマを作成し、次のレイアウトにする必要があります。
 
    ```
    <container colspan="2">
@@ -64,15 +64,15 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
 
 ## ナビゲーション階層での新しいタイプのフォルダーの作成 {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}
 
-1. **[!UICONTROL 管理/設定/ナビゲーション階層]** ノードに移動します。
-1. 新しい **xtk:navtree** タイプ **navtree** ドキュメントを作成します。
+1. 次に移動： **[!UICONTROL 管理/設定/ナビゲーション階層]** ノード。
+1. 新しい **xtk:navtree** type **ナブツリー** 文書。
 1. テーブルテンプレートに応じて、必要なすべての監視およびフィールドについて説明します。
 
    >[!NOTE]
    >
-   >**navtree** タイプのファイルについて詳しくは、[ このページ ](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy) を参照してください。
+   >詳しくは、 **ナブツリー** タイプファイル： [このページ](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
 
-   現在の例では、**navtree** ファイルは **cus:individual** スキーマに基づいている必要があるので、次の形式にする必要があります。
+   現在の例では、 **ナブツリー** ファイルは **cus:individual** スキーマを作成し、次の形式を取ります。
 
    ```
     <model name="root">

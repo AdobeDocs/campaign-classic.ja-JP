@@ -21,7 +21,7 @@ ht-degree: 9%
 
 ## 静的メソッド {#static-methods}
 
-静的 SOAP メソッドは、スキーマを表すオブジェクトのメソッドを呼び出すことでアクセスされます。 スキーマは、「名前空間」オブジェクトのプロパティです。 これらの名前空間はグローバル変数なので、例えば xtk や nms 変数は対応する名前空間を表します
+静的 SOAP メソッドは、スキーマを表すオブジェクトのメソッドを呼び出すことでアクセスされます。 スキーマは、「namespace」オブジェクトのプロパティです。 これらの名前空間はグローバル変数なので、例えば、xtk や nms 変数は対応する名前空間を表します
 
 次の例では、xtk:workflow スキーマの静的 PostEvent メソッドを呼び出します。
 
@@ -31,7 +31,7 @@ xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false)
 
 ## 非静的メソッド {#non-static-methods}
 
-非静的 SOAP メソッドを使用するには、まず対応するスキーマで「get」または「create」メソッドを使用してエンティティを取得する必要があります。
+非静的 SOAP メソッドを使用するには、まず、対応するスキーマで「get」または「create」メソッドを使用してエンティティを取得する必要があります。
 
 次の例では、「xtk:queryDef」スキーマの ExecuteQuery メソッドを呼び出します。
 
@@ -52,7 +52,7 @@ for each (var w in res.workflow)
 
 ## 例 {#examples}
 
-* 「get」操作を使用した受信者テーブルに対するクエリ：
+* 「get」操作で受信者テーブルに対するクエリを実行します。
 
    ```
    var query = xtk.queryDef.create(  
@@ -73,7 +73,7 @@ for each (var w in res.workflow)
    logInfo(recipient.@lastName)
    ```
 
-* 「選択」操作を使用した受信者テーブルに対するクエリ：
+* 受信者テーブルに対して「選択」操作でクエリを実行します。
 
    ```
    var query = xtk.queryDef.create(  
@@ -98,7 +98,7 @@ for each (var w in res.workflow)
    }
    ```
 
-* 受信者テーブルへのデータの書き込み：
+* 受信者テーブルにデータを書き込む：
 
    ```
    xtk.session.Write(<recipient _operation="insert" lastName="Martinez" firstName="Peter" xtkschema="nms:recipient"/>);

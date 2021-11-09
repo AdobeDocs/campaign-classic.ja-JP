@@ -17,27 +17,27 @@ ht-degree: 5%
 
 ![](../../assets/v7-only.svg)
 
-配信パラメーターは、**serverConf.xml** フォルダーで設定する必要があります。
+配信パラメーターは、 **serverConf.xml** フォルダー。
 
-* **DNS 設定**:以降の MTA モジュールがおこなう MX タイプの DNS クエリに応答するために使用する DNS サーバーの配信ドメインと IP アドレス（またはホスト）を指定 **`<dnsconfig>`** します。
+* **DNS 設定**:MTA モジュールが **`<dnsconfig>`** 以降
 
    >[!NOTE]
    >
-   >**nameServers** パラメーターは、Windows でのインストールに不可欠です。 Linux でのインストールの場合は、空のままにする必要があります。
+   >この **nameServers** パラメーターは、Windows でのインストールに必須です。 Linux でのインストールの場合は、空のままにする必要があります。
 
    ```
    <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
    ```
 
-必要に応じて、次の設定を実行することもできます。[SMTP リレー ](#smtp-relay) を設定し、[MTA 子プロセス ](#mta-child-processes)、[ 送信 SMTP トラフィックの管理 ](#managing-outbound-smtp-traffic-with-affinities) の数を調整します。
+必要に応じて、次の設定を実行することもできます。設定 [SMTP リレー](#smtp-relay)、 [MTA 子プロセス](#mta-child-processes), [送信 SMTP トラフィックを管理](#managing-outbound-smtp-traffic-with-affinities).
 
 ## SMTP リレー {#smtp-relay}
 
-MTA モジュールは、SMTP ブロードキャスト（ポート 25）のネイティブメール転送エージェントとして機能します。
+MTA モジュールは、SMTP ブロードキャスト用のネイティブメール転送エージェント（ポート 25）として機能します。
 
-ただし、セキュリティポリシーで必要な場合は、リレーサーバーで置き換えることができます。 この場合、グローバルスループットは中継スループットになります ( ただし、中継サーバーのスループットがAdobe Campaignのスループットよりも低い場合 )。
+ただし、セキュリティポリシーで必要な場合は、リレーサーバーで置き換えることができます。 この場合、グローバルスループットはリレーのスループットになります ( リレーサーバーのスループットがAdobe Campaignのスループットよりも低い場合 )。
 
-この場合、これらのパラメーターは **`<relay>`** セクションで SMTP サーバーを設定することで設定されます。 メールの転送に使用する SMTP サーバーの IP アドレス（またはホスト）と、それに関連するポート（デフォルトでは 25）を指定する必要があります。
+この場合、これらのパラメーターは、 **`<relay>`** 」セクションに入力します。 メールの転送に使用する SMTP サーバーの IP アドレス（またはホスト）と、それに関連するポート（デフォルトでは 25）を指定する必要があります。
 
 ```
 <relay address="192.0.0.3" port="25"/>
@@ -45,31 +45,31 @@ MTA モジュールは、SMTP ブロードキャスト（ポート 25）のネ�
 
 >[!IMPORTANT]
 >
->この動作モードは配信に重大な制限を含みます。これは、リレーサーバーの固有のパフォーマンス（待ち時間、帯域幅など）が原因で、スループットを大幅に低下させる可能性があるからです。 また、同期配信エラー（SMTP トラフィックの分析で検出）を検証する能力は限られ、リレーサーバーが利用できない場合は送信ができなくなります。
+>この動作モードは、配信に対する重大な制限を意味します。リレーサーバーの固有のパフォーマンス（待ち時間、帯域幅など）が原因で、スループットが大幅に低下する可能性があるからです。 また、（SMTP トラフィックの分析で検出される）同期配信エラーを検証する能力は制限され、リレーサーバーが利用できない場合は送信ができなくなります。
 
 ## MTA 子プロセス {#mta-child-processes}
 
-サーバの CPU 電力と使用可能なネットワークリソースに応じてブロードキャストパフォーマンスを最適化するために、子プロセスの数（デフォルトでは maxSpareServers 2）を制御できます。 この設定は、個々のコンピューターの MTA 設定の **`<master>`** セクションで行います。
+サーバの CPU 処理能力と使用可能なネットワークリソースに応じてブロードキャストパフォーマンスを最適化するために、子プロセスの数（デフォルトでは maxSpareServers）を制御できます。 この設定は、 **`<master>`** 個々のコンピューター上の MTA 設定のセクション。
 
 ```
 <master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">
 ```
 
-[E メール送信の最適化 ](../../installation/using/email-deliverability.md#email-sending-optimization) も参照してください。
+また、 [E メール送信の最適化](../../installation/using/email-deliverability.md#email-sending-optimization).
 
 ## アフィニティを使用したアウトバウンド SMTP トラフィックの管理 {#managing-outbound-smtp-traffic-with-affinities}
 
 >[!IMPORTANT]
 >
->アフィニティの設定は、サーバー間で一貫している必要があります。 設定の変更は MTA を実行するすべてのアプリケーションサーバーでレプリケートする必要があるので、アフィニティの設定については、Adobeに問い合わせることをお勧めします。
+>アフィニティの設定は、サーバー間で一貫性を保つ必要があります。 設定の変更は MTA を実行するすべてのアプリケーションサーバーでレプリケートされる必要があるので、アフィニティ設定については、Adobeに問い合わせることをお勧めします。
 
-IP アドレスを使用してアフィニティを通じて送信 SMTP トラフィックを改善できます。
+IP アドレスを使用したアフィニティを通じて、アウトバウンド SMTP トラフィックを改善できます。
 
 それには、次の手順に従います。
 
-1. **serverConf.xml** ファイルの **`<ipaffinity>`** セクションにアフィニティを入力します。
+1. にアフィニティを入力します。 **`<ipaffinity>`** セクション **serverConf.xml** ファイル。
 
-   1 つのアフィニティには、複数の異なる名前を指定できます。区切るには、**;** 文字を使用します。
+   1 つのアフィニティには、複数の異なる名前を付けることができます。区切るには、 **;** 文字。
 
    例：
 
@@ -78,23 +78,23 @@ IP アドレスを使用してアフィニティを通じて送信 SMTP トラ�
              <IP address="XX.XXX.XX.XX" heloHost="myserver.us.campaign.net" publicId="123" excludeDomains="neo.*" weight="5"/
    ```
 
-   関連するパラメーターを表示するには、**serverConf.xml** ファイルを参照してください。
+   関連するパラメーターを表示するには、 **serverConf.xml** ファイル。
 
-1. ドロップダウンリストでアフィニティを選択できるようにするには、**IPAffinity** 列挙にアフィニティ名を追加する必要があります。
+1. ドロップダウンリストでアフィニティの選択を有効にするには、 **IPAffinity** 列挙。
 
    ![](assets/ipaffinity_enum.png)
 
    >[!NOTE]
    >
-   >列挙について詳しくは、[ このドキュメント ](../../platform/using/managing-enumerations.md) を参照してください。
+   >列挙について詳しくは、 [このドキュメント](../../platform/using/managing-enumerations.md).
 
-   次に示すように、タイポロジに使用するアフィニティを選択できます。
+   その後、タイポロジに関して以下に示すように、使用するアフィニティを選択できます。
 
    ![](assets/ipaffinity_typology.png)
 
    >[!NOTE]
    >
-   >[ 配信サーバーの設定 ](../../installation/using/email-deliverability.md#delivery-server-configuration) も参照してください。
+   >また、 [配信サーバーの設定](../../installation/using/email-deliverability.md#delivery-server-configuration).
 
 **関連トピック**
 * [技術的なメール設定](email-deliverability.md)

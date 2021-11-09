@@ -17,16 +17,16 @@ ht-degree: 3%
 
 ![](../../assets/v7-only.svg)
 
-カスタムテーブルと、ターゲットマッピングを介してリンクされたテーブルのデータを考慮するには、デフォルトのAdobe Campaign受信者（nm:recipient またはスキーマリンク）に固有のスキーマに基づくレポートを再開発する必要があります（[ ターゲットマッピング ](../../configuration/using/target-mapping.md) の節を参照）。
+カスタムテーブルと、ターゲットマッピングを介してリンクされたテーブルのデータを考慮するには、デフォルトのAdobe Campaign受信者（nm:recipient またはリンクされたスキーマ）に基づくレポートを再開発する必要があります ( [ターゲットマッピング](../../configuration/using/target-mapping.md) を参照 )。
 
-新しいレポートを作成するには、[ この節 ](../../reporting/using/about-reports-creation-in-campaign.md) を参照してください。
+新しいレポートを作成するには、 [この節](../../reporting/using/about-reports-creation-in-campaign.md).
 
-場合によっては、これらのテーブルに固有の新しいキューブを配置する必要があります。 キューブについて詳しくは、[ この節 ](../../reporting/using/about-cubes.md) を参照してください。
+場合によっては、これらのテーブルに固有の新しいキューブを配置する必要があります。 キューブについて詳しくは、 [この節](../../reporting/using/about-cubes.md).
 
-次のレポートが対象です。
+次のレポートが対象となります。
 
 * **[!UICONTROL 最近の提案トラッキング]** (recentPropositions):リアルタイム提案トラッキング。
-* **[!UICONTROL 開封数の分類]** (opensByUserAgent):ユーザーソフトウェアに従って分類された開き。
+* **[!UICONTROL 開封数の分類]** (opensByUserAgent):をユーザーのソフトウェアに従って分類して開きます。
 * **[!UICONTROL 共有アクティビティの統計]** (forwardActivities):期間ごとの共有アクティビティ数、開封数および購読数の分析。
 * **[!UICONTROL トラッキング指標]** (mobileAppDeliveryFeedback):モバイルアプリケーションでの配信のトラッキング指標。
 * **[!UICONTROL オファー分析]** (offerAnalysis):日付別およびチャネル別のオファー分析。

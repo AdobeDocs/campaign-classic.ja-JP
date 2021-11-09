@@ -68,7 +68,7 @@ Webモジュールに固有の例を以下に示します。 他のモジュー�
 nlserver pdump -who
 ```
 
-次に、**TraceFilter** モードでモジュールをシャットダウンして再起動します。
+次に、でモジュールをシャットダウンして再起動します。 **TraceFilter** モード：
 
 ```
 nlserver stop web; LD_PRELOAD=libjsig.so nlserver web -tomcat -verbose -tracefilter:* -tracefile:web_debug@default

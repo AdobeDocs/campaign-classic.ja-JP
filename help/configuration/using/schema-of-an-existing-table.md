@@ -19,9 +19,9 @@ ht-degree: 15%
 
 ## 概要 {#overview}
 
-アプリケーションが既存のテーブル、SQL ビュー、またはリモート・データベースのデータにアクセスする必要がある場合は、次のデータを使用してAdobe Campaignでスキーマを作成します。
+アプリケーションが既存のテーブル、SQL ビュー、またはリモートデータベースのデータにアクセスする必要がある場合は、次のデータを使用してAdobe Campaignでスキーマを作成します。
 
-* テーブル名：「sqltable」属性を使用して、テーブルの名前（dblink を使用する場合のエイリアス）を入力します。
+* テーブル名：「sqltable」属性を使用して、テーブルの名前（dblink を使用する場合はエイリアス）を入力します。
 * スキーマキー：紐付けフィールドの参照
 * インデックス：クエリの生成に使用
 * XML 構造内のフィールドとその場所：アプリケーションで使用するフィールドにのみ入力します。
@@ -32,7 +32,7 @@ ht-degree: 15%
 対応するスキーマを作成するには、次のステージを適用します。
 
 1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードを編集し、「**[!UICONTROL 新規]**」をクリックします。
-1. 「**[!UICONTROL 既存のテーブルまたは SQL ビューからデータにアクセス]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
+1. を選択します。 **[!UICONTROL 既存のテーブルまたは SQL ビューからデータにアクセスする]** オプションを選択し、 **[!UICONTROL 次へ]** .
 
    ![](assets/s_ncs_configuration_extand_a_schema.png)
 
@@ -44,7 +44,7 @@ ht-degree: 15%
 
    ![](assets/s_ncs_configuration_view_create_schema.png)
 
-   テーブル作成 SQL スクリプトを生成しないように、 `<srcSchema>` ルート要素の view=&quot;true&quot;属性をスキーマに設定する必要があります。
+   スキーマには、 `<srcSchema>` テーブル作成 SQL スクリプトを生成しないようにするルート要素。
 
 **例**：
 
@@ -61,6 +61,6 @@ ht-degree: 15%
 
 ## 外部データベースへのアクセス {#accessing-an-external-database}
 
-「**Federated Data Access - FDA**」オプションを使用すると、外部データベースに保存されているデータにアクセスできます。
+この **Federated Data Access - FDA** 「 」オプションを使用すると、外部データベースに保存されているデータにアクセスできます。
 
-外部データベースのデータにアクセスするためにスキーマに対して実行する設定について詳しくは、[ このページ ](../../installation/using/creating-data-schema.md) を参照してください。
+外部データベースのデータにアクセスするスキーマに対して実行する設定について詳しくは、 [このページ](../../installation/using/creating-data-schema.md).

@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Hadoop へのアクセスの設定
-description: FDA でHadoopへのアクセスを設定する方法を説明します
+description: FDA でHadoopへのアクセスを設定する方法
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -17,10 +17,10 @@ ht-degree: 79%
 
 ![](../../assets/v7-only.svg)
 
-Campaign の **Federated Data Access**(FDA) オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って、Hadoopへのアクセスを設定します。
+キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、Hadoopへのアクセスを設定します。
 
-1. [Hadoop・データベース ](#configuring-hadoop) の構成
-1. hadoop[ 外部アカウント ](#hadoop-external) を Campaign で設定します
+1. 設定 [Hadoopデータベース](#configuring-hadoop)
+1. hadoop [外部アカウント](#hadoop-external) キャンペーン内
 
 ## Hadoop 3.0 の設定 {#configuring-hadoop}
 
@@ -37,7 +37,7 @@ FDA で Hadoop 外部データベースに接続するには、Adobe Campaign �
    systemctl start nlserver.service
    ```
 
-1. Campaign Classic では、[!DNL Hadoop] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、[ この節 ](#hadoop-external) を参照してください。
+1. Campaign Classic では、[!DNL Hadoop] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、 [この節](#hadoop-external).
 
 ## Hadoop 外部アカウント {#hadoop-external}
 
@@ -84,7 +84,7 @@ FDA で Hadoop 外部データベースに接続するには、Adobe Campaign �
 
 ## Hadoop 2.1 の設定 {#configure-access-hadoop-2}
 
-hadoop2.1 に接続する必要がある場合は、以下の手順に従って [Windows](#for-windows) または [Linux](#for-linux) に接続します。
+hadoop2.1 に接続する必要がある場合は、次の手順に従って、 [Windows](#for-windows) または [Linux](#for-linux).
 
 ### Windows 版hadoop2.1 {#for-windows}
 
@@ -100,7 +100,7 @@ hadoop2.1 に接続する必要がある場合は、以下の手順に従って 
    User/Password: admin/<your password here>
    ```
 
-1. [ この節 ](#hadoop-external) で説明されているように、Hadoop外部アカウントを作成します。
+1. hadoop外部アカウントを作成します ( [この節](#hadoop-external).
 
 ### Linux 用hadoop2.1 {#for-linux}
 
@@ -110,7 +110,7 @@ hadoop2.1 に接続する必要がある場合は、以下の手順に従って 
    apt-get install unixodbc
    ```
 
-1. HortonWorks から Apache Hive 用の ODBC ドライバーをダウンロードしてインストールします。[https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html).
+1. HortonWorks から Apache Hive 用の ODBC ドライバーをダウンロードしてインストールします。 [https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html).
 
    ```
    dpkg -i hive-odbc-native_2.1.10.1014-2_amd64.deb
@@ -187,4 +187,4 @@ hadoop2.1 に接続する必要がある場合は、以下の手順に従って 
    isql vorac -v
    ```
 
-1. [ この節 ](#hadoop-external) で説明されているように、Hadoop外部アカウントを作成します。
+1. hadoop外部アカウントを作成します ( [この節](#hadoop-external).

@@ -17,11 +17,11 @@ ht-degree: 22%
 
 ![](../../assets/v7-only.svg)
 
-移行を実行する前に、[ 移行を開始する前に ](../../migration/using/before-starting-migration.md) および [ プラットフォームの設定 ](../../migration/using/configuring-your-platform.md) を参照してください。
+移行を実行する前に、 [移行を開始する前に](../../migration/using/before-starting-migration.md) および [プラットフォームの設定](../../migration/using/configuring-your-platform.md) セクション。
 
 v6.02 からAdobe Campaign v7 に移行する場合、事前に配信された一部のファイルは配信されません。
 
-クライアントエラーが表示された場合は、新しいAdobe Campaign v7 コードでダッシュボードを更新するか、v6.02 インスタンスから v7 インスタンスに次のファイルを手動でコピーする必要があります。
+クライアントエラーが表示された場合は、新しいAdobe Campaign v7 コードでダッシュボードを更新するか、次のファイルを v6.02 インスタンスから v7 インスタンスに手動でコピーする必要があります。
 
 ```
 v6.02 files and spaces:

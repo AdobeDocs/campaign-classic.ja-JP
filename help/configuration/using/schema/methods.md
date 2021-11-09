@@ -13,7 +13,7 @@ ht-degree: 27%
 
 ---
 
-# メソッド要素 {#methods--element}
+# methods 要素 {#methods--element}
 
 ![](../../../assets/v7-only.svg)
 
@@ -31,11 +31,11 @@ ht-degree: 27%
 
 ## 子 {#children-11}
 
-方法
+メソッド
 
 ## 説明 {#description-11}
 
-この要素を使用して、`<method>` 要素を定義できます。 メソッドの宣言は必須です。
+この要素では、 `<method>`  要素。 メソッドの宣言には必須です。
 
 ## 属性の説明 {#attribute-description-11}
 

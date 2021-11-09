@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Snowflake へのアクセスの設定
-description: FDA でSnowflakeへのアクセスを設定する方法を説明します
+description: FDA でSnowflakeへのアクセスを設定する方法
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -17,10 +17,10 @@ ht-degree: 72%
 
 ![](../../assets/v7-only.svg)
 
-Campaign の **Federated Data Access**(FDA) オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って、[!DNL Snowflake] へのアクセスを設定します。
+キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存された情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 [!DNL Snowflake].
 
-1. [CentOS](#snowflake-centos)、[Windows](#snowflake-windows) または [Debian](#snowflake-debian) に [!DNL Snowflake] を設定します。
-1. Campaign で [!DNL Snowflake] [ 外部アカウント ](#snowflake-external) を設定します
+1. 設定 [!DNL Snowflake] オン [CentOS](#snowflake-centos), [Windows](#snowflake-windows) または [Debian](#snowflake-debian)
+1. の設定 [!DNL Snowflake] [外部アカウント](#snowflake-external) キャンペーン内
 
 
 >[!NOTE]
@@ -31,7 +31,7 @@ Campaign の **Federated Data Access**(FDA) オプションを使用して、外
 
 ## CentOS での Snowflake {#snowflake-centos}
 
-CentOS で [!DNL Snowflake] を設定するには、次の手順に従います。
+を設定するには、以下を実行します。 [!DNL Snowflake] CentOS で、次の手順に従います。
 
 1. [!DNL Snowflake] 用の ODBC ドライバーをダウンロードします。ダウンロードを開始するには、[ここをクリック](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm)します。
 1. 次のコマンドを使用して、CentOs に ODBC ドライバーをインストールする必要があります。
@@ -48,7 +48,7 @@ CentOS で [!DNL Snowflake] を設定するには、次の手順に従います�
    /etc/init.d/nlserver6 start
    ```
 
-1. Campaign では、[!DNL Snowflake] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[ この節 ](#snowflake-external) を参照してください。
+1. Campaign では、 [!DNL Snowflake] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#snowflake-external).
 
 ## Windows での Snowflake。 {#snowflake-windows}
 
@@ -56,7 +56,7 @@ CentOS で [!DNL Snowflake] を設定するには、次の手順に従います�
 
 1. ODBC ドライバーを設定します。詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)を参照してください。
 
-1. Campaign では、[!DNL Snowflake] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[ この節 ](#snowflake-external) を参照してください。
+1. Campaign では、 [!DNL Snowflake] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#snowflake-external).
 
 ## Debian での Snowflake {#snowflake-debian}
 
@@ -76,13 +76,13 @@ CentOS で [!DNL Snowflake] を設定するには、次の手順に従います�
    systemctl start nlserver.service
    ```
 
-1. Campaign では、[!DNL Snowflake] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[ この節 ](#snowflake-external) を参照してください。
+1. Campaign では、 [!DNL Snowflake] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#snowflake-external).
 
 ## Snowflake 外部アカウント {#snowflake-external}
 
-Campaign インスタンスを [!DNL Snowflake] 外部データベースに接続するには、[!DNL Snowflake] 外部アカウントを作成する必要があります。
+次を作成する必要があります： [!DNL Snowflake] Campaign インスタンスを [!DNL Snowflake] 外部データベース。
 
-1. Campaign **[!UICONTROL エクスプローラー]** から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]** をクリックします。
+1. キャンペーンから **[!UICONTROL エクスプローラ]**&#x200B;をクリックし、 **[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL 外部アカウント]**.
 
 1. 「**[!UICONTROL 新規]**」をクリックします。
 

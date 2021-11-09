@@ -35,11 +35,11 @@ compute-string:==EMPTY
 
 ## 説明 {#description-1}
 
-`<compute-string>` 要素を使用すると、XTK 式に基づいて文字列を生成し、複数の値に基づいて「built」ラベルをインターフェイスに表示できます。
+この `<compute-string>` element を使用すると、XTK 式に基づいて文字列を生成し、複数の値に基づいてインターフェイスに「built」ラベルを表示できます。
 
 ## 使用と使用のコンテキスト {#use-and-context-of-use-1}
 
-`<compute-string>` が定義されていない場合は、デフォルトで `<compute-string>` 要素が入力され、スキーマのプライマリキーの値が設定されます。
+いいえの場合 `<compute-string>` が定義されている場合、 `<compute-string>` 要素は、デフォルトで、スキーマのプライマリキーの値を使用して入力されます。
 
 ## 属性の説明 {#attribute-description-1}
 

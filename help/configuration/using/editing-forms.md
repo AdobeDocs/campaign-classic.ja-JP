@@ -17,7 +17,7 @@ ht-degree: 56%
 
 ![](../../assets/v7-only.svg)
 
-入力フォームの作成と設定画面には、Adobe Campaignクライアントコンソールの **[!UICONTROL 管理 ] / [!UICONTROL  設定 ] / [!UICONTROL  入力フォーム]** フォルダーからアクセスできます。
+入力フォームの作成と設定画面には、 **[!UICONTROL 管理] > [!UICONTROL 設定] > [!UICONTROL 入力フォーム]** Adobe Campaignクライアントコンソールのフォルダー：
 
 ![](assets/d_ncs_integration_form_arbo.png)
 

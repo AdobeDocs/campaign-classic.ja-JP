@@ -19,12 +19,12 @@ ht-degree: 1%
 
 ## パラメーターの定義 {#definition-of-parameters}
 
-Adobe Campaignプラットフォームでは、標準として 2 つのトランザクションタイプの Web トラッキングパラメーターが用意されています。
+Adobe Campaignプラットフォームでは、標準として 2 つの TRANSACTION タイプの Web トラッキングパラメーターが提供されます。
 
 * **量**:トランザクションの金額を表します。
 * **記事**:トランザクション内の品目数を表します。
 
-これらのパラメーターは **nms:webTrackingLog** スキーマで定義され、レポートに表示される指標の一部です。
+これらのパラメーターは、 **nms:webTrackingLog** スキーマとは、レポートで確認できる指標の一部です。
 
 追加のパラメーターを定義するには、このスキーマを拡張する必要があります。
 
@@ -42,23 +42,23 @@ Adobe Campaignプラットフォームでは、標準として 2 つのトラン
 </srcSchema>
 ```
 
-（配信または受信者の）トラッキングログリストを設定して、これらのパラメーターの値を表示できます。
+（配信または受信者の）トラッキングログリストを設定することで、これらのパラメーターの値を表示できます。
 
-## リダイレクトサーバーの構成 {#redirection-server-configuration}
+## リダイレクトサーバーの設定 {#redirection-server-configuration}
 
-サーバーの設定で、Web トラッキングパラメーターに使用する最大文字数を定義できます。
+サーバーの設定で、Web トラッキングパラメーターで使用する最大文字数を定義できます。
 
 >[!IMPORTANT]
 >
 >考慮する最大文字数を増やすと、プラットフォームの Web トラッキングのパフォーマンスに影響を与える可能性があります。
 
-そのためには、**serverConf.xml** ファイルの **`<trackinglogd>`** 要素の **webTrackingParamSize** 属性を変更します。 このファイルは、Adobe Campaignインストールディレクトリの **conf** サブディレクトリに保存されます。
+これをおこなうには、 **webTrackingParamSize** の属性 **`<trackinglogd>`** 要素を **serverConf.xml** ファイル。 このファイルは、 **conf** Adobe Campaignインストールディレクトリのサブディレクトリ。
 
 **例**：
 
-デフォルト値は 64 文字です。 この値を使用すると、**amount** および **article**(&quot;amount=xxxxxxx&amp;article=xxxxxxx&quot;) 標準パラメーターを考慮に入れることができます。
+デフォルト値は 64 文字です。 この値では、 **量** および **記事** (&quot;amount=xxxxxxxxx&amp;article=xxxxxxxxxx&quot;) 標準パラメーター。
 
-上記の拡張スキーマの例で示した両方のパラメーター（名前のサイズと値のサイズ）を考慮することで、100 文字を考慮に入れるように設定を変更できます (&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxxx&amp;code=xxxxx&quot;)。
+上記の拡張スキーマの例で示した両方のパラメーター（名前のサイズ+値のサイズ）を考慮することで、100 文字を考慮に入れるように設定を変更できます (「amount=xxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxxxxx&amp;code=xxxxxxxxxx」)。
 
 ```
 <trackinglogd args="" autoStart="false" initScript="" maxCreateFileRetry="5" maxLogsSizeOnDiskMb="500"
@@ -69,19 +69,19 @@ webTrackingParamSize="64"/>
 
 設定を変更した場合は、次の操作を行う必要があります。
 
-* リダイレクトモジュールをホストする Web サーバー（Apache、IIS など）を停止します。
-* Adobe Campaignサーバーを停止します。**Windows では** net stop nlserver6 **、Linux では /etc/init.d/nlserver6 stop**
+* リダイレクトモジュールをホストする Web サーバー（Apache、IIS など）を停止し、
+* Adobe Campaignサーバーを停止します。 **net stop nlserver6** Windows の場合、 **/etc/init.d/nlserver6 停止** Linux では、
 
    >[!NOTE]
    >
-   >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。**systemctl stop nlserver**
+   >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl stop nlserver**
 
-* Linux では、**ipcrm** コマンドを使用して共有メモリセグメントを削除します。
-* Adobe Campaignサーバーを再起動します。**Windows では**/etc/init.d/nlserver6 start **、Linux では net start nlserver6**
+* Linux では、 **ipcrm** コマンド
+* Adobe Campaignサーバーを再起動します。 **net start nlserver6** Windows の場合、 **/etc/init.d/nlserver6 start** Linux では、
 
    >[!NOTE]
    >
-   >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。**systemctl start nlserver**
+   >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl start nlserver**
 
 * Web サーバーを再起動します。
 
@@ -111,4 +111,4 @@ adobe@selma:~$ systemctl start apache2
 
 >[!NOTE]
 >
->Linux では、**webTrackingParamSize** または **maxSharedLogs** パラメーターのサイズを大きくすると、共有メモリ (SHM) のサイズを大きくする必要が生じる場合があります。
+>Linux の場合、 **webTrackingParamSize** または **maxSharedLogs** パラメーターを使用する場合、共有メモリ (SHM) のサイズを増やす必要が生じる場合があります。

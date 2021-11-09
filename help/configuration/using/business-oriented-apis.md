@@ -17,41 +17,41 @@ ht-degree: 4%
 
 ![](../../assets/v7-only.svg)
 
-ビジネス API は、各タイプのオブジェクトに固有です。 以下に影響します。
+ビジネス API は、オブジェクトの各タイプに固有です。 次の項目に影響します。
 
 * 配信:
 
-   * 配信アクションの作成 ([SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-) を参照 )
+   * 配信アクションの作成 ( [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
    * キャンペーンの送信（開始、一時停止、停止、配達確認の送信）
-   * 配信ログのリカバリ
+   * 配信ログを復元しています。
 
 * ワークフロー:
 
    * ワークフローの開始
    * プロセスの検証等
 
-      [JavaScript の SOAP メソッド ](../../configuration/using/soap-methods-in-javascript.md) を参照してください。
+      参照： [JavaScript での SOAP メソッド](../../configuration/using/soap-methods-in-javascript.md).
 
 * コンテンツ管理
-* 購読管理については、[ 購読 (nms:subscription)](#subscribe--nms-subscription-) および [ 購読解除 (nms:subscription)](#unsubscribe--nms-subscription-) を参照してください。
+* 購読管理 ( [購読 (nms:subscription)](#subscribe--nms-subscription-) および [配信停止 (nms:subscription)](#unsubscribe--nms-subscription-).
 * データプロセス：インポート、エクスポート。
 
 この節では、「購読」、「購読解除」および「SubmitDelivery」サービスの使用について詳しく説明します。
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI ドキュメ](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) ントには、Adobe Campaignでの SOAP 呼び出しと JavaScript の使用に関する追加情報と、アプリケーションで使用されるすべてのメソッドと関数への完全なリファレンスが含まれています。
+>[Campaign JSAPI ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) には、SOAP 呼び出しとAdobe Campaignでの JavaScript の使用に関する追加情報と、アプリケーションで使用されるすべてのメソッドおよび関数への完全なリファレンスが含まれています。
 
 ## 購読 (nms:subscription) {#subscribe--nms-subscription-}
 
-このサービスを使用すると、受信者を情報サービスに登録し、受信者のプロファイルを更新できます。
+このサービスを使用すると、受信者を情報サービスに登録し、受信者プロファイルを更新できます。
 
 サービスを呼び出すには、次のパラメーターが必要です。
 
 * 認証
-* サブスクリプションサービスの内部名
-* （「nms:recipient」スキーマの）受信者情報を含む XML ドキュメント
-* 受信者の作成用のブール値（まだ存在しない場合）。
+* 購読サービスの内部名
+* （「nms:recipient」スキーマからの）受信者情報を含む XML ドキュメント
+* 受信者作成用のブール値（まだ存在しない場合）。
 
 「nms:subscription」スキーマの「subscribe」メソッドの説明：
 
@@ -65,19 +65,19 @@ ht-degree: 4%
 </method>
 ```
 
-紐付けキーの定義は、XML ドキュメントの `<recipient>` 要素の_**key** 属性を使用して入力する必要があります。 この属性の内容は、コンマ区切りの XPath リストです。
+紐付けキーの定義は、_**key** 属性 `<recipient>` XML ドキュメントの要素。 この属性の内容は、コンマ区切りの XPath リストです。
 
 この呼び出しは、エラーを除き、データを返しません。
 
 ### 例 {#examples}
 
-E メールアドレスの受信者紐付けキーを含む購読：入力 XML ドキュメントは、電子メールアドレスと、このフィールドのキーの定義を参照する必要があります。
+E メールアドレスの受信者の紐付けキーを含む購読：入力 XML ドキュメントは、電子メールアドレスと、このフィールドのキーの定義を参照する必要があります。
 
 ```
 <recipient _key="email" email= "john.doe@adobe.com"/>
 ```
 
-受信者と購読を更新します。
+受信者と購読を更新する。
 
 ```
 <recipient _key="email, [folder-id]" email= "john.doe@adobe.com" folder-id="1305" firstName="John" lastName="Doe"/>
@@ -115,15 +115,15 @@ E メールアドレスの受信者紐付けキーを含む購読：入力 XML �
    </SOAP-ENV:Envelope>
    ```
 
-## 購読解除 (nms:subscription) {#unsubscribe--nms-subscription-}
+## 配信停止 (nms:subscription) {#unsubscribe--nms-subscription-}
 
-このサービスを使用すると、情報サービスから受信者を購読解除し、受信者プロファイルを更新できます。
+このサービスを使用すると、情報サービスから受信者を購読解除して、受信者プロファイルを更新できます。
 
 サービスを呼び出すには、次のパラメーターが必要です。
 
 * 認証
-* 購読解除するサービスの内部名
-* （「nms:recipient」スキーマの）受信者情報を含む XML ドキュメント
+* 配信停止するサービスの内部名
+* （「nms:recipient」スキーマからの）受信者情報を含む XML ドキュメント
 
 「nms:subscription」スキーマの「Unsubscribe」メソッドの説明：
 
@@ -136,9 +136,9 @@ E メールアドレスの受信者紐付けキーを含む購読：入力 XML �
 </method>
 ```
 
-紐付けキーの定義は、XML ドキュメントの `<recipient>` 要素の_key 属性を使用して入力する必要があります。 この属性の内容は、コンマ区切りの XPath リストです。
+紐付けキーの定義は、 `<recipient>` XML ドキュメントの要素。 この属性の内容は、コンマ区切りの XPath リストです。
 
-受信者がデータベースに存在しない場合や、該当する情報サービスを購読していない場合、サービスは何も実行せず、エラーは生成されません。
+受信者がデータベースに存在しない場合や、関連する情報サービスを購読していない場合、サービスは何も実行せず、エラーを生成しません。
 
 >[!NOTE]
 >
@@ -178,7 +178,7 @@ E メールアドレスの受信者紐付けキーを含む購読：入力 XML �
 
 ## SubmitDelivery (nms:delivery) {#submitdelivery--nms-delivery-}
 
-このサービスでは、配信アクションを作成して送信できます。
+このサービスを使用すると、配信アクションを作成して送信できます。
 
 サービスを呼び出すには、次のパラメーターが必要です。
 
@@ -199,7 +199,7 @@ E メールアドレスの受信者紐付けキーを含む購読：入力 XML �
 </method>
 ```
 
-配信テンプレートは、Adobe Campaignクライアントコンソールから作成する必要があります。 すべての配信に共通のパラメーター（送信者のアドレスまたはメッセージの有効期間）が含まれます。
+配信テンプレートは、Adobe Campaignクライアントコンソールから作成する必要があります。 これには、すべての配信に共通のパラメーター（送信者のアドレスまたはメッセージの有効期間）が含まれます。
 
 入力 XML ドキュメントは、「nms:delivery」スキーマの構造に従う配信テンプレートフラグメントです。 配信テンプレートで静的に定義できなかったすべての追加データ（ターゲットとする受信者のリストなど）が含まれます。
 
@@ -207,7 +207,7 @@ E メールアドレスの受信者紐付けキーを含む購読：入力 XML �
 
 ### XML ドキュメントの例 {#xml-document-example}
 
-この例は、外部データソース（この場合はファイル）のカスタム配信テンプレートに基づいています。 この設定は配信テンプレートで完全に説明されているので、呼び出しが発生しても送信されないのは `<externalsource>` 要素からのファイルの内容だけです。
+この例は、外部データソース（この場合はファイル）のカスタム配信テンプレートに基づいています。 この設定については、配信テンプレートで完全に説明されているので、呼び出しが発生したときに残るのは、 `<externalsource>` 要素。
 
 ```
 <delivery>
@@ -220,7 +220,7 @@ E メールアドレスの受信者紐付けキーを含む購読：入力 XML �
 </delivery>
 ```
 
-配信テンプレートがない場合は、次のサンプルを使用できます。
+配信テンプレートがない場合は、次の例を使用できます。
 
 ```
 <delivery>

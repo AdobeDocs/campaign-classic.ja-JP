@@ -27,7 +27,7 @@ Adobe Campaign 内でターゲット母集団を定義しオーディエンス�
 
 データベースへの[プロファイルのインポート](../../platform/using/import-operations-samples.md)をおこなう簡単な使用例を紹介しています。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/importing-profiles.html?lang=ja)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/importing-profiles.html?lang=ja)
 
 ## マーケティングキャンペーンのターゲット母集団を定義するにはどうすればよいですか？ {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
@@ -40,7 +40,7 @@ Adobe Campaign 内でターゲット母集団を定義しオーディエンス�
 
 [詳しくはここをクリック](../../platform/using/creating-and-managing-lists.md#creating-a-profile-list-from-a-group)してください。
 
-![](assets/do-not-localize/how-to-video.png) [この動画](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html?lang=ja)と[この動画](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html?lang=ja)でこの機能を確認する
+![](assets/do-not-localize/how-to-video.png) [このビデオ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients-with-a-workflow.html?lang=ja)と[このビデオ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/creating-a-list-of-recipients.html?lang=ja)でこの機能を確認する
 
 ## メッセージを送信する前に母集団の重複を排除するにはどうすればよいですか？  {#how-can-i-deduplicate-a-population-before-sending-a-message-}
 

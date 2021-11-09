@@ -19,7 +19,7 @@ ht-degree: 65%
 
 ## ファイルアップロードの保護
 
-Campaign クライアントコンソールまたは Web インターフェイスを使用して、サーバーにアップロードするファイルの種類を、運用ユーザーに確認します。 次に、ビジネス上必要である可能性のあるものを示します。
+Campaign クライアントコンソールまたは Web インターフェイスを使用して、サーバーにアップロードするファイルの種類をオペレーショナルユーザーに確認します。 次に、ビジネス上必要である可能性のあるものを示します。
 
 * 画像（jpg、gif、png など）
 * コンテンツ（zip、html、css など）
@@ -34,7 +34,7 @@ Adobe Campaign では、ファイルサイズは制限されません。ただ�
 
 ## リレー
 
-詳しくは、[ このページ ](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays) を参照してください。
+詳しくは、 [このページ](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays) を参照してください。
 
 デフォルトでは、すべての動的ページは、Web モジュールが起動されるマシンのローカルの Tomcat サーバーに自動的にリレーされます。それらの一部をリレーしないように設定することもできます。Adobe Campaign モジュールの一部（Web アプリ、インタラクション、一部の JSP など）を使用しない場合、リレールールから除外できます。
 
@@ -44,13 +44,13 @@ Adobe Campaign では、ファイルサイズは制限されません。ただ�
 
 ## 発信接続の保護
 
-Campaign のインスタンスが JavaScript コード（ワークフローなど）で呼び出せる URL のデフォルトリストはは制限されています。 新しい URL を許可するには、管理者が [serverConf.xml ファイル ](../../installation/using/the-server-configuration-file.md) でその URL を参照する必要があります。
+Campaign のインスタンスが JavaScript コード（ワークフローなど）で呼び出せる URL のデフォルトリストはは制限されています。 新しい URL を許可するには、管理者が [serverConf.xml ファイル](../../installation/using/the-server-configuration-file.md).
 
 3 つの接続保護モードがあります。
 
-* **ブロック** :該当する URL に属さない URL はすべて許可リストブロックされ、エラーメッセージが表示されます。これは、ポストアップグレード後のデフォルトのモードです。
-* **許可** :そのユーザーに属さない URL はす許可リストべて許可されます。
-* **警告** :にないすべての URL が許許可リスト可されますが、JS インタプリタが警告を表示するので、管理者は URL を収集できます。このモードでは JST-310027 警告メッセージが追加されます。
+* **ブロック** :そのページに属さないすべての URL がブ許可リストロックされ、エラーメッセージが表示されます。 これは、ポストアップグレード後のデフォルトのモードです。
+* **許容** :このタブに属さないすべての URL が許許可リスト可されます。
+* **警告** :上にないすべての URL が許可されま許可リストすが、JS インタープリタが警告を表示するので、管理者がそれらを収集できます。 このモードでは JST-310027 警告メッセージが追加されます。
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -62,15 +62,15 @@ Campaign のインスタンスが JavaScript コード（ワークフローな�
 
 新しいクライアントはブロックモードを使用します。新しい URL を許可する場合は、管理者に問い合わせて、URL を管理者に追加する必要があり許可リストます。
 
-移行してきた既存の顧客は、しばらくの間は、警告モードを使用できます。その間、URL を認証する前に、アウトバウンドトラフィックを分析する必要があります。
+移行してきた既存の顧客は、しばらくの間は、警告モードを使用できます。その間、URL を認証する前に、送信トラフィックを分析する必要があります。
 
 ## コマンドの制限（サーバー側）
 
-いくつかのコマンドがブラックリストに追加され、execCommand 関数で実行できないようになりました。また、セキュリティを強化するために、外部コマンド実行専用の Unix ユーザーが追加されました。ホストされているインスタンスの場合は、この制限が自動的に適用されます。オンプレミスインストールの場合は、[ このページ ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands) の指示に従って、この制限を手動で設定できます。 また、ワークフローアクティビティとして「**[!UICONTROL スクリプト]**」と「**[!UICONTROL 外部タスク]**」を選択できなくなりました（新しくインストールされたインスタンスの場合）。
+いくつかのコマンドがブラックリストに追加され、execCommand 関数で実行できないようになりました。また、セキュリティを強化するために、外部コマンド実行専用の Unix ユーザーが追加されました。ホストされているインスタンスの場合は、この制限が自動的に適用されます。オンプレミスインストールの場合は、次の手順に従って、この制限を手動で設定できます。 [このページ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). また、ワークフローアクティビティとして「**[!UICONTROL スクリプト]**」と「**[!UICONTROL 外部タスク]**」を選択できなくなりました（新しくインストールされたインスタンスの場合）。
 
 ## その他の設定
 
-すべてのページに HTTP ヘッダーを追加できます（詳しくは、[ このページ ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands) を参照）。
+すべてのページに HTTP ヘッダーを追加できます ( 詳しくは、 [このページ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands)):
 
 * HSTS、X-FRAME-OPTIONS、CSP などのヘッダーを追加できます。
 * 本番環境に適用する前に、テスト環境でテストする必要があります。
@@ -79,10 +79,10 @@ Campaign のインスタンスが JavaScript コード（ワークフローな�
    >
    >特定のヘッダーを追加すると、Adobe Campaign で異常が発生する場合があります。
 
-Adobe Campaignでは、`<dbcnx .../>` 要素にプレーンパスワードを設定できます。 この機能は使用しないでください。
+Adobe Campaignでは、 `<dbcnx .../>` 要素。 この機能は使用しないでください。
 
-デフォルトでは、Adobe Campaign はセッションを特定の IP に関連付けませんが、この機能を有効にして、セッションが乗っ取られないようにすることができます。これをおこなうには、[serverConf.xml ファイル ](../../installation/using/the-server-configuration-file.md) で、`<authentication>` ノードの checkIPConsistent 属性を **true** に設定します。
+デフォルトでは、Adobe Campaign はセッションを特定の IP に関連付けませんが、この機能を有効にして、セッションが乗っ取られないようにすることができます。これをおこなうには、 [serverConf.xml ファイル](../../installation/using/the-server-configuration-file.md)に設定し、checkIPConsistent 属性をに設定します。 **true** 内 `<authentication>` ノード。
 
-デフォルトでは、Adobe Campaign の MTA は、コンテンツを SMTP サーバーに送信する際にセキュリティ保護された接続を使用しません。この機能を有効にする必要があります（配信速度が低下する可能性があります）。これをおこなうには、`<smtp ...>` ノードで **enableTLS** を **true** に設定します。
+デフォルトでは、Adobe Campaign の MTA は、コンテンツを SMTP サーバーに送信する際にセキュリティ保護された接続を使用しません。この機能を有効にする必要があります（配信速度が低下する可能性があります）。これをおこなうには、 **enableTLS** から **true** 内 `<smtp ...>` ノード。
 
 認証ノードでセッションの持続時間を短くすることができます（sessionTimeOutSec 属性）。

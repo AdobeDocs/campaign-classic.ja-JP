@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 外部データベースへのアクセス
-description: 外部データベースへの接続方法の詳細
+description: 外部データベースへの接続方法を説明します
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -94,7 +94,7 @@ ht-degree: 98%
 
 外部の FDA アカウントを設定するときに外部データベースへのアクセスを保護できます。
 
-そのためには、サーバーアドレスと使用するポートのアドレスの後に &quot;**:ssl**&quot; を追加します。例：**192.168.0.52:4501:ssl**。
+そのためには、サーバーアドレスと使用するポートのアドレスの後に &quot;**:ssl**&quot; を追加します。例： **192.168.0.52:4501:ssl**.
 
 これで、データはセキュアな SSL プロトコル経由で送信されます。
 

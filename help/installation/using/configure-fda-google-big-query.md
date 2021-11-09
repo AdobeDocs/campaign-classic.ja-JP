@@ -17,29 +17,29 @@ ht-degree: 7%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用して、外部データベースに保存された情報を処理します。 次の手順に従って、[!DNL Google BigQuery] へのアクセスを設定します。
+Adobe Campaign Classicを使用 **Federated Data Access** (FDA) 外部データベースに保存された情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 [!DNL Google BigQuery].
 
-1. [Windows](#google-windows) または [Linux](#google-linux) で [!DNL Google BigQuery] を設定します
-1. Adobe Campaign Classicで [!DNL Google BigQuery] [ 外部アカウント ](#google-external) を設定します
-1. [Windows](#bulk-load-windows) または [Linux](#bulk-load-linux) で [!DNL Google BigQuery] コネクタの一括読み込みを設定します
+1. 設定 [!DNL Google BigQuery] オン [Windows](#google-windows) または [Linux](#google-linux)
+1. の設定 [!DNL Google BigQuery] [外部アカウント](#google-external) Adobe Campaign Classic
+1. 設定 [!DNL Google BigQuery] コネクタの一括読み込み [Windows](#bulk-load-windows) または [Linux](#bulk-load-linux)
 
 >[!NOTE]
 >
-> [!DNL Google BigQuery] コネクタは、ハイブリッドおよびオンプレミスのデプロイメントで使用できます。詳しくは、[このページ](../../installation/using/capability-matrix.md)を参照してください。
+> [!DNL Google BigQuery] コネクタは、ハイブリッドおよびオンプレミスのデプロイメントで使用できます。 詳しくは、[このページ](../../installation/using/capability-matrix.md)を参照してください。
 
 ![](assets/snowflake_3.png)
 
-## Google BigQuery（Windows 版） {#google-windows}
+## Google BigQuery（Windows 上） {#google-windows}
 
-### Windows でドライバを設定 {#driver-window}
+### Windows でのドライバのセットアップ {#driver-window}
 
 1. [Windows 用の ODBC ドライバー](https://cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers)をダウンロードします。
 
 1. Windows で ODBC ドライバーを設定します。 詳しくは、[このページ](https://storage.googleapis.com/simba-bq-release/jdbc/Simba%20JDBC%20Driver%20for%20Google%20BigQuery%20Install%20and%20Configuration%20Guide.pdf)を参照してください。
 
-1. [!DNL Google BigQuery] コネクタを機能させるには、Adobe Campaign Classicで接続する次のパラメーターが必要です。
+1. の [!DNL Google BigQuery] コネクタが機能するには、Adobe Campaign Classicが接続するには次のパラメーターが必要です。
 
-   * **[!UICONTROL プロジェクト]**:既存のプロジェクトを作成または使用します。
+   * **[!UICONTROL プロジェクト]**:既存のプロジェクトを作成するか、使用します。
 
       詳しくは、[このページ](https://cloud.google.com/resource-manager/docs/creating-managing-projects)を参照してください。
 
@@ -47,15 +47,15 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
 
       詳しくは、[このページ](https://cloud.google.com/iam/docs/creating-managing-service-accounts)を参照してください。
 
-   * **[!UICONTROL キーファイルパス]**:サービス **[!UICONTROL アカウ]** ントには、ODBC を介し **[!UICONTROL た接]** 続に対するキ [!DNL Google BigQuery] ーファイルが必要です。
+   * **[!UICONTROL キーファイルのパス]**:の **[!UICONTROL サービスアカウント]** にはが必要です **[!UICONTROL キーファイル]** の [!DNL Google BigQuery] ODBC を介した接続
 
       詳しくは、[このページ](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)を参照してください。
 
-   * **[!UICONTROL データセット]**: **** ODBC 接続の場合、データセットはオプションです。各クエリはテーブルのあるデータセットを提供する必要があるので、Adobe Campaign Classicの [!DNL Google BigQuery]FDA コネクタには **[!UICONTROL データセット]** を指定する必要があります。
+   * **[!UICONTROL データセット]**: **[!UICONTROL データセット]** は、ODBC 接続の場合はオプションです。 各クエリは、テーブルの場所にあるデータセットを提供し、 **[!UICONTROL データセット]** は必須です [!DNL Google BigQuery] Adobe Campaign Classicの FDA コネクタ。
 
       詳しくは、[このページ](https://cloud.google.com/bigquery/docs/datasets)を参照してください。
 
-1. Adobe Campaign Classicでは、[!DNL Google BigQuery] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[ この節 ](#google-external) を参照してください。
+1. Adobe Campaign Classicで、 [!DNL Google BigQuery] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#google-external).
 
 ### Windows での一括読み込みの設定 {#bulk-load-window}
 
@@ -63,25 +63,25 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
 >
 >Google Cloud SDK を動作させるには、Python がインストールされている必要があります。
 >
->Python3 を使用することをお勧めします。詳しくは、[ ページ ](https://www.python.org/downloads/) を参照してください。
+>Python3 の使用をお勧めします。詳しくは、 [ページ](https://www.python.org/downloads/).
 
-一括読み込みユーティリティを使用すると、Google Cloud SDK を通じて高速転送が可能です。
+一括読み込みユーティリティを使用すると、Google Cloud SDK を通じてより高速に転送できます。
 
-1. この [ ページ ](https://cloud.google.com/sdk/docs/downloads-versioned-archives) から Windows 64 ビット (x86_64) アーカイブをダウンロードし、対応するディレクトリに展開します。
+1. このから Windows 64 ビット (x86_64) アーカイブをダウンロード [ページ](https://cloud.google.com/sdk/docs/downloads-versioned-archives) 対応するディレクトリに抽出します。
 
-1. `google-cloud-sdk\install.sh` スクリプトを実行します。 path 変数の設定を受け入れる必要があります。
+1. を実行します。 `google-cloud-sdk\install.sh` スクリプト path 変数の設定を受け入れる必要があります。
 
-1. インストール後に、パス変数 `...\google-cloud-sdk\bin` が設定されていることを確認します。 そうでない場合は、手動で追加します。
+1. インストール後に、パス変数を確認します。 `...\google-cloud-sdk\bin` が設定されている。 そうでない場合は、手動で追加します。
 
-1. `..\google-cloud-sdk\bin\bq.cmd` ファイルに `CLOUDSDK_PYTHON` ローカル変数を追加します。この変数は、Python インストール先にリダイレクトされます。
+1. 内  `..\google-cloud-sdk\bin\bq.cmd` ファイルを開き、 `CLOUDSDK_PYTHON` ローカル変数を使用して、Python のインストール場所にリダイレクトされます。
 
    例：
 
    ![](assets/google-big-query_1.png)
 
-1. Adobe Campaign Classicを再起動して、変更を反映します。
+1. Adobe Campaign Classicを再起動して、変更を反映させます。
 
-## Google BigQuery(Linux) {#google-linux}
+## Google BigQuery（Linux 上） {#google-linux}
 
 ### Linux でのドライバの設定 {#driver-linux}
 
@@ -93,7 +93,7 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
    yum install unixODBC
    ```
 
-1. 次のコマンドを使用して、unixODBC ドライバーマネージャーをインストールする必要があります。
+1. その後、次のコマンドを使用して unixODBC ドライバーマネージャーをインストールする必要があります。
 
    ```
    # switch to root user
@@ -109,14 +109,14 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
    apt-get install unixODBC
    ```
 
-1. [Magnitude Simba Linux ODBC Driver (.tar.gz)](https://cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers) をダウンロードします。 次に、tarball ファイルをマシン上の一時フォルダーに転送するか、wget コマンドを使用します。
+1. をダウンロードします。 [Magnitude Simba Linux ODBC ドライバ (.tar.gz)](https://cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers). 次に、tarball ファイルをマシン上の一時フォルダーに転送するか、wget コマンドを使用します。
 
    ```
    # in this example driver version is 2.3.1.1001
    wget https://storage.googleapis.com/simba-bq-release/odbc/SimbaODBCDriverforGoogleBigQuery_[Version]-Linux.tar.gz
    ```
 
-1. 主な tarball ファイルを次のように抽出します。 **TarballName** は、ドライバを含む tarball パッケージの名前です。
+1. メインの tarball ファイルを次のように抽出します。 **TarballName** は、ドライバーが含まれている tarball パッケージの名前です。
 
    ```
    tar --directory=/tmp -zxvf [TarballName]
@@ -130,7 +130,7 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
    tar --directory=/tmp/BigQueryDriver/ -zxvf SimbaODBCDriverforGoogleBigQuery[Bitness]_[Version].tar.gz
    ```
 
-1. メインの tarball ファイルが抽出された一時的な場所にアクセスし、`GoogleBigQueryODBC.did` ファイルと `setup/simba.googlebigqueryodbc.ini` ファイルを、前の手順で作成した新しいフォルダーにコピーします。
+1. メインの tarball ファイルが抽出された一時的な場所にアクセスし、 `GoogleBigQueryODBC.did` および `setup/simba.googlebigqueryodbc.ini` ファイルは、前の手順で作成した新しいフォルダーに格納されます。
 
    ```
    cd /tmp/SimbaODBCDriverforGoogleBigQuery_[Version]-Linux/
@@ -150,16 +150,16 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
    cp -r /tmp/BigQueryDriver/SimbaODBCDriverforGoogleBigQuery[Bitness]_[Version]/* /opt/simba/googlebigqueryodbc/
    ```
 
-1. インストールディレクトリの `simba.googlebigqueryodbc.ini` の `<INSTALLDIR>` を `/opt/simba/googlebigqueryodbc` に置き換えます。
+1. 置換 `<INSTALLDIR>` と `/opt/simba/googlebigqueryodbc` in `simba.googlebigqueryodbc.ini` インストールディレクトリ内：
 
    ```
    cd /opt/simba/googlebigqueryodbc/lib/
    sed -i 's/<INSTALLDIR>/\/opt\/simba\/googlebigqueryodbc/g' simba.googlebigqueryodbc.ini
    ```
 
-1. `simba.googlebigqueryodbc.ini` で `DriverManagerEncoding` を UTF-16 に、`SwapFilePath` を  に変更します。 必要に応じて、ログ設定を変更することもできます。
+1. を `DriverManagerEncoding` を UTF-16 に設定し、 `SwapFilePath` in `simba.googlebigqueryodbc.ini`. 必要に応じて、ログ設定を変更することもできます。
 
-   次の例は、更新されたドライバ全体の設定ファイルを示しています。
+   次に、更新されたドライバ全体の構成ファイルの例を示します。
 
    ```
    # /opt/simba/googlebigqueryodbc/lib/simba.googlebigqueryodbc.ini
@@ -171,7 +171,7 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
    SwapFilePath=/tmp
    ```
 
-1. システムドライバファイルまたは現在の `odbcinst.ini` ファイルを使用している場合は、Google BigQuery ドライバの場所 `/opt/simba/googlebigqueryodbc/lib/libgooglebigqueryodbc_sb[Bitness].so` を指すように `/etc/odbcinst.ini` を設定します。
+1. システムドライバファイルまたは現在の `odbcinst.ini` ファイル、設定 `/etc/odbcinst.ini` Google BigQuery ドライバーの場所を示す `/opt/simba/googlebigqueryodbc/lib/libgooglebigqueryodbc_sb[Bitness].so`.
 
    例：
 
@@ -187,7 +187,7 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
    Driver=/opt/simba/googlebigqueryodbc/lib/libgooglebigqueryodbc_sb64.so
    ```
 
-1. unixODBC ドライバーマネージャーライブラリの場所を探し、 `unixODBC` と `googlebigqueryodbc` ライブラリパスを `LD_LIBRARY_PATH environment` 変数に追加します。
+1. unixODBC ドライバーマネージャーライブラリの場所を探し、 `unixODBC` および `googlebigqueryodbc` へのライブラリパス `LD_LIBRARY_PATH environment` 変数を使用します。
 
    ```
    find / -name 'lib*odbc*.so*' -print
@@ -203,7 +203,7 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/simba/googlebigqueryodbc:/usr/lib
    ```
 
-1. Adobe Campaign Classicでは、[!DNL Google BigQuery] 外部アカウントを設定できます。 外部アカウントの設定方法について詳しくは、[ この節 ](#google-external) を参照してください。
+1. Adobe Campaign Classicで、 [!DNL Google BigQuery] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#google-external).
 
 ### Linux での一括読み込みの設定 {#bulk-load-linux}
 
@@ -211,25 +211,25 @@ Adobe Campaign Classic **Federated Data Access** (FDA) オプションを使用�
 >
 >Google Cloud SDK を動作させるには、Python がインストールされている必要があります。
 >
->Python3 を使用することをお勧めします。詳しくは、[ ページ ](https://www.python.org/downloads/) を参照してください。
+>Python3 の使用をお勧めします。詳しくは、 [ページ](https://www.python.org/downloads/).
 
-一括読み込みユーティリティを使用すると、Google Cloud SDK を通じて高速転送が可能です。
+一括読み込みユーティリティを使用すると、Google Cloud SDK を通じてより高速に転送できます。
 
-1. この [ ページ ](https://cloud.google.com/sdk/docs/downloads-versioned-archives) に Linux 64 ビット (x86_64) アーカイブをダウンロードし、対応するディレクトリに展開します。
+1. このファイルに Linux 64 ビット (x86_64) アーカイブをダウンロード [ページ](https://cloud.google.com/sdk/docs/downloads-versioned-archives) を抽出し、対応するディレクトリに抽出します。
 
-1. `google-cloud-sdk\install.sh` スクリプトを実行します。 path 変数の設定を受け入れる必要があります。
+1. を実行します。 `google-cloud-sdk\install.sh` スクリプト path 変数の設定を受け入れる必要があります。
 
-1. インストール後に、パス変数 `...\google-cloud-sdk\bin` が設定されていることを確認します。 そうでない場合は、手動で追加します。
+1. インストール後に、パス変数を確認します。 `...\google-cloud-sdk\bin` が設定されている。 そうでない場合は、手動で追加します。
 
-1. `PATH` 変数を使用しない場合や、`google-cloud-sdk` ディレクトリを別の場所に移動する場合は、**[!UICONTROL 外部アカウント]** を設定する際に `bqpath` オプション値を使用して、システム上の bin ディレクトリの正確なパスを指定します。
+1. を使用しない場合は、 `PATH` 変数を使用するか、 `google-cloud-sdk` ディレクトリを別の場所に移動するには、 `bqpath` オプション値（設定時） **[!UICONTROL 外部アカウント]** をクリックして、システム上の bin ディレクトリの正確なパスを指定します。
 
-1. Adobe Campaign Classicを再起動して、変更を反映します。
+1. Adobe Campaign Classicを再起動して、変更を反映させます。
 
 ## Google BigQuery 外部アカウント {#google-external}
 
-Adobe Campaign Classicインスタンスを [!DNL Google BigQuery] 外部データベースに接続するには、[!DNL Google BigQuery] 外部アカウントを作成する必要があります。
+次を作成する必要があります： [!DNL Google BigQuery] Adobe Campaign Classicインスタンスを [!DNL Google BigQuery] 外部データベース。
 
-1. Adobe Campaign Classic **[!UICONTROL エクスプローラー]** から、**[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL プラットフォーム]** &#39;>&#39; **[!UICONTROL 外部アカウント]** をクリックします。
+1. Adobe Campaign Classicから **[!UICONTROL エクスプローラ]**&#x200B;をクリックし、 **[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL 外部アカウント]**.
 
 1. 「**[!UICONTROL 新規]**」をクリックします。
 
@@ -239,13 +239,13 @@ Adobe Campaign Classicインスタンスを [!DNL Google BigQuery] 外部デー�
 
    * **[!UICONTROL タイプ]**：[!DNL Google BigQuery]
 
-   * **[!UICONTROL サービスアカウント]**:サービスアカウント **[!UICONTROL の電子メール]**。詳しくは、[Google Cloud のドキュメント ](https://cloud.google.com/iam/docs/creating-managing-service-accounts) を参照してください。
+   * **[!UICONTROL サービスアカウント]**:メール **[!UICONTROL サービスアカウント]**. 詳しくは、 [Google Cloud ドキュメント](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
 
-   * **[!UICONTROL プロジェクト]**:プロジェクト **[!UICONTROL の名前]**。詳しくは、[Google Cloud のドキュメント ](https://cloud.google.com/resource-manager/docs/creating-managing-projects) を参照してください。
+   * **[!UICONTROL プロジェクト]**:の名前 **[!UICONTROL プロジェクト]**. 詳しくは、 [Google Cloud ドキュメント](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
 
    * **[!UICONTROL キーファイルのパス]**:
-      * **[!UICONTROL キーファイルをサーバーにアップロードします]**。「 Adobe Campaign Classicを使 **[!UICONTROL 用してキーをアッ]** プロードする場合は、ここをクリックしてアップロードします」を選択します。
+      * **[!UICONTROL キーファイルをサーバーにアップロード]**:選択 **[!UICONTROL ここをクリックしてアップロード]** Adobe Campaign Classicを使用してキーをアップロードする場合。
 
-      * **[!UICONTROL 手動でキーのファイルパスを入力します]**。既存のキーを使用する場合は、このフィールドに絶対パスをコピー&amp;ペーストします。
-   * **[!UICONTROL データセット]**:データセット **[!UICONTROL の名前]**。詳しくは、[Google Cloud のドキュメント ](https://cloud.google.com/bigquery/docs/datasets-intro) を参照してください。
+      * **[!UICONTROL 手動でキーのファイルパスを入力]**:既存のキーを使用する場合は、このフィールドに絶対パスをコピーして貼り付けます。
+   * **[!UICONTROL データセット]**:の名前 **[!UICONTROL データセット]**. 詳しくは、 [Google Cloud ドキュメント](https://cloud.google.com/bigquery/docs/datasets-intro).
    ![](assets/google-big-query.png)

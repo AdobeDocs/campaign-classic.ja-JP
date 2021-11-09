@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: FDA コネクタの設定
-description: FDA の設定手順を説明します。
+description: FDA の設定手順を説明します
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -29,7 +29,7 @@ Adobe Campaign から外部データベースにアクセスできるように�
 
 FDA を使用して外部データベースへのアクセスを設定するには、次の設定手順を実行します。
 
-1. ドライバーをインストールし、データベースに対応する外部アカウントをAdobe Campaignサーバーに設定します。 以下の ](#fda-specific-configuration) に示すデータベース固有のページ [ を参照してください。
+1. ドライバーをインストールし、Adobe Campaignサーバーにデータベースに対応する外部アカウントをセットアップします。 データベース固有のページを参照してください。 [次に示す](#fda-specific-configuration)
 1. 外部アカウントをテストするか、Adobe Campaignと外部データベースの間に一時的な接続を作成します。 [詳細](../../installation/using/connecting-to-database.md)
 1. Adobe Campaign で、外部データベースのスキーマを作成します。これにより、外部データベースのデータ構造を識別できるようになります。[詳細情報](../../installation/using/creating-data-schema.md)
 1. 必要に応じて、以前に作成したスキーマから新しいターゲットマッピングを作成します。 これは、配信の受信者を外部データベースから取得している場合に必要です。 この実装には、メッセージのパーソナライゼーションに関する制限があります。 [詳細情報](../../installation/using/defining-data-mapping.md)
@@ -38,26 +38,26 @@ FDA を使用して外部データベースへのアクセスを設定するに�
 
 ## データベース固有の設定 {#fda-specific-configuration}
 
-Adobe Campaign から外部データベースにアクセスできるようにするには、使用する外部データベースに応じて特定の設定をおこなう必要があります。これらの設定では、基本的に、ドライバーをインストールし、Adobe Campaignサーバー上の各 RDBMS に属する環境変数を宣言し、外部アカウントを設定します。
+Adobe Campaign から外部データベースにアクセスできるようにするには、使用する外部データベースに応じて特定の設定をおこなう必要があります。これらの設定は、基本的に、ドライバーをインストールし、Adobe Campaignサーバー上の各 RDBMS に属する環境変数を宣言し、外部アカウントを設定することです。
 
 詳しくは、以下のリンクを参照してください。
 
-* Campaign と [Vertica](../../installation/using/configure-fda-vertica.md) を接続
+* Campaign との接続 [Vertica](../../installation/using/configure-fda-vertica.md)
 
-* Campaign と [Google BigQuery](../../installation/using/configure-fda-google-big-query.md) を接続します。
+* Campaign との接続 [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 
-* Campaign と [Azure synapse](../../installation/using/configure-fda-synapse.md) を接続
+* Campaign との接続 [azure synapse](../../installation/using/configure-fda-synapse.md)
 
-* Campaign と [Snowflake](../../installation/using/configure-fda-snowflake.md) を接続
+* Campaign との接続 [Snowflake](../../installation/using/configure-fda-snowflake.md)
 
-* Campaign と [Hadoop](../../installation/using/configure-fda-hadoop.md) を接続
+* Campaign との接続 [Hadoop](../../installation/using/configure-fda-hadoop.md)
 
-* Campaign と [Oracle](../../installation/using/configure-fda-oracle.md) を接続
+* Campaign との接続 [Oracle](../../installation/using/configure-fda-oracle.md)
 
-* Campaign と [Netezza](../../installation/using/configure-fda-netezza.md) を接続
+* Campaign との接続 [Netezza](../../installation/using/configure-fda-netezza.md)
 
-* Campaign と [Sybase IQ](../../installation/using/configure-fda-sybase.md) を接続
+* Campaign との接続 [sybase IQ](../../installation/using/configure-fda-sybase.md)
 
-* Campaign と [Teradata](../../installation/using/configure-fda-teradata.md) を接続
+* Campaign との接続 [Teradata](../../installation/using/configure-fda-teradata.md)
 
-* Campaign と [SAP HANA](../../installation/using/configure-fda-sap-hana.md) を接続
+* Campaign との接続 [SAP HANA](../../installation/using/configure-fda-sap-hana.md)

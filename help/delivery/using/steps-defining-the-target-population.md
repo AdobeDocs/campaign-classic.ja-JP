@@ -166,7 +166,7 @@ ht-degree: 100%
 
 配達確認は、配信をメインターゲットに送信する前にテストするための特別なメッセージです。配達確認受信者は、メッセージのフォームおよびコンテンツの両方を承認します。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#seeds-and-proofs-video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#seeds-and-proofs-video)
 
 
 配達確認のターゲットを選択するには、次の手順に従います。

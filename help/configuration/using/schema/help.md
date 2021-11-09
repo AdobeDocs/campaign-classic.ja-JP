@@ -27,7 +27,7 @@ help:==EMPTY
 
 ## 親 {#parents-6}
 
-`<srcschema>`  ,   `<element>`   ,    `<attribute>`    ,     `<enumeration>`     ,      `<value>`      ,      `<param />`,       `<method />`
+`<srcschema>`  ,  `<element>`   ,   `<attribute>`    ,    `<enumeration>`     ,     `<value>`      ,     `<param />`,      `<method />`
 
 ## 子 {#children-6}
 
@@ -35,7 +35,7 @@ help:==EMPTY
 
 ## 説明 {#description-6}
 
-この要素は、`<element>` または `<attribute>`   要素 テキストのみを含めることができ、XML 形式でデータベースに格納されます。
+この要素では、 `<element>`  または  `<attribute>`   要素。 テキストのみを含めることができ、XML 形式でデータベースに格納されます。
 
 ## 属性の説明 {#attribute-description-6}
 

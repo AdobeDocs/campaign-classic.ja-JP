@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#delivery-template-video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#delivery-template-video)
 
 ## 既存配信のテンプレートへの変換 {#converting-an-existing-delivery-to-a-template}
 
@@ -68,7 +68,8 @@ ht-degree: 100%
 >
 >設定エラーを防ぐために、新しいテンプレートを作成するのではなく、ネイティブテンプレートをコピーしてプロパティを変更することをお勧めします。
 
-## チュートリアルビデオ {#delivery-template-video}
+## チュートリアルビデオ
+ {#delivery-template-video}
 
 ### 配信テンプレートの設定方法
 

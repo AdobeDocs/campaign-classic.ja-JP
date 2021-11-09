@@ -17,17 +17,17 @@ ht-degree: 13%
 
 ![](../../assets/v7-only.svg)
 
-トラッキングログが転送されない理由は複数考えられます。 次の情報を確認することをお勧めします。
+トラッキングログが転送されない複数の理由が考えられます。 次の情報を確認することをお勧めします。
 
-* **トラッキングワ****ークフローにエラーがあるか。**
+* **を実行します。**&#x200B;トラッキング&#x200B;**エラーが発生した場合は、**
 
-   [ テクニカルワークフローの監視 ](../../workflow/using/monitoring-technical-workflows.md) を参照してください。
+   参照： [テクニカルワークフローの監視](../../workflow/using/monitoring-technical-workflows.md).
 
    ![](assets/tracking_scheduled_task.png)
 
-* **モジュールがサーバー上****で酔っ払いを追跡しているか。**
+* **モジュールです** trackinglogd **サーバ上で実行しているか**
 
-   [ ログファイル ](../../production/using/log-files.md) を参照してください。
+   参照： [ログファイル](../../production/using/log-files.md).
 
 * **変更が加えられたか。**
 

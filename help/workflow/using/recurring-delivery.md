@@ -19,7 +19,7 @@ ht-degree: 100%
 
 「**[!UICONTROL 繰り返し配信]**」アクティビティでは、キャンペーン固有の配信テンプレートの発生件数を設定できます。
 
-![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#recurring-delivery-video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#recurring-delivery-video)
 
 このアクティビティは、キャンペーン内の「**[!UICONTROL ターゲティングとワークフロー]**」タブでのみ使用できます。
 

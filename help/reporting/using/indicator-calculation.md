@@ -665,7 +665,7 @@ ht-degree: 100%
    <td> Sum(iIf([url/@category]='twitter',@totalClicks,0))<br /> </td> 
   </tr> 
   <tr> 
-   <td> おいしい <br /> </td> 
+   <td> Delicious<br /> </td> 
    <td> @delicious<br /> </td> 
    <td> URL カテゴリが「delicious」に等しいすべての @totalClicks の合計。<br /> </td> 
    <td> Sum(iIf([url/@category]='delicious',@totalClicks,0))<br /> </td> 

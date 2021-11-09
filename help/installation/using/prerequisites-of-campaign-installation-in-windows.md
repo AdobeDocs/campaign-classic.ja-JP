@@ -13,21 +13,21 @@ ht-degree: 8%
 
 ---
 
-# Windows への Campaign のインストールの概要 {#prerequisites-of-campaign-installation-in-windows}
+# Windows への Campaign のインストールを開始する {#prerequisites-of-campaign-installation-in-windows}
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaignのインストールに必要な技術的な設定とソフトウェアは、[ 互換性マトリックス ](../../rn/using/compatibility-matrix.md) に記載されています。
+Adobe Campaignのインストールに必要な技術的な設定とソフトウェアについては、 [互換性マトリックス](../../rn/using/compatibility-matrix.md).
 
-複数インスタンスを使用するためのAdobe Campaignサーバーのインストールプロセスについては、[ サーバーのインストール ](../../installation/using/installing-the-server.md) で説明します。
+マルチインスタンスを使用するためのAdobe Campaignサーバーのインストールプロセスについては、以下で説明します。 [サーバーのインストール](../../installation/using/installing-the-server.md).
 
 主な手順は次のとおりです。
 
-1. アプリケーションサーバーをインストールします。[ インストールプログラムの実行 ](../../installation/using/installing-the-server.md#executing-the-installation-program) を参照してください。
-1. Web サーバーとの統合（デプロイされたコンポーネントに応じてオプション）。[IIS Web サーバーの設定 ](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server) を参照してください。
+1. アプリケーションサーバーをインストールします。を参照してください。 [インストールプログラムの実行](../../installation/using/installing-the-server.md#executing-the-installation-program).
+1. Web サーバーとの統合（デプロイされたコンポーネントに応じてオプション）。を参照してください。 [IIS Web サーバーの設定](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
 
-インストール手順が完了したら、インスタンス、データベース、サーバーを設定する必要があります。 詳しくは、[ 初期設定について ](../../installation/using/about-initial-configuration.md) を参照してください。
+インストール手順が完了したら、インスタンス、データベース、サーバーを設定する必要があります。 詳しくは、 [初期設定について](../../installation/using/about-initial-configuration.md).
 
 >[!NOTE]
 >
->Adobe Campaignを Windows 環境にデプロイすると、必要なアクセス権を持つユーザーは、ネットワーク上でのファイル操作中に UNC 構文 (Universal.Uniform Naming Convention) を使用してアクセスパスを指定できます。
+>Adobe Campaignを Windows 環境に展開すると、必要なアクセス権を持つユーザーは、ネットワーク上でのファイル操作中に UNC 構文 (Universal.Uniform Naming Convention) を使用してアクセスパスを指定できます。

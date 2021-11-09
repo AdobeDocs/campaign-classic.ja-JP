@@ -23,15 +23,15 @@ param:==help
 
 ## 属性 {#attributes-12}
 
-* @_operation (string)
-* @desc (string)
-* @enum (string)
-* @inout (string)
-* @label (string)
-* @localizable (string)
+* @_operation （文字列）
+* @desc （文字列）
+* @enum （文字列）
+* @inout （文字列）
+* @label （文字列）
+* @localizable （文字列）
 * @name (MNTOKEN)
 * @namespace (MNTOKEN)
-* @type (string)
+* @type （文字列）
 
 ## 親 {#parents-12}
 
@@ -47,19 +47,19 @@ param:==help
 
 ## 属性の説明 {#attribute-description-12}
 
-* **desc （文字列）**:要素に関する説 `<param>` 明。
-* **inout （文字列）**:この属性は、パラメーターが SOAP 呼び出しの入力 (in) または出力 (out) にあるかどうかを定義します。この属性を指定しない場合、デフォルトのパラメーターは入力 (「@inout=in」) です。
-* **label （文字列）**: `<param>` label
-* **ローカライズ可能（文字列）**:この属性が有効な場合、この属性は、翻訳（内部使用）の「@label」属性の値を復元するように収集ツールに指示します。
-* **名前 (MNTOKEN)**:内部名  `<param>`
-* **型（文字列）**:この属性は、要素のタイプを定義し `<param>` ます
+* **desc （文字列）**:関連する説明 `<param>` 要素。
+* **inout （文字列）**:この属性は、パラメーターが SOAP 呼び出しの入力 (in) または出力 (out) のどちらにあるかを定義します。 この属性が指定されていない場合、デフォルトのパラメーターは入力されます (&quot;@inout=in&quot;)。
+* **label （文字列）**: `<param>` ラベル
+* **localizable（文字列）**:有効化されている場合、この属性は、翻訳の「@label」属性の値を復元するようコレクションツールに指示します（内部使用）。
+* **名前 (MNTOKEN)**:内部名 `<param>`
+* **type (string)**:この属性は、 `<param>` 要素
 
    使用可能なタイプのリスト：
 
    * いずれか
    * bin
    * blob
-   * boolean
+   * ブール型
    * バイト
    * CDATA
    * 日時

@@ -25,7 +25,7 @@ FDA オプションを使用すると、サードパーティのデータベー�
 
 この機能を使用するための前提条件を次に示します。
 
-* **設定**:Snowflakeを除き、Federated Data Access を設定するに **は、オンプレミス** またはハ **** イブリッドホスティングモデルが必要です。[詳細情報](../../installation/using/hosting-models.md)
-* **外部データベースのバージョン**:Adobe Campaign FDA モジュールと互換性のある外部データベースが必要です。データベースシステムと互換性のあるバージョンのリストについて詳しくは、Campaign [ 互換性マトリックス ](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA) を参照してください。
-* **権限**:また、ユーザーは、Adobe Campaignおよび外 [部デ](../../installation/using/remote-database-access-rights.md) ータベースに対して必要な権限を持っている必要があります。
+* **設定**:Snowflakeを除き、 **オンプレミス** または **ハイブリッド** ホスティングモデルを使用して Federated Data Access を設定します。 [詳細情報](../../installation/using/hosting-models.md)
+* **外部データベースのバージョン**:Adobe Campaign FDA モジュールと互換性のある外部データベースが必要です。 データベースシステムと互換性のあるバージョンのリストについて詳しくは、 Campaign を参照してください。 [互換性マトリックス](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
+* **権限**:また、 [必要な権限](../../installation/using/remote-database-access-rights.md) (Adobe Campaignおよび外部データベース )
 

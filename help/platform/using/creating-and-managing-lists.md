@@ -35,7 +35,7 @@ Adobe Campaign では、2 つのリストタイプを使用できます。
 
    **[!UICONTROL グループ]**&#x200B;タイプリストと異なり、このタイプのリストは&#x200B;**[!UICONTROL スケジューラー]**&#x200B;アクティビティで自動的に更新されます。**[!UICONTROL リスト]**&#x200B;タイプリストの作成方法の例については、[このページ](../../workflow/using/list-update.md)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#create-list-video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#create-list-video)
 
 ## グループからのプロファイルリストの作成 {#creating-a-profile-list-from-a-group}
 

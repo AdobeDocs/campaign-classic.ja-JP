@@ -19,16 +19,16 @@ ht-degree: 10%
 
 ## コンテンツモデル {#content-model-5}
 
-列挙：==(help| value)
+enumeration:==(help| value)
 
 ## 属性 {#attributes-5}
 
-* @basetype (string)
-* @default (string)
-* @desc (string)
-* @label (string)
-* @name (string)
-* @template (string)
+* @basetype （文字列）
+* @default （文字列）
+* @desc （文字列）
+* @label （文字列）
+* @name （文字列）
+* @template （文字列）
 
 ## 親 {#parents-5}
 
@@ -45,18 +45,18 @@ ht-degree: 10%
 
 ## 使用と使用のコンテキスト {#use-and-context-of-use-4}
 
-列挙は、スキーマの開始時（メイン要素の定義前）に定義されます。
+列挙は、スキーマの開始時（メイン要素が定義される前）に定義されます。
 
 ## 属性の説明 {#attribute-description-5}
 
-* **basetype （文字列）**:列挙に保存される値のタイプ。
+* **basetype（文字列）**:列挙に保存される値のタイプ。
 
    使用可能なタイプのリスト：
 
    * いずれか
    * bin
    * blob
-   * boolean
+   * ブール型
    * バイト
    * CDATA
    * 日時
@@ -82,15 +82,15 @@ ht-degree: 10%
    * 間隔
    * uuid
 
-* **デフォルト（文字列）**:デフォルト値。デフォルト値は、列挙で定義された値の 1 つでもかまいません。
+* **default (string)**:デフォルト値。 また、デフォルト値は、列挙で定義された値の 1 つでもかまいません。
 * **desc （文字列）**:列挙の説明。
-* **label （文字列）**:列挙ラベル
-* **名前（文字列）**:列挙の内部名。
-* **template （文字列）**:この属性は、複数のスキーマで共有さ `<enumeration>` れる要素への参照を定義します。定義は、現在のスキーマに自動的にコピーされます。
+* **label （文字列）**:列挙ラベル。
+* **name（文字列）**:列挙の内部名。
+* **template （文字列）**:この属性は、 `<enumeration>` 複数のスキーマで共有される要素。 定義は、現在のスキーマに自動的にコピーされます。
 
 ## 例 {#examples-4}
 
-データベースに値が格納される列挙値の例：
+値がデータベースに格納される列挙値の例：
 
 ```
     <enumeration name="myEnum">

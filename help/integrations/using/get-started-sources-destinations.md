@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Adobe Experience Platform を使用すると、Campaign Classic とアドビのリアルタイム顧客データプラットフォーム（RTCDP）の間でデータを共有できます。 これにより、Campaign ワークフローで Adobe Experience Platform オーディエンスをターゲットに設定し、オーディエンスに関連するデータ（送信数、開封数、クリック数など）をアドビのリアルタイム顧客データプラットフォームへと送信できます。
 
-* **宛先**&#x200B;で、Adobe Experience Platform のオーディエンスを Campaign Classic に取得します。 これにより、マーケティングキャンペーンで既知のデータや不明なデータを活用することができます。
+* **宛先**&#x200B;で、Adobe Experience Platform のオーディエンスを Campaign Classic に取り込みます。これにより、マーケティングキャンペーンで既知のデータや不明なデータを活用することができます。
 * **ソース**&#x200B;で、Campaign Classic のデータ（送信数、開封数、クリック数など）を Adobe Experience Platform にエクスポートします。 これにより、異なるソースから収集したデータを 1 か所に集め、得られたインサイトを利用してより多くのことを実行できます。
 
 >[!IMPORTANT]

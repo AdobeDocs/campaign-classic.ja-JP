@@ -21,7 +21,7 @@ ht-degree: 100%
 
 キャンペーンから作成した配信は、このキャンペーンにリンクされ、キャンペーンレベルで統合されます。
 
-![](assets/do-not-localize/how-to-video.png)[ 動画でこの機能を確認する](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[ビデオでこの機能を確認する](#create-email-video)
 
 ## 配信の作成 {#creating-deliveries}
 

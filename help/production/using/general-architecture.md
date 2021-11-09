@@ -19,37 +19,37 @@ ht-degree: 4%
 
 ## 最小アーキテクチャ {#minimum-architecture}
 
-最小限の設定では、Adobe Campaignは次の操作をおこないます。
+最小限の設定では、Adobe Campaignは次の機能を使用して動作します。
 
 * Adobe Campaignアプリケーションサーバー
 * データベース。
 
    ![](assets/formation_exploitation.png)
 
-次の図は、最小アーキテクチャのコンテキストに関係するトラフィックは次のみであることを示しています。
+次の図は、最小アーキテクチャに関連するトラフィックは次のみであることを示しています。
 
 1. インターネットを介したAdobe Campaignサーバーへの HTTP プロトコルトラフィック
-1. インターネット経由でのAdobe Campaignサーバーとの間の SMTP プロトコルトラフィック。
+1. インターネット経由でAdobe Campaignサーバーとの間で送信される SMTP プロトコルトラフィック。
 
 ## 分散アーキテクチャ {#distributed-architecture}
 
-Adobe Campaignは複数のモジュールで構成され、複数のマシンに分類できます。 この動作モードには、次のような利点があります。
+Adobe Campaignは、複数のモジュールで構成され、複数のマシンに分類できます。 この動作モードには、次のような利点があります。
 
 * 負荷分散
 * モジュールの冗長性の設定
-* 複数のサービスプロバイダーにわたって分類されたアーキテクチャの構築（提供されるサービスのセグメント化）。
+* 複数のサービスプロバイダー（提供されるサービスのセグメント化）にわたって分類されたアーキテクチャの構築。
 
 ![](assets/architecturerepartie.png)
 
-複数のマシンにモジュールを分散させることで、使用の柔軟性が高く、適応性が向上します。
+複数のマシンにわたるモジュールの配布により、使用の柔軟性が高く、適応性が向上します。
 
 >[!NOTE]
 >
->様々なアーキテクチャについて詳しくは、[ この節 ](../../installation/using/general-architecture.md) を参照してください。
+>様々なアーキテクチャについて詳しくは、 [この節](../../installation/using/general-architecture.md).
 
-## オープン・ポートのリスト {#list-of-open-ports}
+## オープンポートのリスト {#list-of-open-ports}
 
-| ポート番号 | 対象となるAdobe Campaignモジュールまたはアプリケーション | 設定可能 |
+| ポート番号 | 関係するAdobe Campaignモジュールまたはアプリケーション | 設定可能 |
 |---|---|---|
 | 443/tcp または 80/tcp | Web サーバー (Apache/IIS) | はい |
 | 6666/udp （ローカル） | Adobe Campaign:Syslogd | はい |

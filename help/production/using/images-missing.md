@@ -17,17 +17,17 @@ ht-degree: 5%
 
 ![](../../assets/v7-only.svg)
 
-17.9 リリースでは、いくつかのファイル（特にアイコン）が移動されました。
+17.9 リリースでは、複数のファイル（特にアイコン）が移動されました。
 
 ホスト型のお客様の場合、影響はありません。 オンプレミスインストールの場合は、以下をお読みください。
 
 **Apache ユーザー：**
 
-Apache ユーザーが提供された **apache_neolane.conf** を使用している場合、影響はありません。
+Apache ユーザーが提供された **apache_neolane.conf**.
 
 **IIS ユーザー：**
 
-IIS ユーザー (Windows) の場合、ビルドの更新後、コンソールにいくつかのアイコンが表示されません。 追加の IIS 更新手順が必要です。
+IIS ユーザー (Windows) の場合、ビルドの更新後にコンソールにいくつかのアイコンが表示されません。 追加の IIS 更新手順が必要です。
 
-1. ビルドの更新後、Campaign のインストールディレクトリにある **iis_neolane_setup.vbs** をダブルクリックします。 デフォルトのパスはC:\Program Files (x86)\Adobe\Adobe Campaign v7\confです。
+1. ビルドの更新後、ダブルクリックします。 **iis_neolane_setup.vbs** は Campaign インストールディレクトリにあります。 デフォルトのパスはC:\Program Files (x86)\Adobe\Adobe Campaign v7\confです。
 1. 前の手順で更新した IIS サイトを再起動します。

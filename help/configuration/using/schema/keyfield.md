@@ -13,7 +13,7 @@ ht-degree: 10%
 
 ---
 
-# keyfield 要素 {#keyfield--element}
+# キーフィールド要素 {#keyfield--element}
 
 ![](../../../assets/v7-only.svg)
 
@@ -40,8 +40,8 @@ keyfield:==EMPTY
 
 ## 属性の説明 {#attribute-description-9}
 
-* **xlink(MNTOKEN)**:では、リレーションテーブル（N-N リンク）の結合で定義された外部キーを自動的に参照できます。
-* **xpath (MNTOKEN)**:要素のインデックスまたはキーの `<attribute>`  定義。この属性は、キーまたはインデックスを定義するスキーマ属性のパスを定義する Xpath を受け取ります。
+* **xlink (MNTOKEN)**:では、リレーションテーブル（N-N リンク）の結合で定義された外部キーを自動的に参照できます。
+* **xpath (MNTOKEN)**:インデックスまたはキーの定義 `<attribute>`  要素。 この属性は、キーまたはインデックスを定義する schema 属性へのパスを定義する Xpath を受け取ります。
 
 ## 例 {#examples-}
 

@@ -17,26 +17,26 @@ ht-degree: 37%
 
 ![](../../assets/v7-only.svg)
 
-Web サーバー (Apache/IIS) の設定に関する主なベストプラクティスを以下に示します。
+Web サーバー (Apache/IIS) の設定に関する主なベストプラクティスを以下にいくつか示します。
 
 * デフォルトのエラーページを変更します。
 
 * 古い SSL のバージョンと暗号を無効にします。
 
-   **Apache**&#x200B;で、/etc/apache2/mods-available/ssl.confを編集します。次に例を示します。
+   **Apache 上**、/etc/apache2/mods-available/ssl.confを編集します。 次に例を示します。
 
    * SSLProtocol all -SSLv2 -SSLv3 -TLSv1
    * SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1
 
-   **IIS** ( ドキュメントを [参照](https://support.microsoft.com/en-us/kb/245030)) で、次の設定を実行します。
+   **IIS の場合** ( [ドキュメント](https://support.microsoft.com/en-us/kb/245030)) で、次の設定を実行します。
 
    * HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL にレジストリサブキーを追加します。
-   * デフォルトでネゴシエートされないプロトコル（TLS 1.2 など）をシステムが使用できるようにするには、**Protocols** キーの下にある次のレジストリキーで、DisabledByDefault 値の DWORD 値データを 0x0 に変更します。
+   * デフォルトでネゴシエートされないプロトコル（TLS 1.2 など）をシステムが使用できるようにするには、次のレジストリキーで、DisabledByDefault 値の DWORD 値データを 0x0 に変更します。 **プロトコル** キー：
 
       SCHANNEL\Protocols\TLS 1.2\Client
 
       SCHANNEL\Protocols\TLS 1.2\Server
-   **SSL x.0 の無効化**
+   **SSL x.0 を無効にします。**
 
    SCHANNEL\Protocols\SSL 3.0\Client:DisabledByDefault:DWORD（32 ビット）値を 1 に設定
 
@@ -44,21 +44,21 @@ Web サーバー (Apache/IIS) の設定に関する主なベストプラクテ�
 
 * **TRACE** メソッドを削除します。
 
-   **Apache**&#x200B;で、/etc/apache2/conf.d/security を編集します。TraceEnable  **Off**
+   **Apache 上**、 /etc/apache2/conf.d/security で編集します。TraceEnable **オフ**
 
-   **IIS** ( ドキュメントを [参照](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)) で、次の設定を実行します。
+   **IIS の場合** ( [ドキュメント](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)) で、次の設定を実行します。
 
    * **要求フィルタリング**&#x200B;の役割サービスまたは機能がインストールされていることを確認します。
    * **要求フィルタリング**&#x200B;パネルで「HTTP 動詞」タブをクリックし、「動詞の拒否」をクリックします。アクションパネルで、開くダイアログに「TRACE」と入力します。
 
 * バナーを削除します。
 
-   **Apache**&#x200B;で、/etc/apache2/conf.d/security を編集します。
+   **Apache 上**、 /etc/apache2/conf.d/security を編集します。
 
    * ServerSignature **Off**
    * ServerTokens **Prod**
 
-   **IIS**&#x200B;で、次の設定を実行します。
+   **IIS の場合**、次の設定を実行します。
 
    * **URLScan** をインストールします。
    * **Urlscan.ini** ファイルを編集して **RemoveServerHeader=1** を設定します。
@@ -76,9 +76,9 @@ Web サーバー (Apache/IIS) の設定に関する主なベストプラクテ�
    </Directory>
    ```
 
-   **IIS** ( ドキュメン [ト](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)を参照 ) で、コンテンツのフィルターオプションに **maxAllowedContentLength** （許容最大コンテンツ長）を設定します。
+   **IIS の場合** ( [ドキュメント](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits))、 **maxAllowedContentLength** （許可されるコンテンツの最大長）を使用できます。
 
 関連トピック ： 
 
-* [Adobe Marketing Cloudコンプライアンスの概要](https://experienceleague.adobe.com/docs/core-services/assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
+* [Adobe Marketing Cloud Compliance の概要](https://experienceleague.adobe.com/docs/core-services/assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
 * [Adobe Campaign Security の概要](https://wwwimages.adobe.com/content/dam/acom/en/marketing-cloud/campaign/pdfs/54658.en.campaign.wp.adb-security.pdf) (PDF)

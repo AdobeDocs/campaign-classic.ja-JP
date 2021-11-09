@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: sending-emails
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 source-git-commit: e719c8c94f1c08c6601b3386ccd99d250c9e606b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 100%
 

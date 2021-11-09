@@ -41,13 +41,13 @@ Adobe Campaign について詳しくは、以下の使用例と例を確認し�
 
 製品ドキュメントに加えて、以下に示す Campaign のセルフヘルプリソースにアクセスできます。
 
-### チュートリアル動画
+### チュートリアルビデオ
 
-動画で Adobe Campaign の主な機能を確認できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)
+ビデオで Adobe Campaign の主な機能を確認できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)
 
-### トレーニングセッションと動画
+### トレーニングセッションとビデオ
 
-これらの短い動画や詳細な動画の他に、[トレーニングコース](https://learning.adobe.com/catalog.html)や特集[プレゼンテーション動画](https://experienceleague.adobe.com/docs/home-tutorials.html?lang=ja)を Adobe.com で視聴できます。
+これらの短いビデオや詳細なビデオの他に、[トレーニングコース](https://learning.adobe.com/catalog.html)や特集[プレゼンテーションビデオ](https://experienceleague.adobe.com/docs/home-tutorials.html?lang=ja)を Adobe.com で視聴できます。
 
 ### Experience League コース
 

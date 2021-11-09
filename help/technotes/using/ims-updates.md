@@ -4,7 +4,7 @@ title: テクニカルノート - IMS を使用して Adobe Campaign に接続�
 description: Campaign - IMS の更新
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 100%
 
@@ -76,7 +76,7 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../inte
 
 ![](../../integrations/using/assets/do-not-localize/errorMsg.png)
 
-このような警告が表示された場合は、使用しているオペレーティングシステムの最新のアップデートをインストールしてください。 [詳細情報](https://helpx.adobe.com/jp/x-productkb/global/update-operating-system-and-browser.html)
+このような警告が表示された場合は、使用しているオペレーティングシステムの最新のアップデートをインストールしてください。 [詳細情報](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
 Internet Explorer のバージョンを更新しなかった場合は、次のメッセージが表示され、Adobe Campaign に接続できなくなります。
 

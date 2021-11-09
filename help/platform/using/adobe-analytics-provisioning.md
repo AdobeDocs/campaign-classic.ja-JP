@@ -7,10 +7,10 @@ feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 0830e7b8a430fa18bc1326b972741e2e4dc76342
+source-git-commit: 671e29425e8962ced833c10303b6edce7afda462
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 100%
+source-wordcount: '645'
+ht-degree: 84%
 
 ---
 
@@ -24,7 +24,11 @@ ht-degree: 100%
 >
 >ホスト環境での実装については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に問い合わせてください。
 
-Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe Identity Management サービス（IMS）をサポートしています。Analytics Connector の実装を開始する前に、Adobe IMS を実装し、[Adobe ID を使用して](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/connect-to-campaign/connecting-via-an-adobe-id/about-adobe-id.html?lang=ja) Campaign に接続する必要があります。
+Adobe Campaign ClassicとAdobe Analyticsの認証の統合では、AdobeIdentity Managementサービス (IMS) をサポートしています。
+
+* 移行した外部アカウントを管理している場合は、Adobe IMSを実装し、Adobe IDを介してAdobe Campaignに接続する必要があります。 Adobe ID IMS でログインしたユーザーは、 **Data コネクタ** Adobe Analyticsのアカウントに含まれ、 **製品プロファイル** 以下に説明します。
+
+* 新しいコネクタを実装する場合、実装Adobe IMSはオプションです。 Adobe IDを使用していない場合、Adobe Campaignは技術ユーザーを使用してAdobe Analyticsと同期します。
 
 この統合が機能するには、Analytics コネクタ専用の Adobe Analytics 製品プロファイルを作成する必要があります。次に、Adobe I/O プロジェクトを作成する必要があります。
 

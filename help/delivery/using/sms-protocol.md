@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: configuring-channels
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 4d789ad0138f65134d3c1592ef5d5517d39fc0f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8460'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -231,7 +231,7 @@ Adobe Campaign Classic は、SR と MO がデータベースに挿入された�
 
 >[!IMPORTANT]
 >
-> Adobe Campaignは、送信にマルチパート SMS またはロング SMS のみをサポートします。 UDH および `message_payload` は、受信 SMS(MO) に対してはサポートされていません。つまり、MO は 160 文字に制限されています。
+> Adobe Campaign は、送信用マルチパート SMS またはロング SMS のみをサポートします。UDH および `message_payload` は、着信 SMS（MO）ではサポートされていません。つまり、MO は 160 文字に制限されています。
 
 マルチパート SMS（ロング SMS）は、複数のパーツで送信される SMS です。モバイルネットワークプロトコルの技術的な制限により、SMS は 140 バイト以下にする必要があり、超える場合は分割する必要があります。SMS に収まる文字数について詳しくは、[SMS テキストエンコーディング](sms-protocol.md#sms-text-encoding)の節を参照してください。
 

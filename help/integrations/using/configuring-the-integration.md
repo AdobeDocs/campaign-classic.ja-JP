@@ -1,22 +1,22 @@
 ---
 product: campaign
-title: Adobe Experience Manager 統合の設定
+title: Adobe Experience Manager統合の設定
 description: Campaign と AEM の統合を設定する方法を説明します
 audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 6c23dadb5b6523e17e242de43a908ca86ed7cc23
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '609'
+ht-degree: 96%
 
 ---
 
-# 統合の設定{#configuring-the-integration}
+# Campaign とAEMの統合の設定{#configuring-the-integration}
 
 ![](../../assets/common.svg)
 
-## Adobe Campaign での設定 {#configuring-in-adobe-campaign}
+## Adobe Campaignでの設定手順 {#configuring-in-adobe-campaign}
 
 2 つのソリューションを同時に使用するには、相互接続を設定する必要があります。
 
@@ -111,7 +111,7 @@ AEM 外部アカウントを設定するには、次の手順に従います。
 
    ![](assets/aem_config_5.png)
 
-## Adobe Experience Manager での設定 {#configuring-in-adobe-experience-manager}
+## Adobe Experience Managerでの設定手順 {#configuring-in-adobe-experience-manager}
 
 次の手順に従って、Adobe Experience Manager での設定を開始します。
 

@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 9%
+source-wordcount: '655'
+ht-degree: 7%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 9%
 
 Adobe Campaignアプリケーションサーバは、より多様で複雑な企業の情報システムとのオープン性と容易な統合を実現するように設計されています。
 
-Adobe Campaign API は、アプリケーション内の JavaScript と、その外部の SOAP で使用されます。 エンリッチメントは、エンリッチメントできる汎用関数のライブラリを構成します。 詳しくは、 [SOAP メソッドの実装](../../configuration/using/implementing-soap-methods.md).
+Adobe Campaign API は、アプリケーション内の JavaScript と、その外部の SOAP で使用されます。 エンリッチメントは、エンリッチメント可能な汎用関数のライブラリを構成します。 詳しくは、 [SOAP メソッドの実装](../../configuration/using/implementing-soap-methods.md).
 
 >[!IMPORTANT]
 >
 >1 日あたりの認証済みエンジン呼び出し数は、ライセンス契約によって異なります。 詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-classic---product-description.html)を参照してください。\
->すべての API のリストとその詳細な説明は、 [この専用ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
+>すべての API のリストとその詳細な説明は、 [この専用ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html.
 
 ## 前提条件 {#prerequisites}
 

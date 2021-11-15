@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
+source-git-commit: 6c23dadb5b6523e17e242de43a908ca86ed7cc23
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1223'
 ht-degree: 27%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 27%
 >新しいパッケージをインストールすると、すべてのプラットフォームに影響を与える可能性があります。最終的なデプロイメントの前に、テストと検証をおこなう必要があります。
 >
 >インストールしたパッケージはアンインストールできません。
+>
+>ホスト型またはハイブリッド型のお客様は、Adobeに連絡して、新しい組み込みパッケージをデプロイしてもらいます。
 
 組み込みパッケージをインストールするには：
 

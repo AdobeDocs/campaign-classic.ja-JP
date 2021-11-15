@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: navigation-hierarchy
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 3%
+source-wordcount: '1206'
+ht-degree: 1%
 
 ---
 
@@ -95,7 +95,7 @@ A **`<command>`** 要素に含めることができる要素 **`<command>`** サ
 
 コマンド区切り文字を使用すると、コマンド間に分離バーを表示できます。 これは、 **&#39;-&#39;** の値を指定します。
 
-オプションで **`<soapcall>`** タグに入力パラメーターを指定し、実行する SOAP メソッドの呼び出しを定義します。 SOAP API について詳しくは、 [Campaign JSAPI ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
+オプションで **`<soapcall>`** タグに入力パラメーターを指定し、実行する SOAP メソッドの呼び出しを定義します。 SOAP API について詳しくは、 [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
 
 初期化時に、 **`<enter>`** タグを使用します。 このタグについて詳しくは、入力フォームに関するドキュメントを参照してください。
 
@@ -268,7 +268,7 @@ A **`<command>`** 要素に含めることができる要素 **`<command>`** サ
 
 コマンド区切り文字を使用すると、コマンド間に分離バーを表示できます。 これは、 **&#39;-&#39;** の値を指定します。
 
-オプションで **`<soapcall>`** タグに入力パラメーターを指定し、実行する SOAP メソッドの呼び出しを定義します。 SOAP API について詳しくは、 [Campaign JSAPI ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html).
+オプションで **`<soapcall>`** タグに入力パラメーターを指定し、実行する SOAP メソッドの呼び出しを定義します。 SOAP API について詳しくは、 [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
 
 フォームコンテキストは、初期化時に、 **`<enter>`** タグを使用します。 このタグについて詳しくは、入力フォームのドキュメントを参照してください。
 

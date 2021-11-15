@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 57996f77-4ac2-402a-95db-b75d4bea4eeb
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
-source-wordcount: '2369'
-ht-degree: 100%
+source-wordcount: '2366'
+ht-degree: 99%
 
 ---
 
@@ -146,7 +146,7 @@ ht-degree: 100%
 
 **強化点**
 
-* Campaign Classic API を[専用ページ](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)から入手できるようになりました。jsapi.chm ファイルを使用していた場合は、新しいオンラインバージョンを参照する必要があります。
+* Campaign Classic API を[専用ページ](https://experienceleague.adobe.com/developer/campaign-api/api/index.html)から入手できるようになりました。jsapi.chm ファイルを使用していた場合は、新しいオンラインバージョンを参照する必要があります。
 * PostgreSQL 10、Debian 9 および Teradata 16.20 がサポートされるようになりました。[互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)を参照してください。
 * SFTP 接続を作成する際、プロキシ認証を使用できるようになりました。詳しくは、[詳細ドキュメント](../../installation/using/file-res-management.md)を参照してください。（NEO-9868）
 * ダイレクトメール配信テンプレートを使用して単一の配信を作成する際、配信プロパティで「**日付計算式**」オプションを使用できるようになりました。（NEO-9792）

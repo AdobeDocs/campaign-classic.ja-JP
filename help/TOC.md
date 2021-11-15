@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 23c5892189c59008f82ec453c97d24efe82fd2ae
+source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
 workflow-type: tm+mt
 source-wordcount: '2566'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 100%
    + ダイレクトメールの送信 {#sending-direct-mail}
       + [ダイレクトメールチャネルについて](delivery/using/about-direct-mail-channel.md)
       + [ダイレクトメール配信の作成](delivery/using/creating-a-direct-mail-delivery.md)
-      + [ダイレクトメールのコンテンツの定義](delivery/using/defining-the-direct-mail-content.md)
+      + [ダイレクトメールのコンテンツを定義](delivery/using/defining-the-direct-mail-content.md)
       + [検証](delivery/using/validating.md)
    + 配信テンプレートの使用 {#using-delivery-templates}
       + [テンプレートについて](delivery/using/about-templates.md)

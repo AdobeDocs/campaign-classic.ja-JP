@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Adobe Campaign Classic における E メールコンテンツの定義
+title: Adobe Campaign Classicでの E メールコンテンツの定義
 description: Adobe Campaign Classic を使用して E メールコンテンツを定義する方法を説明します。
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 100%
+source-wordcount: '2064'
+ht-degree: 99%
 
 ---
 
@@ -237,7 +237,7 @@ HTML 形式の E メール配信には、画像を含めることができます
 >
 >ローカル画像をメッセージに含める場合は、メッセージのソースコードに適用される変更を確認する必要があります。
 
-## E メールへのバーコードの挿入{#inserting-a-barcode-in-an-email}
+## パーソナライズされたバーコードの挿入{#insert-a-barcode}
 
 バーコード生成モジュールを使用して、2D バーコードなど、一般的基準に適合する、複数のタイプのバーコードを作成できます。
 

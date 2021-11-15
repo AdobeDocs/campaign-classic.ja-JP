@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 4%
+source-wordcount: '632'
+ht-degree: 2%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html) には、SOAP 呼び出しとAdobe Campaignでの JavaScript の使用に関する追加情報と、アプリケーションで使用されるすべてのメソッドおよび関数への完全なリファレンスが含まれています。
+>[Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) には、SOAP 呼び出しとAdobe Campaignでの JavaScript の使用に関する追加情報と、アプリケーションで使用されるすべてのメソッドおよび関数への完全なリファレンスが含まれています。
 
 ## 購読 (nms:subscription) {#subscribe--nms-subscription-}
 

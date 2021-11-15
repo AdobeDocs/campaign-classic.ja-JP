@@ -153,7 +153,6 @@ REINDEX TABLE nmsmirrorpageinfo;
 >* VACUUM および REINDEX 文はテーブルをロックし、メンテナンスの実行中に一部のプロセスを一時停止します。
 >* 非常に大きなテーブル（通常は 5 Gb を超える）の場合、VACUUM FULL 文は非常に非効率になり、非常に長い時間がかかる可能性があります。 Adobeでは、 **YyyNmsBroadLogXxx** 表。
 >* このメンテナンス操作は、Adobe Campaignワークフローで、 **[!UICONTROL SQL]** アクティビティ。 詳しくは、[この節](../../workflow/using/architecture.md)を参照してください。バックアップウィンドウに衝突しない低アクティビティ時間のメンテナンスをスケジュールしてください。
-
 >
 
 

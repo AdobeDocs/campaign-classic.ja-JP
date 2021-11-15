@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 89494165a59c0ba6119f37d41893fd0e8733f47d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1657'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <td>Adobe Analytics Connector<br></td>
    <td><p>Campaign 21.1.3 リリース以降、Adobe Analytics Data Connector は非推奨（廃止予定）になりました。</p>
    <p>このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../platform/using/adobe-analytics-connector.md">詳細情報</a></p>
-  <p><em>削除のターゲット日：2022 年 8 月</em></p>
+  <p><em>削除予定日：2022 年 8 月</em></p>
   </td>
  </tr>
     <tr>

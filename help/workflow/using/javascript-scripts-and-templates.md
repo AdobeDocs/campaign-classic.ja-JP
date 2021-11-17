@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 8e6ebec9af0b7865616cf3904c8d400094567bdb
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 100%
+source-wordcount: '1263'
+ht-degree: 99%
 
 ---
 
@@ -196,3 +196,6 @@ logInfo("Start date: " + task.creationDate)
 アクティビティのほとんどのプロパティは動的に割り出すことができます。この場合、JavaScript テンプレートを使用します。または、スクリプトを使用してワークフロープロパティで明示的に値を割り出します。
 
 一方、その他のプロパティでは、初期化スクリプトを使用する必要があります。スクリプトはタスクの実行前に評価されます。変数 **[!UICONTROL activity]** は、タスクに対応するアクティビティを参照します。このアクティビティのプロパティは変更することが可能で、タスクにのみ影響を与えます。
+
+**関連トピック**
+[ワークフローでの JavaScript コードの例](javascript-in-workflows.md)

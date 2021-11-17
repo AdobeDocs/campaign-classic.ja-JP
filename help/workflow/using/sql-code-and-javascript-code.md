@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: action-activities
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8e6ebec9af0b7865616cf3904c8d400094567bdb
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,10 @@ ht-degree: 100%
 
 ## JavaScript コードと高度な JavaScript コード {#javascript-code}
 
-**[!UICONTROL JavaScript コード]**&#x200B;と&#x200B;**[!UICONTROL 高度な JavaScript コード]**&#x200B;アクティビティは、ワークフローのコンテキストで JavaScript スクリプトを実行します。スクリプティングについて詳しくは、[JS のスクリプトとテンプレート](javascript-scripts-and-templates.md)の節を参照してください。
+**[!UICONTROL JavaScript コード]**&#x200B;と&#x200B;**[!UICONTROL 高度な JavaScript コード]**&#x200B;アクティビティは、ワークフローのコンテキストで JavaScript スクリプトを実行します。スクリプティングについて詳しくは、次の節を参照してください。
+
+* [JavaScript のスクリプトとテンプレート](javascript-scripts-and-templates.md)
+* [ワークフローでの JavaScript コードの例](javascript-in-workflows.md)
 
 ### 実行遅延 {#exec-delay}
 

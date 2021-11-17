@@ -6,32 +6,28 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
-source-git-commit: b6e24c63ece12f25b7dafe3fede9e38b3aab2427
+source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 71%
+source-wordcount: '208'
+ht-degree: 60%
 
 ---
 
-# Adobe Target との統合の設定{#configuring-the-integration-with-adobe-target}
+# Adobe Targetとの統合の設定{#configuring-the-integration-with-adobe-target}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 
 >[!CAUTION]
 >
 > ホスト型またはハイブリッド型の顧客は、この統合を設定するには、Adobe担当者にお問い合わせください。 以下の手順はオンプレミス版のお客様にのみ適用されます。
 
-## 前提条件 {#prerequisites}
-
-Adobe Campaign と Adobe Target 間の統合を使用するには、次が必要です。
+この統合には、以下が必要です。
 
 * Adobe Experience Cloud および Adobe Target 組織
 * Adobe Campaign との接続を確立するために指定された Adobe Target ローボックス
 
-## Adobe Campaign の設定 {#configuring-adobe-campaign}
-
-Adobe Campaign を設定するには：
+Adobe Campaignでこの統合を設定するには、次の手順に従います。
 
 1. のインストール **[!UICONTROL Adobe Experience Cloudとの統合]** 組み込みパッケージ。 [詳細情報](../../platform/using/working-with-data-packages.md#importing-packages)
 

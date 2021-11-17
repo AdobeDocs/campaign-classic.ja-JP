@@ -5,14 +5,14 @@ description: Adobe Experience Cloud Triggers の実装入門
 audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
 
 ---
 
-# Adobe Experience Cloud トリガーの基本を学ぶ{#about-adobe-experience-triggers}
+# Campaign と Experience Cloud トリガーの使用{#about-adobe-experience-triggers}
 
 ![](../../assets/common.svg)
 

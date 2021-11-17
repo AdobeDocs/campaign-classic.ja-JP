@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
+source-git-commit: 93fcb0b2b12b581dadbe4358e72bb883384fbbe6
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2571'
 ht-degree: 99%
 
 ---
@@ -373,11 +373,11 @@ ht-degree: 99%
       + [ [!DNL Assets] へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
       + [共有アセットの挿入](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [ [!DNL Adobe Experience Manager] について](integrations/using/about-adobe-experience-manager.md)
+      + [の操作 [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [統合の設定](integrations/using/configuring-the-integration.md)
       + [ [!DNL Experience Manager]  ニュースレターの作成](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [ [!DNL Adobe Target] との統合](integrations/using/integrating-with-adobe-target.md)
+      + [の操作 [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [ [!DNL Adobe Target] との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [動的画像の挿入](integrations/using/inserting-a-dynamic-image.md)
    + ACS コネクタ {#acs-connector}
@@ -387,14 +387,14 @@ ht-degree: 99%
       + [web アプリケーションの同期](integrations/using/synchronizing-web-applications.md)
       + [ [!DNL ACS Connector] のトラブルシューティング](integrations/using/troubleshooting-the-acs-connector.md)
    + Adobe Experience Cloud トリガー {#experience-triggers}
-      + [ [!DNL Experience Cloud Triggers]の基本を学ぶ](integrations/using/about-triggers.md)
+      + [の操作 [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)
       + [ [!DNL Experience Cloud Triggers]用の Adobe I/O の設定](integrations/using/configuring-adobe-io.md)
       + [カスタム実装用のイベントの設定](integrations/using/events.md)
       + [パイプラインの監視](integrations/using/pipeline-monitoring.md)
       + [パイプラインのトラブルシューティング](integrations/using/pipeline-troubleshooting.md)
    + Adobe Experience Platform のソースと宛先 {#aep-sources-destinations}
-      + [ソースと宛先の基本を学ぶ](integrations/using/get-started-sources-destinations.md)
+      + [ソースと宛先の操作](integrations/using/get-started-sources-destinations.md)
       + [Campaign への Adobe Experience Platform オーディエンスの取り込み](integrations/using/ingest-aep-data.md)
       + [Campaign から Adobe Experience Platform へのデータのエクスポート](integrations/using/export-campaign-data.md)
 + ワークフローを使用した自動化 {#automating-with-workflows}
@@ -510,6 +510,7 @@ ht-degree: 99%
       + [ワークフローのプロパティ](workflow/using/workflow-properties.md)
       + [詳細パラメーター](workflow/using/advanced-parameters.md)
       + [JavaScript のスクリプトとテンプレート](workflow/using/javascript-scripts-and-templates.md)
+      + [ワークフローでの JavaScript コードの例](workflow/using/javascript-in-workflows.md)
       + [外部データベースへのアクセス](workflow/using/accessing-an-external-database--fda-.md)
       + [権限の管理](workflow/using/managing-rights.md)
       + [アクティビティ画像の管理](workflow/using/managing-activity-images.md)

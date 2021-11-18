@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 5%
@@ -37,7 +37,7 @@ Adobe Campaignプラットフォームの様々なアプリケーションサー
   <tr> 
    <td> 25/tcp (smtp)<br /> </td> 
    <td> 任意の場所<br /> </td> 
-   <td> 電子メールブロードキャスト用の SMTP トラフィック。<br /> </td> 
+   <td> E メールブロードキャスト用の SMTP トラフィック。<br /> </td> 
   </tr> 
   <tr> 
    <td> 53/udp （ドメイン）<br /> </td> 
@@ -175,7 +175,7 @@ Adobe Campaignリッチクライアント (**nlclient**) の場合は、次の�
 
 ## 外部アクセス {#external-access}
 
-さらに、Adobe Campaignから直接実行された電子メールキャンペーンを表示できるように、特定のコンポーネントがパブリックインターネットからアクセス可能である必要があります。 つまり、コンポーネントの一部のポートを開く必要があります。
+また、Adobe Campaignから直接実行された E メールキャンペーンを表示できるよう、パブリックインターネットから特定のコンポーネントにアクセスできる必要があります。 つまり、コンポーネントの一部のポートを開く必要があります。
 
 ### リダイレクトサーバー {#redirection-server}
 
@@ -247,7 +247,7 @@ Adobe CampaignとAdobe Experience Managerの統合では、インストールが
 
 ## 帯域幅 {#bandwidth}
 
-考慮するネットワーク設定の別のキーパラメーター。 ほとんどの場合、送信され、電子メール放送中には多くの需要があります。 以下に、アドビの経験に基づく設定の例をいくつか示します。
+考慮するネットワーク設定の別のキーパラメーター。 E メール放送の間、ほとんど常にアウトバウンドで、多くの需要があります。 以下に、アドビの経験に基づく設定の例をいくつか示します。
 
 * 1 時間あたり 10,000 通のメールに対して 1 MB/秒（平均サイズは 30 KB）
 * 1 時間あたり 100,000 通のメールの場合は 8～10 Mb/秒（平均サイズは 30 Kb）

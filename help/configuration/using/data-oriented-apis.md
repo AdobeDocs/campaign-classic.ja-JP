@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 1%
@@ -45,7 +45,7 @@ XML ドキュメントは、データベースの MEMO タイプのフィール�
 
 ### ExecuteQuery {#executequery}
 
-列と条件の場合は、クエリを使用できます。
+列と条件に対して、クエリを使用できます。
 
 これにより、基になる SQL を分離できます。 クエリ言語は、基になるエンジンに依存しません。一部の関数は再マッピングされ、複数の SELECT SQL オーダーが生成される場合があります。
 
@@ -146,7 +146,7 @@ Write メソッドについては、 [書き込み/書き込みコレクショ�
 
 #### 「get」操作の例 {#example-with-the--get--operation}
 
-電子メールのフィルターを使用して、受信者の姓と名（「nms:recipient」スキーマ）を取得します。
+E メールのフィルターを使用して、受信者の姓と名（「nms:recipient」スキーマ）を取得します。
 
 ```
 <queryDef schema="nms:recipient" operation="get">
@@ -165,7 +165,7 @@ Write メソッドについては、 [書き込み/書き込みコレクショ�
 
 #### 「select」操作の例 {#example-with-the--select--operation}
 
-1 つのフォルダーでフィルターされた受信者のリストと、誕生日に降順で並べ替えられた電子メールドメインを返します。
+あるフォルダーでフィルターされた受信者のリストと、生年月日の降順で並べ替えられた E メールドメインを返します。
 
 ```
 <queryDef schema="nms:recipient" operation="select">
@@ -212,7 +212,7 @@ Write メソッドについては、 [書き込み/書き込みコレクショ�
 
 ```
 <queryDef schema="nms:recipient" operation="count"">
-  <!-- condition on the folder and domain of the e-mail -->
+  <!-- condition on the folder and domain of the email -->
   <where>  
     <condition expr="[@folder-id] = 1234" and @domain like 'Adobe%'"/>
   </where>
@@ -225,7 +225,7 @@ Write メソッドについては、 [書き込み/書き込みコレクショ�
 
 #### データのグループ化 {#data-grouping}
 
-複数回参照される電子メールアドレスを取得するには：
+複数回参照されている E メールアドレスを取得するには：
 
 ```
 <queryDef schema="nms:recipient" operation="select">
@@ -234,7 +234,7 @@ Write メソッドについては、 [書き込み/書き込みコレクショ�
     <node expr="count(@email)"/>
   </select>
 
-  <!-- e-mail grouping clause -->
+  <!-- email grouping clause -->
   <groupby>
     <node expr="@email"/>
   </groupby>
@@ -551,7 +551,7 @@ Write メソッドについては、 [書き込み/書き込みコレクショ�
 
 ### 「Write」メソッドの使用例 {#example-with-the--write--method}
 
-受信者（暗黙的な「insertOrUpdate」操作）を電子メールアドレス、生年月日、市区町村で更新または挿入する場合：
+E メールアドレス、生年月日、市区町村を使用して受信者（暗黙の「insertOrUpdate」操作）を更新または挿入する場合：
 
 ```
 <recipient xtkschema="nms:recipient" email="john.doe@adobe.com" birthDate="1956/05/04" folder-id=1203 _key="@email, [@folder-id]">

@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 100%
    * データベース内の既存のデータがテキストファイルのデータで変更されるように、「**[!UICONTROL 重複の管理]**」フィールドは「**[!UICONTROL 更新]**」オプションのままにします。
    * 「**[!UICONTROL 姓（@lastName）]**」ノードにカーソルを置き、「**[!UICONTROL 宛先が空の場合にのみ更新]**」オプションを選択します。
    * 「**[!UICONTROL 会社（@company）]**」ノードに対して、この操作を繰り返します。
-   * フィールド「**[!UICONTROL 生年月日]**」、「**[!UICONTROL E メール]**」および「**[!UICONTROL 名]**」に紐付けキーを割り当てます。
+   * フィールドへの紐付けキーの割り当て **[!UICONTROL 生年月日]**, **[!UICONTROL 電子メール]** および **[!UICONTROL 名]**.
 
       ![](assets/s_ncs_user_import_example04_03.png)
 
@@ -225,7 +225,7 @@ ht-degree: 100%
    * 「**[!UICONTROL コピーの管理]**」フィールドのオプション「**[!UICONTROL エンティティを却下]**」を選択します。
    * データベース内の既存のデータがテキストファイルのデータで変更されるように、「**[!UICONTROL 重複の管理]**」フィールドは「**[!UICONTROL 更新]**」オプションのままにします。
    * 「**[!UICONTROL アカウント番号（@account）]**」ノードにカーソルを置き、オプション「**[!UICONTROL 空の値を考慮]**」を選択します。
-   * フィールド「**[!UICONTROL 生年月日]**」、「**[!UICONTROL E メール]**」および「**[!UICONTROL 姓]**」を選択し、それらに紐付けキーを割り当てます。
+   * フィールドを選択 **[!UICONTROL 生年月日]**, **[!UICONTROL 電子メール]** および **[!UICONTROL 名]** そして、紐付けキーを割り当てます。
 
       ![](assets/s_ncs_user_import_example04_04.png)
 

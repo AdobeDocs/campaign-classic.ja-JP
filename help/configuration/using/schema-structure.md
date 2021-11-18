@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 00b8a9b4a693920aa6b4be9e7c41f08c2e53a0c6
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -476,7 +476,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 * **@email**：メールを選択します。
 * **location/@city**：**`<location>`** 要素の「市区町村」属性を選択します。
-* **../@email**：現在の要素の親要素からメールアドレスを選択します。
+* **../@email**:現在の要素の親要素から電子メールアドレスを選択します
 * **group`[1]/@label`**：最初の **`<group>`** コレクション要素の子要素である「label」属性を選択します。
 * **group`[@label='test1']`**：**`<group>`** 要素の子で、値「test1」を含む「label」属性を選択します。
 
@@ -486,13 +486,14 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 >
 >* **location/@city** が無効です。**`[location/@city]`** を使用してください。
 >* **`[@email]`** と **@email** は同等です。
+
 >
 
 
 次の算術演算のように、複雑な式を定義することもできます。
 
 * **@gender+1**：**gender** 属性の内容に 1 を追加します。
-* **@email + &#39;(&#39;+@created+&#39;)&#39;**：丸括弧内の作成日に追加された電子メールアドレスの値を受け取って、文字列を作成します（文字列型の場合は、定数を引用符で囲みます）。
+* **@email + &#39;(&#39;+@created+&#39;)&#39;**:（文字列タイプの場合は定数を引用符で囲み、）作成日に追加された電子メールアドレスの値を括弧で囲んで文字列を作成します。
 
 この言語の可能性を広げるため、式に高レベルの関数が追加されました。
 
@@ -504,7 +505,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 * **GetDate()**：現在の日付を返します。
 * **Year(@created)**：「created」属性に含まれる日付の年を返します。
-* **GetEmailDomain(@email)**：メールアドレスのドメインを返します。
+* **GetEmailDomain(@email)**:電子メールアドレスのドメインを返します。
 
 ## 文字列計算を使用した文字列の作成 {#building-a-string-via-the-compute-string}
 

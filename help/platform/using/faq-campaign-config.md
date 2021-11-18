@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign の配信機能と高度なキャンペーン管理機能を、�
 
 ## コンテンツの承認を実行するにはどうすればよいですか？ {#how-can-i-implement-content-approval-}
 
-Campaign では、マーケティングキャンペーンのメインステップの承認プロセスを協調モードで設定できます。キャンペーンごとに、配信ターゲット、コンテンツ、およびコストを承認できます。承認を担当する Adobe Campaign オペレーターは、E メールで通知を受け、コンソールから、または Web 接続を介して、承認を許可または却下できます。
+Campaign では、マーケティングキャンペーンのメインステップの承認プロセスを協調モードで設定できます。キャンペーンごとに、配信ターゲット、コンテンツ、およびコストを承認できます。承認を担当するAdobe Campaignオペレーターは、E メールで通知を受け、コンソールから、または Web 接続を介して、承認を許可または却下できます。
 
 Campaign で配信コンテンツの承認を実装する手順について[詳しくはここをクリック](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)してください。
 

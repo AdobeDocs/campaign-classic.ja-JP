@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '2603'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -171,7 +171,7 @@ Adobe Campaign では、マーケティングキャンペーンのメインス�
 
 ダイレクトメール配信の場合、Adobe Campaign のオペレーターは、抽出ファイルを発送担当に送信する前に確認できます。また、必要に応じてフォーマットを変更し、抽出を再開できます。[抽出ファイルの承認](#approving-an-extraction-file)を参照してください。
 
-キャンペーンごとに、配信ターゲット、コンテンツ（[コンテンツの承認](#approving-content)を参照）およびコストを承認できます。 承認を担当する Adobe Campaign オペレーターは、E メールで通知を受け、コンソールから、または Web 接続を介して、承認を許可または却下できます。 [配信を承認する手順](#approving-processes)を参照してください。
+キャンペーンごとに、配信ターゲット、コンテンツ（[コンテンツの承認](#approving-content)を参照）およびコストを承認できます。 Adobe Campaign を操作する承認者は、メールで通知を受け、コンソールまたはweb 接続で承認を許可または却下できます。 [配信を承認する手順](#approving-processes)を参照してください。
 
 この検証フェーズが完了したら、配信を開始できます。 [詳細情報](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)。
 
@@ -252,6 +252,7 @@ Adobe Campaign では、マーケティングキャンペーンのメインス�
 >* レビュー担当者のリストを定義した場合、1 人のレビュー担当者がジョブを許可するとジョブが承認されます。 すると、関連する承認リンクはダッシュボードに表示されなくなります。通知の送信が有効な場合、別のレビュー担当者が通知メッセージ内の承認リンクをクリックすると、別のオペレーターが既にジョブを承認したことが通知されます。
 >* レビュー担当者編集ウィンドウの下部セクションで、キャンペーンの承認スケジュールを定義できます。デフォルトでは、レビュー担当者は送信日から 3 日以内にプロセスを承認します。該当するオペレーターに承認期日前に自動的に送信されるように、リマインダーを設定できます。
 >* このセクションからリマインダーを追加できます。
+
 >
 
 
@@ -378,4 +379,4 @@ Adobe Campaign では、マーケティングキャンペーンのメインス�
 
 抽出されたファイルのコンテンツを（ファイル名をクリックして）確認したり、抽出ファイルを承認したり、必要であればダッシュボードのリンクを使用してフォーマットを変更し、抽出を再開できます。
 
-ファイルが承認されたら、通知 E メールを発送担当に送信できます。詳しくは、[オフライン配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery)を参照してください。
+ファイルが承認されたら、通知 E メールを発送担当に送信できます。 詳しくは、[オフライン配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery)を参照してください。

@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: deliverability-management
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '716'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 配信品質は、バウンスしたりスパムと見なされることなく受信者のインボックスに到達するキャンペーンの成否を測定する手法です。[配信品質が重要な理由について説明します](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=ja#why-deliverability-matters)。
 
-正確には、E メール配信品質とは、メッセージが、期待される品質の内容と形式を持ち、個人の E メールアドレスを通じて短時間で宛先に到達できるかどうかを判断するための一連の特性のことを指します。
+より正確に言えば、E メール配信品質とは、期待される品質のコンテンツと形式を持つメッセージが、個人の E メールアドレスを通じて短時間で宛先に到達する能力を判断する一連の特性を指します。
 
 配信品質の概要と、配信品質の主要な用語、概念、アプローチの詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
 
@@ -113,6 +113,6 @@ By settling for average (80%) deliverability, marketers are leaving significant 
 
 What exactly is email deliverability? And how can marketers improve deliverability rates to widen the mouth of the funnel and squeeze more results from their email campaigns?
 
-Email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal e-mail address, within a short time, and with the expected quality in terms of content and format. These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program. This overview outlines the four fundamentals of email deliverability success and offers best practices for reaching the inbox and driving greater revenues from email marketing programs.
+Email deliverability refers to the set of characteristics that determine a message's ability to reach its destination, via a personal email address, within a short time, and with the expected quality in terms of content and format. These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program. This overview outlines the four fundamentals of email deliverability success and offers best practices for reaching the inbox and driving greater revenues from email marketing programs.
 
 ![](assets/deliverability_overview_2.png)-->

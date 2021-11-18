@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '3201'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -246,7 +246,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 ### エラーの場合 {#behavior-in-the-event-of-an-error}
 
-ほとんどのデータ転送操作で、様々なタイプのエラーが発生します（一貫性のないラインフォーマット、無効な E メールアドレスなど）。インポートエンジンによって生成されるすべてのエラーおよびすべての警告は、保存され、インポートインスタンスにリンクされます。
+ほとんどのデータ転送操作で、様々なタイプのエラーが発生します（一貫性のないラインフォーマット、無効な E メールアドレスなど）。 インポートエンジンによって生成されるすべてのエラーおよびすべての警告は、保存され、インポートインスタンスにリンクされます。
 
 ![](assets/s_ncs_user_import_general_tab.png)
 

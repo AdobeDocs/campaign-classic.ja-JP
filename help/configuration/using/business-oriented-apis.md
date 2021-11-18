@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: api
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 2%
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 ### 例 {#examples}
 
-E メールアドレスの受信者の紐付けキーを含む購読：入力 XML ドキュメントは、電子メールアドレスと、このフィールドのキーの定義を参照する必要があります。
+E メールアドレスの受信者の紐付けキーを使用した購読：入力 XML ドキュメントは、電子メールアドレスと、このフィールドのキーの定義を参照する必要があります。
 
 ```
 <recipient _key="email" email= "john.doe@adobe.com"/>

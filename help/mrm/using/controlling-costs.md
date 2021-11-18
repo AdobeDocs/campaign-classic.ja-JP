@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '2539'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -337,7 +337,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 ![](assets/s_user_cost_mgmt_sample_19.png)
 
-承認または却下するには、このリンクをクリックします。このキャンペーンで通知が有効になっている場合は通知 E メール内のリンクを使用することもできます。
+その後、リンクをクリックして承認または却下できます。また、このキャンペーンで通知が有効になっている場合は通知 E メール内のリンクを使用できます。
 
 予算が承認され配信が完了すると、専用のテクニカルワークフローによりコストが自動的に更新されます。
 

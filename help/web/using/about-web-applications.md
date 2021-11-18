@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -46,8 +46,8 @@ Adobe Campaign の Web アプリケーションでは、次の機能を利用で
 * 回答に応じた調査フィールドの条件付き表示。詳しくは、この[ページ](form-rendering.md#defining-fields-conditional-display)を参照してください。
 * 質問のランダム表示。詳しくは、この[ページ](../../surveys/using/building-a-survey.md#adding-questions)を参照してください。
 * 条件付きページ表示。詳しくは、この[ページ](defining-web-forms-page-sequencing.md#conditional-page-display)を参照してください。
-* 期待されるデータタイプ（数値、E メールアドレス、日付など）および必須フィールドに応じた、検証前の情報確認。詳しくは、この[ページ](form-rendering.md#defining-control-settings)を参照してください。
-* E メールの招待状または通知。詳しくは、この[ページ](publishing-a-web-form.md#delivering-a-form-via-email)を参照してください。
+* 期待されるデータタイプ（数値、E メールアドレス、日付など）および必須フィールドに応じた、検証前の情報チェック。 詳しくは、この[ページ](form-rendering.md#defining-control-settings)を参照してください。
+* E メールの招待状または通知。 詳しくは、この[ページ](publishing-a-web-form.md#delivering-a-form-via-email)を参照してください。
 * エラーおよび終了メッセージのパーソナライゼーション。詳しくは、この[ページ](defining-web-forms-properties.md#setting-up-an-error-page)を参照してください。
 * 画像、ビデオ、ハイパーテキストリンク、Captcha などの使用。詳しくは、この[ページ](editing-content.md)を参照してください。
 * リアルタイムの応答の監視。詳しくは、この[ページ](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking)を参照してください。

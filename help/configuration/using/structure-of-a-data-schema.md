@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 86036f2f-ec7c-413e-b1e1-10a71a06cd6d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 10%
@@ -25,4 +25,4 @@ ht-degree: 10%
 
 プライマリキーは赤いキーで識別され、外部キーは黄色のキーで識別されます。
 
-リンクは、そのリンクがテーブルに属しているかどうかに応じて視覚的に区別されます。 テーブルから始まる（テーブルに外部キーが含まれる）ものが最初に表示されます（電子メール情報、フォルダ、国）。 「逆引き」の収集リンク（購読、注文など） が最後に表示されます。
+リンクは、そのリンクがテーブルに属しているかどうかに応じて視覚的に区別されます。 テーブルから始まる（テーブルに外部キーが含まれる）ものが最初に表示されます（メール情報、フォルダ、国）。 「逆引き」の収集リンク（購読、注文など） が最後に表示されます。

@@ -21,7 +21,7 @@ Adobe Campaignは、3 つのホスティングモデルから選択でき、ビ�
 
 >[!NOTE]
 >
->Adobeがホストする環境では、主なインストールおよび設定手順は、Adobeの設定やインスタンス設定ファイルのカスタマイズなど、サーバーによってのみ実行できます。 デプロイメントモード間の主な違いについて詳しくは、 [このページ](../../installation/using/capability-matrix.md).
+>Adobeがホストする環境では、サーバーの設定やインスタンス設定ファイルのカスタマイズなど、Adobeのみが主なインストールおよび設定手順を実行できます。 デプロイメントモード間の主な違いについて詳しくは、 [このページ](../../installation/using/capability-matrix.md).
 
 ## Managed Services/ホスト
 

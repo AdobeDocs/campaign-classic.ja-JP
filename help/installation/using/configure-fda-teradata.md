@@ -123,7 +123,7 @@ Query Banding を設定するには、以下の手順に従います。
 エラー **ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified.** は、Windows で 16.X ドライバーを使用した場合に発生します。Adobe Campaign の odbcinst.ini では、Teradata のメタデータ名は「{teradata}」である必要があります。
 
 
-* Campaign 18.10 以降は、外部アカウントのオプションに「ODBCDriverName=&quot;Teradataデータベース ODBC ドライバー 16.10&quot;」を追加できます。 バージョン番号は異なる場合があります。正確な番号は、odbcad32.exe を実行して「ドライバー」タブにアクセスすると見つかります。
+* Campaign 18.10 以降は、外部アカウントのオプションに「ODBCDriverName=&quot;Teradataデータベース ODBC Driver 16.10&quot;」を追加できます。 バージョン番号は異なる場合があります。正確な番号は、odbcad32.exe を実行して「ドライバー」タブにアクセスすると見つかります。
 
 
 * 古いバージョンの Campaign を使用している場合は、ドライバーのインストールによって作成された odbcinst.ini のTeradataセクションを、Teradataと呼ばれる新しいセクションにコピーする必要があります。 この場合は、regedit を使用できます。 ベースが latin1 の場合は、 **APICharSize=1** 」をクリックします。

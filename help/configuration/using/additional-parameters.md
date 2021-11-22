@@ -58,7 +58,7 @@ Adobe Campaignプラットフォームでは、標準として 2 つの TRANSACT
 
 デフォルト値は 64 文字です。 この値では、 **量** および **記事** (&quot;amount=xxxxxxxxx&amp;article=xxxxxxxxxx&quot;) 標準パラメーター。
 
-上記の拡張スキーマの例で示した両方のパラメーター（名前のサイズ+値のサイズ）を考慮することで、100 文字を考慮に入れるように設定を変更できます (「amount=xxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxxxxx&amp;code=xxxxxxxxxx」)。
+上記の拡張スキーマの例で示した両方のパラメーター（名前のサイズ+値のサイズ）を考慮することで、100 文字を考慮に入れるよう設定を変更できます (「amount=xxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxxxx&amp;code=xxxxxxx」)。
 
 ```
 <trackinglogd args="" autoStart="false" initScript="" maxCreateFileRetry="5" maxLogsSizeOnDiskMb="500"

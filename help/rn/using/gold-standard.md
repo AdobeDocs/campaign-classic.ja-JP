@@ -50,6 +50,7 @@ _2021 年 4 月 14 日_
 > * Adobe Identity Management サービス（IMS）を使用して Adobe ID で Campaign に接続する場合、**2021 年 6 月 30 日**（PT）以降も Campaign に接続できるようにするには、Campaign サーバーとクライアントコンソールの両方をアップグレードする必要があります。[詳細情報](../../technotes/using/ims-updates.md)
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 > * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、[2021 年 9 月 日](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)（PT）に&#x200B;**廃止されました**。ホスト環境では、**2022年2月23日**（PT）まで延長サポートを受けられます。オンプレミス環境またはハイブリッド環境のお客様は、アドビカスタマーケアに連絡してサポートを 2022年2月まで延長してください。 [OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) をアドビに伝える必要があります。
+
 >
 >詳しくは、[[!DNL Gold Standard]  11 アップグレード FAQ](https://helpx.adobe.com/jp/campaign/kb/gold-standard-upgrade.html) を参照してください。
 

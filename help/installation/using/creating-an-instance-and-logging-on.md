@@ -71,7 +71,7 @@ Adobe Campaignコンソールを起動したら、ログインページにアク
 
 1. 内 **[!UICONTROL 言語]** ドロップダウンリストから、 **インスタンス言語**:英語（米国）、英語（英国）、フランス語、日本語。
 
-   英語（米国）と英語（英国）の違いについては、 [この節](../../platform/using/adobe-campaign-workspace.md#date-and-time).
+   米国英語と英国英語の違いについては、 [この節](../../platform/using/adobe-campaign-workspace.md#date-and-time).
 
    >[!CAUTION]
    >

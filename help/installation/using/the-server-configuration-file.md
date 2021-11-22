@@ -79,7 +79,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
    <td> checkIPConsistent<br /> </td> 
    <td> IP アドレス検査を有効にする.<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> defaultMode<br /> </td> 
@@ -209,7 +209,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
    <td> useVault<br /> </td> 
    <td> 秘密鍵を Vault に保存：Hashicorp Vault を使用します。<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> vaultSecretPath<br /> </td> 
@@ -513,7 +513,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
  <tbody> 
   <tr> 
    <td> localDomain<br /> </td> 
-   <td> ドメイン名：デフォルトのドメイン名。 SMTP HELO コマンドで使用されます。 デフォルトでは、は Windows で宣言された最初のネットワークインターフェイスのネットワークパラメーターを使用します。または、Linux の下のfile/etc/resolv.confを解析します（ドメインまたは検索エントリ）。 <br /> </td> 
+   <td> ドメイン名：デフォルトのドメイン名。 SMTP HELO コマンドで使用されます。 デフォルトでは、は Windows で宣言された最初のネットワークインターフェイスのネットワークパラメーターを使用します。または、Linux（ドメインまたは検索エントリ）の下のfile/etc/resolv.confを解析します。 <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -602,7 +602,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
   </tr> 
   <tr> 
    <td> maxProcessCount<br /> </td> 
-   <td> 最大1 台のマシン上で一度に許可されるコンバージョンプロセスの数。<br /> </td> 
+   <td> 最大1 台のマシンで一度に許可される変換プロセスの数。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
@@ -622,7 +622,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
    <td> 詳細<br /> </td> 
    <td> 詳細モード：可能性のあるエラーを診断するために、詳細モードで開始します。<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> waitTime<br /> </td> 
@@ -883,7 +883,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
    <td> 有効<br /> </td> 
    <td> プロキシサーバーを使用.<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> 上書き<br /> </td> 
@@ -895,7 +895,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
    <td> useSingleProxy<br /> </td> 
    <td> 一意のプロキシサーバー：すべてのタイプのプロキシに同じ設定を使用します。<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -916,7 +916,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  </thead> 
  <tbody> 
   <tr> 
-   <td> address<br /> </td> 
+   <td> 住所<br /> </td> 
    <td> プロキシサーバーのアドレス<br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
@@ -991,7 +991,7 @@ URL が見つからない場合は、指定されたデフォルトのモード�
    <td> debugTrace<br /> </td> 
    <td> URL 選択メカニズムのデバッグトレース：は、URL 検証プロセス中に追加のメッセージを発行します。<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1114,7 +1114,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> autoStart<br /> </td> 
    <td> 自動で開始<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> compressBatchSize<br /> </td> 
@@ -1186,7 +1186,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> smtpEnableTLS<br /> </td> 
    <td> SMTPS サポートを有効化：リモートサーバーでサポートされている場合に、セーフモード (STARTTLS/SMTPS) での E メールの配信を有効化します。<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> smtpNbConnection<br /> </td> 
@@ -1233,7 +1233,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> autoStart<br /> </td> 
    <td> 自動で開始<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> checkInstanceName<br /> </td> 
@@ -1245,7 +1245,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> defaultForwardAddress<br /> </td> 
    <td> 転送先アドレス：ルールで処理されないデフォルトの E メール転送アドレス。 <br /> </td> 
    <td> 文字列<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> errorForwardAddress<br /> </td> 
@@ -1257,7 +1257,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> ignoreSize<br /> </td> 
    <td> メッセージサイズを無視：は、POP3 サーバーから返されるメッセージのサイズを無視するために使用されます。 この場合、モジュールは「。」を想定しています。 を送信します。 <br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> inMailPeriodSec<br /> </td> 
@@ -1358,7 +1358,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> ダンプ<br /> </td> 
    <td> すべての受信メッセージをテキスト形式で保存します。 <br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> msgPath<br /> </td> 
@@ -1395,7 +1395,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> autoStart<br /> </td> 
    <td> 自動で開始<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> callDataSize<br /> </td> 
@@ -1484,7 +1484,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> autoStart<br /> </td> 
    <td> 自動で開始<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> dataLogPath<br /> </td> 
@@ -1635,7 +1635,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> verifyMode<br /> </td> 
    <td> 検証モード：検証モードを有効化します（メッセージの物理的な送信は行いません）。シミュレーションとテストに使用 )。<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> workingPath<br /> </td> 
@@ -1805,7 +1805,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> maxAgeSec<br /> </td> 
-   <td> 最大メッセージ保持時間. 準備されたメッセージがスロットルによって送信されなかった場合やターゲット MTA に接続できなかった場合、メッセージは破棄され、次の再試行で処理されます。<br /> </td> 
+   <td> 最大メッセージ保持時間。準備されたメッセージがスロットルによって送信されなかった場合やターゲット MTA に接続できなかった場合、メッセージは破棄され、次の再試行で処理されます。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -1843,7 +1843,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> startWithFirstMX<br /> </td> 
    <td> 常に最優先 MX で開始.<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> timeToLive<br /> </td> 
@@ -1870,7 +1870,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> enableTLS<br /> </td> 
    <td> リモートサーバーでサポートされる場合、セーフモードで E メールの配信を有効化します (STARTTLS/SMTPS)。<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> idleSessionTimeoutSec<br /> </td> 
@@ -1983,7 +1983,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> useHTTPProxy<br /> </td> 
    <td> 共有 / プロキシ HTTP で定義された HTTP プロキシを使用. <br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2065,7 +2065,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> autoStart<br /> </td> 
    <td> 自動で開始 <br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> disableAuth<br /> </td> 
@@ -2209,31 +2209,31 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> allowDebug<br /> </td> 
    <td> Web アプリケーションのデバッグモードを許可.<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowEmptyPassword<br /> </td> 
    <td> パスワードなしでアプリケーションを使用することをユーザーに許可.<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowHTTP<br /> </td> 
    <td> オペレーターのログオンに HTTP の使用を許可.<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowSQLInjection<br /> </td> 
    <td> 式で SQLDATA の使用を承認.<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowUserPassword<br /> </td> 
    <td> ユーザー / パスワードセッショントークンを許可.<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> ラベル<br /> </td> 
@@ -2251,13 +2251,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> sessionTokenOnly<br /> </td> 
    <td> セキュリティトークンを使用しない.<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> showErrors<br /> </td> 
    <td> エラーの詳細を表示<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2354,7 +2354,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> autoStart<br /> </td> 
    <td> 自動で開始<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> dataRetentionDays<br /> </td> 
@@ -2478,7 +2478,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> autoStart<br /> </td> 
    <td> 自動で開始<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -2543,7 +2543,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> autoStart<br /> </td> 
    <td> 自動で開始<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -2614,13 +2614,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> autoStart<br /> </td> 
    <td> 自動で開始<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> blockRedirectForUnsignedTrackingLink<br /> </td> 
    <td> 以前のビルドで生成された、形式の正しくない URL を無効にします。<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> consolidationPeriodSec<br /> </td> 
@@ -2745,7 +2745,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> autoStart<br /> </td> 
    <td> 自動で開始<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -2834,7 +2834,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
   </tr> 
   <tr> 
    <td> MaxThreads<br /> </td> 
-   <td> スレッドの最大数.<br /> </td> 
+   <td> スレッドの最大数です。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 75<br /> </td> 
   </tr> 
@@ -2854,7 +2854,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> autoStart<br /> </td> 
    <td> 自動で開始<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> controlPort<br /> </td> 
@@ -2914,7 +2914,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> startSoapRouterInModule<br /> </td> 
    <td> モジュールモードで SOAP ルーターを起動します。<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3050,7 +3050,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> debugRelay<br /> </td> 
    <td> Web サーバー内の HTTP リレーモジュールをデバッグモードで起動します.<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> forbiddenCharsInAuthority<br /> </td> 
@@ -3074,7 +3074,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> startRelay<br /> </td> 
    <td> HTTP リレーモジュールを開始.<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> startRelayInModule<br /> </td> 
@@ -3339,7 +3339,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> trackWebVisitors<br /> </td> 
    <td> Web トラッキング：不明なユーザーが訪問したページのログの作成。 <br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> trackingPassword<br /> </td> 
@@ -3440,7 +3440,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.*&quot;
    <td> autoStart<br /> </td> 
    <td> 自動で開始<br /> </td> 
    <td> ブール値<br /> </td> 
-   <td> いいえ<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> dataBasePoolPeriodSec<br /> </td> 

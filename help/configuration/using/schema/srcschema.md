@@ -64,7 +64,7 @@ created(datetime)、createdBy-id(long)、desc(string)、entitySchema(string)、e
 * **mappingType (string)**:
 
    * &quot;sql&quot;:データベースマッピング
-   * &quot;textFile&quot;:テキストファイルのマッピング
+   * &quot;textFile&quot;:テキストファイルマッピング
    * &quot;xmlFile&quot;:XML 形式のテキストファイルマッピング
    * &quot;binaryFile&quot;:バイナリファイルマッピング
 

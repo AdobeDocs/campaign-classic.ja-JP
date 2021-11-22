@@ -31,7 +31,7 @@ xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false)
 
 ## 非静的メソッド {#non-static-methods}
 
-非静的 SOAP メソッドを使用するには、まず、対応するスキーマで「get」または「create」メソッドを使用してエンティティを取得する必要があります。
+非静的 SOAP メソッドを使用するには、まず対応するスキーマで「get」または「create」メソッドを使用してエンティティを取得する必要があります。
 
 次の例では、「xtk:queryDef」スキーマの ExecuteQuery メソッドを呼び出します。
 

@@ -583,7 +583,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_BroadLogPurgeDelay</span> <br /> </td> 
-   <td> <p>データベースから broadLog が消去されるまでの遅延を定義できます。</p><p>このオプションは、インターフェイス内で遅延が変更されると自動的に作成されます。 オプションリストから値を変更する場合は、秒単位で表す必要があります。</p><br /> </td> 
+   <td> <p>データベースから broadlog が消去されるまでの遅延を定義できます。</p><p>このオプションは、インターフェイス内で遅延が変更されると自動的に作成されます。 オプションリストから値を変更する場合は、秒単位で表す必要があります。</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_EventHistoPurgeDelay</span> <br /> </td> 
@@ -659,7 +659,7 @@ ht-degree: 24%
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> Microsoft SQL Server 上の作業用テーブルに対して別のデータベースを設定し、バックアップとレプリケーションを最適化できます。 このオプションは、一時データベースの名前に対応します。作業用テーブルを指定した場合、このデータベースに書き込みます。 例：'tempdb.dbo.' （名前の末尾はドットにする必要があります）。 <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">詳細情報</a> <br /> </td> 
+   <td> バックアップとレプリケーションを最適化するために、Microsoft SQL Server 上の作業用テーブルに対して別のデータベースを設定できます。 このオプションは、一時データベースの名前に対応します。作業用テーブルを指定した場合、このデータベースに書き込みます。 例：'tempdb.dbo.' （名前の末尾はドットにする必要があります）。 <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">詳細情報</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 

@@ -75,7 +75,7 @@ Adobeプラットフォームによる E メールの効率的な送受信に関
 
 配信統計は、ターゲット MX ごとに、およびソース IP ごとに保持されます。 例えば、ターゲットドメインの MX が 5 つで、プラットフォームが 3 つの異なる IP アドレスを使用できる場合、サーバーはこのドメインに対して最大 15 個の一連の指標を管理できます。
 
-ソース IP アドレスは、パブリック IP アドレス（リモート電子メールサーバーで確認されるアドレス）と一致します。 この IP アドレスは、 **mta**（NAT ルータが指定されている場合） このため、統計サーバーは、パブリック IP(**publicId**) をクリックします。 ローカルアドレスとこの識別子の関連付けは、 **serverConf.xml** 設定ファイル。 次の **serverConf.xml** を [セクション](../../installation/using/the-server-configuration-file.md).
+ソース IP アドレスは、パブリック IP アドレス（リモート E メールサーバーで確認されるアドレス）と一致します。 この IP アドレスは、 **mta**（NAT ルータが指定されている場合） このため、統計サーバーは、パブリック IP(**publicId**) をクリックします。 ローカルアドレスとこの識別子の関連付けは、 **serverConf.xml** 設定ファイル。 次の **serverConf.xml** を [セクション](../../installation/using/the-server-configuration-file.md).
 
 ## 配信出力コントロール {#delivery-output-controlling}
 

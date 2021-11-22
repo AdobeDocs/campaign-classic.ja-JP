@@ -29,5 +29,5 @@ Apache ユーザーが提供された **apache_neolane.conf**.
 
 IIS ユーザー (Windows) の場合、ビルドの更新後にコンソールにいくつかのアイコンが表示されません。 追加の IIS 更新手順が必要です。
 
-1. ビルドの更新後、ダブルクリックします。 **iis_neolane_setup.vbs** は Campaign インストールディレクトリにあります。 デフォルトのパスはC:\Program Files (x86)\Adobe\Adobe Campaign v7\confです。
+1. ビルドの更新後、ダブルクリックします。 **iis_neolane_setup.vbs** は Campaign インストールディレクトリにあります。 デフォルトのパスはC:\Program Files (x86)\Adobe\Adobe Campaign v7\conf です。
 1. 前の手順で更新した IIS サイトを再起動します。

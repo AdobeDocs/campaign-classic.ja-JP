@@ -160,7 +160,7 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
 
    ![](assets/scripting-captcha2.png)
 
-1. 分岐の条件を次の式で編集 `"[vars/captchaValid]"` が True と等しい。
+1. 分岐の条件を次の値で編集 `"[vars/captchaValid]"` が True と等しい。
 
    ![](assets/scripting-captcha3.png)
 

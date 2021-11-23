@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: content-management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 100%
+source-wordcount: '828'
+ht-degree: 99%
 
 ---
 
@@ -25,9 +25,9 @@ Adobe Campaign の入力フォーム使用に関する一般的な原理を一�
 
 入力フォームの XML ドキュメントには、**name** 属性と **namespace** 属性が設定された **`<form>`** ルート要素が必要です。これにより、フォームの名前と名前空間がそれぞれ指定されます。
 
-```
+```xml
 <form name="form_name" namespace="name_space">
-...
+…
 </form>
 ```
 
@@ -39,7 +39,7 @@ Adobe Campaign の入力フォーム使用に関する一般的な原理を一�
 
 対応する入力フォームは次のようになります。
 
-```
+```xml
 <form name="book" namespace="cus" type="contentForm">
   <input xpath="@name"/>
   <input xpath="@date"/>
@@ -89,7 +89,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 ![](assets/d_ncs_content_form4.png)
 
-```
+```xml
 <input xpath="chapter" type="list">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -108,7 +108,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 ![](assets/d_ncs_content_form5.png)
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of chapters" type="list" xpath="chapter">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -133,7 +133,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 ![](assets/d_ncs_content_form7.png)
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of chapters" type="list" xpath="chapter" zoom="true" zoomOnAdd="true">
   <input xpath="@name"/>
   <input xpath="@number"/>
@@ -160,7 +160,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 ![](assets/d_ncs_content_form6.png)
 
-```
+```xml
 <container toolbarCaption="List of chapters" type="notebooklist" xpath="chapter" xpath-label="@name">
   <container colcount="2">
     <input xpath="@name"/>
@@ -197,3 +197,5 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 「**[!UICONTROL プレビュー]**」タブで、入力フォームを確認できます。
 
 ![](assets/d_ncs_content_form13.png)
+
+詳細を表示 [フォームの編集](../../configuration/using/editing-forms.md) および [フォーム構造](../../configuration/using/form-structure.md).

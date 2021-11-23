@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: d750e13d3770d3b36b5f4376233d4da458730ed7
 workflow-type: tm+mt
-source-wordcount: '2557'
-ht-degree: 100%
+source-wordcount: '2567'
+ht-degree: 99%
 
 ---
 
@@ -76,6 +76,10 @@ Adobe Campaign には、Adobe Campaign に保存されているデータに対�
 プライバシーリクエストを作成する前に、使用する名前空間を定義する必要があります。これは、Adobe Campaign データベースでデータ主体を識別するために使用するキーです。
 
 標準では、E メール、電話、携帯電話の 3 つの名前空間を使用できます。別の名前空間（受信者用のカスタムフィールドなど）が必要な場合、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 名前空間]**&#x200B;で新しく作成することができます。
+
+>[!NOTE]
+>
+>最適なパフォーマンスを得るには、標準の名前空間を使用することをお勧めします。
 
 ## プライバシーリクエストの作成 {#create-privacy-request-ui}
 

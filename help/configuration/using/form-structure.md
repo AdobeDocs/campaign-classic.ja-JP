@@ -6,30 +6,30 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 898353f80a93052cd25088098c9570c2b44ceac4
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 93%
+source-wordcount: '2403'
+ht-degree: 91%
 
 ---
 
 # フォームの構造{#form-structure}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 フォームは、構造化された XML 文書として記述され、フォームスキーマ **xtk:form** の文法に従います。
 
 入力フォームの XMLドキュメントには、フォーム名と名前空間を設定するために、**name** 属性と **namespace** 属性を持つ`<form>`ルート要素が含まれている必要があります。
 
-```
+```xml
 <form name="form_name" namespace="name_space">
-...
+…
 </form>
 ```
 
 デフォルトでは、フォームは同じ名前と名前空間を持つデータスキーマに関連付けられています。フォームに別の名前を関連付けるには、`<form>` 要素の **entity-schema** 属性をスキーマキーの名前に設定します。 入力フォームの構造を理解するために、「cus:recipient」のサンプルスキーマを使用したインターフェイスを説明します。
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <enumeration name="gender" basetype="byte">    
     <value name="unknown" label="Not specified" value="0"/>    
@@ -49,7 +49,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple1.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <input xpath="@gender"/>
   <input xpath="@birthDate"/>
@@ -76,7 +76,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple2.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <container colcount="2">
     <input xpath="@gender"/>
@@ -92,7 +92,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple3.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <container colcount="2">
     <input xpath="@gender"/>
@@ -106,7 +106,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple4.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <container colcount="2" type="frame" label="General">
     <input xpath="@gender"/>
@@ -120,7 +120,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple5.png)
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <static type="separator" colspan="2" label="General"/>
   <input xpath="@gender"/>
@@ -138,11 +138,11 @@ ht-degree: 93%
 
 コンテナを使用すると、一連のコントロールをグループ化できます。これらは **`<container>`** 要素で表されます。コンテナは、複数の列のコントロールを書式設定する際に使用します。
 
-`<container>` の **xpath** 属性を使用すると、子コントロールを簡単に参照できます。 コントロールの参照は、親 `<container>` の親に対する相対パスになります。
+`<container>` の **xpath** 属性を使用すると、子コントロールを簡単に参照できます。 コントロールの参照は親に対して相対的に行われます `<container>` 要素。
 
 「xpath」を使用しないコンテナの例：
 
-```
+```xml
 <container colcount="2">
   <input xpath="location/@zipCode"/>
   <input xpath="location/@city"/>
@@ -151,7 +151,7 @@ ht-degree: 93%
 
 「location」という要素に「xpath」を追加した例を次に示します。
 
-```
+```xml
 <container colcount="2" xpath="location">
   <input xpath="@zipCode"/>
   <input xpath="@city"/>
@@ -168,7 +168,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple6.png)
 
-```
+```xml
 <container type="notebook">
   <container colcount="2" label="General">
     <input xpath="@gender"/>
@@ -176,18 +176,19 @@ ht-degree: 93%
     <input xpath="@email" colspan="2"/>
   </container>
   <container colcount="2" label="Location">
-    ...
+    …
   </container>
 </container>
 ```
 
 メインコンテナは、**type=&quot;notebook&quot;** 属性で定義します。タブは子コンテナで宣言され、タブのラベルは **label** 属性から投入されます。
 
+![](assets/d_ncs_integration_form_exemple7.png)
+
 >[!NOTE]
 >
 >A **style=&quot;down|up**（デフォルト）**&quot;** [ フィーチャ ] を使用すると、タブラベルをコントロールの下または上に配置します。 この機能はオプションです。
->![](assets/d_ncs_integration_form_exemple7.png)
->`<container style="down" type="notebook">  ... </container>`
+>`<container style="down" type="notebook">  … </container>`
 
 #### アイコンリスト {#icon-list}
 
@@ -195,7 +196,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple8.png)
 
-```
+```xml
 <container type="iconbox">
   <container colcount="2" label="General" img="xtk:properties.png">
     <input xpath="@gender"/>
@@ -203,7 +204,7 @@ ht-degree: 93%
     <input xpath="@email" colspan="2"/>
   </container>
   <container colcount="2" label="Location" img="nms:msgfolder.png">
-    ...
+    …
   </container>
 </container>
 ```
@@ -220,12 +221,12 @@ ht-degree: 93%
 
 次の例は、「性別」フィールドの値に対するコントロールの表示を示しています。
 
-```
+```xml
 <container type="visibleGroup" visibleIf="@gender=1">
-  ...
+  …
 </container>
 <container type="visibleGroup" visibleIf="@gender=2">
-  ...
+  …
 </container>
 ```
 
@@ -241,12 +242,12 @@ ht-degree: 93%
 
 このコンテナを使用すると、動的条件に基づく一連のデータを有効または無効にできます。 コントロールを無効にすると、コントロールを編集できなくなります。 次の例は、「性別」フィールドの値からコントロールを有効にする方法を示しています。
 
-```
+```xml
 <container type="enabledGroup" enabledIf="@gender=1">
-  ...
+  …
 </container>
 <container type="enabledGroup" enabledIf="@gender=2">
-  ...
+  …
 </container>
 ```
 
@@ -256,7 +257,7 @@ ht-degree: 93%
 
 リンクは、データスキーマ内で次のように宣言します。
 
-```
+```xml
 <element label="Company" name="company" target="cus:company" type="link"/>
 ```
 
@@ -264,7 +265,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple9.png)
 
-```
+```xml
 <input xpath="company"/>
 ```
 
@@ -280,7 +281,7 @@ ht-degree: 93%
 
 入力フォームのリンク定義を使用して **`<sysfilter>`** 要素を追加することによって、ターゲット要素の選択肢を制限できます。
 
-```
+```xml
 <input xpath="company">
   <sysFilter>
     <condition expr="[location/@city] =  'Newton"/>
@@ -290,7 +291,7 @@ ht-degree: 93%
 
 **`<orderby>`** 要素を使用してリストを並べ替えることもできます。
 
-```
+```xml
 <input xpath="company">
   <orderBy>
     <node expr="[location/@zipCode]"/>
@@ -318,9 +319,9 @@ ht-degree: 93%
 
 スキーマ内のコレクションリンクの例：
 
-```
+```xml
 <element label="Events" name="rcpEvent" target="cus:event" type="link" unbound="true">
-...
+…
 </element>
 ```
 
@@ -328,7 +329,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple11.png)
 
-```
+```xml
  <input xpath="rcpEvent" type="linklist">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -349,7 +350,7 @@ ht-degree: 93%
 
 フィルタリングと並べ替えは、リストの読み込み時に適用できます。
 
-```
+```xml
  <input xpath="rcpEvent" type="linklist">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -370,7 +371,7 @@ ht-degree: 93%
 
 スキーマ内の関係テーブルの例：
 
-```
+```xml
 <srcSchema name="subscription" namespace="cus">
   <element name="recipient" type="link" target="cus:recipient" label="Recipient"/>
   <element name="service" type="link" target="cus:service" label="Subscription service"/>
@@ -381,7 +382,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple12.png)
 
-```
+```xml
 <input type="linklist" xpath="subscription" xpathChoiceTarget="service" xpathEditTarget="service" zoom="true">
   <input xpath="recipient"/>
   <input xpath="service"/>
@@ -417,7 +418,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple13.png)
 
-```
+```xml
 <input xpath="rcpEvent" type="list">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -436,7 +437,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple14.png)
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -451,7 +452,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple15.png)
 
-```
+```xml
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true" zoomOnAdd="true">
   <input xpath="@label"/>
   <input xpath="@date"/>
@@ -488,7 +489,7 @@ ht-degree: 93%
 
 ![](assets/d_ncs_integration_form_exemple16.png)
 
-```
+```xml
 <value value="@gender"/>
 <input xpath="@gender" readOnly="true"/>
 ```
@@ -499,7 +500,7 @@ ht-degree: 93%
 
 「性別」フィールドの例：
 
-```
+```xml
 <input type="RadioButton" xpath="@gender" checkedValue="0" label="Choice 1"/>
 <input type="RadioButton" xpath="@gender" checkedValue="1" label="Choice 2"/>
 <input type="RadioButton" xpath="@gender" checkedValue="2" label="Choice 3"/>
@@ -511,12 +512,16 @@ ht-degree: 93%
 
 チェックボックスはブール状態（選択されているかどうか）を反映します。 デフォルトでは、このコントロールは「ブール」（true／false）フィールドで使用されます。 デフォルト値が 0 または 1 の変数は、このボタンに関連付けることができます。 この値は、**checkValue** 属性を介してオーバーロードできます。
 
-```
+```xml
 <input xpath="@boolean1"/>
 <input xpath="@field1" type="checkbox" checkedValue="Y"/>
 ```
 
 ![](assets/d_ncs_integration_form_exemple20.png)
+
+## 定義済みリスト {#enumeration}
+
+<!-- to be completed -->
 
 ## ナビゲーション階層の編集 {#navigation-hierarchy-edit}
 
@@ -524,7 +529,7 @@ ht-degree: 93%
 
 編集するコントロールは、ツリーコントロールの **`<input>`** タグの下に入力された **`<container>`** にグループ化されます。
 
-```
+```xml
 <input nolabel="true" type="treeEdit">
   <container label="Text fields">
     <input xpath="@text1"/>
@@ -541,9 +546,9 @@ ht-degree: 93%
 
 ## 式フィールド {#expression-field}
 
-式フィールドは、式からフィールドを動的に更新します。**`<input>`** タグは、更新するフィールドのパスを入力するための **xpath** 属性と、更新式を含む **expr** 属性とともに使用されます。
+式フィールドは、式から動的にフィールドを更新します。の **`<input>`** タグが **xpath** 更新するフィールドのパスと **万博** 更新式を含む属性。
 
-```
+```xml
 <!-- Example: updating the boolean1 field from the value contained in the field with path /tmp/@flag -->
 <input expr="Iif([/tmp/@flag]=='On', true, false)" type="expr" xpath="@boolean1"/>
 <input expr="[/ignored/@action] == 'FCP'" type="expr" xpath="@launchFCP"/>
@@ -566,14 +571,14 @@ ht-degree: 93%
 
 フォームのコンテキストは、**`<enter>`** タグと **`<leave>`** タグを使用してフォームを初期化するときおよび閉じるときに更新できます。
 
-```
+```xml
 <form name="recipient" namespace="cus">
   <enter>
-    <set...
+    <set…
   </enter>
-  ...
+  …
   <leave>
-    <set...
+    <set…
   </leave>
 </form>
 ```
@@ -588,7 +593,7 @@ ht-degree: 93%
 
 **`<if expr="<expression>" />`** タグは、式が検証された場合に、タグで指定された命令を実行します。
 
-```
+```xml
 <if expr="([/tmp/@test] == 'Test' or @lastName != 'Doe') and @boolean2 == true">
   <set xpath="@boolean1" expr="true"/>
 </if>
@@ -596,7 +601,7 @@ ht-degree: 93%
 
 **`<check expr="<condition>" />`** タグと **`<error>`** タグを組み合わせると、フォームの検証がおこなわれなくなり、条件が満たされない場合はエラーメッセージが表示されます。
 
-```
+```xml
 <leave>
   <check expr="/tmp/@test != ''">
     <error>You must populate the 'Test' field!</error> 
@@ -604,22 +609,24 @@ ht-degree: 93%
 </leave>
 ```
 
+<!-- changer exemple par un exemple plus parlant. cf. vidéo validation 02:27. noter aussi l'attribut required dans l'exemple de la vidéo. -->
+
 ## ウィザード {#wizards}
 
 ウィザードに従って、一連のデータ入力手順をページ形式で実行できます。 入力したデータは、フォームを検証するときに保存されます。
 
 ウィザードの構造は次のとおりです。
 
-```
+```xml
 <form type="wizard" name="example" namespace="cus" img="nms:rcpgroup32.png" label="Wizard example" entity-schema="nms:recipient">
   <container title="Title of page 1" desc="Long description of page 1">
     <input xpath="@lastName"/>
     <input xpath="comment"/>
   </container>
   <container title="Title of page 2" desc="Long description of page 2">
-    ...
+    …
   </container>
-  ...
+  …
 </form>
 ```
 
@@ -635,10 +642,10 @@ SOAP メソッドを実行するには、ページの最後に追加した **`<l
 
 **`<soapcall>`** タグには、次の入力パラメーターを持つメソッドの呼び出しが含まれます。
 
-```
+```xml
 <soapCall name="<name>" service="<schema>">
-  <param type="<type>" exprIn="<xpath>"/>  
-  ...
+  <param  type="<type>" exprIn="<xpath>"/>  
+  …
 </soapCall>
 ```
 
@@ -661,12 +668,12 @@ SOAP メソッドを実行するには、ページの最後に追加した **`<l
 
 **例**：
 
-```
+```xml
 <leave>
   <soapCall name="RegisterGroup" service="nms:recipient">         
-    <param type="DOMElement" exprIn="/tmp/entityList"/>         
-    <param type="DOMElement" exprIn="/tmp/choiceList"/>         
-    <param type="boolean"    exprIn="true"/>       
+    <param  type="DOMElement"    exprIn="/tmp/entityList"/>         
+    <param  type="DOMElement"    exprIn="/tmp/choiceList"/>         
+    <param  type="boolean"       exprIn="true"/>       
   </soapCall>
 </leave>
 ```

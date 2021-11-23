@@ -1,21 +1,21 @@
 ---
 product: campaign
-title: フォームの識別
-description: フォームの識別
+title: フォームの指定
+description: フォームの指定
 audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 59%
+ht-degree: 45%
 
 ---
 
-# フォームの識別{#identifying-a-form}
+# フォームの指定{#identifying-a-form}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 入力フォームを使用すると、データスキーマに関連付けられたインスタンスを Adobe Campaign クライアントコンソールから編集できます。 
 

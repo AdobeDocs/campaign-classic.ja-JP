@@ -6,7 +6,7 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 93fcb0b2b12b581dadbe4358e72bb883384fbbe6
+source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
 workflow-type: tm+mt
 source-wordcount: '2571'
 ht-degree: 99%
@@ -790,7 +790,7 @@ ht-degree: 99%
       + [スキーマの再生成](configuration/using/regenerating-schemas.md)
       + [スキーマエディションの例](configuration/using/examples-of-schemas-edition.md)
    + 入力フォーム {#input-forms}
-      + [フォームの識別](configuration/using/identifying-a-form.md)
+      + [フォームの指定](configuration/using/identifying-a-form.md)
       + [フォームの編集](configuration/using/editing-forms.md)
       + [フォームの構造](configuration/using/form-structure.md)
    + API {#api}

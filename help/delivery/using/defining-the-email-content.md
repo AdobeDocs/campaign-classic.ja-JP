@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Adobe Campaign Classicでの E メールコンテンツの定義
-description: Adobe Campaign Classic を使用して E メールコンテンツを定義する方法を説明します。
+title: Adobe Campaign Classic におけるメールコンテンツの定義
+description: Adobe Campaign Classic を使用する際にメールコンテンツを定義する方法について説明します。
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
@@ -9,11 +9,11 @@ exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
 workflow-type: tm+mt
 source-wordcount: '2064'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# E メールコンテンツの定義 {#defining-the-email-content}
+# メールコンテンツの定義 {#defining-the-email-content}
 
 ![](../../assets/common.svg)
 
@@ -114,7 +114,7 @@ ht-degree: 99%
 
 ## インタラクティブコンテンツの定義 {#amp-for-email-format}
 
-Adobe Campaign では、特定の条件下での動的な E メールの送信を可能にする、新しいインタラクティブ [AMP for Email](https://amp.dev/about/email/) フォーマットを試すことができます。
+Adobe Campaign では、特定の条件下での動的な E メールの送信を可能にする、新しいインタラクティブ [AMP for Email](https://amp.dev/ja/about/email/) フォーマットを試すことができます。
 
 詳しくは、[この節](defining-interactive-content.md)を参照してください。
 
@@ -237,7 +237,7 @@ HTML 形式の E メール配信には、画像を含めることができます
 >
 >ローカル画像をメッセージに含める場合は、メッセージのソースコードに適用される変更を確認する必要があります。
 
-## パーソナライズされたバーコードの挿入{#insert-a-barcode}
+## パーソナライズしたバーコードの挿入{#insert-a-barcode}
 
 バーコード生成モジュールを使用して、2D バーコードなど、一般的基準に適合する、複数のタイプのバーコードを作成できます。
 

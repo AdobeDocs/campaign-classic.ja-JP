@@ -9,7 +9,7 @@ exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: b6e24c63ece12f25b7dafe3fede9e38b3aab2427
 workflow-type: tm+mt
 source-wordcount: '881'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 88%
 
 ![](../../assets/common.svg)
 
-このページでは、Adobe CampaignでAdobe Targetのダイナミックオファーを E メールに統合する方法を説明します。
+このページでは、Adobe Target のダイナミックオファーを Adobe Campaign のメールに統合する方法を説明します。
 
-その目的は、受信者の国に応じて動的に変化する画像ブロックを使用して配信を作成することです。データは、各 mbox リクエストと共に、受信者の IP アドレスに基づいて送信されます。
+目的は、受信者の国に応じて動的に変化する画像ブロックを使用して配信を作成することです。データは、受信者の IP アドレスに応じて、各 mbox リクエストで送信されます。
 
-このメッセージでは、画像は、次のユーザーエクスペリエンスに従って動的に変化する場合があります。
+このメッセージでは、画像は次のユーザーエクスペリエンスに応じて動的に変化する可能性があります。
 
 * E メールがフランスで開かれている。
 * E メールが米国で開かれている。
@@ -29,15 +29,15 @@ ht-degree: 88%
 
 ![](assets/target_4.png)
 
-これを実行するには、次の手順に従います。
+これを実行するには、次の手順を適用します。
 
-1. [メールへの動的なオファーの挿入](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
+1. [メールへのダイナミックオファーの挿入](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
 1. [リダイレクトオファーの作成](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
 1. [オーディエンスの作成](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
 1. [「エクスペリエンスのターゲット設定」アクティビティの作成 ](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
-1. [E メールのプレビューと送信](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
+1. [メールのプレビューと送信](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
-## メールへの動的なオファーの挿入 {#inserting-dynamic-offer}
+## メールへのダイナミックオファーの挿入 {#inserting-dynamic-offer}
 
 Adobe Campaign で E メールのターゲットとコンテンツを定義したら、Target から動的イメージを挿入することができます。
 
@@ -100,7 +100,7 @@ Target で、2 つのオーディエンスを作成し、オファーに訪問�
 
 ## 「エクスペリエンスのターゲット設定」アクティビティの作成  {#creating-targeting-activity}
 
-Target で、「エクスペリエンスのターゲット設定」アクティビティを作成し、様々なエクスペリエンスを定義して、それらを対応するオファーに関連付けます。
+Target では、「エクスペリエンスのターゲット設定」アクティビティを作成し、様々なエクスペリエンスを定義して、それらを対応するオファーに関連付ける必要があります。
 
 ### オーディエンスの定義 {#defining-the-audience}
 
@@ -120,7 +120,7 @@ Target で、「エクスペリエンスのターゲット設定」アクティ�
 
 1. 「**[!UICONTROL エクスペリエンスのターゲット設定を追加]**」をクリックして、別のエクスペリエンスを作成します。
 
-### 場所とコンテンツを定義 {#defining-location-content}
+### 場所とコンテンツの定義 {#defining-location-content}
 
 オーディエンスごとにコンテンツを追加します。
 
@@ -138,7 +138,7 @@ Target で、「エクスペリエンスのターゲット設定」アクティ�
 
 1. 2 番目のエクスペリエンスについても同じ手順を繰り返します。
 
-### アクティビティを定義 {#defining-activity}
+### アクティビティの定義 {#defining-activity}
 
 **[!UICONTROL ターゲット]**&#x200B;ウィンドウに、アクティビティの概要が表示されます。必要に応じて、他のエクスペリエンスを追加できます。
 
@@ -150,7 +150,7 @@ Target で、「エクスペリエンスのターゲット設定」アクティ�
 
 ![](assets/target_experience_2.png)
 
-## E メールのプレビューと送信 {#preview-send-email}
+## メールのプレビューと送信 {#preview-send-email}
 
 Adobe Campaign では、E メールをプレビューして、様々な受信者に対するレンダリングをテストできます。作成されたエクスペリエンスごとに画像が変化することがわかります。E メール作成について詳しくは、この[ページ](../../delivery/using/defining-the-email-content.md)を参照してください。
 

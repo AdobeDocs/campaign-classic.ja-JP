@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Campaign と Experience Cloud トリガーの使用{#about-adobe-experience-triggers}
+# Campaign と Experience Cloud トリガーの連携{#about-adobe-experience-triggers}
 
 ![](../../assets/common.svg)
 

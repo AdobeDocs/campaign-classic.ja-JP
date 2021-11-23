@@ -9,32 +9,32 @@ exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
 source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
-# Adobe Targetとの統合の設定{#configuring-the-integration-with-adobe-target}
+# Adobe Target との統合の設定{#configuring-the-integration-with-adobe-target}
 
 ![](../../assets/v7-only.svg)
 
 
 >[!CAUTION]
 >
-> ホスト型またはハイブリッド型の顧客は、この統合を設定するには、Adobe担当者にお問い合わせください。 以下の手順はオンプレミス版のお客様にのみ適用されます。
+> ホスト環境またはハイブリッド環境のお客様は、この統合を設定する場合は、アドビ担当者にお問い合わせください。以下の手順はオンプレミス環境のお客様にのみ当てはまります。
 
-この統合には、以下が必要です。
+この統合には以下が必要です。
 
 * Adobe Experience Cloud および Adobe Target 組織
 * Adobe Campaign との接続を確立するために指定された Adobe Target ローボックス
 
-Adobe Campaignでこの統合を設定するには、次の手順に従います。
+Adobe Campaign でこの統合を設定するには、次の手順に従います。
 
-1. のインストール **[!UICONTROL Adobe Experience Cloudとの統合]** 組み込みパッケージ。 [詳細情報](../../platform/using/working-with-data-packages.md#importing-packages)
+1. **[!UICONTROL Adobe Experience Cloud との統合]**&#x200B;組み込みパッケージをインストールします。[詳細情報](../../platform/using/working-with-data-packages.md#importing-packages)
 
-   このパッケージでは、Digital Asset Manager を使用して共有アセットにアクセスできます。
+   このパッケージを使用すると、Digital Asset Manager を介して共有アセットにアクセスできます。
 
-1. Adobe Experience Cloud を使用して共有された画像を電子メールで使用するには、IMS（Adobe ID 接続サービス）での接続を有効にします。[詳細情報](../../integrations/using/about-adobe-id.md)
-1. 参照先 **[!UICONTROL 管理/プラットフォーム/オプション]** Adobe Targetのサーバーと組織（テナント）オプションを設定するには：
+1. Adobe Experience Cloud を介して共有された画像をメールで使用するには、IMS（Adobe ID 接続サービス）を介して接続を有効にします。[詳細情報](../../integrations/using/about-adobe-id.md)
+1. **[!UICONTROL 管理／プラットフォーム／オプション]**&#x200B;を参照して、 Adobe Target のサーバーおよび組織（テナント）オプションを設定します。
 
    ![](assets/tar_options.png)
 

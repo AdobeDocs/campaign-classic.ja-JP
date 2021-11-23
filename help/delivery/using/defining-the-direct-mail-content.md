@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: ダイレクトメールのコンテンツを定義
-description: ダイレクトメールのコンテンツを定義
+title: ダイレクトメールコンテンツの定義
+description: ダイレクトメールコンテンツの定義
 audience: delivery
 content-type: reference
 topic-tags: sending-direct-mail
@@ -9,11 +9,11 @@ exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# ダイレクトメールのコンテンツを定義{#defining-the-direct-mail-content}
+# ダイレクトメールコンテンツの定義{#defining-the-direct-mail-content}
 
 ![](../../assets/common.svg)
 

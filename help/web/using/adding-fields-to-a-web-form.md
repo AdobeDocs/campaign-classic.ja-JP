@@ -9,7 +9,7 @@ exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '2461'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -367,7 +367,7 @@ Captcha は、ビジュアルの下に配置された入力フィールドでペ
 
 アップロードフィールドをフォームページに挿入するには、ページエディターのツールバーで、**[!UICONTROL 高度なコントロール／ファイル]**&#x200B;メニューを選択します。
 
-デフォルトでは、更新されたファイルは、**[!UICONTROL リソース／オンライン／パブリックリソース]**&#x200B;メニューでアクセスできるリソースファイルに格納されます。この動作は、スクリプトを使用して変更できます。このスクリプトは、[Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html)で定義された関数を使用できます。これには、ファイル操作に関連する関数が含まれます。
+デフォルトでは、更新されたファイルは、**[!UICONTROL リソース／オンライン／パブリックリソース]**&#x200B;メニューでアクセスできるリソースファイルに格納されます。この動作は、スクリプトを使用して変更できます。このスクリプトは、[Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja)で定義された関数を使用できます。これには、ファイル操作に関連する関数が含まれます。
 
 ローカル変数またはデータベースフィールドで、これらのファイルにリンクを格納できます。例えば、受信者スキーマを拡張して、ファイルベースのリソースにリンクを追加できます。
 

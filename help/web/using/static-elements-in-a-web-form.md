@@ -9,7 +9,7 @@ exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '1074'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 
    >[!NOTE]
    >
-   >サーバー側では、スクリプトは、Adobe Campaign が提供する [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html)で定義された関数を使用できます。
+   >サーバー側では、スクリプトは、Adobe Campaign が提供する [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja)で定義された関数を使用できます。
 
 ## HTML コンテンツの挿入 {#inserting-html-content}
 

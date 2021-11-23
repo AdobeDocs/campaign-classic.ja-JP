@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Campaign と Experience Manager の使用{#about-adobe-experience-manager}
+# Campaign と Experience Manager の連携{#about-adobe-experience-manager}
 
 ![](../../assets/common.svg)
 

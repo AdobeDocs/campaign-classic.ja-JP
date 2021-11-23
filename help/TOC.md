@@ -135,7 +135,7 @@ ht-degree: 99%
    + E メールの送信 {#sending-emails}
       + [E メールチャネルについて](delivery/using/about-email-channel.md)
       + [E メール配信の作成](delivery/using/creating-an-email-delivery.md)
-      + [E メールコンテンツの定義](delivery/using/defining-the-email-content.md)
+      + [メールコンテンツの定義](delivery/using/defining-the-email-content.md)
       + [インタラクティブコンテンツの定義](delivery/using/defining-interactive-content.md)
       + E メール配信の送信 {#sending-an-email}
          + [E メールを送信する主な手順](delivery/using/sending-messages.md)
@@ -166,7 +166,7 @@ ht-degree: 99%
    + ダイレクトメールの送信 {#sending-direct-mail}
       + [ダイレクトメールチャネルについて](delivery/using/about-direct-mail-channel.md)
       + [ダイレクトメール配信の作成](delivery/using/creating-a-direct-mail-delivery.md)
-      + [ダイレクトメールのコンテンツを定義](delivery/using/defining-the-direct-mail-content.md)
+      + [ダイレクトメールコンテンツの定義](delivery/using/defining-the-direct-mail-content.md)
       + [検証](delivery/using/validating.md)
    + 配信テンプレートの使用 {#using-delivery-templates}
       + [テンプレートについて](delivery/using/about-templates.md)
@@ -373,11 +373,11 @@ ht-degree: 99%
       + [ [!DNL Assets] へのアクセスの設定](integrations/using/configuring-access-to-assets.md)
       + [共有アセットの挿入](integrations/using/inserting-a-shared-asset.md)
    + Adobe Experience Manager {#adobe-experience-manager}
-      + [の操作 [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
+      + [ [!DNL Adobe Experience Manager] の操作](integrations/using/about-adobe-experience-manager.md)
       + [統合の設定](integrations/using/configuring-the-integration.md)
       + [ [!DNL Experience Manager]  ニュースレターの作成](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
-      + [の操作 [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
+      + [ [!DNL Adobe Target] の操作](integrations/using/integrating-with-adobe-target.md)
       + [ [!DNL Adobe Target] との統合の設定](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [動的画像の挿入](integrations/using/inserting-a-dynamic-image.md)
    + ACS コネクタ {#acs-connector}
@@ -387,7 +387,7 @@ ht-degree: 99%
       + [web アプリケーションの同期](integrations/using/synchronizing-web-applications.md)
       + [ [!DNL ACS Connector] のトラブルシューティング](integrations/using/troubleshooting-the-acs-connector.md)
    + Adobe Experience Cloud トリガー {#experience-triggers}
-      + [の操作 [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
+      + [ [!DNL Experience Cloud Triggers] の操作](integrations/using/about-triggers.md)
       + [パイプラインの設定](integrations/using/configuring-pipeline.md)
       + [ [!DNL Experience Cloud Triggers]用の Adobe I/O の設定](integrations/using/configuring-adobe-io.md)
       + [カスタム実装用のイベントの設定](integrations/using/events.md)

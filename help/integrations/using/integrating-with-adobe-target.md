@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Adobe CampaignとAdobe Targetの使用
-description: Adobe CampaignとAdobe Targetの統合方法を説明します
+title: Adobe Campaign と Adobe Target の連携
+description: Adobe Campaign と Adobe Target の統合方法を説明します
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
@@ -9,7 +9,7 @@ exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
 source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 35%
 
 ![](../../assets/common.svg)
 
-Adobe CampaignをAdobe Targetと共に使用して、E メールのコンテンツを最適化します。
+Adobe Campaign を Adobe Target と連携して使用すると、メールコンテンツを最適化できます。
 
-E メールのコンテンツを最適化するには、Adobe Targetでリダイレクトオファーを作成した後、Adobe Campaignを使用して E メールオファーを管理します。 例えば、男性の受信者と女性の受信者に異なるオファーを表示できます。
+メールコンテンツを最適化するには、Adobe Target でリダイレクトオファーを作成した後、Adobe Campaign を使用してメールオファーを管理します。例えば、男性の受信者と女性の受信者に異なるオファーを表示できます。
 
-統合は、電子メールが開かれたときにおこなわれます。 顧客が E メールを開くと、Target に対する呼び出しがおこなわれ、コンテンツの動的バージョンが表示されます。 コンテンツは、すべてのブラウザーでサポートされる静的画像で構成されます。 Target は、オーディエンスまたはセッションレベルでオファーに対する反応を追跡し、そのデータは Target レポートで使用できます。 [詳しくは、 Adobe Targetのドキュメントを参照してください。](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja).
+統合は、メールが開かれたときに行われます。顧客がメールを開くと、Target に対する呼び出しが行われて、コンテンツの動的バージョンが表示されます。コンテンツは、すべてのブラウザーでサポートされている静的画像で構成されています。 Target は、オファーに対する反応をオーディエンスレベルまたはセッションレベルで追跡し、そのデータは Target レポートで使用できます。 詳しくは、[Adobe Target のドキュメント](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja)を参照してください。
 
 
 >[!NOTE]

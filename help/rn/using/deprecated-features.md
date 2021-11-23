@@ -9,7 +9,7 @@ exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <td><strong>置き換え</strong></td>
   </tr>
     <tr>
-  <td>Adobe Analytics Connector<br></td>
+  <td>Adobe Analytics Data Connector<br></td>
    <td><p>Campaign 21.1.3 リリース以降、Adobe Analytics Data Connector は非推奨（廃止予定）になりました。</p>
    <p>このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../platform/using/adobe-analytics-connector.md">詳細情報</a></p>
   <p><em>削除予定日：2022 年 8 月</em></p>
@@ -106,7 +106,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    </tr>
    <tr>
    <td>Campaign API ドキュメント - jsapi.chm ファイル</td>
-   <td>Campaign 19.1 リリースより、Campaign Classic API は専用ページで利用できます。従来の jsapi.chm ファイルを使用していた場合は、<a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html">新しいオンラインバージョン</a>を参照する必要があります。</td>
+   <td>Campaign 19.1 リリースより、Campaign Classic API は専用ページで利用できます。従来の jsapi.chm ファイルを使用していた場合は、<a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja">新しいオンラインバージョン</a>を参照する必要があります。</td>
   </tr> 
   <tr> 
    <td>キャンペーンオーケストレーション - 予測マーケティング</td>

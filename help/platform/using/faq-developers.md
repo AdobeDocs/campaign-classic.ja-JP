@@ -9,7 +9,7 @@ exl-id: 20552812-5c58-4d48-9636-d5135197685d
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,4 +65,4 @@ Campaign の設定をインポートおよびエクスポートするために�
 
 ## Campaign Classic API のリストはどこで参照できますか？ {#where-can-i-find-the-list-of-campaign-classic-apis}
 
-すべての Campaign API とその詳細な説明については、この[専用ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html)を参照してください。
+すべての Campaign API とその詳細な説明については、この[専用ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja)を参照してください。

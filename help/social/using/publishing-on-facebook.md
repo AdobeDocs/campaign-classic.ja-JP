@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Facebook へのパブリッシュ
-description: Facebook へのパブリッシュ
+title: Facebook での公開
+description: facebookに公開する方法を学ぶ
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 84d6cb2e-c7f9-43d7-a98c-22613d456193
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 100%
+source-wordcount: '1243'
+ht-degree: 92%
 
 ---
 
-# Facebook へのパブリッシュ{#publishing-on-facebook}
+# Facebook での公開{#publishing-on-facebook}
 
 ![](../../assets/v7-only.svg)
 
@@ -32,7 +32,7 @@ Facebook には次の制限があります。
 
 ![](assets/social_facebook_delivery_001.png)
 
-## メインターゲットの選択 {#selecting-the-main-target}
+## メインターゲットを選択 {#selecting-the-main-target}
 
 パブリケーションを投稿するページを選択する必要があります。
 
@@ -52,9 +52,9 @@ Facebook には次の制限があります。
 
    ![](assets/social_facebook_delivery_013.png)
 
-## 配達確認のターゲットの選択 {#selecting-the-proof-target}
+## 配達確認のターゲットを選択 {#selecting-the-proof-target}
 
-「**[!UICONTROL 配達確認のターゲット]**」タブでは、配信を送信する前に、テスト目的で使用する Facebook ページを定義できます。この目的で利用する専用の非公開 Facebook ページを作成することをお勧めします。非公開 Facebook ページの作成について詳しくは、[テスト用 Facebook ページの作成](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page)を参照してください。配達確認のターゲットを選択するには、メインターゲットと同じ手順を適用します。[メインターゲットの選択](#selecting-the-main-target)を参照してください。
+「**[!UICONTROL 配達確認のターゲット]**」タブでは、配信を送信する前に、テスト目的で使用する Facebook ページを定義できます。この目的で利用する専用の非公開 Facebook ページを作成することをお勧めします。非公開Facebookページの作成について詳しくは、 [このページ](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). 配達確認のターゲットを選択するには、メインターゲットと同じ手順を適用します。 [詳細情報](#selecting-the-main-target)
 
 ![](assets/social_facebook_delivery_004.png)
 
@@ -73,7 +73,7 @@ Facebook には次の制限があります。
 * **[!UICONTROL 市区町村]**
 * **[!UICONTROL 言語]**
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >このオプションを使用する際は注意してください。配信レポートでは、**[!UICONTROL ファン数]**&#x200B;の指標はこうした Facebook フィルターを考慮しません。
 >
@@ -110,7 +110,7 @@ Facebook には次の制限があります。
 
 次の各フィールドを入力します。
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >すべての URL は、**「http://」**&#x200B;または&#x200B;**「https://」**&#x200B;で始まる必要があります。
 
@@ -131,7 +131,7 @@ Facebook には次の制限があります。
 
 1. 「**[!UICONTROL 画像]**」フィールドに、パブリケーションの左側に表示する画像の URL を入力します。
 
-   >[!IMPORTANT]
+   >[!CAUTION]
    >
    >Facebook に画像をアップロードするには、公開インターネットサイトで画像をホストする必要があります。
 
@@ -140,7 +140,7 @@ Facebook には次の制限があります。
 
 ![](assets/social_facebook_delivery_005.png)
 
-### YouTube リンク付きステータスの公開 {#publishing-a-status-with-a-youtube-link}
+### YouTubeリンク付きステータスの公開 {#publishing-a-status-with-a-youtube-link}
 
 このタイプのコンテンツを使用すると、YouTube ビデオへのリンクを投稿できます。通常のリンク付きステータスと同様に、ステータス、名前、キャプション、説明および追加のリンクを定義できます。画像は Facebook が自動的に追加します。配信編集画面のフィールドと Facebook 上の最終的な投稿との相関を以下に示します。
 
@@ -148,7 +148,7 @@ Facebook には次の制限があります。
 
 次の各フィールドを入力します。
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >すべての URL は、**「http://」**&#x200B;または&#x200B;**「https://」**&#x200B;で始まる必要があります。
 
@@ -188,7 +188,7 @@ Facebook には次の制限があります。
 
 >[!NOTE]
 >
->プレビューは、Facebook 上の最終的な投稿とは多少異なる場合があります。最終的な配信の前に、配達確認を送信してパブリケーションの正確なレンダリングを確認することを強くお勧めします。[配達確認の送信](#sending-the-proof)を参照してください。
+>プレビューは、Facebook 上の最終的な投稿とは多少異なる場合があります。最終的な配信の前に、配達確認を送信してパブリケーションの正確なレンダリングを確認することを強くお勧めします。[詳細情報](#sending-the-proof)。
 
 ## トラッキングの設定 {#configuring-tracking}
 
@@ -202,13 +202,13 @@ Facebook には次の制限があります。
 >
 >「**[!UICONTROL ブランドページにパブリッシュ]**」配信テンプレートでは、トラッキングがデフォルトで有効になっています。
 
-## 配達確認の送信 {#sending-the-proof}
+## 配達確認を送信 {#sending-the-proof}
 
-最終的な配信の前に、パブリケーションの配達確認を送信してテスト用の非公開 Facebook ページでパブリケーションの正確なレンダリングを確認することを強くお勧めします。テスト用の非公開 Facebook ページの作成について詳しくは、[テスト用 Facebook ページの作成](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page)を参照してください。配達確認のターゲットを選択する手順について詳しくは、[配達確認のターゲットの選択](#selecting-the-proof-target)を参照してください。
+最終的な配信の前に、パブリケーションの配達確認を送信してテスト用の非公開 Facebook ページでパブリケーションの正確なレンダリングを確認することを強くお勧めします。非公開のFacebookテストページの作成について詳しくは、 [このページ](../../social/using/publishing-on-facebook-walls.md#creating-a-test-facebook-page). 配達確認のターゲットを選択する手順について詳しくは、 [この節](#selecting-the-proof-target).
 
 配達確認の配信は、E メールの配信と同じです。[この節](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)を参照してください。
 
-## メッセージの送信 {#sending-the-message}
+## メッセージを送信 {#sending-the-message}
 
 1. コンテンツが承認されたら、「**[!UICONTROL 送信]**」ボタンをクリックします。
 1. 「**[!UICONTROL 可能な限り早く配信]**」を選択し、「**[!UICONTROL 分析]**」ボタンをクリックします。

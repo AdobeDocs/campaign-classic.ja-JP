@@ -3,10 +3,10 @@ product: campaign
 title: Adobe Analytics Connector への移行
 description: Campaign - Analytics Connector に関する FAQ
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 18b31ae504e1f1d13980bdf38925b38279b3be8c
+source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Campaign Classic v7 21.1.3 リリース以降、Adobe Analytics Data Connector は非推奨になりました。[詳細情報](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=ja)
 
-2021年8月1日（PT）、Adobe Campaign Classic は従来の Data Connectors UI から削除されましたが、既存の Campaign 統合は 2022年8月（PT）まで引き続きデータを収集して Adobe Analytics に送信します。この期限を過ぎると、統合によるデータの収集と Adobe Analytics への送信を停止します。
+2021 年 8 月 1 日に、Adobe Campaign Classicは従来の Data Connectors UI から削除されましたが、既存の Campaign 統合は、2022 年 8 月 17 日まで引き続きデータを収集し、Adobe Analyticsに渡します。 この期限を過ぎると、統合によるデータの収集と Adobe Analytics への送信を停止します。
 
 従来の Data Connectors 統合に代わる、新しい Adobe Analytics Connector 統合を Adobe Exchange に&#x200B;**実装する必要があります**。Adobe Analytics Connector について詳しくは、[このページ](../../platform/using/adobe-analytics-connector.md)を参照してください。
 
@@ -48,7 +48,7 @@ Campaign Classic v7と Adobe Analytics の間で新しい統合が利用でき�
 
 ## 更新方法
 
-**2022年8月（PT）までに**、Campaign 21.1.3（またはそれ以上）にアップグレードする必要があります。
+Campaign 21.1.3（またはそれ以上）にアップグレードする必要があります **2022 年 8 月 17 日以前**.
 
 ホスト環境のお客様の場合は、アドビがお客様と協力してインスタンスを新しいバージョンにアップグレードします。その後、[Adobe Analytics Connector](../../platform/using/adobe-analytics-connector.md) を使用できるようになります。
 

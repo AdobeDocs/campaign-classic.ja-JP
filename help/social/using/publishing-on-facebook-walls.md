@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Facebook のウォールへのパブリッシュ
-description: Facebook のウォールへのパブリッシュ
+title: Facebook ウォールでの公開
+description: Facebook ウォールでの公開
 audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 2135a836-245f-406e-b351-c27d38e0f9fd
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 100%
+source-wordcount: '1029'
+ht-degree: 92%
 
 ---
 
-# Facebook のウォールへのパブリッシュ{#publishing-on-facebook-walls}
+# Facebook ウォールでの公開{#publishing-on-facebook-walls}
 
 ![](../../assets/v7-only.svg)
 
@@ -35,9 +35,9 @@ Adobe Campaign で Facebook のウォールにパブリケーションを送信�
 
    ![](assets/social_diagram_fb_external_account.png)
 
-## テスト用 Facebook ページの作成 {#creating-a-test-facebook-page}
+## テスト用Facebookページの作成 {#creating-a-test-facebook-page}
 
-パブリケーションの配達確認を送信するための非公開 Facebook ページを作成することを推奨します（詳しくは、[配達確認の送信](../../social/using/publishing-on-facebook.md#sending-the-proof)を参照）。
+パブリケーションの配達確認を送信するための非公開のFacebookページを作成することをお勧めします ( 詳しくは、 [この節](../../social/using/publishing-on-facebook.md#sending-the-proof).
 
 1. ページの管理に使用する Facebook アカウントにログオンします。
 1. 新しい Facebook ページを作成します。
@@ -54,7 +54,7 @@ Adobe Campaign がページのウォールにパブリッシュできるよう�
 1. ページの管理に使用する Facebook アカウントにログオンします。
 1. ブラウザーに次のアドレスを入力します。[https://developers.facebook.com/apps](https://developers.facebook.com/apps)
 
-   >[!IMPORTANT]
+   >[!CAUTION]
    >
    >所有しているアカウントの種類に応じて、1 つ以上の認証が必要な場合があります。
    >
@@ -76,13 +76,13 @@ Adobe Campaign がページのウォールにパブリッシュできるよう�
 
    ![](assets/social_create_facebook_app_004.png)
 
-## Adobe Campaign への書き込みアクセス権のデリゲート {#delegating-write-access-to-adobe-campaign}
+## 書き込みアクセスをAdobe Campaignに委任 {#delegating-write-access-to-adobe-campaign}
 
 Adobe Campaign がページのウォールに投稿できるよう書き込みアクセス権をデリゲートするには、先に作成した Facebook アプリケーションのパラメーターを入力する必要があります。
 
 この手順では、Adobe Campaign コンソールおよびページ管理に使用する Facebook アカウントにログオンしているインターネットブラウザーの両方にアクセスする必要があります。
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >この設定をおこなうには、Adobe Campaign のオペレーターは管理権限が必要です。
 
@@ -102,7 +102,7 @@ Adobe Campaign がページのウォールに投稿できるよう書き込み�
 
    ![](assets/social_facebook_external_account_006.png)
 
-   >[!IMPORTANT]
+   >[!CAUTION]
    >
    >どのような状況にあっても、保護されていない URL を使用してはいけません。
 
@@ -121,7 +121,7 @@ Adobe Campaign がページのウォールに投稿できるよう書き込み�
    >
    >「**[!UICONTROL マーケティング URL]**」フィールドはオプションです。
 
-1. Adobe Campaign コンソールで、「**[!UICONTROL コネクタ]**」タブの下部にある「**[!UICONTROL アプリケーションからの承認をリクエスト]**」リンクをクリックします。「**[!UICONTROL Facebook ページを同期]**」ワークフローが自動的にトリガーされ、管理者が管理するすべての Facebook ページが収集されます。詳しくは、[Facebook ページの同期](#synchronizing-facebook-pages)を参照してください。
+1. Adobe Campaign コンソールで、「**[!UICONTROL コネクタ]**」タブの下部にある「**[!UICONTROL アプリケーションからの承認をリクエスト]**」リンクをクリックします。「**[!UICONTROL Facebook ページを同期]**」ワークフローが自動的にトリガーされ、管理者が管理するすべての Facebook ページが収集されます。[詳細情報](#synchronizing-facebook-pages)。
 
    ![](assets/social_facebook_external_account_004.png)
 
@@ -143,14 +143,16 @@ Adobe Campaign がページのウォールに投稿できるよう書き込み�
 >
 >Facebook アカウントで複数のページを管理している場合は、Facebook アカウントの任意のページに書き込む 1 つの外部アカウントを設定します。新しい Facebook アカウントごとに、新しい&#x200B;**[!UICONTROL ルーティング]**&#x200B;タイプの外部アカウントを作成する必要があります。
 
-「**[!UICONTROL Facebook ページを同期]**」ワークフローが Facebook アカウントが管理するすべてのページを同期するので、Adobe Campaign を介して直接ウォールに投稿できます。詳しくは、[Facebook ページの同期](#synchronizing-facebook-pages)を参照してください。
+「**[!UICONTROL Facebook ページを同期]**」ワークフローが Facebook アカウントが管理するすべてのページを同期するので、Adobe Campaign を介して直接ウォールに投稿できます。[詳細情報](#synchronizing-facebook-pages)。
 
 ## Facebook ページの同期 {#synchronizing-facebook-pages}
 
-**[!UICONTROL 管理／プロダクション／テクニカルワークフロー／ソーシャルネットワーク管理]**&#x200B;ノードでアクセスできる「**[!UICONTROL Facebook ページを同期]**」ワークフローを使用すると、先に設定した Facebook アカウントのページを（Adobe Campaign 内で）同期できます。デフォルトでは、このワークフローは、1 日に 1 回または管理者がサービス設定画面の「**[!UICONTROL アプリケーションからの承認をリクエスト]**」リンクをクリックするたびに（[Adobe Campaign への書き込みアクセス権のデリゲート](#delegating-write-access-to-adobe-campaign)を参照）実行されるよう、設定されています。
+**[!UICONTROL 管理／プロダクション／テクニカルワークフロー／ソーシャルネットワーク管理]**&#x200B;ノードでアクセスできる「**[!UICONTROL Facebook ページを同期]**」ワークフローを使用すると、先に設定した Facebook アカウントのページを（Adobe Campaign 内で）同期できます。デフォルトでは、このワークフローは、1 日に 1 回実行するか、管理者が **[!UICONTROL アプリケーションからの認証をリクエスト]** リンクを使用して、サービス設定画面に表示されます。 [詳細情報](#delegating-write-access-to-adobe-campaign)。
 
-同期が完了すると、収集されたページは、外部アカウントに入力されたサービスフォルダーに表示されます（[Adobe Campaign への書き込みアクセス権のデリゲート](#delegating-write-access-to-adobe-campaign)を参照）。デフォルトでは、ページは **[!UICONTROL Facebook]** サービスフォルダーのルートに追加され、**[!UICONTROL プロファイルとターゲット／サービスと購読]**&#x200B;メニューで確認できます。
+同期が完了すると、収集されたページは、外部アカウントに入力されたサービスフォルダーに表示されます。 [詳細情報](#delegating-write-access-to-adobe-campaign)）。
+
+デフォルトでは、ページは **[!UICONTROL Facebook]** サービスフォルダーのルートに追加され、**[!UICONTROL プロファイルとターゲット／サービスと購読]**&#x200B;メニューで確認できます。
 
 ![](assets/social_facebook_service_002.png)
 
-これで、Adobe Campaign を使用して Facebook ページのウォールに直接投稿できるようになりました。詳しくは、[Facebook へのパブリッシュ](#publishing-on-facebook-walls)を参照してください。
+これで、Adobe Campaign を使用して Facebook ページのウォールに直接投稿できるようになりました。[詳細情報](#publishing-on-facebook-walls)。

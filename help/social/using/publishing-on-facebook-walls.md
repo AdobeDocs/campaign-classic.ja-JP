@@ -6,7 +6,7 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 2135a836-245f-406e-b351-c27d38e0f9fd
-source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
+source-git-commit: b5334de18eca8fc1147ae0c42fe23a6932bf71d2
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 92%
@@ -145,7 +145,7 @@ Adobe Campaign がページのウォールに投稿できるよう書き込み�
 
 「**[!UICONTROL Facebook ページを同期]**」ワークフローが Facebook アカウントが管理するすべてのページを同期するので、Adobe Campaign を介して直接ウォールに投稿できます。[詳細情報](#synchronizing-facebook-pages)。
 
-## Facebook ページの同期 {#synchronizing-facebook-pages}
+## facebookページの同期 {#synchronizing-facebook-pages}
 
 **[!UICONTROL 管理／プロダクション／テクニカルワークフロー／ソーシャルネットワーク管理]**&#x200B;ノードでアクセスできる「**[!UICONTROL Facebook ページを同期]**」ワークフローを使用すると、先に設定した Facebook アカウントのページを（Adobe Campaign 内で）同期できます。デフォルトでは、このワークフローは、1 日に 1 回実行するか、管理者が **[!UICONTROL アプリケーションからの認証をリクエスト]** リンクを使用して、サービス設定画面に表示されます。 [詳細情報](#delegating-write-access-to-adobe-campaign)。
 

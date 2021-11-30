@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 235e8abcaed2659d745ebfeca24dc2f0278a6e5a
+source-git-commit: f7c4603e389b19c057ee72bb50ed30d03b60f4bc
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 96%
 
 ---
 
@@ -40,8 +40,9 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr> 
 <td>CentOS</td>
 <td>
-<p>8.x（64 ビット）</p>
+<p>8.x（64 ビット） </br><strong>重要：</strong> CentOS Linux 8 は、2021 年 12 月 31 日に提供終了 (EOL) となります。 詳しくは、 <a href="../../rn/using/deprecated-features.md">廃止された機能</a> ページ。</p>
 <p>7.x（64 ビット）</p>
+<p><strong>重要</strong>：RHEL を使用する場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させ、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。</p>
 </td>
 </tr>
 <tr>
@@ -153,7 +154,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <p>2016 年</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
-<p><strong>警告：</strong>Linux で Campaign サーバーを実行している場合、プライマリデータベースとしての Microsoft SQL Server の使用はサポートされません。［詳細情報］（../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers）。</p>
+<p><strong>警告：</strong>Linux で Campaign サーバーを実行している場合、プライマリデータベースとしての Microsoft SQL Server の使用はサポートされません。<a href="../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers">詳細情報</a>。</p>
 </td>
 </tr>
 </tbody>

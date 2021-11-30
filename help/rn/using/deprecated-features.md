@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
+source-git-commit: f7c4603e389b19c057ee72bb50ed30d03b60f4bc
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 100%
+source-wordcount: '1700'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,13 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <td><strong>機能</strong></td>
    <td><strong>置き換え</strong></td>
   </tr>
+  <tr>
+  <td>CentOs 8.x（64 ビット）<br></td>
+   <td><p>CentOS Linux 8 は、2021 年 12 月 31 日に提供終了 (EOL) となります。 <a href="https://www.centos.org/centos-linux-eol/">詳細情報</a></p>
+   <p>このオペレーティングシステムを使用している場合は、それに応じて実装を適応させる必要があります。 CentOS 7.x（64 ビット）と RHEL 8.x/7.x（64 ビット）は引き続きサポートされます。</p>
+  <p><em>削除のターゲット日：2021 年 12 月 31 日。</em></p>
+  </td>
+ </tr>
     <tr>
   <td>Adobe Analytics Data Connector<br></td>
    <td><p>Campaign 21.1.3 リリース以降、Adobe Analytics Data Connector は非推奨（廃止予定）になりました。</p>

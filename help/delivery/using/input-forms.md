@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: content-management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -198,4 +198,4 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 ![](assets/d_ncs_content_form13.png)
 
-詳細を表示 [フォームの編集](../../configuration/using/editing-forms.md) および [フォーム構造](../../configuration/using/form-structure.md).
+詳しくは、[編集フォーム](../../configuration/using/editing-forms.md)および[フォーム構造](../../configuration/using/form-structure.md)を参照してください。

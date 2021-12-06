@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: use-cases
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 95%
 
 監視を自動化すると、リソースのオーバーヘッドが削減され、適切な頻度でタスクがスケジュールされるようになります。
 
-特定のタスクが失敗した場合や、重要なテーブルが大きくなりすぎた場合に E メールを送信する監視ワークフローを作成できます。
+特定のタスクが失敗した場合や、重要なテーブルが大きくなりすぎた場合にメールを送信するモニタリングワークフローを作成できます。
 
 機能領域またはシステム全体にわたるすべてのワークフローを監視できるビューを作成できます。
 

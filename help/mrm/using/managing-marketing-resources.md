@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Adobe Campaign では、管理するマーケティングリソースそれぞ�
 
 >[!NOTE]
 >
->「**[!UICONTROL 履歴]**」タブでは、リソースのダウンロードと更新のログを確認できます。この **[!UICONTROL 詳細]** ボタンをクリックすると、選択したバージョンを表示できます。
+>「**[!UICONTROL 履歴]**」タブでは、リソースのダウンロードと更新のログを確認できます。「**[!UICONTROL 詳細]**」ボタンでは、選択したバージョンを表示できます。
 
 ### リソースのロックとロック解除 {#locking-unlocking-a-resource}
 

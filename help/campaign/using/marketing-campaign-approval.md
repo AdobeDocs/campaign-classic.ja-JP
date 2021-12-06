@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2603'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ Adobe Campaign では、マーケティングキャンペーンのメインス�
 
 ダイレクトメール配信の場合、Adobe Campaign のオペレーターは、抽出ファイルを発送担当に送信する前に確認できます。また、必要に応じてフォーマットを変更し、抽出を再開できます。[抽出ファイルの承認](#approving-an-extraction-file)を参照してください。
 
-キャンペーンごとに、配信ターゲット、コンテンツ（[コンテンツの承認](#approving-content)を参照）およびコストを承認できます。 Adobe Campaign を操作する承認者は、メールで通知を受け、コンソールまたはweb 接続で承認を許可または却下できます。 [配信を承認する手順](#approving-processes)を参照してください。
+キャンペーンごとに、配信ターゲット、コンテンツ（[コンテンツの承認](#approving-content)を参照）およびコストを承認できます。 Adobe Campaign を操作する承認者は、メールで通知を受け、コンソールまたは web 接続で承認を許可または却下できます。[配信を承認する手順](#approving-processes)を参照してください。
 
 この検証フェーズが完了したら、配信を開始できます。 [詳細情報](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)。
 
@@ -379,4 +379,4 @@ Adobe Campaign では、マーケティングキャンペーンのメインス�
 
 抽出されたファイルのコンテンツを（ファイル名をクリックして）確認したり、抽出ファイルを承認したり、必要であればダッシュボードのリンクを使用してフォーマットを変更し、抽出を再開できます。
 
-ファイルが承認されたら、通知 E メールを発送担当に送信できます。 詳しくは、[オフライン配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery)を参照してください。
+ファイルが承認されたら、通知メールをルーターに送信できます。詳しくは、[オフライン配信の開始](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery)を参照してください。

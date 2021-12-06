@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2539'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -337,9 +337,9 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 ![](assets/s_user_cost_mgmt_sample_19.png)
 
-その後、リンクをクリックして承認または却下できます。また、このキャンペーンで通知が有効になっている場合は通知 E メール内のリンクを使用できます。
+その次に、リンクをクリックして承認または拒否することができます。また、このキャンペーンで通知が有効になっている場合は、通知メールのリンクを使用することもできます。
 
-予算が承認され配信が完了すると、専用のテクニカルワークフローによりコストが自動的に更新されます。
+予算が承認され、配信が完了すると、専用のテクニカルワークフローによってコストが自動的にアップロードされます。
 
 ## オーダーと請求書 {#orders-and-invoices}
 

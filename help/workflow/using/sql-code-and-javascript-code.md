@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: action-activities
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
 source-git-commit: 8e6ebec9af0b7865616cf3904c8d400094567bdb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 
 ## JavaScript コードと高度な JavaScript コード {#javascript-code}
 
-**[!UICONTROL JavaScript コード]**&#x200B;と&#x200B;**[!UICONTROL 高度な JavaScript コード]**&#x200B;アクティビティは、ワークフローのコンテキストで JavaScript スクリプトを実行します。スクリプティングについて詳しくは、次の節を参照してください。
+**[!UICONTROL JavaScript コード]**&#x200B;と&#x200B;**[!UICONTROL 高度な JavaScript コード]**&#x200B;アクティビティは、ワークフローのコンテキストで JavaScript スクリプトを実行します。スクリプトについて詳しくは、以下の節を参照してください。
 
 * [JavaScript のスクリプトとテンプレート](javascript-scripts-and-templates.md)
 * [ワークフローでの JavaScript コードの例](javascript-in-workflows.md)

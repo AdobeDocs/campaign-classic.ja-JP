@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3394'
 ht-degree: 100%
 

@@ -790,7 +790,7 @@ ht-degree: 99%
       + [スキーマの再生成](configuration/using/regenerating-schemas.md)
       + [スキーマエディションの例](configuration/using/examples-of-schemas-edition.md)
    + 入力フォーム {#input-forms}
-      + [フォームの指定](configuration/using/identifying-a-form.md)
+      + [フォームの特定](configuration/using/identifying-a-form.md)
       + [フォームの編集](configuration/using/editing-forms.md)
       + [フォームの構造](configuration/using/form-structure.md)
    + API {#api}

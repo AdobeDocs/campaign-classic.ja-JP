@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1552'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 98%
 
 **手順 2 - サービスプロバイダーへのメッセージの承認**
 
-* 抽出ファイルが承認されたら、発送担当への通知 E メールの配達確認を生成できます。 この E メールメッセージは、配信テンプレートをベースとして構築されます。 このメッセージは承認が必要です。
+* 抽出ファイルが承認されたら、ルーターへの通知メールの配達確認を生成できます。この電子メールメッセージは、配信テンプレートに基づいて作成されます。このメッセージは承認が必要です。
 
    >[!NOTE]
    >

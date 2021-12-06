@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: filtering-data
 exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 90%
    ![](assets/s_ncs_user_filter_parameters.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックして、このタイプのリストの定義済みフィルターにフィルターを追加します。
-1. これで、このフィルターを **[!UICONTROL 購読]** 受信者プロファイルのタブ「不明な e メールフォーマット」フィルターにアクセスするには、 **[!UICONTROL フィルター]** 」ボタンをクリックします。
+1. これで、受信者プロファイルの「**[!UICONTROL 購読]**」タブでこのフィルターを使用できます。「**[!UICONTROL フィルター]**」ボタンをクリックすると、「不明なメール形式」フィルターにアクセスできます。
 
    ![](assets/s_ncs_user_filter_on_events.png)
 

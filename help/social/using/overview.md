@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: ソーシャルメディアの概要
-description: ソーシャルメディアの概要
+title: ソーシャルメディアの基本を学ぶ
+description: ソーシャルメディアの基本を学ぶ
 audience: social
 content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 263e5ffe-9302-4823-a814-fdc955e3f90a
 source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
-# ソーシャルメディアの概要{#overview}
+# ソーシャルメディアの基本を学ぶ{#overview}
 
 ![](../../assets/v7-only.svg)
 
@@ -23,6 +23,6 @@ ht-degree: 80%
 >
 >Adobe Campaign では、メッセージ配信に関する Facebook および Twitter によるコミュニケーションでのサービス利用条件に従うように要求します。
 >
->パブリケーションを送信する前に、 [この節](../../social/using/starting-workflows.md).
+>パブリケーションを送信する前に、[この節](../../social/using/starting-workflows.md)で説明されている設定手順に従う必要があります。
 
 この節では、Facebook および Twitter 配信に関する要素について説明します。E メールの配信と同じすべての要素については、[この節](../../delivery/using/about-email-channel.md)を参照してください。

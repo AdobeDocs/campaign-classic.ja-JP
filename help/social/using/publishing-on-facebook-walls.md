@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: configuration
 exl-id: 2135a836-245f-406e-b351-c27d38e0f9fd
 source-git-commit: b5334de18eca8fc1147ae0c42fe23a6932bf71d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1029'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ Adobe Campaign で Facebook のウォールにパブリケーションを送信�
 
    ![](assets/social_diagram_fb_external_account.png)
 
-## テスト用Facebookページの作成 {#creating-a-test-facebook-page}
+## テスト用 Facebook ページの作成 {#creating-a-test-facebook-page}
 
-パブリケーションの配達確認を送信するための非公開のFacebookページを作成することをお勧めします ( 詳しくは、 [この節](../../social/using/publishing-on-facebook.md#sending-the-proof).
+パブリケーションの配達確認を送信するための非公開 Facebook ページを作成することをお勧めします（詳しくは、[この節](../../social/using/publishing-on-facebook.md#sending-the-proof)を参照してください）。
 
 1. ページの管理に使用する Facebook アカウントにログオンします。
 1. 新しい Facebook ページを作成します。
@@ -76,7 +76,7 @@ Adobe Campaign がページのウォールにパブリッシュできるよう�
 
    ![](assets/social_create_facebook_app_004.png)
 
-## 書き込みアクセスをAdobe Campaignに委任 {#delegating-write-access-to-adobe-campaign}
+## Adobe Campaign への書き込みアクセス権のデリゲート {#delegating-write-access-to-adobe-campaign}
 
 Adobe Campaign がページのウォールに投稿できるよう書き込みアクセス権をデリゲートするには、先に作成した Facebook アプリケーションのパラメーターを入力する必要があります。
 
@@ -145,9 +145,9 @@ Adobe Campaign がページのウォールに投稿できるよう書き込み�
 
 「**[!UICONTROL Facebook ページを同期]**」ワークフローが Facebook アカウントが管理するすべてのページを同期するので、Adobe Campaign を介して直接ウォールに投稿できます。[詳細情報](#synchronizing-facebook-pages)。
 
-## facebookページの同期 {#synchronizing-facebook-pages}
+## Facebook ページの同期 {#synchronizing-facebook-pages}
 
-**[!UICONTROL 管理／プロダクション／テクニカルワークフロー／ソーシャルネットワーク管理]**&#x200B;ノードでアクセスできる「**[!UICONTROL Facebook ページを同期]**」ワークフローを使用すると、先に設定した Facebook アカウントのページを（Adobe Campaign 内で）同期できます。デフォルトでは、このワークフローは、1 日に 1 回実行するか、管理者が **[!UICONTROL アプリケーションからの認証をリクエスト]** リンクを使用して、サービス設定画面に表示されます。 [詳細情報](#delegating-write-access-to-adobe-campaign)。
+**[!UICONTROL 管理／実稼働／テクニカルワークフロー／ソーシャルネットワーク管理]**&#x200B;ノードでアクセスできる「**[!UICONTROL Facebook ページの同期]**」ワークフローを使用すると、以前に設定した Facebook アカウントのページを（Adobe Campaign 内で）同期させることができます。デフォルトでは、このワークフローは、1 日に 1 回または管理者がサービス設定画面の「**[!UICONTROL アプリケーションからの承認をリクエスト]**」リンクをクリックするたびに実行されるよう設定されています。[詳細情報](#delegating-write-access-to-adobe-campaign)。
 
 同期が完了すると、収集されたページは、外部アカウントに入力されたサービスフォルダーに表示されます。 [詳細情報](#delegating-write-access-to-adobe-campaign)）。
 

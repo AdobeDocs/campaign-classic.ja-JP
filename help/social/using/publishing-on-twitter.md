@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: e030c029-d1ee-4749-94e3-6bdfc8d89a34
 source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1008'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 89%
 
 ![](../../assets/v7-only.svg)
 
-## twitterアカウントでの公開 {#publishing-on-your-twitter-accounts}
+## Twitter アカウントでの公開 {#publishing-on-your-twitter-accounts}
 
 設定が完了すると、ソーシャルマーケティングで Twitter アカウントにツイートを送信できます。
 
@@ -30,11 +30,11 @@ Twitter には次の制限があります。
 
 ### 配信の作成 {#creating-the-delivery}
 
-「**[!UICONTROL ツイート (Twitter)]**」配信テンプレートに基づいて新しい配信を作成します。
+「**[!UICONTROL ツイート（Twitter）]**」配信テンプレートに基づいて新しい配信を作成します。
 
 ![](assets/social_twitter_delivery_001.png)
 
-### メインターゲットを選択 {#selecting-the-main-target}
+### メインターゲットの選択 {#selecting-the-main-target}
 
 ツイートの送信先アカウントを選択します。
 
@@ -54,9 +54,9 @@ Twitter には次の制限があります。
 
    ![](assets/social_twitter_delivery_011.png)
 
-### 配達確認のターゲットを選択 {#selecting-the-target-of-the-proof}
+### 配達確認のターゲットの選択 {#selecting-the-target-of-the-proof}
 
-「**[!UICONTROL 配達確認のターゲット]**」タブでは、最終的な配信の前に、テスト目的で使用する Twitter アカウントを定義できます。このため、配達確認の送信専用に使用する専用の非公開 Twitter アカウントを作成することをお勧めします。非公開Twitterアカウントの作成方法について詳しくは、 [この節](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). 配達確認のターゲットを選択する手順は、メインターゲットを選択する手順と同じです。[この節](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter)を参照してください。
+「**[!UICONTROL 配達確認のターゲット]**」タブでは、最終的な配信の前に、テスト目的で使用する Twitter アカウントを定義できます。このため、配達確認の送信専用に使用する専用の非公開 Twitter アカウントを作成することをお勧めします。Twitter の非公開アカウントを作成する方法について詳しくは、[この節](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter)を参照してください。配達確認のターゲットを選択する手順は、メインターゲットを選択する手順と同じです。[この節](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter)を参照してください。
 
 ![](assets/social_twitter_delivery_004.png)
 
@@ -66,11 +66,11 @@ Twitter には次の制限があります。
 
 ### メッセージコンテンツの定義 {#defining-the-message-content}
 
-「**[!UICONTROL コンテンツ]**」タブにツイートの内容を入力します。
+「**[!UICONTROL コンテンツ]**」タブにツイートのコンテンツを入力します。
 
 ![](assets/social_twitter_delivery_005.png)
 
-### メッセージをプレビュー {#viewing-the-preview}
+### メッセージのプレビュー {#viewing-the-preview}
 
 「**[!UICONTROL プレビュー]**」タブでは、ツイートのレンダリングを表示できます。
 
@@ -99,13 +99,13 @@ Twitter には次の制限があります。
 >
 >ツイートを分析するロボットと実際にクリックしているユーザーの違いを見分けることはできません。
 
-### 配達確認を送信 {#sending-the-proof}
+### 配達確認の送信 {#sending-the-proof}
 
-最終的な配信の前に、パブリケーションの配達確認を送信してテスト用の非公開 Twitter ページでパブリケーションの正確なレンダリングを確認することを強くお勧めします。非公開Twitterアカウントの作成について詳しくは、 [この節](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter). 配達確認のターゲットを選択する手順について詳しくは、 [この節](#selecting-the-target-of-the-proof).
+最終配信の前に、パブリケーションの配達確認を送信してテスト用の非公開 Twitter ページでパブリケーションの正確なレンダリングを確認することを強くお勧めします。非公開 Twitter アカウントの作成について詳しくは、[この節](../../social/using/configuring-publishing-on-twitter.md#creating-a-test-account-on-twitter)を参照してください。配達確認のターゲットを選択する手順について詳しくは、[この節](#selecting-the-target-of-the-proof)を参照してください。
 
 配達確認の配信は、E メールの配信と同じです。[この節](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof)を参照してください。
 
-### メッセージを送信 {#sending-the-message}
+### メッセージの送信 {#sending-the-message}
 
 1. コンテンツが承認されたら、「**[!UICONTROL 送信]**」ボタンをクリックします。
 1. 「**[!UICONTROL 可能な限り早く配信]**」を選択し、「**[!UICONTROL 分析]**」ボタンをクリックします。
@@ -125,7 +125,7 @@ Twitter には次の制限があります。
 
 ### 動作原理 {#operating-principle}
 
-この **[!UICONTROL twitterアカウントの同期]** ワークフロー ( [詳細情報](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)) は、Twitter購読者のリストを復元して、ダイレクトメッセージを送信できるようにします。 取得したフォロワーは、「訪問者」という特定のテーブルに格納されます。Twitter フォロワーのリストを表示するには、**[!UICONTROL プロファイルとターゲット／訪問者]**&#x200B;ノードに移動します。
+「**[!UICONTROL Twitter アカウントの同期]**」ワークフロー（[詳細情報](../../social/using/configuring-publishing-on-twitter.md#synchronizing-twitter-accounts)を参照）は、Twitter 購読者のリストを復元して、購読者にダイレクトメッセージを送信できるようにします。取得したフォロワーは、「訪問者」という特定のテーブルに格納されます。Twitter フォロワーのリストを表示するには、**[!UICONTROL プロファイルとターゲット／訪問者]**&#x200B;ノードに移動します。
 
 ![](assets/social_twitter_visitors_001.png)
 
@@ -154,11 +154,11 @@ Twitter には次の制限があります。
 
 ### 配信の作成 {#creating-the-delivery-}
 
-「**[!UICONTROL ツイート (ダイレクトメッセージ)]**」配信テンプレートに基づいて新しい配信を作成します。
+「**[!UICONTROL ツイート（ダイレクトメッセージ）]**」配信テンプレートに基づいて新しい配信を作成します。
 
 ![](assets/social_twitter_delivery_010.png)
 
-### メインターゲットを選択 {#selecting-the-main-target-1}
+### メインターゲットの選択 {#selecting-the-main-target-1}
 
 ダイレクトメッセージを送信するフォロワーを選択します。
 
@@ -184,7 +184,7 @@ Twitter には次の制限があります。
 
       ![](assets/social_twitter_delivery_018.png)
 
-### 配達確認のターゲットを選択 {#selecting-the-target-of-the-proof-1}
+### 配達確認のターゲットの選択 {#selecting-the-target-of-the-proof-1}
 
 「**[!UICONTROL 配達確認のターゲット]**」タブでは、ダイレクトメッセージの配達確認を受信するフォロワーを選択できます。選択する手順は、メインターゲットの場合と同じです。[メインターゲットの選択](#selecting-the-main-target)を参照してください。
 

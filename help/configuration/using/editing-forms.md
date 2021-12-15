@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 49a98ec82b1d62f3af19260888da8eb24e460938
+source-git-commit: 42717f3ef3bcda4108dad6a4c0ece752ada579a2
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1680'
 ht-degree: 3%
 
 ---
@@ -322,7 +322,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
       ```
    または、 `type="frame"` 既存の `<container>` 要素。
 
-### の作成 `notebook` フォーム
+### ノートブックフォームの作成
 
 以下を使用： `notebook` フォームの上部にタブを表示するフォームタイプ（ユーザーを別のページに移動させます）。
 

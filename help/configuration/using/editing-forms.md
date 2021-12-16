@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: df3c833e99caeb94df1978dc8792b86c8634626b
+source-git-commit: 214f6874f87fce5518651f6ff818e99d5edea7e0
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 4%
+source-wordcount: '1130'
+ht-degree: 3%
 
 ---
 
@@ -366,3 +366,40 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 他のフォーム内にフォームをネストすることができます。 例えば、iconbox フォーム内でノートブックフォームをネストできます。
 
 ネスト制御のレベル。 ユーザーはサブフォームにドリルダウンできます。
+
+別のフォーム内にフォームをネストするには、 `<container>` 要素を選択し、 `type` 属性をフォームタイプに設定します。 トップレベルのフォームの場合は、外側のコンテナまたは `<form>` 要素。
+
+### 例
+
+次の例は、複雑なフォームを示しています。
+
+* トップレベルフォームは、iconbox フォームです。 このフォームは、次のラベルが付いた 2 つのコンテナで構成されます **一般** および **詳細**.
+
+   その結果、外側のフォームには **一般** および **詳細** ページを表示します。 これらのページにアクセスするには、ユーザーがフォームの左側にあるアイコンをクリックします。
+
+* サブフォームは、 **一般** コンテナ。 サブフォームは、ラベル付けされた 2 つのコンテナで構成されます **名前** および **連絡先**.
+
+```xml
+<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
+  <container type="iconbox">
+    <container img="ncm:general.png" label="General">
+      <container type="notebook">
+        <container label="Name">
+          <input xpath="@firstName"/>
+          <input xpath="@lastName"/>
+        </container>
+        <container label="Contact">
+          <input xpath="@email"/>
+        </container>
+      </container>
+    </container>
+    <container img="ncm:detail.png" label="Details">
+      <input xpath="@birthDate"/>
+    </container>
+  </container>
+</form>
+```
+
+その結果、 **一般** 外側のフォームのページは、 **名前** および **連絡先** タブ
+
+![](assets/nested_forms_preview.png)

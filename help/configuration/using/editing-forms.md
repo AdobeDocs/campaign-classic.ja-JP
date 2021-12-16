@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 214f6874f87fce5518651f6ff818e99d5edea7e0
+source-git-commit: daecbdecde0b80b47c113acc80618aee314c5434
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 3%
+source-wordcount: '1727'
+ht-degree: 2%
 
 ---
 
@@ -403,3 +403,150 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 その結果、 **一般** 外側のフォームのページは、 **名前** および **連絡先** タブ
 
 ![](assets/nested_forms_preview.png)
+
+別のフォーム内にフォームをネストするには、 `<container>` 要素を選択し、 `type` 属性をフォームタイプに設定します。 トップレベルのフォームの場合は、外側のコンテナまたは `<form>` 要素。
+
+### 例
+
+次の例は、複雑なフォームを示しています。
+
+* トップレベルフォームは、iconbox フォームです。 このフォームは、次のラベルが付いた 2 つのコンテナで構成されます **一般** および **詳細**.
+
+   その結果、外側のフォームには **一般** および **詳細** ページを表示します。 これらのページにアクセスするには、ユーザーがフォームの左側にあるアイコンをクリックします。
+
+* サブフォームは、 **一般** コンテナ。 サブフォームは、ラベル付けされた 2 つのコンテナで構成されます **名前** および **連絡先**.
+
+```xml
+<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
+  <container type="iconbox">
+    <container img="ncm:general.png" label="General">
+      <container type="notebook">
+        <container label="Name">
+          <input xpath="@firstName"/>
+          <input xpath="@lastName"/>
+        </container>
+        <container label="Contact">
+          <input xpath="@email"/>
+        </container>
+      </container>
+    </container>
+    <container img="ncm:detail.png" label="Details">
+      <input xpath="@birthDate"/>
+    </container>
+  </container>
+</form>
+```
+
+その結果、 **一般** 外側のフォームのページは、 **名前** および **連絡先** タブ
+
+![](assets/nested_forms_preview.png)
+
+
+
+## ファクトリ入力フォームの変更 {#modify-factory-form}
+
+ファクトリフォームを変更するには、次の手順に従います。
+
+1. ファクトリ入力フォームを変更します。
+
+   1. メニューから、を選択します。 **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL 入力フォーム]**.
+   1. 入力フォームを選択し、変更します。
+
+   ファクトリデータスキーマは拡張できますが、ファクトリ入力フォームは拡張できません。 ファクトリの入力フォームは、再作成せずに直接変更することをお勧めします。 ソフトウェアのアップグレード時に、ファクトリの入力フォームでの変更内容とアップグレードが結合されます。 自動マージが失敗した場合は、競合を解決できます。 [詳細情報](../../production/using/upgrading.md#resolving-conflicts)。
+
+   例えば、追加のフィールドを含むファクトリスキーマを拡張する場合、このフィールドを関連するファクトリフォームに追加できます。
+
+## フォームの検証 {#validate-forms}
+
+フォームに検証コントロールを含めることができます。
+
+### フィールドへの読み取り専用アクセス権の付与
+
+フィールドに読み取り専用アクセス権を付与するには、 `readOnly="true"` 属性。 例えば、読み取り専用アクセス権を持つレコードのプライマリキーを表示する場合があります。 [詳細情報](form-structure.md#non-editable-fields)。
+
+この例では、プライマリキー (`iRecipientId`) `nms:recipient` スキーマは読み取り専用アクセスで表示されます。
+
+```xml
+<value xpath="@iRecipientId" readOnly="true"/>
+```
+
+### 必須フィールドを確認
+
+次の必須情報を確認できます。
+
+* 以下を使用： `required="true"` 属性を設定します。
+* 以下を使用： `<leave>` ノードを使用して、これらのフィールドを確認し、エラーメッセージを表示します。
+
+この例では、電子メールアドレスが必要です。ユーザーがこの情報を指定しなかった場合は、エラーメッセージが表示されます。
+
+```xml
+<input xpath="@email" required="true"/>
+<leave>
+  <check expr="@email!=''">
+    <error>The email address is required.</error>
+  </check>
+</leave>
+```
+
+詳細を表示 [式フィールド](form-structure.md#expression-field) および [フォームコンテキスト](form-structure.md#context-of-forms).
+
+### 値の検証
+
+JavaScript SOAP 呼び出しを使用して、コンソールからフォームデータを検証できます。 複雑な検証にこれらの呼び出しを使用して、例えば、許可された値のリストに対して値をチェックします。 [詳細情報](form-structure.md#soap-methods)。
+
+1. JS ファイルに検証関数を作成します。
+
+   例：
+
+   ```js
+   function nms_recipient_checkValue(value)
+   {
+     logInfo("checking value " + value)
+     if (…)
+     {
+       logError("Value " + value + " is not valid")
+     }
+     return 1
+   }
+   ```
+
+   この例では、関数の名前はです。 `checkValue`. この関数は、 `recipient` データタイプ `nms` 名前空間。 確認中の値がログに記録されます。 値が無効な場合は、エラーメッセージが記録されます。 値が有効な場合は、値 1 が返されます。
+
+   返された値を使用してフォームを変更できます。
+
+1. フォームで、 `<soapCall>` 要素を `<leave>` 要素。
+
+   この例では、SOAP 呼び出しを使用して `@valueToCheck` 文字列：
+
+   ```xml
+   <form name="recipient" (…)>
+   (…)
+     <leave>
+       <soapCall name="checkValue" service="nms:recipient">
+         <param exprIn="@valueToCheck" type="string"/>
+       </soapCall>
+     </leave>
+   </form>
+   ```
+
+   この例では、 `checkValue` メソッドおよび `nms:recipient` サービスは次の場合に使用されます。
+
+   * サービスは名前空間とデータ型です。
+   * メソッドは関数名です。 名前では大文字と小文字が区別されます。
+
+   呼び出しは同期的に実行されます。
+
+   すべての例外が表示されます。 次の `<leave>` 要素を指定した場合、入力した情報が検証されるまでフォームを保存できません。
+
+次の例では、フォーム内からサービス呼び出しを実行する方法を示します。
+
+```xml
+<enter>
+  <soapCall name="client" service="c4:ybClient">
+    <param exprIn="@id" type="string"/>
+    <param type="boolean" xpathOut="/tmp/@count"/>
+  </soapCall>
+</enter>
+```
+
+この例では、入力は ID で、プライマリキーです。 ユーザーがこの ID のフォームに入力すると、この ID を入力パラメーターとして使用した SOAP 呼び出しがおこなわれます。 出力は、このフィールドに書き込まれるブール値です。 `/tmp/@count`. このブール値は、フォーム内で使用できます。 詳細を表示 [フォームコンテキスト](form-structure.md#context-of-forms).

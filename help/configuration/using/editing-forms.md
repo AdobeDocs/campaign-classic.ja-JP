@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: e712298a07ecfe345c0b53a4f07f6bc4c19106f7
+source-git-commit: 0d132f56e7888ad810e309b97b9337ec56fe1ee0
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1172'
 ht-degree: 3%
 
 ---
@@ -413,7 +413,6 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
    1. メニューから、を選択します。 **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]**.
    1. データスキーマを選択して拡張します。 例えば、フィールドを追加できます。 [詳細情報](extending-a-schema.md)。
 
-      >[!CAUTION]
-      > ファクトリ名前空間の元のデータを変更せずに、代わりにカスタム名前空間で拡張します。 その理由は、ソフトウェアのアップグレード中に、ファクトリ名前空間内のすべてのデータが上書きされるからです。 例えば、 `xtk`, `ncm`、および `nms` ファクトリの名前空間が上書きされます。 カスタム名前空間のデータは変更されません。
+
 
 

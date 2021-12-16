@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 2b7341bb7fd5ecd93ccc9abd27789a013fda37fa
+source-git-commit: df3c833e99caeb94df1978dc8792b86c8634626b
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 4%
@@ -361,7 +361,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
    または、 `type="frame"` 既存の `<container>` 要素。
 
-### フォームのネスト {#nest-forms}
+### フォームのネスト
 
 他のフォーム内にフォームをネストすることができます。 例えば、iconbox フォーム内でノートブックフォームをネストできます。
 

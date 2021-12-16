@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 1dfc1b8e9d0e4405b6a2bb6f1a90a04abb4173e5
+source-git-commit: dcfa6d1e5623792c852d164d636ebe19a7aaa614
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 4%
+source-wordcount: '1114'
+ht-degree: 3%
 
 ---
 
@@ -361,6 +361,23 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
    または、 `type="frame"` 既存の `<container>` 要素。
 
+## フォームのネスト {#nest-forms}
+
+他のフォーム内にフォームをネストすることができます。 例えば、iconbox フォーム内でノートブックフォームをネストできます。
+
+ネスト制御のレベル。 ユーザーはサブフォームにドリルダウンできます。
+
+別のフォーム内にフォームをネストするには、 `<container>` 要素を選択し、 `type` 属性をフォームタイプに設定します。 トップレベルのフォームの場合は、外側のコンテナまたは `<form>` 要素。
+
+### 例
+
+次の例は、複雑なフォームを示しています。
+
+* トップレベルフォームは、iconbox フォームです。 このフォームは、次のラベルが付いた 2 つのコンテナで構成されます **一般** および **詳細**.
+
+   その結果、外側のフォームには **一般** および **詳細** ページを表示します。 これらのページにアクセスするには、ユーザーがフォームの左側にあるアイコンをクリックします。
+
+* サブフォームは、 **一般** コンテナ。 サブフォームは、ラベル付けされた 2 つのコンテナで構成されます **名前** および **連絡先**.
 
 
 

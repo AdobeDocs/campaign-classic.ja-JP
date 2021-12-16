@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 1ab984d12c9beb0ba3378bbfb49d1d7d07e870f6
+source-git-commit: e712298a07ecfe345c0b53a4f07f6bc4c19106f7
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1225'
 ht-degree: 3%
 
 ---
@@ -416,11 +416,4 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
       >[!CAUTION]
       > ファクトリ名前空間の元のデータを変更せずに、代わりにカスタム名前空間で拡張します。 その理由は、ソフトウェアのアップグレード中に、ファクトリ名前空間内のすべてのデータが上書きされるからです。 例えば、 `xtk`, `ncm`、および `nms` ファクトリの名前空間が上書きされます。 カスタム名前空間のデータは変更されません。
 
-1. ファクトリ入力フォームを変更します。
 
-   1. メニューから、を選択します。 **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL 入力フォーム]**.
-   1. 入力フォームを選択し、変更します。
-
-   ファクトリデータスキーマは拡張できますが、ファクトリ入力フォームは拡張できません。 ファクトリの入力フォームは、再作成せずに直接変更することをお勧めします。 ソフトウェアのアップグレード時に、ファクトリの入力フォームでの変更内容とアップグレードが結合されます。 自動マージが失敗した場合は、競合を解決できます。 [詳細情報](../../production/using/upgrading.md#resolving-conflicts)。
-
-   例えば、追加のフィールドを含むファクトリスキーマを拡張する場合、このフィールドを関連するファクトリフォームに追加できます。

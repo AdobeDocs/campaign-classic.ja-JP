@@ -6,9 +6,9 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 0d132f56e7888ad810e309b97b9337ec56fe1ee0
+source-git-commit: c08a4b3540da6370584e32e13723bee352402914
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1143'
 ht-degree: 3%
 
 ---
@@ -407,12 +407,5 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 ## ファクトリ入力フォームの変更 {#modify-factory-form}
 
 ファクトリフォームを変更するには、次の手順に従います。
-
-1. 関連するデータスキーマを拡張する（オプション）。
-
-   1. メニューから、を選択します。 **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]**.
-   1. データスキーマを選択して拡張します。 例えば、フィールドを追加できます。 [詳細情報](extending-a-schema.md)。
-
-
 
 

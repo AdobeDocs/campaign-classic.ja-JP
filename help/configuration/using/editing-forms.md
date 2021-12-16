@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: input-forms
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: f4b9ac3300094a527b5ec1b932d204f0e8e5ee86
+source-git-commit: 0dfce3b514fefef490847d669846e515b714d222
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 5%
+source-wordcount: '1130'
+ht-degree: 3%
 
 ---
 
@@ -169,5 +169,237 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 ```
 
 これらの画像は、ユーザーがクリックして複数ページフォームを移動するアイコンに使用されます。
+
+![](assets/nested_forms_preview.png)
+
+
+## シンプルなフォームの作成 {#create-simple-form}
+
+フォームを作成するには、次の手順に従います。
+
+1. メニューから、を選択します。 **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL 入力フォーム]**.
+1. 次をクリック： **[!UICONTROL 新規]** 」ボタンをクリックします。
+
+   ![](assets/input-form-create-1.png)
+
+1. フォームのプロパティを指定します。
+
+   * フォーム名と名前空間を指定します。
+
+      フォーム名と名前空間は、関連するデータスキーマと一致させることができます。  この例では、 `cus:order` データスキーマ：
+
+      ```xml
+      <form entitySchema="xtk:form" img="xtk:form.png" label="Order" name="order" namespace="cus" type="iconbox" xtkschema="xtk:form">
+        […]
+      </form>
+      ```
+
+      または、 `entity-schema` 属性。
+
+      ```xml
+      <form entity-schema="cus:stockLine" entitySchema="xtk:form" img="xtk:form.png" label="Stock order" name="stockOrder" namespace="cus" xtkschema="xtk:form">
+        […]
+      </form>
+      ```
+
+   * フォームに表示するラベルを指定します。
+   * 必要に応じて、フォームタイプを指定します。 フォームタイプを指定しない場合、コンソール画面タイプがデフォルトで使用されます。
+
+      ![](assets/input-form-create-2.png)
+
+      複数ページのフォームをデザインする場合は、 `<form>` 要素を選択して、コンテナのタイプを指定します。
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+1. フォーム要素を挿入します。
+
+   例えば、入力フィールドを挿入するには、 `<input>` 要素。 を `xpath` 属性を XPath 式としてフィールド参照に追加します。 [詳細情報](schema-structure.md#referencing-with-xpath)。
+
+   この例では、 `nms:recipient` スキーマ。
+
+   ```xml
+   <input xpath="@firstName"/>
+   <input xpath="@lastName"/>
+   ```
+
+1. フォームが特定のスキーマタイプに基づいている場合は、このスキーマのフィールドを検索できます。
+
+   1. クリック **[!UICONTROL 挿入]** > **[!UICONTROL ドキュメントフィールド]**.
+
+      ![](assets/input-form-create-4.png)
+
+   1. フィールドを選択し、 **[!UICONTROL OK]**.
+
+      ![](assets/input-form-create-5.png)
+
+1. 必要に応じて、フィールドエディターを指定します。
+
+   デフォルトのフィールドエディターは、各データタイプに関連付けられています。
+   * 日付タイプのフィールドの場合、フォームには入力カレンダーが表示されます。
+   * 列挙タイプのフィールドの場合、フォームに選択リストが表示されます。
+
+   次のタイプのフィールドエディターを使用できます。
+
+   | フィールドエディター | フォーム属性 |
+   | --- | --- |
+   | ラジオボタン | `type="radiobutton"` |
+   | チェックボックス | `type="checkbox"` |
+   | ツリーを編集 | `type="tree"` |
+
+   詳細を表示 [メモリリスト制御](form-structure.md#memory-list-controls).
+
+1. オプションで、次のフィールドへのアクセスを定義します。
+
+   | 要素 | 属性 | 説明 |
+   | --- | --- | --- |
+   | `<input>` | `read-only:"true"` | フィールドへの読み取り専用アクセスを提供します |
+   | `<container>` | `type="visibleGroup" visibleIf="`*edit-expr*`"` | 条件付きでフィールドのグループを表示します |
+   | `<container>` | `type="enabledGroup" enabledIf="`*edit-expr*`"` | 条件に応じてフィールドのグループを有効にします |
+
+   例：
+
+   ```xml
+   <container type="enabledGroup" enabledIf="@gender=1">
+     […]
+   </container>
+   <container type="enabledGroup" enabledIf="@gender=2">
+     […]
+   </container>
+   ```
+
+1. オプションで、コンテナを使用してフィールドをセクションにグループ化します。
+
+   ```xml
+   <container type="frame" label="Name">
+      <input xpath="@firstName"/>
+      <input xpath="@lastName"/>
+   </container>
+   <container type="frame" label="Contact details">
+      <input xpath="@email"/>
+      <input xpath="@phone"/>
+   </container>
+   ```
+
+   ![](assets/input-form-create-3.png)
+
+## 複数ページフォームの作成 {#create-multipage-form}
+
+複数ページのフォームを作成できます。 また、他のフォーム内にフォームをネストすることもできます。
+
+### の作成 `iconbox` フォーム
+
+以下を使用： `iconbox` フォームの左側にアイコンを表示するフォームタイプ。このアイコンにより、ユーザーはフォーム内の別のページに移動できます。
+
+![](assets/iconbox_form_preview.png)
+
+既存のフォームの種類を次に変更するには `iconbox`を使用する場合は、次の手順に従います。
+
+1. を `type` の属性 `<form>` 要素から `iconbox`:
+
+   ```xml
+   <form […] type="iconbox">
+   ```
+
+1. 各フォームページにコンテナを設定します。
+
+   1. を追加します。 `<container>` 要素を `<form>` 要素。
+   1. アイコンのラベルと画像を定義するには、 `label` および `img` 属性。
+
+      ```xml
+      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="iconbox" xtkschema="xtk:form">
+          <container img="xtk:properties.png" label="General">
+              <input xpath="@label"/>
+              <input xpath="@name"/>
+              […]
+          </container>
+          <container img="nms:msgfolder.png" label="Details">
+              <input xpath="@address"/>
+              […]
+          </container>
+          <container img="nms:supplier.png" label="Services">
+              […]
+          </container>
+      </form>
+      ```
+   または、 `type="frame"` 既存の `<container>` 要素。
+
+### ノートブックフォームの作成
+
+以下を使用： `notebook` フォームの上部にタブを表示するフォームタイプ（ユーザーを別のページに移動させます）。
+
+![](assets/notebook_form_preview.png)
+
+既存のフォームの種類を次に変更するには `notebook`を使用する場合は、次の手順に従います。
+
+1. を `type` の属性 `<form>` 要素から `notebook`:
+
+   ```xml
+   <form […] type="notebook">
+   ```
+
+1. 各フォームページにコンテナを追加します。
+
+   1. を追加します。 `<container>` 要素を `<form>` 要素。
+   1. アイコンのラベルと画像を定義するには、 `label` および `img` 属性。
+
+   ```xml
+     <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="notebook" xtkschema="xtk:form">
+         <container label="General">
+             <input xpath="@label"/>
+             <input xpath="@name"/>
+             […]
+         </container>
+         <container label="Details">
+             <input xpath="@address"/>
+             […]
+         </container>
+         <container label="Services">
+             […]
+         </container>
+     </form>
+   ```
+
+   または、 `type="frame"` 既存の `<container>` 要素。
+
+### フォームのネスト {#nest-forms}
+
+他のフォーム内にフォームをネストすることができます。 例えば、iconbox フォーム内でノートブックフォームをネストできます。
+
+ネスト制御のレベル。 ユーザーはサブフォームにドリルダウンできます。
+
+別のフォーム内にフォームをネストするには、 `<container>` 要素を選択し、 `type` 属性をフォームタイプに設定します。 トップレベルのフォームの場合は、外側のコンテナまたは `<form>` 要素。
+
+### 例
+
+次の例は、複雑なフォームを示しています。
+
+* トップレベルフォームは、iconbox フォームです。 このフォームは、次のラベルが付いた 2 つのコンテナで構成されます **一般** および **詳細**.
+
+   その結果、外側のフォームには **一般** および **詳細** ページを表示します。 これらのページにアクセスするには、ユーザーがフォームの左側にあるアイコンをクリックします。
+
+* サブフォームは、 **一般** コンテナ。 サブフォームは、ラベル付けされた 2 つのコンテナで構成されます **名前** および **連絡先**.
+
+```xml
+<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
+  <container type="iconbox">
+    <container img="ncm:general.png" label="General">
+      <container type="notebook">
+        <container label="Name">
+          <input xpath="@firstName"/>
+          <input xpath="@lastName"/>
+        </container>
+        <container label="Contact">
+          <input xpath="@email"/>
+        </container>
+      </container>
+    </container>
+    <container img="ncm:detail.png" label="Details">
+      <input xpath="@birthDate"/>
+    </container>
+  </container>
+</form>
+```
+
+その結果、 **一般** 外側のフォームのページは、 **名前** および **連絡先** タブ
 
 ![](assets/nested_forms_preview.png)

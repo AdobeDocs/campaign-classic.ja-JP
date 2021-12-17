@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: ebd5b04c30c54142433056904a5d80f5a8744ded
+source-git-commit: 5261021bde11bc9450a429f26aa493ca2398dbc7
 workflow-type: tm+mt
-source-wordcount: '2459'
-ht-degree: 100%
+source-wordcount: '2531'
+ht-degree: 97%
 
 ---
 
@@ -28,10 +28,11 @@ _2021年10月8日（PT）_
 
 **パッチ**
 
+* ビルド 9342 で利用可能な請求ワークフローの修正を改善しました。この修正を適用するには、ワークフローを手動で再起動する必要がありました。 これで、アップグレード後に、ワークフローが自動的に再起動します。
+
 * **インタラクション**&#x200B;モジュールを[パワーブースター](../../installation/using/power-booster-and-power-cluster.md)オプションとともに使用すると、適切なオファー管理ができなくなる可能性がある問題を修正しました。 （NEO-39263）
 
 * 複数のミッドソーシングインスタンスで複数の IP アフィニティを使用する場合に、配信の送信時に発生する可能性がある「ipaffinity xxx がミッドサーバー xxx に見つかりません」というエラーを修正しました。 （NEO-37514）
-
 
 ## ![](assets/do-not-localize/orange_2.png) リリース 21.1.4 - ビルド 9342 {#release-21-1-4-build-9342}
 
@@ -49,9 +50,9 @@ _2021 年 9 月 7 日_（PT）
 
 **その他の変更**
 
+* 21.1.3 で導入された、請求ワークフローの新しいガードレールの回帰を修正しました。 請求ワークフローが誤ったインスタンスで実行され、生成されなかった請求レポートの送信を試みてクラッシュしました。 修正を適用するには、手動でワークフローを再起動する必要があります。
 * 既に非推奨（廃止予定）となっている Microsoft CRM コネクタ（Office 365 およびオンプレミスデプロイメント）がインターフェイスから削除されました。 [詳細情報](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Tomcat 8 への移行後に、IIS セットアップスクリプトが更新されて、IIS 統合の問題が修正されました。（NEO-31019）
-* ガードレールが追加されて、マーケティングインスタンス上で[請求テクニカルワークフロー](../../production/using/monitoring-processes.md#billing-report)を実行できるようになりました。
 * ワークフロートランジションの&#x200B;**母集団を表示**&#x200B;ウィンドウのデータタブとスキーマタブで、データソースの識別が改善されました。
 * データベースの更新の問題を防ぐために、欠落していたデータベースインデックスが、xtk:rights、nms:dlvExclusion、nms:seedMember、nms:trackingUrl の各スキーマに追加されました。
 
@@ -193,6 +194,7 @@ Campaign で次のシステムがサポートされるようになりました�
 
 **その他の変更**
 
+* ガードレールが追加されて、マーケティングインスタンス上で[請求テクニカルワークフロー](../../production/using/monitoring-processes.md#billing-report)を実行できるようになりました。
 * Windows 用 openssl サードパーティをバージョン 1.1.1h に更新しました。
 * Debian パッケージの説明で、nlserver を Adobe Campaign Classic サーバーに変更しました。
 

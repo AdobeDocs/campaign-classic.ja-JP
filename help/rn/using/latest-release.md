@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+source-git-commit: cbafd70f5b5e964256edad0ce2965f3ed4650500
 workflow-type: tm+mt
-source-wordcount: '2561'
+source-wordcount: '2558'
 ht-degree: 88%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 88%
 ## リリース 7.1(21.1)
 
 >[!CAUTION]
->Campaign **[!UICONTROL ヘルプ/バージョン情報…]** メニューを使用すると、 [バージョンおよびビルド番号](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). ただし、このページに記載されている 9277 ～ 9343 のすべてのビルドでは、バージョン番号が 7.1 ではなく 7.0 に設定されています。
+>Campaign **[!UICONTROL ヘルプ/バージョン情報…]** メニューを使用すると、 [バージョンおよびビルド番号](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). ただし、このページに示す 9277 ～ 9343 のすべてのビルドでは、バージョン番号は 7.1 ではなく 7.0 と表示されます。
 
 ### ![](assets/do-not-localize/green_2.png) リリース 21.1.4 - ビルド 9343 {#release-21-1-4-build-9343}
 

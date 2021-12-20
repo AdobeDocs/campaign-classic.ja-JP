@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+source-git-commit: f2cb3323bc5df3aae16a4ae4cf80c30bf53b006e
 workflow-type: tm+mt
-source-wordcount: '4580'
-ht-degree: 100%
+source-wordcount: '4725'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,31 @@ ht-degree: 100%
 このページでは、すべての新機能とドキュメント更新情報の一覧が月ごとおよび Campaign リリースごとに記載されています。
 
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
+
+## 2021 年 12 月{#dec-2021}
+
+Campaign Classicv7 リリースノートが再編成され、ナビゲーションが簡単になりました。 [詳細情報](rn-overview.md)
+
+Campaign のフォームエディションに関するドキュメントが更新および改善されました。 [詳細情報](../../configuration/using/editing-forms.md)
+
+CentOs 8 は提供終了に達し、Adobe Campaign Classicで非推奨（廃止予定）になりました。 [詳細情報](deprecated-features.md)
+
+## 2021 年 11 月{#nov-2021}
+
+受信 SMS(MO) に関する制限を追加しました。 [詳細情報](../../delivery/using/sms-protocol.md#multipart)
+
+CRM コネクタ展開の移行プロセスログの詳細を更新しました。 [詳細情報](../../migration/using/testing-the-migration.md#verification-process)
+
+Adobe CampaignとAdobe Analyticsの統合を実装するための IMS 権限に関する要件を追加しました。 [詳細情報](../../platform/using/adobe-analytics-provisioning.md)
+
+Adobe Analytics Data Connector のサポート終了日を 2022 年 3 月 1 日から 2022 年 8 月 17 日に更新しました。 [詳細情報](deprecated-features.md)
+
+Campaign Launch での Campaign 拡張機能の設定方法を学ぶためのAdobe Experience Platform mobile SDK ドキュメントへのリンクをAdobeしました。 [詳細情報](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+
+JavaScript を使用して値を計算し、データを交換し、SOAP 呼び出しを使用して特定の操作を実行する方法に関する節を追加しました。[詳細情報](../../workflow/using/javascript-scripts-and-templates.md)
+
+ワークフローでの JavaScript コードの実装例を追加しました。 [詳細情報](../../workflow/using/javascript-in-workflows.md)
+
 
 ## 2021年10月{#oct-2021}
 

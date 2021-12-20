@@ -3,9 +3,9 @@ product: campaign
 title: テクニカルノート - IMS を使用して Adobe Campaign に接続するように環境を更新します
 description: Campaign - IMS の更新
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
+source-git-commit: 70240d5f62fd3d7b755389b5ad8c4b499c94657d
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '587'
 ht-degree: 100%
 
 ---
@@ -40,10 +40,9 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../inte
 
    * Gold Standard 11。 [詳細情報](../../rn/using/gold-standard.md)
    * Campaign 21.1.3 リリース。 [詳細情報](../../rn/using/latest-release.md)
-   * Campaign 20.2.5 リリース。 [詳細情報](../../rn/using/release--20-2.md)
-   * Campaign 20.1.4 リリース。 [詳細情報](../../rn/using/release--20-1.md)
-   * Campaign 19.2.4 リリース。 [詳細情報](../../rn/using/release--19-2.md)
-   * Campaign 19.1.8 リリース。 [詳細情報](../../rn/using/release--19-1.md)
+   * Campaign 20.2.5 リリース。 [詳細情報](../../rn/using/release--2020.md#release-20-2-5-build-9188)
+   * Campaign 20.1.4 リリース。 [詳細情報](../../rn/using/release--2020.md#release-20-1-4-build-9126)
+   * Campaign 19.2.4 リリース。 [詳細情報](../../rn/using/release--2019.md#release-19-2-4-build-9082)
 
    これらのリリースには、新しい接続プロトコルが付属しています。 Campaign サーバーとクライアントコンソールの両方をアップグレードする必要があります。すべてのインスタンスをアップグレードしたら、**2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign に接続できるようにするには、クライアントコンソールもこのバージョンにアップグレードする必要があります。
 

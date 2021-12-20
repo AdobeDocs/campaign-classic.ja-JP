@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: f7c4603e389b19c057ee72bb50ed30d03b60f4bc
-workflow-type: ht
-source-wordcount: '1700'
-ht-degree: 100%
+source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
+workflow-type: tm+mt
+source-wordcount: '1737'
+ht-degree: 98%
 
 ---
 
@@ -85,6 +85,12 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <tr> 
    <td><strong>領域 - 機能</strong></td>
    <td><strong>置き換え</strong></td> 
+  </tr>
+ <tr>  
+   <td>CRM コネクタ アクティビティ<br></td>
+   <td><p> Microsoft CRM、Salesforce、OracleCRM On Demand アクションアクティビティは使用できなくなりました。</p>
+   <p>Adobe Campaignと CRM システム間のデータ同期を設定するには、「 CRM コネクタ」アクティビティを使用します。</p>
+   <p><a href="../../workflow/using/crm-connector.md">詳細情報</a></p>
   </tr>
   <tr>  
    <td>レポート<br></td>

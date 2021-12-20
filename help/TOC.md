@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
-workflow-type: ht
-source-wordcount: '2575'
-ht-degree: 100%
+source-git-commit: 5bcc0c06b5c189c4481366d0d283199d6813ecd3
+workflow-type: tm+mt
+source-wordcount: '2581'
+ht-degree: 99%
 
 ---
 
@@ -21,19 +21,14 @@ ht-degree: 100%
 + リリースノート {#release-notes}
    + [アップグレードの概要](rn/using/rn-overview.md)
    + [最新リリース](rn/using/latest-release.md)
-   + [!DNL Gold Standard] リリース {#gs-release}
-      + [ [!DNL Gold Standard] について](rn/using/gs-overview.md)
-      + [[!DNL Gold Standard] リリースノート](rn/using/gold-standard.md)
-      + [[!DNL Gold Standard] 互換性マトリックス](rn/using/compatibility-matrix-gs.md)
    + 以前のリリース {#previous-releases}
-      + [リリース 20.3](rn/using/release--20-3.md)
-      + [リリース 20.2](rn/using/release--20-2.md)
-      + [リリース 20.1](rn/using/release--20-1.md)
-      + [リリース 19.2](rn/using/release--19-2.md)
-      + [リリース 19.1](rn/using/release--19-1.md)
-      + [リリース 18.10](rn/using/release--18-10.md)
-      + [リリース 18.6](rn/using/release--18-6.md)
-      + [リリース 18.4](rn/using/release--18-4.md)
+      + [!DNL Gold Standard] リリース {#gs-release}
+         + [ [!DNL Gold Standard] について](rn/using/gs-overview.md)
+         + [[!DNL Gold Standard] リリースノート](rn/using/gold-standard.md)
+         + [[!DNL Gold Standard] 互換性マトリックス](rn/using/compatibility-matrix-gs.md)
+      + [2020 年](rn/using/release--2020.md)
+      + [2019](rn/using/release--2019.md)
+      + [2018](rn/using/release--2018.md)
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
    + [互換性マトリックス](rn/using/compatibility-matrix.md)
 + はじめに {#getting-started}
@@ -560,7 +555,7 @@ ht-degree: 100%
       + [追加データ](interaction/using/additional-data.md)
       + [拡張の例](interaction/using/extension-example.md)
       + [テスト環境の作成](interaction/using/creating-a-test-environment.md)
-      + [フック](interaction/using/hooks.md)
+      + [エンジンの標準的な動作を変更する](interaction/using/hooks.md)
       + [分散アーキテクチャ](interaction/using/distributed-architectures.md)
       + [データバッファーの設定](installation/using/interaction---data-buffer.md)
    + 使用例 {#case-study}
@@ -849,6 +844,7 @@ ht-degree: 100%
       + [テクニカルノート](technotes/using/technote.md)
       + [Campaign 設定の更新](technotes/using/acc-config-updates.md)
       + [IMS の更新](technotes/using/ims-updates.md)
+      + [TLS 1.0 および 1.1 のサポートのサポートの終了](technotes/using/eol-tls-support.md)
    + メールとプッシュ通知 {#technotes-email}
       + [Apple iOS のメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
       + [Apple Mail のプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ja)

@@ -3,7 +3,7 @@ product: campaign
 title: テクニカルノート - Adobe Campaign 設定の更新
 description: Adobe Campaign 設定の更新
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 0c97efef21bfd3b8671847c3e1c27bb76cf167e4
+source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 100%
@@ -36,10 +36,10 @@ Campaign の最新バージョンには、サーバーサイドリクエスト�
 
 * Gold Standard 11。 [詳細情報](../../rn/using/gold-standard.md)
 * Campaign 21.1.1 リリース。 [詳細情報](../../rn/using/latest-release.md)
-* Campaign 20.2.4 リリース。 [詳細情報](../../rn/using/release--20-2.md)
-* Campaign 20.1.4 リリース。 [詳細情報](../../rn/using/release--20-1.md)
-* Campaign 19.2.4 リリース。 [詳細情報](../../rn/using/release--19-2.md)
-* Campaign 19.1.8 リリース。 [詳細情報](../../rn/using/release--19-1.md)
+* Campaign 20.2.5 リリース。 [詳細情報](../../rn/using/release--2020.md#release-20-2-5-build-9188)
+* Campaign 20.1.4 リリース。 [詳細情報](../../rn/using/release--2020.md#release-20-1-4-build-9126)
+* Campaign 19.2.4 リリース。 [詳細情報](../../rn/using/release--2019.md#release-19-2-4-build-9082)
+* Campaign 19.1.8 リリース。 [詳細情報](../../rn/using/release--2019.md#release-19-1-8-build-9039)
 
 バージョンを確認する方法については、](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)こちらの節[を参照してください。
 
@@ -62,9 +62,9 @@ Campaign の最新バージョンには、サーバーサイドリクエスト�
 最近特定されたリグレッションを解決するために、**現在利用可能な**&#x200B;以下のコンソールバージョンをインストールしてください。このリグレッションにより、配信での日付選択や画像管理など、クライアントコンソールの一部のコンポーネントを使用できませんでした。 **コンソールのアップグレード**&#x200B;は必須です。
 
 * 最新の Gold Standard 11 ビルド 9032@10c2709。 [詳細情報](../../rn/using/gold-standard.md)
-* Campaign 20.1.4 リリース。 [詳細情報](../../rn/using/release--20-1.md)
-* Campaign 19.2.4 リリース。 [詳細情報](../../rn/using/release--19-2.md)
-* Campaign 19.1.8 リリース。 [詳細情報](../../rn/using/release--19-1.md)
+* Campaign 20.1.4 リリース。 [詳細情報](../../rn/using/release--2020.md#release-20-1-4-build-9126)
+* Campaign 19.2.4 リリース。 [詳細情報](../../rn/using/release--2019.md#release-19-2-4-build-9082)
+* Campaign 19.1.8 リリース。 [詳細情報](../../rn/using/release--2019.md#release-19-1-8-build-9039)
 
 ## Adobe Identity Management System（IMS）の更新
 
@@ -78,10 +78,10 @@ Adobe Identity Management サービス（IMS）を通じて ](../../integrations
 
 * Gold Standard 11。 [詳細情報](../../rn/using/gold-standard.md)
 * Campaign 21.1.1 リリース。 [詳細情報](../../rn/using/latest-release.md)
-* Campaign 20.2.5 リリース。 [詳細情報](../../rn/using/release--20-2.md)
-* Campaign 20.1.4 リリース。 [詳細情報](../../rn/using/release--20-1.md)
-* Campaign 19.2.4 リリース。 [詳細情報](../../rn/using/release--19-2.md)
-* Campaign 19.1.8 リリース。 [詳細情報](../../rn/using/release--19-1.md)
+* Campaign 20.2.5 リリース。 [詳細情報](../../rn/using/release--2020.md#release-20-2-5-build-9188)
+* Campaign 20.1.4 リリース。 [詳細情報](../../rn/using/release--2020.md#release-20-1-4-build-9126)
+* Campaign 19.2.4 リリース。 [詳細情報](../../rn/using/release--2019.md#release-19-2-4-build-9082)
+* Campaign 19.1.8 リリース。 [詳細情報](../../rn/using/release--2019.md#release-19-1-8-build-9039)
 
 これらのリリースには、新しい接続プロトコルが付属しています。**2021 年 6 月 30 日**&#x200B;以降、Campaign サーバーとクライアントコンソールのいずれも、Campaign に接続できるようにするには、アップグレードが必須です。
 
@@ -111,8 +111,8 @@ Adobe Identity Management サービス（IMS）を通じて ](../../integrations
 
 * Gold Standard 11。 [詳細情報](../../rn/using/gold-standard.md)
 * Campaign 21.1.1 リリース。 [詳細情報](../../rn/using/latest-release.md)
-* Campaign 20.2.5 リリース。 [詳細情報](../../rn/using/release--20-2.md)
-* Campaign 19.1.8 リリース。 [詳細情報](../../rn/using/release--19-1.md)
+* Campaign 20.2.5 リリース。 [詳細情報](../../rn/using/release--2020.md#release-20-2-5-build-9188)
+* Campaign 19.1.8 リリース。 [詳細情報](../../rn/using/release--2019.md#release-19-1-8-build-9039)
 
 バージョンを確認する方法については、](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)こちらの節[を参照してください。
 

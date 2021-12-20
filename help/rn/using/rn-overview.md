@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: b3a3ec871bca9132f10b319ba1f93aeda80d6747
+source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 77%
 
 ---
 
@@ -17,19 +17,17 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign は定期的に更新されています。年間平均で 2～3 個のマイナーバージョンがリリースされ、新機能、改善点および修正点が追加されています。さらに、累積的な修正のみを含むビルドを定期的にリリースしています。
+Adobe Campaign は定期的に更新されています。毎年 1 つまたは 2 つのマイナーバージョンがリリースされ、新機能、改善点および修正点が追加されています。 さらに、累積的な修正のみを含むビルドを定期的にリリースしています。
 
 この定期的なアップデートは、環境の安全性を維持し、アドビの製品に対する体験を向上させ、最新かつ最大限の情報を手に入れることを目的としています。
 
-これが、最新バージョンの Adobe Campaign を実行することが非常に重要であると考える理由です。また、最近のビルドでの問題の特定、再現、修正が通常よりも速いという点で、より優れたサポート体験を得ることができます。また、発生する可能性のある多くの問題は、最新のビルドで既に修正されています。
+これが、お客様が重要であると考える理由です **最新バージョンを実行する** Adobe Campaign また、最近のビルドでの問題の特定、再現、修正が通常よりも速いという点で、より優れたサポート体験を得ることができます。また、発生する可能性のある多くの問題は、最新のビルドで既に修正されています。
 
 ## リリースのステータス{#rn-statuses}
 
-ステータスは各ビルドに関連付けられています。ステータスのリストと、その解釈について以下に示します。
+新しいビルドごとに、色で具体化されたステータスが表示されます。
 
 ![](assets/do-not-localize/green3.png) **一般提供**（GA） - 実稼働環境で検証済みで、Adobe が推奨します。
-
-**最新の GA ビルド**&#x200B;は、[[!DNL Gold Standard] 11 リリース](../../rn/using/gold-standard.md#gs-11)および [Campaign 21.1.4 リリース](../../rn/using/latest-release.md#release-21-1-4-build-9340)です。
 
 ![](assets/do-not-localize/limited3.png) **限定提供**（LA） - オンデマンドデプロイメントのみ。
 
@@ -41,7 +39,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ## 推奨事項{#recommendations}
 
-安定した設定を確保するために、同じクライアント設定で実行しているすべてのサーバーに同じ安定したビルドをインストールすることをお勧めします。
+安定した設定を確実におこなうには、 **同じ安定した建物** を同じクライアント構成で実行しているすべてのサーバ上に置く。
 
 さらに、クライアントコンソールは、サーバーインスタンスと同じビルド上にある必要があります。
 
@@ -62,6 +60,7 @@ Adobe Campaign は定期的に更新されています。年間平均で 2～3 �
 
 ## サポートおよびその他の役立つリンク{#support}
 
+* [Campaign のバージョンを確認する](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 * [ヘルプとサポート](../../support.md)
 * [Campaign コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)
 * [最新のドキュメントのアップデート](../../rn/using/documentation-updates.md)

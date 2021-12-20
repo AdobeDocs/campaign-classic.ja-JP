@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: cee019432c64eaaefac86a27b731355242fd1555
+source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
 workflow-type: tm+mt
 source-wordcount: '4580'
 ht-degree: 100%
@@ -170,7 +170,7 @@ Campaign データモデルの概要が改善され、再構成されました�
 
 Campaign Federated Data Access（FDA）のドキュメントが改善され、各外部データベース設定の詳細が追加され、[この節](../../installation/using/about-fda.md)に移りました。
 
-[Campaign 20.2.3 リリース](../../rn/using/release--20-2.md#release-20-2-3-build-9182)は一般提供（GA）に移行しました。
+[Campaign 20.2.3 リリース](../../rn/using/release--2020.md#release-20-2-3-build-9182)は一般提供（GA）に移行しました。
 
 プライバシー節は移動し、[プライバシー管理](../../platform/using/privacy-management.md)および[プライバシーリクエストの管理](../../platform/using/privacy-requests.md)の 2 つの新しいページが追加されました。
 

@@ -5,7 +5,7 @@ description: テクニカルノート
 hide: true
 hidefromtoc: true
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074
-source-git-commit: ed9e76495efb0cb49e248a7d38417642c5094a11
+source-git-commit: 70240d5f62fd3d7b755389b5ad8c4b499c94657d
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 100%
@@ -30,11 +30,12 @@ ht-degree: 100%
 
 * Gold Standard 8～11。[詳細情報](../../rn/using/gold-standard.md#gs-8)
 * Campaign 21.1.1（ビルド 9277）～21.1.2（ビルド 9282）リリース。[詳細情報](../../rn/using/latest-release.md)
-* Campaign 20.3.1（ビルド 9228）～20.3.3（ビルド 9234）リリース。[詳細情報](../../rn/using/release--20-3.md)
-* Campaign 20.2.1（ビルド 9178）～20.2.4（ビルド 9187）リリース。[詳細情報](../../rn/using/release--20-2.md)
-* Campaign 20.1.1（ビルド 9122）～21.1.3（ビルド 9124）リリース。[詳細情報](../../rn/using/release--20-1.md)
-* Campaign 19.2.2（ビルド 9080）～19.2.3（ビルド 9081）リリース。[詳細情報](../../rn/using/release--19-2.md)
-* Campaign 19.1.5（ビルド 9033）～19.1.7（ビルド 9036）リリース。[詳細情報](../../rn/using/release--19-1.md)
+* Campaign 20.3.1（ビルド 9228）～20.3.3（ビルド 9234）リリース。[詳細情報](../../rn/using/release--2020.md#release-20-3)
+* Campaign 20.2.1（ビルド 9178）～20.2.4（ビルド 9187）リリース。[詳細情報](../../rn/using/release--2020.md#release-20-2)
+* Campaign 20.1.1（ビルド 9122）～21.1.3（ビルド 9124）リリース。[詳細情報](../../rn/using/release--2020.md#release-20-1)
+* Campaign 19.2.2（ビルド 9080）～19.2.3（ビルド 9081）リリース。[詳細情報](../../rn/using/release--2019.md#release-19-2)
+* Campaign 19.1.5（ビルド 9033）～19.1.7（ビルド 9036）リリース。[詳細情報](../../rn/using/release--2019.md#release-19-1)
+
 
 バージョンを確認する方法については、](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)こちらの節[を参照してください。
 

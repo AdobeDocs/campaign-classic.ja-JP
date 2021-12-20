@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: 最新リリース
-description: 最新の Campaign Classic リリースノート
+description: 最新のCampaign Classicv7 リリースノート
 feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 5261021bde11bc9450a429f26aa493ca2398dbc7
+source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
 workflow-type: tm+mt
-source-wordcount: '2531'
-ht-degree: 97%
+source-wordcount: '2561'
+ht-degree: 88%
 
 ---
 
@@ -17,12 +17,14 @@ ht-degree: 97%
 
 ![](../../assets/v7-only.svg)
 
-このページには、**Campaign Classic 最新リリース**&#x200B;の新機能、改善点および修正点が記載されています。
+このページには、 **最新Campaign Classicv7 リリース**. 新しいビルドごとに、色で具体化されたステータスが表示されます。 Campaign Classicv7 ビルドのステータスについて詳しくは、 [このページ](rn-overview.md).
 
-Campaign のビルドステータスを[このページ](rn-overview.md)で把握してください。
+## リリース 7.1(21.1)
 
+>[!CAUTION]
+>Campaign **[!UICONTROL ヘルプ/バージョン情報…]** メニューを使用すると、 [バージョンおよびビルド番号](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). ただし、このページに記載されている 9277 ～ 9343 のすべてのビルドでは、バージョン番号が 7.1 ではなく 7.0 に設定されています。
 
-## ![](assets/do-not-localize/green_2.png) リリース 21.1.4 - ビルド 9343 {#release-21-1-4-build-9343}
+### ![](assets/do-not-localize/green_2.png) リリース 21.1.4 - ビルド 9343 {#release-21-1-4-build-9343}
 
 _2021年10月8日（PT）_
 
@@ -34,7 +36,7 @@ _2021年10月8日（PT）_
 
 * 複数のミッドソーシングインスタンスで複数の IP アフィニティを使用する場合に、配信の送信時に発生する可能性がある「ipaffinity xxx がミッドサーバー xxx に見つかりません」というエラーを修正しました。 （NEO-37514）
 
-## ![](assets/do-not-localize/orange_2.png) リリース 21.1.4 - ビルド 9342 {#release-21-1-4-build-9342}
+### ![](assets/do-not-localize/orange_2.png) リリース 21.1.4 - ビルド 9342 {#release-21-1-4-build-9342}
 
 _2021 年 9 月 7 日_（PT）
 
@@ -68,7 +70,7 @@ _2021 年 9 月 7 日_（PT）
 * 受信トランジションが FDA データソースからのものである場合に「**エンリッチメント**」ワークフローアクティビティで変数を使用できなかった問題を修正しました。
 * メールメッセージ内の URL が機能しなくなる可能性がある問題を修正しました。
 
-## ![](assets/do-not-localize/orange_2.png)リリース 21.1.3 - ビルド 9330 {#release-21-1-3-build-9330}
+### ![](assets/do-not-localize/orange_2.png)リリース 21.1.3 - ビルド 9330 {#release-21-1-3-build-9330}
 
 _2021 年 6 月 5 日（PT）_
 
@@ -179,18 +181,18 @@ Campaign で次のシステムがサポートされるようになりました�
 
 **非推奨（廃止予定）の機能**
 
-* Campaign 21.1 リリース以降、Adobe Analytics Connectorは非推奨になりました。このコネクタを使用している場合は、ご利用の実装に新しい Adobe Analytics Connectorを適用する必要があります。
-詳しくは、[詳細ドキュメント](../../technotes/using/aa-connector-migration.md)を参照してください。
-* Debian 8 のサポートは廃止されました。
-* 20.3 での Oracle CRM の廃止を受け、関連する外部アカウントがインターフェイスから削除されました。
+* ODBC ドライバーがAdobe Campaign Third Parties と共に直接インストールされるようになりました。 ドライバをインストールする際に、手動の手順は不要になりました。
+* Googleビッグクエリをホスト型デプロイメントで使用できるようになりました。
 
-詳しくは、[非推奨（廃止予定）の機能と削除された機能のページ](../../rn/using/deprecated-features.md)を参照してください。
+[詳細情報](../../installation/using/configure-fda.md)
 
 **改善点**
 
-* ワークフローを保存するときに、アクティビティ名が一意であり、移行の後には必ずアクティビティが続くことを確認するためのチェックを追加しました。
-* **請求**&#x200B;テクニカルワークフローに、削除済みの「**アクティブな請求プロファイルの数**（billingActiveContactCount）」ワークフローで元々実行したタスクを含むようになりました。ワークフローで毎月送信するメールレポートで、インスタンス上のアクティブなプロファイルの数に関する情報が提供されるようになりました。[詳細情報](../../workflow/using/about-technical-workflows.md)。
-* **_keyOnMData** 属性が新しく追加され、メモデータの操作にキーを使用できるようになりました。
+* Microsoft Dynamics Connector Web API に関する重要な修正が適用されました。
+   * フィルター条件に参照フィールドが含まれている場合に、Microsoft CRM からのデータインポートが失敗する、または機能しない可能性がある問題を修正しました。
+   * ワークフローによってトリガーされたインポート中に、文字列タイプのフィールドの null 値が、空の値ではなく null として保存される問題を修正しました。
+   * Web API 呼び出しを使用したデータのインポートまたはエクスポートで次のエラーが発生する問題を修正しました。&quot;無効な URI:URI スキームが長すぎます。
+   * Microsoft Dynamics 365 からのインポート中に、ルックアップフィールドデータがインポートされなかった問題を修正しました。
 
 **その他の変更**
 
@@ -224,14 +226,14 @@ Campaign で次のシステムがサポートされるようになりました�
 * 特定の結合メカニズムが配信のパーソナライズに失敗したことにより、配達確認のグループを含む配信を送信できない問題を修正しました。 （NEO-14391）
 * 配信テーブルをターゲットとしてクエリやエンリッチメントアクティビティを実施すると、アラートアクティビティでアラートを送信できない問題を修正しました。 （NEO-25157）
 
-## ![](assets/do-not-localize/red_2.png) リリース 21.1.2 - ビルド 9282 {#release-21-1-2-build-9282}
+### ![](assets/do-not-localize/red_2.png) リリース 21.1.2 - ビルド 9282 {#release-21-1-2-build-9282}
 
 _2021 年 4 月 15 日_
 
 * パスワード管理が向上し、セキュリティが最適化されました。 
 * MTA がクラッシュする可能性がある問題を修正しました。
 
-## ![](assets/do-not-localize/red_2.png) リリース 21.1.1 - ビルド 9277 {#release-21-1-1-build-9277}
+### ![](assets/do-not-localize/red_2.png) リリース 21.1.1 - ビルド 9277 {#release-21-1-1-build-9277}
 
 _2021 年 2 月 22 日_
 

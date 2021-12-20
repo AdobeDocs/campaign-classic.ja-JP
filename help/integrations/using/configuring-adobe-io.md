@@ -8,10 +8,10 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: bf063ec8f06c3e8e70011a5b5101f17e163a383c
+source-git-commit: 8789571c9cf9ca857777fe5c03c355200c466789
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 >OAuth 認証による旧バージョンのトリガー統合を使用している場合は、以下に説明するように **Adobe I/O に移行する必要があります**。
 >[!DNL Adobe I/O] へのこうした移行中に、一部の着信トリガーが失われる可能性があることに注意してください。
 >
->Campaign の従来の OAuth 認証モードは、**2021年10月20日**（PT）に廃止されます。ホスト環境では、**2022年2月23 日**（PT）まで延長サポートを受けられます。オンプレミス環境またはハイブリッド環境のお客様は、アドビカスタマーケアに連絡してサポートを 2022年2月まで延長してください。アドビに [OAuth アプリケーションの AppID を伝える](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)必要があります。
+>Campaign を使用した従来の oAuth 認証モードは、 **2021 年 10 月 21 日**. ホスト環境では、**2022年2月23 日**（PT）まで延長サポートを受けられます。オンプレミス環境またはハイブリッド環境のお客様は、アドビカスタマーケアに連絡してサポートを 2022年2月まで延長してください。アドビに [OAuth アプリケーションの AppID を伝える](../../integrations/using/configuring-pipeline.md?lang=en#step-optional)必要があります。
 
 ## 前提条件 {#adobe-io-prerequisites}
 

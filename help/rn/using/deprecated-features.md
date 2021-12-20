@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: f2cb3323bc5df3aae16a4ae4cf80c30bf53b006e
+source-git-commit: 8789571c9cf9ca857777fe5c03c355200c466789
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1744'
 ht-degree: 97%
 
 ---
@@ -62,7 +62,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <td><p>Campaign 21.1 リリース以降、配信品質の技術的監視レポートは非推奨となりました。</p>
    <p>必要に応じて、削除予定日まで、このレポートを E メールで毎日受け取ることができます。レポートの送信をリクエストするには、特定の<a href="https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">サポートケース</a>を開き、インスタンス名と送信先の E メールアドレスを指定します。</p> 
    <p>インスタンスの配信品質パフォーマンスを監視するための最適なツールを定義する際に、配信品質チームに相談することをお勧めします。</p>
-  <p><em>削除予定日：2021 年末</em></p>
+  <p><em>削除のターゲット日：2022 年初頭</em></p>
   </td>
  </tr>
   <tr>
@@ -70,7 +70,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <td><p> Campaign 20.3 リリースより、パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合認証が変更され、Adobe I/O に移動しました。 <p>
   <p>Triggers 統合を使用している場合は、これに応じて実装を適応させる必要があります。<a href="../../integrations/using/configuring-adobe-io.md">詳細情報</a></p> 
   <p>OAuth 認証の廃止予定について詳しくは、この<a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">ページ</a>を参照してください。</p> 
-  <p><em>削除予定日：2021 年 11 月</em></p>
+  <p><em>削除のターゲット日：2021 年 10 月 21 日。 ホスト環境では、2022年2月23 日（PT）まで延長サポートを受けられます。 </em></p>
   </td>
   </tr>
  </tbody> 
@@ -179,7 +179,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 19.1 リリース以降、Adobe Campaign は次のオペレーティングシステムへの対応を終了します。
 
-* CentOS 6。[詳細情報](https://wiki.centos.org/Download)
+* CentOS 6. [詳細情報](https://wiki.centos.org/Download)
 * Debian 7。[詳細情報](https://wiki.debian.org/DebianReleases)
 * RHEL 6.x。[詳細情報](https://access.redhat.com/ja/support/policy/updates/errata)
 * Windows Server 2008。[詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/1163)

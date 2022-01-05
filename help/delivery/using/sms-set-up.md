@@ -6,10 +6,10 @@ audience: delivery
 content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b174b8283d77a1b5eb535c0c46ba4a428bd66eef
 workflow-type: tm+mt
-source-wordcount: '1781'
-ht-degree: 100%
+source-wordcount: '1801'
+ht-degree: 99%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 100%
    従来のコネクタは非推奨（廃止予定）になりました。 非推奨（廃止予定）の機能は引き続き使用できますが、それ以上の機能強化やサポートは行われません。詳しくは、[このページ](../../rn/using/deprecated-features.md)を参照してください。
 
 1. この外部アカウントの参照元となる配信テンプレート。
+
+>[!NOTE]
+>
+> SMS 配信の場合、タイポロジは、 **1 つ** 専用のアプリケーションサーバーコンテナ。 [詳細情報](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
 
 ## SMPP 外部アカウントの作成 {#creating-an-smpp-external-account}
 

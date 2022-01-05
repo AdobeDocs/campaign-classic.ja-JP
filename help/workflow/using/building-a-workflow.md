@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: -general-operation
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 638b259462d3e01d744567e56d67a120359dc34a
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 100%
+source-wordcount: '1680'
+ht-degree: 99%
 
 ---
 
@@ -96,7 +96,10 @@ ht-degree: 100%
 
    ![](assets/s_user_segmentation_toolbar.png)
 
-   詳細なターゲティングワークフローのトラッキングおよび開始に関連するアイコンについて詳しくは、この[節](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow)を参照してください。
+   進行状況およびログの表示に関連するアイコンについて詳しくは、次の節を参照してください。
+
+   * [進捗状況の表示](../../workflow/using/monitoring-workflow-execution.md#displaying-progress)
+   * [ログの表示](../../workflow/using/monitoring-workflow-execution.md#displaying-logs)
 
 * **オブジェクトの整列**
 

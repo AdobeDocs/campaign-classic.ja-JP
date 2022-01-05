@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 5bcc0c06b5c189c4481366d0d283199d6813ecd3
+source-git-commit: e142bcc18dd22179d83c54b9e79d3e3339b005fa
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2599'
 ht-degree: 99%
 
 ---
@@ -597,6 +597,7 @@ ht-degree: 99%
    + 付録 {#annexes}
       + [Facebook アプリの例](social/using/examples-of-facebook-apps.md)
       + [トラッキング](social/using/tracking.md)
++ [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
 + インストールおよび設定ガイド {#installing-campaign-classic}
    + アーキテクチャの原則 {#architecture-and-hosting-models}
       + [一般的なアーキテクチャ](installation/using/general-architecture.md)
@@ -854,3 +855,4 @@ ht-degree: 99%
    + Adobe Managed Services への移行{#dc-migration}
       + [パブリッククラウドへの移行](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)
++ [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)

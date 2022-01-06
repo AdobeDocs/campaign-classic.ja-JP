@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: cbafd70f5b5e964256edad0ce2965f3ed4650500
+source-git-commit: 0a7cdd53640bb3d96ff9bc2de4aa4c1849e32c83
 workflow-type: tm+mt
-source-wordcount: '2558'
-ht-degree: 91%
+source-wordcount: '2582'
+ht-degree: 96%
 
 ---
 
@@ -181,18 +181,18 @@ Campaign で次のシステムがサポートされるようになりました�
 
 **非推奨（廃止予定）の機能**
 
-* ODBC ドライバーがAdobe Campaign Third Parties と共に直接インストールされるようになりました。 ドライバをインストールする際に、手動の手順は不要になりました。
-* Googleビッグクエリをホスト型デプロイメントで使用できるようになりました。
+* Campaign 21.1 リリース以降、Adobe Analytics Connectorは非推奨になりました。このコネクタを使用している場合は、ご利用の実装に新しい Adobe Analytics Connectorを適用する必要があります。
+詳しくは、[詳細ドキュメント](../../technotes/using/aa-connector-migration.md)を参照してください。
+* Debian 8 のサポートは廃止されました。
+* 20.3 での Oracle CRM の廃止を受け、関連する外部アカウントがインターフェイスから削除されました。
 
-[詳細情報](../../installation/using/configure-fda.md)
+詳しくは、[非推奨（廃止予定）の機能と削除された機能のページ](../../rn/using/deprecated-features.md)を参照してください。
 
 **改善点**
 
-* Microsoft Dynamics Connector Web API に関する重要な修正が適用されました。
-   * フィルター条件に参照フィールドが含まれている場合に、Microsoft CRM からのデータインポートが失敗する、または機能しない可能性がある問題を修正しました。
-   * ワークフローによってトリガーされたインポート中に、文字列タイプのフィールドの null 値が、空の値ではなく null として保存される問題を修正しました。
-   * Web API 呼び出しを使用したデータのインポートまたはエクスポートで次のエラーが発生する問題を修正しました。&quot;無効な URI:URI スキームが長すぎます。
-   * Microsoft Dynamics 365 からのインポート中に、ルックアップフィールドデータがインポートされなかった問題を修正しました。
+* ワークフローを保存するときに、アクティビティ名が一意であり、移行の後には必ずアクティビティが続くことを確認するためのチェックを追加しました。
+* **請求**&#x200B;テクニカルワークフローに、削除済みの「**アクティブな請求プロファイルの数**（billingActiveContactCount）」ワークフローで元々実行したタスクを含むようになりました。ワークフローで毎月送信するメールレポートで、インスタンス上のアクティブなプロファイルの数に関する情報が提供されるようになりました。[詳細情報](../../workflow/using/about-technical-workflows.md)。
+* **_keyOnMData** 属性が新しく追加され、メモデータの操作にキーを使用できるようになりました。
 
 **その他の変更**
 

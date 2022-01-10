@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: e4dfdd32c07753ee9e202ab4e4bf815485e47d8b
+source-git-commit: 630a62c5e5c9782c5c55fdebd651493a2d68fc54
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 17%
+source-wordcount: '1058'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ FDA アカウントのセキュリティがいくつか改善されました。
 * ODBC ドライバーがAdobe Campaign Third Parties と共に直接インストールされるようになりました。 これらのドライバをインストールする際に、手動の手順は不要になりました。
 * FDA 外部アカウントを設定する際に、強化された認証セキュリティのためにキーペア認証を使用してSnowflakeアカウントにログインできるようになりました。 [詳細情報](../../installation/using/configure-fda-snowflake.md)
 * FDA 外部アカウントを設定する際に、システムが割り当てた管理 ID を使用してAzure synapseAnalytics アカウントにログインできるようになりました。 [詳細情報](../../installation/using/configure-fda-synapse.md#azure-external)
-
+* 最適なセキュリティを確保するために、log4j ライブラリへのすべての参照が Campaign から削除されました。
 
 **改善点**
 
@@ -55,6 +55,7 @@ FDA アカウントのセキュリティがいくつか改善されました。
 * 新しいオプションが **エラー管理** ワークフローアクティビティのプロパティ：この **エラー時に中止** 「 」オプションは、ワークフローを自動的に停止します。 その後は再起動できません (NEO-29661)。 [詳細情報](../../workflow/using/advanced-parameters.md#in-case-of-errors)
 * 専用のシーケンスを使用して、受信者の統計グループの作成に使用される nmsGroup テーブルのプライマリキーを生成するようになりました。 以前は、 xtknewId シーケンスが使用されていました。 （NEO-30832）
 * 「 CRM コネクタ」アクティビティを使用した一括更新操作のサポートを追加しました。
+* トランザクションメッセージの処理時間のパフォーマンスが向上しました。 （NEO-40370）
 
 **パッチ**
 

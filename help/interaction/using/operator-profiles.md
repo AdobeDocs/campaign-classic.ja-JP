@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 88%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >オファーマネージャーは、2 つの状況においてのみオファーを承認できます。1 つは、誰もレビュー担当者として割り当てられていない場合です。もう 1 つは、テンプレートの作成を担当するオペレーター（レビュー担当者の割り当て権限を持つ）が、オファーのベースとなるオファーテンプレートで、自分自身をレビュー担当者に指定した場合です。
+   >オファーマネージャーは、2 つの状況においてのみオファーを承認できます。1 つ目は、特に誰もレビュー担当者に指定されていない場合です。もう 1 つは、テンプレートの作成担当者（レビュー担当者を割り当てる権限を持つ）が、オファーの基となるオファーテンプレートのレビュー担当者に指定した場合です。
 
 ## 配信マネージャー {#delivery-manager}
 

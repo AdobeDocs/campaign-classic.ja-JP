@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '2027'
-ht-degree: 100%
+source-wordcount: '2026'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign は定期的に更新されています。公開されている[�
 
 お客様が最新バージョンの Adobe Campaign を使用することが非常に重要です。それにより、問題が発生した場合にアドビがより効率的に支援できるようになります。古いビルドで問題を特定、再現、修正するには、通常、時間がかかります。また、発生する問題の一部は、最近のビルドで修正されている可能性があります。
 
-[!DNL Gold Standard] は、Campaign Classic の長期サポートリリースです。ホストされている [!DNL Gold Standard] のユーザーについては、安定した最新バージョンに [!DNL Gold Standard] が自動的にアップグレードされ、ユーザー側での操作は必要ありません。オンプレミスおよびハイブリッド環境のお客様も、[!DNL Gold Standard] リリースのメリットを享受できます。古いビルドから移行する場合は、まずこのバージョンにアップグレードすることをお勧めします。[詳細情報](../../rn/using/gs-overview.md)。
+ホストされているユーザーは、安定した最新バージョンを使用することで、Campaign の年別アップグレードのメリットが自動的に得られるため、操作は必要ありません。 オンプレミスおよびハイブリッドのお客様も、このリリースのメリットを受けることができます。 古いビルドから移行する場合は、まずこのバージョンにアップグレードすることをお勧めします。[詳細情報](../../rn/using/rn-overview.md)。
 
 ## ビルドのアップグレードとは何ですか？
 
@@ -205,4 +205,4 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 * [ビルドアップグレードの実行](../../production/using/build-upgrade.md)
 * [Campaign Classic リリースノート](../../rn/using/rn-overview.md)
 * [Campaign Classic のヘルプとサポートのオプション](../../support.md)
-* [[!DNL Gold Standard] プログラム](../../rn/using/gs-overview.md)
+* [年別アップグレードプログラム](../../rn/using/rn-overview.md#yearly-upgrade)

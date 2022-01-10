@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # オファーのシミュレーションについて{#about-offers-simulation}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 **シミュレーション**&#x200B;モジュールを使用すると、提案を受信者に送信する前に、1 つのカテゴリまたは環境に属するオファーの配分をテストできます。
 

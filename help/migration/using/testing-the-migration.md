@@ -6,14 +6,14 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 9ba2199eabf91381e87661f30c9af8aa0ce4cc26
+source-git-commit: 59a2bc62b4c03ef0702cb57bd9dc808e7d0b444b
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 3%
+source-wordcount: '755'
+ht-degree: 2%
 
 ---
 
-# 移行のテスト{#testing-the-migration}
+# 移行テスト{#testing-the-migration}
 
 ![](../../assets/v7-only.svg)
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 設定に応じて、移行テストを実行する方法がいくつかあります。
 
-移行テストを実行するには、テスト/開発環境が必要です。 開発環境は、次のライセンスを受ける場合があります。ライセンス契約を確認するか、Adobe Campaignのセールスサービスにお問い合わせください。
+移行テストを実行するには、テスト/開発環境が必要です。 Adobe Campaign環境は、次のライセンスを受けることができます。ライセンス契約を確認するか、Adobe担当者にお問い合わせください。
 
 1. 進行中のすべての開発を停止し、実稼動環境に引き継ぎます。
 1. 開発環境データベースのバックアップを作成します。
@@ -39,18 +39,12 @@ ht-degree: 3%
 
 1. バックアップを復元しようとして、バックアップが正しいことを確認します。 データベース、テーブル、データなどにアクセスできることを確認します。
 1. 開発環境で移行手順をテストします。
-
-   詳細な手順については、 [Adobe Campaign 7 への移行の前提条件](../../migration/using/prerequisites-for-migration-to-adobe-campaign-7.md) 」セクションに入力します。
-
 1. 開発環境の移行が成功した場合は、実稼動環境を移行できます。
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >データ構造が変更されたので、v5 プラットフォームと v7 プラットフォームの間では、データパッケージのインポートおよびエクスポートはできません。
 
->[!NOTE]
->
->Adobe Campaign update コマンド (**postupgrade**) を使用すると、リソースを同期し、スキーマとデータベースを更新できます。 この操作は、アプリケーションサーバー上で 1 回だけ実行できます。 リソースを同期した後、 **postupgrade** コマンドを使用すると、同期でエラーが発生したか警告が発生したかを検出できます。
 
 ## 移行ツール {#migration-tools}
 
@@ -70,9 +64,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->次を使用する必要があります。 **-instance:`<instanceame>`** オプション。 この **-allinstances** オプション。
+>* 次を使用する必要があります。 **-instance:`<instanceame>`** オプション。 この **-allinstances** オプション。
+>* Adobe Campaign update コマンド (**postupgrade**) を使用すると、リソースを同期し、スキーマとデータベースを更新できます。 この操作は、アプリケーションサーバー上で 1 回だけ実行できます。 リソースを同期した後、 **postupgrade** コマンドを使用すると、同期でエラーが発生したか警告が発生したかを検出できます。
 
-### -showCustomEntities および —showDeletedEntities オプション {#showcustomentities-and--showdeletedentities-options}
+
+### 非標準のオブジェクトまたは見つからないオブジェクト
 
 * この **-showCustomEntities** 「 」オプションは、非標準オブジェクトのリストを表示します。
 
@@ -110,7 +106,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
 
 >[!NOTE]
 >
->JST-310040コードを持つすべての警告およびエラーを無視してください。
+>JST-310040コードでは、すべての警告およびエラーを無視できます。
 
 次の式が検索されます（大文字と小文字が区別されます）。
 
@@ -158,7 +154,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> SQLDATA<br /> </td> 
    <td> PU-0006<br /> </td> 
    <td> エラー<br /> </td> 
-   <td> このタイプのエラーは、移行エラーにつながります。 参照： <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. 概要タイプの Web アプリケーションエラーログを取得した場合（v6.02 からの移行）、 <a href="../../migration/using/specific-configurations-in-v6-02.md#web-applications" target="_blank">キャンペーンの設定</a>.<br /> </td> 
+   <td> このタイプのエラーは、移行エラーにつながります。 参照： <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. 概要タイプの Web アプリケーションエラーログを取得した場合（v6.02 からの移行）、 <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11" target="_blank">キャンペーンの設定</a>.<br /> </td> 
   </tr>
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
@@ -167,6 +163,12 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> このタイプのデプロイメントはサポートされなくなりました。 Office 365 およびオンプレミスのMicrosoft CRM コネクタの展開の種類は非推奨（廃止予定）となりました。 
    </br>外部アカウントでこれらの非推奨のデプロイメントタイプのいずれかを使用している場合は、この外部アカウントを削除し、 <b>postupgrade</b> コマンドを使用します。 
    </br>Web API のデプロイメントに変更するには、 <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Web アプリケーション</a>.<br /> </td>
+  </tr> 
+  <tr> 
+   <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 
+   <td> PU-0008<br /> </td> 
+   <td> エラー<br /> </td> 
+   <td> Microsoft CRM、Salesforce、OracleCRM On Demand アクションアクティビティは使用できなくなりました。 Adobe Campaignと CRM システム間のデータ同期を設定するには、 <a href="../../workflow/using/crm-connector.md" target="_blank">CRM コネクタ</a> ターゲティングアクティビティ。<br /> </td>
   </tr> 
  </tbody> 
 </table>
@@ -185,6 +187,6 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 >
 >絶対フォルダーパスを使用し、フォルダーツリー構造を維持することを強くお勧めします。 例：backupFolder\nms\srcSchema\billing.xml.
 
-### 移行の再開 {#resuming-migration}
+### 移行を再開 {#resuming-migration}
 
 移行エラーが発生した後にポストアップグレードを再起動すると、停止した場所から再開されます。

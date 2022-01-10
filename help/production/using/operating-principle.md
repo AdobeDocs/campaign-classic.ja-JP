@@ -6,9 +6,9 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 30f2451849dec0f640915e81c36d0a9c5f466d6c
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '495'
 ht-degree: 10%
 
 ---
@@ -43,7 +43,6 @@ Adobe Campaign モジュールには 3 つのタイプがあります。
 | billing | システムアクティビティレポートをbilling@neolane.netに送信する |
 | cleanup | データベースのクレンジング：は、データベースから古いデータを削除し、database engine optimizer が使用する統計の更新を実行します。 |
 | config | サーバー設定の変更 |
-| copybase | データベースのコピー |
 | エクスポート | コマンドラインに書き出し中：Adobe Campaignクライアントコンソールで作成した書き出しモデルをコマンドラインに送信できます。 |
 | fileconvert | 設定サイズのファイルを変換しています |
 | インポート | コマンドラインに読み込み中：を使用すると、Adobe Campaignクライアントコンソールで作成したインポートモデルをコマンドラインに送信できます。 |

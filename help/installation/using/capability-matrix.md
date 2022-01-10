@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: 1f8a51fc7760e8dcdf369cb759de724b0e7bea0c
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 45%
+source-wordcount: '293'
+ht-degree: 46%
 
 ---
 
@@ -47,8 +47,7 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 
 >[!CAUTION]
 >
->FDA を使用した外部データベースへのアクセスは、オンプレミスまたはハイブリッドインストールでのみ可能です ( ただし、 [Snowflakeコネクタ](../../installation/using/configure-fda-snowflake.md).
-
+>互換性のある外部データベースシステムは、ホスティングモデルに応じて異なります。 詳しくは、 [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md).
 
 **関連項目：**
 
@@ -57,4 +56,3 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 * [Campaign Classicのアップグレード](../../rn/using/rn-overview.md)
 * [非推奨（廃止予定）および削除された機能](../../rn/using/deprecated-features.md)
 * [[!DNL Gold Standard] リリース](../../rn/using/gold-standard.md)
-* [[!DNL Gold Standard] プログラム](../../rn/using/gs-overview.md)

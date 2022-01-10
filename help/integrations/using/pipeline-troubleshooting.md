@@ -5,10 +5,10 @@ description: 統合の設定
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 100%
+source-wordcount: '695'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 お使いのバージョンの Adobe Campaign Classic はパイプラインをサポートしていません。
 
 1. 設定ファイル内に [!DNL pipelined] 要素が存在するかどうかを確認します。存在しない場合は、パイプラインはサポートされていません。
-1. Campaign 20.3 または [!DNL Gold Standard] 11 にアップグレードします。
+1. Campaign 20.3 へのアップグレード/ [!DNL Gold Standard] 11 以降。
 
 **`[` `{`パイプライン化されたプロセスが失敗し、「aurait dû commencer par ou (iRc=16384)」と表示される**
 

@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '902'
 ht-degree: 50%
 
 ---
@@ -59,7 +59,7 @@ Adobe Campaign には、GDPR および CCPA に則ってプライバシーを遵
 
 また、Campaign 20.2 以降、および [!DNL Gold Standard] リリースの場合は、以前のビルドで生成された URL を無効にする機能強化を使用できます。 この機能は、デフォルトでは無効になっています。 次の場所に移動して、 [カスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) この機能を有効にするには、をクリックします。
 
-を実行している場合は、 [!DNL Gold Standard] 19.1.4、トラッキングリンクを使用したプッシュ通知配信、またはアンカータグを使用した配信で問題が発生する場合があります。 その場合は、URL 署名を無効にすることをお勧めします。
+19.1.4 ビルドで実行している場合、トラッキングリンクを使用したプッシュ通知配信、またはアンカータグを使用した配信で問題が発生する可能性があります。 その場合は、URL 署名を無効にすることをお勧めします。
 
 Campaign をオンプレミスで実行している場合でも、ハイブリッドアーキテクチャで実行している場合でも、次の場所にアクセスする必要があります。 [カスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) URL 署名を無効にする。
 

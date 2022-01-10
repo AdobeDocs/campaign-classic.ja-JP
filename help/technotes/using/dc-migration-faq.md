@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 1f050ada481a7307a59ea6c81290bb0b24a3bf6c
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
 source-wordcount: '2243'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -281,5 +281,5 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 ## サポートリンクおよびその他の役立つリンク{#support}
 
 * [Adobe Managed Services（パブリッククラウド）への移行](dc-migration.md)
-* [Gold Standard へのアップグレード](../../rn/using/gs-overview.md)
+* [Campaign の年別アップグレード](../../rn/using/rn-overview.md#yeary-upgrade)
 * [ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)

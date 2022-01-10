@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 13%
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # ワークフローを使用したプロファイルリストの作成{#creating-a-profile-list-with-a-workflow}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 を作成するには、以下を実行します。 **[!UICONTROL リスト]** 新しい受信者テーブルに基づいて「リスト」と入力する場合は、リストを生成するターゲティングワークフローを作成する必要があります。
 

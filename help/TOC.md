@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: e142bcc18dd22179d83c54b9e79d3e3339b005fa
+source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
-source-wordcount: '2599'
-ht-degree: 99%
+source-wordcount: '2556'
+ht-degree: 98%
 
 ---
 
@@ -22,10 +22,8 @@ ht-degree: 99%
    + [アップグレードの概要](rn/using/rn-overview.md)
    + [最新リリース](rn/using/latest-release.md)
    + 以前のリリース {#previous-releases}
-      + [!DNL Gold Standard] リリース {#gs-release}
-         + [ [!DNL Gold Standard] について](rn/using/gs-overview.md)
-         + [[!DNL Gold Standard] リリースノート](rn/using/gold-standard.md)
-         + [[!DNL Gold Standard] 互換性マトリックス](rn/using/compatibility-matrix-gs.md)
+      + [[!DNL Gold Standard]](rn/using/gold-standard.md)
+      + [2021 年](rn/using/release--2021.md)
       + [2020 年](rn/using/release--2020.md)
       + [2019](rn/using/release--2019.md)
       + [2018](rn/using/release--2018.md)
@@ -597,7 +595,6 @@ ht-degree: 99%
    + 付録 {#annexes}
       + [Facebook アプリの例](social/using/examples-of-facebook-apps.md)
       + [トラッキング](social/using/tracking.md)
-+ [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
 + インストールおよび設定ガイド {#installing-campaign-classic}
    + アーキテクチャの原則 {#architecture-and-hosting-models}
       + [一般的なアーキテクチャ](installation/using/general-architecture.md)
@@ -821,23 +818,15 @@ ht-degree: 99%
       + [すべての訪問の収集](configuration/using/collecting-all-visits.md)
       + [匿名トラッキング](configuration/using/anonymous-tracking.md)
 + 移行ガイド {#migrating-to-a-new-version}
-   + 移行の概要 {#migration-overview}
-      + [移行について](migration/using/about-migration.md)
-      + [移行方法](migration/using/migration-method.md)
-      + [移行に関する警告](migration/using/migration-warnings.md)
+   + [Adobe Campaign v7 への移行](migration/using/about-migration.md)
    + 移行手順 {#migration-procedure}
-      + [移行を開始する前に](migration/using/before-starting-migration.md)
-      + [移行のテスト](migration/using/testing-the-migration.md)
-      + [プラットフォームの設定](migration/using/configuring-your-platform.md)
-   + Adobe Campaign 7 への移行 {#migrating-to-adobe-campaign-7}
-      + [Adobe Campaign 7 への移行の前提条件](migration/using/prerequisites-for-migration-to-adobe-campaign-7.md)
-      + [Windows での Adobe Campaign 7 への移行](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
-      + [Linux での Adobe Campaign 7 への移行](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-   + 設定 {#configuration}
-      + [一般設定](migration/using/general-configurations.md)
-      + [v5.11 特有の設定](migration/using/specific-configurations-in-v5-11.md)
-      + [v6.02 特有の設定](migration/using/specific-configurations-in-v6-02.md)
-      + [v6.10 特有の設定](migration/using/specific-configurations-in-v6-10.md)
+      + [前提条件](migration/using/before-starting-migration.md)
+      + [移行テストについて](migration/using/testing-the-migration.md)
+      + [設定の適応](migration/using/configuring-your-platform.md)
+   + 移行を開始 {#migrating-to-adobe-campaign-7}
+      + [Microsoft Windows プラットフォームの移行](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
+      + [Linux プラットフォームの移行](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
+      + [プラットフォームの設定](migration/using/general-configurations.md)
    + [ロールバック手順](migration/using/about-rollback.md)
 + テクニカルノート {#technotes}
    + [ハードウェアサイズについての推奨事項](technotes/using/hardware-sizing.md)
@@ -855,4 +844,4 @@ ht-degree: 99%
    + Adobe Managed Services への移行{#dc-migration}
       + [パブリッククラウドへの移行](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)
-+ [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
++ [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)

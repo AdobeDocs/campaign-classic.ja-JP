@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 8794464d6fcc8ab648cd6866266855a701538fde
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 3%
@@ -46,15 +46,15 @@ Linux にAdobe Campaignをインストールするには、必要なライブラ
 
    コマンドが何も返さない（空行）場合は、設定が正しいことを意味します。
 
-* 必ず **バージョン 0.9.8** または **1.0** を設定します。
+* OpenSSL バージョンが必要です **1.0.2** 以上
 
-   RHEL 7 ディストリビューションの場合、OpenSSL のバージョン 1.0 が必要です。
+   RHEL 7/8 ディストリビューションの場合、OpenSSL のバージョン 1.0 が必要です。
 
 * Adobe Campaignを使用するには、 **リビク** ライブラリがインストールされました。
 
    次のバージョンの **リビク** がサポートされている（32 ビットまたは 64 ビット）:
 
-   * RHEL 7、CentOS 7:libicu50
+   * RHEL 7/8、CentOS 7:libicu50
    * Debian 8:libicu52
    * Debian 9:libicu57
 

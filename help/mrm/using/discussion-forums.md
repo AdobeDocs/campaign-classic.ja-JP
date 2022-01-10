@@ -6,10 +6,10 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe Campaign のオペレーターは、ディスカッションフォーラ�
 オペレーターのフォーラムにアクセスするには、以下を実行します。
 
 * エクスプローラーの&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーター]**&#x200B;ノードへのアクセス権がある場合は、該当するオペレーターのダッシュボードを開き、右上隅にある「**[!UICONTROL フォーラム]**」リンクをクリックします。
-* アクセス権がない場合は、Adobe Campaign でオペレーターの名前を見つけます（そのオペレーターがフォーラムに投稿したメッセージやそのオペレーターに割り当てられたタスクを使用）。名前をクリックすると、そのオペレーターのダッシュボードにアクセスできます。オペレーターのフォルダーのビューを作成するよう管理者に依頼することもできます。
+* そうでない場合は、Adobe Campaignでオペレーターの名前（このオペレーターがフォーラムに投稿したメッセージ、タスクが割り当てられているもの）を探し、クリックしてそのオペレーターのダッシュボードにアクセスします。 オペレーターのフォルダーのビューを作成するよう管理者に依頼することもできます。
 
 ## フォーラムの購読 {#subscribing-to-a-forum}
 

@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # オファーの承認と有効化{#approving-and-activating-an-offer}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 オファーコンテンツが完成したら、オファーを承認して、ライブ環境への複製と配信が実行されるようにする必要があります。承認は、オファーのコンテンツおよび実施要件に関しておこなわれます。
 

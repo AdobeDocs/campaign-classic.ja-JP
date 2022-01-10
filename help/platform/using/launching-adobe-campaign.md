@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
-source-git-commit: 8491b3a5d1333f4445f90a8a051cd1f5149691bc
-workflow-type: ht
-source-wordcount: '569'
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+workflow-type: tm+mt
+source-wordcount: '526'
 ht-degree: 100%
 
 ---
@@ -100,12 +100,6 @@ Adobe Campaign から切断するには、アイコンバーの最初のアイ�
 ![](assets/about-acc.png)
 
 アドビのカスタマーサポートチームに連絡する場合は、Adobe Campaign クライアントコンソールおよびアプリケーションサーバーのバージョン番号とビルド番号を伝える必要があります。
-
-[Campaign [!DNL Gold Standard] バージョン](../../rn/using/gold-standard.md)を実行している場合は、「**[!UICONTROL バージョン情報]**」ボックスに表示される SHA/1 文字も共有する必要があります。例えば、**Gold Standard 12** リリースの場合、次のビルド番号が表示される場合があります：「build 9032@554dbcd」。
-
-![](assets/about-acc-gs.png)
-
-[!DNL Gold Standard] について詳しくは、[この記事](../../rn/using/gs-overview.md)を参照してください。
 
 **関連トピック**：
 

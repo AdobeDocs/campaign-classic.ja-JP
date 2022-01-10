@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '2154'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -163,7 +163,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
    ![](assets/offer_inbound_fallback_example_051.png)
 
-1. このユーザーが、Neobank の顧客として、自分の資格情報でログインします。
+1. このユーザーは、Neobank の顧客として、自分の資格情報でログオンします。
 
    ![](assets/offer_inbound_fallback_example_052.png)
 

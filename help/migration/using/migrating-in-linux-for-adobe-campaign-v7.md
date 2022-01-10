@@ -1,31 +1,29 @@
 ---
 product: campaign
-title: Linux での Adobe Campaign 7 への移行
-description: Linux での Adobe Campaign 7 への移行
+title: Linux プラットフォームのAdobe Campaign v7 への移行
+description: Linux プラットフォームをAdobe Campaign v7 に移行する方法を説明します。
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 63aca25a8d1ae24ef83849b35a44d1b37cfa5e96
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 1%
+source-wordcount: '1858'
+ht-degree: 0%
 
 ---
 
-# Linux での Adobe Campaign 7 への移行{#migrating-in-linux-for-adobe-campaign-v}
+# Linux プラットフォームの Campaign v7 への移行{#migrating-in-linux-for-adobe-campaign-v}
 
 ![](../../assets/v7-only.svg)
 
-## 一般的な手順 {#general-procedure}
-
 Linux での移行手順は次のとおりです。
 
-1. サービスを停止：参照 [サービス停止](#service-stop).
-1. データベースを保存します。参照 [データベースと既存のインストールのバックアップ](#back-up-the-database-and-the-existing-installation).
-1. 以前のAdobe Campaignバージョンのパッケージをアンインストールします。参照 [Adobe Campaign以前のバージョンパッケージのアンインストール](#uninstalling-adobe-campaign-previous-version-packages).
-1. プラットフォームの移行：参照する [Adobe Campaign v7 のデプロイ](#deploying-adobe-campaign-v7).
-1. サービスを再開します。参照する [サービスの再起動](#re-starting-services).
+1. すべてのサービスを停止 — [詳細情報](#service-stop).
+1. データベースを保存します。 [詳細情報](#back-up-the-database).
+1. 以前のAdobe Campaignバージョンパッケージのアンインストール — [詳細情報](#uninstalling-adobe-campaign-previous-version-packages).
+1. プラットフォームの移行 — [詳細情報](#deploying-adobe-campaign-v7).
+1. サービスを再開 — [詳細情報](#re-starting-services).
 
 ## サービス停止 {#service-stop}
 
@@ -71,11 +69,11 @@ Linux での移行手順は次のとおりです。
    killall -9 nlserver
    ```
 
-## データベースと既存のインストールのバックアップ {#back-up-the-database-and-the-existing-installation}
+## データベースのバックアップ {#back-up-the-database}
 
 手順は、Adobe Campaignの以前のバージョンによって異なります。
 
-### Adobe Campaign v5.11 からの移行 {#migrating-from-adobe-campaign-v5-11}
+### Adobe Campaign v5.11 の場合 {#migrating-from-adobe-campaign-v5-11}
 
 1. Adobe Campaignデータベースのバックアップを作成します。
 1. ログイン名 **ネオラン** そして、 **nl5** 次のコマンドを使用するディレクトリ：
@@ -110,7 +108,7 @@ Linux での移行手順は次のとおりです。
    </serverconf>
    ```
 
-### Adobe Campaign v6.02 からの移行 {#migrating-from-adobe-campaign-v6-02}
+### Adobe Campaign v6.02 の場合 {#migrating-from-adobe-campaign-v6-02}
 
 1. Adobe Campaignデータベースのバックアップを作成します。
 1. ログイン名 **ネオラン** そして、 **nl6** 次のコマンドを使用するディレクトリ：
@@ -145,7 +143,7 @@ Linux での移行手順は次のとおりです。
    </serverconf>
    ```
 
-### Adobe Campaign v6.1 からの移行 {#migrating-from-adobe-campaign-v6-1}
+### Adobe Campaign v6.1 の場合 {#migrating-from-adobe-campaign-v6-1}
 
 1. Adobe Campaignデータベースのバックアップを作成します。
 1. ログイン名 **ネオラン** そして、 **nl6** 次のコマンドを使用するディレクトリ：
@@ -159,11 +157,11 @@ Linux での移行手順は次のとおりです。
    >
    >予防措置として、 **nl6.back** フォルダーに保存し、サーバー以外の安全な場所に保存します。
 
-## Adobe Campaign以前のバージョンパッケージのアンインストール {#uninstalling-adobe-campaign-previous-version-packages}
+## Adobe Campaignの以前のバージョンパッケージのアンインストール {#uninstalling-adobe-campaign-previous-version-packages}
 
 手順は、Adobe Campaignの以前のバージョンによって異なります。
 
-### Adobe Campaign v5 パッケージのアンインストール {#uninstalling-adobe-campaign-v5-packages}
+### v5 パッケージの場合 {#uninstalling-adobe-campaign-v5-packages}
 
 1. ログイン名 **root**.
 1. 次のコマンドを使用して、インストールされているAdobe Campaignパッケージを特定します。
@@ -201,7 +199,7 @@ Linux での移行手順は次のとおりです。
       rprm -ev nlserver5 nlthirdparty5
       ```
 
-### Adobe Campaign v6 パッケージのアンインストール {#uninstalling-adobe-campaign-v6-packages}
+### v6 パッケージの場合 {#uninstalling-adobe-campaign-v6-packages}
 
 この節では、Adobe Campaign v6.02 または v6.1 パッケージのアンインストール方法を示します。
 
@@ -245,7 +243,7 @@ Linux での移行手順は次のとおりです。
 
 手順は、Adobe Campaignの以前のバージョンによって異なります。
 
-### Adobe Campaign v5.11 からの移行 {#migrating-from-adobe-campaign-v5_11-1}
+### Adobe Campaign v5.11 から {#migrating-from-adobe-campaign-v5_11-1}
 
 Adobe Campaignのデプロイには、次の 2 つの段階があります。
 
@@ -372,7 +370,7 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 >
 >まだAdobe Campaignサービスを開始しない：変更は Apache で行う必要があります。
 
-### Adobe Campaign v6.02 からの移行 {#migrating-from-adobe-campaign-v6_02-1}
+### Adobe Campaign v6.02 から {#migrating-from-adobe-campaign-v6_02-1}
 
 Adobe Campaignのデプロイには、次の 2 つの段階があります。
 
@@ -450,7 +448,7 @@ Adobe Campaignをデプロイするには、次の手順に従います。
    >
    >「マルチタイムゾーン」モードは、PostgreSQL データベースエンジンの v6.02 でのみ使用可能でした。 どのバージョンのデータベースエンジンが使用されていても使用できるようになりました。 ベースを「マルチタイムゾーン」にアップグレードすることを強くお勧めします。 タイムゾーンオプションについて詳しくは、 [タイムゾーン](../../migration/using/general-configurations.md#time-zones) 」セクションに入力します。
 
-### Adobe Campaign v6.1 からの移行 {#migrating-from-adobe-campaign-v6_1-1}
+### Adobe Campaign v6.1 から {#migrating-from-adobe-campaign-v6_1-1}
 
 Adobe Campaignのデプロイには、次の 2 つの段階があります。
 
@@ -514,7 +512,7 @@ Adobe Campaignをデプロイするには、次の手順に従います。
    nlserver config -postupgrade -instance:<instance name>
    ```
 
-## リダイレクトサーバー (Apache) の移行 {#migrating-the-redirection-server--apache-}
+## リダイレクションサーバーを移行する (Apache) {#migrating-the-redirection-server--apache-}
 
 >[!NOTE]
 >
@@ -576,11 +574,11 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 
 v6.02 以前から移行する場合は、サービスを開始する前にセキュリティゾーンを設定する必要があります。 詳しくは、 [セキュリティ](../../migration/using/general-configurations.md#security).
 
-## サービスの再起動 {#re-starting-services}
+## サービスを再開 {#re-starting-services}
 
 手順は、Adobe Campaignの以前のバージョンによって異なります。
 
-### Adobe Campaign v5.11 からの移行 {#migrating-from-adobe-campaign-v5_11-2}
+### Adobe Campaign v5 の場合 {#migrating-from-adobe-campaign-v5_11-2}
 
 内 **config-`<instance name>`.xml** ファイル，自動起動の再開 **mta**, **wfserver**, **stat**&#x200B;など サービス。
 
@@ -611,7 +609,7 @@ v6.02 以前から移行する場合は、サービスを開始する前にセ�
 
 次の手順に進む前に、新しいインストールの完全なテストを実行し、不具合がなく、 [一般設定](../../migration/using/general-configurations.md) 」セクションに入力します。
 
-### Adobe Campaign v6.02 からの移行 {#migrating-from-adobe-campaign-v6_02-2}
+### Adobe Campaign v6.02 の場合 {#migrating-from-adobe-campaign-v6_02-2}
 
 内 **config-`<instance name>`.xml** ファイル，自動起動の再開 **mta**, **wfserver**, **stat**&#x200B;など サービス。
 
@@ -642,7 +640,7 @@ v6.02 以前から移行する場合は、サービスを開始する前にセ�
 
 新しいインストールを完全にテストし、再処理されないことを確認し、 [一般設定](../../migration/using/general-configurations.md) 」セクションに入力します。
 
-### Adobe Campaign v6.1 からの移行 {#migrating-from-adobe-campaign-v6_1-2}
+### Adobe Campaign v6.1 の場合 {#migrating-from-adobe-campaign-v6_1-2}
 
 次の各サーバーで Apache とAdobe Campaignのサービスを開始します。
 
@@ -652,7 +650,7 @@ v6.02 以前から移行する場合は、サービスを開始する前にセ�
 
 新しいインストールを完全にテストし、再処理されないことを確認し、 [一般設定](../../migration/using/general-configurations.md) 」セクションに入力します。
 
-## Adobe Campaign v5 の削除とクレンジング {#deleting-and-cleansing-adobe-campaign-v5}
+## Adobe Campaignの以前のバージョンを削除 {#deleting-and-cleansing-adobe-campaign-v5}
 
 >[!NOTE]
 >

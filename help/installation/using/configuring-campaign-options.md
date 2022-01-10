@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
+source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
 source-wordcount: '3994'
 ht-degree: 24%
@@ -699,7 +699,7 @@ ht-degree: 24%
     <ul> 
      <li> <p> <span class="uicontrol">データタイプ：</span> 整数</p> </li> 
      <li> <p> <span class="uicontrol">値（テキスト）</span> :1 </p> </li> 
-    </ul> このオプションは、標準のナビゲーションツリーに対して多くの変更が加えられている場合にのみ使用してください。<br /> 詳しくは、 <a href="../../migration/using/specific-configurations-in-v5-11.md#campaign-vseven-tree-structure">この節</a>.<br /> </td> 
+    </ul> このオプションは、標準のナビゲーションツリーに対して多くの変更が加えられている場合にのみ使用してください。<br /> 詳しくは、 <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11">この節</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLastErrorStatCoalesce</span> <br /> </td> 

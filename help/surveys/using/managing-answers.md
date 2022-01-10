@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: online-surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 100%
+source-wordcount: '895'
+ht-degree: 98%
 
 ---
 
@@ -43,9 +43,9 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 1. データフォーマット
 
-このフィールドがリストで使用されると、列挙の値は、値のリストの上にある&#x200B;**[!UICONTROL データベースからの値のリストを初期化]**&#x200B;リンクを使用して、値のテーブルで自動的に再初期化できます。
+このフィールドがリストで使用されると、列挙の値は、値のリストの上にある&#x200B;**[!UICONTROL データベースからの値のリストを初期化]**&#x200B;リンクを使用して、値のテーブルで自動的に取得できます。
 
-例えば、ユーザーが母国語を選択するためのドロップダウンリストを作成できます。対応するアーカイブされたフィールドは、言語のリストを含む&#x200B;**言語**&#x200B;の列挙と関連付けることができます。
+例えば、ユーザーが母国語を選択するためのドロップダウンリストを作成できます。 対応するアーカイブされたフィールドは、言語のリストを含む&#x200B;**言語**&#x200B;の列挙と関連付けることができます。
 
 ![](assets/s_ncs_admin_survey_database_values_2b.png)
 

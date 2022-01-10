@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 617b0050-6b04-4c68-9f63-511baae99f41
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 10%
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # ワークフローの管理{#managing-workflows}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 デフォルトでは、新しいワークフローは、事前に設定され、受信者テーブル (nms:recipient) に基づいているワークフローテンプレートに基づいています。 これらを、 **Nms_DefaultRcpSchema** オプション ( [インターフェイスの設定](../../configuration/using/configuring-the-interface.md) 「 」セクション ) を含めるには、新しいワークフローテンプレートを作成する必要があります。
 

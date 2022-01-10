@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '3090'
 ht-degree: 19%
@@ -174,7 +174,7 @@ user:~ user$ host -t a mta5.am0.yahoodns.net
                 mta5.am0.yahoodns.net has address 98.138.112.35
 ```
 
-このレコードの場合、ユーザーは 8 個のピア IP アドレスに接続できます。ユーザーが 2 つのパブリック IP アドレスを持っているので、8 * 2 = 16 の組み合わせで yahoo.com のメールサーバーに到達できます。 これらの組み合わせをそれぞれパスと呼びます。
+このレコードの場合、ユーザーは 8 個のピア IP アドレスに接続できます。ユーザーにはパブリック IP アドレスが 2 つあるので、8 * 2 = 16 の組み合わせで yahoo.com メールサーバーにアクセスできます。 これらの組み合わせをそれぞれパスと呼びます。
 
 2 つ目の MX レコードは次のようになります。
 

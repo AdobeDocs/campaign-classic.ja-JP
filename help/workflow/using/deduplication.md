@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: def4f7fb46c838e9fe620820cf387dd3e2b8a55b
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 -----|----------|------------|-------|--------------|------
 | 2020/02/03 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
-選択したマスターレコードは、フィールドデータと重複行の他の関連データを結合せずに、データを繰り越します。
+選択したメインレコードは、フィールドデータと重複行の他の関連データを結合せずに、データを繰り越します。
 
 補集合：
 
@@ -66,6 +66,7 @@ ht-degree: 100%
    >[!NOTE]
    >
    >外部ファイルなどの外部データを入力として使用する場合は、必ず「**[!UICONTROL 一時スキーマ]**」オプションを選択してください。
+
    >
    >次の手順で、「**[!UICONTROL その他]**」オプションで使用される基準または条件を選択できます。
 

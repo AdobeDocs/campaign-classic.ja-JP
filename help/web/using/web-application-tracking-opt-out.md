@@ -6,10 +6,10 @@ audience: web
 content-type: reference
 topic-tags: web-applications
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ Web トラッキングが有効化されている場合、次の設定ができ�
 
 ## API を使用したオプトアウト cookie の設定 {#setting-the-opt-out-cookie-using-api}
 
-Adobe Campaign は cookie 値の管理およびユーザー設定の回復に利用できる API を提供します。
+Adobe Campaign は cookie 値の管理およびユーザー設定の取得に利用できる API を提供します。
 
 cookie の名前は **acoptout** です。共通の値は、以下のとおりです。
 
@@ -86,7 +86,7 @@ cookie の名前は **acoptout** です。共通の値は、以下のとおり�
 
    bannerDomElt {DOMElement} 削除しなければならない cookie バナーのルート DOM 要素
 
-* **NL.ClientWebTracking.hasUserPrefs()**：ユーザーが Web トラッキング設定の選択をおこなった場合に true を返します。
+* **NL.ClientWebTracking.hasUserPrefs()**:ユーザーが Web トラッキングの設定を選択した場合に true を返します。
 * **NL.ClientWebTracking.getUserPrefs()**：ユーザーの設定を定義するオプトアウト Cookie 値を返します。
 
 JSSP を記述する必要がある場合、サーバー側 API を利用できます。

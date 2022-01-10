@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 7a1b8a1cd3ad434dac5c324056113d7ec15ddd8a
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 96%
 
 ---
 
@@ -73,8 +73,9 @@ ht-degree: 100%
 
 このフィールドでは、アクティビティでエラーが発生した場合に実行するアクションを定義できます。次の 2 つのオプションが使用可能です。
 
-* **[!UICONTROL プロセスを停止]**：ワークフローは自動的に停止します。ワークフローのステータスは「**[!UICONTROL 失敗]**」に変わります。問題が解決したら、ワークフローを再起動します。
+* **[!UICONTROL プロセスを休止]**:ワークフローは自動的に停止します。 ワークフローのステータスは「**[!UICONTROL 失敗]**」に変わります。問題が解決したら、ワークフローを再起動します。
 * **[!UICONTROL 無視]**：対象のタスクとそれに続くタスク（同一分岐内）はどれも実行されません。このオプションは、繰り返しタスクに役立ちます。上流で分岐にスケジューラーが設定されている場合、タスクは次の実行日に通常どおり起動します。
+* **[!UICONTROL エラー時に中止]**:ワークフローは自動的に停止し、再開できません。 ワークフローのステータスは「**[!UICONTROL 失敗]**」に変わります。
 
 ## 初期化スクリプト {#initialization-script}
 

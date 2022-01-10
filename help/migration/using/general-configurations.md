@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: configuration
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: eef2a12738ce299686857720c3dc8456ffdd0c80
+source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
-source-wordcount: '2719'
+source-wordcount: '2680'
 ht-degree: 4%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 4%
 
 ![](../../assets/v7-only.svg)
 
-この節では、v5.11 または v6.02 から移行する場合にAdobe Campaign v7 で実行する設定について詳しく説明します。
+この節では、v5.11 または v6.02 からの移行時にAdobe Campaign v7 で実行する設定について詳しく説明します。
 
 さらに、次の点に注意してください。
 
-* v5.11 から移行する場合は、 [v5.11 特有の設定](../../migration/using/specific-configurations-in-v5-11.md) 」セクションに入力します。
-* v6.02 から移行する場合は、 [v6.02 特有の設定](../../migration/using/specific-configurations-in-v6-02.md) 」セクションに入力します。
+* v5.11 から移行する場合は、 [この節](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11).
+* v6.02 から移行する場合は、 [この節](../../migration/using/configuring-your-platform.md#specific-configurations-in-v6-02).
 
 ## タイムゾーン {#time-zones}
 
@@ -662,12 +662,3 @@ sessionTokenOnly="false"
 ### 匿名 Web アプリケーション {#anonymous-web-applications}
 
 問題が発生した場合は、Web アプリケーションを再公開します。
-
-## Red-Hat {#red-hat}
-
-標準のスキーマが v6.02 または v5.11 で削除された場合、ポストアップグレード後にスキーマを編集できなくなる可能性があります。 これが発生した場合は、次のコマンドを実行します。
-
-```
-su - neolane
-nlserver config -postupgrade -instance:<instance name> -force
-```

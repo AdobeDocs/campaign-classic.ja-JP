@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: e2dea4a0-9ed8-47b6-a16b-eeee653d2290
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 7728826eea199d2367fcbf556c01ec9d6cae466f
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # 実行設定{#execution-settings}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 シミュレーションを作成する際には、必要に応じて実行設定を指定できます。これらの設定を使用すると、優先順位に応じて負荷が小さい時間帯にシミュレーションを実行したり、SQL クエリをログに記録したりできます。このステージはオプションです。
 

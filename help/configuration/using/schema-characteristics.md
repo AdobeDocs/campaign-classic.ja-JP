@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # スキーマの特性{#schema-characteristics}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 既存のテーブルを参照するスキーマの特性は次のとおりです。
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->標準の受信者テーブルのフィールドは、役に立たないものでも削除しないでください。 これにより、Adobe Campaignデータベースで動作エラーが発生する可能性があります。
+>組み込みの受信者テーブルのフィールドは、役に立たないフィールドでも削除しないでください。 これにより、Adobe Campaignデータベースで動作エラーが発生する可能性があります。
 
 ## ビュー属性 {#the-view-attribute}
 

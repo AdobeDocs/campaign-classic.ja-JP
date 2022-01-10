@@ -1,32 +1,30 @@
 ---
 product: campaign
-title: Windows での Adobe Campaign 7 への移行
-description: Windows での Adobe Campaign 7 への移行
+title: Microsoft Windows プラットフォームのAdobe Campaign v7 への移行
+description: Microsoft Windows プラットフォームをAdobe Campaign v7 に移行する方法を説明します
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 63aca25a8d1ae24ef83849b35a44d1b37cfa5e96
 workflow-type: tm+mt
-source-wordcount: '1561'
-ht-degree: 1%
+source-wordcount: '1531'
+ht-degree: 0%
 
 ---
 
-# Windows での Adobe Campaign 7 への移行{#migrating-in-windows-for-adobe-campaign}
+# Microsoft Windows プラットフォームの Campaign v7 への移行{#migrating-in-windows-for-adobe-campaign}
 
 ![](../../assets/v7-only.svg)
 
-## 一般的な手順 {#general-procedure}
+Microsoft Windows 環境の場合の移行手順は次のとおりです。
 
-Windows の場合、移行手順は次のとおりです。
-
-1. サービスを停止：参照する [サービス停止](#service-stop).
-1. データベースのバックアップ：参照する [データベースと現在のインストールのバックアップ](#back-up-the-database-and-the-current-installation).
-1. プラットフォームの移行：参照する [Adobe Campaign v7 のデプロイ](#deploying-adobe-campaign-v7).
-1. リダイレクションサーバー (IIS) を移行します。参照する [リダイレクトサーバー (IIS) の移行](#migrating-the-redirection-server--iis-).
-1. サービスを再開します。参照する [サービスの再起動](#re-starting-the-services).
-1. 以前のバージョンのAdobe Campaignを削除してクレンジング：参照する [以前のバージョンのAdobe Campaignの削除とクレンジング](#deleting-and-cleansing-adobe-campaign-previous-version).
+1. すべてのサービスを停止 — [詳細情報](#service-stop).
+1. データベースのバックアップ — [詳細情報](#back-up-the-database).
+1. プラットフォームの移行 — [詳細情報](#deploying-adobe-campaign-v7).
+1. リダイレクトサーバー (IIS) を移行します — [詳細情報](#migrating-the-redirection-server--iis-).
+1. サービスを再開 — [詳細情報](#re-starting-the-services).
+1. 以前のバージョンのAdobe Campaignを削除して消去します — [詳細情報](#deleting-and-cleansing-adobe-campaign-previous-version).
 
 ## サービス停止 {#service-stop}
 
@@ -83,11 +81,11 @@ Windows の場合、移行手順は次のとおりです。
    taskkill /F /IM nlserver* /T
    ```
 
-## データベースと現在のインストールのバックアップ {#back-up-the-database-and-the-current-installation}
+## Campaign データベースのバックアップ {#back-up-the-database}
 
 手順は、Adobe Campaignの以前のバージョンによって異なります。
 
-### Adobe Campaign v5.11 からの移行 {#migrating-from-adobe-campaign-v5-11}
+### Adobe Campaign v5.11 の場合 {#migrating-from-adobe-campaign-v5-11}
 
 1. Adobe Campaignデータベースのバックアップを作成します。
 1. のバックアップを作成 **Neolane v5** 次のコマンドを使用するディレクトリ：
@@ -127,7 +125,7 @@ Windows の場合、移行手順は次のとおりです。
    </serverconf>
    ```
 
-### Adobe Campaign v6.02 からの移行 {#migrating-from-adobe-campaign-v6-02}
+### Adobe Campaign v6.02 の場合 {#migrating-from-adobe-campaign-v6-02}
 
 1. Adobe Campaignデータベースのバックアップを作成します。
 1. のバックアップを作成 **Neolane v6** 次のコマンドを使用するディレクトリ：
@@ -167,7 +165,7 @@ Windows の場合、移行手順は次のとおりです。
    </serverconf>
    ```
 
-### Adobe Campaign v6.1 からの移行 {#migrating-from-adobe-campaign-v6-1}
+### Adobe Campaign v6.1 の場合 {#migrating-from-adobe-campaign-v6-1}
 
 1. Adobe Campaignデータベースのバックアップを作成します。
 1. のバックアップを作成 **Adobe Campaign v6** 次のコマンドを使用するディレクトリ：
@@ -267,7 +265,7 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 >
 >まだAdobe Campaignサービスを開始しない：IIS でいくつかの変更を行う必要があります。
 
-## リダイレクトサーバー (IIS) の移行 {#migrating-the-redirection-server--iis-}
+## リダイレクトサーバーを移行 {#migrating-the-redirection-server--iis-}
 
 この段階で、IIS サーバーを停止する必要があります。 参照： [サービス停止](#service-stop).
 
@@ -331,9 +329,9 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 
 ## セキュリティゾーン {#security-zones}
 
-v6.02 以前から移行する場合は、サービスを開始する前にセキュリティゾーンを設定する必要があります。 詳しくは、 [セキュリティ](../../migration/using/general-configurations.md#security).
+v6.02 以前から移行する場合は、サービスを開始する前にセキュリティゾーンを設定する必要があります。 [詳細情報](../../migration/using/general-configurations.md#security)
 
-## サービスの再起動 {#re-starting-the-services}
+## サービスを再開 {#re-starting-the-services}
 
 次の各サーバーで IIS とAdobe Campaignサービスを起動します。
 
@@ -341,13 +339,13 @@ v6.02 以前から移行する場合は、サービスを開始する前にセ�
 1. ミッドソーシングサーバー.
 1. マーケティングサーバー。
 
-次の手順に進む前に、新しいインストールの完全なテストを実行し、不具合がなく、 [一般設定](../../migration/using/general-configurations.md) 」セクションに入力します。
+次の手順に進む前に、新しいインストールの完全なテストを実行し、不具合がなく、 [このページ](../../migration/using/general-configurations.md).
 
-## 以前のバージョンのAdobe Campaignの削除とクレンジング {#deleting-and-cleansing-adobe-campaign-previous-version}
+## 以前のバージョンを削除 {#deleting-and-cleansing-adobe-campaign-previous-version}
 
 手順は、Adobe Campaignの以前のバージョンによって異なります。
 
-### Adobe Campaign v5 {#adobe-campaign-v5}
+### Adobe Campaign v5 の場合 {#adobe-campaign-v5}
 
 Adobe Campaign v5 のインストールを削除してクレンジングする前に、次の推奨事項を適用する必要があります。
 
@@ -368,7 +366,7 @@ Adobe Campaign v5 のインストールを削除してクレンジングする�
 
 1. サーバーを再起動します。
 
-### Adobe Campaign v6.02 {#adobe-campaign-v6-02}
+### Adobe Campaign v6.02 の場合 {#adobe-campaign-v6-02}
 
 Adobe Campaign v6.02 のインストールを削除してクレンジングする前に、次の推奨事項を適用する必要があります。
 
@@ -383,7 +381,7 @@ Adobe Campaign v6.02 のインストールを削除してクレンジングす�
 
 1. サーバーを再起動します。
 
-### Adobe Campaign v6.1 {#adobe-campaign-v6-1}
+### Adobe Campaign v6.1 の場合 {#adobe-campaign-v6-1}
 
 Adobe Campaign v6 のインストールを削除してクレンジングする前に、次の推奨事項を適用する必要があります。
 

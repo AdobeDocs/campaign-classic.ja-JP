@@ -6,7 +6,7 @@ audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # シミュレーショントラッキング{#simulation-tracking}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 シミュレーションが完了したら、シミュレーションウィンドウに追加される「**[!UICONTROL 結果]**」タブと、シミュレーションダッシュボードで利用できる&#x200B;**[!UICONTROL オファーの分類（ランク別）]**&#x200B;レポートを使用して、実行結果を分析できます。
 

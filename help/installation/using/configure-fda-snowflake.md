@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6cecc81135afd067712e51ec9c1ad3239170702e
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 72%
+source-wordcount: '437'
+ht-degree: 46%
 
 ---
 
@@ -19,9 +19,8 @@ ht-degree: 72%
 
 キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存された情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 [!DNL Snowflake].
 
-1. 設定 [!DNL Snowflake] オン [CentOS](#snowflake-centos), [Windows](#snowflake-windows) または [Debian](#snowflake-debian)
+1. 設定 [!DNL Snowflake] オン [Linux](#snowflake-linux).
 1. の設定 [!DNL Snowflake] [外部アカウント](#snowflake-external) キャンペーン内
-
 
 >[!NOTE]
 >
@@ -29,47 +28,43 @@ ht-degree: 72%
 
 ![](assets/snowflake_3.png)
 
-## CentOS での Snowflake {#snowflake-centos}
+## Linux でのSnowflake {#snowflake-linux}
 
-を設定するには、以下を実行します。 [!DNL Snowflake] CentOS で、次の手順に従います。
+を設定するには、以下を実行します。 [!DNL Snowflake] Linux の場合は、次の手順に従います。
 
-1. [!DNL Snowflake] 用の ODBC ドライバーをダウンロードします。ダウンロードを開始するには、[ここをクリック](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/snowflake-odbc-2.20.2.x86_64.rpm)します。
-1. 次のコマンドを使用して、CentOs に ODBC ドライバーをインストールする必要があります。
+1. ODBC をインストールする前に、次のパッケージが Linux ディストリビューションにインストールされていることを確認します。
 
-   ```
-   rpm -Uvh unixodbc
-   rpm -Uvh snowflake-odbc-2.20.2.x86_64.rpm
-   ```
+   * Red Hat/CentOS の場合：
 
-1. ODBC ドライバーをダウンロードしてインストールした後、Campaign Classic を再起動する必要があります。これをおこなうには、次のコマンドを実行します。
+      ```
+      yum update
+      yum upgrade
+      yum install -y grep sed tar wget perl curl
+      ```
 
-   ```
-   /etc/init.d/nlserver6 stop
-   /etc/init.d/nlserver6 start
-   ```
+   * Debian の場合：
 
-1. Campaign では、 [!DNL Snowflake] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#snowflake-external).
+      ```
+      apt-get update
+      apt-get upgrade
+      apt-get install -y grep sed tar wget perl curl
+      ```
 
-## Windows での Snowflake。 {#snowflake-windows}
-
-1. [Windows 用の ODBC ドライバー](https://docs.snowflake.net/manuals/user-guide/odbc-download.html)をダウンロードします。ドライバーをインストールするには、管理者レベルの権限が必要です。詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/admin-user-management.html)を参照してください。
-
-1. ODBC ドライバーを設定します。詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/odbc-windows.html#step-2-configure-the-odbc-driver)を参照してください。
-
-1. Campaign では、 [!DNL Snowflake] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#snowflake-external).
-
-## Debian での Snowflake {#snowflake-debian}
-
-1. [!DNL Snowflake] 用の ODBC ドライバーをダウンロードします。[ここをクリック](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html)して、ダウンロードを開始します。
-
-1. 次のコマンドを使用して、Debian に ODBC ドライバーをインストールする必要があります。
+1. スクリプトを実行する前に、 `--help` オプション：
 
    ```
-   apt-get install unixodbc
-   apt-get install snowflake-odbc-x.xx.x.x86_64.deb
+   cd /usr/local/neolane/nl6/bin/fda-setup-scripts/
+   ./snowflake_odbc-setup.sh --help
    ```
 
-1. ODBC ドライバーをダウンロードしてインストールした後、Campaign Classic を再起動する必要があります。これをおこなうには、次のコマンドを実行します。
+1. スクリプトが存在するディレクトリにアクセスし、次のスクリプトを root ユーザーとして実行します。
+
+   ```
+   cd /usr/local/neolane/nl6/bin/fda-setup-scripts
+   ./snowflake_odbc-setup.sh
+   ```
+
+1. ODBC ドライバーをインストールした後、Campaign Classicを再起動する必要があります。 これをおこなうには、次のコマンドを実行します。
 
    ```
    systemctl stop nlserver.service
@@ -88,29 +83,42 @@ ht-degree: 72%
 
 1. 外部アカウント&#x200B;**[!UICONTROL タイプ]**&#x200B;として、「**[!UICONTROL 外部データベース]**」を選択します。
 
-1. **[!UICONTROL Snowflake]** 外部アカウントを設定するには、次を指定する必要があります。
+1. の下 **[!UICONTROL 設定]**&#x200B;を選択します。 [!DNL Snowflake] から **[!UICONTROL タイプ]** 」ドロップダウンリストから選択できます。
 
-   * **[!UICONTROL タイプ]**：[!DNL Snowflake]
+   ![](assets/snowflake_5.png)
 
-   * **[!UICONTROL サーバー]**：[!DNL Snowflake] サーバーの URL
+1. を **[!UICONTROL サーバー]** URL および **[!UICONTROL データベース]**.
 
-   * **[!UICONTROL アカウント]**：ユーザーの名前
+1. の設定 **[!UICONTROL Snowflake]** 外部アカウント認証：
 
-   * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
+   * アカウント/パスワード認証の場合は、次を指定する必要があります。
 
-   * **[!UICONTROL データベース]**：データベースの名前
+      * **[!UICONTROL アカウント]**：ユーザーの名前
 
-   ![](assets/snowflake.png)
+      * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード。
+
+      ![](assets/snowflake.png)
+
+   * キーペア認証の場合は、 **[!UICONTROL キーペア認証]** タブを使用して **[!UICONTROL 秘密鍵]** を認証し、 **[!UICONTROL 秘密鍵]**.
+
+      ![](assets/snowflake_4.png)
+
 
 1. 「**[!UICONTROL パラメーター]**」タブをクリックし、「**[!UICONTROL 機能をデプロイ]**」ボタンをクリックして機能を作成します。
 
+   >[!NOTE]
+   >
+   >すべての関数を使用するには、リモートデータベースでAdobe Campaign SQL 関数を作成する必要があります。 詳しくは、[このページ](../../configuration/using/adding-additional-sql-functions.md)を参照してください。
+
    ![](assets/snowflake_2.png)
+
+1. クリック **[!UICONTROL 保存]** 設定が完了したら、
 
 コネクタは、次のオプションをサポートしています。
 
 | オプション | 説明 |
 |---|---|
-| workschema | 作業用テーブルに使用するデータベーススキーマ |
+| workschema | ワークテーブルに使用するデータベーススキーマ  |
 | warehouse | 使用するデフォルトのウェアハウスの名前。ユーザーのデフォルト値より優先されます。 |
 | TimeZoneName | デフォルトでは空で、Campaign Classic アプリケーションサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)を参照してください。 |
 | WeekStart | WEEK_START セッションパラメーター。デフォルトでは 0 に設定されています。<br>詳しくは、[このページ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)を参照してください。 |

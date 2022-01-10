@@ -6,10 +6,10 @@ audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 27%
+source-wordcount: '763'
+ht-degree: 24%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 27%
 >
 >コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
 >
->インスタンスは AWS でホストし、最新の [Gold Standard](../../rn/using/gs-overview.md) ビルドまたは[最新の GA ビルド（21.1.3）](../../rn/using/latest-release.md)にアップグレードする必要があります。 バージョンを確認する方法については、[この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
+>インスタンスはAWSでホストし、 [最新の GA ビルド](../../rn/using/rn-overview.md). バージョンを確認する方法については、[この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
 
 ### ワークフローの監視 {#monitoring-workflows}
 

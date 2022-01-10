@@ -3,9 +3,9 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 6c5cac3ccc60deb5940c785c9cb8b08f5938fe62
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '259'
 ht-degree: 92%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 ## 新機能
 
-* **[10 月のリリースが公開されました。](rn/using/latest-release.md)**<br/> 新機能、改善点、修正点をリリースノートでご確認ください
+* **[1 月のリリースが有効です。](rn/using/latest-release.md)**<br/> 新機能、改善点、修正点をリリースノートでご確認ください
 
 * **[Apple Mail のプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ja)** および **[技術者](technotes/using/apple-mail-app-privacy-protection.md)**<br/> iOS 15 に関するAppleのお知らせに応じて、ガイダンスを見つけます
 
@@ -83,6 +83,6 @@ ht-degree: 92%
 | [リリースノート](rn/using/latest-release.md) | [エラーメッセージのリスト](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja) |
 | [ビデオガイド、チュートリアル](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
 | [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja) |
-| [[!DNL Gold Standard] アップグレード](rn/using/gs-overview.md) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
+| [アップグレードの基本を学ぶ](rn/using/rn-overview.md) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
 | [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md) | [セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) |
 | [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) | [監視のガイドライン](production/using/monitoring-guidelines.md) |

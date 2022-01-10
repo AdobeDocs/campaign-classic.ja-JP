@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: 4661a65c83f3b9b7da9ea902f387155c5933e59f
+source-git-commit: e55fff99fd5dec8da998310dc7026c1a506abadc
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 65%
+source-wordcount: '627'
+ht-degree: 62%
 
 ---
 
@@ -66,7 +66,7 @@ Campaign のインスタンスが JavaScript コード（ワークフローな�
 
 ## コマンドの制限（サーバー側）
 
-いくつかのコマンドがブラックリストに追加され、execCommand 関数で実行できないようになりました。また、セキュリティを強化するために、外部コマンド実行専用の Unix ユーザーが追加されました。ホストされているインスタンスの場合は、この制限が自動的に適用されます。オンプレミスインストールの場合は、次の手順に従って、この制限を手動で設定できます。 [このページ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). また、ワークフローアクティビティとして「**[!UICONTROL スクリプト]**」と「**[!UICONTROL 外部タスク]**」を選択できなくなりました（新しくインストールされたインスタンスの場合）。
+複数のコマンドがに含まブロックリストれており、 execCommand 関数を使用して実行することはできません。 また、セキュリティを強化するために、外部コマンド実行専用の Unix ユーザーが追加されました。ホストされているインスタンスの場合は、この制限が自動的に適用されます。オンプレミスインストールの場合は、次の手順に従って、この制限を手動で設定できます。 [このページ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). また、ワークフローアクティビティとして「**[!UICONTROL スクリプト]**」と「**[!UICONTROL 外部タスク]**」を選択できなくなりました（新しくインストールされたインスタンスの場合）。
 
 ## その他の設定
 

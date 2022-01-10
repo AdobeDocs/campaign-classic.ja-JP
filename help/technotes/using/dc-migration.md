@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
-source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '1572'
-ht-degree: 100%
+source-wordcount: '1557'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## コンテキスト
 
-アドビは、Adobe Campaign Classic のお客様に最高のエクスペリエンスと価値を提供することに全力で取り組んでいます。長年にわたって、お客様のクラウドホスティングの価値と信頼性を実現して参りました。アドビでは、[Gold Standard Initiative](../../rn/using/gold-standard.md) の一環として、より優れた信頼性の高いサービスを提供するために、すべてのお客様を Adobe Managed Services（AWS 上のパブリッククラウド）に移行しつつあります。
+アドビは、Adobe Campaign Classic のお客様に最高のエクスペリエンスと価値を提供することに全力で取り組んでいます。長年にわたって、お客様のクラウドホスティングの価値と信頼性を実現して参りました。当社の [年別アップグレードイニシアチブ](../../rn/using/rn-overview.md#yearly-upgrade)を使用している場合、すべてのお客様を Adobe Managed Services(AWS上の Public Cloud) に移行し、より優れた信頼性の高いサービスを提供します。
 
 このプログラムの主な目標は次の 3 つです。
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 * **ビルドアップグレード**：Adobe Campaign Classic ソフトウェアを最新のセキュアなビルド番号に更新しても、メジャー／マイナービルドレベルは変わりません。例：Campaign v7 20.2.3 ビルド 9182 から Campaign v7 21.2.5 ビルド 9188。[詳細情報](../../platform/using/faq-build-upgrade.md)。
 * **MID／RT**：Adobe クラウドにホストされたメッセージ実行サーバー（MID はバッチキャンペーン用、RT はリアルタイム単一メッセージ用）
-* **Gold Standard アップグレード**：このプログラムは、セキュリティの向上、サポートの強化、メンテナンスと安定性の向上をもたらします。また、今後のアップグレードが容易になり、Campaign の新機能を利用できるようになります。[詳細情報](../../rn/using/gs-overview.md)。
+* **年別アップグレードプログラム**  — このプログラムは、セキュリティの向上、サポートの向上、メンテナンスと安定性の向上を提供します。 また、今後のアップグレードが容易になり、Campaign の新機能を利用できるようになります。[詳細情報](../../rn/using/rn-overview.md#yearly-upgrade)。
 * **AWS**：Amazon Web Services（Amazon パブリッククラウド）
 * **SFTP**：セキュアなファイル転送プロトコルです。[詳細情報](../../platform/using/sftp-server-usage.md)。
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 * E メール容量の改善
 * データベースの拡大
-* 実証済みの Campaign バージョン - Gold Standard
+* 配達確認済みキャンペーンのバージョン
 
 **Adobe Campaign Classic のお客様向けに堅牢で信頼性の高いソリューションを提供**
 
@@ -67,10 +67,10 @@ ht-degree: 100%
 1. E メール送信容量の増加。新しいデータセンターでホストされるインスタンスは、E メール配信専用インフラストラクチャのメリットを活用できるようになります。その結果、E メールの配信速度が向上したり、送信 IP の使用量が少なくなる可能性があります。
 1. ハードウェア拡張性の向上。ハードウェアリソースの増加は、より迅速におこなうことができます。厳密には、数日ではなく 1 時間ほどになります。
 
-**Gold Standard により今後のアップグレードが容易に**
+**年 1 回のアップグレードにより、今後のアップグレードが容易になります**
 
 1. 組織がアップグレードを待つ時間が長くなるほど、アップグレードがより複雑になり、脆弱性に直面する可能性が高まります（特により古いバージョンから移行する場合）。
-1. Gold Standard アップグレードを使用すると、インスタンスが最新化され、手動の介入もリソースも少ない、より自動化された定期的な更新を受ける準備が整います。
+1. Campaign の年次アップグレード（旧 Gold Standard イニシアティブ）により、インスタンスは最新化され、より自動化され、定期的な更新を受け取る準備が整い、手動による介入やリソースの削減が可能になります。
 
 ![](assets/GSMigrations.png)
 
@@ -84,7 +84,7 @@ Adobe Managed Services（パブリッククラウド）への移行は、影響�
 
 ### この移行は必須ですか？
 
-クラウドへのこうした移行は、お客様の Adobe Campaign インスタンスの **[Gold Standard 認定](../../rn/using/gs-overview.md)**&#x200B;を取得するための最初のステップです。パブリッククラウド（AWS）以外のデータセンターでホストされている場合、この移行は必須です。
+このクラウドへの移行は、 **最初に [年間アップグレードプログラム](../../rn/using/rn-overview.md#yearly-upgrade)** Adobe Campaignインスタンスの パブリッククラウド（AWS）以外のデータセンターでホストされている場合、この移行は必須です。
 
 Adobe Managed Services クラウドは、安全で最適化された最新の環境である AWS でホストされています。AWS について詳しくは、[こちら](https://aws.amazon.com/application-hosting/benefits/)を参照してください。
 
@@ -109,12 +109,6 @@ Adobe Managed Services クラウドは、安全で最適化された最新の環
 
 詳しくは、Campaign の[パブリッククラウドへの移行に関する FAQ](dc-migration-faq.md) を参照してください。
 
-
-## Gold Standard 認定への道のり
-
-各マイルストーンの間の検証手順をアドビが支援します。
-
-![](assets/GS-milestones.png)
 
 ## パブリッククラウドへの移行パス
 
@@ -216,5 +210,5 @@ Adobe Managed Services クラウドは、安全で最適化された最新の環
 ## サポートリンクおよびその他の役立つリンク{#support}
 
 * [Adobe Managed Services（パブリッククラウド）への移行に関する FAQ](dc-migration-faq.md)
-* [Gold Standard へのアップグレード](../../rn/using/gs-overview.md)
+* [キャンペーンの年別アップグレード](../../rn/using/rn-overview.md)
 * [ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)

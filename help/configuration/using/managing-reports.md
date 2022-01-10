@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # レポートの管理{#managing-reports}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 カスタムテーブルと、ターゲットマッピングを介してリンクされたテーブルのデータを考慮するには、デフォルトのAdobe Campaign受信者（nm:recipient またはリンクされたスキーマ）に基づくレポートを再開発する必要があります ( [ターゲットマッピング](../../configuration/using/target-mapping.md) を参照 )。
 

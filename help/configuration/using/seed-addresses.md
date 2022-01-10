@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # シードアドレス{#seed-addresses}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 受信者テーブルがカスタムテーブルの場合は、追加の設定が必要です。 この **[!UICONTROL nms:seedMember]** スキーマを拡張する必要があります。 次に示すように、適切なフィールドを定義するためのタブがシードアドレスに追加されます。
 

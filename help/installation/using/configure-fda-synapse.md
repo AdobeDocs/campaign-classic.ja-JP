@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 9265d389da53e51889c2b7a8cd330c1866a030d9
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 78%
+source-wordcount: '753'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 78%
 
 ![](../../assets/v7-only.svg)
 
-キャンペーンを使用 [Federated Data Access](../../installation/using/about-fda.md) (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、Microsoft Analytics へのアクセスをAzure synapseします。
+キャンペーンを使用 [Federated Data Access](../../installation/using/about-fda.md) (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 **MicrosoftAzure synapse分析**.
 
 1. でAzure synapseを設定 [CentOS](#azure-centos), [Windows](#azure-windows) または [Debian](#azure-debian)
 1. azure synapse [外部アカウント](#azure-external) キャンペーン内
@@ -191,7 +191,6 @@ Debian で Azure Synapse を設定するには、以下を実行します。
    >
    >Azure Synapse Analytics 側からの通信を許可するには、パブリック IP を許可リストに追加する必要がある場合があります。その場合は、[Azure のドキュメント](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure#use-the-azure-portal-to-manage-server-level-ip-firewall-rules)を参照してください。
 
-
 ## azure synapse外部アカウント {#azure-external}
 
 [!DNL Azure Synapse] 外部アカウントを使用すれば、Campaign インスタンスを Azure Synapse 外部データベースに接続することができます。
@@ -206,14 +205,34 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
    ![](assets/azure_1.png)
 
-1. [!DNL Azure Synapse] 外部アカウントを設定するには、次を指定する必要があります。
+1. の下 **[!UICONTROL 設定]**&#x200B;を選択します。 **[!UICONTROL azure synapse分析]** から **[!UICONTROL タイプ]** 」ドロップダウンリストから選択できます。
 
-   * **[!UICONTROL タイプ]**：Azure Synapse Analytics
+   ![](assets/azure_2.png)
 
-   * **[!UICONTROL サーバー]**：Azure Synapse サーバーの URL
+1. の設定 [!DNL Azure Synapse] 外部アカウント：
 
-   * **[!UICONTROL アカウント]**：ユーザーの名前
+   * 標準認証の場合は、次を指定する必要があります。
 
-   * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
+      * **[!UICONTROL サーバー]**：Azure Synapse サーバーの URL
 
-   * **[!UICONTROL データベース]**：データベースの名前
+      * **[!UICONTROL アカウント]**：ユーザーの名前
+
+      * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
+
+      * **[!UICONTROL データベース]**：データベースの名前
+
+      ![](assets/azure_3.png)
+
+   * システムが割り当てた管理 ID 認証の場合は、次を指定する必要があります。
+
+      * **[!UICONTROL サーバー]**：Azure Synapse サーバーの URL
+
+      * **[!UICONTROL データベース]**：データベースの名前
+
+      * **[!UICONTROL オプション]**:次の構文を追加します。 `Authentication=ActiveDirectoryMsi`
+
+      ![](assets/azure_4.png)
+
+
+
+1. 「**[!UICONTROL 保存]**」をクリックします。

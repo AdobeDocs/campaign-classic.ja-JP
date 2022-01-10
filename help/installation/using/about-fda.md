@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a23f66a4822f3c87770c5c9741e91f78778931cb
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '161'
 ht-degree: 50%
 
 ---
@@ -25,7 +25,10 @@ FDA オプションを使用すると、サードパーティのデータベー�
 
 この機能を使用するための前提条件を次に示します。
 
-* **設定**:Snowflakeを除き、 **オンプレミス** または **ハイブリッド** ホスティングモデルを使用して Federated Data Access を設定します。 [詳細情報](../../installation/using/hosting-models.md)
-* **外部データベースのバージョン**:Adobe Campaign FDA モジュールと互換性のある外部データベースが必要です。 データベースシステムと互換性のあるバージョンのリストについて詳しくは、 Campaign を参照してください。 [互換性マトリックス](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
+* **設定**:互換性のある外部データベースのリストは、 [ホスティングモデル](../../installation/using/hosting-models.md).
+* **外部データベースのバージョン**:Adobe Campaign FDA モジュールと互換性のある外部データベースが必要です。
+
+   ホスティングモデルごとのデータベースシステムと互換性のあるバージョンのリストについて詳しくは、 Campaign を参照してください。 [互換性マトリックス](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
+
 * **権限**:また、 [必要な権限](../../installation/using/remote-database-access-rights.md) (Adobe Campaignおよび外部データベース )
 

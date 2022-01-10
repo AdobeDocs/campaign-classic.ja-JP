@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: rollback
 exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ロールバック手順は、Campaign の最初のバージョンに応じて異なります。
 
-## v6.1 の復元
+## Campaign v6.1 への復元
 
 v7 から v6.1 を復元する手順を次に示します。
 
@@ -32,7 +32,7 @@ v7 から v6.1 を復元する手順を次に示します。
 1. IIS を再起動します。
 1. Adobe Campaign v6.1 サービスを再起動します。
 
-## Campaign v6.02 への復元
+## Campaign v6.02 に復元
 
 v7 から v6.02 を復元する手順を次に示します。
 

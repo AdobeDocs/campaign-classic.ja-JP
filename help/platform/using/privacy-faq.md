@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '796'
 ht-degree: 100%
 
 ---
@@ -74,7 +74,8 @@ Adobe Campaign を使用する際の、プライバシーと同意に関する�
 
 また、データを継続利用するにあたって特定の同意を更新することが必要となる場合もあります。
 
-マーケターは、これらの強化された同意要件を、ブランドエンゲージメントと忠誠心および顧客満足度と信頼の真の指標として採用する必要があります。
+マーケターは、これらの強化された同意要件を、ブランドエンゲージメントとロイヤルティおよび顧客満足度と信頼の真の指標として採用する必要があります。
+
 
 ## 同意の管理 {#manage-consent}
 
@@ -112,6 +113,6 @@ Adobe Campaign では、レコードは外部データソースからアップ�
 
 ### Adobe Campaign からデータが消去されたデータ主体が後で再度オプトインすることはできますか。
 
-データ主体のデータが Adobe Campaign から消去された後に、当該データ主体が再度オプトインしたり、新しい受信者として登録することは可能です。
+データ主体のデータが Adobe Campaign から消去された後に、データ主体が再度オプトインしたり、データ主体を新しい受信者として追加したりすることは可能です。
 
 監査記録を使用すると、前回の削除が実行された日時や、新しい受信者が作成された日時の詳細を確認できます。

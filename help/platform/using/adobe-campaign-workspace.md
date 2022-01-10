@@ -6,10 +6,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '935'
+ht-degree: 85%
 
 ---
 
@@ -35,17 +35,17 @@ ht-degree: 100%
 
 ### コンソールおよび Web アクセス {#console-and-web-access}
 
-Adobe Campaign プラットフォームにアクセスするには、コンソールまたはインターネットブラウザーを使用します。
+Adobe Campaign プラットフォームにアクセスするには、コンソールまたはインターネットブラウザーを使用します。「 [互換性マトリックス](../../rn/using/compatibility-matrix.md#Browsers).
 
-Web アクセス用のインターフェイスはコンソールに似ていますが、機能が限定されています。
+Web アクセスインターフェイスは、コンソールインターフェイスに似ています。 ブラウザーからは、コンソールと同じナビゲーションおよび表示機能を使用できますが、キャンペーンに対して実行できるアクションのセットは限られています。 例えば、キャンペーンを表示してキャンセルすることはできますが、キャンペーンを変更することはできません。 特定のオペレーターの場合、キャンペーンはコンソールに次のオプションと共に表示されます。
 
-例えば、あるキャンペーンをコンソールで見たときには、次のようなオプションが表示されます。
+![キャンペーンのダッシュボードから、キャンペーンの表示やキャンセルを行ったり、キャンペーンを変更したり、キャンペーンに配信、ドキュメント、タスクを追加したりできます。](assets/operation_from_console.png)
 
-![](assets/operation_from_console.png)
+一方、Web アクセスでは、オプションは主に表示を有効にします。
 
-一方、Web アクセスで見たときには、次のようなオプションが表示されます。
+![ブラウザーでは、同じオペレーターがキャンペーンの表示とキャンセルのみおこなうことができます。](assets/operation_from_web.png)
 
-![](assets/operation_from_web.png)
+詳細情報： [web インターフェイスの使用](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
 ### 言語 {#languages}
 

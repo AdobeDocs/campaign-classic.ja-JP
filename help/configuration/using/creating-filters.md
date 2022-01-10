@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: use-a-custom-recipient-table
 exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 6%
@@ -15,9 +15,9 @@ ht-degree: 6%
 
 # フィルターの作成{#creating-filters}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
-Adobe Campaignに付属している標準の受信者テーブルと同様に、新しい受信者テーブルにも、定義済みフィルターのバッチが送信されます。
+Adobe Campaignに付属している組み込みの受信者テーブルと同様に、新しい受信者テーブルにも、定義済みフィルターのバッチが送信されます。
 
 これらのフィルターは、ターゲットの選択ウィンドウで使用でき、受信者のセグメントと同じ機能です（パラメーターの入力フォーム、フォルダーなどを使用）。
 

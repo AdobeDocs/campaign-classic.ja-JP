@@ -1,15 +1,16 @@
 ---
 product: campaign
-title: Campaign Classic2018 リリース
-description: Campaign Classic2018 リリースの詳細
-source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
-workflow-type: tm+mt
+title: Campaign Classic 2018 リリース
+description: Campaign Classic 2018 リリースの詳細
+exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
+source-git-commit: 96f2ae67a5b47b80533e759713cf5b36baa8cf36
+workflow-type: ht
 source-wordcount: '5452'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 2018 年リリース{#release-2018}
+# 2018 リリース{#release-2018}
 
 ![](../../assets/v7-only.svg)
 
@@ -80,7 +81,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **強化点**
 
@@ -102,7 +103,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **新機能**
 
@@ -125,7 +126,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td> SQL データ管理アクティビティ<br /> </td> 
-   <td> <p>新しいデータ管理ワークフローアクティビティが追加されました。<strong>SQL データ管理</strong>アクティビティでは、作業用テーブルを作成および設定する独自の SQL スクリプトを記述したりコピー＆ペーストしたりできます（FDA のみ）。 </p> <p>詳しくは、<a href="../../workflow/using/sql-data-management.md">詳細ドキュメント</a>を参照してください。</p></td> 
+   <td> <p>新しいデータ管理ワークフローアクティビティが追加されました。<strong>SQL データ管理</strong>アクティビティでは、ワークテーブルを作成および設定する独自の SQL クエリを記述できます。 </p> <p>詳しくは、<a href="../../workflow/using/sql-data-management.md">詳細ドキュメント</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> ワークフロー監視<br /> </td> 
@@ -247,7 +248,7 @@ PostgreSql で UTF-8 照合順序を使用する際、「LIKE &#39;string%’」
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **新機能**
 
@@ -303,7 +304,7 @@ Query Banding について詳しくは、以下の記事を参照してくださ
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新ビルドにアップグレードする](../../production/using/build-upgrade.md)か、[テクニカルサポート](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新ビルドにアップグレードする](../../production/using/build-upgrade.md)か、[テクニカルサポート](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **新機能?**
 
@@ -321,7 +322,7 @@ Query Banding について詳しくは、以下の記事を参照してくださ
   </tr> 
   <tr> 
    <td> Windows Server 2016 のサポート<br /> </td> 
-   <td> Adobe Campaign は現在、Windows Server 2016 に対応しています。<a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Campaign Classic の互換性マトリックス</a>を参照してください。<br /> </td> 
+   <td> Adobe Campaign は現在、Windows Server 2016 に対応しています。<a href="https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html">Campaign Classic の互換性マトリックス</a>を参照してください。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -338,7 +339,7 @@ decryptString
 
 decryptPassword
 
-**decryptPassword** 関数が追加されました。この関数を使用して、外部アカウントに格納されたパスワードを復号化できます。詳しくは、[JSAPI](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) ドキュメントを参照してください。
+**decryptPassword** 関数が追加されました。この関数を使用して、外部アカウントに格納されたパスワードを復号化できます。詳しくは、[JSAPI](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html) ドキュメントを参照してください。
 
 ファイル API
 
@@ -440,8 +441,8 @@ decryptPassword
    <td> EU 一般データ保護規則（GDPR）<br /> </td> 
    <td> <p>GDPR は 2018 年 5 月 25 日より欧州連合（EU）にて新しく施行されるプライバシー保護法律で、データ保護要件を現代の状況に合わせて整合化させることを目的としています。GDPR は、EU に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。</p> <p>Adobe Campaign には既にプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）が用意されていますが、これを機会にデータ管理者としてお客様自身が特定の GDPR 要件に対応できるようにする機能を導入しました。</p> 
     <ul> 
-     <li> <p>アクセス権：では、データ主体がデータ管理者によって取り込まれた個人データのコピーを受け取ることができます。これにはAdobe Campaignに保存されているデータも含まれている場合があります。</p> </li> 
-     <li> <p>削除する権限：では、データ管理者によって取得された個人データを消去する権限をデータ主体が持っています。これにはAdobe Campaignに保存されているデータも含まれている場合があります。</p> </li> 
+     <li> <p>アクセス権限：データ主体は、データ管理者により取得された自分の個人データのコピーを受け取ることができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。</p> </li> 
+     <li> <p>削除権限：データ主体は、データ管理者により取得された自分の個人データを消去させることができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。</p> </li> 
     </ul> 詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 

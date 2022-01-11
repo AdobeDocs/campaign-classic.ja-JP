@@ -6,9 +6,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
 source-git-commit: b174b8283d77a1b5eb535c0c46ba4a428bd66eef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Adobe Campaign のオペレーターやグループが関与する包括的な�
 
 * E メールを送信したら、配信の送信元 IP アドレスをヘッダーで確認します。ヘッダー情報は E メール管理者から入手できます。
 
-* SMS 配信の場合は、SMS チャネルに専用のアフィニティが次の範囲に制限されていることを確認してください。 **1 つ** アプリケーションサーバーコンテナ。 [詳細情報](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
+* SMS 配信の場合、**1 つ**&#x200B;のアプリケーションサーバーコンテナに限定された専用のアフィニティが SMS チャネルにあることを確認します。[詳細情報](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
 
 >[!NOTE]
 >

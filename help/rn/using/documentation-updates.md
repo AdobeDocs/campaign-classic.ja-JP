@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 87067a0cca1a4a7f8ea1137ece6d513d58fcdb42
 workflow-type: tm+mt
 source-wordcount: '4816'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -45,27 +45,27 @@ Google BigQuery FDA コネクタを更新しました。 [詳細情報](../../in
 
 ## 2021 年
 
-### 2021 年 12 月{#dec-2021}
+### 2021年12月{#dec-2021}
 
-Campaign Classicv7 リリースノートが再編成され、ナビゲーションが簡単になりました。 [詳細情報](rn-overview.md)
+Campaign Classic v7 リリースノートが、ナビゲーションを簡素化するために再編成されました。[詳細情報](rn-overview.md)
 
-Campaign のフォームエディションに関するドキュメントが更新および改善されました。 [詳細情報](../../configuration/using/editing-forms.md)
+Campaign のフォーム編集に関するドキュメントが更新および改善されました。[詳細情報](../../configuration/using/editing-forms.md)
 
-CentOs 8 は提供終了に達し、Adobe Campaign Classicで非推奨（廃止予定）になりました。 [詳細情報](deprecated-features.md)
+CentOs 8 が EOL（提供終了）に達し、Adobe Campaign Classic で非推奨になりました。[詳細情報](deprecated-features.md)
 
-### 2021 年 11 月{#nov-2021}
+### 2021年11月{#nov-2021}
 
-受信 SMS(MO) に関する制限を追加しました。 [詳細情報](../../delivery/using/sms-protocol.md#multipart)
+受信 SMS（MO）に関する制限事項を追加しました。[詳細情報](../../delivery/using/sms-protocol.md#multipart)
 
-CRM コネクタ展開の移行プロセスログの詳細を更新しました。 [詳細情報](../../migration/using/testing-the-migration.md#verification-process)
+CRM コネクタデプロイメントの移行プロセスログの詳細を更新しました。[詳細情報](../../migration/using/testing-the-migration.md#verification-process)
 
-Adobe CampaignとAdobe Analyticsの統合を実装するための IMS 権限に関する要件を追加しました。 [詳細情報](../../platform/using/adobe-analytics-provisioning.md)
+Adobe Campaign と Adobe Analytics の統合を実装するための IMS 権限に関する要件を追加しました。[詳細情報](../../platform/using/adobe-analytics-provisioning.md)
 
-Adobe Analytics Data Connector のサポート終了日を 2022 年 3 月 1 日から 2022 年 8 月 17 日に更新しました。 [詳細情報](deprecated-features.md)
+Adobe Analytics Data Connector の提供終了日を 2022年3月1日（PT）から 2022年8月17日（PT）に更新しました。[詳細情報](deprecated-features.md)
 
-Campaign Launch での Campaign 拡張機能の設定方法を学ぶためのAdobe Experience Platform mobile SDK ドキュメントへのリンクをAdobeしました。 [詳細情報](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+Adobe Launch で Campaign 拡張機能を設定する方法に関する Adobe Experience Platform モバイル SDK ドキュメントへのリンクを追加しました。[詳細情報](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
 
-JavaScript を使用して値を計算し、データを交換し、SOAP 呼び出しを使用して特定の操作を実行する方法に関する節を追加しました。[詳細情報](../../workflow/using/javascript-scripts-and-templates.md)
+JavaScript を使用して値の計算やデータの交換を行う方法と、SOAP 呼び出しを使用して特定の操作を実行する方法に関する節を追加しました。[詳細情報](../../workflow/using/javascript-scripts-and-templates.md)
 
 ワークフローでの JavaScript コードの実装例を追加しました。 [詳細情報](../../workflow/using/javascript-in-workflows.md)
 
@@ -202,7 +202,7 @@ Adobe Campaign のインスタンスで使用されている埋め込み Tomcat 
 
 
 
-## 2020 年
+## 2020
 
 ### 2020 年 12 月 {#dec-2020}
 

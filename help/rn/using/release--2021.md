@@ -1,23 +1,23 @@
 ---
 product: campaign
-title: Campaign Classic2021 リリース
-description: Campaign Classic2021 リリースの詳細
+title: Campaign Classic 2021 リリース
+description: Campaign Classic 2021 リリースの詳細
 feature: Overview
 role: User
 level: Beginner
 source-git-commit: babb585438a6e467afad74391035059f7b12a6ec
 workflow-type: tm+mt
 source-wordcount: '2542'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
-# 2021 年リリース{#release-2021}
+# 2021 リリース{#release-2021}
 
-## リリース 7.1(21.1)
+## リリース 7.1（21.1）
 
 >[!CAUTION]
->以下を使用： **[!UICONTROL ヘルプ/バージョン情報…]** Adobe Campaignの [バージョンおよびビルド番号](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). ただし、このページに示す 9277 ～ 9343 のすべてのビルドでは、バージョン番号は 7.1 ではなく 7.0 と表示されます。
+>以下を使用： **[!UICONTROL ヘルプ/バージョン情報…]** Adobe Campaignの [バージョンおよびビルド番号](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). ただし、このページに記載されている 9277～9343 のすべてのビルドでは、バージョン番号は 7.1 ではなく 7.0 と表示されています。
 
 ### ![](assets/do-not-localize/limited_2.png) リリース 21.1.4 - ビルド 9343 {#release-21-1-4-build-9343}
 
@@ -82,9 +82,7 @@ _2021 年 6 月 5 日（PT）_
 <tr>
 <td>
 <p>新しい「<b>データソースを変更</b>」ワークフローアクティビティを使用すると、ワークフローのワークテーブルのデータソースを変更できます。これにより、様々なデータソース（FDA およびローカルデータベース）にわたってデータ管理の柔軟性が向上します。</p>
-<p>Adobe Campaign ワークフローでは、データは作業用（または一時）テーブルを使用して管理されます。ワークフローの実行時に、ワークテーブルはワークフローアクティビティ間でデータを共有します。
-デフォルトでは、ワークテーブルは、クエリ対象となるデータのソースと同じデータベースに作成されます。
-</p>
+<p>Adobe Campaign ワークフローでは、データは作業用（または一時）テーブルを使用して管理されます。ワークフローの実行時に、ワークテーブルはワークフローアクティビティ間でデータを共有します。デフォルトでは、ワークテーブルは、クエリ対象となるデータのソースと同じデータベースに作成されます。</p>
 <p>詳しくは、<a href="../../workflow/using/change-data-source.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>

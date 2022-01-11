@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 最新リリース
-description: 最新のCampaign Classicv7 リリースノート
+description: 最新の Campaign Classic v7 リリースノート
 feature: Overview
 role: User
 level: Beginner
@@ -9,7 +9,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 630a62c5e5c9782c5c55fdebd651493a2d68fc54
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 16%
+ht-degree: 30%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 ![](../../assets/v7-only.svg)
 
-このページには、 **最新Campaign Classicv7 リリース**. 新しいビルドごとに、色で具体化されたステータスが表示されます。 Campaign Classicv7 ビルドのステータスについて詳しくは、 [このページ](rn-overview.md).
+このページには、**最新の Campaign Classic v7 リリース**&#x200B;の新機能、改善点および修正点が記載されています。新しいビルドごとに、色分けされたステータスが表示されます。Campaign Classic v7 のビルドステータスについて詳しくは、[このページ](rn-overview.md)を参照してください。
 
 ## ![](assets/do-not-localize/green_2.png) リリース 7.2.1 - ビルド 9346 {#release-7-2-1}
 
@@ -27,7 +27,7 @@ _2022 年 1 月 11 日_
 
 FDA アカウントのセキュリティがいくつか改善されました。
 
-* ODBC ドライバーがAdobe Campaign Third Parties と共に直接インストールされるようになりました。 これらのドライバをインストールする際に、手動の手順は不要になりました。
+* ODBC ドライバーは、Adobe Campaign サードパーティと共に直接インストールされるようになりました。これらのドライバをインストールする際に、手動の手順は不要になりました。
 * FDA 外部アカウントを設定する際に、強化された認証セキュリティのためにキーペア認証を使用してSnowflakeアカウントにログインできるようになりました。 [詳細情報](../../installation/using/configure-fda-snowflake.md)
 * FDA 外部アカウントを設定する際に、システムが割り当てた管理 ID を使用してAzure synapseAnalytics アカウントにログインできるようになりました。 [詳細情報](../../installation/using/configure-fda-synapse.md#azure-external)
 * 最適なセキュリティを確保するために、log4j ライブラリへのすべての参照が Campaign から削除されました。
@@ -38,8 +38,8 @@ FDA アカウントのセキュリティがいくつか改善されました。
 
    Microsoft Dynamics Connector Web API に関する重要な修正が適用されました。
 
-   * ワークフローによってトリガーされたインポート中に、文字列タイプのフィールドの null 値が、空の値ではなく null として保存される問題を修正しました。
-   * Web API 呼び出しを使用したデータのインポートまたはエクスポートで次のエラーが発生する問題を修正しました。&quot;無効な URI:URI スキームが長すぎます。
+   * ワークフローでトリガーされたインポート中に、文字列タイプのフィールドの null 値が空の値ではなく null として保存される問題を修正しました。
+   * Web API 呼び出しを使用したデータのインポートまたはエクスポートで「無効な URI：URI スキームが長すぎます」というエラーが発生する問題を修正しました。
    * Microsoft Dynamics 365 から参照フィールドを含むデータをインポートする際に発生していた様々な問題を修正しました。
 
 * Google BigQuery FDA コネクタ
@@ -49,7 +49,7 @@ FDA アカウントのセキュリティがいくつか改善されました。
 
 **その他の変更**
 
-* 廃止に伴い、Microsoft CRM、Salesforce、OracleCRM On Demand アクションアクティビティがインターフェイスから削除されました。 Adobe Campaignと CRM システム間のデータ同期を設定するには、「 CRM コネクタ」アクティビティを使用します。 [詳細情報](../../workflow/using/crm-connector.md)
+* 廃止に伴い、Microsoft CRM、Salesforce、OracleCRM On Demand アクションアクティビティがインターフェイスから削除されました。 Adobe Campaign と CRM システムとのデータ同期を設定するには、CRM コネクタアクティビティを使用します。[詳細情報](../../workflow/using/crm-connector.md)
 * この **[!UICONTROL 暗号化された識別子]** フィールドが訪問者スキーマ (nms:visitor) に追加されました。 このフィールドは計算され、web アプリケーションに使用されます。これは、ミッドソーシングインスタンスで LINE チャネルが設定されている場合に適用されます。
 * CRM データソースを **データソースを変更** アクティビティ。
 * 新しいオプションが **エラー管理** ワークフローアクティビティのプロパティ：この **エラー時に中止** 「 」オプションは、ワークフローを自動的に停止します。 その後は再起動できません (NEO-29661)。 [詳細情報](../../workflow/using/advanced-parameters.md#in-case-of-errors)

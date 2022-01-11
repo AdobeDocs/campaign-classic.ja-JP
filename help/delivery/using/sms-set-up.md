@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: b174b8283d77a1b5eb535c0c46ba4a428bd66eef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1801'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
-> SMS 配信の場合、タイポロジは、 **1 つ** 専用のアプリケーションサーバーコンテナ。 [詳細情報](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
+> SMS 配信の場合、タイポロジでは、**1 つ**&#x200B;の専用アプリケーションサーバーコンテナで作成された特定の SMS アフィニティを使用する必要があります。[詳細情報](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
 
 ## SMPP 外部アカウントの作成 {#creating-an-smpp-external-account}
 

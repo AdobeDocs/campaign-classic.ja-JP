@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Campaign Classic2019 リリース
-description: 2019 年Campaign Classicリリースの詳細
-source-git-commit: eb0e572f0bb6196a58a7dab4999df784d5c4851f
-workflow-type: tm+mt
+title: Campaign Classic 2019 リリース
+description: Campaign Classic 2019 リリースの詳細
+exl-id: 8a36a542-e095-4208-b624-e59845592863
+source-git-commit: 96f2ae67a5b47b80533e759713cf5b36baa8cf36
+workflow-type: ht
 source-wordcount: '4854'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-
-# 2019 年リリース{#release-2019}
+# 2019 リリース{#release-2019}
 
 ![](../../assets/v7-only.svg)
 
@@ -143,7 +143,7 @@ _2019 年 12 月 2 日_
 * 新しい[キャンペーンオプション](../../installation/using/configuring-campaign-options.md)が追加されました。
    * 「**WdbcKillSessionPolicy**」構成オプションを使用すると、すべてのワークフローと PostgreSQL データベースクエリに対して&#x200B;**無条件停止**&#x200B;の動作をさせることができます。
    * 「**NmsOperation_DeliveryPreparationWindow**」オプションを使用すると、ステータスの一貫しない配信が、実行中の配信の数から除外される日数を定義できます。
-   * 「**WdbcOptions_TempDbName**」オプションを使用すると、Microsoft SQL Server 上で、作業用テーブル向けに別のデータベースを構成できます。これにより、バックアップとレプリケーションを最適化できます。[詳細を表示](../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)
+   * 「**WdbcOptions_TempDbName**」オプションを使用すると、Microsoft SQL Server 上で、ワークテーブル向けに別のデータベースを構成できます。これにより、バックアップとレプリケーションを最適化できます。[詳細を表示](../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server)
    * PostgreSQL の「**XtkCleanup_NoStats**」オプションが強化され、データベースクリーンアップワークフローのストレージ最適化手順の動作をより適切に制御できるようになりました。[詳細を表示](../../production/using/database-cleanup-workflow.md#statistics-update)
 * アカウントのロックアウトメカニズムが **logon()** API に追加されました。このメカニズムでは、特定の期間内に一定回数以上連続してログインに失敗すると、それ以降のログイン試行が阻止されます。
 * 配信プロパティの新しいオプション「**最長パーソナライゼーション実行時間**」を使用すると、パーソナライゼーションの実行時間のタイムアウト期間を定義して、過度に長い間パーソナライゼーションフェーズが実行されないようにすることができます。[詳細を表示](../../delivery/using/personalization-fields.md#timing-out-personalization)
@@ -209,7 +209,7 @@ _2021 年 4 月 15 日_
 
 >[!NOTE]
 >
-> [アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)に接続して、新しいバージョンをダウンロードします。 [このページ](../../installation/using/client-console-availability-for-windows.md)では、すべてのエンドユーザーに対してコンソールの更新を提案する方法について説明します。
+> [アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)に接続して、新しいバージョンをダウンロードします。 [このページ](../../installation/using/client-console-availability-for-windows.md)では、すべてのエンドユーザーに対してコンソールの更新を提案する方法について説明します。
 
 _2021 年 3 月 22 日_
 
@@ -226,7 +226,7 @@ _2020 年 12 月 16 日_
 >[!CAUTION]
 >
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を通じて Campaign に接続している場合、 **2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign サーバーとクライアントコンソールの両方が Campaign に接続できるようにするには、アップグレードする必要があります。[詳細情報](../../technotes/using/ims-updates.md)
-> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
+> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 > * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、[2021 年 9 月 日](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)（PT）に&#x200B;**廃止されました**。ホスト環境では、**2022年2月23日**（PT）まで延長サポートを受けられます。オンプレミス環境またはハイブリッド環境のお客様は、アドビカスタマーケアに連絡してサポートを 2022年2月まで延長してください。 [OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) をアドビに伝える必要があります。
 
 
@@ -371,7 +371,7 @@ _2019 年 5 月 30 日_
   </tr> 
   <tr> 
    <td> 互換性マトリックスを更新<br /> </td> 
-   <td> この新しいバージョンの Adobe Campaign では、次のデータベースシステムをサポートするようになりました。<a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">互換性マトリックス</a>を参照してください。<br /> 
+   <td> この新しいバージョンの Adobe Campaign では、次のデータベースシステムをサポートするようになりました。<a href="https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html">互換性マトリックス</a>を参照してください。<br /> 
     <ul> 
      <li> <p>Oracle 18c</p> </li> 
      <li> <p>MySQL 5.7（FDA）</p> </li> 
@@ -401,7 +401,7 @@ _2019 年 5 月 30 日_
 
 **Guardrail、堅牢性および拡張性の強化**
 
-* ライフスパン - XtkNewId シーケンス使用の最適化：最も容量が大きいテーブルを xtkNewId シーケンスから専用シーケンスへ移動させました。[詳細を表示](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* ライフスパン - XtkNewId シーケンス使用の最適化：最も容量が大きいテーブルを xtkNewId シーケンスから専用シーケンスへ移動させました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 * FDA over HTTP v2：FDA over HTTP プロトコルは、ハイブリッドデプロイメント（特に broadLog の取得および配信準備）で広く使用されています。データの取得時やプッシュ時のネットワークの問題と考えられるエラーを防ぐよう、堅牢性を強化しました。これを実現するには、両側のビルドを最新にする必要があります。そうでない場合、古いプロトコルが引き続き使用されます。
 * トラッキングワークフロー：トラッキングワークフローの堅牢性を強化しました。トラッキングログの挿入／更新および URL トラッキングのカスタマイズに関する複数の問題を修正しました。さらに、トラッキングワークフローで、エラーを引き起こし、ワークフローを停止する可能性のあるトラッキングログの問題を検出するようになりました。これらの問題は、現在は破棄され、処理されなくなりました。
 * クリーンアップワークフロー：潜在的なエラーと停止を防ぐため、クリーンアップワークフローを向上させました。これにより、データベースのサイズとパフォーマンスを最適化しました。

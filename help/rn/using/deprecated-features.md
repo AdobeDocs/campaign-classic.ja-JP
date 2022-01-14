@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 0a7cdd53640bb3d96ff9bc2de4aa4c1849e32c83
+source-git-commit: 966da123b30278817ca465ac5dfe1f733c4d6c5c
 workflow-type: tm+mt
 source-wordcount: '1707'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <td><p> Campaign 20.3 リリースより、パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合認証が変更され、Adobe I/O に移動しました。 <p>
   <p>Triggers 統合を使用している場合は、これに応じて実装を適応させる必要があります。<a href="../../integrations/using/configuring-adobe-io.md">詳細情報</a></p> 
   <p>OAuth 認証の廃止予定について詳しくは、この<a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">ページ</a>を参照してください。</p> 
-  <p><em>削除予定日：2021年10月20日（PT）。 ホスト環境では、2022年2月23 日（PT）まで延長サポートを受けられます。 </em></p>
+  <p><em>削除予定日：2021年10月20日（PT）。 ホスト環境では、2022 年 5 月 25 日まで拡張機能のメリットが得られます。 </em></p>
   </td>
   </tr>
  </tbody> 

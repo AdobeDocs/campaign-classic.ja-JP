@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: シミュレーショントラッキング
-description: シミュレーショントラッキング
+title: シミュレーションのトラッキング
+description: シミュレーションのトラッキング
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
 source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
 ht-degree: 100%
 
 ---
 
-# シミュレーショントラッキング{#simulation-tracking}
+# シミュレーションのトラッキング{#simulation-tracking}
 
 ![](../../assets/common.svg)
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ![](assets/offer_simulation_012.png)
 
-ピボットテーブルを使用すると、オファーのランクごとの分類をすばやく確認できます。Adobe Campaign のすべてのレポートと同じように、書き出し、印刷、アーカイブまたは Web ブラウザーでの表示が可能です。
+ピボットテーブルを使用すると、オファーのランキングごとの分類をすばやく確認できます。Adobe Campaign のすべてのレポートと同じように、書き出し、印刷、アーカイブまたは Web ブラウザーでの表示が可能です。
 
 詳しくは、[この節](../../reporting/using/actions-on-reports.md)を参照してください。
 

@@ -7,13 +7,13 @@ content-type: reference
 topic-tags: advanced-parameters
 exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
 source-git-commit: 7728826eea199d2367fcbf556c01ec9d6cae466f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# エンジンの標準的な動作を変更する{#hooks}
+# エンジンの標準動作の変更{#hooks}
 
 ![](../../assets/v7-only.svg)
 

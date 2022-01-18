@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: interaction-overview
 exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1113'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 98%
 * **単一モード**：一度に 1 つの連絡先のみが処理されます。通常、このモードはインバンドインタラクションとトランザクションメッセージで使用します。
 * **識別モード**：連絡先のステータスの 1 つ。
 
-   * **[!UICONTROL 明示的]** :連絡先は、チャネルインターフェイスにログインした後に識別されます。
+   * **[!UICONTROL 明示的]**：チャネルインターフェイスにログインしたことにより連絡先が識別されている状態。
    * **[!UICONTROL 暗黙的]**：Cookie（永続またはセッション）により連絡先が識別されている状態。このような連絡先は、匿名連絡先としても、識別された連絡先としても処理できます。
    * **[!UICONTROL 匿名]**：連絡先が識別できない状態。
 

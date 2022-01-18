@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016 年</p>
+<p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
 <p><strong>警告：</strong>Linux で Campaign サーバーを実行している場合、プライマリデータベースとしての Microsoft SQL Server の使用はサポートされません。<a href="../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers">詳細情報</a>。</p>
@@ -188,9 +188,9 @@ Adobe Campaign と互換性のある顧客関係管理（CRM）システムを�
 
 ## Federated Data Access（FDA）{#FederatedDataAccessFDA}
 
-Adobe Campaign [Federated Data Access モジュール](../../installation/using/about-fda.md)と互換性のある外部データベースを以下に示します。互換性は [ホスティングモデル](../../installation/using/hosting-models.md).
+Adobe Campaign [Federated Data Access モジュール](../../installation/using/about-fda.md)と互換性のある外部データベースを以下に示します。互換性は[ホスティングモデル](../../installation/using/hosting-models.md)に依存します。
 
-**Managed Services** （ホスト）、 **ハイブリッド** および **オンプレミス** 環境は、Campaign を次の外部データベースシステムと接続できます。
+**Managed Services**（ホスト）、**ハイブリッド**&#x200B;および&#x200B;**オンプレミス**&#x200B;環境は、Campaign を次の外部データベースシステムと接続できます。
 
 <table>
 <tbody>
@@ -211,7 +211,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <tr>
 <td>Amazon Redshift</td>
 <td><p> </p>
-<td>v7.0 19.1.4 最小</td>
+<td>v7.0 19.1.4 以上</td>
 </td>
 </tr>
 <tr>
@@ -225,12 +225,12 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <p>9.5.x</p>
 <p>9.4.x</p>
 </td>
-<td>v7.0 19.1.4 以降</td>
+<td>v7.0 19.1.4 以上</td>
 </tr>
 </tbody>
 </table>
 
-さらに、 **ハイブリッド** および **オンプレミス** 環境は、次のものと Campaign を接続することもできます。
+さらに、**ハイブリッド**&#x200B;および&#x200B;**オンプレミス**&#x200B;環境は、次のものと Campaign を接続することもできます。
 
 <table>
 <tbody>
@@ -240,12 +240,12 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <tr>
 <td>Vertica</td>
 <td> </td>
-<td>v7.0 19.1.4 以降</td>
+<td>v7.0 19.1.4 以上</td>
 </tr>
 <tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td> </td>
-<td>v7.0 19.1.4 以降</td>
+<td>v7.0 19.1.4 以上</td>
 </tr>
 <tr>
 <td>Oracle</td>
@@ -255,23 +255,23 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <p>12c</p>
 <p>11g</p>
 </td>
-<td>v7.0 以降</td>
+<td>v7.0 以上</td>
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019 年</p>
-<p>2017 年</p>
-<p>2016 年</p>
-<p>2014 年</p>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
 <p>2012 SP1 および SP2</p>
 </td>
-<td>v7.0 以降</td>
+<td>v7.0 以上</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
 <p>5.7</p>
 </td>
-<td>v7.0 以降</td>
+<td>v7.0 以上</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -281,14 +281,14 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <p>15.10</p>
 <p>15.0</p>
 </td>
-<td>v7.0 以降</td>
+<td>v7.0 以上</td>
 </tr>
 <tr>
 <td>Netezza</td>
 <td>
 <p>7.2</p>
 </td>
-<td>v7.0 以降</td>
+<td>v7.0 以上</td>
 </tr>
 <tr>
 <td>Sybase</td>
@@ -296,14 +296,14 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <p>IQ 16</p>
 <p>ASE 15.7</p>
 </td>
-<td>v7.0 以降</td>
+<td>v7.0 以上</td>
 </tr>
 <tr>
 <td>SAP HANA</td>
 <td>
 <p>バージョン 1 SPS 12</p>
 </td>
-<td>v7.0 以降</td>
+<td>v7.0 以上</td>
 </tr>
 <tr><td>HiveSQL による Hadoop</td>
 <td>
@@ -311,7 +311,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <p>HDInsight 3.4（HDP 2.4）、3.5（HDP 2.5）、3.6（HDP 2.6）</p>
 <p>Cloudera CDH6.x</p>
 </td>
-<td>v7.0 以降</td>
+<td>v7.0 以上</td>
 </tr>
 </tbody>
 </table>
@@ -331,8 +331,8 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016 年</p>
-<p>2012 年</p>
+<p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>

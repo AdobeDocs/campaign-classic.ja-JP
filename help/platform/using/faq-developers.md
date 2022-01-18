@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
 source-git-commit: a5f6478d3c0780464974053e389923614abba582
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign では、以下のためにデータスキーマが使用され�
 
 ## カスタム受信者テーブルの使用方法は？ {#how-to-use-a-custom-recipient-table-}
 
-Campaign に組み込まれていない受信者テーブルを作成および実装して、メッセージを送信できます。
+Campaign でビルトイン以外の受信者テーブルを作成および実装してメッセージを送信することができます。
 
 [詳しくはこちらをクリックしてください。](../../configuration/using/about-custom-recipient-table.md)
 

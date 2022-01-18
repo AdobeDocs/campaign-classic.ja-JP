@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 source-git-commit: a5f6478d3c0780464974053e389923614abba582
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2461'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -383,7 +383,7 @@ Captcha は、ビジュアルの下に配置された入力フィールドでペ
 
 ## 非表示定数の挿入 {#inserting-a-hidden-constant}
 
-ユーザーがフォームのページの 1 つを検証する場合、特定の値をプロファイルのフィールドまたは変数に設定できます。
+ユーザーがフォームのページの 1 つを検証する場合、ユーザーのプロファイルのフィールドまたは変数に特定の値を設定できます。
 
 このフィールドは、ユーザーには表示されませんが、ユーザープロファイルのデータエンリッチメントに使用できます。
 

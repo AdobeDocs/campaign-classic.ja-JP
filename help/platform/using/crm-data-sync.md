@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 source-git-commit: 648b6c0982e15716b11bdbc5954ce88491582e7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1627'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -170,11 +170,11 @@ Adobe Campaign データを CRM にエクスポートすると、コンテンツ
    >
    >**[!UICONTROL CRM コネクタ]**&#x200B;アクティビティのエクスポート機能では、CRM 側のフィールドを挿入または更新できます。CRM でのフィールド更新を有効にするには、リモートテーブルのプライマリキーを指定する必要があります。キーがない場合、データは（更新ではなく）挿入されます。
 
-1. チェック **[!UICONTROL バッチでのエクスポート]** より高速な書き出しが必要な場合
+1. より高速な書き出しが必要な場合、**[!UICONTROL バッチでのエクスポート]**&#x200B;をチェックしてください。
 
    ![](assets/crm_export_config_2.png)
 
-1. 内 **[!UICONTROL マッピング]** セクションで、 **[!UICONTROL 新規]** ：エクスポートするフィールドと CRM でのそのマッピングを指定します。
+1. 「**[!UICONTROL マッピング]**」セクションで、「**[!UICONTROL 新規]**」をクリックし、エクスポートされるフィールドと CRM でのそれらのマッピングを指定します。
 
    ![](assets/crm_export_config.png)
 

@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign では、豊富な顧客データを使�
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2556'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 98%
    + [最新リリース](rn/using/latest-release.md)
    + 以前のリリース {#previous-releases}
       + [[!DNL Gold Standard]](rn/using/gold-standard.md)
-      + [2021 年](rn/using/release--2021.md)
-      + [2020 年](rn/using/release--2020.md)
+      + [2021](rn/using/release--2021.md)
+      + [2020](rn/using/release--2020.md)
       + [2019](rn/using/release--2019.md)
       + [2018](rn/using/release--2018.md)
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
@@ -394,7 +394,7 @@ ht-degree: 98%
    + ワークフローの基本を学ぶ {#introduction}
       + [ワークフローについて](workflow/using/about-workflows.md)
       + [アクティビティについて](workflow/using/about-activities.md)
-      + [ワークフローの構築](workflow/using/building-a-workflow.md)
+      + [ワークフローの作成](workflow/using/building-a-workflow.md)
       + [Target データ](workflow/using/targeting-data.md)
       + [ワークフローデータの使用](workflow/using/how-to-use-workflow-data.md)
       + [ワークフローのベストプラクティス](workflow/using/workflow-best-practices.md)
@@ -423,7 +423,7 @@ ht-degree: 98%
       + [ディメンションを変更](workflow/using/change-dimension.md)
       + [リスト更新](workflow/using/list-update.md)
       + [購読サービス](workflow/using/subscription-services.md)
-      + [データ更新](workflow/using/update-data.md)
+      + [データの更新](workflow/using/update-data.md)
       + [CRM コネクタ](workflow/using/crm-connector.md)
       + [データソースを変更](workflow/using/change-data-source.md)
    + フロー制御アクティビティ {#flow-control-activities}
@@ -501,7 +501,7 @@ ht-degree: 98%
       + [ワークフローヒートマップ](workflow/using/heatmap.md)
    + 詳細な管理 {#advanced-management}
       + [ワークフローのプロパティ](workflow/using/workflow-properties.md)
-      + [詳細パラメーター](workflow/using/advanced-parameters.md)
+      + [詳細設定パラメーター](workflow/using/advanced-parameters.md)
       + [JavaScript のスクリプトとテンプレート](workflow/using/javascript-scripts-and-templates.md)
       + [ワークフローでの JavaScript コードの例](workflow/using/javascript-in-workflows.md)
       + [外部データベースへのアクセス](workflow/using/accessing-an-external-database--fda-.md)
@@ -553,7 +553,7 @@ ht-degree: 98%
       + [追加データ](interaction/using/additional-data.md)
       + [拡張の例](interaction/using/extension-example.md)
       + [テスト環境の作成](interaction/using/creating-a-test-environment.md)
-      + [エンジンの標準的な動作を変更する](interaction/using/hooks.md)
+      + [エンジンの標準動作の変更](interaction/using/hooks.md)
       + [分散アーキテクチャ](interaction/using/distributed-architectures.md)
       + [データバッファーの設定](installation/using/interaction---data-buffer.md)
    + 使用例 {#case-study}
@@ -818,7 +818,7 @@ ht-degree: 98%
       + [すべての訪問の収集](configuration/using/collecting-all-visits.md)
       + [匿名トラッキング](configuration/using/anonymous-tracking.md)
 + 移行ガイド {#migrating-to-a-new-version}
-   + [Adobe Campaign v7 への移行](migration/using/about-migration.md)
+   + [Adobe Campaign v7 に移行](migration/using/about-migration.md)
    + 移行手順 {#migration-procedure}
       + [前提条件](migration/using/before-starting-migration.md)
       + [移行テストについて](migration/using/testing-the-migration.md)
@@ -834,10 +834,10 @@ ht-degree: 98%
       + [テクニカルノート](technotes/using/technote.md)
       + [Campaign 設定の更新](technotes/using/acc-config-updates.md)
       + [IMS の更新](technotes/using/ims-updates.md)
-      + [TLS 1.0 および 1.1 のサポートのサポートの終了](technotes/using/eol-tls-support.md)
+      + [TLS 1.0 および 1.1 のサポートの提供終了（EOL）](technotes/using/eol-tls-support.md)
    + メールとプッシュ通知 {#technotes-email}
       + [Apple iOS のメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
-      + [Apple Mail のプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ja)
+      + [Apple Mail のプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ja)
       + [誤ったハードバウンスの更新方法](delivery/using/update-bounce-qualification.md)
       + [iOS 証明書の更新](technotes/using/ios-certificate-update.md)
       + [トラッキング対象 URL の更新](technotes/using/tracked-urls.md)

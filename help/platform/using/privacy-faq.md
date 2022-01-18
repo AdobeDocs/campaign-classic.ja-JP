@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
 ht-degree: 100%
 
@@ -111,7 +111,7 @@ Adobe Campaign では、レコードは外部データソースからアップ�
 
 ## 再オプトイン {#opt-in-again}
 
-### Adobe Campaign からデータが消去されたデータ主体が後で再度オプトインすることはできますか。
+### Adobe Campaign からデータが消去されたデータ主体が、後で再度オプトインすることはできますか。
 
 データ主体のデータが Adobe Campaign から消去された後に、データ主体が再度オプトインしたり、データ主体を新しい受信者として追加したりすることは可能です。
 

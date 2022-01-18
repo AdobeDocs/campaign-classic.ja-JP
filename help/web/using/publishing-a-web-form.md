@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: web-forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1024'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 「**[!UICONTROL 追加データを読み込み]**」オプションを使用すると、フォームのページで使用しない情報を追加できますが、それにも関わらずプリロードされます。
 
-例えば、受信者の性別をプリロードし、テストボックスを使用して適切なページに自動的に誘導することができます。
+例えば、受信者の性別をプリロードして、テストボックスを使用して適切なページに自動的に導くことができます。
 
 ![](assets/s_ncs_admin_survey_preload_ex.png)
 

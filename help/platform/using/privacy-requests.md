@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 source-git-commit: 71a5433db3ce2af5a25e5f861bd6f1dfb9aa8934
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2572'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -281,7 +281,7 @@ API を使用してプライバシーリクエストを送信する場合、最�
 
    * **nms:gdprRequest** スキーマで **queryDef** を使用すると、アクセスリクエストのステータスを確認できます。
    * **nms:gdprRequestData** スキーマで queryDef **を使用すると、アクセスリクエストの結果を取得できます。**
-   * から XML ファイルをダウンロードできるようにするには **&quot;$(serverUrl)&#39;/nms/gdpr.jssp?id=&#39;@id&quot;**&#x200B;を使用する場合は、ログインし、に含まれる IP からアクセスする必要があり許可リストます。 これをおこなうには、JSSP で生成されたファイルにアクセスできる Web アプリケーションを作成します。
+   * **「$(serverUrl)&#39;/nms/gdpr.jssp?id=&#39;@id」** から XML ファイルをダウンロードするには、許可リスト登録済みの IP からログインしてファイルにアクセスする必要があります。これを行うには、JSSP で生成されたファイルにアクセスできる web アプリケーションを作成します。
 
 ### JS からの API の呼び出し {#invoking-api-from-js}
 

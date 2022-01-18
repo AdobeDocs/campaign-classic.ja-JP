@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: sending-push-notifications
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # アプリ設定の基本を学ぶ
 
-この節は、オンラインホリデーパッケージを販売する会社を想定した設定例です。そのモバイルアプリケーション (Neotrips) は、次の 2 つのバージョンで顧客に提供されます。Android 用 Neotrips およびiOS用 Neotrips。
+この節は、オンラインホリデーパッケージを販売する会社を想定した設定例です。同社のモバイルアプリケーション（Neotrips）は、Android 用 Neotrips と iOS 用 Neotrips の 2 つのバージョンで顧客に提供されています。
 
 Adobe Campaign でプッシュ通知を送信するには、次の操作が必要です。
 

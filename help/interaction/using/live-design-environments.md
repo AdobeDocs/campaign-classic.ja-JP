@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
 source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '489'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-## 動作原理 {#operating-principle}
+## 動作の原則 {#operating-principle}
 
 インタラクションは、次の 2 つのオファー環境を使用して運用されます。
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 各&#x200B;**[!UICONTROL デザイン]**&#x200B;環境は、**[!UICONTROL ライブ]**&#x200B;環境にリンクされています。オファーの作成が完了すると、そのコンテンツと実施要件ルールは、承認サイクルに進みます。承認サイクルを完了したオファーは、**[!UICONTROL ライブ]**&#x200B;環境に自動的にデプロイされ、その瞬間から、配信できるようになります。
 
-デフォルトでは、インタラクションには、1 つの&#x200B;**[!UICONTROL デザイン]**&#x200B;環境とそれにリンクされた 1 つの&#x200B;**[!UICONTROL ライブ]**&#x200B;環境が用意されています。これらの環境は、標準の受信者テーブルをターゲットとするように事前に設定されています。
+デフォルトでは、インタラクションには、1 つの&#x200B;**[!UICONTROL デザイン]**&#x200B;環境とそれにリンクされた 1 つの&#x200B;**[!UICONTROL ライブ]**&#x200B;環境が用意されています。これらの環境は、ビルトインの受信者テーブルをターゲットとするように事前に設定されています。
 
 >[!NOTE]
 >

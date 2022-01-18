@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 source-git-commit: babb585438a6e467afad74391035059f7b12a6ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2542'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 ## リリース 7.1（21.1）
 
 >[!CAUTION]
->以下を使用： **[!UICONTROL ヘルプ/バージョン情報…]** Adobe Campaignの [バージョンおよびビルド番号](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). ただし、このページに記載されている 9277～9343 のすべてのビルドでは、バージョン番号は 7.1 ではなく 7.0 と表示されています。
+>**[!UICONTROL ヘルプ／バージョン情報…]**&#x200B;メニューを使用し、Adobe Campaign の[バージョンおよびビルド番号](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を確認します。 ただし、このページに記載されている 9277～9343 のすべてのビルドでは、バージョン番号は 7.1 ではなく 7.0 と表示されています。
 
 ### ![](assets/do-not-localize/limited_2.png) リリース 21.1.4 - ビルド 9343 {#release-21-1-4-build-9343}
 

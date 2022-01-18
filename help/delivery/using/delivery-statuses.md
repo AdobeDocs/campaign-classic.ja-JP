@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: monitoring-deliveries
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ajouter screenshot -->
   </tr> 
   <tr> 
    <td> 無視<br /> </td> 
-   <td> 配信は、アドレスにエラーがあるので、受信者に送信されませんでした。 ブロックリストへの登録、強制隔離、未指定または重複の可能性があります。<br /> </td> 
+   <td> 配信は、アドレスにエラーがあるので受信者に送信されませんでした。ブロックリストへの登録、強制隔離、未指定または重複の可能性があります。<br /> </td> 
   </tr> 
   <tr> 
    <td> 失敗<br /> </td> 

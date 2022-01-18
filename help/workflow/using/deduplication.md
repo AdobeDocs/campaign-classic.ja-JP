@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: targeting-activities
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 source-git-commit: def4f7fb46c838e9fe620820cf387dd3e2b8a55b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 97%
       ![](assets/s_user_segmentation_dedup_param7.png)
    >[!NOTE]
    >
-   >**[!UICONTROL 結合]**&#x200B;機能は、**[!UICONTROL 詳細パラメーター]**&#x200B;リンクからアクセスでき、フィールドまたはフィールドのグループを 1 つの結果データレコードに結合するための一連のルールを設定できます。 この点について詳しくは、[フィールドを単一のレコードに結合する](#merging-fields-into-single-record)を参照してください。
+   >**[!UICONTROL 結合]**&#x200B;機能は、**[!UICONTROL 詳細設定パラメーター]**&#x200B;リンクからアクセスでき、フィールドまたはフィールドのグループを 1 つの結果データレコードに結合するための一連のルールを設定できます。 この点について詳しくは、[フィールドを単一のレコードに結合する](#merging-fields-into-single-record)を参照してください。
 
 1. 「**[!UICONTROL 完了]**」をクリックして、選択した重複排除メソッドを承認します。
 
@@ -146,7 +146,7 @@ ht-degree: 97%
 
 それをおこなうには、次の手順に従います。
 
-1. **[!UICONTROL 重複排除 - 重複方法]**&#x200B;の選択手順で、**[!UICONTROL 詳細パラメーター]**&#x200B;リンクをクリックします。
+1. **[!UICONTROL 重複排除 - 重複方法]**&#x200B;の選択手順で、**[!UICONTROL 詳細設定パラメーター]**&#x200B;リンクをクリックします。
 
    ![](assets/dedup1.png)
 
@@ -172,7 +172,7 @@ ht-degree: 97%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* スキーマ
+* schema
 * recCount
 
 この 3 つの値セットは、重複排除によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を保存するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

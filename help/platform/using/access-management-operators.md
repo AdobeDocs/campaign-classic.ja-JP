@@ -7,9 +7,9 @@ role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Adobe ID を使用して Adobe Campaign に直接接続することもできま�
 
    >[!NOTE]
    >
-   >オペレーターは、アカウントが無効になっても、Campaign からアラートや通知を受け取ることができます。 このオペレーターへの Campaign 通知の送信を停止するには、Adobeは、プロファイルから E メールアドレスを削除することをお勧めします。
+   >このアカウントが無効になっていても、オペレーターは Campaign からアラートや通知を受け取ることができます。 このオペレーターへ Campaign 通知の送信を停止するには、プロファイルからメールアドレスを削除することをアドビは推奨します。
 
 * 「**[!UICONTROL リッチクライアントからのアクセスを禁止]**」オプションを使用すると、Adobe Campaign の使用を [Web アクセス](../../platform/using/adobe-campaign-workspace.md#console-and-web-access)または API に制限できます。これにより、Adobe Campaign クライアントコンソールにアクセスできなくなります。
 * 安全ゾーンをオペレーターに関連付けることができます。詳しくは、[このページ](../../installation/using/security-zones.md)を参照してください。

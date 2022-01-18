@@ -5,9 +5,9 @@ description: Campaign Classic のサポートが必要な場合は、こちら�
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '793'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <li><a href="platform/using/faq-key-concepts.md">主要概念</a></li>
         <li><a href="platform/using/faq-campaign-config.md">Campaign 設定</a></li>
         <li><a href="platform/using/faq-reporting.md">レポート</a></li>
-        <li><a href="platform/using/faq-build-upgrade.md">ビルドアップグレード</a></li>
+        <li><a href="platform/using/faq-build-upgrade.md">ビルドのアップグレード</a></li>
         <li><a href="platform/using/faq-messages.md">メッセージのテスト、送信、トラッキング</a></li>
         <li><a href="platform/using/faq-workflows.md">ワークフロー</a></li>
         <li><a href="platform/using/faq-developers.md">デベロッパー</a></li>
@@ -73,9 +73,9 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
     <td valign="top">
         <ul>
         <li><a href="production/using/build-upgrade.md">最新ビルドへのアップグレード</a></li>
-        <li><a href="platform/using/faq-build-upgrade.md">ビルドアップグレードに関する FAQ</a></li>
+        <li><a href="platform/using/faq-build-upgrade.md">ビルドのアップグレードに関する FAQ</a></li>
         <li><a href="delivery/using/about-delivery-monitoring.md">配信の監視</a></li>
-        <li><a href="delivery/using/understanding-quarantine-management.md">強制隔離管理の理解</a></li>
+        <li><a href="delivery/using/understanding-quarantine-management.md">強制隔離管理について</a></li>
         <li><a href="installation/using/get-started-security-privacy.md">セキュリティとプライバシーのチェックリスト</a></li>
         <li><a href="platform/using/privacy-management.md">プライバシーと同意管理</a></li>
         <li><a href="platform/using/steps-to-create-a-query.md">クエリのデザイン</a></li>
@@ -99,7 +99,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 >
 >コントロールパネルは、すべての管理者ユーザーからアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)を参照してください。
 >
->インスタンスは、AWSでホストされ、最新の [GA ビルド](rn/using/rn-overview.md). バージョンを確認する方法については、[この節](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
+>インスタンスは AWS でホストされ、最新の [GA ビルド](rn/using/rn-overview.md)でアップグレードされている必要があります。バージョンを確認する方法については、[この節](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
 
 ### コントロールパネルにアクセスするには？
 
@@ -107,7 +107,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 ### コントロールパネルのよくある質問（FAQ）
 
-Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)します。
+Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)します。
 
 ### SFTP 管理
 
@@ -146,4 +146,4 @@ Campaign Classic コミュニティへの参加：既存の質問の回答を検
 
 ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。 問題の解決やトラブルシューティングのヘルプとして、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
 
-新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview) に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)を参照してください。
+新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview) に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)を参照してください。

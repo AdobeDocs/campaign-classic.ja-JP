@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: '[!DNL Gold Standard] リリース'
-description: Campaign Classicに関するリリースノートおよび互換性マトリックス [!DNL Gold Standard]
+description: Campaign Classic に関するリリースノートおよび互換性マトリックス [!DNL Gold Standard]
 feature: Overview
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: f20ac97be9390fd7e6fd6a6c4d738c0fde9c72c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1676'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 ![](../../assets/v7-only.svg)
 
-このページでは、のリリースノートと互換性マトリックスを参照してください。 [!DNL Gold Standard] リリース。
+このページで、[!DNL Gold Standard] リリースのリリースノートと互換性マトリックスを確認できます。
 
 ## [!DNL Gold Standard] リリースノート
 
@@ -117,11 +117,11 @@ _2020 年 4 月 29 日_
 
 ビルド（9032@3a9dc9c）には、以下の修正が含まれています。
 
-* E メール内のリンクの追跡に関するセキュリティを改善。これは、あらゆる顧客に対してデフォルトで有効です。さらに、強化されたセキュリティ機能が利用できます。この機能はカスタマーケアにご連絡いただくと有効にできます。これを非ホスト型顧客が有効にするための手順と機能の詳細については、[セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
+* E メール内のリンクの追跡に関するセキュリティを改善。これは、あらゆる顧客に対してデフォルトで有効です。さらに、強化されたセキュリティ機能が利用できます。この機能はカスタマーケアにご連絡いただくと有効にできます。これを非ホスト型顧客が有効にするための手順と機能の詳細については、[セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
 
 >[!CAUTION]
 >
->トラッキングリンクを使用したプッシュ通知、またはアンカータグを使用した配信で問題が発生した場合は、トラッキングリンク用の新しい署名メカニズムを無効にすることをお勧めします。手順について詳しくは、[このページ](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
+>トラッキングリンクを使用したプッシュ通知、またはアンカータグを使用した配信で問題が発生した場合は、トラッキングリンク用の新しい署名メカニズムを無効にすることをお勧めします。手順について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
 
 * LINE 配信に画像が表示されない可能性がある問題を修正しました。（NEO-23207）
 * SFTP キーに基づく認証が Debian 9 で動作しない&#x200B;**ファイル転送**&#x200B;アクティビティの問題を修正しました。（NEO-23183）
@@ -194,7 +194,7 @@ _2019 年 8 月 13 日_
 
 ## [!DNL Gold Standard] 互換性マトリックス{#compatibility-matrix-gs}
 
-このセクションでは、 **Adobe Campaign Classic[!DNL Gold Standard]** 19.1 ビルド。 このリストに含まれていない製品とバージョンは、このバージョンの Adobe Campaign とは互換性がありません。
+この節では、**Adobe Campaign Classic[!DNL Gold Standard]** のビルド 19.1 でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、このバージョンの Adobe Campaign とは互換性がありません。
 
 >[!CAUTION]
 >特に断りのない限り、すべてのマイナーリリースがサポートされます。
@@ -317,7 +317,7 @@ _2019 年 8 月 13 日_
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016 年</p>
+<p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
 <p>警告：Linux で Campaign サーバーを実行している場合、Microsoft SQL Server はプライマリデータベースとしてサポートされません。</p>
@@ -392,10 +392,10 @@ _2019 年 8 月 13 日_
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019 年</p>
-<p>2017 年</p>
-<p>2016 年</p>
-<p>2014 年</p>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
 <p>2012 SP1 および SP2</p>
 </td>
 </tr>
@@ -453,8 +453,8 @@ _2019 年 8 月 13 日_
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016 年</p>
-<p>2012 年</p>
+<p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>

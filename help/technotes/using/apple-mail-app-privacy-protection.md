@@ -16,11 +16,11 @@ ht-degree: 2%
 
 ## 変更点
 
-2021 年に、Appleはネイティブの Mail アプリに新しいプライバシー保護機能を導入しました。 このアプリにAppleのメールプライバシー保護機能が含まれるようになりました。 基本的に、送信者は、Appleのメールプライバシー保護機能の有効化を選択した受信者に関する情報を収集するために、トラッキングピクセルを使用できなくなりました。 [詳細を表示](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ja){target=&quot;_blank&quot;}。
+2021 年に、Appleはネイティブの Mail アプリに新しいプライバシー保護機能を導入しました。 このアプリにAppleのメールプライバシー保護機能が含まれるようになりました。 基本的に、送信者は、Appleのメールプライバシー保護機能の有効化を選択した受信者に関する情報を収集するために、トラッキングピクセルを使用できなくなりました。 [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ja){target=&quot;_blank&quot;}。
 
 ## キャンペーンへの影響
 
-Adobe Campaignには、追跡ピクセルを使用して電子メールの開封を追跡する機能が用意されています。 この機能は、ターゲティングとキャンペーンだけでなく、指標にも使用できます。 例えば、電子メールの開封率を使用して、キャンペーンの効果とユーザーエンゲージメントを測定できます。 つまり、セグメント化、ターゲティング、指標はキャンペーンの影響を受ける可能性があります。 [詳細を表示](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html#in-addition-to-measuring-opens%2C-what-else-is-impacted%3F){target=&quot;_blank&quot;}。
+Adobe Campaignには、追跡ピクセルを使用して電子メールの開封を追跡する機能が用意されています。 この機能は、ターゲティングとキャンペーンだけでなく、指標にも使用できます。 例えば、電子メールの開封率を使用して、キャンペーンの効果とユーザーエンゲージメントを測定できます。 つまり、セグメント化、ターゲティング、指標はキャンペーンの影響を受ける可能性があります。 [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html#in-addition-to-measuring-opens%2C-what-else-is-impacted%3F){target=&quot;_blank&quot;}。
 
 ## 実行すべきアクション
 

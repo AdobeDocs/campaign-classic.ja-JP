@@ -136,9 +136,10 @@ ht-degree: 100%
 
 ### PostgreSQL {#postgresql}
 
-次の 2 つの方法があります。第 1 の方法（作業用テーブルを使用）のほうが若干高速です。
+次の 2 つの方法があります。第 1 の方法（ワークテーブルを使用）のほうが若干高速です。
 
-**作業用テーブル**
+
+**ワークテーブル**
 
 ```
 CREATE TABLE NmsPropositionRcp_tmp AS SELECT * FROM nmspropositionrcp WHERE 0=1;

@@ -29,7 +29,7 @@ Adobe Campaignでの配信品質に関する概念とベストプラクティス
 
 Adobeプラットフォームによる E メールの効率的な送受信に関するすべての技術的な推奨事項など、配信品質の詳細については、 [Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja).
 
-## 動作原理 {#operating-principle}
+## 動作の原則 {#operating-principle}
 
 1 つ以上のAdobe Campaignインスタンスの出力を制御して、1 つのドメインに応じて送信される E メールの数を制限できます。 例えば、 **yahoo.com** アドレスを指定し、その他のすべてのドメインに対して 1 時間に 100,000 件のメッセージを設定します。
 

@@ -21,7 +21,7 @@ ht-degree: 100%
 
 キューブを作成するには、次の手順に従います。
 
-1. 作業用テーブルを選択します。[作業用テーブルの選択](#selecting-the-work-table)を参照してください。
+1. 作業用テーブルを選択します。[ワークテーブルの選択](#selecting-the-work-table)を参照してください。
 1. ディメンションを定義します。[ディメンションの定義](#defining-dimensions)を参照してください。
 1. 測定を定義します。[指標の構築](#building-indicators)を参照してください。
 1. 集計を作成します（オプション）。[集計の計算と使用](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates)を参照してください。
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 次に、実装手順を示します。すべてのオプションとその説明については、この章の他の節を参照してください。
 
-## 作業用テーブルの選択 {#selecting-the-work-table}
+## ワークテーブルの選択 {#selecting-the-work-table}
 
 キューブを作成するには、キューブのリストの上にある「**[!UICONTROL 新規]**」ボタンをクリックします。
 

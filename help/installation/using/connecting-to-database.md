@@ -44,7 +44,8 @@ ht-degree: 98%
 
    ![](assets/wf-external-account-functions.png)
 
-「**[!UICONTROL パラメーター]**」タブでは、テーブル用およびインデックス用の固有の作業用テーブル領域をそれぞれ定義できます。
+「**[!UICONTROL パラメーター]**」タブでは、テーブル用およびインデックス用の固有のワークテーブル領域をそれぞれ定義できます。
+
 
 ## 一時的な接続の作成 {#creating-a-temporary-connection}
 

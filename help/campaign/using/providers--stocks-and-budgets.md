@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: orchestrate-campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 100%
 

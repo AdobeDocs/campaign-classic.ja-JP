@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: E メールにバーコードを挿入する
-description: E メールにバーコードを挿入する
+title: メールへのバーコードの挿入
+description: メールへのバーコードの挿入
 audience: delivery
 content-type: reference
 topic-tags: sending-emails
 source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# E メールにバーコードを挿入する{#insert-a-barcode-in-an-email}
+# メールへのバーコードの挿入{#insert-a-barcode-in-an-email}
 
 ![](../../assets/common.svg)
 

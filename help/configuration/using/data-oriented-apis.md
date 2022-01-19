@@ -53,7 +53,7 @@ XML ドキュメントは、データベースの MEMO タイプのフィール�
 
 この **ExecuteQuery** メソッドは、 [ExecuteQuery (xtk:queryDef)](#executequery--xtk-querydef-).
 
-### 書き込む {#write}
+### Write {#write}
 
 書き込みコマンドを使用すると、単純なドキュメントや複雑なドキュメントを書き込み、基本の 1 つ以上のテーブルにエントリを記述できます。
 

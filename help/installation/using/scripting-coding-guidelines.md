@@ -9,7 +9,7 @@ exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '766'
-ht-degree: 61%
+ht-degree: 62%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 61%
 
 ## スクリプト作成
 
-詳しくは、[Campaign JSAPI のドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html)を参照してください。
+詳しくは、[Campaign JSAPI のドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja)を参照してください。
 
 ワークフロー、Web アプリケーション、JSSP を使用してスクリプトを作成する場合、次のベストプラクティスに従ってください。
 

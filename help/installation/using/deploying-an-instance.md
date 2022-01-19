@@ -167,7 +167,7 @@ POP 設定を指定したら、 **テスト** 正しいことを確認するた�
 
 Web トラッキング（トラッキングモード、タグの作成と挿入など）について詳しくは、 [このドキュメント](../../configuration/using/about-web-tracking.md).
 
-### 動作原理 {#operating-principle}
+### 動作の原則 {#operating-principle}
 
 インスタンスのトラッキングを有効にすると、送信中に配信の URL が変更され、トラッキングが有効になります。
 

@@ -9,7 +9,7 @@ exl-id: e6638870-3141-4f12-b904-db436127c0d1
 source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->[Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) には、SOAP 呼び出しとAdobe Campaignでの JavaScript の使用に関する追加情報と、アプリケーションで使用されるすべてのメソッドおよび関数への完全なリファレンスが含まれています。
+>[Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) には、SOAP 呼び出しとAdobe Campaignでの JavaScript の使用に関する追加情報と、アプリケーションで使用されるすべてのメソッドおよび関数への完全なリファレンスが含まれています。
 
 ## 購読 (nms:subscription) {#subscribe--nms-subscription-}
 

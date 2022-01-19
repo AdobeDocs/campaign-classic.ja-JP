@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: フォームの指定
-description: フォームの指定
+title: フォームの特定
+description: フォームの特定
 audience: configuration
 content-type: reference
 topic-tags: input-forms
@@ -9,11 +9,11 @@ exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
 source-git-commit: cf4e316e9c9bce467e2bd2bd04097f55b3dbb9c7
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 45%
+ht-degree: 59%
 
 ---
 
-# フォームの指定{#identifying-a-form}
+# フォームの特定{#identifying-a-form}
 
 ![](../../assets/common.svg)
 

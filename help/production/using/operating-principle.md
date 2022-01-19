@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 動作原理
-description: 動作原理
+title: 動作の原則
+description: 動作の原則
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -13,18 +13,18 @@ ht-degree: 10%
 
 ---
 
-# 動作原理{#operating-principle}
+# 動作の原則{#operating-principle}
 
 ![](../../assets/v7-only.svg)
 
 技術的には、Adobe Campaignプラットフォームは複数のモジュールに基づいています。
 
-Adobe Campaignモジュールは多数あります。 継続的に動作するものもあれば、管理タスク（データベース接続を設定する場合など）を実行するために起動する場合もあれば、繰り返し実行するタスク（トラッキング情報の統合など）を実行する場合もあります。
+Adobe Campaignモジュールは多数あります。 Some operate continuously, while others are started up occasionally to perform administrative tasks (e.g. to configure the database connection) or to run a recurrent task (e.g. consolidating tracking information).
 
 Adobe Campaign モジュールには 3 つのタイプがあります。
 
-* マルチインスタンスモジュール：すべてのインスタンスに対して 1 つのプロセスを実行します。 これは、次のモジュールに適用されます。 **web**, **syslogd**, **trackinglogd** および **監視** ( **config-default.xml** ファイル ) です。
-* モノインスタンスモジュール：インスタンスごとに 1 つのプロセスを実行します。 これは、次のモジュールに適用されます。 **mta**, **wfserver**, **inMail**, **sms** および **stat** ( **config-`<instance>`.xml** ファイル ) です。
+* マルチインスタンスモジュール：すべてのインスタンスに対して 1 つのプロセスを実行します。 This applies to the following modules: **web**, **syslogd**, **trackinglogd** and **watchdog** (activities from the **config-default.xml** file).
+* モノインスタンスモジュール：インスタンスごとに 1 つのプロセスを実行します。 This applies to the following modules: **mta**, **wfserver**, **inMail**, **sms** and **stat** (activities from the **config-`<instance>`.xml** file).
 * ユーティリティモジュール：これらは、時々実行され、時々または繰り返し実行される操作 (**cleanup**, **config**、トラッキングログのダウンロードなど )。
 
 モジュールの管理は、コマンドラインツールを使用して実行します **nlserver** 次にインストール： **bin** インストールフォルダーのディレクトリ。
@@ -43,9 +43,9 @@ Adobe Campaign モジュールには 3 つのタイプがあります。
 | billing | システムアクティビティレポートをbilling@neolane.netに送信する |
 | cleanup | データベースのクレンジング：は、データベースから古いデータを削除し、database engine optimizer が使用する統計の更新を実行します。 |
 | config | サーバー設定の変更 |
-| エクスポート | コマンドラインに書き出し中：Adobe Campaignクライアントコンソールで作成した書き出しモデルをコマンドラインに送信できます。 |
-| fileconvert | 設定サイズのファイルを変換しています |
-| インポート | コマンドラインに読み込み中：を使用すると、Adobe Campaignクライアントコンソールで作成したインポートモデルをコマンドラインに送信できます。 |
+| エクスポート | Exporting to command line: lets you send to the command line an export model created in the Adobe Campaign client console |
+| fileconvert | Converting a set size file |
+| import | コマンドラインに読み込み中：を使用すると、Adobe Campaignクライアントコンソールで作成したインポートモデルをコマンドラインに送信できます。 |
 | inMail | インバウンドメールアナライザ |
 | installsetup | 顧客インストールファイルの可用性 |
 | javascript | SOAP API へのアクセス権を持つ JavaScript スクリプトを実行します。 |
@@ -54,7 +54,7 @@ Adobe Campaign モジュールには 3 つのタイプがあります。
 | midSourcing | ミッドソーシングモードでの配信情報の復元 |
 | モニタ | XML サーバープロセスのステータスとスケジュールされたタスクのインスタンス別表示。 |
 | MTA | メインエージェント転送メッセージ |
-| 荷物 | エンティティパッケージファイルのインポートまたはエクスポート |
+| 荷物 | Importing or exporting entity package files |
 | pdump | サーバープロセスステータスの表示 |
 | prepareda | 配信アクションの準備 |
 | 再起動 | サーバーの部分的な再起動 |

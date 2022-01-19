@@ -486,9 +486,11 @@ ht-degree: 100%
    <td> Iif(number(@_subscription) &gt; number(@_unsubscription), '+', '')+format(@_subscription - @_unsubscription, 'number', '# ##0')+ Iif(@_subscriber&gt;0,' (' + format(100*percent(@_subscription - @_unsubscription, @_subscriber), 'number', '#,##0.00')+ '%)','')<br /> </td> 
   </tr> 
   <tr> 
-   <td> ロイヤリティ<br /> </td> 
+   <td> ロイヤルティ<br />
+ </td> 
    <td> -<br /> </td> 
-   <td> 該当期間の購読者のロイヤリティ率。<br /> </td> 
+   <td> 該当期間のサブスクライバーのロイヤルティ率。<br />
+ </td> 
    <td> 1-percent(@_unsubscription,@_subscriber+@_subscription-@_unsubscription)<br /> </td> 
   </tr> 
  </tbody> 

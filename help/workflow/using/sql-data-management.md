@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-「**SQL データ管理**」アクティビティでは、独自の SQL スクリプトを記述して、作業用テーブルの作成と作業用テーブルへのデータ入力を行えます。
+「**SQL データ管理**」アクティビティでは、独自の SQL スクリプトを記述して、ワークテーブルを作成および設定する独自の SQL クエリを記述できます。
 
 ## 前提条件 {#prerequisites}
 
@@ -57,14 +57,15 @@ ht-degree: 100%
 
    このアクティビティでは、スクリプト内で次の変数を使用できます。
 
-   * **activity.tableName**：アウトバウンド作業用テーブルの SQL 名
+   * **activity.tableName**：アウトバウンドワークテーブルの SQL 名
    * **task.incomingTransitionByName(‘name’).tableName**：使用する受信トランジションによって実行される作業用テーブルの SQL 名（トランジションは名前で識別されます）
 
       >[!NOTE]
       >
       >(&#39;name&#39;) 値は、トランジションプロパティの「**[!UICONTROL 名前]**」フィールドに対応しています。
 
-1. アウトバウンド作業用テーブルを作成するコマンドが SQL スクリプトに既に含まれている場合は、「**[!UICONTROL 作業用テーブルを自動作成]**」オプションの選択を解除します。選択を解除しない場合、ワークフローが実行されると作業用テーブルが自動的に作成されます。
+1. アウトバウンド作業用テーブルを作成するコマンドが SQL スクリプトに既に含まれている場合は、「**[!UICONTROL 作業用テーブルを自動作成]**」オプションの選択を解除します。選択を解除しない場合、ワークフローが実行されるとワークテーブルが自動的に作成されます。
+
 1. 「**[!UICONTROL OK]**」をクリックして、アクティビティの設定を確定します。
 
 これでアクティビティが設定され、ワークフローで実行する準備が整いました。
@@ -81,7 +82,8 @@ ht-degree: 100%
 >
 >この節にあるスクリプトのサンプルは、PostgreSQL で実行することを想定しています。
 
-以下のスクリプトは、作業用テーブルを作成し、この同じ作業用テーブルにデータを挿入します。
+以下のスクリプトは、ワークテーブルを作成し、この同じワークテーブルにデータを挿入します。
+
 
 ```
 CREATE UNLOGGED TABLE <%= activity.tableName %> (
@@ -98,7 +100,8 @@ FROM nmsRecipient
 GROUP BY iRecipientId, sFirstName, sMiddleName, sLastName, sEmail;
 ```
 
-以下のスクリプトは、CTAS 操作（CREATE TABLE AS SELECT）を実行し、作業用テーブルのインデックスを作成します。
+以下のスクリプトは、CTAS 操作（CREATE TABLE AS SELECT）を実行し、ワークテーブルのインデックスを作成します。
+
 
 ```
 CREATE TABLE <%= activity.tableName %>
@@ -112,7 +115,8 @@ CREATE INDEX ON <%= activity.tableName %> (sEmail);
 ANALYZE <%= activity.tableName %> (sEmail);
 ```
 
-以下のスクリプトは、2 つの作業用テーブルを結合します。
+以下のスクリプトは、2 つのワークテーブルを結合します。
+
 
 ```
 CREATE TABLE <%= activity.tableName %>

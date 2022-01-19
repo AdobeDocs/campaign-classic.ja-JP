@@ -5,7 +5,7 @@ description: Campaign Classic のサポートが必要な場合は、こちら�
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 ### コントロールパネルのよくある質問（FAQ）
 
-Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)します。
+Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)します。
 
 ### SFTP 管理
 
@@ -146,4 +146,4 @@ Campaign Classic コミュニティへの参加：既存の質問の回答を検
 
 ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。 問題の解決やトラブルシューティングのヘルプとして、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
 
-新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview) に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)を参照してください。
+新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview) に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)を参照してください。

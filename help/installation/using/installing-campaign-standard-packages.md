@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 6c23dadb5b6523e17e242de43a908ca86ed7cc23
+source-git-commit: 035297523c25061f28751c28df86d562f40f45ea
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 27%
+source-wordcount: '1289'
+ht-degree: 26%
 
 ---
 
@@ -241,7 +241,7 @@ ht-degree: 27%
 
 ### Message Center パッケージ {#message-center-package}
 
-配信チャネル（E メール、モバイルチャネル、モバイルアプリチャネルなど）を トランザクションメッセージ（Message Center パッケージ）をインストールする前に、 E メールのみの Message Center プロジェクトを開始し、その後新しいチャネルを追加する必要がある場合は、次の手順に従う必要があります。
+配信チャネル（E メール、モバイルチャネル、モバイルアプリチャネル、LINE など）を トランザクションメッセージ（Message Center パッケージ）をインストールする前に、 E メールのみの Message Center プロジェクトを開始し、その後新しいチャネルを追加する必要がある場合は、次の手順に従う必要があります。
 
 1. 新しいチャネル（例： ）をインストールします。 **モバイルチャネル**、パッケージインポートウィザード ( **[!UICONTROL ツール/詳細設定/パッケージをインポート/Adobe Campaignパッケージ]**) をクリックします。
 1. ファイル ( **[!UICONTROL ツール/詳細設定/パッケージをインポート/ファイル]**) をクリックし、次を選択します。
@@ -254,6 +254,19 @@ ht-degree: 27%
 
    ![](assets/messagecenter_install_channel.png)
 
+
+### [!DNL LINE] チャネル設定{#line-package}
+
+次の手順で [!DNL LINE] チャネルに追加する場合は、まず [!DNL LINE] パッケージ。
+
+ミッドソーシング設定のコンテキストでは、次の操作が必要です。
+
+* のインストール [!DNL LINE] マーケティングインスタンスと MID インスタンスの両方のパッケージ
+
+* のセットアップ [!DNL LINE] 配信モードを変更して、mkt インスタンスの外部アカウントで mid インスタンスを指すようにします。 [詳細情報](../../delivery/using/line-channel.md#configure-line-external)
+
+* のセットアップ [!DNL LINE] MID インスタンスの外部アカウントの資格情報。
+
 >[!CAUTION]
 >
->LINE より前に Message Center パッケージがインストールされている場合、LINE 用の Message Center 配信テンプレートは使用できません
+>用の Message Center の配信テンプレート [!DNL LINE] 以前に Message Center パッケージがインストールされている場合、チャネルは使用できません [!DNL LINE].

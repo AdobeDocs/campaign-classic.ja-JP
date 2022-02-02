@@ -7,10 +7,10 @@ feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 671e29425e8962ced833c10303b6edce7afda462
+source-git-commit: 9ee95f6d60500b18e242c6d648488615f47a4459
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 100%
+source-wordcount: '746'
+ht-degree: 96%
 
 ---
 
@@ -141,10 +141,21 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 
    ![](assets/do-not-localize/triggers_12.png)
 
-1. 次のコマンドを使用して、これらのサービスアカウント資格情報を nlserver に貼り付けます。
+1. 手順 6 で生成した秘密鍵を使用します。
+
+   これらの資格情報を使用して既にトリガーを設定している場合、秘密鍵はこのコネクタ設定で同じにする必要があります。
+
+1. `base64 ./private.key > private.key.base64` というコマンドを使用して秘密鍵をエンコードします。これにより、base64 コンテンツが新しいファイル `private.key.base64` に保存されます。
+
+   >[!NOTE]
+   >
+   >秘密鍵をコピーして貼り付けるときに、余分な行が自動的に追加される場合があります。 これは、秘密鍵をエンコードする前に忘れずに削除してください。
+
+1. ファイル `private.key.base64` からコンテンツをコピーします。
+
+1. Adobe Campaign インスタンスがインストールされている各コンテナに SSH 経由でログインし、`neolane` ユーザーとして次のコマンドを実行して Adobe Campaign にプロジェクト資格情報を追加します。これにより、**[!UICONTROL テクニカルアカウント]**&#x200B;資格情報がインスタンス設定ファイルに挿入されます。
 
    ```
-   nlserver config -instance:<instanceName> -setimsjwtauth::<ImsOrgId>/<ClientId>/<TechnicalAccountId>/<ClientSecret>/<$(base64 -w0 /path/to/private.key)>
+   nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
-
 これで、Analytics コネクタの使用を開始し、顧客の行動をトラッキングできます。

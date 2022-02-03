@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 60fc0fd2a10f05abb77843ef0cb69e44f35a9648
 workflow-type: tm+mt
-source-wordcount: '2243'
-ht-degree: 100%
+source-wordcount: '2216'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-[Gold Standard Initiative](../../rn/using/gold-standard.md) の一環として、アドビでは従来のデータセンターを廃止します。 Campaign Classic インスタンスは、パブリッククラウド Amazon Web Services（AWS）に転送する必要があります。この取り組みについて詳しくは、[こちら](dc-migration.md)を参照してください。
+Adobeがレガシーデータセンターを廃止：Campaign Classicインスタンスは、Public Cloud Amazon Web Services(AWS) に転送する必要があります。 この取り組みについて詳しくは、[こちら](dc-migration.md)を参照してください。
 
 このプロジェクトに関するよくある質問、Campaign 環境への影響、その他の役に立つリソースについては、以下を参照してください。
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
    最初のステップとして、移行時に同じ Campaign Classic ビルドを維持します。
 
-   次のステップで、最新の Campaign Classic GA ビルドにアップグレードします。詳しくは、[ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md) および [Campaign Gold Standard リリースノート](../../rn/using/gold-standard.md)を参照してください。
+   次のステップで、最新の Campaign Classic GA ビルドにアップグレードします。詳しくは、[このページ](../../rn/using/rn-overview.md)を参照してください。
 
 * **移行後の問題に対処するために、どのようなプランがありますか？**
 
@@ -63,7 +63,7 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
    アドビのサーバーの IP アドレスが変わります。そのため、新しい IP アドレスをお客様のシステムの許可リストに追加する必要がある場合があります。
 
-   許可リストの IP について詳しくは、[ここをクリック](#config)してください。
+   [詳細情報](#config) の IP につ許可リストいて
 
 * **SFTP／FTP アクセス用に許可リストに追加したポートはどのように扱われますか？**
 
@@ -73,7 +73,7 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
    アドビのサーバーの IP アドレスが変わります。そのため、新しい IP アドレスをお客様のシステムの許可リストに追加する必要がある場合があります。
 
-   許可リストの IP について詳しくは、[ここをクリック](#config)してください。
+   [詳細情報](#config) の IP につ許可リストいて
 
 * **サブドメインのデリゲーションはどのように扱われますか？**
 
@@ -155,7 +155,7 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
    アドビのサーバーの IP アドレスが変わります。そのため、新しい IP アドレスをお客様のシステムの許可リストに追加する必要がある場合があります。
 
-   許可リストの IP について詳しくは、[ここをクリック](#config)してください。
+   [詳細情報](#config) IP on 許可リスト
 
 * **移行後にすべての JavaScript メモリ設定パラメーターは正しく設定されますか？**
 
@@ -169,7 +169,7 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
    新しいサーバーの場所に応じて変更される場合があります。ただし、お客様は現在のタイムゾーンをそのまま使用できます。
 
-   Adobe Campaign Classic v7 のタイムゾーン管理について詳しくは、[こちらをクリック](../../workflow/using/managing-time-zones.md)してください。
+   [詳細情報](../../workflow/using/managing-time-zones.md) Adobe Campaign Classic v7 でのタイムゾーン管理について
 
 
 ## セキュリティと権限

@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: sending-messages-on-mobiles
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: ad75b8050133b331f6fbfa5042a444a874ba3cb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1315'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 ## LINE チャネルの設定 {#setting-up-line-channel}
 
-[!DNL LINE] アカウントと外部アカウントを作成する前に、まず LINE パッケージをインスタンスにインストールする必要があります。詳しくは、 [この節](../../installation/using/installing-campaign-standard-packages.md#line-package).
+[!DNL LINE] アカウントと外部アカウントを作成する前に、まず LINE パッケージをインスタンスにインストールする必要があります。詳しくは、[この節](../../installation/using/installing-campaign-standard-packages.md#line-package)を参照してください。
 
 まず、Adobe Campaign にリンクできるように、[!DNL LINE] アカウントを作成する必要があります。[!DNL LINE] アカウントをモバイルアプリケーションで追加したユーザーに [!DNL LINE] メッセージを送信できます。外部アカウントと [!DNL LINE] アカウントは、プラットフォームの機能管理者のみが管理できます。
 

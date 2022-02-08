@@ -1,29 +1,27 @@
 ---
 product: campaign
-title: 例
-description: 例
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: 分散型マーケティングのサンプル
+description: 分散型マーケティングのサンプル
+feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 100%
+source-wordcount: '1371'
+ht-degree: 96%
 
 ---
 
-# 例{#examples}
+# 分散型マーケティングのサンプル{#distributed-marketing-samples}
 
 ![](../../assets/v7-only.svg)
 
-## ローカルキャンペーン（フォーム）の作成  {#creating-a-local-campaign--by-form-}
+## ローカルキャンペーン（フォーム）の作成 {#creating-a-local-campaign--by-form-}
 
 **フォーム**&#x200B;タイプの Web インターフェイスを使用するには、**Web アプリケーション**&#x200B;を使用する必要があります。Web アプリケーションには、設定に応じて、パーソナライズされたあらゆる種類の定義済み要素を含めることができます。例えば、専用の API を使用して、ターゲット、予算、コンテンツなどを評価するリンクを含めることができます。
 
 >[!NOTE]
 >
->詳しくは、API のドキュメントを参照してください。参照できるドキュメントは、契約によって異なります。[API](../../configuration/using/about-web-services.md) を参照してください。
+>API について詳しくは、専用ドキュメントを参照してください。 [詳細情報](../../configuration/using/about-web-services.md)。
 >
 >この例で使用する Web アプリケーションは、Adobe Campaign に付属している Web アプリケーションではありません。キャンペーンでフォームを使用するには、専用の Web アプリケーションを作成する必要があります。
 
@@ -73,7 +71,7 @@ ht-degree: 100%
    var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
    ```
 
-## 協調キャンペーンの作成（ターゲットの承認）  {#creating-a-collaborative-campaign--by-target-approval-}
+## 協調キャンペーン（ターゲットの承認）の作成 {#creating-a-collaborative-campaign--by-target-approval-}
 
 ### はじめに {#introduction}
 
@@ -159,7 +157,7 @@ ht-degree: 100%
 
 1. レコードを保存します。
 
-#### キャンペーンの公開 {#publishing-the-campaign}
+#### キャンペーンをパブリッシュ {#publishing-the-campaign}
 
 「**[!UICONTROL キャンペーン]**」タブから&#x200B;**キャンペーンパッケージ**&#x200B;を追加できるようになりました。
 
@@ -178,7 +176,7 @@ ht-degree: 100%
 
    ![](assets/mkg_dist_use_case_target_valid2.png)
 
-## 協調キャンペーンの作成（フォーム）  {#creating-a-collaborative-campaign--by-form-}
+## 協調キャンペーン（フォーム）の作成 {#creating-a-collaborative-campaign--by-form-}
 
 ### はじめに {#introduction-1}
 

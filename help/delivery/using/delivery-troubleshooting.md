@@ -1,15 +1,12 @@
 ---
 product: campaign
-title: トラブルシューティング
-description: 配信のパフォーマンスと配信の監視に関する問題のトラブルシューティング方法について詳しく説明します。
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+title: 配信の送信に関するトラブルシューティング
+description: 配信パフォーマンスと配信の監視に関する問題のトラブルシューティング方法について詳しく説明します
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 100%
+source-wordcount: '799'
+ht-degree: 98%
 
 ---
 

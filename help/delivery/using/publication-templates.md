@@ -2,14 +2,11 @@
 product: campaign
 title: パブリッシュテンプレート
 description: パブリッシュテンプレート
-audience: delivery
-content-type: reference
-topic-tags: content-management
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -87,7 +84,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >コンテンツの生成について詳しくは、[コンテンツインスタンスの作成](using-a-content-template.md#creating-a-content-instance)を参照してください。
+   >コンテンツの生成について詳しくは、 [コンテンツインスタンスの作成](using-a-content-template.md#creating-a-content-instance).
 
 ### 配信 {#delivery}
 
@@ -97,7 +94,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->コンテンツに基づく配信作成の例については、[コンテンツインスタンスの配信](using-a-content-template.md#delivering-a-content-instance)を参照してください。
+>コンテンツに基づく配信作成の例については、 [コンテンツインスタンスを配信](using-a-content-template.md#delivering-a-content-instance).
 
 ### 集約 {#aggregator}
 

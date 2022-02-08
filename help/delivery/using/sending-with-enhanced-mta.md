@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: Enhanced MTA を使用した Adobe Campaign Classic での送信
-description: Adobe Campaign Enhanced MTA を使用した E メール送信の範囲と特異性について説明します。
-audience: delivery
-content-type: reference
-topic-tags: sending-emails
+description: Adobe Campaign Enhanced MTA を使用した E メール送信の範囲と特性について説明します
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '1991'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: ターゲットマッピングの選択
-description: ターゲットマッピングの選択
-audience: delivery
-content-type: reference
-topic-tags: using-delivery-templates
+description: マッピングをターゲットにする方法を説明します
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -35,4 +32,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->新しいターゲットマッピングを作成することもできます。ただし、この操作はエキスパートユーザー向け機能として用意されています。詳しくは、[設定ガイド](../../configuration/using/target-mapping.md)を参照してください。
+>新しいターゲットマッピングを作成することもできます。ただし、この操作はエキスパートユーザー向け機能として用意されています。詳しくは、[この節](../../configuration/using/target-mapping.md)を参照してください。

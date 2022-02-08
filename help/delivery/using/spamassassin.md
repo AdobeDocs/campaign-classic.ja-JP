@@ -2,22 +2,17 @@
 product: campaign
 title: SpamAssassin
 description: SpamAssassin を使用した E メールスパム検出の設定方法を説明します。
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # SpamAssassin{#spamassassin}
 
 ![](../../assets/common.svg)
-
-## SpamAssassin について {#about-spamassassin}
 
 Adobe Campaign は、E メールスパムフィルタリングに使用されるサードパーティのサービスである、[SpamAssassin](https://spamassassin.apache.org) と連携するように設定できます。これを使用すると、E メールを採点して、受信時に使用されるスパム対策ツールによってメッセージがスパムとみなされるリスクがあるかどうかを判断できます。
 
@@ -35,7 +30,7 @@ SpamAssassin は、次のような様々なスパム検出技法を活用しま�
 >
 >要素がスパムかどうかを左右するルールは、SpamAssassin で管理され、権限を持つ管理者が編集できます。
 
-## SpamAssassin の使用 {#using-spamassassin}
+## Campaign での SpamAssassin の使用 {#using-spamassassin}
 
 E メール配信を作成して、そのコンテンツを定義したら、以下の手順に従って、リスクを評価します。
 

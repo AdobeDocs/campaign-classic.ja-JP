@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: 匿名トラッキング
-description: 匿名トラッキング
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
+description: 匿名トラッキングの設定方法を説明します
 exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 6%
+source-wordcount: '212'
+ht-degree: 5%
 
 ---
 

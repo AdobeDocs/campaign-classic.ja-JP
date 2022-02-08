@@ -1,14 +1,13 @@
 ---
 product: campaign
 title: メッセージのトラッキングと監視
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: メッセージのトラッキングと監視の方法を説明します
+feature: Monitoring
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '438'
+ht-degree: 94%
 
 ---
 
@@ -34,13 +33,13 @@ ht-degree: 100%
 >
 >これらの手順はエキスパートユーザーのみ実行できます。
 
-## トラッキング {#tracking-deliveries}
+## 行動の追跡 {#track-behaviour}
 
 受信者の行動を十分に把握するために、受信、開封、リンクのクリック、購読解除など、受信者が配信にどのように反応するかを追跡できます。Campaign Classic では、この情報は、配信のターゲットとなる受信者の「トラッキング」タブと配信の「トラッキング」タブに表示されます。
 
 **ヒント**：メッセージトラッキングは、デフォルトで有効になっています。URL を設定するには、配信ウィザードの下部のセクションで「URL を表示」オプションを選択します。メッセージの URL ごとに、トラッキングを有効化するかどうかを選択できます。
 
-詳しくは、[トラッキングの設定](how-to-configure-tracked-links.md)と[トラッキング指標](../../reporting/using/delivery-reports.md#tracking-indicators)の節を参照してください。
+詳しくは、 [トラッキングの設定](how-to-configure-tracked-links.md) セクションおよび [トラッキング指標](../../reporting/using/delivery-reports.md#tracking-indicators) 説明。
 
 ## 配信パフォーマンス {#delivery-performances}
 

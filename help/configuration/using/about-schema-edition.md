@@ -2,11 +2,9 @@
 product: campaign
 title: スキーマエディションについて
 description: スキーマエディションの概要
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+feature: Schema Extension
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '1011'
 ht-degree: 64%
@@ -23,7 +21,7 @@ Adobe Campaign では、次の目的でデータスキーマを使用してい�
 * Campaign アプリケーション内での異なるデータオブジェクト間リンクの定義
 * 各オブジェクトに含まれている個々のフィールドの定義と記述
 
-Adobe Campaign キャンペーンの組み込みテーブルとそのやり取りについて詳しくは、[この節](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html)を参照してください。
+Adobe Campaign キャンペーンのビルトインテーブルとそのやり取りについて詳しくは、[この節](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html)を参照してください。
 
 ## スキーマの拡張または作成 {#extending-or-creating-schemas}
 

@@ -1,15 +1,12 @@
 ---
 product: campaign
-title: 要素と属性
-description: 要素と属性
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+title: スキーマ要素と属性
+description: param 要素
 exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 11%
+ht-degree: 8%
 
 ---
 
@@ -73,7 +70,7 @@ param:==help
    * float
    * html
    * int64
-   * リンク
+   * link
    * 長い
    * メモ
    * MNTOKEN

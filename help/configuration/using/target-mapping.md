@@ -2,13 +2,10 @@
 product: campaign
 title: ターゲットマッピング
 description: ターゲットマッピングの作成方法を説明します
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: 468a986d7cfb8a4c51229cf81b6656ca2d101f40
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '499'
 ht-degree: 2%
 
 ---
@@ -124,7 +121,3 @@ Adobe Campaignが新しい受信者データスキーマで動作するには、
 * 配信の作成時に、ターゲットの選択時に直接マッピングを選択します（下図を参照）。
 
 ![](assets/mapping_selection_ciblage.png)
-
-**関連トピック**
-
-* [顧客の要求に迅速に応じて、データにアクセス](https://helpx.adobe.com/campaign/kb/simplifying-campaign-management-acc.html#Quicklyrespondtocustomerrequeststoaccesstheirdata)

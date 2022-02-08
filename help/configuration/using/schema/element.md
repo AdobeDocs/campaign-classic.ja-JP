@@ -1,15 +1,12 @@
 ---
 product: campaign
-title: 要素と属性
-description: 要素と属性
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+title: スキーマ要素と属性
+description: 要素要素
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '2012'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -192,7 +189,7 @@ _operation （文字列）, advanced （文字列）, aggregate （文字列）,
    * float
    * html
    * int64
-   * リンク
+   * link
    * 長い
    * メモ
    * MNTOKEN

@@ -2,14 +2,11 @@
 product: campaign
 title: 一貫性ルール
 description: 一貫性ルール
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -21,9 +18,9 @@ ht-degree: 100%
 
 Adobe Campaign では、キャンペーンタイポロジに含まれる一連のルールによって、コミュニケーションの一貫性を実現しています。一貫性ルールの目的は、受信者に送信される配信のボリューム、特性、関連性などをコントロールすることです。
 
-**処理能力**&#x200B;ルール：例えば、メッセージの配信に関わるプラットフォームに過負荷がかかる状況を回避できます。例えば、ダウンロードリンクを含むスペシャルオファーを一度に大勢の人に送信することは、サーバーのダウンにつながるので、避けなければなりません。また、電話キャンペーンを実施する際には、コールセンターの処理能力を超えないよう注意する必要があります。詳しくは、[処理能力の制御](#controlling-capacity)を参照してください。
+**処理能力**&#x200B;ルール：例えば、メッセージの配信に関わるプラットフォームに過負荷がかかる状況を回避できます。例えば、ダウンロードリンクを含むスペシャルオファーを一度に大勢の人に送信することは、サーバーのダウンにつながるので、避けなければなりません。また、電話キャンペーンを実施する際には、コールセンターの処理能力を超えないよう注意する必要があります。詳しくは、 [制御容量](#controlling-capacity).
 
-## 処理能力の制御 {#controlling-capacity}
+## 制御容量 {#controlling-capacity}
 
 メッセージを配信する前に、配信や、その配信によって生成される場合がある応答（インバウンドメッセージ）を処理する能力が組織にあること（物理的インフラストラクチャ）、また購読者に連絡するための通話数を処理できること（コールセンターの処理能力）などを確認する必要があります。
 
@@ -56,11 +53,11 @@ Adobe Campaign では、キャンペーンタイポロジに含まれる一連�
 
    詳しくは、[この節](#monitoring-consumption)を参照してください。
 
-## 最大負荷の定義 {#defining-the-maximum-load}
+## 最大負荷を定義 {#defining-the-maximum-load}
 
-最大負荷を定義するには、稼動ラインを定義する必要があります。その方法は 2 つあります。1 つ以上の稼動ラインを手動で作成するか（[稼動ラインを 1 つずつ追加する](#adding-availability-lines-one-by-one)を参照）、稼動の範囲を作成するかです。期間の頻度は自動化できます（[稼働ラインセットを追加](#add-a-set-of-availability-lines)を参照）。
+最大負荷を定義するには、稼動ラインを定義する必要があります。それには、次の 2 つのオプションを使用できます。1 つ以上の稼動ラインを手動で作成できます ( [稼動ラインを 1 つずつ追加する](#adding-availability-lines-one-by-one)) をクリックするか、可用性の範囲を作成します。 期間の頻度は自動化できます（[稼働ラインセットを追加](#add-a-set-of-availability-lines)を参照）。
 
-### 稼動ラインの個別追加 {#adding-availability-lines-one-by-one}
+### 稼動ラインを 1 つずつ追加する {#adding-availability-lines-one-by-one}
 
 稼動ラインを作成するには、「**[!UICONTROL 追加]**」ボタンをクリックして、「**[!UICONTROL 稼動ラインを追加]**」を選択します。稼動の期間と負荷を入力します。
 

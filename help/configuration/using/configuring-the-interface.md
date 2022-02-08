@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: インターフェイスの設定
-description: インターフェイスの設定
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+description: Campaign インターフェイスの設定方法を説明します
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 3%
+source-wordcount: '313'
+ht-degree: 0%
 
 ---
 

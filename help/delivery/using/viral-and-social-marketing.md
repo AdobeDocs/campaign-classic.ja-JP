@@ -2,13 +2,10 @@
 product: campaign
 title: バイラルおよびソーシャルマーケティング
 description: バイラルおよびソーシャルマーケティング
-audience: delivery
-content-type: reference
-topic-tags: subscriptions-and-referrals
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '608'
 ht-degree: 100%
 
 ---
@@ -16,8 +13,6 @@ ht-degree: 100%
 # バイラルおよびソーシャルマーケティング{#viral-and-social-marketing}
 
 ![](../../assets/common.svg)
-
-## バイラルマーケティングについて {#about-viral-marketing}
 
 Adobe Campaign では、バイラルマーケティングを促進するツールを設定できます。
 

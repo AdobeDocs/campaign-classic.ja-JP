@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: スキーマの再生成
-description: スキーマの再生成
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+title: スキーマを再生成
+description: Campaign スキーマの再生成方法を説明します
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 8%
+source-wordcount: '137'
+ht-degree: 3%
 
 ---
 
-# スキーマの再生成{#regenerating-schemas}
+# スキーマを再生成{#regenerating-schemas}
 
 ![](../../assets/v7-only.svg)
 

@@ -2,11 +2,9 @@
 product: campaign
 title: データモデルのベストプラクティス
 description: Campaign Classicデータモデルの操作方法
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: c281d437907efb4d514bec7cacc698c383f3fe53
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
 source-wordcount: '4024'
 ht-degree: 54%
@@ -284,7 +282,7 @@ Adobe Campaign 内のレコードの必要性を最小限に抑えるには、�
 
 * データ設計は使い勝手と機能性に影響を与えます。 1 対多の関係を多く持つデータモデルを設計すると、ユーザーがアプリケーション内で意味のあるロジックを作成するのが難しくなります。 マーケターが技術者でない場合は、1 対多のフィルターロジックを正しく理解して構築するのは困難なことがあります。
 * 必須フィールドをすべて 1 つのテーブルにまとめておくと、クエリの作成が容易になります。 結合を回避できれば、テーブル間でいくつかのフィールドを複製することもパフォーマンス的には良い場合があります。
-* オファーの重み付けの式や配信などのように、1 対多の関係を参照できない組み込み機能もあります。
+* オファーの重み付けの式や配信などのように、1 対多の関係を参照できないビルトイン機能もあります。
 
 ## 大きいテーブル {#large-tables}
 

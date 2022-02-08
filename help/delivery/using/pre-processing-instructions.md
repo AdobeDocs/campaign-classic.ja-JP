@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: トラッキングされる URL の命令の前処理
-description: E メールの URL をスクリプト化し、その URL を引き続きトラッキングするための命令の前処理について詳しく説明します。
-audience: delivery
-content-type: reference
-topic-tags: tracking-messages
+description: E メールの URL をスクリプト化し、引き続きトラッキングするための前処理命令について詳しく説明します
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

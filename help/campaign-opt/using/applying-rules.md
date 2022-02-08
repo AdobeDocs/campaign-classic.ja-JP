@@ -2,18 +2,15 @@
 product: campaign
 title: ルールの適用
 description: ルールの適用
-audience: campaign
-content-type: reference
-topic-tags: campaign-optimization
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
-source-git-commit: 5806690f764d2e5dfb5651597ff68b33bb399b44
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1042'
+ht-degree: 98%
 
 ---
 
-# ルールの適用{#applying-rules}
+# タイポロジルールの適用{#applying-rules}
 
 ![](../../assets/common.svg)
 
@@ -56,7 +53,7 @@ ht-degree: 100%
 >
 >フィルタールールでは、配信または配信の概要に基づいて、フィルターの適用条件を指定できます。詳しくは、[フィルタールールの調整](filtering-rules.md#conditioning-a-filtering-rule)を参照してください。
 
-## 計算頻度の調整 {#adjusting-calculation-frequency}
+## 計算頻度を調整 {#adjusting-calculation-frequency}
 
 判別はデータベースのクレンジングワークフローの一環として自動的に毎晩実行されますが、値は 1 日以上保存しておくことができます。
 

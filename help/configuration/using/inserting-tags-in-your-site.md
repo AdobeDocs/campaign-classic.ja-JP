@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: サイトへのタグの挿入
-description: サイトへのタグの挿入
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
+title: サイトに Web トラッキングタグを挿入します
+description: サイトに Web トラッキングタグを挿入する方法を説明します
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 5%
+source-wordcount: '328'
+ht-degree: 0%
 
 ---
 
-# サイトへのタグの挿入{#inserting-tags-in-your-site}
+# サイトに Web トラッキングタグを挿入します{#inserting-tags-in-your-site}
 
 ![](../../assets/v7-only.svg)
 

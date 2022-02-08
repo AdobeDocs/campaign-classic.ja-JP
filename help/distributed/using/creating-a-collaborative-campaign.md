@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: 協調キャンペーンの作成
-description: 協調キャンペーンの作成
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+description: 協調キャンペーンの作成方法を説明します
+feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 100%
+source-wordcount: '990'
+ht-degree: 98%
 
 ---
 
@@ -173,6 +171,6 @@ ht-degree: 100%
 
 詳しくは、[承認プロセス](creating-a-local-campaign.md#approval-process)の節を参照してください。
 
-## オーダーの承認 {#approving-an-order}
+## オーダーを承認 {#approving-an-order}
 
 協調キャンペーンパッケージのオーダー承認プロセスは、ローカルキャンペーンの承認プロセスと同じです。[この節](creating-a-local-campaign.md#approving-an-order)を参照してください。

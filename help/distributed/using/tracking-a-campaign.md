@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: キャンペーントラッキング
-description: キャンペーントラッキング
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: キャンペーンのトラッキング
+description: キャンペーン分散型マーケティングを使用したキャンペーンのトラッキング方法を説明します
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 96%
 
 ---
 
-# キャンペーントラッキング{#tracking-a-campaign}
+# キャンペーンのトラッキング{#tracking-a-campaign}
 
 ![](../../assets/v7-only.svg)
 
@@ -24,7 +21,7 @@ ht-degree: 100%
 * [パッケージのフィルタリング](#filter-packages),
 * [パッケージの編集](#edit-packages),
 * [パッケージのキャンセル](#cancel-a-package),
-* [パッケージの再初期化](#reinitializing-a-package).
+* [パッケージを再初期化](#reinitializing-a-package).
 
 ## パッケージのフィルタリング {#filter-packages}
 
@@ -86,7 +83,7 @@ ht-degree: 100%
 
 セントラルエンティティは、必要であればキャンセルされたパッケージにアクセスし、再初期化することができます（次の節を参照）。再初期化されたパッケージは、承認され、使用が開始されれば、再びローカルエンティティに提供できます。パッケージの再初期化の手順については、次の節で説明します。
 
-## パッケージの再初期化 {#reinitializing-a-package}
+## パッケージを再初期化 {#reinitializing-a-package}
 
 パブリッシュ済みのキャンペーンパッケージは、再初期化し、修正を加えて、再びローカルエンティティに提供することができます。
 

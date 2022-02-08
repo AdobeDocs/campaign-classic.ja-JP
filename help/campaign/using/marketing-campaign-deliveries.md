@@ -2,12 +2,12 @@
 product: campaign
 title: マーケティングキャンペーン配信
 description: マーケティングキャンペーン配信の詳細
-audience: campaign
+feature: Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '1552'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 100%
 
 各種の配信（ダイレクトメール、E メール、モバイルチャネル）に適した設定が提示されます。[詳細情報](../../delivery/using/steps-about-delivery-creation-steps.md)。
 
-## 配信の開始 {#starting-a-delivery}
+## 配信を開始 {#starting-a-delivery}
 
 すべての承認が許可されたら、配信をいつでも開始できます。これ以降の配信手順は、配信の種類によって異なります。E メールまたはモバイルチャネルの配信については、[オンライン配信の開始](#starting-an-online-delivery)を、ダイレクトメール配信については、[オフライン配信の開始](#starting-an-offline-delivery)を参照してください。
 
-### オンライン配信の開始 {#starting-an-online-delivery}
+### オンライン配信を開始 {#starting-an-online-delivery}
 
 すべての承認リクエストが許可されたら、配信ステータスが「**[!UICONTROL 確認待ち]**」に変わり、オペレーターによって開始できるようになります。必要に応じて、配信を開始するレビュー担当者として割り当てられている Adobe Campaign オペレーター（またはオペレーターのグループ）に、配信をいつでも開始できることが通知されます。
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 確認メッセージが表示され、このアクションを確実に実行できます。
 
-### オフライン配信の開始 {#starting-an-offline-delivery}
+### オフライン配信を開始 {#starting-an-offline-delivery}
 
 すべての承認が許可されたら、配信ステータスが「**[!UICONTROL 抽出を保留中]**」に変わります。抽出ファイルは特別なワークフローから作成されます。デフォルト設定では、このワークフローは、ダイレクトメール配信が抽出保留中の場合に自動的に開始されます。プロセスが進行中の場合、ダッシュボードに表示され、リンクから編集できます。
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 抽出ワークフローが正常に実行されたら、抽出ファイルを承認する必要があります（配信設定で抽出ファイルの承認が選択されている場合）。
 
-詳しくは、[抽出ファイルの承認](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file)を参照してください。
+詳しくは、 [抽出ファイルの承認](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
 
 **手順 2 - サービスプロバイダーへのメッセージの承認**
 
@@ -126,7 +126,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->MRM を使用している場合は、共同作業している複数の参加者が使用できるマーケティングリソースのライブラリも管理できます。[マーケティングリソースの管理](../../mrm/using/managing-marketing-resources.md)を参照してください。
+>MRM を使用している場合は、共同作業している複数の参加者が使用できるマーケティングリソースのライブラリも管理できます。詳しくは、 [マーケティングリソースの管理](../../mrm/using/managing-marketing-resources.md).
 
 ### ドキュメントの追加 {#adding-documents}
 
@@ -155,7 +155,7 @@ ht-degree: 100%
 
 このビューからドキュメントを編集および変更することもできます。
 
-### 配信の概要からのリンク済みリソースの関連付けと構造化 {#associating-and-structuring-resources-linked-via-a-delivery-outline}
+### 配信の概要を介してリンクしたリソースの関連付けと構造化 {#associating-and-structuring-resources-linked-via-a-delivery-outline}
 
 >[!NOTE]
 >
@@ -205,7 +205,7 @@ ht-degree: 100%
    >
    >マーケティングリソースについて詳しくは、[マーケティングリソースの管理](../../mrm/using/managing-marketing-resources.md)を参照してください。
 
-#### 概要の選択 {#selecting-an-outline}
+#### アウトラインの選択 {#selecting-an-outline}
 
 次の例に示すように、配信ごとに、抽出の概要専用のセクションから関連付ける概要を選択できます。
 

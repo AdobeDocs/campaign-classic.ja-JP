@@ -1,23 +1,18 @@
 ---
 product: campaign
 title: SQL 関数の追加
-description: SQL 関数の追加
-audience: configuration
-content-type: reference
-topic-tags: api
+description: 追加の SQL 関数の定義方法を説明します
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 1%
+source-wordcount: '1026'
+ht-degree: 0%
 
 ---
 
-# SQL 関数の追加{#adding-additional-sql-functions}
+# 追加の SQL 関数の定義{#adding-additional-sql-functions}
 
 ![](../../assets/v7-only.svg)
-
-## はじめに {#introduction}
 
 Adobe Campaignでは、 **独自の機能** データベースが提供する関数と、コンソールでまだ使用できない関数の両方で、SQL 関数にアクセスできます。 これは、集計関数（平均、最大、合計）などで役立ちます。この関数は、サーバー上でのみ計算でき、コンソールに式を「手動」で書き込むよりも、特定の関数を実装する方法がデータベースで提供される場合に便利です。
 

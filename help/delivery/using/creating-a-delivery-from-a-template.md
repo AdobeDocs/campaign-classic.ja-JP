@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: テンプレートからの配信の作成
-description: テンプレートからの配信の作成
-audience: delivery
-content-type: reference
-topic-tags: using-delivery-templates
+description: テンプレートから配信を作成する方法を説明します
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 84%
 
 ---
 
@@ -17,7 +14,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-## 配信へのテンプレートのリンク {#linking-the-template-to-a-delivery}
+## テンプレートを配信にリンク {#linking-the-template-to-a-delivery}
 
 既存のテンプレートをベースにして配信を作成するには、利用可能な配信テンプレートのリストからテンプレートを選択します。
 
@@ -31,7 +28,7 @@ ht-degree: 100%
 
 使用する配信テンプレートを選択し、「**[!UICONTROL OK]**」をクリックします。
 
-## テンプレートの実行 {#executing-the-template}
+## テンプレートを実行 {#executing-the-template}
 
 最初に配信を作成することなく、テンプレートリストから直接テンプレートの実行を開始できます。そのためには、実行するテンプレートを選択して右クリックし、**[!UICONTROL アクション／配信テンプレートを実行]**&#x200B;を選択します。
 
@@ -45,4 +42,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->配信の設定について詳しくは、[E メールコンテンツの定義](defining-the-email-content.md)を参照してください。
+>配信の設定について詳しくは、 [E メールコンテンツを定義](defining-the-email-content.md).

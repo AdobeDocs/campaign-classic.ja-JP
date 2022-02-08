@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: 配信ステータス
-description: 配信ダッシュボードで使用できるステータスについて確認します。
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+description: 配信ダッシュボードで使用できるステータスについて詳しく説明します
+feature: Monitoring
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 100%
+source-wordcount: '642'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +29,7 @@ ajouter screenshot -->
 
 * [配信ダッシュボード](delivery-dashboard.md)
 * [配信のトラブルシューティング](delivery-troubleshooting.md)
-* [配信品質について](about-deliverability.md)
+* [配信品質の概要](about-deliverability.md)
 
 ## 配信ステータスのリスト {#list-delivery-statuses}
 

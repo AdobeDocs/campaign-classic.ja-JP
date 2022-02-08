@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: パーソナライゼーションフィールド
-description: パーソナライゼーションフィールド
-audience: delivery
-content-type: reference
-topic-tags: personalizing-deliveries
+description: パーソナライゼーションフィールドの使用方法を説明します
+feature: Personalization
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 100%
+source-wordcount: '930'
+ht-degree: 99%
 
 ---
 

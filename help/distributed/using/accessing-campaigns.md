@@ -2,14 +2,12 @@
 product: campaign
 title: キャンペーンへのアクセス
 description: キャンペーンへのアクセス
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+feature: Distributed Marketing
 exl-id: 5534bd5b-6888-4bf6-8a39-109c6fc0f6c3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 100%
 
 キャンペーンのタイプと選択したオプションによって、キャンペーンはローカルにまたは一元的に実行できます。
 
-## キャンペーンへのアクセス {#accessing-the-campaign}
+## キャンペーンにアクセス {#accessing-the-campaign}
 
 オーダーが承認され、使用可能な日付に達すると、キャンペーンがローカルに作成され、使用できるようになります。ローカルオペレーターに、キャンペーンが使用できることが通知されます。
 

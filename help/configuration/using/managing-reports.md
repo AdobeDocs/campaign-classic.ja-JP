@@ -2,11 +2,8 @@
 product: campaign
 title: レポートの管理
 description: レポートの管理
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%

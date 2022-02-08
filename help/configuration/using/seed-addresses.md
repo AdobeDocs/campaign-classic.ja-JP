@@ -2,14 +2,12 @@
 product: campaign
 title: シードアドレス
 description: シードアドレス
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
+feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 3%
+source-wordcount: '332'
+ht-degree: 8%
 
 ---
 
@@ -44,7 +42,7 @@ ht-degree: 3%
 
 次の手順に従います。
 
-1. の拡張機能の作成 **nms:seedMember** スキーマ。 詳しくは、 [スキーマの拡張](../../configuration/using/extending-a-schema.md).
+1. の拡張機能の作成 **nms:seedMember** スキーマ。 詳しくは、[この節](../../configuration/using/extending-a-schema.md)を参照してください。
 1. この新しい拡張機能で、のルートに新しい要素を追加します。 **[!UICONTROL seedMember]** を次のパラメーターと共に使用します。
 
    ```
@@ -82,7 +80,7 @@ ht-degree: 3%
    >    * 内 **nms:seedMember** 拡張子の場合、E メールアドレスを格納するフィールドには、 **name=&quot;email&quot;** 属性として。 SQL 名は、受信者スキーマに既に使用されている「sEmail」とは異なる名前を使用する必要があります。 この属性は、 **`<element name="custom_cus_person" />`** 要素。
 
 
-1. を変更します。 **[!UICONTROL seedMember]** それに応じてフォームを作成し、 **[!UICONTROL シードアドレス]** ウィンドウ 詳しくは、 [フォーム構造](../../configuration/using/form-structure.md).
+1. を変更します。 **[!UICONTROL seedMember]** それに応じてフォームを作成し、 **[!UICONTROL シードアドレス]** ウィンドウ 詳しくは、[このページ](../../configuration/using/form-structure.md)を参照してください。
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"

@@ -1,14 +1,11 @@
 ---
 product: campaign
 title: Web トラッキングモード
-description: Web トラッキングモード
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
+description: Web トラッキングモードの選択方法を説明します
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '682'
 ht-degree: 1%
 
 ---

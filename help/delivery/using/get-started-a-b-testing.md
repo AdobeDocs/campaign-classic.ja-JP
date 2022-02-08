@@ -2,11 +2,9 @@
 product: campaign
 title: A/B テストの概要
 description: Campaign Classic での A/B テストについて詳しく説明します。
-audience: delivery
-content-type: reference
-topic-tags: a-b-testing
+feature: A/B Testing
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%

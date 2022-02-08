@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: 配信エラーの理解
+title: 配信の失敗について
 description: 配信エラーの理解
-audience: delivery
-content-type: reference
-topic-tags: monitoring-deliveries
+feature: Monitoring
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '2665'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# 配信エラーについて{#understanding-delivery-failures}
+# 配信の失敗について{#understanding-delivery-failures}
 
 ![](../../assets/common.svg)
 
@@ -192,7 +190,7 @@ ht-degree: 100%
 
 従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、配信期間を変更するには、配信または配信テンプレートの高度なパラメーターに移動し、対応するフィールドに目的の期間を指定します。[有効期間の定義](steps-sending-the-delivery.md#defining-validity-period)を参照してください。
 
-デフォルトの設定では、1 時間間隔で 5 回、その後 4 日間は 1 日に 1 回再試行されます。再試行の回数の変更は、グローバルに（アドビの技術管理者にお問い合わせください）、または配信や配信テンプレートごとに（[再試行の設定](steps-sending-the-delivery.md#configuring-retries)を参照）おこなうことができます。
+デフォルトの設定では、1 時間間隔で 5 回、その後 4 日間は 1 日に 1 回再試行されます。再試行の回数の変更は、グローバルに (Adobeの技術管理者にお問い合わせください )、または配信または配信テンプレートごとにおこなうことができます。 詳しくは、 [再試行の設定](steps-sending-the-delivery.md#configuring-retries).
 
 ## 同期エラーと非同期エラー {#synchronous-and-asynchronous-errors}
 

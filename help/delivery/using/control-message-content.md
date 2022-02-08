@@ -1,19 +1,17 @@
 ---
 product: campaign
 title: Adobe Campaign Classic の配信品質について
-description: Adobe Campaign Classic の配信品質管理について説明します。
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
+description: Adobe Campaign の配信品質管理について説明します。
+feature: Deliverability
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 100%
+source-wordcount: '772'
+ht-degree: 97%
 
 ---
 
-# メッセージコンテンツの制御 {#control-message-content}
+# メッセージコンテンツの制御{#control-message-content}
 
 ![](../../assets/common.svg)
 
@@ -31,7 +29,7 @@ E メールが受信者に確実に届くようにし、E メールの配信品�
 
 >[!NOTE]
 >
->E メールコンテンツの編集について詳しくは、[E メールコンテンツの定義](defining-the-email-content.md)と[パーソナライズされたコンテンツの作成](design-and-personalize.md)を参照してください。
+>E メールコンテンツの編集について詳しくは、 [E メールコンテンツを定義](defining-the-email-content.md) および [パーソナライズされたコンテンツの作成](design-and-personalize.md).
 
 ## 送信者アドレス {#sender-address}
 
@@ -39,7 +37,7 @@ E メールが受信者に確実に届くようにし、E メールの配信品�
 
 インスタンスレベル（**[!UICONTROL ツール／詳細設定／デプロイメントウィザード...]**...）または最も頻繁に使用されるシナリオで、必ず正しいアドレスを指定する必要があります。
 
-詳しくは、[送信者の定義](defining-the-email-content.md)を参照してください。
+詳しくは、[このページ](defining-the-email-content.md)を参照してください。
 
 ## パーソナライズ機能 {#personalization}
 

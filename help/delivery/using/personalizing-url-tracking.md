@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: URLトラッキングオプションの設定
-description: URLトラッキングオプションの設定
-audience: delivery
-content-type: reference
-topic-tags: tracking-messages
+title: URL トラッキングオプションの設定
+description: URL トラッキングオプションの設定方法を説明します
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '174'
+ht-degree: 94%
 
 ---
 
-# URLトラッキングオプションの設定{#personalizing-url-tracking}
+# URL トラッキングオプションの設定{#personalizing-url-tracking}
 
 ![](../../assets/common.svg)
 
@@ -21,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->E メール内の画像の管理もこのウィンドウで設定します。[画像の追加](defining-the-email-content.md#adding-images)を参照してください。
+>E メール内の画像の管理もこのウィンドウで設定します。詳しくは、 [画像を追加](defining-the-email-content.md#adding-images).
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 

@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: 条件付きコンテンツ
-description: 条件付きコンテンツ
-audience: delivery
-content-type: reference
-topic-tags: personalizing-deliveries
+description: 条件付きコンテンツの追加方法を説明します
+feature: Personalization
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +20,7 @@ ht-degree: 100%
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#conditionnal-content-video)
 
 
-## メールでの条件の使用 {#using-conditions-in-an-email}
+## E メールでの条件の使用 {#using-conditions-in-an-email}
 
 次の例では、受信者の性別と興味の対象に基づいて動的にパーソナライズされるメッセージを作成する方法について説明します。
 
@@ -77,7 +75,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_conditional_content08.png)
 
-## 多言語メールの作成 {#creating-multilingual-email}
+## 多言語の E メールを作成 {#creating-multilingual-email}
 
 以下の例では、多言語メールの作成方法について説明します。コンテンツは、受信者の優先言語に基づいて、いずれかの言語で表示されます。
 

@@ -1,12 +1,10 @@
 ---
 product: campaign
 title: Adobe Campaign Classicのスキーマリファレンスについて
-description: Adobe Campaign Classicデータベースの概念的データモデルを拡張するために拡張スキーマを設定する方法について説明します。
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+description: Adobe Campaign Classicデータベースの概念的データモデルを拡張するための拡張スキーマの設定方法について説明します。
+feature: Schema Extension
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 58%

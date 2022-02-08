@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: データスキーマ
-description: データスキーマ
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+description: Campaign データスキーマの概要
+feature: Schema Extension
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 64%
+source-wordcount: '411'
+ht-degree: 67%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->標準のデータスキーマは、Adobe Campaign Classicコンソールの管理者のみが削除できます。
+>ビルトインデータスキーマは、Adobe Campaign Classic コンソールの管理者のみが削除できます。
 
 ![](assets/d_ncs_integration_schema_navtree.png)
 

@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: 配信の設定と送信
-description: 配信の設定と送信
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
+description: 配信の設定と送信の方法を説明します
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 100%
+source-wordcount: '1622'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +32,7 @@ ht-degree: 100%
    >
    >配信が重複した場合はパラメーターがリセットされます。
 
-* **[!UICONTROL 複数のウェーブを使用して送信]**：詳しくは、[複数のウェーブを使用した送信](#sending-using-multiple-waves)を参照してください。
+* **[!UICONTROL 複数のウェーブを使用して送信]**:詳しくは、 [複数のウェーブを使用して送信](#sending-using-multiple-waves).
 
 * **[!UICONTROL SMTP 配信をテスト]**：このオプションを使用すると、SMTP を使用した配信の送信をテストできます。配信は、SMTP サーバーに接続するところまで進められますが、送信されません。
 
@@ -45,11 +42,11 @@ ht-degree: 100%
 
 * **[!UICONTROL BCC で E メールを送信]**：このオプションを使用すると、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存することができます。詳しくは、[この節](sending-messages.md#archiving-emails)を参照してください。
 
-## 配信の確認 {#confirming-delivery}
+## 配信を確定 {#confirming-delivery}
 
 配信の設定が終わり、送信準備が整ったら、必ず配信分析を実行してください。
 
-これをおこなうには、「**[!UICONTROL 送信]**」をクリックし、目的のアクションを選択して、「**[!UICONTROL 分析]**」をクリックします。詳しくは、[分析の起動](steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
+これをおこなうには、「**[!UICONTROL 送信]**」をクリックし、目的のアクションを選択して、「**[!UICONTROL 分析]**」をクリックします。詳しくは、 [分析を開始](steps-validating-the-delivery.md#analyzing-the-delivery).
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -61,9 +58,9 @@ ht-degree: 100%
 
 * [配信の監視](about-delivery-monitoring.md)
 * [配信エラーについて](understanding-delivery-failures.md)
-* [メッセージトラッキングについて](about-message-tracking.md)
+* [メッセージのトラッキングについて](about-message-tracking.md)
 
-## 配信の送信スケジュール設定 {#scheduling-the-delivery-sending}
+## 配信の送信スケジュールの設定 {#scheduling-the-delivery-sending}
 
 配信をスケジュールしたり、母集団に対する営業頻度を管理して過剰な営業活動をしないようするために、メッセージの配信を遅らせることができます。
 
@@ -105,7 +102,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_email_del_plan_calendar_timezone.png)
 
-## 複数のウェーブを使用した送信 {#sending-using-multiple-waves}
+## 複数のウェーブを使用して送信 {#sending-using-multiple-waves}
 
 負荷を分散するには、配信を複数のバッチに分割します。全体の配信を基準にしてバッチの数とその比率を設定します。
 
@@ -180,9 +177,9 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-デフォルトでは、配信後の最初の日には、最低 1 時間の間隔をおいて 24 時間のうちに 5 回の再試行がスケジュールされます。その後は、「**[!UICONTROL 有効性]**」タブで指定される配信期限が来るまで、1 日 1 回の再試行がスケジュールされます（[有効期間の定義](#defining-validity-period)を参照）。
+デフォルトでは、配信後の最初の日には、最低 1 時間の間隔をおいて 24 時間のうちに 5 回の再試行がスケジュールされます。その後は、「**[!UICONTROL 有効性]**」タブで指定される配信期限が来るまで、1 日 1 回の再試行がスケジュールされます。詳しくは、 [有効期間を定義](#defining-validity-period).
 
-## 有効期間の定義 {#defining-validity-period}
+## 有効期間を定義 {#defining-validity-period}
 
 メッセージの送信（および再試行）が可能な期間は、配信が開始されたときから配信期限までです。配信期限は、配信プロパティの「**[!UICONTROL 有効性]**」タブに表示されます。
 

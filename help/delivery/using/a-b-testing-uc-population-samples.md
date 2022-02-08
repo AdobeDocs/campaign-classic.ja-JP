@@ -1,12 +1,9 @@
 ---
 product: campaign
 title: 母集団サンプルの設定
-description: 専用の使用例を通してA/Bテストを実行する方法を学びます。
-audience: delivery
-content-type: reference
-topic-tags: a-b-testing
+description: 専用のユースケースを通じて A/B テストを実行する方法を説明します。
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%

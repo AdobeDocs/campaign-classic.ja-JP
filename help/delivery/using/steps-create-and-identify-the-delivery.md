@@ -2,14 +2,11 @@
 product: campaign
 title: 配信の作成と識別
 description: 配信の作成と識別
-audience: delivery
-content-type: reference
-topic-tags: about-deliveries-and-channels
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: 3b8d685642fc74d918a0e312c66d5e4f7b424192
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -34,7 +31,7 @@ ht-degree: 100%
 
 ニーズに合わせて具体的なパラメーターをあらかじめ設定しておきたい場合は、新しい配信テンプレートを作成できます。テンプレートについて詳しくは、[この節](about-templates.md)を参照してください。
 
-## 配信の識別 {#identifying-the-delivery}
+## 配信を特定 {#identifying-the-delivery}
 
 配信を識別するには、パラメーターを設定する必要があります。手順は次のとおりです。
 

@@ -2,14 +2,12 @@
 product: campaign
 title: スキーマの拡張
 description: スキーマの拡張方法を学ぶ
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
+feature: Schema Extension
 exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 10%
+source-wordcount: '327'
+ht-degree: 11%
 
 ---
 
@@ -63,5 +61,5 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->変更を考慮に入れるには、スキーマを再生成する必要があります。 詳しくは、 [スキーマの再生成](../../configuration/using/regenerating-schemas.md) 」セクションに入力します。\
->変更がデータベースの構造に影響を与える場合は、更新を実行する必要があります。 詳しくは、[データベース構造の更新](../../configuration/using/updating-the-database-structure.md)の節を参照してください。
+>変更を考慮に入れるには、スキーマを再生成する必要があります。 詳しくは、[このページ](../../configuration/using/regenerating-schemas.md)を参照してください。\
+>変更がデータベースの構造に影響を与える場合は、更新を実行する必要があります。 詳しくは、[このページ](../../configuration/using/updating-the-database-structure.md)を参照してください。

@@ -1,14 +1,11 @@
 ---
 product: campaign
 title: 要素と属性
-description: 要素と属性
-audience: configuration
-content-type: reference
-topic-tags: schema-reference
+description: dbindex 要素
 exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
-source-git-commit: 34404fbe935e68f3cc11d937839209443ad4ca60
+source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---

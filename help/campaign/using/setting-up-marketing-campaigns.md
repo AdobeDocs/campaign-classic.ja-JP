@@ -2,11 +2,9 @@
 product: campaign
 title: マーケティングキャンペーンの作成
 description: マーケティングキャンペーンを作成して実行する方法について説明します。
-audience: campaign
-content-type: reference
-topic-tags: orchestrate-campaigns
+feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f95b75adf8f46d8301d800451ea0e62629690a8f
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 100%

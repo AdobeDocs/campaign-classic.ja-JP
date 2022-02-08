@@ -2,18 +2,16 @@
 product: campaign
 title: '"使用例：条件によるシードアドレスの選択"'
 description: '"使用例：条件によるシードアドレスの選択"'
-audience: delivery
-content-type: reference
-topic-tags: using-seed-addresses
+feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 100%
+source-wordcount: '912'
+ht-degree: 92%
 
 ---
 
-# ユースケース：条件に基づくシードアドレスの選択{#use-case-selecting-seed-addresses-on-criteria}
+# ユースケース：基準に基づくシードアドレスの選択{#use-case-selecting-seed-addresses-on-criteria}
 
 ![](../../assets/common.svg)
 
@@ -30,21 +28,21 @@ ht-degree: 100%
 * 配信の送信準備ができていること。
 * 使用するシードアドレスが、共通の値を持っていること。その値は、Adobe Campaign にあらかじめ存在するフィールドの値でかまいません。この例では、すべてのシードアドレスの「部門」フィールドに「購買」という値が含まれるものとします。これは、Adobe Campaign にデフォルトで用意されているフィールドではありません。
 
-## 手順 1 - 配信の作成 {#step-1---creating-a-delivery}
+## 手順 1 — 配信の作成 {#step-1---creating-a-delivery}
 
-配信の作成手順について詳しくは、[E メール配信の作成](creating-an-email-delivery.md)の節で説明しています。
+配信の作成手順について詳しくは、 [E メール配信の作成](creating-an-email-delivery.md) 」セクションに入力します。
 
 この例では、配信責任者がニュースレターを作成し、受信者を選択します。
 
 ![](assets/dlv_seeds_usecase_01.png)
 
-## 手順 2 - 共通値の作成 {#step-2---creating-a-common-value}
+## 手順 2 — 共通値の作成 {#step-2---creating-a-common-value}
 
 この例（購買部門）のような共通の値を作成するには、最初にシードアドレスの&#x200B;**データスキーマ**&#x200B;を拡張し、関連する入力フォームを編集する必要があります。
 
 ### データスキーマの拡張 {#extending-the-data-schema}
 
-スキーマの拡張について詳しくは、[設定ガイド](../../configuration/using/data-schemas.md)を参照してください。
+スキーマの拡張について詳しくは、 [この節](../../configuration/using/data-schemas.md).
 
 1. **[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードで、**[!UICONTROL 新規]**&#x200B;アイコンをクリックします。
 1. **[!UICONTROL データスキーマの作成]**&#x200B;ウィンドウで、「**[!UICONTROL スキーマの拡張]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
@@ -95,7 +93,7 @@ ht-degree: 100%
 
    更新が完了したら、ウィザードを閉じます。
 
-1. Adobe Campaign との接続を一旦切断し、再接続します。これで、シードアドレスのデータスキーマに加えた変更が有効になります。ただし、変更をシードアドレス画面の表示にも反映させるには、スキーマに対応する&#x200B;**[!UICONTROL 入力フォーム]**&#x200B;を更新する必要があります。[入力フォームの更新](#updating-the-input-form)の節を参照してください。
+1. Adobe Campaign との接続を一旦切断し、再接続します。これで、シードアドレスのデータスキーマに加えた変更が有効になります。ただし、変更をシードアドレス画面の表示にも反映させるには、スキーマに対応する&#x200B;**[!UICONTROL 入力フォーム]**&#x200B;を更新する必要があります。詳しくは、 [入力フォームを更新](#updating-the-input-form) 」セクションに入力します。
 
 #### リンクされたテーブルからのデータスキーマの拡張 {#extending-the-data-schema-from-a-linked-table}
 
@@ -131,9 +129,9 @@ ht-degree: 100%
 
 次に、**手順 5** に従ってシードアドレスの&#x200B;**[!UICONTROL 入力フォーム]**&#x200B;を更新します。
 
-[入力フォームの更新](#updating-the-input-form)の節を参照してください。
+詳しくは、 [入力フォームを更新](#updating-the-input-form) 」セクションに入力します。
 
-#### 入力フォームの更新 {#updating-the-input-form}
+#### 入力フォームを更新 {#updating-the-input-form}
 
 1. **[!UICONTROL 管理／設定／入力フォーム]**&#x200B;ノードで、シードアドレスの入力フォームを見つけます。
 
@@ -154,7 +152,7 @@ ht-degree: 100%
 
 1. 配信に使用するシードアドレスを編集し、「**[!UICONTROL 部門]**」フィールドの値として「**購買**」を入力します。
 
-## 手順 3 - 条件の定義 {#step-3---defining-the-condition}
+## 手順 3 — 条件の定義 {#step-3---defining-the-condition}
 
 配信のシードアドレスに動的条件を指定できます。手順は次のとおりです。
 

@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: パーソナライズした PDF ドキュメントの生成
-description: パーソナライズした PDF ドキュメントの生成
-audience: delivery
-content-type: reference
-topic-tags: personalizing-deliveries
+title: パーソナライズされた PDF ドキュメントの生成
+description: パーソナライズされたPDFドキュメントの生成方法
+feature: Personalization
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '480'
+ht-degree: 92%
 
 ---
 
-# パーソナライズした PDF ドキュメントの生成{#generating-personalized-pdf-documents}
+# パーソナライズされた PDF ドキュメントの生成{#generating-personalized-pdf-documents}
 
 ![](../../assets/common.svg)
 
@@ -25,7 +23,7 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 
 ドキュメントをパーソナライズする場合、E メールのパーソナライゼーションと同じ JavaScript 機能を使用します。
 
-「**[!UICONTROL メッセージの配信中にファイルのコンテンツはパーソナライズされて PDF に変換]**」オプションを有効化する必要があります。このオプションは、配信 E メールにファイルを添付する際にアクセスできます。計算済み添付ファイルについて詳しくは、[ファイルの添付](attaching-files.md)の節を参照してください。
+「**[!UICONTROL メッセージの配信中にファイルのコンテンツはパーソナライズされて PDF に変換]**」オプションを有効化する必要があります。このオプションは、配信 E メールにファイルを添付する際にアクセスできます。計算済みファイルの添付について詳しくは、 [ファイルを添付](attaching-files.md) 」セクションに入力します。
 
 請求書のヘッダーのパーソナライゼーションの例：
 
@@ -53,7 +51,7 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 
 そのためには、パーソナライゼーションブロックを設定してから、パーソナライゼーションブロックに対する呼び出しを添付ファイルに含める必要があります。
 
-**例：受信者の国に応じてパーソナライズされたロゴを挿入する**
+**例：受信者の国に応じてパーソナライズされたロゴを挿入します**
 
 **ステップ 1：添付ファイルの作成：**
 

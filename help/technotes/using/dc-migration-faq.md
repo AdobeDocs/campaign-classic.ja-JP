@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 source-git-commit: 60fc0fd2a10f05abb77843ef0cb69e44f35a9648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2216'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 ![](../../assets/v7-only.svg)
 
-Adobeがレガシーデータセンターを廃止：Campaign Classicインスタンスは、Public Cloud Amazon Web Services(AWS) に転送する必要があります。 この取り組みについて詳しくは、[こちら](dc-migration.md)を参照してください。
+アドビがレガシーデータセンターを廃止：Campaign Classic インスタンスは、Public Cloud Amazon Web Services（AWS）に転送する必要があります。 この取り組みについて詳しくは、[こちら](dc-migration.md)を参照してください。
 
 このプロジェクトに関するよくある質問、Campaign 環境への影響、その他の役に立つリソースについては、以下を参照してください。
 
@@ -63,7 +63,7 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
    アドビのサーバーの IP アドレスが変わります。そのため、新しい IP アドレスをお客様のシステムの許可リストに追加する必要がある場合があります。
 
-   [詳細情報](#config) の IP につ許可リストいて
+   許可リストの IP について詳しくは、[こちら](#config)を参照してください。
 
 * **SFTP／FTP アクセス用に許可リストに追加したポートはどのように扱われますか？**
 
@@ -73,7 +73,7 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
    アドビのサーバーの IP アドレスが変わります。そのため、新しい IP アドレスをお客様のシステムの許可リストに追加する必要がある場合があります。
 
-   [詳細情報](#config) の IP につ許可リストいて
+   許可リストの IP について詳しくは、[こちら](#config)を参照してください。
 
 * **サブドメインのデリゲーションはどのように扱われますか？**
 
@@ -155,7 +155,7 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
    アドビのサーバーの IP アドレスが変わります。そのため、新しい IP アドレスをお客様のシステムの許可リストに追加する必要がある場合があります。
 
-   [詳細情報](#config) IP on 許可リスト
+   許可リストの IP について詳しくは、[こちら](#config)を参照してください。
 
 * **移行後にすべての JavaScript メモリ設定パラメーターは正しく設定されますか？**
 
@@ -169,7 +169,7 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
    新しいサーバーの場所に応じて変更される場合があります。ただし、お客様は現在のタイムゾーンをそのまま使用できます。
 
-   [詳細情報](../../workflow/using/managing-time-zones.md) Adobe Campaign Classic v7 でのタイムゾーン管理について
+   Adobe Campaign Classic v7 でのタイムゾーン管理について詳しくは、[こちら](../../workflow/using/managing-time-zones.md)を参照してください。
 
 
 ## セキュリティと権限

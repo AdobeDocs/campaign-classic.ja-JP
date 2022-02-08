@@ -4,9 +4,9 @@ product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 60fc0fd2a10f05abb77843ef0cb69e44f35a9648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 ## 新機能
 
-* **[2022 年リリースプログラム](technotes/using/dc-migration.md)**<br/> 環境をアップグレードし、セキュリティ、インフラストラクチャ、パフォーマンスを向上
+* **[2022年リリースプログラム](technotes/using/dc-migration.md)**<br/> 環境をアップグレードし、セキュリティ、インフラストラクチャ、パフォーマンスを向上
 
 * **[1 月リリースを公開](rn/using/latest-release.md)**<br/> 新機能、改善点および修正点をリリースノートでご確認ください
 

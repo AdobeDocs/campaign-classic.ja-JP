@@ -3,10 +3,10 @@ product: campaign
 title: Campaign Classic 2019 リリース
 description: Campaign Classic 2019 リリースの詳細
 exl-id: 8a36a542-e095-4208-b624-e59845592863
-source-git-commit: 96f2ae67a5b47b80533e759713cf5b36baa8cf36
+source-git-commit: 0f31ee570ba6e763f48902e91c5d823ac297fc24
 workflow-type: tm+mt
 source-wordcount: '4854'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -161,7 +161,7 @@ Campaign Classic 実装では、次のシステムが[非推奨（廃止予定�
 
 _Campaign モバイル SDK_
 
-iOS SDK のビルド 1.0.26 が利用できるようになりました。この新しいビルドには、iOS 13 のサポートが追加されました。この新しいバージョンでは、通知の優先順位および iOS 13 プッシュ通知用の新しい登録トークン管理プロセスがサポートされるようになりました。以前のバージョンの SDK でアプリケーションを実行している場合は、新しい SDK でアプリケーションを再コンパイルする必要があります。SDK を入手するには、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+iOS SDK のビルド 1.0.26 が利用できるようになりました。この新しいビルドには、iOS 13 のサポートが追加されました。この新しいバージョンでは、通知の優先度および iOS 13 プッシュ通知用の新しい登録トークン管理プロセスがサポートされるようになりました。以前のバージョンの SDK でアプリケーションを実行している場合は、新しい SDK でアプリケーションを再コンパイルする必要があります。SDK を入手するには、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **パッチ**
 
@@ -178,7 +178,7 @@ iOS SDK のビルド 1.0.26 が利用できるようになりました。この�
 * 「**配信中に重複アドレスを除外**」オプションが選択されていない場合の配信準備の問題を修正しました。（NEO-13240）
 * ワークフローで&#x200B;**ファイル転送**&#x200B;アクティビティを使用し、「**転送後にソースファイルを削除**」オプションを使って名前にスペース文字が含まれるファイルをダウンロードする際に発生した問題を修正しました。（NEO-13411）
 * Tomcat キャッシュのクリーンアップでメモリの問題が発生する問題を修正しました。（NEO-13456）
-* Microsoft SQL 2017 で稼動している既存のコントロールインスタンスに、**実行インスタンスによるオファーエンジンのコントロール**&#x200B;組み込みパッケージをインストールする際の問題を修正しました。（NEO-13539）
+* Microsoft SQL 2017 で稼動している既存のコントロールインスタンスに、**実行インスタンスによるオファーエンジンのコントロール**&#x200B;ビルトインパッケージをインストールする際の問題を修正しました。（NEO-13539）
 * 初期化されていない変数が原因で、「**テキストコンテンツ**」タブから E メール内のトラッキングされる URL をチェック解除すると、コンソールクラッシュが発生する可能性がある問題を修正しました。（NEO-13545）
 * 中国語の送信者名のエンコードの問題を修正しました。（NEO-13837）
 * エクスプローラーからの調査回答データを表示すると発生することのあるエラーを修正しました。（NEO-14590）
@@ -227,7 +227,7 @@ _2020 年 12 月 16 日_
 >
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を通じて Campaign に接続している場合、 **2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign サーバーとクライアントコンソールの両方が Campaign に接続できるようにするには、アップグレードする必要があります。[詳細情報](../../technotes/using/ims-updates.md)
 > * このリリースには、[セキュリティ修正](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
-> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、[2021 年 9 月 日](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)（PT）に&#x200B;**廃止されました**。ホスト環境では、**2022年2月23日**（PT）まで延長サポートを受けられます。オンプレミス環境またはハイブリッド環境のお客様は、アドビカスタマーケアに連絡してサポートを 2022年2月まで延長してください。 [OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) をアドビに伝える必要があります。
+> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、[2021 年 9 月 日](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)（PT）に&#x200B;**廃止されました**。ホスト環境は、までは拡張機能のメリットがあります。  **2022 年 2 月 24 日**. オンプレミスまたはハイブリッドのお客様は、Adobeカスタマーケアに連絡して、2022 年 2 月までサポートを延長してください。 [OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) をアドビに伝える必要があります。
 
 
 

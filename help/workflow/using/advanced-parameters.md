@@ -2,14 +2,11 @@
 product: campaign
 title: 詳細設定パラメーター
 description: 詳細設定パラメーター
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-source-git-commit: 7a1b8a1cd3ad434dac5c324056113d7ec15ddd8a
+source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -35,7 +32,7 @@ ht-degree: 100%
 
 ## 画像 {#image}
 
-このフィールドでは、アクティビティにリンクする画像を変更できます。詳しくは、[アクティビティ画像の管理](managing-activity-images.md)を参照してください。
+このフィールドでは、アクティビティにリンクする画像を変更できます。詳しくは、 [アクティビティ画像の変更](managing-activity-images.md).
 
 ## 実行 {#execution}
 
@@ -67,7 +64,7 @@ ht-degree: 100%
 
 ## タイムゾーン {#time-zone}
 
-このフィールドでは、アクティビティのタイムゾーンを選択できます。詳しくは、[タイムゾーンの管理](managing-time-zones.md)を参照してください。
+このフィールドでは、アクティビティのタイムゾーンを選択できます。詳しくは、以下を参照してください。 [タイムゾーンの管理](managing-time-zones.md).
 
 ## エラーの場合 {#in-case-of-errors}
 

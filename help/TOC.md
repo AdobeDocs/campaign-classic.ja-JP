@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
+source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
 workflow-type: tm+mt
 source-wordcount: '2556'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -281,8 +281,8 @@ ht-degree: 100%
    + レポートの基本を学ぶ{#reporting-in-adobe-campaign}
       + [レポートツール](reporting/using/about-adobe-campaign-reporting-tools.md)
       + [レポートのベストプラクティス](reporting/using/best-practices.md)
-   + 組み込みレポートへのアクセス {#accessing-built-in-reports}
-      + [組み込みレポートについて](reporting/using/about-campaign-built-in-reports.md)
+   + ビルトインレポートへのアクセス {#accessing-built-in-reports}
+      + [ビルトインレポートについて](reporting/using/about-campaign-built-in-reports.md)
       + [レポートのリスト](reporting/using/list-of-reports.md)
    + 配信に関するレポート{#reports-on-deliveries}
       + [配信に関するレポートについて](reporting/using/reports-on-deliveries.md)
@@ -506,7 +506,7 @@ ht-degree: 100%
       + [ワークフローでの JavaScript コードの例](workflow/using/javascript-in-workflows.md)
       + [外部データベースへのアクセス](workflow/using/accessing-an-external-database--fda-.md)
       + [権限の管理](workflow/using/managing-rights.md)
-      + [アクティビティ画像の管理](workflow/using/managing-activity-images.md)
+      + [アクティビティ画像の変更](workflow/using/managing-activity-images.md)
       + [タイムゾーンの管理](workflow/using/managing-time-zones.md)
       + [テクニカルワークフロー](workflow/using/about-technical-workflows.md)
 + オファーの管理 {#managing-offers}
@@ -558,8 +558,8 @@ ht-degree: 100%
       + [データバッファーの設定](installation/using/interaction---data-buffer.md)
    + 使用例 {#case-study}
       + [プレゼンテーションルール](interaction/using/presentation-rules.md)
-      + [インバウンドチャネルでのオファー](interaction/using/offers-on-an-inbound-channel.md)
-      + [アウトバウンドチャネルでのオファー](interaction/using/offers-on-an-outbound-channel.md)
+      + [インバウンドチャネルのオファー](interaction/using/offers-on-an-inbound-channel.md)
+      + [アウトバウンドチャネルのオファー](interaction/using/offers-on-an-outbound-channel.md)
 + トランザクションメッセージ {#transactional-messaging}
    + [トランザクションメッセージの概要](message-center/using/about-transactional-messaging.md)
    + トランザクションメッセージの設定{#configure-transactional-messaging}

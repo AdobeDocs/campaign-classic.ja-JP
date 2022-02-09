@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: targeting-activities
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 ![](assets/incremental_query_example.png)
 
 1. 新しいワークフローに、増分処理クエリとリスト更新アクティビティを追加します。
-1. アクティビティの「**[!UICONTROL 増分処理クエリ]**」タブを[クエリの作成](query.md#creating-a-query)の説明に従って設定します。
+1. の設定 **[!UICONTROL 増分処理クエリ]** 」タブに表示されます。 [クエリの作成](query.md#creating-a-query).
 1. 「**[!UICONTROL スケジュール設定と履歴]**」タブを選択し、履歴の日数を 270 日と指定します。この指定により、既にターゲットされた受信者は、今後 270 日間（およそ 9 ヶ月間）はターゲットされません。
 
    次に、「**[!UICONTROL 変更]**」ボタンをクリックします。

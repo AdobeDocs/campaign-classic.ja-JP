@@ -1,19 +1,16 @@
 ---
 product: campaign
-title: アクティビティ画像の管理
-description: アクティビティ画像の管理
-audience: workflow
-content-type: reference
-topic-tags: advanced-management
+title: アクティビティ画像の変更
+description: アクティビティ画像の変更方法を説明します
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 92%
 
 ---
 
-# アクティビティ画像の管理{#managing-activity-images}
+# アクティビティ画像の変更{#change-activity-images}
 
 ![](../../assets/common.svg)
 

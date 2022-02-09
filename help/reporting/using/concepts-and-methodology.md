@@ -1,15 +1,12 @@
 ---
 product: campaign
-title: 概念と方法
-description: 概念と方法
-audience: reporting
-content-type: reference
-topic-tags: designing-reports-with-cubes
+title: キューブのベストプラクティス
+description: キューブのベストプラクティス
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 100%
+source-wordcount: '1567'
+ht-degree: 97%
 
 ---
 
@@ -35,7 +32,7 @@ bin を手動で作成することも、既存の列挙にリンクすること�
 
 Adobe Campaign には自動ビニングのアシスタントも用意されています。値は、N 個のグループに分類することも、データベース内の最も頻度の高い値に従ってグループ化することもできます。
 
-### 各 bin の定義 {#defining-each-bin}
+### 各 bin を定義 {#defining-each-bin}
 
 各 bin を個別に作成するには、「**[!UICONTROL 各 bin を定義]**」オプションを選択し、テーブルを使用して様々な bin を作成します。
 
@@ -68,7 +65,7 @@ SQL マスクを使用して、複数の値を組み合わせてフィルター�
 
    列挙の値が更新されるたびに、対応する bin がそれに合わせて自動的に変更されます。
 
-### 値範囲の作成 {#creating-value-ranges}
+### 値の範囲を作成 {#creating-value-ranges}
 
 所定の区間に基づいて、値を範囲にグループ化できます。
 
@@ -78,7 +75,7 @@ SQL マスクを使用して、複数の値を組み合わせてフィルター�
 
 次に、上限と下限を指定し、「**[!UICONTROL OK]**」をクリックして確定します。
 
-### bin の自動生成 {#generating-bins-automatically}
+### bin を自動的に生成 {#generating-bins-automatically}
 
 bin を自動的に生成することもできます。それには、「**[!UICONTROL bin を生成]**」リンクをクリックします。
 
@@ -182,13 +179,13 @@ bin を自動的に生成することもできます。それには、「**[!UIC
 
 1. 測定のラベルを入力し、説明を追加した後、「**[!UICONTROL 完了]**」をクリックして測定を作成します。
 
-## 測定の表示 {#displaying-measures}
+## 測定を表示 {#displaying-measures}
 
 必要に応じて、テーブルでの測定の表示を設定できます。
 
 * 測定の表示順（[表示順](#display-sequence)を参照）
-* レポートに表示する／非表示にする情報（[表示の設定](#configuring-the-display)を参照）
-* 表示する測定：割合、合計、小数点以下の桁数など（[表示される測定のタイプの変更](#changing-the-type-of-measure-displayed)を参照）
+* レポートに表示する/非表示にする情報 ( [ディスプレイの設定](#configuring-the-display))
+* 表示する測定：割合、合計、小数点以下の桁数など( [表示する測定のタイプを変更](#changing-the-type-of-measure-displayed)) をクリックします。
 
 ### 表示順序 {#display-sequence}
 
@@ -198,7 +195,7 @@ bin を自動的に生成することもできます。それには、「**[!UIC
 
 ![](assets/s_advuser_cube_in_report_config_04.png)
 
-### 表示の設定 {#configuring-the-display}
+### ディスプレイの設定 {#configuring-the-display}
 
 測定、行および列の設定は、測定ごとに個別に実行することも、全部まとめて実行することもできます。特定のアイコンをクリックすると、表示モード選択ウィンドウにアクセスできます。
 
@@ -212,7 +209,7 @@ bin を自動的に生成することもできます。それには、「**[!UIC
 
 ![](assets/s_advuser_cube_in_report_config_06.png)
 
-### 表示する測定のタイプの変更 {#changing-the-type-of-measure-displayed}
+### 表示する測定のタイプを変更 {#changing-the-type-of-measure-displayed}
 
 各測定内で、適用する単位とフォーマット設定を定義できます。
 

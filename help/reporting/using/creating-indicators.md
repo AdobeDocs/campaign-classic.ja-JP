@@ -2,14 +2,11 @@
 product: campaign
 title: 指標の作成
 description: 指標の作成
-audience: reporting
-content-type: reference
-topic-tags: designing-reports-with-cubes
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 92%
 
 ---
 
@@ -21,16 +18,16 @@ ht-degree: 100%
 
 キューブを作成するには、次の手順に従います。
 
-1. 作業用テーブルを選択します。[ワークテーブルの選択](#selecting-the-work-table)を参照してください。
-1. ディメンションを定義します。[ディメンションの定義](#defining-dimensions)を参照してください。
-1. 測定を定義します。[指標の構築](#building-indicators)を参照してください。
-1. 集計を作成します（オプション）。[集計の計算と使用](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates)を参照してください。
+1. 作業用テーブルを選択します。参照： [作業用テーブルを選択](#selecting-the-work-table).
+1. ディメンションを定義します。参照： [ディメンションの定義](#defining-dimensions).
+1. 測定を定義します。参照： [指標の構築](#building-indicators).
+1. 集計を作成します（オプション）。参照： [集計の計算と使用](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
 
 この例では、レポートにシンプルなキューブをすばやく作成して、そのキューブの測定をエクスポートする方法を示します。
 
 次に、実装手順を示します。すべてのオプションとその説明については、この章の他の節を参照してください。
 
-## ワークテーブルの選択 {#selecting-the-work-table}
+## 作業用テーブルを選択 {#selecting-the-work-table}
 
 キューブを作成するには、キューブのリストの上にある「**[!UICONTROL 新規]**」ボタンをクリックします。
 
@@ -92,7 +89,7 @@ ht-degree: 100%
 
    詳しくは、[bin の動的管理](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins)を参照してください。
 
-## 指標の作成 {#building-indicators}
+## 指標の構築 {#building-indicators}
 
 ディメンションを定義したら、セルに表示する値の計算モードを指定する必要があります。それには、対応する指標を「**[!UICONTROL 測定]**」タブで作成します。キューブを使用するレポートに表示する列と同じ数の測定を作成します。
 
@@ -105,7 +102,7 @@ ht-degree: 100%
 
    ![](assets/s_advuser_cube_wz_11.png)
 
-   「**[!UICONTROL 測定データをフィルター]**」リンクをたどって、女性だけを選択できます。測定と使用可能なオプションの定義について詳しくは、[測定の定義](../../reporting/using/concepts-and-methodology.md#defining-measures)を参照してください。
+   「**[!UICONTROL 測定データをフィルター]**」リンクをたどって、女性だけを選択できます。測定と使用可能なオプションの定義について詳しくは、 [測定の定義](../../reporting/using/concepts-and-methodology.md#defining-measures).
 
    ![](assets/s_advuser_cube_wz_12.png)
 
@@ -131,7 +128,7 @@ ht-degree: 100%
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. ディメンションの軸を切り替えたり、軸を削除したり、新しい測定を追加したりできます。可能な操作について詳しくは、[キューブを使用したデータ調査](../../reporting/using/using-cubes-to-explore-data.md)を参照してください。
+1. ディメンションの軸を切り替えたり、軸を削除したり、新しい測定を追加したりできます。可能な操作について詳しくは、 [このページ](../../reporting/using/using-cubes-to-explore-data.md).
 
    それには、該当するアイコンを使用します。
 

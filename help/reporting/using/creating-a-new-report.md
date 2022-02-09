@@ -2,14 +2,11 @@
 product: campaign
 title: 新しいレポートの作成
 description: 新しいレポートを作成するための主な手順を説明します。
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -39,7 +36,7 @@ ht-degree: 100%
 
 1. このレポートを保存します。
 
-## グラフのモデリング {#modelizing-the-chart}
+## グラフのモデル化 {#modelizing-the-chart}
 
 レポートを保存すると、次の画面が表示されます。ここでレポートのチャートを作成できます。
 
@@ -61,7 +58,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL クエリ]**」アクティビティを 1 つまたは複数追加して、レポートの作成に役立つデータを収集します。データの収集は、データベースのスキーマに対するクエリによって直接おこなうことも、インポートしたリストまたは既存のキューブを使用しておこなうこともできます。
 
-   詳しくは、[分析するデータの収集](../../reporting/using/collecting-data-to-analyze.md)を参照してください。
+   詳しくは、 [分析するデータを収集](../../reporting/using/collecting-data-to-analyze.md).
 
    このデータは、ページの設定に応じて、レポートに表示されることも表示されないこともあります。
 
@@ -91,7 +88,7 @@ ht-degree: 100%
 
 ## ページの作成 {#creating-a-page}
 
-レポートの内容は、フローチャートに配置したアクティビティによって設定されます。詳しくは、[チャートのモデル化](#modelizing-the-chart)を参照してください。
+レポートの内容は、フローチャートに配置したアクティビティによって設定されます。詳しくは、 [チャートのモデル化](#modelizing-the-chart).
 
 アクティビティを設定するには、そのアイコンをダブルクリックします。
 
@@ -109,7 +106,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->レポートが Excel 形式でエクスポートするように設計されている場合は、複雑な HTML 書式設定を使用しないことをお勧めします。詳しくは、[レポートのエクスポート](../../reporting/using/actions-on-reports.md#exporting-a-report)を参照してください。
+>レポートが Excel 形式でエクスポートするように設計されている場合は、複雑な HTML 書式設定を使用しないことをお勧めします。詳しくは、 [レポートのエクスポート](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 **[!UICONTROL ページ]**&#x200B;には、次の要素を含めることができます。
 
@@ -133,7 +130,7 @@ ht-degree: 100%
 
 ![](assets/s_advuser_report_page_activity_03.png)
 
-### レポートの情報のフィルタリング {#filtering-information-in-a-report}
+### レポート内の情報のフィルタリング {#filtering-information-in-a-report}
 
 入力コントロールや選択コントロールを使用すると、レポートに表示する情報をフィルターできます。この種のフィルターの実装について詳しくは、[クエリでのフィルターオプション](../../reporting/using/collecting-data-to-analyze.md#filtering-options-in-the-queries)を参照してください。
 

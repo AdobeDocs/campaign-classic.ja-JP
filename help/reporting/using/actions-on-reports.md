@@ -2,14 +2,11 @@
 product: campaign
 title: レポートに対するアクション
 description: レポートに対するアクション
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 100%
+source-wordcount: '571'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +38,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_advuser_report_wizard_021.png)
 
-### Microsoft Excel へのエクスポート {#exporting-into-microsoft-excel}
+### Microsoft Excel にエクスポート {#exporting-into-microsoft-excel}
 
 Excel にエクスポートするように設計された&#x200B;**[!UICONTROL グループ化されたリスト]**&#x200B;タイプのレポートの場合は、次の推奨事項と制限事項が当てはまります。
 
@@ -56,7 +53,7 @@ Excel にエクスポートするように設計された&#x200B;**[!UICONTROL �
 * レポートでは、セルレベルで定義した特定の書式設定を使用する必要はありません。**[!UICONTROL フォームのレンダリング]**&#x200B;を使用してテーブルのセルのフォーマットを定義するとよいでしょう。**[!UICONTROL フォームのレンダリング]**&#x200B;には、**[!UICONTROL 管理／設定／フォームのレンダリング]**&#x200B;でアクセスできます。
 * HTML コンテンツの挿入はお勧めしません。
 * レポートに、テーブルやグラフなどのタイプの要素が複数含まれている場合、それらは 1 つずつ順にエクスポートされます。
-* セル内で強制的に復帰改行させることができます。この設定は Excel でも保たれます。詳しくは、この[セルのフォーマットの定義](../../reporting/using/creating-a-table.md#defining-cell-format)を参照してください。
+* セル内で強制的に復帰改行させることができます。この設定は Excel でも保たれます。詳しくは、[この節](../../reporting/using/creating-a-table.md#defining-cell-format)を参照してください。
 
 ### エクスポートの先送り {#postpone-the-export}
 

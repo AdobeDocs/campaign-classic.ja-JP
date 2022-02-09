@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: 記述的分析について
-description: 記述的分析について
-audience: reporting
-content-type: reference
-topic-tags: analyzing-populations
+title: 記述的分析の概要
+description: 記述的分析の概要
+feature: Reporting
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 92%
 
 ---
 
-# 記述的分析について{#about-descriptive-analysis}
+# 記述的分析の概要{#about-descriptive-analysis}
 
 ![](../../assets/common.svg)
 

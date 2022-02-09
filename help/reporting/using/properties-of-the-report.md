@@ -2,14 +2,11 @@
 product: campaign
 title: レポートのプロパティ
 description: レポートプロパティ設定の詳細
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
-source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +26,7 @@ ht-degree: 100%
 
 * レポートのラベルと内部名。「**[!UICONTROL 内部名]**」は、レポートの最終 URL に使用されます。レポートの作成後は変更しないでください。
 
-* レポート&#x200B;**フォルダー**&#x200B;はレポートの作成時に選択されます。ベストプラクティスは、[組み込みレポート](../../reporting/using/about-campaign-built-in-reports.md)と混在しないように、カスタムレポート専用のフォルダーを作成することです。
+* レポート&#x200B;**フォルダー**&#x200B;はレポートの作成時に選択されます。ベストプラクティスは、[ビルトインレポート](../../reporting/using/about-campaign-built-in-reports.md)と混在しないように、カスタムレポート専用のフォルダーを作成することです。
 
 * **ストレージ**&#x200B;はレポートの作成時に選択されます。レポートのデータテーブルを変更するには、「**[!UICONTROL ドキュメントタイプ]**」フィールドの右にある「**[!UICONTROL リンクを選択]**」アイコンをクリックします。
 
@@ -52,7 +49,7 @@ ht-degree: 100%
 * **[!UICONTROL アクセス制御]**：このオプションでは、Adobe Campaign オペレーターがログオン後にレポートにアクセスできるようになります。
 * **[!UICONTROL 特定のアカウントを使用]**：このオプションでは、「**[!UICONTROL オペレーター]**」フィールドで選択したオペレーターの権限でレポートを実行できるようになります。
 
-## レポートのローカライゼーションの管理 {#managing-report-localization}
+## レポートを翻訳 {#report-localization}
 
 レポートの翻訳先の言語を設定できます。それには、「**[!UICONTROL ローカライゼーション]**」タブをクリックします。
 
@@ -66,7 +63,7 @@ ht-degree: 100%
 >
 >Campaign での Web ページのローカライゼーションについて詳しくは、[この節](../../web/using/translating-a-web-form.md)を参照してください。
 
-## HTML レンダリングのパーソナライズ {#personalizing-html-rendering}
+## パーソナライズHTMLレンダリング {#personalizing-html-rendering}
 
 「**[!UICONTROL レンダリング]**」タブでは、ページのデータ表示モードをパーソナライズできます。次の項目を選択できます。
 

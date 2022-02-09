@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: 高度な機能
-description: 高度な機能
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+description: レポートを操作する際の高度な機能の詳細
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-wordcount: '654'
+ht-degree: 98%
 
 ---
 

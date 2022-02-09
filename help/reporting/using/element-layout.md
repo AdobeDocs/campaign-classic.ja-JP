@@ -2,14 +2,11 @@
 product: campaign
 title: 要素のレイアウト
 description: 要素のレイアウト
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 100%
+source-wordcount: '432'
+ht-degree: 92%
 
 ---
 
@@ -17,13 +14,13 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-[グラフのタイプとバリエーション](../../reporting/using/creating-a-chart.md#chart-types-and-variants)で説明する様々なグラフに加えて、表示を適応させたり、レポートページに要素を追加したりできます。
+詳細な各種グラフに加えて、 [ここ](../../reporting/using/creating-a-chart.md#chart-types-and-variants)を使用すると、表示を調整したり、レポートページに要素を追加したりできます。
 
 コンテナを使用すると、ページの複数の要素をリンクし、それらのレイアウトを列やセルで設定できます。それらの使用方法について詳しくは、[この節](../../web/using/defining-web-forms-layout.md#creating-containers)を参照してください。
 
 ツリーのルートでレポートのレイアウトを設定し、コンテナごとにそれをオーバーロードできます。ページは列に並べ替えられます。コンテナも列に並べ替えられます。静的要素およびグラフィカル要素のみ、セルに並べ替えられます。
 
-## ページごとのオプションの定義 {#defining-the-options-for-each-page}
+## 各ページのオプションを定義 {#defining-the-options-for-each-page}
 
 レポートの各ページでオプションを使用できます。
 
@@ -37,7 +34,7 @@ ht-degree: 100%
 
 「**[!UICONTROL ナビゲーション]**」セクションで様々オプションを選択すると、レポートページ間の移動を許可することができます。「**[!UICONTROL 次のページを無効にする]**」オプションまたは「**[!UICONTROL 前のページに戻ることを許可しない]**」オプションを選択すると、「**[!UICONTROL 次のページ]**」ボタンまたは「**[!UICONTROL 前のページ]**」ボタンがレポートページに表示されなくなります。
 
-## ヘッダーやフッターの追加 {#adding-a-header-and-a-footer}
+## ヘッダーとフッターを追加する {#adding-a-header-and-a-footer}
 
 レポートのプロパティウィンドウでは、レイアウト要素（ウィンドウのタイトルやヘッダーおよびフッターの HTML コンテンツなど）も定義できます。
 

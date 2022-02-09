@@ -2,13 +2,10 @@
 product: campaign
 title: 配信に関するレポート
 description: 配信に関するレポート
-audience: reporting
-content-type: reference
-topic-tags: accessing-built-in-reports
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 100%
 
 ---
@@ -27,7 +24,6 @@ Adobe Campaign は、お客様のコンソールまたはインターネット�
 
 レポートには、クライアントコンソールのホームページ、レポートダッシュボードまたは配信リストからアクセスできます。レポートの表示モードはそのコンテキストに依存します。メインレポートのリストはホームページで使用でき、配信データにすばやくアクセスできます。このリストは、ニーズに合わせて変更可能です。詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
 
-## レポートの使用 {#using-reports}
 
 レポートダッシュボードで検索フィールドを使用でき、リスト上の目的のレポートにすばやくアクセスできます。
 

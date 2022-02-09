@@ -1,12 +1,10 @@
 ---
 product: campaign
 title: Adobe Campaign のレポートツールについて
-description: 組み込みレポートまたはカスタマイズされたレポートでキャンペーンの成果を分析します。
-audience: reporting
-content-type: reference
-topic-tags: reporting-in-adobe-campaign
+description: ビルトインレポートまたはカスタマイズされたレポートでキャンペーンの成果を分析します。
+feature: Reporting
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%

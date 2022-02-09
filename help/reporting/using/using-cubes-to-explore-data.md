@@ -2,14 +2,11 @@
 product: campaign
 title: キューブを使用したデータ調査
 description: キューブを使用したデータ調査
-audience: reporting
-content-type: reference
-topic-tags: designing-reports-with-cubes
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -19,23 +16,23 @@ ht-degree: 100%
 
 マーケティング分析を使用すると、レポートの作成と、キューブを介したデータベースからのデータの特定および選択が容易になります。これにより、以下が可能になります。
 
-* キューブに基づくレポートの作成。手順について詳しくは、[レポートのデータの調査](#exploring-the-data-in-a-report)を参照してください。
-* データベース内のデータの収集とリストへのグループ化（それにより、例えば、ターゲットと配信の特定と作成が可能）。詳しくは、[ターゲット母集団の作成](#building-a-target-population)を参照してください。
-* レポートへのピボットテーブルの挿入とピボットテーブルでの既存キューブの参照。詳しくは、[レポートへのピボットテーブルの挿入](#inserting-a-pivot-table-into-a-report)を参照してください。
+* キューブに基づくレポートの作成。手順について詳しくは、次を参照してください。 [レポート内のデータの調査](#exploring-the-data-in-a-report).
+* データベース内のデータの収集とリストへのグループ化（それにより、例えば、ターゲットと配信の特定と作成が可能）。詳しくは、 [ターゲット母集団の作成](#building-a-target-population).
+* レポートへのピボットテーブルの挿入とピボットテーブルでの既存キューブの参照。詳しくは、 [レポートへのピボットテーブルの挿入](#inserting-a-pivot-table-into-a-report).
 
 >[!NOTE]
 >
 >キューブを作成または変更するには、マーケティング分析が必要です。詳しくは、[キューブについて](../../reporting/using/about-cubes.md)を参照してください。
 
-## レポートのデータの調査 {#exploring-the-data-in-a-report}
+## レポート内のデータの調査 {#exploring-the-data-in-a-report}
 
-### 手順 1 - キューブに基づくレポートの作成 {#step-1---creating-a-report-based-on-a-cube}
+### 手順 1 — キューブに基づくレポートを作成する {#step-1---creating-a-report-based-on-a-cube}
 
 キューブに基づいてレポートを作成するには、「**[!UICONTROL レポート]**」タブの「**[!UICONTROL 作成]**」ボタンをクリックして、使用するキューブを選択します。
 
-プロセスについて詳しくは、[キューブに基づくレポートの作成 ](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube)を参照してください。
+手順について詳しくは、次を参照してください。 [キューブに基づくレポートの作成](../../reporting/using/creating-indicators.md#creating-a-report-based-on-a-cube).
 
-### 手順 2 - 行と列の選択 {#step-2---selecting-lines-and-columns}
+### 手順 2 — 行と列の選択 {#step-2---selecting-lines-and-columns}
 
 デフォルトでは、キューブの最初の 2 つのディメンション（この例では年齢と市区町村）が表示されます。
 
@@ -54,7 +51,7 @@ ht-degree: 100%
 
    パラメーターは、選択したディメンションのデータタイプによって異なります。
 
-   例えば、日付の場合は、複数のレベルが使用可能です。詳しくは、[測定の表示](../../reporting/using/concepts-and-methodology.md#displaying-measures)を参照してください。
+   例えば、日付の場合は、複数のレベルが使用可能です。詳しくは、 [測定を表示](../../reporting/using/concepts-and-methodology.md#displaying-measures).
 
    この場合は、次のようなオプションが用意されています。
 
@@ -74,7 +71,7 @@ ht-degree: 100%
 
    ![](assets/s_advuser_cube_in_report_04c.png)
 
-### 手順 3 - 表示する測定の設定 {#step-3---configuring-the-measures-to-display}
+### 手順 3 — 表示する測定の設定 {#step-3---configuring-the-measures-to-display}
 
 行と列を適切に配置したら、表示する測定とそれらの表示モードを指定します。
 
@@ -96,7 +93,7 @@ ht-degree: 100%
 
    ![](assets/s_advuser_cube_in_report_config_02.png)
 
-   次に、測定のラベルを表示するかどうかを選択できます。詳しくは、[表示の設定](../../reporting/using/concepts-and-methodology.md#configuring-the-display)を参照してください。
+   次に、測定のラベルを表示するかどうかを選択できます。詳しくは、 [ディスプレイの設定](../../reporting/using/concepts-and-methodology.md#configuring-the-display).
 
 1. 既存の測定を使用して新しい測定を作成できます。それには、「**[!UICONTROL 測定を作成]**」をクリックし、測定を設定します。
 

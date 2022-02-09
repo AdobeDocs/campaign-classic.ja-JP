@@ -2,14 +2,12 @@
 product: campaign
 title: レポートのベストプラクティス
 description: キャンペーンレポートのベストプラクティス
-audience: reporting
-content-type: reference
-topic-tags: reporting-in-adobe-campaign
+feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '841'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +60,7 @@ ht-degree: 100%
 
    データの量と更新に関する問題を慎重に検討して、レポートの表示上の問題、特に時間的な問題を回避する必要があります。そのため、集計を作成して、一部のデータをレポートの処理とは別に事前計算しておくことをお勧めします。トラッキングログと配信ログのテーブルには、何百万ものレコードを格納できます。これは、データをワークフローで集計してレポートで使用できるようにする必要があることを意味します。
 
-## レポート作成の最適化{#optimizing-report-creation}
+## レポートデザインの最適化{#optimizing-report-creation}
 
 ### データ量 {#data-volume}
 

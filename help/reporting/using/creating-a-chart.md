@@ -1,15 +1,12 @@
 ---
 product: campaign
 title: グラフの作成
-description: グラフの作成
-audience: reporting
-content-type: reference
-topic-tags: creating-new-reports
+description: グラフのデザイン方法を学ぶ
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
-source-git-commit: 7fa8cea04fb4e25187c48ad19330815e9b522b37
+source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 98%
 
 ---
 
@@ -127,7 +124,7 @@ Adobe Campaign では、様々なタイプのグラフ表示が可能です。�
 
 ![](assets/s_ncs_advuser_report_wizard_017.png)
 
-## 統計の計算 {#calculating-statistics}
+## 統計を計算 {#calculating-statistics}
 
 グラフでは、収集したデータに関する統計を表示できます。
 

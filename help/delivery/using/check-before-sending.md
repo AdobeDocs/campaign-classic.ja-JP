@@ -1,14 +1,13 @@
 ---
 product: campaign
 title: 送信前の確認
-audience: delivery
-content-type: reference
-topic-tags: deliveries-best-practices
+description: メッセージの準備が整ったら、送信前にすべてのチェックを実行します
+feature: Deliverability
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: b174b8283d77a1b5eb535c0c46ba4a428bd66eef
+source-git-commit: 808f459a0b77b1787fc017c031247ab268b5aafa
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 100%
+source-wordcount: '902'
+ht-degree: 98%
 
 ---
 
@@ -72,7 +71,8 @@ Adobe Campaign のオペレーターやグループが関与する包括的な�
 
 ### メッセージの優先順位
 
-配信の優先順位レベルを設定すると、配信の送信順を指定できます。それには、次の手順に従います。
+配信の優先度レベルを設定すると、配信の送信順を指定できます。
+それには、次の手順に従います。
 
 1. 配信プロパティを編集し、「**[!UICONTROL 配信]**」タブを選択します。
 

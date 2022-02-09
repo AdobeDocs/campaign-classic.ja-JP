@@ -2,11 +2,9 @@
 product: campaign
 title: 重複排除
 description: 重複排除ワークフローアクティビティの詳細を説明します
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Data Management
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: def4f7fb46c838e9fe620820cf387dd3e2b8a55b
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
@@ -66,6 +64,7 @@ ht-degree: 100%
    >[!NOTE]
    >
    >外部ファイルなどの外部データを入力として使用する場合は、必ず「**[!UICONTROL 一時スキーマ]**」オプションを選択してください。
+
    >
    >次の手順で、「**[!UICONTROL その他]**」オプションで使用される基準または条件を選択できます。
 

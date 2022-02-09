@@ -2,14 +2,12 @@
 product: campaign
 title: 承認の定義
 description: 承認により、オペレーターはワークフロー管理に関する意思決定をおこなったり、実行の継続を確定したりできます。
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Approvals
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 3af4f259b80b3e03c81ee278b470ef6ffe3fe4d0
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 100%
+source-wordcount: '871'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +27,7 @@ ht-degree: 100%
 
 ![](assets/validation-1-in-op.png)
 
-承認の例については、この[節](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)を参照してください。
+承認の例については、 [この節](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 オペレーターは、2 つの方法（メールメッセージ内にリンクされた Web ページを使用するか、コンソール経由）のいずれかで、応答できます。
 
@@ -37,7 +35,7 @@ ht-degree: 100%
 >
 >いったん保存した応答は、変更できません。
 
-## メールの送信 {#sending-emails}
+## E メールによる承認 {#sending-emails}
 
 Web ページへのリンクが記載された承認メッセージを受け取り、ページ上で応答することができます。ターゲット済みのオペレーターが、承認 E メールを受け取るようにするには、オペレーターの E メールアドレスが入力されている必要があります。入力していない場合、オペレータは応答にコンソールを使用する必要があります。
 

@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: サービスと購読について
-description: サービスと購読について
-audience: delivery
-content-type: reference
-topic-tags: subscriptions-and-referrals
+description: Adobe Campaignのサービスと購読の概要
+feature: Subscriptions
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '154'
+ht-degree: 94%
 
 ---
 

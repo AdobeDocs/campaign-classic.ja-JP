@@ -2,11 +2,9 @@
 product: campaign
 title: テクニカルワークフロー
 description: Campaign Classic パッケージで使用できるテクニカルワークフローについて詳しく説明します。
-audience: workflow
-content-type: reference
-topic-tags: technical-workflows
+feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: f007dcbf63d7a69a6d532d0be99b0fa90f4f6d7a
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 100%
@@ -19,7 +17,7 @@ ht-degree: 100%
 
 ## テクニカルワークフローについて {#overview}
 
-この節で詳しく説明するワークフローは、別の Adobe Campaign 組み込みパッケージと共にインストールされます。これらのパッケージと関連テクニカルワークフローは、ライセンス契約によって異なります。組み込みパッケージの詳細については、[この節](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+この節で詳しく説明するワークフローは、別の Adobe Campaign 組み込みパッケージと共にインストールされます。これらのパッケージと関連テクニカルワークフローは、ライセンス契約によって異なります。ビルトインパッケージの詳細については、[この節](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
 デフォルトでは、テクニカルワークフローは、**[!UICONTROL 管理]**／**[!UICONTROL プロダクション]**／**[!UICONTROL テクニカルワークフロー]**&#x200B;ノードのサブフォルダーで使用できます。
 

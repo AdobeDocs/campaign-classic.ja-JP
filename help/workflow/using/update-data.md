@@ -2,11 +2,9 @@
 product: campaign
 title: データ更新
 description: データ更新ワークフローアクティビティの詳細を説明します
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Data Management
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 100%
@@ -96,7 +94,8 @@ ht-degree: 100%
 
    ![](assets/update_and_merge_collections1.png)
 
-1. 処理するリンクの優先順位を決めます。これにより、メインレコードを特定できます。処理できるリンクは、インバウンドトラジションによって変わります。
+1. 処理するリンクの優先度を決めます。
+これにより、メインレコードを特定できます。処理できるリンクは、インバウンドトラジションによって変わります。
 
    ![](assets/update_and_merge_collections2.png)
 

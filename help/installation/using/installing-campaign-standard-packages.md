@@ -2,11 +2,8 @@
 product: campaign
 title: Campaign Classic 組み込みパッケージのインストール
 description: Campaign の組み込みパッケージのインストール方法を説明します
-audience: installation
-content-type: reference
-topic-tags: initial-configuration
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 035297523c25061f28751c28df86d562f40f45ea
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 26%

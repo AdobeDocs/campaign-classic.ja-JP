@@ -2,14 +2,12 @@
 product: campaign
 title: データのターゲティング
 description: ワークフローでのデータのターゲティングについて説明します
-audience: workflow
-content-type: reference
-topic-tags: -general-operation
+feature: Query Editor, Data Management
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '2031'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +17,7 @@ ht-degree: 100%
 
 ## クエリの作成 {#creating-queries}
 
-### データの選択 {#selecting-data}
+### データを選択 {#selecting-data}
 
 「**[!UICONTROL クエリ]**」アクティビティでは、ターゲット母集団を作成するために必要な基本データを選択できます。詳しくは、[クエリの作成](query.md#creating-a-query)を参照してください。
 
@@ -27,7 +25,7 @@ ht-degree: 100%
 
 ワークフローのライフサイクルを通じて転送され、処理される追加情報を収集することができます。詳しくは、[データの追加](query.md#adding-data)および[追加データの編集](#editing-additional-data)を参照してください。
 
-### 追加データの編集 {#editing-additional-data}
+### 追加データを編集 {#editing-additional-data}
 
 追加のデータが追加されたら、編集したり、クエリアクティビティで定義されたターゲットの調整に使用することができます。
 
@@ -53,7 +51,7 @@ ht-degree: 100%
 
 ![](assets/query_add_columns_collection.png)
 
-### 追加データを使用したターゲットの絞り込み {#refining-the-target-using-additional-data}
+### 追加データを使用してターゲットを絞り込み {#refining-the-target-using-additional-data}
 
 収集された追加データを使用して、データベース内でのフィルターされたデータを絞り込むことができます。それには、「**[!UICONTROL 追加データを使用してターゲットを絞り込み...]**」リンクをクリックします。このリンクを使用して、追加したデータをフィルターできます。
 
@@ -80,9 +78,9 @@ ht-degree: 100%
 
 詳しくは、[分割アクティビティを使用したサブセットの作成](#creating-subsets-using-the-split-activity)を参照してください。
 
-## データのセグメント化 {#segmenting-data}
+## セグメントデータ {#segmenting-data}
 
-### 複数のターゲットの組み合わせ（和集合）  {#combining-several-targets--union-}
+### 複数のターゲットを結合（和集合） {#combining-several-targets--union-}
 
 和集合アクティビティでは、1 つのトランジション内で複数のアクティビティの結果を組み合わせることができます。セットは、同質である必要はありません。
 
@@ -114,13 +112,14 @@ ht-degree: 100%
 
    レコード数を指定することで、母集団のサイズを制限できます。それには、適切なオプションをクリックし、保持するレコード数を指定します。
 
-   さらに、インバウンド母集団の優先順位を指定します。ウィンドウの下部セクションには、和集合アクティビティのインバウンドトランジションがリストされます。このリストを、ウィンドウ右側の青い矢印を使用して並べ替えます。
+   さらに、インバウンド母集団の優先度を指定します。ウィンドウの下部セクションには、和集合アクティビティのインバウンドトランジションがリストされます。このリストを、ウィンドウ右側の青い矢印を使用して並べ替えます。
+
 
    レコードは、最初のインバウンドトランジションの母集団から取り出され、その時点で最大値に達しなければ、次に 2 番目のインバウンドトランジションの母集団から取り出されます。
 
    ![](assets/join_limit_nb_priority.png)
 
-### 結合データの抽出（積集合）  {#extracting-joint-data--intersection-}
+### 結合データを抽出（積集合） {#extracting-joint-data--intersection-}
 
 ![](assets/traitements.png)
 
@@ -130,7 +129,7 @@ ht-degree: 100%
 
 積集合アクティビティについて詳しくは、[積集合](intersection.md)の節で説明しています。
 
-### 母集団の除外（除外）  {#excluding-a-population--exclusion-}
+### 母集団の除外（除外） {#excluding-a-population--exclusion-}
 
 除外アクティビティを使用して、異なるターゲット母集団からターゲットの要素を除外できます。このアクティビティの出力ターゲティングディメンションは、メインセットからのものになります。
 
@@ -216,7 +215,7 @@ ht-degree: 100%
 
 サブセットは、**[!UICONTROL セル]**&#x200B;アクティビティを使用して作成することもできます。詳しくは、[セル](cells.md)の節を参照してください。
 
-### ターゲットデータの使用 {#using-targeted-data}
+### ターゲットデータを使用 {#using-targeted-data}
 
 識別され、準備されたデータは、次のコンテキストで使用できます。
 

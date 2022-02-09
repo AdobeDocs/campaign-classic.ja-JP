@@ -2,18 +2,16 @@
 product: campaign
 title: フロー制御アクティビティについて
 description: フロー制御アクティビティについて
-audience: workflow
-content-type: reference
-topic-tags: flow-control-activities
+feature: Workflows
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '234'
+ht-degree: 97%
 
 ---
 
-# フロー制御アクティビティについて{#about-flow-control-activities}
+# ワークフロー内のフロー制御アクティビティ{#about-flow-control-activities}
 
 ![](../../assets/common.svg)
 

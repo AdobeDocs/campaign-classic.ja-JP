@@ -2,11 +2,9 @@
 product: campaign
 title: リストの管理とカスタマイズ
 description: リストの参照と設定の方法について説明します。
-audience: platform
-content-type: reference
-topic-tags: starting-with-adobe-campaign
+feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
@@ -190,11 +188,14 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
    ![](assets/s_ncs_user_configurelist_sort.png)
 
-1. 並べ替えの優先順位は、並べ替え列の順序を使用して定義されます。優先順位を変更するには、適切なアイコンを使用して列の順序を変更します。
+1. 並べ替えの優先度は、並べ替え列の順序を使用して定義されます。
+優先度を変更するには、適切なアイコンを使用して列の順序を変更します。
+
 
    ![](assets/s_ncs_user_configurelist_move.png)
 
-   並べ替えの優先順位は、リスト内の列の表示には影響しません。
+   並べ替えの優先度は、リスト内の列の表示には影響しません。
+
 
 1. 「**[!UICONTROL OK]**」をクリックしてこの設定を確定し、リストで結果を表示します。
 

@@ -1,15 +1,13 @@
 ---
 product: campaign
 title: プロファイルの同期
-description: プロファイルの同期
-audience: integrations
-content-type: reference
-topic-tags: acs-connector
+description: プロファイルを ACS コネクタと同期する方法を説明します
+feature: ACS Connector
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 100%
+source-wordcount: '1264'
+ht-degree: 90%
 
 ---
 
@@ -19,11 +17,11 @@ ht-degree: 100%
 
 ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプリケートします。Campaign v7 から受け取ったデータは、Campaign Standard で配信を作成するのに使用できます。以下の操作を実行することで、プロファイルの同期方法を把握できます。
 
-* **新しい受信者の追加**：Campaign v7 で新しい受信者を作成して、対応するプロファイルが Campaign Standard にレプリケートされていることを確認します。[新しい受信者の作成](#creating-a-new-recipient)を参照してください。
-* **受信者を更新**：Campaign v7 で新しい受信者を編集して、Campaign Standard で対応するプロファイルを表示し、更新がレプリケートされていることを確認します。[受信者の編集](#editing-a-recipient)を参照してください。
-* **Campaign Standard でのワークフローの構築**：Campaign v7 からレプリケートされたオーディエンスまたはプロファイルのクエリを含む Campaign Standard でワークフローを作成します。[ワークフローの作成](#creating-a-workflow)を参照してください。
-* **Campaign Standard での配信の作成**：ワークフローに従って、配信の送信を完了します。[配信の作成](#creating-a-delivery)を参照してください。
-* **購読解除リンクの検証**：Campaign v7 Web アプリケーションを使用して、サービスに対する受信者の購読解除の選択が Campaign v7 データベースに送信されることを確認します。サービスの受信を停止するオプションが、Campaign Standard にレプリケートされます。[購読解除リンクの変更](#changing-the-unsubscription-link)を参照してください。
+* **新しい受信者の追加**：Campaign v7 で新しい受信者を作成して、対応するプロファイルが Campaign Standard にレプリケートされていることを確認します。詳しくは、 [新しい受信者を作成](#creating-a-new-recipient).
+* **受信者を更新**：Campaign v7 で新しい受信者を編集して、Campaign Standard で対応するプロファイルを表示し、更新がレプリケートされていることを確認します。詳しくは、 [受信者を編集](#editing-a-recipient).
+* **Campaign Standard でのワークフローの構築**：Campaign v7 からレプリケートされたオーディエンスまたはプロファイルのクエリを含む Campaign Standard でワークフローを作成します。詳しくは、 [ワークフローの作成](#creating-a-workflow).
+* **Campaign Standard での配信の作成**：ワークフローに従って、配信の送信を完了します。詳しくは、 [配信の作成](#creating-a-delivery).
+* **購読解除リンクの検証**：Campaign v7 Web アプリケーションを使用して、サービスに対する受信者の購読解除の選択が Campaign v7 データベースに送信されることを確認します。サービスの受信を停止するオプションが、Campaign Standard にレプリケートされます。詳しくは、 [購読解除リンクを変更](#changing-the-unsubscription-link).
 
 ## 前提条件 {#prerequisites}
 
@@ -33,7 +31,7 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 * Campaign v7 と Campaign Standard の両方でワークフローを実行するためのユーザー権限。
 * Campaign Standard で配信を作成および実行するためのユーザー権限。
 
-## 購読解除リンクの変更 {#changing-the-unsubscription-link}
+## 購読解除リンクを変更 {#changing-the-unsubscription-link}
 
 受信者が Campaign Standard で送信した E メールの購読解除リンクをクリックすると、Campaign Standard の対応するプロファイルが更新されます。レプリケートされたプロファイルに、サービスに対するユーザーの購読解除の選択が含まれていることを確認するには、その情報が Campaign Standard ではなく Campaign v7 に送信されている必要があります。この変更を実行するには、購読解除サービスを Campaign Standard ではなく Campaign v7 Web アプリケーションにリンクします。
 
@@ -41,9 +39,9 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 >
 >購読解除サービスについて Web アプリケーションを設定するには、以下の手順を実行する前に、コンサルタントにお問い合わせください。
 
-## 新規受信者の作成 {#creating-a-new-recipient}
+## 新しい受信者を作成 {#creating-a-new-recipient}
 
-1. Campaign Standard へのレプリケーション用の新しい受信者を Campaign v7 で作成します。受信者の姓、名、E メールアドレス、郵送先住所など、可能な限りの情報を入力します。ただし、敬称は次の[受信者の編集](#editing-a-recipient)の節で追加するので、**[!UICONTROL 敬称]**&#x200B;は選択しないでください。詳しくは、[受信者の追加](../../platform/using/adding-profiles.md)を参照してください。
+1. Campaign Standard へのレプリケーション用の新しい受信者を Campaign v7 で作成します。受信者の姓、名、E メールアドレス、郵送先住所など、可能な限りの情報を入力します。ただし、 **[!UICONTROL 敬称]** これは次の節で追加する [受信者を編集](#editing-a-recipient). 詳しくは、 [受信者を追加](../../platform/using/adding-profiles.md).
 
    ![](assets/acs_connect_profile_sync_01.png)
 
@@ -53,11 +51,11 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 
    デフォルトでは、ACS コネクタの定期的なレプリケーションは、15 分ごとに 1 回です。詳しくは、[データレプリケーション](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication)を参照してください。
 
-## 受信者の編集 {#editing-a-recipient}
+## 受信者を編集 {#editing-a-recipient}
 
 ある 1 つのデータの変更に関する以下の手順では、データレプリケーションを使用する際に Campaign v7 が Campaign Standard のプライマリデータベースになる仕組みのシンプルな例を示します。Campaign v7 でレプリケートされたデータを変更または削除すると、Campaign Standard の対応するデータも同様に変更されます。
 
-1. [新しい受信者の作成](#creating-a-new-recipient)で新しく作成した受信者を選択して、受信者の名前を編集します。例えば、受信者の&#x200B;**[!UICONTROL 敬称]**（Mr. や Mrs. など）を選択します。詳しくは、[プロファイルの編集](../../platform/using/editing-a-profile.md)を参照してください。
+1. 新しく作成した受信者を次の中から選択 [新しい受信者を作成](#creating-a-new-recipient) 受信者の名前を編集します。 例えば、受信者の&#x200B;**[!UICONTROL 敬称]**（Mr. や Mrs. など）を選択します。詳しくは、 [プロファイルの編集](../../platform/using/editing-a-profile.md).
 
    ![](assets/acs_connect_profile_sync_03.png)
 
@@ -87,13 +85,13 @@ Campaign v7 からレプリケートされたプロファイルとサービス�
    * **[!UICONTROL プロファイル]**&#x200B;をワークスペースにドラッグします。フィールドのプルダウンメニューを使用して、「**[!UICONTROL 外部リソース]**」を選択し、Campaign v7 からレプリケートされたプロファイルを検索します。
    * 別のクエリパラメーターをドラッグして、レプリケートされたプロファイルをさらにターゲティングします。
 
-## 配信の作成 {#creating-a-delivery}
+##  配信の作成 {#creating-a-delivery}
 
 >[!NOTE]
 >
->配信の作成手順は、[ワークフローの作成](#creating-a-workflow)で開始したワークフローから続きます。
+>配信の作成手順は、で開始したワークフローから続きます。 [ワークフローの作成](#creating-a-workflow).
 
-Campaign v7 Web アプリケーションを使用して、受信者によるサービスの購読解除の選択が確実に Campaign v7 データベースに送信されるようにすることができます。受信者が購読解除リンクをクリックすると、サービスの受信を停止するオプションが Campaign v7 から Campaign Standard にレプリケートされます。詳しくは、[購読解除リンクの変更](#changing-the-unsubscription-link)を参照してください。
+Campaign v7 Web アプリケーションを使用して、受信者によるサービスの購読解除の選択が確実に Campaign v7 データベースに送信されるようにすることができます。受信者が購読解除リンクをクリックすると、サービスの受信を停止するオプションが Campaign v7 から Campaign Standard にレプリケートされます。詳しくは、 [購読解除リンクを変更](#changing-the-unsubscription-link).
 
 以下の手順に従い、Campaign v7 で作成した購読解除サービスを使用して既存のワークフローに E メール配信を追加します。Campaign Standard ワークフローの詳細および完全な手順については、この[ドキュメント](../../workflow/using/about-workflows.md)を参照してください。
 
@@ -160,7 +158,7 @@ Campaign v7 Web アプリケーションを使用して、受信者によるサ�
 
 ## 購読解除サービスの検証 {#verifying-the-unsubscription-service}
 
-以下の手順に進む前に、[ワークフローの作成](#creating-a-workflow)および[配信の作成](#creating-a-delivery)の手順に従ってください。
+詳しくは、 [ワークフローの作成](#creating-a-workflow) および [配信の作成](#creating-a-delivery) 次の手順に進む前に、をクリックします。
 
 1. 受信者は、E メール配信にある購読解除リンクをクリックします。
 

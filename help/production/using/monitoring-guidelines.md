@@ -2,11 +2,9 @@
 product: campaign
 title: 監視のガイドライン
 description: Campaign インスタンスとプロセスを監視するためのガイドラインとベストプラクティスを確認します。
-audience: production
-content-type: reference
-topic-tags: introduction
+feature: Monitoring
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 26%

@@ -1,23 +1,19 @@
 ---
 product: campaign
-title: ACS コネクタの原則とデータサイクル
+title: ACS コネクタの概要
 description: ACS コネクタの原則とデータサイクル
-audience: integrations
-content-type: reference
-topic-tags: acs-connector
+feature: ACS Connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: f007dcbf63d7a69a6d532d0be99b0fa90f4f6d7a
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
-source-wordcount: '2044'
-ht-degree: 100%
+source-wordcount: '2041'
+ht-degree: 96%
 
 ---
 
-# ACS コネクタの原則とデータサイクル{#acs-connector-principles-and-data-cycle}
+# ACS コネクタの概要{#acs-connector-gs}
 
 ![](../../assets/v7-only.svg)
-
-## はじめに {#introduction}
 
 ACS コネクタは、Adobe Campaign v7 と Adobe Campaign Standard を橋渡しします。Campaign v7 の統合機能で、Campaign Standard にデータを自動的にレプリケートして、両方のアプリケーションの優れた機能を連携させます。Campaign v7 には、プライマリマーケティングデータベースを管理する高度なツールがあります。Campaign v7 からのデータレプリケーションにより、Campaign Standard の使いやすい環境でリッチデータを活用できます。
 
@@ -37,9 +33,9 @@ ACS コネクタを使用すると、デジタルマーケターが Campaign Sta
 
 * [プロセス](#process)：ACS コネクタの概要とデータレプリケーションの管理方法。
 * [実装](#implementation)：ACS コネクタを使い始める方法の概要と基本データおよび高度なデータのレプリケート方法に関する手順。
-* [プロファイルの同期](../../integrations/using/synchronizing-profiles.md)：プロファイルのレプリケート方法とそれらを使用した配信の作成方法に関する手順。
-* [オーディエンスの同期](../../integrations/using/synchronizing-audiences.md)：Campaign v7 での受信者のリストのターゲティング方法と、その後のリストのオーディエンスとしての Campaign Standard へのレプリケート方法に関する手順。
-* [Web アプリケーションの同期](../../integrations/using/synchronizing-web-applications.md)：Campaign v7 Web アプリケーションの Campaign Standard へのリンク方法に関する手順。
+* [プロファイルを同期](../../integrations/using/synchronizing-profiles.md):プロファイルのレプリケート方法とそれらを使用した配信の作成方法に関する手順。
+* [オーディエンスを同期](../../integrations/using/synchronizing-audiences.md):Campaign v7 で受信者のリストをターゲットにし、その後リストをオーディエンスとしてCampaign Standardにレプリケートする方法に関する手順。
+* [Web アプリケーションの同期](../../integrations/using/synchronizing-web-applications.md):Campaign v7 Web アプリケーションをCampaign Standardにリンクする方法に関する手順。
 * [ACS コネクタのトラブルシューティング](../../integrations/using/troubleshooting-the-acs-connector.md)：よくある問題に対する回答の確認。
 
 >[!NOTE]
@@ -87,7 +83,7 @@ ACS コネクタは、Campaign v7 と Campaign Standard の間で強制隔離を
 
 例えば、Campaign v7 から Campaign Standard にレプリケートされたプロファイルには、E メールアドレスが含まれます。E メールアドレスが Campaign Standard によって強制隔離されると、次の同期時にデータが Campaign v7 に渡されます。強制隔離について詳しくは、[強制隔離の管理](../../delivery/using/understanding-quarantine-management.md)および [Campaign Standard の強制隔離](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=ja)を参照してください。
 
-### レプリケートされたプロファイルの使用 {#using-replicated-profiles}
+### レプリケートされたプロファイルを使用 {#using-replicated-profiles}
 
 レプリケートされたプロファイルは、Campaign Standard および Campaign v7 でマーケティングキャンペーンのワークフローをターゲティングするために使用できます。
 
@@ -101,7 +97,7 @@ ACS コネクタは、Campaign v7 と Campaign Standard の間で強制隔離を
 * **Campaign Standard で作成されたプロファイル**：ACS コネクタは、Campaign v7 から Campaign Standard への一方向で受信者データをレプリケートします。そのため、Campaign Standard に由来するプロファイルは、Campaign v7 にレプリケートされません。
 * **Campaign Standard の基本的な受信者データ**：ACS コネクタは、Campaign Standard に適した受信者データをレプリケートします。このデータには、受信者の名前、住所、E メールアドレス、携帯電話番号、自宅電話番号、その他関連のある連絡先情報が含まれます。Campaign v7 で使用できる追加の受信者フィールドおよびカスタムターゲティングテーブルがワークフローで重要な場合、コンサルタントにお問い合わせください。
 * **強制隔離プロファイルのインポート**：連絡を希望しないプロファイルのリストは、強制隔離されたプロファイルとして Campaign v7 または Campaign Standard にインポートできます。プロファイルのステータスは、アプリケーション間の強制隔離の同期に含まれ、配信には使用されません。
-* **Campaign Standard のサービスの購読解除**：配信の購読解除の選択は、Campaign Standard から Campaign v7 に同期されません。ただし、Campaign Standard の配信の購読解除リンクを Campaign v7 宛てにするように設定できます。購読解除リンクをクリックする受信者のプロファイルは、Campaign v7 で更新され、そのデータは Campaign Standard にレプリケートされます。[購読解除リンクの変更](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link)を参照してください。
+* **Campaign Standard のサービスの購読解除**：配信の購読解除の選択は、Campaign Standard から Campaign v7 に同期されません。ただし、Campaign Standard の配信の購読解除リンクを Campaign v7 宛てにするように設定できます。購読解除リンクをクリックする受信者のプロファイルは、Campaign v7 で更新され、そのデータは Campaign Standard にレプリケートされます。詳しくは、 [購読解除リンクを変更](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
 * Campaign Standard から Campaign v7 にレプリケートされるのは、E メール配信ログとトラッキングログのみです。
 
 ### 請求 {#billing}

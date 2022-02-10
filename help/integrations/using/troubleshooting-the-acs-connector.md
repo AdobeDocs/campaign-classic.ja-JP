@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
    さらに、受信者に添付され、nms:recipient に関連するテーブルに格納されたすべてのデータは、デフォルトでは Campaign Standard に同期されません。
 
-   関連するデータを使用できるようにするには、[オーディエンスの同期](../../integrations/using/synchronizing-audiences.md)の節で説明したように、Campaign v7 でターゲティングを実行して、追加データを追加するか、コンサルタントに問い合わせて、カスタマイズの可能性を探ることができます。
+   関連データを引き続き使用するには、Campaign v7 でターゲティングを実行し、追加データを追加します。詳しくは、 [オーディエンスを同期](../../integrations/using/synchronizing-audiences.md) の節を参照するか、コンサルタントに問い合わせて、カスタマイズの可能性を探ることもできます。
 
 * **Campaign v7 で、デフォルトの nms:recipient ではなく、別のプロファイルディメンションを使用していますが、Campaign Standard と同期するにはどうしたらよいですか。**
 

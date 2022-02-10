@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Web アプリケーションの同期
-description: Web アプリケーションの同期
-audience: integrations
-content-type: reference
-topic-tags: acs-connector
+title: web アプリケーションの同期
+description: Web アプリケーションを ACS コネクタと同期する方法を説明します。
+feature: ACS Connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-source-git-commit: 8b970705f0da6a9e09de9fadb3e1a8c5f4814f9f
+source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 100%
+source-wordcount: '864'
+ht-degree: 96%
 
 ---
 
-# Web アプリケーションの同期{#synchronizing-web-applications}
+# web アプリケーションの同期{#synchronizing-web-applications}
 
 ![](../../assets/v7-only.svg)
 
@@ -25,11 +23,11 @@ Campaign v7 に多くのサービスおよび Web アプリケーションがあ
 
 これをおこなうには、以下が必要です。
 
-* Campaign v7 データベースに格納され、Campaign Standard と同期された受信者。[プロファイルの同期](../../integrations/using/synchronizing-profiles.md)の節を参照してください。
+* Campaign v7 データベースに格納され、Campaign Standard と同期された受信者。詳しくは、 [プロファイルを同期](../../integrations/using/synchronizing-profiles.md) 」セクションに入力します。
 * Campaign v7 で作成され、パブリッシュされたサービスおよび Web アプリケーション。
 * Web アプリケーションには、**[!UICONTROL Adobe Campaign の暗号化]**&#x200B;の識別方法を使用する&#x200B;**[!UICONTROL プリロード]**&#x200B;アクティビティが含まれている必要があります。
 
-## Web アプリケーションおよびサービスの作成 {#creating-the-web-application-and-service}
+## Web アプリケーションとサービスの作成 {#creating-the-web-application-and-service}
 
 Campaign v7 では、受信者がサービスを購読できる Web アプリケーションを作成できます。Web アプリケーションおよびサービスは、Campaign v7 で設計および格納され、Campaign Standard 通信を使用してこのサービスを更新できます。Campaign v7 の Web アプリケーションについて詳しくは、[この節](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)を参照してください。
 
@@ -58,7 +56,7 @@ Campaign v7 では、以下のオブジェクトが作成されています。
 
    ![](assets/acs_connect_lp_6.png)
 
-## データのレプリケート {#replicating-the-data}
+## データをレプリケート {#replicating-the-data}
 
 Campaign v7 と Campaign Standard との間で必要なデータをレプリケートするために、いくつかのレプリケーションワークフローテンプレートを使用できます。**[!UICONTROL プロファイルのレプリケーション]**&#x200B;ワークフローは、すべての Campaign v7 受信者を Campaign Standard に自動的にレプリケートします。[テクニカルワークフローおよびレプリケーションワークフロー](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows)を参照してください。**[!UICONTROL ランディングページのレプリケーション]**&#x200B;ワークフローを使用すると、Campaign Standard で使用したい Web アプリケーションのレプリケーションが可能です。
 
@@ -82,11 +80,11 @@ Campaign v7 と Campaign Standard との間で必要なデータをレプリケ�
 
    ![](assets/acs_connect_lp_10.png)
 
-## メールの設計と送信 {#designing-and-sending-the-email}
+## E メールのデザインと送信 {#designing-and-sending-the-email}
 
 ここでは、Campaign Standard E メールで、Campaign v7 Web アプリケーションからレプリケートされたランディングページへのリンクを含める方法を確認します。
 
-E メールを作成、設計、送信する手順は、従来の E メールと同じです。[Adobe Campaign Standard](https://helpx.adobe.com/jp/support/campaign/standard.html) のドキュメントを参照してください。
+E メールを作成、設計、送信する手順は、従来の E メールと同じです。[Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja) のドキュメントを参照してください。
 
 1. 新しい E メールを作成して、1 つまたは複数のレプリケートされたプロファイルをオーディエンスとして選択します。
 1. コンテンツを編集して、**[!UICONTROL ランディングページへのリンク]**&#x200B;を挿入します。

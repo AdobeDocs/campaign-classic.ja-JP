@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 87067a0cca1a4a7f8ea1137ece6d513d58fcdb42
+source-git-commit: 31c7e41e747475ab98bcc8ffea90933a05aeaa97
 workflow-type: tm+mt
-source-wordcount: '4816'
-ht-degree: 100%
+source-wordcount: '4888'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,15 @@ ht-degree: 100%
 
 ## 2022
 
-### 1月
+### 2022 年 2 月 {#february-2022}
+
+更新された **ファイル転送** 「 」アクティビティセクションに追加します。 **転送後にソースファイルを削除** オプションが選択されていません。 [詳細情報](../../workflow/using/file-transfer.md#properties)
+
+強制隔離とブロックリストの節の内容が明快になりました。[詳細情報](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+
+アドレスを強制隔離に送信する方法と強制隔離リストからアドレスを削除する方法に関する節が更新されました。 [詳細情報](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+
+### 2022年1月 {#january-2022}
 
 **7.2.1 リリースに伴うドキュメントのアップデート**
 
@@ -414,7 +422,7 @@ Adobe Campaign Enhanced MTA の記事が更新されました。現在は Campai
 
 データモデルのベストプラクティスを更新し、[シーケンス](../../configuration/using/data-model-best-practices.md#sequences)、[パフォーマンス](../../configuration/using/data-model-best-practices.md#performance)、[大きなテーブル](../../configuration/using/data-model-best-practices.md#large-tables)などの新しい節を追加しました。[詳細を表示](../../configuration/using/data-model-best-practices.md)
 
-Adobe Campaign の組み込みデータモデルとテーブル間の相互作用を説明する新しい節が利用可能になりました。[詳細を表示](../../configuration/using/data-model-description.md)
+Adobe Campaign のビルトインデータモデルとテーブル間の相互作用を説明する新しい節が利用可能になりました。[詳細を表示](../../configuration/using/data-model-description.md)
 
 追加のキーリンクがドキュメントホームページに追加されました。[詳細を表示](../../campaign-classic-home.md)
 

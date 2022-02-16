@@ -6,10 +6,10 @@ audience: workflow
 content-type: reference
 topic-tags: event-activities
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 47cc5bc2f16ea87b6a12f6bf500c1e8d1f406876
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 96%
 
 ---
 
@@ -81,7 +81,7 @@ S3、Azure Blob Storage、SFTP 接続のいずれかを使用すると、Adobe �
 
 * **[!UICONTROL 転送後にソースファイルを削除]**
 
-   リモートサーバー上のファイルを消去します。
+   リモートサーバー上のファイルを消去します。このオプションを選択しない場合は、SFTP ディレクトリにあるアーカイブ済みコンテンツのサイズを手動で監視するようにしてください。
 
 * **[!UICONTROL SSL を使用]**
 

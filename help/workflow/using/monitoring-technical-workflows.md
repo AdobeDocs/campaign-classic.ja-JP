@@ -6,9 +6,9 @@ audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 1a4fd75a90667e57149772497a7b1bd14b251db3
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '531'
 ht-degree: 100%
 
 ---
@@ -43,9 +43,8 @@ ht-degree: 100%
 
 **[!UICONTROL データベースクリーンアップワークフロー（「cleanup」）]**&#x200B;の場合：
 
-1. 毎日、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローが実行され、正常に完了していることを確認します。詳しくは、この[ページ](delivery.md)を参照してください。
+1. 毎日、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローが実行され、正常に完了していることを確認します。詳しくは、この[ページ](../../production/using/database-cleanup-workflow.md)を参照してください。。
 1. ジャーナルを確認して、経過時間が長期間、比較的一定していて、他のワークフローに干渉していないことを検証します。
-1. 詳しくは、この[ページ](../../production/using/database-cleanup-workflow.md)を確認してください。
 
 **[!UICONTROL トラッキングワークフロー（「tracking」）]**&#x200B;の場合：
 
@@ -53,7 +52,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信品質の更新（「deliverabilityUpdate」）]**&#x200B;の場合：
 
-1. 毎日、**[!UICONTROL 配信品質の更新]**&#x200B;ワークフローが実行され、正常に完了していることを確認します。詳しくは、この[ページ](delivery.md)を参照してください。
+1. 毎日、**[!UICONTROL 配信品質の更新]**&#x200B;ワークフローが実行され、正常に完了していることを確認します。
 1. ルールが定期的に更新されていることをジャーナルで検証します。
 
 **[!UICONTROL キャンペーンプロセス（「operationMgt」、「deliveryMgt」など]**）の場合：

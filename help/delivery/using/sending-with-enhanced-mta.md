@@ -3,10 +3,10 @@ product: campaign
 title: Enhanced MTA を使用した Adobe Campaign Classic での送信
 description: Adobe Campaign Enhanced MTA を使用した E メール送信の範囲と特性について説明します
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 8ac6cddad04d1142b84a735ab8083e732c17714b
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 99%
+source-wordcount: '2016'
+ht-degree: 97%
 
 ---
 
@@ -135,6 +135,10 @@ Campaign **[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウン�
 Campaign 配信スループットグラフでは、E メール受信者に対するスループットが表示されなくなります。グラフには Campaign から Enhanced MTA へのメッセージのリレーのスループット速度が表示されるようになりました。
 
 配信スループットについて詳しくは、[この節](../../reporting/using/global-reports.md#delivery-throughput)を参照してください。
+
+>[!NOTE]
+>
+>を使用 [電子メールフィードバックサービス](#email-feedback-service) (EFS) 機能（現在はベータ版）の場合、キャンペーン配信スループットグラフには、E メール受信者へのスループットが表示されます。
 
 ### 有効期間
 

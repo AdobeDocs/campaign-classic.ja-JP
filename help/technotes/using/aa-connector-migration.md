@@ -3,9 +3,9 @@ product: campaign
 title: Adobe Analytics Connector への移行
 description: Campaign - Analytics Connector に関する FAQ
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: d11c918213e72fe4bf6adb464e516fac19b63d54
+source-git-commit: c072cb5b2d33f93ff395e4670507744b0d20c9bc
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '814'
 ht-degree: 100%
 
 ---
@@ -27,8 +27,6 @@ Campaign Classic v7 21.1.3 リリース以降、Adobe Analytics Data Connector �
 ## 変更点
 
 Campaign Classic v7と Adobe Analytics の間で新しい統合が利用できるようになりました。 主な変更点を以下に示します。
-
-* Adobe Campaign Classic と Adobe Analytics 認証の統合は、ユーザー／パスワードから Adobe Identity Management サービス（IMS）に移行しました。 そのため、Analytics Connector の実装を開始する前に、Adobe IMSを実装し、[Adobe ID を使用して](../../integrations/using/about-adobe-id.md) Campaign に接続する必要があります。
 
 * Adobe Analytics では、**コンタクト日**&#x200B;分類（日付タイプ）が廃止されました。移行された統合でも、同じタイプのままです。 Campaign で作成される&#x200B;**コンタクト日**&#x200B;の場合、タイプは&#x200B;**文字列**&#x200B;になります。
 

@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: '[!DNL Gold Standard] リリース'
+title: '"[!DNL Gold Standard] リリース"'
 description: Campaign Classic に関するリリースノートおよび互換性マトリックス [!DNL Gold Standard]
 feature: Overview
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 0f31ee570ba6e763f48902e91c5d823ac297fc24
+source-git-commit: 2fd845ba5e9ced87cef7fd101579ffa4f177f367
 workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 98%

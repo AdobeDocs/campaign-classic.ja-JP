@@ -5,9 +5,9 @@ description: '"使用例：フィールド置換の設定"'
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 88%
 * 1 つまたは複数のパーソナライゼーションフィールドを使用する配信であること
 * 配信に使用するパーソナライゼーションフィールドに合わせて&#x200B;**データスキーマ**&#x200B;に変更を加えたシードアドレスがあること
 
-##  配信の作成 {#step-1---creating-a-delivery}
+## 配信の作成 {#step-1---creating-a-delivery}
 
-配信の作成手順について詳しくは、 [E メール配信の作成](creating-an-email-delivery.md) 」セクションに入力します。
+配信の作成手順について詳しくは、[メール配信の作成](creating-an-email-delivery.md)の節で説明しています。
 
 以下は、配信責任者がニュースレターを作成した例です。
 
@@ -51,7 +51,7 @@ ht-degree: 88%
 
 この列挙は、顧客が好む読み物のジャンルを指定するためのものです。
 
-データスキーマに加えたこの変更がシードアドレスの&#x200B;**入力フォーム**&#x200B;に表示されるようにするには、入力フォームを更新する必要があります。詳しくは、 [入力フォームを更新](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form) 」セクションに入力します。
+データスキーマに加えたこの変更がシードアドレスの&#x200B;**入力フォーム**&#x200B;に表示されるようにするには、入力フォームを更新する必要があります。[入力フォームの更新](use-case--selecting-seed-addresses-on-criteria.md#updating-the-input-form)の節を参照してください。
 
 ## パーソナライゼーションの設定 {#configuring-personalization}
 
@@ -61,7 +61,7 @@ ht-degree: 88%
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. 配信リストとシードアドレスを設定します。参照： [ターゲット母集団の特定](steps-defining-the-target-population.md).
+1. 配信リストとシードアドレスを設定します。[ターゲット母集団の特定](steps-defining-the-target-population.md)を参照してください。
 
    この例では、**SF ジャンルを好んで読む**&#x200B;顧客をメインターゲット母集団にします。
 
@@ -73,7 +73,7 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >詳しくは、 **[!UICONTROL 動的条件を編集…]** リンク、 [使用例：条件に基づくシードアドレスの選択](use-case--selecting-seed-addresses-on-criteria.md).
+   >**[!UICONTROL 動的条件を編集...]**&#x200B;リンクについて詳しくは、[ユースケース：条件によるシードアドレスの選択](use-case--selecting-seed-addresses-on-criteria.md)を参照してください。
 
 1. 「**[!UICONTROL プレビュー]**」タブをクリックし、いずれかのシードアドレスを選択して、パーソナライゼーションをテストします。
 

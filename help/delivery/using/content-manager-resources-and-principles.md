@@ -4,9 +4,9 @@ title: コンテンツマネージャーのリソースと原則
 description: コンテンツマネージャーのリソースと原則
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

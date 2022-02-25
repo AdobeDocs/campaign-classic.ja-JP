@@ -5,9 +5,9 @@ description: 頻度ルール
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3460'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -142,7 +142,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 1. 作成したルールを、ニュースレターやスペシャルオファーなど、特定のトピックのメッセージに適用します。これらの配信の重み、つまり優先度は、各受信者の傾向スコアに基づいて決定されます。
 
 
-## 期間を設定 {#setting-the-period}
+## 期間の設定 {#setting-the-period}
 
 頻度ルールは、**n** 日周期で定義されます。
 
@@ -220,7 +220,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
 ## 圧力ルールのユースケース {#use-cases-on-pressure-rules}
 
-### 基準に基づいてしきい値を調整する {#adapting-the-threshold-based-on-criterion}
+### 基準に基づくしきい値の調整 {#adapting-the-threshold-based-on-criterion}
 
 顧客へのメッセージ配信を週に 4 回まで、見込み客への配信を週に 2 回までに制限するタイポロジルールを作成します。
 
@@ -290,7 +290,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
    ![](assets/campaign_opt_pressure_sample_1_10.png)
 
-### 行動に基づいて配信の重みを計算 {#calculating-the-delivery-weight-based-on-behavior}
+### 行動に基づく配信の重み付けの計算 {#calculating-the-delivery-weight-based-on-behavior}
 
 頻度ルールは、受信者の行動に基づいて定義できます。したがって、受信者ごとに異なる条件に基づいて、配信に重みを付けることが可能です。例えば、インターネットサイトを訪問した、最新のニュースレターで特定のセクションをクリックした、情報サービスの購読を始めた、などの受信者の行動、または調査への回答やオンラインゲームなどに基づいて、メッセージを送信するかどうかを決定できます。
 
@@ -316,7 +316,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 1. 「**[!UICONTROL 完了]**」をクリックして、ルールを保存します。
 1. ルールをキャンペーンタイポロジにリンクし、配信でこのタイポロジを参照して承認します。
 
-### 最も大きな重みを付けられたメッセージのみを送信 {#sending-only-the-highest-weighted-messages}
+### 重み付けが最大のメッセージのみの送信 {#sending-only-the-highest-weighted-messages}
 
 各受信者に 2 件以下のメッセージを同一週内で送信する必要があり、1 日あたりのメッセージ数は 2 件を上限とし、より高い重みが付けられたメッセージのみが配信されるようにするとします。
 
@@ -324,19 +324,19 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
 最初に、頻度ルールを設定します。
 
-1. 頻度ルールを作成します。詳しくは、 [頻度ルールの作成](#creating-a-pressure-rule).
+1. 頻度ルールを作成します。詳しくは、[頻度ルールの作成](#creating-a-pressure-rule)を参照してください。
 1. 「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL パーソナライゼーションの開始時にルールを再適用]**」オプションを選択します。
 
    ![](assets/campaign_opt_pressure_example_5.png)
 
-   このオプションは、「**[!UICONTROL 頻度]**」フィールドに定義された値を無視し、パーソナライゼーションフェーズ中にルールを自動的に適用します。詳しくは、 [計算頻度を調整](applying-rules.md#adjusting-calculation-frequency).
+   このオプションは、「**[!UICONTROL 頻度]**」フィールドに定義された値を無視し、パーソナライゼーションフェーズ中にルールを自動的に適用します。詳しくは、[計算頻度の調整](applying-rules.md#adjusting-calculation-frequency)を参照してください。
 
 1. 「**[!UICONTROL 頻度]**」タブで、「**[!UICONTROL 考慮する期間]**」で「**[!UICONTROL 7 日]**」を選択し、「**[!UICONTROL 期間タイプ]**」として「**[!UICONTROL 1 日あたりのグループ化]**」を選択します。
 1. 「**[!UICONTROL 暫定カレンダーで配信を考慮]**」オプションを選択してスケジュールされた配信を含めます。
 
    ![](assets/campaign_opt_pressure_example_1.png)
 
-   配信日から過去 7 日の間に送信された配信および配信日から 7 日後までスケジュールされている配信が計算に含められます。詳しくは、 [期間を設定](#setting-the-period).
+   配信日から過去 7 日の間に送信された配信および配信日から 7 日後までスケジュールされている配信が計算に含められます。詳しくは、[期間の設定](#setting-the-period)を参照してください。
 
    >[!AVAILABILITY]
    >スケジュールされた配信は、Campaign v8 では考慮されません。

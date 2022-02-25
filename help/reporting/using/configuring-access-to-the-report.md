@@ -4,9 +4,9 @@ title: レポートへのアクセスの設定
 description: レポートへのアクセスの設定
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 98%
 
 ![](assets/s_ncs_advuser_report_visibility_8.png)
 
-### フィルターオプションを定義 {#defining-the-filtering-options}
+### フィルターオプションの定義 {#defining-the-filtering-options}
 
 「**[!UICONTROL レポート]**」タブには、プラットフォームで使用可能で、かつ接続したオペレーターからアクセスできるすべてのレポートが表示されます。
 
@@ -120,7 +120,7 @@ ht-degree: 98%
 
 これらの設定について詳しくは、[Web フォーム](../../web/using/about-web-forms.md)の章の「**Web フォームプロパティの定義**」の節を参照してください。
 
-## レポートをパブリッシュ {#publishing-the-report}
+## レポートを公開 {#publishing-the-report}
 
 レポートを他のオペレーターと共有したり、利用可能なレポートのリストにレポートを表示するには、レポートをパブリッシュする必要があります（[レポートの表示コンテキスト](#report-display-context)も参照してください）。レポートを変更するたびに、この操作を再度実行する必要があります。
 

@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: オーディエンスの同期
-description: オーディエンスを ACS コネクタと同期する方法を説明します
+description: オーディエンスを ACS コネクタと同期する方法を学ぶ
 feature: ACS Connector
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1210'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

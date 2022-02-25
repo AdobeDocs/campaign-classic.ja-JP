@@ -4,7 +4,7 @@ title: Response Manager について
 description: Response Manager について
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
 ht-degree: 100%
 

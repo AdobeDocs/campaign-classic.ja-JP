@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: web アプリケーションの同期
-description: Web アプリケーションを ACS コネクタと同期する方法を説明します。
+title: Web アプリケーションの同期
+description: Web アプリケーションを ACS コネクタと同期する方法を学ぶ
 feature: ACS Connector
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '864'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# web アプリケーションの同期{#synchronizing-web-applications}
+# Web アプリケーションの同期{#synchronizing-web-applications}
 
 ![](../../assets/v7-only.svg)
 
@@ -23,11 +23,11 @@ Campaign v7 に多くのサービスおよび Web アプリケーションがあ
 
 これをおこなうには、以下が必要です。
 
-* Campaign v7 データベースに格納され、Campaign Standard と同期された受信者。詳しくは、 [プロファイルを同期](../../integrations/using/synchronizing-profiles.md) 」セクションに入力します。
+* Campaign v7 データベースに格納され、Campaign Standard と同期された受信者。[プロファイルの同期](../../integrations/using/synchronizing-profiles.md)の節を参照してください。
 * Campaign v7 で作成され、パブリッシュされたサービスおよび Web アプリケーション。
 * Web アプリケーションには、**[!UICONTROL Adobe Campaign の暗号化]**&#x200B;の識別方法を使用する&#x200B;**[!UICONTROL プリロード]**&#x200B;アクティビティが含まれている必要があります。
 
-## Web アプリケーションとサービスの作成 {#creating-the-web-application-and-service}
+## Web アプリケーションおよびサービスの作成 {#creating-the-web-application-and-service}
 
 Campaign v7 では、受信者がサービスを購読できる Web アプリケーションを作成できます。Web アプリケーションおよびサービスは、Campaign v7 で設計および格納され、Campaign Standard 通信を使用してこのサービスを更新できます。Campaign v7 の Web アプリケーションについて詳しくは、[この節](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)を参照してください。
 
@@ -80,7 +80,7 @@ Campaign v7 と Campaign Standard との間で必要なデータをレプリケ�
 
    ![](assets/acs_connect_lp_10.png)
 
-## E メールのデザインと送信 {#designing-and-sending-the-email}
+## メールのデザインと送信 {#designing-and-sending-the-email}
 
 ここでは、Campaign Standard E メールで、Campaign v7 Web アプリケーションからレプリケートされたランディングページへのリンクを含める方法を確認します。
 

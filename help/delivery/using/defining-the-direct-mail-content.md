@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: ダイレクトメールコンテンツの定義
-description: ダイレクトメールのコンテンツを定義する方法を説明します
+description: ダイレクトメールのコンテンツを定義する方法を学ぶ
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

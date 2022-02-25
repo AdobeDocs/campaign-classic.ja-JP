@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Adobe Campaign Classic の配信品質について
-description: Adobe Campaign の配信品質管理について説明します。
+description: Adobe Campaign の配信品質管理の詳細情報
 feature: Deliverability
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '772'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ E メールが受信者に確実に届くようにし、E メールの配信品�
 
 >[!NOTE]
 >
->E メールコンテンツの編集について詳しくは、 [E メールコンテンツを定義](defining-the-email-content.md) および [パーソナライズされたコンテンツの作成](design-and-personalize.md).
+>メールコンテンツの編集について詳しくは、[メールコンテンツの定義](defining-the-email-content.md)と[パーソナライズされたコンテンツの作成](design-and-personalize.md)を参照してください。
 
 ## 送信者アドレス {#sender-address}
 

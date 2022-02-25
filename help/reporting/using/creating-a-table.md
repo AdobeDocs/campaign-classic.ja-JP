@@ -4,9 +4,9 @@ title: テーブルの作成
 description: テーブルの作成
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2643'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 97%
 
 ![](assets/s_advuser_report_page_activity_05.png)
 
-## グループ化されたリストの作成 {#creating-a-list-with-group}
+## グループを使用したリストの作成 {#creating-a-list-with-group}
 
 **[!UICONTROL グループ化されたリスト]**&#x200B;タイプのテーブルでは、テーブルのデータをグループ化し、それに関する統計を生成できます。例えば、データの合計と小計を作成できます。グループごとに、専用のヘッダー行、詳細行、フッター行があります。
 
 >[!CAUTION]
 >
->テーブルを含む&#x200B;**[!UICONTROL ページ]**&#x200B;アクティビティの前に、レポートで分析するデータを収集するための&#x200B;**[!UICONTROL クエリ]**&#x200B;または&#x200B;**[!UICONTROL スクリプト]**&#x200B;アクティビティが必要です。これらのアクティビティについて詳しくは、 [分析するデータを収集](../../reporting/using/collecting-data-to-analyze.md) および [スクリプトアクティビティ](../../reporting/using/advanced-functionalities.md#script-activity).
+>テーブルを含む&#x200B;**[!UICONTROL ページ]**&#x200B;アクティビティの前に、レポートで分析するデータを収集するための&#x200B;**[!UICONTROL クエリ]**&#x200B;または&#x200B;**[!UICONTROL スクリプト]**&#x200B;アクティビティが必要です。これらのアクティビティについて詳しくは、[分析するデータの収集](../../reporting/using/collecting-data-to-analyze.md)および[スクリプトアクティビティ](../../reporting/using/advanced-functionalities.md#script-activity)を参照してください。
 
 ### 動作原理 {#operating-principle}
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 「グループ化されたリスト」タイプのテーブルを作成するには、次の手順に従ってください。
 
-1. レポートのチャートに移動し、**[!UICONTROL クエリ]**&#x200B;アクティビティを追加します。参照： [分析するデータを収集](../../reporting/using/collecting-data-to-analyze.md).
+1. レポートのチャートに移動し、**[!UICONTROL クエリ]**&#x200B;アクティビティを追加します。[分析するデータの収集](../../reporting/using/collecting-data-to-analyze.md)を参照してください。
 1. ソーステーブルを入力し、そのテーブルのフィールドのうち、統計に関係するものを選択します。
 1. フローチャートに&#x200B;**[!UICONTROL ページ]**&#x200B;アクティビティを追加します。詳しくは、[静的要素](../../reporting/using/creating-a-new-report.md#static-elements)を参照してください。
 1. ページに&#x200B;**[!UICONTROL グループ化されたリスト]**&#x200B;タイプのテーブルを挿入します。
@@ -51,9 +51,9 @@ ht-degree: 97%
    後でソーステーブルのフィールドを復元し、それらをテーブルのセルに挿入する場合、この手順は必須です。
 
 1. テーブルとその内容を作成します。
-1. 最終決定したレポートを「**[!UICONTROL プレビュー]**」タブに表示します。その後は、レポートをパブリッシュしたり、必要に応じてレポートを別のフォーマットにエクスポートしたりできます。詳しくは、 [レポートのエクスポート](../../reporting/using/actions-on-reports.md#exporting-a-report).
+1. 最終決定したレポートを「**[!UICONTROL プレビュー]**」タブに表示します。その後は、レポートをパブリッシュしたり、必要に応じてレポートを別のフォーマットにエクスポートしたりできます。詳しくは、[レポートのエクスポート](../../reporting/using/actions-on-reports.md#exporting-a-report)を参照してください。
 
-### 行と列を追加 {#adding-lines-and-columns}
+### 行や列の追加 {#adding-lines-and-columns}
 
 デフォルトでは、**[!UICONTROL グループ化されたリスト]**&#x200B;タイプのテーブルには、ヘッダー行、詳細行、フッター行が含まれています。
 
@@ -91,7 +91,7 @@ ht-degree: 97%
 
 ![](assets/s_advuser_ergo_listgroup_007.png)
 
-### セルの内容を定義 {#defining-cell-content}
+### セルの内容の定義 {#defining-cell-content}
 
 テーブルのセルを編集してセルの内容とフォーマットを定義するには、対象となるセルに移動し、右クリックメニューを使用します。
 
@@ -115,7 +115,7 @@ ht-degree: 97%
 
    ![](assets/s_advuser_ergo_listgroup_008.png)
 
-### セルのフォーマットを定義 {#defining-cell-format}
+### セルのフォーマットの定義 {#defining-cell-format}
 
 ![](assets/s_advuser_ergo_listgroup_017.png)
 
@@ -123,7 +123,7 @@ ht-degree: 97%
 
 これらのオプションを使用すると、レポートの最終的なレンダリングをパーソナライズし、情報を読み取りやすくすることができます。
 
-データを Excel にエクスポートする場合は、「**[!UICONTROL CR]**」フィールドを使用します。「**[!UICONTROL はい]**」の値を選択すると、強制的に復帰改行されます。この値はエクスポート時に保持されます。詳しくは、 [レポートのエクスポート](../../reporting/using/actions-on-reports.md#exporting-a-report).
+データを Excel にエクスポートする場合は、「**[!UICONTROL CR]**」フィールドを使用します。「**[!UICONTROL はい]**」の値を選択すると、強制的に復帰改行されます。この値はエクスポート時に保持されます。詳しくは、[レポートのエクスポート](../../reporting/using/actions-on-reports.md#exporting-a-report)を参照してください。
 
 **[!UICONTROL セルのフォーマット]**&#x200B;ウィンドウでは、次のタブにアクセスできます。
 
@@ -445,7 +445,7 @@ ht-degree: 97%
 
    これで、ページが設定されました。
 
-### 手順 6 — レポートの表示 {#step-6---viewing-the-report}
+### 手順 6 - レポートを表示 {#step-6---viewing-the-report}
 
 この設定の結果を表示するには、「**[!UICONTROL プレビュー]**」タブをクリックし、「**[!UICONTROL グローバル]**」オプションを選択します。
 
@@ -457,7 +457,7 @@ ht-degree: 97%
 
 ![](assets/s_advuser_report_listgroup_022.png)
 
-## 分類またはピボットテーブルの作成 {#creating-a-breakdown-or-pivot-table}
+## 分類またはピボットテーブルを作成 {#creating-a-breakdown-or-pivot-table}
 
 このタイプのテーブルでは、データベース内のデータに関して計算した統計を表示できます。
 

@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: 送信前の確認
+title: 送信前のチェック
 description: メッセージの準備が整ったら、送信前にすべてのチェックを実行します
 feature: Deliverability
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
 source-git-commit: 808f459a0b77b1787fc017c031247ab268b5aafa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '902'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

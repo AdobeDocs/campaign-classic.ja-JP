@@ -5,7 +5,7 @@ description: プロバイダー、在庫、予算
 feature: Budget Management
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1994'
 ht-degree: 100%
 

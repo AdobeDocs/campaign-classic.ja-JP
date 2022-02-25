@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: 通信チャネル
-description: 様々なチャネルでパーソナライズされたメッセージを送信する配信の作成
+description: 様々なチャネルでパーソナライズされたメッセージを送信するための配信を作成します。
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1211'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

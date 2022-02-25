@@ -4,9 +4,9 @@ title: 記述的分析ウィザードの使用
 description: 記述的分析ウィザードの使用
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1644'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 記述的分析レポートを作成するには、専用のウィザードを使用します。設定は、分析するデータおよび希望するレンダリングによって異なります。
 
-## データベース内のデータを分析する {#analyzing-data-in-the-database}
+## データベース内のデータの分析 {#analyzing-data-in-the-database}
 
 記述的分析ウィザードは、**[!UICONTROL ツール／記述的分析]**&#x200B;メニューで起動できます。その場合は、デフォルトで、受信者に関係する分析になります（**nms:recipient**）。分析は、Adobe Campaign データベース内のすべてのデータに適用されます。
 
@@ -32,7 +32,7 @@ ht-degree: 93%
 
 この分析では、データベースに格納されている受信者のうち、16 歳以上でロンドンに住んでいる人だけを対象にします。
 
-## 一連のデータの分析 {#analyzing-a-set-of-data}
+## データセットの分析 {#analyzing-a-set-of-data}
 
 記述的分析ウィザードは、リスト、ワークフロートランザクション、1 つ以上の配信、選択した一部の受信者などの様々なコンテキストで使用できます。
 
@@ -48,19 +48,19 @@ ht-degree: 93%
 
    受信者の記述的分析の例については、[定性的データ分析](../../reporting/using/use-cases.md#qualitative-data-analysis)を参照してください。
 
-* **ワークフロー**&#x200B;のコンテキストでは、受信者テーブルを指すトランザクションにカーソルを置き、右クリックして「**[!UICONTROL ターゲットを分析]**」を選択します。詳しくは、 [ワークフローのトランジションターゲットの分析](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow).
+* **ワークフロー**&#x200B;のコンテキストでは、受信者テーブルを指すトランザクションにカーソルを置き、右クリックして「**[!UICONTROL ターゲットを分析]**」を選択します。詳しくは、[ワークフローのトランジションターゲットの分析](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow)の例を参照してください。
 * **リスト**&#x200B;の場合は、1 つ以上のリストを選択し、受信者の場合と同じ手順を適用します。
 * **配信**&#x200B;の場合は、次に示すように、分析対象をターゲットとする配信を選択し、右クリックして&#x200B;**[!UICONTROL アクション／ターゲットを参照]**&#x200B;を選択します。
 
    ![](assets/reporting_descriptive_from_deliveries.png)
 
-   配信の記述的分析の例を以下に示します。 [母集団の分析](../../reporting/using/use-cases.md#analyzing-a-population) そしてここに [受信者トラッキングログの分析](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs).
+   配信の記述的分析の例については、[母集団の分析](../../reporting/using/use-cases.md#analyzing-a-population)および[受信者トラッキングログの分析](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs)を参照してください。
 
 ## 定性配分テンプレートの設定 {#configuring-the-qualitative-distribution-template}
 
-**[!UICONTROL 定性配分]**&#x200B;テンプレートでは、あらゆるタイプのデータ（会社名、E メールドメインなど）に関する統計を作成できます。
+**[!UICONTROL 定性配分]**&#x200B;テンプレートでは、あらゆるタイプのデータ（会社名、メールドメインなど）に関する統計を作成できます。
 
-で作成したレポートで使用可能な設定オプション **[!UICONTROL 定性配分]** テンプレートについて詳しくは、 [テーブルにデータを表示](#displaying-data-in-the-table). 完全な例について詳しくは、 [母集団の分析](../../reporting/using/use-cases.md#analyzing-a-population).
+**[!UICONTROL 定性配分]**&#x200B;テンプレートを基に作成したレポートに使用可能な設定オプションについて詳しくは、[テーブルでのデータ表示](#displaying-data-in-the-table)を参照してください。完全な例の詳細は、[母集団の分析](../../reporting/using/use-cases.md#analyzing-a-population)で説明しています。
 
 記述的分析ウィザードを使用してデータを分析する場合、使用可能なオプションは、選択した設定によって異なります。次に、それらについて説明します。
 
@@ -105,7 +105,7 @@ ht-degree: 93%
 
    ![](assets/reporting_descriptive_initialize_modulo_result.png)
 
-### テーブルにデータを表示 {#displaying-data-in-the-table}
+### テーブルでのデータ表示 {#displaying-data-in-the-table}
 
 ツールバーを使用すると、列の削除、列ではなく行でのデータ表示、列の左または右への移動、値の計算の表示または変更など、テーブルでの変数の表示をパーソナライズできます。
 
@@ -115,7 +115,7 @@ ht-degree: 93%
 
 統計の名前や小計の表示／非表示を切り替えたり、統計の方向を選択したりできます。詳しくは、[分析レポートの表示設定](../../reporting/using/processing-a-report.md#analysis-report-display-settings)を参照してください。
 
-### グラフにデータを表示する {#displaying-data-in-the-chart}
+### データをグラフで表示 {#displaying-data-in-the-chart}
 
 記述的分析ウィザードの最初の段階では、テーブルを使用せずにグラフ形式のみでデータを表示することを選択できます。その場合は、グラフを設定する際に変数選択をおこなう必要があります。まず、表示する変数の数を選択し、関連するデータベースのフィールドを選択します。
 
@@ -231,4 +231,4 @@ Adobe Campaign には、デフォルトで、選択されたデータを計算�
 
    ![](assets/reporting_descriptive_view_report.png)
 
-   レポートに変更を加えるには、 [レポートの処理](../../reporting/using/processing-a-report.md).
+   レポートを変更するには、[レポートの処理](../../reporting/using/processing-a-report.md)を参照してください。

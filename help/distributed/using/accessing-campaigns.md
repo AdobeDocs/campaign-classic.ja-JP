@@ -5,9 +5,9 @@ description: キャンペーンへのアクセス
 feature: Distributed Marketing
 exl-id: 5534bd5b-6888-4bf6-8a39-109c6fc0f6c3
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

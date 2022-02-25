@@ -5,9 +5,9 @@ description: 分散型マーケティングのサンプル
 feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 96%
 
 ## ローカルキャンペーン（フォーム）の作成 {#creating-a-local-campaign--by-form-}
 
-**フォーム**&#x200B;タイプの Web インターフェイスを使用するには、**Web アプリケーション**&#x200B;を使用する必要があります。Web アプリケーションには、設定に応じて、パーソナライズされたあらゆる種類の定義済み要素を含めることができます。例えば、専用の API を使用して、ターゲット、予算、コンテンツなどを評価するリンクを含めることができます。
+**フォーム**&#x200B;タイプの Web インターフェイスを使用するには、**Web アプリケーション**&#x200B;を使用する必要があります。Web アプリケーションには、設定に応じて、パーソナライズされたあらゆる種類の定義済み要素を含めることができます。例えば、専用の API を使用して、ターゲット、予算、コンテンツなどを評価するリンクを提案できます。
 
 >[!NOTE]
 >
->API について詳しくは、専用ドキュメントを参照してください。 [詳細情報](../../configuration/using/about-web-services.md)。
+>API について詳しくは、専用ドキュメントを参照してください。[詳細情報](../../configuration/using/about-web-services.md)。
 >
->この例で使用する Web アプリケーションは、Adobe Campaign に付属している Web アプリケーションではありません。キャンペーンでフォームを使用するには、専用の Web アプリケーションを作成する必要があります。
+>この例で使用する web アプリケーションは、Adobe Campaign に付属している web アプリではありません。キャンペーンでフォームを使用するには、専用の Web アプリケーションを作成する必要があります。
 
 キャンペーンテンプレートの作成時に、「**[!UICONTROL キャンペーンの詳細設定...]**」リンクの「**[!UICONTROL Web インターフェイス]**」オプションにある&#x200B;**[!UICONTROL 拡大]**&#x200B;アイコンをクリックして、Web アプリケーションの詳細にアクセスします。
 
@@ -71,7 +71,7 @@ ht-degree: 96%
    var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
    ```
 
-## 協調キャンペーン（ターゲットの承認）の作成 {#creating-a-collaborative-campaign--by-target-approval-}
+## 共同キャンペーンを作成（ターゲットの承認） {#creating-a-collaborative-campaign--by-target-approval-}
 
 ### はじめに {#introduction}
 
@@ -140,7 +140,7 @@ ht-degree: 96%
 
 1. 新しいデータ配分を保存します。
 
-#### 協調キャンペーンの作成 {#creating-a-collaborative-campaign}
+#### 共同キャンペーンの作成 {#creating-a-collaborative-campaign}
 
 1. **[!UICONTROL キャンペーン管理／キャンペーン]**&#x200B;ノードで、新しい&#x200B;**[!UICONTROL 協調キャンペーン（ターゲットの承認）]**&#x200B;を作成します。
 1. 「**[!UICONTROL ターゲティングとワークフロー]**」タブで、キャンペーンのワークフローを作成します。ワークフローには、**分割**&#x200B;アクティビティを含める必要があります。分割アクティビティの「**[!UICONTROL レコード数の制限]**」は、**[!UICONTROL データ配分]**&#x200B;アクティビティによって定義します。
@@ -157,7 +157,7 @@ ht-degree: 96%
 
 1. レコードを保存します。
 
-#### キャンペーンをパブリッシュ {#publishing-the-campaign}
+#### キャンペーンの公開 {#publishing-the-campaign}
 
 「**[!UICONTROL キャンペーン]**」タブから&#x200B;**キャンペーンパッケージ**&#x200B;を追加できるようになりました。
 
@@ -176,7 +176,7 @@ ht-degree: 96%
 
    ![](assets/mkg_dist_use_case_target_valid2.png)
 
-## 協調キャンペーン（フォーム）の作成 {#creating-a-collaborative-campaign--by-form-}
+## 共同キャンペーンの作成（フォームを使用）  {#creating-a-collaborative-campaign--by-form-}
 
 ### はじめに {#introduction-1}
 

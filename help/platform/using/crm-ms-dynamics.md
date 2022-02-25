@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Campaign - Microsoft Dynamics CRM コネクタ
-description: Campaign とMicrosoft Dynamics の接続方法
+description: Campaign とMicrosoft Dynamics の接続方法を学ぶ
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1132'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

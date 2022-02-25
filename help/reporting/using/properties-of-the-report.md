@@ -4,9 +4,9 @@ title: レポートのプロパティ
 description: レポートプロパティ設定の詳細
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 97%
 >
 >Campaign での Web ページのローカライゼーションについて詳しくは、[この節](../../web/using/translating-a-web-form.md)を参照してください。
 
-## パーソナライズHTMLレンダリング {#personalizing-html-rendering}
+## HTML レンダリングのパーソナライズ {#personalizing-html-rendering}
 
 「**[!UICONTROL レンダリング]**」タブでは、ページのデータ表示モードをパーソナライズできます。次の項目を選択できます。
 

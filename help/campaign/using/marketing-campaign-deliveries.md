@@ -5,9 +5,9 @@ description: マーケティングキャンペーン配信の詳細
 feature: Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1552'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/how-to-video.png)[ビデオでこの機能を確認する](#create-email-video)
 
-## 配信の作成 {#creating-deliveries}
+## 配信を作成 {#creating-deliveries}
 
 キャンペーンにリンクされた配信を作成するには、キャンペーンダッシュボードの「**[!UICONTROL 配信を追加]**」リンクをクリックします。
 
@@ -63,9 +63,9 @@ ht-degree: 98%
 
 抽出ワークフローが正常に実行されたら、抽出ファイルを承認する必要があります（配信設定で抽出ファイルの承認が選択されている場合）。
 
-詳しくは、 [抽出ファイルの承認](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file).
+詳しくは、[抽出ファイルを承認](../../campaign/using/marketing-campaign-approval.md#approving-an-extraction-file)を参照してください。
 
-**手順 2 - サービスプロバイダーへのメッセージの承認**
+**手順 2 - サービスプロバイダーへのメッセージを承認**
 
 * 抽出ファイルが承認されたら、ルーターへの通知メールの配達確認を生成できます。この電子メールメッセージは、配信テンプレートに基づいて作成されます。このメッセージは承認が必要です。
 
@@ -126,7 +126,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->MRM を使用している場合は、共同作業している複数の参加者が使用できるマーケティングリソースのライブラリも管理できます。詳しくは、 [マーケティングリソースの管理](../../mrm/using/managing-marketing-resources.md).
+>MRM を使用している場合は、共同作業している複数の参加者が使用できるマーケティングリソースのライブラリも管理できます。[マーケティングリソースの管理](../../mrm/using/managing-marketing-resources.md)を参照してください。
 
 ### ドキュメントの追加 {#adding-documents}
 

@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Adobe Campaignでの Android モバイルアプリケーションの設定
+title: Adobe Campaign で Android モバイルアプリケーションを設定
 description: Android 用のモバイルアプリケーションの設定方法を説明します。
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1074'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

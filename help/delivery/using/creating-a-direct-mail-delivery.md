@@ -4,9 +4,9 @@ title: ダイレクトメール配信の作成
 description: ダイレクトメール配信の作成方法を説明します
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '87'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 

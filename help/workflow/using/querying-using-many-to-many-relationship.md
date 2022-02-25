@@ -5,13 +5,13 @@ description: 多対多関係を使用したクエリを実行する方法を説�
 feature: Query Editor
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
 ht-degree: 100%
 
 ---
 
-# 多対多関係を使用したクエリ {#querying-using-a-many-to-many-relationship}
+# 多対多の関係を使用したクエリ {#querying-using-a-many-to-many-relationship}
 
 ![](../../assets/common.svg)
 

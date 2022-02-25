@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: トラッキングの概要
-description: Adobe Campaign Classicでのトラッキングに関する一般的なガイドラインを説明します
+title: トラッキングの基本を学ぶ
+description: Adobe Campaign Classic のトラッキングに関する一般的なガイドラインを学ぶ
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

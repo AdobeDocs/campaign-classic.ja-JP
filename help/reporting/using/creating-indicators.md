@@ -4,9 +4,9 @@ title: 指標の作成
 description: 指標の作成
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 92%
 
 キューブを作成するには、次の手順に従います。
 
-1. 作業用テーブルを選択します。参照： [作業用テーブルを選択](#selecting-the-work-table).
-1. ディメンションを定義します。参照： [ディメンションの定義](#defining-dimensions).
-1. 測定を定義します。参照： [指標の構築](#building-indicators).
-1. 集計を作成します（オプション）。参照： [集計の計算と使用](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
+1. 作業用テーブルを選択します。[作業用テーブルの選択](#selecting-the-work-table)を参照してください。
+1. ディメンションを定義します。[ディメンションの定義](#defining-dimensions)を参照してください。
+1. 測定を定義します。[指標の構築](#building-indicators)を参照してください。
+1. 集計を作成します（オプション）。[集計の計算と使用](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates)を参照してください。
 
 この例では、レポートにシンプルなキューブをすばやく作成して、そのキューブの測定をエクスポートする方法を示します。
 
 次に、実装手順を示します。すべてのオプションとその説明については、この章の他の節を参照してください。
 
-## 作業用テーブルを選択 {#selecting-the-work-table}
+## 作業用テーブルを選択します。 {#selecting-the-work-table}
 
 キューブを作成するには、キューブのリストの上にある「**[!UICONTROL 新規]**」ボタンをクリックします。
 
@@ -43,7 +43,7 @@ ht-degree: 92%
 
 ![](assets/s_advuser_cube_wz_03.png)
 
-## ディメンションの定義 {#defining-dimensions}
+## ディメンションを定義します。 {#defining-dimensions}
 
 ディメンションは、関連するファクトスキーマに基づいたキューブごとに定義された分析軸と一致します。これらが、分析で調査されるディメンションです。例えば、時間（年、月、日など）、製品や契約の分類（ファミリー、参照など）、母集団のセグメント（市区町村別、年齢別、グループ別、ステータス別など）といったものです。
 
@@ -102,7 +102,7 @@ ht-degree: 92%
 
    ![](assets/s_advuser_cube_wz_11.png)
 
-   「**[!UICONTROL 測定データをフィルター]**」リンクをたどって、女性だけを選択できます。測定と使用可能なオプションの定義について詳しくは、 [測定の定義](../../reporting/using/concepts-and-methodology.md#defining-measures).
+   「**[!UICONTROL 測定データをフィルター]**」リンクをたどって、女性だけを選択できます。測定と使用可能なオプションの定義について詳しくは、[測定の定義](../../reporting/using/concepts-and-methodology.md#defining-measures)を参照してください。
 
    ![](assets/s_advuser_cube_wz_12.png)
 
@@ -128,7 +128,7 @@ ht-degree: 92%
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. ディメンションの軸を切り替えたり、軸を削除したり、新しい測定を追加したりできます。可能な操作について詳しくは、 [このページ](../../reporting/using/using-cubes-to-explore-data.md).
+1. ディメンションの軸を切り替えたり、軸を削除したり、新しい測定を追加したりできます。可能な操作について詳しくは、[このページ](../../reporting/using/using-cubes-to-explore-data.md)を参照してください。
 
    それには、該当するアイコンを使用します。
 

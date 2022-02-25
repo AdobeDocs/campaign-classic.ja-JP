@@ -5,7 +5,7 @@ description: マーケティングキャンペーンを作成して実行する�
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 source-git-commit: f95b75adf8f46d8301d800451ea0e62629690a8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1294'
 ht-degree: 100%
 

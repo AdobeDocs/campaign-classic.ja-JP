@@ -1,11 +1,11 @@
 ---
 product: campaign
 title: Adobe Campaign Classic でのインタラクティブコンテンツの定義
-description: Adobe Campaign の AMP を使用してインタラクティブな動的メールコンテンツを定義する方法について説明します。
+description: Adobe Campaign の AMP を使用してインタラクティブな動的メールコンテンツを定義する方法を学ぶ
 feature: Email Design, Dynamic Content
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1579'
 ht-degree: 100%
 

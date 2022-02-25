@@ -5,9 +5,9 @@ description: 配信テンプレートの基本を学ぶ
 feature: Delivery Templates
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->使用できるテンプレートの種類は、ユーザー自身が持つアクセス権、ユーザーのインスタンス設定およびコンテキストによって異なります。例えば、情報サービスを作成する際に、確認メッセージ用の配信テンプレートをリンクするとします。その場合にアクセスできるテンプレートは、ターゲットマッピングが購読マッピングであるテンプレートのみです。詳しくは、 [ターゲットマッピングを選択](selecting-a-target-mapping.md) および [サービスと購読](about-services-and-subscriptions.md).
+>使用できるテンプレートの種類は、ユーザー自身が持つアクセス権、ユーザーのインスタンス設定およびコンテキストによって異なります。例えば、情報サービスを作成する際に、確認メッセージ用の配信テンプレートをリンクするとします。その場合にアクセスできるテンプレートは、ターゲットマッピングが購読マッピングであるテンプレートのみです。詳しくは、[ターゲットマッピングの選択](selecting-a-target-mapping.md)および[サービスと購読](about-services-and-subscriptions.md)を参照してください。

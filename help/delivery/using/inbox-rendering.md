@@ -5,7 +5,7 @@ description: E メールのレンダリングを取り込み、専用レポー�
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '852'
 ht-degree: 100%
 

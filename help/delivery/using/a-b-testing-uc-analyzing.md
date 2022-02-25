@@ -1,10 +1,10 @@
 ---
 product: campaign
 title: 結果の分析
-description: 専用のユースケースを通じて A/B テストを実行する方法を説明します。
+description: 専用のユースケースを通じて A/B テストを実行する方法を学ぶ
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
 ht-degree: 100%
 

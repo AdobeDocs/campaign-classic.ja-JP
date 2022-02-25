@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: ISP 機能停止後のバウンス認定条件の更新
-description: ISP の停止後にバウンスの選定を更新する方法を説明します
+title: ISP の機能停止後にバウンス認定条件を更新
+description: ISP が機能停止した後にバウンスの認定条件を更新する方法を学ぶ
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

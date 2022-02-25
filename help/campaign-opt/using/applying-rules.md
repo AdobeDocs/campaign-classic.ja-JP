@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: タイポロジルールの適用
-description: タイポロジルールの適用方法を説明します
+description: タイポロジルールを適用する方法を学ぶ
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 source-git-commit: 808f459a0b77b1787fc017c031247ab268b5aafa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 97%
 
 ![](../../assets/common.svg)
 
-## 配信へのタイポロジの適用 {#applying-a-typology-to-a-delivery}
+## 配信へタイポロジを適用 {#applying-a-typology-to-a-delivery}
 
 作成したタイポロジルールを適用するには、そのルールをタイポロジに関連付けたうえで、配信でこのタイポロジを参照する必要があります。手順は次のとおりです。
 
@@ -37,7 +37,7 @@ ht-degree: 97%
    >
    >配信テンプレートでタイポロジを定義すると、このテンプレートを使用して作成されるすべての配信に自動的にこのタイポロジを適用できます。
 
-## 適用条件の定義 {#defining-application-conditions}
+## 適用条件を定義 {#defining-application-conditions}
 
 ルールの適用範囲は、必要に応じて制限できます（ただし、コントロールルールは除く）。
 

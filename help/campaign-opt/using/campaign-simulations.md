@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: キャンペーンシミュレーション
-description: シミュレーションの概要
+description: キャンペーンシミュレーションの基本を学ぶ
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1376'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 98%
 
 ## シミュレーションの実行 {#executing-a-simulation}
 
-### シミュレーションを開始 {#starting-a-simulation}
+### シミュレーションの開始 {#starting-a-simulation}
 
 スコープを定義したら、シミュレーションを実行できます。
 
@@ -126,7 +126,7 @@ ht-degree: 98%
 
    分析テーブルの作成例について詳しくは、[結果の参照](#exploring-results)の最後の部分を参照してください。
 
-### 結果を表示 {#viewing-results}
+### 結果の表示 {#viewing-results}
 
 #### 監査 {#audit}
 
@@ -134,7 +134,7 @@ ht-degree: 98%
 
 ![](assets/simu_campaign_opti_11.png)
 
-#### 結果の調査 {#exploring-results}
+#### 結果を調べる {#exploring-results}
 
 「**[!UICONTROL 除外を調査]**」サブタブでは、シミュレーションによって生成されたデータを分析できます。
 
@@ -164,7 +164,7 @@ ht-degree: 98%
 
 また、シミュレーションのダッシュボードからアクセスできる「**[!UICONTROL レポート]**」リンクを使用して、レポートを編集することもできます。
 
-### シミュレーションを比較 {#comparing-simulations-}
+### シミュレーションの比較 {#comparing-simulations-}
 
 シミュレーションを実行するたびに、前のシミュレーションの結果は新しいシミュレーションの結果に置換されるので、複数のシミュレーションの結果を表示して比較することはできません。
 

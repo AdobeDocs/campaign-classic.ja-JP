@@ -5,9 +5,9 @@ description: パーソナライズされたクーポンの作成および挿入�
 feature: Personalization
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 95%
    1. 入力を促すポップアップウィンドウが表示されたら、個人クーポンの一意のコードを入力します。
    1. 「**[!UICONTROL 保存]**」をクリックして、クーポンを生成します。
 
-   「クーポン」タブについて詳しくは、 [個人クーポンの設定](#configuring-individual-coupons).
+   「クーポン」タブについて詳しくは、[個人クーポンの設定](#configuring-individual-coupons)を参照してください。
 
    >[!NOTE]
    >
@@ -71,7 +71,7 @@ ht-degree: 95%
 
 **[!UICONTROL ステータス]**、**[!UICONTROL チャネル]**&#x200B;および&#x200B;**[!UICONTROL アドレス]**&#x200B;の値は、自動的に入力されます。ただし、**[!UICONTROL 引き換え日]**&#x200B;の値は、Campaign によって復元されません。クーポン引き換えの詳細を含むファイルをインポートすることで、入力できます。
 
-## クーポンの E メール配信への挿入 {#inserting-a-coupon-into-an-email-delivery}
+## メール配信へのクーポンの挿入 {#inserting-a-coupon-into-an-email-delivery}
 
 次の例では、配信をホームページから作成します。配信の作成方法について詳しくは、[この節](about-email-channel.md)を参照してください。また、ワークフローの配信にクーポンを追加することもできます。
 
@@ -134,7 +134,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->配信に不十分なクーポンを管理する方法について詳しくは、 [不十分なクーポンの管理](#managing-insufficient-coupons)
+>配信に不十分なクーポンを管理する方法について詳しくは、[不十分なクーポンの管理](#managing-insufficient-coupons)を参照してください。
 
 配信が成功したことを確認するには：
 

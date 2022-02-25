@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: 配信の検証
-description: 配信の検証方法を説明します
+description: 配信の検証方法を学ぶ
 feature: Deliverability, Email Rendering, Proofs
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1807'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 1. **配信の分析**：この手順では、配信メッセージを準備できます。[詳細情報](#analyzing-the-delivery)。
 
-   分析時に適用されるルールについては、[この節](#validation-process-with-typologies)を参照してください。使用可能な検証モードについて詳しくは、 [承認モードの変更](#changing-the-approval-mode) 」セクションに入力します。
+   分析時に適用されるルールについては、[この節](#validation-process-with-typologies)を参照してください。使用可能な検証モードについて詳しくは、[承認モードの変更](#changing-the-approval-mode)の節を参照してください。
 
 1. **配達確認の送信**：この手順では、コンテンツ、URL、パーソナライゼーションなどを制御できます。詳しくは、[配達確認の送信](steps-validating-the-delivery.md#sending-a-proof)と[特定の配達確認ターゲットの定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)を参照してください。
 

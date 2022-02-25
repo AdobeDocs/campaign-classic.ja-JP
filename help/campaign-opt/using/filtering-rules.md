@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: フィルタリングルール
-description: フィルタールールの使用方法を説明します
+description: フィルタールールの使用方法を学ぶ
 feature: Typology Rules
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 96%
 
 ![](assets/campaign_opt_create_filter_05.png)
 
-## フィルタールールの条件付け {#conditioning-a-filtering-rule}
+## フィルタールールの決定 {#conditioning-a-filtering-rule}
 
 リンクされている配信や配信の概要に基づいて、フィルタールールを適用する範囲を制限することができます。
 

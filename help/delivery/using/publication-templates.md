@@ -4,9 +4,9 @@ title: パブリッシュテンプレート
 description: パブリッシュテンプレート
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >コンテンツの生成について詳しくは、 [コンテンツインスタンスの作成](using-a-content-template.md#creating-a-content-instance).
+   >コンテンツの生成について詳しくは、[コンテンツインスタンスの作成](using-a-content-template.md#creating-a-content-instance)を参照してください。
 
 ### 配信 {#delivery}
 
@@ -94,7 +94,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->コンテンツに基づく配信作成の例については、 [コンテンツインスタンスを配信](using-a-content-template.md#delivering-a-content-instance).
+>コンテンツに基づく配信作成の例については、[コンテンツインスタンスの配信](using-a-content-template.md#delivering-a-content-instance)を参照してください。
 
 ### 集約 {#aggregator}
 

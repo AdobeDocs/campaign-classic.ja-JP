@@ -1,23 +1,23 @@
 ---
 product: campaign
-title: 協調キャンペーンの作成
-description: 協調キャンペーンの作成方法を説明します
+title: 共同キャンペーンの作成
+description: 共同キャンペーンの作成方法を学ぶ
 feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '990'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 協調キャンペーンの作成{#creating-a-collaborative-campaign-intro}
+# 共同キャンペーンの作成{#creating-a-collaborative-campaign-intro}
 
 ![](../../assets/v7-only.svg)
 
 セントラルエンティティは、**分散型マーケティング**&#x200B;のキャンペーンテンプレートから協調キャンペーンを作成します。[このページ](about-distributed-marketing.md#collaborative-campaign)を参照してください。
 
-## 協調キャンペーンの作成 {#creating-a-collaborative-campaign}
+## 共同キャンペーンの作成 {#creating-a-collaborative-campaign}
 
 協調キャンペーンを設定するには、**[!UICONTROL キャンペーン管理／キャンペーン]**&#x200B;ノードをクリックし、**[!UICONTROL 新規]**&#x200B;アイコンをクリックします。
 
@@ -153,7 +153,7 @@ ht-degree: 98%
 
 通知の設定方法は、ローカルエンティティの通知の設定方法と同じです。[この節](creating-a-local-campaign.md#notifications)を参照してください。
 
-## キャンペーンのオーダー {#ordering-a-campaign}
+## キャンペーンの注文 {#ordering-a-campaign}
 
 協調キャンペーンがキャンペーンパッケージのリストに追加されると、セントラルエンティティによって定義されたオーディエンスに属するローカルエンティティに、通知が送信されます（オーディエンスを事前に定義しない&#x200B;**協調キャンペーン（ターゲットの承認）**&#x200B;は除きます）。送信メッセージには、以下の図のように、キャンペーンに登録するためのリンクが含まれています。
 
@@ -171,6 +171,6 @@ ht-degree: 98%
 
 詳しくは、[承認プロセス](creating-a-local-campaign.md#approval-process)の節を参照してください。
 
-## オーダーを承認 {#approving-an-order}
+## 注文を承認 {#approving-an-order}
 
 協調キャンペーンパッケージのオーダー承認プロセスは、ローカルキャンペーンの承認プロセスと同じです。[この節](creating-a-local-campaign.md#approving-an-order)を参照してください。

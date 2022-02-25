@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: 配信リストへのアクセス
-description: 作成した配信のリストにアクセスする方法を説明します
+description: 作成した配信のリストにアクセスする方法を学ぶ
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

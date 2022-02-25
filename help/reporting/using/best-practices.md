@@ -5,9 +5,9 @@ description: キャンペーンレポートのベストプラクティス
 feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '841'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 ![](../../assets/common.svg)
 
-## ニーズの分析{#analyzing-needs}
+## ニーズを分析{#analyzing-needs}
 
 レポートツールの使用は、操作するデータの量、複雑さ、セットアップするレポートの種類によって左右されます
 
@@ -60,7 +60,7 @@ ht-degree: 98%
 
    データの量と更新に関する問題を慎重に検討して、レポートの表示上の問題、特に時間的な問題を回避する必要があります。そのため、集計を作成して、一部のデータをレポートの処理とは別に事前計算しておくことをお勧めします。トラッキングログと配信ログのテーブルには、何百万ものレコードを格納できます。これは、データをワークフローで集計してレポートで使用できるようにする必要があることを意味します。
 
-## レポートデザインの最適化{#optimizing-report-creation}
+## レポートデザインを最適化{#optimizing-report-creation}
 
 ### データ量 {#data-volume}
 
@@ -110,6 +110,6 @@ if(string(ctx@_historyId)!==""))
 
    クリーンアップとデータ保持の詳細については、 [このセクション](../../configuration/using/data-model-best-practices.md#data-retention)を参照してください。
 
-### レポートのエクスポート {#exporting-reports}
+### レポートをエクスポート {#exporting-reports}
 
-レポートのエクスポートに特有の推奨事項について詳しくは、[この節](../../reporting/using/actions-on-reports.md#exporting-a-report)を参照してください。
+レポートのエクスポートに特有のレコメンデーションについて詳しくは、[この節](../../reporting/using/actions-on-reports.md#exporting-a-report)を参照してください。

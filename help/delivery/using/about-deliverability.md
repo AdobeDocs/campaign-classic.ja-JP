@@ -5,9 +5,9 @@ description: 配信品質のベストプラクティスを説明します
 feature: Deliverability
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->ISP は顧客をスパム業者から保護するために、新しい高度なフィルタリング技術を継続的に開発する必要があるので、E メールの配信品質は常に変化する基準とルールを特徴としています。必ず、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)を参照してください。これは定期的に更新されます。
+>ISP は顧客をスパム業者から保護するために、新しい高度なフィルタリング技術を継続的に開発する必要があるので、E メールの配信品質は常に変化する基準とルールを特徴としています。必ず、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。これは定期的に更新されます。
 
 ### 配信品質率
 
@@ -44,7 +44,7 @@ Adobe Campaign では、配信品質は多くの要因に左右されます。�
 * IP アドレスの評価：[IP 戦略](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#ip-strategy)を参照してください。
 * アドレスの品質の目標：[強制隔離管理](optimize-delivery.md#quarantine-management)を参照してください。
 * 低い[苦情](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=ja)率と[ハードバウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)率。
-* メッセージの内容：参照 [E メールコンテンツの制御](control-message-content.md).
+* メッセージコンテンツ：[メールコンテンツの制御](control-message-content.md)を参照してください。
 * メッセージ認証（SPF、DKIM、DMARC）：[この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
 * 送信者の評判：主要 ISP が送信者の評判を評価する方法については、[この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=ja)を参照してください。
 
@@ -58,7 +58,7 @@ Adobe Campaign には、プラットフォームの配信品質パフォーマ�
 メッセージを設定、デザイン、テストする場合は、次の節に示すベストプラクティスに従うようにしてください。 Adobe Campaign で提供されるすべての機能を活用すると、配信品質の向上に役立ちます。
 
 * [配信のベストプラクティス](delivery-best-practices.md)
-* [E メールコンテンツの制御](control-message-content.md)
+* [メールコンテンツの制御](control-message-content.md)
 * [受信ボックスのレンダリング](inbox-rendering.md)
 * [配達確認の送信](steps-validating-the-delivery.md#sending-a-proof)
 
@@ -94,4 +94,4 @@ Adobe Campaign では、一連のビルトインのリアルタイムインジ�
 
 * [配信品質の監視](monitoring-deliverability.md)
 * [配信監視の基本を学ぶ](about-delivery-monitoring.md)
-* [Campaign の組み込みレポートの概要](../../reporting/using/about-campaign-built-in-reports.md)
+* [Campaign ビルトインレポートの概要](../../reporting/using/about-campaign-built-in-reports.md)

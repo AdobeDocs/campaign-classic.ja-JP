@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: トランザクションメッセージのアーキテクチャ
-description: この節では、Adobe Campaign Classicトランザクションメッセージのアーキテクチャと、トランザクションメッセージを配信するために使用できるチャネルについて説明します
+description: この節では、Adobe Campaign Classic トランザクションメッセージのアーキテクチャと、トランザクションメッセージを配信するために使用できるチャネルについて説明します。
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1225'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: シードアドレスについて
-description: シードアドレスの概要
+description: シードアドレスの基本を学ぶ
 feature: Seed Address
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

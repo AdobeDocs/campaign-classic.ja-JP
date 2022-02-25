@@ -4,9 +4,9 @@ title: 条件付きコンテンツの定義
 description: 条件付きコンテンツの定義
 exl-id: efee50f7-d917-4c71-add2-116c4b8f7013
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 90%
 
 レポートの特定の項目やページの表示に条件を付けることができます。
 
-特定の項目を条件付きにするには、それらの項目の表示設定を調整します。詳しくは、 [条件項目の表示](#conditioning-item-display).
+特定の項目を条件付きにするには、それらの項目の表示設定を調整します。詳しくは、[項目表示の条件付け](#conditioning-item-display)を参照してください。
 
-1 つまたは複数のページの表示を条件付きにするには、**[!UICONTROL テスト]**&#x200B;タイプのアクティビティを使用します。詳しくは、 [条件ページの表示](#conditioning-page-display).
+1 つまたは複数のページの表示を条件付きにするには、**[!UICONTROL テスト]**&#x200B;タイプのアクティビティを使用します。詳しくは、[ページ表示の条件付け](#conditioning-page-display)を参照してください。
 
-## 条件項目の表示 {#conditioning-item-display}
+## 項目表示の条件付け {#conditioning-item-display}
 
 レポートの一部分の表示を条件付きにするには、その項目の表示条件を定義する必要があります。それらの条件が満たされない場合、その項目は表示されません。
 
@@ -32,7 +32,7 @@ ht-degree: 90%
 
 ![](assets/reporting_display_condition.png)
 
-## 条件ページの表示 {#conditioning-page-display}
+## ページ表示の条件付け {#conditioning-page-display}
 
 レポートのチャートで、**[!UICONTROL テスト]**&#x200B;アクティビティを使用すると、1 つまたは複数の条件に応じて、ページの順序を変更できます。
 

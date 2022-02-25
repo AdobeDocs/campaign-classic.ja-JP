@@ -4,7 +4,7 @@ title: ワークフローの開始
 description: ワークフローの開始方法、およびワークフローのアクションツールバーと右クリックメニューへのアクセス方法について説明します
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
 ht-degree: 100%
 

@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: パーソナライゼーションブロック
-description: パーソナライゼーションブロックの使用方法を説明します
+description: パーソナライゼーションブロックの使用方法を学ぶ
 feature: Personalization
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 92%
 
 ![](../../assets/common.svg)
 
-パーソナライゼーションブロックは動的なもので、パーソナライズされています。そこには、配信に挿入できる特定のレンダリングが格納されています。例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。詳しくは、 [パーソナライゼーションブロックを挿入](#inserting-personalization-blocks).
+パーソナライゼーションブロックは動的なもので、パーソナライズされています。そこには、配信に挿入できる特定のレンダリングが格納されています。例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。[パーソナライゼーションブロックの挿入](#inserting-personalization-blocks)を参照してください。
 
 ![](assets/do-not-localize/how-to-video.png)[ ビデオでこの機能を確認する](#personalization-blocks-video)
 
 パーソナライゼーションブロックは、Adobe Campaign エクスプローラーの&#x200B;**[!UICONTROL リソース／キャンペーン管理／パーソナライゼーションブロック]**&#x200B;ノードからアクセスします。デフォルトでは、複数のブロックを使用できます（[標準パーソナライゼーションブロック](#out-of-the-box-personalization-blocks)を参照）。
 
-新しいブロックを定義して、配信のパーソナライゼーションを最適化することもできます。詳しくは、 [カスタムパーソナライゼーションブロックの定義](#defining-custom-personalization-blocks).
+新しいブロックを定義して、配信のパーソナライゼーションを最適化することもできます。詳しくは、[カスタムパーソナライゼーションブロックの定義](#defining-custom-personalization-blocks)を参照してください。
 
 >[!NOTE]
 >
 >パーソナライゼーションブロックは、**[!UICONTROL デジタルコンテンツエディター（DCE）]**&#x200B;から使用することもできます。詳しくは、[このページ](../../web/using/editing-content.md#inserting-a-personalization-block)を参照してください。
 
-## パーソナライゼーションブロックを挿入 {#inserting-personalization-blocks}
+## パーソナライゼーションブロックの挿入 {#inserting-personalization-blocks}
 
 パーソナライゼーションブロックをメッセージに挿入するには、以下の手順に従います。
 
@@ -36,7 +36,7 @@ ht-degree: 92%
 
    ![](assets/s_ncs_user_personalized_block01.png)
 
-1. この **[!UICONTROL その他…]** メニューを使用すると、すべての標準パーソナライゼーションブロックとカスタムパーソナライゼーションブロックにアクセスできます ( [標準パーソナライゼーションブロック](#out-of-the-box-personalization-blocks) および [カスタムパーソナライゼーションブロックの定義](#defining-custom-personalization-blocks)) をクリックします。
+1. **[!UICONTROL その他...]**&#x200B;メニューを使用すると、すべての標準およびカスタムパーソナライゼーションブロックにアクセスできます（[標準パーソナライゼーションブロック](#out-of-the-box-personalization-blocks)および[カスタムパーソナライゼーションブロックの定義](#defining-custom-personalization-blocks)を参照）。
 
    ![](assets/s_ncs_user_personalized_block02.png)
 
@@ -68,7 +68,7 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
 >[!NOTE]
 >
->ミラーページの生成について詳しくは、 [ミラーページを生成](sending-messages.md#generating-the-mirror-page).
+>ミラーページの生成について詳しくは、[ミラーページの生成](sending-messages.md#generating-the-mirror-page)を参照してください。
 
 1. 新しい配信を作成するか、E メールタイプの既存の配信を開きます。
 1. 配信ウィザードで、「**[!UICONTROL 件名]**」をクリックし、メッセージの件名の編集や件名の入力をおこないます。
@@ -100,9 +100,9 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 
    >[!NOTE]
    >
-   >ミラーページの生成について詳しくは、 [ミラーページを生成](sending-messages.md#generating-the-mirror-page).
+   >ミラーページの生成について詳しくは、[ミラーページの生成](sending-messages.md#generating-the-mirror-page)を参照してください。
 
-* **[!UICONTROL ミラーページへのリンク]**：ミラーページへのリンク、「このメッセージが正しく表示されない場合は、ここをクリックしてください」を挿入します。
+* **[!UICONTROL ミラーページへのリンク]**：ミラーページへのリンク「このメッセージが正しく表示されない場合は、ここをクリックしてください」を挿入します。
 * **[!UICONTROL 購読解除リンク]**：すべての配信を購読解除（ブロックリスト登録）できるリンクを挿入します。
 * **[!UICONTROL 固有名詞の書式設定関数]**：JavaScript の **[!UICONTROL toSmartCase]** 関数を生成します。この関数は各単語の最初の文字を大文字に変更します。
 * **[!UICONTROL 登録ページ URL]**：購読 URL を挿入します（[サービスと購読について](about-services-and-subscriptions.md)を参照）。

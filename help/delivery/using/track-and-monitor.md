@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: メッセージのトラッキングと監視
-description: メッセージのトラッキングと監視の方法を説明します
+description: メッセージのトラッキングと監視の方法を学ぶ
 feature: Monitoring
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 94%
 
 **ヒント**：メッセージトラッキングは、デフォルトで有効になっています。URL を設定するには、配信ウィザードの下部のセクションで「URL を表示」オプションを選択します。メッセージの URL ごとに、トラッキングを有効化するかどうかを選択できます。
 
-詳しくは、 [トラッキングの設定](how-to-configure-tracked-links.md) セクションおよび [トラッキング指標](../../reporting/using/delivery-reports.md#tracking-indicators) 説明。
+詳しくは、[トラッキングの設定](how-to-configure-tracked-links.md)の節と[トラッキング指標](../../reporting/using/delivery-reports.md#tracking-indicators)の説明を参照してください。
 
 ## 配信パフォーマンス {#delivery-performances}
 

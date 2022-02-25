@@ -4,7 +4,7 @@ title: 書式設定
 description: 書式設定
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1458'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ JavaScript テンプレートは、スキーマやフォームと同様に、名
 **例**：
 
 * **content.@name**：メイン要素の「name」属性の値を取得します。
-* **コンテンツ。@`['name']`**: **content.@name** 構文と同一です。
+* **content.@`['name']`**: **content.@name** 構文と同一です。
 * **content.chapter.length**：`<chapter` コレクション要素にある要素数を返します。
 * **content.chapter`[0]`.@name**：最初の `<chapter>` 要素の名前を取得します。
 * **chapter.name()**：`<chapter>` 要素の名前を返します。

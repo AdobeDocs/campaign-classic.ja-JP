@@ -7,7 +7,7 @@ exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: afe4329fd230f30e48bfbf5ac2073ca95a6fd04e
 workflow-type: tm+mt
 source-wordcount: '2931'
-ht-degree: 79%
+ht-degree: 82%
 
 ---
 
@@ -21,9 +21,9 @@ Adobe Campaign では、強制隔離されたアドレスのリストを管理�
 >
 >この節は、オンラインチャネル（E メール、SMS、プッシュ通知）に当てはまります。
 
-## 強制隔離管理による配信の最適化 {#optimizing-your-delivery-through-quarantines}
+## 強制隔離管理により配信を最適化 {#optimizing-your-delivery-through-quarantines}
 
-E メールアドレスまたは電話番号が強制隔離されているプロファイルは、メッセージの準備中に自動的に除外されます ( [配信用の強制隔離アドレスの識別](#identifying-quarantined-addresses-for-a-delivery)) をクリックします。 これによって配信が迅速になります。エラー率は配信の速度に大きく影響するからです。
+メールアドレスまたは電話番号が強制隔離されているプロファイルは、メッセージ準備の際に自動的に除外されます（[配信用の強制隔離アドレスを識別](#identifying-quarantined-addresses-for-a-delivery)を参照）。これによって配信が迅速になります。エラー率は配信の速度に大きく影響するからです。
 
 一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムと見なします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
 
@@ -47,15 +47,15 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 >
 >強制隔離には **[!UICONTROL ブロックリストに加える]** ステータス。受信者がメッセージをスパムとして報告したり、「STOP」などのキーワードを含む SMS メッセージに返信したりする場合に適用されます。 この場合、プロファイルに関係するアドレスまたは電話番号は、 **[!UICONTROL ブロックリストに加える]** ステータス。 SMS 停止メッセージの管理について詳しくは、 [この節](../../delivery/using/sms-send.md#processing-inbound-messages).
 
-## 強制隔離されたアドレスの識別 {#identifying-quarantined-addresses}
+## 強制隔離されたアドレスを識別 {#identifying-quarantined-addresses}
 
-特定の配信またはプラットフォーム全体で強制隔離されたアドレスを一覧表示できます。
+強制隔離されたアドレスは、特定の配送先またはプラットフォーム全体について一覧表示できます。
 
-### 配信用の強制隔離アドレスの識別 {#identifying-quarantined-addresses-for-a-delivery}
+### 配信用の強制隔離アドレスを識別 {#identifying-quarantined-addresses-for-a-delivery}
 
 特定の配信で強制隔離されたアドレスは、配信準備フェーズ中に配信ダッシュボードの配信ログに一覧表示されます（[配信ログおよび履歴](delivery-dashboard.md#delivery-logs-and-history)を参照）。
 
-### プラットフォーム全体の強制隔離アドレスの識別 {#identifying-quarantined-addresses-for-the-entire-platform}
+### プラットフォーム全体の強制隔離アドレスを識別 {#identifying-quarantined-addresses-for-the-entire-platform}
 
 管理者は、プラットフォーム全体で強制隔離されたアドレスのリストを&#x200B;**[!UICONTROL 管理者／キャンペーン管理／配信不能件数の管理／配信不能件数およびアドレス]**&#x200B;ノードで表示できます。
 
@@ -74,7 +74,7 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 >1 年目の終了時：(1*0.33)/(1+0.5)=22%
 2 年目の終了時：((1.22*0.33)+0.33)/(1.5+0.75)=32.5%
 
-### 配信レポートでの強制隔離アドレスの識別 {#identifying-quarantined-addresses-in-delivery-reports}
+### 配信レポートの強制隔離アドレスを識別 {#identifying-quarantined-addresses-in-delivery-reports}
 
 次のレポートには、強制隔離中のアドレスに関する情報が含まれます。
 
@@ -88,13 +88,13 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 
 プラットフォームのすべての配信について（**[!UICONTROL ホームページ／レポート]**）または特定の配信について、この情報を調べることができます。カスタマイズされたレポートを作成して、表示する情報を選択することもできます。
 
-### 受信者の強制隔離アドレスの識別 {#identifying-quarantined-addresses-for-a-recipient}
+### 受信者の強制隔離アドレスを識別 {#identifying-quarantined-addresses-for-a-recipient}
 
 あらゆる受信者の E メールアドレスのステータスを調べることができます。そのためには、受信者のプロファイルを選択し、「**[!UICONTROL 配信]**」タブをクリックします。その受信者へのすべての配信について、アドレスへの配信が失敗したかどうか、分析時に強制隔離されたかどうかなどを調べることができます。フォルダーごとに、E メールアドレスが強制隔離中の受信者のみを表示できます。そのためには、**[!UICONTROL 強制隔離された E メールアドレス]**&#x200B;アプリケーションフィルターを使用します。
 
 ![](assets/tech_quarant_recipients_filter.png)
 
-### 強制隔離されたアドレスの削除 {#removing-a-quarantined-address}
+### 強制隔離アドレスを削除 {#removing-a-quarantined-address}
 
 必要に応じて、強制隔離リストから手動でアドレスを削除できます。これに加えて、特定の条件に一致するアドレスは、[データベースクリーンアップ](../../production/using/database-cleanup-workflow.md)ワークフローによって強制隔離リストから自動的に削除されます。
 

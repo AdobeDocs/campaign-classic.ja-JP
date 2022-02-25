@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: 配信ダッシュボード
-description: 配信ダッシュボードを使用して配信を監視する方法の詳細を説明します
+description: 配信ダッシュボードを使用して配信を監視する方法について詳しく説明します。
 feature: Monitoring
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1243'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

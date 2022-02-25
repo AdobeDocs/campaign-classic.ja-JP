@@ -5,13 +5,13 @@ description: ワークフローでのデータのターゲティングについ�
 feature: Query Editor, Data Management
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2031'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# データのターゲティング{#targeting-data}
+# ターゲットデータ{#targeting-data}
 
 ![](../../assets/common.svg)
 
@@ -51,7 +51,7 @@ ht-degree: 98%
 
 ![](assets/query_add_columns_collection.png)
 
-### 追加データを使用してターゲットを絞り込み {#refining-the-target-using-additional-data}
+### 追加データを使用してターゲットを絞り込む {#refining-the-target-using-additional-data}
 
 収集された追加データを使用して、データベース内でのフィルターされたデータを絞り込むことができます。それには、「**[!UICONTROL 追加データを使用してターゲットを絞り込み...]**」リンクをクリックします。このリンクを使用して、追加したデータをフィルターできます。
 
@@ -80,7 +80,7 @@ ht-degree: 98%
 
 ## セグメントデータ {#segmenting-data}
 
-### 複数のターゲットを結合（和集合） {#combining-several-targets--union-}
+### 複数のターゲットの組み合わせ（和集合）  {#combining-several-targets--union-}
 
 和集合アクティビティでは、1 つのトランジション内で複数のアクティビティの結果を組み合わせることができます。セットは、同質である必要はありません。
 
@@ -119,7 +119,7 @@ ht-degree: 98%
 
    ![](assets/join_limit_nb_priority.png)
 
-### 結合データを抽出（積集合） {#extracting-joint-data--intersection-}
+### 結合データの抽出（積集合）  {#extracting-joint-data--intersection-}
 
 ![](assets/traitements.png)
 
@@ -129,7 +129,7 @@ ht-degree: 98%
 
 積集合アクティビティについて詳しくは、[積集合](intersection.md)の節で説明しています。
 
-### 母集団の除外（除外） {#excluding-a-population--exclusion-}
+### 母集団の除外（除外）  {#excluding-a-population--exclusion-}
 
 除外アクティビティを使用して、異なるターゲット母集団からターゲットの要素を除外できます。このアクティビティの出力ターゲティングディメンションは、メインセットからのものになります。
 
@@ -215,7 +215,7 @@ ht-degree: 98%
 
 サブセットは、**[!UICONTROL セル]**&#x200B;アクティビティを使用して作成することもできます。詳しくは、[セル](cells.md)の節を参照してください。
 
-### ターゲットデータを使用 {#using-targeted-data}
+### ターゲットデータの使用 {#using-targeted-data}
 
 識別され、準備されたデータは、次のコンテキストで使用できます。
 

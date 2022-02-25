@@ -4,9 +4,9 @@ title: 分析するデータの収集
 description: 分析するデータの収集
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 
 ![](assets/reporting_query_from_schema.png)
 
-## インポートしたリストを使用 {#using-an-imported-list}
+## インポートしたリストの使用 {#using-an-imported-list}
 
 レポートを作成するために、インポートしたデータのリストからデータを使用できます。
 
@@ -48,7 +48,7 @@ ht-degree: 97%
 
 「**[!UICONTROL クエリを編集]**」リンクをクリックして、このリスト内の要素の中からレポート作成用に収集するデータを定義します。
 
-## キューブを使用 {#using-a-cube}
+## キューブの使用 {#using-a-cube}
 
 クエリを定義するためにキューブを選択できます。
 
@@ -72,7 +72,7 @@ ht-degree: 97%
 
 ![](assets/reporting_control_folder.png)
 
-### 収集されるデータの量を制限 {#limiting-the-amount-of-data-collected}
+### 収集するデータの量の制限 {#limiting-the-amount-of-data-collected}
 
 クエリで抽出するレコードの数を次の結果制限オプションで設定できます。
 

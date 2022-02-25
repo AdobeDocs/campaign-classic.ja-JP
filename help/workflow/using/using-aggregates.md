@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: 集計の使用
-description: 集計の使用方法を説明します
+description: 集計の使用方法を学ぶ
 audience: workflow
 content-type: reference
 topic-tags: use-cases
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '669'
 ht-degree: 100%
 

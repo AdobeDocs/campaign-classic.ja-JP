@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: レポートでのコンテキストの使用
-description: レポートでのコンテキストの使用方法を説明します
+description: レポートでのコンテキストの使用方法を学ぶ
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 84%
 
 ![](../../assets/common.svg)
 
-データを **[!UICONTROL テーブル]** または **[!UICONTROL グラフ]**&#x200B;に設定されている場合、次の 2 つのソースから取得できます。新しいクエリ ( [データに対する直接フィルターの定義](#defining-a-direct-filter-on-data)) またはレポートコンテキスト ( [コンテキストデータを使用](#using-context-data)) をクリックします。
+データを&#x200B;**[!UICONTROL テーブル]**&#x200B;や&#x200B;**[!UICONTROL グラフ]**&#x200B;の形式で表す場合は、新しいクエリ（[データに対する直接フィルターの定義](#defining-a-direct-filter-on-data)を参照）またはレポートコンテキスト（[コンテキストデータの使用](#using-context-data)を参照）の 2 つのソースからデータを取得できます。
 
 ## データに対する直接フィルターの定義 {#defining-a-direct-filter-on-data}
 
@@ -61,7 +61,7 @@ ht-degree: 84%
 
 ![](assets/s_ncs_advuser_report_display_04.png)
 
-## コンテキストデータを使用 {#using-context-data}
+## コンテキストデータの使用 {#using-context-data}
 
 データを&#x200B;**[!UICONTROL テーブル]**&#x200B;や&#x200B;**[!UICONTROL グラフ]**&#x200B;の形式で表す場合は、そのデータをレポートコンテキストから取得できます。
 
@@ -69,7 +69,7 @@ ht-degree: 84%
 
 ![](assets/s_ncs_advuser_report_datasource_3.png)
 
-* 「**[!UICONTROL 新しいクエリ]**」オプションを選択すると、データを収集するためのクエリを作成できます。詳しくは、 [データに対する直接フィルターの定義](#defining-a-direct-filter-on-data).
+* 「**[!UICONTROL 新しいクエリ]**」オプションを選択すると、データを収集するためのクエリを作成できます。詳しくは、[データに対する直接フィルターの定義](#defining-a-direct-filter-on-data)を参照してください。
 * 「**[!UICONTROL コンテキストデータ]**」オプションを選択すると、入力データを使用できます。レポートのコンテキストは、グラフやテーブルを含むページのインバウンドトランジションに含まれる情報と一致します。このコンテキストには、例えば、**[!UICONTROL ページ]**&#x200B;アクティビティの前に配置された&#x200B;**[!UICONTROL クエリ]**&#x200B;アクティビティで収集されたデータが含まれている可能性があります。その場合、レポートに関係のあるテーブルやフィールドを指定する必要があります。
 
 例えば、クエリボックスで、受信者に次のようなクエリを作成します。

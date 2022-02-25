@@ -1,10 +1,10 @@
 ---
 product: campaign
 title: リストへのレポートの送信
-description: ワークフローでのリストへのレポートの送信方法を説明します
+description: ワークフローでリストへレポートを送信する方法を学ぶ
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
 ht-degree: 100%
 

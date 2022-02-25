@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: アクティビティ画像の変更
-description: アクティビティ画像の変更方法を説明します
+description: アクティビティ画像を変更する方法を学ぶ
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
 source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 

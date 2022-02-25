@@ -4,9 +4,9 @@ title: 詳細設定パラメーター
 description: 詳細設定パラメーター
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 source-git-commit: 3b523e53440ba6ae107b597c7ebf226195126bde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 97%
 
 ## 画像 {#image}
 
-このフィールドでは、アクティビティにリンクする画像を変更できます。詳しくは、 [アクティビティ画像の変更](managing-activity-images.md).
+このフィールドでは、アクティビティにリンクする画像を変更できます。詳しくは、[アクティビティ画像の変更](managing-activity-images.md)を参照してください。
 
 ## 実行 {#execution}
 
@@ -64,7 +64,7 @@ ht-degree: 97%
 
 ## タイムゾーン {#time-zone}
 
-このフィールドでは、アクティビティのタイムゾーンを選択できます。詳しくは、以下を参照してください。 [タイムゾーンの管理](managing-time-zones.md).
+このフィールドでは、アクティビティのタイムゾーンを選択できます。詳しくは、[タイムゾーンの管理](managing-time-zones.md)を参照してください。
 
 ## エラーの場合 {#in-case-of-errors}
 

@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: SMS コネクタのプロトコルと設定
-description: SMS コネクタの詳細と設定方法を説明します
+description: SMS コネクタの詳細と設定方法について学ぶ
 feature: SMS
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8460'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

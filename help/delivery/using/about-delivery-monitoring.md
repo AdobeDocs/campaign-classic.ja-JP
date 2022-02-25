@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: 配信監視の基本を学ぶ
-description: Campaign Classic配信監視機能の詳細
+description: Campaign Classic 配信監視機能の詳細情報
 feature: Monitoring
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

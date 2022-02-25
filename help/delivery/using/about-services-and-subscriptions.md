@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: サービスと購読について
-description: Adobe Campaignのサービスと購読の概要
+description: Adobe Campaign のサービスと購読の概要
 feature: Subscriptions
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

@@ -1,29 +1,29 @@
 ---
 product: campaign
-title: '"ユースケース：コンテンツ管理を作成»'
-description: '"ユースケース：コンテンツ管理を作成»'
+title: 「ユースケース：コンテンツ管理の作成」
+description: 「ユースケース：コンテンツ管理の作成」
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1216'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# 使用例：コンテンツ管理を作成{#use-case-creating-content-management}
+# ユースケース：コンテンツ管理の作成{#use-case-creating-content-management}
 
 ![](../../assets/common.svg)
 
 Adobe Campaign でコンテンツ管理を作成するには、次の手順が必要です。
 
-* [手順 1 — 作成するコンテンツを分析する](#step-1---analyzing-the-content-to-be-produced),
-* [手順 2 — データスキーマの作成](#step-2---creating-the-data-schema),
-* [手順 3 — 入力フォームの作成](#step-3---creating-the-input-form),
-* [手順 4 — 構成テンプレートを作成する](#step-4---creating-the-construction-template),
-* [手順 5 — パブリッシュテンプレートの作成](#step-5---creating-the-publication-template),
-* [手順 6 — コンテンツの作成](#step-6---creating-contents).
+* [手順 1 - 作成するコンテンツを分析する](#step-1---analyzing-the-content-to-be-produced)、
+* [手順 2 - データスキーマを作成](#step-2---creating-the-data-schema)、
+* [手順 3 - 入力フォームの作成](#step-3---creating-the-input-form)、
+* [手順 4 - 構成テンプレートを作成](#step-4---creating-the-construction-template)、
+* [手順 5 - パブリッシュテンプレートを作成](#step-5---creating-the-publication-template)、
+* [手順 6 - コンテンツを作成](#step-6---creating-contents)。
 
-## 手順 1 — 作成するコンテンツを分析する {#step-1---analyzing-the-content-to-be-produced}
+## 手順 1 - 作成するコンテンツを分析する {#step-1---analyzing-the-content-to-be-produced}
 
 まず、作成するコンテンツを正確に分析する必要があります。表示する要素を識別し、その要素に関連付けられている制約を調べ、各要素のタイプを定義するなどです。静的要素と可変要素を識別する必要もあります。
 
@@ -49,7 +49,7 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 
 これらの要素は、専用スキーマから作成されます。専用スキーマは、名前、ラベル、タイプ、サイズおよび Adobe Campaign での処理に関連するその他の情報などの要素をコンテンツごとに指定します。
 
-## 手順 2 — データスキーマの作成 {#step-2---creating-the-data-schema}
+## 手順 2 - データスキーマを作成 {#step-2---creating-the-data-schema}
 
 データスキーマは、コンテンツに関連付けられた XML ドキュメントです。このコンテンツ内のデータの XML 構造が記述されます。
 
@@ -159,7 +159,7 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 
 1. 「**[!UICONTROL 保存]**」をクリックしてデータスキーマを作成します。
 
-## 手順 3 — 入力フォームの作成 {#step-3---creating-the-input-form}
+## 手順 3 - 入力フォームを作成する {#step-3---creating-the-input-form}
 
 入力フォームを使用すると、Adobe Campaign のクライアントコンソールから入力インターフェイスを使用してコンテンツインスタンスを編集できます。
 
@@ -211,7 +211,7 @@ Adobe Campaign でコンテンツ管理を作成するには、次の手順が�
 
 1. 「**[!UICONTROL 保存]**」をクリックして入力フォームを作成します。
 
-## 手順 4 — 構成テンプレートを作成する {#step-4---creating-the-construction-template}
+## 手順 4 - 構築テンプレートを作成 {#step-4---creating-the-construction-template}
 
 XSLT 言語を使用して、XML ドキュメントを別の出力ドキュメントに変換できます。この変換は、スタイルシートというドキュメントに XML で記述します。
 
@@ -323,7 +323,7 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
    </html>
    ```
 
-   テンプレートの冒頭で関数を呼び出すことによって、Adobe Campaign データベースからパーソナライゼーションデータを取得する呼び出し（この場合は recipient.firstName と recipient.lastName）を設定でき、配信時にも利用できます。詳しくは、 [JavaScript テンプレートの取り込み](formatting.md#including-a-javascript-template).
+   テンプレートの冒頭で関数を呼び出すことによって、Adobe Campaign データベースからパーソナライゼーションデータを取得する呼び出し（この場合は recipient.firstName と recipient.lastName）を設定でき、配信時にも利用できます。詳しくは、[JavaScript テンプレートの取り込み](formatting.md#including-a-javascript-template)を参照してください。
 
    今回の例では、次のようなコードが関数に含まれます。
 
@@ -346,7 +346,7 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
 
    ![](assets/contentmgt_jscode_perso_sample.png)
 
-## 手順 5 — パブリッシュテンプレートの作成 {#step-5---creating-the-publication-template}
+## 手順 5 - パブリッシュテンプレートを作成 {#step-5---creating-the-publication-template}
 
 次の手順では、スキーマ、フォームおよびコンテンツ構成テンプレートをリンクするためのコンテンツパブリッシュテンプレートを作成します。このパブリッシュテンプレートは、複数の出力フォーマットを持つことができます。
 
@@ -372,13 +372,13 @@ Adobe Campaign で JavaScript テンプレートを使用するには、次の�
 
 1. 「**[!UICONTROL 保存]**」をクリックしてパブリッシュテンプレートを作成します。
 
-## 手順 6 — コンテンツの作成 {#step-6---creating-contents}
+## 手順 6 - コンテンツを作成 {#step-6---creating-contents}
 
-このパブリッシュテンプレートをベースとして、コンテンツを作成します。
+このパブリッシュテンプレートをもとに、コンテンツを作成します。
 
 >[!NOTE]
 >
->コンテンツの作成について詳しくは、 [コンテンツテンプレートの使用](using-a-content-template.md).
+>コンテンツの作成について詳しくは、[コンテンツテンプレートの使用](using-a-content-template.md)を参照してください。
 
 ### 配信ウィザードでのコンテンツの作成 {#creating-content-in-the-delivery-wizard}
 

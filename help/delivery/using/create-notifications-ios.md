@@ -5,7 +5,7 @@ description: iOS 用のプッシュ通知を作成する方法を説明します
 feature: Push
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: レポートのリスト
 description: レポートのリスト
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1007'
 ht-degree: 100%
 

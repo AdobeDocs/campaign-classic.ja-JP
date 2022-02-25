@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: メッセージ配信の最適化
-description: メッセージ配信を最適化する方法を説明します
+description: メッセージ配信を最適化する方法を学ぶ
 feature: Deliverability
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '746'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

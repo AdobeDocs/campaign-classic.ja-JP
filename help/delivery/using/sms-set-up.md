@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Campaign の SMS チャネルの設定
-description: Campaign で SMS チャネルを設定する方法について説明します
+title: Campaign SMS チャネルの設定
+description: Campaign で SMS チャネルを設定する方法を学ぶ
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1800'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

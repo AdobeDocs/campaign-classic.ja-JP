@@ -1,17 +1,17 @@
 ---
 product: campaign
 title: パーソナライズされたコンテンツの作成
-description: Adobe Campaign配信でパーソナライズされたコンテンツを作成する方法を説明します
+description: Adobe Campaign 配信でパーソナライズされたコンテンツを作成する方法を学ぶ
 feature: Email Design, Personalization
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1299'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# パーソナライズしたコンテンツの作成 {#build-personalized-content}
+# パーソナライズされたコンテンツの作成 {#build-personalized-content}
 
 ![](../../assets/common.svg)
 

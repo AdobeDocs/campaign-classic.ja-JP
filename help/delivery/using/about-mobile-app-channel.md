@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: 'モバイルアプリチャネルの基本を学ぶ '
-description: Adobe Campaign Classicでのモバイルアプリチャネルの概要
+description: Adobe Campaign Classic でのモバイルアプリチャネルの基本を学ぶ
 feature: Push
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '669'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

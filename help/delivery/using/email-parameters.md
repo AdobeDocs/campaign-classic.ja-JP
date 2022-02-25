@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: E メールパラメーター
-description: E メール配信に固有のオプションと設定について説明します
+title: メールパラメーター
+description: メール配信に固有のオプションと設定について学ぶ
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '978'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

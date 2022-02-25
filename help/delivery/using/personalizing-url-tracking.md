@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: URL トラッキングオプションの設定
-description: URL トラッキングオプションの設定方法を説明します
+description: URL トラッキングオプションを設定する方法を学ぶ
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->E メール内の画像の管理もこのウィンドウで設定します。詳しくは、 [画像を追加](defining-the-email-content.md#adding-images).
+>E メール内の画像の管理もこのウィンドウで設定します。[画像の追加](defining-the-email-content.md#adding-images)を参照してください。
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 

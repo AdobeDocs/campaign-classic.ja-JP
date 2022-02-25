@@ -5,13 +5,13 @@ description: Campaign Classic ワークフローを使用して実行できる�
 feature: Workflows, Data Management
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# ワークフローの使用例 {#about-workflow-use-cases}
+# ワークフローのユースケース {#about-workflow-use-cases}
 
 ![](../../assets/common.svg)
 

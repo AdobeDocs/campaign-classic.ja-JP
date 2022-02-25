@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: 配信ステータス
-description: 配信ダッシュボードで使用できるステータスについて詳しく説明します
+description: 配信ダッシュボードで使用できるステータスについて説明します。
 feature: Monitoring
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '642'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

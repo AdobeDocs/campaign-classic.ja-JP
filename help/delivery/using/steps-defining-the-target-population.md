@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: ターゲット母集団の定義
-description: ターゲット母集団の定義方法を学ぶ
+description: ターゲット母集団を定義する方法を学ぶ
 feature: Audiences, Proofs
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1745'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 * **シードアドレス**：配信ターゲットには含まれないが、配信を受け取る受信者（マーケティングキャンペーンのコンテキストでのみ）。[詳細情報](about-seed-addresses.md)
 * **コントロール母集団**：配信を受け取らない母集団。行動とキャンペーンの影響の追跡に使用されます（マーケティングキャンペーンのコンテキストでのみ）。[詳細情報](../../campaign/using/marketing-campaign-target.md#defining-a-control-group)。
 
-## 配信のメイン受信者を選択 {#selecting-the-main-target}
+## 配信の主要受信者の選択 {#selecting-the-main-target}
 
 ほとんどの場合、メインターゲットは Adobe Campaign データベースから抽出されます（デフォルトモード）。ただし、受信者は、外部ファイルに保存することもできます。詳しくは、[この節](steps-defining-the-target-population.md#selecting-external-recipients)を参照してください。
 
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 1. **[!UICONTROL ターゲットマッピング]**&#x200B;ドロップダウンリストでターゲットマッピングを選択します。Adobe Campaign のデフォルトターゲットマッピングは&#x200B;**[!UICONTROL 受信者]**&#x200B;で、**nms:recipient** スキーマに基づきます。
 
-   他のターゲットマッピングも使用でき、一部のターゲットマッピングは特定の設定に関連付けることができます。ターゲットマッピングについて詳しくは、 [ターゲットマッピングを選択](selecting-a-target-mapping.md).
+   他のターゲットマッピングも使用でき、一部のターゲットマッピングは特定の設定に関連付けることができます。ターゲットマッピングについて詳しくは、[ターゲットマッピングの選択](selecting-a-target-mapping.md)を参照してください。
 
 1. 「**[!UICONTROL 追加]**」ボタンをクリックし、制限フィルターを定義します。
 
@@ -83,7 +83,7 @@ ht-degree: 95%
 
    ![](assets/s_ncs_user_wizard_email02h.png)
 
-### 外部受信者を選択 {#selecting-external-recipients}
+### 外部受信者の選択 {#selecting-external-recipients}
 
 配信は、データベースではなく外部ファイルに格納されている受信者宛てに送信することもできます。例えば、ここではテキストファイルからインポートした受信者に配信を送信します。
 
@@ -94,7 +94,7 @@ ht-degree: 95%
 
    ![](assets/s_ncs_user_wizard_external_recipients.png)
 
-1. デフォルトでは、受信者はデータベースにインポートされます。「**[!UICONTROL ターゲットマッピング]**」を選択する必要があります。ターゲットマッピングについて詳しくは、 [ターゲットマッピングを選択](selecting-a-target-mapping.md)
+1. デフォルトでは、受信者はデータベースにインポートされます。「**[!UICONTROL ターゲットマッピング]**」を選択する必要があります。ターゲットマッピングについて詳しくは、[ターゲットマッピングの選択](selecting-a-target-mapping.md)を参照してください。
 
    「**[!UICONTROL 受信者をデータベースにインポートしない]**」を選択することもできます。
 
@@ -108,7 +108,7 @@ ht-degree: 95%
 >
 >E メール配信用のメッセージコンテンツを定義する際に、ミラーページへのリンクを含めないように注意してください。この配信モードでは、ミラーページを生成できません。
 
-### 除外設定を定義 {#define-exclusion-settings}
+### 除外設定の定義 {#define-exclusion-settings}
 
 アドレスエラーと品質評価の情報はサービスプロバイダー（IAP）から提供されます。この情報は、配信アクションの後、サービスプロバイダーから返されるファイルに基づき、受信者プロファイルに自動的に反映されます。また、プロファイル上では読み取り専用情報として参照できます。
 
@@ -148,7 +148,7 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >強制隔離管理について詳しくは、 [強制隔離管理の理解](understanding-quarantine-management.md).
+   >強制隔離管理について詳しくは、[強制隔離管理について](understanding-quarantine-management.md)を参照してください。
 
 * **[!UICONTROL 配信を制限]**：メッセージ数の上限を設定します。送信するメッセージの最大数を指定し、配信件数を限定します。指定されたメッセージの最大数よりもターゲットの規模が大きい場合は、ターゲットの中から送信先がランダムに選択されます。
 
@@ -179,13 +179,13 @@ ht-degree: 95%
 
 配達確認ターゲットを選択する場合は、「**[!UICONTROL 配達確認の特定ターゲットの定義]**」オプションを使用して、データベースに格納されたプロファイルの中から特定の配達確認受信者を選択します。
 
-このオプションを選択し、メインターゲットを定義する場合と同じように、「**[!UICONTROL 追加]**」ボタンをクリックして受信者を選択します。詳しくは、 [メインターゲットを選択](steps-defining-the-target-population.md#selecting-the-main-target).
+このオプションを選択し、メインターゲットを定義する場合と同じように、「**[!UICONTROL 追加]**」ボタンをクリックして受信者を選択します。[メインターゲットの選択](steps-defining-the-target-population.md#selecting-the-main-target)を参照してください。
 
 ![](assets/s_ncs_user_wizard_email01_143.png)
 
 配達確認の送信について詳しくは、[この節](steps-validating-the-delivery.md#sending-a-proof)を参照してください。
 
-### 配達確認でアドレス置換を使用 {#using-address-substitution-in-proof}
+### 配達確認のアドレス置換を使用 {#using-address-substitution-in-proof}
 
 データベースで専用の受信者を選択する代わりに、「**[!UICONTROL アドレスの代用]**」オプションを使用できます。
 
@@ -225,7 +225,7 @@ ht-degree: 95%
 
 * [配達確認のターゲットの選択](#selecting-the-proof-target)
 * [シードアドレスについて](about-seed-addresses.md)
-* [ユースケース：基準に基づくシードアドレスの選択](use-case--selecting-seed-addresses-on-criteria.md)
+* [ユースケース：基準に基づいたシードアドレスの選択](use-case--selecting-seed-addresses-on-criteria.md)
 
 ## チュートリアルビデオ {#seeds-and-proofs-video}
 

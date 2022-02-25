@@ -4,7 +4,7 @@ title: 指標の計算
 description: 指標の計算
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3021'
 ht-degree: 100%
 

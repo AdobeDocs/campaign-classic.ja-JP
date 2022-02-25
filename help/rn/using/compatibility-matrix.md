@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: e88ed7a5710f9ec8713d9e7151d2fd4904097990
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
 ht-degree: 100%
 
@@ -149,7 +149,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016 年</p>
+<p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
 <p><strong>警告：</strong>Linux で Campaign サーバーを実行している場合、プライマリデータベースとしての Microsoft SQL Server の使用はサポートされません。<a href="../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers">詳細情報</a>。</p>
@@ -259,10 +259,10 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019 年</p>
-<p>2017 年</p>
-<p>2016 年</p>
-<p>2014 年</p>
+<p>2019</p>
+<p>2017</p>
+<p>2016</p>
+<p>2014</p>
 <p>2012 SP1 および SP2</p>
 </td>
 <td>v7.0 以上</td>
@@ -331,8 +331,8 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016 年</p>
-<p>2012 年</p>
+<p>2016</p>
+<p>2012</p>
 </td>
 </tr>
 <tr>

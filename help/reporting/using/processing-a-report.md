@@ -4,9 +4,9 @@ title: 分析レポートの使用
 description: 分析レポートの使用
 exl-id: d133efec-33e1-4711-a90f-e40385059386
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '876'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 レポートを保存するには、「**[!UICONTROL 保存]**」をクリックし、レポートにラベルを設定します。
 
-レポートの履歴を作成して保存時にレポートの値を確認する場合は、「**[!UICONTROL データも保存]**」を選択します。詳しくは、 [分析レポートをアーカイブ](#archiving-analysis-reports).
+レポートの履歴を作成して保存時にレポートの値を確認する場合は、「**[!UICONTROL データも保存]**」を選択します。詳しくは、[分析レポートのアーカイブ](#archiving-analysis-reports)を参照してください。
 
 「**[!UICONTROL このレポートの共有]**」オプションを選択すると、他のオペレーターがレポートにアクセスできるようになります。
 
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 ![](assets/s_ncs_user_report_wizard_08a.png)
 
-このレポートに変更を加えるには、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／設定／レポート]**&#x200B;ノード（オペレーターに編集権限がある最初の「レポート」タイプフォルダー）を編集します。詳しくは、 [記述的分析レポートのレイアウトの設定](#configuring-the-layout-of-a-descriptive-analysis-report).
+このレポートに変更を加えるには、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／設定／レポート]**&#x200B;ノード（オペレーターに編集権限がある最初の「レポート」タイプフォルダー）を編集します。詳しくは、[記述的分析レポートのレイアウト設定](#configuring-the-layout-of-a-descriptive-analysis-report)を参照してください。
 
 ## 分析レポートの追加設定 {#analysis-report-additional-settings}
 
@@ -40,7 +40,7 @@ ht-degree: 93%
 
 これらのオプションは標準レポートの場合と同じです。詳しくは、[このページ](../../reporting/using/properties-of-the-report.md)を参照してください。
 
-## 記述的分析レポートのレイアウトの設定 {#configuring-the-layout-of-a-descriptive-analysis-report}
+## 記述的分析レポートのレイアウト設定 {#configuring-the-layout-of-a-descriptive-analysis-report}
 
 記述的分析のグラフやテーブルにおけるデータの表示やレイアウトをパーソナライズできます。すべてのオプションには、Adobe Campaign ツリーを通じて、各レポートの「**[!UICONTROL 編集]**」タブでアクセスします。
 
@@ -122,7 +122,7 @@ ht-degree: 93%
 
 詳しくは、[このページ](../../reporting/using/actions-on-reports.md)を参照してください。
 
-## 既存のレポートおよび分析を再利用 {#re-using-existing-reports-and-analyses}
+## 既存のレポートおよび分析の再利用 {#re-using-existing-reports-and-analyses}
 
 Adobe Campaign に既に格納されている既存のレポートを使用して、データに関する記述的分析レポートを作成できます。このモードが可能なのは、分析が既に保存されている場合か、レポートが既に作成されて記述的分析ウィザードでアクセスできるように設定されている場合です。
 

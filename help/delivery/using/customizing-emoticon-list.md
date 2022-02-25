@@ -1,12 +1,12 @@
 ---
 product: campaign
 title: 顔文字リストのカスタマイズ
-description: Adobe Campaign Classicを使用する際に顔文字のリストをカスタマイズする方法を説明します。
+description: Adobe Campaign Classic を使用するときに顔文字リストをカスタマイズする方法を説明します。
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

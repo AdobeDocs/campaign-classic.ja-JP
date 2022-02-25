@@ -4,9 +4,9 @@ title: 新しいレポートの作成
 description: 新しいレポートを作成するための主な手順を説明します。
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '961'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -56,11 +56,11 @@ ht-degree: 95%
 
    チャートにループが含まれる場合は必須です。
 
-1. 「**[!UICONTROL クエリ]**」アクティビティを 1 つまたは複数追加して、レポートの作成に役立つデータを収集します。データの収集は、データベースのスキーマに対するクエリによって直接おこなうことも、インポートしたリストまたは既存のキューブを使用しておこなうこともできます。
+1. 「**[!UICONTROL クエリ]**」アクティビティを 1 つまたは複数追加して、レポートの作成に役立つデータを収集します。データの収集は、データベースのスキーマに対するクエリによって直接行うことも、インポートしたリストまたは既存のキューブを使用して行うこともできます。
 
-   詳しくは、 [分析するデータを収集](../../reporting/using/collecting-data-to-analyze.md).
+   詳しくは、[分析するデータの収集](../../reporting/using/collecting-data-to-analyze.md)を参照してください。
 
-   このデータは、ページの設定に応じて、レポートに表示されることも表示されないこともあります。
+   このデータはページの設定に応じて、レポートに表示されることも、されないこともあります。
 
 1. 「**[!UICONTROL ページ。]**」アクティビティを 1 つまたは複数配置して、収集したデータのグラフィカルな表現を定義します表、グラフ、入力フィールドなどを挿入し、1 つまたは複数のページまたはページの要素の表示条件を設定できます。表示される内容は完全に設定可能です。
 
@@ -88,7 +88,7 @@ ht-degree: 95%
 
 ## ページの作成 {#creating-a-page}
 
-レポートの内容は、フローチャートに配置したアクティビティによって設定されます。詳しくは、 [チャートのモデル化](#modelizing-the-chart).
+コンテンツは、グラフに配置したアクティビティを介して設定されます。詳しくは、[グラフのモデル化](#modelizing-the-chart)を参照してください。
 
 アクティビティを設定するには、そのアイコンをダブルクリックします。
 
@@ -106,7 +106,7 @@ ht-degree: 95%
 
 >[!CAUTION]
 >
->レポートが Excel 形式でエクスポートするように設計されている場合は、複雑な HTML 書式設定を使用しないことをお勧めします。詳しくは、 [レポートのエクスポート](../../reporting/using/actions-on-reports.md#exporting-a-report).
+>レポートが Excel 形式でエクスポートするように設計されている場合は、複雑な HTML 書式設定を使用しないことをお勧めします。詳しくは、[レポートのエクスポート](../../reporting/using/actions-on-reports.md#exporting-a-report)を参照してください。
 
 **[!UICONTROL ページ]**&#x200B;には、次の要素を含めることができます。
 
@@ -130,7 +130,7 @@ ht-degree: 95%
 
 ![](assets/s_advuser_report_page_activity_03.png)
 
-### レポート内の情報のフィルタリング {#filtering-information-in-a-report}
+### レポートの情報のフィルタリング {#filtering-information-in-a-report}
 
 入力コントロールや選択コントロールを使用すると、レポートに表示する情報をフィルターできます。この種のフィルターの実装について詳しくは、[クエリでのフィルターオプション](../../reporting/using/collecting-data-to-analyze.md#filtering-options-in-the-queries)を参照してください。
 

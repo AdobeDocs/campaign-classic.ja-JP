@@ -49,7 +49,7 @@ Adobe Campaign では、強制隔離されたアドレスのリストを管理�
 
 ## 強制隔離されたアドレスを識別 {#identifying-quarantined-addresses}
 
-強制隔離されたアドレスは、特定の配送先またはプラットフォーム全体について一覧表示できます。
+強制隔離されたアドレスは、特定の配信先またはプラットフォーム全体について一覧表示できます。
 
 ### 配信用の強制隔離アドレスを識別 {#identifying-quarantined-addresses-for-a-delivery}
 

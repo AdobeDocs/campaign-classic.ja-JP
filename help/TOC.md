@@ -7,7 +7,7 @@ user-guide-description: Adobe Campaign では、豊富な顧客データを使�
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2555'
 ht-degree: 100%
 
@@ -179,7 +179,7 @@ ht-degree: 100%
       + [シードアドレスの作成](delivery/using/creating-seed-addresses.md)
       + [シードアドレスの追加](delivery/using/adding-seed-addresses.md)
       + [外部受信者テーブルの使用](delivery/using/using-an-external-recipient-table.md)
-      + [ユースケース：基準に基づくシードアドレスの選択](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
+      + [ユースケース：基準に基づいたシードアドレスの選択](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
       + [ユースケース：フィールド置換の設定](delivery/using/use-case--configuring-the-field-substitution.md)
    + A/B テスト {#a-b-testing}
       + [A/B テストの基本を学ぶ](delivery/using/get-started-a-b-testing.md)
@@ -205,7 +205,7 @@ ht-degree: 100%
       + [配信パフォーマンスのベストプラクティス](delivery/using/delivery-performances.md)
       + [配信のトラブルシューティング](delivery/using/delivery-troubleshooting.md)
       + [配信ステータス](delivery/using/delivery-statuses.md)
-      + [配信失敗について](delivery/using/understanding-delivery-failures.md)
+      + [配信の失敗について](delivery/using/understanding-delivery-failures.md)
       + [強制隔離管理について](delivery/using/understanding-quarantine-management.md)
    + メッセージのトラッキング {#tracking-messages}
       + [メッセージトラッキングについて](delivery/using/about-message-tracking.md)

@@ -5,13 +5,13 @@ description: '"使用例：条件によるシードアドレスの選択"'
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 100%
 
 ---
 
-# ユースケース：基準に基づくシードアドレスの選択{#use-case-selecting-seed-addresses-on-criteria}
+# ユースケース：基準に基づいたシードアドレスの選択{#use-case-selecting-seed-addresses-on-criteria}
 
 ![](../../assets/common.svg)
 

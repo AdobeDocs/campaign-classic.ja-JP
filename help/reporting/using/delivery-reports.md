@@ -4,10 +4,10 @@ title: 配信レポート
 description: 配信レポート
 feature: Reporting
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
-source-wordcount: '1628'
-ht-degree: 100%
+source-git-commit: 64d97c7879320296a5f8efc5bb5bc2bea8663c08
+workflow-type: tm+mt
+source-wordcount: '1636'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 >
 >関連する割合は、正常に転送されたメッセージの数に基づいて計算されます。
 
-* **[!UICONTROL 到達済み母集団のユニーク開封数]**：メッセージを少なくとも 1 回開封したターゲット受信者数の推定値。購読解除のリンクおよびミラーページでのクリック数が考慮されます。
+* **[!UICONTROL 到達済み母集団のユニーク開封数]**：メッセージを少なくとも 1 回開封したターゲット受信者数の推定値。リンクをクリックするために電子メールを開く必要があるので、トラッキングされる URL でのクリック数が考慮されます。
 * **[!UICONTROL 到達済み母集団の開封数の合計]**：ターゲット受信者による開封数の合計の推定値。
 * **[!UICONTROL オプトアウトリンクのクリック数]**：購読解除リンクのクリック数。
 * **[!UICONTROL ミラーページリンクのクリック数]**：ミラーページへのリンクでのクリック数。考慮されるようにするには、リンクは配信ウィザード（トラッキングされる URL）と同じように定義する必要があります。この[ページ](../../delivery/using/about-delivery-monitoring.md)を参照してください。

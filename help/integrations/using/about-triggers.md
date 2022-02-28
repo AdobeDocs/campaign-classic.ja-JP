@@ -5,10 +5,10 @@ description: Adobe Experience Cloud Triggers の実装入門
 audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
-source-git-commit: af40fe822c69979a478604595790d4deefd6d5b0
+source-git-commit: 0a59b0dbdbe70cf8993ce7153b8f3c049c1f1108
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->この機能は、製品の一部として初期状態では使用できません。実装するには、アドビのコンサルティングサービス部門に依頼する必要があります。詳しくは、アドビ担当者にお問い合わせください
+>この機能は、製品の一部として初期状態では使用できません。この実装の場合、最初にチケットを開き、Adobeサポートが必要です。 次に、この [ページ](../../integrations/using/configuring-pipeline.md#prerequisites).
 
 [!DNL Triggers] は、ユーザーのアクションの後、短時間のうちにマーケティングアクションを実行します。通常の応答時間は 1 時間未満です。
 

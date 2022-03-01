@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 8278228a6610e99f9400343bc967e16f2759dfbe
+source-git-commit: 830d91dc5f6663a24d9fb8c2afeb03cdb93d4eec
 workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 83%
@@ -37,7 +37,7 @@ _2022 年 3 月 2 日_
 * 1,000 を超える broadlog を同時に含む場合に配信品質ワークフローを更新するとエラーが発生する問題を修正しました。 （NEO-40276）
 * 開封率とクリック率の配信指標が自動的に更新されない問題を修正しました。 （NEO-43253）
 
-## ![](assets/do-not-localize/green_2.png) リリース 7.2.1 - ビルド 9346 {#release-7-2-1}
+## ![](assets/do-not-localize/limited_2.png) リリース 7.2.1 - ビルド 9346 {#release-7-2-1}
 
 _2022年1月10日（PT）_
 

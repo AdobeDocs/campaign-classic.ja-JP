@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 830d91dc5f6663a24d9fb8c2afeb03cdb93d4eec
+source-git-commit: 2f22f1a3cbf0dccb6872718ea4e0bd20b257c169
 workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 83%
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 このページには、**最新の Campaign Classic v7 リリース**&#x200B;の新機能、改善点および修正点が記載されています。新しいビルドごとに、色分けされたステータスが表示されます。Campaign Classic v7 のビルドステータスについて詳しくは、[このページ](rn-overview.md)を参照してください。
 
-## ![](assets/do-not-localize/green_2.png) リリース 7.2.2 - ビルド 4349 {#release-7-2-2}
+## ![](assets/do-not-localize/green_2.png) リリース 7.2.2 - ビルド 9349 {#release-7-2-2}
 
 _2022 年 3 月 2 日_
 

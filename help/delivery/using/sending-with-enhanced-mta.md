@@ -4,9 +4,9 @@ title: Enhanced MTA を使用した Adobe Campaign Classic での送信
 description: Adobe Campaign Enhanced MTA を使用したメール送信の範囲と特異性について説明します。
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: 8ac6cddad04d1142b84a735ab8083e732c17714b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2016'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -138,7 +138,7 @@ Campaign 配信スループットグラフでは、E メール受信者に対す
 
 >[!NOTE]
 >
->を使用 [電子メールフィードバックサービス](#email-feedback-service) (EFS) 機能（現在はベータ版）の場合、キャンペーン配信スループットグラフには、E メール受信者へのスループットが表示されます。
+>[メールフィードバックサービス](#email-feedback-service)（EFS）機能（現在ベータ版として利用可能）を使用すると、キャンペーン配信スループットグラフには、メール受信者へのスループットが引き続き表示されます。
 
 ### 有効期間
 

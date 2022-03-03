@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
 source-git-commit: c30d64e6930cb97f4a3c15acd97654d57d1bbf85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** で、リアルタイムタイプのスキーマにアクセスできます。
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** で、バッチタイプのスキーマにアクセスできます。
 
-WSDL ファイルの生成について詳しくは、 [この節](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
+WSDL ファイルの生成について詳しくは、[この節](../../configuration/using/web-service-calls.md#web-service-description--wsdl)を参照してください。
 
 どちらのメソッドにも、トランザクションメッセージモジュールにログオンするための **`<urn:sessiontoken>`** 要素が含まれています。信頼済み IP アドレス経由の識別方法を使用することをお勧めします。セッショントークンを取得するには、ログオン SOAP 呼び出しを実行してから、トークンを取得した後でログオフします。同じトークンを 複数の RT 呼び出しに使用します。この節に含まれる例では、推奨されるセッショントークン方式を使用しています。
 

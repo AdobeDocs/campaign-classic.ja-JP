@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 31c7e41e747475ab98bcc8ffea90933a05aeaa97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4888'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 98%
 
 ## 2022
 
-### 2022 年 2 月 {#february-2022}
+### 2022年2月 {#february-2022}
 
-更新された **ファイル転送** 「 」アクティビティセクションに追加します。 **転送後にソースファイルを削除** オプションが選択されていません。 [詳細情報](../../workflow/using/file-transfer.md#properties)
+ 「**ファイル転送**&#x200B;アクティビティ」の節を更新し、「**転送後にソースファイルを削除**」オプションが選択されていない場合に SFTP ディレクトリにあるアーカイブ済みコンテンツのサイズを手動で監視するように追記しました。[詳細情報](../../workflow/using/file-transfer.md#properties)
 
-強制隔離とブロックリストの節の内容が明快になりました。[詳細情報](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+「強制隔離とブロックリストの比較」の節の内容が明快になりました。[詳細情報](../../delivery/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
-アドレスを強制隔離に送信する方法と強制隔離リストからアドレスを削除する方法に関する節が更新されました。 [詳細情報](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+アドレスを強制隔離に送信する方法と強制隔離リストからアドレスを削除する方法に関する節が更新されました。[詳細情報](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
 ### 2022年1月 {#january-2022}
 
@@ -458,7 +458,7 @@ Hadoop FDA コネクタの機能強化 - [詳細を表示](../../installation/us
 
 インストールガイドを更新し、互換性マトリックスの最新バージョンと同期しました。新しいサポート対象システムが追加されました。非推奨（廃止予定）およびサポート対象外のシステムに関する記載が削除されました。[詳細を表示](../../installation/using/general-architecture.md)
 
-互換性マトリックスを更新し、Hadoop 3.0 および Snowflake の FDA コネクタを追加しました。[詳細を表示](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+互換性マトリックスを更新し、Hadoop 3.0 および Snowflake の FDA コネクタを追加しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
 IP アフィニティのベストプラクティスがインストールガイドに追加されました。[詳細を表示](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -476,7 +476,7 @@ URL レポート設定の新しいパラメーターは、[こちら](../../repo
 
 「**Campaign Classic オンプレミスとホスト機能マトリックス**」ページが更新され、新しい FDA コネクタが追加されました。[詳細を表示](../../installation/using/capability-matrix.md)。
 
-**Campaign Classic 機能マトリックス**&#x200B;ページを更新しました。[詳細を表示](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+**Campaign Classic 機能マトリックス**&#x200B;ページを更新しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
 新しい **[!UICONTROL Nmsaddress のクリーンアップ]**&#x200B;ワークフローの情報は、[ここ](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress)に記載されています。
 
@@ -528,7 +528,7 @@ AMP を使用したインタラクティブコンテンツ - [詳細を表示](.
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-Adobe Campaign Enhanced MTA のドキュメントが入手できるようになりました。[詳細を表示](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
+Adobe Campaign Enhanced MTA のドキュメントが入手できるようになりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html)
 
 キャンペーン内で「開始準備中」の状態に留まるワークフローをトラブルシュートする方法について、新しい節が追加されました。[詳細を表示](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -590,7 +590,7 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 **19.1 リリースに含まれる新機能**
 
-コントロールパネル - [詳細を表示](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+コントロールパネル - [詳細を表示](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
 
 監査記録 - [詳細を表示](../../production/using/audit-trail.md)
 
@@ -614,7 +614,7 @@ Campaign サーバーのアンインストール手順を説明する節が追�
 
 Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](../../integrations/using/about-triggers.md)
 
-エラーメッセージのリストが更新されました。[詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
+エラーメッセージのリストが更新されました。[詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja)
 
 トランザクションメッセージングの SOAP 認証方法に関する詳細が追加されました。[詳細を表示](../../message-center/using/event-description.md)
 
@@ -653,7 +653,7 @@ Analytics Connector の節を更新し、インターフェイスの変更を反
 共有オーディエンスの統合に関するドキュメントが更新されました。
 [詳細を表示](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-[SMS コネクタのプロトコルと設定](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)および[シーケンスの自動生成](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)のテクニカルノートが更新されました。
+[SMS コネクタのプロトコルと設定](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)および[シーケンスの自動生成](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)のテクニカルノートが更新されました。
 
 テクニカルワークフローの節が更新されました。[詳細を表示](../../workflow/using/about-technical-workflows.md)
 

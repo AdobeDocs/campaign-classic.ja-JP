@@ -2,9 +2,10 @@
 product: campaign
 title: 配信の作成と識別
 description: 配信の作成と識別
+feature: Channel Configuration
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
 

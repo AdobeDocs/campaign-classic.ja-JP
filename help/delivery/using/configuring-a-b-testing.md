@@ -4,8 +4,8 @@ title: A/B テストの設定
 description: Campaign Classic で A/B テストを設定する方法を説明します。
 feature: A/B Testing
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 100%
 

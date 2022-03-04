@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Web フォームのパブリッシュ
-description: Web フォームのパブリッシュ
-audience: web
-content-type: reference
-topic-tags: web-forms
+title: web フォームの公開
+description: web フォームの公開
+feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 100%
 
 ---
 
-# Web フォームのパブリッシュ{#publishing-a-web-form}
+# web フォームの公開{#publishing-a-web-form}
 
 ![](../../assets/common.svg)
 

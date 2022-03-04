@@ -1,11 +1,9 @@
 ---
 title: データソースを変更
 description: 「データソースを変更」アクティビティの詳細を説明します
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Data Management, Federated Data Access
 exl-id: d7bf9d62-6f9e-415f-8160-446210f6392e
-source-git-commit: 31483bdd2e0a2dd0676ef391c5484e4b778317c1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
@@ -16,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 「**[!UICONTROL データソースを変更]**」アクティビティは、「**[!UICONTROL 外部データへのアクセス (Federated Data Access)]** パッケージでのみ使用できます。 Adobe Campaign Classic の組み込みパッケージについて詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+> 「**[!UICONTROL データソースを変更]**」アクティビティは、「**[!UICONTROL 外部データへのアクセス (Federated Data Access)]** パッケージでのみ使用できます。 Adobe Campaign Classic のビルトインパッケージについて詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
 「**[!UICONTROL データソースを変更]**」アクティビティを使用すると、ワークフロー&#x200B;**[!UICONTROL 作業用テーブル]**&#x200B;のデータソースを変更できます。これにより、FDA、FFDA、ローカルデータベースなど、様々なデータソースにわたって、より柔軟にデータを管理できます。
 

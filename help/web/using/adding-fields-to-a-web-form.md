@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Web フォームへのフィールドの追加
-description: Web フォームへのフィールドの追加
-audience: web
-content-type: reference
-topic-tags: web-forms
+title: web フォームへのフィールドの追加
+description: web フォームへのフィールドの追加
+feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
-source-git-commit: a5f6478d3c0780464974053e389923614abba582
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '2461'
 ht-degree: 100%
 
 ---
 
-# Web フォームへのフィールドの追加{#adding-fields-to-a-web-form}
+# web フォームへのフィールドの追加{#adding-fields-to-a-web-form}
 
 ![](../../assets/common.svg)
 

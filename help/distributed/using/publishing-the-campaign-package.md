@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: パッケージのパブリッシュ
-description: パッケージのパブリッシュ
-audience: campaign
-content-type: reference
-topic-tags: distributed-marketing
+title: キャンペーンパッケージの公開
+description: キャンペーンパッケージの公開
+feature: Distributed Marketing
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 100%
 
 ---
 
-# パッケージのパブリッシュ{#publishing-the-campaign-package}
+# キャンペーンパッケージの公開{#publishing-the-campaign-package}
 
 ![](../../assets/v7-only.svg)
 

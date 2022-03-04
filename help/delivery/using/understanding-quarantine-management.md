@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: 強制隔離管理の理解
-description: 強制隔離管理の理解
-feature: Monitoring
+title: 強制隔離管理について
+description: 強制隔離管理について
+feature: Monitoring, Deliverability
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: afe4329fd230f30e48bfbf5ac2073ca95a6fd04e
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '2931'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -35,17 +35,17 @@ Adobe Campaign では、強制隔離されたアドレスのリストを管理�
 
 強制隔離とブロックリストは、同じオブジェクトには適用されません。
 
-* **強制隔離** は **住所** （または電話番号など）。プロファイル自体には適用されません。 例えば、E メールアドレスが強制隔離されているプロファイルは、プロファイルを更新して新しいアドレスを入力でき、再び配信アクションのターゲットにされる可能性があります。 同様に、2 つのプロファイルの電話番号が同じ場合、その番号が強制隔離されると、両方のプロファイルが影響を受けます。
+* **強制隔離**&#x200B;は、プロファイル自体ではなく、**アドレス**（または電話番号など）にのみ適用されます。例えば、メールアドレスが強制隔離されているプロファイルは、プロファイルを更新して新しいアドレスを入力できるので、再び配信アクションのターゲットになる可能性があります。同様に、2 つのプロファイルの電話番号が同じ場合、その番号が強制隔離されると、両方のプロファイルが影響を受けます。
 
-   強制隔離されたアドレスまたは電話番号は、 [除外ログ](#identifying-quarantined-addresses-for-a-delivery) （配信の場合）または [強制隔離リスト](#identifying-quarantined-addresses-for-the-entire-platform) （プラットフォーム全体に対して）。
+   強制隔離されたアドレスまたは電話番号は、[除外ログ](#identifying-quarantined-addresses-for-a-delivery)（配信の場合）または[強制隔離リスト](#identifying-quarantined-addresses-for-the-entire-platform)（プラットフォーム全体の場合）に表示されます。
 
-* を使用している **ブロックリスト**&#x200B;一方、 **profile** 特定のチャネルの購読解除（オプトアウト）後など、配信のターゲットにされなくなりました。 例えば、E メールチャネルの上のプロブロックリストファイルに 2 つの E メールアドレスがある場合、両方のアドレスが配信から除外されます。
+* 一方、**ブロックリスト**&#x200B;への登録では、特定のチャネルを購読解除（オプトアウト）した後などは、**プロファイル**&#x200B;は配信のターゲットとなりません。例えば、メールチャネルのブロックリストのプロファイルに 2 つのメールアドレスがある場合、両方のアドレスが配信から除外されます。
 
-   プロファイルが上にあブロックリストり、 **[!UICONTROL 今後の連絡は不要]** プロファイルのセクション **[!UICONTROL 一般]** タブをクリックします。 詳しくは、[この節](../../platform/using/editing-a-profile.md#general-tab)を参照してください。
+   プロファイルが 1 つ以上のチャネルのブロックリストに含まれているかどうかは、プロファイルの「**[!UICONTROL 一般]**」タブの「**[!UICONTROL 今後の連絡は不要]**」セクションで確認できます。詳しくは、[この節](../../platform/using/editing-a-profile.md#general-tab)を参照してください。
 
 >[!NOTE]
 >
->強制隔離には **[!UICONTROL ブロックリストに加える]** ステータス。受信者がメッセージをスパムとして報告したり、「STOP」などのキーワードを含む SMS メッセージに返信したりする場合に適用されます。 この場合、プロファイルに関係するアドレスまたは電話番号は、 **[!UICONTROL ブロックリストに加える]** ステータス。 SMS 停止メッセージの管理について詳しくは、 [この節](../../delivery/using/sms-send.md#processing-inbound-messages).
+>強制隔離には、受信者がメッセージをスパムとして報告したり、「STOP」などのキーワードを使用して SMS メッセージに返信したりする場合に適用される&#x200B;**[!UICONTROL ブロックリスト登録済み]**&#x200B;ステータスが含まれます。この場合、プロファイルの関連するアドレスまたは電話番号は、**[!UICONTROL ブロックリスト登録済み]**&#x200B;ステータスで強制隔離に送信されます。STOP SMS メッセージの管理について詳しくは、[この節](../../delivery/using/sms-send.md#processing-inbound-messages)を参照してください。
 
 ## 強制隔離されたアドレスを識別 {#identifying-quarantined-addresses}
 
@@ -98,10 +98,10 @@ Adobe Campaign では、強制隔離されたアドレスのリストを管理�
 
 必要に応じて、強制隔離リストから手動でアドレスを削除できます。これに加えて、特定の条件に一致するアドレスは、[データベースクリーンアップ](../../production/using/database-cleanup-workflow.md)ワークフローによって強制隔離リストから自動的に削除されます。
 
-強制隔離リストからアドレスを手動で削除するには、以下のいずれかの操作を実行します。
+強制隔離リストからアドレスを手動で削除するには、以下のいずれかのアクションを実行します。
 
 >[!IMPORTANT]
-強制隔離から E メールアドレスを手動で削除すると、このアドレスへの配信が再び開始されます。 その結果、配信品質と IP のレピュテーションに重大な影響が及ぶ可能性があり、最終的に IP アドレスや送信ドメインがブロックされる可能性があります。 強制隔離からアドレスを削除することを検討する場合は、追加の注意を払う必要があります。 不明な点がある場合は、配信品質のエキスパートにお問い合わせください。
+強制隔離からメールアドレスを手動で削除すると、このアドレスへの配信が再び開始されます。その結果、配信品質と IP のレピュテーションに重大な影響が及ぶ可能性があり、最終的に IP アドレスや送信ドメインがブロックされる可能性があります。強制隔離からアドレスを削除することを検討する場合は、細心の注意を払う必要があります。不明な点がある場合は、配信品質のエキスパートにお問い合わせください。
 
 * **[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信不能件数およびアドレス]**&#x200B;ノードから、ステータスを「**[!UICONTROL 有効]**」に変更できます。
 
@@ -118,26 +118,26 @@ Adobe Campaign では、強制隔離されたアドレスのリストを管理�
 その後、ステータスは「**[!UICONTROL 有効]**」に変わります。
 
 >[!IMPORTANT]
-アドレスが **[!UICONTROL 強制隔離]** または **[!UICONTROL ブロックリストに加える]** ステータスは、電子メールを受信した場合でも削除されません。
+アドレスが&#x200B;**[!UICONTROL 強制隔離中]**&#x200B;または「**[!UICONTROL ブロックリスト登録済み]**」のステータスの受信者は、メールを受信した場合でも削除されません。
 
-ホストインストールまたはハイブリッドインストールで、 [拡張 MTA](sending-with-enhanced-mta.md): **[!UICONTROL エラー]** 再試行間のステータスと最小遅延は、IP が特定のドメインでどの程度過去に実行され、現在どの程度の動作を実行しているかに基づくようになりました。
+ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、**[!UICONTROL エラー]**&#x200B;ステータスの場合に実行される再試行の最大数および再試行間の最小遅延は現在、IP が特定のドメインで過去と現在の両方でどの程度機能しているかに基づいています。
 
-レガシー Campaign MTA を使用したオンプレミスインストールおよびホスト/ハイブリッドインストールの場合、エラーの数と 2 つのエラーの間の期間を変更できます。 これをおこなうには、 [デプロイウィザード](../../installation/using/deploying-an-instance.md) (**[!UICONTROL E メールチャネル]** > **[!UICONTROL 詳細設定パラメーター]**) または [配信レベルで](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
+従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、エラーの数と 2 つのエラーの間の期間を変更できます。これを行うには、[デプロイメントウィザード](../../installation/using/deploying-an-instance.md)（**[!UICONTROL メールチャネル]**／**[!UICONTROL 詳細設定パラメーター]**）または[配信レベルで](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)対応する設定を変更します。
 
 ## アドレスを強制隔離に送信するための条件 {#conditions-for-sending-an-address-to-quarantine}
 
-Adobe Campaignでは、エラーメッセージの選定時に割り当てられた配信エラーのタイプと理由に従って強制隔離を管理します ( [バウンスメールの選定](understanding-delivery-failures.md#bounce-mail-qualification) および [配信エラーのタイプと理由](understanding-delivery-failures.md#delivery-failure-types-and-reasons)) をクリックします。
+Adobe Campaign では、エラーメッセージの選定で割り当てられた配信のエラータイプと理由に応じて強制隔離を管理します（[バウンスメールの選定](understanding-delivery-failures.md#bounce-mail-qualification)および[配信のエラータイプと理由](understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照）。
 
 * **無視のエラー**：アドレスを強制隔離しません。
 * **ハードエラー**：対応する E メールアドレスがただちに強制隔離されます。
 * **ソフトエラー**：ただちにアドレスが強制隔離されることはありませんが、エラーカウンターがインクリメントされます。詳しくは、[ソフトエラー管理](#soft-error-management)を参照してください。
 
-ユーザーが E メールをスパム（[フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops)）と見なした場合、メッセージは、アドビが管理するテクニカルメールボックスに自動的にリダイレクトされます。その後、その E メールアドレスは、 **[!UICONTROL ブロックリストに加える]** ステータス。 このステータスはアドレスのみを表し、プロファイルは上にないのブロックリストで、ユーザーは引き続き SMS メッセージやプッシュ通知を受信します。
+ユーザーが E メールをスパム（[フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops)）と見なした場合、メッセージは、アドビが管理するテクニカルメールボックスに自動的にリダイレクトされます。さらに、そのメールアドレスは自動的に強制隔離され、ステータスが「**[!UICONTROL ブロックリスト登録済み]**」となります。このステータスはアドレスのみに適用され、プロファイルはブロックリストに登録されていないので、ユーザーは引き続き SMS メッセージやプッシュ通知を受信します。
 
 >[!NOTE]
 Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、E メールアドレスは必ず小文字でインポートしてください。
 
-強制隔離されたアドレスのリスト ( [プラットフォーム全体の強制隔離アドレスの識別](#identifying-quarantined-addresses-for-the-entire-platform))、 **[!UICONTROL エラーの理由]** 「 」フィールドは、選択したアドレスが強制隔離された理由を示します。
+隔離されたアドレスのリスト（[プラットフォーム全体の強制隔離されたアドレスの識別](#identifying-quarantined-addresses-for-the-entire-platform)を参照）の「**[!UICONTROL エラー理由]**」フィールドは、選択したアドレスが強制隔離された理由を示します。
 
 ![](assets/tech_quarant_error_reasons.png)
 
@@ -145,7 +145,7 @@ Adobe Campaign の強制隔離では、大文字と小文字が区別されま�
 
 ハードエラーとは異なり、ソフトエラーでただちにアドレスが強制隔離されることはありませんが、エラーカウンターがインクリメントされます。
 
-再試行は [配信期間](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period). エラーカウンターが制限しきい値に達すると、アドレスが強制隔離されます。詳しくは、[一時的な配信エラーの後の再試行](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
+再試行は、[配信期間](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period)中に実行されます。エラーカウンターが制限しきい値に達すると、アドレスが強制隔離されます。詳しくは、[一時的な配信エラーの後の再試行](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
 
 最後に重大なエラーが発生したのが 10 日以上前の場合、エラーカウンターが再初期化されます。アドレスのステータスが「**有効**」に変わり、[データベースクリーンアップ](../../production/using/database-cleanup-workflow.md)ワークフローが強制隔離のリストからアドレスを削除します。
 

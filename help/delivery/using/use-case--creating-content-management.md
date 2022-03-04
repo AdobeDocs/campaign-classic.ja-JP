@@ -2,9 +2,10 @@
 product: campaign
 title: 「ユースケース：コンテンツ管理の作成」
 description: 「ユースケース：コンテンツ管理の作成」
+feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 100%
 

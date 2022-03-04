@@ -2,12 +2,10 @@
 product: campaign
 title: テクニカルワークフローの監視
 description: テクニカルワークフローの監視
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
-source-git-commit: 1a4fd75a90667e57149772497a7b1bd14b251db3
-workflow-type: ht
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
 

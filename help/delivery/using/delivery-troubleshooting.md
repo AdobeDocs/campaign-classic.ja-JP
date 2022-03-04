@@ -2,9 +2,10 @@
 product: campaign
 title: 配信の送信に関するトラブルシューティング
 description: 配信の監視に関する問題のトラブルシューティング方法と配信パフォーマンスについて詳しく説明します。
+feature: Monitoring, Deliverability
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
 

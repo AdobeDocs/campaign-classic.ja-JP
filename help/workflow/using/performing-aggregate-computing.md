@@ -2,11 +2,9 @@
 product: campaign
 title: 集計計算の実行
 description: クエリで集計計算を実行する方法を説明します。
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 100%

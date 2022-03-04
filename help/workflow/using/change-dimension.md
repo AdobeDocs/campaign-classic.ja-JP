@@ -2,11 +2,9 @@
 product: campaign
 title: ディメンションを変更
 description: ディメンションを変更
-audience: workflow
-content-type: reference
-topic-tags: targeting-activities
+feature: Workflows, Targeting Activity
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
@@ -43,7 +41,8 @@ ht-degree: 100%
 
    ![](assets/s_user_change_dimension_param2.png)
 
-   青い矢印を使用して、重複処理の優先順位を定義できます。
+   青い矢印を使用して、重複処理の優先度を定義できます。
+
 
    上の例では、受信者はまず E メールアドレスに基づいて重複排除され、次に必要に応じてアカウント番号に基づいて重複排除されます。
 

@@ -2,9 +2,10 @@
 product: campaign
 title: ワークフローの開始
 description: 専用のユースケースを通じて A/B テストを実行する方法を学ぶ
+feature: A/B Testing
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
 

@@ -5,11 +5,12 @@ description: 列挙タイプ計算フィールドの追加方法を説明しま�
 audience: workflow
 content-type: reference
 topic-tags: use-cases
+feature: Workflows, Data Management
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

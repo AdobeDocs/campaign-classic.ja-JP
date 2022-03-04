@@ -2,9 +2,10 @@
 product: campaign
 title: トラッキングの基本を学ぶ
 description: Adobe Campaign Classic のトラッキングに関する一般的なガイドラインを学ぶ
+feature: Monitoring, Email
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 100%
 

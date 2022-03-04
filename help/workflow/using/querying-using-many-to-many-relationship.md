@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: 多対多関係を使用したクエリ
+title: 多対多の関係を使用したクエリ
 description: 多対多関係を使用したクエリを実行する方法を説明します。
 feature: Query Editor
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 100%
 

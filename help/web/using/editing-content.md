@@ -2,11 +2,9 @@
 product: campaign
 title: コンテンツの編集
 description: コンテンツの編集
-audience: web
-content-type: reference
-topic-tags: editing-html-content
+feature: Web Apps, Web Forms, Landing Pages
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 100%
@@ -262,4 +260,4 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 挿入後、パーソナライゼーションブロック名がエディターに表示され、黄色でハイライトされます。パーソナライゼーションが生成されると、受信者プロファイルに自動的に適応されます。
 
-組み込みのパーソナライゼーションブロックと、カスタムパーソナライゼーションブロックの定義方法について詳しくは、[このページ](../../delivery/using/personalization-blocks.md)を参照してください。
+ビルトインのパーソナライゼーションブロックと、カスタムパーソナライゼーションブロックの定義方法について詳しくは、[このページ](../../delivery/using/personalization-blocks.md)を参照してください。

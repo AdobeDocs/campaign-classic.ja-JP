@@ -2,9 +2,10 @@
 product: campaign
 title: 最終配信の定義
 description: 専用のユースケースを通じて A/B テストを実行する方法を学ぶ
+feature: A/B Testing
 exl-id: bc23a444-a872-48fb-8bba-64b301541089
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%
 

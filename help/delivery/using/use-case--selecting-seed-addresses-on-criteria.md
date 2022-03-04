@@ -1,10 +1,10 @@
 ---
 product: campaign
-title: '"使用例：条件によるシードアドレスの選択"'
-description: '"使用例：条件によるシードアドレスの選択"'
+title: '"ユースケース：基準に基づいたシードアドレスの選択"'
+description: '"ユースケース：基準に基づいたシードアドレスの選択"'
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 100%

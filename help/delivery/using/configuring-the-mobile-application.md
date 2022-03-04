@@ -1,12 +1,13 @@
 ---
 product: campaign
-title: Adobe Campaign での iOS モバイルアプリケーションの設定
+title: Adobe CampaignでのiOSモバイルアプリケーションの設定
 description: iOS 用モバイルアプリケーションの設定方法を説明します。
+feature: Push
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

@@ -2,11 +2,9 @@
 product: campaign
 title: ファイルコレクター
 description: ファイルコレクターワークフローアクティビティの詳細を説明します
-audience: workflow
-content-type: reference
-topic-tags: event-activities
+feature: Workflows, Data Management
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 100%

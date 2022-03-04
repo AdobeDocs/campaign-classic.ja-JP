@@ -1,19 +1,17 @@
 ---
 product: campaign
-title: Web フォームの翻訳
-description: Web フォームの翻訳
-audience: web
-content-type: reference
-topic-tags: web-forms
+title: web フォームの翻訳
+description: web フォームの翻訳
+feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 100%
 
 ---
 
-# Web フォームの翻訳{#translating-a-web-form}
+# web フォームの翻訳{#translating-a-web-form}
 
 ![](../../assets/common.svg)
 

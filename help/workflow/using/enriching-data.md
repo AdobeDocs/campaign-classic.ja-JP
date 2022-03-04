@@ -2,11 +2,9 @@
 product: campaign
 title: データのエンリッチメント
 description: エンリッチメントワークフローアクティビティの詳細を説明します
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows, Enrichment Activity
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 100%

@@ -2,9 +2,10 @@
 product: campaign
 title: トラッキングされる URL の命令の前処理
 description: メールの URL をスクリプト化し、その URL を引き続きトラッキングするための命令の前処理について詳しく説明します。
+feature: Monitoring
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
 

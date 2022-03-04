@@ -1,12 +1,10 @@
 ---
 product: campaign
-title: 新しい web アプリケーションの作成
-description: 新しい web アプリケーションの作成
-audience: web
-content-type: reference
-topic-tags: web-applications
+title: Web アプリケーションの新規作成
+description: Web アプリケーションの新規作成
+feature: Web Apps
 exl-id: 5ccf5a21-48aa-4c0d-8cc8-457eb07d9f74
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%

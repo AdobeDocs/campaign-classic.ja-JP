@@ -2,11 +2,9 @@
 product: campaign
 title: 調査の設計
 description: 調査を設計するための主な手順を説明します
-audience: web
-content-type: reference
-topic-tags: online-surveys
+feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 100%

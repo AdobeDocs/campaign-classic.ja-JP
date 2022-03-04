@@ -1,12 +1,13 @@
 ---
 product: campaign
-title: Adobe Campaign Classicと日本の携帯電話にメールを送る
+title: 日本の携帯電話向けにAdobe Campaign Classicで E メールを送信
 description: 日本の携帯電話で読むメールを設定、デザイン、送信する方法を学ぶ
+feature: Email, Email Design
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

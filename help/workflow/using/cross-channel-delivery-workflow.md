@@ -2,11 +2,9 @@
 product: campaign
 title: クロスチャネル配信ワークフロー
 description: クロスチャネル配信ワークフローの詳細を説明します
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows, Channels Activity
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e454cc29038b4eab9fad1dcb46813fc8e1a83db1
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 100%
@@ -53,7 +51,7 @@ ht-degree: 100%
 
    ![](assets/wkf_cross-channel_1.png)
 
-   メッセージ本文へのオファーの組み込みについて詳しくは、[この節](../../interaction/using/integrating-an-offer-via-the-wizard.md#delivering-with-a-call-to-the-offer-engine)を参照してください。
+   メッセージ本文へのオファーのビルトインについて詳しくは、[この節](../../interaction/using/integrating-an-offer-via-the-wizard.md#delivering-with-a-call-to-the-offer-engine)を参照してください。
 
 1. 変更を保存します。
 1. **[!UICONTROL E メール配信]**&#x200B;アクティビティを右クリックして開きます。

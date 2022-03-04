@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: Campaign 分散型マーケティング
-description: 分散型マーケティングの概要
+title: 分散型マーケティングの基本を学ぶ
+description: 分散型マーケティングの基本を学ぶ
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
-source-wordcount: '1178'
+source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+workflow-type: tm+mt
+source-wordcount: '1180'
 ht-degree: 100%
 
 ---

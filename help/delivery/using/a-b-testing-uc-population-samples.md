@@ -2,8 +2,9 @@
 product: campaign
 title: 母集団サンプルの設定
 description: 専用のユースケースを通じて A/B テストを実行する方法を学ぶ
+feature: A/B Testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%

@@ -2,11 +2,9 @@
 product: campaign
 title: 配信コンテンツの読み込み
 description: 配信コンテンツの読み込み
-audience: workflow
-content-type: reference
-topic-tags: use-cases
+feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 100%

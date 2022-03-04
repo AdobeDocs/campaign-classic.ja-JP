@@ -2,10 +2,10 @@
 product: campaign
 title: 配信の失敗について
 description: 配信失敗を理解する方法を学ぶ
-feature: Monitoring
+feature: Monitoring, Deliverability
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+workflow-type: tm+mt
 source-wordcount: '2665'
 ht-degree: 100%
 

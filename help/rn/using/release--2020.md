@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e2eb7e04-faaa-4df0-913d-471c291eeb03
-source-git-commit: 0f31ee570ba6e763f48902e91c5d823ac297fc24
-workflow-type: ht
-source-wordcount: '6578'
-ht-degree: 100%
+source-git-commit: c228f827e91f25ee3a837f7fe6549ae4e5714ba3
+workflow-type: tm+mt
+source-wordcount: '6628'
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ Campaign で次のシステムがサポートされるようになりました�
 
 * **クライアントコンソール**&#x200B;には、次の改善点が追加されました。
    * 接続プロトコルは、新しい IMS 認証メカニズムに従うように更新されました。サーバーとクライアントコンソールを 2021 年 6 月 30 日以降も接続できるようにするには、アップグレードが必要です。
-   * インターネットセキュリティ GPO ルールの一部の制限との非互換性を防ぐため、Campaign クライアントコンソールのログイン画面は組み込みの標準 Windows フォームに置き換えられました。
+   * インターネットセキュリティ GPO ルールの一部の制限との非互換性を防ぐため、Campaign クライアントコンソールのログイン画面はビルトインの標準 Windows フォームに置き換えられました。
    * 64 ビットのクライアントコンソールを使用したワークフローで、アクティビティのコピー/貼り付けをおこなうときの問題を修正しました。（NEO-27635）
    * **バージョン情報**&#x200B;メニューに、64 ビットと 32 ビットのコンソールを区別するための情報が追加されました。
 * ワークフローを再開すると、ワークフロー識別子がログに表示されるようになりました。これにより、再開されたワークフローの識別が簡単になりました。
@@ -125,6 +125,7 @@ Cookie について詳しくは、[この節](../../platform/using/privacy-and-r
 * Adobe Target から画像を挿入するときに、外部アカウントでテナント名が空だった場合に表示されるエラーメッセージを改善しました。
 * 配信プロパティで、「**[!UICONTROL E メールをアーカイブ]**」オプションが「**[!UICONTROL BCC で E メールを送信]**」に名前変更されました。
 * 堅牢性を向上するために、無効なノードでの selectAll クエリは拒否されるようになりました。チェックを無効にして前の動作に戻る必要がある場合は、XtkSecurity_Disable_QueryCheck を 0 に設定します。
+* nmsBroadlogId シーケンスに対して、負の ID 範囲のサポートが追加されました。 このビルドでは、 nmsBroadlogId シーケンスの min_value が負の範囲を含むように調整されます。 負の ID を使用できない厳密な使用例がある場合は、シーケンスの min_value を 1 に戻してください。
 
 **技術面の変更点**
 
@@ -223,8 +224,8 @@ _2020 年 12 月 22 日_
 >[!CAUTION]
 >
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を通じて Campaign に接続している場合、 **2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign サーバーとクライアントコンソールの両方が Campaign に接続できるようにするには、アップグレードする必要があります。[詳細情報](../../technotes/using/ims-updates.md)
-> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
-> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、[2021 年 9 月 日](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)（PT）に&#x200B;**廃止されました**。ホスト環境では、**2022年2月23日（PT）**&#x200B;まで延長サポートを受けられます。オンプレミス環境またはハイブリッド環境のお客様は、アドビカスタマーケアに連絡してサポートを 2022年2月まで延長してください。[OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) をアドビに伝える必要があります。
+> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
+> * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、[2021 年 9 月 日](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411)（PT）に&#x200B;**廃止されました**。ホスト環境では、**2022年2月23日（PT）**&#x200B;まで延長サポートを受けられます。オンプレミス環境またはハイブリッド環境のお客様は、アドビカスタマーケアに連絡してサポートを 2022年2月まで延長してください。[OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) をアドビに伝える必要があります。
 
 
 **改善点**
@@ -280,7 +281,7 @@ _2020 年 7 月 22 日_
 * [新しいシーケンス ID メカニズム](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)に切り替えた後、受信者テーブルを更新するすべての web アプリケーションは、アップグレード後に再公開されます。
 * 配信コンテンツの潜在的な XSS 脆弱性を修正しました。（NEO-17987、NEO-26073）
 
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)。
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
 
 ### ![](assets/do-not-localize/red_2.png) リリース 20.2.1 - ビルド 9178 {#release-20-2-1-build-9178}
 
@@ -521,7 +522,7 @@ _2020 年 12 月 23 日_
 >
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を通じて Campaign に接続している場合、**2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign サーバーとクライアントコンソールの両方が Campaign に接続できるようにするには、アップグレードする必要があります。[詳細情報](../../technotes/using/ims-updates.md)
 >
-> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
+> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 
 
 * 接続プロトコルは、新しい IMS 認証メカニズムに従うように更新されました。
@@ -607,7 +608,7 @@ _2020 年 2 月 17 日_
 
 * Linux では、nlserver サービスの起動時に、/etc/init.d/nlserver6 スクリプトの代わりに systemd ユニットが使用されるようになりました。新しいスタートアップスキームへの移行は、20.1 パッケージのインストール時に自動的に実行されます。/etc/init.d/nlserver6 は引き続き提供されますが、nlserver サービスとのインタラクション（開始、再起動、停止など）には、systemctl コマンドを直接使用することをお勧めします。
 
-* 最も多く使用されるカスタムテーブルは、**xtkNewId** シーケンスから専用のシーケンスに移動されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* 最も多く使用されるカスタムテーブルは、**xtkNewId** シーケンスから専用のシーケンスに移動されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
 
 * 不要なデータベース接続の影響を受ける可能性があるクエリのパフォーマンスを向上しました。
 

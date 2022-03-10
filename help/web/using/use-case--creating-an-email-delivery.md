@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: ユースケース — E メール配信の作成
-description: ユースケース — E メール配信の作成
+title: ユースケース - メール配信の作成
+description: ユースケース - メール配信の作成
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# ユースケース：E メール配信の作成{#use-case-creating-an-email-delivery}
+# ユースケース：メール配信の作成{#use-case-creating-an-email-delivery}
 
 ![](../../assets/common.svg)
 

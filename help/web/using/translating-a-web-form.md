@@ -5,7 +5,7 @@ description: web フォームの翻訳
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: レポートでのコンテキストの使用方法を学ぶ
 feature: Reporting
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
 ht-degree: 100%
 

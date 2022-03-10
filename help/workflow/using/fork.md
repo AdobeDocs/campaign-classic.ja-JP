@@ -5,7 +5,7 @@ description: 分岐ワークフローアクティビティの詳細を説明し�
 feature: Workflows
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
 ht-degree: 100%
 

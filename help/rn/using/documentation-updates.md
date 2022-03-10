@@ -31,7 +31,7 @@ ht-degree: 99%
 
 アドレスを強制隔離に送信する方法と強制隔離リストからアドレスを削除する方法に関する節が更新されました。[詳細情報](../../delivery/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-同じワークフローで複数の停止リクエストを実行しないことをお勧めするワークフローのベストプラクティスが追加されました。 [詳細情報](../../workflow/using/workflow-best-practices.md)
+同じワークフローで複数の停止リクエストを実行しないことをお勧めするワークフローのベストプラクティスが追加されました。[詳細情報](../../workflow/using/workflow-best-practices.md)
 
 キャンペーン内での繰り返し配信の実行を停止する方法に関する情報を追加しました。 [詳細情報](../../workflow/using/recurring-delivery.md)
 

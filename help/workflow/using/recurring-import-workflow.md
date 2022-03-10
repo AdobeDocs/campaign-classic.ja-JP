@@ -5,7 +5,7 @@ description: 繰り返し発生するインポートのワークフローテン�
 feature: Workflows, Data Management
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1136'
 ht-degree: 100%
 

@@ -4,10 +4,10 @@ title: 繰り返し配信
 description: 繰り返し配信ワークフローアクティビティの詳細を説明します
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
+source-git-commit: 6f0479cfe6c6801eb44fcc7a35bdac1241ec3be6
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 100%
+source-wordcount: '280'
+ht-degree: 82%
 
 ---
 
@@ -39,9 +39,12 @@ ht-degree: 100%
 
 ![繰り返し配信](assets/delivery_recurring.jpg)
 
+繰り返し配信の実行を停止する場合は、キャンペーンを完全にキャンセルするか、キャンペーンの実行ワークフローを停止する必要があります。 キャンペーンダッシュボードから配信を停止すると、配信の発生は停止されます。繰り返し配信の次のインスタンスは、ワークフローの実行のたびに作成され続けます。
+
 >[!NOTE]
 >
->「**[!UICONTROL 繰り返し配信]**」タイプアクティビティから配達確認を送信することはできません。\
+>「**[!UICONTROL 繰り返し配信]**」タイプアクティビティから配達確認を送信することはできません。
+> 
 >キャンペーンワークフロー経由で配信を直接作成するには、事前設定されたチャネル固有のアクティビティを使用します（「**[!UICONTROL E メール配信]**」など）。
 
 ## チュートリアルビデオ（#recurring-delivery-video）

@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: Web フォームページの順番の定義
-description: Web フォームページの順番の定義
+title: web フォームページの順番の定義
+description: web フォームページの順番の定義
 feature: Web Forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Web フォームページの順番の定義{#defining-web-forms-page-sequencing}
+# web フォームページの順番の定義{#defining-web-forms-page-sequencing}
 
 ![](../../assets/common.svg)
 

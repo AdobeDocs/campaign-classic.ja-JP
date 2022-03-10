@@ -5,7 +5,7 @@ description: データ更新の調整
 feature: Workflows, Data Management
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '303'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >「isRunning」は、この例のために選択したインスタンス変数名です。これは、組み込み変数ではありません。
+   >「isRunning」は、この例のために選択したインスタンス変数名です。これは、ビルトイン変数ではありません。
 
    ![](assets/uc_dataupdate_test.png)
 

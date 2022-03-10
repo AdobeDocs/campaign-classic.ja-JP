@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Web アプリケーションへの訪問のトラッキング
-description: Web アプリケーションへの訪問のトラッキング
+title: web アプリケーションへの訪問のトラッキング
+description: web アプリケーションへの訪問のトラッキング
 feature: Web Apps
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
 ht-degree: 100%
 

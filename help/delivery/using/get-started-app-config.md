@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: 'Adobe Campaign で モバイルアプリケーションを設定 '
+title: 'Adobe Campaign でのモバイルアプリケーションの設定 '
 description: モバイルアプリケーション設定の開始方法を説明します。
 feature: Push
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
 ht-degree: 100%
 
@@ -37,7 +37,8 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作が必�
 
 >[!CAUTION]
 >
->キャンペーン組み込みパッケージ、ベストプラクティス、推奨事項について詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+>Campaign のビルトインパッケージ、ベストプラクティス、推奨事項について詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+
 
 インストール手順は次のとおりです。
 

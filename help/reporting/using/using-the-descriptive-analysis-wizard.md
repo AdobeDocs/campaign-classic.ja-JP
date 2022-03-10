@@ -5,7 +5,7 @@ description: 記述的分析ウィザードの使用
 feature: Reporting
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1644'
 ht-degree: 100%
 

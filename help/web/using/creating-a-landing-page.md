@@ -5,7 +5,7 @@ description: ランディングページの作成
 feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
 ht-degree: 100%
 

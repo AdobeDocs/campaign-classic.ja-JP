@@ -5,7 +5,7 @@ description: データ読み込み（ファイル）ワークフローアクテ�
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1161'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: レポートのリスト
 feature: Reporting
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1007'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 配信に関するレポート {#reports-on-deliveries}
 
-以下の表に、Adobe Campaign によって提供される組み込みレポートを示します。
+以下の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
 これらのレポートの内容について詳しくは、[この節](../../reporting/using/delivery-reports.md)を参照してください。
 
@@ -120,7 +120,7 @@ ht-degree: 100%
 
 キャンペーンに関するレポートは **nms:operation** テーブル内のデータに関係します。
 
-以下の表に、Adobe Campaign によって提供される組み込みレポートを示します。
+以下の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
 これらのレポートの内容について詳しくは、[この節](../../campaign/using/designing-marketing-campaigns.md)を参照してください。
 
@@ -181,7 +181,7 @@ ht-degree: 100%
 
 サービスに関するレポートは **nms:service** テーブル内のデータに関係します。
 
-以下の表に、Adobe Campaign によって提供される組み込みレポートを示します。
+以下の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
 これらのレポートの内容について詳しくは、関連するガイドを参照してください。
 
@@ -216,7 +216,7 @@ ht-degree: 100%
 
 ## 予算レポート {#budget-reports}
 
-以下の表に、Adobe Campaign によって提供される組み込みレポートを示します。
+以下の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
 これらのレポートの内容について詳しくは、[この節](../../campaign/using/designing-marketing-campaigns.md)を参照してください。
 
@@ -274,7 +274,7 @@ ht-degree: 100%
 
 シミュレーションに関するレポートは **nms:simulation** テーブル内のデータに関係します。
 
-以下の表に、Adobe Campaign によって提供される組み込みレポートを示します。
+以下の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
 これらのレポートの内容について詳しくは、関連するガイドを参照してください。
 
@@ -311,7 +311,7 @@ ht-degree: 100%
 
 Web アプリケーションに関するレポートは **nms:WebApp** テーブル内のデータに関係します。
 
-以下の表に、Adobe Campaign によって提供される組み込みレポートを示します。
+以下の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
 これらのレポートの内容について詳しくは、[この節](../../web/using/about-web-applications.md)を参照してください。
 
@@ -338,7 +338,7 @@ Web アプリケーションに関するレポートは **nms:WebApp** テーブ
 
 ## その他の標準レポート {#other-ootb-reports}
 
-次の組み込みレポートも用意されています。詳しくは、それぞれが関係する機能についてのドキュメントを参照してください。
+次のビルトインレポートも用意されています。詳しくは、それぞれが関係する機能についてのドキュメントを参照してください。
 
 <table> 
  <tbody> 

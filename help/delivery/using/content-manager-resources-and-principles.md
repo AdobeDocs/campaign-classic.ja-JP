@@ -5,7 +5,7 @@ description: コンテンツマネージャーのリソースと原則
 feature: Templates
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
 ht-degree: 100%
 

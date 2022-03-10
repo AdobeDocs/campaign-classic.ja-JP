@@ -5,7 +5,7 @@ description: 「開始および終了」ワークフローアクティビティ�
 feature: Workflows
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 

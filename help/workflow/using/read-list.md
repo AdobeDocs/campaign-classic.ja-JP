@@ -5,7 +5,7 @@ description: リスト読み込みワークフローアクティビティの詳�
 feature: Workflows, Targeting Activity
 exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
 ht-degree: 100%
 

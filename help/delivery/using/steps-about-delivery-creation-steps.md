@@ -5,7 +5,7 @@ description: Adobe Campaign Classic の配信作成の主な手順を確認
 feature: Channel Configuration
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
 ht-degree: 100%
 

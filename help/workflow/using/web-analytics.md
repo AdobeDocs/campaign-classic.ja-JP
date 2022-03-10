@@ -4,7 +4,7 @@ title: Web 分析
 description: Web 分析パッケージの詳細を説明します
 feature: Workflows, Analytics Integration
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
 ht-degree: 100%
 

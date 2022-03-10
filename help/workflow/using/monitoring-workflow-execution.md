@@ -5,7 +5,7 @@ description: ワークフロー実行の監視
 feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2098'
 ht-degree: 100%
 
@@ -205,7 +205,7 @@ Adobe Campaign エクスプローラーでは、デフォルトでワークフ�
 
 >[!NOTE]
 >
->**isRunning** は、この例のために選択した変数名です。これは、組み込み変数ではありません。
+>**isRunning** は、この例のために選択した変数名です。これは、ビルトイン変数ではありません。
 
 **はい**&#x200B;分岐の&#x200B;**[!UICONTROL テスト]**&#x200B;の直後のアクティビティの&#x200B;**初期化スクリプト**&#x200B;にインスタンス変数を設定する必要があります。
 

@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: 8794464d6fcc8ab648cd6866266855a701538fde
+source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '889'
 ht-degree: 3%
 
 ---
@@ -110,9 +110,17 @@ aptitude install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
 
 Redhat で、次のコマンドを使用します。
 
-```
-yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
-```
+* CentOS/RHEL 7 の場合：
+
+   ```
+   yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
+   ```
+
+* RHEL 8 の場合：
+
+   ```
+   dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
+   ```
 
 ### 日本語インスタンス用のフォント {#fonts-for-japanese-instances}
 
@@ -126,9 +134,17 @@ aptitude install fonts-ipafont
 
 Red Hat で、次のコマンドを追加します。
 
-```
-yum install ipa-gothic-fonts ipa-mincho-fonts
-```
+* RHEL 7 の場合：
+
+   ```
+   yum install ipa-gothic-fonts ipa-mincho-fonts
+   ```
+
+* RHEL 8 の場合：
+
+   ```
+   dnf install vlgothic-fonts
+   ```
 
 ### Debian 用 LibreOffice のインストール {#installing-libreoffice-for-debian}
 
@@ -150,17 +166,9 @@ Debian の場合、次の設定が必要です。
 
 CentOS では、次の設定が必要です。
 
-1. 次の標準パッケージをインストールします。
-
-   ```
-   yum install libreoffice-headless libreoffice-writer libreoffice-calc
-   ```
-
-1. 次のフォントをインストールします（オプションですが、日本語インスタンスの場合は強く推奨します）。
-
-   ```
-   yum install ipa-gothic-fonts ipa-mincho-fonts
-   ```
+```
+yum install libreoffice-headless libreoffice-writer libreoffice-calc
+```
 
 ## データベースアクセスレイヤー {#database-access-layers}
 

@@ -6,9 +6,9 @@ audience: social
 content-type: reference
 topic-tags: configuration
 exl-id: 5c11bd0f-2df7-4c7f-b682-955fedf8e664
-source-git-commit: b5334de18eca8fc1147ae0c42fe23a6932bf71d2
+source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '994'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Campaign ソーシャルマーケティングモジュールでは、web アプ�
 
 設定手順は次のとおりです。
 
-1. 1 つまたは複数の Facebook アプリケーションを作成します。[詳細情報](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application)
+1. 1 つまたは複数の Facebook アプリケーションを作成します。
 1. Facebook 権限リクエスト画面に表示される「**[!UICONTROL 利用規約]**」リンクと「**[!UICONTROL プライバシーポリシー]**」リンクを入力します。[詳細情報](#entering-the-terms-of-service-and-privacy-policy-links)
 1. Facebook アプリケーションごとに、**[!UICONTROL Facebook Connect]** タイプの外部アカウントを作成します。[詳細情報](#configuring-external-accounts)
 1. Facebook アプリケーションごとに、Adobe Campaign で Facebook タイプの web アプリケーションを作成します。[詳細情報](#creating-a-facebook-type-web-application)

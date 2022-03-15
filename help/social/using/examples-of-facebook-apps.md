@@ -6,9 +6,9 @@ audience: social
 content-type: reference
 topic-tags: annexes
 exl-id: 3b8c7db4-9c55-42f6-8e09-e5ab781efe8f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
 workflow-type: tm+mt
-source-wordcount: '2382'
+source-wordcount: '2372'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 このアプリケーションを作成するには、以下の手順に従います。
 
-1. Facebook でアプリケーションを作成します（[https://developers.facebook.com/apps](https://developers.facebook.com/apps)）。詳しくは、[Facebook アプリケーションの作成](../../social/using/publishing-on-facebook-walls.md#creating-a-facebook-application)を参照してください。
+1. Facebook でアプリケーションを作成します（[https://developers.facebook.com/apps](https://developers.facebook.com/apps)）。
 
    ![](assets/social_create_facebook_app_002.png)
 

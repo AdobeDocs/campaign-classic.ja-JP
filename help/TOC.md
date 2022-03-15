@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
+source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
 workflow-type: tm+mt
-source-wordcount: '2555'
-ht-degree: 100%
+source-wordcount: '2548'
+ht-degree: 99%
 
 ---
 
@@ -585,14 +585,12 @@ ht-degree: 100%
    + [ソーシャルマーケティングについて](social/using/about-social-marketing.md)
    + 設定 {#configuration}
       + [ワークフローの開始](social/using/starting-workflows.md)
-      + [Facebook ウォールでの公開](social/using/publishing-on-facebook-walls.md)
       + [Facebook アプリケーションの作成](social/using/creating-a-facebook-application.md)
       + [Twitter での公開の設定](social/using/configuring-publishing-on-twitter.md)
-   + ソーシャルメディアでの公開 {#publishing-on-facebook-twitter}
-      + [ソーシャルメディアの基本を学ぶ](social/using/overview.md)
-      + [Facebook での公開](social/using/publishing-on-facebook.md)
+   + Twitter での公開 {#publishing-on-facebook-twitter}
+      + [twitterの基本を学ぶ](social/using/overview.md)
       + [Twitter での公開](social/using/publishing-on-twitter.md)
-   + 付録 {#annexes}
+   + facebook連絡先の取得 {#annexes}
       + [Facebook アプリの例](social/using/examples-of-facebook-apps.md)
       + [トラッキング](social/using/tracking.md)
 + インストールおよび設定ガイド {#installing-campaign-classic}
@@ -638,7 +636,7 @@ ht-degree: 100%
       + [インスタンスの作成とログオン](installation/using/creating-an-instance-and-logging-on.md)
       + [データベースの作成と設定](installation/using/creating-and-configuring-the-database.md)
       + [インスタンスのデプロイ](installation/using/deploying-an-instance.md)
-      + [組み込みパッケージのインストール](installation/using/installing-campaign-standard-packages.md)
+      + [ビルトインパッケージのインストール](installation/using/installing-campaign-standard-packages.md)
    + Campaign の設定 {#additional-configurations}
       + [Campaign サーバーの設定](installation/using/configuring-campaign-server.md)
       + [セキュリティゾーンの定義](installation/using/security-zones.md)

@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 60fc0fd2a10f05abb77843ef0cb69e44f35a9648
-workflow-type: ht
-source-wordcount: '270'
-ht-degree: 100%
+source-git-commit: 62f19239ac3b3ea909e26d6424338213b4d91479
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 78%
 
 ---
 
@@ -18,17 +18,15 @@ ht-degree: 100%
 
 * **[2022年リリースプログラム](technotes/using/dc-migration.md)**<br/> 環境をアップグレードし、セキュリティ、インフラストラクチャ、パフォーマンスを向上
 
-* **[1 月リリースを公開](rn/using/latest-release.md)**<br/> 新機能、改善点および修正点をリリースノートでご確認ください
+* **[3 月のリリースが有効です。](rn/using/latest-release.md)**<br/> リリースノートの新機能、改善点、修正点を確認する
 
 * **[Apple のメールプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ja)** および&#x200B;**[テクニカルノート](technotes/using/apple-mail-app-privacy-protection.md)**<br/>：iOS 15 に関する Apple の発表に対応したガイダンスをご覧ください。
-
-* **[IMS／Adobe ID で接続している場合は、最新ビルドへのアップグレードが必要 ](technotes/using/ims-updates.md)**<br/>IMS で Campaign に接続している場合、** 2021 年 6 月 30 日（PT）**以降も、Campaign に接続できるようにするにはアップグレードが必要です
 
 * **[誤ったハードバウンスの削除](delivery/using/update-bounce-qualification.md)**<br/> Apple のサービスが停止した後に誤ったハードバウンスを更新する方法を説明します
 
 * **[Campaign インスタンスのセキュリティ保護](technotes/using/acc-config-updates.md)**<br/>最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します
 
-* **[Adobe Experience Cloud Triggers 統合の更新](integrations/using/configuring-adobe-io.md)**<br/>レガシー OAuth 認証サービスが提供終了になりました。Adobe I/O に移行する必要があります。
+* **[Adobe Experience Cloud Triggers統合の更新](integrations/using/configuring-adobe-io.md)**<br/> 従来の oAuth 認証サービスが提供終了になりました：Adobe I/O
 
 [その他の更新](rn/using/documentation-updates.md)
 
@@ -85,6 +83,6 @@ ht-degree: 100%
 | [リリースノート](rn/using/latest-release.md) | [エラーメッセージのリスト](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja) |
 | [ビデオガイド、チュートリアル](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
 | [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja) |
-| [アップグレードの概要](rn/using/rn-overview.md) | [トラッキングガイド](https://helpx.adobe.com/jp/campaign/kb/acc-tracking.html) |
-| [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md) | [セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html) |
+| [アップグレードの概要](rn/using/rn-overview.md) | [トラッキングガイド](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html) |
+| [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md) | [セキュリティおよびプライバシーチェックリスト](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/get-started-security-privacy.html) |
 | [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) | [監視のガイドライン](production/using/monitoring-guidelines.md) |

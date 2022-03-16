@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: e4cd327d1495987e7d32bd1b903c8fe5de2813f2
+source-git-commit: e3ff5bb55e108c163dcf395da84076201f09e61c
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1283'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 99%
 ## ![](assets/do-not-localize/green_2.png) リリース 7.2.2 - ビルド 9349 {#release-7-2-2}
 
 _2022年3月1日（PT）_
+
+>[!NOTE]
+>
+> このビルドは v7.2.1 クライアントコンソールと互換性があります。
 
 **パッチ**
 
@@ -37,6 +41,7 @@ _2022年3月1日（PT）_
 * 同時に 1000 を超える broadlog がある場合に、配信品質ワークフローを更新するとエラーが発生する問題を修正しました。（NEO-40276）
 * 開封率とクリック率の配信指標が自動的に更新されない問題を修正しました。（NEO-43253）
 
+
 ## ![](assets/do-not-localize/limited_2.png) リリース 7.2.1 - ビルド 9346 {#release-7-2-1}
 
 _2022年1月10日（PT）_
@@ -51,7 +56,7 @@ FDA アカウントのセキュリティがいくつか改善されました。
 
 **互換性の更新**
 
-Adobe Campaign は現在、Windows Server 2019 に対応しています。詳しくは、 [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md#OperatingSystems).
+Adobe Campaign は現在、Windows Server 2019 と互換性があります。[Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md#OperatingSystems)を参照してください。
 
 **改善点**
 

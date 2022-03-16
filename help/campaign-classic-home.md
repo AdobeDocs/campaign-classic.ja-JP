@@ -5,8 +5,8 @@ title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 62f19239ac3b3ea909e26d6424338213b4d91479
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

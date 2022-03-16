@@ -1,20 +1,20 @@
 ---
 product: campaign
-title: 要素と属性
+title: 要素と属性 — 計算文字列要素
 description: 計算文字列要素
 exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 9%
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 
-# 計算文字列要素 {#compute-string--element}
+# compute-string element {#compute-string--element}
 
 ![](../../../assets/v7-only.svg)
 
-## コンテンツモデル {#content-model-1}
+## Content model {#content-model-1}
 
 compute-string:==EMPTY
 
@@ -34,7 +34,7 @@ compute-string:==EMPTY
 
 この `<compute-string>` element を使用すると、XTK 式に基づいて文字列を生成し、複数の値に基づいてインターフェイスに「built」ラベルを表示できます。
 
-## 使用と使用のコンテキスト {#use-and-context-of-use-1}
+## Use and context of use {#use-and-context-of-use-1}
 
 いいえの場合 `<compute-string>` が定義されている場合、 `<compute-string>` 要素は、デフォルトで、スキーマのプライマリキーの値を使用して入力されます。
 

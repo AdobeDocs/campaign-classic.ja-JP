@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: スキーマ要素と属性
+title: スキーマ要素と属性 — メソッド要素
 description: メソッド要素
 exl-id: 0fb74318-fe09-473c-8e33-1f3afd66b4cc
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---

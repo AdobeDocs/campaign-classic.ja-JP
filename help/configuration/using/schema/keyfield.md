@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: スキーマ要素と属性
+title: スキーマ要素と属性 — キーフィールド要素
 description: キーフィールド要素
 exl-id: fb0862f9-5dcc-49f2-b99b-9822aaf3a680
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 ![](../../../assets/v7-only.svg)
 
-## コンテンツモデル {#content-model-9}
+## Content model {#content-model-9}
 
 keyfield:==EMPTY
 
@@ -37,12 +37,12 @@ keyfield:==EMPTY
 
 ## 属性の説明 {#attribute-description-9}
 
-* **xlink (MNTOKEN)**:では、リレーションテーブル（N-N リンク）の結合で定義された外部キーを自動的に参照できます。
-* **xpath (MNTOKEN)**:インデックスまたはキーの定義 `<attribute>`  要素。 この属性は、キーまたはインデックスを定義する schema 属性へのパスを定義する Xpath を受け取ります。
+* **xlink (MNTOKEN)**: lets you automatically reference foreign keys defined in the join for a relation table (N-N link).
+* **xpath (MNTOKEN)**: definition of an index or a key on an `<attribute>`  element. This attribute receives an Xpath which defines the path to the schema attribute that defines the key or the index.
 
 ## 例 {#examples-}
 
-「@name」の Xpath を持つインデックス内の「sName」フィールドの選択：
+Selection of the &quot;sName&quot; field in an index with an Xpath on &quot;@name&quot;:
 
 ```
 <keyfield xpath="@name"/>

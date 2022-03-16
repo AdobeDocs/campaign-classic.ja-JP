@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: データスキーマ
-description: データスキーマ
+title: Campaign でのデータスキーマの使用
+description: Campaign でのデータスキーマの使用方法を説明します。
 feature: Data Model
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
-source-wordcount: '546'
-ht-degree: 100%
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+workflow-type: tm+mt
+source-wordcount: '558'
+ht-degree: 96%
 
 ---
 
-# データスキーマ{#data-schemas}
+# Campaign でのデータスキーマの使用{#data-schemas}
 
 ![](../../assets/common.svg)
 

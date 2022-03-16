@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: 一般的なアーキテクチャ
-description: Campaign Classic のインストールおよび設定方法について説明します。
+title: Campaign Classicの一般的なアーキテクチャ
+description: インストールと設定のCampaign Classic
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
 exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 51%
+source-wordcount: '1342'
+ht-degree: 50%
 
 ---
 

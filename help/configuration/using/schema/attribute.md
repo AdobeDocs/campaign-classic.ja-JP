@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: 要素と属性
+title: 要素と属性 — 属性要素
 description: 要素と属性
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1555'
 ht-degree: 1%
 
 ---
@@ -53,13 +53,13 @@ _operation （文字列）、advanced (boolean)、 applicableIf （文字列）�
 
    * &quot;none&quot;:紐付けのみ。 つまり、Adobe Campaignは、更新せずに要素を復元します。要素が存在しない場合は、エラーを生成します。
    * &quot;insertOrUpdate&quot;:挿入で更新。 つまり、Adobe Campaignは要素を更新します。要素が存在しない場合は作成します。
-   * &quot;insert&quot;:挿入。 つまり、Adobe Campaignは、要素が存在するかどうかを確認せずに要素を挿入します。
-   * &quot;update&quot;:更新。 つまり、Adobe Campaignは要素を更新します。要素が存在しない場合は、エラーを生成します。
+   * &quot;insert&quot;:挿入。 This means that Adobe Campaign will insert the element without checking whether it exists.
+   * &quot;update&quot;:更新。 This means that Adobe Campaign will update the element or generate an error if it doesn&#39;t exist.
    * &quot;delete&quot;:削除します。 つまり、Adobe Campaignは要素を復元および削除します。
 
 * **advanced (boolean)**:このオプションを有効にすると (@advanced=&quot;true&quot;)、フォーム内のリストを設定するためにアクセス可能なフィールドのリストの属性を非表示にできます。
-* **applicableIf（文字列）**:この属性を使用すると、フィールドをオプションにできます。 この `<attribute>` 制約に準拠する場合、要素は、データベースを更新する際に考慮されます。 「applicableIf」は XTK 式を受け取ります。
-* **autoIncrement（ブール値）**:このオプションを有効にすると、フィールドがカウンターになります。 これにより、値を増分できます（ほとんどの場合、ID）。 （外部使用）
+* **applicableIf (string)**: this attribute lets you make fields optional. The `<attribute>` element will be taken into account when updating the database when the constraint is complied with. &quot;applicableIf&quot; receives an XTK expression.
+* **autoIncrement (boolean)**: if this option is activated, the field becomes a counter. This enables you to increment a value (mostly IDs). (external use)
 * **belongsTo（文字列）**:は、フィールドを共有するテーブルの名前と名前空間を取得し、属性が宣言されているスキーマを入力します。 ( `<schema>`) をクリックします。
 * **dataPolicy （文字列）**:「SQL」フィールドまたは「XML」フィールドで許可される値に対して承認制約を指定できます。 この属性の値は次のとおりです。
 
@@ -120,11 +120,11 @@ _operation （文字列）、advanced (boolean)、 applicableIf （文字列）�
 * **必須（ブール値）**:この属性が有効化されている場合 (@required=&quot;true&quot;)、インターフェイスでフィールドがハイライト表示されます。 フィールドのラベルは、フォームでは赤で表示されます。
 * **sql（ブール値）**:この属性が有効になっている場合 (@sql=&quot;true&quot;)、属性を含む要素に xml=&quot;true&quot;プロパティが含まれている場合でも、SQL 属性の保存が強制されます。
 * **sqlDefault（文字列）**:この属性を使用すると、@notNull属性が有効化されている場合に、データベースの更新に使用するデフォルト値を定義できます。 属性の作成後にこの属性を追加した場合、新しいレコードでもスキーマの動作は変更されません。 スキーマを変更し、新しいレコードの値を更新するには、属性を削除して、もう一度作成する必要があります。
-* **sqlname （文字列）**:」フィールドの値を指定します。 @sqlnameを指定しない場合、デフォルトでは「@name」属性の値が使用されます。 スキーマがデータベースに書き込まれると、フィールドのタイプに応じて、プレフィックスが自動的に追加されます。
+* **sqlname （文字列）**:」フィールドの値を指定します。 @sqlnameを指定しない場合、デフォルトでは「@name」属性の値が使用されます。 When the schema is written in the database, prefixes are added automatically depending on the type of field.
 * **template （文字列）**:この属性は、 `<attribute>` 複数のスキーマで共有される要素。 定義は、現在のスキーマに自動的にコピーされます。
-* **translatedDefault (string)**:「@default」属性が見つかった場合、「@translatedDefault」を使用して、翻訳ツール（内部使用）で収集される式を再定義し、@defaultで定義された式に一致させることができます。
+* **translatedDefault (string)**: if a &quot;@default&quot; attribute is found, the &quot;@translatedDefault&quot; will enable you to redefine an expression to match the one defined in @default, to be collected by the translation tool (internal use).
 * **translatedExpr (string)**:「@expr」属性が存在する場合、「@translatedExpr」属性を使用して、翻訳ツール（内部使用）で収集される式を再定義し、@exprで定義された式に一致させることができます。
-* **型 (MNTOKEN)**:フィールドタイプ。
+* **type (MNTOKEN)**: field type.
 
    フィールドタイプは汎用です。 Adobe Campaignでは、インストールされているデータベースの種類に応じて、定義されているタイプを、構造の更新時にインストールされたデータベースに固有の値に変更します。
 
@@ -133,7 +133,7 @@ _operation （文字列）、advanced (boolean)、 applicableIf （文字列）�
    * いずれか
    * bin
    * blob
-   * ブール型
+   * ブール値
    * バイト
    * CDATA
    * 日時
@@ -145,7 +145,7 @@ _operation （文字列）、advanced (boolean)、 applicableIf （文字列）�
    * float
    * html
    * int64
-   * リンク
+   * link
    * 長い
    * メモ
    * MNTOKEN

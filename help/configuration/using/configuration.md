@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: 設定
-description: 設定
+title: Campaign エクスプローラーのナビゲーションツリーを設定
+description: Campaign エクスプローラーのナビゲーションツリーの設定方法を説明します
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1217'
 ht-degree: 2%
 
 ---

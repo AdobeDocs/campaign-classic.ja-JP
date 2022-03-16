@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: よくある質問
-description: Campaign Classic に関する FAQ
+title: 開発者向け FAQ
+description: 開発者向け FAQ
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: a5f6478d3c0780464974053e389923614abba582
+source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## Campaign データモデルとは何ですか？ {#what-is-the-campaign-data-model}
 
-Adobe Campaign データベースの概念データモデルは、一連の組み込みテーブルとそのインタラクションで構成されます。アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。スキーマと呼ばれる Adobe Campaign 特有の文法に従います。Adobe Campaign スキーマについて詳しくは、[この節](../../configuration/using/about-schema-edition.md)を参照してください。
+Adobe Campaign データベースの概念データモデルは、一連のビルトインテーブルとそのインタラクションで構成されます。アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。スキーマと呼ばれる Adobe Campaign 特有の文法に従います。Adobe Campaign スキーマについて詳しくは、[この節](../../configuration/using/about-schema-edition.md)を参照してください。
 
 Campaign データモデルについて詳しくは、[ここをクリック](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html)してください。
 

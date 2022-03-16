@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: 統合の設定
-description: 統合の設定
+title: パイプラインオプション NmsPipeline_Config
+description: パイプラインオプション NmsPipeline_Config
 audience: integrations
 content-type: reference
-source-git-commit: c6d5e597a02a1210507b0c6d84ab7d170e877eb1
+source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '379'
 ht-degree: 100%
 
 ---

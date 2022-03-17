@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: 2fd845ba5e9ced87cef7fd101579ffa4f177f367
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1676'
 ht-degree: 100%
 
@@ -116,11 +116,11 @@ _2020 年 4 月 29 日_
 
 ビルド（9032@3a9dc9c）には、以下の修正が含まれています。
 
-* E メール内のリンクの追跡に関するセキュリティを改善。これは、あらゆる顧客に対してデフォルトで有効です。さらに、強化されたセキュリティ機能が利用できます。この機能はカスタマーケアにご連絡いただくと有効にできます。これを非ホスト型顧客が有効にするための手順と機能の詳細については、[セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
+* E メール内のリンクの追跡に関するセキュリティを改善。これは、あらゆる顧客に対してデフォルトで有効です。さらに、強化されたセキュリティ機能が利用できます。この機能はカスタマーケアにご連絡いただくと有効にできます。これを非ホスト型顧客が有効にするための手順と機能の詳細については、[セキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
 
 >[!CAUTION]
 >
->トラッキングリンクを使用したプッシュ通知、またはアンカータグを使用した配信で問題が発生した場合は、トラッキングリンク用の新しい署名メカニズムを無効にすることをお勧めします。手順について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
+>トラッキングリンクを使用したプッシュ通知、またはアンカータグを使用した配信で問題が発生した場合は、トラッキングリンク用の新しい署名メカニズムを無効にすることをお勧めします。手順について詳しくは、[このページ](https://helpx.adobe.com/campaign/kb/acc-security.html#signature-mechanism)を参照してください。
 
 * LINE 配信に画像が表示されない可能性がある問題を修正しました。（NEO-23207）
 * SFTP キーに基づく認証が Debian 9 で動作しない&#x200B;**ファイル転送**&#x200B;アクティビティの問題を修正しました。（NEO-23183）
@@ -316,7 +316,7 @@ _2019 年 8 月 13 日_
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016</p>
+<p>2016 年</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
 <p>警告：Linux で Campaign サーバーを実行している場合、Microsoft SQL Server はプライマリデータベースとしてサポートされません。</p>
@@ -391,10 +391,10 @@ _2019 年 8 月 13 日_
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019</p>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
+<p>2019 年</p>
+<p>2017 年</p>
+<p>2016 年</p>
+<p>2014 年</p>
 <p>2012 SP1 および SP2</p>
 </td>
 </tr>
@@ -452,8 +452,8 @@ _2019 年 8 月 13 日_
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2016</p>
-<p>2012</p>
+<p>2016 年</p>
+<p>2012 年</p>
 </td>
 </tr>
 <tr>

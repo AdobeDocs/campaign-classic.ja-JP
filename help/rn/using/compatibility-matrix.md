@@ -63,7 +63,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2019 年（7.2.1 リリース以降）</p>
+<p>2019（7.2.1 リリース以降）</p>
 <p>2016</p>
 <p>2012 R2</p>
 <p>2012</p>
@@ -332,7 +332,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2019 年（7.2.1 リリース以降）</p>
+<p>2019（7.2.1 リリース以降）</p>
 <p>2016 年</p>
 <p>2012 年</p>
 </td>

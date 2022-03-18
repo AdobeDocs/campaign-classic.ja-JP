@@ -4,8 +4,8 @@ title: Campaign での SMS の作成
 description: Campaign で SMS を作成する方法について説明します
 feature: SMS
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+source-git-commit: 29e56d6bf2817eeb863cbe33f99233a8241f2bf5
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 

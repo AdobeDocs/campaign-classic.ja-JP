@@ -5,9 +5,9 @@ description: 配信の設定と送信の方法を説明します
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1652'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 94%
    >
    >配信が重複した場合はパラメーターがリセットされます。
 
-* **[!UICONTROL 複数のウェーブを使用して送信]**:このオプションを使用して、オーディエンス全体に対してではなく、メッセージをウェーブで送信します。 バッチの数とその比率を設定します。 [詳細情報](#sending-using-multiple-waves)。
+* **[!UICONTROL 複数のウェーブを使用して送信]**：このオプションを使用して、オーディエンス全体に対してではなく、メッセージをウェーブで送信します。 バッチの数とその比率を設定します。 [詳細情報](#sending-using-multiple-waves)。
 
-* **[!UICONTROL SMTP 配信をテスト]**:SMTP を使用した送信をテストするには、このオプションを使用します。 配信は、SMTP サーバーに接続するまで処理されますが、送信されません。配信のすべての受信者について、Campaign は SMTP プロバイダーサーバーに接続し、SMTP RCPT TO コマンドを実行して、SMTP DATA コマンドの前に接続を閉じます。
+* **[!UICONTROL SMTP 配信をテスト]**：このオプションを使用して、SMTP 経由での送信をテストします。 配信は SMTP サーバーに接続するまで処理されますが、送信はされません。配信のすべての受信者について、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
 
    >[!NOTE]
    >
    >* ミッドソーシングでは、このオプションは推奨されません。
    >
-   >* SMTP サーバー設定の詳細については、 [この節](../../installation/using/configure-delivery-settings.md).
+   >* SMTP サーバー設定の詳細については、[この節](../../installation/using/configure-delivery-settings.md)を参照してください。
 
 
 * **[!UICONTROL BCC で E メールを送信]**：このオプションを使用すると、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存することができます。詳しくは、[この節](sending-messages.md#archiving-emails)を参照してください。

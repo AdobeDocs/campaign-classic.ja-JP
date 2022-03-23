@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign では、豊富な顧客データを使�
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2548'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -588,9 +588,9 @@ ht-degree: 99%
       + [Facebook アプリケーションの作成](social/using/creating-a-facebook-application.md)
       + [Twitter での公開の設定](social/using/configuring-publishing-on-twitter.md)
    + Twitter での公開 {#publishing-on-facebook-twitter}
-      + [twitterの基本を学ぶ](social/using/overview.md)
+      + [Twitter の基本を学ぶ](social/using/overview.md)
       + [Twitter での公開](social/using/publishing-on-twitter.md)
-   + facebook連絡先の取得 {#annexes}
+   + Facebook 連絡先の獲得 {#annexes}
       + [Facebook アプリの例](social/using/examples-of-facebook-apps.md)
       + [トラッキング](social/using/tracking.md)
 + インストールおよび設定ガイド {#installing-campaign-classic}

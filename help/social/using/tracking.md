@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: annexes
 exl-id: 83883ba3-e4dc-428c-a377-1986cfd1fe55
 source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '76'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 67%
 
 ![](../../assets/v7-only.svg)
 
-ソーシャルマーケティングは、FacebookおよびTwitterチャネルの反応率を測定し、Facebookのプロファイルの獲得を分析できるレポートを提供します。 次のレポートを使用できます。
+ソーシャルマーケティングでは、Facebook および Twitter のチャネルの反応率を測定したり、Facebook プロファイルの獲得を分析したりできるレポートを提供します。次のレポートを使用できます。
 
 * **[!UICONTROL 反応率]**&#x200B;レポート（Facebook または Twitter 配信の「**[!UICONTROL 概要]**」タブから利用可能）。
 

@@ -7,22 +7,22 @@ content-type: reference
 topic-tags: publishing-on-facebook-twitter
 exl-id: 263e5ffe-9302-4823-a814-fdc955e3f90a
 source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
-# twitterの基本を学ぶ{#overview}
+# Twitter の基本を学ぶ{#overview}
 
 ![](../../assets/v7-only.svg)
 
-ソーシャルマーケティングでは、受信者のプロファイルとは対照的に、様々なTwitterアカウントに配信を送信できます。 Twitter では、配信コンテンツはツイートの形式をとり、アカウントフォロワーのホームページに表示されます。また、自分のフォロワーに、ダイレクトメッセージを送信することもできます。
+ソーシャルマーケティングでは、受信者のプロファイルとは対照的に、様々な Twitter アカウントに配信を届けることができます。Twitter では、配信コンテンツはツイートの形式をとり、アカウントフォロワーのホームページに表示されます。また、自分のフォロワーに、ダイレクトメッセージを送信することもできます。
 
 >[!CAUTION]
 >
->Adobe Campaignでは、メッセージ配信に関するTwitterからのサービス利用条件に従うように求められます。
+>Adobe Campaign はお客様に対し、メッセージ配信に関する Twitter によるコミュニケーションでのサービス利用条件に従うようお願いします。
 >
->パブリケーションを送信する前に、[この節](../../social/using/starting-workflows.md)で説明されている設定手順に従う必要があります。
+>パブリケーションを送信する前に、[この節](../../social/using/starting-workflows.md)で説明されている設定手順に従ってください。
 
-この節では、Twitter配信に関する要素について説明します。 E メールの配信と同じすべての要素については、[この節](../../delivery/using/about-email-channel.md)を参照してください。
+この節では、Twitter 配信に関する要素について説明します。メールの配信と同じすべての要素については、[この節](../../delivery/using/about-email-channel.md)を参照してください。

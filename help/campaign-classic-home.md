@@ -4,9 +4,9 @@ product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 62f19239ac3b3ea909e26d6424338213b4d91479
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '243'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * **[2022年リリースプログラム](technotes/using/dc-migration.md)**<br/> 環境をアップグレードし、セキュリティ、インフラストラクチャ、パフォーマンスを向上
 
-* **[3 月のリリースが有効です。](rn/using/latest-release.md)**<br/> リリースノートの新機能、改善点、修正点を確認する
+* **[3月リリースが公開されました。](rn/using/latest-release.md)**<br/> 新機能、改善点および修正点をリリースノートでご確認ください
 
 * **[Apple のメールプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ja)** および&#x200B;**[テクニカルノート](technotes/using/apple-mail-app-privacy-protection.md)**<br/>：iOS 15 に関する Apple の発表に対応したガイダンスをご覧ください。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * **[Campaign インスタンスのセキュリティ保護](technotes/using/acc-config-updates.md)**<br/>最新のビルドに更新して、Campaign プラットフォームをセキュリティで保護します
 
-* **[Adobe Experience Cloud Triggers統合の更新](integrations/using/configuring-adobe-io.md)**<br/> 従来の oAuth 認証サービスが提供終了になりました：Adobe I/O
+* **[Adobe Experience Cloud Triggers 統合の更新](integrations/using/configuring-adobe-io.md)**<br/>レガシー OAuth 認証サービスが提供終了になりました。Adobe I/O に移行してください。
 
 [その他の更新](rn/using/documentation-updates.md)
 
@@ -83,6 +83,6 @@ ht-degree: 0%
 | [リリースノート](rn/using/latest-release.md) | [エラーメッセージのリスト](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja) |
 | [ビデオガイド、チュートリアル](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
 | [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja) |
-| [アップグレードの概要](rn/using/rn-overview.md) | [トラッキングガイド](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html) |
-| [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md) | [セキュリティおよびプライバシーチェックリスト](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/get-started-security-privacy.html) |
+| [アップグレードの概要](rn/using/rn-overview.md) | [トラッキングガイド](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html?lang=ja) |
+| [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md) | [セキュリティおよびプライバシーチェックリスト](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/get-started-security-privacy.html?lang=ja) |
 | [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) | [監視のガイドライン](production/using/monitoring-guidelines.md) |

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 4fe661cf6a0fef8126fd24a68b1021760a5d0bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4955'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 97%
 ## 2022
 
 
-### 2022 年 3 月 {#mar-2022}
+### 2022年3月 {#mar-2022}
 
-詳細な説明を **[!UICONTROL SMTP 配信をテスト]** オプション。 [詳細情報](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
+「**[!UICONTROL SMTP 配信をテスト]**」オプションの詳細な説明を追加しました。[詳細情報](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
 
-Campaign コンソールのアップグレードガイドラインを明確にするために、アップグレードの手引きページが更新されました。 [詳細情報](../../rn/using/rn-overview.md)
+「アップグレードの基本を学ぶ」ページが更新され、Campaign コンソールのアップグレードガイドラインが明確になりました。[詳細情報](../../rn/using/rn-overview.md)
 
-新しい Campaign v7.2.2 ビルドが使用できるようになりました。 [詳細情報](../../rn/using/latest-release.md)
+新しい Campaign v7.2.2 ビルドが利用できるようになりました。 [詳細情報](../../rn/using/latest-release.md)
 
 
 ### 2022年2月 {#february-2022}
@@ -69,7 +69,7 @@ CRM コネクタアクティビティに「バッチ更新」オプションを�
 
 ### 2021年12月{#dec-2021}
 
-Campaign Classicv7 リリースノートが再編成され、ナビゲーションが簡単になりました。 [詳細情報](rn-overview.md)
+Campaign Classic v7 リリースノートが再編成され、ナビゲーションを簡素化されました。[詳細情報](rn-overview.md)
 
 Campaign のフォーム編集に関するドキュメントが更新および改善されました。[詳細情報](../../configuration/using/editing-forms.md)
 
@@ -122,9 +122,9 @@ Adobe Experience Manager 6.4 以降は Campaign と AEM Assets の統合が廃�
 [Campaign 21.1.3 リリース](../../rn/using/latest-release.md#release-21-1-3-build-9330)が一般提供（GA）に移行しました。
 
 
-### 2021 年 6 月 {#june-2021}
+### 2021年6月 {#june-2021}
 
-この **トランザクションメッセージ** の節が再編成され、新しい「はじめに」の節 ( [拡張スキーマ](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle) を参照してください。 [詳細を読む](../../message-center/using/about-transactional-messaging.md)
+**トランザクションメッセージ**&#x200B;の節を編成し直して、新しく「はじめに」の節を明確にしました。この節では、プロセスをより深く理解できるよう、[拡張スキーマ](../../message-center/using/about-transactional-messaging.md#transactional-messaging-operating-principle)についても説明しています。[詳細を読む](../../message-center/using/about-transactional-messaging.md)
 
 **21.1.3 リリースに伴うドキュメントのアップデート**
 
@@ -156,7 +156,7 @@ ISP の停止後にバウンスの選定を更新する方法を学ぶための�
 
 ### 2021 年 3 月 {#march-2021}
 
-[「SMS の基本を学ぶ」セクション](../../delivery/using/sms-channel.md)の構成を変更し、改善しました。次に、 [SMS チャネルの設定](../../delivery/using/sms-set-up.md), [SMS の作成](../../delivery/using/sms-create.md), [SMS の送信とトラッキング](../../delivery/using/sms-send.md) （該当するセクション）
+[「SMS の基本を学ぶ」の節](../../delivery/using/sms-channel.md)を再編成し、改善しました。[SMS チャネルの設定方法](../../delivery/using/sms-set-up.md)、[SMS の作成方法](../../delivery/using/sms-create.md)、[SMS の送信方法および追跡方法](../../delivery/using/sms-send.md)を、専用の節で学習できます。
 
 Campaign Classic 用の「ヘルプとサポートのオプション」ページが、コアドキュメントに統合されました。 [詳細情報](../../support.md)
 
@@ -344,7 +344,7 @@ FTP サーバーに接続した後に「ホスト名を解決できませんで�
 * クエリでのインスタンス変数の呼び出し
 * 母集団に対する分割率の適用
 
-この **[!UICONTROL AND 結合]** 「 」アクティビティの節に、変数の使用に関する情報と注意事項が追加されました。 [詳細情報](../../workflow/using/and-join.md)
+**[!UICONTROL AND 結合]**&#x200B;アクティビティの節に、変数の使用に関する情報と注意事項が追加されました。[詳細情報](../../workflow/using/and-join.md)
 
 ### 2020 年 7 月 {#july-2020}
 
@@ -472,7 +472,7 @@ Hadoop FDA コネクタの機能強化 - [詳細を表示](../../installation/us
 
 インストールガイドを更新し、互換性マトリックスの最新バージョンと同期しました。新しいサポート対象システムが追加されました。非推奨（廃止予定）およびサポート対象外のシステムに関する記載が削除されました。[詳細を表示](../../installation/using/general-architecture.md)
 
-互換性マトリックスを更新し、Hadoop 3.0 および Snowflake の FDA コネクタを追加しました。[詳細を表示](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+互換性マトリックスを更新し、Hadoop 3.0 および Snowflake の FDA コネクタを追加しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
 IP アフィニティのベストプラクティスがインストールガイドに追加されました。[詳細を表示](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
@@ -490,7 +490,7 @@ URL レポート設定の新しいパラメーターは、[こちら](../../repo
 
 「**Campaign Classic オンプレミスとホスト機能マトリックス**」ページが更新され、新しい FDA コネクタが追加されました。[詳細を表示](../../installation/using/capability-matrix.md)。
 
-**Campaign Classic 機能マトリックス**&#x200B;ページを更新しました。[詳細を表示](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+**Campaign Classic 機能マトリックス**&#x200B;ページを更新しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
 新しい **[!UICONTROL Nmsaddress のクリーンアップ]**&#x200B;ワークフローの情報は、[ここ](../../production/using/database-cleanup-workflow.md#cleanup-of-nmsaddress)に記載されています。
 
@@ -542,7 +542,7 @@ AMP を使用したインタラクティブコンテンツ - [詳細を表示](.
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-Adobe Campaign Enhanced MTA のドキュメントが入手できるようになりました。[詳細を表示](https://helpx.adobe.com/campaign/kb/acc-campaign-enhanced-mta.html)
+Adobe Campaign Enhanced MTA のドキュメントが入手できるようになりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html)
 
 キャンペーン内で「開始準備中」の状態に留まるワークフローをトラブルシュートする方法について、新しい節が追加されました。[詳細を表示](../../production/using/workflow-execution.md#start-as-soon-as-possible-in-campaigns)
 
@@ -604,7 +604,7 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 **19.1 リリースに含まれる新機能**
 
-コントロールパネル - [詳細を表示](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+コントロールパネル - [詳細を表示](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
 
 監査記録 - [詳細を表示](../../production/using/audit-trail.md)
 
@@ -612,7 +612,7 @@ Adobe Campaign Classic のトラッキングに関する一般的なガイドラ
 
 ビルドアップグレードに関する新しい FAQ が作成されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/build-upgrade-faq.html)
 
-[互換性マトリックス](compatibility-matrix.md)が更新されました。サポートされるデータベースシステム、Android/iOSのバージョンおよび関連する SDK のリストが更新されました。 19.0 互換性マトリックスがアーカイブされました。
+[互換性マトリックス](compatibility-matrix.md)が更新されました。サポートされるデータベースシステム、Android／iOS のバージョン、および関連する SDK のリストが更新されました。19.0 互換性マトリックスがアーカイブされました。
 
 「Campaign Classic の非推奨（廃止予定）および削除された機能」ページが更新されました。[詳細を表示](deprecated-features.md)
 
@@ -626,9 +626,9 @@ Campaign サーバーのアンインストール手順を説明する節が追�
 
 前処理ワークフローオプションの説明が更新され、製品の変更が反映されました。[詳細を表示](../../workflow/using/data-loading--file-.md)
 
-Experience Cloudトリガーのテクニカルノートが更新されました。 [詳細を表示](../../integrations/using/about-triggers.md)
+Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](../../integrations/using/about-triggers.md)
 
-エラーメッセージのリストが更新されました。[詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
+エラーメッセージのリストが更新されました。[詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja)
 
 トランザクションメッセージングの SOAP 認証方法に関する詳細が追加されました。[詳細を表示](../../message-center/using/event-description.md)
 
@@ -667,7 +667,7 @@ Analytics Connector の節を更新し、インターフェイスの変更を反
 共有オーディエンスの統合に関するドキュメントが更新されました。
 [詳細を表示](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-[SMS コネクタのプロトコルと設定](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)および[シーケンスの自動生成](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)のテクニカルノートが更新されました。
+[SMS コネクタのプロトコルと設定](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)および[シーケンスの自動生成](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)のテクニカルノートが更新されました。
 
 テクニカルワークフローの節が更新されました。[詳細を表示](../../workflow/using/about-technical-workflows.md)
 
@@ -681,7 +681,7 @@ Teradata 外部アカウントの Query Banding に関する情報が追加さ�
 
 ### 2019 年 1 月{#release-doc-16-01-2019}
 
-Experience Cloudトリガーのテクニカルノートが更新されました。 [詳細を表示](../../integrations/using/about-triggers.md)
+Experience Cloud Triggers のテクニカルノートが更新されました。[詳細を表示](../../integrations/using/about-triggers.md)
 
 オファーの承認の節に注意事項を追加し、「承認コンテンツ」の表示は、すべてのオファーが有効化または承認されているかどうかに関わらず、コンテンツ承認プロセスが達成されたことを示すことを明確にしました。[詳細を表示](../../interaction/using/offer-catalog-overview.md)
 

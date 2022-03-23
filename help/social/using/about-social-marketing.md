@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: introduction
 exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
 source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '126'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 79%
 
 **新しい連絡先の獲得**
 
-Adobe Campaign Social Marketing を使用すると、Facebookを通じて新しい連絡先を簡単に取得できます。ユーザーに連絡し、自分のプロファイル情報を共有したいかどうかを尋ねます。 ユーザーが同意した場合、Adobe Campaign はデータを自動的に回収します。これにより、キャンペーンのターゲティングを実行し、可能であればクロスチャネル戦略を導入できます。
+Adobe Campaign ソーシャルマーケティングでは、Facebook を使用して新しい連絡先を簡単に獲得できます。ユーザーに連絡してプロファイル情報を共有したいかどうかを尋ねるのです。ユーザーが同意した場合、Adobe Campaign はデータを自動的に回収します。これにより、キャンペーンのターゲティングを実行し、可能であればクロスチャネル戦略を導入できます。
 
 >[!IMPORTANT]
 >

@@ -4,20 +4,20 @@ title: Chrome Firefox および Edge ブラウザーでの Campaign Web コン�
 description: Chrome、Firefox および Edge ブラウザーでの Campaign Web コンポーネントおよびバージョン 100
 hide: true
 hidefromtoc: true
-source-git-commit: 48c9aab4f7e5f1f204a003a4d53f8d975247b867
+source-git-commit: 8b790141342f85769aa6c9663c2e9a34b504e2c5
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # 3 桁のブラウザーバージョンが Campaign の Web コンポーネントに与える影響 {#version-100}
 
-Google、Mozilla は、Chrome と Firefox が、今後の 3 桁のバージョンにより一部の Web サイトを停止する可能性があることを警告しています。
+Googleと Mozilla は、Chrome と Firefox が、今後の 3 桁のバージョンにより一部の Web サイトを停止する可能性があることを警告しています。
 
 Chrome v100 はでのリリース用に設定されています。 **2022 年 3 月 30 日**、および Firefox v100 以降 **2022 年 5 月 4 日**.
 
-Microsoft Edge は、2022 年 3 月にバージョン 100 をリリースしました。
+Microsoftは、2022 年 3 月に Edge v100 をリリースしました。
 
 バージョン番号を 2 桁から 3 桁に変更すると、この変更に対して準備されていない Web サイトを訪問する際に、問題が発生する場合があります。 一部の Web ページは、新しいバージョンのブラウザーで正しく表示されなくなる場合があります。
 

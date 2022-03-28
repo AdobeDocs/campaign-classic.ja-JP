@@ -4,8 +4,8 @@ title: Adobe Campaign Classic におけるメールコンテンツの定義
 description: Adobe Campaign Classic を使用する際にメールコンテンツを定義する方法について説明します。
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+source-git-commit: f5bd8c1806440b47225130070e166d90d99dcc75
+workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 メッセージの内容は、配信設定ウィンドウの下部のセクションで定義します。
 
-デフォルトのメッセージ送信形式としては、受信者の環境設定に応じて HTML またはテキストのいずれかが使用されます。様々なメールシステム上でメッセージが正しく表示されるように、必ず両方の形式でコンテンツを作成することをお勧めします。詳しくは、[メッセージ形式の選択](#selecting-message-formats)を参照してください。
+デフォルトのメッセージ送信形式としては、受信者の環境設定に応じて HTML またはテキストのいずれかが使用されます。様々なメールシステム上でメッセージが正しく表示されるように、必ず両方の形式でコンテンツを作成することをお勧めします。詳しくは、[メッセージ形式の選択](email-parameters.md#selecting-message-formats)を参照してください。
 
 * HTML コンテンツをインポートするには、「**[!UICONTROL 開く]**」ボタンを使用します。「**[!UICONTROL ソース]**」サブタブに直接ソースコードを貼り付けることもできます。
 

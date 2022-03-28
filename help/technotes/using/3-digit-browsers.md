@@ -2,11 +2,10 @@
 product: campaign
 title: Chrome Firefox および Edge ブラウザーでの Campaign Web コンポーネントおよびバージョン 100
 description: Chrome、Firefox および Edge ブラウザーでの Campaign Web コンポーネントおよびバージョン 100
-hide: true
-hidefromtoc: true
-source-git-commit: 8b790141342f85769aa6c9663c2e9a34b504e2c5
+exl-id: 2016279a-7b02-4399-b2ed-9a15456de816
+source-git-commit: b8329e24f07ec8b3dd89f655b47699f130266008
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ Adobeでは、Web フォームや調査を含む Campaign Web アプリケーシ
 
 この推奨事項は、すべての Web アプリケーション（特に JavaScript コードが含まれている場合）に適用されます。
 
-すべてのブラウザー、モバイルおよびデスクトップで、両方をオンにする必要があります。
+すべてのブラウザー、モバイルおよびデスクトップでを確認する必要があります。
 
 ## テスト方法は？{#version-100-test}
 

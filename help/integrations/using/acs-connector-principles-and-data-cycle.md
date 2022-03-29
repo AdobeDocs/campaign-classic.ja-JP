@@ -4,10 +4,10 @@ title: ACS コネクタの概要
 description: ACS コネクタの原則とデータサイクル
 feature: ACS Connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: ht
-source-wordcount: '2041'
-ht-degree: 100%
+source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+workflow-type: tm+mt
+source-wordcount: '2094'
+ht-degree: 97%
 
 ---
 
@@ -147,6 +147,11 @@ ACS コネクタに関連するすべての技術要素は、エクスプロー�
 * **[!UICONTROL `[ACS] New replication`]**（newReplication）：この増分ワークフローは、カスタムテーブルのレプリケートに使用できる例です。[高度な実装](#advanced-implementation)を参照してください。
 * **[!UICONTROL `[ACS] Delivery-message replication`]**（newDlvMsgQualification）：この増分ワークフローは、配信メッセージを Campaign Standard から Campaign v7 にレプリケートします。
 * **[!UICONTROL `[ACS] Profile delivery log replication`]**（newRcpDeliveryLogReplication）：この増分ワークフローは、配信 ID、E メール配信ログおよび E メールトラッキングログを Campaign Standard から Campaign v7 にレプリケートします。ここでは、Campaign Standard から Campaign v7 の nms:recipients テーブルの一部であるプロファイルに送信された配信のみが考慮されます。
+
+   >[!NOTE]
+   >
+   > Campaign ClassicインスタンスとCampaign Standardインスタンスの両方を使用してトラッキングされる URL で E メールを送信する場合、同期中に URL tagIds の重複に関する問題が発生する可能性があります。 この問題が発生しないようにするには、 **トラッキング URL を更新** (writerTrackingUrls) アクティビティを参照し、ソース式@tagIdに「ACS」プレフィックスを追加します。
+
 * **[!UICONTROL `[ACS] New delivery log replication`]**（newRcpDeliveryLogReplication）：この増分ワークフローは、配信 ID、E メール配信ログおよび E メールトラッキングログを Campaign Standard から Campaign v7 にレプリケートします。ここでは、Campaign Standard から Campaign v7 の（nms:recipient 以外の定義する）特定のテーブルの一部であるプロファイルに送信された配信のみが考慮されます。
 
 ### デフォルトの受信者フィールド {#default-recipient-fields}

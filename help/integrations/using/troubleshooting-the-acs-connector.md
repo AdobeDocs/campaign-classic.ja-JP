@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+workflow-type: tm+mt
+source-wordcount: '901'
+ht-degree: 90%
 
 ---
 
@@ -112,3 +112,11 @@ ht-degree: 100%
 * **Campaign Standard で、プロファイル、オーディエンスまたはランディングページキャンペーンを編集できません。これはどういう意味ですか。**
 
    Campaign v7 から同期したリソースは、データ整合性を確保するために、Campaign Standard では読み取り専用モードになります。これらの要素のいずれかを編集する必要がある場合は、Campaign v7 で編集してから Campaign Standard で変更をレプリケートできます。
+
+* **エラーは [ACS] プロファイル配信ログのレプリケーションワークフロー。 どうすればよいですか？**
+
+   Campaign ClassicインスタンスとCampaign Standardインスタンスの両方を使用してトラッキングされる URL で E メールを送信する場合、同期中に URL tagIds の重複に関する問題が発生する可能性があります。 この場合、 **[ACS] プロファイル配信ログのレプリケーション** (newRcpDeliveryLogReplication) ワークフローは、次のエラーで失敗します。
+
+   ```PGS-220000 PostgreSQL error: ERROR: duplicate key value violates unique constraint "nmstrackingurl_tagid" DETAIL: Key (stagid) = (1c7bdec2) already exists.```
+
+   問題を解決し、再び発生しないようにするには、 **トラッキング URL を更新** (writerTrackingUrls) アクティビティを参照し、ソース式@tagIdに「ACS」プレフィックスを追加します。

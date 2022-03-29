@@ -1,5 +1,4 @@
 ---
-solution: Campaign Classic
 product: campaign
 title: Adobe Analytics Connectorプロビジョニング
 description: Adobe Analytics Connectorの詳細 プロビジョニング
@@ -7,8 +6,8 @@ feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
-workflow-type: ht
+source-git-commit: cb434747d2bee5d24dcaa1141100c269eea313ad
+workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 100%
 
@@ -158,5 +157,4 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
    ```
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
-
 これで、Analytics コネクタの使用を開始し、顧客の行動をトラッキングできます。

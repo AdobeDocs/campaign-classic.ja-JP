@@ -157,4 +157,5 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
    ```
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
+
 これで、Analytics コネクタの使用を開始し、顧客の行動をトラッキングできます。

@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
-workflow-type: ht
-source-wordcount: '522'
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+workflow-type: tm+mt
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ Adobe Campaign データベースの概念データモデルは、一連のビ�
 
 Campaign データモデルについて詳しくは、[ここをクリック](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html)してください。
 
-ベストプラクティスについては、[この記事](https://helpx.adobe.com/jp/campaign/kb/acc-data-model-best-practices.html)を参照してください。
+ベストプラクティスについては、[この記事](../../configuration/using/data-model-best-practices.md)を参照してください。
 
 ## Campaign スキーマの操作方法は？ {#how-to-work-with-campaign-schemas-}
 

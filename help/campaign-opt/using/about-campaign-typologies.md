@@ -4,9 +4,9 @@ title: キャンペーンタイポロジについて
 description: キャンペーンタイポロジについて
 feature: Typology Rules
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
-source-wordcount: '497'
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+workflow-type: tm+mt
+source-wordcount: '482'
 ht-degree: 100%
 
 ---
@@ -79,8 +79,6 @@ Adobe Campaign では、次の 4 種類のタイポロジルールをデザイ�
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 
 **関連トピック**
-
-* [任意のチャネルの配信に対する自動ビジネスルールの適用](https://helpx.adobe.com/jp/campaign/kb/simplifying-campaign-management-acc.html#Applyautomaticbusinessrulestodeliveriesonanychannel)
 
 * [タイポロジと疲労管理の概要](pressure-rules.md)
 

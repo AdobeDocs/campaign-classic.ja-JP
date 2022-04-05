@@ -4,9 +4,9 @@ title: データモデルのベストプラクティス
 description: Campaign Classicデータモデルの操作方法
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '4024'
+source-wordcount: '4005'
 ht-degree: 54%
 
 ---
@@ -148,9 +148,7 @@ Adobe Campaignのプライマリキーは、すべての標準テーブルの自
 
 デフォルトでは、カスタムシーケンスの値は+1,000 ～ +2.1BB になります。 技術的には、負の ID を有効にすることで、4BB のフルレンジを取得できます。 これは慎重に使用する必要があり、負の数から正の数に渡すと 1 つの ID が失われます。通常、生成された SQL クエリでは、レコード 0 はAdobe Campaignで無視されます。
 
-**関連トピック：**
-* 詳しくは、 **シーケンスの自動生成** 機能： [このドキュメント](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html).
-* シーケンスが枯渇した場合の詳細は、 [このビデオ](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+シーケンスが枯渇した場合の詳細は、 [このビデオ](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## インデックス {#indexes}
 
@@ -327,5 +325,3 @@ PostgreSQL では、行が 8 KB を超えないようにする必要がありま
 * この *製品* および *ストア* テーブルは小さくなります。1 万未満。
 * 製品ラベルと参照が *製品* 表。
 * この *トランザクション項目* テーブルには *製品* 表（数値）
-
-<!--For more detailed best practices on how to optimize the database design for larger volumes, see [Campaign Classic Data model Best practices](https://helpx.adobe.com/campaign/kb/acc-data-model-best-practices.html).-->

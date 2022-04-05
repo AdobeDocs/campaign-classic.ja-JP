@@ -5,9 +5,9 @@ description: Experience Manager ニュースレターの作成
 audience: integrations
 content-type: reference
 exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '349'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 100%
 ![](../../assets/common.svg)
 
 この統合を利用して、例えば、Adobe Experience Manager で作成したニュースレターを Adobe Campaign で E メールキャンペーンの一部として使用できます。
-
-この統合を利用する方法の詳細な例については、この[詳細な手順ガイド](https://helpx.adobe.com/jp/campaign/kb/acc-aem.html)を参照してください。
 
 **Adobe Experience Manager から：**
 

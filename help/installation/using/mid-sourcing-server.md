@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1051'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 1%
    詳しくは、[この節](../../installation/using/configuring-campaign-server.md#enabling-processes)を参照してください。
 
 * 手順 **6**, **9** および **10** 必要ありません。
-* ステップ中 **12** および **13**&#x200B;の場合は、接続 URL の 8080 ポートを指定する必要があります（コンソールは、Web サーバーを介せずに Tomcat と直接通信するので）。 URL はになります。 [http://console.campaign.net:8080](http://console.campaign.net). ステップ中 **13**&#x200B;を選択し、 **[!UICONTROL ミッドソーシングに関する問題]** パッケージと、インストールするパッケージ。
+* ステップ中 **12** および **13**&#x200B;の場合は、接続 URL の 8080 ポートを指定する必要があります（コンソールは、Web サーバーを介せずに Tomcat と直接通信するので）。 URL はになります。 `http://console.campaign.net:8080`. ステップ中 **13**&#x200B;を選択し、 **[!UICONTROL ミッドソーシングに関する問題]** パッケージと、インストールするパッケージ。
 
    ![](assets/s_ncs_install_midsourcing02.png)
 

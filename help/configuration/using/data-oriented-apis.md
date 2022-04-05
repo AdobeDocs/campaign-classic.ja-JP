@@ -4,9 +4,9 @@ title: データ指向の API
 description: データ指向の API
 feature: API
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '1885'
+source-wordcount: '1861'
 ht-degree: 1%
 
 ---
@@ -32,8 +32,6 @@ XML ドキュメントは、データベースの MEMO タイプのフィール�
 スクリプト内のデータベースのフィールドに対処できるように、Adobe Campaignデータモデルに関する知識が必要です。
 
 データモデルの表示については、 [Adobe Campaign Data Model の説明](../../configuration/using/data-model-description.md).
-
-構造を生成するには、次の記事を参照してください。 [データモデルまたはデータディクショナリの生成方法](https://helpx.adobe.com/campaign/kb/generate-data-model.html).
 
 ## クエリとライター {#query-and-writer}
 

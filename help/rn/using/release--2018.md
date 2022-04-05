@@ -3,9 +3,9 @@ product: campaign
 title: Campaign Classic 2018 リリース
 description: Campaign Classic 2018 リリースの詳細
 exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
-source-git-commit: 96f2ae67a5b47b80533e759713cf5b36baa8cf36
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '5452'
+source-wordcount: '5423'
 ht-degree: 100%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 100%
      <li> <p>iOS でのサイレント通知のトラッキング </p> </li> 
      <li> <p>iOS での登録呼び出しに関するフィードバックの実装</p> </li> 
      <li> <p>iOS 配信準備の時間の短縮</p> </li> 
-    </ul> <p>Google の GCM 廃止予定に伴い、Android V2 コネクタは FCM サーバーにのみ接続可能になりました。</p><p>詳しくは、<a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">詳細ドキュメント</a>を参照してください。FCM への手動アップグレードの詳細については、<a href="https://helpx.adobe.com/jp/campaign/kb/migrate-to-fcm.html">記事</a>で説明しています。 </p> </td> 
+    </ul> <p>Google の GCM 廃止予定に伴い、Android V2 コネクタは FCM サーバーにのみ接続可能になりました。</p><p>詳しくは、<a href="../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md">詳細ドキュメント</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> SQL データ管理アクティビティ<br /> </td> 
@@ -466,7 +466,7 @@ decryptPassword
 **強化点**
 
 * **LINE チャネル - アーキテクチャ機能強化**：Adobe Campaign のその他すべてのチャネルと同じように、LINE チャネルがすべてのデプロイメントタイプ（ホスト、ハイブリッド、オンプレミス）でサポートされるようになりました。
-* **シーケンス自動生成**：ID 生成メカニズムが強化され、オブジェクトが大量にあるキャンペーンインスタンスの存続期間が長くなりました。詳しくは、この[テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html)を参照してください。
+* **シーケンス自動生成**：ID 生成メカニズムが強化され、オブジェクトが大量にあるキャンペーンインスタンスの存続期間が長くなりました。
 
 **その他の変更**
 

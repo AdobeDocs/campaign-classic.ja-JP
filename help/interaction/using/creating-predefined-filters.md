@@ -6,9 +6,9 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 399e9468-bf70-425d-af0b-72c29636b513
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '102'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,3 @@ ht-degree: 100%
 1. 「**[!UICONTROL プレビュー]**」をクリックし、フィルターの適用結果を表示します。
 
    ![](assets/offer_filter_create_006.png)
-
-**関連トピック**
-
-* [頻繁に使用するクエリを編集可能な定義済みフィルターとして保存](https://helpx.adobe.com/jp/campaign/kb/simplifying-campaign-management-acc.html#Savefrequentlyusedqueriesaseditablepredefinedfilters)

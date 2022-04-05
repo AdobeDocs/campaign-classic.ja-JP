@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '598'
 ht-degree: 16%
 
 ---
@@ -41,7 +41,7 @@ Adobe Campaignコンソールを起動したら、ログインページにアク
 
 1. URL 経由で Adobe Campaign アプリケーションサーバーへの接続を指定します。 DNS、マシンのエイリアス、または IP アドレスを使用します。
 
-   例えば、[`https://<machine>.<domain>.com`](https://myserver.adobe.com) タイプの URL を使用できます。
+   例えば、`https://<machine>.<domain>.com` タイプの URL を使用できます。
 
    >[!CAUTION]
    >
@@ -61,7 +61,7 @@ Adobe Campaignコンソールを起動したら、ログインページにアク
 
    値のリストをコンマで区切って定義できます。
 
-   null ? および*文字をワイルドカードとして使用して、1 つまたは様々な文字（DNS、ポートなど）を置き換えることができます。 例えば、 **demo*** 値は「https://demo」と「https://demo:8080」と「https://demo2」と同様に機能します。
+   null ? および &#42; 文字をワイルドカードとして使用して、1 つまたは様々な文字（DNS、ポートなど）を置き換えることができます。 例えば、 **デモ&#42;** 値は「https://demo」と「https://demo:8080」と「https://demo2」と同様に機能します。
 
    使用する名前は DNS で定義する必要があります。 また、DNS 名と IP アドレスの間の通信を **c:/windows/system32/drivers/etc/hosts** Windows と **/etc/hosts** ファイルに含まれています。 したがって、選択したインスタンスに接続するには、この DNS 名を使用するように接続設定を変更する必要があります。
 

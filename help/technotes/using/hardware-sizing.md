@@ -3,7 +3,7 @@ product: campaign
 title: Campaign Classicv7 のハードウェアサイズの推奨事項
 description: Campaign Classicv7 のハードウェアサイズの推奨事項
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
-source-git-commit: ee296e0ce25570d1fe62238e505f978df17c1f24
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 1%
@@ -26,25 +26,25 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->完全にホストされたAdobe Campaignインスタンス (AdobeCloud Servicesにデプロイされる ) を使用している場合、このドキュメントの情報は適用されません。
+>The information in this document do not apply if you are using a fully hosted Adobe Campaign instance (deployed in Adobe Cloud Services).
 
-ソフトウェアの互換性については、 [互換性マトリックス](../../rn/using/compatibility-matrix.md).
+[](../../rn/using/compatibility-matrix.md)
 
 
-### シナリオ
+### Scenarios
 
-デプロイメント図とハードウェアのサイズに関する推奨事項は、次の 3 つの代表的なシナリオで提供されます。
+Deployment diagrams and hardware sizing recommendations are provided for three representative scenarios:
 
-1. [モデレートサイズ](#scenario-1)  — システム内の 500 万人のアクティブな受信者
-1. [大](#scenario-2)  — システム内のアクティブな受信者は 2,000 万人
+1. [](#scenario-1)
+1. [](#scenario-2)
 1. [大規模法人](#scenario-3) - 5,000 万人のアクティブな受信者、トランザクションメッセージ
 
 ### 前提
 
-このドキュメントでは、3 つのシナリオすべてについて、次のタイプの使用方法も想定しています。
+This document also assumes the following types of usage for all three scenarios:
 
-* 大規模な E メールキャンペーンは、アクティブな受信者の約 50%に週 2 回送信されます
-* ダイレクトメールは、システムの受信者ごとに 1 ヶ月に 1 回生成されます
+* Large email campaigns are sent twice a week, to approximately 50% of your active recipients
+* Direct mailings are generated once per month for each recipient in the system
 * SMS メッセージは、毎月、アクティブな受信者の約 10%に送信されます
 * 各受信者を定義するデータベーススキーマは、1 つの追加テーブルで拡張されています。このテーブルには、各受信者に対して約 200 バイトのデータが含まれています
 * Adobe Campaignインタラクションモジュールは、送信メールにオファーを追加するために使用されます
@@ -82,12 +82,12 @@ Adobeには、デプロイメント環境でAdobe Campaignサーバーに中継�
 
 推定ボリューム：
 
-| チャネル | ボリューム |
+| チャネル | 音量 |
 | ----------------------- | ----------------- |
 | アクティブな受信者 | 500 万 |
 | メール | 420 万/月 |
 | ダイレクトメール | 100 万/月 |
-| モバイル SMS | 100,000/月 |
+| Mobile SMS | 100,000/月 |
 | 1 日のピークメール量 | 500 |
 
 これらのボリュームでは、Adobe Campaignアプリケーションサーバーシステムのペアは、Adobe Campaignクライアントユーザーとワークフローの実行に対してすべての機能を提供します。 500 万人のアクティブな受信者とこの E メールボリュームの場合、アプリケーションサーバの負荷は CPU や I/O を集中的に消費しません。ストレスのほとんどはデータベースにあります。
@@ -112,26 +112,26 @@ DMZ の負荷分散トラフィックのリバースプロキシをAdobe Campaig
 
 データベースサーバのハードウェアの推奨事項は次のとおりです。
 
-**3Ghz+ 4 コア CPU、16-GB RAM、RAID 1 または 10、128GB SSD 以上**
+****
 
-メモリの予測値は、大規模なキャンペーン開始で約 500,000 人の受信者のフルキャッシュと、ワークフローの実行、トラッキングデータのインポート、その他の同時アクティビティのための RDBMS バッファー領域を想定しています。
+The memory estimate assumes full caching of approximately 500,000 recipients for a large campaign launch, plus RDBMS buffer space for executing workflows, importing tracking data, and other concurrent activities.
 
-Adobe Campaignのすべての技術データ（キャンペーン、トラッキング、作業用テーブルなど）を保存するためにデータベースで必要なディスク容量は、3 ヶ月の保持期間に基づいて約 35 GB であると推定されます。 トラッキングデータを 6 か月間保持する場合、データベースのサイズは約 40 GB に増加し、12 か月の保持ではデータベースのサイズが約 45 GB に増加します。 受信者データは、この環境で約 5 GB を消費します。
+It is estimated that the disk space required on the database to store all Adobe Campaign technical data (campaigns, tracking, working tables, and so on) is approximatively 35 GB based on a retention period of three months. If you choose to retain tracking data for 6 months, database size increases to approximatively 40 GB, and 12-month retention increases database size to approximatively 45 GB. Recipient data consumes about 5 GB for this environment.
 
 >[!CAUTION]
 >
->この見積もりには、追加の顧客データは含まれません。 追加の列または顧客データのテーブルをAdobe Campaignデータベースにレプリケートする場合は、その追加のディスク容量要件を見積もる必要があります。 アップロードされたセグメント/リストも、サイズ、頻度、保持期間に応じて、より多くのストレージが必要になります。
+>This estimate does not include any additional customer data. If you are planning to replicate additional columns or tables of customer data into the Adobe Campaign database, then you have to estimate the additional disk space requirement for it. Uploaded segments/lists also require more storage, depending on their size, frequency, and retention period.
 
-また、1 日に処理される情報の量が多いので、データベースサーバの IOPS が重要であると考えてください。 例えば、ピーク日に、合計 500,000 人の受信者をターゲットにしたキャンペーンをデプロイできます。 Adobe Campaignは、各キャンペーンを実行するために、約 1,200 万件のレコード（配信ログテーブル）を含むテーブルに、50 万件のレコードを挿入します。 キャンペーンのデプロイメント中に許容可能なパフォーマンスを提供するために、Adobeでは、このシナリオで最低 60,000 個の 4 KB のランダム読み取り/書き込み IOPS を推奨しています。
+また、1 日に処理される情報の量が多いので、データベースサーバの IOPS が重要であると考えてください。 For example, on a peak day, you can deploy campaigns targeting a total of 500,000 recipients. To execute each campaign, Adobe Campaign inserts 500,000 records into a table containing roughly 12 million records (the delivery log table). To provide acceptable performance during the campaign deployment, Adobe recommends a minimum of 60,000 4-KB Random read/write IOPS for this scenario.
 
 
-## シナリオ 2:大規模な導入{#scenario-2}
+## Scenario 2: Large-Size Deployment{#scenario-2}
 
 ![](assets/scenario-2.png)
 
-推定ボリューム：
+Estimated volume:
 
-| チャネル | ボリューム |
+| チャネル | 音量 |
 | ----------------------- | ----------------- |
 | アクティブな受信者 | 2,000 万 |
 | メール | 42 百万/月 |
@@ -167,7 +167,7 @@ Web サーバーは、システム内の 1,000 万人のアクティブな受信
 
 推定ボリューム：
 
-| チャネル | ボリューム |
+| チャネル | 音量 |
 | ----------------------- | ----------------- |
 | アクティブな受信者 | 5,000 万 |
 | メール | 1 億 8 百万/月 |
@@ -195,23 +195,23 @@ Web サーバーは、システム内の 1,000 万人のアクティブな受信
 
 アプリケーションサーバーは、Campaign コンソールユーザーとキャンペーンワークフローの実行を直接サポートします。 この機能は、高可用性を実現するために 2 台の同一サーバに導入され、NAS(Network-Attached Storage) ファイル・システムを共有してフェイルオーバーを可能にします。
 
-Web サーバーは、システム内の 1,000 万人のアクティブな受信者をサポートする Campaign Web アプリケーションをホストします。
+The Web servers host Campaign web applications supporting the 10-million active recipients in the system.
 
-参照： [シナリオ 1:適度なサイズのデプロイメント](#scenario-1) プロキシ、プリファレンスセンター/サブスクリプションの処理、ディスク容量の使用に関するコメントを追加しました。
+[](#scenario-1)
 
 ### データベース
 
-データベースサーバのハードウェアの推奨事項は次のとおりです。
+Hardware recommendations for the database server are as follows:
 
-**3Ghz+ 8 コア CPU、96-GB RAM、RAID 1 または 10、1.5TB SSD 以上**
+****
 
-メモリの予測値は、大規模なキャンペーン起動用に約 12,500,000 人の受信者のフルキャッシュと、ワークフローの実行、トラッキングデータのインポート、その他の同時アクティビティ用の RDBMS バッファー容量を想定しています。
+The memory estimate assumes full caching of approximately 12,500,000 recipients for a large campaign launch, plus RDBMS buffer space for executing workflows, importing tracking data, and other concurrent activities.
 
-すべてのAdobe Campaignの技術データ（キャンペーン、トラッキング、作業用テーブルなど）を格納するためにデータベースで必要なディスク容量は、3 か月の保持期間に基づいて約 700 GB であると推定されます。 トラッキングデータを 6 か月間保持する場合、データベースのサイズは約 1.2 TB に増加し、12 か月の保持ではデータベースのサイズが約 2 TB に増加します。 受信者データは、この環境で約 50 GB を消費します。
+すべてのAdobe Campaignの技術データ（キャンペーン、トラッキング、作業用テーブルなど）を格納するためにデータベースで必要なディスク容量は、3 か月の保持期間に基づいて約 700 GB であると推定されます。 If you choose to retain tracking data for 6 months, database size increases to about approximatively 1.2TB, and 12-month retention increases database size to approximatively 2TB. Recipient data consumes about 50 GB for this environment.
 
-## 前提条件の変更に関するガイドライン
+## Guidelines for Changing Assumptions
 
-これらのシナリオに対して行われた前提は、ハードウェアの推奨事項と導入アーキテクチャに大きな影響を与えます。 このセクションでは、様々な前提に関するガイドラインを説明します。 要件を満たす具体的な推奨事項については、Adobe Campaignコンサルティングチームにお問い合わせください。
+The assumptions made for these scenarios all have a significant impact on the hardware recommendations and deployment architecture. This section discusses guidelines around different assumptions. Contact the Adobe Campaign Consulting team for specific recommendations to meet your requirements.
 
 * **受信者数**
 アクティブな受信者には、ストレージ領域とデータベースバッファ領域の両方が必要なので、より多くの受信者は通常、データベースサーバー上でより多くのメモリと CPU 容量を必要とします。 受信者自身にとってストレージの増加は比較的小さいものの、E メールキャンペーン用に保持されるイベントトラッキングデータにとって重要な場合があります。
@@ -226,24 +226,21 @@ Web サーバーは、システム内の 1,000 万人のアクティブな受信
 E メールキャンペーンのサイズと同様に、SMS メッセージの量では、オンプレミスにある Campaign サーバーに大きな負荷がかかりません。読み込みは、主にクラウド上のAdobeCloud Messaging サーバーでおこなわれます。 E メールやダイレクトメールなどの SMS キャンペーンをセグメント化すると、マーケティングデータベースに大きな負荷がかかる可能性があります。 したがって、SMS キャンペーンの開始頻度とセグメント化の複雑さは、SMS メッセージの量よりも関連性が高くなります。
 
 * **データベーススキーマの複雑さ**
-各アクティブな受信者のデータ量には、ストレージ容量とデータベースバッファ容量の両方が必要なので、一般的に、より多くの受信者はデータベースサーバー上でより多くのメモリと CPU を必要とします。 複雑なスキーマでは、セグメント化用に結合するテーブルも多くなるので、セグメント化操作の実行時間が大幅に長くなり、データが複数のテーブルに分散される場合に、より多くのデータベース CPU とメモリが必要になります。
+各アクティブな受信者のデータ量には、ストレージ容量とデータベースバッファ容量の両方が必要なので、一般的に、より多くの受信者はデータベースサーバー上でより多くのメモリと CPU を必要とします。 Complex schemas also require more tables to be joined for segmentation, so segmentation operations can run much slower, and require more database CPU and memory when data is spread across multiple tables.
 
-   データベースサーバーのメモリは、データベースバッファプールが、すべての受信者データと、ワークフローを実行するための一時テーブルに加え、他のデータベース操作の余白を含む十分な大きさになることを確認して推定します。
+   Database server memory is estimated by ensuring that the database buffer pool can be large enough to contain all recipient data, plus temporary tables for running workflows, plus a margin for other database operations.
 
-* **アウトバウンドインタラクションの使用状況**
-バッチモードでのインタラクションのルールは、計算の複雑さをすべてデータベースに引き継ぐワークフローで評価されます。 データベースでの主な取り組みの要因は、1 回のエンジン呼び出し中に計算された適格なオファーの合計数です（ターゲットサイズ X、N 個のベストオファーを維持する前の受信者あたりの平均オファー数）。 データベースサーバの CPU 速度は、パフォーマンスの第 1 の要因です。
+* **** The main factor of effort on the database is the total number of eligible offers computed during one engine call (target size X average number of offers per recipient before keeping the N best offers). The database server CPU speed is the first factor of performance.
 
-* **インバウンドインタラクションまたは SOAP API の使用**
-インバウンドインタラクションルールとオファーはマーケティングデータベースで評価され、データベースサーバーリソース（特に CPU）が大量に必要となります。 インバウンドインタラクションまたは SOAP API を多く使用する場合は、実行中の Campaign ワークフローから作業負荷を分離するために、別々の Web サーバーが必要になります。
+* **** Heavy usage of inbound Interactions or SOAP APIs requires separate web servers to separate the work load from running Campaign workflows.
 
-* **トラッキングデータ保持期間**
-トラッキングデータの保持期間を 90 日以上に増やすと、データベースの容量が増え、新しいトラッキングデータを大きなテーブルに挿入するので、システムの速度が低下する可能性があります。 トラッキングデータは、90 日後にキャンペーンをセグメント化する場合は役に立たないので、保持期間を短くすることをお勧めします。
+* **** Tracking data is not useful for campaign segmentation after 90 days, so the shorter retention period is recommended.
 
-   受信者マーケティングエクスペリエンスの長期的な分析が必要な場合は、トラッキングデータをAdobe Analyticsまたは他の分析システムに移動する必要があります。
+   Tracking data should be moved into Adobe Analytics or another analytics system if you require long-term analysis of recipient marketing experience.
 
-## 仮想化
+## Virtualization
 
-すべての Campaign サーバは仮想化に適しています。 適切な可用性とパフォーマンスを確保するために、いくつかの問題に対処する必要があります。
+All Campaign servers are good candidates for virtualization. Several issues must be addressed to ensure appropriate availability and performance.
 
 * **フェイルオーバー設定**
 クラスタ化されたサーバ（負荷分散プロキシの下の冗長なアプリケーションサーバなど）は、ハードウェア障害が発生した場合に両方の VM が停止しないように、別のハードウェアにデプロイする必要があります。
@@ -252,7 +249,7 @@ E メールキャンペーンのサイズと同様に、SMS メッセージの�
 ストレージデバイスを失ってもデータが失われないように、推奨される RAID 構成は、データベースのセキュリティを維持する必要があります。
 
 * **I/O パフォーマンス**
-データベースストレージの推奨 IOPS 評価は考慮する必要があります。 Amazon EC2 などのクラウドサービスは、必要なパフォーマンスを提供しない場合があるので、慎重に評価する必要があります。 例えば、Amazon EC2 プロビジョニングされた SSD ボリュームの評価は、現在、それぞれ 20,000 IOPS です。 詳しくは、 [Amazonドキュメント](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html)したがって、4 ボリュームの RAID 構成は 80,000 IOPS と評価され、十分ではない可能性があります。
+データベースストレージの推奨 IOPS 評価は考慮する必要があります。 Amazon EC2 などのクラウドサービスは、必要なパフォーマンスを提供しない場合があるので、慎重に評価する必要があります。 例えば、Amazon EC2 プロビジョニングされた SSD ボリュームの評価は、現在、それぞれ 20,000 IOPS です。 詳しくは、 [Amazonドキュメント](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html)) の場合は、4 ボリュームの RAID 構成が 80,000 IOPS と評価されますが、これは十分ではない可能性があります。
 
 Adobeでは、Adobe Campaignの仮想化導入に関して、システムを実稼動環境に移行する前にパフォーマンステストを実施することを推奨しています。
 

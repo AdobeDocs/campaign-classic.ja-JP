@@ -3,9 +3,9 @@ product: campaign
 title: テクニカルノート - Adobe Campaign 設定の更新
 description: Adobe Campaign 設定の更新
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 0f31ee570ba6e763f48902e91c5d823ac297fc24
-workflow-type: ht
-source-wordcount: '1137'
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+workflow-type: tm+mt
+source-wordcount: '1125'
 ht-degree: 100%
 
 ---
@@ -140,7 +140,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../../integrations
 
 ホステッドサービスのお客様が新しいビルドにアップグレードした場合、お使いのインスタンスは既に HTTP/2 ベースの API に更新されています。
 
-オンプレミス／ハイブリッド環境のお客様は、設定を更新する必要があります。 [HTTP/2 への移行方法について説明します](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
+オンプレミス／ハイブリッド環境のお客様は、設定を更新する必要があります。 
 
 ### APNs ルート証明書の更新
 

@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '996'
 ht-degree: 25%
 
 ---
@@ -40,7 +40,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 1. Adobeは、直接デプロイできます。 コンソールを更新すると、ポップアップウィンドウで最新のクライアントコンソールバージョンをダウンロードするように求められます。
 
-1. からクライアントコンソールにダウンロードできます。 [ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+1. からクライアントコンソールにダウンロードできます。 [ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)
 
    **ユーザーが更新を完了するには、管理者アクセス権が必要です。 ユーザーに管理者権限がない場合、システム管理者はすべてのクライアントコンソールにデプロイする必要があります**
 
@@ -96,7 +96,7 @@ If **[!UICONTROL 今後この質問をしない]**  が選択されている場�
 
 1. Web ブラウザーを開き、次のアドレスからコンソールをダウンロードします。
 
-   [`https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`](https://myserver.adobe.com/nl/jsp/logon.jsp).
+   `https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`を参照してください。
 
 1. ID ウィンドウで、ログインとパスワードを入力します。
 

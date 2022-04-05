@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e2eb7e04-faaa-4df0-913d-471c291eeb03
-source-git-commit: c228f827e91f25ee3a837f7fe6549ae4e5714ba3
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '6628'
+source-wordcount: '6610'
 ht-degree: 100%
 
 ---
@@ -278,7 +278,7 @@ _2020 年 7 月 22 日_
 * iOS HTTP2 コネクタが強化されました（サードパーティのアップデートおよびエラー管理）。（NEO-25904、NEO-25903）
 * catalina.properties の jarsToSkip リストが更新され、使用されなくなった jar ファイル（iOS 通知）への参照が削除されました。
 * アップグレード後の配信の準備がブロックされる問題を修正しました。
-* [新しいシーケンス ID メカニズム](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)に切り替えた後、受信者テーブルを更新するすべての web アプリケーションは、アップグレード後に再公開されます。
+* 新しいシーケンス ID メカニズムに切り替えた後、受信者テーブルを更新するすべての web アプリケーションは、ポストアップグレード時に再公開されます。
 * 配信コンテンツの潜在的な XSS 脆弱性を修正しました。（NEO-17987、NEO-26073）
 
 ![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
@@ -608,7 +608,7 @@ _2020 年 2 月 17 日_
 
 * Linux では、nlserver サービスの起動時に、/etc/init.d/nlserver6 スクリプトの代わりに systemd ユニットが使用されるようになりました。新しいスタートアップスキームへの移行は、20.1 パッケージのインストール時に自動的に実行されます。/etc/init.d/nlserver6 は引き続き提供されますが、nlserver サービスとのインタラクション（開始、再起動、停止など）には、systemctl コマンドを直接使用することをお勧めします。
 
-* 最も多く使用されるカスタムテーブルは、**xtkNewId** シーケンスから専用のシーケンスに移動されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)
+* 最も多く使用されるカスタムテーブルは、**xtkNewId** シーケンスから専用のシーケンスに移動されました。
 
 * 不要なデータベース接続の影響を受ける可能性があるクエリのパフォーマンスを向上しました。
 

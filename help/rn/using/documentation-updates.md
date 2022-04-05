@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '4984'
+source-wordcount: '4915'
 ht-degree: 99%
 
 ---
@@ -296,9 +296,7 @@ Campaign オンプレミスモデル、ホストモデル、およびハイブ�
 
 「キャンペーンレポートの高度な機能」の節が強化され、カスタムレポートで URL パラメーターと変数を使用する方法の詳細が示されました。[詳細を表示](../../reporting/using/advanced-functionalities.md)
 
-レポートのプロパティページは、設定を容易にするために再編成され、強化されました。[詳細を表示](../../reporting/using/properties-of-the-report.md)
-
-レガシーバイナリプロトコルから HTTP/2 ベースの APN プロバイダー API に移行する方法の詳細に関する新しいテクニカルノートが作成されました。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/migrate-to-apns-http2.html)
+レポートのプロパティページは、設定を容易にするために再編成され、強化されました。[詳細情報](../../reporting/using/properties-of-the-report.md)
 
 ### 2020 年 9 月 {#september-2020}
 
@@ -668,13 +666,11 @@ Analytics Connector の節を更新し、インターフェイスの変更を反
 共有オーディエンスの統合に関するドキュメントが更新されました。
 [詳細を表示](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
 
-[SMS コネクタのプロトコルと設定](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)および[シーケンスの自動生成](https://helpx.adobe.com/jp/campaign/kb/sequence_auto_generation.html#Switchtoadedicatedsequence)のテクニカルノートが更新されました。
+次のテクニカルノートが更新されました。 [SMS コネクタのプロトコルと設定](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 テクニカルワークフローの節が更新されました。[詳細を表示](../../workflow/using/about-technical-workflows.md)
 
 Campaign ドメイン名の設定手順が改善および更新されました。
-
-Google Cloud Messaging（GCM）から Firebase Cloud Messaging（FCM）への Android アプリの移行手順が更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/migrate-to-fcm.html)
 
 Campaign ハードウェアのサイズ設定ガイドが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html)
 

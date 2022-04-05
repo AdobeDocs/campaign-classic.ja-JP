@@ -4,9 +4,9 @@ title: マーケティングキャンペーンへのアクセス
 description: マーケティングキャンペーンへのアクセス
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
+source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1265'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,7 @@ Adobe Campaign では、予算、ターゲット、コンテンツなどを承�
 
 >[!NOTE]
 >
->キャンペーンの設定にアクセスして変更するには、「**[!UICONTROL 編集]**」タブの「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクをクリックします。配信が自動的に値を継承するよう、キャンペーンレベルでパラメーターを設定する方法について詳しくは、[このテクニカルノート](https://helpx.adobe.com/jp/campaign/kb/simplifying-campaign-management-acc.html#Setparametersatthecampaignlevelsodeliveriesinheritvaluesautomatically)を参照してください。
+>キャンペーンの設定にアクセスして変更するには、「**[!UICONTROL 編集]**」タブの「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクをクリックします。
 
 ## Web インターフェイスの使用 {#using-the-web-interface-}
 

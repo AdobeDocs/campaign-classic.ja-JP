@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 294309239bc476669e9e017c27bd1b51a0bdaf8c
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 3%
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 これらの手順は、次の操作に制限されます。 **オンプレミス**/**ハイブリッド** のデプロイメントおよび管理権限が必要です。
 
-の場合 **ホスト** デプロイメント、サーバー側の設定は、Adobeのみで構成できます。 ただし、一部の設定は、  [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja):IP アクセス権許可リストの管理や URL アクセス権など。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)。
+の場合 **ホスト** デプロイメント、サーバー側の設定は、Adobeのみで構成できます。 ただし、一部の設定は、 [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja):IP アクセス権許可リストの管理や URL アクセス権など。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)。
 
 詳しくは、次の節を参照してください。
 
@@ -159,7 +159,7 @@ Adobe Campaignは次の JSP ページを使用します。
 * /nl/jsp/**logon.jsp**:レポートへの Web ベースのアクセスと、クライアントコンソールのデプロイメント
 * /nl/jsp/**s.jsp** :バイラルマーケティング（スポンサーおよびソーシャルネットワーク）の使用。
 
-モバイルアプリチャネルで使用される JSSP は次のとおりです。
+Mobile App Channel で使用される JSSP は次のとおりです。
 
 * nms/mobile/1/registerIOS.jssp
 * nms/mobile/1/registerAndroid.jssp

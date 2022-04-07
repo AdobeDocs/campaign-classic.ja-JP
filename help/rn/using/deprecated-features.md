@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1730'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -215,7 +215,7 @@ Campaign Classic は、Federated Data Access（FDA）の次のサーバーと互
 
 * DB2 UDB 9.5、9.7。より新しいバージョンの DB2 は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
 * Oracle 9i、10G R2。より新しいバージョンの Oracle は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
-* PostgreSQL の 9.6 までのバージョンは、提供が終了しました。 より新しいバージョンの PostgreSQL は、Federated Data Access(FDA) を通じてサポートされます。 [詳細情報](https://www.postgresql.org/support/versioning)
+* PostgreSQL の 9.6 までのバージョンは、提供が終了しました。 より新しいバージョンの PostgreSQL は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://www.postgresql.org/support/versioning)
 * MSSQL 2000、2005、2008 R2。より新しいバージョンの SQL Server は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/1044)
 * MySQL 5.1。より新しいバージョンの MySQL は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://en.wikipedia.org/wiki/InfiniDB)
 * InfiniDB は提供が終了しました（EOL）。[詳細情報](https://www.mysql.com/jp/support/)
@@ -235,7 +235,7 @@ Campaign Classic は、Federated Data Access（FDA）の次のサーバーと互
 * MySQL 5.1
 * DB2 UDB 9.7
 
-PostgreSQL の 9.6 までのバージョンは、提供が終了しました。 したがって、これらはAdobe Campaignではサポートされません。
+PostgreSQL の 9.6 までのバージョンは、提供が終了しました。したがって、これらは Adobe Campaign ではサポートされません。
 
 ### SMS コネクタ {#sms-eol}
 

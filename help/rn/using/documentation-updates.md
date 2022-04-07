@@ -31,8 +31,8 @@ ht-degree: 99%
 * 「アップグレードの基本を学ぶ」ページが更新され、Campaign コンソールのアップグレードガイドラインが明確になりました。[詳細情報](../../rn/using/rn-overview.md)
 
 * 新しい Campaign v7.2.2 ビルドが利用できるようになりました。 [詳細情報](../../rn/using/latest-release.md)
-* ACS コネクタに関するトラブルシューティング情報を追加しました。 [詳細情報](../../integrations/using/troubleshooting-the-acs-connector.md)
-* 提供が終了した従来の PostgreSQL バージョンが、 [非推奨（廃止予定）の機能と削除された機能](../../rn/using/deprecated-features.md#dbe-eol) ページ。
+* ACS コネクタに関するトラブルシューティング情報を追加しました。[詳細情報](../../integrations/using/troubleshooting-the-acs-connector.md)
+* 提供が終了した従来の PostgreSQL バージョンが、[廃止される機能および削除された機能](../../rn/using/deprecated-features.md#dbe-eol)ページに追加されました。
 
 ### 2022年2月 {#february-2022}
 

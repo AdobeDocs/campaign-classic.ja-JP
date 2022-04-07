@@ -4,9 +4,9 @@ title: Chrome、Firefox および Edge ブラウザーでの Campaign web コン
 description: Chrome、Firefox および Edge ブラウザーでの Campaign web コンポーネントおよびバージョン 100
 exl-id: 2016279a-7b02-4399-b2ed-9a15456de816
 source-git-commit: b8329e24f07ec8b3dd89f655b47699f130266008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Web サイトで発生する可能性のある問題や機能の喪失は、ア�
 
 この推奨事項は、すべての web アプリケーション（特に JavaScript コードが含まれている場合）に適用されます。
 
-すべてのブラウザー、モバイルおよびデスクトップでを確認する必要があります。
+すべてのブラウザー、モバイルおよびデスクトップで、オンにする必要があります。
 
 ## テスト方法{#version-100-test}
 

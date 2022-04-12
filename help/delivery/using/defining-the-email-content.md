@@ -5,7 +5,7 @@ description: Adobe Campaign Classic を使用する際にメールコンテン�
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 source-git-commit: f5bd8c1806440b47225130070e166d90d99dcc75
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 100%
 

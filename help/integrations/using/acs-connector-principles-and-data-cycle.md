@@ -5,7 +5,7 @@ description: ACS コネクタの原則とデータサイクル
 feature: ACS Connector
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 100%
 
@@ -150,7 +150,7 @@ ACS コネクタに関連するすべての技術要素は、エクスプロー�
 
    >[!NOTE]
    >
-   > Campaign Classic インスタンスと Campaign Standard インスタンスの両方を使用してトラッキングされる URL で E メールを送信する場合、同期中に URL tagIds の重複に関する問題が発生する可能性があります。 この問題が発生しないようにするには、ワークフローの&#x200B;**トラッキング URL を更新**（writerTrackingUrls）アクティビティを更新し、@tagId ソース式に「ACS」プレフィックスを追加します。
+   > Campaign Classic インスタンスと Campaign Standard インスタンスの両方を使用してトラッキングされる URL で E メールを送信する場合、同期中に URL tagIds の重複に関する問題が発生する可能性があります。この問題が発生しないようにするには、ワークフローの&#x200B;**トラッキング URL を更新**（writerTrackingUrls）アクティビティを更新し、@tagId ソース式に「ACS」プレフィックスを追加します。
 
 * **[!UICONTROL `[ACS] New delivery log replication`]**（newRcpDeliveryLogReplication）：この増分ワークフローは、配信 ID、E メール配信ログおよび E メールトラッキングログを Campaign Standard から Campaign v7 にレプリケートします。ここでは、Campaign Standard から Campaign v7 の（nms:recipient 以外の定義する）特定のテーブルの一部であるプロファイルに送信された配信のみが考慮されます。
 

@@ -3,9 +3,9 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 62f19239ac3b3ea909e26d6424338213b4d91479
-workflow-type: ht
-source-wordcount: '243'
+source-git-commit: 29fae1305a6d2b8debbc2aa705c047eaf3730457
+workflow-type: tm+mt
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -83,6 +83,6 @@ ht-degree: 100%
 | [リリースノート](rn/using/latest-release.md) | [エラーメッセージのリスト](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja) |
 | [ビデオガイド、チュートリアル](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja) | [Campaign データモデル](configuration/using/about-data-model.md) |
 | [互換性マトリックス](rn/using/compatibility-matrix.md) | [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja) |
-| [アップグレードの概要](rn/using/rn-overview.md) | [トラッキングガイド](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html?lang=ja) |
+| [アップグレードの概要](rn/using/rn-overview.md) | [トラッキングガイド](delivery/using/about-message-tracking.md) |
 | [非推奨（廃止予定）の機能 ](rn/using/deprecated-features.md) | [セキュリティおよびプライバシーチェックリスト](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/get-started-security-privacy.html?lang=ja) |
 | [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) | [監視のガイドライン](production/using/monitoring-guidelines.md) |

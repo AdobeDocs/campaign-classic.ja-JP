@@ -5,7 +5,7 @@ description: マーケティングキャンペーンへのアクセス
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1265'
 ht-degree: 100%
 

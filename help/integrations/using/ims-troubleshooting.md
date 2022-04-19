@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Campaign と Experience Cloud の製品コンテキストが同じ値である�
 
 **[!UICONTROL IMS サーバー URL]**
 
-キャンペーン内 **Adobe Marketing Cloud** 外部アカウントで、 **[!UICONTROL IMS サーバー URL]** 次のいずれか `adobeid-na1.services.adobe.com` または `ims-na1.adobelogin.com`. また、ステージングと本番用のインスタンスがいずれも、同じ IMS 本番エンドポイントを指していることを確認します。
+Campaign の **Adobe Marketing Cloud** 外部アカウントで、**[!UICONTROL IMS サーバー URL]** が `adobeid-na1.services.adobe.com` または `ims-na1.adobelogin.com` であることを確認します。また、ステージングと本番用のインスタンスがいずれも、同じ IMS 本番エンドポイントを指していることを確認します。
 
 **関連付けマスク**
 

@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: e612a4e7-f4ef-4db4-afab-5544b73430d3
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 詳細な手順ガイド {#step-by-step-guides}
 
-Adobe Campaign の使用を開始する際は、アドビの詳細でわかりやすい手順ガイドを参照してください。
+Adobe Campaign の使用を開始する際は、アドビの直観的な手順ガイドを参照してください。
 
 * [プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)：プライバシーを遵守しながらアドビのサービスを利用するための Adobe Campaign Classic の機能について説明します。
 * [E メールへの動的なコンテンツの統合](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html?lang=ja)：Campaign Classic と Target Standard の統合を開始するための基礎について説明します。

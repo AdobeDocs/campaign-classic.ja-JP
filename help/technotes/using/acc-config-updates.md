@@ -4,7 +4,7 @@ title: テクニカルノート - Adobe Campaign 設定の更新
 description: Adobe Campaign 設定の更新
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
 ht-degree: 100%
 
@@ -142,7 +142,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../../integrations
 
 オンプレミス／ハイブリッド環境のお客様は、設定を更新する必要があります。 
 
-### APNs ルート証明書の更新
+### APN ルート証明書の更新
 
 2021 年 3 月 29 日、Apple Push Notification サービス（APNs）インフラストラクチャのアップデートにより Adobe Campaign Classic iOS チャネルに影響が生じました。iOS のプッシュチャネルの停止を回避するには、OS 設定の変更が&#x200B;**必須**&#x200B;です。
 

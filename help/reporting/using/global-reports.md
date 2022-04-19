@@ -5,9 +5,9 @@ description: グローバルレポート
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 source-git-commit: 294309239bc476669e9e017c27bd1b51a0bdaf8c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2498'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->インスタンスがAWSでホストされている場合は、Campaign Classicを使用して、1 時間あたりに送信される配信数を監視することもできます [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja). インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
+>インスタンスが AWS でホストされている場合は、Campaign Classic [コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja)を使用して、1 時間あたりに送信される配信数を監視することもできます。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
 >
 >コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
 >
@@ -191,7 +191,7 @@ E メールの配信統計には、2 つの値が表示されます。
 
 「**[!UICONTROL 開封数]**」の列には次のような指標があります。
 
-* **[!UICONTROL いいえ。 開封数]**：（「**[!UICONTROL ソーシャルネットワークへの共有のリンク]**」のパーソナライゼーションブロック経由で）メッセージが転送されたユーザーによって開封されたメッセージの合計数。この値は、ミラーページが表示された回数と等しくなります。配信の受信者による開封数は考慮されません。
+* **[!UICONTROL 開封数]**：（「**[!UICONTROL ソーシャルネットワークへの共有のリンク]**」のパーソナライゼーションブロック経由で）メッセージが転送されたユーザーによって開封されたメッセージの合計数。この値は、ミラーページが表示された回数と等しくなります。配信の受信者による開封数は考慮されません。
 * **[!UICONTROL 分類]**：この率は、開封数の合計に関する、ソーシャルネットワークごとの開封数の分類を示しています。
 * **[!UICONTROL 開封率]**：この率は、共有の合計数に関する、ソーシャルネットワークごとの開封数の分類を示しています。
 

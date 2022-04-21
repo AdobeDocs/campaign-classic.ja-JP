@@ -6,7 +6,7 @@ feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: ed43a632a962747c9402ff8d5f0ce442c2cc6490
+source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # プロファイルの基本を学ぶ{#about-profiles}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 プロファイルは、Adobe Campaign データベースで一元管理されます。 プロファイルを取得してこのデータベースを作成するために使用可能なメカニズムは多数あります。web フォームによるオンライン収集、テキストファイルの手動または自動インポート、会社のデータベースまたは他の情報システムによるレプリケーションなどです。Adobe Campaign を利用すれば、マーケティング履歴、購入情報、嗜好、CRM データおよび関連する PI データを包括的に集約し、分析をおこなって、行動に移すことができます。
 

@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: dd7217bd508d718d84c417fcdf7610a5582ef204
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: a8044037e889f59d4288a0746001e84d319f6bcf
+workflow-type: tm+mt
+source-wordcount: '2571'
+ht-degree: 99%
 
 ---
 
@@ -53,7 +53,11 @@ ht-degree: 100%
    + プライバシー {#privacy}
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
       + [プライバシー管理](platform/using/privacy-management.md)
-      + [プライバシーリクエスト](platform/using/privacy-requests.md)
+      + プライバシーリクエスト {#privacy-requests}
+         + [プライバシーリクエストについて](platform/using/privacy-requests.md)
+         + [プライバシーリクエストの作成と管理](platform/using/privacy-requests-ui.md)
+         + [自動プライバシーリクエストプロセス](platform/using/privacy-requests-api.md)
+         + [個人情報の販売のオプトアウト](platform/using/privacy-requests-ccpa.md)
    + プロファイル管理 {#profile-management}
       + [プロファイルについて](platform/using/about-profiles.md)
       + [プロファイルの編集](platform/using/editing-a-profile.md)

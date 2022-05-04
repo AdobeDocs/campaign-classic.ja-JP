@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: プライバシーリクエストの管理
-description: プライバシーリクエストの詳細
+description: プライバシーリクエストについての説明
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: c7688c2a-f0a7-4c51-a4cf-bf96fe8bf9b6
 source-git-commit: a8044037e889f59d4288a0746001e84d319f6bcf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '530'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

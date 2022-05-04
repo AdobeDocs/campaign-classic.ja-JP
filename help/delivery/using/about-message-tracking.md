@@ -5,9 +5,9 @@ description: Adobe Campaign Classic のトラッキングに関する一般的�
 feature: Monitoring, Email
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: 29fae1305a6d2b8debbc2aa705c047eaf3730457
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 ![](../../assets/common.svg)
 
-Adobe Campaignでは、トラッキング機能を使用して、送信されたメッセージをトラッキングし、受信者の動作を確認できます。開封、リンクのクリック、購読解除など
+Adobe Campaign のトラッキング機能により、送信されたメッセージをトラッキングし、開封、リンクのクリック、購読解除といった受信者の動作を確認できます。
 
 この情報は、配信の各受信者のプロファイルの「**[!UICONTROL トラッキング]**」タブで取得されます。このタブには、リストから選択した受信者がトラッキングおよびクリックしたすべての URL が表示されます。これは、配信画面に現在も表示されている配信内でトラッキングされたすべての URL の累積です。このリストは設定可能で、一般的には、クリックされた URL、クリックの日時、URL が含まれていたドキュメントが表示されます。詳しくは、[この節](../../platform/using/editing-a-profile.md#tracking-tab)を参照してください。
 

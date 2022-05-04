@@ -1,14 +1,15 @@
 ---
 product: campaign
 title: プライバシーリクエストの作成
-description: プライバシーリクエストの作成および管理方法について説明します
+description: プライバシーリクエストの作成および管理方法についての説明
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-source-git-commit: a8044037e889f59d4288a0746001e84d319f6bcf
-workflow-type: tm+mt
+exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
+source-git-commit: 42b420d7dae7d38e9f4df442146d3b484c25e831
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 95%
 
 ![](../../assets/v7-only.svg)
 
-この節では、アクセスリクエストと削除リクエストの作成方法、およびAdobe Campaignでのリクエストの処理方法について説明します。
+この節では、アクセスリクエストと削除リクエストの作成方法のほか、それらのリクエストを Adobe Campaign がどのように処理するかについて説明します。
 
 ## プライバシーリクエストの作成 {#create-privacy-request-ui}
 

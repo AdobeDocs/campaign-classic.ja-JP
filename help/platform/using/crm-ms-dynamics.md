@@ -5,7 +5,7 @@ description: Campaign とMicrosoft Dynamics の接続方法を学ぶ
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1132'
 ht-degree: 100%
 

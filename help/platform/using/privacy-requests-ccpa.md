@@ -1,14 +1,15 @@
 ---
 product: campaign
-title: 個人情報の販売のオプトアウト
-description: 個人データの販売のオプトアウトについて説明します
+title: 個人情報の販売に対するオプトアウト
+description: 個人データの販売のオプトアウトに関する説明
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-source-git-commit: a8044037e889f59d4288a0746001e84d319f6bcf
-workflow-type: tm+mt
+exl-id: 8e308a9f-14a4-4a25-9fd0-8d4bdbcf74ce
+source-git-commit: 42b420d7dae7d38e9f4df442146d3b484c25e831
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

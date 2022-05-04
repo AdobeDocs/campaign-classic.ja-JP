@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign では、豊富な顧客データを使�
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 490ba0102f54e2d82e0bff1aa72b67ac118bf7a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2570'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,11 +53,11 @@ ht-degree: 99%
    + プライバシー {#privacy}
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
       + [プライバシー管理](platform/using/privacy-management.md)
-      + プライバシーリクエスト {#privacy-requests}
+      + プライバシーリクエスト{#privacy-requests}
          + [プライバシーリクエストについて](platform/using/privacy-requests.md)
          + [プライバシーリクエストの作成と管理](platform/using/privacy-requests-ui.md)
          + [自動プライバシーリクエストプロセス](platform/using/privacy-requests-api.md)
-         + [個人情報の販売のオプトアウト](platform/using/privacy-requests-ccpa.md)
+         + [個人情報の販売に対するオプトアウト](platform/using/privacy-requests-ccpa.md)
    + プロファイル管理 {#profile-management}
       + [プロファイルについて](platform/using/about-profiles.md)
       + [プロファイルの編集](platform/using/editing-a-profile.md)

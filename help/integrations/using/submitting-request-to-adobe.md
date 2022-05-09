@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,31 +19,31 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->次の作業をおこなうには、システムで IMS を有効にしてください。[IMS](../../integrations/using/about-adobe-id.md) についての節を参照してください。
+>v7 ユーザーがさらに進むには、お使いのシステムでAdobeIdentity Management System(IMS) が有効になっていることを確認してください。 [詳細情報](../../integrations/using/about-adobe-id.md)。
 
-IMS を有効にすると、People コアサービス／Audience Manager と Campaign の統合のプロビジョニングを依頼できます。プロビジョニングを依頼するには、次の情報を記載のうえ、[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) まで E メールを送信してください。
+組織で IMS が有効になると、People コアサービス/Campaign とのAudience Managerの統合のプロビジョニングをリクエストできます。 プロビジョニングを依頼するには、次の情報を記載のうえ、[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) まで E メールを送信してください。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>依頼のタイプ：</strong><br /> </td> 
+   <td> <strong>リクエストタイプ</strong><br /> </td> 
    <td> AAM／People コアサービスと Campaign の統合の設定 </td> 
   </tr> 
   <tr> 
-   <td> <strong>組織名：</strong><br /> </td> 
+   <td> <strong>組織名</strong><br /> </td> 
    <td> 所属する組織の名前 </td> 
   </tr> 
   <tr> 
-   <td> <strong>IMS 組織 ID</strong><br /> </td> 
-   <td> 所属する組織の IMS 組織 ID。<br> IMS 組織 ID は、Adobe Experience Cloud の管理メニューで確認できます。これは、Adobe Experience Cloud への初回接続時に付与されるものです。 </td> 
+   <td> <strong>組織 ID</strong><br /> </td> 
+   <td> 組織 ID。 <br> 組織 ID を見つけるには、 <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja">このページ</a></td> 
   </tr> 
   <tr> 
-   <td> <strong>環境：</strong><br /> </td> 
+   <td> <strong>環境</strong><br /> </td> 
    <td> 例：本番環境 </td> 
   </tr> 
   <tr> 
    <td> <strong>AAM または People コアサービス</strong><br /> </td> 
-   <td> 例： Adobe Audience Managerプロビジョニングチームに Audience Manager のライセンスを所有しているかどうかを確認してください。</td> 
+   <td> 例： Adobe Audience ManagerユーザーがAudience Managerライセンスを所有しているかどうかを確認します。</td> 
   </tr> 
   <tr> 
    <td> <strong>宣言済み ID または訪問者 ID</strong><br /> </td> 

@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 60fc0fd2a10f05abb77843ef0cb69e44f35a9648
-workflow-type: ht
-source-wordcount: '2216'
-ht-degree: 100%
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+workflow-type: tm+mt
+source-wordcount: '2215'
+ht-degree: 98%
 
 ---
 
@@ -143,9 +143,9 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
    アプリケーションサーバーの IP アドレスが変わるので、外部ソリューションで必要になる IP アドレスを許可リストに追加することになります。この情報は提供されます。統合のその他の部分は IMS ベースであり、そのまま機能します。
 
-* **IMS 統合の組織 ID に関連付けられていない顧客はどうなりますか？**
+* **IMS 統合用に組織 ID に関連付けられていない顧客はどうなりますか？**
 
-   IMS 統合されていないお客様には ID を提供します。IMS 組織 ID がインスタンスに関連付けられます。
+   IMS を持たないお客様には、次の情報が提供されます。組織 ID がインスタンスに添付されます。
 
 * **マルチブランド設定は移行の影響を受けますか？**
 

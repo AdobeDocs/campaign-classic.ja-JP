@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Adobe Analytics Connectorプロビジョニング
+title: Adobe Analytics コネクタプロビジョニング
 description: Adobe Analytics Connectorの詳細 プロビジョニング
 feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: cb434747d2bee5d24dcaa1141100c269eea313ad
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 100%
+source-wordcount: '746'
+ht-degree: 98%
 
 ---
 
@@ -95,7 +95,7 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 
 ## Adobe I/O プロジェクトの作成 {#create-adobe-io}
 
-1. Adobe I/O にアクセスし、IMS 組織の&#x200B;**システム管理者**&#x200B;としてログインします。
+1. Adobe I/Oにアクセスし、次のユーザーとしてログイン **システム管理者** 組織の
 
    管理者ロールについて詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html)を参照してください。
 
@@ -157,5 +157,4 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
    ```
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
-
 これで、Analytics コネクタの使用を開始し、顧客の行動をトラッキングできます。

@@ -6,10 +6,10 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 100%
 
 IMSとの統合を使用するには：
 
-* Adobe Experience Cloud 組織と IMS ID（Adobe Experience Cloud の初回接続時に付与されます）が必要です。
-* Experience Cloud にユーザーを追加する必要があります。詳しくは、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja)を参照してください。
+* Adobe Experience Cloud組織名と ID が必要です。 組織 ID を見つけるには、 [このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}.
+* Experience Cloud にユーザーを追加する必要があります。詳しくは、 [このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html){_blank}.
 
 >[!NOTE]
 >
->Adobe Campaign と同期される Adobe Experience Cloud グループにユーザーがリンクされているか確認してください。[外部アカウントの設定](#configuring-the-external-account)を参照してください。
+>Adobe Campaign と同期される Adobe Experience Cloud グループにユーザーがリンクされているか確認してください。[詳細情報](#configuring-the-external-account)。
 
 ## コンソールの更新 {#updating-the-console}
 
@@ -38,7 +38,7 @@ IMSとの統合を使用するには：
 
 ## パッケージのインストール {#installing-the-package}
 
-**[!UICONTROL Adobe Experience Cloud との統合]**&#x200B;パッケージをインストールする必要があります。統合パッケージのインストール方法は、標準パッケージのインストール方法と同じです。詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)で説明しています。
+組み込みの **[!UICONTROL Adobe Experience Cloudとの統合]** パッケージ。 統合パッケージのインストール方法は、標準パッケージのインストール方法と同じです。詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)で説明しています。
 
 ![](assets/ims_6.png)
 
@@ -58,8 +58,8 @@ IMSとの統合を使用するには：
 
    **[!UICONTROL コールバックサーバー]**&#x200B;アドレスは **https** で指定する必要があります。このフィールドは、お客様の Adobe Campaign インスタンスのアクセス URL に対応します。
 
-* IMS 組織 ID：この情報は Experience Cloud（**[!UICONTROL 管理／Experience Cloud 詳細]**）で取得でき、Adobe Experience Cloud への初回接続時に付与されます。
-* 関連付けマスク：このフィールドでは、Enterprise Dashboard の設定名を Adobe Campaign のグループと同期させる構文を定義することができます。「Campaign - tenant_id - (.*)」という構文を使用すると、Adobe Campaign で作成したセキュリティグループが Enterprise Dashboard の設定名「Campaign - tenant_id - internal_name」にリンクされます。
+* 組織 ID :組織 ID を見つけるには、 [このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
+* 関連付けマスク：このフィールドでは、Enterprise Dashboard の設定名を Adobe Campaign のグループと同期させる構文を定義することができます。構文「Campaign - tenant_id - (.&#42;)」と入力すると、Adobe Campaignで作成したセキュリティグループが Enterprise Dashboard の設定名「Campaign - tenant_id - internal_name」にリンクされます。
 
    >[!CAUTION]
    >

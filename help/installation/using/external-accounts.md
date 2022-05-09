@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '1818'
 ht-degree: 80%
 
 ---
@@ -243,7 +243,7 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
 * **[!UICONTROL IMS 組織 ID]**
 
-   IMS 組織の ID。組織 ID を見つけるには、 [このページ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja) (**IMS 組織 ID はどこで入手できますか？**) をクリックします。
+    組織の ID。組織 ID を見つけるには、 [このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}.
 
 * **[!UICONTROL 関連付けマスク]**
 

@@ -8,10 +8,10 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 966da123b30278817ca465ac5dfe1f733c4d6c5c
-workflow-type: ht
-source-wordcount: '749'
-ht-degree: 100%
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 100%
 
 この実装を開始する前に、以下の点を確認してください。
 
-* 有効な&#x200B;**組織識別子**：Identity Management システム（IMS）の組織識別子は、Adobe Experience Cloud 内の一意の識別子です。この識別子は、VisitorID サービスや IMS シングルサインオン（SSO）などに使用されます。[詳細情報](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja)
-* 組織への&#x200B;**開発者のアクセス**。IMS 組織のシステム管理者は、[このページ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-developers.ug.html)で詳しく説明している「**単一の製品プロファイルへの開発者の追加**」手順に従って、トリガーに関連する Adobe Analytics 製品の `Analytics - {tenantID}` 製品プロファイルに対するアクセス権を開発者に提供する必要があります。
+* 有効な **組織識別子**:組織 ID はAdobe Experience Cloud内の一意の識別子です。VisitorID サービスや IMS シングルサインオン (SSO) などに使用されます。 [詳細情報](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja)
+* 組織への&#x200B;**開発者のアクセス**。組織のシステム管理者は、 **1 つの製品プロファイルへの開発者の追加** 手順の詳細 [このページ](https://helpx.adobe.com/enterprise/using/manage-developers.html) 開発者が `Analytics - {tenantID}` 製品に関連付けられたAdobe Analytics製品のトリガープロファイル。
 
 ## 手順 1：Adobe I/O プロジェクトの作成と更新 {#creating-adobe-io-project}
 
-1. [!DNL Adobe I/O] にアクセスし、IMS 組織の開発者アクセス権を使用してログインします。
+1. アクセス [!DNL Adobe I/O] 組織の開発者アクセス権でログインします。
 
    >[!NOTE]
    >

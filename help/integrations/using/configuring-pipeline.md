@@ -5,10 +5,10 @@ description: パイプラインの設定方法を説明します
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: b8f74c290106d57630c5d486c04b8424132e3297
+source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '919'
+ht-degree: 97%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 100%
 また、次も必要です。
 
 * Adobe I/O プロジェクト認証
-* 有効な IMSOrgID、Adobe Analytics が追加された Experience Cloud 顧客の ID
-* IMS 組織へのデベロッパーアクセス権
+* 有効な組織 ID — 組織 ID を見つけるには、を参照してください。 [このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}
+* 組織への開発者アクセス
 * Adobe Analytics でおこなわれたトリガー設定
 
 ## 認証および設定ファイル {#authentication-configuration}
@@ -138,7 +138,7 @@ ht-degree: 100%
 | pointerFlushMessageCount | この数のメッセージが処理されると、オフセットがデータベースに保存されます。<br>デフォルトは 1000 です。 |
 | pointerFlushPeriodSec | この期間を過ぎると、オフセットがデータベースに保存されます。<br>デフォルトは 5（秒）です。 |
 | processingJSThreads | カスタム JS コネクタを使用してメッセージを処理する専用スレッドの数。<br>デフォルトは 4 です。 |
-| processingThreads | 組み込みコードを使用してメッセージを処理する専用スレッドの数。<br>デフォルトは 4 です。 |
+| processingThreads | ビルトインコードを使用してメッセージを処理する専用スレッドの数。<br>デフォルトは 4 です。 |
 | retryPeriodSec | 処理エラーの場合の再試行間の遅延。<br>デフォルトは 30（秒）です。 |
 | retryValiditySec | この期間が経過してもメッセージが正常に処理されない場合（再試行回数が多すぎる場合）、メッセージを破棄します。<br>デフォルトは 300（秒）です。 |
 

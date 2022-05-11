@@ -5,22 +5,17 @@ description: Adobe Campaign - Apache バージョンのセキュリティアッ�
 hide: true
 hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
-source-git-commit: 854278e3e2013293888ea194c12ec1a75e70d981
+source-git-commit: 209e3ffc5b11a776a8d16ab210097e5ee4e48b0d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 84%
 
 ---
 
 # Adobe Campaign - Apache バージョンのセキュリティアップデート {#apache-update}
 
->[!NOTE]
->この記事は次の項目に適用されます。
-> * Campaign Classicv7 Managed Servicesのお客様
-> * Campaign v8 のお客様
-> * Campaign Standard顧客
-
-
+>[!CAUTION]
+>この記事は次の項目に適用されます。Campaign Classicv7 Managed Servicesのお客様、Campaign v8 のお客様およびCampaign Standardのお客様。
 
 Adobe Campaignは、サードパーティのツールと連携しており、サポート対象バージョンのみを実装し、最新の修正および改善を活用するために、定期的に互換性が更新されています。
 

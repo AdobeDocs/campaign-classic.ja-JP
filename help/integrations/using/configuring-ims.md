@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '357'
+ht-degree: 100%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 0%
 
 IMSとの統合を使用するには：
 
-* Adobe Experience Cloud組織名と ID が必要です。 組織 ID を見つけるには、 [このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}.
-* Experience Cloud にユーザーを追加する必要があります。詳しくは、 [このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html){_blank}.
+* Adobe Experience Cloud の組織名と組織 ID が必要です。 組織 ID を見つけるには、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください。
+* Experience Cloud にユーザーを追加する必要があります。詳しくは、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=ja){_blank}を参照してください。
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ IMSとの統合を使用するには：
 
 ## パッケージのインストール {#installing-the-package}
 
-組み込みの **[!UICONTROL Adobe Experience Cloudとの統合]** パッケージ。 統合パッケージのインストール方法は、標準パッケージのインストール方法と同じです。詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)で説明しています。
+**[!UICONTROL Adobe Experience Cloud との統合]**&#x200B;のビルトインパッケージをインストールする必要があります。統合パッケージのインストール方法は、標準パッケージのインストール方法と同じです。詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
 ![](assets/ims_6.png)
 
@@ -54,12 +54,12 @@ IMSとの統合を使用するには：
 
 次の情報を入力します。
 
-* 使用する IMS サーバーの接続情報（ID および Secret）。この情報は、Adobe サポートから提供されます。詳しくは、[Adobe Experience Cloud 管理者向け FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja) を参照してください。
+* 使用する IMS サーバーの接続情報（ID および Secret）。この情報は、Adobe サポートから提供されます。詳しくは、[Adobe Experience Cloud 管理者向け FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=ja) を参照してください。
 
    **[!UICONTROL コールバックサーバー]**&#x200B;アドレスは **https** で指定する必要があります。このフィールドは、お客様の Adobe Campaign インスタンスのアクセス URL に対応します。
 
-* 組織 ID :組織 ID を見つけるには、 [このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
-* 関連付けマスク：このフィールドでは、Enterprise Dashboard の設定名を Adobe Campaign のグループと同期させる構文を定義することができます。構文「Campaign - tenant_id - (.&#42;)」と入力すると、Adobe Campaignで作成したセキュリティグループが Enterprise Dashboard の設定名「Campaign - tenant_id - internal_name」にリンクされます。
+* 組織 ID：組織 ID を見つけるには、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください。
+* 関連付けマスク：このフィールドでは、Enterprise Dashboard の設定名を Adobe Campaign のグループと同期させる構文を定義することができます。「Campaign - tenant_id - (.&#42;)」という構文を使用すると、Adobe Campaign で作成したセキュリティグループが Enterprise Dashboard の設定名「Campaign - tenant_id - internal_name」にリンクされます。
 
    >[!CAUTION]
    >

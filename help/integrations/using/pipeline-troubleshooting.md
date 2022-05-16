@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ JSON 設定を **NmsPipeline_Config** オプションで指定します。この
 
 **パイプライン化されたプロセスが失敗し、「the subject must be a valid organization or client」（件名は有効な組織またはクライアントにする必要があります）と表示される**
 
-組織 ID の構成が無効です。
+組織 ID の設定が無効です。
 
-1. 組織 ID(ImsOrgId) が serverConf.xml に設定されていることを確認します。
-1. インスタンス設定ファイル内の空の組織 ID がデフォルトの組織 ID を上書きできるかどうかを確認します。 該当する場合は、削除します。
-1. 組織 ID が正しいことを確認します。 組織 ID を見つけるには、 [このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}
+1. 組織 ID（ImsOrgId）が serverConf.xml で設定されていることを確認します。
+1. インスタンス設定ファイルの空の組織 ID がデフォルトの組織 ID を上書きできるかどうかを確認します。該当する場合は、削除します。
+1. 組織 ID が正しいことを確認します。組織 ID を見つけるには、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください。
 
 **パイプライン化されたプロセスが失敗し、「invalid key」（キーが無効です）と表示される**
 

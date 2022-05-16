@@ -9,7 +9,7 @@ exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: bb806da3d865e0d05e7823b2609227ea8effd875
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 
 ## Adobe I/O プロジェクトの作成 {#create-adobe-io}
 
-1. Adobe I/Oにアクセスし、次のユーザーとしてログイン **システム管理者** 組織の
+1. Adobe I/O にアクセスし、組織の&#x200B;**システム管理者**&#x200B;としてログインします。
 
    管理者ロールについて詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html)を参照してください。
 

@@ -6,9 +6,9 @@ audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 97%
 また、次も必要です。
 
 * Adobe I/O プロジェクト認証
-* 有効な組織 ID — 組織 ID を見つけるには、を参照してください。 [このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}
-* 組織への開発者アクセス
-* Adobe Analytics でおこなわれたトリガー設定
+* 有効な組織 ID - 組織 ID を見つけるには、[このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}を参照してください。
+* 組織への開発者のアクセス
+* Adobe Analytics で行われたトリガー設定
 
 ## 認証および設定ファイル {#authentication-configuration}
 

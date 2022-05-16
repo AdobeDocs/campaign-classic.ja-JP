@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2215'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 このプロジェクトに関するよくある質問、Campaign 環境への影響、その他の役に立つリソースについては、以下を参照してください。
 
-その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign#support)にお問い合わせください。
+その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)にお問い合わせください。
 
 ## インフラストラクチャへの影響
 
@@ -51,7 +51,7 @@ ht-degree: 98%
 
 * **移行後の問題に対処するために、どのようなプランがありますか？**
 
-   実稼働システムを移行する前に、広範なテストを実施します。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign#support)が引き続き連絡窓口となります。アドビは、必要に応じて高度なサポートを提供できるように専門家チームを立ち上げています。
+   実稼働システムを移行する前に、広範なテストを実施します。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)が引き続き連絡窓口となります。アドビは、必要に応じて高度なサポートを提供できるように専門家チームを立ち上げています。
 
 ## 配信品質への影響
 
@@ -93,7 +93,7 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
    まず第一に、アドビの担当部署がプラットフォームの配信品質ステータスを評価し、新しい IP への切り替え計画を助言します。
 
-   移行後にウォームアップを行う必要はありません。例外的な状況では、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign#support)からお客様に連絡いたします。
+   移行後にウォームアップを行う必要はありません。例外的な状況では、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)からお客様に連絡いたします。
 
    ただし、稼動時に行われる最初のランプアップとは異なり、この計画は、この操作をビジネスに対して透過的なものにするためのものです。
 
@@ -143,9 +143,9 @@ IP、ブロックリスト、サブドメインおよび URL に対する全体�
 
    アプリケーションサーバーの IP アドレスが変わるので、外部ソリューションで必要になる IP アドレスを許可リストに追加することになります。この情報は提供されます。統合のその他の部分は IMS ベースであり、そのまま機能します。
 
-* **IMS 統合用に組織 ID に関連付けられていない顧客はどうなりますか？**
+* **IMS 統合の組織 ID に関連付けられていない顧客はどうなりますか？**
 
-   IMS を持たないお客様には、次の情報が提供されます。組織 ID がインスタンスに添付されます。
+   お客様が IMS をお持ちでない場合は提供されます。組織 ID がインスタンスに関連付けられます。
 
 * **マルチブランド設定は移行の影響を受けますか？**
 

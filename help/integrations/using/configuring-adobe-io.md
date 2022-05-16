@@ -9,9 +9,9 @@ internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '741'
+ht-degree: 100%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 0%
 
 この実装を開始する前に、以下の点を確認してください。
 
-* 有効な **組織識別子**:組織 ID はAdobe Experience Cloud内の一意の識別子です。VisitorID サービスや IMS シングルサインオン (SSO) などに使用されます。 [詳細情報](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja)
-* 組織への&#x200B;**開発者のアクセス**。組織のシステム管理者は、 **1 つの製品プロファイルへの開発者の追加** 手順の詳細 [このページ](https://helpx.adobe.com/enterprise/using/manage-developers.html) 開発者が `Analytics - {tenantID}` 製品に関連付けられたAdobe Analytics製品のトリガープロファイル。
+* 有効な&#x200B;**組織識別子**：組織 ID は、Adobe Experience Cloud 内の一意の識別子で、VisitorID サービスや IMS シングルサインオン（SSO）などに使用されます。[詳細情報](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja)
+* 組織への&#x200B;**開発者のアクセス**。組織のシステム管理者は、**単一の製品プロファイルへの開発者の追加**&#x200B;の手順（詳しくは[このページ](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)を参照）に従って、トリガーに関連する Adobe Analytics 製品の `Analytics - {tenantID}` 製品プロファイルに対するアクセス権を開発者に提供する必要があります。
 
 ## 手順 1：Adobe I/O プロジェクトの作成と更新 {#creating-adobe-io-project}
 
-1. アクセス [!DNL Adobe I/O] 組織の開発者アクセス権でログインします。
+1. [!DNL Adobe I/O] にアクセスし、組織の開発者アクセス権を使用してログインします。
 
    >[!NOTE]
    >

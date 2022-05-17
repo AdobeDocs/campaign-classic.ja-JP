@@ -4,14 +4,14 @@ title: web アプリケーションの設計
 description: web アプリケーションの設計
 feature: Web Apps
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: 0ad183ae68faf41ac0b14bb37639a4b1da9d8776
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 91%
 
 ---
 
-# Web アプリケーションの設計{#designing-a-web-application}
+# web アプリケーションの設計{#designing-a-web-application}
 
 ![](../../assets/common.svg)
 
@@ -19,9 +19,7 @@ Web アプリケーションは、[web フォーム](about-web-forms.md)と同�
 
 >[!CAUTION]
 >
->「**[!UICONTROL プレビュー]**」サブタブを使用すると、Web アプリケーションの設計中にエラーを確認できます。
->
->Web アプリケーションが公開されるまで、変更はエンドユーザーには公開されません。
+>「**[!UICONTROL プレビュー]**」サブタブを使用すると、Web アプリケーションの設計中にエラーを確認できます。Web アプリケーションのプレビューに使用するプロファイルテストは、 **[!UICONTROL アクセス権]** の **[!UICONTROL Web アプリケーションエージェント]** 演算子 </br>Web アプリケーションが公開されるまで、変更はエンドユーザーには公開されません。
 
 ## Web アプリケーションへのグラフの挿入 {#inserting-charts-in-a-web-application}
 

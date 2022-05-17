@@ -5,10 +5,10 @@ description: Adobe Campaign - Apache バージョンのセキュリティアッ�
 hide: true
 hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
-source-git-commit: ef34decdb33cdfd095c437abd5d1eb029f8a0648
-workflow-type: ht
-source-wordcount: '476'
-ht-degree: 100%
+source-git-commit: 7ee1cc501342aa59d1752259bf7228ea47a8cccb
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 87%
 
 ---
 
@@ -37,7 +37,6 @@ Adobe Campaign チームは、**2022年6月15日**（PT）までに、Apache バ
 
    現在の Apache バージョンには脆弱性があり、セキュリティが脅威に晒される危険性があります。セキュリティ上のリスクに対処するために、Campaign インスタンスを適用可能な最新の Apache バージョンにアップグレードすることが重要です。
 
-
 * **セキュリティアップグレード対象となる顧客を教えてください。**
 
    古い Apache バージョン上に実装された Campaign 環境を使用しているすべての顧客が対象であり、適用可能な最新の Apache バージョンにアップグレードされます。
@@ -50,9 +49,13 @@ Adobe Campaign チームは、**2022年6月15日**（PT）までに、Apache バ
 
    このセキュリティアップグレードは自動的に実行されるので、アクションは必要ありません。
 
+* **メンテナンス期間中に実行中のキャンペーン/ワークフローにはどのような影響がありますか？**
+
+   メンテナンスウィンドウ中は、ワークフローとメールサービスの両方が停止され、スケジュールされたアクティビティは実行されません。 実行中のアクティビティや実行中のプロセスは、サーバーが再起動するまで、ダウンタイム中に停止します。 アクティビティが完了し、サーバーが再起動されると、すべてのサービスが再開されます。
+
 * **顧客側ではどのような検証を行う必要がありますか？**
 
-   このセキュリティアップグレードでは、特に必要なテストはありません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)にお問い合わせください。
+   このセキュリティアップグレードでは、特に必要なテストはありません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign#support)にお問い合わせください。
 
 
 * **セキュリティアップグレードの時間枠をスケジュールした後に日時の変更をリクエストできますか？**
@@ -60,4 +63,4 @@ Adobe Campaign チームは、**2022年6月15日**（PT）までに、Apache バ
    これはセキュリティの修正なので、既存のスケジュールに合わせることを強くお勧めします。
 
 
-その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)にお問い合わせください。
+その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign#support)にお問い合わせください。

@@ -5,17 +5,17 @@ description: Adobe Campaign - Apache バージョンのセキュリティアッ�
 hide: true
 hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
-source-git-commit: 7ee1cc501342aa59d1752259bf7228ea47a8cccb
+source-git-commit: a3eae4e253f66f5a651ffe0458f60b1f8bdf2258
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 87%
+ht-degree: 81%
 
 ---
 
 # Adobe Campaign - Apache バージョンのセキュリティアップデート {#apache-update}
 
 >[!CAUTION]
->この記事は、Campaign Classic v7 Managed Services のお客様、 Campaign v8 のお客様および Campaign Standard のお客様を対象としています。
+>この記事は次の項目に適用されます。 **Campaign Classicv7 Managed Services** 顧客 **Campaign v8** 顧客と **Campaign Standard** 顧客。
 
 Adobe Campaign はサードパーティ製ツールと連携でき、サポート対象バージョンのみを実装し最新の修正および機能改善を活かせるように、定期的に互換性が更新されています。
 
@@ -25,7 +25,7 @@ Adobe Campaign チームは、**2022年6月15日**（PT）までに、Apache バ
 
 このアップグレードは、業務を中断することなく Campaign サービスの使用を継続できるよう、通常の営業時間外に自動的に実行されると想定されています。
 
-まず、アドビのチームは、お客様の実稼動以外のインスタンスをアップグレードしてから、実稼動インスタンスをアップグレードします。これはアドビ側で処理する自動アップグレードプロセスなので、顧客側に必要なアクションはありません。ただし、問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)にお問い合わせください。
+実稼動以外のインスタンスが最初にAdobeによってアップグレードされ、その後実稼動インスタンスがアップグレードされます。 これはアドビ側で処理する自動アップグレードプロセスなので、顧客側に必要なアクションはありません。ただし、問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)にお問い合わせください。
 
 
 >[!NOTE]
@@ -55,7 +55,7 @@ Adobe Campaign チームは、**2022年6月15日**（PT）までに、Apache バ
 
 * **顧客側ではどのような検証を行う必要がありますか？**
 
-   このセキュリティアップグレードでは、特に必要なテストはありません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign#support)にお問い合わせください。
+   このセキュリティアップグレードでは、特に必要なテストはありません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign#support)にお問い合わせください。。
 
 
 * **セキュリティアップグレードの時間枠をスケジュールした後に日時の変更をリクエストできますか？**

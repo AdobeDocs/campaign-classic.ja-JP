@@ -5,9 +5,9 @@ description: web アプリケーションの設計
 feature: Web Apps
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
 source-git-commit: 0ad183ae68faf41ac0b14bb37639a4b1da9d8776
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Web アプリケーションは、[web フォーム](about-web-forms.md)と同�
 
 >[!CAUTION]
 >
->「**[!UICONTROL プレビュー]**」サブタブを使用すると、Web アプリケーションの設計中にエラーを確認できます。Web アプリケーションのプレビューに使用するプロファイルテストは、 **[!UICONTROL アクセス権]** の **[!UICONTROL Web アプリケーションエージェント]** 演算子 </br>Web アプリケーションが公開されるまで、変更はエンドユーザーには公開されません。
+>「**[!UICONTROL プレビュー]**」サブタブを使用すると、web アプリケーションの設計時にエラーを確認できます。Web アプリケーションのプレビューに使用するプロファイルテストは、**[!UICONTROL web アプリケーションエージェント]**&#x200B;のオペレーターの&#x200B;**[!UICONTROL アクセス権]**&#x200B;があるフォルダーに置く必要があることに注意してください。</br>Web アプリケーションが公開されるまで、変更はエンドユーザーには公開されません。
 
 ## Web アプリケーションへのグラフの挿入 {#inserting-charts-in-a-web-application}
 

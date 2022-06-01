@@ -4,8 +4,8 @@ title: SMS コネクタのプロトコルと設定
 description: SMS コネクタの詳細と設定方法について学ぶ
 feature: SMS
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+source-git-commit: 2c145829517a6961d502cc3e7b904547f8c71602
+workflow-type: tm+mt
 source-wordcount: '8460'
 ht-degree: 100%
 
@@ -409,7 +409,7 @@ Adobe Campaign Classic 拡張 SMPP コネクタは、MTA の子 1 つあたり�
 
 Adobe Campaign Classic の場合は、レシーバーとトランスミッターの接続数が異なる場合があります。
 
-* **トランスミッター接続 = MTA 子接続の数 * MTA 子プロセスの数 * MTA の数（自動応答が設定されている場合）+ MTA 子接続の数**
+* **</br>トランスミッター接続 = MTA 子接続の数 * MTA 子プロセスの数 * MTA の数（自動応答が設定されている場合）+ MTA 子接続の数**
 
 上記の推奨事項に従い、自動応答が有効な場合は、Adobe Campaign Classic SMS プロセスがより多くのトランスミッター接続を開きます。これらの追加の接続は、自動応答の送信に使用されます。
 

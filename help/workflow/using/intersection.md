@@ -4,7 +4,7 @@ title: 積集合
 description: 積集合
 feature: Workflows, Targeting Activity
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: eb7a8cd2c9ff476a830dcc6e8e7c29ccd72c24f0
+source-git-commit: 389e5a87ea195024707c3c58e63899ad7949f025
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -16,7 +16,8 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_workflow_intersection"
 >title="積集合 アクティビティ"
->abstract="「積集合」タイプのアクティビティは、受信したターゲットの積集合からターゲットを作成します。 積集合は、すべてのインバウンドアクティビティの結果に共通する母集団のみを抽出します。ターゲットは、受信したすべての結果から作成されます。そのため、すべての先行アクティビティは、積集合が実行される前に完了している必要があります。"
+>abstract="「積集合」タイプのアクティビティは、受信したターゲットの積集合からターゲットを作成します。 積集合は、すべてのインバウンドアクティビティの結果に共通する母集団のみを抽出します。"
+>additional-url="https://video.tv.adobe.com/v/329373" text="デモビデオを見る"
 
 
 ![](../../assets/common.svg)

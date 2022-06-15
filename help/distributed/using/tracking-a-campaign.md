@@ -4,8 +4,8 @@ title: キャンペーンのトラッキング
 description: Campaign 分散型マーケティングを使用したキャンペーンのトラッキング方法を説明します
 feature: Distributed Marketing
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # キャンペーンのトラッキング{#tracking-a-campaign}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 セントラルエンティティのオペレーターは、キャンペーンパッケージのリストに含まれているキャンペーンのオーダーをトラッキングできます。
 

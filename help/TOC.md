@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 490ba0102f54e2d82e0bff1aa72b67ac118bf7a1
-workflow-type: ht
-source-wordcount: '2570'
-ht-degree: 100%
+source-git-commit: a2590a6d8df1e73d77bbdef7b8cf3b2d6efe207f
+workflow-type: tm+mt
+source-wordcount: '2576'
+ht-degree: 99%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
    + プライバシー {#privacy}
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
       + [プライバシー管理](platform/using/privacy-management.md)
-      + プライバシーリクエスト{#privacy-requests}
+      + プライバシーリクエスト {#privacy-requests}
          + [プライバシーリクエストについて](platform/using/privacy-requests.md)
          + [プライバシーリクエストの作成と管理](platform/using/privacy-requests-ui.md)
          + [自動プライバシーリクエストプロセス](platform/using/privacy-requests-api.md)
@@ -834,6 +834,7 @@ ht-degree: 100%
    + [ハードウェアサイズについての推奨事項](technotes/using/hardware-sizing.md)
    + アップグレードと互換性{#technote-migration}
       + [テクニカルノート](technotes/using/technote.md)
+      + [新しい配信サーバーに対する更新](technotes/using/deliverability-server.md)
       + [Apache セキュリティアップグレード](technotes/using/acc-apache-upgrade.md)
       + [Campaign 設定の更新](technotes/using/acc-config-updates.md)
       + [IMS の更新](technotes/using/ims-updates.md)

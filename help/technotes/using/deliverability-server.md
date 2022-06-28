@@ -4,7 +4,7 @@ title: 新しい配信サーバーに移行
 description: Campaign 配信サーバーの実装方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: a2590a6d8df1e73d77bbdef7b8cf3b2d6efe207f
+source-git-commit: cd2fa2450f6e8389e9c47c412da8943a5c8bb7f3
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 38%
@@ -30,7 +30,7 @@ Adobeは、セキュリティコンプライアンス上の理由により、古
 
 ## 影響の有無{#acc-deliverability-impacts}
 
-既存のAdobe Campaign配信品質サーバーを使用していて、環境が Campaign 21.1.1 よりも低いビルドで実装された場合は、影響を受けます。 Campaign 21.1（またはそれ以上）にアップグレードする必要があります。
+古いAdobe Campaign配信品質サーバーを使用していて、環境が Campaign 21.1.1 よりも低いビルドで実装された場合は、影響を受けます。 Campaign 21.1（またはそれ以上）にアップグレードする必要があります。
 
 バージョンを確認する方法については、](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)この節[を参照してください。
 

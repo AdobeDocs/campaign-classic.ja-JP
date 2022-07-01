@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 61%
+source-wordcount: '346'
+ht-degree: 58%
 
 ---
 
@@ -61,3 +61,10 @@ Adobe Campaign から外部データベースにアクセスできるように�
 * Campaign との接続 [Teradata](../../installation/using/configure-fda-teradata.md)
 
 * Campaign との接続 [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
+
+* Campaign との接続 [PostgreSQL](../../installation/using/configure-fda-postgresql.md)
+
+* Campaign との接続 [Microsoft SQL Server](../../installation/using/configure-fda-sql.md)
+
+* Campaign との接続 [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
+

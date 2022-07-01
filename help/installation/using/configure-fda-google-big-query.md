@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
-source-git-commit: 5d2ec0836fe5f106e0c56e5abbe7bab9332d7e18
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 10%
+source-wordcount: '829'
+ht-degree: 9%
 
 ---
 
@@ -193,11 +193,11 @@ Adobe Campaign Classicを使用 **Federated Data Access** (FDA) 外部データ�
 
 コネクタは、次のオプションをサポートしています。
 
-| オプション | 値 | 説明 |
-|:-:|:-:|:-:|
-| ProxyType | 文字列 | ODBC および SDK コネクタを使用した BigQuery への接続に使用するプロキシのタイプ。 </br>HTTP（デフォルト）、http_no_tunnel、socks4 および socks5 が現在サポートされています。 |
-| ProxyHost | 文字列 | プロキシに到達できるホスト名または IP アドレス。 |
-| ProxyPort | 数値 | プロキシが実行されているポート番号（例： 8080） |
-| ProxyUid | 文字列 | 認証済みプロキシに使用するユーザー名 |
-| ProxyPwd | 文字列 | ProxyUid パスワード |
-| bqpath | 文字列 | これは、一括読み込みツール (Cloud SDK) にのみ適用されます。 </br> PATH 変数を使用しない場合や、google-cloud-sdk ディレクトリを別の場所に移動する必要がある場合は、このオプションで、サーバー上の cloud sdk bin ディレクトリの正確なパスを指定できます。 |
+| オプション | 説明 |
+|:-:|:-:|
+| ProxyType | ODBC および SDK コネクタを使用した BigQuery への接続に使用するプロキシのタイプ。 </br>HTTP（デフォルト）、http_no_tunnel、socks4 および socks5 が現在サポートされています。 |
+| ProxyHost | プロキシに到達できるホスト名または IP アドレス。 |
+| ProxyPort | プロキシが実行されているポート番号（例： 8080） |
+| ProxyUid | 認証済みプロキシに使用するユーザー名 |
+| ProxyPwd | ProxyUid パスワード |
+| bqpath | これは、一括読み込みツール (Cloud SDK) にのみ適用されます。 </br> PATH 変数を使用しない場合や、google-cloud-sdk ディレクトリを別の場所に移動する必要がある場合は、このオプションで、サーバー上の cloud sdk bin ディレクトリの正確なパスを指定できます。 |

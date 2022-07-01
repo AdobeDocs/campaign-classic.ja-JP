@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '1639'
-ht-degree: 80%
+source-wordcount: '1824'
+ht-degree: 73%
 
 ---
 
@@ -95,6 +95,27 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
    * **[!UICONTROL オプション]**:teradataを渡すオプション。 次の形式を使用します。&#39;parameter=value&#39;. 値間の区切り文字としてセミコロンを使用します。
 
    * **[!UICONTROL タイムゾーン]**:タイムゾーンがTeradataで設定されました。 [詳細情報](#timezone)
+
+コネクタは、次のオプションをサポートしています。
+
+| オプション | 説明 |
+|---|---|
+| TD_MAX_SESSIONS | オペレータージョブに対してTeradataParallel Transporter が取得できるログオンセッションの最大数を指定します。 <br>詳しくは、[このページ](https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/ds2ref/p1naft0um1kn3vn1ubgkrjdf7c3a.html)を参照してください。 |
+| TimeZoneName | サーバーのタイムゾーンの名前。 |
+| 文字セット | teradata文字セットの設定に使用。 <br>詳しくは、[このページ](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001)を参照してください。 |
+| IANAAppCodePage | ODBC アプリケーションコードページ。 <br>詳しくは、 [このページ](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page) |
+
+### ODBC 外部アカウントを追加する {#add-external}
+
+>[!NOTE]
+>
+> このオプションは、7.3.1 バージョンより古いビルドでは使用できません。
+
+teradataドライバーは独自の ODBC ライブラリを提供しますが、このライブラリは他の ODBC 外部アカウントと互換性がない場合があります。
+
+ODBC も使用する別の外部アカウント ( 例：Snowflake) を設定する場合は、デフォルトの ODBC ライブラリ (`/usr/lib/x86_64-linux-gnu/libodbc.so` （Debian および） `/usr/lib64/libodbc.so` （RHEL/CentOS の場合）
+
+![](assets/ext_account_24.png)
 
 ### Query Banding
 

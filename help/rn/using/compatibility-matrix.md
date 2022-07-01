@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 5ce8e765866d84781b1000511e9aea4636ebd91d
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+workflow-type: tm+mt
+source-wordcount: '749'
+ht-degree: 97%
 
 ---
 
@@ -48,6 +48,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr>
 <td>Debian</td>
 <td>
+<p>11（64 ビット）</p>
 <p>10（64 ビット）</p>
 <p>9（64 ビット）</p>
 </td>
@@ -149,7 +150,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <td>
 <p>2019</p>
 <p>2017</p>
-<p>2016</p>
+<p>2016 年</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
 <p><strong>警告：</strong>Linux で Campaign サーバーを実行している場合、プライマリデータベースとしての Microsoft SQL Server の使用はサポートされません。<a href="../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers">詳細情報</a>。</p>
@@ -256,19 +257,23 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 </tr>
 <tr><td>SQL Server</td>
 <td>
-<p>2019</p>
-<p>2017</p>
-<p>2016</p>
-<p>2014</p>
+<p>2019 年</p>
+<p>2017 年</p>
+<p>2016 年</p>
+<p>2014 年</p>
 <p>2012 SP1 および SP2</p>
 </td>
 <td>v7.0 以上</td>
 </tr>
 <tr><td>MySQL</td>
 <td>
+<p>8</p>
 <p>5.7</p>
 </td>
-<td>v7.0 以上</td>
+<td>
+<p>v7.3 以上</p>
+<p>v7.0 以上</p>
+</td>
 </tr>
 <tr>
 <td>Teradata</td>
@@ -329,15 +334,16 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <td>Microsoft Windows Server</td>
 <td>
 <p>2019（7.2.1 リリース以降）</p>
-<p>2016</p>
-<p>2012</p>
+<p>2016 年</p>
+<p>2012 年</p>
 </td>
 </tr>
 <tr>
 <td>Microsoft Windows</td>
 <td>
-<p>8</p>
+<p>11（Campaign v7.3 以降）</p>
 <p>10（日本語インスタンスの場合に推奨）</p>
+<p>8</p>
 </td>
 </tr>
 </tbody>
@@ -368,15 +374,15 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <tr>
 <td>Android</td>
 <td>
-<p>7.x、8.x、9.0</p>
-<p>モバイル SDK ビルド 1.0.27 のサポート。</p>
+<p>12（Campaign v7.3 以降）、9.0、8.x、7.x</p>
+<p>モバイル SDK ビルド 1.1.1 の場合</p>
 </td>
 </tr>
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9 ～ 14</p>
-<p>モバイル SDK ビルド 1.0.26 付き（32 ビットおよび 64 ビットバージョンと互換）</p>
+<p>iOS 9 ～ 15</p>
+<p>モバイル SDK ビルド 1.0.26 付き（32 ビットおよび 64 ビットバージョンと互換）iOS 15 は Campaign v7.3 以降でサポートされます。</p>
 </td>
 </tr>
 </tbody>

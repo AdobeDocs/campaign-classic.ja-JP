@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: 6cecc81135afd067712e51ec9c1ad3239170702e
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 46%
+source-wordcount: '538'
+ht-degree: 38%
 
 ---
 
@@ -123,3 +123,6 @@ ht-degree: 46%
 | TimeZoneName | デフォルトでは空で、Campaign Classic アプリケーションサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)を参照してください。 |
 | WeekStart | WEEK_START セッションパラメーター。デフォルトでは 0 に設定されています。<br>詳しくは、[このページ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)を参照してください。 |
 | UseCachedResult | USE_CACHED_RESULTS セッションパラメーター。デフォルトでは TRUE に設定されています。このオプションは、Snowflake でキャッシュされた結果を無効にするために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)を参照してください。 |
+| bulkThreads | Snowflakeのバルクローダーに使用するスレッドの数が多いと、より大きなバルクロードでより高いパフォーマンスが得られます。 デフォルトでは 1 に設定されています。数は、装置スレッドの数に応じて調整できます。 |
+| chunkSize | バルクローダチャンクのファイルサイズを決定します。 デフォルトでは 128MB に設定されています。 bulkThreads と組み合わせて使用すると、より最適なパフォーマンスを得るために変更できます。 同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。 <br>詳しくは、 [Snowflake文書](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
+| StageName | 事前にプロビジョニングされた内部ステージの名前。 新しい一時ステージを作成する代わりに、一括読み込みで使用されます。 |

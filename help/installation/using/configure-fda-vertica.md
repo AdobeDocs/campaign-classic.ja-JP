@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
-source-git-commit: 0cfe8439007b56014eba497c511904c4f11b39ce
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 19%
+source-wordcount: '414'
+ht-degree: 26%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 19%
 
 1. 設定 [!DNL Vertica] オン [CentOS](#vertica-centos), [Windows](#vertica-windows) または [Debian](#vertica-debian)
 1. の設定 [!DNL Vertica] [外部アカウント](#vertica-external) キャンペーン内
-
 
 >[!NOTE]
 >
@@ -166,4 +165,12 @@ ht-degree: 19%
    * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
 
    * **[!UICONTROL データベース]**：データベースの名前
+
    ![](assets/vertica.png)
+
+コネクタは、次のオプションをサポートしています。
+
+| オプション | 説明 |
+|---|---|
+| TimeZoneName | デフォルトでは空で、Campaign Classic アプリケーションサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。 |
+

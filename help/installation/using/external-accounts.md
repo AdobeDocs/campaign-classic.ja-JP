@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 80%
+source-wordcount: '2025'
+ht-degree: 79%
 
 ---
 
@@ -75,6 +75,34 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 * **[!UICONTROL 暗号化]**
 
    **[!UICONTROL デフォルト]**、**[!UICONTROL POP3 + STARTTLS]**、**[!UICONTROL POP3]** または **[!UICONTROL POP3S]** から選択した暗号化のタイプ。
+
+* **[!UICONTROL 関数]**
+
+   インバウンドメールまたは SOAP ルーター
+
+>[!IMPORTANT]
+>
+>Microsoft OAuth 2.0 を使用して POP3 外部アカウントを設定する前に、まず Azure portal にアプリケーションを登録する必要があります。詳しくは、[このページ](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app)を参照してください。
+
+を使用して POP3 外部を設定するには **Microsoft OAuth 2.0**、 **[!UICONTROL Microsoft OAuth 2.0]** 「 」オプションを選択し、次のフィールドに入力します。
+
+* **[!UICONTROL Azure テナント]**
+
+   Azure ID（またはディレクトリ（テナント）ID）は、Azure portal のアプリケーションの概要の「**初期設定**」ドロップダウンで確認できます。
+
+* **[!UICONTROL Azure クライアント ID]**
+
+   クライアント ID（またはアプリケーション（クライアント）ID）は、Azure portal のアプリケーションの概要の「**初期設定**」ドロップダウンで確認できます。
+
+* **[!UICONTROL Azure Client Secret]**
+
+   クライアントシークレット ID は、Azure portal のアプリケーションの&#x200B;**証明書と秘密鍵**&#x200B;メニューから、「**クライアントシークレット**」列で確認することができます。
+
+* **[!UICONTROL Azure リダイレクト URL]**
+
+   リダイレクト URL は Azure portal のアプリケーションの&#x200B;**認証**&#x200B;メニューで確認することができます。次の構文で `nl/jsp/oauth.jsp` 終わる必要があります。例：`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
+
+別の資格情報を入力した後、**[!UICONTROL 接続の設定]**&#x200B;をクリックして、外部アカウントの設定を完了できます。
 
 ### ルーティング{#routing-external-account}
 
@@ -166,6 +194,14 @@ SFTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバー
 * **[!UICONTROL パスワード]**
 
    SFTP サーバーへの接続に使用するパスワード。
+
+Windows で SSH キーを追加するには：
+
+1. を作成します。 **ホーム** 環境変数に値を設定し、インストールディレクトリに設定します。
+
+2. 秘密鍵を `/$HOME/.ssh/id_rsa` フォルダー。
+
+3. Adobe Campaignサービスを再起動します。
 
 ### 外部データベース（FDA） {#external-database-external-account}
 

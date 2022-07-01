@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: a2590a6d8df1e73d77bbdef7b8cf3b2d6efe207f
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '2576'
+source-wordcount: '2585'
 ht-degree: 99%
 
 ---
@@ -677,6 +677,8 @@ ht-degree: 99%
             + [Sybase IQ の設定](installation/using/configure-fda-sybase.md)
             + [Teradata の設定](installation/using/configure-fda-teradata.md)
             + [SAP HANA の設定](installation/using/configure-fda-sap-hana.md)
+            + [Microsoft SQL Server の設定](installation/using/configure-fda-sql.md)
+            + [PostgreSQL の設定](installation/using/configure-fda-postgresql.md)
          + [リモートアクセス権](installation/using/remote-database-access-rights.md)
          + [データベースへの接続](installation/using/connecting-to-database.md)
          + [データスキーマの作成](installation/using/creating-data-schema.md)
@@ -688,6 +690,7 @@ ht-degree: 99%
       + [インスタンスの新規作成](installation/using/creating-new-instances.md)
       + [Campaign オプションの一覧](installation/using/configuring-campaign-options.md)
       + [Campaign のアンインストール](installation/using/uninstalling-campaign.md)
+      + [新しいフォントをインストール](installation/using/install-fonts.md)
 + 監視ガイド {#monitoring-campaign-classic}
    + はじめに {#introduction}
       + [前書き](production/using/foreword.md)

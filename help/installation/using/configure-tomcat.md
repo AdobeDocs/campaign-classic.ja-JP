@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
-source-git-commit: ed9e76495efb0cb49e248a7d38417642c5094a11
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -49,3 +49,15 @@ Tomcat サーバーの 8080 リスニングポートが、設定に必要な別�
 ```
 
 必要に応じて、この操作をサーバー側で再生できます。
+
+## Tomcat エラーレポートを非表示にする {#hide-tomcat-error-report}
+
+セキュリティ上の理由から、Tomcat エラーレポートを非表示にすることを強くお勧めします。 次に手順を示します。
+
+1. を開きます。 **server.xml** 次の場所にあるファイル： **/tomcat-8/conf** Adobe Campaignインストールフォルダーのディレクトリ：  `/usr/local/neolane/nl6/tomcat-8/conf`
+1. 既存のすべてのコンテキスト要素の後に、下部に次の要素を追加します。
+
+   ```
+   <Valve className="org.apache.catalina.valves.ErrorReportValve" showReport="false" showServerInfo="false"/>
+   ```
+1. nlserver および Apache Web サーバーを再起動します。

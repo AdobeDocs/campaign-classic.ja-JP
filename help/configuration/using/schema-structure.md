@@ -6,10 +6,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 83%
+source-wordcount: '1526'
+ht-degree: 85%
 
 ---
 
@@ -175,33 +175,27 @@ ht-degree: 83%
 <table> 
  <tbody> 
   <tr> 
+   <td> <strong>Adobe Campaign</strong><br /> </td> 
    <td> <strong>PosgreSQL</strong><br /> </td> 
    <td> <strong>Oracle</strong><br /> </td> 
    <td> <strong>MS SQL</strong><br /> </td> 
-   <td> <strong>Adobe Campaign</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> 文字列<br /> </td> 
    <td> VARCHAR(255)<br /> </td> 
    <td> VARCHAR2 （unicode の場合は NVARCHAR2）<br /> </td> 
-   <td> VARCHAR (VARCHAR 文字セット UNICODE （Unicode の場合）)<br /> </td> 
-   <td> VARCHAR<br /> </td> 
    <td> VARCHAR （Unicode の場合は NVARCHAR）<br /> </td> 
   </tr> 
   <tr> 
    <td> ブール値<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
-   <td> NUMERIC(3)<br /> </td> 
-   <td> SMALLINT<br /> </td> 
    <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
    <td> バイト<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
-   <td> NUMERIC(3)<br /> </td> 
-   <td> SMALLINT<br /> </td> 
    <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
@@ -209,15 +203,11 @@ ht-degree: 83%
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(5)<br /> </td> 
    <td> SMALLINT<br /> </td> 
-   <td> SMALLINT<br /> </td> 
-   <td> SMALLINT<br /> </td> 
   </tr> 
   <tr> 
    <td> 重複<br /> </td> 
    <td> 倍精度<br /> </td> 
    <td> 浮動小数点<br /> </td> 
-   <td> 浮動小数点<br /> </td> 
-   <td> DOUBLE<br /> </td> 
    <td> 浮動小数点<br /> </td> 
   </tr> 
   <tr> 
@@ -225,22 +215,16 @@ ht-degree: 83%
    <td> 整数<br /> </td> 
    <td> NUMBER(10)<br /> </td> 
    <td> 整数<br /> </td> 
-   <td> 整数<br /> </td> 
-   <td> 整数<br /> </td> 
   </tr> 
   <tr> 
    <td> Int64<br /> </td> 
    <td> BIGINT<br /> </td> 
    <td> NUMBER(20)<br /> </td> 
-   <td> NUMERIC(20)<br /> </td> 
-   <td> BIGINT<br /> </td> 
    <td> BIGINT<br /> </td> 
   </tr> 
   <tr> 
    <td> 日付<br /> </td> 
    <td> 日付<br /> </td> 
-   <td> 日付<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
    <td> 日付<br /> </td> 
    <td> DATETIME<br /> </td> 
   </tr> 
@@ -248,24 +232,18 @@ ht-degree: 83%
    <td> 時刻<br /> </td> 
    <td> 時間<br /> </td> 
    <td> 浮動小数点<br /> </td> 
-   <td> 時間<br /> </td> 
-   <td> 時間<br /> </td> 
    <td> 浮動小数点<br /> </td> 
   </tr> 
   <tr> 
    <td> 日時<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> 日付<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
    <td> MS SQL &lt; 2008:DATETIME<br /> MS SQL &gt;= 2012:DATETIMEOFFSET<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetimenotz<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> 日付<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
-   <td> TIMESTAMP<br /> </td> 
    <td> MS SQL &lt; 2008:DATETIME<br /> MS SQL &gt;= 2012:DATETIME2<br /> </td> 
   </tr> 
   <tr> 
@@ -273,23 +251,17 @@ ht-degree: 83%
    <td> 倍精度<br /> </td> 
    <td> 浮動小数点<br /> </td> 
    <td> 浮動小数点<br /> </td> 
-   <td> DOUBLE<br /> </td> 
-   <td> 浮動小数点<br /> </td> 
   </tr> 
   <tr> 
    <td> メモ<br /> </td> 
    <td> テキスト<br /> </td> 
    <td> CLOB （Unicode の場合は NCLOB）<br /> </td> 
-   <td> CLOB （UNICODE の場合は CLOB 文字セット UNICODE）<br /> </td> 
-   <td> クロブ (6M)<br /> </td> 
    <td> テキスト（Unicode の場合は NTEXT）<br /> </td> 
   </tr> 
   <tr> 
    <td> Blob<br /> </td> 
    <td> BLOB<br /> </td> 
    <td> BLOB<br /> </td> 
-   <td> BLOB<br /> </td> 
-   <td> BLOB(4M)<br /> </td> 
    <td> 画像<br /> </td> 
   </tr> 
  </tbody> 

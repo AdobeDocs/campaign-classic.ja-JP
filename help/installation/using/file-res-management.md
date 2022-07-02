@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 0%
+source-wordcount: '598'
+ht-degree: 1%
 
 ---
 
@@ -27,11 +27,7 @@ ht-degree: 0%
 
 使用可能な書式を制限するには、属性値を有効な Java 正規表現で置き換えます。 複数の値を入力する場合は、コンマで区切ります。
 
-例： **uploadWhiteList=&quot;.*.png,.*.jpg&quot;** は、サーバーに PNG 形式およびJPG形式をアップロードできます。 他の形式は使用できません。
-
->[!NOTE]
->
->Internet Explorer では、完全なファイルパスを正規表現で検証する必要があります。
+例： **uploadWhiteList=&quot;.&#42;.png,.&#42;.jpg&quot;** は、サーバーに PNG 形式およびJPG形式をアップロードできます。 他の形式は使用できません。
 
 また、Web サーバーを設定して、重要なファイルがアップロードされないようにすることもできます。 [詳細情報](web-server-configuration.md)
 

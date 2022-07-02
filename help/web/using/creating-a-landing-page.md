@@ -4,10 +4,10 @@ title: ランディングページの作成
 description: ランディングページの作成
 feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
+workflow-type: tm+mt
+source-wordcount: '764'
+ht-degree: 96%
 
 ---
 
@@ -88,7 +88,7 @@ Web アプリケーションに挿入された各ページについて、これ�
 
 >[!CAUTION]
 >
->**DCE は、読み込んだ HTML ページの JavaScript を実行します。** HTML テンプレートの JavaScript エラーは、Adobe Campaign インターフェイスに表示されることがあります。これらのエラーは、エディターとは関係ありません。インポートしたファイルにエラーがないことを確認するには、ファイルを DCE にインポートする前に、ブラウザー（Internet Explorer／Firefox／Chrome）でテストすることをお勧めします。
+>**DCE は、読み込んだ HTML ページの JavaScript を実行します。** HTML テンプレートの JavaScript エラーは、Adobe Campaign インターフェイスに表示されることがあります。これらのエラーは、エディターとは関係ありません。読み込んだファイルにエラーがないことを確認するには、ファイルを DCE に読み込む前に、Web ブラウザーでテストすることをお勧めします。
 
 ## 手順 2 - コンテンツの設定 {#step-2---configuring-the-content}
 

@@ -1,21 +1,22 @@
 ---
 product: campaign
 title: 新しい配信サーバーに移行
-description: Campaign 配信サーバーの実装方法を説明します
+description: Campaign 配信サーバーの実装方法を学ぶ
 hide: true
 hidefromtoc: true
-source-git-commit: 65ab862ec568647dd06c1f7b7b83e5b921353cc7
-workflow-type: tm+mt
+exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
+source-git-commit: cc13afe3b65864ced1141034344c8243a1939834
+workflow-type: ht
 source-wordcount: '952'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
-# キャンペーン配信サーバー {#acc-deliverability}
+# Campaign 配信サーバー {#acc-deliverability}
 
-Campaign Classicv7 21.1 リリースより、Adobe Campaignは、高可用性をもたらし、セキュリティコンプライアンスの問題に対処する新しい配信品質サーバーを提案します。 Campaign Classicは、新しい配信品質サーバーとの間で、配信品質ルール、broadlog および抑制アドレスを同期するようになりました。
+Campaign Classic v7 21.1 リリースより、Adobe Campaign は、高可用性をもたらし、セキュリティコンプライアンスの問題に対処する新しい配信サーバーを提案します。Campaign Classic は、新しい配信サーバーとの間で、配信品質ルール、broadLog および抑制アドレスを同期するようになりました。
 
-Campaign Classicのお客様は、新しい配信品質サーバーを実装する必要があります
+Campaign Classic のお客様は、新しい配信サーバーを実装する必要があります
 
 >[!NOTE]
 >
@@ -23,14 +24,14 @@ Campaign Classicのお客様は、新しい配信品質サーバーを実装す�
 
 ## 変更点{#acc-deliverability-changes}
 
-Adobeは、セキュリティコンプライアンス上の理由により、古いデータセンターを廃止しています。 Adobe Campaign Classicのクライアントは、Amazon Web Service(AWS) でホストされる新しい配信品質サービスに移行する必要があります。
+アドビは、セキュリティコンプライアンス上の理由により、古いデータセンターを廃止しています。Adobe Campaign Classic のクライアントは、Amazon Web Service（AWS）でホストされる新しい配信サービスに移行する必要があります。
 
-この新しいサーバーは、高い可用性 (99.9) を保証し、安全で認証済みのエンドポイントを提供し&#x200B;て、キャンペーンサーバーが必要なデータを取得できるようにします。新しい配信品質サーバーは、リクエストごとにデータベースに接続するのではなく、可能な限りリクエストに対応するためにデータをキャッシュします。 このメカニズムにより、応答時間が短縮されま&#x200B;す。
+この新しいサーバーは、高い可用性（99.9）を保証し、安全で認証済みのエンドポイントを提供して、キャンペーンサーバーが必要なデータを取得できるようにします。新しい配信サーバーは、リクエストごとにデータベースに接続するのではなく、可能な限りリクエストに対応するためにデータをキャッシュします。このメカニズムにより、応答時間が改善されます。
 
 
 ## 影響の有無{#acc-deliverability-impacts}
 
-古いAdobe Campaign配信品質サーバーを使用していて、環境が Campaign 21.1.1 よりも低いビルドで実装された場合は、影響を受けます。 Campaign 21.1（またはそれ以上）にアップグレードする必要があります。
+古い Adobe Campaign 配信サーバーを使用していて、環境が Campaign 21.1.1 よりも低いビルドで実装されている場合は、影響を受けます。Campaign 21.1（またはそれ以上）にアップグレードする必要があります。
 
 バージョンを確認する方法については、](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)この節[を参照してください。
 
@@ -38,31 +39,30 @@ Adobeは、セキュリティコンプライアンス上の理由により、古
 
 ホステッド環境のお客様の場合、アドビはお客様と協力してインスタンスを新しいバージョンにアップグレードします。
 
-オンプレミス/ハイブリッド型の顧客は、新しい配信品質サーバーのメリットを活用するには、新しいバージョンの 1 つにアップグレードする必要があります。
-すべてのインスタンスをアップグレードすると、次の操作が可能になります。 [新しい統合の実装](#implementation-steps) をAdobe配信サーバーに追加し、シームレスな移行を確保します。
+オンプレミス／ハイブリッド環境のお客様の場合、新しい配信サーバーのメリットを享受するには、新しいバージョンの 1 つにアップグレードする必要があります。すべてのインスタンスがアップグレードされると、アドビ配信サーバーに[新しい統合を実装し](#implementation-steps)、シームレスな移行を確実に行うことができるようになります。
 
 ## 実装手順（ハイブリッドおよびオンプレミスのお客様） {#implementation-steps}
 
 >[!IMPORTANT]
 >
->これらの手順は、ハイブリッド実装とオンプレミス実装のみで実行する必要があります。
+>これらの手順は、ハイブリッド実装とオンプレミス実装でのみ実行してください。
 >
->ホストされている実装の場合は、にお問い合わせください。 [Adobeカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>ホスト環境での実装については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 ### 前提条件{#prerequisites}
 
-新しい配信品質サーバーの統合の一環として、Campaign は、Identity Managementサービス (IMS) ベースの認証を通じてAdobeの Shared Services と通信する必要があります。 推奨される方法は、Adobe Developerベースのゲートウェイトークン ( テクニカルアカウントトークンまたはAdobeI/O JWT とも呼ばれます ) を使用することです。
+新しい配信サーバーの統合の一環として、Campaign は、Identity Management Service（IMS）ベースの認証を経由して Adobe Shared Services と通信する必要があります。推奨される方法は、Adobe Developer ベースのゲートウェイトークン（テクニカルアカウントトークンまたは Adobe I/O JWT とも呼ばれます ) を使用することです。
 
-### 手順 1:Adobe Developerプロジェクトを作成/更新 {#adobe-io-project}
+### 手順 1：Adobe Developer プロジェクトを作成／更新 {#adobe-io-project}
 
-1. アクセス [Adobe Developer Console](https://developer.adobe.com/console/home) 組織の開発者アクセス権でログインします。
+1. [Adobe Developer Console](https://developer.adobe.com/console/home) にアクセスし、組織の開発者アクセス権を使用してログインします。
 
    >[!NOTE]
    >
    > 正しい組織ポータルにログインしていることを確認します。
 
-1. 「**[!UICONTROL + プロジェクトに追加]**」を選択して、「**[!UICONTROL API]**」を選択します。
-1. 内 **[!UICONTROL API を追加]** ウィンドウ：選択 **[!UICONTROL Adobe Campaign]**.
+1. 「**[!UICONTROL + プロジェクトに追加]**」、「**[!UICONTROL API]**」の順に選択します。
+1. **[!UICONTROL API を追加]**&#x200B;ウィンドウで、「**[!UICONTROL Adobe Campaign]**」を選択します。
 1. 認証のタイプとして「**[!UICONTROL Service Account (JWT)]**」を選択します。
 1. クライアント ID が空の場合は、「**[!UICONTROL キーペアを生成]**」を選択して、公開鍵と秘密鍵のペアを作成します。
 
@@ -73,11 +73,11 @@ Adobeは、セキュリティコンプライアンス上の理由により、古
    >再度ダウンロードすることができないので、ダウンロードプロンプトが表示されたら、config.zip ファイルを保存してください。
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
-1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、必要に応じて新しいプロファイルを作成します。 この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;には権限は必要ありません。 詳しくは、 [!DNL Analytics] **[!UICONTROL 製品プロファイル]**（を参照） [このページ](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html).
+1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、必要に応じて新しいプロファイルを作成します。 この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;には権限は必要ありません。 [!DNL Analytics] **[!UICONTROL 製品プロファイル]**&#x200B;について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)を参照してください。
 
    次に、「**[!UICONTROL 設定済み API を保存]**」をクリックします。
 
-1. プロジェクトから、 **[!UICONTROL Adobe Campaign]** 次の情報を **[!UICONTROL サービスアカウント (JWT)]**:
+1. プロジェクトから **[!UICONTROL Adobe Campaign]** を選択し、「**[!UICONTROL サービスアカウント（JWT）]**」の下に次の情報をコピーします。
 
    * **[!UICONTROL クライアント ID]**
    * **[!UICONTROL クライアント秘密鍵]**
@@ -86,7 +86,7 @@ Adobeは、セキュリティコンプライアンス上の理由により、古
 
 >[!CAUTION]
 >
->Adobe Developer証明書は、12 ヶ月後に期限が切れます。 毎年新しいキーペアを生成する必要があります。
+>Adobe Developer 証明書は 12 か月後に期限が切れます。毎年新しいキーペアを生成する必要があります。
 
 ### 手順 2：Adobe Campaign へのプロジェクト資格情報の追加 {#add-credentials-campaign}
 
@@ -108,41 +108,43 @@ Adobeは、セキュリティコンプライアンス上の理由により、古
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
 
-1. 変更を反映させるには、サーバーを停止してから再起動する必要があります。 また、 `config -reload` コマンドを使用します。
+1. 変更を反映させるには、サーバーを停止し、再起動する必要があります。 また、 `config -reload` コマンドを使用します。
 
-### 手順 3:設定を確認
+### 手順 3：設定を確認
 
 設定が完了したら、インスタンスの設定を確認できます。 以下の手順に従います。
 
-1. クライアントコンソールを開き、管理者としてAdobe Campaignにログオンします。
-1. 参照先 **管理/プラットフォーム/オプション**.
-1. 次を確認します。 `DmRendering_cuid` オプションの値が入力されます。 すべての Campaign インスタンス (MKT、MID、RT、EXEC) で入力する必要があります。 値が入力されていない場合は、値を入力する必要があります。 値が入力されていない場合は、に連絡してください。 [Adobeカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) をクリックして CUID を取得します。
+1. クライアントコンソールを開き、管理者としてAdobe Campaign にログオンします。
+1. **管理／プラットフォーム／オプション**&#x200B;を参照します。
+1. `DmRendering_cuid` オプションの値が入力されていることを確認します。 すべての Campaign インスタンス（MKT、MID、RT、EXEC）で入力する必要があります。値が入力されていない場合は、入力する必要があります。値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) に連絡して CUID を取得してください。
 
-### 手順 4:新しい配信サーバーを有効にする
+### 手順 4：新しい配信サーバーを有効にする
 
-これで、新しい配信品質サーバーを有効にできます。 次の手順を実行します。
+これで、新しい配信サーバーを有効にできます。次の手順を実行します。
 
-1. クライアントコンソールを開き、管理者としてAdobe Campaignにログオンします。
-1. 参照先 **管理/プラットフォーム/オプション**.
-1. 次にアクセス： `NewDeliverabilityServer_FeatureFlag` オプションを選択し、値を `1`. この設定は、すべての Campaign インスタンス (MKT、MID、RT、EXEC) で実行する必要があります。
-
-
-### 手順 5:設定の検証
-
-統合が成功したことを確認するには、次の手順に従います。
+1. クライアントコンソールを開き、管理者としてAdobe Campaign にログオンします。
+1. **管理／プラットフォーム／オプション**&#x200B;を選択します。
+1. `NewDeliverabilityServer_FeatureFlag` オプションにアクセスし、値を `1` に設定します。この設定は、すべての Campaign インスタンス（MKT、MID、RT、EXEC）で実行する必要があります。
 
 
-1. クライアントコンソールを開き、Adobe Campaignにログオンします。
-1. 参照先 **管理/プロダクション/テクニカルワークフロー**.
-1. を再起動します。 **配信品質の更新** (deliverabilityUpdate) ワークフロー。 これは、すべての Campaign インスタンス (MKT、MID、RT、EXEC) で実行する必要があります。
-1. ログを確認する：ワークフローは、エラーなしで実行する必要があります。
+### 手順 5：設定を検証
+
+統合が成功したことを確認するには、以下の手順に従います。
+
+
+1. クライアントコンソールを開き、Adobe Campaign にログオンします。
+1. **管理／プロダクション／テクニカルワークフロー**&#x200B;を参照します。
+1. **配信品質を更新**（deliverabilityUpdate）ワークフローを再起動します。 これは、すべての Campaign インスタンス（MKT、MID、RT、EXEC）で実行する必要があります。
+1. ログを確認：ワークフローは、エラーなく実行する必要があります。
 
 ## FAQ{#faq-aa}
 
-Q:回答：
+Q：
+A：
 
-Q:回答：
+Q：
+A：
 
 
 
-詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。

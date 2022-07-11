@@ -5,7 +5,7 @@ description: Campaign 配信サーバーの実装方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 6740b5eed33612bd7a3b217a8f53b07518f879fb
+source-git-commit: 4ad6f1e3a3d23383d17f947430c32fecefb3a8e1
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 64%
@@ -77,6 +77,7 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;新しい配信品�
    >[!CAUTION]
    >
    >別の統合 (Analytics コネクタ、Adobeトリガーなど ) で既にAdobeI/O JWT 認証機能を使用している場合は、 **キャンペーン API** をそのプロジェクトに追加します。
+
 1. 選択 **[!UICONTROL API を追加]**.
    ![](assets/Add-API.png)
 1. **[!UICONTROL API を追加]**&#x200B;ウィンドウで、「**[!UICONTROL Adobe Campaign]**」を選択します。

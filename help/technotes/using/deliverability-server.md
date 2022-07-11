@@ -5,10 +5,10 @@ description: Campaign 配信サーバーの実装方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: a007e4d5dd73f01657f1642be6f0b1a92f39e9bf
+source-git-commit: 2e4d699aef0bea4f12d1bd2d715493c4a94a74dd
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 87%
+source-wordcount: '969'
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 Campaign Classic v7 21.1 リリースより、Adobe Campaign は、高可用性をもたらし、セキュリティコンプライアンスの問題に対処する新しい配信サーバーを提案します。Campaign Classic は、新しい配信サーバーとの間で、配信品質ルール、broadLog および抑制アドレスを同期するようになりました。
 
-Campaign Classic のお客様は、新しい配信サーバーを実装する必要があります
+Campaign Classic のお客様は、新しい配信サーバーを実装する必要があります。
 
 >[!NOTE]
 >
@@ -27,7 +27,6 @@ Campaign Classic のお客様は、新しい配信サーバーを実装する必
 アドビは、セキュリティコンプライアンス上の理由により、古いデータセンターを廃止しています。Adobe Campaign Classic のクライアントは、Amazon Web Service（AWS）でホストされる新しい配信サービスに移行する必要があります。
 
 この新しいサーバーは、高い可用性（99.9）を保証し、安全で認証済みのエンドポイントを提供して、キャンペーンサーバーが必要なデータを取得できるようにします。新しい配信サーバーは、リクエストごとにデータベースに接続するのではなく、可能な限りリクエストに対応するためにデータをキャッシュします。このメカニズムにより、応答時間が改善されます。
-
 
 ## 影響の有無{#acc-deliverability-impacts}
 
@@ -43,6 +42,9 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;新しい配信品�
 
 ## 実装手順（ハイブリッドおよびオンプレミスのお客様） {#implementation-steps}
 
+新しい配信サーバーの統合の一環として、Campaign は、Identity Management Service（IMS）ベースの認証を経由して Adobe Shared Services と通信する必要があります。推奨される方法は、Adobe Developerベースのゲートウェイトークン ( テクニカルアカウントトークンまたはAdobeI/O JWT とも呼ばれます ) を使用することです。
+
+
 >[!WARNING]
 >
 >これらの手順は、ハイブリッド実装とオンプレミス実装でのみ実行してください。
@@ -51,11 +53,18 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;新しい配信品�
 
 ### 前提条件{#prerequisites}
 
-新しい配信サーバーの統合の一環として、Campaign は、Identity Management Service（IMS）ベースの認証を経由して Adobe Shared Services と通信する必要があります。推奨される方法は、Adobe Developer ベースのゲートウェイトークン（テクニカルアカウントトークンまたは Adobe I/O JWT とも呼ばれます ) を使用することです。
+実装を開始する前に、インスタンスの設定を確認します。
+
+1. Campaign クライアントコンソールを開き、管理者としてAdobe Campaignにログオンします。
+1. **管理／プラットフォーム／オプション**&#x200B;を参照します。
+1. `DmRendering_cuid` オプションの値が入力されていることを確認します。 
+
+   * オプションが入力された場合は、実装を開始できます。
+   * 値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) に連絡して CUID を取得してください。
+
+      このオプションは、すべてのキャンペーンインスタンス (MKT、MID、RT、EXEC) に対して同じ値で入力する必要があります。
 
 ### 手順 1：Adobe Developer プロジェクトを作成／更新 {#adobe-io-project}
-
-
 
 1. [Adobe Developer Console](https://developer.adobe.com/console/home) にアクセスし、組織の開発者アクセス権を使用してログインします。
 
@@ -126,15 +135,7 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;新しい配信品�
 
 1. 変更を反映させるには、サーバーを停止し、再起動する必要があります。 また、 `config -reload` コマンドを使用します。
 
-### 手順 3：設定を確認
-
-設定が完了したら、インスタンスの設定を確認できます。 以下の手順に従います。
-
-1. クライアントコンソールを開き、管理者としてAdobe Campaign にログオンします。
-1. **管理／プラットフォーム／オプション**&#x200B;を参照します。
-1. `DmRendering_cuid` オプションの値が入力されていることを確認します。 すべての Campaign インスタンス（MKT、MID、RT、EXEC）で入力する必要があります。値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) に連絡して CUID を取得してください。
-
-### 手順 4：新しい配信サーバーを有効にする
+### 手順 3：新しい配信サーバーを有効にする
 
 これで、新しい配信サーバーを有効にできます。次の手順を実行します。
 
@@ -142,7 +143,7 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;新しい配信品�
 1. **管理／プラットフォーム／オプション**&#x200B;を選択します。
 1. `NewDeliverabilityServer_FeatureFlag` オプションにアクセスし、値を `1` に設定します。この設定は、すべての Campaign インスタンス（MKT、MID、RT、EXEC）で実行する必要があります。
 
-### 手順 5：設定を検証
+### 手順 4：設定を検証
 
 統合が成功したことを確認するには、以下の手順に従います。
 

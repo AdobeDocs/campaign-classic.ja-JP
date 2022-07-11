@@ -5,10 +5,10 @@ description: Campaign 配信サーバーの実装方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 2c70b5a4434b9fb22490eb3c1705f4e5c803643e
+source-git-commit: 6740b5eed33612bd7a3b217a8f53b07518f879fb
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 79%
+source-wordcount: '1109'
+ht-degree: 64%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 79%
 
 Campaign Classic v7 21.1 リリースより、Adobe Campaign は、高可用性をもたらし、セキュリティコンプライアンスの問題に対処する新しい配信サーバーを提案します。Campaign Classic は、新しい配信サーバーとの間で、配信品質ルール、broadLog および抑制アドレスを同期するようになりました。
 
-Campaign Classic のお客様は、新しい配信サーバーを実装する必要があります。
+Campaign Classic のお客様は、新しい配信サーバーを実装する必要があります **2022 年 8 月 31 日以前**.
 
 >[!NOTE]
 >
->これらの変更点に関するご質問については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>これらの変更に関するご質問は、 [FAQ](#faq)または連絡先 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## 変更点{#acc-deliverability-changes}
 
@@ -30,7 +30,7 @@ Campaign Classic のお客様は、新しい配信サーバーを実装する必
 
 ## 影響の有無{#acc-deliverability-impacts}
 
-古い Adobe Campaign 配信サーバーを使用していて、環境が Campaign 21.1.1 よりも低いビルドで実装されている場合は、影響を受けます。Campaign 21.1（またはそれ以上）にアップグレードする必要があります。
+環境がより低いビルドに実装されている場合 [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2)、影響を受けます。 Campaign v7.2.1（またはそれ以上）にアップグレードする必要があります。
 
 バージョンを確認する方法については、](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)この節[を参照してください。
 
@@ -150,5 +150,22 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;新しい配信品�
 1. **管理／プロダクション／テクニカルワークフロー**&#x200B;を参照します。
 1. **配信品質を更新**（deliverabilityUpdate）ワークフローを再起動します。 これは、すべての Campaign インスタンス（MKT、MID、RT、EXEC）で実行する必要があります。
 1. ログを確認：ワークフローは、エラーなく実行する必要があります。
+
+
+## よくある質問 {#faq}
+
+### 環境をアップグレードしない場合はどうなりますか。
+
+8 月 31 日までにアップグレードされなかった Campaign インスタンスは、Campaign 配信サーバーに接続できなくなります。 結果として、 **配信品質の更新** (deliverabilityUpdate) ワークフローは失敗します。 このワークフローは、MX ルールとインバウンスルールの日次更新を管理します。
+
+環境をアップグレードしない場合、E メール設定の同期は停止されます（MX 管理ルール、インバウンド E メールルール、ドメイン管理ルール、バウンスの選定ルール）。 これは、配信品質の長期化に影響を与える可能性があります。 これらのルールに大きな変更が加えられた場合は、この時点から手動で適用する必要があります。
+
+MKT インスタンスの場合は、 [グローバル抑制リスト](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) が影響を受けます。
+
+### 私は今アップグレードできません。 ガイダンスとは？
+
+8 月 31 日より前にインスタンスをアップグレードできない場合は、 **配信品質の更新** (deliverabilityUpdate) ワークフロー。古い配信品質サーバーとの同期が試みられないように、アップグレードが完了するまで。
+
+
 
 詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。

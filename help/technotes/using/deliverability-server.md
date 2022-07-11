@@ -5,10 +5,10 @@ description: Campaign 配信サーバーの実装方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: cc13afe3b65864ced1141034344c8243a1939834
-workflow-type: ht
-source-wordcount: '952'
-ht-degree: 100%
+source-git-commit: a007e4d5dd73f01657f1642be6f0b1a92f39e9bf
+workflow-type: tm+mt
+source-wordcount: '965'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,7 @@ Campaign Classic のお客様は、新しい配信サーバーを実装する必
 
 >[!NOTE]
 >
->これらの変更点に関するご質問については、[FAQ](#faq-aa) を参照してください。 詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>これらの変更点に関するご質問については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 ## 変更点{#acc-deliverability-changes}
 
@@ -37,17 +37,17 @@ Campaign Classic のお客様は、新しい配信サーバーを実装する必
 
 ## 更新方法{#acc-deliverability-update}
 
-ホステッド環境のお客様の場合、アドビはお客様と協力してインスタンスを新しいバージョンにアップグレードします。
+As a **ホスト顧客**&#x200B;の場合、Adobeはお客様と連携して、インスタンスを新しいバージョンにアップグレードし、Adobe Developer Console でプロジェクトを作成します。
 
-オンプレミス／ハイブリッド環境のお客様の場合、新しい配信サーバーのメリットを享受するには、新しいバージョンの 1 つにアップグレードする必要があります。すべてのインスタンスがアップグレードされると、アドビ配信サーバーに[新しい統合を実装し](#implementation-steps)、シームレスな移行を確実に行うことができるようになります。
+As a **オンプレミス/ハイブリッド顧客**&#x200B;新しい配信品質サーバーのメリットを活用するには、新しいバージョンの 1 つにアップグレードする必要があります。 すべてのインスタンスがアップグレードされると、アドビ配信サーバーに[新しい統合を実装し](#implementation-steps)、シームレスな移行を確実に行うことができるようになります。
 
 ## 実装手順（ハイブリッドおよびオンプレミスのお客様） {#implementation-steps}
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >これらの手順は、ハイブリッド実装とオンプレミス実装でのみ実行してください。
 >
->ホスト環境での実装については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>ホスト環境での実装については、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 ### 前提条件{#prerequisites}
 
@@ -55,29 +55,45 @@ Campaign Classic のお客様は、新しい配信サーバーを実装する必
 
 ### 手順 1：Adobe Developer プロジェクトを作成／更新 {#adobe-io-project}
 
+
+
 1. [Adobe Developer Console](https://developer.adobe.com/console/home) にアクセスし、組織の開発者アクセス権を使用してログインします。
 
    >[!NOTE]
    >
    > 正しい組織ポータルにログインしていることを確認します。
 
-1. 「**[!UICONTROL + プロジェクトに追加]**」、「**[!UICONTROL API]**」の順に選択します。
-1. **[!UICONTROL API を追加]**&#x200B;ウィンドウで、「**[!UICONTROL Adobe Campaign]**」を選択します。
-1. 認証のタイプとして「**[!UICONTROL Service Account (JWT)]**」を選択します。
-1. クライアント ID が空の場合は、「**[!UICONTROL キーペアを生成]**」を選択して、公開鍵と秘密鍵のペアを作成します。
+1. 選択 **[!UICONTROL 新規プロジェクトを作成]**.
+   ![](assets/New-Project.png)
 
-   キーは、デフォルトの有効期限 365 日で自動的にダウンロードされます。 有効期限が切れたら、新しいキーペアを作成し、設定ファイルで統合を更新する必要があります。 オプション 2 を使用すると、有効期限の長い&#x200B;**[!UICONTROL 公開鍵]**&#x200B;を手動で作成してアップロードすることを選択できます。
 
    >[!CAUTION]
    >
-   >再度ダウンロードすることができないので、ダウンロードプロンプトが表示されたら、config.zip ファイルを保存してください。
+   >別の統合 (Analytics コネクタ、Adobeトリガーなど ) で既にAdobeI/O JWT 認証機能を使用している場合は、 **キャンペーン API** をそのプロジェクトに追加します。
+1. 選択 **[!UICONTROL API を追加]**.
+   ![](assets/Add-API.png)
+1. **[!UICONTROL API を追加]**&#x200B;ウィンドウで、「**[!UICONTROL Adobe Campaign]**」を選択します。
+   ![](assets/AC-API.png)
+<!--1. Choose **[!UICONTROL Service Account (JWT)]** as the authentication type.-->
+1. クライアント ID が空の場合は、「**[!UICONTROL キーペアを生成]**」を選択して、公開鍵と秘密鍵のペアを作成します。
+   ![](assets/Generate-a-key-pair.png)
+
+   キーは、デフォルトの有効期限 365 日で自動的にダウンロードされます。 有効期限が切れたら、新しいキーペアを作成し、設定ファイルで統合を更新する必要があります。 オプション 2 を使用すると、有効期限の長い&#x200B;**[!UICONTROL 公開鍵]**を手動で作成してアップロードすることを選択できます。
+   ![](assets/New-key-pair.png)
+
+   >[!CAUTION]
+   >
+   >次のファイルを保存します。 `config.zip` ファイルをダウンロードする必要があります。
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
-1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、必要に応じて新しいプロファイルを作成します。 この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;には権限は必要ありません。 [!DNL Analytics] **[!UICONTROL 製品プロファイル]**&#x200B;について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)を参照してください。
+1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、必要に応じて新しいプロファイルを作成します。 この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;には権限は必要ありません。 **[!UICONTROL 製品プロファイル]**&#x200B;について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)を参照してください。
+   ![](assets/Product-Profile-API.png)
 
    次に、「**[!UICONTROL 設定済み API を保存]**」をクリックします。
 
-1. プロジェクトから **[!UICONTROL Adobe Campaign]** を選択し、「**[!UICONTROL サービスアカウント（JWT）]**」の下に次の情報をコピーします。
+1. プロジェクトから、 **[!UICONTROL Adobe Campaign]** 次の情報を **[!UICONTROL サービスアカウント (JWT)]**
+
+   ![](assets/Config-API.png)
 
    * **[!UICONTROL クライアント ID]**
    * **[!UICONTROL クライアント秘密鍵]**
@@ -116,7 +132,7 @@ Campaign Classic のお客様は、新しい配信サーバーを実装する必
 
 1. クライアントコンソールを開き、管理者としてAdobe Campaign にログオンします。
 1. **管理／プラットフォーム／オプション**&#x200B;を参照します。
-1. `DmRendering_cuid` オプションの値が入力されていることを確認します。 すべての Campaign インスタンス（MKT、MID、RT、EXEC）で入力する必要があります。値が入力されていない場合は、入力する必要があります。値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) に連絡して CUID を取得してください。
+1. `DmRendering_cuid` オプションの値が入力されていることを確認します。 すべての Campaign インスタンス（MKT、MID、RT、EXEC）で入力する必要があります。値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) に連絡して CUID を取得してください。
 
 ### 手順 4：新しい配信サーバーを有効にする
 
@@ -125,7 +141,6 @@ Campaign Classic のお客様は、新しい配信サーバーを実装する必
 1. クライアントコンソールを開き、管理者としてAdobe Campaign にログオンします。
 1. **管理／プラットフォーム／オプション**&#x200B;を選択します。
 1. `NewDeliverabilityServer_FeatureFlag` オプションにアクセスし、値を `1` に設定します。この設定は、すべての Campaign インスタンス（MKT、MID、RT、EXEC）で実行する必要があります。
-
 
 ### 手順 5：設定を検証
 
@@ -137,14 +152,4 @@ Campaign Classic のお客様は、新しい配信サーバーを実装する必
 1. **配信品質を更新**（deliverabilityUpdate）ワークフローを再起動します。 これは、すべての Campaign インスタンス（MKT、MID、RT、EXEC）で実行する必要があります。
 1. ログを確認：ワークフローは、エラーなく実行する必要があります。
 
-## FAQ{#faq-aa}
-
-Q：
-A：
-
-Q：
-A：
-
-
-
-詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。

@@ -5,7 +5,7 @@ description: Campaign 配信サーバーの実装方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 4ad6f1e3a3d23383d17f947430c32fecefb3a8e1
+source-git-commit: c3b1ffcb580c7510a64115e0abbf16cb766146c5
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 64%
@@ -82,7 +82,6 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;新しい配信品�
    ![](assets/Add-API.png)
 1. **[!UICONTROL API を追加]**&#x200B;ウィンドウで、「**[!UICONTROL Adobe Campaign]**」を選択します。
    ![](assets/AC-API.png)
-<!--1. Choose **[!UICONTROL Service Account (JWT)]** as the authentication type.-->
 1. クライアント ID が空の場合は、「**[!UICONTROL キーペアを生成]**」を選択して、公開鍵と秘密鍵のペアを作成します。
    ![](assets/Generate-a-key-pair.png)
 

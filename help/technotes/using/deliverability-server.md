@@ -5,16 +5,16 @@ description: Campaign 配信サーバーの実装方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: c3b1ffcb580c7510a64115e0abbf16cb766146c5
+source-git-commit: 5e0cf925ab4915c8a1d2c9d50daf77190023710f
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 64%
+source-wordcount: '1107'
+ht-degree: 62%
 
 ---
 
 # Campaign 配信サーバー {#acc-deliverability}
 
-Campaign Classic v7 21.1 リリースより、Adobe Campaign は、高可用性をもたらし、セキュリティコンプライアンスの問題に対処する新しい配信サーバーを提案します。Campaign Classic は、新しい配信サーバーとの間で、配信品質ルール、broadLog および抑制アドレスを同期するようになりました。
+開始中 [v7.2.1 リリース](../../rn/using/latest-release.md#release-7-2-2)Adobe Campaignは、高可用性を実現し、セキュリティコンプライアンスの問題に対処する新しい配信品質サーバーを提案します。 Campaign Classic は、新しい配信サーバーとの間で、配信品質ルール、broadLog および抑制アドレスを同期するようになりました。
 
 Campaign Classic のお客様は、新しい配信サーバーを実装する必要があります **2022 年 8 月 31 日以前**.
 

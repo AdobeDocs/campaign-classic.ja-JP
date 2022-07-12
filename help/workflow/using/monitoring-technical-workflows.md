@@ -4,10 +4,10 @@ title: テクニカルワークフローの監視
 description: テクニカルワークフローの監視
 feature: Workflows
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
-source-wordcount: '531'
-ht-degree: 100%
+source-git-commit: 25e8acdc449c7002e467db17e7c70e3dc017dded
+workflow-type: tm+mt
+source-wordcount: '533'
+ht-degree: 96%
 
 ---
 
@@ -48,9 +48,9 @@ ht-degree: 100%
 
 トラッキングワークフローがスケジュールどおりに実行され（デフォルトでは 1 時間ごと）、繰り返し発生するエラーがジャーナルにハイライト表示されていないことを確認します。詳しくは、[この節](delivery.md)を参照してください。
 
-**[!UICONTROL 配信品質の更新（「deliverabilityUpdate」）]**&#x200B;の場合：
+の場合 **[!UICONTROL 配信品質の更新 (deliverabilityUpdate)]**:
 
-1. 毎日、**[!UICONTROL 配信品質の更新]**&#x200B;ワークフローが実行され、正常に完了していることを確認します。
+1. 以下を確認します。 **[!UICONTROL 配信品質の更新]** ワークフローは毎日正常に実行され、完了します。
 1. ルールが定期的に更新されていることをジャーナルで検証します。
 
 **[!UICONTROL キャンペーンプロセス（「operationMgt」、「deliveryMgt」など]**）の場合：

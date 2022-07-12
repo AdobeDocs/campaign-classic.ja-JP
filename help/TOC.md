@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: 78d7d9776217fc4ee0c9cdc7636d5413fae9c8cb
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2579'
 ht-degree: 99%
 
 ---
@@ -837,7 +837,6 @@ ht-degree: 99%
    + [ハードウェアサイズについての推奨事項](technotes/using/hardware-sizing.md)
    + アップグレードと互換性{#technote-migration}
       + [テクニカルノート](technotes/using/technote.md)
-      + [新しい配信サーバーに対する更新](technotes/using/deliverability-server.md)
       + [Apache セキュリティアップグレード](technotes/using/acc-apache-upgrade.md)
       + [Campaign 設定の更新](technotes/using/acc-config-updates.md)
       + [IMS の更新](technotes/using/ims-updates.md)

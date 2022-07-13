@@ -5,18 +5,18 @@ description: Campaign 配信サーバーの実装方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: dfa28fc10bcfddcf35e8ddfa0af1fba718400350
+source-git-commit: 5d6ff45605980e5fe21933c5d8fb6c48e02f1628
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 56%
+source-wordcount: '1163'
+ht-degree: 54%
 
 ---
 
 # Campaign 配信サーバー {#acc-deliverability}
 
-開始中 [v7.2.1 リリース](../../rn/using/latest-release.md#release-7-2-2)Adobe Campaignは、高可用性を実現し、セキュリティコンプライアンスの問題に対処する新しい配信品質サーバーを提案します。 Campaign Classic は、新しい配信サーバーとの間で、配信品質ルール、broadLog および抑制アドレスを同期するようになりました。
+開始中 [v7.2.1 リリース](../../rn/using/latest-release.md#release-7-2-2)Adobe Campaignは、高可用性をもたらす新しい配信品質サーバーを利用し、セキュリティコンプライアンスの問題に対処します。 Campaign Classic は、新しい配信サーバーとの間で、配信品質ルール、broadLog および抑制アドレスを同期するようになりました。古い配信品質サーバーは 2022 年 8 月 31 日に廃止されます。
 
-Campaign Classic のお客様は、新しい配信サーバーを実装する必要があります **2022 年 8 月 31 日以前**.
+Campaign Classicのお客様は、新しい配信品質サーバーを実装する必要があります **2022 年 8 月 31 日以前**.
 
 >[!NOTE]
 >
@@ -30,13 +30,13 @@ Campaign Classic のお客様は、新しい配信サーバーを実装する必
 
 ## 影響の有無{#acc-deliverability-impacts}
 
-すべてのお客様が [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) 新しい配信品質サーバーのメリットを活用するために、環境を実装します。
+すべてのお客様が影響を受け、にアップグレードする必要があります。 [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) （またはそれ以上）、新しい配信品質サーバーのメリットを得るために、環境を実装します。
 
 ## 更新方法{#acc-deliverability-update}
 
 As a **ホスト顧客**&#x200B;の場合、Adobeはお客様と連携して、インスタンスを新しいバージョンにアップグレードし、Adobe Developer Console でプロジェクトを作成します。
 
-As a **オンプレミス/ハイブリッド顧客**&#x200B;を使用する場合は、 [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) 新しい配信品質サーバーのメリットを活用する すべてのインスタンスをアップグレードしたら、 [新しい統合の実装](#implementation-steps) をAdobe配信サーバーに追加し、シームレスな移行を確保します。
+As a **オンプレミス/ハイブリッド顧客**&#x200B;を使用する場合は、 [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) （またはその他の）新しい配信品質サーバーのメリットを得るために使用します。 すべてのインスタンスをアップグレードしたら、 [新しい統合の実装](#implementation-steps) をAdobe配信サーバーに追加し、シームレスな移行を確保します。
 
 ## 実装手順 {#implementation-steps}
 

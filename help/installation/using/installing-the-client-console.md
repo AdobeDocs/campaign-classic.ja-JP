@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: 0f63636e9cc22ac97e634a4f11dc585cb39b05c0
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 25%
@@ -36,7 +36,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 ## Adobeがホストする実装 {#hosted-customers}
 
-ホスト型の顧客に広告を表示するには、クライアントコンソールをインストールまたは更新する 2 つのオプションがあります。
+ホスト版のお客様には、クライアントコンソールをインストールまたは更新する 2 つのオプションがあります。
 
 1. Adobeは、直接デプロイできます。 コンソールを更新すると、ポップアップウィンドウで最新のクライアントコンソールバージョンをダウンロードするように求められます。
 

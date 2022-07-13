@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 97%
+source-wordcount: '768'
+ht-degree: 96%
 
 ---
 
@@ -364,8 +364,26 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 </tbody>
 </table>
 
+### Microsoft WebView2 ランタイム
 
-## モバイル SDK{#MobileSDK}
+<table>
+<tbody>
+<tr>
+<td>
+<p>Microsoft Edge WebView2 ランタイム
+</p>
+</td>
+<td>
+<p>最新バージョン</p>
+</td>
+<td>
+<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp">Microsoft Developer Web サイトからダウンロード</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Mobile SDK{#MobileSDK}
 
 以下に示すオペレーティングシステムでは、関連する [Mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) を使用して、Campaign を使用して[プッシュ通知を送信](../../delivery/using/about-mobile-app-channel.md)できます。
 

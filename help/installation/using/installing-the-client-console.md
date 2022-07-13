@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: 0f63636e9cc22ac97e634a4f11dc585cb39b05c0
+source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 25%
+source-wordcount: '1146'
+ht-degree: 22%
 
 ---
 
@@ -24,6 +24,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 * お使いのシステムとツールについて、Adobe Campaign クライアントコンソールとの互換性を[互換性マトリックス](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)で確認してください。
 * Campaign サーバーの URL を取得する
 * ユーザー資格情報を取得する
+* Microsoft Edge Webview2 ランタイムを (Campaign Classic7.3 のビルドバージョンから ) システムにインストールしておく。 [詳細情報](#webview)
 
 クライアントコンソールをインストールまたは更新するプロセスは、Adobe Campaign Classicの実装によって異なります。
 以下の詳細を確認して、実装に必要な事項を理解してください。
@@ -33,6 +34,12 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 >[!CAUTION]
 >
 >Campaign クライアントコンソールと Campaign アプリケーションサーバーは実行する必要があります **同じ製品バージョンで**. Adobeでは、 **同じ製品ビルド**. Campaign のクライアントとサーバーのバージョンを [この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+
+## Microsoft Edge Webview2 ランタイムインストール {#webview}
+
+Campaign Classic7.3 のビルドバージョン以降、コンソールのインストールにはMicrosoft Edge Webview 2 ランタイムのインストールが必要です。
+
+Web ビューは、Windows 11 オペレーティングシステムの一部として既定でインストールされます。 システム上にまだ存在しない場合は、Campaign Classicコンソールインストーラが、次の場所からダウンロードするように求めます。 [Microsoft Developer Web サイト](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp). Microsoftのサポートは廃止されたので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。 リンクにアクセスするには、別のブラウザーを使用してください。
 
 ## Adobeがホストする実装 {#hosted-customers}
 
@@ -150,6 +157,9 @@ If **[!UICONTROL 今後この質問をしない]**  が選択されている場�
 
 1. ユーザーログイン資格情報を入力し、 **[!UICONTROL ログイン]**
 
+>[!NOTE]
+>
+>Campaign Classic 7.3 のビルドバージョンでは、Adobe Campaignクライアントコンソールは、プロキシ認証中にプロキシ資格情報を 2 回要求する場合があります。 これは、Microsoft Edge Webview2 が Internet Explorer とは異なり、プロキシ資格情報をキャッシュ/パスワードストアに保存しないためです。
 
 **関連トピック**
 

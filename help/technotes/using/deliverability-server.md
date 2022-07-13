@@ -5,10 +5,10 @@ description: Campaign 配信サーバーの実装方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: bec525c52cb30dfae9530265bc3fdc2395879539
+source-git-commit: dfa28fc10bcfddcf35e8ddfa0af1fba718400350
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 59%
+source-wordcount: '1147'
+ht-degree: 56%
 
 ---
 
@@ -30,15 +30,13 @@ Campaign Classic のお客様は、新しい配信サーバーを実装する必
 
 ## 影響の有無{#acc-deliverability-impacts}
 
-環境がより低いビルドに実装されている場合 [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2)、影響を受けます。 Campaign v7.2.1（またはそれ以上）にアップグレードする必要があります。
-
-バージョンを確認する方法については、](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)この節[を参照してください。
+すべてのお客様が [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) 新しい配信品質サーバーのメリットを活用するために、環境を実装します。
 
 ## 更新方法{#acc-deliverability-update}
 
 As a **ホスト顧客**&#x200B;の場合、Adobeはお客様と連携して、インスタンスを新しいバージョンにアップグレードし、Adobe Developer Console でプロジェクトを作成します。
 
-As a **オンプレミス/ハイブリッド顧客**&#x200B;新しい配信品質サーバーのメリットを活用するには、新しいバージョンの 1 つにアップグレードする必要があります。 すべてのインスタンスがアップグレードされると、アドビ配信サーバーに[新しい統合を実装し](#implementation-steps)、シームレスな移行を確実に行うことができるようになります。
+As a **オンプレミス/ハイブリッド顧客**&#x200B;を使用する場合は、 [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) 新しい配信品質サーバーのメリットを活用する すべてのインスタンスをアップグレードしたら、 [新しい統合の実装](#implementation-steps) をAdobe配信サーバーに追加し、シームレスな移行を確保します。
 
 ## 実装手順 {#implementation-steps}
 
@@ -47,7 +45,7 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;新しい配信品�
 
 >[!WARNING]
 >
->これらの手順は、ハイブリッド実装とオンプレミス実装でのみ実行してください。
+>これらの手順は、ハイブリッド実装およびオンプレミス実装の場合にのみ実行してください。
 
 ### 前提条件{#prerequisites}
 

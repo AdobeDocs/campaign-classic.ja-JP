@@ -5,9 +5,9 @@ description: ビルトインレポートまたはカスタマイズされたレ�
 feature: Reporting
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-Adobe Campaign では、[組み込みレポート](../../reporting/using/about-campaign-built-in-reports.md)のほかにも、様々なコンテキストで様々なニーズに応えるレポートを生成できます。このドキュメントでは、使用モードと実装モードの基本事項について詳しく説明します。
+Adobe Campaign では、[ビルトインレポート](../../reporting/using/about-campaign-built-in-reports.md)のほかにも、様々なコンテキストで様々なニーズに応えるレポートを生成できます。
+このドキュメントでは、使用モードと実装モードの基本事項について詳しく説明します。
 
 Adobe Campaign は、レポート専用ツールではありません。Adobe Campaign で作成されたレポートを使用すると、主に集計データを表示できます。Adobe Campaign のレポートは、データの分析および表示専用であり、データベースエクスポート用には設計されていません。
 
@@ -23,7 +24,8 @@ Adobe Campaign データベースからデータをエクスポートするに�
 
 Adobe Campaign には、いくつかのレポートツールが用意されています。
 
-1. **組み込みレポート**：配信、キャンペーン、プラットフォームアクティビティ、オプション機能などに関する一連のレポートが用意されています。これらのレポートは、関連する様々な機能を通じて使用できます。具体的なニーズに合わせてレポートをカスタマイズすることもできます。
+1. **ビルトインレポート**：配信、キャンペーン、プラットフォームアクティビティ、オプション機能などに関する一連のレポートが用意されています。
+これらのレポートは、関連する様々な機能を通じて使用できます。具体的なニーズに合わせてレポートをカスタマイズすることもできます。
 
    詳しくは、[この節](../../reporting/using/about-campaign-built-in-reports.md)を参照してください。
 

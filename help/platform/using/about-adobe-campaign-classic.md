@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マ�
 * [Response Manager](../../response/using/about-response-manager.md)：顧客の応答の管理
 * [コネクタ](../../platform/using/about-connectors.md)：外部のソリューションやデータベースエンジンと通信するために使用
 * [web サービス](../../configuration/using/about-web-services.md)： API/web サービスを介した Campaign の使用
-* [レポート](../../reporting/using/about-adobe-campaign-reporting-tools.md)：組み込みレポートへのアクセス、データの分析および独自レポートのデザイン
+* [レポート](../../reporting/using/about-adobe-campaign-reporting-tools.md)：ビルトインレポートへのアクセス、データの分析および独自レポートのデザイン
 
 ## チュートリアルビデオ {#video}
 

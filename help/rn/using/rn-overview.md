@@ -6,20 +6,22 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 29e56d6bf2817eeb863cbe33f99233a8241f2bf5
-workflow-type: ht
-source-wordcount: '881'
-ht-degree: 100%
+source-git-commit: d59e9f55275bac303a5ed1450bb28ef7fa0f84cd
+workflow-type: tm+mt
+source-wordcount: '921'
+ht-degree: 90%
 
 ---
 
-# アップグレードの概要{#rn-overview}
+# リリースの更新{#rn-overview}
 
 ![](../../assets/v7-only.svg)
 
+Adobe Campaign Classicは、新しい機能、バグ修正、パフォーマンス、セキュリティ、操作性の向上をもたらす製品アップデートを定期的にリリースしています。 これらのアップデートは、製品ビルドとしてリリースされます。 新しい各ビルドに関する詳細は、 [リリースノート](latest-release.md).
+
 ## リリースのステータス{#rn-statuses}
 
-新しいビルドごとに、色分けされたステータスが表示されます。
+新しいビルドのたびに、ステータスが表示されます。ステータスは [リリースノート](latest-release.md).
 
 ![](assets/do-not-localize/green3.png) **一般提供**（GA）- 実稼動環境で検証済みでアドビが推奨する、最新の安定したビルド。
 
@@ -43,7 +45,7 @@ Adobe Campaign は定期的にアップデートされています。この定�
 
 安定した設定を確保するために、同じクライアント設定で実行しているすべてのサーバーに&#x200B;**同じビルド**&#x200B;をインストールすることをお勧めします。
 
-また、リリースノートで特に明記されていない限り、クライアントコンソールはサーバーインスタンスと&#x200B;**同じビルド**&#x200B;上にある必要があります。
+また、 [リリースノート](latest-release.md)を使用する場合は、クライアントコンソールを **同じビルド** をサーバーインスタンスとして使用します。
 
 実装を最新の状態に維持するため、新しいリリースのたびに、[廃止および削除された機能](../../rn/using/deprecated-features.md)と[互換性マトリックス](../../rn/using/compatibility-matrix.md)のページを必ずお読みください。
 
@@ -51,7 +53,9 @@ Adobe Campaign は定期的にアップデートされています。この定�
 
 ホステッド環境のお客様（マネージドサービスまたはハイブリッド）は、環境をアップグレードするには、カスタマーケアチームに連絡してください。
 
-オンプレミスユーザーは、アップグレードを実行できます。これを行うには、[最新の安定したビルド（GA）をダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)して、すべての環境をアップグレードします。[アップグレードプロセス](../../production/using/build-upgrade.md)について詳しくは、[ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md) を参照してください。
+オンプレミスユーザーは、アップグレードを実行できます。これを行うには、[最新の安定したビルド（GA）をダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)して、すべての環境をアップグレードします。
+
+詳しくは、 [アップグレードプロセス](../../production/using/build-upgrade.md)、および [ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md).
 
 ## 年次アップグレード {#yearly-upgrade}
 
@@ -124,7 +128,7 @@ Adobe Campaign Classic では、お客様に価値を提供するために、様
     </a>
     </div>
     <ul>
-    <li>Campaign Classic インスタンスのアップグレードに要する作業量やその複雑さは、2 つのバージョン（v5 --&gt; v7）の間隔が開くほど増大します。</li>
+    <li>Campaign Classic インスタンスのアップグレードに要する作業量やその複雑さは、2 つのバージョン（v6 --&gt; v7）の間隔が開くほど増大します。</li>
     <li>アップグレードを先送りにすればするほど、作業がより複雑になり、さらに多くの脆弱性にさらされます。</li>
     <li>定期的アップグレードの実行により、アップグレードにかかるダウンタイムとリグレッションのリスクが軽減されます。</li>
     </ul>

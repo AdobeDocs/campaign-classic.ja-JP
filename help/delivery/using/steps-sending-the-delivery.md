@@ -4,10 +4,10 @@ title: 配信の設定と送信
 description: 配信の設定と送信の方法を説明します
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: dfee069240c590846f7dda3134c07ad3ec514a26
-workflow-type: ht
-source-wordcount: '1652'
-ht-degree: 100%
+source-git-commit: d59e9f55275bac303a5ed1450bb28ef7fa0f84cd
+workflow-type: tm+mt
+source-wordcount: '1598'
+ht-degree: 88%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
->[!NOTE]
->
->配信を開始できるのは配信所有者だけです。別のオペレーター（またはオペレーターグループ）が配信を開始できるようにするには、レビュー担当者として「**[!UICONTROL 配信開始：]**」フィールドに追加する必要があります。詳しくは、[この節](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)を参照してください。
+## 権限{#delivery-permissions}
+
+配信を開始できるのは配信所有者だけです。他のオペレーター（またはオペレーターグループ）が配信を開始できるようにするには、レビュー担当者として **[!UICONTROL 配信開始：]** フィールドに入力します。 [詳細情報](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)。
 
 ## 配信の追加パラメーター {#delivery-additiona-parameters}
 
@@ -25,32 +25,32 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_wizard_delivery.png)
 
-* **[!UICONTROL 配信の優先順位]**：このオプションにより、配信の優先順位レベル（標準、高、低）を設定して、配信の送信順序に影響を与えることができます。これは、より緊急度の高い配信をそれ以外の配信よりも優先させるのに便利です。
+* **[!UICONTROL 配信の優先順位]**:配信の優先順位レベルを設定して配信の送信順序を変更するには、このオプションを使用します。標準、高、低
 
-* **[!UICONTROL メッセージのバッチサイズ]**：このオプションでは、1 つの XML 配信パッケージ内でグループ化するメッセージの件数を定義できます。このパラメーターが 0 に設定されている場合、メッセージは自動的にグループ化されます。パッケージサイズは、`<delivery size>/1024` という計算に基づいて決定されます（ただし、パッケージあたりのメッセージ件数は最小 8、最大 256）。
+* **[!UICONTROL メッセージのバッチ数]**:同じ XML 配信パッケージ内でグループ化するメッセージの数を定義するには、このオプションを使用します。 このパラメーターが 0 に設定されている場合、メッセージは自動的にグループ化されます。パッケージサイズは、`<delivery size>/1024` という計算に基づいて決定されます（ただし、パッケージあたりのメッセージ件数は最小 8、最大 256）。
 
    >[!IMPORTANT]
    >
-   >配信が重複した場合はパラメーターがリセットされます。
+   >既存の配信を複製して配信を作成すると、このパラメーターはリセットされます。
 
-* **[!UICONTROL 複数のウェーブを使用して送信]**：このオプションを使用して、オーディエンス全体に対してではなく、メッセージをウェーブで送信します。 バッチの数とその比率を設定します。 [詳細情報](#sending-using-multiple-waves)。
+* **[!UICONTROL 複数のウェーブを使用して送信]**:このオプションを使用して、オーディエンス全体に一度に送信するのではなく、メッセージをバッチで送信します。 [詳細情報](#sending-using-multiple-waves)。
 
-* **[!UICONTROL SMTP 配信をテスト]**：このオプションを使用して、SMTP 経由での送信をテストします。 配信は SMTP サーバーに接続するまで処理されますが、送信はされません。配信のすべての受信者について、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
+* **[!UICONTROL SMTP 配信をテスト]**:SMTP を介した送信をテストするには、このオプションを使用します。 配信は SMTP サーバーに接続するまで処理されますが、送信はされません。配信のすべての受信者について、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
 
    >[!NOTE]
    >
-   >* ミッドソーシングでは、このオプションは推奨されません。
+   >* このオプションは、中間ソーシングでは設定できません。
    >
    >* SMTP サーバー設定の詳細については、[この節](../../installation/using/configure-delivery-settings.md)を参照してください。
 
 
-* **[!UICONTROL BCC で E メールを送信]**：このオプションを使用すると、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存することができます。詳しくは、[この節](sending-messages.md#archiving-emails)を参照してください。
+* **[!UICONTROL BCC で E メールを送信]**:BCC 電子メールアドレスをメッセージのターゲットに追加するだけで、BCC 経由で電子メールを外部システムに保存するには、このオプションを使用します。 [詳細情報](sending-messages.md#archiving-emails)。
 
 ## 配信を確定 {#confirming-delivery}
 
-配信の設定が終わり、送信準備が整ったら、必ず配信分析を実行してください。
+配信が設定され、送信準備が整ったら、配信分析を実行します。
 
-これをおこなうには、「**[!UICONTROL 送信]**」をクリックし、目的のアクションを選択して、「**[!UICONTROL 分析]**」をクリックします。詳しくは、[分析の開始](steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
+これをおこなうには、「**[!UICONTROL 送信]**」をクリックし、目的のアクションを選択して、「**[!UICONTROL 分析]**」をクリックします。[詳細情報](steps-validating-the-delivery.md#analyzing-the-delivery)。
 
 ![](assets/s_ncs_user_email_del_send.png)
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 ## 配信送信のスケジュール設定 {#scheduling-the-delivery-sending}
 
-配信をスケジュールしたり、母集団に対する営業頻度を管理して過剰な営業活動をしないようするために、メッセージの配信を遅らせることができます。
+配信をスケジュールすることで、メッセージの送信を遅らせることができます。
 
 1. 「**[!UICONTROL 送信]**」ボタンをクリックし、「**[!UICONTROL 配信を延期]**」オプションを選択します。
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->分析を開始すると、定義したコンタクト日が固定されます。この日付を修正する場合は、修正内容が考慮されるように、分析を再度実行する必要があります。
+>分析を開始すると、定義したコンタクト日が固定されます。この日付を変更する場合、変更を考慮に入れるには、分析を再度開始する必要があります。
 
 ![](assets/s_ncs_user_email_del_start_delayed.png)
 

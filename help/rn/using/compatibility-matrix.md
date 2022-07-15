@@ -9,7 +9,7 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -393,14 +393,14 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <td>Android</td>
 <td>
 <p>12（Campaign v7.3 以降）、9.0、8.x、7.x</p>
-<p>モバイル SDK ビルド 1.1.1 の場合</p>
+<p>（モバイル SDK ビルド 1.1.1 を使用）</p>
 </td>
 </tr>
 <tr>
 <td>iOS</td>
 <td>
-<p>iOS 9 ～ 15</p>
-<p>モバイル SDK ビルド 1.0.26 付き（32 ビットおよび 64 ビットバージョンと互換）iOS 15 は Campaign v7.3 以降でサポートされます。</p>
+<p>iOS 9～15</p>
+<p>（32 ビットおよび 64 ビットバージョンと互換性のあるモバイル SDK ビルド 1.0.26 を使用）iOS 15 は Campaign v7.3 以降でサポートされています</p>
 </td>
 </tr>
 </tbody>

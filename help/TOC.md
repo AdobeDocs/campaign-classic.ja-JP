@@ -9,7 +9,7 @@ type: Documentation
 source-git-commit: 8221afc3b73e1ddce4143394a1d77eab3995d892
 workflow-type: tm+mt
 source-wordcount: '2585'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -690,7 +690,7 @@ ht-degree: 99%
       + [インスタンスの新規作成](installation/using/creating-new-instances.md)
       + [Campaign オプションの一覧](installation/using/configuring-campaign-options.md)
       + [Campaign のアンインストール](installation/using/uninstalling-campaign.md)
-      + [新しいフォントをインストール](installation/using/install-fonts.md)
+      + [新しいフォントのインストール](installation/using/install-fonts.md)
 + 監視ガイド {#monitoring-campaign-classic}
    + はじめに {#introduction}
       + [前書き](production/using/foreword.md)

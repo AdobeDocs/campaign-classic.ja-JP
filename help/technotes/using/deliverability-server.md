@@ -5,10 +5,10 @@ description: Campaign 配信サーバーの実装方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 5d6ff45605980e5fe21933c5d8fb6c48e02f1628
+source-git-commit: 6f6c329808e78a56a61997aba83c55520030afc7
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 54%
+source-wordcount: '1158'
+ht-degree: 51%
 
 ---
 
@@ -20,7 +20,7 @@ Campaign Classicのお客様は、新しい配信品質サーバーを実装す�
 
 >[!NOTE]
 >
->これらの変更に関するご質問は、 [FAQ](#faq)または連絡先 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>これらの変更に関する詳細な質問については、 [FAQ](#faq)または連絡先 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
 
 ## 変更点{#acc-deliverability-changes}
 
@@ -56,7 +56,7 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;を使用する場�
 1. `DmRendering_cuid` オプションの値が入力されていることを確認します。 
 
    * オプションが入力された場合は、実装を開始できます。
-   * 値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) に連絡して CUID を取得してください。
+   * 値が入力されていない場合は、に連絡してください。 [Adobeカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} をクリックして CUID を取得します。
 
       このオプションは、すべてのキャンペーンインスタンス (MKT、MID、RT、EXEC) に対して同じ値で入力する必要があります。 ハイブリッドのお客様は、Adobeに問い合わせて、MID、RT、EXEC の各インスタンスでオプションを設定してもらいます。
 
@@ -91,7 +91,7 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;を使用する場�
    >次のファイルを保存します。 `config.zip` ファイルをダウンロードする必要があります。
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
-1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、必要に応じて新しいプロファイルを作成します。 この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;には権限は必要ありません。 **[!UICONTROL 製品プロファイル]**&#x200B;について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)を参照してください。
+1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、必要に応じて新しいプロファイルを作成します。 この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;には権限は必要ありません。 詳しくは、 **[!UICONTROL 製品プロファイル]**（を参照） [このページ](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html){_blank}.
    ![](assets/Product-Profile-API.png)
 
    次に、「**[!UICONTROL 設定済み API を保存]**」をクリックします。
@@ -152,18 +152,17 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;を使用する場�
 
 ## よくある質問 {#faq}
 
+### 更新のタイムライン
+
+新しい配信サーバーへの移行は、これらの強化された機能の追加とセキュリティの強化を可能にし、ホスト型顧客 (Campaign Managed Services) 向けの 2012 年 7 月 22 日に開始されます。 すべてのホスト型顧客は、8 月末までに更新されます。
+
+オンプレミスおよびハイブリッドのお客様は、同じ期間に移行する必要があります。
+
 ### 環境をアップグレードしない場合はどうなりますか。
 
-8 月 31 日までにアップグレードされなかった Campaign インスタンスは、Campaign 配信サーバーに接続できなくなります。 結果として、 **配信品質の更新** (deliverabilityUpdate) ワークフローは失敗します。 このワークフローは、MX ルールとインバウンスルールの日次更新を管理します。
+8 月 31 日までにアップグレードされなかった Campaign インスタンスは、Campaign 配信サーバーに接続できなくなります。 結果として、 **配信品質の更新** (deliverabilityUpdate) ワークフローは失敗し、配信品質に影響を与えます。
 
 環境をアップグレードしない場合、E メール設定の同期は停止されます（MX 管理ルール、インバウンド E メールルール、ドメイン管理ルール、バウンスの選定ルール）。 これは、配信品質の長期化に影響を与える可能性があります。 これらのルールに大きな変更が加えられた場合は、この時点から手動で適用する必要があります。
 
 MKT インスタンスの場合は、 [グローバル抑制リスト](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) が影響を受けます。
 
-### 私は今アップグレードできません。 ガイダンスとは？
-
-8 月 31 日より前にインスタンスをアップグレードできない場合は、 **配信品質の更新** (deliverabilityUpdate) ワークフロー。古い配信品質サーバーとの同期が試みられないように、アップグレードが完了するまで。
-
-
-
-詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。

@@ -5,7 +5,7 @@ description: Campaign 配信サーバーの実装方法を学ぶ
 hide: true
 hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 6f6c329808e78a56a61997aba83c55520030afc7
+source-git-commit: 64813905b360be1f2df7883f018e42bd154c2f9c
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 51%
@@ -58,7 +58,7 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;を使用する場�
    * オプションが入力された場合は、実装を開始できます。
    * 値が入力されていない場合は、に連絡してください。 [Adobeカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} をクリックして CUID を取得します。
 
-      このオプションは、すべてのキャンペーンインスタンス (MKT、MID、RT、EXEC) に対して同じ値で入力する必要があります。 ハイブリッドのお客様は、Adobeに問い合わせて、MID、RT、EXEC の各インスタンスでオプションを設定してもらいます。
+   このオプションは、すべてのキャンペーンインスタンス (MKT、MID、RT、EXEC) に正しい値で入力する必要があります。 ハイブリッドのお客様は、Adobeに問い合わせて、MID、RT、EXEC の各インスタンスでオプションを設定してもらいます。
 
 ### 手順 1：Adobe Developer プロジェクトを作成／更新 {#adobe-io-project}
 

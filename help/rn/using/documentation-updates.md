@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 001d5494e4b77e03c610c7c8b2cb38161d65c711
+source-git-commit: 378788764e244dcad12018d6d703048707d4c3e6
 workflow-type: tm+mt
-source-wordcount: '4929'
+source-wordcount: '4954'
 ht-degree: 99%
 
 ---
@@ -25,17 +25,28 @@ ht-degree: 99%
 
 ### 2022 年 7 月 {#july-2022}
 
-* 2022 年 7 月リリースに伴う機能と改善点については、ドキュメントで詳しく説明されています。
+新しい配信品質サーバーへの移行について詳しくは、新しいテクニカルノートを参照してください。 [詳細情報](../../technotes/using/deliverability-server.md)
+
+**7.3.1 リリースに伴うドキュメントのアップデート**
+
+互換性マトリックスを更新しました。 [詳細情報](compatibility-matrix.md)
+
+リリースノートの節を更新しました。 [詳細情報](rn-overview.md)
+
+iOS 15 での時間の影響を受ける通知。 [詳細情報](../../delivery/using/create-notifications-ios.md)
+
 
 ### 2022年3月 {#mar-2022}
 
-* 「**[!UICONTROL SMTP 配信をテスト]**」オプションの詳細な説明を追加しました。[詳細情報](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
+「**[!UICONTROL SMTP 配信をテスト]**」オプションの詳細な説明を追加しました。[詳細情報](../../delivery/using/steps-sending-the-delivery.md#delivery-additiona-parameters)
 
-* 「アップグレードの基本を学ぶ」ページが更新され、Campaign コンソールのアップグレードガイドラインが明確になりました。[詳細情報](../../rn/using/rn-overview.md)
+「アップグレードの基本を学ぶ」ページが更新され、Campaign コンソールのアップグレードガイドラインが明確になりました。[詳細情報](../../rn/using/rn-overview.md)
 
-* 新しい Campaign v7.2.2 ビルドが利用できるようになりました。 [詳細情報](../../rn/using/latest-release.md)
-* ACS コネクタに関するトラブルシューティング情報を追加しました。[詳細情報](../../integrations/using/troubleshooting-the-acs-connector.md)
-* 提供が終了した従来の PostgreSQL バージョンが、[廃止される機能および削除された機能](../../rn/using/deprecated-features.md#dbe-eol)ページに追加されました。
+新しい Campaign v7.2.2 ビルドが利用できるようになりました。 [詳細情報](../../rn/using/latest-release.md)
+
+ACS コネクタに関するトラブルシューティング情報を追加しました。[詳細情報](../../integrations/using/troubleshooting-the-acs-connector.md)
+
+提供が終了した従来の PostgreSQL バージョンが、[廃止される機能および削除された機能](../../rn/using/deprecated-features.md#dbe-eol)ページに追加されました。
 
 ### 2022年2月 {#february-2022}
 

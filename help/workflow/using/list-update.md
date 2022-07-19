@@ -4,8 +4,8 @@ title: リスト更新
 description: リスト更新
 feature: Workflows, Targeting Activity
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # リスト更新{#list-update}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 「**リスト更新**」アクティビティは、受信者リストのトランジションに指定された母集団を保存します。
 

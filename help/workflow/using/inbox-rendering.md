@@ -3,7 +3,7 @@ product: campaign
 title: 受信ボックスレンダリングテクニカルワークフロー
 description: ここでは、受信ボックスレンダリングパッケージと共にインストールされるテクニカルワークフローについて説明します。
 feature: Workflows, Inbox Rendering
-source-git-commit: 378788764e244dcad12018d6d703048707d4c3e6
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 70%
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 # 受信ボックスレンダリング（IR）{#inbox-rendering}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 以下に説明するワークフローは、デフォルトで&#x200B;**受信ボックスレンダリング (IR)** モジュールと共にインストールされます。受信ボックスレンダリングについて詳しくは、[この節](../../delivery/using/inbox-rendering.md)を参照してください。
 

@@ -4,8 +4,8 @@ title: 受信者テーブルのクエリ
 description: 受信者テーブルに対するクエリ方法を説明します。
 feature: Query Editor
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 受信者テーブルのクエリ {#querying-recipient-table}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 この例では、E メールドメインが「orange.co.jp」で、横浜市に住んでいない受信者の名前と E メールを収集します。
 

@@ -4,8 +4,8 @@ title: ワークフローの開始
 description: ワークフローの開始方法、およびワークフローのアクションツールバーと右クリックメニューへのアクセス方法を学ぶ
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: 9126e2cc088ef0e5761cc20bd19980d323f3a3ea
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # ワークフローの開始 {#starting-a-workflow}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ワークフローは、必ず手動で開始します。開始しても、スケジューラー（[スケジューラー](scheduler.md)を参照）経由で指定された情報またはアクティビティのスケジュール設定に基づいて、ワークフローが非アクティブのままになることもあります。
 

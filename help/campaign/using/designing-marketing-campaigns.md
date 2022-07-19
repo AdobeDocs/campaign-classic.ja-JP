@@ -4,16 +4,16 @@ title: マーケティングキャンペーンの設計と実行
 description: マーケティングキャンペーンを定義、最適化、実行、分析します。
 feature: Campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '443'
+ht-degree: 100%
 
 ---
 
 # マーケティングキャンペーンの設計と実行{#designing-marketing-campaigns}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign では、コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行および分析できます。Adobe Campaign により、マーケティング戦略の指示や実行を一元的におこなうことができます。詳細については、[キャンペーンへのアクセス](../../distributed/using/accessing-campaigns.md)および[マーケティングキャンペーンの作成](../../campaign/using/setting-up-marketing-campaigns.md)を参照してください。
 

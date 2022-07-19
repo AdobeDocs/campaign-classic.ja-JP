@@ -4,8 +4,8 @@ title: サブワークフロー
 description: サブワークフローアクティビティの詳細を説明します
 feature: Workflows
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # サブワークフロー{#sub-workflow}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 **[!UICONTROL サブワークフロー]**&#x200B;を使用すれば、別のワークフローの実行をトリガーし、結果を取得できます。このアクティビティにより、簡素化されたインターフェイス経由で、複雑なワークフローを使用できます。
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
 この 3 つの値セットは、クエリのターゲットとなる母集団を識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

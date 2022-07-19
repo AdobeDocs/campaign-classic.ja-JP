@@ -4,8 +4,8 @@ title: 承認プロセスの設定と管理
 description: マーケティングキャンペーンの承認を管理する方法を学ぶ
 feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '2607'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 承認プロセスの設定と管理 {#approving-marketing-campaigns}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 配信の各ステップは、キャンペーンの様々なプロセス（ターゲティング、コンテンツ、予算、抽出、配達確認の送信）を完全に監視および制御するために、承認を受ける必要があります。
 

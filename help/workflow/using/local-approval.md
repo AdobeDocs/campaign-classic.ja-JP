@@ -4,8 +4,8 @@ title: ローカルの承認
 description: ローカルの承認
 feature: Workflows
 exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # ローカルの承認{#local-approval}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ターゲティングワークフローに統合する場合、「**[!UICONTROL ローカルの承認]**」アクティビティでは、配信が送信される前に受信者の承認プロセスを設定できます。
 

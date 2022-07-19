@@ -4,8 +4,8 @@ title: 重複排除
 description: 重複排除ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 重複排除{#deduplication}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 重複排除は、インバウンドアクティビティの結果から重複を削除します。重複排除は、メールアドレス、電話番号やその他のフィールドに対して実行されます。
 
@@ -169,7 +169,7 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
 この 3 つの値セットは、重複排除によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を保存するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

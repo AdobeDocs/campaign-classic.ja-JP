@@ -4,8 +4,8 @@ title: ターゲティングアクティビティについて
 description: ターゲティングアクティビティについて
 feature: Workflows, Audiences, Targeting Activity
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # ワークフローでのターゲティングアクティビティ{#about-targeting-activities}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ターゲティングアクティビティは、セットを定義するか、積集合、和集合、除外の各操作を使用して分割または結合することで、1 つまたは複数のターゲットを作成できます。
 

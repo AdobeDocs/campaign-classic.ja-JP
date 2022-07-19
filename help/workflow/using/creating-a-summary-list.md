@@ -4,16 +4,16 @@ title: 概要リストの作成
 description: 概要リストの作成
 feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 概要リストの作成{#creating-a-summary-list}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 この使用例では、ファイルや以下に示すいくつかのエンリッチメントの収集後にサマリーリストを作成できるワークフローについて、作成の手順を詳しく説明します。この例では、店舗で購入をおこなった顧客の連絡先のリストをベースにします。
 
@@ -62,7 +62,7 @@ Phone;500;London 5
 
    このアクティビティについて詳しくは、[ファイルからのデータの読み込み](../../platform/using/import-export-workflows.md#loading-data-from-a-file)を参照してください。
 
-1. 「**ファイルコレクター**」アクティビティを設定し、任意のディレクトリからテキスト（*.txt）タイプのファイルを収集します。
+1. の設定 **ファイルコレクター** テキストを収集するアクティビティ (&#42;.txt) 選択したディレクトリのファイルを入力します。
 
    ![](assets/uc2_enrich_collecteur.png)
 

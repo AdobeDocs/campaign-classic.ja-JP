@@ -4,8 +4,8 @@ title: テスト
 description: テストワークフローアクティビティの詳細を説明します
 feature: Workflows
 exl-id: 6f246d56-01c8-43f5-b12b-c40d258b93c8
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # テスト{#test}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 「**テスト**」タイプのアクティビティは、自身に関連付けられている条件を最初に満たしたトランジションを有効化します。条件が 1 つも満たされず、「**[!UICONTROL デフォルト分岐を使用]**」オプションが有効化されている場合、デフォルトのトランジションが有効化されます。
 

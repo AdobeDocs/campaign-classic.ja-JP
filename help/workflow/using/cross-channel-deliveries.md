@@ -4,8 +4,8 @@ title: クロスチャネル配信
 description: クロスチャネル配信の詳細を説明します
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: d891a235002d465f3b00fafa375d87d42ebafaa6
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # クロスチャネル配信{#cross-channel-deliveries}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 クロスチャネル配信は、キャンペーンワークフローアクティビティの「**[!UICONTROL 配信]**」タブから使用可能です。
 

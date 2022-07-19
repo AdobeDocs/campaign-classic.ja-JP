@@ -4,8 +4,8 @@ title: 分割
 description: 分割ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '2133'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 分割{#split}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 「**分割**」タイプのアクティビティはターゲットを複数のサブセットに分割します。ターゲットは、受信したすべての結果から構築されます。したがって、すべての先行アクティビティは、このアクティビティが実行される前に完了している必要があります。
 
@@ -230,7 +230,7 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
 この 3 つの値セットは、除外によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

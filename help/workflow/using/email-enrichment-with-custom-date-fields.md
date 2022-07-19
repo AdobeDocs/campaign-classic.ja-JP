@@ -4,8 +4,8 @@ title: カスタム日付フィールドを使用した E メールエンリッ�
 description: カスタムの日付フィールドを使用して E メールをエンリッチメントする方法を説明します
 feature: Workflows
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # カスタム日付フィールドを使用したメールエンリッチメント{#email-enrichment-with-custom-date-fields}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 この例では、今月の誕生日を祝う受信者にカスタム日付フィールドを含む E メールを送信します。E メールには、誕生日の前後 1 週間有効なクーポンが含まれます。
 

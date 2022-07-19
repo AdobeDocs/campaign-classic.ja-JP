@@ -4,16 +4,16 @@ title: キャンペーンパッケージの公開
 description: キャンペーンパッケージの公開
 feature: Distributed Marketing
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
-source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
+source-wordcount: '479'
 ht-degree: 100%
 
 ---
 
 # キャンペーンパッケージの公開{#publishing-the-campaign-package}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 セントラルエンティティのオペレーターは、ローカルエンティティに提供するキャンペーンを&#x200B;**[!UICONTROL キャンペーンパッケージのリスト]**&#x200B;にパブリッシュします。
 

@@ -4,8 +4,8 @@ title: グループ管理を使用したクエリ
 description: グループ管理を使用したクエリの実行方法を学ぶ
 feature: Query Editor
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # グループ管理を使用したクエリ {#querying-using-grouping-management}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 この例では、クエリを実行して、以前の配信でターゲットとされた回数が 30 回を超えるすべての E メールドメインを検索します。
 

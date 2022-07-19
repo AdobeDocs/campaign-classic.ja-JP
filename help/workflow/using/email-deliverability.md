@@ -3,8 +3,8 @@ product: campaign
 title: E メールの配信品質
 description: E メール配信品質パッケージの詳細を説明します
 feature: Workflows, Deliverability
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 配信品質の監視 (E メールの配信品質){#email-deliverability}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 以下に詳述しているワークフローは、デフォルトですべてのインスタンスにインストールされ、バウンスメールの検証ルールのリスト、ドメインのリストおよび MX のリストを初期化できます。**配信品質の監視 (E メールの配信品質)** パッケージをインストールすると、このワークフローは毎日夜間に実行されます。配信品質の監視について詳しくは、この[セクション](../../delivery/using/about-deliverability.md)を参照してください。
 

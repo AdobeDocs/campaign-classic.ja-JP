@@ -4,8 +4,8 @@ title: JavaScript のスクリプトとテンプレート
 description: JavaScript のスクリプトとテンプレート
 feature: Workflows
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # JavaScript のスクリプトとテンプレート{#javascript-scripts-and-templates}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 スクリプトを使用すると、値を計算したり、プロセス内の異なるタスク間でデータを交換したりできるほか、SOAP コールを使用して個別の操作を実行することが可能です。
 

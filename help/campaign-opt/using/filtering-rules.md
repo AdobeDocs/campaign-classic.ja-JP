@@ -4,8 +4,8 @@ title: フィルタリングルール
 description: フィルタールールの使用方法を学ぶ
 feature: Typology Rules
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # フィルタリングルール{#filtering-rules}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 フィルタールールを使用すると、クエリで指定する条件に従って、除外するメッセージを定義できます。これらのルールは、ターゲティングディメンションにリンクされます。
 

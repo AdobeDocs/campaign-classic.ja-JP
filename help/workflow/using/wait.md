@@ -4,8 +4,8 @@ title: 待機
 description: 待機ワークフローアクティビティの詳細を説明します
 feature: Workflows
 exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 待機{#wait}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 「**待機**」アクティビティは、数秒から数ヶ月間の任意の遅延時間が経過した後で、トランジションを有効化します。待機は、ほかのタスクの実行をブロックしません。ワークフローは、このタスクが保留になっている間に並行してタスクを実行できます。
 

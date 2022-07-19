@@ -4,8 +4,8 @@ title: 増分クエリを使用した四半期ごとのリストの更新
 description: この使用例では、増分処理クエリを使用して、受信者リストを自動更新します。
 feature: Workflows
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 増分処理クエリを使用した四半期ごとのリスト更新 {#quarterly-list-update}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 次の例では、[増分処理クエリ](incremental-query.md)を使用して、受信者リストを自動更新します。これらの受信者は、季節ごとのマーケティングキャンペーンの一部としてターゲットされています。
 

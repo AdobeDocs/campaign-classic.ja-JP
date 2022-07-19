@@ -4,8 +4,8 @@ title: リストへのレポートの送信
 description: ワークフローでリストへレポートを送信する方法を学ぶ
 feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # リストへのレポートの送信{#sending-a-report-to-a-list}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 この使用例では、標準の月次「**[!UICONTROL トラッキング指標]**」レポートを PDF 形式で作成する方法と、そのレポートをリストに記載の受信者に送信する方法を詳しく説明します。
 

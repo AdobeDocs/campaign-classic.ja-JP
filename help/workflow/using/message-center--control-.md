@@ -3,8 +3,8 @@ product: campaign
 title: Message Center（コントロール）
 description: Message Center（コントロール）
 feature: Workflows
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Message Center（コントロール）{#message-center-control}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 以下で説明するワークフローは、毎時間実行されるようにスケジュールされています。このワークフローは、デフォルトで **Message Center - コントロール**&#x200B;モジュールと共にインストールされます。
 

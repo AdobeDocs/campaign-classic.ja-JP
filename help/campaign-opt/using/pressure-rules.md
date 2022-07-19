@@ -4,8 +4,8 @@ title: 頻度ルール
 description: 頻度ルール
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '3460'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 頻度ルール{#pressure-rules}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## マーケティング疲労について {#about-marketing-fatigue}
 

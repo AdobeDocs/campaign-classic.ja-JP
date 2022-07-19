@@ -4,8 +4,8 @@ title: 連続配信
 description: 連続配信
 feature: Workflows, Channels Activity
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 連続配信{#continuous-delivery}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 「**連続配信**」タイプアクションでは、既存の配信に新しい受信者を追加できます。この配信タイプでは、毎回新しい配信を作成する必要がなくなります。このモードは、特に、容量不足のアラートや通知を必要に応じて送信する場合にはより効率的です。
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
 この 3 つの値セットは、オンザフライ配信によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記憶するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

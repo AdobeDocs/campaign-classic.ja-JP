@@ -3,8 +3,8 @@ product: campaign
 title: Message Center（実行）
 description: Message Center（実行）
 feature: Workflows
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Message Center（実行）{#message-center-execution}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 以下に説明するワークフローは、デフォルトで **Message Center - 実行**&#x200B;アドオンと共にインストールされます。
 

@@ -4,8 +4,8 @@ title: リスト読み込み
 description: リスト読み込みワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # リスト読み込み{#read-list}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ワークフローで処理されるデータは、（前回のセグメント化またはファイルアップロード後に）あらかじめデータが準備されたか構造化されたリストから取得されます。
 

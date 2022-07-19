@@ -3,16 +3,16 @@ product: campaign
 title: Response Manager について
 description: Response Manager について
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
-source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
 
 # Campaign Response Manager の基本を学ぶ{#about-response-manager}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Adobe Campaign では、マーケティングキャンペーンの成功や収益性を測定したり、メール、モバイル、ダイレクトメールなどのあらゆる通信チャネルでオファーを提案したりできる、応答管理アドオンを提供しています。
 

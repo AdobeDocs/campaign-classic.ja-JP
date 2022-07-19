@@ -4,8 +4,8 @@ title: 購読サービス
 description: 購読サービスワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity, Subscription Services Activity
 exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 購読サービス{#subscription-services}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 「**購読サービス**」タイプのアクティビティでは、トランジションで指定された母集団の情報サービスに対する購読を作成または削除できます。
 

@@ -4,8 +4,8 @@ title: スキーマを編集
 description: スキーマを編集ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 exl-id: d26966a8-b5db-4fa4-85ec-7ebd770c4ef3
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # スキーマの編集{#edit-schema}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 「**[!UICONTROL スキーマを編集]**」アクティビティを使用して、データをワークフロー内で変換、正規化および必要に応じてエンリッチメントできます。このアクティビティは通常はデータ構造の正規化に使用されます。例えば、フィールドまたは集計の平均値を算出することで、出力列の名前を変更するか、出力列のコンテンツを変更できます。
 

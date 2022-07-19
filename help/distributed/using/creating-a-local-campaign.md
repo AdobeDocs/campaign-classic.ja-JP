@@ -4,16 +4,16 @@ title: ローカルキャンペーンの作成
 description: ローカルキャンペーンの作成
 feature: Distributed Marketing
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
-source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
+source-wordcount: '1696'
 ht-degree: 100%
 
 ---
 
 # ローカルキャンペーンの作成{#creating-a-local-campaign}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ローカルキャンペーンとは、**[!UICONTROL キャンペーンパッケージ]**&#x200B;のリストで参照されているテンプレートから作成されたインスタンスであり、**実行スケジュール**&#x200B;を指定できます。ローカルキャンペーンの目的は、セントラルエンティティによって設定されたテンプレートを使用して、ローカルのコミュニケーションのニーズを満たすキャンペーンを展開することです。ローカルキャンペーンの実装手順は、大きく以下の段階に分かれます。
 

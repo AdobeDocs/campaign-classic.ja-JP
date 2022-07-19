@@ -4,8 +4,8 @@ title: 分岐
 description: 分岐ワークフローアクティビティの詳細を説明します
 feature: Workflows
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 分岐{#fork}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 「**[!UICONTROL 分岐]**」アクティビティを使用すると、複数のアウトバウンドトランジションを作成したり、同じワークフロー内で複数のアクティビティを別々に実行したりできます。
 

@@ -4,8 +4,8 @@ title: ディメンションを変更
 description: ディメンションを変更
 feature: Workflows, Targeting Activity
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # ディメンションを変更{#change-dimension}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 「ディメンションを変更」アクティビティを使用して、ターゲットの構築サイクル中にターゲティングディメンションを変更できます。軸の移動は、データテンプレートと入力ディメンションに依存します。これにより、「契約」ディメンションから「クライアント」ディメンションに切り替えることができます。
 

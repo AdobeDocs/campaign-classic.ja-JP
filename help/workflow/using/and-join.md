@@ -4,8 +4,8 @@ title: AND 結合
 description: AND 結合
 feature: Workflows
 exl-id: 8b6d5c03-e104-4cf0-82ab-a08467e3e478
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # AND 結合{#and-join}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 結合は、先行するすべてのアクティビティが完了しているなど、すべてのインバウンドトランジションが有効化されている場合にのみ、アウトバウンドトランジションをトリガーします。これにより、ワークフローを続行する前に、特定のアクティビティを確実に完了させるようにできます。
 

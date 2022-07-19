@@ -4,8 +4,8 @@ title: オファーエンジン
 description: オファーエンジン
 feature: Workflows, Interaction
 exl-id: 8db4b04f-7754-4a49-ab72-afc916888ebb
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # オファーエンジン{#offer-engine}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 **[!UICONTROL オファーエンジン]**&#x200B;アクティビティを使用して、配信に先立つオファーエンジンの呼び出しを定義できます。
 

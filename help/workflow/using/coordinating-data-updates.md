@@ -4,8 +4,8 @@ title: データ更新の調整
 description: データ更新の調整
 feature: Workflows, Data Management
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # データ更新の調整{#coordinating-data-updates}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 このユースケースは、1 つのワークフローを複数実行する場合に同時更新を管理できるワークフローの作成の詳細を示します。
 

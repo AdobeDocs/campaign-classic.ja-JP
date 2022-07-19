@@ -3,7 +3,7 @@ product: campaign
 title: 配信
 description: デフォルトの配信ワークフローの詳細を説明します
 feature: Workflows
-source-git-commit: 25e8acdc449c7002e467db17e7c70e3dc017dded
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 配信{#deliveries}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 以下に説明するワークフローは、デフォルトで&#x200B;**配信**&#x200B;モジュールと共にインストールされます。
 

@@ -4,8 +4,8 @@ title: 外部シグナル
 description: 外部シグナルワークフローアクティビティの詳細を説明します
 feature: Workflows
 exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 外部シグナル{#external-signal}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 「**外部シグナル**」アクティビティを使用して、スケジュールに対して、ワークフロー内のタスクセットの実行をトリガーできます。
 

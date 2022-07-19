@@ -6,7 +6,7 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
-source-git-commit: d36e1881726af6238c4e0caecb7b299b594691f2
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 97%
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 # 仮説のトラッキング{#hypothesis-tracking}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 仮説の計算結果は、Adobe Campaign プラットフォームの様々なレベルで確認できます。仮説によって計算された指標およびターゲット母集団の反応は、実際の仮説でもキャンペーンと配信の仮説レポートでも確認できます。
 

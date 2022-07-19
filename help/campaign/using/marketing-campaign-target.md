@@ -4,8 +4,8 @@ title: マーケティングキャンペーンのターゲットオーディエ�
 description: マーケティングキャンペーンのオーディエンスを定義する方法について説明します。
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # キャンペーンのオーディエンスの選択 {#marketing-campaign-deliveries}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 マーケティングキャンペーンでは、配信ごとに次の項目を定義できます。
 

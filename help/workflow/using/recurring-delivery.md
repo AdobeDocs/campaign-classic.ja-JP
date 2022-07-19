@@ -4,7 +4,7 @@ title: 繰り返し配信
 description: 繰り返し配信ワークフローアクティビティの詳細を説明します
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 6f0479cfe6c6801eb44fcc7a35bdac1241ec3be6
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 繰り返し配信{#recurring-delivery}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 「**[!UICONTROL 繰り返し配信]**」アクティビティでは、キャンペーン固有の配信テンプレートの発生件数を設定できます。
 

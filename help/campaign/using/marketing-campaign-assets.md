@@ -4,8 +4,8 @@ title: マーケティングキャンペーンドキュメントと配信概要
 description: マーケティングキャンペーンドキュメントと配信概要の詳細
 feature: Campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: d3f5c56078ddac7597925191fd347bdcab61714d
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 関連付けられたドキュメントの管理 {#managing-associated-documents}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 レポート、写真、Web ページ、図などの様々なドキュメントをキャンペーンに関連付けることができます。 これらのドキュメントは、任意の形式（Microsoft Word、PowerPoint、PNG、JPG、Acrobat PDF など）にすることができます。
 

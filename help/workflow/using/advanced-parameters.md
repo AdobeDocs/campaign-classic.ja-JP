@@ -4,8 +4,8 @@ title: 詳細設定パラメーター
 description: 詳細設定パラメーター
 feature: Workflows, Data Management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 詳細設定パラメーター{#advanced-parameters}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 アクティビティのプロパティ画面にある「**[!UICONTROL 詳細]**」タブでは、エラーが発生した場合の動作や、アクティビティの実行期間を定義できるほか、初期化スクリプトを入力することも可能です。このタブには、次の 2 つのバージョンがあります。
 

@@ -4,16 +4,16 @@ title: ワークフローについて
 description: ワークフローを使用すれば、データおよびオーディエンスの管理やメッセージの送信などのプロセスを自動化できます。
 feature: Workflows, Data Management
 exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '655'
+ht-degree: 100%
 
 ---
 
 # ワークフローの基本を学ぶ{#gs-workflows}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## ワークフローについて{#about-workflows}
 

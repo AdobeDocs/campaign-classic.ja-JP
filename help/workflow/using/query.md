@@ -4,8 +4,8 @@ title: クエリ
 description: クエリワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity, Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '1692'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # クエリ{#query}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 ## クエリを作成します。 {#creating-a-query}
 

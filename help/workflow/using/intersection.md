@@ -4,10 +4,10 @@ title: 積集合
 description: 積集合
 feature: Workflows, Targeting Activity
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
-source-git-commit: 389e5a87ea195024707c3c58e63899ad7949f025
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '448'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >additional-url="https://video.tv.adobe.com/v/329373" text="デモビデオを見る"
 
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 「**積集合**」タイプのアクティビティは、受信したターゲットの積集合からターゲットを作成します。
 

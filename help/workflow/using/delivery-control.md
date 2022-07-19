@@ -4,8 +4,8 @@ title: 配信コントロール
 description: 配信コントロールワークフローアクティビティの詳細を説明します
 feature: Workflows
 exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
-source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: ht
+source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 配信コントロール{#delivery-control}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 「**配信コントロール**」タイプアクションでは、配信を開始、一時停止、または中止できます。
 

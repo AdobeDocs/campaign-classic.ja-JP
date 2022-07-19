@@ -1,18 +1,16 @@
 ---
 product: campaign
-title: 新しい配信サーバーに移行
-description: Campaign 配信サーバーの実装方法を学ぶ
-hide: true
-hidefromtoc: true
+title: 新しい配信サーバーに対する更新
+description: 新しい Campaign 配信品質サーバーに更新する方法を説明します
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 02af725ec7f75e31496b72b533db485c85a416e1
+source-git-commit: de3a2bf1ab6851184c75bc302ff0c42db186e7f0
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 51%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Campaign 配信サーバー {#acc-deliverability}
+# 新しい配信サーバーの更新 {#acc-deliverability}
 
 開始中 [v7.2.1 リリース](../../rn/using/latest-release.md#release-7-2-2)Adobe Campaignは、高可用性をもたらす新しい配信品質サーバーを利用し、セキュリティコンプライアンスの問題に対処します。 Campaign Classic は、新しい配信サーバーとの間で、配信品質ルール、broadLog および抑制アドレスを同期するようになりました。古い配信品質サーバーは 2022 年 8 月 31 日に廃止されます。
 

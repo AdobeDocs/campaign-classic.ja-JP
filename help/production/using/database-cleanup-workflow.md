@@ -6,7 +6,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 56e9fcc4240649f53239b12f1390dea041602e79
+source-git-commit: b472178316f97f08e9c87f8aebd707709f320e5f
 workflow-type: tm+mt
 source-wordcount: '2910'
 ht-degree: 2%
@@ -247,7 +247,7 @@ ht-degree: 2%
 1. まず、パージされる配信のリストは、次のクエリを使用して復元します。
 
    ```sql
-   SELECT iDeliveryId, iNeedMirrorPage FROM NmsDelivery WHERE iWebResPurged = 0 AND tsWebValidity IS NOT NULL AND tsWebValidity < $(curdate)"
+   SELECT iDeliveryId, iNeedMirrorPage FROM NmsDelivery WHERE iWebResPurged = 0 AND tsWebValidity IS NOT NULL AND tsWebValidity < $(curdate)
    ```
 
    場所 `$(curDate)` は、現在のサーバーの日付です。
@@ -255,11 +255,11 @@ ht-degree: 2%
 1. この **NmsMirrorPageInfo** 必要に応じて、以前に復元した配信の識別子を使用して、テーブルがパージされます。 一括削除は、次のクエリの生成に使用されます。
 
    ```sql
-   DELETE FROM NmsMirrorPageInfo WHERE iMirrorPageInfoId IN (SELECT iMirrorPageInfoId FROM NmsMirrorPageInfo WHERE iDeliveryId = $(dl)) LIMIT 5000)
+   DELETE FROM NmsMirrorPageInfo WHERE iMirrorPageInfoId IN (SELECT iMirrorPageInfoId FROM NmsMirrorPageInfo WHERE iDeliveryId = $(dl)) LIMIT 5000
    ```
 
    ```sql
-   DELETE FROM NmsMirrorPageSearch WHERE iMessageId IN (SELECT iMessageId FROM NmsMirrorPageSearch WHERE iDeliveryId = $(dl)) LIMIT 5000)
+   DELETE FROM NmsMirrorPageSearch WHERE iMessageId IN (SELECT iMessageId FROM NmsMirrorPageSearch WHERE iDeliveryId = $(dl)) LIMIT 5000
    ```
 
    場所 `$(dl)` は、配信の識別子です。
@@ -304,7 +304,7 @@ ht-degree: 2%
 1. 一括削除は **XtkReject** 次のクエリを含むテーブル：
 
    ```sql
-   DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l))
+   DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l)
    ```
 
    場所 `$(curDate)` は、現在のサーバーの日付です。この日付から、 **NmsCleanup_RejectsPurgeDelay** オプション ( [デプロイウィザード](#deployment-wizard)) および `$(l)` は、一括削除するレコードの最大数です。

@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 8d6f5a3596c2c919e597e0b6ce3d711276c8df12
+source-git-commit: 0d0c97213cf8b95bbadd06f4c5666213b6c6c8f1
 workflow-type: tm+mt
-source-wordcount: '1967'
-ht-degree: 98%
+source-wordcount: '1989'
+ht-degree: 97%
 
 ---
 
@@ -84,6 +84,7 @@ _2022年7月1日（PT）_
 * 断続的なコアダンプが原因でクラッシュが発生する可能性がある問題を修正しました。（NEO-30549）
 * 誤った HTML コードを配信で使用するとクラッシュが発生する可能性がある問題を修正しました。（NEO-40385）
 * 管理者以外のユーザーが配信プロパティの「**分析**」タブにアクセスできない可能性がある問題を修正しました。（NEO-34025）
+* メッセージの準備中に、画像が外部サーバーからチャンクモードでアップロードされない可能性がある問題を修正しました。 （NEO-40307）
 
 ## ![](assets/do-not-localize/green_2.png) リリース 7.2.2 - ビルド 9349 {#release-7-2-2}
 

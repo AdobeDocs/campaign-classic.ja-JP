@@ -5,8 +5,8 @@ description: SQL データ管理ワークフローアクティビティの詳細
 feature: Workflows
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '452'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

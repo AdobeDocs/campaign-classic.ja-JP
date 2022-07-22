@@ -6,19 +6,19 @@ exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: a45e18e460c11f474dc1b5663b9f4a3277fac12c
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 49%
+ht-degree: 98%
 
 ---
 
 # 新しい配信サーバーに対する更新 {#acc-deliverability}
 
-開始中 [v7.2.1 リリース](../../rn/using/latest-release.md#release-7-2-2)Adobe Campaignは、高可用性をもたらす新しい配信品質サーバーを利用し、セキュリティコンプライアンスの問題に対処します。 Campaign Classic は、新しい配信サーバーとの間で、配信品質ルール、broadLog および抑制アドレスを同期するようになりました。古い配信品質サーバーは 2022 年 8 月 31 日に廃止されます。
+[v7.2.1 リリース](../../rn/using/latest-release.md#release-7-2-2)以降、Adobe Campaign は、高可用性をもたらし、セキュリティコンプライアンスの問題に対処する新しい配信品質サーバーに依存しています。Campaign Classic は、新しい配信サーバーとの間で、配信品質ルール、broadLog および抑制アドレスを同期するようになりました。古い配信品質サーバーは 2022年8月31日に廃止されます。
 
-Campaign Classicのお客様は、新しい配信品質サーバーを実装する必要があります **2022 年 8 月 31 日以前**.
+Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新しい配信品質サーバーを実装する必要があります。
 
 >[!NOTE]
 >
->これらの変更に関する詳細な質問については、 [FAQ](#faq)または連絡先 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
+>これらの変更に関する詳細な質問については、[FAQ](#faq) を参照するか、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}にお問い合わせください。
 
 ## 変更点{#acc-deliverability-changes}
 
@@ -28,35 +28,35 @@ Campaign Classicのお客様は、新しい配信品質サーバーを実装す�
 
 ## 影響の有無{#acc-deliverability-impacts}
 
-すべてのお客様が影響を受け、にアップグレードする必要があります。 [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) （またはそれ以上）、新しい配信品質サーバーのメリットを得るために、環境を実装します。
+すべてのお客様に影響があるので、新しい配信品質サーバーのメリットを得るには [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2)（またはそれ以上）にアップグレードして、環境を実装する必要があります。
 
 ## 更新方法{#acc-deliverability-update}
 
-As a **ホスト顧客**&#x200B;の場合、Adobeはお客様と連携して、インスタンスを新しいバージョンにアップグレードし、Adobe Developer Console でプロジェクトを作成します。
+**ホスト環境のお客様**&#x200B;の場合、アドビはお客様と協力してインスタンスを新しいバージョンにアップグレードし、Adobe Developer Console でプロジェクトを作成します。
 
-As a **オンプレミス/ハイブリッド顧客**&#x200B;を使用する場合は、 [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2) （またはその他の）新しい配信品質サーバーのメリットを得るために使用します。 すべてのインスタンスをアップグレードしたら、 [新しい統合の実装](#implementation-steps) をAdobe配信サーバーに追加し、シームレスな移行を確保します。
+**オンプレミス/ハイブリッド環境のお客様**&#x200B;の場合、新しい配信品質サーバーのメリットを得るには、 [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2)（またはそれ以上）にアップグレードする必要があります。すべてのインスタンスがアップグレードされると、アドビ配信品質サーバーに[新しい統合を実装し](#implementation-steps)、シームレスな移行を確実に実現できるようになります。
 
 ## 実装手順 {#implementation-steps}
 
-新しい配信サーバーの統合の一環として、Campaign は、Identity Management Service（IMS）ベースの認証を経由して Adobe Shared Services と通信する必要があります。推奨される方法は、Adobe Developerベースのゲートウェイトークン ( テクニカルアカウントトークンまたはAdobeI/O JWT とも呼ばれます ) を使用することです。
+新しい配信サーバーの統合の一環として、Campaign は、Identity Management Service（IMS）ベースの認証を経由して Adobe Shared Services と通信する必要があります。推奨される方法は、Adobe Developer ベースのゲートウェイトークン（テクニカルアカウントトークンまたは Adobe I/O JWT とも呼ばれます）を使用することです。
 
 
 >[!WARNING]
 >
->これらの手順は、ハイブリッド実装およびオンプレミス実装の場合にのみ実行してください。
+>これらの手順は、ハイブリッド実装とオンプレミス実装でのみ実行してください。
 
 ### 前提条件{#prerequisites}
 
 実装を開始する前に、インスタンスの設定を確認します。
 
-1. Campaign クライアントコンソールを開き、管理者としてAdobe Campaignにログオンします。
+1. Campaign クライアントコンソールを開き、管理者として Adobe Campaign にログオンします。
 1. **管理／プラットフォーム／オプション**&#x200B;を参照します。
 1. `DmRendering_cuid` オプションの値が入力されていることを確認します。 
 
-   * オプションが入力された場合は、実装を開始できます。
-   * 値が入力されていない場合は、に連絡してください。 [Adobeカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} をクリックして CUID を取得します。
+   * オプションの値が入力されている場合は、実装を開始できます。
+   * 値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} に連絡して CUID を取得してください。
 
-   このオプションは、すべてのキャンペーンインスタンス (MKT、MID、RT、EXEC) に正しい値で入力する必要があります。 ハイブリッドのお客様は、Adobeに問い合わせて、MID、RT、EXEC の各インスタンスでオプションを設定してもらいます。
+   このオプションは、すべての Campaign インスタンス (MKT、MID、RT、EXEC) に正しい値で入力する必要があります。ハイブリッド環境のお客様は、アドビに連絡して、MID、RT、EXEC の各インスタンスでオプションを設定してもらいます。
 
 ### 手順 1：Adobe Developer プロジェクトを作成／更新 {#adobe-io-project}
 
@@ -66,15 +66,15 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;を使用する場�
    >
    > 正しい組織ポータルにログインしていることを確認します。
 
-1. 選択 **[!UICONTROL 新規プロジェクトを作成]**.
+1. 「**[!UICONTROL 新規プロジェクトを作成]**」を選択します。
    ![](assets/New-Project.png)
 
 
    >[!CAUTION]
    >
-   >別の統合 (Analytics コネクタ、Adobeトリガーなど ) で既にAdobeI/O JWT 認証機能を使用している場合は、 **キャンペーン API** をそのプロジェクトに追加します。
+   >別の統合（Analytics コネクタ、Adobe トリガーなど）で既に Adobe I/O JWT 認証機能を使用している場合は、**Campaign API** をそのプロジェクトに追加します。
 
-1. 選択 **[!UICONTROL API を追加]**.
+1. 「**[!UICONTROL API を追加]**」を選択します。
    ![](assets/Add-API.png)
 1. **[!UICONTROL API を追加]**&#x200B;ウィンドウで、「**[!UICONTROL Adobe Campaign]**」を選択します。
    ![](assets/AC-API.png)
@@ -86,15 +86,15 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;を使用する場�
 
    >[!CAUTION]
    >
-   >次のファイルを保存します。 `config.zip` ファイルをダウンロードする必要があります。
+   >再度ダウンロードすることができないので、ダウンロードプロンプトが表示されたら、`config.zip` ファイルを保存してください。
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
-1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、必要に応じて新しいプロファイルを作成します。 この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;には権限は必要ありません。 詳しくは、 **[!UICONTROL 製品プロファイル]**（を参照） [このページ](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html){_blank}.
+1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、必要に応じて新しいプロファイルを作成します。 この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;には権限は必要ありません。 **[!UICONTROL 製品プロファイル]**&#x200B;について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html){_blank}を参照してください。
    ![](assets/Product-Profile-API.png)
 
    次に、「**[!UICONTROL 設定済み API を保存]**」をクリックします。
 
-1. プロジェクトから、 **[!UICONTROL Adobe Campaign]** 次の情報を **[!UICONTROL サービスアカウント (JWT)]**
+1. プロジェクトから **[!UICONTROL Adobe Campaign]** を選択し、「**[!UICONTROL サービスアカウント (JWT)]**」の下に次の情報をコピーします。
 
    ![](assets/Config-API.png)
 
@@ -129,13 +129,13 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;を使用する場�
 
 1. 変更を反映させるには、サーバーを停止し、再起動する必要があります。 また、 `config -reload` コマンドを使用します。
 
-### 手順 3：新しい配信サーバーを有効にする
+### 手順 3：新しい配信品質サーバーを有効にする
 
 これで、新しい配信サーバーを有効にできます。次の手順を実行します。
 
 1. クライアントコンソールを開き、管理者としてAdobe Campaign にログオンします。
 1. **管理／プラットフォーム／オプション**&#x200B;を選択します。
-1. `NewDeliverabilityServer_FeatureFlag` オプションにアクセスし、値を `1` に設定します。この設定は、すべての Campaign インスタンス（MKT、MID、RT、EXEC）で実行する必要があります。ハイブリッドのお客様は、Adobeに問い合わせて、MID、RT、EXEC の各インスタンスでオプションを設定してもらいます。
+1. `NewDeliverabilityServer_FeatureFlag` オプションにアクセスし、値を `1` に設定します。この設定は、すべての Campaign インスタンス（MKT、MID、RT、EXEC）で実行する必要があります。ハイブリッド環境のお客様は、アドビに連絡して、MID、RT、EXEC の各インスタンスでオプションを設定してもらいます。
 
 ### 手順 4：設定を検証
 
@@ -144,7 +144,7 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;を使用する場�
 
 1. クライアントコンソールを開き、Adobe Campaign にログオンします。
 1. **管理／プロダクション／テクニカルワークフロー**&#x200B;を参照します。
-1. を再起動します。 **配信品質の更新** (deliverabilityUpdate) ワークフロー。 これは、すべての Campaign インスタンス（MKT、MID、RT、EXEC）で実行する必要があります。ハイブリッドのお客様は、Adobeに問い合わせて、MID、RT、EXEC の各インスタンスでワークフローを再開します。
+1. **配信品質の更新** (deliverabilityUpdate) ワークフローを再起動します。すべての Campaign インスタンス（MKT、MID、RT、EXEC）でこの手順を実行する必要があります。ハイブリッド環境のお客様は、アドビに連絡して、MID、RT、EXEC の各インスタンスでワークフローを再開してもらいます。
 1. ログを確認：ワークフローは、エラーなく実行する必要があります。
 
 
@@ -152,15 +152,15 @@ As a **オンプレミス/ハイブリッド顧客**&#x200B;を使用する場�
 
 ### 更新のタイムライン
 
-新しい配信サーバーへの移行は、これらの強化された機能の追加とセキュリティの強化を可能にし、ホスト型顧客 (Campaign Managed Services) 向けの 2012 年 7 月 22 日に開始されます。 すべてのホスト型顧客は、8 月末までに更新されます。
+新しい配信品質サーバーへの移行は、これらの強化された機能の追加とセキュリティの強化を可能にし、ホスト環境のお客様 (Campaign Managed Services) 向けに 2022年7月に開始されます。 すべてのホスト環境のお客様は、8月末までに更新されます。
 
-オンプレミスおよびハイブリッドのお客様は、同じ期間に移行する必要があります。
+オンプレミス環境およびハイブリッド環境のお客様は、同じ期間中に移行する必要があります。
 
-### 環境をアップグレードしない場合はどうなりますか。
+### 環境をアップグレードしない場合はどうなりますか？
 
-8 月 31 日までにアップグレードされなかった Campaign インスタンスは、Campaign 配信サーバーに接続できなくなります。 結果として、 **配信品質の更新** (deliverabilityUpdate) ワークフローは失敗し、配信品質に影響を与えます。
+8月31日までにアップグレードされなかった Campaign インスタンスは、Campaign 配信品質サーバーに接続できなくなります。結果として、**配信品質の更新** (deliverabilityUpdate) ワークフローは失敗し、配信品質に影響を与えます。
 
-環境をアップグレードしない場合、E メール設定の同期は停止されます（MX 管理ルール、インバウンド E メールルール、ドメイン管理ルール、バウンスの選定ルール）。 これは、配信品質の長期化に影響を与える可能性があります。 これらのルールに大きな変更が加えられた場合は、この時点から手動で適用する必要があります。
+環境をアップグレードしない場合、E メール設定の同期は停止されます（MX 管理ルール、インバウンド E メールルール、ドメイン管理ルール、バウンスの選定ルール）。 これは、配信品質の長期化に影響を与える可能性があります。これらのルールに大きな変更が加えられた場合は、この時点から手動で適用する必要があります。
 
-MKT インスタンスの場合は、 [グローバル抑制リスト](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules) が影響を受けます。
+MKT インスタンスの場合は、[グローバル抑制リスト](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules)のみが影響を受けます。
 

@@ -9,7 +9,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 0d0c97213cf8b95bbadd06f4c5666213b6c6c8f1
 workflow-type: tm+mt
 source-wordcount: '1989'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ _2022年7月1日（PT）_
 
 **改善点**
 
-* Internet Explorer 11 の提供終了後、コンソール内の Adobe Services の HTML レンダリングエンジンは、Edge Chromium を使用するようになりました。さらに、任意のクライアントコンソールインストール (Campaign Classic7.3 ビルドバージョン以降 ) にMicrosoft Edge Webview 2 ランタイムのインストールが必要になりました。 [詳細情報](../../installation/using/installing-the-client-console.md)
+* Internet Explorer 11 の提供終了後、コンソール内の Adobe Services の HTML レンダリングエンジンは、Edge Chromium を使用するようになりました。さらに、あらゆるクライアントコンソールインストール（Campaign Classic 7.3 ビルドバージョン以降）で、Microsoft Edge Webview 2 ランタイムのインストールが必要になりました。[詳細情報](../../installation/using/installing-the-client-console.md)
 * Adobe Campaign のデータベース接続管理を改善して、安定性を最適化しました。
 * Campaign で、POP3 の Microsoft Exchange Online OAuth 2.0 認証がサポートされるようになりました。[詳細情報](../../installation/using/external-accounts.md#bounce-mails-external-account)
 * エンリッチメントワークフローアクティビティで外部データを使用する際の様々な問題を修正しました。（NEO-38069）

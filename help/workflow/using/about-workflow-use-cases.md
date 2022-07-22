@@ -5,8 +5,8 @@ description: Campaign Classic ワークフローを使用して実行できる�
 feature: Workflows, Data Management
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '206'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

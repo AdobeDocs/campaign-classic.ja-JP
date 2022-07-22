@@ -4,8 +4,8 @@ title: 分散型マーケティング
 description: 分散型マーケティングパッケージの詳細を説明します
 feature: Workflows, Data Management, Distributed Marketing
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
-source-wordcount: '69'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

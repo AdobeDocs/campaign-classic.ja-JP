@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: d59e9f55275bac303a5ed1450bb28ef7fa0f84cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 90%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign Classicは、新しい機能、バグ修正、パフォーマンス、セキュリティ、操作性の向上をもたらす製品アップデートを定期的にリリースしています。 これらのアップデートは、製品ビルドとしてリリースされます。 新しい各ビルドに関する詳細は、 [リリースノート](latest-release.md).
+Adobe Campaign Classic は、新機能、バグ修正、パフォーマンス、セキュリティ、操作性の向上をもたらす製品アップデートを定期的にリリースしています。 これらのアップデートは、製品ビルドとしてリリースされます。 新しい各ビルドに関する詳細は、[リリースノート](latest-release.md)を参照してください。
 
 ## リリースのステータス{#rn-statuses}
 
-新しいビルドのたびに、ステータスが表示されます。ステータスは [リリースノート](latest-release.md).
+[リリースノート](latest-release.md)では、新しいビルドのステータスが色分けされて表示されます。 
 
 ![](assets/do-not-localize/green3.png) **一般提供**（GA）- 実稼動環境で検証済みでアドビが推奨する、最新の安定したビルド。
 
@@ -45,7 +45,7 @@ Adobe Campaign は定期的にアップデートされています。この定�
 
 安定した設定を確保するために、同じクライアント設定で実行しているすべてのサーバーに&#x200B;**同じビルド**&#x200B;をインストールすることをお勧めします。
 
-また、 [リリースノート](latest-release.md)を使用する場合は、クライアントコンソールを **同じビルド** をサーバーインスタンスとして使用します。
+また、[リリースノート](latest-release.md)で特に明記されていない限り、クライアントコンソールはサーバーインスタンスと&#x200B;**同じビルド**&#x200B;上にある必要があります。
 
 実装を最新の状態に維持するため、新しいリリースのたびに、[廃止および削除された機能](../../rn/using/deprecated-features.md)と[互換性マトリックス](../../rn/using/compatibility-matrix.md)のページを必ずお読みください。
 
@@ -55,7 +55,7 @@ Adobe Campaign は定期的にアップデートされています。この定�
 
 オンプレミスユーザーは、アップグレードを実行できます。これを行うには、[最新の安定したビルド（GA）をダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)して、すべての環境をアップグレードします。
 
-詳しくは、 [アップグレードプロセス](../../production/using/build-upgrade.md)、および [ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md).
+[アップグレードプロセス](../../production/using/build-upgrade.md)について詳しくは、[ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md) を参照してください。
 
 ## 年次アップグレード {#yearly-upgrade}
 

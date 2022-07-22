@@ -4,9 +4,9 @@ product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 * **[2022年リリースプログラム](technotes/using/dc-migration.md)**<br/> 環境をアップグレードし、セキュリティ、インフラストラクチャ、パフォーマンスを向上
 
-* **[7 月のリリースが有効です。](rn/using/latest-release.md)**<br/> 新機能、改善点および修正点をリリースノートでご確認ください
+* **[7月リリースが公開されました](rn/using/latest-release.md)**<br/> 新機能、改善点および修正点をリリースノートでご確認ください
 
 * **[Apple のメールプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ja)** および&#x200B;**[テクニカルノート](technotes/using/apple-mail-app-privacy-protection.md)**<br/>：iOS 15 に関する Apple の発表に対応したガイダンスをご覧ください。
 

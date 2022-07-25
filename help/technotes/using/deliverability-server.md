@@ -3,10 +3,10 @@ product: campaign
 title: 新しい配信サーバーに対する更新
 description: 新しい Campaign 配信品質サーバーに更新する方法を説明します
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: a45e18e460c11f474dc1b5663b9f4a3277fac12c
+source-git-commit: 8b8935b181b615c0a243799b14d01f778b84b715
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,13 +58,13 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
    このオプションは、すべての Campaign インスタンス (MKT、MID、RT、EXEC) に正しい値で入力する必要があります。ハイブリッド環境のお客様は、アドビに連絡して、MID、RT、EXEC の各インスタンスでオプションを設定してもらいます。
 
+>[!CAUTION]
+>
+>オンプレミス版のお客様の場合、ファイアウォールを自社側で実装する場合は、この URL を追加する必要があります `https://deliverability-service.adobe.io` をに追加し許可リストます。 [詳細情報](../../installation/using/url-permissions.md)。
+
 ### 手順 1：Adobe Developer プロジェクトを作成／更新 {#adobe-io-project}
 
-1. [Adobe Developer Console](https://developer.adobe.com/console/home) にアクセスし、組織の開発者アクセス権を使用してログインします。
-
-   >[!NOTE]
-   >
-   > 正しい組織ポータルにログインしていることを確認します。
+1. [Adobe Developer Console](https://developer.adobe.com/console/home) にアクセスし、組織の開発者アクセス権を使用してログインします。正しい組織ポータルにログインしていることを確認します。
 
 1. 「**[!UICONTROL 新規プロジェクトを作成]**」を選択します。
    ![](assets/New-Project.png)

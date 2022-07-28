@@ -5,9 +5,9 @@ description: 積集合
 feature: Workflows, Targeting Activity
 exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ac_workflow_intersection"
 >title="積集合 アクティビティ"
->abstract="「積集合」タイプのアクティビティは、受信したターゲットの積集合からターゲットを作成します。 積集合は、すべてのインバウンドアクティビティの結果に共通する母集団のみを抽出します。"
+>abstract="「積集合」タイプのアクティビティは、受信したターゲットの積集合からターゲットを作成します。積集合では、インバウンドアクティビティのすべての結果に共通する母集団のみを抽出できます。"
 >additional-url="https://video.tv.adobe.com/v/329373" text="デモビデオを見る"
 
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 「**積集合**」タイプのアクティビティは、受信したターゲットの積集合からターゲットを作成します。
 
-積集合は、すべてのインバウンドアクティビティの結果に共通する母集団のみを抽出します。ターゲットは、受信したすべての結果から作成されます。そのため、すべての先行アクティビティは、積集合が実行される前に完了している必要があります。このアクティビティを設定するには、結果を考慮してアクティビティのラベルとオプションを入力する必要があります。
+積集合では、インバウンドアクティビティのすべての結果に共通する母集団のみを抽出できます。ターゲットは、受信したすべての結果から作成されます。そのため、すべての先行アクティビティは、積集合が実行される前に完了している必要があります。このアクティビティを設定するには、結果を考慮してアクティビティのラベルとオプションを入力する必要があります。
 
 ![](assets/s_user_segmentation_inter.png)
 
@@ -62,7 +62,7 @@ ht-degree: 96%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* スキーマ
+* schema
 * recCount
 
 この 3 つの値セットは、積集合によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は **[!UICONTROL nms:recipient]**）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

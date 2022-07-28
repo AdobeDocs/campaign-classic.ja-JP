@@ -5,9 +5,9 @@ description: 概要リストの作成
 feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1060'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Phone;500;London 5
 
    このアクティビティについて詳しくは、[ファイルからのデータの読み込み](../../platform/using/import-export-workflows.md#loading-data-from-a-file)を参照してください。
 
-1. の設定 **ファイルコレクター** テキストを収集するアクティビティ (&#42;.txt) 選択したディレクトリのファイルを入力します。
+1. 「**ファイルコレクター**」アクティビティを設定し、任意のディレクトリからテキスト（&#42;.txt）タイプのファイルを収集します。
 
    ![](assets/uc2_enrich_collecteur.png)
 

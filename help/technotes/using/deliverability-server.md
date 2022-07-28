@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: 新しい配信サーバーに対する更新
-description: 新しい Campaign 配信品質サーバーに更新する方法を説明します
+title: 新しい配信サーバーへの更新
+description: 新しい Campaign 配信サーバーに更新する方法を説明します
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 8b8935b181b615c0a243799b14d01f778b84b715
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1186'
+ht-degree: 100%
 
 ---
 
-# 新しい配信サーバーに対する更新 {#acc-deliverability}
+# 新しい配信サーバーへの更新 {#acc-deliverability}
 
 [v7.2.1 リリース](../../rn/using/latest-release.md#release-7-2-2)以降、Adobe Campaign は、高可用性をもたらし、セキュリティコンプライアンスの問題に対処する新しい配信品質サーバーに依存しています。Campaign Classic は、新しい配信サーバーとの間で、配信品質ルール、broadLog および抑制アドレスを同期するようになりました。古い配信品質サーバーは 2022年8月31日に廃止されます。
 
@@ -54,13 +54,13 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 1. `DmRendering_cuid` オプションの値が入力されていることを確認します。 
 
    * オプションの値が入力されている場合は、実装を開始できます。
-   * 値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} に連絡して CUID を取得してください。
+   * 値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} に連絡して CUID を取得してください。
 
    このオプションは、すべての Campaign インスタンス (MKT、MID、RT、EXEC) に正しい値で入力する必要があります。ハイブリッド環境のお客様は、アドビに連絡して、MID、RT、EXEC の各インスタンスでオプションを設定してもらいます。
 
 >[!CAUTION]
 >
->オンプレミス版のお客様の場合、ファイアウォールを自社側で実装する場合は、この URL を追加する必要があります `https://deliverability-service.adobe.io` をに追加し許可リストます。 [詳細情報](../../installation/using/url-permissions.md)。
+>オンプレミス環境のお客様がファイアウォールを自ら実装する場合は、この URL `https://deliverability-service.adobe.io` を許可リストに追加する必要があります。 [詳細情報](../../installation/using/url-permissions.md)。
 
 ### 手順 1：Adobe Developer プロジェクトを作成／更新 {#adobe-io-project}
 

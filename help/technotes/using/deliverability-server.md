@@ -3,8 +3,8 @@ product: campaign
 title: 新しい配信サーバーへの更新
 description: 新しい Campaign 配信サーバーに更新する方法を説明します
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 8b8935b181b615c0a243799b14d01f778b84b715
-workflow-type: ht
+source-git-commit: ca9df95442355a0cd18c7c9ef048c2d77e84188e
+workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 新しい配信サーバーへの更新 {#acc-deliverability}
 
-[v7.2.1 リリース](../../rn/using/latest-release.md#release-7-2-2)以降、Adobe Campaign は、高可用性をもたらし、セキュリティコンプライアンスの問題に対処する新しい配信品質サーバーに依存しています。Campaign Classic は、新しい配信サーバーとの間で、配信品質ルール、broadLog および抑制アドレスを同期するようになりました。古い配信品質サーバーは 2022年8月31日に廃止されます。
+[v7.2.2 リリース](../../rn/using/latest-release.md#release-7-2-2)以降、Adobe Campaign は、高可用性をもたらし、セキュリティコンプライアンスの問題に対処する新しい配信品質サーバーに依存しています。Campaign Classic は、新しい配信サーバーとの間で、配信品質ルール、broadLog および抑制アドレスを同期するようになりました。古い配信品質サーバーは 2022年8月31日に廃止されます。
 
 Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新しい配信品質サーバーを実装する必要があります。
 
@@ -28,13 +28,13 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 ## 影響の有無{#acc-deliverability-impacts}
 
-すべてのお客様に影響があるので、新しい配信品質サーバーのメリットを得るには [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2)（またはそれ以上）にアップグレードして、環境を実装する必要があります。
+すべてのお客様に影響があるので、新しい配信品質サーバーのメリットを得るには [Campaign v7.2.2](../../rn/using/latest-release.md#release-7-2-2)（またはそれ以上）にアップグレードして、環境を実装する必要があります。
 
 ## 更新方法{#acc-deliverability-update}
 
 **ホスト環境のお客様**&#x200B;の場合、アドビはお客様と協力してインスタンスを新しいバージョンにアップグレードし、Adobe Developer Console でプロジェクトを作成します。
 
-**オンプレミス/ハイブリッド環境のお客様**&#x200B;の場合、新しい配信品質サーバーのメリットを得るには、 [Campaign v7.2.1](../../rn/using/latest-release.md#release-7-2-2)（またはそれ以上）にアップグレードする必要があります。すべてのインスタンスがアップグレードされると、アドビ配信品質サーバーに[新しい統合を実装し](#implementation-steps)、シームレスな移行を確実に実現できるようになります。
+**オンプレミス/ハイブリッド環境のお客様**&#x200B;の場合、新しい配信品質サーバーのメリットを得るには、 [Campaign v7.2.2](../../rn/using/latest-release.md#release-7-2-2)（またはそれ以上）にアップグレードする必要があります。すべてのインスタンスがアップグレードされると、アドビ配信品質サーバーに[新しい統合を実装し](#implementation-steps)、シームレスな移行を確実に実現できるようになります。
 
 ## 実装手順 {#implementation-steps}
 
@@ -54,7 +54,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 1. `DmRendering_cuid` オプションの値が入力されていることを確認します。 
 
    * オプションの値が入力されている場合は、実装を開始できます。
-   * 値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} に連絡して CUID を取得してください。
+   * 値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} に連絡して CUID を取得してください。
 
    このオプションは、すべての Campaign インスタンス (MKT、MID、RT、EXEC) に正しい値で入力する必要があります。ハイブリッド環境のお客様は、アドビに連絡して、MID、RT、EXEC の各インスタンスでオプションを設定してもらいます。
 

@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: 56ff1f02e614a91200a8f2ca106dcc76e82f122d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2034'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 以下の[ビルドアップグレードのチェックリスト](#check-list)とテスト計画を確認し、これらのテストを実行できるリソースがアップグレード完了の 24～48 時間以内に利用可能であることを確認します。
 
-詳しくは、[このドキュメント](https://helpx.adobe.com/campaign/kb/acc-build-upgrade.html)を参照してください。
+詳しくは、[このドキュメント](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)を参照してください。
 
 ## 夜間や営業時間外にビルドアップグレードを実行することはできますか？
 
@@ -128,7 +128,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 ## アップグレードの間、トラッキングリンクは機能しますか？
 
-すべてのサーバーが停止しているので、既に送信された E メールのトラッキングリンクは、アップグレード中は機能しません。 アップグレードが完了し、サーバが再起動されると、再び動作します。
+アップグレード中は、すべてのサーバーが停止しているので、送信済みのメールのトラッキングリンクは機能しません。 アップグレードが完了し、サーバが再起動すると、再び動作するようになります。
 
 ## ビルドのアップグレードプロセスの間、こちらが対応できるようにしておく必要はありますか？
 

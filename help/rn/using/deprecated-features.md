@@ -8,8 +8,8 @@ level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 45c5ef3315e4208184e9c0ab5f20678646fe2d0b
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 91%
+source-wordcount: '1624'
+ht-degree: 92%
 
 ---
 
@@ -80,12 +80,6 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
   </td>
   </tr>
-  <tr>
-  <td>CentOs 8.x（64 ビット）<br></td>
-   <td><p>CentOS Linux 8 は 2021 年 12 月 31 日に提供終了 (EOL) に達しました。 <a href="https://www.centos.org/centos-linux-eol/">詳細情報</a></p>
-   <p>このオペレーティングシステムを使用していた場合は、それに応じて実装を適応させます。 CentOS 7.x（64 ビット）と RHEL 8.x/7.x（64 ビット）は引き続きサポートされます。</p>
-  </td>
- </tr>
    <td>レポート<br></td>
    <td><p>Adobe Flash Player の提供終了に伴い、ゲージレポートとグラフレンダリングエンジンは使用できなくなりました。 <a href="../../reporting/using/creating-a-new-report.md">詳細情報</a></p>
   </tr>
@@ -142,9 +136,9 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
  </tbody> 
 </table>
 
-## 非推奨（廃止予定）の互換性 {#deprecated-compatibility}
+<!--## Deprecated compatibility {#deprecated-compatibility}
 
-Campaign Classic では、次のシステムが非推奨（廃止予定）になっています。[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照して、互換性がなくなる前に新しいバージョンにアップグレードするか新しいシステムに移行してください。
+The following systems are deprecated for Campaign Classic. Please refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system before the compatibility ends.-->
 
 ## 互換性の終了 {#end-of-compatibility}
 

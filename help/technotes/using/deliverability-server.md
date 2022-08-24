@@ -3,10 +3,10 @@ product: campaign
 title: 新しい配信サーバーへの更新
 description: 新しい Campaign 配信サーバーに更新する方法を説明します
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: ca9df95442355a0cd18c7c9ef048c2d77e84188e
-workflow-type: ht
-source-wordcount: '1186'
-ht-degree: 100%
+source-git-commit: 38f5cb9fdeb9deceab812c6ebc158e2ab37e3155
+workflow-type: tm+mt
+source-wordcount: '1283'
+ht-degree: 93%
 
 ---
 
@@ -51,16 +51,26 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 1. Campaign クライアントコンソールを開き、管理者として Adobe Campaign にログオンします。
 1. **管理／プラットフォーム／オプション**&#x200B;を参照します。
-1. `DmRendering_cuid` オプションの値が入力されていることを確認します。 
+1. 以下を確認します。 `DmRendering_cuid` オプションの値が入力されます。
 
    * オプションの値が入力されている場合は、実装を開始できます。
-   * 値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} に連絡して CUID を取得してください。
+   * 値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} に連絡して CUID を取得してください。
 
    このオプションは、すべての Campaign インスタンス (MKT、MID、RT、EXEC) に正しい値で入力する必要があります。ハイブリッド環境のお客様は、アドビに連絡して、MID、RT、EXEC の各インスタンスでオプションを設定してもらいます。
+
+オンプレミス型の顧客は、Campaign が **[!UICONTROL 製品プロファイル]** は組織で使用できます。 手順は次のとおりです。
+
+1. 管理者として、 [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
+1. 次にアクセス： **製品とサービス** セクションとチェック **Adobe Campaign** が表示されます。
+が **Adobe Campaign** 連絡先 [Adobeカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} を追加します。
+1. クリック **Adobe Campaign** 組織を選択します。
+1. をチェックします。 **[!UICONTROL 製品プロファイル]** が存在します。 そうでない場合は、作成します。 この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;には権限は必要ありません。 
+
 
 >[!CAUTION]
 >
 >オンプレミス環境のお客様がファイアウォールを自ら実装する場合は、この URL `https://deliverability-service.adobe.io` を許可リストに追加する必要があります。 [詳細情報](../../installation/using/url-permissions.md)。
+
 
 ### 手順 1：Adobe Developer プロジェクトを作成／更新 {#adobe-io-project}
 
@@ -123,7 +133,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 1. ファイル `private.key.base64` からコンテンツをコピーします。
 1. Adobe Campaign インスタンスがインストールされている各コンテナに SSH 経由でログインし、`neolane` ユーザーとして次のコマンドを実行して Adobe Campaign にプロジェクト資格情報を追加します。これにより、**[!UICONTROL テクニカルアカウント]**&#x200B;資格情報がインスタンス設定ファイルに挿入されます。
 
-   ```
+   ```sql
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
 
@@ -139,7 +149,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 ### 手順 4：設定を検証
 
-統合が成功したことを確認するには、以下の手順に従います。
+統合が成功したことを確認するには、次の手順に従います。
 
 
 1. クライアントコンソールを開き、Adobe Campaign にログオンします。

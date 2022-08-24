@@ -3,10 +3,10 @@ product: campaign
 title: Adobe Analytics Connector への移行
 description: Campaign - Analytics Connector に関する FAQ
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: c072cb5b2d33f93ff395e4670507744b0d20c9bc
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: 9667bb436ffc591b05945dadd683e5f590ae43e5
+workflow-type: tm+mt
+source-wordcount: '815'
+ht-degree: 96%
 
 ---
 
@@ -32,9 +32,9 @@ Campaign Classic v7と Adobe Analytics の間で新しい統合が利用でき�
 
 * **処理ルール** は、新しい統合の一部として Adobe Campaign によって作成されます。**処理ルール**&#x200B;は、Adobe Analytics から手動で作成するか、クライアントサイド JavaScript 実装を直接使用する必要があります。 **処理ルール** は、既存の統合に対してはそのまま維持されます。
 
-* 組み込みのテクニカルワークフローとその動作は変わりません。 Adobe Analytics との間でデータのプッシュ／プルを行うためにワークフローで使用されるバックエンド API のみ変更されました。
+* ビルトインのテクニカルワークフローとその動作は変わりません。 Adobe Analytics との間でデータのプッシュ／プルを行うためにワークフローで使用されるバックエンド API のみ変更されました。
 
-* 新しいコネクタを動作させるには、`nlserver`プロセスを IMS テクニカルアカウントユーザーに設定してください。この変更は、アドビで行う必要があります。 これを実装するには、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+* 新しいコネクタを動作させるには、`nlserver`プロセスを IMS テクニカルアカウントユーザーに設定してください。この変更は、アドビで行う必要があります。 これを実装するには、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 * カスタマイズしたワークフローで Adobe Genesis API を使用して Adobe Analytics との間でデータのプッシュ／プルを行っていた場合は、新しい Adobe Analytics 1.4／2.0 API を使用する必要があります。[詳細情報](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360047148832-Replacements-for-Data-Connector-API-calls)
 
@@ -79,7 +79,7 @@ Campaign Classic v7と Adobe Analytics の間で新しい統合が利用でき�
 
 Analytics コンポーネント（指標、ディメンション、セグメント、レポートスイートなど）の詳細について読み取っている場合、API は、結果にこれらのコンポーネントを返しません（Analytics 側で何かが削除されたか存在しないように見えます）。Analytics API はこれらのリクエストを拒否し、エラーになります。
 
-解決策としては、[Adobe Admin Console](https://adminconsole.adobe.com/) でこれらのコンポーネントを追加することにより、テクニカルユーザートークンの Analytics ユーザーコンテキストの&#x200B;**製品プロファイル**&#x200B;を更新して、新しく作成または欠落したコンポーネントを反映させます。詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+解決策は、 **製品プロファイル** テクニカルユーザートークンの Analytics ユーザーコンテキストで、新しく作成または欠落したコンポーネントを [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}. 詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 ## 参考になるリンク
 

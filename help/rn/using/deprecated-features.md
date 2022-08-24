@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+source-git-commit: 45c5ef3315e4208184e9c0ab5f20678646fe2d0b
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 100%
+source-wordcount: '1696'
+ht-degree: 91%
 
 ---
 
@@ -43,36 +43,10 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <td><strong>機能</strong></td>
    <td><strong>置き換え</strong></td>
   </tr>
-  <tr>
-  <td>CentOs 8.x（64 ビット）<br></td>
-   <td><p>CentOS Linux 8 は、2021年12月31日（PT）に提供終了（EOL）となります。 <a href="https://www.centos.org/centos-linux-eol/">詳細情報</a></p>
-   <p>このオペレーティングシステムを使用している場合は、実装を適切に調整する必要があります。CentOS 7.x（64 ビット）と RHEL 8.x/7.x（64 ビット）は引き続きサポートされます。</p>
-  <p><em>削除のターゲット日：2021年12月31 日（PT）。</em></p>
-  </td>
- </tr>
-    <tr>
-  <td>Adobe Analytics Data Connector<br></td>
-   <td><p>Campaign 21.1.3 リリース以降、Adobe Analytics Data Connector は非推奨（廃止予定）になりました。</p>
-   <p>このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../platform/using/adobe-analytics-connector.md">詳細情報</a></p>
-  <p><em>削除予定日：2022年8月17日（PT）</em></p>
-  </td>
- </tr>
-    <tr>
-  <td>配信品質の技術的監視レポート<br></td>
-   <td><p>Campaign 21.1 リリース以降、配信品質の技術的監視レポートは非推奨となりました。</p>
-   <p>必要に応じて、削除予定日まで、このレポートを E メールで毎日受け取ることができます。レポートの送信をリクエストするには、特定の<a href="https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">サポートケース</a>を開き、インスタンス名と送信先の E メールアドレスを指定します。</p> 
-   <p>インスタンスの配信品質パフォーマンスを監視するための最適なツールを定義する際に、配信品質チームに相談することをお勧めします。</p>
-  <p><em>削除予定日：2022年初頭</em></p>
-  </td>
- </tr>
-  <tr>
-  <td>OAuth 認証（OAuth および JWT）<br></td>
-  <td><p> Campaign 20.3 リリースより、パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていた Triggers 統合認証が変更され、Adobe I/O に移動しました。 <p>
-  <p>Triggers 統合を使用している場合は、これに応じて実装を適応させる必要があります。<a href="../../integrations/using/configuring-adobe-io.md">詳細情報</a></p> 
-  <p>OAuth 認証の廃止予定について詳しくは、この<a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">ページ</a>を参照してください。</p> 
-  <p><em>削除予定日：2021年10月20日（PT）。 ホスト環境では、2022年5月25日（PT）まで延長サポートを受けられます。 </em></p>
-  </td>
-  </tr>
+<tr>
+ <td>該当なし</td>
+ <td>該当なし</td>
+</tr>
  </tbody> 
 </table>
 
@@ -83,9 +57,35 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
 <table> 
  <tbody>
   <tr> 
-   <td><strong>領域 - 機能</strong></td>
-   <td><strong>置き換え</strong></td>
+   <td><strong>機能</strong></td>
+   <td><strong>詳細</strong></td>
   <tr>  
+      <tr>
+  <td>Adobe Analytics Data Connector<br></td>
+   <td><p>Adobe Analytics Data Connector は、2022 年 8 月 17 日に削除されました。 Campaign 21.1.3 リリースで非推奨（廃止予定）となりました。</p>
+   <p>このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../platform/using/adobe-analytics-connector.md">詳細情報</a></p>
+  </td>
+ </tr>
+    <tr>
+  <td>配信品質の技術的監視レポート<br></td>
+   <td><p>配信品質の技術的監視レポートは使用できなくなりました。 Campaign 21.1.3 リリースで非推奨（廃止予定）となりました。</p>
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+  </td>
+ </tr>
+  <tr>
+  <td>OAuth 認証（OAuth および JWT）<br></td>
+  <td><p> パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていたトリガー統合認証が変更され、Adobe I/Oに移動しました。この認証モードは、Campaign 20.3 リリースで非推奨（廃止予定）となりました。<p>
+  <p>トリガー統合を使用している場合は、実装を適応させる方法を学ぶ <a href="../../integrations/using/configuring-adobe-io.md">このページ</a>.</p> 
+  <p>OAuth 認証の廃止予定について詳しくは、この<a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">ページ</a>を参照してください。</p> 
+  <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
+  </td>
+  </tr>
+  <tr>
+  <td>CentOs 8.x（64 ビット）<br></td>
+   <td><p>CentOS Linux 8 は 2021 年 12 月 31 日に提供終了 (EOL) に達しました。 <a href="https://www.centos.org/centos-linux-eol/">詳細情報</a></p>
+   <p>このオペレーティングシステムを使用していた場合は、それに応じて実装を適応させます。 CentOS 7.x（64 ビット）と RHEL 8.x/7.x（64 ビット）は引き続きサポートされます。</p>
+  </td>
+ </tr>
    <td>レポート<br></td>
    <td><p>Adobe Flash Player の提供終了に伴い、ゲージレポートとグラフレンダリングエンジンは使用できなくなりました。 <a href="../../reporting/using/creating-a-new-report.md">詳細情報</a></p>
   </tr>
@@ -146,10 +146,6 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
 
 Campaign Classic では、次のシステムが非推奨（廃止予定）になっています。[互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照して、互換性がなくなる前に新しいバージョンにアップグレードするか新しいシステムに移行してください。
 
-### Adobe Campaign 20.2 リリース  {#compat-20-2-release}
-
-20.2 リリースより、レガシー SMS コネクタは非推奨（廃止予定）になります。[非推奨（廃止予定）の機能の節](#deprecated-features)を参照してください。
-
 ## 互換性の終了 {#end-of-compatibility}
 
 >[!CAUTION]
@@ -168,15 +164,20 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 ### オペレーティングシステム {#o-s-eol}
 
-21.1.3 リリース以降、Debian 8 のサポートは非推奨になりました。
 
-19.1 リリース以降、Adobe Campaign は次のオペレーティングシステムへの対応を終了します。
+* 22.1 リリースより、Adobe Campaignは CentOs 8.x（64 ビット）との互換性を失います。 CentOS Linux 8 は 2021 年 12 月 31 日に提供終了 (EOL) に達しました。 [詳細情報](https://www.centos.org/centos-linux-eol/)。
 
-* CentOS 6。[詳細情報](https://wiki.centos.org/Download)
-* Debian 7。[詳細情報](https://wiki.debian.org/DebianReleases)
-* RHEL 6.x。[詳細情報](https://access.redhat.com/ja/support/policy/updates/errata)
-* Windows Server 2008。[詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/1163)
-* SLES 11。[詳細情報](https://www.suse.com/lifecycle)
+   このオペレーティングシステムを使用していた場合は、それに応じて実装を適応させます。 CentOS 7.x（64 ビット）と RHEL 8.x/7.x（64 ビット）は引き続きサポートされます。
+
+* 21.1.3 リリースより、Adobe Campaignは Debian 8 に対応しなくなります。
+
+* 19.1 リリース以降、Adobe Campaign は次のオペレーティングシステムへの対応を終了します。
+
+   * CentOS 6。[詳細情報](https://wiki.centos.org/Download)
+   * Debian 7。[詳細情報](https://wiki.debian.org/DebianReleases)
+   * RHEL 6.x。[詳細情報](https://access.redhat.com/ja/support/policy/updates/errata)
+   * Windows Server 2008。[詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/1163)
+   * SLES 11。[詳細情報](https://www.suse.com/lifecycle)
 
 ### Web サーバー {#web-server-eol}
 
@@ -239,7 +240,7 @@ PostgreSQL の 9.6 までのバージョンは、提供が終了しました。�
 
 ### SMS コネクタ {#sms-eol}
 
-Adobe Campaign は、次の SMS コネクタと互換性がありません。
+20.2 リリースより、レガシー SMS コネクタは非推奨（廃止予定）になります。Adobe Campaignは次と互換性がありません。
 
 * 一般的な SMPP（バイナリモードをサポートする SMPP バージョン 3.4）
 * Sybase365（SAP SMS 365）

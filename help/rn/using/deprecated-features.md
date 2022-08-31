@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 45c5ef3315e4208184e9c0ab5f20678646fe2d0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1624'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   <tr>  
       <tr>
   <td>Adobe Analytics Data Connector<br></td>
-   <td><p>Adobe Analytics Data Connector は、2022 年 8 月 17 日に削除されました。 Campaign 21.1.3 リリースで非推奨（廃止予定）となりました。</p>
+   <td><p>Adobe Analytics Data Connector は、2022年8月17日（PT）に削除されました。 Campaign 21.1.3 リリースで非推奨（廃止予定）となりました。</p>
    <p>このコネクタを使用する場合は、それに応じて実装を適応させる必要があります。<a href="../../platform/using/adobe-analytics-connector.md">詳細情報</a></p>
   </td>
  </tr>
@@ -74,8 +74,8 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
  </tr>
   <tr>
   <td>OAuth 認証（OAuth および JWT）<br></td>
-  <td><p> パイプラインにアクセスするために当初は oAUTH 認証設定に基づいていたトリガー統合認証が変更され、Adobe I/Oに移動しました。この認証モードは、Campaign 20.3 リリースで非推奨（廃止予定）となりました。<p>
-  <p>トリガー統合を使用している場合は、実装を適応させる方法を学ぶ <a href="../../integrations/using/configuring-adobe-io.md">このページ</a>.</p> 
+  <td><p> パイプラインにアクセスするために、当初は oAUTH 認証設定に基づいていたトリガー統合認証が変更され、Adobe I/O に移動しました。この認証モードは、Campaign 20.3 リリースで非推奨となりました。<p>
+  <p>トリガー統合を使用している場合は、<a href="../../integrations/using/configuring-adobe-io.md">このページ</a>で実装の適応方法を確認してください。</p> 
   <p>OAuth 認証の廃止予定について詳しくは、この<a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">ページ</a>を参照してください。</p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
   </td>
@@ -159,11 +159,11 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 ### オペレーティングシステム {#o-s-eol}
 
 
-* 22.1 リリースより、Adobe Campaignは CentOs 8.x（64 ビット）との互換性を失います。 CentOS Linux 8 は 2021 年 12 月 31 日に提供終了 (EOL) に達しました。 [詳細情報](https://www.centos.org/centos-linux-eol/)。
+* 22.1 リリースより、Adobe Campaign は CentOs 8.x（64 ビット）との互換性を失います。CentOS Linux 8 は、2021年12月31日（PT）に提供終了（EOL）となります。[詳細情報](https://www.centos.org/centos-linux-eol/)。
 
-   このオペレーティングシステムを使用していた場合は、それに応じて実装を適応させます。 CentOS 7.x（64 ビット）と RHEL 8.x/7.x（64 ビット）は引き続きサポートされます。
+   このオペレーティングシステムを使用していた場合は、それに応じて実装を適応させます。CentOS 7.x（64 ビット）と RHEL 8.x/7.x（64 ビット）は引き続きサポートされます。
 
-* 21.1.3 リリースより、Adobe Campaignは Debian 8 に対応しなくなります。
+* 21.1.3 リリース以降、Adobe Campaign は Debian 8 との互換性がなくなります。
 
 * 19.1 リリース以降、Adobe Campaign は次のオペレーティングシステムへの対応を終了します。
 
@@ -234,7 +234,7 @@ PostgreSQL の 9.6 までのバージョンは、提供が終了しました。�
 
 ### SMS コネクタ {#sms-eol}
 
-20.2 リリースより、レガシー SMS コネクタは非推奨（廃止予定）になります。Adobe Campaignは次と互換性がありません。
+20.2 リリースより、レガシー SMS コネクタは非推奨（廃止予定）になります。Adobe Campaign は次と互換性がありません。
 
 * 一般的な SMPP（バイナリモードをサポートする SMPP バージョン 3.4）
 * Sybase365（SAP SMS 365）

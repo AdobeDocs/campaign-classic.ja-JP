@@ -5,9 +5,9 @@ description: Campaign Classic のサポートが必要な場合は、こちら�
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: 9667bb436ffc591b05945dadd683e5f590ae43e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '798'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 ### コントロールパネルのよくある質問（FAQ）
 
-Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)します。
+Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)します。
 
 ### SFTP 管理
 
@@ -132,19 +132,19 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-新しいチケット発行システムが [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. 新しいシステムでは、ユーザーごとに、正しい権限を持つ新しい個別のアカウントが必要です。 Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。 [詳細情報](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)
+新しいチケット発行システムが [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank} で利用できるようになりました。新しいシステムでは、ユーザーごとに、正しい権限を持つ新しい個別のアカウントが必要です。 Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。 [詳細情報](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}。
 
 ### Campaign ダウンロードセンターへのアクセス
 
 2020 年 6 月現在、Experience Cloud ソリューションソフトウェア配布は、従来の Neolane ダウンロードセンターに代わるものであり、ソフトウェア、パッケージ、ツールの検索およびダウンロードのエクスペリエンスが効率化されています。Experience Cloud ソフトウェア配布にアクセスするには、[ここをクリック](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)します。
-新しいダウンロードセンターの詳細を表示 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){_blank}.
+新しいダウンロードセンターについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){_blank} を参照してください。
 
 ### チケットの作成またはチャットの開始
 
 ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。 問題の解決やトラブルシューティングのヘルプとして、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
 
-新しいシステムで問題をログに記録したりチャットセッションを開始するには、次に接続します： [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. 詳しい手順に従います。詳しくは、 [このページ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html){_blank}.
+新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank} に接続します。詳細な手順については、[このページ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html){_blank} を参照してください。

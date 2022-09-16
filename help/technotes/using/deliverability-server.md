@@ -3,9 +3,9 @@ product: campaign
 title: 新しい配信サーバーへの更新
 description: 新しい Campaign 配信サーバーに更新する方法を説明します
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 7385617d69c823850083a94b561d02c9152803e1
+source-git-commit: 9583763eb1d4403b32a1b77a9542f476c314d167
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1367'
 ht-degree: 93%
 
 ---
@@ -62,11 +62,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 1. 管理者として、[Adobe Admin Console](https://adminconsole.adobe.com/){_blank} に接続します。
 1. 「**製品とサービス**」セクションにアクセスし、**Adobe Campaign** が一覧表示されていることを確認します。
 **Adobe Campaign** が表示されない場合、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} に連絡し、Adobe Campaign を追加します。
-1. **Adobe Campaign** をクリックし、組織を選択します。
-
-   >[!CAUTION]
-   >
-   >複数の組織がある場合は、正しい組織を選択していることを確認します。 組織の詳細を表示 [このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+1. **Adobe Campaign** をクリックし、組織を選択します。**注意**:複数の組織がある場合は、正しい組織を選択していることを確認します。 組織の詳細を表示 [このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
 
 1. **[!UICONTROL 製品プロファイル]**&#x200B;が存在するか確認します。存在しない場合は作成します。この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;には権限は必要ありません。 
 
@@ -79,11 +75,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 ### 手順 1：Adobe Developer プロジェクトを作成／更新 {#adobe-io-project}
 
 1. [Adobe Developer Console](https://developer.adobe.com/console/home) にアクセスし、組織の開発者アクセス権を使用してログインします。正しい組織ポータルにログインしていることを確認します。
-
-   >[!CAUTION]
-   >
-   >複数の組織がある場合は、正しい組織を選択していることを確認します。 組織の詳細を表示 [このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
-
+   **注意**:複数の組織がある場合は、正しい組織を選択していることを確認します。 組織の詳細を表示 [このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
 1. 「**[!UICONTROL 新規プロジェクトを作成]**」を選択します。
    ![](assets/New-Project.png)
 

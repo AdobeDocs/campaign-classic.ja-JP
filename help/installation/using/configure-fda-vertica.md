@@ -1,38 +1,34 @@
 ---
 product: campaign
-title: Vertica へのアクセスの設定
-description: FDA で Vertica へのアクセスを設定する方法を説明します
+title: vertica analyticsへのアクセスの設定
+description: FDA でVertica analyticsへのアクセスを設定する方法
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 26%
+source-wordcount: '406'
+ht-degree: 25%
 
 ---
 
-# Vertica へのアクセスの設定 {#configure-fda-vertica}
+# vertica analyticsへのアクセスの設定 {#configure-fda-vertica}
 
 ![](../../assets/v7-only.svg)
 
-キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存された情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 [!DNL Vertica].
+キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存された情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 [!DNL Vertica Analytics].
 
-1. 設定 [!DNL Vertica] オン [CentOS](#vertica-centos), [Windows](#vertica-windows) または [Debian](#vertica-debian)
-1. の設定 [!DNL Vertica] [外部アカウント](#vertica-external) キャンペーン内
-
->[!NOTE]
->
->[!DNL Vertica] コネクタは、ハイブリッドおよびオンプレミスのデプロイメントで使用できます。 詳しくは、[このページ](../../installation/using/capability-matrix.md)を参照してください。
+1. 設定 [!DNL Vertica Analytics] オン [CentOS](#vertica-centos), [Windows](#vertica-windows) または [Debian](#vertica-debian)
+1. の設定 [!DNL Vertica Analytics] [外部アカウント](#vertica-external) キャンペーン内
 
 ![](assets/snowflake_3.png)
 
-## Vertica(CentOS) {#vertica-centos}
+## CentOS のvertica analytics {#vertica-centos}
 
-を設定するには、以下を実行します。 [!DNL Vertica] CentOS で、次の手順に従います。
+を設定するには、以下を実行します。 [!DNL Vertica Analytics] CentOS で、次の手順に従います。
 
-1. [!DNL Vertica] 用の ODBC ドライバーをダウンロードします。[ここをクリック](https://www.vertica.com/download/vertica/client-drivers/) 最新の Linux RPM をダウンロードします。
+1. [!DNL Vertica Analytics] 用の ODBC ドライバーをダウンロードします。[ここをクリック](https://www.vertica.com/download/vertica/client-drivers/) 最新の Linux RPM をダウンロードします。
 
 1. その後、次のコマンドを使用して unixODBC をインストールする必要があります。
 
@@ -41,7 +37,7 @@ ht-degree: 26%
    yum install unixODBC.x86_64
    ```
 
-1. 以前に [!DNL Vertica] サーバー、ODBC ドライバーは既にインストールされています。 この場合、次のようにドライブを更新します。
+1. 以前に [!DNL Vertica Analytics] サーバー、ODBC ドライバーは既にインストールされています。 この場合、次のようにドライブを更新します。
 
    ```
    #Switch to root
@@ -53,9 +49,9 @@ ht-degree: 26%
    #Open odbcinst.ini
    vi /etc/odbcinst.ini
    
-   #Add a section for Vertica and save
-   [Vertica]
-   Description = Vertica ODBC Driver
+   #Add a section for Vertica Analytics and save
+   [VerVertica Analyticstica]
+   Description = Vertica Analytics ODBC Driver
    Driver = /opt/vertica/lib64/libverticaodbc.so
    
    #Open odbc.ini
@@ -63,14 +59,14 @@ ht-degree: 26%
    
    #Add your DSN in ODBC Data Sources section, for example:
    [ODBC Data Sources]
-   VMart = "VMart database on Vertica"
+   VMart = "VMart database on Vertica Analytics"
    
    #Add a DSN definition section below, for example:
    [VMart]
    Description = Vmart Database
-   Driver = Vertica
+   Driver = Vertica Analytics
    Database = VMart
-   Servername = # The name of the server where Vertica is installed. Use localhost if Vertica is installed on the same machine.
+   Servername = # The name of the server where Vertica Analytics is installed. Use localhost if Vertica Analytics is installed on the same machine.
    UID = dbadmin
    PWD = <password>
    Port = 5433
@@ -80,19 +76,19 @@ ht-degree: 26%
    rm vertica-client-x.x.x-x.x86_64.rpm
    ```
 
-1. Adobe Campaignで、 [!DNL Vertica] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#vertica-external).
+1. Adobe Campaignで、 [!DNL Vertica Analytics] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#vertica-external).
 
-## Vertica（Windows の場合） {#vertica-windows}
+## Windows のvertica analytics {#vertica-windows}
 
 1. [Windows 用の ODBC ドライバー](https://www.vertica.com/download/vertica/client-drivers/)をダウンロードします。Windows 用のドライバーをインストールするには、.NET Framework 3.5 を有効にする必要があります。有効にしない場合は、インストールウィザードが自動的に有効にしてダウンロードを試みます。
 
 1. Windows で ODBC ドライバーを設定します。 詳しくは、[このページ](https://www.vertica.com/docs/9.2.x/HTML/Content/Authoring/ConnectingToVertica/ClientODBC/SettingUpADSN.htm)を参照してください。
 
-1. Adobe Campaignで、 [!DNL Vertica] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#vertical-external).
+1. Adobe Campaignで、 [!DNL Vertica Analytics] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#vertical-external).
 
-## Vertica on Debian {#vertica-debian}
+## vertica analytics(Debian) {#vertica-debian}
 
-1. [!DNL Vertica] 用の ODBC ドライバーをダウンロードします。[ここをクリック](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html)して、ダウンロードを開始します。
+1. [!DNL Vertica Analytics] 用の ODBC ドライバーをダウンロードします。[ここをクリック](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html)して、ダウンロードを開始します。
 
 1. その後、次のコマンドを使用して unixODBC をインストールする必要があります。
 
@@ -100,7 +96,7 @@ ht-degree: 26%
    apt-get install unixODBC
    ```
 
-1. 以前に [!DNL Vertica] サーバー、ODBC ドライバーは既にインストールされています。 この場合、次のようにドライブを更新します。
+1. 以前に [!DNL Vertica Analytics] サーバー、ODBC ドライバーは既にインストールされています。 この場合、次のようにドライブを更新します。
 
    ```
    #Switch to root
@@ -119,9 +115,9 @@ ht-degree: 26%
    #Open odbcinst.ini
    vi /etc/odbcinst.ini
    
-   #Add a section for Vertica and save
-   [Vertica]
-   Description = Vertica ODBC Driver
+   #Add a section for Vertica Analytics and save
+   [Vertica Analytics]
+   Description = Vertica Analytics ODBC Driver
    Driver = /opt/vertica/lib64/libverticaodbc.so
    
    #Open odbc.ini
@@ -129,24 +125,24 @@ ht-degree: 26%
    
    #Add your DSN in ODBC Data Sources section, for example:
    [ODBC Data Sources]
-   VMart = "VMart database on Vertica"
+   VMart = "VMart database on Vertica Analytics"
    
    #Add a DSN definition section below, for example:
    [VMart]
    Description = Vmart Database
-   Driver = Vertica
+   Driver = Vertica Analytics
    Database = VMart
-   Servername = # The name of the server where Vertica is installed. Use localhost if Vertica is installed on the same machine.
+   Servername = # The name of the server where Vertica Analytics is installed. Use localhost if Vertica Analytics is installed on the same machine.
    UID = dbadmin
    PWD = <password>
    Port = 5433
    ```
 
-1. Adobe Campaignで、 [!DNL Vertica] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#vertica-external).
+1. Adobe Campaignで、 [!DNL Vertica Analytics] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#vertica-external).
 
-## Vertica 外部アカウント {#vertica-external}
+## vertica analytics外部アカウント {#vertica-external}
 
-次を作成する必要があります： [!DNL Vertica] Campaign インスタンスを [!DNL Vertica] 外部データベース。
+次を作成する必要があります： [!DNL Vertica Analytics] Campaign インスタンスを [!DNL Vertica Analytics] 外部データベース。
 
 1. キャンペーンから **[!UICONTROL エクスプローラ]**&#x200B;をクリックし、 **[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL 外部アカウント]**.
 
@@ -154,11 +150,11 @@ ht-degree: 26%
 
 1. 外部アカウント&#x200B;**[!UICONTROL タイプ]**&#x200B;として、「**[!UICONTROL 外部データベース]**」を選択します。
 
-1. の設定 **[!UICONTROL Vertica]** 外部アカウントで、次を指定する必要があります。
+1. の設定 **[!UICONTROL vertica analytics]** 外部アカウントで、次を指定する必要があります。
 
    * **[!UICONTROL タイプ]**：[!DNL Vertica Analytics]
 
-   * **[!UICONTROL サーバー]**：[!DNL Vertica] サーバーの URL
+   * **[!UICONTROL サーバー]**：[!DNL Vertica Analytics] サーバーの URL
 
    * **[!UICONTROL アカウント]**：ユーザーの名前
 

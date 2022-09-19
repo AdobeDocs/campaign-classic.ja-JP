@@ -6,9 +6,9 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2026'
 ht-degree: 79%
 
 ---
@@ -213,7 +213,7 @@ Windows で SSH キーを追加するには：
 
 外部アカウントの設定は、データベースエンジンによって異なります。 詳しくは、次の節を参照してください。
 
-* へのアクセスの設定 [Vertica](../../installation/using/configure-fda-vertica.md)
+* へのアクセスの設定 [vertica analytics](../../installation/using/configure-fda-vertica.md)
 * へのアクセスの設定 [Snowflake](../../installation/using/configure-fda-snowflake.md)
 * へのアクセスの設定 [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 * へのアクセスの設定 [azure synapse](../../installation/using/configure-fda-synapse.md)

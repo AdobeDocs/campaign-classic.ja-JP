@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: a45e18e460c11f474dc1b5663b9f4a3277fac12c
-workflow-type: ht
-source-wordcount: '2582'
-ht-degree: 100%
+source-git-commit: f580b9b2508c279e03bd2698854aaf3de501200b
+workflow-type: tm+mt
+source-wordcount: '2583'
+ht-degree: 99%
 
 ---
 
@@ -667,18 +667,18 @@ ht-degree: 100%
          + [ベストプラクティスと制限事項](installation/using/fda-best-practices.md)
          + 設定のガイドライン {#config-databases}
             + [設定の手順](installation/using/configure-fda.md)
-            + [Vertica の設定](installation/using/configure-fda-vertica.md)
-            + [Snowflake の設定](installation/using/configure-fda-snowflake.md)
-            + [Google BigQuery の設定](installation/using/configure-fda-google-big-query.md)
             + [Azure Synapse の設定](installation/using/configure-fda-synapse.md)
+            + [Google BigQuery の設定](installation/using/configure-fda-google-big-query.md)
             + [Hadoop の設定](installation/using/configure-fda-hadoop.md)
-            + [Oracle の設定](installation/using/configure-fda-oracle.md)
+            + [Microsoft SQL Server の設定](installation/using/configure-fda-sql.md)
             + [Netezza の設定](installation/using/configure-fda-netezza.md)
+            + [Oracle の設定](installation/using/configure-fda-oracle.md)
+            + [PostgreSQL の設定](installation/using/configure-fda-postgresql.md)
+            + [SAP HANA の設定](installation/using/configure-fda-sap-hana.md)
+            + [Snowflake の設定](installation/using/configure-fda-snowflake.md)
             + [Sybase IQ の設定](installation/using/configure-fda-sybase.md)
             + [Teradata の設定](installation/using/configure-fda-teradata.md)
-            + [SAP HANA の設定](installation/using/configure-fda-sap-hana.md)
-            + [Microsoft SQL Server の設定](installation/using/configure-fda-sql.md)
-            + [PostgreSQL の設定](installation/using/configure-fda-postgresql.md)
+            + [設定Vertica analytics](installation/using/configure-fda-vertica.md)
          + [リモートアクセス権](installation/using/remote-database-access-rights.md)
          + [データベースへの接続](installation/using/connecting-to-database.md)
          + [データスキーマの作成](installation/using/creating-data-schema.md)

@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
+source-git-commit: a06623611ff3f8d9dfb5d498e01686e12a924923
 workflow-type: tm+mt
 source-wordcount: '2547'
 ht-degree: 99%
@@ -131,7 +131,7 @@ _2021 年 6 月 5 日（PT）_
 <table> 
 <thead>
 <tr> 
-<th> <strong>VertiVertica Analyticsca FDA コネクタ</strong><br/> </th> 
+<th> <strong>vertica analyticsFDA コネクタ</strong><br/> </th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -170,7 +170,7 @@ _2021 年 6 月 5 日（PT）_
 
 Campaign で次のシステムがサポートされるようになりました。
 * Google BigQuery FDA コネクタ
-* VertiVertica Analyticsca FDA コネクタ
+* vertica analyticsFDA コネクタ
 * PostgreSQL 13
 
 詳しくは、[Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md)を参照してください。

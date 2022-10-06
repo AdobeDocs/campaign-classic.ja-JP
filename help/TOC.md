@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign では、豊富な顧客データを使�
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: f580b9b2508c279e03bd2698854aaf3de501200b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2583'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 99%
    + プライバシー {#privacy}
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
       + [プライバシー管理](platform/using/privacy-management.md)
-      + プライバシーリクエスト {#privacy-requests}
+      + プライバシーリクエスト{#privacy-requests}
          + [プライバシーリクエストについて](platform/using/privacy-requests.md)
          + [プライバシーリクエストの作成と管理](platform/using/privacy-requests-ui.md)
          + [自動プライバシーリクエストプロセス](platform/using/privacy-requests-api.md)
@@ -678,7 +678,7 @@ ht-degree: 99%
             + [Snowflake の設定](installation/using/configure-fda-snowflake.md)
             + [Sybase IQ の設定](installation/using/configure-fda-sybase.md)
             + [Teradata の設定](installation/using/configure-fda-teradata.md)
-            + [設定Vertica analytics](installation/using/configure-fda-vertica.md)
+            + [Vertica Analytics の設定](installation/using/configure-fda-vertica.md)
          + [リモートアクセス権](installation/using/remote-database-access-rights.md)
          + [データベースへの接続](installation/using/connecting-to-database.md)
          + [データスキーマの作成](installation/using/creating-data-schema.md)

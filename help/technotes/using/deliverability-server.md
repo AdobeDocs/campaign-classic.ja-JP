@@ -4,9 +4,9 @@ title: 新しい配信サーバーへの更新
 description: 新しい Campaign 配信サーバーに更新する方法を説明します
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 50ef144950ca9e79b1b3acdf587ffc13e0beeec4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1367'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 1. `DmRendering_cuid` オプションの値が入力されていることを確認します。
 
    * オプションの値が入力されている場合は、実装を開始できます。
-   * 値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} に連絡して CUID を取得してください。
+   * 値が入力されていない場合は、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} に連絡して CUID を取得してください。
 
    このオプションは、すべての Campaign インスタンス (MKT、MID、RT、EXEC) に正しい値で入力する必要があります。ハイブリッド環境のお客様は、アドビに連絡して、MID、RT、EXEC の各インスタンスでオプションを設定してもらいます。
 
@@ -61,9 +61,9 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 1. 管理者として、[Adobe Admin Console](https://adminconsole.adobe.com/){_blank} に接続します。
 1. 「**製品とサービス**」セクションにアクセスし、**Adobe Campaign** が一覧表示されていることを確認します。
-**Adobe Campaign** が表示されない場合、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} に連絡し、Adobe Campaign を追加します。
+**Adobe Campaign** が表示されない場合、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} に連絡し、Adobe Campaign を追加します。
 1. **Adobe Campaign** をクリックし、組織を選択します。
-   **注意**:複数の組織がある場合は、正しい組織を選択していることを確認します。 組織の詳細を表示 [このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+   **注意**：複数の組織がある場合は、正しい組織を選択していることを確認します。組織について詳しくは、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja#ims-org-id){_blank}を参照してください。
 
 1. **[!UICONTROL 製品プロファイル]**&#x200B;が存在するか確認します。存在しない場合は作成します。この&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;には権限は必要ありません。 
 
@@ -76,7 +76,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 ### 手順 1：Adobe Developer プロジェクトを作成／更新 {#adobe-io-project}
 
 1. [Adobe Developer Console](https://developer.adobe.com/console/home) にアクセスし、組織の開発者アクセス権を使用してログインします。正しい組織ポータルにログインしていることを確認します。
-   **注意**:複数の組織がある場合は、正しい組織を選択していることを確認します。 組織の詳細を表示 [このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
+   **注意**：複数の組織がある場合は、正しい組織を選択していることを確認します。組織について詳しくは、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja#ims-org-id){_blank} を参照してください。
 1. 「**[!UICONTROL 新規プロジェクトを作成]**」を選択します。
    ![](assets/New-Project.png)
 
@@ -158,7 +158,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 >[!CAUTION]
 >
->更新後、 **受信ボックスレンダリング用のシードネットワークを更新 (updateRenderingSeeds)** ワークフローは適用されなくなり、失敗するので、ワークフローを停止する必要があります。
+>更新後、 **受信ボックスレンダリング用のシードネットワークを更新（updateRenderingSeeds）**&#x200B;ワークフローは適用されなくなり、失敗するため、ワークフローを停止する必要があります。
 
 ## よくある質問 {#faq}
 

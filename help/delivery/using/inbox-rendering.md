@@ -4,10 +4,10 @@ title: Campaign の受信ボックスレンダリング
 description: E メールのレンダリングを取り込み、専用レポートで使用可能にする方法を説明します。
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
-source-wordcount: '852'
-ht-degree: 100%
+source-git-commit: 048189f49623cf00f4c3f1f34ff4b795d80391ef
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,9 @@ ht-degree: 100%
 「**送信**」ボタンを押す前に、様々な Web クライアント、Web メールおよびデバイスで受信者へのメッセージの表示が最適化されていることを確認してください。
 
 これを可能にするために、Adobe Campaign では、[Litmus](https://litmus.com/email-testing) の Web ベースの E メールテストソリューションを活用して、レンダリングをキャプチャし、専用のレポートで使用できるようにします。これにより、異なるコンテキストで受信される可能性のある送信済みのメッセージをプレビューして、メジャーなデスクトップおよびアプリケーションの互換性を確認できます。
+
+>[!CAUTION]
+>受信ボックスレンダリングにはとの互換性がありません [繰り返し配信](communication-channels.md#recurring-delivery).
 
 Litmus は、多機能 E メール検証およびプレビューアプリケーションです。E メールコンテンツ作成者は、Gmail 受信トレイや Apple Mail クライアントなど、70 を超える E メールレンダラーでメッセージコンテンツをプレビューできます。
 
@@ -97,7 +100,7 @@ E メール配信を作成し、そのコンテンツとターゲット母集団
 
 配信の作成、デザインおよびターゲティングについて詳しくは、[この節](about-email-channel.md)を参照してください。
 
-1. 配信の上部のバーで、「**[!UICONTROL 受信ボックスレンダリング]**」ボタンをクリックします。
+1. 配信の上部バーで、「**[!UICONTROL 受信ボックスレンダリング]**」ボタンをクリックします。
 1. 「**[!UICONTROL 分析]**」を選択してキャプチャプロセスを開始します。
 
    ![](assets/s_tn_inbox_rendering_button.png)

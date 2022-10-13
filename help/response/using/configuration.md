@@ -6,8 +6,8 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+source-git-commit: 878ba2b532d5cb59af77b6450b12ae5d2ff149b2
+workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Campaign Response Manager の設定{#configuration}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 この節は反応管理の設定担当者向けです。スキーマの拡張、ワークフローの定義および SQL プログラミングについて、ある程度の知識があることを前提としています。
 

@@ -6,10 +6,10 @@ audience: interaction
 content-type: reference
 topic-tags: general-operation
 exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## インタラクションタイプと連絡方法 {#interaction-types-and-contact-methods}
 
-インタラクションには、（コンタクト先によって開始される）インバウンドインタラクションと、（オファー作成者によって開始される）アウトバウンドインタラクションの 2 つのタイプがあります。
+インタラクションには、次の 2 つのタイプがあります。インバウンドインタラクション（コンタクト先によって開始）およびアウトバウンドインタラクション（オファーデザイナーによって開始）。
 
 これら 2 つのインタラクションタイプは、（オファーが 1 つのコンタクト向けに算出される）単一モードと（オファーが複数のコンタクト向けに算出される）バッチモードのどちらでも実行できます。通常、インバウンドインタラクションは単一モードで、また、アウトバウンドインタラクションはバッチモードで実行されますが、そうでない場合もあります。例えば、トランザクションメッセージでは、アウトバウンドインタラクションが単一モードで実行されます（詳しくは、[この節](../../message-center/using/about-transactional-messaging.md)を参照）。
 

@@ -2,9 +2,10 @@
 product: campaign
 title: Campaign Classic 2018 リリース
 description: Campaign Classic 2018 リリースの詳細
+hidefromtoc: true
 exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
-workflow-type: ht
+source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
+workflow-type: tm+mt
 source-wordcount: '5423'
 ht-degree: 100%
 
@@ -81,7 +82,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **強化点**
 
@@ -103,7 +104,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **新機能**
 
@@ -248,7 +249,7 @@ PostgreSql で UTF-8 照合順序を使用する際、「LIKE &#39;string%’」
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新のビルド](../../production/using/build-upgrade.md)にアップグレードするか、[アドビカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **新機能**
 
@@ -304,7 +305,7 @@ Query Banding について詳しくは、以下の記事を参照してくださ
 
 >[!CAUTION]
 >
->このビルドはリコールされました。[最新ビルドにアップグレードする](../../production/using/build-upgrade.md)か、[テクニカルサポート](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>このビルドはリコールされました。[最新ビルドにアップグレードする](../../production/using/build-upgrade.md)か、[テクニカルサポート](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 **新機能?**
 
@@ -322,7 +323,7 @@ Query Banding について詳しくは、以下の記事を参照してくださ
   </tr> 
   <tr> 
    <td> Windows Server 2016 のサポート<br /> </td> 
-   <td> Adobe Campaign は現在、Windows Server 2016 に対応しています。<a href="https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html">Campaign Classic の互換性マトリックス</a>を参照してください。<br /> </td> 
+   <td> Adobe Campaign は現在、Windows Server 2016 に対応しています。<a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Campaign Classic の互換性マトリックス</a>を参照してください。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -339,7 +340,7 @@ decryptString
 
 decryptPassword
 
-**decryptPassword** 関数が追加されました。この関数を使用して、外部アカウントに格納されたパスワードを復号化できます。詳しくは、[JSAPI](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html) ドキュメントを参照してください。
+**decryptPassword** 関数が追加されました。この関数を使用して、外部アカウントに格納されたパスワードを復号化できます。詳しくは、[JSAPI](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) ドキュメントを参照してください。
 
 ファイル API
 

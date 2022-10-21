@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: f580b9b2508c279e03bd2698854aaf3de501200b
-workflow-type: ht
-source-wordcount: '2583'
+source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
+workflow-type: tm+mt
+source-wordcount: '2584'
 ht-degree: 100%
 
 ---
@@ -50,10 +50,11 @@ ht-degree: 100%
          + [レポート](platform/using/faq-reporting.md)
          + [開発](platform/using/faq-developers.md)
          + [チュートリアル](platform/using/tutorials.md)
+      + [用語集](platform/using/ac-glossary.md)
    + プライバシー {#privacy}
       + [プライバシーと同意](platform/using/privacy-and-recommendations.md)
       + [プライバシー管理](platform/using/privacy-management.md)
-      + プライバシーリクエスト{#privacy-requests}
+      + プライバシーリクエスト {#privacy-requests}
          + [プライバシーリクエストについて](platform/using/privacy-requests.md)
          + [プライバシーリクエストの作成と管理](platform/using/privacy-requests-ui.md)
          + [自動プライバシーリクエストプロセス](platform/using/privacy-requests-api.md)
@@ -516,7 +517,7 @@ ht-degree: 100%
 + オファーの管理 {#managing-offers}
    + インタラクションの基本を学ぶ {#interaction-overview}
       + [インタラクションとオファー管理](interaction/using/interaction-and-offer-management.md)
-      + [用語集](interaction/using/glossary.md)
+      + [用語集](interaction/using/i-glossary.md)
       + [インタラクションのベストプラクティス](interaction/using/interaction-best-practices.md)
    + 運用全般 {#general-operation}
       + [実装手順](interaction/using/implementation-steps.md)

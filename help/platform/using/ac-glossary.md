@@ -6,16 +6,16 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ecd82fe432d44f14b48b162224dd88bb0f6e6f64
+source-git-commit: d898a43b7a3f826a63a754f9fcb76953a696f3fb
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 24%
+source-wordcount: '572'
+ht-degree: 23%
 
 ---
 
 # Adobe Campaign用語集{#ac-glossary}
 
-Adobe Campaignの主な用語と概念の定義を以下に示します
+Adobe Campaignの主な用語と概念の定義と関連ドキュメントへのリンクを以下に示します。 用語をクリックして定義を表示します。
 
 ## A ～ D{#sec-1}
 
@@ -28,7 +28,7 @@ A/B テストは、ユーザーが 2～3 種類の E メールのバリエーシ
 
 +++**アクセス管理**
 
-アクセス管理を使用すると、管理者は、Adobe Campaignのユーザーにアクセス権と権限を割り当てることができます。 権限には、ワークフローの実行、スキーマの定義、オーディエンスの管理など、Adobe Campaign機能の表示や使用の機能が含まれます
+アクセス管理を使用すると、管理者は、Adobe Campaignのユーザーにアクセス権と権限を割り当てることができます。 権限には、ワークフローの実行、スキーマの定義、オーディエンスの管理など、Adobe Campaign機能の表示や使用の機能が含まれます。
 
 詳細情報： [アクセス管理](access-management.md).
 +++

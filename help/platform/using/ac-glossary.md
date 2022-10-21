@@ -6,10 +6,10 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
+source-git-commit: ecd82fe432d44f14b48b162224dd88bb0f6e6f64
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 6%
+source-wordcount: '560'
+ht-degree: 24%
 
 ---
 
@@ -41,6 +41,43 @@ A/B テストは、ユーザーが 2～3 種類の E メールのバリエーシ
 詳細情報： [ワークフローアクティビティ](../../workflow/using/about-activities.md).
 +++
 
++++**ACS コネクタ**
+
+ACS コネクタ (Prime Offering) は、Adobe Campaign v7 とAdobe Campaign Standardを橋渡しします。 Campaign v7 の統合機能で、Campaign Standard にデータを自動的にレプリケートして、両方のアプリケーションの優れた機能を連携させます。Campaign v7 には、プライマリマーケティングデータベースを管理する高度なツールがあります。Campaign v7 からのデータレプリケーションにより、Campaign Standard の使いやすい環境でリッチデータを活用できます。
+
+詳細情報： [ACS コネクタ](../../integrations/using/acs-connector-principles-and-data-cycle.md).
++++
+
++++**アクティブなプロファイル**
+
+過去 12 ヶ月間にいずれかのチャネルを介してターゲット設定されたまたは通信を受けたプロファイルが、アクティブなプロファイルと見なされます。各 Campaign インスタンスには、契約に従って特定数のアクティブなプロファイルがプロビジョニングされ、課金用にその数がカウントされます。
+
+詳細情報： [アクティブなプロファイル](about-profiles.md#active-profiles).
++++
+
+
++++**承認ワークフローアクティビティ**
+
+*コンテキスト：キャンペーン分散型マーケティング*
+
+「ローカルの承認」アクティビティは、メッセージが送信される前に配信の承認プロセスを設定するために使用されるワークフローアクティビティです。
+
+詳しくは、 [ローカルの承認アクティビティ](../../workflow/using/local-approval.md).
++++
+
++++**オーディエンス**
+
+オーディエンスとは、ルールと属性に基づいて、フィルター定義の条件を満たすプロファイルの結果セットです。
+
+詳細情報： [オーディエンス](../../campaign/using/marketing-campaign-target.md).
++++
+
++++**監査記録**
+
+監査記録を使用すると、Adobe Campaign のインスタンス内で発生するアクションとイベントの包括的なリストをリアルタイムで記録できます。データの履歴にアクセスして次のような質問に回答するためのセルフサービスが含まれています。ワークフローに対する影響、最後にワークフローを更新したユーザー、またはインスタンスでのユーザーの操作内容。
+
+詳細情報： [監査証跡](../../production/using/audit-trail.md).
++++
 
 ## E - H {#sec-2}
 

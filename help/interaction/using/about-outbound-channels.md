@@ -4,7 +4,7 @@ title: アウトバウンドチャネルについて
 description: アウトバウンドチャネルについて
 exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
 source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
 ht-degree: 100%
 

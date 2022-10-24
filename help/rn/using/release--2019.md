@@ -5,7 +5,7 @@ description: Campaign Classic 2019 リリースの詳細
 hidefromtoc: true
 exl-id: 8a36a542-e095-4208-b624-e59845592863
 source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4836'
 ht-degree: 100%
 
@@ -210,7 +210,7 @@ _2021 年 4 月 15 日_
 
 >[!NOTE]
 >
-> [アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)に接続して、新しいバージョンをダウンロードします。 [このページ](../../installation/using/client-console-availability-for-windows.md)では、すべてのエンドユーザーに対してコンソールの更新を提案する方法について説明します。
+> [アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)に接続して、新しいバージョンをダウンロードします。 [このページ](../../installation/using/client-console-availability-for-windows.md)では、すべてのエンドユーザーに対してコンソールの更新を提案する方法について説明します。
 
 _2021 年 3 月 22 日_
 
@@ -227,7 +227,7 @@ _2020 年 12 月 16 日_
 >[!CAUTION]
 >
 > * このリリースには、新しい接続プロトコルが付属しています。Adobe ID サービス（IMS）を通じて Campaign に接続している場合、 **2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign サーバーとクライアントコンソールの両方が Campaign に接続できるようにするには、アップグレードする必要があります。[詳細情報](../../technotes/using/ims-updates.md)
-> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
+> * このリリースには、[セキュリティ修正](https://helpx.adobe.com/jp/security/products/campaign/apsb21-04.html)が含まれています。環境のセキュリティを強化するには、アップグレードが必要です。
 > * OAuth 認証を通じた Experience Cloud トリガー統合を使用する場合は、 [こちらのページ](../../integrations/using/configuring-adobe-io.md)の説明に従って Adobe I/O に移行する必要があります。Campaign の従来の OAuth 認証モードは、[2021 年 9 月 日](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)（PT）に&#x200B;**廃止されました**。ホスト環境では、**2022年2月23日（PT）**&#x200B;まで延長サポートを受けられます。オンプレミス環境またはハイブリッド環境のお客様は、アドビカスタマーケアに連絡してサポートを 2022年2月まで延長してください。[OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) をアドビに伝える必要があります。
 
 
@@ -372,7 +372,7 @@ _2019 年 5 月 30 日_
   </tr> 
   <tr> 
    <td> 互換性マトリックスを更新<br /> </td> 
-   <td> この新しいバージョンの Adobe Campaign では、次のデータベースシステムをサポートするようになりました。<a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">互換性マトリックス</a>を参照してください。<br /> 
+   <td> この新しいバージョンの Adobe Campaign では、次のデータベースシステムをサポートするようになりました。<a href="https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html">互換性マトリックス</a>を参照してください。<br /> 
     <ul> 
      <li> <p>Oracle 18c</p> </li> 
      <li> <p>MySQL 5.7（FDA）</p> </li> 

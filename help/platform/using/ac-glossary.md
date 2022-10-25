@@ -6,9 +6,9 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8aa45f4e9d41b7dc4faf89dad988703b63cea77c
+source-git-commit: cd26bf082d891e55bce489256dd9d43a1e3f243c
 workflow-type: tm+mt
-source-wordcount: '6454'
+source-wordcount: '6453'
 ht-degree: 13%
 
 ---
@@ -51,7 +51,7 @@ ACS コネクタ (Prime Offering) は、Adobe Campaign v7 とAdobe Campaign Stan
 
 過去 12 ヶ月間にいずれかのチャネルを介してターゲット設定されたまたは通信を受けたプロファイルが、アクティブなプロファイルと見なされます。各 Campaign インスタンスには、契約に従って特定数のアクティブなプロファイルがプロビジョニングされ、課金用にその数がカウントされます。
 
-詳細情報： [アクティブなプロファイル](about-profiles.md#active-profiles).
+詳細情報： [アクティブなプロファイル](../../platform/using/about-profiles.md#active-profiles).
 +++
 
 +++**承認ワークフローアクティビティ**
@@ -759,7 +759,7 @@ Adobe Campaignには、配信に挿入できる、組み込みのパーソナラ
 
 定義済みフィルターは、再利用のために保存されたクエリです。 事前定義済みフィルターを使用すると、生産性が向上し（作成は 1 回のみなので）、一貫性を構築し（すべてのマーケターが使用できるので）、自分では作成できないコードやロジックを使用できるので、マーケターのスキルを低減できます。
 
-詳細情報： [定義済みフィルター](../../platforrm/using/creating-filters.md).
+詳細情報： [定義済みフィルター](../../configuration/using/creating-filters.md).
 +++
 
 <!--
@@ -775,14 +775,14 @@ Learn more about [Predictive Engagement Scoring](../../platforrm/using/creating-
 
 主キーは、データベーステーブル内の各レコードの一意の識別子です。 テーブルには少なくとも 1 つのキーが必要です。 原則として、キーはスキーマのメイン要素とインデックスの後に宣言されます。 プライマリキーを複合（複数のフィールドを含む）することはできません。
 
-詳細情報： [プライマリキー](../../configuration/using/key.md).
+詳細情報： [プライマリキー](../../configuration/using/schema/key.md).
 +++
 
 +++**プロファイル**
 
 プロファイルとは、エンド顧客、見込み客、またはリードを表す情報のレコードです。 各プロファイルは、 nmsRecipient テーブル内のレコードまたは外部テーブルに対応し、特定のチャネルに関連する Cookie ID、顧客 ID、モバイル識別子、その他の情報が含まれます。
 
-詳細情報： [プロファイル](../../platforrm/using/about-profiles.md).
+詳細情報： [プロファイル](../../platform/using/about-profiles.md).
 +++
 
 +++**プログラム**
@@ -900,7 +900,7 @@ Adobe Campaignでは、ニュースレターや製品の更新などの情報サ
 
 これは、配信チャネルと特定のデータタイプとのマッピングです。 Adobe Campaignは、電子メールアドレスや電話番号には送信されず、データタイプに送信されます。 ターゲットマップ（配信マップとも呼ばれます）は、異なる配信チャネルをスキーマのデータフィールドにリンクする方法を定義します。 特定のフィールドまたは式を使用して、Campaign がデータタイプにどのように送信するかを定義します。
 
-詳細情報： [ターゲットデータ](../../workflow/using/define-the-right-audience.md#target-mappings).
+詳細情報： [ターゲットデータ](../../delivery/using/define-the-right-audience.md#target-mappings).
 +++
 
 +++**ターゲティングアクティビティ**
@@ -1000,7 +1000,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 タイポロジルールは、配信の分析フェーズの一環として実装されるビジネスルールです。 タイポロジルールとは、配信のコンテンツ（コントロールルール）や配信のターゲット（フィルタールール）、またはビジネス要件を適用する他のロジック（頻度ルール）を確認するものです。 ルールは、1 つ以上のタイポロジに含めることができる詳細な要素です。
 
-詳細情報： [タイポロジ](../../campaign/using/about-campaign-typologies.md#typology-rules).
+詳細情報： [タイポロジ](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
 
 +++**タイポロジ**
@@ -1009,7 +1009,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 タイポロジとは、配信の分析段階に適用されるタイポロジルールのグループです。 キャンペーンタイポロジには、複数のタイポロジルールを含めることができますが、1 つの配信では 1 つのタイポロジしか参照できません。
 
-詳細情報： [タイポロジ](../../campaign/using/about-campaign-typologies.md#typologies).
+詳細情報： [タイポロジ](../../campaign-opt/using/about-campaign-typologies.md#typologies).
 +++
 
 ## U - Z {#sec-6}

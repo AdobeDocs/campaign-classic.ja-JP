@@ -6,10 +6,10 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: cd26bf082d891e55bce489256dd9d43a1e3f243c
+source-git-commit: c4d7c87e769a270b18c57267e134bfbe9a2e0cdf
 workflow-type: tm+mt
-source-wordcount: '6453'
-ht-degree: 13%
+source-wordcount: '6260'
+ht-degree: 14%
 
 ---
 
@@ -100,14 +100,17 @@ Campaign は、マーケティングキャンペーンを調整、定義、実�
 詳細情報： [キャンペーン](../../campaign/using/designing-marketing-campaigns.md).
 +++
 
-+++**切り替えプロセス**
+<!--
+-----UNCLEAR-----
++++**Changeover process**
 
-*コンテキスト：キャンペーンインタラクション*
+*Context: Campaign Interaction*
 
-Campaign のインタラクションのコンテキストでは、変更プロセスは、特定の環境で有効化されるプロセスで、連絡先が明示的または暗黙的に特定されなかった場合に匿名環境に通話を転送します。
+In the context of Campaign Interaction, the changeover process is an activated process in an identified environment, responsible for directing the call to an anonymous environment if the contact has not been explicitly and/or implicitly identified.
 
-詳細情報： [インタラクション](../../interaction/using/interaction-and-offer-management.md).
+Learn more about [Interaction](../../interaction/using/interaction-and-offer-management.md).
 +++
+-->
 
 +++**チャネル**
 
@@ -174,14 +177,17 @@ Campaign データモデルは、データタイプとその関係（リンク�
 詳細情報： [データベースクリーンアップワークフロー](../../production/using/database-cleanup-workflow.md).
 +++
 
-+++**専用サーバー**
+<!--
+----UNCLEAR----
++++**Dedicated server**
 
-*コンテキスト：トランザクションメッセージ*
+*Context: Transactional Messaging*
 
-トランザクションメッセージを利用する専用の実行サーバー。 通常、1 台のサーバーで 1 時間に最大 50,000 件のエンジン呼び出しを処理できます。 Adobeが仮想化テクノロジーを利用して同等の効果を実現する可能性があるため、「専用サーバごと」の指定に物理サーバとの 1 対 1 の相関関係があるとは限りません。
+Dedicated execution server(s) to leverage Transactional Messaging. A server can typically process up to 50,000 Engine Calls per hour. The “Per-Dedicated Server” designation does not necessarily have a 1:1 correlation with a physical server as Adobe may utilize virtualization technologies to achieve the equivalent effect.
 
-詳細情報： [トランザクションメッセージ](../../message-center/using/about-transactional-messaging.md).
+Learn more about [Transactional Messaging](../../message-center/using/about-transactional-messaging.md).
 +++
+-->
 
 +++**配信品質**
 
@@ -272,6 +278,7 @@ Adobe Campaign Deliverability Fundamentals コンサルティングサービス�
 ## E - H {#sec-2}
 
 <!--
+----DEPREACTED----
 +++**E4X**
 
 The version of Javascript that is used in Adobe Campaign Classic. Sometimes called ECMAScript, it is an extension of Javascript that allows the mixing of Javascript and XML primitives in the same code. Note that E4X is classified as a deprecated language. 
@@ -431,12 +438,15 @@ Formsは、特定のスキーマタイプのインターフェイス表現を定
 詳細情報： [インタラクション](../../interaction/using/interaction-and-offer-management.md).
 +++
 
-+++**画像サービング**
+<!--
+----UNCLEAR----
++++**Image serving**
 
-E メールに埋め込まれた画像を配信の受信者に提供する機能。 E メールシステムの「画像のダウンロード」機能に基づいて画像を挿入すると、Campaign のトラッキングログに「オープン」エントリが生成されます。
+The functionality that supplies the images embedded in emails to the delivery’s recipients. The insertion of the images based on an emails system’s “download images” functionality is what generates an “open” entry in Campaign’s tracking logs.
 
-詳細情報： [画像サービング](../../delivery/using/defining-the-email-content.md#adding-images).
+Learn more about [Image serving](../../delivery/using/defining-the-email-content.md#adding-images).
 +++
+-->
 
 +++**インバウンドインタラクション**
 
@@ -495,6 +505,7 @@ E メールに埋め込まれた画像を配信の受信者に提供する機能
 +++
 
 <!--
+----ACS?----
 +++**Localization**
 
 This template type is used to manage multilingual messages.  It is available for Email and SMS messages and useable in standalone mode, within a workflow or in a recurring delivery. In the multilingual feature templates, the language management is based on variants. Each variant represents one language.  This functionality is available only in Adobe Campaign Standard.  
@@ -759,15 +770,16 @@ Adobe Campaignには、配信に挿入できる、組み込みのパーソナラ
 
 定義済みフィルターは、再利用のために保存されたクエリです。 事前定義済みフィルターを使用すると、生産性が向上し（作成は 1 回のみなので）、一貫性を構築し（すべてのマーケターが使用できるので）、自分では作成できないコードやロジックを使用できるので、マーケターのスキルを低減できます。
 
-詳細情報： [定義済みフィルター](../../configuration/using/creating-filters.md).
+詳細情報： [定義済みフィルター](../../platform/using/creating-filters.md#filtering-recipients).
 +++
 
 <!--
+----DEPREACTED----
 +++**Predictive Engagement Scoring**
 
 Predictive engagement scoring predicts the probability of a recipient engaging with a message and the probability of opting out (unsubscribing) within the next seven days after the next email send. The probabilities are further divided into buckets according to the specific risk of disengagement, medium, or low. The model also provides the risk percentile rank for the customers to understand where the rank of a certain customer in relation to others. 
 
-Learn more about [Predictive Engagement Scoring](../../platforrm/using/creating-filters.md).
+Learn more about [Predictive Engagement Scoring](../../platform/using/creating-filters.md).
 +++
 -->
 
@@ -794,12 +806,14 @@ Learn more about [Predictive Engagement Scoring](../../platforrm/using/creating-
 
 +++**パブリックリソース**
 
-パブリックリソースフォルダーは、Adobeキャンペーン内に、アプリケーションサーバーによってホストされる画像を保持します。 配信内の画像を E メールなどの配信に表示するには、アプリケーションサーバー（または Campaign が設定されている場合は画像ホスティングサーバー）に公開する必要があります。
+Adobe Campaignのパブリックリソースフォルダーには、アプリケーションサーバーがホストする画像が格納されます。 配信内の画像を E メールなどの配信に表示するには、アプリケーションサーバー（または Campaign が設定されている場合は画像ホスティングサーバー）に公開する必要があります。
 
 詳細情報： [パブリックリソース](../../installation/using/deploying-an-instance.md#managing-public-resources).
 +++
 
 +++**プッシュ**
+
+*コンテキスト：モバイルアプリチャネル*
 
 プッシュ通知は、モバイルアプリケーションが受信したメッセージです。 プッシュ通知は、モバイルアプリケーションにExperience PlatformSDK コードを含めることで、Adobe Campaignで機能するように設定されます。 「プッシュ」の場合、次の 2 つの配信チャネルを使用できます。iOSと Android。
 
@@ -824,10 +838,13 @@ Adobe Campaignでは、受信者は、 を顧客に送信します。 データ�
 詳細情報： [レンダリング関数](../../interaction/using/creating-offer-spaces.md).
 +++
 
-+++**リターゲティングキャンペーン**
+<!--
+-----DID NOT FIND IN DOCS----
++++**Retargeting campaigns**
 
-以前の配信または配信の受信者をリターゲティングするキャンペーン。
+Campaigns that re-target the recipients of a previous delivery or deliveries.
 +++
+-->
 
 +++**スキーマ拡張**
 
@@ -838,14 +855,14 @@ Adobe Campaignでは、受信者は、 を顧客に送信します。 データ�
 
 +++**スキーマ**
 
-スキーマは、特定のデータ型を定義する XML ドキュメントです。 スキーマは、製品のデータベースのデータベーステーブルとして実装されます。  オペレーターが Campaign および製品でスキーマを操作すると、そのアクションが必要な SQL に変換され、データベースに対して実行されます。 これらの用語（スキーマ/テーブル）は、多くの場合、演算子と同じ意味で使用されますが、製品アーキテクチャの要素は異なります。
+スキーマは、データベーステーブルに関連付けられた XML ドキュメントです。データ構造を定義し、テーブルの SQL 定義を記述します。 オペレーターが Campaign および製品でスキーマを操作すると、そのアクションが必要な SQL に変換され、データベースに対して実行されます。
 
 詳細情報： [スキーマ](../../configuration/using/about-schema-reference.md).
 +++
 
 +++**シードアドレス**
 
-シードアドレスは、定義されたターゲット条件に合わない受信者を配信のターゲットにする場合に使用されます。これにより、配信スコープ外の受信者が他のターゲット受信者と同様に配信を受信することができます。
+シードアドレスは、定義されたターゲット条件に合わない受信者を配信のターゲットにする場合に使用されます。これにより、配信スコープ外の受信者が他のターゲット受信者と同様に配信を受信することができます。受信者データベースの不正使用を検出したり、確実に配信したりするために、これらの指標をメッセージのオーディエンスに追加します。
 
 詳細情報： [シードアドレス](../../delivery/using/about-seed-addresses.md).
 +++
@@ -870,12 +887,12 @@ Adobe Campaignでは、ニュースレターや製品の更新などの情報サ
 
 コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 Campaign コントロールパネルを使用すると、SFTP サーバーに対して、ストレージ容量の監視、IP アドレスの許可リストへの登録、SSH 公開鍵の管理などのアクションを実行できます。
 
-詳細情報： [SFTP 管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en).
+詳細情報： [SFTP 管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja).
 +++
 
 +++**購読サービスアクティビティ**
 
-このワークフローアクティビティでは、トランジションで指定された母集団の情報サービスに対する購読を作成または削除できます。
+「購読サービス」ワークフローアクティビティでは、トランジションで指定された母集団の情報サービスに対する購読を作成または削除できます。
 
 詳細情報： [購読サービスアクティビティ](../../workflow/using/subscription-services.md).
 +++
@@ -896,23 +913,23 @@ Adobe Campaignでは、ニュースレターや製品の更新などの情報サ
 詳細情報： [ターゲットデータ](../../workflow/using/data-life-cycle.md#target-data).
 +++
 
-+++**ターゲットマップ**
++++**ターゲットマッピング**
 
-これは、配信チャネルと特定のデータタイプとのマッピングです。 Adobe Campaignは、電子メールアドレスや電話番号には送信されず、データタイプに送信されます。 ターゲットマップ（配信マップとも呼ばれます）は、異なる配信チャネルをスキーマのデータフィールドにリンクする方法を定義します。 特定のフィールドまたは式を使用して、Campaign がデータタイプにどのように送信するかを定義します。
+ターゲットマッピングとは、配信チャネルを特定のデータタイプにマッピングすることです。 ターゲットマッピングは、様々な配信チャネルからスキーマのデータフィールドへのリンク方法を定義します。 特定のフィールドまたは式を使用して、Campaign がデータタイプにどのように送信するかを定義します。
 
-詳細情報： [ターゲットデータ](../../delivery/using/define-the-right-audience.md#target-mappings).
+詳細情報： [ターゲットマッピング](../../delivery/using/selecting-a-target-mapping.md).
 +++
 
 +++**ターゲティングアクティビティ**
 
-ターゲティング、母集団データの操作、フィルタリングアクティビティに固有のワークフローアクティビティです。 オペレーターは、セットを定義し、積集合、和集合、除外の各操作を使用して分割または組み合わせることで、1 つ以上のターゲットを作成できます。
+ターゲティングアクティビティは、ターゲティング、母集団データの操作、フィルタリングアクティビティに固有のワークフローアクティビティです。 オペレーターは、セットを定義し、積集合、和集合、除外の各操作を使用して分割または組み合わせることで、1 つ以上のターゲットを作成できます。
 
 詳細情報： [ターゲティングアクティビティ](../../workflow/using/about-targeting-activities.md).
 +++
 
 +++**ターゲティングディメンション**
 
-クエリまたは他のワークフローアクティビティによって生成（返される）されるデータ型です。 Adobe Campaignは、取得に使用されたクエリに関係なく、回答者データベース行のプライマリキーのみを返すことに注意してください。
+ターゲティングディメンションは、クエリまたは他のワークフローアクティビティによって生成（返される）されるデータタイプです。 Adobe Campaignは、取得に使用されたクエリに関係なく、回答者データベース行のプライマリキーのみを返すことに注意してください。
 
 詳細情報： [ターゲティングディメンション](../../workflow/using/targeting-data.md).
 +++
@@ -921,18 +938,13 @@ Adobe Campaignでは、ニュースレターや製品の更新などの情報サ
 
 *コンテキスト：マーケティングリソース管理 (MRM)*
 
-タスクワークフローアクティビティは、ワークフローのロジックに人間のアクションを組み込みます。 次の 2 つのシナリオを指定できます。1 つ目はタスクが完了した場合、もう 1 つはタスクが完了していない場合です（手動で未完了とマークされている場合、またはタスクの期限が切れる場合）。
-
-一般的な使用例は、オフラインアクションをキャンペーンに組み込む場合、または承認などのカスタムアクションに組み込む場合です。
-
-キャンペーンワークフローで、「タスク」アクティビティ
-
-
+タスクワークフローアクティビティは、ワークフローのロジックに人間のアクションを組み込みます。 次の 2 つのシナリオを指定できます。1 つ目はタスクが完了した場合、もう 1 つはタスクが完了していない場合です。 一般的な使用例は、オフラインアクションをキャンペーンに組み込む場合、または承認などのカスタムアクションに組み込む場合です。
 
 詳細情報： [タスクアクティビティ](../../workflow/using/task.md).
 +++
 
 <!--
+-----NOT USEFUL-----
 +++**Task**
 
 One iteration of the defined functionality of a workflow activity. Each execution of a task has a unique task identifier.   
@@ -947,6 +959,8 @@ Learn more about [Tasks](../../workflow/using/about-workflows.md).
 +++
 
 <!--
+-----ACS -> SEEDS IN ACC-----
+
 +++**Test profiles**
 
 Allows targeting of additional recipients who do not match the defined targeting criteria. They are added to a message’s audience to detect any fraudulent use of your recipient database or to ensure delivery. Seen as the Seed type in the Campaign interface.
@@ -956,6 +970,7 @@ Learn more about [Test profiles](../../workflow/using/about-workflows.md).
 -->
 
 <!--
+-----NOT USEFUL?-----
 +++**Total database storage**
 
 The aggregate size of the production and non-production instance(s) database storage managed by Adobe. 
@@ -986,6 +1001,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 +++
 
 <!--
+-----NOT USEFUL-----
 +++**Triggers**
 
 Signals that initiate execution of a workflow, delivery or other action. Typically an API call. 
@@ -1000,7 +1016,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 タイポロジルールは、配信の分析フェーズの一環として実装されるビジネスルールです。 タイポロジルールとは、配信のコンテンツ（コントロールルール）や配信のターゲット（フィルタールール）、またはビジネス要件を適用する他のロジック（頻度ルール）を確認するものです。 ルールは、1 つ以上のタイポロジに含めることができる詳細な要素です。
 
-詳細情報： [タイポロジ](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
+詳細情報： [タイポロジルール](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
 
 +++**タイポロジ**
@@ -1024,6 +1040,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 +++
 
 <!--
+-----NO OCCURRENCE IN ACC, OLD v6 CONCEPT?----
 +++**Universes**
 
 Application pages hosted by the Campaign instance. Used for approval forms, landing pages, opt-out forms, preference pages or to implement other business requirements.  
@@ -1034,7 +1051,7 @@ Learn more about [Universes](../../workflow/using/about-workflows.md).
 
 +++**web アプリケーション**
 
-Web アプリケーションは、Campaign インスタンスでホストされる動的でインタラクティブなアプリケーションページです。 データベースのデータと、接続したユーザーの権限に適合したコンテンツが含まれます。 例えば、エクストラネット上の編集フォームや、テーブル、グラフ、入力フォームなどを含むデータベースのデータを含む通知フォームを作成できます。 この機能を使用すると、ユーザーが情報を検索または入力できる Web ページをデザインおよび投稿できます。
+Web アプリケーションは、Campaign インスタンスでホストされる動的でインタラクティブなアプリケーションページです。 データベースのデータと、接続したユーザーの権限に応じたコンテンツが含まれます。 例えば、エクストラネット上の編集フォームや、テーブル、グラフ、入力フォームなどを含むデータベースのデータを含む通知フォームを作成できます。 この機能を使用すると、ユーザーが情報を検索または入力できる Web ページをデザインおよび投稿できます。
 
 詳細情報： [Web アプリケーション](../../web/using/about-web-applications.md).
 +++
@@ -1056,7 +1073,7 @@ Web アプリケーションは、Campaign インスタンスでホストされ�
 +++**作業用テーブル**
 
 作業用テーブルには、ワークフロートランジションによって実行されるすべての情報が含まれます。 各ワークフローは、複数のワークテーブルを使用します。
-これらのテーブルで伝達されたデータは、パージされない限り、ワークフローのライフサイクル全体で高速化および使用できます。 不要なテーブルは、ワークフローが休止状態になるたびにパージされます。また、最大のワークフローの実行中にサーバーの過負荷を回避する目的でパージされることがあります。
+作業用テーブルには、元のアクティビティの結果が格納され、そのコンテンツが、ワークフロー内の次の（接続された）アクティビティへの入力として使用されます。  作業用テーブルの操作（拡張機能、カスタマイズ）は、Adobe Campaignオペレーターの主なスキルの 1 つです。
 
 詳細情報： [作業用テーブル](../../workflow/using/about-workflows.md).
 +++

@@ -6,9 +6,9 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c4d7c87e769a270b18c57267e134bfbe9a2e0cdf
+source-git-commit: dea815b07f0b91ed550060fa00cf0501ae6594f7
 workflow-type: tm+mt
-source-wordcount: '6260'
+source-wordcount: '6087'
 ht-degree: 14%
 
 ---
@@ -77,12 +77,15 @@ ACS コネクタ (Prime Offering) は、Adobe Campaign v7 とAdobe Campaign Stan
 詳細情報： [監査証跡](../../production/using/audit-trail.md).
 +++
 
-+++**自動キャンペーン**
+<!--
+----DUPLICATE WITH THE "CAMPAIGN" ENTRY?---
++++**Automated campaigns**
 
-スケジュールに従って実行されるキャンペーン（誕生日または記念日を持つ受信者をターゲティングする場合など）。 また、前日購入したユーザーや、明日支払い期限があるユーザーなど、ルックアヘッドおよびルックバックロジックの実行に使用できます。
+Campaigns that run on a schedule, such as for targeting recipients who have a birthday or an anniversary. Can also be used to execute look-ahead and look-back logic, such as who purchased yesterday or who has a payment due tomorrow.
 
-詳細情報： [キャンペーン](../../campaign/using/designing-marketing-campaigns.md).
+Learn more about [Campaigns](../../campaign/using/designing-marketing-campaigns.md).
 +++
+-->
 
 +++**バッチモード**
 
@@ -101,7 +104,7 @@ Campaign は、マーケティングキャンペーンを調整、定義、実�
 +++
 
 <!--
------UNCLEAR-----
+-----NOT USEFUL HERE?-----
 +++**Changeover process**
 
 *Context: Campaign Interaction*
@@ -193,7 +196,7 @@ Learn more about [Transactional Messaging](../../message-center/using/about-tran
 
 *コンテキスト：E メールの配信品質*
 
-オペレーターがバウンスしたりスパムとしてマークされたりせずに受信者の受信ボックスに到達した場合のキャンペーンの成功を測定できる指標です。
+配信品質を使用すると、バウンスしたりスパムとしてマークされたりせずに受信者の受信ボックスに到達したかに基づいて、キャンペーンの成功を測定できます。 より正確に言えば、E メール配信品質とは、期待される品質のコンテンツと形式を持つメッセージが、個人の E メールアドレスを通じて短時間で宛先に到達する能力を判断する一連の特性を指します。
 
 詳細情報： [配信品質](../../delivery/using/about-deliverability.md).
 +++
@@ -219,14 +222,17 @@ Learn more about [Transactional Messaging](../../message-center/using/about-tran
 詳細情報： [配信ログ](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
 +++
 
-+++**配信の基本**
+<!--
+----STRANGE IN DOCS?----
++++**Delivery fundamentals**
 
-*コンテキスト：E メールの配信品質*
+*Context: Email Deliverability*
 
-Adobe Campaign Deliverability Fundamentals コンサルティングサービスは、Adobe Campaign配信を使用するお客様をサポートする、E メール配信品質のコンサルティングと評判の管理を提供します。
+Adobe Campaign Deliverability Fundamentals Consulting Service provides email deliverability consultation and reputation management to support customers using Adobe Campaign deliveries.
 
-詳細情報： [配信品質](../../delivery/using/about-deliverability.md).
+Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 +++
+-->
 
 +++**配信の概要**
 
@@ -310,15 +316,21 @@ The version of Javascript that is used in Adobe Campaign Classic. Sometimes call
 詳細情報： [BCC で E メールを送信](../../delivery/using/email-parameters.md#email-bcc).
 +++
 
-+++**E メールボリュームのコミット**
+<!--
+-----STRANGE FOR DOCS?----
++++**Email volume commitment**
 
-1 年間に予想される、注文に記載される E メールの数。 これは、次のような配信エラーが原因で送信されたが配信されなかった E メールを含む、年間合計 E メール量のコミットメントです。E メールアドレスエラー、ハードバウンス、ソフトバウンス、E メールクライアントの E メールフィルター、E メールブラックリストなどを含む、ただしこれらに限定されないメッセージの配信不能。
+The anticipated emails sent per year as set forth in the Sales Order. This is the total annual email volume commitment, including emails sent but not delivered due to delivery errors such as: non-delivery of a message including but not limited to email address errors, hard bounces, soft bounces, email filters of mail clients, and email blacklists. 
 +++
+-->
 
-+++**エンジン呼び出し**
+<!--
+-----USEFUL FOR DOCS?----
++++**Engine call**
 
-エンジン呼び出しは、調査、Web アプリ、JSSP、API、モバイルアプリ登録などに関するデータの抽出に関して、サーバー側でリアルタイム処理を開始するサーバー呼び出しです。 エンジン呼び出しは、1 日に 5,000 個のエンジン呼び出しのパックでライセンスを受ける必要があります。
+An engine call is a server call that starts real-time processing on server side for the extraction of data, such as data relating to surveys, WebApps, JSSP, APIs, mobile app registrations, etc. Engine calls must be licensed in packs of 5,000 Engine Calls per day.
 +++
+-->
 
 +++**エンリッチメントアクティビティ**
 
@@ -389,7 +401,7 @@ Federated Data Access は、クライアントデータモデルの拡張をサ�
 
 +++**フォルダー表示**
 
-フォルダビューは、特別なエクスプローラフォルダタイプで、選択したデータタイプのすべてのレコードを、そのデータタイプが属するフォルダに関係なく表示するために使用されます。 フォルダービューは、多くのフォルダーに分散されるパーティション化されたデータまたはデータを管理する管理ツールとして使用されます。
+[ フォルダ ] ビューは、選択したデータ型のすべてのレコードを、そのデータ型が属するフォルダに関係なく表示するために使用される、特別なエクスプローラフォルダの種類です。 フォルダービューは、多くのフォルダーに分散されるパーティション化されたデータまたはデータを管理する管理ツールとして使用されます。
 
 詳細情報： [フォルダー表示](../../platform/using/adobe-campaign-explorer.md).
 +++
@@ -401,12 +413,15 @@ Formsは、特定のスキーマタイプのインターフェイス表現を定
 詳細情報： [Forms](../../configuration/using/identifying-a-form.md).
 +++
 
-+++**生成される SQL クエリ**
+<!--
+-----USEFUL HERE?-----
++++**Generated SQL query**
 
-オペレーターがスキーマを操作したときに基になるデータベースに対して生成される SQL コード。 スキーマは、データベースのテーブルと列を使用して実装されるデータ型を定義します。 （クエリなどで）スキーマ操作用に生成される SQL は、インストールされているデータベースのタイプに基づいています。 したがって、データベースを別のタイプにスワップしても、Campaign のクエリは変更されません。 Adobeは、この機能をデータベースに依存しないと呼びます。
+The SQL code generated for the underlying database when an operator manipulates a schema. Schemas define the data types that are then implemented using database tables and columns. The SQL generated for schema manipulation (such as in a query) is based on the installed database type. Thus, the database can be swapped to a different type and the queries in Campaign remain unchanged. Adobe refers to this functionality as being database-agnostic.
 
-詳細情報： [生成された SQL クエリ](../../platform/using/steps-to-create-a-query.md#step-6---preview-data).
+Learn more about [Generated SQL queries](../../platform/using/steps-to-create-a-query.md#step-6---preview-data).
 +++
+-->
 
 +++**ヒートマップ**
 
@@ -425,11 +440,12 @@ Formsは、特定のスキーマタイプのインターフェイス表現を定
 
 ## I - L {#sec-3}
 
+<!-- added more details but maybe still not clear/useful here? -->
 +++**識別モード**
 
 *コンテキスト：キャンペーンインタラクション*
 
-連絡先のステータスを指します。 明示的、暗黙的、匿名のいずれかを指定できます。
+識別モード連絡先のステータスの 1 つ。 明示的、暗黙的、匿名のいずれかを指定できます。
 
 * **明示的**：チャネルインターフェイスにログインしたことにより連絡先が識別されている状態。
 * **暗黙的**：Cookie（永続またはセッション）により連絡先が識別されている状態。このような連絡先は、匿名連絡先としても、識別された連絡先としても処理できます。
@@ -439,7 +455,7 @@ Formsは、特定のスキーマタイプのインターフェイス表現を定
 +++
 
 <!--
-----UNCLEAR----
+----NOT USEFUL HERE?----
 +++**Image serving**
 
 The functionality that supplies the images embedded in emails to the delivery’s recipients. The insertion of the images based on an emails system’s “download images” functionality is what generates an “open” entry in Campaign’s tracking logs.
@@ -488,7 +504,7 @@ Learn more about [Image serving](../../delivery/using/defining-the-email-content
 
 +++**ローカルキャッシュ**
 
-オペレーターのコンピューター上にローカルに保存される情報。 キャッシュされた情報は、サーバーへの必要なトラフィックを減らし、パフォーマンスを向上させるために、コンソールで使用されます。 （[ ファイル ] メニューの）ローカルキャッシュを定期的にクリアすると、保存された情報が更新され、パフォーマンスと安定性が向上します。
+ローカルキャッシュとは、オペレーターのコンピューター上にローカルに保存される情報です。 キャッシュされた情報は、サーバーへの必要なトラフィックを減らし、パフォーマンスを向上させるために、コンソールで使用されます。 （[ ファイル ] メニューの）ローカルキャッシュを定期的にクリアすると、保存された情報が更新され、パフォーマンスと安定性が向上します。
 
 詳細情報： [ローカルキャッシュ](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
 +++
@@ -521,21 +537,21 @@ This template type is used to manage multilingual messages.  It is available for
 
 +++**名前空間**
 
-データモデル内のAdobe Campaignのネイティブデータ型から顧客データ型を分離するパーティション。 また、スキーマやテンプレートを開発インスタンスから実稼動インスタンスに移動するなど、あるインスタンスから別のインスタンスへの定義の移行を容易にするためにも使用します。
+名前空間は、データモデル内のAdobe Campaignのネイティブデータ型から顧客データ型を分離するパーティションです。 また、スキーマやテンプレートを開発インスタンスから実稼動インスタンスに移動するなど、あるインスタンスから別のインスタンスへの定義の移行を容易にするためにも使用します。
 
 詳細情報： [名前空間](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 +++
 
 +++**ナビゲーションバー**
 
-インターフェイスの上部を通るナビゲーション要素。 ナビゲーションバーは、プラットフォームの様々なコア機能を再グループ化します。 ナビゲーションバーのリンクをクリックすると、この機能に関連する一連の機能が表示されます。 どのコア機能にアクセスできるかは、インストールしたパッケージおよびアドオンと、アクセス権によって異なります。ナビゲーションバーの目的は、画面の管理を簡素化し、生産性を高めることです。
+ナビゲーションバーは、インターフェイスの上部を通るナビゲーション要素です。 ナビゲーションバーは、プラットフォームの様々なコア機能を再グループ化します。 ナビゲーションバーのリンクをクリックすると、この機能に関連する一連の機能が表示されます。 どのコア機能にアクセスできるかは、インストールしたパッケージおよびアドオンと、アクセス権によって異なります。ナビゲーションバーの目的は、画面の管理を簡素化し、生産性を高めることです。
 
 詳細情報： [ナビゲーションバー](../../platform/using/adobe-campaign-workspace.md#browsing-pages).
 +++
 
 +++**ナビゲーションツリー**
 
-Adobe Campaignのエクスプローラービューのメインナビゲーション。 ナビゲーションツリーは、ファイルブラウザー（Windows エクスプローラなど）のように機能します。 フォルダーには、サブフォルダーを含めることができます。 ノードを選択すると、そのノードに対応するビューが表示されます。表示されるビューは、選択した行を編集するためのスキーマと入力フォームに関連付けられたリストです。ナビゲーションツリーをカスタマイズし、フォルダーに対する権限を設定できます。
+ナビゲーションツリーは、Adobe Campaignのエクスプローラービューのメインナビゲーションです。 ナビゲーションツリーは、ファイルブラウザー（Windows エクスプローラなど）のように機能します。 フォルダーには、サブフォルダーを含めることができます。 ノードを選択すると、そのノードに対応するビューが表示されます。表示されるビューは、選択した行を編集するためのスキーマと入力フォームに関連付けられたリストです。ナビゲーションツリーをカスタマイズし、フォルダーに対する権限を設定できます。
 
 詳細情報： [ナビゲーションツリー](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarch).
 +++
@@ -553,7 +569,7 @@ Adobe Campaignのエクスプローラービューのメインナビゲーショ
 
 *コンテキスト：キャンペーンインタラクション*
 
-Adobe Campaignで定義され、インタラクション中に選択できるオファーのセット。 カタログは階層構造を持ち、1 つのカテゴリに対して 1 つのノードが作成されます。
+オファーカタログは、Adobe Campaignで定義され、インタラクション中に選択できるオファーのセットです。 カタログは階層構造を持ち、1 つのカテゴリに対して 1 つのノードが作成されます。
 
 詳細情報： [オファーカタログ](../../interaction/using/offer-catalog-overview.md).
 +++
@@ -562,7 +578,7 @@ Adobe Campaignで定義され、インタラクション中に選択できるオ
 
 *コンテキスト：キャンペーンインタラクション*
 
-インバウンドインタラクションからの連絡先。 エンジン呼び出しの処理中、連絡先はターゲティングディメンションに関連付けられます。 識別されていない匿名コンタクトは訪問者ターゲティングディメンションに関連付けられます。識別済みと匿名の 2 種類の連絡先があります。
+オファーの連絡先は、インバウンドインタラクションからの連絡先です。 エンジン呼び出しの処理中、連絡先はターゲティングディメンションに関連付けられます。 識別されていない匿名コンタクトは訪問者ターゲティングディメンションに関連付けられます。識別済みと匿名の 2 種類の連絡先があります。
 
 * **識別された連絡先**：チャネル上で自主的に身元識別をおこなった連絡先。アウトバウンドインタラクションの場合、連絡先は自動的に識別されます。
 * **匿名連絡先**：チャネルを通じて自主的に登録はしていないものの Cookie を通じて暗黙的に推測された連絡先。この用語はインバンドインタラクションに対してのみ使用されます。
@@ -583,7 +599,7 @@ Adobe Campaignで定義され、インタラクション中に選択できるオ
 
 *コンテキスト：キャンペーンインタラクション*
 
-環境に表示されるオファー（適格なオファー）の選択 アービトラージの原則により、カテゴリおよびオファーで定義された条件に従って、オファーが優先順にランク付けされます。
+オファーエンジンは、環境に表示されるオファー（適格なオファー）を選択します。 アービトラージの原則により、カテゴリおよびオファーで定義された条件に従って、オファーが優先順にランク付けされます。
 
 詳細情報： [インタラクション](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -592,7 +608,7 @@ Adobe Campaignで定義され、インタラクション中に選択できるオ
 
 *コンテキスト：キャンペーンインタラクション*
 
-選択の対象でないオファーを削除するプロセス。 オファーエンジンのアービトラージ手順の前に実行されます。
+オファーエンジンのプルーニングは、選択の対象でないオファーを削除するプロセスです。 オファーエンジンのアービトラージ手順の前に実行されます。
 
 詳細情報： [インタラクション](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -601,7 +617,7 @@ Adobe Campaignで定義され、インタラクション中に選択できるオ
 
 *コンテキスト：キャンペーンインタラクション*
 
-オファーカタログ、その使用可能なスペースおよび環境の事前定義済みフィルターを定義するルートフォルダー。 オペレーターは、ターゲティングディメンションごとに 1 つの環境を作成する必要があります。 オファー環境には次の 2 つのタイプがあります。デザインとライブ。
+オファー環境は、オファーカタログ、使用可能なスペースおよび環境の事前定義済みフィルターを定義するルートフォルダーです。 オペレーターは、ターゲティングディメンションごとに 1 つの環境を作成する必要があります。 オファー環境には次の 2 つのタイプがあります。デザインとライブ。
 
 詳細情報： [環境](../../interaction/using/fundamental-principles.md).
 +++
@@ -610,27 +626,27 @@ Adobe Campaignで定義され、インタラクション中に選択できるオ
 
 *コンテキスト：キャンペーンインタラクション*
 
-キャンペーンにリンクされた環境 **デザイン環境**. 実稼働環境には、**デザイン環境**&#x200B;でコンテンツと実施要件の承認を受けた読み取り専用のオファーが含まれています。Web サイトでの表示用に選択することも、アウトバウンドメッセージに挿入することもできます。
+オファーライブ環境はキャンペーンにリンクされています **デザイン環境**. 実稼働環境には、**デザイン環境**&#x200B;でコンテンツと実施要件の承認を受けた読み取り専用のオファーが含まれています。Web サイトでの表示用に選択することも、アウトバウンドメッセージに挿入することもできます。
 
 詳細情報： [ライブ環境](../../interaction/using/fundamental-principles.md).
-+++
-
-+++**オファーのプレビュー**
-
-*コンテキスト：キャンペーンインタラクション*
-
-フォルダー内で表示されるとおりのオファーのプレビュー。 これには、「オファーのプレビュー」タブまたは連絡先プロファイルからアクセスできます。
-
-詳細情報： [オファーのプレビュー](../../interaction/using/creating-an-offer.md#previewing-the-offer).
 +++
 
 +++**オファープレゼンテーションルール**
 
 *コンテキスト：キャンペーンインタラクション*
 
-オファー環境で参照されるタイポロジルール。オペレーターは、受信者の提案履歴を考慮して特定のオファーを除外できます。
+オファーのプレゼンテーションルールは、オファー環境で参照されるタイポロジルールです。オペレーターは、受信者の提案履歴を考慮して特定のオファーを除外できます。
 
 詳細情報： [オファープレゼンテーションルール](../../interaction/using/managing-offer-presentation.md#presentation-rules-overview).
++++
+
++++**オファーのプレビュー**
+
+*コンテキスト：キャンペーンインタラクション*
+
+これは、オファーがフォルダー内で表示されるときのプレビューです。 これには、「オファーのプレビュー」タブまたは連絡先プロファイルからアクセスできます。
+
+詳細情報： [オファーのプレビュー](../../interaction/using/creating-an-offer.md#previewing-the-offer).
 +++
 
 +++**オファーの提案**
@@ -687,18 +703,18 @@ Adobe Campaignで定義され、インタラクション中に選択できるオ
 詳細情報： [オファーの重み付け](../../interaction/using/creating-an-offer.md#offer-weight).
 +++
 
-+++**オペレーターグループ**
-
-オペレーターグループを使用すると、Campaign オペレーターの役割を管理できます。 権利を付与するオペレーターのグループを定義し、オペレーターを 1 つ以上のグループに関連付けます。 これにより、権利を再利用することや、複数のオペレーターに一貫性の高いプロファイルを設定することができます。また、プロファイルの管理やメンテナンスをおこなううえでも便利な方法です。
-
-詳細情報： [オペレーターグループ](../../platform/using/access-management-groups.md).
-+++
-
 +++**演算子**
 
 オペレーターは、ログインしてアクションを実行する権限を持つ Adobe Campaign ユーザーです。オペレーターは、オペレーターグループに関連付けられ、これらのグループの権限と権限を継承します。 ネームド権限をオペレーターに直接関連付けることもできます。
 
 詳細情報： [演算子](../../platform/using/access-management-operators.md).
++++
+
++++**オペレーターグループ**
+
+オペレーターグループを使用すると、Campaign オペレーターの役割を管理できます。 権利を付与するオペレーターのグループを定義し、オペレーターを 1 つ以上のグループに関連付けます。 これにより、権利を再利用することや、複数のオペレーターに一貫性の高いプロファイルを設定することができます。また、プロファイルの管理やメンテナンスをおこなううえでも便利な方法です。
+
+詳細情報： [オペレーターグループ](../../platform/using/access-management-groups.md).
 +++
 
 +++**オプション**
@@ -774,7 +790,7 @@ Adobe Campaignには、配信に挿入できる、組み込みのパーソナラ
 +++
 
 <!--
-----DEPREACTED----
+----DEPRECATED----
 +++**Predictive Engagement Scoring**
 
 Predictive engagement scoring predicts the probability of a recipient engaging with a message and the probability of opting out (unsubscribing) within the next seven days after the next email send. The probabilities are further divided into buckets according to the specific risk of disengagement, medium, or low. The model also provides the risk percentile rank for the customers to understand where the rank of a certain customer in relation to others. 
@@ -839,25 +855,25 @@ Adobe Campaignでは、受信者は、 を顧客に送信します。 データ�
 +++
 
 <!--
------DID NOT FIND IN DOCS----
+-----DID NOT FIND IN ACC DOCS, ACS?----
 +++**Retargeting campaigns**
 
 Campaigns that re-target the recipients of a previous delivery or deliveries.
 +++
 -->
 
-+++**スキーマ拡張**
-
-スキーマ拡張を使用すると、標準のスキーマを、ビジネスの使用例に最適にカスタマイズできます。 例えば、「Loyalty」フィールドを受信者テーブルに追加できます。
-
-詳細情報： [スキーマ拡張](../../configuration/using/extending-a-schema.md).
-+++
-
 +++**スキーマ**
 
 スキーマは、データベーステーブルに関連付けられた XML ドキュメントです。データ構造を定義し、テーブルの SQL 定義を記述します。 オペレーターが Campaign および製品でスキーマを操作すると、そのアクションが必要な SQL に変換され、データベースに対して実行されます。
 
 詳細情報： [スキーマ](../../configuration/using/about-schema-reference.md).
++++
+
++++**スキーマ拡張**
+
+スキーマ拡張を使用すると、標準のスキーマを、ビジネスの使用例に最適にカスタマイズできます。 例えば、「Loyalty」フィールドを受信者テーブルに追加できます。
+
+詳細情報： [スキーマ拡張](../../configuration/using/extending-a-schema.md).
 +++
 
 +++**シードアドレス**
@@ -868,6 +884,7 @@ Campaigns that re-target the recipients of a previous delivery or deliveries.
 +++
 
 <!--
+-------ACS?-----
 +++**Send-time optimization**
 
 To improve the open rate of your messages, you can manually define a sending time per recipient. Each profile will receive the message at the specified date and time, whenever possible. Defining a sending time can be done at the delivery level or using a workflow.
@@ -906,7 +923,7 @@ Adobe Campaignでは、ニュースレターや製品の更新などの情報サ
 詳細情報： [ターゲットの承認](../../workflow/using/local-approval.md).
 +++
 
-+++**ターゲットデータ**
++++**データのターゲティング**
 
 ターゲットデータとは、ワークフローの作業用テーブル（トランジション）に保存されるデータです。 このデータは、配信内で配信コンテンツのパーソナライゼーション用に使用したり、配信の動的要素のロジックを定義したりできます。
 
@@ -944,7 +961,7 @@ Adobe Campaignでは、ニュースレターや製品の更新などの情報サ
 +++
 
 <!--
------NOT USEFUL-----
+-----NOT USEFUL, detail-----
 +++**Task**
 
 One iteration of the defined functionality of a workflow activity. Each execution of a task has a unique task identifier.   
@@ -960,7 +977,6 @@ Learn more about [Tasks](../../workflow/using/about-workflows.md).
 
 <!--
 -----ACS -> SEEDS IN ACC-----
-
 +++**Test profiles**
 
 Allows targeting of additional recipients who do not match the defined targeting criteria. They are added to a message’s audience to detect any fraudulent use of your recipient database or to ensure delivery. Seen as the Seed type in the Campaign interface.
@@ -970,7 +986,7 @@ Learn more about [Test profiles](../../workflow/using/about-workflows.md).
 -->
 
 <!--
------NOT USEFUL?-----
+-----NOT FOR DOCS?-----
 +++**Total database storage**
 
 The aggregate size of the production and non-production instance(s) database storage managed by Adobe. 
@@ -993,6 +1009,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 詳細情報： [トランザクションメッセージ](../../message-center/using/about-transactional-messaging.md).
 +++
 
+<!------- USEFUL HERE??----->
 +++**トリガーキャンペーン**
 
 トリガーキャンペーンとは、ワークフローで API リクエストを受け取ったときに実行されるキャンペーンです。 API 呼び出しは、ワークフローの実行を開始するワークフロー内のシグナルアクティビティによって消費されます。
@@ -1010,22 +1027,22 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 +++
 -->
 
-+++**タイポロジルール**
-
-*コンテキスト：キャンペーンの最適化*
-
-タイポロジルールは、配信の分析フェーズの一環として実装されるビジネスルールです。 タイポロジルールとは、配信のコンテンツ（コントロールルール）や配信のターゲット（フィルタールール）、またはビジネス要件を適用する他のロジック（頻度ルール）を確認するものです。 ルールは、1 つ以上のタイポロジに含めることができる詳細な要素です。
-
-詳細情報： [タイポロジルール](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
-+++
-
 +++**タイポロジ**
 
 *コンテキスト：キャンペーンの最適化*
 
-タイポロジとは、配信の分析段階に適用されるタイポロジルールのグループです。 キャンペーンタイポロジには、複数のタイポロジルールを含めることができますが、1 つの配信では 1 つのタイポロジしか参照できません。
+タイポロジとは、配信の分析フェーズに適用されるタイポロジルールのグループです。 キャンペーンタイポロジには、複数のタイポロジルールを含めることができますが、1 つの配信では 1 つのタイポロジしか参照できません。
 
 詳細情報： [タイポロジ](../../campaign-opt/using/about-campaign-typologies.md#typologies).
++++
+
++++**タイポロジルール**
+
+*コンテキスト：キャンペーンの最適化*
+
+タイポロジルールは、配信の分析フェーズの一環として実装されるビジネスルールです。 タイポロジルールとは、配信の内容（コントロールルール）や、配信のターゲット（フィルタールール）、またはビジネス要件を適用するその他のロジック（頻度ルール）を確認するものです。 ルールは、1 つ以上のタイポロジに含めることができる詳細な要素です。
+
+詳細情報： [タイポロジルール](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
 
 ## U - Z {#sec-6}
@@ -1056,18 +1073,18 @@ Web アプリケーションは、Campaign インスタンスでホストされ�
 詳細情報： [Web アプリケーション](../../web/using/about-web-applications.md).
 +++
 
-+++**ワークフロージャーナル**
-
-ワークフロージャーナルは、ワークフローのステップバイステップの実行ログです。 ワークフローのすべての履歴または監査証跡が含まれます。 開発、トラブルシューティング、デバッグの目的で使用されます。
-
-詳細情報： [ワークフロージャーナル](../../workflow/using/monitoring-workflow-execution.md).
-+++
-
 +++**ワークフロー**
 
 ワークフローは、キャンペーン実行フローを視覚的に表現したものです。 アプリケーションサーバーの様々なモジュール間で、プロセスとタスク全体を調整できます。 この包括的なグラフィカル環境を使用すると、セグメント化、キャンペーン実行、ファイル処理、人の参加などを含むプロセスを設計できます。ワークフローエンジンは、これらのプロセスを実行およびトラッキングします。
 
 詳細情報： [ワークフロー](../../workflow/using/about-workflows.md).
++++
+
++++**ワークフロージャーナル**
+
+ワークフロージャーナルは、ワークフローのステップバイステップの実行ログです。 ワークフローのすべての履歴または監査証跡が含まれます。 開発、トラブルシューティング、デバッグの目的で使用されます。
+
+詳細情報： [ワークフロージャーナル](../../workflow/using/monitoring-workflow-execution.md).
 +++
 
 +++**作業用テーブル**

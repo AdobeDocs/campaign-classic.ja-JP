@@ -6,9 +6,9 @@ role: User, Data Architect
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: dea815b07f0b91ed550060fa00cf0501ae6594f7
+source-git-commit: 9900fb627dfb310e8f34735a502997ef8e24e769
 workflow-type: tm+mt
-source-wordcount: '6087'
+source-wordcount: '5993'
 ht-degree: 14%
 
 ---
@@ -140,14 +140,14 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 コントロール母集団を使用すると、キャンペーンのオーディエンスの一部を除外して、キャンペーンの影響を測定できます。 オペレーターは、メッセージを受信したターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。 オペレーターは、送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットにすることもできます。
 
-詳細情報： [コンテンツの承認](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+詳細情報： [コンテンツグループ](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 +++
 
 +++**コントロールパネル**
 
-このCampaign コントロールパネルを使用すると、各インスタンスの設定を管理したり使用状況を追跡したりできるので、Adobe Campaignの製品管理者としての作業の効率を向上できます。 直感的なインターフェイスにより、主要なアセットの使用状況を簡単に監視できるうえ、IP アドレスの許可リスト登録、SFTP ストレージの監視、鍵の管理などの管理タスクを実行できます。
+このCampaign コントロールパネルは、Adobe Campaignの製品管理者が設定を管理し、各インスタンスの使用状況を追跡できるので、作業の効率を向上させるのに役立ちます。 直感的なインターフェイスにより、主要なアセットの使用状況を簡単に監視できるうえ、IP アドレスの許可リスト追加、SFTP ストレージの監視、鍵の管理などの管理タスクを実行できます。
 
-詳細情報： [コンテンツの承認](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja).
+詳細情報： [コンテンツパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja).
 +++
 
 +++**キューブ**
@@ -170,7 +170,7 @@ Adobe Campaignには事前定義済みのデータモデルが付属していま
 
 Campaign データモデルは、データタイプとその関係（リンク）を定義する一連のスキーマです。 データモデルは、実際のデータを含むデータベースと物理的に実装される抽象定義です。
 
-詳細情報： [カスタムリソース](../../configuration/using/about-data-model.md).
+詳細情報： [データモデル](../../configuration/using/about-data-model.md).
 +++
 
 +++**データベースクリーンアップワークフロー**
@@ -243,7 +243,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 詳細情報： [ダイレクトメール](../../delivery/using/about-direct-mail-channel.md).
 +++
 
-+++**デプロイウィザード**
++++**デプロイメントウィザード**
 
 デプロイウィザードでは、デフォルトの名前空間、データベースクリーンアップスケジュール、データ保持期間、その他の技術的設定など、Campaign インスタンスのパラメーターを定義します。
 
@@ -261,7 +261,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *コンテキスト：分散型マーケティング*
 
-分散型マーケティングのアドオンオファーは、Campaign オペレーターに対して、セントラルエンティティ（本社、マーケティング部門など）間でキャンペーンを実装するための協調ワークスペースとして使用され、 ローカルエンティティ（販売店、地域代理店など）との共同作業によるキャンペーンを実装できます。この連携は、 **キャンペーンパッケージのリスト**：一元的に作成されたキャンペーンのテンプレートとインスタンスが、ローカルエンティティに提供されます。
+Distributed Marketing アドオンオファーを Campaign Operators に提供する。セントラルエンティティ（本社、マーケティング部門など）間でキャンペーンを実装するための協調ワークスペース ローカルエンティティ（販売店、地域代理店など）との共同作業によるキャンペーンを実装できます。この連携は、 **キャンペーンパッケージのリスト**：一元的に作成されたキャンペーンのテンプレートとインスタンスが、ローカルエンティティに提供されます。
 
 詳細情報： [分散型マーケティング](../../distributed/using/about-distributed-marketing.md)
 +++
@@ -270,7 +270,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 値の配分は、データベースに現在存在するスキーマ属性の値の配分を表示するツールです。 これにより、使用可能な値、その数と割合を判断し、クエリや式を作成する際の値の大文字と小文字の区別やスペルの問題を回避できます。
 
-詳細情報： [分散型マーケティング](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)
+詳細情報： [値の配分](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)
 +++
 
 +++**ドメインデリゲーション**
@@ -542,12 +542,15 @@ This template type is used to manage multilingual messages.  It is available for
 詳細情報： [名前空間](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 +++
 
-+++**ナビゲーションバー**
+<!--
+----generic, not specific to campaign----
++++**Navigation bar**
 
-ナビゲーションバーは、インターフェイスの上部を通るナビゲーション要素です。 ナビゲーションバーは、プラットフォームの様々なコア機能を再グループ化します。 ナビゲーションバーのリンクをクリックすると、この機能に関連する一連の機能が表示されます。 どのコア機能にアクセスできるかは、インストールしたパッケージおよびアドオンと、アクセス権によって異なります。ナビゲーションバーの目的は、画面の管理を簡素化し、生産性を高めることです。
+The navigation bar is the navigation element running across the top of the interface. The navigation bar regroups the various core capabilities of the platform. Click a navigation bar link to display the set of functionalities related to this capability. The list of core capabilities you can access depends on the packages and add-ons you have installed and on your access rights. The purpose of the Navigation bar is to simplify screen management and increase productivity.
 
-詳細情報： [ナビゲーションバー](../../platform/using/adobe-campaign-workspace.md#browsing-pages).
+Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.md#browsing-pages).
 +++
+-->
 
 +++**ナビゲーションツリー**
 
@@ -592,7 +595,7 @@ This template type is used to manage multilingual messages.  It is available for
 
 オファー **デザイン環境** は、オファーの作成、タイポロジルールの定義、オファーのターゲットにするスキーマの選択をおこなう環境です。 生成されたオファーの提案を保存するためのテーブルも、環境によって定義されます。 デフォルトでは、インタラクションアドオンには、 **デザイン** 環境と **ライブ** 環境がリンクされています。 これらの環境は、ビルトインの受信者テーブルをターゲットとするように事前に設定されています。
 
-詳細情報： [デザイン環境](../../interaction/using/fundamental-principles.md).
+詳細情報： [オファーデザイン環境](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**オファーエンジンのアービトラージ**
@@ -619,7 +622,7 @@ This template type is used to manage multilingual messages.  It is available for
 
 オファー環境は、オファーカタログ、使用可能なスペースおよび環境の事前定義済みフィルターを定義するルートフォルダーです。 オペレーターは、ターゲティングディメンションごとに 1 つの環境を作成する必要があります。 オファー環境には次の 2 つのタイプがあります。デザインとライブ。
 
-詳細情報： [環境](../../interaction/using/fundamental-principles.md).
+詳細情報： [オファー環境](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**オファーライブ環境**
@@ -628,7 +631,7 @@ This template type is used to manage multilingual messages.  It is available for
 
 オファーライブ環境はキャンペーンにリンクされています **デザイン環境**. 実稼働環境には、**デザイン環境**&#x200B;でコンテンツと実施要件の承認を受けた読み取り専用のオファーが含まれています。Web サイトでの表示用に選択することも、アウトバウンドメッセージに挿入することもできます。
 
-詳細情報： [ライブ環境](../../interaction/using/fundamental-principles.md).
+詳細情報： [オファーのライブ環境](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**オファープレゼンテーションルール**
@@ -662,7 +665,7 @@ This template type is used to manage multilingual messages.  It is available for
 
 *コンテキスト：キャンペーンインタラクション*
 
-オファーの提案は、特定のオファースペース（Web サイト上のバナー、E メール、SMS コンテンツなど）で連絡先にオファーを提示するアクションから成るものです。 この結果は、オファー、受信者およびタイムスタンプを定義するオファー提案テーブルに保存され、受信者が受け取ったすべてのオファーの記録が提供されます。
+オファー表示域は、オファーを表示するためにチャネルで使用される情報です。 オファー表示域は、オファーが表示されるスペースのレンダリング関数から作成でき、インターフェイス（HTML ブロックなど）に直接埋め込むこともできます。オファーは、スペースで表される場合があります。
 
 詳細情報： [インタラクション](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -682,7 +685,7 @@ This template type is used to manage multilingual messages.  It is available for
 
 オファースペースは、オファーを公開する場所を定義するフォルダーです。 スペースを定義すると、使用するチャネルを指定し、オファーのコンテンツを作成し、提示されるオファーを指定できます。 オファースペースは、チャネルとオファーエンジンの間のインターフェイスです。
 
-詳細情報： [シミュレーション](../../interaction/using/creating-offer-spaces.md).
+詳細情報： [オファースペース](../../interaction/using/creating-offer-spaces.md).
 +++
 
 +++**オファーテーマ**
@@ -1014,7 +1017,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 トリガーキャンペーンとは、ワークフローで API リクエストを受け取ったときに実行されるキャンペーンです。 API 呼び出しは、ワークフローの実行を開始するワークフロー内のシグナルアクティビティによって消費されます。
 
-詳細情報： [トリガーキャンペーン](../../workflow/using/external-signal.md).
+詳細情報： [トリガーされたキャンペーン](../../workflow/using/external-signal.md).
 +++
 
 <!--

@@ -4,11 +4,9 @@ title: Adobe Campaignの用語集
 description: Adobe Campaignの用語集
 role: User, Data Architect
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 9900fb627dfb310e8f34735a502997ef8e24e769
+source-git-commit: 3a540b59640d4cf128417f751d0076fd97310768
 workflow-type: tm+mt
-source-wordcount: '5993'
+source-wordcount: '6041'
 ht-degree: 14%
 
 ---
@@ -140,14 +138,14 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 コントロール母集団を使用すると、キャンペーンのオーディエンスの一部を除外して、キャンペーンの影響を測定できます。 オペレーターは、メッセージを受信したターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。 オペレーターは、送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットにすることもできます。
 
-詳細情報： [コンテンツグループ](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+詳細情報： [コントロール母集団](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 +++
 
 +++**コントロールパネル**
 
 このCampaign コントロールパネルは、Adobe Campaignの製品管理者が設定を管理し、各インスタンスの使用状況を追跡できるので、作業の効率を向上させるのに役立ちます。 直感的なインターフェイスにより、主要なアセットの使用状況を簡単に監視できるうえ、IP アドレスの許可リスト追加、SFTP ストレージの監視、鍵の管理などの管理タスクを実行できます。
 
-詳細情報： [コンテンツパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja).
+詳細情報： [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja).
 +++
 
 +++**キューブ**
@@ -284,12 +282,12 @@ Distributed Marketing アドオンオファーを Campaign Operators に提供�
 ## E - H {#sec-2}
 
 <!--
-----DEPREACTED----
+----DEPRECATED------>
 +++**E4X**
 
-The version of Javascript that is used in Adobe Campaign Classic. Sometimes called ECMAScript, it is an extension of Javascript that allows the mixing of Javascript and XML primitives in the same code. Note that E4X is classified as a deprecated language. 
+E4X は、Adobe Campaign Classicで使用される JavaScript のバージョンです。 ECMAScript とも呼ばれ、同じコード内で JavaScript と XML プリミティブを組み合わせることができる JavaScript の拡張です。 E4X は非推奨（廃止予定）の言語として分類されています。
 +++
--->
+
 
 +++**実施要件ルール**
 
@@ -1060,14 +1058,14 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 +++
 
 <!--
------NO OCCURRENCE IN ACC, OLD v6 CONCEPT?----
+-----NO OCCURRENCE IN ACC, OLD v6 CONCEPT?
 +++**Universes**
 
 Application pages hosted by the Campaign instance. Used for approval forms, landing pages, opt-out forms, preference pages or to implement other business requirements.  
 
 Learn more about [Universes](../../workflow/using/about-workflows.md).
 +++
--->
+------>
 
 +++**web アプリケーション**
 

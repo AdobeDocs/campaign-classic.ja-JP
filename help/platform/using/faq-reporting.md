@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: b29340a0-954d-41e4-b0a3-9d356e4dc753
-source-git-commit: cfba72840f7a0d335516d38be24363865d83d18d
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 新しいレポートを作成するにはどうすればよいですか？ {#how-can-i-create-new-reports-}
 
-Adobe Campaign では、組み込みレポートのほかにも、様々なコンテキストで様々なニーズに応えるレポートを生成できます。
+Adobe Campaign では、ビルトインレポートのほかにも、様々なコンテキストで様々なニーズに応えるレポートを生成できます。
 
 Adobe Campaign は、レポート専用ツールではありません。Adobe Campaign で作成されたレポートでは主に集計データを確認できます。
 
@@ -43,7 +43,7 @@ Campaign Classic では、[高度なレポートを作成](../../reporting/using
 
 キューブが作成および設定されると、レポートのクエリボックスや Web アプリケーションで使用されます。キューブをピボットテーブル内で使用して操作できます。
 
-キューブを使用した[データの参照](../../reporting/using/using-cubes-to-explore-data.md)方法を参照してください。
+キューブを使用した[データの参照](../../reporting/using/ac-cubes.md)方法を参照してください。
 
 ## オンライン調査に対する回答からレポートを作成できますか？ {#can-i-create-a-report-from-answers-to-an-online-survey-}
 

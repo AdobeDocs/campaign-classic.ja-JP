@@ -3,7 +3,7 @@ product: campaign
 title: レポートの管理
 description: レポートの管理
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 新しいレポートを作成するには、 [この節](../../reporting/using/about-reports-creation-in-campaign.md).
 
-場合によっては、これらのテーブルに固有の新しいキューブを配置する必要があります。 キューブについて詳しくは、 [この節](../../reporting/using/about-cubes.md).
+場合によっては、これらのテーブルに固有の新しいキューブを配置する必要があります。 キューブについて詳しくは、 [この節](../../reporting/using/ac-cubes.md).
 
 次のレポートが対象となります。
 

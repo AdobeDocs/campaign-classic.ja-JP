@@ -4,7 +4,7 @@ title: Adobe Campaignの用語集
 description: Adobe Campaignの用語集
 role: User, Data Architect
 level: Beginner
-source-git-commit: 3a540b59640d4cf128417f751d0076fd97310768
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
 source-wordcount: '6041'
 ht-degree: 14%
@@ -154,7 +154,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 キューブは、Adobe Campaignの直感的なデータ調査ツールで、動的レポートの作成と共有に役立ちます。
 
-詳細情報： [キューブ](../../reporting/using/about-cubes.md).
+詳細情報： [キューブ](../../reporting/using/ac-cubes.md).
 +++
 
 +++**カスタムリソース**

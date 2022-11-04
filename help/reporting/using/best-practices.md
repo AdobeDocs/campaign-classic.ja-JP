@@ -4,8 +4,8 @@ title: レポートのベストプラクティス
 description: キャンペーンレポートのベストプラクティス
 feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 100%
 
@@ -29,13 +29,13 @@ ht-degree: 100%
 
    例えば、次のようなことが可能です。
 
-   * データベース内のデータを調べ、測定値を定義します。詳しくは、[この節](../../reporting/using/about-cubes.md)を参照してください。
+   * データベース内のデータを調べ、測定値を定義します。詳しくは、[この節](../../reporting/using/ac-cubes.md)を参照してください。
    * 既存レポートへの指標の追加。詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
    * データベース内データの表示。詳しくは、[この節](../../reporting/using/about-descriptive-analysis.md)を参照してください。
    * 新しい配信レポートの作成。詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
    * Adobe Campaign データベースからのデータのエクスポート（ワークフローを使用）。[この節](../../workflow/using/about-workflows.md)を参照してください。
    * ピボットテーブルの作成。詳しくは、[この節](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)を参照してください。
-   * 集計データの表示。詳しくは、[この節](../../reporting/using/about-cubes.md)を参照してください。
+   * 集計データの表示。詳しくは、[この節](../../reporting/using/ac-cubes.md)を参照してください。
    * ウィザードを使用したデータ分析。詳しくは、[この節](../../reporting/using/about-descriptive-analysis.md)を参照してください。
    * 大量のデータの分析。詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
 

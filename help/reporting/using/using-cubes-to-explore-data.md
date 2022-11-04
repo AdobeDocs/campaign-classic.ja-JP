@@ -3,9 +3,11 @@ product: campaign
 title: キューブを使用してデータを調べる
 description: キューブを使用してデータを調べる
 feature: Reporting
+hide: true
+hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 100%
 
@@ -23,7 +25,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->キューブを作成または変更するには、マーケティング分析が必要です。詳しくは、[キューブについて](../../reporting/using/about-cubes.md)を参照してください。
+>キューブを作成または変更するには、マーケティング分析が必要です。詳しくは、[キューブについて](../../reporting/using/ac-cubes.md)を参照してください。
 
 ## レポートのデータを調べる {#exploring-the-data-in-a-report}
 

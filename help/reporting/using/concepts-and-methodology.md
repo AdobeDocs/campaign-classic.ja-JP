@@ -3,9 +3,11 @@ product: campaign
 title: キューブのベストプラクティス
 description: キューブのベストプラクティス
 feature: Reporting
+hide: true
+hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 100%
 
@@ -127,8 +129,6 @@ bin を自動的に生成することもできます。それには、「**[!UIC
 集計は、大量のデータを操作するときに役に立ちます。専用のワークフローボックスで定義した設定に基づいて集計が自動的に更新され、最近収集したデータが指標に統合されます。
 
 集計は各キューブの関連タブで定義されます。
-
-![](assets/s_advuser_cube_agregate_01.png)
 
 >[!NOTE]
 >

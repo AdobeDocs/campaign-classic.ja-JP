@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: '"ユースケース：オンライン調査への回答に関するレポートの表示"'
-description: '"ユースケース：オンライン調査への回答に関するレポートの表示"'
+title: "ユースケース：オンライン調査への回答に関するレポートの表示"
+description: "ユースケース：オンライン調査への回答に関するレポートの表示"
 feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ## 手順 2 - キューブおよびその測定と指標の作成 {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-次に、キューブを作成し、その測定を設定できます。これらの測定は、レポートに表示される指標の作成に使用されます。キューブの作成と設定について詳しくは、[キューブについて](../../reporting/using/about-cubes.md)を参照してください。
+次に、キューブを作成し、その測定を設定できます。これらの測定は、レポートに表示される指標の作成に使用されます。キューブの作成と設定について詳しくは、[キューブについて](../../reporting/using/ac-cubes.md)を参照してください。
 
 この例では、キューブは、先ほど作成したワークフローから提供されるリスト内のデータに基づいています。
 

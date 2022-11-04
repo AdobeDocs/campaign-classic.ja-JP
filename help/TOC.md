@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
 workflow-type: tm+mt
-source-wordcount: '2584'
+source-wordcount: '2588'
 ht-degree: 100%
 
 ---
@@ -314,6 +314,7 @@ ht-degree: 100%
       + [レポートのプロパティ](reporting/using/properties-of-the-report.md)
       + [レポートへのアクセスの設定](reporting/using/configuring-access-to-the-report.md)
       + [レポートに対するアクション](reporting/using/actions-on-reports.md)
+   + [キューブを使用したレポートの設計](reporting/using/ac-cubes.md)
    + キューブを使用したレポートの設計 {#designing-reports-with-cubes}
       + [キューブの基本を学ぶ](reporting/using/about-cubes.md)
       + [指標の作成](reporting/using/creating-indicators.md)

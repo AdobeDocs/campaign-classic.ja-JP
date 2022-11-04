@@ -4,8 +4,8 @@ title: 分析するデータの収集
 description: 分析するデータの収集
 feature: Reporting
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 ![](assets/reporting_query_from_cube.png)
 
-キューブを使用すると、データベースの調査および分析機能を拡張できると同時に、レポートやテーブルの設定がエンドユーザーにとってより簡単になります。完全に設定された既存のキューブを選択して、そのキューブの計算、測定および統計を使用するだけです。キューブの作成について詳しくは、[この節](../../reporting/using/about-cubes.md)を参照してください。
+キューブを使用すると、データベースの調査および分析機能を拡張できると同時に、レポートやテーブルの設定がエンドユーザーにとってより簡単になります。完全に設定された既存のキューブを選択して、そのキューブの計算、測定および統計を使用するだけです。キューブの作成について詳しくは、[この節](../../reporting/using/ac-cubes.md)を参照してください。
 
 「**[!UICONTROL クエリを編集]**」リンクをクリックして、レポートで表示または使用する指標を選択します。
 

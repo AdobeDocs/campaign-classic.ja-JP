@@ -3,9 +3,9 @@ product: campaign
 title: Apple Mail アプリでのメールプライバシー保護
 description: Appleのメールプライバシー保護機能がキャンペーンに与える影響について説明します。
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
-source-git-commit: 1a9e0f8bf374e10af938d15dcebe943819ae327b
+source-git-commit: 43d9eac2ed161465ca00ee4f511e4c020b4c44a2
 workflow-type: tm+mt
-source-wordcount: '2141'
+source-wordcount: '2109'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## キャンペーンへの影響
 
-Adobe Campaignには、追跡ピクセルを使用して電子メールの開封を追跡する機能が用意されています。 この機能は、ターゲティングとキャンペーンだけでなく、指標にも使用できます。 例えば、電子メールの開封率を使用して、キャンペーンの効果とユーザーエンゲージメントを測定できます。 つまり、セグメント化、ターゲティング、指標はキャンペーンの影響を受ける可能性があります。 [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html#in-addition-to-measuring-opens%2C-what-else-is-impacted%3F){target=&quot;_blank&quot;}。
+Adobe Campaignには、追跡ピクセルを使用して電子メールの開封を追跡する機能が用意されています。 この機能は、ターゲティングとキャンペーンだけでなく、指標にも使用できます。 例えば、電子メールの開封率を使用して、キャンペーンの効果とユーザーエンゲージメントを測定できます。 つまり、セグメント化、ターゲティング、指標はキャンペーンの影響を受ける可能性があります。
 
 ## 実行すべきアクション
 
@@ -450,7 +450,3 @@ E メールの開封がターゲット条件として使用されているワー
    このタイプのワークフローは、標準の受信者テーブル以外のテーブルに受信者を格納する場合に役立ちます。
 
    ![](assets/export-tracking-data-wkf-2.png)
-
-## 参考になるリンク
-
-[Apple Mail プライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html){target=&quot;_blank&quot;}

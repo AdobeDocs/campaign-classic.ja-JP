@@ -3,9 +3,9 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
-workflow-type: ht
-source-wordcount: '235'
+source-git-commit: 43d9eac2ed161465ca00ee4f511e4c020b4c44a2
+workflow-type: tm+mt
+source-wordcount: '211'
 ht-degree: 100%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 100%
 * **[2022年リリースプログラム](technotes/using/dc-migration.md)**<br/> 環境をアップグレードし、セキュリティ、インフラストラクチャ、パフォーマンスを向上
 
 * **[7月リリースが公開されました](rn/using/latest-release.md)**<br/> 新機能、改善点および修正点をリリースノートでご確認ください
-
-* **[Apple のメールプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ja)** および&#x200B;**[テクニカルノート](technotes/using/apple-mail-app-privacy-protection.md)**<br/>：iOS 15 に関する Apple の発表に対応したガイダンスをご覧ください。
 
 * **[誤ったハードバウンスの削除](delivery/using/update-bounce-qualification.md)**<br/> Apple のサービスが停止した後に誤ったハードバウンスを更新する方法を説明します
 

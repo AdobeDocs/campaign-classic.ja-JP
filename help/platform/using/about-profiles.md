@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: プロファイルの基本を学ぶ
-description: Adobe Campaignでのプロファイルの操作
+description: Adobe Campaign でのプロファイルの操作
 feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Campaign エクスプローラーの一般的なレイアウトについ�
 
 >[!NOTE]
 >
->インスタンスで使用されているアクティブなプロファイル数は、Campaign コントロールパネルから直接監視できます。詳しくは、[Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja)を参照してください。
+>インスタンスで使用されているアクティブなプロファイル数は、Campaign コントロールパネルから直接監視できます。詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja)を参照してください。
 
 ## チュートリアルビデオ {#create-profiles-video}
 

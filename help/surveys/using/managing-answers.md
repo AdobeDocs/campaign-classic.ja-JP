@@ -4,8 +4,8 @@ title: 回答の管理
 description: 調査の回答を管理する方法を説明します
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 回答の管理{#managing-answers}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## 収集した回答の保存 {#storing-collected-answers}
 

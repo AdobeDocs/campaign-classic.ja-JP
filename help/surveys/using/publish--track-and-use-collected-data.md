@@ -4,8 +4,8 @@ title: 収集したデータの公開、トラッキングおよび使用
 description: 調査で収集されたデータを公開、トラッキング、使用する方法を説明します
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 収集したデータの公開、トラッキングおよび使用{#publish-track-and-use-collected-data}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 フォームの作成、設定、パブリッシュが完了したら、オーディエンスとリンクを共有して反応をトラッキングできます。
 

@@ -4,8 +4,8 @@ title: 調査を作成するための主な手順
 description: Campaign での初めての調査作成
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 100%
 
@@ -13,9 +13,9 @@ ht-degree: 100%
 
 # 調査を作成するための主な手順{#getting-started-with-surveys}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
-ここでは、次の組み込みテンプレートを使用して、簡単な調査を作成するための主な手順の概要を説明します。
+ここでは、次のビルトインテンプレートを使用して、簡単な調査を作成するための主な手順の概要を説明します。
 
 ![](assets/s_ncs_admin_survey_result.png)
 

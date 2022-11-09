@@ -4,8 +4,8 @@ title: 調査の基礎知識
 description: Campaign の調査の基礎知識
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 調査の基本を学ぶ{#about-surveys}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 Adobe Campaign には、web アプリケーションを定義および公開するためのグラフィカルモジュールが含まれています。これは、エクストラネット上の編集フォームや、テーブル、グラフ、入力フォームなど、データベースのデータを含んだ通知フォームのページを作成するために使用します。この機能を使用すると、ユーザーが情報を検索または入力できる web ページをデザインし配信できます。
 

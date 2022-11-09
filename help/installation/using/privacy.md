@@ -4,10 +4,10 @@ title: プライバシー
 description: プライバシーに関するベストプラクティスの詳細を説明します
 feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: fcbaacccaf3f1771570e42e7a83847ed3fd998ef
 workflow-type: tm+mt
 source-wordcount: '902'
-ht-degree: 50%
+ht-degree: 48%
 
 ---
 
@@ -77,7 +77,7 @@ Campaign をオンプレミスで実行している場合でも、ハイブリ�
 
 URL 署名を有効にするには、すべての Campaign サーバーで同時に次の手順に従います。
 
-1. サーバー設定ファイル （serverConf.xml）で、**signEmailLinks** を **false** に変更します。
+1. サーバー設定ファイル (serverConf.xml) で、 **signEmailLinks** から **true**.
 1. **nlserver** サービスを再起動します。
 1. トラッキングサーバーで、Web サーバー（Debian では apache2、CentOS/RedHat では httpd、Windows では IIS）を再起動します。
 

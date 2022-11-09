@@ -5,9 +5,9 @@ description: E メールのレンダリングを取り込み、専用レポー�
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 source-git-commit: 048189f49623cf00f4c3f1f34ff4b795d80391ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '860'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 これを可能にするために、Adobe Campaign では、[Litmus](https://litmus.com/email-testing) の Web ベースの E メールテストソリューションを活用して、レンダリングをキャプチャし、専用のレポートで使用できるようにします。これにより、異なるコンテキストで受信される可能性のある送信済みのメッセージをプレビューして、メジャーなデスクトップおよびアプリケーションの互換性を確認できます。
 
 >[!CAUTION]
->受信ボックスレンダリングにはとの互換性がありません [繰り返し配信](communication-channels.md#recurring-delivery).
+>インボックスレンダリングは、[繰り返し配信](communication-channels.md#recurring-delivery)に対応していません。
 
 Litmus は、多機能 E メール検証およびプレビューアプリケーションです。E メールコンテンツ作成者は、Gmail 受信トレイや Apple Mail クライアントなど、70 を超える E メールレンダラーでメッセージコンテンツをプレビューできます。
 

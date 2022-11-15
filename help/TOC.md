@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: e91024df3ee2ed761035806f62ddc679c52039d9
+source-git-commit: 83fe7eb4f857306ac1c8bb3a93a9393b76ae1e3c
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2557'
 ht-degree: 100%
 
 ---
@@ -841,7 +841,6 @@ ht-degree: 100%
       + [TLS 1.0 および 1.1 のサポートの提供終了（EOL）](technotes/using/eol-tls-support.md)
    + メールとプッシュ通知 {#technotes-email}
       + [Apple iOS のメールプライバシー保護](technotes/using/apple-mail-app-privacy-protection.md)
-      + [Apple Mail のプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ja)
       + [誤ったハードバウンスの更新方法](delivery/using/update-bounce-qualification.md)
       + [iOS 証明書の更新](technotes/using/ios-certificate-update.md)
       + [トラッキング対象 URL の更新](technotes/using/tracked-urls.md)

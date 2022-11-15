@@ -3,10 +3,10 @@ product: campaign
 title: Apple Mail アプリでのメールプライバシー保護
 description: Appleのメールプライバシー保護機能がキャンペーンに与える影響について説明します。
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
-source-git-commit: 43d9eac2ed161465ca00ee4f511e4c020b4c44a2
+source-git-commit: 83fe7eb4f857306ac1c8bb3a93a9393b76ae1e3c
 workflow-type: tm+mt
-source-wordcount: '2109'
-ht-degree: 2%
+source-wordcount: '2097'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 ## 変更点
 
-2021 年に、Appleはネイティブの Mail アプリに新しいプライバシー保護機能を導入しました。 このアプリにAppleのメールプライバシー保護機能が含まれるようになりました。 基本的に、送信者は、Appleのメールプライバシー保護機能の有効化を選択した受信者に関する情報を収集するために、トラッキングピクセルを使用できなくなりました。 [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/apple-mail-privacy-faq.html?lang=ja){target=&quot;_blank&quot;}。
+2021 年に、Appleはネイティブの Mail アプリに新しいプライバシー保護機能を導入しました。 このアプリにAppleのメールプライバシー保護機能が含まれるようになりました。 基本的に、送信者は、Appleのメールプライバシー保護機能の有効化を選択した受信者に関する情報を収集するために、トラッキングピクセルを使用できなくなりました。
 
 ## キャンペーンへの影響
 

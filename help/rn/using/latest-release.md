@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 95c4a83037bcd2e22a03ac80d1ec4a7896a94ce3
+source-git-commit: d592902157b499423283307402eb74452d4827bc
 workflow-type: tm+mt
 source-wordcount: '2711'
 ht-degree: 75%
@@ -36,7 +36,6 @@ _2022 年 11 月 22 日_
 **非推奨（廃止予定）の機能**
 
 * facebookを使用したソーシャルマーケティングは廃止されました。 twitter統合を使用してソーシャルメディアに投稿したり、Adobeと連携してカスタムチャネルを作成したりできます。
-
 * ACS コネクタ（Prime 提供）は非推奨（廃止予定）となりました。 Campaign のエクスポート/インポート機能を使用して、両方の製品のデータを抽出および挿入できます。
 
 詳しくは、[非推奨（廃止予定）の機能と削除された機能のページ](deprecated-features.md)を参照してください。

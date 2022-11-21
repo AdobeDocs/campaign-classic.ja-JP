@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: ACS コネクタのトラブルシューティング
-description: ACS コネクタのトラブルシューティング
+title: ACS Connector のトラブルシューティング
+description: ACS Connector のトラブルシューティング
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
+hide: true
+hidefromtoc: true
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
-source-git-commit: 1bb1365ce5a4eb89447c5d736a42cd470c7f3bba
+source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 100%
 
 ---
 
-# ACS コネクタのトラブルシューティング{#troubleshooting-the-acs-connector}
+# ACS Connector のトラブルシューティング{#troubleshooting-the-acs-connector}
 
 ![](../../assets/v7-only.svg)
 

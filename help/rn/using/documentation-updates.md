@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 7f41e3209450421262acf8a753bddd3eae1fe35f
+source-git-commit: 5792ad762befb97888ad32406d3bcb7f97df3fa7
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '5017'
 ht-degree: 98%
 
 ---
@@ -57,7 +57,7 @@ iOS 15 での時間依存の通知。 [詳細情報](../../delivery/using/create
 
 新しい Campaign v7.2.2 ビルドが利用できるようになりました。 [詳細情報](../../rn/using/latest-release.md)
 
-ACS コネクタに関するトラブルシューティング情報を追加しました。[詳細情報](../../integrations/using/troubleshooting-the-acs-connector.md)
+<!--Added troubleshooting information related to the ACS connector. [Read more](../../integrations/using/troubleshooting-the-acs-connector.md)-->
 
 提供が終了した従来の PostgreSQL バージョンが、[廃止される機能および削除された機能](../../rn/using/deprecated-features.md#dbe-eol)ページに追加されました。
 

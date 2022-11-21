@@ -3,9 +3,11 @@ product: campaign
 title: Web アプリケーションの同期
 description: Web アプリケーションを ACS コネクタと同期する方法を学ぶ
 feature: ACS Connector
+hide: true
+hidefromtoc: true
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
-workflow-type: ht
+source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
+workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 100%
 
@@ -72,7 +74,7 @@ Campaign v7 と Campaign Standard との間で必要なデータをレプリケ�
 
    ![](assets/acs_connect_lp_8.png)
 
-1. 上部のバーで&#x200B;**[!UICONTROL マーケティングアクティビティ]**&#x200B;をクリックし、Campaign v7 Web アプリケーションを検索します。Campaign Standard でランディングページとして表示されます。
+1. 上部バーで&#x200B;**[!UICONTROL マーケティングアクティビティ]**&#x200B;をクリックし、Campaign v7 Web アプリケーションを検索します。Campaign Standard でランディングページとして表示されます。
 
    ![](assets/acs_connect_lp_9.png)
 

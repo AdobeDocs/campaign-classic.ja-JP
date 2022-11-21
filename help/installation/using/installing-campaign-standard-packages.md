@@ -3,9 +3,9 @@ product: campaign
 title: Campaign Classic 組み込みパッケージのインストール
 description: Campaign の組み込みパッケージのインストール方法を説明します
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1288'
 ht-degree: 26%
 
 ---
@@ -180,7 +180,7 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> セントラル／ローカルマーケティング（分散型マーケティング）<br /> </td> 
-   <td> セントラルエンティティ（本社、マーケティング部門など）間の協調キャンペーンの実装 ローカルエンティティ（販売店、地域代理店など）との共同作業によるキャンペーンを実装できます。（オプション）<a href="../../distributed/using/about-distributed-marketing.md">詳細情報</a><br /> </td> 
+   <td> セントラルエンティティ（本社、マーケティング部門など）間の協調キャンペーンの実装 およびローカルエンティティ（販売店、地域代理店など）との共同作業によるキャンペーンを実装できます。（オプション）<a href="../../distributed/using/about-distributed-marketing.md">詳細情報</a><br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 
@@ -229,8 +229,8 @@ ht-degree: 26%
    <td> すべて </td> 
   </tr> 
   <tr> 
-   <td> ACS コネクタ<br /> </td> 
-   <td> Adobe Campaign v7 とAdobe Campaign Standardをブリッジします。 Campaign v7 の統合機能で、Campaign Standard にデータを自動的にレプリケートして、両方のアプリケーションの優れた機能を連携させます。（オプション）<a href="../../integrations/using/acs-connector-principles-and-data-cycle.md">詳細情報</a> <br /> </td> 
+   <td> ACS コネクタ（非推奨）<br /> </td> 
+   <td> Adobe Campaign v7 とAdobe Campaign Standardをブリッジします。 Campaign v7 の統合機能で、Campaign Standard にデータを自動的にレプリケートして、両方のアプリケーションの優れた機能を連携させます。（オプション）<br /> </td> 
    <td> マーケティング </td> 
   </tr> 
  </tbody> 

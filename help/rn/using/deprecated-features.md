@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 45c5ef3315e4208184e9c0ab5f20678646fe2d0b
-workflow-type: ht
-source-wordcount: '1624'
-ht-degree: 100%
+source-git-commit: 0ecf9c69cc4b444feda1e42701a3a27f2b2e7eeb
+workflow-type: tm+mt
+source-wordcount: '1684'
+ht-degree: 97%
 
 ---
 
@@ -41,11 +41,20 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
  <tbody> 
    <tr>
    <td><strong>機能</strong></td>
-   <td><strong>置き換え</strong></td>
+   <td><strong>詳細</strong></td>
   </tr>
 <tr>
- <td>該当なし</td>
- <td>該当なし</td>
+ <td>Facebook でのソーシャルマーケティング</td>
+ <td>facebookを使用したソーシャルマーケティングは廃止されました。 twitter統合を使用してソーシャルメディアに投稿したり、Adobeと連携してカスタムチャネルを作成したりできます。
+ <p></p>
+  <p>削除予定日：2023 年末</p>
+  </td>
+</tr>
+<tr>
+ <td>ACS コネクタ</td>
+ <td>ACS コネクタ (Prime Offering) は非推奨（廃止予定）となりました。 Campaign のエクスポート/インポート機能を使用して、両方の製品のデータを抽出および挿入できます。<p></p>
+  <p>削除予定日：2023 年末</p>
+  </td>
 </tr>
  </tbody> 
 </table>

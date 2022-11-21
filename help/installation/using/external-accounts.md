@@ -6,10 +6,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: ae235d39c4a78e0a2507f6baaebbdc9986dbf995
+source-git-commit: 31a475c98b09bbeca6a16c6fd98698af10016033
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 79%
+source-wordcount: '1904'
+ht-degree: 78%
 
 ---
 
@@ -117,7 +117,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 * [電話](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)
 * [エージェンシー](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
-* [Twitter](../../social/using/configuring-publishing-on-twitter.md)
+* [Twitter](../../social/using/about-social-marketing.md)
 * [iOS チャネル](../../delivery/using/configuring-the-mobile-application.md)
 * [Android チャネル](../../delivery/using/configuring-the-mobile-application-android.md)
 
@@ -225,29 +225,6 @@ Windows で SSH キーを追加するには：
 * へのアクセスの設定 [sybase IQ](../../installation/using/configure-fda-sybase.md)
 * へのアクセスの設定 [Teradata](../../installation/using/configure-fda-teradata.md)
 
-### Facebook connect {#facebook-connect-external-account}
-
-**[!UICONTROL Facebook Connect]** 外部アカウントがあれば、Facebook アプリケーションにパーソナライズしたコンテンツを表示でき、このソーシャルネットワーク経由で見込み客を獲得しやすくなります。
-
-Facebook アプリケーションごとに、**[!UICONTROL Facebook Connect]** タイプの外部アカウントを作成する必要があります。詳しくは、[ページ](../../social/using/creating-a-facebook-application.md#configuring-external-accounts)を参照してください。
-
-![](assets/ext_account_12.png)
-
-* **[!UICONTROL ホスティングモード]**
-
-   アプリケーションのホスティングモード（「**[!UICONTROL パートナーがホストする]**」または「**[!UICONTROL このインスタンスでホストする]**」）。
-
-* **[!UICONTROL アプリケーション ID]**
-
-   Facebook アプリケーションのアプリ ID。
-
-* **[!UICONTROL アプリケーション秘密鍵]**
-
-   Facebook アプリケーションのアプリケーション秘密鍵。
-
-「このインスタンスでホストする」モードを使用した場合、セキュアキャンバス URL を Facebook の **Facebook Web ゲーム（https）**&#x200B;フィールドに貼り付ける必要があります。
-
-これらの資格情報の見つけ方については、この[ページ](https://developers.facebook.com/docs/facebook-login/access-tokens)を参照してください。
 
 ## Adobeソリューション統合外部アカウント
 

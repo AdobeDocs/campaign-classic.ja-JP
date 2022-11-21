@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 0dd0b6f1aa69a6848a75e6299bd751de0bfddeb9
+source-git-commit: 5792ad762befb97888ad32406d3bcb7f97df3fa7
 workflow-type: tm+mt
-source-wordcount: '2553'
+source-wordcount: '2524'
 ht-degree: 99%
 
 ---
@@ -584,16 +584,6 @@ ht-degree: 99%
    + [ユースケース](message-center/using/transactional-email-with-attachments.md)
 + ソーシャルメディアとの統合 {#integrating-with-social-media}
    + [ソーシャルマーケティングについて](social/using/about-social-marketing.md)
-   + 設定 {#configuration}
-      + [ワークフローの開始](social/using/starting-workflows.md)
-      + [Facebook アプリケーションの作成](social/using/creating-a-facebook-application.md)
-      + [Twitter での公開の設定](social/using/configuring-publishing-on-twitter.md)
-   + Twitter での公開 {#publishing-on-facebook-twitter}
-      + [Twitter の基本を学ぶ](social/using/overview.md)
-      + [Twitter での公開](social/using/publishing-on-twitter.md)
-   + Facebook 連絡先の獲得 {#annexes}
-      + [Facebook アプリの例](social/using/examples-of-facebook-apps.md)
-      + [トラッキング](social/using/tracking.md)
 + インストールおよび設定ガイド {#installing-campaign-classic}
    + アーキテクチャの原則 {#architecture-and-hosting-models}
       + [一般的なアーキテクチャ](installation/using/general-architecture.md)

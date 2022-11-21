@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: f94d7e2cddd75d50cb21973a62ec223f2344edf1
+source-git-commit: ca2f50a501c63cc8b2d4de5d9a41b655a6b6d6cf
 workflow-type: tm+mt
-source-wordcount: '2656'
-ht-degree: 77%
+source-wordcount: '2715'
+ht-degree: 75%
 
 ---
 
@@ -27,22 +27,19 @@ _2022 年 11 月 22 日_
 
 * Microsoft Internet Explorer 11 の提供終了後、クライアントコンソールのダッシュボードのHTMLレンダリングエンジンは、Edge Chromium を使用するようになりました。 （NEO-20741）
 
-<!--
-**Deprecated features**
-
-* Social Marketing with Facebook is now deprecated. You can still use Twitter integration to post on social media, or work with Adobe to create a custom channel.
-
-* ACS Connector (prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.
-
-Learn more in the [Deprecated and removed features page](deprecated-features.md).
-
--->
-
 **改善点**
 
 * Google BigQuery コネクタがブール値フィールドを完全にサポートするようになりました。 （NEO-49181）
 * IMS Cookie の有効期間を `Configuration for the redirection service` serverConf.xml ファイルのセクションに含める必要があります。 これは、次の Cookie に適用されます。 `uuid230`, `nllastdelid` および `AMCV_` (NEO-42541)
 * IP は、 `showSourceIP` を serverConf.xml ファイルのリダイレクトノードで false に設定します。 [詳細を表示](../../installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656)
+
+**非推奨（廃止予定）の機能**
+
+* facebookを使用したソーシャルマーケティングは廃止されました。 twitter統合を使用してソーシャルメディアに投稿したり、Adobeと連携してカスタムチャネルを作成したりできます。
+
+* ACS コネクタ（Prime 提供）は非推奨（廃止予定）となりました。 Campaign のエクスポート/インポート機能を使用して、両方の製品のデータを抽出および挿入できます。
+
+詳しくは、[非推奨（廃止予定）の機能と削除された機能のページ](deprecated-features.md)を参照してください。
 
 **その他の変更**
 

@@ -4,16 +4,16 @@ title: テクニカルノート — Adobe Campaignシステムのアップグレ
 description: Adobe Campaign
 hide: true
 hidefromtoc: true
-source-git-commit: b119d52b94d95086261fcdc1744698a78296df9c
+source-git-commit: 6fc11ea75863abe86e81c4978843e8487cbd83a0
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 12%
+source-wordcount: '502'
+ht-degree: 11%
 
 ---
 
 # Adobe Campaign 2023 システムのアップグレード {#ac-system-upgrade}
 
-Campaign のインフラストラクチャは、サードパーティ製システムに依存しており、システムのバージョンと修正を定期的に更新する必要があります。 これらの更新は、サービスの継続性を確保し、Campaign 環境をセキュリティリスクから保護するために必須です。 また、サードパーティのシステム変更に合わせてアップグレードする必要があります。
+Campaign インフラストラクチャは、サードパーティ製システムを利用しており、最新のバージョンと修正を定期的に更新する必要があります。 これらの更新は、サービスの継続性を確保し、Campaign 環境をセキュリティリスクから保護するために必須です。 また、サードパーティのシステム変更との互換性を確保するには、Campaign のアップグレードが必要です。
 
 As a **ホスト型または管理型Cloud Servicesのお客様**&#x200B;のAdobeに、必要に応じて、これらのアップグレードに関する情報が表示されます。 コンプライアンスを確保するために、推奨事項に従って環境をアップグレードする必要があります。
 
@@ -23,7 +23,7 @@ As a **オンプレミスまたはハイブリッドの顧客**&#x200B;の場合
 
 >[!NOTE]
 >
->これらの変更点に関するご質問については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>これらの変更点に関するご質問については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。関連トピック [ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md).
 
 ## Campaign ビルドのアップグレード {#ac-upgrade}
 
@@ -60,12 +60,12 @@ Campaign のデータベースシステムが PostgreSQL の場合、最新の P
 
 * ホスト型または管理型のCloud Servicesのお客様は、Adobeから連絡を受けて、データベースシステムを PostgreSQL 11 から PostgreSQL 14 にアップグレードします。
 * ハイブリッドのお客様で、マーケティングデータベースシステムが PostgreSQL の場合は、PostgreSQL 14 にアップグレードする必要があります。
-* オンプレミス型のお客様は、データベースシステムを PostgreSQL 14 にアップグレードするよう求められます。../integrations/using/configuring-adobe-io.md) です。
+* オンプレミス型のお客様は、データベースシステムを PostgreSQL 14 にアップグレードするよう求められます。
 
 
 ## 参考になるリンク
 
 * [環境のアップグレード](../../production/using/build-upgrade.md)
 * [ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
-* [Campaign Classic ビルドのダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)
+* [最新のCampaign Classicビルドをダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)
 * [ユーザーへの新しいクライアントコンソールの公開](../../installation/using/client-console-availability-for-windows.md)

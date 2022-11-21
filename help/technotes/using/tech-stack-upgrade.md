@@ -4,14 +4,14 @@ title: テクニカルノート — Adobe Campaignシステムのアップグレ
 description: Adobe Campaign
 hide: true
 hidefromtoc: true
-source-git-commit: 6fc11ea75863abe86e81c4978843e8487cbd83a0
+source-git-commit: b877625c568cc9b1119a76812e92dffdab1f4bb1
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 11%
 
 ---
 
-# Adobe Campaign 2023 システムのアップグレード {#ac-system-upgrade}
+# Adobe Campaign 2023 環境のアップグレード {#ac-system-upgrade}
 
 Campaign インフラストラクチャは、サードパーティ製システムを利用しており、最新のバージョンと修正を定期的に更新する必要があります。 これらの更新は、サービスの継続性を確保し、Campaign 環境をセキュリティリスクから保護するために必須です。 また、サードパーティのシステム変更との互換性を確保するには、Campaign のアップグレードが必要です。
 

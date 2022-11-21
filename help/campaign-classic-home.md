@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: a2817dabf421281dc0ade3531af62525e045bbee
+source-git-commit: ddac38fb79101bcff910345c9b04c7cc5eaf39a6
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 ## 新機能
 
-* **[2022年リリースプログラム](technotes/using/dc-migration.md)**<br/> 環境をアップグレードし、セキュリティ、インフラストラクチャ、パフォーマンスを向上
+* **[11 月リリースが公開されました。](rn/using/latest-release.md)**<br/> 新機能、改善点および修正点をリリースノートでご確認ください
 
-* **[7月リリースが公開されました](rn/using/latest-release.md)**<br/> 新機能、改善点および修正点をリリースノートでご確認ください
+* **[2022年リリースプログラム](technotes/using/dc-migration.md)**<br/> 環境をアップグレードし、セキュリティ、インフラストラクチャ、パフォーマンスを向上
 
 <!--* **[Secure your Campaign environment](technotes/using/tech-stack-upgrade.md)**<br/> Update to the latest versions to secure your Campaign platform-->
 

@@ -6,10 +6,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 4ff86349d6b8966273585bf2a1ea0d785a7e87cb
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 1%
+source-wordcount: '638'
+ht-degree: 0%
 
 ---
 
@@ -30,6 +30,10 @@ ht-degree: 1%
 例： **uploadWhiteList=&quot;.&#42;.png,.&#42;.jpg&quot;** は、サーバーに PNG 形式およびJPG形式をアップロードできます。 他の形式は使用できません。
 
 また、Web サーバーを設定して、重要なファイルがアップロードされないようにすることもできます。 [詳細情報](web-server-configuration.md)
+
+>[!NOTE]
+>
+>この **uploadWhiteList** 属性によって、Adobe Campaignサーバーでのアップロードに使用できるファイルタイプが制限されます。 ただし、パブリッシュモードが **トラッキングサーバー** または **その他のAdobe Campaignサーバー**、 **uploadWhitelist** 属性も、これらのサーバーで更新する必要があります。
 
 ## プロキシ接続設定 {#proxy-connection-configuration}
 

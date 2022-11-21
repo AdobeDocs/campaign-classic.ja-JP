@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 59a2bc62b4c03ef0702cb57bd9dc808e7d0b444b
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '706'
 ht-degree: 4%
 
 ---
@@ -124,7 +124,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> .@<br /> </td> 
    <td> PU-0001<br /> </td> 
    <td> 警告<br /> </td> 
-   <td> このタイプの構文は、配信のパーソナライゼーションではサポートされなくなりました。 参照： <a href="../../migration/using/general-configurations.md#javascript" target="_blank">JavaScript</a>. それ以外の場合は、値のタイプが正しいことを確認します。<br /> </td> 
+   <td> このタイプの構文は、配信のパーソナライゼーションではサポートされなくなりました。 <br /> </td> 
   </tr> 
   <tr> 
    <td> common.js<br /> </td> 
@@ -136,7 +136,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> logon(<br /> </td> 
    <td> PU-0003<br /> </td> 
    <td> 警告<br /> </td> 
-   <td> この接続方法は使用できなくなりました。 参照： <a href="../../migration/using/general-configurations.md#identified-web-applications" target="_blank">特定された Web アプリケーション</a>.<br /> </td> 
+   <td> この接続方法は使用できなくなりました。<br /> </td> 
   </tr> 
   <tr> 
    <td> new SoapMethodCall(<br /> </td> 
@@ -148,14 +148,8 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
    <td> sql=<br /> </td> 
    <td> PU-0005<br /> </td> 
    <td> エラー<br /> </td> 
-   <td> このタイプのエラーは、移行エラーにつながります。 参照： <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>.<br /> </td> 
+   <td> このタイプのエラーは、移行エラーにつながります。<br /> </td> 
   </tr> 
-  <tr> 
-   <td> SQLDATA<br /> </td> 
-   <td> PU-0006<br /> </td> 
-   <td> エラー<br /> </td> 
-   <td> このタイプのエラーは、移行エラーにつながります。 参照： <a href="../../migration/using/general-configurations.md#sqldata" target="_blank">SQLData</a>. 概要タイプの Web アプリケーションエラーログを取得した場合（v6.02 からの移行）、 <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11" target="_blank">キャンペーンの設定</a>.<br /> </td> 
-  </tr>
   <tr> 
    <td> crmDeploymentType="onpremise"<br /> </td> 
    <td> PU-0007<br /> </td> 

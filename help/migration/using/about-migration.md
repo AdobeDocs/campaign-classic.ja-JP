@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: migration-overview
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
-source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '452'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ![](../../assets/v7-only.svg)
 
-このドキュメントでは、Adobe Campaign Classic v7 への移行の前提条件、および移行の手順について詳しく説明します。 手順とオプションの設定は、設定によって異なります。 [詳細情報](../../migration/using/general-configurations.md)。
+このドキュメントでは、Adobe Campaign Classic v7 への移行の前提条件、および移行の手順について詳しく説明します。 手順とオプションの設定は、設定によって異なります。
 
 移行プロセスは慎重に実行する必要があり、その影響を事前に十分に考慮し、手順は厳密に実行する必要があります。 エキスパートユーザーのみが実行する必要があります。 連絡を取ることを強くお勧めします [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 移行手順を開始する前に、次の手順を実行します。
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 * Adobe Campaign Cloud Messaging（ミッドソーシングデプロイメント）を使用する場合は、開始する前にAdobeカスタマーケアにお問い合わせください。
 * 移行プロセスを開始する前に、次の手順を実行します。 **必須** データをバックアップします。
 * 移行プロセスが完了するまでに数日かかる場合があります。
-* Adobe Campaign v7 は、以前のバージョンよりも安全です。これは、データの破損などの問題を回避し、データベースのデータの整合性を維持するための設定ガイドラインに影響します。 その結果、v5.11 および v6.02 で提供されている特定の関数は v7 ではサポートされなくなり、移行後に適応させる必要があります。 お客様は、ワークフローを含むすべての設定をテストする必要があります。
+* Adobe Campaign v7 は、以前のバージョンよりも安全です。これは、データの破損などの問題を回避し、データベースのデータの整合性を維持するための設定ガイドラインに影響します。 お客様は、ワークフローを含むすべての設定をテストする必要があります。
 
 その他の前提条件は、 [このページ](../../migration/using/before-starting-migration.md).
 

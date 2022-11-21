@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: rollback
 exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
-source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 
 ロールバック手順は、Campaign の最初のバージョンに応じて異なります。
 
-## Campaign v6.1 への復元
-
 v7 から v6.1 を復元する手順を次に示します。
 
 1. データベースのバックアップを復元し、復元します。
@@ -32,24 +30,28 @@ v7 から v6.1 を復元する手順を次に示します。
 1. IIS を再起動します。
 1. Adobe Campaign v6.1 サービスを再起動します。
 
-## Campaign v6.02 に復元
+<!--
+	
+## Restore to Campaign v6.02
 
-v7 から v6.02 を復元する手順を次に示します。
+Here is the procedure to restore a v6.02 from a v7.
 
-1. データベースのバックアップを復元し、復元します。
-1. 次を回復します。 **Neolane v6.back** フォルダー (**nl6.back** （Linux の場合）、名前をに変更します。 **Neolane v6** (**nl6** Linux の場合 )、を元の場所に戻します。
-1. IIS Web サイトレベルでAdobe Campaign v6.02 の統合を再確立するために、リスンポートを再割り当てして IIS を再設定します。
-1. Adobe Campaign v6.1 サービスを停止します。
-1. IIS を再起動します。
-1. Adobe Campaign v6.02 サービスを再起動します。
+1. Recover the backup of the database and restore it.
+1. Recover the **Neolane v6.back** folder (**nl6.back** in Linux), rename it to **Neolane v6** (**nl6** in Linux) and restore it to its original location.
+1. Re-configure IIS by re-assigning the listen ports to re-establish the integration of Adobe Campaign v6.02 at IIS Website level.
+1. Stop the Adobe Campaign v6.1 service.
+1. Re-start IIS.
+1. Restart the Adobe Campaign v6.02 service.
 
-## Campaign v5.11 への復元
+## Restore to Campaign v5.11
 
-v7 から v5.11 を復元する手順を次に示します。
+Here is the procedure to restore a v5.11 from a v7.
 
-1. データベースのバックアップを復元し、復元します。
-1. 次を回復します。 **Neolane v5.back** フォルダー (**nl5.back** （Linux の場合）、名前をに変更します。 **Neolane v5** (**nl5** Linux の場合 )、を元の場所に戻します。
-1. リスンポートを再割り当てして IIS を再設定し、IIS Web サイトレベルで Neolane v5 の統合を再確立します。
-1. Adobe Campaign v7 サービスを停止します。
-1. IIS を再起動します。
-1. Adobe Campaign v5 サービスを再起動します。
+1. Recover the backup of the database and restore it.
+1. Recover the **Neolane v5.back** folder (**nl5.back** in Linux), rename it to **Neolane v5** (**nl5** in Linux) and restore it to its original location.
+1. Re-configure IIS by re-assigning the listen ports to re-establish the integration of Neolane v5 at IIS Website level.
+1. Stop the Adobe Campaign v7 service.
+1. Re-start IIS.
+1. Re-start the Adobe Campaign v5 service.
+
+-->

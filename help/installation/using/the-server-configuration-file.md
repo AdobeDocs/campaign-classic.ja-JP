@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: acbb2144906841a6da59314b84b3faf5863cf9d6
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '7957'
+source-wordcount: '7979'
 ht-degree: 39%
 
 ---
@@ -225,7 +225,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
   </tr> 
   <tr> 
    <td> vaultUrl<br /> </td> 
-   <td> HashiCorp Vault の URL <br /> </td> 
+   <td> Hashicorp Vault URL <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -780,7 +780,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> defaultNameSpace<br /> </td> 
-   <td> 新しいエンティティの作成時に使用されるデフォルトの名前空間.<br /> </td> 
+   <td> 新しいエンティティを作成するときに使用されるデフォルトの名前空間.<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'cus'<br /> </td> 
   </tr> 
@@ -856,7 +856,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
   </tr> 
   <tr> 
    <td> url<br /> </td> 
-   <td> 文書変換サーバーの URL.<br /> </td> 
+   <td> ドキュメント変換サーバーの URL.<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'http://localhost:8080/nl/jsp/ooconv.jsp'<br /> </td> 
   </tr> 
@@ -1803,7 +1803,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxAgeSec<br /> </td> 
-   <td> 最大メッセージ保持時間。準備されたメッセージがスロットルによって送信されなかった場合やターゲット MTA に接続できなかった場合、メッセージは破棄され、次の再試行で処理されます。<br /> </td> 
+   <td> 最大メッセージ保持時間. 準備されたメッセージがスロットルによって送信されなかった場合やターゲット MTA に接続できなかった場合、メッセージは破棄され、次の再試行で処理されます。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -3321,6 +3321,12 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 100<br /> </td> 
   </tr> 
   <tr> 
+   <td> showSourceIP<br /> </td> 
+   <td> false に設定した場合、r/test から返される応答の sourceIP の値は空の文字列になります。 <br /> </td> 
+   <td> ブール値<br /> </td> 
+   <td> true<br /> </td> 
+  </tr> 
+  <tr> 
    <td> startRedirection<br /> </td> 
    <td> リダイレクトサービスを開始します。<br /> </td> 
    <td> ブール値<br /> </td> 
@@ -3422,7 +3428,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> アフィニティ<br /> </td> 
+   <td> 親和性<br /> </td> 
    <td> アフィニティ<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 

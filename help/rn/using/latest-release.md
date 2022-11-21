@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 52e9925932e9b802a92f317b0950a1e933499b56
+source-git-commit: f94d7e2cddd75d50cb21973a62ec223f2344edf1
 workflow-type: tm+mt
-source-wordcount: '2010'
-ht-degree: 100%
+source-wordcount: '2656'
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,67 @@ ht-degree: 100%
 
 このページには、**最新の Campaign Classic v7 リリース**&#x200B;の新機能、改善点および修正点が記載されています。新しいビルドごとに、色分けされたステータスが表示されます。Campaign Classic v7 のビルドステータスについて詳しくは、[このページ](rn-overview.md)を参照してください。
 
-## ![](assets/do-not-localize/limited_2.png) リリース 7.3.1 - ビルド 9352 {#release-7-3-1}
+## ![](assets/do-not-localize/green_2.png) リリース 7.3.2 - ビルド 9356 {#release-7-3-2}
+
+_2022 年 11 月 22 日_
+
+**互換性の更新**
+
+* Microsoft Internet Explorer 11 の提供終了後、クライアントコンソールのダッシュボードのHTMLレンダリングエンジンは、Edge Chromium を使用するようになりました。 （NEO-20741）
+
+<!--
+**Deprecated features**
+
+* Social Marketing with Facebook is now deprecated. You can still use Twitter integration to post on social media, or work with Adobe to create a custom channel.
+
+* ACS Connector (prime offering) is now deprecated. You can use Campaign export/import capabilities to extract and inject data in both products.
+
+Learn more in the [Deprecated and removed features page](deprecated-features.md).
+
+-->
+
+**改善点**
+
+* Google BigQuery コネクタがブール値フィールドを完全にサポートするようになりました。 （NEO-49181）
+* IMS Cookie の有効期間を `Configuration for the redirection service` serverConf.xml ファイルのセクションに含める必要があります。 これは、次の Cookie に適用されます。 `uuid230`, `nllastdelid` および `AMCV_` (NEO-42541)
+* IP は、 `showSourceIP` を serverConf.xml ファイルのリダイレクトノードで false に設定します。 [詳細を表示](../../installation/using/the-server-configuration-file.md#redirection-redirection)(NEO-46656)
+
+**その他の変更**
+
+* Web ログが改善されました。logonEscalation の警告は、管理者権限を持つユーザーに対してのみ表示されるようになりました。 （NEO-47167）
+* エラーを回避するには、 **ヒートマップサービスワークフローのデータを収集** (collectDataHeatMapService) がデフォルトで停止されるようになりました。 （NEO-33959）
+* キャンペーンダッシュボードの CPU 使用率を最適化するために、様々な改善が実装されました。 （NEO-46417）
+* クラッシュを防ぐために、 loadLibraryDebug JS メソッドが削除されました。 （NEO-46968）
+* 残りの log4j ライブラリへの参照は、Windows での Campaign のインストールから削除されました。 （NEO-44851）
+
+**パッチ**
+
+* を使用できない問題を修正しました。 **選択した行を結合** ワークフローオプション。 （NEO-48488）
+* を修正しました。 **成功** Adobe Campaign Enhanced MTA を使用した場合に、配信インジケーターが正しく更新されない問題を修正しました。 （NEO-50462）
+* E メール配信でコンテンツの承認をリセットする際に、承認を取り消すことができなかった問題を修正しました。 （NEO-44259）
+* 次の問題を修正しました： **配信の承認** ボタンが表示されない。 （NEO-47547）
+* 配信の「HTML」タブで、大きなHTMLコードで発生する可能性があるパフォーマンスの問題を修正しました。 （NEO-47440）
+* FeatureFlag_GZIP_Compression オプションが有効な場合に、MID インスタンスで配信ログのステータスを更新する際に影響を及ぼす問題を修正しました。 （NEO-49183）
+* トークンベースの認証を使用している場合に、iOSモバイルアプリ通知を実行インスタンスから送信できない問題を修正しました。 （NEO-45961）
+* の **配信品質の更新** 同期する broadlog が多すぎる場合に停止したワークフロー (deliverabilityUpdate)。 （NEO-48287）
+* Message Center の同期ワークフロー (mcSynch) がブロックされるイベントタイプの問題を修正しました。
+* を追加する際にエラーが発生する可能性がある問題を修正しました。 **開封した受信者** 指標 (estimatedRecipientOpen) **クエリ** ワークフローアクティビティ。 （NEO-46665）
+* の **請求** Message Center のコントロールおよび実行パッケージを同じインスタンスにインストールした場合に失敗するワークフロー。 （NEO-47674）
+* の **請求** プライマリキーが整数ではなく文字列として定義されたテーブルがある場合に失敗したワークフロー。 （NEO-46254）
+* ワークフロー名が長すぎる場合のヒートマップフィルターの問題を修正しました。 （NEO-46301）
+* SnowflakeFDA コネクタの 7.3.1 で発生した問題を修正しました。エンリッチメント中に「0 または 1 の基数単純結合」を使用すると、レコードが削除されていました。 （NEO-48737）
+* 並べ替えパラメーターをSnowflake **分割** ワークフローアクティビティ。 （NEO-45899）
+* 外部アカウント設定を保存できない場合がある問題を修正しました。 パーサー機能 (SnowflakeとGoogle BigQuery) を備えたコネクタの接続テスト後、外部アカウントが自動的に保存されるようになりました。 （NEO-47636）
+* 時間データ型を **データ更新** MSSQL のワークフローアクティビティ。 （NEO-47763）
+* エンジンのタイムゾーンが設定されていない（MSSQL に固有の）場合に MTA プロセスがクラッシュする問題を修正しました。 （NEO-46619）
+* 画像ノード (img) にパーソナライゼーションフィールドを含む URL が含まれている場合のHTMLファイルのインポートの問題を修正しました。 （NEO-48396）
+* インスタンスに接続しようとすると HTTP 500 エラーが修正され、 `limit` ノードが serverConf.xml ファイルで設定されていませんでした。
+* 以下のような特定の関数を使用すると「文字セットの不一致」エラーが発生する可能性がある問題を修正しました。 `to_nclob` を設定します。 （NEO-49361）
+* nmsDeliveryMapping フォルダーの読み取りアクセス権を持つユーザーがキャンペーンまたはワークフローを実行しようとするとエラーが発生する問題を修正しました。 （NEO-48230）
+* を修正しました。 `JSPContext.sqlExecWithOneParam` 関数が動作しない。 （NEO-50066）
+* 様々なリダイレクトエラーを修正しました。 （NEO-50030）
+
+## ![](assets/do-not-localize/orange_2.png) リリース 7.3.1 - ビルド 9352 {#release-7-3-1}
 
 _2022年7月1日（PT）_
 

@@ -6,9 +6,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 4fd69aa28c2e9325f4738ec571a6632c42ec26b8
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1495'
 ht-degree: 29%
 
 ---
@@ -236,13 +236,25 @@ Adobe Campaignサーバーにアクセスする可能性が高いプロキシの
 
 * 調査、webApp、レポートを作成（実際にはプレビュー）する必要があるマーケティングユーザーまたは管理者が使用する IP に対してのみ、allowDebug を true に設定します。このフラグを使用すると、これらの IP でリレールールが表示され、デバッグできるようになります。
 
+   * allowDebug を false に設定すると、出力は次のようになります。
+
+      ```
+      <redir status='OK' date='...' sourceIP='...'/>
+      ```
+
+   * allowDebug が true に設定されている場合の出力は次のようになります。
+
+      ```
+      <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
+      ```
+
 * allowEmptyPassword、allowUserPassword、allowSQLInjection は決して true に設定しないでください。これらの属性は、v5 や v6.0 からの移行のためだけにあります。
 
    * **allowEmptyPassword** を使用すると、オペレーターは空のパスワードを設定できます。この属性を使用する場合、すべてのオペレーターに所定の期限までにパスワードを設定するよう通知してください。この期限を経過したら、この属性を false に設定します。
 
    * **allowUserPassword** を使用すると、オペレーターは資格情報をパラメーターとして送信できます（この情報は、Apache、IIS、プロキシでログに記録されます）。この機能は、以前に API の使用を簡素化するために使用されていました。クックブック（または仕様）で、サードパーティのアプリケーションがこれを使用していないかをチェックできます。使用されている場合、API の使用方法を変更して、なるべく早くこの機能を削除するよう通知する必要があります。
 
-   * **allowSQLInjection** を使用すると、ユーザーは古い構文を使用した SQL インジェクションを実行できます。できるだけ早く、 [このページ](../../migration/using/general-configurations.md) を追加して、この属性を false に設定できるようにします。 /nl/jsp/ping.jsp?zones=true を使用すると、セキュリティゾーン設定をチェックできます。このページには、現在の IP のセキュリティ対策のアクティブステータス（これらのセキュリティフラグで計算）が表示されます。
+   * **allowSQLInjection** を使用すると、ユーザーは古い構文を使用した SQL インジェクションを実行できます。この属性は false に設定する必要があります。 /nl/jsp/ping.jsp?zones=true を使用すると、セキュリティゾーン設定をチェックできます。このページには、現在の IP のセキュリティ対策のアクティブステータス（これらのセキュリティフラグで計算）が表示されます。
 
 * HttpOnly cookie／useSecurityToken：**sessionTokenOnly** フラグを参照してください。
 

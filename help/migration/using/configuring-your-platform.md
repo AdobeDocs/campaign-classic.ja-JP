@@ -6,10 +6,10 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
-source-git-commit: 327f220d6700242308ef3738a38cc95b970e3f46
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '1985'
-ht-degree: 5%
+source-wordcount: '472'
+ht-degree: 3%
 
 ---
 
@@ -18,9 +18,6 @@ ht-degree: 5%
 ![](../../assets/v7-only.svg)
 
 Adobe Campaign v7 の大きな変更の一部には、特定の設定が必要です。 これらの設定は、移行の前または後に必要になる場合があります。
-
-Campaign v5 または v6 からの移行時にAdobe Campaign v7 で実行する詳細な設定は、 [このページ](general-configurations.md).
-
 
 移行中に、 **NmsRecipient** スキーマ定義からテーブルが再構築されます。 このテーブルの SQL 構造に対してAdobe Campaign以外で行われた変更は失われます。
 
@@ -35,35 +32,46 @@ Campaign v5 または v6 からの移行時にAdobe Campaign v7 で実行する�
 
 Adobe Campaign v7 に移行する際に、次の要素を設定する必要があります。 これらの要素は、 **postupgrade**.
 
-* タイムゾーン
+<!--
 
-   v5.11 プラットフォームからの移行中に、ポストアップグレード中に使用するタイムゾーンを指定する必要があります。
+  * Timezones
 
-   「マルチタイムゾーン」モードを使用する場合は、 [この節](../../migration/using/general-configurations.md#time-zones).
+  During a migration from a v5.11 platform, you must specify the timezone to use during the postupgrade.
 
-   oracleをデータベースとして使用する場合は、アプリケーションサーバーとOracleサーバーの間で、データベースタイムゾーンファイルが正しく同期されていることを確認します。 [詳細情報](../../migration/using/general-configurations.md#oracle)
+  If you wish to use the "multi timezone" mode, refer to [this section](../../migration/using/general-configurations.md#time-zones).
 
-* セキュリティゾーン
+  If you use Oracle as a database, check that the Oracle timezone files have properly been synched between the application server and the database server. [Learn more](../../migration/using/general-configurations.md#oracle)
 
-   セキュリティ上の理由により、Adobe Campaignプラットフォームは、デフォルトではアクセスできなくなりました。セキュリティゾーンを設定する必要があります。この場合、移行前にユーザー IP アドレスを収集する必要があります。 [詳細情報](../../migration/using/general-configurations.md#security)
+* Security zones
 
-* 構文
+  For security reasons, the Adobe Campaign platform is no longer accessible by default: you must configure the security zones, which requires collecting the user IP addresses before the migration. [Learn more](../../migration/using/general-configurations.md#security)
 
-   一部の JavaScript コードは、新しいインタープリターを使用するため、v7 バージョンでは受け入れられなくなる場合があります。 [詳細情報](../../migration/using/general-configurations.md#javascript)。
+* Syntax
 
-   同様に、SQLData ベースの構文を置き換える新しい構文がAdobe Campaign v7 で導入されました。 コード要素をこの構文で使用する場合は、適応させる必要があります。 [詳細情報](../../migration/using/general-configurations.md#sqldata)
+  Some Javascript code may no longer accepted in the v7 version, due to the use of a new interpreter. [Learn more](../../migration/using/general-configurations.md#javascript).
+
+  Similarly, a new syntax is introduced in Adobe Campaign v7 to replace the SQLData based syntax. If you use code elements with this syntax, you must adapt them. [Learn more](../../migration/using/general-configurations.md#sqldata)
+
+  -->
 
 * パスワード
 
    次の項目を設定する必要があります。 **管理者** および **内部** パスワード。 [詳細情報](../../migration/using/before-starting-migration.md#user-passwords)
 
-* ツリー構造
+<!--
+* Tree structure
 
-   v5.11 プラットフォームから移行する場合は、Adobe Campaign v6 の規則に従ってツリー構造フォルダーを再編成する必要があります。 [詳細情報](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11)。
+  If migrating from a v5.11 platform, you must reorganize the tree structure folders according to Adobe Campaign v6 norms. [Learn more](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11).
 
-* インタラクション
+-->
 
-   Campaign v6.02 から移行し、  **インタラクション** モジュールの場合、v7 に存在しなくなった 6.02 スキーマ参照をすべて削除する必要があります。 [詳細情報](../../migration/using/general-configurations.md#interaction)
+<!--
+
+* Interaction
+
+  If you are migrating from Campaign v6.02 and using the  **Interaction** module, you must delete all 6.02 schema references that no longer exist in v7. [Learn more](../../migration/using/general-configurations.md#interaction)
+
+-->
 
 ## 移行後 {#after-the-migration}
 
@@ -79,84 +87,100 @@ Adobe Campaign v7 に移行する際に、次の要素を設定する必要が�
 
 * 構文
 
-   構文に関するエラーが発生した場合は、アップグレード後に、 **allowSQLInjection** オプション **serverConf.xml** ファイルを書き換える時間を提供します。 コードを変更したら、必ずセキュリティを再アクティブ化してください。 [詳細情報](../../migration/using/general-configurations.md#sqldata)
+   構文に関するエラーが発生した場合は、アップグレード後に、 **allowSQLInjection** オプション **serverConf.xml** ファイルを書き換える時間を提供します。 コードを変更したら、必ずセキュリティを再アクティブ化してください。
 
 * 競合
 
-   移行はポストアップグレードを通じて実行され、レポート、フォーム、Web アプリケーションに競合が表示される場合があります。 これらの競合は、コンソールから解決できます。 [詳細情報](../../migration/using/general-configurations.md#conflicts)
+   移行はポストアップグレードを通じて実行され、レポート、フォーム、Web アプリケーションに競合が表示される場合があります。 これらの競合は、コンソールから解決できます。
 
 * Tomcat
 
-   インストールフォルダーをカスタマイズした場合は、移行後に正しく更新されていることを確認してください。 [詳細情報](../../migration/using/general-configurations.md#tomcat)
+   インストールフォルダーをカスタマイズした場合は、移行後に正しく更新されていることを確認してください。
 
 * レポート
 
-   すべての標準レポートで、現在 v6.x レンダリングエンジンが使用されています。 レポートに JavaScript コードを追加していた場合は、一部の要素が影響を受ける可能性があります。 [詳細情報](../../migration/using/general-configurations.md#reports)
+   すべての標準レポートで、現在 v6.x レンダリングエンジンが使用されています。 レポートに JavaScript コードを追加していた場合は、一部の要素が影響を受ける可能性があります。
 
 * Web アプリケーション
 
-   アップグレード後に、識別された Web アプリケーションへの接続で問題が発生した場合は、 **allowUserPassword** および **sessionTokenOnly** オプション **serverConf.xml** ファイル。 セキュリティ上の問題を回避するには、問題が解決した後に、次の 2 つのオプションを再度アクティブ化する必要があります。 [詳細情報](../../migration/using/general-configurations.md#identified-web-applications)
+   アップグレード後に、識別された Web アプリケーションへの接続で問題が発生した場合は、 **allowUserPassword** および **sessionTokenOnly** オプション **serverConf.xml** ファイル。 セキュリティ上の問題を回避するには、問題が解決した後に、次の 2 つのオプションを再度アクティブ化する必要があります。
 
-   Web アプリケーションのタイプと設定に応じて、追加の操作を実行して、Web アプリケーションが正しく機能するようにする必要があります。 [詳細情報](../../migration/using/general-configurations.md#web-applications)
+   Web アプリケーションのタイプと設定に応じて、追加の操作を実行して、Web アプリケーションが正しく機能するようにする必要があります。
 
-   v5.11 プラットフォームから移行する場合は、追加の設定を実行する必要があります。 [詳細情報](../../migration/using/general-configurations.md#specific-configurations-in-v5-11.md)
+<!--
+  If migrating from a v5.11 platform, additional configurations must be carried out. [Learn more](../../migration/using/general-configurations.md#specific-configurations-in-v5-11.md)
 
-* セキュリティゾーン
+* Security zones
 
-   サーバーを起動する前に、セキュリティゾーンを設定する必要があります。 [詳細情報](../../installation/using/security-zones.md) および [こちらを参照](../../migration/using/general-configurations.md#security)
+  Before starting the server, you must configure the security zones. [Learn more](../../installation/using/security-zones.md) and [see here](../../migration/using/general-configurations.md#security)
 
-* ワークフロー
+-->
 
-   v5.11 プラットフォームから移行する場合は、 workflows フォルダーを確認する必要があります。 [詳細情報](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11)
+<!--
 
-* トラッキング
+* Workflows
 
-   v5.11 プラットフォームから移行する場合は、トラッキングモードを設定する必要があります。 [詳細情報](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11)
+  If migrating from a v5.11 platform, you must check the workflows folder. [Learn more](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11)
+
+-->
+
+<!--
+
+* Tracking
+
+  If migrating from a v5.11 platform, you must configure the tracking mode. [Learn more](../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11)
+
+-->
 
 * インタラクション
 
-   次を使用する場合、 **インタラクション**&#x200B;を使用する場合、移行後にパラメーターを調整する必要があります。 [詳細情報](../../migration/using/general-configurations.md#interaction)
+   次を使用する場合、 **インタラクション**&#x200B;を使用する場合、移行後にパラメーターを調整する必要があります。
 
-* ダッシュボード
+<!--
 
-   クライアントエラーが表示された場合は、新しいAdobe Campaign v7 コードでダッシュボードを更新するか、次のファイルを v6.02 インスタンスから v7 インスタンスに手動でコピーする必要があります。
+* Dashboards
 
-   ```
-   v6.02 files and spaces:
-   /usr/local/neolane/nl6/datakit/xtk/eng/css/dropDownMenu.css
-   /usr/local/neolane/nl6/datakit/xtk/eng/js/client/dropDownMenu.js
-   v6.1 files and spaces:
-   /usr/local/neolane/nl6/deprecated/xtk/css/dropDownMenu.css
-   /usr/local/neolane/nl6/deprecated/xtk/js/client/dropDownMenu.js  
-   ```
+  If a client error appears, you have to either update your dashboards with the new Adobe Campaign v7 code, or manually copy the following files from the v6.02 instance to the v7 instance:
 
+  ```
+  v6.02 files and spaces:
+  /usr/local/neolane/nl6/datakit/xtk/eng/css/dropDownMenu.css
+  /usr/local/neolane/nl6/datakit/xtk/eng/js/client/dropDownMenu.js
+  v6.1 files and spaces:
+  /usr/local/neolane/nl6/deprecated/xtk/css/dropDownMenu.css
+  /usr/local/neolane/nl6/deprecated/xtk/js/client/dropDownMenu.js  
+  ```
 
-## v5.11 から v7 までの特定の設定{#specific-configurations-in-v5-11}
+-->
+
+<!--
+
+## Specific configurations from a v5.11 to v7{#specific-configurations-in-v5-11}
 
 ![](../../assets/v7-only.svg)
 
-この節では、v5.11 からの移行時に必要となる追加の設定について詳しく説明します。また、 [一般設定](../../migration/using/general-configurations.md) 」セクションに入力します。
+This section details the additional configuration required when migrating from v5.11. You should also configure the settings detailed in the [General configurations](../../migration/using/general-configurations.md) section.
 
-### web アプリケーション {#web-applications-v5}
+### Web applications {#web-applications-v5}
 
-移行中は、次の警告が自動的に表示されます。
+The following warning will be displayed automatically during migration:
 
 ```
 The webApp ids have been modified during the migration process. Please make sure to check your scripts/css for broken compatibility (any client side JavaScript or css dealing directly with another element through its id is impacted). See file 'c:\svn\602\nl\build\ncs\var\upgrade/postupgrade/webAppsMigration_*************.txt' for details about the references that were automatically updated, if any.
 ```
 
-Web アプリケーションの一部のコンポーネント（例えば、様々な数式フィールド）には、 @id属性が含まれています。 これらは Web アプリケーションの XML コードで使用され、同じ方法で生成されなくなりました。 これらはインターフェイスには表示されず、通常は使用しないでください。 ただし、場合によっては、 @id属性を使用して、Web アプリケーションのレンダリングをパーソナライズすることができます。例えば、スタイルシートを介したり、JavaScript コードを使用したりします。
+Some components of web applications, for instance the various formula fields, have @id attributes. These are used in the XML code of web applications and are no longer generated in the same way. They are not visible in the interface and you must not normally use them. However, in some cases, @id attributes may have been used to personalize the rendering of web applications, for instance via a stylesheet or using JavaScript code.
 
-移行中に、 **必須** 警告で指定したログファイルのパスを確認します。
+During migration, you **must** check the log file path specified in the warning:
 
-* **ファイルが空ではありません**:移行前に記録された不整合と、まだ存在する問題を懸念する警告が含まれます。 これは、存在しない ID を参照する Web アプリケーションの JavaScript コードです。 それぞれのエラーを確認し、修正する必要があります。
-* **ファイルが空です**:これは、Adobe Campaignが問題を検出していないことを意味します。
+* **The file is not empty**: it contains warnings which concern inconsistencies recorded before migration and which still exist. This can be JavaScript code in a web application which references a non-existent ID. Each error must be checked and corrected.
+* **The file is empty**: this means that Adobe Campaign has not detected any issues.
 
-ファイルが空かどうかに関わらず、これらの ID が他の場所での設定に使用されていないことを確認する必要があります（その場合は設定を適応させます）。
+Whether the file is empty or not, you must check that these IDs are not used for configuration elsewhere (and adapt configuration if this is the case).
 
-### ワークフロー {#workflows}
+### Workflows {#workflows}
 
-Adobe Campaignインストールディレクトリの名前が変更されたので、移行後に一部のワークフローが機能しない場合があります。 ワークフローがそのアクティビティの 1 つで nl5 ディレクトリを参照している場合、エラーが発生します。 この参照を次で置き換えます。 **ビルド**. SQL クエリを実行して、これらのワークフローを識別できます（PostgreSQL の例）。
+Since the name of the Adobe Campaign installation directory has changed, some workflows may not work after the migration. If a workflow references the nl5 directory in one of its activities, this will raise an error. Replace this reference with **build**. You can run an SQL query to identify these workflows (PostgreSQL example):
 
 ```
 SELECT   iWorkflowId, sInternalName, sLabel 
@@ -168,9 +192,9 @@ WHERE mData LIKE '%nl5%';
 
 >[!CAUTION]
 >
->MySQL は、このエンジンを使用してバージョン 6.02 または 5.11 から移行する際に、v7 でメインデータベースエンジンとしてのみサポートされます。
+>MySQL is only supported in v7 as the main database engine when migrating from version 6.02 or 5.11 using this engine.
 
-MySQL は、デフォルトではタイムゾーンを管理しません。 タイムゾーン管理を有効にするには、次のコマンドを実行します。
+MySQL does not manage timezones by default. To enable timezone management, run the following command:
 
 ```
 mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
@@ -178,19 +202,19 @@ mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
 
 >[!NOTE]
 >
->詳しくは、 [https://dev.mysql.com/doc/refman/8.0/en/time-zone-support.html](https://dev.mysql.com/doc/refman/8.0/en/time-zone-support.html) ページ。
+>For more information, refer to the [https://dev.mysql.com/doc/refman/8.0/en/time-zone-support.html](https://dev.mysql.com/doc/refman/8.0/en/time-zone-support.html) page.
 
-データベース構造に変更が加えられた場合（例えば、特定のインデックスの作成、SQL ビューの作成など）、移行時に注意が必要です。 実際、移行手順との非互換性から、特定の変更が生成される場合があります。 例えば、次を含む SQL ビューを作成します。 **タイムスタンプ** フィールドは **usetimestamptz** オプション。 したがって、次の推奨事項に従うことをお勧めします。
+If modifications have been made to the database structure, during configuration for example (creating specific indexes, creating SQL views, etc.), certain precautions should be taken when migrating. Indeed, certain modifications can be generated from incompatibilities with the migration procedure. For example, creating SQL views containing **Timestamp** fields are not compatible with the **usetimestamptz** option. We therefore advise you to follow the recommendations below:
 
-1. 移行を開始する前に、データベースをバックアップします。
-1. SQL の変更を削除します。
-1. アップグレード後の実行
-   >[!NOTE]
-   >
-   >次に示す移行手順に従う必要があります。 [この節](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md).
-1. SQL の変更を再統合します。
+1. Before starting the migration, back up the database.
+1. Delete SQL changes.
+1. Perform the postupgrade
+    >[!NOTE]
+    >
+    >You must follow the migration steps presented in [this section](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md).
+1. Reintegrate SQL changes.
 
-この例では、 **NmcTrackingLogMessages** ビューが作成され、これには次のアイテムが含まれています： **タイムスタンプ** フィールド名 **tslog**. この場合、移行手順は失敗し、次のエラーメッセージが表示されます。
+In this example, a **NmcTrackingLogMessages** view had been created and this has a **Timestamp** field named **tslog**. In this case, the migration procedure fails and the following error message appears:
 
 ```
 2011-10-04 11:57:51.804Z B67B28C0 1 info log Updating table 'NmcTrackingLogMessages'
@@ -198,94 +222,94 @@ mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
 2011-10-04 11:57:51.804Z B67B28C0 1 error log SQL order 'ALTER TABLE NmcTrackingLogMessages ALTER COLUMN tsLog TYPE TIMESTAMPTZ' was not executed. (iRc=-2006)
 ```
 
-アップグレード後の動作を確実におこなうには、移行前にビューを削除し、移行後に再作成し、TIMESTAMP WITH TIMEZONE モードに適応させる必要があります。
+To make sure the postupgrade works, you must delete the view before the migration and re-create it after the migration while adapting it to the TIMESTAMP WITH TIMEZONE mode.
 
-### トラッキング {#tracking}
+### Tracking {#tracking}
 
-トラッキング式が変更されました。 移行時に、古い式 (v5) が新しい式 (v7) に置き換えられます。 Adobe Campaign v5 でパーソナライズされた数式を使用する場合、この設定はAdobe Campaign v7 (**NmsTracking_ClickFormula** および **NmsTracking_OpenFormula** オプション )。
+The tracking formula has been modified. When migrating, the old formula (v5) is replaced by the new one (v7). If you use a personalized formula in Adobe Campaign v5, this configuration has to be adapted in Adobe Campaign v7 (**NmsTracking_ClickFormula** and **NmsTracking_OpenFormula** options).
 
-Web トラッキング管理も変更されました。 v7 への移行が完了したら、デプロイウィザードを起動して、Web トラッキングの設定を完了する必要があります。
+Web tracking management has also been modified. Once migration to v7 has been carried out, you must start the deployment wizard to finish configuring the web tracking.
 
-![](assets/migration_web_tracking.png)
+  ![](assets/migration_web_tracking.png)
 
-次の 3 つのモードを選択できます。
+Three modes are available:
 
-* **セッション Web トラッキング**:この **[!UICONTROL リード]** パッケージがインストールされていません。このオプションはデフォルトで選択されています。 このオプションは、パフォーマンスの点で最も理想的で、トラッキングログのサイズを制限できます。
-* **永続的な Web トラッキング**
-* **匿名 Web トラッキング**:この **[!UICONTROL リード]** パッケージがインストールされている場合、このオプションはデフォルトで選択されています。 リソースを最も消費するオプションです。 上記のように、 **sSourceId** 列のインデックスを作成する必要があります ( トラッキングテーブル内で **CrmIncomingLead** 表 )。
-
->[!NOTE]
->
->これらの 3 つのモードについて詳しくは、 [この節](../../configuration/using/about-web-tracking.md).
-
-### Adobe Campaign v7 ツリー構造 {#campaign-vseven-tree-structure}
-
-移行中、ツリー構造は v7 標準に基づいて自動的に再編成されます。 新しいフォルダが追加され、古いフォルダが削除され、その内容が「移動する」フォルダに配置されます。 移行後に、このフォルダー内の項目をすべてチェックする必要があります。また、コンサルタントは、このフォルダーを保持するか、各項目を削除するかを決定する必要があります。 保持する項目は、適切な場所に移動する必要があります。
-
-ナビゲーションツリーの自動移行を無効にするオプションが追加されました。 この操作は手動で行われました。 古いフォルダーは削除されず、新しいフォルダーは追加されません。 このオプションは、標準の v5 ナビゲーションツリーで、多くの変更がおこなわれている場合にのみ使用してください。 移行前に、コンソールにオプションを追加します。 **[!UICONTROL 管理/オプション]** ノード：
-
-* 内部名：NlMigration_KeepFolderStructure
-* データタイプ：整数
-* 値（テキスト） :1
-
-このオプションを使用する場合、移行後に古いフォルダーを削除し、新しいフォルダーを追加して、必要なチェックをすべて実行する必要があります。
-
-**新しいフォルダーのリスト**:
-
-移行後に、次のフォルダーを追加する必要があります。
-
-| 内部名 | ラベル | 条件 |
-|---|---|---|
-| nmsAutoObjects | 自動作成されたオブジェクト | - |
-| nmsCampaignAdmin | キャンペーン管理 | - |
-| nmsCampaignMgt | キャンペーン管理 | - |
-| nmsCampaignRes | キャンペーン管理 | - |
-| nmsModels | テンプレート | - |
-| nmsOnlineRes | オンライン | - |
-| nmsProduction | Production（本番） | - |
-| nmsProfilProcess | プロセス | - |
-| xtkDashboard | ダッシュボード | - |
-| xtkPlatformAdmin | プラットフォーム | - |
-| nmsLocalOrgUnit | 組織単位 | - |
-| nmsMRM | MRM | MRM がインストールされました |
-| nmsOperations | キャンペーン | インストール済みキャンペーン |
-
-**古いフォルダーのリスト**:
-
-移行後に削除される古いフォルダーは次のとおりです。
+* **Session web tracking**: If the **[!UICONTROL Leads]** package has not been installed, this option is selected by default. This option is the most ideal in terms of performance and it allows you to limit the size of the tracking logs.
+* **Permanent Web tracking**
+* **Anonymous Web Tracking**: If the **[!UICONTROL Leads]** package is installed, this option is selected by default. It is the most resource-consuming option. As above, the **sSourceId** column must be indexed (in the tracking table and the **CrmIncomingLead** table).
 
 >[!NOTE]
 >
->古いフォルダーの内容全体をチェックする必要があり、項目ごとに、コンサルタントがそのフォルダーを保持するか削除するかを決定します。 保持する項目は、適切な場所に移動する必要があります。
+>For more information on these three modes, refer to [this section](../../configuration/using/about-web-tracking.md).
 
-| 内部名 | ラベル | 条件 |
+### Adobe Campaign v7 tree structure {#campaign-vseven-tree-structure}
+
+During migration, the tree structure is automatically reorganized based on the v7 standards. The new folders are added, the obsolete folders are deleted, and their content is placed in the "To move" folder. All items in this folder must be checked after the migration, and the consultant has to decide to either keep it or delete each one. Items to be kept then have to be moved to the right place.
+
+An option has been added for disabling the automatic migration of the navigation tree. This operation is now manual. Obsolete folders are not deleted and new folders are not added. This option should only be used if the out-of-the-box v5 navigation tree has undergone too many changes. Add the option to the console, before migrating, in the **[!UICONTROL Administration > Options]** node:
+
+* Internal name: NlMigration_KeepFolderStructure
+* Data type: Integer
+* Value (text): 1
+
+If you use this option, after migration you will have to delete obsolete folders, add the new folders and run all necessary checks.
+
+**List of new folders**:
+
+The following folders need to be added after the migration:
+
+| Internal name | Label | Condition |
 |---|---|---|
-| nmsAdministration | 管理 | - |
-| nmsDeliveryMgt | キャンペーンの実行 | - |
-| ncmContent | コンテンツ管理 | Content Manager がインストールされました |
-| ncmForm | 入力フォーム | Content Manager がインストールされました |
-| ncmImage | 画像 | Content Manager がインストールされました |
-| ncmJavascript | JavaScript コード | Content Manager がインストールされました |
-| ncmJst | JavaScript テンプレート | Content Manager がインストールされました |
-| ncmParameters | 設定 | Content Manager がインストールされました |
-| ncmSrcSchema | データスキーマ | Content Manager がインストールされました |
-| ncmStylesheet | XSL スタイルファイル | Content Manager がインストールされました |
-| nmsAdminPlan | 管理 | インストール済みキャンペーン |
-| nmsResourcePlan | リソース | インストール済みキャンペーン |
-| nmsResourcesModels | テンプレート | インストール済みキャンペーン |
-| nmsRootPlan | キャンペーン管理 | インストール済みキャンペーン |
-| nmsOperator | マーケティングオペレーター | MRM がインストールされました |
+| nmsAutoObjects | Objects created automatically | - |
+| nmsCampaignAdmin | Campaign management | - |
+| nmsCampaignMgt | Campaign management | - |
+| nmsCampaignRes | Campaign management | - |
+| nmsModels | Templates | - |
+| nmsOnlineRes | Online | - |
+| nmsProduction | Production | - |
+| nmsProfilProcess | Processes | - |
+| xtkDashboard | Dashboards | - |
+| xtkPlatformAdmin | Platform | - |
+| nmsLocalOrgUnit | Organizational units | - |
+| nmsMRM | MRM | MRM installed |
+| nmsOperations | Campaigns | Campaign installed |
+
+**List of obsolete folders**:
+
+The obsolete folders to be deleted after the migration are as follows:
+
+>[!NOTE]
+>
+>The entire content of the obsolete folders must be checked, and for each item the consultant decides whether to keep or delete it. The items to be kept must be moved to the appropriate place.
+
+| Internal name | Label | Condition |
+|---|---|---|
+| nmsAdministration | Administration | - |
+| nmsDeliveryMgt | Campaign execution | - |
+| ncmContent | Content management | Content Manager installed |
+| ncmForm | Input form | Content Manager installed |
+| ncmImage | Images | Content Manager installed |
+| ncmJavascript | JavaScript codes | Content Manager installed |
+| ncmJst | JavaScript templates | Content Manager installed |
+| ncmParameters | Configuration | Content Manager installed |
+| ncmSrcSchema | Data schemas | Content Manager installed |
+| ncmStylesheet | XSL style files | Content Manager installed |
+| nmsAdminPlan | Administration | Campaign installed |
+| nmsResourcePlan | Resources | Campaign installed |
+| nmsResourcesModels | Templates | Campaign installed |
+| nmsRootPlan | Campaign management | Campaign installed |
+| nmsOperator | Marketing operators | MRM installed |
 
 
-## v6.02 から v7 に固有の設定{#specific-configurations-in-v6-02}
+## Specific configurations from v6.02 to v7{#specific-configurations-in-v6-02}
 
 ![](../../assets/v7-only.svg)
 
-次の節では、v6.02 からの移行時に必要となる追加の設定について詳しく説明します。詳しくは、 [このページ](../../migration/using/general-configurations.md).
+The following section details the additional configuration required when migrating from v6.02. You should also configure the settings detailed in [this page](../../migration/using/general-configurations.md).
 
-### web アプリケーション {#web-applications-v6}
+### Web applications {#web-applications-v6}
 
-v6.02 から移行する場合、概要タイプの Web アプリケーションに関するエラーログが表示されることがあります。 エラーメッセージの例：
+If you are migrating from v6.02, error logs regarding overview-type web applications may appear. Error message examples:
 
 ```
 [PU-0006] Entity of type : 'xtk:entityBackupNew' and Id 'nms:webApp|taskOverview', expression '[SQLDATA[' was found : '...)) or (@id IN ([SQLDATA[select 
@@ -293,18 +317,20 @@ v6.02 から移行する場合、概要タイプの Web アプリケーション
 [PU-0006] Entity of type : 'nms:webApp' and Id 'taskOverview', expression '[SQLDATA[' was found : '...@owner-id] IN ([SQLDATA[select iGroupid...'. (iRc=-1)
 ```
 
-これらの Web アプリケーションは SQLData を使用しており、セキュリティが高まるので v7 との互換性がありません。 これらのエラーは、移行エラーにつながります。
+These web applications used SQLData and are not compatible with v7, due to heightened security. These errors will lead to a migration failure.
 
-これらの Web アプリケーションを使用しなかった場合は、次のクリーンアップスクリプトを実行し、ポストアップグレードを再実行します。
+If you didn't use these web applications, run the following cleanup script and rerun the postupgrade:
 
 ```
 Nlserver javascript -instance:[instance_name] -file [installation_path]/datakit/xtk/fra/js/removeOldWebApp.js
 ```
 
-これらの Web アプリケーションを変更済みで、v7 で引き続き使用する場合は、 **allowSQLInjection** 」オプションを使用し、アップグレード後に再起動します。 詳しくは、 [SQLData](../../migration/using/general-configurations.md#sqldata) の節を参照してください。
+If you have modified these web applications and would like to continue using them in v7, you must activate the **allowSQLInjection** option in your different security zones and re-start the postupgrade. Refer to the [SQLData](../../migration/using/general-configurations.md#sqldata) section for more on this.
 
 ### Message Center {#message-center}
 
-Message Center コントロールインスタンスの移行後は、トランザクションメッセージテンプレートを再公開して、機能させる必要があります。
+After a Message Center control instance migration, you must republish the transactional message templates for them to work.
 
-v7 では、実行インスタンス上のトランザクションメッセージテンプレートの名前が変更されました。 現在は、作成元のコントロールインスタンスに対応するオペレーター名のプレフィックスが付いています。例： **control1_template1_rt** ( **control1** は演算子の名前です )。 大量のテンプレートがある場合は、コントロールインスタンス上の古いテンプレートを削除することをお勧めします。
+In v7, the names of transactional message templates on execution instances have changed. They are currently prefixed by the operator name that corresponds to the control instance on which they are created, for example **control1_template1_rt** (where **control1** is the name of the operator). If you have a significant volume of templates, we recommend deleting old templates on control instances.
+
+-->

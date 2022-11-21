@@ -4,10 +4,10 @@ title: Campaign - Microsoft Dynamics CRM コネクタ
 description: Campaign とMicrosoft Dynamics の接続方法を学ぶ
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
-workflow-type: ht
-source-wordcount: '1132'
-ht-degree: 100%
+source-git-commit: 1a2e6a0bc754a1236f64b35e99c1be08f1066f75
+workflow-type: tm+mt
+source-wordcount: '1136'
+ht-degree: 99%
 
 ---
 
@@ -121,12 +121,12 @@ Campaign Classic 内：
 >
 > この手順は、**[!UICONTROL パスワード資格情報]**&#x200B;認証ではオプションです。
 
-アプリユーザーとは、上で登録したアプリケーションで使用するユーザーです。 上記の登録済みのアプリを使用して Microsoft Dynamics に対しておこなった変更は、このユーザーを通じておこなわれます。
+アプリユーザーとは、上で登録したアプリケーションで使用するユーザーです。上記の登録済みのアプリを使用して Microsoft Dynamics に対して行った変更は、このユーザーを通じて行われます。
 
 **手順 1**：Azure Active Directory に非インタラクティブユーザーを作成する
 
 1. **Azure Active Directory／ユーザー**&#x200B;をクリックし、「**新しいユーザー**」をクリックします。
-1. 使用する適切な名前を指定し、ユーザー名は E メールフォーマットにする必要があります。
+1. 使用する適切な名前を指定し、ユーザー名は電子メールフォーマットにする必要があります。
 1. **ディレクトリロール**&#x200B;の **Dynamics 365 管理者**&#x200B;を選択します。
 
 **手順 2**：作成したユーザーに適切なライセンスを割り当てる
@@ -216,3 +216,4 @@ Microsoft Dynamics 365 でサポートされる／サポートされない属性
 | 関連 | いいえ |
 | PartyList | いいえ |
 | ManagedProperty | いいえ |
+| 複数選択オプションセット | いいえ |

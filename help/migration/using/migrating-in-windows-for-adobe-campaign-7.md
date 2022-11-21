@@ -6,9 +6,9 @@ audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
-source-git-commit: 63aca25a8d1ae24ef83849b35a44d1b37cfa5e96
+source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,15 @@ Microsoft Windows 環境の場合の移行手順は次のとおりです。
    net stop nlserver6
    ```
 
-   v5.11 から移行する場合は、次のコマンドを実行します。
+<!--
+
+   If you are migrating from v5.11, run the following command:
 
    ```
    net stop nlserver5
    ```
+
+-->
 
 1. 各サーバーで、Adobe Campaignサービスが正しく停止されていることを確認します。 管理者権限でログインし、次のコマンドを実行します。
 
@@ -83,12 +87,14 @@ Microsoft Windows 環境の場合の移行手順は次のとおりです。
 
 ## Campaign データベースのバックアップ {#back-up-the-database}
 
-手順は、Adobe Campaignの以前のバージョンによって異なります。
+Adobe Campaign v6.1 のバックアップ手順を次に示します。
 
-### Adobe Campaign v5.11 の場合 {#migrating-from-adobe-campaign-v5-11}
+<!--
 
-1. Adobe Campaignデータベースのバックアップを作成します。
-1. のバックアップを作成 **Neolane v5** 次のコマンドを使用するディレクトリ：
+### For Adobe Campaign v5.11 {#migrating-from-adobe-campaign-v5-11}
+
+1. Make a backup of the Adobe Campaign database.
+1. Make a backup of the **Neolane v5** directory using the following command:
 
    ```
    ren "Neolane v5" "Neolane v5.back"
@@ -96,15 +102,15 @@ Microsoft Windows 環境の場合の移行手順は次のとおりです。
 
    >[!IMPORTANT]
    >
-   >予防措置として、 **Neolane v5.back** フォルダーに保存し、サーバー以外の安全な場所に保存します。
+   >As a precaution, we recommend that you zip the **Neolane v5.back** folder and save it elsewhere in a safe location other than the server.
 
-1. Windows サービス管理コンソールで、5.11 アプリケーションサーバーサービスの自動起動を無効にします。 また、次のコマンドを使用することもできます。
+1. In the windows service management console, disable the automatic startup of the 5.11 application server service. You can also use the following command:
 
    ```
    sc config nlserver5 start= disabled
    ```
 
-1. を編集します。 **config-`<instance name>`.xml** ( **Neolane v5. 戻る** ) を使用して、 **mta**, **wfserver**, **stat**&#x200B;など サービスが自動的に開始されない問題を修正しました。 例えば、 **autoStart** と **_autoStart**.
+1. Edit the **config-`<instance name>`.xml** (in the **Neolane v5. back** folder) to prevent the **mta**, **wfserver**, **stat**, etc. services from starting automatically. For instance, replace **autoStart** with **_autoStart**.
 
    ```
    <?xml version='1.0'?>
@@ -125,10 +131,13 @@ Microsoft Windows 環境の場合の移行手順は次のとおりです。
    </serverconf>
    ```
 
-### Adobe Campaign v6.02 の場合 {#migrating-from-adobe-campaign-v6-02}
+-->
 
-1. Adobe Campaignデータベースのバックアップを作成します。
-1. のバックアップを作成 **Neolane v6** 次のコマンドを使用するディレクトリ：
+<!--
+### For Adobe Campaign v6.02 {#migrating-from-adobe-campaign-v6-02}
+
+1. Make a backup of the Adobe Campaign database.
+1. Make a backup of the **Neolane v6** directory using the following command:
 
    ```
    ren "Neolane v6" "Neolane v6.back"
@@ -136,15 +145,15 @@ Microsoft Windows 環境の場合の移行手順は次のとおりです。
 
    >[!IMPORTANT]
    >
-   >予防措置として、 **Neolane v6.back** フォルダーに保存し、サーバー以外の安全な場所に保存します。
+   >As a precaution, we recommend that you zip the **Neolane v6.back** folder and save it elsewhere in a safe location other than the server.
 
-1. Windows サービスマネージャで、 6.02 アプリケーションサーバーの自動起動を無効にします。 また、次のコマンドを使用することもできます。
+1. In the Windows service manager, deactivate the 6.02 application server automatic startup. You can also use the following command:
 
    ```
    sc config nlserver6 start= disabled
    ```
 
-1. を編集します。 **config-`<instance name>`.xml** ( **Neolane v6. 戻る** ) を使用して、 **mta**, **wfserver**, **stat**&#x200B;など サービスが自動的に開始されない問題を修正しました。 例えば、 **autoStart** と **_autoStart**.
+1. Edit the **config-`<instance name>`.xml** (in the **Neolane v6. back** folder) to prevent the **mta**, **wfserver**, **stat**, etc. services from starting automatically. For instance, replace **autoStart** with **_autoStart**.
 
    ```
    <?xml version='1.0'?>
@@ -165,7 +174,7 @@ Microsoft Windows 環境の場合の移行手順は次のとおりです。
    </serverconf>
    ```
 
-### Adobe Campaign v6.1 の場合 {#migrating-from-adobe-campaign-v6-1}
+-->
 
 1. Adobe Campaignデータベースのバックアップを作成します。
 1. のバックアップを作成 **Adobe Campaign v6** 次のコマンドを使用するディレクトリ：
@@ -327,9 +336,11 @@ Adobe Campaignをデプロイするには、次の手順に従います。
       >
       >次の IIS 設定手順について詳しくは、 [この節](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
 
-## セキュリティゾーン {#security-zones}
+<!--
+## Security zones {#security-zones}
 
-v6.02 以前から移行する場合は、サービスを開始する前にセキュリティゾーンを設定する必要があります。 [詳細情報](../../migration/using/general-configurations.md#security)
+If you are migrating from v6.02 or earlier, you must configure your security zones before starting services. [Learn more](../../migration/using/general-configurations.md#security)
+-->
 
 ## サービスを再開 {#re-starting-the-services}
 
@@ -339,49 +350,51 @@ v6.02 以前から移行する場合は、サービスを開始する前にセ�
 1. ミッドソーシングサーバー.
 1. マーケティングサーバー。
 
-次の手順に進む前に、新しいインストールの完全なテストを実行し、不具合がなく、 [このページ](../../migration/using/general-configurations.md).
+次の手順に進む前に、新しいインストールの完全なテストを実行し、リグレッションがなく、すべてが機能していることを確認します。
 
 ## 以前のバージョンを削除 {#deleting-and-cleansing-adobe-campaign-previous-version}
 
-手順は、Adobe Campaignの以前のバージョンによって異なります。
+Adobe Campaign v6.1 を削除する手順を次に示します。
 
-### Adobe Campaign v5 の場合 {#adobe-campaign-v5}
+<!--
 
-Adobe Campaign v5 のインストールを削除してクレンジングする前に、次の推奨事項を適用する必要があります。
+### For Adobe Campaign v5 {#adobe-campaign-v5}
 
-* 機能チームに新しいインストールの完全なチェックを実行してもらう。
-* ロールバックが必要ないことが確実な場合にのみ、Adobe Campaign v5 をアンインストールします。
+Before you delete and cleanse the Adobe Campaign v5 installation, you must apply the following recommendations:
 
-1. IIS で、 **Neolane v5** Web サイト、 **Neolane v5** アプリケーションプール。
-1. 名前を変更 **Neolane v5.back** フォルダー名 **Neolane v5**.
-1. コンポーネントの追加と削除ウィザードを使用してAdobe Campaign v5 をアンインストールします。
+* Get the functional teams to run a full check of the new installation.
+* Only uninstall Adobe Campaign v5 once you are certain that no rollback is necessary.
+
+1. In IIS, delete the **Neolane v5** website, then the **Neolane v5** application pool. 
+1. Rename the **Neolane v5.back** folder as **Neolane v5**.
+1. Uninstall Adobe Campaign v5 using the Add/remove components wizard. 
 
    ![](assets/migration_wizard_2.png)
 
-1. を削除します。 **nlserver5** 次のコマンドを使用する Windows サービス：
+1. Delete the **nlserver5** Windows service using the following command:
 
    ```
    sc delete nlserver5
    ```
 
-1. サーバーを再起動します。
+1. Re-start the server.
 
-### Adobe Campaign v6.02 の場合 {#adobe-campaign-v6-02}
+### For Adobe Campaign v6.02 {#adobe-campaign-v6-02}
 
-Adobe Campaign v6.02 のインストールを削除してクレンジングする前に、次の推奨事項を適用する必要があります。
+Before you delete and cleanse the Adobe Campaign v6.02 installation, you must apply the following recommendations:
 
-* 機能チームに新しいインストールの完全なチェックを実行してもらう。
-* ロールバックが必要ないことが確実な場合にのみ、Adobe Campaign v6.02 をアンインストールします。
+* Get the functional teams to run a full check of the new installation.
+* Only uninstall Adobe Campaign v6.02 once you are certain that no rollback is necessary.
 
-1. IIS で、 **Neolane v6** Web サイト、 **Neolane v6** アプリケーションプール。
-1. 名前を変更 **Neolane v6.back** フォルダー名 **Neolane v6**.
-1. コンポーネントの追加と削除ウィザードを使用してAdobe Campaign v6.02 をアンインストールします。
+1. In IIS, delete the **Neolane v6** website, then the **Neolane v6** application pool. 
+1. Rename the **Neolane v6.back** folder as **Neolane v6**.
+1. Uninstall Adobe Campaign v6.02 using the Add/remove components wizard. 
 
    ![](assets/migration_wizard_2.png)
 
-1. サーバーを再起動します。
+1. Re-start the server.
 
-### Adobe Campaign v6.1 の場合 {#adobe-campaign-v6-1}
+-->
 
 Adobe Campaign v6 のインストールを削除してクレンジングする前に、次の推奨事項を適用する必要があります。
 

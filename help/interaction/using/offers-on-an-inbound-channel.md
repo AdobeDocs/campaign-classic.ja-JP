@@ -1,21 +1,21 @@
 ---
 product: campaign
-title: インバウンドチャネルでのオファー
-description: インバウンドチャネルでのオファー
+title: インバウンドチャネルのオファー
+description: インバウンドチャネルのオファー
 audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 6eaf7490f1be913986af2924017d014d2ba54559
 workflow-type: tm+mt
 source-wordcount: '2154'
 ht-degree: 100%
 
 ---
 
-# インバウンドチャネルでのオファー{#offers-on-an-inbound-channel}
+# インバウンドチャネルのオファー{#offers-on-an-inbound-channel}
 
-![](../../assets/v7-only.svg)
+![](../../assets/common.svg)
 
 ## 匿名訪問者に対するオファーの提案 {#presenting-an-offer-to-an-anonymous-visitor}
 
@@ -167,7 +167,8 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
    ![](assets/offer_inbound_fallback_example_052.png)
 
-   パーソナライズされた 3 つのオファーが表示されます。
+   3 つのパーソナライズされたオファーが表示されます。
+
 
    ![](assets/offer_inbound_fallback_example_053.png)
 

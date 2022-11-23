@@ -4,22 +4,17 @@ title: プライバシー
 description: プライバシーに関するベストプラクティスの詳細を説明します
 feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 197ac1322cb8f4f34d2670a29d622a21f407c90c
+source-git-commit: 0e57ffba9b8c7fd05843c3353d2c0d64cbc83b8b
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 33%
+source-wordcount: '855'
+ht-degree: 31%
 
 ---
 
-# プライバシー {#privacy}
+# パーソナライゼーションとプライバシー {#privacy}
 
 ![](../../assets/v7-only.svg)
 
-## プライバシーリクエスト
-
-Adobe Campaign には、GDPR および CCPA に則ってプライバシーを遵守するのに役立つ一連のツールが用意されています。
-
-参照： [このページ](../../platform/using/privacy-management.md) プライバシー管理の概要とAdobe Campaignの実装手順に関する一般的な情報を参照してください。 また、ベストプラクティスや、ユーザープロセスとペルソナの概要も確認できます。
 
 ## URL のパーソナライゼーション {#url-personalization}
 
@@ -187,3 +182,8 @@ URL 署名を有効にするには、すべての Campaign サーバーで同時
    **robots.txt** ファイルに加え、**X-Robots-Tag** ヘッダーも追加することをお勧めします。Apache の場合も IIS の場合も、このヘッダーの追加は **serverConf.xml** 設定ファイルでおこなえます。
 
    詳しくは、 [この記事](https://developers.google.com/search/reference/robots_meta_tag).
+
+
+## プライバシーリクエスト
+
+参照： [このページ](../../platform/using/privacy-management.md) プライバシー管理の概要とAdobe Campaignの実装手順に関する一般的な情報を参照してください。 また、ベストプラクティスや、ユーザープロセスとペルソナの概要も確認できます。

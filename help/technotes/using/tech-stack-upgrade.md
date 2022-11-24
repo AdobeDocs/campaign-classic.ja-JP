@@ -4,7 +4,8 @@ title: テクニカルノート — Adobe Campaignシステムのアップグレ
 description: Adobe Campaign
 hide: true
 hidefromtoc: true
-source-git-commit: b877625c568cc9b1119a76812e92dffdab1f4bb1
+exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
+source-git-commit: 1b7b216c22d48159a1590603de220714c1d7cf32
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 11%
@@ -29,7 +30,7 @@ As a **オンプレミスまたはハイブリッドの顧客**&#x200B;の場合
 
 **影響の有無**
 
-次の影響を受ける場合： [オペレーティングシステムのアップグレード](#os-upgrade) および/または [データベースシステムのアップグレード](#pg-upgrade) 以下に説明するように、Campaign 環境を最新の 7.3.2 バージョンにアップグレードする必要があります。最新の 7.3.2 バージョンは、これらのシステムと互換性があります。
+次の影響を受ける場合： [オペレーティングシステムのアップグレード](#os-upgrade) および/または [データベースシステムのアップグレード](#pg-upgrade) 以下に説明するように、Campaign 環境を [最新 7.3.2 バージョン](../../rn/using/latest-release.m#release-7-3-2)：これらのシステムと互換性があります。
 
 **更新方法**
 

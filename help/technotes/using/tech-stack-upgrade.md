@@ -5,9 +5,9 @@ description: Adobe Campaign
 hide: true
 hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: 7d7185e9d8c376d1390dc7e5f6a8724c3cbcfd40
+source-git-commit: bffad77458ab0b4d40490a52c64c99a0fe882d22
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '499'
 ht-degree: 11%
 
 ---
@@ -43,7 +43,7 @@ As a **オンプレミスまたはハイブリッドの顧客**&#x200B;の場合
 
 **影響の有無**
 
-Debian オペレーティングシステムで Campaign を実行している場合、最新の Debian セキュリティアップデートのメリットを活用するには、Campaign インフラストラクチャを次の場所に移動する必要があります。 **Debian 11**. Debian 9 は 2022 年 6 月 30 日に提供終了となり、セキュリティの修正はおこなわれなくなりました。 Adobeは、2023 年 6 月 30 日まで Debian 9 のセキュリティサポートを提供しています。
+Debian オペレーティングシステムで Campaign を実行している場合、最新の Debian セキュリティアップデートのメリットを活用するには、Campaign インフラストラクチャを次の場所に移動する必要があります。 **Debian 11**. Debian 9 のセキュリティサポートは 2023 年 6 月 30 日まで利用可能です。
 
 **更新方法**
 
@@ -55,7 +55,7 @@ Debian オペレーティングシステムで Campaign を実行している場
 
 **影響の有無**
 
-Campaign のデータベースシステムが PostgreSQL の場合、最新の PostgreSQL の革新とセキュリティ更新を活用するには、 **PostgreSQL 14**. PostreSQL 11 は、2023 年 11 月 9 日に提供終了となります。
+Campaign のデータベースシステムが PostgreSQL の場合、最新の PostgreSQL の革新とセキュリティ更新を活用するには、 **PostgreSQL 14**. PostgreSQL 11 は、2023 年 11 月 9 日に提供終了となります。
 
 **更新方法**
 

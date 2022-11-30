@@ -5,9 +5,9 @@ description: Adobe Campaign
 hide: true
 hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: 7948f6423b80788adf26a53afcd380953c8b8463
+source-git-commit: 7d7185e9d8c376d1390dc7e5f6a8724c3cbcfd40
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '510'
 ht-degree: 11%
 
 ---
@@ -43,7 +43,7 @@ As a **オンプレミスまたはハイブリッドの顧客**&#x200B;の場合
 
 **影響の有無**
 
-Debian オペレーティングシステムで Campaign を実行している場合、最新の Debian セキュリティアップデートのメリットを活用するには、Campaign インフラストラクチャを次の場所に移動する必要があります。 **Debian 11**. Debian 9 は 2022 年 6 月 30 日に提供終了となり、セキュリティの修正はおこなわれなくなりました。
+Debian オペレーティングシステムで Campaign を実行している場合、最新の Debian セキュリティアップデートのメリットを活用するには、Campaign インフラストラクチャを次の場所に移動する必要があります。 **Debian 11**. Debian 9 は 2022 年 6 月 30 日に提供終了となり、セキュリティの修正はおこなわれなくなりました。 Adobeは、2023 年 6 月 30 日まで Debian 9 のセキュリティサポートを提供しています。
 
 **更新方法**
 

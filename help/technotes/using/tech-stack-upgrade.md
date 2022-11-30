@@ -5,7 +5,7 @@ description: Adobe Campaign
 hide: true
 hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: b8bbdb4a0d595ec2bc884e041d1e56b81da8aa3d
+source-git-commit: 7948f6423b80788adf26a53afcd380953c8b8463
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 11%
@@ -55,7 +55,7 @@ Debian オペレーティングシステムで Campaign を実行している場
 
 **影響の有無**
 
-Campaign のデータベースシステムが PostgreSQL の場合、最新の PostgreSQL の革新とセキュリティ更新を活用するには、 **PostgreSQL 14**. PostreSQL 11 は、2022 年 11 月 30 日に提供終了となります。
+Campaign のデータベースシステムが PostgreSQL の場合、最新の PostgreSQL の革新とセキュリティ更新を活用するには、 **PostgreSQL 14**. PostreSQL 11 は、2023 年 11 月 9 日に提供終了となります。
 
 **更新方法**
 

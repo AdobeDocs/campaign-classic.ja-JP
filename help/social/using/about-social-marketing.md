@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: ソーシャルマーケティングについて
-description: Campaign を使用してTwitterを介して顧客とやり取りする方法を説明します
+description: Campaign を使用して Twitter 経由で顧客とやり取りする方法を説明します
 audience: social
 content-type: reference
 topic-tags: introduction
@@ -9,7 +9,7 @@ exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
 source-git-commit: 795bd8637db4866d887393cc68b8dac93ca02bd8
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 6%
 
 ![](../../assets/v7-only.svg)
 
-この **ソーシャルネットワークの管理** ソーシャルネットワークを管理するために設計された（ソーシャルマーケティング）アプリケーションを使用すると、Twitterを介して顧客や見込み客とやり取りすることができます。
+ソーシャルネットワークを管理するために設計された&#x200B;**ソーシャルネットワーク管理**（ソーシャルマーケティング）アプリケーションを使用すると、Twitter を介して顧客や見込み客とやり取りすることができます。
 
-Campaign とTwitterを [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target=&quot;_blank&quot;}。
+Campaign と Twitter を統合する主な手順については、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-オンプレミスまたはハイブリッドのお客様は、Twitter外部アカウントを設定して有効にする必要があります。 ハイブリッド設定の場合、 **ミッドソーシング** タブは、ミッドソーシングプラットフォームへのアクティブな接続でも設定する必要があります。
+オンプレミス環境またはハイブリッド環境のお客様は、Twitter の外部アカウントを設定して有効にする必要があります。ハイブリッド設定の場合、「**ミッドソーシング**」タブも、ミッドソーシングプラットフォームへのアクティブな接続を設定する必要があります。
 
 ![](assets/tw-external-account.png)

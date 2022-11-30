@@ -9,7 +9,7 @@ type: Documentation
 source-git-commit: 5792ad762befb97888ad32406d3bcb7f97df3fa7
 workflow-type: tm+mt
 source-wordcount: '2524'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -825,7 +825,7 @@ ht-degree: 99%
       + [テクニカルノート](technotes/using/technote.md)
       + [新しい配信サーバー](technotes/using/deliverability-server.md)
       + [Apache セキュリティアップグレード](technotes/using/acc-apache-upgrade.md)
-      + [2023 年のシステムアップグレード](technotes/using/tech-stack-upgrade.md)
+      + [2023年のシステムアップグレード](technotes/using/tech-stack-upgrade.md)
       + [IMS の更新](technotes/using/ims-updates.md)
       + [TLS 1.0 および 1.1 のサポートの提供終了（EOL）](technotes/using/eol-tls-support.md)
    + メールとプッシュ通知 {#technotes-email}

@@ -1,30 +1,30 @@
 ---
 product: campaign
-title: テクニカルノート — Adobe Campaignシステムのアップグレード
-description: Adobe Campaign
+title: テクニカルノート - Adobe Campaign システムのアップグレード
+description: Adobe Campaign システムのアップグレード
 hide: true
 hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
 source-git-commit: bffad77458ab0b4d40490a52c64c99a0fe882d22
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 11%
+ht-degree: 84%
 
 ---
 
 # Adobe Campaign 2023 環境のアップグレード {#ac-system-upgrade}
 
-Campaign インフラストラクチャは、サードパーティ製システムを利用しており、最新のバージョンと修正を定期的に更新する必要があります。 これらの更新は、サービスの継続性を確保し、Campaign 環境をセキュリティリスクから保護するために必須です。 また、サードパーティのシステム変更との互換性を確保するには、Campaign のアップグレードが必要です。
+Campaign インフラストラクチャは、最新のバージョンと修正で定期的に更新する必要があるサードパーティ製システムに依存しています。これらの更新は、サービスの継続性を確保し、Campaign 環境をセキュリティリスクから保護するために必須です。また、サードパーティシステムの変更との互換性を確保するには、Campaign のアップグレードが必要です。
 
-As a **ホスト型または管理型Cloud Servicesのお客様**&#x200B;のAdobeに、必要に応じて、これらのアップグレードに関する情報が表示されます。 コンプライアンスを確保するために、推奨事項に従って環境をアップグレードする必要があります。
+**ホステッド環境または Managed Cloud Services のお客様**&#x200B;には、これらのアップグレードが必要なときに、アドビからお知らせします。コンプライアンスを確保するために、推奨事項に従って環境をアップグレードする必要があります。
 
 As a **オンプレミスまたはハイブリッドの顧客**&#x200B;の場合、Adobeでは、同じカレンダーに従ってシステムと Campaign のバージョンをアップグレードすることを強くお勧めします。
 
-セキュリティ上の理由から、 [最新の Campaign ビルドのインストール](#ac-upgrade)を選択し、 [オペレーティングシステム](#os-upgrade) および/または [関係データベース管理システム (RDBMS)](#pg-upgrade).
+セキュリティ上の理由から、[最新の Campaign ビルドをインストール](#ac-upgrade)してから、[オペレーティングシステム](#os-upgrade)や[関係データベース管理システム（RDBMS）](#pg-upgrade)をアップグレードする必要があります。
 
 >[!NOTE]
 >
->これらの変更点に関するご質問については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。関連トピック [ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md).
+>これらの変更点に関するご質問については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。[ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md) も参照してください。
 
 ## Campaign ビルドのアップグレード {#ac-upgrade}
 
@@ -34,39 +34,39 @@ As a **オンプレミスまたはハイブリッドの顧客**&#x200B;の場合
 
 **更新方法**
 
-* ホストCloud Servicesまたは管理ユーザーのお客様は、Adobeから連絡を受け、Campaign のバージョンをアップグレードします。
-* ハイブリッドのお客様の場合、Adobeは、ミッドソーシング環境で予定されているビルドアップグレード日を通知します。 また、マーケティング環境を同じバージョンにアップグレードする必要があります。
-* オンプレミス版のお客様は、Campaign 環境を最新の 7.3.2 ビルドにアップグレードする必要があります。
+* ホステッド環境または Managed Cloud Services のお客様には、アドビから連絡があり、お使いの Campaign のバージョンがアップグレードされます。
+* ハイブリッド環境のお客様には、お使いのミッドソーシング環境のビルドアップグレード予定日をアドビからお知らせします。また、マーケティング環境を同じバージョンにアップグレードする必要もあります。
+* オンプレミス環境のお客様は、Campaign 環境を最新の 7.3.2 ビルドにアップグレードするように求められます。
 
 
 ## オペレーティングシステムのアップグレード {#os-upgrade}
 
 **影響の有無**
 
-Debian オペレーティングシステムで Campaign を実行している場合、最新の Debian セキュリティアップデートのメリットを活用するには、Campaign インフラストラクチャを次の場所に移動する必要があります。 **Debian 11**. Debian 9 のセキュリティサポートは 2023 年 6 月 30 日まで利用可能です。
+Debian オペレーティングシステムで Campaign を実行している場合、最新の Debian セキュリティアップデートを活用するには、Campaign インフラストラクチャを **Debian 11** に移行する必要があります。Debian 9 のセキュリティサポートは 2023 年 6 月 30 日まで利用可能です。
 
 **更新方法**
 
-* ホスト型または管理型Cloud Servicesのお客様は、Adobeから連絡を受け、環境をアップグレードします。
-* ハイブリッドのお客様の場合、Adobeは、ミッドソーシング環境で予定されているアップグレード日を通知します。 マーケティング環境も Debian で実行している場合は、Debian 11 にもアップグレードする必要があります。
-* オンプレミスのお客様は、環境を Debian 11 にアップグレードする必要があります。
+* ホステッド環境または Managed Cloud Services のお客様には、アドビから連絡があり、お使いの環境がアップグレードされます。
+* ハイブリッド環境のお客様には、お使いのミッドソーシング環境のアップグレード予定日をアドビからお知らせします。 マーケティング環境も Debian で実行している場合は、マーケティング環境も Debian 11 にアップグレードする必要があります。
+* オンプレミス環境のお客様は、環境を Debian 11 にアップグレードするように求められます。
 
 ## データベースシステムのアップグレード {#pg-upgrade}
 
 **影響の有無**
 
-Campaign のデータベースシステムが PostgreSQL の場合、最新の PostgreSQL の革新とセキュリティ更新を活用するには、 **PostgreSQL 14**. PostgreSQL 11 は、2023 年 11 月 9 日に提供終了となります。
+Campaign のデータベースシステムが PostgreSQL である場合、PostgreSQL の最新のイノベーションとセキュリティアップデートを活用するには、**PostgreSQL 14** にアップグレードする必要があります。PostgreSQL 11 は、2023 年 11 月 9 日に提供終了となります。
 
 **更新方法**
 
-* ホスト型または管理型のCloud Servicesのお客様は、Adobeから連絡を受けて、データベースシステムを PostgreSQL 11 から PostgreSQL 14 にアップグレードします。
-* ハイブリッドのお客様で、マーケティングデータベースシステムが PostgreSQL の場合は、PostgreSQL 14 にアップグレードする必要があります。
-* オンプレミス型のお客様は、データベースシステムを PostgreSQL 14 にアップグレードするよう求められます。
+* ホステッド環境または Managed Cloud Services のお客様には、アドビから連絡があり、お使いのデータベースシステムが PostgreSQL 11 から PostgreSQL 14 にアップグレードされます。
+* ハイブリッド環境のお客様は、マーケティングデータベースシステムが PostgreSQL の場合、PostgreSQL 14 にアップグレードする必要があります。
+* オンプレミス環境のお客様は、お使いのデータベースシステムを PostgreSQL 14 にアップグレードするように求められます。
 
 
 ## 参考になるリンク
 
 * [環境のアップグレード](../../production/using/build-upgrade.md)
 * [ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
-* [最新のCampaign Classicビルドをダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)
+* [最新の Campaign Classic ビルドのダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)
 * [ユーザーへの新しいクライアントコンソールの公開](../../installation/using/client-console-availability-for-windows.md)

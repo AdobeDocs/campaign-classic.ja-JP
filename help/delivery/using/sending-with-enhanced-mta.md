@@ -7,7 +7,7 @@ exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: 2d5166c355ee090639dcc52866252bae6beb81f6
 workflow-type: tm+mt
 source-wordcount: '2069'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Enhanced MTA の実装は、既存の Campaign 機能の一部に影響を与え
 
 **Enhanced MTA とは何ですか？**
 
-Adobe Campaignは、SparkPost の商用 E メール MTA( **Momentum**.
+Adobe Campaign をアップグレードして、SparkPost の商用メール MTA（**Momentum**）を実行する新しい MTA（メール転送エージェント）を使用できるようになりました。
 
 Momentum は、インボックスの最適な配信率を達成し維持するための高度なバウンス処理と自動配信品質最適化機能を含む、革新的で高パフォーマンスな MTA テクノロジーを提供します。<!--More than 37% of the world's business email is sent using SparkPost's MTA technology.-->
 
@@ -117,7 +117,7 @@ Adobe Campaign トランザクションメッセージ機能を使用する顧�
 
 ### 新しい MX ルール
 
-MX 管理配信のスループットルールは使用されなくなりました。Enhanced MTA には独自の MX ルールがあり、独自の履歴 E メールの評判と、E メールを送信するドメインからのリアルタイムフィードバックに基づいて、ドメインごとにスループットをカスタマイズできます。
+MX 管理配信のスループットルールは使用されなくなりました。Enhanced MTA には独自の MX ルールがあり、独自のメールレピュテーション履歴およびメールの送信に使用するドメインからのリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズできます。
 
 MX 設定について詳しくは、[この節](../../installation/using/email-deliverability.md#mx-configuration)を参照してください。
 
@@ -143,9 +143,9 @@ Campaign 配信スループットグラフでは、E メール受信者に対す
 
 ### 再試行
 
-配信の再試行設定は、Campaign では使用されなくなりました。 ソフトバウンスの再試行とその間の時間は、メッセージの E メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
+配信の再試行設定は、Campaign では使用されなくなりました。ソフトバウンスの再試行とその間隔は、メッセージの電子メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
 
-再試行について詳しくは、 [この節](steps-sending-the-delivery.md#configuring-retries).
+再試行について詳しくは、[この節](steps-sending-the-delivery.md#configuring-retries)を参照してください。
 
 ### 有効期間
 
@@ -187,7 +187,7 @@ E メールフィードバックサービス（EFS）機能を使用すると、
 >
 >E メールフィードバックサービスは、現在ベータ版機能としてご利用いただけます。
 >
->このベータ版プログラムへの参加を希望される場合は、 [このフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) そして、私たちはあなたに戻る。
+>このベータプログラムへの参加を希望される場合は、[このフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u)に記入してください。こちらから連絡させていただきます。
 
 配信の開始後、Campaign から Enhanced MTA にメッセージが正常に中継されると、**[!UICONTROL 成功]**&#x200B;のパーセンテージは変更されません。
 

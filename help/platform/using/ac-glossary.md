@@ -8,7 +8,7 @@ exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
 workflow-type: tm+mt
 source-wordcount: '5972'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Learn more about [ACS Connector](../../integrations/using/acs-connector-principl
 
 ローカルの承認アクティビティは、メッセージが送信される前に配信の承認プロセスを設定するために使用されるワークフローアクティビティです。
 
-詳しくは、 [ローカルの承認アクティビティ](../../workflow/using/local-approval.md).
+詳しくは、[ローカルの承認アクティビティ](../../workflow/using/local-approval.md)を参照してください。
 +++
 
 +++**オーディエンス**
@@ -141,14 +141,14 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 コントロール母集団を使用すると、オーディエンスの一部を除外して、キャンペーンの影響を測定できます。オペレーターは、メッセージを受信したターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。送信ログに基づいて、オペレーターは今後のキャンペーンでコントロール母集団をターゲット設定することもできます。
 
-詳細情報： [コントロール母集団](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+詳しくは、[コントロール母集団](../../campaign/using/marketing-campaign-target.md#defining-a-control-group)を参照してください。
 +++
 
 +++**コントロールパネル**
 
-このCampaign コントロールパネルは、Adobe Campaignの製品管理者が設定を管理し、各インスタンスの使用状況を追跡できるので、作業の効率を向上させるのに役立ちます。 直感的なインターフェイスにより、主要なアセットの使用状況を簡単に監視できるうえ、IP アドレスの許可リスト追加、SFTP ストレージの監視、鍵の管理などの管理タスクを実行できます。
+コントロールパネルを使用すると、Adobe Campaign の製品管理者が設定を管理し、各インスタンスの使用状況を追跡できるので、製品管理者の作業効率を向上させることができます。直感的なインターフェイスにより、主要なアセットの使用状況を簡単に監視できるうえ、IP アドレスの許可リスト登録、SFTP ストレージの監視、キー管理などの管理タスクも実行できます。
 
-詳細情報： [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja).
+詳しくは、[コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)を参照してください。
 +++
 
 +++**キューブ**
@@ -171,7 +171,7 @@ Adobe Campaign には事前定義済みのデータモデルが付属してお�
 
 Campaign データモデルは、データタイプとその関係（リンク）を定義する一連のスキーマです。データモデルは、実際のデータを含むデータベースと物理的に実装される抽象定義です。
 
-詳細情報： [データモデル](../../configuration/using/about-data-model.md).
+詳しくは、[データモデル](../../configuration/using/about-data-model.md)を参照してください。
 +++
 
 +++**データベースクリーンアップワークフロー**
@@ -248,7 +248,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 デプロイメントウィザードでは、デフォルトの名前空間、データベースクリーンアップスケジュール、データ保持期間、その他の技術的な設定など、Campaign インスタンスのパラメーターを定義します。
 
-詳細情報： [デプロイウィザード](../../installation/using/deploying-an-instance.md#deployment-wizard).
+詳しくは、[デプロイメントウィザード](../../installation/using/deploying-an-instance.md#deployment-wizard)を参照してください。
 +++
 
 +++**記述的分析**
@@ -262,16 +262,16 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *コンテキスト：分散型マーケティング*
 
-Distributed Marketing アドオンオファーを Campaign Operators に提供する。セントラルエンティティ（本社、マーケティング部門など）間でキャンペーンを実装するための協調ワークスペース およびローカルエンティティ（販売店、地域代理店など）との共同作業によるキャンペーンを実装できます。この連携のベースとなるのは、**Campaign パッケージのリスト**&#x200B;と呼ばれる共有ワークスペースで、主にセントラルエンティティで作成されたキャンペーンのテンプレートやインスタンスが、ローカルエンティティに提供されます。
+分散型マーケティングアドオンでは、Campaign オペレーターが複数のセントラルエンティティ（本社、マーケティング部門など）を横断するキャンペーンを実施するための共同作業ワークスペースを提供します。およびローカルエンティティ（販売店、地域代理店など）との共同作業によるキャンペーンを実装できます。この連携のベースとなるのは、**Campaign パッケージのリスト**&#x200B;と呼ばれる共有ワークスペースで、主にセントラルエンティティで作成されたキャンペーンのテンプレートやインスタンスが、ローカルエンティティに提供されます。
 
-詳細情報： [分散型マーケティング](../../distributed/using/about-distributed-marketing.md)
+詳しくは、[分散型マーケティング](../../distributed/using/about-distributed-marketing.md)を参照してください。
 +++
 
 +++**値の配分**
 
 値の配分は、現在データベースに存在するスキーマ属性の値の配分を表示するツールです。これにより、使用可能な値、およびその数と割合を判断し、クエリや式を作成する際の値の大文字と小文字の区別やスペルの問題を回避できます。
 
-詳細情報： [値の配分](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)
+詳しくは、[値の配分](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)を参照してください。
 +++
 
 +++**ドメインデリゲーション**
@@ -287,7 +287,7 @@ Distributed Marketing アドオンオファーを Campaign Operators に提供�
 ----DEPRECATED------>
 +++**E4X**
 
-E4X は、Adobe Campaign Classicで使用される JavaScript のバージョンです。 ECMAScript とも呼ばれ、同じコード内で JavaScript と XML プリミティブを組み合わせることができる JavaScript の拡張です。 E4X は非推奨（廃止予定）の言語として分類されています。
+E4X は、Adobe Campaign Classic で使用される JavaScript のバージョンです。ECMAScript とも呼ばれ、同じコード内で JavaScript と XML のプリミティブを組み合わせることができる、JavaScript の拡張機能です。なお、E4X は非推奨（廃止予定）の言語として分類されています。
 +++
 
 
@@ -482,9 +482,9 @@ Learn more about [Image serving](../../delivery/using/defining-the-email-content
 
 +++**インスタンス設定**
 
-インスタンス設定は、Adobe Campaign インスタンスの設定の詳細です。これらの設定は、デプロイウィザード（ツール/詳細設定/デプロイウィザード）またはサーバー/インスタンスの設定ファイルで定義します。
+インスタンス設定は、Adobe Campaign インスタンスの設定の詳細です。これらの設定は、デプロイメントウィザード（ツール／詳細設定／デプロイメントウィザード）で定義するか、サーバーまたはインスタンスの設定ファイルで定義します。
 
-詳細情報： [インスタンス設定](../../installation/using/about-initial-configuration.md).
+詳しくは、[インスタンス設定](../../installation/using/about-initial-configuration.md)を参照してください。
 
 +++
 
@@ -492,7 +492,7 @@ Learn more about [Image serving](../../delivery/using/defining-the-email-content
 
 ジョブは、製品との間でのデータのインポートとエクスポートを簡素化するウィザードシステムで管理されます。ジョブは、簡潔さと一貫性を保つためにテンプレートシステムを使用しており、スケジュールに従って実行するように定義できます。
 
-詳細情報： [ジョブの読み込みと書き出し](../../platform/using/get-started-data-import-export.md).
+詳しくは、[ジョブのインポートとエクスポート](../../platform/using/get-started-data-import-export.md)を参照してください。
 +++
 
 +++**リスト**
@@ -574,7 +574,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 オファーカタログは、Adobe Campaign で定義され、インタラクション中に選択できる一連のオファーです。カタログは階層構造を持ち、各ノードが 1 つのカテゴリに対応しています。
 
-詳細情報： [オファーカタログ](../../interaction/using/offer-catalog-overview.md).
+詳しくは、[オファーカタログ](../../interaction/using/offer-catalog-overview.md)を参照してください。
 +++
 
 +++**オファー連絡先**
@@ -595,7 +595,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 オファー&#x200B;**デザイン環境** は、オファーの作成、タイポロジルールの定義、オファーのターゲットにするスキーマの選択を行う環境です。 生成されたオファーの提案を保存するテーブルも、環境によって定義されます。デフォルトでは、インタラクションアドオンには、1 つの&#x200B;**デザイン**&#x200B;環境とそれにリンクされた 1 つの&#x200B;**ライブ**&#x200B;環境が用意されています。どちらの環境も、ビルトインの受信者テーブルをターゲットとするように事前に設定されています。
 
-詳細情報： [オファーデザイン環境](../../interaction/using/fundamental-principles.md).
+詳しくは、[オファーデザイン環境](../../interaction/using/fundamental-principles.md)を参照してください。
 +++
 
 +++**オファーエンジンのアービトラージ**
@@ -622,7 +622,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 オファー環境は、オファーカタログ、使用可能なスペースおよび環境の事前定義済みフィルターを定義するルートフォルダーです。 オペレーターは、ターゲティングディメンションごとに 1 つの環境を作成する必要があります。 オファー環境には、デザインとライブの 2 つのタイプがあります。
 
-詳細情報： [オファー環境](../../interaction/using/fundamental-principles.md).
+詳しくは、[オファー環境](../../interaction/using/fundamental-principles.md)を参照してください。
 +++
 
 +++**オファーライブ環境**
@@ -631,7 +631,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 オファーライブ環境はキャンペーン&#x200B;**デザイン環境**&#x200B;にリンクされています。この環境には、**デザイン環境**&#x200B;でコンテンツと実施要件の承認を受けた読み取り専用のオファーが含まれています。Web サイトでの表示用に選択することも、アウトバウンドメッセージに挿入することもできます。
 
-詳細情報： [オファーのライブ環境](../../interaction/using/fundamental-principles.md).
+詳しくは、[オファーライブ環境](../../interaction/using/fundamental-principles.md)を参照してください。
 +++
 
 +++**オファープレゼンテーションルール**
@@ -665,7 +665,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 *コンテキスト：キャンペーンインタラクション*
 
-オファー表示域は、オファーを表示するためにチャネルで使用される情報です。 オファー表示域は、オファーが表示されるスペースのレンダリング関数から作成でき、インターフェイス（HTML ブロックなど）に直接埋め込むこともできます。オファーは、スペースで表される場合があります。
+オファー表示域は、チャネルでオファーの表示に使用される情報です。オファー表示域は、オファーが表示されるスペースのレンダリング関数から作成でき、インターフェイス（HTML ブロックなど）に直接埋め込むこともできます。オファーはスペースに基づいて表示される場合があります。
 
 インタラクションの詳細は[こちら](../../interaction/using/interaction-and-offer-management.md)。
 +++
@@ -685,7 +685,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 オファースペースは、オファーの公開場所を定義するフォルダーです。スペースを定義すると、使用するチャネルの指定、オファーのコンテンツの作成、提示されるオファーの指定を行えます。 オファースペースは、チャネルとオファーエンジンの間のインターフェイスです。
 
-詳細情報： [オファースペース](../../interaction/using/creating-offer-spaces.md).
+詳しくは、[オファースペース](../../interaction/using/creating-offer-spaces.md)を参照してください。
 +++
 
 +++**オファーテーマ**
@@ -754,7 +754,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 「監視」タブにパフォーマンス監視情報が表示されます。メモリと CPU 使用率、SMTP サーバーの統計、サーバープロセス、その他の関連情報など、基になるシステムの指標が表示されます。
 
-詳細情報： [パフォーマンス監視](../../production/using/monitoring-processes.md).
+詳しくは、[パフォーマンス監視](../../production/using/monitoring-processes.md)を参照してください。
 +++
 
 +++**パーソナライゼーションブロック**
@@ -876,7 +876,7 @@ Campaigns that re-target the recipients of a previous delivery or deliveries.
 
 スキーマ拡張を使用すると、標準のスキーマを、ビジネスのユースケースに最適にカスタマイズできます。例えば、受信者テーブルに「ロイヤルティ」フィールドを追加できます。
 
-詳細情報： [スキーマ拡張](../../configuration/using/extending-a-schema.md).
+詳しくは、[スキーマ拡張](../../configuration/using/extending-a-schema.md)を参照してください。
 +++
 
 +++**シードアドレス**
@@ -930,14 +930,14 @@ Adobe Campaign では、ニュースレターや製品のアップデートな�
 
 ターゲットデータとは、ワークフローのワークテーブル（トランジション）に保存されるデータです。このデータは、配信内で配信コンテンツのパーソナライゼーション用に使用したり、配信の動的要素のロジックを定義したりできます。
 
-詳細情報： [ターゲットデータ](../../workflow/using/data-life-cycle.md#target-data).
+詳しくは、[ターゲットデータ](../../workflow/using/data-life-cycle.md#target-data)を参照してください。
 +++
 
 +++**ターゲットマッピング**
 
 ターゲットマッピングとは、配信チャネルを特定のデータタイプにマッピングすることです。ターゲットマッピングは、様々な配信チャネルからスキーマのデータフィールドへのリンク方法を定義します。特定のフィールドまたは式を使用して、Campaign がデータタイプにどのように送信するかを定義します。
 
-詳細情報： [ターゲットマッピング](../../delivery/using/selecting-a-target-mapping.md).
+詳しくは、[ターゲットマッピング](../../delivery/using/selecting-a-target-mapping.md)を参照してください。
 +++
 
 +++**ターゲティングアクティビティ**
@@ -1013,11 +1013,11 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 +++
 
 <!------- USEFUL HERE??----->
-+++**トリガーされたキャンペーン**
++++**トリガーキャンペーン**
 
 トリガーキャンペーンとは、ワークフローで API リクエストを受け取ったときに実行されるキャンペーンです。 API 呼び出しは、ワークフローの実行を開始するワークフローでシグナルアクティビティによって消費されます。
 
-詳細情報： [トリガーされたキャンペーン](../../workflow/using/external-signal.md).
+詳しくは、[トリガーキャンペーン](../../workflow/using/external-signal.md)を参照してください。
 +++
 
 <!--
@@ -1045,7 +1045,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 タイポロジルールは、配信の分析フェーズの一環として実装されるビジネスルールです。 タイポロジルールとは、配信の内容（コントロールルール）や配信のターゲット（フィルタールール）、またはビジネス要件を実施するその他のロジック（頻度ルール）を確認するものです。ルールは、1 つ以上のタイポロジに含めることができる、粒度の細かい要素です。
 
-詳細情報： [タイポロジルール](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
+詳しくは、[タイポロジルール](../../campaign-opt/using/about-campaign-typologies.md#typology-rules)を参照してください。
 +++
 
 ## U～Z {#sec-6}

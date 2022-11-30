@@ -6,7 +6,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: ddac38fb79101bcff910345c9b04c7cc5eaf39a6
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 97%
 
 ## 新機能
 
-* **[11 月リリースが公開されました。](rn/using/latest-release.md)**<br/> 新機能、改善点および修正点をリリースノートでご確認ください
+* **[11月リリースが公開されました。](rn/using/latest-release.md)**<br/> 新機能、改善点および修正点をリリースノートでご確認ください
 
-* **[2022年リリースプログラム](technotes/using/dc-migration.md)**<br/> 環境をアップグレードし、セキュリティ、インフラストラクチャ、パフォーマンスを向上
+* **[2022年リリースプログラム](technotes/using/dc-migration.md)**<br/> 環境をアップグレードし、セキュリティ、インフラストラクチャおよびパフォーマンスを向上
 
 <!--* **[Secure your Campaign environment](technotes/using/tech-stack-upgrade.md)**<br/> Update to the latest versions to secure your Campaign platform-->
 

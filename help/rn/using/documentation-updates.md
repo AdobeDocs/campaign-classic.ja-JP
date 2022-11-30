@@ -9,7 +9,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 5792ad762befb97888ad32406d3bcb7f97df3fa7
 workflow-type: tm+mt
 source-wordcount: '5017'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,15 +25,15 @@ ht-degree: 98%
 
 ### 2022年11月 {#nov-2022}
 
-リリースノートの節を更新し、7.3.2 の改善点とパッチを追加しました。 [詳細情報](latest-release.md)
+7.3.2 の改善点とパッチをリリースノートの節に反映させました。[詳細情報](latest-release.md)
 
-互換性マトリックスを更新し、Teradata17 をサポートしました。 [詳細情報](compatibility-matrix.md)
+Teradata 17 のサポートを互換性マトリクスに反映させました。[詳細情報](compatibility-matrix.md)
 
-ファイルとリソースの管理に関する節が更新され、 **uploadWhiteList** 属性。 [詳細情報](../../installation/using/file-res-management.md)
+「ファイルとリソースの管理」の節が更新されて、**uploadWhiteList** 属性に関する情報が追加されました。[詳細情報](../../installation/using/file-res-management.md)
 
-セキュリティゾーンに関するドキュメントが更新され、 **allowDebug** 属性属性。 [詳細情報](../../installation/using/security-zones.md#recommendations)
+セキュリティゾーンに関するドキュメントが更新されて、**allowDebug** 属性に関する情報が追加されました。 [詳細情報](../../installation/using/security-zones.md#recommendations)
 
-移行ガイドが更新されました。 サポートされていないAdobe Campaignバージョンへの参照は削除されました。 [詳細情報](../../migration/using/about-migration.md)
+移行ガイドが更新されました。 サポートされていない Adobe Campaign バージョンへの参照が削除されました。[詳細情報](../../migration/using/about-migration.md)
 
 
 ### 2022年7月 {#july-2022}

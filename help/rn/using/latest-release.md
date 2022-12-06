@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: a3f64d71b857312fd3130bb66a864740c902e2f4
+source-git-commit: f37f6c080bc6fb70cbd3f853db4ad8685ae8ebf8
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2739'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 99%
 ## ![](assets/do-not-localize/green_2.png) リリース 7.3.2 - ビルド 9356 {#release-7-3-2}
 
 _2022年11月21日（PT）_
+
+>[!CAUTION]
+>
+>コンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../../installation/using/installing-the-client-console.md)を参照してください。
 
 **互換性の更新**
 

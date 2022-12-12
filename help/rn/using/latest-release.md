@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: f37f6c080bc6fb70cbd3f853db4ad8685ae8ebf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2739'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ _2022年11月21日（PT）_
 
 **互換性の更新**
 
-* Adobe Campaignは現在、PostgreSQL 14 と互換性があります。
+* Adobe Campaign は、PostgreSQL 14 と互換性を持つようになりました。
 * Microsoft Internet Explorer 11 のサポート終了に伴い、クライアントコンソールのダッシュボードの HTML レンダリングエンジンは、Edge Chromium を使用するようになりました。（NEO-20741）
 
 [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md#RDBMSservers)を参照してください。

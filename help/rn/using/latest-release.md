@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: f37f6c080bc6fb70cbd3f853db4ad8685ae8ebf8
-workflow-type: ht
-source-wordcount: '2739'
-ht-degree: 100%
+source-git-commit: 1c0aeecd72a35fc6e2e72f4b042df2ff39e5cb6f
+workflow-type: tm+mt
+source-wordcount: '2773'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,8 @@ _2022年11月21日（PT）_
 
 **互換性の更新**
 
-* Adobe Campaign は、PostgreSQL 14 と互換性を持つようになりました。
+* Adobe Campaign は、PostgreSQL 14 と互換性を持つようになりました。詳しくは、この[テクニカルノート](../../technotes/using/tech-stack-upgrade.md)を参照してください。
+
 * Microsoft Internet Explorer 11 のサポート終了に伴い、クライアントコンソールのダッシュボードの HTML レンダリングエンジンは、Edge Chromium を使用するようになりました。（NEO-20741）
 
 [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md#RDBMSservers)を参照してください。
@@ -108,7 +109,7 @@ _2022年7月1日（PT）_
 * Adobe Campaign SDK では、プッシュ通知用に Android 12 および iOS 15 をサポートするようになりました。
 * Adobe Campaign は、MySQL 8 と互換性を持つようになりました。
 * Adobe Campaign は、Windows 11 と互換性を持つようになりました。
-* Adobe Campaign は、Debian 11 と互換性を持つようになりました。
+* Adobe Campaign は、Debian 11 と互換性を持つようになりました。詳しくは、この[テクニカルノート](../../technotes/using/tech-stack-upgrade.md)を参照してください。
 
 [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md#OperatingSystems)を参照してください。
 
@@ -241,3 +242,4 @@ Adobe Campaign は現在、Windows Server 2019 と互換性があります。[Ca
 * ワークフローに添付されたメール配信をプレビューできない問題を修正しました。（NEO-37840）
 * リスト値を含む有効なテーブルが、データベースクリーンアップワークフローによって削除される問題を修正しました。 （NEO-34911）
 * マーケティングインスタンスで請求ワークフローがクラッシュする問題を修正しました。
+* 配信が予想より多くの受信者に送信される可能性がある問題を修正しました。 （NEO-45108）

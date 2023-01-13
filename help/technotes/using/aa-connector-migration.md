@@ -3,10 +3,10 @@ product: campaign
 title: Adobe Analytics Connector への移行
 description: Campaign - Analytics Connector に関する FAQ
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 9667bb436ffc591b05945dadd683e5f590ae43e5
-workflow-type: ht
-source-wordcount: '815'
-ht-degree: 100%
+source-git-commit: 62ccc9e52de1bc416284e5b1bf48d69dc603923a
+workflow-type: tm+mt
+source-wordcount: '858'
+ht-degree: 94%
 
 ---
 
@@ -20,9 +20,11 @@ Campaign Classic v7 21.1.3 リリース以降、Adobe Analytics Data Connector �
 
 従来の Data Connectors 統合に代わる、新しい Adobe Analytics Connector 統合を Adobe Exchange に&#x200B;**実装する必要があります**。Adobe Analytics Connector について詳しくは、[このページ](../../platform/using/adobe-analytics-connector.md)を参照してください。
 
+これらの変更点に関するご質問については、[FAQ](#faq-aa) を参照してください。 詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+
 >[!NOTE]
 >
->これらの変更点に関するご質問については、[FAQ](#faq-aa) を参照してください。 詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>既存のAdobe Analytics Data Connector( 旧称：Genesis統合 ) から移行し、Adobe Analyticsの新しい分類アーキテクチャを使用する場合、新しいAdobe Analytics Connector に移行するには、7.3.1 または 8.4.1 以降のビルドバージョンが必要です。
 
 ## 変更点
 

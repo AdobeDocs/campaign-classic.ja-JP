@@ -6,7 +6,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
+source-git-commit: 65e80f16a6beaee89b51636017c42766589e179e
 workflow-type: tm+mt
 source-wordcount: '1824'
 ht-degree: 73%
@@ -92,7 +92,7 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 
    * **[!UICONTROL データベース]**:データベースの名前（オプション）
 
-   * **[!UICONTROL オプション]**:teradataを渡すオプション。 次の形式を使用します。&#39;parameter=value&#39;. 値間の区切り文字としてセミコロンを使用します。
+   * **[!UICONTROL オプション]**:teradataを渡すオプション。 次の形式を使用します。&#39;parameter=value&#39;. 値間の区切り記号としてセミコロンを使用します。
 
    * **[!UICONTROL タイムゾーン]**:タイムゾーンがTeradataで設定されました。 [詳細情報](#timezone)
 

@@ -4,10 +4,10 @@ title: 配信テンプレートの作成
 description: 配信テンプレートの作成
 feature: Delivery Templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: 65e80f16a6beaee89b51636017c42766589e179e
+workflow-type: tm+mt
+source-wordcount: '392'
+ht-degree: 90%
 
 ---
 
@@ -33,6 +33,10 @@ ht-degree: 100%
 
 ## 新しいテンプレートの作成 {#creating-a-new-template}
 
+>[!NOTE]
+>
+>設定エラーを避けるために、Adobeでは、新しいテンプレートを作成するのではなく、ネイティブテンプレートを複製して設定をカスタマイズすることをお勧めします。
+
 配信テンプレートを設定するには、次の手順に従います。
 
 1. Campaign エクスプローラーを開きます。
@@ -40,7 +44,7 @@ ht-degree: 100%
 
    ![](assets/delivery_template_1.png)
 
-1. ツールバーで「**新規**」をクリックして、新しい配信テンプレートを作成します。
+1. クリック **新規** （新しい配信テンプレートを作成する場合） **複製** 既存のテンプレート。
 
    ![](assets/delivery_template_2.png)
 
@@ -62,9 +66,6 @@ ht-degree: 100%
 
 1. 「**保存**」をクリックします。これで、テンプレートを配信で使用できるようになります。
 
->[!NOTE]
->
->設定エラーを防ぐために、新しいテンプレートを作成するのではなく、ネイティブテンプレートをコピーしてプロパティを変更することをお勧めします。
 
 ## チュートリアルビデオ {#delivery-template-video}
 

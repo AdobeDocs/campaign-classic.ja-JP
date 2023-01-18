@@ -3,7 +3,7 @@ product: campaign
 title: フォームの編集
 description: フォームの編集
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 4af44f38d495d31dec4b9b7a142dbed0c2450d56
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 2%
@@ -249,7 +249,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
    | 要素 | 属性 | 説明 |
    | --- | --- | --- |
-   | `<input>` | `read-only:"true"` | フィールドへの読み取り専用アクセスを提供します |
+   | `<input>` | `read-only="true"` | フィールドへの読み取り専用アクセスを提供します |
    | `<container>` | `type="visibleGroup" visibleIf="`*edit-expr*`"` | 条件付きでフィールドのグループを表示します |
    | `<container>` | `type="enabledGroup" enabledIf="`*edit-expr*`"` | 条件に応じてフィールドのグループを有効にします |
 

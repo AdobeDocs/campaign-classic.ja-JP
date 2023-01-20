@@ -6,10 +6,10 @@ feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
-source-git-commit: 62ccc9e52de1bc416284e5b1bf48d69dc603923a
+source-git-commit: 1dd0fe6734785b593302ed90db1d150cf6aee00c
 workflow-type: tm+mt
-source-wordcount: '1716'
-ht-degree: 92%
+source-wordcount: '1717'
+ht-degree: 91%
 
 ---
 
@@ -207,7 +207,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 1. 「**[!UICONTROL 詳細設定]**」タブでは、より技術的な設定を設定または変更できます。
 
    * **[!UICONTROL 存続期間]**：Adobe Campaign でテクニカルワークフローで Web イベントを収集するまでの期間（日数）を指定できます。デフォルト：180 日。
-   * **[!UICONTROL 持続]**：すべての Web イベント（購入など）をリマーケティングキャンペーンの属性にできる期間を指定できます。デフォルト：7 日。
+   * **[!UICONTROL 永続性]**:すべての web イベント（購入など）をリマーケティングキャンペーンの属性にできる期間を定義できます。デフォルト：7 日。
 
 >[!NOTE]
 >

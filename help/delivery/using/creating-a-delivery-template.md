@@ -5,9 +5,9 @@ description: 配信テンプレートの作成
 feature: Delivery Templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
 source-git-commit: 65e80f16a6beaee89b51636017c42766589e179e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->設定エラーを避けるために、Adobeでは、新しいテンプレートを作成するのではなく、ネイティブテンプレートを複製して設定をカスタマイズすることをお勧めします。
+>設定エラーを防ぐために、新しいテンプレートを作成するのではなく、ネイティブテンプレートを複製して設定をカスタマイズすることをお勧めします。
 
 配信テンプレートを設定するには、次の手順に従います。
 
@@ -44,7 +44,7 @@ ht-degree: 90%
 
    ![](assets/delivery_template_1.png)
 
-1. クリック **新規** （新しい配信テンプレートを作成する場合） **複製** 既存のテンプレート。
+1. ツールバーの「**新規**」をクリックして新しい配信テンプレートを作成するか、既存のテンプレートを&#x200B;**複製**&#x200B;します。
 
    ![](assets/delivery_template_2.png)
 

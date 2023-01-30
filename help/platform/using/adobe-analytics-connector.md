@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Adobe Analytics コネクタ
+title: Adobe Analytics Connector
 description: Adobe Analytics Connectorの詳細
 feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
 source-git-commit: 1dd0fe6734785b593302ed90db1d150cf6aee00c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## Adobe Analytics Connector の統合について {#about-analytics-connector-integration}
 
-Adobe Analytics Connectorを使用すると、Adobe Campaign と Adobe Analytics が **[!UICONTROL Web 分析コネクタ]**&#x200B;パッケージを介してやり取りできます。 キャンペーン後のユーザー行動に関するデータを、セグメントの形式でAdobe Campaignに転送します。 反対に、Adobe Campaignから配信されたキャンペーンの指標と属性をAdobe Analyticsに送信します。
+Adobe Analytics Connectorを使用すると、Adobe Campaign と Adobe Analytics が **[!UICONTROL Web 分析コネクタ]**&#x200B;パッケージを介してやり取りできます。 キャンペーン後のユーザー行動に関するデータをセグメントの形式で Adobe Campaign に送信します。逆に、Adobe Campaign から配信されたキャンペーンの指標と属性を Adobe Analytics に送信します。
 
 >[!CAUTION]
 >
@@ -34,8 +34,8 @@ Adobe Analytics Connectorを使用すると、Adobe Campaign でインターネ�
 
 * Web 分析の役割：
 
-   1. Adobe Campaignで開始したキャンペーンにマークを付けます。
-   1. 受信者がキャンペーンのクリック後に参照したサイトでの行動をセグメントの形式で保存します。 セグメントは、離脱した製品（閲覧されたが、カートへの追加や購入はおこなわれなかった）、購入またはカート放棄を対象とします。
+   1. Adobe Campaign で開始されたキャンペーンにマークを付けます。
+   1. 受信者がキャンペーンのクリック後に参照したサイトでの行動をセグメントの形式で保存します。セグメントは、離脱した製品（閲覧されたが、カートへの追加や購入はおこなわれなかった）、購入またはカート放棄を対象とします。
 
 * Adobe Campaign の役割：
 
@@ -98,7 +98,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
    ![](assets/analytics_connnector_5.png)
 
-1. クリック **[!UICONTROL 新規追加]** キャンペーンの影響を測定するために必要な識別子 ( 内部キャンペーン名 (cid) と iNmsBroadlog(bid) テーブル ID) を作成する場合。
+1. 「**[!UICONTROL 新規追加]**」をクリックし、キャンペーンの効果測定に必要な ID として、内部キャンペーン名（cid）および iNmsBroadlog（bid）テーブル ID を作成します。
 
    **[!UICONTROL コンバージョン変数]**&#x200B;の編集方法については、[この節](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=ja#admin-tools)を参照してください。
 
@@ -202,12 +202,12 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
    >[!IMPORTANT]
    >
-   >この設定モードは、エキスパートユーザー向けです。この式にエラーが発生すると、配信が停止される場合があります。
+   >この設定モードは、エキスパートユーザー向けに用意されているものです。この式にエラーがあった場合、配信が停止する可能性があります。
 
 1. 「**[!UICONTROL 詳細設定]**」タブでは、より技術的な設定を設定または変更できます。
 
    * **[!UICONTROL 存続期間]**：Adobe Campaign でテクニカルワークフローで Web イベントを収集するまでの期間（日数）を指定できます。デフォルト：180 日。
-   * **[!UICONTROL 永続性]**:すべての web イベント（購入など）をリマーケティングキャンペーンの属性にできる期間を定義できます。デフォルト：7 日。
+   * **[!UICONTROL 持続]**：すべての web イベント（購入など）をリマーケティングキャンペーンの属性にできる期間を定義できます。デフォルト：7 日。
 
 >[!NOTE]
 >
@@ -224,7 +224,7 @@ Adobe Campaign と Adobe Analytics の間のデータ交換は、バックグラ
 * **[!UICONTROL Web イベントの復元]**：このワークフローでは、指定したサイトでのユーザーの行動に関するセグメントを 1 時間に 1 回ダウンロードし、Adobe Campaign データベースに格納してリマーケティングワークフローを開始します。
 * **[!UICONTROL イベントパージ]**：このワークフローでは、「**[!UICONTROL 存続期間]**」フィールドで設定した期間に基づいてデータベースからすべてのイベントを削除できます。詳しくは、](#external-account-classic)Adobe Campaign Classic での外部アカウントの設定[を参照してください。
 * **[!UICONTROL コンバージョン済みの連絡先の特定]**：リマーケティングキャンペーン後に購入をおこなった訪問者のディレクトリ。このワークフローで収集されたデータは、**[!UICONTROL リマーケティングの効率]**&#x200B;レポートでアクセスできます。この[ページ](#creating-a-re-marketing-campaign)を参照してください。
-* **[!UICONTROL 指標とキャンペーン属性の送信]**:Adobe Analyticsコネクタを使用して、Adobe CampaignからAdobe Experience Cloudにキャンペーン指標を送信できます。 このワークフローは毎日午前 4 時にトリガーされ、データを Analysis に送信するには 24 時間かかります。
+* **[!UICONTROL 指標とキャンペーン属性の送信]**：Adobe Analytics Connector を使用して Adobe Campaign から Adobe Experience Cloud にキャンペーンの指標を送信できます。このワークフローは毎日午前 4 時にトリガーされ、データを Analysis に送信するには 24 時間かかります。
 
    ワークフローは再起動しないでください。再起動すると、以前のデータがすべて再送され、Analytics の結果に歪みが生じる可能性があります。
 

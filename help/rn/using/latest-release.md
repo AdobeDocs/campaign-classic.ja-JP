@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 8391df5046d56edfb33de5eb9f2afb4738108791
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2773'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ _2022年11月21日（PT）_
 
 **互換性の更新**
 
-* Adobe Campaign は、PostgreSQL 14 と互換性を持つようになりました。詳しくは、この[テクニカルノート](../../technotes/using/tech-stack-upgrade.md)を参照してください。
+* Adobe Campaign に、PostgreSQL 14 との互換性が備わりました。詳しくは、この[テクニカルノート](../../technotes/using/tech-stack-upgrade.md)を参照してください。
 
 * Microsoft Internet Explorer 11 のサポート終了に伴い、クライアントコンソールのダッシュボードの HTML レンダリングエンジンは、Edge Chromium を使用するようになりました。（NEO-20741）
 
@@ -109,7 +109,7 @@ _2022年7月1日（PT）_
 * Adobe Campaign SDK では、プッシュ通知用に Android 12 および iOS 15 をサポートするようになりました。
 * Adobe Campaign は、MySQL 8 と互換性を持つようになりました。
 * Adobe Campaign は、Windows 11 と互換性を持つようになりました。
-* Adobe Campaign は、Debian 11 と互換性を持つようになりました。詳しくは、この[テクニカルノート](../../technotes/using/tech-stack-upgrade.md)を参照してください。
+* Adobe Campaign に、Debian 11 との互換性が備わりました。詳しくは、この[テクニカルノート](../../technotes/using/tech-stack-upgrade.md)を参照してください。
 
 [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md#OperatingSystems)を参照してください。
 
@@ -149,7 +149,7 @@ _2022年7月1日（PT）_
 * 誤った HTML コードを配信で使用するとクラッシュが発生する可能性がある問題を修正しました。（NEO-40385）
 * 管理者以外のユーザーが配信プロパティの「**分析**」タブにアクセスできない可能性がある問題を修正しました。（NEO-34025）
 * メッセージの準備中に外部サーバーからチャンクモードで画像をアップロードできない可能性がある問題を修正しました。 （NEO-40307）
-* 配信が予想より多くの受信者に送信される可能性がある問題を修正しました。 （NEO-45108）
+* 配信が予想よりも多くの受信者に送信される可能性がある問題を修正しました。（NEO-45108）
 
 ## ![](assets/do-not-localize/green_2.png) リリース 7.2.2 - ビルド 9349 {#release-7-2-2}
 
@@ -167,7 +167,7 @@ _2022年3月1日（PT）_
 * NmsActiveContact テーブルを更新する際にアップグレード後の速度が低下する問題を修正しました。（NEO-43206）
 * 標準フォルダーが&#x200B;**管理**&#x200B;ノードからその他の場所に移動された場合に発生したアップグレード後の失敗の問題を修正しました。（NEO-42875）
 * **データを更新**&#x200B;ワークフローアクティビティを使用すると、受信者スキーマが Google Cloud 外部データベースの受信者データで更新されない可能性がある問題を修正しました。（NEO-42343）
-* Adobe Analytics コネクタに関連するアップグレード後の問題を修正しました。（NEO-43318、NEO-38136）
+* Adobe Analytics Connectorに関連するアップグレード後の問題を修正しました。（NEO-43318、NEO-38136）
 * アップグレード後の「VALUE_TO_CHANGE」による CUID の上書きの問題を修正しました。（NEO-43267）
 * マルチミッド設定でミッドソーシングインスタンスとマーケティングインスタンスを同期する際にエラーが発生する問題を修正しました。（NEO-10432）
 * 同時に 1000 を超える broadlog がある場合に、配信品質ワークフローを更新するとエラーが発生する問題を修正しました。（NEO-40276）

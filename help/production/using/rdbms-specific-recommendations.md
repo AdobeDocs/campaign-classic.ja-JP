@@ -6,9 +6,9 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 98b338ddf0da184363c599d74aeb98ed7f6303ce
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1214'
 ht-degree: 3%
 
 ---
@@ -83,7 +83,6 @@ ht-degree: 3%
 PostgreSQL では、次の一般的なキーワードを使用できます。
 
 * 真空（完全、分析、詳細）
-* 再インデックス
 
 VACUUM 操作を実行し、分析して時間を計測するには、次の構文を使用します。
 
@@ -99,61 +98,48 @@ ANALYZE 文は省略しないことを強くお勧めします。 それ以外�
 ```
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsdelivery;
-REINDEX TABLE nmsdelivery;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsdeliverystat;
-REINDEX TABLE nmsdeliverystat;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflow;
-REINDEX TABLE xtkworkflow;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowevent;
-REINDEX TABLE xtkworkflowevent;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowjob;
-REINDEX TABLE xtkworkflowjob;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowlog;
-REINDEX TABLE xtkworkflowlog;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkworkflowtask;
-REINDEX TABLE xtkworkflowtask;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkjoblog;
-REINDEX TABLE xtkjoblog;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) xtkjob;
-REINDEX TABLE xtkjob;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsaddress;
-REINDEX TABLE nmsaddress;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsdeliverypart;
-REINDEX TABLE nmsdeliverypart;
 
 \timing on
 VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
-REINDEX TABLE nmsmirrorpageinfo;
 ```
 
 >[!NOTE]
 >
 >* Adobeでは、次の小さなテーブルから始めることをお勧めします。この方法では、大きなテーブル（障害のリスクが最も高い）でプロセスが失敗した場合、メンテナンスの少なくとも一部が完了しています。
 >* Adobeでは、大幅な更新が必要となる、データモデルに固有のテーブルを追加することをお勧めします。 これは、次の場合に該当します。 **NmsRecipient** 日別のデータレプリケーションフローが大きい場合。
->* VACUUM および REINDEX 文はテーブルをロックし、メンテナンスの実行中に一部のプロセスを一時停止します。
+>* VACUUM 文はテーブルをロックし、メンテナンスの実行中に一部のプロセスを一時停止します。
 >* 非常に大きなテーブル（通常は 5 Gb を超える）の場合、VACUUM FULL 文は非常に非効率になり、非常に長い時間がかかる可能性があります。 Adobeでは、 **YyyNmsBroadLogXxx** 表。
 >* このメンテナンス操作は、Adobe Campaignワークフローで、 **[!UICONTROL SQL]** アクティビティ。 詳しくは、[この節](../../workflow/using/architecture.md)を参照してください。バックアップウィンドウに衝突しない低アクティビティ時間のメンテナンスをスケジュールしてください。
-
 >
 
 

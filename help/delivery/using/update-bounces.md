@@ -5,9 +5,9 @@ description: ISP が機能停止した後にバウンスの認定条件を更新
 feature: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: 13f730d428861124060146efa26238ceca38bed6
+source-git-commit: f320c905f50c69a40678729b009a4c238a462e3c
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '531'
 ht-degree: 36%
 
 ---
@@ -34,7 +34,7 @@ Appleや Gmail のグローバルな問題などにより、有効なAppleや Gm
 >
 >Google Workspace ステータスダッシュボードは、 [このページ](https://www.google.com/appsstatus#hl=ja&amp;v=status){_blank}.
 
-## 症状{#update-bounce-symptoms}
+## 影響{#update-bounce-impact}
 
 ISP が機能停止した場合、Campaign を通じて送信されたメールは、受信者に正常に届きません。これらのメールは誤ってバウンスと見なされます。
 
@@ -57,7 +57,10 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 
 * SMTP バウンス応答情報を含むCampaign Classicv7 インスタンスの場合、 **[!UICONTROL エラーテキスト]** 強制隔離リストのフィールド：
 
-   * **エラーテキスト（強制隔離テキスト）** には、「550-5.1.1」およびが含まれます。 **エラーテキスト（強制隔離テキスト）** に「support.ISP.com」が含まれる場合、「support.ISP.com」は次のようになります。例えば、「support.apple.com」または「support.google.com」と入力します。
+   * **エラーテキスト（強制隔離テキスト）** には、「550-5.1.1」およびが含まれます。 **エラーテキスト（強制隔離テキスト）** には、「support.ISP.com」が含まれます。
+
+      ここで、「support.ISP.com」は次のようになります。例えば、「support.apple.com」または「support.google.com」と入力します。
+
    * **ステータスを更新 (@lastModified)** MM/DD/YYYY HH 以降:MM:午前
    * **ステータスを更新 (@lastModified)** MM/DD/YYYY HH の前またはそれ以前:MM:午後 (SS)
 

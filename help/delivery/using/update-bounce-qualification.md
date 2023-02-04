@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: ISP の機能停止後にバウンス認定条件を更新
+title: Gmail の停止後にバウンスの選定を更新
 description: ISP が機能停止した後にバウンスの認定条件を更新する方法を学ぶ
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
-source-wordcount: '438'
-ht-degree: 100%
+source-git-commit: 13f730d428861124060146efa26238ceca38bed6
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 98%
 
 ---
 

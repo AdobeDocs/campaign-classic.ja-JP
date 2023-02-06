@@ -5,10 +5,10 @@ description: Italia Online の停止後にバウンスの選定を更新する�
 feature: Deliverability
 hide: true
 hidefromtow: true
-source-git-commit: 3cf6ffb2b69d44b56615492dd9db8965ae3cf4e1
+source-git-commit: 0e6a46e4a0575fa5a300a952a6bb134f3426172e
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 27%
+source-wordcount: '295'
+ht-degree: 19%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 27%
 
 ## 影響{#outage-impact}
 
-ISP が機能停止した場合、Campaign を通じて送信されたメールは、受信者に正常に届きません。これらのメールは誤ってバウンスと見なされます。これはAdobeに影響を与えるだけでなく、Italia Online にメールを配信しようとするすべての人々に影響を与えます。
+ISP の機能停止が発生した場合のほとんどと同様に、Campaign を通じて送信された一部の E メールは誤ってバウンスとしてマークされていました。 これはAdobeに影響を与えるだけでなく、停止中に Italia Online にメールを配信しようとしたすべての人々に影響を与えました。
 
-症状は次のとおりです。
+症状は次の通りです。
 
-* **遅延バウンス** メッセージと共に `452 requested action aborted: try again later` が監視されています。これらは自動的に再試行され、アクションは必要ありません。 ISP が最大容量を回復するにつれて、改善する必要があります。
+* **遅延バウンス** メッセージと共に `452 requested action aborted: try again later`  — これらは自動的に再試行されたので、アクションは必要ありません。
 
 * **ハードバウンス** メッセージと共に `550 <email address> recipient rejected` は、送信者がサーバーの過負荷を防ぐため、1 月 26 日（現地時間の午前 8 時～午後 2 時）に ISP から返されました。 Italia Online Postmaster によって確認されたように、これらは実際のハードバウンスではないので、2023 年 1 月 26 日 (PT) に除外されたすべての E メールアドレスの強制隔離を解除することをお勧めします。
 

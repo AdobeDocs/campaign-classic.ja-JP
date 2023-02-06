@@ -5,10 +5,10 @@ description: ISP が機能停止した後にバウンスの認定条件を更新
 feature: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: f320c905f50c69a40678729b009a4c238a462e3c
+source-git-commit: 9cdd4da153e5e5d1c7203d193067843fe832f38e
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 36%
+source-wordcount: '524'
+ht-degree: 37%
 
 ---
 
@@ -48,14 +48,14 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 
 インシデントの時間枠と ISP に基づき、このクエリで推奨されるガイドラインを次に示します。
 
-* インバウンド E メールのルール情報を含む Campaign v8 およびCampaign Classicv7 環境の場合、 **[!UICONTROL エラーテキスト]** 強制隔離リストのフィールド：
+* インバウンド E メールルール情報が含まれる Campaign 環境の場合： **[!UICONTROL エラーテキスト]** 強制隔離リストのフィールド：
 
    * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
    * **E メールドメイン (@domain)** domain1.com と等しい **E メールドメイン (@domain)** domain2.com と等しい **E メールドメイン (@domain)** domain3.com と等しい
    * **ステータスを更新 (@lastModified)** MM/DD/YYYY HH 以降:MM:午前
    * **ステータスを更新 (@lastModified)** MM/DD/YYYY HH の前またはそれ以前:MM:午後 (SS)
 
-* SMTP バウンス応答情報を含むCampaign Classicv7 インスタンスの場合、 **[!UICONTROL エラーテキスト]** 強制隔離リストのフィールド：
+* SMTP バウンス応答情報が **[!UICONTROL エラーテキスト]** 強制隔離リストのフィールド：
 
    * **エラーテキスト（強制隔離テキスト）** には、「550-5.1.1」およびが含まれます。 **エラーテキスト（強制隔離テキスト）** には、「support.ISP.com」が含まれます。
 

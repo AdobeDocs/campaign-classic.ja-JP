@@ -437,7 +437,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
  </thead> 
  <tbody> 
   <tr> 
-   <td> 名前<br /> </td> 
+   <td> name<br /> </td> 
    <td> 仮想ディレクトリの名前 <br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
@@ -481,7 +481,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
-   <td> 名前<br /> </td> 
+   <td> name<br /> </td> 
    <td> コマンドライン名<br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
@@ -1823,7 +1823,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> maxWaitingMessages<br /> </td> 
    <td> 保留中のメッセージ：メモリ内で配信を待機しているメッセージの最大数。 <br /> </td> 
    <td> 長いテキスト<br /> </td> 
-   <td> 2000 年<br /> </td> 
+   <td> 2000<br /> </td> 
   </tr> 
   <tr> 
    <td> maxWorkingSetMb<br /> </td> 
@@ -1910,7 +1910,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
-   <td> 名前<br /> </td> 
+   <td> name<br /> </td> 
    <td> 論理名：ユーザーによるアフィニティにリンクされた名前。 名前はセミコロンを使用して区切られます。<br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
@@ -2234,13 +2234,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> ラベル<br /> </td> 
+   <td> label<br /> </td> 
    <td> ラベル<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> NewLabel()<br /> </td> 
   </tr> 
   <tr> 
-   <td> 名前<br /> </td> 
+   <td> name<br /> </td> 
    <td> 内部名<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> NewName() <br /> </td> 
@@ -2302,7 +2302,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> ラベル<br /> </td> 
+   <td> label<br /> </td> 
    <td> ラベル<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> NewLabel()<br /> </td> 
@@ -2314,7 +2314,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> 名前<br /> </td> 
+   <td> name<br /> </td> 
    <td> 内部名<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> NewName() <br /> </td> 
@@ -3244,7 +3244,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </thead> 
  <tbody> 
   <tr> 
-   <td> 名前<br /> </td> 
+   <td> name<br /> </td> 
    <td> ヘッダー名<br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 

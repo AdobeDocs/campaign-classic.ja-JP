@@ -9,7 +9,7 @@ exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 source-git-commit: 7f24c8be599d6dece41de848d64feb8079b10ff3
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 22%
+ht-degree: 32%
 
 ---
 
@@ -35,11 +35,11 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 >
 >Campaign クライアントコンソールと Campaign アプリケーションサーバーは実行する必要があります **同じ製品バージョンで**. Adobeでは、 **同じ製品ビルド**. Campaign のクライアントとサーバーのバージョンを [この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
-## Microsoft Edge Webview2 ランタイムインストール {#webview}
+## Microsoft Edge WebView2 ランタイムのインストール {#webview}
 
-Campaign Classic7.3 のビルドバージョン以降、コンソールのインストールにはMicrosoft Edge Webview 2 ランタイムのインストールが必要です。
+Campaign Classic 7.3 ビルドバージョン以降、コンソールのインストールには Microsoft Edge WebView2 ランタイムのインストールが必要です。
 
-Web ビューは、Windows 11 オペレーティングシステムの一部として既定でインストールされます。 システム上にまだ存在しない場合は、Campaign Classicコンソールインストーラが、次の場所からダウンロードするように求めます。 [Microsoft Developer Web サイト](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp). Microsoftのサポートは廃止されたので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。 リンクにアクセスするには、別のブラウザーを使用してください。
+WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。システム上にまだ存在しない場合は、Campaign Classicコンソールインストーラが、次の場所からダウンロードするように求めます。 [Microsoft Developer Web サイト](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp). Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。別のブラウザーを使用してリンクにアクセスしてください。
 
 ## Adobeがホストする実装 {#hosted-customers}
 
@@ -59,7 +59,7 @@ Adobe Campaignユーザーが、作成および設定したインスタンスに
 
 Adobe Campaignアプリケーションサーバー (nlserver web) の起動に使用されるコンピューターがクライアントコンソールからユーザー接続を受け取った場合、Adobe Campaignリッチクライアントの設定プログラムをHTMLインターフェイスから使用できるように設定できます。 新しいバージョンのクライアントコンソールが使用可能な場合は、クライアントコンソールを起動する際に、ユーザーに招待してダウンロードしてもらいます。
 
-これをおこなうには、次の操作が必要です。
+そのためには、次の手順を実行する必要があります。
 
 1. コンソールインストールプログラムを含むパッケージを選択します。
 
@@ -159,7 +159,7 @@ If **[!UICONTROL 今後この質問をしない]**  が選択されている場�
 
 >[!NOTE]
 >
->Campaign Classic 7.3 のビルドバージョンでは、Adobe Campaignクライアントコンソールは、プロキシ認証中にプロキシ資格情報を 2 回要求する場合があります。 これは、Microsoft Edge Webview2 が Internet Explorer とは異なり、プロキシ資格情報をキャッシュ/パスワードストアに保存しないためです。
+>Campaign Classic 7.3 ビルドバージョンでは、Adobe Campaign クライアントコンソールは、プロキシ認証中にプロキシ資格情報を 2 回要求する場合があります。これは、Internet Explorer とは異なり、Microsoft Edge WebView2 がプロキシ資格情報をキャッシュ／パスワードストアに保存しないためです。
 
 **関連トピック**
 

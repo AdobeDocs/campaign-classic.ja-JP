@@ -5,7 +5,7 @@ description: キャンペーンワークフローのベストプラクティス�
 feature: Workflows
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 100%
 

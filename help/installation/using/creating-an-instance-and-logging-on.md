@@ -9,7 +9,7 @@ exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 16%
 
 新しいインスタンスとAdobe Campaignデータベースを作成するには、次の手順に従います。
 
-1. 接続を作成します。
+1. 接続の作成.
 1. ログオンして、関連するインスタンスを作成します。
 1. データベースの作成と設定.
 

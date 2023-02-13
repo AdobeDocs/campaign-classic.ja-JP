@@ -107,7 +107,7 @@ ht-degree: 53%
 
 ここでは、Adobe Campaign の環境を複製する方法を説明します。これにより、移行元の環境が移行先の環境に復元され、同一の作業環境が 2 つになります。
 
-これは、次の手順に従って行います。
+これを行うには、次の手順に従います。
 
 1. 移行元となる環境に含まれているすべてのインスタンス上にあるデータベースのコピーを作成します。
 
@@ -163,7 +163,7 @@ ht-degree: 53%
 
 ### Adobe Campaign Server アプリケーションのアップグレード
 
-1. を実行します。 **Setup.exe** ファイル。 このファイルをダウンロードする必要がある場合は、 [ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
+1. を実行します。 **Setup.exe** ファイル。 このファイルをダウンロードする必要がある場合は、 [ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html).
 
 1. インストールモードを選択します。 **更新** または **修復**.
 
@@ -218,7 +218,7 @@ Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
 
 一部の設定では、新しいビルドに更新するために特定の追加タスクが必要です。
 
-#### トランザクションメッセージ
+#### トランザクションメッセージング
 
 トランザクションメッセージ (Message Center) が Campaign インスタンスで有効になっている場合、アップグレードするには、次の追加手順を実行する必要があります。
 
@@ -246,7 +246,7 @@ Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
 
 ミッドソーシング環境の場合、アップグレードするには、次の追加手順を実行する必要があります。
 
-1. 連絡先 [Adobeカスタマーケア](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) をクリックして、ミッドソーシングサーバーのアップグレードを調整します。
+1. 連絡先 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) をクリックして、ミッドソーシングサーバーのアップグレードを調整します。
 1. テストリンクを実行して、バージョンが更新されていることを検証します。 例：
 
    ```
@@ -362,7 +362,7 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 #### コードの場所
 
 1. 組み込みコードは、datakit フォルダー内の XML ファイルに保存されます。 競合しているオブジェクトに対応する XML ファイルを探します。例：installationDirectory\datakit\nms\fra\form\recipient.xml
-1. 元のバージョンを取得：経由 [ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) または製品のアップグレードされていない別のインストール。
+1. 元のバージョンを取得：経由 [ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html) または製品のアップグレードされていない別のインストール。
 1. 新しいバージョンを取得します。経由 [ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) またはお客様がインストールしたファイル。
 1. カスタムバージョンの取得：Campaign クライアント内からオブジェクトのソースコードを取得します。
 

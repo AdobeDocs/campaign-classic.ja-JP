@@ -5,7 +5,7 @@ description: ワークフロー実行の監視
 feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2098'
 ht-degree: 100%
 
@@ -234,8 +234,7 @@ instance.vars.isRunning = false
 
 ## データベースのメンテナンス {#database-maintenance}
 
-ワークフローは、多くのワークテーブルを使用します。ワークテーブルは、メンテナンスしないと、領域を消費し、プラットフォーム全体の低速化を招きます。
-データベースメンテナンスについて詳しくは、この[節](../../production/using/tables-to-maintain.md)を参照してください。
+ワークフローは、多くのワークテーブルを使用します。ワークテーブルは、メンテナンスしないと、領域を消費し、プラットフォーム全体の低速化を招きます。データベースメンテナンスについて詳しくは、この[節](../../production/using/tables-to-maintain.md)を参照してください。
 
 **管理／プロダクション／テクニカルワークフロー**&#x200B;ノードからアクセスできる&#x200B;**データベースクリーンアップ**&#x200B;ワークフローを使用すると、古いデータを削除して、データベースの急激な増加を回避できます。ワークフローは、ユーザーの操作なしで自動的にトリガーされます。[Campaign Classic v7 実稼動ガイド](../../production/using/database-cleanup-workflow.md)を参照してください。
 

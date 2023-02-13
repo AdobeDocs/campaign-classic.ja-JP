@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: ワークフローモード
-description: ワークフローモード
+title: ワークフローモード経由でオファーを統合
+description: ワークフローモード経由でオファーを統合
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# ワークフローモード{#integrating-an-offer-via-a-workflow}
+# ワークフローモード経由でオファーを統合{#integrating-an-offer-via-a-workflow}
 
 ![](../../assets/v7-only.svg)
 

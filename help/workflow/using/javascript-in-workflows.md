@@ -5,8 +5,8 @@ description: これらの例は、ワークフローで JavaScript コードを�
 feature: Workflows
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '1775'
+workflow-type: tm+mt
+source-wordcount: '1771'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 100%
    1. `xtk:session` スキーマの `Write` メソッドを呼び出します。
 
       >[!IMPORTANT]
-      > Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取得**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ja){target=&quot;_blank&quot;}。
+      > Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取得**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ja){target="_blank"}.
 
    1. XML コードを書き込みリクエストの引数として渡します。
 
@@ -562,7 +562,7 @@ for each (var w in res.recipient)
 * `delete` 操作
 
 >[!IMPORTANT]
-> Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取得**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ja){target=&quot;_blank&quot;}。
+> Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取得**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ja){target="_blank"}.
 
 #### 例 1：レコードを挿入または更新する
 

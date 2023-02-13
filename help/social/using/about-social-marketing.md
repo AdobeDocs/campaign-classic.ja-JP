@@ -8,8 +8,8 @@ topic-tags: introduction
 exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
 source-git-commit: 795bd8637db4866d887393cc68b8dac93ca02bd8
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 100%
+source-wordcount: '90'
+ht-degree: 86%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ソーシャルネットワークを管理するために設計された&#x200B;**ソーシャルネットワーク管理**（ソーシャルマーケティング）アプリケーションを使用すると、Twitter を介して顧客や見込み客とやり取りすることができます。
 
-Campaign と Twitter を統合する主な手順については、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+Campaign とTwitterを [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=ja){target="_blank"}.
 
 オンプレミス環境またはハイブリッド環境のお客様は、Twitter の外部アカウントを設定して有効にする必要があります。ハイブリッド設定の場合、「**ミッドソーシング**」タブも、ミッドソーシングプラットフォームへのアクティブな接続を設定する必要があります。
 

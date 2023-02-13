@@ -5,13 +5,13 @@ description: web アプリケーションの新規作成
 feature: Web Apps
 exl-id: 5ccf5a21-48aa-4c0d-8cc8-457eb07d9f74
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
 
 ---
 
-# Web アプリケーションの新規作成{#creating-a-new-web-application}
+# web アプリケーションの新規作成{#creating-a-new-web-application}
 
 ![](../../assets/common.svg)
 

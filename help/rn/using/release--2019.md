@@ -5,7 +5,7 @@ description: Campaign Classic 2019 リリースの詳細
 hidefromtoc: true
 exl-id: 8a36a542-e095-4208-b624-e59845592863
 source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4836'
 ht-degree: 100%
 
@@ -410,7 +410,7 @@ _2019 年 5 月 30 日_
 * データベースサイズ - XtkJobLog：このテーブルにパージメカニズムが追加されました。これにより、データベースサイズによい影響があります。
 * BCC アーカイブ：BCC アーカイブ用のデフォルトのパラメーターを変更し、アーカイブ速度を上げました。[詳細を表示](../../installation/using/email-archiving.md#parameters)
 * データベース構造の更新：データベース構造更新ウィザードによって生成された SQL リクエストを改善し、すばやく実行できるようにしました。
-* オペレーターアクションの Guardrail：プラットフォームの整合性に影響する可能性があるアクションをオペレーターが実行するのを防ぐため、複数の guardrail が実装されました。インターフェイスからビルトインスキーマを削除できなくなりました。また、管理者以外のユーザーはワークフローソース XML を編集できなくなりました。
+* オペレーターアクションのガードレール：プラットフォームの整合性に影響する可能性があるアクションをオペレーターが実行するのを防ぐため、複数のガードレールが実装されました。インターフェイスからビルトインスキーマを削除できなくなりました。また、管理者以外のユーザーはワークフローソース XML を編集できなくなりました。
 * 新しいオプションが使用可能：**XtkSecurity_Restrict_EditXML**（配信の XML コードのエディションを無効化できる）および **NmsOperation_OperationMgtDebug**（operationMgt テクニカルワークフロー実行を監視できる）。[詳細を表示](../../installation/using/configuring-campaign-options.md)
 
 **その他の変更**

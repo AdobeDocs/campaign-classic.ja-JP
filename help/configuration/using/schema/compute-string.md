@@ -10,11 +10,11 @@ ht-degree: 5%
 
 ---
 
-# compute-string element {#compute-string--element}
+# 計算文字列要素 {#compute-string--element}
 
 ![](../../../assets/v7-only.svg)
 
-## Content model {#content-model-1}
+## コンテンツモデル {#content-model-1}
 
 compute-string:==EMPTY
 
@@ -34,7 +34,7 @@ compute-string:==EMPTY
 
 この `<compute-string>` element を使用すると、XTK 式に基づいて文字列を生成し、複数の値に基づいてインターフェイスに「built」ラベルを表示できます。
 
-## Use and context of use {#use-and-context-of-use-1}
+## 使用と使用のコンテキスト {#use-and-context-of-use-1}
 
 いいえの場合 `<compute-string>` が定義されている場合、 `<compute-string>` 要素は、デフォルトで、スキーマのプライマリキーの値を使用して入力されます。
 

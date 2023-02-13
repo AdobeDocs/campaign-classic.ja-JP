@@ -5,7 +5,7 @@ description: 専用のユースケースを通じて A/B テストを実行す�
 feature: A/B Testing
 exl-id: bc23a444-a872-48fb-8bba-64b301541089
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%
 

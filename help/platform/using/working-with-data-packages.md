@@ -319,13 +319,13 @@ Adobe Campaign クライアントコンソールのメインメニューで&#x20
 
 ![](assets/ncs_datapackage_import_2.png)
 
-### 組み込みパッケージのインストール {#installing-a-standard-package}
+### ビルトインパッケージのインストール {#installing-a-standard-package}
 
-標準パッケージは、Adobe Campaign の設定時にインストールされる組み込みパッケージです。権限とデプロイメントモデルに応じて、新しいオプションやアドオンを入手する場合や、新しいオファーにアップグレードする場合に、新しい標準パッケージをインポートできます。
+標準パッケージは、Adobe Campaign の設定時にインストールされるビルトインパッケージです。権限とデプロイメントモデルに応じて、新しいオプションやアドオンを入手する場合や、新しいオファーにアップグレードする場合に、新しい標準パッケージをインポートできます。
 
 インストールできるパッケージを確認するには、ライセンス契約を参照してください。
 
-組み込みパッケージについて詳しくは、[こちら](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+ビルトインパッケージについて詳しくは、[こちら](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
 ## データパッケージのベストプラクティス {#data-package-best-practices}
 

@@ -14,7 +14,7 @@ ht-degree: 4%
 
 ![](../../../assets/v7-only.svg)
 
-## Content model {#content-model-9}
+## コンテンツモデル {#content-model-9}
 
 keyfield:==EMPTY
 
@@ -37,12 +37,12 @@ keyfield:==EMPTY
 
 ## 属性の説明 {#attribute-description-9}
 
-* **xlink (MNTOKEN)**: lets you automatically reference foreign keys defined in the join for a relation table (N-N link).
-* **xpath (MNTOKEN)**: definition of an index or a key on an `<attribute>`  element. This attribute receives an Xpath which defines the path to the schema attribute that defines the key or the index.
+* **xlink (MNTOKEN)**:では、リレーションテーブル（N-N リンク）の結合で定義された外部キーを自動的に参照できます。
+* **xpath (MNTOKEN)**:インデックスまたはキーの定義 `<attribute>`  要素。 この属性は、キーまたはインデックスを定義する schema 属性へのパスを定義する Xpath を受け取ります。
 
 ## 例 {#examples-}
 
-Selection of the &quot;sName&quot; field in an index with an Xpath on &quot;@name&quot;:
+「@name」の Xpath を持つインデックス内の「sName」フィールドの選択：
 
 ```
 <keyfield xpath="@name"/>

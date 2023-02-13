@@ -24,7 +24,6 @@ ht-degree: 15%
 >* Adobeでは、更新の前に各インスタンスでデータベースのバックアップを作成することを強くお勧めします。 詳しくは、[この節](../../production/using/backup.md)を参照してください。
 >* アップグレードを実行するには、インスタンスとログにアクセスする機能と権限があることを確認してください。
 >* 読み取り [この節](../../installation/using/general-architecture.md) そして [ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) チャプターを開始する前に
-
 >
 
 
@@ -124,7 +123,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 ### 更新されたパッケージの取得 {#obtain-updated-packages}
 
-まず、更新されたAdobe Campaignの両方のパッケージを復元します。接続先 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+まず、更新されたAdobe Campaignの両方のパッケージを復元します。接続先 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
 
 ファイルは **nlserver6-v7-XXX.rpm**
 

@@ -5,7 +5,7 @@ description: Campaign と CRM の間のデータ管理
 feature: Salesforce Integration, Microsoft CRM Integration
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 
 >[!NOTE]
 >
->このメモは、一般的な「**[!UICONTROL CRM コネクタ]**」アクティビティにのみ適用されます。他の CRM アクティビティの場合、プロセスは自動です。
+>このメモは、一般的な **[!UICONTROL CRM コネクタ]**&#x200B;アクティビティにのみ適用されます。他の CRM アクティビティの場合、プロセスは自動です。
 >
 >このオプションは、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;を使用して手動で作成および設定する必要があります。これはテキストオプションである必要があり、その値は **yyyy/MM/dd hh:mm:ss** フォーマットに一致する必要があります。
 > 
@@ -103,7 +103,7 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 * Microsoft Dynamics の場合：**modifiedon**。
 * Salesforce.com の場合：**LastModifiedDate**、**SystemModstamp**。
 
-「**[!UICONTROL 自動インデックス]**」オプションをオンにすると、「**[!UICONTROL JavaScript コード]**」タイプのアクティビティによって、同期ワークフローで使用できる 3 つの変数が生成されます。これらのアクティビティは、次のとおりです。
+「**[!UICONTROL 自動インデックス]**」オプションをオンにすると、**[!UICONTROL JavaScript コード]**&#x200B;タイプのアクティビティによって、同期ワークフローで使用できる 3 つの変数が生成されます。これらのアクティビティは、次のとおりです。
 
 * **vars.crmOptionName**：最後のインポート日を含むオプションの名前を表します。
 * **vars.crmStartImport**：最後のデータ収集の開始日（この日を含む）を表します。
@@ -115,7 +115,7 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 
 ### データのフィルタリング {#filtering-data}
 
-様々な CRM で効率的に操作をおこなうために、次のルールを使用してフィルターを作成する必要があります。
+様々な CRM で効率的に操作を行うために、次のルールを使用してフィルターを作成する必要があります。
 
 * 各フィルターレベルでは、1 つのタイプの演算子のみを使用できます。
 * AND NOT 演算子はサポートされていません。

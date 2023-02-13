@@ -5,7 +5,7 @@ description: メール配信を作成する方法を学ぶ
 feature: Email
 exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
 

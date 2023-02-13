@@ -357,4 +357,4 @@ nlserver stop web
 
 Adobe Campaignサーバーは、 **内部** すべてのインスタンスに対するすべての権限を持つ インストール直後に、ログインにパスワードが含まれていません。 定義する必要があります。
 
-詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
+詳しくは、[こちら](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。

@@ -5,7 +5,7 @@ description: テクニカルワークフローの監視
 feature: Workflows
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-テクニカルワークフローは監視する必要があり、失敗した場合にアクションをおこなう必要があります。
+テクニカルワークフローは監視が必要で、失敗した場合はアクションを実行する必要があります。
 
 様々なキャンペーンプロセスを監視するその他の方法については、[このページ](../../production/using/monitoring-guidelines.md)で説明しています。
 

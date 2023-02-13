@@ -5,7 +5,7 @@ description: Adobe Campaign Classic で配信品質を管理する際に確認�
 feature: Deliverability
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 100%
 

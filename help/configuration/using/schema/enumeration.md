@@ -67,7 +67,7 @@ enumeration:==(help| value)
    * float
    * html
    * int64
-   * link
+   * リンク
    * 長い
    * メモ
    * MNTOKEN

@@ -5,7 +5,7 @@ description: 頻度ルール
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3460'
 ht-degree: 100%
 
@@ -116,7 +116,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
 しきい値を定義する際には、ターゲティングディメンションにリンクされているディメンションを使用できます。例えば、訪問者テーブルに格納されている受信者プロファイルへのメッセージを含めることができます（訪問者テーブルについて詳しくは、[この節](../../surveys/using/use-case--creating-a-refer-a-friend-form.md)を参照）。または、同一世帯へのメッセージの配信（複数の E メールアドレスが関係する）を週に一度までに制限することもできます。この場合、同一世帯かどうかは、受信者のディメンションにリンクされているディメンションによって判断されます。
 
-これをおこなうには、「**[!UICONTROL リンクされたディメンションに関するメッセージをカウント]**」オプションをオンにし、訪問者または連絡先のテーブルを選択します。
+これを行うには、「**[!UICONTROL リンクされたディメンションに関するメッセージをカウント]**」オプションをオンにし、訪問者または連絡先のテーブルを選択します。
 
 ### メッセージの重み付け {#message-weight}
 

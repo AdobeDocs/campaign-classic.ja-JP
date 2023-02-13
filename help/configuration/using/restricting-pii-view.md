@@ -11,7 +11,7 @@ ht-degree: 70%
 
 ---
 
-# PI ビューの制限{#restricting-pii-view}
+# PI の閲覧を制限{#restricting-pii-view}
 
 ![](../../assets/v7-only.svg)
 

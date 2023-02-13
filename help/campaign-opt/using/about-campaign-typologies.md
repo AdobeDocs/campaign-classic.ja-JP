@@ -5,7 +5,7 @@ description: キャンペーンタイポロジについて
 feature: Typology Rules
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Adobe Campaign では、次の 4 種類のタイポロジルールをデザイ�
 1. 作成したタイポロジを使用するように配信を設定します。詳しくは、[この節](applying-rules.md#applying-a-typology-to-a-delivery)を参照してください。
 1. キャンペーンのシミュレーションによって動作をテストして制御する。キャンペーンのシミュレーションについて詳しくは、[この節](campaign-simulations.md)を参照してください。
 
-配信の準備では、基準を満たした場合に受信者が除外されます。ログを確認して除外を監視することができます。頻度タイポロジルールの使用例については、[このページ](pressure-rules.md#use-cases-on-pressure-rules)を参照してください。
+配信の準備では、基準を満たした場合に受信者が除外されます。ログを確認して除外を監視することができます。頻度タイポロジルールのユースケースについては、[このページ](pressure-rules.md#use-cases-on-pressure-rules)を参照してください。
 
 ## チュートリアルビデオ {#typologies-video}
 

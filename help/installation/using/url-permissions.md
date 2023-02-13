@@ -54,7 +54,7 @@ Campaign Classic インスタンスの JavaScript コード（ワークフロー
 
 詳しくは、次の節を参照してください。
 
-* [コントロールパネルに関するドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
+* [コントロールパネルに関するドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
 * [ホスティングモデル](hosting-models.md)
 * [Campaign サーバーの設定](configuring-campaign-server.md)
 * [Campaign サーバー設定ファイルのパラメーター](the-server-configuration-file.md)

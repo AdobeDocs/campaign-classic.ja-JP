@@ -55,7 +55,8 @@ Adobe Campaign と Adobe Experience Cloud の間の接続を有効化するに�
 
 AEM Assets と Adobe Campaign を統合するには、まず Adobe Experience Manager と Adobe Campaign 間の統合を設定する必要があります。この設定には、主に次のことが必要になります。
 
-* **[!UICONTROL AEM 統合]**&#x200B;組み込みパッケージのインストール
+* **[!UICONTROL AEM 統合]**のビルトインパッケージのインストール
+
 * Adobe Experience Manager に特有の外部アカウントの設定
 
 Adobe Campaign と Adobe Experience Manager を統合する方法については、[詳細ドキュメント](../../integrations/using/about-adobe-experience-manager.md)を参照してください。

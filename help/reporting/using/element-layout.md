@@ -5,7 +5,7 @@ description: 要素のレイアウト
 feature: Reporting
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
 source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 

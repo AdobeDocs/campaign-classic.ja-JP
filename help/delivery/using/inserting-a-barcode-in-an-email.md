@@ -4,7 +4,7 @@ title: メールへのバーコードの挿入
 description: メールへのバーコードの挿入
 feature: Email Design
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 

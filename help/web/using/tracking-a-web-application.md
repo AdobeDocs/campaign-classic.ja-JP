@@ -5,13 +5,13 @@ description: web アプリケーションへの訪問のトラッキング
 feature: Web Apps
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
 
 ---
 
-# Web アプリケーションへの訪問のトラッキング{#tracking-a-web-application}
+# web アプリケーションへの訪問のトラッキング{#tracking-a-web-application}
 
 ![](../../assets/common.svg)
 

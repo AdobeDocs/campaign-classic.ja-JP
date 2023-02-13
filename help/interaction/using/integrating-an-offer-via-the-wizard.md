@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: ウィザードモード
-description: ウィザードモード
+title: ウィザードモード経由でオファーを統合
+description: ウィザードモード経由でオファーを統合
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# ウィザードモード{#integrating-an-offer-via-the-wizard}
+# ウィザードモード経由でオファーを統合{#integrating-an-offer-via-the-wizard}
 
 ![](../../assets/v7-only.svg)
 
@@ -60,7 +60,8 @@ ht-degree: 100%
 
    ![](assets/offer_delivery_007.png)
 
-1. 結合フィールドを使用して、プロパティを配信コンテンツに挿入します。使用可能な提案の数は、エンジンの呼び出しがどのように設定されているかによって異なります。また、提案の順序は、オファーの優先順位によって異なります。
+1. 結合フィールドを使用して、プロパティを配信コンテンツに挿入します。使用可能な提案の数は、エンジンの呼び出しがどのように設定されているかによって異なります。また、提案の順序は、オファーの優先度によって異なります。
+
 
    ![](assets/offer_delivery_008.png)
 

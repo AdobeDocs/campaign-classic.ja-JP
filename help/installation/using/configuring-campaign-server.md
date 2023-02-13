@@ -40,7 +40,7 @@ Campaign Classic設定ファイルは、 **conf** Adobe Campaignインストー�
 
 ## 設定範囲
 
-ニーズと設定に応じて、Campaign サーバーを設定または調整します。 次をおこなうことができます。
+ニーズと設定に応じて、Campaign サーバーを設定または調整します。 以下を行うことができます。
 
 * を保護します。 [内部識別子](#internal-identifier)
 * 有効にする [キャンペーンプロセス](#enabling-processes)
@@ -159,7 +159,7 @@ Adobe Campaignは次の JSP ページを使用します。
 * /nl/jsp/**logon.jsp**:レポートへの Web ベースのアクセスと、クライアントコンソールのデプロイメント
 * /nl/jsp/**s.jsp** :バイラルマーケティング（スポンサーおよびソーシャルネットワーク）の使用。
 
-Mobile App Channel で使用される JSSP は次のとおりです。
+モバイルアプリチャネルで使用される JSSP は次のとおりです。
 
 * nms/mobile/1/registerIOS.jssp
 * nms/mobile/1/registerAndroid.jssp

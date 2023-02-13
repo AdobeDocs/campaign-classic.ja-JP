@@ -5,7 +5,7 @@ description: 配信テンプレートの作成
 feature: Delivery Templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
 source-git-commit: 65e80f16a6beaee89b51636017c42766589e179e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 

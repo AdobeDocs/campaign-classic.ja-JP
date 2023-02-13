@@ -75,7 +75,7 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../inte
 
 ![](../../integrations/using/assets/do-not-localize/errorMsg.png)
 
-このような警告が表示された場合は、使用しているオペレーティングシステムの最新のアップデートをインストールしてください。 [詳細情報](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
+このような警告が表示された場合は、使用しているオペレーティングシステムの最新のアップデートをインストールしてください。 [詳細情報](https://helpx.adobe.com/jp/x-productkb/global/update-operating-system-and-browser.html)
 
 Internet Explorer のバージョンを更新しなかった場合は、次のメッセージが表示され、Adobe Campaign に接続できなくなります。
 

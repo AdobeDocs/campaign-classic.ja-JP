@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 'スキーマ要素と属性 — ヘルプ要素 '
+title: スキーマ要素と属性 — ヘルプ要素
 description: ヘルプ要素
 exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e

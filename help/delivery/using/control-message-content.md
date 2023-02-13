@@ -5,7 +5,7 @@ description: Adobe Campaign の配信品質管理の詳細情報
 feature: Deliverability
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 100%
 

@@ -9,7 +9,7 @@ exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 source-git-commit: 11e175c737d9c6cbb9432ec7835f35ee0e00a5c0
 workflow-type: tm+mt
 source-wordcount: '3290'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -121,7 +121,7 @@ Adobe Campaignデータベースで、すべての電子メールアドレスを
 
 >[!NOTE]
 >
->ホストインストールまたはハイブリッドインストールで、 [拡張 MTA](../../delivery/using/sending-with-enhanced-mta.md)に値を指定しない場合、Campaign 再試行パラメーターは使用されなくなりました。 ソフトバウンスの再試行とその間の時間は、メッセージの E メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
+>ホストインストールまたはハイブリッドインストールで、 [拡張 MTA](../../delivery/using/sending-with-enhanced-mta.md)に値を指定しない場合、Campaign 再試行パラメーターは使用されなくなりました。 ソフトバウンスの再試行とその間隔は、メッセージの電子メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
 
 ### 強制隔離パラメーター {#quarantine-parameters}
 

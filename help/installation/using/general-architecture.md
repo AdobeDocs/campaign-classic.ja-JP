@@ -61,7 +61,7 @@ Adobe Campaignは、連携して動作する一連のサーバー側プロセス
 
 **アプリケーションサーバー**（nlserver web）
 
-このプロセスは、Web サービス API（SOAP - HTTP + XML）経由で、Adobe Campaign のさまざまな機能を公開します。また、HTML ベースでアクセスできるよう、Web ページ（レポート、Web フォームなど）を動的に生成します。そのため、このプロセスには Apache Tomcat JSP サーバーが含まれています。 これは、コンソールが接続するプロセスです。
+このプロセスは、Web サービス API（SOAP - HTTP + XML）経由で、Adobe Campaign のさまざまな機能を公開します。また、HTML ベースでアクセスできるよう、Web ページ（レポート、Web フォームなど）を動的に生成します。そのため、このプロセスには Apache Tomcat JSP サーバーが含まれています。これは、コンソールが接続するプロセスです。
 
 **ワークフローエンジン**（nlserver wfserver）
 

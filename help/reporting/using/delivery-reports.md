@@ -5,7 +5,7 @@ description: 配信レポート
 feature: Reporting
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 source-git-commit: 64d97c7879320296a5f8efc5bb5bc2bea8663c08
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 100%
 

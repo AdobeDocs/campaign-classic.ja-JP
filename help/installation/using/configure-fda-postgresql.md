@@ -2,7 +2,8 @@
 product: campaign
 title: PostgreSQL へのアクセスの設定
 description: PostgreSQL へのアクセスを設定する方法を説明します
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+exl-id: 2c678f45-2555-4647-9885-bd002db7df37
+source-git-commit: 6b7638eec1718edf30f81005cd6691dd271aaa0c
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 14%

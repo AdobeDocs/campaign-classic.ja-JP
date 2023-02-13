@@ -5,7 +5,7 @@ description: 共同キャンペーンの作成方法を学ぶ
 feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ### フォーム別 {#by-form}
 
-協調キャンペーン（フォーム）を作成するには、**[!UICONTROL 協調キャンペーン（フォーム）]**&#x200B;テンプレートを選択します。
+協調キャンペーン（フォーム）を作成するには、**[!UICONTROL 協調キャンペーン (フォーム)]** テンプレートを選択します。
 
 ![](assets/mkg_dist_mutual_op_form2.png)
 

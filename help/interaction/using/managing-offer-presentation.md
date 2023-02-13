@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: プレゼンテーションの管理
-description: プレゼンテーションの管理
+title: オファー表示域の管理
+description: オファー表示域の管理
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# プレゼンテーションの管理{#managing-offer-presentation}
+# オファー表示域の管理{#managing-offer-presentation}
 
 ![](../../assets/common.svg)
 

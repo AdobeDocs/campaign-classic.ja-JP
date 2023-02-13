@@ -5,7 +5,7 @@ description: 分散型マーケティングのサンプル
 feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 100%
 
@@ -226,7 +226,7 @@ ht-degree: 100%
 
 ### セントラルエンティティ側 {#central-entity-side-1}
 
-1. 協調キャンペーン（フォーム）を実装するには、**協調キャンペーン（フォーム）**&#x200B;テンプレートを使用して、キャンペーンを作成する必要があります。
+1. 協調キャンペーン（フォームによる）を実装するには、**協調キャンペーン (フォームによる)** テンプレートを使用して、キャンペーンを作成する必要があります。
 
    ![](assets/mkg_dist_use_case_form_1.png)
 

@@ -5,13 +5,13 @@ description: web フォームテンプレートの使用
 feature: Web Forms
 exl-id: 0cbb8e4c-8cb4-4dd7-ad09-b8b3165c19a8
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 100%
 
 ---
 
-# Web フォームテンプレートの使用{#using-a-web-form-template}
+# web フォームテンプレートの使用{#using-a-web-form-template}
 
 ![](../../assets/common.svg)
 

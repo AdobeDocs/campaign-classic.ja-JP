@@ -75,7 +75,7 @@ ht-degree: 5%
 次の例では、インスタンスのパラメーターは次のとおりです。
 
 * インスタンスの名前： **デモ**
-* DNS マスク： **console.campaign.net*** （クライアントコンソール接続およびレポートの場合のみ）
+* DNS マスク： **console.campaign.net&#42;** （クライアントコンソール接続およびレポートの場合のみ）
 * データベース： **campaign:demo@dbsrv**
 
 ### インストールと設定（シングルマシン） {#installing-and-configuring--single-machine-}

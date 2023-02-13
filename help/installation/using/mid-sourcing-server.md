@@ -9,7 +9,7 @@ exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
 source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
 workflow-type: tm+mt
 source-wordcount: '1051'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -141,7 +141,7 @@ serverConf.xml ファイルの中間ソーシングサーバー設定を変更�
 
 「affinity_group」は、各配信で使用されるターゲットマッピングで宣言されたサブアフィニティを関連付けます。 「。」を含む最後の部分 サブアフィニティがない場合、は無視されます。 許可されている文字は次のとおりです `[a-z]``[A-Z]``[0-9]`.
 
-変更を反映させるには、サーバーを停止してから再起動する必要があります。
+変更を反映させるには、サーバーを停止し、再起動する必要があります。 
 
 ## ミッドソーシングサーバーでのトラッキングの設定 {#configuring-tracking-on-a-mid-sourcing-server}
 

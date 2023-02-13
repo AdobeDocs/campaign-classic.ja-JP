@@ -30,7 +30,7 @@ Campaign クライアントコンソールまたは Web インターフェイス
 
 これらすべてを serverConf/shared/datastore/@uploadAllowlist（有効な Java 正規表現）に追加します。詳しくは、[このページ](../../installation/using/file-res-management.md)を参照してください。
 
-Adobe Campaign では、ファイルサイズは制限されません。ただし、IIS/Apache を設定することで実行できます。 詳しくは、[この節](../../installation/using/web-server-configuration.md)を参照してください。
+Adobe Campaign では、ファイルサイズは制限されません。ただし、IIS/Apache を設定することで実行できます。 詳しくは、[こちら](../../installation/using/web-server-configuration.md)を参照してください。
 
 ## リレー
 

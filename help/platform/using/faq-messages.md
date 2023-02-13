@@ -102,7 +102,8 @@ Campaign Classic でのメッセージのトラッキング方法について[�
 
 Adobe Campaign には、配信を監視し、メッセージをトラッキングするための一連のレポートが用意されています。
 
-[組み込みレポートについて詳しくは、ここをクリック](../../reporting/using/delivery-reports.md)してください。
+[ビルトインレポートについて詳しくは、ここをクリック](../../reporting/using/delivery-reports.md)してください。
+
 
 ### Adobe Campaign では強制隔離アドレスをどのように選定および管理していますか？  {#how-does-adobe-campaign-qualify-and-manage-quarantine-addresses-}
 

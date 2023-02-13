@@ -5,7 +5,7 @@ description: Campaign の調査の基礎知識
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%
 

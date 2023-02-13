@@ -32,7 +32,7 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 | IMS(Adobe ID) との統合 | オンデマンド | オンデマンド | オンデマンド | [詳細情報](../../integrations/using/about-adobe-id.md) |
 | ファイル転送のデータの暗号化/復号化 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../platform/using/unzip-decrypt.md) |
 | ファイルの圧縮/解凍 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../platform/using/unzip-decrypt.md) |
-| ドメイン名のデリゲーション | オンデマンド | オンデマンド | 利用不可 | [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja) |
+| ドメイン名のデリゲーション | オンデマンド | オンデマンド | 利用できません | [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja) |
 | SpamAssassin のインストール | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../delivery/using/spamassassin.md) |
 | 配信品質レポートへのアクセス | 使用可能 | オンデマンド | 使用可能 | [詳細情報](../../delivery/using/monitoring-deliverability.md) |
 | LDAP 認証の設定 | なし | 使用可能 | 使用可能 | [詳細情報](../../installation/using/connecting-through-ldap.md) |
@@ -46,7 +46,7 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 >
 >互換性のある外部データベースシステムは、ホスティングモデルに応じて異なります。 詳しくは、 [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md).
 
-**関連項目：**
+**関連項目**
 
 * [互換性マトリックス](../../rn/using/compatibility-matrix.md)
 * [リリースノート](../../rn/using/latest-release.md)

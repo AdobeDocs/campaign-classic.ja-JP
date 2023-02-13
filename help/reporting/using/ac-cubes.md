@@ -5,9 +5,9 @@ description: キューブの基本を学ぶ
 feature: Reporting
 exl-id: 71d24f03-d41d-49bc-b9a5-8237902f7d6a
 source-git-commit: c1be67d32c39d20f7794b6019a6e03c9ec29df94
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 96%
 
 ---
 
@@ -45,4 +45,4 @@ Campaign Marketing Analytics モジュールを使用してできることは次
 1. キューブで計算および集計したデータを使用したクエリの作成
 1. 母集団の特定とリストでの参照
 
-キューブの作成および使用方法については、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+でキューブを作成および使用する方法について説明します。 [Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=ja){target="_blank"}.

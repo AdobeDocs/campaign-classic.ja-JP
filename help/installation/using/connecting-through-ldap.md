@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: LDAP を介した接続
-description: 'LDAP を使用して Campaign にログインする方法を説明します '
+description: LDAP を使用して Campaign にログインする方法を説明します
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -189,4 +189,4 @@ LDAP ディレクトリを使用してオペレーターを認証するには、
 
    グループは、Adobe Campaignでも LDAP でも、その場では作成されません。 これらは、Adobe Campaignと LDAP ディレクトリの両方で、個別に作成する必要があります。
 
-   LDAP ディレクトリ内のグループの名前は、Adobe Campaignグループの名前と一致する必要があります。 関連付けマスクは、デプロイウィザードの最後の設定ステージで定義されます。Adobe Campaign_(.*) を使用します。
+   LDAP ディレクトリ内のグループの名前は、Adobe Campaignグループの名前と一致する必要があります。 関連付けマスクは、デプロイウィザードの最後の設定ステージで定義されます。Adobe Campaign_(.&#42;) など ) です。

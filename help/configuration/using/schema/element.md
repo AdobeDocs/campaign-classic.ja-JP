@@ -189,7 +189,7 @@ _operation （文字列）, advanced （文字列）, aggregate （文字列）,
    * float
    * html
    * int64
-   * link
+   * リンク
    * 長い
    * メモ
    * MNTOKEN

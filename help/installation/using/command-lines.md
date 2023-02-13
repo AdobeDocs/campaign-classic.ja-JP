@@ -29,7 +29,7 @@ nlserver config -addinstance:instance/masques DNS[/lang]
 
 ( **eng** および **fra** は、 `[lang]` パラメータ )
 
-コマンド **nlserver config -addinstance:instance1/demo*/eng** を使用すると、 **instance1** 英語で、DNS マスク demo*を使用。
+コマンド **nlserver config -addinstance:instance1/demo&#42;/eng** を使用すると、 **instance1** 英語（DNS マスクデモを使用）&#42;.
 
 ## データベースを宣言 {#declaring-a-database}
 

@@ -265,7 +265,7 @@ A **`<command>`** 要素に含めることができる要素 **`<command>`** サ
 
 コマンド区切り文字を使用すると、コマンド間に分離バーを表示できます。 これは、 **&#39;-&#39;** の値を指定します。
 
-オプションで **`<soapcall>`** タグに入力パラメーターを指定し、実行する SOAP メソッドの呼び出しを定義します。 SOAP API について詳しくは、 [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
+オプションで **`<soapcall>`** タグに入力パラメーターを指定し、実行する SOAP メソッドの呼び出しを定義します。 SOAP API について詳しくは、 [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja).
 
 フォームコンテキストは、初期化時に、 **`<enter>`** タグを使用します。 このタグについて詳しくは、入力フォームのドキュメントを参照してください。
 

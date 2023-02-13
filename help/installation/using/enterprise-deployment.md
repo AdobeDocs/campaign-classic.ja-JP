@@ -76,7 +76,7 @@ ht-degree: 7%
 次の例では、インスタンスのパラメーターは次のとおりです。
 
 * インスタンスの名前：デモ
-* DNS マスク：tracking.campaign.net*, console.campaign.net* （アプリケーションサーバーは、クライアントコンソールの接続とレポート、ミラーページと購読解除ページ用の URL を処理します）
+* DNS マスク：tracking.campaign.net&#42;, console.campaign.net&#42; （アプリケーションサーバーは、クライアントコンソールの接続とレポート、ミラーページと購読解除ページの URL を処理します）
 * 言語：英語
 * データベース：campaign:demo@dbsrv
 

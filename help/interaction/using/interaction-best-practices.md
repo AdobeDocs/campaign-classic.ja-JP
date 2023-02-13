@@ -108,7 +108,7 @@ Adobe Campaign のインタラクションを効率的に運用するには、�
 
 提案テーブルに @rank という名前のフィールドがあるので、ワークフローの一時テーブルの値がコピーされます。
 
-提案テーブルへの追加のフィールドの保存について詳しくは、[ワークフローによるオファーの統合](../../interaction/using/integrating-an-offer-via-a-workflow.md#storing-offer-rankings-and-weights)を参照してください。
+提案テーブルへの追加のフィールドの保存について詳しくは、[ワークフローモード経由でオファーを統合](../../interaction/using/integrating-an-offer-via-a-workflow.md#storing-offer-rankings-and-weights)を参照してください。
 
 インタラクションを含むアウトバウンドオファーの場合、これは、複数のオファーが選択され、E メールに表示される順序を記録する場合に役立ちます。
 

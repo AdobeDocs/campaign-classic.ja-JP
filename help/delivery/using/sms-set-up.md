@@ -4,10 +4,10 @@ title: Campaign SMS チャネルの設定
 description: Campaign で SMS チャネルを設定する方法を学ぶ
 feature: SMS
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: 0ae52b00f69298e001596583fe166771faddead2
+source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 98%
+source-wordcount: '1800'
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,6 @@ ht-degree: 98%
 > SMS 配信の場合、タイポロジでは、**1 つ**&#x200B;の専用アプリケーションサーバーコンテナで作成された特定の SMS アフィニティを使用する必要があります。[詳細情報](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
 
 ## SMPP 外部アカウントの作成 {#creating-an-smpp-external-account}
-
->[!IMPORTANT]
->
->複数の外部 SMS アカウントに同じアカウントとパスワードを使用すると、アカウント間で競合や重複が生じる可能性があります。 詳しくは、 [SMS のトラブルシューティングページ](troubleshooting-sms.md#external-account-conflict).
 
 携帯電話に SMS を送信するには、まず SMPP 外部アカウントを作成する必要があります。
 SMS プロトコルと設定の詳細については、こちらの [ページ](sms-protocol.md)を参照してください。

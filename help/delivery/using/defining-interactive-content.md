@@ -5,7 +5,7 @@ description: Adobe Campaign の AMP を使用してインタラクティブな�
 feature: Email Design, Dynamic Content
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 100%
 
@@ -48,7 +48,8 @@ AMP for Email のフォーマット、仕様および要件について詳しく
 ## Adobe Campaign で AMP for Email を使用するための主要な手順 {#key-steps-to-use-amp}
 
 Adobe Campaign で AMP E メールを正常にテストして送信するには、次の手順に従います。
-1. **[!UICONTROL AMP サポート]**&#x200B;パッケージをインストールします。[Campaign 組み込みパッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+1. **[!UICONTROL AMP サポート]**&#x200B;パッケージをインストールします。[Campaign ビルトインパッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+
 1. Adobe Campaign 内で E メールを作成し、AMP コンテンツを作成します。[Adobe Campaign での AMP E メールコンテンツの作成](#build-amp-email-content)を参照してください。
 1. AMP フォーマットをサポートする E メールプロバイダーからのすべての配信要件に従っていることを確認します。[AMP for Email の配信要件](#amp-for-email-delivery-requirements)を参照してください。
 1. ターゲットを定義する場合、AMP フォーマットを表示できる受信者を選択していることを確認してください。[AMP E メールのターゲティング](#targeting-amp-email)を参照してください。

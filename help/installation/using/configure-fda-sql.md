@@ -2,7 +2,8 @@
 product: campaign
 title: Microsoft SQL Server へのアクセスの設定
 description: Microsoft SQL Server へのアクセスを設定する方法を説明します
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+exl-id: 65ab4577-3126-4579-8fcc-e93772ebd1e8
+source-git-commit: 6b7638eec1718edf30f81005cd6691dd271aaa0c
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 10%
@@ -113,4 +114,3 @@ ht-degree: 10%
 | 認証 | コネクタでサポートされる認証のタイプ。 現在のサポート値：ActiveDirectoryMSI です。 <br> 詳しくは、例 8 /を参照してください。 [Microsoftドキュメント](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings). |
 | 暗号化 | 接続でネットワーク経由で TLS 暗号化を使用するかどうかを指定します。 指定できる値は次のとおりです。 **はい/必須（18.0 以降）**, **いいえ/オプション（18.0 以降）**、および **strict（18.0 以降）**. デフォルト値はに設定されています。 **はい** バージョン 18.0 以降 **いいえ** 以前のバージョンの <br>詳しくは、 [Microsoftドキュメント](https://docs.microsoft.com/en-us/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt). |
 | TrustServerCertificate | で使用する場合に、自己署名サーバー証明書を使用して暗号化を有効にします **暗号化**. <br>指定できる値： **はい** または **いいえ** （デフォルト値。サーバー証明書が検証されます）。 |
-

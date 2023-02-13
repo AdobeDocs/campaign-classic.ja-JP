@@ -56,7 +56,7 @@ SQL インジェクションを回避するには、Adobe Campaignで使用す�
 >
 >8140 より古いビルドを使用している場合、 **XtkPassUnknownSQLFunctionsToRDBMS** オプションは&#39;1&#39;に設定できます。 データベースを保護する場合は、このオプションを削除します（または「0」に設定します）。
 
-ユーザー入力を使用してクエリや SQL 文でフィルターを作成する場合は、常にエスケープ処理をおこなう必要があります（[Campaign JSAPI のドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html)「データ保護：関数のエスケープ」を参照）。次の関数が該当します。
+ユーザー入力を使用してクエリや SQL 文でフィルターを作成する場合は、常にエスケープ処理をおこなう必要があります（[Campaign JSAPI のドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja)「データ保護：関数のエスケープ」を参照）。次の関数が該当します。
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)
@@ -160,7 +160,7 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
 
    ![](assets/scripting-captcha2.png)
 
-1. 分岐の条件を次の値で編集 `"[vars/captchaValid]"` が True と等しい。
+1. 分岐の条件を次の式で編集 `"[vars/captchaValid]"` が True と等しい。
 
    ![](assets/scripting-captcha3.png)
 

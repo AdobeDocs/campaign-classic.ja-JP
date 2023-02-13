@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 'メッセージテンプレートのパブリッシュ '
+title: メッセージテンプレートのパブリッシュ
 description: Adobe Campaign Classic でのトランザクションメッセージテンプレートのパブリッシュと非公開処理について説明します。
 audience: message-center
 content-type: reference

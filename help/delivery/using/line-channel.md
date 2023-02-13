@@ -5,7 +5,7 @@ description: LINE メッセージの作成方法を学ぶ
 feature: Line App
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 100%
 
@@ -62,7 +62,8 @@ ht-degree: 100%
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**&#x200B;ツリー構造で、「**[!UICONTROL 外部アカウント]**」タブをクリックします。
 
-1. 組み込みの **[!UICONTROL LINE V2 ルーティング]**&#x200B;外部アカウントを選択します。
+1. ビルトインの **[!UICONTROL LINE V2 ルーティング]**外部アカウントを選択します。
+
 
    ![](assets/line_config.png)
 

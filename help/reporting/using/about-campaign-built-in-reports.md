@@ -5,7 +5,7 @@ description: Campaign のビルトインレポートについて
 feature: Reporting
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
 source-git-commit: 81716a30a57d3ed8542b329d5fb9b0443fd4bf31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ![](../../assets/common.svg)
 
-この章では、Adobe Campaign の組み込みレポートとそれらの内容およびコンテキストの一覧を示します。この情報があれば、プラットフォームで既に使用できるレポートを作成しないで済みます。
+この章では、Adobe Campaign のビルトインレポートとそれらの内容およびコンテキストの一覧を示します。この情報があれば、プラットフォームで既に使用できるレポートを作成しないで済みます。
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Adobe Campaign は、お客様のコンソールまたはインターネット�
 
 レポートには、クライアントコンソールのホームページ、レポートダッシュボードまたは配信リストからアクセスできます。レポートの表示モードはそのコンテキストに依存します。メインレポートのリストはホームページで使用でき、配信データにすばやくアクセスできます。このリストは、ニーズに合わせて変更可能です。詳しくは、[この節](../../reporting/using/about-reports-creation-in-campaign.md)を参照してください。
 
-Campaign の組み込みレポートにアクセスするには次の手順に従います。
+Campaign のビルトインレポートにアクセスするには次の手順に従います。
 
 1. Adobe Campaign インターフェイスの「**[!UICONTROL レポート]**」タブを選択します。
 

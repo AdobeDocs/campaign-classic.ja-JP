@@ -17,11 +17,11 @@ ht-degree: 11%
 
 ![](../../assets/v7-only.svg)
 
-まず、最新のビルドがインストールされていることを確認する必要があります。 This ensures that you have the latest features and bug fixes.
+まず、最新のビルドがインストールされていることを確認する必要があります。 これにより、最新の機能とバグ修正を確実に利用できます。
 
 詳しくは、 [リリースノート](../../rn/using/latest-release.md) を参照してください。
 
-## Hardware and infrastructure {#hardware-and-infrastructure}
+## ハードウェアとインフラストラクチャ {#hardware-and-infrastructure}
 
 オンプレミスCampaign Classicのハードウェア要件に関する一般的なガイドラインについては、このドキュメントを参照してください [ページ](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html).
 
@@ -31,11 +31,11 @@ ht-degree: 11%
 * 最大膨張率を持つテーブルを確認します。 これらのテーブルを頻繁に使用する場合は、バキュームを行う必要があります。
 * データベースをブロックすると、E メールの送信が停止する場合があります。
 
-Adobe Campaignには [ツール](../../production/using/monitoring-processes.md#manual-monitoring) をクリックして、CPU と RAM の使用量を確認します。 このツールを使用して、次のような特定の指標を確認します。 **メモリ**, **スワップメモリ**, **ディスク**, **アクティブなプロセス**. If the values are too high, you can try reducing the number of workflows or schedule workflows to start at different times.
+Adobe Campaignには [ツール](../../production/using/monitoring-processes.md#manual-monitoring) をクリックして、CPU と RAM の使用量を確認します。 このツールを使用して、次のような特定の指標を確認します。 **メモリ**, **スワップメモリ**, **ディスク**, **アクティブなプロセス**. 値が大きすぎる場合は、ワークフローの数を減らしたり、別の時間に開始するようにワークフローをスケジュールしたりできます。
 
 ## データベースチェック {#database-performances}
 
-Most of the time, performance issues are linked to database maintenance. 次に、確認する主な項目を示します。
+ほとんどの場合、パフォーマンスの問題はデータベースのメンテナンスに関係しています。 次に、確認する主な項目を示します。
 
 * 設定：最初のAdobe Campaignプラットフォーム設定を確認し、完全なハードウェアチェックを実行することをお勧めします。
 * Adobe Campaignプラットフォームのインストールと設定：ネットワーク設定とプラットフォーム配信品質オプションを確認します。
@@ -50,7 +50,7 @@ Most of the time, performance issues are linked to database maintenance. 次に�
 
 以下に、アプリケーション設定のベストプラクティスに関する記事のリストを示します。
 
-* MTA と MTAChild のプロセスとメモリ：の **mta** モジュールは、メッセージを **mtachild** 子モジュール。 各 **mtachild** 統計サーバーからの認証をリクエストして送信する前に、メッセージを準備します。 Refer to this [page](../../installation/using/email-deliverability.md) for more information.
+* MTA と MTAChild のプロセスとメモリ：の **mta** モジュールは、メッセージを **mtachild** 子モジュール。 各 **mtachild** 統計サーバーからの認証をリクエストして送信する前に、メッセージを準備します。 詳しくは、 [ページ](../../installation/using/email-deliverability.md) を参照してください。
 * TLS 設定：スループットを低下させる可能性があるので、TLS をグローバルに有効にすることはお勧めしません。 代わりに、配信品質チームが管理するドメインごとの TLS 設定は、ニーズに応じて調整する必要があります。 詳しくは、 [ページ](../../installation/using/email-deliverability.md#mx-configuration) を参照してください。
 * DKIM:DKIM のセキュリティレベルを確保するために、1024b がベストプラクティスとして推奨される暗号化サイズです。 これより小さいサイズの DKIM 鍵は、大多数のアクセスプロバイダーには有効とはみなされません。[このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
 
@@ -59,7 +59,7 @@ Most of the time, performance issues are linked to database maintenance. 次に�
 配信品質に関するベストプラクティスと記事のリストを次に示します。
 
 * IP レピュテーション：IP レピュテーションが十分でない場合は、パフォーマンスに影響を与えます。 この **配信品質の監視** モジュールは、プラットフォームの配信品質のパフォーマンスをトラッキングする様々なツールを提供します。 この[ページ](../../delivery/using/monitoring-deliverability.md)を参照してください。
-* IP warm-up: the IP warm-up is performed by the deliverability team. これには、数週間にわたって新しい IP を通じて E メールの数を徐々に増やす必要があります。
+* IP ウォームアップ：IP ウォームアップは、配信品質チームが実行します。 これには、数週間にわたって新しい IP を通じて E メールの数を徐々に増やす必要があります。
 * IP アフィニティの設定：IP アフィニティが正しく設定されていない場合、e メール全体を停止したり（設定におけるオペレーター/アフィニティの名前が正しくない場合）、スループットが低下したり（アフィニティ内の IP の数が少ない場合）、 この[ページ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
 * E メールのサイズ：スループットでは、E メールのサイズが重要な役割を果たします。 E メールの推奨最大サイズは 60 KB です。 この[ページ](https://helpx.adobe.com/legal/product-descriptions/campaign.html)を参照してください。内 [配信スループット](../../reporting/using/global-reports.md#delivery-throughput) レポートでは、1 時間に転送されたバイト数を確認します。
 * 無効な受信者の数が多い：無効な受信者の数が多い場合は、スループットに影響を与える可能性があります。 MTA は無効な受信者への E メールの送信を再試行し続けます。 データベースが適切にメンテナンスされていることを確認してください。

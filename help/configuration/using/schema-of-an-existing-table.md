@@ -43,7 +43,7 @@ ht-degree: 15%
 
    スキーマには、 `<srcSchema>` テーブル作成 SQL スクリプトを生成しないようにするルート要素。
 
-**例**：
+**例** :
 
 ```
 <srcSchema name="recipient" namespace="cus" view="true">

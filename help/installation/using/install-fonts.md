@@ -5,7 +5,8 @@ description: フォントをインストールする方法を学ぶ
 audience: installation
 content-type: reference
 topic-tags: appendices
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+exl-id: c3b64a04-e173-42b1-8b1d-35dfefcd73f0
+source-git-commit: 6b7638eec1718edf30f81005cd6691dd271aaa0c
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%

@@ -4,7 +4,7 @@ title: 配信
 description: デフォルトの配信ワークフローの詳細を説明します
 feature: Workflows
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">請求</span> <br /> </td> 
    <td> <span class="uicontrol">billing</span> <br /> </td> 
-   <td> システムアクティビティレポートを「請求」オペレーターにメールで送信します。デフォルトで、毎月 25 日にトリガーされます。<br /> </td> 
+   <td> このワークフローでは、「請求」担当者にメールでシステムアクティビティレポートを送信します。デフォルトで、毎月 25 日にトリガーされます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">エイリアスクレンジング</span> <br /> </td> 

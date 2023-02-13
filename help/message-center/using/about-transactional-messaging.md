@@ -1,11 +1,11 @@
 ---
 product: campaign
 title: トランザクションメッセージの概要
-description: 'Adobe Campaign Classic におけるトランザクションメッセージの動作の仕組みと主な手順について説明します。 '
+description: Adobe Campaign Classic におけるトランザクションメッセージの動作の仕組みと主な手順について説明します。
 feature: Transactional Messaging
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 

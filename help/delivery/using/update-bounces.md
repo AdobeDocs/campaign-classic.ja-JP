@@ -7,13 +7,13 @@ hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 source-git-commit: 165797105affc9b5d4e4332f7f158031579bf91c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
-# ISP の停止後に誤ったハードバウンスを更新する {#update-bounces}
+# ISP の機能停止後の誤ったハードバウンスの更新 {#update-bounces}
 
 ![](../../assets/common.svg)
 
@@ -21,19 +21,19 @@ ht-degree: 37%
 
 ISP が機能停止した場合、Campaign 経由で送信された E メールは、受信者に正常に届きません。これらの E メールは、誤ってバウンスと見なされます。
 
-Appleや Gmail のグローバルな問題などにより、有効なAppleや Gmail の電子メールアドレスに送信された一部の電子メールメッセージが、次の応答のバウンスを持つ ISP サーバーによって、誤って無効な電子メールアドレスとしてハードバウンスされる場合があります。
+例えば、Apple や Gmail でのグローバルな問題により、有効な Apple や Gmail のメールアドレスに送信された一部のメールメッセージが、ISP サーバーによって無効なメールアドレスとして誤ってハードバウンスされ、次の応答でバウンスされる可能性があります。
 
-* &quot;550 5.1.1 &#39;メールアドレス&#39;:ユーザー参照が成功しましたが、ユーザーレコードが見つかりませんでした。」
+* 「550 5.1.1 &#39;メールアドレス&#39;: ユーザー検索は成功しましたが、ユーザーレコードが見つかりませんでした。」
 
-* &quot;550 &#39;E メールアドレス&#39;受信者が却下されました&quot;
+* 「550 &#39;メールアドレス&#39; の受信者が拒否されました」
 
-「452 requested action aborted」というメッセージが表示された遅延バウンスが中止された場合は、次の点に注意してください。後でもう一度試す」というメッセージが表示されます。これらは自動的に再試行され、アクションは不要です。 ISP が最大容量を回復するにつれて、改善する必要があります。
+「452 リクエストしたアクションが中止されました : 後でもう一度試してください」というメッセージが表示される遅延バウンスが発生している場合、これらは自動的に再試行され、アクションは必要ありません。ISP の処理能力が完全に回復すると、これらは改善されます。
 
 >[!NOTE]
 >
->Apple System Status ダッシュボードは、 [このページ](https://www.apple.com/jp/support/systemstatus/){_blank}.
+>[このページ](https://www.apple.com/jp/support/systemstatus/){_blank}で Apple システム状況ダッシュボードを確認できます。
 >
->Google Workspace ステータスダッシュボードは、 [このページ](https://www.google.com/appsstatus#hl=ja&amp;v=status){_blank}.
+>[このページ](https://www.google.com/appsstatus#hl=ja&amp;v=status){_blank}で Google Workspace ステータスダッシュボードを確認できます。
 
 ## 影響{#update-bounce-impact}
 
@@ -45,25 +45,25 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 
 ## 更新処理{#update-bounce-update}
 
-強制隔離テーブルに対してクエリを実行して、Apple、停止の影響を受けた可能性のあるアドレス（強制隔離リストから削除し、今後の Campaign E メール配信に含まれる）など、影響を受けたすべての受信者を除外する必要があります。
+強制隔離テーブルに対してクエリを実行して、機能停止の影響を受けた可能性のあるすべての受信者（例えば、Apple の場合、@icloud.com、@me.com、@mac.com を含むアドレス）をすべて除外する必要があります。それにより、該当する受信者を強制隔離リストから削除し、Campaign による今後のメール配信の対象に含めることができるようになります。
 
-インシデントの時間枠と ISP に基づき、このクエリで推奨されるガイドラインを次に示します。
+インシデントの期間と ISP に基づいた、このクエリの推奨ガイドラインを以下に示します。
 
-* インバウンド E メールルール情報が含まれる Campaign 環境の場合： **[!UICONTROL エラーテキスト]** 強制隔離リストのフィールド：
+* 強制隔離リストの「**[!UICONTROL エラーテキスト]**」フィールドにインバウンドメールのルール情報が含まれている Campaign 環境の場合：
 
    * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
-   * **E メールドメイン (@domain)** domain1.com と等しい **E メールドメイン (@domain)** domain2.com と等しい **E メールドメイン (@domain)** domain3.com と等しい
-   * **ステータスを更新 (@lastModified)** MM/DD/YYYY HH 以降:MM:午前
-   * **ステータスを更新 (@lastModified)** MM/DD/YYYY HH の前またはそれ以前:MM:午後 (SS)
+   * **メールドメイン（@domain）**&#x200B;が domain1.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain2.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain3.com と等しい
+   * **更新ステータス（@lastModified）**&#x200B;が YYYY/MM/DD 午前 HH:MM:SS 以降
+   * **更新ステータス（@lastModified）**&#x200B;が YYYY/MM/DD 午後 HH:MM:SS 以前
 
-* SMTP バウンス応答情報が **[!UICONTROL エラーテキスト]** 強制隔離リストのフィールド：
+* 強制隔離リストの「**[!UICONTROL エラーテキスト]**」フィールドに SMTP バウンス応答情報が含まれている Campaign 環境の場合：
 
-   * **エラーテキスト（強制隔離テキスト）** には、「550-5.1.1」およびが含まれます。 **エラーテキスト（強制隔離テキスト）** には、「support.ISP.com」が含まれます。
+   * **エラーテキスト（強制隔離テキスト）**&#x200B;に「550-5.1.1」が含まれ、かつ&#x200B;**エラーテキスト（強制隔離テキスト）**&#x200B;に「support.ISP.com」が含まれている
 
-      ここで、「support.ISP.com」は次のようになります。例えば、「support.apple.com」または「support.google.com」と入力します。
+      例えば、「support.ISP.com」は「support.apple.com」または「support.google.com」になります
 
-   * **ステータスを更新 (@lastModified)** MM/DD/YYYY HH 以降:MM:午前
-   * **ステータスを更新 (@lastModified)** MM/DD/YYYY HH の前またはそれ以前:MM:午後 (SS)
+   * **更新ステータス（@lastModified）**&#x200B;が YYYY/MM/DD 午前 HH:MM:SS 以降
+   * **更新ステータス（@lastModified）**&#x200B;が YYYY/MM/DD 午後 HH:MM:SS 以前
 
 
 影響を受けた受信者のリストを取得したら、ステータスを&#x200B;**[!UICONTROL 有効]**&#x200B;に設定して&#x200B;**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローにより強制隔離リストから削除されるようにするか、テーブルからただ削除します。

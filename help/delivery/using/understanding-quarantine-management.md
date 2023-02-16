@@ -5,9 +5,9 @@ description: 強制隔離管理について
 feature: Monitoring, Deliverability
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: c84f48ebdd66524e8dd6c39c88ae29565d11c9b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3100'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -128,11 +128,11 @@ Adobe Campaign では、エラーメッセージの選定で割り当てられ�
 従来の Campaign MTA を使用したオンプレミスインストールおよびホスト／ハイブリッドインストールの場合、エラーの数と 2 つのエラーの間の期間を変更できます。これを行うには、[デプロイメントウィザード](../../installation/using/deploying-an-instance.md)（**[!UICONTROL メールチャネル]**／**[!UICONTROL 詳細設定パラメーター]**）または[配信レベルで](../../delivery/using/steps-sending-the-delivery.md#configuring-retries)対応する設定を変更します。
 
 
-## 強制隔離からアドレスを削除 {#removing-a-quarantined-address}
+## 強制隔離からアドレスの削除 {#removing-a-quarantined-address}
 
 ### 自動更新 {#unquarantine-auto}
 
-特定の条件に一致するアドレスは、 [データベースのクリーンアップ](../../production/using/database-cleanup-workflow.md) ワークフロー。
+特定の条件に一致するアドレスは、[データベースクリーンアップ](../../production/using/database-cleanup-workflow.md)ワークフローによって強制隔離リストから自動的に削除されます。
 
 次の場合、アドレスは強制隔離リストから自動的に削除されます。
 
@@ -144,44 +144,44 @@ Adobe Campaign では、エラーメッセージの選定で割り当てられ�
 
 >[!IMPORTANT]
 >
->アドレスが **[!UICONTROL 強制隔離]** または **[!UICONTROL ブロックリストに加える]** ステータスは、電子メールを受信した場合でも削除されません。
+>アドレスのステータスが&#x200B;**[!UICONTROL 強制隔離中]**&#x200B;または&#x200B;**[!UICONTROL ブロックリスト登録済み]**&#x200B;の受信者は、メールを受信した場合でも削除されません。
 
 ### 手動更新 {#unquarantine-manual}
 
-アドレスの強制隔離を手動で解除することもできます。 強制隔離リストからアドレスを手動で削除するには、そのステータスを「 」に変更します。 **[!UICONTROL 有効]** から **[!UICONTROL 管理/Campaign Management/配信不能件数の管理/配信不能件数およびアドレス]** ノード。
+アドレスの強制隔離を手動で解除することもできます。 強制隔離リストからアドレスを手動で削除するには、ステータスを「**[!UICONTROL 有効]**」に変更します（**[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信不能件数およびアドレス]**&#x200B;ノードから）。
 
 ![](assets/tech_quarant_error_status.png)
 
 ### 一括更新 {#unquarantine-bulk}
 
-例えば、ISP が停止した場合など、強制隔離リストで一括更新を実行する必要が生じる場合があります。 この場合、E メールは受信者に正常に配信できないので、誤ってバウンスとマークされます。 これらのアドレスは、強制隔離リストから削除する必要があります。
+例えば、ISP が停止した場合など、強制隔離リストで一括更新を実行する必要が生じる場合があります。 この場合、メールは受信者に正常に配信されないため、誤ってバウンスとマークされます。強制隔離リストからこれらのアドレスを削除する必要があります。
 
-これを実行するには、ワークフローを作成し、 **[!UICONTROL クエリ]** 強制隔離テーブルの「 」アクティビティを使用して、影響を受けたすべての受信者を除外します。 特定された後は、強制隔離リストから削除して、今後の Campaign E メール配信に含めることができます。
+これを実行するには、ワークフローを作成し、強制隔離テーブルに&#x200B;**[!UICONTROL クエリ]**&#x200B;アクティビティを追加して、影響を受けたすべての受信者を除外します。 特定されると、それらは強制隔離リストから削除され、今後のキャンペーンメール配信に含めることができます。
 
 このクエリで推奨されるガイドラインを次に示します。
 
-* Campaign Classicv7 環境の場合、 **[!UICONTROL エラーテキスト]** 強制隔離リストのフィールド：
+* 強制隔離リストの&#x200B;**[!UICONTROL エラーテキスト]**&#x200B;フィールドにインバウンドメールのルール情報が含まれている Campaign Classic v7 環境の場合：
 
    * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
-   * **E メールドメイン (@domain)** domain1.com と等しい **E メールドメイン (@domain)** domain2.com と等しい **E メールドメイン (@domain)** domain3.com と等しい
-   * **ステータスを更新 (@lastModified)** MM/DD/YYYY HH 以降:MM:午前
-   * **ステータスを更新 (@lastModified)** MM/DD/YYYY HH の前またはそれ以前:MM:午後 (SS)
+   * **メールドメイン（@domain）**&#x200B;が domain1.com と等しい、**メールドメイン（@domain）**&#x200B;が domain2.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain3.com と等しい
+   * **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS AM 以降）
+   * **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS PM 以前）
 
-* SMTP バウンス応答情報を含むCampaign Classicv7 インスタンスの場合、 **[!UICONTROL エラーテキスト]** 強制隔離リストのフィールド：
+* 強制隔離リストの「**[!UICONTROL エラーテキスト]**」フィールドに SMTP バウンス応答情報が含まれている Campaign Classic v7 インスタンスの場合：
 
-   * **エラーテキスト（強制隔離テキスト）** には、「550-5.1.1」およびが含まれます。 **エラーテキスト（強制隔離テキスト）** には、「support.ISP.com」が含まれます。
+   * **エラーテキスト（強制隔離テキスト）**&#x200B;には、「550-5.1.1」が含まれ、かつ&#x200B;**エラーテキスト（強制隔離テキスト）**&#x200B;には、「support.ISP.com」が含まれている
 
-   ここで、「support.ISP.com」は次のようになります。例えば、「support.apple.com」または「support.google.com」と入力します。
+   例えば、「support.ISP.com」は「support.apple.com」または「support.google.com」になります
 
-   * **ステータスを更新 (@lastModified)** MM/DD/YYYY HH 以降:MM:午前
-   * **ステータスを更新 (@lastModified)** MM/DD/YYYY HH の前またはそれ以前:MM:午後 (SS)
+   * **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS AM 以降）
+   * **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS PM 以前）
 
 
-影響を受ける受信者のリストが揃ったら、 **[!UICONTROL データを更新]** アクティビティのメールアドレスのステータスを次に設定： **[!UICONTROL 有効]** したがって、これらは、 **[!UICONTROL データベースのクリーンアップ]** ワークフロー。 また、強制隔離テーブルから削除するだけでもかまいません。
+影響を受ける受信者のリストを受信したら、**[!UICONTROL データを更新]**&#x200B;アクティビティを追加して、メール アドレスのステータスを「**[!UICONTROL 有効]**」に設定し、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローで強制隔離リストから削除されるようにします。また、強制隔離テーブルから削除するだけでもかまいません。
 
 ## プッシュ通知の強制隔離 {#push-notification-quarantines}
 
-プッシュ通知の強制隔離メカニズムは、全体として通常のプロセスと同じものです。ただし、プッシュ通知では一部のエラーの管理方法が異なります。例えば、一部のソフトエラーでは、同じ配信の再試行は実行されません。プッシュ通知特有の方式を以下に示します。再試行の方式（再試行の回数、頻度）は E メールの場合と同じです。
+プッシュ通知の強制隔離メカニズムは、全体として通常のプロセスと同じです。ただし、プッシュ通知では一部のエラーの管理方法が異なります。例えば、一部のソフトエラーでは、同じ配信の再試行は実行されません。プッシュ通知特有の方式を以下に示します。再試行の方式（再試行の回数、頻度）は E メールの場合と同じです。
 
 強制隔離される項目はデバイストークンです。
 

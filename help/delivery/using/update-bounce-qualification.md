@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Apple 2021 の停止後にバウンスの選定を更新
-description: Apple 2021 の停止後にバウンスの選定を更新する方法を説明します
+title: Apple 2021 の機能停止後にバウンス認定条件を更新
+description: Apple 2021 の機能停止後にバウンス認定条件を更新する方法を学ぶ
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: c84f48ebdd66524e8dd6c39c88ae29565d11c9b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

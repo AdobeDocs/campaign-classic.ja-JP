@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 source-git-commit: 165797105affc9b5d4e4332f7f158031579bf91c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 
       例えば、「support.ISP.com」は「support.apple.com」または「support.google.com」になります
 
-   * **更新ステータス（@lastModified）**&#x200B;が YYYY/MM/DD 午前 HH:MM:SS 以降
+   * **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS AM 以降）
    * **更新ステータス（@lastModified）**&#x200B;が YYYY/MM/DD 午後 HH:MM:SS 以前
 
 

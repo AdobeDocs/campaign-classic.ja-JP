@@ -103,7 +103,7 @@ If **[!UICONTROL 今後この質問をしない]**  が選択されている場�
 
 1. Web ブラウザーを開き、次のアドレスからコンソールをダウンロードします。
 
-   `https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp`を参照してください。
+   `https://<your adobe campaign server>:<port number>/nl/jsp/logon.jsp` を参照してください。
 
 1. ID ウィンドウで、ログインとパスワードを入力します。
 

@@ -5,7 +5,7 @@ description: 強制隔離管理について
 feature: Monitoring, Deliverability
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: c84f48ebdd66524e8dd6c39c88ae29565d11c9b2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3100'
 ht-degree: 100%
 
@@ -163,8 +163,8 @@ Adobe Campaign では、エラーメッセージの選定で割り当てられ�
 * 強制隔離リストの&#x200B;**[!UICONTROL エラーテキスト]**&#x200B;フィールドにインバウンドメールのルール情報が含まれている Campaign Classic v7 環境の場合：
 
    * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
-   * **メールドメイン（@domain）**&#x200B;が domain1.com と等しい、**メールドメイン（@domain）**&#x200B;が domain2.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain3.com と等しい
-   * **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS AM 以降）
+   * **メールドメイン（@domain）**&#x200B;が domain1.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain2.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain3.com と等しい
+   * **更新ステータス（@lastModified）**&#x200B;が YYYY/MM/DD 午前 HH:MM:SS 以降
    * **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS PM 以前）
 
 * 強制隔離リストの「**[!UICONTROL エラーテキスト]**」フィールドに SMTP バウンス応答情報が含まれている Campaign Classic v7 インスタンスの場合：

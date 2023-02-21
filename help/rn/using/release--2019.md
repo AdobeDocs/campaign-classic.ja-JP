@@ -367,8 +367,8 @@ _2019 年 5 月 30 日_
    <td> <p>管理者は、Adobe Campaign Classic インスタンス内で加えられた変更を監視および管理することで、生産性を高めます。監査証跡は、ソーススキーマ、ワークフローおよびオプションでおこなわれたアクションを記録します。要素が作成、変更または削除されたかどうかをすばやく確認できます。</p><p>詳しくは、<a href="../../production/using/audit-trail.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/monitoring/audit-trail.html?lang=ja">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
-   <td> Guardrail、堅牢性、および拡張性<br /> </td> 
-   <td> Campaign Classic に対して一連の機能強化が追加されました。以下に、Guardrail、堅牢性および拡張性の強化に関するリストを示します。<br /> </td> 
+   <td> ガードレール、堅牢性および拡張性<br /> </td> 
+   <td> Campaign Classic に対して一連の機能強化が追加されました。以下に、ガードレール、堅牢性および拡張性の強化に関するリストを示します。<br /> </td> 
   </tr> 
   <tr> 
    <td> 互換性マトリックスを更新<br /> </td> 
@@ -400,7 +400,7 @@ _2019 年 5 月 30 日_
 * setEnv 関数および getEnv 関数の使用を防ぐため、新しい XtkSecurity_Disable_GetSetEnv オプションを追加しました。
 * アプリケーションスタックトレースで、機密情報が非表示になりました。
 
-**Guardrail、堅牢性および拡張性の強化**
+**ガードレール、堅牢性および拡張性の強化**
 
 * ライフスパン - XtkNewId シーケンス使用の最適化：最も容量が大きいテーブルを xtkNewId シーケンスから専用シーケンスへ移動させました。
 * FDA over HTTP v2：FDA over HTTP プロトコルは、ハイブリッドデプロイメント（特に broadLog の取得および配信準備）で広く使用されています。データの取得時やプッシュ時のネットワークの問題と考えられるエラーを防ぐよう、堅牢性を強化しました。これを実現するには、両側のビルドを最新にする必要があります。そうでない場合、古いプロトコルが引き続き使用されます。

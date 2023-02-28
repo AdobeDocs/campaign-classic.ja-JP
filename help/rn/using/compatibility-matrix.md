@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 1cf94ee5edac7087d7d21709243e9f56c2b3d6f5
+source-git-commit: 76218abd198f677541338c7f854d047d2c644013
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 100%
+source-wordcount: '775'
+ht-degree: 94%
 
 ---
 
@@ -40,31 +40,31 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr> 
 <td>CentOS</td>
 <td>
-<p>8.x（64 ビット） </br><strong>重要：</strong> CentOS Linux 8 は、2021年12月31日（PT）に提供終了（EOL）となります。 詳しくは、<a href="../../rn/using/deprecated-features.md">非推奨（廃止予定）の機能</a>ページを参照してください。</p>
-<p>7.x（64 ビット）</p>
+<p>7.x</p>
 <p><strong>重要</strong>：RHEL を使用する場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させ、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。</p>
+<p>8.x</br><strong>重要：</strong> CentOS Linux 8 は、2021 年 12 月 31 日に提供終了 (EOL) となります。 詳しくは、<a href="../../rn/using/deprecated-features.md">非推奨（廃止予定）の機能</a>ページを参照してください。</p>
 </td>
 </tr>
 <tr>
 <td>Debian</td>
 <td>
-<p>11（64 ビット）</p>
-<p>10（64 ビット）</p>
-<p>9（64 ビット）</p>
+<p>11（Campaign v7.3 以降）</p>
+<p>10</p>
+<p>9</p>
 </td>
 </tr>
 <tr>
 <td>RHEL</td>
 <td>
-<p>8.x（64 ビット）</p>
-<p>7.x（64 ビット）</p>
+<p>8.x</p>
+<p>7.x</p>
 <p><strong>重要</strong>：RHEL を使用する場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させ、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。</p>
 </td>
 </tr>
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2019（7.2.1 リリース以降）</p>
+<p>2019（Campaign v7.2 以降）</p>
 <p>2016</p>
 <p>2012 R2</p>
 <p>2012</p>
@@ -88,7 +88,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr>
 <td>Apache</td>
 <td>
-<p>RHEL7 - CentOS 7、Debian 8/9、Windows（64 ビット）向けの 2.4</p>
+<p>RHEL7 - CentOS 7、Debian 8/9、Windows 向けの 2.4</p>
 </td>
 </tr>
 </tbody>
@@ -104,7 +104,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>このアプリケーションは、Oracle が開発した Java Development Kit（JDK）および OpenJDK に対して承認されています。</p>
+<p>Campaign は、Development、および OpenJDK で開発された Java Development Kit(JDK) をOracleしています。</p>
 </td>
 </tr>
 <tr>
@@ -138,7 +138,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>14.x</p>
+<p>14.x（Campaign v7.3.2 以降）</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
@@ -154,7 +154,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
-<p><strong>重要：</strong>Linux で Campaign サーバーを実行している場合、プライマリデータベースとしての Microsoft SQL Server の使用はサポートされません。<a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html?lang=ja#database-access-layers">詳細情報</a>。</p>
+<p><strong>重要：</strong>Linux で Campaign サーバーを実行している場合、プライマリデータベースとしての Microsoft SQL Server の使用はサポートされません。<a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html#database-access-layers">詳細情報</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -208,7 +208,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <tr>
 <td>Google BigQuery</td>
 <td> </td>
-<td>7.2.1 以上</td>
+<td>7.2 以上</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -224,7 +224,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <tr>
 <td>Snowflake</td>
 <td> </td>
-<td>7.2.1 以上</td>
+<td>7.2 以上</td>
 </tr>
 <tr>
 <td>Vertica Analytics</td>
@@ -248,7 +248,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 </tr>
 <tr><td>MySQL</td>
 <td>
-<p>8</p>
+<p>8（Campaign v7.3 以降）</p>
 <p>5.7</p>
 </td>
 <td>
@@ -336,7 +336,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <tr>
 <td>Microsoft Windows</td>
 <td>
-<p>11（7.3 リリース以降）</p>
+<p>11（Campaign v7.3 以降）</p>
 <p>10（日本語インスタンスの場合に推奨）</p>
 <p>8</p>
 </td>
@@ -344,7 +344,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2019（7.2.1 リリース以降）</p>
+<p>2019（Campaign v7.2.1 以降）</p>
 <p>2016</p>
 <p>2012</p>
 </td>

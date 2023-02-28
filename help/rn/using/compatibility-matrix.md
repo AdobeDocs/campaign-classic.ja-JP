@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 76218abd198f677541338c7f854d047d2c644013
+source-git-commit: 84c6dacb96bd0853be9eaef0dfa7e36116f8a46a
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 94%
+source-wordcount: '779'
+ht-degree: 89%
 
 ---
 
@@ -322,8 +322,6 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 
 
 
-
-
 ## クライアントコンソール {#ClientConsoleoperatingsystems}
 
 [Campaign クライアントコンソール](../../installation/using/installing-the-client-console.md)を使用するには、次のオペレーティングシステムとブラウザーが&#x200B;**必要**&#x200B;です。
@@ -337,7 +335,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <td>Microsoft Windows</td>
 <td>
 <p>11（Campaign v7.3 以降）</p>
-<p>10（日本語インスタンスの場合に推奨）</p>
+<p>10</p>
 <p>8</p>
 </td>
 </tr>
@@ -353,22 +351,10 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 
 ### Microsoft WebView2 ランタイム
 
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Edge WebView2 ランタイム
-</p>
-</td>
-<td>
-<p>最新バージョン</p>
-</td>
-<td>
-<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp">Microsoft Developer web サイトからダウンロード</a></p>
-</td>
-</tr>
-</tbody>
-</table>
+Microsoft Edge WebView2 ランタイム Campaign クライアントコンソールでは、最新バージョンが必須です。
+
+からMicrosoft Edge WebView2 をダウンロード [Microsoft Developer Site](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp).
+
 
 ## Mobile SDK{#MobileSDK}
 
@@ -377,14 +363,14 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <table>
 <tbody>
 <tr>
-<td>Android</td>
+<td>Google Android</td>
 <td>
 <p>12（Campaign v7.3 以降）、9.0、8.x、7.x</p>
 <p>（モバイル SDK ビルド 1.1.1 を使用）</p>
 </td>
 </tr>
 <tr>
-<td>iOS</td>
+<td>Apple iOS</td>
 <td>
 <p>iOS 9～15</p>
 <p>（32 ビットおよび 64 ビットバージョンと互換性のあるモバイル SDK ビルド 1.0.26 を使用）iOS 15 は Campaign v7.3 以降でサポートされています</p>
@@ -395,46 +381,13 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 
 ## ブラウザー{#Browsers}
 
-次のブラウザーは Campaign for [Web Access](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-) と互換性があります。
+次のブラウザーは、最新バージョンで、Campaign と互換性があります： [Web アクセス](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Edge</p>
-</td>
-<td>
-<p>最新バージョン</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Mozilla Firefox</p>
-</td>
-<td>
-<p>最新バージョン</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Google Chrome</p>
-</td>
-<td>
-<p>最新バージョン</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Safari</p>
-</td>
-<td>
-<p>最新バージョン</p>
-</td>
-</tr>
+* Google Chrome
+* Microsoft Edge
+* Mozilla Firefox
+* Safari
 
-</tr>
-</tbody>
-</table>
 
 
 ## その他の関連リソース{#Morelikethis}

@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 8391df5046d56edfb33de5eb9f2afb4738108791
+source-git-commit: 2654157b02b549d4184ed6a5a93acad47e452713
 workflow-type: tm+mt
-source-wordcount: '2773'
+source-wordcount: '2774'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ _2022年11月21日（PT）_
 
 * Microsoft Internet Explorer 11 のサポート終了に伴い、クライアントコンソールのダッシュボードの HTML レンダリングエンジンは、Edge Chromium を使用するようになりました。（NEO-20741）
 
-[Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md#RDBMSservers)を参照してください。
+詳しくは、[Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md#RDBMSservers)を参照してください。
 
 **改善点**
 

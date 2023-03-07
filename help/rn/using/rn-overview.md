@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: f797aafac99d6b9c2bdb409a1d0883c889fd3b0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '935'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ Adobe Campaign の&#x200B;**最新の安定したビルドを実行**&#x200B;す
 
 ## アップグレードのプロセス{#process-upgrade}
 
-ホスト型のManaged Servicesまたはハイブリッド型の顧客は、Adobeカスタマーケアに問い合わせて、環境をアップグレードしてもらいます。
+ホステッド環境のマネージドサービスまたはハイブリッドのお客様は、環境をアップグレードするには、アドビカスタマーケアに連絡してください。
 
-オンプレミス版のお客様は、アップグレードを実行できます。 これを行うには、[最新の安定したビルド（GA）をダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)して、すべての環境をアップグレードします。
+オンプレミスのお客様は、アップグレードを実行できます。これを行うには、[最新の安定したビルド（GA）をダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)して、すべての環境をアップグレードします。
 
 [アップグレードプロセス](../../production/using/build-upgrade.md)について詳しくは、[ビルドアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md) を参照してください。
 
@@ -67,7 +67,7 @@ Adobe Campaign Classic では、お客様に価値を提供するために、様
 
 ### このアップグレードが必要な理由
 
-ホスト型のお客様で、Campaign Classicに関連する 1 つ以上のテクノロジーをアップグレードし、インフラストラクチャを現在のビルド（v7.2.1 から v7.3.3 など）やバージョン（v7 から v8 など）にアップグレードする必要があるとアカウントが特定されている場合は、Adobeから直接通知されます。
+ホステッド環境のお客様は、ご利用のアカウントで Campaign Classic に関連する 1 つ以上のテクノロジーのアップグレードや、インフラストラクチャを現在のビルド（v7.2.1 から v7.3.3 など）またはバージョン（v7 から v8 など）にアップグレードする必要があると判断されると、アドビから直接通知されます。
 
 古いビルドを実行中のオンプレミスまたはハイブリッド環境のお客様は、最新の安定したビルド（GA）に移行することをお勧めします。
 
@@ -77,7 +77,7 @@ Adobe Campaign Classic では、お客様に価値を提供するために、様
 
 アドビのチームが、このジャーニーを通じてお客様の組織を導き、サポートします。
 
-カスタマーケア担当者、製品マネージャ、エンジニア、TechOps スペシャリスト、および製品コンサルタントのチームが、エクスペリエンスをスムーズに実現するための支援を行います。
+専任のカスタマーケア担当者、製品マネージャー、エンジニア、テクニカルオペレーションスペシャリストおよび製品コンサルタントから成るチームが、スムーズかつシームレスなエクスペリエンスになるように支援します。
 
 ### 利点
 
@@ -140,7 +140,7 @@ Adobe Campaign Classic では、お客様に価値を提供するために、様
 
 * [Campaign のバージョンの確認](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 * [ヘルプとサポート](../../support.md)
-* [Campaign コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)
+* [コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)
 * [最新のドキュメントのアップデート](../../rn/using/documentation-updates.md)
 * [非推奨および削除された機能](../../rn/using/deprecated-features.md)
 * [ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)

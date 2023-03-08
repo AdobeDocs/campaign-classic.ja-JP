@@ -9,7 +9,7 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: c7c6c6a2fe6beb17bfb203e8895661c2f3084cc2
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <td>
 <p>7.x</p>
 <p><strong>重要</strong>：RHEL を使用する場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させ、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。</p>
-<p>8.x</br><strong>重要：</strong> CentOS Linux 8 は、2021 年 12 月 31 日に提供終了 (EOL) となります。 詳しくは、<a href="../../rn/using/deprecated-features.md">非推奨（廃止予定）の機能</a>ページを参照してください。</p>
+<p>8.x</br><strong>重要：</strong>CentOS Linux 8 は、2021年12月31日（PT）に提供終了（EOL）となります。詳しくは、<a href="../../rn/using/deprecated-features.md">非推奨（廃止予定）の機能</a>ページを参照してください。</p>
 </td>
 </tr>
 <tr>
@@ -104,7 +104,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>Campaign は、Development、および OpenJDK で開発された Java Development Kit(JDK) をOracleしています。</p>
+<p>Campaign は、Oracle が開発した Java Development Kit（JDK）と、OpenJDK をサポートしています。</p>
 </td>
 </tr>
 <tr>
@@ -154,7 +154,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
-<p><strong>重要：</strong>Linux で Campaign サーバーを実行している場合、プライマリデータベースとしての Microsoft SQL Server の使用はサポートされません。<a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html#database-access-layers">詳細情報</a>。</p>
+<p><strong>重要：</strong>Linux で Campaign サーバーを実行している場合、プライマリデータベースとしての Microsoft SQL Server の使用はサポートされません。<a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html?lang=ja#database-access-layers">詳細情報</a>。</p>
 </td>
 </tr>
 </tbody>
@@ -366,9 +366,9 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 
 ### Microsoft WebView2 ランタイム
 
-Microsoft Edge WebView2 ランタイム Campaign クライアントコンソールでは、最新バージョンが必須です。
+Microsoft Edge WebView2 ランタイム最新バージョンは、Campaign クライアントコンソールに必須です。
 
-からMicrosoft Edge WebView2 をダウンロード [Microsoft Developer Site](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp).
+[Microsoft Developer サイト](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp)から Microsoft Edge WebView2 をダウンロードします。
 
 
 ## Mobile SDK{#MobileSDK}
@@ -396,7 +396,7 @@ Microsoft Edge WebView2 ランタイム Campaign クライアントコンソー�
 
 ## ブラウザー{#Browsers}
 
-次のブラウザーは、最新バージョンで、Campaign と互換性があります： [Web アクセス](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
+最新バージョンの次のブラウザーは Campaign for [Web Access](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-) と互換性があります。
 
 * Google Chrome
 * Microsoft Edge

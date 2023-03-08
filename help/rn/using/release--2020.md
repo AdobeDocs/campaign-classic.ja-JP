@@ -243,7 +243,7 @@ _2020 年 12 月 22 日_
 * 配信の準備中、または配信のプレビューが繰り返し発生している場合に、web プロセスがクラッシュする可能性がある問題を修正しました。（NEO-27790、NEO-27517）
 * 管理者以外のオペレーターによってトリガーされた場合に、配信または配達確認の送信が失敗する問題を修正しました。（NEO-28597）
 
-![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)。
+![](assets/do-not-localize/cp-icon.png) **10 月の新しい コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)。
 
 ### ![](assets/do-not-localize/red_2.png) リリース 20.2.3 - ビルド 9182 {#release-20-2-3-build-9182}
 

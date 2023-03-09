@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 2654157b02b549d4184ed6a5a93acad47e452713
+source-git-commit: 754e6d2486897958827a15ab8a3d14ec17935891
 workflow-type: tm+mt
-source-wordcount: '2774'
-ht-degree: 100%
+source-wordcount: '2971'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,37 @@ ht-degree: 100%
 
 このページには、**最新の Campaign Classic v7 リリース**&#x200B;の新機能、改善点および修正点が記載されています。新しいビルドごとに、色分けされたステータスが表示されます。Campaign Classic v7 のビルドステータスについて詳しくは、[このページ](rn-overview.md)を参照してください。
 
-## ![](assets/do-not-localize/green_2.png) リリース 7.3.2 - ビルド 9356 {#release-7-3-2}
+## ![](assets/do-not-localize/green_2.png) リリース 7.3.3 - ビルド 9359 {#release-7-3-3}
+
+>[!CAUTION]
+>
+> このリリースは、現在、管理対象Cloud Servicesユーザーのみが利用でき、近日中にオンプレミスおよびハイブリッドデプロイメントで利用できるようになります。
+
+>[!CAUTION]
+>
+>コンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../../installation/using/installing-the-client-console.md)を参照してください。
+
+_2023 年 3 月 10 日_
+
+**セキュリティの強化**
+
+* Tomcat は、セキュリティを最適化するために、バージョン 8.5.81 から 8.5.85 に更新されました。 （NEO-56936）
+
+**改善点**
+
+* 請求ワークフローが改善され、パフォーマンスが最適化されました。 （NEO-47658）
+* トラッキングワークフローが改善され、配信サイズが大きい場合にパフォーマンスが最適化されました。 （NEO-45064）
+* トラッキング管理が改善され、URL の動的パラメーターで発生する可能性がある問題を修正しました。 トラッキング管理 v3 では、ajax タイプの URL（「#」の後のパラメーターを含む）が処理され、サードパーティツールによるトラッキング URL の変更を防ぐようになりました。 この変更を適用するには、Adobeに連絡する必要があります。 （NEO-46535）
+
+<!--To apply this change, the marketing, tracking and mid servers need to be updated to 7.3.3. To enable the new tracking management mode, set the `emailLinksVersion` parameter to '3' in the configuration file of the marketing server. (NEO-46535)-->
+
+**パッチ**
+
+* コントロールインスタンス（トランザクションメッセージコンテキスト）からiOSの配達確認のプッシュ通知が送信されない可能性がある問題を修正しました。 （NEO-54713）
+* をスクロールできない場合がある問題を修正しました。 **編集** 」タブをクリックします。 （NEO-54474）
+* 2 つのエンリッチメントアクティビティがリンクで同じ名前識別子を使用していた場合に、2 つ目のエンリッチメントアクティビティが最初のエンリッチメントアクティビティのリンクを使用する問題を修正しました。 （NEO-48851）
+
+## ![](assets/do-not-localize/orange_2.png) リリース 7.3.2 - ビルド 9356 {#release-7-3-2}
 
 _2022年11月21日（PT）_
 

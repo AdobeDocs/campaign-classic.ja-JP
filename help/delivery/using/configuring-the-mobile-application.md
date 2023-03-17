@@ -4,9 +4,9 @@ title: Adobe Campaign での iOS モバイルアプリケーションの設定
 description: iOS 用モバイルアプリケーションの設定方法を学ぶ
 feature: Push
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: fd19a2f11773e9e4c841f685a3491a763493e572
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '738'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
 >[!CAUTION]
 >
->Adobe Campaign SDK に統合する前に、アプリケーションにプッシュアクションを設定する必要があります。
+>Adobe SDK に統合する前に、アプリケーションにプッシュアクションを設定する必要があります。
 >
 >該当しない場合は、[このページ](https://developer.apple.com/documentation/usernotifications)を参照してください。
 

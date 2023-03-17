@@ -4,32 +4,28 @@ title: Campaign SDK の統合
 description: Campaign SDK をモバイルアプリに統合する方法を説明します
 feature: Mobile SDK Integration, Push
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: 0ae52b00f69298e001596583fe166771faddead2
+source-git-commit: fd19a2f11773e9e4c841f685a3491a763493e572
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 100%
+source-wordcount: '1022'
+ht-degree: 94%
 
 ---
 
 # Campaign SDK とアプリの統合 {#integrating-campaign-sdk-into-the-mobile-application}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
-iOS および Android 版の Campaign SDK は、モバイルアプリチャネルモジュールのコンポーネントの 1 つです。
 
 >[!NOTE]
 >
->Campaign SDK（旧 Neolane SDK）を入手するには、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}にお問い合わせください。
+>Adobeは、データ収集 UI でAdobe Campaign拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用することをお勧めします。 Adobe Experience Platform Mobile SDK は、モバイルアプリでAdobeのExperience Cloudソリューションおよびサービスを強化するのに役立ちます。 SDK の設定は、データ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合が可能です。 [詳しくは、 Adobe Developerのドキュメントを参照してください。](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
-SDK の目的は、モバイルアプリケーションの Adobe Campaign プラットフォームへの統合を容易にすることです。
+iOS および Android 版の Campaign SDK は、モバイルアプリチャネルモジュールのコンポーネントの 1 つです。SDK の目的は、モバイルアプリケーションの Adobe Campaign プラットフォームへの統合を容易にすることです。
+
+Campaign SDK（旧 Neolane SDK）を入手するには、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}にお問い合わせください。
 
 サポートされている様々な Android および iOS バージョンについて詳しくは、[互換性マトリックス](../../rn/using/compatibility-matrix.md#MobileSDK)を参照してください。
 
->[!NOTE]
->
->また、Adobe Launch で Adobe Campaign 拡張機能を設定することで、Adobe Experience Platform Mobile SDK を使用することもできます。[詳しくは、Adobe Experience Platform のドキュメントを参照してください](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}。
->
->Adobe Experience Platform Mobile SDK の設定およびインストール方法については、[このビデオ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/configure-push-using-aep-mobile-sdk.html?lang=ja){target="_blank"}を参照してください。
 
 ## Campaign SDK の読み込み {#loading-campaign-sdk}
 

@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: c7c6c6a2fe6beb17bfb203e8895661c2f3084cc2
+source-git-commit: 2ba04c785f6587741fdf421116781306e74f0168
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -374,6 +374,9 @@ Microsoft Edge WebView2 ランタイム最新バージョンは、Campaign ク�
 ## Mobile SDK{#MobileSDK}
 
 以下に示すオペレーティングシステムでは、関連する [Mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md) を使用して、Campaign を使用して[プッシュ通知を送信](../../delivery/using/about-mobile-app-channel.md)できます。
+
+また、データ収集 UI でAdobe Campaign拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用することもできます。
+
 
 <table>
 <tbody>

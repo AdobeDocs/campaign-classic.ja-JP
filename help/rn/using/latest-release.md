@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 02ab5f4520179fcce8eedbe3dcc7b08cb9cfe0d2
+source-git-commit: 143fe21447f91120e63df4409597472849bb6d47
 workflow-type: tm+mt
-source-wordcount: '2991'
-ht-degree: 94%
+source-wordcount: '2949'
+ht-degree: 95%
 
 ---
 
@@ -23,15 +23,9 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
-> このリリースは、現在、管理対象Cloud Servicesユーザーのみが利用でき、近日中にオンプレミスおよびハイブリッドデプロイメントで利用できるようになります。
->
 >コンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../../installation/using/installing-the-client-console.md)を参照してください。
 
->[!NOTE]
->
->このリリースは、管理対象Cloud Servicesユーザー向けの一般公開です。
-
-_2023年3月9日（PT）_
+_2023年3月20日（PT）_
 
 **セキュリティの強化**
 
@@ -51,17 +45,13 @@ _2023年3月9日（PT）_
 * デジタルコンテンツエディター（DCE）の「**編集**」タブでスクロールできない問題を修正しました。（NEO-54474）
 * 2 つのエンリッチメントアクティビティがリンクで同じ名前識別子を使用していた場合に、2 つ目のエンリッチメントアクティビティが最初のエンリッチメントアクティビティのリンクを使用する問題を修正しました。 （NEO-48851）
 
-## ![](assets/do-not-localize/green.png) リリース 7.3.2 - ビルド 9356 {#release-7-3-2}
+## ![](assets/do-not-localize/orange_2.png) リリース 7.3.2 - ビルド 9356 {#release-7-3-2}
 
 _2022年11月21日（PT）_
 
 >[!CAUTION]
 >
 >コンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../../installation/using/installing-the-client-console.md)を参照してください。
-
->[!NOTE]
->
->このリリースは、オンプレミスデプロイメントとハイブリッドデプロイメントにのみ使用できる GA です。
 
 **互換性の更新**
 

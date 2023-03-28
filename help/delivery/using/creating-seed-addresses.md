@@ -4,10 +4,10 @@ title: シードアドレスの作成
 description: シードアドレスの作成方法と使用方法を学ぶ
 feature: Seed Address
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 0065a25250d73c71e7569768a38b5836cccab992
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -32,11 +32,11 @@ Adobe Campaign では、シードアドレスのテンプレートも作成可�
    >
    >アドレスのラベルには、定義した姓と名が自動的に入力されます。
    >
-   >シードアドレスを作成する際、各タブのすべてのフィールドに情報を入力する必要はありません。入力されていないパーソナライゼーション要素は、配信時にランダムに入力されます。
+   >シードアドレスを作成する際に、各タブのすべてのフィールドに入力する必要はありません。 見つからないパーソナライゼーション要素は、配信分析中にランダムに入力されます。
 
    ![](assets/s_ncs_user_seedlist_new_address.png)
 
-1. 「**[!UICONTROL アドレスフィールド]**」タブでは、分析フェーズの配信ログ（**[!UICONTROL nms:broadLog]** テーブル）に記録される値を入力します。
+1. 内 **[!UICONTROL 住所フィールド]** 」タブで、分析フェーズ ( **[!UICONTROL nms:broadLog]** 表 )。
 
 1. 「**[!UICONTROL 追加データ]**」タブでは、データ管理ワークフローで作成される配信のためのパーソナライゼーションデータや、特定の値を設定しておく必要があるパーソナライゼーションデータを入力します。
 

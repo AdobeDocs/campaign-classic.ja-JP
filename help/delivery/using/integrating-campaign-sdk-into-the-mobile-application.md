@@ -4,10 +4,10 @@ title: Campaign SDK の統合
 description: Campaign SDK をモバイルアプリに統合する方法を説明します
 feature: Mobile SDK Integration, Push
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: fd19a2f11773e9e4c841f685a3491a763493e572
+source-git-commit: 1ead0b1afc8c924cb4f8d36c608cd570e5fe7a44
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 94%
+source-wordcount: '997'
+ht-degree: 92%
 
 ---
 
@@ -15,19 +15,17 @@ ht-degree: 94%
 
 ![](../../assets/v7-only.svg)
 
-
->[!NOTE]
+>[!CAUTION]
 >
->Adobeは、データ収集 UI でAdobe Campaign拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用することをお勧めします。 Adobe Experience Platform Mobile SDK は、モバイルアプリでAdobeのExperience Cloudソリューションおよびサービスを強化するのに役立ちます。 SDK の設定は、データ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合が可能です。 [詳しくは、 Adobe Developerのドキュメントを参照してください。](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
-
-iOS および Android 版の Campaign SDK は、モバイルアプリチャネルモジュールのコンポーネントの 1 つです。SDK の目的は、モバイルアプリケーションの Adobe Campaign プラットフォームへの統合を容易にすることです。
+>Adobeでは、データ収集 UI でAdobe Campaign拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用することを強くお勧めします。 Adobe Experience Platform Mobile SDK は、モバイルアプリでAdobeのExperience Cloudソリューションおよびサービスを強化するのに役立ちます。 SDK の設定は、データ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合が可能です。 [詳しくは、 Adobe Developerのドキュメントを参照してください。](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
 Campaign SDK（旧 Neolane SDK）を入手するには、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}にお問い合わせください。
 
 サポートされている様々な Android および iOS バージョンについて詳しくは、[互換性マトリックス](../../rn/using/compatibility-matrix.md#MobileSDK)を参照してください。
 
+Campaign SDK の統合手順を以下に示します。
 
-## Campaign SDK の読み込み {#loading-campaign-sdk}
++++**Campaign SDK の読み込み**
 
 * **Android の場合**：**neolane_sdk-release.aar** ファイルがプロジェクトにリンクされている必要があります。
 
@@ -55,7 +53,9 @@ Campaign SDK（旧 Neolane SDK）を入手するには、[アドビカスタマ�
    >
    >バージョン 1.0.25 の SDK の場合は、**Neolane_SDK.h** ファイルに 4 つのアーキテクチャがあります。
 
-## 統合設定の宣言 {#declaring-integration-settings}
++++
+
++++**統合設定の宣言**
 
 Campaign SDK をモバイルアプリケーションに統合するには、担当の管理者がデベロッパーに次の情報を提供する必要があります。
 
@@ -85,7 +85,9 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
    [nl setIntegrationKey:strIntegrationKey];
    ```
 
-## 登録関数 {#registration-function}
++++
+
++++**登録関数**
 
 登録関数によってできることは次のとおりです。
 
@@ -141,7 +143,9 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
    }
    ```
 
-## トラッキング関数 {#tracking-function}
++++
+
++++**トラッキング関数**
 
 * **Android**：
 
@@ -293,7 +297,9 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
    >
    >バージョン 7.0 以降は、**application:didReceiveRemoteNotification:fetchCompletionHandler** 関数を実装すると、オペレーティングシステムはこの関数のみを呼び出します。したがって、**application:didReceiveRemoteNotification** 関数は呼び出されません。
 
-## サイレント通知のトラッキング {#silent-notification-tracking}
++++
+
++++**サイレント通知のトラッキング**
 
 iOS では、無音の通知（表示されることなくモバイルアプリケーションに直接送信される通知またはデータ）を送信できます。Adobe Campaign では、このような通知をトラッキングすることができます。
 
@@ -333,7 +339,9 @@ iOS では、無音の通知（表示されることなくモバイルアプリ�
 }
 ```
 
-### RegisterDeviceStatus デリゲート {#registerdevicestatus-delegate}
++++
+
++++**RegisterDeviceStatus デリゲート**
 
 >[!NOTE]
 >
@@ -529,7 +537,9 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
    @end
    ```
 
-## 変数 {#variables}
++++
+
++++**変数**
 
 変数を使用すると、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaign コンソールのモバイルアプリケーション専用サービスの「**[!UICONTROL 変数]**」タブで定義する必要があります（[Adobe Campaign でモバイルアプリケーションを設定する](configuring-the-mobile-application.md)を参照）。次に、モバイルアプリケーションが通知で追加された変数を収集できるようにするコードの例を示します。この例では、「VAR」変数を使用しています。
 
@@ -577,7 +587,9 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 >
 >iOS と Android では通知のサイズが 4 KB に制限されているので、短い変数名を選択することをお勧めします。
 
-## 通知サービス拡張 {#notification-service-extension}
++++
+
++++**通知サービス拡張**
 
 **iOS の場合**
 
@@ -611,7 +623,9 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
     // Perform the download to local storage
 ```
 
-## 通知コンテンツ拡張 {#notification-content-extension}
++++
+
++++**通知コンテンツ拡張**
 
 **iOS の場合**
 
@@ -662,3 +676,5 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
    }
    @end
    ```
+
++++

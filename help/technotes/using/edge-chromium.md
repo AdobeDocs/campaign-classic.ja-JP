@@ -4,10 +4,10 @@ title: テクニカルノート — Campaign 環境でのMicrosoft Edge Chromium
 description: キャンペーン — Edge Chromium
 hide: true
 hidefromtoc: true
-source-git-commit: d883db444ef7cc243241833b86e8b946454e5d2a
+source-git-commit: 17ef8f92ab5dbecadf20140c3faff735d92c8223
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 16%
+source-wordcount: '246'
+ht-degree: 15%
 
 ---
 
@@ -39,19 +39,19 @@ Microsoft Edge Webview 2 ランタイムのインストールに加えて、次�
 
    1. Campaign サーバー設定ファイル (`serverConf.xml`)
    1. 内 `<web>` モジュール、設定 `webView2Mode = "1"`
-   1. サーバー設定を再読み込みします
+   1. 次のコマンドを実行して、サーバー設定を再読み込みします。
 
       ```
       nlserver config -reload
       ```
 
-   1. Web サーバーの再起動
+   1. 次のコマンドを実行して、Web サーバーを再起動します。
 
       ```
       nlserver restart web
       ```
 
-   1. 環境が Apache 上で動作している場合は、Apache を再起動します。
+   1. 環境で Apache を Web サーバーとして使用している場合は、次のコマンドを実行して Apache を再起動します。
 
       ```
       /etc/init.d/apache2 restart

@@ -4,7 +4,7 @@ title: テクニカルノート — Campaign 環境でのMicrosoft Edge Chromium
 description: キャンペーン — Edge Chromium
 hide: true
 hidefromtoc: true
-source-git-commit: d9f57d4e5b6f880907040344ece40546456a2321
+source-git-commit: d883db444ef7cc243241833b86e8b946454e5d2a
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 16%
@@ -19,7 +19,7 @@ ht-degree: 16%
 
 ## 変更点
 
-Microsoft Internet Explorer 11 の提供終了後、クライアントコンソールのAdobe サービス（ログインページ）用のHTMLレンダリングエンジンで、Microsoft Edge Chromium(Campaign Classicv7.3 以降 ) が使用されるようになりました。
+Microsoft Internet Explorer 11 の提供終了後、クライアントコンソールのHTMLのダッシュボードレンダリングエンジンは、Campaign Classicv7.3 以降の Edge Chromium を使用します。
 
 Microsoft Edge Webview 2 ランタイムのインストールに加えて、次の URL が [クライアントコンソールのインストールに必要](../../installation/using/installing-the-client-console.md#webview)の場合、Microsoft Edge Chromium をインスタンスで有効にする必要があります。
 
@@ -29,7 +29,7 @@ Microsoft Edge Webview 2 ランタイムのインストールに加えて、次�
 
 ## 更新方法
 
-* As a **ホスト** のお客様。Adobeは、インスタンスで既にMicrosoft Edge Chromium を有効にしています。
+* As a **ホスト** のお客様。Adobeは、インスタンスで既にMicrosoft Edge Chromium を有効にしています。 追加のアクションは必要ありません。
 
 * As a **オンプレミス/ハイブリッド** をご使用の場合は、インスタンスでMicrosoft Edge Chromium を有効にする必要があります。
 

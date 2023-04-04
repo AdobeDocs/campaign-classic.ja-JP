@@ -5,7 +5,7 @@ description: iOS 用モバイルアプリケーションの設定方法を学ぶ
 feature: Push
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: fd19a2f11773e9e4c841f685a3491a763493e572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '738'
 ht-degree: 100%
 

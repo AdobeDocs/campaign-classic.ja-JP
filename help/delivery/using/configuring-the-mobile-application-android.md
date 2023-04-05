@@ -4,7 +4,7 @@ title: Adobe Campaign で Android モバイルアプリケーションを設定
 description: Android 用のモバイルアプリケーションの設定方法を説明します。
 feature: Push
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # Android の設定手順
+
+![](../../assets/v7-only.svg)
 
 パッケージがインストールされたら、Adobe Campaign Classic で Android アプリの設定を定義できます。
 

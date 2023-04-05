@@ -4,7 +4,7 @@ title: Adobe Campaign でのモバイルアプリケーションの設定
 description: モバイルアプリケーション設定の開始方法を説明します。
 feature: Push
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # アプリ設定の基本を学ぶ
+
+![](../../assets/v7-only.svg)
 
 この節は、オンラインホリデーパッケージを販売する会社を想定した設定例です。同社のモバイルアプリケーション（Neotrips）は、Android 用 Neotrips と iOS 用 Neotrips の 2 つのバージョンで顧客に提供されています。
 

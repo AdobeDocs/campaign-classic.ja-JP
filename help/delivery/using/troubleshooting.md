@@ -4,7 +4,7 @@ title: プッシュのトラブルシューティング
 description: プッシュのトラブルシューティング
 feature: Push
 exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
-source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
+source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # トラブルシューティング{#troubleshooting}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 モバイルデバイスが Wi-Fi に接続されているにも関わらず通知を受信できない場合は、FCM または APNs のポートがファイアウォールによってブロックされていないか確認してみてください。
 

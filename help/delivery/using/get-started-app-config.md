@@ -5,7 +5,7 @@ description: モバイルアプリケーション設定の開始方法を説明�
 feature: Push
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
 ht-degree: 100%
 

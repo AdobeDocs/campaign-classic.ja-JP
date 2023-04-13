@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign では、豊富な顧客データを使�
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: bdccc4ee7cbb8c765d488879f99677b2302d32e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2536'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

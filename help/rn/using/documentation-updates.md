@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: a4a5e014d8055cf29bdbf7debb72eb20388c9b19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3600'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 99%
 
 ### 2023年4月
 
-オンプレミス/ハイブリッド環境でMicrosoft Edge Chromium を有効にする方法に関するテクニカルノートが追加されました。 [詳細情報](../../technotes/using/edge-chromium.md)
+オンプレミス／ハイブリッド環境で Microsoft Edge Chromium を有効にする方法に関するテクニカルノートを追加しました。 [詳細情報](../../technotes/using/edge-chromium.md)
 
 ### 2023年3月
 
-7.3.3 の改善点とパッチをリリースノートの節に反映させました。[詳細情報](latest-release.md)
+7.3.3 の改善点とパッチを含むリリースノートの節を更新しました。[詳細情報](latest-release.md)
 
 
 +++ 2022

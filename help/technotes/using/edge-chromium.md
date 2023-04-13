@@ -1,55 +1,55 @@
 ---
 product: campaign
-title: テクニカルノート — Campaign 環境でのMicrosoft Edge Chromium の有効化
-description: キャンペーン — Edge Chromium
+title: テクニカルノート - Campaign 環境での Microsoft Edge Chromium の有効化
+description: Campaign - Edge Chromium
 source-git-commit: a4a5e014d8055cf29bdbf7debb72eb20388c9b19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
 
-# お使いの環境でMicrosoft Edge Chromium を有効にする方法 {#edge-conf}
+# お使いの環境で Microsoft Edge Chromium を有効にする方法 {#edge-conf}
 
 ![](../../assets/v7-only.svg)
 
 
 ## 変更点
 
-Microsoft Internet Explorer 11 の提供終了後、クライアントコンソールのHTMLのダッシュボードレンダリングエンジンは、Campaign Classicv7.3 以降の Edge Chromium を使用します。
+Microsoft Internet Explorer 11 のサポート終了に伴い、クライアントコンソールのダッシュボードの HTML レンダリングエンジンは、Campaign Classic v7.3 から Edge Chromium を使用しています。
 
-Microsoft Edge Webview 2 ランタイムのインストールに加えて、次の URL が [クライアントコンソールのインストールに必要](../../installation/using/installing-the-client-console.md#webview)の場合、Microsoft Edge Chromium をインスタンスで有効にする必要があります。
+[あらゆるクライアントコンソールのインストールに必要](../../installation/using/installing-the-client-console.md#webview)になった Microsoft Edge Webview 2 ランタイムのインストールに加えて、インスタンスで Microsoft Edge Chromium を有効にする必要があります。
 
 ## 影響の有無
 
-環境がCampaign Classicv7.3（またはそれ以降）にアップグレードされている場合は、影響を受けます。
+お使いの環境が Campaign Classic v7.3（以降）にアップグレードされている場合、影響を受けます。
 
 ## 更新方法
 
-* As a **ホスト** のお客様。Adobeは、インスタンスで既にMicrosoft Edge Chromium を有効にしています。 追加のアクションは必要ありません。
+* **ホステッド**&#x200B;環境のお客様には、アドビはお使いのインスタンスで Microsoft Edge Chromium を既に有効にしています。追加のアクションは不要です。
 
-* As a **オンプレミス/ハイブリッド** をご使用の場合は、インスタンスでMicrosoft Edge Chromium を有効にする必要があります。
+* **オンプレミス／ハイブリッド**&#x200B;環境のお客様は、お使いのインスタンスで Microsoft Edge Chromium を有効にする必要があります。
 
-   Campaign Classicv7.3（以降）にアップグレードする場合、 `webView2Mode` 属性は、Campaign サーバーの設定ファイルで使用できます。 `serverConf.xml`. この属性を有効にする必要があります。
+   Campaign Classic v7.3（以降）にアップグレードすると、新しい `webView2Mode` 属性が Campaign サーバー設定ファイル `serverConf.xml` で使用可能になります。この属性を有効にする必要があります。
 
-   これを実行するには、すべての環境 (MKT、MID、RT) に次の手順を適用します。
+   これを実行するには、すべての環境（MKT、MID、RT）で次の手順を適用します。
 
-   1. Campaign サーバー設定ファイル (`serverConf.xml`)
-   1. 内 `<web>` モジュール、設定 `webView2Mode = "1"`
-   1. 次のコマンドを実行して、サーバー設定を再読み込みします。
+   1. Campaign サーバー設定ファイル（`serverConf.xml`）を編集します
+   1. `<web>` モジュールで、`webView2Mode = "1"` を設定します
+   1. 次のコマンドを実行して、サーバー設定をリロードします。
 
       ```
       nlserver config -reload
       ```
 
-   1. 次のコマンドを実行して、Web サーバーを再起動します。
+   1. 次のコマンドを実行して、web サーバーを再起動します。
 
       ```
       nlserver restart web
       ```
 
-   1. 環境で Apache を Web サーバーとして使用している場合は、次のコマンドを実行して Apache を再起動します。
+   1. お使いの環境で Apache を web サーバーとして使用している場合は、次のコマンドを実行して Apache を再起動します。
 
       ```
       /etc/init.d/apache2 restart

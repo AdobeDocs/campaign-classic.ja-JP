@@ -2,13 +2,13 @@
 product: campaign
 title: テクニカルノート - Campaign 環境での Microsoft Edge Chromium の有効化
 description: Campaign - Edge Chromium
-source-git-commit: a4a5e014d8055cf29bdbf7debb72eb20388c9b19
+exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
+source-git-commit: 095919608e08a0bf8ad1487fa5ec0a1ddb443c7b
 workflow-type: ht
 source-wordcount: '246'
 ht-degree: 100%
 
 ---
-
 
 # お使いの環境で Microsoft Edge Chromium を有効にする方法 {#edge-conf}
 
@@ -65,4 +65,3 @@ Microsoft Internet Explorer 11 のサポート終了に伴い、クライアン�
 * [環境のアップグレード](../../production/using/build-upgrade.md)
 * [ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
 * [Campaign クライアントコンソールのインストール](../../installation/using/installing-the-client-console.md)
-

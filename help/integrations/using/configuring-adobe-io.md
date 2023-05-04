@@ -9,9 +9,9 @@ internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 source-git-commit: 98a67e5b6e3f8cf8ba596db1fadd61fff821be30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '765'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 96%
 
    キーは、デフォルトの有効期限 365 日で自動的にダウンロードされます。 有効期限が切れたら、新しいキーペアを作成し、設定ファイルで統合を更新する必要があります。 オプション 2 を使用すると、有効期限の長い&#x200B;**[!UICONTROL 公開鍵]**&#x200B;を手動で作成してアップロードすることを選択できます。
 
-   期限が切れる証明書のキーペアを置き換える手順については、 [このページ](https://developer.adobe.com/developer-console/docs/guides/email-alerts/cert-expiry/#a-step-by-step-guide-to-replacing-expiring-certificate-key-pairs).
+   期限が切れる証明書キーペアを置き換える手順のガイドについては、[このページ](https://developer.adobe.com/developer-console/docs/guides/email-alerts/cert-expiry/#a-step-by-step-guide-to-replacing-expiring-certificate-key-pairs)を参照してください。
 
 
    >[!CAUTION]

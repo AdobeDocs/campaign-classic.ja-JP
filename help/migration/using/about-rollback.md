@@ -5,8 +5,10 @@ description: 以前のバージョンにロールバックする方法を説明�
 audience: migration
 content-type: reference
 topic-tags: rollback
+hide: true
+hidefromtoc: true
 exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
-source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
+source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%

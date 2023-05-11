@@ -5,8 +5,10 @@ description: Linux プラットフォームをAdobe Campaign v7 に移行する�
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
+hide: true
+hidefromtoc: true
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
-source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
+source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 0%

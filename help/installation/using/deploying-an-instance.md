@@ -2,11 +2,13 @@
 product: campaign
 title: インスタンスのデプロイ
 description: Campaign デプロイウィザードの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 11e175c737d9c6cbb9432ec7835f35ee0e00a5c0
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '3290'
 ht-degree: 6%
@@ -15,7 +17,7 @@ ht-degree: 6%
 
 # インスタンスのデプロイ{#deploying-an-instance}
 
-![](../../assets/v7-only.svg)
+
 
 >[!NOTE]
 >

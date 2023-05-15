@@ -2,11 +2,13 @@
 product: campaign
 title: 管理
 description: 管理
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 2%
@@ -15,7 +17,7 @@ ht-degree: 2%
 
 # 管理{#administration}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaignモジュールの自動起動 (**web**, **mta**, **wfserver**&#x200B;など ) が **nlserver** サーバー。
 

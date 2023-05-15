@@ -2,18 +2,19 @@
 product: campaign
 title: Adobe Campaign でのモバイルアプリケーションの設定
 description: モバイルアプリケーション設定の開始方法を説明します。
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
-workflow-type: ht
-source-wordcount: '311'
-ht-degree: 100%
+source-git-commit: e011333411af79b985166a4e73592a1860749cf1
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 97%
 
 ---
 
 # アプリ設定の基本を学ぶ
 
-![](../../assets/v7-only.svg)
+
 
 この節は、オンラインホリデーパッケージを販売する会社を想定した設定例です。同社のモバイルアプリケーション（Neotrips）は、Android 用 Neotrips と iOS 用 Neotrips の 2 つのバージョンで顧客に提供されています。
 
@@ -30,6 +31,8 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作が必�
 >サービスの「**[!UICONTROL 購読]**」タブに移動して、サービスの購読者（モバイルデバイスにアプリケーションをインストールして、通知の受信に同意したすべてのユーザー）のリストを表示します。
 
 ## パッケージのインストール {#installing-package-ios}
+
+[!BADGE オンプレミスおよびハイブリッド]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスおよびハイブリッドデプロイメントにのみ適用されます"}
 
 ![](assets/do-not-localize/how-to-video.png) [モバイルアプリパッケージのインストール方法をビデオで確認](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html?lang=ja#sending-messages)
 

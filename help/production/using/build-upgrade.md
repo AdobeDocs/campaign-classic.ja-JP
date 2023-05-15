@@ -2,11 +2,13 @@
 product: campaign
 title: ビルドのアップグレードの基本を学ぶ
 description: 新しいビルドにアップグレードするための主な手順を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '2356'
 ht-degree: 53%
@@ -15,7 +17,7 @@ ht-degree: 53%
 
 # ビルドアップグレードの実行{#performing-a-build-upgrade}
 
-![](../../assets/v7-only.svg)
+
 
 この節では、アップグレードプロセスに関する詳細な手順と、競合を識別および解決する手順について説明します。
 
@@ -84,7 +86,7 @@ ht-degree: 53%
 
 1. の最新バージョンを取得する [サーバー設定ファイル](../../installation/using/the-server-configuration-file.md).
 
-1. [最新ビルドをダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?lang=ja). [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)。
+1. [最新ビルドをダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?lang=ja). [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)
 
 また、 [便利なコマンドライン](../../installation/using/command-lines.md) ビルドのアップグレードを開始する前に、以下を実行します。
 

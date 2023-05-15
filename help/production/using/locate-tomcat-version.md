@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: Adobe Campaignで Tomcat バージョンを探します
-description: Adobe Campaignのインスタンスで使用される埋め込み Tomcat Web サーブレットの現在のバージョンを調べる方法を説明します。
+description: Adobe Campaignのインスタンスで使用される埋め込み Tomcat Web サーブレットの現在のバージョンを調べる方法を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 # Tomcat バージョンを検索{#locate-tomcat-version}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaignは **Apache Tomcat と呼ばれる埋め込み Web サーブレット** ：アプリケーションと任意の外部インターフェイス（クライアントコンソール、追跡される URL リンク、SOAP 呼び出しなど）との間の HTTP/HTTPS 要求を処理する場合。 外部に接続するAdobe Campaignインスタンスには、通常、この前に外部 Web サーバー（通常は IIS または Apache）があります。
 

@@ -2,11 +2,13 @@
 product: campaign
 title: Windows 用 web サーバーへの統合
 description: Windows 用 web サーバーへの統合
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 4%
@@ -15,7 +17,7 @@ ht-degree: 4%
 
 # Windows 用 web サーバーへの統合{#integration-into-a-web-server-for-windows}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaignには、HTTP（および SOAP）を介してアプリケーションサーバー内のエントリポイントとして機能する Apache Tomcat が含まれています。
 
@@ -160,7 +162,7 @@ Adobe Campaignでは特に、この制限を超えるファイルをアップロ
 この場合、この制限を引き上げる必要があります。
 
 1. を使用して IIS を開きます。 **[!UICONTROL スタート/（コントロールパネル）/管理ツール]** メニュー
-1. 内 **接続** ウィンドウで、インストール用に作成したAdobeを選択し、 **リクエストのフィルター** をクリックします。
+1. 内 **接続** ウィンドウで、インストール用に作成したサイトをAdobeし、 **リクエストのフィルター** をクリックします。
 1. 内 **アクション** ペイン、選択 **フィーチャ設定を編集** 値を **許可された最大コンテンツサイズ（バイト）** フィールドに入力します。
 
    例えば、50 MB のファイルのアップロードを許可するには、「52428800」バイトを超える値を指定する必要があります。

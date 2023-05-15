@@ -2,11 +2,13 @@
 product: campaign
 title: RDBMS 固有の推奨事項
 description: RDBMS 固有の推奨事項
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 98b338ddf0da184363c599d74aeb98ed7f6303ce
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 3%
@@ -15,7 +17,7 @@ ht-degree: 3%
 
 # RDBMS 固有の推奨事項{#rdbms-specific-recommendations}
 
-![](../../assets/v7-only.svg)
+
 
 メンテナンスプランの設定に役立つように、この節では、Adobe Campaignがサポートする様々な RDBMS エンジンに適した推奨事項とベストプラクティスを示します。 ただし、これらは単なる推奨事項です。 内部の手順や制約に従って、ニーズに合わせて変更を加えるかどうかは、お客様次第です。 データベース管理者は、これらのプランを作成して実行する責任を負います。
 

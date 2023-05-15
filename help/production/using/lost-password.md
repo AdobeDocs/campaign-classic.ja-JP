@@ -2,11 +2,13 @@
 product: campaign
 title: パスワードを忘れた場合
 description: パスワードを忘れた場合
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 7%
@@ -15,7 +17,7 @@ ht-degree: 7%
 
 # パスワードを忘れた場合{#lost-password}
 
-![](../../assets/v7-only.svg)
+
 
 失われたパスワードを変更または復元できます。
 次の 2 つのシナリオが考えられます。

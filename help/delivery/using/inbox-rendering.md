@@ -2,18 +2,20 @@
 product: campaign
 title: Campaign の受信ボックスレンダリング
 description: E メールのレンダリングを取り込み、専用レポートで使用可能にする方法を説明します。
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 048189f49623cf00f4c3f1f34ff4b795d80391ef
+source-git-commit: e011333411af79b985166a4e73592a1860749cf1
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 100%
+source-wordcount: '878'
+ht-degree: 98%
 
 ---
 
 # 受信ボックスレンダリング{#inbox-rendering}
 
-![](../../assets/common.svg)
+
 
 ## 受信ボックスレンダリングについて {#about-inbox-rendering}
 
@@ -33,6 +35,8 @@ Adobe Campaign の「**受信ボックスレンダリング**」で使用でき�
 >受信ボックスレンダリングは、配信のパーソナライゼーションをテストするには必要ありません。パーソナライゼーションは、**[!UICONTROL プレビュー]**&#x200B;および[配達確認](steps-validating-the-delivery.md#sending-a-proof)などの Adobe Campaign ツールで確認できます。
 
 ## 受信ボックスレンダリングの有効化{#activating-inbox-rendering}
+
+[!BADGE オンプレミスおよびハイブリッド]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスおよびハイブリッドデプロイメントにのみ適用されます"}
 
 ホストクライアントおよびハイブリッドクライアントの場合、受信ボックスレンダリングはアドビのテクニカルサポートおよびコンサルタントがインスタンスに設定します。詳しくは、アドビのアカウント担当者にお問い合わせください。
 

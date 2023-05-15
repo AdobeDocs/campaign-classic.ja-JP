@@ -2,11 +2,13 @@
 product: campaign
 title: アプリケーションサーバー
 description: アプリケーションサーバー
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 8794464d6fcc8ab648cd6866266855a701538fde
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 1%
@@ -15,7 +17,7 @@ ht-degree: 1%
 
 # アプリケーションサーバー{#application-server}
 
-![](../../assets/v7-only.svg)
+
 
 必要なデータベースアクセスレイヤーをサーバーにインストールし、Adobe Campaignアカウントからアクセスできるようにする必要があります。
 

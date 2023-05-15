@@ -2,11 +2,13 @@
 product: campaign
 title: データベースの作成と設定
 description: データベースの作成と設定
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e011333411af79b985166a4e73592a1860749cf1
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 1%
@@ -14,8 +16,6 @@ ht-degree: 1%
 ---
 
 # データベースの作成と設定{#creating-and-configuring-the-database}
-
-![](../../assets/v7-only.svg)
 
 データベースを作成する場合、Adobe Campaignには次の 2 つの異なるオプションが用意されています。
 

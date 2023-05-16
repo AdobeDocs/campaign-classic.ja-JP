@@ -8,10 +8,10 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
-source-git-commit: dcc441272b29f682165a26006800e914e7c38252
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 3%
+source-wordcount: '198'
+ht-degree: 2%
 
 ---
 
@@ -30,21 +30,21 @@ ht-degree: 3%
 
 ファイルは、次のように複数のカテゴリに分類されます。
 
-* 設定ファイル（に保存） `nl6/conf`を使用すると、Adobe Campaignを非常にすばやく再設定できます。
+* 設定ファイル（に保存） **nl6/conf**&#x200B;を使用すると、Adobe Campaignを非常にすばやく再設定できます。
 
-* リダイレクトファイル（に保存）  `nl6/var/`<instancename>`/redir`は、トラッキング（多くの場合、「フロント」と呼ばれます）サーバー上にあり、以前のキャンペーンのリダイレクトをすべて含みます。 これらは、以前のキャンペーンでも引き続き使用されます。
+* リダイレクトファイル（に保存）  **nl6/var/`<instance-name>`/redir**&#x200B;は、トラッキング（多くの場合、「フロント」と呼ばれます）サーバー上にあり、以前のキャンペーンのリダイレクトをすべて含みます。 これらは、以前のキャンペーンでも引き続き使用されます。
 
-* ログファイル（に保存） `nl6/var/`<instancename>`/log`を使用して、問題を追跡できます。
+* ログファイル（に保存） **nl6/var/`<instance-name>`/log**&#x200B;を使用して、問題を追跡できます。
 
 バックアップするディレクトリは次のようになります。
 
-* `nl6/conf`
+* nl6/conf
 
-* `nl6/var/`<instanceName>`/redir` （各インスタンスに対して）
+* nl6/var/`<instance-name>`/redir （各インスタンスに対して）
 
-* `nl6/var/`<instanceName>`/log` (オプション)
+* nl6/var/`<instance-name>`/log （オプション）
 
-* `nl6/var/`<instanceName>`/relay` (オプション)
+* nl6/var/`<instance-name>`/relay （オプション）
 
 
 ## データベース {#database}

@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: SFTP サーバーの使用
-description: SFTP サーバーのベストプラクティスとトラブルシューティングの詳細を説明します。
+description: SFTP サーバーのベストプラクティスとトラブルシューティングの詳細を説明します
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # SFTP サーバーのベストプラクティスとトラブルシューティング {#sftp-server-usage}
 
-![](../../assets/common.svg)
+
 
 ## SFTP サーバーのグローバルな推奨事項 {#global-recommendations}
 
@@ -79,8 +81,8 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
    インスタンスが実行中である場合は、次のタイプの応答が返されます。
 
    ```
-   <redir status='OK' date='YYYY-MM-DD HH:MM:SS' build='XXXX' instance='instanceName'
-   sourceIP='AAA.BB.CCC.DD' host='instanceUrl' localHost='instanceName'/>
+   <redir status='OK' date='YYYY-MM-DD HH:MM:SS' build='XXXX' instance='instance-name'
+   sourceIP='AAA.BB.CCC.DD' host='instanceUrl' localHost='instance-name'/>
    ```
 
    いずれの場合も、サポートチケットでコマンドの応答を提供してください。

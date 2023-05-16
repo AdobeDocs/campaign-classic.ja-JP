@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2355'
 ht-degree: 53%
 
 ---
@@ -93,9 +93,9 @@ ht-degree: 53%
 * **nlserver pdump**：実行中のプロセスのリストを表示します
 * **nlserver pdump -who**：アクティブなクライアントセッションのリストを表示します
 * **nlserver monitor -missing**：不足しているプロパティのリストを表示します
-* **nlserver start process@instanceName**:プロセスを開始
-* **nlserver stop process@instanceName**:プロセスを停止します
-* **nlserver restart process@instanceName**:プロセスを再起動します
+* **nlserver start process@instance-name**:プロセスを開始
+* **nlserver stop process@instance-name**:プロセスを停止します
+* **nlserver restart process@instance-name**:プロセスを再起動します
 * **nlserver shutdown**:すべてのキャンペーンプロセスを停止します
 * **nlserver watchdog -svc**：ウォッチドッグを開始します（UNIX のみ）
 
@@ -278,7 +278,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 リソースの競合に関する警告は、見落とさないように注意して、解決してください。
 
-この **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** ファイルには同期結果が含まれます。 デフォルトでは、次のディレクトリで使用できます。 **installationDirectory/var/instanceName/postupgrade**. エラーと警告はそれぞれエラーと警告の属性で明示されます。
+この **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** ファイルには同期結果が含まれます。 デフォルトでは、次のディレクトリで使用できます。 **installationDirectory/var/`<instance-name>`/postupgrade**. エラーと警告はそれぞれエラーと警告の属性で明示されます。
 
 ### 競合を分析
 

@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 13%
@@ -52,20 +52,20 @@ ht-degree: 13%
    nlserver pdump
    HH:MM:SS > Application server for Adobe Campaign Version X.Y (build XXXX) of DD/MM/YYYY
    [...]
-   wfserver@<INSTANCENAME> (9340) - 11.3 Mb
+   wfserver@<instance-name> (9340) - 11.3 Mb
    [...]
    ```
 
    モジュールが実行されていない場合は、Adobeカスタマーケアにお問い合わせください。 オンプレミスインストールをおこなっている場合、管理者ユーザーは次のコマンドを使用してサービスを再起動する必要があります。
 
    ```
-   nlserver start wfserver@<INSTANCENAME>
+   nlserver start wfserver@<instance-name>
    ```
 
    >[!NOTE]
    >
-   >**`<instancename>`** をインスタンスの名前（production、development など）に置き換えます。インスタンス名は設定ファイルで識別されます。
-   >`[path of application]nl6/conf/config-<instancename>.xml`
+   >**`<instance-name>`** をインスタンスの名前（production、development など）に置き換えます。インスタンス名は設定ファイルで識別されます。
+   >`[path of application]nl6/conf/config-<instance-name>.xml`
 
    モジュールの再起動方法について詳しくは、 [この節](../../production/using/usual-commands.md#module-launch-commands).
 
@@ -95,7 +95,7 @@ ht-degree: 13%
    nlserver pdump
    HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    [...]
-   wfserver@<INSTANCENAME> (9340) - 11.3 Mb
+   wfserver@<instance-name> (9340) - 11.3 Mb
    [...]
    ```
 
@@ -104,13 +104,13 @@ ht-degree: 13%
 1. モジュールが実行されていない場合は、Adobeカスタマーケアにお問い合わせください。 オンプレミスインストールをおこなっている場合、管理者は次のコマンドを使用して再起動する必要があります。
 
    ```
-   nlserver start wfserver@<INSTANCENAME>
+   nlserver start wfserver@<instance-name>
    ```
 
    >[!NOTE]
    >
-   >**`<instancename>`** をインスタンスの名前（production、development など）に置き換えます。インスタンス名は設定ファイルで識別されます。
-   >`[path of application]nl6/conf/config-<instancename>.xml`
+   >**`<instance-name>`** をインスタンスの名前（production、development など）に置き換えます。インスタンス名は設定ファイルで識別されます。
+   >`[path of application]nl6/conf/config-<instance-name>.xml`
 
    モジュールの再起動方法について詳しくは、 [この節](../../production/using/usual-commands.md#module-launch-commands).
 

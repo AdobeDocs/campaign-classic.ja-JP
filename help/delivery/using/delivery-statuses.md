@@ -2,9 +2,11 @@
 product: campaign
 title: 配信ステータス
 description: 配信ダッシュボードで使用できるステータスについて説明します。
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # 配信ステータス {#delivery-statuses}
 
-![](../../assets/common.svg)
+
 
 <!--ajouter intro 
 
@@ -109,19 +111,19 @@ Adobe Campaign の E メールの配信品質を最適化する方法につい�
       nlserver pdump
       HH:MM:SS > Application server for Adobe Campaign Classic (X.Y.Z YY.R build nnnn@SHA1) of DD/MM/YYYY
       [...]
-      mta@<INSTANCENAME> (9268) - 23.0 Mb
+      mta@<instance-name> (9268) - 23.0 Mb
       [...]
       ```
 
    1. MTA がリストされていない場合は、次のコマンドを使用して開始します。
 
       ```
-      nlserver start mta@<INSTANCENAME>
+      nlserver start mta@<instance-name>
       ```
 
       >[!NOTE]
       >
-      >`<INSTANCENAME>` をインスタンスの名前（production、development など）に置き換えます。インスタンス名は設定ファイルで識別されます。`[path of application]nl6/conf/config-<INSTANCENAME>.xml`
+      >`<instance-name>` をインスタンスの名前（production、development など）に置き換えます。インスタンス名は設定ファイルで識別されます。`[path of application]nl6/conf/config-<instance-name>.xml`
 
 * 送信サーバーに設定されていないアフィニティを配信で使用している可能性があります。
 

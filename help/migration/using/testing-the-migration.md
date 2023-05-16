@@ -2,13 +2,14 @@
 product: campaign
 title: 移行のテスト
 description: 移行のテスト
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
 hide: true
 hidefromtoc: true
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 4%
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # 移行テスト{#testing-the-migration}
 
-![](../../assets/v7-only.svg)
+
 
 ## 一般的な手順 {#general-procedure}
 
@@ -55,13 +56,13 @@ ht-degree: 4%
 * 内 **config** コマンド：
 
    ```
-   nlserver.exe config <option> -instance:<instanceName>
+   nlserver.exe config <option> -instance:<instance-name>
    ```
 
 * または、ポストアップグレード時に次の操作を行います。
 
    ```
-   nlserver.exe config -postupgrade <option> -instance:<instanceName>
+   nlserver.exe config -postupgrade <option> -instance:<instance-name>
    ```
 
 >[!NOTE]
@@ -75,7 +76,7 @@ ht-degree: 4%
 * この **-showCustomEntities** 「 」オプションは、非標準オブジェクトのリストを表示します。
 
    ```
-   nlserver.exe config -showCustomEntities -instance:<instanceName>
+   nlserver.exe config -showCustomEntities -instance:<instance-name>
    ```
 
    送信メッセージの例：
@@ -87,7 +88,7 @@ ht-degree: 4%
 * この **-showDeletedEntities** 「 」オプションは、データベースまたはファイルシステムに存在しないすべての標準オブジェクトのリストを表示します。 見つからない各オブジェクトに対して、パスが指定されます。
 
    ```
-   nlserver.exe config -showDeletedEntities -instance:<instanceName>
+   nlserver.exe config -showDeletedEntities -instance:<instance-name>
    ```
 
    送信メッセージの例：
@@ -103,7 +104,7 @@ ht-degree: 4%
 次のコマンドを使用して、検証プロセスを移行せずに独自に開始できます。
 
 ```
-nlserver.exe config -postupgrade -check -instance:<instanceName>
+nlserver.exe config -postupgrade -check -instance:<instance-name>
 ```
 
 >[!NOTE]
@@ -176,7 +177,7 @@ nlserver.exe config -postupgrade -check -instance:<instanceName>
 このオプションを使用すると、標準のオブジェクトが変更されている場合にそのオブジェクトを復元できます。 復元された各オブジェクトに対して、変更のバックアップが選択したフォルダに保存されます。
 
 ```
-nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instanceName>
+nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instance-name>
 ```
 
 >[!NOTE]

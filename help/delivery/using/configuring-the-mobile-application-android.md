@@ -2,10 +2,11 @@
 product: campaign
 title: Adobe Campaign で Android モバイルアプリケーションを設定
 description: Android 用のモバイルアプリケーションの設定方法を説明します。
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
-workflow-type: ht
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 100%
 
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Android の設定手順
 
-![](../../assets/v7-only.svg)
+
 
 パッケージがインストールされたら、Adobe Campaign Classic で Android アプリの設定を定義できます。
 
@@ -136,7 +137,7 @@ HTTP v1 API バージョンを設定するには、次の手順に従います�
 
 1. オプションとして、必要に応じ、**[!UICONTROL アプリケーション変数]**&#x200B;を使用してプッシュメッセージのコンテンツを強化できます。これらは完全にカスタマイズ可能で、モバイルデバイスに送信されるメッセージペイロードの一部です。
 
-1. 「**[!UICONTROL 完了]**」、「**[!UICONTROL 保存]**」の順にクリックします。これで、Campaign Classic で Android アプリケーションを使用する準備が整いました。
+1. 「**[!UICONTROL 終了]**」、「**[!UICONTROL 保存]**」の順にクリックします。これで、Campaign Classic で Android アプリケーションを使用する準備が整いました。
 
 以下に、プッシュ通知をさらにパーソナライズするための FCM ペイロード名を示します。
 

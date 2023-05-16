@@ -2,9 +2,10 @@
 product: campaign
 title: Campaign Classicデータモデルの概要
 description: Campaign データモデルの拡張、スキーマの編集、API の使用などの方法について学ぶ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Data Model
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 31%
@@ -12,8 +13,6 @@ ht-degree: 31%
 ---
 
 # Campaign データモデルの基本を学ぶ{#about-data-model}
-
-![](../../assets/v7-only.svg)
 
 Adobe Campaign データベースの概念データモデルは、一連のビルトインテーブルとそのインタラクションで構成されます。主なテーブルと概念をこのページに示します。
 

@@ -2,11 +2,13 @@
 product: campaign
 title: Adobe Campaign での共有オーディエンスの統合の設定
 description: 共有オーディエンスの統合を設定する方法について説明します
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
-source-git-commit: 830c4146d72cd5a744d026a499cfe8613a255da7
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Adobe Campaign での共有オーディエンス統合の設定{#configuring-shared-audiences-integration-in-adobe-campaign}
 
-![](../../assets/common.svg)
+
 
 このリクエストを送信すると、アドビ側で統合のプロビジョニングが進められます。また、設定を完了するための詳細情報がお客様に届きます。
 

@@ -2,9 +2,10 @@
 product: campaign
 title: 集計の更新
 description: 「集計を更新」ワークフローアクティビティの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # 集計の更新{#update-aggregate}
 
-![](../../assets/v7-only.svg)
+
 
 集計は、レポーティングの目的のためキューブレベルで定義できます。集計の設定は、「**[!UICONTROL ワークフロー]**」タブでおこないます。
 

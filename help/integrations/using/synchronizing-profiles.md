@@ -2,11 +2,12 @@
 product: campaign
 title: プロファイルの同期
 description: プロファイルを ACS コネクタと同期する方法を学ぶ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
 hide: true
 hidefromtoc: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # プロファイルの同期{#synchronizing-profiles}
 
-![](../../assets/v7-only.svg)
+
 
 ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプリケートします。Campaign v7 から受け取ったデータは、Campaign Standard で配信を作成するのに使用できます。以下の操作を実行することで、プロファイルの同期方法を把握できます。
 

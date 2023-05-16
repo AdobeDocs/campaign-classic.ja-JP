@@ -2,11 +2,12 @@
 product: campaign
 title: マーケティングリソース管理の基本を学ぶ
 description: マーケティングリソース管理について
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # マーケティングリソース管理の基本を学ぶ{#about-marketing-resource-management}
 
-![](../../assets/v7-only.svg)
+
 
 **マーケティングリソース管理（MRM）**&#x200B;モジュールでは、関連するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調モードで制御できます。
 

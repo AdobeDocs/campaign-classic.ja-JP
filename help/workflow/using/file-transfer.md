@@ -2,9 +2,10 @@
 product: campaign
 title: ファイル転送
 description: ファイル転送ワークフローアクティビティの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # ファイル転送{#file-transfer}
 
-![](../../assets/v7-only.svg)
+
 
 「**ファイル転送**」アクティビティでは、ファイルの送受信、ファイルの有無の確認、サーバー上のファイルのリストアップが可能です。Azure Blob Storage、Amazon Simple Storage Service (S3)、FTP、SFTP のいずれかのプロトコルを使用します。
 S3、Azure Blob Storage、SFTP 接続のいずれかを使用すると、Adobe のリアルタイム顧客データプラットフォームで、セグメントデータを Adobe Campaign にインポートすることもできます。詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ja)を参照してください。

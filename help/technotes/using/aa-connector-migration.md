@@ -2,8 +2,9 @@
 product: campaign
 title: Adobe Analytics Connector への移行
 description: Campaign - Analytics Connector に関する FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 62ccc9e52de1bc416284e5b1bf48d69dc603923a
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 100%
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # 既存の Genesis 統合を Adobe Analytics Connector に移行する方法 {#acc-aa-faq}
 
-![](../../assets/v7-only.svg)
+
 
 Campaign Classic v7 21.1.3 リリース以降、Adobe Analytics Data Connector は非推奨になりました。[詳細情報](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=ja)
 

@@ -2,12 +2,13 @@
 product: campaign
 title: Campaign Classic の互換性マトリックス
 description: Campaign Classic 互換性マトリックス
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 0065a25250d73c71e7569768a38b5836cccab992
-workflow-type: ht
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 100%
 
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # 互換性マトリックス{#compatibility-matrix}
 
-![](../../assets/v7-only.svg)
+
 
 このドキュメントでは、**Adobe Campaign Classic v7** の[最新ビルド](../../rn/using/latest-release.md)でサポートされているすべてのシステムとコンポーネントを示します。このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
 

@@ -2,9 +2,10 @@
 product: campaign
 title: Campaign - Microsoft Dynamics CRM コネクタ
 description: Campaign とMicrosoft Dynamics の接続方法を学ぶ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: 1a2e6a0bc754a1236f64b35e99c1be08f1066f75
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Campaign と Microsoft Dynamics 365 の接続{#connect-to-msdyn}
 
-![](../../assets/v7-only.svg)
+
 
 このページでは、Campaign Classic を **Microsoft Dynamics CRM 365** に接続する方法について説明します。
 

@@ -6,7 +6,7 @@ audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 6c1e061b-8636-4285-8d83-97474544d252
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 50a89f993523f3274e87ebac740d1c121082e18c
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 49%
@@ -15,7 +15,7 @@ ht-degree: 49%
 
 # データベース構造の更新{#updating-the-database-structure}
 
-![](../../assets/v7-only.svg)
+
 
 スキーマに加えた変更を適用するには、データベース更新ウィザードを起動します。 このウィザードには、 **[!UICONTROL ツール/詳細設定/データベース構造を更新]** . データベースの物理構造が論理的な記述と一致するかどうかを確認し、SQL 更新スクリプトを実行します。
 

@@ -2,26 +2,27 @@
 product: campaign
 title: はじめに
 description: はじめに
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 3e39a0d2-ff7e-4233-82bb-2b360f696a33
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 3%
 
 ---
 
 # はじめに{#introduction}
 
-![](../../assets/v7-only.svg)
+
 
 この節では、Adobe Campaign、クライアント側、サーバー側のアップグレードに適用する手順と、既存のインスタンスの Unicode への切り替えについて説明します。
 
 >[!NOTE]
 >
->ホストされているインスタンスの場合は、Adobe管理者と調整する必要があります。\
+>Hosted/Managed Services インスタンスの場合は、Adobe管理者と連携する必要があります。\
 >オンプレミスインスタンスの場合は、Adobeコンサルタントからサポートを受けることができます。
 
 Adobe Campaignがインストールされているすべてのサーバーにアップグレードを適用する必要があります。

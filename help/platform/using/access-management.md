@@ -2,18 +2,19 @@
 product: campaign
 title: 権限の基本を学ぶ
 description: Campaign 機能へのアクセスを許可する方法について説明します。
+badge: label="v7" type="Informative" tooltip="Campaign Classicv7 のみに適用"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 100%
+source-wordcount: '264'
+ht-degree: 95%
 
 ---
 
 # 権限の基本を学ぶ{#access-management}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign は、様々なオペレーターに割り当てる一連の権利を定義したり、管理したりするのに役立ちます。以下の操作は、それらの権利に基づいて承認または拒否されます。
 

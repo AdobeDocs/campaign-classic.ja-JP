@@ -2,9 +2,10 @@
 product: campaign
 title: リストの管理とカスタマイズ
 description: リストの参照と設定の方法について説明します。
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # リストの管理とカスタマイズ{#manage-and-customize-lists}
 
-![](../../assets/v7-only.svg)
+
 
 エクスプローラーを使用して、Campaign データベース内のレコードのリストにアクセスできます。 これらのリストのフィルタリング、検索の実行、情報の追加、データのフィルタリングと並べ替えを行うことができます。
 

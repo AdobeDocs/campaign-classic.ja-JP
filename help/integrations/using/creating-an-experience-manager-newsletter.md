@@ -2,10 +2,12 @@
 product: campaign
 title: Experience Manager ニュースレターの作成
 description: Experience Manager ニュースレターの作成
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 100%
@@ -14,7 +16,7 @@ ht-degree: 100%
 
 # Experience Manager ニュースレターの作成{#creating-an-experience-manager-newsletter}
 
-![](../../assets/common.svg)
+
 
 この統合を利用して、例えば、Adobe Experience Manager で作成したニュースレターを Adobe Campaign でメールキャンペーンの一部として使用できます。
 

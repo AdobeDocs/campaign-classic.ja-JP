@@ -2,11 +2,13 @@
 product: campaign
 title: Campaign のクエリについて
 description: Campaign のクエリについて
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # クエリの概要{#about-queries-in-campaign}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign のクエリツールは、ターゲット母集団の作成、顧客のセグメント化、トラッキングログの抽出とフィルター、フィルターの作成などのために、ソフトウェアの複数のレベルで使用できます。
 

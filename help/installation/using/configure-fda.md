@@ -2,11 +2,12 @@
 product: campaign
 title: FDA コネクタの設定
 description: FDA の設定手順を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: f580b9b2508c279e03bd2698854aaf3de501200b
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 59%
@@ -15,7 +16,7 @@ ht-degree: 59%
 
 # FDA コネクタの設定 {#specific-configurations-by-database-type}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign から外部データベースにアクセスできるようにするには、使用する外部データベースに応じて特定の設定をおこなう必要があります。これらの設定は、基本的には、ドライバーをインストールし、Adobe Campaign サーバー上の各 RDBMS に属する環境変数を宣言することです。
 

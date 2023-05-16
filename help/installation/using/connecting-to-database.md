@@ -2,11 +2,12 @@
 product: campaign
 title: 外部データベースへの接続
 description: 外部データベースへの接続方法を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 98%
@@ -15,7 +16,7 @@ ht-degree: 98%
 
 # データベースへの接続 {#connecting-to-the-database}
 
-![](../../assets/v7-only.svg)
+
 
 外部データベースへの接続を有効にするには、対象のデータソースおよびデータの読み込みが必要なテーブルの名前を接続パラメーターで指定する必要があります。
 

@@ -2,11 +2,13 @@
 product: campaign
 title: Assets へのアクセスの設定
 description: Assets へのアクセスの設定
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Assets へのアクセスの設定{#configuring-access-to-assets}
 
-![](../../assets/common.svg)
+
 
 この節では、Assets コアサービスまたは Adobe Experience Manager Assets（AEM Assets）ライブラリとの統合機能で使用するために必要な Adobe Campaign の設定手順を説明します。
 

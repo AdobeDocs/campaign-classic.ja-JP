@@ -2,9 +2,10 @@
 product: campaign
 title: 開始および終了
 description: 「開始および終了」ワークフローアクティビティの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # 開始と終了{#start-and-end}
 
-![](../../assets/v7-only.svg)
+
 
 「**[!UICONTROL 開始]**」アクティビティおよび「**[!UICONTROL 終了]**」アクティビティを使用して、ワークフローの開始と終了を視覚的に示します。これらのアクティビティは、機能上の影響はないので、省略可能です。
 

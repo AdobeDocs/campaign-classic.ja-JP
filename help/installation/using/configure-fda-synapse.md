@@ -2,11 +2,12 @@
 product: campaign
 title: Synapse へのアクセスの設定
 description: FDA での Synapse へのアクセスの設定方法を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 72%
@@ -15,7 +16,7 @@ ht-degree: 72%
 
 # Azure Synapse へのアクセスの設定 {#configure-access-to-azure-synapse}
 
-![](../../assets/v7-only.svg)
+
 
 キャンペーンを使用 [Federated Data Access](../../installation/using/about-fda.md) (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 **MicrosoftAzure synapse分析**.
 

@@ -2,11 +2,12 @@
 product: campaign
 title: Campaign Classic の非推奨（廃止予定）および削除された機能
 description: このページには、Adobe Campaign Classic の非推奨および削除された機能が表示されます
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 0ecf9c69cc4b444feda1e42701a3a27f2b2e7eeb
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # 非推奨（廃止予定）および削除された機能 {#deprecated-and-removed-features}
 
-![](../../assets/v7-only.svg)
+
 
 アドビは、製品の機能を評価し続けて、より新しい代替手段に置き換えるべき旧機能を特定し、全体的な顧客の価値を向上させ、常に後方互換性を慎重に考慮します。Adobe Campaign Classic はサードパーティ製ツールと連携しており、サポート対象バージョンのみに対応するために、定期的に互換性が更新されています。Adobe Campaign Classic と互換性がなくなったバージョンを、以下および[互換性マトリックス](../../rn/using/compatibility-matrix.md)に示します。
 

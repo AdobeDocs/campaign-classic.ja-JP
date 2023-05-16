@@ -2,11 +2,12 @@
 product: campaign
 title: ホスティングモデル
 description: Campaign のホスティングモデルの確認
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: Architect
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 # ホスティングモデル{#hosting-models}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaignは、3 つのホスティングモデルから選択でき、ビジネスニーズに合わせて最適なモデル（モデル）を柔軟に選択でき、自由に選択できます。
 
@@ -48,7 +49,7 @@ Adobe Campaignはオンプレミスでデプロイできます。ユーザーイ
 * 詳しくは、 [互換性マトリックス](../../rn/using/compatibility-matrix.md) Adobe Campaignでサポートされているシステムとコンポーネントのすべてのバージョンを示す
 * ご使用の環境に応じて、 [Windows の前提条件](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) および [Linux の前提条件](../../installation/using/prerequisites-of-campaign-installation-in-linux.md).
 * データベースエンジンに関する推奨事項について説明します [この節](../../installation/using/database.md).
-* 必要なデータベースアクセスレイヤーがサーバーにインストールされ、Adobe Campaignアカウントからアクセスできることを確認します。 [詳細情報](../../installation/using/application-server.md)。
+* 必要なデータベースアクセスレイヤーがサーバーにインストールされ、Adobe Campaignアカウントからアクセスできることを確認します。 [詳細情報](../../installation/using/application-server.md)
 * 一部のプロセスは、他のプロセスと通信したり、LAN やインターネットにアクセスしたりする必要があるので、ネットワークを設定します。 つまり、これらのプロセスでは、一部の TCP ポートを開く必要があります。 [詳細情報](../../installation/using/network-configuration.md) ネットワーク構成の要件について
 * 読み取り [Campaign のセキュリティおよびプライバシーチェックリスト](https://helpx.adobe.com/jp/campaign/kb/acc-security.html).
 * オンプレミスデプロイメント用のハードウェア要件の見積もりに関する一般的なガイドラインを確認します [この記事では、](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html).

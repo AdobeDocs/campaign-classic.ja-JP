@@ -2,9 +2,10 @@
 product: campaign
 title: エンリッチメント
 description: エンリッチメントワークフローアクティビティの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Enrichment Activity, Targeting Activity
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # エンリッチメント{#enrichment}
 
-![](../../assets/v7-only.svg)
+
 
 「**[!UICONTROL エンリッチメント]**」アクティビティでは、プロファイルリストに情報を追加し、リンクを既存のテーブルに追加できます（新しい結合を作成）。データベース内のプロファイルと紐付ける条件も定義できます。
 

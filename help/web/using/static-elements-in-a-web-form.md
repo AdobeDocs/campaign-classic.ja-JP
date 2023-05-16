@@ -2,9 +2,11 @@
 product: campaign
 title: Web フォームの静的要素
 description: Web フォームの静的要素
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Web フォームの静的要素{#static-elements-in-a-web-form}
 
-![](../../assets/common.svg)
+
 
 ユーザーインタラクションのない要素をフォームのページに含めることができます。これらは、画像、HTML コンテンツ、横棒グラフまたはハイパーリンクなどの静的要素です。これらの要素は、ツールバーの最初のボタンで「**[!UICONTROL 静的要素]**」を選択して作成します。
 

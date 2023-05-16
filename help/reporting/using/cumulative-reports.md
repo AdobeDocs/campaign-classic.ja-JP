@@ -2,9 +2,11 @@
 product: campaign
 title: 累積レポート
 description: 累積レポート
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: e67748dd-fa50-4992-b85f-474389e876cf
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # 累積レポート {#cumulative-reports}
 
-![](../../assets/common.svg)
+
 
 配信に関する累積レポートを表示できます。そのためには、比較する配信を選択してこれらの配信のレポートのリストを取得します。
 

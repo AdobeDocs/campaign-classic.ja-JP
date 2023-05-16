@@ -2,9 +2,11 @@
 product: campaign
 title: 配信の送信に関するトラブルシューティング
 description: 配信の監視に関する問題のトラブルシューティング方法と配信パフォーマンスについて詳しく説明します。
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # 配信の送信に関するトラブルシューティング {#delivery-troubleshooting}
 
-![](../../assets/common.svg)
+
 
 この節では、配信を送信する際に発生する可能性のある一般的な問題と、そのトラブルシューティング方法についてリストします。
 

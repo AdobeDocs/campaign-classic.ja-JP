@@ -2,10 +2,11 @@
 product: campaign
 title: iOS デバイス用のプッシュ通知の作成
 description: iOS 用のプッシュ通知を作成する方法を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
-workflow-type: ht
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 100%
 
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # iOS 用通知の作成{#create-notifications-ios}
 
-![](../../assets/v7-only.svg)
+
 
 ここでは、iOS 用通知の配信に固有の要素について説明します。配信の作成に関するグローバルな概念については、[この節](steps-about-delivery-creation-steps.md)で説明しています。
 

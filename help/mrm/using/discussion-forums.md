@@ -2,11 +2,12 @@
 product: campaign
 title: ディスカッションフォーラム
 description: Campaign ディスカッションフォーラムの利用方法を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # ディスカッションフォーラム{#discussion-forums}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign のオペレーターは、ディスカッションフォーラムを使用して情報を共有できます。プラン、プログラム、キャンペーン、リソース、シミュレーション、在庫の各要素には、それぞれ独自のディスカッションフォーラムがあります。各オペレーターにも個人用のフォーラムがあります。個人用フォーラムも含め、すべてのディスカッションは公開されています。
 

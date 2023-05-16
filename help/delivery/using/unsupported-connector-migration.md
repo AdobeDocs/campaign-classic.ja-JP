@@ -2,9 +2,10 @@
 product: campaign
 title: サポートされていない SMS コネクタの移行
 description: サポートされていない SMS コネクタの拡張汎用 SMPP コネクタへの移行
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hidefromtoc: true
 exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # サポートされていない SMS コネクタの、拡張された汎用 SMPP コネクタへの移行{#unsupported-connector-migration}
 
-![](../../assets/v7-only.svg)
+
 
 リリース 20.2 の時点で、従来のコネクタは非推奨（廃止予定）となっています。 このドキュメントは、古いシステムでまだ動作中のコネクタを推奨の SMPP コネクタに移行する際に役立ちます。
 

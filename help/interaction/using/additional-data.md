@@ -2,11 +2,12 @@
 product: campaign
 title: 追加データ
 description: 追加データ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 01adb584-5308-4d41-a6f1-223a97efa10f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # 追加データ{#additional-data}
 
-![](../../assets/v7-only.svg)
+
 
 インタラクションエンジンの呼び出し時には、コンテキストに関する追加情報を転送できます。このデータは、ワークフローの作業用テーブルに格納されたターゲットデータ（アウトバウンドチャネル）や、呼び出し時に Web サイトから送信された呼び出しデータ（インバウンドチャネル）などから取得できます。この追加データは、実施要件ルール、オファーのパーソナライゼーションなどに利用したり、提案テーブルに格納したりできます。
 

@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: ジョブの実行の監視
-description: インポートジョブとエクスポートジョブの実行を監視する方法について説明します。
+description: インポートジョブとエクスポートジョブの実行を監視する方法を説明します
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # ジョブの実行の監視 {#monitoring-job-execution}
 
-![](../../assets/common.svg)
+
 
 インポートジョブとエクスポートジョブの実行は、インポート／エクスポートジョブのリストから直接追跡できます。
 

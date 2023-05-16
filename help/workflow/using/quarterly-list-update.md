@@ -1,19 +1,20 @@
 ---
 product: campaign
-title: 増分クエリを使用した四半期ごとのリストの更新
-description: この使用例では、増分処理クエリを使用して、受信者リストを自動更新します。
+title: 増分処理クエリを使用した四半期ごとのリスト更新
+description: この使用例では、増分処理クエリを使用して、受信者リストを自動的に更新します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 0d3e7046-313a-42a6-9155-3365e8d60bac
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 増分処理クエリを使用した四半期ごとのリスト更新 {#quarterly-list-update}
 
-![](../../assets/v7-only.svg)
+
 
 次の例では、[増分処理クエリ](incremental-query.md)を使用して、受信者リストを自動更新します。これらの受信者は、季節ごとのマーケティングキャンペーンの一部としてターゲットされています。
 

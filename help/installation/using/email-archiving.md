@@ -2,20 +2,21 @@
 product: campaign
 title: E メールのアーカイブ
 description: E メールのアーカイブ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 87%
+source-wordcount: '1367'
+ht-degree: 85%
 
 ---
 
 # メール BCC の設定 {#email-archiving}
 
-![](../../assets/v7-only.svg)
+
 
 プラットフォームから送信された電子メールのコピーを保持するようにAdobe Campaignを設定できます。
 
@@ -34,6 +35,9 @@ ht-degree: 87%
 * Adobe Campaign17.2（ビルド8795）で電子メールアーカイブシステムが変更されました。 既に電子メールのアーカイブを使用している場合は、新しい電子メール BCC システムに手動でアップグレードする必要があります。 詳しくは、 [新しい E メール BCC への移行](#updated-email-archiving-system--bcc-) 」セクションに入力します。
 
 ## 電子メール BCC のアクティブ化（オンプレミス） {#activating-email-archiving--on-premise-}
+
+[!BADGE オンプレミスおよびハイブリッド]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスおよびハイブリッドデプロイメントにのみ適用されます"}
+
 
 Adobe Campaignがオンプレミスでインストールされている場合にBCC電子メールアーカイブをアクティブにするには、次の手順に従います。
 
@@ -102,6 +106,9 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 ## BCC電子メールアドレスの設定（オンプレミス）  {#configuring-the-bcc-email-address--on-premise-}
 
+[!BADGE オンプレミスおよびハイブリッド]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスおよびハイブリッドデプロイメントにのみ適用されます"}
+
+
 >[!IMPORTANT]
 >
 >プライバシー上の理由から、BCC電子メールは、個人の身元を特定できる情報(PII)を安全に保存できるアーカイブシステムで処理する必要があります。
@@ -124,6 +131,10 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 >また、リレーは、送信されていない電子メールも含め、すべての電子メールに **[!UICONTROL 送信済み]** ステータスを割り当てます。 したがって、すべてのメッセージはアーカイブされます。
 
 ## 新しい E メール BCC への移行 {#updated-email-archiving-system--bcc-}
+
+[!BADGE オンプレミスおよびハイブリッド]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスおよびハイブリッドデプロイメントにのみ適用されます"}
+
+
 
 >[!IMPORTANT]
 >

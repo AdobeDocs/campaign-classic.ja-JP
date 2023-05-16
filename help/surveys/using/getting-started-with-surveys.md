@@ -2,9 +2,11 @@
 product: campaign
 title: 調査を作成するための主な手順
 description: Campaign での初めての調査作成
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
-source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # 調査を作成するための主な手順{#getting-started-with-surveys}
 
-![](../../assets/common.svg)
+
 
 ここでは、次のビルトインテンプレートを使用して、簡単な調査を作成するための主な手順の概要を説明します。
 

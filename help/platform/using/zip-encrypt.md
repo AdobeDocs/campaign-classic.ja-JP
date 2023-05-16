@@ -1,31 +1,33 @@
 ---
 product: campaign
 title: ファイルの圧縮または暗号化
-description: 処理をおこなう前に Campaign Classic でファイルを圧縮または暗号化する方法を説明します。
+description: 処理の前に Campaign でファイルを圧縮または暗号化する方法を説明します
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 100%
+source-wordcount: '562'
+ht-degree: 97%
 
 ---
 
 # ファイルの圧縮または暗号化 {#zipping-or-encrypting-a-file}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign では、圧縮されたファイルや暗号化されたファイルをエクスポートできます。「**[!UICONTROL データ抽出（ファイル）]**」アクティビティを通じてエクスポートを定義する際にファイルを圧縮または暗号化する後処理を定義できます。
 
 手順は以下のとおりです。
 
-1. [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#encrypting-data)を使用して、インスタンスに GPG キーペアをインストールします。
+1. [コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#encrypting-data)を使用して、インスタンスに GPG キーペアをインストールします。
 
    >[!NOTE]
    >
-   >Campaign コントロールパネルは管理者ユーザーに制限され、特定の Campaign バージョンでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)
+   >コントロールパネルは管理者ユーザーに制限され、特定の Campaign バージョンでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)
 
 1. インストールした Adobe Campaign がアドビでホストされている場合は、必要なユーティリティをサーバーにインストールするよう[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に依頼します。
 1. Adobe Campaign のインストールがオンプレミスの場合：使用するユーティリティ（例：GPG、GZIP）およびアプリケーションサーバー上の必要なキー（暗号化キー）をインストールします。
@@ -39,15 +41,15 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 ## ユースケース：コントロールパネルにインストールされたキーを使用したデータの暗号化およびエクスポート {#use-case-gpg-encrypt}
 
-このユースケースでは、Campaign コントロールパネルにインストールされたキーを使用してデータを暗号化およびエクスポートするためのワークフローを作成します。
+このユースケースでは、コントロールパネルにインストールされたキーを使用してデータを暗号化およびエクスポートするためのワークフローを作成します。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
 このユースケースを実行する手順は次のとおりです。
 
-1. GPG ユーティリティを使用して GPG キーペア（公開鍵／秘密鍵）を生成し、公開キーを Campaign コントロールパネルにインストールします。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#encrypting-data)を参照してください。
+1. GPG ユーティリティを使用して GPG キーペア（公開鍵／秘密鍵）を生成し、公開キーを コントロールパネルにインストールします。詳細な手順については、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#encrypting-data)を参照してください。
 
-1. Campaign Classic で、データをエクスポートするワークフローを作成し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用してデータを暗号化します。これをおこなうには、次のようにワークフローを作成します。
+1. Campaign Classic で、データをエクスポートするワークフローを作成し、コントロールパネル経由でインストールされた秘密鍵を使用してデータを暗号化します。これをおこなうには、次のようにワークフローを作成します。
 
    ![](assets/gpg-workflow-encrypt.png)
 
@@ -66,7 +68,7 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
    >[!IMPORTANT]
    >
-   >コマンドの&#x200B;**フィンガープリント**&#x200B;の値を、Campaign コントロールパネルにインストールされた公開鍵のフィンガープリントに置き換えてください。
+   >コマンドの&#x200B;**フィンガープリント**&#x200B;の値を、コントロールパネルにインストールされた公開鍵のフィンガープリントに置き換えてください。
 
    ```
    var cmd='gpg ';

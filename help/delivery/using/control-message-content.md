@@ -2,9 +2,11 @@
 product: campaign
 title: Adobe Campaign Classic の配信品質について
 description: Adobe Campaign の配信品質管理の詳細情報
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # メッセージコンテンツの制御{#control-message-content}
 
-![](../../assets/common.svg)
+
 
 E メールが受信者に確実に届くようにし、E メールの配信品質率を向上させるには、E メールがいくつかのルールに従う必要があります。 従わない場合は、特定のメッセージのコンテンツがスパムとして検出される可能性があります。 Adobe Campaign には、コンテンツがこれらのルールに従うようにするためのツールがいくつか用意されています。
 

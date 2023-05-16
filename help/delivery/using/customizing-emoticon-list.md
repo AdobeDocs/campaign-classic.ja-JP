@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: 顔文字リストのカスタマイズ
-description: Adobe Campaign Classic を使用するときに顔文字リストをカスタマイズする方法を説明します。
+description: Adobe Campaign を使用するときに顔文字リストをカスタマイズする方法を説明します。
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Push
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '473'
 ht-degree: 100%
 
 ---
 
 # 顔文字リストのカスタマイズ {#customize-emoticons}
 
-![](../../assets/common.svg)
+
 
 ポップアップに表示される顔文字リストは、リストに値を表示して、特定のフィールドに対するユーザーの選択肢を制限できる列挙によって決まります。
 顔文字のリスト順序はカスタマイズすることができます。また、リストに他の顔文字を追加することもできます。

@@ -2,9 +2,11 @@
 product: campaign
 title: トラッキングするリンクの設定方法
 description: トラッキングするリンクの設定方法
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # トラッキングするリンクの設定方法{#how-to-configure-tracked-links}
 
-![](../../assets/common.svg)
+
 
 配信ごとに、メッセージの受信と、メッセージコンテンツに挿入されたリンクの有効化をトラッキングできます。これによって、ターゲットとした配信アクションに続く受信者の行動をトラッキングできます。
 

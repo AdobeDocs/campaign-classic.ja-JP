@@ -2,9 +2,11 @@
 product: campaign
 title: web フォームプロパティの定義
 description: web フォームプロパティの定義
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # web フォームプロパティの定義{#defining-web-forms-properties}
 
-![](../../assets/common.svg)
+
 
 Web フォームの設定とパーソナライズを完全に行い、要件を満たすことができます。パラメーターは、プロパティウィンドウで入力する必要があります。
 

@@ -2,9 +2,10 @@
 product: campaign
 title: マーケティングキャンペーンテンプレート
 description: マーケティングキャンペーンテンプレート
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns, Templates
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 100%
@@ -12,8 +13,6 @@ ht-degree: 100%
 ---
 
 # キャンペーンテンプレートの作成と設定 {#campaign-templates}
-
-![](../../assets/v7-only.svg)
 
 すべてのマーケティングキャンペーンは、主な特性と機能を格納したテンプレートに基づいています。 キャンペーンテンプレートは、**[!UICONTROL リソース／テンプレート／キャンペーンテンプレート]**&#x200B;ノードで一元管理されます。デフォルトのテンプレートは、標準として提供されます。デフォルトのテンプレートで、使用可能なすべてのモジュール（ドキュメント、タスク、シードアドレスなど）を使用して、新しいキャンペーンを作成できますが、提供されるモジュールは、ユーザーの権限と Adobe Campaign プラットフォームの設定によって異なります。
 

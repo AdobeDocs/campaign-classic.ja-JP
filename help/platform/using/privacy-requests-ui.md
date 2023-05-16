@@ -2,11 +2,12 @@
 product: campaign
 title: プライバシーリクエストの作成
 description: プライバシーリクエストの作成および管理方法についての説明
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
-source-git-commit: 42b420d7dae7d38e9f4df442146d3b484c25e831
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # プライバシーリクエストの作成と管理 {#privacy-request-ui}
 
-![](../../assets/v7-only.svg)
+
 
 この節では、アクセスリクエストと削除リクエストの作成方法のほか、それらのリクエストを Adobe Campaign がどのように処理するかについて説明します。
 

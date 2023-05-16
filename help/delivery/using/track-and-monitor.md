@@ -2,9 +2,11 @@
 product: campaign
 title: メッセージのトラッキングと監視
 description: メッセージのトラッキングと監視の方法を学ぶ
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # トラッキングと監視 {#track-and-monitor}
 
-![](../../assets/common.svg)
+
 
 「**送信**」ボタンをクリックしましたか。何が起こるかを見てみましょう。配信の送信後、Adobe Campaign では、送信済みメッセージをトラッキングして、配信に対する受信者の反応を確認できます。これは、今後の送信を改善し、次のキャンペーンを最適化するのに役立ちます。
 

@@ -2,9 +2,11 @@
 product: campaign
 title: パーソナライズされたコンテンツの作成
 description: Adobe Campaign 配信でパーソナライズされたコンテンツを作成する方法を学ぶ
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design, Personalization
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # パーソナライズされたコンテンツの作成 {#build-personalized-content}
 
-![](../../assets/common.svg)
+
 
 メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。考えられるエラーの多くは、[パーソナライゼーション](about-personalization.md)、[フォーマット設定](defining-the-email-content.md#message-content)、[画像](defining-the-email-content.md#adding-images)に関係しています。
 

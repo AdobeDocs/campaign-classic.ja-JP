@@ -2,11 +2,12 @@
 product: campaign
 title: オファースペースの作成
 description: オファースペースの作成
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # オファースペースの作成{#creating-offer-spaces}
 
-![](../../assets/v7-only.svg)
+
 
 オファースペースの作成を実行できるのは、オファースペースのサブフォルダーへのアクセス権を持つ&#x200B;**技術管理者**&#x200B;のみです。オファースペースは、デザイン環境にのみ作成でき、オファーの承認時にライブ環境に自動的に複製されます。
 

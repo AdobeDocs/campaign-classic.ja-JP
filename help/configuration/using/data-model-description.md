@@ -2,9 +2,10 @@
 product: campaign
 title: Adobe Campaign Classic data model description
 description: このドキュメントでは、Adobe Campaignデータモデルについて説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Data Model
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2379'
 ht-degree: 4%
@@ -13,7 +14,6 @@ ht-degree: 4%
 
 # Campaign データモデルの説明{#data-model-description}
 
-![](../../assets/v7-only.svg)
 
 Adobe Campaign には、事前定義済みのデータモデルが付属しています。ここでは、Adobe Campaign データモデルのビルトインテーブルとそのインタラクションについて詳しく説明します。
 

@@ -2,8 +2,9 @@
 product: campaign
 title: Web トラッキングタグの作成
 description: Web トラッキングタグの作成方法を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -11,8 +12,6 @@ ht-degree: 0%
 ---
 
 # Web トラッキングタグの作成{#creating-web-tracking-tags}
-
-![](../../assets/v7-only.svg)
 
 追跡するサイトの各ページは、Adobe Campaignプラットフォームで参照されている必要があります。 この参照は、次の 2 つの方法で実行できます。
 

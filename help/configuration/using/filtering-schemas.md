@@ -2,8 +2,9 @@
 product: campaign
 title: フィルタリングスキーマ
 description: フィルタリングスキーマ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 79%
@@ -11,8 +12,6 @@ ht-degree: 79%
 ---
 
 # フィルタースキーマ{#filtering-schemas}
-
-![](../../assets/v7-only.svg)
 
 ## システムフィルター {#system-filters}
 

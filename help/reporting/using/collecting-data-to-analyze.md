@@ -2,18 +2,19 @@
 product: campaign
 title: 分析するデータの収集
 description: 分析するデータの収集
+badge: label="v7" type="Informative" tooltip="Campaign Classicv7 のみに適用"
 feature: Reporting
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 100%
+source-wordcount: '537'
+ht-degree: 97%
 
 ---
 
 # 分析するデータの収集{#collecting-data-to-analyze}
 
-![](../../assets/common.svg)
+
 
 レポートの作成に使用するデータは、レポートページで直接選択することも（詳しくは、[コンテキストの使用](../../reporting/using/using-the-context.md)を参照）、1 つまたは複数のクエリで収集することもできます。
 

@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: インポート／エクスポートテンプレートの作成
-description: Campaign Classic でインポート／エクスポートテンプレートを作成する方法を説明します。
+description: Campaign でインポート／エクスポートテンプレートを作成する方法を説明します。
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1180e664-5ead-4d5d-b1c3-6fe397c1f3a2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 100%
 
 ---
 
 # インポートテンプレートおよびエクスポートテンプレートの作成 {#creating-import-export-templates}
 
-![](../../assets/common.svg)
+
 
 インポートおよびエクスポートテンプレートは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／テンプレート／ジョブテンプレート]**&#x200B;ディレクトリに保存されています。
 

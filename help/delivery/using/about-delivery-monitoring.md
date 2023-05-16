@@ -2,9 +2,11 @@
 product: campaign
 title: 配信監視の基本を学ぶ
 description: Campaign Classic 配信監視機能の詳細情報
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # 配信監視の基本を学ぶ {#about-delivery-monitoring}
 
-![](../../assets/common.svg)
+
 
 配信を送信後に監視することは、マーケティングキャンペーンを効率化し顧客に確実にリーチするための重要なステップです。
 

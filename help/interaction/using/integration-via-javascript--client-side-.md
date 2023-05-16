@@ -2,11 +2,12 @@
 product: campaign
 title: JavaScript による統合（クライアント側）
 description: JavaScript による統合（クライアント側）
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # JavaScript による統合（クライアント側）{#integration-via-javascript-client-side}
 
-![](../../assets/v7-only.svg)
+
 
 Web ページでインタラクションエンジンを呼び出すには、ページに JavaScript コードを直接挿入します。この呼び出しにより、ターゲットのオファーコンテンツを返します
 

@@ -2,9 +2,11 @@
 product: campaign
 title: SMS のトラブルシューティング
 description: SMS チャネルのトラブルシューティングの方法について説明します
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '2744'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # SMS トラブルシューティング {#troubleshooting-sms}
 
-![](../../assets/common.svg)
+
 
 ## 異なる外部アカウント間の競合 {#external-account-conflict}
 

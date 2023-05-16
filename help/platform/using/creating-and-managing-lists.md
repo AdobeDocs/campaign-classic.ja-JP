@@ -2,11 +2,12 @@
 product: campaign
 title: リストの作成および管理
 description: リストの作成および管理方法を説明します。
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Profiles
 role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # リストの作成と管理{#creating-and-managing-lists}
 
-![](../../assets/v7-only.svg)
+
 
 ## リストとは  {#about-lists-in-adobe-campaign}
 

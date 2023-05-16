@@ -2,9 +2,11 @@
 product: campaign
 title: オンライン調査の設定
 description: オンライン調査の設定方法を説明します
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
-source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # オンライン調査の設定{#configuring-surveys}
 
-![](../../assets/common.svg)
+
 
 ## 調査のプロパティ {#survey-properties}
 

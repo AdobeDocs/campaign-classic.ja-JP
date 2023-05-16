@@ -2,9 +2,11 @@
 product: campaign
 title: 配信の作成と識別
 description: 配信の作成と識別
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Channel Configuration
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # 配信の作成と識別 {#create-and-identify-the-delivery}
 
-![](../../assets/common.svg)
+
 
 ## 配信の作成 {#creating-the-delivery}
 

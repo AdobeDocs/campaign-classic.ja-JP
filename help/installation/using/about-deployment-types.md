@@ -2,11 +2,12 @@
 product: campaign
 title: デプロイメントタイプについて
 description: デプロイメントタイプについて
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 08628efb-9186-4b67-9431-310d4bc276b4
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 6%
@@ -15,7 +16,7 @@ ht-degree: 6%
 
 # デプロイメントタイプについて{#about-deployment-types}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaignのモジュラー設計により、スタンドアロンセットアップ（1 台のマシン上のすべてのコンポーネント）から、複数のサーバーを使用した完全に冗長化され分散アーキテクチャを備えた大規模なデプロイメント構成まで、幅広いデプロイメント構成が可能です。 すべては、必要なパフォーマンスとセキュリティのレベルに応じて異なります。
 

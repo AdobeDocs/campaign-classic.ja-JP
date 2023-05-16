@@ -2,9 +2,10 @@
 product: campaign
 title: Adobe Campaign Classicのスキーマリファレンスについて
 description: Adobe Campaign Classicデータベースの概念的データモデルを拡張するための拡張スキーマの設定方法について説明します。
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Schema Extension
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 58%
@@ -12,8 +13,6 @@ ht-degree: 58%
 ---
 
 # スキーマリファレンスについて{#about-schema-reference}
-
-![](../../assets/v7-only.svg)
 
 この章では、Adobe Campaignデータベースの概念的データモデルを拡張するために拡張スキーマを設定する方法について説明します。
 

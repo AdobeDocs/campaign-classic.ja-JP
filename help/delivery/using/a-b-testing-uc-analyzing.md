@@ -2,9 +2,11 @@
 product: campaign
 title: 結果の分析
 description: 専用のユースケースを通じて A/B テストを実行する方法を学ぶ
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # 結果の分析 {#step-8--analyzing-the-result}
 
-![](../../assets/common.svg)
+
 
 テストの配信が完了したら、どの受信者に配信をおこなったかをチェックし、開封の有無を確認します。
 

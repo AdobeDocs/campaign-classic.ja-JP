@@ -2,9 +2,10 @@
 product: campaign
 title: テクニカルノート - IMS を使用して Adobe Campaign に接続するように環境を更新します
 description: Campaign - IMS の更新
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: bdccc4ee7cbb8c765d488879f99677b2302d32e7
-workflow-type: ht
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 100%
 
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # IMS を使用して Adobe Campaign に接続するように環境を更新する方法 {#acc-ims-faq}
 
-![](../../assets/v7-only.svg)
+
 
 2021年6月30日（PT）に [Adobe Identity Management System](https://helpx.adobe.com/jp/enterprise/using/identity.html)（IMS）のログイン機能が変更されました。これにより、Adobe Campaign を引き続き使用する場合に影響が出る可能性があります。Adobe Campaign Classic v7 を中断することなく引き続き使用できるようにする方法を説明します。
 

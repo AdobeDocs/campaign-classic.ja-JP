@@ -2,10 +2,12 @@
 product: campaign
 title: パイプラインの設定
 description: パイプラインの設定方法を説明します
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 100%
@@ -14,7 +16,7 @@ ht-degree: 100%
 
 # パイプラインの設定 {#configuring-pipeline}
 
-![](../../assets/common.svg)
+
 
 顧客 ID、秘密鍵、認証エンドポイントなどの認証パラメーターは、インスタンス設定ファイルで設定します。
 処理されるトリガーのリストは、JSON フォーマットでオプションに設定されます。

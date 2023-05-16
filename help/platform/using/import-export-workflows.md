@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: ワークフローを使用したデータのインポートとエクスポート
-description: Campaign Classic でワークフローを使用してデータをインポートおよびエクスポートする方法について説明します。
+description: Campaign でワークフローを使用してデータをインポートおよびエクスポートする方法について説明します。
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
 
 # ワークフローを使用したデータのインポートとエクスポート {#import-export-workflows}
 
-![](../../assets/common.svg)
+
 
 ## データの収集 {#collecting-data-workflows}
 

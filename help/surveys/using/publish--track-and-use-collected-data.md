@@ -2,9 +2,11 @@
 product: campaign
 title: 収集したデータの公開、トラッキングおよび使用
 description: 調査で収集されたデータを公開、トラッキング、使用する方法を説明します
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
-source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # 収集したデータの公開、トラッキングおよび使用{#publish-track-and-use-collected-data}
 
-![](../../assets/common.svg)
+
 
 フォームの作成、設定、パブリッシュが完了したら、オーディエンスとリンクを共有して反応をトラッキングできます。
 

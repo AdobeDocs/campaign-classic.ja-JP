@@ -2,9 +2,10 @@
 product: campaign
 title: 多対多の関係を使用したクエリ
 description: 多対多関係を使用したクエリを実行する方法を説明します。
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Query Editor
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # 多対多の関係を使用したクエリ {#querying-using-a-many-to-many-relationship}
 
-![](../../assets/v7-only.svg)
+
 
 この例では、過去 7 日間連絡されていない受信者を収集します。このクエリは、すべての配信を対象とします。
 

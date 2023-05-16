@@ -2,11 +2,12 @@
 product: campaign
 title: 企業へのデプロイメント
 description: 企業へのデプロイメント
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 7%
@@ -15,7 +16,7 @@ ht-degree: 7%
 
 # 企業へのデプロイメント{#enterprise-deployment}
 
-![](../../assets/v7-only.svg)
+
 
 これは、最も完全な設定です。 標準構成に基づいて構築され、セキュリティと可用性が向上します。
 
@@ -165,7 +166,7 @@ ht-degree: 7%
 
    詳しくは、 [Campaign サーバーの設定](../../installation/using/configuring-campaign-server.md).
 
-1. クライアントコンソールセットアッププログラム (**setup-client-7.XX**, **YYYY.exe** v7 または **setup-client-6.XX**, **YYYY.exe** （v6.1 の場合） **/datakit/nl/eng/jsp** フォルダー。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
+1. クライアントコンソールセットアッププログラム (**setup-client-7.XX**, **YYYY.exe** v7 または **setup-client-6.XX**, **YYYY.exe** （v6.1 の場合） **/datakit/nl/eng/jsp** フォルダー。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)
 
 1. Adobe Campaignサーバーを起動します (**net start nlserver6** Windows の場合、 **/etc/init.d/nlserver6 start** （Linux の場合）、コマンドを実行します。 **nlserver pdump** もう一度有効なモジュールがすべて存在するかどうかを確認します。
 
@@ -189,7 +190,7 @@ ht-degree: 7%
 
 1. をテストします。 **nlserver web** URL を使用するモジュール： [https://console.campaign.net/nl/jsp/logon.jsp](https://tracking.campaign.net/r/test).
 
-   この URL を使用して、クライアントセットアッププログラムのダウンロードページにアクセスできます。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
+   この URL を使用して、クライアントセットアッププログラムのダウンロードページにアクセスできます。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)
 
    次を入力します。 **内部** ログインと関連するパスワード（アクセス制御ページにアクセスする際に使用）
 

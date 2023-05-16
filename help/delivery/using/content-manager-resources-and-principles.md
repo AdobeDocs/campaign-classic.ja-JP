@@ -2,9 +2,11 @@
 product: campaign
 title: コンテンツマネージャーのリソースと原則
 description: コンテンツマネージャーのリソースと原則
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Templates
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # コンテンツマネージャーのリソースと原則{#content-manager-resources-and-principles}
 
-![](../../assets/common.svg)
+
 
 パブリッシュテンプレートを定義する必要があります。このテンプレートには、コンテンツごとの変換テンプレートが含まれます。
 

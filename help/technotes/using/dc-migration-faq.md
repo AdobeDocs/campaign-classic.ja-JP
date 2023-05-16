@@ -2,11 +2,12 @@
 product: campaign
 title: Adobe Managed Services（パブリッククラウド）への移行に関する FAQ
 description: Campaign Classic のパブリッククラウドへの移行に関する FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2215'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # パブリッククラウドへの移行に関する FAQ{#dc-faq}
 
-![](../../assets/v7-only.svg)
+
 
 アドビがレガシーデータセンターを廃止：Campaign Classic インスタンスは、Public Cloud Amazon Web Services（AWS）に転送する必要があります。 この取り組みについて詳しくは、[こちら](dc-migration.md)を参照してください。
 

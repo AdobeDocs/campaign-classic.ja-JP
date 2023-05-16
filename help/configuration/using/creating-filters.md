@@ -2,8 +2,10 @@
 product: campaign
 title: フィルターの作成
 description: カスタムテーブルのフィルターを作成する方法を説明します
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 3%
@@ -12,7 +14,7 @@ ht-degree: 3%
 
 # フィルターの作成{#creating-filters}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaignに付属している組み込みの受信者テーブルと同様に、新しい受信者テーブルにも、定義済みフィルターのバッチが送信されます。
 

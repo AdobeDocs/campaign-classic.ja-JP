@@ -2,11 +2,13 @@
 product: campaign
 title: フィルターの作成
 description: フィルターの作成
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '2087'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # フィルターの作成{#creating-filters}
 
-![](../../assets/common.svg)
+
 
 ホームページの&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;メニューから Adobe Campaign ツリー内を移動すると、データベースに含まれているデータがリストに表示されます。これらのリストは、オペレーターが必要とするデータのみが表示されるように設定できます。これにより、フィルターされたデータに対してアクションを起動できます。フィルター設定を使用すると、リストから&#x200B;**[!UICONTROL 動的に]**&#x200B;データを選択できます。データが変更されると、フィルターされたデータは更新されます。
 

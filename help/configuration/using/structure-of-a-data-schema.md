@@ -2,11 +2,12 @@
 product: campaign
 title: データスキーマの構造
 description: データスキーマの構造
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 86036f2f-ec7c-413e-b1e1-10a71a06cd6d
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 10%
@@ -14,8 +15,6 @@ ht-degree: 10%
 ---
 
 # データスキーマの構造{#structure-of-a-data-schema}
-
-![](../../assets/v7-only.svg)
 
 データスキーマの構造は、ツリー構造の形式で表示されます。 Adobe Campaignクライアントコンソールでグラフィカルに表示するには、ターゲットスキーマを選択し、 **[!UICONTROL 構造]** サブタブを使用します。
 

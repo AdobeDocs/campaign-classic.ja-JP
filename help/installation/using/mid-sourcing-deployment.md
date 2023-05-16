@@ -2,11 +2,12 @@
 product: campaign
 title: ミッドソーシングへのデプロイメント
 description: ミッドソーシングへのデプロイメント
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 16%
@@ -15,7 +16,7 @@ ht-degree: 16%
 
 # ミッドソーシングへのデプロイメント{#mid-sourcing-deployment}
 
-![](../../assets/v7-only.svg)
+
 
 この設定は、ホスト (ASP) 設定と内部化の間の最適な中間ソリューションです。 外向きの実行コンポーネントは、Adobe Campaignでホストされる「ミッドソーシング」サーバーで実行されます。
 

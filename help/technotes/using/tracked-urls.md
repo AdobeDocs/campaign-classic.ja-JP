@@ -2,10 +2,11 @@
 product: campaign
 title: トラッキングする URL の署名に関する問題
 description: トラッキングする URL の署名に関する問題
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: true
 hidefromtoc: true
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 # トラッキング対象 URL の署名に関する問題 {#tracked-urls}
 
-![](../../assets/v7-only.svg)
+
 
 最近の変更に伴い、Campaign で URL 署名がアクティブになっている場合、トラッキングされる URL が失敗することがあります。 一部の会社が使用している特定のセキュリティツールでは、リンクに影響を与え、URL 署名のメカニズムを変更する可能性があるため、一部のメールボックスは他のメールボックスよりも影響を受ける可能性が高くなります。
 

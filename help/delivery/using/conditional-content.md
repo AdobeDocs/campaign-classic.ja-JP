@@ -2,9 +2,11 @@
 product: campaign
 title: 条件付きコンテンツ
 description: 条件付きコンテンツの追加方法を学ぶ
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization, Multilingual Messages
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # 条件付きコンテンツ{#conditional-content}
 
-![](../../assets/common.svg)
+
 
 条件付きコンテンツフィールドを設定することで、例えば受信者のプロファイルに基づいて動的パーソナライゼーションを作成できます。特定の条件が成立した場合に、テキストブロックや画像を切り替えることができます。
 
@@ -109,7 +111,7 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#conditionnal-content-video}
 
-複数言語のニュースレターの例で配信に条件付きコンテンツを追加する方法を説明します。
+多言語ニュースレターを例に、条件付きコンテンツを配信に追加する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
 

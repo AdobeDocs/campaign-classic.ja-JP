@@ -2,11 +2,12 @@
 product: campaign
 title: ビルドのアップグレードに関する FAQ
 description: Campaign のビルドアップグレードに関するよくある質問
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 56ff1f02e614a91200a8f2ca106dcc76e82f122d
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2034'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # ビルドのアップグレードに関する FAQ {#build-upgrade-faq}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign は定期的にアップデートされています。公開されている[リリースノート](../../rn/using/rn-overview.md)に記載されているように、アドビでは、新機能、機能強化、修正を含むマイナーバージョンを毎年平均 2 ～ 3 回リリースしています。さらに、累積的な修正のみを含むビルドを定期的にリリースしています。この定期的なアップデートは、環境の安全性を完全に維持し、アドビ製品の使用環境を明確に向上させ、製品を最新の状態で最大限に活用することを目的としています。
 

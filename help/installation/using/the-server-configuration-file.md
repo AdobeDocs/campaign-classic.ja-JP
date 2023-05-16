@@ -2,11 +2,12 @@
 product: campaign
 title: サーバー設定ファイル
 description: サーバー設定ファイル
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '7979'
 ht-degree: 39%
@@ -15,7 +16,7 @@ ht-degree: 39%
 
 # サーバー設定ファイル{#the-server-configuration-file}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場所は、 **conf** インストールディレクトリのディレクトリ。 このセクションでは、 **serverConf.xml** ファイル。
 

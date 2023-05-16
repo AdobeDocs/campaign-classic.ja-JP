@@ -2,11 +2,12 @@
 product: campaign
 title: 標準デプロイメント
 description: 標準デプロイメント
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 7%
@@ -15,7 +16,7 @@ ht-degree: 7%
 
 # 標準デプロイメント{#standard-deployment}
 
-![](../../assets/v7-only.svg)
+
 
 この構成では、次の 3 台のコンピュータが必要です。
 

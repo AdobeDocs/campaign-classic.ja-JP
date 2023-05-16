@@ -2,20 +2,21 @@
 product: campaign
 title: 列挙の管理
 description: 列挙の管理
+badge: label="v7" type="Informative" tooltip="Campaign Classicv7 のみに適用"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 100%
+source-wordcount: '946'
+ht-degree: 98%
 
 ---
 
 # 列挙の管理{#managing-enumerations}
 
-![](../../assets/common.svg)
+
 
 列挙（「定義済みリスト」とも呼ばれます）とは、特定のフィールドへの入力候補としてシステムによって表示される値のリストです。列挙を利用することでフィールドの値を統一することができ、データ入力時やクエリでの利用に便利です。
 

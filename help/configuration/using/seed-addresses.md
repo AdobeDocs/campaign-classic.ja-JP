@@ -2,9 +2,11 @@
 product: campaign
 title: シードアドレス
 description: シードアドレス
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 8%
@@ -13,7 +15,7 @@ ht-degree: 8%
 
 # シードアドレス{#seed-addresses}
 
-![](../../assets/common.svg)
+
 
 受信者テーブルがカスタムテーブルの場合は、追加の設定が必要です。 この **[!UICONTROL nms:seedMember]** スキーマを拡張する必要があります。 次に示すように、適切なフィールドを定義するためのタブがシードアドレスに追加されます。
 

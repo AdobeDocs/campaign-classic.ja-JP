@@ -2,11 +2,13 @@
 product: campaign
 title: プレゼンテーションルール
 description: プレゼンテーションルール
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
-source-git-commit: 6eaf7490f1be913986af2924017d014d2ba54559
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # プレゼンテーションルール{#presentation-rules}
 
-![](../../assets/common.svg)
+
 
 ## プレゼンテーションルールの作成 {#creating-a-presentation-rule}
 

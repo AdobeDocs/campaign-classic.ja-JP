@@ -2,11 +2,12 @@
 product: campaign
 title: CRM コネクタ
 description: Campaign の CRM コネクタの基礎知識
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # CRM コネクタ{#crm-connectors}
 
-![](../../assets/v7-only.svg)
+
 
 ## CRM コネクタの基本を学ぶ {#about-crm-connectors}
 

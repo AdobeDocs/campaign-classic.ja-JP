@@ -2,11 +2,13 @@
 product: campaign
 title: Adobe Experience Manager について
 description: Adobe Experience Manager について
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
-source-git-commit: 98a67e5b6e3f8cf8ba596db1fadd61fff821be30
-workflow-type: ht
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 100%
 
@@ -14,7 +16,7 @@ ht-degree: 100%
 
 # Campaign と Experience Manager の連携{#about-adobe-experience-manager}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign と Adobe Experience Manager の間の統合では、E メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。
 

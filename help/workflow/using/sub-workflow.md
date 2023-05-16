@@ -2,9 +2,10 @@
 product: campaign
 title: サブワークフロー
 description: サブワークフローアクティビティの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # サブワークフロー{#sub-workflow}
 
-![](../../assets/v7-only.svg)
+
 
 **[!UICONTROL サブワークフロー]**&#x200B;を使用すれば、別のワークフローの実行をトリガーし、結果を取得できます。このアクティビティにより、簡素化されたインターフェイス経由で、複雑なワークフローを使用できます。
 

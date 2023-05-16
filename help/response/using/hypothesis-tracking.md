@@ -2,11 +2,13 @@
 product: campaign
 title: 仮説のトラッキング
 description: Campaign Response Manager で仮説をトラッキングする方法について説明します。
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
-source-git-commit: 878ba2b532d5cb59af77b6450b12ae5d2ff149b2
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # 仮説のトラッキング{#hypothesis-tracking}
 
-![](../../assets/common.svg)
+
 
 仮説の計算結果は、Adobe Campaign プラットフォームの様々なレベルで確認できます。仮説によって計算された指標およびターゲット母集団の反応は、実際の仮説でもキャンペーンと配信の仮説レポートでも確認できます。
 

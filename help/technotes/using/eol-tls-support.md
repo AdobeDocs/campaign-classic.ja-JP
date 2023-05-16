@@ -2,11 +2,12 @@
 product: campaign
 title: TLS 1.0 および 1.1 のサポートの提供終了（EOL）
 description: TLS 1.0 および 1.1 のサポートの提供終了（EOL）
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
-source-git-commit: ee7c85f94fc03f6cfca8da11ddea5ebd32d0b2b4
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # TLS 1.0 および 1.1 のサポートの提供終了（EOL）{#eol-tls-support}
 
-![](../../assets/v7-only.svg)
+
 
 アドビでは、Transport Layer Security（TLS）1.2 プロトコルに準拠していないユーザーシステムとクライアントシステムをサポートしなくなりました。古いバージョンの TLS を引き続き使用すると、すべてのアドビ製品およびサービスにアクセスできなくなる可能性があります。
 

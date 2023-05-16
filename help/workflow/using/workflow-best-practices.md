@@ -2,9 +2,10 @@
 product: campaign
 title: ワークフローのベストプラクティス
 description: キャンペーンワークフローのベストプラクティスを説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # ワークフローのベストプラクティス{#workflow-best-practices}
 
-![](../../assets/v7-only.svg)
+
 
 ## 実行とパフォーマンス {#execution-and-performance}
 

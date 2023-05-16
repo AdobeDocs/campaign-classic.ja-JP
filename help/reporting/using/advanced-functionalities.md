@@ -2,9 +2,11 @@
 product: campaign
 title: 高度な機能
 description: レポートを扱う際の高度な機能についての詳細情報
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # 高度な機能{#advanced-functionalities}
 
-![](../../assets/common.svg)
+
 
 技術的ユーザーは、[一般的なプロパティ](../../reporting/using/properties-of-the-report.md)に加えて、次のような高度な機能を利用してレポートを設定できます。
 

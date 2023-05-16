@@ -2,9 +2,11 @@
 product: campaign
 title: スクリプトの作成
 description: 専用のユースケースを通じて A/B テストを実行する方法を学ぶ
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # スクリプトの作成 {#step-5--creating-the-script}
 
-![](../../assets/common.svg)
+
 
 その他の母集団用の配信コンテンツを、スクリプトで割り出します。このスクリプトでは、最も開封率の高い配信について情報を復元し、その内容を最終の配信にコピーします。
 

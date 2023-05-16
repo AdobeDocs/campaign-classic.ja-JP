@@ -2,11 +2,13 @@
 product: campaign
 title: アセットを Adobe Experience Cloud と共有する
 description: アセットを Adobe Experience Cloud と共有する
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: b28aa5a5-afba-458b-8a85-375493c6c836
-source-git-commit: 84312974b9b7372c8a46fd1c7ead1148690bcd83
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # アセットを Adobe Experience Cloud と共有する{#sharing-assets-with-adobe-experience-cloud}
 
-![](../../assets/common.svg)
+
 
 Experience Cloud Assets は、複数のソリューション間で共有できるマーケティング用アセットの単一の一元的なリポジトリを提供します。アセットとは、デジタルドキュメント、画像、ビデオまたはオーディオファイルを表します。
 

@@ -1,20 +1,21 @@
 ---
 product: campaign
 title: Adobe Experience Platform セグメントの Campaign への取り込み
-description: Adobe Experience Platform のオーディエンスを Campaign Classic に取り込む方法について説明します。
+description: Adobe Experience PlatformオーディエンスをCampaign Classicに取り込む方法を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: integrations
 content-type: reference
 exl-id: 6db8a653-b649-402c-8814-24826edadba7
-source-git-commit: 89a18ae9ec57376d6ebec6c416c7562f960eb882
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Adobe Experience Platform セグメントの Campaign への取り込み {#destinations}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Experience Platform オーディエンスを Campaign に取り込んでワークフローで使用するには、まず Adobe Campaign を Adobe Experience Platform の&#x200B;**宛先**&#x200B;として接続し、エクスポート対象のセグメントを設定する必要があります。
 

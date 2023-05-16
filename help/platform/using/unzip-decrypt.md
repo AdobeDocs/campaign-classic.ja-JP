@@ -1,27 +1,29 @@
 ---
 product: campaign
 title: ファイルの解凍または復号化
-description: 処理をおこなう前に Campaign Classic でファイルを解凍または復号化する方法について説明します。
+description: 処理の前に Campaign でファイルを解凍または復号化する方法を説明します
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 100%
+source-wordcount: '738'
+ht-degree: 98%
 
 ---
 
 # ファイルの解凍または復号化 {#unzipping-or-decrypting-a-file-before-processing}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign では、圧縮されたファイルや暗号化されたファイルをインポートできます。「[データ読み込み（ファイル）](../../workflow/using/data-loading--file-.md)」アクティビティで読み取る前にファイルを解凍または復号化する前処理を定義できます。
 
 手順は以下のとおりです。
 
-1. [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#decrypting-data)を使用して、公開鍵と秘密鍵のペアを生成します。
+1. [コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#decrypting-data)を使用して、公開鍵と秘密鍵のペアを生成します。
 
    >[!NOTE]
    >
@@ -50,27 +52,27 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 ## ユースケース：コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート {#use-case-gpg-decrypt}
 
-このユースケースでは、外部システムで暗号化されたデータを Campaign コントロールパネルで生成されたキーを使用してインポートするためのワークフローを作成します。
+このユースケースでは、外部システムで暗号化されたデータを コントロールパネルで生成されたキーを使用してインポートするためのワークフローを作成します。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
 このユースケースを実行する手順は次のとおりです。
 
-1. Campaign コントロールパネルを使用して、キーペア（公開鍵と秘密鍵）を生成します。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#decrypting-data)を参照してください。
+1. コントロールパネルを使用して、キーペア（公開鍵と秘密鍵）を生成します。詳細な手順については、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#decrypting-data)を参照してください。
 
    * 公開鍵は外部システムと共有され、外部システムはこのキーを使用して Campaign に送信するデータを暗号化します。
    * 秘密鍵は、受信する暗号化されたデータを復号化するために Campaign Classic で使用されます。
 
    ![](assets/gpg_generate.png)
 
-1. 外部システムでは、Campaign コントロールパネルからダウンロードした公開鍵を使用して、Campaign Classic にインポートするデータを暗号化します。
+1. 外部システムでは、コントロールパネルからダウンロードした公開鍵を使用して、Campaign Classic にインポートするデータを暗号化します。
 
-1. Campaign Classic で、暗号化されたデータをインポートするワークフローを作成し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用して復号化します。これをおこなうには、次のようにワークフローを作成します。
+1. Campaign Classic で、暗号化されたデータをインポートするワークフローを作成し、コントロールパネル経由でインストールされた秘密鍵を使用して復号化します。これをおこなうには、次のようにワークフローを作成します。
 
    ![](assets/gpg_import_workflow.png)
 
    * **[!UICONTROL ファイル転送]**&#x200B;アクティビティ：ファイルを外部ソースから Campaign Classic に転送します。この例では、SFTP サーバーからファイルを転送します。
-   * **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティ：ファイルからデータベースにデータを読み込み、Campaign コントロールパネルで生成された秘密鍵を使用して復号化します。
+   * **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティ：ファイルからデータベースにデータを読み込み、コントロールパネルで生成された秘密鍵を使用して復号化します。
 
 1. **[!UICONTROL ファイル転送]**&#x200B;アクティビティを開き、暗号化された .gpg ファイルのインポート元の外部アカウントを指定します。
 
@@ -88,7 +90,7 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
    >[!CAUTION]
    >
-   >この例では、Campaign コントロールパネルでデフォルトで使用されるパスフレーズ（「passphrase」）を使用しています。
+   >この例では、コントロールパネルでデフォルトで使用されるパスフレーズ（「passphrase」）を使用しています。
    >
    >カスタマーサポートへの依頼を通じて GPG キーがインスタンスに既にインストールされている場合は、そのパスフレーズが変更され、デフォルトとは異なるものになっている可能性があります。
 

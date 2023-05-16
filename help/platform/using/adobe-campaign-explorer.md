@@ -2,11 +2,12 @@
 product: campaign
 title: Adobe Campaign エクスプローラーの使用
 description: Campaign エクスプローラーの使用方法について説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
-source-git-commit: fdb840a9e6349f074378899e07f794b62fb5b054
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Adobe Campaign エクスプローラーの使用 {#using-adobe-campaign-explorer}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign エクスプローラーにアクセスするには、ツールバーアイコンを使用します。これにより、Adobe Campaign のすべての機能、設定画面およびプラットフォーム要素の一部の詳細ビューにアクセスできます。
 

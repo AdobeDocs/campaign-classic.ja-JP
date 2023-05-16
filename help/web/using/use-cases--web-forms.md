@@ -2,9 +2,11 @@
 product: campaign
 title: "ユースケース：Web フォーム"
 description: "ユースケース：Web フォーム"
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # ユースケース：web フォーム{#use-cases-web-forms}
 
-![](../../assets/common.svg)
+
 
 ## 二重のオプトインを備えた購読フォームの作成 {#create-a-subscription--form-with-double-opt-in}
 

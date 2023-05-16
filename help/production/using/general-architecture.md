@@ -2,11 +2,12 @@
 product: campaign
 title: 一般的なアーキテクチャ
 description: 一般的なアーキテクチャ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 4%
@@ -15,7 +16,7 @@ ht-degree: 4%
 
 # 一般的なアーキテクチャ{#general-architecture}
 
-![](../../assets/v7-only.svg)
+
 
 ## 最小アーキテクチャ {#minimum-architecture}
 

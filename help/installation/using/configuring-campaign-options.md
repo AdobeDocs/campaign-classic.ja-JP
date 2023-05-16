@@ -2,11 +2,12 @@
 product: campaign
 title: キャンペーンオプションの設定
 description: Campaign オプションの設定方法を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '3994'
 ht-degree: 24%
@@ -15,7 +16,7 @@ ht-degree: 24%
 
 # Campaign Classic のオプションのリスト{#configuring-campaign-options}
 
-![](../../assets/v7-only.svg)
+
 
 この **[!UICONTROL 管理/プラットフォーム/オプション]** ノードでは、Adobe Campaignオプションを設定できます。 Campaign のインストール時に組み込まれるものもあれば、必要に応じて手動で追加できるものもあります。 使用可能なオプションは、インスタンスと共にインストールされているパッケージによって異なります。
 

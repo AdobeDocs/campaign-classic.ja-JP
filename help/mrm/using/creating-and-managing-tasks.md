@@ -2,11 +2,12 @@
 product: campaign
 title: タスクの作成と管理
 description: タスクの作成と管理
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '3898'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # タスクの作成と管理{#creating-and-managing-tasks}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign では、タスクを作成し、タスクのライフサイクル全体をアプリケーション内で直接管理できます。プログラムとキャンペーンの実装をタスクに分割し、Adobe Campaign のオペレーターや外部サービスプロバイダーに割り当てることができます。このようにタスクを処理することで、あらゆるプログラム参加者と外部参加者を含むオープンなコラボレーション環境の構築が可能になります。
 

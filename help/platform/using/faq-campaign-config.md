@@ -2,11 +2,12 @@
 product: campaign
 title: Campaign 設定に関する FAQ
 description: Campaign Classic に関する FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Campaign 設定に関する FAQ {#settings-faq}
 
-![](../../assets/v7-only.svg)
+
 
 ニーズに合わせて Campaign インスタンスを設定するための主な設定内容について説明します。
 

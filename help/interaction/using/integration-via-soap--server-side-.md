@@ -2,11 +2,12 @@
 product: campaign
 title: SOAP を使用した統合（サーバーサイド）
 description: SOAP を使用した統合（サーバーサイド）
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # SOAP を使用した統合（サーバー側）{#integration-via-soap-server-side}
 
-![](../../assets/v7-only.svg)
+
 
 オファー管理のために用意されている SOAP web サービスは、Adobe Campaign で通常使用されるものとは異なります。前の節で説明したインタラクション URL でアクセスして、特定のコンタクト先に対するオファーを提示または更新できます。
 

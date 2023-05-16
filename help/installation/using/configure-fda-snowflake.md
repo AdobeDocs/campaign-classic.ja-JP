@@ -2,11 +2,12 @@
 product: campaign
 title: Snowflake へのアクセスの設定
 description: FDA でSnowflakeへのアクセスを設定する方法
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 38%
@@ -15,7 +16,7 @@ ht-degree: 38%
 
 # Snowflake へのアクセスの設定 {#configure-access-to-snowflake}
 
-![](../../assets/v7-only.svg)
+
 
 キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存された情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 [!DNL Snowflake].
 

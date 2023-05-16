@@ -2,9 +2,11 @@
 product: campaign
 title: 「ユースケース：フィールド置換の設定」
 description: 「ユースケース：フィールド置換の設定」
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # ユースケース：フィールド置換の設定{#use-case-configuring-the-field-substitution}
 
-![](../../assets/common.svg)
+
 
 ランダムなフィールド置換は、配信時に、シードアドレスの未入力部分に当てはめる値（例えば、名前、市区町村など）を受信者リストから取得して使用する機能です。
 

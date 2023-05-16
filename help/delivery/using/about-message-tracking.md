@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: トラッキングの基本を学ぶ
-description: Adobe Campaign Classic のトラッキングに関する一般的なガイドラインを学ぶ
+description: Adobe Campaign のトラッキングに関する一般的なガイドラインを学ぶ
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Email
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: 29fae1305a6d2b8debbc2aa705c047eaf3730457
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '684'
 ht-degree: 100%
 
 ---
 
 # メッセージトラッキングの基本を学ぶ {#get-started-tracking}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign のトラッキング機能により、送信されたメッセージをトラッキングし、開封、リンクのクリック、購読解除といった受信者の動作を確認できます。
 

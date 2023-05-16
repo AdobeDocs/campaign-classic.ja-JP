@@ -2,11 +2,12 @@
 product: campaign
 title: インタラクション - データバッファ
 description: インタラクション - データバッファ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 17%
@@ -15,7 +16,7 @@ ht-degree: 17%
 
 # インタラクション - データバッファ{#interaction-data-buffer}
 
-![](../../assets/v7-only.svg)
+
 
 データバッファゾーンを設定すると、オファー提案の計算が非同期化され、インバウンドインタラクションのパフォーマンスを向上できます。この設定は、インスタンス自体の設定ファイル（config-Instance.xml）で実行できます。
 

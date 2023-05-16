@@ -1,19 +1,20 @@
 ---
 product: campaign
 title: 監視のガイドライン
-description: Campaign インスタンスとプロセスを監視するためのガイドラインとベストプラクティスを確認します。
+description: Campaign インスタンスとプロセスを監視するためのガイドラインとベストプラクティスを確認する
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Monitoring
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 26%
+ht-degree: 25%
 
 ---
 
 # 監視のガイドライン {#monitoring-guidelines}
 
-![](../../assets/v7-only.svg)
+
 
 ## インスタンス監視ダッシュボード {#instance-monitoring-dashboard}
 

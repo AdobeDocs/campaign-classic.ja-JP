@@ -2,9 +2,10 @@
 product: campaign
 title: Federated Data Access の概要
 description: 外部データベースのデータにアクセスして処理する方法を説明します。
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Federated Data Access
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 47%
@@ -13,7 +14,7 @@ ht-degree: 47%
 
 # Federated Data Access の概要 {#about-federated-data-access}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign では、**Federated Data Access**（FDA）オプションを利用することができます。このオプションを使用すると、1 つ以上の外部データベースに格納されている情報を処理することが可能です。Adobe Campaign データの構造を変更しなくても、外部データにアクセスできます。
 

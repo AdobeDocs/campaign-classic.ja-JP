@@ -2,10 +2,12 @@
 product: campaign
 title: Adobe Experience Cloud Triggers について
 description: Adobe Experience Cloud Triggers の実装入門
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
-source-git-commit: 0a59b0dbdbe70cf8993ce7153b8f3c049c1f1108
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 100%
@@ -14,7 +16,7 @@ ht-degree: 100%
 
 # Campaign と Experience Cloud トリガーの連携{#about-adobe-experience-triggers}
 
-![](../../assets/common.svg)
+
 
 [!DNL Triggers] は、パイプラインを使用して Adobe Campaign と Adobe Analytics を統合します。パイプラインは、web サイトからユーザーのアクションまたはトリガーを取得します。買い物かごの放棄は、トリガーの一例です。トリガーが Adobe Campaign で処理されて、ほぼリアルタイムで E メールが送信されます。
 

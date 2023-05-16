@@ -2,11 +2,13 @@
 product: campaign
 title: 個人情報の販売に対するオプトアウト
 description: 個人データの販売のオプトアウトに関する説明
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 8e308a9f-14a4-4a25-9fd0-8d4bdbcf74ce
-source-git-commit: 42b420d7dae7d38e9f4df442146d3b484c25e831
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # 個人情報の販売のオプトアウト（CCPA） {#sale-of-personal-information-ccpa}
 
-![](../../assets/common.svg)
+
 
 **カリフォルニア州消費者プライバシー法**（CCPA）は、カリフォルニア州民に個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスをおこなう特定の事業者に対してデータ保護の責任を課します。
 

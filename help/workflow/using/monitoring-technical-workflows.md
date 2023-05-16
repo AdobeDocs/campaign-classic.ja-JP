@@ -2,9 +2,10 @@
 product: campaign
 title: テクニカルワークフローの監視
 description: テクニカルワークフローの監視
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # テクニカルワークフローの監視 {#monitoring-technical-workflows}
 
-![](../../assets/v7-only.svg)
+
 
 テクニカルワークフローは監視が必要で、失敗した場合はアクションを実行する必要があります。
 

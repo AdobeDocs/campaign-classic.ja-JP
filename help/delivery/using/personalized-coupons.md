@@ -2,9 +2,11 @@
 product: campaign
 title: パーソナライズされたクーポン
 description: パーソナライズされたクーポンの作成および挿入方法を説明します
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # パーソナライズされたクーポン{#personalized-coupons}
 
-![](../../assets/common.svg)
+
 
 配信へのクーポンの追加は、受信者に対して、商品およびサービスの価値を高めます。Campaign クーポンモジュールを使用して、今後のマーケティングオファーに追加するためのクーポンのセットを作成できます。配信を作成する準備ができたら、適切なクーポンを割り当てます。クーポンは限定された期間のみ有効なので、割り当てたクーポンはその配信メッセージに一意にリンクされます。また、Campaign は、配信が送信される前に、メッセージ数に対して十分なクーポンがあることを確認します。
 

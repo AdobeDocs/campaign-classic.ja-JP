@@ -2,11 +2,12 @@
 product: campaign
 title: 実稼動環境のトラブルシューティング
 description: Adobe Campaignの設定、監視、アップグレードプロセス、データ処理、データベースのメンテナンス手順に関する実稼動環境のトラブルシューティング手順について説明します。
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 20%
@@ -15,7 +16,7 @@ ht-degree: 20%
 
 # 実稼動環境のトラブルシューティング{#troubleshooting}
 
-![](../../assets/v7-only.svg)
+
 
 この節では、配信とワークフローの実行、監視、データベースのメンテナンス、接続など、Adobe Campaignの一般的な実稼動の問題に関するトラブルシューティング手順について説明します。
 

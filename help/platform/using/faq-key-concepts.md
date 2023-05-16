@@ -2,11 +2,12 @@
 product: campaign
 title: 重要な概念
 description: Campaign Classic に関する FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: 32f55d02920b0104198f809b1be0a91306a4d9e4
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # 主要概念 {#key-concepts}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign の利用を開始するための主要な手順を説明します。
 

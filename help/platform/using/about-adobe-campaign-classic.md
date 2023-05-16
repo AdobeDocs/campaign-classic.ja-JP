@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: Adobe Campaign Classic について
-description: 主な機能、ユーザーインターフェイス、グローバルガイドラインについて説明します。
+description: 主要な機能、ユーザーインターフェイス、グローバルガイドラインについて説明します。
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Campaign Classic の基本を学ぶ{#about-adobe-campaign-classic}
 
-![](../../assets/v7-only.svg)
+
 
 高いレベルの顧客エンゲージメントを実現し、優れたエクスペリエンスを提供するには、あらゆる顧客接点で一貫したカスタマージャーニーを用意する必要があります。最新のマーケティングソリューションを利用すれば、マーケティング ROI の最大化とロイヤルティの強化を実現するクロスチャネルのマーケティングキャンペーンを効率的に設計、計画、展開、管理、最適化することができます。
 

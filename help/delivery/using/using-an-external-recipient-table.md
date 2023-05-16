@@ -2,9 +2,11 @@
 product: campaign
 title: 外部受信者テーブルの使用
 description: 外部受信者テーブルの使用
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Audiences
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # 外部受信者テーブルの使用{#using-an-external-recipient-table}
 
-![](../../assets/common.svg)
+
 
 配信テーブルが外部のテーブルの場合は、追加設定が必要です。**[!UICONTROL nms:seedmember]** スキーマを拡張する必要があります。次のように、適切なフィールドを定義するためのタブがシードアドレスに追加されます。
 

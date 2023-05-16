@@ -1,19 +1,21 @@
 ---
 product: campaign
-title: Adobe Campaign Classic の配信品質の監視
-description: Adobe Campaign Classic の配信品質の監視に関するツールおよびガイドラインについて説明します。
+title: Adobe Campaign の配信品質の監視
+description: Adobe Campaign の配信品質の監視に関するツールおよびガイドラインについて説明します。
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '552'
 ht-degree: 100%
 
 ---
 
 # 配信品質の監視{#monitoring-deliverability}
 
-![](../../assets/common.svg)
+
 
 以下に、Adobe Campaign に用意されている様々な監視ツールの詳細と、Adobe Campaign で提供される機能を活用してプラットフォームの配信品質を監視する方法に関するその他のガイドラインを示します。
 

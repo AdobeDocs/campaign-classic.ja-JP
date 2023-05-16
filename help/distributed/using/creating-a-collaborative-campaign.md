@@ -2,9 +2,10 @@
 product: campaign
 title: 共同キャンペーンの作成
 description: 共同キャンペーンの作成方法を学ぶ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Distributed Marketing
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # 共同キャンペーンの作成{#creating-a-collaborative-campaign-intro}
 
-![](../../assets/v7-only.svg)
+
 
 セントラルエンティティは、**分散型マーケティング**&#x200B;のキャンペーンテンプレートから協調キャンペーンを作成します。[このページ](about-distributed-marketing.md#collaborative-campaign)を参照してください。
 

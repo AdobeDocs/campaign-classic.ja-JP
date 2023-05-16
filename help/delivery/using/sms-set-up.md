@@ -2,9 +2,11 @@
 product: campaign
 title: Campaign SMS チャネルの設定
 description: Campaign で SMS チャネルを設定する方法を学ぶ
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
-source-git-commit: 0ae52b00f69298e001596583fe166771faddead2
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1826'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # SMS チャネルの設定 {#setting-up-sms-channel}
 
-![](../../assets/common.svg)
+
 
 携帯電話に送信するには、次が必要です。
 

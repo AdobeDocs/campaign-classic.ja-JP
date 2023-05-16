@@ -2,11 +2,12 @@
 product: campaign
 title: 最新リリース
 description: 最新の Campaign Classic v7 リリースノート
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 143fe21447f91120e63df4409597472849bb6d47
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2949'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # 最新リリース{#latest-release}
 
-![](../../assets/v7-only.svg)
+
 
 このページには、**最新の Campaign Classic v7 リリース**&#x200B;の新機能、改善点および修正点が記載されています。新しいビルドごとに、色分けされたステータスが表示されます。Campaign Classic v7 のビルドステータスについて詳しくは、[このページ](rn-overview.md)を参照してください。
 

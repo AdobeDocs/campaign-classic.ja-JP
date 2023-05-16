@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: インポートジョブの設定
-description: Campaign Classic でインポートジョブを設定および実行する方法を説明します。
+description: Campaign でインポートジョブを設定および実行する方法を説明します。
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3200'
 ht-degree: 100%
 
 ---
 
 # インポートジョブの設定 {#executing-import-jobs}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式の 1 つ以上のファイルから、データベースにデータをインポートできます。これらのファイルはテーブル（メインテーブルまたはリンクされたテーブル）に関連付けられ、ソースファイルの各フィールドはデータベースのフィールドに関連付けられます。
 

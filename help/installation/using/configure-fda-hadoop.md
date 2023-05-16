@@ -2,11 +2,12 @@
 product: campaign
 title: Hadoop へのアクセスの設定
 description: FDA でHadoopへのアクセスを設定する方法
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 79%
@@ -15,7 +16,7 @@ ht-degree: 79%
 
 # Hadoop へのアクセスの設定 {#configure-access-to-hadoop}
 
-![](../../assets/v7-only.svg)
+
 
 キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、Hadoopへのアクセスを設定します。
 

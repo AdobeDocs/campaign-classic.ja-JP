@@ -2,11 +2,12 @@
 product: campaign
 title: 外部データベースにアクセスする権限
 description: 外部データベースのアクセス権限
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 98%
@@ -15,7 +16,7 @@ ht-degree: 98%
 
 # リモートデータベースのアクセス権 {#remote-database-access-rights}
 
-![](../../assets/v7-only.svg)
+
 
 まず、ユーザーが FDA で外部データベースの操作を実行できるように、Adobe Campaign で特定のネームド権限を設定する必要があります。
 

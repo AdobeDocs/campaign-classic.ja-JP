@@ -2,9 +2,10 @@
 product: campaign
 title: クロスチャネル配信ワークフロー
 description: クロスチャネル配信ワークフローの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Channels Activity
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # クロスチャネル配信ワークフロー{#cross-channel-delivery-workflow}
 
-![](../../assets/v7-only.svg)
+
 
 この使用例では、クロスチャネル配信ワークフローに関する例を示します。クロスチャネル配信の一般的な概念については、[この節](cross-channel-deliveries.md)で説明しています。
 

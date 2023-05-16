@@ -2,11 +2,13 @@
 product: campaign
 title: キューブを使用してデータを調べる
 description: キューブを使用してデータを調べる
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 hide: true
 hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # キューブを使用してデータを調べる{#using-cubes-to-explore-data}
 
-![](../../assets/common.svg)
+
 
 マーケティング分析を使用すると、レポートの作成と、キューブを介したデータベースからのデータの特定および選択が容易になります。これにより、以下が可能になります。
 

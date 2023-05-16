@@ -2,11 +2,12 @@
 product: campaign
 title: Google BigQuery へのアクセスの設定
 description: FDA でGoogle BigQuery へのアクセスを設定する方法を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
-source-git-commit: 5ad84f77b0618f2e8b948a3712bc106c19b03788
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 9%
@@ -15,7 +16,7 @@ ht-degree: 9%
 
 # Google BigQuery へのアクセスの設定 {#configure-fda-google-big-query}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign Classicを使用 **Federated Data Access** (FDA) 外部データベースに保存された情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 [!DNL Google BigQuery].
 

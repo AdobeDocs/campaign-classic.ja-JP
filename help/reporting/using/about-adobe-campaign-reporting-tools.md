@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: Adobe Campaign のレポートツールについて
-description: ビルトインレポートまたはカスタマイズされたレポートでキャンペーンの成果を分析します。
+description: 組み込みレポートまたはカスタマイズされたレポートでキャンペーンの成功を分析
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # レポートの基本を学ぶ {#about-adobe-campaign-reporting-tools}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign では、[ビルトインレポート](../../reporting/using/about-campaign-built-in-reports.md)のほかにも、様々なコンテキストで様々なニーズに応えるレポートを生成できます。
 このドキュメントでは、使用モードと実装モードの基本事項について詳しく説明します。

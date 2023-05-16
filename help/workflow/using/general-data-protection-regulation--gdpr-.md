@@ -2,8 +2,9 @@
 product: campaign
 title: プライバシーデータ保護規則ワークフロー
 description: プライバシーデータ保護規則ワークフローの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Privacy
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # プライバシーデータ保護規則{#general-data-protection-regulation-gdpr}
 
-![](../../assets/v7-only.svg)
+
 
 以下に説明するワークフローは、デフォルトで&#x200B;**プライバシーデータ保護規則**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[記事](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)を参照してください。
 

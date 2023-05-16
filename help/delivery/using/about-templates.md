@@ -2,9 +2,11 @@
 product: campaign
 title: テンプレートについて
 description: 配信テンプレートの基本を学ぶ
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # テンプレートについて{#about-templates}
 
-![](../../assets/common.svg)
+
 
 配信設定は、再利用できるように配信テンプレートに保存できます。テンプレートには配信の完全な設定を保存したり、部分的な設定のみ保存したりできます。
 

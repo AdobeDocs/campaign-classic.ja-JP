@@ -2,9 +2,11 @@
 product: campaign
 title: コンテンツ管理について
 description: Campaign コンテンツマネージャーモジュールの基本を学ぶ
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Landing Pages, Email Design
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # コンテンツ管理について{#about-content-management}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign コンテンツマネージャーモジュールは、定期的なニュースレターや web サイトを作成するためにインストールできる、特化した Campaign Classic [ビルトインパッケージ](../../installation/using/installing-campaign-standard-packages.md)です。このモジュールを使用して、メッセージを作成、検証、パブリッシュできます。
 

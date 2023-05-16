@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: エクスポートジョブの設定
-description: Campaign Classic でエクスポートジョブを設定および実行する方法について説明します。
+description: Campaign でエクスポートジョブを設定および実行する方法について説明します。
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1015'
 ht-degree: 100%
 
 ---
 
 # エクスポートジョブの設定 {#executing-export-jobs}
 
-![](../../assets/common.svg)
+
 
 エクスポートジョブを使用すると、データベースにアクセスして連絡先、クライアント、リスト、セグメントなどのデータを抽出できます。
 

@@ -2,8 +2,10 @@
 product: campaign
 title: Response Manager について
 description: Response Manager について
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
-source-git-commit: 878ba2b532d5cb59af77b6450b12ae5d2ff149b2
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
@@ -12,7 +14,7 @@ ht-degree: 100%
 
 # Campaign Response Manager の基本を学ぶ{#about-response-manager}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign では、マーケティングキャンペーンの成功や収益性を測定したり、メール、モバイル、ダイレクトメールなどのあらゆる通信チャネルでオファーを提案したりできる、応答管理アドオンを提供しています。
 

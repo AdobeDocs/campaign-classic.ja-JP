@@ -2,11 +2,12 @@
 product: campaign
 title: 詳細設定パラメーターの使用
 description: 詳細設定パラメーターの使用
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 232e2bfc-f497-40ad-811e-118dbfcabbcf
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # 詳細設定パラメーターの使用{#using-advanced-parameters}
 
-![](../../assets/v7-only.svg)
+
 
 この章では、インタラクションで使用できる様々な詳細設定パラメーターについて説明します。
 

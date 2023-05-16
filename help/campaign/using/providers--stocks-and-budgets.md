@@ -2,9 +2,10 @@
 product: campaign
 title: プロバイダー、在庫、予算
 description: プロバイダー、在庫、予算
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Budget Management, Campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 100%
@@ -12,8 +13,6 @@ ht-degree: 100%
 ---
 
 # プロバイダー、在庫、予算{#providers-stocks-and-budgets}
-
-![](../../assets/v7-only.svg)
 
 Adobe Campaign では、キャンペーン内で実行されるジョブに関与するサービスプロバイダーを定義できます。サービスプロバイダーに関する情報と、関連付けられたコスト構造は、Adobe Campaign 管理者がメインビューから定義します。サービスプロバイダーを配信から参照し、そのコスト構造を使用して、この配信に関連付けられたコストを計算したり、関連する在庫を管理したりできます。
 
@@ -149,7 +148,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
    ![](assets/s_ncs_user_supplier_node_02a.png)
 
-* 「**[!UICONTROL 通知メール]**」セクションでは、ファイルの送信後にサービスプロバイダーに通知するためのテンプレートを指定できます。アラートメッセージと受信者のグループの作成に使用するテンプレートを選択してください。
+* 「**[!UICONTROL 通知メール]**」セクションでは、ファイルの送信後にサービスプロバイダーに通知するためのテンプレートを指定できます。アラートメッセージと受信者のグループの作成に使用するテンプレートを選択します。
 
    デフォルトでは、通知メッセージ用の配信テンプレートは、**[!UICONTROL 管理／キャンペーン管理／テクニカル配信テンプレート]**&#x200B;ノードに保存されています。このノードには、一般ビューからアクセスできます。
 

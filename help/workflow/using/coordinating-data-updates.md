@@ -2,9 +2,10 @@
 product: campaign
 title: データ更新の調整
 description: データ更新の調整
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # データ更新の調整{#coordinating-data-updates}
 
-![](../../assets/v7-only.svg)
+
 
 このユースケースは、1 つのワークフローを複数実行する場合に同時更新を管理できるワークフローの作成の詳細を示します。
 

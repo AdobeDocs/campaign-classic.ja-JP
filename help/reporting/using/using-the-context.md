@@ -2,9 +2,11 @@
 product: campaign
 title: レポートでのコンテキストの使用
 description: レポートでのコンテキストの使用方法を学ぶ
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # レポートでのコンテキストの使用{#using-the-context}
 
-![](../../assets/common.svg)
+
 
 データを&#x200B;**[!UICONTROL テーブル]**&#x200B;や&#x200B;**[!UICONTROL グラフ]**&#x200B;の形式で表す場合は、新しいクエリ（[データに対する直接フィルターの定義](#defining-a-direct-filter-on-data)を参照）またはレポートコンテキスト（[コンテキストデータの使用](#using-context-data)を参照）の 2 つのソースからデータを取得できます。
 

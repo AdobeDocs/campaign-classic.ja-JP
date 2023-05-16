@@ -6,7 +6,7 @@ feature: Reporting
 hide: true
 hidefromtoc: true
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # 指標の作成{#creating-indicators}
 
-![](../../assets/common.svg)
+
 
 キューブを機能させるには、関係のあるディメンションと測定を特定し、キューブにそれらを作成する必要があります。
 

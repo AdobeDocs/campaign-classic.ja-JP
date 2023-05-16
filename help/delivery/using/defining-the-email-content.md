@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: Adobe Campaign Classic におけるメールコンテンツの定義
-description: Adobe Campaign Classic を使用する際にメールコンテンツを定義する方法について説明します。
+description: Adobe Campaign を使用する際にメールコンテンツを定義する方法について説明します。
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: f5bd8c1806440b47225130070e166d90d99dcc75
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2063'
 ht-degree: 100%
 
 ---
 
 # メールコンテンツの定義 {#defining-the-email-content}
 
-![](../../assets/common.svg)
+
 
 ## 送信者 {#sender}
 

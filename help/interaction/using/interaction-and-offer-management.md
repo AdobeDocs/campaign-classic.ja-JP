@@ -2,9 +2,10 @@
 product: campaign
 title: インタラクションとオファーの管理
 description: 実施要件ルールに基づいて、連絡先に最適なオファーを送信する方法を学ぶ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # インタラクションとオファー管理{#interaction-and-offer-management}
 
-![](../../assets/v7-only.svg)
+
 
 インタラクションを使用すると、特定の連絡先（顧客またはターゲット）とのインタラクション中に 1 つまたは複数の調整したオファーを提供して、リアルタイムで応答することができます。オファーの例としては、簡単な連絡メッセージや、1 つまたは複数の製品やサービスに関する特別オファーなどがあります。
 

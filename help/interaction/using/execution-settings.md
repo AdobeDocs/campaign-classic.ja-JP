@@ -2,11 +2,13 @@
 product: campaign
 title: 実行設定
 description: 実行設定
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: e2dea4a0-9ed8-47b6-a16b-eeee653d2290
-source-git-commit: 7728826eea199d2367fcbf556c01ec9d6cae466f
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # 実行設定{#execution-settings}
 
-![](../../assets/common.svg)
+
 
 シミュレーションを作成する際には、必要に応じて実行設定を指定できます。これらの設定を使用すると、優先度に応じて負荷が小さい時間帯にシミュレーションを実行したり、SQL クエリをログに記録したりできます。
 このステージはオプションです。

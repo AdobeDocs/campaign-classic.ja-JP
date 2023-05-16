@@ -2,11 +2,13 @@
 product: campaign
 title: Campaign Response Manager の設定
 description: Campaign Response Manager の設定方法を説明します
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
-source-git-commit: 878ba2b532d5cb59af77b6450b12ae5d2ff149b2
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Campaign Response Manager の設定{#configuration}
 
-![](../../assets/common.svg)
+
 
 この節は反応管理の設定担当者向けです。スキーマの拡張、ワークフローの定義および SQL プログラミングについて、ある程度の知識があることを前提としています。
 

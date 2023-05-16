@@ -2,9 +2,10 @@
 product: campaign
 title: アクセス管理
 description: アクセス管理のベストプラクティスの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Access Management, Permissions
 exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
-source-git-commit: c54102b2ec32fbea89ce41dd3c9fedb98e612996
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 29%
@@ -13,7 +14,7 @@ ht-degree: 29%
 
 # アクセス管理 {#access-management}
 
-![](../../assets/v7-only.svg)
+
 
 ## Web アプリのオペレーター
 

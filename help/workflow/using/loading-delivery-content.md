@@ -2,9 +2,10 @@
 product: campaign
 title: 配信コンテンツの読み込み
 description: 配信コンテンツの読み込み
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # 配信コンテンツの読み込み{#loading-delivery-content}
 
-![](../../assets/v7-only.svg)
+
 
 Amazon S3、FTP または SFTP サーバー上の HTML ファイルに配信コンテンツが格納されている場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。
 

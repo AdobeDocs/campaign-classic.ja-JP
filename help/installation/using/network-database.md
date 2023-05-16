@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: ネットワーク、データベース、SSL/TLS
-description: ネットワーク、データベース、SSL/TLS 設定のベストプラクティスの詳細を説明します。
+description: ネットワーク、データベース、SSL/TLS 設定のベストプラクティスの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 54%
@@ -15,7 +16,7 @@ ht-degree: 54%
 
 # ネットワーク、データベース、SSL/TLS {#network-database}
 
-![](../../assets/v7-only.svg)
+
 
 ## ネットワーク設定
 

@@ -2,8 +2,9 @@
 product: campaign
 title: Campaign オンプレミス、ハイブリッド、ホスト機能マトリックス
 description: ホスト型デプロイメントとオンプレミス型デプロイメントの主な違いについて説明します。
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 46%
@@ -12,7 +13,7 @@ ht-degree: 46%
 
 # モデルごとの機能マトリックス{#capability-matrix-per-model}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign Classic には一連のモジュールとオプションが付属しています。これらのモジュールの使用可否と使い方は、インストール構成のデプロイメントタイプによって異なります。この記事では、完全にホストされている (Managed Services) 機能とオンプレミスデプロイメントの間の特定の機能の主な違いに関する詳細を説明します。
 

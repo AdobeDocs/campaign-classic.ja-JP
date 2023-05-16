@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
-source-git-commit: 1dd0fe6734785b593302ed90db1d150cf6aee00c
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1811'
 ht-degree: 100%
@@ -16,8 +16,6 @@ ht-degree: 100%
 ---
 
 # Adobe Analytics Data Connector{#adobe-analytics-data-connector-legacy}
-
-![](../../assets/common.svg)
 
 >[!IMPORTANT]
 >

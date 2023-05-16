@@ -1,19 +1,20 @@
 ---
 product: campaign
 title: ワークフローについて
-description: ワークフローを使用すれば、データおよびオーディエンスの管理やメッセージの送信などのプロセスを自動化できます。
+description: ワークフローを使用してプロセスを自動化し、データとオーディエンスを管理し、メッセージを送信するなど
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # ワークフローの基本を学ぶ{#gs-workflows}
 
-![](../../assets/v7-only.svg)
+
 
 ## ワークフローについて{#about-workflows}
 

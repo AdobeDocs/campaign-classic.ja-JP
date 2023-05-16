@@ -2,9 +2,11 @@
 product: campaign
 title: Web フォームの基礎知識
 description: Campaign の Web フォームの基礎知識
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Landing Pages, Web Forms
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Web フォームの基本を学ぶ{#about-web-forms}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign には、Web フォームを定義して公開するためのグラフィカルなモジュールが統合されており、入力および選択フィールドを含むページを作成して、データベースからのデータを含めることができます。これにより、ユーザーがアクセスして情報を表示または入力できる Web ページをデザインおよび投稿できます。
 

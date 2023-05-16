@@ -2,9 +2,10 @@
 product: campaign
 title: SQL データ管理
 description: SQL データ管理ワークフローアクティビティの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # SQL データ管理{#sql-data-management}
 
-![](../../assets/v7-only.svg)
+
 
 「**SQL データ管理**」アクティビティでは、独自の SQL スクリプトを記述して、ワークテーブルを作成および設定する独自の SQL クエリを記述できます。
 

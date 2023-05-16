@@ -2,18 +2,19 @@
 product: campaign
 title: 指標の計算
 description: 指標の計算
+badge: label="v7" type="Informative" tooltip="Campaign Classicv7 のみに適用"
 feature: Reporting
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '3021'
-ht-degree: 100%
+source-wordcount: '3032'
+ht-degree: 99%
 
 ---
 
 # 指標の計算 {#indicator-calculation}
 
-![](../../assets/common.svg)
+
 
 ## ユーザーアクティビティ {#user-activities-1}
 

@@ -2,9 +2,11 @@
 product: campaign
 title: カスタム受信者テーブルについて
 description: カスタム受信者テーブルについて
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Custom Resources
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
-source-git-commit: 90c52ec144a6a3c1b534a80507e38fa3ed64fc83
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 9%
@@ -13,7 +15,7 @@ ht-degree: 9%
 
 # カスタム受信者テーブルの使用{#about-custom-recipient-table}
 
-![](../../assets/common.svg)
+
 
 この節では、カスタム（または外部）の受信者テーブルを使用する際の原則について説明します。
 

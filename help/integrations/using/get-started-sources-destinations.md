@@ -1,20 +1,21 @@
 ---
 product: campaign
 title: ソースと宛先の基本を学ぶ
-description: Adobe Experience Platform のソースと宛先について説明します。
+description: Adobe Experience Platform Sources と Destinations の詳細
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: integrations
 content-type: reference
 exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
-source-git-commit: 89a18ae9ec57376d6ebec6c416c7562f960eb882
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # ソースと宛先の操作 {#rtcdp}
 
-![](../../assets/v7-only.svg)
+
 
 ## ソースと宛先について
 

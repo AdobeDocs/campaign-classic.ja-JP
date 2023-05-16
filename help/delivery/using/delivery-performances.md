@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: 配信パフォーマンスのベストプラクティス
-description: 配信パフォーマンスとベストプラクティスについて詳しく説明します。
+description: 配信パフォーマンスとベストプラクティスの詳細を説明します
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 配信パフォーマンスのベストプラクティス {#delivery-performances}
 
-![](../../assets/common.svg)
+
 
 配信の問題が発生した場合の配信パフォーマンスを確保すると共に、パフォーマンスの確認に以下のガイドラインに従うことをお勧めします。
 

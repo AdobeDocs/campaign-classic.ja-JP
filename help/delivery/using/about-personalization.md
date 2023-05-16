@@ -2,9 +2,11 @@
 product: campaign
 title: パーソナライゼーションの基本を学ぶ
 description: Campaign でメッセージをパーソナライズし条件付きコンテンツを使用する方法を説明します。
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # パーソナライゼーションの基本を学ぶ{#about-personalization}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign で配信されるメッセージは、コンテンツや外観をいくつかの方法でパーソナライズできます。さらに、受信者のプロファイルから取得した条件に基づいて、それらの方法を組み合わせることもできます。E メール配信の場合は、配信の要素やパーソナライゼーション条件を、メッセージの「**[!UICONTROL ソース]**」タブに JavaScript を記述して直接定義できます。Adobe Campaign には、全体として次のようなパーソナライゼーション機能が備わっています。
 

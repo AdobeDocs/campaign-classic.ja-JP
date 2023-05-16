@@ -2,8 +2,9 @@
 product: campaign
 title: JavaScript での SOAP メソッド
 description: JavaScript での SOAP メソッド
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 9%
@@ -11,8 +12,6 @@ ht-degree: 9%
 ---
 
 # JavaScript での SOAP メソッド{#soap-methods-in-javascript}
-
-![](../../assets/v7-only.svg)
 
 これは、Adobe Campaignサーバーで実行される JavaScript です。
 

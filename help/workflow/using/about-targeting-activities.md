@@ -2,9 +2,10 @@
 product: campaign
 title: ターゲティングアクティビティについて
 description: ターゲティングアクティビティについて
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Audiences, Targeting Activity
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
-source-git-commit: 743baa49e5d62ed1c2f7f635f6bf120a67646e63
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # ワークフローでのターゲティングアクティビティ{#about-targeting-activities}
 
-![](../../assets/v7-only.svg)
+
 
 ターゲティングアクティビティは、セットを定義するか、積集合、和集合、除外の各操作を使用して分割または結合することで、1 つまたは複数のターゲットを作成できます。
 

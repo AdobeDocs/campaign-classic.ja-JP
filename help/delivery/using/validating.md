@@ -2,9 +2,11 @@
 product: campaign
 title: 検証
 description: 検証
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Direct Mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # 検証{#validating}
 
-![](../../assets/common.svg)
+
 
 配信を検証する際のグローバル概念については、[この節](steps-validating-the-delivery.md)で説明しています。
 

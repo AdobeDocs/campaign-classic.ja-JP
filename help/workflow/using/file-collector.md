@@ -2,9 +2,10 @@
 product: campaign
 title: ファイルコレクター
 description: ファイルコレクターワークフローアクティビティの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # ファイルコレクター{#file-collector}
 
-![](../../assets/v7-only.svg)
+
 
 **ファイルコレクター**&#x200B;は、ディレクトリへの 1 つまたは複数のファイルの到着を監視し、それぞれの受信ファイルのトランジションを有効化します。各イベントに関して、変数 **[!UICONTROL filename]** に受信したファイルの完全名が含まれます。収集したファイルは、アーカイブの目的で別のディレクトリに移され、1 回のみとしてカウントされます。
 

@@ -2,9 +2,10 @@
 product: campaign
 title: Web サービスについて
 description: Web サービスについて
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: API
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 7%
@@ -12,8 +13,6 @@ ht-degree: 7%
 ---
 
 # Web サービスについて{#about-web-services}
-
-![](../../assets/v7-only.svg)
 
 ## Adobe Campaign API の定義 {#definition-of-adobe-campaign-apis}
 

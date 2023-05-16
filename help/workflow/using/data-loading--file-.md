@@ -2,9 +2,10 @@
 product: campaign
 title: データ読み込み（ファイル）
 description: データ読み込み（ファイル）ワークフローアクティビティの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # データ読み込み (ファイル){#data-loading-file}
 
-![](../../assets/v7-only.svg)
+
 
 ## 用途 {#use}
 

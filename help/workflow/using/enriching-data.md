@@ -2,9 +2,10 @@
 product: campaign
 title: データのエンリッチメント
 description: エンリッチメントワークフローアクティビティの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Enrichment Activity
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # データのエンリッチメント{#enriching-data}
 
-![](../../assets/v7-only.svg)
+
 
 ## データのエンリッチメントについて {#about-enriching-data}
 
@@ -56,7 +57,7 @@ Web アプリケーション経由での競争への参加を案内する内容�
 
 ![](assets/uc1_enrich_5.png)
 
-次に、過去 6 ヶ月以内にデータベースに追加されかつ最新の競争に参加した受信者をターゲティングする「**[!UICONTROL 積集合]**」タイプアクティビティを追加します。
+次に、「**[!UICONTROL 積集合]**」タイプアクティビティを追加して、過去 6 か月以内にデータベースに追加され、かつ最新の競争に参加した受信者をターゲティングします。
 
 ## 手順 2：エンリッチメント {#step-2--enrichment}
 

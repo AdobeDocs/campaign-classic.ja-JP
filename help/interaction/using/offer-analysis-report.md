@@ -2,11 +2,12 @@
 product: campaign
 title: オファー分析レポート
 description: オファー分析レポート
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: tracking-offers
 exl-id: 44c57b0c-3561-4943-812f-945f5fcbb142
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # オファー分析レポート{#offer-analysis-report}
 
-![](../../assets/v7-only.svg)
+
 
 **[!UICONTROL オファー分析]**&#x200B;レポートは、承認または却下された提案の件数の概要を示します。
 

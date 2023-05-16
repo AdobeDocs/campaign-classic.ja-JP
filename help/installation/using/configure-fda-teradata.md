@@ -2,11 +2,12 @@
 product: campaign
 title: Teradata へのアクセスの設定
 description: FDA でのTeradataへのアクセスの設定方法を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 65e80f16a6beaee89b51636017c42766589e179e
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1824'
 ht-degree: 73%
@@ -15,7 +16,7 @@ ht-degree: 73%
 
 # Teradata へのアクセスの設定 {#configure-access-to-teradata}
 
-![](../../assets/v7-only.svg)
+
 
 キャンペーンを使用 [Federated Data Access](../../installation/using/about-fda.md) (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、Teradataへのアクセスを設定します。
 
@@ -68,7 +69,7 @@ Campaign に接続するTeradataのドライバをインストールする必要
 
 >[!NOTE]
 >
->FDA で外部Teradataベースに接続するには、Adobe Campaignサーバーで追加の設定手順が必要です。 [詳細情報](#teradata-additional-configurations)。
+>FDA で外部Teradataベースに接続するには、Adobe Campaignサーバーで追加の設定手順が必要です。 [詳細情報](#teradata-additional-configurations)
 
 ## Teradata 外部アカウント{#teradata-external}
 

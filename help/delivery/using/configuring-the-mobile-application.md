@@ -2,10 +2,11 @@
 product: campaign
 title: Adobe Campaign での iOS モバイルアプリケーションの設定
 description: iOS 用モバイルアプリケーションの設定方法を学ぶ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
-workflow-type: ht
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 100%
 
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # iOS 向けの設定手順 {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
-![](../../assets/v7-only.svg)
+
 
 パッケージがインストールされたら、Adobe Campaign Classic で iOS アプリの設定を定義できます。
 

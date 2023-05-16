@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: Web サーバー設定
-description: Web サーバー設定の主なベストプラクティスの詳細を説明します。
+description: Web サーバー設定の主なベストプラクティスの詳細を説明します
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: 3709aaf0543a50ff6c2e65a75e7189ab805cd742
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 38%
@@ -15,7 +16,7 @@ ht-degree: 38%
 
 # Web サーバー設定 {#web-server-configuration}
 
-![](../../assets/v7-only.svg)
+
 
 Web サーバー (Apache/IIS) の設定に関する主なベストプラクティスを以下にいくつか示します。
 

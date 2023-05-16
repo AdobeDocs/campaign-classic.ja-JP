@@ -2,10 +2,12 @@
 product: campaign
 title: Adobe Campaign Classic でのインタラクティブコンテンツの定義
 description: Adobe Campaign の AMP を使用してインタラクティブな動的メールコンテンツを定義する方法を学ぶ
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design, Dynamic Content
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-source-git-commit: 1348c1d88d0732b0dda4ed488b4a258ac7e15c42
-workflow-type: ht
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 100%
 
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # インタラクティブコンテンツの定義{#defining-interactive-content}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign では、特定の条件下での動的なメールの送信を可能にする、インタラクティブな [AMP for Email](https://amp.dev/ja/about/email/) 形式を使用することができます。
 

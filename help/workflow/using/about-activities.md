@@ -2,9 +2,10 @@
 product: campaign
 title: ワークフローアクティビティについて
 description: アクティビティについて
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # ワークフローアクティビティ{#wf-activities}
 
-![](../../assets/v7-only.svg)
+
 
 この節では、使用可能なアクティビティすべてについて説明します。使用可能なアクティビティは、ワークフローが作成/編集されたノードまたはコンテキストに応じて異なります。例えば、キャンペーン内で作成されたワークフローには、チャネル固有の配信アクティビティがあります。
 

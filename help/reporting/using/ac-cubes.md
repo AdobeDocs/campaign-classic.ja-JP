@@ -2,9 +2,10 @@
 product: campaign
 title: キューブの基本を学ぶ
 description: キューブの基本を学ぶ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Reporting
 exl-id: 71d24f03-d41d-49bc-b9a5-8237902f7d6a
-source-git-commit: c1be67d32c39d20f7794b6019a6e03c9ec29df94
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 96%
@@ -13,7 +14,7 @@ ht-degree: 96%
 
 # キューブの基本を学ぶ{#about-cubes}
 
-![](../../assets/v7-only.svg)
+
 
 データベースに格納されているデータの調査は、**マーケティング分析**&#x200B;モジュールを通じて提供されます。これにより、データの分析と測定、統計の計算、レポートの作成と計算のシンプル化および最適化が可能になります。それに加え、マーケティング分析では、レポートの作成とターゲット母集団の定義も可能です。ターゲット母集団は、一旦特定されると、Adobe Campaign で使用できるリスト（ターゲティングやセグメント化など）に格納されます。
 

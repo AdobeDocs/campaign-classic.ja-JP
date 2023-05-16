@@ -2,10 +2,12 @@
 product: campaign
 title: Adobe Experience Manager 統合の設定
 description: Campaign と AEM の統合を設定する方法を説明します
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
-source-git-commit: 6c23dadb5b6523e17e242de43a908ca86ed7cc23
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 100%
@@ -14,7 +16,7 @@ ht-degree: 100%
 
 # Campaign と AEM の統合の設定{#configuring-the-integration}
 
-![](../../assets/common.svg)
+
 
 ## Adobe Campaign での設定手順 {#configuring-in-adobe-campaign}
 

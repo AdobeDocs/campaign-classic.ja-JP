@@ -2,8 +2,9 @@
 product: campaign
 title: Web トラッキングについて
 description: Web トラッキングについて
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 4%
@@ -11,8 +12,6 @@ ht-degree: 4%
 ---
 
 # Web トラッキングについて{#about-web-tracking}
-
-![](../../assets/v7-only.svg)
 
 Adobe Campaignプラットフォームでは、インターネットユーザーが E メールメッセージのリンクをクリックしたときの動作を示す標準的なトラッキングに加えて、インターネットユーザーが Web サイトを閲覧した際の方法に関する情報を収集できます。 このデータ収集は、Web トラッキングモジュールによって実行されます。
 

@@ -2,9 +2,10 @@
 product: campaign
 title: 詳細設定パラメーター
 description: 詳細設定パラメーター
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # 詳細設定パラメーター{#advanced-parameters}
 
-![](../../assets/v7-only.svg)
+
 
 アクティビティのプロパティ画面にある「**[!UICONTROL 詳細]**」タブでは、エラーが発生した場合の動作や、アクティビティの実行期間を定義できるほか、初期化スクリプトを入力することも可能です。このタブには、次の 2 つのバージョンがあります。
 

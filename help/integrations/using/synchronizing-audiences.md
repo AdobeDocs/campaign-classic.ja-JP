@@ -2,11 +2,12 @@
 product: campaign
 title: オーディエンスの同期
 description: オーディエンスを ACS コネクタと同期する方法を学ぶ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
 hide: true
 hidefromtoc: true
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # オーディエンスの同期{#synchronizing-audiences}
 
-![](../../assets/v7-only.svg)
+
 
 Campaign v7 の高度な機能を使用して、高度なリストを作成できます。このリストは（追加データを含め）、オーディエンスとして Campaign Standard とシームレスにリアルタイムで直接共有できます。Campaign Standard ユーザーはそのオーディエンスを Adobe Campaign Standard で使用できます。
 

@@ -2,9 +2,10 @@
 product: campaign
 title: スキーマの拡張
 description: スキーマの拡張方法を学ぶ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Schema Extension
 exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 11%
@@ -12,8 +13,6 @@ ht-degree: 11%
 ---
 
 # スキーマの拡張{#extending-a-schema}
-
-![](../../assets/v7-only.svg)
 
 >[!IMPORTANT]
 >

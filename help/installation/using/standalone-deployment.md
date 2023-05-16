@@ -2,11 +2,12 @@
 product: campaign
 title: スタンドアロンデプロイメント
 description: スタンドアロンデプロイメント
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 5%
@@ -15,7 +16,7 @@ ht-degree: 5%
 
 # スタンドアロンデプロイメント{#standalone-deployment}
 
-![](../../assets/v7-only.svg)
+
 
 この構成には、同じコンピュータ上のすべてのコンポーネントが含まれます。
 
@@ -164,7 +165,7 @@ ht-degree: 5%
 
    詳しくは、 [Campaign サーバーの設定](../../installation/using/configuring-campaign-server.md).
 
-1. クライアントコンソールセットアッププログラム (**setup-client-7.XX**, **YYYY.exe** v7 または **setup-client-6.XX**, **YYYY.exe** （v6.1 の場合） **/datakit/nl/eng/jsp** フォルダー。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
+1. クライアントコンソールセットアッププログラム (**setup-client-7.XX**, **YYYY.exe** v7 または **setup-client-6.XX**, **YYYY.exe** （v6.1 の場合） **/datakit/nl/eng/jsp** フォルダー。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)
 
 1. 次の節で説明されている Web サーバー統合手順 (IIS、Apache) に従います。
 
@@ -207,7 +208,7 @@ ht-degree: 5%
 
    この URL を使用して、クライアントセットアッププログラムのダウンロードページにアクセスできます。
 
-   次を入力します。 **内部** ログインと関連するパスワード（アクセス制御ページにアクセスする際に使用） [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
+   次を入力します。 **内部** ログインと関連するパスワード（アクセス制御ページにアクセスする際に使用） [詳細情報](../../installation/using/client-console-availability-for-windows.md)
 
    ![](assets/s_ncs_install_access_client.png)
 

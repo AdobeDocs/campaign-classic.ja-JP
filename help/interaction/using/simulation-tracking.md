@@ -2,11 +2,13 @@
 product: campaign
 title: シミュレーションのトラッキング
 description: シミュレーションのトラッキング
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
-source-git-commit: d835da6c7b55d9bf70b6b5dc58880718e12211d5
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # シミュレーションのトラッキング{#simulation-tracking}
 
-![](../../assets/common.svg)
+
 
 シミュレーションが完了したら、シミュレーションウィンドウに追加される「**[!UICONTROL 結果]**」タブと、シミュレーションダッシュボードで利用できる&#x200B;**[!UICONTROL オファーの分類（ランク別）]**&#x200B;レポートを使用して、実行結果を分析できます。
 

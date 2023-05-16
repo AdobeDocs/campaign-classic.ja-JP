@@ -2,9 +2,11 @@
 product: campaign
 title: 配信ダッシュボード
 description: 配信ダッシュボードを使用して配信を監視する方法について詳しく説明します。
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # 配信ダッシュボード {#delivery-dashboard}
 
-![](../../assets/common.svg)
+
 
 **配信ダッシュボード**&#x200B;は、配信と、メッセージの送信時に結果として起こる問題を監視するための重要な要素です。
 

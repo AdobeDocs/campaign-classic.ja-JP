@@ -2,11 +2,12 @@
 product: campaign
 title: 開発者向け FAQ
 description: 開発者向け FAQ
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # 開発者向け FAQ {#dev-faq}
 
-![](../../assets/v7-only.svg)
+
 
 オープンなソリューションである Adobe Campaign は、カスタマイズと高度なアプリケーション開発に対応しています。
 

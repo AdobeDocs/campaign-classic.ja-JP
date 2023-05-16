@@ -2,10 +2,11 @@
 product: campaign
 title: テクニカルノート - Adobe Campaign 設定の更新
 description: Adobe Campaign 設定の更新
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 8ea5a42e0539ea23c1d9940e3f38f2c90fdcc223
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 100%
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 # Adobe Campaign 設定の更新（2021 年） {#acc-config-updates}
 
-![](../../assets/v7-only.svg)
+
 
 インフラストラクチャと設定を定期的に更新して、最新のビルドと製品の修正を反映するようにしてください。 これらの修正は、サービスとセキュリティの継続性を確保するために必要です。 さらに、サードパーティによる変更に合わせてアップグレードする必要もあります。
 

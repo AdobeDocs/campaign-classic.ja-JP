@@ -7,8 +7,8 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+source-git-commit: 9ea7eea5a539407a17b0a11c942570cfa6c16f2f
+workflow-type: ht
 source-wordcount: '764'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: オファーのシミュレーションについて
 description: オファーのシミュレーションについて
 exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 

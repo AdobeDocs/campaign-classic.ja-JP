@@ -5,7 +5,7 @@ description: 新しいレポートを作成するための主な手順を学ぶ
 feature: Reporting
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '961'
 ht-degree: 100%
 

@@ -97,7 +97,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 >[!NOTE]
 >
->コントロールパネルは、すべての管理者ユーザーからアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)を参照してください。
+>コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順については、[この節](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)を参照してください。
 >
 >インスタンスは AWS でホストされ、最新の [GA ビルド](rn/using/rn-overview.md)でアップグレードされている必要があります。バージョンを確認する方法については、[この節](platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
 

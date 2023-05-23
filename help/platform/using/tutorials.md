@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: e612a4e7-f4ef-4db4-afab-5544b73430d3
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '364'
+ht-degree: 98%
 
 ---
 
@@ -52,4 +52,4 @@ Adobe Campaign について詳しくは、以下の使用例と例を確認し�
 
 ### Experience League コース
 
-また、Adobe Campaign Classic の[推奨コース](https://experienceleague.adobe.com/?lang=ja#dashboard/learning)は、専門的に厳選された一連のレッスンで、スキルや知識を習得するのに役立ちます。
+また、Adobe Campaign Classic の[推奨コース](https://experienceleague.adobe.com/#dashboard/learning)は、専門的に厳選された一連のレッスンで、スキルや知識を習得するのに役立ちます。

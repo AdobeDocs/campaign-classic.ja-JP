@@ -5,10 +5,10 @@ description: Android 用のプッシュ通知を作成する方法を説明し�
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Push
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '818'
-ht-degree: 100%
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+workflow-type: tm+mt
+source-wordcount: '816'
+ht-degree: 99%
 
 ---
 
@@ -72,7 +72,7 @@ Firebase Cloud Messaging のメッセージタイプについて詳しくは、[
 >
 >通知メッセージのその他のオプションは、HTTP v1 API 設定でのみ使用できます。詳しくは、[この節](configuring-the-mobile-application-android.md#android-service-httpv1)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [Android プッシュ通知の作成方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=ja#additional-resources)
+![](assets/do-not-localize/how-to-video.png) [Android プッシュ通知の作成方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html#additional-resources)
 
 1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;に移動します。
 

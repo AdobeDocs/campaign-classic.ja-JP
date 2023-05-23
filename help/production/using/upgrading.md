@@ -3,14 +3,14 @@ product: campaign
 title: 新しいビルドへのアップグレード
 description: 新しいビルドにアップグレードするための技術的な手順を説明します
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1172'
 ht-degree: 15%
 
 ---
@@ -71,7 +71,7 @@ Windows 環境で、次の手順に従ってAdobe Campaignを新しいビルド�
 
 1. 実行 **setup.exe**.
 
-   このファイルをダウンロードするには、 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
+   このファイルをダウンロードするには、 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?lang=ja) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
 
 1. インストールモードを選択します。選択 **[!UICONTROL 更新または修復]**
 1. 「**[!UICONTROL 次へ]**」をクリックします。
@@ -125,7 +125,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 ### 更新されたパッケージの取得 {#obtain-updated-packages}
 
-まず、更新されたAdobe Campaignの両方のパッケージを復元します。接続先 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
+まず、更新されたAdobe Campaignの両方のパッケージを復元します。接続先 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?lang=ja) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
 
 ファイルは **nlserver6-v7-XXX.rpm**
 

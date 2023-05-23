@@ -6,10 +6,10 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design, Dynamic Content
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
-source-wordcount: '1519'
-ht-degree: 100%
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+workflow-type: tm+mt
+source-wordcount: '1513'
+ht-degree: 99%
 
 ---
 
@@ -139,7 +139,7 @@ Adobe Campaign で AMP コンテンツを作成する場合は、動的な E メ
 Gmail アカウントに対して AMP 形式で配信をテストするために必要なすべての手順と仕様については、該当する [Gmail](https://developers.google.com/gmail/ampemail?) および [Mail.ru](https://postmaster.mail.ru/amp) 開発者向けドキュメントを参照してください。
 
 特に、次の要件を満たす必要があります。
-* [Gmail](https://developers.google.com/gmail/ampemail/security-requirements) および [Mail.ru](https://postmaster.mail.ru/amp/?lang=en#howto) 特有の AMP セキュリティ要件に従います。
+* [Gmail](https://developers.google.com/gmail/ampemail/security-requirements) および [Mail.ru](https://postmaster.mail.ru/amp/#howto) 特有の AMP セキュリティ要件に従います。
 * AMP MIME パートには、[有効な AMP ドキュメント](https://amp.dev/ja/documentation/guides-and-tutorials/learn/validation-workflow/validate_emails/?format=email)が含まれている必要があります。
 * AMP MIME パートは 100 KB 未満である必要があります。
 
@@ -171,7 +171,7 @@ Gmail の場合、まずはターゲットとする Gmail アカウント用に 
 
 ![](assets/amp_from_field.png)
 
-Mail.ru アドレスへの AMP E メールの送信をテストするには、[Mail.ru 開発者向けドキュメント](https://postmaster.mail.ru/amp/?lang=en#howto)（**ユーザーの場合**&#x200B;の節）の手順に従います。
+Mail.ru アドレスへの AMP E メールの送信をテストするには、[Mail.ru 開発者向けドキュメント](https://postmaster.mail.ru/amp/#howto)（**ユーザーの場合**&#x200B;の節）の手順に従います。
 
 ### メールプロバイダーへの登録による AMP E メールの配信 {#delivering-amp-emails-by-registering}
 
@@ -183,7 +183,7 @@ Mail.ru アドレスへの AMP E メールの送信をテストするには、[M
 
 複数のアドレスでテストが完了したら、任意の Gmail アドレスに AMP メールを送信できます。そのためには、Google に登録し、回答を待つ必要があります。[Gmail](https://developers.google.com/gmail/ampemail/register) 開発者向けドキュメントに記載されている手順に従います。登録が完了すると、許可された送信者になります。
 
-AMP E メールを Mail.ru アドレスに送信するには、[Mail.ru 開発者向けドキュメント](https://postmaster.mail.ru/amp/?lang=en#howto)に記載されている要件と手順に従います（**E メールの送信者の場合**&#x200B;の節を参照）。
+AMP E メールを Mail.ru アドレスに送信するには、[Mail.ru 開発者向けドキュメント](https://postmaster.mail.ru/amp/#howto)に記載されている要件と手順に従います（**E メールの送信者の場合**&#x200B;の節を参照）。
 
 ## AMP メールの送信 {#sending-amp-email}
 

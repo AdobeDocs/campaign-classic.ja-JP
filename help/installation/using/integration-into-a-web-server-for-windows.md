@@ -3,12 +3,12 @@ product: campaign
 title: Windows 用 web サーバーへの統合
 description: Windows 用 web サーバーへの統合
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 4%
@@ -101,7 +101,7 @@ IIS 7 では、標準のサービスに加えて、ISAPI 拡張機能と ISAPI �
 
    ![](assets/s_ncs_install_iis7_parameters_step8.png)
 
-1. 内 **ディレクトリセキュリティ** 「 」タブで、匿名アクセスが有効になっていることを確認します。 必要に応じて、 **[!UICONTROL 編集]** 設定を変更するリンク
+1. 内 **ディレクトリセキュリティ** 「 」タブで、匿名アクセスが有効になっていることを確認します。 必要に応じて、 **[!UICONTROL 編集]** リンクをクリックして設定を変更します。
 
    ![](assets/s_ncs_install_iis7_parameters_step9.png)
 

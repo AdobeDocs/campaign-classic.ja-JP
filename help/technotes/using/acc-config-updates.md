@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '1125'
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+workflow-type: tm+mt
+source-wordcount: '1123'
 ht-degree: 100%
 
 ---
@@ -104,7 +104,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../../integrations
 
 ## Experience Cloud トリガーとの統合 {#acc-triggers-updates}
 
-従来の OAuth 認証サービスはサポート終了になりました。 トリガー統合の認証は、もともとパイプラインにアクセスするための OAuth 認証設定に基づいていましたが、Adobe I/O に移行されました。Campaign での従来の OAuth 認証モードは **2021年9月** に[廃止されました](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)。ホスト環境では、**2022年2月23日（PT）**&#x200B;まで延長サポートを受けられます。オンプレミス環境またはハイブリッド環境のお客様は、アドビカスタマーケアに連絡してサポートを 2022年2月まで延長してください。[OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) をアドビに伝える必要があります。
+従来の OAuth 認証サービスはサポート終了になりました。 トリガー統合の認証は、もともとパイプラインにアクセスするための OAuth 認証設定に基づいていましたが、Adobe I/O に移行されました。Campaign での従来の OAuth 認証モードは **2021年9月** に[廃止されました](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=ja)。ホスト環境では、**2022年2月23日（PT）**&#x200B;まで延長サポートを受けられます。オンプレミス環境またはハイブリッド環境のお客様は、アドビカスタマーケアに連絡してサポートを 2022年2月まで延長してください。[OAuth アプリケーションの AppID](../../integrations/using/configuring-pipeline.md#step-optional) をアドビに伝える必要があります。
 
 **影響の有無**
 

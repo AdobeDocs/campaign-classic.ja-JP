@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: トランザクションメッセージテンプレートのデザイン
-description: Adobe Campaign Classicでトランザクションメッセージテンプレートを作成および設計する方法について説明します
+description: Adobe Campaign Classic でトランザクションメッセージテンプレートを作成およびデザインする方法について説明します
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Transactional Messaging
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

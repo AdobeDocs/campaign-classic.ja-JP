@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8460'
 ht-degree: 100%
 
@@ -411,7 +411,7 @@ Adobe Campaign Classic 拡張 SMPP コネクタは、MTA の子 1 つあたり�
 
 Adobe Campaign Classic の場合は、レシーバーとトランスミッターの接続数が異なる場合があります。
 
-* **</br>トランスミッター接続 = MTA 子接続の数 * MTA 子プロセスの数 * MTA の数（自動応答が設定されている場合）+ MTA 子接続の数**
+* **トランスミッター接続 = MTA 子接続の数 * MTA 子プロセスの数 * MTA の数</br>（自動応答が設定されている場合）+ MTA 子接続の数**
 
 上記の推奨事項に従い、自動応答が有効な場合は、Adobe Campaign Classic SMS プロセスがより多くのトランスミッター接続を開きます。これらの追加の接続は、自動応答の送信に使用されます。
 

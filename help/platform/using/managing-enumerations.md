@@ -2,15 +2,15 @@
 product: campaign
 title: 列挙の管理
 description: 列挙の管理
-badge: label="v7" type="Informative" tooltip="Campaign Classicv7 のみに適用"
+badge: label="v7" type="Informative" tooltip="Campaign Classic v7 のみに適用"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '946'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

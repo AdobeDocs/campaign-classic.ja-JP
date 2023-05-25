@@ -2,13 +2,13 @@
 product: campaign
 title: レポートのベストプラクティス
 description: キャンペーンレポートのベストプラクティス
-badge: label="v7" type="Informative" tooltip="Campaign Classicv7 のみに適用"
+badge: label="v7" type="Informative" tooltip="Campaign Classic v7 のみに適用"
 feature: Reporting
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '852'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

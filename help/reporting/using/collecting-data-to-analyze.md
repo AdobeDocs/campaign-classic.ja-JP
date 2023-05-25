@@ -2,13 +2,13 @@
 product: campaign
 title: 分析するデータの収集
 description: 分析するデータの収集
-badge: label="v7" type="Informative" tooltip="Campaign Classicv7 のみに適用"
+badge: label="v7" type="Informative" tooltip="Campaign Classic v7 のみに適用"
 feature: Reporting
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

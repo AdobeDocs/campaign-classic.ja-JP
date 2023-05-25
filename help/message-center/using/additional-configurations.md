@@ -1,16 +1,16 @@
 ---
 product: campaign
 title: その他の設定
-description: Adobe Campaign Classicでトランザクションメッセージ用の追加の設定を行う方法を説明します
+description: Adobe Campaign Classic でトランザクションメッセージ用の追加設定を行う方法を説明します
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 **Message Center のサービスレベル**&#x200B;と **Message Center の処理時間**&#x200B;のレポートに表示される指標について、警告しきい値（オレンジ）とアラートしきい値（赤）を設定できます。[トランザクションメッセージレポートへのアクセス](../../message-center/using/about-transactional-messaging-reports.md)を参照してください。
 
-これは、次の手順に従って行います。
+これを行うには、次の手順に従います。
 
 1. **実行インスタンス**&#x200B;でデプロイウィザードを開きます。
 
@@ -159,7 +159,7 @@ Once the control and execution modules are installed on the same instance, you m
 
 コントロールインスタンスでは、配信テンプレートと外部アカウントをリンクします。
 
-次の手順に従ってこれを行います。
+これを行うには、次の手順に従います。
 
 1. [実行インスタンス](#execution-instance)で定義したもの（手順 1）と同じ内部名で、ブランドごとに 1 つの外部アカウントを作成します。
 

@@ -1,16 +1,16 @@
 ---
 product: campaign
 title: Adobe Campaign Classic のインタラクションのベストプラクティス
-description: この節では、Adobe Campaign Classicのインタラクションモジュールを管理するためのベストプラクティスのアプローチを紹介します
+description: ここでは、Adobe Campaign Classic のインタラクションモジュールを管理するためのベストプラクティスアプローチを紹介します
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 98413cde-50c9-416c-8316-85837f724c27
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1197'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

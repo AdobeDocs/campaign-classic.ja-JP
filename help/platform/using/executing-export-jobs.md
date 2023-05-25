@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: エクスポートジョブの設定
-description: Campaign でエクスポートジョブを設定および実行する方法について説明します。
+description: Campaign でエクスポートジョブを設定および実行する方法について学ぶ
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1015'
 ht-degree: 100%
 

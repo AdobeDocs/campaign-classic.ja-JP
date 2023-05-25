@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Adobe Campaign Classic の E メールチャネルについて
-description: ここでは、Adobe Campaign の E メールチャネルに関する一般情報を提供します。
+title: Adobe Campaign Classic のメールチャネルについて
+description: ここでは、Adobe Campaign のメールチャネルに関する一般情報を提供します。
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ E メールを送信するための主な手順は、次のとおりです。
 
 * [E メール配信の作成](creating-an-email-delivery.md)
 * [ターゲット母集団の定義](steps-defining-the-target-population.md)
-* [E メールコンテンツの定義](defining-the-email-content.md)
+* [メールコンテンツの定義](defining-the-email-content.md)
 * [E メールの送信](sending-messages.md)
 * [配信の監視](about-delivery-monitoring.md)
 

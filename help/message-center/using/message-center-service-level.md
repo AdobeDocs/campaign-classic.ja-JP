@@ -1,16 +1,16 @@
 ---
 product: campaign
 title: Message Center のサービスレベル
-description: Message Center のサービスレベルレポートの詳細を説明します
+description: Message Center のサービスレベルレポートについて学ぶ
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 ![](assets/mc_reports_1.png)
 
-このレポートでは、全体的な統計を表示するか、特定の実行インスタンスに関連する統計を表示するかを選択できます。チャネル別や特定の期間でデータをフィルタリングすることもできます。
+このレポートでは、全体的な統計を表示するか、特定の実行インスタンスに関連する統計を表示するかを選択できます。チャネル別や、特定の期間でデータをフィルタリングすることもできます。
 
 「**[!UICONTROL 全期間の指標]**」セクションに表示される指標は、選択した期間を対象に計算されます。
 

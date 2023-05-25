@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: データのインポートとエクスポートの基本を学ぶ
-description: Campaign でのデータのインポートとエクスポートについて詳しく説明します。
+description: Campaign でのデータのインポートとエクスポートについて詳しく学ぶ
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Adobe Campaign Classic は、データのインポートとエクスポートを
 
 ワークフローを使用すると、例えば複数の情報システム間のデータ交換を自動化するために、インポートとエクスポートの操作をスケジュールに従って自動的に繰り返すことができます。
 
-詳しくは、[こちらの節](../../platform/using/import-export-workflows.md)を参照してください。
+詳しくは、[この節](../../platform/using/import-export-workflows.md)を参照してください。
 
 ## 一般的なインポートおよびエクスポート {#generic-import-export}
 

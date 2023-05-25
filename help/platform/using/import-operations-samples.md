@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 一般的なインポートのサンプル
-description: インポートジョブを使用して実行できる一般的なインポートの詳細を説明します
+description: インポートジョブを使用して実行できる一般的なインポートについて説明します
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1103'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

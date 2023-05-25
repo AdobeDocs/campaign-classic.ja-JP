@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: 繰り返し発生するインポートの設定
-description: 繰り返しインポート用のワークフローテンプレートを設定する方法を説明します
+description: 繰り返し発生するインポート用のワークフローテンプレートを設定する方法について学ぶ
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1136'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

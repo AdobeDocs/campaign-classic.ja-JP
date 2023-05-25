@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Adobe Campaign のレポートツールについて
-description: 組み込みレポートまたはカスタマイズされたレポートでキャンペーンの成功を分析
+description: 組み込みレポートまたはカスタマイズされたレポートでキャンペーンの成果を分析します
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

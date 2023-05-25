@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: ワークフローのユースケースについて
-description: ワークフローを使用して実行できる使用例について詳しくCampaign Classic
+description: Campaign Classic ワークフローを使用して実行できるユースケースについて詳しく説明します
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 93%
 * [集計の使用](using-aggregates.md)
 * [コントロールパネルで生成したキーを使用した暗号化されたデータのインポート](../../platform/using/unzip-decrypt.md)
 * [コントロールパネルにインストールされたキーを使用したデータの暗号化とエクスポート](how-to-use-workflow-data.md#use-case-gpg-encrypt)
-* [増分処理クエリを使用した四半期ごとのリストの更新](quarterly-list-update.md)
+* [増分処理クエリを使用した四半期ごとのリスト更新](quarterly-list-update.md)
 * [重複排除アクティビティの結合機能の使用](deduplication-merge.md)
 * [繰り返し発生するインポートワークフローの設定](recurring-import-workflow.md)
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1025'
 ht-degree: 100%
 
@@ -85,7 +85,6 @@ ht-degree: 100%
       grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
       grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
       ```
-
    >[!NOTE]
    >
    >コントロールインスタンスの IP アドレスは、実行インスタンスで承認されている必要があります。

@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: ソースと宛先の基本を学ぶ
-description: Adobe Experience Platform Sources と Destinations の詳細
+description: Adobe Experience Platform のソースと宛先について学ぶ
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: integrations
 content-type: reference
 exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Adobe Campaign Classic について
-description: 主要な機能、ユーザーインターフェイス、グローバルガイドラインについて説明します。
+description: 主要な機能、ユーザーインターフェイス、グローバルガイドラインについて学ぶ
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '923'
 ht-degree: 100%
 

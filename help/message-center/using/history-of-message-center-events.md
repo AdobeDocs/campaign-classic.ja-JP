@@ -1,16 +1,16 @@
 ---
 product: campaign
 title: Message Center のイベント履歴
-description: Message Center のイベント履歴レポートの詳細を説明します
+description: Message Center のイベント履歴レポートについて説明します
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: 04d4791b-a1dd-4361-a469-6f5aff0f41b8
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '151'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 

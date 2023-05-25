@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: ファイルの解凍または復号化
-description: 処理の前に Campaign でファイルを解凍または復号化する方法を説明します
+description: 処理を行う前に Campaign でファイルを展開または復号化する方法について説明します
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
@@ -11,7 +11,7 @@ exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

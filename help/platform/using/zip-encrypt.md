@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: ファイルの圧縮または暗号化
-description: 処理の前に Campaign でファイルを圧縮または暗号化する方法を説明します
+description: 処理を行う前に Campaign でファイルを圧縮または暗号化する方法を説明します
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
@@ -11,7 +11,7 @@ exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 

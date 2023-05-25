@@ -1,16 +1,16 @@
 ---
 product: campaign
 title: イベントタイプの作成
-description: Adobe Campaign Classicで送信するトランザクションメッセージに一致するイベントタイプを作成する方法を説明します
+description: Adobe Campaign Classic で送信するトランザクションメッセージに一致するイベントタイプを作成する方法を説明します
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 98b7c827-f31d-46a6-a28d-40a78a4b4248
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 

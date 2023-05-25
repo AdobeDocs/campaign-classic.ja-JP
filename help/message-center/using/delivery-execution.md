@@ -1,16 +1,16 @@
 ---
 product: campaign
 title: 配信の実行
-description: トランザクションメッセージ配信の実行と監視の詳細を説明します
+description: トランザクションメッセージ配信の実行と監視についての詳細情報
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

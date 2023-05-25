@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: ワークフローについて
-description: ワークフローを使用してプロセスを自動化し、データとオーディエンスを管理し、メッセージを送信するなど
+description: ワークフローを使用すれば、データおよびオーディエンスの管理やメッセージの送信などのプロセスを自動化できます
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

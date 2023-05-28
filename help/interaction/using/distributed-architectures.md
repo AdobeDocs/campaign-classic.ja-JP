@@ -85,6 +85,7 @@ ht-degree: 100%
       grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
       grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
       ```
+
    >[!NOTE]
    >
    >コントロールインスタンスの IP アドレスは、実行インスタンスで承認されている必要があります。

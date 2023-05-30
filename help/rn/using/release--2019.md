@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 hidefromtoc: true
 exl-id: 8a36a542-e095-4208-b624-e59845592863
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4836'
 ht-degree: 100%
 

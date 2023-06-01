@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '2034'
-ht-degree: 100%
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+workflow-type: tm+mt
+source-wordcount: '1998'
+ht-degree: 98%
 
 ---
 
@@ -54,15 +54,16 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 以下は、前の節のスクリーンショットのサーバー情報の例の説明です。
 
-* ビルドのアップグレード：ビルド 6880 から 6880 より大きいビルドに移行します。例：v6.1.1 ビルド 8222 -> v6.1.1 ビルド 8666
+* ビルドのアップグレード：ビルド 9342 から 9342 より大きいビルドに移行します。例：v7.1 ビルド 9342 -> v7.1 ビルド 9342
 
-* バージョンのアップグレード：バージョン 6.0.2 から 6.0.2 より大きいバージョンに移行します。例：v6.0.1 ビルド 2222 -> v6.1.1 ビルド 8666
+* バージョンのアップグレード：バージョン 6 からそれ以降のバージョンに移行します。  例：v6.1.1 ビルド 8666～v7.1 ビルド 9342。
 
 ## これらのアップデートの前にデータをバックアップする必要がありますか？
 
 変更をおこなう前に、アドビがシステムのバックアップを作成します。ただし、本番以外のシステム（開発またはステージングサーバー）に重要なカスタマイズ作業がある場合は、アップグレードの前に、お客様の側で、その作業をパッケージとしてエクスポートすることを強くお勧めします。
 
-![](assets/do-not-localize/how-to-video.png) 詳しくは、[こちらのハウツービデオ](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html)をご覧ください。
+<!--
+![](assets/do-not-localize/how-to-video.png) For more information, [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).-->
 
 ## アップグレードはいつおこなわれますか？
 
@@ -97,7 +98,9 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 ## ビルドアップグレードの準備はどのようにすればよいですか？
 
-開発システムとステージングシステムで、重要かつ保存が必要な作業をエクスポートします。詳しくは、[このハウツービデオ](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html)をご覧ください。
+開発システムとステージングシステムで、重要かつ保存が必要な作業をエクスポートします。
+
+<!--For more information please [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).-->
 
 実装の最後にチームに提供されるドキュメントを見直すことで、運用資料（またはコンサルティングチーム／パートナー）で開発された重要なパスワークフローと配信に関する知識を更新します。
 
@@ -105,7 +108,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 以下の[ビルドアップグレードのチェックリスト](#check-list)とテスト計画を確認し、これらのテストを実行できるリソースがアップグレード完了の 24～48 時間以内に利用可能であることを確認します。
 
-詳しくは、[このドキュメント](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)を参照してください。
+詳しくは、 [この節を参照してください。](../../production/using/build-upgrade.md).
 
 ## 夜間や営業時間外にビルドアップグレードを実行することはできますか？
 

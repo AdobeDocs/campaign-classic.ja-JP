@@ -5,10 +5,10 @@ description: Adobe Campaign の用語集
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '5972'
-ht-degree: 100%
+source-wordcount: '5974'
+ht-degree: 99%
 
 ---
 
@@ -1012,7 +1012,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 トランザクションメッセージングの詳細は[こちら](../../message-center/using/about-transactional-messaging.md)。
 +++
 
-<!------- USEFUL HERE??----->
+&lt;! — ここで役に立つ??—>
 +++**トリガーキャンペーン**
 
 トリガーキャンペーンとは、ワークフローで API リクエストを受け取ったときに実行されるキャンペーンです。 API 呼び出しは、ワークフローの実行を開始するワークフローでシグナルアクティビティによって消費されます。
@@ -1058,16 +1058,6 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 単一モードの詳細は[こちら](../../interaction/using/about-inbound-channels.md)。
 +++
-
-<!--
------NO OCCURRENCE IN ACC, OLD v6 CONCEPT?
-+++**Universes**
-
-Application pages hosted by the Campaign instance. Used for approval forms, landing pages, opt-out forms, preference pages or to implement other business requirements.  
-
-Learn more about [Universes](../../workflow/using/about-workflows.md).
-+++
------->
 
 +++**Web アプリケーション**
 

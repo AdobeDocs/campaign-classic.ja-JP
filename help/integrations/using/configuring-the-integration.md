@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
-source-wordcount: '609'
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+workflow-type: tm+mt
+source-wordcount: '572'
 ht-degree: 100%
 
 ---
@@ -120,10 +120,6 @@ AEM 外部アカウントを設定するには、次の手順に従います。
 1. AEM オーサリングインスタンスから AEM パブリッシュインスタンスにレプリケートするように&#x200B;**レプリケーション**&#x200B;を設定します。
 
    レプリケーションの設定方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/jp/experience-manager/6-5/sites/deploying/using/replication.html)を参照してください。
-
-1. オーサーインスタンスに統合 **FeaturePack** をインストールし、パブリッシュインスタンスにインストールをレプリケートします（AEM バージョン 5.6.1 および 6.0 のみ）。
-
-   FeaturePack のインストール方法については、Adobe Experience Manager の[ドキュメント](https://helpx.adobe.com/jp/experience-manager/aem-previous-versions.html)を参照してください。
 
 1. 専用の&#x200B;**クラウドサービス**&#x200B;を設定し、Adobe Experience Manager を Adobe Campaign に接続します。
 

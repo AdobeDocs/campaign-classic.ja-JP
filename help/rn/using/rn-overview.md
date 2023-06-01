@@ -7,10 +7,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '935'
-ht-degree: 100%
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+workflow-type: tm+mt
+source-wordcount: '933'
+ht-degree: 98%
 
 ---
 
@@ -129,7 +129,7 @@ Adobe Campaign Classic では、お客様に価値を提供するために、様
     </a>
     </div>
     <ul>
-    <li>Campaign Classic インスタンスのアップグレードに要する作業量やその複雑さは、2 つのバージョン（v6 --&gt; v7）の間隔が開くほど増大します。</li>
+    <li>Campaign Classicインスタンスのアップグレードの労力と複雑さは、2 つのバージョン間の距離に伴って増加します。</li>
     <li>アップグレードを先送りにすればするほど、作業がより複雑になり、さらに多くの脆弱性にさらされます。</li>
     <li>定期的アップグレードの実行により、アップグレードにかかるダウンタイムとリグレッションのリスクが軽減されます。</li>
     </ul>

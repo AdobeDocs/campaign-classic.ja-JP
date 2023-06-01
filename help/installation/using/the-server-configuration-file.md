@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '7979'
+source-wordcount: '7955'
 ht-degree: 39%
 
 ---
@@ -349,7 +349,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
    <td> </td> 
   </tr> 
   <tr> 
-   <td> timezone<br /> </td> 
+   <td> タイムゾーン<br /> </td> 
    <td> タイムゾーン：参照 <a href="../../installation/using/time-zone-management.md" target="_blank">タイムゾーン管理</a>.<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> </td> 
@@ -1618,12 +1618,12 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> ブール値<br /> </td> 
    <td> true <br /> </td> 
   </tr> 
-  <tr> 
+  <!--tr> 
    <td> statServerVersion<br /> </td> 
-   <td> 使用するプロトコルのバージョン：通信プロトコルのバージョン（v5.11 および 6.0.2 サーバーの場合は 1、v6.1 サーバーの場合は 2）。<br /> </td> 
-   <td> 文字列<br /> </td> 
-   <td> 未定義の場合は、最新バージョンが使用されます。 <br /> </td> 
-  </tr> 
+   <td> Protocol version used: communication protocol version (1 for a v5.11 and 6.0.2 server, 2 for a v6.1 server).<br /> </td> 
+   <td> String<br /> </td> 
+   <td> If undefined, the latest version is used. <br /> </td> 
+  </tr--> 
   <tr> 
    <td> useMomentum<br /> </td> 
    <td> "true"に設定した場合、インスタンスは <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">拡張 MTA</a>.<br /> </td> 

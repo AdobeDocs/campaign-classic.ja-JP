@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1139'
 ht-degree: 32%
 
 ---
@@ -64,7 +64,7 @@ Adobe Campaignアプリケーションサーバー (nlserver web) の起動に�
 
 1. コンソールインストールプログラムを含むパッケージを選択します。
 
-   このファイルは、v7 の場合は setup-client-7.X.XXXX.exe、v6.1 の場合は setup-client-6.X.XXXX.exe と呼ばれます。X はAdobe Campaignのサブバージョン、XXXX はビルド番号です。
+   このファイルは setup-client-7.X.XXXX.exe と呼ばれ、X はAdobe Campaignのサブバージョン、XXXX はビルド番号です。
 
 1. このパッケージを、（ハイブリッドインストールのマーケティングサーバーの）Adobe Campaignインストールフォルダーの/datakit/nl/eng/jsp の下にコピーして貼り付けます。
 

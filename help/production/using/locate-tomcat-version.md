@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ Adobe Campaignのインスタンス内で埋め込み Tomcat のバージョン�
 
 1. 次に移動： *\tomcat-7\lib* Adobe Campaignインストールフォルダー内のサブフォルダー ( 例： *C:\Program Files\ [Installation_folder]* Windows の場合、または */usr/local/neolane/nl6* （Linux の場合）。
 
-   Tomcat v6 を使用して古いバージョンのAdobe Campaignを実行している場合は、 *\tomcat-6\lib*.
-
 1. ファイルをコピーします。 *catalina.jar* を外部の一時フォルダー（デスクトップなど）に追加し、拡張子を.jar から.zip に変更します。
 
 1. コピーしたファイルを解凍します。 その結果、多くのサブフォルダーとファイルが作成されます。
@@ -64,5 +62,4 @@ Adobe Campaignのインスタンス内で埋め込み Tomcat のバージョン�
 >[!NOTE]
 >
 >埋め込み Tomcat のメジャーバージョンは、Adobe Campaignのメジャーバージョンが変更された場合にのみアップグレードされます（旧バージョンは正式にはサポートされなくなっていますが、一部のお客様は引き続きこれらのバージョンを実行している可能性があります）。
->
->例えば、Adobe Campaign v6.02 では常に Tomcat v6.x が使用されます。
+

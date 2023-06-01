@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 4%
+source-wordcount: '910'
+ht-degree: 5%
 
 ---
 
@@ -171,15 +171,3 @@ Adobe Campaignでは特に、この制限を超えるファイルをアップロ
 >
 >この IIS オプションの詳細については、 [公式ドキュメント](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits).
 
-### HTTP エラーメッセージ表示の設定 {#configuring-http-error-message-display}
-
-6.1 バージョンの IIS サーバーを使用している場合、メッセージに望ましくないHTMLコードが表示されるので、生成されたエラーメッセージを読み取るのが困難な場合があります。
-
-この問題を修正してエラーを正しく表示するには、次の設定を適用します。
-
-1. を使用して IIS を開きます。 **[!UICONTROL スタート/Campaign コントロールパネル/管理ツール]** メニュー
-1. 内 **接続** ウィンドウで、Adobe Campaignインストール用に作成されたサイトを選択し、ダブルクリックします。 **設定エディター** をクリックします。
-1. 内 **セクション** ドロップダウンリストで、「 **system.webServer** > **httpErrors**.
-1. を選択します。 **PassThrough** 値を **existingResponse** 行
-
-![](assets/ins_iis_httperrors.png)

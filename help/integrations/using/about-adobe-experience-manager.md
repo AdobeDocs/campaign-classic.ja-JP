@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
-source-wordcount: '150'
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+workflow-type: tm+mt
+source-wordcount: '132'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,5 @@ Adobe Campaign で E メールまたはランディングページを編集中�
 * Adobe Experience Manager **オーサー**&#x200B;インスタンス
 * Adobe Experience Manager **パブリッシュ**&#x200B;インスタンス
 * Adobe Campaign インスタンス
-
-Adobe Campaign は、Adobe Experience Manager 6.1、6.2、6.3、6.4 および 6.5 と互換性があります。以下の節で、統合の概要について説明します。
 
 詳しくは、[Adobe Experience Manager のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/classic-ui/campaign/classic-personalization-ac-campaign.html?lang=ja)を参照してください。

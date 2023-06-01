@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1079'
 ht-degree: 5%
 
 ---
@@ -165,7 +165,7 @@ ht-degree: 5%
 
    詳しくは、 [Campaign サーバーの設定](../../installation/using/configuring-campaign-server.md).
 
-1. クライアントコンソールセットアッププログラム (**setup-client-7.XX**, **YYYY.exe** v7 または **setup-client-6.XX**, **YYYY.exe** （v6.1 の場合） **/datakit/nl/eng/jsp** フォルダー。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)
+1. クライアントコンソールセットアッププログラムをコピーする **setup-client-7.XXX.exe** から **/datakit/nl/eng/jsp** フォルダー。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)
 
 1. 次の節で説明されている Web サーバー統合手順 (IIS、Apache) に従います。
 

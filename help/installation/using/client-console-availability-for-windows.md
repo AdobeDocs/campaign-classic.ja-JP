@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '335'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ Adobe Campaignユーザーが、作成および設定したインスタンスに
 
 1. コンソールインストールプログラムを含むパッケージを選択します。
 
-   このファイルの名前はです。 `setup-client-7.X.XXXX.exe` v7 または `setup-client-6.X.XXXX.exe` v6.1 の場合は、 `X` はAdobe Campaignのサブバージョンで、 `XXXX` はビルド番号です。
+   このファイルの名前はです。 `setup-client-7.X.XXXX.exe`で、 `X` はAdobe Campaignのサブバージョンで、 `XXXX` はビルド番号です。
 
 1. このパッケージを、次の場所にある（ハイブリッドインストールの場合はマーケティングサーバーの）Adobe Campaignインストールフォルダーにコピー&amp;ペーストします。 **/datakit/nl/eng/jsp**.
 1. Adobe Campaignサーバーを起動します。

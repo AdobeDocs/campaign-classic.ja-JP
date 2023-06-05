@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Campaign と Adobe Experience Cloud の間の接続を有効化するに�
 
 >[!CAUTION]
 >
->この機能は、Adobe Experience Manager 6.4 以降では廃止されています。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html#removed-features)。
+>この機能は、Adobe Experience Manager 6.4 以降では廃止されています。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=ja#removed-features)。
 
 AEM Assets と Adobe Campaign を統合するには、まず Adobe Experience Manager と Adobe Campaign 間の統合を設定する必要があります。この設定には、主に次のことが必要になります。
 

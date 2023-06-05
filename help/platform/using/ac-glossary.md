@@ -6,9 +6,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5974'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1012,7 +1012,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 トランザクションメッセージングの詳細は[こちら](../../message-center/using/about-transactional-messaging.md)。
 +++
 
-&lt;! — ここで役に立つ??—>
+&lt;!------- ここで役に立ちます??----->
 +++**トリガーキャンペーン**
 
 トリガーキャンペーンとは、ワークフローで API リクエストを受け取ったときに実行されるキャンペーンです。 API 呼び出しは、ワークフローの実行を開始するワークフローでシグナルアクティビティによって消費されます。

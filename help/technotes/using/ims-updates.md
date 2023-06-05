@@ -5,7 +5,7 @@ description: Campaign - IMS の更新
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
 ht-degree: 100%
 
@@ -93,4 +93,4 @@ Internet Explorer のバージョンを更新しなかった場合は、次の�
 * [ユーザーへの新しいクライアントコンソールの公開](../../installation/using/client-console-availability-for-windows.md)
 * [Campaign クライアントコンソールのインストール](../../installation/using/installing-the-client-console.md)
 * [Adobe ソフトウェア配布へのアクセス](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)
-* [Campaign Classic ビルドのダウンロード](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Campaign Classic ビルドのダウンロード](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html)

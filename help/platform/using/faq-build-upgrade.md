@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1998'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 * ビルドのアップグレード：ビルド 9342 から 9342 より大きいビルドに移行します。例：v7.1 ビルド 9342 -> v7.1 ビルド 9342
 
-* バージョンのアップグレード：バージョン 6 からそれ以降のバージョンに移行します。  例：v6.1.1 ビルド 8666～v7.1 ビルド 9342。
+* バージョンのアップグレード：バージョン 6 からそれ以降のバージョンに移行します。例：v6.1.1 ビルド 8666 -> v7.1 ビルド 9342。
 
 ## これらのアップデートの前にデータをバックアップする必要がありますか？
 
@@ -108,7 +108,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 以下の[ビルドアップグレードのチェックリスト](#check-list)とテスト計画を確認し、これらのテストを実行できるリソースがアップグレード完了の 24～48 時間以内に利用可能であることを確認します。
 
-詳しくは、 [この節を参照してください。](../../production/using/build-upgrade.md).
+詳しくは、[この節](../../production/using/build-upgrade.md)を参照してください。
 
 ## 夜間や営業時間外にビルドアップグレードを実行することはできますか？
 

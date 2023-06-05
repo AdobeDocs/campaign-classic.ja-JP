@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1660'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ Web フォームは、Web アプリケーションプロパティの「**[!UICON
 ?lang=xx
 ```
 
-言語が URL の最初または唯一のパラメーターの場合。例： **https://myserver/webApp/APP34**
+言語が URL の最初または唯一のパラメーターの場合。例：**https://myserver/webApp/APP34**
 
 ```
 &lang=xx

@@ -6,10 +6,10 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Email Design
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
-source-wordcount: '799'
-ht-degree: 100%
+source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+workflow-type: tm+mt
+source-wordcount: '760'
+ht-degree: 97%
 
 ---
 
@@ -43,11 +43,7 @@ Adobe Campaign は、日本の携帯電話向けに特化した E メールフ�
 
 >[!NOTE]
 >
->メッセージを作成する際には、各オペレーター固有の制限事項を考慮する必要があります。以下を参照してください。
->
->* DoCoMo については、[このページ](https://www.nttdocomo.co.jp/service/developer/make/content/deco_mail/index.html)を参照してください。
->* KDDI au については、[このページ](https://www.au.com/ezfactory/tec/spec/decorations/template.html)を参照してください。
->* Softbank については、[このページ](https://www.support.softbankmobile.co.jp/partner/home_tech3/index.cfm)を参照してください。
+>メッセージを作成する際は、各オペレーターに固有の制限事項を考慮する必要があります。 製品ドキュメントを参照してください。
 
 
 ## メールコンテンツのテスト {#testing-the-email-content}

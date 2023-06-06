@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
 workflow-type: tm+mt
-source-wordcount: '1824'
-ht-degree: 73%
+source-wordcount: '1786'
+ht-degree: 72%
 
 ---
 
@@ -101,7 +101,7 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 
 | オプション | 説明 |
 |---|---|
-| TD_MAX_SESSIONS | オペレータージョブに対してTeradataParallel Transporter が取得できるログオンセッションの最大数を指定します。 <br>詳しくは、[このページ](https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/ds2ref/p1naft0um1kn3vn1ubgkrjdf7c3a.html)を参照してください。 |
+| TD_MAX_SESSIONS | オペレータージョブに対してTeradataParallel Transporter が取得できるログオンセッションの最大数を指定します。 |
 | TimeZoneName | サーバーのタイムゾーンの名前。 |
 | 文字セット | teradata文字セットの設定に使用。 <br>詳しくは、[このページ](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001)を参照してください。 |
 | IANAAppCodePage | ODBC アプリケーションコードページ。 <br>詳しくは、 [このページ](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page) |
@@ -228,7 +228,7 @@ sha2 をインストールするには、以下を実行します。
 
 ### UDF_UTF16TO8 のインストール {#UDF-UTF16TO8-installation}
 
-Adobe Campaign インスタンスで udf_utf16to8 関数を使用する場合は、この[ページ](https://downloads.teradata.com/download/tools/unicode-tool-kit)の **Teradata unicode ツールキット**（utk_release1.7.0.0.zip）から Teradata データベースにユーザーモード関数をインストールする必要があります。
+Adobe Campaignインスタンスで udf_utf16to8 関数を使用する場合は、 **Teradataunicode ツールキット**.
 
 ダウンロードファイルの sha1 は「e58235f434f52c71316a577cb48e20b97d24f470」です。
 

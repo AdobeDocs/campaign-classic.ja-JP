@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1137'
 ht-degree: 32%
 
 ---
@@ -40,7 +40,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 Campaign Classic 7.3 ビルドバージョン以降、コンソールのインストールには Microsoft Edge WebView2 ランタイムのインストールが必要です。
 
-WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。システム上にまだ存在しない場合は、Campaign Classicコンソールインストーラが、次の場所からダウンロードするように求めます。 [Microsoft Developer Web サイト](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp). Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。別のブラウザーを使用してリンクにアクセスしてください。
+WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。システム上にまだ存在しない場合は、Campaign Classicコンソールインストーラが、次の場所からダウンロードするように求めます。 [Microsoft Developer Web サイト](https://www.adobe.com/go/acc-ms-webview2-runtime-download). Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。別のブラウザーを使用してリンクにアクセスしてください。
 
 ## Adobeがホストする実装 {#hosted-customers}
 
@@ -48,7 +48,7 @@ WebView は、Windows 11 オペレーティングシステムの一部として�
 
 1. Adobeは、直接デプロイできます。 コンソールを更新すると、ポップアップウィンドウで最新のクライアントコンソールバージョンをダウンロードするように求められます。
 
-1. からクライアントコンソールにダウンロードできます。 [ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)
+1. からクライアントコンソールにダウンロードできます。 [ソフトウェア配布](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html)
 
    **ユーザーが更新を完了するには、管理者アクセス権が必要です。 ユーザーに管理者権限がない場合、システム管理者はすべてのクライアントコンソールにデプロイする必要があります**
 
@@ -132,7 +132,7 @@ If **[!UICONTROL 今後この質問をしない]**  が選択されている場�
 
 1. URL 経由で Adobe Campaign アプリケーションサーバーへの接続を指定します。 DNS、マシンのエイリアス、または IP アドレスを使用します。
 
-   例えば、[`https://<machine>.<domain>.com`](https://myserver.adobe.com) タイプの URL を使用できます。
+   例えば、`https://<machine>.<domain>.com` タイプの URL を使用できます。
 
 1. Adobe IMSが組織に対して設定されている場合は、「 」オプションをオンにします。 **[!UICONTROL Adobe IDとの接続]**
 

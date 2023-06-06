@@ -7,10 +7,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '1684'
-ht-degree: 100%
+source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+workflow-type: tm+mt
+source-wordcount: '1508'
+ht-degree: 96%
 
 ---
 
@@ -211,24 +211,24 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 19.1 Spring リリースより、Adobe Campaign は次の FDA サーバーへの対応を終了します。
 
-* PostgreSQL 9.3。[詳細情報](https://www.postgresql.org/support/versioning)
-* MySQL 5.5。[詳細情報](https://www.fromdual.com/support-for-mysql-from-oracle)
-* DB2 9.5。[詳細情報](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
-* Teradata 14 – 14.1。[詳細情報](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)
+* PostgreSQL 9.3.
+* MySQL 5.5。
+* DB2 9.5.
+* Teradata14 - 14.1
 
-Campaign Classic は、Federated Data Access（FDA）の次のサーバーと互換性がありません。
+Campaign Classic は、Federated Data Access（FDA）の次のサーバーと互換性がありません。より新しいバージョンまたはシステムを使用してください。
 
-* DB2 UDB 9.5、9.7。より新しいバージョンの DB2 は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
-* Oracle 9i、10G R2。より新しいバージョンの Oracle は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
-* PostgreSQL の 9.6 までのバージョンは、提供が終了しました。 より新しいバージョンの PostgreSQL は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://www.postgresql.org/support/versioning)
-* MSSQL 2000、2005、2008 R2。より新しいバージョンの SQL Server は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://support.microsoft.com/ja-jp/lifecycle/search/1044)
-* MySQL 5.1。より新しいバージョンの MySQL は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://en.wikipedia.org/wiki/InfiniDB)
-* InfiniDB は提供が終了しました（EOL）。[詳細情報](https://www.mysql.com/jp/support/)
-* Teradata 13、13.1。より新しいバージョンの Teradata は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://www.info.teradata.com/download.cfm?ItemID=1007255)
-* Netezza 6.02、7.0。Netezza は提供が終了しました（EOL）。[詳細情報](https://en.wikipedia.org/wiki/Netezza)
-* AsterData 5.0。AsterData は提供が終了しました（EOL）。[詳細情報](https://en.wikipedia.org/wiki/Aster_Data_Systems)
-* Sybase IQ 15.2、15.4、15.5、Sybase ASE 15.0。より新しいバージョンの Sybase は、Federated Data Access（FDA）を通じてサポートされます。[詳細情報](https://sites.google.com/site/dbatipsandtricks/time-tracker)
-* HiveSQL 経由の Hadoop：Hadoop 2.7.3、HiveSQL 1.2.1。Adobe Campaign Classic は、Federated Data Access（FDA）を通じて、HiveSQL 経由の Hadoop の一覧に示されたバージョンを引き続きサポートしますが、これらのバージョンは、HortonWorks（HDP 2.4.X、2.5.x、2.6.x）および HDInsight 3.4（HDP 2.4）、3.5（HDP 2.5）、3.6（HDP 2.6）と統合されます。
+* DB2 UDB 9.5、9.7。
+* Oracle 9i、10G R2。
+* PostgreSQL の 9.6 までのバージョンは、提供が終了しました。 
+* MSSQL 2000、2005、2008 R2。
+* MySQL 5.1.
+* InfiniDB は提供が終了しました（EOL）。
+* Teradata13, 13.1.
+* Netezza 6.02、7.0。Netezza は提供が終了しました（EOL）。
+* AsterData 5.0。AsterData は提供が終了しました（EOL）。
+* sybase IQ15.2、15.4、15.5、Sybase ASE 15.0。
+* HiveSQL を使用したhadoop:Hadoop2.7.3、HiveSQL 1.2.1。Adobe Campaign Classicは、Federated Data Access(FDA) を通じて HiveSQL を介して、一覧に表示されているHadoopのバージョンを引き続きサポートしますが、これらのバージョンは次と統合されます。HortonWorks(HDP 2.4.X、2.5.x、2.6.x) および HDInsight 3.4(HDP 2.4)、3.5(HDP 2.5)、3.6(HDP 2.6)
 
 **RDBMS サーバー**
 

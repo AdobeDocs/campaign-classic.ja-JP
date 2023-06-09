@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+source-git-commit: d9976b904d116b1f4deb9fde7842ad64234c7c8a
 workflow-type: tm+mt
-source-wordcount: '3483'
+source-wordcount: '3493'
 ht-degree: 6%
 
 ---
@@ -83,20 +83,20 @@ Adobe Campaignには、Adobe Campaignクライアントコンソールで、接�
 
   >[!NOTE]
   >
-  > Adobe Campaignから E メールを送信する際に、 **送信者のアドレス** メールボックスは監視されておらず、マーケティングユーザーはこのメールボックスにアクセスできません。 Adobe Campaignでは、このメールボックスで受信したメールの自動返信や自動転送もできません。
+  > Adobe Campaignから E メールを送信する際に、 **送信者のアドレス** メールボックスは監視されておらず、マーケティングユーザーはこのメールボックスにアクセスできません。 Adobe Campaignでは、このメールボックスで受信したメールの自動返信や自動転送もできません。 配信品質のベストプラクティスの詳細を説明します [このドキュメント](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html){_blank}.
 
 * **[!UICONTROL 返信アドレスのテキスト]** :受信者が **[!UICONTROL 返信]** 」ボタンをクリックします。
 * **[!UICONTROL 返信アドレス]** :受信者が **[!UICONTROL 返信]** 」ボタンをクリックします。
 
   >[!NOTE]
   >
-  >の目的 **返信アドレス** フィールドは、受信者が **送信者のアドレス**.  このアドレスは、有効な電子メールアドレスであり、監視対象のメールボックスにリンクされている必要があります。  このメールボックスは、顧客がホストする必要があります。  例えば、メールが読まれ応答されるcustomer-care@customer.comなどのサポートメールボックスです。
+  >の目的 **返信アドレス** フィールドは、受信者が **送信者のアドレス**.  このアドレスは、有効な電子メールアドレスで、監視対象のメールボックスにリンクされ、顧客がホストする必要があります。  例えば、メールが読まれ応答されるcustomer-care@customer.comなどのサポートメールボックスです。
 
 * **[!UICONTROL エラーアドレス]** :エラーが発生したメッセージの E メールアドレスを入力します。 ターゲットアドレスが存在しないことが原因でAdobe Campaignサーバーが受信した E メールを含む、バウンスメールの処理に使用される技術的なアドレスです。
 
   >[!NOTE]
   >
-  > このアドレスは、有効な電子メールアドレスであり、監視対象のメールボックスにリンクされている必要があります。 このメールボックスは、顧客がホストする必要があります。 バウンスメールボックス ( 例：errors@customer.com) の場合があります。
+  > このアドレスは、有効な電子メールアドレスで、監視対象のメールボックスにリンクされ、顧客がホストする必要があります。 バウンスメールボックス ( 例：errors@customer.com) の場合があります。
 
 
 これに加えて、 **マスク** 送信者のアドレスとエラーアドレスに対して認証済み。 必要に応じて、これらのマスクをコンマで区切ります。 この設定はオプションです。 フィールドに入力すると、Adobe Campaignは配信時（分析中に、アドレスに変数が含まれていない場合は分析中）にアドレスが有効であることを確認します。 この動作モードでは、配信の問題を引き起こす可能性のあるアドレスを一切使用しないトリガーにします。 配信アドレスは、配信サーバー上で設定する必要があります。

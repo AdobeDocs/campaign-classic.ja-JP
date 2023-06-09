@@ -6,8 +6,8 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability, Email Rendering, Proofs
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -106,6 +106,7 @@ ht-degree: 100%
 このオプションを有効にすると、配信準備がデータベース内で直接おこなわれ、分析時間が大幅に短縮されます。
 
 現在、このオプションは、次の条件を満たす場合にのみ使用できます。
+
 * 配信は E メールである必要があります。現時点では、その他のチャネルはサポートされていません。
 * ミッドソーシングや外部ルーティングは使用できません。一括配信ルーティングタイプのみ使用できます。**[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL 一般]**」タブで、使用するルーティングを確認できます。
 * 外部ファイルからの母集団をターゲットに指定することはできません。単一の配信の場合、**[!UICONTROL E メールパラメーター]**&#x200B;から&#x200B;**[!UICONTROL 宛先]**&#x200B;リンクをクリックし、「**[!UICONTROL データベースで定義]**」オプションが選択されていることを確認します。ワークフローで使用される配信の場合、「**[!UICONTROL 配信]**」タブにおいて受信者が&#x200B;**[!UICONTROL インバウンドイベントで指定]**&#x200B;されていることを確認します。
@@ -136,7 +137,6 @@ ht-degree: 100%
 >* 使用可能な検証モードについて詳しくは、[承認モードの変更](steps-validating-the-delivery.md#changing-the-approval-mode)を参照してください。
 >* 配達確認ターゲットの設定について詳しくは、 [特定の配達確認ターゲットの定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)を参照してください。
 >
-
 
 配達確認を送信するには、次の手順に従います。
 

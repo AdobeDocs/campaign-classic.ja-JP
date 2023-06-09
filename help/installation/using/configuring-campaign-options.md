@@ -7,16 +7,14 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
 workflow-type: tm+mt
-source-wordcount: '3994'
+source-wordcount: '3996'
 ht-degree: 24%
 
 ---
 
 # Campaign Classic のオプションのリスト{#configuring-campaign-options}
-
-
 
 この **[!UICONTROL 管理/プラットフォーム/オプション]** ノードでは、Adobe Campaignオプションを設定できます。 Campaign のインストール時に組み込まれるものもあれば、必要に応じて手動で追加できるものもあります。 使用可能なオプションは、インスタンスと共にインストールされているパッケージによって異なります。
 
@@ -26,7 +24,6 @@ ht-degree: 24%
 >* このページに記載されていないオプションは内部のみで、 **は変更できません**.
 >
 >* Adobe Campaignオプションの変更または更新は、エキスパートユーザーのみが実行できます。
-
 
 ## 配信 {#delivery}
 
@@ -149,11 +146,11 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultReplyToAddr</span> <br /> </td> 
-   <td> ユーザーが空のままにした場合、インスタンスのレベルで E メール配信に使用されるデフォルトの「返信」E メールアドレス。<br /> </td> 
+   <td> ユーザーが空のままにした場合、インスタンスのレベルで E メール配信に使用されるデフォルトの「返信先」E メールアドレス。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
-   <td> 顧客の共通名. 一部の警告メッセージで、受信者に表示される際に使用されます。<br /> 「このメッセージは、*****や関連会社と連絡を取っていたからです。 *****"からのメッセージを受信しなくなる。<br /> </td> 
+   <td> 顧客の共通名. 一部の警告メッセージで、受信者に表示される際に使用されます。<br /> 「組織や関連会社と連絡を取っていたので、このメッセージを受け取っています。 「組織」からのメッセージを受信しないようにする<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
@@ -161,7 +158,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ReplyToName</span> <br /> </td> 
-   <td> ユーザーが空のままにした場合に E メールの配信に使用されるインスタンスのレベルのデフォルトの「返信」E メールラベル。<br /> </td> 
+   <td> ユーザーが空のままにした場合に E メール配信に使用されるインスタンスのレベルのデフォルトの「返信先」E メールラベル。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_RetryCount</span> <br /> </td> 

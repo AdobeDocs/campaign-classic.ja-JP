@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 62%
@@ -15,8 +15,6 @@ ht-degree: 62%
 ---
 
 # サーバーのセキュリティ設定 {#server-configuration}
-
-
 
 ## ファイルアップロードの保護
 
@@ -76,9 +74,9 @@ Campaign のインスタンスが JavaScript コード（ワークフローな�
 * HSTS、X-FRAME-OPTIONS、CSP などのヘッダーを追加できます。
 * 本番環境に適用する前に、テスト環境でテストする必要があります。
 
-   >[!IMPORTANT]
-   >
-   >特定のヘッダーを追加すると、Adobe Campaign で異常が発生する場合があります。
+  >[!IMPORTANT]
+  >
+  >特定のヘッダーを追加すると、Adobe Campaign で異常が発生する場合があります。
 
 Adobe Campaignでは、 `<dbcnx .../>` 要素。 この機能は使用しないでください。
 

@@ -8,16 +8,14 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
 workflow-type: tm+mt
-source-wordcount: '3290'
+source-wordcount: '3483'
 ht-degree: 6%
 
 ---
 
 # インスタンスのデプロイ{#deploying-an-instance}
-
-
 
 >[!NOTE]
 >
@@ -25,7 +23,7 @@ ht-degree: 6%
 
 ## デプロイメントウィザード {#deployment-wizard}
 
-Adobe Campaignクライアントコンソールで使用できるグラフィカルウィザードを使用して、接続先のインスタンスのパラメーターを定義できます。
+Adobe Campaignには、Adobe Campaignクライアントコンソールで、接続先のインスタンスのパラメーターを定義するためのグラフィカルアシスタントが用意されています。
 
 デプロイウィザードを起動するには、「 」を選択します。 **ツール/詳細設定/デプロイウィザード**.
 
@@ -80,13 +78,36 @@ Adobe Campaignクライアントコンソールで使用できるグラフィカ
 
 次のパラメーターを指定します。
 
-* **[!UICONTROL 送信者名]** :送信者の名前
-* **[!UICONTROL 送信者のアドレス]** :送信者のアドレス
-* **[!UICONTROL 返信アドレスのテキスト]** :受信者が **[!UICONTROL 返信]** 電子メールクライアントソフトウェアのボタン
-* **[!UICONTROL 返信アドレス]** :受信者が **[!UICONTROL 返信]** 電子メールクライアントソフトウェアのボタン
-* **[!UICONTROL エラーアドレス]** :エラーが発生したメッセージの E メールアドレス。 ターゲットアドレスが存在しないことが原因でAdobe Campaignサーバーが受信した E メールを含む、バウンスメールの処理に使用される技術的なアドレスです。
+* **[!UICONTROL 送信者名]** :送信者の名前を入力します。
+* **[!UICONTROL 送信者のアドレス]** :送信者の E メールアドレスを入力します。
+
+  >[!NOTE]
+  >
+  > Adobe Campaignから E メールを送信する際に、 **送信者のアドレス** メールボックスは監視されておらず、マーケティングユーザーはこのメールボックスにアクセスできません。 Adobe Campaignでは、このメールボックスで受信したメールの自動返信や自動転送もできません。
+
+* **[!UICONTROL 返信アドレスのテキスト]** :受信者が **[!UICONTROL 返信]** 」ボタンをクリックします。
+* **[!UICONTROL 返信アドレス]** :受信者が **[!UICONTROL 返信]** 」ボタンをクリックします。
+
+  >[!NOTE]
+  >
+  >の目的 **返信アドレス** フィールドは、受信者が **送信者のアドレス**.  このアドレスは、有効な電子メールアドレスであり、監視対象のメールボックスにリンクされている必要があります。  このメールボックスは、顧客がホストする必要があります。  例えば、メールが読まれ応答されるcustomer-care@customer.comなどのサポートメールボックスです。
+
+* **[!UICONTROL エラーアドレス]** :エラーが発生したメッセージの E メールアドレスを入力します。 ターゲットアドレスが存在しないことが原因でAdobe Campaignサーバーが受信した E メールを含む、バウンスメールの処理に使用される技術的なアドレスです。
+
+  >[!NOTE]
+  >
+  > このアドレスは、有効な電子メールアドレスであり、監視対象のメールボックスにリンクされている必要があります。 このメールボックスは、顧客がホストする必要があります。 バウンスメールボックス ( 例：errors@customer.com) の場合があります。
+
 
 これに加えて、 **マスク** 送信者のアドレスとエラーアドレスに対して認証済み。 必要に応じて、これらのマスクをコンマで区切ります。 この設定はオプションです。 フィールドに入力すると、Adobe Campaignは配信時（分析中に、アドレスに変数が含まれていない場合は分析中）にアドレスが有効であることを確認します。 この動作モードでは、配信の問題を引き起こす可能性のあるアドレスを一切使用しないトリガーにします。 配信アドレスは、配信サーバー上で設定する必要があります。
+
+>[!NOTE]
+>
+>* これらの設定は、Campaign プラットフォームオプションに保存されます。 [詳細情報](../../installation/using/configuring-campaign-options.md)
+> 
+>* マルチブランディング設定の場合、エラーアドレスを適応させ、E メールルーティング外部アカウントからこの設定を上書きすることができます。 [詳細情報](../../installation/using/external-accounts.md#email-routing-external-account)
+>
+
 
 ### アドレスに使用できる文字 {#characters-authorized-in-addresses}
 
@@ -183,15 +204,15 @@ Web トラッキング（トラッキングモード、タグの作成と挿入�
 
 * デプロイウィザードのこのページで入力した外部 URL（セキュリティで保護されているかどうかに関わらず）に関する情報を使用して、新しい URL を作成します。 この情報に加えて、変更されたリンクには次の情報が含まれます。配信の識別子、受信者および URL。
 
-   トラッキング情報は、トラッキングサーバー上のAdobe Campaignによって収集され、受信者プロファイルと配信にリンクされたデータ ( **[!UICONTROL トラッキング]** 」タブ ) を参照してください。
+  トラッキング情報は、トラッキングサーバー上のAdobe Campaignによって収集され、受信者プロファイルと配信にリンクされたデータ ( **[!UICONTROL トラッキング]** 」タブ ) を参照してください。
 
-   内部 URL に関する情報は、Adobe Campaignアプリケーションサーバーがトラッキングサーバーに接続する場合にのみ使用されます。
+  内部 URL に関する情報は、Adobe Campaignアプリケーションサーバーがトラッキングサーバーに接続する場合にのみ使用されます。
 
-   詳しくは、 [トラッキングサーバー](#tracking-server).
+  詳しくは、 [トラッキングサーバー](#tracking-server).
 
 * URL を設定したら、トラッキングを有効にする必要があります。 これをおこなうには、インスタンスをトラッキングサーバーに登録する必要があります。
 
-   詳しくは、 [トラッキングを保存中](#saving-tracking).
+  詳しくは、 [トラッキングを保存中](#saving-tracking).
 
 ### トラッキングサーバー {#tracking-server}
 
@@ -203,7 +224,7 @@ Web トラッキング（トラッキングモード、タグの作成と挿入�
 * **[!UICONTROL 外部 URL]** および/または **[!UICONTROL 外部 URL を保護]** :送信する E メールに使用するリダイレクト URL を入力します。
 * **[!UICONTROL 内部 URL]** :ログの収集と URL のアップロードのために、Adobe Campaignサーバーがトラッキングサーバーに接続する際にのみ使用される URL。 インスタンスに関連付ける必要はありません。
 
-   URL を指定しない場合、トラッキング URL がデフォルトで使用されます。
+  URL を指定しない場合、トラッキング URL がデフォルトで使用されます。
 
 ミッドソーシングアーキテクチャを使用して、トラッキング管理を外部化できます。 手順は次のとおりです。
 
@@ -337,6 +358,13 @@ URL 検索にリンクされたパラメーター **は変更できません** �
 
 Adobe Campaignでは、これらの 3 つの URL を区別して、複数のプラットフォームにわたって負荷を分散できます。
 
+
+>[!NOTE]
+>
+>* これらの設定は、Campaign プラットフォームオプションに保存されます。 [詳細情報](../../installation/using/configuring-campaign-options.md)
+>* マルチブランディング設定の場合、ミラーページの URL を適応させ、E メールルーティング外部アカウントからこの設定を上書きすることができます。 [詳細情報](../../installation/using/configuring-campaign-options.md)
+
+
 ## パブリックリソースの管理 {#managing-public-resources}
 
 >[!IMPORTANT]
@@ -365,7 +393,7 @@ Adobe Campaignでは、これらの 3 つの URL を区別して、複数のプ�
 
 * 電子メール画像の場合、 **https://** server **/res/img** URL。
 
-   この値は、配信ごとに上書きできます。
+  この値は、配信ごとに上書きできます。
 
 * パブリックリソースの場合は URL **https://** server **/res/**&#x200B;インスタンス&#x200B;****場所&#x200B;**インスタンス**は、トラッキングインスタンスの名前です。
 
@@ -390,38 +418,38 @@ Adobe Campaignでは、これらの 3 つの URL を区別して、複数のプ�
 
 * トラッキングサーバー
 
-   リソースは異なるトラッキングサーバーに自動的にコピーされます。 これらは、ステップで設定されます [トラッキング設定](#tracking-configuration).
+  リソースは異なるトラッキングサーバーに自動的にコピーされます。 これらは、ステップで設定されます [トラッキング設定](#tracking-configuration).
 
 * その他のAdobe Campaignサーバー
 
-   リソースをコピーする他のAdobe Campaignサーバーを 1 つ使用することもできます。
+  リソースをコピーする他のAdobe Campaignサーバーを 1 つ使用することもできます。
 
-   サーバー側で、専用のAdobe Campaignサーバーを使用するには、次のコマンドを使用して新しいインスタンスを作成する必要があります。
+  サーバー側で、専用のAdobe Campaignサーバーを使用するには、次のコマンドを使用して新しいインスタンスを作成する必要があります。
 
-   ```
-   nlserver config -addtrackinginstance:<trackingA>/<trackingA*>
-   ```
+  ```
+  nlserver config -addtrackinginstance:<trackingA>/<trackingA*>
+  ```
 
-   次に、パスワードを入力します。
+  次に、パスワードを入力します。
 
-   専用サーバーのパラメーターは、 **[!UICONTROL メディア URL]**, **[!UICONTROL パスワード]** および **[!UICONTROL インスタンス名]** フィールド。
+  専用サーバーのパラメーターは、 **[!UICONTROL メディア URL]**, **[!UICONTROL パスワード]** および **[!UICONTROL インスタンス名]** フィールド。
 
-   ![](assets/s_ncs_install_images_upload_b.png)
+  ![](assets/s_ncs_install_images_upload_b.png)
 
 * 手動公開スクリプト（パブリックリソースのみ）
 
-   ![](assets/s_ncs_install_images_upload_c.png)
+  ![](assets/s_ncs_install_images_upload_c.png)
 
-   スクリプトを使用して画像を公開できます。
+  スクリプトを使用して画像を公開できます。
 
    * 次のスクリプトを作成する必要があります。その内容は、設定によって異なります。
    * スクリプトは、次のコマンドによって呼び出されます。
 
-      ```
-      [INSTALL]/copyToFrontal.vbs "$(XTK_INSTALL_DIR)\var\<instance>\upload\" "img1,img2,img3"
-      ```
+     ```
+     [INSTALL]/copyToFrontal.vbs "$(XTK_INSTALL_DIR)\var\<instance>\upload\" "img1,img2,img3"
+     ```
 
-      場所 `[INSTALL]` は、Adobe Campaignインストールフォルダーへのアクセスパスです。
+     場所 `[INSTALL]` は、Adobe Campaignインストールフォルダーへのアクセスパスです。
 
    * UNIX の場合、スクリプトが実行可能であることを確認します。
 

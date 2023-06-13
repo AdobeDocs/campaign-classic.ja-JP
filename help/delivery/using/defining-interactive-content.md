@@ -8,7 +8,7 @@ feature: Email Design
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 source-git-commit: ae7aa6989314677a839795e8caa8ba0f95009e09
 workflow-type: ht
-source-wordcount: '1513'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

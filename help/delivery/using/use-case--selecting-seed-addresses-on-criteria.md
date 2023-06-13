@@ -6,7 +6,7 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: ad6a39f69c07662f43c39d4c96d53acccbe4a60c
 workflow-type: ht
 source-wordcount: '912'
 ht-degree: 100%
@@ -14,7 +14,6 @@ ht-degree: 100%
 ---
 
 # ユースケース：基準に基づいたシードアドレスの選択{#use-case-selecting-seed-addresses-on-criteria}
-
 
 
 配信またはキャンペーンのフレームワーク内で、「**[!UICONTROL 動的条件を編集]**」リンクをクリックすると、特定の選択条件に基づいてシードアドレスを指定できます。

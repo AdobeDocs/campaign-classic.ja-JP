@@ -6,16 +6,14 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
-source-wordcount: '2063'
-ht-degree: 100%
+source-git-commit: 9e1d49cd1ae89a3bdf42febd48c5a340fe7ec674
+workflow-type: tm+mt
+source-wordcount: '2005'
+ht-degree: 94%
 
 ---
 
 # メールコンテンツの定義 {#defining-the-email-content}
-
-
 
 ## 送信者 {#sender}
 
@@ -29,15 +27,14 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->* 送信者のアドレスは、デフォルトで返信先として使用されます。
->* ヘッダーパラメーターの値は省略できません。デフォルトでは、ヘッダーパラメーターにはデプロイウィザードの設定時に入力された値が格納されています。詳しくは、[インストールガイド](../../installation/using/deploying-an-instance.md)を参照してください。
+>* 送信者のアドレスは、デフォルトで返信に使用されます。
+>* ヘッダーパラメーターの値は省略できません。デフォルトでは、ヘッダーパラメーターにはデプロイウィザードの設定時に入力された値が格納されています。詳しくは、[こちら](../../installation/using/deploying-an-instance.md)を参照してください。
 >* 送信者のアドレスは、E メールを送信するための必須情報です（RFC 標準規格）。
 >* 入力した E メールアドレスの形式はチェックされます。
 
-
->[!IMPORTANT]
+>[!CAUTION]
 >
->インターネットアクセスプロバイダー（ISP）の迷惑メールチェック機能による誤認識を防ぐために、配信用と返信用のそれぞれのアドレスに対応した E メールアカウントを作成することをお勧めします。詳しくは、自社のシステム管理者にご相談ください。
+>配信品質の問題を回避するには、配信および返信用に指定されたアドレスに対応する E メールアカウントが存在し、監視する必要があります。 システム管理者に問い合わせてください。
 
 ## メッセージ件名 {#message-subject}
 
@@ -71,45 +68,45 @@ ht-degree: 100%
 
 * HTML コンテンツをインポートするには、「**[!UICONTROL 開く]**」ボタンを使用します。「**[!UICONTROL ソース]**」サブタブに直接ソースコードを貼り付けることもできます。
 
-   [デジタルコンテンツエディター](../../web/using/about-campaign-html-editor.md)（DCE）を使用している場合は、[コンテンツテンプレートの選択](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content)を参照してください。
+  [デジタルコンテンツエディター](../../web/using/about-campaign-html-editor.md)（DCE）を使用している場合は、[コンテンツテンプレートの選択](../../web/using/use-case--creating-an-email-delivery.md#step-3---selecting-a-content)を参照してください。
 
-   >[!IMPORTANT]
-   >
-   >HTML コンテンツは、事前に作成してから Adobe Campaign にインポートする必要があります。HTML エディターはコンテンツ作成用に設計されたものではありません。
+  >[!IMPORTANT]
+  >
+  >HTML コンテンツは、事前に作成してから Adobe Campaign にインポートする必要があります。HTML エディターはコンテンツ作成用に設計されたものではありません。
 
-   「**[!UICONTROL プレビュー]**」サブタブでは、特定の受信者向けに各コンテンツをレンダリングした結果を確認できます。コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。
+  「**[!UICONTROL プレビュー]**」サブタブでは、特定の受信者向けに各コンテンツをレンダリングした結果を確認できます。コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。
 
-   ツールバーのボタンでは、標準的なアクションや HTML ページ用の書式設定パラメーターを使用できます。
+  ツールバーのボタンでは、標準的なアクションや HTML ページ用の書式設定パラメーターを使用できます。
 
-   ![](assets/s_ncs_user_wizard_email01_138.png)
+  ![](assets/s_ncs_user_wizard_email01_138.png)
 
-   画像をメッセージに挿入する場合は、ローカルファイルを読み込んで挿入するか、Adobe Campaign の画像ライブラリから挿入できます。そのためには、**[!UICONTROL 画像]**&#x200B;アイコンをクリックし、適切なオプションを選択します。
+  画像をメッセージに挿入する場合は、ローカルファイルを読み込んで挿入するか、Adobe Campaign の画像ライブラリから挿入できます。そのためには、**[!UICONTROL 画像]**&#x200B;アイコンをクリックし、適切なオプションを選択します。
 
-   ![](assets/s_ncs_user_wizard_email01_18.png)
+  ![](assets/s_ncs_user_wizard_email01_18.png)
 
-   ライブラリ画像には、フォルダーツリー内の&#x200B;**[!UICONTROL リソース／オンライン／パブリックリソース]**&#x200B;フォルダーからアクセスできます。[画像の追加](#adding-images)も参照してください。
+  ライブラリ画像には、フォルダーツリー内の&#x200B;**[!UICONTROL リソース／オンライン／パブリックリソース]**&#x200B;フォルダーからアクセスできます。[画像の追加](#adding-images)も参照してください。
 
-   ツールバーの最後のボタンは、パーソナライゼーションフィールドを挿入するボタンです。
+  ツールバーの最後のボタンは、パーソナライゼーションフィールドを挿入するボタンです。
 
-   >[!NOTE]
-   >
-   >パーソナライゼーションフィールドの使用方法については、[パーソナライゼーションについて](about-personalization.md)を参照してください。
+  >[!NOTE]
+  >
+  >パーソナライゼーションフィールドの使用方法については、[パーソナライゼーションについて](about-personalization.md)を参照してください。
 
-   ページの下部にあるタブでは、作成されるページの HTML コードや、メッセージにパーソナライゼーションを含めたレンダリング結果を表示して確認できます。これらを表示するには、「**[!UICONTROL プレビュー]**」をクリックし、ツールバーの&#x200B;**[!UICONTROL パーソナライゼーションをテスト]**&#x200B;ボタンを使用して受信者を選択します。定義済みターゲットの中から受信者を選択することも、別の受信者を指定することもできます。
+  ページの下部にあるタブでは、作成されるページの HTML コードや、メッセージにパーソナライゼーションを含めたレンダリング結果を表示して確認できます。これらを表示するには、「**[!UICONTROL プレビュー]**」をクリックし、ツールバーの&#x200B;**[!UICONTROL パーソナライゼーションをテスト]**&#x200B;ボタンを使用して受信者を選択します。定義済みターゲットの中から受信者を選択することも、別の受信者を指定することもできます。
 
-   ![](assets/s_ncs_user_wizard_email01_139.png)
+  ![](assets/s_ncs_user_wizard_email01_139.png)
 
-   HTML メッセージを検証できます。また、E メールヘッダーの内容も確認できます。
+  HTML メッセージを検証できます。また、E メールヘッダーの内容も確認できます。
 
-   ![](assets/s_ncs_user_wizard_email01_140.png)
+  ![](assets/s_ncs_user_wizard_email01_140.png)
 
 * テキストコンテンツをインポートするには、「**[!UICONTROL 開く]**」ボタンを使用するか、メッセージがテキスト形式で表示される場合のメッセージのコンテンツを「**[!UICONTROL テキストコンテンツ]**」タブで入力します。ツールバーのボタンを使用して、コンテンツに対するアクションをします。最後のボタンは、パーソナライゼーションフィールドを挿入するボタンです。
 
-   ![](assets/s_ncs_user_wizard_email01_141.png)
+  ![](assets/s_ncs_user_wizard_email01_141.png)
 
-   HTML 形式については、ページ下部の「**[!UICONTROL プレビュー]**」タブをクリックすると、メッセージにパーソナライゼーションを含めたレンダリング結果を表示して確認できます。
+  HTML 形式については、ページ下部の「**[!UICONTROL プレビュー]**」タブをクリックすると、メッセージにパーソナライゼーションを含めたレンダリング結果を表示して確認できます。
 
-   ![](assets/s_ncs_user_wizard_email01_142.png)
+  ![](assets/s_ncs_user_wizard_email01_142.png)
 
 
 ## インタラクティブコンテンツの定義 {#amp-for-email-format}
@@ -132,7 +129,7 @@ Adobe Campaign では、特定の条件下での動的な E メールの送信�
 >
 >Adobe Campaign のコンテンツ管理について詳しくは、[この節](about-content-management.md)を参照してください。
 
-## 顔文字の挿入 {#inserting-emoticons}
+## 顔文字を挿入 {#inserting-emoticons}
 
 E メールコンテンツに顔文字を挿入できます。
 
@@ -145,22 +142,29 @@ E メールコンテンツに顔文字を挿入できます。
 
 顔文字のリストをカスタマイズするには、この[ページ](customizing-emoticon-list.md)を参照してください。
 
-## 画像の追加 {#adding-images}
+## 画像を追加 {#adding-images}
 
 HTML 形式の E メール配信には、画像を含めることができます。配信ウィザードで、画像を含んだ HTML ページをインポートするか、HTML エディターの&#x200B;**[!UICONTROL 画像]**&#x200B;アイコンを使用して直接画像を挿入します。
+
+
+### ガードレール {#img-guardrails}
+
+パフォーマンスの問題を回避するために、電子メールに含める画像がデフォルトで 100 MB を超えないようにする必要があります。 この制限は、 `NmsDelivery_MaxDownloadedImageSize` オプション。
+
+詳しくは、 [オプションのCampaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
+
+### 画像のタイプ {#img-types}
 
 画像に関して、次のことができます。
 
 * ローカル環境にある画像またはサーバー上から取得した画像
 * Adobe Campaign のパブリックリソースライブラリに格納されている画像
 
-   パブリックリソースには、Adobe Campaign 階層構造の&#x200B;**[!UICONTROL リソース／オンライン]**&#x200B;ノードからアクセスできます。パブリックリソースは、ライブラリ内でグループ化したり、E メールメッセージに含めることができるだけでなく、キャンペーン用、タスク用、コンテンツ管理用に使用することもできます。
+  パブリックリソースには、Adobe Campaign 階層構造の&#x200B;**[!UICONTROL リソース／オンライン]**&#x200B;ノードからアクセスできます。パブリックリソースは、ライブラリ内でグループ化したり、E メールメッセージに含めることができるだけでなく、キャンペーン用、タスク用、コンテンツ管理用に使用することもできます。
 
 * Adobe Experience Cloud と共有されているアセット。[この節](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md)を参照してください。
 
->[!IMPORTANT]
->
->配信ウィザードを使用して E メールメッセージに画像を含めるには、Adobe Campaign インスタンスの設定でパブリックリソースの管理が有効になっている必要があります。この設定は、デプロイウィザードで実行できます。設定について詳しくは、[この節](../../installation/using/deploying-an-instance.md)を参照してください。
+### 画像の挿入と管理 {#manage-images}
 
 配信ウィザードでは、ローカル環境にある画像またはライブラリに保存されている画像をメッセージのコンテンツに追加できます。そのためには、HTML コンテンツツールバーの「**[!UICONTROL 画像]**」ボタンをクリックします。
 
@@ -188,14 +192,12 @@ HTML 形式の E メール配信には、画像を含めることができます
 
 >[!IMPORTANT]
 >
->* 画像へのアクセスパスは、手動でのアップロード時やメッセージの送信時に変更されます。
+> 画像の URL は、手動でアップロードする際やメッセージの送信時に変更されます。
 > 
->* パーソナライズされた URL からその場でダウンロードされた画像を[添付ファイル](attaching-files.md)として含める場合は、パフォーマンスの問題を回避するために、デフォルトで各画像サイズが 100,000 バイトを超えないようにする必要があります。この推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
 
+### ユースケース：画像付きメッセージの送信 {#uc-images}
 
-**ユースケース：画像付きメッセージの送信**
-
-ここでは、4 個の画像を含んだ配信を例にとって説明します。
+以下は、4 つの画像を含む配信の例です。
 
 ![](assets/s_ncs_user_images_in_delivery_wiz_1.png)
 
@@ -253,23 +255,23 @@ HTML 形式の E メール配信には、画像を含めることができます
 
    * 1D フォーマットの場合、Adobe Campaign で使用できるタイプは、Codabar、コード 128、GS1-128（以前の EAN-128）、UPC-A、UPC-E、ISBN、EAN-8、Code39、インターリーブ 2/5、POSTNET および Royal Mail（RM4SCC）です。
 
-      1D バーコードの例：
+     1D バーコードの例：
 
-      ![](assets/barcode_insert_08.png)
+     ![](assets/barcode_insert_08.png)
 
    * DataMatrix タイプと PDF417 タイプは 2D フォーマットを扱います。
 
-      2D バーコードの例：
+     2D バーコードの例：
 
-      ![](assets/barcode_insert_09.png)
+     ![](assets/barcode_insert_09.png)
 
    * QR コードを挿入するには、このタイプを選択し、適用する誤り訂正レベルを入力します。このレベルで、データ量とコードの劣化の許容範囲を定義します。
 
-      ![](assets/barcode_insert_06.png)
+     ![](assets/barcode_insert_06.png)
 
-      QR コードの例：
+     QR コードの例：
 
-      ![](assets/barcode_insert_12.png)
+     ![](assets/barcode_insert_12.png)
 
 1. E メールに挿入したいバーコードのサイズを入力します。縮尺を設定することによって、バーコードのサイズを 1 倍から 10 倍まで拡大または縮小できます。
 1. 「**[!UICONTROL 値]**」フィールドを使用して、バーコードの値を定義できます。値は、特別オファーに対応させたり、ある基準の関数にすることができます。顧客にリンクされているデータベースフィールドの値にすることも可能です。

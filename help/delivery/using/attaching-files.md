@@ -6,16 +6,14 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
-source-wordcount: '1035'
-ht-degree: 100%
+source-git-commit: 9e1d49cd1ae89a3bdf42febd48c5a340fe7ec674
+workflow-type: tm+mt
+source-wordcount: '1061'
+ht-degree: 93%
 
 ---
 
 # E メールへのファイルの添付{#attaching-files}
-
-
 
 ## E メールへのファイル添付について {#about-email-attachments}
 
@@ -33,6 +31,14 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 >[!NOTE]
 >
 >多くの場合、このタイプの設定は配信テンプレートを使用して実行されます。詳しくは、[テンプレートについて](about-templates.md)を参照してください。
+
+## ガードレール {#attachments-guardrails}
+
+パフォーマンスの問題を回避するために、電子メールに含める画像がデフォルトで 100 MB を超えないようにする必要があります。 この制限は、 `NmsDelivery_MaxDownloadedImageSize` オプション。
+
+Adobeでは、添付ファイルのサイズと数を制限することもお勧めします。 デフォルトでは、1 つのファイルを添付ファイルとして E メールに追加できるのは 1 つだけです。 このしきい値は、 `NmsDelivery_MaxRecommendedAttachments` オプション。
+
+詳しくは、 [オプションのCampaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 ## ローカルファイルの添付 {#attaching-a-local-file}
 
@@ -113,9 +119,7 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
->[!NOTE]
->
->パフォーマンスの問題を回避するために、パーソナライズされた URL からその場でダウンロードされた画像を添付ファイルとして含める場合は、デフォルトで各画像サイズが 100,000 バイトを超えないようにする必要があります。この推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
+
 
 ### 計算済みファイルの添付 {#attach-a-calculated-file}
 
@@ -182,6 +186,6 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 * フィルターオプションを指定すると、添付ファイルの送り先とする受信者を限定できます。「**[!UICONTROL 添付ファイルを受信する受信者のフィルターを有効にする]**」オプションを選択すると、受信者選択用スクリプトを記述するための入力フィールドが有効になります。このスクリプトは JavaScript で記述する必要があります。
 * ファイル名をパーソナライズするためのスクリプトを指定できます。
 
-   ウィンドウにテキストを入力し、ドロップダウンリストから使用可能なパーソナライゼーションフィールドを選択します。次の例では、ファイル名がパーソナライズされ、今日の日付と受信者の名前が含まれています。
+  ウィンドウにテキストを入力し、ドロップダウンリストから使用可能なパーソナライゼーションフィールドを選択します。次の例では、ファイル名がパーソナライズされ、今日の日付と受信者の名前が含まれています。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)
+  ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)

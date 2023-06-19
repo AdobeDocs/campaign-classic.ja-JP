@@ -5,10 +5,10 @@ description: Adobe Campaign を使用して、個々の添付ファイルやパ�
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '627'
-ht-degree: 100%
+source-git-commit: 9e1d49cd1ae89a3bdf42febd48c5a340fe7ec674
+workflow-type: tm+mt
+source-wordcount: '654'
+ht-degree: 89%
 
 ---
 
@@ -38,11 +38,13 @@ ht-degree: 100%
 * また、上記のシナリオ例のように添付ファイルがトランザクションに関連する場合には、顧客のプロセスの間に生成される動的データを添付ファイルに含めることもあります。
 * PDF ファイルを添付すると、PDF ファイルを暗号化して HTTPS 経由で送信できるので、セキュリティが最適化されます。
 
->[!NOTE]
->
->パフォーマンスの問題を回避するために、パーソナライズされた URL からその場でダウンロードされた画像を添付ファイルとして含める場合は、デフォルトで各画像サイズが 100,000 バイトを超えないようにする必要があります。この推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
+## Recommendationsとガードレール {#important-notes}
 
-## 推奨事項 {#important-notes}
+パフォーマンスの問題を回避するために、電子メールに含める画像がデフォルトで 100 MB を超えないようにする必要があります。 この制限は、 `NmsDelivery_MaxDownloadedImageSize` オプション。
+
+Adobeでは、添付ファイルのサイズと数を制限することもお勧めします。 デフォルトでは、1 つのファイルを添付ファイルとして E メールに追加できるのは 1 つだけです。 このしきい値は、 `NmsDelivery_MaxRecommendedAttachments` オプション。
+
+詳しくは、 [オプションのCampaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 このシナリオを実装する前に、次のガイドラインをよくお読みください。
 

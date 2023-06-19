@@ -6,9 +6,9 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 9e1d49cd1ae89a3bdf42febd48c5a340fe7ec674
+source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2017'
 ht-degree: 94%
 
 ---
@@ -149,7 +149,7 @@ HTML 形式の E メール配信には、画像を含めることができます
 
 ### ガードレール {#img-guardrails}
 
-パフォーマンスの問題を回避するために、電子メールに含める画像がデフォルトで 100 MB を超えないようにする必要があります。 この制限は、 `NmsDelivery_MaxDownloadedImageSize` オプション。
+パフォーマンスの問題を回避するために、メールに含める画像のサイズは 100 MB 以下にする必要があります。 この制限は、デフォルトで設定され、 `NmsDelivery_MaxDownloadedImageSize` オプション。 ただし、Adobeでは、E メール配信で大きな画像を使用しないことを強くお勧めします。
 
 詳しくは、 [オプションのCampaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 

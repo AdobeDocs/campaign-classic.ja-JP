@@ -6,10 +6,10 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: 9e1d49cd1ae89a3bdf42febd48c5a340fe7ec674
+source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 93%
+source-wordcount: '1073'
+ht-degree: 92%
 
 ---
 
@@ -34,7 +34,7 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 
 ## ガードレール {#attachments-guardrails}
 
-パフォーマンスの問題を回避するために、電子メールに含める画像がデフォルトで 100 MB を超えないようにする必要があります。 この制限は、 `NmsDelivery_MaxDownloadedImageSize` オプション。
+パフォーマンスの問題を回避するために、メールに含める画像のサイズは 100 MB 以下にする必要があります。 この制限は、デフォルトで設定され、 `NmsDelivery_MaxDownloadedImageSize` オプション。 ただし、Adobeでは、E メール配信で大きな画像を使用しないことを強くお勧めします。
 
 Adobeでは、添付ファイルのサイズと数を制限することもお勧めします。 デフォルトでは、1 つのファイルを添付ファイルとして E メールに追加できるのは 1 つだけです。 このしきい値は、 `NmsDelivery_MaxRecommendedAttachments` オプション。
 

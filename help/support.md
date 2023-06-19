@@ -4,10 +4,10 @@ title: Campaign Classic のヘルプおよびサポートオプション
 description: Campaign Classic のサポートが必要な場合は、こちらから確認してください。
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
-source-wordcount: '796'
-ht-degree: 100%
+source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 98%
 
 ---
 
@@ -140,8 +140,7 @@ Campaign Classic コミュニティへの参加：既存の質問の回答を検
 
 ### Campaign ダウンロードセンターへのアクセス
 
-2020 年 6 月現在、Experience Cloud ソリューションソフトウェア配布は、従来の Neolane ダウンロードセンターに代わるものであり、ソフトウェア、パッケージ、ツールの検索およびダウンロードのエクスペリエンスが効率化されています。Experience Cloud ソフトウェア配布にアクセスするには、[ここをクリック](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)します。
-新しいダウンロードセンターについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){_blank} を参照してください。
+Campaign 管理者が、 [このページ](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html) をクリックして、「Experience Cloud・ソフトウェア配布」にアクセスします。
 
 ### チケットの作成またはチャットの開始
 

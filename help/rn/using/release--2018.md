@@ -5,9 +5,9 @@ description: Campaign Classic 2018 リリースの詳細
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hidefromtoc: true
 exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '5423'
+source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
+workflow-type: tm+mt
+source-wordcount: '5417'
 ht-degree: 100%
 
 ---
@@ -441,7 +441,7 @@ decryptPassword
  <tbody> 
   <tr> 
    <td> EU 一般データ保護規則（GDPR）<br /> </td> 
-   <td> <p>GDPR は 2018 年 5 月 25 日より欧州連合（EU）にて新しく施行されるプライバシー保護法律で、データ保護要件を現代の状況に合わせて整合化させることを目的としています。GDPR は、EU に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。</p> <p>Adobe Campaign には既にプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）が用意されていますが、これを機会にデータ管理者としてお客様自身が特定の GDPR 要件に対応できるようにする機能を導入しました。</p> 
+   <td> <p>GDPR は欧州連合（EU）で施行されるプライバシー保護法で、データ保護要件を現代の状況に合わせて整合化することを目的としています。GDPR は、EU に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。</p> <p>Adobe Campaign には既にプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）が用意されていますが、これを機会にデータ管理者としてお客様自身が特定の GDPR 要件に対応できるようにする機能を導入しました。</p> 
     <ul> 
      <li> <p>アクセス権限：データ主体は、データ管理者により取得された自分の個人データのコピーを受け取ることができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。</p> </li> 
      <li> <p>削除権限：データ主体は、データ管理者により取得された自分の個人データを消去させることができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。</p> </li> 

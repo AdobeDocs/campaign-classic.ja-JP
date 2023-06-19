@@ -7,9 +7,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '1557'
+source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
+workflow-type: tm+mt
+source-wordcount: '1533'
 ht-degree: 100%
 
 ---
@@ -76,8 +76,6 @@ ht-degree: 100%
 ![](assets/GSMigrations.png)
 
 ## 移行について
-
-Adobe Managed Services（パブリッククラウド）への移行は、影響を受けるアカウントについて 2020年または 2021年に行われます。この取り組みの期間中、アドビがお客様の組織をリードしガイドします。
 
 この取り組みを開始するにあたり、この移行を必要とするアカウントは、タイムラインとドキュメントへのアクセス方法が記載された E メールをアドビから受け取ります。これは、アカウントの移行がスケジュールされていることを示す通知です。
 

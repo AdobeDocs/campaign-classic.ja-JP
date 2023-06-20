@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1508'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 * 22.1 リリースより、Adobe Campaign は CentOs 8.x（64 ビット）との互換性を失います。CentOS Linux 8 は、2021年12月31日（PT）に提供終了（EOL）となります。[詳細情報](https://www.centos.org/centos-linux-eol/)。
 
-   このオペレーティングシステムを使用していた場合は、それに応じて実装を適応させます。CentOS 7.x（64 ビット）と RHEL 8.x/7.x（64 ビット）は引き続きサポートされます。
+  このオペレーティングシステムを使用していた場合は、それに応じて実装を適応させます。CentOS 7.x（64 ビット）と RHEL 8.x/7.x（64 ビット）は引き続きサポートされます。
 
 * 21.1.3 リリース以降、Adobe Campaign は Debian 8 との互換性がなくなります。
 
@@ -213,22 +213,22 @@ Adobe Campaign Classic クライアントコンソールは、次のシステム
 
 * PostgreSQL 9.3.
 * MySQL 5.5。
-* DB2 9.5.
-* Teradata14 - 14.1
+* DB2 9.5。
+* Teradata 14 – 14.1。
 
 Campaign Classic は、Federated Data Access（FDA）の次のサーバーと互換性がありません。より新しいバージョンまたはシステムを使用してください。
 
 * DB2 UDB 9.5、9.7。
 * Oracle 9i、10G R2。
-* PostgreSQL の 9.6 までのバージョンは、提供が終了しました。 
+* PostgreSQL の 9.6 までのバージョンは、提供が終了しました。
 * MSSQL 2000、2005、2008 R2。
-* MySQL 5.1.
+* MySQL 5.1。
 * InfiniDB は提供が終了しました（EOL）。
-* Teradata13, 13.1.
+* Teradata 13、13.1。
 * Netezza 6.02、7.0。Netezza は提供が終了しました（EOL）。
 * AsterData 5.0。AsterData は提供が終了しました（EOL）。
-* sybase IQ15.2、15.4、15.5、Sybase ASE 15.0。
-* HiveSQL を使用したhadoop:Hadoop2.7.3、HiveSQL 1.2.1。Adobe Campaign Classicは、Federated Data Access(FDA) を通じて HiveSQL を介して、一覧に表示されているHadoopのバージョンを引き続きサポートしますが、これらのバージョンは次と統合されます。HortonWorks(HDP 2.4.X、2.5.x、2.6.x) および HDInsight 3.4(HDP 2.4)、3.5(HDP 2.5)、3.6(HDP 2.6)
+* Sybase IQ 15.2、15.4、15.5 および Sybase ASE 15.0。
+* HiveSQL 経由の Hadoop：Hadoop 2.7.3、HiveSQL 1.2.1。Adobe Campaign Classic は、Federated Data Access（FDA）を通じて、HiveSQL 経由の Hadoop の一覧に示されたバージョンを引き続きサポートしますが、これらのバージョンは、HortonWorks（HDP 2.4.X、2.5.x、2.6.x）および HDInsight 3.4（HDP 2.4）、3.5（HDP 2.5）、3.6（HDP 2.6）と統合されます。
 
 **RDBMS サーバー**
 

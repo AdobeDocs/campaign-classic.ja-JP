@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -166,7 +166,6 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 >* RDBMS ドライバは RDBMS サーバーのバージョンと一致する必要があります。
 >
 >* PostgreSQL はホスト環境の RDBMS です。
-
 
 ## CRM コネクタ{#CRMconnectors}
 
@@ -369,7 +368,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 
 Microsoft Edge WebView2 ランタイム最新バージョンは、Campaign クライアントコンソールに必須です。
 
-[Microsoft Developer サイト](https://www.adobe.com/go/acc-ms-webview2-runtime-download)から Microsoft Edge WebView2 をダウンロードします。
+[Microsoft Developer サイト](https://www.adobe.com/go/acc-ms-webview2-runtime-download_jp)から Microsoft Edge WebView2 をダウンロードします。
 
 
 ## Mobile SDK{#MobileSDK}

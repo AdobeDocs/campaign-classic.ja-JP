@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Email Design
 exl-id: 44634227-2340-49c4-b330-740c739ea551
 source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '760'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Campaign は、日本の携帯電話向けに特化した E メールフ�
 
 >[!NOTE]
 >
->メッセージを作成する際は、各オペレーターに固有の制限事項を考慮する必要があります。 製品ドキュメントを参照してください。
+>メッセージを作成する際には、各オペレーター固有の制限事項を考慮する必要があります。製品ドキュメントを参照してください。
 
 
 ## メールコンテンツのテスト {#testing-the-email-content}
@@ -60,7 +60,7 @@ Adobe Campaign では、メッセージのフォーマットが日本の携帯�
 * メッセージに含まれる画像の数がフォーマットの制限を超えていないことのチェック（20 以下）
 * メッセージの合計サイズのチェック（100 KB 未満）
 
-   ![](assets/deco-mail_06.png)
+  ![](assets/deco-mail_06.png)
 
 ### タイポロジルールを実行 {#running-typology-rule}
 

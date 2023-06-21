@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 hide: true
 hidefromtoc: true
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '361'
+source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -31,11 +31,11 @@ ht-degree: 100%
 
 * Gold Standard 8～11。[詳細情報](../../rn/using/gold-standard.md#gs-8)
 * Campaign 21.1.1（ビルド 9277）～21.1.2（ビルド 9282）リリース。[詳細情報](../../rn/using/latest-release.md)
-* Campaign 20.3.1（ビルド 9228）～20.3.3（ビルド 9234）リリース。[詳細情報](../../rn/using/release--2020.md#release-20-3)
-* Campaign 20.2.1（ビルド 9178）～20.2.4（ビルド 9187）リリース。[詳細情報](../../rn/using/release--2020.md#release-20-2)
-* Campaign 20.1.1（ビルド 9122）～21.1.3（ビルド 9124）リリース。[詳細情報](../../rn/using/release--2020.md#release-20-1)
-* Campaign 19.2.2（ビルド 9080）～19.2.3（ビルド 9081）リリース。[詳細情報](../../rn/using/release--2019.md#release-19-2)
-* Campaign 19.1.5（ビルド 9033）～19.1.7（ビルド 9036）リリース。[詳細情報](../../rn/using/release--2019.md#release-19-1)
+* Campaign 20.3.1（ビルド 9228）～20.3.3（ビルド 9234）リリース。
+* Campaign 20.2.1（ビルド 9178）～20.2.4（ビルド 9187）リリース。
+* Campaign 20.1.1（ビルド 9122）～21.1.3（ビルド 9124）リリース。
+* Campaign 19.2.2（ビルド 9080）～19.2.3（ビルド 9081）リリース。
+* Campaign 19.1.5（ビルド 9033）～19.1.7（ビルド 9036）リリース。
 
 
 バージョンを確認する方法については、](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)こちらの節[を参照してください。
@@ -59,6 +59,7 @@ ht-degree: 100%
 >[!NOTE]
 >
 >**config-`<instance>`.xml** ファイルは、**serverConf.xml** の設定よりも優先されます。 **signEmailLinks** が **config-`<instance>`.xml** に存在する場合（**instance** はインスタンスの名前）、**false** にする必要があります。
+>
 
 **どのような影響がありますか？**
 
@@ -69,3 +70,4 @@ ht-degree: 100%
 >[!NOTE]
 >
 >これらの変更点に関するご質問は、[アドビのサポート](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>

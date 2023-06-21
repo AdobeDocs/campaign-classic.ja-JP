@@ -4,9 +4,9 @@ title: テクニカルノート - IMS を使用して Adobe Campaign に接続�
 description: Campaign - IMS の更新
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
-source-wordcount: '585'
+source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
+workflow-type: tm+mt
+source-wordcount: '579'
 ht-degree: 100%
 
 ---
@@ -37,15 +37,15 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../inte
 
 * オンプレミス／ハイブリッド環境のお客様の場合は、新しいクライアントコンソールを活用し、シームレスな移行を確実に実施するには、**2021 年 6 月 30 日（PT）までに**&#x200B;上記の新しいバージョンのいずれかにアップグレードする必要があります。
 
-   以下に示す新しいバージョンの 1 つにアップグレードする必要があります。
+  以下に示す新しいバージョンの 1 つにアップグレードする必要があります。
 
    * Gold Standard 11。 [詳細情報](../../rn/using/gold-standard.md)
    * Campaign 21.1.3 リリース。 [詳細情報](../../rn/using/latest-release.md)
-   * Campaign 20.2.5 リリース。 [詳細情報](../../rn/using/release--2020.md#release-20-2-5-build-9188)
-   * Campaign 20.1.4 リリース。 [詳細情報](../../rn/using/release--2020.md#release-20-1-4-build-9126)
-   * Campaign 19.2.4 リリース。 [詳細情報](../../rn/using/release--2019.md#release-19-2-4-build-9082)
+   * Campaign 20.2.5 リリース。 
+   * Campaign 20.1.4 リリース。 
+   * Campaign 19.2.4 リリース。 
 
-   これらのリリースには、新しい接続プロトコルが付属しています。 Campaign サーバーとクライアントコンソールの両方をアップグレードする必要があります。すべてのインスタンスをアップグレードしたら、**2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign に接続できるようにするには、クライアントコンソールもこのバージョンにアップグレードする必要があります。
+  これらのリリースには、新しい接続プロトコルが付属しています。 Campaign サーバーとクライアントコンソールの両方をアップグレードする必要があります。すべてのインスタンスをアップグレードしたら、**2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign に接続できるようにするには、クライアントコンソールもこのバージョンにアップグレードする必要があります。
 
 さらに、**Internet Explorer 11** が組み込まれた最新の [Windows バージョン](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)が各ユーザーのマシンにインストールされていることを確認してください。
 
@@ -62,13 +62,13 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../inte
 
 * Campaign クライアントコンソールを起動し、インスタンス接続設定にアクセスします。「**Adobe ID で接続**」オプションが選択されている場合は、Adobe IMS を使用しています。
 
-   ![](../../integrations/using/assets/ims_1.png)
+  ![](../../integrations/using/assets/ims_1.png)
 
 または
 
 * Campaign クライアントコンソールを起動し、接続ウィンドウを確認します。Adobe ID と接続している場合は、下の画面に示すように、IMS を使用しています。
 
-   ![](../../integrations/using/assets/adobeID.png)
+  ![](../../integrations/using/assets/adobeID.png)
 
 **接続警告メッセージ**
 
@@ -85,6 +85,7 @@ Internet Explorer のバージョンを更新しなかった場合は、次の�
 >[!NOTE]
 >
 >これらの変更点に関するご質問については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>
 
 ## 参考になるリンク
 

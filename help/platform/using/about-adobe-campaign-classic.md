@@ -29,7 +29,6 @@ Adobe Campaign は、対話的なマーケティングキャンペーンの構�
 >
 >* Adobe Campaign v8 のドキュメントは[こちら](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja)から入手できます。
 
-
 ![](assets/do-not-localize/how-to-video.png) [主な特長と機能をビデオで確認](#video)
 
 ## 主な機能 {#key-capabilities}

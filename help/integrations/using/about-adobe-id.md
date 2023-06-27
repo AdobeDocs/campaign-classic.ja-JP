@@ -8,7 +8,7 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
+source-git-commit: f38d9053a3817fabc196dfbbfc5fff67bf1a7b06
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 98%
@@ -16,8 +16,6 @@ ht-degree: 98%
 ---
 
 # Adobe ID について{#about-adobe-id}
-
-
 
 Adobe Identity Management システム（IMS）は、管理者がアプリケーションやサービスへのユーザーのアクセスを作成および管理するのに役立ちます。各種 Adobe ID の詳細については、[こちらのページ](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
 
@@ -43,8 +41,8 @@ Campaign ユーザーは、Adobe ID を使用して Adobe Campaign コンソー�
 > * Campaign 19.2.4
 > * Campaign 19.1.8
 >
-> [!DNL :bulb:] [IMS 更新の詳細を説明します](../../technotes/using/ims-updates.md)。
->
+[ IMS 更新の詳細を説明します。](../../technotes/using/ims-updates.md)
+>>
 
 ## その他のリソース
 

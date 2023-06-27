@@ -7,16 +7,14 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+source-git-commit: 0bea34e2db2b54bdd2a6fed80b47d473c89f631e
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 32%
+source-wordcount: '1163'
+ht-degree: 31%
 
 ---
 
 # Campaign クライアントコンソールのインストールと更新{#installing-the-client-console}
-
-
 
 Campaign クライアントコンソールは、Campaign アプリケーションサーバーに接続できるリッチクライアントです。
 
@@ -35,12 +33,16 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 >[!CAUTION]
 >
 >Campaign クライアントコンソールと Campaign アプリケーションサーバーは実行する必要があります **同じ製品バージョンで**. Adobeでは、 **同じ製品ビルド**. Campaign のクライアントとサーバーのバージョンを [この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+>
+>コンソールがインストールされているインストールフォルダーへのアクセスは、対象のユーザーのみに制限する必要があり、書き込み権限が適切に制限されます。
+
+
 
 ## Microsoft Edge WebView2 ランタイムのインストール {#webview}
 
 Campaign Classic 7.3 ビルドバージョン以降、コンソールのインストールには Microsoft Edge WebView2 ランタイムのインストールが必要です。
 
-WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。システム上にまだ存在しない場合は、Campaign Classicコンソールインストーラが、次の場所からダウンロードするように求めます。 [Microsoft Developer Web サイト](https://www.adobe.com/go/acc-ms-webview2-runtime-download). Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。別のブラウザーを使用してリンクにアクセスしてください。
+WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。システム上にまだ存在しない場合は、Campaign Classicコンソールインストーラが、次の場所からダウンロードするように求めます。 [Microsoft Developer Web サイト](https://www.adobe.com/go/acc-ms-webview2-runtime-download_jp). Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。別のブラウザーを使用してリンクにアクセスしてください。
 
 ## Adobeがホストする実装 {#hosted-customers}
 

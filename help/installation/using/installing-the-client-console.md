@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: 0bea34e2db2b54bdd2a6fed80b47d473c89f631e
+source-git-commit: 45bf9d76dc41fd8cecfaab3f258856861201db3f
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 31%
@@ -32,9 +32,9 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 >[!CAUTION]
 >
->Campaign クライアントコンソールと Campaign アプリケーションサーバーは実行する必要があります **同じ製品バージョンで**. Adobeでは、 **同じ製品ビルド**. Campaign のクライアントとサーバーのバージョンを [この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+>* Campaign クライアントコンソールと Campaign アプリケーションサーバーは実行する必要があります **同じ製品バージョンで**. Adobeでは、 **同じ製品ビルド**. Campaign のクライアントとサーバーのバージョンを [この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 >
->コンソールがインストールされているインストールフォルダーへのアクセスは、対象のユーザーのみに制限する必要があり、書き込み権限が適切に制限されます。
+>* コンソールがインストールされているインストールフォルダーへのアクセスは、対象のユーザーのみに制限する必要があり、書き込み権限が適切に制限されます。
 
 
 

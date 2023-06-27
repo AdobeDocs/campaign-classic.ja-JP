@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-source-git-commit: 4751de9b1feb4165b86ac3ea57a52bb4b687b6c7
+source-git-commit: 2bbcfbff3ce77501fb36457dc823c0ef86550bec
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 98%
+source-wordcount: '190'
+ht-degree: 100%
 
 ---
 
@@ -35,13 +35,6 @@ Campaign ユーザーは、Adobe ID を使用して Adobe Campaign コンソー�
 >
 > * [Campaign [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
 > * [Campaign 21.1.4](../../rn/using/latest-release.md)
->
->また、
->
->* Campaign 20.2.5
->* Campaign 20.1.4
->* Campaign 19.2.4
->* Campaign 19.1.8
 >
 >[ IMS 更新の詳細を説明します](../../technotes/using/ims-updates.md)。
 

@@ -7,10 +7,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: ht
-source-wordcount: '933'
-ht-degree: 100%
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
+workflow-type: tm+mt
+source-wordcount: '932'
+ht-degree: 97%
 
 ---
 
@@ -24,15 +24,26 @@ Adobe Campaign Classic は、新機能、バグ修正、パフォーマンス、
 
 [リリースノート](latest-release.md)では、新しいビルドのステータスが色分けされて表示されます。 
 
-![](assets/do-not-localize/green3.png) **一般提供**（GA）- 実稼動環境で検証済みでアドビが推奨する、最新の安定したビルド。
 
-![](assets/do-not-localize/limited3.png) **限定提供**（LA） - オンデマンドデプロイメントのみ。
+| ステータス | 説明 |
+|---|---|
+| [!BADGE 一般公開（GA）]{type=Positive} | 最新の安定したビルドで、本番環境で検証済みで、Adobeが推奨。 |
+| [!BADGE 限定的な可用性]{type=Neutral} | オンデマンドデプロイメントのみ。 |
+| [!BADGE リリース候補]{type=Informative} | 新しい機能を備えた最新ビルド。 |
+| [!BADGE 公開停止]{type=Caution} | デプロイメントがありません。 バグ修正はありません。 新しいビルドへの更新をお勧めします。 |
+| [!BADGE 非推奨（廃止予定）]{type=negative} | デプロイメントがありません。 バグ修正はありません。 既存の実装はアップグレードする必要があります。 |
 
-![](assets/do-not-localize/blue3.png) **リリース候補**（RC）- 新機能を備えた最新ビルド。
+<!--
+![](assets/do-not-localize/green3.png) **General Availability** (GA) - Latest stable build, validated in production, and recommended by Adobe. 
 
-![](assets/do-not-localize/orange3.png) **使用できなくなりました** - デプロイメントなし。バグ修正はありません。 新しいビルドへの更新をお勧めします。
+![](assets/do-not-localize/limited3.png) **Limited Availability** (LA) - On-demand deployment only.
 
-![](assets/do-not-localize/red3.png) **非推奨** - デプロイメントなし。バグ修正はありません。 既存の実装はアップグレードする必要があります。
+![](assets/do-not-localize/blue3.png) **Release Candidate** (RC) - Latest build with new capabilities.
+
+![](assets/do-not-localize/orange3.png) **No longer available** - No deployment. No bug fix. Update to a newer build is recommended.
+
+![](assets/do-not-localize/red3.png) **Deprecated** - No deployment. No bug fix. Existing implementations must be upgraded.
+-->
 
 ## リリースサイクル{#rn-cycle}
 

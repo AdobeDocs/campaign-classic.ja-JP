@@ -5,16 +5,18 @@ description: Campaign Classic 2022 リリースの詳細
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 88ee8d1575f6397a35fb6f7412cd08119a75c131
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '2027'
 ht-degree: 100%
 
 ---
 
 # 2022 リリース{#release-2022}
 
-## ![](assets/do-not-localize/orange_2.png) リリース 7.3.1 - ビルド 9352 {#release-7-3-1}
+## リリース 7.3.1 - ビルド 9352 {#release-7-3-1}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2022年7月1日（PT）_
 
@@ -82,7 +84,9 @@ _2022年7月1日（PT）_
 * メッセージの準備中に外部サーバーからチャンクモードで画像をアップロードできない可能性がある問題を修正しました。 （NEO-40307）
 * 配信が予想よりも多くの受信者に送信される可能性がある問題を修正しました。（NEO-45108）
 
-## ![](assets/do-not-localize/green_2.png) リリース 7.2.2 - ビルド 9349 {#release-7-2-2}
+## リリース 7.2.2 - ビルド 9349 {#release-7-2-2}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2022年3月1日（PT）_
 
@@ -104,7 +108,9 @@ _2022年3月1日（PT）_
 * 同時に 1000 を超える broadlog がある場合に、配信品質ワークフローを更新するとエラーが発生する問題を修正しました。（NEO-40276）
 * 開封率とクリック率の配信指標が自動的に更新されない問題を修正しました。（NEO-43253）
 
-## ![](assets/do-not-localize/limited_2.png) リリース 7.2.1 - ビルド 9346 {#release-7-2-1}
+## リリース 7.2.1 - ビルド 9346 {#release-7-2-1}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2022年1月10日（PT）_
 

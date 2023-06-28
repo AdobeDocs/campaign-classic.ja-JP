@@ -7,10 +7,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
-source-wordcount: '1670'
-ht-degree: 100%
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
+workflow-type: tm+mt
+source-wordcount: '1780'
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 100%
 ## [!DNL Gold Standard] リリースノート
 
 
-### ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] 12 リリース{#gs-12}
+### [!DNL Gold Standard] 12 リリース{#gs-12}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2021 年 9 月 7 日_
 
@@ -38,7 +40,9 @@ _2021 年 8 月 27 日_
 * 署名トラッキング機能が改善され、サードパーティツール（メールクライアント、インターネットブラウザーなど）による特殊文字の処理方法に関連するエラーを防げるようになりました。URL パラメーターがエンコードされるようになりました。
 * コンソールにブロッカーのエラーメッセージが表示される可能性がある日付選択の問題を修正しました。 （NEO-36345）
 
-### ![](assets/do-not-localize/limited_2.png) [!DNL Gold Standard] 11 リリース{#gs-11}
+### [!DNL Gold Standard] 11 リリース{#gs-11}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2021 年 4 月 14 日_
 
@@ -83,7 +87,9 @@ _2020 年 12 月 22 日_
 
 * **エンリッチメント**&#x200B;アクティビティの実行時にワークフローが失敗する可能性がある問題を修正しました。（NEO-17338）
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 10 リリース{#gs-10}
+### [!DNL Gold Standard] 10 リリース{#gs-10}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2020 年 7 月 7 日_
 
@@ -95,7 +101,9 @@ _2020 年 7 月 7 日_
 >
 >クライアントコンソールをこのリリースに含まれるものにアップグレードすることをお勧めします。[このページ](../../installation/using/installing-the-client-console.md)を参照してください。
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 9 リリース{#gs-9}
+### [!DNL Gold Standard] 9 リリース{#gs-9}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2020 年 6 月 22 日_
 
@@ -111,7 +119,9 @@ _2020 年 6 月 22 日_
 * フィッシング詐欺対策サービスの問題を修正しました。（NEO-25283）
 * 特定のカスタムトラッキング式を使用する場合のトラッキングの問題を修正しました。（NEO-25277）
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 8 リリース{#gs-8}
+### [!DNL Gold Standard] 8 リリース{#gs-8}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2020 年 4 月 29 日_
 
@@ -136,7 +146,9 @@ _2020 年 4 月 29 日_
 * クリーンアップワークフローがクラッシュする原因となる問題を修正しました。
 * クリーンアップワークフローログの軽度の問題を修正しました。
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 6 リリース{#gs-6}
+### [!DNL Gold Standard] 6 リリース{#gs-6}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2020 年 3 月 9 日_
 
@@ -144,7 +156,9 @@ _2020 年 3 月 9 日_
 
 * FTP over SSL を使用する外部アカウントの問題を修正しました。（NEO-20498）
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 5 リリース{#gs-5}
+### [!DNL Gold Standard] 5 リリース{#gs-5}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2019 年 12 月 17 日_
 
@@ -152,7 +166,9 @@ _2019 年 12 月 17 日_
 
 * モバイル（SMS、MMS）、プッシュ（iOS、Android）およびソーシャルネットワーク（Facebook、Twitter）の各通信チャネルでのトラッキングの問題を修正しました。（NEO-19595）
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 4 リリース{#gs-4}
+### [!DNL Gold Standard] 4 リリース{#gs-4}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2019 年 12 月 11 日_
 
@@ -160,7 +176,9 @@ _2019 年 12 月 11 日_
 
 * MSSQL データベースでメッセージを送信する際のパフォーマンスの問題を修正しました。（NEO-17558）
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 3 リリース{#gs-3}
+### [!DNL Gold Standard] 3 リリース{#gs-3}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2019 年 11 月 20 日_
 
@@ -170,7 +188,9 @@ _2019 年 11 月 20 日_
 * 複数の配信に関する累積レポートを表示する際の問題を修正しました。（NEO-18165）
 * Web サーバーがブロックまたはクラッシュする可能性がある問題を修正しました。
 
-### ![](assets/do-not-localize/red_2.png) [!DNL Gold Standard] 2 リリース{#gs-2}
+### [!DNL Gold Standard] 2 リリース{#gs-2}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2019 年 9 月 19 日_
 
@@ -179,7 +199,9 @@ _2019 年 9 月 19 日_
 * Salesforce 用 CRM コネクタを使用する際の問題を修正しました。（NEO-17712）
 * トランザクションメッセージの送信時にパフォーマンスの問題を引き起こす可能性があるインデックスの問題を修正しました。
 
-### ![](assets/do-not-localize/red_2.png) リリース 19.1.4 - ビルド 9032{#release-19-1-4-build-9032}
+### リリース 19.1.4 - ビルド 9032{#release-19-1-4-build-9032}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2019 年 8 月 13 日_
 
@@ -200,6 +222,7 @@ _2019 年 8 月 13 日_
 >特に断りのない限り、すべてのマイナーリリースがサポートされます。
 >
 >Adobe Campaign Classic は、このページに記載されているすべてのシステムおよびツールと互換性があります。これらのサードパーティ製システムおよびツールの特定のバージョンが、それぞれの作成者による提供が終了した（EOL）場合、Adobe Campaign はこれらのバージョンとの互換性を失います。これらは以降の製品リリースで互換表から削除されます。問題を回避するため、互換性マトリックスに記載されているシステムのサポート対象バージョンを使用していることを確認してください。
+>
 
 ### オペレーティングシステム{#OperatingSystems-gs}
 

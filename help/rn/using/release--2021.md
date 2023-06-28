@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: a06623611ff3f8d9dfb5d498e01686e12a924923
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2597'
 ht-degree: 100%
 
 ---
@@ -19,8 +19,11 @@ ht-degree: 100%
 
 >[!CAUTION]
 >**[!UICONTROL ヘルプ／バージョン情報…]**&#x200B;メニューを使用し、Adobe Campaign の[バージョンおよびビルド番号](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を確認します。 ただし、このページに記載されている 9277～9343 のすべてのビルドでは、バージョン番号は 7.1 ではなく 7.0 と表示されています。
+> 
 
-### ![](assets/do-not-localize/limited_2.png) リリース 21.1.4 - ビルド 9343 {#release-21-1-4-build-9343}
+### リリース 21.1.4 - ビルド 9343 {#release-21-1-4-build-9343}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2021年10月8日（PT）_
 
@@ -32,7 +35,9 @@ _2021年10月8日（PT）_
 
 * 複数のミッドソーシングインスタンスで複数の IP アフィニティを使用する場合に、配信の送信時に発生する可能性がある「ipaffinity xxx がミッドサーバー xxx に見つかりません」というエラーを修正しました。 （NEO-37514）
 
-### ![](assets/do-not-localize/limited_2.png) リリース 21.1.4 - ビルド 9342 {#release-21-1-4-build-9342}
+### リリース 21.1.4 - ビルド 9342 {#release-21-1-4-build-9342}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2021 年 9 月 7 日_（PT）
 
@@ -66,7 +71,9 @@ _2021 年 9 月 7 日_（PT）
 * 受信トランジションが FDA データソースからのものである場合に「**エンリッチメント**」ワークフローアクティビティで変数を使用できなかった問題を修正しました。
 * メールメッセージ内の URL が機能しなくなる可能性がある問題を修正しました。
 
-### ![](assets/do-not-localize/limited_2.png)リリース 21.1.3 - ビルド 9330 {#release-21-1-3-build-9330}
+### リリース 21.1.3 - ビルド 9330 {#release-21-1-3-build-9330}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2021 年 6 月 5 日（PT）_
 
@@ -222,14 +229,18 @@ Campaign で次のシステムがサポートされるようになりました�
 * 特定の結合メカニズムが配信のパーソナライズに失敗したことにより、配達確認のグループを含む配信を送信できない問題を修正しました。 （NEO-14391）
 * 配信テーブルをターゲットとしてクエリやエンリッチメントアクティビティを実施すると、アラートアクティビティでアラートを送信できない問題を修正しました。 （NEO-25157）
 
-### ![](assets/do-not-localize/red_2.png) リリース 21.1.2 - ビルド 9282 {#release-21-1-2-build-9282}
+### リリース 21.1.2 - ビルド 9282 {#release-21-1-2-build-9282}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2021 年 4 月 15 日_
 
 * パスワード管理が向上し、セキュリティが最適化されました。 
 * MTA がクラッシュする可能性がある問題を修正しました。
 
-### ![](assets/do-not-localize/red_2.png) リリース 21.1.1 - ビルド 9277 {#release-21-1-1-build-9277}
+### リリース 21.1.1 - ビルド 9277 {#release-21-1-1-build-9277}
+
+[!BADGE 非推奨（廃止予定）]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="非推奨（廃止予定）"}
 
 _2021 年 2 月 22 日_
 

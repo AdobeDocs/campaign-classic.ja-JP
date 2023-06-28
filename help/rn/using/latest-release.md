@@ -7,20 +7,20 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 88ee8d1575f6397a35fb6f7412cd08119a75c131
-workflow-type: ht
-source-wordcount: '962'
-ht-degree: 100%
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
+workflow-type: tm+mt
+source-wordcount: '986'
+ht-degree: 99%
 
 ---
 
 # 最新リリース{#latest-release}
 
-
-
 このページには、**最新の Campaign Classic v7 リリース**&#x200B;の新機能、改善点および修正点が記載されています。新しいビルドごとに、色分けされたステータスが表示されます。Campaign Classic v7 のビルドステータスについて詳しくは、[このページ](rn-overview.md)を参照してください。
 
-## ![](assets/do-not-localize/green_2.png) リリース 7.3.3 - ビルド 9359 {#release-7-3-3}
+## リリース 7.3.3 - ビルド 9359 {#release-7-3-3}
+
+[!BADGE 一般公開（GA）]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
 
 >[!CAUTION]
 >
@@ -46,7 +46,9 @@ _2023年3月20日（PT）_
 * デジタルコンテンツエディター（DCE）の「**編集**」タブでスクロールできない問題を修正しました。（NEO-54474）
 * 2 つのエンリッチメントアクティビティがリンクで同じ名前識別子を使用していた場合に、2 つ目のエンリッチメントアクティビティが最初のエンリッチメントアクティビティのリンクを使用する問題を修正しました。（NEO-48851）
 
-## ![](assets/do-not-localize/orange_2.png) リリース 7.3.2 - ビルド 9356 {#release-7-3-2}
+## リリース 7.3.2 - ビルド 9356 {#release-7-3-2}
+
+[!BADGE 限定的な可用性]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定的な可用性"}
 
 _2022年11月21日（PT）_
 

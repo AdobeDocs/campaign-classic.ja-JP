@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -34,11 +34,11 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 
 ## ガードレール {#attachments-guardrails}
 
-パフォーマンスの問題を回避するために、メールに含める画像のサイズは 100 MB 以下にする必要があります。 この制限は、デフォルトで設定され、 `NmsDelivery_MaxDownloadedImageSize` オプション。 ただし、Adobeでは、E メール配信で大きな画像を使用しないことを強くお勧めします。
+パフォーマンスの問題を回避するために、メールに含める画像のサイズは 100 MB 以下にする必要があります。この制限は、デフォルトで設定されており、`NmsDelivery_MaxDownloadedImageSize` オプションから変更できます。ただし、アドビでは、メール配信で大きな画像を使用しないことを強くお勧めします。
 
-Adobeでは、添付ファイルのサイズと数を制限することもお勧めします。 デフォルトでは、1 つのファイルを添付ファイルとして E メールに追加できるのは 1 つだけです。 このしきい値は、 `NmsDelivery_MaxRecommendedAttachments` オプション。
+また、アドビでは、添付ファイルのサイズと数を制限することもお勧めします。デフォルトでは、メールに添付ファイルとして追加できるファイルは 1 つだけです。このしきい値は、`NmsDelivery_MaxRecommendedAttachments` オプションから設定できます。
 
-詳しくは、 [オプションのCampaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
+詳しくは、[Campaign Classic のオプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)を参照してください。
 
 ## ローカルファイルの添付 {#attaching-a-local-file}
 

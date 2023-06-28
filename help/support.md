@@ -5,9 +5,9 @@ description: Campaign Classic のサポートが必要な場合は、こちら�
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ Campaign Classic コミュニティへの参加：既存の質問の回答を検
 
 ### Campaign ダウンロードセンターへのアクセス
 
-Campaign 管理者が、 [このページ](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html) をクリックして、「Experience Cloud・ソフトウェア配布」にアクセスします。
+Campaign 管理者は、[このページ](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html)を参照して Experience Cloud ソフトウェア配布にアクセスします。
 
 ### チケットの作成またはチャットの開始
 

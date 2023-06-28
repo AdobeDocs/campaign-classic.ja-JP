@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2017'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->* 送信者のアドレスは、デフォルトで返信に使用されます。
+>* 送信者のアドレスは、デフォルトで返信先として使用されます。
 >* ヘッダーパラメーターの値は省略できません。デフォルトでは、ヘッダーパラメーターにはデプロイウィザードの設定時に入力された値が格納されています。詳しくは、[こちら](../../installation/using/deploying-an-instance.md)を参照してください。
 >* 送信者のアドレスは、E メールを送信するための必須情報です（RFC 標準規格）。
 >* 入力した E メールアドレスの形式はチェックされます。
 
 >[!CAUTION]
 >
->配信品質の問題を回避するには、配信および返信用に指定されたアドレスに対応する E メールアカウントが存在し、監視する必要があります。 システム管理者に問い合わせてください。
+>配信品質の問題を回避するには、配信および返信用に指定したアドレスに対応するメールアカウントが存在し、監視する必要があります。詳しくは、自社のシステム管理者にご相談ください。
 
 ## メッセージ件名 {#message-subject}
 
@@ -129,7 +129,7 @@ Adobe Campaign では、特定の条件下での動的な E メールの送信�
 >
 >Adobe Campaign のコンテンツ管理について詳しくは、[この節](about-content-management.md)を参照してください。
 
-## 顔文字を挿入 {#inserting-emoticons}
+## 顔文字の挿入 {#inserting-emoticons}
 
 E メールコンテンツに顔文字を挿入できます。
 
@@ -149,9 +149,9 @@ HTML 形式の E メール配信には、画像を含めることができます
 
 ### ガードレール {#img-guardrails}
 
-パフォーマンスの問題を回避するために、メールに含める画像のサイズは 100 MB 以下にする必要があります。 この制限は、デフォルトで設定され、 `NmsDelivery_MaxDownloadedImageSize` オプション。 ただし、Adobeでは、E メール配信で大きな画像を使用しないことを強くお勧めします。
+パフォーマンスの問題を回避するために、メールに含める画像のサイズは 100 MB 以下にする必要があります。この制限は、デフォルトで設定されており、`NmsDelivery_MaxDownloadedImageSize` オプションから変更できます。ただし、アドビでは、メール配信で大きな画像を使用しないことを強くお勧めします。
 
-詳しくは、 [オプションのCampaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
+詳しくは、[Campaign Classic のオプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)を参照してください。
 
 ### 画像のタイプ {#img-types}
 
@@ -192,12 +192,12 @@ HTML 形式の E メール配信には、画像を含めることができます
 
 >[!IMPORTANT]
 >
-> 画像の URL は、手動でアップロードする際やメッセージの送信時に変更されます。
+> 画像 URL は、手動でのアップロード時やメッセージの送信時に変更されます。
 > 
 
 ### ユースケース：画像付きメッセージの送信 {#uc-images}
 
-以下は、4 つの画像を含む配信の例です。
+以下に、4 つの画像を含む配信のサンプルを示します。
 
 ![](assets/s_ncs_user_images_in_delivery_wiz_1.png)
 

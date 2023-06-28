@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2025'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 * [CAN-SPAM 法](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)（商用 E メールのルールと要件を設定する米国の法律）
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)（カリフォルニア州消費者プライバシー法）
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)（タイ個人データ保護法）
-* [LGPD](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf) （ブラジル一般データ保護法）
+* [LGPD](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)（ブラジル一般データ保護法）
 
 >[!NOTE]
 >

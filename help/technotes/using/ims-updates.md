@@ -5,7 +5,7 @@ description: Campaign - IMS の更新
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
 ht-degree: 100%
 
@@ -41,9 +41,9 @@ Adobe Identity Management Service（IMS）を通じて [Adobe ID で](../../inte
 
    * Gold Standard 11。 [詳細情報](../../rn/using/gold-standard.md)
    * Campaign 21.1.3 リリース。 [詳細情報](../../rn/using/latest-release.md)
-   * Campaign 20.2.5 リリース。 
-   * Campaign 20.1.4 リリース。 
-   * Campaign 19.2.4 リリース。 
+   * Campaign 20.2.5 リリース。
+   * Campaign 20.1.4 リリース。
+   * Campaign 19.2.4 リリース。
 
   これらのリリースには、新しい接続プロトコルが付属しています。 Campaign サーバーとクライアントコンソールの両方をアップグレードする必要があります。すべてのインスタンスをアップグレードしたら、**2021 年 6 月 30 日（PT）**&#x200B;以降も Campaign に接続できるようにするには、クライアントコンソールもこのバージョンにアップグレードする必要があります。
 

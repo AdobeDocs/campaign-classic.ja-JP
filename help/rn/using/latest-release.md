@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '986'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ _2023年3月20日（PT）_
 
 ## リリース 7.3.2 - ビルド 9356 {#release-7-3-2}
 
-[!BADGE 限定的な可用性]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定的な可用性"}
+[!BADGE 限定提供（LA）]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
 
 _2022年11月21日（PT）_
 

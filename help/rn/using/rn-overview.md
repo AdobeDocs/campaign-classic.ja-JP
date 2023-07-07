@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '932'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Adobe Campaign Classic は、新機能、バグ修正、パフォーマンス、
 
 | ステータス | 説明 |
 |---|---|
-| [!BADGE 一般公開（GA）]{type=Positive} | 最新の安定したビルドで、本番環境で検証済みで、Adobeが推奨。 |
-| [!BADGE 限定的な可用性]{type=Neutral} | オンデマンドデプロイメントのみ。 |
-| [!BADGE リリース候補]{type=Informative} | 新しい機能を備えた最新ビルド。 |
-| [!BADGE 公開停止]{type=Caution} | デプロイメントがありません。 バグ修正はありません。 新しいビルドへの更新をお勧めします。 |
-| [!BADGE 非推奨（廃止予定）]{type=negative} | デプロイメントがありません。 バグ修正はありません。 既存の実装はアップグレードする必要があります。 |
+| [!BADGE 一般公開（GA）]{type=Positive} | 実稼動環境で検証済され、アドビが推奨する、最新の安定したビルド。 |
+| [!BADGE 限定提供（LA）]{type=Neutral} | オンデマンドデプロイメントのみ。 |
+| [!BADGE リリース候補]{type=Informative} | 新機能を備えた最新ビルド。 |
+| [!BADGE 公開停止]{type=Caution} | デプロイメントなし。バグ修正はありません。 新しいビルドへの更新をお勧めします。 |
+| [!BADGE 非推奨（廃止予定）]{type=negative} | デプロイメントなし。バグ修正はありません。 既存の実装はアップグレードする必要があります。 |
 
 <!--
 ![](assets/do-not-localize/green3.png) **General Availability** (GA) - Latest stable build, validated in production, and recommended by Adobe. 

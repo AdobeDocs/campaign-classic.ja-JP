@@ -8,9 +8,9 @@ audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 source-git-commit: 2f6a5884e47ce10ce3c281a4377ee37522c52131
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 91%
 設定は最小限で、サードパーティが関与しないので、より機敏な統合処理が可能です。
 また、マーケティングアクティビティのパフォーマンスに影響を与えることなく、大量のトラフィックをサポートします。例えば、この統合機能では 1 時間に 100 万個のトリガーを処理できます。
 
-![](assets/do-not-localize/book.png) 方法を見つける [Experience Cloudトリガー](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html) 重要な消費者行動を特定、定義および監視します。
+![](assets/do-not-localize/book.png) [Experience Cloud トリガー](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja)を作成し、重要なコンシューマーの行動を特定、定義、監視する方法を説明します。
 
 ## [!DNL Triggers] アーキテクチャ {#triggers-architecture}
 

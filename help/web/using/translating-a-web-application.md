@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 exl-id: 82c5c610-8161-4686-aa79-1b690e763765
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -45,11 +45,11 @@ Web アプリケーションの&#x200B;**[!UICONTROL プロパティ]**&#x200B;�
    * 選択したブロックに複数の文字列／ブロックが含まれる場合、翻訳する単一の文字列としてフラグされます。そのため、文字列には、このブロック内の要素の HTML コードが含まれます。
    * 複数の文字列を含むブロックにフラグを設定する場合、それらの文字列のうち少なくとも 1 つに既にフラグが設定されていると、警告が表示されます。独立した文字列からフラグを削除して、ブロック全体にフラグを追加できます。
 
-      ![](assets/dce_translation_4.png)
+     ![](assets/dce_translation_4.png)
 
    * 既にフラグが設定されたブロックに含まれている文字列からフラグを削除する場合、文字列翻訳オプションを直接修正することはできません。ただし、変更するために、文字列を含むブロックにアクセスすることはできます。
 
-      ![](assets/dce_translation_2.png)
+     ![](assets/dce_translation_2.png)
 
 1. 文字列のフラグ設定が終了したら、Web アプリケーションに戻って、「**[!UICONTROL 翻訳]**」タブを選択します。
 1. 「**[!UICONTROL 翻訳する文字列を収集]**」を選択します。DCE でフラグを設定した文字列は、Web アプリケーションの文字列に追加されます。

@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 * **[!UICONTROL ライン]**：**[!UICONTROL 複数ラインテキスト]**&#x200B;タイプのゾーンのライン数。
 * **[!UICONTROL スタイルインライン]**：CSS スタイルシートを追加の設定でオーバーロードできます。これらは、次の例のように、**;** 文字を使用して区切られます。
 
-   ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
+  ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
 ### ヘッダーとフッターの定義 {#defining-headers-and-footers}
 
@@ -148,11 +148,11 @@ ht-degree: 100%
 
 * メインツリーには、フォームコンテキストのパラメーターが含まれます。デフォルトパラメーターは、識別子（受信者の暗号化された識別子に一致）、言語および接触チャネルです。
 
-   詳しくは、この[ページ](defining-web-forms-properties.md#form-url-parameters)を参照してください。
+  詳しくは、この[ページ](defining-web-forms-properties.md#form-url-parameters)を参照してください。
 
 * **[!UICONTROL 受信者]**&#x200B;サブツリーには、フォームに挿入され、データベースに格納された入力フィールドが含まれます。
 
-   詳しくは、[データベースへのデータの格納](web-forms-answers.md#storing-data-in-the-database)を参照してください。
+  詳しくは、[データベースへのデータの格納](web-forms-answers.md#storing-data-in-the-database)を参照してください。
 
 * **[!UICONTROL 変数]**&#x200B;サブツリーには、このフォームで使用可能な変数が含まれます。詳しくは、[ローカル変数へのデータの格納](web-forms-answers.md#storing-data-in-a-local-variable)を参照してください。
 

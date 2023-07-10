@@ -27,15 +27,15 @@ Adobe Experience Cloud から共有されるアセットは、E メールやラ�
 
    * [標準編集モード](../../delivery/using/defining-the-email-content.md#adding-images)を使用している場合、**[!UICONTROL 画像]**／**[!UICONTROL 共有アセットを選択]**&#x200B;を選択します。
 
-      ![](assets/dam_insert_image_standard.png)
+     ![](assets/dam_insert_image_standard.png)
 
    * [詳細編集モード](../../web/using/about-campaign-html-editor.md)（DCE）を使用している場合、画像ブロックに移動し、コンテキストメニューから「**[!UICONTROL 共有アセットを選択]**」を選択します。
 
-      ![](assets/dam_insert_image_dce.png)
+     ![](assets/dam_insert_image_dce.png)
 
-      >[!NOTE]
-      >
-      >DCE を使用している場合、[Web にアクセス](../../platform/using/adobe-campaign-workspace.md#console-and-web-access)している Adobe Campaign から共有画像を挿入することはできません。
+     >[!NOTE]
+     >
+     >DCE を使用している場合、[Web にアクセス](../../platform/using/adobe-campaign-workspace.md#console-and-web-access)している Adobe Campaign から共有画像を挿入することはできません。
 
 1. 表示される選択ウィンドウで画像を選択し、確定します。
 

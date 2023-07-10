@@ -218,36 +218,36 @@ Linux での移行手順は次のとおりです。
 
    * In **Debian**:
 
-      ```
-      dpkg -l | grep nl
-      ```
+     ```
+     dpkg -l | grep nl
+     ```
 
-      インストールされているパッケージの一覧が表示されます。
+     インストールされているパッケージの一覧が表示されます。
 
-      ```
-      ii  nlserver6                       XXXX                     nlserver6-XXXX
-      ii  nlthirdparty6                   XXXX                     nlthirdparty6-XXXX
-      ```
+     ```
+     ii  nlserver6                       XXXX                     nlserver6-XXXX
+     ii  nlthirdparty6                   XXXX                     nlthirdparty6-XXXX
+     ```
 
    * In **Red Hat**:
 
-      ```
-      rpm -qa | grep nl
-      ```
+     ```
+     rpm -qa | grep nl
+     ```
 
 1. Adobe Campaign v6 パッケージをアンインストールします。
 
    * In **Debian**:
 
-      ```
-      dpkg --purge nlserver6 nlthirdparty6
-      ```
+     ```
+     dpkg --purge nlserver6 nlthirdparty6
+     ```
 
    * In **Red Hat**:
 
-      ```
-      rprm -ev nlserver6 nlthirdparty6
-      ```
+     ```
+     rprm -ev nlserver6 nlthirdparty6
+     ```
 
 ## Adobe Campaign v7 のデプロイ {#deploying-adobe-campaign-v7}
 
@@ -475,15 +475,16 @@ Adobe Campaignをデプロイするには、次の手順に従います。
 
    * In **Debian**:
 
-      ```
-      dpkg -i nlserver6-XXXX-amd64_debX.deb
-      ```
+     ```
+     dpkg -i nlserver6-XXXX-amd64_debX.deb
+     ```
 
    * In **Red Hat**:
 
-      ```
-      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
-      ```
+     ```
+     rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
+     ```
+
    >[!IMPORTANT]
    >
    >次の手順に進む前に、パッケージを正常にインストールする必要があります。

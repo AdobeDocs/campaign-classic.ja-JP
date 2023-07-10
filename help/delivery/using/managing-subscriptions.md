@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Subscriptions
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 100%
 
@@ -55,9 +55,9 @@ E メールの場合、必須の購読解除リンクが自動的に生成され
 
 * 「**[!UICONTROL ラベル]**」フィールドにサービスの名前を入力し、配信チャネル（E メール、モバイル、Facebook、Twitter またはモバイルアプリケーション）を選択します。
 
-   >[!NOTE]
-   >
-   >Facebook と Twitter の購読については、[この節](../../social/using/about-social-marketing.md)で説明しています。モバイルアプリケーションの購読について詳しくは、[モバイルアプリチャネルについて](about-mobile-app-channel.md)を参照してください。
+  >[!NOTE]
+  >
+  >Facebook と Twitter の購読については、[この節](../../social/using/about-social-marketing.md)で説明しています。モバイルアプリケーションの購読について詳しくは、[モバイルアプリチャネルについて](about-mobile-app-channel.md)を参照してください。
 
 * E メールタイプのサービスの場合は、「**配信モード**」を選択します。選択できるモードは、「**[!UICONTROL ニュースレター]**」または「**[!UICONTROL バイラル]**」です。
 * 購読または購読解除の&#x200B;**確認メッセージ**&#x200B;を送信できます。そのためには、対応する配信の作成に使用する配信テンプレートを「**[!UICONTROL 購読]**」フィールドおよび「**[!UICONTROL 購読解除]**」フィールドから選択します。このテンプレートは、定義済みのターゲットではなく、「**[!UICONTROL 購読]**」タイプのターゲットマッピングを使用して設定されている必要があります。[E メールチャネルについて](about-email-channel.md)の節を参照してください。
@@ -126,22 +126,22 @@ E メールの場合、必須の購読解除リンクが自動的に生成され
 
 * サービスを手動で追加するには、受信者のプロファイルの「**[!UICONTROL 購読]**」タブから「**[!UICONTROL 追加]**」をクリックし、該当する情報サービスを選択します。
 
-   詳しくは、[この節](../../platform/using/editing-a-profile.md)のプロファイル編集に関する部分を参照してください。
+  詳しくは、[この節](../../platform/using/editing-a-profile.md)のプロファイル編集に関する部分を参照してください。
 
 * 一連の受信者をこのサービスに自動的に購読登録します。受信者のリストは、フィルタリング操作、グループ、フォルダー、インポートまたはマウスを使用した直接選択から取得できます。この受信者を購読登録するには、プロファイルを選択して右クリックします。**[!UICONTROL アクション／サービスの購読選択]**&#x200B;を選択し、該当するサービスを選択して、操作を開始します。
 * 受信者をインポートして、情報サービスに自動的に購読登録します。そのためには、インポートウィザードの最後の手順で該当するサービスを選択します。
 
-   詳しくは、[この節](../../platform/using/executing-import-jobs.md)を参照してください。
+  詳しくは、[この節](../../platform/using/executing-import-jobs.md)を参照してください。
 
 * 受信者をサービスに購読登録できる Web フォームを使用します。
 
-   詳しくは、[この節](../../web/using/about-web-applications.md)を参照してください。
+  詳しくは、[この節](../../web/using/about-web-applications.md)を参照してください。
 
 * ターゲティングワークフローを作成し、「**[!UICONTROL 購読サービス]**」ボックスを使用します。
 
-   ![](assets/s_ncs_user_subscribe_from_wf.png)
+  ![](assets/s_ncs_user_subscribe_from_wf.png)
 
-   ワークフローとその使用方法については、[この節](../../workflow/using/about-workflows.md)で説明しています。
+  ワークフローとその使用方法については、[この節](../../workflow/using/about-workflows.md)で説明しています。
 
 ### 受信者のサービスからの購読解除 {#unsubscribing-a-recipient-from-a-service}
 

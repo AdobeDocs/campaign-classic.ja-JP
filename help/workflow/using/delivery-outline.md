@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Targeting Activity
 exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Adobe Campaign の配信の概要について詳しくは、この[節](../../ca
 
    * オファーエンジンを呼び出す場合は、「**[!UICONTROL 選択する提案数を制限]**」ボックスをオンにします。オファースペースを指定し、配信で提示される提案の数を設定します。
 
-      オファーエンジンによって、オファーの重み付けと実施要件ルールが考慮されます。
+     オファーエンジンによって、オファーの重み付けと実施要件ルールが考慮されます。
 
    * このボックスをオフにすると、オファーエンジンを呼び出すことなく、配信の概要のすべてのオファーが提示されます。
 

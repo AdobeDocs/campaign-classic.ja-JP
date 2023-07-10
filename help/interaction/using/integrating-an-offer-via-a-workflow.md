@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 100%
 
@@ -39,9 +39,10 @@ ht-degree: 100%
 
    * オファーエンジンを呼び出す場合は、「**[!UICONTROL 選択する提案数を制限]**」ボックスをオンにします。オファースペースを指定し、配信で提示される提案の数を設定します。
 
-      オファーエンジンによって、オファーの重み付けと実施要件ルールが考慮されます。
+     オファーエンジンによって、オファーの重み付けと実施要件ルールが考慮されます。
 
    * このボックスをオフにすると、オファーエンジンを呼び出すことなく、配信の概要のすべてのオファーが提示されます。
+
    >[!NOTE]
    >
    >プレビューでは、配信で指定されたオファーの数が考慮されます。ワークフローを実行する際に考慮されるのは、配信の概要で指定されたオファーの数です。
@@ -80,11 +81,11 @@ ht-degree: 100%
 
    * **[!UICONTROL カテゴリ内で最適なオファーを検索]**：このオプションをオンにして、オファーエンジン呼び出しパラメーター（オファースペース、カテゴリまたはテーマ、コンタクト日、保持するオファーの数）を指定します。エンジンは、これらのパラメーターに基づいて、追加するオファーを自動的に計算します。「**[!UICONTROL カテゴリ]**」フィールドと「**[!UICONTROL テーマ]**」フィールドは、両方同時には使用せず、どちらか一方のみ入力することをお勧めします。
 
-      ![](assets/int_enrichment_offer3.png)
+     ![](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL 事前定義済みオファー]**：このオプションをオンにして、オファースペース、特定のオファーおよびコンタクト日を指定し、オファーエンジンを呼び出すことなく、追加するオファーを直接設定します。
 
-      ![](assets/int_enrichment_offer4.png)
+     ![](assets/int_enrichment_offer4.png)
 
 1. 次に、選択したチャネルに対応する配信アクティビティを設定します。詳しくは、[配信へのオファー提案の挿入](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery)の節を参照してください。
 
@@ -171,6 +172,6 @@ ht-degree: 100%
    * 適用可能なフィルタリングおよび制限ルールを使用して、サブセットの母集団を指定します。
    * サブセットに提示するオファーを選択します。利用できるオファーは、前の手順で選択したオファー環境で実施要件を満たすオファーです。
 
-      ![](assets/int_offer_per_cell1.png)
+     ![](assets/int_offer_per_cell1.png)
 
 1. 次に、選択したチャネルに対応する配信アクティビティを設定します。詳しくは、[配信へのオファー提案の挿入](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery)の節を参照してください。

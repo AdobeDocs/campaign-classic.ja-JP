@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Data Management
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 
@@ -29,17 +29,17 @@ ht-degree: 100%
 
 * ターゲットを表示
 
-   このメニューは、ターゲット母集団に対して使用可能なデータと、作業用テーブルの構造を表示します（「**[!UICONTROL スキーマ]**」タブ）。
+  このメニューは、ターゲット母集団に対して使用可能なデータと、作業用テーブルの構造を表示します（「**[!UICONTROL スキーマ]**」タブ）。
 
-   ![](assets/wf-right-click-display.png)
+  ![](assets/wf-right-click-display.png)
 
-   詳しくは、[ワークテーブルとワークフローのスキーマ](monitoring-workflow-execution.md#worktables-and-workflow-schema)を参照してください。
+  詳しくは、[ワークテーブルとワークフローのスキーマ](monitoring-workflow-execution.md#worktables-and-workflow-schema)を参照してください。
 
 * ターゲットを分析
 
-   このメニューは、トランジションのデータの統計とレポートを作成できる記述的分析ウィザードを表示します。
+  このメニューは、トランジションのデータの統計とレポートを作成できる記述的分析ウィザードを表示します。
 
-   詳しくは、[この節](../../reporting/using/using-the-descriptive-analysis-wizard.md)を参照してください。
+  詳しくは、[この節](../../reporting/using/using-the-descriptive-analysis-wizard.md)を参照してください。
 
 ワークフローが実行されると、ターゲットデータはパージされます。最後のワークテーブルだけにアクセスできます。
 ワークフローを設定し、すべての作業用テーブルをアクセス可能なまま維持することもできます。それには、「**[!UICONTROL 2 つの実行間の中間母集団の結果を保存]**」オプションを選択します。

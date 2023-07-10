@@ -19,6 +19,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 >[!NOTE]
 >
 >これらの変更に関する詳細な質問については、[FAQ](#faq) を参照するか、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}にお問い合わせください。
+>
 
 ## 変更点{#acc-deliverability-changes}
 
@@ -43,6 +44,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 >[!WARNING]
 >
 >これらの手順は、ハイブリッド実装とオンプレミス実装でのみ実行してください。
+>
 
 ### 前提条件{#prerequisites}
 

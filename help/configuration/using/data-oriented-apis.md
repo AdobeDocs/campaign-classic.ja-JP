@@ -260,26 +260,26 @@ E メールのフィルターを使用して、受信者の姓と名（「nms:re
 
 * 単一の式の単純なバージョン：
 
-   ```
-   <where>
-     <condition expr="(@age > 15 or @age <= 45) and  (@city = 'Newton' or @city = 'Culver City') "/>
-   </where>
-   ```
+  ```
+  <where>
+    <condition expr="(@age > 15 or @age <= 45) and  (@city = 'Newton' or @city = 'Culver City') "/>
+  </where>
+  ```
 
 * を使用した構造化バージョン `<condition>` 要素：
 
-   ```
-   <where>
-     <condition bool-operator="AND">
-       <condition expr="@age > 15" bool-operator="OR"/>
-       <condition expr="@age <= 45"/>
-     </condition>
-     <condition>
-       <condition expr="@city = 'Newton'" bool-operator="OR"/>
-       <condition expr="@city = 'Culver City'"/>
-     </condition>
-   </where>
-   ```
+  ```
+  <where>
+    <condition bool-operator="AND">
+      <condition expr="@age > 15" bool-operator="OR"/>
+      <condition expr="@age <= 45"/>
+    </condition>
+    <condition>
+      <condition expr="@city = 'Newton'" bool-operator="OR"/>
+      <condition expr="@city = 'Culver City'"/>
+    </condition>
+  </where>
+  ```
 
 同じフィールドに複数の条件が適用される場合は、「OR」演算子を「IN」演算子に置き換えることができます。
 
@@ -298,72 +298,72 @@ E メールのフィルターを使用して、受信者の姓と名（「nms:re
 
 * リンク 1-1 または N1:テーブルに外部キー（テーブルからリンクが開始する）がある場合、リンクされたテーブルのフィールドは、直接フィルターまたは取得できます。
 
-   フォルダーラベルのフィルターの例：
+  フォルダーラベルのフィルターの例：
 
-   ```
-   <where>
-     <condition expr="[folder/@label] like 'Segment%'"/>
-   </where>
-   ```
+  ```
+  <where>
+    <condition expr="[folder/@label] like 'Segment%'"/>
+  </where>
+  ```
 
-   「nms:recipient」スキーマからフォルダーのフィールドを取得するには、次のようにします。
+  「nms:recipient」スキーマからフォルダーのフィールドを取得するには、次のようにします。
 
-   ```
-   <select>
-     <!-- label of recipient folder -->
-     <node expr="[folder/@label]"/>
-     <!-- displays the string count of the folder -->
-     <node expr="partition"/>
-   </select>
-   ```
+  ```
+  <select>
+    <!-- label of recipient folder -->
+    <node expr="[folder/@label]"/>
+    <!-- displays the string count of the folder -->
+    <node expr="partition"/>
+  </select>
+  ```
 
 * コレクションリンク (1N):コレクションテーブルのフィールドに対するフィルターは、 **存在する** または **存在しない** 演算子
 
-   「ニュースレター」情報サービスを購読した受信者をフィルターするには、次の手順を実行します。
+  「ニュースレター」情報サービスを購読した受信者をフィルターするには、次の手順を実行します。
 
-   ```
-   <where>
-     <condition expr="subscription" setOperator="EXISTS">
-       <condition expr="@name = 'Newsletter'"/>
-     </condition>
-   </where>
-   ```
+  ```
+  <where>
+    <condition expr="subscription" setOperator="EXISTS">
+      <condition expr="@name = 'Newsletter'"/>
+    </condition>
+  </where>
+  ```
 
-   コレクションリンクのフィールドを `<select>` クエリが基数積を返すので、句はお勧めしません。 リンクされたテーブルに 1 つのレコードのみが含まれる場合にのみ使用されます ( 例： `<node expr="">`) をクリックします。
+  コレクションリンクのフィールドを `<select>` クエリが基数積を返すので、句はお勧めしません。 リンクされたテーブルに 1 つのレコードのみが含まれる場合にのみ使用されます ( 例： `<node expr="">`) をクリックします。
 
-   「subscription」コレクションリンクの例：
+  「subscription」コレクションリンクの例：
 
-   ```
-   <select>
-     <node expr="subscription/@label"/>
-   </select>
-   ```
+  ```
+  <select>
+    <node expr="subscription/@label"/>
+  </select>
+  ```
 
-   サブリストを取得して、 `<select>` 句を使用します。 参照されるフィールドの XPath は、コレクション要素のコンテキストに基づいています。
+  サブリストを取得して、 `<select>` 句を使用します。 参照されるフィールドの XPath は、コレクション要素のコンテキストに基づいています。
 
-   フィルター ( `<orderby>`  ) および制限 (  `<where>`  ) 要素をコレクション要素に追加できます。
+  フィルター ( `<orderby>`  ) および制限 (  `<where>`  ) 要素をコレクション要素に追加できます。
 
-   この例では、クエリは受信者ごとに、受信者が購読する E メールと情報サービスのリストを返します。
+  この例では、クエリは受信者ごとに、受信者が購読する E メールと情報サービスのリストを返します。
 
-   ```
-   <queryDef schema="nms:recipient" operation="select">
-     <select>
-       <node expr="@email"/>
-   
-       <!-- collection table (unbound type) -->
-       <node expr="subscription">  
-         <node expr="[service/@label]"/>    
-         <!-- sub-condition on the collection table -->
-         <where>  
-           <condition expr="@expirationDate >= GetDate()"/>
-         </where>
-         <orderBy>
-           <node expr="@expirationDate"/> 
-         </orderBy>
-       </node>
-     </select> 
-   </queryDef>
-   ```
+  ```
+  <queryDef schema="nms:recipient" operation="select">
+    <select>
+      <node expr="@email"/>
+  
+      <!-- collection table (unbound type) -->
+      <node expr="subscription">  
+        <node expr="[service/@label]"/>    
+        <!-- sub-condition on the collection table -->
+        <where>  
+          <condition expr="@expirationDate >= GetDate()"/>
+        </where>
+        <orderBy>
+          <node expr="@expirationDate"/> 
+        </orderBy>
+      </node>
+    </select> 
+  </queryDef>
+  ```
 
 #### 「where」句と「select」句のパラメーターのバインド {#binding-the-parameters-of-the--where--and--select--clause}
 
@@ -461,43 +461,43 @@ E メールのフィルターを使用して、受信者の姓と名（「nms:re
 
 * クエリ:
 
-   ```
-   <?xml version='1.0' encoding='ISO-8859-1'?>
-   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
-     <SOAP-ENV:Body>
-       <ExecuteQuery xmlns='urn:xtk:queryDef' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
-         <__sessiontoken xsi:type='xsd:string'/>
-         <entity xsi:type='ns:Element' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
-           <queryDef operation="get" schema="nms:recipient" xtkschema="xtk:queryDef">
-             <select>
-               <node expr="@email"/>
-               <node expr="@lastName"/>
-               <node expr="@firstName"/>
-             </select>
-             <where>
-               <condition expr="@id = 3599"/>
-             </where>
-           </queryDef>
-         </entity>
-       </ExecuteQuery>
-     </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <?xml version='1.0' encoding='ISO-8859-1'?>
+  <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP-ENV:Body>
+      <ExecuteQuery xmlns='urn:xtk:queryDef' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
+        <__sessiontoken xsi:type='xsd:string'/>
+        <entity xsi:type='ns:Element' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
+          <queryDef operation="get" schema="nms:recipient" xtkschema="xtk:queryDef">
+            <select>
+              <node expr="@email"/>
+              <node expr="@lastName"/>
+              <node expr="@firstName"/>
+            </select>
+            <where>
+              <condition expr="@id = 3599"/>
+            </where>
+          </queryDef>
+        </entity>
+      </ExecuteQuery>
+    </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 * 応答:
 
-   ```
-   <?xml version='1.0' encoding='ISO-8859-1'?>
-   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
-     <SOAP-ENV:Body>
-       <ExecuteQueryResponse xmlns='urn:xtk:queryDef' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
-         <pdomOutput xsi:type='ns:Element' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
-           <recipient email="john.doe@adobe.com" lastName"Doe" firstName="John"/>
-         </pdomOutput>
-       </ExecuteQueryResponse>
-     </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <?xml version='1.0' encoding='ISO-8859-1'?>
+  <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP-ENV:Body>
+      <ExecuteQueryResponse xmlns='urn:xtk:queryDef' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
+        <pdomOutput xsi:type='ns:Element' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
+          <recipient email="john.doe@adobe.com" lastName"Doe" firstName="John"/>
+        </pdomOutput>
+      </ExecuteQueryResponse>
+    </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 ## 書き込み/書き込みコレクション (xtk:session) {#write---writecollection--xtk-session-}
 
@@ -630,43 +630,43 @@ E メールアドレス、生年月日、市区町村を使用して受信者（
 
 * クエリ:
 
-   ```
-   <?xml version='1.0' encoding='ISO-8859-1'?>
-   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
-     <SOAP-ENV:Body>
-       <Write xmlns='urn:xtk:persist' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
-         <__sessiontoken xsi:type='xsd:string'/>
-         <domDoc xsi:type='ns:Element' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
-           <recipient xtkschema="nms:recipient" email="rene.dupont@adobe.com" firstName="René" lastName="Dupont" _key="@email">
-         </domDoc>
-       </Write>
-     </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <?xml version='1.0' encoding='ISO-8859-1'?>
+  <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP-ENV:Body>
+      <Write xmlns='urn:xtk:persist' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
+        <__sessiontoken xsi:type='xsd:string'/>
+        <domDoc xsi:type='ns:Element' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
+          <recipient xtkschema="nms:recipient" email="rene.dupont@adobe.com" firstName="René" lastName="Dupont" _key="@email">
+        </domDoc>
+      </Write>
+    </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 * 応答:
 
-   ```
-   <?xml version='1.0' encoding='ISO-8859-1'?>
-   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
-     <SOAP-ENV:Body>
-       <WriteResponse xmlns='urn:' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
-       </WriteResponse>
-     </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <?xml version='1.0' encoding='ISO-8859-1'?>
+  <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP-ENV:Body>
+      <WriteResponse xmlns='urn:' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
+      </WriteResponse>
+    </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
-   次のエラーで返されます：
+  次のエラーで返されます：
 
-   ```
-   <?xml version='1.0'?>
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
-     <SOAP-ENV:Body>
-       <SOAP-ENV:Fault>
-         <faultcode>SOAP-ENV:Server</faultcode>
-         <faultstring xsi:type="xsd:string">Error while executing the method 'Write' of service 'xtk:persist'.</faultstring>
-         <detail xsi:type="xsd:string">PostgreSQL error: ERROR:  duplicate key violates unique constraint &quot;nmsrecipient_id&quot;Impossible to save document of type 'Recipients (nms:recipient)'</detail>
-       </SOAP-ENV:Fault>
-     </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <?xml version='1.0'?>
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP-ENV:Body>
+      <SOAP-ENV:Fault>
+        <faultcode>SOAP-ENV:Server</faultcode>
+        <faultstring xsi:type="xsd:string">Error while executing the method 'Write' of service 'xtk:persist'.</faultstring>
+        <detail xsi:type="xsd:string">PostgreSQL error: ERROR:  duplicate key violates unique constraint &quot;nmsrecipient_id&quot;Impossible to save document of type 'Recipients (nms:recipient)'</detail>
+      </SOAP-ENV:Fault>
+    </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```

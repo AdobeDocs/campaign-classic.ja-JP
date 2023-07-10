@@ -46,19 +46,19 @@ SQL の命名規則は次のとおりです。
 
 * テーブル：スキーマの名前空間と名前を連結したもの
 
-   この例では、テーブルの名前は、スキーマのメイン要素を使用して **sqltable** 属性に入力されます。
+  この例では、テーブルの名前は、スキーマのメイン要素を使用して **sqltable** 属性に入力されます。
 
-   ```
-   <element name="recipient" sqltable="CusRecipient">
-   ```
+  ```
+  <element name="recipient" sqltable="CusRecipient">
+  ```
 
 * フィールド：型に従って定義されたプレフィックス（整数の場合は「i」、倍精度数の場合は「d」、文字列の場合は「s」、日付の場合は「ts」など）が先頭に付く要素名
 
-   フィールド名は、型指定された **`<attribute>`** および **`<element>`** ごとに **sqlname** 属性を使用し入力されます。
+  フィールド名は、型指定された **`<attribute>`** および **`<element>`** ごとに **sqlname** 属性を使用し入力されます。
 
-   ```
-   <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
-   ```
+  ```
+  <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
+  ```
 
 >[!NOTE]
 >
@@ -89,17 +89,17 @@ XML のフィールドにデータを入力するには、値「true」の **xml
 
 * 複数行コメントフィールド：
 
-   ```
-   <element name="comment" xml="true" type="memo" label="Comment"/>
-   ```
+  ```
+  <element name="comment" xml="true" type="memo" label="Comment"/>
+  ```
 
 * HTML 形式でのデータの説明：
 
-   ```
-   <element name="description" xml="true" type="html" label="Description"/>
-   ```
+  ```
+  <element name="description" xml="true" type="html" label="Description"/>
+  ```
 
-   「html」タイプを使用すると、HTML コンテンツを CDATA タグに格納し、Adobe Campaign クライアントインターフェイスに特別な HTML 編集チェックを表示できます。
+  「html」タイプを使用すると、HTML コンテンツを CDATA タグに格納し、Adobe Campaign クライアントインターフェイスに特別な HTML 編集チェックを表示できます。
 
 XML フィールドを使用すると、データベースの物理構造を変更することなく、フィールドを追加できます。もう 1 つの利点は、使用するリソースが少ないことです（SQL フィールドに割り当てるサイズ、テーブルあたりのフィールド数の制限など）。
 
@@ -137,40 +137,40 @@ XML フィールドを使用すると、データベースの物理構造を変�
 
 * E メールアドレスと市区町村にインデックスを追加する：
 
-   ```
-   <srcSchema name="recipient" namespace="cus">
-     <element name="recipient">
-       <dbindex name="email">
-         <keyfield xpath="@email"/> 
-         <keyfield xpath="location/@city"/> 
-       </dbindex>
-   
-       <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
-       <element name="location" label="Location">
-         <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
-       </element>
-     </element>
-   </srcSchema>
-   ```
+  ```
+  <srcSchema name="recipient" namespace="cus">
+    <element name="recipient">
+      <dbindex name="email">
+        <keyfield xpath="@email"/> 
+        <keyfield xpath="location/@city"/> 
+      </dbindex>
+  
+      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
+      <element name="location" label="Location">
+        <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
+      </element>
+    </element>
+  </srcSchema>
+  ```
 
 * 「id」名前フィールドに一意のインデックスを追加します。
 
-   ```
-   <srcSchema name="recipient" namespace="cus">
-     <element name="recipient">
-       <dbindex name="id" unique="true">
-         <keyfield xpath="@id"/> 
-       </dbindex>
-   
-       <dbindex name="email">
-         <keyfield xpath="@email"/> 
-       </dbindex>
-   
-       <attribute name="id" type="long" label="Identifier"/>
-       <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
-     </element>
-   </srcSchema>
-   ```
+  ```
+  <srcSchema name="recipient" namespace="cus">
+    <element name="recipient">
+      <dbindex name="id" unique="true">
+        <keyfield xpath="@id"/> 
+      </dbindex>
+  
+      <dbindex name="email">
+        <keyfield xpath="@email"/> 
+      </dbindex>
+  
+      <attribute name="id" type="long" label="Identifier"/>
+      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
+    </element>
+  </srcSchema>
+  ```
 
 ## キーの管理 {#management-of-keys}
 
@@ -204,86 +204,86 @@ XML フィールドを使用すると、データベースの物理構造を変�
 
 * E メールアドレスと市区町村にキーを追加する：
 
-   ```
-   <srcSchema name="recipient" namespace="cus">
-     <element name="recipient">
-       <key name="email">
-         <keyfield xpath="@email"/> 
-         <keyfield xpath="location/@city"/> 
-       </key>
-   
-       <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
-       <element name="location" label="Location">
-         <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
-       </element>
-     </element>
-   </srcSchema>
-   ```
+  ```
+  <srcSchema name="recipient" namespace="cus">
+    <element name="recipient">
+      <key name="email">
+        <keyfield xpath="@email"/> 
+        <keyfield xpath="location/@city"/> 
+      </key>
+  
+      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
+      <element name="location" label="Location">
+        <attribute name="city" type="string" length="50" label="City" userEnum="city"/>
+      </element>
+    </element>
+  </srcSchema>
+  ```
 
-   生成されたスキーマ：
+  生成されたスキーマ：
 
-   ```
-   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-     <element name="recipient" sqltable="CusRecipient">    
-      <dbindex name="email" unique="true">      
-        <keyfield xpath="@email"/>      
-        <keyfield xpath="location/@city"/>    
-      </dbindex>    
-   
-      <key name="email">      
+  ```
+  <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
+    <element name="recipient" sqltable="CusRecipient">    
+     <dbindex name="email" unique="true">      
        <keyfield xpath="@email"/>      
        <keyfield xpath="location/@city"/>    
-      </key>    
-   
-      <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
-      <element label="Location" name="location">      
-        <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
-      </element>  
-     </element>
-   </schema>
-   ```
+     </dbindex>    
+  
+     <key name="email">      
+      <keyfield xpath="@email"/>      
+      <keyfield xpath="location/@city"/>    
+     </key>    
+  
+     <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
+     <element label="Location" name="location">      
+       <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
+     </element>  
+    </element>
+  </schema>
+  ```
 
 * 「id」名フィールドへのプライマリキーまたは内部キーの追加：
 
-   ```
-   <srcSchema name="recipient" namespace="cus">
-     <element name="recipient">
-       <key name="id" internal="true">
-         <keyfield xpath="@id"/> 
-       </key>
-   
-       <key name="email" noDbIndex="true">
-         <keyfield xpath="@email"/> 
-       </key>
-   
-       <attribute name="id" type="long" label="Identifier"/>
-       <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
-     </element>
-   </srcSchema>
-   ```
+  ```
+  <srcSchema name="recipient" namespace="cus">
+    <element name="recipient">
+      <key name="id" internal="true">
+        <keyfield xpath="@id"/> 
+      </key>
+  
+      <key name="email" noDbIndex="true">
+        <keyfield xpath="@email"/> 
+      </key>
+  
+      <attribute name="id" type="long" label="Identifier"/>
+      <attribute name="email" type="string" length="80" label="Email" desc="Email address of recipient"/>
+    </element>
+  </srcSchema>
+  ```
 
-   生成されたスキーマ：
+  生成されたスキーマ：
 
-   ```
-   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
-     <element name="recipient" sqltable="CusRecipient">    
-       <key name="email">      
-         <keyfield xpath="@email"/>    
-       </key>    
-   
-       <dbindex name="id" unique="true">      
-         <keyfield xpath="@id"/>    
-       </dbindex>    
-   
-       <key internal="true" name="id">      
+  ```
+  <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
+    <element name="recipient" sqltable="CusRecipient">    
+      <key name="email">      
+        <keyfield xpath="@email"/>    
+      </key>    
+  
+      <dbindex name="id" unique="true">      
         <keyfield xpath="@id"/>    
-       </key>    
-   
-       <attribute label="Identifier" name="id" sqlname="iRecipientId" type="long"/>    
-       <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
-     </element>
-   </schema>
-   ```
+      </dbindex>    
+  
+      <key internal="true" name="id">      
+       <keyfield xpath="@id"/>    
+      </key>    
+  
+      <attribute label="Identifier" name="id" sqlname="iRecipientId" type="long"/>    
+      <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>  
+    </element>
+  </schema>
+  ```
 
 ### 自動増分キー {#auto-incremental-key}
 
@@ -391,11 +391,11 @@ FDA テーブルについて詳しくは、 [外部データベースへのア�
       * **own**：ソースオカレンスを削除すると、ターゲットオカレンスが削除されます。
       * **owncopy**：**own**&#x200B;と同じ（削除の場合）。もしくは、オカレンスを複製する（複製の場合）、
       * **neutral**：特に何もしません。
+
    * **revIntegrity** （オプション）：ターゲットスキーマの整合性（オプション。デフォルトでは「normal」）
    * **revCardinality** （オプション）：値「single」を指定すると、一対一のタイプ（デフォルトでは一対多）のカーディナリティが入力されます。
    * **externalJoin** （オプション）：外部結合を強制します
    * **revExternalJoin** （オプション）：外部結合を逆リンクで強制的に設定します
-
 
 * リンクはソーステーブルから宛先のテーブルへ、1 つ以上のフィールドを参照します。結合（`<join>`要素）を構成するフィールドは、デフォルトでターゲットスキーマの内部キーを使用して、自動で推定されるので、入力する必要はありません。
 * インデックスは、拡張スキーマ内のリンクの外部キーに自動的に追加されます。

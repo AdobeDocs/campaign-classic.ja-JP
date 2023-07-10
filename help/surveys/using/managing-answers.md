@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%
 
@@ -138,7 +138,7 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 * スコアをテストで使用するには、次に示すように、テストの計算式の「**[!UICONTROL スコア]**」フィールドを使用します。
 
-   ![](assets/s_ncs_admin_survey_score_in_a_test.png)
+  ![](assets/s_ncs_admin_survey_score_in_a_test.png)
 
 * スコアをスクリプトで使用できます。
 
@@ -146,18 +146,18 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 * 調査で、次のページを使用すると、ドロップダウンリストで選択した値に応じて、異なるスコアをユーザーに割り当てることができます。
 
-   ![](assets/s_ncs_admin_survey_score_exa.png)
+  ![](assets/s_ncs_admin_survey_score_exa.png)
 
 * 選択したオプションに応じて、このスコアを 2 番目の値と組み合わせることができます。
 
-   ![](assets/s_ncs_admin_survey_score_exb.png)
+  ![](assets/s_ncs_admin_survey_score_exb.png)
 
 * ユーザーが「**[!UICONTROL 次へ]**」ボタンをクリックすると、2 つの値が加算されます。
 
-   ![](assets/s_ncs_admin_survey_score_exe.png)
+  ![](assets/s_ncs_admin_survey_score_exe.png)
 
 * 条件は、スコアに応じて、表示されるページに適用できます。これは、次のように設定します。
 
-   ![](assets/s_ncs_admin_survey_score_exd.png)
+  ![](assets/s_ncs_admin_survey_score_exd.png)
 
-   ![](assets/s_ncs_admin_survey_score_exg.png)
+  ![](assets/s_ncs_admin_survey_score_exg.png)

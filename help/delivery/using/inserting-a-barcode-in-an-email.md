@@ -6,7 +6,7 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 
@@ -31,23 +31,23 @@ ht-degree: 100%
 
    * 1D フォーマットの場合、Adobe Campaign で使用できるタイプは、Codabar、コード 128、GS1-128（以前の EAN-128）、UPC-A、UPC-E、ISBN、EAN-8、Code39、インターリーブ 2/5、POSTNET および Royal Mail（RM4SCC）です。
 
-      1D バーコードの例：
+     1D バーコードの例：
 
-      ![](assets/barcode_insert_08.png)
+     ![](assets/barcode_insert_08.png)
 
    * DataMatrix タイプと PDF417 タイプは 2D フォーマットを扱います。
 
-      2D バーコードの例：
+     2D バーコードの例：
 
-      ![](assets/barcode_insert_09.png)
+     ![](assets/barcode_insert_09.png)
 
    * QR コードを挿入するには、このタイプを選択し、適用する誤り訂正レベルを入力します。このレベルで、データ量とコードの劣化の許容範囲を定義します。
 
-      ![](assets/barcode_insert_06.png)
+     ![](assets/barcode_insert_06.png)
 
-      QR コードの例：
+     QR コードの例：
 
-      ![](assets/barcode_insert_12.png)
+     ![](assets/barcode_insert_12.png)
 
 1. E メールに挿入したいバーコードのサイズを入力します。縮尺を設定することによって、バーコードのサイズを 1 倍から 10 倍まで拡大または縮小できます。
 1. 「**[!UICONTROL 値]**」フィールドを使用して、バーコードの値を定義できます。値は、特別オファーに対応させたり、ある基準の関数にすることができます。顧客にリンクされているデータベースフィールドの値にすることも可能です。

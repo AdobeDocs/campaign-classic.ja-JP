@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
@@ -24,11 +24,11 @@ ht-degree: 100%
 
 * **[!UICONTROL スクリプト]**
 
-   エディターの中央部に、実行されるスクリプトが含まれています。このスクリプトは、JST テンプレートであり、ワークフローのコンテキストに応じて設定できます。
+  エディターの中央部に、実行されるスクリプトが含まれています。このスクリプトは、JST テンプレートであり、ワークフローのコンテキストに応じて設定できます。
 
 * **[!UICONTROL エラーを処理]**
 
-   [エラーを処理](monitoring-workflow-execution.md#processing-errors)を参照してください。
+  [エラーを処理](monitoring-workflow-execution.md#processing-errors)を参照してください。
 
 ## JavaScript コードと高度な JavaScript コード {#javascript-code}
 

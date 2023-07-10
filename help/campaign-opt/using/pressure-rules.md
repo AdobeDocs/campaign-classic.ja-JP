@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3460'
 ht-degree: 100%
 
@@ -63,6 +63,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
    >スケジュールされた配信は、「**[!UICONTROL 暫定カレンダーで配信を考慮]**」オプションが選択されている場合にのみ考慮されます。詳しくは、[期間の設定](#setting-the-period)を参照してください。
    >
    >このオプションは、Campaign v8 では使用できません。
+   >
 
 1. メッセージの最大数を計算する方法を定義します。
 
@@ -88,7 +89,8 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
    * 「ターゲティングディメンションからクエリを編集」では、対象となる受信者を制限できます。
    * このタブの下部セクションでは、カウントするメッセージをフィルタリングできます。
 
-      以下の例では、**NewContacts** フォルダーに保存されている受信者のみが対象となり、「**Newsletter**」で始まる配信のみが考慮されます。
+     以下の例では、**NewContacts** フォルダーに保存されている受信者のみが対象となり、「**Newsletter**」で始まる配信のみが考慮されます。
+
    ![](assets/campaign_opt_create_a_rule_05.png)
 
 1. 「**[!UICONTROL タイポロジ]**」タブでは、このルールが適用されるキャンペーンタイポロジを表示したり、ルールを 1 つ以上の既存のタイポロジにリンクしたりできます。詳しくは、[タイポロジの適用](about-campaign-typologies.md#applying-typologies)を参照してください。
@@ -163,6 +165,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
    >[!AVAILABILITY]
    >この機能は Campaign v8 では使用できません。
+   >
 
 期間の開始日は、データベースの設定によって異なります。
 
@@ -279,15 +282,15 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
 * 分析の結果を表示します。
 
-   ![](assets/campaign_opt_pressure_sample_1_8.png)
+  ![](assets/campaign_opt_pressure_sample_1_8.png)
 
 * 配信を編集し、「**[!UICONTROL 配信]**」タブの「**[!UICONTROL 除外]**」サブタブをクリックします。
 
-   ![](assets/campaign_opt_pressure_sample_1_9.png)
+  ![](assets/campaign_opt_pressure_sample_1_9.png)
 
 * 「**[!UICONTROL 監査]**」タブをクリックし、「**[!UICONTROL 除外の原因]**」サブタブをクリックして、除外された数と適用されたタイポロジルールを表示します。
 
-   ![](assets/campaign_opt_pressure_sample_1_10.png)
+  ![](assets/campaign_opt_pressure_sample_1_10.png)
 
 ### 行動に基づく配信の重み付けの計算 {#calculating-the-delivery-weight-based-on-behavior}
 
@@ -339,6 +342,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
    >[!AVAILABILITY]
    >スケジュールされた配信は、Campaign v8 では考慮されません。
+   >
 
 1. 「**[!UICONTROL タイポロジ]**」タブで、ルールをキャンペーンタイポロジにリンクします。
 1. 変更を保存します。

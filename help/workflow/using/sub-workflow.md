@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 * 中間母集団の数は表示できません。
 * サブワークフローのログは、プライマリワークフローに表示されます。
 
-   ![](assets/subworkflow_logs.png)
+  ![](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >

@@ -80,7 +80,8 @@ ht-degree: 8%
    >    * 拡張機能の間、 **SQL 名 (@sqlname)** （「email」フィールド）に入力します。 SQL 名は、受信者スキーマ用に予約されている「sEmail」とは異なる名前にする必要があります。
    >    * データベース構造を、の拡張時に作成したスキーマで更新する必要があります **nms:seedMember**.
    >    * 内 **nms:seedMember** 拡張子の場合、E メールアドレスを格納するフィールドには、 **name=&quot;email&quot;** 属性として。 SQL 名は、受信者スキーマに既に使用されている「sEmail」とは異なる名前を使用する必要があります。 この属性は、 **`<element name="custom_cus_person" />`** 要素。
-
+   >    
+   >
 
 1. を変更します。 **[!UICONTROL seedMember]** それに応じてフォームを作成し、 **[!UICONTROL シードアドレス]** ウィンドウ 詳しくは、[このページ](../../configuration/using/form-structure.md)を参照してください。
 

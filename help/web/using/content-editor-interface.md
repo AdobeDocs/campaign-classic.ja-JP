@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 100%
 
@@ -41,29 +41,29 @@ DCE 編集ウィンドウは、3 つの異なるセクションに分類され�
 
 * **別のコンテンツを選択**&#x200B;アイコンを使用すると、ユーザーは新しいコンテンツをテンプレート（既存のテンプレートまたは標準のテンプレート）から読み込むことができます。
 
-   ![](assets/dce_popup_templatechoice.png)
+  ![](assets/dce_popup_templatechoice.png)
 
-   >[!CAUTION]
-   >
-   >選択したコンテンツが現在のコンテンツを置き換えます。
+  >[!CAUTION]
+  >
+  >選択したコンテンツが現在のコンテンツを置き換えます。
 
 * **テンプレートとして保存**&#x200B;アイコンを使用すると、現在のコンテンツをテンプレートとして保存できます。テンプレートのラベルおよび内部名を入力する必要があります。テンプレートは、**[!UICONTROL リソース／テンプレート／コンテンツテンプレート]**&#x200B;ノードに格納されます。
 
-   ![](assets/dce_popup_savetemplate.png)
+  ![](assets/dce_popup_savetemplate.png)
 
-   保存すれば、テンプレートは使用でき、新しいコンテンツを作成する際に選択できます。
+  保存すれば、テンプレートは使用でき、新しいコンテンツを作成する際に選択できます。
 
-   ![](assets/dce_create_fromtemplate.png)
+  ![](assets/dce_create_fromtemplate.png)
 
 * **ページのプロパティ**&#x200B;アイコンを使用すると、HTML ページの上部でコンテンツ情報を選択できます。
 
-   ![](assets/dce_popup_headerhtml.png)
+  ![](assets/dce_popup_headerhtml.png)
 
-   >[!NOTE]
-   >
-   >この情報は、ページの **`<title>`** および **`<meta>`** HTML タグに対応します。
-   >
-   >キーワードは、コンマで区切る必要があります。
+  >[!NOTE]
+  >
+  >この情報は、ページの **`<title>`** および **`<meta>`** HTML タグに対応します。
+  >
+  >キーワードは、コンマで区切る必要があります。
 
 ## ブロックオプション {#block-options}
 

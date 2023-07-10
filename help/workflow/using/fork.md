@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 * クエリ結果を保存
 * 結果をセグメント化して複数の配信を送信
 
-   ![2 つのクエリの積集合の後に「分岐」アクティビティが続き、その後に「リスト更新」アクティビティと「分割」アクティビティが続きます。](assets/wkf_fork_example.png)
+  ![2 つのクエリの積集合の後に「分岐」アクティビティが続き、その後に「リスト更新」アクティビティと「分割」アクティビティが続きます。](assets/wkf_fork_example.png)
 
 ワークフローは、次のアクティビティで構成されます。
 

@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
 
@@ -73,8 +73,8 @@ ht-degree: 100%
 
 * **キャンペーンレベルで確認する場合**：キャンペーンの「**[!UICONTROL レポート]**」リンクをクリックし、「**[!UICONTROL 仮説レポート]**」を選択します。このレポートには、キャンペーン配信と、各配信に計算された仮説のリストが含まれます。
 
-   ![](assets/response_hypothesis_campaign_report_001.png)
+  ![](assets/response_hypothesis_campaign_report_001.png)
 
 * **配信レベルで確認する場合**：レポートにアクセスするには、配信を開き、「**[!UICONTROL 概要]**」タブの「**[!UICONTROL レポート]**」をクリックし、「**[!UICONTROL 仮説レポート]**」を選択します。同一の配信に複数の仮説が計算された場合は、すべての仮説がレポートに表示されます。
 
-   ![](assets/response_hypothesis_delivery_report_001.png)
+  ![](assets/response_hypothesis_delivery_report_001.png)

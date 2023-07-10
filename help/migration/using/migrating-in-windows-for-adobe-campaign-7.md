@@ -288,17 +288,17 @@ Adobe Campaignをデプロイするには、次の手順に従います。
    * リスンポートの各タイプ (**[!UICONTROL http]** および/または **[!UICONTROL https]**)、適切な行を選択して、 **[!UICONTROL 編集]**.
    * 別のポートを入力してください。 デフォルトでは、リスンポートは http の場合は 80、https の場合は 443 です。 新しいポートが使用可能であることを確認します。
 
-      ![](assets/_migration_iis_3_611.png)
+     ![](assets/_migration_iis_3_611.png)
 
-      >[!NOTE]
-      >
-      >IIS サーバーに、高度な設定（共有ポートと異なる IP アドレス）を持つAdobe Campaign用の Web サイトが複数含まれている場合は、管理者にお問い合わせください。
+     >[!NOTE]
+     >
+     >IIS サーバーに、高度な設定（共有ポートと異なる IP アドレス）を持つAdobe Campaign用の Web サイトが複数含まれている場合は、管理者にお問い合わせください。
 
 1. Adobe Campaign v7 用の新しい Web サイトの作成：
 
    * を右クリックします。 **[!UICONTROL サイト]** フォルダーと選択 **[!UICONTROL Web サイトの追加…]**.
 
-      ![](assets/_migration_iis_4.png)
+     ![](assets/_migration_iis_4.png)
 
    * サイトの名前を入力します。 **Adobe Campaign v7** 例：
    * Web サイトの基本ディレクトリへのアクセスパスは使用されませんが、 **[!UICONTROL 物理アクセスパス]** フィールドに値を入力する必要があります。 デフォルトの IIS アクセスパスを入力： **C:\inetpub\wwwroot**.
@@ -306,38 +306,38 @@ Adobe Campaignをデプロイするには、次の手順に従います。
    * デフォルト値を **[!UICONTROL IP アドレス]** および **[!UICONTROL ポート]** フィールド。 他の値を使用する場合は、IP アドレスまたはポート（あるいは両方）が使用可能であることを確認します。
    * 次を確認します。 **[!UICONTROL Web サイトをすぐに開始]** ボックス
 
-      ![](assets/_migration_iis_5_7.png)
+     ![](assets/_migration_iis_5_7.png)
 
 1. を実行します。 **iis_neolane_setup.vbs** 先ほど作成した仮想ディレクトリ上のAdobe Campaignサーバーで使用されるリソースを自動的に設定するスクリプト。
 
    * このファイルは、 **`[Adobe Campaign v7]`\conf** ディレクトリ。ここで、 **`[Adobe Campaign v7]`** は、Adobe Campaignインストールディレクトリへのアクセスパスです。 スクリプトを実行するコマンドは、次のとおりです（管理者向け）。
 
-      ```
-      cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
-      cscript iis_neolane_setup.vbs
-      ```
+     ```
+     cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
+     cscript iis_neolane_setup.vbs
+     ```
 
    * クリック **[!UICONTROL OK]** スクリプトの実行を確定します。
 
-      ![](assets/s_ncs_install_iis7_parameters_step2_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step2_7.png)
 
    * Adobe Campaign v7 用に以前に作成した Web サイトの番号を入力し、 **[!UICONTROL OK]**.
 
-      ![](assets/s_ncs_install_iis7_parameters_step3_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step3_7.png)
 
    * 次の確認メッセージが表示されます。
 
-      ![](assets/s_ncs_install_iis7_parameters_step7_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step7_7.png)
 
    * 内 **[!UICONTROL コンテンツ表示]** 「 」タブで、Web サイトの設定がAdobe Campaignのリソースで正しく設定されていることを確認します。
 
-      ![](assets/s_ncs_install_iis7_parameters_step6_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step6_7.png)
 
-      >[!NOTE]
-      >
-      >ツリー構造が表示されない場合は、IIS を再起動します。
-      >
-      >次の IIS 設定手順について詳しくは、 [この節](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
+     >[!NOTE]
+     >
+     >ツリー構造が表示されない場合は、IIS を再起動します。
+     >
+     >次の IIS 設定手順について詳しくは、 [この節](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
 
 <!--
 ## Security zones {#security-zones}

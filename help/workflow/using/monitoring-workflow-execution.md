@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2098'
 ht-degree: 100%
 
@@ -42,23 +42,23 @@ ht-degree: 100%
 
 * 詳細で、「**[!UICONTROL トラッキング]**」タブを選択します。このリストには、すべてのワークフローメッセージが含まれます。
 
-   ![](assets/new-workflow-display-log-tab.png)
+  ![](assets/new-workflow-display-log-tab.png)
 
 * アクティビティごとにログメッセージをフィルターします。ダイアグラムの上にあるツールバーから「**[!UICONTROL タスクとログを表示]**」をクリックし、ダイアグラムの下に「**[!UICONTROL ログ]**」と「**[!UICONTROL タスク]**」のタブを表示します。アクティビティを選択すると、そのアクティビティに関するメッセージだけが表示されます。アクティビティが何も選択されていない場合、すべてのメッセージが表示されます。
 
-   ![](assets/new-workflow-display-log-activity.png)
+  ![](assets/new-workflow-display-log-activity.png)
 
-   >[!NOTE]
-   >
-   >ダイアグラムの背景をクリックすると、すべての要素の選択を解除できます。
+  >[!NOTE]
+  >
+  >ダイアグラムの背景をクリックすると、すべての要素の選択を解除できます。
 
 * 指定されたタスクにリンクされているメッセージのみを表示します。それには、「**[!UICONTROL タスク]**」タブを選択し、ダイアグラムからアクティビティを選択してリストを制限します。タスクをダブルクリックして情報を表示します。ウィンドウの最後のタブには、ログが表示されます。
 
-   ![](assets/new-workflow-display-tasks-activity.png)
+  ![](assets/new-workflow-display-tasks-activity.png)
 
-   「**[!UICONTROL 詳細...]**」ボタンをクリックすると、アクティビティの実行に関するすべての関連情報を表示できます。例えば、検証オペレーターを表示できます。また、該当する場合、下の例のように、承認中に入力したコメントを表示できます。
+  「**[!UICONTROL 詳細...]**」ボタンをクリックすると、アクティビティの実行に関するすべての関連情報を表示できます。例えば、検証オペレーターを表示できます。また、該当する場合、下の例のように、承認中に入力したコメントを表示できます。
 
-   ![](assets/new-workflow-display-tasks-activity-details.png)
+  ![](assets/new-workflow-display-tasks-activity-details.png)
 
 >[!NOTE]
 >
@@ -68,15 +68,15 @@ ht-degree: 100%
 
 * ターゲティングキャンペーンのログ
 
-   ターゲティングキャンペーンが実行されたら、「**[!UICONTROL トラッキング]**」タブをクリックして実行トレースを表示します。
+  ターゲティングキャンペーンが実行されたら、「**[!UICONTROL トラッキング]**」タブをクリックして実行トレースを表示します。
 
-   ![](assets/s_user_segmentation_journal.png)
+  ![](assets/s_user_segmentation_journal.png)
 
-   実行されたキャンペーン、警告やエラーなど、すべてのキャンペーンメッセージが表示されます。
+  実行されたキャンペーン、警告やエラーなど、すべてのキャンペーンメッセージが表示されます。
 
 * アクティビティのログ
 
-   さらに、実行ログと、各アクティビティの詳細も表示できます。それには、次の 2 つの方法があります。
+  さらに、実行ログと、各アクティビティの詳細も表示できます。それには、次の 2 つの方法があります。
 
    1. ターゲット済みアクティビティを選択し、「**[!UICONTROL タスクとログを表示]**」アイコンをクリックします。
 
@@ -227,9 +227,9 @@ instance.vars.isRunning = false
 * JavaScript では、テストでの未定義の値は false で、初期化前でもインスタンス変数をテストできます。
 * 終了のない初期化スクリプトにログ手順を追加することで、このメカニズムが原因で処理されないアクティビティを監視できます。
 
-   ```
-   logInfo("Workflow already running, parallel execution not allowed.");
-   ```
+  ```
+  logInfo("Workflow already running, parallel execution not allowed.");
+  ```
 
 使用例については、[データ更新の調整](coordinating-data-updates.md)の節で説明しています。
 

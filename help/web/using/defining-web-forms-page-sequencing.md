@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 100%
 
@@ -35,19 +35,19 @@ ht-degree: 100%
 
 * フォームの別のページ。これをおこなうには、次のように、「**[!UICONTROL 内部アクティビティ]**」を選択し、目的のページを指定します。
 
-   ![](assets/s_ncs_admin_jump_param1.png)
+  ![](assets/s_ncs_admin_jump_param1.png)
 
 * 別のフォーム。これをおこなうには、「**[!UICONTROL 手動で指定]**」オプションを選択し、ジャンプ先のフォームを指定します。
 
-   ![](assets/s_ncs_admin_jump_param2.png)
+  ![](assets/s_ncs_admin_jump_param2.png)
 
 * ジャンプ先は変数に格納できます。この場合、次に示すように、ドロップダウンリストから選択します。
 
-   ![](assets/s_ncs_admin_jump_param3.png)
+  ![](assets/s_ncs_admin_jump_param3.png)
 
 * 「**[!UICONTROL コメント]**」タブを使用すると、オペレーターがダイアグラムのオブジェクトをクリックする際に表示される情報を入力できます。
 
-   ![](assets/s_ncs_admin_survey_jump_comment.png)
+  ![](assets/s_ncs_admin_survey_jump_comment.png)
 
 ## 例：URL のパラメーターに基づいた別のフォームへのアクセス {#example--accessing-another-form-according-to-a-parameter-of-the-url}
 

@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Mobile SDK Integration, Push
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 100%
 
@@ -30,29 +30,29 @@ Campaign SDK の統合手順を以下に示します。
 
 * **Android の場合**：**neolane_sdk-release.aar** ファイルがプロジェクトにリンクされている必要があります。
 
-   以下の権限により、Adobe Campaign サーバーへのアクセス権が付与されます。
+  以下の権限により、Adobe Campaign サーバーへのアクセス権が付与されます。
 
-   ```
-   Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
-   Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
-   Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/");
-   ```
+  ```
+  Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
+  Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
+  Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/");
+  ```
 
-   以下の権限により、電話の一意の ID 復元が可能になります。
+  以下の権限により、電話の一意の ID 復元が可能になります。
 
-   ```
-   <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
-   ```
+  ```
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
+  ```
 
-   SDK バージョン 1.0.24 以降、この権限は Android 6.0 よりも古いバージョンでのみ使用されます。
+  SDK バージョン 1.0.24 以降、この権限は Android 6.0 よりも古いバージョンでのみ使用されます。
 
-   SDK バージョン 1.0.26 以降では、この権限は使用されません。
+  SDK バージョン 1.0.26 以降では、この権限は使用されません。
 
 * **iOS の場合**：**libNeolaneSDK.a** ファイルと **Neolane_SDK.h** ファイルがプロジェクトにリンクされている必要があります。SDK バージョン 1.0.24 以降は、**ENABLE_BITCODE** オプションが有効になります。
 
-   >[!NOTE]
-   >
-   >バージョン 1.0.25 の SDK の場合は、**Neolane_SDK.h** ファイルに 4 つのアーキテクチャがあります。
+  >[!NOTE]
+  >
+  >バージョン 1.0.25 の SDK の場合は、**Neolane_SDK.h** ファイルに 4 つのアーキテクチャがあります。
 
 +++
 
@@ -62,29 +62,29 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 
 * **統合キー**：Adobe Campaign プラットフォームでモバイルアプリケーションを特定できるようにします。
 
-   >[!NOTE]
-   >
-   >この統合キーは、Adobe Campaign コンソールのモバイルアプリケーション専用サービスの「**[!UICONTROL 情報]**」タブに入力されます。詳しくは、[Adobe Campaign でモバイルアプリケーションを設定する](configuring-the-mobile-application.md)を参照してください。
+  >[!NOTE]
+  >
+  >この統合キーは、Adobe Campaign コンソールのモバイルアプリケーション専用サービスの「**[!UICONTROL 情報]**」タブに入力されます。詳しくは、[Adobe Campaign でモバイルアプリケーションを設定する](configuring-the-mobile-application.md)を参照してください。
 
 * **トラッキング URL**：Adobe Campaign トラッキングサーバーのアドレスと一致します。
 * **マーケティング URL**：購読のコレクションを有効にします。
 
 * **Android**：
 
-   ```
-   Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
-   Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
-   Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
-   ```
+  ```
+  Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
+  Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
+  Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
+  ```
 
 * **iOS**：
 
-   ```
-   Neolane_SDK *nl = [Neolane_SDK getInstance];
-   [nl setMarketingHost:strMktHost];
-   [nl setTrackingHost:strTckHost];
-   [nl setIntegrationKey:strIntegrationKey];
-   ```
+  ```
+  Neolane_SDK *nl = [Neolane_SDK getInstance];
+  [nl setMarketingHost:strMktHost];
+  [nl setTrackingHost:strTckHost];
+  [nl setIntegrationKey:strIntegrationKey];
+  ```
 
 +++
 
@@ -97,52 +97,52 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 
 * **Android**：
 
-   ```
-   void registerInNeolane(String registrationId, String userKey, Context context)
-   {
-    try{
-     Neolane.getInstance().registerDevice(registrationToken, userKey, null, context);
-    } catch (NeolaneException e){
-     //...
-    } catch (IOException e){
-     //...
+  ```
+  void registerInNeolane(String registrationId, String userKey, Context context)
+  {
+   try{
+    Neolane.getInstance().registerDevice(registrationToken, userKey, null, context);
+   } catch (NeolaneException e){
+    //...
+   } catch (IOException e){
+    //...
+   }
+  }
+  ```
+
+  FCM（Firebase Cloud Messaging）を使用する場合は、**onTokenRefresh** 関数を呼び出して Adobe Campaign にユーザーのモバイルデバイストークンの変更を通知するときに、**registerDevice** 関数を使用することをお勧めします。
+
+  ```
+  public class NeoTripFirebaseInstanceIDService extends FirebaseInstanceIdService {
+    @Override
+    public void onTokenRefresh() {
+      String registrationToken = FirebaseInstanceId.getInstance().getToken();
+      NeolaneAsyncRunner neolaneAs = new NeolaneAsyncRunner(Neolane.getInstance());
+      ...
+      ...
+      // Neolane Registration
+      neolaneAs.registerDevice(registrationToken, userKey, additionnalParam, this, new NeolaneAsyncRunner.RequestListener() {
+      public void onComplete(String e, Object state) { ... }
+      public void onNeolaneException(NeolaneException e, Object state) { ... }
+      public void onIOException(IOException e, Object state) { ... }
+      });
+      ...
+      ...
     }
-   }
-   ```
-
-   FCM（Firebase Cloud Messaging）を使用する場合は、**onTokenRefresh** 関数を呼び出して Adobe Campaign にユーザーのモバイルデバイストークンの変更を通知するときに、**registerDevice** 関数を使用することをお勧めします。
-
-   ```
-   public class NeoTripFirebaseInstanceIDService extends FirebaseInstanceIdService {
-     @Override
-     public void onTokenRefresh() {
-       String registrationToken = FirebaseInstanceId.getInstance().getToken();
-       NeolaneAsyncRunner neolaneAs = new NeolaneAsyncRunner(Neolane.getInstance());
-       ...
-       ...
-       // Neolane Registration
-       neolaneAs.registerDevice(registrationToken, userKey, additionnalParam, this, new NeolaneAsyncRunner.RequestListener() {
-       public void onComplete(String e, Object state) { ... }
-       public void onNeolaneException(NeolaneException e, Object state) { ... }
-       public void onIOException(IOException e, Object state) { ... }
-       });
-       ...
-       ...
-     }
-   }
-   ```
+  }
+  ```
 
 * **iOS**：
 
-   ```
-   // Callback called on successful registration to the APNs
-   - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
-   {
-       // Pass the token to Adobe Campaign
-       Neolane_SDK *nl = [Neolane_SDK getInstance];
-       [nl registerDevice:tokenString:self.userKey:dic];
-   }
-   ```
+  ```
+  // Callback called on successful registration to the APNs
+  - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
+  {
+      // Pass the token to Adobe Campaign
+      Neolane_SDK *nl = [Neolane_SDK getInstance];
+      [nl registerDevice:tokenString:self.userKey:dic];
+  }
+  ```
 
 +++
 
@@ -150,153 +150,153 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 
 * **Android**：
 
-   トラッキング関数を使用すると、通知の有効化（オープン）および通知の表示（スクリーンショット）を追跡できます。
+  トラッキング関数を使用すると、通知の有効化（オープン）および通知の表示（スクリーンショット）を追跡できます。
 
-   （SDK の **notifyReceive** 関数を呼び出して）通知表示をトラッキングするには、次の実装に従います。FCM（Firebase Cloud Messaging）を使用する場合は、Android システムによって **onMessageReceived** 関数が呼び出されるときに **notifyReceive** 関数を使用することをお勧めします。
+  （SDK の **notifyReceive** 関数を呼び出して）通知表示をトラッキングするには、次の実装に従います。FCM（Firebase Cloud Messaging）を使用する場合は、Android システムによって **onMessageReceived** 関数が呼び出されるときに **notifyReceive** 関数を使用することをお勧めします。
 
-   ```
-   package com.android.YourApplication;
-   
-   import android.content.Context;
-   import android.content.SharedPreferences;
-   import android.os.Bundle;
-   import android.util.Log;
-   
-   import com.google.firebase.messaging.FirebaseMessagingService;
-   import com.google.firebase.messaging.RemoteMessage;
-   
-   import java.util.Iterator;
-   import java.util.Map;
-   import java.util.Map.Entry;
-   
-   public class YourApplicationFirebaseMessagingService extends FirebaseMessagingService {
-     private static final String TAG = "MyFirebaseMsgService";
-   
-     @Override
-     public void onMessageReceived(RemoteMessage message) {
-       Log.d(TAG, "Receive message from: " + message.getFrom());
-       Map<String,String> payloadData = message.getData();
-       final Bundle extras = new Bundle();
-       final Iterator<Entry<String, String>> iter = payloadData.entrySet().iterator();
-       while(iter.hasNext())
-       {
-         final Entry<String, String>  entry =iter.next();
-         extras.putString(entry.getKey(), entry.getValue());
-       }
-   
-       SharedPreferences settings = this.getSharedPreferences(YourApplicationActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
-       String mesg = payloadData.get("_msg");
-       String title = payloadData.get("title");
-       String url = payloadData.get("url");
-       String messageId = payloadData.get("_mId");
-       String deliveryId = payloadData.get("_dId");
-       YourApplicationActivity.handleNotification(this, mesg, title, url, messageId, deliveryId, extras);
-     }
-   }
-   ```
+  ```
+  package com.android.YourApplication;
+  
+  import android.content.Context;
+  import android.content.SharedPreferences;
+  import android.os.Bundle;
+  import android.util.Log;
+  
+  import com.google.firebase.messaging.FirebaseMessagingService;
+  import com.google.firebase.messaging.RemoteMessage;
+  
+  import java.util.Iterator;
+  import java.util.Map;
+  import java.util.Map.Entry;
+  
+  public class YourApplicationFirebaseMessagingService extends FirebaseMessagingService {
+    private static final String TAG = "MyFirebaseMsgService";
+  
+    @Override
+    public void onMessageReceived(RemoteMessage message) {
+      Log.d(TAG, "Receive message from: " + message.getFrom());
+      Map<String,String> payloadData = message.getData();
+      final Bundle extras = new Bundle();
+      final Iterator<Entry<String, String>> iter = payloadData.entrySet().iterator();
+      while(iter.hasNext())
+      {
+        final Entry<String, String>  entry =iter.next();
+        extras.putString(entry.getKey(), entry.getValue());
+      }
+  
+      SharedPreferences settings = this.getSharedPreferences(YourApplicationActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
+      String mesg = payloadData.get("_msg");
+      String title = payloadData.get("title");
+      String url = payloadData.get("url");
+      String messageId = payloadData.get("_mId");
+      String deliveryId = payloadData.get("_dId");
+      YourApplicationActivity.handleNotification(this, mesg, title, url, messageId, deliveryId, extras);
+    }
+  }
+  ```
 
-   ```
-   public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras){
-       if( message == null ) message = "No Content";
-       if( title == null )   title = "No title";
-       if( url == null )     url = "https://www.tripadvisor.fr";
-       int iconId = R.drawable.notif_neotrip;
-   
-     // notify Neolane that a notification just arrived
-     SharedPreferences settings = context.getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
-     Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
-     Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
-     Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
-   
-     NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
-     nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
-       public void onNeolaneException(NeolaneException arg0, Object arg1) {}
-       public void onIOException(IOException arg0, Object arg1) {}
-       public void onComplete(String arg0, Object arg1){}
-     });
-     if (yourApplication.isActivityVisible())
-       {
-         Log.i("INFO", "The application has the focus" );
-         ...
-       }
-       else
-       {
-         // notification creation :
-         NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-         Notification notification;
-   
-         // Activity to start :
-         Intent notifIntent = new Intent(context.getApplicationContext(), NotificationActivity.class);
-         notifIntent.putExtra("notificationText", message);
-         notifIntent.putExtra(NotificationActivity.NOTIFICATION_URL_KEYNAME, url);
-         notifIntent.putExtra("_dId", deliveryId);
-         notifIntent.putExtra("_mId", messageId);
-         notifIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-         PendingIntent contentIntent = PendingIntent.getActivity(context, 1, notifIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-   
-         notification = new Notification.Builder(context)
-                 .setContentTitle(title)
-                 .setContentText(message)
-                 .setSmallIcon(iconId)
-                 .setContentIntent(contentIntent)
-                 .build();
-   
-         // launch the notification :
-         notification.flags |= Notification.FLAG_AUTO_CANCEL;
-         notificationManager.notify(Integer.valueOf(messageId), notification);
-       }
-   }
-   ```
+  ```
+  public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras){
+      if( message == null ) message = "No Content";
+      if( title == null )   title = "No title";
+      if( url == null )     url = "https://www.tripadvisor.fr";
+      int iconId = R.drawable.notif_neotrip;
+  
+    // notify Neolane that a notification just arrived
+    SharedPreferences settings = context.getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
+    Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
+    Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
+    Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
+  
+    NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
+    nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
+      public void onNeolaneException(NeolaneException arg0, Object arg1) {}
+      public void onIOException(IOException arg0, Object arg1) {}
+      public void onComplete(String arg0, Object arg1){}
+    });
+    if (yourApplication.isActivityVisible())
+      {
+        Log.i("INFO", "The application has the focus" );
+        ...
+      }
+      else
+      {
+        // notification creation :
+        NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+        Notification notification;
+  
+        // Activity to start :
+        Intent notifIntent = new Intent(context.getApplicationContext(), NotificationActivity.class);
+        notifIntent.putExtra("notificationText", message);
+        notifIntent.putExtra(NotificationActivity.NOTIFICATION_URL_KEYNAME, url);
+        notifIntent.putExtra("_dId", deliveryId);
+        notifIntent.putExtra("_mId", messageId);
+        notifIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        PendingIntent contentIntent = PendingIntent.getActivity(context, 1, notifIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+  
+        notification = new Notification.Builder(context)
+                .setContentTitle(title)
+                .setContentText(message)
+                .setSmallIcon(iconId)
+                .setContentIntent(contentIntent)
+                .build();
+  
+        // launch the notification :
+        notification.flags |= Notification.FLAG_AUTO_CANCEL;
+        notificationManager.notify(Integer.valueOf(messageId), notification);
+      }
+  }
+  ```
 
-   次に、通知の開封をトラッキングする実装例を示します（SDK の **notifyOpening** 関数を呼び出して実行します）。**NotificationActivity** クラスには、前の例で **notifIntent** オブジェクトを作成する際に使用したクラスが該当します。
+  次に、通知の開封をトラッキングする実装例を示します（SDK の **notifyOpening** 関数を呼び出して実行します）。**NotificationActivity** クラスには、前の例で **notifIntent** オブジェクトを作成する際に使用したクラスが該当します。
 
-   ```
-   public class NotificationActivity extends Activity {
-   public void onCreate(Bundle savedBundle) {
-     [...]
-     Bundle extra = getIntent().getExtras();
-     if (extra != null) {
-       // reinit the acc sdk
-       SharedPreferences settings = getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
-       Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
-       Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));               
-       Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
-   
-       // Get the messageId and the deliveryId to do the tracking
-       String deliveryId = extra.getString("_dId");
-       String messageId = extra.getString("_mId");
-       if (deliveryId != null && messageId != null) {
-         try {
-           Neolane.getInstance().notifyOpening(Integer.valueOf(messageId), Integer.valueOf(deliveryId));
-         } catch (NeolaneException e) {
-           // ...
-         } catch (IOException e) {
-           // ...
-         }
-       }
-     }
+  ```
+  public class NotificationActivity extends Activity {
+  public void onCreate(Bundle savedBundle) {
+    [...]
+    Bundle extra = getIntent().getExtras();
+    if (extra != null) {
+      // reinit the acc sdk
+      SharedPreferences settings = getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
+      Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
+      Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));               
+      Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
+  
+      // Get the messageId and the deliveryId to do the tracking
+      String deliveryId = extra.getString("_dId");
+      String messageId = extra.getString("_mId");
+      if (deliveryId != null && messageId != null) {
+        try {
+          Neolane.getInstance().notifyOpening(Integer.valueOf(messageId), Integer.valueOf(deliveryId));
+        } catch (NeolaneException e) {
+          // ...
+        } catch (IOException e) {
+          // ...
+        }
+      }
     }
    }
-   ```
+  }
+  ```
 
 * **iOS**：
 
-   トラッキング関数を使用すると、通知の有効化（オープン）を追跡できます。
+  トラッキング関数を使用すると、通知の有効化（オープン）を追跡できます。
 
-   ```
-   (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
-   fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
-   {
-   if( launchOptions ) { // Retrieve notification parameters here ... // Track application opening Neolane_SDK
-   *nl = [Neolane_SDK getInstance]; [nl track:launchOptions:NL_TRACK_CLICK]; } 
-   ...  
-   completionHandler(UIBackgroundFetchResultNoData);
-   }
-   ```
+  ```
+  (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
+  fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+  {
+  if( launchOptions ) { // Retrieve notification parameters here ... // Track application opening Neolane_SDK
+  *nl = [Neolane_SDK getInstance]; [nl track:launchOptions:NL_TRACK_CLICK]; } 
+  ...  
+  completionHandler(UIBackgroundFetchResultNoData);
+  }
+  ```
 
-   >[!NOTE]
-   >
-   >バージョン 7.0 以降は、**application:didReceiveRemoteNotification:fetchCompletionHandler** 関数を実装すると、オペレーティングシステムはこの関数のみを呼び出します。したがって、**application:didReceiveRemoteNotification** 関数は呼び出されません。
+  >[!NOTE]
+  >
+  >バージョン 7.0 以降は、**application:didReceiveRemoteNotification:fetchCompletionHandler** 関数を実装すると、オペレーティングシステムはこの関数のみを呼び出します。したがって、**application:didReceiveRemoteNotification** 関数は呼び出されません。
 
 +++
 
@@ -546,43 +546,43 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 
 * **Android**：
 
-   ```
-   public void onReceive(Context context, Intent intent) {
-        ...
-       String event = intent.getStringExtra("VAR");
-        ...
-   }
-   ```
+  ```
+  public void onReceive(Context context, Intent intent) {
+       ...
+      String event = intent.getStringExtra("VAR");
+       ...
+  }
+  ```
 
 * **iOS**：
 
-   ```
-   - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-   {
-       ....
-       if( launchOptions )
-       {
-           // When application is not already launched, the notification data if any are stored in the key 'UIApplicationLaunchOptionsRemoteNotificationKey'
-           NSDictionary *localLaunchOptions = [launchOptions objectForKey:@"UIApplicationLaunchOptionsRemoteNotificationKey"];
-           if( localLaunchOptions )
-           {
-            ...
-            [localLaunchOptions objectForKey:@"VAR"];
+  ```
+  - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+  {
+      ....
+      if( launchOptions )
+      {
+          // When application is not already launched, the notification data if any are stored in the key 'UIApplicationLaunchOptionsRemoteNotificationKey'
+          NSDictionary *localLaunchOptions = [launchOptions objectForKey:@"UIApplicationLaunchOptionsRemoteNotificationKey"];
+          if( localLaunchOptions )
+          {
            ...
-           }
+           [localLaunchOptions objectForKey:@"VAR"];
+          ...
+          }
+     }
+  }
+  
+  // Callback called when the application is already launched (whether the application is running foreground or background)
+  - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
+  {
+      if( launchOptions )
+      {
+       ...
+          [launchOptions objectForKey:@"VAR"];
       }
-   }
-   
-   // Callback called when the application is already launched (whether the application is running foreground or background)
-   - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
-   {
-       if( launchOptions )
-       {
-        ...
-           [launchOptions objectForKey:@"VAR"];
-       }
-   }
-   ```
+  }
+  ```
 
 >[!CAUTION]
 >
@@ -634,48 +634,48 @@ typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
 
 * Adobe Campaign が送信したカテゴリにコンテンツ拡張を関連付けます。
 
-   モバイルアプリケーションで画像を表示できるようにするには、Adobe Campaign とモバイルアプリケーションでカテゴリの値を「画像」に設定し、通知拡張を作成して **UNNotificationExtensionCategory** パラメーターを「画像」に設定します。デバイスがプッシュ通知を受信した場合、定義されたカテゴリの値に従って拡張機能が呼び出されます。
+  モバイルアプリケーションで画像を表示できるようにするには、Adobe Campaign とモバイルアプリケーションでカテゴリの値を「画像」に設定し、通知拡張を作成して **UNNotificationExtensionCategory** パラメーターを「画像」に設定します。デバイスがプッシュ通知を受信した場合、定義されたカテゴリの値に従って拡張機能が呼び出されます。
 
 * 通知レイアウトの定義
 
-   関連するウィジェットでレイアウトを定義する必要があります。画像の場合、ウィジェットの名前は **UIImageView** です。
+  関連するウィジェットでレイアウトを定義する必要があります。画像の場合、ウィジェットの名前は **UIImageView** です。
 
 * メディアの表示
 
-   メディアデータをウィジェットに送るためのコードを追加する必要があります。画像用のコードの例を次に示します。
+  メディアデータをウィジェットに送るためのコードを追加する必要があります。画像用のコードの例を次に示します。
 
-   ```
-   #import "NotificationViewController.h"
-   #import <UserNotifications/UserNotifications.h>
-   #import <UserNotificationsUI/UserNotificationsUI.h>
-   
-   @interface NotificationViewController () <UNNotificationContentExtension>
-   
-   @property (strong, nonatomic) IBOutlet UIImageView *imageView;
-   @property (strong, nonatomic) IBOutlet UILabel *notifContent;
-   @property (strong, nonatomic) IBOutlet UILabel *label;
-   
-   @end
-   
-   @implementation NotificationViewController
-   
-   - (void)viewDidLoad {
-       [super viewDidLoad];
-       // Do any required interface initialization here.
-   }
-   
-   - (void)didReceiveNotification:(UNNotification *)notification {
-       self.label.text = notification.request.content.title;
-       self.notifContent.text = notification.request.content.body;
-       UNNotificationAttachment *attachment = [notification.request.content.attachments objectAtIndex:0];
-       if ([attachment.URL startAccessingSecurityScopedResource])
-       {
-         NSData * imageData = [[NSData alloc] initWithContentsOfURL:attachment.URL];
-         self.imageView.image =[UIImage imageWithData: imageData];
-         [attachment.URL stopAccessingSecurityScopedResource];
-       }
-   }
-   @end
-   ```
+  ```
+  #import "NotificationViewController.h"
+  #import <UserNotifications/UserNotifications.h>
+  #import <UserNotificationsUI/UserNotificationsUI.h>
+  
+  @interface NotificationViewController () <UNNotificationContentExtension>
+  
+  @property (strong, nonatomic) IBOutlet UIImageView *imageView;
+  @property (strong, nonatomic) IBOutlet UILabel *notifContent;
+  @property (strong, nonatomic) IBOutlet UILabel *label;
+  
+  @end
+  
+  @implementation NotificationViewController
+  
+  - (void)viewDidLoad {
+      [super viewDidLoad];
+      // Do any required interface initialization here.
+  }
+  
+  - (void)didReceiveNotification:(UNNotification *)notification {
+      self.label.text = notification.request.content.title;
+      self.notifContent.text = notification.request.content.body;
+      UNNotificationAttachment *attachment = [notification.request.content.attachments objectAtIndex:0];
+      if ([attachment.URL startAccessingSecurityScopedResource])
+      {
+        NSData * imageData = [[NSData alloc] initWithContentsOfURL:attachment.URL];
+        self.imageView.image =[UIImage imageWithData: imageData];
+        [attachment.URL stopAccessingSecurityScopedResource];
+      }
+  }
+  @end
+  ```
 
 +++

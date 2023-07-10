@@ -61,11 +61,11 @@ ht-degree: 1%
 * の **PostgreSQL** または **DB2** エンジンでは、データベースサーバーにアクセスするには、アプリケーションサーバーで定義された DNS 名（または IP アドレス）を指定する必要があります。
 * の **Microsoft SQL Server** エンジンは、次を定義する必要があります。データベースサーバーにアクセスするためにアプリケーションサーバーで定義された DNS 名（または IP アドレス）: **DNS** または **DNS`\<instance>`** （インスタンスモード）、
 
-   >[!CAUTION]
-   >
-   > 20.3 以降、Windows NT 認証は廃止されます。 **[!UICONTROL SQL Server 認証]** は、Microsoft SQL Server で使用できる唯一の認証モードになりました。 [詳細情報](../../rn/using/deprecated-features.md)
+  >[!CAUTION]
+  >
+  > 20.3 以降、Windows NT 認証は廃止されます。 **[!UICONTROL SQL Server 認証]** は、Microsoft SQL Server で使用できる唯一の認証モードになりました。 [詳細情報](../../rn/using/deprecated-features.md)
 
-   ![](assets/s_ncs_install_db_mssql_creation01.png)
+  ![](assets/s_ncs_install_db_mssql_creation01.png)
 
 ### 手順 2 — サーバーへの接続 {#step-2---connecting-to-the-server}
 
@@ -90,24 +90,24 @@ ht-degree: 1%
 
 * 作成するデータベースの名前を指定します。
 
-   >[!NOTE]
-   >
-   >DB2 データベースの場合、データベースの名前は 8 文字以内にする必要があります。
+  >[!NOTE]
+  >
+  >DB2 データベースの場合、データベースの名前は 8 文字以内にする必要があります。
 
 * このデータベースにリンクされているアカウントのパスワードを入力します。
 * データベースが Unicode である必要があるかどうかを示します。
 
-   この **[!UICONTROL Unicode データベース]** 「 」オプションを使用すると、言語に関係なく、すべての文字タイプを Unicode で保存できます。
+  この **[!UICONTROL Unicode データベース]** 「 」オプションを使用すると、言語に関係なく、すべての文字タイプを Unicode で保存できます。
 
-   >[!NOTE]
-   >
-   >oracle・データベースの場合、 **[!UICONTROL Unicode ストレージ]** オプションを使用すると、 **NCLOB** および **NVARCHAR** フィールドを入力します。
-   > 
-   >このオプションを選択しない場合、Oracleデータベースの文字セット (charset) は、すべての言語でデータストレージを有効にする必要があります (AL32UTF8 をお勧めします )。
+  >[!NOTE]
+  >
+  >oracle・データベースの場合、 **[!UICONTROL Unicode ストレージ]** オプションを使用すると、 **NCLOB** および **NVARCHAR** フィールドを入力します。
+  > 
+  >このオプションを選択しない場合、Oracleデータベースの文字セット (charset) は、すべての言語でデータストレージを有効にする必要があります (AL32UTF8 をお勧めします )。
 
 * データベースのタイムゾーンを選択し、UTC で表示するかどうかを指定します（使用可能な場合）。
 
-   詳しくは、 [タイムゾーン管理](../../installation/using/time-zone-management.md).
+  詳しくは、 [タイムゾーン管理](../../installation/using/time-zone-management.md).
 
 ### 手順 4 — インストールするパッケージ {#step-4---packages-to-install}
 
@@ -125,7 +125,7 @@ ht-degree: 1%
 
 * oracle、Microsoft SQL Server または PostgreSQL データベースの場合、管理者は **ストレージパラメーター** データベースオブジェクトを作成する際に使用します。
 
-   これらのパラメータは、正確な表領域名を受け取ります ( 警告：大文字と小文字を区別します )。 それぞれ、 **[!UICONTROL 管理/プラットフォーム/オプション]** ノードを次のオプションに設定します ( [この節](../../installation/using/configuring-campaign-options.md#database)):
+  これらのパラメータは、正確な表領域名を受け取ります ( 警告：大文字と小文字を区別します )。 それぞれ、 **[!UICONTROL 管理/プラットフォーム/オプション]** ノードを次のオプションに設定します ( [この節](../../installation/using/configuring-campaign-options.md#database)):
 
    * **WdbcOptions_TableSpaceUser**:スキーマに基づくユーザーテーブル
    * **WdbcOptions_TableSpaceIndex**:スキーマに基づくユーザーテーブルのインデックス
@@ -135,7 +135,7 @@ ht-degree: 1%
 * oracleデータベースの場合、Adobe Campaignユーザーは、通常、Oracleライブラリ ( **oinstall** グループ化します。
 * この **[!UICONTROL 管理者パスワードを設定または変更する]** 「 」オプションを使用すると、Adobe Campaignオペレーターにリンクされているパスワードを管理者権限で入力できます。
 
-   セキュリティ上の理由から、Adobe Campaignアカウント管理者のパスワードを定義することをお勧めします。
+  セキュリティ上の理由から、Adobe Campaignアカウント管理者のパスワードを定義することをお勧めします。
 
 ### 手順 6 — データベースの作成 {#step-6---creating-the-database}
 
@@ -201,10 +201,10 @@ base61 データベース上のMicrosoft SQL Server の設定で、暗号化さ�
 * 使用するデータベースの名前を入力します。
 * このデータベースに関連付けられたアカウントの名前とパスワードを入力します。
 
-   >[!NOTE]
-   >
-   >スキーマ名とユーザー名の両方が一致していることを確認します。 データベースを作成する場合は、Campaign コンソールクライアントを使用することをお勧めします。
-   >oracle・データベースの場合は、アカウント名を入力する必要はありません。
+  >[!NOTE]
+  >
+  >スキーマ名とユーザー名の両方が一致していることを確認します。 データベースを作成する場合は、Campaign コンソールクライアントを使用することをお勧めします。
+  >oracle・データベースの場合は、アカウント名を入力する必要はありません。
 
 * データベースが Unicode である必要があるかどうかを示します。
 
@@ -226,7 +226,7 @@ base61 データベース上のMicrosoft SQL Server の設定で、暗号化さ�
 * oracleデータベースの場合、Adobe Campaignユーザーは、通常、Oracleライブラリ ( **oinstall** グループ化します。
 * この **[!UICONTROL 管理者パスワードを設定または変更する]** 「 」オプションを使用すると、Adobe Campaignオペレーターにリンクされているパスワードを管理者権限で入力できます。
 
-   セキュリティ上の理由から、Adobe Campaignアカウント管理者のパスワードを定義することをお勧めします。
+  セキュリティ上の理由から、Adobe Campaignアカウント管理者のパスワードを定義することをお勧めします。
 
 ### 手順 5 — データベースの作成 {#step-5---creating-the-database}
 

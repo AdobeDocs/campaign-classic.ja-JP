@@ -39,28 +39,28 @@ FDA で外部Sybase IQベースに接続するには、Adobe Campaignサーバ�
 
    * **/etc/odbc.ini**（「`<server_alias>`」などの部分は独自の値に置き換えてください）：
 
-      ```
-      [ODBC Data Sources]
-      <server_alias>=libdbodbc.so
-      
-      [<server_alias>]
-      Driver=/opt/sybase/IQ-16_0/lib64/libdbodbc16.so
-      Description=<description>
-      Username=<username>
-      Password=<password>
-      ServerName=<server_name>
-      CommLinks=tcpip(host=<host>)
-      ```
+     ```
+     [ODBC Data Sources]
+     <server_alias>=libdbodbc.so
+     
+     [<server_alias>]
+     Driver=/opt/sybase/IQ-16_0/lib64/libdbodbc16.so
+     Description=<description>
+     Username=<username>
+     Password=<password>
+     ServerName=<server_name>
+     CommLinks=tcpip(host=<host>)
+     ```
 
    * **/etc/odbcinst.ini**
 
-      ```
-      [ODBC DRIVERS]
-      SAP SybaseIQ=Installed
-      
-      [SAP SybaseIQ]
-      Driver=/opt/sybase/IQ-16_0/lib64/libdbodbc16.so
-      ```
+     ```
+     [ODBC DRIVERS]
+     SAP SybaseIQ=Installed
+     
+     [SAP SybaseIQ]
+     Driver=/opt/sybase/IQ-16_0/lib64/libdbodbc16.so
+     ```
 
 1. 新しい libodbc16.so ライブラリのパスを LD_LIBRARY_PATH 変数に追加します。方法は次のとおりです。
 

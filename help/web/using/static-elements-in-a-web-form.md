@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 100%
 
@@ -28,9 +28,9 @@ ht-degree: 100%
 * リソースライブラリまたはユーザーがアクセスできるサーバーに保存された画像。[画像の挿入](#inserting-images)を参照してください。
 * クライアント側またはサーバー側で実行されたスクリプト。クライアント側で適切に実行するには、JavaScript で記述され、ほとんどのブラウザーとの互換性が必要です。
 
-   >[!NOTE]
-   >
-   >サーバー側では、スクリプトは、Adobe Campaign が提供する [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja)で定義された関数を使用できます。
+  >[!NOTE]
+  >
+  >サーバー側では、スクリプトは、Adobe Campaign が提供する [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja)で定義された関数を使用できます。
 
 ## HTML コンテンツの挿入 {#inserting-html-content}
 
@@ -63,7 +63,7 @@ HTML エディターを使用すると、フォームページに挿入するコ
 * 「**[!UICONTROL ウィンドウ]**」フィールドを使用すると、サイトの場合のリンクの表示モードを選択できます。リンクを新しいウィンドウで開いたり、現在のウィンドウで開いたり、別のウィンドウで開いたりできます。
 * 次に示すように、ツールチップを追加できます。
 
-   ![](assets/s_ncs_admin_survey_send_an_email.png)
+  ![](assets/s_ncs_admin_survey_send_an_email.png)
 
 * リンクをボタンとして表示するか、画像として表示するかを選択できます。これをおこなうには、「**[!UICONTROL タイプ]**」フィールドで表示のタイプを選択します。
 
@@ -77,39 +77,39 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
 * ページの更新
 
-   これをおこなうには、「**[!UICONTROL アクション]**」フィールドのドロップダウンボックスで、「**[!UICONTROL ページを更新]**」オプションを選択します。
+  これをおこなうには、「**[!UICONTROL アクション]**」フィールドのドロップダウンボックスで、「**[!UICONTROL ページを更新]**」オプションを選択します。
 
-   ![](assets/s_ncs_admin_survey_link_refresh.png)
+  ![](assets/s_ncs_admin_survey_link_refresh.png)
 
 * 次／前のページの表示
 
-   これをおこなうには、「**[!UICONTROL アクション]**」フィールドのドロップダウンボックスで、「**[!UICONTROL 次のページ]**」または「**[!UICONTROL 前のページ]**」オプションを選択します。
+  これをおこなうには、「**[!UICONTROL アクション]**」フィールドのドロップダウンボックスで、「**[!UICONTROL 次のページ]**」または「**[!UICONTROL 前のページ]**」オプションを選択します。
 
-   ![](assets/s_ncs_admin_survey_link_next.png)
+  ![](assets/s_ncs_admin_survey_link_next.png)
 
-   リンクで置き換える場合は、「**[!UICONTROL 次へ]**」および「**[!UICONTROL 戻る]**」ボタンを非表示することができます。この[ページ](defining-web-forms-page-sequencing.md)を参照してください。
+  リンクで置き換える場合は、「**[!UICONTROL 次へ]**」および「**[!UICONTROL 戻る]**」ボタンを非表示することができます。この[ページ](defining-web-forms-page-sequencing.md)を参照してください。
 
-   リンクは、デフォルトで使用される「**[!UICONTROL 次へ]**」ボタンを置き換えます。
+  リンクは、デフォルトで使用される「**[!UICONTROL 次へ]**」ボタンを置き換えます。
 
-   ![](assets/s_ncs_admin_survey_link_next_ex.png)
+  ![](assets/s_ncs_admin_survey_link_next_ex.png)
 
 * 別のページの表示
 
-   「**[!UICONTROL トランジションを有効にする]**」オプションを使用すると、「**[!UICONTROL トランジション]**」フィールドで選択されたアウトバウンドトランジションに関連付けられた特定のページを表示できます。
+  「**[!UICONTROL トランジションを有効にする]**」オプションを使用すると、「**[!UICONTROL トランジション]**」フィールドで選択されたアウトバウンドトランジションに関連付けられた特定のページを表示できます。
 
-   ![](assets/s_ncs_admin_survey_link_viral.png)
+  ![](assets/s_ncs_admin_survey_link_viral.png)
 
-   デフォルトでは、ページには 1 つのアウトバウンドトランジションのみがあります。新しいトランジションを作成するには、ページを選択して、次に示すように、「**[!UICONTROL アウトバウンドトランジション]**」セクションの&#x200B;**[!UICONTROL 追加]**&#x200B;ボタンをクリックします。
+  デフォルトでは、ページには 1 つのアウトバウンドトランジションのみがあります。新しいトランジションを作成するには、ページを選択して、次に示すように、「**[!UICONTROL アウトバウンドトランジション]**」セクションの&#x200B;**[!UICONTROL 追加]**&#x200B;ボタンをクリックします。
 
-   ![](assets/s_ncs_admin_survey_add_transition.png)
+  ![](assets/s_ncs_admin_survey_add_transition.png)
 
-   ダイアグラムでは、この追加は次のように表示されます。
+  ダイアグラムでは、この追加は次のように表示されます。
 
-   ![](assets/s_ncs_admin_survey_add_transition_graph.png)
+  ![](assets/s_ncs_admin_survey_add_transition_graph.png)
 
-   >[!NOTE]
-   >
-   >Web フォームのページの順番について詳しくは、[Web フォームページの順番の定義](defining-web-forms-page-sequencing.md)を参照してください。
+  >[!NOTE]
+  >
+  >Web フォームのページの順番について詳しくは、[Web フォームページの順番の定義](defining-web-forms-page-sequencing.md)を参照してください。
 
 ### HTML コンテンツのパーソナライズ {#personalizing-html-content}
 

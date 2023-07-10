@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Campaigns, Templates
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 100%
 
@@ -94,53 +94,53 @@ ht-degree: 100%
 
 * **コントロール母集団**
 
-   このモジュールを選択すると、テンプレートおよびこのテンプレートをベースとするキャンペーンの詳細設定にタブが追加されます。設定は、テンプレートで、またはキャンペーンごとに個別に定義できます。 コントロール母集団の詳細については、 [こちらの節](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)を参照してください。
+  このモジュールを選択すると、テンプレートおよびこのテンプレートをベースとするキャンペーンの詳細設定にタブが追加されます。設定は、テンプレートで、またはキャンペーンごとに個別に定義できます。 コントロール母集団の詳細については、 [こちらの節](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)を参照してください。
 
-   ![](assets/s_ncs_user_op_template_activate_1.png)
+  ![](assets/s_ncs_user_op_template_activate_1.png)
 
 * **シードアドレス**
 
-   このモジュールを選択すると、テンプレートおよびこのテンプレートをベースとするキャンペーンの詳細設定にタブが追加されます。設定は、テンプレートで、またはキャンペーンごとに個別に定義できます。 シードアドレスの詳細については、[こちらの節](../../delivery/using/about-seed-addresses.md)を参照してください。
+  このモジュールを選択すると、テンプレートおよびこのテンプレートをベースとするキャンペーンの詳細設定にタブが追加されます。設定は、テンプレートで、またはキャンペーンごとに個別に定義できます。 シードアドレスの詳細については、[こちらの節](../../delivery/using/about-seed-addresses.md)を参照してください。
 
-   ![](assets/s_ncs_user_op_template_activate_2.png)
+  ![](assets/s_ncs_user_op_template_activate_2.png)
 
 * **ドキュメント**
 
-   このモジュールを選択すると、テンプレートおよびこのテンプレートをベースとするキャンペーンの「**[!UICONTROL 編集]**」タブにタブが追加されます。添付ドキュメントは、テンプレートから追加することも、キャンペーンごとに個別に追加することもできます。 ドキュメントの詳細については、[こちらの節](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)を参照してください。
+  このモジュールを選択すると、テンプレートおよびこのテンプレートをベースとするキャンペーンの「**[!UICONTROL 編集]**」タブにタブが追加されます。添付ドキュメントは、テンプレートから追加することも、キャンペーンごとに個別に追加することもできます。 ドキュメントの詳細については、[こちらの節](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)を参照してください。
 
-   ![](assets/s_ncs_user_op_template_activate_3.png)
+  ![](assets/s_ncs_user_op_template_activate_3.png)
 
 * **概要**
 
-   このモジュールを選択すると、キャンペーンの配信概要を定義するために「**[!UICONTROL 配信の概要]**」サブタブが「**[!UICONTROL ドキュメント]**」タブに追加されます。 配信概要の詳細については、[こちらの節](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)を参照してください。
+  このモジュールを選択すると、キャンペーンの配信概要を定義するために「**[!UICONTROL 配信の概要]**」サブタブが「**[!UICONTROL ドキュメント]**」タブに追加されます。 配信概要の詳細については、[こちらの節](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline)を参照してください。
 
-   ![](assets/s_ncs_user_op_template_activate_4.png)
+  ![](assets/s_ncs_user_op_template_activate_4.png)
 
 * **ターゲティングとワークフロー**
 
-   **[!UICONTROL ターゲティングとワークフロー]**&#x200B;モジュールを選択すると、タブが追加されて、このテンプレートをベースとするキャンペーン用に 1 つ以上のワークフローを作成できます。ワークフローは、このテンプレートに基づいて、キャンペーンごとに個別に設定することもできます。キャンペーンワークフローの詳細については、[こちらの節](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)を参照してください。
+  **[!UICONTROL ターゲティングとワークフロー]**&#x200B;モジュールを選択すると、タブが追加されて、このテンプレートをベースとするキャンペーン用に 1 つ以上のワークフローを作成できます。ワークフローは、このテンプレートに基づいて、キャンペーンごとに個別に設定することもできます。キャンペーンワークフローの詳細については、[こちらの節](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow)を参照してください。
 
-   ![](assets/s_ncs_user_op_template_activate_5.png)
+  ![](assets/s_ncs_user_op_template_activate_5.png)
 
-   このモジュールを有効にすると、プロセス実行シーケンスを定義するためのタブがキャンペーンの詳細設定に追加されます。
+  このモジュールを有効にすると、プロセス実行シーケンスを定義するためのタブがキャンペーンの詳細設定に追加されます。
 
-   ![](assets/s_ncs_user_op_template_activate_5a.png)
+  ![](assets/s_ncs_user_op_template_activate_5a.png)
 
 * **承認**
 
-   「**[!UICONTROL 承認]**」を選択すると、承認するプロセスおよび承認を担当するオペレーターを選択できます。 承認の詳細については、[こちらの節](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)を参照してください。
+  「**[!UICONTROL 承認]**」を選択すると、承認するプロセスおよび承認を担当するオペレーターを選択できます。 承認の詳細については、[こちらの節](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers)を参照してください。
 
-   ![](assets/s_ncs_user_op_template_activate_5b.png)
+  ![](assets/s_ncs_user_op_template_activate_5b.png)
 
-   テンプレートの「詳細設定」セクションの「**[!UICONTROL 承認]**」タブで、プロセスの承認を有効にするかどうかを選択できます。メッセージの配信を許可するために、承認が選択されているジョブを承認する必要があります。
+  テンプレートの「詳細設定」セクションの「**[!UICONTROL 承認]**」タブで、プロセスの承認を有効にするかどうかを選択できます。メッセージの配信を許可するために、承認が選択されているジョブを承認する必要があります。
 
-   レビュー担当オペレーターまたはオペレーターのグループを、有効化された各承認に関連付ける必要があります。
+  レビュー担当オペレーターまたはオペレーターのグループを、有効化された各承認に関連付ける必要があります。
 
 * **費用と目標**
 
-   このモジュールを選択すると、テンプレートおよびこのテンプレートに基づくキャンペーンの詳細に「**[!UICONTROL 予算]**」タブが追加され、関連する予算を選択できるようになります。
+  このモジュールを選択すると、テンプレートおよびこのテンプレートに基づくキャンペーンの詳細に「**[!UICONTROL 予算]**」タブが追加され、関連する予算を選択できるようになります。
 
-   ![](assets/s_ncs_user_op_template_activate_7.png)
+  ![](assets/s_ncs_user_op_template_activate_7.png)
 
 ## プロパティと実行 {#general-configuration}
 
@@ -153,14 +153,14 @@ ht-degree: 100%
 * テンプレートの&#x200B;**ラベル**&#x200B;を入力：デフォルトでは、このテンプレートから作成されるすべてのキャンペーンにこのラベルが割り当てられます。
 * ドロップダウンリストからキャンペーンの&#x200B;**特性**&#x200B;を選択します。このリストに表示される値は、**[!UICONTROL natureOp]** 列挙に保存されている値です。
 
-   >[!NOTE]
-   >
-   >列挙について詳しくは、[はじめに](../../platform/using/managing-enumerations.md)の節を参照してください。
+  >[!NOTE]
+  >
+  >列挙について詳しくは、[はじめに](../../platform/using/managing-enumerations.md)の節を参照してください。
 
 * **キャンペーンのタイプ**&#x200B;を選択：単一、繰り返しまたは定期的。デフォルトでは、キャンペーンテンプレートは単一のキャンペーンに適用されます。繰り返しキャンペーンと定期的キャンペーンについて詳しくは、[こちらの節](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns)を参照してください。
 * キャンペーン期間、すなわちキャンペーンが実施される日数を指定します。このテンプレートをベースとしてキャンペーンを作成すると、キャンペーンの開始日と終了日が自動的に設定されます。
 
-   繰り返しキャンペーンの場合は、キャンペーンの開始日と終了日をテンプレートで直接指定する必要があります。
+  繰り返しキャンペーンの場合は、キャンペーンの開始日と終了日をテンプレートで直接指定する必要があります。
 
 * テンプレートの&#x200B;**親マーケティングプログラム**&#x200B;を指定：このテンプレートをベースとするキャンペーンは、選択したプログラムにリンクされます。
 

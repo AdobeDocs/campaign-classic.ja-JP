@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 100%
 
@@ -57,42 +57,42 @@ E メール配信のステータスが&#x200B;**[!UICONTROL 失敗]**&#x200B;で
 
 * 受信者のメッセージが次の「未到達」エラーで失敗する
 
-   ```
-   Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
-   ```
+  ```
+  Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
+  ```
 
-   この問題の原因は、ほとんどの場合、アップストリームターゲティングまたは配信のターゲットマッピングで定義されていないか、マップされていないテーブルまたはフィールドを HTML 内のパーソナライゼーションが呼び出そうとしていることにあります。
+  この問題の原因は、ほとんどの場合、アップストリームターゲティングまたは配信のターゲットマッピングで定義されていないか、マップされていないテーブルまたはフィールドを HTML 内のパーソナライゼーションが呼び出そうとしていることにあります。
 
-   これを修正するには、ワークフローと配信コンテンツを確認し、問題のテーブルを呼び出そうとするパーソナライゼーションを特定して、そのテーブルをマップできるかどうかを判別する必要があります。その後、このテーブルへの呼び出しを HTML で削除するか、配信へのマッピングを修正すると解決できます。
+  これを修正するには、ワークフローと配信コンテンツを確認し、問題のテーブルを呼び出そうとするパーソナライゼーションを特定して、そのテーブルをマップできるかどうかを判別する必要があります。その後、このテーブルへの呼び出しを HTML で削除するか、配信へのマッピングを修正すると解決できます。
 
 * ミッドソーシングデプロイメントモデルで、次のメッセージが配信ログに表示されることがあります。
 
-   ```
-   Error during the call of method 'AppendDeliveryPart' on the mid sourcing server: 'Communication error with the server: please check this one is correctly configured. Code HTTP 408 'Service temporarily unavailable'.
-   ```
+  ```
+  Error during the call of method 'AppendDeliveryPart' on the mid sourcing server: 'Communication error with the server: please check this one is correctly configured. Code HTTP 408 'Service temporarily unavailable'.
+  ```
 
-   原因はパフォーマンスの問題に関連しています。これは、データをミッドソーシングサーバーに送信する前に、マーケティングインスタンスでデータの作成に時間がかかりすぎていることを意味します。
+  原因はパフォーマンスの問題に関連しています。これは、データをミッドソーシングサーバーに送信する前に、マーケティングインスタンスでデータの作成に時間がかかりすぎていることを意味します。
 
-   これを解決するには、データベースをクリーンアップしてインデックスを再作成することをお勧めします。データベースのメンテナンスについて詳しくは、[この節](../../production/using/recommendations.md)を参照してください。
+  これを解決するには、データベースをクリーンアップしてインデックスを再作成することをお勧めします。データベースのメンテナンスについて詳しくは、[この節](../../production/using/recommendations.md)を参照してください。
 
-   スケジュールされているアクティビティのすべてのワークフロー、および失敗ステータスのすべてのワークフローも再開する必要があります。[この節](../../workflow/using/scheduler.md)を参照してください。
+  スケジュールされているアクティビティのすべてのワークフロー、および失敗ステータスのすべてのワークフローも再開する必要があります。[この節](../../workflow/using/scheduler.md)を参照してください。
 
 * 配信が失敗した場合、次のエラーが配信ログに表示されることがあります。
 
-   ```
-   DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
-   ```
+  ```
+  DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
+  ```
 
-   通常、このエラーは受信者への E メール内に複数の値があるパーソナライゼーションフィールドまたはブロックがあることを意味します。パーソナライゼーションブロックが使用されていて、特定の受信者の複数のレコードを取得しています。
+  通常、このエラーは受信者への E メール内に複数の値があるパーソナライゼーションフィールドまたはブロックがあることを意味します。パーソナライゼーションブロックが使用されていて、特定の受信者の複数のレコードを取得しています。
 
-   これを解決するには、使用しているパーソナライゼーションデータを確認し、それらのフィールドに複数のエントリを持つ受信者のターゲットをチェックします。配信アクティビティの前にターゲティングワークフローで&#x200B;**[!UICONTROL 重複排除]**&#x200B;アクティビティを使用して、一度に 1 つのパーソナライゼーションフィールドのみが使用されていることを確認することもできます。重複排除について詳しくは、[このページ](../../workflow/using/deduplication.md)を参照してください。
+  これを解決するには、使用しているパーソナライゼーションデータを確認し、それらのフィールドに複数のエントリを持つ受信者のターゲットをチェックします。配信アクティビティの前にターゲティングワークフローで&#x200B;**[!UICONTROL 重複排除]**&#x200B;アクティビティを使用して、一度に 1 つのパーソナライゼーションフィールドのみが使用されていることを確認することもできます。重複排除について詳しくは、[このページ](../../workflow/using/deduplication.md)を参照してください。
 
 * 配信は、次の「未到達」エラーで失敗する場合があります。
 
-   ```
-   Inbound email bounce (rule 'Auto_replies' has matched this bounce).
-   ```
+  ```
+  Inbound email bounce (rule 'Auto_replies' has matched this bounce).
+  ```
 
-   これは、配信が成功したものの、「Auto_replies」インバウンド E メールに一致した受信者からの自動返信（「不在」返信など）を Adobe Campaign が受け取ったことを意味します。
+  これは、配信が成功したものの、「Auto_replies」インバウンド E メールに一致した受信者からの自動返信（「不在」返信など）を Adobe Campaign が受け取ったことを意味します。
 
-   この自動返信 E メールは Adobe Campaign によって無視され、受信者のアドレスが強制隔離されることはありません。
+  この自動返信 E メールは Adobe Campaign によって無視され、受信者のアドレスが強制隔離されることはありません。

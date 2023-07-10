@@ -27,7 +27,7 @@ FDA オプションを使用すると、サードパーティのデータベー�
 * **設定**:互換性のある外部データベースのリストは、 [ホスティングモデル](../../installation/using/hosting-models.md).
 * **外部データベースのバージョン**:Adobe Campaign FDA モジュールと互換性のある外部データベースが必要です。
 
-   ホスティングモデルごとのデータベースシステムと互換性のあるバージョンのリストについて詳しくは、 Campaign を参照してください。 [互換性マトリックス](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
+  ホスティングモデルごとのデータベースシステムと互換性のあるバージョンのリストについて詳しくは、 Campaign を参照してください。 [互換性マトリックス](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
 
 * **権限**:また、 [必要な権限](../../installation/using/remote-database-access-rights.md) (Adobe Campaignおよび外部データベース )
 

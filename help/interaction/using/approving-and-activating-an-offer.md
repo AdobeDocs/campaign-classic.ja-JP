@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
 
@@ -65,27 +65,27 @@ ht-degree: 100%
 
 * 「**[!UICONTROL スケジュールおよび実施要件ルール]**」をクリックすると、すべてのルールを記載したリストが表示されます。
 
-   ![](assets/offer_validate_005.png)
+  ![](assets/offer_validate_005.png)
 
 * 実施要件ルールを変更するには、「**[!UICONTROL 却下]**」をクリックし、「**[!UICONTROL 実施要件の承認]**」をクリックします。
 
-   ![](assets/offer_validate_007.png)
+  ![](assets/offer_validate_007.png)
 
-   オファーダッシュボード上の様々なステータスが更新されます。
+  オファーダッシュボード上の様々なステータスが更新されます。
 
-   ![](assets/offer_validate_006.png)
+  ![](assets/offer_validate_006.png)
 
 * オファーの実施要件を承認するには、「**[!UICONTROL 実施要件を承認]**」をクリックします。
 
-   ![](assets/offer_validate_008.png)
+  ![](assets/offer_validate_008.png)
 
-   実施要件を承認し、必要に応じてコメントを追加してから、「**[!UICONTROL 実施要件の承認]**」をクリックします。
+  実施要件を承認し、必要に応じてコメントを追加してから、「**[!UICONTROL 実施要件の承認]**」をクリックします。
 
-   ![](assets/offer_validate_009.png)
+  ![](assets/offer_validate_009.png)
 
-   オファーダッシュボード上の様々なステータスが更新されます。
+  オファーダッシュボード上の様々なステータスが更新されます。
 
-   ![](assets/offer_validate_010.png)
+  ![](assets/offer_validate_010.png)
 
 ## 承認トラッキング {#approval-tracking}
 

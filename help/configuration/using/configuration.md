@@ -99,35 +99,35 @@ A **`<command>`** 要素に含めることができる要素 **`<command>`** サ
 
 * 「xtk:import」フォームを起動するためのグローバルコマンドの宣言：
 
-   ```
-   <command desc="Start the data import wizard" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
-   ```
+  ```
+  <command desc="Start the data import wizard" form="xtk:import" label="&amp;Data import..." name="import" rights="import,recipientImport"/>
+  ```
 
-   キーボードショートカットは、 **&amp;** 」と入力します。
+  キーボードショートカットは、 **&amp;** 」と入力します。
 
 * 区切り文字付きのサブメニューの例：
 
-   ![](assets/d_ncs_integration_navigation_exemple1.png)
+  ![](assets/d_ncs_integration_navigation_exemple1.png)
 
-   ```
-   <command label="Administration" name="admin">
-     <command name="cmd1" label="Example 1" form="cus:example1"/>
-     <command name="sep" label="-"/>
-     <command name="cmd1" label="Example 2" form="cus:example2">
-       <enter>
-         <set xpath="@type" expr="1"/>
-       </enter>
-     </command>
-   </command>
-   ```
+  ```
+  <command label="Administration" name="admin">
+    <command name="cmd1" label="Example 1" form="cus:example1"/>
+    <command name="sep" label="-"/>
+    <command name="cmd1" label="Example 2" form="cus:example2">
+      <enter>
+        <set xpath="@type" expr="1"/>
+      </enter>
+    </command>
+  </command>
+  ```
 
 * SOAP メソッドの実行：
 
-   ```
-   <command name="cmd3" label="Example 3" promptLabel="Do you really want to execute the command?">
-     <soapCall name="Execute" service="xtk:sql"/>
-   </command>
-   ```
+  ```
+  <command name="cmd3" label="Example 3" promptLabel="Do you really want to execute the command?">
+    <soapCall name="Execute" service="xtk:sql"/>
+  </command>
+  ```
 
 ## フォルダータイプ {#folder-type}
 

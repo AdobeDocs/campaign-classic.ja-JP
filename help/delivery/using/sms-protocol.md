@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
-source-wordcount: '8460'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '8446'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 >[!NOTE]
 >
 >このドキュメントでは、プロトコル、フィールド名とフィールド値の詳細については、すべて [SMPP 3.4 仕様](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)を参照しています。
+>
 
 ## 概要 {#overview}
 
@@ -829,16 +830,13 @@ SMS プロセスは、完了行を毎分チェックし、非同期に処理し�
 
 ### SMS のテスト {#test}
 
-* **SMS に様々な文字を送信する**：GSM 以外の文字や ASCII 以外の文字で SMS を送信する必要がある場合は、できるだけ多様な文字でメッセージを送信してみてください。カスタム文字マッピングテーブルを設定する場合は、 
-すべての可能な `data_coding` 値に対して、少なくとも 1 回 SMS を送信してください。
+* **SMS に様々な文字を送信する**：GSM 以外の文字や ASCII 以外の文字で SMS を送信する必要がある場合は、できるだけ多様な文字でメッセージを送信してみてください。カスタム文字マッピングテーブルを設定する場合は、すべての可能な `data_coding` 値に対して、少なくとも 1 回 SMS を送信してください。
 
 * **SR が正しく処理されていることを確認する**：SMS が配信ログに受信済みとマークされます。配信ログは正常に作成され、次のようになります。
-
-配信プロバイダー名を変更したことを確認してください。配信ログには    `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
+  `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 配信プロバイダー名を変更したことを確認してください。実稼働環境では、配信ログに **SR Generic** を含めないでください。
 
-* **MO が処理されていることを確認する**：MO を処理する必要がある場合（自動応答、MO のデータベースへの格納など）、いくつかテストを試してみてください。すべての自動返信キーワードに対して SMS を送信し、返信速度が適切である（数秒以内）ことを確認します。Adobe Campaign が 
-正常な `DELIVER_SM_RESP`（command_status=0）で返信することをログで確認します。
+* **MO が処理されていることを確認する**：MO を処理する必要がある場合（自動応答、MO のデータベースへの格納など）、いくつかテストを試してみてください。すべての自動返信キーワードに対して SMS を送信し、返信速度が適切である（数秒以内）ことを確認します。Adobe Campaign が正常な `DELIVER_SM_RESP`（command_status=0）で返信することをログで確認します。
 
 ### PDU の確認 {#check-pdus}
 

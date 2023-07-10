@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
 
@@ -90,11 +90,11 @@ Adobe Campaign Classic インスタンスに選択した言語は、日時フォ
 
 * コア機能またはリンクをクリックすると、現在のページに替わって、該当するページが表示されます。前のページに戻るには、ツールバーの「**[!UICONTROL 戻る]**」ボタンをクリックします。ホームページに戻るには、「**[!UICONTROL ホーム]**」ボタンをクリックします。
 
-   ![](assets/d_ncs_user_interface_back_home_buttons.png)
+  ![](assets/d_ncs_user_interface_back_home_buttons.png)
 
 * メニューまたは表示画面（Web アプリケーション、プログラム、配信、レポートなど）へのショートカットの場合は、対応するページが別のタブで表示されます。これにより、タブを使用してページからページに移動することができます。
 
-   ![](assets/d_ncs_user_interface_tabs.png)
+  ![](assets/d_ncs_user_interface_tabs.png)
 
 ### 要素の作成 {#creating-an-element}
 

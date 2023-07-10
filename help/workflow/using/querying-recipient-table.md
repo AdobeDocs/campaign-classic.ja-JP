@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Query Editor
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -20,19 +20,19 @@ ht-degree: 100%
 
 * どのテーブルを選択する必要がありますか。
 
-   受信者テーブル（nms:recipient）
+  受信者テーブル（nms:recipient）
 
 * 出力列として選択するフィールドは何ですか。
 
-   E メール、名前、市区町村およびアカウント番号
+  E メール、名前、市区町村およびアカウント番号
 
 * 受信者のフィルター条件は何ですか。
 
-   市区町村と E メールドメイン
+  市区町村と E メールドメイン
 
 * 並べ替えを設定しますか。
 
-   はい。「**[!UICONTROL アカウント番号]**」および「**[!UICONTROL 姓]**」に基づいて設定します
+  はい。「**[!UICONTROL アカウント番号]**」および「**[!UICONTROL 姓]**」に基づいて設定します
 
 この例を作成するには、次の手順に従います。
 

@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
 
@@ -26,19 +26,19 @@ Adobe Campaign では、トラッキングタグを挿入することで、web �
 * ナビゲーションパスの定義を簡単にするために、複数のトラッキングタグを同じページに挿入可能（例：購入、購読、戻るなど）
 * Web アプリケーションダッシュボードでの、異なるページのナビゲーションパスおよびトラッキングタグの表示
 
-   ![](assets/trackers_1.png)
+  ![](assets/trackers_1.png)
 
 * 完全なトラッキングレポートの生成
 
-   ![](assets/trackers_5.png)
+  ![](assets/trackers_5.png)
 
-   主な指標を次に示します。
+  主な指標を次に示します。
 
    * **コンバージョン率**：ナビゲーションパスのすべてのステップを表示した人の数
    * **バウンス率**：最初のステップのみ表示した人の数
    * **コンバージョンファネル**：各ステップ間の損失率
 
-   さらに、**扇形**&#x200B;グラフ（円グラフ）に、そのソースに応じた母集団が表示されます。
+  さらに、**扇形**&#x200B;グラフ（円グラフ）に、そのソースに応じた母集団が表示されます。
 
 ## トラフィックソースの識別 {#identifying-the-traffic-source}
 

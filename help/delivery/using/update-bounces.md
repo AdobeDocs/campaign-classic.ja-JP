@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -36,6 +36,7 @@ ISP が機能停止した場合、Campaign 経由で送信された E メール�
 >[このページ](https://www.apple.com/jp/support/systemstatus/){_blank}で Apple システム状況ダッシュボードを確認できます。
 >
 >[このページ](https://www.google.com/appsstatus#hl=ja&amp;v=status){_blank}で Google Workspace ステータスダッシュボードを確認できます。
+>
 
 ## 影響{#update-bounce-impact}
 
@@ -62,7 +63,7 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 
    * **エラーテキスト（強制隔離テキスト）**&#x200B;に「550-5.1.1」が含まれ、かつ&#x200B;**エラーテキスト（強制隔離テキスト）**&#x200B;に「support.ISP.com」が含まれている
 
-      例えば、「support.ISP.com」は「support.apple.com」または「support.google.com」になります
+     例えば、「support.ISP.com」は「support.apple.com」または「support.google.com」になります
 
    * **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS AM 以降）
    * **更新ステータス（@lastModified）**&#x200B;が YYYY/MM/DD 午後 HH:MM:SS 以前

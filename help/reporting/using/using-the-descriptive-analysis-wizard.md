@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 100%
 
@@ -47,17 +47,17 @@ ht-degree: 100%
 
 * 一連の&#x200B;**受信者**&#x200B;の場合は、上に示すように、分析対象となる受信者を選択し、右クリックして&#x200B;**[!UICONTROL アクション／参照]**&#x200B;を選択します。受信者のリストにフィルターを適用する場合は、その内容のみ分析されます。
 
-   フォルダーまたは現在のフィルター内のすべての受信者を選択するには、Ctrl + A キーを使用します。つまり、表示されていない受信者でも選択されます。
+  フォルダーまたは現在のフィルター内のすべての受信者を選択するには、Ctrl + A キーを使用します。つまり、表示されていない受信者でも選択されます。
 
-   受信者の記述的分析の例については、[定性的データ分析](../../reporting/using/use-cases.md#qualitative-data-analysis)を参照してください。
+  受信者の記述的分析の例については、[定性的データ分析](../../reporting/using/use-cases.md#qualitative-data-analysis)を参照してください。
 
 * **ワークフロー**&#x200B;のコンテキストでは、受信者テーブルを指すトランザクションにカーソルを置き、右クリックして「**[!UICONTROL ターゲットを分析]**」を選択します。詳しくは、[ワークフローのトランジションターゲットの分析](../../reporting/using/use-cases.md#analyzing-a-transition-target-in-a-workflow)の例を参照してください。
 * **リスト**&#x200B;の場合は、1 つ以上のリストを選択し、受信者の場合と同じ手順を適用します。
 * **配信**&#x200B;の場合は、次に示すように、分析対象をターゲットとする配信を選択し、右クリックして&#x200B;**[!UICONTROL アクション／ターゲットを参照]**&#x200B;を選択します。
 
-   ![](assets/reporting_descriptive_from_deliveries.png)
+  ![](assets/reporting_descriptive_from_deliveries.png)
 
-   配信の記述的分析の例については、[母集団の分析](../../reporting/using/use-cases.md#analyzing-a-population)および[受信者トラッキングログの分析](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs)を参照してください。
+  配信の記述的分析の例については、[母集団の分析](../../reporting/using/use-cases.md#analyzing-a-population)および[受信者トラッキングログの分析](../../reporting/using/use-cases.md#analyzing-recipient-tracking-logs)を参照してください。
 
 ## 定性配分テンプレートの設定 {#configuring-the-qualitative-distribution-template}
 
@@ -81,32 +81,32 @@ ht-degree: 100%
 
 * 「**[!UICONTROL なし]**」オプション：変数に割り当て可能なすべての値をビニングなしで表示できます。
 
-   >[!CAUTION]
-   >
-   >このオプションは慎重に使用してください。レポートおよびマシンのパフォーマンスに重大な影響を及ぼすおそれがあります。
+  >[!CAUTION]
+  >
+  >このオプションは慎重に使用してください。レポートおよびマシンのパフォーマンスに重大な影響を及ぼすおそれがあります。
 
 * 「**[!UICONTROL 自動]**」オプション：最も頻繁に表された n 個の値を表示できます。これらは自動的に計算され、それぞれ、bin の数と比べた変数の割合を表します。数値の場合は、データを分類する n 個のクラスが Adobe Campaign によって自動的に生成されます。
 * 「**[!UICONTROL 手動]**」オプション：「**[!UICONTROL 自動]**」オプションと似た動作をしますが、これらの値を手動で設定できる点が異なります。それには、値テーブルの右にある「**[!UICONTROL 追加]**」ボタンをクリックします。
 
-   値は、パーソナライゼーションの前に Adobe Campaign によって自動的に初期化できます。それには、次に示すように、生成する bin の数を入力し、「**[!UICONTROL 初期化の条件]**」リンクをクリックします。
+  値は、パーソナライゼーションの前に Adobe Campaign によって自動的に初期化できます。それには、次に示すように、生成する bin の数を入力し、「**[!UICONTROL 初期化の条件]**」リンクをクリックします。
 
-   ![](assets/reporting_descriptive_initialize.png)
+  ![](assets/reporting_descriptive_initialize.png)
 
-   次に、必要に応じて内容を調整します。
+  次に、必要に応じて内容を調整します。
 
-   ![](assets/reporting_descriptive_initialize_perso.png)
+  ![](assets/reporting_descriptive_initialize_perso.png)
 
-   希望する精度に応じて、日付を格納するフィールドを時間、日、月、年などでグループ化できます。
+  希望する精度に応じて、日付を格納するフィールドを時間、日、月、年などでグループ化できます。
 
-   ![](assets/reporting_descriptive_group_by_year.png)
+  ![](assets/reporting_descriptive_group_by_year.png)
 
 * 「**[!UICONTROL 剰余]**」オプション：数値の場合に値のグループを作成できます。例えば、剰余の値が 10 の場合は、10 ずつ変わる値の区間を作成できます。
 
-   ![](assets/reporting_descriptive_initialize_modulo.png)
+  ![](assets/reporting_descriptive_initialize_modulo.png)
 
-   次の例では、受信者の年齢別分類が表示されています。
+  次の例では、受信者の年齢別分類が表示されています。
 
-   ![](assets/reporting_descriptive_initialize_modulo_result.png)
+  ![](assets/reporting_descriptive_initialize_modulo_result.png)
 
 ### テーブルでのデータ表示 {#displaying-data-in-the-table}
 
@@ -158,17 +158,17 @@ ht-degree: 100%
 * **[!UICONTROL 列割合配分]**：行の値の列の値に対する比を計算します（テーブルの場合のみ使用可能）。
 * **[!UICONTROL 合計割合配分]**：関係する受信者の値別の配分を計算します。
 
-   ![](assets/s_ncs_user_report_wizard_026.png)
+  ![](assets/s_ncs_user_report_wizard_026.png)
 
 * **[!UICONTROL 計算されたフィールド]**：パーソナライズした演算子を作成します（テーブルの場合のみ使用可能）。「**[!UICONTROL ユーザー関数]**」フィールドでは、データに適用する計算を入力できます。
 
-   例：国別および部門別に顧客ごとの平均購入額を計算
+  例：国別および部門別に顧客ごとの平均購入額を計算
 
-   ![](assets/report_compute_data_sample1.png)
+  ![](assets/report_compute_data_sample1.png)
 
-   上記の情報をテーブルに表示するには、顧客ごとの平均購入額を格納するための計算フィールドを作成する必要があります。
+  上記の情報をテーブルに表示するには、顧客ごとの平均購入額を格納するための計算フィールドを作成する必要があります。
 
-   手順は次のとおりです。
+  手順は次のとおりです。
 
    1. 購入合計額を計算します。
 
@@ -226,12 +226,12 @@ Adobe Campaign には、デフォルトで、選択されたデータを計算�
 * **[!UICONTROL 十分位数の配分]**：返された値を、それぞれが数値フィールドの値の 1/10 を表すように配分します。
 * **[!UICONTROL カスタム配分]**：返された値をユーザー定義のしきい値に基づいて配分します。
 
-   次に示すように、**[!UICONTROL 詳細]**&#x200B;ボタンをクリックすると、統計を編集でき、必要に応じて統計の計算や表示をパーソナライズできます。
+  次に示すように、**[!UICONTROL 詳細]**&#x200B;ボタンをクリックすると、統計を編集でき、必要に応じて統計の計算や表示をパーソナライズできます。
 
-   ![](assets/s_ncs_user_report_wizard_030.png)
+  ![](assets/s_ncs_user_report_wizard_030.png)
 
-   ウィザードの最後の段階では、定量分析レポートが表示されます。
+  ウィザードの最後の段階では、定量分析レポートが表示されます。
 
-   ![](assets/reporting_descriptive_view_report.png)
+  ![](assets/reporting_descriptive_view_report.png)
 
-   レポートを変更するには、[レポートの処理](../../reporting/using/processing-a-report.md)を参照してください。
+  レポートを変更するには、[レポートの処理](../../reporting/using/processing-a-report.md)を参照してください。

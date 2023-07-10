@@ -27,7 +27,7 @@ ht-degree: 3%
    * ワークフローの開始
    * プロセスの検証等
 
-      参照： [JavaScript での SOAP メソッド](../../configuration/using/soap-methods-in-javascript.md).
+     参照： [JavaScript での SOAP メソッド](../../configuration/using/soap-methods-in-javascript.md).
 
 * コンテンツ管理
 * 購読管理 ( [購読 (nms:subscription)](#subscribe--nms-subscription-) および [配信停止 (nms:subscription)](#unsubscribe--nms-subscription-).
@@ -84,33 +84,33 @@ E メールアドレスの受信者の紐付けキーを使用した購読：入
 
 * クエリ:
 
-   ```
-   <?xml version='1.0' encoding='ISO-8859-1'?>
-   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
-     <SOAP-ENV:Body>
-       <m:Subscribe xmlns:m='urn:nms:subscription' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
-         <sessiontoken xsi:type='xsd:string'/>
-         <service xsi:type='xsd:string'>SVC1</service>
-         <content xsi:type='' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
-           <recipient _key="@email" email= "john.doe@adobe.com/>
-         </content>
-         <create xsi:type='xsd:boolean'>true</create>
-       </m:Subscribe>
-     </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <?xml version='1.0' encoding='ISO-8859-1'?>
+  <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP-ENV:Body>
+      <m:Subscribe xmlns:m='urn:nms:subscription' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
+        <sessiontoken xsi:type='xsd:string'/>
+        <service xsi:type='xsd:string'>SVC1</service>
+        <content xsi:type='' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
+          <recipient _key="@email" email= "john.doe@adobe.com/>
+        </content>
+        <create xsi:type='xsd:boolean'>true</create>
+      </m:Subscribe>
+    </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 * 応答:
 
-   ```
-   <?xml version='1.0' encoding='ISO-8859-1'?>
-   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
-     <SOAP-ENV:Body>
-       <m:SubscribeResponse xmlns:m='urn:nms:subscription' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
-       </m:SubscribeResponse>
-     </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <?xml version='1.0' encoding='ISO-8859-1'?>
+  <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP-ENV:Body>
+      <m:SubscribeResponse xmlns:m='urn:nms:subscription' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
+      </m:SubscribeResponse>
+    </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 ## 配信停止 (nms:subscription) {#unsubscribe--nms-subscription-}
 

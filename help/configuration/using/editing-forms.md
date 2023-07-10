@@ -48,39 +48,39 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
 * コンソール画面
 
-   これはデフォルトのフォームタイプです。 フォームは単一のページで構成されます。
+  これはデフォルトのフォームタイプです。 フォームは単一のページで構成されます。
 
-   ![](assets/console_screen_form.png)
+  ![](assets/console_screen_form.png)
 
 * コンテンツ管理
 
-   このフォームタイプをコンテンツ管理に使用します。 参照 [使用例](../../delivery/using/use-case--creating-content-management.md).
+  このフォームタイプをコンテンツ管理に使用します。 参照 [使用例](../../delivery/using/use-case--creating-content-management.md).
 
-   ![](../../delivery/using/assets/d_ncs_content_form13.png)
+  ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
 * ウィザード
 
-   このフォームは、特定のシーケンスで並べられた複数のフローティングスクリーンで構成されます。 ユーザーは画面間を移動します。 [詳細情報](form-structure.md#wizards)。
+  このフォームは、特定のシーケンスで並べられた複数のフローティングスクリーンで構成されます。 ユーザーは画面間を移動します。 [詳細情報](form-structure.md#wizards)。
 
 * アイコンボックス
 
-   このフォームは複数のページで構成されます。 フォームに移動するには、フォームの左側でアイコンを選択します。
+  このフォームは複数のページで構成されます。 フォームに移動するには、フォームの左側でアイコンを選択します。
 
-   ![](assets/iconbox_form_preview.png)
+  ![](assets/iconbox_form_preview.png)
 
 * ノートブック
 
-   このフォームは複数のページで構成されます。 フォームに移動するには、フォーム上部のタブを選択します。
+  このフォームは複数のページで構成されます。 フォームに移動するには、フォーム上部のタブを選択します。
 
-   ![](assets/notebook_form_preview.png)
+  ![](assets/notebook_form_preview.png)
 
 * 縦長ペイン
 
-   このフォームは、ナビゲーションツリーを表示します。
+  このフォームは、ナビゲーションツリーを表示します。
 
 * 横長ペイン
 
-   このフォームは、項目のリストを表示します。
+  このフォームは、項目のリストを表示します。
 
 ## コンテナ
 
@@ -185,28 +185,28 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
    * フォーム名と名前空間を指定します。
 
-      フォーム名と名前空間は、関連するデータスキーマと一致させることができます。  この例では、 `cus:order` データスキーマ：
+     フォーム名と名前空間は、関連するデータスキーマと一致させることができます。  この例では、 `cus:order` データスキーマ：
 
-      ```xml
-      <form entitySchema="xtk:form" img="xtk:form.png" label="Order" name="order" namespace="cus" type="iconbox" xtkschema="xtk:form">
-        […]
-      </form>
-      ```
+     ```xml
+     <form entitySchema="xtk:form" img="xtk:form.png" label="Order" name="order" namespace="cus" type="iconbox" xtkschema="xtk:form">
+       […]
+     </form>
+     ```
 
-      または、 `entity-schema` 属性。
+     または、 `entity-schema` 属性。
 
-      ```xml
-      <form entity-schema="cus:stockLine" entitySchema="xtk:form" img="xtk:form.png" label="Stock order" name="stockOrder" namespace="cus" xtkschema="xtk:form">
-        […]
-      </form>
-      ```
+     ```xml
+     <form entity-schema="cus:stockLine" entitySchema="xtk:form" img="xtk:form.png" label="Stock order" name="stockOrder" namespace="cus" xtkschema="xtk:form">
+       […]
+     </form>
+     ```
 
    * フォームに表示するラベルを指定します。
    * 必要に応じて、フォームタイプを指定します。 フォームタイプを指定しない場合、コンソール画面タイプがデフォルトで使用されます。
 
-      ![](assets/input-form-create-2.png)
+     ![](assets/input-form-create-2.png)
 
-      複数ページのフォームをデザインする場合は、 `<form>` 要素を選択して、コンテナのタイプを指定します。
+     複数ページのフォームをデザインする場合は、 `<form>` 要素を選択して、コンテナのタイプを指定します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -320,6 +320,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
           </container>
       </form>
       ```
+
    または、 `type="frame"` 既存の `<container>` 要素。
 
 ### ノートブックフォームの作成
@@ -374,7 +375,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
 * トップレベルフォームは、iconbox フォームです。 このフォームは、次のラベルが付いた 2 つのコンテナで構成されます **一般** および **詳細**.
 
-   その結果、外側のフォームには **一般** および **詳細** ページを表示します。 これらのページにアクセスするには、ユーザーがフォームの左側にあるアイコンをクリックします。
+  その結果、外側のフォームには **一般** および **詳細** ページを表示します。 これらのページにアクセスするには、ユーザーがフォームの左側にあるアイコンをクリックします。
 
 * サブフォームは、 **一般** コンテナ。 サブフォームは、ラベル付けされた 2 つのコンテナで構成されます **名前** および **連絡先**.
 
@@ -411,7 +412,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
 * トップレベルフォームは、iconbox フォームです。 このフォームは、次のラベルが付いた 2 つのコンテナで構成されます **一般** および **詳細**.
 
-   その結果、外側のフォームには **一般** および **詳細** ページを表示します。 これらのページにアクセスするには、ユーザーがフォームの左側にあるアイコンをクリックします。
+  その結果、外側のフォームには **一般** および **詳細** ページを表示します。 これらのページにアクセスするには、ユーザーがフォームの左側にあるアイコンをクリックします。
 
 * サブフォームは、 **一般** コンテナ。 サブフォームは、ラベル付けされた 2 つのコンテナで構成されます **名前** および **連絡先**.
 

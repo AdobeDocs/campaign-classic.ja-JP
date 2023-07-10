@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2744'
 ht-degree: 100%
 
@@ -35,11 +35,11 @@ Adobe Campaign は、外部アカウントを無関係なエンティティと�
 
 * **その問題は 1 つまたは複数のアカウントで発生した**
 
-   この場合、各アカウントに別々にその他のトラブルシューティング手順を適用できます。ネットワークトラフィックとログ数を減らすために、アカウントの診断時に他のアカウントを無効にすることをお勧めします。
+  この場合、各アカウントに別々にその他のトラブルシューティング手順を適用できます。ネットワークトラフィックとログ数を減らすために、アカウントの診断時に他のアカウントを無効にすることをお勧めします。
 
 * **1 つのアカウントのみアクティブの場合は、問題は発生しなかった**
 
-   アカウント間で競合が発生しています。前述したように、Adobe Campaign はアカウントを個別に扱いますが、プロバイダーはアカウントを単一のアカウントとして扱うことができます。
+  アカウント間で競合が発生しています。前述したように、Adobe Campaign はアカウントを個別に扱いますが、プロバイダーはアカウントを単一のアカウントとして扱うことができます。
 
    * すべてのアカウント間で異なるログイン／パスワードの組み合わせを使用しています。プロバイダーに連絡して、プロバイダー側の競合の可能性を診断する必要があります。
 
@@ -49,17 +49,17 @@ Adobe Campaign は、外部アカウントを無関係なエンティティと�
 
 * コネクタが最近変更されたかどうか、およびどのユーザーによって変更されたかを調べます（外部アカウントをグループとして確認します）。
 
-   ```
-   select saccount, (sserver ||':'||sport) as serverPort, iextaccountid, CASE WHEN N0.iactive=1 THEN 'Yes' ELSE 'No' END as "(x) Enabled",
-   
-   (select X1.sname from xtkoperator X1 where N0.icreatedbyid = X1.ioperatorid) as "Created By",
-   
-   (select X1.sname from xtkoperator X1 where N0.imodifiedbyid = X1.ioperatorid) as "Last Modified By",
-   
-   N0.slabel as "External Account", N0.tslastmodified as "LastModifiedDate"
-   
-   from nmsextaccount N0 LEFT JOIN xtkoperator X0 ON (N0.icreatedbyid=X0.ioperatorid) order by 8 DESC LIMIT 50;
-   ```
+  ```
+  select saccount, (sserver ||':'||sport) as serverPort, iextaccountid, CASE WHEN N0.iactive=1 THEN 'Yes' ELSE 'No' END as "(x) Enabled",
+  
+  (select X1.sname from xtkoperator X1 where N0.icreatedbyid = X1.ioperatorid) as "Created By",
+  
+  (select X1.sname from xtkoperator X1 where N0.imodifiedbyid = X1.ioperatorid) as "Last Modified By",
+  
+  N0.slabel as "External Account", N0.tslastmodified as "LastModifiedDate"
+  
+  from nmsextaccount N0 LEFT JOIN xtkoperator X0 ON (N0.icreatedbyid=X0.ioperatorid) order by 8 DESC LIMIT 50;
+  ```
 
 * システムがアップグレードされたかどうか、およびシステムがアップグレードされたタイミングを調べます（/postupgrade ディレクトリ内）。
 * SMS に影響を与えるパッケージが最近アップグレードされた可能性があるかどうかを調べます（/var/log/dpkg.log）。

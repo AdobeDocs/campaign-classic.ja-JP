@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 100%
 
@@ -33,15 +33,15 @@ ht-degree: 100%
 * 上部セクションには、定義済みリストが設定されているフィールドのリストが表示されます。
 * 下部セクションには、値の選択肢のリストが表示されます。これらの値は、そのフィールドを使用するエディター内にも重複して表示されます。
 
-   ![](assets/s_ncs_user_itemized_list_values.png)
+  ![](assets/s_ncs_user_itemized_list_values.png)
 
-   列挙の新しい値を作成するには、「**[!UICONTROL 追加]**」をクリックします。
+  列挙の新しい値を作成するには、「**[!UICONTROL 追加]**」をクリックします。
 
-   ![](assets/s_ncs_user_itemized_list.png)
+  ![](assets/s_ncs_user_itemized_list.png)
 
-   「**[!UICONTROL オープン]**」オプションを選択すると、フィールドにユーザーが新しい値を入力することで、フィールドに対応する定義済みリストに値を直接追加できます。値を作成してよいかどうか確かめる確認メッセージが表示されます。
+  「**[!UICONTROL オープン]**」オプションを選択すると、フィールドにユーザーが新しい値を入力することで、フィールドに対応する定義済みリストに値を直接追加できます。値を作成してよいかどうか確かめる確認メッセージが表示されます。
 
-   ![](assets/s_ncs_user_itemized_list_new_value.png)
+  ![](assets/s_ncs_user_itemized_list_new_value.png)
 
 * 「**[!UICONTROL クローズ]**」オプションを選択すると、ユーザーは用意された選択肢の値を使用できますが新しい値を追加することはできません。
 
@@ -61,9 +61,9 @@ ht-degree: 100%
 * 対応するエイリアスへと自動的に置換：この場合、定義済みリストの「**[!UICONTROL エイリアス]**」タブで設定をおこなう必要があります。
 * エイリアスのリストに格納：エイリアスの割り当ては後で実行します。
 
-   >[!NOTE]
-   >
-   >データのクレンジング機能を使用する必要がある場合は、定義済みリストで「**[!UICONTROL エイリアスクレンジング]**」オプションを選択します。
+  >[!NOTE]
+  >
+  >データのクレンジング機能を使用する必要がある場合は、定義済みリストで「**[!UICONTROL エイリアスクレンジング]**」オプションを選択します。
 
 ### エイリアスの使用 {#using-aliases}
 

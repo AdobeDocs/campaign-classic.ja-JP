@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: general-operation
 exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 100%
 
@@ -24,9 +24,9 @@ ht-degree: 100%
 
 * デザイン環境：オファーマネージャーは、この環境で、オファーの作成、分類、編集、承認プロセスの開始を処理して、オファーを使用できるようにします。また、各カテゴリのルール、オファーを提示できるオファースペース、オファーの実施要件の定義に使用される定義済みフィルターも、この環境で定義されます。
 
-   カテゴリは、オンライン環境に手動でパブリッシュすることもできます。
+  カテゴリは、オンライン環境に手動でパブリッシュすることもできます。
 
-   オファーの承認プロセスについて詳しくは、[オファーの承認と有効化](../../interaction/using/approving-and-activating-an-offer.md)の節を参照してください。
+  オファーの承認プロセスについて詳しくは、[オファーの承認と有効化](../../interaction/using/approving-and-activating-an-offer.md)の節を参照してください。
 
 * ライブ環境：デザイン環境からの承認済みオファーに加えて、デザイン環境で設定された様々なオファースペース、フィルター、カテゴリおよびルールは、すべてこの環境にあります。オファーエンジンの呼び出し時、エンジンは常にライブ環境からのオファーを使用します。
 

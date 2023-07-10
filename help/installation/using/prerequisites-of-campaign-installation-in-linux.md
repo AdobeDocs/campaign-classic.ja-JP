@@ -44,33 +44,33 @@ Linux にAdobe Campaignをインストールするには、必要なライブラ
 
 * ライブラリ C が TLS（スレッドローカルストレージ）モードをサポートできる必要があります。 このモードは、Xen のサポートが無効になっているカーネルを除いて、ほとんどの場合アクティブになります。
 
-   これを確認するには、 **uname-a | grepxen** コマンドを使用します。
+  これを確認するには、 **uname-a | grepxen** コマンドを使用します。
 
-   コマンドが何も返さない（空行）場合は、設定が正しいことを意味します。
+  コマンドが何も返さない（空行）場合は、設定が正しいことを意味します。
 
 * OpenSSL バージョンが必要です **1.0.2** 以上
 
-   RHEL 7/8 ディストリビューションの場合、OpenSSL のバージョン 1.0 が必要です。
+  RHEL 7/8 ディストリビューションの場合、OpenSSL のバージョン 1.0 が必要です。
 
 * Adobe Campaignを使用するには、 **リビク** ライブラリがインストールされました。
 
-   次のバージョンの **リビク** がサポートされている（32 ビットまたは 64 ビット）:
+  次のバージョンの **リビク** がサポートされている（32 ビットまたは 64 ビット）:
 
    * RHEL 7/8、CentOS 7:libicu50
    * Debian 8:libicu52
    * Debian 9:libicu57
 
-   Adobe Campaignを使用するには、libc-ares ライブラリをインストールする必要があります。 RHEL/CentOS で、次のコマンドを実行します。
+  Adobe Campaignを使用するには、libc-ares ライブラリをインストールする必要があります。 RHEL/CentOS で、次のコマンドを実行します。
 
-   ```
-   yum install c-ares
-   ```
+  ```
+  yum install c-ares
+  ```
 
-   Debian の場合：
+  Debian の場合：
 
-   ```
-   aptitude install libc-ares2
-   ```
+  ```
+  aptitude install libc-ares2
+  ```
 
 ### SELinux {#selinux}
 
@@ -114,15 +114,15 @@ Redhat で、次のコマンドを使用します。
 
 * CentOS/RHEL 7 の場合：
 
-   ```
-   yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
-   ```
+  ```
+  yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
+  ```
 
 * RHEL 8 の場合：
 
-   ```
-   dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
-   ```
+  ```
+  dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
+  ```
 
 ### 日本語インスタンス用のフォント {#fonts-for-japanese-instances}
 
@@ -138,15 +138,15 @@ Red Hat で、次のコマンドを追加します。
 
 * RHEL 7 の場合：
 
-   ```
-   yum install ipa-gothic-fonts ipa-mincho-fonts
-   ```
+  ```
+  yum install ipa-gothic-fonts ipa-mincho-fonts
+  ```
 
 * RHEL 8 の場合：
 
-   ```
-   dnf install vlgothic-fonts
-   ```
+  ```
+  dnf install vlgothic-fonts
+  ```
 
 ### Debian 用 LibreOffice のインストール {#installing-libreoffice-for-debian}
 

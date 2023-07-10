@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 100%
 
@@ -68,7 +68,6 @@ ht-degree: 100%
 >* ワークフローを使用したプロファイル削除では、子テーブルが処理されません。
 >* すべての子テーブルに対して削除処理をおこなう必要があります。
 >* プライバシーアクセステーブル内で削除する行を追加する ETL ワークフローを作成し、**[!UICONTROL プライバシー要求データの削除]**&#x200B;ワークフローで削除を実行することをお勧めします。パフォーマンス上の理由から、削除するプロファイルの数は 1 日あたり 200 個までに制限することをお勧めします。
-
 
 ## プライバシーリクエストのステータス {#privacy-request-statuses}
 

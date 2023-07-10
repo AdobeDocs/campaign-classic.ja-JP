@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Data Management
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -26,15 +26,15 @@ Adobe Campaign データベースのデータおよび既存のリストは、2 
 
 * 「**[!UICONTROL リスト更新]**」アクティビティを使用して、データリスト内にワークテーブルを保存できます。
 
-   既存のリストを選択するか、新規リストを作成することができます。ここでは、名前が自動生成されます（場合によってはレコードフォルダーも）。
+  既存のリストを選択するか、新規リストを作成することができます。ここでは、名前が自動生成されます（場合によってはレコードフォルダーも）。
 
-   ![](assets/s_user_create_list.png)
+  ![](assets/s_user_create_list.png)
 
-   [リストの更新](list-update.md)を参照してください。
+  [リストの更新](list-update.md)を参照してください。
 
 * **[!UICONTROL データを更新]**&#x200B;アクティビティでは、データベースのフィールドを一括で更新します。
 
-   詳しくは、[データを更新](update-data.md)を参照してください。
+  詳しくは、[データを更新](update-data.md)を参照してください。
 
 ### 購読／購読解除の管理 {#subscription-unsubscription-management}
 

@@ -144,16 +144,16 @@ Windows に SpamAssassin をインストールして設定し、Adobe Campaign�
 
 * 必要に応じて、次のコマンドを使用して Perl および SpamAssassin をインストールします。
 
-   ```
-   apt-get install spamassassin libxml-writer-perl
-   ```
+  ```
+  apt-get install spamassassin libxml-writer-perl
+  ```
 
 * 内 **serverConf.xml** ファイル ( `/usr/local/[INSTALL]/nl6/conf/`)、 **spamCheck** 行を次に示します。
 
-   ```
-   <spamCheck command="perl
-   /usr/local/[NSTALL]/nl6/bin/spamcheck.pl"/>
-   ```
+  ```
+  <spamCheck command="perl
+  /usr/local/[NSTALL]/nl6/bin/spamcheck.pl"/>
+  ```
 
 ### RHEL/CentOS でのインストール手順 {#installation-steps-in-rhel-centos}
 

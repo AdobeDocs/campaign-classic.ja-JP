@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 100%
 
@@ -76,31 +76,31 @@ ht-degree: 100%
    * **受信者（nms:recipient）**&#x200B;テーブルに移動します。
    * 「**[!UICONTROL 挿入]**」操作を選択し、その他のフィールドはデフォルト値のままにします。
 
-      ![](assets/s_ncs_user_import_example04_01.png)
+     ![](assets/s_ncs_user_import_example04_01.png)
 
 1. 受信者のインポート
 
    * 必要に応じて、レコードのインポート先フォルダーを指定します。
 
-      ![](assets/s_ncs_user_import_example05_01.png)
+     ![](assets/s_ncs_user_import_example05_01.png)
 
 1. インポートの開始
 
    * 「**[!UICONTROL 開始]**」をクリックします。
 
-      エディターの中央の領域で、インポート操作が成功したこと、および処理されたレコード数を確認することができます。
+     エディターの中央の領域で、インポート操作が成功したこと、および処理されたレコード数を確認することができます。
 
-      ![](assets/s_ncs_user_import_example06_01.png)
+     ![](assets/s_ncs_user_import_example06_01.png)
 
-      「**[!UICONTROL トレース]**」モードでは、ソースファイル内の各レコードのインポートの詳細をトラッキングできます。そのためには、ホームページから「**[!UICONTROL プロファイルとターゲット]**」、「**[!UICONTROL プロセス]**」の順にクリックし、該当するインポートを選択して、「**[!UICONTROL 一般]**」、「**[!UICONTROL ジャーナル]**」および「**[!UICONTROL 却下]**」の各タブを調べます。
+     「**[!UICONTROL トレース]**」モードでは、ソースファイル内の各レコードのインポートの詳細をトラッキングできます。そのためには、ホームページから「**[!UICONTROL プロファイルとターゲット]**」、「**[!UICONTROL プロセス]**」の順にクリックし、該当するインポートを選択して、「**[!UICONTROL 一般]**」、「**[!UICONTROL ジャーナル]**」および「**[!UICONTROL 却下]**」の各タブを調べます。
 
       * インポートの進捗状況の確認
 
-         ![](assets/s_ncs_user_import_example07_01.png)
+        ![](assets/s_ncs_user_import_example07_01.png)
 
       * 各レコードのプロセス表示
 
-         ![](assets/s_ncs_user_import_example07_02.png)
+        ![](assets/s_ncs_user_import_example07_02.png)
 
 ## 受信者の更新と挿入 {#example--update-and-insert-recipients}
 
@@ -128,19 +128,19 @@ ht-degree: 100%
    * データベース内の既存のデータがテキストファイルのデータで変更されるように、「**[!UICONTROL 重複の管理]**」フィールドは「**[!UICONTROL 更新]**」オプションのままにします。
    * 「**[!UICONTROL 生年月日]**」、「**[!UICONTROL 名]**」および「**[!UICONTROL 会社]**」の各フィールドを選択し、それらに紐付けキーを割り当てます。
 
-      ![](assets/s_ncs_user_import_example04_02.png)
+     ![](assets/s_ncs_user_import_example04_02.png)
 
 1. インポートの開始
 
    * 「**[!UICONTROL 開始]**」をクリックします。
 
-      トラッキングウィンドウで、インポートが成功したこと、および処理されたレコード数を確認することができます。
+     トラッキングウィンドウで、インポートが成功したこと、および処理されたレコード数を確認することができます。
 
-      ![](assets/s_ncs_user_import_example06_02.png)
+     ![](assets/s_ncs_user_import_example06_02.png)
 
    * 受信者テーブルを調べ、この操作によってレコードが変更されたことを確認します。
 
-      ![](assets/s_ncs_user_import_example06_03.png)
+     ![](assets/s_ncs_user_import_example06_03.png)
 
 ## 外部ファイルの値による値のエンリッチメント {#example--enrich-the-values-with-those-of-an-external-file}
 
@@ -150,11 +150,11 @@ ht-degree: 100%
 
 * インポートするテキストファイルのコンテンツ
 
-   ![](assets/s_ncs_user_import_example02_03.png)
+  ![](assets/s_ncs_user_import_example02_03.png)
 
 * インポート前のデータベースステータス
 
-   ![](assets/s_ncs_user_import_example06_04.png)
+  ![](assets/s_ncs_user_import_example06_04.png)
 
 次の手順に従います。
 
@@ -181,7 +181,7 @@ ht-degree: 100%
    * 「**[!UICONTROL 会社（@company）]**」ノードに対して、この操作を繰り返します。
    * 紐付けキーを「**[!UICONTROL 生年月日]**」、「**[!UICONTROL 電子メール]**」および「**[!UICONTROL 名]**」フィールドに割り当てます。
 
-      ![](assets/s_ncs_user_import_example04_03.png)
+     ![](assets/s_ncs_user_import_example04_03.png)
 
 1. インポートの開始
 
@@ -201,11 +201,11 @@ ht-degree: 100%
 
 * インポートするテキストファイルのコンテンツ
 
-   ![](assets/s_ncs_user_import_example02_04.png)
+  ![](assets/s_ncs_user_import_example02_04.png)
 
 * インポート前のデータベースステータス
 
-   ![](assets/s_ncs_user_import_example06_07.png)
+  ![](assets/s_ncs_user_import_example06_07.png)
 
 1. テンプレートの選択
 
@@ -229,13 +229,13 @@ ht-degree: 100%
    * 「**[!UICONTROL アカウント番号（@account）]**」ノードにカーソルを置き、オプション「**[!UICONTROL 空の値を考慮]**」を選択します。
    * 「**[!UICONTROL 生年月日]**」、「**[!UICONTROL 電子メール]**、「**[!UICONTROL 名]**」の各フィールドを選択し、それらに紐付けキーを割り当てます。
 
-      ![](assets/s_ncs_user_import_example04_04.png)
+     ![](assets/s_ncs_user_import_example04_04.png)
 
 1. インポートの開始
 
    * 「**[!UICONTROL 開始]**」をクリックします。
    * 受信者テーブルを調べ、操作によってレコードが変更されたことを確認します。
 
-      ![](assets/s_ncs_user_import_example06_06.png)
+     ![](assets/s_ncs_user_import_example06_06.png)
 
-      テキストファイルの空であった値によって、データベースの値は上書きされています。データベースの既存の値は、手順 4 で重複について選択した「**[!UICONTROL 更新]**」オプションに従って、インポートファイルの値で更新されました。
+     テキストファイルの空であった値によって、データベースの値は上書きされています。データベースの既存の値は、手順 4 で重複について選択した「**[!UICONTROL 更新]**」オプションに従って、インポートファイルの値で更新されました。

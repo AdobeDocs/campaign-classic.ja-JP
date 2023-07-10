@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 100%
 
@@ -99,72 +99,73 @@ ht-degree: 100%
 
    * **[!UICONTROL 開始]**&#x200B;アイコンを使用して、ターゲティングワークフローを開始できます。このアイコンをクリックすると、入力トランジションがないすべてのアクティビティが有効化されます（終点へのジャンプを除く）。
 
-      ![](assets/s_user_segmentation_start.png)
+     ![](assets/s_user_segmentation_start.png)
 
-      サーバーでのリクエスト処理状況はステータスに表示されます。
+     サーバーでのリクエスト処理状況はステータスに表示されます。
 
-      ![](assets/s_user_segmentation_start_status.png)
+     ![](assets/s_user_segmentation_start_status.png)
 
-      処理ステータスが「**[!UICONTROL 開始済み]**」に変わります。
+     処理ステータスが「**[!UICONTROL 開始済み]**」に変わります。
 
    * 適切なツールバーアイコンからターゲティングワークフローを再開できます。このコマンドは、例えばターゲティングワークフローの停止が進行中の場合など、**[!UICONTROL 開始]**&#x200B;アイコンが表示されていない場合に役立つことがあります。その場合は、**[!UICONTROL 再開]**&#x200B;アイコンをクリックして、再開を待ちます。ステータスが示すように、サーバーがリクエストを処理します。
 
-      ![](assets/s_user_segmentation_restart_status.png)
+     ![](assets/s_user_segmentation_restart_status.png)
 
-      プロセスが「**[!UICONTROL 開始済み]**」ステータスになります。
+     プロセスが「**[!UICONTROL 開始済み]**」ステータスになります。
 
 * 停止または一時停止
 
    * ツールバーのアイコンを使用して、進行中のターゲティングワークフローを停止または一時停止できます。
 
-      **[!UICONTROL 一時停止]**&#x200B;アイコンをクリックすると、進行中の操作は一時停止&#x200B;**[!UICONTROL されません]**&#x200B;が、次に再開されるまで他のアクティビティは開始されなくなります。
+     **[!UICONTROL 一時停止]**&#x200B;アイコンをクリックすると、進行中の操作は一時停止&#x200B;**[!UICONTROL されません]**&#x200B;が、次に再開されるまで他のアクティビティは開始されなくなります。
 
-      ![](assets/s_user_segmentation_pause.png)
+     ![](assets/s_user_segmentation_pause.png)
 
-      サーバーでのコマンド処理状況はステータスに表示されます。
+     サーバーでのコマンド処理状況はステータスに表示されます。
 
-      ![](assets/s_user_segmentation_pause_status.png)
+     ![](assets/s_user_segmentation_pause_status.png)
 
-      ターゲティングワークフローの実行が特定のアクティビティに到達したときに、自動的に一時停止することもできます。そのように設定するには、ターゲティングワークフローを一時停止するアクティビティを右クリックし、「**[!UICONTROL 有効にするが実行しない]**」を選択します。
+     ターゲティングワークフローの実行が特定のアクティビティに到達したときに、自動的に一時停止することもできます。そのように設定するには、ターゲティングワークフローを一時停止するアクティビティを右クリックし、「**[!UICONTROL 有効にするが実行しない]**」を選択します。
 
-      ![](assets/s_user_segmentation_donotexecute.png)
+     ![](assets/s_user_segmentation_donotexecute.png)
 
-      この設定には特別なアイコンが表示されます。
+     この設定には特別なアイコンが表示されます。
 
-      ![](assets/s_user_segmentation_pause_activity.png)
+     ![](assets/s_user_segmentation_pause_activity.png)
 
-      >[!NOTE]
-      >
-      >このオプションは、ターゲティングキャンペーンの詳細なデザインおよびテストフェーズで役に立ちます。
+     >[!NOTE]
+     >
+     >このオプションは、ターゲティングキャンペーンの詳細なデザインおよびテストフェーズで役に立ちます。
 
-      実行を再開するには、**[!UICONTROL 開始]**&#x200B;アイコンをクリックします。
+     実行を再開するには、**[!UICONTROL 開始]**&#x200B;アイコンをクリックします。
 
    * 進行中の実行を停止するには、**[!UICONTROL 停止]**&#x200B;アイコンをクリックします。
 
-      ![](assets/s_user_segmentation_stop.png)
+     ![](assets/s_user_segmentation_stop.png)
 
-      サーバーでのコマンド処理状況はステータスに表示されます。
+     サーバーでのコマンド処理状況はステータスに表示されます。
 
-      ![](assets/s_user_segmentation_stop_status.png)
-   ターゲティングワークフローの実行が特定のアクティビティに到達したときに、自動的に停止することもできます。そのように設定するには、ターゲティングワークフローを停止するアクティビティを右クリックし、「**[!UICONTROL 有効にしない]**」を選択します。
+     ![](assets/s_user_segmentation_stop_status.png)
 
-   ![](assets/s_user_segmentation_donotactivate.png)
+  ターゲティングワークフローの実行が特定のアクティビティに到達したときに、自動的に停止することもできます。そのように設定するには、ターゲティングワークフローを停止するアクティビティを右クリックし、「**[!UICONTROL 有効にしない]**」を選択します。
 
-   ![](assets/s_user_segmentation_unactivation.png)
+  ![](assets/s_user_segmentation_donotactivate.png)
 
-   この設定には特別なアイコンが表示されます。
+  ![](assets/s_user_segmentation_unactivation.png)
 
-   >[!NOTE]
-   >
-   >このオプションは、ターゲティングキャンペーンの詳細なデザインおよびテストフェーズで役に立ちます。
+  この設定には特別なアイコンが表示されます。
+
+  >[!NOTE]
+  >
+  >このオプションは、ターゲティングキャンペーンの詳細なデザインおよびテストフェーズで役に立ちます。
 
 * 条件なしの停止
 
-   エクスプローラーで、**[!UICONTROL 管理／プロダクション／自動作成されたオブジェクト／キャンペーンワークフロー]**&#x200B;を選択すると、すべてのキャンペーンワークフローにアクセスして操作できます。
+  エクスプローラーで、**[!UICONTROL 管理／プロダクション／自動作成されたオブジェクト／キャンペーンワークフロー]**&#x200B;を選択すると、すべてのキャンペーンワークフローにアクセスして操作できます。
 
-   ワークフローを無条件で停止するには、「**[!UICONTROL アクション]**」アイコンをクリックし、「**[!UICONTROL 無条件停止]**」をクリックします。このアクションにより、キャンペーンワークフローが終了します。
+  ワークフローを無条件で停止するには、「**[!UICONTROL アクション]**」アイコンをクリックし、「**[!UICONTROL 無条件停止]**」をクリックします。このアクションにより、キャンペーンワークフローが終了します。
 
-   ![](assets/s_user_segmentation_stop_unconditional.png)
+  ![](assets/s_user_segmentation_stop_unconditional.png)
 
 ## コントロール母集団の追加 {#defining-a-control-group}
 

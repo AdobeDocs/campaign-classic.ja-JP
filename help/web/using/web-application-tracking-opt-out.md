@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
 
@@ -42,11 +42,11 @@ Web トラッキングが有効化されている場合、次の設定ができ�
 * 「バナーがありません」
 * 「各ページにバナーを手動設定」：このオプションを選択し、各ページのページプロパティでバナーを選択します。
 
-   ![](assets/pageproperties.png)
+  ![](assets/pageproperties.png)
 
 * 「自動的にすべてのページにバナーを追加」：Web アプリケーションプロパティで直接バナーを選択します。
 
-   ![](assets/optoutconfig.png)
+  ![](assets/optoutconfig.png)
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ cookie の名前は **acoptout** です。共通の値は、以下のとおり�
 * **NL.ClientWebTracking.forbid()**：Web トラッキングを禁止するようオプトアウト Cookie の値を設定します。Web トラッキングの禁止にはユーザーからのインプットが必要です。
 * **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**：許可または拒否ボタンをユーザーがクリックした後、オプトアウト Cookie バナーを閉じます（クリックイベントバブリング段階の間）。
 
-   bannerDomElt {DOMElement} 削除しなければならない cookie バナーのルート DOM 要素
+  bannerDomElt {DOMElement} 削除しなければならない cookie バナーのルート DOM 要素
 
 * **NL.ClientWebTracking.hasUserPrefs()**：ユーザーが web トラッキング設定の選択を行った場合に true を返します。
 * **NL.ClientWebTracking.getUserPrefs()**：ユーザーの設定を定義するオプトアウト Cookie 値を返します。
@@ -93,23 +93,23 @@ JSSP を記述する必要がある場合、サーバー側 API を利用でき�
 
 * **NL.ServerWebTracking.generateOptOutBanner(escapeJs)**：JSSP ページに挿入するオプトアウトバナーのマークアップを生成します。
 
-   **escapeJs {Boolean}**：生成されたマークアップを JavaScript 内で使用するためにエスケープする必要がある場合、true にします。
+  **escapeJs {Boolean}**：生成されたマークアップを JavaScript 内で使用するためにエスケープする必要がある場合、true にします。
 
-   ページ内でプリントする必要があるオプトアウトバナーのマークアップの HTML を返します。
+  ページ内でプリントする必要があるオプトアウトバナーのマークアップの HTML を返します。
 
 * **NL.ServerWebTracking._displayOptOutBanner()**
 
-   オプトアウトバナーが管理者に選択された後で表示される必要がある場合に「true」を返します
+  オプトアウトバナーが管理者に選択された後で表示される必要がある場合に「true」を返します
 
-   このコードは、管理者が Web オプトアウトバナーの使用を既に選択している場合に呼び出されます。
+  このコードは、管理者が Web オプトアウトバナーの使用を既に選択している場合に呼び出されます。
 
-   バナーは、ユーザーがトラッキングを許可するか拒否するかをまだ選択していない場合に、表示されます。
+  バナーは、ユーザーがトラッキングを許可するか拒否するかをまだ選択していない場合に、表示されます。
 
 * **NL.ServerWebTracking.renderOptOutBanner(escapeJs)**
 
-   オプトアウトバナーのマークアップを JSSP ページに挿入することでレンダリングします。&lt;% と %> 間の JSSP と同様に呼び出されます。
+  オプトアウトバナーのマークアップを JSSP ページに挿入することでレンダリングします。&lt;% と %> 間の JSSP と同様に呼び出されます。
 
-   **escapeJs {Boolean}**：生成されたマークアップを JavaScript 内で使用するためにエスケープする必要がある場合、true にします。
+  **escapeJs {Boolean}**：生成されたマークアップを JavaScript 内で使用するためにエスケープする必要がある場合、true にします。
 
 JSSP の例：
 

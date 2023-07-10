@@ -5,7 +5,7 @@ description: この節では、Adobe Campaign Classic トランザクション�
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 100%
 
@@ -199,14 +199,13 @@ LINE チャネルとトランザクションメッセージを組み合わせる
    * **[!UICONTROL サーバー]**：データベースサーバーの URL を入力します。
    * **[!UICONTROL アカウント]**：データベースアカウントを入力します。
 
-      >[!NOTE]
-      >
-      >データベースユーザーは、FDA 接続に関するテーブル（XtkOption、NmsVisitor、NmsVisitorSub、NmsService、NmsBroadLogRtEvent、NmsBroadLogBatchEvent、NmsTrackingLogRtEvent、NmsTrackingLogBatchEvent、NmsRtEvent、NmsBatchEvent、NmsBroadLogMsg、NmsTrackingUrl、NmsDelivery、NmsWebTrackingLogXtkFolder）の読み取り権限を持っている必要があります。
+     >[!NOTE]
+     >
+     >データベースユーザーは、FDA 接続に関するテーブル（XtkOption、NmsVisitor、NmsVisitorSub、NmsService、NmsBroadLogRtEvent、NmsBroadLogBatchEvent、NmsTrackingLogRtEvent、NmsTrackingLogBatchEvent、NmsRtEvent、NmsBatchEvent、NmsBroadLogMsg、NmsTrackingUrl、NmsDelivery、NmsWebTrackingLogXtkFolder）の読み取り権限を持っている必要があります。
 
    * **[!UICONTROL パスワード]**：データベースアカウントのパスワードを入力します。
    * **[!UICONTROL データベース]**：実行インスタンスのデータベース名を入力します。
    * 「**[!UICONTROL リモートデータベースへの HTTP リレーアカウントのターゲット]**」 ボックスをオンにする必要があります。
-
 
 1. **マーケティング**&#x200B;インスタンスでは、**[!UICONTROL 外部データベース]**&#x200B;アカウントを次の設定で作成します。
 
@@ -223,7 +222,6 @@ LINE チャネルとトランザクションメッセージを組み合わせる
    * **[!UICONTROL アカウント]**：実行インスタンスへのアクセスに使用するアカウントを入力します。
    * **[!UICONTROL パスワード]**：実行インスタンスへのアクセスに使用するアカウントのパスワードを入力します。
    * **[!UICONTROL データソース]**：**[!UICONTROL nms:extAccount:ID]** の構文で実行インスタンスの外部データベースアカウントを入力します。
-
 
 1. **マーケティング**&#x200B;インスタンスで、して、データ同期ワークフローを作成するための&#x200B;**[!UICONTROL 実行インスタンス]**&#x200B;外部アカウントを次の設定で作成します。
 
@@ -245,7 +243,5 @@ LINE チャネルとトランザクションメッセージを組み合わせる
    * **[!UICONTROL FDA アカウント]**：ドロップダウンからお使いの FDA アカウントを選択します。
    * 「**[!UICONTROL アーカイブワークフローを作成]**」ボタンをクリックします。
    * 「**[!UICONTROL データ同期ワークフローを作成]**」ボタンをクリックして、LINE データ同期ワークフローを作成します。
-
-
 
 1. これで[トランザクションメッセージの作成](../../message-center/using/creating-the-message-template.md)を開始できます。

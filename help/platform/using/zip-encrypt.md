@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
 
@@ -28,6 +28,7 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
    >[!NOTE]
    >
    >コントロールパネルは管理者ユーザーに制限され、特定の Campaign バージョンでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)
+   >
 
 1. インストールした Adobe Campaign がアドビでホストされている場合は、必要なユーティリティをサーバーにインストールするよう[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に依頼します。
 1. Adobe Campaign のインストールがオンプレミスの場合：使用するユーティリティ（例：GPG、GZIP）およびアプリケーションサーバー上の必要なキー（暗号化キー）をインストールします。

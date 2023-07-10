@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 100%
 
@@ -75,17 +75,18 @@ ht-degree: 100%
 
    * ターゲットマッピングとして訪問者テーブルを選択します。
 
-      ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
+     ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
 
    * 被紹介者の連絡先情報および紹介者に関する情報は、訪問者テーブルから取得されます。パーソナライゼーションボタンを使用して挿入されます。
 
-      ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
+     ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
 
    * このテンプレートには、競合他社フォームへのリンクと、被紹介者がニュースレターを購読するための購読リンクが含まれます。
 
-      購読リンクは、パーソナライゼーションブロックを使用して挿入されます。デフォルトでは、プロファイルは&#x200B;**ニュースレター**&#x200B;サービスを購読できます。このパーソナライゼーションブロックは、例えば、受信者が異なるサービスを購読するなど、ニーズに合わせて変更できます。
+     購読リンクは、パーソナライゼーションブロックを使用して挿入されます。デフォルトでは、プロファイルは&#x200B;**ニュースレター**&#x200B;サービスを購読できます。このパーソナライゼーションブロックは、例えば、受信者が異なるサービスを購読するなど、ニーズに合わせて変更できます。
 
    * 内部名（ここでは「referrer（紹介者）」）は、次に示すように、メッセージ配信スクリプトで使用されます。
+
    >[!NOTE]
    >
    >配信テンプレートについて詳しくは、[このページ](../../delivery/using/about-templates.md)を参照してください。

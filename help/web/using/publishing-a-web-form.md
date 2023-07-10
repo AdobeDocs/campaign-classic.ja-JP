@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 100%
 
@@ -25,43 +25,43 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 * **[!UICONTROL Adobe Campaign の暗号化]**
 
-   この暗号化方法は、暗号化された Adobe Campaign 識別子（ID）を使用します。この方法は、Adobe Campaign オブジェクトにのみ適用でき、暗号化された ID は、Adobe Campaign プラットフォームでのみ生成できます。
+  この暗号化方法は、暗号化された Adobe Campaign 識別子（ID）を使用します。この方法は、Adobe Campaign オブジェクトにのみ適用でき、暗号化された ID は、Adobe Campaign プラットフォームでのみ生成できます。
 
-   この方法を使用する場合、パラメーター **`<%=escapeUrl(recipient.cryptedId) %>`** を追加することで、フォームの URL を適応させて、E メールアドレスに配信する必要があります。詳しくは、[E メールによるフォームの配信](#delivering-a-form-via-email)を参照してください。
+  この方法を使用する場合、パラメーター **`<%=escapeUrl(recipient.cryptedId) %>`** を追加することで、フォームの URL を適応させて、E メールアドレスに配信する必要があります。詳しくは、[E メールによるフォームの配信](#delivering-a-form-via-email)を参照してください。
 
 * **[!UICONTROL DES 暗号化]**
 
-   ![](assets/s_ncs_admin_survey_preload_methods_001.png)
+  ![](assets/s_ncs_admin_survey_preload_methods_001.png)
 
-   この暗号化方法は、外部的に提供される識別子（ID）を使用し、Adobe Campaign および外部プロバイダーによって共有されるキーにリンクされます。**[!UICONTROL DES キー]**&#x200B;フィールドを使用すると、この暗号化キーを入力できます。
+  この暗号化方法は、外部的に提供される識別子（ID）を使用し、Adobe Campaign および外部プロバイダーによって共有されるキーにリンクされます。**[!UICONTROL DES キー]**&#x200B;フィールドを使用すると、この暗号化キーを入力できます。
 
 * **[!UICONTROL フィールドのリスト]**
 
-   このオプションを使用すると、フォームの現在のコンテキストのフィールドから選択でき、データベースの対応するプロファイルを検索するために使用されます。
+  このオプションを使用すると、フォームの現在のコンテキストのフィールドから選択でき、データベースの対応するプロファイルを検索するために使用されます。
 
-   ![](assets/s_ncs_admin_survey_preload_methods_002.png)
+  ![](assets/s_ncs_admin_survey_preload_methods_002.png)
 
-   フィールドは、「**[!UICONTROL パラメーター]**」タブを使用してフォームプロパティに追加できます（[パラメーターの追加](defining-web-forms-properties.md#adding-parameters)を参照）。フォーム URL または入力ゾーンに配置されます。
+  フィールドは、「**[!UICONTROL パラメーター]**」タブを使用してフォームプロパティに追加できます（[パラメーターの追加](defining-web-forms-properties.md#adding-parameters)を参照）。フォーム URL または入力ゾーンに配置されます。
 
-   >[!CAUTION]
-   >
-   >選択されたフィールドのデータは、暗号化されません。「**[!UICONTROL フィールドリスト]**」オプションが選択されている場合、Adobe Campaign で復号化できないので、暗号化されたフォームで提供しないようにする必要があります。
+  >[!CAUTION]
+  >
+  >選択されたフィールドのデータは、暗号化されません。「**[!UICONTROL フィールドリスト]**」オプションが選択されている場合、Adobe Campaign で復号化できないので、暗号化されたフォームで提供しないようにする必要があります。
 
-   次の例では、プリロードされるプロファイルは E メールアドレスに基づいています。
+  次の例では、プリロードされるプロファイルは E メールアドレスに基づいています。
 
-   ユーザーが関連するページに直接アクセスできる場合、URL には、暗号化されていない E メールアドレスを含めることができます。
+  ユーザーが関連するページに直接アクセスできる場合、URL には、暗号化されていない E メールアドレスを含めることができます。
 
-   ![](assets/s_ncs_admin_survey_preload_methods_003.png)
+  ![](assets/s_ncs_admin_survey_preload_methods_003.png)
 
-   そうでない場合、パスワードが求められます。
+  そうでない場合、パスワードが求められます。
 
-   ![](assets/s_ncs_admin_survey_preload_methods_004.png)
+  ![](assets/s_ncs_admin_survey_preload_methods_004.png)
 
-   >[!CAUTION]
-   >
-   >いくつかのフィールドがリストで指定されている場合、プロファイルをアップロードするために、**すべてのフィールド**&#x200B;のデータがデータベースに格納されたデータと一致する必要があります。そうでない場合、新しいプロファイルが作成されます。
-   > 
-   >この機能は、Web アプリケーションで特に便利ですが、パブリックフォームにはお勧めしません。選択したアクセス制御オプションは、「アクセス制御を有効にする」が選択されている必要があります。
+  >[!CAUTION]
+  >
+  >いくつかのフィールドがリストで指定されている場合、プロファイルをアップロードするために、**すべてのフィールド**&#x200B;のデータがデータベースに格納されたデータと一致する必要があります。そうでない場合、新しいプロファイルが作成されます。
+  > 
+  >この機能は、Web アプリケーションで特に便利ですが、パブリックフォームにはお勧めしません。選択したアクセス制御オプションは、「アクセス制御を有効にする」が選択されている必要があります。
 
 プロファイルを更新しない場合、「**[!UICONTROL ID がない場合にプリロードをスキップ]**」オプションを選択する必要があります。この場合、入力した各プロファイルは、フォームの承認後にデータベースに追加されます。例えば、フォームが Web サイトに投稿される際に、このオプションが使用されます。
 
@@ -121,11 +121,11 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 * 「**[!UICONTROL プロジェクト]**」セクションのフィールドを使用して、フォームの開始および終了日を入力します。
 
-   ![](assets/webapp_availability_date.png)
+  ![](assets/webapp_availability_date.png)
 
 * 「**[!UICONTROL フォームが閉じられた場合に表示するメッセージをパーソナライズ...]**」リンクをクリックし、有効となっていないフォームにユーザーがアクセスしようとした場合に表示するエラーメッセージを定義します。
 
-   [フォームのアクセシビリティ](defining-web-forms-properties.md#accessibility-of-the-form)を参照してください。
+  [フォームのアクセシビリティ](defining-web-forms-properties.md#accessibility-of-the-form)を参照してください。
 
 ### E メールによるフォームの配信 {#delivering-a-form-via-email}
 

@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Adobe Campaign でクエリを作成する手順は次のとおりです。
 
 * 「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」機能では、グループ化し（「group by」）、グループ化した対象（「having」）を選択できます。この機能は、出力列のすべてのフィールドに適用されます。例えば、このオプションを使用して、出力列のすべての選択肢をグループ化し、35 ～ 50 の受信者など、特定のタイプの情報を収集できます。
 
-   詳しくは、[この節](../../workflow/using/querying-using-grouping-management.md)を参照してください。
+  詳しくは、[この節](../../workflow/using/querying-using-grouping-management.md)を参照してください。
 
 * 「**[!UICONTROL 重複行を削除（DISTINCT）]**」機能では、出力列で取得された重複結果を排除できます。例えば、出力列で「姓」、「名」および「E メール」フィールドを選択して調査を行った場合、同じデータが含まれるフィールドは、同じ連絡先が複数回データベースに入力されたことを意味するので、除外されます。これにより、1 つの結果のみが考慮されるようになります。
 
@@ -85,13 +85,13 @@ Adobe Campaign でクエリを作成する手順は次のとおりです。
 * 新しいフィルターを作成するには、データを選択するために検証する数式の作成に必要なフィールド、演算子および値を選択します。複数の条件を組み合わせることができます（詳しくは、[フィルター条件の定義](../../platform/using/defining-filter-conditions.md)を参照）。
 * 以前に保存したフィルターを使用するには、「**[!UICONTROL 追加]**」ボタンをクリックしてドロップダウンリストを開き、**[!UICONTROL 定義済みフィルター]**&#x200B;をクリックして必要なフィルターを選択します。
 
-   ![](assets/query_editor_15.png)
+  ![](assets/query_editor_15.png)
 
 * **[!UICONTROL 汎用クエリエディター]**&#x200B;で作成されたフィルターは他のクエリアプリケーションでも使用でき、その逆も可能です。フィルターを保存するには、**[!UICONTROL 保存]**&#x200B;アイコンをクリックします。
 
-   >[!NOTE]
-   >
-   >フィルターの作成および使用について詳しくは、[フィルターオプション](../../platform/using/filtering-options.md)を参照してください。
+  >[!NOTE]
+  >
+  >フィルターの作成および使用について詳しくは、[フィルターオプション](../../platform/using/filtering-options.md)を参照してください。
 
 次の例に示すように、英語を話す受信者全員を取得するには、「受信者の言語が英語&#x200B;**と等しい**」を選択します。
 

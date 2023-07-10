@@ -8,7 +8,7 @@ role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 100%
 
@@ -27,7 +27,6 @@ Adobe Analytics Connectorを使用すると、Adobe Campaign と Adobe Analytics
 >* Adobe Analytics Connector は、トランザクションメッセージ（Message Center）との互換性はありません。
 >
 >* 開始する前に、Adobe Identity Management System（IMS）が Campaign に実装されていることを確認します。詳しくは、[このページ](../../integrations/using/about-adobe-id.md)を参照してください。
-
 
 Adobe Analytics Connectorを使用すると、Adobe Campaign でインターネットオーディエンスを測定することができます（Web 分析）。このような統合を通じて、Adobe Campaign では 1 つ以上のサイトでマーケティングキャンペーン後の訪問者の行動に関するデータを収集し、（分析後に）訪問者を購入者に変換できるようリマーケティングキャンペーンを実行できます。また反対に、Adobe Campaign では、Web 分析ツールを使用して指標およびキャンペーン属性をプラットフォームに転送できます。
 
@@ -227,9 +226,9 @@ Adobe Campaign と Adobe Analytics の間のデータ交換は、バックグラ
 * **[!UICONTROL コンバージョン済みの連絡先の特定]**：リマーケティングキャンペーン後に購入をおこなった訪問者のディレクトリ。このワークフローで収集されたデータは、**[!UICONTROL リマーケティングの効率]**&#x200B;レポートでアクセスできます。この[ページ](#creating-a-re-marketing-campaign)を参照してください。
 * **[!UICONTROL 指標とキャンペーン属性の送信]**：Adobe Analytics Connector を使用して Adobe Campaign から Adobe Experience Cloud にキャンペーンの指標を送信できます。このワークフローは毎日午前 4 時にトリガーされ、データを Analysis に送信するには 24 時間かかります。
 
-   ワークフローは再起動しないでください。再起動すると、以前のデータがすべて再送され、Analytics の結果に歪みが生じる可能性があります。
+  ワークフローは再起動しないでください。再起動すると、以前のデータがすべて再送され、Analytics の結果に歪みが生じる可能性があります。
 
-   含まれる指標は次のとおりです。
+  含まれる指標は次のとおりです。
 
    * **[!UICONTROL 配信するメッセージ]**（@toDeliver）
    * **[!UICONTROL 処理済み]**（@processed）
@@ -242,11 +241,11 @@ Adobe Campaign と Adobe Analytics の間のデータ交換は、バックグラ
    * **[!UICONTROL オプトアウト]**（@optOut）
    * **[!UICONTROL エラー]**（@error）
 
-   >[!NOTE]
-   >
-   >送信されたデータは最後のスナップショットに基づいたデルタであり、指標データの値がマイナスになる可能性があります。
+  >[!NOTE]
+  >
+  >送信されたデータは最後のスナップショットに基づいたデルタであり、指標データの値がマイナスになる可能性があります。
 
-   送信される属性は次のとおりです。
+  送信される属性は次のとおりです。
 
    * **[!UICONTROL 内部名]**（@internalName）
    * **[!UICONTROL ラベル]**（@label）
@@ -256,7 +255,6 @@ Adobe Campaign と Adobe Analytics の間のデータ交換は、バックグラ
    * **[!UICONTROL タグ 2]** (webAnalytics/@tag2)
    * **[!UICONTROL タグ 3]** (webAnalytics/@tag3)
    * **[!UICONTROL コンタクト日]** (scheduling/@contactDate)
-
 
 ## Adobe Campaign での配信のトラッキング {#tracking-deliveries-in-adobe-campaign}
 

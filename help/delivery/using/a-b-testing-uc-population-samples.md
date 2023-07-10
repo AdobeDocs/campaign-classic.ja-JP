@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
@@ -21,15 +21,15 @@ ht-degree: 100%
 
 * 「**[!UICONTROL クエリ]**」アクティビティをダブルクリックします。
 
-   ![](assets/use_case_abtesting_createrecipients_001.png)
+  ![](assets/use_case_abtesting_createrecipients_001.png)
 
 * 「**[!UICONTROL クエリを編集]**」リンクをクリックし、ターゲティング対象の受信者を選択します。
 
-   ![](assets/use_case_abtesting_createrecipients_002.png)
+  ![](assets/use_case_abtesting_createrecipients_002.png)
 
 * 「**[!UICONTROL クエリ]**」アクティビティを「**[!UICONTROL 分割]**」アクティビティとリンクします。
 
-   ![](assets/use_case_abtesting_createrecipients_003.png)
+  ![](assets/use_case_abtesting_createrecipients_003.png)
 
 ## 分割アクティビティの設定 {#configuring-the-split-activity}
 
@@ -39,46 +39,46 @@ ht-degree: 100%
 
    * 「**[!UICONTROL 分割]**」アクティビティをダブルクリックします。
 
-      ![](assets/use_case_abtesting_createrecipients_004.png)
+     ![](assets/use_case_abtesting_createrecipients_004.png)
 
    * 既存のタブで、ラベルを母集団 A に変更します。
 
-      ![](assets/use_case_abtesting_createrecipients_005.png)
+     ![](assets/use_case_abtesting_createrecipients_005.png)
 
    * 「**[!UICONTROL 選択レコード数の制限]**」オプションを選択します。
 
-      ![](assets/use_case_abtesting_createrecipients_006.png)
+     ![](assets/use_case_abtesting_createrecipients_006.png)
 
    * 「**[!UICONTROL 編集]**」リンクをクリックし、「**[!UICONTROL ランダムサンプリングを有効化]**」を選択して、「**[!UICONTROL 次へ]**」をクリックします。
 
-      ![](assets/use_case_abtesting_createrecipients_007.png)
+     ![](assets/use_case_abtesting_createrecipients_007.png)
 
    * しきい値を 10% に設定して、「**[!UICONTROL 完了]**」をクリックします。
 
-      ![](assets/use_case_abtesting_createrecipients_008.png)
+     ![](assets/use_case_abtesting_createrecipients_008.png)
 
 1. 母集団 B の作成
 
    * 「**[!UICONTROL 追加]**」をクリックして、母集団 B に使用する新しいタブを作成します。
 
-      ![](assets/use_case_abtesting_createrecipients_009.png)
+     ![](assets/use_case_abtesting_createrecipients_009.png)
 
    * A と同じように、母集団を 10% に制限します。
 
-      ![](assets/use_case_abtesting_createrecipients_010.png)
+     ![](assets/use_case_abtesting_createrecipients_010.png)
 
 1. その他の母集団の作成
 
    * 「**[!UICONTROL 一般]**」タブに移動します。
 
-      ![](assets/use_case_abtesting_createrecipients_011.png)
+     ![](assets/use_case_abtesting_createrecipients_011.png)
 
    * 「**[!UICONTROL 補集合を生成]**」を選択します。
 
-      ![](assets/use_case_abtesting_createrecipients_012.png)
+     ![](assets/use_case_abtesting_createrecipients_012.png)
 
    * ラベルを変更して、この母集団には A も B も含まれないように指定し、「**[!UICONTROL OK]**」をクリックしてアクティビティを閉じます。
 
-      ![](assets/use_case_abtesting_createrecipients_013.png)
+     ![](assets/use_case_abtesting_createrecipients_013.png)
 
 これで、2 つの配信テンプレートを作成できるようになりました。 [詳細情報](a-b-testing-uc-delivery-templates.md)）。

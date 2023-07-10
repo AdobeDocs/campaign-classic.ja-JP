@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Salesforce Integration, Microsoft CRM Integration
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 100%
 
@@ -110,9 +110,9 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 * **vars.crmStartImport**：最後のデータ収集の開始日（この日を含む）を表します。
 * **vars.crmEndDate**：最後のデータ収集の終了日（この日を含まない）を表します。
 
-   >[!NOTE]
-   >
-   >これらの日付は、**yyyy/MM/dd hh:mm:ss** フォーマットで表示されます。
+  >[!NOTE]
+  >
+  >これらの日付は、**yyyy/MM/dd hh:mm:ss** フォーマットで表示されます。
 
 ### データのフィルタリング {#filtering-data}
 
@@ -256,3 +256,4 @@ CRM 側でオブジェクトを削除するには、削除するリモート要�
 >[!NOTE]
 >
 >「**[!UICONTROL 却下を処理]**」オプションがオフの場合でも、却下された列ごとに警告が生成されます。
+>

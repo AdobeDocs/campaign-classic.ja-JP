@@ -50,52 +50,52 @@ for each (var w in res.workflow)
 
 * 「get」操作で受信者テーブルに対するクエリを実行します。
 
-   ```
-   var query = xtk.queryDef.create(  
-     <queryDef schema="nms:recipient" operation="get">    
-       <select>      
-         <node expr="@firstName"/>      
-         <node expr="@lastName"/>      
-         <node expr="@email"/>    
-       </select>    
-       <where>      
-         <condition expr="@email = 'peter.martinez@adobe.com'"/>    
-       </where>  
-     </queryDef>)
-   
-   var recipient = query.ExecuteQuery()
-   
-   logInfo(recipient.@firstName)
-   logInfo(recipient.@lastName)
-   ```
+  ```
+  var query = xtk.queryDef.create(  
+    <queryDef schema="nms:recipient" operation="get">    
+      <select>      
+        <node expr="@firstName"/>      
+        <node expr="@lastName"/>      
+        <node expr="@email"/>    
+      </select>    
+      <where>      
+        <condition expr="@email = 'peter.martinez@adobe.com'"/>    
+      </where>  
+    </queryDef>)
+  
+  var recipient = query.ExecuteQuery()
+  
+  logInfo(recipient.@firstName)
+  logInfo(recipient.@lastName)
+  ```
 
 * 受信者テーブルに対して「選択」操作でクエリを実行します。
 
-   ```
-   var query = xtk.queryDef.create(  
-     <queryDef schema="nms:recipient" operation="select">    
-       <select>      
-         <node expr="@email"/>      
-         <node expr="@lastName"/>      
-         <node expr="@firstName"/>    
-       </select>    
-       <where>      
-         <condition expr="@age > 25"/>    
-       </where>    
-     </queryDef>)
-   
-   var res = query.ExecuteQuery()
-   
-   for each (var recipient in res.recipient) 
-   {  
-     logInfo(recipient.@email)  
-     logInfo(recipient.@firstName)  
-     logInfo(recipient.@lastName)
-   }
-   ```
+  ```
+  var query = xtk.queryDef.create(  
+    <queryDef schema="nms:recipient" operation="select">    
+      <select>      
+        <node expr="@email"/>      
+        <node expr="@lastName"/>      
+        <node expr="@firstName"/>    
+      </select>    
+      <where>      
+        <condition expr="@age > 25"/>    
+      </where>    
+    </queryDef>)
+  
+  var res = query.ExecuteQuery()
+  
+  for each (var recipient in res.recipient) 
+  {  
+    logInfo(recipient.@email)  
+    logInfo(recipient.@firstName)  
+    logInfo(recipient.@lastName)
+  }
+  ```
 
 * 受信者テーブルにデータを書き込む：
 
-   ```
-   xtk.session.Write(<recipient _operation="insert" lastName="Martinez" firstName="Peter" xtkschema="nms:recipient"/>);
-   ```
+  ```
+  xtk.session.Write(<recipient _operation="insert" lastName="Martinez" firstName="Peter" xtkschema="nms:recipient"/>);
+  ```

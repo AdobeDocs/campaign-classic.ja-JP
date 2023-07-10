@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 100%
 
@@ -100,9 +100,9 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 * **[!UICONTROL Powered by Adobe Campaign]**：「Powered by Adobe Campaign」ロゴを挿入します。
 * **[!UICONTROL ミラーページの URL]**：ミラーページの URL を挿入し、配信デザイナーがリンクを確認できるようにします。
 
-   >[!NOTE]
-   >
-   >ミラーページの生成について詳しくは、[ミラーページの生成](sending-messages.md#generating-the-mirror-page)を参照してください。
+  >[!NOTE]
+  >
+  >ミラーページの生成について詳しくは、[ミラーページの生成](sending-messages.md#generating-the-mirror-page)を参照してください。
 
 * **[!UICONTROL ミラーページへのリンク]**：ミラーページへのリンク「このメッセージが正しく表示されない場合は、ここをクリックしてください」を挿入します。
 * **[!UICONTROL 購読解除リンク]**：すべての配信を購読解除（ブロックリスト登録）できるリンクを挿入します。
@@ -111,9 +111,9 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
 * **[!UICONTROL 登録リンク]**：インスタンスの設定時に定義された購読リンクを挿入します。
 * **[!UICONTROL 登録リンク（リファラーを含む）]**：購読リンクを挿入し、訪問者と配信を識別できるようにします。このリンクは、インスタンスの設定時に定義されたものです。
 
-   >[!NOTE]
-   >
-   >このブロックは、訪問者をターゲットとする配信でのみ使用できます。
+  >[!NOTE]
+  >
+  >このブロックは、訪問者をターゲットとする配信でのみ使用できます。
 
 * **[!UICONTROL 登録の確認]**：購読を確認できるリンクを挿入します。
 * **[!UICONTROL ソーシャルネットワーク共有リンク]**：E メールクライアント、Facebook、Twitter および LinkedIn によってミラーページコンテンツへのリンクを受信者が共有できるボタンを挿入します（[バイラルマーケティング：友人への転送](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)を参照）。
@@ -136,9 +136,9 @@ HTML ソースコードが配信コンテンツに挿入されます。一例と
    * このブロックに、パーソナライゼーションフィールドの挿入アイコンからアクセスできるよう、「**[!UICONTROL カスタマイズメニューに表示]**」を選択します。
    * 必要な場合は、「**[!UICONTROL パーソナライゼーションブロックの内容を、フォーマット（HTML またはテキスト）ごとに変更]**」を選択し、HTML 形式とテキスト形式の 2 つの個別のブロックを定義します。
 
-      このエディターの下部のセクションに、HTML コンテンツとテキストコンテンツを定義するためのタブが合わせて 2 つ表示されます。
+     このエディターの下部のセクションに、HTML コンテンツとテキストコンテンツを定義するためのタブが合わせて 2 つ表示されます。
 
-      ![](assets/s_ncs_user_personalized_block_b.png)
+     ![](assets/s_ncs_user_personalized_block_b.png)
 
    * パーソナライゼーションブロックのコンテンツ（HTML、テキスト、JavaScript など）を入力し、「**[!UICONTROL 保存]**」をクリックします。
 

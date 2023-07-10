@@ -25,6 +25,7 @@ Adobe Campaign から外部データベースにアクセスできるように�
 >[!NOTE]
 >
 >互換性のあるバージョンは [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA)に記載されています。
+>
 
 ## 設定の手順 {#fda-configuration-steps}
 

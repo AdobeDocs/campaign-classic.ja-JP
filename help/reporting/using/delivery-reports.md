@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 100%
 
@@ -71,9 +71,9 @@ ht-degree: 100%
 * **[!UICONTROL ミラーページリンクのクリック数]**：ミラーページへのリンクでのクリック数。考慮されるようにするには、リンクは配信ウィザード（トラッキングされる URL）と同じように定義する必要があります。この[ページ](../../delivery/using/about-delivery-monitoring.md)を参照してください。
 * **[!UICONTROL 推定転送数]**：ターゲット受信者によって転送される E メール数の推定値。この値は、ユニークユーザーの数と E メールをクリックしたユニーク受信者の数を引くことによって計算されます。
 
-   >[!NOTE]
-   >
-   >ユニークユーザーとターゲット受信者の違いについて詳しくは、[ターゲットユーザー／ターゲット受信者](../../reporting/using/indicator-calculation.md#targeted-persons---recipients)を参照してください。
+  >[!NOTE]
+  >
+  >ユニークユーザーとターゲット受信者の違いについて詳しくは、[ターゲットユーザー／ターゲット受信者](../../reporting/using/indicator-calculation.md#targeted-persons---recipients)を参照してください。
 
 **[!UICONTROL 3.開封率およびクリックスルー率]**
 
@@ -110,9 +110,9 @@ ht-degree: 100%
 * **[!UICONTROL トランザクションごとの記事の平均数]**：ユニーク受信者による購入あたりの品目の平均数。
 * **[!UICONTROL 各メッセージの平均量]**：メッセージごとに発生した購入の平均金額。
 
-   >[!NOTE]
-   >
-   >訪問されたページ、トランザクション、金額または品目が考慮されるようにするには、Web トラッキングタグを対応する Web ページに挿入する必要があります。Web トラッキングの設定は、[この節](../../configuration/using/about-web-tracking.md)で説明しています。
+  >[!NOTE]
+  >
+  >訪問されたページ、トランザクション、金額または品目が考慮されるようにするには、Web トラッキングタグを対応する Web ページに挿入する必要があります。Web トラッキングの設定は、[この節](../../configuration/using/about-web-tracking.md)で説明しています。
 
 **[!UICONTROL 6.E メールおよびソーシャルネットワークに対する共有アクティビティ]**
 
@@ -130,9 +130,9 @@ ht-degree: 100%
 
 * **[!UICONTROL 反応度]**：配信を開封した推定ターゲット受信者数に対する、配信でクリックしたターゲット受信者数の割合。オプトアウトリンクおよびミラーページでのクリック数は考慮されません。
 
-   >[!NOTE]
-   >
-   >開封数のトラッキングについて詳しくは、[開封数のトラッキング](../../reporting/using/indicator-calculation.md#tracking-opens-)を参照してください。
+  >[!NOTE]
+  >
+  >開封数のトラッキングについて詳しくは、[開封数のトラッキング](../../reporting/using/indicator-calculation.md#tracking-opens-)を参照してください。
 
 * **[!UICONTROL ユニーククリック数]**：配信で少なくとも 1 回クリックしたユニークユーザーの数（購読解除リンクおよびミラーページを除く）。表示される率は、正常に配信されたメッセージの数に基づいて計算されます。
 * **[!UICONTROL 累積クリック数]**：ターゲット受信者によるクリック総数（購読解除リンクおよびミラーページを除く）。表示される率は、正常に転送されたメッセージの数に基づいて計算されます。

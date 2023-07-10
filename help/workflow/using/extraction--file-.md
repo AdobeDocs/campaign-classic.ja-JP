@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Data Management Activity
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 * **[!UICONTROL カウント]**：集計フィールドの重複値など、集計するフィールドの null ではない値を計算します。
 
-   **[!UICONTROL ユニーク]**：集計するフィールドの異なる非 null 値の合計値を計算します（重複する値は計算の前に除外されます）。
+  **[!UICONTROL ユニーク]**：集計するフィールドの異なる非 null 値の合計値を計算します（重複する値は計算の前に除外されます）。
 
 * **[!UICONTROL 合計]**：数値フィールドの値の合計を計算します。
 * **[!UICONTROL 最小値]**：フィールド（数値その他）の最小値を計算します。

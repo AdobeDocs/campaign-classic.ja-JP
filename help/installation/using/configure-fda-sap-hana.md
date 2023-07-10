@@ -36,25 +36,25 @@ FDA で SAP HANA 外部データベースに接続するには、Adobe Campaign 
 
    * **/etc/odbc.ini**
 
-      ```
-      [ODBC]
-      InstallDir=/etc/
-      
-      [HDB]
-      Driver=HDBODBC
-      servernode=localhost:39013 (this value depend of your server)
-      User:SYSTEM
-      ```
+     ```
+     [ODBC]
+     InstallDir=/etc/
+     
+     [HDB]
+     Driver=HDBODBC
+     servernode=localhost:39013 (this value depend of your server)
+     User:SYSTEM
+     ```
 
-      「InstallDir」は、**odbcinst.ini** ファイルの保存場所です。
+     「InstallDir」は、**odbcinst.ini** ファイルの保存場所です。
 
    * **/etc/odbcinst.ini**
 
-      ```
-      [HDBODBC]
-      Description = "SmartCloudPT HANA"
-      Driver = /usr/sap/hdbclient/libodbcHDB.so
-      ```
+     ```
+     [HDBODBC]
+     Description = "SmartCloudPT HANA"
+     Driver = /usr/sap/hdbclient/libodbcHDB.so
+     ```
 
 1. Adobe Campaign サーバーの環境変数を指定します。
 

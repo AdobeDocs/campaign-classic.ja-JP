@@ -112,7 +112,7 @@ Campaign データモデルについて詳しくは、次の節を参照して�
 
 * **各テーブルの完全な説明**  — 各テーブルの完全な説明にアクセスするには、に移動します。 **[!UICONTROL 管理者/設定/データスキーマ]**&#x200B;をクリックし、リストからリソースを選択し、 **[!UICONTROL ドキュメント]** タブをクリックします。
 
-   ![](assets/data-model_documentation-tab.png)
+  ![](assets/data-model_documentation-tab.png)
 
 
 * **キャンペーンスキーマ** ：アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。 スキーマと呼ばれる Adobe Campaign 特有の文法に従います。Adobe Campaignスキーマについて詳しくは、 [この節](../../configuration/using/about-schema-reference.md).

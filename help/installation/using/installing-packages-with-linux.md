@@ -100,27 +100,27 @@ Debian 8/9 オペレーティングシステムにAdobe Campaignをインスト�
 * 事前に OpenSSL をインストールしておく必要があります。
 * 次のコマンドを使用して、libicu52(Debian 8) または libicu57(Debian 9)、libprotobuf9(Debian8) および libc-ares2 をインストールします。
 
-   ```
-   aptitude install libicu52 (Debian 8) libicu57 (Debian 9)
-   ```
+  ```
+  aptitude install libicu52 (Debian 8) libicu57 (Debian 9)
+  ```
 
-   ```
-   aptitude install libc-ares2
-   ```
+  ```
+  aptitude install libc-ares2
+  ```
 
-   ```
-   aptitude install libprotobuf9 (only Debian 8)
-   ```
+  ```
+  aptitude install libprotobuf9 (only Debian 8)
+  ```
 
 * 次のコマンドを使用して JDK7 をインストールします。
 
-   ```
-   aptitude install openjdk-7-jdk (Debian 8)
-   ```
+  ```
+  aptitude install openjdk-7-jdk (Debian 8)
+  ```
 
-   ```
-   aptitude install openjdk-7-jdk (Debian 9)
-   ```
+  ```
+  aptitude install openjdk-7-jdk (Debian 9)
+  ```
 
 ## パーソナライズパラメーター {#personalizing-parameters}
 
@@ -178,55 +178,55 @@ export neolane_LANG=fra
 
 * oracleクライアントの場合：
 
-   ```
-   export ORACLE_HOME=/usr/local/instantclient_10_2
-   export TNS_ADMIN=/etc/oracle
-   export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
-   ```
+  ```
+  export ORACLE_HOME=/usr/local/instantclient_10_2
+  export TNS_ADMIN=/etc/oracle
+  export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH 
+  ```
 
-   環境変数 content_HOME のORACLEは、インストールディレクトリのOracleに一致します。
+  環境変数 content_HOME のORACLEは、インストールディレクトリのOracleに一致します。
 
-   TNS_ADMIN 変数の内容は、 **tnsnames.ora** ファイル。
+  TNS_ADMIN 変数の内容は、 **tnsnames.ora** ファイル。
 
 * LibreOffice の場合：
 
-   Adobe Campaignを既存のバージョンの LibreOffice で実行するには、次の追加設定が必要です。インストールディレクトリへのアクセスパスを指定する必要があります。 例：
+  Adobe Campaignを既存のバージョンの LibreOffice で実行するには、次の追加設定が必要です。インストールディレクトリへのアクセスパスを指定する必要があります。 例：
 
    * Debian
 
-      OOO_INSTALL_DIR と OOO_BASIS_INSTALL_DIR のデフォルト値が提供されます。 これらは、で上書きできます。 **customer.sh** LibreOffice インストールのレイアウトが異なる場合：
+     OOO_INSTALL_DIR と OOO_BASIS_INSTALL_DIR のデフォルト値が提供されます。 これらは、で上書きできます。 **customer.sh** LibreOffice インストールのレイアウトが異なる場合：
 
-      ```
-      export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
-      export OOO_INSTALL_DIR=/usr/lib/libreoffice/
-      ```
+     ```
+     export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
+     export OOO_INSTALL_DIR=/usr/lib/libreoffice/
+     ```
 
    * CentOS
 
-      次のデフォルト値を使用します。
+     次のデフォルト値を使用します。
 
-      ```
-      export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
-      export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
-      ```
+     ```
+     export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
+     export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
+     ```
 
 * Java 開発キット (JDK) の場合：
 
-   デフォルトでは、Adobe Campaign環境の設定スクリプト (`~/nl6/env.sh`) は、JDK インストールディレクトリを検索します。 この動作は 100%の信頼性がないので、使用する必要のある JDK を指定する必要があります。 これをおこなうには、 **JDK_HOME** 環境変数を次のコマンドで設定します。
+  デフォルトでは、Adobe Campaign環境の設定スクリプト (`~/nl6/env.sh`) は、JDK インストールディレクトリを検索します。 この動作は 100%の信頼性がないので、使用する必要のある JDK を指定する必要があります。 これをおこなうには、 **JDK_HOME** 環境変数を次のコマンドで設定します。
 
-   ```
-   export JDK_HOME=/usr/java/jdk1.6.0_07
-   ```
+  ```
+  export JDK_HOME=/usr/java/jdk1.6.0_07
+  ```
 
-   >[!NOTE]
-   >
-   >これは一例です。使用する JDK のバージョンがディレクトリ名と一致していることを確認します。
+  >[!NOTE]
+  >
+  >これは一例です。使用する JDK のバージョンがディレクトリ名と一致していることを確認します。
 
-   JDK 設定をテストするには、次のコマンドを使用して、Adobe Campaignシステムユーザーとしてログインします。
+  JDK 設定をテストするには、次のコマンドを使用して、Adobe Campaignシステムユーザーとしてログインします。
 
-   ```
-   su - neolane
-   ```
+  ```
+  su - neolane
+  ```
 
 変更を反映させるには、Adobe Campaignサービスを再起動する必要があります。
 
@@ -251,29 +251,29 @@ Adobe CampaignでOracleを使用する場合は、Linux でOracleクライアン
 * 完全なクライアントを使用
 * TNS の定義
 
-   TNS 定義は、インストールフェーズで追加する必要があります。 これをおこなうには、次のコマンドを使用します。
+  TNS 定義は、インストールフェーズで追加する必要があります。 これをおこなうには、次のコマンドを使用します。
 
-   ```
-   cd /etc
-   mkdir oracle
-   cd oracle
-   vi tnsnames.ora
-   ```
+  ```
+  cd /etc
+  mkdir oracle
+  cd oracle
+  vi tnsnames.ora
+  ```
 
 * 環境変数
 
-   参照： [環境変数](../../installation/using/installing-packages-with-linux.md#environment-variables).
+  参照： [環境変数](../../installation/using/installing-packages-with-linux.md#environment-variables).
 
 * Adobe Campaignの設定
 
-   Adobe Campaign用のOracleクライアントのインストールを完了するには、 **.so** Adobe Campaignが使用するファイル。
+  Adobe Campaign用のOracleクライアントのインストールを完了するには、 **.so** Adobe Campaignが使用するファイル。
 
-   これをおこなうには、次のコマンドを使用します。
+  これをおこなうには、次のコマンドを使用します。
 
-   ```
-   cd /usr/lib/oracle/10.2.0.4/client/lib
-   ln -s libclntsh.so.10.1 libclntsh.so
-   ```
+  ```
+  cd /usr/lib/oracle/10.2.0.4/client/lib
+  ln -s libclntsh.so.10.1 libclntsh.so
+  ```
 
 問題が発生した場合は、 [Oracleのインストールに関するドキュメント](https://docs.oracle.com/) が正しくインストールされている。
 

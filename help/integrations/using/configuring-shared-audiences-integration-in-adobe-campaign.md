@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%
 
@@ -51,9 +51,9 @@ ht-degree: 100%
    * **[!UICONTROL AWS S3 アカウントサーバー]**：
 サーバーの URL は、次のように入力する必要があります。
 
-      ```
-      <S3bucket name>.s3.amazonaws.com/<s3object path>
-      ```
+     ```
+     <S3bucket name>.s3.amazonaws.com/<s3object path>
+     ```
 
    * **[!UICONTROL AWS アクセスキー ID]**：
 AWS アクセスキー ID の見つけ方については、[このページ](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
@@ -63,6 +63,7 @@ AWS への秘密アクセスキーの見つけ方については、[このペー
 
    * **[!UICONTROL AWS リージョン]**：
 AWS リージョンについて詳しくは、[このページ](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
+
    ![](assets/aam_config_2.png)
 
 1. 前述した手順の詳細に従って、「**[!UICONTROL 保存]**」をクリックし、「**[!UICONTROL Adobe Marketing Cloud からオーディエンスをインポート]**」外部アカウントを設定します。

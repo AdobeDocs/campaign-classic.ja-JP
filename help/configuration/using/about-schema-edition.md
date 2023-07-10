@@ -133,7 +133,7 @@ type="string" enum="exTransactionTypeEnum"/>
 * **@xml**
 * **@タイプ**
 
-   様々なデータベース管理システムに対して、Adobe Campaignで生成されるデータタイプのマッピングの一覧表を表示するには、 [Adobe Campaign/DBMS データのタイプのマッピング](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) 」セクションに入力します。
+  様々なデータベース管理システムに対して、Adobe Campaignで生成されるデータタイプのマッピングの一覧表を表示するには、 [Adobe Campaign/DBMS データのタイプのマッピング](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) 」セクションに入力します。
 
 各属性について詳しくは、 [属性の説明](../../configuration/using/schema/attribute.md) 」セクションに入力します。
 

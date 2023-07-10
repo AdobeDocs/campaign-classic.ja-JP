@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Push
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 100%
 
@@ -75,6 +75,7 @@ iOS デバイス用のプッシュ通知を作成するには、次の手順に�
    * **[!UICONTROL 名前]**：通知を受信したときにモバイル端末で再生されるサウンドを選択します。
 
    * **[!UICONTROL 音量]**：サウンドのボリューム（0～100）。
+
    >[!NOTE]
    >
    >サウンドは、アプリケーションに組み込まれている必要があり、サービスの作成時に定義される必要があります。[この節](configuring-the-mobile-application.md#configuring-external-account-ios)を参照してください。
@@ -110,6 +111,7 @@ iOS デバイス用のプッシュ通知を作成するには、次の手順に�
       * **[!UICONTROL 時間依存]**：システムにより通知がすぐに表示され、画面が点灯し、サウンドを再生でき、フォーカスモードで通知することができます。このレベルでは、Apple からの特別な権限は必要ありません。
 
       * **[!UICONTROL 重大]**：システムにより通知が直ちに表示され、画面が点灯し、ミュートスイッチまたはフォーカスモードがバイパスされます。このレベルには、Apple からの特別な権限が必要です。
+
    * **[!UICONTROL 関連性スコア]**：関連性スコアを 0 から 100 に設定します。通知の概要で通知を並べ替える場合にシステムが使用します。
 
    ![](assets/nmac_delivery_ios_8.png)

@@ -125,22 +125,22 @@ ht-degree: 53%
 
    * ID がに設定されているのが唯一の配信部分であることを確認します。 **0**:
 
-      ```
-      SELECT * FROM neolane.nmsdeliverypart;
-      ```
+     ```
+     SELECT * FROM neolane.nmsdeliverypart;
+     ```
 
    * 配信ステータスが正しく更新されていることを確認します。
 
-      ```
-      SELECT iSate, count(*) FROM neolane.nmsdeliveryGroup By iProd;
-      ```
+     ```
+     SELECT iSate, count(*) FROM neolane.nmsdeliveryGroup By iProd;
+     ```
 
    * ワークフローのステータスが正しく更新されていることを確認します。
 
-      ```
-      SELECT iState, count (*) FROM neolane.xtkworkflowGROUP BY iState;
-      SELECT iStatus, count (*) FROM neolane.xtkworkflowGROUP BY iStatus;
-      ```
+     ```
+     SELECT iState, count (*) FROM neolane.xtkworkflowGROUP BY iState;
+     SELECT iStatus, count (*) FROM neolane.xtkworkflowGROUP BY iStatus;
+     ```
 
 ### サービスのシャットダウン
 
@@ -154,6 +154,7 @@ ht-degree: 53%
    >[!NOTE]
    >
    >IIS で使用されている nlsrvmod.dll ファイルを新しいバージョンで置き換えることができるように、リダイレクションサーバー（webmdl）が停止したことを確認してください。
+   >
 
 1. **nlserver pdump** コマンドを実行してアクティブなタスクがないことを確認します。タスクがない場合、出力は次のようになります。
 
@@ -165,7 +166,7 @@ ht-degree: 53%
 
 ### Adobe Campaign Server アプリケーションのアップグレード
 
-1. を実行します。 **Setup.exe** ファイル。 このファイルをダウンロードする必要がある場合は、 [ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html).
+1. を実行します。 **Setup.exe** ファイル。 このファイルをダウンロードする必要がある場合は、 [ダウンロードセンター](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html).
 
 1. インストールモードを選択します。 **更新** または **修復**.
 
@@ -188,6 +189,7 @@ ht-degree: 53%
    >[!NOTE]
    >
    >この操作は、nlserverweb アプリケーションサーバー上で 1 回だけ実行する必要があります。
+   >
 
    1 つのデータベースのみを同期するには、次のコマンドを実行します。
 
@@ -258,6 +260,7 @@ Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
 >[!NOTE]
 >
 >ミッドソーシングサーバーは、マーケティングサーバーと同じバージョン（またはそれ以降）を常に実行する必要があります。
+>
 
 ## 競合の場合
 
@@ -344,6 +347,7 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 
 >[!IMPORTANT]
 >競合は解決することを強くお勧めします。
+>
 
 ### 結合の実行{#perform-a-merge}
 
@@ -365,7 +369,7 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 
 1. 組み込みコードは、datakit フォルダー内の XML ファイルに保存されます。 競合しているオブジェクトに対応する XML ファイルを探します。例：installationDirectory\datakit\nms\fra\form\recipient.xml
 1. 元のバージョンを取得：経由 [ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html) または製品のアップグレードされていない別のインストール。
-1. 新しいバージョンを取得します。経由 [ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) またはお客様がインストールしたファイル。
+1. 新しいバージョンを取得します。経由 [ダウンロードセンター](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html) またはお客様がインストールしたファイル。
 1. カスタムバージョンの取得：Campaign クライアント内からオブジェクトのソースコードを取得します。
 
 ### 差分表示の実行方法
@@ -407,6 +411,7 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 
 >[!IMPORTANT]
 >複雑な結合を実行するには、開発スキルが必要です。
+>
 
 **関連トピック**
 

@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%
 
@@ -30,7 +30,6 @@ Adobe Campaign には、web アプリケーションを定義および公開す�
 >* 標準 web フォームの作成手順について詳しくは、[このドキュメント](../../web/using/about-web-forms.md)を参照してください。
 >
 >* Web アプリケーション管理について詳しくは、[このドキュメント](../../web/using/about-web-applications.md)を参照してください。詳しくは、この章を参照してください。
-
 
 ## 機能の範囲 {#campaign-surveys-scope}
 

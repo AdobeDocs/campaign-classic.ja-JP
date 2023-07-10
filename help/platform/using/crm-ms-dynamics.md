@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 100%
 
@@ -48,7 +48,6 @@ Campaign Classic 内：
 > Adobe Campaign を Microsoft Dynamics に接続する場合、次のことはできません。
 > * CRM の動作が変わり Adobe Campaign との互換性の問題が生じる可能性があるプラグインのインストール
 > * 複数の列挙の選択
-
 
 ## Microsoft Dynamics CRM の設定 {#config-crm-microsoft}
 
@@ -146,6 +145,7 @@ Campaign Classic 内：
    >[!NOTE]
    >
    >同じ名前を使用すると、重複キーエラーがスローされるので、この手順が必要かどうかの確認が得られるまで、別のユーザー名を使用して先に進みます。
+   >
 
 1. **アプリケーション ID** を[以前に作成したアプリケーション](#get-client-id-microsoft)に割り当てます。
 1. 「**ロールの管理**」をクリックし、ユーザーに対して&#x200B;**システム管理者**&#x200B;ロールを選択します。

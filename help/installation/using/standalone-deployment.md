@@ -119,19 +119,19 @@ ht-degree: 5%
 
    * コンソールからインスタンスを作成します。
 
-      ![](assets/install_create_new_connexion.png)
+     ![](assets/install_create_new_connexion.png)
 
-      詳しくは、 [インスタンスの作成とログオン](../../installation/using/creating-an-instance-and-logging-on.md).
+     詳しくは、 [インスタンスの作成とログオン](../../installation/using/creating-an-instance-and-logging-on.md).
 
-      または
+     または
 
    * コマンドラインを使用してインスタンスを作成します。
 
-      ```
-      nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
-      ```
+     ```
+     nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
+     ```
 
-      詳しくは、 [インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance).
+     詳しくは、 [インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance).
 
 1. を編集します。 **config-demo.xml** ファイル ( 前の手順で **config-default.xml**) をクリックし、 **mta** （配信） **wfserver** （ワークフロー）、 **inMail** （バウンスメール）および **stat** （統計）プロセスが有効になっている。 次に、統計サーバーのアドレスを設定します。
 
@@ -235,13 +235,13 @@ ht-degree: 5%
    * E メール配信：送信者と返信のアドレスおよびバウンスメール用のエラーメールボックス。
    * トラッキング：リダイレクトに使用する外部 URL と内部 URL を入力し、 **トラッキングサーバーへの登録** その後、 **デモ** トラッキングサーバーのインスタンス。
 
-      詳しくは、 [トラッキング設定](../../installation/using/deploying-an-instance.md#tracking-configuration).
+     詳しくは、 [トラッキング設定](../../installation/using/deploying-an-instance.md#tracking-configuration).
 
-      ![](assets/s_ncs_install_deployment_wiz_09.png)
+     ![](assets/s_ncs_install_deployment_wiz_09.png)
 
-      Adobe Campaignサーバーはアプリケーションサーバーとリダイレクトサーバーの両方で使用されるので、トラッキングログの収集と URL の転送に使用される内部 URL は、Tomcat(https://localhost:8080) への直接内部接続です。
+     Adobe Campaignサーバーはアプリケーションサーバーとリダイレクトサーバーの両方で使用されるので、トラッキングログの収集と URL の転送に使用される内部 URL は、Tomcat(https://localhost:8080) への直接内部接続です。
 
    * バウンス管理：バウンスメールを処理するパラメーターを入力します ( **未処理のバウンスメール** を参照 )。
    * アクセス元：レポート、Web フォーム、ミラーページの 2 つの URL を指定します。
 
-      ![](assets/d_ncs_install_web_url.png)
+     ![](assets/d_ncs_install_web_url.png)

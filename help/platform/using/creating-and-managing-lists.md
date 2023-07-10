@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
 
@@ -30,11 +30,11 @@ Adobe Campaign では、2 つのリストタイプを使用できます。
 
 * **[!UICONTROL グループ]**&#x200B;タイプ：**[!UICONTROL グループ]**&#x200B;タイプのリストは、特定の基準に基づいて選択された個人の&#x200B;**静的な**&#x200B;リストに属しています。リストは、一連のプロファイルのスナップショットのようなものです。データベースにプロファイルが追加されても、リストが自動的に更新されることはありませんので、ご注意ください。
 
-   **[!UICONTROL グループ]**&#x200B;タイプリストの作成方法について詳しくは、この[ページ](#creating-a-profile-list-from-a-group)を参照してください。
+  **[!UICONTROL グループ]**&#x200B;タイプリストの作成方法について詳しくは、この[ページ](#creating-a-profile-list-from-a-group)を参照してください。
 
 * **[!UICONTROL リスト]**&#x200B;タイプ：**[!UICONTROL リスト]**&#x200B;タイプのリストは、ワークフローを使用して作成および管理できます。これはデータのインポートの結果として生成される特定のリストであり、専用の&#x200B;**[!UICONTROL リスト更新]**&#x200B;ワークフローアクティビティで更新できます。
 
-   **[!UICONTROL グループ]**&#x200B;タイプリストと異なり、このタイプのリストは&#x200B;**[!UICONTROL スケジューラー]**&#x200B;アクティビティで自動的に更新されます。**[!UICONTROL リスト]**&#x200B;タイプリストの作成方法の例については、[このページ](../../workflow/using/list-update.md)を参照してください。
+  **[!UICONTROL グループ]**&#x200B;タイプリストと異なり、このタイプのリストは&#x200B;**[!UICONTROL スケジューラー]**&#x200B;アクティビティで自動的に更新されます。**[!UICONTROL リスト]**&#x200B;タイプリストの作成方法の例については、[このページ](../../workflow/using/list-update.md)を参照してください。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#create-list-video)
 
@@ -58,7 +58,7 @@ Adobe Campaign では、2 つのリストタイプを使用できます。
    * このリストの説明を入力します。
    * 有効期限を指定できます。この日付に達すると、リストはパージされ自動的に削除されます。
 
-      ![](assets/list_expiration_date.png)
+     ![](assets/list_expiration_date.png)
 
 1. 「**[!UICONTROL コンテンツ]**」タブで「**[!UICONTROL 追加]**」をクリックし、リストに属するプロファイルを選択します。
 
@@ -113,11 +113,11 @@ Adobe Campaign ホームページからリストを編集することもでき�
 
 * リストを編集し、「**[!UICONTROL コンテンツ]**」タブでプロファイルを選択して、「**[!UICONTROL 削除]**」アイコンをクリックします。
 
-   ![](assets/list_remove_a_recipient.png)
+  ![](assets/list_remove_a_recipient.png)
 
 * プロファイルを編集し、「**[!UICONTROL リスト]**」タブをクリックして、「**[!UICONTROL 削除]**」アイコンをクリックします。
 
-   ![](assets/recipient_remove_a_list.png)
+  ![](assets/recipient_remove_a_list.png)
 
 ## プロファイルリストの削除 {#deleting-a-list-of-profiles}
 

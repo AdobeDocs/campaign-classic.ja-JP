@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 100%
 
@@ -53,12 +53,12 @@ ht-degree: 100%
 
 * ページを作成するには、次に示すように、エディターの左側のセクションで「**[!UICONTROL ページ]**」オブジェクトを選択し、中央のセクションに移動させます。
 
-   ![](assets/s_ncs_admin_survey_new_page.png)
+  ![](assets/s_ncs_admin_survey_new_page.png)
 
 * 次に、「**[!UICONTROL ストレージ]**」オブジェクトを選択し、ページのアウトバウンドトランジション上に配置します。
 * 最後に、「**[!UICONTROL 終了]**」オブジェクトを選択し、次のダイアグラムのように、ストレージボックスのアウトバウンドトランジションの終わりに配置ます。
 
-   ![](assets/s_ncs_admin_survey_end.png)
+  ![](assets/s_ncs_admin_survey_end.png)
 
 ## 手順 4 - ページコンテンツの作成 {#step-4---creating-the-page-content}
 
@@ -68,51 +68,51 @@ ht-degree: 100%
 
 * **入力フィールドの追加**
 
-   ページのコンテンツを作成するには、ページを編集する必要があります。これをおこなうには、**[!UICONTROL ページ]**&#x200B;オブジェクトをダブルクリックします。ツールバーの最初のアイコンをクリックし、フィールド作成ウィザードを開きます。ここでは、ユーザーの名前用の入力フィールドを作成し、受信者のプロファイルの一致するフィールドにデータが格納されるようにします。これには、「**[!UICONTROL 受信者を編集]**」を選択します。
+  ページのコンテンツを作成するには、ページを編集する必要があります。これをおこなうには、**[!UICONTROL ページ]**&#x200B;オブジェクトをダブルクリックします。ツールバーの最初のアイコンをクリックし、フィールド作成ウィザードを開きます。ここでは、ユーザーの名前用の入力フィールドを作成し、受信者のプロファイルの一致するフィールドにデータが格納されるようにします。これには、「**[!UICONTROL 受信者を編集]**」を選択します。
 
-   ![](assets/s_ncs_admin_survey_add_field_menu.png)
+  ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
-   「**[!UICONTROL 次へ]**」ボタンをクリックして、データベースのデータ格納のフィールドを選択します。この場合、「姓」フィールドです。
+  「**[!UICONTROL 次へ]**」ボタンをクリックして、データベースのデータ格納のフィールドを選択します。この場合、「姓」フィールドです。
 
-   ![](assets/s_ncs_admin_survey_choose_field.png)
+  ![](assets/s_ncs_admin_survey_choose_field.png)
 
-   「**[!UICONTROL 完了]**」をクリックして、フィールドの作成を確認します。
+  「**[!UICONTROL 完了]**」をクリックして、フィールドの作成を確認します。
 
-   デフォルトでは、既にデータベースに存在するフィールドに情報が格納されると、そのフィールドは、選択したフィールドの名前になります（つまり、この例では「姓」）。このラベルは、次に示すように修正できます。
+  デフォルトでは、既にデータベースに存在するフィールドに情報が格納されると、そのフィールドは、選択したフィールドの名前になります（つまり、この例では「姓」）。このラベルは、次に示すように修正できます。
 
-   ![](assets/s_ncs_admin_survey_change_label.png)
+  ![](assets/s_ncs_admin_survey_change_label.png)
 
-   次に、ユーザーのアカウント番号用の入力フィールドを作成します。操作を繰り返して、「アカウント番号」フィールドを選択します。
+  次に、ユーザーのアカウント番号用の入力フィールドを作成します。操作を繰り返して、「アカウント番号」フィールドを選択します。
 
-   同じ手順を実行して、ユーザーが E メールアドレスを入力するためのフィールドを追加します。
+  同じ手順を実行して、ユーザーが E メールアドレスを入力するためのフィールドを追加します。
 
 * **質問の作成**
 
-   質問を作成するには、ツリーの最後の要素を右クリックし、**[!UICONTROL コンテナ／質問]**&#x200B;を選択するか、**[!UICONTROL コンテナ]**&#x200B;アイコンをクリックして&#x200B;**[!UICONTROL 質問]**&#x200B;を選択します。
+  質問を作成するには、ツリーの最後の要素を右クリックし、**[!UICONTROL コンテナ／質問]**&#x200B;を選択するか、**[!UICONTROL コンテナ]**&#x200B;アイコンをクリックして&#x200B;**[!UICONTROL 質問]**&#x200B;を選択します。
 
-   ![](assets/s_ncs_admin_survey_add_qu.png)
+  ![](assets/s_ncs_admin_survey_add_qu.png)
 
-   質問のラベルを入力して、質問のサブ分岐として回答フィールドを挿入します。これをおこなうには、回答フィールドを作成する際に、質問にリンクされたノードが選択されている必要があります。**[!UICONTROL 選択コントロール]**&#x200B;アイコンまたは次のように右クリックで、**[!UICONTROL ドロップダウンリスト]**&#x200B;を追加します。
+  質問のラベルを入力して、質問のサブ分岐として回答フィールドを挿入します。これをおこなうには、回答フィールドを作成する際に、質問にリンクされたノードが選択されている必要があります。**[!UICONTROL 選択コントロール]**&#x200B;アイコンまたは次のように右クリックで、**[!UICONTROL ドロップダウンリスト]**&#x200B;を追加します。
 
-   ![](assets/s_ncs_admin_survey_add_list.png)
+  ![](assets/s_ncs_admin_survey_add_list.png)
 
-   ストレージスペースを選択します。列挙フィールドを選択し、値を自動的に取得します（この場合、E メール形式）。
+  ストレージスペースを選択します。列挙フィールドを選択し、値を自動的に取得します（この場合、E メール形式）。
 
-   ![](assets/s_ncs_admin_survey_add_itz_list.png)
+  ![](assets/s_ncs_admin_survey_add_itz_list.png)
 
-   「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL データベースからの値のリストを初期化]**」リンクをクリックします。値のテーブルが自動的に入力されます。
+  「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL データベースからの値のリストを初期化]**」リンクをクリックします。値のテーブルが自動的に入力されます。
 
-   ![](assets/s_ncs_admin_survey_add_value.png)
+  ![](assets/s_ncs_admin_survey_add_value.png)
 
-   「**[!UICONTROL OK]**」をクリックしてエディターを閉じ、「**[!UICONTROL 保存]**」をクリックして変更を保存します。
+  「**[!UICONTROL OK]**」をクリックしてエディターを閉じ、「**[!UICONTROL 保存]**」をクリックして変更を保存します。
 
-   >[!NOTE]
-   >
-   >各フィールドまたは質問では、「**[!UICONTROL 詳細設定]**」タブのオプションを使用して、ニーズに合わせてページレイアウトを適応できます。調査画面のレイアウトについて詳しくは、[この節](../../web/using/about-web-forms.md)を参照してください。
+  >[!NOTE]
+  >
+  >各フィールドまたは質問では、「**[!UICONTROL 詳細設定]**」タブのオプションを使用して、ニーズに合わせてページレイアウトを適応できます。調査画面のレイアウトについて詳しくは、[この節](../../web/using/about-web-forms.md)を参照してください。
 
-   詳細画面で、「**[!UICONTROL プレビュー]**」タブをクリックして、今作成した調査のレンダリングを表示します。
+  詳細画面で、「**[!UICONTROL プレビュー]**」タブをクリックして、今作成した調査のレンダリングを表示します。
 
-   ![](assets/s_ncs_admin_survey_preview.png)
+  ![](assets/s_ncs_admin_survey_preview.png)
 
 ## 手順 5 - 調査データの格納 {#step-5---storing-the-survey-data-}
 
@@ -133,11 +133,11 @@ ht-degree: 100%
 * 調査ダッシュボードの上にある「**[!UICONTROL パブリッシュ]**」ボタンをクリックします。
 * 「**[!UICONTROL 開始]**」をクリックして、パブリッシュを開始し、ウィザードを閉じます。
 
-   ![](assets/s_ncs_admin_survey_start_publ.png)
+  ![](assets/s_ncs_admin_survey_start_publ.png)
 
-   調査のステータスが&#x200B;**オンライン**&#x200B;に変わります。
+  調査のステータスが&#x200B;**オンライン**&#x200B;に変わります。
 
-   ![](assets/survey_published.png)
+  ![](assets/survey_published.png)
 
 ## 手順 7 - オンライン調査の共有 {#step-7---sharing-your-online-survey}
 

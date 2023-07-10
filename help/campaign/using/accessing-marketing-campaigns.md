@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 100%
 
@@ -71,13 +71,13 @@ Adobe Campaign に接続したら、ナビゲーションバーのリンクを�
 
 * 「**スケジュール**」タブには、カレンダーのヘッダーでクリックしたタブに応じて、1 か月、1 週間または 1 日のプログラムのカレンダーが表示されます。
 
-   必要に応じて、このページからキャンペーン、プログラムまたはタスクを作成できます。
+  必要に応じて、このページからキャンペーン、プログラムまたはタスクを作成できます。
 
-   ![](assets/s_ncs_user_interface_campaign02.png)
+  ![](assets/s_ncs_user_interface_campaign02.png)
 
 * 「**編集**」タブを使用して、名前、開始日と終了日、予算、リンクされたドキュメントなど、プログラムをパーソナライズできます。
 
-   ![](assets/s_ncs_user_interface_campaign05.png)
+  ![](assets/s_ncs_user_interface_campaign05.png)
 
 #### キャンペーンの参照 {#browsing-campaigns}
 

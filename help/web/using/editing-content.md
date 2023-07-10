@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 100%
 
@@ -75,11 +75,11 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 * **[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 
-   ![](assets/dce_sidebar_options.png)
+  ![](assets/dce_sidebar_options.png)
 
 * 定義済みリストの値（選択されたフィールドで定義される）を「**[!UICONTROL 値]**」フィールドに入力します。
 
-   ![](assets/dce_sidebar_completeoptionradio.png)
+  ![](assets/dce_sidebar_completeoptionradio.png)
 
 ### フォームフィールドの変更 {#modifying-form-fields}
 
@@ -91,7 +91,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 * **[!UICONTROL 複製]**&#x200B;アイコンを使用して、新しいブロックを作成することで、選択したフィールドを複製します。
 * **[!UICONTROL 編集]**&#x200B;アイコンを使用して、**[!UICONTROL フォームデータ]**&#x200B;ウィンドウを編集し、データベースフィールドをフォームゾーンにリンクします。
 
-   ![](assets/dce_toolbar_formblock_edition.png)
+  ![](assets/dce_toolbar_formblock_edition.png)
 
 ## ボタンへのアクションの追加 {#adding-an-action-to-a-button}
 
@@ -138,7 +138,6 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 >* 現在のウィンドウ (_self)
 >* ブラウザーのデフォルト動作
 >
-
 
 ### URL へのリンク {#link-to-a-url}
 
@@ -204,7 +203,6 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 >
 >* **複製**&#x200B;アイコン：ブロックおよびブロックに関連するすべてのスタイルを複製します。
 
-
 ## 画像とアニメーションの管理 {#managing-images-and-animations}
 
 デジタルコンテンツエディターを使用すると、ブラウザーと互換性のある&#x200B;**あらゆるタイプの画像**&#x200B;を操作できます。
@@ -238,7 +236,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 * **キャプション**&#x200B;を使用すると、画像にリンクされたキャプションを定義できます（**alt** HTML 属性に対応）。
 * **サイズ**&#x200B;を使用すると、画像サイズをピクセル単位で指定できます。
 
-   ![](assets/dce_popup_imgsize.png)
+  ![](assets/dce_popup_imgsize.png)
 
 ## パーソナライゼーションコンテンツの追加 {#adding-personalization-content}
 

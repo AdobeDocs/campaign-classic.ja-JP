@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: SMS
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1826'
 ht-degree: 100%
 
@@ -348,7 +348,7 @@ Adobe Campaign では、SMS メッセージの送信時に 1 つまたは複数�
 * 各外部アカウントに対して 1 つのプロバイダーアカウントを作成
 * **[!UICONTROL モバイル]**／「**[!UICONTROL 接続設定]**」タブの「**[!UICONTROL システムタイプ]**」フィールドを使用して、各ショートコードを区別各アカウントに異なる値を提供するようプロバイダーに依頼
 
-   ![](assets/extended_smpp_system-type.png)
+  ![](assets/extended_smpp_system-type.png)
 
 拡張汎用 SMPP コネクタを使用して外部アカウントを設定する手順について詳しくは、[SMPP 外部アカウントの作成](#creating-an-smpp-external-account)の節を参照してください。
 

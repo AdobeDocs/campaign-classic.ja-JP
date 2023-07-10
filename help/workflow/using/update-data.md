@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Targeting Activity, Data Management
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 * データエントリが既存のターゲティングディメンションに関係する場合は、「**[!UICONTROL ターゲティングディメンションを直接使用]**」オプションを選択し、「**[!UICONTROL 更新するディメンション]**」フィールドで、そのターゲティングディメンションを選択します。
 
-   「**[!UICONTROL リンクを編集]**」ボタン（虫眼鏡のアイコン）を使用して、選択したディメンションのフィールドを表示できます。
+  「**[!UICONTROL リンクを編集]**」ボタン（虫眼鏡のアイコン）を使用して、選択したディメンションのフィールドを表示できます。
 
 * または、データベース内のデータの識別または紐付けキーの直接使用を可能にするリンクを 1 つまたは複数指定します。
 

@@ -22,14 +22,14 @@ ht-degree: 13%
 
 * **を実行します。**&#x200B;トラッキング&#x200B;**エラーが発生した場合は、**
 
-   参照： [テクニカルワークフローの監視](../../workflow/using/monitoring-technical-workflows.md).
+  参照： [テクニカルワークフローの監視](../../workflow/using/monitoring-technical-workflows.md).
 
-   ![](assets/tracking_scheduled_task.png)
+  ![](assets/tracking_scheduled_task.png)
 
 * **モジュールです** trackinglogd **サーバ上で実行しているか**
 
-   参照： [ログファイル](../../production/using/log-files.md).
+  参照： [ログファイル](../../production/using/log-files.md).
 
 * **変更が加えられたか。**
 
-   トラッキングエイリアスを使用して、トリガーとサーバーとの接続が失われる可能性があります。
+  トラッキングエイリアスを使用して、トリガーとサーバーとの接続が失われる可能性があります。

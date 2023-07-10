@@ -28,7 +28,6 @@ ht-degree: 15%
 >* 読み取り [この節](../../installation/using/general-architecture.md) そして [ビルドアップグレード](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html) チャプターを開始する前に
 >
 
-
 ## Windows {#in-windows}
 
 Windows 環境で、次の手順に従ってAdobe Campaignを新しいビルドに更新します。
@@ -48,9 +47,10 @@ Windows 環境で、次の手順に従ってAdobe Campaignを新しいビルド�
 
    * Web サービス（IIS）：
 
-      **iisreset /stop**
+     **iisreset /stop**
 
    * Adobe Campaignサービス： **net stop nlserver6**
+
    >[!IMPORTANT]
    >
    >また、リダイレクトサーバー (webmdl) が停止し、 **nlsrvmod.dll** IIS で使用されるファイルは、新しいバージョンに置き換えることができます。
@@ -105,7 +105,7 @@ Windows 環境で、次の手順に従ってAdobe Campaignを新しいビルド�
 
 * Web サービス（IIS）：
 
-   **iisreset /start**
+  **iisreset /start**
 
 * Adobe Campaignサービス： **net start nlserver6**
 
@@ -125,7 +125,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 ### 更新されたパッケージの取得 {#obtain-updated-packages}
 
-まず、更新されたAdobe Campaignの両方のパッケージを復元します。接続先 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?lang=ja) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
+まず、更新されたAdobe Campaignの両方のパッケージを復元します。接続先 [ソフトウェア配布ポータル](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
 
 ファイルは **nlserver6-v7-XXX.rpm**
 
@@ -133,27 +133,27 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 * RPM ベースの配布 (RedHat、SuSe)
 
-   これらをインストールするには、root として実行します。
+  これらをインストールするには、root として実行します。
 
-   ```
-   $rpm -Uvh nlserver6-v7-XXXX.rpm
-   ```
+  ```
+  $rpm -Uvh nlserver6-v7-XXXX.rpm
+  ```
 
-   XXX はファイルのバージョンです。
+  XXX はファイルのバージョンです。
 
-   rpm ファイルは、CentOS/Red Hat ディストリビューションで見つけられるパッケージに依存しています。 これらの依存関係の一部を使用したくない場合は、rpm の&quot;nodeps&quot;オプションを使用する必要がある場合があります。
+  rpm ファイルは、CentOS/Red Hat ディストリビューションで見つけられるパッケージに依存しています。 これらの依存関係の一部を使用したくない場合は、rpm の&quot;nodeps&quot;オプションを使用する必要がある場合があります。
 
-   ```
-   rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
-   ```
+  ```
+  rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
+  ```
 
 * DEB ベースの配布 (Debian)
 
-   これらをインストールするには、root として実行します。
+  これらをインストールするには、root として実行します。
 
-   ```
-   dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
-   ```
+  ```
+  dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+  ```
 
 >[!NOTE]
 >
@@ -173,10 +173,8 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 >
 >* スクリプトは **httpd** の代わりに **apache**.
 >* 次の応答が返されるまで、このコマンドを実行する必要があります。
-
-   >
-   >   この操作は、Apache が新しいライブラリを適用するために必要です。
-
+>
+>   この操作は、Apache が新しいライブラリを適用するために必要です。
 
 次に、Apache を再起動します。
 
@@ -194,16 +192,16 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 * コマンドラインインターフェイスでは、エラーは 3 つの山形記号で表されます。 **>>>** 同期は自動的に停止します。 警告は二重山形記号で表されます **>>** 同期が完了したら、解決する必要があります。 ポストアップグレードの最後に概要がコマンドプロンプトで表示されます。以下はその一例です。
 
-   ```
-   2013-04-09 07:48:39.749Z 00002E7A 1 info log =========Summary of the update==========
-   2013-04-09 07:48:39.749Z 00002E7A 1 info log <instance name> instance, 6 warning(s) and 0 error(s) during the update.
-   2013-04-09 07:48:39.749Z 00002E7A 1 warning log The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
-   2013-04-09 07:48:39.749Z 00002E7A 1 warning log The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
-   2013-04-09 07:48:39.750Z 00002E7A 1 warning log The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
-   2013-04-09 07:48:39.750Z 00002E7A 1 warning log Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
-   ```
+  ```
+  2013-04-09 07:48:39.749Z 00002E7A 1 info log =========Summary of the update==========
+  2013-04-09 07:48:39.749Z 00002E7A 1 info log <instance name> instance, 6 warning(s) and 0 error(s) during the update.
+  2013-04-09 07:48:39.749Z 00002E7A 1 warning log The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
+  2013-04-09 07:48:39.749Z 00002E7A 1 warning log The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
+  2013-04-09 07:48:39.750Z 00002E7A 1 warning log The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
+  2013-04-09 07:48:39.750Z 00002E7A 1 warning log Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
+  ```
 
-   リソースの競合に関する警告は、見落とさないように注意して、解決してください。
+  リソースの競合に関する警告は、見落とさないように注意して、解決してください。
 
 * この **postupgrade_`<server version number>_<time of postupgrade>`.log** ログファイルには、同期結果が含まれます。 デフォルトでは、次のディレクトリで使用できます。 **`<installation directory>/var/<instance/postupgrade`**. エラーと警告はそれぞれエラーと警告の属性で明示されます。
 
@@ -220,9 +218,9 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 * **[!UICONTROL 新しいバージョンを承認]** :Adobe Campaignで提供されるリソースがユーザーによって変更されていない場合に推奨されます。
 * **[!UICONTROL 現在のバージョンを保持]** :は、更新が却下されたことを示します。
 
-   >[!IMPORTANT]
-   >
-   >この解像度モードを選択した場合、新しいバージョンで修正を行う必要が生じない場合があります。
+  >[!IMPORTANT]
+  >
+  >この解像度モードを選択した場合、新しいバージョンで修正を行う必要が生じない場合があります。
 
 競合を手動で解決する場合は、次の手順に従います。
 

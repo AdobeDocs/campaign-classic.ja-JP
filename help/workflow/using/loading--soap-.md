@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 
@@ -50,6 +50,6 @@ ht-degree: 100%
    * **[!UICONTROL 初期化]**：SOAP 接続を確立します。
    * **[!UICONTROL 反復処理]**：SOAP サービスへの呼び出しを実行します。この関数の戻り値は、必ず WSDL の例の記述と互換性のある XML オブジェクトになります。
 
-      このタブのコードは、null の XML オブジェクトが返されるまで、Adobe Campaign によって繰り返し呼び出されます。
+     このタブのコードは、null の XML オブジェクトが返されるまで、Adobe Campaign によって繰り返し呼び出されます。
 
    * **[!UICONTROL 確定]**：接続を切断し、プロセス中に作成された他のリソースを解放します。

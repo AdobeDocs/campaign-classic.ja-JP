@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 100%
 
@@ -68,32 +68,32 @@ ht-degree: 100%
 
 * 抽出ファイルが承認されたら、ルーターへの通知メールの配達確認を生成できます。この電子メールメッセージは、配信テンプレートに基づいて作成されます。このメッセージは承認が必要です。
 
-   >[!NOTE]
-   >
-   >この手順は、承認ウィンドウで配達確認の送信と検証が有効になっている場合にのみ使用できます。
+  >[!NOTE]
+  >
+  >この手順は、承認ウィンドウで配達確認の送信と検証が有効になっている場合にのみ使用できます。
 
 ![](assets/s_ncs_user_file_valid_select_BAT.png)
 
 
 * 「**[!UICONTROL 配達確認を送信]**」ボタンをクリックして、配達確認を作成します。
 
-   事前に配達確認のターゲットを定義しておく必要があります。
+  事前に配達確認のターゲットを定義しておく必要があります。
 
-   配達確認を必要な数だけ作成できます。この配達確認には、配信の詳細の「**[!UICONTROL ダイレクトメール...]**」リンクからアクセスします。
+  配達確認を必要な数だけ作成できます。この配達確認には、配信の詳細の「**[!UICONTROL ダイレクトメール...]**」リンクからアクセスします。
 
-   ![](assets/s_ncs_user_file_notif_submit_proof.png)
+  ![](assets/s_ncs_user_file_notif_submit_proof.png)
 
 * 配信ステータスが「**[!UICONTROL 送信する]**」に変わります。「**[!UICONTROL 配達確認を送信]**」ボタンをクリックして、承認プロセスを開始します。
 
-   ![](assets/s_ncs_user_file_notif_submit_proof_validation.png)
+  ![](assets/s_ncs_user_file_notif_submit_proof_validation.png)
 
 * 配信ステータスが「**[!UICONTROL 承認する配達確認]**」に変わります。ボタンを使用して承認を許可または却下できます。
 
-   ![](assets/s_ncs_user_file_notif_supplier_link.png)
+  ![](assets/s_ncs_user_file_notif_supplier_link.png)
 
-   この承認を許可／却下することも、抽出手順に戻ることもできます。
+  この承認を許可／却下することも、抽出手順に戻ることもできます。
 
-   ![](assets/s_ncs_user_file_notif_supplier_link_confirm.png)
+  ![](assets/s_ncs_user_file_notif_supplier_link_confirm.png)
 
 * 抽出ファイルが発送担当に送信され、配信が完了します。
 
@@ -103,11 +103,11 @@ ht-degree: 100%
 
 * 「**[!UICONTROL 予算]**」タブを使用して、キャンペーンの予算を管理できます。コストエントリの合計が、キャンペーンのメインタブおよびキャンペーンが所属するプログラムの「**[!UICONTROL 計算されたコスト]**」フィールドに表示されます。この金額は、キャンペーン予算にも反映されます。
 
-   実際のコストは、発送担当が提供する情報から最終的に計算されます。実際に送信されたメッセージのみが請求対象です。
+  実際のコストは、発送担当が提供する情報から最終的に計算されます。実際に送信されたメッセージのみが請求対象です。
 
 * 在庫はツリーの&#x200B;**[!UICONTROL 管理／キャンペーン管理／在庫]**&#x200B;ノードで定義され、コスト構造は&#x200B;**[!UICONTROL 管理／キャンペーン管理／サービスプロバイダー]**&#x200B;ノードで定義されます。
 
-   在庫品目は「在庫」セクションに表示されます。初期在庫を定義するには、在庫品目を開きます。配信が実行されるたびに在庫は減少します。アラートレベルと通知を定義できます。
+  在庫品目は「在庫」セクションに表示されます。初期在庫を定義するには、在庫品目を開きます。配信が実行されるたびに在庫は減少します。アラートレベルと通知を定義できます。
 
 >[!NOTE]
 >
@@ -190,19 +190,19 @@ ht-degree: 100%
 * 項目には、ここで参照および記述し、配信に添付する物理的なドキュメントなどを指定できます。
 * パーソナライゼーションフィールドを使用して、受信者ではなく配信に関連したパーソナライゼーション要素を作成できます。これにより、特定のターゲット向けの配信（ウェルカムオファーやディスカウントなど）で使用する値を作成できます。こうした値は Adobe Campaign で作成し、「**[!UICONTROL パーソナライゼーションフィールドをインポート...]**」リンクから概要にインポートします。
 
-   ![](assets/s_ncs_user_op_add_composition_field.png)
+  ![](assets/s_ncs_user_op_add_composition_field.png)
 
-   パーソナライゼーション要素は、リスト領域の右側の&#x200B;**[!UICONTROL 追加]**&#x200B;アイコンをクリックして、概要内で直接作成することもできます。
+  パーソナライゼーション要素は、リスト領域の右側の&#x200B;**[!UICONTROL 追加]**&#x200B;アイコンをクリックして、概要内で直接作成することもできます。
 
-   ![](assets/s_ncs_user_op_add_composition_field_button.png)
+  ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
 * リソースは、「**[!UICONTROL キャンペーン]** 」タブの「**[!UICONTROL リソース]**」リンクからアクセスできるマーケティングリソースダッシュボードで生成されたマーケティングリソースです。
 
-   ![](assets/s_ncs_user_mkg_resource_ovv.png)
+  ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
-   >[!NOTE]
-   >
-   >マーケティングリソースについて詳しくは、[マーケティングリソースの管理](../../mrm/using/managing-marketing-resources.md)を参照してください。
+  >[!NOTE]
+  >
+  >マーケティングリソースについて詳しくは、[マーケティングリソースの管理](../../mrm/using/managing-marketing-resources.md)を参照してください。
 
 #### アウトラインの選択 {#selecting-an-outline}
 

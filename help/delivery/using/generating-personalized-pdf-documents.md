@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -43,9 +43,9 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 * テーブルの 2 行目の各セルに、表示する値を返すスクリプトを挿入します。
 * テーブルの 3 行目（最後の行）でループを閉じます。
 
-   動的テーブルの定義の例：
+  動的テーブルの定義の例：
 
-   ![](assets/s_ncs_pdf_table.png)
+  ![](assets/s_ncs_pdf_table.png)
 
 ## 外部画像の挿入 {#inserting-external-images}
 
@@ -68,9 +68,9 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 * 「My_Logo」を内部名に持つ新しい「My Logo」パーソナライゼーションブロックを作成します。
 * 「**[!UICONTROL 詳細設定...]**」リンクをクリックして、「**[!UICONTROL ブロックは次に含まれるオプションで「添付ファイル」をオンにします]**」オプションをオンにします。これにより、パーソナライゼーションブロックの定義を直接 OpenOffice ファイルのコンテンツにコピーできます。
 
-   ![](assets/s_ncs_pdf_bloc_option.png)
+  ![](assets/s_ncs_pdf_bloc_option.png)
 
-   パーソナライゼーションブロック内の 2 つのタイプの宣言を区別する必要があります。
+  パーソナライゼーションブロック内の 2 つのタイプの宣言を区別する必要があります。
 
    * パーソナライゼーションフィールドの Adobe Campaign コードにおける「開く」および「閉じる」山括弧は、エスケープ文字（それぞれ `&lt;` と `&gt;`）で置き換える必要があります。
    * OpenOffice XML コード全体が OpenOffice ドキュメントにコピーされます。

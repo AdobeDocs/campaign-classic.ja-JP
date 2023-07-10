@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Data Management
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
 
@@ -80,19 +80,19 @@ S3、Azure Blob Storage、SFTP 接続のいずれかを使用すると、Adobe �
 
 * **[!UICONTROL 転送後にソースファイルを削除]**
 
-   リモートサーバー上のファイルを消去します。このオプションを選択しない場合は、SFTP ディレクトリにあるアーカイブ済みコンテンツのサイズを手動で監視するようにしてください。
+  リモートサーバー上のファイルを消去します。このオプションを選択しない場合は、SFTP ディレクトリにあるアーカイブ済みコンテンツのサイズを手動で監視するようにしてください。
 
 * **[!UICONTROL SSL を使用]**
 
-   SSL プロトコルを使用したファイル転送で、セキュア接続を使用できます。
+  SSL プロトコルを使用したファイル転送で、セキュア接続を使用できます。
 
 * **[!UICONTROL セッションログを表示]**
 
-   Azure Blob Storage、S3、FTP または SFTP 転送のログを回復し、ワークフローのログに含めることができます。
+  Azure Blob Storage、S3、FTP または SFTP 転送のログを回復し、ワークフローのログに含めることができます。
 
 * **[!UICONTROL 休止モードを無効にする]**
 
-   データ転送に使用する接続ポートを指定できます。
+  データ転送に使用する接続ポートを指定できます。
 
 「**[!UICONTROL ファイル履歴化設定...]**」リンクでアクセスできるオプションについて詳しくは、[Web ダウンロード](web-download.md)（**[!UICONTROL ファイル履歴化]**&#x200B;の手順）を参照してください。
 
@@ -100,10 +100,10 @@ S3、Azure Blob Storage、SFTP 接続のいずれかを使用すると、Adobe �
 
 * filename
 
-   送信したファイルの名前を入力します。
+  送信したファイルの名前を入力します。
 
 ## 出力パラメーター {#output-parameters}
 
 * filename
 
-   「**[!UICONTROL 前のアクティビティで生成されたファイルを使用]**」オプションを選択している場合は、受信したファイルの名前をを入力します。
+  「**[!UICONTROL 前のアクティビティで生成されたファイルを使用]**」オプションを選択している場合は、受信したファイルの名前をを入力します。

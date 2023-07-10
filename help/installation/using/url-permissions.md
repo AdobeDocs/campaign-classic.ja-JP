@@ -30,6 +30,7 @@ Campaign Classic インスタンスの JavaScript コード（ワークフロー
 >As a **ホスト** 顧客、 [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)に設定されている場合は、URL 権限セルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja)
 >
 >その他 **ハイブリッド/ホスト** のお客様は、Adobeサポートチームに連絡して、IP をチームに追加する必要があり許可リストます。
+>
 
 の場合 **ハイブリッド** および **オンプレミス** デプロイメントを使用する場合、管理者は新しい **urlPermission** 内 **serverConf.xml** ファイル。
 

@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 100%
 
@@ -51,13 +51,14 @@ MX 設定について詳しくは、[この節](../../installation/using/email-d
    * 「**[!UICONTROL ブロックリスト登録済み]**」ステータスは、フィードバックループの結果です（人がメッセージをスパムとしてレポートする場合）。
 
    * **[!UICONTROL 強制隔離]**&#x200B;というステータスは、ソフトバウンスまたはハードバウンスの結果です。
-   詳しくは、[この節](understanding-quarantine-management.md#quarantine-vs-denylist)を参照してください。
+
+  詳しくは、[この節](understanding-quarantine-management.md#quarantine-vs-denylist)を参照してください。
 
 * **様々な強制隔離エラーの原因は何を意味しますか。**
 
-   未定義、不明なユーザー、無効なドメイン、ブロックリストに登録されたアドレス、拒否、無視されたエラー、未到達、無効なアカウント、メールボックス容量超過、未接続の 10 個の原因が考えられます。
+  未定義、不明なユーザー、無効なドメイン、ブロックリストに登録されたアドレス、拒否、無視されたエラー、未到達、無効なアカウント、メールボックス容量超過、未接続の 10 個の原因が考えられます。
 
-   詳しくは、[強制隔離管理の理解](understanding-quarantine-management.md)を参照してください。
+  詳しくは、[強制隔離管理の理解](understanding-quarantine-management.md)を参照してください。
 
 ## ブロックリストからの削除 {#remove-from-denylist}
 
@@ -69,14 +70,14 @@ MX 設定について詳しくは、[この節](../../installation/using/email-d
 
 * **IP のいずれかがブロックリストに登録されているかどうかを確認するにはどうすればよいですか。IP をブロックリストから削除する方法を教えてください。**
 
-   IP アドレスがブロックリストに登録されているかどうかは、以下のような様々な Web サイトを使用して検証できます。
+  IP アドレスがブロックリストに登録されているかどうかは、以下のような様々な Web サイトを使用して検証できます。
    * [MX Toolbox](https://mxtoolbox.com/)
    * [What is my IP address](https://whatismyipaddress.com)
 
-   通常、IP アドレスチェックの結果は、ブロックリストの詳細と IP アドレスを拒否した Web サイトの名前を含むリストで返されます。
+  通常、IP アドレスチェックの結果は、ブロックリストの詳細と IP アドレスを拒否した Web サイトの名前を含むリストで返されます。
 
-   対応するリンクをクリックすると、Web サイトの詳細にアクセスできます。次に、IP アドレスがブロックリストに登録された Web サイトのリストから Web サイトを削除するようリクエストできます。
+  対応するリンクをクリックすると、Web サイトの詳細にアクセスできます。次に、IP アドレスがブロックリストに登録された Web サイトのリストから Web サイトを削除するようリクエストできます。
 
-   >[!NOTE]
-   >
-   >リストからの削除のプロセスは、Web サイトによって異なります。サイトによって、アカウントの作成が必要な場合や、IP アドレスを指定するだけの場合があります。
+  >[!NOTE]
+  >
+  >リストからの削除のプロセスは、Web サイトによって異なります。サイトによって、アカウントの作成が必要な場合や、IP アドレスを指定するだけの場合があります。

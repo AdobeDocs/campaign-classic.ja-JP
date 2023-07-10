@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Targeting Activity, Interaction
 exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 100%
 
@@ -29,6 +29,6 @@ ht-degree: 100%
    * 適用可能なフィルタリングおよび制限ルールを使用して、サブセットの母集団を指定します。
    * 次に、サブセットに提案するオファーを選択します。選択できるオファーは、前の手順で選択したオファースペースに適合するオファーです。
 
-      ![](assets/int_offer_per_cell1.png)
+     ![](assets/int_offer_per_cell1.png)
 
 1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[クロスチャネル配信](cross-channel-deliveries.md)を参照してください。

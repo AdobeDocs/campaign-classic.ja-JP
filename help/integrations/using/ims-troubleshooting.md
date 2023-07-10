@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
 
@@ -75,12 +75,12 @@ Campaign 外部アカウントで上記のいずれかの設定を変更した�
 
 * ユーザーが adobe.com のページにリダイレクトされる。
 
-   **[!UICONTROL コールバック URL]** に関する問題が起きています。上記の手順を参考に、**[!UICONTROL コールバック URL]** の設定を確認してください。
+  **[!UICONTROL コールバック URL]** に関する問題が起きています。上記の手順を参考に、**[!UICONTROL コールバック URL]** の設定を確認してください。
 
 * 「ログインには、式に一致する権限がありません」というメッセージが表示される。
 
-   上記の手順を参考に、**[!UICONTROL 関連付けマスク]**&#x200B;とオペレーターグループの設定を確認してください。
+  上記の手順を参考に、**[!UICONTROL 関連付けマスク]**&#x200B;とオペレーターグループの設定を確認してください。
 
 * ユーザーが Adobe ID ログインページにアクセスできない。
 
-   上記の手順を参考に、スコープの設定を確認してください。
+  上記の手順を参考に、スコープの設定を確認してください。

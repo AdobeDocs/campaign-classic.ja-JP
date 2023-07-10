@@ -37,7 +37,7 @@ ht-degree: 2%
 デフォルトでは、 **[!UICONTROL データベースのクリーンアップ]** 毎日午前 4 時に開始するようにワークフローが設定されている。 スケジューラーを使用すると、ワークフローのトリガー頻度を変更できます。 次の頻度を使用できます。
 
 * **[!UICONTROL 1 日に数回]**
-* **[!UICONTROL 毎日]**
+* **[!UICONTROL 日]**
 * **[!UICONTROL 毎週]**
 * **[!UICONTROL 1 回]**
 
@@ -63,16 +63,16 @@ ht-degree: 2%
 * 訪問者プロファイル： **NmsCleanup_VisitorPurgeDelay** ( [訪問者のクリーンアップ](#cleanup-of-visitors))
 * オファーの提案： **NmsCleanup_PropositionPurgeDelay** ( [提案のクリーンアップ](#cleanup-of-propositions))
 
-   >[!NOTE]
-   >
-   >この **[!UICONTROL オファーの提案]** フィールドは、 **インタラクション** モジュールがインストールされている。
+  >[!NOTE]
+  >
+  >この **[!UICONTROL オファーの提案]** フィールドは、 **インタラクション** モジュールがインストールされている。
 
 * イベント： **NmsCleanup_EventPurgeDelay** ( [期限切れのイベントのクレンジング](#cleansing-expired-events))
 * アーカイブしたイベント： **NmsCleanup_EventHistoPurgeDelay** ( [期限切れのイベントのクレンジング](#cleansing-expired-events))
 
-   >[!NOTE]
-   >
-   >この **[!UICONTROL イベント]** および **[!UICONTROL アーカイブしたイベント]** フィールドは、 **Message Center** モジュールがインストールされている。
+  >[!NOTE]
+  >
+  >この **[!UICONTROL イベント]** および **[!UICONTROL アーカイブしたイベント]** フィールドは、 **Message Center** モジュールがインストールされている。
 
 * 監査証跡： **XtkCleanup_AuditTrailPurgeDelay** ( [監査証跡のクリーンアップ](#cleanup-of-audit-trail))
 
@@ -132,19 +132,19 @@ ht-degree: 2%
 
    * 配信の除外テーブル (**NmsDlvExclusion**) の場合は、次のクエリが使用されます。
 
-      ```sql
-      DELETE FROM NmsDlvExclusion WHERE iDeliveryId=$(l)
-      ```
+     ```sql
+     DELETE FROM NmsDlvExclusion WHERE iDeliveryId=$(l)
+     ```
 
-      場所 **$(l)** は、配信の識別子です。
+     場所 **$(l)** は、配信の識別子です。
 
    * クーポンテーブル (**NmsCouponValue**) の場合は、次のクエリが使用されます（一括削除の場合）。
 
-      ```sql
-      DELETE FROM NmsCouponValue WHERE iMessageId IN (SELECT iMessageId FROM NmsCouponValue WHERE EXISTS (SELECT B.iBroadLogId FROM $(BroadLogTableName) B WHERE B.iDeliveryId = $(l) AND B.iBroadLogId = iMessageId ) LIMIT 5000)
-      ```
+     ```sql
+     DELETE FROM NmsCouponValue WHERE iMessageId IN (SELECT iMessageId FROM NmsCouponValue WHERE EXISTS (SELECT B.iBroadLogId FROM $(BroadLogTableName) B WHERE B.iDeliveryId = $(l) AND B.iBroadLogId = iMessageId ) LIMIT 5000)
+     ```
 
-      場所 `$(l)` は、配信の識別子です。
+     場所 `$(l)` は、配信の識別子です。
 
    * 配信ログテーブル (**NmsBroadlogXxx**)、大量削除は 20,000 個のレコードのバッチで実行されます。
    * オファーの提案テーブル (**NmsPropositionXxx**)、大量削除は 20,000 個のレコードのバッチで実行されます。
@@ -155,13 +155,13 @@ ht-degree: 2%
    * バッチ処理ログテーブル (**XtkJobLog**)、大量削除は 20,000 個のレコードのバッチで実行されます。 このテーブルには、削除される配信のログが含まれています。
    * 配信 URL トラッキングテーブル (**NmsTrackingUrl**) の場合は、次のクエリが使用されます。
 
-      ```sql
-      DELETE FROM NmsTrackingUrl WHERE iDeliveryId=$(l)
-      ```
+     ```sql
+     DELETE FROM NmsTrackingUrl WHERE iDeliveryId=$(l)
+     ```
 
-      場所 `$(l)` は、配信の識別子です。
+     場所 `$(l)` は、配信の識別子です。
 
-      このテーブルには、削除される配信内の、トラッキングを有効にする URL が含まれています。
+     このテーブルには、削除される配信内の、トラッキングを有効にする URL が含まれています。
 
 1. 配信が配信テーブル (**NmsDelivery**):
 

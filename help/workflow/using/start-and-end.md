@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 
@@ -20,17 +20,17 @@ ht-degree: 100%
 
 * **[!UICONTROL 開始]**
 
-   ワークフローの実行は、インバウンドトランジションのないアクティビティと、「開始」タイプアクティビティから開始します。
+  ワークフローの実行は、インバウンドトランジションのないアクティビティと、「開始」タイプアクティビティから開始します。
 
-   ![](assets/s_user_segmentation_start_stop.png)
+  ![](assets/s_user_segmentation_start_stop.png)
 
 * **[!UICONTROL 終了]**
 
-   進行中のすべてのタスクを中断する「**[!UICONTROL 終了]**」アクティビティを設定できます。それには、アクティビティをダブルクリックしてプロパティを標示し、適切なオプションを選択します。
+  進行中のすべてのタスクを中断する「**[!UICONTROL 終了]**」アクティビティを設定できます。それには、アクティビティをダブルクリックしてプロパティを標示し、適切なオプションを選択します。
 
-   ![](assets/s_user_segmentation_end.png)
+  ![](assets/s_user_segmentation_end.png)
 
-   ワークテーブル内のデータは、「終了」アクティビティが有効になると自動的に削除されます。
+  ワークテーブル内のデータは、「終了」アクティビティが有効になると自動的に削除されます。
 データを削除する必要がなく、不要な負荷を避けたい場合は、最後のアクティビティ出力でトランジションを無効にすることもできます。例えば、配信出力でプロセスが何もスケジュールされていない場合、次に示す関連オプションのチェックを外します。
 
-   ![](assets/s_advuser_delivery_option_no_output.png)
+  ![](assets/s_advuser_delivery_option_no_output.png)

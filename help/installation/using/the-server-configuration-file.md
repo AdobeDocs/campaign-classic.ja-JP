@@ -3375,7 +3375,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> ID<br /> </td> 
+   <td> id<br /> </td> 
    <td> 名前<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 1<br /> </td> 

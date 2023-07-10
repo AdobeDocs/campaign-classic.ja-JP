@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 100%
 
@@ -114,16 +114,16 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
    * **[!UICONTROL 言語ごとに 1 ファイル]**：エクスポートは、翻訳言語ごとに 1 ファイルを生成します。各ファイルは、選択したすべての Web アプリケーションで共通です。
    * **[!UICONTROL 各 Web アプリケーションにつき 1 ファイル]**：エクスポートは、選択した Web アプリケーションごとに 1 ファイルを生成します。各ファイルには、すべての翻訳言語が含まれます。
 
-      >[!NOTE]
-      >
-      >このタイプのエクスポートは、XLIFF エクスポートでは使用できません。
+     >[!NOTE]
+     >
+     >このタイプのエクスポートは、XLIFF エクスポートでは使用できません。
 
    * **[!UICONTROL 言語および Web アプリケーションごとに 1 ファイル]**：エクスポートは、複数のファイルを生成します。各ファイルには、Web アプリケーションごとに 1 つの翻訳言語が含まれます。
    * **[!UICONTROL 全部で 1 つのファイル]**：エクスポートは、すべての Web アプリケーションに対して 1 つの複数言語ファイルを生成します。選択したすべての Web アプリケーションのすべての翻訳言語が含まれます。
 
-      >[!NOTE]
-      >
-      >このタイプのエクスポートは、XLIFF エクスポートでは使用できません。
+     >[!NOTE]
+     >
+     >このタイプのエクスポートは、XLIFF エクスポートでは使用できません。
 
 1. 次に、ファイルが記録される「**[!UICONTROL ターゲットフォルダー]**」を選択します。
 1. ファイル形式（**[!UICONTROL CSV]** または **[!UICONTROL XLIFF]**）を選択して、「**[!UICONTROL 開始]**」をクリックします。

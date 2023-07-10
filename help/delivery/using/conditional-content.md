@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization, Multilingual Messages
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 100%
 
@@ -48,22 +48,22 @@ ht-degree: 100%
 
    * 式の最初の要素 **`<field>`** を選択し（**If** 式を挿入すると、この要素がデフォルトでハイライトされた状態になります）、パーソナライゼーションアイコンをクリックして、この要素をテストフィールドに置き換えます。
 
-      ![](assets/s_ncs_user_conditional_content03.png)
+     ![](assets/s_ncs_user_conditional_content03.png)
 
    * **`<value>`** を、条件が成立するためのフィールド値に置き換えます。この値は二重引用符で囲む必要があります。
    * 条件が成立したときに挿入するコンテンツを指定します。このコンテンツにはテキスト、画像、フォーム、ハイパーテキストリンクなどを含めることができます。
 
-      ![](assets/s_ncs_user_conditional_content04.png)
+     ![](assets/s_ncs_user_conditional_content04.png)
 
 1. 「**[!UICONTROL プレビュー]**」タブをクリックして、次のように、配信の受信者に応じたメッセージコンテンツの表示を確認します。
 
    * 条件が成立する受信者を選択した場合：
 
-      ![](assets/s_ncs_user_conditional_content05.png)
+     ![](assets/s_ncs_user_conditional_content05.png)
 
    * 条件が成立しない受信者を選択した場合：
 
-      ![](assets/s_ncs_user_conditional_content06.png)
+     ![](assets/s_ncs_user_conditional_content06.png)
 
 さらに多くの場合分けを追加し、1 つまたは複数のフィールドに基づいてコンテンツの切り替えを定義することもできます。そのためには、**[!UICONTROL 条件付きコンテンツ／Else]** および&#x200B;**[!UICONTROL 条件付きコンテンツ／Else if]** を使用します。式の設定方法は、**If** 式の場合と同様です。
 

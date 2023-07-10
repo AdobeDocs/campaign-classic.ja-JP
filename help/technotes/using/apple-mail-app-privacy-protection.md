@@ -61,21 +61,21 @@ Adobe Campaignデータからインサイトを収集するには、標準のレ
 
 * **[!UICONTROL オペレーティングシステム]** レポート
 
-   オペレーティングシステムごととバージョンごとの訪問者の割合を識別するには、このレポートを使用します。 [詳細情報](../../reporting/using/global-reports.md#operating-systems)。
+  オペレーティングシステムごととバージョンごとの訪問者の割合を識別するには、このレポートを使用します。 [詳細情報](../../reporting/using/global-reports.md#operating-systems)。
 
-   訪問者の合計数に関する、オペレーティングシステムごとの訪問者の分類を表示できます。
+  訪問者の合計数に関する、オペレーティングシステムごとの訪問者の分類を表示できます。
 
-   ![](../../reporting/using/assets/s_ncs_user_os_report.png)
+  ![](../../reporting/using/assets/s_ncs_user_os_report.png)
 
-   各オペレーティングシステムで、オペレーティングシステムのバージョンごとに訪問者の分類を表示できます。
+  各オペレーティングシステムで、オペレーティングシステムのバージョンごとに訪問者の分類を表示できます。
 
-   ![](../../reporting/using/assets/s_ncs_user_os_report2.png)
+  ![](../../reporting/using/assets/s_ncs_user_os_report2.png)
 
 * **[!UICONTROL 開封数の分類]** レポート
 
-   オペレーティングシステムごとの電子メールの開封率を特定するには、このレポートを使用します。 [詳細情報](../../reporting/using/global-reports.md#breakdown-of-opens)。
+  オペレーティングシステムごとの電子メールの開封率を特定するには、このレポートを使用します。 [詳細情報](../../reporting/using/global-reports.md#breakdown-of-opens)。
 
-   ![](../../reporting/using/assets/dlv_useragent_report.png)
+  ![](../../reporting/using/assets/dlv_useragent_report.png)
 
 ### E メール開封トラッキングの使用方法の決定 {#find-email-open-tracking}
 
@@ -89,21 +89,21 @@ E メールの開封がセグメント化、ターゲティングおよびリタ
 
 * E メールの開封をクエリのターゲット条件として使用できます。
 
-   特定の配信のトラッキングログの URL タイプをに設定する必要があることをフィルター条件として指定できます。 **[!UICONTROL 開く]**.
+  特定の配信のトラッキングログの URL タイプをに設定する必要があることをフィルター条件として指定できます。 **[!UICONTROL 開く]**.
 
-   ![](assets/identify-email-open-tracking-2.png)
+  ![](assets/identify-email-open-tracking-2.png)
 
-* 定義済みフィルターを使用できます。 [詳細情報](../../workflow/using/creating-a-filter.md)。
+* 定義済みフィルターを使用できます。 [詳細情報](../../workflow/using/creating-a-filter.md)
 
-   ![](assets/identify-email-open-tracking-3.png)
+  ![](assets/identify-email-open-tracking-3.png)
 
-   この定義済みフィルターは、ワークフローのクエリアクティビティで使用できます。
+  この定義済みフィルターは、ワークフローのクエリアクティビティで使用できます。
 
-   ![](assets/identify-email-open-tracking-4.png)
+  ![](assets/identify-email-open-tracking-4.png)
 
-   >[!NOTE]
-   >
-   >ワークフローからは、定義済みフィルターのターゲティング条件を表示できません。
+  >[!NOTE]
+  >
+  >ワークフローからは、定義済みフィルターのターゲティング条件を表示できません。
 
 E メールの開封がターゲット条件として使用されているワークフローのリストを取得するには、 `xtk:workflow` スキーマ。 ワークフローの内容は、 **[!UICONTROL XML メモ（データ）]** フィールドを XML 形式で指定します。
 
@@ -138,7 +138,7 @@ E メールの開封がターゲット条件として使用されているワー
 >
 >このパッケージは、実稼動環境以外でテストおよび検証することを強くお勧めします。
 
-をダウンロードします。 [サンプルパッケージ](assets/PKG_Search_workflows_using_Opens_in_queries_V1.xml) をクリックし、インストールします。 [詳細情報](../../platform/using/working-with-data-packages.md#importing-packages)。
+をダウンロードします。 [サンプルパッケージ](assets/PKG_Search_workflows_using_Opens_in_queries_V1.xml) をクリックし、インストールします。 [詳細情報](../../platform/using/working-with-data-packages.md#importing-packages)
 
 パッケージをインストールしたら、インスタンスに標準のテクニカルワークフローが含まれているフォルダーからワークフローにアクセスできます。
 
@@ -326,7 +326,7 @@ E メールの開封がターゲット条件として使用されているワー
 
 * このデータは、限られた期間、Adobe Campaignで保持されます。 リテンション期間は、インスタンスの設定によって異なります。
 
-   インスタンスの設定を確認します。 [詳細情報](../../platform/using/privacy-management.md#data-retention)。
+  インスタンスの設定を確認します。 [詳細情報](../../platform/using/privacy-management.md#data-retention)。
 
 * Appleでの最近の変更に加えて、トラッキングデータを使用して、オーディエンスのエンゲージメントを促進するための大きな価値を追加できます。
 * Appleは、ネイティブのメールアプリとメールプライバシー保護機能にさらに変更を加える可能性があります。
@@ -433,9 +433,9 @@ E メールの開封がターゲット条件として使用されているワー
 
    1. An **[!UICONTROL 終了]** 各 **[!UICONTROL 重複排除]** アクティビティ。
 
-   このタイプのワークフローは、ターゲティング用に標準の受信者テーブルにのみ受信者を保存する場合に役立ちます。
+  このタイプのワークフローは、ターゲティング用に標準の受信者テーブルにのみ受信者を保存する場合に役立ちます。
 
-   ![](assets/export-tracking-data-wkf-1.png)
+  ![](assets/export-tracking-data-wkf-1.png)
 
 * 2 つ目のワークフローの例は、次のアクティビティで構成されます。
 
@@ -445,8 +445,9 @@ E メールの開封がターゲット条件として使用されているワー
 
       * あるトランジションでは、 **[!UICONTROL ディメンションを変更]** 「 」アクティビティは、トラッキングログが参照する受信者を検索するために使用されます。
       * 他のトランジションでは、 **[!UICONTROL 分割]** 「 」アクティビティは、電子メールアプリケーション、ブラウザー、オペレーティングシステム、デバイス別に選択を分割する場合に使用します。
+
    1. An **[!UICONTROL 終了]** アクティビティは、次の後の各トランジションに従います **[!UICONTROL 分割]** アクティビティ。
 
-   このタイプのワークフローは、標準の受信者テーブル以外のテーブルに受信者を格納する場合に役立ちます。
+  このタイプのワークフローは、標準の受信者テーブル以外のテーブルに受信者を格納する場合に役立ちます。
 
-   ![](assets/export-tracking-data-wkf-2.png)
+  ![](assets/export-tracking-data-wkf-2.png)

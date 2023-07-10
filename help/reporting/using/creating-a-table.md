@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2643'
 ht-degree: 100%
 
@@ -64,15 +64,15 @@ ht-degree: 100%
 
 * **ヘッダー行**：この行にはテーブルの列のタイトルを入力できます。
 
-   ![](assets/s_advuser_ergo_listgroup_003a.png)
+  ![](assets/s_advuser_ergo_listgroup_003a.png)
 
 * **詳細行**：この行には統計値が含まれます。
 
-   ![](assets/s_advuser_ergo_listgroup_004.png)
+  ![](assets/s_advuser_ergo_listgroup_004.png)
 
 * **フッター行**：この行には合計値を表示できます。
 
-   ![](assets/s_advuser_ergo_listgroup_003.png)
+  ![](assets/s_advuser_ergo_listgroup_003.png)
 
 必要に応じて、行や列を追加できます。
 
@@ -104,19 +104,19 @@ ht-degree: 100%
 
 * 分析する値をテーブルに直接挿入する場合は、使用可能なフィールドの中から該当するものを選択します。
 
-   使用可能なフィールドのリストは、レポート作成チャートでテーブル作成の前に定義するクエリの内容に一致します。
+  使用可能なフィールドのリストは、レポート作成チャートでテーブル作成の前に定義するクエリの内容に一致します。
 
-   ![](assets/s_advuser_ergo_listgroup_011.png)
+  ![](assets/s_advuser_ergo_listgroup_011.png)
 
 * セル（例えばヘッダーセル）のラベルを入力します。
 
-   それには、データベースにフィールドを挿入する場合と同様の手順に従いますが、式は選択しません。「**[!UICONTROL ラベル]**」フィールドにラベルを入力します。それがそのまま表示されます。
+  それには、データベースにフィールドを挿入する場合と同様の手順に従いますが、式は選択しません。「**[!UICONTROL ラベル]**」フィールドにラベルを入力します。それがそのまま表示されます。
 
 * 集計（平均や合計など）を計算し、それをセルに表示します。
 
-   それには、**[!UICONTROL 集計]**&#x200B;メニューエントリを使用し、目的とするキャンペーンを選択します。
+  それには、**[!UICONTROL 集計]**&#x200B;メニューエントリを使用し、目的とするキャンペーンを選択します。
 
-   ![](assets/s_advuser_ergo_listgroup_008.png)
+  ![](assets/s_advuser_ergo_listgroup_008.png)
 
 ### セルのフォーマットの定義 {#defining-cell-format}
 
@@ -248,7 +248,6 @@ ht-degree: 100%
    * 「キャンペーン」リンク (&#39;id&#39; フィールド) の外部キー：**@operationId**
    * エラー率：**@errorRatio**
 
-
 1. 「**[!UICONTROL 次へ]**」ボタンを 2 回クリックして、**[!UICONTROL データのフィルター]**&#x200B;手順に移動します。
 
    キャンペーンにリンクされた配信のみを収集するためのフィルター条件を追加します。
@@ -371,7 +370,7 @@ ht-degree: 100%
 
    * プライマリキーの合計を計算して、配信ログの数をカウントします。
 
-      ![](assets/reporting_quick_start_query-2_count.png)
+     ![](assets/reporting_quick_start_query-2_count.png)
 
    * 受信者の E メールドメインを収集し、このフィールドに関する情報をグループ化します。それには、出力列で「**[!UICONTROL グループ]**」オプションを選択します。
 
@@ -382,8 +381,7 @@ ht-degree: 100%
    * カウント（プライマリキー）：**@count**
    * E メールドメイン（受信者）：**@domain**
 
-      ![](assets/reporting_quick_start_query-2_alias.png)
-
+     ![](assets/reporting_quick_start_query-2_alias.png)
 
 1. 「**[!UICONTROL 次へ]**」ボタンを 2 回クリックします。これで、**[!UICONTROL データのフィルター]**&#x200B;の手順に移動します。
 
@@ -412,9 +410,9 @@ ht-degree: 100%
    * 右側に 2 列を追加します。
    * 詳細行の最初のセルに、行数をカウントする式 **[!UICONTROL rowNum()-1]** を追加します。その次に、セルのフォーマットを変更します。「**[!UICONTROL 追加]**」タブで、「**[!UICONTROL 「カラー」タブ]**」を選択し、「**[!UICONTROL OK]**」をクリックします。
 
-      ![](assets/s_advuser_report_listgroup_018.png)
+     ![](assets/s_advuser_report_listgroup_018.png)
 
-      この設定によって、テーブルをグラフのキャプションとして使用できるようになります。
+     この設定によって、テーブルをグラフのキャプションとして使用できるようになります。
 
    * 詳細行の 2 番目のセルに、式 **[!UICONTROL Email domain(Recipient)]** を追加します。
    * 詳細行の 3 番目のセルに、式 **[!UICONTROL count(primary key)]** を追加します。

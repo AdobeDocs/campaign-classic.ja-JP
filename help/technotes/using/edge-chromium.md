@@ -5,7 +5,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 description: Campaign - Edge Chromium
 exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -32,9 +32,9 @@ Microsoft Internet Explorer 11 のサポート終了に伴い、クライアン�
 
 * **オンプレミス／ハイブリッド**&#x200B;環境のお客様は、お使いのインスタンスで Microsoft Edge Chromium を有効にする必要があります。
 
-   Campaign Classic v7.3（以降）にアップグレードすると、新しい `webView2Mode` 属性が Campaign サーバー設定ファイル `serverConf.xml` で使用可能になります。この属性を有効にする必要があります。
+  Campaign Classic v7.3（以降）にアップグレードすると、新しい `webView2Mode` 属性が Campaign サーバー設定ファイル `serverConf.xml` で使用可能になります。この属性を有効にする必要があります。
 
-   これを実行するには、すべての環境（MKT、MID、RT）で次の手順を適用します。
+  これを実行するには、すべての環境（MKT、MID、RT）で次の手順を適用します。
 
    1. Campaign サーバー設定ファイル（`serverConf.xml`）を編集します
    1. `<web>` モジュールで、`webView2Mode = "1"` を設定します
@@ -60,6 +60,7 @@ Microsoft Internet Explorer 11 のサポート終了に伴い、クライアン�
 >[!NOTE]
 >
 >これらの変更点に関するご質問については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>
 
 ## 関連トピック
 

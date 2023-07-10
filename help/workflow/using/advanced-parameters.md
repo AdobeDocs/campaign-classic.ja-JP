@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Data Management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -20,11 +20,11 @@ ht-degree: 100%
 
 * 簡素化されたバージョン（「**[!UICONTROL 開始]**」アクティビティや「**[!UICONTROL 終了]**」アクティビティなどが対象）
 
-   ![](assets/wf-advanced-basic.png)
+  ![](assets/wf-advanced-basic.png)
 
 * より詳細なバージョン（「**[!UICONTROL クエリ]**」アクティビティなどが対象）
 
-   ![](assets/wf-advanced-full.png)
+  ![](assets/wf-advanced-full.png)
 
 「**[!UICONTROL 詳細]**」タブで入力するフィールドについては、次のセクションで詳しく説明しています。
 

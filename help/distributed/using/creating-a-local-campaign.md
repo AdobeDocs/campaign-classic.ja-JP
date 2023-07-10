@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Distributed Marketing
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 100%
 
@@ -60,24 +60,24 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 * **[!UICONTROL 概要]**：ローカルエンティティは、キャンペーンの設定に関する説明を入力します。オーダーが承認されたら、セントラルエンティティがキャンペーン全体を設定および実行します。
 
-   ![](assets/mkt_distr_6.png)
+  ![](assets/mkt_distr_6.png)
 
 * **[!UICONTROL フォーム]**：ローカルエンティティは Web フォームにアクセスでき、使用するテンプレートの設定に応じて、コンテンツ、ターゲット、最大サイズを編集できます。また、パーソナライゼーションフィールドを使用して、作成日や抽出日を編集することもできます。ローカルエンティティは、この Web フォームからターゲットを評価したり、コンテンツをプレビューしたりできます。
 
-   ![](assets/mkt_distr_8.png)
+  ![](assets/mkt_distr_8.png)
 
-   ローカルエンティティに表示されるフォームは、Web アプリケーションで指定されます。Web アプリケーションは、テンプレートの「**[!UICONTROL キャンペーンの詳細設定...]**」リンクにある「**[!UICONTROL Web インターフェイス]**」フィールドのドロップダウンリストで選択する必要があります。[ローカルキャンペーンの作成（フォーム）](examples.md#creating-a-local-campaign--by-form-)を参照してください。
+  ローカルエンティティに表示されるフォームは、Web アプリケーションで指定されます。Web アプリケーションは、テンプレートの「**[!UICONTROL キャンペーンの詳細設定...]**」リンクにある「**[!UICONTROL Web インターフェイス]**」フィールドのドロップダウンリストで選択する必要があります。[ローカルキャンペーンの作成（フォーム）](examples.md#creating-a-local-campaign--by-form-)を参照してください。
 
-   >[!NOTE]
-   >
-   >この例で使用されている Web アプリケーションはサンプルです。フォームを使用するには、Web アプリケーションを作成する必要があります。[API](../../configuration/using/about-web-services.md) を参照してください。
+  >[!NOTE]
+  >
+  >この例で使用されている Web アプリケーションはサンプルです。フォームを使用するには、Web アプリケーションを作成する必要があります。[API](../../configuration/using/about-web-services.md) を参照してください。
 
-   ![](assets/mkt_distr_7.png)
+  ![](assets/mkt_distr_7.png)
 
 * **[!UICONTROL 外部フォーム]**：ローカルエンティティは、エクストラネットの（Adobe Campaign 以外の）キャンペーンパラメーターにアクセスできます。これらのパラメーターは、**ローカルキャンペーン（フォーム）**&#x200B;のパラメーターと同一です。
 * **[!UICONTROL プリセット]**：ローカルエンティティは、デフォルトのフォームを使用し、ローカライズせずにキャンペーンをオーダーします。
 
-   ![](assets/mkt_distr_5.png)
+  ![](assets/mkt_distr_5.png)
 
 ### デフォルト値 {#default-values}
 

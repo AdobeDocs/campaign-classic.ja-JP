@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 source-git-commit: e011333411af79b985166a4e73592a1860749cf1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
 
@@ -25,6 +25,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >インボックスレンダリングは、[繰り返し配信](communication-channels.md#recurring-delivery)に対応していません。
+>
 
 Litmus は、多機能 E メール検証およびプレビューアプリケーションです。E メールコンテンツ作成者は、Gmail 受信トレイや Apple Mail クライアントなど、70 を超える E メールレンダラーでメッセージコンテンツをプレビューできます。
 
@@ -90,7 +91,6 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 >* 受信ボックスレンダリングレポートが生成されるたびに、メッセージングクライアントあたり 1 つのトークンが差し引かれます（Outlook 2000 レンダリングに 1 トークン、Outlook 2010 レンダリングに 1 トークン、Apple Mail 9 レンダリングに 1 トークン、というようになります）。
 >* 同じ配信について、受信ボックスレンダリングを再生成する場合、使用可能なトークンの数は、生成したレンダリングの数だけ再度減ります。
 >
-
 
 残りの使用可能なトークンの数は、[受信ボックスレンダリングレポート](#inbox-rendering-report)の&#x200B;**[!UICONTROL 一般概要]**&#x200B;に表示されます。
 

@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Push
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 100%
 
@@ -27,11 +27,11 @@ ht-degree: 100%
 
 * Apple のモバイルデバイスへの通知の送信を有効にする iOS チャネル：
 
-   ![](assets/nmac_intro_2.png)
+  ![](assets/nmac_intro_2.png)
 
 * Android のモバイルデバイスへのデータメッセージの送信を有効にする Android チャネル。
 
-   ![](assets/nmac_intro_1.png)
+  ![](assets/nmac_intro_1.png)
 
 これら 2 つのチャネルに対応して、キャンペーンワークフローには 2 つの配信アクティビティがあります。
 
@@ -51,7 +51,6 @@ ht-degree: 100%
 >
 >* モバイルアプリケーションに送信する通知が、Apple（Apple プッシュ通知サービス）および Google（Firebase Cloud Messaging）によって指定されている前提条件や要件を満たしていることを確認する必要があります。
 >* 警告：国によっては、モバイルアプリケーションから収集するデータタイプとその処理の目的についてユーザーに知らせることが法律によって定められている場合があります。法律を確認する必要があります。
-
 
 **[!UICONTROL NMAC オプトアウト管理]**（mobileAppOptOutMgt）ワークフローにより、モバイルデバイスでの通知購読解除が更新されます。このワークフローの詳細については、[テクニカルワークフローのリスト](../../workflow/using/about-technical-workflows.md)を参照してください。
 
@@ -77,7 +76,7 @@ Adobe Campaign は HTTP/2 APN と互換性があります。設定手順につ�
 
 ### 手順 2：配信 {#step-2--delivery}
 
-マーケティング担当者は、アプリケーションの利用者をターゲットにします。配信プロセスは、通知サービス（iOS 証明書および Android のプロジェクトキー）に対する接続設定、通知 ID（プッシュ ID）および通知の内容を送信します。通知サービスは、ターゲットとなる端末に通知を送信します。
+マーケターは、アプリケーションの利用者をターゲットにします。配信プロセスは、通知サービス（iOS 証明書および Android のプロジェクトキー）に対する接続設定、通知 ID（プッシュ ID）および通知の内容を送信します。通知サービスは、ターゲットとなる端末に通知を送信します。
 
 次の情報が Adobe Campaign で使用可能です。
 
@@ -92,15 +91,15 @@ Adobe Campaign サーバーは、iOS HTTP/2 コネクタ用の 443 ポートの 
 
 * テスト用：
 
-   ```
-   api.development.push.apple.com:443
-   ```
+  ```
+  api.development.push.apple.com:443
+  ```
 
 * 本番：
 
-   ```
-   api.push.apple.com:443
-   ```
+  ```
+  api.push.apple.com:443
+  ```
 
 iOS HTTP/2 コネクタを使用する場合、MTA と web サーバーはポート 443 で APN と接続できる必要があります。
 

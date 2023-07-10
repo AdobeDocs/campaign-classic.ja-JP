@@ -42,19 +42,19 @@ Adobe Campaign Classicを使用 **Federated Data Access** (FDA) 外部データ�
 
    * **[!UICONTROL プロジェクト]**:既存のプロジェクトを作成するか、使用します。
 
-      詳しくは、[このページ](https://cloud.google.com/resource-manager/docs/creating-managing-projects)を参照してください。
+     詳しくは、[このページ](https://cloud.google.com/resource-manager/docs/creating-managing-projects)を参照してください。
 
    * **[!UICONTROL サービスアカウント]**:サービスアカウントを作成します。
 
-      詳しくは、[このページ](https://cloud.google.com/iam/docs/creating-managing-service-accounts)を参照してください。
+     詳しくは、[このページ](https://cloud.google.com/iam/docs/creating-managing-service-accounts)を参照してください。
 
    * **[!UICONTROL キーファイルのパス]**:の **[!UICONTROL サービスアカウント]** にはが必要です **[!UICONTROL キーファイル]** の [!DNL Google BigQuery] ODBC を介した接続
 
-      詳しくは、[このページ](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)を参照してください。
+     詳しくは、[このページ](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)を参照してください。
 
    * **[!UICONTROL データセット]**: **[!UICONTROL データセット]** は、ODBC 接続の場合はオプションです。 各クエリは、テーブルの場所にあるデータセットを提供し、 **[!UICONTROL データセット]** は必須です [!DNL Google BigQuery] Adobe Campaign Classicの FDA コネクタ。
 
-      詳しくは、[このページ](https://cloud.google.com/bigquery/docs/datasets)を参照してください。
+     詳しくは、[このページ](https://cloud.google.com/bigquery/docs/datasets)を参照してください。
 
 1. Adobe Campaign Classicで、 [!DNL Google BigQuery] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#google-external).
 
@@ -94,35 +94,35 @@ Adobe Campaign Classicを使用 **Federated Data Access** (FDA) 外部データ�
 
    * Red Hat/CentOS の場合：
 
-      ```
-      yum update
-      yum upgrade
-      yum install -y grep sed tar wget perl curl
-      ```
+     ```
+     yum update
+     yum upgrade
+     yum install -y grep sed tar wget perl curl
+     ```
 
    * Debian の場合：
 
-      ```
-      apt-get update
-      apt-get upgrade
-      apt-get install -y grep sed tar wget perl curl
-      ```
+     ```
+     apt-get update
+     apt-get upgrade
+     apt-get install -y grep sed tar wget perl curl
+     ```
 
 1. インストール前にシステムを更新する：
 
    * Red Hat/CentOS の場合：
 
-      ```
-      # install unixODBC driver manager
-      yum install -y unixODBC
-      ```
+     ```
+     # install unixODBC driver manager
+     yum install -y unixODBC
+     ```
 
    * Debian の場合：
 
-      ```
-      # install unixODBC driver manager
-      apt-get install -y odbcinst1debian2 libodbc1 odbcinst unixodbc
-      ```
+     ```
+     # install unixODBC driver manager
+     apt-get install -y odbcinst1debian2 libodbc1 odbcinst unixodbc
+     ```
 
 1. スクリプトを実行する前に、—help 引数を指定して詳細情報を取得できます。
 
@@ -152,19 +152,19 @@ Adobe Campaign Classicを使用 **Federated Data Access** (FDA) 外部データ�
 
    * Red Hat/CentOS の場合：
 
-      ```
-      yum update
-      yum upgrade
-      yum install -y python3
-      ```
+     ```
+     yum update
+     yum upgrade
+     yum install -y python3
+     ```
 
    * Debian の場合：
 
-      ```
-      apt-get update
-      apt-get upgrade
-      apt-get install -y python3
-      ```
+     ```
+     apt-get update
+     apt-get upgrade
+     apt-get install -y python3
+     ```
 
 1. スクリプトが存在するディレクトリにアクセスし、次のスクリプトを実行します。
 
@@ -195,6 +195,7 @@ Adobe Campaign Classicを使用 **Federated Data Access** (FDA) 外部データ�
       * **[!UICONTROL キーファイルをサーバーにアップロード]**:選択 **[!UICONTROL ここをクリックしてアップロード]** Adobe Campaign Classicを使用してキーをアップロードする場合。
 
       * **[!UICONTROL 手動でキーのファイルパスを入力]**:既存のキーを使用する場合は、このフィールドに絶対パスをコピーして貼り付けます。
+
    * **[!UICONTROL データセット]**:の名前 **[!UICONTROL データセット]**. 詳しくは、 [Google Cloud ドキュメント](https://cloud.google.com/bigquery/docs/datasets-intro).
 
    ![](assets/google-big-query.png)

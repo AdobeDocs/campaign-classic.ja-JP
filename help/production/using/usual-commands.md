@@ -33,7 +33,6 @@ ht-degree: 5%
 >* 逆に、引数を追加できます **-verbose** をクリックして、詳細情報を表示します。
 >
 
-
 ## コマンドの監視 {#monitoring-commands-}
 
 >[!NOTE]
@@ -100,25 +99,25 @@ Adobe Campaignサービスを停止するには、次のいずれかのコマン
 
    * Linux の場合：
 
-      ```
-      /etc/init.d/nlserver6 stop
-      ```
+     ```
+     /etc/init.d/nlserver6 stop
+     ```
 
-      >[!NOTE]
-      >
-      >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl stop nlserver**
+     >[!NOTE]
+     >
+     >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl stop nlserver**
 
    * Windows の場合：
 
-      ```
-      net stop nlserver6
-      ```
+     ```
+     net stop nlserver6
+     ```
 
 * そうでない場合は、Adobe Campaignアカウントで次の操作を実行します。
 
-   ```
-   nlserver shutdown 
-   ```
+  ```
+  nlserver shutdown 
+  ```
 
 ## サービスの再起動 {#restart-services}
 
@@ -128,9 +127,9 @@ Adobe Campaignサービスを停止するには、次のいずれかのコマン
 
    * Linux の場合：/etc/init.d/nlserver6 start
 
-      >[!NOTE]
-      >
-      >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl start nlserver**
+     >[!NOTE]
+     >
+     >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl start nlserver**
 
    * Windows の場合：net start nlserver6
 
@@ -165,3 +164,4 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 >* データベースの場合は、Oracleを指定しないでください。 構文は次のようになります。
 >
 >  nlserver config -setdblogin:Oracle:test6@dbserver
+>

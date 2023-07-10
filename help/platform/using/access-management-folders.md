@@ -8,7 +8,7 @@ role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 100%
 
@@ -99,13 +99,13 @@ ht-degree: 100%
 
 * **グループまたはオペレーターを置き換える**：これをおこなうには、そのフォルダーへのアクセス権を持つグループ（またはオペレーター）を 1 つクリックし、次の図のように、ドロップダウンリストから新しいグループ（または新しいオペレーター）を選択します。
 
-   ![](assets/s_ncs_user_folder_properties_security02.png)
+  ![](assets/s_ncs_user_folder_properties_security02.png)
 
 * **グループまたはオペレーターのアクセスを許可する**：これをおこなうには、**[!UICONTROL 追加]**&#x200B;ボタンをクリックし、そのフォルダーへのアクセスを許可する対象のグループまたはオペレーターを選択します。
 * **グループまたはオペレーターのアクセスを禁止する**：これをおこなうには、**[!UICONTROL 削除]**&#x200B;をクリックし、そのフォルダーへのアクセス許可を取り消すグループまたはオペレーターを選択します。
 * **グループまたはオペレーターに付与する権利を選択する**：これをおこなうには、該当するグループまたはオペレーターをクリックし、必要に応じて、付与するアクセス権を選択したり、付与しないアクセス権を選択解除したりします。
 
-   ![](assets/s_ncs_user_folder_properties_security03.png)
+  ![](assets/s_ncs_user_folder_properties_security03.png)
 
 ### 権限の反映 {#propagate-permissions}
 

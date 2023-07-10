@@ -9,7 +9,7 @@ exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1811'
 ht-degree: 100%
 
@@ -200,9 +200,9 @@ Adobe Campaign と Adobe Analytics - Data コネクタとの間のデータ交�
 * **[!UICONTROL コンバージョン済みの連絡先の特定]**：リマーケティングキャンペーン後に購入をおこなった訪問者のディレクトリ。このワークフローで収集されたデータは、**[!UICONTROL リマーケティングの効率]**&#x200B;レポートでアクセスできます。この[ページ](#creating-a-re-marketing-campaign)を参照してください。
 * **[!UICONTROL 指標とキャンペーン属性の送信]**：Adobe Analytics Data Connector を使用して Adobe Campaign から Adobe Experience Cloud に E メールキャンペーン指標を送信できます。このワークフローは毎日午前 4 時にトリガーされ、データを Analysis に送信するには 24 時間かかります。
 
-   ワークフローは再起動しないでください。再起動すると、以前のデータがすべて再送され、Analytics の結果に歪みが生じる可能性があります。
+  ワークフローは再起動しないでください。再起動すると、以前のデータがすべて再送され、Analytics の結果に歪みが生じる可能性があります。
 
-   含まれる指標は次のとおりです。
+  含まれる指標は次のとおりです。
 
    * **[!UICONTROL 配信するメッセージ]**（@toDeliver）
    * **[!UICONTROL 処理済み]**（@processed）
@@ -215,11 +215,11 @@ Adobe Campaign と Adobe Analytics - Data コネクタとの間のデータ交�
    * **[!UICONTROL オプトアウト]**（@optOut）
    * **[!UICONTROL エラー]**（@error）
 
-   >[!NOTE]
-   >
-   >送信されたデータは最後のスナップショットに基づいたデルタであり、指標データの値がマイナスになる可能性があります。
+  >[!NOTE]
+  >
+  >送信されたデータは最後のスナップショットに基づいたデルタであり、指標データの値がマイナスになる可能性があります。
 
-   送信される属性は次のとおりです。
+  送信される属性は次のとおりです。
 
    * **[!UICONTROL 内部名]**（@internalName）
    * **[!UICONTROL ラベル]**（@label）
@@ -229,7 +229,6 @@ Adobe Campaign と Adobe Analytics - Data コネクタとの間のデータ交�
    * **[!UICONTROL タグ 2]** (webAnalytics/@tag2)
    * **[!UICONTROL タグ 3]** (webAnalytics/@tag3)
    * **[!UICONTROL コンタクト日]** (scheduling/@contactDate)
-
 
 ## Adobe Campaign での配信のトラッキング {#tracking-deliveries-in-adobe-campaign}
 

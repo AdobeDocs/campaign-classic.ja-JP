@@ -28,28 +28,28 @@ ht-degree: 62%
 
 * どうしても必要な場合は、文字列連結ではなく、パラメーター化関数（prepare 文）を使用します。
 
-   悪い方法：
+  悪い方法：
 
-   ```
-   sqlGetInt( "select iRecipientId from NmsRecipient where sEmail ='" + request.getParameter('email') +  "'  limit 1" )
-   ```
+  ```
+  sqlGetInt( "select iRecipientId from NmsRecipient where sEmail ='" + request.getParameter('email') +  "'  limit 1" )
+  ```
 
-   ベストプラクティス：
+  ベストプラクティス：
 
-   ```
-   sqlGetInt( "select iRecipientId from NmsRecipient where sEmail = $(sz) limit 1", request.getParameter('email'));
-   ```
+  ```
+  sqlGetInt( "select iRecipientId from NmsRecipient where sEmail = $(sz) limit 1", request.getParameter('email'));
+  ```
 
-   >[!IMPORTANT]
-   >
-   >sqlSelect はこの機能をサポートしていないので、DBEngine クラスのクエリ関数を使用する必要があります。
+  >[!IMPORTANT]
+  >
+  >sqlSelect はこの機能をサポートしていないので、DBEngine クラスのクエリ関数を使用する必要があります。
 
-   ```
-   var cnx = application.getConnection()
-   var stmt = cnx.query("SELECT sFirstName, sLastName FROM NmsRecipient where sEmail = $(sz)", request.getParameter('email'))
-   for each(var row in stmt) logInfo(row[0] + " : " + row[1])
-   cnx.dispose()
-   ```
+  ```
+  var cnx = application.getConnection()
+  var stmt = cnx.query("SELECT sFirstName, sLastName FROM NmsRecipient where sEmail = $(sz)", request.getParameter('email'))
+  for each(var row in stmt) logInfo(row[0] + " : " + row[1])
+  cnx.dispose()
+  ```
 
 SQL インジェクションを回避するには、Adobe Campaignで使用するに SQL 関数を追加する必要がありま許可リストす。 オペレーターがに追加許可リストすると、式エディターに表示されるようになります。 [このページ](../../configuration/using/adding-additional-sql-functions.md)を参照してください。
 
@@ -79,23 +79,23 @@ SQL インジェクションを回避するには、Adobe Campaignで使用す�
 
 * データの読み取り/書き込みを防ぐために、システムフィルタ (sysFilter) を追加できます ( [このページ](../../configuration/using/filtering-schemas.md)) をクリックします。
 
-   ```
-   <sysFilter name="writeAccess">    
-       <condition enabledIf="hasNamedRight('myNewRole')=false" expr="FALSE"/>  
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="writeAccess">    
+      <condition enabledIf="hasNamedRight('myNewRole')=false" expr="FALSE"/>  
+  </sysFilter>
+  ```
 
 * スキーマで定義された一部の操作（SOAP メソッド）を保護することもできます。対応するネームド権限を値として、アクセス属性を設定します。
 
-   ```
-   <method name="grantVIPAccess" access="myNewRole">
-       <parameters>
-   ...
-       </parameters>
-   </method>
-   ```
+  ```
+  <method name="grantVIPAccess" access="myNewRole">
+      <parameters>
+  ...
+      </parameters>
+  </method>
+  ```
 
-   詳しくは、[このページ](../../configuration/using/implementing-soap-methods.md)を参照してください。
+  詳しくは、[このページ](../../configuration/using/implementing-soap-methods.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -146,7 +146,8 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
    * 4 行目では、Captcha のグレーボックスのサイズ（width/height）と、生成される単語の長さ（minWordSize/maxWordSize）を変更できます。
    * Google reCAPTCHA を使用する前に、Googleに登録し、新しい reCAPTCHA サイトを作成する必要があります。
 
-      `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
+     `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
+
    検証ボタンを無効にすることが必要な場合もありますが、標準的なボタンやリンクは用意されていないので、HTML 自体で実現することをお勧めします。その方法については、 [このページ](https://developers.google.com/recaptcha/).
 
 ### Web アプリケーションの更新

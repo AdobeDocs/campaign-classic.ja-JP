@@ -31,7 +31,6 @@ ht-degree: 72%
 >* Microsoft が提供する Red Hat Enterprise ODBC ドライバーは、CentOS と組み合わせて SQL Server に接続することもできます。
 >* バージョン 13.0 は Red Hat 6 および 7 で動作します。
 
-
 CentOS でAzure synapseを設定するには、次の手順に従います。
 
 1. まず、ODBC ドライバーをインストールします。こちらの[ページ](https://www.microsoft.com/en-us/download/details.aspx?id=50420)にあります。
@@ -136,9 +135,9 @@ Windows で Azure Synaps を設定するには、以下を実行します。
 * ODBC ドライバーをインストールするには、ルート権限が必要です。
 * msodbcsql パッケージをインストールするには、curl が必要です。インストールしていない場合は、次のコマンドを実行します。
 
-   ```
-   sudo apt-get install curl
-   ```
+  ```
+  sudo apt-get install curl
+  ```
 
 Debian で Azure Synapse を設定するには、以下を実行します。
 
@@ -222,7 +221,7 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
       * **[!UICONTROL データベース]**：データベースの名前
 
-      ![](assets/azure_3.png)
+     ![](assets/azure_3.png)
 
    * システムが割り当てた管理 ID 認証の場合は、次を指定する必要があります。
 
@@ -232,9 +231,7 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
       * **[!UICONTROL オプション]**:次の構文を追加します。 `Authentication=ActiveDirectoryMsi`
 
-      ![](assets/azure_4.png)
-
-
+     ![](assets/azure_4.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

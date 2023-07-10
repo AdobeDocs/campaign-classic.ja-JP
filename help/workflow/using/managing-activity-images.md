@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: cafdbc10-9c10-4d42-a485-c9880df8d371
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%
 
@@ -20,27 +20,27 @@ ht-degree: 100%
 
 * 背景画像を変更するには、目的のターゲティングワークフローを選択してから「**[!UICONTROL プロパティ]**」タブをクリックします。
 
-   ![](assets/s_user_segmentation_properties_tab.png)
+  ![](assets/s_user_segmentation_properties_tab.png)
 
-   使用する画像を選択するには、「**[!UICONTROL 背景画像]**」フィールドの右にある「**[!UICONTROL リンクを選択]**」アイコンをクリックします。
+  使用する画像を選択するには、「**[!UICONTROL 背景画像]**」フィールドの右にある「**[!UICONTROL リンクを選択]**」アイコンをクリックします。
 
-   >[!NOTE]
-   >
-   >背景画像のピクセルの幅は 4 の倍数にする必要があります。
+  >[!NOTE]
+  >
+  >背景画像のピクセルの幅は 4 の倍数にする必要があります。
 
-   ![](assets/s_user_segmentation_background_select.png)
+  ![](assets/s_user_segmentation_background_select.png)
 
-   「**[!UICONTROL リンクを編集]**」アイコンでは、選択した画像を表示することができます。
+  「**[!UICONTROL リンクを編集]**」アイコンでは、選択した画像を表示することができます。
 
 * アクティビティに関連付けられた画像を変更するには、オブジェクトをダブルクリックしてから、「**[!UICONTROL 詳細設定]**」タブをクリックします。
 
-   使用する画像を選択するには、「**[!UICONTROL 画像]**」フィールドの右にある「**[!UICONTROL リンクを選択]**」アイコンをクリックします。
+  使用する画像を選択するには、「**[!UICONTROL 画像]**」フィールドの右にある「**[!UICONTROL リンクを選択]**」アイコンをクリックします。
 
-   ![](assets/s_user_segmentation_activity_image.png)
+  ![](assets/s_user_segmentation_activity_image.png)
 
-   「**[!UICONTROL リンクを編集]**」アイコンでは、選択した画像を表示することができます。
+  「**[!UICONTROL リンクを編集]**」アイコンでは、選択した画像を表示することができます。
 
-   ![](assets/s_user_segmentation_activity_image_select.png)
+  ![](assets/s_user_segmentation_activity_image_select.png)
 
 >[!NOTE]
 >

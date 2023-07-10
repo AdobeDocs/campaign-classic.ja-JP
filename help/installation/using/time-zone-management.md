@@ -100,4 +100,4 @@ Adobe Campaignデータベースにアクセスする外部ツールとの互換
 * ヨーロッパ / ロンドン,
 * アメリカ/ニューヨーク等
 
-   これらの値は tz(Olson) データベースから取得されます。 詳しくは、 [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
+  これらの値は tz(Olson) データベースから取得されます。 詳しくは、 [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).

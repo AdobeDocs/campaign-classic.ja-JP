@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 
 
-配信テンプレートは、一般的なアクティビティについての既製のシナリオを提供し、作業の効率化に役立ちます。配信テンプレートを使用すれば、最小限のカスタマイズをおこなうだけで、より迅速に新しいキャンペーンをデプロイできます。
+配信テンプレートは、一般的なアクティビティについての既製のシナリオを提供し、作業の効率化に役立ちます。配信テンプレートを使用すれば、最小限のカスタマイズを行うだけで、マーケターはより迅速に新しいキャンペーンをデプロイできます。
 
 配信テンプレートについて詳しくは、[この節](creating-a-delivery-template.md)を参照してください。
 

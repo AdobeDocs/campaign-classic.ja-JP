@@ -25,9 +25,9 @@ Adobe Campaignプラットフォームは、Apache が使用する仮想ホス�
 
 * この **内部** パスワード：これは、一般的な管理者パスワードです。 特定のアプリケーションサーバーのすべてのインスタンスに共通です。
 
-   >[!IMPORTANT]
-   >
-   >を使用してログオンするには、以下を実行します。 **内部** 識別子の場合は、事前にパスワードを定義しておく必要があります。 詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
+  >[!IMPORTANT]
+  >
+  >を使用してログオンするには、以下を実行します。 **内部** 識別子の場合は、事前にパスワードを定義しておく必要があります。 詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
 * 複数のテクニカルサーバー設定：これらの設定は、すべて、インスタンスの特定の設定でオーバーロードできます。
 
@@ -42,6 +42,6 @@ Adobe Campaignプラットフォームは、Apache が使用する仮想ホス�
 * モジュールは、 **serverConf.xml** ファイルを参照して、すべてのインスタンスで共有されるパラメーターを取得します。
 * その後、 **config-**`<instance>`**.xml** ファイル。 このファイルで見つかった値は、 **serverConf.xml**.
 
-   これら 2 つのファイルは同じ形式です。 の任意の値 **serverConf.xml** は、 **config-`<instance>`.xml** ファイル。
+  これら 2 つのファイルは同じ形式です。 の任意の値 **serverConf.xml** は、 **config-`<instance>`.xml** ファイル。
 
 この動作モードは、設定を柔軟に行うことができます。

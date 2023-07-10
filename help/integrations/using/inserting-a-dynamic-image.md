@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 100%
 
@@ -49,11 +49,11 @@ Adobe Campaign では、2 通りの方法で Target から E メールに動的�
 
 * デジタルコンテンツエディターを使用している場合は、既存の画像を選択して、ツールバーで&#x200B;**[!UICONTROL 挿入]**／**[!UICONTROL Adobe Target からの動的画像]**&#x200B;を選択します。
 
-   ![](assets/target_5.png)
+  ![](assets/target_5.png)
 
 * 標準のエディターを使用している場合は、画像を挿入する場所にカーソルを移動し、パーソナライゼーションドロップダウンメニューから&#x200B;**[!UICONTROL 含める]**／**[!UICONTROL Adobe Target からの動的画像]**&#x200B;を選択します。
 
-   ![](assets/target_12.png)
+  ![](assets/target_12.png)
 
 ### 画像パラメーターの定義 {#defining-image-parameters}
 

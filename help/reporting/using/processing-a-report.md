@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: d133efec-33e1-4711-a90f-e40385059386
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 * 「**[!UICONTROL A から Z の順に並べ替え]**」：変数値を昇順に並べ替えます。
 * 「**[!UICONTROL Z から A の順に並べ替え]**」：変数値を降順に並べ替えます。
 
-   ![](assets/s_ncs_advuser_report_wizard_016.png)
+  ![](assets/s_ncs_advuser_report_wizard_016.png)
 
 初期の表示に戻すには、表示を更新します。
 
@@ -111,11 +111,11 @@ ht-degree: 100%
 * 「**[!UICONTROL 値を累積]**」オプションでは、系列間で値を合計できます。
 * グラフの凡例を表示するかどうかを決めることができます。凡例を非表示にするには、該当するオプションのチェックをオフにします。デフォルトでは、凡例はグラフの外側の右上隅に表示されます。
 
-   表示スペースの節約のために、凡例をグラフの上部に表示することもできます。それには、「**[!UICONTROL グラフに含める]**」オプションを選択します。
+  表示スペースの節約のために、凡例をグラフの上部に表示することもできます。それには、「**[!UICONTROL グラフに含める]**」オプションを選択します。
 
-   **[!UICONTROL キャプションの位置]**&#x200B;ドロップダウンリストで垂直および水平方向の整列を選択します。
+  **[!UICONTROL キャプションの位置]**&#x200B;ドロップダウンリストで垂直および水平方向の整列を選択します。
 
-   ![](assets/s_ncs_advuser_report_wizard_3d.png)
+  ![](assets/s_ncs_advuser_report_wizard_3d.png)
 
 ## 分析レポートのエクスポート {#exporting-an-analysis-report}
 

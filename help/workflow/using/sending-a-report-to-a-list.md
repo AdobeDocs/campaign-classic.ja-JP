@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -52,25 +52,25 @@ ht-degree: 100%
 
    * 「**[!UICONTROL 添付ファイル]**」リンク、「**[!UICONTROL 追加]**」の順にクリックし、「**[!UICONTROL 計算による添付ファイル]**」を選択します。
 
-      ![](assets/use_case_report_4.png)
+     ![](assets/use_case_report_4.png)
 
    * 「**[!UICONTROL タイプ]**」フィールドに移動して、4 つ目のオプション、「**[!UICONTROL 各メッセージの配信中にファイル名を計算する（受信者のプロファイルの利用可）]**」を選択します。
 
-      ![](assets/use_case_report_5.png)
+     ![](assets/use_case_report_5.png)
 
-      「**[!UICONTROL ラベル]**」フィールドに入力された値は、最終の配信では表示されません。
+     「**[!UICONTROL ラベル]**」フィールドに入力された値は、最終の配信では表示されません。
 
    * 編集ゾーンに移動し、アクセスパスとファイルの名前を入力します。
 
-      ![](assets/use_case_report_6.png)
+     ![](assets/use_case_report_6.png)
 
-      >[!CAUTION]
-      >
-      >ファイルはサーバー上に置かれている必要があります。ファイルのパスと名前は、ワークフローの **[!UICONTROL JavaScript コード]**&#x200B;タイプアクティビティに入力したものと同一でなければなりません（[手順 3：ワークフローの作成](#step-3--creating-the-workflow)を参照）。
+     >[!CAUTION]
+     >
+     >ファイルはサーバー上に置かれている必要があります。ファイルのパスと名前は、ワークフローの **[!UICONTROL JavaScript コード]**&#x200B;タイプアクティビティに入力したものと同一でなければなりません（[手順 3：ワークフローの作成](#step-3--creating-the-workflow)を参照）。
 
    * 「**[!UICONTROL 詳細設定]**」タブを選択し、「**[!UICONTROL 送信するメールで表示されるファイル名を記述]**」チェックボックスをオンにします。編集ゾーンに移動し、最終の配信で使用する添付ファイルの名前を入力します。
 
-      ![](assets/use_case_report_6bis.png)
+     ![](assets/use_case_report_6bis.png)
 
 ## 手順 3：ワークフローの作成 {#step-3--creating-the-workflow}
 
@@ -114,9 +114,9 @@ ht-degree: 100%
    * **var reportName**：ダブルコーテーションで囲い、レポートの内部名を入力します。このケースでは、「**トラッキング指標**」レポートの内部名は「deliveryFeedback」になります。
    * **var path**：ファイルの保存先のパス（「tmp/files/」）、ファイルに付与する名前（「deliveryFeedback」）、およびファイルの拡張子（「.pdf」）を入力します。このケースでは、ファイル名に内部名を使用します。それぞれの値は、ダブルコーテーションで囲い、「+」の文字で区切る必要があります。
 
-      >[!CAUTION]
-      >
-      >ファイルはサーバー上に保存されている必要があります。計算済み添付ファイルの編集ウィンドウの「**[!UICONTROL 一般]**」タブで使用するのと同じパスと名前を入力する必要があります（[手順 2：配信テンプレートの作成](#step-2--creating-the-delivery-template)を参照）。
+     >[!CAUTION]
+     >
+     >ファイルはサーバー上に保存されている必要があります。計算済み添付ファイルの編集ウィンドウの「**[!UICONTROL 一般]**」タブで使用するのと同じパスと名前を入力する必要があります（[手順 2：配信テンプレートの作成](#step-2--creating-the-delivery-template)を参照）。
 
    * **var exportFormat**：ファイルのエクスポートフォーマット（「PDF」）を入力します。
    * **var _ctx**（コンテキスト）：このケースでは、グローバルコンテキストに「**[!UICONTROL トラッキング指標]**」レポートを使用します。
@@ -127,4 +127,5 @@ ht-degree: 100%
    * 「**[!UICONTROL 受信者]**」フィールドと「**[!UICONTROL コンテンツ]**」フィールドで「**[!UICONTROL 配信で指定]**」を選択します。
    * **[!UICONTROL 実行するアクション]**：「**[!UICONTROL 準備と開始]**」を選択します。
    * 「**[!UICONTROL アウトバウンドトランジションを生成]**」チェックボックスと「**[!UICONTROL エラーを処理]**」チェックボックスをオフにします。
+
    ![](assets/use_case_report_11.png)

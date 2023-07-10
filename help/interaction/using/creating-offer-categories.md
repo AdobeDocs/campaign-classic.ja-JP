@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: ed97a1b5-c870-4b67-98b6-16adc316fd46
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 
@@ -44,19 +44,19 @@ ht-degree: 100%
 
    * 「**[!UICONTROL 実施要件]**」タブで、実施日を割り当てます。
 
-      ![](assets/offer_cat_create_004.png)
+     ![](assets/offer_cat_create_004.png)
 
    * 「**[!UICONTROL テーマ]**」フィールドで、このカテゴリからオファーを選択するのに使用できるキーワードを入力します。
 
-      ![](assets/offer_cat_create_005.png)
+     ![](assets/offer_cat_create_005.png)
 
-      >[!NOTE]
-      >
-      >オファーエンジンの呼び出し時には、テーマやカテゴリがパラメーターに合致した部分のみがカタログから選択されます。
+     >[!NOTE]
+     >
+     >オファーエンジンの呼び出し時には、テーマやカテゴリがパラメーターに合致した部分のみがカタログから選択されます。
 
    * 「**[!UICONTROL 乗数の重み付け]**」フィールドを使用して、一定期間、カテゴリのオファーの重み付けを一時的に「増加」させます。
 
-      ![](assets/offer_cat_create_006.png)
+     ![](assets/offer_cat_create_006.png)
 
 カテゴリに含まれるオファーのダッシュボードでは、実施要件ルールの概要を確認できます。表示するには、オファーの「**[!UICONTROL スケジュールおよび実施要件ルール]**」リンクをクリックします。
 

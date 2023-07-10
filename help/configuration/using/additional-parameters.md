@@ -68,16 +68,16 @@ webTrackingParamSize="64"/>
 * リダイレクトモジュールをホストする Web サーバー（Apache、IIS など）を停止し、
 * Adobe Campaignサーバーを停止します。 **net stop nlserver6** Windows の場合、 **/etc/init.d/nlserver6 停止** Linux では、
 
-   >[!NOTE]
-   >
-   >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl stop nlserver**
+  >[!NOTE]
+  >
+  >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl stop nlserver**
 
 * Linux では、 **ipcrm** コマンド
 * Adobe Campaignサーバーを再起動します。 **net start nlserver6** Windows の場合、 **/etc/init.d/nlserver6 start** Linux では、
 
-   >[!NOTE]
-   >
-   >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl start nlserver**
+  >[!NOTE]
+  >
+  >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl start nlserver**
 
 * Web サーバーを再起動します。
 

@@ -55,47 +55,46 @@ ht-degree: 4%
 
 * 内 **config** コマンド：
 
-   ```
-   nlserver.exe config <option> -instance:<instance-name>
-   ```
+  ```
+  nlserver.exe config <option> -instance:<instance-name>
+  ```
 
 * または、ポストアップグレード時に次の操作を行います。
 
-   ```
-   nlserver.exe config -postupgrade <option> -instance:<instance-name>
-   ```
+  ```
+  nlserver.exe config -postupgrade <option> -instance:<instance-name>
+  ```
 
 >[!NOTE]
 >
 >* 次を使用する必要があります。 **-instance:`<instanceame>`** オプション。 この **-allinstances** オプション。
 >* Adobe Campaign update コマンド (**postupgrade**) を使用すると、リソースを同期し、スキーマとデータベースを更新できます。 この操作は、アプリケーションサーバー上で 1 回だけ実行できます。 リソースを同期した後、 **postupgrade** コマンドを使用すると、同期でエラーが発生したか警告が発生したかを検出できます。
 
-
 ### 非標準のオブジェクトまたは見つからないオブジェクト
 
 * この **-showCustomEntities** 「 」オプションは、非標準オブジェクトのリストを表示します。
 
-   ```
-   nlserver.exe config -showCustomEntities -instance:<instance-name>
-   ```
+  ```
+  nlserver.exe config -showCustomEntities -instance:<instance-name>
+  ```
 
-   送信メッセージの例：
+  送信メッセージの例：
 
-   ```
-   xtk_migration:opsecurity2 xtk:entity
-   ```
+  ```
+  xtk_migration:opsecurity2 xtk:entity
+  ```
 
 * この **-showDeletedEntities** 「 」オプションは、データベースまたはファイルシステムに存在しないすべての標準オブジェクトのリストを表示します。 見つからない各オブジェクトに対して、パスが指定されます。
 
-   ```
-   nlserver.exe config -showDeletedEntities -instance:<instance-name>
-   ```
+  ```
+  nlserver.exe config -showDeletedEntities -instance:<instance-name>
+  ```
 
-   送信メッセージの例：
+  送信メッセージの例：
 
-   ```
-   Out of the box object 'nms:deliveryCustomizationMdl' belonging to the 'xtk:srcSchema' schema has not been found in the file system.
-   ```
+  ```
+  Out of the box object 'nms:deliveryCustomizationMdl' belonging to the 'xtk:srcSchema' schema has not been found in the file system.
+  ```
 
 ### 検証プロセス {#verification-process}
 

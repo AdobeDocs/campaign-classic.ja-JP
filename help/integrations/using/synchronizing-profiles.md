@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Campaign v7 からレプリケートされたプロファイルとサービス�
 >
 >配信の作成手順は、[ワークフローの作成](#creating-a-workflow)で開始したワークフローが続きます。
 
-Campaign v7 Web アプリケーションを使用して、受信者によるサービスの購読解除の選択が確実に Campaign v7 データベースに送信されるようにすることができます。受信者が購読解除リンクをクリックすると、サービスの受信を停止するオプションが Campaign v7 から Campaign Standard にレプリケートされます。詳しくは、[購読解除リンクの変更](#changing-the-unsubscription-link)を参照してください。
+デジタルマーケターは Campaign v7 web アプリケーションを使用して、受信者によるサービスの購読解除の選択が確実に Campaign v7 データベースに送信されるようにできます。受信者が購読解除リンクをクリックすると、サービスの受信を停止するオプションが Campaign v7 から Campaign Standard にレプリケートされます。詳しくは、[購読解除リンクの変更](#changing-the-unsubscription-link)を参照してください。
 
 以下の手順に従い、Campaign v7 で作成した購読解除サービスを使用して既存のワークフローに E メール配信を追加します。Campaign Standard ワークフローの詳細および完全な手順については、この[ドキュメント](../../workflow/using/about-workflows.md)を参照してください。
 

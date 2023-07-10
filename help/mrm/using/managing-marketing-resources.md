@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Adobe Campaign では、管理するマーケティングリソースそれぞ�
 * リソースを割り当てられたオペレーターは、そのリソースのトラッキングを担当します。
 * 承認オペレーターはマーケティングリソースの承認を担当します。リソースの検証プロセスが開始すると、これらのオペレーターに通知が送信されます。
 
-   レビュー担当者が選択されていない場合は、リソースを承認&#x200B;**[!UICONTROL できません]**。
+  レビュー担当者が選択されていない場合は、リソースを承認&#x200B;**[!UICONTROL できません]**。
 
 * 必要に応じて、校正者を指定することもできます。
 

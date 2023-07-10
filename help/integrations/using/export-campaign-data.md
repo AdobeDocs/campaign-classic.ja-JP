@@ -7,7 +7,7 @@ audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 
@@ -33,11 +33,11 @@ Campaign Classic から S3 または Azure Blob ストレージの場所にデ�
 
 * ターゲットデータを CSV ファイルに抽出する&#x200B;**[!UICONTROL データ抽出（ファイル）]**&#x200B;アクティビティ。 このアクティビティの設定方法について詳しくは、[こちらの節](../../workflow/using/extraction--file-.md)を参照してください。
 
-   ![](assets/rtcdp-extract-file.png)
+  ![](assets/rtcdp-extract-file.png)
 
 * CSV ファイルをストレージの場所に転送する&#x200B;**[!UICONTROL ファイル転送]**&#x200B;アクティビティ。 分割アクティビティの設定方法について詳しくは、[こちらの節](../../workflow/using/file-transfer.md)を参照してください。
 
-   ![](assets/rtcdp-file-transfer.png)
+  ![](assets/rtcdp-file-transfer.png)
 
 例えば、以下のワークフローでは、ログを定期的に CSV ファイルに抽出し、そのファイルをストレージの場所に転送します。
 

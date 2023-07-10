@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 100%
 
@@ -25,15 +25,15 @@ ht-degree: 100%
 
 * テーブルとヒストグラム
 
-   ![](assets/reporting_descriptive_sample_1.png)
+  ![](assets/reporting_descriptive_sample_1.png)
 
 * 累積値（テーブルなし）
 
-   ![](assets/reporting_descriptive_sample_3.png)
+  ![](assets/reporting_descriptive_sample_3.png)
 
 * 事業部門別の分類
 
-   ![](assets/reporting_descriptive_sample_2.png)
+  ![](assets/reporting_descriptive_sample_2.png)
 
 定量分析では、次に示すように、選択した項目の数値データに関する全体的な統計を提供します。
 

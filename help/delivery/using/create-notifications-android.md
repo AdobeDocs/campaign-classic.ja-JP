@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Push
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 100%
 
@@ -25,10 +25,10 @@ Adobe Campaign を使用して、Android デバイスにプッシュ通知を送
 Firebase Cloud Messaging では、次の 2 種類のメッセージの中から選択できます。
 
 * **[!UICONTROL データメッセージ]**は、クライアントアプリで処理されます。
-   <br>メッセージは、デバイスへの Android 通知を生成して表示するモバイルアプリケーションに直接送信されます。データメッセージには、カスタムアプリケーション変数のみが含まれます。
+  <br>メッセージは、デバイスへの Android 通知を生成して表示するモバイルアプリケーションに直接送信されます。データメッセージには、カスタムアプリケーション変数のみが含まれます。
 
 * **[!UICONTROL 通知メッセージ]**は、FCM SDK によって自動的に処理されます。
-   <br> FCM は、クライアントアプリに代わって、ユーザーのデバイスにメッセージを自動的に表示します。通知メッセージには、事前に定義された一連のパラメーターとオプションが含まれていますが、カスタムアプリケーション変数を使用してさらにパーソナライズすることもできます。
+  <br> FCM は、クライアントアプリに代わって、ユーザーのデバイスにメッセージを自動的に表示します。通知メッセージには、事前に定義された一連のパラメーターとオプションが含まれていますが、カスタムアプリケーション変数を使用してさらにパーソナライズすることもできます。
 
 Firebase Cloud Messaging のメッセージタイプについて詳しくは、[FCM ドキュメント](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages)を参照してください。
 

@@ -95,35 +95,35 @@ Confirmation: XXXX
 
 * **マルチインスタンス**:すべてのインスタンスに対して 1 つの単一プロセスが開始されます。 これは **web**, **syslogd** および **trackinglogd** プロセス。
 
-   有効化は、 **config-default.xml** ファイル。
+  有効化は、 **config-default.xml** ファイル。
 
-   クライアントコンソールにアクセスし、リダイレクト（トラッキング）をおこなうAdobe Campaignサーバーを宣言する場合：
+  クライアントコンソールにアクセスし、リダイレクト（トラッキング）をおこなうAdobe Campaignサーバーを宣言する場合：
 
-   ```
-   vi nl6/conf/config-default.xml
-   <web args="-tomcat" autoStart="true"/>  
-   <!-- to start if the machine is also a redirection server -->  
-   <trackinglogd autoStart="true"/>
-   ```
+  ```
+  vi nl6/conf/config-default.xml
+  <web args="-tomcat" autoStart="true"/>  
+  <!-- to start if the machine is also a redirection server -->  
+  <trackinglogd autoStart="true"/>
+  ```
 
-   この例では、ファイルは **vi** 」コマンドを使用します。 任意の **.txt** または **.xml** 編集者。
+  この例では、ファイルは **vi** 」コマンドを使用します。 任意の **.txt** または **.xml** 編集者。
 
 * **モノインスタンス**:各インスタンス（モジュール）に対して 1 つのプロセスが開始されます。 **mta**, **wfserver**, **inMail**, **sms** および **stat**) をクリックします。
 
-   イネーブルメントは、インスタンスの設定ファイルを使用して設定できます。
+  イネーブルメントは、インスタンスの設定ファイルを使用して設定できます。
 
-   ```
-   config-<instance>.xml
-   ```
+  ```
+  config-<instance>.xml
+  ```
 
-   配信用のサーバーの宣言、ワークフローインスタンスの実行およびバウンスメールの復元：
+  配信用のサーバーの宣言、ワークフローインスタンスの実行およびバウンスメールの復元：
 
-   ```
-   <mta autoStart="true" statServerAddress="localhost"/>
-   <wfserver autoStart="true"/>  
-   <inMail autoStart="true"/>
-   <stat autoStart="true"/>
-   ```
+  ```
+  <mta autoStart="true" statServerAddress="localhost"/>
+  <wfserver autoStart="true"/>  
+  <inMail autoStart="true"/>
+  <stat autoStart="true"/>
+  ```
 
 **Campaign データストレージ**
 
@@ -131,13 +131,13 @@ Confirmation: XXXX
 
 * Windows の場合、 **XTK_VAR_DIR** システム変数
 
-   ```
-   D:\log\AdobeCampaign
-   ```
+  ```
+  D:\log\AdobeCampaign
+  ```
 
 * Linux の場合、 **customer.sh** ファイルを開き、次のように指定します。 **export XTK_VAR_DIR=/app/log/AdobeCampaign**.
 
-   詳しくは、 [パラメーターをパーソナライズ](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
+  詳しくは、 [パラメーターをパーソナライズ](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
 
 
 ## 動的ページのセキュリティとリレー {#dynamic-page-security-and-relays}

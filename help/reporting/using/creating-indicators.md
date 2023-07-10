@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 100%
 
@@ -58,39 +58,39 @@ ht-degree: 100%
 
 * まず最初に、受信者の&#x200B;**年齢**&#x200B;を選択します。このフィールドに対して、ビニングを定義して年齢をグループ化し、情報を読み取りやすくすることができます。いくつかの独立した値を扱う可能性がある場合は、ビニングを使用することをお勧めします。
 
-   それには、「**[!UICONTROL ビニングを有効にする]**」オプションにチェックを入れます。ビニングモードについて詳しくは、[データビニング](../../reporting/using/concepts-and-methodology.md#data-binning)を参照してください。
+  それには、「**[!UICONTROL ビニングを有効にする]**」オプションにチェックを入れます。ビニングモードについて詳しくは、[データビニング](../../reporting/using/concepts-and-methodology.md#data-binning)を参照してください。
 
-   ![](assets/s_advuser_cube_wz_05.png)
+  ![](assets/s_advuser_cube_wz_05.png)
 
 * **日付**&#x200B;タイプのディメンションを追加します。ここでは、受信者プロファイルの作成日を表示します。
 
-   それには、「**[!UICONTROL 追加]**」をクリックし、受信者テーブルの&#x200B;**[!UICONTROL 作成日]**&#x200B;フィールドを選択します。
+  それには、「**[!UICONTROL 追加]**」をクリックし、受信者テーブルの&#x200B;**[!UICONTROL 作成日]**&#x200B;フィールドを選択します。
 
-   ![](assets/s_advuser_cube_wz_06.png)
+  ![](assets/s_advuser_cube_wz_06.png)
 
-   日付表示モードを選択できます。それには、使用する階層と生成するレベルを選択します。
+  日付表示モードを選択できます。それには、使用する階層と生成するレベルを選択します。
 
-   ![](assets/s_advuser_cube_wz_07.png)
+  ![](assets/s_advuser_cube_wz_07.png)
 
-   この例では、年、月および日のみを表示します。これは、週と学期／月を同時に扱うことができないためです。これらのレベルの間には互換性がありません。
+  この例では、年、月および日のみを表示します。これは、週と学期／月を同時に扱うことができないためです。これらのレベルの間には互換性がありません。
 
 * 別のディメンションを作成して、受信者の市区町村に関連するデータを分析します。
 
-   それには、新しいディメンションを追加し、受信者スキーマの&#x200B;**[!UICONTROL 場所]**&#x200B;ノードに属している「市区町村」を選択します。
+  それには、新しいディメンションを追加し、受信者スキーマの&#x200B;**[!UICONTROL 場所]**&#x200B;ノードに属している「市区町村」を選択します。
 
-   ![](assets/s_advuser_cube_wz_08.png)
+  ![](assets/s_advuser_cube_wz_08.png)
 
-   ビニングを有効にして情報を読み取りやすくし、値を列挙にリンクします。
+  ビニングを有効にして情報を読み取りやすくし、値を列挙にリンクします。
 
-   ![](assets/s_advuser_cube_wz_09.png)
+  ![](assets/s_advuser_cube_wz_09.png)
 
-   ドロップダウンリストから列挙を選択します。
+  ドロップダウンリストから列挙を選択します。
 
-   ![](assets/s_advuser_cube_wz_10.png)
+  ![](assets/s_advuser_cube_wz_10.png)
 
-   その列挙の値のみ表示されます。それ以外は、「**[!UICONTROL 他の値のラベル]**」フィールドで定義したラベルの下にグループ化されます。
+  その列挙の値のみ表示されます。それ以外は、「**[!UICONTROL 他の値のラベル]**」フィールドで定義したラベルの下にグループ化されます。
 
-   詳しくは、[bin の動的管理](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins)を参照してください。
+  詳しくは、[bin の動的管理](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins)を参照してください。
 
 ## 指標の構築 {#building-indicators}
 

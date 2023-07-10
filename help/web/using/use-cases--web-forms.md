@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 100%
 
@@ -184,7 +184,7 @@ Web フォームのワークフローには、次のアクティビティが含�
    * ブロックリストへの登録が解除されます。
    * 情報サービスを購読しています。
 
-      ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
+     ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
 
 ## 選択した値に応じた異なるオプションの表示 {#displaying-different-options-depending-on-the-selected-values}
 
@@ -194,11 +194,11 @@ Web フォームのワークフローには、次のアクティビティが含�
 
 * ユーザーが「自家用車」を選択すると、「コンパクト」から「ミニバン」の選択肢が提供されます。
 
-   ![](assets/s_ncs_admin_survey_condition_sample2.png)
+  ![](assets/s_ncs_admin_survey_condition_sample2.png)
 
 * ユーザーが「商用車」を選択すると、選択肢がドロップダウンリストで表示されます。
 
-   ![](assets/s_ncs_admin_survey_condition_sample1.png)
+  ![](assets/s_ncs_admin_survey_condition_sample1.png)
 
 この例では、車両のタイプはデータベースに格納されていません。ドロップダウンリストは次のように設定されます。
 
@@ -212,8 +212,8 @@ Web フォームのワークフローには、次のアクティビティが含�
 
 * 自家用車用のフィールドの条件付き表示：
 
-   ![](assets/s_ncs_admin_survey_condition_config2.png)
+  ![](assets/s_ncs_admin_survey_condition_config2.png)
 
 * 商用車用のフィールドの条件付き表示：
 
-   ![](assets/s_ncs_admin_survey_condition_config3.png)
+  ![](assets/s_ncs_admin_survey_condition_config3.png)

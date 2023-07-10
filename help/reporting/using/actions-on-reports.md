@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
 
@@ -47,11 +47,11 @@ Excel にエクスポートするように設計された&#x200B;**[!UICONTROL �
 
 * これらのレポートには空行を含めないでください。
 
-   ![](assets/export_limitations_remove_empty_line.png)
+  ![](assets/export_limitations_remove_empty_line.png)
 
 * リストの凡例は非表示にしてください。
 
-   ![](assets/export_limitations_hide_label.png)
+  ![](assets/export_limitations_hide_label.png)
 
 * レポートでは、セルレベルで定義した特定の書式設定を使用する必要はありません。**[!UICONTROL フォームのレンダリング]**&#x200B;を使用してテーブルのセルのフォーマットを定義するとよいでしょう。**[!UICONTROL フォームのレンダリング]**&#x200B;には、**[!UICONTROL 管理／設定／フォームのレンダリング]**&#x200B;でアクセスできます。
 * HTML コンテンツの挿入はお勧めしません。

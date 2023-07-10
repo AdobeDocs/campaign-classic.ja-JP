@@ -47,32 +47,32 @@ ht-degree: 2%
 
 * ステップ **5**&#x200B;を無効にするには、 **mta** （配信）および **inMail** （バウンスメール）モジュール この **wfserver** （ワークフロー）モジュールを使用している場合でも、アクティブな状態を維持する必要があります。
 
-   ```
-   <?xml version='1.0'?>
-   <serverconf>  
-     <shared>    
-       <!-- add lang="eng" to dataStore to force English for the instance -->    
-       <dataStore hosts="console.campaign.net*">      
-         <mapping logical="*" physical="default"/>    
-       </dataStore>  </shared>  
-       <mta autoStart="false"/>  
-       <wfserver autoStart="true"/>  
-       <inMail autoStart="false"/>  
-       <sms autoStart="false"/>  
-       <listProtect autoStart="false"/>
-   </serverconf>
-   ```
+  ```
+  <?xml version='1.0'?>
+  <serverconf>  
+    <shared>    
+      <!-- add lang="eng" to dataStore to force English for the instance -->    
+      <dataStore hosts="console.campaign.net*">      
+        <mapping logical="*" physical="default"/>    
+      </dataStore>  </shared>  
+      <mta autoStart="false"/>  
+      <wfserver autoStart="true"/>  
+      <inMail autoStart="false"/>  
+      <sms autoStart="false"/>  
+      <listProtect autoStart="false"/>
+  </serverconf>
+  ```
 
-   詳しくは、[この節](../../installation/using/configuring-campaign-server.md#enabling-processes)を参照してください。
+  詳しくは、[この節](../../installation/using/configuring-campaign-server.md#enabling-processes)を参照してください。
 
 * 手順 **6**, **9** および **10** 必要ありません。
 * ステップ中 **12** および **13**&#x200B;の場合は、接続 URL の 8080 ポートを指定する必要があります（コンソールは、Web サーバーを介せずに Tomcat と直接通信するので）。 URL はになります。 `http://console.campaign.net:8080`. ステップ中 **13**&#x200B;を選択し、 **[!UICONTROL ミッドソーシングに関する問題]** パッケージと、インストールするパッケージ。
 
-   ![](assets/s_ncs_install_midsourcing02.png)
+  ![](assets/s_ncs_install_midsourcing02.png)
 
-   >[!CAUTION]
-   >
-   >テクニカル配信のデフォルトのルーティングは、ミッドソーシング経由の E メールルーティングに自動的に置き換えられます。
+  >[!CAUTION]
+  >
+  >テクニカル配信のデフォルトのルーティングは、ミッドソーシング経由の E メールルーティングに自動的に置き換えられます。
 
 ### ミッドソーシングサーバーのインストールと設定 {#installing-and-configuring-the-mid-sourcing-server}
 

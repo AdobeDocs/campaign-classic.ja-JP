@@ -89,19 +89,20 @@ LAN 内のアプリケーションサーバーは、エンドユーザーに対�
 
    * コンソールからインスタンスを作成します。
 
-      ![](assets/install_create_new_connexion.png)
+     ![](assets/install_create_new_connexion.png)
 
-      詳しくは、 [インスタンスの作成とログオン](../../installation/using/creating-an-instance-and-logging-on.md).
+     詳しくは、 [インスタンスの作成とログオン](../../installation/using/creating-an-instance-and-logging-on.md).
 
-      または
+     または
 
    * コマンドラインを使用してインスタンスを作成します。
 
-      ```
-      nlserver config -addinstance:demo/tracking.campaign.net*
-      ```
+     ```
+     nlserver config -addinstance:demo/tracking.campaign.net*
+     ```
 
-      詳しくは、 [インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance).
+     詳しくは、 [インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance).
+
    インスタンスの名前は、アプリケーションサーバーの名前と同じです。
 
    を使用したサーバーへの接続 **nlserver web** モジュール（ミラーページ、購読解除）は、ロードバランサー (tracking.campaign.net) の URL から作成されます。
@@ -124,24 +125,24 @@ LAN 内のアプリケーションサーバーは、エンドユーザーに対�
 
    * MTA モジュールの DNS 設定：
 
-      ```
-      <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
-      ```
+     ```
+     <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
+     ```
 
-      >[!NOTE]
-      >
-      >この **nameServers** パラメーターは、Windows でのみ使用されます。
+     >[!NOTE]
+     >
+     >この **nameServers** パラメーターは、Windows でのみ使用されます。
 
-      詳しくは、 [配信設定](configure-delivery-settings.md).
+     詳しくは、 [配信設定](configure-delivery-settings.md).
 
    * リダイレクトパラメーターの冗長なトラッキングサーバー：
 
-      ```
-      <spareServer enabledIf="$(hostname)!='front_srv1'" id="1" url="https://front_srv1:8080"/>
-      <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
-      ```
+     ```
+     <spareServer enabledIf="$(hostname)!='front_srv1'" id="1" url="https://front_srv1:8080"/>
+     <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
+     ```
 
-      詳しくは、 [重複した追跡](configuring-campaign-server.md#redundant-tracking).
+     詳しくは、 [重複した追跡](configuring-campaign-server.md#redundant-tracking).
 
 1. Web サイトを開始し、次の URL からリダイレクトをテストします。 [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
 

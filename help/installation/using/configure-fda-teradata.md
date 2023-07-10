@@ -40,26 +40,26 @@ Campaign に接続するTeradataのドライバをインストールする必要
 
    * **/etc/odbc.ini**
 
-      ```
-      [ODBC]
-      InstallDir=/etc/
-      ```
+     ```
+     [ODBC]
+     InstallDir=/etc/
+     ```
 
-      「InstallDir」は、**odbcinst.ini** ファイルの保存場所です。
+     「InstallDir」は、**odbcinst.ini** ファイルの保存場所です。
 
    * **/etc/odbcinst.ini**
 
-      ```
-      [ODBC DRIVERS]
-      teradata=Installed
-      
-      [teradata]
-      Driver=/opt/teradata/client/17.10/lib64/tdataodbc_sb64.so
-      APILevel=CORE
-      ConnectFunctions=YYY
-      DriverODBCVer=3.51
-      SQLLevel=1
-      ```
+     ```
+     [ODBC DRIVERS]
+     teradata=Installed
+     
+     [teradata]
+     Driver=/opt/teradata/client/17.10/lib64/tdataodbc_sb64.so
+     APILevel=CORE
+     ConnectFunctions=YYY
+     DriverODBCVer=3.51
+     SQLLevel=1
+     ```
 
 1. Adobe Campaign サーバーの環境変数を指定します。
 
@@ -70,6 +70,7 @@ Campaign に接続するTeradataのドライバをインストールする必要
 >[!NOTE]
 >
 >FDA で外部Teradataベースに接続するには、Adobe Campaignサーバーで追加の設定手順が必要です。 [詳細情報](#teradata-additional-configurations)
+>
 
 ## Teradata 外部アカウント{#teradata-external}
 

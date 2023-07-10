@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: tracking-offers
 exl-id: 44c57b0c-3561-4943-812f-945f5fcbb142
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 100%
 
@@ -28,15 +28,15 @@ ht-degree: 100%
 
 * 日付別：
 
-   ![](assets/offer_report_perdate.png)
+  ![](assets/offer_report_perdate.png)
 
 * スペース別：
 
-   ![](assets/offer_report_perspaces.png)
+  ![](assets/offer_report_perspaces.png)
 
 * 配信別：
 
-   ![](assets/offer_report_perdeliveries.png)
+  ![](assets/offer_report_perdeliveries.png)
 
 レポートの上部で使用できる様々な条件に基づいて、データをフィルタリングできます。目的の基準を選択して、「**[!UICONTROL 更新]**」リンクをクリックすると、レポートに適用されます。
 

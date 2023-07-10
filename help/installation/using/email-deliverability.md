@@ -243,41 +243,41 @@ MX に準拠するルールは、 **[!UICONTROL MX 管理]** ドキュメント 
 
 * **[!UICONTROL MX マスク]**:ルールを適用するドメイン。 各ルールは、MX のアドレスマスクを定義します。 したがって、このマスクと名前が一致する MX が有効です。 マスクには、&#42;「そして？」 汎用文字。
 
-   例えば、次のアドレスがあるとします。
+  例えば、次のアドレスがあるとします。
 
    * a.mx.yahoo.com
    * b.mx.yahoo.com
    * c.mx.yahoo.com
 
-   は、次のマスクと互換性があります。
+  は、次のマスクと互換性があります。
 
    * &#42;.yahoo.com
    * ?.mx.yahoo.com
 
-   例えば、E メールアドレス foobar@gmail.com の場合、ドメインは gmail.com で、MX レコードは次のようになります。
+  例えば、E メールアドレス foobar@gmail.com の場合、ドメインは gmail.com で、MX レコードは次のようになります。
 
-   ```
-   gmail.com mail exchanger = 20 alt2.gmail-smtp-in.l.google.com.
-   gmail.com mail exchanger = 10 alt1.gmail-smtp-in.l.google.com.
-   gmail.com mail exchanger = 40 alt4.gmail-smtp-in.l.google.com.
-   gmail.com mail exchanger = 5  gmail-smtp-in.l.google.com.
-   gmail.com mail exchanger = 30 alt3.gmail-smtp-in.l.google.com.
-   ```
+  ```
+  gmail.com mail exchanger = 20 alt2.gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 10 alt1.gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 40 alt4.gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 5  gmail-smtp-in.l.google.com.
+  gmail.com mail exchanger = 30 alt3.gmail-smtp-in.l.google.com.
+  ```
 
-   この場合、MX ルール `*.google.com` が使用されます。 見てのとおり、MX ルールマスクは、メール内のドメインと必ずしも一致しません。gmail.com の E メールアドレスに適用される MX ルールは、マスクの付いたものです `*.google.com`.
+  この場合、MX ルール `*.google.com` が使用されます。 見てのとおり、MX ルールマスクは、メール内のドメインと必ずしも一致しません。gmail.com の E メールアドレスに適用される MX ルールは、マスクの付いたものです `*.google.com`.
 
 * **[!UICONTROL 識別子の範囲]**:このオプションを使用すると、ルールを適用する識別子の範囲 (publicID) を指定できます。 次を指定できます。
 
    * 数値：このルールはこの publicId にのみ適用されます。
    * 数値の範囲 (**number1-number2**):この 2 つの数値の間にあるすべての publicIds にルールが適用されます。
 
-   >[!NOTE]
-   >
-   >フィールドが空の場合、ルールはすべての識別子に適用されます。
+  >[!NOTE]
+  >
+  >フィールドが空の場合、ルールはすべての識別子に適用されます。
 
-   パブリック ID は、1 つまたは複数の MTA で使用されるパブリック IP アドレスの内部識別子です。これらの ID は MTA サーバーの **config-instance.xml** ファイルに定義されます。
+  パブリック ID は、1 つまたは複数の MTA で使用されるパブリック IP アドレスの内部識別子です。これらの ID は MTA サーバーの **config-instance.xml** ファイルに定義されます。
 
-   ![](assets/s_ncs_install_mta_ips.png)
+  ![](assets/s_ncs_install_mta_ips.png)
 
 * **[!UICONTROL 共有]**:は、この MX ルールのプロパティの範囲を定義します。 これをオンにすると、インスタンスで使用可能なすべての IP アドレスですべてのパラメーターが共有されます。オフにすると、MX ルールは IP アドレスごとに定義されます。メッセージの最大数は、使用可能な IP アドレスの数を乗算したものになります。
 * **[!UICONTROL 接続の最大数]**:送信者のドメインへの同時接続の最大数。
@@ -285,9 +285,9 @@ MX に準拠するルールは、 **[!UICONTROL MX 管理]** ドキュメント 
 * **[!UICONTROL 1 時間あたりのメッセージ数]**:送信者のドメインに 1 時間で送信できるメッセージの最大数。
 * **[!UICONTROL 接続がタイムアウトしました]**:ドメインへの接続時間のしきい値。
 
-   >[!NOTE]
-   >
-   >Windows では、 **timeout** このしきい値より前（Windows のバージョンによって異なります）。
+  >[!NOTE]
+  >
+  >Windows では、 **timeout** このしきい値より前（Windows のバージョンによって異なります）。
 
 * **[!UICONTROL タイムアウトデータ]**:メッセージコンテンツ送信後の最大待機時間（SMTP プロトコルの DATA セクション）。
 * **[!UICONTROL タイムアウト]**:SMTP サーバーとの他の交換の最大待機時間です。
@@ -295,9 +295,9 @@ MX に準拠するルールは、 **[!UICONTROL MX 管理]** ドキュメント 
 
    * **[!UICONTROL デフォルト設定]**:これは、適用される serverConf.xml 設定ファイルで指定される一般的な設定です。
 
-      >[!IMPORTANT]
-      >
-      >デフォルトの設定を変更することはお勧めしません。
+     >[!IMPORTANT]
+     >
+     >デフォルトの設定を変更することはお勧めしません。
 
    * **[!UICONTROL 無効]** :メッセージは、暗号化せずに体系的に送信されます。
    * **[!UICONTROL 便宜的]** :受信サーバー (SMTP) が TLS プロトコルを生成できる場合、メッセージ配信は暗号化されます。
@@ -324,7 +324,7 @@ MX に準拠するルールは、 **[!UICONTROL MX 管理]** ドキュメント 
 
 * **マルチパート**:メッセージはテキスト形式またはHTML形式で送信されます。 HTML形式が受け入れられない場合でも、メッセージはテキスト形式で表示できます。
 
-   デフォルトでは、マルチパート構造は **マルチパート/オルタナティブ**&#x200B;に設定されますが、自動的に **マルチパート/関連** メッセージに画像が追加されたとき。 特定のプロバイダーは、 **マルチパート/関連** デフォルトの形式は、 **[!UICONTROL マルチパート/関連を強制]** オプションは、画像がアタッチされていない場合でも、この形式を適用します。
+  デフォルトでは、マルチパート構造は **マルチパート/オルタナティブ**&#x200B;に設定されますが、自動的に **マルチパート/関連** メッセージに画像が追加されたとき。 特定のプロバイダーは、 **マルチパート/関連** デフォルトの形式は、 **[!UICONTROL マルチパート/関連を強制]** オプションは、画像がアタッチされていない場合でも、この形式を適用します。
 
 * **HTML**:HTMLのみのメッセージが送信されます。 メッセージの形式が受け入れられない場合、HTMLは表示されません。
 * **テキスト**:テキストのみの形式のメッセージが送信されます。 テキスト形式のメッセージの利点は、非常に小さいサイズです。
@@ -406,11 +406,11 @@ Adobe Campaignプラットフォームを構成するすべてのサーバー（
 
 * **includeDomains**:特定のドメインに属する電子メールに対して、この IP アドレスを予約できます。 これは、1 つ以上のワイルドカード (&#39;&#42;&#39;) です。 属性を指定しない場合、すべてのドメインでこの IP アドレスを使用できます。
 
-   例： **includeDomains=&quot;wanadoo.com,orange.com,yahoo.&#42;&quot;**
+  例： **includeDomains=&quot;wanadoo.com,orange.com,yahoo.&#42;&quot;**
 
 * **excludeDomains**:は、この IP アドレスのドメインのリストを除外します。 このフィルターは、 **includeDomains** フィルター。
 
-   ![](assets/s_ncs_install_mta_ips.png)
+  ![](assets/s_ncs_install_mta_ips.png)
 
 ## E メール送信の最適化 {#email-sending-optimization}
 

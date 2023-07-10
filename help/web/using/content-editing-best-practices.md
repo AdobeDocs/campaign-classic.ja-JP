@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 100%
 
@@ -23,21 +23,21 @@ ht-degree: 100%
 * HTML ページに **JavaScript スクリプト**&#x200B;が含まれている場合、エディターの外部で&#x200B;**エラーなしで**&#x200B;実行する必要があります。
 * テンプレートを作成する場合、`<input>` タグに「**type**」属性を追加することをお勧めします。この情報はエディターで処理され、Web アプリケーションを設定する際に、ユーザーがデータベースのフィールドをフォームのフィールドにリンクするのに便利です。
 
-   テンプレート内の HTML コードの例：
+  テンプレート内の HTML コードの例：
 
-   ```
-   <input id="email" type="email" name="email"/>
-   ```
+  ```
+  <input id="email" type="email" name="email"/>
+  ```
 
-   「**type**」属性は、次のフォームのインターフェイスに表示されます。
+  「**type**」属性は、次のフォームのインターフェイスに表示されます。
 
-   ![](assets/dce_sidebar_inputtypechanges.png)
+  ![](assets/dce_sidebar_inputtypechanges.png)
 
-   「type」属性の公式なリストについては、[この Web サイト](https://www.w3schools.com/tags/att_input_type.asp)を参照してください。
+  「type」属性の公式なリストについては、[この Web サイト](https://www.w3schools.com/tags/att_input_type.asp)を参照してください。
 
 * DCE での終了ページのシミュレーションの手順：
 
-   ![](assets/dce_enchainement.png)
+  ![](assets/dce_enchainement.png)
 
 * ページに 1 組の `<body> </body>` のみ存在することを確認してください。
 * CSS または JS ファイルがアップロードされても、.zip ファイルに含まれる画像はアップロードされません。したがって、CSS に存在するこれらの画像への参照は更新されません。

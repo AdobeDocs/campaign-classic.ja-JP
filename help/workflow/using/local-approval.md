@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 100%
 
@@ -32,11 +32,11 @@ ht-degree: 100%
 
 * 「**[!UICONTROL ターゲットの承認通知]**」オプションを選択し、配信前にローカルのスーパーバイザーに通知メールを送信し、それらのスーパーバイザーに割り当てられている受信者の承認を依頼します。
 
-   ![](assets/local_validation_intro_2.png)
+  ![](assets/local_validation_intro_2.png)
 
 * **増分処理クエリ**：クエリを実行し、実行を計画します。[増分処理クエリ](incremental-query.md)の節を参照してください。
 
-   ![](assets/local_validation_intro_3.png)
+  ![](assets/local_validation_intro_3.png)
 
 ## ターゲットの承認通知 {#target-approval-notification}
 
@@ -50,24 +50,24 @@ ht-degree: 100%
 
 * **[!UICONTROL 配分のコンテキスト]**：「**[!UICONTROL 分割]**」タイプアクティビティを使用してターゲット母集団を限定する場合、「**[!UICONTROL トランジションで指定]**」オプションを選択します。この場合、配分テンプレートは分割アクティビティに入力されます。ターゲット母集団を限定しない場合、ここで「**[!UICONTROL 手動で指定]**」オプションを選択し、「**[!UICONTROL データ配分]**」フィールドに配分テンプレートを入力します。
 
-   データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](split.md#limiting-the-number-of-subset-records-per-data-distribution)を参照してください。
+  データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](split.md#limiting-the-number-of-subset-records-per-data-distribution)を参照してください。
 
 * **[!UICONTROL 承認管理]**
 
    * E メール通知に使用する配信テンプレートと件名を選択します。デフォルトテンプレートの「**[!UICONTROL ローカルの承認通知]**」を使用できます。また、承認通知およびフィードバック通知内の受信者リストの上に表示される説明を追加できます。
    * 承認期限（日付または承認の開始日からの日数で指定）に対応する「**[!UICONTROL 承認タイプ]**」を指定します。この日付をもって、ワークフローが再開し、それまでに承認されなかった受信者はターゲティング対象から外れます。通知が送信されると、ローカルのスーパーバイザーが連絡先を承認できるように、アクティビティはキューに入ります。
 
-      >[!NOTE]
-      >
-      >デフォルトでは、承認プロセスが開始されると、アクティビティは 3 日間保留されます。
+     >[!NOTE]
+     >
+     >デフォルトでは、承認プロセスが開始されると、アクティビティは 3 日間保留されます。
 
-      リマインダーを 1 つ以上設定し、承認期限が迫っていることをローカルのスーパーバイザーに知らせることができます。それには、「**[!UICONTROL リマインダーを追加]**」リンクをクリックします。
+     リマインダーを 1 つ以上設定し、承認期限が迫っていることをローカルのスーパーバイザーに知らせることができます。それには、「**[!UICONTROL リマインダーを追加]**」リンクをクリックします。
 
 * **[!UICONTROL 補集合]**：「**[!UICONTROL 補集合を生成]**」オプションでは、未承認のターゲットをすべて集めた 2 番目のセットを生成できます。
 
-   >[!NOTE]
-   >
-   >このオプションはデフォルトでは無効です。
+  >[!NOTE]
+  >
+  >このオプションはデフォルトでは無効です。
 
 ## 配信のフィードバックレポート {#delivery-feedback-report}
 
@@ -90,19 +90,19 @@ ht-degree: 100%
 
 * Web 承認
 
-   管理者グループのオペレーターに送信されたメールで、配信ターゲットを承認できます。メッセージは定義されたテキストと JavaScript 式を使用し、JavaScript 式は計算値によって置き換えられます（ここでは「574」）。
+  管理者グループのオペレーターに送信されたメールで、配信ターゲットを承認できます。メッセージは定義されたテキストと JavaScript 式を使用し、JavaScript 式は計算値によって置き換えられます（ここでは「574」）。
 
-   配信を承認するには、該当するリンクをクリックし、Adobe Campaign コンソールにログオンします。
+  配信を承認するには、該当するリンクをクリックし、Adobe Campaign コンソールにログオンします。
 
-   ![](assets/new-workflow-valid-webaccess.png)
+  ![](assets/new-workflow-valid-webaccess.png)
 
-   承認するかどうかを選択して、「**[!UICONTROL 送信]**」をクリックします。
+  承認するかどうかを選択して、「**[!UICONTROL 送信]**」をクリックします。
 
-   ![](assets/new-workflow-valid-webaccess-confirm.png)
+  ![](assets/new-workflow-valid-webaccess-confirm.png)
 
 * コンソールからの承認
 
-   ツリー構造の、**[!UICONTROL 管理／プロダクション／自動作成オブジェクト／承認待ち]**&#x200B;ノードに、現在接続中のオペレーターから承認されたタスクのリストが含まれています。このリストは、1 行で表示されます。応答するには、この行をダブルクリックします。次のウィンドウが表示されます。
+  ツリー構造の、**[!UICONTROL 管理／プロダクション／自動作成オブジェクト／承認待ち]**&#x200B;ノードに、現在接続中のオペレーターから承認されたタスクのリストが含まれています。このリストは、1 行で表示されます。応答するには、この行をダブルクリックします。次のウィンドウが表示されます。
 
 ![](assets/new-workflow-7.png)
 

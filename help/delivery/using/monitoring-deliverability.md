@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Adobe Campaign Classic では、**配信品質の監視**&#x200B;は&#x200B;**[!
    * **[!UICONTROL ハードバウンス]**&#x200B;はデータの質を示します。この数は 2％未満にする必要があります。
    * **[!UICONTROL ソフトバウンス]**&#x200B;は評判を示します。任意の ISP に対して、この値を 10％以下にする必要があります。
 
-   詳しくは、[配信統計](../../reporting/using/global-reports.md#delivery-statistics)を参照してください。
+  詳しくは、[配信統計](../../reporting/using/global-reports.md#delivery-statistics)を参照してください。
 * より一般的に、[配信ダッシュボード](about-delivery-monitoring.md)は次の項目のアクセスを提供します。
    * [配信の概要](delivery-dashboard.md#delivery-summary)：送信の詳細、送信するメッセージ数、処理済みおよび送信済みの成功件数を表示します。
    * [配信ログと履歴](delivery-dashboard.md#delivery-logs-and-history)：除外されたターゲットとその理由を示します。

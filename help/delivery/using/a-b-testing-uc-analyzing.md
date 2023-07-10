@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 
@@ -21,15 +21,15 @@ ht-degree: 100%
 
 * どの受信者がターゲットになっていて、キャンペーンダッシュボードから配信を開封したのかを確認するには、「**[!UICONTROL 配信]**」タブをクリックします。
 
-   ![](assets/use_case_abtesting_analysis_001.png)
+  ![](assets/use_case_abtesting_analysis_001.png)
 
 * 配信が開封されたかどうかを確認するには、「**[!UICONTROL トラッキング]**」タブに移動します。
 
-   ![](assets/use_case_abtesting_analysis_002.png)
+  ![](assets/use_case_abtesting_analysis_002.png)
 
 * ほかの配信との比較
 
-   ![](assets/use_case_abtesting_analysis_003.png)
+  ![](assets/use_case_abtesting_analysis_003.png)
 
 この例では、配信 B の開封率が最も高くなっています。これは、コンテンツ B が最終の配信で使用されることを意味します。
 

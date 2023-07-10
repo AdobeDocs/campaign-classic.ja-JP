@@ -36,33 +36,33 @@ FDA で Netezza 外部データベースに接続するには、Adobe Campaign �
 
    * **/etc/odbc.ini**
 
-      ```
-      [ODBC]
-      InstallDir=/etc/
-      ```
+     ```
+     [ODBC]
+     InstallDir=/etc/
+     ```
 
-      「InstallDir」は、odbcinst.ini ファイルの保存場所です。
+     「InstallDir」は、odbcinst.ini ファイルの保存場所です。
 
    * **/etc/odbcinst.ini**
 
-      ```
-      [ODBC Drivers]
-      NetezzaSQL = Installed
-      
-      [NetezzaSQL]
-      Driver           = /usr/local/nz/lib/libnzsqlodbc3.so
-      Setup            = /usr/local/nz/lib/libnzsqlodbc3.so
-      APILevel         = 1
-      ConnectFunctions = YYN
-      Description      = Netezza ODBC driver
-      DriverODBCVer    = 03.51
-      DebugLogging     = false
-      LogPath          = /tmp
-      UnicodeTranslationOption = utf8
-      CharacterTranslationOption = all
-      PreFetch         = 256
-      Socket           = 16384
-      ```
+     ```
+     [ODBC Drivers]
+     NetezzaSQL = Installed
+     
+     [NetezzaSQL]
+     Driver           = /usr/local/nz/lib/libnzsqlodbc3.so
+     Setup            = /usr/local/nz/lib/libnzsqlodbc3.so
+     APILevel         = 1
+     ConnectFunctions = YYN
+     Description      = Netezza ODBC driver
+     DriverODBCVer    = 03.51
+     DebugLogging     = false
+     LogPath          = /tmp
+     UnicodeTranslationOption = utf8
+     CharacterTranslationOption = all
+     PreFetch         = 256
+     Socket           = 16384
+     ```
 
 1. Adobe Campaign サーバーの環境変数を指定します。
 

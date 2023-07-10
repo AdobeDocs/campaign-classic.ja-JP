@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 100%
 
@@ -140,24 +140,24 @@ NmsTracking_Pointer オプションを更新する場合は、次の手順に従
 
 * 正しくない構文
 
-   ```
-   <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
-   var pattern = new RegExp("(nl611\.test15|google\.com)", 'i')
-   if( $(urlstring).match(pattern) && delivery.FCP == false )
-   {
-   %>
-   &cid=<%= message.delivery.internalName %>&bid=<%= message.id.toString().toLowerCase() %><% } %>
-   ```
+  ```
+  <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
+  var pattern = new RegExp("(nl611\.test15|google\.com)", 'i')
+  if( $(urlstring).match(pattern) && delivery.FCP == false )
+  {
+  %>
+  &cid=<%= message.delivery.internalName %>&bid=<%= message.id.toString().toLowerCase() %><% } %>
+  ```
 
 * 正しい構文
 
-   ```
-   <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
-   var pattern = new RegExp("(nl611\.test15|google\.com)", 'i')
-   if( $(urlstring).match(pattern) && delivery.FCP == false )
-   {
-   %>&cid=<%= message.delivery.internalName %>&bid=<%= message.id.toString().toLowerCase() %><% } %>
-   ```
+  ```
+  <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
+  var pattern = new RegExp("(nl611\.test15|google\.com)", 'i')
+  if( $(urlstring).match(pattern) && delivery.FCP == false )
+  {
+  %>&cid=<%= message.delivery.internalName %>&bid=<%= message.id.toString().toLowerCase() %><% } %>
+  ```
 
 余分な改行がどこにあるかを理解するには、JavaScript 式を固定文字列 STRING に置き換えることができます。
 
@@ -174,26 +174,26 @@ STRING1&cid=STRING2&bid=STRING3
 
 * 正しくない構文
 
-   ```
-   <%@ include option='NmsTracking_ClickFormula' %>
-   <% // Parameters expected by Adobe Analytics
-   var pattern = new RegExp("(vistaprint|entryUrl)", 'i')
-   if( $(urlstring).match(pattern) && delivery.FCP == false )
-   {%>&cid=<%= message.delivery.internalName%>&bid=<%= message.id.toString().toLowerCase()%>&SHPID=<%= message.recipient.factShopper.shopper_id %><% }
-   
-   %>
-   ```
+  ```
+  <%@ include option='NmsTracking_ClickFormula' %>
+  <% // Parameters expected by Adobe Analytics
+  var pattern = new RegExp("(vistaprint|entryUrl)", 'i')
+  if( $(urlstring).match(pattern) && delivery.FCP == false )
+  {%>&cid=<%= message.delivery.internalName%>&bid=<%= message.id.toString().toLowerCase()%>&SHPID=<%= message.recipient.factShopper.shopper_id %><% }
+  
+  %>
+  ```
 
 * 正しい構文
 
-   ```
-   <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
-   var pattern = new RegExp("(vistaprint|entryUrl)", 'i')
-   if( $(urlstring).match(pattern) && delivery.FCP == false )
-   {%>&cid=<%= message.delivery.internalName%>&bid=<%= message.id.toString().toLowerCase()%>&SHPID=<%= message.recipient.factShopper.shopper_id %><% }
-   
-   %>
-   ```
+  ```
+  <%@ include option='NmsTracking_ClickFormula' %><% // Parameters expected by Adobe Analytics
+  var pattern = new RegExp("(vistaprint|entryUrl)", 'i')
+  if( $(urlstring).match(pattern) && delivery.FCP == false )
+  {%>&cid=<%= message.delivery.internalName%>&bid=<%= message.id.toString().toLowerCase()%>&SHPID=<%= message.recipient.factShopper.shopper_id %><% }
+  
+  %>
+  ```
 
 余分な改行がどこにあるかを理解するには、JavaScript 式を固定文字列 STRING に置き換えることができます。
 

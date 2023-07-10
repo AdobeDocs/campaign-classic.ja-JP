@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 100%
 
@@ -109,13 +109,14 @@ ht-degree: 100%
 
    * 匿名クーポン：**[!UICONTROL クーポン／クーポンコード]**
 
-      ![](assets/deliv_coup_10.png)
+     ![](assets/deliv_coup_10.png)
 
    * 個人クーポン：**[!UICONTROL クーポン値／クーポンコード]**
 
-      ![](assets/deliv_coup_11.png)
+     ![](assets/deliv_coup_11.png)
 
-      クーポンは、割り当てた名前ではなくコードとしてメッセージに挿入されます。このコードは、Campaign 標準データモデル内で使用されます。
+     クーポンは、割り当てた名前ではなくコードとしてメッセージに挿入されます。このコードは、Campaign 標準データモデル内で使用されます。
+
    ![](assets/deliv_coup_12.png)
 
 1. テストを実行して、クーポンに割り当てた名前を確認します。「**[!UICONTROL プレビュー]**」タブに移動し、「**[!UICONTROL パーソナライゼーションをテスト]**」をクリックします。テストする受信者を選択します。

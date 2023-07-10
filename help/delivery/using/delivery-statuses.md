@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
 
@@ -99,11 +99,11 @@ Adobe Campaign の E メールの配信品質を最適化する方法につい�
 
 * MTA（メール転送エージェント）が起動されていないか、再起動する必要がある可能性があります。MTA は、配信サーバー上でモジュールを実行して処理を行ったり、メールの送信を管理したりするものです。
 
-   これを確認してモジュールを開始する（必要な場合）には、次の手順を実行します。
+  これを確認してモジュールを開始する（必要な場合）には、次の手順を実行します。
 
-   >[!NOTE]
-   >
-   >この操作は、Campaign サーバーにアクセスして、**オンプレミス**&#x200B;または&#x200B;**ハイブリッド**&#x200B;ホスティングモデルで実行できます（[ホスティングモデル](../../installation/using/hosting-models.md)を参照）。
+  >[!NOTE]
+  >
+  >この操作は、Campaign サーバーにアクセスして、**オンプレミス**&#x200B;または&#x200B;**ハイブリッド**&#x200B;ホスティングモデルで実行できます（[ホスティングモデル](../../installation/using/hosting-models.md)を参照）。
 
    1. MTA サーバーで `mta@<instance>` モジュールが起動されていることを確認します。
 
@@ -127,13 +127,13 @@ Adobe Campaign の E メールの配信品質を最適化する方法につい�
 
 * 送信サーバーに設定されていないアフィニティを配信で使用している可能性があります。
 
-   この場合は、トラフィック管理（IP アフィニティ）の設定をチェックし、「**[!UICONTROL IP アドレスを使用してアフィニティを管理する]**」フィールドを使用して、アフィニティを管理する MTA に配信をリンクします。アフィニティについて詳しくは、[この節](../../installation/using/configure-delivery-settings.md)を参照してください。
+  この場合は、トラフィック管理（IP アフィニティ）の設定をチェックし、「**[!UICONTROL IP アドレスを使用してアフィニティを管理する]**」フィールドを使用して、アフィニティを管理する MTA に配信をリンクします。アフィニティについて詳しくは、[この節](../../installation/using/configure-delivery-settings.md)を参照してください。
 
 * 実行中のキャンペーンが多すぎる場合、配信ステータスは「保留」のままになります。
 
-   同時キャンペーンの制限は、**[!UICONTROL NmsOperation_LimitConcurrency]** オプションで定義されます。デフォルト値は 10 です。
+  同時キャンペーンの制限は、**[!UICONTROL NmsOperation_LimitConcurrency]** オプションで定義されます。デフォルト値は 10 です。
 
-   オプションについて詳しくは、[このページ](../../installation/using/configuring-campaign-options.md)を参照してください。
+  オプションについて詳しくは、[このページ](../../installation/using/configuring-campaign-options.md)を参照してください。
 
 
 **関連トピック：**

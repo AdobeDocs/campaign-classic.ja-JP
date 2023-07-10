@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 100%
 
@@ -39,15 +39,15 @@ ht-degree: 100%
 
    * 「**[!UICONTROL データをフィルター]**」リンクをクリックして、データベースに格納されているデータのフィルター条件を定義します。
 
-      ![](assets/reporting_graph_add_filter.png)
+     ![](assets/reporting_graph_add_filter.png)
 
    * コンテキストデータを使用するには、「**[!UICONTROL ソース]**」ドロップダウンから「**[!UICONTROL コンテキストデータ]**」を選択し、「**[!UICONTROL 詳細設定...]**」リンクをクリックします。次に、統計に関係するデータを選択します。
 
-      ![](assets/reporting_graph_from_context.png)
+     ![](assets/reporting_graph_from_context.png)
 
-      コンテキストデータにアクセスして、グラフに表示する値を定義できるようになります。
+     コンテキストデータにアクセスして、グラフに表示する値を定義できるようになります。
 
-      ![](assets/reporting_graph_select-from_context.png)
+     ![](assets/reporting_graph_select-from_context.png)
 
 ## グラフのタイプとバリエーション {#chart-types-and-variants}
 

@@ -51,7 +51,7 @@ param:==help
 * **名前 (MNTOKEN)**:内部名 `<param>`
 * **type (string)**:この属性は、 `<param>` 要素
 
-   使用可能なタイプのリスト：
+  使用可能なタイプのリスト：
 
    * いずれか
    * bin

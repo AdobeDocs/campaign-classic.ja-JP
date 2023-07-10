@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
@@ -34,19 +34,19 @@ Adobe Campaign でのタイムゾーンの設定について詳しくは、[Camp
 
 * サーバーのタイムゾーン
 
-   Adobe Campaign アプリケーションサーバーのタイムゾーンを使用します。
+  Adobe Campaign アプリケーションサーバーのタイムゾーンを使用します。
 
 * ユーザーのタイムゾーン
 
-   ワークフローを実行する Adobe Campaign オペレーターのタイムゾーンを使用します。
+  ワークフローを実行する Adobe Campaign オペレーターのタイムゾーンを使用します。
 
 * データベースのタイムゾーン
 
-   使用するデータベースサーバーのタイムゾーンを使用します。
+  使用するデータベースサーバーのタイムゾーンを使用します。
 
 * 固有のタイムゾーン
 
-   選択したタイムゾーンを使用します。
+  選択したタイムゾーンを使用します。
 
 **[!UICONTROL デフォルト]**&#x200B;値を選択した場合、ワークフローのタイムゾーンが適用されるか、アプリケーションサーバーのタイムゾーンが適用されます。
 

@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows, Targeting Activity
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
 
@@ -50,15 +50,15 @@ ht-degree: 100%
 
    * **[!UICONTROL 履歴（日数）]**
 
-      既にターゲット済みの受信者は、ターゲットされた日から履歴の最大日数に達する日まで、ログに履歴として保持されます。値がゼロの場合、受信者がログからパージされることはありません。
+     既にターゲット済みの受信者は、ターゲットされた日から履歴の最大日数に達する日まで、ログに履歴として保持されます。値がゼロの場合、受信者がログからパージされることはありません。
 
    * **[!UICONTROL 開始時に履歴を保持]**
 
-      アクティビティが有効になったときに、ログがパージされないようにします。
+     アクティビティが有効になったときに、ログがパージされないようにします。
 
    * **[!UICONTROL SQL テーブル名]**
 
-      このパラメーターは、履歴データを保持するデフォルトの SQL テーブルをオーバーロードします。
+     このパラメーターは、履歴データを保持するデフォルトの SQL テーブルをオーバーロードします。
 
 ## 出力パラメーター {#output-parameters}
 

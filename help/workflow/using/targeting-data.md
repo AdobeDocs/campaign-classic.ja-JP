@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Query Editor, Data Management
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 100%
 
@@ -91,34 +91,34 @@ ht-degree: 100%
 
 * **[!UICONTROL キーのみ]**
 
-   このオプションは、入力母集団が同質である場合に使用できます。
+  このオプションは、入力母集団が同質である場合に使用できます。
 
 * **[!UICONTROL すべての共有列]**
 
-   このオプションでは、ターゲットの各種母集団すべてに共通する共有列に基づいてデータを紐付けできます。
+  このオプションでは、ターゲットの各種母集団すべてに共通する共有列に基づいてデータを紐付けできます。
 
-   Adobe Campaign は、名前に基づいて列を識別します。許容しきい値を使用できます。この値を使用すると、例えば、Email 列は @email 列と同じであると認識されます。
+  Adobe Campaign は、名前に基づいて列を識別します。許容しきい値を使用できます。この値を使用すると、例えば、Email 列は @email 列と同じであると認識されます。
 
 * **[!UICONTROL 列の選択]**
 
-   このオプションを選択し、データの紐付けが適用される列のリストを定義します。
+  このオプションを選択し、データの紐付けが適用される列のリストを定義します。
 
-   まず、メインセットを選択し（ソースデータが含まれるセット）、次に結合に使用される列を選択します。
+  まず、メインセットを選択し（ソースデータが含まれるセット）、次に結合に使用される列を選択します。
 
-   ![](assets/join_reconciliation_options_01.png)
+  ![](assets/join_reconciliation_options_01.png)
 
-   >[!CAUTION]
-   >
-   >データの紐付け中、母集団は重複排除されません。
+  >[!CAUTION]
+  >
+  >データの紐付け中、母集団は重複排除されません。
 
-   レコード数を指定することで、母集団のサイズを制限できます。それには、適切なオプションをクリックし、保持するレコード数を指定します。
+  レコード数を指定することで、母集団のサイズを制限できます。それには、適切なオプションをクリックし、保持するレコード数を指定します。
 
-   さらに、インバウンド母集団の優先度を指定します。ウィンドウの下部セクションには、和集合アクティビティのインバウンドトランジションがリストされます。このリストを、ウィンドウ右側の青い矢印を使用して並べ替えます。
+  さらに、インバウンド母集団の優先度を指定します。ウィンドウの下部セクションには、和集合アクティビティのインバウンドトランジションがリストされます。このリストを、ウィンドウ右側の青い矢印を使用して並べ替えます。
 
 
-   レコードは、最初のインバウンドトランジションの母集団から取り出され、その時点で最大値に達しなければ、次に 2 番目のインバウンドトランジションの母集団から取り出されます。
+  レコードは、最初のインバウンドトランジションの母集団から取り出され、その時点で最大値に達しなければ、次に 2 番目のインバウンドトランジションの母集団から取り出されます。
 
-   ![](assets/join_limit_nb_priority.png)
+  ![](assets/join_limit_nb_priority.png)
 
 ### 結合データの抽出（積集合）  {#extracting-joint-data--intersection-}
 
@@ -180,9 +180,9 @@ ht-degree: 100%
 
    詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
 
-   ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 ドキュメント](../../installation/using/about-fda.md)
+   ![](assets/do-not-localize/v7.jpeg)[Campaign v7 ドキュメント](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png)[  Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja)
+   ![](assets/do-not-localize/v8.png)[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja)
 
 次に、新しいサブセットを追加する必要があります。
 
@@ -222,15 +222,15 @@ ht-degree: 100%
 
 * 各種ワークフローステージで、データ操作の後でデータベース内のデータを更新できます。
 
-   詳しくは、[データを更新](update-data.md)を参照してください。
+  詳しくは、[データを更新](update-data.md)を参照してください。
 
 * さらに、既存のリストのコンテンツを更新できます。
 
-   詳しくは、[リストの更新](list-update.md)を参照してください。
+  詳しくは、[リストの更新](list-update.md)を参照してください。
 
 * ワークフロー内で直接、配信を準備または開始できます。
 
-   詳しくは、[配信](delivery.md)、[配信コントロール](delivery-control.md)および[連続配信](continuous-delivery.md)を参照してください。
+  詳しくは、[配信](delivery.md)、[配信コントロール](delivery-control.md)および[連続配信](continuous-delivery.md)を参照してください。
 
 ## データ管理 {#data-management}
 

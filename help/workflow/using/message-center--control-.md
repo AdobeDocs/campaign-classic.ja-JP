@@ -5,7 +5,7 @@ description: Message Center（コントロール）
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
 
-![](assets/do-not-localize/v7.jpeg)[  Campaign v7 ドキュメント](../../message-center/using/about-transactional-messaging.md)
+![](assets/do-not-localize/v7.jpeg)[Campaign v7 ドキュメント](../../message-center/using/about-transactional-messaging.md)
 
-![](assets/do-not-localize/v8.png)[  Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html?lang=ja)
+![](assets/do-not-localize/v8.png)[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html?lang=ja)
 
 
 <table> 

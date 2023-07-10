@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Transactional Messaging
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 100%
 

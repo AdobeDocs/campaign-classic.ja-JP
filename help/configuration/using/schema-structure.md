@@ -117,9 +117,9 @@ ht-degree: 85%
 
 * 各 **`<element>`** と **`<attribute>`** は、**name** 属性を介して名前で識別する必要があります。
 
-   >[!IMPORTANT]
-   >
-   >要素名は簡潔なもの（できれば英語）にし、XML 命名規則に従って許可された文字のみを含める必要があります。
+  >[!IMPORTANT]
+  >
+  >要素名は簡潔なもの（できれば英語）にし、XML 命名規則に従って許可された文字のみを含める必要があります。
 
 * XML 構造に **`<attribute>`** 要素と **`<element>`** 要素を含めることができるのは、**`<element>`** 要素のみです。
 * **`<attribute>`** 要素には、**`<element>`** 内で一意の名前が必要です。
@@ -137,7 +137,7 @@ ht-degree: 85%
 
 * **string**：文字列。例：名、町名など
 
-   サイズは、**length** 属性を使用して指定できます。オプションであり、デフォルト値は「255」です。
+  サイズは、**length** 属性を使用して指定できます。オプションであり、デフォルト値は「255」です。
 
 * **boolean**：ブール値フィールド可能な値の例：true/false、0/1、yes/no など
 * **byte**、**short**、**long**：整数（1 バイト、2 バイト、4 バイト）。例：年齢、アカウント番号、ポイント数など
@@ -148,9 +148,9 @@ ht-degree: 85%
 * **memo**：長いテキストフィールド（複数行）。例：説明、注釈など
 * **uuid**：「uniqueidentifier」フィールド GUID をサポートする (Microsoft SQL Server でのみサポート )
 
-   >[!NOTE]
-   >
-   >を含めるには **uuid** Microsoft SQL Server 以外のエンジンのフィールドでは、「newuuid()」関数を追加し、デフォルト値で完了する必要があります。
+  >[!NOTE]
+  >
+  >を含めるには **uuid** Microsoft SQL Server 以外のエンジンのフィールドでは、「newuuid()」関数を追加し、デフォルト値で完了する必要があります。
 
 次に、入力したタイプのスキーマ例を示します。
 
@@ -228,7 +228,7 @@ ht-degree: 85%
    <td> DATETIME<br /> </td> 
   </tr> 
   <tr> 
-   <td> 時刻<br /> </td> 
+   <td> 時間<br /> </td> 
    <td> 時間<br /> </td> 
    <td> 浮動小数点<br /> </td> 
    <td> 浮動小数点<br /> </td> 
@@ -274,33 +274,33 @@ ht-degree: 85%
 
 * **label** プロパティを使用すると、簡単な説明を入力できます。
 
-   >[!NOTE]
-   >
-   >ラベルは、インスタンスの現在の言語に関連付けられます。
+  >[!NOTE]
+  >
+  >ラベルは、インスタンスの現在の言語に関連付けられます。
 
-   **例**：
+  **例**：
 
-   ```
-   <attribute name="email" type="string" length="80" label="Email"/>
-   ```
+  ```
+  <attribute name="email" type="string" length="80" label="Email"/>
+  ```
 
-   ラベルは、Adobe Campaign クライアントコンソールの入力フォームから確認できます。
+  ラベルは、Adobe Campaign クライアントコンソールの入力フォームから確認できます。
 
-   ![](assets/d_ncs_integration_schema_label.png)
+  ![](assets/d_ncs_integration_schema_label.png)
 
 * **desc** プロパティを使用すると、詳細な説明を入力できます。
 
-   説明は、Adobe Campaign クライアントコンソールのメイン画面のステータスバーにある入力フォームから確認できます。
+  説明は、Adobe Campaign クライアントコンソールのメイン画面のステータスバーにある入力フォームから確認できます。
 
-   >[!NOTE]
-   >
-   >説明は、インスタンスの現在の言語に関連付けられます。
+  >[!NOTE]
+  >
+  >説明は、インスタンスの現在の言語に関連付けられます。
 
-   **例**：
+  **例**：
 
-   ```
-   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
-   ```
+  ```
+  <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
+  ```
 
 ### デフォルト値 {#default-values}
 
@@ -313,11 +313,11 @@ ht-degree: 85%
 * 現在の日付：**default=&quot;GetDate()&quot;**
 * カウンター：**default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
 
-   この例では、デフォルト値は文字列を連結して構築され、**CounterValue** 関数を任意のカウンター名で呼び出しています。 返される数字は、挿入のたびに 1 ずつ増分されます。
+  この例では、デフォルト値は文字列を連結して構築され、**CounterValue** 関数を任意のカウンター名で呼び出しています。 返される数字は、挿入のたびに 1 ずつ増分されます。
 
-   >[!NOTE]
-   >
-   >Adobe Campaign クライアントコンソールでは、**[!UICONTROL 管理／カウンター]**&#x200B;ノードを使用してカウンターを管理します。
+  >[!NOTE]
+  >
+  >Adobe Campaign クライアントコンソールでは、**[!UICONTROL 管理／カウンター]**&#x200B;ノードを使用してカウンターを管理します。
 
 フィールドにデフォルト値をリンクするには、`<default>  or  <sqldefault>   field.  </sqldefault> </default>` を使用できます
 
@@ -381,13 +381,13 @@ ht-degree: 85%
 
 * **dbenum** プロパティを使用すると、**enum** プロパティと類似したプロパティを持つ定義済みリストを定義できます。
 
-   ただし、**name** 属性は値を内部に格納するのではなく、スキーマを変更せずに関連するテーブルを拡張できるコードを格納します。
+  ただし、**name** 属性は値を内部に格納するのではなく、スキーマを変更せずに関連するテーブルを拡張できるコードを格納します。
 
-   値は、**[!UICONTROL 管理／定義済みリスト]**&#x200B;ノードを介して定義します。
+  値は、**[!UICONTROL 管理／定義済みリスト]**&#x200B;ノードを介して定義します。
 
-   この定義済みリストは、キャンペーンの特性を指定する場合などに使用します。
+  この定義済みリストは、キャンペーンの特性を指定する場合などに使用します。
 
-   ![](assets/d_ncs_configuration_schema_dbenum.png)
+  ![](assets/d_ncs_configuration_schema_dbenum.png)
 
 ### 例 {#example}
 
@@ -456,7 +456,6 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 >* **location/@city** が無効です。**`[location/@city]`** を使用してください。
 >* **`[@email]`** と **@email** は同等です。
 >
-
 
 次の算術演算のように、複雑な式を定義することもできます。
 

@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -24,11 +24,11 @@ ht-degree: 100%
 
 * このアクティビティは、リモートデータソースに対してのみ使用できます。そのため、インスタンスに **[!UICONTROL FDA]**（Federated Data Access）パッケージをインストールする必要があります。[詳細情報](../../installation/using/about-fda.md)。
 
-   詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
+  詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
 
-   ![](assets/do-not-localize/v7.jpeg)[  Campaign v7 ドキュメント](../../installation/using/about-fda.md)
+  ![](assets/do-not-localize/v7.jpeg)[Campaign v7 ドキュメント](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png)[  Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja)
+  ![](assets/do-not-localize/v8.png)[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja)
 
 * アウトバウンドスキーマがデータベースに存在し、FDA データベースにリンクされている必要があります。 
 * ワークフローを実行するオペレーターには、**[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** ネームド権限が必要です。[詳細情報](../../platform/using/access-management-named-rights.md)。
@@ -59,9 +59,9 @@ ht-degree: 100%
    * **activity.tableName**：アウトバウンドワークテーブルの SQL 名
    * **task.incomingTransitionByName(‘name’).tableName**：使用する受信トランジションによって実行される作業用テーブルの SQL 名（トランジションは名前で識別されます）
 
-      >[!NOTE]
-      >
-      >(&#39;name&#39;) 値は、トランジションプロパティの「**[!UICONTROL 名前]**」フィールドに対応しています。
+     >[!NOTE]
+     >
+     >(&#39;name&#39;) 値は、トランジションプロパティの「**[!UICONTROL 名前]**」フィールドに対応しています。
 
 1. アウトバウンド作業用テーブルを作成するコマンドが SQL スクリプトに既に含まれている場合は、「**[!UICONTROL 作業用テーブルを自動作成]**」オプションの選択を解除します。選択を解除しない場合、ワークフローが実行されるとワークテーブルが自動的に作成されます。
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 100%
 
@@ -84,23 +84,23 @@ Adobe Campaign のオペレーターは、ディスカッションフォーラ�
 
 * フォーラムを購読するには、メッセージリストの上のセクション内の右上にある「**[!UICONTROL ディスカッションをフォロー]**」ボタンをクリックします。
 
-   ![](assets/mrm_forum_subscribe.png)
+  ![](assets/mrm_forum_subscribe.png)
 
-   フォーラムに購読登録すると、セクションが青になります。
+  フォーラムに購読登録すると、セクションが青になります。
 
 * フォーラムを購読解除するには、「**[!UICONTROL 購読解除]**」ボタンをクリックします。
 
-   ![](assets/mrm_forum_unsubscribe.png)
+  ![](assets/mrm_forum_unsubscribe.png)
 
 * 個人用ダッシュボードに、購読済みのフォーラムのリストが表示されます。「**[!UICONTROL ディスカッションフォーラムの購読]**」リンクをクリックしてリストを表示し、関心がある項目をクリックしてフォーラムにアクセスします。
 
-   ![](assets/platform_dashboard_operator_subscr_forums.png)
+  ![](assets/platform_dashboard_operator_subscr_forums.png)
 
-   個人用ダッシュボードについて詳しくは、[この節](../../platform/using/access-management-operators.md)を参照してください。
+  個人用ダッシュボードについて詳しくは、[この節](../../platform/using/access-management-operators.md)を参照してください。
 
 * フォーラムの購読者を確認するには、メッセージリストの上にある「**[!UICONTROL このディスカッションフォーラムの購読者のリスト]**」リンクをクリックします。
 
-   ![](assets/mrm_forum_subscribers.png)
+  ![](assets/mrm_forum_subscribers.png)
 
 ## 通知配信の確認 {#checking-notification-delivery}
 
@@ -112,4 +112,5 @@ Adobe Campaign のオペレーターは、ディスカッションフォーラ�
 
    * Adobe Campaign のホームページで、**[!UICONTROL キャンペーン／ブラウジング／配信]**&#x200B;に移動し、「**[!UICONTROL ディスカッションフォーラムの通知]**」の配信を開きます。
    * エクスプローラーで、**[!UICONTROL 管理／プロダクション／自動作成されたオブジェクト／テクニカル配信／ワークフローの通知]**&#x200B;に移動し、「**[!UICONTROL ディスカッションフォーラムの通知]**」をクリックします。
-   「**[!UICONTROL ディスカッションフォーラムの通知]**」ボックスの「**[!UICONTROL 編集／配信]**」タブで配信ログを確認します。「**[!UICONTROL トラッキング／ログ]**」および「**[!UICONTROL 除外の原因]**」タブを確認することもできます。
+
+  「**[!UICONTROL ディスカッションフォーラムの通知]**」ボックスの「**[!UICONTROL 編集／配信]**」タブで配信ログを確認します。「**[!UICONTROL トラッキング／ログ]**」および「**[!UICONTROL 除外の原因]**」タブを確認することもできます。

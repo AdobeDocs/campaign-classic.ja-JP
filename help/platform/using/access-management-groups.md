@@ -8,7 +8,7 @@ role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 100%
 
@@ -69,6 +69,7 @@ ht-degree: 100%
 
    * **[!UICONTROL フォルダーを挿入]**：Adobe Campaign ツリーにフォルダーを挿入する権限（関係する分岐に対して編集権限を持っていることが前提）。
    * **[!UICONTROL ワークフロー]**：ワークフローを使用する権限。
+
    >[!NOTE]
    >
    >このグループのオペレーターに配信開始の権利は付与されません。

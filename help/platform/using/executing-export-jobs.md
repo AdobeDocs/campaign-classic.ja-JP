@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 100%
 
@@ -53,17 +53,17 @@ ht-degree: 100%
 
 * デフォルトでは、「**[!UICONTROL エクスポート後にサーバーで生成されたファイルをダウンロードする]**」オプションが選択されています。「**[!UICONTROL ローカルファイル]**」フィールドで、作成するファイルの名前とパスを入力するか、フィールドの右側にあるフォルダーをクリックしてローカルディスクを参照します。このオプションの選択を解除して、サーバー出力ファイルのアクセスパスと名前を入力できます。
 
-   >[!NOTE]
-   >
-   >自動インポートおよびエクスポートジョブは、常にサーバーで実行されます。
-   >
-   >データの一部のみをエクスポートするには、「**[!UICONTROL 詳細設定パラメーター]**」をクリックし、エクスポートするライン数を該当するフィールドに入力します。
+  >[!NOTE]
+  >
+  >自動インポートおよびエクスポートジョブは、常にサーバーで実行されます。
+  >
+  >データの一部のみをエクスポートするには、「**[!UICONTROL 詳細設定パラメーター]**」をクリックし、エクスポートするライン数を該当するフィールドに入力します。
 
 * 差分エクスポートを作成して、最終実行以降に変更されたレコードのみをエクスポートできます。そのためには、「**[!UICONTROL 詳細設定パラメーター]**」リンクをクリックし、「**[!UICONTROL 差分エクスポート]**」タブをクリックして、「**[!UICONTROL 差分エクスポートを有効化します]**」を選択します。
 
-   ![](assets/s_ncs_user_export_wizard02_b.png)
+  ![](assets/s_ncs_user_export_wizard02_b.png)
 
-   前回の変更日を入力する必要があります。前回の変更日は、フィールドから取得するか、計算できます。
+  前回の変更日を入力する必要があります。前回の変更日は、フィールドから取得するか、計算できます。
 
 ## 手順 3 - 出力フォーマットの定義 {#step-3---defining-the-output-format}
 
@@ -111,7 +111,7 @@ ht-degree: 100%
    * 大文字に切り替え
    * 最初の文字は大文字
 
-   ![](assets/s_ncs_user_export_wizard06.png)
+  ![](assets/s_ncs_user_export_wizard06.png)
 
 * 新しい計算フィールド（姓 + 名を含む列など）を作成する場合は、**[!UICONTROL 計算フィールドを追加]**&#x200B;をクリックします。詳しくは、[集計フィールド](../../platform/using/executing-import-jobs.md#calculated-fields)を参照してください。
 

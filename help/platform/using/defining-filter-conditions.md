@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3394'
 ht-degree: 100%
 
@@ -134,15 +134,15 @@ ht-degree: 100%
 * **[!UICONTROL および]**：条件を追加し、オーバーフィルターが可能です。
 * **[!UICONTROL または]**：条件を追加し、オーバーフィルターが可能です。
 
-   次の例では、E メールドメインに「orange.co.jp」が含まれているか、郵便番号が「123」で始まる受信者を検索できます。
+  次の例では、E メールドメインに「orange.co.jp」が含まれているか、郵便番号が「123」で始まる受信者を検索できます。
 
-   ![](assets/query_condition_modif_02.png)
+  ![](assets/query_condition_modif_02.png)
 
 * **[!UICONTROL 例外]**：2 つのフィルターがあり、最初のフィルターで値が返されない場合、このタイプのリンクでは例外が作成されます。
 
-   次の例では、E メールドメインに「orange.co.jp」が含まれている受信者が返されますが、受信者の姓が「田中」である場合を除きます。
+  次の例では、E メールドメインに「orange.co.jp」が含まれている受信者が返されますが、受信者の姓が「田中」である場合を除きます。
 
-   ![](assets/query_condition_modif_03.png)
+  ![](assets/query_condition_modif_03.png)
 
 次の例のフィルターでは、スペイン語を話す受信者、またはモバイル番号がある女性、またはアカウント番号がない受信者、および会社名が「N」の文字で始まる受信者が表示されます。
 
@@ -155,7 +155,7 @@ ht-degree: 100%
 * 右向き矢印を使用して、括弧レベルをフィルターに追加できます。
 * 左向き矢印を使用して、選択した括弧レベルをフィルターから削除できます。
 
-   ![](assets/query_condition_modif_04.png)
+  ![](assets/query_condition_modif_04.png)
 
 * 上下矢印を使用して、条件を移動することで実行順序を変更できます。
 
@@ -266,7 +266,6 @@ ht-degree: 100%
 >* 出力列の順序を変更するには、矢印を使用します。
 >* **[!UICONTROL 値の配分]**&#x200B;は、選択したフィールドの値の配分を表示する方法として機能します（例えば、受信者の市区町村、受信者の言語などにリンクした配信）。
 
-
 ## 計算フィールドの作成 {#creating-calculated-fields}
 
 必要に応じて、データフォーマット中に列を追加します。計算フィールドによって、データのプレビューセクションに列が追加されます。**[!UICONTROL 計算フィールドを追加]**&#x200B;をクリックします。
@@ -277,25 +276,25 @@ ht-degree: 100%
 
 * **[!UICONTROL 固定文字列]**：一連の文字列を追加できます。
 
-   ![](assets/query_editor_nveau_60.png)
+  ![](assets/query_editor_nveau_60.png)
 
 * **[!UICONTROL JavaScript タグを含む文字列]**：一連の文字列と JavaScript ディレクティブを組み合わせた計算フィールドの値。
 
-   ![](assets/query_editor_nveau_61.png)
+  ![](assets/query_editor_nveau_61.png)
 
 * **[!UICONTROL JavaScript 式]**：計算フィールドの値は JavaScript 関数評価の結果です。返される値はタイプ指定できます（数値、日付など）。
 
-   ![](assets/query_editor_nveau_62.png)
+  ![](assets/query_editor_nveau_62.png)
 
 * **[!UICONTROL 列挙]**：このタイプのフィールドでは、いずれかの出力列の内容を新しい列で使用または変更できます。
 
-   列のソース値を使用し、宛先値を割り当てることができます。この宛先値は新しい出力列に表示されます。
+  列のソース値を使用し、宛先値を割り当てることができます。この宛先値は新しい出力列に表示されます。
 
-   「**[!UICONTROL 列挙]**」タイプ計算フィールドを追加する例は、[この節](../../workflow/using/adding-enumeration-type-calculated-field.md)で確認できます。
+  「**[!UICONTROL 列挙]**」タイプ計算フィールドを追加する例は、[この節](../../workflow/using/adding-enumeration-type-calculated-field.md)で確認できます。
 
-   ![](assets/query_editor_nveau_63.png)
+  ![](assets/query_editor_nveau_63.png)
 
-   「**[!UICONTROL 列挙]**」タイプ計算フィールドには、次の 4 つの条件を含めることができます。
+  「**[!UICONTROL 列挙]**」タイプ計算フィールドには、次の 4 つの条件を含めることができます。
 
    * 「**[!UICONTROL ソースの値を保持]**」では、ソース値が変更されずにターゲットに復元されます。
    * 「**[!UICONTROL 次の値を使用]**」では、定義されていないソース値に対してデフォルトの宛先値を入力できます。
@@ -341,7 +340,7 @@ ht-degree: 100%
    * 「**[!UICONTROL 最小値]**」では、顧客を並べ替え、最近オファーを購読した顧客を検索できます。
    * 「**[!UICONTROL 平均]**」。この関数では、受信者の平均年齢を計算できます。
 
-      「**[!UICONTROL ユニーク]**」ボックスでは、列の一意のゼロ以外の値を収集できます。例えば、受信者のすべてのトラッキングログを収集し、すべて同じ受信者に関連するトラッキングログを値 1 に変更できます。
+     「**[!UICONTROL ユニーク]**」ボックスでは、列の一意のゼロ以外の値を収集できます。例えば、受信者のすべてのトラッキングログを収集し、すべて同じ受信者に関連するトラッキングログを値 1 に変更できます。
 
 1. 「**[!UICONTROL 式]**」では、**[!UICONTROL 式を編集]**&#x200B;ウィンドウを開きます。これにより、数字が非常に多く、入力エラーを起こしやすい電話番号を検出できます。
 

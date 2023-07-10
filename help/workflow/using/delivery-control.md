@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
 
@@ -28,11 +28,11 @@ ht-degree: 100%
 
 * **[!UICONTROL アウトバウンドトランジションを生成]**
 
-   実行の終了時に有効化される出力トランジションを生成します。アウトバウンド配信のターゲットを取得するかどうかを選択できます。
+  実行の終了時に有効化される出力トランジションを生成します。アウトバウンド配信のターゲットを取得するかどうかを選択できます。
 
 * **[!UICONTROL エラーを処理]**
 
-   [エラーを処理](monitoring-workflow-execution.md#processing-errors)を参照してください。
+  [エラーを処理](monitoring-workflow-execution.md#processing-errors)を参照してください。
 
 ## 入力パラメーター {#input-parameters}
 

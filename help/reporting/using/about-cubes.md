@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
 
@@ -43,22 +43,22 @@ ht-degree: 100%
 
 * データのエクスポートは、Adobe Campaign プラットフォームの「**[!UICONTROL レポート]**」タブで設計されたレポートで直接実行できます。
 
-   それには、新しいレポートを作成し、使用するキューブを選択します。
+  それには、新しいレポートを作成し、使用するキューブを選択します。
 
-   ![](assets/cube_create_new.png)
+  ![](assets/cube_create_new.png)
 
-   キューブは、作成するレポートの基になるテンプレートのように表示されます。テンプレートを選択したら、「**[!UICONTROL 作成]**」をクリックして、対応するレポートを設定および表示します。
+  キューブは、作成するレポートの基になるテンプレートのように表示されます。テンプレートを選択したら、「**[!UICONTROL 作成]**」をクリックして、対応するレポートを設定および表示します。
 
-   測定の適合化、表示モードの変更またはテーブルの設定をおこなってから、メインボタンを使用してレポートを表示できます。
+  測定の適合化、表示モードの変更またはテーブルの設定をおこなってから、メインボタンを使用してレポートを表示できます。
 
-   ![](assets/cube_display_new.png)
+  ![](assets/cube_display_new.png)
 
 * レポートの「**[!UICONTROL クエリ]**」ボックスでキューブを参照して、その指標を使用することもできます（下図参照）。
 
-   ![](assets/s_advuser_query_using_a_cube.png)
+  ![](assets/s_advuser_query_using_a_cube.png)
 
 * キューブに基づいたピボットテーブルをレポートの任意のページに挿入することもできます。それには、該当するページにあるピボットテーブルの「**[!UICONTROL データ]**」タブで、使用するキューブを参照します。
 
-   ![](assets/s_advuser_cube_in_report.png)
+  ![](assets/s_advuser_cube_in_report.png)
 
-   詳しくは、[レポートのデータを調べる](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report)を参照してください。
+  詳しくは、[レポートのデータを調べる](../../reporting/using/using-cubes-to-explore-data.md#exploring-the-data-in-a-report)を参照してください。

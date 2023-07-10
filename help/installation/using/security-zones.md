@@ -30,6 +30,7 @@ ht-degree: 29%
 >As a **ホスト** 顧客、 [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)セキュリティゾーンセルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)
 >
 >その他 **ハイブリッド/ホスト** のお客様は、Adobeサポートチームに連絡して、IP をチームに追加する必要があり許可リストます。
+>
 
 ## セキュリティゾーンの作成 {#creating-security-zones}
 
@@ -150,15 +151,15 @@ Message Center を使用する場合、複数の実行インスタンスがあ�
 
 * サブネットワークはセキュリティゾーンで直接参照され、プロキシは設定されません。サブネットワークのユーザーは、Adobe Campaignサーバーに直接接続できます。
 
-   ![](assets/8101_proxy1.png)
+  ![](assets/8101_proxy1.png)
 
 * セキュリティゾーンのサブネットワークに対してプロキシが指定されています。このサブネットワークのユーザーは、このプロキシ経由でAdobe Campaignサーバーにアクセスできます。
 
-   ![](assets/8101_proxy2.png)
+  ![](assets/8101_proxy2.png)
 
 * プロキシは、セキュリティゾーンのサブネットワークに含まれます。このプロキシを通じてアクセスできるユーザーは、接続元に関係なく、Adobe Campaignサーバーにアクセスできます。
 
-   ![](assets/8101_proxy3.png)
+  ![](assets/8101_proxy3.png)
 
 Adobe Campaignサーバーにアクセスする可能性が高いプロキシの IP アドレスは、 **`<subnetwork>`** 関係するサブネットワークと第 1 レベルのサブネットワーク **`<subnetwork name="all"/>`**. 例えば、IP アドレスが 10.131.146.102 のプロキシの場合は、次のようになります。
 
@@ -240,15 +241,15 @@ Adobe Campaignサーバーにアクセスする可能性が高いプロキシの
 
    * allowDebug を false に設定すると、出力は次のようになります。
 
-      ```
-      <redir status='OK' date='...' sourceIP='...'/>
-      ```
+     ```
+     <redir status='OK' date='...' sourceIP='...'/>
+     ```
 
    * allowDebug が true に設定されている場合の出力は次のようになります。
 
-      ```
-      <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
-      ```
+     ```
+     <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
+     ```
 
 * allowEmptyPassword、allowUserPassword、allowSQLInjection は決して true に設定しないでください。これらの属性は、v5 や v6.0 からの移行のためだけにあります。
 

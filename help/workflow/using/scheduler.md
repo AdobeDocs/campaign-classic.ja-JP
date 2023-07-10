@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 * スケジューラーアクティビティを使用すると、同時に複数のワークフローが実行される場合があります。例えば、1 時間ごとにワークフローの実行をトリガーするようにスケジューラーを設定できますが、ワークフロー全体の実行に 1 時間以上かかる場合があります。
 
-   ワークフローが既に実行中の場合、実行をスキップしたいことがあります。ワークフローの同時実行を防ぐ方法について詳しくは、[このページ](monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)を参照してください。
+  ワークフローが既に実行中の場合、実行をスキップしたいことがあります。ワークフローの同時実行を防ぐ方法について詳しくは、[このページ](monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions)を参照してください。
 
 * なお、ワークフローがインポートなどの長期タスクを実行している場合、または wfserver が当分の間停止している場合は、トランジションを数時間後に有効化することができます。この場合、スケジューラーによって有効化されるタスクの実行の制限が一定期間必要になることがあります。
 

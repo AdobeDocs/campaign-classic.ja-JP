@@ -9,7 +9,7 @@ topic-tags: use-cases
 feature: Workflows, Data Management
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 100%
 
@@ -23,15 +23,15 @@ ht-degree: 100%
 
 * どのテーブルを選択する必要がありますか。
 
-   受信者テーブル（nms:recipient）
+  受信者テーブル（nms:recipient）
 
 * 出力列に選択するフィールドは何ですか。
 
-   「姓」、「名」、「性別」
+  「姓」、「名」、「性別」
 
 * どのような条件に基づいて情報をフィルターしますか。
 
-   受信者の言語
+  受信者の言語
 
 次の手順に従います。
 

@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 100%
 
@@ -35,31 +35,31 @@ ht-degree: 100%
 
 * ミラーページリンクのインクルード：
 
-   ```
-   <%@ include view="MirrorPage" %>  
-   ```
+  ```
+  <%@ include view="MirrorPage" %>  
+  ```
 
 * ミラーページの URL：
 
-   ```
-   View as a <a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page.
-   ```
+  ```
+  View as a <a href="<%@ include view='MirrorPageUrl' %>" _label="Mirror Page" _type="mirrorPage">web page.
+  ```
 
 * 標準の購読解除 URL：
 
-   ```
-   <%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>
-   ```
+  ```
+  <%@ include option='NmsServer_URL' %>/webApp/unsub?id=<%= escapeUrl(recipient.cryptedId)%>
+  ```
 
 * その他の例：
 
-   ```
-   <%@ include file='http://www.google.com' %>
-   <%@ include file='file:///X:/france/service/test.html' %>
-   <%@ include option='NmsServer_URL' %>
-   ```
+  ```
+  <%@ include file='http://www.google.com' %>
+  <%@ include file='file:///X:/france/service/test.html' %>
+  <%@ include option='NmsServer_URL' %>
+  ```
 
-   正しい構文を取得するには、配信ウィザードのパーソナライゼーションボタンを使用します。
+  正しい構文を取得するには、配信ウィザードのパーソナライゼーションボタンを使用します。
 
 ## [!DNL value] {#value}
 
@@ -87,17 +87,17 @@ E メールのパーソナライゼーションの場合、delivery オブジェ
 
 * JavaScript の使用：
 
-   ```
-   <%= delivery.myField %>`.
-   ```
+  ```
+  <%= delivery.myField %>`.
+  ```
 
-   JavaScript オブジェクト配信では、カスタムフィールドはサポートされていません。プレビューでは動作しますが、MTA では動作しません（MTA は標準の配信スキーマのみアクセス可能）。
+  JavaScript オブジェクト配信では、カスタムフィールドはサポートされていません。プレビューでは動作しますが、MTA では動作しません（MTA は標準の配信スキーマのみアクセス可能）。
 
 * 前処理の使用：
 
-   ```
-   <%@ value object="delivery"
-   ```
+  ```
+  <%@ value object="delivery"
+  ```
 
 
 **注意**

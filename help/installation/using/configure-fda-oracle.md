@@ -50,18 +50,18 @@ FDA で Oracle 外部データベースに接続するには、Adobe Campaign �
 
    * **libclntsh.so**
 
-      ```
-      cd /usr/lib/oracle/<version>/client<architecture>/lib
-      ln -s libclntsh.so.<version> libclntsh.so
-      ```
+     ```
+     cd /usr/lib/oracle/<version>/client<architecture>/lib
+     ln -s libclntsh.so.<version> libclntsh.so
+     ```
 
    * **libaio1**
 
-      ```
-      aptitude install libaio1
-      or
-      yum install libaio1
-      ```
+     ```
+     aptitude install libaio1
+     or
+     yum install libaio1
+     ```
 
 1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、 [この節](#oracle-external).
 
@@ -98,4 +98,5 @@ FDA で Oracle 外部データベースに接続するには、Adobe Campaign �
    * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード
 
    * **[!UICONTROL タイムゾーン]**：サーバーのタイムゾーン
+
    ![](assets/oracle_config.png)

@@ -5,7 +5,7 @@ description: 新しいレポートを作成するための主な手順を学ぶ
 feature: Reporting
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 100%
 
@@ -145,15 +145,15 @@ ht-degree: 100%
 
 * ラジオボタンまたはチェックボックス
 
-   ![](assets/reporting_radio_buttons.png)
+  ![](assets/reporting_radio_buttons.png)
 
 * ドロップダウンリスト
 
-   ![](assets/reporting_control_list.png)
+  ![](assets/reporting_control_list.png)
 
 * カレンダー
 
-   ![](assets/reporting_control_date.png)
+  ![](assets/reporting_control_date.png)
 
 また、レポートに 1 つまたは複数の高度なコントロールを組み込むことができます。このタイプのコントロールを使用すると、リンクや定数を挿入したり、フォルダーを選択したりできます。
 

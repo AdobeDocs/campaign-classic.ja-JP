@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Email
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 100%
 
@@ -111,12 +111,12 @@ web アプリケーショントラッキングのオプトアウトを使用す�
 
 * trackinglogd プロセスが実行中であることを確認します。
 
-   このプロセスは、IIS/web サーバーの共有メモリから読み取り、リダイレクトログを書き込みます。
+  このプロセスは、IIS/web サーバーの共有メモリから読み取り、リダイレクトログを書き込みます。
 
-   ホームページからアクセスするには、インスタンスの「監視」タブを選択します。また、インスタンスで次のコマンドを実行することもできます。`<user>@<instance>:~$ nlserver pdump`
+  ホームページからアクセスするには、インスタンスの「監視」タブを選択します。また、インスタンスで次のコマンドを実行することもできます。`<user>@<instance>:~$ nlserver pdump`
 
-   trackinglogd プロセスがリストに表示されない場合は、インスタンスで次のコマンドを使用して起動します。`<user>@<instance>:~$ nlserver start trackinglogd`
+  trackinglogd プロセスがリストに表示されない場合は、インスタンスで次のコマンドを使用して起動します。`<user>@<instance>:~$ nlserver start trackinglogd`
 
 * トラッキングテクニカルワークフローが最近実行されていることを確認します。
 
-   トラッキングのテクニカルワークフローは、管理／製品／テクニカルワークフローのフォルダーで確認できます。
+  トラッキングのテクニカルワークフローは、管理／製品／テクニカルワークフローのフォルダーで確認できます。

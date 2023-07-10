@@ -57,10 +57,10 @@ SELECT * FROM nls_database_parameters ;
 
 * Unicode インストールの場合、次のエンコードがサポートされます。
 
-   ```
-   NLS_NCHAR_CHARACTERSET         AL16UTF16
-   NLS_CHARACTERSET         AL32UTF8
-   ```
+  ```
+  NLS_NCHAR_CHARACTERSET         AL16UTF16
+  NLS_CHARACTERSET         AL32UTF8
+  ```
 
 * ANSI インストール（非 Unicode）の場合、次のエンコーディングのみがサポートされます。
 

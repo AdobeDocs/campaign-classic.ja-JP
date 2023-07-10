@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: advanced-parameters
 exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 100%
 
@@ -73,17 +73,17 @@ ht-degree: 100%
 
 * aProposition：実施要件を満たす提案のテーブル。次に、このテーブルに含まれる要素の構造の例を示します。
 
-   ```
-   { offer_id:1234,
-     weight:2}
-   ```
+  ```
+  { offer_id:1234,
+    weight:2}
+  ```
 
 * dicOffer（xml タイプ）：実施要件を満たすオファーのすべての属性（オファーコード、カテゴリ ID、カテゴリの完全な名前、開始日、終了日、ラベル、内部名、オファー ID、追加のオファーフィールド）を含んだ辞書。次に例を示します。
 
-   ```
-   { "1242": <offer category-id="61242" categoryFullName="/FULL/PATH/TO/CATEGORY/" code="CODE" endDate="" id="62473" label="LABEL" name="OFR38_OE4" product-id="43" startDate=""/>,
-     "1243": ...}
-   ```
+  ```
+  { "1242": <offer category-id="61242" categoryFullName="/FULL/PATH/TO/CATEGORY/" code="CODE" endDate="" id="62473" label="LABEL" name="OFR38_OE4" product-id="43" startDate=""/>,
+    "1243": ...}
+  ```
 
 * xmlTarget（xml タイプ）：プロファイルデータノード
 * xmlInteraction（xml タイプ）：呼び出しデータノード

@@ -31,32 +31,32 @@ ht-degree: 3%
 
    * **Tomcat** サイド：実際にAdobe Campaign Tomcat クライアントに到達するすべてのクエリ。
 
-      このしきい値は、 **nl6/tomcat-8/conf/server.xml** ファイル。 この **maxThreads** 属性を使用すると、一度に処理されるクエリ数のしきい値を増やすことができます。 例えば、250 に変更できます。
+     このしきい値は、 **nl6/tomcat-8/conf/server.xml** ファイル。 この **maxThreads** 属性を使用すると、一度に処理されるクエリ数のしきい値を増やすことができます。 例えば、250 に変更できます。
 
-      ```
-      <Connector protocol="HTTP/1.1" port="8080"
-                     maxThreads="75"
-                     minSpareThreads="5"
-                     enableLookups="true" redirectPort="8443"
-                     acceptCount="100" connectionTimeout="20000"
-                     disableUploadTimeout="true" />
-          <Engine name="Tomcat-Standalone" defaultHost="localhost">
-            <Host name="localhost" appBase="./"
-                  unpackWARs="true" autoDeploy="true">
-      ```
+     ```
+     <Connector protocol="HTTP/1.1" port="8080"
+                    maxThreads="75"
+                    minSpareThreads="5"
+                    enableLookups="true" redirectPort="8443"
+                    acceptCount="100" connectionTimeout="20000"
+                    disableUploadTimeout="true" />
+         <Engine name="Tomcat-Standalone" defaultHost="localhost">
+           <Host name="localhost" appBase="./"
+                 unpackWARs="true" autoDeploy="true">
+     ```
 
    * **データベース**:プロセスによってデータベース上で同時に開かれるすべての接続のセット。
 
-      このしきい値はファイルで設定されています **nl6/conf/serverConf.xml**. この **maxCnx** 属性 **データソースプール** を使用すると、同時に処理されるクエリのしきい値を増やすことができます。
+     このしきい値はファイルで設定されています **nl6/conf/serverConf.xml**. この **maxCnx** 属性 **データソースプール** を使用すると、同時に処理されるクエリのしきい値を増やすことができます。
 
-      ```
-          <!-- Data source
-               -->
-            <dataSource name="default">
-              <dbcnx NChar="" bulkCopyUtility="" dbSchema="" encrypted="" login="" password="" provider="" server="" timezone="" unicodeData="" useTimestampTZ=""/>
-              <sqlParams funcPrefix="">
-                <postConnectSQL/>
-              </sqlParams>
-              <pool aliveTestDelaySec="600" freeCnx="0" maxCnx="90" maxIdleDelaySec="1200"/>
-            </dataSource>
-      ```
+     ```
+         <!-- Data source
+              -->
+           <dataSource name="default">
+             <dbcnx NChar="" bulkCopyUtility="" dbSchema="" encrypted="" login="" password="" provider="" server="" timezone="" unicodeData="" useTimestampTZ=""/>
+             <sqlParams funcPrefix="">
+               <postConnectSQL/>
+             </sqlParams>
+             <pool aliveTestDelaySec="600" freeCnx="0" maxCnx="90" maxIdleDelaySec="1200"/>
+           </dataSource>
+     ```

@@ -113,7 +113,7 @@ nlserver config -internalpassword
 
 * 権限を持たないユーザーはAdobe Campaignに接続できなくなりました。 権限は、例えば、 **接続**.
 
-   この変更の影響を受けるユーザーは、アップグレード後に特定され、一覧表示されます。
+  この変更の影響を受けるユーザーは、アップグレード後に特定され、一覧表示されます。
 
 * パスワードが空の場合、トラッキングは機能しなくなりました。 その場合は、エラーメッセージが表示され、再設定を求められます。
 * ユーザーパスワードが **xtk:sessionInfo** スキーマ。
@@ -205,47 +205,47 @@ Adobe Campaign v7 は、より新しい JavaScript インタープリターを�
 
 * 以前の構文：
 
-   ```
-   employee.@sn
-   ```
+  ```
+  employee.@sn
+  ```
 
 * 新しい構文：
 
-   ```
-   employee["sn"]
-   ```
+  ```
+  employee["sn"]
+  ```
 
 XML オブジェクト内の値を変更するには、XML ノードを追加する前に値を更新して開始する必要があります。
 
 * 古い JavaScript コード：
 
-   ```
-   var cellStyle = node.style.copy();
-   this.styles.appendChild(cellStyle);
-   cellStyle.@width = column.@width;
-   ```
+  ```
+  var cellStyle = node.style.copy();
+  this.styles.appendChild(cellStyle);
+  cellStyle.@width = column.@width;
+  ```
 
 * 新しい JavaScript コード：
 
-   ```
-   var cellStyle = node.style.copy();
-   cellStyle.@width = column.@width;
-   this.styles.appendChild(cellStyle);
-   ```
+  ```
+  var cellStyle = node.style.copy();
+  cellStyle.@width = column.@width;
+  this.styles.appendChild(cellStyle);
+  ```
 
 XML 属性をテーブルキーとして使用できなくなりました。
 
 * 以前の構文：
 
-   ```
-   if(serverForm.activities[ctx.activityHistory.activity[0].@name].type !="end")
-   ```
+  ```
+  if(serverForm.activities[ctx.activityHistory.activity[0].@name].type !="end")
+  ```
 
 * 新しい構文：
 
-   ```
-   if(serverForm.activities[String(ctx.activityHistory.activity[0].@name)].type !="end"
-   ```
+  ```
+  if(serverForm.activities[String(ctx.activityHistory.activity[0].@name)].type !="end"
+  ```
 
 ### SQLData {#sqldata}
 
@@ -289,53 +289,53 @@ allowSQLInjection="false"
 
 * 以前の構文：
 
-   ```
-   <condition expr="@id NOT IN ([SQLDATA[SELECT iOperatorId FROM XtkOperatorGroup WHERE iGroupId = $(../@owner-id)]])" enabledIf="$(/ignored/@ownerType)=1"/>
-   ```
+  ```
+  <condition expr="@id NOT IN ([SQLDATA[SELECT iOperatorId FROM XtkOperatorGroup WHERE iGroupId = $(../@owner-id)]])" enabledIf="$(/ignored/@ownerType)=1"/>
+  ```
 
 * 新しい構文：
 
-   ```
-   <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
-     <subQuery schema="xtk:operatorGroup">
-        <select>
-          <node expr="[@operator-id]" />
-        </select>
-        <where>
-          <condition expr="[@group-id]=$long(../@owner-id)"/>
-        </where>
-      </subQuery>
-   </condition>
-   ```
+  ```
+  <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
+    <subQuery schema="xtk:operatorGroup">
+       <select>
+         <node expr="[@operator-id]" />
+       </select>
+       <where>
+         <condition expr="[@group-id]=$long(../@owner-id)"/>
+       </where>
+     </subQuery>
+  </condition>
+  ```
 
 * 以前の構文：
 
-   ```
-   <queryFilter name="dupEmail" label="Emails duplicated in the folder" schema="nms:recipient">
-       <where>
-         <condition sql="sEmail in (select sEmail from nmsRecipient where iFolderId=$(folderId) group by sEmail having count(sEmail)>1)" internalId="1"/>
-       </where>
-       <folder _operation="none" name="nmsSegment"/>
-     </queryFilter>
-   ```
+  ```
+  <queryFilter name="dupEmail" label="Emails duplicated in the folder" schema="nms:recipient">
+      <where>
+        <condition sql="sEmail in (select sEmail from nmsRecipient where iFolderId=$(folderId) group by sEmail having count(sEmail)>1)" internalId="1"/>
+      </where>
+      <folder _operation="none" name="nmsSegment"/>
+    </queryFilter>
+  ```
 
 * 新しい構文：
 
-   ```
-   <queryFilter name="dupEmail" label=" Emails duplicated in the folder " schema="nms:recipient">
-       <where>
-         <condition expr="@email" setOperator="IN" internalId="1">
-           <subQuery schema="nms:recipient">
-             <select><node expr="@email"/></select>
-             <where><condition expr="[@folder-id]=$(folderId)"/></where>
-             <groupBy><node expr="@email"/></groupBy>
-             <having><condition expr="count(@email)>1"/></having>
-           </subQuery>
-         </condition>
-       </where>
-       <folder _operation="none" name="nmsSegment"/>
-     </queryFilter>
-   ```
+  ```
+  <queryFilter name="dupEmail" label=" Emails duplicated in the folder " schema="nms:recipient">
+      <where>
+        <condition expr="@email" setOperator="IN" internalId="1">
+          <subQuery schema="nms:recipient">
+            <select><node expr="@email"/></select>
+            <where><condition expr="[@folder-id]=$(folderId)"/></where>
+            <groupBy><node expr="@email"/></groupBy>
+            <having><condition expr="count(@email)>1"/></having>
+          </subQuery>
+        </condition>
+      </where>
+      <folder _operation="none" name="nmsSegment"/>
+    </queryFilter>
+  ```
 
 **集計**
 
@@ -343,34 +343,34 @@ allowSQLInjection="false"
 
 * 以前の構文：
 
-   ```
-   <node sql="(select count(*) from NmsNewsgroup WHERE O0.iOperationId=iOperationId)" alias="@nbMessages"/>
-   ```
+  ```
+  <node sql="(select count(*) from NmsNewsgroup WHERE O0.iOperationId=iOperationId)" alias="@nbMessages"/>
+  ```
 
 * 新しい構文：
 
-   ```
-   <node expr="count([newsgroup/@id])" alias="../@nbMessages"/>
-   ```
+  ```
+  <node expr="count([newsgroup/@id])" alias="../@nbMessages"/>
+  ```
 
-   >[!NOTE]
-   >
-   >集計関数に対して、ジョイントが自動的に実行されます。 条件 WHERE O0.iOperationId=iOperationId を指定する必要がなくなりました。
-   >
-   >これにより、&#42;)」関数に置き換えられます。 「countall()」を使用する必要があります。
+  >[!NOTE]
+  >
+  >集計関数に対して、ジョイントが自動的に実行されます。 条件 WHERE O0.iOperationId=iOperationId を指定する必要がなくなりました。
+  >
+  >これにより、&#42;)」関数に置き換えられます。 「countall()」を使用する必要があります。
 
 * 以前の構文：
 
-   ```
-   <node sql="(select Sum(iToDeliver) from NmsDelivery WHERE O0.iOperationId=iOperationId AND iSandboxMode=0 AND iState>=45)" alias="@nbMessages"/>
-   ```
+  ```
+  <node sql="(select Sum(iToDeliver) from NmsDelivery WHERE O0.iOperationId=iOperationId AND iSandboxMode=0 AND iState>=45)" alias="@nbMessages"/>
+  ```
 
 * 新しい構文：
 
-   ```
-   <node expr="Sum([delivery-linkedDelivery/properties/@toDeliver])" alias= "../@sumToDeliver">
-                     <where><condition expr="[validation/@sandboxMode]=0 AND @state>=45" /></where></node>
-   ```
+  ```
+  <node expr="Sum([delivery-linkedDelivery/properties/@toDeliver])" alias= "../@sumToDeliver">
+                    <where><condition expr="[validation/@sandboxMode]=0 AND @state>=45" /></where></node>
+  ```
 
 **結合によるフィルター**
 
@@ -380,16 +380,16 @@ allowSQLInjection="false"
 
 * 以前の構文：
 
-   ```
-   <condition expr={"[" + joinPart.destination.nodePath + "] = [SQLDATA[W." + joinPart.source.SQLName + "]]"}
-                                            aliasSqlTable={nodeSchemaRoot.SQLTable + " W"}/>
-   ```
+  ```
+  <condition expr={"[" + joinPart.destination.nodePath + "] = [SQLDATA[W." + joinPart.source.SQLName + "]]"}
+                                           aliasSqlTable={nodeSchemaRoot.SQLTable + " W"}/>
+  ```
 
 * 新しい構文：
 
-   ```
-   <condition expr={"[" + joinPart.destination.nodePath + "] = [" + nodeSchema.id + ":" + joinPart.source.nodePath + "]]"}/>
-   ```
+  ```
+  <condition expr={"[" + joinPart.destination.nodePath + "] = [" + nodeSchema.id + ":" + joinPart.source.nodePath + "]]"}/>
+  ```
 
 **ヒントとテクニック**
 
@@ -430,16 +430,16 @@ allowSQLInjection="false"
 
 * コマンドラインインターフェイスでは、エラーは 3 つの山形記号で表されます。 **>>>** 同期は自動的に停止します。 警告は二重山形記号で表されます **>>** 同期が完了したら、解決する必要があります。 ポストアップグレードの最後に概要がコマンドプロンプトで表示されます。例：
 
-   ```
-   2013-04-09 07:48:39.749Z        00002E7A          1     info    log     =========Summary of the update==========
-   2013-04-09 07:48:39.749Z        00002E7A          1     info    log     test instance, 6 warning(s) and 0 error(s) during the update.
-   2013-04-09 07:48:39.749Z        00002E7A          1     warning log     The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
-   2013-04-09 07:48:39.749Z        00002E7A          1     warning log     The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
-   2013-04-09 07:48:39.750Z        00002E7A          1     warning log     The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
-   2013-04-09 07:48:39.750Z        00002E7A          1     warning log     Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
-   ```
+  ```
+  2013-04-09 07:48:39.749Z        00002E7A          1     info    log     =========Summary of the update==========
+  2013-04-09 07:48:39.749Z        00002E7A          1     info    log     test instance, 6 warning(s) and 0 error(s) during the update.
+  2013-04-09 07:48:39.749Z        00002E7A          1     warning log     The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
+  2013-04-09 07:48:39.749Z        00002E7A          1     warning log     The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
+  2013-04-09 07:48:39.750Z        00002E7A          1     warning log     The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
+  2013-04-09 07:48:39.750Z        00002E7A          1     warning log     Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
+  ```
 
-   この警告がリソースの競合に関係する場合は、解決するためにオペレーターの注意が必要です。
+  この警告がリソースの競合に関係する場合は、解決するためにオペレーターの注意が必要です。
 
 * この **postupgrade_`<server version number>`ポストアップグレードの時刻 (_T)`>`.log** ファイルには同期結果が含まれます。 デフォルトでは、次のディレクトリで使用できます。 **installation directory/var/`<instance>`postupgrade**. エラーと警告は、 **エラー** および **警告** 属性。
 
@@ -458,9 +458,9 @@ allowSQLInjection="false"
 * **[!UICONTROL 新しいバージョンを承認]**:Adobe Campaignで提供されるリソースがユーザーによって変更されていない場合に推奨されます。
 * **[!UICONTROL 現在のバージョンを保持]**:は、更新が却下されたことを示します。
 
-   >[!IMPORTANT]
-   >
-   >この解決モードを選択すると、新しいバージョンでパッチが失われるおそれがあります。 したがって、このオプションは使用しない、またはエキスパートオペレーター向けにのみ予約することを強くお勧めします。
+  >[!IMPORTANT]
+  >
+  >この解決モードを選択すると、新しいバージョンでパッチが失われるおそれがあります。 したがって、このオプションは使用しない、またはエキスパートオペレーター向けにのみ予約することを強くお勧めします。
 
 競合を手動で解決する場合は、次の手順に従います。
 

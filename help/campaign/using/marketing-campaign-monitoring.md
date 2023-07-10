@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Campaigns, Monitoring
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 
@@ -20,19 +20,19 @@ ht-degree: 100%
 
 * ワークフローの作成または開始、承認、抽出など、一般的にキャンペーンに関して実行されるジョブがアクティビティログに表示されます。
 
-   ![](assets/s_ncs_user_op_edit_exe_tab_a.png)
+  ![](assets/s_ncs_user_op_edit_exe_tab_a.png)
 
 * 「**[!UICONTROL 配信]**」サブタブには、このビューから編集できるキャンペーンのすべての配信が表示されます。編集するには、配信を選択し、「**[!UICONTROL 詳細]**」アイコンをクリックします。
 
-   ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
+  ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
 * 「**[!UICONTROL タスク]**」サブタブには、キャンペーンにリンクされているすべてのタスクがまとめられます。このビューを使用して、タスクを編集または削除できます。タスクは MRM アプリケーションで使用できます。詳しくは、[この節](../../mrm/using/creating-and-managing-tasks.md)を参照してください。
 
-   ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
+  ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
 * サービスプロバイダー向けのメッセージを生成するために作成されたワークフローは、「**[!UICONTROL サービスプロバイダーのジョブ]**」サブタブに表示されます。選択したワークフローを表示するには、「**[!UICONTROL 詳細]**」アイコンをクリックします。
 
-   ![](assets/s_ncs_user_op_edit_exe_tab_d.png)
+  ![](assets/s_ncs_user_op_edit_exe_tab_d.png)
 
 ## 配信トラッキング {#delivery-tracking}
 

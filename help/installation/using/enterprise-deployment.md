@@ -120,19 +120,19 @@ ht-degree: 7%
 
    * コンソールからインスタンスを作成します。
 
-      ![](assets/install_create_new_connexion.png)
+     ![](assets/install_create_new_connexion.png)
 
-      詳しくは、 [インスタンスの作成とログオン](../../installation/using/creating-an-instance-and-logging-on.md).
+     詳しくは、 [インスタンスの作成とログオン](../../installation/using/creating-an-instance-and-logging-on.md).
 
-      または
+     または
 
    * コマンドラインを使用してインスタンスを作成します。
 
-      ```
-      nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
-      ```
+     ```
+     nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
+     ```
 
-      詳しくは、 [インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance).
+     詳しくは、 [インスタンスの作成](../../installation/using/command-lines.md#creating-an-instance).
 
 1. を編集します。 **config-demo.xml** ファイル ( 前のコマンドで作成され、 **config-default.xml** ファイル )、 **mta** （配信） **wfserver** （ワークフロー）、 **inMail** （リバウンドメール）および **stat** （統計）プロセスを有効にしてから、 **アプリ** 統計サーバ：
 

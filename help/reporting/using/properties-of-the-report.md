@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 * **ストレージ**&#x200B;はレポートの作成時に選択されます。レポートのデータテーブルを変更するには、「**[!UICONTROL ドキュメントタイプ]**」フィールドの右にある「**[!UICONTROL リンクを選択]**」アイコンをクリックします。
 
-   ![](assets/s_ncs_advuser_report_properties_02.png)
+  ![](assets/s_ncs_advuser_report_properties_02.png)
 
 * **アクセス制御**&#x200B;パラメーター。これらの設定については、以下で説明します。
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 匿名アクセス]**：このオプションでは、レポートへの無制限アクセスが可能になります。ただし、操作はできません。
 
-   「Web アプリ」テクニカルオペレーターの権限は、レポート要素を表示するために使用されます。 詳しくは、[この節](../../platform/using/access-management-operators.md)を参照してください。
+  「Web アプリ」テクニカルオペレーターの権限は、レポート要素を表示するために使用されます。 詳しくは、[この節](../../platform/using/access-management-operators.md)を参照してください。
 
 * **[!UICONTROL アクセス制御]**：このオプションでは、Adobe Campaign オペレーターがログオン後にレポートにアクセスできるようになります。
 * **[!UICONTROL 特定のアカウントを使用]**：このオプションでは、「**[!UICONTROL オペレーター]**」フィールドで選択したオペレーターの権限でレポートを実行できるようになります。

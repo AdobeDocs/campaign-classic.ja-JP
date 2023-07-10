@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Line App
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 100%
 
@@ -166,19 +166,19 @@ ht-degree: 100%
 
 * **[!UICONTROL パーソナライズされた画像]**
 
-   >[!NOTE]
-   >
-   >**%SIZE%** 変数を使用すると、受信者のモバイルデバイスの画面サイズに応じて画像の表示を最適化できます。
+  >[!NOTE]
+  >
+  >**%SIZE%** 変数を使用すると、受信者のモバイルデバイスの画面サイズに応じて画像の表示を最適化できます。
 
-   ![](assets/line_message_04.png)
+  ![](assets/line_message_04.png)
 
 * **[!UICONTROL デバイスの画面サイズごとの画像 URL]**
 
-   ![](assets/line_message_03.png)
+  ![](assets/line_message_03.png)
 
-   「**[!UICONTROL デバイスの画面サイズごとに画像を定義]**」オプションを使用すると、様々な画像解像度を使用して、モバイルデバイス上の配信の視認性を最適化できます。同じ高さと幅の画像のみがサポートされます。
+  「**[!UICONTROL デバイスの画面サイズごとに画像を定義]**」オプションを使用すると、様々な画像解像度を使用して、モバイルデバイス上の配信の視認性を最適化できます。同じ高さと幅の画像のみがサポートされます。
 
-   画像は、画面サイズに従って定義できます。
+  画像は、画面サイズに従って定義できます。
 
    * 1040 px
    * 700 px
@@ -186,17 +186,17 @@ ht-degree: 100%
    * 300 px
    * 240 px
 
-   >[!CAUTION]
-   >
-   >1040 x 1040 px サイズは、リンクを含むすべての LINE 画像に必須です。
+  >[!CAUTION]
+  >
+  >1040 x 1040 px サイズは、リンクを含むすべての LINE 画像に必須です。
 
-   次に、受信者のモバイルデバイスにポップアップ表示される代替テキストを追加する必要があります。
+  次に、受信者のモバイルデバイスにポップアップ表示される代替テキストを追加する必要があります。
 
 * **[!UICONTROL リンク]**
 
-   「**[!UICONTROL リンク]**」セクションでは、画像を複数のクリック可能な領域に分割する様々なレイアウトから選択できます。それぞれに専用の&#x200B;**[!UICONTROL リンク URL]** を割り当てることができます。
+  「**[!UICONTROL リンク]**」セクションでは、画像を複数のクリック可能な領域に分割する様々なレイアウトから選択できます。それぞれに専用の&#x200B;**[!UICONTROL リンク URL]** を割り当てることができます。
 
-   ![](assets/line_message_05.png)
+  ![](assets/line_message_05.png)
 
 ### ビデオメッセージ配信の設定 {#configuring-a-video-message-delivery}
 

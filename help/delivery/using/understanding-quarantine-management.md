@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3100'
 ht-degree: 100%
 
@@ -39,11 +39,11 @@ Adobe Campaign では、強制隔離されたアドレスのリストを管理�
 
 * **強制隔離**&#x200B;は、プロファイル自体ではなく、**アドレス**（または電話番号など）にのみ適用されます。例えば、メールアドレスが強制隔離されているプロファイルは、プロファイルを更新して新しいアドレスを入力できるので、再び配信アクションのターゲットになる可能性があります。同様に、2 つのプロファイルの電話番号が同じ場合、その番号が強制隔離されると、両方のプロファイルが影響を受けます。
 
-   強制隔離されたアドレスまたは電話番号は、[除外ログ](#identifying-quarantined-addresses-for-a-delivery)（配信の場合）または[強制隔離リスト](#identifying-quarantined-addresses-for-the-entire-platform)（プラットフォーム全体の場合）に表示されます。
+  強制隔離されたアドレスまたは電話番号は、[除外ログ](#identifying-quarantined-addresses-for-a-delivery)（配信の場合）または[強制隔離リスト](#identifying-quarantined-addresses-for-the-entire-platform)（プラットフォーム全体の場合）に表示されます。
 
 * 一方、**ブロックリスト**&#x200B;への登録では、特定のチャネルを購読解除（オプトアウト）した後などは、**プロファイル**&#x200B;は配信のターゲットとなりません。例えば、メールチャネルのブロックリストのプロファイルに 2 つのメールアドレスがある場合、両方のアドレスが配信から除外されます。
 
-   プロファイルが 1 つ以上のチャネルのブロックリストに含まれているかどうかは、プロファイルの「**[!UICONTROL 一般]**」タブの「**[!UICONTROL 今後の連絡は不要]**」セクションで確認できます。詳しくは、[この節](../../platform/using/editing-a-profile.md#general-tab)を参照してください。
+  プロファイルが 1 つ以上のチャネルのブロックリストに含まれているかどうかは、プロファイルの「**[!UICONTROL 一般]**」タブの「**[!UICONTROL 今後の連絡は不要]**」セクションで確認できます。詳しくは、[この節](../../platform/using/editing-a-profile.md#general-tab)を参照してください。
 
 >[!NOTE]
 >
@@ -173,11 +173,10 @@ Adobe Campaign では、エラーメッセージの選定で割り当てられ�
 
    * **エラーテキスト（強制隔離テキスト）**&#x200B;には、「550-5.1.1」が含まれ、かつ&#x200B;**エラーテキスト（強制隔離テキスト）**&#x200B;には、「support.ISP.com」が含まれている
 
-   例えば、「support.ISP.com」は「support.apple.com」または「support.google.com」になります
+  例えば、「support.ISP.com」は「support.apple.com」または「support.google.com」になります
 
    * **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS AM 以降）
    * **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS PM 以前）
-
 
 影響を受ける受信者のリストを受信したら、**[!UICONTROL データを更新]**&#x200B;アクティビティを追加して、メール アドレスのステータスを「**[!UICONTROL 有効]**」に設定し、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローで強制隔離リストから削除されるようにします。また、強制隔離テーブルから削除するだけでもかまいません。
 
@@ -591,21 +590,21 @@ SR Generic DELIVRD 000|#MESSAGE#
 * SMS のエラーコードを E メールのエラーコードと区別するために、すべてのエラーメッセージは **SR** で始まります。
 * エラーメッセージの 2 つ目の部分（この例では **Generic**）は、SMSC 実装の名前（例えば、SMS 外部アカウントの「**[!UICONTROL SMSC 実装名]**」フィールドに定義されている名前）を指します。[このページ](sms-set-up.md#creating-an-smpp-external-account)を参照してください。
 
-   同じエラーコードであってもプロバイダーごとに意味が異なる場合があるので、エラーコードを生成したプロバイダーがこのフィールドでわかります。これにより、該当するプロバイダーのドキュメントでエラーを調べることができます。
+  同じエラーコードであってもプロバイダーごとに意味が異なる場合があるので、エラーコードを生成したプロバイダーがこのフィールドでわかります。これにより、該当するプロバイダーのドキュメントでエラーを調べることができます。
 
 * エラーメッセージの 3 つ目の部分（この例では **DELIVRD**）は、SMS 外部アカウントに定義されたステータス抽出用正規表現を使用して SR から取得されたステータスコードに対応します。
 
-   この正規表現は、外部アカウントの「**[!UICONTROL SMSC 特異性]**」タブで指定します。[このページ](sms-set-up.md#creating-an-smpp-external-account)を参照してください。
+  この正規表現は、外部アカウントの「**[!UICONTROL SMSC 特異性]**」タブで指定します。[このページ](sms-set-up.md#creating-an-smpp-external-account)を参照してください。
 
-   ![](assets/tech_quarant_error_regex.png)
+  ![](assets/tech_quarant_error_regex.png)
 
-   デフォルトでは、**SMPP 3.4 仕様**&#x200B;の&#x200B;**付録 B** に規定されているとおり、**stat:** フィールドが抽出されます。
+  デフォルトでは、**SMPP 3.4 仕様**&#x200B;の&#x200B;**付録 B** に規定されているとおり、**stat:** フィールドが抽出されます。
 
 * エラーメッセージの 4 つ目の部分（この例では **000**）は、SMS 外部アカウントに定義されたエラーコード抽出用正規表現を使用して SR から抽出されたエラーコードに対応します。
 
-   この正規表現は、外部アカウントの「**[!UICONTROL SMSC 特異性]**」タブで指定します。[このページ](sms-set-up.md#creating-an-smpp-external-account)を参照してください。
+  この正規表現は、外部アカウントの「**[!UICONTROL SMSC 特異性]**」タブで指定します。[このページ](sms-set-up.md#creating-an-smpp-external-account)を参照してください。
 
-   デフォルトでは、**SMPP 3.4 仕様**&#x200B;の&#x200B;**付録 B** に規定されているとおり、**err:** フィールドが抽出されます。
+  デフォルトでは、**SMPP 3.4 仕様**&#x200B;の&#x200B;**付録 B** に規定されているとおり、**err:** フィールドが抽出されます。
 
 * パイプ記号（|）以降の文字列は、**[!UICONTROL 配信ログの検証]**&#x200B;テーブルの&#x200B;**[!UICONTROL 最初のテキスト]**&#x200B;列にのみ表示されます。このコンテンツは、常に、メッセージが正規化された後に **#MESSAGE#** で置き換えられます。これにより、同じようなエラーに対して複数のエントリが含まれるのを防ぐことができます。これは、E メールの場合と同じです。詳しくは、[バウンスメールの選定](understanding-delivery-failures.md#bounce-mail-qualification)を参照してください。
 

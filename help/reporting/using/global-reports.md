@@ -6,7 +6,7 @@ badge: label="v7" type="Informative" tooltip="Campaign Classic v7 のみに適�
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 100%
 
@@ -102,13 +102,13 @@ ht-degree: 100%
 * **[!UICONTROL 未到達]**：SMTP リレーでのインシデント、ドメインへの一時的な未到達など、メッセージ配分文字列で発生するエラータイプ。
 * **[!UICONTROL 未接続]**：受信者の携帯電話の電源が入っていない、または送信時にネットワーク接続が切断されていることを示すエラータイプ。
 
-   >[!NOTE]
-   >
-   >この指標は、モバイルチャネルでの配信のみに該当します。詳しくは、[この節](../../delivery/using/sms-channel.md)を参照してください。
+  >[!NOTE]
+  >
+  >この指標は、モバイルチャネルでの配信のみに該当します。詳しくは、[この節](../../delivery/using/sms-channel.md)を参照してください。
 
-   `[+]` 記号をクリックすると、値テーブルの各行を開くことができます。それぞれのエラータイプについて、ドメインごとにエラーメッセージの分類を表示できます。
+  `[+]` 記号をクリックすると、値テーブルの各行を開くことができます。それぞれのエラータイプについて、ドメインごとにエラーメッセージの分類を表示できます。
 
-   ![](assets/s_ncs_user_errors_report_detail.png)
+  ![](assets/s_ncs_user_errors_report_detail.png)
 
 **[!UICONTROL ドメインごとのエラーの分類]**
 
@@ -294,9 +294,9 @@ E メールの配信統計には、2 つの値が表示されます。
 * **[!UICONTROL ハードバウンス]**：処理されたメッセージの合計数に対する、ハードバウンス数の割合。
 * **[!UICONTROL ソフトバウンス]**：処理されたメッセージの合計数に対する、ソフトバウンス数の割合。
 
-   >[!NOTE]
-   >
-   >ハードバウンスおよびソフトバウンスについて詳しくは、[強制隔離管理](../../delivery/using/understanding-quarantine-management.md)を参照してください。
+  >[!NOTE]
+  >
+  >ハードバウンスおよびソフトバウンスについて詳しくは、[強制隔離管理](../../delivery/using/understanding-quarantine-management.md)を参照してください。
 
 * **[!UICONTROL 開封数]**：正常に処理されたメッセージ数に対する、メッセージを少なくとも 1 回開封したターゲット受信者数の割合。
 * **[!UICONTROL クリック数]**：正常に処理されたメッセージ数に対する、配信で少なくとも 1 回クリックしたユーザー数の割合。

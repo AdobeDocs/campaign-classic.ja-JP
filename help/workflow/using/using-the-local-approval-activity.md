@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 100%
 
@@ -82,9 +82,9 @@ ht-degree: 100%
    * **[!UICONTROL ラベル]**：承認およびフィードバックの通知で表示するドメインのラベルを入力します。
    * **[!UICONTROL グループまたはオペレーター]**：ドメインに割り当てるオペレーターまたはオペレーターのグループを選択します。
 
-      >[!CAUTION]
-      >
-      >オペレーターには必ず適切な権限を付与するようにしてください。
+     >[!CAUTION]
+     >
+     >オペレーターには必ず適切な権限を付与するようにしてください。
 
 ## 手順 2：ターゲティングワークフローの作成 {#step-2--creating-the-targeting-workflow}
 

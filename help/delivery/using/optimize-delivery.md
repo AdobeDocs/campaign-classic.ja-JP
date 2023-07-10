@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 * サーバーの負荷：マーケティングサーバーが様々なタスクをいくつも同時に処理していると、パフォーマンスが低下することがあります。マーケティングサーバーは、すべての配信で最新の正しいデータを使用できるようにあらゆる受信および送信データを統合して調整する必要があります。
 
-   **ヒント**：パフォーマンスの低下を避けるには、他のチームメンバーと話し合い、最適なパフォーマンスが得られるように配信スケジュールを調整します。
+  **ヒント**：パフォーマンスの低下を避けるには、他のチームメンバーと話し合い、最適なパフォーマンスが得られるように配信スケジュールを調整します。
 
 * ワークフローの実行：ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために不可欠です。[このドキュメント](../../workflow/using/workflow-best-practices.md#execution-and-performance)に示すガイドラインに従います。
 

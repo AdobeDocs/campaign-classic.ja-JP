@@ -100,23 +100,23 @@ Web トラッキング URL の形式を次に示します。 **https://`<name_of
 
 * 「ホーム」識別子ページにアクセス
 
-   **https://myserver.adobe.com/r/9862?tagid=home**
+  **https://myserver.adobe.com/r/9862?tagid=home**
 
 * ビジネスボリュームデータの収集
 
-   **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
 
 * 受信者を検索するフィールドの指定
 
-   **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
 
-   アカウント番号が 10 の受信者がホームページに送信されます。
+  アカウント番号が 10 の受信者がホームページに送信されます。
 
 * デフォルトの配信の使用
 
-   **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
 
-   受信者がホームページに送信されます。 この情報は、配信識別子を含むセッション cookie がこのクエリで送信されない限り、識別子 230（データベース 16 の e6）を含む配信に格納されます。
+  受信者がホームページに送信されます。 この情報は、配信識別子を含むセッション cookie がこのクエリで送信されない限り、識別子 230（データベース 16 の e6）を含む配信に格納されます。
 
 >[!NOTE]
 >

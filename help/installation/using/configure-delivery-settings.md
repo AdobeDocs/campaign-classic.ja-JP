@@ -23,13 +23,13 @@ ht-degree: 5%
 
 * **DNS 設定**:MTA モジュールが **`<dnsconfig>`** 以降
 
-   >[!NOTE]
-   >
-   >この **nameServers** パラメーターは、Windows でのインストールに必須です。 Linux でのインストールの場合は、空のままにする必要があります。
+  >[!NOTE]
+  >
+  >この **nameServers** パラメーターは、Windows でのインストールに必須です。 Linux でのインストールの場合は、空のままにする必要があります。
 
-   ```
-   <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
-   ```
+  ```
+  <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
+  ```
 
 必要に応じて、次の設定を実行することもできます。設定 [SMTP リレー](#smtp-relay)、 [MTA 子プロセス](#mta-child-processes), [送信 SMTP トラフィックを管理](#managing-outbound-smtp-traffic-with-affinities).
 

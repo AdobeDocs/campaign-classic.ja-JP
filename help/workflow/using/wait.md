@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 100%
 
@@ -26,8 +26,8 @@ ht-degree: 100%
 
 * 地域設定が指定されていない場合は、**s**（秒）、**m**（分）、**h**（時間）、**d**（日）、**y**（年）になります。承認時に、値は最も読みやすい単位に自動的に変換されます。
 
-   デフォルトの単位は日（**d**）です。
+  デフォルトの単位は日（**d**）です。
 
 * 一方、例えば、地域設定が「Français」に設定されている場合は、**s**（秒）、**mn**（分）、**h**（時間）、**j**（日）、**m**（月）、**a**（年）のようになります。承認時に、値は最も読みやすい単位に自動的に変換されます。上の例では、「**90s**」は「**1mn 30s**」のように変換されます。
 
-   デフォルトの単位は日（**d**）です。
+  デフォルトの単位は日（**d**）です。

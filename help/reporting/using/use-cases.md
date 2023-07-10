@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 100%
 
@@ -194,15 +194,15 @@ ht-degree: 100%
 
 * トランジションをその宛先アクティビティから切り離し、ワークフローを開始してアクティブにします。トランジションが点滅し始めたら、ウィザードを通常どおり起動します。
 
-   ![](assets/s_ncs_user_report_wizard_018.png)
+  ![](assets/s_ncs_user_report_wizard_018.png)
 
 * 「**[!UICONTROL 2 つの実行間の中間母集団の結果を保持]**」オプションを選択することで、ワークフローのプロパティを変更します。これで、たとえワークフローが終了しても、目的とするトランジションの分析を開始できます。
 
-   ![](assets/s_ncs_user_report_wizard_020.png)
+  ![](assets/s_ncs_user_report_wizard_020.png)
 
-   母集団がトランジションからパージされた場合は、エラーメッセージが表示されて、記述的分析ウィザードを起動する前に、関係するオプションを選択するように求められます。
+  母集団がトランジションからパージされた場合は、エラーメッセージが表示されて、記述的分析ウィザードを起動する前に、関係するオプションを選択するように求められます。
 
-   ![](assets/s_ncs_user_report_wizard_019.png)
+  ![](assets/s_ncs_user_report_wizard_019.png)
 
 >[!CAUTION]
 >

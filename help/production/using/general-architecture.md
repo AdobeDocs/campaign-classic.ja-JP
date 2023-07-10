@@ -25,7 +25,7 @@ ht-degree: 4%
 * Adobe Campaignアプリケーションサーバー
 * データベース。
 
-   ![](assets/formation_exploitation.png)
+  ![](assets/formation_exploitation.png)
 
 次の図は、最小アーキテクチャのコンテキストで関係するトラフィックは次のみであることを示しています。
 

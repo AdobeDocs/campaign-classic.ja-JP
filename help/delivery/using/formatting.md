@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 100%
 
@@ -87,75 +87,75 @@ JavaScript テンプレートは、スキーマやフォームと同様に、名
 
 * 条件付きテスト：
 
-   ```
-   <% if (content.@number == 1 || content.@language == 'en') { %>
-   <!-- Content to be displayed if test is true--> 
-   <% } %>
-   ```
+  ```
+  <% if (content.@number == 1 || content.@language == 'en') { %>
+  <!-- Content to be displayed if test is true--> 
+  <% } %>
+  ```
 
 * 関数の呼び出し：
 
-   ```
-   <!-- Displays a horizontal bar -->
-   ;<% function DisplayHorizontalBar() { %>
-     <hr/>
-   <% } %> 
-   
-   <!-- The same function in a block  -->
-   <% 
-   function DisplayHorizontalBar2()
-   {
-     document.write('<hr/>');
-   }
-   %> 
-   
-   <!-- Returns the value in uppercase -->
-   <% 
-   function formatName(value)
-   { 
-     return value.toUpperCase(); 
-   }
-   %>
-   
-   <!-- Call functions -->
-   <%= DisplayHorizontalBar1() %>
-   <%= DisplayHorizontalBar2() %>
-   <%= formatName(content.@name) %>
-   ```
+  ```
+  <!-- Displays a horizontal bar -->
+  ;<% function DisplayHorizontalBar() { %>
+    <hr/>
+  <% } %> 
+  
+  <!-- The same function in a block  -->
+  <% 
+  function DisplayHorizontalBar2()
+  {
+    document.write('<hr/>');
+  }
+  %> 
+  
+  <!-- Returns the value in uppercase -->
+  <% 
+  function formatName(value)
+  { 
+    return value.toUpperCase(); 
+  }
+  %>
+  
+  <!-- Call functions -->
+  <%= DisplayHorizontalBar1() %>
+  <%= DisplayHorizontalBar2() %>
+  <%= formatName(content.@name) %>
+  ```
 
 * 宣言と変数の呼び出し：
 
-   ```
-   <%  var counter = 0; %>
-   
-   <%= counter += 10 %>
-   ```
+  ```
+  <%  var counter = 0; %>
+  
+  <%= counter += 10 %>
+  ```
 
 * 静的メソッドを使用した受信者名の取得と表示：
 
-   ```
-   <% var recipient = nms.recipient.get(1246); %>
-   <%= recipient.lastName %>
-   ```
+  ```
+  <% var recipient = nms.recipient.get(1246); %>
+  <%= recipient.lastName %>
+  ```
 
 * 非静的メソッドを使用した受信者名の取得と表示：
 
-   ```
-   <% var query = xtk.queryDef.create(
-     <queryDef schema="nms:recipient" operation="get">
-       <select>
-         <node expr="@lastName"/>
-       </select>
-       <where>
-         <condition expr="@id=1246"/>
-       </where>
-     </queryDef>);
-   
-     var recipient = query.ExecuteQuery();
-   %>
-   
-   <%= recipient.@lastName %>
-   ```
+  ```
+  <% var query = xtk.queryDef.create(
+    <queryDef schema="nms:recipient" operation="get">
+      <select>
+        <node expr="@lastName"/>
+      </select>
+      <where>
+        <condition expr="@id=1246"/>
+      </where>
+    </queryDef>);
+  
+    var recipient = query.ExecuteQuery();
+  %>
+  
+  <%= recipient.@lastName %>
+  ```
 
 ### JavaScript テンプレートの組み込み {#including-a-javascript-template}
 
@@ -268,101 +268,101 @@ JavaScript テンプレートを使用して、次のコンテンツ管理を実
 
    * HTML の場合：
 
-      ```
-      <html>     
-        <head>         
-          <title>Newsletter</title>
-           <style type="text/css">
-            .body {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#514c48; margin-left: auto; margin-right: auto;}
-            .body table {width:748; border: solid 1px; cellpadding:0; cellspacing:0"}
-           </style>
-        </head>     
-        <body>
-          <p><center><%= mirrorPage %></center></p>
-          <center>
-            <table>      
-             <tr>
-              <td>                                                         
-                <img src="[LOGO]"/>                                   
-              </td>
-              <td>
-                <h1><%= content.@title %></h1>
-              </td>
-             </tr>
-             <tr>
-      
+     ```
+     <html>     
+       <head>         
+         <title>Newsletter</title>
+          <style type="text/css">
+           .body {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#514c48; margin-left: auto; margin-right: auto;}
+           .body table {width:748; border: solid 1px; cellpadding:0; cellspacing:0"}
+          </style>
+       </head>     
+       <body>
+         <p><center><%= mirrorPage %></center></p>
+         <center>
+           <table>      
+            <tr>
+             <td>                                                         
+               <img src="[LOGO]"/>                                   
+             </td>
              <td>
-              <div >                                    
-                <h0><%= hello,</h0>                              
-                <p><%= content.presentation %></p>                                          
-      
-                <h0>Useful information</h0>                              
-                <p>                                  
-                  <img src="[IMAGE 1]"/>When? <br/><%= formatDate(content.@date, "%2D %Bl %4Y") %> From 10 AM in your bookshop.</p><br/>                                       
-                <p>                                  
-                  <img src="[IMAGE 2]"/>Who? <br>Meet our favorite authors and illustrators and get a signed copy of their book.</p><br/>                                                         
-                <p>                                  
-                  <img src="[IMAGE 3]"/>Attendance is free but there is a limited number of seats: sign up now!</p>
-            </div>
-            </td>
-      
-              <td>                                                    
-               <div style="text-align:left; width:210; height:400px; background:url([IMAGE DE FOND])">
-      
-                  <h0><%= participant %></h0>
-                  <%
-                  var i
-                  var iLength = content.attendeesList.length()
-                  for (i=0; i<iLength; i++)
-                  { %>
-                  <p>
-                    <%= generateImgTag(content.attendeesList[i].@["image-id"]) %>  <%= content.attendeesList[i].@description %>
-                  </p>  
-                  <% }  
-                  %>                              
-               </div2>
-              </td>
-          </tr>
-        </table>
-      </center>
-      </body>    
-      </html>
-      ```
+               <h1><%= content.@title %></h1>
+             </td>
+            </tr>
+            <tr>
+     
+            <td>
+             <div >                                    
+               <h0><%= hello,</h0>                              
+               <p><%= content.presentation %></p>                                          
+     
+               <h0>Useful information</h0>                              
+               <p>                                  
+                 <img src="[IMAGE 1]"/>When? <br/><%= formatDate(content.@date, "%2D %Bl %4Y") %> From 10 AM in your bookshop.</p><br/>                                       
+               <p>                                  
+                 <img src="[IMAGE 2]"/>Who? <br>Meet our favorite authors and illustrators and get a signed copy of their book.</p><br/>                                                         
+               <p>                                  
+                 <img src="[IMAGE 3]"/>Attendance is free but there is a limited number of seats: sign up now!</p>
+           </div>
+           </td>
+     
+             <td>                                                    
+              <div style="text-align:left; width:210; height:400px; background:url([IMAGE DE FOND])">
+     
+                 <h0><%= participant %></h0>
+                 <%
+                 var i
+                 var iLength = content.attendeesList.length()
+                 for (i=0; i<iLength; i++)
+                 { %>
+                 <p>
+                   <%= generateImgTag(content.attendeesList[i].@["image-id"]) %>  <%= content.attendeesList[i].@description %>
+                 </p>  
+                 <% }  
+                 %>                              
+              </div2>
+             </td>
+         </tr>
+       </table>
+     </center>
+     </body>    
+     </html>
+     ```
 
    * テキストの場合：
 
-      ```
-      <%= content.@title %>
-      <%= content.presentation %>
-      
-      *** When? On <%= formatDate(content.@date, "%2D %Bl %4Y") %> From 10 AM in your bookshop.
-      
-      *** Who? Come and meet our favorite authors and illustrators and get a signed copy of their books. 
-      
-      *** Attendance is free but there is a limited number of seats: sign up now!
-      
-      Guests:
-      ******************
-      <%
-      var i
-      var iLength = content.attendeesList.length()
-      //for (i=(iLength-1); i>-1; i--)
-      for( i=0 ; i<iLength ; i++ )
-        { %>
-        Description <%= i %> : <%= content.attendeesList[i].@description %>
-        <% }  
-      %>
-      ```
+     ```
+     <%= content.@title %>
+     <%= content.presentation %>
+     
+     *** When? On <%= formatDate(content.@date, "%2D %Bl %4Y") %> From 10 AM in your bookshop.
+     
+     *** Who? Come and meet our favorite authors and illustrators and get a signed copy of their books. 
+     
+     *** Attendance is free but there is a limited number of seats: sign up now!
+     
+     Guests:
+     ******************
+     <%
+     var i
+     var iLength = content.attendeesList.length()
+     //for (i=(iLength-1); i>-1; i--)
+     for( i=0 ; i<iLength ; i++ )
+       { %>
+       Description <%= i %> : <%= content.attendeesList[i].@description %>
+       <% }  
+     %>
+     ```
 
 1. 今度は、どちらのフォーマットにも使用するパブリッシュテンプレートを作成します。
 
    * HTML の場合：
 
-      ![](assets/d_ncs_content_sample_2.png)
+     ![](assets/d_ncs_content_sample_2.png)
 
    * テキストの場合：
 
-      ![](assets/d_ncs_content_sample_3.png)
+     ![](assets/d_ncs_content_sample_3.png)
 
 1. このコンテンツテンプレートを配信で使用できます。
 
@@ -462,21 +462,21 @@ XSLT 言語を使用して、XML ドキュメントを出力ドキュメント�
 
 * 「html」タイプのフィールドのコンテンツの表示：
 
-   ```
-   <xsl:value-of select="summary" disable-output-escaping="yes"/>
-   ```
+  ```
+  <xsl:value-of select="summary" disable-output-escaping="yes"/>
+  ```
 
 * パーソナライゼーションフィールド **&lt;%= recipient.email %>** の挿入：
 
-   ```
-   <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
-   ```
+  ```
+  <xsl:text disable-output-escaping="yes"><%= recipient.email %></xsl:text>
+  ```
 
 * 条件付きテスト **&lt;% if (recipient.language == &#39;en&#39;) `{` %>** の追加：
 
-   ```
-   <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>
-   ```
+  ```
+  <xsl:text disable-output-escaping="yes"><% if (recipient.language == 'en') { %></xsl:text>
+  ```
 
 ### スタイルシートの組み込み {#including-stylesheets}
 
@@ -578,28 +578,28 @@ Adobe Campaign には、以下に詳しく説明するように、JavaScript テ
 
 * 「**31/10/2018**」形式で日付を表示：
 
-   ```
-    <%= formatDate(content.@date, "%2D/%2M/%4Y") %>
-   ```
+  ```
+   <%= formatDate(content.@date, "%2D/%2M/%4Y") %>
+  ```
 
 * 「**July 2018**」形式で日付を表示：
 
-   ```
-   <%
-    function displayDate(date)
-     {
-       var aMonth = 
-       [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ];
-   
-       var month = formatDate(content.@date, "%2M")
-       var year = formatDate(content.@date, "%4Y")
-   
-       return aMonth[month-1]+" "+year;
-     }
-   %>
-   
-   <%= displayDate(content.@date) %>
-   ```
+  ```
+  <%
+   function displayDate(date)
+    {
+      var aMonth = 
+      [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ];
+  
+      var month = formatDate(content.@date, "%2M")
+      var year = formatDate(content.@date, "%4Y")
+  
+      return aMonth[month-1]+" "+year;
+    }
+  %>
+  
+  <%= displayDate(content.@date) %>
+  ```
 
 ### XSL での日付書式設定 {#xsl-date-formatting}
 
@@ -609,38 +609,38 @@ XSLT 構文に標準の日付管理関数はありません。目的のフォー
 
 * 「**01/10/2018**」形式で日付を表示するには：
 
-   ```
-   <xsl:value-of select="external:date-format(@date, '%2D/%2M/%4Y')"/>
-   ```
+  ```
+  <xsl:value-of select="external:date-format(@date, '%2D/%2M/%4Y')"/>
+  ```
 
 * 「**July 2018**」形式で日付を表示するには：
 
-   ```
-   <!-- Returns the month in the form of a string with the month number as input -->
-   <xsl:template name="longMonth">
-     <xsl:param name="monthNumber"/>
-   
-     <xsl:choose>
-       <xsl:when test="$monthNumber = 1">January</xsl:when>
-       <xsl:when test="$monthNumber = 2">February</xsl:when>
-       <xsl:when test="$monthNumber = 3">March</xsl:when>
-       <xsl:when test="$monthNumber = 4">April</xsl:when>
-       <xsl:when test="$monthNumber = 5">May</xsl:when>
-       <xsl:when test="$monthNumber = 6">June</xsl:when>
-       <xsl:when test="$monthNumber = 7">July</xsl:when>
-       <xsl:when test="$monthNumber = 8">August</xsl:when>
-       <xsl:when test="$monthNumber = 9">September</xsl:when>
-       <xsl:when test="$monthNumber = 10">October</xsl:when>
-       <xsl:when test="$monthNumber = 11">November</xsl:when>
-       <xsl:when test="$monthNumber = 12">December</xsl:when>
-     </xsl:choose>
-   </xsl:template> 
-   
-   <!-- Display date -->
-   <xsl:call-template name="longMonth">
-     <xsl:with-param name="monthNumber">
-       <xsl:value-of select="external:date-format(@date, '%2M')"/>
-     </xsl:with-param>
-   </xsl:call-template>
-    <xsl:value-of select="external:date-format(@date, '%4y')"/>
-   ```
+  ```
+  <!-- Returns the month in the form of a string with the month number as input -->
+  <xsl:template name="longMonth">
+    <xsl:param name="monthNumber"/>
+  
+    <xsl:choose>
+      <xsl:when test="$monthNumber = 1">January</xsl:when>
+      <xsl:when test="$monthNumber = 2">February</xsl:when>
+      <xsl:when test="$monthNumber = 3">March</xsl:when>
+      <xsl:when test="$monthNumber = 4">April</xsl:when>
+      <xsl:when test="$monthNumber = 5">May</xsl:when>
+      <xsl:when test="$monthNumber = 6">June</xsl:when>
+      <xsl:when test="$monthNumber = 7">July</xsl:when>
+      <xsl:when test="$monthNumber = 8">August</xsl:when>
+      <xsl:when test="$monthNumber = 9">September</xsl:when>
+      <xsl:when test="$monthNumber = 10">October</xsl:when>
+      <xsl:when test="$monthNumber = 11">November</xsl:when>
+      <xsl:when test="$monthNumber = 12">December</xsl:when>
+    </xsl:choose>
+  </xsl:template> 
+  
+  <!-- Display date -->
+  <xsl:call-template name="longMonth">
+    <xsl:with-param name="monthNumber">
+      <xsl:value-of select="external:date-format(@date, '%2M')"/>
+    </xsl:with-param>
+  </xsl:call-template>
+   <xsl:value-of select="external:date-format(@date, '%4y')"/>
+  ```

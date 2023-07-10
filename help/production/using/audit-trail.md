@@ -29,7 +29,7 @@ Adobe Campaignでは、 **[!UICONTROL 監査証跡]** では、インスタン�
 
 * **スキーマ監査証跡**:アクティビティおよびスキーマに対する最後の変更を確認します。
 
-   スキーマについて詳しくは、 [ページ](../../configuration/using/data-schemas.md).
+  スキーマについて詳しくは、 [ページ](../../configuration/using/data-schemas.md).
 
 * **ワークフロー監査証跡**:アクティビティおよびワークフローに対する最後の変更、さらに次のようなワークフローの状態を確認します。
 
@@ -42,13 +42,13 @@ Adobe Campaignでは、 **[!UICONTROL 監査証跡]** では、インスタン�
    * アクションと等しいウェイクアップ保留中のタスクを今すぐ実行
    * 無条件停止
 
-   ワークフローについて詳しくは、 [ページ](../../workflow/using/about-workflows.md).
+  ワークフローについて詳しくは、 [ページ](../../workflow/using/about-workflows.md).
 
-   ワークフローの監視方法について詳しくは、 [専用セクション](../../workflow/using/monitoring-workflow-execution.md).
+  ワークフローの監視方法について詳しくは、 [専用セクション](../../workflow/using/monitoring-workflow-execution.md).
 
 * **オプション監査証跡**:アクティビティおよびオプションに対する最後の変更を確認します。
 
-   オプションについて詳しくは、 [ページ](../../installation/using/configuring-campaign-options.md).
+  オプションについて詳しくは、 [ページ](../../installation/using/configuring-campaign-options.md).
 
 ## 監査証跡へのアクセス {#accessing-audit-trail}
 

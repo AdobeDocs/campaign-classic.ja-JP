@@ -40,31 +40,31 @@ ht-degree: 9%
 
 * Adobe Campaignは、同じ broadlog スキーマや trackinglog スキーマにリンクされた、複数の受信者スキーマ（ターゲティングスキーマと呼ばれる）をサポートしていません。 それ以外の場合は、後でデータの紐付けが異常になる可能性があります。
 
-   次の図に、各カスタム受信者スキーマに必要な関係構造を示します。
-   ![](assets/custom_recipient_limitation.png)
+  次の図に、各カスタム受信者スキーマに必要な関係構造を示します。
+  ![](assets/custom_recipient_limitation.png)
 
-   次のことをお勧めします。
+  次のことをお勧めします。
 
    * 専用の **[!UICONTROL nms:BroadLogRcp]** および **[!UICONTROL nms:TrackingLogRcp]** スキーマから標準の **[!UICONTROL nms:Recipientschema]**. これら 2 つのログテーブルは、追加のカスタム受信者テーブルにリンクされてはいけません。
    * 新しいカスタム受信者スキーマごとに専用のカスタム broadlog スキーマと trackinglog スキーマを定義します。 これは、ターゲットマッピングを設定する際に自動的におこなうことができます。詳しくは、 [ターゲットマッピング](../../configuration/using/target-mapping.md).
 
 * 標準 **[!UICONTROL サービスと購読]** 製品で提供されている
 
-   これは、 [この節](../../delivery/using/managing-subscriptions.md) は適用されません。
+  これは、 [この節](../../delivery/using/managing-subscriptions.md) は適用されません。
 
 * リンク **[!UICONTROL 訪問者]** テーブルが機能しません。
 
-   したがって、 **[!UICONTROL ソーシャルマーケティング]** モジュール正しいテーブルを参照するようにストレージ手順を設定する必要があります。
+  したがって、 **[!UICONTROL ソーシャルマーケティング]** モジュール正しいテーブルを参照するようにストレージ手順を設定する必要があります。
 
-   同様に、リファラル関数を使用する場合は、標準の初期メッセージ転送テンプレートを適応させる必要があります。
+  同様に、リファラル関数を使用する場合は、標準の初期メッセージ転送テンプレートを適応させる必要があります。
 
 * リストに手動でプロファイルを追加することはできません。
 
-   したがって、 [この節](../../platform/using/creating-and-managing-lists.md) は、追加の設定なしでは適用できません。
+  したがって、 [この節](../../platform/using/creating-and-managing-lists.md) は、追加の設定なしでは適用できません。
 
-   >[!NOTE]
-   >
-   >ワークフローを使用して受信者リストを作成することもできます。 詳しくは、 [ワークフローを使用したプロファイルリストの作成](../../configuration/using/creating-a-profile-list-with-a-workflow.md).
+  >[!NOTE]
+  >
+  >ワークフローを使用して受信者リストを作成することもできます。 詳しくは、 [ワークフローを使用したプロファイルリストの作成](../../configuration/using/creating-a-profile-list-with-a-workflow.md).
 
 また、標準の別の設定で使用されるデフォルト値を確認することをお勧めします。使用する機能に応じて、いくつかの適応を行う必要があります。
 

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 100%
 
@@ -81,10 +81,10 @@ ht-degree: 100%
    * 使用するアプリケーションのタイプとして、「**[!UICONTROL Message Center]**」と「**[!UICONTROL インタラクション]**」のどちらか、または両方を選択します。
    * 使用する FDA アカウントを入力します。オペレーターは、実行インスタンスで作成し、次のように、該当するインスタンスのデータベースの読み取り権限と書き込み権限を付与する必要があります。
 
-      ```
-      grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
-      grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
-      ```
+     ```
+     grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
+     grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
+     ```
 
    >[!NOTE]
    >
@@ -97,9 +97,9 @@ ht-degree: 100%
    * 実行インスタンスのリストを追加します。
    * インスタンスごとに、同期期間とフィルター条件（例：国ごと）を指定します。
 
-      >[!NOTE]
-      >
-      >エラーが発生した場合は、同期ワークフローおよびオファー通知を確認してください。これらはアプリケーションのテクニカルワークフローにあります。
+     >[!NOTE]
+     >
+     >エラーが発生した場合は、同期ワークフローおよびオファー通知を確認してください。これらはアプリケーションのテクニカルワークフローにあります。
 
 最適化のために、実行インスタンスでマーケティングデータベースの一部のみを複製する場合、その実行インスタンスで利用できるデータのみをユーザーに使用させるよう、環境にリンクした制約付きスキーマを指定できます。オファーの作成には、実行インスタンスでは利用できないデータも使用できます。それには、このルールをアウトバウンドチャネルのみに制限することで、他のチャネルに対しては無効にする必要があります（「**[!UICONTROL 次の場合に考慮]**」フィールド）。
 

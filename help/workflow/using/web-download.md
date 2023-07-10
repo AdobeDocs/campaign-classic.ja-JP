@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 feature: Workflows
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 100%
 
@@ -26,17 +26,17 @@ ht-degree: 100%
 
    * ダウンロードするファイルの URL を直接指定するには、「**[!UICONTROL 明示的 URL]**」オプションを選択し、該当するフィールドに URL を入力します。この URL は変数データで構成することもできます。
 
-      ![](assets/download_web_edit.png)
+     ![](assets/download_web_edit.png)
 
    * 「**[!UICONTROL 外部アカウント]**」を使用する場合は、ドロップダウンからアカウントを選択し、ダウンロードするファイルを指定します。
 
-      外部アカウントは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;ノードで設定できます。**[!UICONTROL リンクを編集]**&#x200B;アイコンをクリックすると、外部アカウントのパラメーターを編集できます。
+     外部アカウントは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;ノードで設定できます。**[!UICONTROL リンクを編集]**&#x200B;アイコンをクリックすると、外部アカウントのパラメーターを編集できます。
 
-      ![](assets/download_web_edit_external.png)
+     ![](assets/download_web_edit_external.png)
 
    * Adobe Campaign インスタンスからファイルをダウンロードするには、「**[!UICONTROL Adobe Campaign インスタンス]**」オプションを選択します。
 
-      ![](assets/download_web_edit_instance.png)
+     ![](assets/download_web_edit_instance.png)
 
 1. **ファイルの履歴化**
 

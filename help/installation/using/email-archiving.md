@@ -10,7 +10,7 @@ exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1367'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 85%
 
 ## 電子メール BCC のアクティブ化（オンプレミス） {#activating-email-archiving--on-premise-}
 
-[!BADGE オンプレミスおよびハイブリッド]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスおよびハイブリッドデプロイメントにのみ適用されます"}
+[!BADGE オンプレミスおよびハイブリッド]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"}
 
 
 Adobe Campaignがオンプレミスでインストールされている場合にBCC電子メールアーカイブをアクティブにするには、次の手順に従います。
@@ -85,16 +85,16 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 * **compressionFormat**:.emlファイルを圧縮する際に使用する形式。 可能な値は次のとおりです。
 
-   **0**:no compression（デフォルト値）
+  **0**:no compression（デフォルト値）
 
-   **1**:圧縮（.zip形式）
+  **1**:圧縮（.zip形式）
 
 * **compressBatchSize**:アーカイブ（.zipファイル）に追加された.emlファイルの数。
 * **archivingType**:アーカイブ方法を使用します。 可能な値は次のとおりです。
 
-   **0**:送信された電子メールの生のコピーは、.eml形式で **dataLogPath** フォルダー（デフォルト値）に保存されます。 ファイルのアーカイブコピーは、 **`<deliveryid>-<broadlogid>-sent.eml`** dataLogPath/archivesフォルダーに保存されます **** 。 送信された電子メールファイルのパスがになり **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**&#x200B;ます。
+  **0**:送信された電子メールの生のコピーは、.eml形式で **dataLogPath** フォルダー（デフォルト値）に保存されます。 ファイルのアーカイブコピーは、 **`<deliveryid>-<broadlogid>-sent.eml`** dataLogPath/archivesフォルダーに保存されます **** 。 送信された電子メールファイルのパスがになり **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**&#x200B;ます。
 
-   **1**:送信された電子メールの生のコピーは.eml形式で **dataLogPath** フォルダーに保存され、SMTP経由でBCC電子メールアドレスに送信されます。 電子メールコピーがBCCアドレスに送信されると、アーカイブファイル名 **`<deliveryid>-<broadlogid>-sent-archived.eml`** がになり、ファイルが **** dataLogPath/archivesフォルダーに移動されます。 次に、送信およびBCCアーカイブされた電子メールファイルのパスを示 **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**&#x200B;します。
+  **1**:送信された電子メールの生のコピーは.eml形式で **dataLogPath** フォルダーに保存され、SMTP経由でBCC電子メールアドレスに送信されます。 電子メールコピーがBCCアドレスに送信されると、アーカイブファイル名 **`<deliveryid>-<broadlogid>-sent-archived.eml`** がになり、ファイルが **** dataLogPath/archivesフォルダーに移動されます。 次に、送信およびBCCアーカイブされた電子メールファイルのパスを示 **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**&#x200B;します。
 
 * **expirationDelay**:アーカイブ用に保持される.emlファイルの日数。 その後、圧縮用に **dataLogPath/archivesフォルダーに自動的に移動されます** 。 デフォルトでは、.emlファイルは2日後に期限切れになります。
 * **purgeArchivesDelay**:アーカイブが **dataLogPath/`<archives>`** フォルダーに保存される日数。 その期間を過ぎると、それらは完全に削除されます。 削除は、MTAが開始された時点で開始されます。 デフォルトでは、7日ごとに実行されます。
@@ -106,7 +106,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 ## BCC電子メールアドレスの設定（オンプレミス）  {#configuring-the-bcc-email-address--on-premise-}
 
-[!BADGE オンプレミスおよびハイブリッド]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスおよびハイブリッドデプロイメントにのみ適用されます"}
+[!BADGE オンプレミスおよびハイブリッド]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"}
 
 
 >[!IMPORTANT]
@@ -132,7 +132,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 
 ## 新しい E メール BCC への移行 {#updated-email-archiving-system--bcc-}
 
-[!BADGE オンプレミスおよびハイブリッド]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスおよびハイブリッドデプロイメントにのみ適用されます"}
+[!BADGE オンプレミスおよびハイブリッド]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"}
 
 
 

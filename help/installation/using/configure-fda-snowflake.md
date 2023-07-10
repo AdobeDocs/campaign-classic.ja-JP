@@ -37,19 +37,19 @@ ht-degree: 38%
 
    * Red Hat/CentOS の場合：
 
-      ```
-      yum update
-      yum upgrade
-      yum install -y grep sed tar wget perl curl
-      ```
+     ```
+     yum update
+     yum upgrade
+     yum install -y grep sed tar wget perl curl
+     ```
 
    * Debian の場合：
 
-      ```
-      apt-get update
-      apt-get upgrade
-      apt-get install -y grep sed tar wget perl curl
-      ```
+     ```
+     apt-get update
+     apt-get upgrade
+     apt-get install -y grep sed tar wget perl curl
+     ```
 
 1. スクリプトを実行する前に、 `--help` オプション：
 
@@ -98,12 +98,11 @@ ht-degree: 38%
 
       * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード。
 
-      ![](assets/snowflake.png)
+     ![](assets/snowflake.png)
 
    * キーペア認証の場合は、 **[!UICONTROL キーペア認証]** タブを使用して **[!UICONTROL 秘密鍵]** を認証し、 **[!UICONTROL 秘密鍵]**.
 
-      ![](assets/snowflake_4.png)
-
+     ![](assets/snowflake_4.png)
 
 1. 「**[!UICONTROL パラメーター]**」タブをクリックし、「**[!UICONTROL 機能をデプロイ]**」ボタンをクリックして機能を作成します。
 

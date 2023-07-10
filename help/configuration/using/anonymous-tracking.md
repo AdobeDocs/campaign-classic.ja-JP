@@ -25,8 +25,8 @@ Adobe Campaignでは、収集した Web トラッキング情報を、サイト�
 * この **trackWebVisitors** のパラメーター **リダイレクト** 要素 **serverConf.xml** トラッキングサーバーのファイルを「 」に設定する必要があります&#x200B;**true**&#39;，永続的な cookie を配置する (**uuid230**) を使用します。
 * この **匿名 Web トラッキング** デプロイウィザードのトラッキング設定画面で、モードを選択する必要があります。
 
-   ![](assets/webtracking_anonymous_set.png)
+  ![](assets/webtracking_anonymous_set.png)
 
 * Web フォームは、トラッキングサーバー上で公開および実行する必要があります。 デプロイウィザードで、一致するオプションを選択する必要があります。
 
-   ![](assets/webtracking_publication_set_for_webapps.png)
+  ![](assets/webtracking_publication_set_for_webapps.png)

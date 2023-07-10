@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Email Design
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 
 * すべてのメッセージの URL トラッキングを有効化または無効化
 
-   >[!CAUTION]
-   >
-   >配信でトラッキングが有効化されていない場合（「**[!UICONTROL トラッキングを有効化]**」オプションが選択されていない場合）、トラッキングに関連するレポートとデータは使用できません。開封数、ホットクリックおよびトラッキングされる URL のレポートにはデータが表示されず、この配信では「**[!UICONTROL トラッキングログ]**」タブが表示されません。
+  >[!CAUTION]
+  >
+  >配信でトラッキングが有効化されていない場合（「**[!UICONTROL トラッキングを有効化]**」オプションが選択されていない場合）、トラッキングに関連するレポートとデータは使用できません。開封数、ホットクリックおよびトラッキングされる URL のレポートにはデータが表示されず、この配信では「**[!UICONTROL トラッキングログ]**」タブが表示されません。
 
 * メッセージ開封のトラッキングを有効化または無効化
 

@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
 
@@ -48,4 +48,3 @@ ht-degree: 100%
 >* 「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」オプションは使用できません。
 >* 要素のコレクションが抽出される場合、「**[!UICONTROL 単一行（エキスパートユーザー）]**」オプションをオンにしない限り、それらのフィールドのシードアドレスの値は空になります。詳しくは、[この節](../../platform/using/executing-export-jobs.md#step-7---data-formatting)を参照してください。
 >
-

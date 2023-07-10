@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 100%
 
@@ -65,17 +65,17 @@ URL パラメーターについて詳しくは、[このページ](../../web/usi
 
 * 一般
 
-   このレポートには、調査に関する一般的な情報（時間の経過に伴う回答数の変化、接触チャネルおよび言語による配分）が含まれます。
+  このレポートには、調査に関する一般的な情報（時間の経過に伴う回答数の変化、接触チャネルおよび言語による配分）が含まれます。
 
-   一般レポートの例：
+  一般レポートの例：
 
-   ![](assets/s_ncs_admin_survey_report_0.png)
+  ![](assets/s_ncs_admin_survey_report_0.png)
 
 * 回答の分類
 
-   このレポートには、各質問に関する回答の分類が表示されます。この分類は、**[!UICONTROL 質問]**&#x200B;タイプのコンテナに格納されたフィールドに提供された回答でのみ利用できます。選択コントロールに対してのみ有効です（例えば、テキストフィールドは分類されません）。
+  このレポートには、各質問に関する回答の分類が表示されます。この分類は、**[!UICONTROL 質問]**&#x200B;タイプのコンテナに格納されたフィールドに提供された回答でのみ利用できます。選択コントロールに対してのみ有効です（例えば、テキストフィールドは分類されません）。
 
-   ![](assets/s_ncs_admin_survey_report_2.png)
+  ![](assets/s_ncs_admin_survey_report_2.png)
 
 ## 回答のエクスポート {#exporting-answers}
 
@@ -145,19 +145,19 @@ URL パラメーターについて詳しくは、[このページ](../../web/usi
 
 * 最初に、「**[!UICONTROL 一般]**」タブで適切なスキーマを選択して、次にサブセットを設定します。
 
-   ![](assets/s_ncs_admin_survey_responses_wf_box_6b.png)
+  ![](assets/s_ncs_admin_survey_responses_wf_box_6b.png)
 
 * 「**[!UICONTROL サブセット]**」タブに移動して、「**[!UICONTROL 選択レコード数の制限]**」オプションを選択し、「**[!UICONTROL 編集]**」リンクをクリックします。
 
-   ![](assets/s_ncs_admin_survey_responses_wf_box_7.png)
+  ![](assets/s_ncs_admin_survey_responses_wf_box_7.png)
 
 * 「**[!UICONTROL 並べ替えの後に最初のレコードのみ保持]**」オプションを選択して、並べ替える列を選択します。「**[!UICONTROL 降順で並べ替え]**」オプションをチェックします。
 
-   ![](assets/s_ncs_admin_survey_responses_wf_box_8.png)
+  ![](assets/s_ncs_admin_survey_responses_wf_box_8.png)
 
 * 「**[!UICONTROL 次へ]**」ボタンをクリックして、レコードの数を 5 に制限します。
 
-   ![](assets/s_ncs_admin_survey_responses_wf_box_9.png)
+  ![](assets/s_ncs_admin_survey_responses_wf_box_9.png)
 
 * 「**[!UICONTROL 完了]**」をクリックしてから、ワークフローを再起動してターゲティングを承認します。
 

@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
 
@@ -136,15 +136,15 @@ Web フォームは、**[!UICONTROL オンライン]**&#x200B;の状態で、現
 * **origin** は、回答者の接触チャネルを指定します。
 * **_uuid** は、パブリッシュ前のフォーム表示とエラートラッキングを有効にします。このパラメーターは、内部でのみ使用されます（作成およびデバッグ）。この URL を使用して Web フォームにアクセスすると、作成されたレコードはトラッキング（レポート）で考慮されません。origin は、強制的に **[!UICONTROL Adobe Campaign]** の値になります。
 
-   これは、**_preview** パラメーターや **_debug** と共に使用されます。
+  これは、**_preview** パラメーターや **_debug** と共に使用されます。
 
-   **_preview** は、最後に保存されたバージョンを表示します。このパラメーターは、テストフェーズでのみ使用される必要があります。
+  **_preview** は、最後に保存されたバージョンを表示します。このパラメーターは、テストフェーズでのみ使用される必要があります。
 
-   **_debug** は、フォームのページで入力または計算されたデータのトレースを表示します。これは、フォームがパブリッシュされた場合を含め、エラーに関する詳細情報を取得するために使用されます。
+  **_debug** は、フォームのページで入力または計算されたデータのトレースを表示します。これは、フォームがパブリッシュされた場合を含め、エラーに関する詳細情報を取得するために使用されます。
 
-   >[!CAUTION]
-   >
-   >フォームが **_uuid** パラメーターを使用した URL で表示されると、**[!UICONTROL origin]** パラメーターの値は、強制的に **Adobe Campaign** になります。
+  >[!CAUTION]
+  >
+  >フォームが **_uuid** パラメーターを使用した URL で表示されると、**[!UICONTROL origin]** パラメーターの値は、強制的に **Adobe Campaign** になります。
 
 ## パラメーターの追加 {#adding-parameters}
 

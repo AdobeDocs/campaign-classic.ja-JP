@@ -2,13 +2,13 @@
 product: campaign
 title: 配信コンテンツの読み込み
 description: 配信コンテンツの読み込み
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 81d12ac055536fbe097466ad737bf7fee1b593ad
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 100%
+source-wordcount: '352'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Amazon S3、FTP または SFTP サーバー上の HTML ファイルに配信コ�
 1. **[!UICONTROL 配信]**&#x200B;アクティビティの「**[!UICONTROL スクリプト]**」タブで、次のコマンドを追加して、インポートしたファイルのコンテンツを配信に読み込むようにします。
 
    ```
-   delivery.content.md.source=loadFile(vars.filename)
+   delivery.content.html.source=loadFile(vars.filename)
    ```
 
    ![](assets/delivery_loadcontent_script.png)

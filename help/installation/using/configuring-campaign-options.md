@@ -2,14 +2,14 @@
 product: campaign
 title: キャンペーンオプションの設定
 description: Campaign オプションの設定方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+source-git-commit: 942d44104ae56e9334f42f10751979ce4f4a714d
 workflow-type: tm+mt
-source-wordcount: '3996'
+source-wordcount: '4014'
 ht-degree: 24%
 
 ---
@@ -74,11 +74,11 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_LogsPerTransac</span> <br /> </td> 
-   <td> 一度に配信用に作成される BroadLog の数。<br /> </td> 
+   <td> 配信の準備中に broadLogs を挿入するための最小バッチサイズ（行数）。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MaxDelayPerTransac</span> <br /> </td> 
-   <td> トランザクションごとのログ (broadLogs) の挿入（テーブル内） :バッチごとに処理する行の数。<br /> </td> 
+   <td> 配信準備中に broadLogs の挿入のバッチサイズが 2 倍になるバッチ期間しきい値（ミリ秒数）。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MidAnalyzeBatchSize</span> <br /> </td> 

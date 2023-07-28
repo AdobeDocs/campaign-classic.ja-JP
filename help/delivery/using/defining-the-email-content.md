@@ -2,14 +2,14 @@
 product: campaign
 title: Adobe Campaign Classic におけるメールコンテンツの定義
 description: Adobe Campaign を使用する際にメールコンテンツを定義する方法について説明します。
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
+source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
 workflow-type: tm+mt
-source-wordcount: '2017'
-ht-degree: 100%
+source-wordcount: '2029'
+ht-degree: 98%
 
 ---
 
@@ -149,7 +149,7 @@ HTML 形式の E メール配信には、画像を含めることができます
 
 ### ガードレール {#img-guardrails}
 
-パフォーマンスの問題を回避するために、メールに含める画像のサイズは 100 MB 以下にする必要があります。この制限は、デフォルトで設定されており、`NmsDelivery_MaxDownloadedImageSize` オプションから変更できます。ただし、アドビでは、メール配信で大きな画像を使用しないことを強くお勧めします。
+パフォーマンスの問題を回避するために、メールに含める画像のサイズは 100 KB を超えないようにしてください。 この制限は、デフォルトで設定されており、`NmsDelivery_MaxDownloadedImageSize` オプションから変更できます。ただし、アドビでは、メール配信で大きな画像を使用しないことを強くお勧めします。
 
 詳しくは、[Campaign Classic のオプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)を参照してください。
 

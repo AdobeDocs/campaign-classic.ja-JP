@@ -7,16 +7,16 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 942d44104ae56e9334f42f10751979ce4f4a714d
+source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
 workflow-type: tm+mt
-source-wordcount: '4014'
+source-wordcount: '4015'
 ht-degree: 24%
 
 ---
 
 # Campaign Classic のオプションのリスト{#configuring-campaign-options}
 
-この **[!UICONTROL 管理/プラットフォーム/オプション]** ノードでは、Adobe Campaignオプションを設定できます。 Campaign のインストール時に組み込まれるものもあれば、必要に応じて手動で追加できるものもあります。 使用可能なオプションは、インスタンスと共にインストールされているパッケージによって異なります。
+The **[!UICONTROL 管理/プラットフォーム/オプション]** ノードでは、Adobe Campaignオプションを設定できます。 Campaign のインストール時に組み込まれるものもあれば、必要に応じて手動で追加できるものもあります。 使用可能なオプションは、インスタンスと共にインストールされているパッケージによって異なります。
 
 
 >[!CAUTION]
@@ -114,7 +114,7 @@ ht-degree: 24%
   </tr> 
  <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
-   <td> パーソナライズされた URL からダウンロードされ、E メールに添付された画像に許可される最大サイズ（バイト単位）を定義できます。 デフォルト値は 100,000 バイトです。 配達確認を送信し、E メールを処理するために画像をダウンロードする際に、画像のサイズがこの値を超えた場合、またはダウンロードの問題が発生した場合は、配信ログにエラーが表示され、配達確認の配信が失敗します。<br /> </td> 
+   <td> パーソナライズされた URL からダウンロードされ、E メールに添付された画像に許可される最大サイズ（バイト単位）を定義できます。 デフォルト値は 100,000 バイト (100 KB) です。 配達確認を送信し、E メールを処理するために画像をダウンロードする際に、画像のサイズがこの値を超えた場合、またはダウンロードの問題が発生した場合は、配信ログにエラーが表示され、配達確認の配信が失敗します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRecommendedAttachments</span> <br /> </td> 
@@ -150,11 +150,11 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
-   <td> 顧客の共通名. 一部の警告メッセージで、受信者に表示される際に使用されます。<br /> 「組織や関連会社と連絡を取っていたので、このメッセージを受け取っています。 「組織」からのメッセージを受信しないようにする<br /> </td> 
+   <td> 顧客の共通名. 一部の警告メッセージで、受信者に表示される際に使用されます。<br /> 「組織や関連会社と連絡を取っていたので、このメッセージを受け取っています。 「組織」からのメッセージを受信しないようにするには<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
-   <td> ユーザーが空のままにした場合、インスタンスのレベルで E メール配信に使用されるデフォルトの「差出人」E メールラベル。<br /> </td> 
+   <td> ユーザーが空のままにした場合に E メール配信に使用されるインスタンスのレベルのデフォルトの「差出人」E メールラベル。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ReplyToName</span> <br /> </td> 
@@ -174,7 +174,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInmail_AllowlistEmails</span> <br /> </td> 
-   <td> （インバウンドメール処理モジュールから）許可された転送 E メールアドレスのリスト。 アドレスはコンマで区切る必要があります（またはすべてを許可する場合は*）。例： xyz@abc.com,pqr@abc.com<br /> </td> 
+   <td> （インバウンドメール処理モジュールから）許可された転送 E メールアドレスのリスト。アドレスはコンマで区切る必要があります（またはすべてを許可する場合は*を使用）。例： xyz@abc.com,pqr@abc.com<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
@@ -182,19 +182,19 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_EmailMaxError</span> <br /> </td> 
-   <td> チャネル「email」で（デフォルトとしてを使用） :送信中に受信者を強制隔離する前に受け取る SOFT エラーに対して受け取るエラーの最大数です。<br /> </td> 
+   <td> チャネル「email」で（デフォルトとして使用） ：送信中に SOFT エラーが発生した場合に受け入れられるエラーの最大数（受信者を強制隔離します）。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_EmailSignificantErrorDelay</span> <br /> </td> 
-   <td> チャネル「email」で（デフォルトとしてを使用） :新しい SOFT エラーを考慮する前に、前回参照された SOFT エラー以降に費やした最小期間。<br /> </td> 
+   <td> チャネル「email」（デフォルトとして使用） ：新しい SOFT エラーを考慮する前に、以前に参照された SOFT エラー以降に費やした最小期間。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_MobileMaxError</span> <br /> </td> 
-   <td> チャネル「mobile」上：送信中に受信者を強制隔離する前に受け取る SOFT エラーに対して受け取るエラーの最大数です。<br /> </td> 
+   <td> チャネル「mobile」上：送信中に受信者を強制隔離する前に発生した SOFT エラーに対して、受け入れられるエラーの最大数。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsNPAI_MobileSignificantErrorDelay</span> <br /> </td> 
-   <td> チャネル「mobile」上：新しい SOFT エラーを考慮する前に、前回参照された SOFT エラー以降に費やした最小期間。<br /> </td> 
+   <td> チャネル「モバイル」上：新しい SOFT エラーを考慮に入れる前に、以前参照した SOFT エラー以降に費やした最小期間。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
@@ -238,7 +238,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
-   <td> 送信した SMS メッセージのパラメーター：メッセージの優先度を示すために SMS ゲートウェイに送信される情報です。<br /> </td> 
+   <td> 送信済み SMS メッセージのパラメーター：メッセージの優先度を示すために SMS ゲートウェイに送信される情報。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_RetryCount</span> <br /> </td> 
@@ -415,7 +415,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkAcceptOldPasswords</span> <br /> </td> 
-   <td> ( 互換モードをインストール：build&gt;6000) 有効化すると（値「1」）、このオプションを使用して、外部アカウントやインスタンスへの接続に使用するために、データベースに保存されている古いパスワードを使用できます。<br /> </td> 
+   <td> （インストール互換性モード：ビルド &gt; 6000）有効化すると（値"1"）、このオプションを使用して、外部アカウントやインスタンスへの接続に使用するためにデータベースに保存されている古いパスワードを使用できます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkKey</span> <br /> </td> 
@@ -435,7 +435,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_SaveOptions_AllowNonAdmin</span> <br /> </td> 
-   <td> 「true」に設定した場合、管理者以外のオペレーターがデプロイウィザードで xtkOption の値を更新することを許可しました。<br /> </td> 
+   <td> 「true」に設定した場合、管理者以外のオペレーターに対し、デプロイウィザードで xtkOption の値を更新することを許可しました。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSecurity_Unsafe_DecryptString</span> <br /> </td> 
@@ -462,8 +462,8 @@ ht-degree: 24%
    <td> <span class="uicontrol">MC_EnrichmentCustomJs</span> <br /> </td> 
    <td> イベントをエンリッチメントするためにパーソナライズされる JavaScript ライブラリ。には、次の 2 つの関数の実装を含める必要があります。<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">enrichRtEvents(aiEventId);</span> :データベース内のイベントをエンリッチメントして保存する ( <span class="uicontrol">aiEventId</span> は、処理されたリアルタイムイベントの表に対応します )。</p> </li> 
-     <li> <p> <span class="uicontrol">enrichBatchEvents(aiEventId);</span> :データベース内のイベントをエンリッチメントして保存する ( <span class="uicontrol">aiEventId</span> は、処理されたバッチイベントの ID テーブルに対応します )。</p> </li> 
+     <li> <p> <span class="uicontrol">enrichRtEvents(aiEventId);</span> ：データベース内のイベントをエンリッチメントして保存します ( <span class="uicontrol">aiEventId</span> は、処理されたリアルタイムイベントの表に対応します )。</p> </li> 
+     <li> <p> <span class="uicontrol">enrichBatchEvents(aiEventId);</span> ：データベース内のイベントをエンリッチメントして保存します ( <span class="uicontrol">aiEventId</span> は、処理されたバッチイベントの ID テーブルに対応します )。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -474,8 +474,8 @@ ht-degree: 24%
    <td> <span class="uicontrol">MC_RoutingCustomJs</span> <br /> </td> 
    <td> ルーティングイベント用にパーソナライズする JavaScript ライブラリ。には、次の 2 つの関数の実装を含める必要があります。<br /> 
     <ul> 
-     <li> <p> <span class="uicontrol">dispatchRtEvent(iEventId);</span> :は、リアルタイムイベントを処理するために選択されたトランザクションメッセージの内部名を返します ( <span class="uicontrol">iEventId</span> は、処理されたリアルタイムイベントの ID に対応します )。</p> </li> 
-     <li> <p> <span class="uicontrol">dispatchBatchEvent(iEventId);</span> :バッチイベントの処理に選択されたトランザクションメッセージの内部名を返します ( <span class="uicontrol">iEventId</span> は、処理されたバッチイベントの ID に対応します )。</p> </li> 
+     <li> <p> <span class="uicontrol">dispatchRtEvent(iEventId);</span> ：リアルタイムイベントの処理に選択したトランザクションメッセージの内部名を戻します ( <span class="uicontrol">iEventId</span> は、処理されたリアルタイムイベントの ID に対応します )。</p> </li> 
+     <li> <p> <span class="uicontrol">dispatchBatchEvent(iEventId);</span> ：バッチイベントの処理に選択されたトランザクションメッセージの内部名を戻します ( <span class="uicontrol">iEventId</span> は、処理されたバッチイベントの ID に対応します )。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -635,13 +635,13 @@ ht-degree: 24%
    <tr> 
    <td> <span class="uicontrol">WdbcKillSessionPolicy</span> <br /> </td> 
    <td>次の潜在的な値に従って、すべてのワークフローと PostgreSQL データベースクエリに対して無条件停止の動作をさせることができます。<ul>
-    <li><p>0 — デフォルト：ワークフロープロセスを停止し、データベースには影響しません<p></li>
-    <li><p>1 - pg_cancel_backend:ワークフロープロセスを停止し、データベース内のクエリをキャンセルします<p></li>
-    <li><p>2 - pg_terminate_backend:ワークフロープロセスを停止し、データベース内のクエリを終了します<p></li></ul></td> 
+    <li><p>0 — デフォルト：ワークフロープロセスを停止し、データベースに影響を与えません。<p></li>
+    <li><p>1 - pg_cancel_backend：ワークフロープロセスを停止し、データベース内のクエリをキャンセルします<p></li>
+    <li><p>2 - pg_terminate_backend：ワークフロープロセスを停止し、データベース内のクエリを終了します<p></li></ul></td> 
   </tr>  
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceUser</span> <br /> </td> 
-   <td> Adobe Campaign標準テーブルのデータを格納するテーブル領域の名前。<br />詳しくは、 <a href="../../installation/using/creating-and-configuring-the-database.md">データベースの作成と設定</a>.</td> 
+   <td> Adobe Campaign Ootb テーブルのデータを格納するテーブル領域の名前。<br />詳しくは、 <a href="../../installation/using/creating-and-configuring-the-database.md">データベースの作成と設定</a>.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcOptions_TableSpaceIndex</span> <br /> </td> 
@@ -657,7 +657,7 @@ ht-degree: 24%
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> バックアップとレプリケーションを最適化するために、Microsoft SQL Server 上の作業用テーブルに対して別のデータベースを設定できます。 このオプションは、一時データベースの名前に対応します。作業用テーブルを指定した場合、このデータベースに書き込みます。 例：'tempdb.dbo.' （名前の末尾はドットにする必要があります）。 <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">詳細情報</a> <br /> </td> 
+   <td> Microsoft SQL Server 上の作業用テーブルに対して別のデータベースを設定し、バックアップとレプリケーションを最適化できます。 このオプションは、一時データベースの名前に対応します。指定した場合、作業用テーブルがこのデータベースに書き込まれます。 例： 'tempdb.dbo.' （名前の末尾はドットにする必要があります）。 <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">詳細情報</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
@@ -696,7 +696,7 @@ ht-degree: 24%
    <td> 移行中、ツリー構造は新しいバージョン標準に基づいて自動的に再編成されます。<br /> このオプションを使用すると、ナビゲーションツリーの自動移行を無効にできます。 これを使用する場合、移行後に古いフォルダーを削除する必要があります。新しいフォルダーを追加し、必要なチェックをすべて実行します。<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">データタイプ：</span> 整数</p> </li> 
-     <li> <p> <span class="uicontrol">値（テキスト）</span> :1 </p> </li> 
+     <li> <p> <span class="uicontrol">値（テキスト）</span> : 1 </p> </li> 
     </ul> このオプションは、標準のナビゲーションツリーに対して多くの変更が加えられている場合にのみ使用してください。<br /> 詳しくは、 <a href="../../migration/using/configuring-your-platform.md#specific-configurations-in-v5-11">この節</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -705,7 +705,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">PostUpgradeLastError</span> <br /> </td> 
-   <td> 以下の構文に従う、ポストアップグレードで発生したエラーに関する情報です。<br /> <strong>{ ビルド番号 }:{mode:pre/post/...}:{ エラーが発生した「lessThan」/「greaterOrEquelThan」+サブステップ }</strong> </td> 
+   <td> 以下の構文に従う、ポストアップグレードで発生したエラーに関する情報です。<br /> <strong>{ ビルド番号 }:{mode: pre/post/..}:{ エラーが発生した「lessThan」/「greaterOrEquelThan」+サブステップ }</strong> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkCleanup_NoStats</span> <br /> </td> 
@@ -736,8 +736,8 @@ ht-degree: 24%
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
    <td> このオプションは、CRM コネクタを通じてサードパーティのシステムからデータをインポートする際に使用します。 「 」オプションを有効にすると、最後のインポート以降に変更されたオブジェクトのみを収集できます。 このオプションは、手動で作成し、以下のように設定する必要があります。 
     <ul> 
-     <li> <p> <span class="uicontrol">内部名</span> :LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
-     <li> <p> <span class="uicontrol">値（フィールド）</span> :最後のインポートの日付 (yyyy/MM/dd hh):mm:ss 形式。 </p> </li> 
+     <li> <p> <span class="uicontrol">内部名</span> : LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
+     <li> <p> <span class="uicontrol">値（フィールド）</span> ：最後のインポートの日付 (yyyy/MM/dd hh):mm:ss 形式。 </p> </li> 
     </ul><br /> </td> 
   </tr> 
   <tr> 
@@ -853,7 +853,7 @@ ht-degree: 24%
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_Available</span> <br /> </td> 
-   <td> トラッキングを有効化するオプション。<br /> </td> 
+   <td> トラッキングを有効化するためのオプション。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ClickFormula</span> <br /> </td> 
@@ -869,7 +869,7 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_LastConsolidation</span> <br /> </td> 
-   <td> 前回、トラッキング情報が新しいデータと統合された時間。<br /> </td> 
+   <td> 前回、トラッキング情報が新しいデータと統合された時点。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_OpenFormula</span> <br /> </td> 

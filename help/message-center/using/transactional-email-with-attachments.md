@@ -2,13 +2,13 @@
 product: campaign
 title: 添付ファイル付きトランザクションメールの送信
 description: Adobe Campaign を使用して、個々の添付ファイルやパーソナライズされた添付ファイルを含むトランザクションメールを送信する方法を説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
+source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 100%
+source-wordcount: '673'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 ## 推奨事項とガードレール {#important-notes}
 
-パフォーマンスの問題を回避するために、メールに含める画像のサイズは 100 MB 以下にする必要があります。この制限は、デフォルトで設定されており、`NmsDelivery_MaxDownloadedImageSize` オプションから変更できます。ただし、アドビでは、メール配信で大きな画像を使用しないことを強くお勧めします。
+パフォーマンスの問題を回避するために、メールに含める画像のサイズは 100 KB を超えないようにしてください。 この制限は、デフォルトで設定されており、`NmsDelivery_MaxDownloadedImageSize` オプションから変更できます。ただし、アドビでは、メール配信で大きな画像を使用しないことを強くお勧めします。
 
 また、アドビでは、添付ファイルのサイズと数を制限することもお勧めします。デフォルトでは、メールに添付ファイルとして追加できるファイルは 1 つだけです。このしきい値は、`NmsDelivery_MaxRecommendedAttachments` オプションから設定できます。
 

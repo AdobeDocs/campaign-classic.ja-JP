@@ -3,16 +3,16 @@ product: campaign
 title: プライバシー管理
 description: プライバシー管理の詳細を説明します
 feature: Privacy, Privacy Tools
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '898'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

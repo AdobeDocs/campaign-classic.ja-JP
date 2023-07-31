@@ -3,15 +3,15 @@ product: campaign
 title: その他の設定
 description: Adobe Campaign Classic でトランザクションメッセージ用の追加設定を行う方法を説明します
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '793'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

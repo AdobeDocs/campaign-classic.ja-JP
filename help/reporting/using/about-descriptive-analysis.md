@@ -3,13 +3,13 @@ product: campaign
 title: 記述的分析の概要
 description: 記述的分析の概要
 feature: Reporting, Monitoring
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

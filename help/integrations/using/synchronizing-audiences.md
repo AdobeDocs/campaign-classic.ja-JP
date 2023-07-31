@@ -3,14 +3,14 @@ product: campaign
 title: オーディエンスの同期
 description: オーディエンスを ACS コネクタと同期する方法を学ぶ
 feature: ACS Connector
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 hide: true
 hidefromtoc: true
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1215'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

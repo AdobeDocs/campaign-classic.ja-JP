@@ -3,16 +3,16 @@ product: campaign
 title: 個人情報の販売に対するオプトアウト
 description: 個人データの販売のオプトアウトに関する説明
 feature: Privacy, Privacy Tools
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 8e308a9f-14a4-4a25-9fd0-8d4bdbcf74ce
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

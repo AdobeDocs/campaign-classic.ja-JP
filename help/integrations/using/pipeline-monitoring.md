@@ -3,15 +3,15 @@ product: campaign
 title: パイプラインの監視
 description: パイプラインの監視
 feature: Triggers
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: integrations
 content-type: reference
 exl-id: 84399496-33fd-4936-85e7-32de8503740f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

@@ -3,16 +3,16 @@ product: campaign
 title: ジョブの実行の監視
 description: インポートジョブとエクスポートジョブの実行を監視する方法について説明します
 feature: Monitoring
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

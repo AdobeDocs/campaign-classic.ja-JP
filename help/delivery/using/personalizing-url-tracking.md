@@ -2,14 +2,14 @@
 product: campaign
 title: URL トラッキングオプションの設定
 description: URL トラッキングオプションを設定する方法を学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Monitoring, Email Design, Personalization
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '186'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

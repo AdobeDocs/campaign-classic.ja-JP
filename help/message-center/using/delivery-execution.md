@@ -3,15 +3,15 @@ product: campaign
 title: 配信の実行
 description: トランザクションメッセージ配信の実行と監視についての詳細情報
 feature: Transactional Messaging, Message Center, Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

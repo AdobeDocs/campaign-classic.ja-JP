@@ -3,16 +3,16 @@ product: campaign
 title: データパッケージの使用
 description: データパッケージの使用
 feature: Data Management, Package Export/Import
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2524'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -5,7 +5,7 @@ description: 新しい Campaign 配信サーバーに更新する方法を説明
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1367'
 ht-degree: 100%
 

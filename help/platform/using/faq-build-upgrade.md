@@ -3,15 +3,15 @@ product: campaign
 title: ビルドのアップグレードに関する FAQ
 description: Campaign のビルドアップグレードに関するよくある質問
 feature: Upgrade, Troubleshooting
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2005'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

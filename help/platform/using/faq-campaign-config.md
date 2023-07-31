@@ -3,15 +3,15 @@ product: campaign
 title: Campaign 設定に関する FAQ
 description: Campaign Classic に関する FAQ
 feature: Troubleshooting, Application Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -3,12 +3,12 @@ product: campaign
 title: テクニカルノート - Apple プッシュ通知サービスのサーバー証明書の更新
 description: Apple プッシュ通知サービスのサーバー証明書の更新
 feature: Technote, Push
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '156'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

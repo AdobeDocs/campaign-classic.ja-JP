@@ -3,13 +3,13 @@ product: campaign
 title: レポートへのアクセスの設定
 description: レポートへのアクセスの設定
 feature: Reporting, Monitoring
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '806'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

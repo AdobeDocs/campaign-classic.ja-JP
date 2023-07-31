@@ -2,14 +2,14 @@
 product: campaign
 title: ファイルの添付
 description: ファイルの添付
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1085'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ E メール配信には 1 つまたは複数のファイルを添付できます
 
 ## ガードレール {#attachments-guardrails}
 
-パフォーマンスの問題を回避するために、メールに含める画像のサイズは 100 KB を超えないようにしてください。 この制限は、デフォルトで設定されており、`NmsDelivery_MaxDownloadedImageSize` オプションから変更できます。ただし、アドビでは、メール配信で大きな画像を使用しないことを強くお勧めします。
+パフォーマンスの問題を回避するために、メールに含める画像のサイズは 100 KB 以下にする必要があります。この制限は、デフォルトで設定されており、`NmsDelivery_MaxDownloadedImageSize` オプションから変更できます。ただし、アドビでは、メール配信で大きな画像を使用しないことを強くお勧めします。
 
 また、アドビでは、添付ファイルのサイズと数を制限することもお勧めします。デフォルトでは、メールに添付ファイルとして追加できるファイルは 1 つだけです。このしきい値は、`NmsDelivery_MaxRecommendedAttachments` オプションから設定できます。
 

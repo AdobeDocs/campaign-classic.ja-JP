@@ -3,15 +3,15 @@ product: campaign
 title: メッセージテンプレートの公開
 description: Adobe Campaign Classic でのトランザクションメッセージテンプレートのパブリッシュと非公開処理について説明します
 feature: Transactional Messaging, Message Center, Templates
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

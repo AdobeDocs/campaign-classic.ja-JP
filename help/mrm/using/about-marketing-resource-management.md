@@ -3,15 +3,15 @@ product: campaign
 title: マーケティングリソース管理の基本を学ぶ
 description: マーケティングリソース管理について
 feature: Resource Management
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

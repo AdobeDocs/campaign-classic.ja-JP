@@ -3,15 +3,15 @@ product: campaign
 title: プライバシーリクエストの作成
 description: プライバシーリクエストの作成および管理方法についての説明
 feature: Privacy, Privacy Tools
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '838'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

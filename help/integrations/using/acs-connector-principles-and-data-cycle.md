@@ -2,15 +2,15 @@
 product: campaign
 title: ACS Connector の基本を学ぶ
 description: ACS コネクタの原則とデータサイクル
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 hide: true
 hidefromtoc: true
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2094'
-ht-degree: 100%
+source-wordcount: '2101'
+ht-degree: 99%
 
 ---
 

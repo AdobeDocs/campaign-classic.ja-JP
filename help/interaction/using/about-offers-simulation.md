@@ -2,8 +2,9 @@
 product: campaign
 title: オファーのシミュレーションについて
 description: オファーのシミュレーションについて
+feature: Interaction, Offers
 exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%

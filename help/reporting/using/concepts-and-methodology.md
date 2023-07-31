@@ -2,15 +2,15 @@
 product: campaign
 title: キューブのベストプラクティス
 description: キューブのベストプラクティス
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7 のみに適用"
-feature: Reporting
+feature: Reporting, Monitoring
+badge: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 hide: true
 hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1574'
+ht-degree: 99%
 
 ---
 

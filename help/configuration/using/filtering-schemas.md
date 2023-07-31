@@ -2,12 +2,13 @@
 product: campaign
 title: フィルタリングスキーマ
 description: フィルタリングスキーマ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Custom Resources
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 79%
+source-wordcount: '418'
+ht-degree: 78%
 
 ---
 

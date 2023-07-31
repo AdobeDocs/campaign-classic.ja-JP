@@ -2,14 +2,15 @@
 product: campaign
 title: スクリプトとコーディングのガイドライン
 description: Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する際に従うガイドラインについて詳しくは、
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '773'
 ht-degree: 62%
 
 ---
@@ -51,7 +52,7 @@ ht-degree: 62%
   cnx.dispose()
   ```
 
-SQL インジェクションを回避するには、Adobe Campaignで使用するに SQL 関数を追加する必要がありま許可リストす。 オペレーターがに追加許可リストすると、式エディターに表示されるようになります。 [このページ](../../configuration/using/adding-additional-sql-functions.md)を参照してください。
+SQL インジェクションを回避するには、Adobe Campaignで使用するに SQL 関数を追加する必要がありま許可リストに加えるす。 オペレーターがに追加許可リストに加えるすると、式エディターに表示されるようになります。 [このページ](../../configuration/using/adding-additional-sql-functions.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -117,7 +118,7 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
 
 1. **[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL パーソナライゼーションブロック]**&#x200B;に移動し、新しいパーソナライゼーションブロックを作成します。
 
-1. 以下を使用： **[!UICONTROL Web アプリケーション]** コンテンツタイプとチェック **[!UICONTROL カスタマイズメニューに表示]**.
+1. 以下を使用します。 **[!UICONTROL Web アプリケーション]** コンテンツタイプとチェック **[!UICONTROL カスタマイズメニューに表示]**.
 
    詳しくは、[このページ](../../delivery/using/personalization-blocks.md)を参照してください。
 
@@ -162,13 +163,13 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
 
    ![](assets/scripting-captcha2.png)
 
-1. 分岐の条件を次の式で編集 `"[vars/captchaValid]"` が True と等しい。
+1. 分岐の条件を次の式で編集： True `"[vars/captchaValid]"` が True と等しい。
 
    ![](assets/scripting-captcha3.png)
 
 1. を編集します。 **[!UICONTROL スクリプト]** アクティビティ。 コンテンツは、選択した Captcha エンジンに応じて異なります。
 
-1. 最後に、パーソナライズされたブロックをページに追加できます。参照する [このページ](../../web/using/editing-content.md).
+1. 最後に、パーソナライズされたブロックをページに追加できます。を参照してください。 [このページ](../../web/using/editing-content.md).
 
    ![](assets/scripting-captcha4.png)
 
@@ -200,7 +201,7 @@ else
 
 ### Google recaptcha
 
-詳しくは、 [公式ドキュメント](https://developers.google.com/recaptcha/docs/verify).
+詳しくは、 [公式文書](https://developers.google.com/recaptcha/docs/verify).
 
 ```javascript
 ctx.vars.captchaValid = false
@@ -230,6 +231,6 @@ JSON.parse を使用するには、webApp に「shared/json2.js」を含める�
 
 ![](assets/scripting-captcha6.png)
 
-ビルド 8797 以降では、検証 API URL を使用するには、urlPermission ノードにを追加して、serverConf ファイルの許可リストに URL を追加する必要があります。
+ビルド 8797 以降では、検証 API URL を使用するには、urlPermission ノードにを追加して、serverConf ファイルの許可リストに加えるに URL を追加する必要があります。
 
 `<url dnsSuffix="www.google.com" urlRegEx="https://www.google.com/recaptcha/api/siteverify"/>`

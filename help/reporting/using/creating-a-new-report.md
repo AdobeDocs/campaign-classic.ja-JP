@@ -2,9 +2,9 @@
 product: campaign
 title: レポートの新規作成
 description: 新しいレポートを作成するための主な手順を学ぶ
-feature: Reporting
+feature: Reporting, Monitoring
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 100%

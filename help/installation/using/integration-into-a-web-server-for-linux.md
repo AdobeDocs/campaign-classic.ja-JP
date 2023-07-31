@@ -1,17 +1,18 @@
 ---
 product: campaign
 title: Linux 用 web サーバーへの統合
-description: Web サーバー (Linux) に Campaign を統合する方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+description: Web サーバー (Linux) に Campaign を統合する方法を説明します。
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
-source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 5%
+source-wordcount: '579'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +26,7 @@ Adobe Campaignには、HTTP（および SOAP）を介してアプリケーショ
 
 この場合、次のようになります。
 
-* デフォルトのリスニングポートは 8080 です。 変更するには、 [この節](configure-tomcat.md).
+* デフォルトのリスニングポートは 8080 です。 これを変更するには、 [この節](configure-tomcat.md).
 * その後、クライアントコンソールは、次のような URL を使用して接続します。
 
   ```
@@ -54,13 +55,13 @@ Adobe Campaignには、HTTP（および SOAP）を介してアプリケーショ
    a2dismod auth_basic authn_file authz_default authz_user autoindex cgi dir env negotiation userdir
    ```
 
-   次を確認します。 **エイリアス**, **authz_host** および **mime** モジュールは引き続き有効になります。 それには、次のコマンドを使用します。
+   次の点を確認します。 **alias**, **authz_host** および **mime** モジュールは引き続き有効になります。 それには、次のコマンドを使用します。
 
    ```
    a2enmod  alias authz_host mime
    ```
 
-1. ファイルを作成します。 **nlsrv.load** in **/etc/apache2/mods-available** 次のコンテンツを挿入します。
+1. ファイルを作成します。 **nlsrv.load** in **/etc/apache2/mods-available** をクリックし、次のコンテンツを挿入します。
 
    Debian 8 の場合：
 
@@ -80,7 +81,7 @@ Adobe Campaignには、HTTP（および SOAP）を介してアプリケーショ
     a2enmod nlsrv
    ```
 
-   を使用している場合、 **mod_rewrite** Adobe Campaignページ用のモジュールでは、名前を変更する必要があります **nlsrv.load** および **nlsrv.conf** ファイルを **zz-nlsrv.load** および **zz-nlsrv.conf**. モジュールをアクティブにするには、次のコマンドを実行します。
+   を使用している場合、 **mod_rewrite** Adobe Campaignページ用のモジュールでは、名前を変更する必要があります。 **nlsrv.load** および **nlsrv.conf** ファイルを **zz-nlsrv.load** および **zz-nlsrv.conf**. モジュールをアクティブにするには、次のコマンドを実行します。
 
    ```
    a2enmod zz-nlsrv
@@ -115,7 +116,7 @@ Adobe Campaignには、HTTP（および SOAP）を介してアプリケーショ
 
 次の手順に従います。
 
-1. 内 `httpd.conf` ファイルを開き、次の Apache モジュールをアクティベートします。
+1. Adobe Analytics の `httpd.conf` ファイルを開き、次の Apache モジュールをアクティベートします。
 
    ```
    alias
@@ -156,7 +157,7 @@ Adobe Campaignには、HTTP（および SOAP）を介してアプリケーショ
 
 1. Adobe Campaign固有の設定ファイルを `/etc/httpd/conf.d/` フォルダー。 次に例を示します。`CampaignApache.conf`
 
-1. の場合 **RHEL7**、次の手順をファイルに追加します。
+1. の場合 **RHEL7**&#x200B;をクリックし、次の手順をファイルに追加します。
 
    ```
    LoadModule requesthandler24_module /usr/local/neolane/nl6/lib/libnlsrvmod.so
@@ -165,7 +166,7 @@ Adobe Campaignには、HTTP（および SOAP）を介してアプリケーショ
 
 1. の場合 **RHEL7**:
 
-   を `/etc/systemd/system/httpd.service` ファイルに次の内容を含めます。
+   次を追加： `/etc/systemd/system/httpd.service` ファイルに次の内容を含めます。
 
    ```
    .include /usr/lib/systemd/system/httpd.service
@@ -217,7 +218,7 @@ Adobe Campaignには、HTTP（および SOAP）を介してアプリケーショ
 12:26:28 >   Server started
 ```
 
-次に、テスト URL を送信して応答することを確認します。
+次に、テスト URL を送信して応答するかどうかを確認します。
 
 これは、次のコマンドを実行することで、コマンドラインからテストできます。
 

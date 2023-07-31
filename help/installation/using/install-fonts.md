@@ -2,15 +2,16 @@
 product: campaign
 title: フォントのインストール
 description: フォントをインストールする方法を学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Application Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: c3b64a04-e173-42b1-8b1d-35dfefcd73f0
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 0%
+source-wordcount: '45'
+ht-degree: 2%
 
 ---
 

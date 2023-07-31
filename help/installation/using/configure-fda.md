@@ -2,15 +2,16 @@
 product: campaign
 title: FDA コネクタの設定
 description: FDA の設定手順を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 59%
+source-wordcount: '349'
+ht-degree: 58%
 
 ---
 
@@ -44,7 +45,7 @@ Adobe Campaign から外部データベースにアクセスできるように�
 
 詳しくは、以下のリンクを参照してください。
 
-* Campaign との接続 [azure synapse](../../installation/using/configure-fda-synapse.md)
+* Campaign との接続 [Azure synapse](../../installation/using/configure-fda-synapse.md)
 * Campaign との接続 [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 * Campaign との接続 [Hadoop](../../installation/using/configure-fda-hadoop.md)
 * Campaign との接続 [Microsoft SQL Server](../../installation/using/configure-fda-sql.md)
@@ -53,6 +54,6 @@ Adobe Campaign から外部データベースにアクセスできるように�
 * Campaign との接続 [PostgreSQL](../../installation/using/configure-fda-postgresql.md)
 * Campaign との接続 [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
 * Campaign との接続 [Snowflake](../../installation/using/configure-fda-snowflake.md)
-* Campaign との接続 [sybase IQ](../../installation/using/configure-fda-sybase.md)
+* Campaign との接続 [Sybase IQ](../../installation/using/configure-fda-sybase.md)
 * Campaign との接続 [Teradata](../../installation/using/configure-fda-teradata.md)
-* Campaign との接続 [vertica analytics](../../installation/using/configure-fda-vertica.md)
+* Campaign との接続 [Vertica analytics](../../installation/using/configure-fda-vertica.md)

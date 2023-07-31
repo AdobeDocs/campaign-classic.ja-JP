@@ -2,14 +2,15 @@
 product: campaign
 title: アプリケーションオブジェクト
 description: アプリケーションオブジェクト
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: fb4798d7-0a2c-455b-86b6-3dcb5fd25c82
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '466'
 ht-degree: 4%
 
 ---
@@ -54,8 +55,8 @@ Adobe Campaignは、それに応じて使用する必要のある ID シーケ�
 
 ## トランザクションデータとログ {#transactional-data-and-logs}
 
-毎 [ワークフロー](../../workflow/using/data-life-cycle.md#work-table) データをAdobe Campaignに読み込むと、データベースのサイズが大きくなります。
+毎 [workflow](../../workflow/using/data-life-cycle.md#work-table) データをAdobe Campaignに読み込むと、データベースのサイズが大きくなります。
 
-クリーンアップまたはパージワークフローが実行中で、レコードを効果的にパージしていることを確認します。 すべてのトランザクションデータとログはパージする必要があります。 クリーンアップタスクは、標準テーブルのみをパージします。トラッキングおよび広範なログ。 特定のテーブルは、特定のワークフローによってパージする必要があります。 [この節](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs)を参照してください。
+クリーンアップまたはパージワークフローが実行中で、レコードを効果的にパージしていることを確認します。 すべてのトランザクションデータとログはパージする必要があります。 クリーンアップタスクは、標準テーブル（トラッキングログと配信ログ）のみをパージします。 特定のテーブルは、特定のワークフローによってパージする必要があります。 [この節](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs)を参照してください。
 
 古いトランザクションデータを監視するには、レコードの最も古い作成日を確認します。

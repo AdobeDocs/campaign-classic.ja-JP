@@ -2,16 +2,17 @@
 product: campaign
 title: Assets へのアクセスの設定
 description: Assets へのアクセスの設定
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Asset Sharing
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 100%
+source-wordcount: '550'
+ht-degree: 98%
 
 ---
 

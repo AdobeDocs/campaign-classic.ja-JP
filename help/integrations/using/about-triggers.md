@@ -2,15 +2,16 @@
 product: campaign
 title: Adobe Experience Cloud Triggers について
 description: Adobe Experience Cloud Triggers の実装入門
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Triggers
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
-source-git-commit: 2f6a5884e47ce10ce3c281a4377ee37522c52131
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 100%
+source-wordcount: '269'
+ht-degree: 96%
 
 ---
 

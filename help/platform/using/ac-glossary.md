@@ -2,10 +2,11 @@
 product: campaign
 title: Adobe Campaign の用語集
 description: Adobe Campaign の用語集
+feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '5974'
 ht-degree: 100%

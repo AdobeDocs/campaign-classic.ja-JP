@@ -2,14 +2,15 @@
 product: campaign
 title: 外部アカウント
 description: 外部アカウントの作成方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Application Settings, External Account
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2027'
 ht-degree: 74%
 
 ---
@@ -128,9 +129,9 @@ E メールルーティング外部アカウントは、デフォルトで提供
 
 オンプレミス/ハイブリッド型の顧客は、次に説明するように、新しいルーティング外部アカウントを作成したり、パラメーターを更新したりできます。 この設定はエキスパートユーザー向けのもので、配信品質に影響を与える可能性があります。 ご質問がある場合は、AdobeカスタマーケアまたはAdobe担当者にお問い合わせください。
 
-* 以下の **ミッドソーシング**, **外部** ルーティング、または **一括** 配信ルーティングタイプ。
+* 次の項目を使用できます。 **ミッドソーシング**, **外部** ルーティング、または **一括** 配信ルーティングタイプ。
 
-* の場合 **一括** および **ミッドソーシング** 配信モードでは、ブランディングパラメーターを **ブランディング** タブをクリックします。 これらのパラメーターは、 [デフォルトのパラメーター](../../installation/using/deploying-an-instance.md#email-channel-parameters) 対象 **ミラーページの URL** および **エラーアドレス** と、ブランドに固有の設定を組み合わせます。
+* の場合 **一括** および **ミッドソーシング** 配信モードでは、ブランディングパラメーターを **ブランディング** タブをクリックします。 これらのパラメーターは、 [デフォルトのパラメーター](../../installation/using/deploying-an-instance.md#email-channel-parameters) 対象： **ミラーページの URL** および **エラーアドレス** と、ブランドに固有の設定を組み合わせます。
 
   ![](assets/ext-account-branding.png)
 
@@ -220,7 +221,7 @@ Windows で SSH キーを追加するには：
 
 ### 外部データベース（FDA） {#external-database-external-account}
 
-以下を使用： **外部データベース** 外部データベースに接続する外部アカウントを入力します。 Federated Data Access（FDA）オプションについて詳しくは、[この節](../../installation/using/about-fda.md)を参照してください。
+以下を使用します。 **外部データベース** 外部データベースに接続する外部アカウントを入力します。 Federated Data Access（FDA）オプションについて詳しくは、[この節](../../installation/using/about-fda.md)を参照してください。
 
  Campaign と互換性のある外部データベースは、[互換性マトリックス](../../rn/using/compatibility-matrix.md)に記載されています。
 
@@ -228,20 +229,20 @@ Windows で SSH キーを追加するには：
 
 外部アカウントの設定は、データベースエンジンによって異なります。 詳しくは、次の節を参照してください。
 
-* へのアクセスの設定 [vertica analytics](../../installation/using/configure-fda-vertica.md)
+* へのアクセスの設定 [Vertica analytics](../../installation/using/configure-fda-vertica.md)
 * へのアクセスの設定 [Snowflake](../../installation/using/configure-fda-snowflake.md)
 * へのアクセスの設定 [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
-* へのアクセスの設定 [azure synapse](../../installation/using/configure-fda-synapse.md)
+* へのアクセスの設定 [Azure synapse](../../installation/using/configure-fda-synapse.md)
 * へのアクセスの設定 [Hadoop](../../installation/using/configure-fda-hadoop.md)
 * へのアクセスの設定 [Oracle](../../installation/using/configure-fda-oracle.md)
 * へのアクセスの設定 [Netezza](../../installation/using/configure-fda-netezza.md)
 * へのアクセスの設定 [SAP HANA](../../installation/using/configure-fda-sap-hana.md)
 * へのアクセスの設定 [Snowflake](../../installation/using/configure-fda-snowflake.md)
-* へのアクセスの設定 [sybase IQ](../../installation/using/configure-fda-sybase.md)
+* へのアクセスの設定 [Sybase IQ](../../installation/using/configure-fda-sybase.md)
 * へのアクセスの設定 [Teradata](../../installation/using/configure-fda-teradata.md)
 
 
-## Adobeソリューション統合外部アカウント
+## Adobeソリューションの統合外部アカウント
 
 ### Adobe Experience Cloud {#adobe-experience-cloud-external-account}
 
@@ -289,7 +290,7 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
 ## Web 分析 {#web-analytics-external-account}
 
-この **[!UICONTROL Web 分析]** 外部アカウントを使用すると、Adobe AnalyticsからAdobe Campaignにセグメントの形式でデータを転送できます。 反対に、Adobe Campaignから配信された E メールキャンペーンの指標と属性をAdobe Analyticsコネクタに送信します。
+The **[!UICONTROL Web 分析]** 外部アカウントを使用すると、Adobe AnalyticsからAdobe Campaignにセグメントの形式でデータを転送できます。 反対に、Adobe Campaignから配信された E メールキャンペーンの指標と属性をAdobe Analyticsコネクタに送信します。
 
 ![](assets/ext_account_10.png)
 
@@ -339,7 +340,7 @@ Campaign - Microsoft Dynamics CRM コネクタの詳細については、こち�
 
   Microsoft CRM サーバーの URL。
 
-  Microsoft CRM を検索するには **[!UICONTROL サーバー URL]**、Microsoft Dynamics CRM アカウントにアクセスし、 **Dynamics 365** アプリを選択します。 次に、 **[!UICONTROL サーバー URL]** ブラウザーのアドレスバー（例： ） `https://myserver.crm.dynamics.com/`.
+  Microsoft CRM を検索するには **[!UICONTROL サーバー URL]**、Microsoft Dynamics CRM アカウントにアクセスし、「 **Dynamics 365** をクリックし、アプリを選択します。 次に、 **[!UICONTROL サーバー URL]** ブラウザーのアドレスバー（例： ） `https://myserver.crm.dynamics.com/`.
 
 * **[!UICONTROL クライアント識別子]**
 
@@ -357,7 +358,7 @@ Campaign - Microsoft Dynamics CRM コネクタの詳細については、こち�
 
   Microsoft CRM サーバーの URL。
 
-  Microsoft CRM を検索するには **[!UICONTROL サーバー URL]**、Microsoft Dynamics CRM アカウントにアクセスし、 **Dynamics 365** アプリを選択します。 次に、 **[!UICONTROL サーバー URL]** ブラウザーのアドレスバー（例： ） `https://myserver.crm.dynamics.com/`.
+  Microsoft CRM を検索するには **[!UICONTROL サーバー URL]**、Microsoft Dynamics CRM アカウントにアクセスし、「 **Dynamics 365** をクリックし、アプリを選択します。 次に、 **[!UICONTROL サーバー URL]** ブラウザーのアドレスバー（例： ） `https://myserver.crm.dynamics.com/`.
 
 * **[!UICONTROL 秘密鍵 (Base64 エンコード)]**
 
@@ -447,7 +448,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 ### Azure Blob ストレージ {#azure-blob-external-account}
 
-この **Azure Blob ストレージ** 外部アカウントを使用して、 Adobe Campaignにデータをインポートまたはエクスポートできます **[!UICONTROL ファイル転送]** ワークフローアクティビティ。 詳しくは、[この節](../../workflow/using/file-transfer.md)を参照してください。
+The **Azure Blob ストレージ** 外部アカウントを使用して、 Adobe Campaignにデータをインポートまたはエクスポートできます。 **[!UICONTROL ファイル転送]** ワークフローアクティビティ。 詳しくは、[この節](../../workflow/using/file-transfer.md)を参照してください。
 
 ![](assets/ext_account_23.png)
 
@@ -463,4 +464,4 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 * **[!UICONTROL アクセスキー]**
 
-  検索場所 **[!UICONTROL アクセスキー]**（これを参照） [ページ](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+  場所を知るには **[!UICONTROL アクセスキー]**（これを参照） [ページ](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).

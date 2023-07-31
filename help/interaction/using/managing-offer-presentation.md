@@ -2,16 +2,17 @@
 product: campaign
 title: オファー表示域の管理
 description: オファー表示域の管理
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Interaction, Offers
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 100%
+source-wordcount: '1095'
+ht-degree: 99%
 
 ---
 
@@ -82,7 +83,7 @@ ht-degree: 100%
 期間は、提案日の **n** 日前に始まって **n** 日後に終わります（**n** には、「**[!UICONTROL 考慮する期間]**」フィールドに入力された数値が入ります）。
 
 * インバウンドスペースの場合、提案日は、オファーのプレゼンテーション日です。
-* アウトバウンドスペースの場合、提案日は、配信のコンタクト日（例えば、ターゲティングワークフローに入力された配信日）です。
+* アウトバウンドスペースの場合、提案日は、配信の連絡日（例えば、ターゲティングワークフローに入力された配信日）です。
 
 矢印ボタンを使用して日数を変更するか、期間を直接入力します（例：&quot;2d 6h&quot; で 2 日と 6 時間）。
 

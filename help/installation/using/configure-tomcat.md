@@ -2,16 +2,17 @@
 product: campaign
 title: Campaign Tomcat の設定
 description: Campaign Tomcat の設定
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 0%
+source-wordcount: '296'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 Adobe Campaignは **Apache Tomcat と呼ばれる埋め込み Web サーブレット** ：アプリケーションと任意の外部インターフェイス（クライアントコンソール、追跡される URL リンク、SOAP 呼び出しなど）との間の HTTP/HTTPS 要求を処理する場合。 外部に接続するAdobe Campaignインスタンスには、通常、この前に外部 Web サーバー（通常は IIS または Apache）があります。
 
-Campaign での Tomcat の詳細と、での Tomcat バージョンの見つけ方を説明します。 [このページ](../../production/using/locate-tomcat-version.md).
+Campaign での Tomcat の詳細と、での Tomcat バージョンの見つけ方について説明します。 [このページ](../../production/using/locate-tomcat-version.md).
 
 >[!NOTE]
 >
@@ -30,9 +31,9 @@ Campaign での Tomcat の詳細と、での Tomcat バージョンの見つけ�
 
 ## Apache Tomcat のデフォルトポート {#default-port-for-tomcat}
 
-Tomcat サーバーの 8080 リスニングポートが、設定に必要な別のアプリケーションで既にビジー状態になっている場合は、8080 ポートを空きポート（8090 など）に置き換える必要があります。 変更するには、 **server.xml** ファイルを **/tomcat-8/conf** Adobe Campaignインストールフォルダーのディレクトリ。
+Tomcat サーバーの 8080 リスニングポートが、設定に必要な別のアプリケーションで既にビジー状態になっている場合は、8080 ポートを空きポート（8090 など）に置き換える必要があります。 変更するには、 **server.xml** 次に保存されたファイル： **/tomcat-8/conf** Adobe Campaignインストールフォルダーのディレクトリ。
 
-次に、JSP リレーページのポートを変更します。 これをおこなうには、 **serverConf.xml** ファイルを **/conf** Adobe Campaignインストールディレクトリのディレクトリ。
+次に、JSP リレーページのポートを変更します。 これをおこなうには、 **serverConf.xml** 次に保存されたファイル： **/conf** Adobe Campaignインストールディレクトリのディレクトリ。
 
 ```
 <serverConf>
@@ -57,7 +58,7 @@ Tomcat サーバーの 8080 リスニングポートが、設定に必要な別�
 
 セキュリティ上の理由から、Tomcat エラーレポートを非表示にすることを強くお勧めします。 次に手順を示します。
 
-1. を開きます。 **server.xml** 次の場所にあるファイル： **/tomcat-8/conf** Adobe Campaignインストールフォルダーのディレクトリ：  `/usr/local/neolane/nl6/tomcat-8/conf`
+1. を開きます。 **server.xml** 次の場所にあるファイル： **/tomcat-8/conf** Adobe Campaign installation フォルダーのディレクトリ：  `/usr/local/neolane/nl6/tomcat-8/conf`
 1. 既存のすべてのコンテキスト要素の後に、下部に次の要素を追加します。
 
    ```

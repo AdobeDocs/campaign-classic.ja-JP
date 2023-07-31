@@ -2,16 +2,17 @@
 product: campaign
 title: Campaign サーバーの設定
 description: Campaign サーバーの設定
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1580'
-ht-degree: 3%
+source-wordcount: '1605'
+ht-degree: 4%
 
 ---
 
@@ -23,9 +24,9 @@ ht-degree: 3%
 
 ## 制限事項
 
-これらの手順は、次の操作に制限されます。 **オンプレミス**/**ハイブリッド** のデプロイメントおよび管理権限が必要です。
+これらの手順は、次の操作に制限されます。 **オンプレミス**/**ハイブリッド** のデプロイメントと、管理権限が必要です。
 
-の場合 **ホスト** デプロイメント、サーバー側の設定は、Adobeのみで構成できます。 ただし、一部の設定は、 [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja):IP アクセス権許可リストの管理や URL アクセス権など。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)
+の場合 **ホスト** デプロイメント、サーバー側の設定は、Adobeのみで構成できます。 ただし、一部の設定は、 [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja):IP アクセス権許可リストに加えるの管理や URL アクセス権など。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)
 
 詳しくは、次の節を参照してください。
 
@@ -35,10 +36,10 @@ ht-degree: 3%
 
 ## 設定ファイル
 
-Campaign Classic設定ファイルは、 **conf** Adobe Campaignインストールフォルダーのフォルダー。 設定は、次の 2 つのファイルに分散されます。
+Campaign Classicの設定ファイルは、 **conf** Adobe Campaignインストールフォルダーのフォルダー。 設定は、次の 2 つのファイルに分散されます。
 
-* **serverConf.xml**:すべてのインスタンスの一般的な設定。 このファイルは、Adobe Campaignサーバーの技術的パラメーターを組み合わせたものです。これらはすべてのインスタンスで共有されます。 これらのパラメーターのいくつかの説明を以下に示します。 様々なノードおよびパラメーターと、このリスト [セクション](../../installation/using/the-server-configuration-file.md).
-* **config-`<instance>`.xml** ( **インスタンス** は、インスタンスの名前です )。インスタンスの特定の設定。 複数のインスタンスでサーバーを共有する場合は、各インスタンスに固有のパラメーターを関連するファイルに入力してください。
+* **serverConf.xml**：すべてのインスタンスの一般的な設定。 このファイルは、Adobe Campaignサーバーの技術的なパラメーターを組み合わせたものです。これらは、すべてのインスタンスで共有されます。 これらのパラメーターのいくつかの説明を以下に示します。 様々なノードおよびパラメーターと、このリスト [セクション](../../installation/using/the-server-configuration-file.md).
+* **config-`<instance>`.xml** ( ここで **インスタンス** はインスタンスの名前 )：インスタンスの特定の設定です。 複数のインスタンスでサーバーを共有する場合は、各インスタンスに固有のパラメーターを関連するファイルに入力してください。
 
 ## 設定範囲
 
@@ -63,7 +64,7 @@ Campaign Classic設定ファイルは、 **conf** Adobe Campaignインストー�
 
 ## 内部識別子 {#internal-identifier}
 
-この **内部** identifier は、インストール、管理、メンテナンスの目的で使用する技術的なログインです。 このログインはインスタンスに関連付けられていません。
+The **内部** identifier は、インストール、管理、メンテナンスの目的で使用する技術的なログインです。 このログインはインスタンスに関連付けられていません。
 
 このログインを使用して接続したオペレーターは、すべてのインスタンスに対するすべての権限を持ちます。 新規インストールの場合、このログインにはパスワードが含まれません。 このパスワードは手動で定義する必要があります。
 
@@ -91,9 +92,9 @@ Confirmation: XXXX
 
 これらのファイルに変更を適用するには、Adobe Campaignサービスが起動している場合に、 **nlserver config -reload** コマンドを使用します。
 
-プロセスには次の 2 つのタイプがあります。マルチインスタンスとシングルインスタンスの両方に対応しています。
+プロセスには、マルチインスタンスとシングルインスタンスの 2 つのタイプがあります。
 
-* **マルチインスタンス**:すべてのインスタンスに対して 1 つの単一プロセスが開始されます。 これは **web**, **syslogd** および **trackinglogd** プロセス。
+* **マルチインスタンス**：すべてのインスタンスに対して 1 つの単一のプロセスが開始されます。 これは **web**, **syslogd** および **trackinglogd** プロセス。
 
   有効化は、 **config-default.xml** ファイル。
 
@@ -106,9 +107,9 @@ Confirmation: XXXX
   <trackinglogd autoStart="true"/>
   ```
 
-  この例では、ファイルは **vi** 」コマンドを使用します。 任意の **.txt** または **.xml** 編集者。
+  この例では、ファイルは **vi** 」コマンドを使用します。 任意の **.txt** または **.xml** 編集者です。
 
-* **モノインスタンス**:各インスタンス（モジュール）に対して 1 つのプロセスが開始されます。 **mta**, **wfserver**, **inMail**, **sms** および **stat**) をクリックします。
+* **モノインスタンス**：各インスタンス（モジュール）に対して 1 つのプロセスが開始します。 **mta**, **wfserver**, **inMail**, **sms** および **stat**) をクリックします。
 
   イネーブルメントは、インスタンスの設定ファイルを使用して設定できます。
 
@@ -127,7 +128,7 @@ Confirmation: XXXX
 
 **Campaign データストレージ**
 
-ストレージディレクトリ (**var** Adobe Campaignデータ（ログ、ダウンロード、リダイレクトなど）のディレクトリ内にあること。 これをおこなうには、 **XTK_VAR_DIR** システム変数：
+ストレージディレクトリ (**var** Adobe Campaignデータ（ログ、ダウンロード、リダイレクトなど）のディレクトリ内にあることを確認します。 これをおこなうには、 **XTK_VAR_DIR** システム変数：
 
 * Windows の場合、 **XTK_VAR_DIR** システム変数
 
@@ -144,7 +145,7 @@ Confirmation: XXXX
 
 デフォルトでは、すべての動的ページは、 **ローカル** Web モジュールが起動したマシンの Tomcat サーバー。 この設定は、 **`<url>`** のセクションに含まれています。 **ServerConf.xml** ファイル。
 
-動的ページの実行を **リモート** server;コンピュータ上で Web モジュールがアクティブになっていない場合。 これをおこなうには、 **localhost** JSP および JSSP、Web アプリケーション、レポート、および文字列用のリモートコンピュータの名前を使用します。
+動的ページの実行を **リモート** サーバー。Web モジュールがコンピューター上で有効になっていない場合。 これをおこなうには、 **localhost** JSP および JSSP、Web アプリケーション、レポート、および文字列用のリモートコンピュータの名前を使用します。
 
 使用可能な様々なパラメーターについて詳しくは、 **serverConf.xml** 設定ファイル。
 
@@ -156,10 +157,10 @@ JSP ページの場合、デフォルトの設定は次のようになります�
 
 Adobe Campaignは次の JSP ページを使用します。
 
-* /nl/jsp/**soaproter.jsp**:クライアントコンソールと Web サービスの接続 (SOAP API)
-* /nl/jsp/**m.jsp**:ミラーページ、
-* /nl/jsp/**logon.jsp**:レポートへの Web ベースのアクセスと、クライアントコンソールのデプロイメント
-* /nl/jsp/**s.jsp** :バイラルマーケティング（スポンサーおよびソーシャルネットワーク）の使用。
+* /nl/jsp/**soaproter.jsp**：クライアントコンソールと Web サービスの接続 (SOAP API)
+* /nl/jsp/**m.jsp**：ミラーページ、
+* /nl/jsp/**logon.jsp**：レポートへの Web ベースのアクセスと、クライアントコンソールのデプロイメント
+* /nl/jsp/**s.jsp** ：バイラルマーケティング（スポンサーおよびソーシャルネットワーク）の使用。
 
 モバイルアプリチャネルで使用される JSSP は次のとおりです。
 
@@ -197,11 +198,11 @@ Adobe Campaignは次の JSP ページを使用します。
 デフォルトでは、すべての HTTP ヘッダーは中継されません。 リレーから送信される返信に特定のヘッダーを追加できます。 手順は次のとおりです。
 
 1. 次に移動： **serverConf.xml** ファイル。
-1. 内 **`<relay>`** ノードで、リレーされた HTTP ヘッダーのリストに移動します。
+1. Adobe Analytics の **`<relay>`** ノードに移動し、リレーされた HTTP ヘッダーのリストに移動します。
 1. を追加します。 **`<responseheader>`** 要素に次の属性を追加します。
 
-   * **名前**:ヘッダー名
-   * **値**:値の名前。
+   * **名前**：ヘッダー名
+   * **値**：値の名前。
 
    例：
 
@@ -232,9 +233,9 @@ sh
 >
 >このリストが完全なものではありません。
 
-内 **exec** サーバー設定ファイルのノードで、以前に作成したファイルを **blacklistFile** 属性。
+Adobe Analytics の **exec** サーバー設定ファイルのノードで、以前に作成したファイルを **blacklistFile** 属性。
 
-**Linux のみ**:サーバー設定ファイルで、セキュリティ設定を強化する外部コマンドの実行専用のユーザーを指定することをお勧めします。 このユーザーは、 **exec** 設定ファイルのノード。 次の **serverConf.xml** を [セクション](../../installation/using/the-server-configuration-file.md).
+**Linux のみ**：サーバー設定ファイルで、セキュリティ設定を強化する外部コマンドの実行専用のユーザーを指定することをお勧めします。 このユーザーは、 **exec** 設定ファイルのノード。 次の **serverConf.xml** を [セクション](../../installation/using/the-server-configuration-file.md).
 
 >[!NOTE]
 >
@@ -257,7 +258,7 @@ sh
 
 ## 重複した追跡 {#redundant-tracking}
 
-リダイレクトに複数のサーバーを使用する場合、リダイレクトする URL からの情報を共有するには、SOAP 呼び出しを介して相互に通信できる必要があります。 配信の開始時に、一部のリダイレクションサーバーが使用できるとは限りません。したがって、同じレベルの情報を持っていない可能性があります。
+リダイレクトに複数のサーバーを使用する場合、リダイレクトする URL からの情報を共有するには、SOAP 呼び出しを介して相互に通信できる必要があります。 配信の開始時に、すべてのリダイレクションサーバーが使用可能とは限らないので、同じレベルの情報が得られない可能性があります。
 
 >[!NOTE]
 >
@@ -272,7 +273,7 @@ sh
 <spareserver enabledIf="$(hostname)!='front_srv2'" id="2" url="http://front_srv2:8080" />
 ```
 
-この **enableIf** プロパティはオプション（デフォルトでは空）で、結果が true の場合にのみ接続を有効にできます。 これにより、すべてのリダイレクトサーバーで同じ設定を取得できます。
+The **enableIf** プロパティはオプション（デフォルトでは空）で、結果が true の場合にのみ接続を有効にできます。 これにより、すべてのリダイレクトサーバーで同じ設定を取得できます。
 
 コンピューターのホスト名を取得するには、次のコマンドを実行します。 **hostname -s**.
 
@@ -284,7 +285,7 @@ sh
 
 Web からアクセスする場合は、 **ロードバランサー** 接続時間を制限するモードです。
 
-Adobe Campaignコンソールからにアクセスする場合は、「 **ハッシュ** または **共通 ip** モード。 これにより、リッチクライアントとサーバー間の接続を維持し、例えば、インポートまたはエクスポート操作中にユーザーセッションが中断されるのを防ぐことができます。
+Adobe Campaignコンソールからにアクセスする場合は、「 **ハッシュ** または **スティッキー ip** モード。 これにより、リッチクライアントとサーバー間の接続を維持し、例えば、インポートまたはエクスポート操作中にユーザーセッションが中断されるのを防ぐことができます。
 
 特定のマシン上でのワークフローまたはワークフローアクティビティの実行を強制するよう選択できます。 これをおこなうには、該当するワークフローまたはアクティビティに対して 1 つ以上のアフィニティを定義する必要があります。
 
@@ -299,7 +300,7 @@ Adobe Campaignコンソールからにアクセスする場合は、「 **ハッ
    ドロップダウンリストには、以前に使用したアフィニティが含まれています。 入力された値が異なる状態で、時間の経過と共に完了します。
 
 1. を開きます。 **nl6/conf/config-`<instance>.xml`** ファイル。
-1. 次に一致する行を変更 **[!UICONTROL wfserver]** モジュールの説明：
+1. 次の条件に一致する行を変更します。 **[!UICONTROL wfserver]** モジュールを次に示します。
 
    ```
    <wfserver autoStart="true" affinity="XXX,"/>
@@ -325,7 +326,7 @@ Adobe Campaignコンソールからにアクセスする場合は、「 **ハッ
 
 ただし、この設定は変更できます。
 
-これをおこなうには、 **serverConf.xml** ファイルの場所は、 **conf** インストールのリポジトリ。
+これをおこなうには、に移動します。 **serverConf.xml** ファイルの場所は、 **conf** インストールのリポジトリ。
 
 このファイルで設定された各プロセスには、 **processRestartTime** 属性。 この属性の値を変更し、必要に応じて各プロセスの再起動時間を調整できます。
 

@@ -2,11 +2,12 @@
 product: campaign
 title: Web トラッキングタグの定義
 description: Web トラッキングタグの定義
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Application Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '360'
 ht-degree: 2%
 
 ---
@@ -66,12 +67,12 @@ Web トラッキング URL の形式を次に示します。 **https://`<name_of
                               <p>URL パラメーター</p> 
                            </td>
                            <td>
-                              <p>トラッキングする Web ページの識別子：これは唯一の必須パラメータです。</p> 
+                              <p>トラッキングされる Web ページの識別子：これは唯一の必須パラメーターです。</p> 
                            </td> 
                         </tr>
                         <tr>
                            <td>
-                              <p>ジョブ</p> 
+                              <p>jobid</p> 
                            </td>
                            <td>
                               <p>URL パラメーター</p> 

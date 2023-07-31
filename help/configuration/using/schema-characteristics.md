@@ -2,12 +2,13 @@
 product: campaign
 title: スキーマの特性
 description: スキーマの特性
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Custom Resources
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '392'
 ht-degree: 2%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 2%
 
 ## ビュー属性 {#the-view-attribute}
 
-ソーススキーマは、 **表示** 属性 **srcSchema** ルート要素。 カスタムテーブルでAdobe Campaignを操作する場合に使用する必要があります。 この **view=&quot;true&quot;** 属性は、データベース構造の更新ウィザードに対し、このスキーマを無視するよう指示します。 したがって、アプリケーションは、テーブル、その列およびそのインデックスを対応するスキーマと同期することはできません。
+ソーススキーマは、 **表示** の属性 **srcSchema** ルート要素を使用します。 カスタムテーブルでAdobe Campaignを操作する場合に使用する必要があります。 The **view=&quot;true&quot;** 属性は、データベース構造の更新ウィザードに対して、このスキーマを無視するよう指示します。 したがって、アプリケーションは、テーブル、その列およびそのインデックスを対応するスキーマと同期することはできません。
 
 この属性が **true**&#x200B;の場合、スキーマは、このテーブルのデータにアクセスする SQL クエリを生成する目的でのみ使用されます。
 
@@ -54,7 +55,7 @@ ht-degree: 2%
 </element>
 ```
 
-この例では、テーブルと列の名前が明示的に指定されていない場合、アプリケーションは **CusIndividual** テーブルの **lastName** および **firstName** 列の
+この例では、テーブルと列の名前が明示的に指定されていない場合、アプリケーションは **CusIndividual** テーブルの **lastName** および **firstName** 列に対して。
 
 スキーマでは、既存のテーブルの列の一部のみを入力できます。 未入力の列は、ユーザーがアクセスできなくなります。
 
@@ -76,7 +77,7 @@ ht-degree: 2%
 
 そのため、一致するスキーマ内でカスタムテーブルの既存のインデックスを宣言することが重要です。
 
-インデックスは、ソーススキーマの各キーおよびリンク宣言に対して暗黙的に宣言されます。 インデックス宣言は、 **noDbIndex=&quot;true&quot;** 属性：
+インデックスは、ソーススキーマの各キーおよびリンク宣言に対して暗黙的に宣言されます。 インデックスの宣言は、 **noDbIndex=&quot;true&quot;** 属性：
 
 **例**：
 

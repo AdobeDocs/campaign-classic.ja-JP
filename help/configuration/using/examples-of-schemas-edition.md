@@ -2,11 +2,12 @@
 product: campaign
 title: スキーマエディションの例
 description: スキーマエディションの例
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Schema Extension
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '670'
 ht-degree: 2%
 
 ---
@@ -39,7 +40,7 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-   この例では、インデックス付きのフィールド (**忠実さ**) が追加され、 **場所** 要素 ( **nms:recipient** スキーマ ) は、列挙されたフィールド (**領域**) をクリックします。
+   この例では、インデックス付きのフィールド (**忠実さ**) が追加され、 **場所** ( 既に **nms:recipient** スキーマ ) は、列挙されたフィールド (**領域**) をクリックします。
 
    >[!IMPORTANT]
    >
@@ -152,7 +153,7 @@ INSERT INTO CusOrder (iOrderId) VALUES (0);
 
 拡張テーブルの目的は、テーブルでサポートされるフィールドの数に制限がないようにするか、オンデマンドで消費されるデータの占有領域を最適化することです。
 
-拡張テーブルスキーマ (**cus:feature**):
+拡張テーブルスキーマの作成 (**cus:feature**):
 
 ```
 <srcSchema mappingType="sql" name="feature" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -234,7 +235,7 @@ CREATE UNIQUE INDEX CusOverflow2_id ON CusOverflow2(iRecipientId);
 
 関係テーブルを使用すると、2 つのテーブルを基数 N ～ N にリンクできます。このテーブルには、リンクするテーブルの外部キーのみが含まれています。
 
-グループ間の関係テーブルの例 (**nms:group**) および受信者 (**nms:recipient**) をクリックします。
+グループ間の関係テーブル (**nms:group**) および受信者 (**nms:recipient**) をクリックします。
 
 関係テーブルのソーススキーマ：
 
@@ -330,7 +331,7 @@ xtkschema="xtk:srcSchema">
 
 * オートコンプリートをおこなうには、参照テーブルで計算文字列を定義する必要があります。
 
-* を **noDbIndex=&quot;true&quot;** 属性を使用して、Adobe Campaignがリンクのソーステーブルに格納された値にインデックスを作成できないようにします。
+* 次を追加： **noDbIndex=&quot;true&quot;** 属性を使用して、Adobe Campaignがリンクのソーステーブルに格納された値にインデックスを作成できないようにします。
 
 ## 関連トピック
 

@@ -2,16 +2,17 @@
 product: campaign
 title: 移行のテスト
 description: 移行のテスト
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
 hide: true
 hidefromtoc: true
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '713'
 ht-degree: 4%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 4%
 
 設定に応じて、移行テストを実行する方法がいくつかあります。
 
-移行テストを実行するには、テスト/開発環境が必要です。 Adobe Campaign環境は、次のライセンスを受けることができます。ライセンス契約を確認するか、Adobe担当者にお問い合わせください。
+移行テストを実行するには、テスト/開発環境が必要です。 Adobe Campaign環境はライセンスの対象となります。ライセンス契約を確認するか、Adobe担当者にお問い合わせください。
 
 1. 進行中のすべての開発を停止し、実稼動環境に引き継ぎます。
 1. 開発環境データベースのバックアップを作成します。
@@ -53,7 +54,7 @@ ht-degree: 4%
 
 様々なオプションを使用すると、移行による影響を測定し、潜在的な問題を特定できます。 以下のオプションが実行されます。
 
-* 内 **config** コマンド：
+* （内） **config** コマンド：
 
   ```
   nlserver.exe config <option> -instance:<instance-name>
@@ -72,7 +73,7 @@ ht-degree: 4%
 
 ### 非標準のオブジェクトまたは見つからないオブジェクト
 
-* この **-showCustomEntities** 「 」オプションは、非標準オブジェクトのリストを表示します。
+* The **-showCustomEntities** 「 」オプションは、非標準オブジェクトのリストを表示します。
 
   ```
   nlserver.exe config -showCustomEntities -instance:<instance-name>
@@ -84,7 +85,7 @@ ht-degree: 4%
   xtk_migration:opsecurity2 xtk:entity
   ```
 
-* この **-showDeletedEntities** 「 」オプションは、データベースまたはファイルシステムに存在しないすべての標準オブジェクトのリストを表示します。 見つからない各オブジェクトに対して、パスが指定されます。
+* The **-showDeletedEntities** 「 」オプションは、データベースまたはファイルシステムに存在しないすべての標準オブジェクトのリストを表示します。 見つからない各オブジェクトに対して、パスが指定されます。
 
   ```
   nlserver.exe config -showDeletedEntities -instance:<instance-name>
@@ -138,7 +139,7 @@ nlserver.exe config -postupgrade -check -instance:<instance-name>
    <td> logon(<br /> </td> 
    <td> PU-0003<br /> </td> 
    <td> 警告<br /> </td> 
-   <td> この接続方法は使用できなくなりました。<br /> </td> 
+   <td> この接続方法は使用しなくなりました。<br /> </td> 
   </tr> 
   <tr> 
    <td> new SoapMethodCall(<br /> </td> 
@@ -181,7 +182,7 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 
 >[!NOTE]
 >
->絶対フォルダーパスを使用し、フォルダーツリー構造を維持することを強くお勧めします。 例：backupFolder\nms\srcSchema\billing.xml.
+>絶対フォルダーパスを使用し、フォルダーツリー構造を維持することを強くお勧めします。 例： backupFolder\nms\srcSchema\billing.xml
 
 ### 移行を再開 {#resuming-migration}
 

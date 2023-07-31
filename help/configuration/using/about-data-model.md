@@ -2,12 +2,12 @@
 product: campaign
 title: Campaign Classicデータモデルの概要
 description: Campaign データモデルの拡張、スキーマの編集、API の使用などの方法について学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Data Model
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+feature: Data Model, Configuration
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '992'
 ht-degree: 31%
 
 ---
@@ -110,7 +110,7 @@ Campaign データモデルについて詳しくは、次の節を参照して�
 
 * **メインテーブルの説明**  — デフォルトのCampaign Classicデータモデルの説明について詳しくは、 [この節](../../configuration/using/data-model-description.md).
 
-* **各テーブルの完全な説明**  — 各テーブルの完全な説明にアクセスするには、に移動します。 **[!UICONTROL 管理者/設定/データスキーマ]**&#x200B;をクリックし、リストからリソースを選択し、 **[!UICONTROL ドキュメント]** タブをクリックします。
+* **各テーブルの完全な説明**  — 各テーブルの完全な説明にアクセスするには、に移動します。 **[!UICONTROL 管理者/設定/データスキーマ]**」をクリックし、リストからリソースを選択し、 **[!UICONTROL ドキュメント]** タブをクリックします。
 
   ![](assets/data-model_documentation-tab.png)
 

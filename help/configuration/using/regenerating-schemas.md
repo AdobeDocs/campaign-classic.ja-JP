@@ -2,12 +2,13 @@
 product: campaign
 title: スキーマを再生成
 description: Campaign スキーマの再生成方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Custom Resources
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 3%
+source-wordcount: '144'
+ht-degree: 4%
 
 ---
 

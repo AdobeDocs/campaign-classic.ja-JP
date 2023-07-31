@@ -2,16 +2,17 @@
 product: campaign
 title: プライバシーと同意
 description: プライバシーと同意の詳細を説明します
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Privacy, Privacy Tools
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2025'
-ht-degree: 100%
+source-wordcount: '2037'
+ht-degree: 99%
 
 ---
 
@@ -112,7 +113,7 @@ Campaign を、[Adobe Analytics](../../platform/using/adobe-analytics-connector.
 
 1. **データ管理者**（Anne）はこの GDPR リクエストをインターフェイスまたは API を使用して Campaign に登録します。
 
-1. **データ処理者**（Adobe Campaign）が情報を受け取ると、GDPR リクエストに対する処理を実行し、応答または確認通知を&#x200B;**データ管理者**（Anne）に送信します。
+1. **データ処理者**（Adobe Campaign）が情報を受け取ると、GDPR リクエストに対するアクションを実行し、応答または確認通知を&#x200B;**データ管理者**（Anne）に送信します。
 
 1. **データ管理者**（Anne）は情報を受け取り、それを&#x200B;**データ主体**（Laura）に返します。
 

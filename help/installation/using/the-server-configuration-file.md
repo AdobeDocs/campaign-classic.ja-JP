@@ -2,14 +2,15 @@
 product: campaign
 title: サーバー設定ファイル
 description: サーバー設定ファイル
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '7955'
+source-wordcount: '7962'
 ht-degree: 39%
 
 ---
@@ -48,10 +49,10 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
 
 * [アーカイブ](#archiving)
 * [inMail](#inmail)
-* [相互作用の](#interactiond)
+* [相互作用する](#interactiond)
 * [MTA](#mta)
 * [nmac](#nmac)
-* [パイプライン](#pipelined)
+* [パイプラインの](#pipelined)
 * [修理](#repair)
 * [securityZone](#securityzone)
 * [SMS](#sms)
@@ -137,7 +138,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
   </tr> 
   <tr> 
    <td> internalSecurityZone<br /> </td> 
-   <td> 内部アカウントのセキュリティゾーン：内部アカウント用に認証されたゾーン。<br /> </td> 
+   <td> 内部アカウントのセキュリティゾーン：内部アカウントの認証済みゾーン。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'lan'<br /> </td> 
   </tr> 
@@ -160,19 +161,19 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
  <tbody> 
   <tr> 
    <td> exportDirectory<br /> </td> 
-   <td> 書き出しディレクトリ：エクスポートするデータの宛先ディレクトリのパス。<br /> </td> 
+   <td> Export directory：エクスポートされたデータの保存先ディレクトリのパス。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/export/' <br /> </td> 
   </tr> 
   <tr> 
    <td> extraSandboxedDirectories<br /> </td> 
-   <td> 追加のサンドボックス化ディレクトリ：サンドボックスに追加するその他のパス（コンマ区切り）。<br /> </td> 
+   <td> 追加のサンドボックス化ディレクトリ：サンドボックスに追加する他のパス（コンマ区切り）。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '/home/customers/,/sftp/' <br /> </td> 
   </tr> 
   <tr> 
    <td> formCacheTimeToLive<br /> </td> 
-   <td> フォームキャッシュの有効期限の遅延：キャッシュエントリが無効化されるまでのタイムアウト（秒）。 つまり、キャッシュエントリはパブリッシュ時にのみ更新されます。<br /> </td> 
+   <td> フォームキャッシュの有効期限の遅延：キャッシュエントリが無効になるまでのタイムアウト（秒）。 つまり、キャッシュエントリはパブリッシュ時にのみ更新されます。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -184,7 +185,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
   </tr> 
   <tr> 
    <td> interactionCacheTimeToLive<br /> </td> 
-   <td> インタラクション JSSP キャッシュの有効期限の遅延：キャッシュエントリが無効化されるまでのタイムアウト（秒）。 負の値は、キャッシュが常に無効化されることを意味します。 「0」、空または無効な値は 60 と見なされます。<br /> </td> 
+   <td> インタラクション JSSP キャッシュの有効期限の遅延：キャッシュエントリが無効になるまでのタイムアウト（秒）。 負の値は、キャッシュが常に無効化されることを意味します。 「0」、空または無効な値は 60 と見なされます。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -196,7 +197,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
   </tr> 
   <tr> 
    <td> uploadDirectory<br /> </td> 
-   <td> アップロードフォルダ：アップロードされたデータの宛先ディレクトリのパス。<br /> </td> 
+   <td> アップロードフォルダー：アップロードされたデータの保存先ディレクトリのパス。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/upload/' <br /> </td> 
   </tr> 
@@ -208,7 +209,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
   </tr> 
   <tr> 
    <td> useVault<br /> </td> 
-   <td> 秘密鍵を Vault に保存：Hashicorp Vault を使用します。<br /> </td> 
+   <td> Vault に秘密鍵を保存する：Hashicorp Vault を使用します。<br /> </td> 
    <td> ブール値<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -232,7 +233,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
   </tr> 
   <tr> 
    <td> viewCacheTimeToLive<br /> </td> 
-   <td> ビューキャッシュの有効期間：キャッシュエントリが無効化されるまでのタイムアウト（秒）。 負の値は、キャッシュが常に無効化されることを意味します。 「0」、空または無効な値は 60 と見なされます。<br /> </td> 
+   <td> 表示キャッシュの有効期間：キャッシュエントリが無効になるまでのタイムアウト（秒）。 負の値は、キャッシュが常に無効化されることを意味します。 「0」、空または無効な値は 60 と見なされます。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -240,7 +241,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
    <td> workingDirectory<br /> </td> 
    <td> 作業ディレクトリの XPath。<br /> </td> 
    <td> 文字列<br /> </td> 
-   <td> workingDirectory :作業ディレクトリの XPath。 デフォルト：'$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/workspace/'<br /> </td> 
+   <td> workingDirectory ：作業ディレクトリの XPath。 デフォルト： 「$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/workspace/」<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -294,7 +295,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
  </tbody> 
 </table>
 
-内 **dataStore > dataSource > dbcnx** ノードで、接続設定を指定します。
+Adobe Analytics の **dataStore > dataSource > dbcnx** ノードで、接続設定を指定します。
 
 <table> 
  <thead> 
@@ -350,7 +351,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
   </tr> 
   <tr> 
    <td> タイムゾーン<br /> </td> 
-   <td> タイムゾーン：参照 <a href="../../installation/using/time-zone-management.md" target="_blank">タイムゾーン管理</a>.<br /> </td> 
+   <td> タイムゾーン：詳しくは、 <a href="../../installation/using/time-zone-management.md" target="_blank">タイムゾーン管理</a>.<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> </td> 
   </tr> 
@@ -362,14 +363,14 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
   </tr> 
   <tr> 
    <td> useTimestampTZ<br /> </td> 
-   <td> タイムゾーンを持つ日付フィールド：参照 <a href="../../installation/using/time-zone-management.md" target="_blank">タイムゾーン管理</a>.<br /> </td> 
+   <td> タイムゾーンを持つ日付フィールド：詳しくは、 <a href="../../installation/using/time-zone-management.md" target="_blank">タイムゾーン管理</a>.<br /> </td> 
    <td> ブール値<br /> </td> 
    <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-内 **dataStore > dataSource > sqlParams** ノードで、SQL パラメーターを設定します。
+Adobe Analytics の **dataStore > dataSource > sqlParams** ノードで、SQL パラメーターを設定します。
 
 <table> 
  <thead> 
@@ -388,7 +389,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
  </tbody> 
 </table>
 
-内 **dataStore > dataSource > pool** ノードに、関連する接続プールのパラメータを構成します。
+Adobe Analytics の **dataStore > dataSource > pool** ノードに、関連する接続プールのパラメータを構成します。
 
 <table> 
  <thead> 
@@ -411,7 +412,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
-   <td> 新しい接続を拒否する前に許可された接続の最大数。参照 <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">技術者</a>.<br /> </td> 
+   <td> 新しい接続を拒否する前に許可された接続の最大数。詳しくは、 <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">技術者</a>.<br /> </td> 
    <td> ショート<br /> </td> 
   </tr> 
   <tr> 
@@ -514,7 +515,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
  <tbody> 
   <tr> 
    <td> localDomain<br /> </td> 
-   <td> ドメイン名：デフォルトのドメイン名。 SMTP HELO コマンドで使用されます。 デフォルトでは、は Windows で宣言された最初のネットワークインターフェイスのネットワークパラメーターを使用します。または、Linux（ドメインまたは検索エントリ）の下のfile/etc/resolv.confを解析します。 <br /> </td> 
+   <td> ドメイン名：デフォルトのドメイン名。 SMTP HELO コマンドで使用されます。 デフォルトでは、は Windows で宣言された最初のネットワークインターフェイスのネットワークパラメーターを使用するか、Linux のfile/etc/resolv.conf （ドメインまたは検索エントリ）を解析します。 <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -541,13 +542,13 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
 
 >[!NOTE]
 >
->メモ： **nameSevers**:デフォルトでは、はネットワークを使用します
->Windows で宣言された最初のネットワークインターフェイスのパラメータ
+>メモ： **nameSevers**：デフォルトでは、はネットワークを使用します
+>Windows で宣言された最初のネットワークインターフェイスのパラメーター
 >UNIX では定義されていません。 ドメインネームサーバー (DNS) を定義します
 >MTA が、次の用に宣言されたメールエクスチェンジャを取得するために使用
->ドメイン。
+>1 つのドメイン。
 >
->この値を定義しない場合、MTA はホストネットワーク設定でこの情報を探します。 複数の DNS が可能な場合は、異なる DNS アドレスをコンマで区切る必要があります ( 例：212.155.207.1,212.155.207.2)。 配信サーバーに複数のネットワークインターフェイスがある場合、MTA が使用する DNS リストが最初のものになります。 この場合、 **nameServer** パラメーターを使用して、曖昧さを回避します。
+>この値を定義しない場合、MTA はホストネットワーク設定でこの情報を探します。 複数の DNS が可能な場合は、異なる DNS アドレスをコンマで区切る必要があります（例： 212.155.207.1,212.155.207.2）。 配信サーバーに複数のネットワークインターフェイスがある場合、MTA が使用する DNS リストが最初のものになります。 この場合、 **nameServer** パラメーターを使用して、曖昧さを回避します。
 
 >[!CAUTION]
 >
@@ -570,7 +571,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
  <tbody> 
   <tr> 
    <td> blacklistFile<br /> </td> 
-   <td> に追加するコマンドを含むファイルのパ許可リストス。 <br /> </td> 
+   <td> に追加するコマンドを含むファイルのパ許可リストに加えるス。 <br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
@@ -583,7 +584,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
 
 ## htmlToPdf {#htmltopdf}
 
-次に、 **htmlToPdf** ノード。 Web ページを変換ドキュメントに変換するサービスのPDFです。
+次に、 **htmlToPdf** ノード。 これは、Web ページを変換ドキュメントに変換するサービスのPDFです。
 
 <table> 
  <thead> 
@@ -602,14 +603,14 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> maxProcessCount<br /> </td> 
-   <td> 最大1 台のマシンで一度に許可される変換プロセスの数。<br /> </td> 
+   <td> maxProcessusCount<br /> </td> 
+   <td> 最大1 台のマシン上で一度に許可されるコンバージョンプロセスの数。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> mode<br /> </td> 
-   <td> 変換に使用するツール。 次の値を指定できます。phantomjs, wkhtmltopdf，その他，無効<br /> </td> 
+   <td> 変換に使用するツール。 使用可能な値は、phantomjs、wkhtmltopdf、other、disabled です。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'phantomjs' <br /> </td> 
   </tr> 
@@ -620,14 +621,14 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
    <td> 120<br /> </td> 
   </tr> 
   <tr> 
-   <td> 詳細<br /> </td> 
+   <td> verbove<br /> </td> 
    <td> 詳細モード：可能性のあるエラーを診断するために、詳細モードで開始します。<br /> </td> 
    <td> ブール値<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> waitTime<br /> </td> 
-   <td> プロセス待機時の遅延：すべてのプロセスが同時に使用され、プロセスが解放されるのを待つときの遅延（秒）。 この遅延を超えると、変換が停止し、エラーが発生します。 <br /> </td> 
+   <td> プロセス待機時の遅延：すべてのプロセスが同時に使用されたとき、およびプロセスが解放されるのを待っているときの遅延（秒単位）。 この遅延を超えると、変換が停止し、エラーが発生します。 <br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 15<br /> </td> 
   </tr> 
@@ -738,7 +739,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ## mailExchanger {#mailexchanger}
 
-次に、 **mailExchanger** ノード。 SMTP サーバーの設定です。
+次に、 **mailExchanger** ノード。 これは SMTP サーバーの設定です。
 
 <table> 
  <thead> 
@@ -752,7 +753,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
  <tbody> 
   <tr> 
    <td> mxAddress<br /> </td> 
-   <td> SMTP サーバー：E メール転送用の SMTP サーバーの IP アドレス。<br /> </td> 
+   <td> SMTP server:E メール転送用の SMTP サーバーの IP アドレス。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -868,7 +869,7 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 次に、 **proxyConfig** ノード。 これはプロキシパラメーターの設定です。
 
-詳しくは、 [プロキシ接続設定](file-res-management.md).
+詳しくは、 [プロキシ接続の設定](file-res-management.md).
 
 <table> 
  <thead> 
@@ -903,9 +904,9 @@ phantomjs - -ignore-ssl-errors=true '$(XTK_INSTALL_DIR)/bin/htmlToPdf.js' '-out:
 
 ### HTTP プロキシ/セキュアプロキシ {#http-proxy---secure-proxy-}
 
-内 **proxyConfig > HTTP Proxy / Secure proxy** ノードで、次のパラメーターを設定します。
+Adobe Analytics の **proxyConfig > HTTP Proxy / Secure proxy** ノードで、次のパラメーターを設定します。
 
-詳しくは、 [プロキシ接続設定](file-res-management.md).
+詳しくは、 [プロキシ接続の設定](file-res-management.md).
 
 <table> 
  <thead> 
@@ -990,7 +991,7 @@ URL が見つからない場合は、指定されたデフォルトのモード�
   </tr> 
   <tr> 
    <td> debugTrace<br /> </td> 
-   <td> URL 選択メカニズムのデバッグトレース：は、URL 検証プロセス中に追加のメッセージを発行します。<br /> </td> 
+   <td> URL 選択メカニズムのデバッグトレース：URL 検証プロセス中に追加のメッセージを発行します。<br /> </td> 
    <td> ブール値<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1014,12 +1015,12 @@ URL ごとに、 **url** ノードに次のパラメーターを追加します�
  <tbody> 
   <tr> 
    <td> dnsSuffix<br /> </td> 
-   <td> URL に関係するドメイン名またはドメインの親：検証を高速化するために検証する URL のドメインのすべてまたは一部。 URL のドメインに dsnSuffix が含まれている場合にのみ、URL が正規表現に関して検証されます。<br /> </td> 
+   <td> URL に関係するドメイン名またはドメインの親。検証する URL のドメインのすべてまたは一部。検証を高速化するために使用されます。 URL のドメインに dsnSuffix が含まれている場合にのみ、URL が正規表現に関して検証されます。<br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
    <td> urlRegEx<br /> </td> 
-   <td> このドメインに属する URL の検証を絞り込むための正規表現：URL が dnsSuffix に対応する場合に検証する必要がある正規表現。<br /> </td> 
+   <td> このドメインに属する URL の検証を絞り込むための正規表現：URL が dnsSuffix に対応する場合は、URL が検証する必要がある正規表現。<br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
  </tbody> 
@@ -1027,7 +1028,7 @@ URL ごとに、 **url** ノードに次のパラメーターを追加します�
 
 レコードが満たす場合 **dnsSuffix** しかし、 **urlRegEx**&#x200B;に続く記録を調べた。
 
-例えば、business.com ドメインのすべての URL へのアクセスを承認するには、2 つのレコードを定義します。
+例えば、business.comドメインのすべての URL へのアクセスを承認するには、2 つのレコードを定義します。
 
 dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;http://.&#42;&quot;
 
@@ -1117,7 +1118,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> compressBatchSize<br /> </td> 
-   <td> 圧縮されたアーカイブのサイズ：圧縮アーカイブ内の最大ファイル数。<br /> </td> 
+   <td> 圧縮アーカイブのサイズ：圧縮アーカイブ内の最大ファイル数。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 10000<br /> </td> 
   </tr> 
@@ -1129,7 +1130,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> expirationDelay<br /> </td> 
-   <td> 未処理の E メールが自動的にアーカイブされるまでの遅延時間：未処理の E メールがアーカイブされるまでの日数。<br /> </td> 
+   <td> 未処理の E メールが自動アーカイブされるまでの遅延：未処理の E メールがアーカイブされるまでの日数。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
@@ -1141,7 +1142,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> メモリ消費アラート：特定のプロセスが消費した RAM の量 (MB) に関するアラート。<br /> </td> 
+   <td> メモリ消費量アラート：特定のプロセスが消費した RAM の量（MB 単位）に関するアラート。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
@@ -1210,7 +1211,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ## inMail {#inmail}
 
-次に、 **inMail** ノード。 これは、受信 E メール管理モジュールの設定です。
+次に、 **inMail** ノード。 これは、インバウンド E メール管理モジュールの設定です。
 
 <table> 
  <thead> 
@@ -1236,25 +1237,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> checkInstanceName<br /> </td> 
-   <td> インスタンス名を確認：true の場合、Message-ID ヘッダーに含まれるAdobe Campaignインスタンスの名前は、現在のインスタンスと同じにする必要があります。 <br /> </td> 
+   <td> インスタンス名の検証： true の場合、Message-ID ヘッダーに含まれるAdobe Campaignインスタンスの名前は、現在のインスタンスと同じである必要があります。 <br /> </td> 
    <td> ブール値<br /> </td> 
    <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> defaultForwardAddress<br /> </td> 
-   <td> 転送先アドレス：ルールで処理されないデフォルトの E メール転送アドレス。 <br /> </td> 
+   <td> 転送アドレス：ルールで処理されないデフォルトの E メール転送アドレスです。 <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> errorForwardAddress<br /> </td> 
-   <td> エラーのアドレス：無効な E メール（無効な MIME エンコーディング）の転送に使用するデフォルトのアドレス。 <br /> </td> 
+   <td> エラーのアドレス：無効な E メール（無効な MIME エンコーディング）の転送に使用されるデフォルトのアドレス。 <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> ignoreSize<br /> </td> 
-   <td> メッセージサイズを無視：は、POP3 サーバーから返されるメッセージのサイズを無視するために使用されます。 この場合、モジュールは「。」を想定しています。 を送信します。 <br /> </td> 
+   <td> 無視メッセージサイズ：POP3 サーバーから返されるメッセージのサイズを無視する場合に使用します。 この場合、モジュールは「。」を想定しています。 を送信します。 <br /> </td> 
    <td> ブール値<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1272,7 +1273,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxBroadLog<br /> </td> 
-   <td> 更新するログの最大数：は、データベースを更新する前にメモリに保持するログメッセージの最大数を定義します。<br /> </td> 
+   <td> 更新するログの最大数：データベースを更新する前にメモリに保持するログメッセージの最大数を定義します。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 20<br /> </td> 
   </tr> 
@@ -1284,7 +1285,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> メモリ消費アラート：特定のプロセスが消費した RAM の量 (MB) に関するアラート。<br /> </td> 
+   <td> メモリ消費量アラート：特定のプロセスが消費した RAM の量（MB 単位）に関するアラート。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
@@ -1341,7 +1342,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ### msgDump {#msgdump}
 
-内 **inMail > msgDump** ノードで、次のパラメーターを設定します。 これは、処理されたメッセージのダンプの設定です。
+Adobe Analytics の **inMail > msgDump** ノードで、次のパラメーターを設定します。 これは、処理されたメッセージのダンプの設定です。
 
 <table> 
  <thead> 
@@ -1368,9 +1369,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-## 相互作用の {#interactiond}
+## 相互作用する {#interactiond}
 
-次に、 **相互作用の** ノード。 これは、インバウンドインタラクションイベントの書き込みデーモンの設定です。
+次に、 **相互作用する** ノード。 これは、インバウンドインタラクションイベントの書き込みデーモンの設定です。
 
 詳しくは、 [インタラクション — データバッファ](../../installation/using/interaction---data-buffer.md).
 
@@ -1410,7 +1411,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> メモリ消費アラート：特定のプロセスが消費した RAM の量 (MB) に関するアラート。<br /> </td> 
+   <td> メモリ消費量アラート：特定のプロセスが消費した RAM の量（MB 単位）に関するアラート。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
@@ -1487,7 +1488,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> dataLogPath<br /> </td> 
-   <td> 送信した電子メールのパスを保存：空でない場合は、送信された e メールのすべてのソースファイルが保存されるパス。 <br /> </td> 
+   <td> 送信済み電子メールのパス：空でない場合、送信済み電子メールのすべてのソースファイルが保存されるパス。 <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1499,13 +1500,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> dnsRequestLogDelayMs<br /> </td> 
-   <td> DNS クエリログの遅延：ログを表示する時間（ミリ秒単位）。<br /> </td> 
+   <td> DNS クエリログの遅延：ログを表示する時間（ミリ秒）。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> errorPeriodSec<br /> </td> 
-   <td> エラー統計の頻度：統計の生成からデータベースへの保存までの時間。 <br /> </td> 
+   <td> エラー統計頻度：統計の生成からデータベースのストレージまでの時間。 <br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -1523,7 +1524,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> logLevel<br /> </td> 
-   <td> ログメッセージのレベルを表示します。データベースに書き込まれたログの重大度レベル。 MTA で生成されるログメッセージは、必ずしもデータベースに書き込まれるわけではありません。 このパラメーターを使用して、メッセージをデータベースに書き込む必要があると考えるレベルを定義できます。 レベル 2 を定義すると、レベル 1 と 0 のメッセージも書き込まれ、レベル 1 を定義すると、レベル 1 と 0 のメッセージのみが書き込まれます。 次の値を指定できます。0（エラー）、1（警告）、2（情報）<br /> </td> 
+   <td> ログメッセージのレベルを表示します。データベースに書き込まれたログの重大度レベル。 MTA で生成されるログメッセージは、必ずしもデータベースに書き込まれるわけではありません。 このパラメーターを使用して、メッセージをデータベースに書き込む必要があると考えるレベルを定義できます。 レベル 2 を定義すると、レベル 1 と 0 のメッセージも書き込まれ、レベル 1 を定義すると、レベル 1 と 0 のメッセージのみが書き込まれます。 値は 0（エラー）、1（警告）、2（情報）です。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
@@ -1535,7 +1536,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> メモリ消費アラート：特定のプロセスが消費した RAM の量 (MB) に関するアラート。<br /> </td> 
+   <td> メモリ消費量アラート：特定のプロセスが消費した RAM の量（MB 単位）に関するアラート。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
@@ -1553,7 +1554,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> minErrorsToLog<br /> </td> 
-   <td> 考慮するエラーしきい値：errorPeriodSec で指定された期間のエラーの合計数がしきい値より厳密に低い場合、指定されたパスに対するエラー統計は生成されません。<br /> </td> 
+   <td> 考慮するエラーしきい値：errorPeriodSec で指定された期間のエラーの合計数がしきい値より厳密に低い場合、指定されたパスに対してエラー統計は生成されません。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
@@ -1565,7 +1566,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
-   <td> 通知リレー：HostName：通知のリレーに使用するポート。<br /> </td> 
+   <td> 通知リレー：通知のリレーに使用する HostName:Port。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1577,7 +1578,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> purgeDataLogDelay<br /> </td> 
-   <td> アーカイブした E メールが削除されるまでの遅延時間：dataLogPath で指定したディレクトリにアーカイブされた E メールがパージされるまでの日数。<br /> </td> 
+   <td> アーカイブされた E メールが削除されるまでの遅延：dataLogPath で指定されたディレクトリにアーカイブされた E メールがパージされるまでの日数です。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 15<br /> </td> 
   </tr> 
@@ -1614,7 +1615,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> statServerTLSSupport<br /> </td> 
-   <td> ドメイン別の TLS を有効にする：MX で設定可能な TLS を有効にします（最新の統計サーバーが必要です）。<br /> </td> 
+   <td> ドメインごとに TLS を有効にする：MX ごとに設定可能な TLS を有効にします（最新の統計サーバーが必要です）。<br /> </td> 
    <td> ブール値<br /> </td> 
    <td> true <br /> </td> 
   </tr> 
@@ -1632,19 +1633,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr>
   <tr> 
    <td> verifyMode<br /> </td> 
-   <td> 検証モード：検証モードを有効化します（メッセージの物理的な送信は行いません）。シミュレーションとテストに使用 )。<br /> </td> 
+   <td> 検証モード：検証モードを有効にします（メッセージは物理的に送信されません。シミュレーションとテストに使用されます）。<br /> </td> 
    <td> ブール値<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> workingPath<br /> </td> 
-   <td> 作業ディレクトリ：MTA が子プロセスとの通信に使用する一時ファイルの場所。<br /> </td> 
+   <td> 作業ディレクトリ：子プロセスとの通信に MTA が使用する一時ファイルの場所。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/var/$(INSTANCE_NAME)/mta/' <br /> </td> 
   </tr> 
   <tr> 
    <td> xMailer<br /> </td> 
-   <td> X-Mailer フィールド：SMTP メールヘッダーの「X-Mailer」フィールドの値。<br /> </td> 
+   <td> X-Mailer フィールド： SMTP メールヘッダーの「X-Mailer」フィールドの値。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'nlserver，ビルド$(PRODUCT_VERSION)'<br /> </td> 
   </tr>  
@@ -1653,7 +1654,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ### キャッシュ {#cache}
 
-内 **キャッシュ** ノードで、次のパラメーターを設定します。 これは、ローカルファイルキャッシュ設定です。
+Adobe Analytics の **キャッシュ** ノードで、次のパラメーターを設定します。 これは、ローカルファイルキャッシュ設定です。
 
 <table> 
  <thead> 
@@ -1667,7 +1668,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> maxPeriodSec<br /> </td> 
-   <td> 次の後にリサイクル：ストレージを再利用するためにファイルがキャッシュから自動的に削除されるまでの期間（秒単位）。<br /> </td> 
+   <td> 次の期間後にリサイクルされます。期間（秒単位）で表されます。その後、ストレージを再利用するためにファイルがキャッシュから自動的に削除されます。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 244800<br /> </td> 
   </tr> 
@@ -1688,7 +1689,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ### リレー {#relay}
 
-内 **mta > リレー** ノードで、次のパラメーターを設定します。 これは、メッセージ配信用のメールサーバーの設定です。
+Adobe Analytics の **mta > リレー** ノードで、次のパラメーターを設定します。 これは、メッセージ配信用のメールサーバーの設定です。
 
 リストは、MX DNS クエリが返す MX のリストと同じ方法で処理されます。通常、最初の MX は使用可能な限り使用され、次の MX が使用されるなどと同様に、最初の MX が使用されます。
 
@@ -1721,7 +1722,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ### プライマリ {#master}
 
-内 **mta > master** ノードで、次のパラメーターを設定します。 これはメインサーバーの設定です。
+Adobe Analytics の **mta > master** ノードで、次のパラメーターを設定します。 これはメインサーバーの設定です。
 
 詳しくは、 [セクション](../../installation/using/configuring-campaign-server.md#mta-child-processes).
 
@@ -1776,7 +1777,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
 ### 子 {#child}
 
-内 **mta > child** ノードで、次のパラメーターを設定します。 子サーバーの設定です。
+Adobe Analytics の **mta > child** ノードで、次のパラメーターを設定します。 子サーバーの設定です。
 
 詳しくは、 [E メール送信の最適化](../../installation/using/email-deliverability.md#email-sending-optimization).
 
@@ -1853,7 +1854,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-内 **mta > child > smtp** ノードで、次のパラメーターを設定します。 これは SMTP セッションの設定です。
+Adobe Analytics の **mta > child > smtp** ノードで、次のパラメーターを設定します。 これは SMTP セッションの設定です。
 
 <table> 
  <thead> 
@@ -1892,7 +1893,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-内 **mta > child > smtp > IPAffinity** ノードで、次のパラメーターを設定します。 これは、最適化された送信 SMTP トラフィックの IP アドレスを使用したアフィニティの管理の設定です。
+Adobe Analytics の **mta > child > smtp > IPAffinity** ノードで、次のパラメーターを設定します。 これは、最適化された送信 SMTP トラフィックの IP アドレスを使用したアフィニティの管理の設定です。
 
 詳しくは、 [使用する IP アドレスのリスト](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use) および [アフィニティを使用したアウトバウンド SMTP トラフィックの管理](../../installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities).
 
@@ -1918,7 +1919,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-内 **mta > child > smtp > IP** ノードで、次のパラメーターを設定します。
+Adobe Analytics の **mta > child > smtp > IP** ノードで、次のパラメーターを設定します。
 
 詳しくは、 [使用する IP アドレスのリスト](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
 
@@ -1933,7 +1934,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> 住所<br /> </td> 
-   <td> 関連する物理アドレス。例：'192.168.0.1'<br /> </td> 
+   <td> 関連する物理アドレス。例： '192.168.0.1'<br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
   <tr> 
@@ -2022,9 +2023,9 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-## パイプライン {#pipelined}
+## パイプラインの {#pipelined}
 
-次に、 **パイプライン** ノード。 これは、パイプラインサービスのイベント処理モジュールの設定です。
+次に、 **パイプラインの** ノード。 これは、パイプラインサービスのイベント処理モジュールの設定です。
 
 <table> 
  <thead> 
@@ -2086,7 +2087,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> forcedPipelineEndpoint<br /> </td> 
-   <td> リスニング URL:パイプラインサービスのリスニング URL を強制的に使用します。 <br /> </td> 
+   <td> リスニング URL：パイプラインサービスのリスニング URL を強制的に使用します。 <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2098,7 +2099,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> メモリ消費アラート：特定のプロセスが消費した RAM の量 (MB) に関するアラート。<br /> </td> 
+   <td> メモリ消費量アラート：特定のプロセスが消費した RAM の量（MB 単位）に関するアラート。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
@@ -2110,7 +2111,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> monitorServerPort<br /> </td> 
-   <td> ステータスサーバーポート：プロセスのステータスを問い合わせる HTTP サーバーポート。 0 の場合は非アクティブです。<br /> </td> 
+   <td> ステータスサーバーポート：プロセスのステータスを問い合わせるための HTTP サーバーポート。 0 の場合は非アクティブです。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 7781<br /> </td> 
   </tr> 
@@ -2122,7 +2123,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> pointerFlushPeriodSec<br /> </td> 
-   <td> ポインターが保存されるまでの遅延時間：ポインターは、この期間中に少なくとも 1 回データベースに保存されます（低アクティビティの場合に役立ちます）。<br /> </td> 
+   <td> ポインターが格納されるまでの遅延：この期間中に、ポインターが少なくとも 1 回データベースに格納されます（低アクティビティの場合に役立ちます）。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
@@ -2152,7 +2153,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> retryValiditySec<br /> </td> 
-   <td> 次の期間を過ぎると離脱：この期間が過ぎても処理が失敗する場合は、イベントを破棄します。<br /> </td> 
+   <td> この期間の後に離脱：この期間が過ぎても処理が失敗する場合は、イベントを破棄します。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -2181,7 +2182,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> repairActionDelayMin<br /> </td> 
-   <td> 配信アクションの修復モジュール：修復モジュールで配信アクションを処理できるまでの遅延（分）。 <br /> </td> 
+   <td> 配信アクション修復モジュール：修復モジュールで配信アクションを処理できるまでの遅延（分単位）です。 <br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
@@ -2375,13 +2376,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> keepAlivePeriod<br /> </td> 
-   <td> セッション継続フレームの繰り返し：最大 受信セッションがまだ有効であることを通知する 2 つのフレーム間の時間（秒）。<br /> </td> 
+   <td> セッション連続フレームの繰り返し： max. 受信セッションが引き続き有効であることを通知する 2 つのフレーム間の時間（秒）。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 25<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> メモリ消費アラート：特定のプロセスが消費した RAM の量 (MB) に関するアラート。<br /> </td> 
+   <td> メモリ消費量アラート：特定のプロセスが消費した RAM の量（MB 単位）に関するアラート。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
@@ -2393,7 +2394,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> pollPeriod<br /> </td> 
-   <td> 検索頻度：SMS アカウントのポーリング期間。<br /> </td> 
+   <td> 検索頻度： SMS アカウントのポーリング期間。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -2487,7 +2488,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> メモリ消費アラート：特定のプロセスが消費した RAM の量 (MB) に関するアラート。<br /> </td> 
+   <td> メモリ消費量アラート：特定のプロセスが消費した RAM の量（MB 単位）に関するアラート。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
@@ -2564,7 +2565,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> メモリ消費アラート：特定のプロセスが消費した RAM の量 (MB) に関するアラート。<br /> </td> 
+   <td> メモリ消費量アラート：特定のプロセスが消費した RAM の量（MB 単位）に関するアラート。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
@@ -2629,25 +2630,25 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> dedupOpenPeriodMin<br /> </td> 
-   <td> 開口部の重複を排除：重複する開封トラッキングログを削除して、Outlook などのメールリーダーでのメールプレビューの影響を制限します。<br /> </td> 
+   <td> 開封数の重複を排除：重複した開封数のトラッキングログを削除して、Outlook などのメールリーダーでのメールプレビューの効果を制限します。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> errorIgnorePercent<br /> </td> 
-   <td> 最大 X%のエラーを無視：まだ考慮に入れていないジャーナルの割合がこの値に達しない限り、トラッキング指標を更新しません。 <br /> </td> 
+   <td> エラーの最大 X%を無視：まだ考慮に入れていないジャーナルの割合がこの値に達しない限り、トラッキング指標を更新しません。 <br /> </td> 
    <td> バイト<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> errorIgnorePeriod<br /> </td> 
-   <td> エラー指標を更新：エラー指標が再計算されるまでの最大時間です。<br /> </td> 
+   <td> エラー指標を更新：エラー指標が再計算されるまでの最大時間。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
   <tr> 
    <td> indicatorsDuration<br /> </td> 
-   <td> 次の期間に指標を計算：配信の有効日以降の期間。この日を過ぎると、統合指標は計算されなくなります。<br /> </td> 
+   <td> 指標の計算期間：配信の有効期間後の期間。その後、統合指標は計算されなくなります。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 2592000<br /> </td> 
   </tr> 
@@ -2665,7 +2666,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> メモリ消費アラート：特定のプロセスが消費した RAM の量 (MB) に関するアラート。<br /> </td> 
+   <td> メモリ消費量アラート：特定のプロセスが消費した RAM の量（MB 単位）に関するアラート。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
@@ -2683,7 +2684,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> phishbowlServiceEndpoint<br /> </td> 
-   <td> Phishbowl サービスエンドポイント統合のエンドポイント。 これにより、古いビルドから生成された不正な URL のリダイレクトが保護されます。<br /> </td> 
+   <td> Phishbowl サービスエンドポイント統合のエンドポイントです。 これにより、古いビルドから生成された不正な URL のリダイレクトが保護されます。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2701,13 +2702,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> trackingIgnorePercent<br /> </td> 
-   <td> 最大 X%までのトラッキングを無視：まだ考慮に入れていないジャーナルの割合がこの値に達しない限り、トラッキング指標を更新しません。<br /> </td> 
+   <td> 最大 X%の追跡を無視：まだ考慮に入れていないジャーナルの割合がこの値に達しない限り、追跡指標を更新しません。<br /> </td> 
    <td> バイト<br /> </td> 
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> trackingIgnorePeriod<br /> </td> 
-   <td> トラッキング指標を更新：指標を追跡するまでの最大時間が再計算されます。<br /> </td> 
+   <td> トラッキング指標を更新：トラッキング指標が再計算されるまでの最大期間。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
@@ -2754,19 +2755,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxCreateFileRetry<br /> </td> 
-   <td> 最大書き込み再試行数：ログファイルへの書き込みに失敗した場合に作成できるファイルの最大数<br /> </td> 
+   <td> 最大書き込み再試行数：ログファイルへの書き込みに失敗した場合に作成できるファイルの最大数。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> maxLogsSizeOnDiskMb<br /> </td> 
-   <td> 最大ログサイズ：ディスク上のログが使用する最大容量（MB 単位）。 100 MB 以上にする必要があります。 <br /> </td> 
+   <td> ログの最大サイズ：ディスク上のログが使用する最大容量（MB 単位）。 100 MB 以上にする必要があります。 <br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 500<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> メモリ消費アラート：特定のプロセスが消費した RAM の量 (MB) に関するアラート。<br /> </td> 
+   <td> メモリ消費量アラート：特定のプロセスが消費した RAM の量（MB 単位）に関するアラート。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
@@ -2778,7 +2779,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxSharedLogs<br /> </td> 
-   <td> 最大ログ数：共有メモリに保存されるログの最大数 10000より小さい値は指定できません。 <br /> </td> 
+   <td> 最大ログ数：共有メモリに保存されるログの最大数。 10000より小さい値は指定できません。 <br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 25000<br /> </td> 
   </tr> 
@@ -2857,13 +2858,13 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> controlPort<br /> </td> 
-   <td> Tomcat のリスニング制御ポート：参照する <a href="configure-tomcat.md" target="_blank">Tomcat の設定</a>.<br /> </td> 
+   <td> Tomcat のリッスン制御ポート：を参照してください。 <a href="configure-tomcat.md" target="_blank">Tomcat の設定</a>.<br /> </td> 
    <td> ショート<br /> </td> 
    <td> 8005<br /> </td> 
   </tr> 
   <tr> 
    <td> httpPort<br /> </td> 
-   <td> Tomcat HTTP リスニングポート：参照する <a href="configure-tomcat.md" target="_blank">Tomcat の設定</a>.<br /> </td> 
+   <td> Tomcat HTTP リスニングポート：を参照してください。 <a href="configure-tomcat.md" target="_blank">Tomcat の設定</a>.<br /> </td> 
    <td> ショート<br /> </td> 
    <td> 8080<br /> </td> 
   </tr> 
@@ -2881,7 +2882,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> メモリ消費アラート：特定のプロセスが消費した RAM の量 (MB) に関するアラート。<br /> </td> 
+   <td> メモリ消費量アラート：特定のプロセスが消費した RAM の量（MB 単位）に関するアラート。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 
@@ -2940,7 +2941,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> downloadPath<br /> </td> 
-   <td> ダウンロードフォルダ：クライアントコンソール用のインストールプログラムのダウンロードパス。<br /> </td> 
+   <td> ダウンロードフォルダー：クライアントコンソール用のインストールプログラムのダウンロードパス。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '$(XTK_INSTALL_DIR)/datakit/nl/eng/jsp'<br /> </td> 
   </tr> 
@@ -2959,7 +2960,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-この **web > jsp > classpath** ノードには、JVM の起動時に使用するすべてのクラスパスのリストが含まれます。 次にデフォルトの設定を示します。
+The **web > jsp > classpath** ノードには、JVM の起動時に使用するすべてのクラスパスのリストが含まれます。 次にデフォルトの設定を示します。
 
 ```
 '$(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar
@@ -3026,7 +3027,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-この **web > jsp > classpath** ノードには、JVM の起動時に使用するすべてのクラスパスのリストが含まれます。
+The **web > jsp > classpath** ノードには、JVM の起動時に使用するすべてのクラスパスのリストが含まれます。
 
 ### リレー {#relay-2}
 
@@ -3052,19 +3053,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> forbiddenCharsInAuthority<br /> </td> 
-   <td> 禁止されている文字（ドメイン） :URI の「authority」セクションで禁止されている文字のリスト。<br /> </td> 
+   <td> 禁止文字（ドメイン）:URI の「authority」セクションで禁止されている文字のリスト。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '.?#@/:' <br /> </td> 
   </tr> 
   <tr> 
    <td> forbiddenCharsInPath<br /> </td> 
-   <td> 禁止されている文字（パス） :URI の「パス」セクションでの禁止文字のリスト。<br /> </td> 
+   <td> 禁止文字（パス）:URI の「パス」セクションで禁止されている文字のリスト。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> '?#/'<br /> </td> 
   </tr> 
   <tr> 
    <td> modDir<br /> </td> 
-   <td> 「mod_dir」モジュールオプションの値：フォルダーに対するクエリ中に使用するファイルのリスト。<br /> </td> 
+   <td> 「mod_dir」モジュールオプションの値：フォルダーに対するクエリ中に使用されるファイルのリスト。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 'index.md' <br /> </td> 
   </tr> 
@@ -3089,7 +3090,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  </tbody> 
 </table>
 
-を追加します。 **web /リレー/url** 中継する URL ごとにノード（挿入順序は優先度を定義します）を次のパラメーターで指定します。
+を追加します。 **web /リレー/ url** 中継する URL ごとにノード（挿入順序は優先度を定義します）を次のパラメーターで指定します。
 
 詳しくは、 [動的ページのセキュリティとリレー](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays) および [セクション](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
@@ -3105,7 +3106,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> IPMask<br /> </td> 
-   <td> 認証済み IP:このマスクのリレーを使用できるソース IP アドレスのコンマ区切りリスト。<br /> </td> 
+   <td> 許可された IP：このマスクのリレーの使用が許可されているソース IP アドレスのコンマ区切りリスト。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3117,7 +3118,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> hostMask<br /> </td> 
-   <td> リレーする DNS エイリアス：リレーする DNS エイリアスマスクのコンマ区切りリスト ( 例：'*.adobe.com') です。<br /> </td> 
+   <td> リレーする DNS エイリアス：リレーする DNS エイリアスマスクのコンマ区切りリスト（例： '*.adobe.com'）。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3135,19 +3136,19 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> relayPath<br /> </td> 
-   <td> 初期 URL パスを追加：中継する URL の完全パスをターゲットページの URL に追加します。 <br /> </td> 
+   <td> 初期 URL パスの追加：リレーする URL の完全パスをターゲットページの URL に追加します。 <br /> </td> 
    <td> ブール値<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> ステータス<br /> </td> 
-   <td> パブリックリソースの同期ステータス（列挙）。 指定できる値は、「normal」（通常の実行）、「blacklist」（エラー 404 の場合はに追加される URL）、「spare」（既存の場合はスペアサーバー上のファイルアップロード）でブロックリストす。<br /> </td> 
+   <td> パブリックリソースの同期ステータス（列挙）。 指定できる値は、「normal」（通常の実行）、「blacklist」（エラー 404 の場合はに追加される URL）、「spare」（既存の場合はスペアサーバー上のファイルアップロード）です。<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> 標準<br /> </td> 
   </tr> 
   <tr> 
    <td> targetUrl<br /> </td> 
-   <td> ターゲットページの URL:参照する <a href="configure-tomcat.md" target="_blank">Tomcat の設定</a>.<br /> </td> 
+   <td> ターゲットページの URL：を参照してください。 <a href="configure-tomcat.md" target="_blank">Tomcat の設定</a>.<br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3281,7 +3282,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> IMSOrgId<br /> </td> 
-   <td> 組織 ID :Adobe Experience Cloud内の組織の一意の識別子。特に VisitorID サービスと IMS SSO で使用されます。 <br /> </td> 
+   <td> 組織 ID:Adobe Experience Cloud内の一意の組織識別子。特に VisitorID サービスと IMS SSO で使用されます。 <br /> </td> 
    <td> 文字列<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3305,7 +3306,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> defLogCount<br /> </td> 
-   <td> 呼び出し別のログ数：メソッド GetTrackingLogs の呼び出し時にデフォルトで返されるログの数。<br /> </td> 
+   <td> 呼び出しによるログ数：メソッド GetTrackingLogs の呼び出し時にデフォルトで返されるログの数。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
@@ -3406,7 +3407,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
  <tbody> 
   <tr> 
    <td> command<br /> </td> 
-   <td> E メールのスパム対策スコアを評価するために実行するコマンド ( 例：'perl spamcheck.pl') です。<br /> </td> 
+   <td> E メールのスパム対策スコアを評価するために実行するコマンド（例：「perl spamcheck.pl」）。<br /> </td> 
    <td> 文字列<br /> </td> 
   </tr> 
  </tbody> 
@@ -3460,7 +3461,7 @@ dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
-   <td> メモリ消費アラート：特定のプロセスが消費した RAM の量 (MB) に関するアラート。<br /> </td> 
+   <td> メモリ消費量アラート：特定のプロセスが消費した RAM の量（MB 単位）に関するアラート。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 1800<br /> </td> 
   </tr> 

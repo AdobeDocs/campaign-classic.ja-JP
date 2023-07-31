@@ -2,12 +2,13 @@
 product: campaign
 title: フォームの構造
 description: フォームの構造
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Application Settings
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2415'
 ht-degree: 91%
 
 ---
@@ -137,7 +138,7 @@ ht-degree: 91%
 
 コンテナを使用すると、一連のコントロールをグループ化できます。これらは **`<container>`** 要素で表されます。コンテナは、複数の列のコントロールを書式設定する際に使用します。
 
-`<container>` の **xpath** 属性を使用すると、子コントロールを簡単に参照できます。 コントロールの参照は親に対して相対的に行われます `<container>` 要素。
+`<container>` の **xpath** 属性を使用すると、子コントロールを簡単に参照できます。 コントロールの参照は親に対して相対的に行われます。 `<container>` 要素を選択します。
 
 「xpath」を使用しないコンテナの例：
 
@@ -272,7 +273,7 @@ ht-degree: 91%
 
 ドロップダウンリストを使用して、作成済みのレコードのリストからターゲット要素を選択します。
 
-この **[!UICONTROL リンクを変更]** （フォルダー）アイコンは、ターゲット要素のリストとフィルターゾーンを含む選択フォームを起動します。
+The **[!UICONTROL リンクを変更]** （フォルダー）アイコンは、ターゲット要素のリストとフィルターゾーンを含む選択フォームを起動します。
 
 ![](assets/d_ncs_integration_form_exemple10.png)
 
@@ -545,7 +546,7 @@ ht-degree: 91%
 
 ## 式フィールド {#expression-field}
 
-式フィールドは、式から動的にフィールドを更新します。の **`<input>`** タグが **xpath** 更新するフィールドのパスと **万博** 更新式を含む属性。
+式フィールドは、式から動的にフィールドを更新します。 **`<input>`** タグが **xpath** 属性を使用して、更新するフィールドのパスと **万博** 更新式を含む属性。
 
 ```xml
 <!-- Example: updating the boolean1 field from the value contained in the field with path /tmp/@flag -->

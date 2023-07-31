@@ -2,14 +2,15 @@
 product: campaign
 title: デプロイメントタイプについて
 description: デプロイメントタイプについて
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Architecture
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 08628efb-9186-4b67-9431-310d4bc276b4
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '143'
 ht-degree: 6%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 6%
 
 Adobe Campaignのモジュラー設計により、スタンドアロンセットアップ（1 台のマシン上のすべてのコンポーネント）から、複数のサーバーを使用した完全に冗長化され分散アーキテクチャを備えた大規模なデプロイメント構成まで、幅広いデプロイメント構成が可能です。 すべては、必要なパフォーマンスとセキュリティのレベルに応じて異なります。
 
-複数のコンピューターで構成する場合は、以下の全体で同じオペレーティングシステムを使用する必要はありません。例えば、Linux 上でリダイレクションサーバーを使用し、Windows 上で配信サーバーと Apache 上でリダイレクションサーバーを使用できます。
+複数のコンピューターで構成する場合、Linux と Apache のリダイレクションサーバーを Windows の配信サーバーと共に使用するなど、全体で同じオペレーティングシステムを使用する必要はありません。
 
 >[!NOTE]
 >

@@ -2,14 +2,15 @@
 product: campaign
 title: ミッドソーシングへのデプロイメント
 description: ミッドソーシングへのデプロイメント
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Architecture, Deployment
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '358'
 ht-degree: 16%
 
 ---
@@ -35,27 +36,27 @@ ht-degree: 16%
 
 ### メリット {#advantages}
 
-* サーバー設定の簡略化：お客様が外向きモジュール（mta および inMail）を設定する必要はありません。
+* サーバー設定の簡素化：お客様が外部向けモジュール（mta および inMail）を設定する必要はありません。
 * 帯域幅の使用制限：実行はミッドソーシングサーバーによって実行されるので、パーソナライゼーションデータをミッドソーシングサーバーに送信するのに十分な帯域幅のみが必要です。
-* 高可用性は、内部的な問題ではなくなりました。問題がミッドソーシングサーバー（リダイレクト、ミラーページ、実行サーバーなど）に移行します。
-* データベースが会社を離れない場合：メッセージの組み立てに必要なデータのみがミッドソーシングサーバーに送信されます（HTTPS を使用できます）。
+* 高可用性は、内部的な問題ではなくなりました。問題は、ミッドソーシングサーバー（リダイレクト、ミラーページ、実行サーバーなど）に移行します。
+* データベースが会社を離れない：メッセージの組み立てに必要なデータのみがミッドソーシングサーバーに送信されます（これには HTTPS を使用できます）。
 * このタイプのデプロイメントは、大量のアーキテクチャ（データベース内の多くの受信者）に対して、大幅な配信スループットを備えたソリューションになります。
 
 ### デメリット {#disadvantages}
 
-* 中間ソーシングサーバーから情報を取り戻すのにかかる時間により、メッセージ実行情報の表示およびレポート機能の表示に若干の遅延が生じます。
+* 中間ソーシングサーバーから情報を取り戻すのにかかる時間により、メッセージ実行情報の表示およびレポート機能の表示に若干の遅延が生じました。
 * 調査および Web フォームは、クライアントプラットフォーム上に残ります。
 
 ### 推奨機器 {#recommended-equipment}
 
-* アプリケーションサーバー：2 Ghz クアッドコア CPU、4 GB RAM、ソフトウェア RAID 1 80 GB SATA ハードドライブ。
-* データベースサーバ：3 GHz バイクアッドコア CPU、最低 4 GB RAM、ハードウェア RAID 10 15000RPM SAS ハードドライブ、データベースのサイズと予想されるパフォーマンスに応じた数。
+* アプリケーションサーバ： 2 Ghz クアッドコア CPU、4 GB RAM、ソフトウェア RAID 1 80 GB SATA ハードドライブ。
+* データベースサーバ： 3 GHz バイクアッドコア CPU、最低 4 GB RAM、ハードウェア RAID 10 15000RPM SAS ハードドライブ、データベースのサイズと予想されるパフォーマンスに応じた数。
 
 >[!NOTE]
 >
 >リダイレクトとミッドソーシングは別々の要素ですが、一般的に、トラッキングサーバーはミッドソーシングサーバーと共有されます。
 
-## インストールおよび設定手順 {#installation-and-configuration-steps-}
+## インストールおよび設定の手順 {#installation-and-configuration-steps-}
 
 ### 前提条件 {#prerequisites}
 

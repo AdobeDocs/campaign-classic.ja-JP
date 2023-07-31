@@ -2,11 +2,12 @@
 product: campaign
 title: Web トラッキングモード
 description: Web トラッキングモードの選択方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '689'
 ht-degree: 1%
 
 ---
@@ -40,11 +41,11 @@ Adobe Campaignでは、アプリケーションでトラッキングログを処
 </dbindex>
 ```
 
-**永続的** および **匿名** Web トラッキングモードには次の 2 つのオプションがあります。 **強制配信** および **最終配信**.
+**永続的** および **匿名** Web トラッキングモードには次の 2 つのオプションがあります。 **強制配信** および **最終配信日**.
 
-この **強制配信** 「 」オプションを使用すると、トラッキング中に配信の識別子 (@jobid) を指定できます。
+The **強制配信** 「 」オプションを使用すると、トラッキング中に配信の識別子 (@jobid) を指定できます。
 
-この **最終配信** 「 」オプションを使用すると、現在のトラッキングログを最後にトラッキングした配信にリンクできます。
+The **最終配信日** 「 」オプションを使用すると、現在のトラッキングログを最後にトラッキングした配信にリンクできます。
 
 **セッション Web トラッキングの特徴：**
 
@@ -79,7 +80,7 @@ Adobe Campaignでは、アプリケーションでトラッキングログを処
 
 >[!NOTE]
 >
->この **[!UICONTROL リード]** パッケージがインストールされている場合は、アクティビティテーブル (**crm:incomingLead**)
+>次の場合、 **[!UICONTROL リード]** パッケージがインストールされている場合は、アクティビティテーブル (**crm:incomingLead**)
 
 次のスキーマは、3 つの Web トラッキングモードすべての機能を合計したものです。
 

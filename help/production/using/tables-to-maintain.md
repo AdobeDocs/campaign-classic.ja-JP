@@ -2,16 +2,17 @@
 product: campaign
 title: 維持するテーブル
 description: 維持するテーブル
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 3%
+source-wordcount: '1148'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 3%
 
 次のリストには、フラグメンテーションの対象となるテーブルのみが表示されます。 影響は次のとおりです。
 
-* ディスク容量の過剰消費により、データベース・アクセスに影響を与える
+* ディスク容量の過剰消費により、データベース・アクセスに影響を及ぼします。
 * インデックスが定期的に更新されておらず、クエリのパフォーマンスが低下します。
 
 ## Adobe Campaignテーブル {#adobe-campaign-tables}
@@ -120,7 +121,7 @@ ht-degree: 3%
    <td> NmsBroadLogMid （ミッドソーシングインスタンス上）<br /> </td> 
    <td> 大<br /> </td> 
    <td> 挿入、更新、削除<br /> </td> 
-   <td> 5.10 以降のインスタンスがミッドソーシングインスタンスとして使用されている場合にのみ有効です。 これは、データベース内で最も大きなテーブルの 1 つです。 送信されたメッセージごとに 1 つのレコードがあり、これらのレコードが挿入され、配信ステータスを追跡するために更新され、履歴がパージされると削除されます。 ミッドソーシングを使用する場合は、履歴（通常は 2 ヶ月未満）を制限することをお勧めします。このテーブルは、サイズ（6,000 万行、データ+インデックスの場合は 30 Go 未満）が妥当ですが、時々再構築することが非常に重要です。 <br /> </td> 
+   <td> 5.10 以降のインスタンスがミッドソーシングインスタンスとして使用されている場合にのみ有効です。 これは、データベース内で最も大きいテーブルの 1 つです。 送信されたメッセージごとに 1 つのレコードがあり、これらのレコードが挿入され、配信ステータスを追跡するために更新され、履歴がパージされると削除されます。 ミッドソーシングを使用する場合は、履歴（通常は 2 ヶ月未満）を制限することをお勧めします。このテーブルは、サイズ（6,000 万行、データ+インデックスの場合は 30 Go 未満）が妥当ですが、時々再構築することが非常に重要です。 <br /> </td> 
   </tr> 
   <tr> 
    <td> NmsBroadLogRcp （NmsRecipient テーブルを使用する場合） <br /> </td> 
@@ -141,7 +142,7 @@ ht-degree: 3%
    <td> トラッキングログは、履歴がパージされると挿入および削除されますが、更新はされません。 ボリュームは、データ保持の長さに応じて異なります。 <br /> </td> 
   </tr> 
   <tr> 
-   <td> YyyTrackingLogXxx （外部の受信者テーブルを使用する場合）<br /> </td> 
+   <td> YyyTrackingLogXxx（外部の受信者テーブルを使用する場合）<br /> </td> 
    <td> 大<br /> </td> 
    <td> 挿入、削除<br /> </td> 
    <td> NmsTrackingLogRcp と同じですが、外部の受信者テーブルがあります。 配信マッピングで使用する値を使用して、 Yyy および Xxx を調整してください。 <br /> </td> 
@@ -150,7 +151,7 @@ ht-degree: 3%
    <td> NmsBroadLogRtEvent （Message Center 実行インスタンス）<br /> </td> 
    <td> 大<br /> </td> 
    <td> 挿入、更新、削除<br /> </td> 
-   <td> 他の broadLog テーブルと同様ですが、NmsRecipient ではなく NmsRtEvent が使用されます。<br /> </td> 
+   <td> 他の broadLog テーブルと同様ですが、NmsRecipient の代わりに NmsRtEvent を使用します。<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsTrackingLogRtEvent（ Message Center 実行インスタンス）<br /> </td> 

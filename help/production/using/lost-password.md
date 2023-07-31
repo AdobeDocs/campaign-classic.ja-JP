@@ -2,16 +2,17 @@
 product: campaign
 title: パスワードを忘れた場合
 description: パスワードを忘れた場合
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring, Access Management
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 7%
+source-wordcount: '199'
+ht-degree: 15%
 
 ---
 
@@ -49,7 +50,7 @@ Adobe Campaignのオペレーターがパスワードを失った場合は、パ
 
 1. を編集します。 **/usr/local/neolane/nl6/conf/serverConf.xml** ファイル。
 
-1. 次に移動： **internalPassword** 行
+1. 次に移動： **internalPassword** 行。
 
    ```
    <!-- XTK authentication mode internalPassword : Password of internal account -->
@@ -58,7 +59,7 @@ Adobe Campaignのオペレーターがパスワードを失った場合は、パ
 
 1. 引用符で囲まれた文字列を削除します（この場合は次のようにします）。 **myPassword**
 
-   次の行が得られます。
+   この場合、次の行が表示されます。
 
    ```
    !-- XTK authentication mode internalPassword : Password of internal account -->

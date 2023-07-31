@@ -2,16 +2,17 @@
 product: campaign
 title: 一般設定
 description: 一般設定
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: migration
 content-type: reference
 topic-tags: configuration
 hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2680'
+source-wordcount: '2687'
 ht-degree: 4%
 
 ---
@@ -37,7 +38,7 @@ TIMESTAMP WITH TIMEZONE モードを使用するには、 **-userTimestamptz:1**
 
 >[!IMPORTANT]
 >
->この **-usetimestamptz:1** パラメータが互換性のないデータベースエンジンで使用されている場合、データベースが破損し、データベースのバックアップを復元し、上記のコマンドを再実行する必要があります。
+>次の場合、 **-usetimestamptz:1** パラメータが互換性のないデータベースエンジンで使用されている場合、データベースが破損し、データベースのバックアップを復元し、上記のコマンドを再実行する必要があります。
 
 >[!NOTE]
 >
@@ -47,7 +48,7 @@ TIMESTAMP WITH TIMEZONE モードを使用するには、 **-userTimestamptz:1**
 
 ### Oracle {#oracle}
 
-もし **ORA 01805** ポストアップグレード中にエラーが発生しました。これは、アプリケーションサーバーとデータベースサーバーの間のOracleタイムゾーンファイルが同期されていないことを意味します。 再同期するには、次の手順に従います。
+もし、 **ORA 01805** ポストアップグレード中にエラーが発生しました。これは、アプリケーションサーバーとデータベースサーバーの間のOracleタイムゾーンファイルが同期されていないことを意味します。 再同期するには、次の手順に従います。
 
 1. 使用するタイムゾーンファイルを識別するには、次のコマンドを実行します。
 
@@ -87,7 +88,7 @@ TIMESTAMP WITH TIMEZONE モードを使用するには、 **-userTimestamptz:1**
 
 >[!IMPORTANT]
 >
->セキュリティ上の理由により、Adobe Campaignプラットフォームは、デフォルトではアクセスできなくなりました。セキュリティゾーンを設定し、オペレーターの IP アドレスを収集する必要があります。
+>セキュリティ上の理由から、Adobe Campaignプラットフォームにデフォルトでアクセスできなくなりました。セキュリティゾーンを設定する必要があり、オペレーターの IP アドレスを収集する必要があります。
 
 Adobe Campaign v7 には **セキュリティゾーン**. インスタンスにログオンするには、各ユーザーをゾーンに関連付ける必要があります。また、ユーザーの IP アドレスが、セキュリティゾーンで定義されたアドレスまたはアドレス範囲に含まれている必要があります。 セキュリティゾーンの設定は、Adobe Campaignサーバー設定ファイルでおこなうことができます。 ユーザーが関連付けられているセキュリティゾーンは、コンソール (**[!UICONTROL 管理/アクセス管理/オペレーター]**) をクリックします。
 
@@ -107,17 +108,17 @@ nlserver config -internalpassword
 
 >[!IMPORTANT]
 >
->この **内部** パスワードは、すべてのトラッキングサーバーで同一である必要があります。 詳しくは、 [この節](../../installation/using/configuring-campaign-server.md#internal-identifier) および [この節](../../platform/using/access-management.md).
+>The **内部** パスワードは、すべてのトラッキングサーバーで同一である必要があります。 詳しくは、 [この節](../../installation/using/configuring-campaign-server.md#internal-identifier) および [この節](../../platform/using/access-management.md).
 
 ### v7 の新機能 {#new-features-in-v7}
 
-* 権限を持たないユーザーはAdobe Campaignに接続できなくなりました。 権限は、例えば、 **接続**.
+* 権限を持たないユーザーはAdobe Campaignに接続できなくなりました。 その権限は、例えば、 **接続**.
 
   この変更の影響を受けるユーザーは、アップグレード後に特定され、一覧表示されます。
 
 * パスワードが空の場合、トラッキングは機能しなくなりました。 その場合は、エラーメッセージが表示され、再設定を求められます。
 * ユーザーパスワードが **xtk:sessionInfo** スキーマ。
-* 現在は、 **xtk:builder:EvaluateJavaScript** および **xtk:builder:EvaluateJavaScriptTemplate** 関数
+* これで、 **xtk:builder:EvaluateJavaScript** および **xtk:builder:EvaluateJavaScriptTemplate** 関数
 
 あらかじめ用意されている特定のスキーマが変更され、デフォルトでは、を持つオペレーターの書き込みアクセス権でのみアクセスできるようになりました。 **admin** 権限：
 
@@ -174,7 +175,7 @@ v5 では、 **sessiontoken** クライアント側（概要タイプの画面�
 
 ### SQL 関数 {#sql-functions}
 
-不明な SQL 関数呼び出しは、サーバーに自然に送信されなくなりました。 現在、すべての SQL 関数を **xtk:funcList** スキーマ ( 詳しくは、 [この節](../../configuration/using/adding-additional-sql-functions.md)) をクリックします。 移行時に、ポストアップグレード中にオプションが追加され、古い宣言されていない SQL 関数との互換性を維持できます。 これらの関数を引き続き使用する場合は、 **XtkPassUnknownSQLFunctionsToRDBMS** オプションが **[!UICONTROL 管理/プラットフォーム/オプション]** ノードレベル。
+不明な SQL 関数呼び出しは、サーバーに自然に送信されなくなりました。 現在、すべての SQL 関数を **xtk:funcList** スキーマ（詳しくは、を参照） [この節](../../configuration/using/adding-additional-sql-functions.md)) をクリックします。 移行時に、ポストアップグレード中にオプションが追加され、古い宣言されていない SQL 関数との互換性を維持できます。 これらの関数を引き続き使用する場合は、 **XtkPassUnknownSQLFunctionsToRDBMS** オプションは、 **[!UICONTROL 管理/プラットフォーム/オプション]** ノードレベル。
 
 >[!IMPORTANT]
 >
@@ -182,7 +183,7 @@ v5 では、 **sessiontoken** クライアント側（概要タイプの画面�
 
 ### JSSP {#jssp}
 
-HTTP プロトコル（HTTPS ではなく）を使用して特定のページへのアクセスを許可する場合は、セキュリティゾーンで実行された設定に関係なく、Web アプリで、 **httpAllowed=&quot;true&quot;** パラメーターを設定してください。
+HTTP プロトコル（HTTPS ではなく）を使用して特定のページへのアクセスを許可する場合は、セキュリティゾーンで実行された設定に関係なく、Web アプリで、 **httpAllowed=&quot;true&quot;** パラメーターが含まれています。
 
 匿名 JSSP を使用する場合は、 **httpAllowed=&quot;true&quot;** JSSP のリレールールのパラメーター (**[!UICONTROL serverConf.xml]** ファイル ):
 
@@ -199,9 +200,9 @@ HTTP プロトコル（HTTPS ではなく）を使用して特定のページへ
 
 Adobe Campaign v7 は、より新しい JavaScript インタープリターを統合します。 ただし、この更新により、特定のスクリプトが機能しなくなる場合があります。 以前のエンジンの方が許容度が高いので、新しいバージョンのエンジンでは使用できなくなった構文もあります。
 
-この **[!UICONTROL myObject.@attribute]** 構文は、XML オブジェクトに対してのみ有効になりました。 この構文は、配信とコンテンツ管理をパーソナライズするために使用できます。 XML 以外のオブジェクトでこのタイプの構文を使用した場合、パーソナライゼーション機能は機能しなくなります。
+The **[!UICONTROL myObject.@attribute]** 構文は、XML オブジェクトに対してのみ有効になりました。 この構文は、配信とコンテンツ管理をパーソナライズするために使用できます。 XML 以外のオブジェクトでこのタイプの構文を使用した場合、パーソナライゼーション機能は機能しなくなります。
 
-他のすべてのオブジェクトタイプの場合、構文はになりました。 **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**. 例えば、次の構文を使用した非 XML オブジェクトの場合、 **[!UICONTROL 従業員@sn]**&#x200B;では、次の構文を使用する必要があります。 **[!UICONTROL 従業員`[`&quot;sn&quot;`]`]**.
+他のすべてのオブジェクトタイプの場合、構文はになりました。 **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**. 例えば、次の構文を使用した非 XML オブジェクトなどです。 **[!UICONTROL 従業員@sn]**&#x200B;では、次の構文を使用する必要があります。 **[!UICONTROL 従業員`[`&quot;sn&quot;`]`]**.
 
 * 以前の構文：
 
@@ -253,17 +254,17 @@ XML 属性をテーブルキーとして使用できなくなりました。
 
 * サブクエリによるフィルタリング：新しい構文は、 `<subQuery>`  サブクエリを定義する要素
 * 集計：新しい構文は「集計関数（コレクション）」です。
-* 結合によるフィルタ：新しい構文は、 `[schemaName:alias:xPath]`
+* 結合によるフィルタリング：新しい構文は次のとおりです。 `[schemaName:alias:xPath]`
 
 queryDef (xtk:queryDef) スキーマが変更されました。
 
-* 新しい `<subQuery>`  要素は、SQLData に含まれる SELECT を置き換えるために使用できます
+* 新しい `<subQuery>`  要素は、SQLData に含まれる SELECT を置き換えるために使用できます。
 * @setOperator属性には、「IN」と「NOT IN」の 2 つの新しい値が追加されました。
-* 新しい `<where>`  要素 ( `<node>` 要素：これにより、SELECT で「サブ選択」を行うことができます。
+* 新しい `<where>`  要素 ( `<node>` element: SELECT で「サブ選択」を作成できます。
 
-「@expr」属性を使用すると、SQLData が存在する場合があります。 以下の用語の検索を実行できます。&quot;SQLData&quot;, &quot;aliasSqlTable&quot;, &quot;sql&quot;.
+「@expr」属性を使用すると、SQLData が存在する場合があります。 「SQLData」、「aliasSqlTable」、「sql」の検索を実行できます。
 
-Adobe Campaign v7 インスタンスは、デフォルトで保護されています。 セキュリティは、 **[!UICONTROL serverConf.xml]** ファイル：の **allowSQLInjection** 属性は、SQL 構文のセキュリティを管理します。
+Adobe Campaign v7 インスタンスは、デフォルトで保護されています。 セキュリティは、 **[!UICONTROL serverConf.xml]** ファイル： **allowSQLInjection** 属性は、SQL 構文のセキュリティを管理します。
 
 アップグレード後の実行中に SQLData エラーが発生した場合は、この属性を変更して、SQLData に基づく構文の使用を一時的に許可し、コードを書き換える必要があります。 これをおこなうには、 **serverConf.xml** ファイル：
 
@@ -357,7 +358,7 @@ allowSQLInjection="false"
   >
   >集計関数に対して、ジョイントが自動的に実行されます。 条件 WHERE O0.iOperationId=iOperationId を指定する必要がなくなりました。
   >
-  >これにより、&#42;)」関数に置き換えられます。 「countall()」を使用する必要があります。
+  >これにより、「count(&#42;)」関数に置き換えられます。 「countall()」を使用する必要があります。
 
 * 以前の構文：
 
@@ -393,7 +394,7 @@ allowSQLInjection="false"
 
 **ヒントとテクニック**
 
-内 `<subQuery>` 要素（メインの「フィールド」フィールドを参照） `<queryDef>`   要素には、次の構文を使用します。 `[../@field]`
+内 `<subQuery>` 要素（メインの「フィールド」フィールドを参照） `<queryDef>`   要素を使用する場合は、次の構文を使用します。 `[../@field]`
 
 例：
 
@@ -441,7 +442,7 @@ allowSQLInjection="false"
 
   この警告がリソースの競合に関係する場合は、解決するためにオペレーターの注意が必要です。
 
-* この **postupgrade_`<server version number>`ポストアップグレードの時刻 (_T)`>`.log** ファイルには同期結果が含まれます。 デフォルトでは、次のディレクトリで使用できます。 **installation directory/var/`<instance>`postupgrade**. エラーと警告は、 **エラー** および **警告** 属性。
+* The **postupgrade_`<server version number>`ポストアップグレードの時刻 (_T)`>`.log** ファイルには同期結果が含まれます。 デフォルトでは、次のディレクトリで使用できます。 **installation directory/var/`<instance>`postupgrade**. エラーと警告は、 **エラー** および **警告** 属性。
 
 ### 競合の解決 {#resolve-a-conflict}
 
@@ -454,9 +455,9 @@ allowSQLInjection="false"
 
 競合を解決する方法は 3 つあります。
 
-* **[!UICONTROL 解決済みとして宣言済み]**:事前にオペレーターの介入が必要です。
+* **[!UICONTROL 解決済みとして宣言済み]**：事前に演算子の操作が必要です。
 * **[!UICONTROL 新しいバージョンを承認]**:Adobe Campaignで提供されるリソースがユーザーによって変更されていない場合に推奨されます。
-* **[!UICONTROL 現在のバージョンを保持]**:は、更新が却下されたことを示します。
+* **[!UICONTROL 現在のバージョンを保持]**：更新が却下されたことを示します。
 
   >[!IMPORTANT]
   >
@@ -477,7 +478,7 @@ allowSQLInjection="false"
 
 ## Tomcat {#tomcat}
 
-Adobe Campaign v7 の統合 Tomcat サーバーのバージョンが変更されました。 したがって、インストールフォルダ (tomcat-6) も変更されました (tomcat 7)。 アップグレード後は、更新されたフォルダー ( **[!UICONTROL serverConf.xml]** ファイル ):
+Adobe Campaign v7 の統合 Tomcat サーバーのバージョンが変更されました。 したがって、インストールフォルダ (tomcat-6) も変更されました (tomcat 7)。 アップグレード後は、更新後のフォルダー ( **[!UICONTROL serverConf.xml]** ファイル ):
 
 ```
 $(XTK_INSTALL_DIR)/tomcat-8/bin/bootstrap.jar 
@@ -493,7 +494,7 @@ $(XTK_INSTALL_DIR)/tomcat-8/lib/el-api.jar
 
 ### 前提条件 {#prerequisites}
 
-**ポストアップグレード前**&#x200B;の場合は、v7 に存在しなくなった 6.02 のすべてのスキーマ参照を削除する必要があります。
+**アップグレード後の前**&#x200B;の場合は、v7 に存在しなくなった 6.02 のすべてのスキーマ参照を削除する必要があります。
 
 * nms:emailOfferView
 * nms:webOfferView
@@ -509,7 +510,7 @@ v7 では、オファーコンテンツが移動されました。 v6.02 では�
 >
 >設定されたオファーを使用する一部の配信が移行後に送信される必要がある場合は、v7 でこれらの配信をすべて削除して再作成する必要があります。 できない場合は、「互換性モード」が提供されます。 インタラクション v7 のすべての新機能のメリットが得られるわけではないので、このモードはお勧めしません。 これは、実際の 6.1 移行前に継続中のキャンペーンを完了できる遷移モードです。 このモードの詳細は、お問い合わせください。
 
-移動スクリプトの例 (**interactionTo610_full_XX.js**) が **移行** Adobe Campaign v7 フォルダー内のフォルダー。 このファイルは、オファーごとに 1 つの E メール表現 ( **[!UICONTROL htmlSource]** および **[!UICONTROL textSource]** フィールド ) を参照してください。 に含まれていたコンテンツ **NmsEmailOfferView** テーブルがオファーテーブルに移動されました。
+移動スクリプトの例 (**interactionTo610_full_XX.js**) は、 **移行** Adobe Campaign v7 フォルダー内のフォルダー。 このファイルは、オファーごとに 1 つの E メール表現 ( **[!UICONTROL htmlSource]** および **[!UICONTROL textSource]** フィールド ) を参照してください。 に含まれていたコンテンツ **NmsEmailOfferView** テーブルがオファーテーブルに移動されました。
 
 >[!NOTE]
 >
@@ -585,13 +586,13 @@ logInfo("Done");
 
 ### テストと設定 {#tests-and-configuration}
 
-環境が 1 つのみの場合は、オファーコンテンツを移動した後に、以下の手順に従います。 この場合、「ENV」を例として取り上げます。
+環境が 1 つのみの場合は、オファーコンテンツを移動した後に実行する手順を次に示します。 この場合、「ENV」を例として取り上げます。
 
 1. すべての「ENV」環境オファースペースで、使用するフィールドのリストを更新します。 例えば、 **[!UICONTROL htmlSource]**&#x200B;を追加する場合は、 **[!UICONTROL view/htmlSource]**.
 
    ![](assets/migration_interaction_2.png)
 
-1. 内 **[!UICONTROL 環境のタイプ]** 内の **[!UICONTROL 一般]** タブ、選択 **[!UICONTROL ライブ]**.
+1. Adobe Analytics の **[!UICONTROL 環境のタイプ]** 内のフィールド **[!UICONTROL 一般]** タブ、選択 **[!UICONTROL ライブ]**.
 
    ![](assets/migration_interaction_3.png)
 
@@ -634,7 +635,7 @@ logInfo("Done");
 次の 2 つの Web アプリケーションファミリーがあります。
 
 * 特定された web アプリケーション（まとめて閲覧、承認フォーム、外部の内部開発）
-* 匿名の Web アプリケーション（Web またはアンケートフォーム）
+* 匿名の Web アプリケーション（Web またはアンケートフォーム）。
 
 ### 特定された Web アプリケーション {#identified-web-applications}
 

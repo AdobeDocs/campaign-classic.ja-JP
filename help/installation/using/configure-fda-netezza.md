@@ -2,15 +2,16 @@
 product: campaign
 title: Netezza へのアクセスの設定
 description: FDA でNetezzaへのアクセスを設定する方法
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: b148d34b-4060-4c54-9cb2-9e712a7c17d7
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 80%
+source-wordcount: '396'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 80%
 キャンペーンを使用 [Federated Data Access](../../installation/using/about-fda.md) (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、Netezzaへのアクセスを設定します。
 
 1. インストールと設定 [Netezzaドライバ](#netezza-config)
-1. netezza [外部アカウント](#netezza-external) キャンペーン内
+1. netezza [外部アカウント](#netezza-external) Campaign 内
 
 ## Netezza設定 {#netezza-config}
 

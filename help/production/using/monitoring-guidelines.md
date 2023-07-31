@@ -2,12 +2,12 @@
 product: campaign
 title: 監視のガイドライン
 description: Campaign インスタンスとプロセスを監視するためのガイドラインとベストプラクティスについて説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '768'
 ht-degree: 26%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 26%
 
 ## インスタンス監視ダッシュボード {#instance-monitoring-dashboard}
 
-この **[!UICONTROL 監視]** 「 」タブは、Campaign Classicのホームページからアクセスでき、インスタンスの監視に役立つ主なエントリポイントです。
+The **[!UICONTROL 監視]** 「 」タブは、Campaign Classicのホームページからアクセスでき、インスタンスの監視に役立つ主なエントリポイントです。
 
-インスタンス上で発生している内容のダッシュボードが表示されます。ステータス（ビルドバージョン、インストール済みパッケージなど）、システム指標、ログ、現在実行中のワークフロー、最後に送信された配信の状態など。
+インスタンス上で発生しているステータス（ビルドバージョン、インストール済みパッケージなど）、システム指標、ログ、現在実行中のワークフロー、最後に送信された配信の状態などを示すダッシュボードが表示されます。
 
 詳しくは、[こちら](../../production/using/monitoring-processes.md)を参照してください。
 
@@ -51,7 +51,7 @@ ht-degree: 26%
 
 **コントロールパネル**
 
-このCampaign コントロールパネルでは、インスタンスの複数の設定を管理できます。URL へのアクセス権限の管理、サーバーのビルドバージョンなどのインスタンスの詳細の確認をおこないます。 また、インスタンスに接続されている SFTP サーバーの使用可能な領域を監視することもできます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)してください。
+Campaign コントロールパネルを使用すると、URL 権限の管理、サーバーのビルドバージョンなどのインスタンスの詳細の確認など、インスタンスの複数の設定を管理できます。 また、インスタンスに接続されている SFTP サーバーの使用可能な領域を監視することもできます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)してください。
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ ht-degree: 26%
 
 **監査記録**
 
-監査証跡では、ワークフローでおこなわれたすべての変更と現在の状態を視覚化できます。 [ここをクリック](../../production/using/audit-trail.md).
+監査記録を使用すると、ワークフローでおこなわれたすべての変更と現在の状態を視覚化できます。 [ここをクリック](../../production/using/audit-trail.md).
 
 **ワークフローのトラブルシューティング**
 
@@ -151,6 +151,6 @@ SMTP レポートには、ドメインごとに配信統計と SMTP エラーが
 * [Campaign Classic構造](../../production/using/general-architecture.md)
 * [Campaign Classicモジュール](../../production/using/operating-principle.md)
 * [Campaign Classicオプション](../../installation/using/configuring-campaign-options.md)
-* [モジュールの自動起動の設定方法](../../production/using/administration.md)
+* [モジュールの自動起動を設定する方法](../../production/using/administration.md)
 * [キャンペーン設定の原則](../../production/using/configuration-principle.md)
 * [トラブルシューティング手順](../../production/using/performance-and-throughput-issues.md)

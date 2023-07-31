@@ -2,14 +2,15 @@
 product: campaign
 title: Snowflake へのアクセスの設定
 description: FDA でSnowflakeへのアクセスを設定する方法
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '545'
 ht-degree: 38%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 38%
 キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存された情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 [!DNL Snowflake].
 
 1. 設定 [!DNL Snowflake] オン [Linux](#snowflake-linux).
-1. の設定 [!DNL Snowflake] [外部アカウント](#snowflake-external) キャンペーン内
+1. を設定します。 [!DNL Snowflake] [外部アカウント](#snowflake-external) Campaign 内
 
 >[!NOTE]
 >
@@ -88,9 +89,9 @@ ht-degree: 38%
 
    ![](assets/snowflake_5.png)
 
-1. を **[!UICONTROL サーバー]** URL および **[!UICONTROL データベース]**.
+1. を追加します。 **[!UICONTROL サーバー]** URL および **[!UICONTROL データベース]**.
 
-1. の設定 **[!UICONTROL Snowflake]** 外部アカウント認証：
+1. を設定します。 **[!UICONTROL Snowflake]** 外部アカウント認証：
 
    * アカウント/パスワード認証の場合は、次を指定する必要があります。
 
@@ -100,7 +101,7 @@ ht-degree: 38%
 
      ![](assets/snowflake.png)
 
-   * キーペア認証の場合は、 **[!UICONTROL キーペア認証]** タブを使用して **[!UICONTROL 秘密鍵]** を認証し、 **[!UICONTROL 秘密鍵]**.
+   * 鍵のペア認証の場合は、 **[!UICONTROL キーペア認証]** タブを使用して、 **[!UICONTROL 秘密鍵]** を認証し、 **[!UICONTROL 秘密鍵]**.
 
      ![](assets/snowflake_4.png)
 
@@ -112,7 +113,7 @@ ht-degree: 38%
 
    ![](assets/snowflake_2.png)
 
-1. クリック **[!UICONTROL 保存]** 設定が完了したら、
+1. クリック **[!UICONTROL 保存]** 設定が完了したら、次の手順に従います。
 
 コネクタは、次のオプションをサポートしています。
 
@@ -124,5 +125,5 @@ ht-degree: 38%
 | WeekStart | WEEK_START セッションパラメーター。デフォルトでは 0 に設定されています。<br>詳しくは、[このページ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)を参照してください。 |
 | UseCachedResult | USE_CACHED_RESULTS セッションパラメーター。デフォルトでは TRUE に設定されています。このオプションは、Snowflake でキャッシュされた結果を無効にするために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)を参照してください。 |
 | bulkThreads | Snowflakeのバルクローダーに使用するスレッドの数が多いと、より大きなバルクロードでより高いパフォーマンスが得られます。 デフォルトでは 1 に設定されています。数は、装置スレッドの数に応じて調整できます。 |
-| chunkSize | バルクローダチャンクのファイルサイズを決定します。 デフォルトでは 128MB に設定されています。 bulkThreads と組み合わせて使用すると、より最適なパフォーマンスを得るために変更できます。 同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。 <br>詳しくは、 [Snowflake文書](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
+| chunkSize | バルクローダーチャンクのファイルサイズを決定します。 デフォルトでは 128MB に設定されています。 bulkThreads と組み合わせて使用すると、より最適なパフォーマンスを得るために変更できます。 同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。 <br>詳しくは、 [Snowflake文書](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
 | StageName | 事前にプロビジョニングされた内部ステージの名前。 新しい一時ステージを作成する代わりに、一括読み込みで使用されます。 |

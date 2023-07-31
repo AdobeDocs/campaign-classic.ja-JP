@@ -2,16 +2,17 @@
 product: campaign
 title: Windows でのクライアントコンソールの可用性
 description: Windows でのクライアントコンソールの可用性
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 5%
+source-wordcount: '360'
+ht-degree: 10%
 
 ---
 
@@ -29,7 +30,7 @@ Adobe Campaignユーザーが、作成および設定したインスタンスに
 
 1. コンソールインストールプログラムを含むパッケージを選択します。
 
-   このファイルの名前はです。 `setup-client-7.X.XXXX.exe`で、 `X` はAdobe Campaignのサブバージョンで、 `XXXX` はビルド番号です。
+   このファイルの名前はです。 `setup-client-7.X.XXXX.exe`です。 `X` はAdobe Campaignのサブバージョンで、 `XXXX` は、ビルド番号です。
 
 1. このパッケージを、次の場所にある（ハイブリッドインストールの場合はマーケティングサーバーの）Adobe Campaignインストールフォルダーにコピー&amp;ペーストします。 **/datakit/nl/eng/jsp**.
 1. Adobe Campaignサーバーを起動します。
@@ -42,7 +43,7 @@ https://<your Adobe Campaign server>:>port number>/nl/jsp/logon.jsp
 
 このページには、アプリケーションで定義されたログインとパスワードが必要です。
 
-コンソールのインストール方法を説明します [この節](../../installation/using/installing-the-client-console.md).
+コンソールのインストール方法を説明します。 [この節](../../installation/using/installing-the-client-console.md).
 
 ## エンドユーザーにクライアントコンソールをアップグレードするよう提案する
 
@@ -52,7 +53,7 @@ https://<your Adobe Campaign server>:>port number>/nl/jsp/logon.jsp
 
 このオプションが選択されている場合は、このプロンプトをリセットできます。 以下の変更を行うのは、Windows レジストリの編集に慣れたシステム管理者のみです。
 
-1. 次を使用してレジストリエディターを開く： **regedit** 命令 **[!UICONTROL スタート/実行]** メニュー
+1. 次を使用してレジストリエディターを開く： **regedit** 命令 **[!UICONTROL スタート/実行]** メニュー。
 1. ノードを検索し、展開します。
 
    ```

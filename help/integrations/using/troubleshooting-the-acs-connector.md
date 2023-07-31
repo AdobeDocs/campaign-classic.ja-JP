@@ -2,17 +2,18 @@
 product: campaign
 title: ACS Connector のトラブルシューティング
 description: ACS Connector のトラブルシューティング
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: ACS Connector, Troubleshooting
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
 hide: true
 hidefromtoc: true
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 100%
+source-wordcount: '908'
+ht-degree: 99%
 
 ---
 
@@ -110,7 +111,7 @@ ht-degree: 100%
 
 * **Campaign v7 と Campaign Standard の間でフォルダーをマッピングする際に使用可能なセキュリティグループがありません。**
 
-  最初に、**[!UICONTROL 管理／ACS コネクタ／権限管理／セキュリティグループ]**&#x200B;で、セキュリティグループを同期する必要があります。この操作により、Campaign Standard で使用可能なセキュリティグループを確認します。同期すると、フォルダーマッピングを設定する際にセキュリティグループを検索できます。
+  最初に、**[!UICONTROL 管理／ACS コネクタ／権限管理／セキュリティグループ]**&#x200B;で、セキュリティグループを同期する必要があります。このアクションにより、Campaign Standard で使用可能なセキュリティグループを確認します。同期すると、フォルダーマッピングを設定する際にセキュリティグループを検索できます。
 
 * **Campaign Standard で、プロファイル、オーディエンスまたはランディングページキャンペーンを編集できません。これはどういう意味ですか。**
 

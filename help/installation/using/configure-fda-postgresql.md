@@ -2,11 +2,12 @@
 product: campaign
 title: PostgreSQL へのアクセスの設定
 description: PostgreSQL へのアクセスを設定する方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 2c678f45-2555-4647-9885-bd002db7df37
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '395'
 ht-degree: 14%
 
 ---
@@ -49,7 +50,7 @@ Adobe Campaignで、 [!DNL PostgreSQL] 外部アカウント。 外部アカウ�
 
    ![](assets/postgresql_1.png)
 
-1. の設定 **[!UICONTROL PostgreSQL]** 外部アカウント認証：
+1. を設定します。 **[!UICONTROL PostgreSQL]** 外部アカウント認証：
 
    * **[!UICONTROL サーバー]**：[!DNL PostgreSQL] サーバーの URL.
 
@@ -57,11 +58,11 @@ Adobe Campaignで、 [!DNL PostgreSQL] 外部アカウント。 外部アカウ�
 
    * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード.
 
-   * **[!UICONTROL データベース]**:データベースの名前（オプション）。
+   * **[!UICONTROL データベース]**：データベースの名前（オプション）。
 
-   * **[!UICONTROL 作業スキーマ]**:作業スキーマの名前。 [詳細情報](https://www.postgresql.org/docs/current/ddl-schemas.html)
+   * **[!UICONTROL 作業スキーマ]**：作業中のスキーマの名前。 [詳細情報](https://www.postgresql.org/docs/current/ddl-schemas.html)
 
-   * **[!UICONTROL タイムゾーン]**:タイムゾーンの設定 [!DNL PostgreSQL]. [詳細情報](https://www.postgresql.org/docs/7.2/timezones.html)
+   * **[!UICONTROL タイムゾーン]**：で設定されたタイムゾーン [!DNL PostgreSQL]. [詳細情報](https://www.postgresql.org/docs/7.2/timezones.html)
 
 1. 「**[!UICONTROL パラメーター]**」タブをクリックし、「**[!UICONTROL 機能をデプロイ]**」ボタンをクリックして機能を作成します。
 
@@ -69,13 +70,13 @@ Adobe Campaignで、 [!DNL PostgreSQL] 外部アカウント。 外部アカウ�
    >
    >すべての関数を使用するには、リモートデータベースでAdobe Campaign SQL 関数を作成する必要があります。 詳しくは、[このページ](../../configuration/using/adding-additional-sql-functions.md)を参照してください。
 
-1. クリック **[!UICONTROL 保存]** 設定が完了したら、
+1. クリック **[!UICONTROL 保存]** 設定が完了したら、次の手順に従います。
 
 コネクタは、次のオプションをサポートしています。
 
 | オプション | 説明 |
 |:-:|:-:|
 | PGSQL_CONNECT_TIMEOUT | 接続の最大待機時間（秒）。 <br>詳しくは、 [PostgreSQL のドキュメント](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-CONNECT-CONNECT-TIMEOUT). |
-| PGSQL_KEEPALIVES_IDLE | TCP がキープアライブメッセージをサーバに送信するまでの無操作状態の秒数。 <br>詳しくは、 [PostgreSQL のドキュメント](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-IDLE). |
+| PGSQL_KEEPALIVES_IDLE | TCP がキープアライブメッセージをサーバに送信するまでの無操作状態（秒）。 <br>詳しくは、 [PostgreSQL のドキュメント](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-IDLE). |
 | PGSQL_KEEPALIVES_INTVL | サーバが確認しなかった TCP キープアライブメッセージを再送信するまでの秒数。  <br>詳しくは、 [PostgreSQL のドキュメント](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-INTERVAL). |
 | PGSQL_KEEPALIVES_CNT | クライアントのサーバへの接続が無効と見なされる前に失われる可能性のある TCP キープアライブの数。 <br>詳しくは、 [PostgreSQL のドキュメント](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-COUNT). |

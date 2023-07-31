@@ -2,15 +2,16 @@
 product: campaign
 title: セキュリティとプライバシーのチェックリスト
 description: セキュリティとプライバシーに関して確認すべき重要な要素の詳細
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Privacy, Access Management, Privacy Tools
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 54%
+source-wordcount: '493'
+ht-degree: 53%
 
 ---
 
@@ -51,11 +52,11 @@ ht-degree: 54%
 
 Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する場合、常に次のガイドラインに従います。
 
-* **スクリプト**:SQL 文を避けるには、文字列連結ではなくパラメーター化関数を使用し、使用する SQL 関数をに追加して SQL インジェクションを避け許可リストます。
+* **スクリプト**:SQL 文を避けるには、文字列連結ではなくパラメーター化関数を使用します。に使用する SQL 関数を追加して、SQL インジェクションを避け許可リストに加えるます。
 
 * **データモデルの保護**：ネームド権限を使用してオペレーターのアクションを制限し、システムフィルター（sysFilter）を追加します
 
-* **Web アプリケーションに Captcha を追加**:パブリックランディングページとサブスクリプションページに captcha を追加する方法を説明します。
+* **Web アプリケーションに Captcha を追加**：パブリックランディングページとサブスクリプションページに captcha を追加する方法を説明します。
 
 [詳細情報](../../installation/using/scripting-coding-guidelines.md)
 
@@ -79,9 +80,9 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 設定は、すべてのサーバーでおこなう必要があります。設定ファイルのタイプはです **serverConf.xml** および **`config-<instance>.xml`**. 次に、確認する必要がある重要な要素を示します。
 
-* **セキュリティゾーン**:プロキシのクライアントの IP アドレスを直接考慮するようにセキュリティゾーンを設定します。
+* **セキュリティゾーン**：プロキシのクライアントの IP アドレスを直接考慮するようにセキュリティゾーンを設定します。
 
-* **ファイルのアップロード保護**:新しい uploadAllowList 属性を使用して、Adobe Campaignサーバーにアップロードできるファイルの種類を制限します。 これは、サーバー設定ファイルで使用できます。
+* **ファイルのアップロード保護**：新しい uploadAllowList 属性を使用して、Adobe Campaignサーバーにアップロードできるファイルのタイプを制限します。 これは、サーバー設定ファイルで使用できます。
 
 * **リレー**：使用していないモジュール／アプリケーションのリレールールを無効にして、リレー設定を微調整します。
 

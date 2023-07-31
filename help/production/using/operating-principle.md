@@ -2,16 +2,17 @@
 product: campaign
 title: 動作の原則
 description: 動作の原則
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 10%
+source-wordcount: '520'
+ht-degree: 13%
 
 ---
 
@@ -25,11 +26,11 @@ Adobe Campaignモジュールは多数あります。 継続的に動作する�
 
 Adobe Campaign モジュールには 3 つのタイプがあります。
 
-* マルチインスタンスモジュール：すべてのインスタンスに対して 1 つのプロセスを実行します。 これは、次のモジュールに適用されます。 **web**, **syslogd**, **trackinglogd** および **監視** ( **config-default.xml** ファイル ) です。
-* モノインスタンスモジュール：インスタンスごとに 1 つのプロセスを実行します。 これは、次のモジュールに適用されます。 **mta**, **wfserver**, **inMail**, **sms** および **stat** ( **config-`<instance>`.xml** ファイル ) です。
-* ユーティリティモジュール：これらは、時々実行され、時々または繰り返し実行される操作 (**cleanup**, **config**、トラッキングログのダウンロードなど )。
+* マルチインスタンスモジュール：すべてのインスタンスに対して 1 つのプロセスを実行します。 これは、次のモジュールに当てはまります。 **web**, **syslogd**, **trackinglogd** および **監視** ( **config-default.xml** ファイル ) です。
+* モノインスタンスモジュール：インスタンスごとに 1 つのプロセスを実行します。 これは、次のモジュールに当てはまります。 **mta**, **wfserver**, **inMail**, **sms** および **stat** ( **config-`<instance>`.xml** ファイル ) です。
+* ユーティリティモジュール：これらは、時々実行され、時々または繰り返し操作を実行するモジュールです (**cleanup**, **config**、トラッキングログのダウンロードなど )。
 
-モジュールの管理は、コマンドラインツールを使用して実行します **nlserver** 次にインストール： **bin** インストールフォルダーのディレクトリ。
+モジュールの管理は、コマンドラインツールを使用して実行します **nlserver** インストール先： **bin** インストールフォルダーのディレクトリ。
 
 の一般的な構文 **nlserver** ツールは次のようになります。
 
@@ -43,18 +44,18 @@ Adobe Campaign モジュールには 3 つのタイプがあります。
 |---|---|
 | aliasCleansing | 列挙値の標準化 |
 | billing | システムアクティビティレポートをbilling@neolane.netに送信する |
-| cleanup | データベースのクレンジング：は、データベースから古いデータを削除し、database engine optimizer が使用する統計の更新を実行します。 |
+| cleanup | データベースのクレンジング：古いデータをデータベースから削除し、データベース・エンジン・オプティマイザが使用する統計の更新を実行します。 |
 | config | サーバー設定の変更 |
-| エクスポート | コマンドラインに書き出し中：Adobe Campaignクライアントコンソールで作成した書き出しモデルをコマンドラインに送信できます。 |
+| エクスポート | コマンドラインへの書き出し： Adobe Campaignクライアントコンソールで作成した書き出しモデルをコマンドラインに送信できます。 |
 | fileconvert | 設定サイズのファイルを変換しています |
-| インポート | コマンドラインに読み込み中：を使用すると、Adobe Campaignクライアントコンソールで作成したインポートモデルをコマンドラインに送信できます。 |
+| 読み込み | コマンドラインに読み込み：Adobe Campaignクライアントコンソールで作成した読み込みモデルをコマンドラインに送信できます。 |
 | inMail | インバウンドメールアナライザ |
 | installsetup | 顧客インストールファイルの可用性 |
 | javascript | SOAP API へのアクセス権を持つ JavaScript スクリプトを実行します。 |
 | ジョブ | コマンドライン処理 |
 | 結合 | フォームの結合 |
 | midSourcing | ミッドソーシングモードでの配信情報の復元 |
-| モニタ | XML サーバープロセスのステータスとスケジュールされたタスクのインスタンス別表示。 |
+| モニター | XML サーバープロセスのステータスとスケジュールされたタスクのインスタンス別の表示。 |
 | MTA | メインエージェント転送メッセージ |
 | 荷物 | エンティティパッケージファイルのインポートまたはエクスポート |
 | pdump | サーバープロセスステータスの表示 |
@@ -77,7 +78,7 @@ Adobe Campaign モジュールには 3 つのタイプがあります。
 
 >[!IMPORTANT]
 >
->最後のモジュールが 1 つあります。パフォーマンス上の理由から、ネイティブメカニズムを介してダイナミックライブラリを介して Apache または IIS Web サーバーに統合される、アプリケーションサーバーにリンクされたトラッキングおよびリレーモジュール。 このモジュールを開始または管理できるAdobe Campaignコマンドはありません。 したがって、Web サーバー自体のコマンドを使用する必要があります。
+>最後のモジュールが 1 つあります。トラッキングとリレーモジュールは、パフォーマンスの観点から、ネイティブメカニズムを介してダイナミックライブラリを介して Apache または IIS Web サーバーに統合されるアプリケーションサーバーにリンクされます。 このモジュールを開始または管理できるAdobe Campaignコマンドはありません。 したがって、Web サーバー自体のコマンドを使用する必要があります。
 
 モジュールの使用状況とそのパラメーターの構文は、次のコマンドを使用して表示されます。 **nlserver `[module]` -?**
 

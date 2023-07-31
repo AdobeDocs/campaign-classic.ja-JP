@@ -2,14 +2,15 @@
 product: campaign
 title: 画像が見つからない
 description: 画像が見つからない
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 6ccda57d-f7a3-4501-b2f4-59fcb05f9013
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '118'
 ht-degree: 5%
 
 ---
@@ -30,5 +31,5 @@ Apache ユーザーが提供された **apache_neolane.conf**.
 
 IIS ユーザー (Windows) の場合、ビルドの更新後にコンソールにいくつかのアイコンが表示されません。 追加の IIS 更新手順が必要です。
 
-1. ビルドの更新後、ダブルクリックします。 **iis_neolane_setup.vbs** は Campaign インストールディレクトリにあります。 デフォルトのパスはC:\Program Files (x86)\Adobe\Adobe Campaign v7\conf です。
+1. ビルドの更新後、ダブルクリックします。 **iis_neolane_setup.vbs** は Campaign のインストールディレクトリにあります。 デフォルトのパスはC:\Program Files (x86)\Adobe\Adobe Campaign v7\conf です。
 1. 前の手順で更新した IIS サイトを再起動します。

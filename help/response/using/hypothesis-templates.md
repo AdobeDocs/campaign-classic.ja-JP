@@ -2,16 +2,17 @@
 product: campaign
 title: 仮説テンプレート
 description: Campaign Response Manager で仮説テンプレートを作成する方法について説明します。
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Campaigns, Templates
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 100%
+source-wordcount: '1517'
+ht-degree: 99%
 
 ---
 
@@ -40,7 +41,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >この期間は、コンタクト日を基に決定されます。
+   >この期間は、連絡日を基に決定されます。
 
 1. 「**[!UICONTROL トランザクション]**」タブで、仮説の計算に必要なテーブルとフィールドを指定します。 [詳細情報](#transactions)
 1. テンプレートを&#x200B;**[!UICONTROL オファー]**&#x200B;タイプの仮説用に設定する場合は、「**[!UICONTROL オファーの提案ステータスを更新]**」オプションを有効にできます。有効にする場合は、変更したいオファーの提案ステータスを選択します。
@@ -125,7 +126,7 @@ ht-degree: 100%
 * **[!UICONTROL トランザクション日]**：このフィールドはオプションですが、仮説の計算の範囲を定義できるので、指定することをお勧めします。
 * **[!UICONTROL 測定期間]**：仮説を実行して購入ラインを収集する期間の開始日と終了日を設定します。
 
-  仮説を配信にリンクしている場合、ダイレクトメール配信のコンタクト日の数日後か、E メールまたは SMS 配信の配信日後に測定が自動的に開始します。
+  仮説を配信にリンクしている場合、ダイレクトメール配信の連絡日の数日後か、E メールまたは SMS 配信の配信日後に測定が自動的に開始します。
 
   ![](assets/response_measurement_001.png)
 

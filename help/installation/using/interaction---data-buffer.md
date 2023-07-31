@@ -2,14 +2,15 @@
 product: campaign
 title: インタラクション - データバッファ
 description: インタラクション - データバッファ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '306'
 ht-degree: 17%
 
 ---
@@ -42,7 +43,7 @@ Adobe Campaignで、 **データバッファゾーン** は、インタラクシ
 
 データバッファゾーンを設定した後、適合したハードウェア設定が使用可能であることを確認してください。 （存在するメモリの量）。
 
-書き込みデーモンの定義 ( プロセス名：インタラクション ) は次のようになります。
+書き込みデーモン（プロセス名： interaction）の定義は次のとおりです。
 
 ```
 <interactiond args="" autoStart="false" callDataSize="0" initScript="" maxProcessMemoryAlertMb="1800"

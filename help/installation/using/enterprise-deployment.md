@@ -2,14 +2,15 @@
 product: campaign
 title: 企業へのデプロイメント
 description: 企業へのデプロイメント
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Architecture, Deployment
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1220'
 ht-degree: 7%
 
 ---
@@ -18,10 +19,10 @@ ht-degree: 7%
 
 
 
-これは、最も完全な設定です。 標準構成に基づいて構築され、セキュリティと可用性が向上します。
+これは最も完全な設定です。 標準構成に基づいて構築され、セキュリティと可用性が向上します。
 
 * 拡張性と可用性を実現する、HTTP または TCP ロードバランサーの背後にある専用のリダイレクションサーバー
-* 2 台のアプリケーションサーバを使用して、スループットとフェイルオーバー機能（フォールトトレランス）を向上させ、LAN 内で分離します。
+* 2 台のアプリケーションサーバを使用して、スループットとフェイルオーバー機能（フォールトトレランス）を向上させ、LAN 内で切り離します。
 
 サーバーとプロセス間の一般的な通信は、次のスキーマに従って実行されます。
 
@@ -34,27 +35,27 @@ ht-degree: 7%
 ### メリット {#advantages}
 
 * セキュリティの最適化：DMZ のコンピュータには、外部に公開する必要のあるサーバのみがインストールされます。
-* 高可用性を容易に確保：外部から見えるコンピュータのみを、高可用性を考慮して管理する必要があります。
+* 高可用性を確保しやすい：外部から見えるコンピュータのみを、高可用性を考慮して管理する必要があります。
 
 ### デメリット {#disadvantages}
 
-ハードウェアと管理コストの増加
+ハードウェアと管理コストの増加。
 
 ### 推奨機器 {#recommended-equipment}
 
-* アプリケーションサーバー：2 Ghz クアッドコア CPU、4 GB RAM、ソフトウェア RAID 1 80 GB SATA ハードドライブ。
-* リダイレクトサーバー：2 Ghz クアッドコア CPU、4 GB RAM、ソフトウェア RAID 1 80 GB SATA ハードドライブ。
+* アプリケーションサーバ： 2 Ghz クアッドコア CPU、4 GB RAM、ソフトウェア RAID 1 80 GB SATA ハードドライブ。
+* リダイレクトサーバ： 2 Ghz クアッドコア CPU、4 GB RAM、ソフトウェア RAID 1 80 GB SATA ハードドライブ。
 
 >[!NOTE]
 >
 >既存のロードバランサーをリダイレクトサーバーへのトラフィックに再利用できます。
 
-## インストールおよび設定手順 {#installation-and-configuration-steps}
+## インストールおよび設定の手順 {#installation-and-configuration-steps}
 
 ### 前提条件 {#prerequisites}
 
 * 両方のアプリケーションサーバーの JDK
-* Web サーバー (IIS、Apache) の両方のフロントで
+* Web サーバー (IIS、Apache) の両方のフロントで、
 * 両方のアプリケーションサーバー上のデータベースサーバーへのアクセス
 * POP3 経由でアクセス可能なバウンスメールボックス
 * ロードバランサーに 2 つの DNS エイリアスを作成します。
@@ -76,10 +77,10 @@ ht-degree: 7%
 
 次の例では、インスタンスのパラメーターは次のとおりです。
 
-* インスタンスの名前：デモ
-* DNS マスク：tracking.campaign.net&#42;, console.campaign.net&#42; （アプリケーションサーバーは、クライアントコンソールの接続とレポート、ミラーページと購読解除ページの URL を処理します）
+* インスタンス名： demo
+* DNS マスク： tracking.campaign.net&#42;, console.campaign.net&#42; （アプリケーションサーバーは、クライアントコンソールの接続とレポート、ミラーページと購読解除ページの URL を処理します）
 * 言語：英語
-* データベース：campaign:demo@dbsrv
+* データベース： campaign:demo@dbsrv
 
 最初のサーバーをインストールする手順は次のとおりです。
 
@@ -108,7 +109,7 @@ ht-degree: 7%
    * Linux の場合： [サーバーの最初の起動](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
    * Windows の場合： [サーバーの最初の起動](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
 
-1. を **内部** 次のコマンドを使用したパスワード：
+1. 次を変更： **内部** 次のコマンドを使用したパスワード：
 
    ```
    nlserver config -internalpassword
@@ -162,7 +163,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >この **nameServers** パラメーターは、Windows でのみ使用されます。
+   >The **nameServers** パラメーターは、Windows でのみ使用されます。
 
    詳しくは、 [Campaign サーバーの設定](../../installation/using/configuring-campaign-server.md).
 
@@ -205,7 +206,7 @@ ht-degree: 7%
 
    アプリケーションサーバー 1 と同じインスタンス名を使用します。
 
-1. を **内部** をアプリケーションサーバー 1 と同じに設定します。
+1. 次を変更： **内部** をアプリケーションサーバー 1 と同じに設定します。
 1. データベースをインスタンスにリンクします。
 
    ```
@@ -240,7 +241,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >この **nameServers** パラメーターは、Windows でのみ使用されます。
+   >The **nameServers** パラメーターは、Windows でのみ使用されます。
 
    詳しくは、 [Campaign サーバーの設定](../../installation/using/configuring-campaign-server.md).
 
@@ -263,7 +264,7 @@ ht-degree: 7%
    * Linux の場合： [Linux 用 Web サーバーへの統合](../../installation/using/integration-into-a-web-server-for-linux.md),
    * Windows の場合： [Windows 用 Web サーバーへの統合](../../installation/using/integration-into-a-web-server-for-windows.md).
 
-1. を **config-demo.xml** および **serverConf.xml** インストール中に作成されたファイル。 内 **config-demo.xml** ファイル、アクティブ化 **trackinglogd** 処理と無効化 **mta**, **inmail**, **wfserver** および **stat** プロセス。
+1. をコピーします。 **config-demo.xml** および **serverConf.xml** インストール中に作成されたファイル。 Adobe Analytics の **config-demo.xml** ファイル、アクティブ化 **trackinglogd** 処理と非アクティブ化 **mta**, **inmail**, **wfserver** および **stat** プロセス。
 1. を編集します。 **serverConf.xml** ファイルを作成し、リダイレクションのパラメーターに冗長トラッキングサーバーを設定します。
 
    ```

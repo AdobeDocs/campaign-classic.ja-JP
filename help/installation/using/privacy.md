@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: パーソナライゼーションとプライバシー
-description: プライバシーとパーソナライゼーションのセキュリティのベストプラクティスを説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: URL Personalization, Privacy
+description: プライバシーとパーソナライゼーションのセキュリティのベストプラクティスについて説明します
+feature: Installation, Privacy, Privacy Tools, URL Personalization
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 32%
+source-wordcount: '862'
+ht-degree: 31%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 32%
 
 ### レコメンデーション
 
-上記を使用していないことを検証し確認するには、を使用してトラッキング URL テーブルに対してクエリを実行します。 [キャンペーン汎用クエリエディター](../../platform/using/steps-to-create-a-query.md) または [クエリアクティビティ](../../workflow/using/query.md).
+上記を使用していないことを検証し確認するには、を使用してトラッキング URL テーブルに対してクエリを実行します。 [キャンペーン汎用クエリエディター](../../platform/using/steps-to-create-a-query.md) または、 [クエリアクティビティ](../../workflow/using/query.md).
 
 例：
 
-1. ワークフローの作成と **クエリ** アクティビティ。 [詳細情報](../../workflow/using/query.md)
+1. ワークフローを作成し、 **クエリ** アクティビティ。 [詳細情報](../../workflow/using/query.md)
 
 1. を開きます。 **クエリ** アクティビティを作成し、 `nmsTrackingUrl` 表を次に示します。
 
@@ -62,10 +62,10 @@ Campaign がホストする、管理対象Cloud Services、ハイブリッド顧
 
 ハイブリッドアーキテクチャで Campaign を実行している場合は、URL 署名を有効にする前に、ホストされているミッドソーシングインスタンスが次のようにアップグレードされていることを確認します。
 
-* まず、オンプレミスマーケティングインスタンスを使用します
-* その後、オンプレミスのマーケティングインスタンスと同じバージョンにアップグレードするか、少し高いバージョンにアップグレードします
+* まず、オンプレミスマーケティングインスタンスを使用します。
+* その後、オンプレミスのマーケティングインスタンスと同じバージョンにアップグレードするか、少し高いバージョンにアップグレードします。
 
-そうしないと、次の問題が発生する可能性があります。
+そうしないと、次の問題が発生する場合があります。
 
 * ミッドソーシングインスタンスがアップグレードされる前は、このインスタンスを通じて URL が署名なしで送信されます。
 * ミッドソーシングインスタンスをアップグレードし、両方のインスタンスで URL 署名が有効になった後、以前に署名なしで送信された URL は拒否されます。 これは、マーケティングインスタンスから提供されたトラッキングファイルによって署名が要求されたためです。
@@ -74,13 +74,13 @@ Campaign がホストする、管理対象Cloud Services、ハイブリッド顧
 
 1. サーバー設定ファイル (`serverConf.xml`)、 **blockRedirectForUnsignedTrackingLink** 選択肢 **true**.
 1. を再起動します。 `nlserver` サービス。
-1. の `tracking` サーバー、再起動 `web` サーバー（Debian では apache2、CentOS/RedHat では httpd、Windows では IIS）。
+1. 次の日： `tracking` サーバー、再起動 `web` サーバー（Debian では apache2、CentOS/RedHat では httpd、Windows では IIS）。
 
 URL 署名を有効にするには、すべての Campaign サーバーで同時に次の手順に従います。
 
 1. サーバー設定ファイル (`serverConf.xml`)、変更 **signEmailLinks** オプション、 **true**.
 1. **nlserver** サービスを再起動します。
-1. の `tracking` サーバー、再起動 `web` サーバー（Debian では apache2、CentOS/RedHat では httpd、Windows では IIS）。
+1. 次の日： `tracking` サーバー、再起動 `web` サーバー（Debian では apache2、CentOS/RedHat では httpd、Windows では IIS）。
 
 ## データの制限
 
@@ -153,7 +153,7 @@ URL 署名を有効にするには、すべての Campaign サーバーで同時
 
    >[!NOTE]
    >
-   >次を置換： `$(loginId) = 0 or $(login) = 'admin'` と `hasNamedRight('admin')` 管理者権限を持つすべてのユーザーに対し、これらのパスワードの表示を許可する。
+   >次を置き換えることができます。 `$(loginId) = 0 or $(login) = 'admin'` 次を使用 `hasNamedRight('admin')` 管理者権限を持つすべてのユーザーに対し、これらのパスワードの表示を許可する。
 
 ## PI を持つProtectページ
 

@@ -2,16 +2,17 @@
 product: campaign
 title: アプリケーションサーバー
 description: アプリケーションサーバー
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 1%
+source-wordcount: '514'
+ht-degree: 5%
 
 ---
 
@@ -37,11 +38,11 @@ oracleが開発した Java Development Kit(JDK) および **OpenJDK**.
 >  
 >インストール時に、Web ブラウザーとの統合を実行する必要はありません。
 >
->配信エージェント (**nlserver mta** プロセス ) またはワークフローサーバー (**nlserver wfserver** プロセス )、JDK のインストールは必要ありません。
+>配信エージェントのみを実行するマシン (**nlserver mta** プロセス ) またはワークフローサーバー (**nlserver wfserver** プロセス )、JDK のインストールは必要ありません。
 
-Java JDK をダウンロードするには、次に接続します。 [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
+Java JDK をダウンロードするには、次の URL に接続します。 [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-**警告：JRE ではなく、JDK をダウンロードする必要があります。**
+**警告： JRE ではなく、JDK をダウンロードする必要があります。**
 
 >[!CAUTION]
 >
@@ -49,7 +50,7 @@ Java JDK をダウンロードするには、次に接続します。 [https://w
 
 Linux 環境に JDSL をインストールするには、パッケージマネージャーを使用することをお勧めします。
 
-Debian 8 および 9 で、次のコマンドを使用します。
+Debian 8 および 9 では、次のコマンドを使用します。
 
 ```
 aptitude install openjdk-8-jdk

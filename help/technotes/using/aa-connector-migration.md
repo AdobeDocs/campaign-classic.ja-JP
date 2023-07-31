@@ -2,12 +2,13 @@
 product: campaign
 title: Adobe Analytics Connector への移行
 description: Campaign - Analytics Connector に関する FAQ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Technote, Analytics Integration
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 100%
+source-wordcount: '865'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +32,7 @@ Campaign Classic v7 21.1.3 リリース以降、Adobe Analytics Data Connector �
 
 Campaign Classic v7と Adobe Analytics の間で新しい統合が利用できるようになりました。 主な変更点を以下に示します。
 
-* Adobe Analytics では、**コンタクト日**&#x200B;分類（日付タイプ）が廃止されました。移行された統合でも、同じタイプのままです。 Campaign で作成される&#x200B;**コンタクト日**&#x200B;の場合、タイプは&#x200B;**文字列**&#x200B;になります。
+* Adobe Analytics では、**連絡日**&#x200B;分類（日付タイプ）が廃止されました。移行された統合でも、同じタイプのままです。 Campaign で作成される&#x200B;**連絡日**&#x200B;の場合、タイプは&#x200B;**文字列**&#x200B;になります。
 
 * **処理ルール** は、新しい統合の一部として Adobe Campaign によって作成されます。**処理ルール**&#x200B;は、Adobe Analytics から手動で作成するか、クライアントサイド JavaScript 実装を直接使用する必要があります。 **処理ルール** は、既存の統合に対してはそのまま維持されます。
 

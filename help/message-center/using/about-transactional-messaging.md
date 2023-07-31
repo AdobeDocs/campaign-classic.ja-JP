@@ -2,13 +2,13 @@
 product: campaign
 title: トランザクションメッセージの基本を学ぶ
 description: Adobe Campaign Classic におけるトランザクションメッセージの動作の仕組みと主な手順について説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Transactional Messaging
+feature: Transactional Messaging, Message Center
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 100%
+source-wordcount: '655'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Adobe Campaign を使用すると、買い物かごに製品を追加した顧�
 
 ### コントロールインスタンスで実行する手順
 
-**コントロールインスタンス**&#x200B;で、次の操作を実行する必要があります。
+**コントロールインスタンス**&#x200B;で、次のアクションを実行する必要があります。
 
 1. [イベントタイプの作成](../../message-center/using/creating-event-types.md)。
 1. [メッセージテンプレートの作成とデザイン](../../message-center/using/creating-the-message-template.md)。この手順で、イベントをメッセージにリンクします。

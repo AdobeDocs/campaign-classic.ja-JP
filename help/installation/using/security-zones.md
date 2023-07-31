@@ -2,15 +2,16 @@
 product: campaign
 title: セキュリティゾーンの設定
 description: セキュリティゾーンの構成方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1520'
 ht-degree: 29%
 
 ---
@@ -27,21 +28,21 @@ ht-degree: 29%
 >
 >この手順は次に制限されています： **オンプレミス** デプロイメント。
 >
->As a **ホスト** 顧客、 [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)セキュリティゾーンセルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)
+>As a **ホスト** 顧客、アクセス可能な場合 [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)セキュリティゾーンセルフサービスインターフェイスを使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)
 >
->その他 **ハイブリッド/ホスト** のお客様は、Adobeサポートチームに連絡して、IP をチームに追加する必要があり許可リストます。
+>その他 **ハイブリッド/ホスト** のお客様は、Adobeサポートチームに連絡して、IP をチームに追加する必要があり許可リストに加えるます。
 >
 
 ## セキュリティゾーンの作成 {#creating-security-zones}
 
 ゾーンは次の方法で定義します。
 
-* 1 つ以上の IP アドレス範囲（IPv4 および IPv6）
+* 1 つ以上の IP アドレスの範囲（IPv4 および IPv6）
 * IP アドレスの各範囲に関連付けられた技術的な名前
 
 セキュリティゾーンは相互にロックされています。つまり、別のゾーン内で新しいゾーンを定義すると、各オペレーターに割り当てられる権限を増やしながら、ログオンできるオペレーターの数が減ります。
 
-ゾーンは、サーバーの構成時に、 **serverConf.xml** ファイル。 次の **serverConf.xml** が [この節](../../installation/using/the-server-configuration-file.md).
+ゾーンは、サーバーの構成時に、 **serverConf.xml** ファイル。 次の **serverConf.xml** は、 [この節](../../installation/using/the-server-configuration-file.md).
 
 各ゾーンは、次のような権限を定義します。
 
@@ -54,13 +55,13 @@ ht-degree: 29%
 >[!NOTE]
 >
 >**各オペレーターは、ゾーンにリンクされている必要があります**. オペレーターの IP アドレスがゾーンで定義された範囲に属している場合、オペレーターはインスタンスにログオンできます。\
->オペレーターの IP アドレスは、複数のゾーンに定義される場合があります。 この場合、オペレーターは **設定** の権限を持つことができます。
+>オペレーターの IP アドレスは、複数のゾーンに定義される場合があります。 この場合、オペレーターは **設定** の権限を持つことをお勧めします。
 
 標準搭載の **serverConf.xml** ファイルには 3 つのゾーンが含まれます。 **パブリック、VPN、および LAN**.
 
 >[!NOTE]
 >
->**標準設定は安全です**. ただし、以前のバージョンのAdobe Campaignから移行する前に、新しいルールを移行して承認するために、セキュリティを一時的に低減する必要が生じる場合があります。
+>**標準設定は安全です。**. ただし、以前のバージョンのAdobe Campaignから移行する前に、新しいルールを移行して承認するために、セキュリティを一時的に低減する必要が生じる場合があります。
 
 でゾーンを定義する方法の例 **serverConf.xml** ファイル：
 
@@ -89,11 +90,11 @@ ht-degree: 29%
 ゾーンを定義するすべての権限は次のとおりです。
 
 * **allowDebug**:webApp を「デバッグ」モードで実行できるようにします。
-* **allowEmptyPassword**:パスワードなしでインスタンスへの接続を許可します
-* **allowHTTP**:HTTPS プロトコルを使用せずにセッションを作成できる
-* **allowUserPassword**:セッショントークンは、次の形式を持つことができます。`<login>/<password>`&quot;
-* **sessionTokenOnly**:接続 URL にセキュリティトークンは必要ありません
-* **showErrors**:サーバー側のエラーが転送され、表示されます
+* **allowEmptyPassword**：パスワードなしでインスタンスへの接続を許可します
+* **allowHTTP**:HTTPS プロトコルを使用せずにセッションを作成できます
+* **allowUserPassword**：セッショントークンは、次の形式を持つことができます。`<login>/<password>`&quot;
+* **sessionTokenOnly**：接続 URL にセキュリティトークンは必要ありません
+* **showErrors**：サーバー側のエラーが転送され、表示されます
 
 >[!IMPORTANT]
 >
@@ -124,7 +125,7 @@ Message Center を使用する場合、複数の実行インスタンスがあ�
 
 特定のインスタンスにのみアクセスするオペレーターの場合は、そのインスタンス専用の設定ファイルで IP アドレス範囲を直接定義することをお勧めします。
 
-内 **`config-<instance>.xml`** ファイル：
+Adobe Analytics の **`config-<instance>.xml`** ファイル：
 
 ```
   <securityZone name="public">
@@ -133,9 +134,9 @@ Message Center を使用する場合、複数の実行インスタンスがあ�
       <subNetwork id="cus1" mask="a.b.c.d/xx"/>
 ```
 
-## セキュリティゾーンのサブネットワークとプロキシ {#sub-networks-and-proxies-in-a-security-zone}
+## セキュリティゾーン内のサブネットワークとプロキシ {#sub-networks-and-proxies-in-a-security-zone}
 
-この **プロキシ** パラメーターは **subNetwork** 要素：セキュリティゾーンでのプロキシ使用を指定します。
+The **プロキシ** パラメーターは **subNetwork** 要素を使用して、セキュリティゾーンでのプロキシの使用を指定します。
 
 プロキシが参照され、接続がこのプロキシ経由で入る（HTTP X-Forwarded-For ヘッダー経由で表示される）場合、検証されたゾーンはプロキシのクライアントのゾーンではなく、プロキシのクライアントのゾーンになります。
 
@@ -145,19 +146,19 @@ Message Center を使用する場合、複数の実行インスタンスがあ�
 >
 >さらに、リレーはプロキシのように生成されます。 したがって、IP アドレス 127.0.0.1 をセキュリティゾーン設定のプロキシのリストに追加できます。
 >
->例：&quot; `<subnetwork label="Lan 1" mask="192.168.0.0/16" name="lan1" proxy="127.0.0.1,10.100.2.135" />`&quot;.
+>例： `<subnetwork label="Lan 1" mask="192.168.0.0/16" name="lan1" proxy="127.0.0.1,10.100.2.135" />`&quot;.
 
 次のような場合が考えられます。
 
-* サブネットワークはセキュリティゾーンで直接参照され、プロキシは設定されません。サブネットワークのユーザーは、Adobe Campaignサーバーに直接接続できます。
+* サブネットワークはセキュリティゾーンで直接参照され、プロキシは設定されません。サブネットワークのユーザーはAdobe Campaignサーバーに直接接続できます。
 
   ![](assets/8101_proxy1.png)
 
-* セキュリティゾーンのサブネットワークに対してプロキシが指定されています。このサブネットワークのユーザーは、このプロキシ経由でAdobe Campaignサーバーにアクセスできます。
+* セキュリティゾーンのサブネットワークに対してプロキシが指定されています。このサブネットワークのユーザーは、このプロキシを介してAdobe Campaignサーバーにアクセスできます。
 
   ![](assets/8101_proxy2.png)
 
-* プロキシは、セキュリティゾーンのサブネットワークに含まれます。このプロキシを通じてアクセスできるユーザーは、接続元に関係なく、Adobe Campaignサーバーにアクセスできます。
+* プロキシはセキュリティゾーンサブネットワークに含まれます。プロキシを通じてアクセスできるユーザーは、接触チャネルに関係なく、Adobe Campaignサーバーにアクセスできます。
 
   ![](assets/8101_proxy3.png)
 
@@ -200,7 +201,7 @@ Adobe Campaignサーバーにアクセスする可能性が高いプロキシの
    ![](assets/enum_securityzone.png)
 
 1. サーバーの設定ファイルで定義されたセキュリティゾーンごとに、 **[!UICONTROL 追加]** 」ボタンをクリックします。
-1. 内 **[!UICONTROL 内部名]** フィールドに、 **serverConf.xml** ファイル。 これは、 **@name** の属性 `<securityzone>`  要素。 内部名にリンクされたラベルを  **ラベル**&#x200B;フィールドに入力します。
+1. Adobe Analytics の **[!UICONTROL 内部名]** フィールドに、次の場所で定義されたゾーンの名前を入力します。 **serverConf.xml** ファイル。 これは、 **@name** の属性 `<securityzone>`  要素を選択します。 内部名にリンクされたラベルを  **ラベル**&#x200B;フィールドに入力します。
 
    ![](assets/enum_addsecurityvalue.png)
 
@@ -210,11 +211,11 @@ Adobe Campaignサーバーにアクセスする可能性が高いプロキシの
 
 1. 次をクリック： **[!UICONTROL 管理/アクセス管理/オペレーター]** ノード。
 1. セキュリティゾーンのリンク先のオペレーターを選択し、 **[!UICONTROL 編集]** タブをクリックします。
-1. 次に移動： **[!UICONTROL アクセス権]** 」タブで、 **[!UICONTROL アクセスパラメーターを編集…]** リンク。
+1. 次に移動： **[!UICONTROL アクセス権]** 」タブをクリックし、 **[!UICONTROL アクセスパラメーターを編集…]** リンク。
 
    ![](assets/zone_operator.png)
 
-1. 次からゾーンを選択： **[!UICONTROL 認証済み接続ゾーン]** ドロップダウンリスト
+1. 次の場所からゾーンを選択します。 **[!UICONTROL 認証済み接続ゾーン]** ドロップダウンリスト
 
    ![](assets/zone_operator_selection.png)
 
@@ -261,6 +262,6 @@ Adobe Campaignサーバーにアクセスする可能性が高いプロキシの
 
 * HttpOnly cookie／useSecurityToken：**sessionTokenOnly** フラグを参照してください。
 
-* に追加される IP を最小許可リスト化：標準では、セキュリティゾーンに、プライベートネットワーク用の 3 つの範囲が追加されています。 通常、これらの IP アドレスをすべて使用することはありません。そのため、必要なもののみを保持するようにしてください。
+* に追加される IP を最小限に抑え許可リストに加えるる：標準では、セキュリティゾーンに、プライベートネットワーク用の 3 つの範囲を追加しました。 通常、これらの IP アドレスをすべて使用することはありません。そのため、必要なもののみを保持するようにしてください。
 
 * webApp／内部オペレーターを更新して、localhost でのみアクセス可能となるようにしてください。

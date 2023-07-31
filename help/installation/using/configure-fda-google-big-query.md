@@ -2,14 +2,15 @@
 product: campaign
 title: Google BigQuery へのアクセスの設定
 description: FDA でGoogle BigQuery へのアクセスを設定する方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '852'
 ht-degree: 9%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 9%
 Adobe Campaign Classicを使用 **Federated Data Access** (FDA) 外部データベースに保存された情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 [!DNL Google BigQuery].
 
 1. 設定 [!DNL Google BigQuery] オン [Windows](#google-windows) または [Linux](#google-linux)
-1. の設定 [!DNL Google BigQuery] [外部アカウント](#google-external) Adobe Campaign Classic
+1. を設定します。 [!DNL Google BigQuery] [外部アカウント](#google-external) Adobe Campaign Classic
 1. 設定 [!DNL Google BigQuery] コネクタの一括読み込み [Windows](#bulk-load-windows) または [Linux](#bulk-load-linux)
 
 >[!NOTE]
@@ -38,21 +39,21 @@ Adobe Campaign Classicを使用 **Federated Data Access** (FDA) 外部データ�
 
 1. Windows で ODBC ドライバーを設定します。 詳しくは、[このページ](https://storage.googleapis.com/simba-bq-release/jdbc/Simba%20JDBC%20Driver%20for%20Google%20BigQuery%20Install%20and%20Configuration%20Guide.pdf)を参照してください。
 
-1. の [!DNL Google BigQuery] コネクタが機能するには、Adobe Campaign Classicが接続するには次のパラメーターが必要です。
+1. の [!DNL Google BigQuery] コネクタを機能させるには、Adobe Campaign Classicで接続するには次のパラメーターが必要です。
 
-   * **[!UICONTROL プロジェクト]**:既存のプロジェクトを作成するか、使用します。
+   * **[!UICONTROL プロジェクト]**：既存のプロジェクトを作成するか、使用します。
 
      詳しくは、[このページ](https://cloud.google.com/resource-manager/docs/creating-managing-projects)を参照してください。
 
-   * **[!UICONTROL サービスアカウント]**:サービスアカウントを作成します。
+   * **[!UICONTROL サービスアカウント]**：サービスアカウントを作成します。
 
      詳しくは、[このページ](https://cloud.google.com/iam/docs/creating-managing-service-accounts)を参照してください。
 
-   * **[!UICONTROL キーファイルのパス]**:の **[!UICONTROL サービスアカウント]** にはが必要です **[!UICONTROL キーファイル]** の [!DNL Google BigQuery] ODBC を介した接続
+   * **[!UICONTROL キーファイルのパス]**: **[!UICONTROL サービスアカウント]** にはが必要です **[!UICONTROL キーファイル]** の [!DNL Google BigQuery] ODBC を介した接続。
 
      詳しくは、[このページ](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)を参照してください。
 
-   * **[!UICONTROL データセット]**: **[!UICONTROL データセット]** は、ODBC 接続の場合はオプションです。 各クエリは、テーブルの場所にあるデータセットを提供し、 **[!UICONTROL データセット]** は必須です [!DNL Google BigQuery] Adobe Campaign Classicの FDA コネクタ。
+   * **[!UICONTROL データセット]**: **[!UICONTROL データセット]** は、ODBC 接続の場合はオプションです。 各クエリは、テーブルの場所にあるデータセットを指定し、 **[!UICONTROL データセット]** は必須です。 [!DNL Google BigQuery] Adobe Campaign Classicの FDA コネクタ。
 
      詳しくは、[このページ](https://cloud.google.com/bigquery/docs/datasets)を参照してください。
 
@@ -68,13 +69,13 @@ Adobe Campaign Classicを使用 **Federated Data Access** (FDA) 外部データ�
 
 一括読み込みユーティリティを使用すると、Google Cloud SDK を通じてより高速に転送できます。
 
-1. このから Windows 64 ビット (x86_64) アーカイブをダウンロード [ページ](https://cloud.google.com/sdk/docs/downloads-versioned-archives) 対応するディレクトリに抽出します。
+1. このから Windows 64 ビット (x86_64) アーカイブをダウンロード [ページ](https://cloud.google.com/sdk/docs/downloads-versioned-archives) をクリックし、対応するディレクトリに抽出します。
 
-1. を実行します。 `google-cloud-sdk\install.sh` スクリプト path 変数の設定を受け入れる必要があります。
+1. を実行します。 `google-cloud-sdk\install.sh` スクリプト。 path 変数の設定を受け入れる必要があります。
 
 1. インストール後に、パス変数を確認します。 `...\google-cloud-sdk\bin` が設定されている。 そうでない場合は、手動で追加します。
 
-1. 内  `..\google-cloud-sdk\bin\bq.cmd` ファイルを開き、 `CLOUDSDK_PYTHON` ローカル変数を使用して、Python のインストール場所にリダイレクトされます。
+1. Adobe Analytics の  `..\google-cloud-sdk\bin\bq.cmd` ファイルを開き、 `CLOUDSDK_PYTHON` ローカル変数を使用して、Python のインストール場所にリダイレクトされます。
 
    例：
 
@@ -187,16 +188,16 @@ Adobe Campaign Classicを使用 **Federated Data Access** (FDA) 外部データ�
 
    * **[!UICONTROL タイプ]**：[!DNL Google BigQuery]
 
-   * **[!UICONTROL サービスアカウント]**:メール **[!UICONTROL サービスアカウント]**. 詳しくは、 [Google Cloud ドキュメント](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+   * **[!UICONTROL サービスアカウント]**：の E メール **[!UICONTROL サービスアカウント]**. 詳しくは、 [Google Cloud ドキュメント](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
 
-   * **[!UICONTROL プロジェクト]**:の名前 **[!UICONTROL プロジェクト]**. 詳しくは、 [Google Cloud ドキュメント](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+   * **[!UICONTROL プロジェクト]**: **[!UICONTROL プロジェクト]**. 詳しくは、 [Google Cloud ドキュメント](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
 
    * **[!UICONTROL キーファイルのパス]**:
-      * **[!UICONTROL キーファイルをサーバーにアップロード]**:選択 **[!UICONTROL ここをクリックしてアップロード]** Adobe Campaign Classicを使用してキーをアップロードする場合。
+      * **[!UICONTROL キーファイルをサーバーにアップロード]**：選択 **[!UICONTROL ここをクリックしてアップロード]** Adobe Campaign Classicを使用してキーをアップロードする場合。
 
-      * **[!UICONTROL 手動でキーのファイルパスを入力]**:既存のキーを使用する場合は、このフィールドに絶対パスをコピーして貼り付けます。
+      * **[!UICONTROL 手動でキーのファイルパスを入力]**：既存のキーを使用することを選択した場合は、このフィールドに絶対パスをコピーして貼り付けます。
 
-   * **[!UICONTROL データセット]**:の名前 **[!UICONTROL データセット]**. 詳しくは、 [Google Cloud ドキュメント](https://cloud.google.com/bigquery/docs/datasets-intro).
+   * **[!UICONTROL データセット]**: **[!UICONTROL データセット]**. 詳しくは、 [Google Cloud ドキュメント](https://cloud.google.com/bigquery/docs/datasets-intro).
 
    ![](assets/google-big-query.png)
 

@@ -2,12 +2,13 @@
 product: campaign
 title: データベースマッピング
 description: データベースマッピング
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Configuration, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 68%
+source-wordcount: '1981'
+ht-degree: 67%
 
 ---
 
@@ -122,7 +123,7 @@ XML フィールドを使用すると、データベースの物理構造を変�
 インデックスは、次の規則に従います。
 
 * インデックスは、テーブル内の 1 つ以上のフィールドを参照できます。
-* インデックスは、 **ユニーク** 属性に値「true」が含まれます。
+* インデックスは、（重複を避けるために）すべてのフィールドで一意のインデックスを **ユニーク** 属性に値「true」が含まれます。
 * インデックスの SQL 名は、テーブルの SQL 名とインデックスの名前から決定されます。
 
 >[!NOTE]
@@ -291,7 +292,7 @@ XML フィールドを使用すると、データベースの物理構造を変�
 
 増分キーの利点は、テーブル間の結合に対して変更不可のテクニカルキーを提供することです。 また、このキーは 2 バイトの整数を使用するので、メモリを多く使用しません。
 
-ソーススキーマで、 **pkSequence** 属性。 この属性がソーススキーマで指定されていない場合、 **XtkNewId** デフォルトのシーケンスが使用されます。 アプリケーションは、 **nms:broadLog** および **nms:trackingLog** スキーマ (**NmsBroadLogId** および **NmsTrackingLogId** それぞれ ) を設定します。
+ソーススキーマで、 **pkSequence** 属性。 この属性がソーススキーマで指定されていない場合、 **XtkNewId** デフォルトのシーケンスが使用されます。 アプリケーションは、 **nms:broadLog** および **nms:trackingLog** スキーマ (**NmsBroadLogId** および **NmsTrackingLogId** それぞれ ) を確認します。
 
 ACC 18.10 以降、 **XtkNewId** は、標準スキーマのシーケンスのデフォルト値ではなくなりました。 これで、スキーマを構築したり、専用のシーケンスで既存のスキーマを拡張したりできるようになりました。
 
@@ -301,9 +302,9 @@ ACC 18.10 以降、 **XtkNewId** は、標準スキーマのシーケンスの�
 
 >[!NOTE]
 >
->Adobe Campaignスキーマで参照されるシーケンス (**NmsTrackingLogId** 例えば、) は、パラメーター内の ID の数をコンマで区切って返す SQL 関数に関連付ける必要があります。 この関数は、 **GetNew** XXX **Ids**&#x200B;で、 **XXX** はシーケンスの名前 (**GetNewNmsTrackingLogIds** 例： 次を表示： **postgres-nms.sql**, **mssql-nms.sql** または **oracle-nms.sql** アプリケーションで指定されたファイル ( **datakit/nms/eng/sql/** 各データベースエンジンの「NmsTrackingLogId」シーケンス作成の例を復元するディレクトリ。
+>Adobe Campaignスキーマで参照されるシーケンス (**NmsTrackingLogId** 例えば、) は、パラメーター内の ID の数をコンマで区切って返す SQL 関数に関連付ける必要があります。 この関数は、呼び出す必要があります **GetNew** XXX **Ids**&#x200B;です。 **XXX** はシーケンスの名前 (**GetNewNmsTrackingLogIds** 例えば )。 次を表示： **postgres-nms.sql**, **mssql-nms.sql** または **oracle-nms.sql** アプリケーションで指定されたファイル ( **datakit/nms/eng/sql/** 各データベースエンジンの「NmsTrackingLogId」シーケンス作成の例を復元するディレクトリ。
 
-一意のキーを宣言するには、 **自動車** データスキーマのメイン要素の属性（値「true」）。
+一意のキーを宣言するには、 **自動車** データスキーマのメイン要素の属性（値が「true」）。
 
 **例**：
 

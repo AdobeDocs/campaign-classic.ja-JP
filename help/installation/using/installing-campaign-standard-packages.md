@@ -2,13 +2,14 @@
 product: campaign
 title: Campaign Classic 組み込みパッケージのインストール
 description: Campaign の組み込みパッケージのインストール方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Application Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 26%
+source-wordcount: '1313'
+ht-degree: 27%
 
 ---
 
@@ -232,7 +233,7 @@ ht-degree: 26%
   </tr> 
   <tr> 
    <td> ACS コネクタ（非推奨）<br /> </td> 
-   <td> Adobe Campaign v7 とAdobe Campaign Standardをブリッジします。 Campaign v7 の統合機能で、Campaign Standard にデータを自動的にレプリケートして、両方のアプリケーションの優れた機能を連携させます。（オプション）<br /> </td> 
+   <td> Adobe Campaign v7 とAdobe Campaign Standardを橋渡しします。 Campaign v7 の統合機能で、Campaign Standard にデータを自動的にレプリケートして、両方のアプリケーションの優れた機能を連携させます。（オプション）<br /> </td> 
    <td> マーケティング </td> 
   </tr> 
  </tbody> 
@@ -243,13 +244,13 @@ ht-degree: 26%
 配信チャネル（E メール、モバイルチャネル、モバイルアプリチャネル、LINE など）を トランザクションメッセージ（Message Center パッケージ）をインストールする前に、 E メールのみの Message Center プロジェクトを開始し、その後新しいチャネルを追加する必要がある場合は、次の手順に従う必要があります。
 
 1. 新しいチャネル（例： ）をインストールします。 **モバイルチャネル**、パッケージインポートウィザード ( **[!UICONTROL ツール/詳細設定/パッケージをインポート/Adobe Campaignパッケージ]**) をクリックします。
-1. ファイル ( **[!UICONTROL ツール/詳細設定/パッケージをインポート/ファイル]**) をクリックし、次を選択します。
+1. ファイルをインポートします ( **[!UICONTROL ツール/詳細設定/パッケージをインポート/ファイル]**) をクリックし、次の項目を選択します。
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. 内 **[!UICONTROL インポートする XML データコンテンツ]**&#x200B;関連するチャネルに対応する Message Center の配信テンプレートのみを残します。 例えば、 **モバイルチャネル**、 **エンティティ** 次に対応する要素 **[!UICONTROL モバイルトランザクションメッセージ]** (smsTriggerMessage) テンプレート。 次の **モバイルアプリチャネル**、 **iOSトランザクションメッセージ** テンプレート (iosTriggerMessage) および **Android トランザクションメッセージ** (androidTriggerMessage)。
+1. Adobe Analytics の **[!UICONTROL インポートする XML データコンテンツ]**&#x200B;関連するチャネルに対応する Message Center の配信テンプレートのみを残します。 例えば、 **モバイルチャネル**&#x200B;を保持する場合は、 **エンティティ** 次に対応する要素 **[!UICONTROL モバイルトランザクションメッセージ]** (smsTriggerMessage) テンプレート。 次の項目を追加した場合、 **モバイルアプリチャネル**&#x200B;を保持する場合は、 **iOSトランザクションメッセージ** テンプレート (iosTriggerMessage) および **Android トランザクションメッセージ** (androidTriggerMessage)。
 
    ![](assets/messagecenter_install_channel.png)
 
@@ -260,7 +261,7 @@ ht-degree: 26%
 
 ミッドソーシング設定のコンテキストでは、次の操作が必要です。
 
-* のインストール [!DNL LINE] マーケティングインスタンスと MID インスタンスの両方のパッケージ
+* をインストールします。 [!DNL LINE] マーケティングインスタンスと MID インスタンスの両方にパッケージを作成する
 
 * のセットアップ [!DNL LINE] 配信モードを変更して、mkt インスタンスの外部アカウントで mid インスタンスを指すようにします。 [詳細情報](../../delivery/using/line-channel.md#configure-line-external)
 
@@ -268,4 +269,4 @@ ht-degree: 26%
 
 >[!CAUTION]
 >
->用の Message Center の配信テンプレート [!DNL LINE] 以前に Message Center パッケージがインストールされている場合、チャネルは使用できません [!DNL LINE].
+>用の Message Center の配信テンプレート [!DNL LINE] 以前に Message Center パッケージがインストールされている場合、チャネルは使用できません。 [!DNL LINE].

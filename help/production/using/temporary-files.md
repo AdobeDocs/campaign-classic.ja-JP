@@ -2,16 +2,17 @@
 product: campaign
 title: 一時ファイル
 description: 一時ファイル
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: e77800f5-c0ae-446d-8ff3-bc8a18c97dbd
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 4%
+source-wordcount: '155'
+ht-degree: 14%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 4%
 
 原因は以下の通りです。
 
-Adobe Campaignは、の下に一時ファイルを生成します。 **/tmp**&#x200B;の名前を変更して、に移動させます。 **/usr/local/neolane/nl6/var**. このエラーは、両方のフォルダー (**/tmp** および **/usr/local/neolane/nl6/var**&#x200B;これは、実際には **/var/nl6**) は様々なデバイスに対応します。 この **df** コマンドは、検証に使用されます。
+Adobe Campaignは、の下に一時ファイルを生成します。 **/tmp**&#x200B;の名前を変更して、に移動させます。 **/usr/local/neolane/nl6/var**. このエラーは、両方のフォルダー (**/tmp** および **/usr/local/neolane/nl6/var**&#x200B;これは、実際には、 **/var/nl6**) は様々なデバイスに対応します。 The **df** コマンドは、検証に使用されます。
 
 この問題を解決するには、宛先と同じデバイスで一時ファイルを生成する必要があります。
 

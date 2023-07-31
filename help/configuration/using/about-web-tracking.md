@@ -1,13 +1,14 @@
 ---
 product: campaign
 title: Web トラッキングについて
+feature: Configuration, Instance Settings
 description: Web トラッキングについて
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 4%
+source-wordcount: '199'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +24,7 @@ Adobe Campaignプラットフォームでは、インターネットユーザー
 
 * パラメーターとして送信された識別子を介して表示されたページの URL
 * web ページの訪問元の配信（セッション cookie を使用）
-* セッション cookie を使用してクリックしたインターネットユーザーの識別子
+* セッション cookie を使用してクリックしたインターネットユーザーの識別子。
 * 生成されたビジネス量などの追加情報。
 
 次の図は、クライアントと様々なサーバー間のダイアログのステージを示しています。

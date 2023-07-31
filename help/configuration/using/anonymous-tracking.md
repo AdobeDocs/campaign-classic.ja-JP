@@ -2,11 +2,12 @@
 product: campaign
 title: 匿名トラッキング
 description: 匿名トラッキングの設定方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Configuration, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '219'
 ht-degree: 5%
 
 ---
@@ -22,8 +23,8 @@ Adobe Campaignでは、収集した Web トラッキング情報を、サイト�
 
 インスタンスで匿名 Web トラッキングを有効にするには、次の要素を設定する必要があります。
 
-* この **trackWebVisitors** のパラメーター **リダイレクト** 要素 **serverConf.xml** トラッキングサーバーのファイルを「 」に設定する必要があります&#x200B;**true**&#39;，永続的な cookie を配置する (**uuid230**) を使用します。
-* この **匿名 Web トラッキング** デプロイウィザードのトラッキング設定画面で、モードを選択する必要があります。
+* The **trackWebVisitors** のパラメーター **リダイレクト** の要素 **serverConf.xml** トラッキングサーバーのファイルを「 」に設定する必要があります&#x200B;**true**&#39;，永続的な Cookie を配置する (**uuid230**) を使用します。
+* The **匿名 Web トラッキング** デプロイウィザードのトラッキング設定画面で、モードを選択する必要があります。
 
   ![](assets/webtracking_anonymous_set.png)
 

@@ -1,16 +1,17 @@
 ---
 product: campaign
 title: Campaign FDA のベストプラクティスと制限事項
-description: 外部データベース (FDA) を使用する際のベストプラクティスと制限事項について説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+description: 外部データベース (FDA) を使用する際のベストプラクティスと制限事項について説明します。
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 89%
+source-wordcount: '424'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 89%
 
 このオプションにより、パーソナライゼーション手順を実行する際のパフォーマンスが大幅に向上します。
 
-## ワークフロー内の外部データベースのデータを使用 {#using-data-from-an-external-database-in-a-workflow}
+## ワークフロー内での外部データベースからのデータの使用 {#using-data-from-an-external-database-in-a-workflow}
 
 複数のAdobe Campaignワークフローアクティビティで、外部データベースに保存されたデータを使用できます。
 

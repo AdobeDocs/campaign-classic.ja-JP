@@ -2,11 +2,12 @@
 product: campaign
 title: SOAP メソッドの実装
 description: SOAP メソッドの実装
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Configuration
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '427'
 ht-degree: 4%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 4%
 
 JavaScript で SOAP メソッドを作成できます。 この関数は、単にアプリケーションプロセスを有効にするだけで、フォーム内で JSP を開発したり呼び出したりするのを避けることができます。
 
-これらの SOAP メソッドは、アプリケーションでネイティブに定義されたメソッドと同じように動作します。 同じ属性がサポートされています。静的、キーのみ、および定数。
+これらの SOAP メソッドは、アプリケーションでネイティブに定義されたメソッドと同じように動作します。 同じ属性がサポートされています： static、key only、const。
 
 ## メソッドライブラリの定義 {#defining-a-method-library}
 
@@ -87,12 +88,12 @@ function nms_recipient_testLog(message)
 
 具体的な例：
 
-* **非静的メソッド**:関数には、まず、「xml」(E4X) 型のオブジェクトの形式で渡された XML エンティティと一致する、追加の引数を含める必要があります。
-* **「キーのみ」タイプメソッド**:関数には、文字列の形式で渡されたキーと一致する、追加の引数を最初に含める必要があります。
+* **非静的メソッド**：関数は、まず追加の引数を含め、「xml」(E4X) タイプのオブジェクトの形式で渡された XML エンティティと一致させる必要があります。
+* **「キーのみ」タイプメソッド**：関数は、最初に、文字列の形式で渡されたキーと一致する、追加の引数を含める必要があります。
 
 **3.戻り値**
 
-この関数は、「out」型または「inout」型のパラメーターごとに値を返す必要があります。 具体的な例：メソッドが「static」、「key only」または「const」属性のいずれも指定せずに宣言されている場合、最初の戻り値は変更されたエンティティと一致する必要があります。 新しいオブジェクトを返したり、最初に変更されたパラメータを返したりできます。
+この関数は、「out」型または「inout」型のパラメーターごとに値を返す必要があります。 具体的なケース：メソッドが「static」、「key only」または「const」属性のいずれも指定せずに宣言されている場合、最初の戻り値は変更されたエンティティと一致する必要があります。 新しいオブジェクトを返したり、最初に変更されたパラメータを返したりできます。
 
 例：
 

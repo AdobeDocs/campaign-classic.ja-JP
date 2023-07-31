@@ -2,15 +2,16 @@
 product: campaign
 title: Oracle へのアクセスの設定
 description: FDA でOracleへのアクセスを設定する方法
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 73%
+source-wordcount: '375'
+ht-degree: 72%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 73%
 キャンペーンを使用 [Federated Data Access](../../installation/using/about-fda.md) (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、Oracleへのアクセスを設定します。
 
 1. でOracleを設定 [Linux](#oracle-linux) または [Windows](#azure-windows)
-1. oracle [外部アカウント](#oracle-external) キャンペーン内
+1. oracle [外部アカウント](#oracle-external) Campaign 内
 
 ## Oracle（Linux） {#oracle-linux}
 
@@ -79,7 +80,7 @@ FDA で Oracle 外部データベースに接続するには、Adobe Campaign �
 
 ## Oracle 外部アカウント {#oracle-external}
 
-この [!DNL Oracle] 外部アカウントを使用すれば、Campaign インスタンスを外部データベースにOracleできます。
+The [!DNL Oracle] 外部アカウントを使用すれば、Campaign インスタンスを外部データベースにOracleできます。
 
 1. キャンペーンから **[!UICONTROL エクスプローラ]**&#x200B;を選択します。 **[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL 外部アカウント]**.
 

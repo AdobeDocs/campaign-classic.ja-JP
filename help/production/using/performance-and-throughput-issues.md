@@ -2,16 +2,17 @@
 product: campaign
 title: パフォーマンスとスループットの問題
 description: パフォーマンスとスループットの問題
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 11%
+source-wordcount: '736'
+ht-degree: 13%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 11%
 
 ## ハードウェアとインフラストラクチャ {#hardware-and-infrastructure}
 
-オンプレミスCampaign Classicのハードウェア要件に関する一般的なガイドラインについては、このドキュメントを参照してください [ページ](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html).
+オンプレミスCampaign Classicのハードウェア要件に関する一般的なガイドラインについては、このドキュメントを参照してください。 [ページ](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html).
 
 コンサルティングチームは、ホスト型のお客様に、データベース内の様々なタイプのテーブルでどのくらいの容量が使用されているか、および SFTP サイトで使用されている容量を簡単に表示できるツールを提供できます。 また、不要なデータをクリーンアップするためのツールも提供されています。 連絡先 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) このツールを実装する必要がある場合。 このツールを使用して確認すべき重要な点を次に示します。
 
@@ -33,16 +34,16 @@ ht-degree: 11%
 * 最大膨張率を持つテーブルを確認します。 これらのテーブルを頻繁に使用する場合は、バキュームを行う必要があります。
 * データベースをブロックすると、E メールの送信が停止する場合があります。
 
-Adobe Campaignには [ツール](../../production/using/monitoring-processes.md#manual-monitoring) をクリックして、CPU と RAM の使用量を確認します。 このツールを使用して、次のような特定の指標を確認します。 **メモリ**, **スワップメモリ**, **ディスク**, **アクティブなプロセス**. 値が大きすぎる場合は、ワークフローの数を減らしたり、別の時間に開始するようにワークフローをスケジュールしたりできます。
+Adobe Campaignは、 [ツール](../../production/using/monitoring-processes.md#manual-monitoring) をクリックして、CPU と RAM の使用量を確認します。 このツールを使用して、次のような特定の指標を確認します。 **メモリ**, **スワップメモリ**, **ディスク**, **アクティブなプロセス**. 値が大きすぎる場合は、ワークフローの数を減らしたり、別の時間に開始するようにワークフローをスケジュールしたりできます。
 
-## データベースチェック {#database-performances}
+## データベースのチェック {#database-performances}
 
 ほとんどの場合、パフォーマンスの問題はデータベースのメンテナンスに関係しています。 次に、確認する主な項目を示します。
 
 * 設定：最初のAdobe Campaignプラットフォーム設定を確認し、完全なハードウェアチェックを実行することをお勧めします。
 * Adobe Campaignプラットフォームのインストールと設定：ネットワーク設定とプラットフォーム配信品質オプションを確認します。
-* データベースのメンテナンス：データベースのクリーンアップタスクが動作していること、およびデータベースのメンテナンスが正しくスケジュールされ、実行されていることを確認します。 作業用テーブルの数とサイズを確認します。
-* リアルタイム診断：プロセスとプラットフォームのログファイルを確認し、問題の再作成中にデータベースアクティビティを監視します。
+* データベースメンテナンス：データベースクリーンアップタスクが動作していること、およびデータベースメンテナンスが正しくスケジュールされ、実行されていることを確認します。 作業用テーブルの数とサイズを確認します。
+* リアルタイム診断：プロセスとプラットフォームのログファイルを確認し、問題の再作成中にデータベースのアクティビティを監視します。
 
 >[!NOTE]
 >
@@ -52,18 +53,18 @@ Adobe Campaignには [ツール](../../production/using/monitoring-processes.md#
 
 以下に、アプリケーション設定のベストプラクティスに関する記事のリストを示します。
 
-* MTA と MTAChild のプロセスとメモリ：の **mta** モジュールは、メッセージを **mtachild** 子モジュール。 各 **mtachild** 統計サーバーからの認証をリクエストして送信する前に、メッセージを準備します。 詳しくは、 [ページ](../../installation/using/email-deliverability.md) を参照してください。
-* TLS 設定：スループットを低下させる可能性があるので、TLS をグローバルに有効にすることはお勧めしません。 代わりに、配信品質チームが管理するドメインごとの TLS 設定は、ニーズに応じて調整する必要があります。 詳しくは、 [ページ](../../installation/using/email-deliverability.md#mx-configuration) を参照してください。
+* MTA と MTAChild のプロセスとメモリ： **mta** モジュールはメッセージを配信します **mtachild** 子モジュール。 各 **mtachild** 統計サーバーからの認証をリクエストして送信する前に、メッセージを準備します。 これを参照してください。 [ページ](../../installation/using/email-deliverability.md) を参照してください。
+* TLS 設定：スループットを低下させる可能性があるので、TLS をグローバルに有効にすることはお勧めしません。 代わりに、配信品質チームが管理するドメインごとの TLS 設定は、ニーズに応じて調整する必要があります。 これを参照してください。 [ページ](../../installation/using/email-deliverability.md#mx-configuration) を参照してください。
 * DKIM:DKIM のセキュリティレベルを確保するために、1024b がベストプラクティスとして推奨される暗号化サイズです。 これより小さいサイズの DKIM 鍵は、大多数のアクセスプロバイダーには有効とはみなされません。[このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
 
 ## 配信品質の問題 {#deliverability-issues}
 
 配信品質に関するベストプラクティスと記事のリストを次に示します。
 
-* IP レピュテーション：IP レピュテーションが十分でない場合は、パフォーマンスに影響を与えます。 この **配信品質の監視** モジュールは、プラットフォームの配信品質のパフォーマンスをトラッキングする様々なツールを提供します。 この[ページ](../../delivery/using/monitoring-deliverability.md)を参照してください。
-* IP ウォームアップ：IP ウォームアップは、配信品質チームが実行します。 これには、数週間にわたって新しい IP を通じて E メールの数を徐々に増やす必要があります。
-* IP アフィニティの設定：IP アフィニティが正しく設定されていない場合、e メール全体を停止したり（設定におけるオペレーター/アフィニティの名前が正しくない場合）、スループットが低下したり（アフィニティ内の IP の数が少ない場合）、 この[ページ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
-* E メールのサイズ：スループットでは、E メールのサイズが重要な役割を果たします。 E メールの推奨最大サイズは 60 KB です。 この[ページ](https://helpx.adobe.com/legal/product-descriptions/campaign.html)を参照してください。内 [配信スループット](../../reporting/using/global-reports.md#delivery-throughput) レポートでは、1 時間に転送されたバイト数を確認します。
+* IP レピュテーション：IP レピュテーションが十分でない場合、パフォーマンスに影響を与えます。 The **配信品質の監視** モジュールは、プラットフォームの配信品質のパフォーマンスをトラッキングする様々なツールを提供します。 この[ページ](../../delivery/using/monitoring-deliverability.md)を参照してください。
+* IP ウォームアップ：IP ウォームアップは、配信品質チームが実行します。 これには、数週間の間に新しい IP を通じて E メールの数を徐々に増やす必要があります。
+* IP アフィニティの設定：IP アフィニティの設定が正しくないと、E メールが完全に停止したり（設定におけるオペレーター/アフィニティ名が正しくない）、スループットが低下したり（アフィニティ内の IP の数が少ない）する可能性があります。 この[ページ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
+* E メールサイズ：E メールサイズはスループットにおいて重要な役割を果たします。 E メールの推奨最大サイズは 60 KB です。 この[ページ](https://helpx.adobe.com/legal/product-descriptions/campaign.html)を参照してください。Adobe Analytics の [配信スループット](../../reporting/using/global-reports.md#delivery-throughput) レポートでは、1 時間ごとに転送されたバイト数を確認します。
 * 無効な受信者の数が多い：無効な受信者の数が多い場合は、スループットに影響を与える可能性があります。 MTA は無効な受信者への E メールの送信を再試行し続けます。 データベースが適切にメンテナンスされていることを確認してください。
 * パーソナライゼーションの量：配信が「パーソナライゼーション中」のままの場合は、パーソナライゼーションブロックで使用される JavaScript を確認します。
 

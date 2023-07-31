@@ -2,13 +2,13 @@
 product: campaign
 title: Federated Data Access の概要
 description: 外部データベースのデータにアクセスして処理する方法を説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Federated Data Access
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 47%
+source-wordcount: '170'
+ht-degree: 45%
 
 ---
 
@@ -24,10 +24,10 @@ FDA オプションを使用すると、サードパーティのデータベー�
 
 この機能を使用するための前提条件を次に示します。
 
-* **設定**:互換性のある外部データベースのリストは、 [ホスティングモデル](../../installation/using/hosting-models.md).
+* **設定**：互換性のある外部データベースのリストは、 [ホスティングモデル](../../installation/using/hosting-models.md).
 * **外部データベースのバージョン**:Adobe Campaign FDA モジュールと互換性のある外部データベースが必要です。
 
   ホスティングモデルごとのデータベースシステムと互換性のあるバージョンのリストについて詳しくは、 Campaign を参照してください。 [互換性マトリックス](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
 
-* **権限**:また、 [必要な権限](../../installation/using/remote-database-access-rights.md) (Adobe Campaignおよび外部データベース )
+* **権限**：ユーザーは、 [必要な権限](../../installation/using/remote-database-access-rights.md) (Adobe Campaignおよび外部データベース )
 

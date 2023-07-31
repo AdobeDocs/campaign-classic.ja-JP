@@ -2,16 +2,17 @@
 product: campaign
 title: 移行を開始する前に
 description: 移行を開始する前に
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
 hide: true
 hidefromtoc: true
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '329'
 ht-degree: 2%
 
 ---
@@ -20,15 +21,15 @@ ht-degree: 2%
 
 
 
-このページでは、移行プロセスを開始する前に実行する必要のある特定の手順を示します。 また、 [このページ](about-migration.md) を参照してください。
+このページでは、移行プロセスを開始する前に実行する特定の手順を示します。 また、 [このページ](about-migration.md) を参照してください。
 
 >[!NOTE]
 >
 >このドキュメントでは、コマンドをサンプルとして提供します。 設定によって異なる場合があります。
 
-1. Adobe Campaignのバージョンを確認する：移行する前に、使用している現在のバージョンの最新ビルドをインストールします。
+1. Adobe Campaignのバージョンを確認します。移行する前に、使用している現在のバージョンの最新ビルドをインストールします。
 1. データをバックアップします。
-1. 環境の確認：データベースエンジンシステム (DBMS) は変更できません。 例えば、PostgreSQL エンジンからエンジンエンジンに切り替えることはできませんOracle。 ただし、データベースエンジンの最新バージョンに切り替えることができます。 Unicode 以外のデータベースから Unicode データベースに移動することはできません。
+1. 環境を確認してください。データベースエンジンシステム (DBMS) は変更できません。 例えば、PostgreSQL エンジンからエンジンエンジンに切り替えることはできませんOracle。 ただし、データベースエンジンの最新バージョンに切り替えることができます。 Unicode 以外のデータベースから Unicode データベースに移動することはできません。
 
 ## 移行手順 {#migration-steps}
 
@@ -58,4 +59,4 @@ nlserver config -internalpassword
 
 >[!CAUTION]
 >
->この **内部** パスワードは、すべてのトラッキングサーバーで同一である必要があります。 詳しくは、 [内部識別子](../../installation/using/configuring-campaign-server.md#internal-identifier) および [権限](../../platform/using/access-management.md) セクション。
+>The **内部** パスワードは、すべてのトラッキングサーバーで同一である必要があります。 詳しくは、 [内部識別子](../../installation/using/configuring-campaign-server.md#internal-identifier) および [権限](../../platform/using/access-management.md) セクション。

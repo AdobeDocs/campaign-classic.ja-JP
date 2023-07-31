@@ -2,13 +2,13 @@
 product: campaign
 title: カスタム受信者テーブルについて
 description: カスタム受信者テーブルについて
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Custom Resources
+feature: Configuration, Custom Resources
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '695'
 ht-degree: 9%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 この機能を使用すると、Adobe Campaign は外部データベースからのデータを処理することができ、このデータを配信用の一連のプロファイルとして利用できます。 このプロセスの実装には、クライアントのニーズに応じて関連する可能性のある精度がいくつか含まれます。 例：
 
-* Adobe Campaignデータベースとの間の更新ストリームがありません：このテーブルのデータは、そのテーブルをホストするデータベースエンジンを介して直接更新できます。
+* Adobe Campaignデータベースとの間の更新ストリームはありません。このテーブルのデータは、データベースをホストするデータベースエンジンを介して、直接更新できます。
 * 既存のデータベースで動作するプロセスに変更はありません。
 * 構造が非標準のプロファイルデータベースを使用します。様々な構造の様々なテーブルに保存されたプロファイルへの配信を、単一のインスタンスを使用しておこなう可能性があります。
 * Adobe Campaignデータベースを更新する際に、変更やメンテナンスは必要ありません。
@@ -64,14 +64,14 @@ ht-degree: 9%
 
   >[!NOTE]
   >
-  >ワークフローを使用して受信者リストを作成することもできます。 詳しくは、 [ワークフローを使用したプロファイルリストの作成](../../configuration/using/creating-a-profile-list-with-a-workflow.md).
+  >ワークフローを使用して受信者リストを作成することは可能です。 詳しくは、 [ワークフローを使用したプロファイルリストの作成](../../configuration/using/creating-a-profile-list-with-a-workflow.md).
 
-また、標準の別の設定で使用されるデフォルト値を確認することをお勧めします。使用する機能に応じて、いくつかの適応を行う必要があります。
+また、あらかじめ用意されている様々な設定で使用されるデフォルト値を確認することをお勧めします。使用する機能に応じて、いくつかの適応を実行する必要があります。
 
 例：
 
 * 特定の標準レポート ( 特に、 **インタラクション** そして **モバイルアプリ** を再開発する必要があります。 詳しくは、 [レポートの管理](../../configuration/using/managing-reports.md) 」セクションに入力します。
-* 特定のワークフローアクティビティのデフォルト設定は、標準の受信者テーブル (**[!UICONTROL nms:recipient]**):外部の受信者テーブルに使用する場合は、これらの設定を変更する必要があります。 詳しくは、 [ワークフローの管理](../../configuration/using/managing-workflows.md) 」セクションに入力します。
+* 特定のワークフローアクティビティのデフォルト設定は、標準の受信者テーブル (**[!UICONTROL nms:recipient]**)：外部の受信者テーブルに使用する場合は、これらの設定を変更する必要があります。 詳しくは、 [ワークフローの管理](../../configuration/using/managing-workflows.md) 」セクションに入力します。
 * 標準 **[!UICONTROL 購読解除リンク]** パーソナライゼーションブロックを適応させる必要があります。
 * 標準の配信テンプレートのターゲットマッピングを変更する必要があります。
-* V4 フォームは、外部の受信者テーブルとの使用に対応していません。web アプリケーションを使用する必要があります。
+* V4 フォームは、外部の受信者テーブルとの使用に対応していません。Web アプリケーションを使用する必要があります。

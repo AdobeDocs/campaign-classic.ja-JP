@@ -2,14 +2,15 @@
 product: campaign
 title: スキーマの構造
 description: スキーマの構造
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Custom Resources
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1533'
 ht-degree: 85%
 
 ---
@@ -146,7 +147,7 @@ ht-degree: 85%
 * **datetimenotz**：タイムゾーンデータを含まない日付＋時刻。
 * **timespan**：継続時間。例：年齢順。
 * **memo**：長いテキストフィールド（複数行）。例：説明、注釈など
-* **uuid**：「uniqueidentifier」フィールド GUID をサポートする (Microsoft SQL Server でのみサポート )
+* **uuid**：「uniqueidentifier」フィールド GUID をサポートする (Microsoft SQL Server のみでサポート )
 
   >[!NOTE]
   >
@@ -213,7 +214,7 @@ ht-degree: 85%
    <td> 長いテキスト<br /> </td> 
    <td> 整数<br /> </td> 
    <td> NUMBER(10)<br /> </td> 
-   <td> 整数<br /> </td> 
+   <td> INT<br /> </td> 
   </tr> 
   <tr> 
    <td> Int64<br /> </td> 
@@ -237,13 +238,13 @@ ht-degree: 85%
    <td> 日時<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> 日付<br /> </td> 
-   <td> MS SQL &lt; 2008:DATETIME<br /> MS SQL &gt;= 2012:DATETIMEOFFSET<br /> </td> 
+   <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIMEOFFSET<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetimenotz<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> 日付<br /> </td> 
-   <td> MS SQL &lt; 2008:DATETIME<br /> MS SQL &gt;= 2012:DATETIME2<br /> </td> 
+   <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIME2<br /> </td> 
   </tr> 
   <tr> 
    <td> 期間<br /> </td> 
@@ -268,7 +269,7 @@ ht-degree: 85%
 
 ## プロパティ {#properties}
 
-この **`<elements>`** および **`<attributes>`** データスキーマの要素は、様々なプロパティを使用してエンリッチメントできます。 現在の要素を説明するためにラベルを入力できます。
+The **`<elements>`** および **`<attributes>`** データスキーマの要素は、様々なプロパティを使用してエンリッチメントできます。 現在の要素を説明するためにラベルを入力できます。
 
 ### ラベルと説明 {#labels-and-descriptions}
 
@@ -445,7 +446,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 * **@email**：メールを選択します。
 * **location/@city**：**`<location>`** 要素の「市区町村」属性を選択します。
-* **../@email**:現在の要素の親要素から電子メールアドレスを選択します
+* **../@email**：現在の要素の親要素から E メールアドレスを選択します
 * **group`[1]/@label`**：最初の **`<group>`** コレクション要素の子要素である「label」属性を選択します。
 * **group`[@label='test1']`**：**`<group>`** 要素の子で、値「test1」を含む「label」属性を選択します。
 
@@ -460,7 +461,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 次の算術演算のように、複雑な式を定義することもできます。
 
 * **@gender+1**：**gender** 属性の内容に 1 を追加します。
-* **@email + &#39;(&#39;+@created+&#39;)&#39;**:（文字列タイプの場合は定数を引用符で囲み、）作成日に追加された電子メールアドレスの値を括弧で囲んで文字列を作成します。
+* **@email + &#39;(&#39;+@created+&#39;)&#39;**:（文字列タイプの場合は）括弧内の作成日に追加された E メールアドレスの値を取り込んで、文字列を作成します。
 
 この言語の可能性を広げるため、式に高レベルの関数が追加されました。
 
@@ -472,7 +473,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 * **GetDate()**：現在の日付を返します。
 * **Year(@created)**：「created」属性に含まれる日付の年を返します。
-* **GetEmailDomain(@email)**:電子メールアドレスのドメインを返します。
+* **GetEmailDomain(@email)**:E メールアドレスのドメインを戻します。
 
 ## 文字列計算を使用した文字列の作成 {#building-a-string-via-the-compute-string}
 

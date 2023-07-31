@@ -2,16 +2,17 @@
 product: campaign
 title: 環境の複製
 description: 環境の複製
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 3%
+source-wordcount: '1321'
+ht-degree: 4%
 
 ---
 
@@ -27,9 +28,9 @@ ht-degree: 3%
 >
 >サーバーとデータベース（ホスト環境）へのアクセス権がない場合、以下に説明する手順を実行できません。 Adobeにお問い合わせください。
 
-Adobe Campaignを使用するには、1 つ以上の環境をインストールして設定する必要があります。開発、テスト、実稼動前、実稼動など
+Adobe Campaignを使用するには、開発、テスト、実稼動前、実稼動など、1 つ以上の環境をインストールして設定する必要があります。
 
-各環境には 1 つのAdobe Campaignインスタンスが含まれ、各Adobe Campaignインスタンスは 1 つ以上のデータベースにリンクされています。 アプリケーションサーバーは、1 つ以上のプロセスを実行できます。これらのほとんどすべては、インスタンスデータベースに直接アクセスできます。
+各環境には 1 つのAdobe Campaignインスタンスが含まれ、各Adobe Campaignインスタンスは 1 つ以上のデータベースにリンクされています。 アプリケーションサーバーは 1 つ以上のプロセスを実行できます。ほとんどすべてのプロセスが、インスタンスデータベースに直接アクセスできます。
 
 この節では、Adobe Campaign環境の複製に適用するプロセス（ソース環境をターゲット環境に復元する場合など）について詳しく説明します。その結果、2 つの同じ作業環境が作成されます。
 
@@ -43,7 +44,7 @@ Adobe Campaignを使用するには、1 つ以上の環境をインストール�
 
    >[!NOTE]
    >
-   >Adobe Campaignの場合、 **焼灼** は、外部とやり取りするすべてのプロセスを停止できるアクションを組み合わせます。ログ、トラッキング、配信、キャンペーンワークフローなど\
+   >Adobe Campaignの場合、 **焼灼** はアクションを組み合わせて使用し、ログ、トラッキング、配信、キャンペーンワークフローなど、外部とやり取りするすべてのプロセスを停止できます。\
    >この手順は、（1 回は呼び出し環境から、もう 1 回は複製環境から）メッセージを複数回配信しないようにするために必要です。
 
    >[!IMPORTANT]
@@ -63,9 +64,9 @@ Adobe Campaignを使用するには、1 つ以上の環境をインストール�
 
 ### 転送手順 {#transfer-procedure}
 
-この節では、ケーススタディを使用して、ソース環境をターゲット環境に移行する際に必要な手順を説明します。ここでの目的は、実稼動環境の復元です (**prod** インスタンス ) を開発環境 (**dev** インスタンス ) が、「ライブ」プラットフォームにできる限り近いコンテキストで動作するようにする必要があります。
+この節では、ケーススタディを通じて、ソース環境をターゲット環境に移行する際に必要な手順を理解するのに役立ちます。ここでは、実稼動環境 (**prod** インスタンス ) を開発環境 (**dev** インスタンス ) が、「ライブ」プラットフォームにできる限り近いコンテキストで動作するようにする必要があります。
 
-次の手順は、慎重に実行する必要があります。ソース環境データベースをコピーする際に、一部のプロセスが進行中の可能性があります。 注意機能を使用すると（次の手順 3 で説明）、メッセージが 2 回送信されるのを防ぎ、データの一貫性を維持できます。
+次の手順は慎重に実行する必要があります。ソース環境データベースをコピーする際に、一部のプロセスが進行中の可能性があります。 注意機能を使用すると（次の手順 3 で説明）、メッセージが 2 回送信されるのを防ぎ、データの一貫性を維持できます。
 
 >[!IMPORTANT]
 >
@@ -95,14 +96,14 @@ pg_dump mydatabase > mydatabase.sql
 
 これをおこなうには、次の 2 つの要素に対してパッケージのエクスポートを実行します。
 
-* を書き出す **xtk:option** 次の内部名を持つレコードを除く「options_dev.xml」ファイルにテーブルを追加します。「WdbcTimeZone」、「NmsServer_LastPostUpgrade」および「NmsBroadcast_RegexRules」。
+* を書き出します。 **xtk:option** テーブルを「options_dev.xml」ファイルに追加し、内部名が「WdbcTimeZone」、「NmsServer_LastPostUpgrade」および「NmsBroadcast_RegexRules」のレコードを除きます。
 * 「extaccount_dev.xml」ファイルで、 **nms:extAccount** ID が 0(@id &lt;> 0) でないすべてのレコードのテーブル。
 
 エクスポートするオプション/アカウントの数が、各ファイルでエクスポートするライン数と等しいことを確認します。
 
 >[!NOTE]
 >
->パッケージエクスポートでエクスポートする行数は 1,000 行です。 オプションまたは外部アカウントの数が 1,000 を超える場合は、複数のエクスポートを実行する必要があります。
+>パッケージエクスポートでエクスポートする行の数は 1,000 行です。 オプションまたは外部アカウントの数が 1,000 を超える場合は、複数のエクスポートを実行する必要があります。
 > 
 >詳しくは、[この節](../../platform/using/working-with-data-packages.md#exporting-packages)を参照してください。
 
@@ -144,8 +145,8 @@ nlserver pdump
 
 それには、次の手順に従います。
 
-* Windows の場合：を開きます。 **タスクマネージャー** そして、 **nlserver.exe** プロセス。
-* Linux の場合：実行 **ps aux | grep nlserver** コマンドを実行して、 **nlserver** プロセス。
+* Windows の場合： **タスクマネージャー** そして、 **nlserver.exe** プロセス。
+* Linux の場合： **ps aux | grep nlserver** コマンドを実行して、 **nlserver** プロセス。
 
 ### 手順 4 — ターゲット環境（開発環境）でのデータベースの復元 {#step-4---restore-the-databases-in-the-target-environment--dev-}
 
@@ -165,7 +166,7 @@ psql mydatabase < mydatabase.sql
 nlserver javascript nms:freezeInstance.js -instance:<dev> -arg:run
 ```
 
-### 手順 6 — 注意点の確認 {#step-6---check-cauterization}
+### 手順 6 — 注意点を確認する {#step-6---check-cauterization}
 
 1. ID が 0 に設定されているのが唯一の配信部分であることを確認します。
 
@@ -192,7 +193,7 @@ nlserver javascript nms:freezeInstance.js -instance:<dev> -arg:run
 
 >[!NOTE]
 >
->でAdobe Campaignを再起動する前に **dev** 環境では、さらに安全な手順を適用できます。を起動します。 **web** モジュールのみ。
+>でAdobe Campaignを再起動する前に **dev** 環境の場合は、追加の安全手順を適用できます。 **web** モジュールのみ。
 >  
 >これをおこなうには、インスタンスの設定ファイル (**config-dev.xml**) をクリックし、各モジュール（mta、stat など）の autoStart=&quot;true&quot;オプションの前に&quot;_&quot;文字を追加します。
 
@@ -216,7 +217,7 @@ nlserver pdump
 >
 >この手順では、Web プロセスのみを開始する必要があります。 そうでない場合は、他の実行中のプロセスを停止してから続行します
 
-何よりも、インポートする前に、ファイルの複数行の値を確認します ( 例：オプションテーブルおよび外部アカウントテーブルの配信またはミッドソーシングアカウントの「NmsTracking_Pointer」)
+何よりも、インポートする前に、複数行のファイルの値を確認してください（例：オプションテーブルの場合は「NmsTracking_Pointer」、外部アカウントテーブルの場合は配信またはミッドソーシングアカウント）。
 
 ターゲット環境データベース（開発環境）から設定を読み込むには、次の手順に従います。
 

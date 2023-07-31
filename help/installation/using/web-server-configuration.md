@@ -2,15 +2,16 @@
 product: campaign
 title: Web サーバー設定
 description: Web サーバー設定の主なベストプラクティスの詳細を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 38%
+source-wordcount: '328'
+ht-degree: 37%
 
 ---
 
@@ -40,13 +41,13 @@ Web サーバー (Apache/IIS) の設定に関する主なベストプラクテ�
 
   **SSL x.0 を無効にします。**
 
-  SCHANNEL\Protocols\SSL 3.0\Client:DisabledByDefault:DWORD（32 ビット）値を 1 に設定
+  SCHANNEL\Protocols\SSL 3.0\Client:DisabledByDefault: DWORD （32 ビット）値を 1 に設定
 
-  SCHANNEL\Protocols\SSL 3.0\Server:有効：DWORD（32 ビット）値を 0 に設定
+  SCHANNEL\Protocols\SSL 3.0\Server：有効： DWORD （32 ビット）値を 0 に設定
 
 * **TRACE** メソッドを削除します。
 
-  **Apache 上**、 /etc/apache2/conf.d/security で編集します。TraceEnable **オフ**
+  **Apache 上**、 /etc/apache2/conf.d/security: TraceEnable で編集 **オフ**
 
   **IIS の場合** ( [ドキュメント](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)) で、次の設定を実行します。
 

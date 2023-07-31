@@ -2,12 +2,13 @@
 product: campaign
 title: トランザクションメッセージのアーキテクチャ
 description: この節では、Adobe Campaign Classic トランザクションメッセージのアーキテクチャと、トランザクションメッセージを配信するために使用できるチャネルについて説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Transactional Messaging, Message Center, Architecture
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 100%
+source-wordcount: '1232'
+ht-degree: 99%
 
 ---
 

@@ -2,16 +2,17 @@
 product: campaign
 title: メンテナンスのタイプ
 description: メンテナンスのタイプ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 2%
+source-wordcount: '519'
+ht-degree: 5%
 
 ---
 
@@ -19,9 +20,9 @@ ht-degree: 2%
 
 
 
-## アプリケーションメンテナンス {#application-maintenance}
+## アプリケーションのメンテナンス {#application-maintenance}
 
-Adobe Campaignには、特定のデータベースメンテナンスタスクをスケジュールできる組み込みのワークフローが用意されています。の **データベースクリーンアップワークフロー**. このワークフローは、次のタスクを実行します。
+Adobe Campaignには、特定のデータベースメンテナンスタスクをスケジュールできる組み込みのワークフローが用意されています。 **データベースクリーンアップワークフロー**. このワークフローは、次のタスクを実行します。
 
 * 期限切れレコードの削除
 * 期限切れオブジェクトの孤立したレコードの削除とステータスの再初期化
@@ -33,7 +34,7 @@ Adobe Campaignには、特定のデータベースメンテナンスタスクを
 
 ## 技術的メンテナンス {#technical-maintenance}
 
-データベースクリーンアップワークフローには、次のデータベースメンテナンスツールは含まれていません。メンテナンスを整理するかどうかは、お客様次第です。 これをおこなうには、次のいずれかを実行します。
+データベースクリーンアップワークフローには、データベースメンテナンスツールは含まれていません。メンテナンスを整理するかどうかは、ユーザーが決定します。 これをおこなうには、次のいずれかを実行します。
 
 * データベース管理者と協力して、サードパーティのツールとのデータベースメンテナンスを設定します。
 * Adobe Campaignワークフローエンジンを使用して、これらのメンテナンスアクティビティをスケジュールおよび追跡します。
@@ -79,7 +80,7 @@ Adobe Campaignには、特定のデータベースメンテナンスタスクを
   </tr> 
   <tr> 
    <td> 複製、名前変更、ドロップ<br /> </td> 
-   <td> これにより、テーブルとそのインデックスのコピーが作成され、既存のコピーを削除し、そのコピーに代わる名前を変更します。<br /> </td> 
+   <td> これにより、テーブルとそのインデックスのコピーが作成され、既存のコピーを削除し、そのコピーの代わりにコピーの名前を変更します。<br /> </td> 
    <td> この方法は、IO の生成数が少ない（ファイルとしてのコピーはなく、このファイルから読み取る）ので、最初の方法よりも高速です。<br /> </td> 
    <td> 2 倍の容量が必要です。<br /> プロセス中にテーブルに書き込むすべてのアクティブなプロセスを停止する必要があります。 ただし、テーブルは再構築後に最後の時点でスワップされるので、読み取りプロセスには影響しません。 <br /> </td> 
   </tr> 

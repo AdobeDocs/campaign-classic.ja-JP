@@ -2,11 +2,12 @@
 product: campaign
 title: Microsoft SQL Server へのアクセスの設定
 description: Microsoft SQL Server へのアクセスを設定する方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 65ab4577-3126-4579-8fcc-e93772ebd1e8
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '543'
 ht-degree: 10%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 10%
 1. 設定 [!DNL Microsoft SQL Server] オン [CentOS](#sql-centos).
 1. 設定 [!DNL Microsoft SQL Server] オン [Linux](#sql-linux).
 1. 設定 [!DNL Microsoft SQL Server] オン [Windows](#sql-windows).
-1. の設定 [!DNL Microsoft SQL Server] [外部アカウント](#sql-external) キャンペーン内
+1. を設定します。 [!DNL Microsoft SQL Server] [外部アカウント](#sql-external) Campaign 内
 
 ## CentOS でのMicrosoft SQL Server {#sql-centos}
 
@@ -66,7 +67,7 @@ ht-degree: 10%
 
 1. Windows の場合、 **[!UICONTROL Campaign コントロールパネル]** &#39;>&#39; **[!UICONTROL システムとセキュリティ]** &#39;>&#39; **[!UICONTROL 管理ツール]**&#39;>&#39; **[!UICONTROL ODBC データソース（64 ビット）]**.
 
-1. 次の **[!UICONTROL ODBC データソース（64 ビット）]** 新しいウィンドウ、クリック **[!UICONTROL 追加…]**.
+1. 次から： **[!UICONTROL ODBC データソース（64 ビット）]** 新しいウィンドウを開くには、 **[!UICONTROL 追加…]**.
 
 1. SQL Server Native Client v11 が **[!UICONTROL 新しいデータソースを作成]** ウィンドウ
 
@@ -88,7 +89,7 @@ ht-degree: 10%
 
    ![](assets/sql.png)
 
-1. の設定 **[!UICONTROL Microsoft SQL Server]** 外部アカウント認証：
+1. を設定します。 **[!UICONTROL Microsoft SQL Server]** 外部アカウント認証：
 
    * **[!UICONTROL サーバー]**：[!DNL Microsoft SQL Server] サーバーの URL.
 
@@ -96,9 +97,9 @@ ht-degree: 10%
 
    * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード.
 
-   * **[!UICONTROL データベース]**:データベースの名前（オプション）。
+   * **[!UICONTROL データベース]**：データベースの名前（オプション）。
 
-   * **[!UICONTROL タイムゾーン]**:タイムゾーンの設定 [!DNL Microsoft SQL Server]. [詳細情報](https://docs.microsoft.com/en-us/sql/t-sql/functions/current-timezone-transact-sql?view=sql-server-ver15)
+   * **[!UICONTROL タイムゾーン]**：で設定されたタイムゾーン [!DNL Microsoft SQL Server]. [詳細情報](https://docs.microsoft.com/en-us/sql/t-sql/functions/current-timezone-transact-sql?view=sql-server-ver15)
 
 1. 「**[!UICONTROL パラメーター]**」タブをクリックし、「**[!UICONTROL 機能をデプロイ]**」ボタンをクリックして機能を作成します。
 
@@ -106,12 +107,12 @@ ht-degree: 10%
    >
    >すべての関数を使用するには、リモートデータベースでAdobe Campaign SQL 関数を作成する必要があります。 詳しくは、[このページ](../../configuration/using/adding-additional-sql-functions.md)を参照してください。
 
-1. クリック **[!UICONTROL 保存]** 設定が完了したら、
+1. クリック **[!UICONTROL 保存]** 設定が完了したら、次の手順に従います。
 
 コネクタは、次のオプションをサポートしています。
 
 | オプション | 説明 |
 |---|---|
-| 認証 | コネクタでサポートされる認証のタイプ。 現在のサポート値：ActiveDirectoryMSI です。 <br> 詳しくは、例 8 /を参照してください。 [Microsoftドキュメント](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings). |
-| 暗号化 | 接続でネットワーク経由で TLS 暗号化を使用するかどうかを指定します。 指定できる値は次のとおりです。 **はい/必須（18.0 以降）**, **いいえ/オプション（18.0 以降）**、および **strict（18.0 以降）**. デフォルト値はに設定されています。 **はい** バージョン 18.0 以降 **いいえ** 以前のバージョンの <br>詳しくは、 [Microsoftドキュメント](https://docs.microsoft.com/en-us/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt). |
+| 認証 | コネクタでサポートされる認証のタイプ。 現在サポートされている値： ActiveDirectoryMSI。 <br> 詳しくは、例 8 /を参照してください。 [Microsoftドキュメント](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings). |
+| 暗号化 | 接続でネットワーク経由で TLS 暗号化を使用するかどうかを指定します。 指定できる値は次のとおりです。 **はい/必須（18.0 以降）**, **いいえ/オプション（18.0 以降）**、および **strict（18.0 以降）**. デフォルト値はに設定されています。 **はい** バージョン 18.0 以降 **いいえ** 以前のバージョンの。 <br>詳しくは、 [Microsoftドキュメント](https://docs.microsoft.com/en-us/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt). |
 | TrustServerCertificate | で使用する場合に、自己署名サーバー証明書を使用して暗号化を有効にします **暗号化**. <br>指定できる値： **はい** または **いいえ** （デフォルト値。サーバー証明書が検証されます）。 |

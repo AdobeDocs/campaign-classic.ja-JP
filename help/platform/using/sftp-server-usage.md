@@ -2,16 +2,17 @@
 product: campaign
 title: SFTP サーバーの使用
 description: SFTP サーバーのベストプラクティスとトラブルシューティングの詳細を説明します
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Troubleshooting
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 100%
+source-wordcount: '1171'
+ht-degree: 99%
 
 ---
 
@@ -111,7 +112,7 @@ SFTP サーバーは、ファイルの保持や削除を制御できる一時的
 
 ## 「ホスト名を解決できませんでした」エラー
 
-この節では、Campaign Classic から FTP サーバーに接続した後に「ホスト名を解決できませんでした」というエラーが発生した場合に実行する確認および操作について説明します。
+この節では、Campaign Classic から FTP サーバーに接続した後に「ホスト名を解決できませんでした」というエラーが発生した場合に実行するチェックおよびアクションについて説明します。
 
 ワークフロージャーナルには、次のログが表示されます。
 

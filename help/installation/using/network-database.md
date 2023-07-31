@@ -2,15 +2,16 @@
 product: campaign
 title: ネットワーク、データベース、SSL/TLS
 description: ネットワーク、データベース、SSL/TLS 設定のベストプラクティスの詳細を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 54%
+source-wordcount: '142'
+ht-degree: 52%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 54%
 * 外部 IP の Tomcat ポート（8080）を閉じます（localhost では動作する必要があります）。
 * 標準 HTTP ポート（80）を Tomcat ポート（8080）にマッピングしないようにします。
 
-可能な場合は、セキュアなチャネルを使用します。POP3（または POP3 over TLS）の代わりに POP3S が使用されます。
+可能な場合は、セキュアなチャネルを使用します。 POP3 （または POP3 over TLS）の代わりに POP3S を使用します。
 
 ## データベース
 

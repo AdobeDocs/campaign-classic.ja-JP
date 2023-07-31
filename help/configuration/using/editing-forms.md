@@ -2,12 +2,13 @@
 product: campaign
 title: フォームの編集
 description: フォームの編集
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Configuration
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1739'
 ht-degree: 2%
 
 ---
@@ -26,9 +27,9 @@ ht-degree: 2%
 * デフォルトで配信されるファクトリ入力フォームを変更できます。 ファクトリの入力フォームは、ファクトリデータスキーマに基づいています。
 * 定義したデータスキーマに基づいて、カスタムの入力フォームを作成できます。
 
-Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` スキーマ。 このスキーマを表示するには、 **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]** を選択します。 詳細を表示 [フォーム構造](form-structure.md).
+Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` スキーマ。 このスキーマを表示するには、 **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]** を選択します。 詳細を表示： [フォーム構造](form-structure.md).
 
-入力フォームにアクセスするには、 **[!UICONTROL 管理] > [!UICONTROL 設定] > [!UICONTROL 入力フォーム]** メニューから、次の操作を実行します。
+入力フォームにアクセスするには、「 **[!UICONTROL 管理] > [!UICONTROL 設定] > [!UICONTROL 入力フォーム]** メニューから、次の操作を実行します。
 
 ![](assets/d_ncs_integration_form_arbo.png)
 
@@ -54,7 +55,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
 * コンテンツ管理
 
-  このフォームタイプをコンテンツ管理に使用します。 参照 [使用例](../../delivery/using/use-case--creating-content-management.md).
+  このフォームタイプをコンテンツ管理に使用します。 詳しくは、 [使用例](../../delivery/using/use-case--creating-content-management.md).
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
@@ -87,7 +88,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 フォームでは、次のような様々な目的でコンテナを使用できます。
 
 * フォーム内のコンテンツを整理する
-* 入力フィールドへのアクセスを定義
+* 入力フィールドへのアクセスを定義する
 * 他のフォーム内でのフォームのネスト
 
 [詳細情報](form-structure.md#containers)。
@@ -99,7 +100,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 * フィールドを複数のセクションにグループ化できます。
 * 複数ページのフォームにページを追加できます。
 
-コンテナを挿入するには、 `<container>` 要素。 [詳細情報](form-structure.md#containers)。
+コンテナを挿入するには、 `<container>` 要素を選択します。 [詳細情報](form-structure.md#containers)。
 
 #### グループフィールド
 
@@ -152,7 +153,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
 画像を検索するには、「 」を選択します。 **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL 画像]** を選択します。
 
-画像をフォーム内の要素（アイコンなど）に関連付けるには、画像への参照を追加します。 以下を使用： `img` 属性 ( 例： `<container>` 要素。
+画像をフォーム内の要素（アイコンなど）に関連付けるには、画像への参照を追加します。 以下を使用します。 `img` 属性 ( 例： `<container>` 要素を選択します。
 
 構文: `img="`*`namespace`*`:`*`filename`*`.`*`extension`*`"`
 
@@ -167,7 +168,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 </container>
 ```
 
-これらの画像は、ユーザーがクリックして複数ページフォームを移動するアイコンに使用されます。
+これらの画像は、ユーザーがクリックして複数ページのフォームを移動するアイコンに使用されます。
 
 ![](assets/nested_forms_preview.png)
 
@@ -176,7 +177,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
 フォームを作成するには、次の手順に従います。
 
-1. メニューから、を選択します。 **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL 入力フォーム]**.
+1. メニューから、「 」を選択します。 **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL 入力フォーム]**.
 1. 次をクリック： **[!UICONTROL 新規]** 」ボタンをクリックします。
 
    ![](assets/input-form-create-1.png)
@@ -212,7 +213,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
 1. フォーム要素を挿入します。
 
-   例えば、入力フィールドを挿入するには、 `<input>` 要素。 を `xpath` 属性を XPath 式としてフィールド参照に追加します。 [詳細情報](schema-structure.md#referencing-with-xpath)。
+   例えば、入力フィールドを挿入するには、 `<input>` 要素を選択します。 を設定します。 `xpath` 属性を XPath 式としてフィールド参照に追加します。 [詳細情報](schema-structure.md#referencing-with-xpath)。
 
    この例では、 `nms:recipient` スキーマ。
 
@@ -245,7 +246,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
    | チェックボックス | `type="checkbox"` |
    | ツリーを編集 | `type="tree"` |
 
-   詳細を表示 [メモリリスト制御](form-structure.md#memory-list-controls).
+   詳細を表示： [メモリリスト制御](form-structure.md#memory-list-controls).
 
 1. オプションで、次のフィールドへのアクセスを定義します。
 
@@ -287,13 +288,13 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
 ### の作成 `iconbox` フォーム
 
-以下を使用： `iconbox` フォームの左側にアイコンを表示するフォームタイプ。このアイコンにより、ユーザーはフォーム内の別のページに移動できます。
+以下を使用します。 `iconbox` フォームの左側にアイコンを表示するフォームタイプ。このアイコンにより、ユーザーはフォーム内の別のページに移動できます。
 
 ![](assets/iconbox_form_preview.png)
 
 既存のフォームの種類を次に変更するには `iconbox`を使用する場合は、次の手順に従います。
 
-1. を `type` の属性 `<form>` 要素から `iconbox`:
+1. 次を変更： `type` の属性 `<form>` 要素から `iconbox`:
 
    ```xml
    <form […] type="iconbox">
@@ -301,7 +302,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
 1. 各フォームページにコンテナを設定します。
 
-   1. を追加します。 `<container>` 要素を `<form>` 要素。
+   1. を追加します。 `<container>` の子としての要素 `<form>` 要素を選択します。
    1. アイコンのラベルと画像を定義するには、 `label` および `img` 属性。
 
       ```xml
@@ -321,17 +322,17 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
       </form>
       ```
 
-   または、 `type="frame"` 既存の `<container>` 要素。
+   または、 `type="frame"` 既存の属性 `<container>` 要素。
 
 ### ノートブックフォームの作成
 
-以下を使用： `notebook` フォームの上部にタブを表示するフォームタイプ（ユーザーを別のページに移動させます）。
+以下を使用します。 `notebook` フォームの上部にタブを表示するフォームタイプ（ユーザーを別のページに移動させます）。
 
 ![](assets/notebook_form_preview.png)
 
 既存のフォームの種類を次に変更するには `notebook`を使用する場合は、次の手順に従います。
 
-1. を `type` の属性 `<form>` 要素から `notebook`:
+1. 次を変更： `type` の属性 `<form>` 要素から `notebook`:
 
    ```xml
    <form […] type="notebook">
@@ -339,7 +340,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
 1. 各フォームページにコンテナを追加します。
 
-   1. を追加します。 `<container>` 要素を `<form>` 要素。
+   1. を追加します。 `<container>` の子としての要素 `<form>` 要素を選択します。
    1. アイコンのラベルと画像を定義するには、 `label` および `img` 属性。
 
    ```xml
@@ -359,7 +360,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
      </form>
    ```
 
-   または、 `type="frame"` 既存の `<container>` 要素。
+   または、 `type="frame"` 既存の属性 `<container>` 要素。
 
 ### フォームのネスト
 
@@ -367,13 +368,13 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
 ネスト制御のレベル。 ユーザーはサブフォームにドリルダウンできます。
 
-別のフォーム内にフォームをネストするには、 `<container>` 要素を選択し、 `type` 属性をフォームタイプに設定します。 トップレベルのフォームの場合は、外側のコンテナまたは `<form>` 要素。
+別のフォーム内にフォームをネストするには、 `<container>` 要素を選択し、 `type` 属性をフォームタイプに設定します。 トップレベルのフォームの場合は、外側のコンテナまたは `<form>` 要素を選択します。
 
 ### 例
 
 次の例は、複雑なフォームを示しています。
 
-* トップレベルフォームは、iconbox フォームです。 このフォームは、次のラベルが付いた 2 つのコンテナで構成されます **一般** および **詳細**.
+* トップレベルフォームは、iconbox フォームです。 このフォームは、次のラベルが付いた 2 つのコンテナで構成されます。 **一般** および **詳細**.
 
   その結果、外側のフォームには **一般** および **詳細** ページを表示します。 これらのページにアクセスするには、ユーザーがフォームの左側にあるアイコンをクリックします。
 
@@ -400,17 +401,17 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 </form>
 ```
 
-その結果、 **一般** 外側のフォームのページは、 **名前** および **連絡先** タブ
+その結果、 **一般** 外側のフォームのページは、 **名前** および **連絡先** タブ。
 
 ![](assets/nested_forms_preview.png)
 
-別のフォーム内にフォームをネストするには、 `<container>` 要素を選択し、 `type` 属性をフォームタイプに設定します。 トップレベルのフォームの場合は、外側のコンテナまたは `<form>` 要素。
+別のフォーム内にフォームをネストするには、 `<container>` 要素を選択し、 `type` 属性をフォームタイプに設定します。 トップレベルのフォームの場合は、外側のコンテナまたは `<form>` 要素を選択します。
 
 ### 例
 
 次の例は、複雑なフォームを示しています。
 
-* トップレベルフォームは、iconbox フォームです。 このフォームは、次のラベルが付いた 2 つのコンテナで構成されます **一般** および **詳細**.
+* トップレベルフォームは、iconbox フォームです。 このフォームは、次のラベルが付いた 2 つのコンテナで構成されます。 **一般** および **詳細**.
 
   その結果、外側のフォームには **一般** および **詳細** ページを表示します。 これらのページにアクセスするには、ユーザーがフォームの左側にあるアイコンをクリックします。
 
@@ -437,7 +438,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 </form>
 ```
 
-その結果、 **一般** 外側のフォームのページは、 **名前** および **連絡先** タブ
+その結果、 **一般** 外側のフォームのページは、 **名前** および **連絡先** タブ。
 
 ![](assets/nested_forms_preview.png)
 
@@ -449,7 +450,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
 1. ファクトリ入力フォームを変更します。
 
-   1. メニューから、を選択します。 **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL 入力フォーム]**.
+   1. メニューから、「 」を選択します。 **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL 入力フォーム]**.
    1. 入力フォームを選択し、変更します。
 
    ファクトリデータスキーマは拡張できますが、ファクトリ入力フォームは拡張できません。 ファクトリの入力フォームは、再作成せずに直接変更することをお勧めします。 ソフトウェアのアップグレード時に、ファクトリの入力フォームでの変更内容とアップグレードが結合されます。 自動マージが失敗した場合は、競合を解決できます。 [詳細情報](../../production/using/upgrading.md#resolving-conflicts)。
@@ -470,12 +471,12 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 <value xpath="@iRecipientId" readOnly="true"/>
 ```
 
-### 必須フィールドを確認
+### 必須フィールドを確認する
 
 次の必須情報を確認できます。
 
-* 以下を使用： `required="true"` 属性を設定します。
-* 以下を使用： `<leave>` ノードを使用して、これらのフィールドを確認し、エラーメッセージを表示します。
+* 以下を使用します。 `required="true"` 属性を設定します。
+* 以下を使用します。 `<leave>` ノードを使用して、これらのフィールドを確認し、エラーメッセージを表示します。
 
 この例では、電子メールアドレスが必要です。ユーザーがこの情報を指定しなかった場合は、エラーメッセージが表示されます。
 
@@ -488,7 +489,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 </leave>
 ```
 
-詳細を表示 [式フィールド](form-structure.md#expression-field) および [フォームコンテキスト](form-structure.md#context-of-forms).
+詳細を表示： [式フィールド](form-structure.md#expression-field) および [フォームコンテキスト](form-structure.md#context-of-forms).
 
 ### 値の検証
 
@@ -514,7 +515,7 @@ JavaScript SOAP 呼び出しを使用して、コンソールからフォーム�
 
    返された値を使用してフォームを変更できます。
 
-1. フォームで、 `<soapCall>` 要素を `<leave>` 要素。
+1. フォームで、 `<soapCall>` 要素を `<leave>` 要素を選択します。
 
    この例では、SOAP 呼び出しを使用して `@valueToCheck` 文字列：
 
@@ -536,7 +537,7 @@ JavaScript SOAP 呼び出しを使用して、コンソールからフォーム�
 
    呼び出しは同期的に実行されます。
 
-   すべての例外が表示されます。 次の `<leave>` 要素を指定した場合、入力した情報が検証されるまでフォームを保存できません。
+   すべての例外が表示されます。 を使用する場合、 `<leave>` 要素を指定した場合、入力した情報が検証されるまでフォームを保存できません。
 
 次の例では、フォーム内からサービス呼び出しを実行する方法を示します。
 
@@ -549,4 +550,4 @@ JavaScript SOAP 呼び出しを使用して、コンソールからフォーム�
 </enter>
 ```
 
-この例では、入力は ID で、プライマリキーです。 ユーザーがこの ID のフォームに入力すると、この ID を入力パラメーターとして使用した SOAP 呼び出しがおこなわれます。 出力は、このフィールドに書き込まれるブール値です。 `/tmp/@count`. このブール値は、フォーム内で使用できます。 詳細を表示 [フォームコンテキスト](form-structure.md#context-of-forms).
+この例では、入力は ID で、プライマリキーです。 ユーザーがこの ID のフォームに入力すると、この ID を入力パラメーターとして使用した SOAP 呼び出しがおこなわれます。 出力は、このフィールドに書き込まれるブール値です。 `/tmp/@count`. このブール値は、フォーム内で使用できます。 詳細を表示： [フォームコンテキスト](form-structure.md#context-of-forms).

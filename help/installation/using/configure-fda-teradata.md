@@ -2,14 +2,15 @@
 product: campaign
 title: Teradata へのアクセスの設定
 description: FDA でのTeradataへのアクセスの設定方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1793'
 ht-degree: 72%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 72%
 キャンペーンを使用 [Federated Data Access](../../installation/using/about-fda.md) (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、Teradataへのアクセスを設定します。
 
 1. インストールと設定 [Teradataドライバ](#teradata-config)
-1. teradataの設定 [外部アカウント](#teradata-external) キャンペーン内
+1. teradataの設定 [外部アカウント](#teradata-external) Campaign 内
 1. 設定 [追加設定](#teradata-additional-configurations) (Teradataと Campaign サーバーの場合 )
 
 ## Teradata設定 {#teradata-config}
@@ -84,19 +85,19 @@ Teradata 外部アカウントを使用すれば、Campaign インスタンス�
 
 1. Teradata **[!UICONTROL 外部アカウントを設定するには]**、次を指定する必要があります。
 
-   * **[!UICONTROL タイプ]**:を選択します。 **[!UICONTROL Teradata]** タイプ。
+   * **[!UICONTROL タイプ]**：を選択します。 **[!UICONTROL Teradata]** タイプ。
 
-   * **[!UICONTROL サーバー]**:teradataサーバーの URL または名前
+   * **[!UICONTROL サーバー]**:Teradataサーバーの URL または名前
 
-   * **[!UICONTROL アカウント]**:teradata・データベースへのアクセスに使用するアカウントの名前
+   * **[!UICONTROL アカウント]**：データデータベースへのアクセスに使用するTeradataの名前
 
-   * **[!UICONTROL パスワード]**:teradata・データベースへの接続に使用するパスワード
+   * **[!UICONTROL パスワード]**：データデータベースへの接続に使用するTeradata
 
-   * **[!UICONTROL データベース]**:データベースの名前（オプション）
+   * **[!UICONTROL データベース]**：データベースの名前（オプション）
 
-   * **[!UICONTROL オプション]**:teradataを渡すオプション。 次の形式を使用します。&#39;parameter=value&#39;. 値間の区切り記号としてセミコロンを使用します。
+   * **[!UICONTROL オプション]**：データに渡すTeradata。 「parameter=value」の形式を使用します。 値間の区切り記号としてセミコロンを使用します。
 
-   * **[!UICONTROL タイムゾーン]**:タイムゾーンがTeradataで設定されました。 [詳細情報](#timezone)
+   * **[!UICONTROL タイムゾーン]**：タイムゾーンがTeradataで設定されます。 [詳細情報](#timezone)
 
 コネクタは、次のオプションをサポートしています。
 
@@ -133,9 +134,9 @@ ODBC も使用する別の外部アカウント ( 例：Snowflake) を設定す�
 
 Query Banding を設定するには、以下の手順に従います。
 
-1. 以下を使用：  **[!UICONTROL デフォルト]** をクリックして、ユーザーにクエリバンドが関連付けられていない場合に使用するデフォルトのクエリバンドを入力します。 このフィールドが空になっている場合、クエリバンドがないユーザーは Teradata を使用できません。
+1. 以下を使用します。  **[!UICONTROL デフォルト]** をクリックして、ユーザーにクエリバンドが関連付けられていない場合に使用するデフォルトのクエリバンドを入力します。 このフィールドが空になっている場合、クエリバンドがないユーザーは Teradata を使用できません。
 
-1. 以下を使用： **[!UICONTROL ユーザー]** フィールドを使用して、各ユーザーのクエリバンドを指定します。 キーと値のペアを必要な数だけ追加できます。例：priority=1;workload=highユーザーにクエリバンドが割り当てられていない場合は、「**[!UICONTROL デフォルト]**」フィールドが適用されます。
+1. 以下を使用します。 **[!UICONTROL ユーザー]** フィールドを使用して、各ユーザーのクエリバンドを指定します。 キーと値のペアを必要な数だけ追加できます。例：priority=1;workload=highユーザーにクエリバンドが割り当てられていない場合は、「**[!UICONTROL デフォルト]**」フィールドが適用されます。
 
 1. この機能を有効にするには、「**[!UICONTROL アクティブ]**」ボックスをオンにします。
 
@@ -176,7 +177,7 @@ Customers with a Latin-1 Teradata database migrating to a recent Campaign Classi
 
 ### ユーザー設定 {#user-configuration}
 
-外部データベースには、次の権限が必要です。カスタムプロシージャの作成/ドロップ/実行、テーブルの作成/ドロップ/挿入/選択 また、Adobe Campaign インスタンスで md5 および sha2 関数を使用する場合は、ユーザーモード関数を作成する必要が生じる場合もあります。
+外部データベースには、カスタムプロシージャの作成/ドロップ/実行、テーブルの作成/ドロップ/挿入/選択の権限が必要です。 また、Adobe Campaign インスタンスで md5 および sha2 関数を使用する場合は、ユーザーモード関数を作成する必要が生じる場合もあります。
 
 正しいタイムゾーンを設定してください。タイムゾーンは、Adobe Campaign インスタンスで作成される外部アカウントで設定される値と一致する必要があります。
 

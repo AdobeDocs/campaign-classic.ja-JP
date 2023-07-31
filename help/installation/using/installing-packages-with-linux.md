@@ -2,16 +2,17 @@
 product: campaign
 title: Linux でのパッケージのインストール
 description: Linux でのパッケージのインストール
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Application Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 2%
+source-wordcount: '1211'
+ht-degree: 3%
 
 ---
 
@@ -26,14 +27,14 @@ Adobe Campaignには、これらの各バージョンに対して、1 つのパ�
 インストールコマンドを使用すると、次の操作を実行できます。
 
 * ファイルのコピー先 **/usr/local/neolane**
-* Adobe Campaign Linux アカウント（および関連するグループ）を作成し、 **/usr/local/neolane** ホームディレクトリとして
+* Adobe Campaign Linux アカウント（および関連するグループ）を作成し、 **/usr/local/neolane** ホーム・ディレクトリとして
 * 自動スクリプトの作成 **/etc/init.d/nlserver6** 起動時に使用するか、systemd ユニットを作成します（20.1 以降）。
 
 >[!NOTE]
 >
->この **ネオラン** コマンドを実行する前に、システムユーザを作成してはなりません。 この **ネオラン** ユーザーはインストール時に自動的に作成されます。
+>The **ネオラン** コマンドを実行する前に、システムユーザを作成してはなりません。 The **ネオラン** ユーザーはインストール時に自動的に作成されます。
 >
->この **ホーム** リンクされたディレクトリ **ネオラン** ユーザーも **[!UICONTROL /usr/local/neolane]**. 十分なスペースが **[!UICONTROL /usr/local]** ディスク（数 GB）。
+>The **ホーム** リンクされたディレクトリ **ネオラン** ユーザーも **[!UICONTROL /usr/local/neolane]**. 十分なスペースが上にあることを確認してください **[!UICONTROL /usr/local]** ディスク（数 GB）。
 
 次を実行できます。 **ping`hostname`** コマンドを使用して、サーバーが自身に到達できることを確認します。
 
@@ -43,7 +44,7 @@ RPM(RHEL、CentOS、SUSE) オペレーティングシステムにAdobe Campaign�
 
 1. まず、Adobe Campaignパッケージを入手する必要があります。
 
-   ファイルの名前は次のようになります。ここで、 **XXXX** はAdobe Campaignビルド番号です。 **nlserver6-v7-XXXX-0.x86_64.rpm**.
+   ファイルの名前は次のようになります。ここで、 **XXXX** はAdobe Campaignのビルド番号です。 **nlserver6-v7-XXXX-0.x86_64.rpm**.
 
    >[!CAUTION]
    >
@@ -61,9 +62,9 @@ RPM(RHEL、CentOS、SUSE) オペレーティングシステムにAdobe Campaign�
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
-「bc」コマンド。ネットポートの実行に必要です ( [この節](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts) ) は、すべての Linux ディストリビューションでデフォルトでは利用できません。 コマンドが使用可能かどうかを確認するには、&#39;which bc&#39;コマンドを実行します。 インストールされていない場合は、インストールする必要があります。
+「bc」コマンド。ネットレポートの実行に必要です ( [この節](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts) ) は、すべての Linux ディストリビューションでデフォルトでは利用できません。 コマンドが使用可能かどうかを確認するには、&#39;which bc&#39;コマンドを実行します。 インストールされていない場合は、インストールする必要があります。
 
-CentOS を使用する場合は、bc.x86_64 パッケージをインストールする必要があります。接続名 **root** 次のコマンドを実行します。
+CentOS を使用する場合は、bc.x86_64 パッケージをインストールする必要があります。 **root** 次のコマンドを実行します。
 
 ```
 yum install bc.x86_64
@@ -75,7 +76,7 @@ yum install bc.x86_64
 
 Debian 64 ビットオペレーティングシステムにAdobe Campaign 64 ビットをインストールするには、次の手順に従います。
 
-1. まず、Adobe Campaignパッケージを入手する必要があります。 **nlserver6-v7-XXXX-linux-2.6-amd64.deb**&#x200B;で、 **XXXX** はビルド番号です。
+1. まず、Adobe Campaignパッケージを入手する必要があります。 **nlserver6-v7-XXXX-linux-2.6-amd64.deb**&#x200B;です。 **XXXX** は、ビルド番号です。
 
    >[!CAUTION]
    >
@@ -190,7 +191,7 @@ export neolane_LANG=fra
 
 * LibreOffice の場合：
 
-  Adobe Campaignを既存のバージョンの LibreOffice で実行するには、次の追加設定が必要です。インストールディレクトリへのアクセスパスを指定する必要があります。 例：
+  Adobe Campaignを既存のバージョンの LibreOffice で実行するには、追加の設定が必要です。インストールディレクトリへのアクセスパスを指定する必要があります。 例：
 
    * Debian
 
@@ -277,7 +278,7 @@ Adobe CampaignでOracleを使用する場合は、Linux でOracleクライアン
 
 問題が発生した場合は、 [Oracleのインストールに関するドキュメント](https://docs.oracle.com/) が正しくインストールされている。
 
-## インストールチェック {#installation-checks}
+## インストールのチェック {#installation-checks}
 
 次のコマンドを使用して、初期インストールテストを実行できます。
 
@@ -349,6 +350,6 @@ nlserver stop web
 
 ## 内部識別子のパスワード {#password-for-the-internal-identifier}
 
-Adobe Campaignサーバーは、 **内部** すべてのインスタンスに対するすべての権限を持つ インストール直後に、ログインにパスワードが含まれていません。 定義する必要があります。
+Adobe Campaignサーバーは、という名前のテクニカルログインを定義します。 **内部** すべてのインスタンスに対するすべての権限を持つ インストール直後に、ログインにパスワードが含まれていません。 定義する必要があります。
 
 詳しくは、[こちら](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。

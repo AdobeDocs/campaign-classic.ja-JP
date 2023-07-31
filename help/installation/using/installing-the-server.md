@@ -2,13 +2,14 @@
 product: campaign
 title: サーバーのインストール
 description: サーバーのインストール
+feature: Installation, Instance Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
-source-git-commit: b58edd9566d0f3d6aad5d2768706ead66e11e949
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 7%
@@ -25,7 +26,7 @@ Windows 32 ビットプラットフォームの場合、Adobe Campaign 32 ビッ
 
 Adobe Campaignサーバーのインストール手順は次のとおりです。
 
-1. ファイルを実行します **setup.exe**.
+1. ファイルを実行します。 **setup.exe**.
 
    ![](assets/s_ncs_install_installer_01.png)
 
@@ -36,9 +37,9 @@ Adobe Campaignサーバーのインストール手順は次のとおりです。
    次のインストールタイプを使用できます。
 
    * **[!UICONTROL アプリケーションサーバーのインストール]** :Adobe Campaignアプリケーションサーバーとクライアントコンソールをインストールします。
-   * **[!UICONTROL 最小インストール（ネットワーク）]** :ネットワークからのクライアントコンピューターのインストール。 必要に応じて、限られた数の DLL のみがコンピュータにインストールされ、その他のすべてのコンポーネントはネットワークドライブから使用されます。
+   * **[!UICONTROL 最小インストール（ネットワーク）]** ：ネットワークからのクライアントコンピューターのインストール。 必要に応じて、限られた数の DLL のみがコンピュータにインストールされ、その他のすべてのコンポーネントはネットワークドライブから使用されます。
    * **[!UICONTROL クライアントのインストール]** :Adobe Campaignクライアントに必要なコンポーネントのインストール。
-   * **[!UICONTROL カスタムインストール]** :ユーザーは、インストールする要素を選択します。
+   * **[!UICONTROL カスタムインストール]** ：ユーザーがインストールする要素を選択します。
 
    選択 **アプリケーションサーバーのインストール**&#x200B;を開き、次に示す様々な手順を実行します。
 
@@ -137,11 +138,11 @@ nlserver stop web
 
 ## 内部識別子のパスワード {#password-for-the-internal-identifier}
 
-Adobe Campaignサーバーは、 **内部** すべてのインスタンスに対するすべての権限を持つ インストール直後に、ログインにパスワードが含まれていません。 定義する必要があります。
+Adobe Campaignサーバーは、という名前のテクニカルログインを定義します。 **内部** すべてのインスタンスに対するすべての権限を持つ インストール直後に、ログインにパスワードが含まれていません。 定義する必要があります。
 
 詳しくは、[こちら](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
-## Adobe Campaign Services の開始 {#starting-adobe-campaign-services}
+## Adobe Campaign Services の起動 {#starting-adobe-campaign-services}
 
 Adobe Campaignサービスを開始するには、サービスマネージャーを使用するか、（適切な権限を持つ）コマンドラインで次のように入力します。
 

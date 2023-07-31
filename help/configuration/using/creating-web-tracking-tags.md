@@ -2,11 +2,12 @@
 product: campaign
 title: Web トラッキングタグの作成
 description: Web トラッキングタグの作成方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Application Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -26,8 +27,8 @@ ht-degree: 0%
 
 ページに挿入するHTMLコードを生成するには：
 
-* タグのラベルを入力：これはトラッキングログに表示されます。
-* ソース URL を指定します。このフィールドは情報提供用で、追跡するページを指定できます（オプション）。
+* タグのラベルを入力します。このラベルはトラッキングログに表示されます。
+* ソース URL を指定：このフィールドは情報提供のためのもので、トラッキングするページを指定できます（オプション）。
 * 必要に応じて、有効期間を入力します。
 * クリック **[!UICONTROL 生成]** HTMLコード。
 
@@ -37,7 +38,7 @@ ht-degree: 0%
 
 即座に Web トラッキング URL を作成するには、 **tagid** パラメーター：
 
-* 追跡するページのタイプ：WEB の場合は&#39;w&#39; 、TRANSACTION の場合は&#39;t&#39;
+* 追跡されるページのタイプ： WEB の場合は「w」、トランザクションの場合は「t」
 * URL を作成する必要があるフォルダーの内部名。
 
 次の 2 つの情報は、文字&#39;|&#39;を追加することで、トラッキング対象のページの識別子で連結する必要があります。
@@ -50,6 +51,6 @@ tagid=<identifier>|<type>|<foldername>
 >
 >必ず **tagid** パラメーターとして使用される場合は、URL パラメーターとして使用されます。
 
-**例**:トランザクションタイプの web トラッキング URL の作成。
+**例**：トランザクションタイプの Web トラッキング URL の作成。
 
 **http://myserver.adobe.com/r/a?tagid=home%7Ct%7CMyFolder**

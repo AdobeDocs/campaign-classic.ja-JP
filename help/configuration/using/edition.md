@@ -2,11 +2,12 @@
 product: campaign
 title: Campaign エクスプローラーのナビゲーションツリーを編集
 description: Campaign エクスプローラーのナビゲーションツリーを編集
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Application Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 ![](assets/d_ncs_integration_navigation_arbo.png)
 
-ナビゲーション階層の設定は、複数の XML ドキュメントに分かれています。 この関数は、スキーマ拡張と同様の原則に基づいて動作します。設定全体を含む単一のドキュメントを生成するために、すべてのドキュメントがマージされます。 このドキュメントは編集できず、「プレビュー」タブで表示されます。
+ナビゲーション階層の設定は、複数の XML ドキュメントに分かれています。 この機能は、スキーマ拡張と同様の原則に基づいて動作します。すべてのドキュメントが結合され、設定全体を含む単一のドキュメントが生成されます。 このドキュメントは編集できず、「プレビュー」タブで表示されます。
 
 編集フィールドは、XML ドキュメントのコンテンツを提供します。
 

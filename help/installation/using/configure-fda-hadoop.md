@@ -2,14 +2,15 @@
 product: campaign
 title: Hadoop へのアクセスの設定
 description: FDA でHadoopへのアクセスを設定する方法
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '626'
 ht-degree: 79%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 79%
 キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、Hadoopへのアクセスを設定します。
 
 1. 設定 [Hadoopデータベース](#configuring-hadoop)
-1. hadoop [外部アカウント](#hadoop-external) キャンペーン内
+1. hadoop [外部アカウント](#hadoop-external) Campaign 内
 
 ## Hadoop 3.0 の設定 {#configuring-hadoop}
 

@@ -1,14 +1,15 @@
 ---
 product: campaign
 title: インターフェイスの設定
-description: Campaign インターフェイスの設定方法を説明します
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+description: Campaign インターフェイスの設定方法を説明します。
+feature: Application Settings
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +26,7 @@ Adobe Campaignインターフェイスで新しい受信者テーブルを表示
 Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用して、デフォルトの受信者データベース (nms:recipient) とのダイアログを作成します。 したがって、この変数は変更する必要があります。
 
 1. 次に移動： **[!UICONTROL 管理/プラットフォーム/オプション]** エクスプローラーのノード。
-1. 値を **Nms_DefaultRcpSchema** 変数に含まれるデータを格納します。この変数には、外部の受信者テーブルに一致するスキーマの名前 ( この場合はcus:individual) の形式で指定します。
+1. 値を **Nms_DefaultRcpSchema** 変数に含まれます。この変数は、外部の受信者テーブルに一致するスキーマの名前です（この場合は cus:individual）。
 1. 変更を保存します。
 
 ## 新しいフォームの作成 {#creating-a-new-form-}
@@ -37,14 +38,14 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
 >フォームの名前は、対象となるスキーマの名前と同じにする必要があります。
 
 1. 次に移動： **管理/設定/入力フォーム** エクスプローラーのノード。
-1. 新しい **xtk:form** type **フォーム** ファイル。
+1. 新規作成 **xtk:form** type **フォーム** ファイル。
 1. テーブルテンプレートに応じて、必要なすべての監視およびフィールドについて説明します。
 
    >[!NOTE]
    >
    >詳しくは、 **フォーム** タイプファイル： [このページ](../../configuration/using/identifying-a-form.md).
 
-   現在の例では、 **フォーム** ファイルは **cus:individual** スキーマを作成し、次のレイアウトにする必要があります。
+   現在の例では、 **フォーム** ファイルは、 **cus:individual** スキーマを作成し、次のレイアウトにする必要があります。
 
    ```
    <container colspan="2">
@@ -63,15 +64,15 @@ Adobe Campaignは、「Nms_DefaultRcpSchema」グローバル変数を使用し�
 
 ## ナビゲーション階層での新しいタイプのフォルダーの作成 {#creating-a-new-type-of-folder-in-the-navigation-hierarchy}
 
-1. 次に移動： **[!UICONTROL 管理/設定/ナビゲーション階層]** ノード。
-1. 新しい **xtk:navtree** type **ナブツリー** 文書。
+1. 次に移動： **[!UICONTROL [ 管理 ] > [ 設定 ] > [ ナビゲーション階層 ]]** ノード。
+1. 新規作成 **xtk:navtree** type **ナブツリー** 文書。
 1. テーブルテンプレートに応じて、必要なすべての監視およびフィールドについて説明します。
 
    >[!NOTE]
    >
    >詳しくは、 **ナブツリー** タイプファイル： [このページ](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
 
-   現在の例では、 **ナブツリー** ファイルは **cus:individual** スキーマを作成し、次の形式を取ります。
+   現在の例では、 **ナブツリー** ファイルは、 **cus:individual** スキーマを作成し、次の形式を取ります。
 
    ```
     <model name="root">

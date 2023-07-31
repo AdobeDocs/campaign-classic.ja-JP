@@ -2,16 +2,17 @@
 product: campaign
 title: SpamAssassin の設定
 description: SpamAssassin の設定
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 2%
+source-wordcount: '1010'
+ht-degree: 3%
 
 ---
 
@@ -50,7 +51,7 @@ Windows に SpamAssassin をインストールして設定し、Adobe Campaign�
 
 ### SpamAssassin のインストール {#installing-spamassassin}
 
-1. に接続 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?lang=ja) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
+1. 次に接続： [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?lang=ja) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
 1. をダウンロードします。 **Neolane Spam Assassin（Windows インストール）(2.0)** ファイル (neolane_spamassassin.2.0.zip)
 1. このファイルをAdobe Campaignサーバーにコピーし、解凍します。
 
@@ -64,13 +65,13 @@ Windows に SpamAssassin をインストールして設定し、Adobe Campaign�
 
    Windows シェルが表示されない場合、または表示されない場合は、次の手順に従い、 **portableShell.bat** Windows シェルを表示するファイルと、シェルパスが **spamassassin.zip** ファイルが解凍されました。 該当しない場合は、 **cd** コマンドを使用します。
 
-   入力 **run_me.bat** 次に、 **入力** をクリックして、インストールと更新のプロセスを開始します。 この操作では、更新の結果を示すために、次のいずれかの値が返されます。
+   入力 **run_me.bat** 次に、「 **入力** をクリックして、インストールと更新のプロセスを開始します。 この操作では、更新の結果を示すために、次のいずれかの値が返されます。
 
-   * **0**:更新が実行されました。
-   * **1**:新しい更新はありません。
-   * **2**:新しい更新はありません。
-   * **3**:前の検証中に更新に失敗しました。
-   * **4** その他：エラーが発生しました。
+   * **0**：更新が実行されました。
+   * **1**：新しい更新はありません。
+   * **2**：新しい更新はありません。
+   * **3**：前の検証中に更新に失敗しました。
+   * **4** またはその他：エラーが発生しました。
 
 1. SpamAssassin のインストールが成功したかどうかを確認するには、次の手順に従って、GTUBE テスト（未承諾の一括電子メール用汎用テスト）を使用します。
 
@@ -132,7 +133,7 @@ Windows に SpamAssassin をインストールして設定し、Adobe Campaign�
    sa-update --no-gpg
    ```
 
-   フィルタリングルールとスコアリングルールの自動更新を実行するには、スケジュールされたシステムタスクで同じコマンドを使用します。
+   フィルタリングルールとスコアリングルールの自動更新を実行するには、スケジュールされたシステムタスクで次の同じコマンドを使用します。
 
    ```
    sa-update --no-gpg
@@ -148,7 +149,7 @@ Windows に SpamAssassin をインストールして設定し、Adobe Campaign�
   apt-get install spamassassin libxml-writer-perl
   ```
 
-* 内 **serverConf.xml** ファイル ( `/usr/local/[INSTALL]/nl6/conf/`)、 **spamCheck** 行を次に示します。
+* Adobe Analytics の **serverConf.xml** ファイル ( `/usr/local/[INSTALL]/nl6/conf/`)、 **spamCheck** 行を次に示します。
 
   ```
   <spamCheck command="perl
@@ -171,7 +172,7 @@ cpan Mail::SpamAssassin
 
 ### フィルタールールを更新中 {#updating-filter-rules}
 
-フィルタールールは、 **sa-update** ツール SpamAssassin の公式 Web サイトを参照してください。 [https://spamassassin.apache.org/](https://spamassassin.apache.org/) を参照してください。
+フィルタールールは、 **sa-update** ツールを使用します。 SpamAssassin の公式 Web サイトを参照してください。 [https://spamassassin.apache.org/](https://spamassassin.apache.org/) を参照してください。
 
 Debian では、更新は毎日自動的におこなわれます。
 

@@ -2,16 +2,17 @@
 product: campaign
 title: モジュールおよびよくある問題
 description: モジュールおよびよくある問題
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring, Troubleshooting
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: dbd50178-0a16-46ed-bfad-47beb3c2a420
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 8%
+source-wordcount: '280'
+ht-degree: 14%
 
 ---
 
@@ -36,7 +37,7 @@ ht-degree: 8%
    <td> この書き出しをスケジュールしたオペレーターは、再度開始する必要があります。 デルタまたはフル再起動。<br /> </td> 
   </tr> 
   <tr> 
-   <td> インポート </td> 
+   <td> 読み込み </td> 
    <td> インポートプロセスの実行<br /> </td> 
    <td> この書き出しをスケジュールしたオペレーターは、再度開始する必要があります。 データベースで重複を確認します。<br /> </td> 
   </tr> 
@@ -58,7 +59,7 @@ ht-degree: 8%
   <tr> 
    <td> syslogd </td> 
    <td> ログの書き込み<br /> </td> 
-   <td> ログファイルに一部のログがない場合は、モジュールがポート 6666 を使用していることを確認します。 参照： <a href="../../production/using/general-architecture.md#list-of-open-ports" target="_blank">オープンポートのリスト</a>.<br /> </td> 
+   <td> ログファイルに一部のログがない場合は、モジュールがポート 6666 を使用していることを確認します。 参照： <a href="../../production/using/general-architecture.md#list-of-open-ports" target="_blank">オープン・ポートのリスト</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> tracking </td> 

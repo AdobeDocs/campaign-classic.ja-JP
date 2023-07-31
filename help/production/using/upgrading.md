@@ -2,16 +2,17 @@
 product: campaign
 title: 新しいビルドへのアップグレード
 description: 新しいビルドにアップグレードするための技術的な手順を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring, Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 15%
+source-wordcount: '1197'
+ht-degree: 16%
 
 ---
 
@@ -73,7 +74,7 @@ Windows 環境で、次の手順に従ってAdobe Campaignを新しいビルド�
 
    このファイルをダウンロードするには、 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?lang=ja) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
 
-1. インストールモードを選択します。選択 **[!UICONTROL 更新または修復]**
+1. インストールモードを選択します。次を選択します。 **[!UICONTROL 更新または修復]**
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 1. 「**[!UICONTROL 終了]**」をクリックします。
 
@@ -117,7 +118,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 * [更新を実行](#perform-an-update),
 * [Web サーバーを再起動します。](#reboot-the-web-server).
 
-[クライアントコンソールの可用性の詳細](../../installation/using/client-console-availability-for-windows.md).
+[クライアントコンソールの可用性の詳細を説明します](../../installation/using/client-console-availability-for-windows.md).
 
 >[!NOTE]
 >
@@ -125,7 +126,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 ### 更新されたパッケージの取得 {#obtain-updated-packages}
 
-まず、更新されたAdobe Campaignの両方のパッケージを復元します。接続先 [ソフトウェア配布ポータル](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
+まず、更新されたAdobe Campaignの両方のパッケージを復元します。 [ソフトウェア配布ポータル](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
 
 ファイルは **nlserver6-v7-XXX.rpm**
 
@@ -157,7 +158,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 >[!NOTE]
 >
->完全なインストール手順については、 [この節](../../installation/using/installing-campaign-standard-packages.md). リソースは自動的に同期されますが、エラーが発生しなかったことを確認する必要があります。 詳しくは、 [アップグレードの競合を解決](#resolving-upgrade-conflicts).
+>完全なインストール手順について詳しくは、 [この節](../../installation/using/installing-campaign-standard-packages.md). リソースは自動的に同期されますが、エラーが発生しなかったことを確認する必要があります。 詳しくは、 [アップグレードの競合を解決](#resolving-upgrade-conflicts).
 
 ### Web サーバーを再起動します。 {#reboot-the-web-server}
 
@@ -171,7 +172,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 >[!IMPORTANT]
 >
->* スクリプトは **httpd** の代わりに **apache**.
+>* スクリプトは、 **httpd** の代わりに **apache**.
 >* 次の応答が返されるまで、このコマンドを実行する必要があります。
 >
 >   この操作は、Apache が新しいライブラリを適用するために必要です。
@@ -203,7 +204,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
   リソースの競合に関する警告は、見落とさないように注意して、解決してください。
 
-* この **postupgrade_`<server version number>_<time of postupgrade>`.log** ログファイルには、同期結果が含まれます。 デフォルトでは、次のディレクトリで使用できます。 **`<installation directory>/var/<instance/postupgrade`**. エラーと警告はそれぞれエラーと警告の属性で明示されます。
+* The **postupgrade_`<server version number>_<time of postupgrade>`.log** ログファイルには、同期結果が含まれます。 デフォルトでは、次のディレクトリで使用できます。 **`<installation directory>/var/<instance/postupgrade`**. エラーと警告はそれぞれエラーと警告の属性で明示されます。
 
 ### 競合の解決 {#resolving-conflicts}
 
@@ -214,9 +215,9 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 競合を解決する方法は 3 つあります。
 
-* **[!UICONTROL 解決済みとして宣言]** :事前にユーザーの操作が必要です。
+* **[!UICONTROL 解決済みとして宣言]** ：事前にユーザーの操作が必要です。
 * **[!UICONTROL 新しいバージョンを承認]** :Adobe Campaignで提供されるリソースがユーザーによって変更されていない場合に推奨されます。
-* **[!UICONTROL 現在のバージョンを保持]** :は、更新が却下されたことを示します。
+* **[!UICONTROL 現在のバージョンを保持]** ：更新が却下されたことを示します。
 
   >[!IMPORTANT]
   >
@@ -245,7 +246,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 ### Windows {#in-windows-1}
 
-Adobe Campaignアプリケーションサーバーがインストールされているマシン上 (**nlserver web**)、ダウンロード、ファイルのコピー  **setup-client-6.XXX.exe** i n **[アプリケーションのパス]/datakit/nl/eng/jsp**.
+Adobe Campaignアプリケーションサーバーがインストールされているマシン上 (**nlserver web**)、ダウンロード、ファイルをコピーします。  **setup-client-6.XXX.exe** i n **[アプリケーションのパス]/datakit/nl/eng/jsp**.
 
 次回クライアントコンソールを接続する際には、更新の可用性に関する情報がウィンドウに表示され、更新をダウンロードしてインストールできるようになります。
 

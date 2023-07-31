@@ -2,16 +2,17 @@
 product: campaign
 title: データベースの作成と設定
 description: データベースの作成と設定
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 1%
+source-wordcount: '1367'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +20,8 @@ ht-degree: 1%
 
 データベースを作成する場合、Adobe Campaignには次の 2 つの異なるオプションが用意されています。
 
-1. データベースの作成またはリサイクル：新しいデータベースを作成する場合や、既存のデータベースを再利用する場合は、このオプションを選択します。 参照： [例 1:データベースの作成/リサイクル](#case-1--creating-recycling-a-database).
-1. 既存のデータベースを使用する場合：管理者が空のデータベースを既に作成していて、それを使用する場合は、このオプションを選択します。または既存のデータベースの構造を拡張する場合に使用します。 参照： [例 2:既存のデータベースの使用](#case-2--using-an-existing-database).
+1. データベースの作成またはリサイクル：新しいデータベースを作成する場合や、既存のデータベースを再利用する場合は、このオプションを選択します。 参照： [ケース 1：データベースの作成/リサイクル](#case-1--creating-recycling-a-database).
+1. 既存のデータベースの使用：管理者が空のデータベースを作成済みで、そのデータベースを使用する場合、または既存のデータベースの構造を拡張する場合は、このオプションを選択します。 参照： [ケース 2：既存のデータベースの使用](#case-2--using-an-existing-database).
 
 設定手順は以下で説明します。
 
@@ -30,7 +31,7 @@ ht-degree: 1%
 >
 >次の項目のみ **内部** 識別子は、これらの操作を実行できます。 詳しくは、[この節](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
-## 例 1:データベースの作成/リサイクル {#case-1--creating-recycling-a-database}
+## ケース 1：データベースの作成/リサイクル {#case-1--creating-recycling-a-database}
 
 データベースを作成する手順、または既存のベースを再利用する手順を次に示します。 一部の設定は、使用するデータベースエンジンによって異なります。
 
@@ -59,7 +60,7 @@ ht-degree: 1%
 
 * の **Oracle** エンジン、 **TNS 名** アプリケーションサーバー用に定義されます。
 * の **PostgreSQL** または **DB2** エンジンでは、データベースサーバーにアクセスするには、アプリケーションサーバーで定義された DNS 名（または IP アドレス）を指定する必要があります。
-* の **Microsoft SQL Server** エンジンは、次を定義する必要があります。データベースサーバーにアクセスするためにアプリケーションサーバーで定義された DNS 名（または IP アドレス）: **DNS** または **DNS`\<instance>`** （インスタンスモード）、
+* の **Microsoft SQL Server** エンジン、次を定義する必要があります。データベース・サーバにアクセスするには、アプリケーション・サーバで定義された DNS 名（または IP アドレス）を定義します。 **DNS** または **DNS`\<instance>`** （インスタンスモード）、
 
   >[!CAUTION]
   >
@@ -69,7 +70,7 @@ ht-degree: 1%
 
 ### 手順 2 — サーバーへの接続 {#step-2---connecting-to-the-server}
 
-内 **[!UICONTROL サーバーアクセス]** ウィンドウで、データベース・サーバ・アクセスを定義します。
+Adobe Analytics の **[!UICONTROL サーバーアクセス]** ウィンドウで、データベース・サーバ・アクセスを定義します。
 
 ![](assets/s_ncs_install_db_oracle_creation02.png)
 
@@ -97,7 +98,7 @@ ht-degree: 1%
 * このデータベースにリンクされているアカウントのパスワードを入力します。
 * データベースが Unicode である必要があるかどうかを示します。
 
-  この **[!UICONTROL Unicode データベース]** 「 」オプションを使用すると、言語に関係なく、すべての文字タイプを Unicode で保存できます。
+  The **[!UICONTROL Unicode データベース]** 「 」オプションを使用すると、言語に関係なく、すべての文字タイプを Unicode で保存できます。
 
   >[!NOTE]
   >
@@ -119,21 +120,21 @@ ht-degree: 1%
 
 ### 手順 5 — 作成手順 {#step-5---creation-steps}
 
-この **[!UICONTROL 作成ステップ]** ウィンドウでは、テーブルの作成に使用する SQL スクリプトを表示および編集できます。
+The **[!UICONTROL 作成ステップ]** ウィンドウでは、テーブルの作成に使用する SQL スクリプトを表示および編集できます。
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
 * oracle、Microsoft SQL Server または PostgreSQL データベースの場合、管理者は **ストレージパラメーター** データベースオブジェクトを作成する際に使用します。
 
-  これらのパラメータは、正確な表領域名を受け取ります ( 警告：大文字と小文字を区別します )。 それぞれ、 **[!UICONTROL 管理/プラットフォーム/オプション]** ノードを次のオプションに設定します ( [この節](../../installation/using/configuring-campaign-options.md#database)):
+  これらのパラメータは、正確なテーブル領域名を受け取ります（警告：大文字と小文字を区別）。 それぞれ、 **[!UICONTROL 管理/プラットフォーム/オプション]** ノードを次のオプションに設定します ( [この節](../../installation/using/configuring-campaign-options.md#database)):
 
-   * **WdbcOptions_TableSpaceUser**:スキーマに基づくユーザーテーブル
-   * **WdbcOptions_TableSpaceIndex**:スキーマに基づくユーザーテーブルのインデックス
-   * **WdbcOptions_TableSpaceWork**:スキーマのない作業用テーブル
-   * **WdbcOptions_TableSpaceWorkIndex**:スキーマのない作業用テーブルのインデックス
+   * **WdbcOptions_TableSpaceUser**：スキーマに基づくユーザーテーブル
+   * **WdbcOptions_TableSpaceIndex**：スキーマに基づくユーザーテーブルのインデックス
+   * **WdbcOptions_TableSpaceWork**：スキーマのない作業用テーブル
+   * **WdbcOptions_TableSpaceWorkIndex**：スキーマのない作業用テーブルのインデックス
 
 * oracleデータベースの場合、Adobe Campaignユーザーは、通常、Oracleライブラリ ( **oinstall** グループ化します。
-* この **[!UICONTROL 管理者パスワードを設定または変更する]** 「 」オプションを使用すると、Adobe Campaignオペレーターにリンクされているパスワードを管理者権限で入力できます。
+* The **[!UICONTROL 管理者パスワードを設定または変更する]** 「 」オプションを使用すると、Adobe Campaignオペレーターにリンクされているパスワードを管理者権限で入力できます。
 
   セキュリティ上の理由から、Adobe Campaignアカウント管理者のパスワードを定義することをお勧めします。
 
@@ -147,7 +148,7 @@ ht-degree: 1%
 
 次に、デプロイウィザードを起動して、インスタンスの設定を完了する必要があります。 参照： [デプロイウィザード](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
-インスタンスにリンクされたデータベースの接続設定は、ファイルに保存されます **`/conf/config-<instance>.xml`** は、Adobe Campaignインストールディレクトリにあります。
+インスタンスにリンクされたデータベースの接続設定は、ファイルに保存されます。 **`/conf/config-<instance>.xml`** は、Adobe Campaignインストールディレクトリにあります。
 
 base61 データベース上のMicrosoft SQL Server の設定で、暗号化されたパスワードを使用して「campaign」アカウントにリンクされている場合の例：
 
@@ -155,11 +156,11 @@ base61 データベース上のMicrosoft SQL Server の設定で、暗号化さ�
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>
 ```
 
-## 例 2:既存のデータベースの使用 {#case-2--using-an-existing-database}
+## ケース 2：既存のデータベースの使用 {#case-2--using-an-existing-database}
 
 データベースおよびユーザーは、データベース管理者によって作成され、アクセス権が正しく設定されている必要があります。
 
-例えば、Oracle・データベースの場合、最低限必要な権限は次のとおりです。CONNECT、リソース、および無制限のテーブル領域を付与します。
+たとえば、Oracle・データベースの場合、必要な最小の権限は、GRANTCONNECT、RESOURCE および UNLIMITED TABLESPACE です。
 
 既存のデータベースを使用する場合の設定手順は次のとおりです。
 
@@ -192,7 +193,7 @@ base61 データベース上のMicrosoft SQL Server の設定で、暗号化さ�
 
 ### 手順 2 — データベース接続の設定 {#step-2---database-connection-settings}
 
-内 **[!UICONTROL データベース]** ウィンドウで、データベース接続設定を定義します。
+Adobe Analytics の **[!UICONTROL データベース]** ウィンドウで、データベース接続設定を定義します。
 
 ![](assets/s_ncs_install_db_oracle_exists_02.png)
 
@@ -218,13 +219,13 @@ base61 データベース上のMicrosoft SQL Server の設定で、暗号化さ�
 
 ### 手順 4 — 作成手順 {#step-4---creation-steps}
 
-この **[!UICONTROL 作成ステップ]** ウィンドウでは、テーブルの作成に使用する SQL スクリプトを表示および編集できます。
+The **[!UICONTROL 作成ステップ]** ウィンドウでは、テーブルの作成に使用する SQL スクリプトを表示および編集できます。
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
 * oracle、Microsoft SQL Server または PostgreSQL データベースの場合、管理者は **ストレージパラメーター** データベースオブジェクトを作成する際に使用します。
 * oracleデータベースの場合、Adobe Campaignユーザーは、通常、Oracleライブラリ ( **oinstall** グループ化します。
-* この **[!UICONTROL 管理者パスワードを設定または変更する]** 「 」オプションを使用すると、Adobe Campaignオペレーターにリンクされているパスワードを管理者権限で入力できます。
+* The **[!UICONTROL 管理者パスワードを設定または変更する]** 「 」オプションを使用すると、Adobe Campaignオペレーターにリンクされているパスワードを管理者権限で入力できます。
 
   セキュリティ上の理由から、Adobe Campaignアカウント管理者のパスワードを定義することをお勧めします。
 
@@ -238,7 +239,7 @@ base61 データベース上のMicrosoft SQL Server の設定で、暗号化さ�
 
 次に、デプロイウィザードを起動して、インスタンスの設定を完了する必要があります。 参照： [デプロイウィザード](../../installation/using/deploying-an-instance.md#deployment-wizard).
 
-インスタンスにリンクされたデータベースの接続設定は、ファイルに保存されます **`/conf/config-<instance>.xml`** は、Adobe Campaignインストールディレクトリにあります。
+インスタンスにリンクされたデータベースの接続設定は、ファイルに保存されます。 **`/conf/config-<instance>.xml`** は、Adobe Campaignインストールディレクトリにあります。
 
 base61 データベース上のMicrosoft SQL Server の設定で、暗号化されたパスワードを使用して「campaign」アカウントにリンクされている場合の例：
 

@@ -2,16 +2,17 @@
 product: campaign
 title: 設定の適応
 description: Campaign v7 への移行の前後に設定を適応させる方法を説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
 hide: true
 hidefromtoc: true
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '479'
 ht-degree: 4%
 
 ---
@@ -22,12 +23,12 @@ ht-degree: 4%
 
 Adobe Campaign v7 の大きな変更の一部には、特定の設定が必要です。 これらの設定は、移行の前または後に必要になる場合があります。
 
-移行中に、 **NmsRecipient** スキーマ定義からテーブルが再構築されます。 このテーブルの SQL 構造に対してAdobe Campaign以外で行われた変更は失われます。
+移行中に、 **NmsRecipient** スキーマ定義からテーブルが再構築されます。 このテーブルの SQL 構造に対してAdobe Campaign以外でおこなわれた変更は失われます。
 
 チェックする要素の例：
 
 * 列（またはインデックス）を **NmsRecipient** テーブルが作成されましたが、スキーマで詳細を指定していない場合、これは保存されません。
-* この **テーブル領域** 属性は、デフォルトで、その値を取り戻します。つまり、デプロイウィザードで定義された値です。
+* The **テーブル領域** 属性は、デフォルトで、その値を取り戻します。つまり、デプロイウィザードで定義された値です。
 * 参照ビューを **NmsRecipient** テーブルの上にマウスポインターを置いて、移行する前に削除する必要があります。
 
 
@@ -90,7 +91,7 @@ Adobe Campaign v7 に移行する際に、次の要素を設定する必要が�
 
 * 構文
 
-  構文に関するエラーが発生した場合は、アップグレード後に、 **allowSQLInjection** オプション **serverConf.xml** ファイルを書き換える時間を提供します。 コードを変更したら、必ずセキュリティを再アクティブ化してください。
+  構文に関するエラーが発生した場合は、アップグレード後に、 **allowSQLInjection** オプションを **serverConf.xml** ファイルを書き換える時間を提供します。 コードを変更したら、必ずセキュリティを再アクティブ化してください。
 
 * 競合
 

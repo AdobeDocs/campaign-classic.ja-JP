@@ -2,16 +2,17 @@
 product: campaign
 title: データベースのパフォーマンス
 description: データベースのパフォーマンス
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 8%
+source-wordcount: '515'
+ht-degree: 11%
 
 ---
 
@@ -32,7 +33,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->以下を参照してください。 [Adobe Campaign Hardware Sizing ガイド](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html) インサイト用
+>以下を参照してください。 [Adobe Campaign Hardware Sizing ガイド](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html) インサイト用。
 
 ## Platform の設定 {#platform-configuration}
 
@@ -60,22 +61,22 @@ ht-degree: 8%
 
 **作業用テーブルの管理**
 
-作業用テーブルの数とサイズを確認してください。 特定のサイズを超えると、データベースのパフォーマンスに影響します。 これらのテーブルは、ワークフローと配信によって作成されます。 ワークフローと配信がアクティブな間、これらはデータベースに残ります。 作業用テーブルのサイズを制限するには、次の操作を実行します。
+作業用テーブルの数とサイズを確認してください。 特定のサイズを超えると、データベースのパフォーマンスに影響が及びます。 これらのテーブルは、ワークフローと配信によって作成されます。 ワークフローと配信がアクティブな間、これらはデータベースに残ります。 作業用テーブルのサイズを制限するには、次の操作を実行します。
 
 * 次のステータスの配信を停止または削除します。 **[!UICONTROL 失敗]**, **[!UICONTROL 処理中]**, **[!UICONTROL 配信準備完了]**&#x200B;または **[!UICONTROL 一時停止]**.
 * エラーが原因で一時停止したワークフローを停止または削除します。
-* 次の項目を含まないテストに使用されるすべてのワークフローを停止 **[!UICONTROL 終了]** その状態が残っている活動 **[!UICONTROL 一時停止]**.
+* 次の項目を含まないテストに使用されるすべてのワークフローを停止 **[!UICONTROL 終了]** 活動とその状態が残っている **[!UICONTROL 一時停止]**.
 
 >[!IMPORTANT]
 >
->操作に時間がかかり、大量の空き容量が解放される場合は、詳細なメンテナンス（インデックスの再構築など）が必要です。 詳しくは、[この節](../../production/using/recommendations.md)を参照してください。
+>操作に時間がかかり、大量の空き容量が解放される場合は、詳細なメンテナンス（インデックスの再構築など）が必要となります。 詳しくは、[この節](../../production/using/recommendations.md)を参照してください。
 
 **Adobe Campaignプロセス監視**
 
 Adobe Campaignのインストール設定に応じて、プラットフォームの監視には次の 2 つのツールを使用できます。
 
-* インスタンス実稼動ページ。 詳しくは、 [手動監視](../../production/using/monitoring-processes.md#manual-monitoring).
-* この *netreport* スクリプト 詳しくは、 [Adobe Campaignスクリプトを使用した自動監視](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
+* インスタンスの実稼動ページ。 詳しくは、 [手動監視](../../production/using/monitoring-processes.md#manual-monitoring).
+* The *netreport* スクリプト。 詳しくは、 [Adobe Campaignスクリプトを使用した自動監視](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
 
 ## 詳細 {#specifics}
 

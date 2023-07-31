@@ -2,15 +2,16 @@
 product: campaign
 title: ビルドのアップグレードの基本を学ぶ
 description: 新しいビルドにアップグレードするための主な手順を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring, Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2380'
 ht-degree: 53%
 
 ---
@@ -38,7 +39,7 @@ ht-degree: 53%
 ![](assets/do-not-localize/icon_planification.png)
 
 ビルドのアップグレードを開始する前に、以下に示すように、完全な準備を行う必要があります。
-システムをアップグレードする準備が整うと、ビルドのアップグレードが行われます **少なくとも** 2 時間。
+システムをアップグレードする準備が整うと、ビルドのアップグレードが行われます。 **少なくとも** 2 時間。
 
 ビルドのアップグレードをおこなうには、以下のリソースが必要です。
 
@@ -53,7 +54,7 @@ ht-degree: 53%
 
 1. アップグレードには、少なくとも 2 時間確保しておく。
 1. アドビおよびお客様側担当者の連絡先詳細を配布しておく。
-1. ホストされたインスタンスの場合：Adobeとお客様のスタッフが、アップグレードの時間と実行者を調整します。
+1. ホストインスタンスの場合：Adobeと顧客スタッフが、アップグレードの時間と実行者を調整します。
 1. オンプレミスのインスタンスの場合：お客様側担当者がすべてのプロセスを管理します。カスタマイズされたワークフローや配信ロジックのテスト時にサポートが必要な場合は、コンサルティングサービスを依頼してください。
 1. アップグレード先のAdobe Campaignのバージョンを決定して確認します。 [Adobe Campaign Classicリリースノート](../../rn/using/rn-overview.md).
 1. アップグレードの実行可能ファイルがあることを確認します。
@@ -62,19 +63,19 @@ ht-degree: 53%
 
 ビルドのアップグレードプロセスには、以下の担当者が関与している必要があります。
 
-* Adobeアーキテクト：ホスト型またはハイブリッド型のアーキテクチャの場合、アーキテクトはAdobe Campaign Client Care と連携する必要があります。
+* Adobeアーキテクト：ホストアーキテクチャまたはハイブリッドアーキテクチャの場合、アーキテクトはAdobe Campaign Client Care と連携する必要があります。
 
 * プロジェクトマネージャー：
-   * オンプレミスインストールの場合：お客様の社内プロジェクトリーダーがアップグレードをリードし、ライフサイクルテストを管理します。
+   * オンプレミスでのインストールの場合：お客様の内部プロジェクトリーダーがアップグレードをリードし、ライフサイクルテストを管理します。
 
-   * ホストインストールの場合：ホスティングチームは、Adobe Campaign Client Care チームおよびお客様と連携して、すべてのインスタンスについてアップグレードのスケジュールを調整します。
+   * ホストインストールの場合：ホスティングチームがAdobe Campaign Client Care チームおよびお客様と連携し、すべてのインスタンスについてアップグレードのスケジュールを調整します。
 
 * Adobe Campaign 管理者：:
    * オンプレミスインストールの場合：管理者がアップグレードを実行します。
 
-   * ホストインストールの場合：ホスティングチームがアップグレードを実行します。
+   * ホスト版の場合：ホスティングチームがアップグレードを実行します。
 
-* Adobe Campaign operator\marketing user:オペレーターは、開発用、テスト用および本番用のインスタンスに対してテストを実行します。
+* Adobe Campaign operator\marketing user: operator が開発用、テスト用、本番用の各インスタンスのテストを実行します。
 
 ### ビルドのアップグレードを準備する
 
@@ -93,17 +94,17 @@ ht-degree: 53%
 * **nlserver pdump**：実行中のプロセスのリストを表示します
 * **nlserver pdump -who**：アクティブなクライアントセッションのリストを表示します
 * **nlserver monitor -missing**：不足しているプロパティのリストを表示します
-* **nlserver start process@instance-name**:プロセスを開始
-* **nlserver stop process@instance-name**:プロセスを停止します
-* **nlserver restart process@instance-name**:プロセスを再起動します
-* **nlserver shutdown**:すべてのキャンペーンプロセスを停止します
+* **nlserver start process@instance-name**：プロセスを開始します
+* **nlserver stop process@instance-name**：プロセスを停止します。
+* **nlserver restart process@instance-name**：プロセスを再開します。
+* **nlserver shutdown**：すべての Campaign プロセスを停止します。
 * **nlserver watchdog -svc**：ウォッチドッグを開始します（UNIX のみ）
 
 ## アップグレードの実行
 
 ![](assets/do-not-localize/icon_process.png)
 
-以下の手順は、次の場合にのみ実行されます： **オンプレミス** 顧客。 ホスト版のお客様については、ホスティングチームがこの作業を実行します。Adobe Campaignを新しいビルドに更新するには、詳細な手順を以下に示します。
+以下の手順は、次の場合にのみ実行されます。 **オンプレミス** 顧客。 ホスト版のお客様については、ホスティングチームがこの作業を実行します。Adobe Campaignを新しいビルドに更新するには、詳細な手順を以下に示します。
 
 ### 環境を複製
 
@@ -115,7 +116,7 @@ ht-degree: 53%
 
 1. 作成したコピーを、移行先となる環境のすべてのインスタンス上に復元します。
 
-1. を実行します。 **nms:freezeInstance.js** 起動前のターゲット環境の警告スクリプト。 これにより、外部とやり取りするすべてのプロセスが停止します。ログ、トラッキング、配信、キャンペーンワークフローなど
+1. を実行します。 **nms:freezeInstance.js** 起動前のターゲット環境の警告スクリプト。 これにより、ログ、トラッキング、配信、キャンペーンワークフローなど、外部とやり取りするすべてのプロセスが停止します。
 
    ```
    nlserverjavacsriptnms:freezeInstance.js–instance:<dev> -arg:run
@@ -233,7 +234,7 @@ Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
 1. パッケージのエクスポート:
    * クライアントパッケージの書き出しツールを使用してパッケージを書き出す
    * スキーマパッケージをインポート
-   * クライアントを切断して再接続します
+   * クライアントを切断して再接続します。
    * データベースを更新
    * 接続を解除して再接続します。
    * 管理パッケージをインポート
@@ -268,7 +269,7 @@ Setup-client-7.xxxx.exe in [path of the application]\datakit\nl\en\jsp
 
 同期結果を確認する必要があります。 ここで紹介する手順はオンプレミス版のお客様のみを対象にしています。ホスト版のお客様については、ホスティングチームがこの作業を実行します。同期結果の表示方法は 2 つあります。
 
-コマンドラインインターフェイスでは、エラーは 3 つの山形記号「>>>」で具体化され、同期は自動的に停止します。 警告は二重山形記号「>>」で具体化され、同期が完了したら解決する必要があります。 ポストアップグレードの最後に概要がコマンドプロンプトで表示されます。以下はその一例です。
+コマンドラインインターフェイスでは、エラーは 3 つの山形記号「>>>」で実現され、同期は自動的に停止します。 警告は二重山形記号「>>」で具体化され、同期が完了したら解決する必要があります。 ポストアップグレードの最後に概要がコマンドプロンプトで表示されます。以下はその一例です。
 
 ```
 YYYY-MM-DD HH:MM:SS.749Z 00002E7A 1 info log =========Summary of the update==========
@@ -281,7 +282,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 リソースの競合に関する警告は、見落とさないように注意して、解決してください。
 
-この **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** ファイルには同期結果が含まれます。 デフォルトでは、次のディレクトリで使用できます。 **installationDirectory/var/`<instance-name>`/postupgrade**. エラーと警告はそれぞれエラーと警告の属性で明示されます。
+The **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** ファイルには同期結果が含まれます。 デフォルトでは、次のディレクトリで使用できます。 **installationDirectory/var/`<instance-name>`/postupgrade**. エラーと警告はそれぞれエラーと警告の属性で明示されます。
 
 ### 競合を分析
 
@@ -308,7 +309,7 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 
 **新しいビルドで変更されたオブジェクトかどうかの確認**
 
-1. 「常習犯」の仕業かもしれません。組み込みの Web アプリケーションまたはレポート ( 例：「deliveryValidation」、「deliveryOverview」、「budget」)。
+1. 「常習犯」の仕業かもしれません。組み込みの Web アプリケーションまたはレポート（例：「deliveryValidation」、「deliveryOverview」、「budget」）。
 1. 変更ログを見て更新がないかを調べます。
 1. Adobe Campaignの専門家に聞いてみてください。
 1. コードに対して「差分表示」を実行します。
@@ -353,23 +354,23 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 
 結合には様々なタイプがあります。
 
-1. 簡易マージ：カスタム要素と新しい要素は小さく、無関係で、コーディングは不要です。
+1. 簡単な結合：カスタム要素と新しい要素は小さく、無関係で、コーディングは不要です。
 1. 変更なし：新しいバージョンを承認します。最終更新日のみ変更され、コメント、タブ、スペース、新規行のみ反映されます（例：意図しない保存）。
 1. 軽微な変更：1 行のみ変更されます（例：xpathToLoad）。
 1. 高度な結合：コーディングが必要な場合です。開発に関するスキルが必要です。詳しくは、 [複雑な結合](#complex-merges).
 
 #### 結合方法
 
-1. 3 つのバージョンをすべて取得する：元のバージョン、新しいバージョンおよびカスタムバージョン。
-1. 元のバージョンと新しいバージョンの「差分」を実行します。
+1. 3 つのバージョン（元のバージョン、新しいバージョン、カスタムバージョン）をすべて取得します。
+1. 元のバージョンと新しいバージョンの間で「差分」を実行します。
 1. 変更を抽出します。
 1. 変更がない場合、現在のバージョンを維持して競合を解決します。
 
 #### コードの場所
 
-1. 組み込みコードは、datakit フォルダー内の XML ファイルに保存されます。 競合しているオブジェクトに対応する XML ファイルを探します。例：installationDirectory\datakit\nms\fra\form\recipient.xml
-1. 元のバージョンを取得：経由 [ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html) または製品のアップグレードされていない別のインストール。
-1. 新しいバージョンを取得します。経由 [ダウンロードセンター](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html) またはお客様がインストールしたファイル。
+1. 組み込みコードは、datakit フォルダー内の XML ファイルに保存されます。 競合しているオブジェクトに対応する XML ファイルを探します。例： installationDirectory\datakit\nms\fra\form\recipient.xml
+1. 元のバージョンの取得：を使用 [ダウンロードセンター](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html) または製品のアップグレードされていない別のインストール。
+1. 新しいバージョンの取得：経由で [ダウンロードセンター](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html) またはお客様がインストールしたファイル。
 1. カスタムバージョンの取得：Campaign クライアント内からオブジェクトのソースコードを取得します。
 
 ### 差分表示の実行方法
@@ -383,8 +384,8 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 
 1. カスタムバージョンから着手します。
 1. 変更を適用します。
-1. 解決済みと宣言して、競合を解決します。
-1. 不回帰を確認します。
+1. 解決済みとして宣言して、競合を解決します。
+1. 非回帰性を確認します。
 
 手動で競合を解決する場合の手順は以下のとおりです。
 
@@ -395,15 +396,15 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 
 #### 高度な結合{#complex-merges}
 
-1. 変更の内容を理解する：変更をリバースエンジニアリングし、変更ログを調べ、Adobe Campaignの専門家にフォローアップします。
+1. 変更の内容を理解します。変更のリバースエンジニアリング、変更ログの調査、Adobe Campaignの専門家へのフォローアップを行います。
 1. 変更の処理を決定します。
-1. カスタマイズの機能を理解します。変更をリバースエンジニアリングする
+1. カスタマイズの内容を理解する：変更をリバースエンジニアリングします。
 
 以下は高度な結合を実行する際の手順です。
 
 1. 変更セットからコードのビットをコピーする
-1. カスタマイズしたバージョンに貼り付けます
-1. カスタマイズの不回帰のテスト
+1. カスタマイズしたバージョンに貼り付けます。
+1. カスタマイズの不回帰性のテスト
 1. 変更の機能のテスト
 1. ユーザー受け入れテストの実行
 1. テスト環境で実行します。
@@ -418,4 +419,4 @@ The document with identifier ‘stockOverview’ and type ‘nms:webApp’ is in
 * [ビルドのアップグレードに関する FAQ](../../platform/using/faq-build-upgrade.md)
 * [Campaign Classic リリースノート](../../rn/using/rn-overview.md)
 * [Campaign Classic のヘルプとサポートのオプション](../../support.md)
-* [Campaign 年別アップグレードプログラム](../../rn/using/rn-overview.md)
+* [Campaign の年別アップグレードプログラム](../../rn/using/rn-overview.md)

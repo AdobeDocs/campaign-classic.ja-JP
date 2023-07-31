@@ -2,15 +2,16 @@
 product: campaign
 title: SAP HANA へのアクセスを設定する
 description: FDA でSAP HANAへのアクセスを設定する方法
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 39bfe775-e182-4a0b-ad3c-b7a901297c90
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 71%
+source-wordcount: '285'
+ht-degree: 69%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 71%
 キャンペーンを使用 [Federated Data Access](../../installation/using/about-fda.md) (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、SAP HANAへのアクセスを設定します。
 
 1. 設定 [SAP HANAデータベース](#sap-config)
-1. SAP HANA [外部アカウント](#sap-external) キャンペーン内
+1. SAP HANA [外部アカウント](#sap-external) Campaign 内
 
 ## SAP HANAドライバ {#sap-config}
 

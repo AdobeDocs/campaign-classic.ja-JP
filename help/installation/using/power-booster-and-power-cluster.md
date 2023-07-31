@@ -2,14 +2,15 @@
 product: campaign
 title: パワーブースターとパワークラスター
 description: パワーブースターとパワークラスター
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '407'
 ht-degree: 7%
 
 ---
@@ -71,20 +72,20 @@ Adobe Campaignには、配置の寸法を記入するための、パッケージ
   <tr> 
    <td> セキュリティ<br /> </td> 
    <td> データマートは、潜在的にパブリックインターネットからアクセス可能です<br /> </td> 
-   <td> データマートは、正面の、インターネットに接続するコンポーネントから切り離されています<br /> </td> 
-   <td> データマートは、正面の、インターネットに接続するコンポーネントから切り離されています<br /> </td> 
+   <td> データマートは、正面の、インターネットに接続するコンポーネントから切り離されています。<br /> </td> 
+   <td> データマートは、正面の、インターネットに接続するコンポーネントから切り離されています。<br /> </td> 
   </tr> 
   <tr> 
    <td> デプロイメントテンプレート<br /> </td> 
-   <td> すべて 1 つのサイト（オンプレミスまたはクラウド内）で実行<br /> </td> 
+   <td> すべて 1 つのサイト（オンプレミスまたはクラウド内）で実行できます。<br /> </td> 
    <td> クラウドでの実行が可能なオンプレミスマーケティング<br /> </td> 
-   <td> クラウドでの実行を含むオンプレミスマーケティング可能な異なる地域での実行<br /> </td> 
+   <td> クラウドでの実行を含むオンプレミスマーケティング。可能な異なる地域での実行<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 推奨事項 {#recommendations}
 
-* 実行インスタンスは、サービス専用である必要があります。 購読していないサービス用のパッケージはインストールできません。 例えば、 **パワーブースター** オプション **Message Center** サービス、インストールできるのは **[!UICONTROL トランザクションメッセージの実行]** パッケージを専用の実行インスタンス上に配置します。 使用許諾契約書を確認してください。
+* 実行インスタンスは、サービス専用である必要があります。 購読していないサービス用のパッケージはインストールできません。 例えば、 **パワーブースター** オプション **Message Center** サービス、インストールできるのは **[!UICONTROL トランザクションメッセージの実行]** パッケージを専用の実行インスタンス上に置きます。 使用許諾契約書を確認してください。
 * 専用インスタンス（またはクラスター）はAdobe Campaignインスタンスなので、レコメンデーションはメインインスタンスの場合と同じです。 詳しくは、 [このドキュメント](../../production/using/foreword.md).
 * データベース/ハードウェアコンポーネントの観点からインスタンスを適切に設定するには、Adobe Campaign Professional Services にお問い合わせください。

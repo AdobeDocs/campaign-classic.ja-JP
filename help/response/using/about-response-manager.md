@@ -2,13 +2,14 @@
 product: campaign
 title: Response Manager について
 description: Response Manager について
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Campaigns
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: b5c0e960-2afe-4a98-b82c-d47a74659703
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +21,7 @@ Adobe Campaign では、マーケティングキャンペーンの成功や収�
 
 ## 仮説 {#hypothesis-concept}
 
-配信受信後のターゲットの行動を推測するために、コンタクト日から指定の期間に仮説を設定できます。仮説は、購入と購入の詳細情報を保存する「**トランザクション**」テーブルに基づいて作成されます。
+配信受信後のターゲットの行動を推測するために、連絡日から指定の期間に仮説を設定できます。仮説は、購入と購入の詳細情報を保存する「**トランザクション**」テーブルに基づいて作成されます。
 
 仮説は時間で制限されます。また、コントロール母集団に適用してターゲット母集団と比較することができます。仮説の結果は&#x200B;**指標**&#x200B;で表示されます。指標は、計算完了時に自動的に更新されます。キャンペーンレポートでは、仮説にリンクされた ROI が考慮されます。
 

@@ -1,17 +1,18 @@
 ---
 product: campaign
-title: サイトに Web トラッキングタグを挿入します
-description: サイトに Web トラッキングタグを挿入する方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+title: サイトに Web トラッキングタグを挿入します。
+description: サイトに Web トラッキングタグを挿入する方法を説明します。
+feature: Configuration
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
 
-# サイトに Web トラッキングタグを挿入します{#inserting-tags-in-your-site}
+# サイトに Web トラッキングタグを挿入します。{#inserting-tags-in-your-site}
 
 ## 単純な方法 {#simple-method}
 
@@ -39,7 +40,7 @@ ht-degree: 0%
 
 静的タグの挿入を実行するには、コンソールで生成されたタグをコピーして貼り付けるか、手動で作成したタグを Web ページのソースに貼り付けます。
 
-**例**:フォームを表示するページへの web トラッキングタグの挿入。
+**例**：フォームを表示しているページへの web トラッキングタグの挿入。
 
 ```
 <html>
@@ -120,7 +121,7 @@ Web ページが動的に生成される場合、ページ生成時に Web ト�
 </html>
 ```
 
-## 最適方法 {#optimum-method-}
+## 最適な方法 {#optimum-method-}
 
 リダイレクトサーバーに送信される情報を制御する場合、最も信頼性の高い方法は、ページ生成言語を使用して HTTP クエリを同期的に実行することです。
 
@@ -132,7 +133,7 @@ Web ページが動的に生成される場合、ページ生成時に Web ト�
 >
 >リダイレクションと Web トラッキングでは cookie を使用します。同期 HTTP 呼び出しを実行する Web サーバーが、リダイレクションサーバーと同じドメインにあることが重要です。 様々な HTTP 交換では、「id」、「uuid」および「uuid230」Cookie を伝える必要があります。
 
-**例**:Java での動的な生成。アカウント番号を使用した受信者認証。
+**例**:Java での動的生成。受信者認証にアカウント番号を使用します。
 
 ```
 [...]

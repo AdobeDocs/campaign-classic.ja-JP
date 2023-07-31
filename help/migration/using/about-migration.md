@@ -1,17 +1,18 @@
 ---
 product: campaign
 title: Campaign Classicへの移行
-description: 以前のバージョンの Campaign からCampaign Classicに移行する方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+description: 以前のバージョンの Campaign からCampaign Classicに移行する方法を説明します。
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: migration
 content-type: reference
 topic-tags: migration-overview
 hide: true
 hidefromtoc: true
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '459'
 ht-degree: 3%
 
 ---
@@ -38,12 +39,12 @@ ht-degree: 3%
 * Adobe Campaign Cloud Messaging（ミッドソーシングデプロイメント）を使用する場合は、開始する前にAdobeカスタマーケアにお問い合わせください。
 * 移行プロセスを開始する前に、次の手順を実行します。 **必須** データをバックアップします。
 * 移行プロセスが完了するまでに数日かかる場合があります。
-* Adobe Campaign v7 は、以前のバージョンよりも安全です。これは、データの破損などの問題を回避し、データベースのデータの整合性を維持するための設定ガイドラインに影響します。 お客様は、ワークフローを含むすべての設定をテストする必要があります。
+* Adobe Campaign v7 は、以前のバージョンよりも安全です。これは、データの破損などの問題を回避し、データベースのデータの整合性を保つための設定ガイドラインに影響します。 お客様は、ワークフローを含むすべての設定をテストする必要があります。
 
 その他の前提条件は、 [このページ](../../migration/using/before-starting-migration.md).
 
 
-## 最新環境 {#modernizing-your-environment}
+## 最新化された環境 {#modernizing-your-environment}
 
 移行を実行すると、環境（データベースエンジン、オペレーティングシステム）を更新する機会が生じます。 Adobe Campaignでは、実稼動環境を最新バージョンにアップグレードすることを強くお勧めします。
 
@@ -58,9 +59,9 @@ Adobe Campaign v7 への移行の一般的な手順について詳しくは、 [
 
 ## 特定の設定 {#specific-configurations}
 
-また、Adobe Campaign v7 で発生した変更は、以前のバージョンで開発された特定の設定に適応する必要があることを意味する場合もあります。 したがって、移行前に、すべての設定で監査を実行する必要が生じる場合があります。サポートが必要な場合は、Adobe Campaignにお問い合わせください。
+また、Adobe Campaign v7 で発生した変更は、以前のバージョンで開発された特定の設定に適応する必要があることを意味する場合もあります。 したがって、移行前に、すべての設定に対して監査を実行する必要が生じる場合があります。詳しくは、Adobe Campaignにお問い合わせください。
 
 例えば、Web アプリケーション、SQLdata を使用したスキーマ拡張、標準のスキーマクローン作成に関する特定の設定に特に注意する必要があります。 詳しくは、[このページ](../../migration/using/configuring-your-platform.md)を参照してください。
 
-同様に、Adobe Campaign内のセキュリティの高まりに対応するために、いくつかの内部メカニズムが修正されています。これらの設定は、それに応じて適応させる必要があります。
+同様に、Adobe Campaign内のセキュリティの高まりに対応するために、一部の内部メカニズムが変更されています。これらの設定をそれに応じて変更する必要があります。
 

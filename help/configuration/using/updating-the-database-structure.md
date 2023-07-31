@@ -2,11 +2,12 @@
 product: campaign
 title: データベース構造の更新
 description: データベース構造の更新
+feature: Configuration
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 6c1e061b-8636-4285-8d83-97474544d252
-source-git-commit: 50a89f993523f3274e87ebac740d1c121082e18c
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 49%
@@ -25,9 +26,9 @@ ht-degree: 49%
 
 ![](assets/d_ncs_integration_schema_update_select.png)
 
-この **[!UICONTROL ストアドプロシージャの追加]** および **[!UICONTROL 初期化データをインポート]** オプションは、最初の SQL スクリプトと、データベースの作成時に実行されるデータパッケージを起動するために使用されます。
+The **[!UICONTROL ストアドプロシージャの追加]** および **[!UICONTROL 初期化データをインポート]** オプションは、最初の SQL スクリプトと、データベースの作成時に実行されるデータパッケージを起動するために使用されます。
 
-外部データパッケージから一連のデータを読み込むことができます。 それには、「 **[!UICONTROL パッケージのインポート]** パッケージの XML ファイルを入力します。
+外部データパッケージから一連のデータを読み込むことができます。 それには、「 」を選択します。 **[!UICONTROL パッケージのインポート]** パッケージの XML ファイルを入力します。
 
 手順に従い、データベース更新 SQL スクリプトを表示します。
 

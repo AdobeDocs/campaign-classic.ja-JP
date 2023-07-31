@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: 追加の Web トラッキングパラメーター
-description: Web トラッキングのパラメーターの詳細
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+description: Web トラッキングのパラメーターの詳細を説明します
+feature: Configuration, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -17,8 +18,8 @@ ht-degree: 0%
 
 Adobe Campaignプラットフォームでは、標準として 2 つの TRANSACTION タイプの Web トラッキングパラメーターが提供されます。
 
-* **量**:トランザクションの金額を表します。
-* **記事**:トランザクション内の品目数を表します。
+* **量**：トランザクションの金額を表します。
+* **記事**：トランザクション内の品目数を表します。
 
 これらのパラメーターは、 **nms:webTrackingLog** スキーマとは、レポートで確認できる指標の一部です。
 
@@ -54,7 +55,7 @@ Adobe Campaignプラットフォームでは、標準として 2 つの TRANSACT
 
 デフォルト値は 64 文字です。 この値では、 **量** および **記事** (&quot;amount=xxxxxxxxx&amp;article=xxxxxxxxxx&quot;) 標準パラメーター。
 
-上記の拡張スキーマの例で示した両方のパラメーター（名前のサイズ+値のサイズ）を考慮することで、100 文字を考慮に入れるよう設定を変更できます (「amount=xxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxxxx&amp;code=xxxxxxx」)。
+上記の拡張スキーマの例で示した両方のパラメーター（名前のサイズ+値のサイズ）を考慮することで、100 文字を考慮に入れるように設定を変更できます (「amount=xxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxxxxx&amp;code=xxxxxxxxxx」)。
 
 ```
 <trackinglogd args="" autoStart="false" initScript="" maxCreateFileRetry="5" maxLogsSizeOnDiskMb="500"
@@ -66,14 +67,14 @@ webTrackingParamSize="64"/>
 設定を変更した場合は、次の操作を行う必要があります。
 
 * リダイレクトモジュールをホストする Web サーバー（Apache、IIS など）を停止し、
-* Adobe Campaignサーバーを停止します。 **net stop nlserver6** Windows の場合、 **/etc/init.d/nlserver6 停止** Linux では、
+* Adobe Campaignサーバーを停止します。 **net stop nlserver6** Windows の場合、 **/etc/init.d/nlserver6 停止** Linux の場合、
 
   >[!NOTE]
   >
   >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl stop nlserver**
 
-* Linux では、 **ipcrm** コマンド
-* Adobe Campaignサーバーを再起動します。 **net start nlserver6** Windows の場合、 **/etc/init.d/nlserver6 start** Linux では、
+* Linux では、 **ipcrm** コマンド、
+* Adobe Campaignサーバーを再起動します。 **net start nlserver6** Windows の場合、 **/etc/init.d/nlserver6 start** Linux の場合、
 
   >[!NOTE]
   >
@@ -81,7 +82,7 @@ webTrackingParamSize="64"/>
 
 * Web サーバーを再起動します。
 
-**例**:Linux での設定を考慮して
+**例**:Linux での設定を考慮します。
 
 ```
 adobe@selma:~$ systemctl stop nlserver

@@ -2,16 +2,17 @@
 product: campaign
 title: キャンペーン配信設定
 description: キャンペーン配信の設定方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Channel Configuration
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 5%
+source-wordcount: '487'
+ht-degree: 8%
 
 ---
 
@@ -21,17 +22,17 @@ ht-degree: 5%
 
 配信パラメーターは、 **serverConf.xml** フォルダー。
 
-* **DNS 設定**:MTA モジュールが **`<dnsconfig>`** 以降
+* **DNS 設定**:MTA モジュールが **`<dnsconfig>`** 以降。
 
   >[!NOTE]
   >
-  >この **nameServers** パラメーターは、Windows でのインストールに必須です。 Linux でのインストールの場合は、空のままにする必要があります。
+  >The **nameServers** パラメーターは、Windows でのインストールに必須です。 Linux でのインストールの場合は、空のままにする必要があります。
 
   ```
   <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
   ```
 
-必要に応じて、次の設定を実行することもできます。設定 [SMTP リレー](#smtp-relay)、 [MTA 子プロセス](#mta-child-processes), [送信 SMTP トラフィックを管理](#managing-outbound-smtp-traffic-with-affinities).
+必要に応じて、次の設定を実行することもできます。 [SMTP リレー](#smtp-relay)、 [MTA 子プロセス](#mta-child-processes), [送信 SMTP トラフィックを管理](#managing-outbound-smtp-traffic-with-affinities).
 
 ## SMTP リレー {#smtp-relay}
 
@@ -69,9 +70,9 @@ IP アドレスを使用したアフィニティを通じて、アウトバウ�
 
 それには、次の手順に従います。
 
-1. にアフィニティを入力します。 **`<ipaffinity>`** セクション **serverConf.xml** ファイル。
+1. にアフィニティを入力します。 **`<ipaffinity>`** のセクション **serverConf.xml** ファイル。
 
-   1 つのアフィニティには、複数の異なる名前を付けることができます。区切るには、 **;** 文字。
+   1 つのアフィニティに複数の異なる名前を付けることができます。名前を区切るには、 **;** 文字。
 
    例：
 

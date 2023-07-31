@@ -2,12 +2,13 @@
 product: campaign
 title: テクニカルノート - IMS を使用して Adobe Campaign に接続するように環境を更新します
 description: Campaign - IMS の更新
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Technote, Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 100%
+source-wordcount: '586'
+ht-degree: 98%
 
 ---
 

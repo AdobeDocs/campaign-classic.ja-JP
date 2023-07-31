@@ -2,12 +2,13 @@
 product: campaign
 title: FDA のデータスキーマの作成
 description: FDA のデータスキーマを作成する方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 46%
+source-wordcount: '206'
+ht-degree: 45%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 46%
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. 次の **[!UICONTROL テーブル名]** 「 」フィールドで、収集するデータが格納されているテーブルを選択します。
+1. 次から： **[!UICONTROL テーブル名]** 「 」フィールドで、収集するデータが格納されているテーブルを選択します。
 
    Snowflakeを使用すると、データベース・ユーザーに正しい権限が付与されている場合に、ここでビューを選択できます。 ビューを使用する場合、Adobe Campaignで XML スキーマを自動的に生成することはできないので、自分で作成する必要があります。 ビューについて詳しくは、 [Snowflake文書](https://docs.snowflake.com/en/user-guide/views-introduction.html).
 

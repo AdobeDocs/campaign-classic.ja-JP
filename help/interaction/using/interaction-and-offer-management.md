@@ -2,13 +2,13 @@
 product: campaign
 title: インタラクションとオファーの管理
 description: 実施要件ルールに基づいて、連絡先に最適なオファーを送信する方法を学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Interaction, Offers
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 97%
 
 ---
 

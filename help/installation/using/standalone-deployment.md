@@ -2,14 +2,15 @@
 product: campaign
 title: スタンドアロンデプロイメント
 description: スタンドアロンデプロイメント
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Architecture, Deployment
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1086'
 ht-degree: 5%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 5%
 
 この構成には、同じコンピュータ上のすべてのコンポーネントが含まれます。
 
-* アプリケーションプロセス (web)
+* アプリケーションプロセス (Web)
 * 配信プロセス (mta)
 * リダイレクトプロセス（トラッキング）
 * ワークフロープロセスとスケジュール済みタスク (wfserver)
@@ -58,7 +59,7 @@ ht-degree: 5%
 * ブロードキャスト時のアプリケーションの遅延の可能性。
 * アプリケーションサーバーは、リダイレクションサーバーをホストするので、外部から（DMZ に配置されている間など）使用できる必要があります。
 
-## インストールおよび設定手順 {#installation-and-configuration-steps}
+## インストールおよび設定の手順 {#installation-and-configuration-steps}
 
 ### 前提条件 {#prerequisites}
 
@@ -107,7 +108,7 @@ ht-degree: 5%
    * Linux の場合： [サーバーの最初の起動](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server),
    * Windows の場合： [サーバーの最初の起動](../../installation/using/installing-the-server.md#first-start-up-of-the-server).
 
-1. を **内部** 次のコマンドを使用したパスワード：
+1. 次を変更： **内部** 次のコマンドを使用したパスワード：
 
    ```
    nlserver config -internalpassword
@@ -161,7 +162,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >この **nameServers** パラメーターは、Windows でのみ使用されます。
+   >The **nameServers** パラメーターは、Windows でのみ使用されます。
 
    詳しくは、 [Campaign サーバーの設定](../../installation/using/configuring-campaign-server.md).
 
@@ -172,7 +173,7 @@ ht-degree: 5%
    * Linux の場合： [Linux 用 Web サーバーへの統合](../../installation/using/integration-into-a-web-server-for-linux.md)
    * Windows の場合： [Windows 用 Web サーバーへの統合](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. Web サイトを開始し、次の URL を使用してリダイレクトをテストします。https://tracking.campaign.net/r/test.
+1. Web サイトを開始し、URL( https://tracking.campaign.net/r/test ) を使用してリダイレクトをテストします。
 
    ブラウザーには、次のメッセージが表示される必要があります。
 
@@ -204,7 +205,7 @@ ht-degree: 5%
 
    また、このコマンドを使用すると、コンピューターにインストールされているAdobe Campaignサーバーのバージョンとビルド番号を知ることができます。
 
-1. をテストします。 **nlserver web** URL を使用するモジュール：https://console.campaign.net/nl/jsp/logon.jsp
+1. をテストします。 **nlserver web** URL を使用するモジュール： https://console.campaign.net/nl/jsp/logon.jsp
 
    この URL を使用して、クライアントセットアッププログラムのダウンロードページにアクセスできます。
 
@@ -224,7 +225,7 @@ ht-degree: 5%
 
    詳しくは、 [データベースの作成と設定](../../installation/using/creating-and-configuring-the-database.md).
 
-   データベースが作成されたら、ログオフします。
+   データベースを作成したら、ログオフします。
 
 1. を使用してクライアントコンソールに再度ログオンします。 **admin** パスワードを指定せずにログインし、デプロイウィザードを起動します ( **[!UICONTROL ツール/詳細]** メニュー ) をクリックして、インスタンスの設定を完了します。
 

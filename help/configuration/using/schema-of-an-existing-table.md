@@ -2,11 +2,12 @@
 product: campaign
 title: 既存のテーブルのスキーマ
 description: 既存のテーブルのスキーマ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Custom Resources
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '239'
 ht-degree: 15%
 
 ---
@@ -17,10 +18,10 @@ ht-degree: 15%
 
 アプリケーションが既存のテーブル、SQL ビュー、またはリモートデータベースのデータにアクセスする必要がある場合は、次のデータを使用してAdobe Campaignでスキーマを作成します。
 
-* テーブル名：「sqltable」属性を使用して、テーブルの名前（dblink を使用する場合はエイリアス）を入力します。
+* テーブル名：「sqltable」属性を持つテーブル名（dblink を使用する場合はエイリアスを含む）を入力します。
 * スキーマキー：紐付けフィールドの参照
-* インデックス：クエリの生成に使用
-* XML 構造内のフィールドとその場所：アプリケーションで使用するフィールドにのみ入力します。
+* インデックス：クエリの生成に使用します。
+* XML 構造でのフィールドとその場所：アプリケーションで使用されるフィールドのみに入力します。
 * リンク：ベースの他のテーブルとの結合がある場合。
 
 ## 実装 {#implementation}
@@ -57,6 +58,6 @@ ht-degree: 15%
 
 ## 外部データベースへのアクセス {#accessing-an-external-database}
 
-この **Federated Data Access - FDA** 「 」オプションを使用すると、外部データベースに保存されているデータにアクセスできます。
+The **Federated Data Access - FDA** 「 」オプションを使用すると、外部データベースに保存されているデータにアクセスできます。
 
 外部データベースのデータにアクセスするスキーマに対して実行する設定について詳しくは、 [このページ](../../installation/using/creating-data-schema.md).

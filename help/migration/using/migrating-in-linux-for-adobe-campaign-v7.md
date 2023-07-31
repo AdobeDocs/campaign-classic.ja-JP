@@ -2,16 +2,17 @@
 product: campaign
 title: Linux プラットフォームのAdobe Campaign v7 への移行
 description: Linux プラットフォームをAdobe Campaign v7 に移行する方法を説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 hide: true
 hidefromtoc: true
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Linux での移行手順は次のとおりです。
 
 ## サービス停止 {#service-stop}
 
-まず、関係するすべてのマシン上のデータベースにアクセスしているすべてのプロセスを停止します。
+まず、関係するすべてのマシン上のデータベースにアクセスして、すべてのプロセスを停止します。
 
 1. ログイン名 **root**.
 1. リダイレクトモジュールを使用するすべてのサーバー (**webmdl** サービス ) を停止する必要があります。 Apache の場合は、次のコマンドを実行します。
@@ -61,7 +62,7 @@ Linux での移行手順は次のとおりです。
    ps waux | grep nlserver
    ```
 
-   アクティブなプロセスのリストとその ID(PID) が表示されます。
+   アクティブなプロセスのリストが、その ID(PID) と共に表示されます。
 
 1. 数分後に 1 つ以上のAdobe Campaignプロセスがアクティブまたはブロックされたままの場合は、プロセスを強制終了します。
 
@@ -156,7 +157,7 @@ Linux での移行手順は次のとおりです。
 -->
 
 1. Adobe Campaignデータベースのバックアップを作成します。
-1. ログイン名 **ネオラン** そして、 **nl6** 次のコマンドを使用するディレクトリ：
+1. ログイン名 **ネオラン** を作成し、 **nl6** 次のコマンドを使用するディレクトリ：
 
    ```
    su - neolane
@@ -466,7 +467,7 @@ To deploy Adobe Campaign, apply the following steps:
 
 Adobe Campaignのデプロイには、次の 2 つの段階があります。
 
-* Adobe Campaign v7 パッケージのインストール：この操作は、各サーバーで実行する必要があります。
+* Adobe Campaign v7 パッケージのインストール：この操作は各サーバーで実行する必要があります。
 * アップグレード後：このコマンドは、各インスタンスで開始する必要があります。
 
 Adobe Campaignをデプロイするには、次の手順に従います。
@@ -597,7 +598,7 @@ If you are migrating from v6.02 or earlier, you must configure your security zon
 
 -->
 
-## サービスを再開 {#re-starting-services}
+## サービスを再開します {#re-starting-services}
 
 次に、サービスを再起動する手順を示します。
 

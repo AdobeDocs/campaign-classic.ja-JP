@@ -1,9 +1,10 @@
 ---
 product: campaign
 title: Apple Mail アプリでのメールプライバシー保護
+feature: Technote, Privacy, Privacy Tools
 description: Appleのメールプライバシー保護機能がキャンペーンに与える影響について説明します。
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
-source-git-commit: 83fe7eb4f857306ac1c8bb3a93a9393b76ae1e3c
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '2097'
 ht-degree: 1%
@@ -38,7 +39,7 @@ Appleの新機能は、電子メールのプライバシー保護に関して業
 
 Adobe Campaignの保持期間を超えたトラッキングログをアーカイブします。
 
-1. キャンペーンインスタンスで保持期間を確認します。
+1. キャンペーンインスタンスで保持期間の期間を確認します。
 1. アクティブなターゲットマッピングを再度確認します。 標準のプロファイルテーブル (`nmsRecipient`) をクリックします。
 1. Adobe Campaignからトラッキングログを書き出します。 ユーザーエージェントとオペレーティングシステムに関するデータを含むログを含めます。
 
@@ -51,7 +52,7 @@ iOSデバイスでAppleのメールアプリを使用するオーディエンス
 
 特に、キャンペーン戦略とキャンペーンのパフォーマンス指標を積極的に再評価することを強くお勧めします。 クリックスルー、製品表示、購入など、より信頼性の高い指標に再度焦点を当てることができます。
 
-現在使用可能なデータを調べて、開封率と他の指標との相関関係を評価することをお勧めします。 これらの指標が一貫して相関関係にある場合は、信頼性の高いトリガーを向上させることができます。
+現在使用可能なデータを調べ、開封率と他の指標との相関関係を評価することをお勧めします。 これらの指標が一貫して相関関係にある場合は、信頼性の高いトリガーを向上させることができます。
 
 ## ヒントとテクニック
 
@@ -132,7 +133,7 @@ E メールの開封がターゲット条件として使用されているワー
 >
 >パッケージは例としてのみ提供され、製品機能としてのAdobeではサポートされません。
 >
->場合によっては、サンプルコードをキャンペーンの実装に適応させる必要があります。
+>場合によっては、サンプルコードをキャンペーンの実装に合わせて調整する必要があります。
 >
 >このサンプルパッケージのインストールと使用は、エンドユーザーのみが担当します。
 >
@@ -314,11 +315,11 @@ E メールの開封がターゲット条件として使用されているワー
 
 要約すると、Adobe Campaignのトラッキングデータは次の情報を提供します。
 
-* 特定の電子メールメッセージを開いた、またはクリックした人に関連付けられたプロファイル
+* 特定の電子メールメッセージを開いた、またはクリックしたユーザーに関連付けられたプロファイル
 * 開封日
-* 使用されたデバイス ( 例：iPhone、Mac)
+* 使用されたデバイス ( 例：iPhone、Mac)。
 * オペレーティングシステムとバージョン ( 例：iOS 15、macOS 12、Windows 10)
-* メールアプリケーションや Web ブラウザーなどのアプリケーションと、バージョン（Outlook 2019 など）
+* メールアプリケーションや Web ブラウザーなどのアプリケーションと、バージョン（例：Outlook 2019）
 
 #### トラッキングデータを保持する必要があるのはなぜですか？
 
@@ -339,7 +340,7 @@ E メールの開封がターゲット条件として使用されているワー
 
 >[!IMPORTANT]
 >
->次の例では、標準搭載の `nms:Recipient` schema（デフォルトのプロファイルスキーマ） カスタムプロファイルに添付された追加のカスタムターゲットマッピングを使用する場合は、このエクスポート方法をすべてのカスタムログテーブルに拡張することをお勧めします。 [詳細情報](../../configuration/using/target-mapping.md)。
+>次の例では、標準搭載の `nms:Recipient` schema（デフォルトのプロファイルスキーマ）。 カスタムプロファイルに添付された追加のカスタムターゲットマッピングを使用する場合は、このエクスポート方法をすべてのカスタムログテーブルに拡張することをお勧めします。 [詳細情報](../../configuration/using/target-mapping.md)。
 
 ##### 原則
 
@@ -397,7 +398,7 @@ E メールの開封がターゲット条件として使用されているワー
 
 ![](assets/export-tracking-data-5.png)
 
-##### 高度な実装：iOSデバイスによる分類
+##### 高度な実装：iOSデバイス別の分類
 
 ワークフローを使用して、受信者がApple Mail アプリを使用するかどうかを判断できます。 トラッキングログは、デバイス別に分割できます。 例えば、クエリフィルターを使用して、iOSデバイスでレコードを分類できます。
 
@@ -405,7 +406,7 @@ E メールの開封がターゲット条件として使用されているワー
 | --- | --- | --- |
 | Apple Mail | iOS 15 | `operating System (Browser) contains 'iOS 15' and browser (Browser) contains 'ApplewebKit'` |
 | Apple Mail | iOS 14 またはiOS 13 | `browser contains 'AppleWebKit' and operating System of browser contains 'iOS 14' or operating System of browser contains 'iOS 13'` |
-| Apple Mail | iOSモバイルデバイス：iPad、iPod、iPhone | `device (Browser) contains iPhone or device (Browser) equal to iPod or device (Browser) equal to iPad and browser (Browser) equal to 'AppleWebKit'` |
+| Apple Mail | iOSモバイルデバイス：iPad、iPod およびiPhone | `device (Browser) contains iPhone or device (Browser) equal to iPod or device (Browser) equal to iPad and browser (Browser) equal to 'AppleWebKit'` |
 | Apple Mail | iPhone、iPadまたは iPod | `browser (Browser) equal to 'AppleWebKit' and device (Browser) equal to iPhone or device (Browser) equal to iPod or device (Browser) equal to iPad` |
 | Apple Mail | Mac | `browser (Browser) equal to 'AppleWebKit' and operating System (Browser) contains 'Mac'` |
 | Safari | macOS | `browser (Browser) equal to 'Safari' and device (Browser) equal to PC and operating System (Browser) contains 'Mac'` |
@@ -427,11 +428,11 @@ E メールの開封がターゲット条件として使用されているワー
    1. 最初の **[!UICONTROL クエリ]** アクティビティは、過去 3 か月間のすべての E メール開封数を選択するために使用されます。
    1. A **[!UICONTROL 分割]** 「 」アクティビティは、電子メールアプリケーション、ブラウザー、オペレーティングシステム、デバイス別に選択を分割する場合に使用します。
 
-   1. A **[!UICONTROL 重複排除]** 各 **[!UICONTROL 分割]** アクティビティ。 この **[!UICONTROL 重複排除]** アクティビティは、重複した E メールアドレスを削除するために使用します。
+   1. A **[!UICONTROL 重複排除]** 各アクティビティに従う **[!UICONTROL 分割]** アクティビティ。 The **[!UICONTROL 重複排除]** アクティビティは、重複した E メールアドレスを削除するために使用します。
 
-      この **[!UICONTROL 重複排除]** アクティビティが **[!UICONTROL 分割]** 「 」アクティビティを使用して、様々なデバイスを使用する受信者に関する情報が失われるのを防ぎます。
+      The **[!UICONTROL 重複排除]** アクティビティが **[!UICONTROL 分割]** 「 」アクティビティを使用して、様々なデバイスを使用する受信者に関する情報が失われるのを防ぎます。
 
-   1. An **[!UICONTROL 終了]** 各 **[!UICONTROL 重複排除]** アクティビティ。
+   1. An **[!UICONTROL 終了]** 各アクティビティに従う **[!UICONTROL 重複排除]** アクティビティ。
 
   このタイプのワークフローは、ターゲティング用に標準の受信者テーブルにのみ受信者を保存する場合に役立ちます。
 

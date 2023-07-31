@@ -2,13 +2,13 @@
 product: campaign
 title: データのターゲティング
 description: ワークフローでのデータのターゲティングについて説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Query Editor, Data Management
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+feature: Query Editor, Data Management, Workflows
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 100%
+source-wordcount: '2036'
+ht-degree: 99%
 
 ---
 

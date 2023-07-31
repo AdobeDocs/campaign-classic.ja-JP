@@ -1,15 +1,16 @@
 ---
 product: campaign
 title: データベースクリーンアップのワークフロー
-description: 古いデータが自動的にクリーンアップされる方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+description: 古いデータが自動的にクリーンアップされる方法を説明します。
+feature: Monitoring, Workflows
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2910'
+source-wordcount: '2917'
 ht-degree: 2%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 2%
 
 ## 設定 {#configuration}
 
-データベースのクリーンアップは、次の 2 つのレベルで設定します。ワークフロースケジューラーとデプロイウィザードで、次の操作を実行します。
+データベースクリーンアップは、ワークフロースケジューラーとデプロイウィザードの 2 つのレベルで設定します。
 
 ### ワークフロースケジューラー {#the-scheduler}
 
@@ -45,11 +46,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->を **[!UICONTROL データベースのクリーンアップ]** ワークフローがスケジューラーで定義された日時に開始するには、ワークフローエンジン (wfserver) を開始する必要があります。
+>次に対して **[!UICONTROL データベースのクリーンアップ]** ワークフローがスケジューラーで定義された日時に開始するには、ワークフローエンジン (wfserver) を開始する必要があります。
 
 ### デプロイメントウィザード {#deployment-wizard}
 
-この **[!UICONTROL デプロイウィザード]**（経由でアクセス） **[!UICONTROL ツール/詳細]** メニューを使用して、データの保存期間を設定できます。 値は日数で表します。 これらの値が変更されない場合、ワークフローはデフォルト値を使用します。
+The **[!UICONTROL デプロイウィザード]**（経由でアクセス） **[!UICONTROL ツール/詳細]** メニューを使用して、データの保存期間を設定できます。 値は日数で表します。 これらの値が変更されない場合、ワークフローはデフォルト値を使用します。
 
 ![](assets/ncs_cleanup_deployment-wizard.png)
 
@@ -65,14 +66,14 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  >この **[!UICONTROL オファーの提案]** フィールドは、 **インタラクション** モジュールがインストールされている。
+  >The **[!UICONTROL オファーの提案]** フィールドは、 **インタラクション** モジュールがインストールされている。
 
 * イベント： **NmsCleanup_EventPurgeDelay** ( [期限切れのイベントのクレンジング](#cleansing-expired-events))
 * アーカイブしたイベント： **NmsCleanup_EventHistoPurgeDelay** ( [期限切れのイベントのクレンジング](#cleansing-expired-events))
 
   >[!NOTE]
   >
-  >この **[!UICONTROL イベント]** および **[!UICONTROL アーカイブしたイベント]** フィールドは、 **Message Center** モジュールがインストールされている。
+  >The **[!UICONTROL イベント]** および **[!UICONTROL アーカイブしたイベント]** フィールドは、 **Message Center** モジュールがインストールされている。
 
 * 監査証跡： **XtkCleanup_AuditTrailPurgeDelay** ( [監査証跡のクリーンアップ](#cleanup-of-audit-trail))
 
@@ -119,15 +120,15 @@ ht-degree: 2%
    DELETE FROM NmsGroup WHERE iGroupId=$(l) 
    ```
 
-   場所 `$(l)` はリスト識別子です
+   場所 `$(l)` はリスト識別子です。
 
 ### 削除またはリサイクルする配信のクリーンアップ {#cleanup-of-deliveries-to-be-deleted-or-recycled}
 
 このタスクは、削除またはリサイクルするすべての配信を削除します。
 
-1. この **[!UICONTROL データベースのクリーンアップ]** ワークフローは、 **deleteStatus** フィールドの値が **[!UICONTROL はい]** または **[!UICONTROL リサイクル済み]** 削除日が **[!UICONTROL 削除された配信]** (**NmsCleanup_RecycledDeliveryPurgeDelay**) フィールドに値を入力する必要があります。 詳しくは、 [デプロイウィザード](#deployment-wizard). この期間は、現在のサーバーの日付に基づいて計算されます。
+1. The **[!UICONTROL データベースのクリーンアップ]** ワークフローは、 **deleteStatus** フィールドの値が **[!UICONTROL はい]** または **[!UICONTROL リサイクル済み]** 削除日が、 **[!UICONTROL 削除された配信]** (**NmsCleanup_RecycledDeliveryPurgeDelay**) フィールドに値を入力する必要があります。 詳しくは、 [デプロイウィザード](#deployment-wizard). この期間は、現在のサーバーの日付に基づいて計算されます。
 1. タスクはミッドソーシングサーバーごとに、削除する配信のリストを選択します。
-1. この **[!UICONTROL データベースのクリーンアップ]** 配信ログ、添付ファイル、ミラーページの情報、その他すべての関連データが削除されます。
+1. The **[!UICONTROL データベースのクリーンアップ]** 配信ログ、添付ファイル、ミラーページの情報、およびその他すべての関連データを削除します。
 1. 配信を適切に削除する前に、ワークフローは次のテーブルからリンクされた情報を削除します。
 
    * 配信の除外テーブル (**NmsDlvExclusion**) の場合は、次のクエリが使用されます。
@@ -173,7 +174,7 @@ ht-degree: 2%
 
 #### ミッドソーシングを使用する配信 {#deliveries-using-mid-sourcing}
 
-この **[!UICONTROL データベースのクリーンアップ]** ワークフローは、ミッドソーシングサーバー上の配信も削除します。
+The **[!UICONTROL データベースのクリーンアップ]** ワークフローは、ミッドソーシングサーバー上の配信も削除します。
 
 1. これをおこなうには、ワークフローで、（ステータスに基づいて）各配信が非アクティブであることを確認します。 アクティブな配信は、削除される前に停止されます。 チェックは、次のクエリを実行して実行します。
 
@@ -187,15 +188,15 @@ ht-degree: 2%
 
 ### 期限切れの配信のクリーンアップ {#cleanup-of-expired-deliveries}
 
-このタスクは、有効期間が終了した配信を停止します。
+このタスクは、有効期間が過ぎた配信を停止します。
 
-1. この **[!UICONTROL データベースのクリーンアップ]** ワークフローは、期限切れの配信のリストを作成します。 このリストには、以外のステータスを持つすべての期限切れの配信が含まれます **[!UICONTROL 完了]** に加えて、10,000 件を超える未処理のメッセージを含む、最近配信が停止されました。 次のクエリが使用されます。
+1. The **[!UICONTROL データベースのクリーンアップ]** ワークフローは、期限切れの配信のリストを作成します。 このリストには、以外のステータスを持つすべての期限切れの配信が含まれます **[!UICONTROL 完了]** に加えて、10,000 件を超える未処理のメッセージを含む、最近配信が停止されました。 次のクエリが使用されます。
 
    ```sql
    SELECT iDeliveryId, iState FROM NmsDelivery WHERE iDeleteStatus=0 AND iIsModel=0 AND iDeliveryMode=1 AND ( (iState >= 51 AND iState < 85 AND tsValidity IS NOT NULL AND tsValidity < $(currentDate) ) OR (iState = 85 AND DateMinusDays(15) < tsLastModified AND iToDeliver - iProcessed >= 10000 ))
    ```
 
-   場所 `delivery mode 1` が **[!UICONTROL 一括配信]** モード `state 51` が **[!UICONTROL 開始を保留中]** 州 `state 85` が **[!UICONTROL 停止]** と、配信サーバー上で一括更新された配信ログの最大数が 10,000 に等しい。
+   場所 `delivery mode 1` が **[!UICONTROL 一括配信]** モード、 `state 51` が **[!UICONTROL 開始を保留中]** 州、 `state 85` が **[!UICONTROL 停止]** と、配信サーバー上で一括更新された配信ログの最大数が 10,000 に等しい。
 
 1. 次に、ミッドソーシングを使用する最近期限切れの配信のリストがワークフローに含まれます。 ミッドソーシングサーバー経由で復元された配信ログがまだない配信は除外されます。
 
@@ -239,7 +240,7 @@ ht-degree: 2%
    DELETE FROM NmsDeliveryPart WHERE iDeliveryPartId IN (SELECT iDeliveryPartId FROM NmsDeliveryPart WHERE tsValidity < $(curDate) LIMIT 500000)
    ```
 
-   場所 `delivery state 95` が **[!UICONTROL 完了]** ステータス `delivery state 85` が **[!UICONTROL 停止]** ステータス、および `$(curDate)` は、現在のサーバーの日付です。
+   場所 `delivery state 95` が **[!UICONTROL 完了]** ステータス、 `delivery state 85` が **[!UICONTROL 停止]** ステータス、および `$(curDate)` は、現在のサーバーの日付です。
 
 ### ミラーページのクリーンアップ {#cleanup-of-mirror-pages}
 
@@ -253,7 +254,7 @@ ht-degree: 2%
 
    場所 `$(curDate)` は、現在のサーバーの日付です。
 
-1. この **NmsMirrorPageInfo** 必要に応じて、以前に復元した配信の識別子を使用して、テーブルがパージされます。 一括削除は、次のクエリの生成に使用されます。
+1. The **NmsMirrorPageInfo** 必要に応じて、以前に復元した配信の識別子を使用して、テーブルがパージされます。 一括削除は、次のクエリの生成に使用されます。
 
    ```sql
    DELETE FROM NmsMirrorPageInfo WHERE iMirrorPageInfoId IN (SELECT iMirrorPageInfoId FROM NmsMirrorPageInfo WHERE iDeliveryId = $(dl)) LIMIT 5000
@@ -265,7 +266,7 @@ ht-degree: 2%
 
    場所 `$(dl)` は、配信の識別子です。
 
-1. エントリが配信ログに追加されます。
+1. 次に、エントリが配信ログに追加されます。
 1. パージされた配信は識別され、後で再処理する必要がなくなります。 次のクエリが実行されます。
 
    ```sql
@@ -290,7 +291,7 @@ ht-degree: 2%
    SELECT iDeliveryId FROM NmsDelivery WHERE iDeliveryId<>0 AND iDeleteStatus=0 AND iState NOT IN (0,85,100);
    ```
 
-   場所 `0` が **[!UICONTROL 編集中]** 配信ステータス `85` が **[!UICONTROL 停止]** ステータスと `100` が **[!UICONTROL 削除済み]** ステータス。
+   場所 `0` は、 **[!UICONTROL 編集中]** 配信ステータス `85` が **[!UICONTROL 停止]** ステータスと `100` が **[!UICONTROL 削除済み]** ステータス。
 
 1. 使用されなくなったテーブルは、次のクエリを使用して削除されます：
 
@@ -344,7 +345,7 @@ ht-degree: 2%
    DELETE FROM XtkWorkflowEvent WHERE iWorkflowId=$(l) AND iStatus>2 AND tsProcessing < DateMinusDays($(lHistory))
    ```
 
-   場所 `$(lworkflow)` はワークフローの識別子で、は `$(lhistory)` は履歴の識別子です。
+   場所 `$(lworkflow)` はワークフローの識別子で、は `$(lhistory)` は、履歴の識別子です。
 
 1. 未使用のテーブルはすべて削除されます。 この目的で、すべてのテーブルは、 **wkf%** 次のクエリを使用して mask と入力します (postgresql)。
 
@@ -387,7 +388,7 @@ DELETE FROM XtkWorkflowLogin WHERE iWorkflowId NOT IN (SELECT iWorkflowId FROM X
 
 ### 孤立した作業用テーブルのクリーンアップ {#cleanup-of-orphan-work-tables}
 
-このタスクは、グループにリンクされた孤立した作業用テーブルを削除します。 この **NmsGroup** テーブルには、クレンジングするグループが格納されます（0 とは異なるタイプ）。 テーブル名のプレフィックスは、 **grp**. クレンジングするグループを識別するには、次のクエリを使用します。
+このタスクは、グループにリンクされた孤立した作業用テーブルを削除します。 The **NmsGroup** テーブルには、クレンジングするグループが格納されます（0 とは異なるタイプ）。 テーブル名のプレフィックスは、 **grp**. クレンジングするグループを識別するには、次のクエリを使用します。
 
 ```sql
 SELECT iGroupId FROM NmsGroup WHERE iType>0"
@@ -403,7 +404,7 @@ DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WH
 
 場所 `$(tsDate)` は現在のサーバーの日付で、この日付から、 **NmsCleanup_VisitorPurgeDelay** オプション。
 
-### NAPI のクリーンアップ {#cleanup-of-npai}
+### NPAI のクリーンアップ {#cleanup-of-npai}
 
 このタスクを使用すると、有効なアドレスと一致するレコードを **NmsAddress** 表。 一括削除の実行には、次のクエリを使用します。
 
@@ -411,7 +412,7 @@ DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WH
 DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WHERE iStatus=2 AND tsLastModified < $(tsDate1) AND tsLastModified >= $(tsDate2) LIMIT 5000)
 ```
 
-場所 `status 2` が **[!UICONTROL 有効]** ステータス `$(tsDate1)` は現在のサーバーの日付で、 `$(tsDate2)` が **NmsCleanup_LastCleanup** オプション。
+場所 `status 2` が **[!UICONTROL 有効]** ステータス、 `$(tsDate1)` は現在のサーバーの日付で、 `$(tsDate2)` が **NmsCleanup_LastCleanup** オプション。
 
 ### 購読のクリーンアップ {#cleanup-of-subscriptions-}
 
@@ -457,8 +458,8 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
    SELECT distinct(sBroadLogSchema) FROM NmsDeliveryMapping WHERE sBroadLogSchema IS NOT NULL UNION SELECT distinct(sBroadLogExclSchema) FROM NmsDeliveryMapping WHERE sBroadLogExclSchema IS NOT NULL
    ```
 
-1. ミッドソーシングを使用する場合、 **NmsBroadLogMid** 配信マッピングでテーブルが参照されていません。 この **nms:broadLogMid** 前のクエリで復元されたリストにスキーマが追加されます。
-1. この **データベースのクリーンアップ** 次に、以前に復元したテーブルから古いデータを削除します。 次のクエリが使用されます。
+1. ミッドソーシングを使用する場合、 **NmsBroadLogMid** 配信マッピングでテーブルが参照されていません。 The **nms:broadLogMid** 前のクエリで復元されたリストにスキーマが追加されます。
+1. The **データベースのクリーンアップ** 次に、以前に復元したテーブルから古いデータを削除します。 次のクエリが使用されます。
 
    ```sql
    DELETE FROM $(tableName) WHERE iBroadLogId IN (SELECT iBroadLogId FROM $(tableName) WHERE tsLastModified < $(option) LIMIT 5000) 
@@ -472,14 +473,14 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
    DELETE FROM NmsProviderMsgId WHERE iBroadLogId IN (SELECT iBroadLogId FROM NmsProviderMsgId WHERE tsCreated < $(option) LIMIT 5000)
    ```
 
-   場所 `$(option)` が **NmsCleanup_BroadLogPurgeDelay** オプション ( [デプロイウィザード](#deployment-wizard)) をクリックします。
+   場所 `$(option)` は、 **NmsCleanup_BroadLogPurgeDelay** オプション ( [デプロイウィザード](#deployment-wizard)) をクリックします。
 
 ### NmsEmailErrorStat テーブルのクリーンアップ {#cleanup-of-the-nmsemailerrorstat-table-}
 
 このタスクは **NmsEmailErrorStat** 表。 メインプログラム (**coalesceErrors**) は 2 つの日付を定義します。
 
-* **開始日**:次のプロセスの日付で、 **NmsLastErrorStatCoalesce** オプション、またはテーブル内の最新の日付。
-* **終了日**:現在のサーバーの日付。
+* **開始日**: **NmsLastErrorStatCoalesce** オプション、またはテーブル内の最新の日付。
+* **終了日**：現在のサーバーの日付。
 
 開始日が終了日以上の場合、処理は実行されません。 この場合、 **coalesceUpToDate** メッセージが表示されます。
 
@@ -501,7 +502,7 @@ SELECT COUNT(*) FROM NmsEmailErrorStat WHERE tsDate>= $(start) AND tsDate< $(end
    SELECT iMXIP, iPublicId, SUM(iTotalConnections), SUM(iTotalErrors), SUM(iMessageErrors), SUM(iAbortedConnections), SUM(iFailedConnections), SUM(iRefusedConnections), SUM(iTimeoutConnections) FROM NmsEmailErrorStat WHERE tsDate>=$(start ) AND tsDate<$(end ) GROUP BY iMXIP, iPublicId HAVING SUM(iTotalErrors) >= 20
    ```
 
-1. この **coalesingErrors** メッセージが表示されます。
+1. The **coalesingErrors** メッセージが表示されます。
 1. 開始日と終了日の間に発生したすべてのエラーを削除する新しい接続が作成されます。 次のクエリが使用されます。
 
    ```sql
@@ -516,7 +517,7 @@ SELECT COUNT(*) FROM NmsEmailErrorStat WHERE tsDate>= $(start) AND tsDate< $(end
 
    各変数は、前のクエリで取得した値と一致します。
 
-1. この **開始** 変数が前のプロセスの値で更新され、ループが終了します。
+1. The **開始** 変数が前のプロセスの値で更新され、ループが終了します。
 
 ループとタスクが停止します。
 
@@ -544,7 +545,7 @@ DELETE FROM NmsMxDomain WHERE iMXIP NOT IN (SELECT DISTINCT iMXIP FROM NmsEmailE
 
 ### 提案のクリーンアップ {#cleanup-of-propositions}
 
-この **インタラクション** モジュールがインストールされている場合、このタスクが実行され、 **NmsPropositionXxx** テーブル。
+次の場合、 **インタラクション** モジュールがインストールされている場合、このタスクが実行され、 **NmsPropositionXxx** テーブル。
 
 提案テーブルのリストが復元され、次のクエリを使用して、各提案テーブルに対して一括削除が実行されます。
 
@@ -578,7 +579,7 @@ DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FRO
 DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
 ```
 
-場所 **$(tsDate)** は、 **XtkCleanup_AuditTrailPurgeDelay** オプションが減算されます。
+場所 **$(tsDate)** は、現在のサーバーの日付です。この日付から、 **XtkCleanup_AuditTrailPurgeDelay** オプションが減算されます。
 
 ### Nmsaddress のクリーンアップ {#cleanup-of-nmsaddress}
 
@@ -592,9 +593,9 @@ DELETE FROM NmsAddress WHERE iAddressId IN (SELECT iAddressId FROM NmsAddress WH
 
 ### 統計の更新とストレージの最適化 {#statistics-update}
 
-この **XtkCleanup_NoStats** 「 」オプションを使用すると、クリーンアップワークフローのストレージ最適化手順の動作を制御できます。
+The **XtkCleanup_NoStats** 「 」オプションを使用すると、クリーンアップワークフローのストレージ最適化手順の動作を制御できます。
 
-この **XtkCleanup_NoStats** オプションが存在しないか、その値が 0 の場合は、PostgreSQL の詳細モード (VACUUM VERBOSE ANALYZE) でストレージの最適化が実行され、他のすべてのデータベースの統計が更新されます。 このコマンドが実行されていることを確認するには、PostgreSQL ログを確認します。 VACUUM は次の形式で行を出力します。 `INFO: vacuuming "public.nmsactivecontact"` と ANALYZE は、次の形式で行を出力します。 `INFO: analyzing "public.nmsactivecontact"`.
+次の場合、 **XtkCleanup_NoStats** オプションが存在しないか、その値が 0 の場合は、PostgreSQL の詳細モード (VACUUM VERBOSE ANALYZE) でストレージの最適化が実行され、他のすべてのデータベースの統計が更新されます。 このコマンドが実行されていることを確認するには、PostgreSQL ログを確認します。 VACUUM は次の形式で行を出力します。 `INFO: vacuuming "public.nmsactivecontact"` と ANALYZE は、次の形式で行を出力します。 `INFO: analyzing "public.nmsactivecontact"`.
 
 このオプションの値が 1 の場合、統計の更新はどのデータベースでも実行されません。 次のログ行がワークフローログに表示されます。 `Option 'XtkCleanup_NoStats' is set to '1'`.
 

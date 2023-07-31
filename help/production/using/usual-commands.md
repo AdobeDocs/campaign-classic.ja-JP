@@ -2,16 +2,17 @@
 product: campaign
 title: 通常のコマンド
 description: 通常のコマンド
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 5%
+source-wordcount: '432'
+ht-degree: 9%
 
 ---
 
@@ -37,9 +38,9 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->すべてのモジュールをリストするには、 **nlserver pdump** コマンドを使用します。
+>すべてのモジュールを一覧表示するには、 **nlserver pdump** コマンドを使用します。
 
-パラメーター **-who** ：進行中の接続（データベースおよびアプリケーション）をリストします。
+パラメーターを追加できます **-who** ：進行中の接続（データベースおよびアプリケーション）をリストします。
 
 ```
 nlserver pdump -who
@@ -61,9 +62,9 @@ Datasource Server Provider Login
 default xxxxx myserver myprovider test400
 ```
 
-もう 1 つの便利なコマンドは、 **nlserver モニター**. 監視 XML ファイルのリストが表示されます (Adobe Campaignクライアントで取得され、または **monitor.jsp** web ページ ) を参照してください。
+もう 1 つの便利なコマンドは次のとおりです。 **nlserver モニター**. 監視 XML ファイルのリストが表示されます (Adobe Campaignクライアントで取得されます )。 **monitor.jsp** web ページ ) を参照してください。
 
-パラメーター **-missing** 存在しないモジュール（モジュール、モジュールシャットダウンなどのエラー）を
+パラメーターを追加できます **-missing** 存在しないモジュール（モジュール、モジュールシャットダウンなどのエラー）を
 
 ```
 nlserver monitor -missing
@@ -137,9 +138,9 @@ Adobe Campaignサービスを停止するには、次のいずれかのコマン
 
 ## config コマンド {#the-config-command}
 
-この **config** コマンドを使用すると、データベース接続の再構成など、サーバー設定を管理できます。
+The **config** コマンドを使用すると、データベース接続の再構成など、サーバー設定を管理できます。
 
-以下を使用： **config** 命令 **nlserver** 実行可能ファイル **-setdblogin** パラメーター。
+以下を使用します。 **config** 指令 **nlserver** 実行可能ファイル **-setdblogin** パラメーター。
 
 ```
 nlserver config -setdblogin:<[dbms:]account[:database][/password]@server>

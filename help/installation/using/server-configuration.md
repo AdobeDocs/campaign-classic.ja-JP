@@ -2,14 +2,15 @@
 product: campaign
 title: サーバーのセキュリティ設定
 description: サーバー設定のベストプラクティスの詳細を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
-source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '634'
 ht-degree: 62%
 
 ---
@@ -47,9 +48,9 @@ Campaign のインスタンスが JavaScript コード（ワークフローな�
 
 3 つの接続保護モードがあります。
 
-* **ブロック** :そのページに属さないすべての URL がブ許可リストロックされ、エラーメッセージが表示されます。 これは、ポストアップグレード後のデフォルトのモードです。
-* **許容** :このタブに属さないすべての URL が許許可リスト可されます。
-* **警告** :上にないすべての URL が許可されま許可リストすが、JS インタープリタが警告を表示するので、管理者がそれらを収集できます。 このモードでは JST-310027 警告メッセージが追加されます。
+* **ブロック** ：特定のに属さないすべての URL がブ許可リストに加えるロックされ、エラーメッセージが表示されます。 これは、ポストアップグレード後のデフォルトのモードです。
+* **許容** ：特定の URL に属さないすべての URL を許許可リストに加える可します。
+* **警告** ：上にない URL はすべて許可されま許可リストに加えるすが、JS インタープリターから警告が表示されるので、管理者がそれらを収集できます。 このモードでは JST-310027 警告メッセージが追加されます。
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -59,13 +60,13 @@ Campaign のインスタンスが JavaScript コード（ワークフローな�
 </urlPermission>
 ```
 
-新しいクライアントはブロックモードを使用します。新しい URL を許可する場合は、管理者に問い合わせて、URL を管理者に追加する必要があり許可リストます。
+新しいクライアントはブロックモードを使用します。新しい URL を許可する場合は、管理者に問い合わせて、URL を管理者に追加する必要があり許可リストに加えるます。
 
 移行してきた既存の顧客は、しばらくの間は、警告モードを使用できます。その間、URL を認証する前に、送信トラフィックを分析する必要があります。
 
 ## コマンドの制限（サーバー側）
 
-複数のコマンドがに含まブロックリストれており、 execCommand 関数を使用して実行することはできません。 また、セキュリティを強化するために、外部コマンド実行専用の Unix ユーザーが追加されました。ホストされているインスタンスの場合は、この制限が自動的に適用されます。オンプレミスインストールの場合は、次の手順に従って、この制限を手動で設定できます。 [このページ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). また、ワークフローアクティビティとして「**[!UICONTROL スクリプト]**」と「**[!UICONTROL 外部タスク]**」を選択できなくなりました（新しくインストールされたインスタンスの場合）。
+複数のコマンドがに含まブロックリストに加えるれており、 execCommand 関数を使用して実行することはできません。 また、セキュリティを強化するために、外部コマンド実行専用の Unix ユーザーが追加されました。ホストされているインスタンスの場合は、この制限が自動的に適用されます。オンプレミスインストールの場合は、次の手順に従って、この制限を手動で設定できます。 [このページ](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). また、ワークフローアクティビティとして「**[!UICONTROL スクリプト]**」と「**[!UICONTROL 外部タスク]**」を選択できなくなりました（新しくインストールされたインスタンスの場合）。
 
 ## その他の設定
 
@@ -78,10 +79,10 @@ Campaign のインスタンスが JavaScript コード（ワークフローな�
   >
   >特定のヘッダーを追加すると、Adobe Campaign で異常が発生する場合があります。
 
-Adobe Campaignでは、 `<dbcnx .../>` 要素。 この機能は使用しないでください。
+Adobe Campaignを使用すると、 `<dbcnx .../>` 要素を選択します。 この機能は使用しないでください。
 
-デフォルトでは、Adobe Campaign はセッションを特定の IP に関連付けませんが、この機能を有効にして、セッションが乗っ取られないようにすることができます。これをおこなうには、 [serverConf.xml ファイル](../../installation/using/the-server-configuration-file.md)に設定し、checkIPConsistent 属性をに設定します。 **true** 内 `<authentication>` ノード。
+デフォルトでは、Adobe Campaign はセッションを特定の IP に関連付けませんが、この機能を有効にして、セッションが乗っ取られないようにすることができます。これをおこなうには、「 [serverConf.xml ファイル](../../installation/using/the-server-configuration-file.md)に設定し、checkIPConsistent 属性をに設定します。 **true** （内） `<authentication>` ノード。
 
-デフォルトでは、Adobe Campaign の MTA は、コンテンツを SMTP サーバーに送信する際にセキュリティ保護された接続を使用しません。この機能を有効にする必要があります（配信速度が低下する可能性があります）。これをおこなうには、 **enableTLS** から **true** 内 `<smtp ...>` ノード。
+デフォルトでは、Adobe Campaign の MTA は、コンテンツを SMTP サーバーに送信する際にセキュリティ保護された接続を使用しません。この機能を有効にする必要があります（配信速度が低下する可能性があります）。これをおこなうには、 **enableTLS** から **true** （内） `<smtp ...>` ノード。
 
 認証ノードでセッションの持続時間を短くすることができます（sessionTimeOutSec 属性）。

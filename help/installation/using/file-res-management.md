@@ -1,17 +1,18 @@
 ---
 product: campaign
 title: ファイルとリソースの管理
-description: Campaign でのファイルおよびリソース管理の設定方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Application Settings
+description: Campaign でのファイルおよびリソース管理の設定方法を説明します。
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 0%
+source-wordcount: '663'
+ht-degree: 3%
 
 ---
 
@@ -21,11 +22,11 @@ ht-degree: 0%
 
 ## アップロードファイル形式の制限 {#limiting-uploadable-files}
 
-以下を使用： **uploadWhiteList** 属性を使用して、Adobe Campaignサーバーでのアップロードに使用できるファイルタイプを制限します。
+以下を使用します。 **uploadWhiteList** 属性を使用して、Adobe Campaignサーバーでのアップロードに使用できるファイルタイプを制限します。
 
-この属性は、 **dataStore** 要素 **serverConf.xml** ファイル。 次の **serverConf.xml** を [セクション](../../installation/using/the-server-configuration-file.md).
+この属性は、 **dataStore** の要素 **serverConf.xml** ファイル。 次の **serverConf.xml** を [セクション](../../installation/using/the-server-configuration-file.md).
 
-この属性のデフォルト値は、 **.+** およびを使用すると、あらゆるファイルタイプをアップロードできます。
+この属性のデフォルト値は、です。 **.+** およびを使用すると、あらゆるファイルタイプをアップロードできます。
 
 使用可能な書式を制限するには、属性値を有効な Java 正規表現で置き換えます。 複数の値を入力する場合は、コンマで区切ります。
 
@@ -35,13 +36,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この **uploadWhiteList** 属性によって、Adobe Campaignサーバーでのアップロードに使用できるファイルタイプが制限されます。 ただし、パブリッシュモードが **トラッキングサーバー** または **その他のAdobe Campaignサーバー**、 **uploadWhitelist** 属性も、これらのサーバーで更新する必要があります。
+>The **uploadWhiteList** 属性によって、Adobe Campaignサーバーでのアップロードに使用できるファイルタイプが制限されます。 ただし、パブリッシュモードが **トラッキングサーバー** または **その他のAdobe Campaignサーバー**、 **uploadWhitelist** 属性も、これらのサーバーで更新する必要があります。
 
-## プロキシ接続設定 {#proxy-connection-configuration}
+## プロキシ接続の設定 {#proxy-connection-configuration}
 
-Campaign サーバーをプロキシ経由で外部システムに接続するには、 **ファイル転送** 例えば、ワークフローアクティビティを使用できます。 これをおこなうには、 **proxyConfig** セクション **serverConf.xml** ファイルを指定します。 で使用可能なすべてのパラメーター **serverConf.xml** を [セクション](../../installation/using/the-server-configuration-file.md).
+Campaign サーバーをプロキシ経由で外部システムに接続するには、 **ファイル転送** 例えば、ワークフローアクティビティを使用できます。 これをおこなうには、 **proxyConfig** のセクション **serverConf.xml** ファイルを指定します。 で使用可能なすべてのパラメーター **serverConf.xml** を [セクション](../../installation/using/the-server-configuration-file.md).
 
-次のプロキシ接続が可能です。HTTP、HTTPS、FTP、SFTP。 20.2 Campaign リリース以降、HTTP および HTTPS プロトコルパラメーターは次のようになります。 **現在は使用できません**. これらのパラメーターは、9032 を含む以前のビルドで引き続き使用可能なので、以下でも説明されています。
+HTTP、HTTPS、FTP、SFTP のプロキシ接続が可能です。 20.2 Campaign リリース以降、HTTP および HTTPS プロトコルパラメーターは次のようになります。 **現在は使用できません**. これらのパラメーターは、9032 を含む以前のビルドで引き続き使用可能なので、以下でも説明されています。
 
 >[!CAUTION]
 >
@@ -124,7 +125,7 @@ FTP/FTPS 接続は、proxyFTP パラメーターで定義されます。
 
 キャンペーンに関連する E メールやパブリックリソースで使用される画像を公開するには、外部からアクセス可能なサーバー上に存在する必要があります。 その後、外部の受信者やオペレーターが使用できるようになります。 [詳細情報](../../installation/using/deploying-an-instance.md#managing-public-resources)
 
-パブリックリソースは **/var/res/instance** Adobe Campaignインストールディレクトリのディレクトリ。
+パブリックリソースは、 **/var/res/instance** Adobe Campaignインストールディレクトリのディレクトリ。
 
 一致する URL は次のとおりです。 **http://server/res/instance** 場所 **インスタンス** は、トラッキングインスタンスの名前です。
 

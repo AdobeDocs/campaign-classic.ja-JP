@@ -2,13 +2,13 @@
 product: campaign
 title: レポートのリスト
 description: レポートのリスト
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7 のみに適用"
-feature: Reporting
+badge: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+feature: Reporting, Monitoring
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 100%
+source-wordcount: '1014'
+ht-degree: 99%
 
 ---
 

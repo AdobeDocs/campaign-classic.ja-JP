@@ -2,14 +2,15 @@
 product: campaign
 title: E メールのアーカイブ
 description: E メールのアーカイブ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings, Email
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1374'
 ht-degree: 87%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 87%
 
 * 「BCC でメールを送信」はオプションの機能です。ライセンス契約をご確認ください。
 * ホ **スト型およびハイブリッド型アーキテクチャの場合は**、アカウント担当者に問い合わせてアクティブ化してください。 BCC に設定するメールアドレスをアドビ システムズにご提供いただく必要があります。
-* の場合 **オンプレミスインストール**&#x200B;を使用する場合は、次のガイドラインに従ってアクティブ化します。詳しくは、 [電子メール BCC のアクティブ化（オンプレミス）](#activating-email-archiving--on-premise-) および [BCC 電子メールアドレスの設定（オンプレミス）](#configuring-the-bcc-email-address--on-premise-) セクション。
+* の場合 **オンプレミスインストール**&#x200B;を使用する場合は、次のガイドラインに従ってアクティブ化します。詳しくは、 [E メール BCC のアクティブ化（オンプレミス）](#activating-email-archiving--on-premise-) および [BCC 電子メールアドレスの設定（オンプレミス）](#configuring-the-bcc-email-address--on-premise-) セクション。
 * BCC に設定できるメールアドレスは 1 つだけです。
 * 「BCC でメールを送信」を設定したら、配信テンプレートまたは「**[!UICONTROL BCC でメールを送信]**」オプション経由の配信で、その機能が有効になっていることを確認します。詳しくは、[この節](../../delivery/using/sending-messages.md#archiving-emails)を参照してください。
 * 正常に送信された電子メールのみが考慮され、バウンスは考慮されません。
@@ -157,7 +158,7 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
    * 1つのクライアントに対して複数のインスタンス（開発、テスト、実稼動）で同じMTAを使用する場合、3つのインスタンスすべてから送信されるメッセージは、dataLogPathオプションで複製されます。
 
 * **接続ごとの電子メール**:BCC電子メールのアーカイブは、接続を開き、その接続を介してすべての電子メールを送信しようとすることで動作します。 Adobeは、社内のテクニカルコンタクトに、特定の接続で受け入れられる電子メールの数を確認することを推奨します。 この数を増やすと、BCCのスループットに大きな影響を与える可能性があります。
-* **BCC送信IP**:現在、BCC電子メールは、通常のMTAプロキシを通じて送信されません。 代わりに、MTAサーバーから宛先の電子メールサーバーへの直接接続が開かれます。 つまり、使用している電子メールサーバーの設定に応じて、許可リストネットワーク上のに IP を追加する必要が生じる場合があります。
+* **BCC送信IP**:現在、BCC電子メールは、通常のMTAプロキシを通じて送信されません。 代わりに、MTAサーバーから宛先の電子メールサーバーへの直接接続が開かれます。 つまり、使用している電子メールサーバーの設定に応じて、許可リストに加えるネットワーク上のに IP を追加する必要が生じる場合があります。
 
 <!--## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}
 

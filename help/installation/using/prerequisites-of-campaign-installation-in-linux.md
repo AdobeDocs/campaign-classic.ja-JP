@@ -2,16 +2,17 @@
 product: campaign
 title: Linux での Campaign のインストールの前提条件
 description: Linux での Campaign のインストールの前提条件
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 3%
+source-wordcount: '914'
+ht-degree: 4%
 
 ---
 
@@ -42,9 +43,9 @@ Adobe Campaignのインストールに必要な技術的およびソフトウェ
 
 Linux にAdobe Campaignをインストールするには、必要なライブラリがあることを確認してください。
 
-* ライブラリ C が TLS（スレッドローカルストレージ）モードをサポートできる必要があります。 このモードは、Xen のサポートが無効になっているカーネルを除いて、ほとんどの場合アクティブになります。
+* ライブラリ C が TLS（スレッドローカルストレージ）モードをサポートできる必要があります。 このモードは、Xen のサポートが無効になっている一部のカーネルを除き、ほとんどの場合はアクティブになります。
 
-  これを確認するには、 **uname-a | grepxen** コマンドを使用します。
+  これを確認するには、 **uname-a | grep xen** コマンドを使用します。
 
   コマンドが何も返さない（空行）場合は、設定が正しいことを意味します。
 
@@ -57,8 +58,8 @@ Linux にAdobe Campaignをインストールするには、必要なライブラ
   次のバージョンの **リビク** がサポートされている（32 ビットまたは 64 ビット）:
 
    * RHEL 7/8、CentOS 7:libicu50
-   * Debian 8:libicu52
-   * Debian 9:libicu57
+   * Debian 8: libicu52
+   * Debian 9: libicu57
 
   Adobe Campaignを使用するには、libc-ares ライブラリをインストールする必要があります。 RHEL/CentOS で、次のコマンドを実行します。
 
@@ -92,7 +93,7 @@ RHEL および CentOS では、SELinux を有効にする際に、データベ�
 
 **次の手順に従います。**
 
-* ファイルを編集 **/etc/selinux/config**
+* ファイルを編集します **/etc/selinux/config**
 
 * SELINUX 行を次のように変更します。
 
@@ -110,7 +111,7 @@ Debian で、次のコマンドを追加します。
 aptitude install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
 ```
 
-Redhat で、次のコマンドを使用します。
+Redhat では、次のコマンドを使用します。
 
 * CentOS/RHEL 7 の場合：
 
@@ -126,7 +127,7 @@ Redhat で、次のコマンドを使用します。
 
 ### 日本語インスタンス用のフォント {#fonts-for-japanese-instances}
 
-日本語インスタンスでは、レポートをPDF形式で書き出すために特定の文字のフォントが必要です。
+日本語インスタンスでは、レポートをPDF形式で書き出すために、特定の文字のフォントが必要です。
 
 Debian で、次のコマンドを追加します。
 
@@ -194,7 +195,7 @@ Linux RPM パッケージは、Technology Network からOracleで入手できま
 
 >[!NOTE]
 >
->既にOracleクライアントをインストールしているが、グローバル環境の場合 ( 例：/etc/profile) が正しく設定されていない場合は、 **nl6/customer.sh** スクリプトについて詳しくは、 [環境変数](../../installation/using/installing-packages-with-linux.md#environment-variables).
+>既にOracleクライアントをインストールしているが、グローバル環境（例：/etc/profile）が正しく設定されていない場合は、見つからない情報を **nl6/customer.sh** スクリプトについて詳しくは、 [環境変数](../../installation/using/installing-packages-with-linux.md#environment-variables).
 
 **トラブルシューティングとベストプラクティス**
 
@@ -206,7 +207,7 @@ Linux RPM パッケージは、Technology Network からOracleで入手できま
 
    Instant Client バージョンを使用する際に、様々なOracleが見つかりました。 また、インスタントクライアントで Timezone ファイルを変更することはできません。
 
-1. 必ず **クライアントバージョン** そして **データベースサーバーのバージョン** は **同じ**.
+1. 次を確認します。 **クライアントバージョン** そして **データベースサーバーのバージョン** は **同じ**.
 
    oracleの互換表にもかかわらず、バージョンを混在させ、クライアントとサーバーのバージョンを一致させることを推奨することで、問題が発生することがわかっています。
 
@@ -220,11 +221,11 @@ Linux RPM パッケージは、Technology Network からOracleで入手できま
 
 ## 実装手順 {#implementation-steps}
 
-Adobe Campaign installations for Linux は、次の順序で実行する必要があります。サーバーのインストール後にインスタンスの設定が続きます。
+Adobe Campaign installations for Linux は、次のシーケンスで実行する必要があります。サーバーのインストール、その後のインスタンスの設定。
 
 この章では、インストールプロセスについて説明します。 インストール手順は次のとおりです。
 
-* 手順 1:アプリケーションサーバーのインストール ( [Linux でのパッケージのインストール](../../installation/using/installing-packages-with-linux.md).
+* 手順 1：アプリケーションサーバーのインストール ( [Linux でのパッケージのインストール](../../installation/using/installing-packages-with-linux.md).
 * 手順 2:Web サーバーとの統合（デプロイされているコンポーネントに応じて、オプション）。
 
 インストール手順が完了したら、インスタンス、データベース、サーバーを設定する必要があります。 詳しくは、 [初期設定について](../../installation/using/about-initial-configuration.md).

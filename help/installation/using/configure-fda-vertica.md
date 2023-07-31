@@ -2,15 +2,16 @@
 product: campaign
 title: vertica analyticsへのアクセスの設定
 description: FDA でVertica analyticsへのアクセスを設定する方法
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 25%
+source-wordcount: '413'
+ht-degree: 24%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 25%
 キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存された情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 [!DNL Vertica Analytics].
 
 1. 設定 [!DNL Vertica Analytics] オン [CentOS](#vertica-centos), [Windows](#vertica-windows) または [Debian](#vertica-debian)
-1. の設定 [!DNL Vertica Analytics] [外部アカウント](#vertica-external) キャンペーン内
+1. を設定します。 [!DNL Vertica Analytics] [外部アカウント](#vertica-external) Campaign 内
 
 ![](assets/snowflake_3.png)
 
@@ -87,7 +88,7 @@ ht-degree: 25%
 
 1. Adobe Campaignで、 [!DNL Vertica Analytics] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#vertical-external).
 
-## vertica analytics(Debian) {#vertica-debian}
+## Vertica analytics(Debian) {#vertica-debian}
 
 1. [!DNL Vertica Analytics] 用の ODBC ドライバーをダウンロードします。[ここをクリック](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html)して、ダウンロードを開始します。
 
@@ -141,7 +142,7 @@ ht-degree: 25%
 
 1. Adobe Campaignで、 [!DNL Vertica Analytics] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#vertica-external).
 
-## vertica analytics外部アカウント {#vertica-external}
+## Vertica analytics外部アカウント {#vertica-external}
 
 次を作成する必要があります： [!DNL Vertica Analytics] Campaign インスタンスを [!DNL Vertica Analytics] 外部データベース。
 
@@ -151,7 +152,7 @@ ht-degree: 25%
 
 1. 外部アカウント&#x200B;**[!UICONTROL タイプ]**&#x200B;として、「**[!UICONTROL 外部データベース]**」を選択します。
 
-1. の設定 **[!UICONTROL vertica analytics]** 外部アカウントで、次を指定する必要があります。
+1. を設定します。 **[!UICONTROL Vertica analytics]** 外部アカウントで、次を指定する必要があります。
 
    * **[!UICONTROL タイプ]**：[!DNL Vertica Analytics]
 

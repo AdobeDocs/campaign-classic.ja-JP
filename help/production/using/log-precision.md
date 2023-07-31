@@ -2,15 +2,16 @@
 product: campaign
 title: ログの精度
 description: ログの精度
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: c2470098-62f3-4fee-b1c5-800ed0e91f75
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '345'
 ht-degree: 80%
 
 ---
@@ -49,7 +50,7 @@ Adobe Campaignは、次の2つのレベルのログを使用して動作でき�
 
    >[!NOTE]
    >
-   >次を使用する場合、 **tracefilter :&#42;**&#x200B;に設定すると、すべてのログタイプがアクティベートされます。ncm, rdr, nms, jst，タイミング， wdbc, ldap, soap, xtk, xtkquery，セッション， xtkwriter，ネットワーク， pop3, inmail\
+   >次を使用する場合、 **tracefilter :&#42;**、すべてのログタイプがアクティブ化されます。ncm, rdr, nms, jst，タイミング、 wdbc, ldap, soap, xtk, xtkquery，セッション、 xtkwriter，ネットワーク、 pop3, inmail\
    >最も役立つログの種類は次のとおりです。 **wdbc** (すべてのSQLクエリを表示)、 **soap** （すべてのSOAP呼び出しを表示）、 **ldap** (認証後にすべてのLDAPクエリを表示)、 **xtkquery** (すべてのquerydefのリストを表示)。\
    >これらは個別に使用できます(**例えば、tracefilter:soap,wdbc** )。 また、すべてをアクティブ化し、特定の他を除外するように選択することもできます。 **-tracefilter :&#42;,!soap**
 

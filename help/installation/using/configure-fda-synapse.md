@@ -2,14 +2,15 @@
 product: campaign
 title: Synapse へのアクセスの設定
 description: FDA での Synapse へのアクセスの設定方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '801'
 ht-degree: 72%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 72%
 キャンペーンを使用 [Federated Data Access](../../installation/using/about-fda.md) (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 **MicrosoftAzure synapse分析**.
 
 1. でAzure synapseを設定 [CentOS](#azure-centos), [Windows](#azure-windows) または [Debian](#azure-debian)
-1. azure synapse [外部アカウント](#azure-external) キャンペーン内
+1. azure synapse [外部アカウント](#azure-external) Campaign 内
 
 ## CentOS での Azure Synapse {#azure-centos}
 
@@ -114,7 +115,7 @@ CentOS でAzure synapseを設定するには、次の手順に従います。
 
 Windows で Azure Synaps を設定するには、以下を実行します。
 
-1. まず、Microsoft ODBC ドライバーをインストールします。これは、 [このページ](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
+1. まず、Microsoft ODBC ドライバーをインストールします。これは、で確認できます。 [このページ](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
 1. 次のファイルを選択してインストールします。
 
@@ -191,7 +192,7 @@ Debian で Azure Synapse を設定するには、以下を実行します。
    >
    >Azure Synapse Analytics 側からの通信を許可するには、パブリック IP を許可リストに追加する必要がある場合があります。その場合は、[Azure のドキュメント](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/firewall-configure)を参照してください。
 
-## azure synapse外部アカウント {#azure-external}
+## Azure synapse外部アカウント {#azure-external}
 
 [!DNL Azure Synapse] 外部アカウントを使用すれば、Campaign インスタンスを Azure Synapse 外部データベースに接続することができます。
 
@@ -205,11 +206,11 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
    ![](assets/azure_1.png)
 
-1. の下 **[!UICONTROL 設定]**&#x200B;を選択します。 **[!UICONTROL azure synapse分析]** から **[!UICONTROL タイプ]** 」ドロップダウンリストから選択できます。
+1. の下 **[!UICONTROL 設定]**&#x200B;を選択します。 **[!UICONTROL Azure synapse分析]** から **[!UICONTROL タイプ]** 」ドロップダウンリストから選択できます。
 
    ![](assets/azure_2.png)
 
-1. の設定 [!DNL Azure Synapse] 外部アカウント：
+1. を設定します。 [!DNL Azure Synapse] 外部アカウント：
 
    * 標準認証の場合は、次を指定する必要があります。
 
@@ -229,7 +230,7 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
       * **[!UICONTROL データベース]**：データベースの名前
 
-      * **[!UICONTROL オプション]**:次の構文を追加します。 `Authentication=ActiveDirectoryMsi`
+      * **[!UICONTROL オプション]**：次の構文を追加します。 `Authentication=ActiveDirectoryMsi`
 
      ![](assets/azure_4.png)
 
@@ -239,4 +240,4 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
 | オプション | 説明 |
 |---|---|
-| 認証 | コネクタでサポートされる認証のタイプ。 現在のサポート値：ActiveDirectoryMSI です。 </br>詳しくは、 [SQL ドキュメント](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) ( 接続文字列の例 n°8)。 |
+| 認証 | コネクタでサポートされる認証のタイプ。 現在サポートされている値： ActiveDirectoryMSI。 </br>詳しくは、 [SQL ドキュメント](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) ( 接続文字列の例 n°8)。 |

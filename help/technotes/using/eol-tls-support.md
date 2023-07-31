@@ -2,15 +2,16 @@
 product: campaign
 title: TLS 1.0 および 1.1 のサポートの提供終了（EOL）
 description: TLS 1.0 および 1.1 のサポートの提供終了（EOL）
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Technote
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
 exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 100%
+source-wordcount: '849'
+ht-degree: 99%
 
 ---
 

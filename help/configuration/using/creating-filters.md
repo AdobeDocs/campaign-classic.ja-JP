@@ -2,13 +2,14 @@
 product: campaign
 title: フィルターの作成
 description: カスタムテーブルのフィルターを作成する方法を説明します
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Profiles, Custom Resources
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 3%
+source-wordcount: '117'
+ht-degree: 5%
 
 ---
 
@@ -23,5 +24,5 @@ Adobe Campaignに付属している組み込みの受信者テーブルと同様
 1. 次に移動： **[!UICONTROL 管理/設定/定義済みフィルター]** ノード。
 1. 新しいフィルターを作成します。
 1. 次を入力します。 **[!UICONTROL ラベル]** フィルターの「 」で、外部の受信者テーブルに一致するスキーマを **[!UICONTROL ドキュメントタイプ]** フィールドに入力します。
-1. を **[!UICONTROL フィルター条件]** スキーマのフィールドに基づいて。
+1. を作成します。 **[!UICONTROL フィルター条件]** スキーマのフィールドに基づいて。
 1. フィルターを保存します。

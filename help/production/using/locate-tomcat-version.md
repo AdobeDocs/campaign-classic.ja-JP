@@ -1,17 +1,18 @@
 ---
 product: campaign
-title: Adobe Campaignで Tomcat バージョンを探します
+title: Adobe Campaignで Tomcat バージョンを探します。
 description: Adobe Campaignのインスタンスで使用される埋め込み Tomcat Web サーブレットの現在のバージョンを調べる方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 0%
+source-wordcount: '524'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +32,7 @@ Adobe Campaignで使用される Tomcat は、カスタマイズされた埋め�
 
 組み込みバージョンの Tomcat の新しいバージョンまたはアップグレードバージョンは、Adobe Campaign自体の新しいビルドでのみリリースされ、Adobe Campaignビルド以外の別のパッチとしてはリリースされません。
 
-## 埋め込み Tomcat のバージョンの検索方法
+## 埋め込み Tomcat のバージョンの見つけ方
 
 Adobe Campaignのインスタンス内で埋め込み Tomcat のバージョンを見つけるには、次の手順に従います。
 
@@ -39,7 +40,7 @@ Adobe Campaignのインスタンス内で埋め込み Tomcat のバージョン�
 >
 >確認する必要があるAdobe Campaignサーバー上のファイルにアクセスできる必要があります。 以下に説明する手順は、次の場合にのみ適用されます。 **オンプレミスホスティングモデル**.
 
-1. 次に移動： *\tomcat-7\lib* Adobe Campaignインストールフォルダー内のサブフォルダー ( 例： *C:\Program Files\ [Installation_folder]* Windows の場合、または */usr/local/neolane/nl6* （Linux の場合）。
+1. 次に移動： *\tomcat-7\lib* Adobe Campaignインストールフォルダー内のサブフォルダー ( 例： *C:\Programファイル\ [Installation_folder]* （Windows の場合）、または */usr/local/neolane/nl6* （Linux の場合）。
 
 1. ファイルをコピーします。 *catalina.jar* を外部の一時フォルダー（デスクトップなど）に追加し、拡張子を.jar から.zip に変更します。
 

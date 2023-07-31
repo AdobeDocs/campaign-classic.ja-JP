@@ -2,16 +2,17 @@
 product: campaign
 title: 管理
 description: 管理
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 2%
+source-wordcount: '436'
+ht-degree: 6%
 
 ---
 
@@ -39,14 +40,14 @@ Adobe Campaignをインストールすると、 **nlserver** 起動シーケン�
 >
 >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl start nlserver** / **systemctl stop nlserver**
 
-以下は、Linux でアクセス可能な通常の管理コマンドのリストです ( **Adobe Campaign**):
+以下は、Linux でアクセス可能な通常の管理コマンドのリストです。 **Adobe Campaign**):
 
-* すべての開始Adobe Campaignモジュールを表示： **/etc/init.d/nlserver6 pdump** または **/etc/init.d/nlserver6 のステータス**
+* すべての開始済みAdobe Campaignモジュールを表示： **/etc/init.d/nlserver6 pdump** または **/etc/init.d/nlserver6 のステータス**
 
   >[!NOTE]
   >
   >の追加 **-who** パラメーターを **pdump** コマンドを使用すると、現在の接続（ユーザーとプロセス）に関する情報を収集できます。\
-  >この **/etc/init.d/nlserver6 のステータス** コマンド（&quot;-who&quot;パラメータを指定しない）は、次の値を返します。
+  >The **/etc/init.d/nlserver6 のステータス** コマンド（&quot;-who&quot;パラメータを指定しない）は、次の値を返します。
   >
   >    * すべてのプロセスが実行されている場合は 0。
   >    * プロセスが見つからない場合は 1。
@@ -80,8 +81,8 @@ Adobe Campaignをインストールすると、 **nlserver** 起動シーケン�
   >
   >* インスタンスを指定しない場合は、「デフォルト」インスタンスが使用されます。
   >* 緊急の場合は、 **-immediate** プロセスを即時に停止させるオプション（Unix コマンドと同じ） **kill -9**) をクリックします。
-  >* 以下を使用： **-noconsole** オプションを使用して、起動したモジュールがコンソールに何も表示されないようにします。 ログは、 **syslogd** モジュール。
-  >* 以下を使用： **-verbose** 「 」オプションを使用して、プロセスアクションに関する追加情報を表示できます。
+  >* 以下を使用します。 **-noconsole** オプションを使用して、起動したモジュールがコンソールに何も表示されないようにします。 ログは、 **syslogd** モジュール。
+  >* 以下を使用します。 **-verbose** 「 」オプションを使用して、プロセスアクションに関する追加情報を表示できます。
   >
   >   例：
   >
@@ -105,4 +106,4 @@ Adobe Campaignをインストールすると、 **nlserver** 起動シーケン�
 
   >[!NOTE]
   >
-  >一部の設定の変更は動的には反映されません。Adobe Campaignはシャットダウンしてから再起動する必要があります。
+  >一部の設定の変更は動的には反映されません。Adobe Campaignをシャットダウンしてから再起動する必要があります。

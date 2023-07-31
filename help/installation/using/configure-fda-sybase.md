@@ -2,15 +2,16 @@
 product: campaign
 title: Sybase IQ へのアクセスを設定する
 description: FDA でのSybase IQへのアクセスの設定方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0fdf8259-5cab-4a9d-adb3-6c55ec5c8851
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 67%
+source-wordcount: '342'
+ht-degree: 66%
 
 ---
 
@@ -20,16 +21,16 @@ ht-degree: 67%
 
 キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、Sybase IQへのアクセスを設定します。
 
-1. 設定 [sybase IQデータベース](#configuring-sybase)
-1. Sybase IQの設定 [外部アカウント](#sybase-external) キャンペーン内
+1. 設定 [Sybase IQデータベース](#configuring-sybase)
+1. sybase IQの設定 [外部アカウント](#sybase-external) Campaign 内
 
-## sybase IQ設定 {#configuring-sybase}
+## Sybase IQ設定 {#configuring-sybase}
 
 FDA で外部Sybase IQベースに接続するには、Adobe Campaignサーバーで追加の設定が必要になります。
 
 >[!NOTE]
 >
->開始する前に、 **unixodbc** パッケージがサーバー上にある。
+>開始する前に、 **unixodbc** パッケージはサーバー上にあります。
 
 1. **iq_odbc** をインストールします。インストールの終了時にエラーが発生することがあります。このエラーは無視してかまいません。
 
@@ -67,9 +68,9 @@ FDA で外部Sybase IQベースに接続するには、Adobe Campaignサーバ�
    * customer.sh ファイルを使用してパスを宣言する場合は、パス /opt/sybase/IQ-16_0/lib64 を LD_LIBRARY_PATH 変数に追加します。
    * それ以外の場合は、Unix コマンドを使用します。
 
-## sybase IQ外部アカウント {#sybase-external}
+## Sybase IQ外部アカウント {#sybase-external}
 
-Sybase IQ外部アカウントを使用すれば、Campaign インスタンスをSybase IQ外部データベースに接続することができます。
+sybase IQ外部アカウントを使用すれば、Campaign インスタンスをSybase IQ外部データベースに接続することができます。
 
 1. キャンペーンから **[!UICONTROL エクスプローラ]**&#x200B;をクリックし、 **[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL 外部アカウント]**.
 

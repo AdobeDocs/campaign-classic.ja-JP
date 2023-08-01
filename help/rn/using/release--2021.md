@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
-source-wordcount: '2597'
+source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
+workflow-type: tm+mt
+source-wordcount: '2551'
 ht-degree: 100%
 
 ---
@@ -268,8 +268,6 @@ Campaign で次のシステムがサポートされるようになりました�
 * フィードバックのすべてのカテゴリが収集され、完全で正確なレポートが可能になりました。
 * 配信済み指標の計算は、精度と反応性を向上させるために、拡張 MTA からのリアルタイムフィードバックに基づいておこなわれるようになりました。
 * EFS は、同期ソフトバウンスレポートの遅延の問題を解決します。
-
-詳しくは、[詳細ドキュメント](../../delivery/using/sending-with-enhanced-mta.md#efs)を参照してください。このプライベートベータ版への参加を希望される場合は、ご連絡いたしますので、[フォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u)にご記入ください。
 
 **その他の変更**
 

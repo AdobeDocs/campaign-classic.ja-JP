@@ -6,10 +6,10 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用�
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 4c0c3007a03d4274fa1b436259cb2d302fcc8185
+source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 100%
+source-wordcount: '1378'
+ht-degree: 96%
 
 ---
 
@@ -116,10 +116,6 @@ Campaign 配信スループットグラフでは、E メール受信者に対す
 
 配信スループットについて詳しくは、[この節](../../reporting/using/global-reports.md#delivery-throughput)を参照してください。
 
->[!NOTE]
->
->[メールフィードバックサービス](#email-feedback-service)（EFS）機能（現在ベータ版として利用可能）を使用すると、キャンペーン配信スループットグラフには、メール受信者へのスループットが引き続き表示されます。
-
 ### 再試行
 
 配信の再試行設定は、Campaign では使用されなくなりました。ソフトバウンスの再試行とその間隔は、メッセージの電子メールドメインから返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が決定します。
@@ -156,61 +152,13 @@ Enhanced MTA からハードバウンスメッセージが返されると、ス�
 
 そのため、有効期間の終了まで待って、最終的な&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージと、実際に&#x200B;**[!UICONTROL 送信済み]**&#x200B;および&#x200B;**[!UICONTROL 失敗]**&#x200B;となったメッセージの最終数を確認する必要があります。
 
-<!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
-
-### E メールフィードバックサービス（ベータ版） {#email-feedback-service}
-
-E メールフィードバックサービス（EFS）機能を使用すると、フィードバックが Enhanced MTA（メッセージ転送エージェント）から直接取り込まれるので、各 E メールのステータスが正確にレポートされます。
-
->[!IMPORTANT]
->
->E メールフィードバックサービスは、現在ベータ版機能としてご利用いただけます。
->
->このベータプログラムへの参加を希望される場合は、[このフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u)に記入してください。こちらから連絡させていただきます。
-
-配信の開始後、Campaign から Enhanced MTA にメッセージが正常に中継されると、**[!UICONTROL 成功]**&#x200B;のパーセンテージは変更されません。
-
-<!--![](assets/efs-sending.png)-->
-
-配信ログには、対象アドレスごとに&#x200B;**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;ステータスが表示されます。
-
-<!--![](assets/efs-pending.png)-->
-
-メッセージが対象プロファイルに実際に配信され、この情報が Enhanced MTA からリアルタイムでレポートされると、配信ログは、メッセージを受信した各アドレスの&#x200B;**[!UICONTROL 送信済み]**&#x200B;ステータスを示します。**[!UICONTROL 成功]**&#x200B;のパーセンテージは、成功した各配信に応じて増加します。
-
-Enhanced MTA からハードバウンスメッセージが報告されると、ログのステータスが&#x200B;**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->に変更されます。
-
-ソフトバウンスメッセージが Enhanced MTA から返されても、ログのステータスは変更されません（**[!UICONTROL サービスプロバイダーで受信済み]**）。[エラー理由](understanding-delivery-failures.md#delivery-failure-types-and-reasons)のみが更新されます<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->。**[!UICONTROL 成功]**&#x200B;のパーセンテージは変更されません。その後、ソフトバウンスメッセージが配信[有効期間](steps-sending-the-delivery.md#defining-validity-period)中ずっと再試行されます。
-
-* 有効期間の終了前に再試行が成功した場合、メッセージのステータスは&#x200B;**[!UICONTROL 送信済み]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増えます。
-
-* それ以外の場合は、ステータスが&#x200B;**[!UICONTROL 失敗]**&#x200B;に変わります。**[!UICONTROL 成功]**<!--and **[!UICONTROL Bounces + errors]** -->のパーセンテージは変更されません。
-
->[!NOTE]
->
->ハードバウンスとソフトバウンスについて詳しくは、[この節](understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
->
->一時的な配信エラー後の再試行について詳しくは、[この節](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
-
-
-次の表に、KPI の変更と、EFS 機能によって導入された送信ログのステータスを示します。
-
-**E メールフィードバックサービスを使用する**
-
-| 送信プロセスの手順 | KPI 概要 | 送信ログのステータス |
-|--- |--- |--- |
-| Campaign から Enhanced MTA にメッセージが正常に転送される | **[!UICONTROL 成功]**&#x200B;パーセンテージが表示されない（0%から開始） | サービスプロバイダーで受信済み |
-| Enhanced MTA からハードバウンスメッセージが返される | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 失敗 |
-| ソフトバウンスメッセージが Enhanced MTA から返される | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | サービスプロバイダーで受信済み |
-| ソフトバウンスメッセージの再試行が成功する | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増加する | 送信済み |
-| ソフトバウンスメッセージの再試行に失敗する | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 失敗 |
-
-**E メールフィードバックサービスを使用しない**
+次の表に、送信プロセスの様々な手順と、対応する KPI および送信ログのステータスを示します。
 
 | 送信プロセスの手順 | KPI 概要 | 送信ログのステータス |
 |--- |--- |--- |
 | Campaign から Enhanced MTA にメッセージが正常に転送される | **[!UICONTROL 成功]**&#x200B;パーセンテージは 100%から開始 | 送信済み |
-| Enhanced MTA からハードバウンスメッセージが返される | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;パーセンテージが減少する | 失敗 |
-| ソフトバウンスメッセージが Enhanced MTA から返される | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 送信済み |
-| ソフトバウンスメッセージの再試行が成功する | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 送信済み | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増加する | 送信済み |
-| ソフトバウンスメッセージの再試行に失敗する | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;パーセンテージが減少する | 失敗 |
+| Enhanced MTA からハードバウンスメッセージが返される | **[!UICONTROL 成功]** それに応じて割合が減少する | 失敗 |
+| ソフトバウンスメッセージが Enhanced MTA から返される | 変更なし **[!UICONTROL 成功]** 割合 | 送信済み |
+| ソフトバウンスメッセージの再試行が成功する | 変更なし **[!UICONTROL 成功]** 割合 | 送信済み | **[!UICONTROL 成功]** それに応じて割合が増加します | 送信済み |
+| ソフトバウンスメッセージの再試行に失敗する | **[!UICONTROL 成功]** それに応じて割合が減少する | 失敗 |
+

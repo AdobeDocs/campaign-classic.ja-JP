@@ -2,13 +2,13 @@
 product: campaign
 title: Enhanced MTA を使用した Adobe Campaign Classic での送信
 description: Adobe Campaign Enhanced MTA を使用したメール送信の範囲と特異性について説明します。
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 4c0c3007a03d4274fa1b436259cb2d302fcc8185
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '1797'
 ht-degree: 100%
 
 ---
@@ -90,32 +90,9 @@ No, there is no extra fee associated with the upgrade process to enable the use 
 
 **Enhanced MTA へのアップグレードは、現在進行中のキャンペーンや配信に影響を与えますか？**
 
-インスタンスを Enhanced MTA にアップグレードする前に既に準備済みだった配信は、新しい MTA を正しく使用するために、準備をやり直す必要があります。
-
 Adobe Campaign トランザクションメッセージ機能を使用する顧客の場合、E メールをトリガーする API 呼び出しは、アップグレードの非常に短いダウンタイム中にキューに入り、アップグレードの完了時に試行されます。
 
 ## Enhanced MTA の特異性 {#enhanced-mta-impacts}
-
-### Enhanced MTA ヘッダー
-
-最新の Campaign Classic インスタンスには、必要な Enhanced MTA ヘッダーをすべてのメッセージに追加するコードが含まれています。Adobe Campaign 19.1（ビルド 9032）以降を使用していて、これに該当しない場合は、&quot;useMomentum=true&quot; パラメーターを実行インスタンス設定（[serverConf.xml](../../installation/using/the-server-configuration-file.md#mta) ファイル内）に追加するように[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に依頼する必要があります。このインスタンスは、設定に応じて、マーケティングインスタンス、[ミッドソーシングインスタンス](../../installation/using/mid-sourcing-server.md)、[トランザクションメッセージ実行インスタンス](../../message-center/using/configuring-instances.md#execution-instance)のいずれかになります。
-
-ただし、このコードを含まない古いインスタンスを使用している場合は、**[!UICONTROL Typology Rule for Enhanced MTAs]** という名前の新しいタイポロジルールを、Campaign インスタンス内のすべての既存タイポロジに追加する必要があります。
-このルールは、Enhanced MTA へのアップグレードの一環としてインストールされた**[!UICONTROL タイポロジ]**&#x200B;パッケージによって追加されます。
-
->[!IMPORTANT]
->
->このタイポロジルールがタイポロジに表示される場合は、削除または変更をしないでください。E メール配信に悪い影響を与える可能性があります。
-
-この&#x200B;**[!UICONTROL タイポロジ]**&#x200B;パッケージを Adobe Campaign マーケティングインスタンスにインストールする必要があります。
-
-ハイブリッドクライアントの場合、Enhanced MTA へのアップグレードの一環として、Adobe Campaign チームからマーケティングインスタンスに&#x200B;**[!UICONTROL タイポロジ]**&#x200B;パッケージをインストールする方法に関する手順が提供されます。詳細な手順については、アカウント担当者にお問い合わせください。
-
->[!IMPORTANT]
->
->**[!UICONTROL タイポロジ]**&#x200B;パッケージのインストール方法に関する Adobe Campaign チームの指示に従う必要があります。従わない場合、E メールの送信に使用する IP に重大な問題が発生する場合があります。
-
-タイポロジについて詳しくは、[この節](../../campaign-opt/using/about-campaign-typologies.md)を参照してください。
 
 ### 新しい MX ルール
 

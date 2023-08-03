@@ -2,8 +2,9 @@
 product: campaign
 title: スキーマ要素と属性 — 列挙要素
 description: 列挙要素
+feature: Schema Extension
 exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 8%
@@ -46,7 +47,7 @@ enumeration:==(help| value)
 
 ## 属性の説明 {#attribute-description-5}
 
-* **basetype（文字列）**:列挙に保存される値のタイプ。
+* **basetype（文字列）**：列挙に保存された値のタイプ。
 
   使用可能なタイプのリスト：
 
@@ -79,11 +80,11 @@ enumeration:==(help| value)
    * 間隔
    * uuid
 
-* **default (string)**:デフォルト値。 また、デフォルト値は、列挙で定義された値の 1 つでもかまいません。
-* **desc （文字列）**:列挙の説明。
-* **label （文字列）**:列挙ラベル。
-* **name（文字列）**:列挙の内部名。
-* **template （文字列）**:この属性は、 `<enumeration>` 複数のスキーマで共有される要素。 定義は、現在のスキーマに自動的にコピーされます。
+* **default (string)**：デフォルト値。 また、デフォルト値は、列挙で定義された値の 1 つでもかまいません。
+* **desc （文字列）**：列挙の説明。
+* **label （文字列）**：列挙ラベル。
+* **name（文字列）**：列挙の内部名。
+* **template （文字列）**：この属性は、 `<enumeration>` 複数のスキーマで共有される要素。 定義は、現在のスキーマに自動的にコピーされます。
 
 ## 例 {#examples-4}
 
@@ -100,7 +101,7 @@ enumeration:==(help| value)
     </element>
 ```
 
-デフォルト値の列挙の定義：
+デフォルト値を持つ列挙の定義：
 
 ```
  <enumeration basetype="byte" default="email" name="canal">

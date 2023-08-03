@@ -2,8 +2,9 @@
 product: campaign
 title: スキーマ要素と属性 — ヘルプ要素
 description: ヘルプ要素
+feature: Schema Extension
 exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 12%
@@ -32,7 +33,7 @@ help:==EMPTY
 
 ## 説明 {#description-6}
 
-この要素では、 `<element>`  または  `<attribute>`   要素。 テキストのみを含めることができ、XML 形式でデータベースに格納されます。
+この要素では、 `<element>`  または  `<attribute>`   要素を選択します。 テキストのみを含めることができ、XML 形式でデータベースに格納されます。
 
 ## 属性の説明 {#attribute-description-6}
 

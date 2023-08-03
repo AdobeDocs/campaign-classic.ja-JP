@@ -2,8 +2,9 @@
 product: campaign
 title: スキーマ要素と属性 — parameters 要素
 description: パラメーター要素
+feature: Schema Extension
 exl-id: 54538c3e-3232-4bf7-a09c-dacf0f072be5
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 12%
@@ -36,7 +37,7 @@ ht-degree: 12%
 
 ## 使用と使用のコンテキスト {#use-and-context-of-use-8}
 
-この要素は、1 つの `<param>` の子要素 `<method>`  要素。
+この要素は、1 つの `<param>` の子要素 `<method>`  要素を選択します。
 
 ## 属性の説明 {#attribute-description-13}
 

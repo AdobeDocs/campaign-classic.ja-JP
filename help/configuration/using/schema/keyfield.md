@@ -2,8 +2,9 @@
 product: campaign
 title: スキーマ要素と属性 — キーフィールド要素
 description: キーフィールド要素
+feature: Schema Extension
 exl-id: fb0862f9-5dcc-49f2-b99b-9822aaf3a680
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 4%
@@ -37,8 +38,8 @@ keyfield:==EMPTY
 
 ## 属性の説明 {#attribute-description-9}
 
-* **xlink (MNTOKEN)**:では、リレーションテーブル（N-N リンク）の結合で定義された外部キーを自動的に参照できます。
-* **xpath (MNTOKEN)**:インデックスまたはキーの定義 `<attribute>`  要素。 この属性は、キーまたはインデックスを定義する schema 属性へのパスを定義する Xpath を受け取ります。
+* **xlink (MNTOKEN)**：リレーションテーブル（N-N リンク）の結合で定義された外部キーを自動的に参照できます。
+* **xpath (MNTOKEN)**：インデックスまたはキーの定義 ( `<attribute>`  要素を選択します。 この属性は、キーまたはインデックスを定義する schema 属性へのパスを定義する Xpath を受け取ります。
 
 ## 例 {#examples-}
 

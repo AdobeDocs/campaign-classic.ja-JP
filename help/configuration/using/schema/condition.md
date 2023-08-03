@@ -2,8 +2,9 @@
 product: campaign
 title: スキーマ要素と属性 — 条件要素
 description: 条件要素
+feature: Schema Extension
 exl-id: 71e98d45-3660-4d86-a5ca-8e55ae5896eb
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 5%
@@ -38,12 +39,12 @@ ht-degree: 5%
 
 ## 使用と使用のコンテキスト {#use-and-context-of-use-2}
 
-1 `<sysfiler>`  要素には、複数のフィルター条件を含めることができます。
+1 つ `<sysfiler>`  要素には、複数のフィルター条件を含めることができます。
 
 ## 属性の説明 {#attribute-description-2}
 
-* **boolOperator（文字列）**:複数の `<conditions>` が同じ  `<sysfilter>` 要素を使用すると、この属性を組み合わせることができます。 デフォルトでは、論理リンクは次の間にあります。 `<condition>` 要素は「AND」です。 「@boolOperator」属性を使用して、「OR」と「AND」タイプのリンクを組み合わせることができます。
-* **enabledIf (string)**:条件のアクティベーションテスト。
+* **boolOperator（文字列）**：複数の `<conditions>` が同じ  `<sysfilter>` 要素を使用すると、この属性を組み合わせることができます。 デフォルトでは、論理リンクは次の間にあります。 `<condition>` 要素は「AND」です。 「@boolOperator」属性を使用して、「OR」と「AND」タイプのリンクを組み合わせることができます。
+* **enabledIf (string)**：条件のアクティベーションテスト。
 * **expr（文字列）**:XTK 式。
 
 ## 例 {#examples-2}

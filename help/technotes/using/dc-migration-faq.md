@@ -2,15 +2,15 @@
 product: campaign
 title: Adobe Managed Services（パブリッククラウド）への移行に関する FAQ
 description: Campaign Classic のパブリッククラウドへの移行に関する FAQ
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2222'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

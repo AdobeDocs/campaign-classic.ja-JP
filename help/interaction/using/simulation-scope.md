@@ -1,22 +1,22 @@
 ---
 product: campaign
-title: シミュレーションのスコープ
-description: シミュレーションのスコープ
+title: シミュレーションの範囲
+description: シミュレーションの範囲
 feature: Interaction, Offers
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# シミュレーションのスコープ{#simulation-scope}
+# シミュレーションの範囲{#simulation-scope}
 
 
 

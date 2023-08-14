@@ -2,13 +2,13 @@
 product: campaign
 title: キャンペーンタイポロジについて
 description: キャンペーンタイポロジについて
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Typology Rules, Campaigns
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '489'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

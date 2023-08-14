@@ -3,7 +3,7 @@ product: campaign
 title: Adobe Experience Cloud Triggers 用の Adobe I/O の設定
 description: Adobe Experience Cloud Triggers 用の Adobe I/O の設定方法を説明します
 feature: Triggers
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: integrations
 content-type: reference
 index: y
@@ -11,9 +11,9 @@ internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '772'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

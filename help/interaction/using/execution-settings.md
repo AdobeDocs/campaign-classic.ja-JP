@@ -3,16 +3,16 @@ product: campaign
 title: 実行設定
 description: 実行設定
 feature: Interaction, Offers
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: e2dea4a0-9ed8-47b6-a16b-eeee653d2290
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

@@ -3,15 +3,15 @@ product: campaign
 title: Adobe Campaign のローンチ
 description: Adobe Campaign のローンチ
 feature: Access Management, Permissions
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '559'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

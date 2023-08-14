@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1378'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -157,8 +157,8 @@ Enhanced MTA からハードバウンスメッセージが返されると、ス�
 | 送信プロセスの手順 | KPI 概要 | 送信ログのステータス |
 |--- |--- |--- |
 | Campaign から Enhanced MTA にメッセージが正常に転送される | **[!UICONTROL 成功]**&#x200B;パーセンテージは 100%から開始 | 送信済み |
-| Enhanced MTA からハードバウンスメッセージが返される | **[!UICONTROL 成功]** それに応じて割合が減少する | 失敗 |
-| ソフトバウンスメッセージが Enhanced MTA から返される | 変更なし **[!UICONTROL 成功]** 割合 | 送信済み |
-| ソフトバウンスメッセージの再試行が成功する | 変更なし **[!UICONTROL 成功]** 割合 | 送信済み | **[!UICONTROL 成功]** それに応じて割合が増加します | 送信済み |
-| ソフトバウンスメッセージの再試行に失敗する | **[!UICONTROL 成功]** それに応じて割合が減少する | 失敗 |
+| Enhanced MTA からハードバウンスメッセージが返される | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが減少する | 失敗 |
+| ソフトバウンスメッセージが Enhanced MTA から返される | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 送信済み |
+| ソフトバウンスメッセージの再試行が成功する | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 送信済み | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増加する | 送信済み |
+| ソフトバウンスメッセージの再試行に失敗する | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが減少する | 失敗 |
 

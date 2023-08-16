@@ -3,7 +3,7 @@ product: campaign
 title: 設定の原則
 description: 設定の原則
 feature: Monitoring, Configuration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
@@ -12,7 +12,7 @@ exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaignプラットフォームは、Apache が使用する仮想ホス�
 設定ファイルは、 **conf** インストールディレクトリのディレクトリ。 設定は、次の 3 つのファイルに分類されます。
 
 * **serverConf.xml**：すべてのインスタンスの全体的な設定。
-* **config-**`<instance>`**.xml** ( ここで **`<instance>`** はインスタンス名です )：インスタンスの特定の設定。
+* **config-**`<instance>`**.xml** ( ここで **`<instance>`** はインスタンス名 )：インスタンスの特定の設定。
 * **serverConf.xml.diff**：初期設定と現在の設定の差分。 このファイルは、アプリケーションによって自動的に生成され、手動で変更しないでください。 ビルドバージョンの更新時に、ユーザーの変更を自動的に反映するために使用されます。
 
 インスタンスの設定は、次のように読み込まれます。

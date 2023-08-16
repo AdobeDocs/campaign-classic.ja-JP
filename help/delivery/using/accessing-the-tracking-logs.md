@@ -2,13 +2,13 @@
 product: campaign
 title: トラッキングログへのアクセス
 description: トラッキングログへのアクセス
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Monitoring
 exl-id: df494786-5950-4646-aa9c-4dde45845057
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '105'
 ht-degree: 100%
 
 ---

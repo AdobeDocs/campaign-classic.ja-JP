@@ -3,7 +3,7 @@ product: campaign
 title: Synapse へのアクセスの設定
 description: FDA での Synapse へのアクセスの設定方法を説明します
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: connectors

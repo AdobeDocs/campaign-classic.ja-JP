@@ -2,13 +2,13 @@
 product: campaign
 title: サービスと購読について
 description: Adobe Campaign のサービスと購読の概要
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Subscriptions
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '166'
 ht-degree: 100%
 
 ---

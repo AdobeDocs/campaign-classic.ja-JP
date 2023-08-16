@@ -2,13 +2,13 @@
 product: campaign
 title: Campaign での配信品質の概要
 description: 配信品質のベストプラクティスを説明します
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '736'
 ht-degree: 100%
 
 ---

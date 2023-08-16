@@ -2,13 +2,13 @@
 product: campaign
 title: Campaign でのデータスキーマの使用
 description: Campaign でのデータスキーマの使用方法を学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Data Model
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '570'
 ht-degree: 100%
 
 ---

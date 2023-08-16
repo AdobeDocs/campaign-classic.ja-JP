@@ -3,12 +3,12 @@ product: campaign
 title: PostgreSQL へのアクセスの設定
 description: PostgreSQL へのアクセスを設定する方法を説明します
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 2c678f45-2555-4647-9885-bd002db7df37
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -77,6 +77,6 @@ Adobe Campaignで、 [!DNL PostgreSQL] 外部アカウント。 外部アカウ�
 | オプション | 説明 |
 |:-:|:-:|
 | PGSQL_CONNECT_TIMEOUT | 接続の最大待機時間（秒）。 <br>詳しくは、 [PostgreSQL のドキュメント](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-CONNECT-CONNECT-TIMEOUT). |
-| PGSQL_KEEPALIVES_IDLE | TCP がキープアライブメッセージをサーバに送信するまでの無操作状態（秒）。 <br>詳しくは、 [PostgreSQL のドキュメント](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-IDLE). |
+| PGSQL_KEEPALIVES_IDLE | TCP がキープアライブメッセージをサーバに送信するまでの無操作状態の秒数。 <br>詳しくは、 [PostgreSQL のドキュメント](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-IDLE). |
 | PGSQL_KEEPALIVES_INTVL | サーバが確認しなかった TCP キープアライブメッセージを再送信するまでの秒数。  <br>詳しくは、 [PostgreSQL のドキュメント](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-INTERVAL). |
 | PGSQL_KEEPALIVES_CNT | クライアントのサーバへの接続が無効と見なされる前に失われる可能性のある TCP キープアライブの数。 <br>詳しくは、 [PostgreSQL のドキュメント](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-COUNT). |

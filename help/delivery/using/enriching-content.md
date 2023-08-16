@@ -2,13 +2,13 @@
 product: campaign
 title: コンテンツのエンリッチメント
 description: コンテンツのエンリッチメント
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Data Management
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '681'
 ht-degree: 100%
 
 ---

@@ -3,7 +3,7 @@ product: campaign
 title: セキュリティゾーンの設定
 description: セキュリティゾーンの構成方法を説明します
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
@@ -12,7 +12,7 @@ exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1520'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 

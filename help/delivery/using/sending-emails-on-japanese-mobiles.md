@@ -2,13 +2,13 @@
 product: campaign
 title: Adobe Campaign Classic と日本の携帯電話にメールを送る
 description: 日本の携帯電話で読むメールを設定、デザイン、送信する方法を学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email, Email Design
 exl-id: 44634227-2340-49c4-b330-740c739ea551
 source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '772'
 ht-degree: 100%
 
 ---

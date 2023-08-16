@@ -2,12 +2,12 @@
 product: campaign
 title: 集計の使用
 description: 集計の使用方法を学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '676'
 ht-degree: 100%
 
 ---

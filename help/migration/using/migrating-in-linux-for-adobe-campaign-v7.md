@@ -3,7 +3,7 @@ product: campaign
 title: Linux プラットフォームのAdobe Campaign v7 への移行
 description: Linux プラットフォームをAdobe Campaign v7 に移行する方法を説明します。
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
@@ -13,7 +13,7 @@ exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

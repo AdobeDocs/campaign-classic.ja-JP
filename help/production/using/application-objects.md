@@ -3,7 +3,7 @@ product: campaign
 title: アプリケーションオブジェクト
 description: アプリケーションオブジェクト
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
@@ -11,7 +11,7 @@ exl-id: fb4798d7-0a2c-455b-86b6-3dcb5fd25c82
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 

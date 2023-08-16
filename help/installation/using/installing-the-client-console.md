@@ -3,7 +3,7 @@ product: campaign
 title: クライアントコンソールのインストール
 description: クライアントコンソールのインストール方法を説明します
 feature: Installation, Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
@@ -11,7 +11,7 @@ exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 31%
+ht-degree: 32%
 
 ---
 

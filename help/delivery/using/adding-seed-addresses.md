@@ -2,13 +2,13 @@
 product: campaign
 title: シードアドレスの追加
 description: シードアドレスの追加
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Seed Address
 exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '358'
 ht-degree: 100%
 
 ---

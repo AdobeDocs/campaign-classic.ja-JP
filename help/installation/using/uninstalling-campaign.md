@@ -3,7 +3,7 @@ product: campaign
 title: Campaign のアンインストール
 description: Campaign のアンインストール方法を説明します
 feature: Installation
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: appendices
@@ -11,7 +11,7 @@ exl-id: e2b026ba-aaf3-443d-8c36-c908288a14fd
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 27%
+ht-degree: 41%
 
 ---
 

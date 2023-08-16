@@ -2,13 +2,13 @@
 product: campaign
 title: 配信の設定と送信
 description: 配信の設定と送信の方法を説明します
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Channel Configuration
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1610'
 ht-degree: 100%
 
 ---
@@ -71,15 +71,15 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 送信]**」ボタンをクリックし、「**[!UICONTROL 配信を延期]**」オプションを選択します。
 
-1. 「**[!UICONTROL コンタクト日]**」フィールドに開始日を入力します。
+1. 「**[!UICONTROL 連絡日]**」フィールドに開始日を入力します。
 
 ![](assets/dlv_email_del_plan.png)
 
-1. その後、配信分析を開始し、配信の送信を確定します。ただし、配信の送信は、「**[!UICONTROL コンタクト日]**」フィールドで指定した日付まで開始されません。
+1. その後、配信分析を開始し、配信の送信を確定します。ただし、配信の送信は、「**[!UICONTROL 連絡日]**」フィールドで指定した日付まで開始されません。
 
 >[!IMPORTANT]
 >
->分析を開始すると、定義したコンタクト日が固定されます。この日付を修正する場合は、修正内容が考慮されるように、分析を再度実行する必要があります。
+>分析を開始すると、定義した連絡日が固定されます。この日付を修正する場合は、修正内容が考慮されるように、分析を再度実行する必要があります。
 
 ![](assets/s_ncs_user_email_del_start_delayed.png)
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
   「**[!UICONTROL 送信]**」をクリックし、「**[!UICONTROL 配信を延期]**」を選択してから、分析を開始して配信を確定します。分析が完了すると、配信ターゲットの準備ができた状態になり、メッセージは指定した日付が来ると自動的に送信されます。
 
-日付と時刻は、作業しているオペレーターのタイムゾーンに基づいて表されます。コンタクト日の入力フィールドの下にある&#x200B;**[!UICONTROL タイムゾーン]**&#x200B;ドロップダウンリストを使用すると、入力した日付と時刻が、指定したタイムゾーンに自動変換されます。
+日付と時刻は、作業しているオペレーターのタイムゾーンに基づいて表されます。連絡日の入力フィールドの下にある&#x200B;**[!UICONTROL タイムゾーン]**&#x200B;ドロップダウンリストを使用すると、入力した日付と時刻が、指定したタイムゾーンに自動変換されます。
 
 例えば、ロンドン時間の 8:00 に配信を自動実行するスケジュールを設定すると、時間は選択したタイムゾーンに自動的に変換されます。
 

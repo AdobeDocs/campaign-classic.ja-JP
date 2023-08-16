@@ -2,12 +2,12 @@
 product: campaign
 title: ファイルコレクター
 description: ファイルコレクターワークフローアクティビティの詳細を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Data Management
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
 source-git-commit: 1f87a5fba1298955fa07b9a045b21718c76a7fce
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '572'
 ht-degree: 100%
 
 ---

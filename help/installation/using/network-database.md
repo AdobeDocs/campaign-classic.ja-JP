@@ -3,7 +3,7 @@ product: campaign
 title: ネットワーク、データベース、SSL/TLS
 description: ネットワーク、データベース、SSL/TLS 設定のベストプラクティスの詳細を説明します
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -11,7 +11,7 @@ exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 52%
+ht-degree: 57%
 
 ---
 

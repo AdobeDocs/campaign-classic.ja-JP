@@ -3,7 +3,7 @@ product: campaign
 title: FDA コネクタの設定
 description: FDA の設定手順を説明します
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -11,7 +11,7 @@ exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 58%
+ht-degree: 59%
 
 ---
 

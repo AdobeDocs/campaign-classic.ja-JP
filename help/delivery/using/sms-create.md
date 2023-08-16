@@ -2,13 +2,13 @@
 product: campaign
 title: Campaign での SMS の作成
 description: Campaign で SMS を作成する方法について説明します
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: SMS
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '452'
 ht-degree: 100%
 
 ---

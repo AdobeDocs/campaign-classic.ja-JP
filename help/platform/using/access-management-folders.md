@@ -2,14 +2,14 @@
 product: campaign
 title: キャンペーンフォルダーへのアクセスの管理
 description: キャンペーンフォルダーへのアクセスを許可し、ビューを作成する方法について説明します。
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7 のみに適用"
+badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Application Settings, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '782'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->ビューにはデータが含まれており、ビューからそのデータにアクセスできますが、データが実際に格納されている場所はそのビューフォルダー内ではありません。データソースフォルダー内のデータを操作するには、オペレーターが適切なアクセス権を持っている必要があります（少なくとも読み取りアクセス権）。
+>ビューにはデータが含まれており、ビューからそのデータにアクセスできますが、データが実際に格納されている場所はそのビューフォルダー内ではありません。データソースフォルダー内のデータを操作するには、オペレーターが適切なアクセス権（少なくとも読み取りアクセス権）を持っている必要があります。
 >
 >ソースフォルダーへのアクセスを許可することなくビューの表示のみを可能にする場合は、ソースフォルダーの親ノードへの読み取りアクセス権を付与しないようにするだけで十分です。
 

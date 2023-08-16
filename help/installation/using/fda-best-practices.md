@@ -3,7 +3,7 @@ product: campaign
 title: Campaign FDA のベストプラクティスと制限事項
 description: 外部データベース (FDA) を使用する際のベストプラクティスと制限事項について説明します。
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -11,7 +11,7 @@ exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 

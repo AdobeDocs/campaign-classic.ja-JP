@@ -2,13 +2,13 @@
 product: campaign
 title: トラッキングされる URL の命令の前処理
 description: メールの URL をスクリプト化し、その URL を引き続きトラッキングするための命令の前処理について詳しく説明します。
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Monitoring
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '654'
 ht-degree: 100%
 
 ---

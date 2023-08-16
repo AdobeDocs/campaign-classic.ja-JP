@@ -2,13 +2,13 @@
 product: campaign
 title: Web サービスについて
 description: Web サービスについて
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: API
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 7%
+source-wordcount: '662'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 Adobe Campaignアプリケーションサーバは、より多様で複雑な企業の情報システムとのオープン性と容易な統合を実現するように設計されています。
 
-Adobe Campaign API は、アプリケーション内の JavaScript と、その外部の SOAP で使用されます。 エンリッチメントは、エンリッチメント可能な汎用関数のライブラリを構成します。 詳しくは、 [SOAP メソッドの実装](../../configuration/using/implementing-soap-methods.md).
+Adobe Campaign API は、アプリケーション内の JavaScript と、その外部の SOAP で使用されます。 エンリッチメントは、エンリッチメントできる汎用関数のライブラリを構成します。 詳しくは、 [SOAP メソッドの実装](../../configuration/using/implementing-soap-methods.md).
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Adobe Campaign API を使用する前に、次のトピックに関する十分�
 
 Adobe Campaignは、次の 2 種類の API を使用します。
 
-* データモデルデータをクエリするための汎用データアクセス API。 [データ指向 API](../../configuration/using/data-oriented-apis.md) を参照してください。
+* データモデルデータをクエリするための汎用データアクセス API です。 [データ指向 API](../../configuration/using/data-oriented-apis.md) を参照してください。
 * 目的の対象ごとにアクションをおこなえる、ビジネスに特化した API。配信、ワークフロー、サブスクリプションなど。参照： [ビジネス指向 API](../../configuration/using/business-oriented-apis.md).
 
 API を開発し、Adobe Campaignとやり取りするには、データモデルに関する知識が必要です。 Adobe Campaignを使用すると、ベースの完全な説明を生成できます。 参照： [モデルの説明](../../configuration/using/data-oriented-apis.md#description-of-the-model).
@@ -89,13 +89,13 @@ SOAP メッセージの構造は次のとおりです。
 </SOAP-ENV:Envelope>
 ```
 
-この `<soap-env:envelope>` element は、SOAP エンベロープを表すメッセージの最初の要素です。
+The `<soap-env:envelope>` element は、SOAP エンベロープを表すメッセージの最初の要素です。
 
-この `<soap-env:body>` element はエンベロープの最初の子要素です。 これには、メッセージの説明（クエリの内容や応答の内容）が含まれます。
+The `<soap-env:body>` element はエンベロープの最初の子要素です。 これには、メッセージの説明（クエリの内容や応答の内容）が含まれます。
 
 呼び出すメソッドが `<executequery>` 要素を SOAP メッセージの本文から取得します。
 
-SOAP では、パラメーターは出現順に認識されます。 最初のパラメータ `<__sessiontoken>`は認証チェーンを受け取り、2 番目のパラメーターは `<querydef>` 要素。
+SOAP では、パラメーターは出現順に認識されます。 最初のパラメーターは、 `<__sessiontoken>`は認証チェーンを受け取り、2 番目のパラメーターは `<querydef>` 要素を選択します。
 
 ### SOAP 応答 {#soap-response}
 
@@ -112,7 +112,7 @@ SOAP では、パラメーターは出現順に認識されます。 最初の�
 </SOAP-ENV:Envelope>
 ```
 
-クエリの結果は、 `<pdomoutput>` 要素。
+クエリの結果は、 `<pdomoutput>` 要素を選択します。
 
 ## エラー管理 {#error-management}
 
@@ -132,17 +132,17 @@ ODBC error: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has bee
 </SOAP-ENV:Envelope>
 ```
 
-この `<soap-env:fault>` 要素は、SOAP メッセージの本文で、web サービスの処理中に発生したエラー信号を伝えるために使用されます。 これは、次のサブ要素で構成されます。
+The `<soap-env:fault>` 要素は、SOAP メッセージの本文で、web サービスの処理中に発生したエラー信号を伝えるために使用されます。 これは、次のサブ要素で構成されます。
 
-* `<faultcode>` :エラーのタイプを示します。 エラータイプは次のとおりです。
+* `<faultcode>` ：エラーのタイプを示します。 エラータイプは次のとおりです。
 
    * 使用する SOAP バージョンとの非互換性の場合、「VersionMismatch」
    * メッセージヘッダーに問題が発生した場合は、「MustUnderstand」
    * クライアントに情報が欠落している場合の「クライアント」
    * サーバーで処理の実行に問題が発生した場合の「サーバー」。
 
-* `<faultstring>` :エラーを説明するメッセージ
-* `<detail>` :長いエラーメッセージ
+* `<faultstring>` ：エラーを説明するメッセージ
+* `<detail>` ：長いエラーメッセージ
 
 サービス呼び出しの成功または失敗は、 `<faultcode>` 要素が検証された。
 

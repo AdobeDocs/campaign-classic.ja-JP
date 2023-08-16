@@ -3,7 +3,7 @@ product: campaign
 title: ワークフローの管理
 description: ワークフローの管理
 feature: Workflows, Configuration
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: configuration
 content-type: reference
@@ -12,7 +12,7 @@ exl-id: 617b0050-6b04-4c68-9f63-511baae99f41
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 11%
+ht-degree: 18%
 
 ---
 

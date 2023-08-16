@@ -2,13 +2,13 @@
 product: campaign
 title: Web サービスの呼び出し
 description: Web サービスの呼び出し
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: API
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 1%
+source-wordcount: '929'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,13 @@ Web サービスを使用すると、サードパーティのシステムから�
 
 * バックオフィスやトランザクションシステムからの同期アラート、通知、リアルタイム配信テンプレートの実行
 * シンプルな機能（Web インターフェイスなど）を備えた特別なインターフェイスの開発
-* 基になる物理モデルから切り離されたままの取引ルールを監視しながら、データベース内のデータのフィードと参照を行います。
+* 基になる物理モデルから切り離されたままの取引ルールを監視しながら、データベース内のデータのフィードとルックアップをおこないます。
 
 ## Web サービスの定義 {#definition-of-web-services}
 
 Adobe Campaignアプリケーションサーバーに実装されている Web サービスの定義は、データスキーマから使用できます。
 
-Web サービスは、データスキーマの文法に従って記述され、 **`<methods>`** 要素。
+Web サービスは、データスキーマの文法に従って記述され、 **`<methods>`** 要素を選択します。
 
 ```
 <methods>
@@ -45,13 +45,13 @@ Web サービスは、データスキーマの文法に従って記述され、 
 
 以下に、というメソッドの定義例を示します。 **GenerateForm**.
 
-サービスの説明は、 `<method>` 要素。 メソッドのパラメーターのリストは、  `<parameters>` 要素。 各パラメータは、名前、型（ブール値、文字列、DOMElement など）で指定します。 と説明。 「inout」属性を「out」値と共に使用すると、「result」パラメーターが SOAP 呼び出し出力にあることを指定できます。
+サービスの説明は、 `<method>` 要素を選択します。 メソッドのパラメーターのリストは、  `<parameters>` 要素を選択します。 各パラメーターは、名前、型（ブール値、文字列、DOMElement など）で指定します。 と説明。 「inout」属性を「out」値と共に使用すると、「result」パラメーターが SOAP 呼び出し出力にあることを指定できます。
 
 「static」属性（値が「true」の場合）は、このメソッドを静的メソッドとして記述します。つまり、メソッドのすべてのパラメーターを宣言する必要があります。
 
 &quot;const&quot;メソッドは、関連するスキーマの形式の XML ドキュメントを暗黙的に入力として持っています。
 
-詳細な説明 `<method>` Adobe Campaignスキーマの要素は、下の「スキーマ参照」章にあります。 [メソッド](../../configuration/using/schema/method.md)
+詳しい説明 `<method>` Adobe Campaignスキーマの要素は、下の「スキーマ参照」章にあります。 [メソッド](../../configuration/using/schema/method.md)
 
 「xtk:queryDef」スキーマの「const」タイプ「ExecuteQuery」メソッドの例：
 
@@ -79,7 +79,7 @@ https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 次を使用：
 
 * **`<server>`**:Adobe Campaignアプリケーションサーバー (nlserver web)
-* **`<schema>`**:スキーマ識別キー（名前空間：schema_name）
+* **`<schema>`**：スキーマ識別キー（名前空間：schema_name）
 
 ### スキーマ「xtk:queryDef」の「ExecuteQuery」メソッドの例 {#example-on-the--executequery--method-of-schema--xtk-querydef-}
 
@@ -127,7 +127,7 @@ WSDL の記述は、Web サービスを形成する「bindings」によってプ
 
 #### メッセージ {#messages}
 
-この `<message>` 送信する一連のフィールドの名前とタイプを示します。 このメソッドでは、2 つのメッセージを使用して、パラメーター (「ExecuteQueryIn」) と戻り値 (「ExecuteQueryOut」) として渡します。
+The `<message>` 送信する一連のフィールドの名前とタイプを示します。 このメソッドでは、2 つのメッセージを使用して、パラメーター (「ExecuteQueryIn」) と戻り値 (「ExecuteQueryOut」) として渡します。
 
 ```
 <message name="ExecuteQueryIn">
@@ -141,7 +141,7 @@ WSDL の記述は、Web サービスを形成する「bindings」によってプ
 
 #### PortType {#porttype}
 
-この `<porttype>` 応答 (「output」) を生成するクエリ (「input」) によってトリガーされる「ExecuteQuery」操作に対してメッセージを関連付けます。
+The `<porttype>` 応答 (「output」) を生成するクエリ (「input」) によってトリガーされる「ExecuteQuery」操作に対してメッセージを関連付けます。
 
 ```
 <portType name="queryDefMethodsSoap">
@@ -154,7 +154,7 @@ WSDL の記述は、Web サービスを形成する「bindings」によってプ
 
 #### 連結 {#binding}
 
-この `<binding>` part は、SOAP 通信プロトコルを指定します ( `<soap:binding>` )、HTTP でのデータ転送（「transport」属性の値）および「ExecuteQuery」操作のデータ形式。 SOAP エンベロープの本文には、変換をおこなわずに、直接メッセージセグメントが含まれます。
+The `<binding>` part は、SOAP 通信プロトコルを指定します ( `<soap:binding>` )、HTTP でのデータ転送（「transport」属性の値）および「ExecuteQuery」操作のデータ形式。 SOAP エンベロープの本文には、変換をおこなわずに、直接メッセージセグメントが含まれます。
 
 ```
 <binding name="queryDefMethodsSoap" type="tns:queryDefMethodsSoap">
@@ -173,7 +173,7 @@ WSDL の記述は、Web サービスを形成する「bindings」によってプ
 
 #### サービス {#service}
 
-この `<service>` ここでは、「XtkQueryDef」サービスと、Adobe Campaignアプリケーションサーバーの URL に URI が記述されています。
+The `<service>` ここでは、「XtkQueryDef」サービスと、Adobe Campaignアプリケーションサーバーの URL に URI が記述されています。
 
 ```
 <service name="XtkQueryDef">
@@ -185,7 +185,7 @@ WSDL の記述は、Web サービスを形成する「bindings」によってプ
 
 ## 接続 {#connectivity}
 
-Adobe Campaignは、 [セキュリティゾーン](../../installation/using/security-zones.md) およびセッション管理設定
+Adobe Campaignは、 [セキュリティゾーン](../../installation/using/security-zones.md) およびセッション管理設定。
 
 次の 2 つの認証モードを使用できます。
 
@@ -203,7 +203,7 @@ Adobe Campaignは、 [セキュリティゾーン](../../installation/using/secu
 * ランダムな構文（ユーザーのログインとパスワードは含まれなくなりました）
 * Web 経由でアクセスした場合：
 
-   * セッショントークンは永続トークンになり、ブラウザーが閉じても破棄されません
+   * セッショントークンは永続トークンになり、ブラウザーが閉じても破棄されません。
    * HTTP のみの Cookie に配置されます（オペレーターに対して Cookie を有効にする必要があります）。
 
 ### セキュリティトークンの特性 {#security-token-characteristics}
@@ -228,14 +228,14 @@ Adobe Campaignは、 [セキュリティゾーン](../../installation/using/secu
 
 POSTとGETHTTP から：
 
-* サーバーがトークンでリンクを完了
+* サーバーがトークンでリンクを完了する
 * サーバーがフォームに非表示フィールドを追加します
 
 SOAP 呼び出しから：
 
 * 呼び出しヘッダーに追加されます。
 
-### 呼び出しの例 {#call-examples}
+### 呼び出し例 {#call-examples}
 
 * 使用 **HttpSoapConnection/SoapService**:
 
@@ -274,7 +274,7 @@ SOAP 呼び出しから：
 
 >[!NOTE]
 >
->以下で使用される URL **HttpServletRequest** 呼び出しは、 **serverConf.xml** ファイル。 これは、サーバー自体の URL にも当てはまります。
+>次の場合に使用される URL **HttpServletRequest** 呼び出しは、 **serverConf.xml** ファイル。 これは、サーバー自体の URL にも当てはまります。
 
 ログオン実行 ():
 

@@ -2,12 +2,12 @@
 product: campaign
 title: 集計計算の実行
 description: クエリで集計計算を実行する方法を説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '246'
 ht-degree: 100%
 
 ---

@@ -3,12 +3,12 @@ product: campaign
 title: データベースマッピング
 description: データベースマッピング
 feature: Configuration, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1981'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 

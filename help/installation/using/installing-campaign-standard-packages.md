@@ -3,7 +3,7 @@ product: campaign
 title: Campaign Classic 組み込みパッケージのインストール
 description: Campaign の組み込みパッケージのインストール方法を説明します
 feature: Installation, Application Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
@@ -98,7 +98,7 @@ ht-degree: 27%
   </tr--> 
   <tr> 
    <td> ソーシャルネットワーク (ソーシャルマーケティング) <br /> </td> 
-   <td> Adobe CampaignをTwitterおよびFacebookと同期します。 <a href="../../social/using/about-social-marketing.md">詳細情報</a> <br /> </td> 
+   <td> Adobe CampaignをTwitterとFacebookと同期します。 <a href="../../social/using/about-social-marketing.md">詳細情報</a> <br /> </td> 
    <td> すべて</td> 
   </tr> 
   <tr> 

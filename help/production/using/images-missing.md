@@ -3,7 +3,7 @@ product: campaign
 title: 画像が見つからない
 description: 画像が見つからない
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,7 +11,7 @@ exl-id: 6ccda57d-f7a3-4501-b2f4-59fcb05f9013
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 

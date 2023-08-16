@@ -3,7 +3,7 @@ product: campaign
 title: キャンペーンオプションの設定
 description: Campaign オプションの設定方法を説明します
 feature: Installation, Application Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: appendices
@@ -155,7 +155,7 @@ The **[!UICONTROL 管理/プラットフォーム/オプション]** ノード�
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
-   <td> ユーザーが空のままにした場合に E メール配信に使用されるインスタンスのレベルのデフォルトの「差出人」E メールラベル。<br /> </td> 
+   <td> ユーザーが空のままにした場合、インスタンスのレベルで E メール配信に使用されるデフォルトの「差出人」E メールラベル。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ReplyToName</span> <br /> </td> 

@@ -2,12 +2,12 @@
 product: campaign
 title: ワークフローアクティビティについて
 description: アクティビティについて
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Data Management
 exl-id: 900dd30e-d4fb-452a-af3f-ae00758b0077
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '104'
 ht-degree: 100%
 
 ---

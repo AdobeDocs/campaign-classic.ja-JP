@@ -2,12 +2,12 @@
 product: campaign
 title: ワークフロー権限の管理
 description: ワークフロー権限の管理方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: 88995fb3-d336-4355-acd4-33118dd0e2b0
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '343'
 ht-degree: 100%
 
 ---

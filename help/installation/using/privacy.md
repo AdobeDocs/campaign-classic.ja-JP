@@ -3,12 +3,12 @@ product: campaign
 title: パーソナライゼーションとプライバシー
 description: プライバシーとパーソナライゼーションのセキュリティのベストプラクティスについて説明します
 feature: Installation, Privacy, Privacy Tools, URL Personalization
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 31%
+ht-degree: 32%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 31%
 
 19.1.4 ビルドで実行している場合、トラッキングリンクを使用したプッシュ通知配信、またはアンカータグを使用した配信で問題が発生する可能性があります。 その場合は、URL 署名を無効にすることをお勧めします。
 
-Campaign がホストする、管理対象Cloud Services、ハイブリッド顧客は、 [カスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) URL 署名を無効にする。
+Campaign がホストする、管理対象Cloud Service、ハイブリッド顧客は、 [カスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) URL 署名を無効にする。
 
 ハイブリッドアーキテクチャで Campaign を実行している場合は、URL 署名を有効にする前に、ホストされているミッドソーシングインスタンスが次のようにアップグレードされていることを確認します。
 

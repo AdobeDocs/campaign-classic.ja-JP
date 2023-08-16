@@ -3,12 +3,12 @@ product: campaign
 title: Microsoft SQL Server へのアクセスの設定
 description: Microsoft SQL Server へのアクセスを設定する方法を説明します
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 65ab4577-3126-4579-8fcc-e93772ebd1e8
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 

@@ -3,7 +3,7 @@ product: campaign
 title: キャンペーン配信設定
 description: キャンペーン配信の設定方法を説明します
 feature: Installation, Channel Configuration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
@@ -12,7 +12,7 @@ exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 

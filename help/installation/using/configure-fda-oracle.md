@@ -3,7 +3,7 @@ product: campaign
 title: Oracle へのアクセスの設定
 description: FDA でOracleへのアクセスを設定する方法
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -11,7 +11,7 @@ exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 72%
+ht-degree: 74%
 
 ---
 

@@ -3,12 +3,12 @@ product: campaign
 title: JavaScript での SOAP メソッド
 feature: Configuration, Instance Settings
 description: JavaScript での SOAP メソッド
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 

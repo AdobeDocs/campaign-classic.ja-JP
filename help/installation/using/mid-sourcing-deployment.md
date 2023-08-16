@@ -3,7 +3,7 @@ product: campaign
 title: ミッドソーシングへのデプロイメント
 description: ミッドソーシングへのデプロイメント
 feature: Installation, Architecture, Deployment
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
@@ -11,7 +11,7 @@ exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 

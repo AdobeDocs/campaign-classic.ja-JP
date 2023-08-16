@@ -2,12 +2,12 @@
 product: campaign
 title: テクニカルワークフロー
 description: Campaign で使用できるテクニカルワークフローの詳細を説明しますClassic パッケージ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1722'
 ht-degree: 100%
 
 ---

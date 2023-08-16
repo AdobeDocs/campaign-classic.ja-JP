@@ -3,12 +3,12 @@ product: campaign
 title: 既存のテーブルのスキーマ
 description: 既存のテーブルのスキーマ
 feature: Custom Resources
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 

@@ -2,12 +2,12 @@
 product: campaign
 title: Campaign SDK の統合
 description: Campaign SDK をモバイルアプリに統合する方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Mobile SDK Integration, Push
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1004'
 ht-degree: 100%
 
 ---

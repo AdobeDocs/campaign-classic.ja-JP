@@ -2,13 +2,13 @@
 product: campaign
 title: 送信前のチェック
 description: メッセージの準備が整ったら、送信前にすべてのチェックを実行します
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '914'
 ht-degree: 100%
 
 ---

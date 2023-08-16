@@ -3,7 +3,7 @@ product: campaign
 title: スクリプトとコーディングのガイドライン
 description: Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する際に従うガイドラインについて詳しくは、
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -11,7 +11,7 @@ exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 

@@ -3,7 +3,7 @@ product: campaign
 title: E メールのアーカイブ
 description: E メールのアーカイブ
 feature: Installation, Instance Settings, Email
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations

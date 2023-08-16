@@ -2,12 +2,12 @@
 product: campaign
 title: カスタム日付フィールドを使用した E メールエンリッチメント
 description: カスタムの日付フィールドを使用して E メールをエンリッチメントする方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '638'
 ht-degree: 100%
 
 ---

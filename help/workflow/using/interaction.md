@@ -5,7 +5,7 @@ description: インタラクション
 feature: Workflows, Interaction, Offers
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%
 

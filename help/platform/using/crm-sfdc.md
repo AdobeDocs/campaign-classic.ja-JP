@@ -2,12 +2,12 @@
 product: campaign
 title: Campaign - Salesforce CRM コネクタ
 description: Campaign と Salesforce を連携する方法を学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Salesforce Integration
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '364'
 ht-degree: 100%
 
 ---

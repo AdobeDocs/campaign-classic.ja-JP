@@ -2,13 +2,13 @@
 product: campaign
 title: 配信リストへのアクセス
 description: 作成した配信のリストにアクセスする方法を学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Monitoring
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '186'
 ht-degree: 100%
 
 ---

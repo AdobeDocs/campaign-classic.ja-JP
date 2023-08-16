@@ -2,13 +2,13 @@
 product: campaign
 title: メール配信の作成
 description: メール配信を作成する方法を学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email
 exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '110'
 ht-degree: 100%
 
 ---

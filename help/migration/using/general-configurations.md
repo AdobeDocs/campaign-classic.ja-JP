@@ -3,7 +3,7 @@ product: campaign
 title: 一般設定
 description: 一般設定
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: migration
 content-type: reference
 topic-tags: configuration

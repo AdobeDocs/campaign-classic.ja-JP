@@ -2,12 +2,12 @@
 product: campaign
 title: フロー制御アクティビティについて
 description: フロー制御アクティビティについて
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '241'
 ht-degree: 100%
 
 ---

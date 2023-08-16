@@ -2,13 +2,13 @@
 product: campaign
 title: テンプレートからの配信の作成
 description: テンプレートから配信を作成する方法を学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Delivery Templates
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '208'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 配信パラメーターを入力し、「**[!UICONTROL 送信]**」をクリックします。
 
-この操作により、テンプレートに関連付けられたフォルダー内に配信が生成されます。配信の名前は、ベースにした配信テンプレートの名前と同じになります。
+このアクションにより、テンプレートに関連付けられたフォルダー内に配信が生成されます。配信の名前は、ベースにした配信テンプレートの名前と同じになります。
 
 >[!NOTE]
 >

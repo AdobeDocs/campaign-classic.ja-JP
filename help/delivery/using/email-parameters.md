@@ -2,13 +2,13 @@
 product: campaign
 title: メールパラメーター
 description: メール配信に固有のオプションと設定について学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '990'
 ht-degree: 100%
 
 ---

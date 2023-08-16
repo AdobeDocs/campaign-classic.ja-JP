@@ -3,7 +3,7 @@ product: campaign
 title: Microsoft Windows プラットフォームのAdobe Campaign v7 への移行
 description: Microsoft Windows プラットフォームをAdobe Campaign v7 に移行する方法を説明します。
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7

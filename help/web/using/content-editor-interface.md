@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 100%
 

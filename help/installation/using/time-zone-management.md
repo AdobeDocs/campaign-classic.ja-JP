@@ -3,7 +3,7 @@ product: campaign
 title: タイムゾーン管理
 description: タイムゾーン管理
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
@@ -12,7 +12,7 @@ exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Campaignでは、日付/時刻を UTC（協定世界時）形式で保存�
 
 各Adobe Campaignオペレーターはタイムゾーンにリンクされています。この情報は、オペレーターのプロファイルで設定されます。 詳しくは、 [このドキュメント](../../platform/using/access-management.md).
 
-Adobe Campaignプラットフォームでタイムゾーン管理が必要ない場合は、特定のタイムゾーンを含むストレージモードをローカル形式に保つことができます。
+Adobe Campaignプラットフォームでタイムゾーン管理が必要ない場合は、特定のタイムゾーンがリンクされた状態で、ストレージモードをローカル形式に保つことができます。
 
 ## 推奨事項 {#recommendations}
 

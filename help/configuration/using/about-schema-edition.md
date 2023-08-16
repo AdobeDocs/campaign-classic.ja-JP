@@ -2,13 +2,13 @@
 product: campaign
 title: スキーマエディションについて
 description: スキーマエディションの概要
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Schema Extension
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 64%
+source-wordcount: '1018'
+ht-degree: 65%
 
 ---
 
@@ -80,7 +80,7 @@ type="string" enum="exTransactionTypeEnum"/>
 </dbindex>
 ```
 
-この **xpath** 属性は、インデックスを作成するスキーマ内のフィールドを指します。
+The **xpath** 属性は、インデックスを作成するスキーマ内のフィールドを指します。
 
 >[!IMPORTANT]
 >

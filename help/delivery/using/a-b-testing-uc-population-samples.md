@@ -2,13 +2,13 @@
 product: campaign
 title: 母集団サンプルの設定
 description: 専用のユースケースを通じて A/B テストを実行する方法を学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: A/B Testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '203'
 ht-degree: 100%
 
 ---

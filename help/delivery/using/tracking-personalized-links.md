@@ -2,13 +2,13 @@
 product: campaign
 title: パーソナライズされたリンクのトラッキングの基本を学ぶ
 description: パーソナライズ可能な電子メールにリンクを記述し、Campaign での追跡をサポートする方法を学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Personalization
 exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '230'
 ht-degree: 100%
 
 ---

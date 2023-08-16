@@ -3,7 +3,7 @@ product: campaign
 title: Campaign Classicの一般的なアーキテクチャ
 description: インストールと設定のCampaign Classic
 feature: Installation, Architecture
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
@@ -11,7 +11,7 @@ exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1349'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 

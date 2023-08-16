@@ -2,13 +2,13 @@
 product: campaign
 title: web フォームプロパティの定義
 description: web フォームプロパティの定義
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1275'
 ht-degree: 100%
 
 ---
@@ -65,7 +65,7 @@ Web フォームのフィールドは、デフォルトで、受信者テーブ�
 
 ![](assets/s_ncs_admin_survey_wz_02_navig_type.png)
 
-ボタンは、デフォルトのナビゲーション要素です。次の操作を実行できます。
+ボタンは、デフォルトのナビゲーション要素です。次のアクションを実行できます。
 
 * 「**[!UICONTROL 次へ]**」をクリックすることで、現在のページを承認し、次のページを表示します。このボタンは、最後を除くすべてのページに表示されます。
 * 「**[!UICONTROL 前へ]**」をクリックすることで、前のページを表示します。このボタンは、最初を除くすべてのページに表示されます。

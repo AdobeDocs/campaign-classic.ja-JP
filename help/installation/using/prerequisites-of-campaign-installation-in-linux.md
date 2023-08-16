@@ -3,7 +3,7 @@ product: campaign
 title: Linux での Campaign のインストールの前提条件
 description: Linux での Campaign のインストールの前提条件
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
@@ -12,17 +12,17 @@ exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# Linux に Campaign をインストールするための前提条件{#prerequisites-of-campaign-installation-in-linux}
+# Linux でキャンペーンをインストールするための前提条件{#prerequisites-of-campaign-installation-in-linux}
 
 
 
 ## ソフトウェアの前提条件 {#software-prerequisites}
 
-この節では、Adobe Campaignをインストールする前に必要な事前設定手順について説明します。
+ここでは、Adobe Campaign をインストールする前に必要な事前設定手順について説明します。
 
 Adobe Campaignのインストールに必要な技術的およびソフトウェア設定について詳しくは、 [互換性マトリックス](../../rn/using/compatibility-matrix.md).
 
@@ -43,9 +43,9 @@ Adobe Campaignのインストールに必要な技術的およびソフトウェ
 
 Linux にAdobe Campaignをインストールするには、必要なライブラリがあることを確認してください。
 
-* ライブラリ C が TLS（スレッドローカルストレージ）モードをサポートできる必要があります。 このモードは、Xen のサポートが無効になっている一部のカーネルを除き、ほとんどの場合はアクティブになります。
+* Library C は、TLS (スレッドローカルストレージ) モードをサポートできる必要があります。 このモードは、ほとんどの場合、Xen のサポートが無効になっている一部のカーネルを除き、アクティブになります。
 
-  これを確認するには、 **uname-a | grep xen** コマンドを使用します。
+  これを確認するには、例として uname-a | grep xen **コマンドを使用** します。
 
   コマンドが何も返さない（空行）場合は、設定が正しいことを意味します。
 
@@ -53,15 +53,15 @@ Linux にAdobe Campaignをインストールするには、必要なライブラ
 
   RHEL 7/8 ディストリビューションの場合、OpenSSL のバージョン 1.0 が必要です。
 
-* Adobe Campaignを使用するには、 **リビク** ライブラリがインストールされました。
+* Adobe Campaign を使用するには、libicu **ライブラリインストールされている** 必要があります。
 
-  次のバージョンの **リビク** がサポートされている（32 ビットまたは 64 ビット）:
+  Libicu **の** 次のバージョンがサポートされています (32 ビットまたは64ビット)。
 
-   * RHEL 7/8、CentOS 7:libicu50
+   * RHEL 7/8、CentOS 7: libicu50
    * Debian 8: libicu52
    * Debian 9: libicu57
 
-  Adobe Campaignを使用するには、libc-ares ライブラリをインストールする必要があります。 RHEL/CentOS で、次のコマンドを実行します。
+  Adobe Campaign を使用するには、libc-アレスライブラリがインストールされている必要があります。 RHEL/CentOS で、次のコマンドを実行します。
 
   ```
   yum install c-ares
@@ -103,7 +103,7 @@ SELINUX=disabled
 
 ### MTA 統計用のフォント {#fonts-for-mta-statistics}
 
-MTA 統計のレポート (nms/fra/jsp/stat.jsp) を正しく表示するには、フォントを追加します。
+MTA 統計 (nms/fra/jsp/stat) のレポートが正しく表示されるようにするには、フォントを追加します。
 
 Debian で、次のコマンドを追加します。
 
@@ -125,7 +125,7 @@ Redhat では、次のコマンドを使用します。
   dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
   ```
 
-### 日本語インスタンス用のフォント {#fonts-for-japanese-instances}
+### 日本語インスタンスのフォント {#fonts-for-japanese-instances}
 
 日本語インスタンスでは、レポートをPDF形式で書き出すために、特定の文字のフォントが必要です。
 
@@ -167,13 +167,13 @@ Debian の場合、次の設定が必要です。
 
 ### CentOS 用 LibreOffice のインストール {#installing-libreoffice-for-centos}
 
-CentOS では、次の設定が必要です。
+CentOS には、次の設定が必要です。
 
 ```
 yum install libreoffice-headless libreoffice-writer libreoffice-calc
 ```
 
-## データベースアクセスレイヤー {#database-access-layers}
+## データベースアクセス層 {#database-access-layers}
 
 使用しているデータベースエンジンのアクセスレイヤーは、サーバーにインストールされ、Adobe Campaignアカウント経由でアクセスできる必要があります。 バージョンとインストールモードは、使用するデータベースエンジンによって異なる場合があります。
 
@@ -183,15 +183,15 @@ yum install libreoffice-headless libreoffice-writer libreoffice-calc
 
 ### PostgreSQL {#postgresql}
 
-Adobe Campaignは、バージョン 7.2 の PostgreSQL クライアントライブラリのすべてのバージョンをサポートしています。(**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** および **libpq.so.3.1**) をクリックします。
+Adobe Campaign では、バージョン7.2 からのすべてのバージョンの PostgreSQL クライアントライブラリをサポートしています。 **** **** つまり、libpq、libpq、libpq、libpq **など** **** です。
 
-また、Adobe Campaignで PostgreSQL を使用する場合は、対応する **pgcrypto** ライブラリ。
+Adobe Campaign で PostgreSQL を使用する場合も、対応する **pgcrypto** ライブラリをインストールする必要があります。
 
 ### Oracle {#oracle}
 
-64 ビット Debian のライブラリバージョンを取得します。例： **libclntsh.so**, **libclntsh.so.11.1** および **libclntsh.so.10.1**.
+64ビット Debian のライブラリのバージョンを取得します。例: libclntsh.so, libclntsh **** . so、libclntsh. so **.** ****
 
-Linux RPM パッケージは、Technology Network からOracleで入手できます。
+Oracle テクノロジーのネットワークから Linux RPM パッケージを入手できます。
 
 >[!NOTE]
 >
@@ -217,7 +217,7 @@ Linux RPM パッケージは、Technology Network からOracleで入手できま
 
 ### DB2 {#db2}
 
-サポートされているライブラリのバージョンはです。 **libdb2.so**.
+サポートされているライブラリバージョンは **libdb2.so** です。
 
 ## 実装手順 {#implementation-steps}
 
@@ -225,7 +225,7 @@ Adobe Campaign installations for Linux は、次のシーケンスで実行す�
 
 この章では、インストールプロセスについて説明します。 インストール手順は次のとおりです。
 
-* 手順 1：アプリケーションサーバーのインストール ( [Linux でのパッケージのインストール](../../installation/using/installing-packages-with-linux.md).
-* 手順 2:Web サーバーとの統合（デプロイされているコンポーネントに応じて、オプション）。
+* 手順 1: アプリケーションサーバーのインストールについては、『 Linux ](../../installation/using/installing-packages-with-linux.md) でのパッケージのインストールを [ 参照してください。
+* 手順 2: Web サーバーとの統合 (オプション。デプロイされているコンポーネントによって異なります)。
 
-インストール手順が完了したら、インスタンス、データベース、サーバーを設定する必要があります。 詳しくは、 [初期設定について](../../installation/using/about-initial-configuration.md).
+インストール手順が完了したら、インスタンス、データベースおよびサーバーを設定する必要があります。 詳しくは、初期設定 ](../../installation/using/about-initial-configuration.md) を [ 参照してください。

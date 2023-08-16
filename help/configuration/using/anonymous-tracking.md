@@ -3,18 +3,18 @@ product: campaign
 title: 匿名トラッキング
 description: 匿名トラッキングの設定方法を説明します
 feature: Configuration, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
 # 匿名トラッキング{#anonymous-tracking}
 
-Adobe Campaignでは、収集した Web トラッキング情報を、サイトを匿名で閲覧する受信者とリンクできます。 ユーザーが Web サイトのタグ付きページを閲覧すると、この閲覧情報が収集され、Adobe Campaignから送信された E メールをクリックすると、その情報が識別され、情報が自動的にリンクされます。
+Adobe Campaignでは、収集した Web トラッキング情報を、サイトを匿名で閲覧する受信者とリンクできます。 ユーザーが Web サイトのタグ付きページを閲覧すると、この閲覧情報が収集され、Adobe Campaignから送信された E メールをクリックすると、その情報が識別され、情報が自動的にそのページにリンクされます。
 
 >[!IMPORTANT]
 >

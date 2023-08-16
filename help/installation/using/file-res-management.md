@@ -3,7 +3,7 @@ product: campaign
 title: ファイルとリソースの管理
 feature: Installation, Application Settings
 description: Campaign でのファイルおよびリソース管理の設定方法を説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
@@ -12,7 +12,7 @@ exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 

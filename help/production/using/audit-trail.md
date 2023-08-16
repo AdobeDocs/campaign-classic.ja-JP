@@ -3,12 +3,12 @@ product: campaign
 title: 監査記録
 description: Campaign 監査証跡を使用してインスタンスを監視する方法を説明します
 feature: Audit Trail, Monitoring, Workflows
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 

@@ -2,12 +2,12 @@
 product: campaign
 title: ワークフローの開始
 description: ワークフローの開始方法、およびワークフローのアクションツールバーと右クリックメニューへのアクセス方法を学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '886'
 ht-degree: 100%
 
 ---

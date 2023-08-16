@@ -2,13 +2,13 @@
 product: campaign
 title: Adobe Campaign Classic のメールチャネルについて
 description: ここでは、Adobe Campaign のメールチャネルに関する一般情報を提供します。
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '148'
 ht-degree: 100%
 
 ---

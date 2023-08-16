@@ -3,12 +3,12 @@ product: campaign
 title: Web トラッキングタグの作成
 description: Web トラッキングタグの作成方法を説明します
 feature: Application Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

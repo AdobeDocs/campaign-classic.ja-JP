@@ -2,18 +2,18 @@
 product: campaign
 title: Web アプリケーショントラッキングのオプトアウト
 description: Web アプリケーショントラッキングのオプトアウト
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '682'
 ht-degree: 100%
 
 ---
 
-# Web アプリケーショントラッキングのオプトアウト{#web-application-tracking-opt-out}
+# web アプリケーショントラッキングのオプトアウト{#web-application-tracking-opt-out}
 
 
 

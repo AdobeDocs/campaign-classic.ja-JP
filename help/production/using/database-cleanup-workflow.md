@@ -3,7 +3,7 @@ product: campaign
 title: データベースクリーンアップのワークフロー
 description: 古いデータが自動的にクリーンアップされる方法を説明します。
 feature: Monitoring, Workflows
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: data-processing
@@ -579,7 +579,7 @@ DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FRO
 DELETE FROM XtkAudit WHERE tsChanged < $(tsDate)
 ```
 
-場所 **$(tsDate)** は、現在のサーバーの日付です。この日付から、 **XtkCleanup_AuditTrailPurgeDelay** オプションが減算されます。
+場所 **$(tsDate)** は、現在のサーバーの日付です。 **XtkCleanup_AuditTrailPurgeDelay** オプションが減算されます。
 
 ### Nmsaddress のクリーンアップ {#cleanup-of-nmsaddress}
 

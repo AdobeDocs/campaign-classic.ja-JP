@@ -2,7 +2,7 @@
 product: campaign
 title: Campaign Classicデータモデルの概要
 description: Campaign データモデルの拡張、スキーマの編集、API の使用などの方法について学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Data Model, Configuration
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553

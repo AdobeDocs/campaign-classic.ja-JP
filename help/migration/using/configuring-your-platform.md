@@ -3,7 +3,7 @@ product: campaign
 title: 設定の適応
 description: Campaign v7 への移行の前後に設定を適応させる方法を説明します。
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
@@ -13,7 +13,7 @@ exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 

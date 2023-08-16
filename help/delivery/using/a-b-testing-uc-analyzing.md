@@ -2,13 +2,13 @@
 product: campaign
 title: 結果の分析
 description: 専用のユースケースを通じて A/B テストを実行する方法を学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: A/B Testing
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '117'
 ht-degree: 100%
 
 ---

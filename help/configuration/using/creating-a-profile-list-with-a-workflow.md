@@ -2,14 +2,14 @@
 product: campaign
 title: ワークフローを使用したプロファイルリストの作成
 description: ワークフローでプロファイルリストを作成する方法を説明します
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classicv7 に適用"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Workflows, Profiles
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 

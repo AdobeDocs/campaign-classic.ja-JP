@@ -2,14 +2,14 @@
 product: campaign
 title: シードアドレス
 description: シードアドレス
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 8%
+source-wordcount: '344'
+ht-degree: 11%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 
 
-受信者テーブルがカスタムテーブルの場合は、追加の設定が必要です。 この **[!UICONTROL nms:seedMember]** スキーマを拡張する必要があります。 次に示すように、適切なフィールドを定義するためのタブがシードアドレスに追加されます。
+受信者テーブルがカスタムテーブルの場合は、追加の設定が必要です。 The **[!UICONTROL nms:seedMember]** スキーマを拡張する必要があります。 次に示すように、適切なフィールドを定義するためのタブがシードアドレスに追加されます。
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 ## 実装 {#implementation}
 
-この **nms:seedMember** すべての必要なフィールドを参照するよう、スキーマとリンクされたフォーム（標準搭載）を顧客の設定用に拡張することを目的としています。 スキーマ定義には、その設定モードを説明するコメントが含まれています。
+The **nms:seedMember** すべての必要なフィールドを参照するよう、スキーマとリンクされたフォーム（標準搭載）を顧客の設定用に拡張することを目的としています。 スキーマ定義には、その設定モードを説明するコメントが含まれています。
 
 受信者テーブルの拡張スキーマの定義：
 
@@ -79,7 +79,7 @@ ht-degree: 8%
    >    
    >    * 拡張機能の間、 **SQL 名 (@sqlname)** （「email」フィールド）に入力します。 SQL 名は、受信者スキーマ用に予約されている「sEmail」とは異なる名前にする必要があります。
    >    * データベース構造を、の拡張時に作成したスキーマで更新する必要があります **nms:seedMember**.
-   >    * 内 **nms:seedMember** 拡張子の場合、E メールアドレスを格納するフィールドには、 **name=&quot;email&quot;** 属性として。 SQL 名は、受信者スキーマに既に使用されている「sEmail」とは異なる名前を使用する必要があります。 この属性は、 **`<element name="custom_cus_person" />`** 要素。
+   >    * Adobe Analytics の **nms:seedMember** 拡張子の場合、E メールアドレスを格納するフィールドには、 **name=&quot;email&quot;** 属性として。 SQL 名は、受信者スキーマに既に使用されている「sEmail」とは異なる名前を使用する必要があります。 この属性は、 **`<element name="custom_cus_person" />`** 要素を選択します。
    >    
    >
 
@@ -98,4 +98,4 @@ ht-degree: 8%
      </container>
    ```
 
-シードアドレスのすべての属性が入力されていない場合、Adobe Campaignは次のプロファイルを自動的に置き換えます。既存のプロファイルのデータを使用したパーソナライゼーション時に、自動的に入力されます。
+シードアドレスのすべての属性が入力されていない場合、Adobe Campaignは自動的にプロファイルを置き換えます。既存のプロファイルのデータを使用して、パーソナライゼーション中に自動的に入力されます。

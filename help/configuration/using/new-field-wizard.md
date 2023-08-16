@@ -2,24 +2,24 @@
 product: campaign
 title: 新しいフィールドウィザード
 description: 新しいフィールドウィザード
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Schema Extension
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 4%
+source-wordcount: '213'
+ht-degree: 7%
 
 ---
 
 # 新しいフィールドウィザード{#new-field-wizard}
 
 
-ウィザードは、 **[!UICONTROL ツール/詳細設定/新しいフィールドを追加]** データベース内のテーブルに 1 つ以上のフィールドを追加できます。
+ウィザードは次の場所からアクセスできます： **[!UICONTROL ツール/詳細設定/新しいフィールドを追加]** データベース内のテーブルに 1 つ以上のフィールドを追加できます。
 
 ウィザードを検証すると、拡張するテーブルの拡張スキーマが更新され、SQL スクリプトが起動してデータベースの物理構造が変更されます。
 
-このアシスタントには、データスキーマの構造を知る必要なく、すばやくフィールドを追加するというメリットがあります。
+このアシスタントには、データスキーマの構造を知る必要なく、すばやくフィールドを追加するという利点があります。
 
 主な欠点は、拡張するデータとプロパティの制限です。
 
@@ -47,4 +47,4 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->デフォルトでは、追加したフィールドは、プロパティを使用して宣言されます **ユーザー** （値が「true」の場合） これにより、「treeEdit」タイプのコントロール（入力フォームを参照）を使用して、拡張スキーマの入力フォーム内のフィールドを表示および編集できます。
+>デフォルトでは、追加したフィールドは、プロパティを使用して宣言されます。 **ユーザー** （値が「true」の場合） これにより、「treeEdit」タイプのコントロール（入力フォームを参照）を使用して、拡張スキーマの入力フォーム内のフィールドを表示および編集できます。

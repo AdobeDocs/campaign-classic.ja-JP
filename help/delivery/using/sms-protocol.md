@@ -2,13 +2,13 @@
 product: campaign
 title: SMS コネクタのプロトコルと設定
 description: SMS コネクタの詳細と設定方法について学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: SMS
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '8446'
+source-wordcount: '8458'
 ht-degree: 99%
 
 ---

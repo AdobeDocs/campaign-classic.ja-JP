@@ -3,7 +3,7 @@ product: campaign
 title: サーバー設定ファイル
 description: サーバー設定ファイル
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: appendices
@@ -1032,7 +1032,7 @@ URL ごとに、 **url** ノードに次のパラメーターを追加します�
 
 dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;http://.&#42;&quot;
 
-および
+と
 
 dnsSuffix=&quot;business.com&quot; urlRegEx=&quot;https://.&#42;&quot;
 
@@ -3306,7 +3306,7 @@ The **web > jsp > classpath** ノードには、JVM の起動時に使用する�
   </tr> 
   <tr> 
    <td> defLogCount<br /> </td> 
-   <td> 呼び出しによるログ数：メソッド GetTrackingLogs の呼び出し時にデフォルトで返されるログの数。<br /> </td> 
+   <td> 呼び出し別のログ数：メソッド GetTrackingLogs の呼び出し時にデフォルトで返されるログの数。<br /> </td> 
    <td> 長いテキスト<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 

@@ -2,14 +2,14 @@
 product: campaign
 title: ネームド権限を使用した権限の設定
 description: ネームド権限を使用して権限を設定する方法を説明します
-badge: label="v7" type="Informative" tooltip="Campaign Classic v7 のみに適用"
+badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '567'
 ht-degree: 100%
 
 ---

@@ -2,12 +2,12 @@
 product: campaign
 title: 分散型マーケティングの基本を学ぶ
 description: 分散型マーケティングの基本を学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1187'
 ht-degree: 100%
 
 ---
@@ -138,7 +138,7 @@ Adobe Campaign では、セントラルエンティティ（本社、マーケ�
 
    * ターゲットの定義と最大サイズ
    * コンテンツ定義
-   * 実行スケジュール（コンタクト日と抽出日）。**ローカルオペレーターのみ**
+   * 実行スケジュール（連絡日と抽出日）。**ローカルオペレーターのみ**
    * オーダースキーマの拡張（その他の必要なフィールドすべて）
 
 1. Web フォーム（アドビ内部またはエクストラネット上）を作成します。Web フォームでは、ローカライゼーションパラメーターの表示、ターゲットと予算の評価に加え、コンテンツのプレビューやオーダーの承認をおこなえます。

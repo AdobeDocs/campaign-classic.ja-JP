@@ -2,12 +2,12 @@
 product: campaign
 title: アーキテクチャ
 description: ワークフローは特定のモジュールによって処理され、複数のサーバーから起動し、処理の負荷を分散することができます
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: 46801f78-706c-4dfa-bce7-3d15f569f222
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '123'
 ht-degree: 100%
 
 ---

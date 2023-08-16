@@ -2,13 +2,13 @@
 product: campaign
 title: PI の閲覧を制限
 description: PI の閲覧を制限する方法を学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: PI
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 70%
+source-wordcount: '406'
+ht-degree: 71%
 
 ---
 
@@ -55,7 +55,7 @@ Campaign でこの属性を使用した場合の結果は次のとおりです�
 
 ## 推奨事項 {#recommendations}
 
-各配信で、E メールアドレスは **[!UICONTROL broadLog]** そして **[!UICONTROL forecastLog]** テーブル：その結果、これらのフィールドも保護する必要があります。
+各配信で、E メールアドレスは **[!UICONTROL broadLog]** そして **[!UICONTROL forecastLog]** テーブル：結果として、これらのフィールドも保護する必要があります。
 
 以下に、これを実装するログテーブル拡張のサンプルを示します。
 

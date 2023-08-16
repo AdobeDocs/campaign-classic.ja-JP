@@ -2,13 +2,13 @@
 product: campaign
 title: Adobe Campaign Classicのスキーマリファレンスについて
 description: Adobe Campaign Classicデータベースの概念的データモデルを拡張するための拡張スキーマの設定方法について説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Schema Extension
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 58%
+source-wordcount: '388'
+ht-degree: 59%
 
 ---
 
@@ -73,7 +73,7 @@ Campaign の組み込みテーブルとそのインタラクションについ�
 
 名前空間を使用すると、一連のスキーマを目標領域別にグループ化できます。例えば、**cus** 名前空間は、顧客固有の設定（**customers**）に使用します。
 
-スキーマの識別キーは、コロンで区切られた名前空間と名前を使用して作成された文字列です。例： **cus:recipient**.
+スキーマの識別キーは、コロンで区切られた名前空間と名前を使用して作成される文字列です。次に例を示します。 **cus:recipient**.
 
 >[!IMPORTANT]
 >

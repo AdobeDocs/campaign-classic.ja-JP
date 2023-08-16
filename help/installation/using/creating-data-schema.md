@@ -3,12 +3,12 @@ product: campaign
 title: FDA のデータスキーマの作成
 description: FDA のデータスキーマを作成する方法を説明します
 feature: Installation, Instance Settings, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 45%
+ht-degree: 48%
 
 ---
 

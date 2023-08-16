@@ -3,12 +3,12 @@ product: campaign
 title: アクセス管理
 description: アクセス管理のベストプラクティスの詳細を説明します
 feature: Installation, Access Management, Permissions
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 

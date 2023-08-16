@@ -2,13 +2,13 @@
 product: campaign
 title: 配信テンプレートの作成
 description: 配信テンプレートの作成
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
+badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Delivery Templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '404'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_campaign_save_as_scenario.png)
 
-これにより、選択した配信から配信テンプレートが作成されます。テンプレートの保存先フォルダーを「**[!UICONTROL フォルダー]**」フィールドで指定し、そのテンプレートに基づいて作成される配信の保存先フォルダーを「**[!UICONTROL 実行フォルダー]**」フィールドで指定する必要があります。
+このアクションにより、選択した配信から配信テンプレートが作成されます。テンプレートの保存先フォルダーを「**[!UICONTROL フォルダー]**」フィールドで指定し、そのテンプレートに基づいて作成される配信の保存先フォルダーを「**[!UICONTROL 実行フォルダー]**」フィールドで指定する必要があります。
 
 ![](assets/s_ncs_user_campaign_save_as_scenario_a.png)
 

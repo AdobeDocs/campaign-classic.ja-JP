@@ -3,7 +3,7 @@ product: campaign
 title: 外部アカウント
 description: 外部アカウントの作成方法を説明します
 feature: Installation, Application Settings, External Account
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: administration-basics

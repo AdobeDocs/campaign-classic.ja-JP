@@ -2,19 +2,19 @@
 product: campaign
 title: ビジネス指向の API
 description: ビジネス指向の API
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: API
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 3%
+source-wordcount: '639'
+ht-degree: 4%
 
 ---
 
 # ビジネス指向の API{#business-oriented-apis}
 
-ビジネス API は、オブジェクトの各タイプに固有です。 次の項目に影響します。
+ビジネス API は、オブジェクトの各タイプに固有です。 次の項目に影響を与えます。
 
 * 配信:
 
@@ -30,7 +30,7 @@ ht-degree: 3%
      参照： [JavaScript での SOAP メソッド](../../configuration/using/soap-methods-in-javascript.md).
 
 * コンテンツ管理
-* 購読管理 ( [購読 (nms:subscription)](#subscribe--nms-subscription-) および [配信停止 (nms:subscription)](#unsubscribe--nms-subscription-).
+* 購読の管理 ( [購読 (nms:subscription)](#subscribe--nms-subscription-) および [配信停止 (nms:subscription)](#unsubscribe--nms-subscription-).
 * データプロセス：インポート、エクスポート。
 
 この節では、「購読」、「購読解除」および「SubmitDelivery」サービスの使用について詳しく説明します。
@@ -46,7 +46,7 @@ ht-degree: 3%
 サービスを呼び出すには、次のパラメーターが必要です。
 
 * 認証
-* 購読サービスの内部名
+* サブスクリプションサービスの内部名
 * （「nms:recipient」スキーマからの）受信者情報を含む XML ドキュメント
 * 受信者作成用のブール値（まだ存在しない場合）。
 
@@ -68,7 +68,7 @@ ht-degree: 3%
 
 ### 例 {#examples}
 
-E メールアドレスの受信者の紐付けキーを使用した購読：入力 XML ドキュメントは、電子メールアドレスと、このフィールドのキーの定義を参照する必要があります。
+E メールアドレスの受信者紐付けキーを使用した購読：入力 XML ドキュメントは、E メールアドレスと、このフィールドのキーの定義を参照する必要があります。
 
 ```
 <recipient _key="email" email= "john.doe@adobe.com"/>
@@ -139,7 +139,7 @@ E メールアドレスの受信者の紐付けキーを使用した購読：入
 
 >[!NOTE]
 >
->サービス名がパラメーターとして指定されていない場合、受信者はブロックリスト自動的に (@blackList=&quot;1&quot;) に送信されます。
+>サービス名がパラメーターとして指定されていない場合、受信者はブロックリストに加える自動的に (@blackList=&quot;1&quot;) に送信されます。
 
 この呼び出しは、エラーを除き、データを返しません。
 
@@ -204,7 +204,7 @@ E メールアドレスの受信者の紐付けキーを使用した購読：入
 
 ### XML ドキュメントの例 {#xml-document-example}
 
-この例は、外部データソース（この場合はファイル）のカスタム配信テンプレートに基づいています。 この設定については、配信テンプレートで完全に説明されているので、呼び出しが発生したときに残るのは、 `<externalsource>` 要素。
+この例は、外部データソース（この場合はファイル）のカスタム配信テンプレートに基づいています。 この設定については、配信テンプレートで完全に説明されているので、呼び出しが発生したときに残るのは、 `<externalsource>` 要素を選択します。
 
 ```
 <delivery>

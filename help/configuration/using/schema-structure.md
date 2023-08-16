@@ -3,7 +3,7 @@ product: campaign
 title: スキーマの構造
 description: スキーマの構造
 feature: Custom Resources
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classicv7 にのみ適用"
+badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: configuration
 content-type: reference
 topic-tags: schema-reference

@@ -9,22 +9,25 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 32c2ce24bdd62724e4b4ff66f4664e8faa259b4b
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 100%
+source-wordcount: '762'
+ht-degree: 96%
 
 ---
 
+
 # ファイルの解凍または復号化 {#unzipping-or-decrypting-a-file-before-processing}
-
-
 
 Adobe Campaign では、圧縮されたファイルや暗号化されたファイルをインポートできます。「[データ読み込み（ファイル）](../../workflow/using/data-loading--file-.md)」アクティビティで読み取る前にファイルを解凍または復号化する前処理を定義できます。
 
+>[!IMPORTANT]
+>
+>4 Gb を超える圧縮済みファイルは解凍できません。
+
 手順は以下のとおりです。
 
-1. [コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#decrypting-data)を使用して、公開鍵と秘密鍵のペアを生成します。
+1. 以下を使用します。 [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#decrypting-data) ファイルの復号化を可能にするために公開鍵と秘密鍵のペアを生成する。
 
    >[!NOTE]
    >
@@ -32,8 +35,9 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
    >
    >インスタンスは AWS でホストされ、[最新の GA ビルド](../../rn/using/rn-overview.md)でアップグレードされている必要があります。バージョンを確認する方法については、[この節](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)を参照してください。インスタンスが AWS でホストされているかどうかを確認するには、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)に記載されている手順に従います。
 
-1. インストールした Adobe Campaign がアドビでホストされている場合は、必要なユーティリティをサーバーにインストールするよう[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に依頼します。
 1. Adobe Campaign のインストールがオンプレミスの場合：使用するユーティリティ（例：GPG、GZIP）およびアプリケーションサーバー上の必要なキー（暗号化キー）をインストールします。
+
+   インストールした Adobe Campaign がアドビでホストされている場合は、必要なユーティリティをサーバーにインストールするよう[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)に依頼します。
 
 次に、目的の前処理コマンドをワークフローで使用します。
 

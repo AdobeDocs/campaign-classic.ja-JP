@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 324e26ba1db14e10bb79eee60ba43ddc36e8e94f
 workflow-type: tm+mt
-source-wordcount: '3607'
-ht-degree: 100%
+source-wordcount: '3630'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
 
 ## 2023
+
+### 2023年8月
+
+4 Gb を超える圧縮済みファイルの解凍にAdobe Campaignを使用できないことを示す制限が追加されました。 [詳細情報](../../platform/using/unzip-decrypt.md)
 
 ### 2023年4月
 

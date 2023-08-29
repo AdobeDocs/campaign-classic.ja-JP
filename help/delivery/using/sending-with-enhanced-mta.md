@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Enhanced MTA を使用した Adobe Campaign Classic での送信
+title: Adobe Campaign Classicで Enhanced MTA と共に送信
 description: Adobe Campaign Enhanced MTA を使用したメール送信の範囲と特異性について説明します。
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
+source-git-commit: e83d85a26a5c8dd26ea2468246ef448edf8fee9b
 workflow-type: tm+mt
 source-wordcount: '1378'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

@@ -5,17 +5,16 @@ description: 配信テンプレートの作成
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Delivery Templates
+role: User
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '404'
 ht-degree: 100%
 
 ---
 
 # 配信テンプレートの作成{#creating-a-delivery-template}
-
-
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#delivery-template-video)
 

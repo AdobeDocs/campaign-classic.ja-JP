@@ -5,17 +5,16 @@ description: 配信パフォーマンスとベストプラクティスについ�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability
+role: User, Data Engineer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '470'
 ht-degree: 100%
 
 ---
 
 # 配信パフォーマンスのベストプラクティス {#delivery-performances}
-
-
 
 配信の問題が発生した場合の配信パフォーマンスを確保すると共に、パフォーマンスの確認に以下のガイドラインに従うことをお勧めします。
 

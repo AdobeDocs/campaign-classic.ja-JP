@@ -5,17 +5,16 @@ description: Adobe Campaign でのモバイルアプリチャネルの基本を�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Push
+role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '680'
 ht-degree: 100%
 
 ---
 
 # モバイルアプリチャネルの基本を学ぶ{#about-mobile-app-channel}
-
-
 
 **モバイルアプリチャネル**&#x200B;では、Adobe Campaign プラットフォームを使用して、パーソナライズされた通知をアプリから iOS および Android 端末に送信できます。
 

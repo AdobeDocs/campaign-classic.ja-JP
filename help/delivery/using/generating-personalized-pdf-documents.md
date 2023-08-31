@@ -5,17 +5,16 @@ description: パーソナライズされた PDF ドキュメントを生成す�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Personalization
+role: User
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '492'
 ht-degree: 100%
 
 ---
 
 # パーソナライズされた PDF ドキュメントの生成{#generating-personalized-pdf-documents}
-
-
 
 ## 様々な PDF ドキュメントについて {#about-variable-pdf-documents}
 

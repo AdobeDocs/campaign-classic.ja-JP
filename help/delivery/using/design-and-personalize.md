@@ -5,17 +5,16 @@ description: Adobe Campaign 配信でパーソナライズされたコンテン�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email Design, Personalization
+role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '1311'
 ht-degree: 100%
 
 ---
 
 # パーソナライズされたコンテンツの作成 {#build-personalized-content}
-
-
 
 メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。考えられるエラーの多くは、[パーソナライゼーション](about-personalization.md)、[フォーマット設定](defining-the-email-content.md#message-content)、[画像](defining-the-email-content.md#adding-images)に関係しています。
 

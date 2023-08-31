@@ -5,17 +5,16 @@ description: シードアドレスの作成方法と使用方法を学ぶ
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Seed Address
+role: User, Data Engineer
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '452'
 ht-degree: 100%
 
 ---
 
 # シードアドレスの作成{#creating-seed-addresses}
-
-
 
 シードアドレスの管理には、標準的なプロファイルやターゲットではなく、Adobe Campaign 階層構造の&#x200B;**[!UICONTROL リソース／キャンペーン管理／シードアドレス]**&#x200B;でアクセスできる専用ノードを使用します。
 

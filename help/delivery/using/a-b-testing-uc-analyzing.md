@@ -5,17 +5,16 @@ description: 専用のユースケースを通じて A/B テストを実行す�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: A/B Testing
+role: User
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 100%
+source-wordcount: '119'
+ht-degree: 95%
 
 ---
 
-# 結果の分析 {#step-8--analyzing-the-result}
-
-
+# AB テスト：結果の分析 {#step-8--analyzing-the-result}
 
 テストの配信が完了したら、どの受信者に配信をおこなったかをチェックし、開封の有無を確認します。
 

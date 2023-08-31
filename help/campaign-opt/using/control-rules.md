@@ -1,14 +1,15 @@
 ---
 product: campaign
 title: コントロールルール
-description: コントロールルール
+description: Adobe Campaignでのコントロールルールの使用方法を説明します。
+role: User, Data Engineer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Typology Rules, Campaigns
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 97%
 
 ---
 

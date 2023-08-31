@@ -5,17 +5,16 @@ description: 専用のユースケースを通じて A/B テストを実行す�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: A/B Testing
+role: User
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 97%
 
 ---
 
-# 母集団サンプルの設定 {#step-2--configuring-population-samples}
-
-
+# AB テスト：母集団サンプルの設定 {#step-2--configuring-population-samples}
 
 ## クエリアクティビティの設定 {#configuring-the-query-activity}
 

@@ -5,17 +5,16 @@ description: 専用のユースケースを通じて A/B テストを実行す�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: A/B Testing
+role: User
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '177'
+ht-degree: 96%
 
 ---
 
-# ターゲティングワークフローの作成 {#step-1--creating-a-targeting-workflow}
-
-
+# AB テスト：ターゲティングワークフローの作成 {#step-1--creating-a-targeting-workflow}
 
 キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブでワークフローを作成する必要があります。このワークフローは、1 つの「**[!UICONTROL クエリ]**」アクティビティ、2 つの「**[!UICONTROL E メール配信]**」アクティビティとリンクした 1 つの「**[!UICONTROL 分割]**」アクティビティ、1 つの「**[!UICONTROL 待機]**」アクティビティ、1 つの「**[!UICONTROL JavaScript コード]**」アクティビティ、1 つの「**[!UICONTROL 配信]**」アクティビティから構成されます。
 

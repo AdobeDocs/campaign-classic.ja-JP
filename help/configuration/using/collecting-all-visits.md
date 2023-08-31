@@ -3,9 +3,10 @@ product: campaign
 title: すべての訪問の収集
 description: すべての訪問の収集
 feature: Configuration, Instance Settings
+role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 5%

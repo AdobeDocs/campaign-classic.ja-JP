@@ -5,8 +5,9 @@ description: ワークフローでプロファイルリストを作成する方�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Workflows, Profiles
+role: User
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 18%
@@ -14,7 +15,6 @@ ht-degree: 18%
 ---
 
 # ワークフローを使用したプロファイルリストの作成{#creating-a-profile-list-with-a-workflow}
-
 
 
 を作成するには、以下を実行します。 **[!UICONTROL リスト]** 新しい受信者テーブルに基づいて「リスト」と入力する場合は、リストを生成するターゲティングワークフローを作成する必要があります。

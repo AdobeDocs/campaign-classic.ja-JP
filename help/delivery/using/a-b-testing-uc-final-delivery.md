@@ -5,17 +5,16 @@ description: 専用のユースケースを通じて A/B テストを実行す�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: A/B Testing
+role: User
 exl-id: bc23a444-a872-48fb-8bba-64b301541089
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 100%
+source-wordcount: '132'
+ht-degree: 95%
 
 ---
 
-# 最終配信の定義 {#step-6--defining-the-final-delivery}
-
-
+# A/B テスト：最終配信の定義 {#step-6--defining-the-final-delivery}
 
 A/B テストの勝者を選択するスクリプトの作成後は、最終配信のパラメーターを定義できます。
 

@@ -5,15 +5,16 @@ description: 専用のユースケースを通じて A/B テストを実行す�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: A/B Testing
+role: User
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 100%
+source-wordcount: '100'
+ht-degree: 95%
 
 ---
 
-# ワークフローの開始 {#step-7--starting-the-workflow}
+# A/B テスト：ワークフローを開始します {#step-7--starting-the-workflow}
 
 
 

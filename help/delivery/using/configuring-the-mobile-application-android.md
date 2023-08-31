@@ -4,8 +4,9 @@ title: Adobe Campaign で Android モバイルアプリケーションを設定
 description: Android 用のモバイルアプリケーションの設定方法を説明します。
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Push
+role: User, Developer
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 100%
@@ -13,8 +14,6 @@ ht-degree: 100%
 ---
 
 # Android の設定手順
-
-
 
 パッケージがインストールされたら、Adobe Campaign Classic で Android アプリの設定を定義できます。
 

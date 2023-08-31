@@ -3,12 +3,10 @@ product: campaign
 title: データスキーマの構造
 description: データスキーマの構造
 feature: Custom Resources
+role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
-audience: configuration
-content-type: reference
-topic-tags: editing-schemas
 exl-id: 86036f2f-ec7c-413e-b1e1-10a71a06cd6d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 14%

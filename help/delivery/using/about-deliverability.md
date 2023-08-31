@@ -5,17 +5,16 @@ description: 配信品質のベストプラクティスを説明します
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability
+role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # 配信品質とは{#about-deliverability}
-
-
 
 配信品質は、バウンスしたりスパムと見なされることなく受信者のインボックスに到達するキャンペーンの成否を測定する手法です。[配信品質が重要な理由について説明します](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=ja#why-deliverability-matters)。
 
@@ -37,7 +36,7 @@ ht-degree: 100%
 
 ### 配信品質率
 
-配信品質率は、受信者のインボックスに届いたメッセージの数と配信されたメッセージの数との比率ですこの比率を高めることにより、配信品質を向上させることができます。
+配信品質の割合は、配信されたメッセージ数に対して、受信者の受信ボックスに届いたメッセージの数です。 この比率を高めることにより、配信品質を向上させることができます。
 
 Adobe Campaign では、配信品質は多くの要因に左右されます。特に次のような要因があげられます。
 

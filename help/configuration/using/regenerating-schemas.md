@@ -3,9 +3,10 @@ product: campaign
 title: スキーマを再生成
 description: Campaign スキーマの再生成方法を説明します
 feature: Custom Resources
+role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 8%

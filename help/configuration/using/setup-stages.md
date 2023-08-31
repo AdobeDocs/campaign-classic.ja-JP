@@ -3,12 +3,10 @@ product: campaign
 title: ステージの設定
 description: ステージの設定
 feature: Configuration
+role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
-audience: configuration
-content-type: reference
-topic-tags: setting-up-web-tracking
 exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 8%

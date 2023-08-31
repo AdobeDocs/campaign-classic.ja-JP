@@ -5,11 +5,12 @@ description: 配信ダッシュボードで使用できるステータスにつ�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Monitoring, Deliverability
+role: User
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

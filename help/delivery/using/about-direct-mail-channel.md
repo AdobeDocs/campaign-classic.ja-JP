@@ -5,8 +5,9 @@ description: ダイレクトメールチャネルについて
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Direct Mail
+role: User
 exl-id: 6474cf2e-c4db-4430-b001-18bf4911b0ea
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
@@ -14,7 +15,6 @@ ht-degree: 100%
 ---
 
 # ダイレクトメールチャネルについて{#about-direct-mail-channel}
-
 
 
 Adobe Campaign では、パーソナライズした文書を大量配送するためのファイルを作成できます。受信者のプロファイルには、少なくとも受信者の名前と郵送先住所が登録されている必要があります。

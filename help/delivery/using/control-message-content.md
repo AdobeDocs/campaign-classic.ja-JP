@@ -5,16 +5,16 @@ description: Adobe Campaign の配信品質管理の詳細情報
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability
+role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # メッセージコンテンツの制御{#control-message-content}
-
 
 
 E メールが受信者に確実に届くようにし、E メールの配信品質率を向上させるには、E メールがいくつかのルールに従う必要があります。 従わない場合は、特定のメッセージのコンテンツがスパムとして検出される可能性があります。 Adobe Campaign には、コンテンツがこれらのルールに従うようにするためのツールがいくつか用意されています。
@@ -43,7 +43,7 @@ E メールが受信者に確実に届くようにし、E メールの配信品�
 
 ## パーソナライズ機能 {#personalization}
 
-受信者のエクスペリエンスを向上させ、受信者が E メールを開くようにするために、Adobe Campaign ではメッセージをパーソナライズできます。
+受信者のエクスペリエンスを向上させ、E メールを開くように、Adobe Campaignでメッセージをパーソナライズできます。
 
 Adobe Campaign でのパーソナライゼーションフィールドの使用について詳しくは、[この節](personalization-fields.md)を参照してください。
 

@@ -3,10 +3,11 @@ product: campaign
 title: インターフェイスの設定
 description: Campaign インターフェイスの設定方法を説明します。
 feature: Application Settings
+role: Data Engineer, Developer
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 4%
@@ -14,8 +15,6 @@ ht-degree: 4%
 ---
 
 # インターフェイスの設定{#configuring-the-interface}
-
-
 
 Adobe Campaignインターフェイスで新しい受信者テーブルを表示し、ダイアログを表示するには、次の手順に従います。
 

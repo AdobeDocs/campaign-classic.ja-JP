@@ -5,17 +5,16 @@ description: メッセージの準備が整ったら、送信前にすべての�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability
+role: User
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '914'
 ht-degree: 100%
 
 ---
 
 # 送信前の全チェックの実行 {#perform-all-checks}
-
-
 
 メッセージを用意できたら、そのコンテンツがすべてのデバイス上で正しく表示されることを確認します。また、パーソナライゼーションの誤りや壊れたリンクなどのエラーがないことも確認します。
 

@@ -4,17 +4,16 @@ title: Android デバイス用のプッシュ通知の作成
 description: Android 用のプッシュ通知を作成する方法を説明します
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Push
+role: User, Developer, Data Engineer
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '823'
 ht-degree: 100%
 
 ---
 
 # Android 用通知の作成{#create-notificaations-android}
-
-
 
 Adobe Campaign を使用して、Android デバイスにプッシュ通知を送信します。配信の作成に関するグローバルな概念については、[この節](steps-about-delivery-creation-steps.md)で説明しています。
 

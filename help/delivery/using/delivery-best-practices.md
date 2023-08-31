@@ -5,16 +5,16 @@ description: 配信をデザインおよび送信する際のベストプラク�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability
+role: User
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '115'
 ht-degree: 100%
 
 ---
 
 # 配信のベストプラクティス {#delivery-best-practices}
-
 
 
 Adobe Campaign を使用した配信のデザインと送信に関するベストプラクティスについて説明します。トピック間を移動してガイダンスを確認するには、次のリンクを使用してください。

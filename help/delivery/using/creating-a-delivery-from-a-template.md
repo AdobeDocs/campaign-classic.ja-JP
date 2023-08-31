@@ -5,17 +5,16 @@ description: テンプレートから配信を作成する方法を学ぶ
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Delivery Templates
+role: User
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 
 ---
 
 # テンプレートからの配信の作成{#creating-a-delivery-from-a-template}
-
-
 
 ## テンプレートと配信のリンク {#linking-the-template-to-a-delivery}
 

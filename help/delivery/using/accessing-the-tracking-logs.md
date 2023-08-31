@@ -5,17 +5,16 @@ description: トラッキングログへのアクセス
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Monitoring
+role: User
 exl-id: df494786-5950-4646-aa9c-4dde45845057
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '105'
 ht-degree: 100%
 
 ---
 
 # トラッキングログへのアクセス{#accessing-the-tracking-logs}
-
-
 
 配信が送信され、トラッキングが有効化されると、**[!UICONTROL トラッキング]**&#x200B;テクニカルワークフローでトラッキングデータが取得されます。デフォルトでは 1 時間ごとに取得されます。
 

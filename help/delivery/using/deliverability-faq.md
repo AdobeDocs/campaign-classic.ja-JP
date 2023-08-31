@@ -5,17 +5,16 @@ description: Adobe Campaign で配信品質を管理する際に確認すべき�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability, Troubleshooting
+role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '680'
 ht-degree: 100%
 
 ---
 
 # 配信品質のトラブルシューティング{#deliverability-faq}
-
-
 
 配信品質で問題が発生した場合は、以下のソリューションを参照してください。
 

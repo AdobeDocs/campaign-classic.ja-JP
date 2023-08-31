@@ -5,8 +5,9 @@ description: Adobe Campaign の配信品質の監視に関するツールおよ�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability
+role: User, Admin
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
@@ -14,8 +15,6 @@ ht-degree: 100%
 ---
 
 # 配信品質の監視{#monitoring-deliverability}
-
-
 
 以下に、Adobe Campaign に用意されている様々な監視ツールの詳細と、Adobe Campaign で提供される機能を活用してプラットフォームの配信品質を監視する方法に関するその他のガイドラインを示します。
 

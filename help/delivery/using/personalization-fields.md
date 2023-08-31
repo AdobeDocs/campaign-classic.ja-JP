@@ -5,8 +5,9 @@ description: パーソナライゼーションフィールドの使用方法を�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Personalization
+role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 100%
@@ -14,8 +15,6 @@ ht-degree: 100%
 ---
 
 # パーソナライゼーションフィールド{#personalization-fields}
-
-
 
 パーソナライゼーションフィールドは、配信されるメッセージのコンテンツをパーソナライズする第 1 レベルの手段として使用されます。メインコンテンツに挿入したフィールドが、選択したデータソースからのデータが配置される場所を示します。
 

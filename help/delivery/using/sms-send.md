@@ -5,8 +5,9 @@ description: Campaign で SMS を送信、監視、追跡する方法を説明�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: SMS
+role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 100%
@@ -14,8 +15,6 @@ ht-degree: 100%
 ---
 
 # SMS 配信の送信、監視、追跡{#sms-properties}
-
-
 
 ## SMS メッセージの送信 {#sending-sms-messages}
 

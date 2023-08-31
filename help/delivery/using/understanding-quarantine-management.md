@@ -5,17 +5,16 @@ description: 強制隔離管理について
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Monitoring, Deliverability
+role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '3112'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 強制隔離管理について{#understanding-quarantine-management}
-
-
 
 Adobe Campaign では、強制隔離されたアドレスのリストを管理します。アドレスが強制隔離されている受信者は、配信分析時にデフォルトで除外され、ターゲットにされなくなります。例えば、メールボックスの容量が超過している場合や、アドレスが存在しない場合などに、E メールアドレスを強制隔離できます。どのような場合でも、強制隔離手順は、次に説明する特定のルールに従います。
 
@@ -43,11 +42,11 @@ Adobe Campaign では、強制隔離されたアドレスのリストを管理�
 
 * 一方、**ブロックリスト**&#x200B;への登録では、特定のチャネルを購読解除（オプトアウト）した後などは、**プロファイル**&#x200B;は配信のターゲットとなりません。例えば、メールチャネルのブロックリストのプロファイルに 2 つのメールアドレスがある場合、両方のアドレスが配信から除外されます。
 
-  プロファイルが 1 つ以上のチャネルのブロックリストに含まれているかどうかは、プロファイルの「**[!UICONTROL 一般]**」タブの「**[!UICONTROL 今後の連絡は不要]**」セクションで確認できます。詳しくは、[この節](../../platform/using/editing-a-profile.md#general-tab)を参照してください。
+  プロファイルが上にあブロックリストに加えるり、 **[!UICONTROL 今後の連絡は不要]** プロファイルのセクション **[!UICONTROL 一般]** タブをクリックします。 詳しくは、[この節](../../platform/using/editing-a-profile.md#general-tab)を参照してください。
 
 >[!NOTE]
 >
->強制隔離には、受信者がメッセージをスパムとして報告したり、「STOP」などのキーワードを使用して SMS メッセージに返信したりする場合に適用される&#x200B;**[!UICONTROL ブロックリスト登録済み]**&#x200B;ステータスが含まれます。この場合、プロファイルの関連するアドレスまたは電話番号は、**[!UICONTROL ブロックリスト登録済み]**&#x200B;ステータスで強制隔離に送信されます。STOP SMS メッセージの管理について詳しくは、[この節](../../delivery/using/sms-send.md#processing-inbound-messages)を参照してください。
+>強制隔離には **[!UICONTROL ブロックリストに加える]** ステータス。受信者がメッセージをスパムとして報告したり、「STOP」などのキーワードを含む SMS メッセージに返信したりする場合に適用されます。 この場合、プロファイルに関係するアドレスまたは電話番号は、 **[!UICONTROL ブロックリストに加える]** ステータス。 STOP SMS メッセージの管理について詳しくは、[この節](../../delivery/using/sms-send.md#processing-inbound-messages)を参照してください。
 
 ## 強制隔離されたアドレスを識別 {#identifying-quarantined-addresses}
 
@@ -164,16 +163,16 @@ Adobe Campaign では、エラーメッセージの選定で割り当てられ�
 
 * 強制隔離リストの&#x200B;**[!UICONTROL エラーテキスト]**&#x200B;フィールドにインバウンドメールのルール情報が含まれている Campaign Classic v7 環境の場合：
 
-   * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
+   * **エラーテキスト（強制隔離テキスト）** に「Momen_Code10_InvalidRecipient」が含まれる
    * **メールドメイン（@domain）**&#x200B;が domain1.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain2.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain3.com と等しい
    * **更新ステータス（@lastModified）**&#x200B;が YYYY/MM/DD 午前 HH:MM:SS 以降
    * **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS PM 以前）
 
 * 強制隔離リストの「**[!UICONTROL エラーテキスト]**」フィールドに SMTP バウンス応答情報が含まれている Campaign Classic v7 インスタンスの場合：
 
-   * **エラーテキスト（強制隔離テキスト）**&#x200B;には、「550-5.1.1」が含まれ、かつ&#x200B;**エラーテキスト（強制隔離テキスト）**&#x200B;には、「support.ISP.com」が含まれている
+   * **エラーテキスト（強制隔離テキスト）** には、「550-5.1.1」およびが含まれます。 **エラーテキスト（強制隔離テキスト）** には、「support.ISP.com」が含まれます。
 
-  例えば、「support.ISP.com」は「support.apple.com」または「support.google.com」になります
+  「support.ISP.com」は、例えば、「support.apple.com」または「support.google.com」です。
 
    * **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS AM 以降）
    * **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS PM 以前）

@@ -5,17 +5,15 @@ description: メールへのバーコードの挿入
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email Design
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+role: User
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 100%
 
 ---
 
-
 # メールへのバーコードの挿入{#insert-a-barcode-in-an-email}
-
-
 
 バーコード生成モジュールを使用して、2D バーコードなど、一般的基準に適合する、複数のタイプのバーコードを作成できます。
 

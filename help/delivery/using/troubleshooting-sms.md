@@ -5,8 +5,9 @@ description: SMS チャネルのトラブルシューティングの方法につ
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: SMS, Troubleshooting
+role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '2756'
 ht-degree: 100%
@@ -14,8 +15,6 @@ ht-degree: 100%
 ---
 
 # SMS トラブルシューティング {#troubleshooting-sms}
-
-
 
 ## 異なる外部アカウント間の競合 {#external-account-conflict}
 
@@ -291,7 +290,7 @@ SMS の問題について、Adobe Campaign、SMS プロバイダー、または�
 コンテナ上で開いている接続の数を確認するには、次のコマンドを使用します。
 
 ```
-(for pid in $(ss -neopts  | sed -n ‘s/^.*:3600[ \t].*users:(([0-9A-Za-z”]*,pid=\([0-9]*\),.*$/\1/p’ | sort ); do  cat /proc/$pid/cmdline; echo  ” $pid” ;done;) | uniq --count
+(for pid in $(ss -neopts  | sed -n 's/^.*:3600[ \t].*users:(([0-9A-Za-z"]*,pid=\([0-9]*\),.*$/\1/p' | sort ); do  cat /proc/$pid/cmdline; echo  " $pid" ;done;) | uniq --count
 ```
 
 これは、特定のポートに対して開かれた接続数をリストします。ここでは、ポート 3600 を使用しています。

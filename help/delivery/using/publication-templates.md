@@ -5,21 +5,20 @@ description: パブリッシュテンプレート
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Templates
+role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 100%
+source-wordcount: '844'
+ht-degree: 98%
 
 ---
 
 # 公開テンプレート{#publication-templates}
 
-
-
 ## パブリッシュテンプレートについて {#about-publication-templates}
 
-パブリッシュテンプレートは、パブリッシュするコンテンツの ID カードです。パブリッシュプロセスで使用する次のリソースを参照します。
+パブリッシュテンプレートは、パブリッシュプロセスで使用される次のリソースを参照します。
 
 * データスキーマ
 * 入力フォーム

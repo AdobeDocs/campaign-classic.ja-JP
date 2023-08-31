@@ -5,8 +5,9 @@ description: Campaign での入力フォームの使用方法を学ぶ
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Data Management
+role: User, Developer
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 100%
@@ -14,8 +15,6 @@ ht-degree: 100%
 ---
 
 # 入力フォーム{#input-forms}
-
-
 
 Adobe Campaign の入力フォーム使用に関する一般的な原理を一部紹介します。
 

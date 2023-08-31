@@ -5,17 +5,16 @@ description: メッセージ配信を最適化する方法を学ぶ
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability
+role: User
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # 配信の最適化 {#optimize-delivery}
-
-
 
 配信の作成に入る前に、送信プロセスを保証し、最適化するためにいくつかのアクションを実行します。
 
@@ -47,7 +46,7 @@ ht-degree: 100%
 
 * 配信品質とは何でしょうか。
 
-   * 配信品質とは、受信者のサーバーが E メールを許可する能力を測定するためのファクターです。ISP（インターネットサービスプロバイダー）は、スパムとして識別した E メールを除外するか、E メール内の画像のダウンロードを禁止します。ISP は、特定のドメインから大量の E メールが送信されていると判断すると、その送信者から送られる E メールの許可数に上限を設定します。
+   * 受信者のサーバーが E メールを受け入れる能力を判断する要因を指します。 ISP（インターネットサービスプロバイダー）は、スパムとして識別した E メールを除外するか、E メール内の画像のダウンロードを禁止します。ISP は、特定のドメインから大量の E メールが送信されていると判断すると、その送信者から送られる E メールの許可数に上限を設定します。
 
    * E メールの配信品質を確認するときは、データ品質、メッセージとコンテンツ、送信インフラストラクチャ、レピュテーションという 4 つの主要カテゴリを中心に調べます。このトピックについて詳しくは、[この節](about-deliverability.md)を参照してください。
 

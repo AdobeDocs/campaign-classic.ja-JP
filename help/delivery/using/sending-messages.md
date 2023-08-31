@@ -5,8 +5,9 @@ description: メールの配信を確定し、メールメッセージを配信�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email
+role: User
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
@@ -14,8 +15,6 @@ ht-degree: 100%
 ---
 
 # メールを送信する主な手順 {#key-steps-to-send-an-email}
-
-
 
 E メールを作成および設定したら、メインターゲットに送信できます。 この節では、E メールの配信を確認するための主な手順を示します。
 

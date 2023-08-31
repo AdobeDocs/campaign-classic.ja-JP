@@ -1,21 +1,20 @@
 ---
 product: campaign
 title: 購読の管理
-description: 購読の管理
+description: Adobe Campaignで購読を管理する方法を説明します
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Subscriptions
+role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 100%
+source-wordcount: '1173'
+ht-degree: 99%
 
 ---
 
 # 購読の管理{#managing-subscriptions}
-
-
 
 ## 情報サービスについて {#about-information-services}
 

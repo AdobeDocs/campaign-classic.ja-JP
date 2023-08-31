@@ -5,9 +5,10 @@ description: E メールのレンダリングを取り込み、専用レポー�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Inbox Rendering, Monitoring, Email Rendering
+role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: e011333411af79b985166a4e73592a1860749cf1
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '890'
 ht-degree: 100%
 

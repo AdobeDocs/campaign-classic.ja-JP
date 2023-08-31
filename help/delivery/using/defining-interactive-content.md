@@ -5,17 +5,16 @@ description: Adobe Campaign の AMP を使用してインタラクティブな�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email Design
+role: User
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-source-git-commit: ae7aa6989314677a839795e8caa8ba0f95009e09
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '1525'
 ht-degree: 100%
 
 ---
 
 # インタラクティブコンテンツの定義{#defining-interactive-content}
-
-
 
 Adobe Campaign では、特定の条件下での動的なメールの送信を可能にする、インタラクティブな [AMP for Email](https://amp.dev/ja/about/email/) 形式を使用することができます。
 

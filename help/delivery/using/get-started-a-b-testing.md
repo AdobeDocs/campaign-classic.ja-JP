@@ -5,16 +5,16 @@ description: Campaign での A/B テストについて詳しく説明します�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: A/B Testing
+role: User
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '361'
 ht-degree: 100%
 
 ---
 
 # A/B テストの基本を学ぶ {#get-started-a-b-testing}
-
 
 
 A/B テストを使用すると、複数のバージョンを相互に比較して、ターゲット母集団に最も大きな影響を与える配信を識別できます。

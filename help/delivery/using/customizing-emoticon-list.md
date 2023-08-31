@@ -5,17 +5,16 @@ description: Adobe Campaign を使用するときに顔文字リストをカス�
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email, Push
+role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '485'
 ht-degree: 100%
 
 ---
 
 # 顔文字リストのカスタマイズ {#customize-emoticons}
-
-
 
 ポップアップに表示される顔文字リストは、リストに値を表示して、特定のフィールドに対するユーザーの選択肢を制限できる列挙によって決まります。
 顔文字のリスト順序はカスタマイズすることができます。また、リストに他の顔文字を追加することもできます。

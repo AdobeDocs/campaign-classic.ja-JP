@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 feature: Email Design
 role: User
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
 ht-degree: 100%
 

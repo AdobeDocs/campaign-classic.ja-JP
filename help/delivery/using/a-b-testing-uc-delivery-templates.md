@@ -8,13 +8,13 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 feature: A/B Testing
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# AB テスト：配信テンプレートの作成 {#step-3--creating-two-delivery-templates}
+# A/B テスト：配信テンプレートを作成 {#step-3--creating-two-delivery-templates}
 
 ここでは、2 つの配信テンプレートを作成します。各テンプレートは、「**[!UICONTROL 分割]**」アクティビティとリンクした「**[!UICONTROL E メール配信]**」アクティビティで参照されます。詳細については、[この節](about-templates.md)を参照してください。
 

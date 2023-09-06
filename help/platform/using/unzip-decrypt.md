@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
 source-git-commit: 32c2ce24bdd62724e4b4ff66f4664e8faa259b4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 >[!IMPORTANT]
 >
->4 Gb を超える圧縮済みファイルは解凍できません。
+>4 Gb を超える圧縮されたファイルは解凍できません。
 
 手順は以下のとおりです。
 
-1. 以下を使用します。 [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#decrypting-data) ファイルの復号化を可能にするために公開鍵と秘密鍵のペアを生成する。
+1. ファイルの復号化を可能にするために、[コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#decrypting-data)を使用して公開鍵と秘密鍵のペアを生成します。
 
    >[!NOTE]
    >

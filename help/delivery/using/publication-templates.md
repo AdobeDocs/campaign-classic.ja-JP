@@ -8,17 +8,17 @@ feature: Templates
 role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '844'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 公開テンプレート{#publication-templates}
+# パブリッシュテンプレート{#publication-templates}
 
 ## パブリッシュテンプレートについて {#about-publication-templates}
 
-パブリッシュテンプレートは、パブリッシュプロセスで使用される次のリソースを参照します。
+パブリッシュテンプレートは、パブリッシュプロセスで使用する次のリソースを参照します。
 
 * データスキーマ
 * 入力フォーム

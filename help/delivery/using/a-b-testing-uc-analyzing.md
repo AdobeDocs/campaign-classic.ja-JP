@@ -8,13 +8,13 @@ feature: A/B Testing
 role: User
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# AB テスト：結果の分析 {#step-8--analyzing-the-result}
+# A/B テスト：結果を分析 {#step-8--analyzing-the-result}
 
 テストの配信が完了したら、どの受信者に配信をおこなったかをチェックし、開封の有無を確認します。
 

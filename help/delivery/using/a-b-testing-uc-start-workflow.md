@@ -8,13 +8,13 @@ feature: A/B Testing
 role: User
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '100'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# A/B テスト：ワークフローを開始します {#step-7--starting-the-workflow}
+# A/B テスト：ワークフローの開始 {#step-7--starting-the-workflow}
 
 
 

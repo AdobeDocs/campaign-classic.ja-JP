@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 324e26ba1db14e10bb79eee60ba43ddc36e8e94f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3630'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 ### 2023年8月
 
-4 Gb を超える圧縮済みファイルの解凍にAdobe Campaignを使用できないことを示す制限が追加されました。 [詳細情報](../../platform/using/unzip-decrypt.md)
+4 Gb を超える圧縮されたファイルの解凍に Adobe Campaign を使用できないことを示す制限を追加しました。[詳細情報](../../platform/using/unzip-decrypt.md)
 
 ### 2023年4月
 

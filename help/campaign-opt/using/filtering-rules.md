@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: フィルタリングルール
-description: フィルタールールの使用方法を学ぶ Adobe Campaign
+description: フィルタールールの使用方法を学ぶAdobe Campaign の場合
 role: User, Data Engineer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Typology Rules, Campaigns
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

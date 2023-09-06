@@ -8,13 +8,13 @@ feature: A/B Testing
 role: User
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# AB テスト：スクリプトの作成 {#step-5--creating-the-script}
+# A/B テスト：スクリプトの作成 {#step-5--creating-the-script}
 
 
 その他の母集団用の配信コンテンツを、スクリプトで割り出します。このスクリプトでは、最も開封率の高い配信について情報を復元し、その内容を最終の配信にコピーします。

@@ -8,9 +8,9 @@ feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8458'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -831,7 +831,8 @@ SMS プロセスは、完了行を毎分チェックし、非同期に処理し�
 
 * **SMS に様々な文字を送信する**：GSM 以外の文字や ASCII 以外の文字で SMS を送信する必要がある場合は、できるだけ多様な文字でメッセージを送信してみてください。カスタム文字マッピングテーブルを設定する場合は、すべての可能な `data_coding` 値に対して、少なくとも 1 回 SMS を送信してください。
 
-* **SR が正しく処理されていることを確認する**：SMS が配信ログに受信済みとマークされます。配信ログは正常に作成され、次のようになります。
+* **SR が正しく処理されていることを確認する**：
+SMS が配信ログに受信済みとマークされます。配信ログは正常に作成され、次のようになります。
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 配信プロバイダー名を変更したことを確認してください。実稼働環境では、配信ログに **SR Generic** を含めないでください。
 

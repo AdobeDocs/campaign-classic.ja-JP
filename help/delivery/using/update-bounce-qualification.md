@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -39,17 +39,17 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 
 >[!IMPORTANT]
 >
->これらの日時は、米国東部標準時（EST）に基づいています。 インスタンスのタイムゾーンに合わせて調整してください。
+>これらの日時は、米国東部標準時（EST）に基づいています。 お使いのインスタンスのタイムゾーンに合わせて調整してください。
 
 * 強制隔離リストの&#x200B;**[!UICONTROL エラーテキスト]**&#x200B;フィールドに SMTP バウンス応答情報が含まれている Campaign インスタンスの場合：
 
-   * **エラーテキスト（強制隔離テキスト）** に「ユーザー検索成功が含まれるが、ユーザーレコードが見つかりません」という AND が含まれる **エラーテキスト（強制隔離テキスト）** 「support.apple.com」が含まれる
+   * **エラーテキスト（強制隔離テキスト）**&#x200B;には、「user lookup success but no user record found（ユーザー参照に成功しましたが、ユーザーレコードが見つかりませんでした）」が含まれ、かつ&#x200B;**エラーテキスト（強制隔離テキスト）**&#x200B;には、「support.apple.com」が含まれている
    * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午前 07:00:00 以降
    * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午後 01:00:00 以前
 
-* 強制隔離リストの&#x200B;**[!UICONTROL エラーテキスト]**&#x200B;フィールドにインバウンド E メールのルール情報が含まれている Campaign インスタンスの場合：
+* 強制隔離リストの&#x200B;**[!UICONTROL エラーテキスト]**&#x200B;フィールドにインバウンドメールのルール情報が含まれている Campaign インスタンスの場合：
 
-   * **エラーテキスト（強制隔離テキスト）** に「Momen_Code10_InvalidRecipient」が含まれる
+   * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
    * **メールドメイン（@domain）**&#x200B;が icloud.com と等しいか、または&#x200B;**メールドメイン（@domain）**&#x200B;が me.com と等しいか、または&#x200B;**メールドメイン（@domain）**&#x200B;が mac.com と等しい
    * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午前 07:00:00 以降
    * **更新ステータス（@lastModified）**&#x200B;が 2021 年 4 月 26 日午後 01:00:00 以前

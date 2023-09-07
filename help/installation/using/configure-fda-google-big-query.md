@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 9%
+source-wordcount: '1065'
+ht-degree: 7%
 
 ---
 
@@ -211,3 +211,7 @@ Adobe Campaign Classicを使用 **Federated Data Access** (FDA) 外部データ�
 | ProxyUid | 認証済みプロキシに使用するユーザー名 |
 | ProxyPwd | ProxyUid パスワード |
 | bqpath | これは、一括読み込みツール (Cloud SDK) にのみ適用されます。 </br> PATH 変数を使用しない場合や、google-cloud-sdk ディレクトリを別の場所に移動する必要がある場合は、このオプションで、サーバー上の cloud sdk bin ディレクトリの正確なパスを指定できます。 |
+| GCloudConfigName | これは、リリース 7.3.4 以降のリリースと、一括読み込みツール (Cloud SDK) にのみ適用されます。</br> Google Cloud SDK は、設定を使用して BigQuery テーブルにデータを読み込みます。 次の名前の設定 `accfda` は、データを読み込むためのパラメーターを格納します。 ただし、このオプションを使用すると、ユーザーは別の名前を設定に指定できます。 |
+| GCloudDefaultConfigName | これは、リリース 7.3.4 以降のリリースと、一括読み込みツール (Cloud SDK) にのみ適用されます。</br> アクティブなGoogle Cloud SDK 設定は、新しい設定にアクティブなタグを転送しない限り、削除できません。 この一時的な設定は、データを読み込むためのメイン設定を再作成するために必要です。 一時的な設定のデフォルト名はです。 `default`の場合は、必要に応じて変更できます。 |
+| GCloudRecreateConfig | これは、リリース 7.3.4 以降のリリースと、一括読み込みツール (Cloud SDK) にのみ適用されます。</br> に設定する場合 `false`の場合、一括読み込みメカニズムは、Google Cloud SDK 設定を再作成、削除または変更しようとするのを回避します。 代わりに、マシン上の既存の設定を使用してデータの読み込みを続行します。 この機能は、他の操作がGoogle Cloud SDK の設定に依存している場合に役立ちます。 </br> 適切な設定を行わずにこのエンジンオプションを有効にした場合、一括読み込みメカニズムは次の警告メッセージを表示します。 `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. これ以上のエラーを防ぐには、デフォルトの ODBC 配列挿入一括読み込みメカニズムを使用してに戻します。 |
+

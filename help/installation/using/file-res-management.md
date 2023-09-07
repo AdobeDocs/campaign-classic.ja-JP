@@ -9,9 +9,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '664'
 ht-degree: 4%
 
 ---
@@ -104,7 +104,7 @@ FTP/FTPS 接続は、proxyFTP パラメーターで定義されます。
 
 複数の接続タイプで同じプロキシを使用する場合、useSingleProxy が&quot;1&quot;または&quot;true&quot;に設定された proxyHTTP のみが定義されます。
 
-プロキシを経由する必要がある内部接続がある場合は、それらを override パラメーターに追加します。
+プロキシを経由しない内部接続がある場合は、それらを override パラメーターに追加します。
 
 プロキシ接続を一時的に無効にする場合は、enabled パラメーターを「false」または「0」に設定します。
 

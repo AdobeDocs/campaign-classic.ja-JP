@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '7962'
-ht-degree: 39%
+source-wordcount: '8056'
+ht-degree: 38%
 
 ---
 
@@ -43,6 +43,7 @@ Adobe Campaignの全体的な設定は、 **serverConf.xml** ファイルの場�
 * [proxyConfig](#proxyconfig)
 * [threadPool](#threadpool)
 * [urlPermission](#urlpermission)
+* [cusHeaders](#cusheaders)
 * [xtkJobs](#xtkjobs)
 
 **その他のパラメーター**
@@ -997,6 +998,29 @@ URL が見つからない場合は、指定されたデフォルトのモード�
   </tr> 
  </tbody> 
 </table>
+
+## cusHeaders {#cusheaders}
+
+このノードを使用すると、外部サーバーからファイルをアップロードする際に実行されるリクエストに、特定のヘッダーを追加できます。 コンテンツ配信ネットワーク (CND) は、リクエスターを信頼するために特定のヘッダーを要求できます。 これらのヘッダーを使用すると、特に、配信の実行手順で各受信者にパーソナライズされたドキュメントをダウンロードする際に、Campaign の要求に対する信頼性を高めることができます。 リソースのダウンロードリクエストが多数ある場合、DDos 攻撃と解釈できます。 dnsPattern を使用すると、ドメイン名に基づいて様々な CDN に特定のヘッダー名と値を設定できます。
+
+```
+  <!-- List of custom headers added to request. 
+         -->
+    <cusHeaders>
+
+    <!-- Pattern of DNS name or domain 
+         value :  dnsPattern: All or part of the URL's domain to verify, * is a wild card Default:  -->
+      <dnsPattern value="">
+
+    <!-- Header Name and Value 
+           headerName :  Header Name 
+           headerValue :  Header Value -->
+        <headerDef headerName="" headerValue=""/>
+
+      </dnsPattern>
+
+    </cusHeaders> 
+```
 
 ### url {#url}
 

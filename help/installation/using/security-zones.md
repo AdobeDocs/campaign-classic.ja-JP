@@ -9,10 +9,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '1520'
-ht-degree: 30%
+source-wordcount: '1506'
+ht-degree: 29%
 
 ---
 
@@ -252,7 +252,7 @@ Adobe Campaignサーバーにアクセスする可能性が高いプロキシの
      <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
      ```
 
-* allowEmptyPassword、allowUserPassword、allowSQLInjection は決して true に設定しないでください。これらの属性は、v5 や v6.0 からの移行のためだけにあります。
+* allowEmptyPassword、allowUserPassword、allowSQLInjection は決して true に設定しないでください。
 
    * **allowEmptyPassword** を使用すると、オペレーターは空のパスワードを設定できます。この属性を使用する場合、すべてのオペレーターに所定の期限までにパスワードを設定するよう通知してください。この期限を経過したら、この属性を false に設定します。
 

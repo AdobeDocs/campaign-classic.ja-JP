@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 100%
+source-wordcount: '784'
+ht-degree: 99%
 
 ---
 
@@ -43,7 +43,6 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <td>
 <p>7.x</p>
 <p><strong>重要</strong>：RHEL を使用する場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させ、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。</p>
-<p>8.x</br><strong>重要：</strong>CentOS Linux 8 は、2021年12月31日（PT）に提供終了（EOL）となります。詳しくは、<a href="../../rn/using/deprecated-features.md">非推奨（廃止予定）の機能</a>ページを参照してください。</p>
 </td>
 </tr>
 <tr>
@@ -51,7 +50,6 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <td>
 <p>11（Campaign v7.3 以降）</p>
 <p>10</p>
-<p>9</p>
 </td>
 </tr>
 <tr>
@@ -143,7 +141,6 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
-<p>10.x</p>
 <p><strong>注意：</strong>上記のバージョンで Amazon RDS for PostgreSQL を使用することもできます。</p>
 </td>
 </tr>
@@ -217,7 +214,6 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
-<p>10.x</p>
 </td>
 <td>v7.0 19.1.4 以上</td>
 </tr>
@@ -306,11 +302,8 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <tr>
 <td>Teradata</td>
 <td>
-<p>17</p>
-<p>16.20</p>
-<p>16</p>
-<p>15.10</p>
-<p>15.0</p>
+<p>17.x</p>
+<p>16.x（最後のバージョン）</p>
 </td>
 <td>v7.0 以上</td>
 </tr>

@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
+source-git-commit: 3db5242e2074c6d0530258073ae83c11164d7365
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '772'
 ht-degree: 99%
 
 ---
@@ -65,8 +65,6 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <td>
 <p>2019（Campaign v7.2 以降）</p>
 <p>2016</p>
-<p>2012 R2</p>
-<p>2012</p>
 </td>
 </tr>
 </tbody>
@@ -80,8 +78,6 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <td>Microsoft IIS</td>
 <td>
 <p>10.0（Windows Server 2016）および 2019</p>
-<p>8.5（Windows Server 2012 R2）</p>
-<p>8.0（Windows Server 2012 - Windows 8）</p>
 </td>
 </tr>
 <tr>
@@ -336,7 +332,6 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <td>
 <p>11</p>
 <p>10</p>
-<p>8</p>
 </td>
 <td>
 <p>v7.3 以上</p>
@@ -348,7 +343,6 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <td>
 <p>2019</p>
 <p>2016</p>
-<p>2012</p>
 </td>
 <td>
 <p>v7.2.1 以上</p>

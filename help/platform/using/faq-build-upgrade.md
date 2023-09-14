@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2001'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Campaign Classic 19.2 以降では、ステータスが各ビルドに関連付�
 
 * ビルドのアップグレード：ビルド 9342 から 9342 より大きいビルドに移行します。例：v7.1 ビルド 9342 -> v7.1 ビルド 9342
 
-* バージョンのアップグレード：以前のメジャーバージョンから最新バージョンに移行します。
+* バージョンのアップグレード：以前のメジャーバージョンからそれ以降のバージョンに移行します。
 
 ## これらのアップデートの前にデータをバックアップする必要がありますか？
 

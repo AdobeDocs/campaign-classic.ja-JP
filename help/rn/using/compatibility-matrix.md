@@ -10,7 +10,7 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 3db5242e2074c6d0530258073ae83c11164d7365
 workflow-type: tm+mt
 source-wordcount: '772'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -299,7 +299,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 <td>Teradata</td>
 <td>
 <p>17.x</p>
-<p>16.x（最後のバージョン）</p>
+<p>16.x（最新バージョン）</p>
 </td>
 <td>v7.0 以上</td>
 </tr>

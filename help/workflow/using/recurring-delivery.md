@@ -5,10 +5,10 @@ description: 繰り返し配信ワークフローアクティビティの詳細�
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 05210269da2a32310c19911a3bc32240c84dc7ad
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '286'
+ht-degree: 93%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 このアクティビティの使用例については、この[節](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)を参照してください。
 
-## 繰り返し配信の設定方法
+## 繰り返し配信の設定方法 {#set-up-recurring-delivery}
 
 **繰り返し配信**&#x200B;では、実行のたびに新しい配信インスタンスを作成します。例えば、ワークフローが週に 1 回実行されるようにスケジュールされている場合、1 年後には 52 件の配信が存在することになります。また、broadLog とトラッキングログは、各配信インスタンスで区切られます。
 
@@ -46,9 +46,9 @@ ht-degree: 100%
 >
 >「**[!UICONTROL 繰り返し配信]**」タイプアクティビティから配達確認を送信することはできません。
 > 
->キャンペーンワークフロー経由で配信を直接作成するには、事前設定されたチャネル固有のアクティビティを使用します（「**[!UICONTROL E メール配信]**」など）。
+>キャンペーンワークフロー経由で配信を直接作成するには、事前設定されたチャネル固有のアクティビティを使用します ( 例： **[!UICONTROL 繰り返し配信]**) をクリックします。
 
-## チュートリアルビデオ（#recurring-delivery-video）
+## チュートリアルビデオ {#recurring-delivery-video}
 
 このビデオでは、繰り返し配信とスケジューラーアクティビティを設定する方法を説明します。
 

@@ -5,8 +5,9 @@ description: Campaign Classic 2022 リリースの詳細
 feature: Release Notes
 role: User
 level: Beginner
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+exl-id: 28490323-41d0-4d61-b309-6892fb826d21
+source-git-commit: 2a1ba4b2d11eb953d2533d06786c1464c9cf64b6
+workflow-type: ht
 source-wordcount: '2027'
 ht-degree: 100%
 

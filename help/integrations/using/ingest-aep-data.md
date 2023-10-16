@@ -2,12 +2,12 @@
 product: campaign
 title: Adobe Experience Platform セグメントの Campaign への取り込み
 description: Adobe Experience Platform のオーディエンスを Campaign Classic に取り込む方法について説明します
-feature: Platform Integration
+feature: Experience Platform Integration
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: integrations
 content-type: reference
 exl-id: 6db8a653-b649-402c-8814-24826edadba7
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: d15592aaccf036fc956049e611139ea5a46e9fc0
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%

@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Workflows
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 source-git-commit: 1baf424138c95b16add37d9d556e3a2566a869c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1420'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ JavaScript の **[!UICONTROL logInfo()]** メソッドは、ワークフロー�
 
 ワークフローを開発する際、アクティビティには他の Adobe Campaign オブジェクト同様に名前が付けられます。名前はツールが生成しますが、アクティビティを設定する際にわかりやすい名前に変更することをお勧めします。後から名前変更をおこなうと、それより前の他のアクティビティの名前を使用するアクティビティを含むワークフローが中断する恐れがあります。このため、後から名前を変更するのは困難な作業になります。
 
-アクティビティの名前は、「**[!UICONTROL 詳細設定]**」タブにあります。名前を付けないでください **[!UICONTROL クエリ]**, **[!UICONTROL query1]**, **[!UICONTROL query11]**&#x200B;を指定しますが、次のような明示的な名前を付けます。 **[!UICONTROL querySubscribedRecipients]**. この名前は、ジャーナルおよび場合によっては SQL ログに表示され、ワークフロー設定の際、デバッグするのに役立ちます。
+アクティビティの名前は、「**[!UICONTROL 詳細設定]**」タブにあります。**[!UICONTROL query]**、**[!UICONTROL query1]**、**[!UICONTROL query11]**&#x200B;といった名前のままにせず、**[!UICONTROL querySubscribedRecipients]** などのわかりやすい名前を付けてください。この名前は、ジャーナルおよび場合によっては SQL ログに表示され、ワークフロー設定の際、デバッグするのに役立ちます。
 
 ### 最初と最後のアクティビティ {#first-and-last-activities}
 

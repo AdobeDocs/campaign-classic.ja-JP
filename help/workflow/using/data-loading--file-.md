@@ -5,10 +5,10 @@ description: データ読み込み（ファイル）ワークフローアクテ�
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 5723d3d617413070b7aed2be2849acca61c10815
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 100%
+source-wordcount: '1191'
+ht-degree: 98%
 
 ---
 
@@ -49,6 +49,10 @@ ht-degree: 100%
 ファイルの全般的なフォーマットでは、列を認識する方法（エンコーディング、使用する区切り文字など）を定義できます。
 
 列のフォーマットでは、以下の設定で各列の値の処理方法を定義できます。
+
+>[!NOTE]
+>
+>必要な数の列を追加できます。 各列の値の最大長は、選択したデータタイプによって決まります。
 
 * **[!UICONTROL 列を無視]**：ファイルの読み込み時の処理で、この列をスキップします。
 * **[!UICONTROL データタイプ]**：各列に適用されるデータタイプを指定します。
@@ -110,7 +114,7 @@ ht-degree: 100%
    ここでは、ファイルに 5 つの列があります。
 
    * 1 番目の列には、購入（3,000 ユーロ以上または未満）、未購入または 1 つ以上の購入アイテムの返金というイベントと紐付けするコードが含まれています。
-   * 2 番目から 4 番目の列はそれぞれ、クライアントの姓、名前、E メールおよびアカウント番号が含まれます。
+   * 2 番目から 4 番目の列はそれぞれ、クライアントの姓、名前、メールおよびアカウント番号が含まれます。
 
    世も混まれるファイルのフォーマット設定は、Adobe Campaign へのデータインポート時に定義されたフォーマット設定と紐付けされます。詳しくは、[この節](../../platform/using/executing-import-jobs.md#step-2---source-file-selection)を参照してください。
 

@@ -2,15 +2,15 @@
 product: campaign
 title: ファイルの圧縮または暗号化
 description: 処理を行う前に Campaign でファイルを圧縮または暗号化する方法を説明します
-feature: Data Management
+feature: Data Management, Encryption
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: a2106e55617209f28da42c50008d16188563b2da
+workflow-type: ht
 source-wordcount: '570'
 ht-degree: 100%
 

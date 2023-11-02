@@ -2,15 +2,15 @@
 product: campaign
 title: データのインポートとエクスポートの基本を学ぶ
 description: Campaign でのデータのインポートとエクスポートについて詳しく学ぶ
-feature: Data Management
+feature: Data Management, Encryption
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: a2106e55617209f28da42c50008d16188563b2da
+workflow-type: ht
 source-wordcount: '337'
 ht-degree: 100%
 
@@ -68,4 +68,4 @@ Campaign Classic では、圧縮ファイルまたは暗号化ファイルのイ
 
 データベース内のデータの一貫性を確保し、更新操作時やエクスポート操作時によく発生するエラーを避けるために、インポート操作とエクスポート操作を実行する際は、いくつかの[ベストプラクティス](../../platform/using/import-export-best-practices.md)に従ってください。
 
-また、SFTP サーバーの使用に関する推奨事項とよくある問題については、[この節](../../platform/using/sftp-server-usage.md)を参照してください。
+また、SFTP サーバーの使用に関するレコメンデーションとよくある問題については、[この節](../../platform/using/sftp-server-usage.md)を参照してください。

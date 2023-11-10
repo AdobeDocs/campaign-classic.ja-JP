@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 3db5242e2074c6d0530258073ae83c11164d7365
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '772'
 ht-degree: 100%
 
@@ -398,6 +398,6 @@ Microsoft Edge WebView2 ランタイム最新バージョンは、Campaign ク�
 
 * [Campaign Classic リリースノート](../../rn/using/latest-release.md)
 * [Campaign の一般的なアーキテクチャ](../../installation/using/general-architecture.md)
-* [ハードウェアサイズについての推奨事項](../../technotes/using/hardware-sizing.md)
+* [ハードウェアサイズについてのレコメンデーション](../../technotes/using/hardware-sizing.md)
 * [非推奨（廃止予定）の機能およびシステム](../../rn/using/deprecated-features.md)
 * [ビルドアップグレード手順](../../production/using/build-upgrade.md)

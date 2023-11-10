@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: データ読み込み（ファイル）
+title: データ読み込み (ファイル)
 description: データ読み込み（ファイル）ワークフローアクティビティの詳細を説明します
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 source-git-commit: 5723d3d617413070b7aed2be2849acca61c10815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1191'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->必要な数の列を追加できます。 各列の値の最大長は、選択したデータタイプによって決まります。
+>列を必要な数だけ追加できます。各列の値の最大長は、選択したデータタイプによって決まります。
 
 * **[!UICONTROL 列を無視]**：ファイルの読み込み時の処理で、この列をスキップします。
 * **[!UICONTROL データタイプ]**：各列に適用されるデータタイプを指定します。

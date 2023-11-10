@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 source-git-commit: 05210269da2a32310c19911a3bc32240c84dc7ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 93%
 >
 >「**[!UICONTROL 繰り返し配信]**」タイプアクティビティから配達確認を送信することはできません。
 > 
->キャンペーンワークフロー経由で配信を直接作成するには、事前設定されたチャネル固有のアクティビティを使用します ( 例： **[!UICONTROL 繰り返し配信]**) をクリックします。
+>キャンペーンワークフロー経由で配信を直接作成するには、事前設定されたチャネル固有のアクティビティを使用します（「**[!UICONTROL 繰り返し配信]**」など）。
 
 ## チュートリアルビデオ {#recurring-delivery-video}
 

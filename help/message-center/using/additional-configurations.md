@@ -8,10 +8,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 52dcc8c01c5ce2421bfb59235bd0e458e7c8122f
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -87,11 +87,17 @@ Once the control and execution modules are installed on the same instance, you m
   イベントステータスには以下のものがあります。
 
    * **[!UICONTROL 保留中]**：イベントはキューの中です。イベントにはまだメッセージテンプレートが割り当てられていません。
-   * **[!UICONTROL 配信待ち]**：イベントはキューの中で、メッセージテンプレートが割り当てられ、配信による処理中です。
+   * **[!UICONTROL 配信保留]**：イベントはキューの中で、メッセージテンプレートが割り当てられ、配信による処理中です。
    * **[!UICONTROL 送信済み]**：このステータスは配信ログからコピーされます。配信が送信されたことを示します。
    * **[!UICONTROL 配信で無視]**：このステータスは配信ログからコピーされます。配信が無視されたことを意味しています。
    * **[!UICONTROL 配信に失敗]**：このステータスは配信ログからコピーされます。配信が失敗したことを意味しています。
    * **[!UICONTROL 処理不可なイベント]**：イベントをメッセージテンプレートにリンクすることができませんでした。イベントの処理はおこなわれません。
+
+### ワークフロースケジュールのアーカイブ
+
+を変更しない **アーカイブワークフロー** コントロールインスタンスで実行するスケジュール。 そうしないと、実行インスタンスから取り込まれた一部のトラッキングデータが失われる可能性があります。
+
+アーカイブワークフローのスケジュールを変更する場合は、 **トラッキングワークフロー** スケジュールを実行インスタンスに設定し、コントロールインスタンス上のアーカイブワークフロースケジュールに一致させます。
 
 ## マルチブランディングの設定 {#configuring-multibranding}
 

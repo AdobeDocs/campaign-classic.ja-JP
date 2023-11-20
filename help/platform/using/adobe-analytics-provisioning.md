@@ -7,16 +7,14 @@ feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: ccc48c93d81266b0971acc3a549458e0823eeb37
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '773'
+ht-degree: 95%
 
 ---
 
 # Adobe Analytics Connector のプロビジョニング {#adobe-analytics-connector-provisioning}
-
-
 
 >[!IMPORTANT]
 >
@@ -31,6 +29,12 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 * 新しいコネクタを実装する場合、Adobe IMS の実装はオプションです。Adobe ID ユーザーがいない場合、Adobe Campaign はテクニカルユーザーを使用して Adobe Analytics と同期します。
 
 この統合が機能するには、Analytics コネクタ専用の Adobe Analytics 製品プロファイルを作成する必要があります。次に、Adobe I/O プロジェクトを作成する必要があります。
+
+<!--
+>[!AVAILABILITY]
+>
+> JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
+-->
 
 ## Adobe Analytics 製品プロファイルの作成 {#analytics-product-profile}
 
@@ -72,7 +76,9 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 
    ![](assets/do-not-localize/triggers_13.png)
 
-1. **[!UICONTROL ディメンション]**&#x200B;機能については、後で設定する必要がある&#x200B;**[!UICONTROL ディメンション]**&#x200B;を追加します。
+1. の **[!UICONTROL Dimension]** 機能を追加するには、 **[!UICONTROL Dimension]** 将来の設定に必要です。
+
+   選択したDimensionが、 [外部アカウント](adobe-analytics-connector.md#external-account-classic) を参照し、対応する eVar の数 ( [Adobe Analytics](adobe-analytics-connector.md#configure-conversion-success).
 
 1. **[!UICONTROL レポートスイートツール]**&#x200B;機能については、次の権限を追加します。
 

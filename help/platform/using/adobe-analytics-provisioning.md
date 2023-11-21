@@ -7,10 +7,10 @@ feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: ccc48c93d81266b0971acc3a549458e0823eeb37
+source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 95%
+source-wordcount: '810'
+ht-degree: 91%
 
 ---
 
@@ -30,11 +30,9 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 
 この統合が機能するには、Analytics コネクタ専用の Adobe Analytics 製品プロファイルを作成する必要があります。次に、Adobe I/O プロジェクトを作成する必要があります。
 
-<!--
 >[!AVAILABILITY]
 >
-> JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
--->
+> JWT（JSON Web トークン）は、現在、が非推奨（廃止予定）の段階で、OAuth に置き換えられています。 トランジションは Campaign の今後のリリース内で段階的に実行されており、これらの更新を反映するためにドキュメントが更新されます。
 
 ## Adobe Analytics 製品プロファイルの作成 {#analytics-product-profile}
 

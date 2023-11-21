@@ -10,16 +10,14 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 100%
+source-wordcount: '809'
+ht-degree: 95%
 
 ---
 
 # Adobe Experience Cloud Triggers 用の Adobe I/O の設定 {#configuring-adobe-io}
-
-
 
 >[!CAUTION]
 >
@@ -39,11 +37,11 @@ ht-degree: 100%
 
 ## 手順 1：Adobe I/O プロジェクトの作成と更新 {#creating-adobe-io-project}
 
-1. [!DNL Adobe I/O] にアクセスし、組織の開発者アクセス権を使用してログインします。
+>[!AVAILABILITY]
+>
+> JWT（JSON Web トークン）は、現在、が非推奨（廃止予定）の段階で、OAuth に置き換えられています。 トランジションは Campaign の今後のリリース内で段階的に実行されており、これらの更新を反映するためにドキュメントが更新されます。
 
-   >[!NOTE]
-   >
-   > 正しい組織ポータルにログインしていることを確認します。
+1. [!DNL Adobe I/O] にアクセスし、組織の開発者アクセス権を使用してログインします。正しい組織ポータルにログインしていることを確認します。
 
 1. 既存の統合クライアント識別子（クライアント ID） をインスタンス設定ファイル（ims/authIMSTAClientId）から抽出します。存在しない属性または空の属性は、クライアント識別子が設定されていないことを示します。
 

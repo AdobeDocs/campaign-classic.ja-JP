@@ -4,10 +4,10 @@ title: 新しい配信サーバーへの更新
 description: 新しい Campaign 配信サーバーに更新する方法を説明します
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 100%
+source-wordcount: '1404'
+ht-degree: 97%
 
 ---
 
@@ -40,12 +40,15 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 ## 実装手順 {#implementation-steps}
 
-新しい配信サーバーの統合の一環として、Campaign は、Identity Management Service（IMS）ベースの認証を経由して Adobe Shared Services と通信する必要があります。推奨される方法は、Adobe Developer ベースのゲートウェイトークン（テクニカルアカウントトークンまたは Adobe I/O JWT とも呼ばれます）を使用することです。
-
 >[!WARNING]
 >
 >これらの手順は、ハイブリッド実装とオンプレミス実装でのみ実行してください。
+
+新しい配信サーバーの統合の一環として、Campaign は、Identity Management Service（IMS）ベースの認証を経由して Adobe Shared Services と通信する必要があります。推奨される方法は、Adobe Developer ベースのゲートウェイトークン（テクニカルアカウントトークンまたは Adobe I/O JWT とも呼ばれます）を使用することです。
+
+>[!AVAILABILITY]
 >
+> JWT（JSON Web トークン）は、現在、が非推奨（廃止予定）の段階で、OAuth に置き換えられています。 トランジションは Campaign の今後のリリース内で段階的に実行されており、これらの更新を反映するためにドキュメントが更新されます。
 
 ### 前提条件{#prerequisites}
 
@@ -175,6 +178,6 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 8月31日までにアップグレードされなかった Campaign インスタンスは、Campaign 配信品質サーバーに接続できなくなります。結果として、**配信品質の更新** (deliverabilityUpdate) ワークフローは失敗し、配信品質に影響を与えます。
 
-環境をアップグレードしない場合、E メール設定の同期は停止されます（MX 管理ルール、インバウンド E メールルール、ドメイン管理ルール、バウンスの選定ルール）。 これは、配信品質の長期化に影響を与える可能性があります。これらのルールに大きな変更が加えられた場合は、この時点から手動で適用する必要があります。
+環境をアップグレードしない場合、メール設定の同期は停止されます（MX 管理ルール、インバウンドメールルール、ドメイン管理ルール、バウンスの選定ルール）。これは、配信品質の長期化に影響を与える可能性があります。これらのルールに大きな変更が加えられた場合は、この時点から手動で適用する必要があります。
 
 MKT インスタンスの場合は、[グローバル抑制リスト](../../campaign-opt/using/filtering-rules.md#default-deliverability-exclusion-rules)のみが影響を受けます。

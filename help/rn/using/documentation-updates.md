@@ -7,22 +7,24 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 324e26ba1db14e10bb79eee60ba43ddc36e8e94f
+source-git-commit: 8ecb5aba9a070276927e97586ed463ab485717d6
 workflow-type: tm+mt
-source-wordcount: '3630'
-ht-degree: 100%
+source-wordcount: '3668'
+ht-degree: 98%
 
 ---
 
 # ドキュメントの更新{#documentation-updates}
-
-
 
 このページでは、すべての新機能とドキュメント更新情報の一覧が月ごとおよび Campaign リリースごとに記載されています。
 
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
 
 ## 2023
+
+### 2023年11月
+
+JWT（JSON Web トークン）は、現在、が非推奨（廃止予定）の段階で、OAuth に置き換えられています。 トランジションは Campaign の今後のリリース内で段階的に実行されており、これらの更新を反映するためにドキュメントが更新されます。
 
 ### 2023年8月
 
@@ -143,7 +145,7 @@ JavaScript を使用して値の計算やデータの交換を行う方法と、
 
 既存のテクニカルノートは、新しい&#x200B;**テクニカルノート**&#x200B;の節にグループ化されました。
 
-**ハードウェアサイズについての推奨事項**&#x200B;ページが更新され、**テクニカルノート**&#x200B;の節に追加されました。 [詳細情報](../../technotes/using/hardware-sizing.md)
+**ハードウェアサイズについてのレコメンデーション**&#x200B;ページが更新され、**テクニカルノート**&#x200B;の節に追加されました。[詳細情報](../../technotes/using/hardware-sizing.md)
 
 ## 2021年9月{#sept-2021}
 
@@ -183,7 +185,7 @@ LINE チャネルの強化 — [詳細情報](../../delivery/using/line-channel.
 
 新しい Google BigQuery FDA コネクタ - [詳細情報](../../installation/using/configure-fda-google-big-query.md)
 
-「請求」テクニカルワークフローの説明に、「アクティブな請求プロファイルの数（billingActiveContactCount）」で初めに実行したタスクを含みました。[詳細情報](../../workflow/using/about-technical-workflows.md)
+「請求（請求）」テクニカルワークフローの説明に、「アクティブな請求プロファイルの数 (billingActiveContactCount)」で最初に実行されたタスクが含まれるようになりました。 [詳細情報](../../workflow/using/about-technical-workflows.md)
 
 ## 2021 年 5 月 {#may-2021}
 
@@ -400,9 +402,9 @@ Campaign Classic の監視に関するガイドラインを含む新しい節を
 
 プライバシーと同意の節が強化され、より詳細な情報と役に立つリンクが追加されました。[詳細を表示](../../platform/using/privacy-and-recommendations.md)
 
-Campaign Classic のプライバシー管理ページが更新され、「規則」フィールドに関する情報が追加されました。このフィールドは、自動プライバシーリクエストプロセスを設定する API を使用する場合に利用できます。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
+Campaign Classic のプライバシー管理ページが更新され、「規則」フィールドに関する情報が追加されました。このフィールドは、自動プライバシーリクエストプロセスを設定する API を使用する場合に利用できます。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html#ManagingPrivacyRequests)
 
-「プライバシー管理の概要」ページが更新され、タイの個人データ保護法（PDPA）とブラジルの Lei Geral de Proteção de Dados（LGPD）に関する情報が含まれるようになりました。[詳細を表示](../../platform/using/privacy-and-recommendations.md)
+「プライバシー管理の概要」ページが更新され、タイの個人データ保護法（PDPA）とブラジル個人情報保護法（LGPD）に関する情報が含まれるようになりました。[詳細情報](../../platform/using/privacy-and-recommendations.md)
 
 サブワークフローのログおよびエラー発生時の動作に関する情報が追加されました。[詳細を表示](../../workflow/using/sub-workflow.md)
 
@@ -492,7 +494,7 @@ Adobe Campaign で使用できる様々な言語の詳細を説明する新し�
 
 ## 2020 年 2 月 {#february-2020}
 
-Adobe Campaign データモデルの設計時のベストプラクティスと主要な推奨事項の概要を説明する新しい節を追加しました。[詳細を表示](../../configuration/using/data-model-best-practices.md)
+Adobe Campaign データモデルの設計時のベストプラクティスと主要なレコメンデーションの概要を説明する新しい節を追加しました。[詳細を表示](../../configuration/using/data-model-best-practices.md)
 
 技術的なメール設定に関する新しい節が追加されました。[詳細を表示](../../installation/using/email-deliverability.md)
 

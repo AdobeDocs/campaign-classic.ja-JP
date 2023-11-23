@@ -3,13 +3,13 @@ audience: end-user
 breadcrumb-title: Campaign Classic v7 ドキュメント
 product: campaign
 title: Campaign Classic v7 ガイド
-user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、E メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
+user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 88ee8d1575f6397a35fb6f7412cd08119a75c131
+source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
 workflow-type: tm+mt
-source-wordcount: '2529'
-ht-degree: 100%
+source-wordcount: '2532'
+ht-degree: 99%
 
 ---
 
@@ -128,14 +128,14 @@ ht-degree: 100%
          + [適切なオーディエンスの定義](delivery/using/define-the-right-audience.md)
          + [送信前の確認](delivery/using/check-before-sending.md)
          + [トラッキングと監視](delivery/using/track-and-monitor.md)
-   + E メールの送信 {#sending-emails}
-      + [E メールチャネルについて](delivery/using/about-email-channel.md)
-      + [E メール配信の作成](delivery/using/creating-an-email-delivery.md)
+   + メールの送信 {#sending-emails}
+      + [メールチャネルについて](delivery/using/about-email-channel.md)
+      + [メール配信の作成](delivery/using/creating-an-email-delivery.md)
       + [メールコンテンツの定義](delivery/using/defining-the-email-content.md)
       + [インタラクティブコンテンツの定義](delivery/using/defining-interactive-content.md)
-      + E メール配信の送信 {#sending-an-email}
-         + [E メールを送信する主な手順](delivery/using/sending-messages.md)
-         + [E メールパラメーター](delivery/using/email-parameters.md)
+      + メール配信の送信 {#sending-an-email}
+         + [メールを送信する主な手順](delivery/using/sending-messages.md)
+         + [メールパラメーター](delivery/using/email-parameters.md)
          + [Enhanced MTA を使用した送信](delivery/using/sending-with-enhanced-mta.md)
          + [日本の携帯電話での送信](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [ファイルの添付](delivery/using/attaching-files.md)
@@ -329,7 +329,7 @@ ht-degree: 100%
       + [コンテンツの編集](web/using/editing-content.md)
       + [コンテンツ編集のベストプラクティス](web/using/content-editing-best-practices.md)
       + [ランディングページの作成](web/using/creating-a-landing-page.md)
-      + [ユースケース：E メール配信の作成](web/using/use-case--creating-an-email-delivery.md)
+      + [ユースケース：メール配信の作成](web/using/use-case--creating-an-email-delivery.md)
    + web フォーム {#web-forms}
       + [web フォームの基本を学ぶ](web/using/about-web-forms.md)
       + [web フォームテンプレートの使用](web/using/using-a-web-form-template.md)
@@ -462,7 +462,7 @@ ht-degree: 100%
       + [ファイルコレクター](workflow/using/file-collector.md)
       + [ファイル転送](workflow/using/file-transfer.md)
       + [web ダウンロード](workflow/using/web-download.md)
-      + [インバウンド E メール](workflow/using/inbound-emails.md)
+      + [インバウンドメール](workflow/using/inbound-emails.md)
       + [インバウンド SMS](workflow/using/inbound-sms.md)
    + ユースケース {#use-cases}
       + [ワークフローのユースケースについて](workflow/using/about-workflow-use-cases.md)
@@ -471,7 +471,7 @@ ht-degree: 100%
          + [誕生日メールの送信](workflow/using/sending-a-birthday-email.md)
          + [配信コンテンツの読み込み](workflow/using/loading-delivery-content.md)
          + [クロスチャネル配信ワークフロー](workflow/using/cross-channel-delivery-workflow.md)
-         + [カスタム日付フィールドを使用した E メールエンリッチメント](workflow/using/email-enrichment-with-custom-date-fields.md)
+         + [カスタム日付フィールドを使用したメールエンリッチメント](workflow/using/email-enrichment-with-custom-date-fields.md)
       + 監視 {#monitoring}
          + [リストへのレポートの送信](workflow/using/sending-a-report-to-a-list.md)
          + [ワークフローの監視](workflow/using/supervising-workflows.md)
@@ -652,6 +652,7 @@ ht-degree: 100%
          + [ベストプラクティスと制限事項](installation/using/fda-best-practices.md)
          + 設定のガイドライン {#config-databases}
             + [設定の手順](installation/using/configure-fda.md)
+            + [Amazon Redshift の設定](installation/using/configure-fda-redshift.md)
             + [Azure Synapse の設定](installation/using/configure-fda-synapse.md)
             + [Google BigQuery の設定](installation/using/configure-fda-google-big-query.md)
             + [Hadoop の設定](installation/using/configure-fda-hadoop.md)
@@ -702,10 +703,10 @@ ht-degree: 100%
       + [Unicode への切り替え](production/using/switching-to-unicode.md)
       + [移行手順](production/using/migration-procedures.md)
    + データベースのメンテナンス {#database-maintenance}
-      + [推奨事項](production/using/recommendations.md)
+      + [レコメンデーション](production/using/recommendations.md)
       + [維持するテーブル](production/using/tables-to-maintain.md)
       + [メンテナンスのタイプ](production/using/types-of-maintenance.md)
-      + [RDBMS 固有の推奨事項](production/using/rdbms-specific-recommendations.md)
+      + [RDBMS 固有のレコメンデーション](production/using/rdbms-specific-recommendations.md)
       + [アプリケーションオブジェクト](production/using/application-objects.md)
    + トラブルシューティング {#troubleshooting-toc}
       + [実稼動環境のトラブルシューティングの概要](production/using/troubleshooting.md)
@@ -818,7 +819,7 @@ ht-degree: 100%
       + [Linux プラットフォームの移行](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
    + [ロールバック手順](migration/using/about-rollback.md)
 + テクニカルノート {#technotes}
-   + [ハードウェアサイズについての推奨事項](technotes/using/hardware-sizing.md)
+   + [ハードウェアサイズについてのレコメンデーション](technotes/using/hardware-sizing.md)
    + アップグレードと互換性{#technote-migration}
       + [テクニカルノート](technotes/using/technote.md)
       + [Microsoft Edge Chromium の有効化](technotes/using/edge-chromium.md)

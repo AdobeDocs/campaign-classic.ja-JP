@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 39%
@@ -16,8 +16,6 @@ ht-degree: 39%
 ---
 
 # Snowflake へのアクセスの設定 {#configure-access-to-snowflake}
-
-
 
 キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存された情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 [!DNL Snowflake].
 

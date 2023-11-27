@@ -9,9 +9,9 @@ role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: 26d1b0bc9886988ff636d322c781a23f95a9bcd0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '832'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 > これらの手順は、ハイブリッド実装とオンプレミス実装でのみ実行してください。
 >
->ホスト型および Campaign Managed Servicesの実装については、 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) チーム。
+>ホスト環境および Campaign Managed Services での実装については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)チームにお問い合わせください。
 
 Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe Identity Management サービス（IMS）をサポートしています。
 
@@ -33,7 +33,7 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 
 >[!AVAILABILITY]
 >
-> JWT（JSON Web トークン）は、現在、が非推奨（廃止予定）の段階で、OAuth に置き換えられています。 トランジションは Campaign の今後のリリース内で段階的に実行されており、これらの更新を反映するためにドキュメントが更新されます。
+> JWT（JSON web トークン）は、現在非推奨（廃止予定）の段階で、OAuth に置き換えられています。トランジションは、Campaign の今後のリリース内で段階的に実行され、ドキュメントはこれらの更新を反映して更新されます。
 
 ## Adobe Analytics 製品プロファイルの作成 {#analytics-product-profile}
 
@@ -75,9 +75,9 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 
    ![](assets/do-not-localize/triggers_13.png)
 
-1. の **[!UICONTROL Dimension]** 機能を追加するには、 **[!UICONTROL Dimension]** 将来の設定に必要です。
+1. **[!UICONTROL ディメンション]**&#x200B;機能については、将来の設定に必要な&#x200B;**[!UICONTROL ディメンション]**&#x200B;を追加します。
 
-   選択したDimensionが、 [外部アカウント](adobe-analytics-connector.md#external-account-classic) を参照し、対応する eVar の数 ( [Adobe Analytics](adobe-analytics-connector.md#configure-conversion-success).
+   選択したディメンションが[外部アカウント](adobe-analytics-connector.md#external-account-classic)で設定するディメンションと一致し、[Adobe Analytics](adobe-analytics-connector.md#configure-conversion-success) の対応する eVar の数と一致していることを確認します。
 
 1. **[!UICONTROL レポートスイートツール]**&#x200B;機能については、次の権限を追加します。
 

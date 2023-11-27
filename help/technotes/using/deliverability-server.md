@@ -5,9 +5,9 @@ description: 新しい Campaign 配信サーバーに更新する方法を説明
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1404'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 >[!AVAILABILITY]
 >
-> JWT（JSON Web トークン）は、現在、が非推奨（廃止予定）の段階で、OAuth に置き換えられています。 トランジションは Campaign の今後のリリース内で段階的に実行されており、これらの更新を反映するためにドキュメントが更新されます。
+> JWT（JSON web トークン）は、現在非推奨（廃止予定）の段階で、OAuth に置き換えられています。トランジションは、Campaign の今後のリリース内で段階的に実行され、ドキュメントはこれらの更新を反映して更新されます。
 
 ### 前提条件{#prerequisites}
 

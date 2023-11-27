@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Typology Rules, Campaigns
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
 source-git-commit: a37e67ef3f348737a099dab00a84b6854bd52e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ Adobe Campaign では、キャンペーンタイポロジに含まれる一連�
 
 ![](assets/campaign_opt_create_capacity_04.png)
 
-処理できるメッセージの最大数は、均等に分割され、定義された可用性の範囲に表示されます。 この設定は、1 日あたりの最大通話数が制限されるコールセンターに特に最適です。メール配信の場合、「**[!UICONTROL 即時配信時の処理能力を制限しない]**」オプションを指定すると、この稼動期間を無視してメールを同時に一斉送信できます。
+処理できるメッセージの最大数は、均等に分割され、定義されている期間全体に割り当てられます。この設定は、1 日あたりの最大通話数が制限されるコールセンターに特に最適です。メール配信の場合、「**[!UICONTROL 即時配信時の処理能力を制限しない]**」オプションを指定すると、この稼動期間を無視してメールを同時に一斉送信できます。
 
 ![](assets/campaign_opt_create_capacity_05.png)
 

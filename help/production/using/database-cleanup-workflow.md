@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 624978901943b4c74f50c20298c9596f73b25b1b
 workflow-type: tm+mt
 source-wordcount: '2917'
 ht-degree: 2%
@@ -282,7 +282,7 @@ The **[!UICONTROL データベースのクリーンアップ]** ワークフロ�
 1. 名前がで始まるテーブルのリスト **wkDlv_** は、最初に次のクエリ (postgresql) で復元されます。
 
    ```sql
-   SELECT relname FROM pg_class WHERE relname LIKE Lower('wkDlv_') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
+   SELECT relname FROM pg_class WHERE relname LIKE Lower('wkDlv_%') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
    ```
 
 1. その後、進行中のワークフローで使用されるテーブルは除外されます。 これをおこなうには、処理中の配信のリストを、次のクエリを使用して復元します。

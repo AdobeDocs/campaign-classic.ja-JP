@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: RDBMS 固有の推奨事項
-description: RDBMS 固有の推奨事項
+title: RDBMS 固有のレコメンデーション
+description: RDBMS 固有のレコメンデーション
 feature: Monitoring
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
@@ -9,14 +9,14 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 624978901943b4c74f50c20298c9596f73b25b1b
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1294'
 ht-degree: 5%
 
 ---
 
-# RDBMS 固有の推奨事項{#rdbms-specific-recommendations}
+# RDBMS 固有のレコメンデーション{#rdbms-specific-recommendations}
 
 
 
@@ -82,6 +82,10 @@ ht-degree: 5%
    ```
 
 ### 簡単なメンテナンス {#simple-maintenance}
+
+>[!IMPORTANT]
+>
+>Adobeでは、Campaign のAdobeがホストするデータベース設定で VACUUM FULL を実行しないことを強くお勧めします。推奨されるメンテナンスは、オンプレミスインストールの場合のみのガイドです。 カスタムテーブルの実装およびスキーマの場合、VACUUM FULL は、監視なしで、停止したクエリを引き起こすテーブルを排他的にロックでき、場合によってはデータベース全体をロックアップするので、自分のリスクで使用します。
 
 PostgreSQL では、次の一般的なキーワードを使用できます。
 

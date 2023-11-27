@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 8ecb5aba9a070276927e97586ed463ab485717d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3668'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 ### 2023年11月
 
-JWT（JSON Web トークン）は、現在、が非推奨（廃止予定）の段階で、OAuth に置き換えられています。 トランジションは Campaign の今後のリリース内で段階的に実行されており、これらの更新を反映するためにドキュメントが更新されます。
+JWT（JSON web トークン）は、現在非推奨（廃止予定）の段階で、OAuth に置き換えられています。トランジションは、Campaign の今後のリリース内で段階的に実行され、ドキュメントはこれらの更新を反映して更新されます。
 
 ### 2023年8月
 
@@ -185,7 +185,7 @@ LINE チャネルの強化 — [詳細情報](../../delivery/using/line-channel.
 
 新しい Google BigQuery FDA コネクタ - [詳細情報](../../installation/using/configure-fda-google-big-query.md)
 
-「請求（請求）」テクニカルワークフローの説明に、「アクティブな請求プロファイルの数 (billingActiveContactCount)」で最初に実行されたタスクが含まれるようになりました。 [詳細情報](../../workflow/using/about-technical-workflows.md)
+「請求」テクニカルワークフローの説明に、「アクティブな請求プロファイルの数（billingActiveContactCount）」で初めに実行したタスクを含みました。[詳細情報](../../workflow/using/about-technical-workflows.md)
 
 ## 2021 年 5 月 {#may-2021}
 
@@ -474,7 +474,7 @@ Adobe Campaign のビルトインデータモデルを説明している節で�
 
 ワークフローの使用例が更新され、主題の節に再構成されました。[詳細を表示](../../workflow/using/about-workflow-use-cases.md)
 
-[バウンスメール強制隔離](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)[とメール管理ルール](../../delivery/using/understanding-delivery-failures.md#email-management-rules)の節の情報を更新して強化しました。
+[バウンスメール強制隔離](../../delivery/using/understanding-delivery-failures.md#bounce-mail-qualification)と[メール管理ルール](../../delivery/using/understanding-delivery-failures.md#email-management-rules)の節の情報を更新して強化しました。
 
 Adobe Campaign Enhanced MTA の記事が更新されました。現在は Campaign Classic にのみ適用されます。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/acc-campaign-enhanced-mta.html)
 

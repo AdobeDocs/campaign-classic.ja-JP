@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 155fbcd2846cfc5a8db25194bd8d7007356db24e
-workflow-type: ht
-source-wordcount: '1869'
-ht-degree: 100%
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+workflow-type: tm+mt
+source-wordcount: '1873'
+ht-degree: 98%
 
 ---
 
@@ -141,7 +141,7 @@ _2022年11月21日（PT）_
 
 **非推奨（廃止予定）の機能**
 
-* Facebook を使用したソーシャルマーケティングは非推奨（廃止予定）になりました。Twitter 統合を使用してソーシャルメディアに投稿したり、アドビと連携してカスタムチャネルを作成したりできます。
+* Facebook を使用したソーシャルマーケティングは非推奨（廃止予定）になりました。X( 旧称：Twitter) 統合を使用してソーシャルメディアに投稿したり、Adobeと連携してカスタムチャネルを作成したりできます。
 * ACS コネクタ（プライムオファー）は非推奨（廃止予定）となりました。 Campaign のエクスポート／インポート機能を使用して、両方の製品のデータを抽出および挿入できます。
 
 詳しくは、[非推奨（廃止予定）の機能と削除された機能のページ](deprecated-features.md)を参照してください。

@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Data Model
 role: Data Engineer, Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2390'
 ht-degree: 4%
 
 ---
@@ -52,7 +52,7 @@ Adobe Campaignは、互いにリンクされたテーブルを含むリレーシ
 
 iFolderId フィールドは、受信者を実行フォルダーにリンクする外部キーです。 詳しくは、 [XtkFolder](#XtkFolder).
 
-sCountryCode フィールドは、受信者に関連付けられた国の 3166-1 Alpha 2 ISO コード（2 文字）です。 このフィールドは、実際には国参照テーブル (NmsCountry) の外部キーで、国ラベルと他の国コードデータが含まれます。 国が入力されていない場合、値「XX」が保存されます（ゼロの ID レコードの代わりに使用されます）。
+sCountryCode フィールドは、受信者に関連付けられた国の 3166-1Alpha2 の ISO コード（2 文字）です。 このフィールドは、実際には国参照テーブル (NmsCountry) の外部キーで、国ラベルと他の国コードデータが含まれます。 国が入力されていない場合、値「XX」が保存されます（ゼロの ID レコードの代わりに使用されます）。
 
  受信者テーブルの詳細については、[この節](../../configuration/using/about-data-model.md#default-recipient-table)を参照してください。
 
@@ -261,12 +261,12 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 ## ソーシャルマーケティングモジュール {#social-marketing-module}
 
-この一連のテーブルは、 **ソーシャルネットワークの管理** モジュール：FacebookとTwitterを使用して、顧客や見込み客とやり取りできるようにします。 詳しくは、 [ソーシャルマーケティングについて](../../social/using/about-social-marketing.md).
+この一連のテーブルは、 **ソーシャルネットワークの管理** モジュール：Facebookと X( 旧称：Twitter) を介して顧客や見込み客とやり取りすることができます。 詳しくは、 [ソーシャルマーケティングについて](../../social/using/about-social-marketing.md).
 
 ![](assets/data-model_social.png)
 
 * **NmsVisitor**：このテーブルは、 **nms:visitor** スキーマ。 訪問者に関する情報が含まれます。
-* **NmsVisitorSub**：このテーブルは、 **nms:visitorSub** スキーマ。 これにより、訪問者が購読したサービス (TwitterまたはFacebook) に訪問者をリンクすることができます。
+* **NmsVisitorSub**：このテーブルは、 **nms:visitorSub** スキーマ。 これにより、訪問者を、購読したサービス (X またはFacebook) にリンクできます。
 * **NmsFriendShipRel**：このテーブルは、 **nms:friendshipRel** スキーマ。 これにより、Facebookサービスのコンテキスト内で、訪問者を友人とリンクすることができます。
 * **NmsVisitorInterestRel**：このテーブルは、 **nms:visitorInterestRel** スキーマ。 これにより、訪問者とその興味を関連付けることができます。
 * **NmsInterest**：このテーブルは、 **nms:interest** スキーマ。 各訪問者の興味のリストが含まれます。

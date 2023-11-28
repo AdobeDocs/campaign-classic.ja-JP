@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 feature: Delivery Templates
 role: User
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '193'
-ht-degree: 100%
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 83%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 100%
 | 名前 | 用途 | 標準スキーマ |
 |---|---|---|
 | 受信者 | Adobe Campaign データベースの受信者に対する配信 | nms:recipient |
-| 訪問者 | 訪問者、つまり紹介（バイラルマーケティング）やソーシャルネットワーク（Facebook、Twitter）などの方法で収集したプロファイルに対する配信 | mns:visitor |
+| 訪問者 | 例えば、紹介（バイラルマーケティング）やソーシャルネットワーク (Facebook、X( 旧称：Twitter) など ) を介して収集されたプロファイルに対する配信。 | mns:visitor |
 | 購読 | ニュースレターなどの情報サービスを購読している受信者に対する配信 | nms:subscription |
 | 訪問者の購読 | 情報サービスを購読している訪問者に対する配信 | nms:visitorSub |
-| サービス | Twitter アカウントや Facebook ページでの公開 | nms:service |
+| サービス | X アカウントまたはFacebookページに公開する | nms:service |
 | オペレーター | Adobe Campaign オペレーターに対する配信 | nms:operator |
 | 外部ファイル | 配信に必要な情報をすべて含んだファイルを経由しての配信 | リンクされるスキーマなし、入力されるターゲットなし |
 

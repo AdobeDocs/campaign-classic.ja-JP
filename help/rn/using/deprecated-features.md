@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 100%
+source-wordcount: '1519'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
 <tr>
  <td>Facebook でのソーシャルマーケティング</td>
- <td>Facebook を使用したソーシャルマーケティングは非推奨（廃止予定）になりました。Twitter 統合を使用してソーシャルメディアに投稿したり、アドビと連携してカスタムチャネルを作成したりできます。
+ <td>Facebook を使用したソーシャルマーケティングは非推奨（廃止予定）になりました。X( 旧称：Twitter) 統合を使用してソーシャルメディアに投稿したり、Adobeと連携してカスタムチャネルを作成したりできます。
  <p></p>
   <p>削除予定日：2023年末</p>
   </td>
@@ -107,8 +107,8 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
    <td><p>Campaign 20.3 リリースより、Microsoft SQL Server で新しいデータベースを設定する際の使用可能な認証方法から Windows NT 認証が削除されました。<a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">詳細情報</a></p></td>
   </tr>
    <tr> 
-   <td>ファイルベースの E メールのアーカイブ<br></td>
-   <td><p>Campaign 20.2 リリースより、ファイルベースの E メールのアーカイブは使用できなくなりました。E メールアーカイブは、専用の BCC E メールアドレスを通じて使用できるようになりました。<a href="../../installation/using/email-archiving.md">詳細情報</a></p></td>
+   <td>ファイルベースのメールのアーカイブ<br></td>
+   <td><p>Campaign 20.2 リリースより、ファイルベースのメールのアーカイブは使用できなくなりました。メールアーカイブは、専用の BCC メールアドレスを通じて使用できるようになりました。<a href="../../installation/using/email-archiving.md">詳細情報</a></p></td>
   </tr> 
    <tr> 
    <td>リード管理</td>
@@ -128,7 +128,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr> 
   <tr> 
    <td>プッシュ通知 - iOS バイナリコネクタ</td>
-   <td>Campaign 18.10 リリースより、Apple の推奨に従って、従来の iOS バイナリコネクタを削除しました。HTTP/2 ベースのコネクタは、より高機能でより効率的です。</td>
+   <td>Campaign 18.10 リリースより、Apple のレコメンデーションに従って、従来の iOS バイナリコネクタを削除しました。HTTP/2 ベースのコネクタは、より高機能でより効率的です。</td>
   </tr> 
   <tr> 
    <td>decryptString API</td>

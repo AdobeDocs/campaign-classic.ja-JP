@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 100%
@@ -33,7 +33,7 @@ ht-degree: 100%
 
    ![](assets/privacy-request-new.png)
 
-1. **[!UICONTROL 規制]**（GDPR、CCPA、PDPA、LGPD）、**[!UICONTROL リクエストタイプ]**（アクセスまたは削除）、**[!UICONTROL 名前空間]**&#x200B;を選択し、**[!UICONTROL 紐付け値]**&#x200B;を入力します。名前空間として E メールを使用する場合は、データ主体の E メールアドレスを入力します。
+1. **[!UICONTROL 規制]**（GDPR、CCPA、PDPA、LGPD）、**[!UICONTROL リクエストタイプ]**（アクセスまたは削除）、**[!UICONTROL 名前空間]**&#x200B;を選択し、**[!UICONTROL 紐付け値]**&#x200B;を入力します。名前空間としてメールを使用する場合は、データ主体のメールアドレスを入力します。
 
    ![](assets/privacy-request-properties.png)
 
@@ -74,11 +74,11 @@ ht-degree: 100%
 
 プライバシーリクエストには、次のようなステータスがあります。
 
-* **[!UICONTROL 新規]**／**[!UICONTROL 再試行待ち]**：ワークフローは進行中で、リクエストの処理は完了していません。
+* **[!UICONTROL 新規]**／**[!UICONTROL 再試行保留]**：ワークフローは進行中で、リクエストの処理は完了していません。
 * **[!UICONTROL 処理中]**／**[!UICONTROL 再試行中]**：ワークフローはリクエストを処理しています。
-* **[!UICONTROL 削除待ち]**：ワークフローにおいて、削除対象のすべての受信者データが特定済みです。
+* **[!UICONTROL 削除保留]**：ワークフローにおいて、削除対象のすべての受信者データが特定済みです。
 * **[!UICONTROL 削除中]**：ワークフローは削除を処理しています。
-* **[!UICONTROL 削除確認待ち]**：（2 段階処理モードの削除リクエスト）ワークフローでアクセスリクエストの処理が完了しました。削除を実行するための手動確認がリクエストされています。ボタンは 15 日間有効です。
+* **[!UICONTROL 削除確認保留]**：（2 段階処理モードの削除リクエスト）ワークフローでアクセスリクエストの処理が完了しました。削除を実行するための手動確認がリクエストされています。ボタンは 15 日間有効です。
 * **[!UICONTROL 完了]**：リクエストの処理が終了しました。エラーは発生していません。
 * **[!UICONTROL エラー]**：ワークフローにおいて、エラーが発生しました。理由は、プライバシーリクエストのリストの「**[!UICONTROL リクエストのステータス]**」列に表示されます。例えば、「**[!UICONTROL エラー: データが見つかりません]**」は、データ主体の&#x200B;**[!UICONTROL 紐付け値]**&#x200B;と一致する受信者データがデータベースに見つからなかったことを示します。
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 ![](assets/privacy-request-advanced-settings.png)
 
-2 段階モードが有効になっていると、新しい削除リクエストのステータスは「**[!UICONTROL 削除確認待ち]**」に変わります。生成された XML ファイルをプライバシーリクエスト画面からダウンロードし、データを確認します。データの消去を確定するには、「**[!UICONTROL データの削除を確認]**」ボタンをクリックします。
+2 段階モードが有効になっていると、新しい削除リクエストのステータスは「**[!UICONTROL 削除確認保留]**」に変わります。生成された XML ファイルをプライバシーリクエスト画面からダウンロードし、データを確認します。データの消去を確定するには、「**[!UICONTROL データの削除を確認]**」ボタンをクリックします。
 
 ![](assets/privacy-request-delete-data.png)
 
@@ -144,7 +144,7 @@ Web アプリケーションの&#x200B;**[!UICONTROL ページ]**&#x200B;アク�
 <div style="text-align: center;">
 <div style="float: left;"><a href="#">Contact us</a></div>
 <div style="float: right;">&copy; Copyrights</div>
-<div><a href="#"><img title="facebook" class="nlui-widget" alt="facebook" src="/xtk/img/facebook.png" unselectable="on" /></a> <a href="#"><img title="Twitter" class="nlui-widget" alt="twitter" src="/xtk/img/twitter.png" unselectable="on" /></a> <a href="#"><img title="Google" class="nlui-widget" alt="google_plus" src="/xtk/img/google_plus.png" unselectable="on" /></a> <a href="#"><img title="Linkedin" class="nlui-widget" alt="Linkedin" src="/xtk/img/linkedin.png" unselectable="on" /></a></div>
+<div><a href="#"><img title="facebook" class="nlui-widget" alt="facebook" src="/xtk/img/facebook.png" unselectable="on" /></a> <a href="#"><img title="Twitter" class="nlui-widget" alt="Twitter" src="/xtk/img/twitter.png" unselectable="on" /></a> <a href="#"><img title="Google" class="nlui-widget" alt="google_plus" src="/xtk/img/google_plus.png" unselectable="on" /></a> <a href="#"><img title="Linkedin" class="nlui-widget" alt="Linkedin" src="/xtk/img/linkedin.png" unselectable="on" /></a></div>
 </div>
 </div>
 </div>

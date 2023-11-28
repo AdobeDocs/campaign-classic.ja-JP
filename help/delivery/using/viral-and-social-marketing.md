@@ -6,20 +6,18 @@ feature: Social Marketing
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '624'
+ht-degree: 94%
 
 ---
 
 # バイラルおよびソーシャルマーケティング{#viral-and-social-marketing}
 
-
-
 Adobe Campaign では、バイラルマーケティングを促進するツールを設定できます。
 
-これにより、配信の受信者や Web サイトの訪問者が自分の Facebook プロファイルや Twitter プロファイルにリンクを追加したり、友人にメッセージを送信するなどの方法で、知人や友人と情報を共有できるようになります。
+これにより、配信の受信者や Web サイトの訪問者は、Facebookや X( 旧称：Twitter) プロファイルへのリンクの追加から友人へのメッセージの送信まで、自分のネットワークと情報を共有できます。
 
 ![](assets/s_ncs_user_viral_icons.png)
 
@@ -58,11 +56,11 @@ Adobe Campaign では、バイラルマーケティングを促進するツー�
 次のような流れになります。
 
 1. メッセージの本文に「**[!UICONTROL ソーシャルネットワーク共有リンク]**」パーソナライゼーションブロックを追加します。
-1. メッセージの受信者は、**[!UICONTROL E メール]**&#x200B;アイコンをクリックして、このメッセージを 1 人以上の友人に送信できます。
+1. メッセージの受信者は、**[!UICONTROL メール]**&#x200B;アイコンをクリックして、このメッセージを 1 人以上の友人に送信できます。
 
    ![](assets/s_ncs_user_viral_email_link.png)
 
-   紹介フォームを使用して、被転送者の E メールアドレスを入力できます。
+   紹介フォームを使用して、被転送者のメールアドレスを入力できます。
 
    ![](assets/s_ncs_user_viral_email_msg.png)
 

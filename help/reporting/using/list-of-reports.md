@@ -5,10 +5,10 @@ description: レポートのリスト
 badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Reporting, Monitoring
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 100%
+source-wordcount: '1018'
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> 配信統計（statisticsPerDelivery）<br /> </td> 
-   <td> E メールドメインごとの統計（処理メッセージ数、配信メッセージ数、ハードバウンス数、ソフトバウンス数、クリック数、購読解除数）。<br /> </td> 
+   <td> メールドメインごとの統計（処理メッセージ数、配信メッセージ数、ハードバウンス数、ソフトバウンス数、クリック数、購読解除数）。<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
@@ -360,7 +360,7 @@ Web アプリケーションに関するレポートは **nms:WebApp** テーブ
   </tr> 
   <tr> 
    <td> ソーシャル見込み客の獲得履歴（socialVisitorStatistics）<br /> </td> 
-   <td> Twitter および Facebook の見込み客獲得履歴（ソーシャルマーケティングのアドオンに依存）。<br /> </td> 
+   <td> X( 旧称：Twitter) とFacebookの見込み客獲得の履歴（ソーシャルマーケティングのアドオンに依存）。<br /> </td> 
    <td> nms:visitor<br /> </td> 
   </tr> 
   <tr> 

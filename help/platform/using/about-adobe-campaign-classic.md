@@ -7,10 +7,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: be57635a6165790b8c8964d106ed0a3cb76c63af
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 100%
+source-wordcount: '934'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign におけるマーケティングキャンペーンのサイク�
 
 プロファイル（顧客、見込み客、ニュースレター購読者など）は、Adobe Campaign データベースで一元管理されます。プロファイルを取得してこのデータベースを作成するために使用可能なメカニズムは多数あります。web フォームによるオンライン収集、テキストファイルの手動または自動インポート、会社のデータベースまたは他の情報システムによるレプリケーションなどです。Adobe Campaign を利用すれば、マーケティング履歴、購入情報、嗜好、CRM データおよび関連する PII データを包括的に集約し、分析を行ってアクションに移すことができます。
 
-Adobe Campaign では、受信者は配信（E メール、SMS など）の送信先となるデフォルトプロファイルです。データベースに格納された受信者データを活用して、任意の配信のターゲットを絞り込み、配信コンテンツにパーソナライゼーションデータを追加することができます。データベースには、他のタイプのプロファイルも含まれています。それらのプロファイルは用途が異なります。例えば、シードプロファイルは、配信を最終的なターゲットに送信する前のテスト用に作成されます。
+Adobe Campaign では、受信者は配信（メール、SMS など）の送信先となるデフォルトプロファイルです。データベースに格納された受信者データを活用して、任意の配信のターゲットを絞り込み、配信コンテンツにパーソナライゼーションデータを追加することができます。データベースには、他のタイプのプロファイルも含まれています。それらのプロファイルは用途が異なります。例えば、シードプロファイルは、配信を最終的なターゲットに送信する前のテスト用に作成されます。
 
 プロファイル管理の基礎は、[プロファイルについて](../../platform/using/about-profiles.md)で説明しています。
 
@@ -73,16 +73,16 @@ Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マ�
 
 使用できる機能は以下のとおりです。ライセンス契約によって、ご利用のインスタンスで使える機能と使えない機能があります。
 
-* [チャネル](../../delivery/using/steps-about-delivery-creation-steps.md)：各種チャネル（E メール、SMS、LINE、モバイルアプリ、ダイレクトメール）を使用した配信のデザインと送信
+* [チャネル](../../delivery/using/steps-about-delivery-creation-steps.md)：各種チャネル（メール、SMS、LINE、モバイルアプリ、ダイレクトメール）を使用した配信のデザインと送信
 * [キャンペーン](../../campaign/using/designing-marketing-campaigns.md)：クロスチャネルキャンペーンのオーケストレーション
 * [MRM](../../mrm/using/about-marketing-resource-management.md)：マーケティングリソースと予算の管理
 * [インタラクション](../../interaction/using/interaction-and-offer-management.md)：Campaign のオファーの管理
-* [Message Center](../../message-center/using/about-transactional-messaging.md)：E メール、SMS またはモバイルアプリでのトランザクションメッセージの送信
-* [ソーシャルマーケティング](../../social/using/about-social-marketing.md)：ソーシャルメディア（Facebook、Twitter）でのコミュニケーション
+* [Message Center](../../message-center/using/about-transactional-messaging.md)：メール、SMS またはモバイルアプリでのトランザクションメッセージの送信
+* [ソーシャルマーケティング](../../social/using/about-social-marketing.md)  — ソーシャルメディア (Facebook、X( 旧称：Twitter)) でのコミュニケーション
 * [ワークフロー](../../workflow/using/about-workflows.md)／データ管理：プロセスの自動化と、ワークフローを使用したデータの管理
 * [web アプリケーション](../../web/using/about-web-applications.md)：web ページおよびフォームの作成
 * [調査マネージャー](../../surveys/using/about-surveys.md)：オンライン調査および集計の作成
-* [コンテンツマネージャー](../../delivery/using/about-content-management.md)：E メールコンテンツの管理
+* [コンテンツマネージャー](../../delivery/using/about-content-management.md)：メールコンテンツの管理
 * [分散型マーケティング](../../distributed/using/about-distributed-marketing.md)：セントラルエージェントやローカルエージェントのキャンペーンの調整
 * [Response Manager](../../response/using/about-response-manager.md)：顧客の応答の管理
 * [コネクタ](../../platform/using/about-connectors.md)：外部のソリューションやデータベースエンジンと通信するために使用

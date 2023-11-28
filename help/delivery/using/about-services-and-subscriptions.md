@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 feature: Subscriptions
 role: User
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '166'
-ht-degree: 100%
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 88%
 
 ---
 
@@ -22,4 +22,4 @@ Adobe Campaign では、ニュースレターなどの情報サービスを作�
 
 >[!NOTE]
 >
->この機能は、Adobe Campaign で標準となっています。オプションのアプリケーションであるソーシャルマーケティングを使用すると、Facebook や Twitter から顧客と見込み客に連絡できます。
+>この機能は、Adobe Campaign で標準となっています。オプションのアプリケーションであるソーシャルマーケティングを使用すると、Facebookと X( 旧称：Twitter) を使用して、顧客や見込み客に連絡することができます。

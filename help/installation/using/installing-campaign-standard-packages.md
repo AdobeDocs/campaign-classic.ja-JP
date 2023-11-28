@@ -6,9 +6,9 @@ feature: Installation, Application Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1317'
 ht-degree: 27%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 27%
   </tr--> 
   <tr> 
    <td> ソーシャルネットワーク (ソーシャルマーケティング) <br /> </td> 
-   <td> Adobe CampaignをTwitterとFacebookと同期します。 <a href="../../social/using/about-social-marketing.md">詳細情報</a> <br /> </td> 
+   <td> Adobe Campaignを X( 旧称：Twitter) およびFacebookと同期します。 <a href="../../social/using/about-social-marketing.md">詳細情報</a> <br /> </td> 
    <td> すべて</td> 
   </tr> 
   <tr> 
@@ -167,7 +167,7 @@ ht-degree: 27%
    <td> マーケティング<br /> </td> 
   </tr> 
   <tr> 
-   <td> 配信品質の監視 (E メールの配信品質)<br /> </td> 
+   <td> 配信品質の監視 (メールの配信品質)<br /> </td> 
    <td> バウンスしたりスパムとしてマークされたりせずに受信者の受信ボックスに到達したかに基づいて、キャンペーンの成功を測定します。 （オプション）<a href="../../delivery/using/about-deliverability.md">詳細情報</a> <br /> </td> 
    <td> すべて </td> 
   </tr> 

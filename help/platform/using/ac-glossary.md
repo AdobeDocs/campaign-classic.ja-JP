@@ -6,10 +6,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '5974'
-ht-degree: 100%
+source-wordcount: '5978'
+ht-degree: 99%
 
 ---
 
@@ -119,7 +119,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 +++**チャネル**
 
-チャネルは、通信を送信するための媒体です。Adobe Campaign の組み込みチャネルは、メール、SMS、ダイレクトメール、プッシュ通知、LINE および Twitter です。カスタムチャネルは、非標準のチャネル要件に対して実装できます。
+チャネルは、通信を送信するための媒体です。Adobe Campaignの組み込みチャネルは、E メール、SMS、ダイレクトメール、プッシュ通知、LINE、X( 旧称：Twitter) です。 カスタムチャネルは、非標準のチャネル要件に対して実装できます。
 
 詳細情報：[チャネル](../../delivery/using/communication-channels.md)。
 +++
@@ -312,9 +312,9 @@ E4X は、Adobe Campaign Classic で使用される JavaScript のバージョ�
 
 +++**BCC でメールを送信**
 
-「BCC で E メールを送信」機能では、対応する配信メールの正確なコピーを EML 形式で送信します。このメールは専用の BCC メールアドレスに保存され、そこで処理されて外部システムに送信者別にアーカイブできます。
+「BCC でメールを送信」機能では、対応する配信メールの正確なコピーを EML 形式で送信します。このメールは専用の BCC メールアドレスに保存され、そこで処理されて外部システムに送信者別にアーカイブできます。
 
-「BCC で E メールを送信」の詳細は[こちら](../../delivery/using/email-parameters.md#email-bcc)。
+「BCC でメールを送信」の詳細は[こちら](../../delivery/using/email-parameters.md#email-bcc)。
 +++
 
 <!--
@@ -395,7 +395,7 @@ Federated Data Access の詳細は[こちら](../../installation/using/about-fda
 
 +++**フォルダー**
 
-フォルダーは、特定のデータタイプのデータベースレコードを格納するエクスプローラビュー項目です。ただし、編成要素として使用され、データそのものを含まず、他のフォルダーのみを含む汎用フォルダータイプは例外です。
+フォルダーは、特定のデータタイプのデータベースレコードを格納するエクスプローラービュー項目です。ただし、編成要素として使用され、データそのものを含まず、他のフォルダーのみを含む汎用フォルダータイプは例外です。
 
 フォルダーの詳細は[こちら](../../platform/using/adobe-campaign-explorer.md)。
 +++
@@ -781,7 +781,7 @@ Adobe Campaign には、配信に挿入できるパーソナライゼーショ�
 
 +++**プラン**
 
-プランとは、カレンダー単位でマーケティングアクティビティを整理するために使用されるフォルダータイプです。エクスプローラビューのプランフォルダーは、年、四半期、月など、時間に基づく単位を定義します。プランフォルダーはネストでき、他のプランフォルダー、プログラムフォルダーまたはキャンペーンを含むことができます。
+プランとは、カレンダー単位でマーケティングアクティビティを整理するために使用されるフォルダータイプです。エクスプローラービューのプランフォルダーは、年、四半期、月など、時間に基づく単位を定義します。プランフォルダーはネストでき、他のプランフォルダー、プログラムフォルダーまたはキャンペーンを含むことができます。
 
 [プラン](../../campaign/using/setting-up-marketing-campaigns.md)の詳細情報。
 +++

@@ -5,10 +5,10 @@ description: クロスチャネル配信の詳細を説明します
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 100%
+source-wordcount: '303'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 * [メール](../../delivery/using/about-email-channel.md)
 * [ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)
 * [モバイル](../../delivery/using/sms-channel.md)
-* [Twitter](../../social/using/about-social-marketing.md)
+* [X( 旧称：Twitter)](../../social/using/about-social-marketing.md)
 * [iOS](../../delivery/using/create-notifications-ios.md)
 * [Android](../../delivery/using/create-notifications-android.md)
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 各種ターゲティングアクティビティを使用して、ワークフローの配信アップストリームのターゲットを指定できます。
 
-以下の例では、プッシュ通知購読者に E メールまたは SMS を送信してから 1 週間後にプッシュ通知を通知するワークフローを作成します。手順は次のとおりです。
+以下の例では、プッシュ通知購読者にメールまたは SMS を送信してから 1 週間後にプッシュ通知を通知するワークフローを作成します。手順は次のとおりです。
 
 1. キャンペーンを作成します。
 1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、ワークフローに&#x200B;**[!UICONTROL クエリ]**&#x200B;を追加します。
@@ -43,11 +43,11 @@ ht-degree: 100%
 
    ![](assets/cross_channel_delivery_1.png)
 
-1. クエリにフィルター条件を追加します。この場合、モバイル番号または E メールアドレスを持つ受信者を選択します。
+1. クエリにフィルター条件を追加します。この場合、モバイル番号またはメールアドレスを持つ受信者を選択します。
 
    ![](assets/cross_channel_delivery_2.png)
 
-1. ワークフローに&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティを追加して、モバイル番号を持つ受信者と E メールアドレスを持つ受信者を分割します。
+1. ワークフローに&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティを追加して、モバイル番号を持つ受信者とメールアドレスを持つ受信者を分割します。
 1. 「**[!UICONTROL 配信]**」タブで、各ターゲットに対する配信を選択します。
 
    ワークフローの配信アクティビティをダブルクリックして、従来の配信ウィザードと同じ方法で配信を作成します。詳しくは、この[ページ](../../delivery/using/about-email-channel.md)を参照してください。

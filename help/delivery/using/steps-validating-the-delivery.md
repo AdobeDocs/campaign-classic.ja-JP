@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '1819'
-ht-degree: 100%
+source-git-commit: 198921813ff097db0d4ba0a8203fef65bb591af7
+workflow-type: tm+mt
+source-wordcount: '1818'
+ht-degree: 99%
 
 ---
 
@@ -106,9 +106,9 @@ ht-degree: 100%
 
 現在、このオプションは、次の条件を満たす場合にのみ使用できます。
 
-* 配信は E メールである必要があります。現時点では、その他のチャネルはサポートされていません。
+* 配信はメールである必要があります。現時点では、その他のチャネルはサポートされていません。
 * ミッドソーシングや外部ルーティングは使用できません。一括配信ルーティングタイプのみ使用できます。**[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL 一般]**」タブで、使用するルーティングを確認できます。
-* 外部ファイルからの母集団をターゲットに指定することはできません。単一の配信の場合、**[!UICONTROL E メールパラメーター]**&#x200B;から&#x200B;**[!UICONTROL 宛先]**&#x200B;リンクをクリックし、「**[!UICONTROL データベースで定義]**」オプションが選択されていることを確認します。ワークフローで使用される配信の場合、「**[!UICONTROL 配信]**」タブにおいて受信者が&#x200B;**[!UICONTROL インバウンドイベントで指定]**&#x200B;されていることを確認します。
+* 外部ファイルからの母集団をターゲットに指定することはできません。単一の配信の場合、**[!UICONTROL メールパラメーター]**&#x200B;から&#x200B;**[!UICONTROL 宛先]**&#x200B;リンクをクリックし、「**[!UICONTROL データベースで定義]**」オプションが選択されていることを確認します。ワークフローで使用される配信の場合、「**[!UICONTROL 配信]**」タブにおいて受信者が&#x200B;**[!UICONTROL インバウンドイベントで指定]**&#x200B;されていることを確認します。
 * PostgreSQL データベースを使用する必要があります。
 
 ### 分析の優先度の設定 {#analysis-priority-}
@@ -133,13 +133,16 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->* 使用可能な検証モードについて詳しくは、[承認モードの変更](steps-validating-the-delivery.md#changing-the-approval-mode)を参照してください。
->* 配達確認ターゲットの設定について詳しくは、 [特定の配達確認ターゲットの定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)を参照してください。
->
+>使用可能な検証モードについて詳しくは、[承認モードの変更](steps-validating-the-delivery.md#changing-the-approval-mode)を参照してください。
 
 配達確認を送信するには、次の手順に従います。
 
 1. [特定の配達確認ターゲットの定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)の説明に従って配達確認ターゲットを設定したことを確認します。
+
+   >[!CAUTION]
+   >
+   >[繰り返し配信](../../workflow/using/recurring-delivery.md) 次を含む配達確認の送信をサポートしない [ターゲットデータ](../../workflow/using/data-life-cycle.md#target-data) パーソナライゼーション要素。
+
 1. 配信ウィザードの上部バーで「**[!UICONTROL 配達確認を送信]**」をクリックします。
 
    ![](assets/s_ncs_user_email_del_send_proof.png)
@@ -178,7 +181,7 @@ ht-degree: 100%
 
 ## タイポロジを使用したプロセスの検証 {#validation-process-with-typologies}
 
-メッセージを送信する前に、キャンペーンを分析して、コンテンツと設定を検証する必要があります。分析フェーズ中に適用されるチェックルールは、**タイポロジ**&#x200B;内に定義されています。E メールの場合、デフォルトでは、分析には次の点が含まれます。
+メッセージを送信する前に、キャンペーンを分析して、コンテンツと設定を検証する必要があります。分析フェーズ中に適用されるチェックルールは、**タイポロジ**&#x200B;内に定義されています。メールの場合、デフォルトでは、分析には次の点が含まれます。
 
 * オブジェクトの検証
 * URL と画像の検証

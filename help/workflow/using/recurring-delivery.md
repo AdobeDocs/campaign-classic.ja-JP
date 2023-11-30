@@ -5,16 +5,14 @@ description: 繰り返し配信ワークフローアクティビティの詳細�
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 05210269da2a32310c19911a3bc32240c84dc7ad
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+source-git-commit: 198921813ff097db0d4ba0a8203fef65bb591af7
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 89%
 
 ---
 
 # 繰り返し配信{#recurring-delivery}
-
-
 
 「**[!UICONTROL 繰り返し配信]**」アクティビティでは、キャンペーン固有の配信テンプレートの発生件数を設定できます。
 
@@ -32,11 +30,15 @@ ht-degree: 100%
 
 このアクティビティの設定プロセスで使用できるオプションは、配信テンプレートの作成プロセスで使用できるオプションとほぼ同じです。詳しくは、[この節](../../delivery/using/about-templates.md)を参照してください。
 
+>[!CAUTION]
+>
+>繰り返し配信は、次を含む配達確認の送信をサポートしません。 [ターゲットデータ](../../workflow/using/data-life-cycle.md#target-data) パーソナライゼーション要素。
+
 このアクティビティの使用例については、この[節](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)を参照してください。
 
 ## 繰り返し配信の設定方法 {#set-up-recurring-delivery}
 
-**繰り返し配信**&#x200B;では、実行のたびに新しい配信インスタンスを作成します。例えば、ワークフローが週に 1 回実行されるようにスケジュールされている場合、1 年後には 52 件の配信が存在することになります。また、broadLog とトラッキングログは、各配信インスタンスで区切られます。
+**繰り返し配信**&#x200B;では、実行のたびに新しい配信インスタンスを作成します。例えば、ワークフローが週に 1 回実行されるようにスケジュールされている場合、1 年後には 52 件の配信がおこなわれます。 また、broadLog とトラッキングログは、各配信インスタンスで区切られます。
 
 ![繰り返し配信](assets/delivery_recurring.jpg)
 

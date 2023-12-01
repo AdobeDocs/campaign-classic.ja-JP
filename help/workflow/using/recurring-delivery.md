@@ -5,10 +5,10 @@ description: 繰り返し配信ワークフローアクティビティの詳細�
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 198921813ff097db0d4ba0a8203fef65bb591af7
+source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 89%
+source-wordcount: '301'
+ht-degree: 88%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 89%
 
 >[!CAUTION]
 >
->繰り返し配信は、次を含む配達確認の送信をサポートしません。 [ターゲットデータ](../../workflow/using/data-life-cycle.md#target-data) パーソナライゼーション要素。
+>繰り返し配信は、コンテンツのプレビューや、次を含む配達確認の送信をサポートしません。 [ターゲットデータ](../../workflow/using/data-life-cycle.md#target-data) パーソナライゼーション要素。
 
 このアクティビティの使用例については、この[節](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)を参照してください。
 

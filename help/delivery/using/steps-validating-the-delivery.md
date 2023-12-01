@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 198921813ff097db0d4ba0a8203fef65bb591af7
+source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 99%
+source-wordcount: '1806'
+ht-degree: 100%
 
 ---
 
@@ -138,10 +138,6 @@ ht-degree: 99%
 配達確認を送信するには、次の手順に従います。
 
 1. [特定の配達確認ターゲットの定義](steps-defining-the-target-population.md#defining-a-specific-proof-target)の説明に従って配達確認ターゲットを設定したことを確認します。
-
-   >[!CAUTION]
-   >
-   >[繰り返し配信](../../workflow/using/recurring-delivery.md) 次を含む配達確認の送信をサポートしない [ターゲットデータ](../../workflow/using/data-life-cycle.md#target-data) パーソナライゼーション要素。
 
 1. 配信ウィザードの上部バーで「**[!UICONTROL 配達確認を送信]**」をクリックします。
 

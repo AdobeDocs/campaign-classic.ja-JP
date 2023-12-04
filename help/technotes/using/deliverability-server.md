@@ -4,9 +4,9 @@ title: 新しい配信サーバーへの更新
 description: 新しい Campaign 配信サーバーに更新する方法を説明します
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
-workflow-type: ht
-source-wordcount: '1404'
+source-git-commit: eea3657f1cffa215e1fc1cb1eb8782b83321aae4
+workflow-type: tm+mt
+source-wordcount: '1300'
 ht-degree: 100%
 
 ---
@@ -145,15 +145,7 @@ Campaign Classic のお客様は、**2022年8月31日までに**&#x200B;新し�
 
 1. 変更を反映させるには、サーバーを停止し、再起動する必要があります。 また、 `config -reload` コマンドを使用します。
 
-### 手順 3：新しい配信品質サーバーを有効にする
-
-これで、新しい配信サーバーを有効にできます。次の手順を実行します。
-
-1. クライアントコンソールを開き、管理者としてAdobe Campaign にログオンします。
-1. **管理／プラットフォーム／オプション**&#x200B;を選択します。
-1. `NewDeliverabilityServer_FeatureFlag` オプションにアクセスし、値を `1` に設定します。この設定は、すべての Campaign インスタンス（MKT、MID、RT、EXEC）で実行する必要があります。ハイブリッド環境のお客様は、アドビに連絡して、MID、RT、EXEC の各インスタンスでオプションを設定してもらいます。
-
-### 手順 4：設定を検証
+### 手順 3：設定を検証
 
 統合が成功したことを確認するには、以下の手順に従います。
 

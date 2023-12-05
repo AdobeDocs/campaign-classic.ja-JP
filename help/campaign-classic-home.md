@@ -3,7 +3,7 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 5fe07c7955b529cd7f1a481167dd4139aa886bb0
+source-git-commit: 4917efbe0ac119875029305b3f8c3303056cfcc8
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 7%
@@ -27,7 +27,7 @@ Campaign Classicv7.3.5 のアップデート、改善点、およびパッチを
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
->[!TAB AdobeIdentity Managementサービスに移動]
+>[!TAB AdobeIdentity Managementシステムに移動]
 
 セキュリティと認証プロセスを強化するために、Adobe Campaignでは、エンドユーザーの認証モードをログイン/パスワードネイティブ認証からAdobeIdentity Management System(IMS) に移行することを強くお勧めします。
 

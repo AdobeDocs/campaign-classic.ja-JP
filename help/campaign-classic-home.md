@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 93d6ffc4ac3047ab6a9a41859bed48f6ffac605b
+source-git-commit: 41dcf70724761237a8230bad04322bd3322c0e6f
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 8%
+source-wordcount: '314'
+ht-degree: 7%
 
 ---
 
@@ -20,17 +20,24 @@ Adobe Campaign Classic v7 製品およびドキュメントの最新の機能強
 
 >[!BEGINTABS]
 
->[!TAB Adobe Experience Cloud統合の更新]
 
-従来の oAuth 認証サービスが提供終了に達しました。Adobe I/Oに移行する必要があります
+>[!TAB 12 月のリリースが公開されました。]
 
-[![画像](assets/do-not-localize/learn-more-button.svg)](integrations/using/configuring-adobe-io.md)
-
->[!TAB 9 月のリリースが公開されました。]
-
-この新しいバージョンで提供されるセキュリティと互換性の更新、改善、およびパッチを確認します。
+Campaign Classicv7.3.5 のアップデート、改善点、およびパッチを確認します。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
+
+>[!TAB AdobeIdentity Managementサービスに移動]
+
+セキュリティと認証プロセスを強化するために、Adobe Campaignでは、エンドユーザーの認証モードをログイン/パスワードネイティブ認証からAdobeIdentity Management System(IMS) に移行することを強くお勧めします。
+
+[![画像](assets/do-not-localize/learn-more-button.svg)](technotes/using/migrate-users-to-ims.md)
+
+>[!TAB Adobe Experience Cloud統合の更新]
+
+従来の oAuth 認証サービスが提供終了に達しました。Adobe I/Oに移行する必要があります。
+
+[![画像](assets/do-not-localize/learn-more-button.svg)](integrations/using/configuring-adobe-io.md)
 
 >[!ENDTABS]
 

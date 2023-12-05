@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 8ecb5aba9a070276927e97586ed463ab485717d6
-workflow-type: ht
-source-wordcount: '3668'
-ht-degree: 100%
+source-git-commit: 38cd50072bdedbac566eb3a56d86328d1e5e1883
+workflow-type: tm+mt
+source-wordcount: '3671'
+ht-degree: 99%
 
 ---
 
@@ -22,9 +22,11 @@ ht-degree: 100%
 
 ## 2023
 
-### 2023年11月
+### 2023年12月
 
 JWT（JSON web トークン）は、現在非推奨（廃止予定）の段階で、OAuth に置き換えられています。トランジションは、Campaign の今後のリリース内で段階的に実行され、ドキュメントはこれらの更新を反映して更新されます。
+
+Amazon Redshift の FDA 外部アカウント設定を追加しました。 [詳細情報](../../installation/using/configure-fda-redshift.md)
 
 ### 2023年8月
 
@@ -534,7 +536,7 @@ FDA over HTTP に関する制限が、トランザクションメッセージガ
 
 URL レポート設定の新しいパラメーターは、[こちら](../../reporting/using/properties-of-the-report.md#defining-additional-settings)で説明されています。
 
-「**Campaign Classic オンプレミスとホスト機能マトリックス**」ページが更新され、新しい FDA コネクタが追加されました。[詳細を表示](../../installation/using/capability-matrix.md)。
+「**Campaign Classic オンプレミスとホスト機能マトリックス**」ページが更新され、新しい FDA コネクタが追加されました。[詳細情報](../../installation/using/capability-matrix.md)。
 
 **Campaign Classic 機能マトリックス**&#x200B;ページを更新しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 

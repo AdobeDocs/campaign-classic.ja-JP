@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 38cd50072bdedbac566eb3a56d86328d1e5e1883
+source-git-commit: cc6d85bcf822ba9be99e39cf459a5aa20cc2d4fe
 workflow-type: tm+mt
 source-wordcount: '3671'
 ht-degree: 99%
@@ -22,21 +22,21 @@ ht-degree: 99%
 
 ## 2023
 
-### 2023年12月
+### 2023年12月 {#dec-2023}
 
 JWT（JSON web トークン）は、現在非推奨（廃止予定）の段階で、OAuth に置き換えられています。トランジションは、Campaign の今後のリリース内で段階的に実行され、ドキュメントはこれらの更新を反映して更新されます。
 
 Amazon Redshift の FDA 外部アカウント設定を追加しました。 [詳細情報](../../installation/using/configure-fda-redshift.md)
 
-### 2023年8月
+### 2023年8月 {#aug-2023}
 
 4 Gb を超える圧縮されたファイルの解凍に Adobe Campaign を使用できないことを示す制限を追加しました。[詳細情報](../../platform/using/unzip-decrypt.md)
 
-### 2023年4月
+### 2023年4月 {#apr-2023}
 
 オンプレミス／ハイブリッド環境で Microsoft Edge Chromium を有効にする方法に関するテクニカルノートを追加しました。 [詳細情報](../../technotes/using/edge-chromium.md)
 
-### 2023年3月
+### 2023年3月 {#mar-2023}
 
 7.3.3 の改善点とパッチを含むリリースノートの節を更新しました。[詳細情報](latest-release.md)
 

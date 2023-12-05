@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: f2e6db9e198f96e1e0250d461b419ac00e39bf45
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 98%
+source-wordcount: '2221'
+ht-degree: 89%
 
 ---
 
@@ -18,9 +18,35 @@ ht-degree: 98%
 
 このページには、**最新の Campaign Classic v7 リリース**&#x200B;の新機能、改善点および修正点が記載されています。新しいビルドごとに、色分けされたステータスが表示されます。Campaign Classic v7 のビルドステータスについて詳しくは、[このページ](rn-overview.md)を参照してください。
 
-## リリース 7.3.4 - ビルド 9364 {#release-7-3-4}
+## リリース 7.3.5 - ビルド 9368 {#release-7-3-5}
 
 [!BADGE 一般公開（GA）]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
+
+
+_2023 年 12 月 6 日_
+
+
+**セキュリティ機能の強化**
+
+
+* Campaign Classicv7.3.5 では、認証プロセスが改善され、保護されました。 テクニカルオペレーターは、Campaign に接続する際にAdobeIdentity Managementシステム (IMS) を使用する必要があります。 既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/using/ims-migration.md)を参照してください。
+
+* また、セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaignでは、エンドユーザー認証モードをログイン/パスワードネイティブ認証からAdobeIdentity Management System(IMS) に移行することを強くお勧めします。 オペレーターを移行する方法については、[このテクニカルノート](../../technotes/using/migrate-users-to-ims.md)を参照してください。
+
+**パッチ**
+
+* Googleビッグクエリデータベースのデータを使用し、Oracleデータベースのデータを更新する際に、すべてのキーが `0` ワークフローの一時テーブル内。 （NEO-65091）
+* Google Big Query データベースに対する 2 つのクエリを **和集合** ワークフローアクティビティ。 （NEO-63705）
+* クリック時にユーザーの再認証を要求していた問題を修正しました。 `Back` 」ボタンをクリックします。 （NEO-65087）
+* 配信の配達確認の前に配信が削除された場合に発生するデータベースクリーンアップワークフローのエラーを修正しました。 （NEO-48114）
+* クライアントコンソールへの接続時に、TLS 検証に関する最近の更新により接続エラーが発生する問題を修正しました。 （NEO-50488）
+* 7.3.1 への Campaign ポストアップグレード後の HTTP プロキシ認証の問題を修正しました。Campaign ワークフローの HTTP リクエストが、 `error 407 – proxy auth required is returned`. （NEO-49624）
+* での GPG 復号に伴う中間エラーを修正しました。 **スクリプト** ワークフローアクティビティ。 関連するエラーメッセージ： `gpg: decryption failed: No secret key`. （NEO-50257）
+  <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
+
+## リリース 7.3.4 - ビルド 9364 {#release-7-3-4}
+
+[!BADGE 限定提供（LA）]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="限定提供（LA）"}
 
 >[!CAUTION]
 >

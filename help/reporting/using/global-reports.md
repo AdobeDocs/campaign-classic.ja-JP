@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適�
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2511'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -167,9 +167,9 @@ ht-degree: 97%
 
 ### ソーシャルネットワークへの共有 {#sharing-to-social-networks}
 
-バイラルマーケティングによって、配信の受信者は連絡先のネットワークと情報を共有できます。プロファイル (Facebook、X( 旧称：Twitter)、 友人にメッセージを送信するか、 それぞれの共有と、共有した情報へのアクセスは、配信内でトラッキングされます。バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
+バイラルマーケティングによって、配信の受信者は連絡先のネットワークと情報を共有できるようになります。プロフィールにリンクを追加したり（Facebook、X - 旧 Twitter など）、友達にメッセージを送信したりできます。それぞれの共有と、共有した情報へのアクセスは、配信内でトラッキングされます。バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
 
-このレポートは、ソーシャルネットワーク (Facebook、X など ) ごとに共有され、開封されたメッセージの分類を表示します 電子メールごと（またはその両方）
+このレポートは、ソーシャルネットワーク（Facebook、X など）ごと、および／またはメールで共有されて開封されたメッセージの分類を表示します。
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -202,7 +202,7 @@ ht-degree: 97%
 
 ## 共有アクティビティの統計 {#statistics-on-sharing-activities}
 
-このレポートは、共有のソーシャルネットワーク (Facebook、X — 旧称：Twitter、E メールなど ) への展開を表示します。 時間内
+このレポートは、ある期間のソーシャルネットワーク（Facebook、X - 旧 Twitter、メールなど）への共有の時間の経過を示しています。
 
 バイラルマーケティングについて詳しくは、[この節](../../delivery/using/viral-and-social-marketing.md)を参照してください。
 

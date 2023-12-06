@@ -5,9 +5,9 @@ description: ソーシャルマーケティングテクニカルワークフロ�
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -47,12 +47,12 @@ ht-degree: 79%
   <tr> 
    <td> <span class="uicontrol">Twitter 統計の計算</span> <br /> </td> 
    <td> <span class="uicontrol">statsTwitter</span> <br /> </td> 
-   <td> X でのリツイートと訪問にリンクされた統計を計算します ( 旧称：Twitter)。<br /> </td> 
+   <td> このワークフローは、X（旧 Twitter）でのリツイートと訪問にリンクされた統計を計算します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Twitter アカウントとの同期</span> <br /> </td> 
    <td> <span class="uicontrol">syncTwitter</span> <br /> </td> 
-   <td> 毎日午前 7 時に X 人のフォロワーをAdobe Campaignにインポートします。<br /> </td> 
+   <td> このワークフローは、毎日午前 7 時に X のフォロワーを Adobe Campaign に読み込みます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

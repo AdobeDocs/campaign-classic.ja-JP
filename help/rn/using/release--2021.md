@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2555'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -291,7 +291,7 @@ Campaign で次のシステムがサポートされるようになりました�
 * 配信分析を実行する際に、サーバーのメモリ使用量が減少する可能性がある問題を修正しました。
 * 特定の複雑なクエリを実行しようとすると、インスタンスが動作しなくなる可能性がある問題を修正しました。
 * **Twitter ページを同期する**&#x200B;テクニカルワークフローを実行できない可能性がある問題を修正しました。（NEO-28634）
-* X ( 旧称：Twitter) に **ツイート (twitter)** 配信テンプレート。 （NEO-28216）
+* **ツイート（Twitter）**&#x200B;配信テンプレートを使用して X（旧 Twitter）に公開しようとすると、decryptPassword 関数に関連するエラーメッセージが表示される可能性がある問題を修正しました。（NEO-28216）
 * **JavaScript** アクティビティを使用してワークフロー内で HTTP リクエストをおこなう際に発生していた問題を修正しました。ホスト名にポート番号を定義した後、次のエラーが発生して、呼び出しに失敗していました。（NEO-29146）
 
 ```

@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1519'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
   </tr>
 <tr>
  <td>Facebook でのソーシャルマーケティング</td>
- <td>Facebook を使用したソーシャルマーケティングは非推奨（廃止予定）になりました。X( 旧称：Twitter) 統合を使用してソーシャルメディアに投稿したり、Adobeと連携してカスタムチャネルを作成したりできます。
+ <td>Facebook を使用したソーシャルマーケティングは非推奨（廃止予定）になりました。X（旧 Twitter）統合を使用してソーシャルメディアに投稿したり、アドビと連携してカスタムチャネルを作成したりできます。
  <p></p>
   <p>削除予定日：2023年末</p>
   </td>

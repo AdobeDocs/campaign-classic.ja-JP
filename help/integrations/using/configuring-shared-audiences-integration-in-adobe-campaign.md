@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: e6a2986e5355b32164386e1f6d64f52dc6977632
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '640'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 87%
 >
 >demdex ドメインを使用しており、インポート外部アカウントで **ftp-out.demdex.com**、エクスポート外部アカウントで **ftp-in.demdex.com** の構文に従う場合は、それに従って実装を適応させ、Amazon Simple Storage Service（S3）コネクタに移動してデータのインポートまたはエクスポートをおこなう必要があります。Amazon S3 で外部アカウントを設定する方法の詳細については、[この節](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)を参照してください。
 
-次の図は、この統合の仕組みについて詳しく説明しています。ここで、AAMはAdobe Audience Managerを表し、AC はAdobe Campaignを表します。
+次の図は、この統合の仕組みについて詳しく説明しています。ここで、AAM は Adobe Audience Manager を表し、AC は Adobe Campaign を表します。
 
 ![](assets/aam_diagram.png){align="center"}
 
@@ -91,7 +91,7 @@ AWS リージョンについて詳しくは、[このページ](https://aws.amaz
 
 People コアサービスまたは Audience Manager との統合を設定する場合は、Campaign トラッキングサーバーも設定する必要があります。
 
-共有オーディエンスが訪問者 ID で機能できるようにするには、トラッキングサーバードメインを、クリックされた URL またはメイン Web サイトのサブドメインにする必要があります。
+共有オーディエンスが訪問者 ID で機能できるようにするには、トラッキングサーバードメインを、クリックした URL またはメイン web サイトのサブドメインにする必要があります。
 
 >[!IMPORTANT]
 >
@@ -101,6 +101,6 @@ People コアサービスまたは Audience Manager との統合を設定する�
 
 訪問者 ID サービスを web プロパティや web サイトで設定したことがない場合は、次の[ドキュメント](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=ja)を参照してサービスの設定方法を確認するか、次の[ビデオ](https://helpx.adobe.com/jp/marketing-cloud/how-to/email-marketing.html#step-two)をご覧ください。
 
-を使用して顧客識別子を宣言済み ID と同期 `setCustomerID` 関数を次のExperience CloudID サービスに追加します。 `AdobeCampaignID`. The `AdobeCampaignID` は、 [手順 2：データソースの設定](#step-2--configure-the-data-sources).
+Experience Cloud ID サービスの `setCustomerID` 関数と統合コード `AdobeCampaignID` を使用して、顧客 ID を宣言済み ID と同期します。`AdobeCampaignID` は、[手順 2：データソースの設定](#step-2--configure-the-data-sources)で設定した受信者データソースに設定された調整キーの値と一致させる必要があります。
 
-設定とプロビジョニングが完了し、統合を使用してオーディエンスやセグメントのインポートおよびエクスポートを行えるようになりました。
+設定とプロビジョニングが完了し、統合を使用してオーディエンスやセグメントの読み込みおよび書き出しを行えるようになりました。

@@ -9,9 +9,9 @@ role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: d690a5c4b9779ccd90b50bfbc74df18f0ac60d14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 
 * 移行した外部アカウントを管理している場合は、Adobe IMS を実装し、Adobe ID を介して Adobe Campaign に接続する必要があります。
 
-  Adobe ID IMS でログインしたユーザーは、 **Data コネクタ** Adobe Analyticsのアカウントで、 **製品プロファイル** メンション [below](#analytics-product-profile).
+  Adobe ID IMS でログインしたユーザーは、Adobe Analytics の&#x200B;**データコネクタ**&#x200B;アカウントの所有者であり、[以下](#analytics-product-profile)に説明する&#x200B;**製品プロファイル**&#x200B;に対する権限を持っている必要があります。
 
-問題は、Data コネクタの所有者が、Campaign にログインして Analytics との統合を試行したユーザーとは異なるユーザーであったことです。
+データコネクタの所有者が、Campaign にログインして Analytics との統合を試行しているユーザーとは異なるユーザーであることが問題でした。
 
 * 新しいコネクタを実装する場合、Adobe IMS の実装はオプションです。Adobe ID ユーザーがいない場合、Adobe Campaign はテクニカルユーザーを使用して Adobe Analytics と同期します。
 

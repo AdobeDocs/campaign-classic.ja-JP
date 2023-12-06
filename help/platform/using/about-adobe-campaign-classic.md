@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '934'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マ�
 * [MRM](../../mrm/using/about-marketing-resource-management.md)：マーケティングリソースと予算の管理
 * [インタラクション](../../interaction/using/interaction-and-offer-management.md)：Campaign のオファーの管理
 * [Message Center](../../message-center/using/about-transactional-messaging.md)：メール、SMS またはモバイルアプリでのトランザクションメッセージの送信
-* [ソーシャルマーケティング](../../social/using/about-social-marketing.md)  — ソーシャルメディア (Facebook、X( 旧称：Twitter)) でのコミュニケーション
+* [ソーシャルマーケティング](../../social/using/about-social-marketing.md)：ソーシャルメディア（Facebook、X（旧 Twitter））でのコミュニケーション
 * [ワークフロー](../../workflow/using/about-workflows.md)／データ管理：プロセスの自動化と、ワークフローを使用したデータの管理
 * [web アプリケーション](../../web/using/about-web-applications.md)：web ページおよびフォームの作成
 * [調査マネージャー](../../surveys/using/about-surveys.md)：オンライン調査および集計の作成

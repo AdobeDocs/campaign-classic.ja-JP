@@ -7,9 +7,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5978'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 +++**チャネル**
 
-チャネルは、通信を送信するための媒体です。Adobe Campaignの組み込みチャネルは、E メール、SMS、ダイレクトメール、プッシュ通知、LINE、X( 旧称：Twitter) です。 カスタムチャネルは、非標準のチャネル要件に対して実装できます。
+チャネルは、通信を送信するための媒体です。Adobe Campaign の組み込みチャネルは、メール、SMS、ダイレクトメール、プッシュ通知、LINE および X（旧 Twitter）です。カスタムチャネルは、非標準のチャネル要件に対して実装できます。
 
 詳細情報：[チャネル](../../delivery/using/communication-channels.md)。
 +++

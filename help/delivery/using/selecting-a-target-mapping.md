@@ -8,9 +8,9 @@ feature: Delivery Templates
 role: User
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 83%
 | 名前 | 用途 | 標準スキーマ |
 |---|---|---|
 | 受信者 | Adobe Campaign データベースの受信者に対する配信 | nms:recipient |
-| 訪問者 | 例えば、紹介（バイラルマーケティング）やソーシャルネットワーク (Facebook、X( 旧称：Twitter) など ) を介して収集されたプロファイルに対する配信。 | mns:visitor |
+| 訪問者 | 訪問者、つまりリファラル（バイラルマーケティング）やソーシャルネットワーク（Facebook、X - 旧 Twitter）などの方法でプロファイルを収集した訪問者に配信します。 | mns:visitor |
 | 購読 | ニュースレターなどの情報サービスを購読している受信者に対する配信 | nms:subscription |
 | 訪問者の購読 | 情報サービスを購読している訪問者に対する配信 | nms:visitorSub |
-| サービス | X アカウントまたはFacebookページに公開する | nms:service |
+| サービス | X アカウントや Facebook ページでの公開 | nms:service |
 | オペレーター | Adobe Campaign オペレーターに対する配信 | nms:operator |
 | 外部ファイル | 配信に必要な情報をすべて含んだファイルを経由しての配信 | リンクされるスキーマなし、入力されるターゲットなし |
 

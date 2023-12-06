@@ -7,8 +7,8 @@ feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 88%
+source-wordcount: '297'
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 88%
 
 ## 繰り返し配信の設定方法 {#set-up-recurring-delivery}
 
-**繰り返し配信**&#x200B;では、実行のたびに新しい配信インスタンスを作成します。例えば、ワークフローが週に 1 回実行されるようにスケジュールされている場合、1 年後には 52 件の配信がおこなわれます。 また、broadLog とトラッキングログは、各配信インスタンスで区切られます。
+**繰り返し配信**&#x200B;では、実行のたびに新しい配信インスタンスを作成します。例えば、ワークフローが週に 1 回実行されるようにスケジュールされている場合、1 年後には 52 回の配信が行われることになります。また、broadLog とトラッキングログは、各配信インスタンスで区切られます。
 
 ![繰り返し配信](assets/delivery_recurring.jpg)
 

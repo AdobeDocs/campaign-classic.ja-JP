@@ -8,9 +8,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Adobe Campaign エクスプローラーの一般的なレイアウトについ�
 
 >[!NOTE]
 >
->Facebookチャネルと X( 旧称：Twitter) チャネルは考慮されません。
+>ただし、Facebook チャネルと X（旧 Twitter）チャネルは考慮されません。
 
 アクティブなプロファイルの数は、**マーケティングインスタンス**&#x200B;にのみ使用できます。実行インスタンス、すなわち MID（ミッドソーシング）インスタンスおよび RT（Message Center／リアルタイムメッセージング）インスタンスには使用できません。
 

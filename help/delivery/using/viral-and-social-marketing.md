@@ -7,9 +7,9 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用�
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 Adobe Campaign では、バイラルマーケティングを促進するツールを設定できます。
 
-これにより、配信の受信者や Web サイトの訪問者は、Facebookや X( 旧称：Twitter) プロファイルへのリンクの追加から友人へのメッセージの送信まで、自分のネットワークと情報を共有できます。
+これにより、配信の受信者や web サイトの訪問者は、自分の Facebook プロファイルや X（旧 Twitter）プロファイルにリンクを追加したり、友人にメッセージを送信したりするなどの方法で、知人や友人と情報を共有できるようになります。
 
 ![](assets/s_ncs_user_viral_icons.png)
 

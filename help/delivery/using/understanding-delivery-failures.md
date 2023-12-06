@@ -8,9 +8,9 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: 8b0162680d6a3a2d4891d1f71020b44b28046ad7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2624'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -293,7 +293,7 @@ For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](s
 
 For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, these rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).-->
 
-The **[!UICONTROL インバウンド E メール]** ルールには、リモートサーバーから返され、エラー (**ハード**, **ソフト** または **無視**) をクリックします。
+**[!UICONTROL 受信メール]**&#x200B;のルールには、リモートサーバーから返され、エラー（**ハード**、**ソフト**&#x200B;または&#x200B;**無視**）を検証できる文字列のリストが含まれます。
 
 メールが失敗すると、リモートサーバーが[プラットフォームのパラメーター](../../installation/using/deploying-an-instance.md)で指定されたアドレスにバウンスメッセージを返します。Adobe Campaign は、各バウンスメールのコンテンツをルールのリストの文字列と比較して、3 つの[エラータイプ](#delivery-failure-types-and-reasons)のいずれかを割り当てます。
 

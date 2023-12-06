@@ -8,9 +8,9 @@ feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ ht-degree: 97%
 
 ![](assets/s_ncs_user_services_add.png)
 
-* サービスの名前を **[!UICONTROL ラベル]** 「 」フィールドを選択して、配信チャネル (e メール、モバイル、Facebook、X( 旧称：Twitter)、モバイルアプリケーション ) を選択します。
+* 「**[!UICONTROL ラベル]**」フィールドにサービスの名前を入力し、配信チャネル（メール、モバイル、Facebook、X（旧 Twitter）またはモバイルアプリケーション）を選択します。
 
   >[!NOTE]
   >
-  >Facebookと X の購読について詳しくは、 [この節](../../social/using/about-social-marketing.md). モバイルアプリケーションの購読について詳しくは、[モバイルアプリチャネルについて](about-mobile-app-channel.md)を参照してください。
+  >Facebook と X の購読については、[この節](../../social/using/about-social-marketing.md)で説明しています。モバイルアプリケーションの購読について詳しくは、[モバイルアプリチャネルについて](about-mobile-app-channel.md)を参照してください。
 
 * メールタイプのサービスの場合は、「**配信モード**」を選択します。選択できるモードは、「**[!UICONTROL ニュースレター]**」または「**[!UICONTROL バイラル]**」です。
 * 購読または購読解除の&#x200B;**確認メッセージ**&#x200B;を送信できます。そのためには、対応する配信の作成に使用する配信テンプレートを「**[!UICONTROL 購読]**」フィールドおよび「**[!UICONTROL 購読解除]**」フィールドから選択します。このテンプレートは、定義済みのターゲットではなく、「**[!UICONTROL 購読]**」タイプのターゲットマッピングを使用して設定されている必要があります。[メールチャネルについて](about-email-channel.md)の節を参照してください。

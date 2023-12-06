@@ -8,9 +8,9 @@ feature: Subscriptions
 role: User
 exl-id: eb72f19a-7669-4596-bf9b-8c0ce22b67bf
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,4 +22,4 @@ Adobe Campaign では、ニュースレターなどの情報サービスを作�
 
 >[!NOTE]
 >
->この機能は、Adobe Campaign で標準となっています。オプションのアプリケーションであるソーシャルマーケティングを使用すると、Facebookと X( 旧称：Twitter) を使用して、顧客や見込み客に連絡することができます。
+>この機能は、Adobe Campaign で標準となっています。オプションのアプリケーションであるソーシャルマーケティングを使用すると、Facebook や X（旧 Twitter）から顧客と見込み客に連絡できます。

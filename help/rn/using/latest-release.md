@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: f2e6db9e198f96e1e0250d461b419ac00e39bf45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2221'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,25 +23,25 @@ ht-degree: 90%
 [!BADGE 一般公開（GA）]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=ja#rn-statuses" tooltip="一般公開（GA）"}
 
 
-_2023 年 12 月 6 日_
+_2023年12月5日（PT）_
 
 
 **セキュリティ機能の強化**
 
 
-* Campaign Classicv7.3.5 では、認証プロセスが改善され、保護されました。 テクニカルオペレーターは、Campaign に接続する際にAdobeIdentity Managementシステム (IMS) を使用する必要があります。 既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/using/ims-migration.md)を参照してください。
+* Campaign Classic v7.3.5 では、認証プロセスが改善され、セキュリティが強化されました。テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/using/ims-migration.md)を参照してください。
 
-* また、セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaignでは、エンドユーザー認証モードをログイン/パスワードネイティブ認証からAdobeIdentity Management System(IMS) に移行することを強くお勧めします。 オペレーターを移行する方法については、[このテクニカルノート](../../technotes/using/migrate-users-to-ims.md)を参照してください。
+* また、セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign では、エンドユーザー認証モードをログイン／パスワードのネイティブ認証から Adobe Identity Management System（IMS）に移行することを強く推奨しています。オペレーターを移行する方法については、[このテクニカルノート](../../technotes/using/migrate-users-to-ims.md)を参照してください。
 
 **パッチ**
 
-* Googleビッグクエリデータベースのデータを使用し、Oracleデータベースのデータを更新する際に、すべてのキーが `0` ワークフローの一時テーブル内。 （NEO-65091）
-* Google Big Query データベースに対する 2 つのクエリを **和集合** ワークフローアクティビティ。 （NEO-63705）
-* クリック時にユーザーの再認証を要求していた問題を修正しました。 `Back` 」ボタンをクリックします。 （NEO-65087）
-* 配信の配達確認の前に配信が削除された場合に発生するデータベースクリーンアップワークフローのエラーを修正しました。 （NEO-48114）
-* クライアントコンソールへの接続時に、TLS 検証に関する最近の更新により接続エラーが発生する問題を修正しました。 （NEO-50488）
-* 7.3.1 への Campaign ポストアップグレード後の HTTP プロキシ認証の問題を修正しました。Campaign ワークフローの HTTP リクエストが、 `error 407 – proxy auth required is returned`. （NEO-49624）
-* での GPG 復号に伴う中間エラーを修正しました。 **スクリプト** ワークフローアクティビティ。 関連するエラーメッセージ： `gpg: decryption failed: No secret key`. （NEO-50257）
+* Google Big Query データベースのデータを使用し、Oracle データベースのデータを更新する際の問題を修正しました。ワークフロー一時テーブルですべてのキーを `0` に設定しました。（NEO-65091）
+* Google Big Query データベース上の 2 つのクエリを&#x200B;**和集合**&#x200B;ワークフローアクティビティで組み合わせると、ワークフローの実行が失敗する原因となっていた問題を修正しました。（NEO-63705）
+* キャンペーンレポートで `Back` ボタンをクリックした際に、ユーザーに再認証をリクエストしていた問題を修正しました。（NEO-65087）
+* 配達確認の前に配信を削除した際に発生していた、データベースクリーンアップワークフローのエラーを修正しました。（NEO-48114）
+* クライアントコンソールへの接続時に、TLS 検証に関する最近の更新により、接続エラーが発生していた問題を修正しました。（NEO-50488）
+* Campaign の 7.3.1 へのアップグレード後の HTTP プロキシ認証に関する問題を修正しました。Campaign ワークフローの HTTP リクエストが `error 407 – proxy auth required is returned` で失敗していました。（NEO-49624）
+* **スクリプト**&#x200B;ワークフローアクティビティにおける、GPG 復号化での断続的なエラーを修正しました。関連するエラーメッセージは `gpg: decryption failed: No secret key` でした。（NEO-50257）
   <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
 
 ## リリース 7.3.4 - ビルド 9364 {#release-7-3-4}

@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: cc6d85bcf822ba9be99e39cf459a5aa20cc2d4fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3671'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 JWT（JSON web トークン）は、現在非推奨（廃止予定）の段階で、OAuth に置き換えられています。トランジションは、Campaign の今後のリリース内で段階的に実行され、ドキュメントはこれらの更新を反映して更新されます。
 
-Amazon Redshift の FDA 外部アカウント設定を追加しました。 [詳細情報](../../installation/using/configure-fda-redshift.md)
+Amazon Redshift 用の FDA 外部アカウント設定を追加しました。[詳細情報](../../installation/using/configure-fda-redshift.md)
 
 ### 2023年8月 {#aug-2023}
 

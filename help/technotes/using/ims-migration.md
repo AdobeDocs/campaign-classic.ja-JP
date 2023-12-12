@@ -3,25 +3,26 @@ title: Adobe Developer Console へのテクニカルユーザーの移行
 description: Campaign テクニカルオペレーターを Adobe Developer Console のテクニカルアカウントに移行する方法を学ぶ
 feature: Technote
 role: Admin
-source-git-commit: 68d1f5ae0089a0c447acf67c28c27f4e1069a218
-workflow-type: tm+mt
+exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
+source-git-commit: bc9367d598474b7971f25c27980ff25dd93bf87a
+workflow-type: ht
 source-wordcount: '1650'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Adobe Developer Console への Campaign テクニカルオペレーターの移行 {#migrate-tech-users-to-ims}
 
-Campaign Classicv7.3.5 以降、セキュリティと認証プロセスを強化する取り組みの一環として、Campaign Classicに対する認証プロセスが改善されています。 テクニカルオペレーターは、 [AdobeIdentity Managementシステム (IMS)](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}. **Adobeは、Campaign v8 にスムーズに移行できるよう、Campaign v7.3.5 でこの移行を実行することをお勧めします。**
+セキュリティと認証プロセスを強化する取り組みの一環として、Campaign Classic v7.3.5 以降、Campaign Classic への認証プロセスが改善されています。テクニカルオペレーターは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を使用する必要があります。**アドビでは、Campaign v8 にスムーズに移行できるように、Campaign v7.3.5 でこの移行を実行することをお勧めします。**
 
 テクニカルオペレーターは、API 統合用に明示的に作成された Campaign ユーザープロファイルです。この記事では、Adobe Developer Console からテクニカルオペレーターをテクニカルアカウントに移行するために必要な手順について詳しく説明します。
 
 
 ## 影響の有無{#ims-impacts}
 
-Campaign の外部のシステムから Campaign マーケティングインスタンスまたはリアルタイム Message Center インスタンスに API 呼び出しをおこなう場合は、以下に説明するように、Adobe Developerコンソールを通じて技術オペレーターをテクニカルアカウントに移行することを強くお勧めします。
+Campaign の外部システムから Campaign マーケティングインスタンスまたはリアルタイム Message Center インスタンスのいずれかに API 呼び出しを行っている場合は、アドビでは、以下で説明するように、Adobe Developer Console を通じてテクニカルオペレーターをテクニカルアカウントに移行することをお勧めします。
 
-この変更は、Campaign Classicv7.3.5 以降に適用され、 **必須** Adobe Campaign v8 に移行する場合。
+この変更は、Campaign Classic v7.3.5 以降に適用され、Adobe Campaign v8 に移行するには&#x200B;**必須**&#x200B;となります。
 
 ## 移行プロセス {#ims-migration-procedure}
 
@@ -39,17 +40,17 @@ Campaign の外部のシステムから Campaign マーケティングインス�
 
 <!--To be able to create the technical accounts which replace the technical operators, the prerequisite that the proper Campaign Product Profiles exist within the Admin Console for all Campaign instances need to be validated. You can learn more about Product Profiles within the Adobe Console in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.-->
 
-* Campaign ホスト型およびManaged Services型のお客様
+* Campaign ホスト環境および Managed Services 環境のお客様
 
-  Message Center インスタンスへの API 呼び出しの場合、Campaign v7.3.5 へのアップグレード中またはインスタンスのプロビジョニング中に、製品プロファイルが作成されている必要があります。 この製品プロファイルの名前を以下に示します。
+  Message Center インスタンスへの API 呼び出しの場合、Campaign v7.3.5 へのアップグレード中や、インスタンスのプロビジョニング中に製品プロファイルを作成する必要があります。この製品プロファイルの名前を以下に示します。
 
   `campaign - <your campaign instance> - messagecenter`
 
   Campaign へのユーザーアクセスに IMS ベースの認証を既に使用している場合は、API 呼び出しに必要な製品プロファイルが Admin Console 内に既に存在している必要があります。マーケティングインスタンスへの API 呼び出しに Campaign 内のカスタムオペレーターグループを使用する場合は、Admin Console 内でその製品プロファイルを作成する必要があります。
 
-  その他の場合は、Adobeの技術チームが既存のオペレーターグループとネームド権限をAdobe内の製品プロファイルに移行できるよう、Admin Console移行マネージャー (Managed Servicesユーザーの場合 ) またはAdobeカスタマーケアに問い合わせる必要があります。
+  それ以外の場合は、アドビのテクニカルチームが既存のオペレーターグループとネームド権限を Admin Console 内の製品プロファイルに移行できるように、アドビトランジションマネージャー（Managed Services ユーザーの場合）またはアドビカスタマーケア（他のホスト環境のユーザーの場合）に問い合わせる必要があります。
 
-* Campaign オンプレミスおよびハイブリッドの顧客
+* Campaign オンプレミス環境およびハイブリッド環境のお客様
 
   Message Center インスタンスへの API 呼び出しの場合、次の名前の製品プロファイルを作成する必要があります。
 
@@ -57,7 +58,7 @@ Campaign の外部のシステムから Campaign マーケティングインス�
 
   Campaign へのユーザーアクセスに IMS ベースの認証を既に使用している場合は、API 呼び出しに必要な製品プロファイルが Admin Console 内に既に存在している必要があります。マーケティングインスタンスへの API 呼び出しに Campaign 内のカスタムオペレーターグループを使用する場合は、Admin Console 内でその製品プロファイルを作成する必要があります。
 
-  製品プロファイルについて詳しくは、製品コンソールのAdobeを参照してください。 [Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}
+  Adobe Console 内の製品プロファイルについて詳しくは、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}を参照してください。
 
 
 ### 手順 1 - Adobe Developer Console 内で Campaign プロジェクトを作成 {#ims-migration-step-1}

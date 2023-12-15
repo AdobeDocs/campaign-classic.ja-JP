@@ -6,10 +6,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Push
 role: User, Developer, Data Engineer
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '823'
-ht-degree: 100%
+source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
+workflow-type: tm+mt
+source-wordcount: '757'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,8 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 * **[!UICONTROL 通知メッセージ]**は、FCM SDK によって自動的に処理されます。
   <br> FCM は、クライアントアプリに代わって、ユーザーのデバイスにメッセージを自動的に表示します。通知メッセージには、事前に定義された一連のパラメーターとオプションが含まれていますが、カスタムアプリケーション変数を使用してさらにパーソナライズすることもできます。
 
-Firebase Cloud Messaging のメッセージタイプについて詳しくは、[FCM ドキュメント](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages)を参照してください。
+Firebase Cloud Messaging のメッセージタイプについて詳しくは、 [FCM ドキュメント](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages){target="_blank"}.
+
 
 ## データメッセージの作成 {#creating-data-message}
 
@@ -67,11 +68,7 @@ Firebase Cloud Messaging のメッセージタイプについて詳しくは、[
 
 ## 通知メッセージの作成 {#creating-notification-message}
 
->[!NOTE]
->
->通知メッセージのその他のオプションは、HTTP v1 API 設定でのみ使用できます。詳しくは、[この節](configuring-the-mobile-application-android.md#android-service-httpv1)を参照してください。
-
-![](assets/do-not-localize/how-to-video.png) [Android プッシュ通知の作成方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=ja#additional-resources)
+![](assets/do-not-localize/how-to-video.png) [Android のプッシュ通知を作成する方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html?lang=ja#additional-resources){target="_blank"}.
 
 1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;に移動します。
 
@@ -102,7 +99,7 @@ Firebase Cloud Messaging のメッセージタイプについて詳しくは、[
    * **[!UICONTROL タグ]**：通知ドロワー内の既存の通知を置き換えるために使用する識別子を設定します。
    * **[!UICONTROL クリックアクション]**：通知のユーザークリックに関連付けられたアクションを設定します。
 
-   **[!UICONTROL 通知オプション]**&#x200B;とこれらのフィールドに入力する方法について詳しくは、[FCM のドキュメント](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification)を参照してください。
+   詳しくは、 **[!UICONTROL 通知オプション]** これらのフィールドに入力する方法については、 [FCM ドキュメント](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
 
    ![](assets/nmac_android_8.png)
 
@@ -115,7 +112,7 @@ Firebase Cloud Messaging のメッセージタイプについて詳しくは、[
    * **[!UICONTROL 通知優先度]**：通知の優先度レベルを、デフォルト、最小、低、高のいずれかに設定します。詳しくは、[FCM のドキュメント](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#NotificationPriority)を参照してください。
    * **[!UICONTROL 表示]**：通知の表示レベルをパブリック、プライベート、秘密のいずれかに設定します。詳しくは、[FCM のドキュメント](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility)を参照してください。
 
-   **[!UICONTROL HTTPV1 その他のオプション]**&#x200B;とこれらのフィールドを設定する方法について詳しくは、[FCM ドキュメント](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification)を参照してください。
+   **[!UICONTROL HTTP v1 その他のオプション]**&#x200B;とこれらのフィールドを設定する方法について詳しくは、[FCM ドキュメント](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}を参照してください。
 
    ![](assets/nmac_android_9.png)
 

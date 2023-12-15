@@ -6,20 +6,16 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Push
 role: User, Developer
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '1077'
-ht-degree: 100%
+source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 88%
 
 ---
 
 # Android の設定手順
 
 パッケージがインストールされたら、Adobe Campaign Classic で Android アプリの設定を定義できます。
-
->[!NOTE]
->
->iOS 用にアプリを設定する方法と iOS 用の配信を作成する方法については、[この節](configuring-the-mobile-application.md)を参照してください。
 
 主な手順は次のとおりです。
 
@@ -29,6 +25,11 @@ ht-degree: 100%
 1. [追加データでアプリスキーマを拡張する](#extend-subscription-schema)
 
 これで、[Android リッチ通知を作成](create-notifications-android.md)できるようになります。
+
+>[!IMPORTANT]
+>
+>Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、2024 年にリリースする予定であり、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージ用の購読サービス設定を更新する必要がある場合があります。 既にを確認し、アクションを実行できます。 詳しくは、こちらを参照してください。 [Adobe Campaign v8 テクニカルノート](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+
 
 ## Android 外部アカウントの設定 {#configuring-external-account-android}
 
@@ -57,7 +58,7 @@ Android の場合、2 種類のコネクタを使用できます。
 
 ## Android サービスの設定 {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png) [Android サービスの設定方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ja#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign)
+![](assets/do-not-localize/how-to-video.png) [Android サービスの設定方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=ja#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
 
 1. **[!UICONTROL プロファイルとターゲット／サービスと購読]**&#x200B;ノードに移動して、「**[!UICONTROL 新規]**」をクリックします。
 
@@ -104,14 +105,13 @@ Android の場合、2 種類のコネクタを使用できます。
 
 デフォルトでは、Adobe Campaign は&#x200B;**[!UICONTROL 購読者のアプリケーション（nms:appSubscriptionRcp）]**&#x200B;テーブルの「**[!UICONTROL ユーザー ID]**」（@userKey）フィールドにキーを保存します。このキーによって購読情報を受信者にリンクできます。追加データ（複雑な紐付けキーなど）を収集するには、次の設定を適用する必要があります。
 
-### API バージョンの選択{#select-api-version}
+### API バージョンの設定{#select-api-version}
 
-サービスと新しいモバイルアプリケーションを作成したら、選択した API バージョンに応じてモバイルアプリケーションを設定する必要があります。
+>[!IMPORTANT]
+>
+>Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、2024 年にリリースする予定であり、Adobe Campaign の実装に影響を与える場合があります。Google のサービス向上への継続的な取り組みの一環として、レガシー FCM API は **2024年6月20日（PT）**&#x200B;に廃止されます。詳しくは、こちらを参照してください。 [Adobe Campaign v8 テクニカルノート](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
 
-* **HTTP v1** の設定について詳しくは、[この節](configuring-the-mobile-application-android.md#android-service-httpv1)を参照してください。
-* **HTTP（レガシー）**&#x200B;の設定について詳しくは、[この節](configuring-the-mobile-application-android.md#android-service-http)を参照してください。
-
-#### HTTP v1 API の設定{#android-service-httpv1}
+サービスと新しいモバイルアプリケーションを作成したら、モバイルアプリケーションを設定する必要があります。 The **HTTP （レガシー）** API はGoogleで非推奨となっているので、選択しないでください。
 
 HTTP v1 API バージョンを設定するには、次の手順に従います。
 
@@ -122,7 +122,7 @@ HTTP v1 API バージョンを設定するには、次の手順に従います�
    次の詳細を手動で入力することもできます。
    * **[!UICONTROL プロジェクト ID]**
    * **[!UICONTROL 秘密鍵]**
-   * **[!UICONTROL クライアント E メール]**
+   * **[!UICONTROL クライアントメール]**
 
    ![](assets/nmac_android_10.png)
 
@@ -145,39 +145,11 @@ HTTP v1 API バージョンを設定するには、次の手順に従います�
 | データメッセージ | 該当なし | validate_only |
 | 通知メッセージ | title、body、android_channel_id、icon、sound、tag、color、click_action、image、ticker、sticky、visibility、notification_priority、notification_count <br> | validate_only |
 
-<br>
-<br>
-
-#### HTTP（レガシー）API の設定{#android-service-http}
-
-HTTP（レガシー）API バージョンを設定するには、次の手順に従います。
-
-1. **[!UICONTROL モバイルアプリケーションの作成ウィザード]**&#x200B;ウィンドウの「**[!UICONTROL API バージョン]**」ドロップダウンで「**[!UICONTROL HTTP (レガシー)]**」を選択します。
-
-1. モバイルアプリケーションの開発者が提供した&#x200B;**[!UICONTROL プロジェクトキー]**&#x200B;を入力します。
-
-1. オプションとして、必要に応じ、**[!UICONTROL アプリケーション変数]**&#x200B;を使用してプッシュメッセージのコンテンツを強化できます。これらは完全にカスタマイズ可能で、モバイルデバイスに送信されるメッセージペイロードの一部です。
-
-   次の例では、**title**、**imageURL** および **iconURL** を追加し、リッチなプッシュ通知を作成してさらに通知内に表示する画像、タイトル、アイコンをアプリケーションに提供します。
-
-   ![](assets/nmac_android_2.png)
-
-1. 「**[!UICONTROL 完了]**」、「**[!UICONTROL 保存]**」の順にクリックします。これで、Campaign Classic で Android アプリケーションを使用する準備が整いました。
-
-以下に、プッシュ通知をさらにパーソナライズするための FCM ペイロード名を示します。
-
-| メッセージタイプ | 設定可能なメッセージ要素（FCM ペイロード名） | 設定可能なオプション（FCM ペイロード名） |
-|:-:|:-:|:-:|
-| データメッセージ | 該当なし | dryRun |
-| 通知メッセージ | title、body、android_channel_id、icon、sound、tag、color、click_action <br> | dryRun |
-
-<br>
-
 ## appsubscriptionRcp スキーマの拡張 {#extend-subscription-schema}
 
 ![](assets/do-not-localize/how-to-video.png) [appsubscriptionRcp スキーマの拡張方法をビデオで説明します](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html?lang=ja#extending-the-app-subscription-schema-to-personalize-push-notifications)
 
-**appsubscriptionRcp** を拡張して、アプリのパラメーターを Campaign データベースに保存するための新しい追加フィールドを定義する必要があります。 これらのフィールドは、例えば、パーソナライゼーションに使用されます。 手順は次のとおりです。
+を拡張する必要があります。 **appsubscriptionRcp** ：アプリのパラメーターを Campaign データベースに保存するための新しい追加フィールドを定義します。 これらのフィールドは、例えば、パーソナライゼーションに使用されます。 手順は次のとおりです。
 
 1. 「**[!UICONTROL 購読者のアプリケーション（nms:appsubscriptionRcp）]**」スキーマの拡張を作成し、新しいフィールドを定義します。スキーマ拡張について詳しくは、[こちらのページ](../../configuration/using/about-schema-edition.md)を参照してください。
 

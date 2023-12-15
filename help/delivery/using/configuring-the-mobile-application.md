@@ -6,22 +6,16 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '745'
+source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
+workflow-type: tm+mt
+source-wordcount: '708'
 ht-degree: 100%
 
 ---
 
 # iOS 向けの設定手順 {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
-
-
 パッケージがインストールされたら、Adobe Campaign Classic で iOS アプリの設定を定義できます。
-
->[!NOTE]
->
->Android 用のアプリの設定方法と Android 用の配信の作成方法については、[この節](configuring-the-mobile-application-android.md)を参照してください。
 
 主な手順は次のとおりです。
 
@@ -30,7 +24,6 @@ ht-degree: 100%
 1. [Campaign での iOS モバイルアプリの統合](#creating-ios-app)
 
 これで、[iOS デバイス用のプッシュ通知を作成](create-notifications-ios.md)できます。
-
 
 ## iOS 外部アカウントの設定 {#configuring-external-account-ios}
 

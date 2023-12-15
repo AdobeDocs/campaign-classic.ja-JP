@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 92c79e7050124bc707f4d6b87c7952016586002c
+source-git-commit: 6dd2a2343c0204c01dd0fa4910299efa15c29849
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 91%
+source-wordcount: '342'
+ht-degree: 90%
 
 ---
 
@@ -27,14 +27,14 @@ Campaign Classic v7.3.5 のアップデート、改善点、およびパッチ�
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
->[!TAB Adobe Identity Management システムに移動]
+>[!TAB 移動先Adobe IMS]
 
 セキュリティと認証プロセスを強化するために、Adobe Campaign では、エンドユーザーの認証モードをログインおよびパスワードによるネイティブ認証から Adobe Identity Management System（IMS）に移行することを強くお勧めしています。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](technotes/using/migrate-users-to-ims.md)
 
 
->[!TAB 今後の変更をプッシュチャネル]
+>[!TAB プッシュチャネルの変更]
 
 Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、2024 年にリリースする予定であり、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージ用の購読サービス設定を更新する必要がある場合があります。 既にを確認し、アクションを実行できます。
 

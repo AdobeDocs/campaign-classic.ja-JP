@@ -8,9 +8,9 @@ feature: Push
 role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 source-git-commit: 92c79e7050124bc707f4d6b87c7952016586002c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '687'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 93%
 
   >[!IMPORTANT]
   >
-  >Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、2024 年にリリースする予定であり、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージ用の購読サービス設定を更新する必要がある場合があります。 既にを確認し、アクションを実行できます。 詳しくは、こちらを参照してください。 [Adobe Campaign v8 テクニカルノート](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+  >Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、2024 年にリリースする予定であり、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。今すぐ確認し、実行できます。詳しくは、こちらの [Adobe Campaign v8 テクニカルノート](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=ja){target="_blank"}を参照してください。
 
-これら 2 つのチャネルに対応し、キャンペーンワークフローには 2 つの配信アクティビティがあります。 また、トランザクションメッセージに使用できるトランザクションメッセージテンプレートも 2 つあります。
+これら 2 つのチャネルに対応して、キャンペーンワークフローには 2 つの配信アクティビティがあります。また、トランザクションメッセージに使用できるトランザクションメッセージテンプレートも 2 つあります。
 
 ![](assets/nmac_intro_3.png)
 

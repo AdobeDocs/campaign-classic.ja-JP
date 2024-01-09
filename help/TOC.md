@@ -3,13 +3,13 @@ audience: end-user
 breadcrumb-title: Campaign Classic v7 ドキュメント
 product: campaign
 title: Campaign Classic v7 ガイド
-user-guide-description: Adobe Campaign では、豊富な顧客データを使用して、メール、モバイル、オフラインなどのチャネルを通じて、顧客が実際に求めている動的なキャンペーンを作成、調整および配信できます。
+user-guide-description: Adobe Campaign Classic v7 の製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: c2ac8fcf1d9746dbddffc90491a6f214e2c3df2e
-workflow-type: ht
-source-wordcount: '2544'
-ht-degree: 100%
+source-git-commit: cb1f079fbb7af6bb6645aae86261ca723fd97c3a
+workflow-type: tm+mt
+source-wordcount: '2524'
+ht-degree: 99%
 
 ---
 
@@ -841,3 +841,7 @@ ht-degree: 100%
       + [パブリッククラウドへの移行](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)
 + [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
+
+<!--
+With Adobe Campaign Classic v7, you can use rich customer data to create, coordinate, and deliver dynamic campaigns that customers actually want — through email, mobile, offline channels, and more.
+-->

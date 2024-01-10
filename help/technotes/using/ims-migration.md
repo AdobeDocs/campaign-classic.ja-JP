@@ -5,9 +5,9 @@ feature: Technote
 role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
 source-git-commit: 9083c9c11b6b9c695cc98882e99ceb3cffc20ec7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1698'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 Campaign の外部システムから Campaign マーケティングインスタンスまたはリアルタイム Message Center インスタンスのいずれかに API 呼び出しを行っている場合は、アドビでは、以下で説明するように、Adobe Developer Console を通じてテクニカルオペレーターをテクニカルアカウントに移行することをお勧めします。
 
-この変更は、Campaign Classicv7.3.5 以降に適用されます（最新版） [IMS 移行互換バージョン](#ims-versions-tech)) およびが **必須** Adobe Campaign v8 に移行する場合。
+この変更は、Campaign Classic v7.3.5（および最新の [IMS 移行互換バージョン](#ims-versions-tech)）以降に適用され、Adobe Campaign v8 に移行するには&#x200B;**必須**&#x200B;となります。
 
 ## 移行プロセス {#ims-migration-procedure}
 
@@ -39,13 +39,13 @@ Campaign の外部システムから Campaign マーケティングインスタ�
 
 ### IMS 移行互換バージョン {#ims-versions-tech}
 
-この移行の前提条件は、環境を次の製品バージョンのいずれかにアップグレードすることです。
+この移行の前提条件は、環境を次のいずれかの製品バージョンにアップグレードすることです。
 
 * Campaign v7.3.5（推奨）
 * Campaign v7.3.3.IMS
   <!--* Campaign v7.3.2.IMS-->
 
-これらの Campaign のバージョンについて詳しくは、 [リリースノート](../../rn/using/latest-release.md).
+これらの Campaign のバージョンについて詳しくは、[リリースノート](../../rn/using/latest-release.md)を参照してください。
 
 ### 移行の前提条件{#ims-migration-prerequisites}
 
@@ -53,7 +53,7 @@ Campaign の外部システムから Campaign マーケティングインスタ�
 
 * Campaign ホスト環境および Managed Services 環境のお客様
 
-  Message Center インスタンスへの API 呼び出しの場合、Campaign v7.3.5( またはその他の [IMS 移行互換バージョン](#ims-versions-tech))、またはインスタンスのプロビジョニング中に削除されます。 この製品プロファイルの名前を以下に示します。
+  Message Center インスタンスへの API 呼び出しの場合、Campaign v7.3.5（またはその他の[IMS 移行互換バージョン](#ims-versions-tech)）へのアップグレード中や、インスタンスのプロビジョニング中に製品プロファイルを作成する必要があります。この製品プロファイルの名前を以下に示します。
 
   `campaign - <your campaign instance> - messagecenter`
 
@@ -238,7 +238,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 
    ![](assets/do-not-translate/ims-updates-07.png)
 
-   Adobe Analytics の **資格情報の詳細** タブで、下にスクロールして **テクニカルアカウントの電子メール** をクリックし、 **コピー** 」ボタンをクリックします。
+   「**資格情報の詳細**」タブで、下にスクロールして&#x200B;**テクニカルアカウントのメール**&#x200B;を見つけて、「**コピー**」ボタンをクリックします。
 
    ![](assets/do-not-translate/ims-updates-08.png)
 

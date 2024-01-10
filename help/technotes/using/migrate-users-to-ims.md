@@ -3,9 +3,9 @@ title: Campaign オペレーターの Adobe Identity Management System（IMS）�
 description: Campaign オペレーターの Adobe Identity Management System（IMS）への移行方法を説明します
 exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
 source-git-commit: 9083c9c11b6b9c695cc98882e99ceb3cffc20ec7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Campaign Classic では、すべての標準ユーザーは、Adobe Identity Man
 
 この変更は Campaign Classic v7 で既に適用されており、Campaign v8 に移行するためには&#x200B;**必須**&#x200B;となります。
 
-Adobeは、この移行作業を支援します。 詳細なコンテキストと手順のガイドラインは、次の記事を参照してください。
+アドビでは、この移行作業をサポートしています。詳細なコンテキストと段階的なガイドラインについては、以下の記事を参照してください。
 
 ## 影響の有無{#migrate-ims-impacts}
 
@@ -43,19 +43,19 @@ Adobeは、この移行作業を支援します。 詳細なコンテキスト�
 
 ### IMS 移行互換バージョン {#ims-versions}
 
-この移行の前提条件は、環境を次の製品バージョンのいずれかにアップグレードすることです。
+この移行の前提条件は、環境を次のいずれかの製品バージョンにアップグレードすることです。
 
 * Campaign v7.3.5（推奨）
 * Campaign v7.3.3.IMS
   <!--* Campaign v7.3.2.IMS-->
 
-これらの Campaign のバージョンについて詳しくは、 [リリースノート](../../rn/using/latest-release.md).
+これらの Campaign のバージョンについて詳しくは、[リリースノート](../../rn/using/latest-release.md)を参照してください。
 
 ### 主な手順 {#ims-migration-steps}
 
 この移行の主な手順を以下に示します。
 
-1. Adobeにより、環境を Campaign v7.3.5( または [IMS 移行互換バージョン](#ims-versions)) をクリックします。
+1. アドビでは、環境を Campaign v7.3.5（または [IMS 移行互換バージョン](#ims-versions)）にアップグレードします。
 1. アップグレード後も、ネイティブユーザーまたは IMS の両方の方法で新しいユーザーを引き続き作成できます。
 1. 内部の Campaign 管理者は、Campaign クライアントコンソール上のすべてのネイティブユーザーに一意のメールアドレスを追加し、これが完了したらアドビ担当者またはアドビカスタマーケアにご確認いただく必要があります。この手順について詳しくは、[この節](#ims-migration-id)を参照してください。
 1. アドビ担当者またはアドビカスタマーケアと連携して、技術に詳しくないユーザー（オペレーター）と製品プロファイルの自動移行をアドビが実行する日付を確保します。この手順には、サービスのダウンタイムが発生しない 1 時間の時間枠が必要です。
@@ -70,7 +70,7 @@ Adobeは、この移行作業を支援します。 詳細なコンテキスト�
 
 この移行の主な手順を以下に示します。
 
-1. 環境を Campaign v7.3.5( または [IMS 移行互換バージョン](#ims-versions)) をクリックします。
+1. 環境を Campaign v7.3.5（または [IMS 移行互換バージョン](#ims-versions)）にアップグレードします。
 1. アップグレード後も、ネイティブユーザーまたは IMS の両方の方法で新しいユーザーを引き続き作成できます。
 1. 社内 Campaign 管理者の方は、[このセクション](../../integrations/using/configuring-ims.md)の説明に従い、Adobe IMS を構成する必要があります。
 1. 次に、Campaign クライアントコンソールで、すべてのネイティブユーザーに一意の E メールを追加します。 この手順について詳しくは、[この節](#ims-migration-id)を参照してください。
@@ -85,13 +85,13 @@ Adobeは、この移行作業を支援します。 詳細なコンテキスト�
 
 ### 移行を開始できるのはいつですか？ {#ims-migration-start}
 
-への移行に関する推奨事項 [AdobeIdentity Managementシステム (IMS)](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} 環境をCampaign Classicv7.3.5 にアップグレードする場合 ( または [IMS 移行互換バージョン](#ims-versions)) をクリックします。
+[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行の推奨事項は、環境を Campaign Classic v7.3.5（または [IMS 移行互換バージョン](#ims-versions)）にアップグレードすることです。
 
-最新バージョンにアップグレードした後で、ステージ環境で IMS の移行を開始し、それに応じて実稼動環境の計画を立てることができます。
+最新バージョンにアップグレードしたら、ステージング環境で IMS への移行を開始し、それに応じて実稼動環境を計画できます。
 
 ### Campaign Classic v7.3.5 にビルドをアップグレードすると、どうなりますか？ {#ims-migration-after-upgrade}
 
-環境をCampaign Classicv7.3.5( または [IMS 移行互換バージョン](#ims-versions)) を選択し、 [AdobeIdentity Managementシステム (IMS)](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}.
+環境を Campaign Classic v7.3.5（または [IMS 移行互換バージョン](#ims-versions)）にアップグレードしたら、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行を開始できます。
 
 ### 移行が完了するのはいつですか？ {#ims-migration-end}
 
@@ -99,7 +99,7 @@ Adobeは、この移行作業を支援します。 詳細なコンテキスト�
 
 ### 移行後にユーザーを作成するにはどうすればよいですか？ {#ims-migration-native}
 
-Adobeは、Campaign Classicv7.3.5( または [IMS 移行互換バージョン](#ims-versions)) をクリックします。
+アドビでは、Campaign Classic v7.3.5（または [IMS 移行互換バージョン](#ims-versions)）にアップグレードした後は、IMS ユーザーのみを作成することをお勧めします。
 
 Campaign 管理者は、Adobe Admin Console と Campaign クライアントコンソールを通じて組織のユーザーに権限を付与できます。ユーザーは、Adobe ID を使用して Adobe Campaign にログオンします。IMS を使用して権限を設定する方法については、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja){target="_blank"}を参照してください。
 

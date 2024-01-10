@@ -1,44 +1,43 @@
 ---
 product: campaign
-title: Campaign での Adobe ID の使用
-description: Adobe IMS 統合の詳細
+title: Adobe IDを使用してAdobe Campaignに接続
+description: Adobe CampaignでのAdobe IMS実装の詳細
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 49271e291953483ee14709b26ec053217a336718
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '143'
+ht-degree: 60%
 
 ---
 
-# Adobe ID について{#about-adobe-id}
+# Adobe ID について {#about-adobe-id}
 
 Adobe Identity Management システム（IMS）は、管理者がアプリケーションやサービスへのユーザーのアクセスを作成および管理するのに役立ちます。各種 Adobe ID の詳細については、[こちらのページ](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
 
-Campaign ユーザーは、Adobe ID を使用して Adobe Campaign コンソールに接続できます。統合には次のメリットがあります。
+Campaign ユーザーは、 [ネイティブユーザー/パスワード認証](../../platform/using/access-management-operators.md). この実装には、次のメリットがあります。
 
 * Experience Cloud のすべてのソリューションに同じ ID を使用できます。
-* Adobe Campaign で異なる統合を使用する場合にも、接続が記憶されます。
-* パスワード管理ポリシーをよりセキュアにできます。
+* 様々な統合でAdobe Campaignを使用する場合、接続は維持されます。
+* ネイティブのログイン/パスワードよりも、パスワード管理ポリシーの方が安全です。
 * Federated ID アカウント（外部の ID プロバイダー）を使用します。
 
-
+<!--
 >[!IMPORTANT]
 >
->Adobe ID サービス（IMS）を通じて Campaign に接続している場合、**2021 年 6 月 30 日**&#x200B;以降も Campaign に接続できるようにするには、最新のビルドにアップグレードする必要があります。 このアップグレードは、Campaign サーバーとクライアントコンソールの両方で必須です。 
+>If you are connecting to Campaign through Adobe Identity Service (IMS), you need to upgrade to the latest build to be able to connect to Campaign after **June 30, 2021**. This upgrade is mandatory for both Campaign server and client console. 
 >
->現在のバージョンに応じて、次のリリースのいずれかにアップグレードする必要があります。
+>Depending on your current version, you must upgrade to one of the following releases: 
 >
 > * [Campaign [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
 > * [Campaign 21.1.4](../../rn/using/latest-release.md)
 >
->[ IMS 更新の詳細を説明します](../../technotes/using/ims-updates.md)。
-
+>[Learn more about IMS updates](../../technotes/using/ims-updates.md)
+-->
 
 ## その他のリソース
 

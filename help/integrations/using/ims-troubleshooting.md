@@ -4,23 +4,22 @@ title: IMS のトラブルシューティング
 description: IMS のトラブルシューティング
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 49271e291953483ee14709b26ec053217a336718
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '432'
+ht-degree: 95%
 
 ---
 
 # IMS のトラブルシューティング{#ims-troubleshooting}
 
 
-
-以下で紹介するトラブルシューティングのヒントは、**オンプレミス版**&#x200B;のお客様が IMS 統合を使用する際によく発生する問題を解決するのに役立ちます。**ホスト版**&#x200B;のお客様は、アドビにお問い合わせください。
+次のトラブルシューティングのヒントが役立ちます **オンプレミス** および **ハイブリッド** のお客様は、IMS 統合を使用する際に発生する最も一般的な問題を解決します。 **ホスト版**&#x200B;のお客様は、アドビにお問い合わせください。
 
 **外部アカウント**
 

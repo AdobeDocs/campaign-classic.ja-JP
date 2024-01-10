@@ -4,34 +4,28 @@ title: IMS の実装
 description: IMS の実装
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 49271e291953483ee14709b26ec053217a336718
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 100%
+source-wordcount: '83'
+ht-degree: 26%
 
 ---
 
 # IMS の実装{#implementing-ims}
 
+1 回 [IMS 設定](configuring-ims.md) が完了したら、接続を有効にできます。
 
+Adobe Campaignで IMS 認証モードを有効にするには、次の手順に従います。
 
-## IMS 接続の有効化 {#enabling-the-ims-connection}
-
-1. IMS を使用した接続を有効にするには、コンソールの接続ウィンドウで「**[!UICONTROL Adobe ID で接続]**」をオンにします。
+1. クライアントコンソールの接続画面を開きます。
+1. 接続を有効にする環境を選択します。
+1. 次を確認します。 **[!UICONTROL Adobe IDとの接続]** 」オプションを選択し、変更を保存します。
 
    ![](assets/ims_1.png)
 
-1. Adobe ID とパスワードを入力します。Adobe Campaign のホーム画面が表示されます。
-
-   ![](assets/ims_2.png)
-
-## IMS 接続の無効化 {#disabling-the-ims-connection}
-
-Adobe ID を使用した接続を無効にするには、接続を切断し、**[!UICONTROL ファイル／接続]**&#x200B;をクリックして、「**[!UICONTROL Adobe ID を使用して接続]**」のチェックを外します。
-
-![](assets/ims_4.png)
+1. この環境に接続する場合は、Adobe IDとパスワードを使用します。

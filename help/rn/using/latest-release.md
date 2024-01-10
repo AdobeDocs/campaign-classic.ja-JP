@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 9083c9c11b6b9c695cc98882e99ceb3cffc20ec7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2258'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -120,13 +120,13 @@ _2023年9月7日（PT）_
 
 >[!AVAILABILITY]
 >
->お使いの環境に他のパッチが適用されていない場合は、このバージョンで特定の Campaign v7.3.3.IMS パッチアップグレードを使用できます。 これがもたらす [v7.3.5 に伴うAdobeIdentity Managementシステム (IMS) セキュリティアップデート](#release-7-3-5-security) を既存の v7.3.3 環境に追加する。
+>環境に他のパッチが適用されていない場合、このバージョンでは特定の Campaign v7.3.3.IMS パッチアップグレードを使用できます。これにより、[v7.3.5 に伴う Adobe Identity Management System（IMS）セキュリティの更新](#release-7-3-5-security)が既存の v7.3.3 環境に適用されます。
 
 
 _2023年3月20日（PT）_
 
 
-### セキュリティ強化 {#release-7-3-3-security}
+### セキュリティの強化 {#release-7-3-3-security}
 
 * Tomcat は、セキュリティを最適化するために、バージョン 8.5.81 から 8.5.85 に更新されました。（NEO-56936）
 

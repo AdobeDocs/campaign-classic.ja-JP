@@ -2,10 +2,10 @@
 title: Campaign オペレーターの Adobe Identity Management System（IMS）への移行
 description: Campaign オペレーターの Adobe Identity Management System（IMS）への移行方法を説明します
 exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
-source-git-commit: 9083c9c11b6b9c695cc98882e99ceb3cffc20ec7
-workflow-type: ht
-source-wordcount: '1221'
-ht-degree: 100%
+source-git-commit: da35a3050d838cd8e57bf802dc066e32f22f8273
+workflow-type: tm+mt
+source-wordcount: '1223'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ Campaign Classic では、すべての標準ユーザーは、Adobe Identity Man
 
 * Campaign v7.3.5（推奨）
 * Campaign v7.3.3.IMS
-  <!--* Campaign v7.3.2.IMS-->
+* Campaign v7.3.2.IMS
 
 これらの Campaign のバージョンについて詳しくは、[リリースノート](../../rn/using/latest-release.md)を参照してください。
 

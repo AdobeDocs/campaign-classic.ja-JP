@@ -10,16 +10,16 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
 source-git-commit: 49271e291953483ee14709b26ec053217a336718
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # IMS のトラブルシューティング{#ims-troubleshooting}
 
 
-次のトラブルシューティングのヒントが役立ちます **オンプレミス** および **ハイブリッド** のお客様は、IMS 統合を使用する際に発生する最も一般的な問題を解決します。 **ホスト版**&#x200B;のお客様は、アドビにお問い合わせください。
+以下で紹介するトラブルシューティングのヒントは、**オンプレミス版**&#x200B;および&#x200B;**ハイブリッド版**&#x200B;のお客様が IMS 統合を使用する際によく発生する問題を解決するのに役立ちます。**ホスト版**&#x200B;のお客様は、アドビにお問い合わせください。
 
 **外部アカウント**
 

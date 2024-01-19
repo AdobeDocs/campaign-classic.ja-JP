@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: da35a3050d838cd8e57bf802dc066e32f22f8273
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2295'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -157,9 +157,9 @@ _2023年3月20日（PT）_
 
 >[!AVAILABILITY]
 >
->お使いの環境に他のパッチが適用されていない場合は、このバージョンで特定の Campaign v7.3.2.IMS パッチアップグレードを使用できます。 これにより、[v7.3.5 に伴う Adobe Identity Management System（IMS）セキュリティの更新](#release-7-3-5-security)が既存の v7.3.3 環境に適用されます。
+>環境に他のパッチが適用されていない場合、このバージョンでは特定の Campaign v7.3.2.IMS パッチアップグレードを使用できます。これにより、[v7.3.5 に伴う Adobe Identity Management System（IMS）セキュリティの更新](#release-7-3-5-security)が既存の v7.3.3 環境に適用されます。
 
-_2022年11月21日（PT）_
+_2022 年 11 月 21 日（PT）_
 
 ### 互換性の更新 {#release-7-3-2-compat}
 

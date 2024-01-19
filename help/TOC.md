@@ -3,13 +3,13 @@ audience: end-user
 breadcrumb-title: Campaign Classic v7 ドキュメント
 product: campaign
 title: Campaign Classic v7 ガイド
-user-guide-description: Adobe Campaign Classic v7 の製品ドキュメント。
+user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: cb1f079fbb7af6bb6645aae86261ca723fd97c3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2524'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

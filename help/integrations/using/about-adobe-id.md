@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Adobe IDを使用してAdobe Campaignに接続
-description: Adobe CampaignでのAdobe IMS実装の詳細
+title: Adobe ID を使用して Adobe Campaign に接続
+description: Adobe Campaign での Adobe IMS 実装について詳しく説明します
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 audience: integrations
@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
 source-git-commit: 49271e291953483ee14709b26ec053217a336718
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 60%
 
 Adobe Identity Management システム（IMS）は、管理者がアプリケーションやサービスへのユーザーのアクセスを作成および管理するのに役立ちます。各種 Adobe ID の詳細については、[こちらのページ](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
 
-Campaign ユーザーは、 [ネイティブユーザー/パスワード認証](../../platform/using/access-management-operators.md). この実装には、次のメリットがあります。
+Campaign ユーザーは、[ネイティブのユーザー／パスワード認証](../../platform/using/access-management-operators.md)の代わりに、Adobe ID を使用して Adobe Campaign コンソールに接続できます。この実装には、次のメリットがあります。
 
 * Experience Cloud のすべてのソリューションに同じ ID を使用できます。
-* 様々な統合でAdobe Campaignを使用する場合、接続は維持されます。
-* ネイティブのログイン/パスワードよりも、パスワード管理ポリシーの方が安全です。
-* Federated ID アカウント（外部の ID プロバイダー）を使用します。
+* Adobe Campaign を様々な統合で使用する場合にも、接続は保持されます。
+* ネイティブのログイン／パスワードより安全なパスワード管理ポリシーです。
+* Federated ID アカウント（外部の ID プロバイダー）の使用。
 
 <!--
 >[!IMPORTANT]
@@ -43,6 +43,6 @@ Campaign ユーザーは、 [ネイティブユーザー/パスワード認証](
 
 | 便利なページ | その他のリソース |
 |---|---|
-| [IMS の設定](../../integrations/using/configuring-ims.md) | [Experience Cloud に関する FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja) |
+| [IMS の設定](../../integrations/using/configuring-ims.md) | [Experience Cloud に関する FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=ja) |
 | [IMS の実装](../../integrations/using/implementing-ims.md) | [アクセス管理](../../platform/using/access-management.md) |
 | [IMS のトラブルシューティング](../../integrations/using/ims-troubleshooting.md) | [キャンペーンパッケージのインストール](../../installation/using/installing-campaign-standard-packages.md) |

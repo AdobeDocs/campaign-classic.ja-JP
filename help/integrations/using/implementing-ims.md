@@ -10,22 +10,22 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823
 source-git-commit: 49271e291953483ee14709b26ec053217a336718
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '83'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 # IMS の実装{#implementing-ims}
 
-1 回 [IMS 設定](configuring-ims.md) が完了したら、接続を有効にできます。
+[IMS 設定](configuring-ims.md)が完了したら、接続を有効にすることができます。
 
-Adobe Campaignで IMS 認証モードを有効にするには、次の手順に従います。
+Adobe Campaign で IMS 認証モードを有効にするには、次の手順に従います。
 
 1. クライアントコンソールの接続画面を開きます。
-1. 接続を有効にする環境を選択します。
-1. 次を確認します。 **[!UICONTROL Adobe IDとの接続]** 」オプションを選択し、変更を保存します。
+1. 接続を有効にする必要がある環境を選択します。
+1. 「**[!UICONTROL Adobe ID で接続]**」オプションをオンにして、変更を保存します。
 
    ![](assets/ims_1.png)
 
-1. この環境に接続する場合は、Adobe IDとパスワードを使用します。
+1. この環境に接続する際は、Adobe ID とパスワードを使用します。

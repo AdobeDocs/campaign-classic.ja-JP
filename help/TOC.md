@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: cb1f079fbb7af6bb6645aae86261ca723fd97c3a
-workflow-type: ht
-source-wordcount: '2524'
-ht-degree: 100%
+source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
+workflow-type: tm+mt
+source-wordcount: '2536'
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,9 @@ ht-degree: 100%
       + [ファイルの添付](delivery/using/attaching-files.md)
    + SMS の送信 {#sending-messages-on-mobiles}
       + [SMS の基本を学ぶ](delivery/using/sms-channel.md)
-      + [SMS チャネルの設定](delivery/using/sms-set-up.md)
+      + SMS チャネルの設定 {#sms-set-up}
+         + [スタンドアロンインスタンスでの SMS の設定](delivery/using/sms-set-up.md)
+         + [ミッドソーシングインフラストラクチャでの SMS の設定](delivery/using/sms-set-up-mid.md)
       + [SMS の作成](delivery/using/sms-create.md)
       + [SMS の送信とトラッキング](delivery/using/sms-send.md)
       + [SMS コネクタのプロトコルと設定](delivery/using/sms-protocol.md)

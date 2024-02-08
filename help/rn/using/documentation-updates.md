@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3722'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
 ダイレクトメールのデフォルトの postalAddress フィールドの定義方法と、アドレスが完全であることを確認することが重要な理由に関する情報を追加しました。[詳細情報](../../delivery/using/about-direct-mail-channel.md)
 
-ミッドソーシングインフラストラクチャでの Campaign での SMS チャネルの設定方法に関する新しいページを追加しました。 [詳細情報](../../delivery/using/sms-set-up-mid.md)
+ミッドソーシングインフラストラクチャでの Campaign の SMS チャネルを設定する方法に関する新しいページを追加しました。[詳細情報](../../delivery/using/sms-set-up-mid.md)
 
 ## 2023
 

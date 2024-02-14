@@ -9,16 +9,14 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: a2106e55617209f28da42c50008d16188563b2da
-workflow-type: ht
-source-wordcount: '570'
+source-git-commit: 58998fa2480a33776507a434ed846541ac19e58b
+workflow-type: tm+mt
+source-wordcount: '539'
 ht-degree: 100%
 
 ---
 
 # ファイルの圧縮または暗号化 {#zipping-or-encrypting-a-file}
-
-
 
 Adobe Campaign では、圧縮されたファイルや暗号化されたファイルをエクスポートできます。「**[!UICONTROL データ抽出（ファイル）]**」アクティビティを通じてエクスポートを定義する際にファイルを圧縮または暗号化する後処理を定義できます。
 

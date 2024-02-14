@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 3db5242e2074c6d0530258073ae83c11164d7365
-workflow-type: ht
-source-wordcount: '772'
-ht-degree: 100%
+source-git-commit: e430978dd182eaea082122ef748118e5210b05d5
+workflow-type: tm+mt
+source-wordcount: '805'
+ht-degree: 96%
 
 ---
 
@@ -41,6 +41,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr> 
 <td>CentOS</td>
 <td>
+<p>8.x（ハイブリッド環境の場合のみ）</p>
 <p>7.x</p>
 <p><strong>重要</strong>：RHEL を使用する場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させ、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。</p>
 </td>
@@ -77,7 +78,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>10.0（Windows Server 2016）および 2019</p>
+<p>Windows Server 2016 および 2019 上の 10.0</p>
 </td>
 </tr>
 <tr>
@@ -353,7 +354,7 @@ Adobe Campaign [Federated Data Access モジュール](../../installation/using/
 
 ### Microsoft WebView2 ランタイム
 
-Microsoft Edge WebView2 ランタイム最新バージョンは、Campaign クライアントコンソールに必須です。
+Microsoft Edge WebView2 ランタイムの最新バージョンは、Campaign クライアントコンソールに必須です。
 
 [Microsoft Developer サイト](https://www.adobe.com/go/acc-ms-webview2-runtime-download_jp)から Microsoft Edge WebView2 をダウンロードします。
 

@@ -6,10 +6,10 @@ role: User
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '1559'
-ht-degree: 100%
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
+source-wordcount: '1557'
+ht-degree: 97%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 100%
 
 ![](assets/campaign_op_add_delivery.png)
 
-各種の配信（ダイレクトメール、E メール、モバイルチャネル）に適した設定が提示されます。[詳細情報](../../delivery/using/steps-about-delivery-creation-steps.md)。
+各種の配信（ダイレクトメール、メール、モバイルチャネル）に適した設定が提示されます。[詳細情報](../../delivery/using/steps-about-delivery-creation-steps.md)。
 
 ## 配信を開始 {#starting-a-delivery}
 
-すべての承認が許可されたら、配信をいつでも開始できます。これ以降の配信手順は、配信の種類によって異なります。E メールまたはモバイルチャネルの配信については、[オンライン配信の開始](#starting-an-online-delivery)を、ダイレクトメール配信については、[オフライン配信の開始](#starting-an-offline-delivery)を参照してください。
+すべての承認が許可されたら、配信をいつでも開始できます。これ以降の配信手順は、配信の種類によって異なります。メールまたはモバイルチャネルの配信については、[オンライン配信の開始](#starting-an-online-delivery)を、ダイレクトメール配信については、[オフライン配信の開始](#starting-an-offline-delivery)を参照してください。
 
 ### オンライン配信を開始 {#starting-an-online-delivery}
 
-すべての承認リクエストが許可されたら、配信ステータスが「**[!UICONTROL 確認待ち]**」に変わり、オペレーターによって開始できるようになります。必要に応じて、配信を開始するレビュー担当者として割り当てられている Adobe Campaign オペレーター（またはオペレーターのグループ）に、配信をいつでも開始できることが通知されます。
+すべての承認リクエストが許可されたら、配信ステータスが「**[!UICONTROL 確認保留]**」に変わり、オペレーターによって開始できるようになります。必要に応じて、配信を開始するレビュー担当者として割り当てられている Adobe Campaign オペレーター（またはオペレーターのグループ）に、配信をいつでも開始できることが通知されます。
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->コスト計算と在庫管理について詳しくは、[プロバイダー、在庫、予算](../../campaign/using/providers--stocks-and-budgets.md)を参照してください。
+>コスト計算と在庫管理について詳しくは、[プロバイダー、在庫、予算](../../campaign/using/providers-stocks-and-budgets.md)を参照してください。
 
 ## 関連付けられたドキュメントの管理 {#managing-associated-documents}
 
@@ -189,7 +189,7 @@ ht-degree: 100%
 概要には、項目、パーソナライゼーションフィールド、リソースおよびオファーを含めることができます。
 
 * 項目には、ここで参照および記述し、配信に添付する物理的なドキュメントなどを指定できます。
-* パーソナライゼーションフィールドを使用して、受信者ではなく配信に関連したパーソナライゼーション要素を作成できます。これにより、特定のターゲット向けの配信（ウェルカムオファーやディスカウントなど）で使用する値を作成できます。こうした値は Adobe Campaign で作成し、「**[!UICONTROL パーソナライゼーションフィールドをインポート...]**」リンクから概要にインポートします。
+* パーソナライゼーションフィールドを使用して、受信者ではなく配信に関連したパーソナライゼーション要素を作成できます。したがって、特定のターゲットの配信（ようこそオファー、割引など）に使用する値を作成できます。 これらはAdobe Campaignで作成され、を使用して概要にインポートされます。 **[!UICONTROL パーソナライゼーションフィールドをインポート…]** リンク。
 
   ![](assets/s_ncs_user_op_add_composition_field.png)
 
@@ -227,7 +227,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_op_composition_in_export_template.png)
 
-エクスポートモデルは、該当する配信用に選択されたサービスプロバイダーに関連付ける必要があります。[サービスプロバイダーとそのコスト構造の作成](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)を参照してください。
+エクスポートモデルは、該当する配信用に選択されたサービスプロバイダーに関連付ける必要があります。[サービスプロバイダーとそのコスト構造の作成](../../campaign/using/providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)を参照してください。
 
 >[!NOTE]
 >

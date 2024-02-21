@@ -6,10 +6,10 @@ role: User
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
 source-wordcount: '791'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 概要には、項目、パーソナライゼーションフィールド、リソースおよびオファーを含めることができます。
 
 * 項目には、ここで参照および記述し、配信に添付する物理的なドキュメントなどを指定できます。
-* パーソナライゼーションフィールドを使用して、受信者ではなく配信に関連したパーソナライゼーション要素を作成できます。これにより、特定のターゲット向けの配信（ウェルカムオファーやディスカウントなど）で使用する値を作成できます。こうした値は Adobe Campaign で作成し、「**[!UICONTROL パーソナライゼーションフィールドをインポート...]**」リンクから概要にインポートします。
+* パーソナライゼーションフィールドを使用して、受信者ではなく配信に関連したパーソナライゼーション要素を作成できます。したがって、特定のターゲットの配信（ようこそオファー、割引など）に使用する値を作成できます。 これらはAdobe Campaignで作成され、を使用して概要にインポートされます。 **[!UICONTROL パーソナライゼーションフィールドをインポート…]** リンク。
 
   ![](assets/s_ncs_user_op_add_composition_field.png)
 
@@ -126,7 +126,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_op_composition_in_export_template.png)
 
-エクスポートモデルは、該当する配信用に選択されたサービスプロバイダーに関連付ける必要があります。[この節](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)を参照してください。
+エクスポートモデルは、該当する配信用に選択されたサービスプロバイダーに関連付ける必要があります。[この節](../../campaign/using/providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)を参照してください。
 
 >[!NOTE]
 >

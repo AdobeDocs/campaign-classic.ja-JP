@@ -5,10 +5,10 @@ description: クエリワークフローアクティビティの詳細を説明�
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Targeting Activity, Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '1699'
-ht-degree: 100%
+source-wordcount: '1701'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 ![](assets/wf_add_data_1st_option.png)
 
 * 「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」を選択し、Adobe Campaign データベース内のデータを選択します。
-* 「**[!UICONTROL 外部データ]**」を選択し、外部データベース内のデータを追加します。このオプションは、**Federated Data Access** オプションを購入済みである場合のみ、使用できます。詳しくは、[外部データベースへのアクセス（FDA）](accessing-an-external-database--fda-.md)を参照してください。
+* 「**[!UICONTROL 外部データ]**」を選択し、外部データベース内のデータを追加します。このオプションは、**Federated Data Access** オプションを購入済みである場合のみ、使用できます。詳しくは、[外部データベースへのアクセス（FDA）](accessing-an-external-database-fda.md)を参照してください。
 * 「**[!UICONTROL オファーの提案]**」オプションを選択し、オファーエンジンによって生成された最良の提案を保存する列セットを追加します。このオプションは、**インタラクション**&#x200B;モジュールを購入済みである場合のみ、使用できます。
 
 プラットフォームにオプションモジュールが何もインストールされていない場合、このステージは表示されません。次のステージに直接移動します。
@@ -114,7 +114,7 @@ Adobe Campaign データベースからデータを追加するには：
      >初期の条件が考慮されない場合、結果は不完全なものになります（行が不足または重複）。
 
    * 複数行を収集を選択した場合（「**[!UICONTROL ライン数を制限]**」）、収集する行数を指定できます。
-   * 宣言されたエラーの数や、サイトでの平均購入額など、収集した列に集計が含まれる場合、「**[!UICONTROL 集計]**」値を使用できます。
+   * 宣言されたエラーの数や、サイトでの平均購入額など、収集した列に集計が含まれる場合。 以下を使用できます。 **[!UICONTROL 集計]** の値です。
 
    ![](assets/query_add_collection_param.png)
 

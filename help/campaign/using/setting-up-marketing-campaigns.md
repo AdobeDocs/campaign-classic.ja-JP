@@ -6,10 +6,10 @@ role: User
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '1301'
-ht-degree: 100%
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
+source-wordcount: '1296'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 1. 配信を監視します。 [詳細情報](../../campaign/using/marketing-campaign-monitoring.md)。
 
-1. キャンペーンと関連コストを計画します。 [詳細情報](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)。
+1. キャンペーンと関連コストを計画します。 [詳細情報](../../campaign/using/providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)。
 
 これらの手順が完了したら、配信を開始し（[こちらの節](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)を参照）、配信に関連するデータ、プロセス、情報を確認し、必要に応じて関連ドキュメントを管理できます（[こちらの節](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)を参照）。 キャンペーンと配信の処理フェーズの実行を追跡することもできます（[こちらの節](../../campaign/using/marketing-campaign-monitoring.md)を参照）。
 
@@ -153,7 +153,7 @@ ht-degree: 100%
 
    行ごとに、以下のオプションを追加できます。
 
-   * **[!UICONTROL 承認用に送信]**：ワークフローで配信承認リクエストを実施できます。.
+   * **[!UICONTROL 承認待ち]** ：ワークフローで配信承認リクエストを強制できます。
    * **[!UICONTROL 自動で開始]**：開始日になるとワークフローを開始できます。
 
    「**[!UICONTROL 事前に作成]**」フィールドを使用して、入力した期間を対象とするワークフローをすべて作成できます。

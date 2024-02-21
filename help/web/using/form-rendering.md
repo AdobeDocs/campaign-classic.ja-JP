@@ -6,7 +6,7 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用�
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 100%
@@ -156,7 +156,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 変数]**&#x200B;サブツリーには、このフォームで使用可能な変数が含まれます。詳しくは、[ローカル変数へのデータの格納](web-forms-answers.md#storing-data-in-a-local-variable)を参照してください。
 
-詳しくは、[選択した値に応じた異なるオプションの表示](use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values)で説明されている使用例を参照してください。
+詳しくは、[選択した値に応じた異なるオプションの表示](use-cases-web-forms.md#displaying-different-options-depending-on-the-selected-values)で説明されている使用例を参照してください。
 
 また、**[!UICONTROL テスト]**&#x200B;オブジェクトを使用するフォームページの表示に条件を設定することもできます。詳しくは、この[ページ](defining-web-forms-page-sequencing.md#conditional-page-display)を参照してください。
 

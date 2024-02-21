@@ -6,9 +6,9 @@ feature: Configuration
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '336'
 ht-degree: 2%
 
 ---
@@ -126,7 +126,7 @@ Web ページが動的に生成される場合、ページ生成時に Web ト�
 
 リダイレクトサーバーに送信される情報を制御する場合、最も信頼性の高い方法は、ページ生成言語を使用して HTTP クエリを同期的に実行することです。
 
-作成する URL は、 [Web トラッキングタグ：定義](../../configuration/using/web-tracking-tag--definition.md).
+作成する URL は、 [Web トラッキングタグ：定義](../../configuration/using/web-tracking-tag-definition.md).
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 

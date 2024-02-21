@@ -7,7 +7,7 @@ role: Data Engineer, Developer
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 3%
@@ -54,7 +54,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
 * コンテンツ管理
 
-  このフォームタイプをコンテンツ管理に使用します。 詳しくは、 [使用例](../../delivery/using/use-case--creating-content-management.md).
+  このフォームタイプをコンテンツ管理に使用します。 詳しくは、 [使用例](../../delivery/using/use-case-creating-content-management.md).
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
@@ -154,7 +154,7 @@ Formsは `xtk:form` タイプ。 入力フォームの構造は、 `xtk:form` �
 
 画像をフォーム内の要素（アイコンなど）に関連付けるには、画像への参照を追加します。 以下を使用します。 `img` 属性 ( 例： `<container>` 要素を選択します。
 
-構文: `img="`*`namespace`*`:`*`filename`*`.`*`extension`*`"`
+構文： `img="`*`namespace`*`:`*`filename`*`.`*`extension`*`"`
 
 この例では、 `book.png` および `detail.png` 画像 `ncm` 名前空間：
 

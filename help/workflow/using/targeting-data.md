@@ -5,9 +5,9 @@ description: ワークフローでのデータのターゲティングについ�
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Query Editor, Data Management, Workflows
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
-source-wordcount: '2036'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
+source-wordcount: '2033'
 ht-degree: 100%
 
 ---
@@ -200,7 +200,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >**Federated Data Access** オプションを購入している場合、外部データベース内に含まれる情報に基づいて、サブセットを作成できます。それには「**[!UICONTROL ターゲティングディメンション]**」フィールド内で、外部テーブルのスキーマを選択します。詳しくは、[外部データベースへのアクセス（FDA）](accessing-an-external-database--fda-.md)を参照してください。
+   >**Federated Data Access** オプションを購入している場合、外部データベース内に含まれる情報に基づいて、サブセットを作成できます。それには「**[!UICONTROL ターゲティングディメンション]**」フィールド内で、外部テーブルのスキーマを選択します。詳しくは、[外部データベースへのアクセス（FDA）](accessing-an-external-database-fda.md)を参照してください。
 
 サブセットが作成されたら、分割アクティビティは、デフォルトでサブセットと同数の出力トランジションを表示します。
 
@@ -242,7 +242,7 @@ Adobe Campaign では、より効率的で柔軟なツールを提供するこ�
 
 これらの操作を実装するために、Adobe Campaign は以下を提供します。
 
-* データ収集アクティビティは、[ファイル転送](file-transfer.md)、[データ読み込み（ファイル）](data-loading--file-.md)、[データ読み込み（RDBMS）](data-loading--rdbms-.md)、[データ更新](update-data.md)です。データ収集の最初の手順では、その他のアクティビティ内で処理するためにデータを準備します。ワークフローを正確に実行し、予測した結果が確実に得られるようにするには、複数のパラメーターを監視する必要がります。例えば、データをインポートする場合、データのプライマリキー（Pkey）は、レコードごとに一意である必要があります。
+* データ収集アクティビティは、[ファイル転送](file-transfer.md)、[データ読み込み（ファイル）](data-loading-file.md)、[データ読み込み（RDBMS）](data-loading-rdbms.md)、[データ更新](update-data.md)です。データ収集の最初の手順では、その他のアクティビティ内で処理するためにデータを準備します。ワークフローを正確に実行し、予測した結果が確実に得られるようにするには、複数のパラメーターを監視する必要がります。例えば、データをインポートする場合、データのプライマリキー（Pkey）は、レコードごとに一意である必要があります。
 * ターゲティングアクティビティを強化するデータ管理オプションは、[クエリ](query.md)、[和集合](union.md)、[積集合](intersection.md)、[分割](split.md)です。これにより、データの紐付けが可能な場合、様々なターゲティングディメンションから和集合または積集合を設定できます。
 * データ変換アクティビティは、[エンリッチメント](enrichment.md)、[ディメンションを変更](change-dimension.md)です。
 

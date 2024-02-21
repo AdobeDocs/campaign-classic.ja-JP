@@ -8,8 +8,8 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '348'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Adobe Campaign でオムニチャネルメッセージをデザインするた�
 
 ## Campaign でメールをデザインする際の具体的なガイドラインはありますか？ {#are-there-specific-guidelines-when-designing-emails-with-campaign-}
 
-E メールのデザインを始める前に、配信のデザインと Adobe Campaign での送信に関する概念とベストプラクティスを理解しておくことをお勧めします。
+メールのデザインを始める前に、配信のデザインと Adobe Campaign での送信に関する概念とベストプラクティスを理解しておくことをお勧めします。
 
 [詳しくはここをクリック](../../delivery/using/delivery-best-practices.md)してください。
 
@@ -41,7 +41,7 @@ Adobe Campaign で電子メールを作成して送信するために、既存�
 
 ## Campaign DCE を使用してメールのコンテンツを作成する方法は？ {#how-to-use-campaign-dce-to-create-an-email-content-}
 
-[Campaign デジタルコンテンツエディターでのメールのデザイン](../../web/using/use-case--creating-an-email-delivery.md)では、Campaign DCE を使用してメールをデザインする方法を、例を通して説明しています。
+[Campaign デジタルコンテンツエディターでのメールのデザイン](../../web/using/use-case-creating-an-email-delivery.md)では、Campaign DCE を使用してメールをデザインする方法を、例を通して説明しています。
 
 ## 購読ベースのニュースレターを Campaign で作成するにはどうすればよいですか？ {#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
 

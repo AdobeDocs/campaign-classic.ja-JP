@@ -6,8 +6,8 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '268'
 ht-degree: 100%
 
@@ -48,13 +48,13 @@ DCE を使用すると、ページ要素の挿入や書式設定、HTML ペー�
 >
 >Web アプリケーションのコンテキストでの完全な実装例については、[こちらの節](creating-a-landing-page.md)を参照してください。
 
-**E メール配信**&#x200B;を作成するには、次の操作が必要です。
+**メール配信**&#x200B;を作成するには、次の操作が必要です。
 
-1. DCE テンプレートから配信を作成します（[詳細情報](use-case--creating-an-email-delivery.md)）
+1. DCE テンプレートから配信を作成します（[詳細情報](use-case-creating-an-email-delivery.md)）
 1. 既存のコンテンツを選択するか、[標準テンプレート](template-management.md)からコンテンツを作成します
 1. オンラインコンテンツの編集と設定をおこないます
 1. 配信を送信します（[詳細情報](../../delivery/using/steps-about-delivery-creation-steps.md)）
 
 >[!NOTE]
 >
->E メール配信のコンテキストでの完全な実装例については、[こちらのユースケース](use-case--creating-an-email-delivery.md)を参照してください。
+>メール配信のコンテキストでの完全な実装例については、[こちらのユースケース](use-case-creating-an-email-delivery.md)を参照してください。

@@ -9,8 +9,8 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '279'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ワークフロー内で処理されるデータは、Adobe Campaign にインポートできるように、構造化ファイルから抽出することができます。
 
-データアクティビティの読み込みについて詳しくは、[データ読み込み（ファイル）](../../workflow/using/data-loading--file-.md)の節を参照してください。
+データアクティビティの読み込みについて詳しくは、[データ読み込み（ファイル）](../../workflow/using/data-loading-file.md)の節を参照してください。
 
 インポートする構造化ファイルの例：
 
@@ -54,4 +54,4 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 ワークフローは、エクスポート処理の一部を自動化したり、データの変換に使用できるデータ管理アクティビティの一部を使用した後に正確なデータセットをエクスポートしたりするための有効な手段になります。
 
-エクスポート操作は、**[!UICONTROL データ抽出（ファイル）アクティビティ]**&#x200B;を使用して実行されます。 アクティビティの設定と使用方法について詳しくは、[こちらのページ](../../workflow/using/extraction--file-.md)を参照してください。
+エクスポート操作は、**[!UICONTROL データ抽出（ファイル）アクティビティ]**&#x200B;を使用して実行されます。 アクティビティの設定と使用方法について詳しくは、[こちらのページ](../../workflow/using/extraction-file.md)を参照してください。

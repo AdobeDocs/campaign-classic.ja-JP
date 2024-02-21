@@ -9,8 +9,8 @@ audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -34,4 +34,4 @@ ht-degree: 100%
 
   ![](assets/s_ncs_configuration_offer_context.png)
 
-* SOAP 呼び出しを設定する際に、**context** XML 要素を挿入し、インタラクションスキーマに追加されたコンテキスト情報を参照します。詳しくは、[SOAP による統合（サーバーサイド）](../../interaction/using/integration-via-soap--server-side-.md)を参照してください。
+* SOAP 呼び出しを設定する際に、**context** XML 要素を挿入し、インタラクションスキーマに追加されたコンテキスト情報を参照します。詳しくは、[SOAP による統合（サーバーサイド）](../../interaction/using/integration-via-soap-server-side.md)を参照してください。

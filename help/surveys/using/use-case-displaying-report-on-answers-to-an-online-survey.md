@@ -1,10 +1,10 @@
 ---
 product: campaign
-title: 「ユースケース：オンライン調査への回答に関するレポートの表示」
-description: 「ユースケース：オンライン調査への回答に関するレポートの表示」
+title: "ユースケース：オンライン調査への回答に関するレポートの表示"
+description: "ユースケース：オンライン調査への回答に関するレポートの表示"
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
-feature: Reporting, Monitoring, Surveys
+feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: ht
@@ -41,23 +41,23 @@ ht-degree: 100%
 1. このアクティビティを編集し、分析対象となる回答が得られた調査を選択します。
 1. 「**[!UICONTROL すべての回答データを選択]**」オプションを有効にして、すべての情報を収集します。
 
-   ![](../../surveys/using/assets/reporting_usecase_1_01.png)
+   ![](assets/reporting_usecase_1_01.png)
 
 1. 抽出する列を選択します（この例では、アーカイブされたフィールドをすべて選択します）。これらが、回答が含まれるフィールドになります。
 
-   ![](../../surveys/using/assets/reporting_usecase_1_02.png)
+   ![](assets/reporting_usecase_1_02.png)
 
 1. 回答収集ボックスを設定したら、データを保存するための&#x200B;**[!UICONTROL リスト更新]**&#x200B;タイプのアクティビティを追加します。
 
-   ![](../../surveys/using/assets/reporting_usecase_1_04.png)
+   ![](assets/reporting_usecase_1_04.png)
 
    このアクティビティで、更新するリストを指定し、「**[!UICONTROL 存在する場合、リストをパージして再利用 (存在しない場合、リストに追加)]**」オプションのチェックをオフにします。回答は既存のテーブルに追加されます。このオプションを選択すると、キューブ内のリストを参照できるようになります。このリストにリンクされたスキーマは、更新のたびに再生成されることはありません。これにより、このリストを使用しているキューブの整合性が保証されます。
 
-   ![](../../surveys/using/assets/reporting_usecase_1_03.png)
+   ![](assets/reporting_usecase_1_03.png)
 
 1. ワークフローを開始して、その設定を確認します。
 
-   ![](../../surveys/using/assets/reporting_usecase_1_05.png)
+   ![](assets/reporting_usecase_1_05.png)
 
    指定されたリストが作成され、その中に、調査への回答のスキーマが格納されています。
 
@@ -71,11 +71,11 @@ ht-degree: 100%
 
 この例では、キューブは、先ほど作成したワークフローから提供されるリスト内のデータに基づいています。
 
-![](../../surveys/using/assets/reporting_usecase_2_01.png)
+![](assets/reporting_usecase_2_01.png)
 
 ディメンションと、レポートに表示する測定を定義します。ここでは、回答者の契約日と国名を表示します。
 
-![](../../surveys/using/assets/reporting_usecase_2_02.png)
+![](assets/reporting_usecase_2_02.png)
 
 「**[!UICONTROL プレビュー]**」タブでは、レポートのレンダリングを制御できます。
 
@@ -83,8 +83,8 @@ ht-degree: 100%
 
 次に、このキューブに基づくレポートを作成し、データと情報を処理します。
 
-![](../../surveys/using/assets/reporting_usecase_3_01.png)
+![](assets/reporting_usecase_3_01.png)
 
 表示する情報を必要に応じて調整します。
 
-![](../../surveys/using/assets/reporting_usecase_3_02.png)
+![](assets/reporting_usecase_3_02.png)

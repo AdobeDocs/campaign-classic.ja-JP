@@ -8,9 +8,9 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
-source-wordcount: '1039'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
+source-wordcount: '1044'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 カタログオファーのコンテンツは、オファースペースで設定します。デフォルトでは、コンテンツに含めることができるフィールドは、**[!UICONTROL タイトル]**、**[!UICONTROL 宛先 URL]**、**[!UICONTROL 画像 URL]**、**[!UICONTROL HTML コンテンツ]**&#x200B;および&#x200B;**[!UICONTROL テキストコンテンツ]**&#x200B;です。フィールドの順序は、オファースペースで設定します。
 
-詳細設定パラメーターでは、コンタクト先の識別キーを指定できます（識別キーは、名前や E メールフィールドなど、様々な要素を同時に使用して作成できます）。詳しくは、[識別されたオファーの提示](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer)の節を参照してください。
+詳細設定パラメーターでは、コンタクト先の識別キーを指定できます（識別キーは、名前やメールフィールドなど、様々な要素を同時に使用して作成できます）。詳しくは、[識別されたオファーの提示](../../interaction/using/integration-via-javascript-client-side.md#presenting-an-identified-offer)の節を参照してください。
 
 レンダリング関数を使用して、HTML レンダリングまたは XML レンダリングが作成されます。レンダリング関数で定義するフィールドの順序は、コンテンツに設定した順序と同じである必要があります。
 

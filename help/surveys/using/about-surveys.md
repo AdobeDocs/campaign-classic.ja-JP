@@ -6,8 +6,8 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用�
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '547'
 ht-degree: 100%
 
@@ -41,8 +41,8 @@ Adobe Campaign では、[web アプリケーション](../../web/using/about-web
 * パーソナライゼーションの追加とフィールド位置の定義
 * 回答に応じた調査フィールドの条件付き表示
 * ページの条件付き表示
-* 想定されるデータのタイプ（番号、E メールアドレス、日付など）と必須フィールドに応じた承認前の情報確認
-* E メールの招待状／通知の送信
+* 想定されるデータのタイプ（番号、メールアドレス、日付など）と必須フィールドに応じた承認前の情報確認
+* メールの招待状／通知の送信
 * エラーページと終了ページのパーソナライズ
 * フォームへの画像、ビデオ、ハイパーテキストリンク、Captcha などの追加
 
@@ -51,8 +51,8 @@ Adobe Campaign では、[web アプリケーション](../../web/using/about-web
 * データベースの動的な拡張：初期のデータモデルに含まれていない回答の作成。[詳細情報](../../surveys/using/managing-answers.md#storing-collected-answers)
 * スコア管理。[詳細情報](../../surveys/using/managing-answers.md#score-management)
 * 質問のランダム表示[詳細情報](../../surveys/using/building-a-survey.md#adding-questions)
-* 回答のリアルタイムトラッキング[詳細情報](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking)
-* 専用レポートの生成。[詳細情報](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys)
+* 回答のリアルタイムトラッキング[詳細情報](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking)
+* 専用レポートの生成。[詳細情報](../../surveys/using/publish-track-and-use-collected-data.md#reports-on-surveys)
 
 
 ## 実装手順 {#surveys-implementation-steps}

@@ -9,8 +9,8 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: 58998fa2480a33776507a434ed846541ac19e58b
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '539'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 **関連トピック：**
 
 * [処理前のファイルの解凍と復号化](../../platform/using/unzip-decrypt.md)
-* [データ抽出（ファイル）アクティビティ](../../workflow/using/extraction--file-.md)
+* [データ抽出（ファイル）アクティビティ](../../workflow/using/extraction-file.md)
 
 ## ユースケース：コントロールパネルにインストールされたキーを使用したデータの暗号化およびエクスポート {#use-case-gpg-encrypt}
 
@@ -60,7 +60,7 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 1. **[!UICONTROL クエリ]**&#x200B;アクティビティを設定して、目的のデータをデータベースから選択します。詳しくは、[この節](../../workflow/using/query.md)を参照してください。
 
-1. データ&#x200B;**[!UICONTROL 抽出（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関するグローバルな概念については、[こちら](../../workflow/using/extraction--file-.md)を参照してください。
+1. データ&#x200B;**[!UICONTROL 抽出（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関するグローバルな概念については、[こちら](../../workflow/using/extraction-file.md)を参照してください。
 
    ![](assets/gpg-data-extraction.png)
 

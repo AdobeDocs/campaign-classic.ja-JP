@@ -8,8 +8,8 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '1452'
 ht-degree: 100%
 
@@ -195,7 +195,7 @@ Adobe Campaign でパブリッシュするには、適切なワークフロー�
 
 >[!NOTE]
 >
->Adobe Campaign での在庫管理について詳しくは、[在庫管理](../../campaign/using/providers--stocks-and-budgets.md#stock-management)を参照してください。
+>Adobe Campaign での在庫管理について詳しくは、[在庫管理](../../campaign/using/providers-stocks-and-budgets.md#stock-management)を参照してください。
 
 マーケティングリソースを在庫と関連付けるには、在庫マップを編集し、在庫を編集または作成します。在庫品目を追加し、対応するマーケティングリソースを選択します。
 

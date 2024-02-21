@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: ht
 source-wordcount: '1177'
 ht-degree: 100%
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->二重のオプトインを備えた購読フォームを作成する例については、[この節](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in)を参照してください。
+>二重のオプトインを備えた購読フォームを作成する例については、[この節](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)を参照してください。
 
 ## 情報サービスの作成 {#creating-an-information-service}
 

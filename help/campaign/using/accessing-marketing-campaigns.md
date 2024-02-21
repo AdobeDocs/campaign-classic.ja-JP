@@ -6,7 +6,7 @@ role: User
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: ht
 source-wordcount: '1224'
 ht-degree: 100%
@@ -142,7 +142,7 @@ Adobe Campaign では、予算、ターゲット、コンテンツなどを承�
 キャンペーンは、キャンペーンテンプレートから作成します。一部のオプションが選択され、その他の設定が既に保存されている、再利用可能なテンプレートを設定できます。キャンペーンごとに、次の機能が提供されます。
 
 * [ドキュメントとリソース](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)の参照：ドキュメント（概要、レポート、画像など）とキャンペーンを関連付けることができます。あらゆるドキュメントフォーマットをサポートしています。
-* コストの定義：Adobe Campaign では、キャンペーンごとに、[コストエントリと、マーケティングキャンペーン作成時に使用できるコスト計算構造](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories)を定義できます。例えば、印刷コスト、外部エージェンシーの利用、部屋の賃借などがあります。
+* コストの定義：Adobe Campaign では、キャンペーンごとに、[コストエントリと、マーケティングキャンペーン作成時に使用できるコスト計算構造](../../campaign/using/providers-stocks-and-budgets.md#defining-cost-categories)を定義できます。例えば、印刷コスト、外部エージェンシーの利用、部屋の賃借などがあります。
 * 目標の定義：購読者数や取引高など、キャンペーンの定量化可能な目標を定義できます。この情報は、後でキャンペーンレポートに使用されます。
 * [シードアドレス](../../delivery/using/about-seed-addresses.md)と[コントロール母集団](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)を管理します。
 * 承認の管理：承認を得る処理や、必要に応じてレビュー担当のオペレーターまたはオペレーターのグループを選択できます。[詳細情報](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)

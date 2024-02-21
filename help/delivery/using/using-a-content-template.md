@@ -6,8 +6,8 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用�
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '451'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-詳しくは、完全な実装例、[配信ウィザードでのコンテンツの作成](use-case--creating-content-management.md#creating-content-in-the-delivery-wizard)を参照してください。
+詳しくは、完全な実装例、[配信ウィザードでのコンテンツの作成](use-case-creating-content-management.md#creating-content-in-the-delivery-wizard)を参照してください。
 
 ## コンテンツインスタンスの作成 {#creating-a-content-instance}
 

@@ -9,9 +9,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: e612a4e7-f4ef-4db4-afab-5544b73430d3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
-source-wordcount: '376'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
+source-wordcount: '344'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 Adobe Campaign の使用を開始する際は、アドビの直観的な手順ガイドを参照してください。
 
 * [プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)：プライバシーを遵守しながらアドビのサービスを利用するための Adobe Campaign Classic の機能について説明します。
-* [E メールへの動的なコンテンツの統合](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html?lang=ja)：Campaign Classic と Target Standard の統合を開始するための基礎について説明します。
+* [メールへの動的なコンテンツの統合](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-target/inserting-a-dynamic-image.html?lang=ja)：Campaign Classic と Target Standard の統合を開始するための基礎について説明します。
 * [配信品質の管理](../../delivery/using/about-deliverability.md)：配信品質に関する概念とベストプラクティス、配信の送信を最適化するために Adobe Campaign Classic で提供されるツールについて説明します。
 * [配信のベストプラクティス](../../delivery/using/delivery-best-practices.md)：Adobe Campaign Classic での配信のデザインと送信に関するベストプラクティスについて学習します。
 * [ビルドのアップグレードの実行](https://helpx.adobe.com/jp/campaign/kb/acc-build-upgrade.html)：このガイドでは、Campaign Classic でビルドのアップグレードを実行する際の主な手順とベストプラクティスを紹介します。
@@ -33,10 +33,10 @@ Adobe Campaign の使用を開始する際は、アドビの直観的な手順�
 
 Adobe Campaign について詳しくは、以下の使用例と例を確認してください。
 
-* [購読者の E メールフォーマットのフィルターの作成](../../platform/using/use-case.md#creating-a-filter-on-the-email-format-of-subscribers)：受信者の E メールフォーマットに基づいてニュースレターの購読を並べ替えるフィルターの作成方法を説明します。
-* [二重のオプトインを備えた購読フォームの作成](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in)：受信者が意図的に購読したことを確認するために、購読確認リクエストを送信して二重のオプトインを作成する方法を説明します。
-* [E メール配信の作成](../../web/using/use-case--creating-an-email-delivery.md)：デジタルコンテンツエディターを使用した E メール配信を作成する方法を説明します。
-* [概要の作成](../../web/using/use-cases--creating-overviews.md)：概要タイプの web アプリケーションを作成して、データベースのすべての web アプリケーションを表示します。
+* [購読者のメールフォーマットのフィルターの作成](../../platform/using/use-case.md#creating-a-filter-on-the-email-format-of-subscribers)：受信者のメールフォーマットに基づいてニュースレターの購読を並べ替えるフィルターの作成方法を説明します。
+* [二重のオプトインを備えた購読フォームの作成](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)：受信者が意図的に購読したことを確認するために、購読確認リクエストを送信して二重のオプトインを作成する方法を説明します。
+* [メール配信の作成](../../web/using/use-case-creating-an-email-delivery.md)：デジタルコンテンツエディターを使用したメール配信を作成する方法を説明します。
+* [概要の作成](../../web/using/use-cases-creating-overviews.md)：概要タイプの web アプリケーションを作成して、データベースのすべての web アプリケーションを表示します。
 * [ワークフローの使用例](../../workflow/using/about-workflow-use-cases.md)：これらの使用例を通じて、ワークフローの様々な使用方法を示します。
 
 ## セルフヘルプ {#how-to-videos}

@@ -5,8 +5,8 @@ description: フロー制御アクティビティについて
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '241'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 * **待機**：所定の制限時間経過後にアウトバウンドトランジションを有効にします。[待機](wait.md)を参照してください。
 * **時間制限**：一定時間タスクを一時停止します。[時間制限](time-constraint.md)を参照してください。
 * **サブワークフロー**：別のワークフローを実行できます。[サブワークフロー](sub-workflow.md)を参照してください。
-* **ジャンプ**：リンクを使用せずにトランジションを実装できます。[ジャンプ（開始点と終了点）](jump--start-point-and-end-point-.md)を参照してください。
+* **ジャンプ**：リンクを使用せずにトランジションを実装できます。[ジャンプ（開始点と終了点）](jump-start-point-and-end-point.md)を参照してください。
 * **外部シグナル**：アウトバウンドトランジションを有効にします。[外部シグナル](external-signal.md)の節を参照してください 。
 * **承認**：実行を続行するための承認を求めるメールをオペレーターまたはオペレーターのグループに送信し、承認を待機します。[承認](approval.md)の節を参照してください。
 * **アラート**：オペレーターまたはオペレーターグループに警告を送信できます。[アラート](alert.md)の節を参照してください。

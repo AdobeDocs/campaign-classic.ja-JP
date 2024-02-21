@@ -8,9 +8,9 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
-source-wordcount: '2546'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
+source-wordcount: '2566'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 1. コスト計算メソッドの定義
 
-   サービスプロバイダーにコスト構造を定義します。[サービスプロバイダーとそのコストカテゴリの作成](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)を参照してください。
+   サービスプロバイダーにコスト構造を定義します。[サービスプロバイダーとそのコストカテゴリの作成](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)を参照してください。
 
 1. キャンペーンコストの定義（配信／タスク）
 
@@ -170,7 +170,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 >[!NOTE]
 >
->コストのカテゴリと構造については、[サービスプロバイダーとそのコストカテゴリの作成](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)を参照してください。
+>コストのカテゴリと構造については、[サービスプロバイダーとそのコストカテゴリの作成](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)を参照してください。
 
 ## コストのコミット、計算および請求 {#cost-commitment--calculation-and-charging}
 
@@ -233,7 +233,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 #### 手順 2 - サービスプロバイダーの設定とコスト構造の定義 {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. **[!UICONTROL 管理／キャンペーン]**&#x200B;ノードで、サービスプロバイダーとサービステンプレートおよびそのコスト構造を作成します。詳しくは、[サービスプロバイダーとそのコストカテゴリの作成](../../campaign/using/providers--stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)を参照してください。
+1. **[!UICONTROL 管理／キャンペーン]**&#x200B;ノードで、サービスプロバイダーとサービステンプレートおよびそのコスト構造を作成します。詳しくは、[サービスプロバイダーとそのコストカテゴリの作成](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories)を参照してください。
 
    ダイレクトメール配信に、コストカテゴリ「**[!UICONTROL 封筒]**」（タイプ 114 x 229 と 162 x 229）、「**[!UICONTROL 送料]**」および「**[!UICONTROL 印刷]**」（タイプ A3 と A4）を作成します。以下のコスト構造を作成します。
 

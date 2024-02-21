@@ -6,7 +6,7 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: ht
 source-wordcount: '2536'
 ht-degree: 100%
@@ -23,8 +23,8 @@ ht-degree: 100%
    + [最新リリース](rn/using/latest-release.md)
    + 以前のリリース {#previous-releases}
       + [[!DNL Gold Standard]](rn/using/gold-standard.md)
-      + [2021](rn/using/release--2021.md)
-      + [2022](rn/using/release--2022.md)
+      + [2021](rn/using/release-2021.md)
+      + [2022](rn/using/release-2022.md)
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
    + [互換性マトリックス](rn/using/compatibility-matrix.md)
 + はじめに {#getting-started}
@@ -184,8 +184,8 @@ ht-degree: 100%
       + [シードアドレスの作成](delivery/using/creating-seed-addresses.md)
       + [シードアドレスの追加](delivery/using/adding-seed-addresses.md)
       + [外部受信者テーブルの使用](delivery/using/using-an-external-recipient-table.md)
-      + [ユースケース：基準に基づいたシードアドレスの選択](delivery/using/use-case--selecting-seed-addresses-on-criteria.md)
-      + [ユースケース：フィールド置換の設定](delivery/using/use-case--configuring-the-field-substitution.md)
+      + [ユースケース：基準に基づいたシードアドレスの選択](delivery/using/use-case-selecting-seed-addresses-on-criteria.md)
+      + [ユースケース：フィールド置換の設定](delivery/using/use-case-configuring-the-field-substitution.md)
    + A/B テスト {#a-b-testing}
       + [A/B テストの基本を学ぶ](delivery/using/get-started-a-b-testing.md)
       + [A/B テストの設定](delivery/using/configuring-a-b-testing.md)
@@ -233,7 +233,7 @@ ht-degree: 100%
    + コンテンツ管理モジュール {#content-management}
       + [コンテンツ管理について](delivery/using/about-content-management.md)
       + [コンテンツマネージャーのリソースと原則](delivery/using/content-manager-resources-and-principles.md)
-      + [ユースケース：コンテンツ管理の作成](delivery/using/use-case--creating-content-management.md)
+      + [ユースケース：コンテンツ管理の作成](delivery/using/use-case-creating-content-management.md)
       + [データスキーマ](delivery/using/data-schemas.md)
       + [入力フォーム](delivery/using/input-forms.md)
       + [フォーマット設定](delivery/using/formatting.md)
@@ -253,7 +253,7 @@ ht-degree: 100%
       + [ドキュメントとアセットの管理](campaign/using/marketing-campaign-assets.md)
       + [承認の設定と管理](campaign/using/marketing-campaign-approval.md)
       + [キャンペーンの監視](campaign/using/marketing-campaign-monitoring.md)
-      + [プロバイダー、在庫、予算](campaign/using/providers--stocks-and-budgets.md)
+      + [プロバイダー、在庫、予算](campaign/using/providers-stocks-and-budgets.md)
    + キャンペーンの最適化 {#campaign-optimization}
       + [キャンペーンタイポロジについて](campaign-opt/using/about-campaign-typologies.md)
       + [頻度ルール](campaign-opt/using/pressure-rules.md)
@@ -320,7 +320,7 @@ ht-degree: 100%
       + [web アプリケーションの基本を学ぶ](web/using/about-web-applications.md)
       + [web アプリケーションの新規作成](web/using/creating-a-new-web-application.md)
       + [web アプリケーションの設計](web/using/designing-a-web-application.md)
-      + [ユースケース：概要の作成](web/using/use-cases--creating-overviews.md)
+      + [ユースケース：概要の作成](web/using/use-cases-creating-overviews.md)
       + [web アプリケーションの翻訳](web/using/translating-a-web-application.md)
       + [web アプリケーションへの訪問のトラッキング](web/using/tracking-a-web-application.md)
       + [web アプリケーショントラッキングのオプトアウト](web/using/web-application-tracking-opt-out.md)
@@ -331,7 +331,7 @@ ht-degree: 100%
       + [コンテンツの編集](web/using/editing-content.md)
       + [コンテンツ編集のベストプラクティス](web/using/content-editing-best-practices.md)
       + [ランディングページの作成](web/using/creating-a-landing-page.md)
-      + [ユースケース：メール配信の作成](web/using/use-case--creating-an-email-delivery.md)
+      + [ユースケース：メール配信の作成](web/using/use-case-creating-an-email-delivery.md)
    + web フォーム {#web-forms}
       + [web フォームの基本を学ぶ](web/using/about-web-forms.md)
       + [web フォームテンプレートの使用](web/using/using-a-web-form-template.md)
@@ -344,16 +344,16 @@ ht-degree: 100%
       + [web フォームの公開](web/using/publishing-a-web-form.md)
       + [web フォームプロパティの定義](web/using/defining-web-forms-properties.md)
       + [web フォームの翻訳](web/using/translating-a-web-form.md)
-      + [ユースケース：web フォーム](web/using/use-cases--web-forms.md)
+      + [ユースケース：web フォーム](web/using/use-cases-web-forms.md)
 + オンライン調査の作成 {#online-surveys}
    + [調査の基本を学ぶ](surveys/using/about-surveys.md)
    + [調査を作成するための主な手順](surveys/using/getting-started-with-surveys.md)
    + [調査の設計](surveys/using/building-a-survey.md)
    + [回答の管理](surveys/using/managing-answers.md)
-   + [収集したデータの公開、トラッキングおよび使用](surveys/using/publish--track-and-use-collected-data.md)
+   + [収集したデータの公開、トラッキングおよび使用](surveys/using/publish-track-and-use-collected-data.md)
    + [調査の設定](surveys/using/configuring-surveys.md)
-   + [ユースケース：リファラルフォームの作成](surveys/using/use-case--creating-a-refer-a-friend-form.md)
-   + [ユースケース：オンライン調査への回答に関するレポートの表示](surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md)
+   + [ユースケース：リファラルフォームの作成](surveys/using/use-case-creating-a-refer-a-friend-form.md)
+   + [ユースケース：オンライン調査への回答に関するレポートの表示](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Adobe Experience Cloud との統合 {#integrating-with-adobe-experience-cloud}
    + [Campaign 統合について](integrations/using/about-campaign-integrations.md)
    + オーディエンスの共有 {#audience-sharing}
@@ -437,7 +437,7 @@ ht-degree: 100%
       + [待機](workflow/using/wait.md)
       + [時間制限](workflow/using/time-constraint.md)
       + [サブワークフロー](workflow/using/sub-workflow.md)
-      + [ジャンプ（開始点と終了点）](workflow/using/jump--start-point-and-end-point-.md)
+      + [ジャンプ（開始点と終了点）](workflow/using/jump-start-point-and-end-point.md)
       + [外部シグナル](workflow/using/external-signal.md)
       + [承認](workflow/using/approval.md)
       + [アラート](workflow/using/alert.md)
@@ -450,11 +450,11 @@ ht-degree: 100%
       + [繰り返し配信](workflow/using/recurring-delivery.md)
       + [クロスチャネル配信](workflow/using/cross-channel-deliveries.md)
       + [ローカルの承認](workflow/using/local-approval.md)
-      + [データ読み込み (RDBMS)](workflow/using/data-loading--rdbms-.md)
-      + [読み込み (SOAP)](workflow/using/loading--soap-.md)
-      + [データ読み込み (ファイル)](workflow/using/data-loading--file-.md)
+      + [データ読み込み (RDBMS)](workflow/using/data-loading-rdbms.md)
+      + [読み込み (SOAP)](workflow/using/loading-soap.md)
+      + [データ読み込み (ファイル)](workflow/using/data-loading-file.md)
       + [コンテンツ管理](workflow/using/content-management.md)
-      + [データ抽出 (ファイル)](workflow/using/extraction--file-.md)
+      + [データ抽出 (ファイル)](workflow/using/extraction-file.md)
       + [SQL コードと JavaScript コード](workflow/using/sql-code-and-javascript-code.md)
       + [SQL データ管理](workflow/using/sql-data-management.md)
       + [nlserver モジュール](workflow/using/nlserver-module.md)
@@ -505,7 +505,7 @@ ht-degree: 100%
       + [詳細設定パラメーター](workflow/using/advanced-parameters.md)
       + [JavaScript のスクリプトとテンプレート](workflow/using/javascript-scripts-and-templates.md)
       + [ワークフローでの JavaScript コードの例](workflow/using/javascript-in-workflows.md)
-      + [外部データベースへのアクセス](workflow/using/accessing-an-external-database--fda-.md)
+      + [外部データベースへのアクセス](workflow/using/accessing-an-external-database-fda.md)
       + [権限の管理](workflow/using/managing-rights.md)
       + [アクティビティ画像の変更](workflow/using/managing-activity-images.md)
       + [タイムゾーンの管理](workflow/using/managing-time-zones.md)
@@ -543,8 +543,8 @@ ht-degree: 100%
       + [ワークフローを使用したオファーの統合](interaction/using/integrating-an-offer-via-a-workflow.md)
    + 単一インタラクション {#unitary-interactions}
       + [インバウンドチャネルについて](interaction/using/about-inbound-channels.md)
-      + [JavaScript による統合（クライアントサイド）](interaction/using/integration-via-javascript--client-side-.md)
-      + [SOAP によるた統合（サーバーサイド）](interaction/using/integration-via-soap--server-side-.md)
+      + [JavaScript による統合（クライアントサイド）](interaction/using/integration-via-javascript-client-side.md)
+      + [SOAP によるた統合（サーバーサイド）](interaction/using/integration-via-soap-server-side.md)
       + [匿名のインタラクション](interaction/using/anonymous-interactions.md)
    + オファーのトラッキング {#tracking-offers}
       + [オファーの提案履歴](interaction/using/offer-proposition-history.md)
@@ -556,7 +556,7 @@ ht-degree: 100%
       + [テスト環境の作成](interaction/using/creating-a-test-environment.md)
       + [エンジンの標準動作の変更](interaction/using/hooks.md)
       + [分散アーキテクチャ](interaction/using/distributed-architectures.md)
-      + [データバッファーの設定](installation/using/interaction---data-buffer.md)
+      + [データバッファーの設定](installation/using/interaction-data-buffer.md)
    + 使用例 {#case-study}
       + [プレゼンテーションルール](interaction/using/presentation-rules.md)
       + [インバウンドチャネルのオファー](interaction/using/offers-on-an-inbound-channel.md)
@@ -590,7 +590,7 @@ ht-degree: 100%
       + ホスティングモデル{#hosting-models-lp}
          + [Campaign ホスティングモデル](installation/using/hosting-models.md)
          + [機能マトリックス](installation/using/capability-matrix.md)
-   + デプロイメントタイプ {#deployment-types-}
+   + デプロイメントタイプ {#deployment-types}
       + [デプロイメントタイプについて](installation/using/about-deployment-types.md)
       + [スタンドアロンデプロイメント](installation/using/standalone-deployment.md)
       + [標準デプロイメント](installation/using/standard-deployment.md)
@@ -611,12 +611,12 @@ ht-degree: 100%
          + [アプリケーションサーバー](installation/using/application-server.md)
          + [メッセージサーバー](installation/using/messaging-server.md)
          + [ネットワーク設定](installation/using/network-configuration.md)
-      + Windows 版 Campaign {#installing-campaign-in-windows-}
+      + Windows 版 Campaign {#installing-campaign-in-windows}
          + [基本を学ぶ](installation/using/prerequisites-of-campaign-installation-in-windows.md)
          + [サーバーのインストール](installation/using/installing-the-server.md)
          + [Web サーバーへの統合（Windows）](installation/using/integration-into-a-web-server-for-windows.md)
          + [Windows でのクライアントコンソールの可用性](installation/using/client-console-availability-for-windows.md)
-      + Linux 版 Campaign {#installing-campaign-in-linux-}
+      + Linux 版 Campaign {#installing-campaign-in-linux}
          + [前提条件](installation/using/prerequisites-of-campaign-installation-in-linux.md)
          + [パッケージのインストール](installation/using/installing-packages-with-linux.md)
          + [Web サーバーへの統合](installation/using/integration-into-a-web-server-for-linux.md)
@@ -803,7 +803,7 @@ ht-degree: 100%
    + Web トラッキングの設定 {#setting-up-web-tracking}
       + [Web トラッキングについて](configuration/using/about-web-tracking.md)
       + [Web トラッキングモード](configuration/using/web-tracking-mode.md)
-      + [Web トラッキングタグ：定義](configuration/using/web-tracking-tag--definition.md)
+      + [Web トラッキングタグ：定義](configuration/using/web-tracking-tag-definition.md)
       + [ステージの設定](configuration/using/setup-stages.md)
       + [追加パラメーター](configuration/using/additional-parameters.md)
       + [Web トラッキングタグの作成](configuration/using/creating-web-tracking-tags.md)

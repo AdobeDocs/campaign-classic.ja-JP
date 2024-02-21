@@ -5,8 +5,8 @@ description: アクションアクティビティについて
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Data Management
 exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '277'
 ht-degree: 100%
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 * **繰り返し配信**：キャンペーン内で配信テンプレートを設定できます。[繰り返し配信](recurring-delivery.md)を参照してください。
 * **クロスチャネル配信**：該当するチャネルで配信を設定できます。[クロスチャネル配信](cross-channel-deliveries.md)の節を参照してください。
 * **ローカルの承認**：分散マーケティングのコンテキスト内で承認とターゲティング通知をおこなうことができます（オプションモジュール）。[ローカルの承認](local-approval.md)を参照してください。
-* **データ読み込み (RDBMS)**：外部データベースにアクセスしてデータを取得できます。[データ読み込み (RDBMS)](data-loading--rdbms-.md) の節を参照してください。
-* **読み込み (SOAP)**：SOAP 呼び出しでデータを収集できます。[読み込み (SOAP)](loading--soap-.md) を参照してください。
-* **データ読み込み (ファイル)**：外部データソースにアクセスし、そのデータに使用できます。[データ読み込み (ファイル)](data-loading--file-.md) の節を参照してください。
+* **データ読み込み (RDBMS)**：外部データベースにアクセスしてデータを取得できます。[データ読み込み (RDBMS)](data-loading-rdbms.md) の節を参照してください。
+* **読み込み (SOAP)**：SOAP 呼び出しでデータを収集できます。[読み込み (SOAP)](loading-soap.md) を参照してください。
+* **データ読み込み (ファイル)**：外部データソースにアクセスし、そのデータに使用できます。[データ読み込み (ファイル)](data-loading-file.md) の節を参照してください。
 * **コンテンツ管理**：コンテンツの作成またはカスタマイズができます。[コンテンツ管理](content-management.md)の節を参照してください。
-* **抽出 (ファイル)**：ファイル内のテーブルからデータを抽出できます。[抽出 (ファイル)](extraction--file-.md) の節を参照してください。
+* **抽出 (ファイル)**：ファイル内のテーブルからデータを抽出できます。[抽出 (ファイル)](extraction-file.md) の節を参照してください。
 * **SQL コードと JavaScript コード**：アクティビティで指定された SQL スクリプトまたは JavaScript を実行します。[SQL コードと JavaScript コード](sql-code-and-javascript-code.md)を参照してください。
 * **SQL データ管理**：ワークテーブルを作成および設定する独自の SQL クエリを記述できます。[SQL データ管理](sql-data-management.md)を参照してください。
 * **nlserver モジュール**：引数で nlserver モジュールを開始します。[nlserver モジュール](nlserver-module.md)を参照してください。

@@ -6,8 +6,8 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用�
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
 source-wordcount: '907'
 ht-degree: 100%
 
@@ -101,7 +101,7 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 ### ストレージ設定 {#storage-settings}
 
-調査の回答を XML 形式でアーカイブできます。これにより、収集した回答の生のコピーを保存でき、項目別リストのデータが過度に標準化される場合に役に立ちます。[詳細情報](../../surveys/using/publish--track-and-use-collected-data.md#standardizing-data)
+調査の回答を XML 形式でアーカイブできます。これにより、収集した回答の生のコピーを保存でき、項目別リストのデータが過度に標準化される場合に役に立ちます。[詳細情報](../../surveys/using/publish-track-and-use-collected-data.md#standardizing-data)
 
 >[!CAUTION]
 >

@@ -6,9 +6,9 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用�
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
-source-wordcount: '729'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: ht
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
@@ -50,12 +50,12 @@ Adobe Campaign の Web アプリケーションでは、次の機能を利用で
 * 電子メールの招待状または通知。詳しくは、この[ページ](publishing-a-web-form.md#delivering-a-form-via-email)を参照してください。
 * エラーおよび終了メッセージのパーソナライゼーション。詳しくは、この[ページ](defining-web-forms-properties.md#setting-up-an-error-page)を参照してください。
 * 画像、ビデオ、ハイパーテキストリンク、Captcha などの使用。詳しくは、この[ページ](editing-content.md)を参照してください。
-* リアルタイムの応答の監視。詳しくは、この[ページ](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking)を参照してください。
+* リアルタイムの応答の監視。詳しくは、この[ページ](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking)を参照してください。
 
 オプションの&#x200B;**調査**&#x200B;作成モジュールは、次の追加機能を提供します。
 
 * データベースの動的な拡張（最初のデータテンプレートに含まれない応答の作成）。詳しくは、この[ページ](../../surveys/using/managing-answers.md#storing-collected-answers)を参照してください。
-* 専用レポートの生成。詳しくは、この[ページ](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys)を参照してください。
+* 専用レポートの生成。詳しくは、この[ページ](../../surveys/using/publish-track-and-use-collected-data.md#reports-on-surveys)を参照してください。
 
 Web アプリケーションと比較すると、調査は、シンプルなグラフィカルインターフェイスを備え、編集コントロールが少なくなっています。
 

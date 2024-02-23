@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: f3dc9d56c693f334923d627a28a9e45b92b1c0c3
 workflow-type: tm+mt
 source-wordcount: '2536'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 100%
    + [アップグレードの概要](rn/using/rn-overview.md)
    + [最新リリース](rn/using/latest-release.md)
    + 以前のリリース {#previous-releases}
-      + [[!DNL Gold Standard]](rn/using/gold-standard.md)
+      + [2022 年](rn/using/release-2022.md)
       + [2021](rn/using/release-2021.md)
-      + [2022](rn/using/release-2022.md)
+      + [[!DNL Gold Standard]](rn/using/gold-standard.md)
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
    + [互換性マトリックス](rn/using/compatibility-matrix.md)
 + はじめに {#getting-started}

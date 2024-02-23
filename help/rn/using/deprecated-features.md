@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
-source-wordcount: '1519'
+source-git-commit: f3dc9d56c693f334923d627a28a9e45b92b1c0c3
+workflow-type: tm+mt
+source-wordcount: '1558'
 ht-degree: 100%
 
 ---
@@ -48,13 +48,13 @@ Campaign Classic 機能の差し迫った削除／置換を伝達するため、
  <td>Facebook でのソーシャルマーケティング</td>
  <td>Facebook を使用したソーシャルマーケティングは非推奨（廃止予定）になりました。X（旧 Twitter）統合を使用してソーシャルメディアに投稿したり、アドビと連携してカスタムチャネルを作成したりできます。
  <p></p>
-  <p>削除予定日：2023年末</p>
+  <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
 <tr>
  <td>ACS コネクタ</td>
  <td>ACS コネクタ（プライムオファー）は非推奨（廃止予定）となりました。 Campaign のエクスポート／インポート機能を使用して、両方の製品のデータを抽出および挿入できます。<p></p>
-  <p>削除予定日：2023年末</p>
+  <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
  </tbody> 

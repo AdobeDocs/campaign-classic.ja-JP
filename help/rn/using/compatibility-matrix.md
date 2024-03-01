@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 915b550c28c8d7dd9c29ce5142a4a835a39019b4
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 96%
+source-wordcount: '764'
+ht-degree: 92%
 
 ---
 
@@ -41,9 +41,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr> 
 <td>CentOS</td>
 <td>
-<p>8.x（ハイブリッド環境の場合のみ）</p>
 <p>7.x</p>
-<p><strong>重要</strong>：RHEL を使用する場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させ、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。</p>
 </td>
 </tr>
 <tr>
@@ -58,7 +56,6 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <td>
 <p>8.x</p>
 <p>7.x</p>
-<p><strong>重要</strong>：RHEL を使用する場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させ、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。</p>
 </td>
 </tr>
 <tr>
@@ -70,6 +67,10 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 </tr>
 </tbody>
 </table>
+
+>[!NOTE]
+>
+>RHEL を使用している場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させて、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。
 
 ## web サーバー{#WebServers}
 

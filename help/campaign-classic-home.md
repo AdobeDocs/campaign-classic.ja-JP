@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign Classic v7 製品ドキュメント
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 6dd2a2343c0204c01dd0fa4910299efa15c29849
-workflow-type: ht
-source-wordcount: '342'
-ht-degree: 100%
+source-git-commit: 23f2565cc847805cff6df028935f74404cdcff24
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 96%
 
 ---
 
@@ -106,7 +106,7 @@ Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>開発者リソース</strong><br/><a href="configuration/using/about-data-model.md">データモデルの説明</a> - <a href="configuration/using/about-schema-reference.md">スキーマの構造</a> - <a href="configuration/using/editing-forms.md">スキーマの構造</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="configuration/using/about-custom-recipient-table.md">カスタム受信者テーブル</a>
+      <strong>開発者リソース</strong><br/><a href="configuration/using/about-data-model.md">データモデルの説明</a> - <a href="configuration/using/about-schema-reference.md">スキーマの構造</a> - <a href="configuration/using/editing-forms.md">スキーマの構造</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html&gt;JSAPI リファレンスドキュメント&lt;/a&gt; - &lt;a href=&quot;&quot;&gt;" configuration/using/about-custom-recipient-table.md">カスタム受信者テーブル</a>
     </td>
   </tr>
 </table>

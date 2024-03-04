@@ -6,18 +6,18 @@ feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 68%
+source-wordcount: '1984'
+ht-degree: 58%
 
 ---
 
 # データベースマッピング{#database-mapping}
 
-サンプルスキーマの SQL マッピングでは、次の XML ドキュメントを入手できます。
+説明したサンプルスキーマの SQL マッピング [このページの](schema-structure.md) は次の XML ドキュメントを生成します。
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">
   <enumeration basetype="byte" name="gender">    
     <value label="Not specified" name="unknown" value="0"/>    
@@ -38,27 +38,27 @@ ht-degree: 68%
 
 ## 説明 {#description}
 
-スキーマのルート要素は **`<srcschema>`** ではなく **`<schema>`** になりました。
+スキーマのルート要素がに変更されました。 **`<srcschema>`** から **`<schema>`**.
 
-これにより、ソーススキーマ（単にスキーマと呼ばれる）から自動的に生成される別のタイプのドキュメントに移動します。このスキーマは、Adobe Campaign アプリケーションで使用されます。
+この他のタイプのドキュメントは、ソーススキーマから自動的に生成され、単にスキーマと呼ばれます。
 
 SQL 名は、要素名と型に基づいて自動的に決定されます。
 
 SQL の命名規則は次のとおりです。
 
-* テーブル：スキーマの名前空間と名前を連結したもの
+* **表**：スキーマの名前空間と名前を連結したもの
 
   この例では、テーブルの名前は、スキーマのメイン要素を使用して **sqltable** 属性に入力されます。
 
-  ```
+  ```sql
   <element name="recipient" sqltable="CusRecipient">
   ```
 
-* フィールド：型に従って定義されたプレフィックス（整数の場合は「i」、倍精度数の場合は「d」、文字列の場合は「s」、日付の場合は「ts」など）が先頭に付く要素名
+* **フィールド**：型に応じて定義されたプレフィックスが付いた要素の名前。整数の場合は「i」、倍精度の場合は「d」、文字列の場合は「s」、日付の場合は「ts」などです。
 
   フィールド名は、型指定された **`<attribute>`** および **`<element>`** ごとに **sqlname** 属性を使用し入力されます。
 
-  ```
+  ```sql
   <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
   ```
 
@@ -68,7 +68,7 @@ SQL の命名規則は次のとおりです。
 
 拡張スキーマから生成されるテーブルを作成する SQL スクリプトは、次のとおりです。
 
-```
+```sql
 CREATE TABLE CusRecipient(
   iGender NUMERIC(3) NOT NULL Default 0,   
   sCity VARCHAR(50),   
@@ -78,12 +78,12 @@ CREATE TABLE CusRecipient(
 
 SQL フィールドの制約は次のとおりです。
 
-* 数値フィールドと日付フィールドに null 値はありません、
+* 数値フィールドと日付フィールドに null 値が含まれていません
 * 数値フィールドは 0 に初期化されます。
 
 ## XML フィールド {#xml-fields}
 
-デフォルトでは、型指定された **`<attribute>`** および **`<element>`** 要素は、データスキーマテーブルの SQL フィールドにマッピングされます。ただし、このフィールドを SQL ではなく XML で参照することができます。つまり、データは、すべての XML フィールドの値を含んだテーブルのメモフィールド（「mData」）に格納されます。これらのデータのストレージは、スキーマ構造に準拠する XML ドキュメントです。
+デフォルトでは、任意  **`<attribute>`** および **`<element>`** -typed 要素は、データスキーマテーブルの SQL フィールドにマップされます。 ただし、このフィールドを SQL ではなく XML で参照することができます。つまり、データは、すべての XML フィールドの値を含んだテーブルのメモフィールド（「mData」）に格納されます。これらのデータのストレージは、スキーマ構造に準拠する XML ドキュメントです。
 
 XML のフィールドにデータを入力するには、値「true」の **xml** 属性を、該当する要素に追加する必要があります。
 
@@ -91,21 +91,19 @@ XML のフィールドにデータを入力するには、値「true」の **xml
 
 * 複数行コメントフィールド：
 
-  ```
+  ```sql
   <element name="comment" xml="true" type="memo" label="Comment"/>
   ```
 
 * HTML 形式でのデータの説明：
 
-  ```
+  ```sql
   <element name="description" xml="true" type="html" label="Description"/>
   ```
 
   「html」タイプを使用すると、HTML コンテンツを CDATA タグに格納し、Adobe Campaign クライアントインターフェイスに特別な HTML 編集チェックを表示できます。
 
-XML フィールドを使用すると、データベースの物理構造を変更することなく、フィールドを追加できます。もう 1 つの利点は、使用するリソースが少ないことです（SQL フィールドに割り当てるサイズ、テーブルあたりのフィールド数の制限など）。
-
-主な欠点は、XML フィールドのインデックス作成やフィルタリングが不可能であることです。
+XML フィールドを使用すると、データベースの物理構造を変更せずに新しいフィールドを追加できます。 もう 1 つの利点は、使用するリソース（SQL フィールドに割り当てるサイズ、テーブルあたりのフィールド数の制限など）が少ないことです。 ただし、XML フィールドのインデックス作成やフィルタリングはできません。
 
 ## インデックス付きのフィールド {#indexed-fields}
 
@@ -113,7 +111,7 @@ XML フィールドを使用すると、データベースの物理構造を変�
 
 インデックスは、データスキーマのメイン要素から宣言します。
 
-```
+```sql
 <dbindex name="name_of_index" unique="true/false">
   <keyfield xpath="xpath_of_field1"/>
   <keyfield xpath="xpath_of_field2"/>
@@ -123,23 +121,21 @@ XML フィールドを使用すると、データベースの物理構造を変�
 
 インデックスは、次の規則に従います。
 
-* インデックスは、テーブル内の 1 つ以上のフィールドを参照できます。
-* インデックスは、（重複を避けるために）すべてのフィールドで一意のインデックスを **ユニーク** 属性に値「true」が含まれます。
-* インデックスの SQL 名は、テーブルの SQL 名とインデックスの名前から決定されます。
+* インデックスは、テーブル内の 1 つ以上のフィールドを参照できます
+* インデックスは、（重複を避けるために）すべてのフィールドで一意のインデックスを **ユニーク** 属性に値「true」が含まれる
+* インデックスの SQL 名は、テーブルの SQL 名とインデックスの名前から決定されます
 
 >[!NOTE]
 >
->標準として、インデックスは、スキーマのメイン要素から宣言された最初の要素です。
-
->[!NOTE]
+>* 標準として、インデックスは、スキーマのメイン要素から宣言された最初の要素です。
 >
->テーブルマッピング中にインデックスが自動的に作成されます（標準または FDA）。
+>* テーブルマッピング中にインデックスが自動的に作成されます（標準または FDA）。
 
 **例**：
 
 * E メールアドレスと市区町村にインデックスを追加する：
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <dbindex name="email">
@@ -157,7 +153,7 @@ XML フィールドを使用すると、データベースの物理構造を変�
 
 * 「id」名前フィールドに一意のインデックスを追加します。
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <dbindex name="id" unique="true">
@@ -180,7 +176,7 @@ XML フィールドを使用すると、データベースの物理構造を変�
 
 キーがデータスキーマのメイン要素から宣言されます。
 
-```
+```sql
 <key name="name_of_key">
   <keyfield xpath="xpath_of_field1"/>
   <keyfield xpath="xpath_of_field2"/>
@@ -188,25 +184,23 @@ XML フィールドを使用すると、データベースの物理構造を変�
 </key>
 ```
 
-キーは次のルールに従います。
+次のルールがキーに適用されます。
 
-* キーは、テーブル内の 1 つ以上のフィールドを参照できます。
-* キーがスキーマ内で最初に入力される場合、または値が「true」の&#x200B;**internal** 属性を含む場合、キーは「プライマリ」（または「優先」）キーと呼ばれます。
-* 一意のインデックスは、各キー定義に対して暗黙的に宣言されます。 キーにインデックスを作成するには、 **noDbIndex** 属性の値が「true」になっている。
-
->[!NOTE]
->
->標準として、キーは、インデックスが定義された後に、スキーマのメイン要素から宣言された要素です。
+* キーは、テーブル内の 1 つ以上のフィールドを参照できます
+* キーが入力されるスキーマ内の最初のキーである場合、またはキーに **内部** 属性の値が「true」
+* 一意のインデックスは、各キー定義に対して暗黙的に宣言されます。 キーにインデックスを作成するには、 **noDbIndex** 属性の値が「true」
 
 >[!NOTE]
 >
->テーブルマッピング中にキーが作成（標準または FDA）、Adobe Campaignは一意のインデックスを検索します。
+>* 標準として、キーは、インデックスが定義された後に、スキーマのメイン要素から宣言された要素です。
+>
+>* テーブルマッピング中にキーが作成（標準または FDA）、Adobe Campaignは一意のインデックスを検索します。
 
 **例**：
 
 * E メールアドレスと市区町村にキーを追加する：
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <key name="email">
@@ -224,7 +218,7 @@ XML フィールドを使用すると、データベースの物理構造を変�
 
   生成されたスキーマ：
 
-  ```
+  ```sql
   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
     <element name="recipient" sqltable="CusRecipient">    
      <dbindex name="email" unique="true">      
@@ -247,7 +241,7 @@ XML フィールドを使用すると、データベースの物理構造を変�
 
 * 「id」名フィールドへのプライマリキーまたは内部キーの追加：
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <key name="id" internal="true">
@@ -266,7 +260,7 @@ XML フィールドを使用すると、データベースの物理構造を変�
 
   生成されたスキーマ：
 
-  ```
+  ```sql
   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
     <element name="recipient" sqltable="CusRecipient">    
       <key name="email">      
@@ -311,7 +305,7 @@ ACC 18.10 以降、 **XtkNewId** は、標準スキーマのシーケンスの�
 
 ソーススキーマでの増分キーの宣言：
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient" autopk="true">
   ...
@@ -321,7 +315,7 @@ ACC 18.10 以降、 **XtkNewId** は、標準スキーマのシーケンスの�
 
 生成されたスキーマ：
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" autopk="true" pkSequence="XtkNewId" sqltable="CusRecipient"> 
     <dbindex name="id" unique="true">
@@ -370,7 +364,7 @@ FDA テーブルについて詳しくは、 [外部データベースへのア�
 
 メインの要素を介してリンクされたテーブルの、外部キーを含むスキーマで、リンクを宣言する必要があります。
 
-```
+```sql
 <element name="name_of_link" type="link" target="key_of_destination_schema">
   <join xpath-dst="xpath_of_field1_destination_table" xpath-src="xpath_of_field1_source_table"/>
   <join xpath-dst="xpath_of_field2_destination_table" xpath-src="xpath_of_field2_source_table"/>
@@ -412,7 +406,7 @@ FDA テーブルについて詳しくは、 [外部データベースへのア�
 
 「cus:company」スキーマテーブルとの一対多の関係：
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     ...
@@ -423,7 +417,7 @@ FDA テーブルについて詳しくは、 [外部データベースへのア�
 
 生成されたスキーマ：
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" sqltable="CusRecipient"> 
     <dbindex name="companyId">      
@@ -444,7 +438,7 @@ FDA テーブルについて詳しくは、 [外部データベースへのア�
 
 ターゲットの拡張スキーマ（「cus:company」）：
 
-```
+```sql
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
   <element name="company" sqltable="CusCompany" autopk="true"> 
     <dbindex name="id" unique="true">     
@@ -475,7 +469,7 @@ FDA テーブルについて詳しくは、 [外部データベースへのア�
 
 この例では、「nms:address」スキーマテーブルへのリンクを宣言します。結合は外部結合で、受信者の電子メールアドレスと、リンクされたテーブルの「@address」フィールド (「nms:address」) が明示的に設定されます。
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient"> 
     ...
@@ -490,7 +484,7 @@ FDA テーブルについて詳しくは、 [外部データベースへのア�
 
 「cus:extension」スキーマテーブルとの一対一の関係：
 
-```
+```sql
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
@@ -498,7 +492,7 @@ FDA テーブルについて詳しくは、 [外部データベースへのア�
 
 フォルダーへのリンク（「xtk:folder」スキーマ）：
 
-```
+```sql
 <element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
 ```
 
@@ -508,7 +502,7 @@ FDA テーブルについて詳しくは、 [外部データベースへのア�
 
 この例では、**xlink** 属性と（「email」）テーブルのフィールドを持つリンク（ 「company」から 「cus:company」スキーマ）にキーを作成します。
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <key name="companyEmail"> 
@@ -524,7 +518,7 @@ FDA テーブルについて詳しくは、 [外部データベースへのア�
 
 生成されたスキーマ：
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" sqltable="CusRecipient"> 
     <dbindex name="companyId">      
@@ -550,4 +544,4 @@ FDA テーブルについて詳しくは、 [外部データベースへのア�
 </schema>
 ```
 
-「companyEmail」名キーの定義は、「company」リンクの外部キーで拡張されました。このキーは、両方のフィールドで一意のインデックスを生成します。
+「companyEmail」名前キーの定義が「company」リンクの外部キーで拡張されました。 このキーは、両方のフィールドで一意のインデックスを生成します。

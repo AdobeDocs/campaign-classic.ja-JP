@@ -1,27 +1,27 @@
 ---
 product: campaign
-title: Adobe Campaign Classicのスキーマリファレンスについて
-description: Adobe Campaign Classicデータベースの概念的データモデルを拡張するための拡張スキーマの設定方法について説明します。
+title: Adobe Campaignでのスキーマの概要
+description: スキーマを使用する方法とAdobe Campaignデータベースの概念的データモデルを拡張する方法について説明します。
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 59%
+source-wordcount: '376'
+ht-degree: 50%
 
 ---
 
-# スキーマリファレンスについて{#about-schema-reference}
+# スキーマの基本を学ぶ {#about-schema-reference}
+
+## スキーマとは {#what-is-a-schema}
 
 この章では、Adobe Campaignデータベースの概念的データモデルを拡張するために拡張スキーマを設定する方法について説明します。
 
-Campaign の組み込みテーブルとそのインタラクションについて詳しくは、 [Campaign Classicデータモデル](https://helpx.adobe.com/jp/campaign/kb/acc-datamodel.html).
+Campaign の組み込みテーブルとそのインタラクションについて詳しくは、 [Campaign Classicデータモデル](about-data-model.md).
 
-アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。**スキーマ**&#x200B;と呼ばれる Adobe Campaign 特有の文法に従います。
-
-スキーマは、データベーステーブルに関連付けられた XML ドキュメントです。この中でデータ構造を定義し、表の SQL 定義を記述します。
+Adobe Campaignでは、アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。 A **スキーマ** は、データベーステーブルに関連付けられた XML ドキュメントです。 この中でデータ構造を定義し、表の SQL 定義を記述します。
 
 * テーブルの名前
 * フィールド

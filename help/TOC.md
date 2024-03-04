@@ -6,9 +6,9 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: f3dc9d56c693f334923d627a28a9e45b92b1c0c3
+source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
 workflow-type: tm+mt
-source-wordcount: '2536'
+source-wordcount: '2538'
 ht-degree: 99%
 
 ---
@@ -740,8 +740,8 @@ ht-degree: 99%
       + [データモデルについて](configuration/using/about-data-model.md)
       + [データモデルの説明](configuration/using/data-model-description.md)
       + [ベストプラクティス](configuration/using/data-model-best-practices.md)
-   + スキーマリファレンス {#schema-reference}
-      + [スキーマリファレンスについて](configuration/using/about-schema-reference.md)
+   + スキーマの操作 {#schema-reference}
+      + [スキーマの基本を学ぶ](configuration/using/about-schema-reference.md)
       + [スキーマの構造](configuration/using/schema-structure.md)
       + [データベースマッピング](configuration/using/database-mapping.md)
       + 要素と属性 {#elements-attributes}

@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: スキーマの構造
+title: Adobe Campaignのスキーマ構造について
 description: スキーマの構造
 feature: Custom Resources
 role: Data Engineer, Developer
@@ -9,18 +9,22 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 85%
+source-wordcount: '1500'
+ht-degree: 68%
 
 ---
 
-# スキーマの構造{#schema-structure}
+# スキーマ構造を理解する {#schema-structure}
 
-`<srcschema>` の基本的な構造は次のとおりです。
+スキーマの基本的な構造を以下に示します。
 
-```
+## データスキーマ  {#data-schema}
+
+の `<srcschema>`の場合、構造は次のようになります。
+
+```sql
 <srcSchema>
     <enumeration>
         ...          //definition of enumerations
@@ -63,7 +67,7 @@ ht-degree: 85%
 
 データスキーマの XML ドキュメントには、スキーマの名前と名前空間を生成する **name** 属性と **namespace** 属性が設定された **`<srcschema>`** ルート要素を含める必要があります。
 
-```
+```sql
 <srcSchema name="schema_name" namespace="namespace">
 ...
 </srcSchema>
@@ -71,7 +75,7 @@ ht-degree: 85%
 
 次の XML コンテンツを使用して、データスキーマの構造を説明します。
 
-```
+```sql
 <recipient email="John.doe@aol.com" created="2009/03/12" gender="1"> 
   <location city="London"/>
 </recipient>
@@ -79,7 +83,7 @@ ht-degree: 85%
 
 対応するデータスキーマを使用して、次の操作をおこないます。
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email"/>
@@ -94,7 +98,7 @@ ht-degree: 85%
 
 ## 説明 {#description}
 
-スキーマのエントリポイントは、スキーマのメイン要素です。メイン要素はスキーマと同じ名前なので、識別は容易です。また、メイン要素はルート要素の子でなければなりません。コンテンツの記述は、この要素から始まります。
+スキーマのエントリポイントは、スキーマのメイン要素です。 メイン要素はスキーマと同じ名前なので、識別は容易です。また、メイン要素はルート要素の子でなければなりません。コンテンツの記述は、この要素から始まります。
 
 この例では、メイン要素を次の行で表しています。
 
@@ -102,11 +106,11 @@ ht-degree: 85%
 <element name="recipient">
 ```
 
-メイン要素の後に続く要素 **`<attribute>`** と **`<element>`** を使用すると、XML 構造内のデータ項目の場所と名前を定義できます。
+The **`<attribute>`** および **`<element>`** メイン要素に続く要素は、XML 構造内のデータ項目の場所と名前を定義するために使用されます。
 
 サンプルスキーマでは、次のようになります。
 
-```
+```sql
 <attribute name="email"/>
 <attribute name="created"/>
 <attribute name="gender"/>
@@ -115,13 +119,13 @@ ht-degree: 85%
 </element>
 ```
 
-次の規則に従う必要があります。
+次の規則が適用されます。
 
 * 各 **`<element>`** と **`<attribute>`** は、**name** 属性を介して名前で識別する必要があります。
 
   >[!IMPORTANT]
   >
-  >要素名は簡潔なもの（できれば英語）にし、XML 命名規則に従って許可された文字のみを含める必要があります。
+  >要素の名前は簡潔、できれば英語で記述し、XML 命名規則で使用できる文字のみを含める必要があります。
 
 * XML 構造に **`<attribute>`** 要素と **`<element>`** 要素を含めることができるのは、**`<element>`** 要素のみです。
 * **`<attribute>`** 要素には、**`<element>`** 内で一意の名前が必要です。
@@ -131,7 +135,7 @@ ht-degree: 85%
 
 データタイプは、**`<attribute>`** 要素と **`<element>`** 要素の **type** 属性を介して入力されます。
 
-詳細なリストは、 [`<attribute>` 要素](../../configuration/using/schema/attribute.md) そして [`<element>` 要素](../../configuration/using/schema/element.md)) をクリックします。
+詳細なリストは、 [`<attribute>` 要素](../../configuration/using/schema/attribute.md) そして [`<element>` 要素](../../configuration/using/schema/element.md).
 
 この属性が空の場合、要素に子要素が含まれていない限り、**string** がデフォルトのデータタイプになります。 子要素が含まれる場合は、要素を階層的に構成するためにのみ使用します（この例では&#x200B;**`<location>`**&#x200B;要素）。
 
@@ -141,22 +145,22 @@ ht-degree: 85%
 
   サイズは、**length** 属性を使用して指定できます。オプションであり、デフォルト値は「255」です。
 
-* **boolean**：ブール値フィールド可能な値の例：true/false、0/1、yes/no など
+* **boolean**：ブール値フィールド可能な値の例：true または false、0 または 1、yes または no など
 * **byte**、**short**、**long**：整数（1 バイト、2 バイト、4 バイト）。例：年齢、アカウント番号、ポイント数など
 * **double**：倍精度浮動小数点数。例：価格、料金など
 * **date**、**datetime**：日付、および日付 + 時刻。例：生年月日、購入日など
 * **datetimenotz**：タイムゾーンデータを含まない日付＋時刻。
 * **timespan**：継続時間。例：年齢順。
 * **memo**：長いテキストフィールド（複数行）。例：説明、注釈など
-* **uuid**：「uniqueidentifier」フィールド GUID をサポートする (Microsoft SQL Server のみでサポート )
+* **uuid**:GUID をサポートする「uniqueidentifier」フィールド (Microsoft SQL Server でのみサポート )。
 
   >[!NOTE]
   >
-  >を含めるには **uuid** Microsoft SQL Server 以外のエンジンのフィールドでは、「newuuid()」関数を追加し、デフォルト値で完了する必要があります。
+  >を含めるには **uuid** Microsoft SQL Server 以外の RDBMS のフィールド `the newuuid()` 関数を追加し、デフォルト値で完了する必要があります。
 
 次に、入力したタイプのスキーマ例を示します。
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email" type="string" length="80"/>
@@ -179,91 +183,76 @@ ht-degree: 85%
    <td> <strong>Adobe Campaign</strong><br /> </td> 
    <td> <strong>PosgreSQL</strong><br /> </td> 
    <td> <strong>Oracle</strong><br /> </td> 
-   <td> <strong>MS SQL</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> 文字列<br /> </td> 
    <td> VARCHAR(255)<br /> </td> 
    <td> VARCHAR2 （unicode の場合は NVARCHAR2）<br /> </td> 
-   <td> VARCHAR （Unicode の場合は NVARCHAR）<br /> </td> 
   </tr> 
   <tr> 
-   <td> ブール値<br /> </td> 
+   <td> Boolean<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
-   <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
-   <td> バイト<br /> </td> 
+   <td> Byte<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
-   <td> TINYINT<br /> </td> 
   </tr> 
   <tr> 
-   <td> ショート<br /> </td> 
+   <td> Short<br /> </td> 
    <td> SMALLINT<br /> </td> 
    <td> NUMBER(5)<br /> </td> 
-   <td> SMALLINT<br /> </td> 
   </tr> 
   <tr> 
-   <td> 重複<br /> </td> 
+   <td> ダブル<br /> </td> 
    <td> 倍精度<br /> </td> 
    <td> 浮動小数点<br /> </td> 
-   <td> 浮動小数点<br /> </td> 
   </tr> 
   <tr> 
-   <td> 長いテキスト<br /> </td> 
+   <td> Long<br /> </td> 
    <td> 整数<br /> </td> 
    <td> NUMBER(10)<br /> </td> 
-   <td> INT<br /> </td> 
   </tr> 
   <tr> 
    <td> Int64<br /> </td> 
    <td> BIGINT<br /> </td> 
    <td> NUMBER(20)<br /> </td> 
-   <td> BIGINT<br /> </td> 
   </tr> 
   <tr> 
    <td> 日付<br /> </td> 
    <td> 日付<br /> </td> 
    <td> 日付<br /> </td> 
-   <td> DATETIME<br /> </td> 
   </tr> 
   <tr> 
    <td> 時間<br /> </td> 
    <td> 時間<br /> </td> 
-   <td> 浮動小数点<br /> </td> 
    <td> 浮動小数点<br /> </td> 
   </tr> 
   <tr> 
    <td> 日時<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> 日付<br /> </td> 
-   <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIMEOFFSET<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetimenotz<br /> </td> 
    <td> TIMESTAMPZ<br /> </td> 
    <td> 日付<br /> </td> 
-   <td> MS SQL &lt; 2008: DATETIME<br /> MS SQL &gt;= 2012: DATETIME2<br /> </td> 
   </tr> 
   <tr> 
    <td> 期間<br /> </td> 
    <td> 倍精度<br /> </td> 
-   <td> 浮動小数点<br /> </td> 
    <td> 浮動小数点<br /> </td> 
   </tr> 
   <tr> 
    <td> メモ<br /> </td> 
    <td> テキスト<br /> </td> 
    <td> CLOB （Unicode の場合は NCLOB）<br /> </td> 
-   <td> テキスト（Unicode の場合は NTEXT）<br /> </td> 
   </tr> 
   <tr> 
    <td> Blob<br /> </td> 
    <td> BLOB<br /> </td> 
    <td> BLOB<br /> </td> 
-   <td> 画像<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -282,17 +271,17 @@ The **`<elements>`** および **`<attributes>`** データスキーマの要素
 
   **例**：
 
-  ```
+  ```sql
   <attribute name="email" type="string" length="80" label="Email"/>
   ```
 
-  ラベルは、Adobe Campaign クライアントコンソールの入力フォームから確認できます。
+  ラベルは、Adobe Campaignクライアントコンソールの入力フォームに表示されます。
 
   ![](assets/d_ncs_integration_schema_label.png)
 
 * **desc** プロパティを使用すると、詳細な説明を入力できます。
 
-  説明は、Adobe Campaign クライアントコンソールのメイン画面のステータスバーにある入力フォームから確認できます。
+  説明は、Adobe Campaignクライアントコンソールのメインウィンドウのステータスバーにある入力フォームに表示されます。
 
   >[!NOTE]
   >
@@ -300,13 +289,13 @@ The **`<elements>`** および **`<attributes>`** データスキーマの要素
 
   **例**：
 
-  ```
+  ```sql
   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
   ```
 
 ### デフォルト値 {#default-values}
 
-**default** プロパティを使用すると、コンテンツ作成時にデフォルト値を返す式を定義できます。
+以下を使用します。 **デフォルト** プロパティを使用して、コンテンツ作成のデフォルト値を返す式を定義します。
 
 値は、XPath 言語に準拠した式である必要があります。 詳しくは、 [XPath を使用した参照](../../configuration/using/schema-structure.md#referencing-with-xpath).
 
@@ -319,9 +308,9 @@ The **`<elements>`** および **`<attributes>`** データスキーマの要素
 
   >[!NOTE]
   >
-  >Adobe Campaign クライアントコンソールでは、**[!UICONTROL 管理／カウンター]**&#x200B;ノードを使用してカウンターを管理します。
+  >Adobe Campaignクライアントコンソールで、 **[!UICONTROL [ 管理 ] > [ カウンタ ]]** カウンタを管理するエクスプローラのフォルダ。
 
-フィールドにデフォルト値をリンクするには、`<default>  or  <sqldefault>   field.  </sqldefault> </default>` を使用できます
+デフォルト値をフィールドにリンクするには、 `<default>`  または  `<sqldefault>`   フィールドに入力します。
 
 `<default>`：エンティティを作成時にデフォルト値をフィールドに事前入力できます。値はデフォルトの SQL 値ではありません。
 
@@ -329,13 +318,13 @@ The **`<elements>`** および **`<attributes>`** データスキーマの要素
 
 ### 列挙 {#enumerations}
 
-#### 任意の定義済みリスト {#free-enumeration}
+#### 列挙を開く {#free-enumeration}
 
-**userEnum** プロパティを使用すると、任意の定義済みリストを定義して、このフィールドに入力した値を記憶して表示することができます。構文は以下のようになります。
+The **userEnum** プロパティを使用すると、開いている列挙を定義して、このフィールドに入力した値を保存および表示できます。
 
-**userEnum=&quot;定義済みリスト名&quot;**
+構文は以下のようになります。
 
-定義済みリストに付与する名前は自由に選択でき、他のフィールドと共有できます。
+`userEnum="name of enumeration"`
 
 これらの値が、入力フォームのドロップダウンリストに表示されます。
 
@@ -343,7 +332,7 @@ The **`<elements>`** および **`<attributes>`** データスキーマの要素
 
 >[!NOTE]
 >
->Adobe Campaign クライアントコンソールでは、**[!UICONTROL 管理／定義済みリスト]**&#x200B;ノードを使用して、定義済みリストを管理します。
+>Adobe Campaignクライアントコンソールで、 **[!UICONTROL 管理/列挙]** 列挙を管理するエクスプローラーのフォルダー。
 
 #### 定義済みリストを設定 {#set-enumeration}
 
@@ -357,7 +346,7 @@ The **`<elements>`** および **`<attributes>`** データスキーマの要素
 
 データスキーマの定義済みリスト宣言の例：
 
-```
+```sql
 <enumeration name="gender" basetype="byte" default="0">    
   <value name="unknown" label="Not specified" value="0"/>    
   <value name="male" label="male" value="1"/>   
@@ -369,33 +358,31 @@ The **`<elements>`** および **`<attributes>`** データスキーマの要素
 
 定義済みリストのプロパティは次のとおりです。
 
-* **baseType**：値に関連付けられているデータのタイプ。
-* **label**：定義済みリストの説明。
-* **name**：定義済みリストの名前。
-* **default**：定義済みリストのデフォルト値。
+* **baseType**：値に関連付けられたデータのタイプ
+* **ラベル**：列挙の説明
+* **名前**：列挙の名前
+* **デフォルト**：列挙のデフォルト値
 
 定義済みリストの値は、次の属性を持つ **`<value>`** 要素で宣言します。
 
-* **name**：内部的に保存された値の名前。
-* **label**：グラフィカルインターフェイスで表示されるラベル
+* **名前**：内部的に保存されている値の名前
+* **ラベル**：グラフィカルインターフェイスに表示されるラベル
 
 #### dbenum 定義済みリスト {#dbenum-enumeration}
 
-* **dbenum** プロパティを使用すると、**enum** プロパティと類似したプロパティを持つ定義済みリストを定義できます。
+* **dbenum** プロパティを使用すると、 **enum** プロパティ。
 
-  ただし、**name** 属性は値を内部に格納するのではなく、スキーマを変更せずに関連するテーブルを拡張できるコードを格納します。
+ただし、**name** 属性は値を内部に格納するのではなく、スキーマを変更せずに関連するテーブルを拡張できるコードを格納します。
 
-  値は、**[!UICONTROL 管理／定義済みリスト]**&#x200B;ノードを介して定義します。
+この定義済みリストは、キャンペーンの特性を指定する場合などに使用します。
 
-  この定義済みリストは、キャンペーンの特性を指定する場合などに使用します。
-
-  ![](assets/d_ncs_configuration_schema_dbenum.png)
+![](assets/d_ncs_configuration_schema_dbenum.png)
 
 ### 例 {#example}
 
 プロパティが設定されたスキーマの例を示します。
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <enumeration name="gender" basetype="byte">    
     <value name="unknown" label="Not specified" value="0"/>    
@@ -422,7 +409,7 @@ The **`<elements>`** および **`<attributes>`** データスキーマの要素
 
 **例**：スキーマ内の **`<group>`** コレクション要素の定義。
 
-```
+```sql
 <element name="group" unbound="true" label="List of groups">
   <attribute name="label" type="string" label="Label"/>
 </element>
@@ -430,7 +417,7 @@ The **`<elements>`** および **`<attributes>`** データスキーマの要素
 
 XML コンテンツの投影を使用する場合：
 
-```
+```sql
 <group label="Group1"/>
 <group label="Group2"/>
 ```
@@ -473,8 +460,8 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 **例**：
 
 * **GetDate()**：現在の日付を返します。
-* **Year(@created)**：「created」属性に含まれる日付の年を返します。
-* **GetEmailDomain(@email)**:E メールアドレスのドメインを戻します。
+* **Year(@created)**:「created」属性に含まれる日付の年を戻します
+* **GetEmailDomain(@email)**:E メールアドレスのドメインを戻します
 
 ## 文字列計算を使用した文字列の作成 {#building-a-string-via-the-compute-string}
 
@@ -484,7 +471,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 **例**：受信者テーブルの文字列を計算します。
 
-```
+```sql
 <srcSchema name="recipient" namespace="nms">  
   <element name="recipient">
     <compute-string expr="@lastName + ' ' + @firstName +' (' + @email + ')' "/>

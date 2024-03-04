@@ -5,9 +5,9 @@ description: データベースマッピング
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
-source-git-commit: f03e72d4ecd17446264adf74603aefca95f99d41
+source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '939'
 ht-degree: 57%
 
 ---
@@ -222,3 +222,13 @@ FDA テーブルについて詳しくは、 [外部データベースへのア�
 ```
 
 「companyEmail」名前キーの定義が「company」リンクの外部キーで拡張されました。 このキーは、両方のフィールドで一意のインデックスを生成します。
+
+## 詳細情報
+
+詳しくは、次のリンクを参照してください。
+
+* [スキーマの基本を学ぶ](about-schema-reference.md)
+* [スキーマの構造](schema-structure.md)
+* [データベースマッピング](database-mapping.md)
+* [鍵の管理](database-keys.md)
+* [Campaign データモデル](about-data-model.md)

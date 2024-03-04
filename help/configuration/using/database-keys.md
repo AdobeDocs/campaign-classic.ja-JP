@@ -5,10 +5,10 @@ description: データスキーマでの鍵管理の理解
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
-source-git-commit: f03e72d4ecd17446264adf74603aefca95f99d41
+source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 22%
+source-wordcount: '625'
+ht-degree: 23%
 
 ---
 
@@ -180,3 +180,13 @@ Adobe Campaignスキーマで参照されるシーケンス (**NmsTrackingLogId*
 >
 >プライマリキーが 0 に設定されたレコードは、テーブルの作成時に自動的に挿入されます。このレコードは、外部結合を避けるために使用されます。外部結合はボリュームテーブルでは有効ではありません。デフォルトでは、外部キーはすべて値 0 で初期化されるので、データ項目が入力されていない場合でも常に、結合時に結果を返します。
 
+
+## 詳細情報
+
+詳しくは、次のリンクを参照してください。
+
+* [スキーマの基本を学ぶ](about-schema-reference.md)
+* [スキーマの構造](schema-structure.md)
+* [データベースマッピング](database-mapping.md)
+* [リンク管理](database-links.md)
+* [Campaign データモデル](about-data-model.md)

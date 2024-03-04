@@ -9,10 +9,10 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
+source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 68%
+source-wordcount: '1521'
+ht-degree: 67%
 
 ---
 
@@ -485,3 +485,14 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 >[!NOTE]
 >
 >スキーマに文字列計算が含まれていない場合、デフォルトでは、スキーマのプライマリキーの値が文字列計算に入力されます。
+
+
+## 詳細情報
+
+詳しくは、次のリンクを参照してください。
+
+* [スキーマの基本を学ぶ](about-schema-reference.md)
+* [データベースマッピング](database-mapping.md)
+* [リンク管理](database-links.md)
+* [鍵の管理](database-keys.md)
+* [Campaign データモデル](about-data-model.md)

@@ -5,7 +5,7 @@ description: データスキーマでの鍵管理の理解
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
-source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
+source-git-commit: 4a29c189e1e438bbb90067ece63ced0196c618ec
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 23%
@@ -28,7 +28,6 @@ ht-degree: 23%
 ```
 
 キーが入力されるスキーマ内の最初のキーである場合、またはキーに `internal` 属性が「true」に設定されている場合にのみ有効です。
-
 
 次のルールがキーに適用されます。
 

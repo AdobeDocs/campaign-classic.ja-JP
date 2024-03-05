@@ -6,10 +6,10 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用�
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 8bb839bd0118010ac8e3e4bde88f6f3972786ed0
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 100%
+source-wordcount: '1376'
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
   この暗号化方法は、暗号化された Adobe Campaign 識別子（ID）を使用します。この方法は、Adobe Campaign オブジェクトにのみ適用でき、暗号化された ID は、Adobe Campaign プラットフォームでのみ生成できます。
 
-  この方法を使用する場合、パラメーター **`<%=escapeUrl(recipient.cryptedId) %>`** を追加することで、フォームの URL を適応させて、E メールアドレスに配信する必要があります。詳しくは、[E メールによるフォームの配信](#delivering-a-form-via-email)を参照してください。
+  この方法を使用する場合、パラメーター **`<%=escapeUrl(recipient.cryptedId) %>`** を追加することで、フォームの URL を適応させて、メールアドレスに配信する必要があります。詳しくは、[メールによるフォームの配信](#delivering-a-form-via-email)を参照してください。
 
 * **[!UICONTROL DES 暗号化]**
 
@@ -47,9 +47,9 @@ Web フォームを使用して、データベースに格納されたプロフ�
   >
   >選択されたフィールドのデータは、暗号化されません。「**[!UICONTROL フィールドリスト]**」オプションが選択されている場合、Adobe Campaign で復号化できないので、暗号化されたフォームで提供しないようにする必要があります。
 
-  次の例では、プリロードされるプロファイルは E メールアドレスに基づいています。
+  次の例では、プリロードされるプロファイルはメールアドレスに基づいています。
 
-  ユーザーが関連するページに直接アクセスできる場合、URL には、暗号化されていない E メールアドレスを含めることができます。
+  ユーザーが関連するページに直接アクセスできる場合、URL には、暗号化されていないメールアドレスを含めることができます。
 
   ![](assets/s_ncs_admin_survey_preload_methods_003.png)
 
@@ -81,7 +81,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 フォームのライフサイクルには、次の 3 つのステージがあります。
 
-1. **フォーム編集中**
+1. **編集中**
 
    これは、最初のデザインフェーズです。新しいフォームが作成されると、編集フェーズになります。テスト目的でのみ、フォームにアクセスし、パラメーター **[!UICONTROL __uuid]** をその URL で使用する必要があります。この URL は、「**[!UICONTROL プレビュー]**」サブタブでアクセスできます。[フォーム URL パラメーター](defining-web-forms-properties.md#form-url-parameters)を参照してください。
 
@@ -89,21 +89,33 @@ Web フォームを使用して、データベースに格納されたプロフ�
    >
    >フォームが編集されている限り、そのアクセス URL は、特別な URL です。
 
-1. **フォームオンライン**
+1. **公開保留中**
 
-   デザインフェーズが完了すると、フォームは配信できます。最初に、パブリッシュする必要があります。詳しくは、[フォームのパブリッシュ](#publishing-a-form)を参照してください。
+   場合によっては ( 例えば [パッケージを使用したフォームの読み込み](#import-web-packages)) を使用する場合、Web フォームは **[!UICONTROL 公開保留中]** ステータスを有効にします。
+
+   >[!NOTE]
+   >
+   >技術的な Web アプリケーションの場合 ( **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL Web アプリケーション]** メニュー )、 **[!UICONTROL 公開保留中]** ステータスは自動的に [公開済み](#publishing-a-form) を取得し、 **[!UICONTROL オンライン]** ステータス。
+
+1. **オンライン**
+
+   デザインフェーズが完了すると、フォームは配信できます。
+
+   フォームが **[!UICONTROL 編集中]** または **[!UICONTROL 公開保留中]** ステータス、必ず [公開済み](#publishing-a-form) ブラウザーの web フォーム URL を通じてオンラインでアクセスできるようにする。
+
+   公開されると、フォームは有効期限が切れるまで有効になります。
 
    フォームは、有効期限が切れるまで、**[!UICONTROL ライブ]**&#x200B;になります。
 
    >[!CAUTION]
    >
-   >配信するには、調査の URL には、**[!UICONTROL __uuid]** パラメーターを含めないようにする必要があります。
+   >配信するには、フォームの URL に **[!UICONTROL __uuid]** パラメーター。
 
-1. **フォーム使用不可**
+1. **閉じる**
 
    フォームが閉じられると、配信フェーズが終了し、フォームは使用できなくなり、ユーザーはフォームにアクセスできなくなります。
 
-   期日は、フォームプロパティウィンドウで定義できます。詳しくは、[フォームをオンラインで利用できるようにする](#making-a-form-available-online)を参照してください。
+   期日は、フォームプロパティウィンドウで定義できます。詳しくは、 [フォームをオンラインで利用できるようにする](#making-a-form-available-online).
 
 フォームのパブリッシュステータスがフォームのリストに表示されます。
 
@@ -127,9 +139,9 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
   [フォームのアクセシビリティ](defining-web-forms-properties.md#accessibility-of-the-form)を参照してください。
 
-### E メールによるフォームの配信 {#delivering-a-form-via-email}
+### メールによるフォームの配信 {#delivering-a-form-via-email}
 
-E メールで招待状を配信する場合、データの紐付けに「**[!UICONTROL Adobe Campaign の暗号化]**」オプションを使用できます。これをおこなうには、配信ウィザードに移動して、次のパラメーターを追加することで、リンクをフォームに適応させます。
+メールで招待状を配信する場合、データの紐付けに「**[!UICONTROL Adobe Campaign の暗号化]**」オプションを使用できます。これをおこなうには、配信ウィザードに移動して、次のパラメーターを追加することで、リンクをフォームに適応させます。
 
 ```
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">
@@ -156,3 +168,35 @@ E メールで招待状を配信する場合、データの紐付けに「**[!UI
 ![](assets/s_ncs_admin_survey_trace_edit.png)
 
 例えば、リマインダーの送信時に非回答者のみをターゲットにしたり、回答者のみに特別なコミュニケーションを提供したりするために、クエリで提供された回答ログを処理できます。
+
+### Web フォームパッケージの読み込み {#import-web-packages}
+
+Web フォームを含むパッケージをインスタンスから別のインスタンスに書き出して読み込む場合（例えば、ステージから実稼動へ）、新しいインスタンスの Web フォームのステータスは、複数の条件に応じて異なる場合があります。 様々なケースを以下に示します。
+
+Web フォームの様々なステータスについて詳しくは、 [この節](#life-cycle-of-a-form).
+
+>[!NOTE]
+>
+>パッケージを介して Web フォームを書き出すと、フォームのステータスが結果のパッケージのコンテンツに表示されます。
+
+* Web フォームのステータスが **[!UICONTROL 公開保留中]** または **[!UICONTROL オンライン]** 最初のインスタンスから書き出した場合：
+
+   * Web フォームが **[!UICONTROL 公開保留中]** 新しいインスタンスでインポートした際のステータス。
+
+   * 新しいインスタンスに Web フォームが既に存在する場合は、新しいバージョンのフォームに置き換えられ、 **[!UICONTROL 公開保留中]** ステータス ( 古いバージョンのフォームが **[!UICONTROL オンライン]**.
+
+   * フォームが存在するかどうかに関係なく、フォームは次の条件を満たす必要があります。 [公開済み](#publishing-a-form) ～になる **[!UICONTROL オンライン]** を新しいインスタンスで使用し、ブラウザーの web フォーム URL からアクセスできるようにします。
+
+* Web フォームのステータスが **[!UICONTROL 編集中]** 書き出し時：
+
+   * パッケージが読み込まれるインスタンス上で Web フォームが新規の場合、Web フォームは **[!UICONTROL 編集中]** ステータス。
+
+   * 新しいインスタンスに Web フォームが既に存在する場合、これは既存のフォームに対する変更です。 フォームの古いバージョンが **[!UICONTROL オンライン]**&#x200B;に設定した場合、新しいバージョンのフォームが [公開済み](#publishing-a-form) 新しいインスタンスで再び
+
+  >[!NOTE]
+  >
+  >Web フォームの最新バージョンを確認するには、 **[!UICONTROL プレビュー]** タブをクリックします。
+
+<!--For RN:
+* Now, when a web form has the **Pending publication** status, it must be published before it becomes **Online** and accessible through the web form URL in a web browser. [Read more](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
+-->

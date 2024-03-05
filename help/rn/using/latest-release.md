@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 23f2565cc847805cff6df028935f74404cdcff24
+source-git-commit: 517f09e508207b14e6b870f926753b2d9a547262
 workflow-type: tm+mt
-source-wordcount: '2278'
-ht-degree: 100%
+source-wordcount: '2319'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,8 @@ _2023年12月5日（PT）_
 * Campaign Classic v7.3.5 では、認証プロセスが改善され、セキュリティが強化されました。テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/using/ims-migration.md)を参照してください。
 
 * また、セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign では、エンドユーザー認証モードをログイン／パスワードのネイティブ認証から Adobe Identity Management System（IMS）に移行することを強く推奨しています。オペレーターを移行する方法については、[このテクニカルノート](../../technotes/using/migrate-users-to-ims.md)を参照してください。
+
+* Web フォームが **公開保留中** ステータスの場合、自動的にはライブになりません。 セキュリティ上の問題を防ぐには、問題が発生する前に公開する必要があります **オンライン** Web ブラウザーの Web フォーム URL を通じてアクセスできる [詳細情報](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
 
 ### パッチ {#release-7-3-5-patches}
 

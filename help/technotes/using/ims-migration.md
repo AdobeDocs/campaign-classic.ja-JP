@@ -4,10 +4,10 @@ description: Campaign テクニカルオペレーターを Adobe Developer Conso
 feature: Technote
 role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
-source-git-commit: b2c37e2426d3b6ba5174d4a446320e0f50485a76
+source-git-commit: 17a43a6e2e3ee7a3a2b81545bf96d766e6e97a05
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 98%
+source-wordcount: '1738'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 98%
 セキュリティと認証プロセスを強化する取り組みの一環として、Campaign Classic v7.3.5 以降、Campaign Classic への認証プロセスが改善されています。テクニカルオペレーターは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} to connect to Campaign. Learn more about the new server to server authentication process in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を使用する必要があります。**アドビでは、Campaign v8 にスムーズに移行できるように、Campaign v7.3.5 でこの移行を実行することをお勧めします。**
 
 テクニカルオペレーターは、API 統合用に明示的に作成された Campaign ユーザープロファイルです。この記事では、Adobe Developer Console からテクニカルオペレーターをテクニカルアカウントに移行するために必要な手順について詳しく説明します。
-
 
 ## 影響の有無{#ims-impacts}
 
@@ -53,7 +52,7 @@ Campaign の外部システムから Campaign マーケティングインスタ�
 
 * Campaign ホスト環境および Managed Services 環境のお客様
 
-  Message Center インスタンスへの API 呼び出しの場合、Campaign v7.3.5（またはその他の[IMS 移行互換バージョン](#ims-versions-tech)）へのアップグレード中や、インスタンスのプロビジョニング中に製品プロファイルを作成する必要があります。この製品プロファイルの名前を以下に示します。
+  Message Center インスタンスへの API 呼び出しの場合、Campaign v7.3.5（または他のバージョン）へのアップグレード中に、製品プロファイル（以下で説明）を作成する必要があります [IMS 移行互換バージョン](#ims-versions-tech))、またはインスタンスのプロビジョニング中に削除されます。 製品プロファイルが表示されない場合は、移行マネージャーまたはカスタマーサポートに問い合わせて、IMS 移行を開始する前に作成した製品プロファイルを入手してください。 この製品プロファイルの名前を以下に示します。
 
   `campaign - <your campaign instance> - messagecenter`
 

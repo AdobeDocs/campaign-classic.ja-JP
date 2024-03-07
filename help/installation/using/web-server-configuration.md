@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Web サーバー設定
+title: Web サーバーの設定
 description: Web サーバー設定の主なベストプラクティスの詳細を説明します
 feature: Installation, Instance Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
@@ -8,14 +8,14 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 39%
+source-wordcount: '294'
+ht-degree: 26%
 
 ---
 
-# Web サーバー設定 {#web-server-configuration}
+# Web サーバーの設定 {#web-server-configuration}
 
 
 
@@ -27,8 +27,8 @@ Web サーバー (Apache/IIS) の設定に関する主なベストプラクテ�
 
   **Apache 上**、/etc/apache2/mods-available/ssl.confを編集します。 次に例を示します。
 
-   * SSLProtocol all -SSLv2 -SSLv3 -TLSv1
-   * SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1
+   * `SSLProtocol all -SSLv2 -SSLv3 -TLSv1`
+   * `SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1`
 
   **IIS の場合** ( [ドキュメント](https://support.microsoft.com/en-us/kb/245030)) で、次の設定を実行します。
 
@@ -52,7 +52,7 @@ Web サーバー (Apache/IIS) の設定に関する主なベストプラクテ�
   **IIS の場合** ( [ドキュメント](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)) で、次の設定を実行します。
 
    * **要求フィルタリング**&#x200B;の役割サービスまたは機能がインストールされていることを確認します。
-   * **要求フィルタリング**&#x200B;パネルで「HTTP 動詞」タブをクリックし、「動詞の拒否」をクリックします。アクションパネルで、開くダイアログに「TRACE」と入力します。
+   * Adobe Analytics の **リクエストのフィルター** ウィンドウで、[ HTTP 動詞 ] タブをクリックし、[ 動詞の拒否 ] をクリックします。 アクションウィンドウで、開くダイアログに「TRACE」と入力します。
 
 * バナーを削除します。
 
@@ -68,7 +68,7 @@ Web サーバー (Apache/IIS) の設定に関する主なベストプラクテ�
 
 * クエリのサイズを制限して、重要なファイルがアップロードされないようにします。
 
-  **** Apache で、**LimitRequestBody** ディレクティブ（サイズはバイト単位で指定）を / ディレクトリに追加します。
+  **Apache 上**、 **LimitRequestBody** ディレクティブ ( サイズ（バイト単位）) は/ディレクトリにあります。
 
   ```
   <Directory />

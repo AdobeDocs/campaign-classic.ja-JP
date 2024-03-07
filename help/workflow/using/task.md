@@ -5,7 +5,7 @@ description: タスクワークフローアクティビティの詳細を説明�
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->:warning: この機能は、Campaign Classic v7 でのみ使用できます。[詳細情報](../../mrm/using/creating-and-managing-tasks.md)
+>`:warning:` この機能は、Campaign Classic v7 でのみ使用できます。[詳細情報](../../mrm/using/creating-and-managing-tasks.md)
 
 キャンペーンワークフローでは、「**[!UICONTROL タスク]**」アクティビティで 2 つのシナリオを指定できます。1 つはタスクが完了した場合、もう 1 つはタスクが完了しなかった場合（手動で未完了とマークした場合、または期限切れとなった場合）。
 

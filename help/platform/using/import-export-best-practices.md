@@ -9,10 +9,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '530'
+ht-degree: 99%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 * 区切り記号：タブまたはセミコロン
 * 最初の行は見出し
 * 文字列の区切り記号なし
-* 日付フォーマット：YYYY/MM/DD HH:mm:SS
+* 日付の形式： `YYYY/MM/DD HH:mm:SS`
 
 インポートするファイルの例：
 

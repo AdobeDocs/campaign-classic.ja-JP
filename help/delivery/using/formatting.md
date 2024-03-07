@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 feature: Email Design
 role: User, Developer, Data Engineer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '1470'
-ht-degree: 100%
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
+workflow-type: tm+mt
+source-wordcount: '1465'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## JavaScript テンプレート {#javascript-templates}
 
-JavaScript テンプレートは、JavaScript コードを含む HTML ドキュメントまたはテキストドキュメントです。JavaScript テンプレートは、配信アクションにおける E メールコンテンツの構築と同じ方法で構築します。
+JavaScript テンプレートは、JavaScript コードを含む HTML ドキュメントまたはテキストドキュメントです。JavaScript テンプレートは、配信アクションにおけるメールコンテンツの構築と同じ方法で構築します。
 
 ### JavaScript テンプレートの識別 {#identification-of-a-javascript-template}
 
@@ -565,7 +565,7 @@ HTML 出力ドキュメントに入力する画像は、絶対参照または相
 
 ## 日付の表示 {#date-display}
 
-XML 入力ドキュメントでは、日付は内部 XML 形式 **YYYY/MM/DD HH:MM:SS**（例：2018/10/01 12:23:30）で保存されます。
+XML 入力ドキュメントでは、日付は内部 XML 形式で保存されます。 **`YYYY/MM/DD HH:MM:SS`** ( 例 `2018/10/01 12:23:30`) をクリックします。
 
 Adobe Campaign には、以下に詳しく説明するように、JavaScript テンプレートと XSL スタイルシート用の日付書式設定関数が用意されています。
 

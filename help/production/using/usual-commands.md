@@ -9,10 +9,10 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 10%
+source-wordcount: '421'
+ht-degree: 9%
 
 ---
 
@@ -164,5 +164,5 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 >* パラメーターのリストを取得するには、 **-?** パラメーター： **nlserver 設定 —?**
 >* データベースの場合は、Oracleを指定しないでください。 構文は次のようになります。
 >
->  nlserver config -setdblogin:Oracle:test6@dbserver
+>  `nlserver config -setdblogin:Oracle:test6@dbserver`
 >

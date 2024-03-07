@@ -6,10 +6,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Mobile SDK Integration, Push
 role: User, Developer
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '1004'
-ht-degree: 100%
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
+workflow-type: tm+mt
+source-wordcount: '995'
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 登録関数によってできることは次のとおりです。
 
 * 通知 ID またはプッシュ ID（iOS の deviceToken および Android の registrationID）を Adobe Campaign に送信します。
-* 紐付けキーまたは userKey（例えば E メールやアカウント番号）を復元します。
+* 紐付けキーまたは userKey（例えばメールやアカウント番号）を復元します。
 
 * **Android**：
 
@@ -297,7 +297,7 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 
   >[!NOTE]
   >
-  >バージョン 7.0 以降は、**application:didReceiveRemoteNotification:fetchCompletionHandler** 関数を実装すると、オペレーティングシステムはこの関数のみを呼び出します。したがって、**application:didReceiveRemoteNotification** 関数は呼び出されません。
+  >バージョン 7.0 以降、 **`application:didReceiveRemoteNotification:fetchCompletionHandler`** 関数が実装されている場合、オペレーティングシステムはこの関数のみを呼び出します。 The **`application:didReceiveRemoteNotification`** 関数が呼び出されることはありません。
 
 +++
 

@@ -9,10 +9,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 4%
+source-wordcount: '503'
+ht-degree: 3%
 
 ---
 
@@ -52,11 +52,11 @@ Adobe Campaignのインスタンス内で埋め込み Tomcat のバージョン�
 
 例えば、 *ServerInfo.properties* Adobe Campaign用のファイルには、Tomcat v8.5.X を示す次の情報が含まれます。
 
-*server.info=Apache Tomcat/8.5.X*
+*`server.info=Apache Tomcat/8.5.X`*
 
-*server.number=8.5.X.Y*
+*`server.number=8.5.X.Y`*
 
-*server.build=MM DD YYY HH:MM:SS*
+*`server.built=MM DD YYY HH:MM:SS`*
 
 特定のインスタンスで使用する Tomcat の正確なバージョンを確立できたら、Tomcat に関する問題のトラブルシューティングに役立つ場合があります。
 

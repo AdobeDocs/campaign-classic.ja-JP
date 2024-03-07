@@ -8,10 +8,10 @@ feature: Deliverability
 hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 88%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 100%
 
 ## コンテキスト{#update-bounce-context}
 
-ISP が機能停止した場合、Campaign 経由で送信された E メールは、受信者に正常に届きません。これらの E メールは、誤ってバウンスと見なされます。
+ISP が機能停止した場合、Campaign 経由で送信されたメールは、受信者に正常に届きません。これらのメールは、誤ってバウンスと見なされます。
 
 例えば、Apple や Gmail でのグローバルな問題により、有効な Apple や Gmail のメールアドレスに送信された一部のメールメッセージが、ISP サーバーによって無効なメールアドレスとして誤ってハードバウンスされ、次の応答でバウンスされる可能性があります。
 
 * 「550 5.1.1 &#39;メールアドレス&#39;: ユーザー検索は成功しましたが、ユーザーレコードが見つかりませんでした。」
 
-* 「550 &#39;メールアドレス&#39; の受信者が拒否されました」
+* &quot;550 &#39;E メールアドレス&#39;受信者が却下されました&quot;
 
-「452 リクエストしたアクションが中止されました : 後でもう一度試してください」というメッセージが表示される遅延バウンスが発生している場合、これらは自動的に再試行され、アクションは必要ありません。ISP の処理能力が完全に回復すると、これらは改善されます。
+「452 requested action aborted: try again later」というメッセージを含む遅延バウンスが発生した場合は、自動的に再試行され、アクションは不要です。 ISP の処理能力が完全に回復すると、これらは改善されます。
 
 >[!NOTE]
 >
@@ -52,21 +52,21 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 
 インシデントの期間と ISP に基づいた、このクエリの推奨ガイドラインを以下に示します。
 
-* 強制隔離リストの「**[!UICONTROL エラーテキスト]**」フィールドにインバウンドメールのルール情報が含まれている Campaign 環境の場合：
+* 強制隔離リストの「**[!UICONTROL エラーテキスト]**」フィールドにインバウンドメールルール情報が含まれている Campaign 環境の場合：
 
    * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
    * **メールドメイン（@domain）**&#x200B;が domain1.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain2.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain3.com と等しい
-   * **更新ステータス（@lastModified）**&#x200B;が YYYY/MM/DD 午前 HH:MM:SS 以降
-   * **更新ステータス（@lastModified）**&#x200B;が YYYY/MM/DD 午後 HH:MM:SS 以前
+   * **ステータスを更新 (@lastModified)** 以降 `MM/DD/YYYY HH:MM:SS AM`
+   * **ステータスを更新 (@lastModified)** 以前 `MM/DD/YYYY HH:MM:SS PM`
 
 * 強制隔離リストの「**[!UICONTROL エラーテキスト]**」フィールドに SMTP バウンス応答情報が含まれている Campaign 環境の場合：
 
-   * **エラーテキスト（強制隔離テキスト）**&#x200B;に「550-5.1.1」が含まれ、かつ&#x200B;**エラーテキスト（強制隔離テキスト）**&#x200B;に「support.ISP.com」が含まれている
+   * **エラーテキスト（強制隔離テキスト）**&#x200B;には、「550-5.1.1」が含まれ、かつ&#x200B;**エラーテキスト（強制隔離テキスト）**&#x200B;には、「support.ISP.com」が含まれている
 
      例えば、「support.ISP.com」は「support.apple.com」または「support.google.com」になります
 
-   * **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS AM 以降）
-   * **更新ステータス（@lastModified）**&#x200B;が YYYY/MM/DD 午後 HH:MM:SS 以前
+   * **ステータスを更新 (@lastModified)** 以降 `MM/DD/YYYY HH:MM:SS AM`
+   * **ステータスを更新 (@lastModified)** 以前  `MM/DD/YYYY HH:MM:SS PM`
 
 
 影響を受けた受信者のリストを取得したら、ステータスを&#x200B;**[!UICONTROL 有効]**&#x200B;に設定して&#x200B;**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローにより強制隔離リストから削除されるようにするか、テーブルからただ削除します。

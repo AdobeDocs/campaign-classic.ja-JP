@@ -5,10 +5,10 @@ description: この節では、Adobe Campaign Classic トランザクション�
 feature: Transactional Messaging, Message Center, Architecture
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 アドビでは、**トランザクションメッセージパッケージをインストールする前に、必ず配信チャネルパッケージを追加する**&#x200B;ことをお勧めします。
 
-E メールチャネルのトランザクションメッセージプロジェクトを開始し、プロジェクトの最中に新規でチャネルを追加することにした場合は、次の手順に従います。
+メールチャネルのトランザクションメッセージプロジェクトを開始し、プロジェクトの最中に新規でチャネルを追加することにした場合は、次の手順に従います。
 
 >[!NOTE]
 >
@@ -157,7 +157,7 @@ You also have to enable the unitary mode on your offer spaces. For more on this,
          <urn:domEvent>
 
               <rtEvent wishedChannel="41" type="DELIVERY" registrationToken="2cefnefzef758398493srefzefkzq483974">
-                <mobileApp _operation=”none” uuid="com.adobe.NeoMiles"/>
+                <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
                     <url>http://www.adobe.com</url>
@@ -222,7 +222,7 @@ LINE チャネルとトランザクションメッセージを組み合わせる
    * **[!UICONTROL サーバー]**：キャンペーンのサーバー URL（実行インスタンスのもの）を入力します。
    * **[!UICONTROL アカウント]**：実行インスタンスへのアクセスに使用するアカウントを入力します。
    * **[!UICONTROL パスワード]**：実行インスタンスへのアクセスに使用するアカウントのパスワードを入力します。
-   * **[!UICONTROL データソース]**：**[!UICONTROL nms:extAccount:ID]** の構文で実行インスタンスの外部データベースアカウントを入力します。
+   * **[!UICONTROL データソース]** ：次の構文を入力します。 **`nms:extAccount:ID`** 実行インスタンス内の外部データベースアカウントの
 
 1. **マーケティング**&#x200B;インスタンスで、して、データ同期ワークフローを作成するための&#x200B;**[!UICONTROL 実行インスタンス]**&#x200B;外部アカウントを次の設定で作成します。
 

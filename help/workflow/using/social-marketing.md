@@ -4,8 +4,8 @@ title: ソーシャルマーケティング
 description: ソーシャルマーケティングテクニカルワークフローの詳細を説明します
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
+workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->:warning: この機能は、Campaign Classic v7 でのみ使用できます。[詳細情報](../../social/using/about-social-marketing.md)
+>`:warning:` この機能は、Campaign Classic v7 でのみ使用できます。[詳細情報](../../social/using/about-social-marketing.md)
 
 以下に説明するワークフローは、デフォルトで&#x200B;**ソーシャルマーケティング**&#x200B;モジュールと共にインストールされます。
 
@@ -47,12 +47,12 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">Twitter 統計の計算</span> <br /> </td> 
    <td> <span class="uicontrol">statsTwitter</span> <br /> </td> 
-   <td> このワークフローは、X（旧 Twitter）でのリツイートと訪問にリンクされた統計を計算します。<br /> </td> 
+   <td> このワークフローでは、X（旧 Twitter）でのリツイートと訪問にリンクされた統計を計算します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Twitter アカウントとの同期</span> <br /> </td> 
    <td> <span class="uicontrol">syncTwitter</span> <br /> </td> 
-   <td> このワークフローは、毎日午前 7 時に X のフォロワーを Adobe Campaign に読み込みます。<br /> </td> 
+   <td> このワークフローでは、毎日午前 7 時に X のフォロワーを Adobe Campaign に読み込みます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

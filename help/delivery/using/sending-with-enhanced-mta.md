@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '1378'
-ht-degree: 100%
+source-git-commit: bc6f5d569d0c8a5eba4499a854af370258ce83a2
+workflow-type: tm+mt
+source-wordcount: '1407'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 **Adobe Campaign Enhanced MTA**（メール転送エージェント）は、アップグレードされた送信インフラストラクチャを提供し、配信品質、評判、スループット、レポート、バウンス処理、IP ランプアップ、接続設定管理を向上します。
 
-Adobe Campaign Enhanced MTA は、スケーラビリティの向上、配信スループットの増加、より多くの E メールをより速く送信できるように実装されています。これは、インターネットサービスプロバイダーからのフィードバックに基づいて E メール送信設定をリアルタイムに変更する、新しいアダプティブ配信のテクニックを活用して達成されます。
+Adobe Campaign Enhanced MTA は、スケーラビリティの向上、配信スループットの増加、より多くのメールをより速く送信できるように実装されています。これは、インターネットサービスプロバイダーからのフィードバックに基づいてメール送信設定をリアルタイムに変更する、新しいアダプティブ配信のテクニックを活用して達成されます。
 
 >[!IMPORTANT]
 >
@@ -45,12 +45,12 @@ Momentum は、インボックスの最適な配信率を達成し維持する�
 **メリットは何ですか？**
 
 * Enhanced MTA を使用する Adobe Campaign クライアントは、<!--300%-->全体的なスループット速度が大幅に向上し、<!--90%+-->ソフトバウンスも大きく低下しています。
-* Enhanced MTA は、最新の MTA テクノロジーを使用して、E メール配信の最適なスループット速度を提供します。
-* 受け取ったフィードバックに即時に自動的に適応させることで、リアルタイムの配信データを使用した、より正確でインテリジェントな E メール配信も実現します。
+* Enhanced MTA は、最新の MTA テクノロジーを使用して、メール配信の最適なスループット速度を提供します。
+* 受け取ったフィードバックに即時に自動的に適応させることで、リアルタイムの配信データを使用した、より正確でインテリジェントなメール配信も実現します。
 
 **ネイティブの Adobe Campaign MTA と Enhanced MTA を同時に使用できますか？**
 
-いいえ。インスタンスのアップグレード後は、E メール配信に Enhanced MTA のみ使用できます。
+いいえ。インスタンスのアップグレード後は、メール配信に Enhanced MTA のみ使用できます。
 
 <!--
 **Is there a fee associated with upgrading my instance to and subsequent use of the Enhanced MTA?**
@@ -77,19 +77,19 @@ No, there is no extra fee associated with the upgrade process to enable the use 
 
 **インスタンスを Enhanced MTA にアップグレードするプロセスとはどのようなものですか？**
 
-ホストされるインスタンスのプロセス全体で、数分のダウンタイムが必要です。アドビは、アップグレード後 24 時間まで E メールのスループットと配信品質を監視し、E メール配信に与える影響を評価します。
+ホストされるインスタンスのプロセス全体で、数分のダウンタイムが必要です。アドビは、アップグレード後 24 時間までメールのスループットと配信品質を監視し、メール配信に与える影響を評価します。
 
 問題が検出された場合、アドビは、インスタンスをネイティブ Adobe Campaign MTA にすばやく一時的に戻すことができます。
 
-現在、Enhanced MTA は E メールチャネルにのみ影響します。プッシュ通知と SMS 配信は、引き続きネイティブ Campaign MTA を使用し、アップグレードの影響は受けません。
+現在、Enhanced MTA はメールチャネルにのみ影響します。プッシュ通知と SMS 配信は、引き続きネイティブ Campaign MTA を使用し、アップグレードの影響は受けません。
 
 **Enhanced MTA にアップグレードした後、IP のウォーミングを再度おこなう必要がありますか？**
 
-いいえ。アップグレードする際に新しい IP に切り替える必要がないので、ウォーミングがおこなわれた既存の E メール IP を引き続き使用できます。
+いいえ。アップグレードする際に新しい IP に切り替える必要がないので、ウォーミングがおこなわれた既存のメール IP を引き続き使用できます。
 
 **Enhanced MTA へのアップグレードは、現在進行中のキャンペーンや配信に影響を与えますか？**
 
-Adobe Campaign トランザクションメッセージ機能を使用する顧客の場合、E メールをトリガーする API 呼び出しは、アップグレードの非常に短いダウンタイム中にキューに入り、アップグレードの完了時に試行されます。
+Adobe Campaign トランザクションメッセージ機能を使用する顧客の場合、メールをトリガーする API 呼び出しは、アップグレードの非常に短いダウンタイム中にキューに入り、アップグレードの完了時に試行されます。
 
 ## Enhanced MTA の特異性 {#enhanced-mta-impacts}
 
@@ -109,9 +109,13 @@ Campaign **[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウン�
 
 バウンスの選定について詳しくは、[この節](understanding-delivery-failures.md#bounce-mail-qualification)を参照してください。
 
+### 配信
+
+配信は、Enhanced MTA に転送された後は停止できません。配信は、 **[!UICONTROL 停止]** ステータスが Campaign に表示されます。
+
 ### 配信スループット
 
-Campaign 配信スループットグラフでは、E メール受信者に対するスループットが表示されなくなります。グラフには Campaign から Enhanced MTA へのメッセージのリレーのスループット速度が表示されるようになりました。
+Campaign 配信スループットグラフでは、メール受信者に対するスループットが表示されなくなります。グラフには Campaign から Enhanced MTA へのメッセージのリレーのスループット速度が表示されるようになりました。
 
 配信スループットについて詳しくは、[この節](../../reporting/using/global-reports.md#delivery-throughput)を参照してください。
 
@@ -133,11 +137,11 @@ Campaign 配信スループットグラフでは、E メール受信者に対す
 
 ### DKIM 署名
 
-DKIM（DomainKeys Identified Mail）E メール認証の署名は、Enhanced MTA によっておこなわれます。ネイティブの Campaign MTA による DKIM 署名は、Enhanced MTA アップグレードの一環として、ドメイン管理テーブル内で無効になります。DKIM の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
+DKIM（DomainKeys Identified Mail）メール認証の署名は、Enhanced MTA によっておこなわれます。ネイティブの Campaign MTA による DKIM 署名は、Enhanced MTA アップグレードの一環として、ドメイン管理テーブル内で無効になります。DKIM の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
 
 ### 配信成功レポート
 
-E メール配信[ダッシュボード](delivery-dashboard.md)の&#x200B;**[!UICONTROL 概要]**&#x200B;表示では、**[!UICONTROL 成功]**&#x200B;のパーセンテージは 100%から開始し、配信[有効期間](steps-sending-the-delivery.md#defining-validity-period)を通してソフトバウンスとハードバウンスが Enhanced MTA から Campaign に返されるたびに、徐々に減少します。
+メール配信[ダッシュボード](delivery-dashboard.md)の&#x200B;**[!UICONTROL 概要]**&#x200B;表示では、**[!UICONTROL 成功]**&#x200B;のパーセンテージは 100%から開始し、配信[有効期間](steps-sending-the-delivery.md#defining-validity-period)を通してソフトバウンスとハードバウンスが Enhanced MTA から Campaign に返されるたびに、徐々に減少します。
 
 実際、すべてのメッセージは、Campaign から Enhanced MTA へ正常に中継されるとすぐに、[送信ログ](delivery-dashboard.md#delivery-logs-and-history)に&#x200B;**[!UICONTROL 送信済み]**&#x200B;として表示されます。メッセージの[バウンス](understanding-delivery-failures.md#delivery-failure-types-and-reasons)が Enhanced MTA からキャンペーンに返されるまで、メッセージのステータスは変わりません。
 

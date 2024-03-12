@@ -4,7 +4,7 @@ title: ミッドソーシングインフラストラクチャに対するイン�
 description: ミッドソーシングインフラストラクチャに対するインバウンド SMS ワークフローアクティビティ
 feature: Technote, SMS
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
-source-git-commit: 5667cb6b45742638f8c984d7eb9633660f64fc0f
+source-git-commit: 85adfe3515480bed559091427ff1acec14a70320
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 1. 拡張機能を `nms:inSMS` スキーマをマーケティングインスタンス上に配置する必要があります。 拡張機能により、新しい属性が `nms:inSMS` スキーマを作成し、ミッドソーシングインスタンスからの inSMS レコードのプライマリキーを追跡します。
 
-   ```
+   ```xml
    <element img="nms:miniatures/mini-sms.png" label="Incoming SMS"
           labelSingular="Incoming SMS" name="inSMS">
    <dbindex name="midInSMSId" unique="false">
@@ -55,7 +55,7 @@ ht-degree: 2%
 
    下のブロックを置き換えます。 このスクリプトは、以前にこのコードをカスタマイズした場合に異なる場合があります。
 
-   ```
+   ```Javascript
    var lastSynchKey = getOption('SMS_MO_INDEX_WKF1105_inSmsUS_smsmidus');
    
    var smsId = application.getNewIds(1);
@@ -70,7 +70,8 @@ ht-degree: 2%
    ```
 
    次の新しいカスタムスクリプトを使用して、ミッドソーシングレコードのプライマリキーとマーケティング SMS ルーティングの外部アカウント ID を組み合わせ、複合キーに基づいて inSMS データを更新します。
-次の事前リクエストに従います。
+
+   次の事前リクエストに従います。
 
    * 次の実数値を入力： `<EXTERNAL_ACCOUNT_ID>`, e, g `var iExtAccountId=72733155`.
    * カスタムスクリプトでは、必ず次の要素を保持してください。
@@ -111,7 +112,7 @@ ht-degree: 2%
 
    スクリプトは、プライマリキーポインタを 24 時間前にリセットします。 ワークフローは、過去 24 時間以内にミッドソーシングインスタンスからすべての inSMS データの再処理を試み、見つからないデータをマーケティングインスタンスに追加します。
 
-   ```
+   ```Javascript
    // please enter real external account ID to replace <EXTERNAL_ACCOUNT_ID>
    // please enter real pointer option name to replace '<POINTER_OPTION_NAME>'
    // OPTION NAME format: SMS_MO_INDEX_{internal name of the workflow}_inSms_{internal name of the external account to access the mid}

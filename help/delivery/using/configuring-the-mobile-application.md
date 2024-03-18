@@ -6,10 +6,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
-workflow-type: ht
-source-wordcount: '708'
-ht-degree: 100%
+source-git-commit: 466f04bce8f4c62b5dbb0e9d15150ab0c3bf2fbd
+workflow-type: tm+mt
+source-wordcount: '689'
+ht-degree: 96%
 
 ---
 
@@ -102,21 +102,24 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
 1. 「**[!UICONTROL アプリケーションアイコン]**」フィールドからあらかじめ用意されているアイコンの 1 つを選択して、サービス内のモバイルアプリケーションをパーソナライズします。
 
-1. 「**[!UICONTROL 認証モード]**」を選択します。認証モードは、後でモバイルアプリケーションの「**[!UICONTROL 証明書]**」タブで変更することができます。
+1. を選択します。 **[!UICONTROL 認証モード]**.
+
+   ![](assets/nmac_ios_5.png)
+
+   次の 2 つのモードを使用できます。
+
+   * （推奨）**[!UICONTROL トークンベースの認証]**：APN 接続設定の&#x200B;**[!UICONTROL キー ID]**、**[!UICONTROL チーム ID]**、**[!UICONTROL バンドル ID]** を入力し、「**[!UICONTROL 秘密鍵を入力...]**」をクリックして p8 証明書を選択します。**[!UICONTROL トークンベースの認証]**&#x200B;について詳しくは、[Apple のドキュメント](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}を参照してください。
+
    * **[!UICONTROL 証明書ベースの認証]**：「**[!UICONTROL 証明書を入力...]**」をクリックし、p12 キーを選択して、モバイルアプリケーション開発者から提供されたパスワードを入力します。
-   * **[!UICONTROL トークンベースの認証]**：接続設定の&#x200B;**[!UICONTROL キー ID]**、**[!UICONTROL チーム ID]**、**[!UICONTROL バンドル ID]** を入力し、「**[!UICONTROL 秘密鍵を入力]**」をクリックして p8 証明書を選択します。**[!UICONTROL トークンベースの認証]**&#x200B;について詳しくは、[Apple のドキュメント](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns)を参照してください。
 
    >[!NOTE]
    >
-   > iOS 設定には&#x200B;**[!UICONTROL トークンベースの認証]**&#x200B;を使用することをお勧めします。これは、この認証モードの方がセキュリティが強化され、証明書の有効期限に縛られないためです。
+   > Adobeは、 **[!UICONTROL トークンベースの認証]** P8 認証キーの方が新しく安全なので、iOSの設定に応じて変更してください。
 
-   ![](assets/nmac_ios_4.png)
-
-1. 「**[!UICONTROL 接続をテスト]**」をクリックすると、接続が成功したことを確認できます。
+1. 「**[!UICONTROL 接続をテスト]**」ボタンを使用して、設定を検証します。
 
 1. 「**[!UICONTROL 次へ]**」をクリックして本番アプリケーションの設定をおこない、上記と同じ手順に従います。
 
-   ![](assets/nmac_ios_5.png)
 
 1. 「**[!UICONTROL 完了]**」をクリックします。
 

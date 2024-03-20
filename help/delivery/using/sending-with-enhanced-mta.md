@@ -8,9 +8,9 @@ feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: bc6f5d569d0c8a5eba4499a854af370258ce83a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1407'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Campaign **[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウン�
 
 ### 配信
 
-配信は、Enhanced MTA に転送された後は停止できません。配信は、 **[!UICONTROL 停止]** ステータスが Campaign に表示されます。
+Enhanced MTA に転送された配信は、Campaign で&#x200B;**[!UICONTROL 停止]**&#x200B;ステータスと表示されている場合でも、停止できません。
 
 ### 配信スループット
 

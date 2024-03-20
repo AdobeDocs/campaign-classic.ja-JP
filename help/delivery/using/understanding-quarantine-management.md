@@ -8,9 +8,9 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3093'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -165,8 +165,8 @@ Adobe Campaign の強制隔離では、大文字と小文字が区別されま�
 
    * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
    * **メールドメイン（@domain）**&#x200B;が domain1.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain2.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain3.com と等しい
-   * **ステータスを更新 (@lastModified)** 以降 `MM/DD/YYYY HH:MM:SS AM`
-   * **ステータスを更新 (@lastModified)** 以前 `MM/DD/YYYY HH:MM:SS PM`
+   * **更新ステータス（@lastModified）**&#x200B;が `MM/DD/YYYY HH:MM:SS AM` 以降
+   * **更新ステータス（@lastModified）**&#x200B;が `MM/DD/YYYY HH:MM:SS PM` 以前
 
 * 強制隔離リストの「**[!UICONTROL エラーテキスト]**」フィールドに SMTP バウンス応答情報が含まれている Campaign Classic v7 インスタンスの場合：
 
@@ -174,8 +174,8 @@ Adobe Campaign の強制隔離では、大文字と小文字が区別されま�
 
   例えば、「support.ISP.com」は「support.apple.com」または「support.google.com」になります
 
-   * **ステータスを更新 (@lastModified)** 以降 `MM/DD/YYYY HH:MM:SS AM`
-   * **ステータスを更新 (@lastModified)** 以前  `MM/DD/YYYY HH:MM:SS PM`
+   * **更新ステータス（@lastModified）**&#x200B;が `MM/DD/YYYY HH:MM:SS AM` 以降
+   * **更新ステータス（@lastModified）**&#x200B;が `MM/DD/YYYY HH:MM:SS PM` 以前
 
 影響を受ける受信者のリストを受信したら、**[!UICONTROL データを更新]**&#x200B;アクティビティを追加して、メールアドレスのステータスを「**[!UICONTROL 有効]**」に設定し、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローで強制隔離リストから削除されるようにします。また、強制隔離テーブルから削除するだけでもかまいません。
 
@@ -242,7 +242,7 @@ HTTP/V2 プロトコルでは、プッシュ配信ごとの直接フィードバ
    <td> ×<br /> </td> 
   </tr> 
   <tr> 
-   <td> 証明書の問題（パスワード、破損など） および APNs への接続のテストの問題<br /> </td> 
+   <td> 証明書の問題（パスワード、破損など）と、APNs へのテスト接続の問題<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> エラーによってエラーメッセージが異なる<br /> </td> 
    <td> ソフト<br /> </td> 

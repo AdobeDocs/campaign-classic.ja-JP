@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1296'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -153,7 +153,7 @@ ht-degree: 98%
 
    行ごとに、以下のオプションを追加できます。
 
-   * **[!UICONTROL 承認待ち]** ：ワークフローで配信承認リクエストを強制できます。
+   * **[!UICONTROL 承認用]**：ワークフローで配信承認リクエストを実施できます。
    * **[!UICONTROL 自動で開始]**：開始日になるとワークフローを開始できます。
 
    「**[!UICONTROL 事前に作成]**」フィールドを使用して、入力した期間を対象とするワークフローをすべて作成できます。

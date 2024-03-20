@@ -8,9 +8,9 @@ feature: Seed Address
 role: User
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
 source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 >
 >シードアドレスは受信者テーブルに属さず、別のテーブルに作成されます。新しいデータで受信者テーブルを拡張する場合、シードアドレステーブルも同じデータで拡張する必要があります。そうしないと、拡張されたフィールドはシードアドレスでは考慮されません。
 >
->シードアドレステーブルの拡張方法の例については、この節を参照してください。 [使用例：条件によるシードアドレスの選択](use-case-selecting-seed-addresses-on-criteria.md).
+>シードアドレステーブルの拡張方法の例については、[ユースケース：条件に基づくシードアドレスの選択](use-case-selecting-seed-addresses-on-criteria.md)の節を参照してください。
 
 ダイレクトメール配信の場合、シードアドレスは抽出時に追加され、出力ドキュメントに織り込まれます。
 

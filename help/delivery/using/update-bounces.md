@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ ISP が機能停止した場合、Campaign 経由で送信されたメールは�
 
 * 「550 5.1.1 &#39;メールアドレス&#39;: ユーザー検索は成功しましたが、ユーザーレコードが見つかりませんでした。」
 
-* &quot;550 &#39;E メールアドレス&#39;受信者が却下されました&quot;
+* 「550 &#39;メールアドレス&#39; の受信者が拒否されました」
 
-「452 requested action aborted: try again later」というメッセージを含む遅延バウンスが発生した場合は、自動的に再試行され、アクションは不要です。 ISP の処理能力が完全に回復すると、これらは改善されます。
+「452 リクエストしたアクションが中止されました : 後でもう一度試してください」というメッセージが表示される遅延バウンスが発生している場合、これらは自動的に再試行され、アクションは必要ありません。ISP の処理能力が完全に回復すると、これらは改善されます。
 
 >[!NOTE]
 >
@@ -56,8 +56,8 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 
    * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
    * **メールドメイン（@domain）**&#x200B;が domain1.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain2.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain3.com と等しい
-   * **ステータスを更新 (@lastModified)** 以降 `MM/DD/YYYY HH:MM:SS AM`
-   * **ステータスを更新 (@lastModified)** 以前 `MM/DD/YYYY HH:MM:SS PM`
+   * **更新ステータス（@lastModified）**&#x200B;が `MM/DD/YYYY HH:MM:SS AM` 以降
+   * **更新ステータス（@lastModified）**&#x200B;が `MM/DD/YYYY HH:MM:SS PM` 以前
 
 * 強制隔離リストの「**[!UICONTROL エラーテキスト]**」フィールドに SMTP バウンス応答情報が含まれている Campaign 環境の場合：
 
@@ -65,8 +65,8 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 
      例えば、「support.ISP.com」は「support.apple.com」または「support.google.com」になります
 
-   * **ステータスを更新 (@lastModified)** 以降 `MM/DD/YYYY HH:MM:SS AM`
-   * **ステータスを更新 (@lastModified)** 以前  `MM/DD/YYYY HH:MM:SS PM`
+   * **更新ステータス（@lastModified）**&#x200B;が `MM/DD/YYYY HH:MM:SS AM` 以降
+   * **更新ステータス（@lastModified）**&#x200B;が `MM/DD/YYYY HH:MM:SS PM` 以前
 
 
 影響を受けた受信者のリストを取得したら、ステータスを&#x200B;**[!UICONTROL 有効]**&#x200B;に設定して&#x200B;**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローにより強制隔離リストから削除されるようにするか、テーブルからただ削除します。

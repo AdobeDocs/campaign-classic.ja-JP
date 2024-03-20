@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Workflows, Data Management Activity
 exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
 source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,6 +34,6 @@ ht-degree: 96%
 
    ![](assets/s_advuser_wf_sgbd_sample_2.png)
 
-1. このデータに対してフィルターを定義できます。これをおこなうには、 **[!UICONTROL クエリを編集....]** リンク。
+1. このデータに対してフィルターを定義できます。それには、「**[!UICONTROL クエリを編集...]**」リンクをクリックします。
 
    このように収集されたデータは、ワークフローのライフサイクルを通じて使用できます。

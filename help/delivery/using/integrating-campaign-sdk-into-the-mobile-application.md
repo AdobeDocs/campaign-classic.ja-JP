@@ -7,9 +7,9 @@ feature: Mobile SDK Integration, Push
 role: User, Developer
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -297,7 +297,7 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 
   >[!NOTE]
   >
-  >バージョン 7.0 以降、 **`application:didReceiveRemoteNotification:fetchCompletionHandler`** 関数が実装されている場合、オペレーティングシステムはこの関数のみを呼び出します。 The **`application:didReceiveRemoteNotification`** 関数が呼び出されることはありません。
+  >バージョン 7.0 以降は、**`application:didReceiveRemoteNotification:fetchCompletionHandler`** 関数を実装すると、オペレーティングシステムはこの関数のみを呼び出します。したがって、**`application:didReceiveRemoteNotification`** 関数は呼び出されません。
 
 +++
 

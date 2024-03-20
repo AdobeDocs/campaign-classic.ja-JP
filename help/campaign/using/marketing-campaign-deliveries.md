@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1557'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -189,11 +189,11 @@ ht-degree: 97%
 概要には、項目、パーソナライゼーションフィールド、リソースおよびオファーを含めることができます。
 
 * 項目には、ここで参照および記述し、配信に添付する物理的なドキュメントなどを指定できます。
-* パーソナライゼーションフィールドを使用して、受信者ではなく配信に関連したパーソナライゼーション要素を作成できます。したがって、特定のターゲットの配信（ようこそオファー、割引など）に使用する値を作成できます。 これらはAdobe Campaignで作成され、を使用して概要にインポートされます。 **[!UICONTROL パーソナライゼーションフィールドをインポート…]** リンク。
+* パーソナライゼーションフィールドを使用して、受信者ではなく配信に関連したパーソナライゼーション要素を作成できます。これにより、特定のターゲット向けの配信（ウェルカムオファーやディスカウントなど）で使用する値を作成できます。こうした値は Adobe Campaign で作成し、「**[!UICONTROL パーソナライゼーションフィールドをインポート...]**」リンクから概要にインポートします。
 
   ![](assets/s_ncs_user_op_add_composition_field.png)
 
-  パーソナライゼーション要素は、リスト領域の右側の&#x200B;**[!UICONTROL 追加]**&#x200B;アイコンをクリックして、概要内で直接作成することもできます。
+  は、リスト領域の右側の&#x200B;**[!UICONTROL 追加]**&#x200B;アイコンをクリックして、概要内で直接作成することもできます。
 
   ![](assets/s_ncs_user_op_add_composition_field_button.png)
 

@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 517f09e508207b14e6b870f926753b2d9a547262
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ _2023年12月5日（PT）_
 
 * また、セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign では、エンドユーザー認証モードをログイン／パスワードのネイティブ認証から Adobe Identity Management System（IMS）に移行することを強く推奨しています。オペレーターを移行する方法については、[このテクニカルノート](../../technotes/using/migrate-users-to-ims.md)を参照してください。
 
-* Web フォームが **公開保留中** ステータスの場合、自動的にはライブになりません。 セキュリティ上の問題を防ぐには、問題が発生する前に公開する必要があります **オンライン** Web ブラウザーの Web フォーム URL を通じてアクセスできる [詳細情報](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
+* 現在、Web フォームのステータスが&#x200B;**保留中の公開**&#x200B;になっている場合、自動的にライブにならなくなります。セキュリティの問題を防ぐには、**オンライン**&#x200B;になる前に公開し、Web ブラウザーの Web フォーム URL からアクセスする必要があります。[詳細情報](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
 
 ### パッチ {#release-7-3-5-patches}
 

@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 3e771d9a18c083bee8239b95d1d68d63928217c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '764'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 
 >[!IMPORTANT]
 >
->RHEL を使用している場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させて、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。
+>RHEL を使用する場合は、SELinux を無効にするか、アーキテクトにカスタム SELinux ルールを記述させ、有効にされた SELinux が Campaign 操作で問題を引き起こしていないことを確認する必要があります。
 
 ## web サーバー{#WebServers}
 
@@ -79,7 +79,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>Windows Server 2016 および 2019 上の 10.0</p>
+<p>10.0（Windows Server 2016 および 2019）</p>
 </td>
 </tr>
 <tr>
@@ -150,7 +150,7 @@ Adobe Campaign Classic の[最新ビルド](../../rn/using/latest-release.md)は
 <p>2016</p>
 <p>2014</p>
 <p>2012 - SP1 および SP2</p>
-<p><strong>重要：</strong>Linux で Campaign サーバーを実行している場合、プライマリデータベースとしての Microsoft SQL Server の使用はサポートされません。<a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html#database-access-layers">詳細情報</a>。</p>
+<p><strong>重要：</strong>Linux で Campaign サーバーを実行している場合、プライマリデータベースとしての Microsoft SQL Server の使用はサポートされません。<a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html?lang=ja#database-access-layers">詳細情報</a>。</p>
 </td>
 </tr>
 </tbody>

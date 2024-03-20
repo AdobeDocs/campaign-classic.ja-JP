@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
 source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1101'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 96%
 
 「**[!UICONTROL オファーのプレゼンテーション]**」タブで、環境内に設定されているのと同じディメンションをプレゼンテーションルールにも指定する必要があります。
 
-The **[!UICONTROL ターゲティングディメンション]** 受信者のテーブルと一致します（デフォルトは次のとおりです）。 `nms:recipients`) に送信され、オファーの提案を受け取る The **[!UICONTROL ストレージディメンション]** ターゲティングディメンションにリンクした提案履歴のテーブル（デフォルトでは次の値）に一致します。 `nms:propositionRcp`) をクリックします。
+「**[!UICONTROL ターゲティングディメンション]**」は、オファーの提案を受け取る受信者のテーブル（デフォルトは `nms:recipients`）に一致します。「**[!UICONTROL ストレージディメンション]**」は、ターゲティングディメンションにリンクした提案履歴のテーブル（デフォルトでは `nms:propositionRcp`）に一致します。
 
 ![](assets/offer_typology_009.png)
 

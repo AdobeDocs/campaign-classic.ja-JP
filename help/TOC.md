@@ -7,9 +7,9 @@ user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメ
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 834d6c02536187b348842e6d524c4a83d02b355d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
    + [アップグレードの概要](rn/using/rn-overview.md)
    + [最新リリース](rn/using/latest-release.md)
    + 以前のリリース {#previous-releases}
-      + [2022 年リリース](rn/using/release-2022.md)
+      + [2022 リリース](rn/using/release-2022.md)
       + [2021 リリース](rn/using/release-2021.md)
       + [[!DNL Gold Standard] リリース](rn/using/gold-standard.md)
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
@@ -451,7 +451,7 @@ ht-degree: 99%
       + [クロスチャネル配信](workflow/using/cross-channel-deliveries.md)
       + [ローカルの承認](workflow/using/local-approval.md)
       + [データ読み込み (RDBMS)](workflow/using/data-loading-rdbms.md)
-      + [読み込み (SOAP)](workflow/using/loading-soap.md)
+      + [読み込み（SOAP）](workflow/using/loading-soap.md)
       + [データ読み込み (ファイル)](workflow/using/data-loading-file.md)
       + [コンテンツ管理](workflow/using/content-management.md)
       + [データ抽出 (ファイル)](workflow/using/extraction-file.md)
@@ -824,7 +824,7 @@ ht-degree: 99%
    + [ロールバック手順](migration/using/about-rollback.md)
 + テクニカルノート {#technotes}
    + [ハードウェアサイズについてのレコメンデーション](technotes/using/hardware-sizing.md)
-   + [ミッドソーシングインフラストラクチャに対するインバウンド SMS ワークフローアクティビティ](technotes/using/inbound-SMS.md)
+   + [ミッドソーシングインフラストラクチャに対する「インバウンド SMS」ワークフローアクティビティ](technotes/using/inbound-SMS.md)
    + IMS へのアップグレード{#ims}
       + [ユーザーを IMS へ移行](technotes/using/migrate-users-to-ims.md)
       + [テクニカルオペレーターを Developer Console へ移行](technotes/using/ims-migration.md)

@@ -5,9 +5,9 @@ feature: Technote
 role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
 source-git-commit: c63fea4d400440005ecf3733413c346bd4a2fd18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1748'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Campaign の外部システムから Campaign マーケティングインスタ�
 
 * Campaign ホスト環境および Managed Services 環境のお客様
 
-  Message Center インスタンスへの API 呼び出しの場合、Campaign v7.3.5（または他のバージョン）へのアップグレード中に、製品プロファイル（以下で説明）を作成する必要があります [IMS 移行互換バージョン](#ims-versions-tech))、またはインスタンスのプロビジョニング中に削除されます。 製品プロファイルが表示されない場合は、移行マネージャーまたはカスタマーサポートに問い合わせて、IMS 移行を開始する前に作成した製品プロファイルを入手してください。 この製品プロファイルの名前を以下に示します。
+  Message Center インスタンスへの API 呼び出しの場合、Campaign v7.3.5（またはその他の[IMS 移行互換バージョン](#ims-versions-tech)）へのアップグレード中や、インスタンスのプロビジョニング中に製品プロファイル（下記）を作成する必要があります。製品プロファイルが表示されない場合は、移行マネージャーまたはカスタマーサポートに問い合わせて、IMS 移行を開始する前に作成した製品プロファイルを取得します。この製品プロファイルの名前を以下に示します。
 
   `campaign - <your campaign marketing instance> - messagecenter`
 
@@ -116,9 +116,9 @@ When the API has been successfully connected, you can access the newly generated
 
 前提条件の節で説明したように、プロジェクトで使用する適切な製品プロファイルを割り当てる必要があります。この手順では、作成するテクニカルアカウントで使用する製品プロファイルを選択する必要があります。
 
-このテクニカルアカウントを使用して Message Center インスタンスに API 呼び出しを行う場合は、Message Center に関連付けられたマーケティングインスタンスに対して、messagecenter で終わるAdobe製品プロファイルを必ず選択してください。
+このテクニカルアカウントを使用して Message Center インスタンスに API 呼び出しを行う場合は、Message Center に関連付けられたマーケティングインスタンスに対して、messagecenter で終わるアドビ製品プロファイルを選択する必要があります。
 
-マーケティングインスタンスへの API 呼び出しの場合、インスタンスとオペレーターグループに対応する製品プロファイルを選択します。例： `campaign - <your campaign marketing instance> - Admin`.
+マーケティングインスタンスへの API 呼び出しの場合は、インスタンスとオペレーターグループに対応する製品プロファイル（`campaign - <your campaign marketing instance> - Admin` など）を選択します。
 
 必要な製品プロファイルを選択したら、画面の下部にある「**設定済み API を保存**」をクリックします。
 
@@ -168,11 +168,11 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 新しく作成したテクニカルアカウントを使用するには、Adobe Campaign を呼び出す API 統合を更新する必要があります。
 
-API 統合手順の詳細については、以下のコードサンプルを参照してください。
+API 統合手順について詳しくは、以下のコードサンプルを参照してください。
 
 >[!BEGINTABS]
 
->[!TAB SOAP 呼び出し]
+>[!TAB SOAP Call]
 
 ```
 curl --location --request POST 'https://<instance_name>.campaign.adobe.com/nl/jsp/soaprouter.jsp' \
@@ -203,7 +203,7 @@ curl --location --request POST 'https://<instance_name>.campaign.adobe.com/nl/js
 '
 ```
 
->[!TAB  Java のサンプルコード]
+>[!TAB SampleCode Java]
 
 ```javascript
 import java.io.BufferedReader;
@@ -397,7 +397,7 @@ response = requests.post(url, headers=headers, data=xml_data)
 
 >[!ENDTABS]
 
-詳しくは、 [Adobe Developer Console 認証ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+詳しくは、[Adobe Developer Console 認証ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を参照してください。
 
 サードパーティシステムの移行前と移行後のサンプル SOAP 呼び出しを以下に示します。
 

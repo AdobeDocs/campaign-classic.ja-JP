@@ -8,9 +8,9 @@ feature: Email Design
 role: User, Developer, Data Engineer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1465'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -565,7 +565,7 @@ HTML 出力ドキュメントに入力する画像は、絶対参照または相
 
 ## 日付の表示 {#date-display}
 
-XML 入力ドキュメントでは、日付は内部 XML 形式で保存されます。 **`YYYY/MM/DD HH:MM:SS`** ( 例 `2018/10/01 12:23:30`) をクリックします。
+XML 入力ドキュメントでは、日付は内部 XML 形式 **`YYYY/MM/DD HH:MM:SS`**（例：`2018/10/01 12:23:30`）で保存されます。
 
 Adobe Campaign には、以下に詳しく説明するように、JavaScript テンプレートと XSL スタイルシート用の日付書式設定関数が用意されています。
 

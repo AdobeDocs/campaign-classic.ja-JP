@@ -9,10 +9,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 67a6e03318a74b665dc6928028470f98c0abae5e
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 100%
+source-wordcount: '727'
+ht-degree: 89%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 1. ワークフローに「**[!UICONTROL ファイル転送]**」アクティビティを追加して設定します。
 1. 「**[!UICONTROL データ読み込み（ファイル）]**」アクティビティを追加し、ファイルのフォーマットを定義します。
 1. 「**[!UICONTROL ファイルを前処理]**」オプションをオンにします。
-1. 適用する前処理コマンドを指定します。
+1. 適用する前処理コマンドを選択します。
 1. ファイルから取得したデータを管理するために必要なその他のアクティビティを追加します。
 1. 保存して、ワークフローを実行します。
 
@@ -87,17 +87,15 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 1. **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関するグローバルな概念については、[こちら](../../workflow/using/data-loading-file.md)を参照してください。
 
-   受信データを復号化するために、アクティビティに前処理ステージを追加します。それには、「**[!UICONTROL ファイルを前処理]**」オプションを選択したあと、この復号化コマンドを「**[!UICONTROL コマンド]**」フィールドにコピー＆ペーストします。
-
-   `gpg --batch --passphrase passphrase --decrypt <%=vars.filename%>`
+   受信データを復号化するために、アクティビティに前処理ステージを追加します。これをおこなうには、「 **[!UICONTROL ファイルの前処理]** 「 」オプションを選択し、「 」を選択します。 **[!UICONTROL 復号化]** から **[!UICONTROL コマンド]** ドロップダウンリスト：
 
    ![](assets/gpg_load.png)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >この例では、コントロールパネルでデフォルトで使用されるパスフレーズ（「passphrase」）を使用しています。
+   >使用可能なコマンドに変更が必要な場合は、次の手順に従って、 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) : preProcessCommand 設定を調整します。
    >
-   >カスタマーサポートへの依頼を通じて GPG キーがインスタンスに既にインストールされている場合は、そのパスフレーズが変更され、デフォルトとは異なるものになっている可能性があります。
+   >ハイブリッドデプロイメントを使用している場合は、これらのコマンドをサーバー設定ファイル (serverConf.xml) から直接設定できます。 [サーバー設定ファイルで前処理コマンドを設定する方法を説明します。](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 
 1. 「**[!UICONTROL OK]**」をクリックして、アクティビティの設定を確定します。
 

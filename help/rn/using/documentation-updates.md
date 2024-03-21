@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: a6113868f5e22583c8017b1134f69d66b92e92f1
 workflow-type: tm+mt
-source-wordcount: '3722'
-ht-degree: 100%
+source-wordcount: '3739'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 100%
 リリース関連の更新については、[Adobe Campaign Classic リリースノート](../../rn/using/latest-release.md)を参照してください。
 
 ## 2024
+
+### 2024年3月 {#mar-2024}
+
+モバイルアプリの設定に関する節が更新され、iOSトークンベースの APNs への接続が追加されました。 [詳細情報](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app)
 
 ### 2024年1月 {#jan-2024}
 

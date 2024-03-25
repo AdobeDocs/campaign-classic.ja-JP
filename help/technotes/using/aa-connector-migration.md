@@ -3,12 +3,12 @@ product: campaign
 title: Adobe Analytics Connector への移行
 description: Campaign - Analytics Connector に関する FAQ
 feature: Technote, Analytics Integration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
+badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="v7 オンプレミスおよびハイブリッドデプロイメントにのみ適用されます"
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 100%
+source-wordcount: '840'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ Campaign Classic v7 21.1.3 リリース以降、Adobe Analytics Data Connector �
 
 2021年8月1日（PT）、Adobe Campaign Classic は従来の Data Connectors UI から削除されましたが、既存の Campaign 統合は 2022年8月17日（PT）まで引き続きデータを収集して Adobe Analytics に渡します。この期限を過ぎると、統合によるデータの収集と Adobe Analytics への送信を停止します。
 
-従来の Data Connectors 統合に代わる、新しい Adobe Analytics Connector 統合を Adobe Exchange に&#x200B;**実装する必要があります**。Adobe Analytics Connector について詳しくは、[このページ](../../platform/using/adobe-analytics-connector.md)を参照してください。
+従来の Data Connectors 統合に代わる、新しい Adobe Analytics Connector 統合を Adobe Exchange に&#x200B;**実装する必要があります**。Adobe Analytics Connector について詳しくは、[このページ](../../platform/using/gs-aa.md)を参照してください。
 
 これらの変更点に関するご質問については、[FAQ](#faq-aa) を参照してください。 詳しくは、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
@@ -52,7 +52,7 @@ Campaign Classic v7と Adobe Analytics の間で新しい統合が利用でき�
 
 **2022年8月17日（PT）までに**、Campaign 21.1.3（またはそれ以降）にアップグレードする必要があります。
 
-ホスト環境のお客様の場合は、アドビがお客様と協力してインスタンスを新しいバージョンにアップグレードします。その後、[Adobe Analytics Connector](../../platform/using/adobe-analytics-connector.md) を使用できるようになります。
+ホスト環境のお客様の場合は、アドビがお客様と協力してインスタンスを新しいバージョンにアップグレードします。その後、[Adobe Analytics Connector](../../platform/using/gs-aa.md) を使用できるようになります。
 
 オンプレミス環境またはハイブリッド環境のお客様の場合は、新しい統合のメリットを享受するには、いずれかの新しいバージョンにアップグレードする必要があります。すべてのインスタンスがアップグレードされると、Adobe Analytics Connector に[新しい統合を実装し](../../platform/using/adobe-analytics-provisioning.md)、シームレスな移行を確実に行うことができるようになります。
 

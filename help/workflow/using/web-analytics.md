@@ -4,10 +4,10 @@ title: Web 分析
 description: Web 分析パッケージの詳細を説明します
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Analytics Integration
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-以下に説明するワークフローは、デフォルトで **Web 分析コネクタ**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../platform/using/adobe-analytics-connector.md)を参照してください。
+以下に説明するワークフローは、デフォルトで **Web 分析コネクタ**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[節](../../platform/using/gs-aa.md)を参照してください。
 
 <table> 
  <tbody> 
@@ -33,7 +33,7 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">変換済み連絡先の特定</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsFindConverted</span> <br /> </td> 
-   <td> リマーケティングキャンペーンの後で、購入を完了したサイトの訪問者をインデックス化します。このワークフローで収集されたデータは、<span class="uicontrol">リマーケティングの効率レポート</span>でアクセスできます（この<a href="../../platform/using/adobe-analytics-connector.md#creating-a-re-marketing-campaign">ページ</a>を参照）。<br /> </td> 
+   <td> リマーケティングキャンペーンの後で、購入を完了したサイトの訪問者をインデックス化します。このワークフローで復元されたデータは、 <span class="uicontrol">リマーケティングの効率レポート</span>. <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">イベントパージ</span> <br /> </td> 

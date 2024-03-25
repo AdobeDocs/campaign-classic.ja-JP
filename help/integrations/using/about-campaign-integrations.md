@@ -9,9 +9,9 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '741'
 ht-degree: 100%
 
 ---
@@ -71,11 +71,11 @@ Adobe Experience Cloud ID サービス（ID サービス）は、Experience Clou
   </tr> 
   <tr> 
    <td> <strong>Adobe Experience Manager</strong><br /> </td> 
-   <td> E メールコンテンツや Adobe Campaign データベースにマッピングされたフォームを <strong>Adobe Experience Manager</strong> で直接作成することができます。<br /> <p>Adobe Campaign と Adobe Experience Manager の統合について詳しくは、<a href="../../integrations/using/about-adobe-experience-manager.md">こちら</a>を参照してください。</p><br /> </td> 
+   <td> メールコンテンツや Adobe Campaign データベースにマッピングされたフォームを <strong>Adobe Experience Manager</strong> で直接作成することができます。<br /> <p>Adobe Campaign と Adobe Experience Manager の統合について詳しくは、<a href="../../integrations/using/about-adobe-experience-manager.md">こちら</a>を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Target</strong><br /> </td> 
-   <td> Adobe Campaign で作成、送信された E メールが開封されたときに <strong>Adobe Target</strong> が動的に自動生成した画像を挿入することができます。<br /> <p>Adobe Campaign と Adobe Target の統合について詳しくは、<a href="../../integrations/using/integrating-with-adobe-target.md">こちら</a>を参照してください。</p><br /> </td> 
+   <td> Adobe Campaign で作成、送信されたメールが開封されたときに <strong>Adobe Target</strong> が動的に自動生成した画像を挿入することができます。<br /> <p>Adobe Campaign と Adobe Target の統合について詳しくは、<a href="../../integrations/using/integrating-with-adobe-target.md">こちら</a>を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>People コアサービス</strong><br /> <strong>Adobe Audience Manager</strong><br /> </td> 
@@ -83,19 +83,19 @@ Adobe Experience Cloud ID サービス（ID サービス）は、Experience Clou
   </tr> 
   <tr> 
    <td> <strong>Assets コアサービス</strong><br /> </td> 
-   <td> Adobe Campaign で作成した E メールとランディングページに Adobe Experience Cloud ライブラリからアセットを挿入することができます。<br /> <p>Adobe Campaign と Assets コアサービスの統合について詳しくは、<a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-experience-cloud-assets">こちら</a>を参照してください。</p><br /> </td> 
+   <td> Adobe Campaign で作成したメールとランディングページに Adobe Experience Cloud ライブラリからアセットを挿入することができます。<br /> <p>Adobe Campaign と Assets コアサービスの統合について詳しくは、<a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-experience-cloud-assets">こちら</a>を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AEM Assets</strong><br /> </td> 
-   <td> Adobe Campaign で作成した E メールとランディングページに <strong>AEM Assets</strong> ライブラリからアセットを挿入することができます。<br /> <p>Adobe Campaign と AEM Assets の統合について詳しくは、<a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets">こちら</a>を参照してください。</p><br /> </td> 
+   <td> Adobe Campaign で作成したメールとランディングページに <strong>AEM Assets</strong> ライブラリからアセットを挿入することができます。<br /> <p>Adobe Campaign と AEM Assets の統合について詳しくは、<a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets">こちら</a>を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Experience Cloud Triggers</strong><br /> </td> 
-   <td> <strong>Triggers コアサービス</strong>と Adobe Campaign を統合すると、Web サイト上で Adobe Analytics によってトラッキングされている特定の動作に対する反応としてパーソナライズされた E メールを送信できます。<br /> <p>Adobe Campaign と Experience Cloud Triggers の統合について詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html">こちら</a>を参照してください。</p><br /> </td> 
+   <td> <strong>Triggers コアサービス</strong>と Adobe Campaign を統合すると、Web サイト上で Adobe Analytics によってトラッキングされている特定の動作に対する反応としてパーソナライズされたメールを送信できます。<br /> <p>Adobe Campaign と Experience Cloud Triggers の統合について詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/triggers-and-campaign.html">こちら</a>を参照してください。</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Analytics Connector</strong><br /> </td> 
-   <td> <strong>Adobe Analytics コネクタ</strong>を使用すると、メールキャンペーン後のユーザー行動に関するセグメントについて、Adobe Campaign と Adobe Analytics を連携させることができます。このコネクタは、Adobe Campaign から配信された メールキャンペーンの指標と属性を Adobe Analytics に送信します。<br /> <p>Campaign と Analytics のコネクタでの統合に関する<a href="../../platform/using/adobe-analytics-connector.md">詳細情報</a>。</p><br /> </td> 
+   <td> <strong>Adobe Analytics コネクタ</strong>を使用すると、メールキャンペーン後のユーザー行動に関するセグメントについて、Adobe Campaign と Adobe Analytics を連携させることができます。このコネクタは、Adobe Campaign から配信された メールキャンペーンの指標と属性を Adobe Analytics に送信します。<br /> <p>Campaign と Analytics のコネクタでの統合に関する<a href="../../platform/using/gs-aa.md">詳細情報</a>。</p><br /> </td> 
   </tr> 
  </tbody> 
 </table>

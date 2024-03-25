@@ -6,10 +6,10 @@ title: Campaign Classic v7 ガイド
 user-guide-description: Adobe Campaign Classic v7 に関する製品ドキュメント。
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 834d6c02536187b348842e6d524c4a83d02b355d
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+workflow-type: tm+mt
+source-wordcount: '2558'
+ht-degree: 99%
 
 ---
 
@@ -107,8 +107,9 @@ ht-degree: 100%
          + [Salesforce.com との接続](platform/using/crm-sfdc.md)
          + [CRM とのデータの同期](platform/using/crm-data-sync.md)
       + Adobe Analytics Connector{#analytics-connector}
-         + [Adobe Analytics Connector のプロビジョニング](platform/using/adobe-analytics-provisioning.md)
+         + [Adobe Analytics Connector の概要](platform/using/gs-aa.md)
          + [Adobe Analytics Connectorの統合](platform/using/adobe-analytics-connector.md)
+         + [Adobe Analytics Connector のプロビジョニング](platform/using/adobe-analytics-provisioning.md)
          + [Adobe Analytics Connectorへの移行方法](technotes/using/aa-connector-migration.md)
          + [Adobe Analytics Data Connector](platform/using/adobe-analytics-data-connector-legacy.md)
    + [ヘルプとサポートオプション](support.md)

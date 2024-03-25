@@ -6,11 +6,13 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
-source-git-commit: ccc48c93d81266b0971acc3a549458e0823eeb37
-workflow-type: ht
-source-wordcount: '1718'
-ht-degree: 100%
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+workflow-type: tm+mt
+source-wordcount: '1700'
+ht-degree: 99%
 
 ---
 
@@ -121,7 +123,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
    * **[!UICONTROL ユニーク開封数]**
    * **[!UICONTROL 購読解除済み]**
 
-   **[!UICONTROL 成功イベント]**&#x200B;の設定方法については、[この節](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=ja#admin-tools)を参照してください。。
+   設定方法を学ぶには **[!UICONTROL 成功イベント]**（これを参照） [セクション](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=ja#admin-tools).
 
    >[!NOTE]
    >

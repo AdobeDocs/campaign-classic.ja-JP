@@ -6,7 +6,7 @@ feature: Installation, Application Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 12%
@@ -193,7 +193,7 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td> Web 分析コネクタ<br /> </td> 
-   <td> Adobe CampaignとAdobe Analyticsが Web 分析コネクタパッケージを介してやり取りできるようにします。 トランザクションメッセージ（Message Center パッケージ）とは互換性がありません。 <a href="../../platform/using/adobe-analytics-connector.md">詳細情報</a><br /> </td> 
+   <td> Adobe CampaignとAdobe Analyticsが Web 分析コネクタパッケージを介してやり取りできるようにします。 トランザクションメッセージ（Message Center パッケージ）とは互換性がありません。 <a href="../../platform/using/gs-aa.md">詳細情報</a><br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 

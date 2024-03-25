@@ -9,10 +9,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
 source-wordcount: '1980'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -82,7 +82,7 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 * **個人データ**&#x200B;は、生存する個人を直接または間接的に識別できる情報です。
 * **個人の機密データ**&#x200B;は、個人の人種、政治観、宗教的信念、犯罪歴、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の組合員に関する情報です。
 
-Campaign を、[Adobe Analytics](../../platform/using/adobe-analytics-connector.md)、[Audience Manager または People コアサービス](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md)、[Campaign Standard](../../integrations/using/synchronizing-audiences.md) などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または[ CRM コネクタ](../../platform/using/crm-connectors.md)を介して他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
+Campaign を、[Adobe Analytics](../../platform/using/gs-aa.md)、[Audience Manager または People コアサービス](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md)、[Campaign Standard](../../integrations/using/synchronizing-audiences.md) などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または[ CRM コネクタ](../../platform/using/crm-connectors.md)を介して他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
 
 [主な規制](#privacy-regulations)では、データを管理する様々なエンティティを以下のように定義しています。
 * **データ管理者**&#x200B;は、個人データの収集、使用、共有の方法と目的を決定する権限を有する関係者です。
@@ -101,7 +101,7 @@ Campaign を、[Adobe Analytics](../../platform/using/adobe-analytics-connector.
 
 * **Laura** は&#x200B;**データ主体**&#x200B;で、航空会社からメッセージを受け取る受信者です。Laura はリピーターですが、ある時点で、航空会社からのパーソナライズされた広告やマーケティングメッセージの受信を希望しないことにしました。そのため、航空会社に（所定のプロセスに基づいて）リピーター番号を削除するよう要求します。
 
-* **Anne** は航空会社の&#x200B;**データ管理者**&#x200B;です。Laura からの要求を受け取り、このデータ主体を識別するための有意な ID を取得して、要求内容を Adobe Campaign に登録します。
+* **Anne** は航空会社の&#x200B;**データ管理者**&#x200B;です。Laura の要求を受け取り、データ主体を識別するために要求された有用な ID を取得して、要求をAdobe Campaignに送信します。
 
 * **Adobe Campaign** は&#x200B;**データ処理者**&#x200B;です。
 

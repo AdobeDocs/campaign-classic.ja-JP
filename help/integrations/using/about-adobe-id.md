@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-source-git-commit: 49271e291953483ee14709b26ec053217a336718
-workflow-type: ht
-source-wordcount: '143'
-ht-degree: 100%
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 91%
 
 ---
 
@@ -25,6 +25,11 @@ Campaign ユーザーは、[ネイティブのユーザー／パスワード認�
 * Adobe Campaign を様々な統合で使用する場合にも、接続は保持されます。
 * ネイティブのログイン／パスワードより安全なパスワード管理ポリシーです。
 * Federated ID アカウント（外部の ID プロバイダー）の使用。
+
+>[!IMPORTANT]
+>
+> Campaign v8 では、ユーザー/パスワード（ネイティブ認証）との接続は許可されません。 **アドビでは、Campaign v8 にスムーズに移行できるように、Campaign v7.3.5 でこの移行を実行することをお勧めします。**
+
 
 <!--
 >[!IMPORTANT]

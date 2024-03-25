@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 74%
+source-wordcount: '1989'
+ht-degree: 70%
 
 ---
 
@@ -119,7 +119,7 @@ POP3 アクセス用に設定されたすべてのサーバーは、返信メー
 * [電話](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
 * [ダイレクトメール](../../delivery/using/about-direct-mail-channel.md)
 * [エージェンシー](../../delivery/using/steps-about-delivery-creation-steps.md#other-channels)
-* [X( 旧称：Twitter)](../../social/using/about-social-marketing.md)
+* [X（旧 Twitter）](../../social/using/about-social-marketing.md)
 * [iOS チャネル](../../delivery/using/configuring-the-mobile-application.md)
 * [Android チャネル](../../delivery/using/configuring-the-mobile-application-android.md)
 
@@ -139,7 +139,7 @@ E メールルーティング外部アカウントは、デフォルトで提供
 
 ### 実行インスタンス  {#execution-instance-external-account}
 
-分割アーキテクチャを使用している場合、コントロールインスタンスにリンクする実行インスタンスを指定し、両者を接続する必要があります。トランザクションメッセージテンプレートは実行インスタンスにデプロイされます。。
+分割アーキテクチャを使用している場合、コントロールインスタンスにリンクする実行インスタンスを指定し、両者を接続する必要があります。トランザクションメッセージテンプレートは、実行インスタンスにデプロイされます。
 
 ![](assets/ext_account_13.png)
 
@@ -219,11 +219,11 @@ Windows で SSH キーを追加するには：
 
 3. Adobe Campaignサービスを再起動します。
 
-### 外部データベース（FDA） {#external-database-external-account}
+### 外部データベース (FDA) {#external-database-external-account}
 
 以下を使用します。 **外部データベース** 外部データベースに接続する外部アカウントを入力します。 Federated Data Access（FDA）オプションについて詳しくは、[この節](../../installation/using/about-fda.md)を参照してください。
 
- Campaign と互換性のある外部データベースは、[互換性マトリックス](../../rn/using/compatibility-matrix.md)に記載されています。
+Campaign と互換性のある外部データベースのリストは、 [互換性マトリックス](../../rn/using/compatibility-matrix.md)
 
 ![](assets/ext_account_11.png)
 
@@ -268,11 +268,11 @@ Adobe ID を使用して Adobe Campaign コンソールに接続するには、*
 
 * **[!UICONTROL コールバックサーバー]**
 
-  Adobe Campaign インスタンスのアクセス URL。
+  Adobe Campaignインスタンスのアクセス URL。
 
 * **[!UICONTROL IMS 組織 ID]**
 
-   組織の ID。組織 ID を見つけるには、 [このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}.
+  組織の ID。 組織 ID を見つけるには、 [このページ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){_blank}.
 
 * **[!UICONTROL 関連付けマスク]**
 
@@ -294,7 +294,7 @@ The **[!UICONTROL Web 分析]** 外部アカウントを使用すると、Adobe 
 
 ![](assets/ext_account_10.png)
 
-この外部アカウントの場合は、トラッキングされる URL の計算式を強化し、2 つのソリューション間の接続を承認する必要があります。詳しくは、この[ページ](../../platform/using/adobe-analytics-connector.md#external-account-classic)を参照してください。
+この外部アカウントの場合は、トラッキングされる URL の計算式を強化し、2 つのソリューション間の接続を承認する必要があります。詳しくは、この[ページ](../../platform/using/gs-aa.md)を参照してください。
 
 ### Adobe Experience Manager {#adobe-experience-manager-external-account}
 
@@ -414,7 +414,7 @@ Salesforce CRM 外部アカウントを Adobe Campaign で使用できるよう�
 
 ## データ外部アカウントの転送
 
-### Amazon Simple Storage Service（S3） {#amazon-simple-storage-service--s3--external-account}
+### Amazon Simple Storage Service(S3) {#amazon-simple-storage-service--s3--external-account}
 
 Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。詳しくは、この[ページ](../../workflow/using/file-transfer.md)を参照してください。
 
@@ -452,7 +452,7 @@ The **Azure Blob ストレージ** 外部アカウントを使用して、 Adobe
 
 ![](assets/ext_account_23.png)
 
-**** Azure 外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報が必要です。
+次の手順で **[!UICONTROL Azure 外部アカウント]** Adobe Campaignを操作するには、次の情報を提供する必要があります。
 
 * **[!UICONTROL サーバー]**
 

@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: E メールの配信品質
-description: E メール配信品質パッケージの詳細を説明します
+title: メールの配信品質
+description: メール配信品質パッケージの詳細を説明します
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Deliverability
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
@@ -12,11 +12,11 @@ ht-degree: 100%
 ---
 
 
-# 配信品質の監視 (E メールの配信品質){#email-deliverability}
+# 配信品質の監視 (メールの配信品質){#email-deliverability}
 
 
 
-以下に詳述しているワークフローは、デフォルトですべてのインスタンスにインストールされ、バウンスメールの検証ルールのリスト、ドメインのリストおよび MX のリストを初期化できます。**配信品質の監視 (E メールの配信品質)** パッケージをインストールすると、このワークフローは毎日夜間に実行されます。配信品質の監視について詳しくは、この[セクション](../../delivery/using/about-deliverability.md)を参照してください。
+以下に詳述しているワークフローは、デフォルトですべてのインスタンスにインストールされ、バウンスメールの検証ルールのリスト、ドメインのリストおよび MX のリストを初期化できます。**配信品質の監視 (メールの配信品質)** パッケージをインストールすると、このワークフローは毎日夜間に実行されます。配信品質の監視について詳しくは、この[セクション](../../delivery/using/about-deliverability.md)を参照してください。
 
 <table> 
  <tbody> 
@@ -28,7 +28,7 @@ ht-degree: 100%
   <tr> 
    <td> <strong>配信品質の更新</strong><br /> </td> 
    <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
-   <td>  <strong>配信品質の監視 (E メールの配信品質)</strong> パッケージをインストールすると、このワークフローが毎日夜間に実行されてルールのリストを定期的に更新し、プラットフォームの配信品質の積極的管理が可能になります。<br /> </td> 
+   <td>  <strong>配信品質の監視 (メールの配信品質)</strong> パッケージをインストールすると、このワークフローが毎日夜間に実行されてルールのリストを定期的に更新し、プラットフォームの配信品質の積極的管理が可能になります。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

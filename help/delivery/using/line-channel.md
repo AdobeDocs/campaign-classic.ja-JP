@@ -8,8 +8,8 @@ feature: Line App
 role: User
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '1332'
+workflow-type: tm+mt
+source-wordcount: '1331'
 ht-degree: 100%
 
 ---
@@ -157,7 +157,7 @@ ht-degree: 100%
 
 ![](assets/line_message_02.png)
 
-このタイプのメッセージの設定は、E メールの&#x200B;**[!UICONTROL テキスト]**&#x200B;の設定と類似しています。詳しくは、[このページ](defining-the-email-content.md#message-content)を参照してください。
+このタイプのメッセージの設定は、メールの&#x200B;**[!UICONTROL テキスト]**&#x200B;の設定と類似しています。詳しくは、[このページ](defining-the-email-content.md#message-content)を参照してください。
 
 ### 画像およびリンク配信の設定 {#configuring-an-image-and-link-delivery}
 

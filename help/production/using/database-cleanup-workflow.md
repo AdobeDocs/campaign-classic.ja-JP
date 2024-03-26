@@ -10,7 +10,7 @@ topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
 source-git-commit: 624978901943b4c74f50c20298c9596f73b25b1b
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2921'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 2%
 デフォルトでは、 **[!UICONTROL データベースのクリーンアップ]** 毎日午前 4 時に開始するようにワークフローが設定されている。 スケジューラーを使用すると、ワークフローのトリガー頻度を変更できます。 次の頻度を使用できます。
 
 * **[!UICONTROL 1 日に数回]**
-* **[!UICONTROL 日]**
+* **[!UICONTROL 毎日]**
 * **[!UICONTROL 毎週]**
 * **[!UICONTROL 1 回]**
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 >
 >次に対して **[!UICONTROL データベースのクリーンアップ]** ワークフローがスケジューラーで定義された日時に開始するには、ワークフローエンジン (wfserver) を開始する必要があります。
 
-### デプロイメントウィザード {#deployment-wizard}
+### デプロイウィザード {#deployment-wizard}
 
 The **[!UICONTROL デプロイウィザード]**（経由でアクセス） **[!UICONTROL ツール/詳細]** メニューを使用して、データの保存期間を設定できます。 値は日数で表します。 これらの値が変更されない場合、ワークフローはデフォルト値を使用します。
 

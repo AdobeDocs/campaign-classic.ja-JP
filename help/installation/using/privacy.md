@@ -7,8 +7,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: a2106e55617209f28da42c50008d16188563b2da
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 32%
+source-wordcount: '822'
+ht-degree: 21%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 32%
 
 例：
 
-1. ワークフローを作成し、 **クエリ** アクティビティ。 [詳細情報](../../workflow/using/query.md)
+1. ワークフローを作成し、 **クエリ** アクティビティ。 [詳細情報](../../workflow/using/query.md)。
 
 1. を開きます。 **クエリ** アクティビティを作成し、 `nmsTrackingUrl` 表を次に示します。
 
@@ -83,7 +83,7 @@ URL 署名を有効にするには、すべての Campaign サーバーで同時
 
 権限の低い認証済みユーザーは、暗号化されたパスワードにアクセスできないようにする必要があります。 これをおこなうには、パスワードフィールドのみ、またはエンティティ全体（ビルド >= 8770 が必要）へのアクセスを制限します。
 
-この制限をおこなうと、パスワードフィールドを削除する一方で、外部アカウントは全ユーザー向けのインターフェイスからアクセス可能にできます。[詳細情報](../../configuration/using/restricting-pii-view.md)
+この制限をおこなうと、パスワードフィールドを削除する一方で、外部アカウントは全ユーザー向けのインターフェイスからアクセス可能にできます。[詳細情報](../../configuration/using/restricting-pii-view.md)。
 
 手順は次のとおりです。
 
@@ -156,14 +156,14 @@ URL 署名を有効にするには、すべての Campaign サーバーで同時
 
 オンプレミス版のお客様には、ミラーページや Web アプリケーションなど、個人情報 (PI) を含む可能性のあるページを保護することを強くお勧めします。
 
-この手順の目的は、これらのページのインデックス化を防止することによってセキュリティリスクを回避することです。以下に、この目的に役立つ記事をいくつか示します。
+この手順の目的は、これらのページのインデックスが作成されるのを防ぎ、セキュリティ上のリスクを回避することです。 以下に、この目的に役立つ記事をいくつか示します。
 
 * [https://developers.google.com/search/reference/robots_txt](https://developers.google.com/search/reference/robots_txt)
 * [https://developers.google.com/search/reference/robots_meta_tag](https://developers.google.com/search/reference/robots_meta_tag)
 
 ページを保護するには、次の手順に従います。
 
-1. Web サーバー（Apache または IIS）のルートに `robots.txt` ファイルを追加します。このファイルの内容は次のとおりです。
+1. を追加します。 `robots.txt` ファイルを Web サーバー（Apache または IIS）のルートに配置します。 このファイルの内容は次のとおりです。
 
    ```sql
    # Make changes for all web spiders
@@ -177,7 +177,7 @@ URL 署名を有効にするには、すべての Campaign サーバーで同時
 
 1. 場合によっては、 **robots.txt** ファイルはセキュリティの点で十分ではありません。 例えば、他の Web サイトに自社ページへのリンクがある場合は、検索結果に自社ページの情報が表示される可能性があります。
 
-   **robots.txt** ファイルに加え、**X-Robots-Tag** ヘッダーも追加することをお勧めします。Apache の場合も IIS の場合も、このヘッダーの追加は **serverConf.xml** 設定ファイルでおこなえます。
+   また、 **robots.txt** ファイルに値を入力する場合は、 **X-Robots-Tag** ヘッダー。 Apache または IIS で、および **serverConf.xml** 設定ファイル。
 
    詳しくは、 [この記事](https://developers.google.com/search/reference/robots_meta_tag).
 

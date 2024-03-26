@@ -6,7 +6,7 @@ feature: Microsoft CRM Integration, Salesforce Integration
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1627'
 ht-degree: 100%
 

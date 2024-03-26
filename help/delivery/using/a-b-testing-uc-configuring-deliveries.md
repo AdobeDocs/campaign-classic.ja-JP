@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 feature: A/B Testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [母集団が作成されたら](a-b-testing-uc-population-samples.md)、配信を設定できます。このユースケースでは、最初の 2 つの配信によって、母集団 A と母集団 B に異なるコンテンツを送信できます。3 番目の配信はフォールバック配信です。A にも B にも属さない受信者に送信されます。そのコンテンツはスクリプトで計算され、開封率が最も高い受信者に応じて A または B のいずれかと同じになります。3 番目の配信の待機期間を設定し、配信 A、配信 B の結果を特定する必要があります。そのため、3 番目の配信には「**[!UICONTROL 待機]**」アクティビティを実装します。
 
-1. 「**[!UICONTROL 分割]**」アクティビティに移動し、母集団 A 用のトランジションを、既にワークフローにある E メール配信のトランジションとリンクします。
+1. 「**[!UICONTROL 分割]**」アクティビティに移動し、母集団 A 用のトランジションを、既にワークフローにあるメール配信のトランジションとリンクします。
 
    ![](assets/use_case_abtesting_createdeliveries_001.png)
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
    ![](assets/use_case_abtesting_createdeliveries_002.png)
 
-1. 母集団 B 用の「**[!UICONTROL 分割]**」アクティビティのトランジションを 2 番目の E メール配信にリンクします。
+1. 母集団 B 用の「**[!UICONTROL 分割]**」アクティビティのトランジションを 2 番目のメール配信にリンクします。
 
    ![](assets/use_case_abtesting_createdeliveries_004.png)
 

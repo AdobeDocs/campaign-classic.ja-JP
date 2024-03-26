@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Workflows
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '230'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 100%
    <td> イベントにステータスを割り当てます。イベントのステータスには次のものがあります。<br /> 
     <ul> 
      <li> <p><strong>保留中</strong>：イベントはキューで待機中です。イベントはまだメッセージテンプレートと関連付けられていません。</p> </li> 
-     <li> <p><strong>配信待ち</strong>：イベントはキューに入っており、メッセージテンプレートが関連付けられ、現在配信処理中です。</p> </li> 
+     <li> <p><strong>配信保留</strong>：イベントはキューに入っており、メッセージテンプレートが関連付けられ、現在配信処理中です。</p> </li> 
      <li> <p><strong>送信済み</strong>：このステータスは配信ログからコピーされます。配信が送信されたことを示します。</p> </li> 
      <li> <p><strong>配信で無視</strong>：このステータスは配信ログからコピーされます。配信が無視されたことを示します。</p> </li> 
      <li> <p><strong>配信エラー</strong>：このステータスは配信ログからコピーされます。配信に失敗したことを示します。</p> </li> 

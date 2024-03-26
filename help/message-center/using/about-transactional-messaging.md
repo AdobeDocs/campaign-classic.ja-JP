@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '651'
 ht-degree: 100%
 
 ---

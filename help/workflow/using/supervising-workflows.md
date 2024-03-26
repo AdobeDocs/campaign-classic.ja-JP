@@ -7,7 +7,7 @@ feature: Workflows
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '658'
 ht-degree: 100%
 
 ---
@@ -134,7 +134,7 @@ vars.strWorkflowStop = strStop;
 
 このテンプレートには次の内容を含める必要があります。
 
-* **スーパーバイザーの E メールアドレス**
+* **スーパーバイザーのメールアドレス**
 * **パーソナライズされたテキストを挿入するための HTML コンテンツ**
 
   ![](assets/uc_monitoring_workflow_variables_diffusion.png)

@@ -10,12 +10,12 @@ topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 72%
+source-wordcount: '764'
+ht-degree: 68%
 
 ---
 
-# Azure Synapse へのアクセスの設定 {#configure-access-to-azure-synapse}
+# azure synapseへのアクセスの設定 {#configure-access-to-azure-synapse}
 
 
 
@@ -24,7 +24,7 @@ ht-degree: 72%
 1. でAzure synapseを設定 [CentOS](#azure-centos), [Windows](#azure-windows) または [Debian](#azure-debian)
 1. azure synapse [外部アカウント](#azure-external) Campaign 内
 
-## CentOS での Azure Synapse {#azure-centos}
+## CentOS でのazure synapse {#azure-centos}
 
 >[!CAUTION]
 >
@@ -107,7 +107,7 @@ CentOS でAzure synapseを設定するには、次の手順に従います。
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
    ```
 
-## Windows での Azure Synapse {#azure-windows}
+## Windows でのazure synapse {#azure-windows}
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ Windows で Azure Synaps を設定するには、以下を実行します。
 
 1. Azure Synapse Analytics は TCP 1433 ポートを通じて通信するので、Windows Defender ファイアウォール上でこのポートを開く必要があります。詳しくは、[Windows のドキュメント](https://docs.microsoft.com/ja-jp/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule)を参照してください。
 
-## Debian での Azure Synapse {#azure-debian}
+## Azure synapse(Debian) {#azure-debian}
 
 **前提条件：**
 
@@ -194,7 +194,7 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
 ## Azure synapse外部アカウント {#azure-external}
 
-[!DNL Azure Synapse] 外部アカウントを使用すれば、Campaign インスタンスを Azure Synapse 外部データベースに接続することができます。
+The [!DNL Azure Synapse] 外部アカウントを使用すれば、Campaign インスタンスを外部データベースにAzure synapseできます。
 
 次の手順で [!DNL Azure Synapse] 外部アカウントは、次の手順に従います。
 

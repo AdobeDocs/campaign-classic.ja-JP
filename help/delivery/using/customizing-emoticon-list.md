@@ -8,8 +8,8 @@ feature: Email, Push
 role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '485'
+workflow-type: tm+mt
+source-wordcount: '479'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ポップアップに表示される顔文字リストは、リストに値を表示して、特定のフィールドに対するユーザーの選択肢を制限できる列挙によって決まります。
 顔文字のリスト順序はカスタマイズすることができます。また、リストに他の顔文字を追加することもできます。
-顔文字は E メールとプッシュで使用できます。詳しくは、この[ページ](defining-the-email-content.md#inserting-emoticons)を参照してください。
+顔文字はメールとプッシュで使用できます。詳しくは、この[ページ](defining-the-email-content.md#inserting-emoticons)を参照してください。
 
 ## 新しい顔文字の追加 {#add-new-emoticon}
 

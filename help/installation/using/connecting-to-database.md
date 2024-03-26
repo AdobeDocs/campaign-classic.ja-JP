@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 外部データベースへの接続
+title: 外部データベースに接続
 description: 外部データベースへの接続方法を説明します
 feature: Installation, Federated Data Access
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
@@ -10,8 +10,8 @@ topic-tags: connectors
 exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 98%
+source-wordcount: '695'
+ht-degree: 97%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 98%
 
    ![](assets/wf_add_data_local_external_data_select.png)
 
-   「**[!UICONTROL 完了]**」をクリックして、この設定を確認します。
+   「**[!UICONTROL 終了]**」をクリックして、この設定を確認します。
 
 ## 接続の保護 {#secure-connection}
 

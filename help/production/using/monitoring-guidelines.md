@@ -7,8 +7,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 27%
+source-wordcount: '751'
+ht-degree: 24%
 
 ---
 
@@ -126,7 +126,7 @@ SMTP レポートには、ドメインごとに配信統計と SMTP エラーが
 
 *オンプレミスおよびハイブリッドホスティングモデルのみ*
 
-マシン上の問題（物理的な問題でもシステム関連の問題でも）が発生した場合にデータが失われるのを防ぐために、バックアップは不可欠です。 詳しくは、[ここをクリック](../../production/using/backup.md)してください。復元手順については、 [この節](../../production/using/restoration.md).
+マシン上の問題（物理的な問題でもシステム関連の問題でも）が発生した場合にデータが失われるのを防ぐために、バックアップは不可欠です。 [ここをクリック](../../production/using/backup.md) を参照してください。 復元手順については、 [この節](../../production/using/restoration.md).
 
 ## Campaign Classicの技術原則 {#campaign-classic-technical-principles}
 

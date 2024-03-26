@@ -11,8 +11,8 @@ topic-tags: database-maintenance
 exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 5%
+source-wordcount: '1146'
+ht-degree: 2%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 5%
   <tr> 
    <td> NmsDelivery<br /> </td> 
    <td> 小<br /> </td> 
-   <td> アップデート<br /> </td> 
+   <td> 更新<br /> </td> 
    <td> 配信アクションごとに 1 つのレコードがあります。 1 つのレコードは配信の進行状況を反映するために複数回更新される可能性があるので、このテーブルのインデックスは急速にフラグメント化する傾向があります。 <br /> </td> 
   </tr> 
   <tr> 
@@ -72,7 +72,7 @@ ht-degree: 5%
   <tr> 
    <td> XtkWorkflow<br /> </td> 
    <td> 小<br /> </td> 
-   <td> アップデート<br /> </td> 
+   <td> 更新<br /> </td> 
    <td> ワークフローインスタンスごとに 1 つのレコードが存在するので、レコードはほとんどありません。 ただし、テーブルは定期的に更新され、ステータスと進行状況が反映されます。<br /> </td> 
   </tr> 
   <tr> 
@@ -108,7 +108,7 @@ ht-degree: 5%
   <tr> 
    <td> NmsBroadlogMsg <br /> </td> 
    <td> 小<br /> </td> 
-   <td> アップデート<br /> </td> 
+   <td> 更新<br /> </td> 
    <td> このテーブルには、SMTP エラーの検証に使用する情報が含まれています。 この値はかなり小さいですが、大規模に更新されるので、このテーブルのインデックスは急速に断片化する傾向があります。 <br /> </td> 
   </tr> 
   <tr> 

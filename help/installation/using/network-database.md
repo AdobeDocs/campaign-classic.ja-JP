@@ -10,8 +10,8 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 57%
+source-wordcount: '139'
+ht-degree: 46%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 57%
 
 ## ネットワーク設定
 
-オンプレミスタイプのアーキテクチャをデプロイする際に確認すべき重要な点は、次のとおりです。 [ネットワーク構成](../../installation/using/network-configuration.md). Tomcat サーバーに外部から直接アクセスできないことを確認します。
+オンプレミスタイプのアーキテクチャをデプロイする際に確認すべき重要な点は、次のとおりです。 [ネットワーク構成](../../installation/using/network-configuration.md). Tomcat サーバーがサーバー外から直接アクセスできないことを確認します。
 
 * 外部 IP の Tomcat ポート（8080）を閉じます（localhost では動作する必要があります）。
 * 標準 HTTP ポート（80）を Tomcat ポート（8080）にマッピングしないようにします。
@@ -34,7 +34,7 @@ ht-degree: 57%
 
 ## SSL/TLS 設定
 
-証明書をチェックするには、OpenSSL を使用します。アクティブな暗号をチェックするには、nmap を使用します。
+証明書を確認するには、OpenSSL を使用できます。 アクティブな暗号をチェックするには、nmap を使用します。
 
 ```
 #!/bin/sh

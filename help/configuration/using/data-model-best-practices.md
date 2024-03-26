@@ -7,14 +7,14 @@ feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '4012'
+source-wordcount: '4037'
 ht-degree: 54%
 
 ---
 
 # データモデルのベストプラクティス{#data-model-best-practices}
 
-このドキュメントでは、Adobe Campaign データモデルを設計する際の主な推奨事項の概要を説明します。
+このドキュメントでは、Adobe Campaign データモデルを設計する際の主なレコメンデーションの概要を説明します。
 
 Campaign の組み込みテーブルとそのインタラクションについて詳しくは、 [この節](../../configuration/using/about-data-model.md) 」セクションに入力します。
 
@@ -264,7 +264,7 @@ Adobe Campaign 内のレコードの必要性を最小限に抑えるには、�
 
 常にパフォーマンスの向上を図るには、次のベストプラクティスに従います。
 
-### 一般的な推奨事項 {#general-recommendations}
+### 一般的なレコメンデーション {#general-recommendations}
 
 * クエリで「CONTAINS」などの演算子は使用しません。フィルタリングしたい対象がはっきりしている場合は、「EQUAL TO」または他の特定のフィルター演算子を使用して同じ条件を適用します。
 * ワークフローでデータを作成する際に、インデックスが付いていないフィールドと結合しないでください。

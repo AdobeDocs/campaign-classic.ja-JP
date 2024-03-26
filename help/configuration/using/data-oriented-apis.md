@@ -8,7 +8,7 @@ role: Data Engineer, Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1875'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ XML ドキュメントは、データベースの MEMO タイプのフィール�
 
 The **ExecuteQuery** メソッドは、 [ExecuteQuery (xtk:queryDef)](#executequery--xtk-querydef-).
 
-### Write {#write}
+### 書き込む {#write}
 
 書き込みコマンドを使用すると、単純なドキュメントや複雑なドキュメントを書き込み、基本の 1 つ以上のテーブルにエントリを記述できます。
 
@@ -444,7 +444,7 @@ E メールのフィルターを使用して、受信者の姓と名（「nms:re
 </queryDef>
 ```
 
-戻り値:
+戻り値：
 
 ```
 <recipient My_folder="Recipients" First name ="John" lastName="Doe"/>
@@ -460,7 +460,7 @@ E メールのフィルターを使用して、受信者の姓と名（「nms:re
 
 ### SOAP メッセージの例 {#example-of-soap-messages}
 
-* クエリ:
+* クエリ :
 
   ```
   <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -485,7 +485,7 @@ E メールのフィルターを使用して、受信者の姓と名（「nms:re
   </SOAP-ENV:Envelope>
   ```
 
-* 応答:
+* 応答：
 
   ```
   <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -629,7 +629,7 @@ E メールアドレス、生年月日、市区町村を使用して受信者（
 
 ### SOAP メッセージの例 {#example-of-soap-messages-1}
 
-* クエリ:
+* クエリ :
 
   ```
   <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -645,7 +645,7 @@ E メールアドレス、生年月日、市区町村を使用して受信者（
   </SOAP-ENV:Envelope>
   ```
 
-* 応答:
+* 応答：
 
   ```
   <?xml version='1.0' encoding='ISO-8859-1'?>

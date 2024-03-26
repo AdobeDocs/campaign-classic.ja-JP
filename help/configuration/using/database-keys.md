@@ -5,13 +5,13 @@ description: データスキーマでの鍵管理の理解
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
-source-git-commit: 4a29c189e1e438bbb90067ece63ced0196c618ec
+exl-id: faf63c8f-9d10-43c1-a990-91361594af9f
+source-git-commit: 46dcd80d5adc31a66b47c6d75e7914b0a686326b
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 23%
 
 ---
-
 
 # スキーマでの鍵の管理 {#management-of-keys}
 

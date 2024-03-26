@@ -11,8 +11,8 @@ topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2524'
-ht-degree: 100%
+source-wordcount: '2547'
+ht-degree: 99%
 
 ---
 
@@ -348,13 +348,13 @@ Adobe Campaign クライアントコンソールのメインメニューで&#x20
 >
 >パッケージを自動的にエクスポートするワークフローの設定について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/export-packages-automatically.html)を参照してください。
 
-### 推奨事項 {#data-package-recommendations}
+### レコメンデーション {#data-package-recommendations}
 
 必ず、同じバージョンのプラットフォーム内でインポートします。同じビルドを持つ 2 つのインスタンス間にパッケージをデプロイしていることを確認する必要があります。ビルドが異なる場合は、インポートを強制的に実行せず、最初にプラットフォームを必ず更新してください。
 
 >[!IMPORTANT]
 >
->異なるバージョン間のインポートは、アドビではサポートされていません。
+>異なるバージョン間のインポートは、Adobeではサポートされていません。
 <!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter.-->
 
 スキーマとデータベースの構造に注意してください。スキーマを含むパッケージのインポートの後にスキーマの生成が必要です。

@@ -8,8 +8,8 @@ feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 100%
+source-wordcount: '782'
+ht-degree: 98%
 
 ---
 
@@ -126,7 +126,7 @@ Web アプリケーションに挿入された各ページについて、これ�
 
 1. ページの各フィールドについて、この処理を繰り返します。
 
-フィールドを必須にできます。例えば、「**[!UICONTROL E メール]**」フィールドをクリックして、「**必須**」オプションを有効にします。
+フィールドを必須にできます。例えば、「**[!UICONTROL メール]**」フィールドをクリックして、「**必須**」オプションを有効にします。
 
 ![](assets/dce_uc1_fieldmandatory.png)
 
@@ -134,7 +134,7 @@ Web アプリケーションに挿入された各ページについて、これ�
 
 この手順は必須です。これは、Web アプリケーションが次の手順の順序を決定できるためです。収集したデータをデータベースに保存し、次のページ（「**ありがとうございます**」ページ）を表示します。
 
-1. **[!UICONTROL Collection]** ページの「**[!UICONTROL Send it!]**」ボタンを選択します。
+1. を選択します。 **[!UICONTROL 送れ！]** ボタン **[!UICONTROL コレクション]** ページに貼り付けます。
 1. **[!UICONTROL アクション]**&#x200B;ドロップダウンメニューをクリックします。
 1. **[!UICONTROL 次のページ]**&#x200B;アクションを選択します。
 

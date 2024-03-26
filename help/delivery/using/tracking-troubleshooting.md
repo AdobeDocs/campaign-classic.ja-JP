@@ -8,8 +8,8 @@ feature: Monitoring, Troubleshooting
 role: User
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '770'
+workflow-type: tm+mt
+source-wordcount: '764'
 ht-degree: 100%
 
 ---
@@ -218,7 +218,7 @@ Adobe Campaign Classic では、ターゲットマッピングは、受信者ス
 
 ![](assets/tracking-troubleshooting.png)
 
-トラッキングワークフローでは、データとターゲティング ID を調整できないので、同じ trackingLog スキーマで複数のターゲティングスキーマを使用することはできません。
+トラッキングワークフローでは、データとターゲティング ID を紐付けできないので、同じ trackingLog スキーマで複数のターゲティングスキーマを使用することはできません。
 
 nms:recipient で標準のターゲットマッピングを使用しない場合は、次の方法を使用することをお勧めします。
 

@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1136'
 ht-degree: 100%
 
 ---
@@ -126,7 +126,7 @@ Campaign Classic 内：
 **手順 1**：Azure Active Directory に非インタラクティブユーザーを作成する
 
 1. **Azure Active Directory／ユーザー**&#x200B;をクリックし、「**新しいユーザー**」をクリックします。
-1. 使用する適切な名前を指定し、ユーザー名は電子メールフォーマットにする必要があります。
+1. 使用する適切な名前を指定し、ユーザー名はメールフォーマットにする必要があります。
 1. **ディレクトリロール**&#x200B;の **Dynamics 365 管理者**&#x200B;を選択します。
 
 **手順 2**：作成したユーザーに適切なライセンスを割り当てる

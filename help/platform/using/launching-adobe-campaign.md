@@ -10,8 +10,8 @@ topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 100%
+source-wordcount: '547'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe ID を使用して Adobe Campaign に接続できます。詳しくは、[
 
    データベースに最初にアクセスする際のパスワードは、管理者が指定したものになります。接続すると、**[!UICONTROL ツール／パスワードを変更...]** メニューからパスワードを変更できます。オペレーターおよび接続について詳しくは、[アクセス管理](../../platform/using/access-management.md)を参照してください。
 
-1. 「**[!UICONTROL ログイン]**」をクリックして確定します。<!--You can also press the **Enter** key to launch connection.-->
+1. クリック **[!UICONTROL ログイン]** をクリックして確定します。<!--You can also press the **Enter** key to launch connection.-->
 
 これで、[Adobe Campaign ワークスペース](../../platform/using/adobe-campaign-workspace.md)にアクセスできるようになります。
 

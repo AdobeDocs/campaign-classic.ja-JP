@@ -7,8 +7,8 @@ feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 100%
+source-wordcount: '1207'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 ![](assets/s_ncs_user_nb_200_0.png)
 
-右側に数値ではなく「**?**」が表示される場合は、カウンターをクリックして計算を起動します。
+JavaScript で&#x200B;**?**」が表示されます。右側の数値の代わりに、カウンターをクリックして計算を開始します。
 
 ### 追加レコードの読み込み {#loading-more-records}
 

@@ -9,7 +9,7 @@ topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1558'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ _operation （文字列）、advanced (boolean)、 applicableIf （文字列）�
   SQL 特性テーブルは、次の特性タイプに基づいて自動的に作成されます。
 
    * 専用： `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
-   * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
+   * 共有済み： `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
   特性フィールドには、1 つの値が特性に対して許可される単純な oà¹フィールドと、複数選択フィールドという 2 つのタイプがあります。複数の値を含むコレクション要素に特性がリンクされます。
 
@@ -140,22 +140,22 @@ _operation （文字列）、advanced (boolean)、 applicableIf （文字列）�
    * 日時
    * datetimetz
    * datetimenotz
-   * date
-   * 重複
+   * 日付
+   * 倍精度浮動小数点数
    * enum
-   * float
+   * 浮動小数点数
    * html
    * int64
    * リンク
    * 長い
    * メモ
    * MNTOKEN
-   * percent
+   * 割合
    * primarykey
    * short
    * 文字列
    * 時間
-   * 間隔
+   * 期間
    * uuid
 
   「@type」属性が空のままの場合、Adobe Campaignはデフォルトで、長さが 100 の文字列 (STRING) をフィールドにリンクします。

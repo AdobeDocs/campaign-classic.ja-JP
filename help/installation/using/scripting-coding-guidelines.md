@@ -10,8 +10,8 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 63%
+source-wordcount: '765'
+ht-degree: 36%
 
 ---
 
@@ -58,7 +58,7 @@ SQL インジェクションを回避するには、Adobe Campaignで使用す�
 >
 >8140 より古いビルドを使用している場合、 **XtkPassUnknownSQLFunctionsToRDBMS** オプションは&#39;1&#39;に設定できます。 データベースを保護する場合は、このオプションを削除します（または「0」に設定します）。
 
-ユーザー入力を使用してクエリや SQL 文でフィルターを作成する場合は、常にエスケープ処理をおこなう必要があります（[Campaign JSAPI のドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja)「データ保護：関数のエスケープ」を参照）。次の関数が該当します。
+ユーザー入力を使用してクエリや SQL 文でフィルターを作成する場合は、常にエスケープする必要があります ( [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja)  — データ保護：関数のエスケープ )。 次の関数が該当します。
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)
@@ -86,7 +86,7 @@ SQL インジェクションを回避するには、Adobe Campaignで使用す�
   </sysFilter>
   ```
 
-* スキーマで定義された一部の操作（SOAP メソッド）を保護することもできます。対応するネームド権限を値として、アクセス属性を設定します。
+* また、スキーマで定義された一部のアクション（SOAP メソッド）を保護することもできます。 対応するネームド権限を値として、アクセス属性を設定します。
 
   ```
   <method name="grantVIPAccess" access="myNewRole">
@@ -100,19 +100,19 @@ SQL インジェクションを回避するには、Adobe Campaignで使用す�
 
 >[!IMPORTANT]
 >
->ネームド権限は、ナビゲーションツリーのコマンドノードで使用できます。 これにより、ユーザーエクスペリエンスは向上しますが、保護はされません（非表示／無効にするには、クライアント側のみを使用します）。アクセス属性を使用する必要があります。
+>ネームド権限は、ナビゲーションツリーのコマンドノードで使用できます。 より優れたユーザーエクスペリエンスを提供しますが、保護は提供しません（非表示/無効にするには、クライアント側のみを使用します）。 アクセス属性を使用する必要があります。
 
 ### オーバーフローテーブル
 
 オペレーターのアクセスレベルに応じて機密データ（スキーマの一部）を保護する必要がある場合、フォーム定義で非表示にしないでください（enabledIf／visibleIf 条件）。
 
-エンティティ全体が画面で読み込まれます。また、列定義で表示することもできます。この操作をおこなうには、オーバーフローテーブルを作成する必要があります。参照 [このページ](../../configuration/using/examples-of-schemas-edition.md#overflow-table).
+エンティティ全体が画面に読み込まれ、列定義で表示することもできます。 これをおこなうには、オーバーフローテーブルを作成する必要があります。 参照 [このページ](../../configuration/using/examples-of-schemas-edition.md#overflow-table).
 
 ## Web アプリケーションへの Captcha の追加
 
-パブリックのランディングページや購読ページには Captcha を追加することをお勧めします。ただし、DCE（デジタルコンテンツエディター）ページに Captcha を追加することは簡単ではありません。ここでは、Captcha バージョン 5 または Google reCAPTCHA を追加する方法について説明します。
+パブリックランディングページ/サブスクリプションページに Captcha を追加することをお勧めします。 残念ながら、DCE（デジタルコンテンツエディター）ページに Captcha を追加することは容易ではありません。 ここでは、Captcha バージョン 5 または Google reCAPTCHA を追加する方法について説明します。
 
-DCE に Captcha を追加する場合、一般的には、Captcha を含めるためのパーソナライゼーションブロックをページコンテンツ内に作成します。**スクリプト**&#x200B;アクティビティと&#x200B;**テスト**&#x200B;を追加する必要があります。
+DCE に Captcha を追加する一般的な方法は、パーソナライゼーションブロックを作成して、ページコンテンツ内に簡単に含めることです。 **スクリプト**&#x200B;アクティビティと&#x200B;**テスト**&#x200B;を追加する必要があります。
 
 ### パーソナライゼーションブロック
 
@@ -144,12 +144,12 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
 
    * 1 ～ 6 行目では、必要な入力をすべて生成します。
    * 7 行目から最終行では、エラーを処理します。
-   * 4 行目では、Captcha のグレーボックスのサイズ（width/height）と、生成される単語の長さ（minWordSize/maxWordSize）を変更できます。
+   * 4 行目では、Captcha グレーのボックスサイズ（幅/高さ）と、生成される単語の長さ (minWordSize/maxWordSize) を変更できます。
    * Google reCAPTCHA を使用する前に、Googleに登録し、新しい reCAPTCHA サイトを作成する必要があります。
 
      `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
 
-   検証ボタンを無効にすることが必要な場合もありますが、標準的なボタンやリンクは用意されていないので、HTML 自体で実現することをお勧めします。その方法については、 [このページ](https://developers.google.com/recaptcha/).
+   検証ボタンを無効にできるはずですが、標準のボタンやリンクはないので、HTML自体でおこなう方が良いです。 その方法については、 [このページ](https://developers.google.com/recaptcha/).
 
 ### Web アプリケーションの更新
 
@@ -159,7 +159,7 @@ DCE に Captcha を追加する場合、一般的には、Captcha を含める�
 
 1. 最後のページと&#x200B;**[!UICONTROL ストレージ]**&#x200B;アクティビティの間に、**[!UICONTROL スクリプト]**&#x200B;と&#x200B;**[!UICONTROL テスト]**&#x200B;を追加します。
 
-   分岐「**[!UICONTROL はい]**」を「**[!UICONTROL ストレージ]**」に接続し、別の分岐を、Captcha を追加するページに接続します。
+   ブランチをプラグします。 **[!UICONTROL True]** から **[!UICONTROL ストレージ]** もう 1 つは、キャプチャを持つページに対してです。
 
    ![](assets/scripting-captcha2.png)
 

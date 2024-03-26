@@ -10,8 +10,8 @@ topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 9%
+source-wordcount: '420'
+ht-degree: 7%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaignには、配置の寸法を記入するための、パッケージ
    <td> 実行サーバーあたり 50,000 時間<br /> </td> 
   </tr> 
   <tr> 
-   <td> アベイラビリティ<br /> </td> 
+   <td> 使用可否<br /> </td> 
    <td> プライマリデータベースのデータベース<br /> </td> 
    <td> 24/7（メンテナンスウィンドウを除く）、および実行インスタンスのダウンタイム<br /> </td> 
    <td> 24/7/365サービスが可能<br /> </td> 

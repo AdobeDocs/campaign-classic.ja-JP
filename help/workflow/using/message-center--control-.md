@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Workflows
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '152'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 100%
      <li> <p>NmsBroadLogMsg テーブルとの同期が完了するとただちに、イベント配信ログを復元します。</p> </li> 
      <li> <p>配信 URL のトラッキングを復元するために NmsTrackingUrl テーブルと同期します。</p> </li> 
      <li> <p>NmsTrackingUrl テーブルとの同期が完了するとただちに、イベントトラッキング URL を復元します。</p> </li> 
-     <li> <p>配信の送信後 3 時間おきに、強制隔離されたすべての E メールアドレスを復元できます。</p> </li> 
+     <li> <p>配信の送信後 3 時間おきに、強制隔離されたすべてのメールアドレスを復元できます。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

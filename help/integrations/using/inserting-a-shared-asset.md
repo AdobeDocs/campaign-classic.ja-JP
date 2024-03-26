@@ -16,9 +16,9 @@ ht-degree: 100%
 
 # 共有アセットを挿入{#inserting-a-shared-asset}
 
-Adobe Experience Cloud から共有されるアセットは、E メールやランディングページで次のように使用できます。
+Adobe Experience Cloud から共有されるアセットは、メールやランディングページで次のように使用できます。
 
-1. 新しい E メールまたは新しいランディングページを作成します。
+1. 新しいメールまたは新しいランディングページを作成します。
 
    Adobe Experience Manager Assets ライブラリのアセットを使用する場合は、[統合を設定](../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets)したときに作成した配信テンプレートを使用します。
 

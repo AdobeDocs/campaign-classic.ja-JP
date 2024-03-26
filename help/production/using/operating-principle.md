@@ -11,8 +11,8 @@ topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 14%
+source-wordcount: '512'
+ht-degree: 13%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Campaign モジュールには 3 つのタイプがあります。
 | midSourcing | ミッドソーシングモードでの配信情報の復元 |
 | モニター | XML サーバープロセスのステータスとスケジュールされたタスクのインスタンス別の表示。 |
 | MTA | メインエージェント転送メッセージ |
-| 荷物 | エンティティパッケージファイルのインポートまたはエクスポート |
+| パッケージ | エンティティパッケージファイルのインポートまたはエクスポート |
 | pdump | サーバープロセスステータスの表示 |
 | prepareda | 配信アクションの準備 |
 | 再起動 | サーバーの部分的な再起動 |

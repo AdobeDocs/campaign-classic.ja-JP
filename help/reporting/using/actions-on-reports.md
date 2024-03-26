@@ -8,7 +8,7 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ### Microsoft Excel にエクスポート {#exporting-into-microsoft-excel}
 
-Excel にエクスポートするように設計された&#x200B;**[!UICONTROL グループ化されたリスト]**&#x200B;タイプのレポートの場合は、次の推奨事項と制限事項が当てはまります。
+Excel にエクスポートするように設計された&#x200B;**[!UICONTROL グループ化されたリスト]**&#x200B;タイプのレポートの場合は、次のレコメンデーションと制限事項が当てはまります。
 
 * これらのレポートには空行を含めないでください。
 

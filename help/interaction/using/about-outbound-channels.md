@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '154'
 ht-degree: 100%
 
 ---
@@ -22,6 +22,6 @@ ht-degree: 100%
 
 オファーがオファーエンジンによって選択されるためには、承認され、ライブ環境で利用できる必要があります。詳しくは、[オファーの承認と有効化](../../interaction/using/approving-and-activating-an-offer.md)を参照してください。
 
-アウトバウンドのコミュニケーションチャネルを使用したオファー表示域は、ダイレクトメール、E メール、SMS キャンペーンなどを使用して、通常はバッチモードで実行されます（[用語集](../../interaction/using/i-glossary.md)を参照）。また、単一モードも（特に Message Center と共に）使用できます（詳しくは、[Message Center](../../message-center/using/about-transactional-messaging.md) ガイドを参照）。
+アウトバウンドのコミュニケーションチャネルを使用したオファー表示域は、ダイレクトメール、メール、SMS キャンペーンなどを使用して、通常はバッチモードで実行されます（[用語集](../../interaction/using/i-glossary.md)を参照）。また、単一モードも（特に Message Center と共に）使用できます（詳しくは、[Message Center](../../message-center/using/about-transactional-messaging.md) ガイドを参照）。
 
 オファーの提示には様々なオプションを利用できます。例えば、配信、キャンペーン、配信の概要、ワークフローアクティビティなどがあります。

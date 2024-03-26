@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 インタラクションを使用すると、特定の連絡先（顧客またはターゲット）とのインタラクション中に 1 つまたは複数の調整したオファーを提供して、リアルタイムで応答することができます。オファーの例としては、簡単な連絡メッセージや、1 つまたは複数の製品やサービスに関する特別オファーなどがあります。
 
-オファーはインバウンド（Web サイトまたはコールセンター）またはアウトバウンド（E メール配信、ダイレクトメールまたはマーケティングキャンペーン内の SMS）で連絡先に送信されます。
+オファーはインバウンド（Web サイトまたはコールセンター）またはアウトバウンド（メール配信、ダイレクトメールまたはマーケティングキャンペーン内の SMS）で連絡先に送信されます。
 
 インバウンドチャネルおよびアウトバウンドチャネルと連動するオファーカタログを作成すると、特定のコンテキストに最適なオファーを選択して連絡先に送信できます。各受信者向けのオファーの関連度は実施要件ルールに基づいて定義されます。関連するオファーの中からどのオファーを選択するかは優先度ルールに基づいて決定されます。
 オファーのプレゼンテーションルールでは連絡先とのやり取りの履歴が考慮されるので、同じ連絡先に同じオファーが繰り返し送信されることはありません。
@@ -34,5 +34,5 @@ ht-degree: 100%
 | 便利なページ | その他のリソース |
 |---|---|
 | [インタラクションの実装手順](../../interaction/using/implementation-steps.md) | [オファー配分のテスト](../../interaction/using/about-offers-simulation.md) |
-| [ライブ／デザイン環境](../../interaction/using/live-design-environments.md) | [E メールのオファーの追加](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
+| [ライブ／デザイン環境](../../interaction/using/live-design-environments.md) | [メールのオファーの追加](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
 | [オファースペースの作成](../../interaction/using/creating-offer-spaces.md) | [使用例：Web サイトにオファーを追加する](../../interaction/using/offers-on-an-inbound-channel.md) |

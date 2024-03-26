@@ -9,7 +9,7 @@ hidefromtoc: true
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '866'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-この使用例では、Campaign Standard を使用して、Campaign v7 Web アプリケーションへのリンクを含む通信を送信します。受信者が E メールのリンクをクリックすると、受信者のデータおよびニュースレターへの購読リンクがプリロードされた、いくつかのフィールドを含むフォームが Web アプリケーションに表示されます。受信者は、自分のデータを更新したり、サービスを購読したりできます。受信者のプロファイルは Campaign v7 で更新され、その情報が Campaign Standard にレプリケートされます。
+この使用例では、Campaign Standard を使用して、Campaign v7 Web アプリケーションへのリンクを含む通信を送信します。受信者がメールのリンクをクリックすると、受信者のデータおよびニュースレターへの購読リンクがプリロードされた、いくつかのフィールドを含むフォームが Web アプリケーションに表示されます。受信者は、自分のデータを更新したり、サービスを購読したりできます。受信者のプロファイルは Campaign v7 で更新され、その情報が Campaign Standard にレプリケートされます。
 
 Campaign v7 に多くのサービスおよび Web アプリケーションがある場合、それらすべてを Campaign Standard で再作成したくない場合があります。ACS コネクタを使用すると、既存のすべての Campaign v7 Web アプリケーションおよびサービスを使用して、Campaign Standard で送信した配信にリンクすることができます。
 
@@ -47,7 +47,7 @@ Campaign v7 では、以下のオブジェクトが作成されています。
 
    ![](assets/acs_connect_lp_4.png)
 
-1. **[!UICONTROL ページ]**&#x200B;を編集します。3 つのフィールド（名前、E メールおよび電話）と、受信者にニュースレターの購読（**[!UICONTROL ニュースレター]**&#x200B;サービス）を勧めるチェックボックスが含まれています。
+1. **[!UICONTROL ページ]**&#x200B;を編集します。3 つのフィールド（名前、メールおよび電話）と、受信者にニュースレターの購読（**[!UICONTROL ニュースレター]**&#x200B;サービス）を勧めるチェックボックスが含まれています。
 
    ![](assets/acs_connect_lp_3.png)
 
@@ -85,11 +85,11 @@ Campaign v7 と Campaign Standard との間で必要なデータをレプリケ�
 
 ## メールのデザインと送信 {#designing-and-sending-the-email}
 
-ここでは、Campaign Standard E メールで、Campaign v7 Web アプリケーションからレプリケートされたランディングページへのリンクを含める方法を確認します。
+ここでは、Campaign Standardメールで、Campaign v7 Web アプリケーションからレプリケートされたランディングページへのリンクを含める方法を確認します。
 
-E メールを作成、設計、送信する手順は、従来の E メールと同じです。[Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja) のドキュメントを参照してください。
+メールを作成、設計、送信する手順は、従来のメールと同じです。[Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja) のドキュメントを参照してください。
 
-1. 新しい E メールを作成して、1 つまたは複数のレプリケートされたプロファイルをオーディエンスとして選択します。
+1. 新しいメールを作成して、1 つまたは複数のレプリケートされたプロファイルをオーディエンスとして選択します。
 1. コンテンツを編集して、**[!UICONTROL ランディングページへのリンク]**&#x200B;を挿入します。
 
    ![](assets/acs_connect_lp_12.png)
@@ -98,8 +98,8 @@ E メールを作成、設計、送信する手順は、従来の E メールと
 
    ![](assets/acs_connect_lp_13.png)
 
-1. E メールを準備し、配達確認を送信して、最終的な E メールを送信します。
-1. 受信者の 1 人が E メールを開いて、ニュースレター購読へのリンクをクリックします。
+1. メールを準備し、配達確認を送信して、最終的なメールを送信します。
+1. 受信者の 1 人がメールを開いて、ニュースレター購読へのリンクをクリックします。
 
    ![](assets/acs_connect_lp_14.png)
 

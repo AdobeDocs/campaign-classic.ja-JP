@@ -6,7 +6,7 @@ description: Appleのメールプライバシー保護機能がキャンペー�
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2097'
+source-wordcount: '2105'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ E メールの開封がセグメント化、ターゲティングおよびリタ
 
   ![](assets/identify-email-open-tracking-2.png)
 
-* 定義済みフィルターを使用できます。 [詳細情報](../../workflow/using/creating-a-filter.md)
+* 定義済みフィルターを使用できます。 [詳細情報](../../workflow/using/creating-a-filter.md)。
 
   ![](assets/identify-email-open-tracking-3.png)
 
@@ -139,7 +139,7 @@ E メールの開封がターゲット条件として使用されているワー
 >
 >このパッケージは、実稼動環境以外でテストおよび検証することを強くお勧めします。
 
-をダウンロードします。 [サンプルパッケージ](assets/PKG_Search_workflows_using_Opens_in_queries_V1.xml) をクリックし、インストールします。 [詳細情報](../../platform/using/working-with-data-packages.md#importing-packages)
+をダウンロードします。 [サンプルパッケージ](assets/PKG_Search_workflows_using_Opens_in_queries_V1.xml) をクリックし、インストールします。 [詳細情報](../../platform/using/working-with-data-packages.md#importing-packages)。
 
 パッケージをインストールしたら、インスタンスに標準のテクニカルワークフローが含まれているフォルダーからワークフローにアクセスできます。
 

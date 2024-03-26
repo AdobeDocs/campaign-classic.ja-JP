@@ -12,7 +12,7 @@ hidefromtoc: true
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '910'
 ht-degree: 100%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 100%
 
 * **[ACS] プロファイル配信ログのレプリケーションワークフローでエラーが発生します。どうすればよいですか？**
 
-  Campaign Classic インスタンスと Campaign Standard インスタンスの両方を使用してトラッキングされる URL で E メールを送信する場合、同期中に URL tagIds の重複に関する問題が発生する可能性があります。 この場合、**[ACS] プロファイル配信ログのレプリケーション**（newRcpDeliveryLogReplication）ワークフローは、次のエラーで失敗します。
+  Campaign Classic インスタンスと Campaign Standard インスタンスの両方を使用してトラッキングされる URL でメールを送信する場合、同期中に URL tagIds の重複に関する問題が発生する可能性があります。 この場合、**[ACS] プロファイル配信ログのレプリケーション**（newRcpDeliveryLogReplication）ワークフローは、次のエラーで失敗します。
 
   ```PGS-220000 PostgreSQL error: ERROR: duplicate key value violates unique constraint "nmstrackingurl_tagid" DETAIL: Key (stagid) = (1c7bdec2) already exists.```
 

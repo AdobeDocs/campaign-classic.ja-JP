@@ -8,17 +8,17 @@ feature: Monitoring
 role: User, Data Engineer, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '654'
+workflow-type: tm+mt
+source-wordcount: '656'
 ht-degree: 100%
 
 ---
 
 # 命令の前処理 {#pre-processing-instructions}
 
-配信コンテンツで特定の構文を使用して、命令を追加し、トラッキングされる E メールの URL をスクリプト化できます。 &lt;%@ 命令は JavaScript ではありません。Adobe Campaign 固有の構文です。
+配信コンテンツで特定の構文を使用して、命令を追加し、トラッキングされるメールの URL をスクリプト化できます。 &lt;%@ 命令は JavaScript ではありません。Adobe Campaign 固有の構文です。
 
-&lt;%@ 命令は、配信コンテンツのコンテキストでのみ適用されます。これは、E メールの URL をスクリプト化し、引き続き（URL パラメーター以外を）トラッキングする唯一の方法です。&lt;%@ 命令は、トラッキングするリンクを検出する前の配信分析中に、自動のコピー＆ペーストとして適用されることがあります。
+&lt;%@ 命令は、配信コンテンツのコンテキストでのみ適用されます。これは、メールの URL をスクリプト化し、引き続き（URL パラメーター以外を）トラッキングする唯一の方法です。&lt;%@ 命令は、トラッキングするリンクを検出する前の配信分析中に、自動のコピー＆ペーストとして適用されることがあります。
 
 次の 3 種類の命令があります。
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 ### [!DNL delivery] オブジェクト{#delivery-object}
 
-E メールのパーソナライゼーションの場合、delivery オブジェクトは次の 2 とおりの方法でアクセスできます。
+メールのパーソナライゼーションの場合、delivery オブジェクトは次の 2 とおりの方法でアクセスできます。
 
 * JavaScript の使用：
 

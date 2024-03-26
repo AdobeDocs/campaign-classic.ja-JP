@@ -11,8 +11,8 @@ topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 17%
+source-wordcount: '1160'
+ht-degree: 8%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 17%
 
 Windows 環境で、次の手順に従ってAdobe Campaignを新しいビルドに更新します。
 
-* [サービスのシャットダウン](#shut-down-services),
+* [サービスをシャットダウン](#shut-down-services),
 * [アプリケーションサーバーのアップグレード](#upgrade-the-adobe-campaign-server-application),
-* [リソースの同期](#synchronize-resources),
+* [リソースを同期](#synchronize-resources),
 * [サービスの再起動](#restart-services).
 
 クライアントコンソールの更新方法については、 [この節](../../installation/using/client-console-availability-for-windows.md).
@@ -72,15 +72,15 @@ Windows 環境で、次の手順に従ってAdobe Campaignを新しいビルド�
 
 1. 実行 **setup.exe**.
 
-   このファイルをダウンロードするには、 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?lang=ja) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
+   このファイルをダウンロードするには、 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
 
 1. インストールモードを選択します。次を選択します。 **[!UICONTROL 更新または修復]**
-1. 「**[!UICONTROL 次へ]**」をクリックします。
-1. 「**[!UICONTROL 終了]**」をクリックします。
+1. クリック **[!UICONTROL 次へ]** .
+1. クリック **[!UICONTROL 完了]** .
 
    次に、新しいファイルがコピーされます。
 
-1. 処理が完了したら「**[!UICONTROL 完了]**」をクリックします。
+1. 操作が完了したら、「 **[!UICONTROL 完了]** .
 
 ### リソースの同期 {#synchronize-resources}
 
@@ -126,7 +126,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 ### 更新されたパッケージの取得 {#obtain-updated-packages}
 
-まず、更新されたAdobe Campaignの両方のパッケージを復元します。 [ソフトウェア配布ポータル](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
+まず、更新されたAdobe Campaignの両方のパッケージを復元します。 [ソフトウェア配布ポータル](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) ユーザー資格情報を使用して。 ソフトウェア配布について詳しくは、 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja).
 
 ファイルは **nlserver6-v7-XXX.rpm**
 
@@ -191,7 +191,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
 同期結果を表示する方法は 2 つあります。
 
-* コマンドラインインターフェイスでは、エラーは 3 つの山形記号で表されます。 **>>>** 同期は自動的に停止します。 警告は二重山形記号で表されます **>>** 同期が完了したら、解決する必要があります。 ポストアップグレードの最後に概要がコマンドプロンプトで表示されます。以下はその一例です。
+* コマンドラインインターフェイスでは、エラーは 3 つの山形記号で表されます。 **>>>** 同期は自動的に停止します。 警告は二重山形記号で表されます **>>** 同期が完了したら、解決する必要があります。 アップグレード後の最後に、コマンドプロンプトに概要が表示されます。 以下はその一例です。
 
   ```
   2013-04-09 07:48:39.749Z 00002E7A 1 info log =========Summary of the update==========
@@ -202,7 +202,7 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
   2013-04-09 07:48:39.750Z 00002E7A 1 warning log Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
   ```
 
-  リソースの競合に関する警告は、見落とさないように注意して、解決してください。
+  リソースの競合に関する警告が発生した場合は、解決にユーザーの注意が必要です。
 
 * The **postupgrade_`<server version number>_<time of postupgrade>`.log** ログファイルには、同期結果が含まれます。 デフォルトでは、次のディレクトリで使用できます。 **`<installation directory>/var/<instance/postupgrade`**. エラーと警告はそれぞれエラーと警告の属性で明示されます。
 
@@ -229,11 +229,11 @@ Linux 環境では、次の手順に従ってAdobe Campaignを新しいビルド
 
    ![](assets/s_ncs_production_conflict002.png)
 
-1. 維持しないバージョンを削除します。を削除します。 **_conflict_argument_** 保持するエンティティの文字列。
+1. 保持しないバージョンを削除します。 を削除します。 **_conflict_argument_** 保持するエンティティの文字列。
 
    ![](assets/s_ncs_production_conflict003.png)
 
-1. 解決した競合に移動します。**[!UICONTROL アクション]**&#x200B;アイコンをクリックし、「**[!UICONTROL 解決済みとして宣言]**」を選択します。
+1. 解決した競合に移動します。 次をクリック： **[!UICONTROL アクション]** アイコンと選択 **[!UICONTROL 解決済みとして宣言]** .
 1. 変更を保存します。これにより競合が解決します。
 
 ### ベストプラクティス {#best-practices}

@@ -8,8 +8,8 @@ feature: Channel Configuration
 role: User
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '1610'
+workflow-type: tm+mt
+source-wordcount: '1625'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 100%
   >
   >* SMTP サーバー設定の詳細については、[この節](../../installation/using/configure-delivery-settings.md)を参照してください。
 
-* **[!UICONTROL BCC で E メールを送信]**：BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存します。[詳細情報](sending-messages.md#archiving-emails)。
+* **[!UICONTROL BCC でメールを送信]**：BCC メールアドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。[詳細情報](sending-messages.md#archiving-emails)。
 
 ## 配信を確定 {#confirming-delivery}
 
@@ -151,7 +151,7 @@ ht-degree: 100%
 
 * **ランプアッププロセス時**
 
-  新しいプラットフォームを使用して E メールが送信された場合、インターネットサービスプロバイダー（ISP）は認識されない IP アドレスを疑わしく思います。多くの場合、大量の E メールが突然送信されると、ISP はそれらの E メールをスパムとしてマークします。
+  新しいプラットフォームを使用してメールが送信された場合、インターネットサービスプロバイダー（ISP）は認識されない IP アドレスを疑わしく思います。多くの場合、大量のメールが突然送信されると、ISP はそれらのメールをスパムとしてマークします。
 
   ウェーブを使用して送信するボリュームを徐々に増やすことで、スパムとしてマークされないようにできます。この方法により、スタートアップフェーズをスムーズに進め、無効なアドレスが全体に占める割合を減らすことができます。
 
@@ -196,7 +196,7 @@ ht-degree: 100%
 
   >[!IMPORTANT]
   >
-  >ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、Campaign の E メール配信の&#x200B;**[!UICONTROL 配信期間]**&#x200B;設定は、**3.5 日以下**&#x200B;に設定された場合にのみ使用されます。3.5 日を超える値を定義した場合、その値は考慮されません。
+  >ホストインストールまたはハイブリッドインストールで、[Enhanced MTA](sending-with-enhanced-mta.md) にアップグレードした場合、Campaign のメール配信の&#x200B;**[!UICONTROL 配信期間]**&#x200B;設定は、**3.5 日以下**&#x200B;に設定された場合にのみ使用されます。3.5 日を超える値を定義した場合、その値は考慮されません。
 
 * **リソースの有効期限**：「**[!UICONTROL 有効期限]**」フィールドは、アップロードされたリソース（主にミラーページと画像）に関して使用されます。ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 

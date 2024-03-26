@@ -7,8 +7,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 exl-id: 2c678f45-2555-4647-9885-bd002db7df37
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 15%
+source-wordcount: '366'
+ht-degree: 13%
 
 ---
 
@@ -52,11 +52,11 @@ Adobe Campaignで、 [!DNL PostgreSQL] 外部アカウント。 外部アカウ�
 
 1. を設定します。 **[!UICONTROL PostgreSQL]** 外部アカウント認証：
 
-   * **[!UICONTROL サーバー]**：[!DNL PostgreSQL] サーバーの URL.
+   * **[!UICONTROL サーバー]**：の URL [!DNL PostgreSQL] サーバー。
 
-   * **[!UICONTROL アカウント]**：ユーザーの名前.
+   * **[!UICONTROL アカウント]**：ユーザーの名前。
 
-   * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード.
+   * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード。
 
    * **[!UICONTROL データベース]**：データベースの名前（オプション）。
 

@@ -7,7 +7,7 @@ feature: Workflows, Targeting Activity, Subscription Services Activity
 exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '436'
 ht-degree: 100%
 
 ---

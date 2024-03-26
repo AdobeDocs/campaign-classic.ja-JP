@@ -8,8 +8,8 @@ role: Data Engineer, Developer
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 4%
+source-wordcount: '636'
+ht-degree: 3%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 4%
 
 ビジネス API は、オブジェクトの各タイプに固有です。 次の項目に影響を与えます。
 
-* 配信:
+* 配信 :
 
    * 配信アクションの作成 ( [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
    * キャンペーンの送信（開始、一時停止、停止、配達確認の送信）
    * 配信ログを復元しています。
 
-* ワークフロー:
+* ワークフロー：
 
    * ワークフローの開始
    * プロセスの検証等
@@ -83,7 +83,7 @@ E メールアドレスの受信者紐付けキーを使用した購読：入力
 
 ### SOAP メッセージの例 {#example-of-soap-messages}
 
-* クエリ:
+* クエリ :
 
   ```
   <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -101,7 +101,7 @@ E メールアドレスの受信者紐付けキーを使用した購読：入力
   </SOAP-ENV:Envelope>
   ```
 
-* 応答:
+* 応答：
 
   ```
   <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -146,7 +146,7 @@ E メールアドレスの受信者紐付けキーを使用した購読：入力
 
 ### SOAP メッセージの例 {#example-of-soap-messages-1}
 
-クエリ:
+クエリ :
 
 ```
 <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -162,7 +162,7 @@ E メールアドレスの受信者紐付けキーを使用した購読：入力
 </SOAP-ENV:Body>
 ```
 
-応答:
+応答：
 
 ```
 <?xml version='1.0' encoding='ISO-8859-1'?>

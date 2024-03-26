@@ -8,8 +8,8 @@ feature: Personalization
 role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '942'
+workflow-type: tm+mt
+source-wordcount: '940'
 ht-degree: 100%
 
 ---
@@ -47,9 +47,9 @@ ht-degree: 100%
 
 ## パーソナライゼーションフィールドの例 {#personalization-fields-example}
 
-E メールを作成するとします。まず受信者の名前を挿入し、続いて、メッセージ本文にプロファイルの作成日を挿入することにします。手順は次のとおりです。
+メールを作成するとします。まず受信者の名前を挿入し、続いて、メッセージ本文にプロファイルの作成日を挿入することにします。手順は次のとおりです。
 
-1. 新しい配信を作成するか、E メールタイプの既存の配信を開きます。
+1. 新しい配信を作成するか、メールタイプの既存の配信を開きます。
 1. 配信ウィザードで、「**[!UICONTROL 件名]**」をクリックし、メッセージの件名の編集や件名の入力をおこないます。
 1. 「**[!UICONTROL Special offer for]**」と入力し、ツールバーのボタンを使用してパーソナライゼーションフィールドを挿入します。**[!UICONTROL 受信者／タイトル]**&#x200B;を選択します。
 
@@ -88,7 +88,7 @@ E メールを作成するとします。まず受信者の名前を挿入し、
 
 1. キャンペーンを作成します。詳しくは、[この節](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)を参照してください。
 1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、ワークフローに&#x200B;**クエリ**&#x200B;アクティビティを追加します。このアクティビティの使用について詳しくは、[この節](../../workflow/using/query.md)を参照してください。
-1. **[!UICONTROL E メール配信]**&#x200B;アクティビティをワークフローに追加して開きます。このアクティビティの使用について詳しくは、[この節](../../workflow/using/delivery.md)を参照してください。
+1. **[!UICONTROL メール配信]**&#x200B;アクティビティをワークフローに追加して開きます。このアクティビティの使用について詳しくは、[この節](../../workflow/using/delivery.md)を参照してください。
 1. **[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL 分析]**」タブで、「**[!UICONTROL ワークフローを使用してパーソナライゼーションデータを準備]**」オプションを選択します。
 
    ![](assets/perso_optimization.png)
@@ -119,7 +119,7 @@ E メールを作成するとします。まず受信者の名前を挿入し、
 
 ## チュートリアルビデオ {#personalization-fields-video}
 
-パーソナライゼーションフィールドを件名行と E メール配信のコンテンツに追加する方法について説明します。
+パーソナライゼーションフィールドを件名行とメール配信のコンテンツに追加する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 

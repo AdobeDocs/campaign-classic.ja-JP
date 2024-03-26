@@ -166,7 +166,7 @@ ht-degree: 6%
 
    詳しくは、 [Campaign サーバーの設定](../../installation/using/configuring-campaign-server.md).
 
-1. クライアントコンソールセットアッププログラムをコピーする **setup-client-7.XXX.exe** から **/datakit/nl/eng/jsp** フォルダー。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)
+1. クライアントコンソールセットアッププログラムをコピーする **setup-client-7.XXX.exe** から **/datakit/nl/eng/jsp** フォルダー。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
 
 1. 次の節で説明されている Web サーバー統合手順 (IIS、Apache) に従います。
 
@@ -209,7 +209,7 @@ ht-degree: 6%
 
    この URL を使用して、クライアントセットアッププログラムのダウンロードページにアクセスできます。
 
-   次を入力します。 **内部** ログインと関連するパスワード（アクセス制御ページにアクセスする際に使用） [詳細情報](../../installation/using/client-console-availability-for-windows.md)
+   次を入力します。 **内部** ログインと関連するパスワード（アクセス制御ページにアクセスする際に使用） [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
 
    ![](assets/s_ncs_install_access_client.png)
 

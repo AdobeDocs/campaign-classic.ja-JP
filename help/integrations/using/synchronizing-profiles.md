@@ -9,7 +9,7 @@ hidefromtoc: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1252'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 
 ## 購読解除リンクの変更 {#changing-the-unsubscription-link}
 
-受信者が Campaign Standard で送信した E メールの購読解除リンクをクリックすると、Campaign Standard の対応するプロファイルが更新されます。レプリケートされたプロファイルに、サービスに対するユーザーの購読解除の選択が含まれていることを確認するには、その情報が Campaign Standard ではなく Campaign v7 に送信されている必要があります。この変更を実行するには、購読解除サービスを Campaign Standard ではなく Campaign v7 Web アプリケーションにリンクします。
+受信者が Campaign Standard で送信したメールの購読解除リンクをクリックすると、Campaign Standard の対応するプロファイルが更新されます。レプリケートされたプロファイルに、サービスに対するユーザーの購読解除の選択が含まれていることを確認するには、その情報が Campaign Standard ではなく Campaign v7 に送信されている必要があります。この変更を実行するには、購読解除サービスを Campaign Standard ではなく Campaign v7 Web アプリケーションにリンクします。
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ACS コネクタは、Campaign v7 から Campaign Standard にデータをレプ
 
 ## 新しい受信者の作成 {#creating-a-new-recipient}
 
-1. Campaign Standard へのレプリケーション用の新しい受信者を Campaign v7 で作成します。受信者の姓、名、E メールアドレス、郵送先住所など、可能な限りの情報を入力します。ただし、敬称は次の[受信者の編集](#editing-a-recipient)の節で追加するので、**[!UICONTROL 敬称]**&#x200B;は選択しないでください。詳しくは、[受信者の追加](../../platform/using/adding-profiles.md)を参照してください。
+1. Campaign Standard へのレプリケーション用の新しい受信者を Campaign v7 で作成します。受信者の姓、名、メールアドレス、郵送先住所など、可能な限りの情報を入力します。ただし、敬称は次の[受信者の編集](#editing-a-recipient)の節で追加するので、**[!UICONTROL 敬称]**&#x200B;は選択しないでください。詳しくは、[受信者の追加](../../platform/using/adding-profiles.md)を参照してください。
 
    ![](assets/acs_connect_profile_sync_01.png)
 
@@ -96,19 +96,19 @@ Campaign v7 からレプリケートされたプロファイルとサービス�
 
 デジタルマーケターは Campaign v7 web アプリケーションを使用して、受信者によるサービスの購読解除の選択が確実に Campaign v7 データベースに送信されるようにできます。受信者が購読解除リンクをクリックすると、サービスの受信を停止するオプションが Campaign v7 から Campaign Standard にレプリケートされます。詳しくは、[購読解除リンクの変更](#changing-the-unsubscription-link)を参照してください。
 
-以下の手順に従い、Campaign v7 で作成した購読解除サービスを使用して既存のワークフローに E メール配信を追加します。Campaign Standard ワークフローの詳細および完全な手順については、この[ドキュメント](../../workflow/using/about-workflows.md)を参照してください。
+以下の手順に従い、Campaign v7 で作成した購読解除サービスを使用して既存のワークフローにメール配信を追加します。Campaign Standard ワークフローの詳細および完全な手順については、この[ドキュメント](../../workflow/using/about-workflows.md)を参照してください。
 
 >[!NOTE]
 >
 >購読解除サービスについて Web アプリケーションを設定するには、以下の手順を実行する前に、コンサルタントにお問い合わせください。
 
 1. 左側の「**[!UICONTROL チャネル]**」をクリックします。
-1. **[!UICONTROL E メール配信]**&#x200B;をワークスペースの既存のワークフローにドラッグします。
+1. **[!UICONTROL メール配信]**&#x200B;をワークスペースの既存のワークフローにドラッグします。
 
    ![](assets/acs_connect_profile_sync_07.png)
 
-1. 「**[!UICONTROL E メール配信]**」アクティビティをダブルクリックして、**[!UICONTROL 単一送信 E メール]**&#x200B;または&#x200B;**[!UICONTROL 繰り返し E メール]**&#x200B;を選択します。オプションを選択して、「**[!UICONTROL 次へ]**」をクリックします。
-1. 「**[!UICONTROL E メールで送信]**」をクリックして、「**[!UICONTROL 次へ]**」をクリックします。
+1. 「**[!UICONTROL メール配信]**」アクティビティをダブルクリックして、**[!UICONTROL 単一送信メール]**&#x200B;または&#x200B;**[!UICONTROL 繰り返しメール]**&#x200B;を選択します。オプションを選択して、「**[!UICONTROL 次へ]**」をクリックします。
+1. 「**[!UICONTROL メールで送信]**」をクリックして、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/acs_connect_profile_sync_08.png)
 
@@ -116,7 +116,7 @@ Campaign v7 からレプリケートされたプロファイルとサービス�
 
    ![](assets/acs_connect_profile_sync_09.png)
 
-1. 「**[!UICONTROL 件名]**」フィールドで、受信者の E メールの受信ボックスに表示される件名を入力します。
+1. 「**[!UICONTROL 件名]**」フィールドで、受信者のメールの受信ボックスに表示される件名を入力します。
 1. 「**[!UICONTROL コンテンツを変更]**」をクリックして、HTML テンプレートを追加します。
 
    ![](assets/acs_connect_profile_sync_10.png)
@@ -125,7 +125,7 @@ Campaign v7 からレプリケートされたプロファイルとサービス�
 
    ![](assets/acs_connect_profile_sync_11.png)
 
-1. 現在の購読解除リンクは、コンサルタントによって作成された Web アプリケーションを使用する新しいリンクに置き換える必要があります。E メールコンテンツの最後にある購読解除リンクを探して、1 回クリックします。ごみ箱アイコンをクリックして、リンクを削除します。
+1. 現在の購読解除リンクは、コンサルタントによって作成された Web アプリケーションを使用する新しいリンクに置き換える必要があります。メールコンテンツの最後にある購読解除リンクを探して、1 回クリックします。ごみ箱アイコンをクリックして、リンクを削除します。
 
    ![](assets/acs_connect_profile_sync_12.png)
 
@@ -151,11 +151,11 @@ Campaign v7 からレプリケートされたプロファイルとサービス�
 
    ![](assets/acs_connect_profile_sync_17.png)
 
-1. 「**[!UICONTROL 開始]**」をクリックして、配信を送信します。E メール配信アイコンが点滅して、配信が準備中であることが示されます。
+1. 「**[!UICONTROL 開始]**」をクリックして、配信を送信します。メール配信アイコンが点滅して、配信が準備中であることが示されます。
 
    ![](assets/acs_connect_profile_sync_18.png)
 
-1. **[!UICONTROL E メール配信]**&#x200B;チャネルをダブルクリックして、「**[!UICONTROL 確認]**」を選択し、E メールを送信します。「**[!UICONTROL OK]**」をクリックして、メッセージを送信します。
+1. **[!UICONTROL メール配信]**&#x200B;チャネルをダブルクリックして、「**[!UICONTROL 確認]**」を選択し、メールを送信します。「**[!UICONTROL OK]**」をクリックして、メッセージを送信します。
 
    ![](assets/acs_connect_profile_sync_19.png)
 
@@ -163,7 +163,7 @@ Campaign v7 からレプリケートされたプロファイルとサービス�
 
 以下の手順に進む前に、[ワークフローの作成](#creating-a-workflow)および[配信の作成](#creating-a-delivery)の手順に従ってください。
 
-1. 受信者は、E メール配信にある購読解除リンクをクリックします。
+1. 受信者は、メール配信にある購読解除リンクをクリックします。
 
    ![](assets/acs_connect_profile_sync_20.png)
 

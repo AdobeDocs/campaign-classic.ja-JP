@@ -8,7 +8,7 @@ feature: A/B Testing
 role: User
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -160,10 +160,10 @@ ht-degree: 100%
 
 ## その他の選択基準 {#other-selection-criteria}
 
-上記の例では、E メールの開封率に応じて配信するコンテンツを選択することができます。次のようなその他の配信固有の指標を基にすることが可能です。
+上記の例では、メールの開封率に応じて配信するコンテンツを選択することができます。次のようなその他の配信固有の指標を基にすることが可能です。
 
 * 最も高いクリックスルー率：`[indicators/@recipientClickRatio]`
-* 最も高い反応率（E メールの開封やメッセージのクリック）：`[indicators/@reactivity]`
+* 最も高い反応率（メールの開封やメッセージのクリック）：`[indicators/@reactivity]`
 * 最も低いクレーム率：`[indicators/@refusedRatio]`（sortDesc 属性には、値 false を使用）
 * 最も高いコンバージョン率：`[indicators/@transactionRatio]`
 * メッセージの受信後に訪問のあったページの数：`[indicators/@totalWebPage]`

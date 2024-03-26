@@ -7,7 +7,7 @@ feature: Workflows, Enrichment Activity
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '835'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 この使用例では、ターゲティングワークフローの「**[!UICONTROL エンリッチメント]**」アクティビティの使用方法を詳しく説明します。「**[!UICONTROL エンリッチメント]**」アクティビティの使用について詳しくは、[エンリッチメント](enrichment.md)を参照してください。
 
-E メール配信にカスタム日付を含めてエンリッチメントする方法の使用例については、[この節](email-enrichment-with-custom-date-fields.md)でも説明します。
+メール配信にカスタム日付を含めてエンリッチメントする方法の使用例については、[この節](email-enrichment-with-custom-date-fields.md)でも説明します。
 
 Web アプリケーション経由での競争への参加を案内する内容が、マーケティングデータベースの連絡先に送られます。競合の結果は、「**[!UICONTROL 競合の結果]**」テーブルに復元されます。このテーブルは、連絡先テーブル（**[!UICONTROL 受信者]**）にリンクされています。「**[!UICONTROL 競合の結果]**」テーブルには、以下のフィールドがあります。
 

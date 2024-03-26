@@ -8,8 +8,8 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '654'
+workflow-type: tm+mt
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
@@ -88,7 +88,7 @@ ajouter screenshot -->
  </tbody> 
 </table>
 
-Adobe Campaign の E メールの配信品質を最適化する方法について、[この節](about-deliverability.md)を参照してください。配信品質の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
+Adobe Campaign のメールの配信品質を最適化する方法について、[この節](about-deliverability.md)を参照してください。配信品質の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
 
 ## 保留中ステータス {#pending-status}
 

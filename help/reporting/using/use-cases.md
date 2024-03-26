@@ -8,7 +8,7 @@ feature: Reporting, Monitoring
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1434'
 ht-degree: 100%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 ### テーブル表示の例 {#example-of-a-table-display}
 
-**目的**：会社の E メールドメインの分析
+**目的**：会社のメールドメインの分析
 
 1. 記述的分析ウィザードを開き、「**[!UICONTROL 配列]**」表示モードのみを選択します。
 
@@ -125,8 +125,8 @@ ht-degree: 100%
 
    「**[!UICONTROL 次へ]**」ボタンをクリックして、この段階の作業を承認します。
 
-1. **[!UICONTROL 会社]**&#x200B;変数を列として、**[!UICONTROL E メールドメイン]**&#x200B;変数を行として、それぞれ選択します。
-1. 統計の方向の「**[!UICONTROL 行別]**」オプションをそのまま使用します。統計の計算は **[!UICONTROL E メールドメイン]**&#x200B;変数の右に表示されます。
+1. **[!UICONTROL 会社]**&#x200B;変数を列として、**[!UICONTROL メールドメイン]**&#x200B;変数を行として、それぞれ選択します。
+1. 統計の方向の「**[!UICONTROL 行別]**」オプションをそのまま使用します。統計の計算はメールドメイン&#x200B;]**変数の右に表示されます。**[!UICONTROL 
 
    ![](assets/s_ncs_user_report_wizard_03b.png)
 
@@ -188,7 +188,7 @@ ht-degree: 100%
 
    残りの設定は、すべての記述的分析と同じです。
 
-### ターゲット分析の推奨事項 {#target-analyze-recommendations}
+### ターゲット分析のレコメンデーション {#target-analyze-recommendations}
 
 ワークフローの母集団の分析では、その母集団がトランジションにまだ存在している必要があります。ワークフローが開始されると、母集団に関する結果はトランジションからパージされる可能性があります。分析を実行するには、次のいずれかをおこなうことができます。
 

@@ -10,7 +10,7 @@ topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1225'
 ht-degree: 8%
 
 ---
@@ -167,7 +167,7 @@ ht-degree: 8%
 
    詳しくは、 [Campaign サーバーの設定](../../installation/using/configuring-campaign-server.md).
 
-1. クライアントコンソールセットアッププログラムをコピーする **setup-client-7.XX**, **YYYY.exe** から **/datakit/nl/eng/jsp** フォルダー。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)
+1. クライアントコンソールセットアッププログラムをコピーする **setup-client-7.XX**, **YYYY.exe** から **/datakit/nl/eng/jsp** フォルダー。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
 
 1. Adobe Campaignサーバーを起動します (**net start nlserver6** Windows の場合、 **/etc/init.d/nlserver6 start** （Linux の場合）、コマンドを実行します。 **nlserver pdump** もう一度有効なモジュールがすべて存在するかどうかを確認します。
 
@@ -191,7 +191,7 @@ ht-degree: 8%
 
 1. をテストします。 **nlserver web** URL を使用するモジュール： [https://console.campaign.net/nl/jsp/logon.jsp](https://tracking.campaign.net/r/test).
 
-   この URL を使用して、クライアントセットアッププログラムのダウンロードページにアクセスできます。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)
+   この URL を使用して、クライアントセットアッププログラムのダウンロードページにアクセスできます。 [詳細情報](../../installation/using/client-console-availability-for-windows.md)。
 
    次を入力します。 **内部** ログインと関連するパスワード（アクセス制御ページにアクセスする際に使用）
 

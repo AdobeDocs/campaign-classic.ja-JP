@@ -7,7 +7,7 @@ feature: Workflows, Enrichment Activity, Targeting Activity
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1434'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 エンリッチメントアクティビティのコンテキストでの操作に関する使用例については、次の節でも説明します。
 
-* [カスタム日付フィールドを使用した E メールエンリッチメント](email-enrichment-with-custom-date-fields.md).
+* [カスタム日付フィールドを使用したメールエンリッチメント](email-enrichment-with-custom-date-fields.md).
 * [データのエンリッチメント](enriching-data.md)
 * [サマリーリストの作成](creating-a-summary-list.md)
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 
 エンリッチメントアクティビティを使用して、作業データと Adobe Campaign データベースの間にリンクを作成できます。これは、インバウンドデータ間のワークフローへのローカルリンクとなります。
 
-例えば、受信者のアカウント番号、国および E メールが含まれるデータファイルを読み込む場合、プロファイル内の情報を更新するために国テーブルへのリンクを作成する必要があります。
+例えば、受信者のアカウント番号、国およびメールが含まれるデータファイルを読み込む場合、プロファイル内の情報を更新するために国テーブルへのリンクを作成する必要があります。
 
 それには、次の手順に従います。
 

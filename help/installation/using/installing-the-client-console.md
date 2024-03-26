@@ -10,8 +10,8 @@ topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 32%
+source-wordcount: '1159'
+ht-degree: 31%
 
 ---
 
@@ -51,7 +51,7 @@ WebView は、Windows 11 オペレーティングシステムの一部として�
 
 1. Adobeは、直接デプロイできます。 コンソールを更新すると、ポップアップウィンドウで最新のクライアントコンソールバージョンをダウンロードするように求められます。
 
-1. からクライアントコンソールにダウンロードできます。 [ソフトウェア配布](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html)
+1. からクライアントコンソールにダウンロードできます。 [ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)
 
    **ユーザーが更新を完了するには、管理者アクセス権が必要です。 ユーザーに管理者権限がない場合、システム管理者はすべてのクライアントコンソールにデプロイする必要があります**
 
@@ -135,7 +135,7 @@ Adobeは、オプションを終了することをお勧めします **[!UICONTR
 
 1. URL 経由で Adobe Campaign アプリケーションサーバーへの接続を指定します。 DNS、マシンのエイリアス、または IP アドレスを使用します。
 
-   例えば、`https://<machine>.<domain>.com` タイプの URL を使用できます。
+   例えば、 `https://<machine>.<domain>.com` URL を入力します。
 
 1. Adobe IMSが組織に対して設定されている場合は、「 」オプションをオンにします。 **[!UICONTROL Adobe IDとの接続]**
 
@@ -167,7 +167,7 @@ Adobeは、オプションを終了することをお勧めします **[!UICONTR
 
 **関連トピック**
 
-* [インスタンスの作成とログイン](../../installation/using/creating-an-instance-and-logging-on.md).
+* [インスタンスの作成とログオン](../../installation/using/creating-an-instance-and-logging-on.md).
 * [互換性マトリックス](https://helpx.adobe.com/jp/campaign/kb/compatibility-matrix.html)
 
 ## チュートリアルビデオ

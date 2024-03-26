@@ -26,7 +26,7 @@ Adobe Campaign では、外部テーブルのデータでマッピングを定�
 
    ![](assets/wf_new_mapping_create_fda.png)
 
-1. 配信情報が格納されるフィールド（姓、名前、E メール、住所など）を指定します。
+1. 配信情報が格納されるフィールド（姓、名前、メール、住所など）を指定します。
 
    ![](assets/wf_new_mapping_define_join.png)
 

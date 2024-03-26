@@ -8,8 +8,8 @@ feature: SMS, Troubleshooting
 role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '2756'
+workflow-type: tm+mt
+source-wordcount: '2767'
 ht-degree: 100%
 
 ---
@@ -155,7 +155,7 @@ Adobe Campaign は、外部アカウントを無関係なエンティティと�
 
 * `broadLogMsg` テーブルで、エラーが適切にプロビジョニングされていることを確認します。
 
-`DELIVER_SM PDU` が Adobe Campaign Classic 拡張 SMPP コネクタで認識されたが、broadLog が正しく更新されない場合は、[MT、SR および broadLog エントリの一致](sms-protocol.md#matching-mt)の節で説明されている ID 調整プロセスを確認します。
+`DELIVER_SM PDU` が Adobe Campaign Classic 拡張 SMPP コネクタで認識されたが、broadLog が正しく更新されない場合は、[MT、SR および broadLog エントリの一致](sms-protocol.md#matching-mt)の節で説明されている ID 紐付けプロセスを確認します。
 
 すべての問題を修正したものの、無効な SR がプロバイダーのバッファに残っている場合は、「無効な ID 確認数」オプションを使用してスキップできます。このオプションは慎重に使用する必要があり、バッファがクリーンになった後、できるだけ早く 0 にリセットする必要があります。
 

@@ -11,8 +11,8 @@ topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3541'
-ht-degree: 7%
+source-wordcount: '3545'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 7%
 >
 >サーバー側の設定は、Adobeがホストするデプロイメントの場合、Adobeが実行する必要があります。 様々なデプロイメントについて詳しくは、 [ホスティングのモデル](../../installation/using/hosting-models.md) セクションまたは [このページ](../../installation/using/capability-matrix.md).
 
-## デプロイメントウィザード {#deployment-wizard}
+## デプロイウィザード {#deployment-wizard}
 
 Adobe Campaignには、Adobe Campaignクライアントコンソールで、接続先のインスタンスのパラメーターを定義するためのグラフィカルアシスタントが用意されています。
 
@@ -73,7 +73,7 @@ Adobe Campaignには、Adobe Campaignクライアントコンソールで、接�
 
 これらのパラメーターは、配信テンプレートで個別に、または（ユーザーが必要な権限を持っている場合）各配信に個別にオーバーロードできます。
 
-### 配信 E メールのパラメーター {#parameters-for-delivered-emails}
+### 配信メールのパラメーター {#parameters-for-delivered-emails}
 
 ![](assets/s_ncs_install_deployment_wiz_04.png)
 
@@ -85,16 +85,16 @@ Adobe Campaignには、Adobe Campaignクライアントコンソールで、接�
 * **[!UICONTROL 返信アドレスのテキスト]** ：受信者が **[!UICONTROL 返信]** 」ボタンをクリックします。
 * **[!UICONTROL 返信アドレス]** ：受信者が **[!UICONTROL 返信]** 」ボタンをクリックします。 の目的 **返信アドレス** フィールドは、受信者が **送信者のアドレス**.  このアドレスは、有効な電子メールアドレスで、監視対象のメールボックスにリンクされ、顧客がホストする必要があります。  例えば、サポート用メールボックスの場合があります。 `customer-care@customer.com`:e メールが読み取られ、応答される場所。
 
-* **[!UICONTROL エラーアドレス]** ：エラーが発生したメッセージの E メールアドレスを入力します。 ターゲットアドレスが存在しないことが原因でAdobe Campaignサーバーが受信した E メールを含む、バウンスメールの処理に使用される技術的なアドレスです。 このアドレスは、有効な電子メールアドレスで、監視対象のメールボックスにリンクされ、顧客がホストする必要があります。 例えば、バウンスメールボックスの場合があります。 `errors@customer.com`. このアドレスは、配信または配信テンプレートで、 **SMTP** 配信/配信テンプレートプロパティの「 」タブ [詳細情報](../../delivery/using/email-parameters.md#managing-bounce-emails-managing-bounce-emails)
+* **[!UICONTROL エラーアドレス]** ：エラーが発生したメッセージの E メールアドレスを入力します。 ターゲットアドレスが存在しないことが原因でAdobe Campaignサーバーが受信した E メールを含む、バウンスメールの処理に使用される技術的なアドレスです。 このアドレスは、有効な電子メールアドレスで、監視対象のメールボックスにリンクされ、顧客がホストする必要があります。 例えば、バウンスメールボックスの場合があります。 `errors@customer.com`. このアドレスは、配信または配信テンプレートで、 **SMTP** 配信/配信テンプレートプロパティの「 」タブ [詳細情報](../../delivery/using/email-parameters.md#managing-bounce-emails-managing-bounce-emails)。
 
 
 これに加えて、 **mask** 送信者のアドレスとエラーアドレスに対して認証済みです。 必要に応じて、これらのマスクをコンマで区切ります。 この設定はオプションです。 フィールドに入力すると、Adobe Campaignは配信時（分析中に、アドレスに変数が含まれていない場合は分析中）にアドレスが有効であることを確認します。 この動作モードでは、配信の問題を引き起こす可能性のあるアドレスを一切使用しないトリガーにします。 配信アドレスは、配信サーバー上で設定する必要があります。
 
 >[!NOTE]
 >
->* これらの設定は、Campaign プラットフォームオプションに保存されます。 [詳細情報](../../installation/using/configuring-campaign-options.md)
+>* これらの設定は、Campaign プラットフォームオプションに保存されます。 [詳細情報](../../installation/using/configuring-campaign-options.md)。
 > 
->* マルチブランディング設定の場合、エラーアドレスを適応させ、E メールルーティング外部アカウントからこの設定を上書きすることができます。 [詳細情報](../../installation/using/external-accounts.md#email-routing-external-account)
+>* マルチブランディング設定の場合、エラーアドレスを適応させ、E メールルーティング外部アカウントからこの設定を上書きすることができます。 [詳細情報](../../installation/using/external-accounts.md#email-routing-external-account)。
 >
 
 
@@ -226,7 +226,7 @@ Web トラッキング（トラッキングモード、タグの作成と挿入�
 
    ![](assets/s_ncs_install_deployment_wiz_18.png)
 
-### トラッキングの保存 {#saving-tracking}
+### トラッキングを保存中 {#saving-tracking}
 
 URL に値が入力されたら、トラッキングサーバーを登録する必要があります。
 
@@ -236,7 +236,7 @@ URL に値が入力されたら、トラッキングサーバーを登録する�
 
 トラッキングを実装するための 3 つのタイプのアーキテクチャが考えられます。
 
-1. **既存のインスタンスのトラッキングのサポートを追加**
+1. **既存のインスタンスでのトラッキングのサポートの追加**
 
    この選択は、他のニーズ（MTA サーバーなど）のためにインスタンスが既に作成されている場合に、 トラッキングサーバーとして使用されるサーバー上に存在することを確認します。
 
@@ -250,7 +250,7 @@ URL に値が入力されたら、トラッキングサーバーを登録する�
 
    インスタンスの名前とパスワードを指定します。
 
-1. **トラッキング専用の新しいインスタンスを作成**
+1. **トラッキング専用の新しいインスタンスを作成します**
 
    このオプションは、トラッキングインスタンスがトラッキング用に予約されていて、他のアプリケーションモジュールがない場合に役立ちます。
 
@@ -350,8 +350,8 @@ Adobe Campaignでは、これらの 3 つの URL を区別して、複数のプ�
 
 >[!NOTE]
 >
->* これらの設定は、Campaign プラットフォームオプションに保存されます。 [詳細情報](../../installation/using/configuring-campaign-options.md)
->* マルチブランディング設定の場合、ミラーページの URL を適応させ、E メールルーティング外部アカウントからこの設定を上書きすることができます。 [詳細情報](../../installation/using/configuring-campaign-options.md)
+>* これらの設定は、Campaign プラットフォームオプションに保存されます。 [詳細情報](../../installation/using/configuring-campaign-options.md)。
+>* マルチブランディング設定の場合、ミラーページの URL を適応させ、E メールルーティング外部アカウントからこの設定を上書きすることができます。 [詳細情報](../../installation/using/configuring-campaign-options.md)。
 
 
 ## パブリックリソースの管理 {#managing-public-resources}
@@ -360,7 +360,7 @@ Adobe Campaignでは、これらの 3 つの URL を区別して、複数のプ�
 >
 >プライバシー保護のために、すべての外部リソースに対して HTTPS を使用することをお勧めします。
 
-キャンペーンに関連する E メールやパブリックリソースで使用される画像を外部から表示するには、その画像を外部からアクセスできるサーバー上に置く必要があります。その後、外部の受信者やオペレーターが使用できるようになります。
+キャンペーンに関連する E メールやパブリックリソースで使用される画像を外部から参照するには、その画像が外部からアクセス可能なサーバー上に存在している必要があります。 その後、外部の受信者やオペレーターが使用できるようになります。
 
 ![](assets/s_ncs_install_deployment_wiz_img_uploading.png)
 

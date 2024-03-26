@@ -7,8 +7,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 48%
+source-wordcount: '294'
+ht-degree: 34%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 | 機能 | ホスト | ハイブリッド | オンプレミス | 詳細 |
 |-----------------------------------------------|------------------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Campaign サーバーの設定 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../installation/using/the-server-configuration-file.md) |
-| BCC で E メールを送信 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../installation/using/email-archiving.md) |
+| BCC でメールを送信 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../installation/using/email-archiving.md) |
 | Message Center 実行インスタンスの管理 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../message-center/using/about-transactional-messaging.md) |
 | ミッドソーシングプラットフォームの管理 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../installation/using/mid-sourcing-server.md) |
 | Litmus を使用した受信ボックスレンダリング | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../delivery/using/inbox-rendering.md) |
@@ -42,7 +42,7 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 
 ## Federated Data Access{#fda}
 
-Adobe Campaign では、**Federated Data Access**（FDA）オプションを利用することができます。このオプションを使用すると、1 つ以上の外部データベースに格納されている情報を処理することが可能です。Adobe Campaign データの構造を変更しなくても、外部データにアクセスできます。[詳細情報](../../installation/using/about-fda.md)
+Adobe Campaignが **Federated Data Access** (FDA) オプションを使用します。 [詳細情報](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >

@@ -8,7 +8,7 @@ feature: Monitoring, Email Design, Personalization
 role: User
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->E メール内の画像の管理もこのウィンドウで設定します。[画像の追加](defining-the-email-content.md#adding-images)を参照してください。
+>メール内の画像の管理もこのウィンドウで設定します。[画像の追加](defining-the-email-content.md#adding-images)を参照してください。
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 

@@ -8,15 +8,15 @@ role: Data Engineer, Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '2390'
-ht-degree: 4%
+source-wordcount: '2411'
+ht-degree: 2%
 
 ---
 
 # Campaign データモデルの説明{#data-model-description}
 
 
-Adobe Campaign には、事前定義済みのデータモデルが付属しています。ここでは、Adobe Campaign データモデルのビルトインテーブルとそのインタラクションについて詳しく説明します。
+Adobe Campaign には、事前定義済みのデータモデルが付属しています。この節では、Adobe Campaignデータモデルの組み込みテーブルとそのインタラクションの詳細を説明します。
 
 各テーブルの記述にアクセスするには、**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;に移動し、リストからリソースを選択して「**[!UICONTROL ドキュメント]**」タブをクリックします。
 
@@ -54,7 +54,7 @@ iFolderId フィールドは、受信者を実行フォルダーにリンクす�
 
 sCountryCode フィールドは、受信者に関連付けられた国の 3166-1Alpha2 の ISO コード（2 文字）です。 このフィールドは、実際には国参照テーブル (NmsCountry) の外部キーで、国ラベルと他の国コードデータが含まれます。 国が入力されていない場合、値「XX」が保存されます（ゼロの ID レコードの代わりに使用されます）。
 
- 受信者テーブルの詳細については、[この節](../../configuration/using/about-data-model.md#default-recipient-table)を参照してください。
+受信者テーブルについて詳しくは、 [この節](../../configuration/using/about-data-model.md#default-recipient-table).
 
 ### NmsGroup {#NmsGroup}
 
@@ -181,9 +181,9 @@ sInternalName 配信またはシナリオの内部名を表すフィールドに
 * コントロール母集団の応答率： **dProofReactedRate**. 仮説コントロール母集団の応答率。
 * コンタクト済み母集団の合計売上高： **dContactRecolatedTotalAmount**. 仮説のターゲットとなる連絡先の合計売上高。
 * コントロール母集団の平均売上高： **dContactReactedAvgAmount**. 仮説でのターゲットコントロール母集団の連絡先の平均売上高。
-* コントロール母集団の合計売上高： **dProofReactedTotalAmount**. 仮説コントロールグループの合計売上高.
+* コントロール母集団の合計売上高： **dProofReactedTotalAmount**. 仮説コントロールグループの合計売上高。
 * コントロール母集団の平均売上高： **dProofReactedAvgAmount**. 仮説コントロールグループの平均売上高。
-* 連絡先ごとの合計利益： **dContactRecolatedTotalMargin**. 仮説のコンタクト先あたりの合計マージン.
+* 連絡先ごとの合計利益： **dContactRecolatedTotalMargin**. 仮説でターゲティングした連絡先あたりの合計利益。
 * コンタクト先ごとの平均利益： **dContactReactedAvgMargin**. 仮説でターゲティングしたコンタクト先ごとの平均利益。
 * コントロール母集団の合計利益： **dProofReactedTotalMargin**. 仮説でターゲティングしたコントロール母集団の利益の合計。
 * コントロール母集団の平均利益： **dProofReacedAvgMargin**. 仮説でターゲティングしたコントロール母集団の平均利益。

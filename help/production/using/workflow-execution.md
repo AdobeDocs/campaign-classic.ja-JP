@@ -11,8 +11,8 @@ topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 16%
+source-wordcount: '666'
+ht-degree: 15%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >**`<instance-name>`** をインスタンスの名前（production、development など）に置き換えます。インスタンス名は設定ファイルで識別されます。
+   >**`<instance-name>`** をインスタンスの名前（production、development など）に置き換えます。インスタンス名は設定ファイルによって識別されます。
    >`[path of application]nl6/conf/config-<instance-name>.xml`
 
    モジュールの再起動方法について詳しくは、 [この節](../../production/using/usual-commands.md#module-launch-commands).
@@ -110,7 +110,7 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >**`<instance-name>`** をインスタンスの名前（production、development など）に置き換えます。インスタンス名は設定ファイルで識別されます。
+   >**`<instance-name>`** をインスタンスの名前（production、development など）に置き換えます。インスタンス名は設定ファイルによって識別されます。
    >`[path of application]nl6/conf/config-<instance-name>.xml`
 
    モジュールの再起動方法について詳しくは、 [この節](../../production/using/usual-commands.md#module-launch-commands).
@@ -120,5 +120,5 @@ ht-degree: 16%
 ワークフローが失敗した場合は、次の手順に従います。
 
 1. ワークフロージャーナルを確認します。 詳しくは、 [監視ワークフローの実行](../../workflow/using/monitoring-workflow-execution.md) および [ログを表示](../../workflow/using/monitoring-workflow-execution.md#displaying-logs) セクション。
-1. テクニカルワークフローの監視. 詳しくは、 [この節](../../workflow/using/monitoring-technical-workflows.md).
+1. テクニカルワークフローの監視 詳しくは、 [この節](../../workflow/using/monitoring-technical-workflows.md).
 1. 個々のワークフローアクティビティでエラーが発生した場合を探します。

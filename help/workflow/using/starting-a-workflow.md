@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 source-git-commit: 1baf424138c95b16add37d9d556e3a2566a869c2
-workflow-type: ht
-source-wordcount: '1208'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1209'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ワークフローは、必ず手動で開始します。開始しても、スケジューラー（[スケジューラー](scheduler.md)を参照）経由で指定された情報またはアクティビティのスケジュール設定に基づいて、ワークフローが非アクティブのままになることもあります。
 
-ターゲティングワークフローの実行に関連するアクション（開始、停止、一時停止など）は、**非同期**&#x200B;プロセスです。プロセスの実行順序は記録され、サーバーが順序を適用できるようになるとすぐに実行されます。
+ターゲティングワークフローの実行に関連するアクション（開始、停止、一時停止など） が **非同期** プロセス：オーダーが記録され、サーバーがそのオーダーを適用できるようになるとすぐに有効になります。
 
 ツールバーを使用して、ワークフローの実行を開始およびトラッキングできます。
 

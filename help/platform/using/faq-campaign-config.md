@@ -10,7 +10,7 @@ topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '769'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ Adobe Campaign の配信機能と高度なキャンペーン管理機能を、�
 
 ## メール配信品質の設定方法は？  {#how-to-configure-email-deliverability-}
 
-[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)に加えて、配信品質に関する技術的な推奨事項に目を通し、Campaign の配信機能を最大限に活用するためのインスタンスの設定方法を理解してください。
+[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)に加えて、配信品質に関する技術的なレコメンデーションに目を通し、Campaign の配信機能を最大限に活用するためのインスタンスの設定方法を理解してください。
 
 詳しくは、[ここをクリック](../../delivery/using/about-deliverability.md)してください。
 

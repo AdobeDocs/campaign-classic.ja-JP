@@ -10,8 +10,8 @@ topic-tags: connectors
 exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 74%
+source-wordcount: '372'
+ht-degree: 71%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 74%
 1. でOracleを設定 [Linux](#oracle-linux) または [Windows](#azure-windows)
 1. oracle [外部アカウント](#oracle-external) Campaign 内
 
-## Oracle（Linux） {#oracle-linux}
+## Linux でのoracle {#oracle-linux}
 
 FDA で Oracle 外部データベースに接続するには、Adobe Campaign サーバーで追加の設定が必要になります。
 
@@ -66,7 +66,7 @@ FDA で Oracle 外部データベースに接続するには、Adobe Campaign �
 
 1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、 [この節](#oracle-external).
 
-## Oracle（Windows） {#oracle-windows}
+## Windows でのoracle {#oracle-windows}
 
 FDA で Oracle 外部データベースに接続するには、Adobe Campaign サーバーで追加の設定が必要になります。
 
@@ -78,7 +78,7 @@ FDA で Oracle 外部データベースに接続するには、Adobe Campaign �
 
 1. Campaign Classic では、[!DNL Oracle] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、 [この節](#oracle-external).
 
-## Oracle 外部アカウント {#oracle-external}
+## Oracle外部アカウント {#oracle-external}
 
 The [!DNL Oracle] 外部アカウントを使用すれば、Campaign インスタンスを外部データベースにOracleできます。
 

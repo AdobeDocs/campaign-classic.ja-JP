@@ -11,7 +11,7 @@ exl-id: 3e39a0d2-ff7e-4233-82bb-2b360f696a33
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaignがインストールされているすべてのサーバーにア
 
 Adobe Campaignは、サーバー側で実行されるいくつかのプロセスに基づいています。特に、更新時には、次のプロセスを操作する必要があります。
 
-* アプリケーションサーバー（nlserver web）
+* アプリケーションサーバー (nlserver Web)
 * 配信サーバー (nlserver mta)
 * リダイレクトサーバー (webmdl)
 

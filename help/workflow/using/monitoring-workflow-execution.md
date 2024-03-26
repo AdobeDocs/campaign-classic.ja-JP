@@ -7,7 +7,7 @@ feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '2107'
 ht-degree: 100%
 
 ---
@@ -120,7 +120,7 @@ Adobe Campaign エクスプローラーでは、デフォルトでワークフ�
 
 ![](assets/wf-explorer_errors_col.png)
 
-ワークフローでエラーが発生すると、そのワークフローのスーパーバイザーグループに所属しているオペレーターに、E メールによる通知が送られます（プロファイルに E メールアドレスが記載されている場合）。このグループは、ワークフロープロパティの「**[!UICONTROL スーパーバイザー]**」フィールドで選択されています。
+ワークフローでエラーが発生すると、そのワークフローのスーパーバイザーグループに所属しているオペレーターに、メールによる通知が送られます（プロファイルにメールアドレスが記載されている場合）。このグループは、ワークフロープロパティの「**[!UICONTROL スーパーバイザー]**」フィールドで選択されています。
 
 ![](assets/wf-properties_select-supervisors.png)
 

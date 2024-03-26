@@ -17,7 +17,7 @@ ht-degree: 8%
 
 ## コンテンツモデル {#content-model-5}
 
-enumeration:==(help| value)
+enumeration:==(help| 値 )
 
 ## 属性 {#attributes-5}
 
@@ -60,24 +60,24 @@ enumeration:==(help| value)
    * 日時
    * datetimetz
    * datetimenotz
-   * date
+   * 日付
    * DOMDocument
    * DOMElement
-   * 重複
+   * 倍精度浮動小数点数
    * enum
-   * float
+   * 浮動小数点数
    * html
    * int64
    * リンク
    * 長い
    * メモ
    * MNTOKEN
-   * percent
+   * 割合
    * primarykey
    * short
    * 文字列
    * 時間
-   * 間隔
+   * 期間
    * uuid
 
 * **default (string)**：デフォルト値。 また、デフォルト値は、列挙で定義された値の 1 つでもかまいません。

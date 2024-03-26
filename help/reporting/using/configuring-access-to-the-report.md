@@ -8,8 +8,8 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 100%
+source-wordcount: '812'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ### 選択タイプ {#selection-type}
 
-レポートへのアクセスを、特定のコンテキストまたはオファースペース（例えば、配信、受信者、選ばれた一連の受信者など）に制限できます。このようなアクセスは、「**[!UICONTROL 表示]**」タブの「**[!UICONTROL 選択タイプ]**」セクションで設定します。
+レポートへのアクセスは、特定のコンテキストまたはオファースペース（配信、受信者、選択した受信者など）に限定できます。 このアクセスは、 **[!UICONTROL 選択タイプ]** のセクション **[!UICONTROL 表示]** タブをクリックします。
 
 ![](assets/s_ncs_advuser_report_visibility_4.png)
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ![](assets/s_ncs_advuser_report_visibility_5.png)
 
-次の例では、キャンペーンのメインチャネルが E メールの場合に、レポートが表示されます。
+次の例では、キャンペーンのメインチャネルがメールの場合に、レポートが表示されます。
 
 ![](assets/s_ncs_advuser_report_visibility_6.png)
 

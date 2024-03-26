@@ -11,8 +11,8 @@ topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 4%
+source-wordcount: '1577'
+ht-degree: 2%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 4%
 
 これらの手順は、次の操作に制限されます。 **オンプレミス**/**ハイブリッド** のデプロイメントと、管理権限が必要です。
 
-の場合 **ホスト** デプロイメント、サーバー側の設定は、Adobeのみで構成できます。 ただし、一部の設定は、 [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja):IP アクセス権許可リストに加えるの管理や URL アクセス権など。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)
+の場合 **ホスト** デプロイメント、サーバー側の設定は、Adobeのみで構成できます。 ただし、一部の設定は、 [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja):IP アクセス権許可リストに加えるの管理や URL アクセス権など。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja)。
 
 詳しくは、次の節を参照してください。
 
 * [コントロールパネルに関するドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
-* [ホスティングモデル](../../installation/using/hosting-models.md)
+* [ホスティングのモデル](../../installation/using/hosting-models.md)
 * [Campaign Classicオンプレミス/ホスト機能マトリックス](../../installation/using/capability-matrix.md)
 
 ## 設定ファイル

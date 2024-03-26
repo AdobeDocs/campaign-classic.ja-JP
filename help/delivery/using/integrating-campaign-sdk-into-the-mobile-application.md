@@ -7,7 +7,7 @@ feature: Mobile SDK Integration, Push
 role: User, Developer
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 100%
 

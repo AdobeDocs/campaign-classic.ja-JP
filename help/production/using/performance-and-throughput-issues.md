@@ -11,8 +11,8 @@ topic-tags: troubleshooting
 exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 14%
+source-wordcount: '702'
+ht-degree: 8%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaignは、 [ツール](../../production/using/monitoring-processes.md#
 
 * MTA と MTAChild のプロセスとメモリ： **mta** モジュールはメッセージを配信します **mtachild** 子モジュール。 各 **mtachild** 統計サーバーからの認証をリクエストして送信する前に、メッセージを準備します。 これを参照してください。 [ページ](../../installation/using/email-deliverability.md) を参照してください。
 * TLS 設定：スループットを低下させる可能性があるので、TLS をグローバルに有効にすることはお勧めしません。 代わりに、配信品質チームが管理するドメインごとの TLS 設定は、ニーズに応じて調整する必要があります。 これを参照してください。 [ページ](../../installation/using/email-deliverability.md#mx-configuration) を参照してください。
-* DKIM:DKIM のセキュリティレベルを確保するために、1024b がベストプラクティスとして推奨される暗号化サイズです。 これより小さいサイズの DKIM 鍵は、大多数のアクセスプロバイダーには有効とはみなされません。[このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
+* DKIM:DKIM のセキュリティレベルを確保するために、1024b がベストプラクティスとして推奨される暗号化サイズです。 これより小さい DKIM 鍵は、大部分のアクセスプロバイダーでは有効とは見なされません。 [このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
 
 ## 配信品質の問題 {#deliverability-issues}
 
@@ -64,7 +64,7 @@ Adobe Campaignは、 [ツール](../../production/using/monitoring-processes.md#
 * IP レピュテーション：IP レピュテーションが十分でない場合、パフォーマンスに影響を与えます。 The **配信品質の監視** モジュールは、プラットフォームの配信品質のパフォーマンスをトラッキングする様々なツールを提供します。 この[ページ](../../delivery/using/monitoring-deliverability.md)を参照してください。
 * IP ウォームアップ：IP ウォームアップは、配信品質チームが実行します。 これには、数週間の間に新しい IP を通じて E メールの数を徐々に増やす必要があります。
 * IP アフィニティの設定：IP アフィニティの設定が正しくないと、E メールが完全に停止したり（設定におけるオペレーター/アフィニティ名が正しくない）、スループットが低下したり（アフィニティ内の IP の数が少ない）する可能性があります。 この[ページ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
-* E メールサイズ：E メールサイズはスループットにおいて重要な役割を果たします。 E メールの推奨最大サイズは 60 KB です。 この[ページ](https://helpx.adobe.com/legal/product-descriptions/campaign.html)を参照してください。Adobe Analytics の [配信スループット](../../reporting/using/global-reports.md#delivery-throughput) レポートでは、1 時間ごとに転送されたバイト数を確認します。
+* E メールサイズ：E メールサイズはスループットにおいて重要な役割を果たします。 E メールの推奨最大サイズは 60 KB です。 これを参照してください。 [ページ](https://helpx.adobe.com/legal/product-descriptions/campaign.html). Adobe Analytics の [配信スループット](../../reporting/using/global-reports.md#delivery-throughput) レポートでは、1 時間ごとに転送されたバイト数を確認します。
 * 無効な受信者の数が多い：無効な受信者の数が多い場合は、スループットに影響を与える可能性があります。 MTA は無効な受信者への E メールの送信を再試行し続けます。 データベースが適切にメンテナンスされていることを確認してください。
 * パーソナライゼーションの量：配信が「パーソナライゼーション中」のままの場合は、パーソナライゼーションブロックで使用される JavaScript を確認します。
 

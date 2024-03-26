@@ -8,7 +8,7 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 **配信エラーの理解**
 
-メッセージをプロファイルに送信できない場合、リモートサーバーは自動的にエラーメッセージを送信します。エラーメッセージは Adobe Campaign プラットフォームによってピックアップされ、その E メールアドレスまたは電話番号を評価して、強制隔離すべきかが判断されます。
+メッセージをプロファイルに送信できない場合、リモートサーバーは自動的にエラーメッセージを送信します。エラーメッセージは Adobe Campaign プラットフォームによってピックアップされ、そのメールアドレスまたは電話番号を評価して、強制隔離すべきかが判断されます。
 
 [配信の障害を把握](understanding-delivery-failures.md)することは、マーケティングキャンペーンの改善に役立つ重要な手順です。
 

@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Workflows
 exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
 source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
 

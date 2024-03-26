@@ -7,8 +7,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Typology Rules, Campaigns
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '1054'
+workflow-type: tm+mt
+source-wordcount: '1058'
 ht-degree: 100%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 100%
 
 ### 送信 SMTP トラフィックの制御 {#control-outgoing-smtp-traffic}
 
-必要に応じて、「**[!UICONTROL IP アドレスを使用したアフィニティの管理]**」フィールドを使用して、アフィニティを管理する配信サーバー（MTA）と配信を関連付けることができます。この設定により、コンピューターや出力アドレスに配信される E メールの数を制限できます。
+必要に応じて、「**[!UICONTROL IP アドレスを使用したアフィニティの管理]**」フィールドを使用して、アフィニティを管理する配信サーバー（MTA）と配信を関連付けることができます。この設定により、コンピューターや出力アドレスに配信されるメールの数を制限できます。
 
 ![](assets/campaign_opt_select_ip_affinity.png)
 

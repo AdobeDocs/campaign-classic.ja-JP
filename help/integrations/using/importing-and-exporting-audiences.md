@@ -11,7 +11,7 @@ topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '662'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 100%
 >
 >場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、[Adobe Analytics ドキュメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)を参照してください。
 
-オーディエンスデータは、同期されるたびに完全に置き換えられます。インポートできるのはセグメントのみです。キーと値のペア、特徴、ルールなどの詳細データはサポートされません。
+オーディエンスデータは、同期されるたびに完全に置き換えられます。インポートできるのはセグメントのみです。キーと値のペア、特性、ルールなどの詳細データはサポートされません。
 
 ## オーディエンスのエクスポート {#exporting-an-audience}
 

@@ -10,7 +10,7 @@ content-type: reference
 exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
 
    ![](assets/aem_uc_1.png)
 
-1. **[!UICONTROL キャンペーン／ブランド名（ここでは We.Retail）／メイン領域／電子メールキャンペーン]**&#x200B;を選択します。
+1. **[!UICONTROL キャンペーン／ブランド名（ここでは We.Retail）／メイン領域／メールキャンペーン]**&#x200B;を選択します。
 1. ページの右上にある「**[!UICONTROL 作成]**」ボタンをクリックし、「**[!UICONTROL ページ]**」を選択します。
 
    ![](assets/aem_uc_2.png)
@@ -41,8 +41,8 @@ ht-degree: 100%
 
    ![](assets/aem_uc_4.png)
 
-1. Adobe Campaign のパーソナライゼーションフィールドなどのコンポーネントを追加して E メールコンテンツを編集します。
-1. E メールが準備できたら、**[!UICONTROL ページ情報]**&#x200B;メニューにアクセスし、「**[!UICONTROL ワークフローを開始]**」をクリックします。
+1. Adobe Campaign のパーソナライゼーションフィールドなどのコンポーネントを追加してメールコンテンツを編集します。
+1. メールが準備できたら、**[!UICONTROL ページ情報]**&#x200B;メニューにアクセスし、「**[!UICONTROL ワークフローを開始]**」をクリックします。
 
    ![](assets/aem_uc_5.png)
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
    ![](assets/aem_uc_9.png)
 
-1. 「**[!UICONTROL 配信テンプレート]**」ドロップダウンで、「**[!UICONTROL AEM コンテンツで E メール配信 (mailAEMContent)]**」テンプレートを選択します。
+1. 「**[!UICONTROL 配信テンプレート]**」ドロップダウンで、「**[!UICONTROL AEM コンテンツでメール配信 (mailAEMContent)]**」テンプレートを選択します。
 
    ![](assets/aem_uc_10.png)
 
@@ -83,4 +83,4 @@ ht-degree: 100%
 
    ![](assets/aem_uc_12.png)
 
-これで E メールをオーディエンスに送信する準備が整いました。
+これでメールをオーディエンスに送信する準備が整いました。

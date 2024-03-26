@@ -10,8 +10,8 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 54%
+source-wordcount: '491'
+ht-degree: 49%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 54%
 
 * HTTP ではなく HTTPS を使用して、お客様の PII を保護します
 * PII 閲覧の制限を使用してプライバシーを保護し、データの乱用を防止します。
-* 暗号化されたパスワードが制限されていることを確認する.
+* 暗号化されたパスワードが制限されていることを確認します。
 * ミラーページや Web アプリケーションなどのように、個人情報を含む可能性があるページを保護します。
 
 [詳細情報](../../installation/using/privacy.md)
@@ -78,7 +78,7 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 <img src="assets/do-not-localize/icon_server.svg" width="60px">
 
-設定は、すべてのサーバーでおこなう必要があります。設定ファイルのタイプはです **serverConf.xml** および **`config-<instance>.xml`**. 次に、確認する必要がある重要な要素を示します。
+設定は、すべてのサーバーで実行する必要があります。 設定ファイルのタイプはです **serverConf.xml** および **`config-<instance>.xml`**. 次に、確認する必要がある重要な要素を示します。
 
 * **セキュリティゾーン**：プロキシのクライアントの IP アドレスを直接考慮するようにセキュリティゾーンを設定します。
 
@@ -86,13 +86,13 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **リレー**：使用していないモジュール／アプリケーションのリレールールを無効にして、リレー設定を微調整します。
 
-* **送信接続の保護**&#x200B;と&#x200B;**コマンドの制限**（サーバー側）
+* **発信接続の保護** および **コマンドの制限** （サーバー側）
 
-* また、HTTP ヘッダーを追加したり、checkIPConsistent、enableTLS、sessionTimeOutSec などを有効にしたりすることもできます。詳しくは、 [Campaign サーバー設定ドキュメント](../../installation/using/configuring-campaign-server.md) そして [サーバー設定ファイルの説明](../../installation/using/the-server-configuration-file.md) を参照してください。
+* また、HTTP ヘッダーの追加、checkIPConsistent の有効化、enableTLS、sessionTimeOutSec などを行うこともできます。 詳しくは、 [Campaign サーバー設定ドキュメント](../../installation/using/configuring-campaign-server.md) そして [サーバー設定ファイルの説明](../../installation/using/the-server-configuration-file.md) を参照してください。
 
 [詳細情報](../../installation/using/server-configuration.md)
 
-## Web サーバー設定
+## Web サーバーの設定
 
 <img src="assets/do-not-localize/icon_web.svg" width="60px">
 

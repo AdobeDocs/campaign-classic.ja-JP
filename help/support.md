@@ -7,8 +7,8 @@ hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '657'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <li><a href="production/using/monitoring-guidelines.md">監視ツールについて</a></li>
         <li><a href="platform/using/import-export-workflows.md">ワークフローを使用したデータのインポート</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">複数ウェーブでのメッセージの送信</a></li>
-        <li><a href="delivery/using/defining-the-email-content.md">E メールコンテンツの設計</a></li>
+        <li><a href="delivery/using/defining-the-email-content.md">メールコンテンツの設計</a></li>
         <li><a href="delivery/using/delivery-best-practices.md">配信のベストプラクティス</a></li>
         </ul>
     </td>
@@ -137,7 +137,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}。
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話に参加する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
 
 ### Campaign ダウンロードセンターへのアクセス
 

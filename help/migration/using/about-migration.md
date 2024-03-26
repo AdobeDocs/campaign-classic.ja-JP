@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 5%
+source-wordcount: '453'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 ## 前提条件
 
 * 移行プロセスは、エキスパートユーザーが実行する必要があります。 少なくともAdobe Campaignのデータベースエキスパート、システム管理者およびアプリケーション開発者が支援する必要があります。
-* 移行を開始する前に、使用するシステムおよびシステムコンポーネントが v7 と互換性があることを確認してください。 [詳細情報](../../rn/using/compatibility-matrix.md)
+* 移行を開始する前に、使用するシステムおよびシステムコンポーネントが v7 と互換性があることを確認してください。 [詳細情報](../../rn/using/compatibility-matrix.md)。
 * Adobe Campaign Cloud Messaging（ミッドソーシングデプロイメント）を使用する場合は、開始する前にAdobeカスタマーケアにお問い合わせください。
 * 移行プロセスを開始する前に、次の手順を実行します。 **必須** データをバックアップします。
 * 移行プロセスが完了するまでに数日かかる場合があります。

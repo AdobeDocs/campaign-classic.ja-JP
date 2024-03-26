@@ -8,7 +8,7 @@ feature: Audiences
 role: User
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # 適切なオーディエンスの定義 {#define-the-right-audience}
 
-ターゲット母集団が鍵です。リストを慎重に作成し、一般的な E メールクライアントやモバイルデバイスで E メールをテストし、E メールリストが最新のものであるか（不明なアドレスや古いアドレスが含まれていないこと）を確認します。また、もれのない検証サイクルを確立するために、配達確認を送信することもできます。
+ターゲット母集団が鍵です。リストを慎重に作成し、一般的なメールクライアントやモバイルデバイスでメールをテストし、メールリストが最新のものであるか（不明なアドレスや古いアドレスが含まれていないこと）を確認します。また、もれのない検証サイクルを確立するために、配達確認を送信することもできます。
 
 ターゲット母集団について詳しくは、[この節](steps-defining-the-target-population.md)を参照してください。
 
@@ -55,7 +55,7 @@ Campaign Classic では、配信テンプレートはデフォルトで&#x200B;*
 
 ## アドレスの重複排除 {#deduplicate-addresses}
 
-重複した E メールアドレスがあると、ターゲットに影響する可能性があるので、E メールアドレスの重複を回避することが重要です。
+重複したメールアドレスがあると、ターゲットに影響する可能性があるので、メールアドレスの重複を回避することが重要です。
 
 * ターゲットが分割されている場合は、同じメッセージを複数回送信できます。
 
@@ -68,8 +68,8 @@ Campaign Classic では、配信テンプレートはデフォルトで&#x200B;*
 * [重複排除 - 重複アクティビティ](../../workflow/using/deduplication.md)。
 * [使用例：重複排除アクティビティの結合機能の使用](../../workflow/using/deduplication-merge.md)
 
-## E メールアドレスのインデックス作成 {#index-addresses}
+## メールアドレスのインデックス作成 {#index-addresses}
 
 このアプリケーションで使用する SQL クエリのパフォーマンスを最適化するには、データスキーマのメイン要素からインデックスを宣言します。
 
-E メールアドレスにインデックスを追加する手順については、[この節](../../configuration/using/database-mapping.md#indexed-fields)を参照してください。
+メールアドレスにインデックスを追加する手順については、[この節](../../configuration/using/database-mapping.md#indexed-fields)を参照してください。

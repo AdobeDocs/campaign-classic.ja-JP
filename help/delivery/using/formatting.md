@@ -8,7 +8,7 @@ feature: Email Design
 role: User, Developer, Data Engineer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 100%
 

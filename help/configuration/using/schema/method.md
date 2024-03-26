@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## コンテンツモデル {#content-model-10}
 
-method:==( help |パラメーター )
+method:==( help | パラメーター )
 
 ## 属性 {#attributes-10}
 

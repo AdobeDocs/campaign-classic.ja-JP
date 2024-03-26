@@ -11,7 +11,7 @@ exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 23%
+ht-degree: 17%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 23%
 * [データベースのパフォーマンス](../../production/using/database-performances.md)
 * [Oracle データベースのエンコード](../../production/using/encoding-of-the-oracle-database.md)
 
-## 接続の向上 {#connection-improvements}
+## 接続の改善 {#connection-improvements}
 
 接続の問題が発生した場合は、次の方法で修正できます。
 

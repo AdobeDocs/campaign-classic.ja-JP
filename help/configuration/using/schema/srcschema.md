@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## コンテンツモデル {#content-model-14}
 
-srcSchema:==(attribute | createdBy | data |要素 |列挙 |ヘルプ |インターフェイス |メソッド | modifiedBy)
+srcSchema:==(attribute | createdBy | データ | 要素 | 列挙 | ヘルプ | インターフェイス | メソッド | modifiedBy)
 
 ## 属性 {#attributes-14}
 

@@ -10,8 +10,8 @@ topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1793'
-ht-degree: 72%
+source-wordcount: '1662'
+ht-degree: 67%
 
 ---
 
@@ -70,12 +70,12 @@ Campaign に接続するTeradataのドライバをインストールする必要
 
 >[!NOTE]
 >
->FDA で外部Teradataベースに接続するには、Adobe Campaignサーバーで追加の設定手順が必要です。 [詳細情報](#teradata-additional-configurations)
+>FDA で外部Teradataベースに接続するには、Adobe Campaignサーバーで追加の設定手順が必要です。 [詳細情報](#teradata-additional-configurations)。
 >
 
 ## Teradata 外部アカウント{#teradata-external}
 
-Teradata 外部アカウントを使用すれば、Campaign インスタンスを Teradata 外部データベースに接続することができます。
+teradata外部アカウントを使用すれば、Campaign インスタンスをTeradata外部データベースに接続することができます。
 
 1. キャンペーンから **[!UICONTROL エクスプローラ]**&#x200B;をクリックし、 **[!UICONTROL 管理]** / **[!UICONTROL Platform]** / **[!UICONTROL 外部アカウント]**.
 
@@ -144,11 +144,9 @@ Query Banding を設定するには、以下の手順に従います。
 
 接続のテスト中にエラー **TIM-030008 Date &#39;2&#39;: missing character(s) (iRc=-53)**、が表示される場合は、ODBC ドライバーが正しくインストールされていること、および Campaign サーバーに対して LD_LIBRARY_PATH（Linux）または PATH（Windows）が設定されていることを確認してください。
 
-エラー **ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified.** は、Windows で 16.X ドライバーを使用した場合に発生します。Adobe Campaign の odbcinst.ini では、Teradata のメタデータ名は「{teradata}」である必要があります。
+エラー **ODB-240000 ODBC error: [Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified.** は、Windows で 16.X ドライバーを使用した場合に発生します。Adobe Campaignは、teradataの名前を「 」にする必要があります{teradata}&#39; odbcinst.ini の&#39;
 
-
-* Campaign 18.10 以降は、外部アカウントのオプションに「ODBCDriverName=&quot;Teradataデータベース ODBC Driver 16.10&quot;」を追加できます。 バージョン番号は異なる場合があります。正確な番号は、odbcad32.exe を実行して「ドライバー」タブにアクセスすると見つかります。
-
+* Campaign 18.10 以降は、外部アカウントのオプションに「ODBCDriverName=&quot;Teradataデータベース ODBC Driver 16.10&quot;」を追加できます。 バージョン番号は変わる場合があります。正確な名前は、odbcad32.exe を実行し、「ドライバー」タブにアクセスすると見つかります。
 
 * 古いバージョンの Campaign を使用している場合は、ドライバーのインストールによって作成された odbcinst.ini のTeradataセクションを、Teradataと呼ばれる新しいセクションにコピーする必要があります。 この場合は、regedit を使用できます。 ベースが latin1 の場合は、 **APICharSize=1** 」をクリックします。
 
@@ -289,7 +287,7 @@ ODBC ドライバーをインストールするには、以下を実行します
 
 1. setup_wrapper.sh を実行します。
 
-### Teradata ツールとユーティリティのインストール {#teradata-tools-installation}
+### Teradataツールとユーティリティのインストール {#teradata-tools-installation}
 
 ツールをインストールするには、以下を実行します。
 

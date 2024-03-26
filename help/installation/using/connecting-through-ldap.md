@@ -11,8 +11,8 @@ topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 4%
+source-wordcount: '1214'
+ht-degree: 1%
 
 ---
 
@@ -176,7 +176,7 @@ LDAP ディレクトリを使用してオペレーターを認証するには、
 
 1. ユーザーが LDAP ディレクトリに作成されたが、Adobe Campaignには作成されていない。
 
-   Adobe Campaign のプラットフォームにアクセスするユーザーを、LDAP で認証することができます。Adobe Campaignでオペレーターをその場でAdobe Campaignで作成できるように、LDAP ディレクトリ内の ID とパスワードの組み合わせの有効性を制御できる必要があります。 これをおこなうには、 **[!UICONTROL オペレーターがAdobe Campaignで宣言されていない場合に、LDAP ディレクトリで宣言されたユーザーの接続を有効にする]** オプション。 この場合、グループの同期も設定する必要があります。 **[!UICONTROL ディレクトリ内の認証およびグループからのユーザー権限の同期を有効にします]** オプションを選択する必要があります。
+   Adobe Campaignは、ユーザーが LDAP 認証を使用してプラットフォームにアクセスするように設定できます。 Adobe Campaignでオペレーターをその場でAdobe Campaignで作成できるように、LDAP ディレクトリ内の ID とパスワードの組み合わせの有効性を制御できる必要があります。 これをおこなうには、 **[!UICONTROL オペレーターがAdobe Campaignで宣言されていない場合に、LDAP ディレクトリで宣言されたユーザーの接続を有効にする]** オプション。 この場合、グループの同期も設定する必要があります。 **[!UICONTROL ディレクトリ内の認証およびグループからのユーザー権限の同期を有効にします]** オプションを選択する必要があります。
 
 1. ユーザーがAdobe Campaignに作成されましたが、LDAP ディレクトリには作成されていません。
 

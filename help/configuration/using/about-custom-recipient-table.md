@@ -10,7 +10,7 @@ exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 11%
 
 ここでは、Adobe Campaignの既存のテーブルをマッピングするための重要なポイントと、任意のテーブルに基づいて配信を実行するために適用する設定について説明します。 最後に、組み込みの受信者テーブルで使用可能なものと同様に、実用的なクエリインターフェイスをユーザーに提供する方法について説明します。 この節で紹介する資料を理解するには、画面とスキーマデザインの原則に関する十分な知識が必要です。
 
-## Recommendationsと限界 {#recommendations-and-limitations}
+## Recommendationsと制限事項 {#recommendations-and-limitations}
 
 カスタム受信者テーブルの使用には、次の制限があります。
 

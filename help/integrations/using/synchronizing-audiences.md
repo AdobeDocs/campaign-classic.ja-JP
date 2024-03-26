@@ -9,7 +9,7 @@ hidefromtoc: true
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1192'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ Campaign Standard でレプリケートされない追加データを必要と�
 最終オーディエンスおよびその追加データを取得するには
 
 1. **[!UICONTROL プロファイルとターゲット]**／**[!UICONTROL ジョブ]**／**[!UICONTROL ターゲティングワークフロー]**&#x200B;で、新しいワークフローを作成します。
-1. 「**[!UICONTROL クエリ]**」アクティビティを追加して、最終的な E メールを送信する受信者を選択します（例：18 ～ 30 歳のフランス在住のすべての受信者）。
+1. 「**[!UICONTROL クエリ]**」アクティビティを追加して、最終的なメールを送信する受信者を選択します（例：18 ～ 30 歳のフランス在住のすべての受信者）。
 
    ![](assets/acs_connect_query1.png)
 
@@ -124,7 +124,7 @@ Campaign Standard で配信ワークフローを作成することで、この�
 
    このアクティビティは、選択したオーディエンスのデータを取得するために使用されます。また、必要に応じて、このアクティビティの「**[!UICONTROL ソースフィルター]**」タブを使用して、追加のソースフィルターを適用できます。
 
-1. 「**[!UICONTROL E メール配信]**」アクティビティを追加して、他の[「E メール配信」アクティビティ](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html?lang=ja)として設定します。
+1. 「**[!UICONTROL メール配信]**」アクティビティを追加して、他の[「メール配信」アクティビティ](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html?lang=ja)として設定します。
 1. 配信コンテンツを開きます。
 1. パーソナライゼーションフィールドの追加ポップアップから、**[!UICONTROL 追加データ（targetData）]**&#x200B;ノードを探します。このノードには、最初のターゲティングワークフローで計算されたオーディエンスの追加データが含まれます。これらは他のパーソナライゼーションフィールドとして使用できます。
 
@@ -142,12 +142,12 @@ Campaign Standard で配信ワークフローを作成することで、この�
 
 配信とそのコンテンツの準備が整ったら、配信を送信します。
 
-1. 配信ワークフローを実行します。この手順では、送信する E メールを準備します。
+1. 配信ワークフローを実行します。この手順では、送信するメールを準備します。
 1. 配信ダッシュボードから、配信を送信できることを手動で確認します。
 1. 配信のレポートとログを監視します。
 
    * **Campaign Standard**：任意の配信について、配信に関する[レポート](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html?lang=ja)および[ログ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=ja)にアクセスします。
-   * **Campaign v7 および Campaign Standard**：配信 ID、E メール配信ログ、E メールトラッキングログが、Campaign v7 に同期されます。Campaign v7 からマーケティングキャンペーンの包括的なビューを得ることができます。
+   * **Campaign v7 および Campaign Standard**：配信 ID、メール配信ログ、メールトラッキングログが、Campaign v7 に同期されます。Campaign v7 からマーケティングキャンペーンの包括的なビューを得ることができます。
 
      強制隔離は、Campaign v7 に自動的に同期されます。これにより、Campaign v7 で実行される次のターゲティングで、配信不能情報を考慮できます。
 

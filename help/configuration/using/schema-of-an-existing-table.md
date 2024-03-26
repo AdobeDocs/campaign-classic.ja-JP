@@ -9,7 +9,7 @@ exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 18%
+ht-degree: 11%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 18%
 
 対応するスキーマを作成するには、次のステージを適用します。
 
-1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードを編集し、「**[!UICONTROL 新規]**」をクリックします。
+1. を編集します。 **[!UICONTROL 管理/設定/データスキーマ]** Adobe Campaignツリーのノードをクリックし、 **[!UICONTROL 新規]** .
 1. を選択します。 **[!UICONTROL 既存のテーブルまたは SQL ビューからデータにアクセスする]** オプションを選択し、 **[!UICONTROL 次へ]** .
 
    ![](assets/s_ncs_configuration_extand_a_schema.png)

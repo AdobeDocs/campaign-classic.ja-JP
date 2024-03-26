@@ -4,8 +4,9 @@ title: ミッドソーシングインフラストラクチャに対する「イ�
 description: ミッドソーシングインフラストラクチャに対する「インバウンド SMS」ワークフローアクティビティ
 feature: Technote, SMS
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
-source-git-commit: 85adfe3515480bed559091427ff1acec14a70320
-workflow-type: ht
+exl-id: 756039b2-5f57-4dc5-8166-a421206b886b
+source-git-commit: f9a17541596ba2afa96502dc99408b6f99d2cb2b
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -145,5 +146,3 @@ ht-degree: 100%
    > * ミッドソーシングインスタンスあたり複数の inSMS ワークフローがある場合、外部アカウント ID が変化してもミッドソーシング SMS ID は一定のままであるので、データの重複が発生する場合があります。
 
 1. ワークフローを保存して再開します。
-
-

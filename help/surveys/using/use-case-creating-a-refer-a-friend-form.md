@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されま�
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 100%
 

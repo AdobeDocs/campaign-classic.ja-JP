@@ -8,8 +8,8 @@ feature: Personalization
 role: User
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '492'
+workflow-type: tm+mt
+source-wordcount: '493'
 ht-degree: 100%
 
 ---
@@ -22,9 +22,9 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 
 サポートされる拡張子は、「.docx」、「.doc」および「.odt」です。
 
-ドキュメントをパーソナライズする場合、E メールのパーソナライゼーションと同じ JavaScript 機能を使用します。
+ドキュメントをパーソナライズする場合、メールのパーソナライゼーションと同じ JavaScript 機能を使用します。
 
-「**[!UICONTROL メッセージの配信中にファイルのコンテンツはパーソナライズされて PDF に変換]**」オプションを有効化する必要があります。このオプションは、配信 E メールにファイルを添付する際にアクセスできます。計算済み添付ファイルについて詳しくは、[ファイルの添付](attaching-files.md)の節を参照してください。
+「**[!UICONTROL メッセージの配信中にファイルのコンテンツはパーソナライズされて PDF に変換]**」オプションを有効化する必要があります。このオプションは、配信メールにファイルを添付する際にアクセスできます。計算済み添付ファイルについて詳しくは、[ファイルの添付](attaching-files.md)の節を参照してください。
 
 請求書のヘッダーのパーソナライゼーションの例：
 

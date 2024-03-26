@@ -12,7 +12,7 @@ hidefromtoc: true
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '498'
 ht-degree: 1%
 
 ---
@@ -671,7 +671,7 @@ Fully test the new installation, check that it does not regress and make sure th
 次の各サーバーで Apache とAdobe Campaignのサービスを開始します。
 
 1. トラッキングおよびリダイレクトサーバー。
-1. ミッドソーシングサーバー.
+1. ミッドソーシングサーバー。
 1. マーケティングサーバー。
 
 新しいインストールを完全にテストし、再現しないことと、すべてが正しく動作していることを確認します。

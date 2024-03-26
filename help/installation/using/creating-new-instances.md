@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 新規インスタンスの作成
-description: 新規インスタンスの作成
+title: 新しいインスタンスの作成
+description: 新しいインスタンスの作成
 feature: Installation, Instance Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
@@ -11,11 +11,11 @@ exl-id: 3b87eb3c-3b50-4ed4-80b1-4333261ffe0b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 21%
+ht-degree: 11%
 
 ---
 
-# 新規インスタンスの作成{#creating-new-instances}
+# 新しいインスタンスの作成{#creating-new-instances}
 
 
 

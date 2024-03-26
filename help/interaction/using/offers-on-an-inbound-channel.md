@@ -303,7 +303,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
 ### 識別したオファースペースの詳細設定の指定 {#specifying-the-advanced-settings-of-the-identified-offer-spaces}
 
-この例では、Adobe Campaign データベースの E メールアドレス情報を利用してコンタクト先を識別します。受信者の E メールをスペースに追加するには、次の手順に従います。
+この例では、Adobe Campaign データベースのメールアドレス情報を利用してコンタクト先を識別します。受信者のメールをスペースに追加するには、次の手順に従います。
 
 1. 識別された環境で、オファースペースフォルダーに移動します。
 1. 「**Best Offer**」オファースペースを選択し、「**[!UICONTROL 詳細設定パラメーター]**」をクリックします。
@@ -314,7 +314,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 
    ![](assets/offer_inbound_fallback_example_046.png)
 
-1. 「**[!UICONTROL 式を編集]**」をクリックし、受信者テーブルに移動して、「**[!UICONTROL E メール]**」フィールドを選択します。
+1. 「**[!UICONTROL 式を編集]**」をクリックし、受信者テーブルに移動して、「**[!UICONTROL メール]**」フィールドを選択します。
 
    ![](assets/offer_inbound_fallback_example_047.png)
 
@@ -397,7 +397,7 @@ Neobank の Web サイトにはオファー用のスペースが 3 つありま�
 
    ![](assets/offer_inbound_fallback_example_043.png)
 
-   ユーザーの識別手段としては、ブラウザーの Cookie、URL 内の読み取りパラメーター、E メール、ユーザー自身の本人確認情報などが使用できます。受信者テーブルに含まれる情報のうち、プライマリキー以外のフィールドを使用する場合は、スペースの詳細設定パラメーターに定義する必要があります（[識別されたオファースペースの詳細設定](#specifying-the-advanced-settings-of-the-identified-offer-spaces)を参照）。
+   ユーザーの識別手段としては、ブラウザーの Cookie、URL 内の読み取りパラメーター、メール、ユーザー自身の本人確認情報などが使用できます。受信者テーブルに含まれる情報のうち、プライマリキー以外のフィールドを使用する場合は、スペースの詳細設定パラメーターに定義する必要があります（[識別されたオファースペースの詳細設定](#specifying-the-advanced-settings-of-the-identified-offer-spaces)を参照）。
 
 1. 呼び出し URL を挿入します。
 

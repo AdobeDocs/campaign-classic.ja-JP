@@ -1,22 +1,22 @@
 ---
 product: campaign
 title: SpamAssassin
-description: SpamAssassin を使用した E メールスパム検出の設定方法を説明します。
+description: SpamAssassin を使用したメールスパム検出の設定方法を説明します。
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Email, Deliverability
 role: User
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '276'
+workflow-type: tm+mt
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
 
 # SpamAssassin{#spamassassin}
 
-Adobe Campaign は、E メールスパムフィルタリングに使用されるサードパーティのサービスである、[SpamAssassin](https://spamassassin.apache.org) と連携するように設定できます。これを使用すると、E メールを採点して、受信時に使用されるスパム対策ツールによってメッセージがスパムとみなされるリスクがあるかどうかを判断できます。
+Adobe Campaign は、メールスパムフィルタリングに使用されるサードパーティのサービスである、[SpamAssassin](https://spamassassin.apache.org) と連携するように設定できます。これを使用すると、メールを採点して、受信時に使用されるスパム対策ツールによってメッセージがスパムとみなされるリスクがあるかどうかを判断できます。
 
 SpamAssassin は、次のような様々なスパム検出技法を活用します。
 
@@ -34,7 +34,7 @@ SpamAssassin は、次のような様々なスパム検出技法を活用しま�
 
 ## Campaign での SpamAssassin の使用 {#using-spamassassin}
 
-E メール配信を作成して、そのコンテンツを定義したら、以下の手順に従って、リスクを評価します。
+メール配信を作成して、そのコンテンツを定義したら、以下の手順に従って、リスクを評価します。
 
 配信の作成およびデザインについて詳しくは、[この節](about-email-channel.md)を参照してください。
 

@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 5%
+source-wordcount: '722'
+ht-degree: 1%
 
 ---
 
@@ -165,7 +165,7 @@ nlserver.exe config -postupgrade -check -instance:<instance-name>
    <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 
    <td> PU-0008<br /> </td> 
    <td> エラー<br /> </td> 
-   <td> Microsoft CRM、Salesforce、Oracle CRM On Demand のアクションアクティビティは使用できなくなりました。Adobe Campaignと CRM システム間のデータ同期を設定するには、 <a href="../../workflow/using/crm-connector.md" target="_blank">CRM コネクタ</a> ターゲティングアクティビティ。<br /> </td>
+   <td> Microsoft CRM、Salesforce、OracleCRM On Demand アクションアクティビティは使用できなくなりました。 Adobe Campaignと CRM システム間のデータ同期を設定するには、 <a href="../../workflow/using/crm-connector.md" target="_blank">CRM コネクタ</a> ターゲティングアクティビティ。<br /> </td>
   </tr> 
  </tbody> 
 </table>

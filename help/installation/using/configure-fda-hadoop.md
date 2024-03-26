@@ -10,8 +10,8 @@ topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 80%
+source-wordcount: '607'
+ht-degree: 78%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 80%
 1. 設定 [Hadoopデータベース](#configuring-hadoop)
 1. hadoop [外部アカウント](#hadoop-external) Campaign 内
 
-## Hadoop 3.0 の設定 {#configuring-hadoop}
+## hadoop3.0 の設定 {#configuring-hadoop}
 
 FDA で Hadoop 外部データベースに接続するには、Adobe Campaign サーバーで次の設定が必要になります。この設定は、Windows と Linux の両方で利用できます。
 
@@ -84,7 +84,7 @@ FDA で Hadoop 外部データベースに接続するには、Adobe Campaign �
 | fileFormat | PARQUET | 作業用テーブルのデフォルトのファイル形式です。 |
 
 
-## Hadoop 2.1 の設定 {#configure-access-hadoop-2}
+## hadoop2.1 の設定 {#configure-access-hadoop-2}
 
 hadoop2.1 に接続する必要がある場合は、次の手順に従って、 [Windows](#for-windows) または [Linux](#for-linux).
 

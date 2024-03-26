@@ -8,7 +8,7 @@ feature: Email
 role: User
 exl-id: 7f44e732-4257-4d2a-800c-bde847e20f52
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 100%
 
@@ -16,14 +16,14 @@ ht-degree: 100%
 
 # メール配信の作成{#creating-an-email-delivery}
 
-新しい E メール配信を作成するには、次の手順に従います。
+新しいメール配信を作成するには、次の手順に従います。
 
 >[!NOTE]
 >
 >配信の作成に関するグローバルな概念については、[この節](steps-about-delivery-creation-steps.md)で説明しています。
 
 1. 新しい配信を作成します（例えば、配信ダッシュボードから）。
-1. **E メール配信（メール）**&#x200B;配信テンプレートまたは自分で作成した任意の E メール配信テンプレートを選択します。配信テンプレートについて詳しくは、[この節](about-templates.md)を参照してください。
+1. **メール配信（メール）**&#x200B;配信テンプレートまたは自分で作成した任意のメール配信テンプレートを選択します。配信テンプレートについて詳しくは、[この節](about-templates.md)を参照してください。
 
    ![](assets/s_ncs_user_wizard_email01_1.png)
 

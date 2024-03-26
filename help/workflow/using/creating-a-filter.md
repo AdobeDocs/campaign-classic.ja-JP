@@ -7,8 +7,8 @@ feature: Query Editor, Workflows
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 100%
+source-wordcount: '238'
+ht-degree: 94%
 
 ---
 
@@ -56,4 +56,4 @@ Adobe Campaign で使用可能なフィルターは、クエリと同じ操作�
 
 ここでは、**$(/tmp/@text)=&#39;代理店&#39;** となっています。
 
-**$(/tmp/@text)!=&#39;&#39;** 式は、入力フィールドが空でない場合に各条件を適用します。
+The **$(/tmp/@text)!=&quot;** 式は、入力フィールドが空でない場合に各条件を適用します。

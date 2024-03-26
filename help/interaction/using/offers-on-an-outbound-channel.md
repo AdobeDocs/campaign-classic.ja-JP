@@ -11,7 +11,7 @@ topic-tags: case-study
 exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
@@ -22,17 +22,17 @@ ht-degree: 100%
 
 ## メールによるオファー配信 {#email-offer-delivery}
 
-データベースにアフリカ旅行のカテゴリがあり、各オファーの実施要件、コンテキスト、表示域は既に設定されているとします。これから、E メール経由でオファーを提示するためのキャンペーンを作成します。
+データベースにアフリカ旅行のカテゴリがあり、各オファーの実施要件、コンテキスト、表示域は既に設定されているとします。これから、メール経由でオファーを提示するためのキャンペーンを作成します。
 
 1. マーケティングキャンペーンとターゲティングワークフローを作成します。
 
    ![](assets/offer_delivery_example_001.png)
 
-1. E メール配信を編集し、**[!UICONTROL オファー]**&#x200B;アイコンをクリックします。
+1. メール配信を編集し、**[!UICONTROL オファー]**&#x200B;アイコンをクリックします。
 
    ![](assets/offer_delivery_example_002.png)
 
-1. 休暇シーズンに合ったオファー環境用の E メールスペースを選択します。
+1. 休暇シーズンに合ったオファー環境用のメールスペースを選択します。
 
    ![](assets/offer_delivery_example_003.png)
 

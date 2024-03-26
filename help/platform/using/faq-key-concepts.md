@@ -10,7 +10,7 @@ topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '835'
 ht-degree: 100%
 
 ---
@@ -82,7 +82,7 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 ワークフローについて[詳しくはここをクリック](../../workflow/using/about-workflows.md)してください。「[ワークフローのベストプラクティス](../../workflow/using/building-a-workflow.md)」も参照してください。
 
-## 最初の E メールを作成し送信するにはどうすればよいですか？ {#how-to-create-and-send-a-first-email-}
+## 最初のメールを作成し送信するにはどうすればよいですか？ {#how-to-create-and-send-a-first-email-}
 
 [詳しくはここをクリック](../../delivery/using/about-email-channel.md)してください。
 
@@ -134,4 +134,4 @@ Campaign でのトラッキング管理について詳しくは、[このペー�
 
 最新の Campaign Classic ドキュメント更新のリストは[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=ja)にあります。
 
-また、最新の技術メモのリストについては、[このページ](https://helpx.adobe.com/jp/campaign/kb/article-list.html)を参照してください。
+また、最新のテクニカルノートのリストについては、[このページ](https://helpx.adobe.com/jp/campaign/kb/article-list.html)を参照してください。

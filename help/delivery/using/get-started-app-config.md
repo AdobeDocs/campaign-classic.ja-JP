@@ -7,8 +7,8 @@ feature: Push
 role: User, Developer
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '334'
+workflow-type: tm+mt
+source-wordcount: '313'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作が必�
 
 >[!CAUTION]
 >
->Campaign のビルトインパッケージ、ベストプラクティス、推奨事項について詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
+>Campaign のビルトインパッケージ、ベストプラクティス、レコメンデーションについて詳しくは、[このページ](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
 
 インストール手順は次のとおりです。

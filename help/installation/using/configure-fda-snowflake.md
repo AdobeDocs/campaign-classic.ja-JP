@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Snowflake へのアクセスの設定
+title: Snowflakeへのアクセスの設定
 description: FDA でSnowflakeへのアクセスを設定する方法
 feature: Installation, Federated Data Access
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
@@ -10,12 +10,12 @@ topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
 source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 39%
+source-wordcount: '525'
+ht-degree: 33%
 
 ---
 
-# Snowflake へのアクセスの設定 {#configure-access-to-snowflake}
+# Snowflakeへのアクセスの設定 {#configure-access-to-snowflake}
 
 キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存された情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 [!DNL Snowflake].
 
@@ -73,7 +73,7 @@ ht-degree: 39%
 
 1. Campaign では、 [!DNL Snowflake] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#snowflake-external).
 
-## Snowflake 外部アカウント {#snowflake-external}
+## Snowflake外部アカウント {#snowflake-external}
 
 次を作成する必要があります： [!DNL Snowflake] Campaign インスタンスを [!DNL Snowflake] 外部データベース。
 
@@ -121,7 +121,7 @@ ht-degree: 39%
 | warehouse | 使用するデフォルトのウェアハウスの名前。ユーザーのデフォルト値より優先されます。 |
 | TimeZoneName | デフォルトでは空で、Campaign Classic アプリケーションサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)を参照してください。 |
 | WeekStart | WEEK_START セッションパラメーター。デフォルトでは 0 に設定されています。<br>詳しくは、[このページ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)を参照してください。 |
-| UseCachedResult | USE_CACHED_RESULTS セッションパラメーター。デフォルトでは TRUE に設定されています。このオプションは、Snowflake でキャッシュされた結果を無効にするために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)を参照してください。 |
+| UseCachedResult | USE_CACHED_RESULTS セッションパラメーター。デフォルトでは TRUE に設定されています。このオプションは、Snowflakeがキャッシュした結果を無効にする場合に使用できます。 <br>詳しくは、[このページ](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html)を参照してください。 |
 | bulkThreads | Snowflakeのバルクローダーに使用するスレッドの数が多いと、より大きなバルクロードでより高いパフォーマンスが得られます。 デフォルトでは 1 に設定されています。数は、装置スレッドの数に応じて調整できます。 |
 | chunkSize | バルクローダーチャンクのファイルサイズを決定します。 デフォルトでは 128MB に設定されています。 bulkThreads と組み合わせて使用すると、より最適なパフォーマンスを得るために変更できます。 同時にアクティブなスレッドが多いほど、パフォーマンスが向上します。 <br>詳しくは、 [Snowflake文書](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
 | StageName | 事前にプロビジョニングされた内部ステージの名前。 新しい一時ステージを作成する代わりに、一括読み込みで使用されます。 |

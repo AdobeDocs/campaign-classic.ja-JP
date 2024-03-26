@@ -8,7 +8,7 @@ role: Data Engineer, Developer
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '408'
 ht-degree: 71%
 
 ---
@@ -54,7 +54,7 @@ Campaign でこの属性を使用した場合の結果は次のとおりです�
 * ターゲット母集団をグループ（リスト）に保存する場合、保存されるフィールドの特性はデータのソースと同じです。
 * デフォルトでは、JS コードからデータにアクセスできません。
 
-## 推奨事項 {#recommendations}
+## レコメンデーション {#recommendations}
 
 各配信で、E メールアドレスは **[!UICONTROL broadLog]** そして **[!UICONTROL forecastLog]** テーブル：結果として、これらのフィールドも保護する必要があります。
 

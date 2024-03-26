@@ -7,7 +7,7 @@ feature: Workflows, Targeting Activity
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '404'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 100%
    青い矢印を使用して、重複処理の優先度を定義できます。
 
 
-   上の例では、受信者はまず E メールアドレスに基づいて重複排除され、次に必要に応じてアカウント番号に基づいて重複排除されます。
+   上の例では、受信者はまずメールアドレスに基づいて重複排除され、次に必要に応じてアカウント番号に基づいて重複排除されます。
 
 1. 「**[!UICONTROL 結果]**」タブで、追加情報を追加できます。
 

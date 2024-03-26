@@ -8,8 +8,8 @@ role: Data Engineer, Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 65%
+source-wordcount: '1020'
+ht-degree: 63%
 
 ---
 
@@ -121,7 +121,7 @@ The **xpath** 属性は、インデックスを作成するスキーマ内のフ
 
 * **@advanced**
 * **@dataPolicy**
-* **@デフォルト**
+* **@default**
 * **@desc**
 * **@enum**
 * **@expr**
@@ -132,7 +132,7 @@ The **xpath** 属性は、インデックスを作成するスキーマ内のフ
 * **@required**
 * **@ref**
 * **@xml**
-* **@タイプ**
+* **@type**
 
   様々なデータベース管理システムに対して、Adobe Campaignで生成されるデータタイプのマッピングの一覧表を表示するには、 [Adobe Campaign/DBMS データのタイプのマッピング](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) 」セクションに入力します。
 
@@ -222,4 +222,4 @@ The **xpath** 属性は、インデックスを作成するスキーマ内のフ
 
 >[!NOTE]
 >
->変更がデータベース構造に影響を与えない場合は、スキーマを再生成するだけです。それには、更新するスキーマを選択し、右クリックして&#x200B;**[!UICONTROL アクション／選択したスキーマを再生成...]**&#x200B;を選択します。詳しくは、 [スキーマの再生成](../../configuration/using/regenerating-schemas.md) 」セクションに入力します。
+>変更がデータベース構造に影響を与えない場合は、スキーマを再生成するだけです。それには、更新するスキーマを選択し、右クリックして「 」を選択します。 **[!UICONTROL アクション/選択したスキーマを再生成…]** . 詳しくは、 [スキーマの再生成](../../configuration/using/regenerating-schemas.md) 」セクションに入力します。

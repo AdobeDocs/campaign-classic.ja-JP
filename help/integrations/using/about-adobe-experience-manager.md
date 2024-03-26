@@ -10,7 +10,7 @@ content-type: reference
 exl-id: e9756046-fc67-4afd-b7a9-c8d73614f02e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '138'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 
 
-Adobe Campaign と Adobe Experience Manager の間の統合では、E メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。
+Adobe Campaign と Adobe Experience Manager の間の統合では、メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。
 
-Adobe Campaign で E メールまたはランディングページを編集中に、AEM Assets ライブラリからアセットを直接挿入することもできます。この機能について詳しくは、[アセット](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md)章で説明しています。
+Adobe Campaign でメールまたはランディングページを編集中に、AEM Assets ライブラリからアセットを直接挿入することもできます。この機能について詳しくは、[アセット](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md)章で説明しています。
 
 この統合により、AEM のコンテンツ編集機能および Adobe Campaign の配信能力の両方を最大限に使用することができます。
 

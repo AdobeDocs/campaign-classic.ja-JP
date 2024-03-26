@@ -9,7 +9,7 @@ topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '504'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Adobe Campaign Classic には、お客様に価値を提供するために、様
 
 ## 4. エラーを起こさずに配信を確実に送信するにはどうすればよいですか？ {#how-can-i-make-sure-my-delivery-is-sent-without-errors-}
 
-Adobe Campaign には、E メール配信を監視するための一連のダッシュボードおよびツールが用意されています。
+Adobe Campaign には、メール配信を監視するための一連のダッシュボードおよびツールが用意されています。
 
 メッセージが送信されていることの確認、実行の監視、エラーが発生した場合の対処の方法について[詳しくは、ここをクリック](../../delivery/using/about-delivery-monitoring.md)してください。
 
@@ -72,6 +72,6 @@ Campaign Classic の最新のリリースノートについては、[このペ�
 
 ## 9. ドメインの設定はどのような手順で行いますか？ {#what-is-the-procedure-for-domain-delegation-}
 
-サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。アドビは E メール配信用にドメインネームシステム（DNS）を考慮しています。これにより、クライアントがドメイン名と共に DNS エイリアスを使用することでブランドイメージを維持したり、E メール処理中の配信品質を最適化できるすべての技術的なベストプラクティスをアドビが自主的に実践したりできます。
+サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。アドビはメール配信用にドメインネームシステム（DNS）を考慮しています。これにより、クライアントがドメイン名と共に DNS エイリアスを使用することでブランドイメージを維持したり、メール処理中の配信品質を最適化できるすべての技術的なベストプラクティスをアドビが自主的に実践したりできます。
 
 [詳しくはここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja)してください。

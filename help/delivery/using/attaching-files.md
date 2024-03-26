@@ -8,21 +8,21 @@ feature: Email
 role: User
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 100%
 
 ---
 
-# E メールへのファイルの添付{#attaching-files}
+# メールへのファイルの添付{#attaching-files}
 
-## E メールへのファイル添付について {#about-email-attachments}
+## メールの添付ファイルについて {#about-email-attachments}
 
-E メール配信には 1 つまたは複数のファイルを添付できます。
+メール配信には 1 つまたは複数のファイルを添付できます。
 
 >[!NOTE]
 >
->パフォーマンスの問題を回避するために、1 つの E メールに複数の添付ファイルを含めないことをお勧めします。推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
+>パフォーマンスの問題を回避するために、1 つのメールに複数の添付ファイルを含めないことをお勧めします。推奨しきい値は、[Campaign Classic オプションのリスト](../../installation/using/configuring-campaign-options.md#delivery)から設定できます。
 
 次の 2 つの場合が考えられます。
 

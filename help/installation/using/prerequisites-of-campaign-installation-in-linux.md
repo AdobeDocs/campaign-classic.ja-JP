@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Linux での Campaign のインストールの前提条件
+title: Linux での キャンペーン インストールの前提条件
 description: Linux での Campaign のインストールの前提条件
 feature: Installation, Instance Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
@@ -11,18 +11,18 @@ topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 5%
+source-wordcount: '923'
+ht-degree: 3%
 
 ---
 
-# Linux でキャンペーンをインストールするための前提条件{#prerequisites-of-campaign-installation-in-linux}
+# Linux に キャンペーン をインストールするための前提条件{#prerequisites-of-campaign-installation-in-linux}
 
 
 
 ## ソフトウェアの前提条件 {#software-prerequisites}
 
-ここでは、Adobe Campaign をインストールする前に必要な事前設定手順について説明します。
+ここでは、Adobe Campaign をインストールする前に必要な事前設定手順について詳しく説明します。
 
 Adobe Campaignのインストールに必要な技術的およびソフトウェア設定について詳しくは、 [互換性マトリックス](../../rn/using/compatibility-matrix.md).
 
@@ -43,9 +43,9 @@ Adobe Campaignのインストールに必要な技術的およびソフトウェ
 
 Linux にAdobe Campaignをインストールするには、必要なライブラリがあることを確認してください。
 
-* Library C は、TLS (スレッドローカルストレージ) モードをサポートできる必要があります。 このモードは、ほとんどの場合、Xen のサポートが無効になっている一部のカーネルを除き、アクティブになります。
+* Library C は TLS (スレッドローカルストレージ) モードをサポートできなければなりません。 このモードは、Xen サポートが無効になっている一部のカーネルを除いて、ほとんどの場合アクティブです。
 
-  これを確認するには、例として uname-a | grep xen **コマンドを使用** します。
+  これを確認するには、たとえばuname **-a | grep xen** コマンドを使用できます。
 
   コマンドが何も返さない（空行）場合は、設定が正しいことを意味します。
 
@@ -53,15 +53,15 @@ Linux にAdobe Campaignをインストールするには、必要なライブラ
 
   RHEL 7/8 ディストリビューションの場合、OpenSSL のバージョン 1.0 が必要です。
 
-* Adobe Campaign を使用するには、libicu **ライブラリインストールされている** 必要があります。
+* Adobe Campaignを使用するには、libicu **ライブラリがインストールされている必要があります**。
 
-  Libicu **の** 次のバージョンがサポートされています (32 ビットまたは64ビット)。
+  次のバージョンの **libicu** がサポートされています(32 ビットまたは 64 ビット)。
 
    * RHEL 7/8、CentOS 7: libicu50
    * Debian 8: libicu52
    * Debian 9: libicu57
 
-  Adobe Campaign を使用するには、libc-アレスライブラリがインストールされている必要があります。 RHEL/CentOS で、次のコマンドを実行します。
+  Adobe Campaign を使用するには、libc-ares ライブラリをインストールする必要があります。 RHEL/CentOS で、次のコマンドを実行します。
 
   ```
   yum install c-ares
@@ -103,7 +103,7 @@ SELINUX=disabled
 
 ### MTA 統計用のフォント {#fonts-for-mta-statistics}
 
-MTA 統計 (nms/fra/jsp/stat) のレポートが正しく表示されるようにするには、フォントを追加します。
+MTA 統計(nms/fra/jsp/stat.jsp)に関するレポートを正しく表示するには、フォントを追加します。
 
 Debian で、次のコマンドを追加します。
 
@@ -167,13 +167,13 @@ Debian の場合、次の設定が必要です。
 
 ### CentOS 用 LibreOffice のインストール {#installing-libreoffice-for-centos}
 
-CentOS には、次の設定が必要です。
+CentOS を使用する場合は、以下の設定が必要です。
 
 ```
 yum install libreoffice-headless libreoffice-writer libreoffice-calc
 ```
 
-## データベースアクセス層 {#database-access-layers}
+## データベースアクセスレイヤー {#database-access-layers}
 
 使用しているデータベースエンジンのアクセスレイヤーは、サーバーにインストールされ、Adobe Campaignアカウント経由でアクセスできる必要があります。 バージョンとインストールモードは、使用するデータベースエンジンによって異なる場合があります。
 
@@ -183,15 +183,15 @@ yum install libreoffice-headless libreoffice-writer libreoffice-calc
 
 ### PostgreSQL {#postgresql}
 
-Adobe Campaign では、バージョン7.2 からのすべてのバージョンの PostgreSQL クライアントライブラリをサポートしています。 **** **** つまり、libpq、libpq、libpq、libpq **など** **** です。
+Adobe Campaign は、バージョン 7.2 以降のすべてのバージョンの PostgreSQL クライアントライブラリをサポートしています (libpq.so.5 **、** libpq.so.4 **、** libpq.so.3.2 **および** libpq.so.3.1 ****)。
 
-Adobe Campaign で PostgreSQL を使用する場合も、対応する **pgcrypto** ライブラリをインストールする必要があります。
+Adobe CampaignでPostgreSQLを使用するには、対応する **pgcrypto** ライブラリをインストールする必要もあります。
 
 ### Oracle {#oracle}
 
-64ビット Debian のライブラリのバージョンを取得します。例: libclntsh.so, libclntsh **** . so、libclntsh. so **.** ****
+64 ビット Debian の ライブラリ バージョン (libclntsh.so ****、**libclntsh.so.11.1** および **libclntsh.so.10.1**) を取得します。
 
-Oracle テクノロジーのネットワークから Linux RPM パッケージを入手できます。
+Linux RPM パッケージは、Oracle Technology Network から入手できます。
 
 >[!NOTE]
 >
@@ -225,7 +225,7 @@ Adobe Campaign installations for Linux は、次のシーケンスで実行す�
 
 この章では、インストールプロセスについて説明します。 インストール手順は次のとおりです。
 
-* 手順 1: アプリケーションサーバーのインストールについては、『 Linux ](../../installation/using/installing-packages-with-linux.md) でのパッケージのインストールを [ 参照してください。
-* 手順 2: Web サーバーとの統合 (オプション。デプロイされているコンポーネントによって異なります)。
+* ステップ 1: アプリケーション サーバーのインストールについては、 [Linux](../../installation/using/installing-packages-with-linux.md) でのパッケージのインストールを参照してください。
+* 手順 2:Web サーバーとの統合(デプロイするコンポーネントに応じてオプション)。
 
-インストール手順が完了したら、インスタンス、データベースおよびサーバーを設定する必要があります。 詳しくは、初期設定 ](../../installation/using/about-initial-configuration.md) を [ 参照してください。
+インストール手順が完了したら、インスタンス、データベース、およびサーバーを構成する必要があります。 詳しくは、初期設定](../../installation/using/about-initial-configuration.md)についてを参照してください[。

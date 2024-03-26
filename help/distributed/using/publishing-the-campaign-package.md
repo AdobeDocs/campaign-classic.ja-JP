@@ -7,7 +7,7 @@ feature: Distributed Marketing
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '489'
 ht-degree: 100%
 
 ---

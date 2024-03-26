@@ -11,7 +11,7 @@ topic-tags: additional-configurations
 exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '976'
 ht-degree: 3%
 
 ---
@@ -98,7 +98,7 @@ Adobe Campaignデータベースにアクセスする外部ツールとの互換
 可能な値の例：
 
 * ヨーロッパ/パリ
-* ヨーロッパ / ロンドン,
+* ヨーロッパ/ロンドン
 * アメリカ/ニューヨーク等
 
   これらの値は tz(Olson) データベースから取得されます。 詳しくは、 [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).

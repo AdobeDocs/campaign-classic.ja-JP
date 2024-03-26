@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Campaigns
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1383'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
    ![](assets/simu_campaign_opti_edit_scope_update.png)
 
-1. シミュレーションのスコープに含める項目を選択します。複数の項目を選択する場合は、Shift キーや Ctrl キーを使用できます。
+1. シミュレーションのスコープに含める要素を選択します。複数の要素を選択する場合は、Shift キーや Ctrl キーを使用できます。
 
    ![](assets/simu_campaign_opti_edit_scope_select.png)
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
    ![](assets/simu_campaign_opti_edit_scope_save.png)
 
-   必要であれば、「**[!UICONTROL 動的条件を編集...]**」リンクをクリックして、動的条件を使用することができます。.
+   必要に応じて、 **[!UICONTROL 動的条件を編集…]** リンク。
 
    「**[!UICONTROL 保存]**」をクリックして、設定を承認します。
 

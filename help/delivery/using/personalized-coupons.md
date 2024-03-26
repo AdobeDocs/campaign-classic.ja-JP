@@ -8,7 +8,7 @@ feature: Personalization
 role: User
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 * **[!UICONTROL ステータス]**：クーポンの利用可能性。
 * **[!UICONTROL 引き換え日]**：クーポンの引き換え日。
 * **[!UICONTROL チャネル]**：クーポンを送信するために使用されるチャネル。
-* **[!UICONTROL アドレス]**：受信者の E メールアドレス。
+* **[!UICONTROL アドレス]**：受信者のメールアドレス。
 
 **[!UICONTROL ステータス]**、**[!UICONTROL チャネル]**&#x200B;および&#x200B;**[!UICONTROL アドレス]**&#x200B;の値は、自動的に入力されます。ただし、**[!UICONTROL 引き換え日]**&#x200B;の値は、Campaign によって復元されません。クーポン引き換えの詳細を含むファイルをインポートすることで、入力できます。
 
@@ -157,7 +157,7 @@ ht-degree: 100%
 
 メッセージよりもクーポンが少ない場合、配信分析が停止します。このような場合、より多くのクーポンをインポートするか、メッセージの数を制限することができます。メッセージの数を制限する場合は、次の手順に従います。
 
-1. E メール配信ウィンドウに移動します。
+1. メール配信ウィンドウに移動します。
 1. 「**[!UICONTROL 宛先]**」をクリックします。
 1. 「**[!UICONTROL ターゲットを選択]**」で、「**[!UICONTROL 除外]**」タブに移動します。
 

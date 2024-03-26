@@ -10,7 +10,7 @@ topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '757'
 ht-degree: 100%
 
 ---
@@ -121,7 +121,7 @@ PushEvents の使用例：
 <rtEvent type="order_confirmation" email="john.doe@domain.com" origin="eCommerce" wishedChannel="0" externalId="1242" mobilePhone="+33620202020"> 
 ```
 
-この例では、2 つのチャネルが指定されています。E メールアドレスと携帯電話番号です。**wishedChannel** では、イベントをメッセージに変換する際に使用するチャネルを選択できます。値「0」は E メールチャネルに、「1」はモバイルチャネルに対応します。
+この例では、2 つのチャネルが指定されています。メールアドレスと携帯電話番号です。**wishedChannel** では、イベントをメッセージに変換する際に使用するチャネルを選択できます。値「0」はメールチャネルに、「1」はモバイルチャネルに対応します。
 
 イベントの配信を遅らせる場合には、**[!UICONTROL scheduled]** フィールドに続いて希望する日付を追加します。イベントは、指定した日付にメッセージに変換されます。
 
@@ -164,7 +164,7 @@ PushEvents の使用例：
 
 >[!IMPORTANT]
 >
->SOAP 呼び出しを受け取ると、Adobe Campaign は E メールアドレスの形式を検証します。E メールアドレスの形式が正しくない場合、エラーを返します。
+>SOAP 呼び出しを受け取ると、Adobe Campaign はメールアドレスの形式を検証します。メールアドレスの形式が正しくない場合、エラーを返します。
 
 * イベント処理が成功した場合にメソッドが返す識別子の例：
 

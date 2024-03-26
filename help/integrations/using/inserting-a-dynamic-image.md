@@ -11,7 +11,7 @@ topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '878'
 ht-degree: 100%
 
 ---
@@ -26,8 +26,8 @@ ht-degree: 100%
 
 このメッセージでは、画像は次のユーザーエクスペリエンスに応じて動的に変化する可能性があります。
 
-* E メールがフランスで開かれている。
-* E メールが米国で開かれている。
+* メールがフランスで開かれている。
+* メールが米国で開かれている。
 * どちらの条件にも該当しない場合、デフォルトの画像が表示される。
 
 ![](assets/target_4.png)
@@ -46,7 +46,7 @@ Adobe Campaign で E メールのターゲットとコンテンツを定義し�
 
 この操作をおこなうには、デフォルトの画像の URL、場所名、Target に転送するフィールドを指定します。
 
-Adobe Campaign では、2 通りの方法で Target から E メールに動的イメージを挿入できます。
+Adobe Campaign では、2 通りの方法で Target からメールに動的イメージを挿入できます。
 
 * デジタルコンテンツエディターを使用している場合は、既存の画像を選択して、ツールバーで&#x200B;**[!UICONTROL 挿入]**／**[!UICONTROL Adobe Target からの動的画像]**&#x200B;を選択します。
 
@@ -60,7 +60,7 @@ Adobe Campaign では、2 通りの方法で Target から E メールに動的�
 
 * **[!UICONTROL デフォルトの画像]**&#x200B;の URL：どの条件も満たされない場合に表示される画像です。アセットライブラリから画像を選択することもできます。
 * **[!UICONTROL ターゲットの場所]**：ダイナミックオファーの対象となる場所の名前を入力します。この場所は、ターゲットアクティビティで選択する必要があります。
-* **[!UICONTROL ランディングページ]**：デフォルト画像をデフォルトのランディングページにリダイレクトする場合。この URL は、デフォルト画像が最終的な E メールに表示される場合にのみ使用され、オプションです。
+* **[!UICONTROL ランディングページ]**：デフォルト画像をデフォルトのランディングページにリダイレクトする場合。この URL は、デフォルト画像が最終的なメールに表示される場合にのみ使用され、オプションです。
 * **[!UICONTROL 追加の決定パラメーター]**：Adobe Target セグメントで定義されたフィールドと Adobe Campaign フィールド間のマッピングを指定します。使用する Adobe Campaign フィールドは、rawbox で指定されている必要があります。この例では、「国」フィールドを追加しています。
 
 Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。Target の Enterprise 権限について詳しくは、[このページ](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=ja)を参照してください。
@@ -155,8 +155,8 @@ Target では、「エクスペリエンスのターゲット設定」アクテ�
 
 ## メールのプレビューと送信 {#preview-send-email}
 
-Adobe Campaign では、E メールをプレビューして、様々な受信者に対するレンダリングをテストできます。作成されたエクスペリエンスごとに画像が変化することがわかります。E メール作成について詳しくは、この[ページ](../../delivery/using/defining-the-email-content.md)を参照してください。
+Adobe Campaign では、メールをプレビューして、様々な受信者に対するレンダリングをテストできます。作成されたエクスペリエンスごとに画像が変化することがわかります。メール作成について詳しくは、この[ページ](../../delivery/using/defining-the-email-content.md)を参照してください。
 
-これで、Target からのダイナミックオファーを含む E メールを送信する準備ができました。
+これで、Target からのダイナミックオファーを含むメールを送信する準備ができました。
 
 ![](assets/target_20.png)

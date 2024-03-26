@@ -8,8 +8,8 @@ feature: Monitoring
 role: User, Developer
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '615'
+workflow-type: tm+mt
+source-wordcount: '607'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 100%
 * 角括弧 [ ]
 * 中括弧 { }
 
-この例では、URL https://www.adobe.com の後にセミコロンが続きます。 セミコロンは、受信者の E メールクライアントで、URL の一部として解釈される場合があります。 その結果、リンク切れになる場合があります。 この問題を回避するには、次のいずれかの方法で URL を区切り文字で囲みます。
+この例では、URL https://www.adobe.com の後にセミコロンが続きます。 セミコロンは、受信者のメールクライアントで、URL の一部として解釈される場合があります。 その結果、リンク切れになる場合があります。 この問題を回避するには、次のいずれかの方法で URL を区切り文字で囲みます。
 * (https://www.adobe.com/jp);
 * [https://www.adobe.com/jp];
 * {https://www.adobe.com/jp};

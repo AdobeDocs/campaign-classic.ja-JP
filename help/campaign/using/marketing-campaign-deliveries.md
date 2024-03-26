@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1557'
 ht-degree: 100%
 

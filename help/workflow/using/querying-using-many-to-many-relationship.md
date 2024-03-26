@@ -7,7 +7,7 @@ feature: Query Editor, Workflows
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '482'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 * 出力列に選択するフィールドは何ですか。
 
-  「プライマリキー」、「姓」、「名」および「E メール」
+  「プライマリキー」、「姓」、「名」および「メール」
 
 * どのような条件に基づいて情報をフィルターしますか。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 次の手順に従います。
 
 1. 汎用クエリエディターを開き、受信者テーブル&#x200B;**[!UICONTROL （nms:recipient）]**&#x200B;を選択します。
-1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL プライマリキー]**」、「**[!UICONTROL 名]**」、「**[!UICONTROL 姓]**」および「**[!UICONTROL E メール]**」を選択します。
+1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL プライマリキー]**」、「**[!UICONTROL 名]**」、「**[!UICONTROL 姓]**」および「**[!UICONTROL メール]**」を選択します。
 
    ![](assets/query_editor_nveau_33.png)
 

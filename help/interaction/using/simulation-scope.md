@@ -11,7 +11,7 @@ topic-tags: simulating-offers
 exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '253'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 100%
 
   ターゲットにフィルターを設定しない場合、受信者テーブル全体が考慮されます。
 
-* ターゲットごとにシミュレーションされる提案数。
+* ターゲットごとにシミュレートされる提案数。
 
   受信者は、この多くの提案を受け取ります。例えば、5 と入力すると、各受信者が受け取るオファーの提案の数は最大 5 件になります。
 

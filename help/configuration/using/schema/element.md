@@ -6,7 +6,7 @@ feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## コンテンツモデル {#content-model-4}
 
-element:==(attribute | compute-string | dbindex | default |要素 |ヘルプ |結合 |キー | sysFilter | translatedDefault)
+element:==(attribute | compute-string | dbindex | デフォルト | 要素 | ヘルプ | join | key | sysFilter | translatedDefault)
 
 ## 属性 {#attributes-4}
 
@@ -97,7 +97,7 @@ _operation （文字列）, advanced （文字列）, aggregate （文字列）,
   SQL 特性テーブルは、次の特性タイプに基づいて自動的に作成されます。
 
    * 専用： `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
-   * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
+   * 共有済み： `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
   特性フィールドには、1 つの値が特性に対して許可される単純なフィールドと、複数選択フィールドの 2 つのタイプがあります。このフィールドでは、複数の値を含むコレクション要素に特性がリンクされます。
 
@@ -184,22 +184,22 @@ _operation （文字列）, advanced （文字列）, aggregate （文字列）,
    * 日時
    * datetimetz
    * datetimenotz
-   * date
-   * 重複
+   * 日付
+   * 倍精度浮動小数点数
    * enum
-   * float
+   * 浮動小数点数
    * html
    * int64
    * リンク
    * 長い
    * メモ
    * MNTOKEN
-   * percent
+   * 割合
    * primarykey
    * short
    * 文字列
    * 時間
-   * 間隔
+   * 期間
    * uuid
 
 * **unbound (boolean)**：属性が有効化されている場合 (unbound=&quot;true&quot;)、リンクは 1 対多の基数のコレクション要素として宣言されます。

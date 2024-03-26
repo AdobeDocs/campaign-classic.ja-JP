@@ -8,8 +8,8 @@ feature: Email Design
 role: User
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '1525'
+workflow-type: tm+mt
+source-wordcount: '1439'
 ht-degree: 100%
 
 ---
@@ -33,43 +33,43 @@ AMP メールのテストと送信について詳しくは、[この節](#target
 
 ## AMP for Email について {#about-amp-for-email}
 
-新しい **AMP for Email** フォーマットを使用すると、メッセージに AMP コンポーネントを組み込み、アクションにつながるリッチコンテンツでメールエクスペリエンスを向上させることができます。E メール内で直接利用できる最新のアプリ機能により、受信者はメッセージ自体のコンテンツを動的に操作できます。
+新しい **AMP for Email** フォーマットを使用すると、メッセージに AMP コンポーネントを組み込み、アクションにつながるリッチコンテンツでメールエクスペリエンスを向上させることができます。メール内で直接利用できる最新のアプリ機能により、受信者はメッセージ自体のコンテンツを動的に操作できます。
 
 次に例を示します。
-* AMP を使用して記述された E メールには、画像カルーセルなどのインタラクティブな要素を含めることができます。
+* AMP を使用して記述されたメールには、画像カルーセルなどのインタラクティブな要素を含めることができます。
 * コンテンツはメッセージ内で最新の状態に保たれます。
 * 受信者は、受信ボックスを離れることなく、フォームに返信できます。
 
-AMP for Email は、既存の E メールと互換性があります。メッセージの AMP バージョンは、HTML やプレーンテキストに加えて、新しい MIME パートとして E メールに埋め込まれ、すべての E メールクライアント間での互換性を確保します。
+AMP for Email は、既存のメールと互換性があります。メッセージの AMP バージョンは、HTML やプレーンテキストに加えて、新しい MIME パートとしてメールに埋め込まれ、すべてのメールクライアント間での互換性を確保します。
 
-AMP for Email のフォーマット、仕様および要件について詳しくは、[AMP 開発者向けドキュメント](https://amp.dev/ja/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email)を参照してください。
+AMP 用メールフォーマット、仕様および要件について詳しくは、[AMP 開発者向けドキュメント](https://amp.dev/ja/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email)を参照してください。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#amp-email-video)
 
 ## Adobe Campaign で AMP for Email を使用するための主要な手順 {#key-steps-to-use-amp}
 
-Adobe Campaign で AMP E メールを正常にテストして送信するには、次の手順に従います。
+Adobe Campaign で AMPメールを正常にテストして送信するには、次の手順に従います。
 1. **[!UICONTROL AMP サポート]**&#x200B;パッケージをインストールします。[Campaign ビルトインパッケージのインストール](../../installation/using/installing-campaign-standard-packages.md)を参照してください。
 
-1. Adobe Campaign 内で E メールを作成し、AMP コンテンツを作成します。[Adobe Campaign での AMP E メールコンテンツの作成](#build-amp-email-content)を参照してください。
-1. AMP フォーマットをサポートする E メールプロバイダーからのすべての配信要件に従っていることを確認します。[AMP for Email の配信要件](#amp-for-email-delivery-requirements)を参照してください。
-1. ターゲットを定義する場合、AMP フォーマットを表示できる受信者を選択していることを確認してください。[AMP E メールのターゲティング](#targeting-amp-email)を参照してください。
+1. Adobe Campaign 内でメールを作成し、AMP コンテンツを作成します。[Adobe Campaign での AMPメールコンテンツの作成](#build-amp-email-content)を参照してください。
+1. AMP フォーマットをサポートするメールプロバイダーからのすべての配信要件に従っていることを確認します。[AMP for Email の配信要件](#amp-for-email-delivery-requirements)を参照してください。
+1. ターゲットを定義する場合、AMP フォーマットを表示できる受信者を選択していることを確認してください。[AMPメールのターゲティング](#targeting-amp-email)を参照してください。
 
    >[!NOTE]
    >
    >現在、AMP メールは、[特定のメールアドレス](#testing-amp-delivery-for-selected-addresses)（テスト用）にのみ配信できるか、サポートされているメールクライアントへの[登録](#delivering-amp-emails-by-registering)後にのみ配信できます。
 
-1. 通常どおりにメールを送信します。[AMP E メールの送信](#sending-amp-email)を参照してください。
+1. 通常どおりにメールを送信します。[AMPメールの送信](#sending-amp-email)を参照してください。
 
 ## Adobe Campaign での AMP メールコンテンツの作成 {#build-amp-email-content}
 
-AMP フォーマットを使用して E メールを作成するには、以下の手順に従います。
+AMP フォーマットを使用してメールを作成するには、以下の手順に従います。
 
 >[!IMPORTANT]
 >
 >[AMP 開発者向けドキュメント](https://amp.dev/ja/documentation/guides-and-tutorials/learn/email_fundamentals/?format=email)に記載されている AMP for Email の要件と仕様に従ってください。また、[AMP for Email のベストプラクティス](https://amp.dev/ja/documentation/guides-and-tutorials/develop/amp_email_best_practices/?format=email)も参照してください。
 
-1. E メール配信を作成する際に、任意のテンプレートを選択します。
+1. メール配信を作成する際に、任意のテンプレートを選択します。
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ AMP フォーマットを使用して E メールを作成するには、以下�
 
    >[!NOTE]
    >
-   >最初の AMP E メールの作成について詳しくは、[AMP 開発者向けドキュメント](https://amp.dev/ja/documentation/guides-and-tutorials/start/create_email/?format=email)を参照してください。
+   >最初の AMPメールの作成について詳しくは、[AMP 開発者向けドキュメント](https://amp.dev/ja/documentation/guides-and-tutorials/start/create_email/?format=email)を参照してください。
 
    例えば、AMP テンプレートの製品リストコンポーネントを使用して、サードパーティ製システムの製品リストを維持したり、Adobe Campaign 内部で製品リストを維持したりできます。価格やその他の要素を調整するたびに、その変更は、受信者がメールボックスからメールを開いたときに自動的に反映されます。
 
@@ -127,11 +127,11 @@ AMP フォーマットを使用して E メールを作成するには、以下�
 
    >[!IMPORTANT]
    >
-   >AMP コンテンツに加えて HTML またはプレーンテキストバージョンが E メールに含まれていない場合、その E メールは送信できません。
+   >AMP コンテンツに加えて HTML またはプレーンテキストバージョンがメールに含まれていない場合、そのメールは送信できません。
 
 ## AMP for Email の配信要件 {#amp-for-email-delivery-requirements}
 
-Adobe Campaign で AMP コンテンツを作成する場合は、動的な E メールの配信条件を満たす必要があります。これは、受信者のメールプロバイダーに固有の条件です。
+Adobe Campaign で AMP コンテンツを作成する場合は、動的なメールの配信条件を満たす必要があります。これは、受信者のメールプロバイダーに固有の条件です。
 
 現在、この形式のテストをサポートしているメールプロバイダーは、Gmail と Mail.ru の 2 つです。
 
@@ -146,15 +146,15 @@ Gmail アカウントに対して AMP 形式で配信をテストするために
 
 ## AMP メールのターゲティング {#targeting-amp-email}
 
-現在、次の 2 つの手順で AMP E メールの送信をテストできます。
+現在、次の 2 つの手順で AMPメールの送信をテストできます。
 
-1. Adobe Campaign では、適切に設定された E メールアドレスに対して AMP を利用した動的な E メールを配信し、その内容と動作を検証できます。[選択したアドレスに対する AMP E メール配信のテスト](#testing-amp-delivery-for-selected-addresses)を参照してください。
+1. Adobe Campaign では、適切に設定されたメールアドレスに対して AMP を利用した動的なメールを配信し、その内容と動作を検証できます。[選択したアドレスに対する AMPメール配信のテスト](#testing-amp-delivery-for-selected-addresses)を参照してください。
 
-1. テストが完了すると、該当するメールプロバイダーに登録して、送信者ドメインを許可リストに追加することにより、AMP for Email プログラムの一環として配信またはキャンペーンを送信できます。[メールプロバイダーへの登録による AMP E メールの配信](#delivering-amp-emails-by-registering)を参照してください。
+1. テストが完了すると、該当するメールプロバイダーに登録して、送信者ドメインを許可リストに追加することにより、AMP for Email プログラムの一環として配信またはキャンペーンを送信できます。[メールプロバイダーへの登録による AMPメールの配信](#delivering-amp-emails-by-registering)を参照してください。
 
-### 選択したアドレスへの AMP E メール配信のテスト {#testing-amp-delivery-for-selected-addresses}
+### 選択したアドレスへの AMPメール配信のテスト {#testing-amp-delivery-for-selected-addresses}
 
-Adobe Campaign から選択した E メールアドレスへの動的なメッセージの送信をテストできます。
+Adobe Campaign から選択したメールアドレスへの動的なメッセージの送信をテストできます。
 
 >[!NOTE]
 >
@@ -163,16 +163,16 @@ Adobe Campaign から選択した E メールアドレスへの動的なメッ�
 Gmail の場合、まずはターゲットとする Gmail アカウント用に Adobe Campaign からの配信に使用する送信者のアドレスを許可リストに追加する必要があります。
 
 手順は次のとおりです。
-1. 該当する E メールプロバイダーに対して、動的な E メールを有効にするオプションがオンになっていることを確認します。
-1. 配信の「**[!UICONTROL 送信者]**」フィールドに表示された送信者のアドレスをコピーし、E メールプロバイダーのアカウント設定の適切なセクションに貼り付けます。
+1. 該当するメールプロバイダーに対して、動的なメールを有効にするオプションがオンになっていることを確認します。
+1. 配信の「**[!UICONTROL 送信者]**」フィールドに表示された送信者のアドレスをコピーし、メールプロバイダーのアカウント設定の適切なセクションに貼り付けます。
 
 詳しくは、[Gmail](https://developers.google.com/gmail/ampemail/testing-dynamic-email) 開発者向けドキュメントを参照してください。
 
 ![](assets/amp_from_field.png)
 
-Mail.ru アドレスへの AMP E メールの送信をテストするには、[Mail.ru 開発者向けドキュメント](https://postmaster.mail.ru/amp/#howto)（**ユーザーの場合**&#x200B;の節）の手順に従います。
+Mail.ru アドレスへの AMPメールの送信をテストするには、[Mail.ru 開発者向けドキュメント](https://postmaster.mail.ru/amp/#howto)（**ユーザーの場合**&#x200B;の節）の手順に従います。
 
-### メールプロバイダーへの登録による AMP E メールの配信 {#delivering-amp-emails-by-registering}
+### メールプロバイダーへの登録による AMPメールの配信 {#delivering-amp-emails-by-registering}
 
 サポート対象のメールプロバイダーに登録して、送信者ドメインを許可リストに追加することにより、動的なメールの配信を試すことができます。
 
@@ -182,25 +182,25 @@ Mail.ru アドレスへの AMP E メールの送信をテストするには、[M
 
 複数のアドレスでテストが完了したら、任意の Gmail アドレスに AMP メールを送信できます。そのためには、Google に登録し、回答を待つ必要があります。[Gmail](https://developers.google.com/gmail/ampemail/register) 開発者向けドキュメントに記載されている手順に従います。登録が完了すると、許可された送信者になります。
 
-AMP E メールを Mail.ru アドレスに送信するには、[Mail.ru 開発者向けドキュメント](https://postmaster.mail.ru/amp/#howto)に記載されている要件と手順に従います（**E メールの送信者の場合**&#x200B;の節を参照）。
+AMPメールを Mail.ru アドレスに送信するには、[Mail.ru 開発者向けドキュメント](https://postmaster.mail.ru/amp/#howto)に記載されている要件と手順に従います（**メールの送信者の場合**&#x200B;の節を参照）。
 
 ## AMP メールの送信 {#sending-amp-email}
 
 AMP コンテンツとフォールバックの準備が整い、互換性のあるターゲットを定義したら、通常どおりにメールを送信できます。
 
-現在、AMP フォーマットは、Gmail と Mail.ru でのみ、特定の条件下でサポートされています。他の E メールプロバイダーからのアドレスをターゲットにすることはできますが、E メールの HTML またはプレーンテキストバージョンを受信することになります。
+現在、AMP フォーマットは、Gmail と Mail.ru でのみ、特定の条件下でサポートされています。他のメールプロバイダーからのアドレスをターゲットにすることはできますが、メールの HTML またはプレーンテキストバージョンを受信することになります。
 
 >[!IMPORTANT]
 >
->AMP コンテンツに加えて HTML またはプレーンテキストバージョンが E メールに含まれていない場合、その E メールは送信できません。
+>AMP コンテンツに加えて HTML またはプレーンテキストバージョンがメールに含まれていない場合、そのメールは送信できません。
 
-合致する受信者は、メールボックスに E メールの AMP バージョンが表示されます。
+合致する受信者は、メールボックスにメールの AMP バージョンが表示されます。
 
-例えば、E メールに製品リストを含めた場合、サードパーティ製システムで価格を編集すると、受信者がメールボックスで E メールを再び開くたびに、価格が自動的に調整されます。
+例えば、メールに製品リストを含めた場合、サードパーティ製システムで価格を編集すると、受信者がメールボックスでメールを再び開くたびに、価格が自動的に調整されます。
 
 >[!NOTE]
 >
->特定のドメインが AMP E メールを受信するのを防ぐためのメール処理ルールを作成できます。[E メールフォーマットの管理](../../installation/using/email-deliverability.md#managing-email-formats)を参照してください。
+>特定のドメインが AMPメールを受信するのを防ぐためのメール処理ルールを作成できます。[メールフォーマットの管理](../../installation/using/email-deliverability.md#managing-email-formats)を参照してください。
 >
 >デフォルトでは、「**[!UICONTROL AMP インクルージョン]**」オプションは「**[!UICONTROL いいえ]**」に設定されています。
 

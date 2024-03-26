@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 source-git-commit: 52dcc8c01c5ce2421bfb59235bd0e458e7c8122f
-workflow-type: ht
-source-wordcount: '851'
+workflow-type: tm+mt
+source-wordcount: '850'
 ht-degree: 100%
 
 ---

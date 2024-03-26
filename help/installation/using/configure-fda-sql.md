@@ -7,8 +7,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にの
 exl-id: 65ab4577-3126-4579-8fcc-e93772ebd1e8
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 11%
+source-wordcount: '514'
+ht-degree: 9%
 
 ---
 
@@ -91,11 +91,11 @@ ht-degree: 11%
 
 1. を設定します。 **[!UICONTROL Microsoft SQL Server]** 外部アカウント認証：
 
-   * **[!UICONTROL サーバー]**：[!DNL Microsoft SQL Server] サーバーの URL.
+   * **[!UICONTROL サーバー]**：の URL [!DNL Microsoft SQL Server] サーバー。
 
-   * **[!UICONTROL アカウント]**：ユーザーの名前.
+   * **[!UICONTROL アカウント]**：ユーザーの名前。
 
-   * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード.
+   * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード。
 
    * **[!UICONTROL データベース]**：データベースの名前（オプション）。
 

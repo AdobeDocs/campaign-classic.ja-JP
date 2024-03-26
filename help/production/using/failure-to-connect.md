@@ -11,8 +11,8 @@ topic-tags: troubleshooting
 exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 10%
+source-wordcount: '377'
+ht-degree: 7%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 10%
 <thead> 
 <tr> 
 <th>チェック<br /> </th> 
-<th>解決策<br /> </th> 
+<th>解像度<br /> </th> 
 </tr> 
 </thead> 
 <tbody> 

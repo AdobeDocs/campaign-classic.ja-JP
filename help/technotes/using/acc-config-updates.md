@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: テクニカルノート - Adobe Campaign 設定の更新
+title: テクニカルノート — Adobe Campaign設定の更新
 description: Adobe Campaign 設定の更新
 feature: Technote, Upgrade
 badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
@@ -9,8 +9,8 @@ hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 インフラストラクチャと設定を定期的に更新して、最新のビルドと製品の修正を反映するようにしてください。 これらの修正は、サービスとセキュリティの継続性を確保するために必要です。 さらに、サードパーティによる変更に合わせてアップグレードする必要もあります。
 
-アドビは、**ホステッドサービスまたはマネージドサービスのお客様**&#x200B;には、ビルドのアップグレードについて定期的に通知します。 コンプライアンスを確保するために、推奨事項に従ってアップグレードする必要があります。
+アドビは、**ホステッドサービスまたはマネージドサービスのお客様**&#x200B;には、ビルドのアップグレードについて定期的に通知します。 コンプライアンスを確保するために、レコメンデーションに従ってアップグレードする必要があります。
 
 **オンプレミスまたはハイブリッドのお客様**&#x200B;は、リリースされた最新のビルドに合わせて、実装を定期的にアップグレードしてください。
 
@@ -134,7 +134,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../../integrations
 
 ### HTTP/2 ベースの APNs プロバイダー API
 
-**2021 年 3 月 31 日**&#x200B;以降、Apple Push Notification サービス（APNs）は、従来のバイナリプロトコルをサポートしません。 [詳細情報](https://developer.apple.com/jp/news/?id=c88acm2b)。
+**2021年3月31日**&#x200B;以降、Apple Push Notification サービス（APNs）は、従来のバイナリプロトコルをサポートしません。[詳細情報](https://developer.apple.com/jp/news/?id=c88acm2b)。
 
 **影響の有無**
 
@@ -150,7 +150,7 @@ Adobe Identity Management サービス（IMS）を通じて ](../../integrations
 
 ### APN ルート証明書の更新
 
-2021 年 3 月 29 日、Apple Push Notification サービス（APNs）インフラストラクチャのアップデートにより Adobe Campaign Classic iOS チャネルに影響が生じました。iOS のプッシュチャネルの停止を回避するには、OS 設定の変更が&#x200B;**必須**&#x200B;です。
+2021年3月29日、Apple Push Notification サービス（APNs）インフラストラクチャのアップデートにより Adobe Campaign Classic iOS チャネルに影響が生じました。iOS のプッシュチャネルの停止を回避するには、OS 設定の変更が&#x200B;**必須**&#x200B;です。
 
 APNs 変更の詳細については、[このページ](https://developer.apple.com/news/?id=7gx0a2lp)を参照してください。
 

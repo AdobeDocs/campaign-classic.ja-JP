@@ -8,7 +8,7 @@ feature: A/B Testing
 role: User
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # A/B テスト：ターゲティングワークフローを作成 {#step-1--creating-a-targeting-workflow}
 
-キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブでワークフローを作成する必要があります。このワークフローは、1 つの「**[!UICONTROL クエリ]**」アクティビティ、2 つの「**[!UICONTROL E メール配信]**」アクティビティとリンクした 1 つの「**[!UICONTROL 分割]**」アクティビティ、1 つの「**[!UICONTROL 待機]**」アクティビティ、1 つの「**[!UICONTROL JavaScript コード]**」アクティビティ、1 つの「**[!UICONTROL 配信]**」アクティビティから構成されます。
+キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブでワークフローを作成する必要があります。このワークフローは、1 つの「**[!UICONTROL クエリ]**」アクティビティ、2 つの「**[!UICONTROL メール配信]**」アクティビティとリンクした 1 つの「**[!UICONTROL 分割]**」アクティビティ、1 つの「**[!UICONTROL 待機]**」アクティビティ、1 つの「**[!UICONTROL JavaScript コード]**」アクティビティ、1 つの「**[!UICONTROL 配信]**」アクティビティから構成されます。
 
 1. まだ作成していない場合は、キャンペーンを作成します（詳しくは、[この節](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)を参照してください）。
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
    ![](assets/use_case_abtesting_targetwkfl_003.png)
 
-1. マウスを使用してワークフローダイアグラムにアクティビティをドラッグ＆ドロップします。対象となるアクティビティには、1 つの&#x200B;**[!UICONTROL クエリ]**&#x200B;アクティビティ（「**[!UICONTROL ターゲット]**」タブ）、1 つの&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティ（「**[!UICONTROL ターゲット]**」タブ）、2 つの **[!UICONTROL E メール配信]**&#x200B;アクティビティ（「**[!UICONTROL 配信]**」タブ）、1 つの&#x200B;**[!UICONTROL 待機]**&#x200B;アクティビティ（「**[!UICONTROL フロー制御]**」タブ）、1 つの **[!UICONTROL JavaScript コード]**&#x200B;アクティビティ（「**[!UICONTROL アクション]**」タブ）、1 つの&#x200B;**[!UICONTROL 配信]**&#x200B;アクティビティ（「**[!UICONTROL アクション]**」タブ）などがあります。
+1. マウスを使用してワークフローダイアグラムにアクティビティをドラッグ＆ドロップします。対象となるアクティビティには、1 つの「**[!UICONTROL クエリ]**」アクティビティ（「**[!UICONTROL ターゲット]**」タブ）、1 つの「**[!UICONTROL 分割]**」アクティビティ（「**[!UICONTROL ターゲット]**」タブ）、2 つの「**[!UICONTROL メール配信]**」アクティビティ（「**[!UICONTROL 配信]**」タブ）、1 つの「**[!UICONTROL 待機]**」アクティビティ（「**[!UICONTROL フロー制御]**」タブ）、1 つの「**[!UICONTROL JavaScript コード]**」アクティビティ（「**[!UICONTROL アクション]**」タブ）、1 つの「**[!UICONTROL 配信]**」アクティビティ（「**[!UICONTROL アクション]**」タブ）などがあります。
 
 ![](assets/use_case_abtesting_targetwkfl_004.png)
 

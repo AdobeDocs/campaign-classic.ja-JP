@@ -8,7 +8,7 @@ feature: Reporting, Monitoring
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '803'
 ht-degree: 100%
 
 ---
@@ -33,10 +33,10 @@ ht-degree: 100%
 
 ![](assets/s_ncs_user_indicators_example_1.png)
 
-* **[!UICONTROL John Davis]**：この受信者は E メールを開封していません（したがって、リンクもクリックしていません）。
-* **[!UICONTROL Marie Stuart]**：E メールを開封しましたが、リンクはクリックしていません。
-* **[!UICONTROL Florian David]**：E メールを開封してリンクを 9 回クリックしました。また、この E メールを他のユーザーに転送し、このユーザーが E メールを開封してリンクを 2 回クリックしました。
-* **[!UICONTROL Henry Macdonald]**：この受信者は、インターネットブラウザーで cookie を拒否するように設定しています。E メールを開封してリンクを 4 回クリックしました。
+* **[!UICONTROL John Davis]**：この受信者はメールを開封していません（したがって、リンクもクリックしていません）。
+* **[!UICONTROL Marie Stuart]**：メールを開封しましたが、リンクはクリックしていません。
+* **[!UICONTROL Florian David]**：メールを開封してリンクを 9 回クリックしました。また、このメールを他のユーザーに転送し、このユーザーがメールを開封してリンクを 2 回クリックしました。
+* **[!UICONTROL Henry Macdonald]**：この受信者は、インターネットブラウザーで cookie を拒否するように設定しています。メールを開封してリンクを 4 回クリックしました。
 
 次のトラッキングログが返されます。
 
@@ -46,11 +46,11 @@ ht-degree: 100%
 
 ## 手順 1：John {#step-1--john}
 
-**[!UICONTROL John Davis]** は E メールを開封していません（したがって、リンクもクリックしていません）。
+**[!UICONTROL John Davis]** はメールを開封していません（したがって、リンクもクリックしていません）。
 
 ![](assets/s_ncs_user_indicators_example_8.png)
 
-John は E メールを開封しておらずクリックもしていないので、ログには表示されません。
+John はメールを開封しておらずクリックもしていないので、ログには表示されません。
 
 **中間計算：**
 
@@ -61,7 +61,7 @@ John は E メールを開封しておらずクリックもしていないので
 
 ## 手順 2：Marie {#step-2--marie}
 
-**[!UICONTROL Marie Stuart]** は E メールを開封しましたが、リンクはクリックしていません。
+**[!UICONTROL Marie Stuart]** はメールを開封しましたが、リンクはクリックしていません。
 
 ![](assets/s_ncs_user_indicators_example_7.png)
 
@@ -81,7 +81,7 @@ Marie の開封は次のログに表示されています。
 
 ## 手順 3：Florian {#step-3--florian}
 
-**[!UICONTROL Florian David]** は、E メールを開封してリンクを 9 回クリックしました。また、この E メールを他のユーザーに転送し、このユーザーが E メールを開封してリンクを 2 回クリックしました。
+**[!UICONTROL Florian David]** は、メールを開封してリンクを 9 回クリックしました。また、このメールを他のユーザーに転送し、このユーザーがメールを開封してリンクを 2 回クリックしました。
 
 ![](assets/s_ncs_user_indicators_example_9.png)
 
@@ -102,11 +102,11 @@ Florian のアクション（1 回の開封と 9 回のクリック）は、次�
 | Florian | +1 | +1 | +1 |
 | 小計 | 1 | 1 | 2 |
 
-次のログは、Florian が E メールを転送したユーザーによって実行された開封および 2 回のクリックと一致します。
+次のログは、Florian がメールを転送したユーザーによって実行された開封および 2 回のクリックと一致します。
 
 ![](assets/s_ncs_user_indicators_example_6bis.png)
 
-**受信者**：開封とクリックは E メールを転送した受信者（Florian）に割り当てられています。この受信者は既にカウントされているので、受信者のカウントは同じままです。
+**受信者**：開封とクリックはメールを転送した受信者（Florian）に割り当てられています。この受信者は既にカウントされているので、受信者のカウントは同じままです。
 
 ![](assets/s_ncs_user_indicators_example_12.png)
 
@@ -126,7 +126,7 @@ Florian のアクション（1 回の開封と 9 回のクリック）は、次�
 
 ## 手順 4：Henry {#step-4--henry}
 
-**[!UICONTROL Henry Macdonald]** は、インターネットブラウザーで cookie を拒否するように設定しています。E メールを開封してリンクを 4 回クリックしました。
+**[!UICONTROL Henry Macdonald]** は、インターネットブラウザーで cookie を拒否するように設定しています。メールを開封してリンクを 4 回クリックしました。
 
 ![](assets/s_ncs_user_indicators_example_10.png)
 

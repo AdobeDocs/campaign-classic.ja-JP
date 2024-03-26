@@ -11,8 +11,8 @@ topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
 source-git-commit: 624978901943b4c74f50c20298c9596f73b25b1b
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 5%
+source-wordcount: '1287'
+ht-degree: 4%
 
 ---
 
@@ -475,7 +475,7 @@ function sqlGetMemo(strSql)
 >
 >この設定はオプションです。
 
-「**WdbcOptions_TempDbName**」オプションを使用すると、Microsoft SQL Server 上で、ワークテーブル向けに別のデータベースを構成できます。これにより、バックアップとレプリケーションを最適化できます。
+「**WdbcOptions_TempDbName**」オプションを使用すると、Microsoft SQL Server 上で、ワークテーブル向けに別のデータベースを構成できます。これにより、バックアップとレプリケーションが最適化されます。
 
 このオプションは、作業用テーブル（ワークフローの実行中に作成されたテーブルなど）を別のデータベースで作成する場合に使用できます。
 

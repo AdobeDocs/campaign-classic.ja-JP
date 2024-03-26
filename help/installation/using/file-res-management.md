@@ -11,8 +11,8 @@ topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 4%
+source-wordcount: '659'
+ht-degree: 3%
 
 ---
 
@@ -123,7 +123,7 @@ FTP/FTPS 接続は、proxyFTP パラメーターで定義されます。
 
 ## パブリックリソースの管理 {#managing-public-resources}
 
-キャンペーンに関連する E メールやパブリックリソースで使用される画像を公開するには、外部からアクセス可能なサーバー上に存在する必要があります。 その後、外部の受信者やオペレーターが使用できるようになります。 [詳細情報](../../installation/using/deploying-an-instance.md#managing-public-resources)
+キャンペーンに関連する E メールやパブリックリソースで使用される画像を公開するには、外部からアクセス可能なサーバー上に存在する必要があります。 その後、外部の受信者やオペレーターが使用できるようになります。 [詳細情報](../../installation/using/deploying-an-instance.md#managing-public-resources)。
 
 パブリックリソースは、 **/var/res/instance** Adobe Campaignインストールディレクトリのディレクトリ。
 

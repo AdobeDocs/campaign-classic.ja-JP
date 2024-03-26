@@ -7,8 +7,8 @@ feature: Reporting, Monitoring
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3028'
-ht-degree: 100%
+source-wordcount: '3098'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
   <tr> 
    <td> クリック数<br /> </td> 
    <td> @clicks<br /> </td> 
-   <td> URL タイプが「E メールのクリック」に等しいすべての @totalClicks の合計。<br /> </td> 
+   <td> URL タイプが「メールのクリック」に等しいすべての @totalClicks の合計。<br /> </td> 
    <td> sum(Iif([url/@type] = 1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
@@ -231,7 +231,7 @@ ht-degree: 100%
    <td> sum([indicators/@success])<br /> </td> 
   </tr> 
   <tr> 
-   <td> E メール<br /> </td> 
+   <td> メール<br /> </td> 
    <td> @email<br /> </td> 
    <td> URL カテゴリが「email」に等しいすべての @totalClicks の合計。<br /> </td> 
    <td> Sum(iIf([url/@category]='email',@totalClicks,0))<br /> </td> 
@@ -524,13 +524,13 @@ ht-degree: 100%
   <tr> 
    <td> リーチした母集団のユニーク開封数<br /> </td> 
    <td> @estimatedRecipientOpen<br /> </td> 
-   <td> HTML 形式の E メールのユニーク開封数を基に推定算出した、すべての E メールのユニーク開封数。<br /> </td> 
+   <td> HTML 形式のメールのユニーク開封数を基に推定算出した、すべてのメールのユニーク開封数。<br /> </td> 
    <td> Iif(([@toDeliver] - [@text]) = 0, 0, round(toDouble(@recipientOpen) * [@toDeliver] / ([@toDeliver] - [@text]), 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> リーチした母集団の開封数の合計<br /> </td> 
    <td> @estimatedTotalRecipientOpen<br /> </td> 
-   <td> HTML 形式の E メールの開封合計数を基に推定算出した、すべての E メールの開封合計数。<br /> </td> 
+   <td> HTML 形式のメールの開封合計数を基に推定算出した、すべてのメールの開封合計数。<br /> </td> 
    <td> Iif(([@toDeliver] - [@text]) = 0, 0, round(toDouble(@totalRecipientOpen) * [@toDeliver] / ([@toDeliver] - [@text]), 0))<br /> </td> 
   </tr> 
   <tr> 
@@ -548,7 +548,7 @@ ht-degree: 100%
   <tr> 
    <td> 推定転送数<br /> </td> 
    <td> @forward<br /> </td> 
-   <td> ユニークユーザーの数と E メールを少なくとも 1 回クリックしたユニーク受信者の数の差。<br /> </td> 
+   <td> ユニークユーザーの数とメールを少なくとも 1 回クリックしたユニーク受信者の数の差。<br /> </td> 
    <td> @personClick - @recipientClick<br /> </td> 
   </tr> 
   <tr> 
@@ -572,7 +572,7 @@ ht-degree: 100%
   <tr> 
    <td> クリック数<br /> </td> 
    <td> @recipientClick<br /> </td> 
-   <td> URL タイプが「E メールのクリック」に等しい @broadLog-ids のユニークカウント数。<br /> </td> 
+   <td> URL タイプが「メールのクリック」に等しい @broadLog-ids のユニークカウント数。<br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @broadLog-id, 0))<br /> </td> 
   </tr> 
   <tr> 
@@ -584,19 +584,19 @@ ht-degree: 100%
   <tr> 
    <td> リーチした母集団のユニーククリック数<br /> </td> 
    <td> @personClick<br /> </td> 
-   <td> URL カテゴリが「E メールのクリック」に等しいすべての @source-ids の数。<br /> </td> 
+   <td> URL カテゴリが「メールのクリック」に等しいすべての @source-ids の数。<br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> 累積クリック数<br /> </td> 
    <td> @totalRecipientClick<br /> </td> 
-   <td> URL カテゴリが「E メールのクリック」に等しいすべての @ids の数。<br /> </td> 
+   <td> URL カテゴリが「メールのクリック」に等しいすべての @ids の数。<br /> </td> 
    <td> count(Iif([url/@type]=1, @id, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> 受信者のクリック数<br /> </td> 
    <td> @recipientClick<br /> </td> 
-   <td> URL タイプが「E メールのクリック」に等しい @broadLog-ids のユニークカウント数。<br /> </td> 
+   <td> URL タイプが「メールのクリック」に等しい @broadLog-ids のユニークカウント数。<br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @broadLog-id, 0))<br /> </td> 
   </tr> 
   <tr> 
@@ -648,7 +648,7 @@ ht-degree: 100%
    <td> div(@amount, @toDeliver)<br /> </td> 
   </tr> 
   <tr> 
-   <td> E メール<br /> </td> 
+   <td> メール<br /> </td> 
    <td> @email<br /> </td> 
    <td> URL カテゴリが「email」に等しいすべての @totalClicks の合計。<br /> </td> 
    <td> Sum(iIf([url/@category]='email',@totalClicks,0))<br /> </td> 
@@ -728,7 +728,7 @@ ht-degree: 100%
    <td> クリック数<br /> </td> 
    <td> @_click<br /> </td> 
    <td> URL のプライマリキーが 1 ではないすべての @totalClicks の数。<br /> </td> 
-   <td> count(Iif([@url-id] != 1, @totalClicks, 0))<br /> </td> 
+   <td> count(Iif([@url-id]) != 1, @totalClicks, 0)<br /> </td> 
   </tr> 
   <tr> 
    <td> クリック（％）<br /> </td> 
@@ -821,7 +821,7 @@ ht-degree: 100%
   <tr> 
    <td> クリック数<br /> </td> 
    <td> @clicks<br /> </td> 
-   <td> URL タイプが「E メールのクリック」に等しいすべての @totalClicks の合計。<br /> </td> 
+   <td> URL タイプが「メールのクリック」に等しいすべての @totalClicks の合計。<br /> </td> 
    <td> sum(Iif([url/@type] = 1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
@@ -848,7 +848,7 @@ ht-degree: 100%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 処理済みの E メール<br /> </td> 
+   <td> 処理済みのメール<br /> </td> 
    <td> @processed<br /> </td> 
    <td> ステータスが「準備済み」、「送信済み」または「失敗」に等しいメッセージの合計数。<br /> </td> 
    <td> @prepared + @error + @success<br /> </td> 
@@ -880,7 +880,7 @@ ht-degree: 100%
   <tr> 
    <td> クリック数<br /> </td> 
    <td> @personClick<br /> </td> 
-   <td> URL カテゴリが「E メールのクリック」に等しい @source-ids の合計数。<br /> </td> 
+   <td> URL カテゴリが「メールのクリック」に等しい @source-ids の合計数。<br /> </td> 
    <td> Countdistinct(Iif([url/@type]=1, @source-id, 0)) <br /> </td> 
   </tr> 
   <tr> 
@@ -927,7 +927,7 @@ ht-degree: 100%
 
 ## 開封数のトラッキング {#tracking-opens-}
 
-Adobe Campaign でメッセージの開封を検出するためには、受信者が電子メールで画像をダウンロードする必要があります。HTML およびマルチパート／オルタナティブの E メールには 0 ピクセルの画像が含まれており、これによって開封されたメッセージを検出できるようになります。テキスト形式のメッセージは画像を含まないので、開封されたかどうかを検出することは不可能です。メッセージの開封数に基づいて計算される値は、画像表示にリンクされる誤差があるので、常に推定値です。
+Adobe Campaign でメッセージの開封を検出するためには、受信者が電子メールで画像をダウンロードする必要があります。HTML およびマルチパート／オルタナティブのメールには 0 ピクセルの画像が含まれており、これによって開封されたメッセージを検出できるようになります。テキスト形式のメッセージは画像を含まないので、開封されたかどうかを検出することは不可能です。メッセージの開封数に基づいて計算される値は、画像表示にリンクされる誤差があるので、常に推定値です。
 
 ## ターゲットユーザー／ターゲット受信者 {#targeted-persons---recipients}
 
@@ -935,6 +935,6 @@ Adobe Campaign の一部のレポートでは、ターゲットユーザーと�
 
 ターゲット受信者とは、配信が送信されるすべての受信者を指します。
 
-ユーザー数には、ターゲット受信者と、E メールが転送されたすべてのユーザーが含まれます。新しいブラウザー（まだメッセージが開封されていない）で開封またはクリックがおこなわれるたびに、もう 1 人のユーザーが統計に追加されます。
+ユーザー数には、ターゲット受信者と、メールが転送されたすべてのユーザーが含まれます。新しいブラウザー（まだメッセージが開封されていない）で開封またはクリックがおこなわれるたびに、もう 1 人のユーザーが統計に追加されます。
 
-例えば、（Adobe Campaign によって送信された）E メールを職場で受信し、それを開封してクリックすると、1 人のターゲット受信者としてカウントされます（recipient=1、person=1）。この E メールを 2 人の友人に転送する場合、ターゲット受信者の数は 1 ですが、ユーザー数は 3 になります。3 という値は、新しいブラウザーでのそれぞれの開封数／クリック数と一致します。
+例えば、（Adobe Campaign によって送信された）メールを職場で受信し、それを開封してクリックすると、1 人のターゲット受信者としてカウントされます（recipient=1、person=1）。このメールを 2 人の友人に転送する場合、ターゲット受信者の数は 1 ですが、ユーザー数は 3 になります。3 という値は、新しいブラウザーでのそれぞれの開封数／クリック数と一致します。

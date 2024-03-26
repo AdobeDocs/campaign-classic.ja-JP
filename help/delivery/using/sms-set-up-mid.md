@@ -6,8 +6,9 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用�
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: SMS
 role: User, Developer, Admin
-source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
-workflow-type: ht
+exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
+source-git-commit: 46dcd80d5adc31a66b47c6d75e7914b0a686326b
+workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 100%
 
@@ -187,4 +188,3 @@ SMS チャネル経由でメッセージを送信するには、チャネルコ�
 * [SMS 文字の表記変換](sms-set-up.md#about-character-transliteration)
 * [テキストエンコーディング](sms-set-up.md#about-text-encodings)
 * [自動返信](sms-set-up.md#automatic-reply)
-

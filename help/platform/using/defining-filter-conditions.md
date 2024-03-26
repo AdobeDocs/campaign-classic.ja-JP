@@ -11,7 +11,7 @@ topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3406'
+source-wordcount: '3475'
 ht-degree: 100%
 
 ---
@@ -80,12 +80,12 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">次を含む</span> <br /> </td> 
    <td> 入力された値を含む結果を返します。<br /> </td> 
-   <td> <strong>E メールドメイン（@domain）が「mail」を含む</strong>は、「mail」を含むすべてのドメイン名を返します。したがって、「gmail.com」ドメインも返されます。<br /> </td> 
+   <td> <strong>メールドメイン（@domain）が「mail」を含む</strong>は、「mail」を含むすべてのドメイン名を返します。したがって、「gmail.com」ドメインも返されます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">次を含まない</span> <br /> </td> 
    <td> 入力された値を含まない結果を返します。<br /> </td> 
-   <td> <strong>E メールドメイン（@domain）が「vo」を含まない</strong>。この場合、「vo」を含むドメイン名は返されません。結果には「Voila.jp」ドメイン名は表示されません。<br /> </td> 
+   <td> <strong>メールドメイン（@domain）が「vo」を含まない</strong>。この場合、「vo」を含むドメイン名は返されません。結果には「Voila.jp」ドメイン名は表示されません。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">次に類似</span> <br /> </td> 
@@ -105,7 +105,7 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">空でない</span> <br /> </td> 
    <td> 「<span class="uicontrol">空である</span>」演算子の逆の機能です。2 番目の「値」列にあるデータを入力する必要はありません。<br /> </td> 
-   <td> <strong>E メール（@email）は空でない</strong>。<br /> </td> 
+   <td> <strong>メール（@email）は空でない</strong>。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">次に含まれる</span> <br /> </td> 
@@ -135,13 +135,13 @@ ht-degree: 100%
 * **[!UICONTROL および]**：条件を追加し、オーバーフィルターが可能です。
 * **[!UICONTROL または]**：条件を追加し、オーバーフィルターが可能です。
 
-  次の例では、E メールドメインに「orange.co.jp」が含まれているか、郵便番号が「123」で始まる受信者を検索できます。
+  次の例では、メールドメインに「orange.co.jp」が含まれているか、郵便番号が「123」で始まる受信者を検索できます。
 
   ![](assets/query_condition_modif_02.png)
 
 * **[!UICONTROL 例外]**：2 つのフィルターがあり、最初のフィルターで値が返されない場合、このタイプのリンクでは例外が作成されます。
 
-  次の例では、E メールドメインに「orange.co.jp」が含まれている受信者が返されますが、受信者の姓が「田中」である場合を除きます。
+  次の例では、メールドメインに「orange.co.jp」が含まれている受信者が返されますが、受信者の姓が「田中」である場合を除きます。
 
   ![](assets/query_condition_modif_03.png)
 
@@ -172,7 +172,7 @@ ht-degree: 100%
 
 使用可能フィールドはテーブルごとに異なります。すべてのフィールドは、**[!UICONTROL メイン要素]**&#x200B;と呼ばれるメインノードに保存されます。次の例では、使用可能フィールドは受信者テーブルにあります。フィールドは常にアルファベット順に表示されます。
 
-選択したフィールドの詳細がウィンドウの下部に表示されます。例えば、「**[!UICONTROL E メールドメイン]**」フィールドは「**[!UICONTROL SQL 計算フィールド]**」であり、拡張は&#x200B;**[!UICONTROL （@domain）]**&#x200B;です。
+選択したフィールドの詳細がウィンドウの下部に表示されます。例えば、「**[!UICONTROL メールドメイン]**」フィールドは「**[!UICONTROL SQL 計算フィールド]**」であり、拡張は&#x200B;**[!UICONTROL （@domain）]**&#x200B;です。
 
 ![](assets/query_editor_nveau_59.png)
 
@@ -206,7 +206,7 @@ ht-degree: 100%
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_47.png" /> </td> 
    <td> 単純フィールド<br /> </td> 
-   <td> E メール、性別など<br /> </td> 
+   <td> メール、性別など<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_48.png" /> </td> 
@@ -221,7 +221,7 @@ ht-degree: 100%
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_46.png" /> </td> 
    <td> 計算フィールド。このタイプのフィールドは、リクエストに応じてデータベース内の値を使用して計算されます。<br /> </td> 
-   <td> 年齢、E メールドメインなど。<br /> </td> 
+   <td> 年齢、メールドメインなど。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_49.png" /> </td> 
@@ -946,7 +946,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
-   <td> E メールアドレスからドメインを抽出します<br /> </td> 
+   <td> メールアドレスからドメインを抽出します<br /> </td> 
    <td> GetEmailDomain(&lt;値&gt;)<br /> </td>  
   </tr> 
   <tr> 

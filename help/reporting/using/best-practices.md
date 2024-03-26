@@ -7,7 +7,7 @@ badge: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適�
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 1. コンテンツの定義
 
-   次に、配信指標、データベースプロファイルに関するレポートなど、表示したいデータのタイプを割り出す必要があります。
+   次に、配信達成度、データベースプロファイルに関するレポートなど、表示したいデータのタイプを割り出す必要があります。
 
    また、このデータの特性（単純、計算結果、重要など）、データの場所（Adobe Campaign 内、サードパーティシステム内）、計算周期を定義するためのデータ更新頻度（毎日、毎週、不定期）およびデータ量も把握する必要があります。
 
@@ -93,7 +93,7 @@ if(string(ctx@_historyId)!==""))
 
 ### パフォーマンス {#performances}
 
-上記の推奨事項に従うことで、レポートの計算を最適化できます。
+上記のレコメンデーションに従うことで、レポートの計算を最適化できます。
 
 さらに、Adobe Campaign では、次の改善を推奨します。
 

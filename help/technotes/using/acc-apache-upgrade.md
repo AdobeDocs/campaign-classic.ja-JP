@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 100%
+source-wordcount: '529'
+ht-degree: 97%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Campaign チームは、**2022年6月15日**（PT）までに、Apache バ
 
 * **顧客側ではどのような検証を行う必要がありますか？**
 
-  このセキュリティアップグレードでは、特に必要なテストはありません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)にお問い合わせください。。
+  このセキュリティアップグレードでは、特に必要なテストはありません。問題が見つかった場合は、 [Adobeカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support).
 
 
 * **セキュリティアップグレードの時間枠をスケジュールした後に日時の変更をリクエストできますか？**

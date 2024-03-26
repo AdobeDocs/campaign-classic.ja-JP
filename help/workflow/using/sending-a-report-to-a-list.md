@@ -7,7 +7,7 @@ feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '735'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## 手順 2：配信テンプレートの作成 {#step-2--creating-the-delivery-template}
 
-1. Adobe Campaign エクスプローラーで、**[!UICONTROL リソース／テンプレート／配信テンプレート]**&#x200B;ノードに移動し、標準の「**[!UICONTROL E メール配信]**」テンプレートを複製します。
+1. Adobe Campaign エクスプローラーで、**[!UICONTROL リソース／テンプレート／配信テンプレート]**&#x200B;ノードに移動し、標準の「**[!UICONTROL メール配信]**」テンプレートを複製します。
 
    ![](assets/use_case_report_2.png)
 

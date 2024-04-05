@@ -7,10 +7,10 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 4e99ec73f99264e91ca427542e29bd42da88a3f9
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '559'
+ht-degree: 95%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL レポートへのアクセス]**
 
-   このグループは、Web アクセス経由で配信レポートにアクセスする外部のオペレーター向けに予約されています。
+   このグループは、特定のオペレーターに対して Campaign ダッシュボードのレポートアイコン、スケジュールアイコン、フォーラムアイコンを有効にするための外部オペレーター向けに予約されています。
 
 1. **[!UICONTROL ワークフローの実行]**
 

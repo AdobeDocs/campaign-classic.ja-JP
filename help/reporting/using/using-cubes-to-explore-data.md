@@ -2,15 +2,14 @@
 product: campaign
 title: キューブを使用してデータを調べる
 description: キューブを使用してデータを調べる
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Reporting, Monitoring
 hide: true
 hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1009'
 ht-degree: 97%
 
 ---
@@ -100,7 +99,7 @@ ht-degree: 97%
 
    次に、測定のラベルを表示するかどうかを選択できます。詳しくは、[表示の設定](../../reporting/using/concepts-and-methodology.md#configuring-the-display)を参照してください。
 
-1. 既存の測定を使用して新しい測定を作成できます。 それには、「**[!UICONTROL 測定を作成]**」をクリックし、測定を設定します。
+1. 既存の測定を使用して、新しい測定を作成できます。 それには、「**[!UICONTROL 測定を作成]**」をクリックし、測定を設定します。
 
    ![](assets/s_advuser_cube_in_report_config_02a.png)
 

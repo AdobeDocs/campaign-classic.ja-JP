@@ -2,15 +2,14 @@
 product: campaign
 title: シードアドレスの作成
 description: シードアドレスの作成方法と使用方法を学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Seed Address
 role: User, Data Engineer
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 99%
 
 ---
 

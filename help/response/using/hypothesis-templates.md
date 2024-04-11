@@ -3,16 +3,15 @@ product: campaign
 title: 仮説テンプレート
 description: Campaign Response Manager で仮説テンプレートを作成する方法について説明します。
 feature: Campaigns, Templates
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 100%
+source-wordcount: '1516'
+ht-degree: 99%
 
 ---
 

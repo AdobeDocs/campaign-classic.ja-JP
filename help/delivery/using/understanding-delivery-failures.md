@@ -2,14 +2,13 @@
 product: campaign
 title: 配信の失敗について
 description: 配信失敗を理解する方法を学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 8b0162680d6a3a2d4891d1f71020b44b28046ad7
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2618'
 ht-degree: 98%
 
 ---
@@ -166,7 +165,7 @@ ht-degree: 98%
    <td> 未到達 </td> 
    <td> ソフト／ハード </td> 
    <td> 3 </td> 
-   <td> メッセージ配信チェーンでエラーが発生しました。SMTP リレーに関するインシデント、ドメインへの一時的な未到達などの可能性があります。 アドレスは、エラーに応じて、エラーカウンターが 5 に達するまで再試行されるか、直接強制隔離されます。<br /> </td> 
+   <td> メッセージ配信チェーンでエラーが発生しました。SMTP リレーでのインシデント、一時的に到達できないドメインなどが発生する可能性があります。 アドレスは、エラーに応じて、エラーカウンターが 5 に達するまで再試行されるか、直接強制隔離されます。<br /> </td> 
   </tr> 
   <tr> 
    <td> 不明なユーザー </td> 
@@ -244,7 +243,7 @@ Adobe Campaign プラットフォームでは、バウンスメール機能を�
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
-Adobe Campaignは、このメッセージをフィルター処理して、変数コンテンツ（ID、日付、E メールアドレス、電話番号など）を フィルターを適用した結果を **[!UICONTROL テキスト]** 列。 変数は、**`#xxx#`** で置き換えられます（ただし、アドレスは **`*`** で置き換えられます）。
+Adobe Campaignでは、このメッセージをフィルタリングして、様々なコンテンツ（ID、日付、メールアドレス、電話番号など）を削除します。 フィルタリングした結果を次の URL に表示 **[!UICONTROL テキスト]** 列。 変数は、**`#xxx#`** で置き換えられます（ただし、アドレスは **`*`** で置き換えられます）。
 
 このプロセスで同じタイプのすべてのエラーをまとめることにより、同じようなエラーの複数のエントリが配信ログの検証テーブルに含まれないようにすることができます。
 

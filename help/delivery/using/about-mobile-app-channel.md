@@ -2,15 +2,14 @@
 product: campaign
 title: モバイルアプリチャネルの基本を学ぶ
 description: Adobe Campaign でのモバイルアプリチャネルの基本を学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Push
 role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: 92c79e7050124bc707f4d6b87c7952016586002c
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 100%
+source-wordcount: '684'
+ht-degree: 99%
 
 ---
 

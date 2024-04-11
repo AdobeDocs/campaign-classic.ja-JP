@@ -2,14 +2,13 @@
 product: campaign
 title: web フォームレイアウトの定義
 description: web フォームレイアウトの定義
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Web Forms
 exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 96%
+source-wordcount: '538'
+ht-degree: 95%
 
 ---
 
@@ -41,7 +40,7 @@ ht-degree: 96%
 
 Web フォームのレイアウトは、各コンテナでページごとに定義され、必要に応じてオーバーロードできます。
 
-ページは列に分類されます。各ページには、一定数の列が含まれます。ページの各フィールドは、**n** 個のセルを占有します。また、コンテナは一定数の列を占有し、それらに含まれるフィールドは一定数のセルを占有します。
+ページは列に分類されます。各ページには、一定数の列が含まれます。ページの各フィールドは、**n** 個のセルを占有します。コンテナも特定の数の列を占有し、コンテナに含まれるフィールドも特定の数のセルを占有します。
 
 デフォルトでは、ページは単一の列で構築され、各要素が 1 つのセルを占有します。これは、次に示すように、フィールドが別のフィールドの下に表示され、各フィールドが行全体を占めることを意味します。
 

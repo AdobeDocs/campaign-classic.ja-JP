@@ -4,12 +4,11 @@ title: フォームの構造
 description: フォームの構造
 feature: Application Settings
 role: Data Engineer, Developer
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2416'
 ht-degree: 89%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 89%
 
 フォームは、構造化された XML 文書として記述され、フォームスキーマ **xtk:form** の文法に従います。
 
-入力フォームの XML ドキュメントには、 `<form>` ルート要素 **名前** および **名前空間** 属性を使用して、フォームの名前と名前空間を設定します。
+入力フォームの XML ドキュメントには、以下が含まれている必要があります。 `<form>` ルート要素 **名前** および **名前空間** フォーム名と名前空間を設定する属性。
 
 ```xml
 <form name="form_name" namespace="name_space">
@@ -64,7 +63,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->データスキーマで定義されたラベルをオーバーロードするには、 **ラベル** 属性 `<input>` 要素：\
+>データスキーマで定義されたラベルをオーバーロードするには、 **ラベル** の属性 `<input>` 要素：\
 >`<input label="Email address" xpath="@name" />`
 
 デフォルトでは、各フィールドが 1 行に表示され、データのタイプに応じて、すべての空きスペースを占有します。
@@ -139,7 +138,7 @@ ht-degree: 89%
 
 コンテナを使用すると、一連のコントロールをグループ化できます。これらは **`<container>`** 要素で表されます。コンテナは、複数の列のコントロールを書式設定する際に使用します。
 
-`<container>` の **xpath** 属性を使用すると、子コントロールを簡単に参照できます。 コントロールの参照は親に対して相対的に行われます。 `<container>` 要素を選択します。
+`<container>` の **xpath** 属性を使用すると、子コントロールを簡単に参照できます。 コントロールの参照は、親に対する相対パスになります `<container>` 要素。
 
 「xpath」を使用しないコンテナの例：
 
@@ -165,7 +164,7 @@ ht-degree: 89%
 
 #### タブコンテナ {#tab-container}
 
-タブコンテナは、タブからアクセス可能なページのデータを書式設定します。
+タブコンテナは、タブからアクセス可能なページのデータの形式を設定します。
 
 ![](assets/d_ncs_integration_form_exemple6.png)
 
@@ -188,12 +187,12 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->A **style=&quot;down|up**（デフォルト）**&quot;** [ フィーチャ ] を使用すると、タブラベルをコントロールの下または上に配置します。 この機能はオプションです。
+>A **style=&quot;down|up**（デフォルト）**“** この機能は、タブ ラベルをコントロールの上下に強制的に配置します。 この機能はオプションです。
 >`<container style="down" type="notebook">  … </container>`
 
 #### アイコンリスト {#icon-list}
 
-このコンテナには、表示するページを選択できる縦のアイコンバーが表示されます。
+このコンテナには、表示するページを選択できる垂直アイコンバーが表示されます。
 
 ![](assets/d_ncs_integration_form_exemple8.png)
 
@@ -274,7 +273,7 @@ ht-degree: 89%
 
 ドロップダウンリストを使用して、作成済みのレコードのリストからターゲット要素を選択します。
 
-The **[!UICONTROL リンクを変更]** （フォルダー）アイコンは、ターゲット要素のリストとフィルターゾーンを含む選択フォームを起動します。
+この **[!UICONTROL リンクの変更]** （フォルダー）アイコン ターゲット要素とフィルターゾーンのリストを含んだ選択フォームを起動します。
 
 ![](assets/d_ncs_integration_form_exemple10.png)
 
@@ -465,7 +464,7 @@ The **[!UICONTROL リンクを変更]** （フォルダー）アイコンは、�
 </input>
 ```
 
-編集フォームは、 `<form>` 要素をリスト定義の下に追加します。 編集フォームの構造は、入力フォームの構造と同じです。 リストの **`<input>`** タグで **zoom=&quot;true&quot;** 属性が完了すると、「**[!UICONTROL 詳細]**」ボタンが自動的に追加されます。 この属性を使用すると、選択した行の編集フォームを起動できます。
+編集フォームは、 `<form>` リスト定義の下の要素 編集フォームの構造は、入力フォームの構造と同じです。 リストの **`<input>`** タグで **zoom=&quot;true&quot;** 属性が完了すると、「**[!UICONTROL 詳細]**」ボタンが自動的に追加されます。 この属性を使用すると、選択した行の編集フォームを起動できます。
 
 >[!NOTE]
 >
@@ -482,7 +481,7 @@ The **[!UICONTROL リンクを変更]** （フォルダー）アイコンは、�
 * **zoomOnAdd**：追加時に編集フォームを起動する
 * **xpathChoiceTarget**：さらに、入力したリンクの選択フォームを起動します
 
-## 編集不可のフィールド {#non-editable-fields}
+## 編集不可フィールド {#non-editable-fields}
 
 フィールドを表示し、編集されないようにするには、**`<value>`** タグを使用するか、**`<input>`** タグの **readOnly=&quot;true&quot;** 属性に入力します。
 
@@ -547,7 +546,7 @@ The **[!UICONTROL リンクを変更]** （フォルダー）アイコンは、�
 
 ## 式フィールド {#expression-field}
 
-式フィールドは、式から動的にフィールドを更新します。 **`<input>`** タグが **xpath** 属性を使用して、更新するフィールドのパスと **万博** 更新式を含む属性。
+式フィールドは、式からフィールドを動的に更新します。 **`<input>`** タグはで使用します。 **xpath** 更新するフィールドのパスを入力する属性および **expo** 更新式を含む属性。
 
 ```xml
 <!-- Example: updating the boolean1 field from the value contained in the field with path /tmp/@flag -->
@@ -586,7 +585,7 @@ The **[!UICONTROL リンクを変更]** （フォルダー）アイコンは、�
 
 >[!NOTE]
 >
->The `<enter>` および `<leave>` タグは `<container>` ページの数（「notebook」タイプと「iconbox」タイプ）を示します。
+>この `<enter>` および `<leave>` タグは、 `<container>` / ページ（「notebook」タイプと「iconbox」タイプ）
 
 ### 式の言語 {#expression-language-}
 
@@ -614,7 +613,7 @@ The **[!UICONTROL リンクを変更]** （フォルダー）アイコンは、�
 
 ## ウィザード {#wizards}
 
-ウィザードに従って、一連のデータ入力手順をページ形式で実行できます。 入力したデータは、フォームを検証するときに保存されます。
+ウィザードに従って、ページ形式で一連のデータ入力手順を実行できます。 入力したデータは、フォームを検証するときに保存されます。
 
 ウィザードの構造は次のとおりです。
 

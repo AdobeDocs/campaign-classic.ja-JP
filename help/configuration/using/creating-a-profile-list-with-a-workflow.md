@@ -2,47 +2,46 @@
 product: campaign
 title: ワークフローを使用したプロファイルリストの作成
 description: ワークフローでプロファイルリストを作成する方法を説明します
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Workflows, Profiles
 role: User
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 18%
+source-wordcount: '212'
+ht-degree: 15%
 
 ---
 
 # ワークフローを使用したプロファイルリストの作成{#creating-a-profile-list-with-a-workflow}
 
 
-を作成するには、以下を実行します。 **[!UICONTROL リスト]** 新しい受信者テーブルに基づいて「リスト」と入力する場合は、リストを生成するターゲティングワークフローを作成する必要があります。
+を作成するには **[!UICONTROL リスト]** タイプ list 新しい受信者テーブルに基づいて、リストを生成するターゲティングワークフローを作成する必要があります。
 
-Campaign のリストについて詳しくは、 [この節](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign).
+Campaign のリストについて詳しくは、次を参照してください。 [この節](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign).
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](../../platform/using/creating-and-managing-lists.md#create-list-in-a-wf-video)
 
 ターゲティングワークフローを作成し、カスタム受信者テーブルで受信者を更新するには、次の手順に従います。
 
-1. 次に移動： **[!UICONTROL プロファイルとターゲット/ジョブ/ターゲティングワークフロー]** エクスプローラーのノード。
+1. に移動します **[!UICONTROL プロファイルとターゲット/ジョブ/ターゲティングワークフロー]** エクスプローラーのノード。
 1. 新しいターゲティングワークフローを作成します。
 1. 場所 a **クエリ** アクティビティの後に **リストの更新** アクティビティ。
 
    ![](assets/mapping_create_list_workflow01.png)
 
-1. 次をダブルクリックします。 **クエリ** 「 」アクティビティに移動し、「 」をクリックします。 **[!UICONTROL クエリを編集]** 新しい受信者テーブルのスキーマに基づいてターゲティングディメンションを選択するには ( この例では： **個人**) をクリックします。 「**[!UICONTROL 完了]**」をクリックして確定します。
+1. をダブルクリックします **クエリ** アクティビティを選択してから、 **[!UICONTROL クエリを編集します]** 新しい受信者テーブルのスキーマに基づいてターゲティングディメンションを選択するには、次の例を参照してください。 **個人**）に設定します。 「**[!UICONTROL 完了]**」をクリックして確定します。
 
    ![](assets/mapping_create_list_workflow03.png)
 
-1. 次をダブルクリックします。 **リストの更新** 「 」アクティビティで、「 」 **[!UICONTROL 必要に応じてリストを作成（名前を自動生成）]** ラジオボタン。
+1. をダブルクリックします **リストの更新** アクティビティを選択してから、 **[!UICONTROL 必要に応じてリストを作成（名前を自動生成）]** ラジオボタン。
 
    ![](assets/mapping_create_list_workflow02.png)
 
 1. 新しいリストの作成フォルダーを選択します。
 1. ワークフローを実行してリストを作成します。
-1. ツリー内で選択したノードに結果を表示します。 **[!UICONTROL リストの更新]** アクティビティ。
+1. で選択したツリーのノードに結果を表示します。 **[!UICONTROL リストの更新]** アクティビティ。
 
-   次に示すように、ダッシュボードには、リストの基になるスキーマが指定されます。
+   ダッシュボードは、次に示すように、リストの基になるスキーマを指定します。
 
    ![](assets/mapping_list_view.png)

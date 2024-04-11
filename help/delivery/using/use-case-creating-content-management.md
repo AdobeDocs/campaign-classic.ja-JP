@@ -2,14 +2,13 @@
 product: campaign
 title: 「ユースケース：コンテンツ管理の作成」
 description: 「ユースケース：コンテンツ管理の作成」
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 100%
+source-wordcount: '1235'
+ht-degree: 99%
 
 ---
 

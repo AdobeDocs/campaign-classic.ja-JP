@@ -4,13 +4,12 @@ title: ワークフローの管理
 description: ワークフローの管理
 feature: Workflows, Configuration
 role: Data Engineer, Developer
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 617b0050-6b04-4c68-9f63-511baae99f41
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 18%
+source-wordcount: '146'
+ht-degree: 13%
 
 ---
 
@@ -18,13 +17,13 @@ ht-degree: 18%
 
 
 
-デフォルトでは、新しいワークフローは、事前に設定され、受信者テーブル (nms:recipient) に基づいているワークフローテンプレートに基づいています。 これらを、 **Nms_DefaultRcpSchema** オプション ( [インターフェイスの設定](../../configuration/using/configuring-the-interface.md) 「 」セクション ) を含めるには、新しいワークフローテンプレートを作成する必要があります。
+デフォルトでは、新しいワークフローは、事前に設定された受信者テーブル（nms:recipient）に基づくワークフローテンプレートに基づきます。 で参照される受信者のカスタムテーブルに基づいて受信者を自動的に設定するには、 **Nms_DefaultRcpSchema** オプション（ [インターフェイスの設定](../../configuration/using/configuring-the-interface.md) セクションを参照）、新しいワークフローテンプレートを作成する必要があります。
 
-を使用して新しいテンプレートを作成します。 **[!UICONTROL リソース/テンプレート/ワークフローテンプレート]** ノード。 テンプレートのプロパティで、提供されたディメンションは、外部の受信者テーブルと一致します。
+を使用した新しいテンプレートの作成 **[!UICONTROL リソース/テンプレート/ワークフローテンプレート]** ノード。 テンプレートのプロパティで提供されるディメンションは、外部受信者テーブルと一致します。
 
-最近作成したテンプレートに基づいて新しいワークフローを作成すると、ワークフローのグローバルターゲティングおよびフィルタリングディメンションに対して、パーソナライズされたテーブルがデフォルトで選択されます。
+最近作成したテンプレートに基づいて新しいワークフローを作成すると、ワークフローのグローバルターゲティングおよびフィルタリングディメンション用に、デフォルトでパーソナライズされたテーブルが選択されます。
 
-ワークフローで使用されるすべてのアクティビティで、追加の手動設定を必要とせずに、カスタムテーブルが使用されます。
+したがって、ワークフローで使用されるすべてのアクティビティでは、追加の手動設定を必要とせずに、カスタムテーブルが使用されます。
 
 ワークフローについて詳しくは、[この節](../../workflow/using/about-workflows.md)を参照してください。
 

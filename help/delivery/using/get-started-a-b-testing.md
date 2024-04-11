@@ -2,15 +2,14 @@
 product: campaign
 title: A/B テストの基本を学ぶ
 description: Campaign での A/B テストについて詳しく説明します。
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: A/B Testing
 role: User
 exl-id: ae046ef6-d850-4222-b82c-8ef5b3da7037
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 100%
+source-wordcount: '360'
+ht-degree: 98%
 
 ---
 

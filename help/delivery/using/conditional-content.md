@@ -2,15 +2,14 @@
 product: campaign
 title: 条件付きコンテンツ
 description: 条件付きコンテンツの追加方法を学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Personalization, Multilingual Messages
 role: User
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 96%
+source-wordcount: '509'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 96%
 
 次の例では、受信者の性別と興味の対象に基づいて動的にパーソナライズされるメッセージを作成する方法について説明します。
 
-* 「Mr.」または「Ms.」と表示する ～の値に従って **[!UICONTROL 性別]** フィールド（M または F）
+* 「Mr」または「Ms」を示す表示 の値に応じて **[!UICONTROL 性別]** フィールド （M または F）
 * 顧客が表明した関心事項や検出された関心事項に基づいて、次のようにニュースレターや優待販売案内の構成をパーソナライズする
 
    * 興味 1 -- > ブロック 1

@@ -3,16 +3,15 @@ product: campaign
 title: ファイルの解凍または復号化
 description: 処理を行う前に Campaign でファイルを展開または復号化する方法について説明します
 feature: Workflows, Encryption
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 67a6e03318a74b665dc6928028470f98c0abae5e
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 89%
+source-wordcount: '724'
+ht-degree: 88%
 
 ---
 
@@ -87,15 +86,15 @@ Adobe Campaign では、圧縮されたファイルや暗号化されたファ�
 
 1. **[!UICONTROL データ読み込み（ファイル）]**&#x200B;アクティビティを開き、必要に応じて設定します。アクティビティの設定方法に関するグローバルな概念については、[こちら](../../workflow/using/data-loading-file.md)を参照してください。
 
-   受信データを復号化するために、アクティビティに前処理ステージを追加します。これをおこなうには、「 **[!UICONTROL ファイルの前処理]** 「 」オプションを選択し、「 」を選択します。 **[!UICONTROL 復号化]** から **[!UICONTROL コマンド]** ドロップダウンリスト：
+   受信データを復号化するために、アクティビティに前処理ステージを追加します。これを行うには、 **[!UICONTROL ファイルを前処理]** オプションを選択してから、を選択します **[!UICONTROL 復号]** から **[!UICONTROL コマンド]** ドロップダウンリスト：
 
    ![](assets/gpg_load.png)
 
    >[!NOTE]
    >
-   >使用可能なコマンドに変更が必要な場合は、次の手順に従って、 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) : preProcessCommand 設定を調整します。
+   >利用可能なコマンドを変更する必要がある場合は、次の方法で問い合わせることができます。 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) preProcessCommand 設定を調整します。
    >
-   >ハイブリッドデプロイメントを使用している場合は、これらのコマンドをサーバー設定ファイル (serverConf.xml) から直接設定できます。 [サーバー設定ファイルで前処理コマンドを設定する方法を説明します。](../../installation/using/the-server-configuration-file.md#preprocesscommand)
+   >ハイブリッドデプロイメントを使用している場合は、サーバー設定ファイル（serverConf.xml）から直接これらのコマンドを設定できます。 [サーバー設定ファイルで前処理コマンドを設定する方法を説明します](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 
 1. 「**[!UICONTROL OK]**」をクリックして、アクティビティの設定を確定します。
 

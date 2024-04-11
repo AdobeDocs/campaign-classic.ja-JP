@@ -3,15 +3,14 @@ product: campaign
 title: データパッケージの使用
 description: データパッケージの使用
 feature: Data Management, Package Export/Import
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2544'
 ht-degree: 99%
 
 ---
@@ -354,7 +353,7 @@ Adobe Campaign クライアントコンソールのメインメニューで&#x20
 
 >[!IMPORTANT]
 >
->異なるバージョン間のインポートは、Adobeではサポートされていません。
+>異なるバージョン間での読み込みは、Adobeではサポートされていません。
 <!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter.-->
 
 スキーマとデータベースの構造に注意してください。スキーマを含むパッケージのインポートの後にスキーマの生成が必要です。

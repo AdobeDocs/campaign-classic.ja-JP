@@ -1,15 +1,14 @@
 ---
 product: campaign
-title: Campaign の受信ボックスレンダリング
+title: Campaign での受信ボックスレンダリング
 description: メールのレンダリングを取り込み、専用レポートで使用可能にする方法を説明します。
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '877'
 ht-degree: 99%
 
 ---

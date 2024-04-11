@@ -2,13 +2,12 @@
 product: campaign
 title: web フォームの翻訳
 description: web フォームの翻訳
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1641'
 ht-degree: 99%
 
 ---
@@ -134,7 +133,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 >
 >エクスポートファイルの名前は、自動的に生成されます。同じエクスポートを複数回実行すると、既存のファイルは新しいファイルに置き換えられます。前のファイルを保持する必要がある場合は、「**[!UICONTROL ターゲットフォルダー]**」を変更してから、「**[!UICONTROL 開始]**」を再びクリックして、エクスポートを実行します。
 
-**CSV 形式**&#x200B;でファイルをエクスポートする場合、各言語はステータスおよび承認ステータスにリンクされます。The **承認しますか？** 列を使用して、翻訳を承認できます。 この列には、値 **Yes** または **No** が含まれることがあります。統合エディター（[エディターでの翻訳の管理](#managing-translations-in-the-editor)を参照）については、翻訳の承認はオプションで、処理をブロックしません。
+**CSV 形式**&#x200B;でファイルをエクスポートする場合、各言語はステータスおよび承認ステータスにリンクされます。この **承認しますか？** 列を使用すると翻訳を承認できます。 この列には、値 **Yes** または **No** が含まれることがあります。統合エディター（[エディターでの翻訳の管理](#managing-translations-in-the-editor)を参照）については、翻訳の承認はオプションで、処理をブロックしません。
 
 ### ファイルのインポート {#importing-files}
 

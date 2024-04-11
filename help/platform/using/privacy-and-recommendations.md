@@ -3,15 +3,14 @@ product: campaign
 title: プライバシーと同意
 description: プライバシーと同意の詳細を説明します
 feature: Privacy, Privacy Tools
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1980'
+source-wordcount: '1977'
 ht-degree: 98%
 
 ---
@@ -101,7 +100,7 @@ Campaign を、[Adobe Analytics](../../platform/using/gs-aa.md)、[Audience Mana
 
 * **Laura** は&#x200B;**データ主体**&#x200B;で、航空会社からメッセージを受け取る受信者です。Laura はリピーターですが、ある時点で、航空会社からのパーソナライズされた広告やマーケティングメッセージの受信を希望しないことにしました。そのため、航空会社に（所定のプロセスに基づいて）リピーター番号を削除するよう要求します。
 
-* **Anne** は航空会社の&#x200B;**データ管理者**&#x200B;です。Laura の要求を受け取り、データ主体を識別するために要求された有用な ID を取得して、要求をAdobe Campaignに送信します。
+* **Anne** は航空会社の&#x200B;**データ管理者**&#x200B;です。彼女は Laura のリクエストを受け取り、データ主体を特定するためにリクエストされた有用な ID を取得し、Adobe Campaignでリクエストを送信します。
 
 * **Adobe Campaign** は&#x200B;**データ処理者**&#x200B;です。
 

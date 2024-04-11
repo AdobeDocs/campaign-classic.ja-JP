@@ -2,13 +2,12 @@
 product: campaign
 title: ランディングページの作成
 description: ランディングページの作成
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '779'
 ht-degree: 98%
 
 ---
@@ -134,7 +133,7 @@ Web アプリケーションに挿入された各ページについて、これ�
 
 この手順は必須です。これは、Web アプリケーションが次の手順の順序を決定できるためです。収集したデータをデータベースに保存し、次のページ（「**ありがとうございます**」ページ）を表示します。
 
-1. を選択します。 **[!UICONTROL 送れ！]** ボタン **[!UICONTROL コレクション]** ページに貼り付けます。
+1. 「」を選択します **[!UICONTROL 送れ！]** のボタン **[!UICONTROL Collection]** ページ。
 1. **[!UICONTROL アクション]**&#x200B;ドロップダウンメニューをクリックします。
 1. **[!UICONTROL 次のページ]**&#x200B;アクションを選択します。
 

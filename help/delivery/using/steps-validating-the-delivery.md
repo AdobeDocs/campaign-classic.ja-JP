@@ -2,15 +2,14 @@
 product: campaign
 title: 配信の検証
 description: 配信の検証方法を学ぶ
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 100%
+source-wordcount: '1803'
+ht-degree: 99%
 
 ---
 

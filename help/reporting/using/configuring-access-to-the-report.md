@@ -3,13 +3,12 @@ product: campaign
 title: レポートへのアクセスの設定
 description: レポートへのアクセスの設定
 feature: Reporting, Monitoring
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 95%
+source-wordcount: '809'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 95%
 
 ### 選択タイプ {#selection-type}
 
-レポートへのアクセスは、特定のコンテキストまたはオファースペース（配信、受信者、選択した受信者など）に限定できます。 このアクセスは、 **[!UICONTROL 選択タイプ]** のセクション **[!UICONTROL 表示]** タブをクリックします。
+レポートへのアクセスは、特定のコンテキストまたはオファースペース（配信、受信者、選択した受信者など）に限定できます。 このアクセスは、 **[!UICONTROL 選択タイプ]** の節 **[!UICONTROL 表示]** タブ。
 
 ![](assets/s_ncs_advuser_report_visibility_4.png)
 

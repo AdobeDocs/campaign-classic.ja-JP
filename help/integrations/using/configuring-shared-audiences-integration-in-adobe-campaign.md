@@ -3,16 +3,15 @@ product: campaign
 title: Adobe Campaign での共有オーディエンスの統合の設定
 description: 共有オーディエンスの統合を設定する方法について説明します
 feature: Audiences, People Core Service Integration
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
-source-git-commit: e6a2986e5355b32164386e1f6d64f52dc6977632
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 100%
+source-wordcount: '613'
+ht-degree: 99%
 
 ---
 

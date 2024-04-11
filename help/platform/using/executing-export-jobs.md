@@ -3,15 +3,14 @@ product: campaign
 title: エクスポートジョブの設定
 description: Campaign でエクスポートジョブを設定および実行する方法について学ぶ
 feature: Overview
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1037'
 ht-degree: 98%
 
 ---
@@ -75,7 +74,7 @@ ht-degree: 98%
 * 「**[!UICONTROL テキスト]**」フォーマットの場合、列を区切る区切り記号（タブ、コンマ、セミコロンまたはカスタム）および文字列を区切る区切り記号（シングルコーテーション、ダブルコーテーションまたはなし）を選択します。
 * 「**[!UICONTROL テキスト]**」および「**[!UICONTROL CSV]**」の場合、オプション「**[!UICONTROL 先頭行を列ヘッダーとして使用]**」を選択できます。
 * 日付フォーマットおよび数字のフォーマットを指定します。そのためには、該当するフィールドの「**[!UICONTROL 編集]**」ボタンをクリックし、エディターを使用します。
-* 列挙値が含まれるフィールドの場合、「**[!UICONTROL 列挙の内部値の代わりにラベルをエクスポート]**」を選択できます。例えば、タイトルをフォームに保存できます **1=氏**, **2=ミス**, **3=夫人**.このオプションを選択した場合、**Mr.**、**Miss** および **Mrs.** がエクスポートされます。
+* 列挙値が含まれるフィールドの場合、「**[!UICONTROL 列挙の内部値の代わりにラベルをエクスポート]**」を選択できます。例えば、タイトルはフォームに保存できます **1=Mr**, **2=ミス**, **3=夫人**.このオプションを選択した場合、**Mr.**、**Miss** および **Mrs.** がエクスポートされます。
 
 ## 手順 4 - データの選択 {#step-4---data-selection}
 

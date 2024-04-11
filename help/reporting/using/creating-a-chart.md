@@ -3,13 +3,12 @@ product: campaign
 title: グラフの作成
 description: グラフのデザイン方法を学ぶ
 feature: Reporting, Monitoring
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '562'
+ht-degree: 99%
 
 ---
 

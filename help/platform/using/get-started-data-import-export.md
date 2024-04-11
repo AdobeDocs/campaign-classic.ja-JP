@@ -3,16 +3,15 @@ product: campaign
 title: データのインポートとエクスポートの基本を学ぶ
 description: Campaign でのデータのインポートとエクスポートについて詳しく学ぶ
 feature: Data Management, Encryption
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 にも適用されます"
+badge-v8: label="v8 にも適用されます" type="Positive" tooltip="Campaign v8 にも適用されます"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
-source-git-commit: a2106e55617209f28da42c50008d16188563b2da
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 100%
+source-wordcount: '334'
+ht-degree: 98%
 
 ---
 

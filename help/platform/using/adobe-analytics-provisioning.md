@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Adobe Analytics Connector のプロビジョニング
-description: Adobe Analyticsコネクタのプロビジョニングの詳細を説明します
-badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="v7 オンプレミスおよびハイブリッドデプロイメントにのみ適用されます"
+title: Adobe Analytics コネクタのプロビジョニング
+description: Adobe Analytics コネクタのプロビジョニングの詳細情報
+badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="v7 オンプレミスおよびハイブリッドデプロイメントにのみ適用されます"
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '830'
 ht-degree: 94%
 
 ---
@@ -80,7 +80,7 @@ Adobe Campaign Classic と Adobe Analytics 間の認証の統合では、Adobe I
 
 1. **[!UICONTROL ディメンション]**&#x200B;機能については、将来の設定に必要な&#x200B;**[!UICONTROL ディメンション]**&#x200B;を追加します。
 
-   選択したDimensionが、外部アカウントで設定する対象と一致し、Adobe Analyticsの対応する eVar 数と一致していることを確認します。
+   選択したDimensionが外部アカウントに設定される設定と一致し、Adobe Analyticsの対応する eVar 番号と合致するようにしてください。
 
 1. **[!UICONTROL レポートスイートツール]**&#x200B;機能については、次の権限を追加します。
 

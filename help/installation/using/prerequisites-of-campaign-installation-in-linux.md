@@ -3,14 +3,14 @@ product: campaign
 title: Linux での Campaign インストールの前提条件
 description: Linux での Campaign インストールの前提条件
 feature: Installation, Instance Settings
-badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
+badge-v7-prem: label="オンプレミス/ハイブリッドのみ" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '917'
 ht-degree: 2%
 
 ---
@@ -202,7 +202,7 @@ Linux RPM パッケージはOracleテクノロジ・ネットワークから入�
 
 クライアント・コンソールで、ログ、ワークフロー最後の処理、次の処理などに予期しないタイム・ラグ (1 時間以上) があることに気付いた場合は、Oracle クライアントのライブラリと Oracle サーバーの間に問題がある可能性があります。 このような問題を回避するために
 
-1. 必ず完全なクライアント&#x200B;**を使用してください**。
+1. 必ずを使用してください。 **フル クライアント**.
 
    oracleインスタントクライアントバージョンを使用する際の様々な問題が特定されています。 さらに、インスタントクライアントでタイムゾーンファイルを変更することは不可能です。
 

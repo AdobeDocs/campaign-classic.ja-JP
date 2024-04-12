@@ -2,12 +2,11 @@
 product: campaign
 title: 多対多の関係を使用したクエリ
 description: 多対多関係を使用したクエリを実行する方法を説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Query Editor, Workflows
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '475'
 ht-degree: 100%
 
 ---

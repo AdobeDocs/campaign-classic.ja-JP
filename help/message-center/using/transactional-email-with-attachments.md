@@ -3,11 +3,10 @@ product: campaign
 title: 添付ファイル付きトランザクションメールの送信
 description: Adobe Campaign を使用して、個々の添付ファイルやパーソナライズされた添付ファイルを含むトランザクションメールを送信する方法を説明します。
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '666'
 ht-degree: 100%
 
 ---

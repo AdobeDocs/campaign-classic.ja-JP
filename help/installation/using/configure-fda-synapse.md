@@ -1,16 +1,15 @@
 ---
 product: campaign
 title: Synapse へのアクセスの設定
-description: FDA での Synapse へのアクセスの設定方法を説明します
+description: FDA で Synapse へのアクセスを設定する方法を説明します
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '757'
 ht-degree: 68%
 
 ---
@@ -19,16 +18,16 @@ ht-degree: 68%
 
 
 
-キャンペーンを使用 [Federated Data Access](../../installation/using/about-fda.md) (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、へのアクセスを設定します。 **MicrosoftAzure synapse分析**.
+Campaign の使用 [連合データアクセス](../../installation/using/about-fda.md) （FDA）外部データベースに保存された情報を処理するオプション。 へのアクセスを設定するには、次の手順に従います **Microsoft Azure synapse分析**.
 
-1. でAzure synapseを設定 [CentOS](#azure-centos), [Windows](#azure-windows) または [Debian](#azure-debian)
-1. azure synapse [外部アカウント](#azure-external) Campaign 内
+1. のAzure synapseを設定 [CentOS](#azure-centos), [Windows](#azure-windows) または [Debian](#azure-debian)
+1. azure synapseの設定 [外部アカウント](#azure-external) Campaign 内
 
-## CentOS でのazure synapse {#azure-centos}
+## CentOS のAzure synapse {#azure-centos}
 
 >[!CAUTION]
 >
->* ODBC ドライバーをインストールするには、ルート権限が必要です。
+>* ODBC ドライバをインストールするには、root 権限が必要です。
 >* Microsoft が提供する Red Hat Enterprise ODBC ドライバーは、CentOS と組み合わせて SQL Server に接続することもできます。
 >* バージョン 13.0 は Red Hat 6 および 7 で動作します。
 
@@ -88,7 +87,7 @@ CentOS でAzure synapseを設定するには、次の手順に従います。
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. Campaign では、 [!DNL Azure Synapse] 外部アカウント。 外部アカウントの設定方法について詳しくは、 [この節](#azure-external).
+1. Campaign では、次の項目を設定できます [!DNL Azure Synapse] 外部アカウント。 外部アカウントの設定方法について詳しくは、次を参照してください。 [この節](#azure-external).
 
 1. Azure Synapse Analytics は TCP 1433 ポートを通じて通信するので、ファイアウォール上でこのポートを開く必要があります。次のコマンドを使用します。
 
@@ -107,7 +106,7 @@ CentOS でAzure synapseを設定するには、次の手順に従います。
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
    ```
 
-## Windows でのazure synapse {#azure-windows}
+## Windows でのAzure synapse {#azure-windows}
 
 >[!NOTE]
 >
@@ -115,7 +114,7 @@ CentOS でAzure synapseを設定するには、次の手順に従います。
 
 Windows で Azure Synaps を設定するには、以下を実行します。
 
-1. まず、Microsoft ODBC ドライバーをインストールします。これは、で確認できます。 [このページ](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
+1. まず、Microsoft ODBC ドライバーをインストールします。次の場所にあります。 [このページ](https://www.microsoft.com/en-us/download/details.aspx?id=50420).
 
 1. 次のファイルを選択してインストールします。
 
@@ -125,11 +124,11 @@ Windows で Azure Synaps を設定するには、以下を実行します。
 
 1. ODBC ドライバーをインストールした後、必要に応じてテストできます。詳しくは、この[ページ](https://docs.microsoft.com/ja-jp/sql/connect/odbc/windows/system-requirements-installation-and-driver-files?view=sql-server-ver15)を参照してください。
 
-1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、 [この節](#azure-external).
+1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、次を参照してください。 [この節](#azure-external).
 
 1. Azure Synapse Analytics は TCP 1433 ポートを通じて通信するので、Windows Defender ファイアウォール上でこのポートを開く必要があります。詳しくは、[Windows のドキュメント](https://docs.microsoft.com/ja-jp/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule)を参照してください。
 
-## Azure synapse(Debian) {#azure-debian}
+## Debian のAzure synapse {#azure-debian}
 
 **前提条件：**
 
@@ -180,7 +179,7 @@ Debian で Azure Synapse を設定するには、以下を実行します。
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、 [この節](#azure-external).
+1. Campaign Classic では、[!DNL Azure Synapse] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、次を参照してください。 [この節](#azure-external).
 
 1. Azure Synapse Analytics と確実に接続できるように Debian で iptables を設定するには、次のコマンドを使用して、ホスト名に対してアウトバウンド TCP 1433 ポートを有効にします。
 
@@ -194,11 +193,11 @@ Debian で Azure Synapse を設定するには、以下を実行します。
 
 ## Azure synapse外部アカウント {#azure-external}
 
-The [!DNL Azure Synapse] 外部アカウントを使用すれば、Campaign インスタンスを外部データベースにAzure synapseできます。
+この [!DNL Azure Synapse] 外部アカウントを使用すると、Campaign インスタンスをAzure synapseの外部データベースに接続できます。
 
-次の手順で [!DNL Azure Synapse] 外部アカウントは、次の手順に従います。
+を作成するには [!DNL Azure Synapse] 外部アカウントは、次の手順に従います。
 
-1. キャンペーンから **[!UICONTROL エクスプローラ]**&#x200B;をクリックし、 **[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL 外部アカウント]**.
+1. Campaign から **[!UICONTROL エクスプローラー]**&#x200B;を選択し、 **[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL 外部アカウント]**.
 
 1. 「**[!UICONTROL 新規]**」をクリックします。
 
@@ -206,13 +205,13 @@ The [!DNL Azure Synapse] 外部アカウントを使用すれば、Campaign イ�
 
    ![](assets/azure_1.png)
 
-1. の下 **[!UICONTROL 設定]**&#x200B;を選択します。 **[!UICONTROL Azure synapse分析]** から **[!UICONTROL タイプ]** 」ドロップダウンリストから選択できます。
+1. 次の下 **[!UICONTROL 設定]**&#x200B;を選択 **[!UICONTROL Azure synapse分析]** から **[!UICONTROL タイプ]** ドロップダウン。
 
    ![](assets/azure_2.png)
 
-1. を設定します。 [!DNL Azure Synapse] 外部アカウント：
+1. の設定 [!DNL Azure Synapse] 外部アカウント :
 
-   * 標準認証の場合は、次を指定する必要があります。
+   * 標準認証の場合、次を指定する必要があります。
 
       * **[!UICONTROL サーバー]**：Azure Synapse サーバーの URL
 
@@ -230,7 +229,7 @@ The [!DNL Azure Synapse] 外部アカウントを使用すれば、Campaign イ�
 
       * **[!UICONTROL データベース]**：データベースの名前
 
-      * **[!UICONTROL オプション]**：次の構文を追加します。 `Authentication=ActiveDirectoryMsi`
+      * **[!UICONTROL オプション]**：次の構文を追加します `Authentication=ActiveDirectoryMsi`
 
      ![](assets/azure_4.png)
 
@@ -240,4 +239,4 @@ The [!DNL Azure Synapse] 外部アカウントを使用すれば、Campaign イ�
 
 | オプション | 説明 |
 |---|---|
-| 認証 | コネクタでサポートされる認証のタイプ。 現在サポートされている値： ActiveDirectoryMSI。 </br>詳しくは、 [SQL ドキュメント](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) ( 接続文字列の例 n°8)。 |
+| 認証 | コネクターでサポートされている認証のタイプ。 現在サポートされている値：ActiveDirectoryMSI。 </br>詳しくは、次を参照してください。 [SQL ドキュメント](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) （接続文字列 n°8 の例） |

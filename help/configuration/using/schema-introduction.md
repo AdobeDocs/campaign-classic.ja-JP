@@ -4,20 +4,19 @@ title: スキーマリファレンス
 description: スキーマ参照リスト
 feature: Custom Resources
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 26%
+source-wordcount: '90'
+ht-degree: 21%
 
 ---
 
 # スキーマリファレンス {#schema-reference}
 
-スキーマを編集する際に、ソーススキーマ (xtk:srcSchema) に基づく承認システムを使用できます。 「データベース構造の更新…」ウィザードを使用してデータベースを更新する際に、エラーが発生する場合もあります。
+スキーマを編集する場合、ソーススキーマ（xtk:srcSchema）に基づく承認システムを使用できます。 「データベース構造の更新…」ウィザードを使用してデータベースを更新する際に、一部のエラーが見つかる場合があります。
 
-デフォルトでは、Adobe Campaignスキーマでは、すべてのブール型属性は「false」です。 これらをアクティブにするには、スキーマで属性を指定し、その値を「true」に設定する必要があります。
+デフォルトでは、Adobe Campaign スキーマでは、すべてのブール型属性は「false」です。 アクティブにするには、スキーマで属性を指定し、その値を「true」に設定する必要があります。
 
 参照リスト：
 

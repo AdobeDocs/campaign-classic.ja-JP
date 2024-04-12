@@ -3,13 +3,12 @@ product: campaign
 title: Campaign Classic の非推奨（廃止予定）および削除された機能
 description: このページには、Adobe Campaign Classic の非推奨および削除された機能が表示されます
 feature: Release Notes
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1551'
 ht-degree: 100%
 
 ---

@@ -2,12 +2,11 @@
 product: campaign
 title: 受信者テーブルのクエリ
 description: 受信者テーブルに対するクエリ方法を説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Query Editor, Workflows
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '452'
 ht-degree: 100%
 
 ---

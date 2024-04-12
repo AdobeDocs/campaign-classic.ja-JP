@@ -3,14 +3,13 @@ product: campaign
 title: 定義済みフィルターの作成
 description: 定義済みフィルターの作成
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 399e9468-bf70-425d-af0b-72c29636b513
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '102'
 ht-degree: 100%
 
 ---

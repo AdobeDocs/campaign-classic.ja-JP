@@ -2,14 +2,13 @@
 product: campaign
 title: Web サービスについて
 description: Web サービスについて
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: API
 role: Data Engineer, Developer
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 8%
+source-wordcount: '642'
+ht-degree: 7%
 
 ---
 
@@ -17,18 +16,18 @@ ht-degree: 8%
 
 ## Adobe Campaign API の定義 {#definition-of-adobe-campaign-apis}
 
-Adobe Campaignアプリケーションサーバは、より多様で複雑な企業の情報システムとのオープン性と容易な統合を実現するように設計されています。
+Adobe Campaign アプリケーションサーバーは、ますます多様化し、複雑さを増す企業の情報システムとのオープンかつ容易な統合を目的として設計されました。
 
-Adobe Campaign API は、アプリケーション内の JavaScript と、その外部の SOAP で使用されます。 エンリッチメントは、エンリッチメントできる汎用関数のライブラリを構成します。 詳しくは、 [SOAP メソッドの実装](../../configuration/using/implementing-soap-methods.md).
+Adobe Campaign API は、アプリケーション内の JavaScript と、その外部の SOAP で使用されます。 エンリッチメントできる汎用関数のライブラリを構成します。 詳しくは、を参照してください。 [SOAP メソッドの実装](../../configuration/using/implementing-soap-methods.md).
 
 >[!IMPORTANT]
 >
->1 日あたりの認証済みエンジン呼び出し数は、ライセンス契約によって異なります。 詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-classic---product-description.html)を参照してください。\
->すべての API のリストとその詳細な説明は、 [この専用ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html.
+>1 日あたりの承認済みエンジンコールの数は、ライセンス契約によって異なります。 詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-classic---product-description.html)を参照してください。\
+>すべての API とその詳細な説明のリストは、で参照できます。 [この専用ドキュメント]（https://experienceleague.adobe.com/developer/campaign-api/api/index.html.
 
 ## 前提条件 {#prerequisites}
 
-Adobe Campaign API を使用する前に、次のトピックに関する十分な知識が必要です。
+Adobe Campaign API を使用するには、次のトピックを熟知している必要があります。
 
 * JavaScript
 * SOAP プロトコル
@@ -36,24 +35,24 @@ Adobe Campaign API を使用する前に、次のトピックに関する十分�
 
 ## Adobe Campaign API の使用 {#using-adobe-campaign-apis}
 
-Adobe Campaignは、次の 2 種類の API を使用します。
+Adobe Campaignでは、次の 2 種類の API を使用します。
 
-* データモデルデータをクエリするための汎用データアクセス API です。 [データ指向 API](../../configuration/using/data-oriented-apis.md) を参照してください。
-* 目的の対象ごとにアクションをおこなえる、ビジネスに特化した API。配信、ワークフロー、サブスクリプションなど。参照： [ビジネス指向 API](../../configuration/using/business-oriented-apis.md).
+* データモデルデータをクエリするための汎用データアクセス API。 [データ指向 API](../../configuration/using/data-oriented-apis.md) を参照してください。
+* 目的の対象ごとにアクションをおこなえる、ビジネスに特化した API。配信、ワークフロー、サブスクリプションなど。こちらを参照してください [ビジネス指向の API](../../configuration/using/business-oriented-apis.md).
 
-API を開発し、Adobe Campaignとやり取りするには、データモデルに関する知識が必要です。 Adobe Campaignを使用すると、ベースの完全な説明を生成できます。 参照： [モデルの説明](../../configuration/using/data-oriented-apis.md#description-of-the-model).
+API を開発し、Adobe Campaignとやり取りするには、使用するデータモデルに精通している必要があります。 Adobe Campaignでは、ベースの完全な説明を生成できます。 こちらを参照してください [モデルの説明](../../configuration/using/data-oriented-apis.md#description-of-the-model).
 
 ## SOAP 呼び出し {#soap-calls}
 
-SOAP プロトコルを使用すると、リッチクライアント、Web サービスを使用するサードパーティアプリケーション、またはこれらのメソッドをネイティブで使用する JSP を介して API メソッドを呼び出すことができます。
+SOAP プロトコルを使用すると、リッチクライアント、web サービスを使用するサードパーティアプリケーション、またはこれらのメソッドをネイティブに使用する JSP を介して、API メソッドを呼び出すことができます。
 
 ![](assets/s_ncs_configuration_architecture.png)
 
 SOAP メッセージの構造は次のとおりです。
 
-* メッセージの構造を定義する封筒
-* オプションのヘッダー
-* 呼び出しと応答に関する情報を含む本文
+* メッセージの構造を定義するエンベロープ。
+* オプションのヘッダー。
+* 呼び出しと応答に関する情報を含む本文。
 * エラー条件を定義するエラー管理。
 
 ## リソースと交換 {#resources-and-exchanges}
@@ -62,15 +61,15 @@ SOAP メッセージの構造は次のとおりです。
 
 ![](assets/s_ncs_integration_webservices_schema_pres.png)
 
-## 「ExecuteQuery」メソッドでの SOAP メッセージの例 {#example-of-a-soap-message-on-the--executequery--method--}
+## 「ExecuteQuery」メソッドの SOAP メッセージの例 {#example-of-a-soap-message-on-the--executequery--method--}
 
-この例では、SOAP クエリが「ExecuteQuery」メソッドを呼び出します。このメソッドは、文字列を認証用のパラメーター（セッショントークン）とし、XML コンテンツを取得して、実行するクエリの説明を示します。
+この例では、SOAP クエリは「ExecuteQuery」メソッドを呼び出しています。このメソッドは、認証（セッショントークン）のパラメーターとして文字列を受け取り、実行するクエリの説明の XML コンテンツを取得します。
 
-詳しくは、 [ExecuteQuery (xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-).
+詳しくは、を参照してください。 [ExecuteQuery （xtk:queryDef）](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-).
 
 >[!NOTE]
 >
->このサービスの WSDL 記述は、次に示す例で完成します。 [Web サービスの説明：WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
+>このサービスの WSDL の記述は、次の例のように完成します。 [Web サービスの説明：WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
 
 ### SOAP クエリ {#soap-query}
 
@@ -90,13 +89,13 @@ SOAP メッセージの構造は次のとおりです。
 </SOAP-ENV:Envelope>
 ```
 
-The `<soap-env:envelope>` element は、SOAP エンベロープを表すメッセージの最初の要素です。
+この `<soap-env:envelope>` element :SOAP エンベロープを表すメッセージの最初の要素です。
 
-The `<soap-env:body>` element はエンベロープの最初の子要素です。 これには、メッセージの説明（クエリの内容や応答の内容）が含まれます。
+この `<soap-env:body>` element は、エンベロープの最初の子要素です。 メッセージの説明、例えば、クエリのコンテンツや応答が含まれています。
 
-呼び出すメソッドが `<executequery>` 要素を SOAP メッセージの本文から取得します。
+呼び出すメソッドを `<executequery>` soap メッセージの本文から取得される要素。
 
-SOAP では、パラメーターは出現順に認識されます。 最初のパラメーターは、 `<__sessiontoken>`は認証チェーンを受け取り、2 番目のパラメーターは `<querydef>` 要素を選択します。
+SOAP では、パラメーターは外観の順序で認識されます。 最初のパラメーター。 `<__sessiontoken>`は認証チェーンを取り、2 番目のパラメーターはからのクエリの XML 記述です `<querydef>` 要素。
 
 ### SOAP 応答 {#soap-response}
 
@@ -113,7 +112,7 @@ SOAP では、パラメーターは出現順に認識されます。 最初の�
 </SOAP-ENV:Envelope>
 ```
 
-クエリの結果は、 `<pdomoutput>` 要素を選択します。
+クエリの結果は、から入力されます。 `<pdomoutput>` 要素。
 
 ## エラー管理 {#error-management}
 
@@ -133,19 +132,19 @@ ODBC error: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has bee
 </SOAP-ENV:Envelope>
 ```
 
-The `<soap-env:fault>` 要素は、SOAP メッセージの本文で、web サービスの処理中に発生したエラー信号を伝えるために使用されます。 これは、次のサブ要素で構成されます。
+この `<soap-env:fault>` soap メッセージ本文の要素は、web サービスの処理中に発生するエラー信号を伝えるために使用されます。 これは、次のサブ要素で構成されます。
 
-* `<faultcode>` ：エラーのタイプを示します。 エラータイプは次のとおりです。
+* `<faultcode>` ：エラーのタイプを示します。 次のエラータイプがあります。
 
-   * 使用する SOAP バージョンとの非互換性の場合、「VersionMismatch」
-   * メッセージヘッダーに問題が発生した場合は、「MustUnderstand」
-   * クライアントに情報が欠落している場合の「クライアント」
-   * サーバーで処理の実行に問題が発生した場合の「サーバー」。
+   * 使用された SOAP バージョンとの非互換性が発生した場合は、「VersionMismatch」。
+   * メッセージヘッダーに問題が発生した場合は、「MustUnderstand」。
+   * 「クライアント」：クライアントに情報が不足している場合、
+   * 「サーバー」は、サーバーで処理の実行に問題がある場合に表示されます。
 
 * `<faultstring>` ：エラーを説明するメッセージ
 * `<detail>` ：長いエラーメッセージ
 
-サービス呼び出しの成功または失敗は、 `<faultcode>` 要素が検証された。
+サービス呼び出しの成功または失敗は、 `<faultcode>` 要素が検証されます。
 
 >[!IMPORTANT]
 >
@@ -169,10 +168,10 @@ catch (SoapException e)
 
 ## Web サービスサーバー（または EndPoint）の URL {#url-of-web-service-server--or-endpoint-}
 
-Web サービスを送信するには、対応するサービスメソッドを実装しているAdobe Campaignサーバーに接続する必要があります。
+Web サービスを送信するには、対応するサービスメソッドを実装するAdobe Campaign サーバーに接続する必要があります。
 
-サーバー URL は次のようになります。
+サーバー URL は次のとおりです。
 
 https://serverName/nl/jsp/soaprouter.jsp
 
-を使用 **`<server>`** Adobe Campaignアプリケーションサーバー (**nlserver web**) をクリックします。
+（を使用） **`<server>`** Adobe Campaign アプリケーションサーバー（**nlserver web**）に設定します。

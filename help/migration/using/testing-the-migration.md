@@ -3,17 +3,16 @@ product: campaign
 title: 移行のテスト
 description: 移行のテスト
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
 hide: true
 hidefromtoc: true
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 1%
+source-wordcount: '715'
+ht-degree: 0%
 
 ---
 
@@ -23,15 +22,15 @@ ht-degree: 1%
 
 ## 一般的な手順 {#general-procedure}
 
-設定に応じて、移行テストを実行する方法がいくつかあります。
+設定に応じて、移行テストを実行する方法はいくつかあります。
 
-移行テストを実行するには、テスト/開発環境が必要です。 Adobe Campaign環境はライセンスの対象となります。ライセンス契約を確認するか、Adobe担当者にお問い合わせください。
+移行テストを実行するためのテスト/開発環境が必要です。 Adobe Campaign環境はライセンスの対象です。ライセンス契約を確認するか、Adobe担当者にお問い合わせください。
 
-1. 進行中のすべての開発を停止し、実稼動環境に引き継ぎます。
+1. 進行中のすべての開発を停止して、実稼動環境に引き継ぎます。
 1. 開発環境データベースのバックアップを作成します。
-1. 開発インスタンスですべてのAdobe Campaignプロセスを停止します。
+1. 開発インスタンスでAdobe Campaign プロセスをすべて停止します。
 1. 実稼動環境のデータベースのバックアップを作成し、開発環境として復元します。
-1. Adobe Campaignサービスを開始する前に、 **freezeInstance.js** バックアップの開始時に実行されていたオブジェクトのデータベースをクリアするための注意スクリプト。
+1. Adobe Campaign サービスを開始する前に、 **freezeInstance.js** バックアップの開始時に実行されていたオブジェクトをデータベースから消去する焼灼処理スクリプト。
 
    ```
    nlserver javascript nms:freezeInstance.js -instance:<instance> -arg:<run|dry>
@@ -39,28 +38,28 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >コマンドは、デフォルトで **乾燥、乾燥** モードとに分類され、そのコマンドによって実行されたすべてのリクエストが一覧表示されます。 注意喚起リクエストを実行するには、 **実行** 」と入力します。
+   >コマンドは、デフォルトで次の場所で起動します **乾式** を選択し、そのコマンドによって実行されたすべての要求を一覧表示します。それらの要求は起動されません。 焼灼要求を実行するには、を使用します **実行** コマンドで追加できます。
 
-1. バックアップを復元しようとして、バックアップが正しいことを確認します。 データベース、テーブル、データなどにアクセスできることを確認します。
+1. バックアップを復元して、バックアップが正しいことを確認します。 データベース、テーブル、データなどにアクセスできることを確認します。
 1. 開発環境で移行手順をテストします。
 1. 開発環境の移行が成功した場合は、実稼動環境を移行できます。
 
 >[!CAUTION]
 >
->データ構造が変更されたので、v5 プラットフォームと v7 プラットフォームの間では、データパッケージのインポートおよびエクスポートはできません。
+>データ構造が変更されたので、v5 プラットフォームと v7 プラットフォームの間でデータパッケージを読み込んだり書き出したりすることはできません。
 
 
 ## 移行ツール {#migration-tools}
 
-様々なオプションを使用すると、移行による影響を測定し、潜在的な問題を特定できます。 以下のオプションが実行されます。
+様々なオプションを使用して、移行による影響を測定し、潜在的な問題を特定できます。 次のオプションが実行されます。
 
-* （内） **config** コマンド：
+* が含まれる **config** コマンド：
 
   ```
   nlserver.exe config <option> -instance:<instance-name>
   ```
 
-* または、ポストアップグレード時に次の操作を行います。
+* アップグレード後は、以下が行われます。
 
   ```
   nlserver.exe config -postupgrade <option> -instance:<instance-name>
@@ -68,30 +67,30 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->* 次を使用する必要があります。 **-instance:`<instanceame>`** オプション。 この **-allinstances** オプション。
->* Adobe Campaign update コマンド (**postupgrade**) を使用すると、リソースを同期し、スキーマとデータベースを更新できます。 この操作は、アプリケーションサーバー上で 1 回だけ実行できます。 リソースを同期した後、 **postupgrade** コマンドを使用すると、同期でエラーが発生したか警告が発生したかを検出できます。
+>* を使用する必要があります **-instance:`<instanceame>`** オプション。 を使用することはお勧めしません **-allinstances** オプション。
+>* Adobe Campaignの「更新」コマンド（**アップグレード後**）を使用すると、リソースを同期し、スキーマとデータベースを更新できます。 この操作は、アプリケーションサーバーで 1 回だけ実行できます。 リソースの同期後、 **アップグレード後** コマンドを使用すると、同期でエラーまたは警告が生成されるかどうかを検出できます。
 
-### 非標準のオブジェクトまたは見つからないオブジェクト
+### 非標準オブジェクトまたは不足オブジェクト
 
-* The **-showCustomEntities** 「 」オプションは、非標準オブジェクトのリストを表示します。
+* この **-showCustomEntities** オプションを選択すると、すべての非標準オブジェクトのリストが表示されます。
 
   ```
   nlserver.exe config -showCustomEntities -instance:<instance-name>
   ```
 
-  送信メッセージの例：
+  送信済みメッセージの例：
 
   ```
   xtk_migration:opsecurity2 xtk:entity
   ```
 
-* The **-showDeletedEntities** 「 」オプションは、データベースまたはファイルシステムに存在しないすべての標準オブジェクトのリストを表示します。 見つからない各オブジェクトに対して、パスが指定されます。
+* この **-showDeletedEntities** オプションを選択すると、データベースまたはファイルシステムに存在しないすべての標準オブジェクトのリストが表示されます。 不足している各オブジェクトに対して、パスが指定されます。
 
   ```
   nlserver.exe config -showDeletedEntities -instance:<instance-name>
   ```
 
-  送信メッセージの例：
+  送信済みメッセージの例：
 
   ```
   Out of the box object 'nms:deliveryCustomizationMdl' belonging to the 'xtk:srcSchema' schema has not been found in the file system.
@@ -99,9 +98,9 @@ ht-degree: 1%
 
 ### 検証プロセス {#verification-process}
 
-ポストアップグレードコマンドの標準として統合され、このプロセスにより、移行が失敗する可能性のある警告およびエラーを表示できます。 **エラーが表示される場合、移行は実行されていません。** この場合は、すべてのエラーを修正し、アップグレード後に再起動します。
+アップグレード後のコマンドに標準として統合されているので、このプロセスを使用すると、移行が失敗する可能性のある警告とエラーを表示できます。 **エラーが表示された場合、移行は実行されていません。** この場合は、すべてのエラーを修正し、アップグレード後に再起動します。
 
-次のコマンドを使用して、検証プロセスを移行せずに独自に開始できます。
+検証プロセスは、コマンドを使用して（移行を行わずに）単独で開始できます。
 
 ```
 nlserver.exe config -postupgrade -check -instance:<instance-name>
@@ -109,7 +108,7 @@ nlserver.exe config -postupgrade -check -instance:<instance-name>
 
 >[!NOTE]
 >
->JST-310040コードでは、すべての警告およびエラーを無視できます。
+>すべての警告とエラーは、JST-310040 コードで無視できます。
 
 次の式が検索されます（大文字と小文字が区別されます）。
 
@@ -133,19 +132,19 @@ nlserver.exe config -postupgrade -check -instance:<instance-name>
    <td> common.js<br /> </td> 
    <td> PU-0002<br /> </td> 
    <td> 警告<br /> </td> 
-   <td> このライブラリは使用しないでください。<br /> </td> 
+   <td> このライブラリは使用できません。<br /> </td> 
   </tr> 
   <tr> 
-   <td> logon(<br /> </td> 
+   <td> logon （<br /> </td> 
    <td> PU-0003<br /> </td> 
    <td> 警告<br /> </td> 
-   <td> この接続方法は使用しなくなりました。<br /> </td> 
+   <td> この接続方法は使用しないでください。<br /> </td> 
   </tr> 
   <tr> 
-   <td> new SoapMethodCall(<br /> </td> 
+   <td> 新しい SoapMethodCall （<br /> </td> 
    <td> PU-0004<br /> </td> 
    <td> 警告<br /> </td> 
-   <td> この関数は、 <strong>sessionTokenOnly</strong> モード。<br /> </td> 
+   <td> この関数は、にあるセキュリティゾーンから実行される JavaScript コードで使用される場合にのみサポートされます。 <strong>sessionTokenOnly</strong> モード。<br /> </td> 
   </tr> 
   <tr> 
    <td> sql=<br /> </td> 
@@ -157,24 +156,24 @@ nlserver.exe config -postupgrade -check -instance:<instance-name>
    <td> crmDeploymentType="onpremise"<br /> </td> 
    <td> PU-0007<br /> </td> 
    <td> エラー<br /> </td> 
-   <td> このタイプのデプロイメントはサポートされなくなりました。 Office 365 およびオンプレミスのMicrosoft CRM コネクタの展開の種類は非推奨（廃止予定）となりました。 
-   </br>外部アカウントでこれらの非推奨のデプロイメントタイプのいずれかを使用している場合は、この外部アカウントを削除し、 <b>postupgrade</b> コマンドを使用します。 
-   </br>Web API のデプロイメントに変更するには、 <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Web アプリケーション</a>.<br /> </td>
+   <td> このタイプのデプロイメントはサポートされなくなりました。 Office 365 およびオンプレミス Microsoft CRM コネクタのデプロイメントタイプは非推奨（廃止予定）になりました。 
+   </br>これらの非推奨（廃止予定）のデプロイメントタイプのいずれかを外部アカウントで使用している場合は、この外部アカウントを削除して、 <b>アップグレード後</b> コマンド。 
+   </br>Web API デプロイメントに変更するには、を参照してください。 <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Web アプリケーション</a>.<br /> </td>
   </tr> 
   <tr> 
-   <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 
+   <td> CRM v1 （mscrmWorkflow/sfdcWorkflow）<br /> </td> 
    <td> PU-0008<br /> </td> 
    <td> エラー<br /> </td> 
-   <td> Microsoft CRM、Salesforce、OracleCRM On Demand アクションアクティビティは使用できなくなりました。 Adobe Campaignと CRM システム間のデータ同期を設定するには、 <a href="../../workflow/using/crm-connector.md" target="_blank">CRM コネクタ</a> ターゲティングアクティビティ。<br /> </td>
+   <td> Microsoft CRM、Salesforce、Oracle CRM オンデマンドのアクションアクティビティは使用できなくなりました。 Adobe Campaignと CRM システム間のデータ同期を設定するには、を使用する必要があります <a href="../../workflow/using/crm-connector.md" target="_blank">CRM コネクタ</a> ターゲティングアクティビティ。<br /> </td>
   </tr> 
  </tbody> 
 </table>
 
-また、データベースとスキーマの一貫性チェックも実行されます。
+データベースとスキーマのコヒーレンスチェックも実行されます。
 
 ### 復元オプション {#restoration-option}
 
-このオプションを使用すると、標準のオブジェクトが変更されている場合にそのオブジェクトを復元できます。 復元された各オブジェクトに対して、変更のバックアップが選択したフォルダに保存されます。
+このオプションを使用すると、既製のオブジェクトが変更されている場合に、そのオブジェクトを復元できます。 復元された各オブジェクトについて、変更のバックアップが選択したフォルダーに保存されます。
 
 ```
 nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instance-name>
@@ -182,8 +181,8 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 
 >[!NOTE]
 >
->絶対フォルダーパスを使用し、フォルダーツリー構造を維持することを強くお勧めします。 例： backupFolder\nms\srcSchema\billing.xml
+>絶対フォルダーパスを使用し、フォルダーツリー構造を維持することを強くお勧めします。 例：backupFolder\nms\srcSchema\billing.xml
 
-### 移行を再開 {#resuming-migration}
+### 移行の再開 {#resuming-migration}
 
-移行エラーが発生した後にポストアップグレードを再起動すると、停止した場所から再開されます。
+移行失敗後にアップグレード後を再開した場合、アップグレードは停止した場所から再開されます。

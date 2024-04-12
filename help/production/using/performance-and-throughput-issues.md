@@ -3,16 +3,15 @@ product: campaign
 title: パフォーマンスとスループットの問題
 description: パフォーマンスとスループットの問題
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 8%
+source-wordcount: '695'
+ht-degree: 7%
 
 ---
 
@@ -20,54 +19,54 @@ ht-degree: 8%
 
 
 
-まず、最新のビルドがインストールされていることを確認する必要があります。 これにより、最新の機能とバグ修正を確実に利用できます。
+まず、最新のビルドがインストールされていることを確認する必要があります。 これにより、最新の機能とバグ修正が確実に提供されます。
 
-詳しくは、 [リリースノート](../../rn/using/latest-release.md) を参照してください。
+を参照してください。 [リリースノート](../../rn/using/latest-release.md) 各リリースのコンテンツについて詳しくは、こちらを参照してください。
 
 ## ハードウェアとインフラストラクチャ {#hardware-and-infrastructure}
 
-オンプレミスCampaign Classicのハードウェア要件に関する一般的なガイドラインについては、このドキュメントを参照してください。 [ページ](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html).
+オンプレミスCampaign Classicのハードウェア要件の一般的なガイドラインについて詳しくは、こちらを参照してください [ページ](https://helpx.adobe.com/jp/campaign/kb/hardware-sizing-guide.html).
 
-コンサルティングチームは、ホスト型のお客様に、データベース内の様々なタイプのテーブルでどのくらいの容量が使用されているか、および SFTP サイトで使用されている容量を簡単に表示できるツールを提供できます。 また、不要なデータをクリーンアップするためのツールも提供されています。 連絡先 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) このツールを実装する必要がある場合。 このツールを使用して確認すべき重要な点を次に示します。
+コンサルティングチームは、ホスト環境のお客様に、データベース内の様々なタイプのテーブルで使用されているスペースおよび SFTP サイトで使用されているスペースを簡単に確認できるツールを提供できます。 また、不要なデータをクリーンアップできるツールも用意されています。 連絡先 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) このツールを実装する必要がある場合。 このツールを使用して確認すべき重要な事項を次に示します。
 
-* インデックスサイズがテーブルサイズより大きい場合は、空白が必要です。
-* 最大膨張率を持つテーブルを確認します。 これらのテーブルを頻繁に使用する場合は、バキュームを行う必要があります。
-* データベースをブロックすると、E メールの送信が停止する場合があります。
+* インデックスサイズがテーブルサイズより大きい場合、バキュームが必要です。
+* 最大の膨張を持つテーブルをチェックしてください。 これらのテーブルを頻繁に使用する場合は、掃除機をかける必要があります。
+* データベースがブロックされると、メールが送信されなくなることがあります。
 
-Adobe Campaignは、 [ツール](../../production/using/monitoring-processes.md#manual-monitoring) をクリックして、CPU と RAM の使用量を確認します。 このツールを使用して、次のような特定の指標を確認します。 **メモリ**, **スワップメモリ**, **ディスク**, **アクティブなプロセス**. 値が大きすぎる場合は、ワークフローの数を減らしたり、別の時間に開始するようにワークフローをスケジュールしたりできます。
+Adobe Campaignは、次も提供します [ツール](../../production/using/monitoring-processes.md#manual-monitoring) cpu と RAM の使用状況を確認します。 このツールを使用して、次のような特定の指標を確認します。 **メモリ**, **スワップメモリ**, **ディスク**, **アクティブなプロセス**. 値が大きすぎる場合は、ワークフローの数を減らすか、異なる時間にワークフローを開始するようにスケジュールすることができます。
 
-## データベースのチェック {#database-performances}
+## データベースチェック {#database-performances}
 
-ほとんどの場合、パフォーマンスの問題はデータベースのメンテナンスに関係しています。 次に、確認する主な項目を示します。
+ほとんどの場合、パフォーマンスの問題はデータベースのメンテナンスに関連しています。 確認する主な項目は次のとおりです。
 
-* 設定：最初のAdobe Campaignプラットフォーム設定を確認し、完全なハードウェアチェックを実行することをお勧めします。
-* Adobe Campaignプラットフォームのインストールと設定：ネットワーク設定とプラットフォーム配信品質オプションを確認します。
-* データベースメンテナンス：データベースクリーンアップタスクが動作していること、およびデータベースメンテナンスが正しくスケジュールされ、実行されていることを確認します。 作業用テーブルの数とサイズを確認します。
-* リアルタイム診断：プロセスとプラットフォームのログファイルを確認し、問題の再作成中にデータベースのアクティビティを監視します。
+* 設定：Adobe Campaignのプラットフォームの初期設定を確認し、完全なハードウェアチェックを実行することをお勧めします。
+* Adobe Campaign プラットフォームのインストールと設定：ネットワーク設定とプラットフォームの配信品質オプションを確認します。
+* データベースのメンテナンス：データベースクリーンアップタスクが操作可能で、データベースのメンテナンスが正しくスケジュールおよび実行されていることを確認します。 ワークテーブルの数とサイズを確認します。
+* リアルタイム診断：プロセスおよびプラットフォームのログファイルを確認し、問題を再現する際にデータベースのアクティビティを監視します。
 
 >[!NOTE]
 >
->詳しくは、この節を参照してください。 [データベースのパフォーマンス](../../production/using/database-performances.md).
+>詳しくは、次の節を参照してください。 [データベースパフォーマンス](../../production/using/database-performances.md).
 
 ## アプリケーション設定 {#application-configuration}
 
-以下に、アプリケーション設定のベストプラクティスに関する記事のリストを示します。
+アプリケーション設定のベストプラクティスに関連する記事のリストを以下に示します。
 
-* MTA と MTAChild のプロセスとメモリ： **mta** モジュールはメッセージを配信します **mtachild** 子モジュール。 各 **mtachild** 統計サーバーからの認証をリクエストして送信する前に、メッセージを準備します。 これを参照してください。 [ページ](../../installation/using/email-deliverability.md) を参照してください。
-* TLS 設定：スループットを低下させる可能性があるので、TLS をグローバルに有効にすることはお勧めしません。 代わりに、配信品質チームが管理するドメインごとの TLS 設定は、ニーズに応じて調整する必要があります。 これを参照してください。 [ページ](../../installation/using/email-deliverability.md#mx-configuration) を参照してください。
-* DKIM:DKIM のセキュリティレベルを確保するために、1024b がベストプラクティスとして推奨される暗号化サイズです。 これより小さい DKIM 鍵は、大部分のアクセスプロバイダーでは有効とは見なされません。 [このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
+* MTA および MTAChild のプロセスとメモリ： **mta** モジュールがメッセージを配布します **mtachild** 子モジュール。 Each **mtachild** メッセージを準備してから、統計サーバーに認証をリクエストして送信します。 こちらを参照してください [ページ](../../installation/using/email-deliverability.md) を参照してください。
+* TLS 設定：TLS をグローバルに有効にすると、スループットが低下する可能性があるので、推奨されません。 代わりに、配信品質チームが管理するドメインごとの TLS 設定は、必要に応じて調整する必要があります。 こちらを参照してください [ページ](../../installation/using/email-deliverability.md#mx-configuration) を参照してください。
+* DKIM: DKIM のセキュリティレベルを保証するために、ベストプラクティスの推奨暗号化サイズは 1024b です。 DKIM キーの値を小さくしても、大多数のアクセスプロバイダーは有効と見なしません。 [このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication)を参照してください。
 
 ## 配信品質の問題 {#deliverability-issues}
 
-配信品質に関するベストプラクティスと記事のリストを次に示します。
+配信品質に関連するベストプラクティスと記事のリストを以下に示します。
 
-* IP レピュテーション：IP レピュテーションが十分でない場合、パフォーマンスに影響を与えます。 The **配信品質の監視** モジュールは、プラットフォームの配信品質のパフォーマンスをトラッキングする様々なツールを提供します。 この[ページ](../../delivery/using/monitoring-deliverability.md)を参照してください。
-* IP ウォームアップ：IP ウォームアップは、配信品質チームが実行します。 これには、数週間の間に新しい IP を通じて E メールの数を徐々に増やす必要があります。
-* IP アフィニティの設定：IP アフィニティの設定が正しくないと、E メールが完全に停止したり（設定におけるオペレーター/アフィニティ名が正しくない）、スループットが低下したり（アフィニティ内の IP の数が少ない）する可能性があります。 この[ページ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
-* E メールサイズ：E メールサイズはスループットにおいて重要な役割を果たします。 E メールの推奨最大サイズは 60 KB です。 これを参照してください。 [ページ](https://helpx.adobe.com/legal/product-descriptions/campaign.html). Adobe Analytics の [配信スループット](../../reporting/using/global-reports.md#delivery-throughput) レポートでは、1 時間ごとに転送されたバイト数を確認します。
-* 無効な受信者の数が多い：無効な受信者の数が多い場合は、スループットに影響を与える可能性があります。 MTA は無効な受信者への E メールの送信を再試行し続けます。 データベースが適切にメンテナンスされていることを確認してください。
-* パーソナライゼーションの量：配信が「パーソナライゼーション中」のままの場合は、パーソナライゼーションブロックで使用される JavaScript を確認します。
+* IP レピュテーション：IP レピュテーションが十分に適切でない場合、パフォーマンスに影響を与えます。 この **配信品質の監視** モジュールは、プラットフォームの配信品質パフォーマンスを追跡するための様々なツールを提供します。 この[ページ](../../delivery/using/monitoring-deliverability.md)を参照してください。
+* IP ウォームアップ：IP ウォームアップは、配信品質チームが実行します。 これには、数週間かけて新しい IP を通じてメールの数を徐々に増やす必要があります。
+* IP アフィニティの設定：IP アフィニティの設定を誤ると、メールが完全に停止したり（設定でオペレーター/アフィニティ名が正しくありません）、スループットが低下したり（アフィニティに含まれる IP の数が少なくなっています）することがあります。 この[ページ](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)を参照してください。
+* メールサイズ：メールのサイズは、スループットで重要な役割を果たします。 推奨最大メールサイズは 60 KB です。 こちらを参照してください [ページ](https://helpx.adobe.com/legal/product-descriptions/campaign.html). が含まれる [配信スループット](../../reporting/using/global-reports.md#delivery-throughput) レポートして、時間単位で転送されたバイト数を確認します。
+* 無効な受信者の数が多い：無効な受信者が多数ある場合、スループットに影響する可能性があります。 MTA が無効な受信者へのメールの送信を再試行し続ける。 データベースが適切に維持されていることを確認してください。
+* パーソナライゼーションの量：配信が「パーソナライゼーション中」のままの場合は、パーソナライゼーションブロックで使用されている JavaScript を確認します。
 
 >[!NOTE]
 >
->関連トピック [配信品質](../../delivery/using/about-deliverability.md) 」セクションに入力します。 配信品質の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
+>関連トピック [配信品質](../../delivery/using/about-deliverability.md) セクション。 配信品質の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。

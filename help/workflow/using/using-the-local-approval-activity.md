@@ -2,12 +2,11 @@
 product: campaign
 title: ローカルの承認アクティビティを使用
 description: ローカルの承認アクティビティの使用方法を学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1441'
 ht-degree: 100%
 
 ---

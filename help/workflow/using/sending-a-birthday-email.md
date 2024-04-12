@@ -2,12 +2,11 @@
 product: campaign
 title: 誕生日メールの送信
 description: ワークフローで誕生日のメールを送信する方法を学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '933'
 ht-degree: 100%
 
 ---

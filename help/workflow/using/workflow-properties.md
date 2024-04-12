@@ -2,12 +2,11 @@
 product: campaign
 title: ワークフローのプロパティ
 description: キャンペーンワークフローのプロパティの詳細を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '623'
 ht-degree: 100%
 
 ---

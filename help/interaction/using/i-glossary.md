@@ -3,14 +3,13 @@ product: campaign
 title: Campaign 統合の用語集
 description: Campaign 統合の用語集
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1122'
 ht-degree: 100%
 
 ---

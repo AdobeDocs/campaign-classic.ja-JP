@@ -3,14 +3,13 @@ product: campaign
 title: イベントの記述
 description: SOAP メソッドを使用して、Adobe Campaign Classic でトランザクションメッセージのイベントを管理する方法を学ぶ
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: message-center
 content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '750'
 ht-degree: 100%
 
 ---

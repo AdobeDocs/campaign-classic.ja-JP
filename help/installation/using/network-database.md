@@ -1,17 +1,16 @@
 ---
 product: campaign
 title: ネットワーク、データベース、SSL/TLS
-description: ネットワーク、データベース、SSL/TLS 設定のベストプラクティスの詳細を説明します
+description: ネットワーク、データベース、SSL/TLS 設定のベストプラクティスについて詳しく説明します
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 46%
+source-wordcount: '132'
+ht-degree: 43%
 
 ---
 
@@ -21,12 +20,12 @@ ht-degree: 46%
 
 ## ネットワーク設定
 
-オンプレミスタイプのアーキテクチャをデプロイする際に確認すべき重要な点は、次のとおりです。 [ネットワーク構成](../../installation/using/network-configuration.md). Tomcat サーバーがサーバー外から直接アクセスできないことを確認します。
+オンプレミスタイプのアーキテクチャをデプロイする場合に確認すべき非常に重要な事項は、です。 [ネットワーク設定](../../installation/using/network-configuration.md). Tomcat サーバーがサーバーの外部から直接アクセスできないことを確認します。
 
 * 外部 IP の Tomcat ポート（8080）を閉じます（localhost では動作する必要があります）。
 * 標準 HTTP ポート（80）を Tomcat ポート（8080）にマッピングしないようにします。
 
-可能な場合は、セキュアなチャネルを使用します。 POP3 （または POP3 over TLS）の代わりに POP3S を使用します。
+可能な場合は、次のセキュアチャネルを使用します。POP3S 代わりに POP3 （または TLS 経由の POP3）。
 
 ## データベース
 
@@ -34,7 +33,7 @@ ht-degree: 46%
 
 ## SSL/TLS 設定
 
-証明書を確認するには、OpenSSL を使用できます。 アクティブな暗号をチェックするには、nmap を使用します。
+証明書を確認するには、openssl を使用します。 アクティブな暗号をチェックするには、nmap を使用します。
 
 ```
 #!/bin/sh

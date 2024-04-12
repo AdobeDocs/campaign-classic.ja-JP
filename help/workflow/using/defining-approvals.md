@@ -2,12 +2,11 @@
 product: campaign
 title: 承認の定義
 description: 承認により、オペレーターはワークフロー管理に関する意思決定を行なったり、実行の継続を確定したりできます。
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Approvals
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '872'
 ht-degree: 100%
 
 ---

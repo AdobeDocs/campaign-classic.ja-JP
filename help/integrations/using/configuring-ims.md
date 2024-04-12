@@ -3,15 +3,14 @@ product: campaign
 title: IMS の設定
 description: Adobe ID 経由の接続方法を説明します
 feature: Configuration
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
-source-git-commit: 49271e291953483ee14709b26ec053217a336718
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '340'
 ht-degree: 100%
 
 ---

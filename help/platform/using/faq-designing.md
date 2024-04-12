@@ -3,14 +3,13 @@ product: campaign
 title: メッセージデザインに関する FAQ
 description: Campaign Classic に関する FAQ
 feature: Audiences, Troubleshooting
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---

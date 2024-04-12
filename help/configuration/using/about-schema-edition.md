@@ -1,15 +1,14 @@
 ---
 product: campaign
 title: スキーマエディションについて
-description: スキーマエディションの概要
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
+description: スキーマエディションの基本を学ぶ
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 63%
+source-wordcount: '1013'
+ht-degree: 62%
 
 ---
 
@@ -25,13 +24,13 @@ Adobe Campaign キャンペーンのビルトインテーブルとそのやり�
 
 ## スキーマの拡張または作成 {#extending-or-creating-schemas}
 
-受信者テーブル (nms:recipient) など、Campaign のコアデータスキーマの 1 つにフィールド、インデックス、またはその他の要素を追加するには、そのスキーマを拡張する必要があります。 詳しくは、 [スキーマの拡張](../../configuration/using/extending-a-schema.md) 」セクションに入力します。
+Campaign の中核となるデータスキーマ（受信者テーブル nms:recipient など）にフィールド、インデックスなどの要素を追加する場合は、スキーマを拡張する必要があります。 詳しくは、次を参照してください [スキーマの拡張](../../configuration/using/extending-a-schema.md) セクション。
 
-Adobe Campaign にあらかじめ用意されていないまったく新しい型のデータ（例：契約表）を追加するには、カスタムスキーマを直接作成します。 詳しくは、 [データスキーマ](../../configuration/using/data-schemas.md) 」セクションに入力します。
+Adobe Campaign にあらかじめ用意されていないまったく新しい型のデータ（例：契約表）を追加するには、カスタムスキーマを直接作成します。 詳しくは、次を参照してください [データスキーマ](../../configuration/using/data-schemas.md) セクション。
 
 ![](assets/schemaextension_getting_started_1.png)
 
-作業するスキーマを拡張または作成したら、ベストプラクティスは、次に示すのと同じ順序で XML コンテンツ要素を定義することです。
+作業するスキーマを拡張または作成したら、その XML コンテンツ要素を以下に示すのと同じ順序で定義することをお勧めします。
 
 ## 列挙 {#enumerations}
 
@@ -58,13 +57,13 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >ユーザーが管理する定義済みリスト（通常は&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**&#x200B;の下にあり）を使用して、特定のフィールドの値を指定することもできます。これらは事実上グローバルな定義済みリストであり、作業している特定のスキーマ以外で使用する場合にも役立ちます。
 
-列挙について詳しくは、 [列挙](../../configuration/using/schema-structure.md#enumerations) および [`<enumeration>` 要素](../../configuration/using/schema/enumeration.md) セクション。
+列挙の詳細については、を参照してください [列挙](../../configuration/using/schema-structure.md#enumerations) および [`<enumeration>` 要素](../../configuration/using/schema/enumeration.md) セクション。
 
 ## インデックス {#index}
 
-インデックスは、スキーマのメイン要素で宣言された最初の要素です。
+インデックスは、スキーマのメイン要素で宣言される最初の要素です。
 
-一意である場合もそうでない場合も、1 つ以上のフィールドを参照します。
+一意のフィールドとそうでないフィールドがあり、1 つ以上のフィールドを参照しています。
 
 例：
 
@@ -81,17 +80,17 @@ type="string" enum="exTransactionTypeEnum"/>
 </dbindex>
 ```
 
-The **xpath** 属性は、インデックスを作成するスキーマ内のフィールドを指します。
+この **xpath** 属性は、インデックスを作成するスキーマ内のフィールドを指します。
 
 >[!IMPORTANT]
 >
->インデックスが提供する SQL クエリ読み取りパフォーマンスの向上には、レコードの書き込み時のパフォーマンスヒットも伴うことを覚えておくことが重要です。 したがって、インデックスは用心して使用する必要があります。
+>インデックスによって提供される SQL クエリの読み取りパフォーマンスの向上にも、レコードの書き込み時にパフォーマンスヒットが生じることに注意してください。 したがって、インデックスは慎重に使用する必要があります。
 
-インデックスについて詳しくは、 [インデックス付きのフィールド](../../configuration/using/database-mapping.md#indexed-fields) 」セクションに入力します。
+インデックスの詳細については、 [インデックス付きフィールド](../../configuration/using/database-mapping.md#indexed-fields) セクション。
 
 ## キー {#keys}
 
-各テーブルには少なくとも 1 つのキーが必要で、多くの場合、を使用してスキーマのメイン要素で自動的に確立されます。 **@autopk=true** 属性が「true」に設定されている場合にのみ有効です。
+各テーブルには少なくとも 1 つのキーが必要です。通常、 **@autopk=true** 属性が「true」に設定されました。
 
 プライマリキーは、**internal** 属性を使用して定義することもできます。
 
@@ -103,21 +102,21 @@ The **xpath** 属性は、インデックスを作成するスキーマ内のフ
 </key>
 ```
 
-この例では、 **@autopk** 属性独自の「householdId」プライマリキーを指定する「id」という名前のデフォルトのプライマリキーを作成します。
+この例では、 **@autopk** 属性「id」という名前のデフォルトのプライマリキーを作成します。独自の「householdId」プライマリキーを指定します。
 
 >[!IMPORTANT]
 >
 >スキーマを新しく作成するときや、スキーマを拡張するときは、スキーマ全体で同じプライマリキーのシーケンス値（@pkSequence）を保持する必要があります。
 
-キーについて詳しくは、 [キーの管理](../../configuration/using/database-mapping.md#management-of-keys) 」セクションに入力します。
+キーの詳細については、 [キーの管理](../../configuration/using/database-mapping.md#management-of-keys) セクション。
 
 ## 属性（フィールド） {#attributes--fields-}
 
-属性を使用すると、データオブジェクトを構成するフィールドを定義できます。スキーマエディションのツールバーの「**[!UICONTROL 挿入]**」ボタンを使用すると、カーソルのある XML に空の属性テンプレートをドロップできます。詳しくは、 [データスキーマ](../../configuration/using/data-schemas.md) 」セクションに入力します。
+属性を使用すると、データオブジェクトを構成するフィールドを定義できます。スキーマエディションのツールバーの「**[!UICONTROL 挿入]**」ボタンを使用すると、カーソルのある XML に空の属性テンプレートをドロップできます。詳しくは、次を参照してください [データスキーマ](../../configuration/using/data-schemas.md) セクション。
 
 ![](assets/schemaextension_getting_started_2.png)
 
-属性の完全なリストは、 [`<attribute>` 要素](../../configuration/using/schema/attribute.md) 」セクションに入力します。 よく使用される属性の一部を次に示します。
+すべての属性のリストは、 [`<attribute>` 要素](../../configuration/using/schema/attribute.md) セクション。 よく使用される属性の一部を次に示します。
 
 * **@advanced**
 * **@dataPolicy**
@@ -134,9 +133,9 @@ The **xpath** 属性は、インデックスを作成するスキーマ内のフ
 * **@xml**
 * **@type**
 
-  様々なデータベース管理システムに対して、Adobe Campaignで生成されるデータタイプのマッピングの一覧表を表示するには、 [Adobe Campaign/DBMS データのタイプのマッピング](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) 」セクションに入力します。
+  様々なデータベース管理システム用にAdobe Campaignで生成されるデータタイプのマッピングをリストしたテーブルを表示するには、を参照してください。 [Adobe Campaign/DBMS データのタイプのマッピング](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) セクション。
 
-各属性について詳しくは、 [属性の説明](../../configuration/using/schema/attribute.md) 」セクションに入力します。
+各属性の詳細については、を参照してください [属性の説明](../../configuration/using/schema/attribute.md) セクション。
 
 ### 例 {#examples}
 
@@ -214,7 +213,7 @@ The **xpath** 属性は、インデックスを作成するスキーマ内のフ
 
 ## データベース構造の更新 {#updating-the-database-structure}
 
-変更を完了して保存したらデータベースに適用する必要がありますが、この変更は SQL 構造に影響を与える可能性があります。これをおこなうには、データベース更新ウィザードを使用します。
+変更を完了して保存したらデータベースに適用する必要がありますが、この変更は SQL 構造に影響を与える可能性があります。それには、データベース更新ウィザードを使用します。
 
 ![](assets/schemaextension_getting_started_3.png)
 
@@ -222,4 +221,4 @@ The **xpath** 属性は、インデックスを作成するスキーマ内のフ
 
 >[!NOTE]
 >
->変更がデータベース構造に影響を与えない場合は、スキーマを再生成するだけです。それには、更新するスキーマを選択し、右クリックして「 」を選択します。 **[!UICONTROL アクション/選択したスキーマを再生成…]** . 詳しくは、 [スキーマの再生成](../../configuration/using/regenerating-schemas.md) 」セクションに入力します。
+>変更がデータベース構造に影響を与えない場合は、スキーマを再生成するだけです。それには、更新するスキーマを選択し、右クリックして選択します **[!UICONTROL アクション /選択したスキーマを再生成…]** . 詳しくは、次を参照してください [スキーマの再生成](../../configuration/using/regenerating-schemas.md) セクション。

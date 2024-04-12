@@ -1,18 +1,17 @@
 ---
 product: campaign
-title: Federated Data Access の概要
+title: Federated Data Access の基本を学ぶ
 description: 外部データベースのデータにアクセスして処理する方法を説明します。
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 49%
+source-wordcount: '163'
+ht-degree: 47%
 
 ---
 
-# Federated Data Access の概要 {#about-federated-data-access}
+# Federated Data Access の基本を学ぶ {#about-federated-data-access}
 
 
 
@@ -22,12 +21,12 @@ Adobe Campaign では、**Federated Data Access**（FDA）オプションを利�
 
 FDA オプションを使用すると、サードパーティのデータベースでデータモデルを拡張できます。ターゲットテーブルの構造を自動的に検出し、SQL ソースのデータを使用します。
 
-この機能を使用するための前提条件を次に示します。
+この機能を使用するために、前提条件を以下に示します。
 
-* **設定**：互換性のある外部データベースのリストは、 [ホスティングモデル](../../installation/using/hosting-models.md).
-* **外部データベースのバージョン**:Adobe Campaign FDA モジュールと互換性のある外部データベースが必要です。
+* **設定**：互換性のある外部データベースのリストは、データベースによって異なります [ホスティングモデル](../../installation/using/hosting-models.md).
+* **外部データベース バージョン**:Adobe Campaign FDA モジュールと互換性のある外部データベースが必要です。
 
-  ホスティングモデルごとのデータベースシステムと互換性のあるバージョンのリストについて詳しくは、 Campaign を参照してください。 [互換性マトリックス](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
+  ホスティングモデルごとのデータベースシステムと互換性のあるバージョンのリストについては、Campaign を参照してください [互換性マトリックス](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
 
-* **権限**：ユーザーは、 [必要な権限](../../installation/using/remote-database-access-rights.md) (Adobe Campaignおよび外部データベース )
+* **権限**：ユーザーは次も持っている必要があります [必要な権限](../../installation/using/remote-database-access-rights.md) Adobe Campaign内および外部データベース上。
 

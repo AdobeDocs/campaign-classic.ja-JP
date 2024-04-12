@@ -4,34 +4,33 @@ title: すべての訪問の収集
 description: すべての訪問の収集
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 5%
+source-wordcount: '296'
+ht-degree: 3%
 
 ---
 
 # すべての訪問の収集{#collecting-all-visits}
 
-Adobe Campaignが提供する Web トラッキングモジュールを使用すると、メッセージをクリックした後のサイトトラッキングのコンテキストで、受信者が実行したサイトの特定のページへの訪問回数を収集できます。
+Adobe Campaignが提供する web トラッキングモジュールを使用すると、メッセージがクリックされた後に、サイトトラッキングのコンテキストで受信者が実行したサイトの特定のページへの訪問を収集できます。
 
-ただし、プラットフォームを設定して、プラットフォームに知られているユーザーによる Web トラッキングタグを使用して、ページに対するすべての訪問を収集することはできます。
+ただし、プラットフォームを設定して、そのプラットフォームに既知のユーザーによる web トラッキングタグを持つページへのすべての訪問を収集することができます。
 
-プラットフォームに知られるユーザーとは、配信のターゲットに既になっていて、少なくとも 1 回受信メッセージをクリックした受信者を指します。 この受信者の識別には、永続的な Cookie が使用されます。
+プラットフォームで認識されるユーザーとは、既に配信のターゲットとなっており、受信メッセージを少なくとも 1 回クリックした受信者です。 この受信者の識別には、永続的な Cookie が使用されます。
 
 >[!IMPORTANT]
 >
->Adobe Campaignプラットフォームは、メッセージをクリックした後にサイトに訪問するコンテキスト以外の、Web サイトトラッキングツールとしての使用を目的としていません。 このオプションを有効にすると、サーバーをホストするマシン（リダイレクト、アプリケーション、データベース）上のリソースの使用量が非常に多くなる場合があります。 この読み込みをハードウェアアーキテクチャで確実にサポートできるようにし、また、ホームページなど、最も頻繁にアクセスするページに Web トラッキングタグを配置しないようにすることをお勧めします。
+>Adobe Campaign プラットフォームは、メッセージをクリックしてサイトにアクセスするコンテキスト以外で web サイトトラッキングツールとして使用するためのものではありません。 このオプションを有効にすると、サーバー（リダイレクト、アプリケーションおよびデータベース）をホストするマシン上でリソースの使用率が非常に高くなる可能性があります。 ハードウェアアーキテクチャがこの読み込みをサポートできることを確認し、ホームページなど、最も頻繁にアクセスするページに web トラッキングタグを配置しないようにすることをお勧めします。
 
 ## サーバー設定 {#server-configuration}
 
-サーバーは、 **serverConf.xml** ファイル。 これらのファイルは、 **conf** Adobe Campaignインストールディレクトリのサブディレクトリ。
+サーバーは、の特定の要素をオーバーロードすることで設定されます。 **serverConf.xml** ファイル。 これらのファイルは、 **conf** Adobe Campaign インストールディレクトリのサブディレクトリ。
 
 ### リダイレクトサーバー {#redirection-server}
 
-リダイレクションサーバーの場合、 **trackWebVisitors** の属性 **リダイレクト** 要素から **true**.
+リダイレクトサーバーには、 **trackWebVisitors** 属性 **リダイレクト** 要素の移動先 **true**.
 
 ```
 <redirection P3PCompactPolicy="CAO DSP COR CURa DEVa TAIa OUR BUS IND UNI COM NAV"
@@ -40,11 +39,11 @@ startRedirection="true" startRedirectionInModule="true" trackWebVisitors="true"
 trackingPassword=""
 ```
 
-## デフォルトの一致キャンペーンの設定 {#configuring-a-default-matching-campaign}
+## デフォルトの一致するキャンペーンの設定 {#configuring-a-default-matching-campaign}
 
-クライアントコンソールからトラッキング情報を表示するには、次の操作を行う必要があります。
+クライアントコンソールを使用してトラッキング情報を表示するには、次の手順に従います。
 
-* の作成 **ダミー配信** （配信マッピングは、ターゲットスキーマのマッピングと同一である必要があります）。
-* 次を入力します。 **内部名** 配信の **NmsTracking_WebTrackingDelivery** オプション。
+* を作成 **ダミー配信** 配信マッピングは、ターゲットスキーマのマッピングと同一である必要があります。
+* を入力 **内部名** この配信の **NmsTracking_WebTrackingDelivery** オプション。
 
-E メールのクリックの直後にないすべてのサイトトラッキング情報は、作成したダミー配信で表示できます。
+メール内をクリックした直後ではない、すべてのサイトトラッキング情報は、作成したダミーの配信で表示できます。

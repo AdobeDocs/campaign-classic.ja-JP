@@ -1,27 +1,26 @@
 ---
 product: campaign
-title: サイトに Web トラッキングタグを挿入します。
-description: サイトに Web トラッキングタグを挿入する方法を説明します。
+title: サイトに web トラッキングタグを挿入
+description: サイトに web トラッキングタグを挿入する方法を学ぶ
 feature: Configuration
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 2%
+source-wordcount: '329'
+ht-degree: 0%
 
 ---
 
-# サイトに Web トラッキングタグを挿入します。{#inserting-tags-in-your-site}
+# サイトに web トラッキングタグを挿入{#inserting-tags-in-your-site}
 
-## 単純な方法 {#simple-method}
+## 簡単な方法 {#simple-method}
 
-このメソッドは、 **`<img>`** HTMLタグを使用します。
+このメソッドでは、 **`<img>`** トラッキングする web ページのHTMLソースコードのHTMLタグ。
 
 >[!IMPORTANT]
 >
->この方法では、Web ブラウザーから送信された Cookie を使用して受信者を識別しますが、100%信頼できるわけではありません。
+>このメソッドは、web ブラウザーから送信される Cookie を使用して受信者を識別するもので、100% 信頼性がありません。
 
 **例**：
 
@@ -29,19 +28,19 @@ ht-degree: 2%
 <img height='0' width='0' alt='' src='https://localhost/r/12343?tagid=home'
 ```
 
-挿入されたタグがリダイレクションサーバーに接続します。
+挿入されたタグがリダイレクトサーバーに接続されます。
 
 ![](assets/d_ncs_integration_webtracking_structure2.png)
 
-コンソールで追跡するページを定義する際に、サンプルの Web トラッキングタグを生成して、コピーし、Web ページのソースコードに貼り付けることができます。
+コンソールで追跡するページを定義する場合、サンプルの web トラッキングタグを生成して、web ページのソースコードにコピー&amp;ペーストすることができます。
 
-ただし、TRANSACTION タイプのタグを使用する場合、トランザクション情報（量、項目数）と、拡張スキーマで定義された情報を挿入するために、JavaScript を使用してサンプルタグを変更する必要があります。
+ただし、TRANSACTION タイプのタグを使用する場合、トランザクション情報（量、項目数）および拡張スキーマによって定義された情報を挿入するために、JavaScript を使用してサンプルタグを変更する必要があります。
 
 ### タグの静的挿入 {#static-insertion-of-tags}
 
-静的タグの挿入を実行するには、コンソールで生成されたタグをコピーして貼り付けるか、手動で作成したタグを Web ページのソースに貼り付けます。
+静的タグ挿入を実行するには、コンソールで生成された、または手動で作成されたタグをコピーして web ページのソースに貼り付けるだけです。
 
-**例**：フォームを表示しているページへの web トラッキングタグの挿入。
+**例**：フォームを表示するページへの web トラッキングタグの挿入。
 
 ```
 <html>
@@ -63,7 +62,7 @@ ht-degree: 2%
 </html>
 ```
 
-確認ページ (「amount.md」) への TRANSACTION タイプの Web トラッキングタグの挿入。
+確認ページへの TRANSACTION タイプの web トラッキングタグの挿入（「amount.md」）。
 
 ```
 <html>
@@ -85,11 +84,11 @@ ht-degree: 2%
 </html>
 ```
 
-### Web トラッキングタグの動的生成 {#dynamic-generation-of-web-tracking-tags}
+### Web トラッキングタグの動的な生成 {#dynamic-generation-of-web-tracking-tags}
 
-Web ページが動的に生成される場合、ページ生成時に Web トラッキングタグを追加できます。
+Web ページが動的に生成される場合、ページ生成時に web トラッキングタグを追加できます。
 
-**例**:JSP に追加された Web トラッキング。
+**例**:JSP に追加された web トラッキング。
 
 ```
 <%@page import="java.util.Random" %>
@@ -122,19 +121,19 @@ Web ページが動的に生成される場合、ページ生成時に Web ト�
 </html>
 ```
 
-## 最適な方法 {#optimum-method-}
+## 最適方法 {#optimum-method-}
 
-リダイレクトサーバーに送信される情報を制御する場合、最も信頼性の高い方法は、ページ生成言語を使用して HTTP クエリを同期的に実行することです。
+リダイレクトサーバーに送信される情報を制御したい場合、最も信頼できる方法は、ページ生成言語を使用して HTTP クエリを同期的に実行することです。
 
-作成する URL は、 [Web トラッキングタグ：定義](../../configuration/using/web-tracking-tag-definition.md).
+作成する URL は、で定義された構文ルールに従う必要があります。 [Web トラッキングタグ：定義](../../configuration/using/web-tracking-tag-definition.md).
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 
 >[!NOTE]
 >
->リダイレクションと Web トラッキングでは cookie を使用します。同期 HTTP 呼び出しを実行する Web サーバーが、リダイレクションサーバーと同じドメインにあることが重要です。 様々な HTTP 交換では、「id」、「uuid」および「uuid230」Cookie を伝える必要があります。
+>リダイレクトと Web トラッキングには Cookie が使用されるので、同期 HTTP 呼び出しを実行する Web サーバーは、リダイレクトサーバーと同じドメインにある必要があります。 様々な HTTP 交換によって、「id」、「uuid」、「uuid230」の Cookie を伝える必要があります。
 
-**例**:Java での動的生成。受信者認証にアカウント番号を使用します。
+**例**：アカウント番号を使用した受信者認証による、Java での動的生成。
 
 ```
 [...]

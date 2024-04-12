@@ -2,12 +2,11 @@
 product: campaign
 title: データの読み込み（RDBMS）
 description: データ読み込み（RDBMS）ワークフローアクティビティの詳細を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Data Management Activity
 exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '203'
 ht-degree: 100%
 
 ---

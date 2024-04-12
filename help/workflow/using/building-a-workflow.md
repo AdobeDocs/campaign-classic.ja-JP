@@ -2,12 +2,11 @@
 product: campaign
 title: ワークフローの作成
 description: ワークフローの作成方法を学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1679'
 ht-degree: 100%
 
 ---

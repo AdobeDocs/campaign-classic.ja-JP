@@ -3,14 +3,13 @@ product: campaign
 title: 詳細設定パラメーターの使用
 description: 詳細設定パラメーターの使用
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 232e2bfc-f497-40ad-811e-118dbfcabbcf
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '118'
 ht-degree: 100%
 
 ---

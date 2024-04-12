@@ -2,12 +2,11 @@
 product: campaign
 title: クエリ
 description: クエリワークフローアクティビティの詳細を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Targeting Activity, Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1694'
 ht-degree: 100%
 
 ---

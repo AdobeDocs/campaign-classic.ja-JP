@@ -3,13 +3,12 @@ product: campaign
 title: Campaign から Adobe Experience Platform へのデータのエクスポート
 description: Campaign Classic から Adobe Experience Platform にデータをエクスポートする方法を説明します
 feature: Experience Platform Integration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '476'
 ht-degree: 100%
 
 ---

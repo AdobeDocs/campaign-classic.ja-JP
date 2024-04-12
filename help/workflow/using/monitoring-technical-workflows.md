@@ -2,12 +2,11 @@
 product: campaign
 title: テクニカルワークフローの監視
 description: テクニカルワークフローの監視
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '533'
 ht-degree: 98%
 
 ---
@@ -42,7 +41,7 @@ ht-degree: 98%
 
 **[!UICONTROL データベースクリーンアップワークフロー（「cleanup」）]**&#x200B;の場合：
 
-1. 毎日、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローが実行され、正常に完了していることを確認します。詳しくは、 [ページ](../../production/using/database-cleanup-workflow.md)...
+1. 毎日、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローが実行され、正常に完了していることを確認します。詳しくは、こちらを参照してください。 [ページ](../../production/using/database-cleanup-workflow.md)..
 1. ジャーナルを確認して、経過時間が長期間、比較的一定していて、他のワークフローに干渉していないことを検証します。
 
 **[!UICONTROL トラッキングワークフロー（「tracking」）]**&#x200B;の場合：

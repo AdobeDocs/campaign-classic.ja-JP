@@ -4,22 +4,21 @@ title: JavaScript での SOAP メソッド
 feature: Configuration, Instance Settings
 description: JavaScript での SOAP メソッド
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 13%
+source-wordcount: '136'
+ht-degree: 9%
 
 ---
 
 # JavaScript での SOAP メソッド{#soap-methods-in-javascript}
 
-これは、Adobe Campaignサーバーで実行される JavaScript です。
+Adobe Campaign サーバーで実行される JavaScript です。
 
 ## 静的メソッド {#static-methods}
 
-静的 SOAP メソッドは、スキーマを表すオブジェクトのメソッドを呼び出すことでアクセスされます。 スキーマは、「namespace」オブジェクトのプロパティです。 これらの名前空間はグローバル変数なので、例えば、xtk や nms 変数は対応する名前空間を表します
+静的 SOAP メソッドは、スキーマを表すオブジェクトでメソッドを呼び出すことによってアクセスされます。 スキーマは、「名前空間」オブジェクトのプロパティです。 これらの名前空間はグローバル変数なので、例えば、xtk 変数や nms 変数は対応する名前空間を表します
 
 次の例では、xtk:workflow スキーマの静的 PostEvent メソッドを呼び出します。
 
@@ -29,7 +28,7 @@ xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false)
 
 ## 非静的メソッド {#non-static-methods}
 
-非静的 SOAP メソッドを使用するには、まず対応するスキーマで「get」または「create」メソッドを使用してエンティティを取得する必要があります。
+非静的 SOAP メソッドを使用するには、まず、対応するスキーマの「get」または「create」メソッドを使用してエンティティを取得する必要があります。
 
 次の例では、「xtk:queryDef」スキーマの ExecuteQuery メソッドを呼び出します。
 
@@ -50,7 +49,7 @@ for each (var w in res.workflow)
 
 ## 例 {#examples}
 
-* 「get」操作で受信者テーブルに対するクエリを実行します。
+* 「get」操作を使用して受信者テーブルに対してクエリを実行します。
 
   ```
   var query = xtk.queryDef.create(  
@@ -71,7 +70,7 @@ for each (var w in res.workflow)
   logInfo(recipient.@lastName)
   ```
 
-* 受信者テーブルに対して「選択」操作でクエリを実行します。
+* 「select」操作を使用して受信者テーブルをクエリします。
 
   ```
   var query = xtk.queryDef.create(  
@@ -96,7 +95,7 @@ for each (var w in res.workflow)
   }
   ```
 
-* 受信者テーブルにデータを書き込む：
+* 受信者テーブルへのデータの書き込み：
 
   ```
   xtk.session.Write(<recipient _operation="insert" lastName="Martinez" firstName="Peter" xtkschema="nms:recipient"/>);

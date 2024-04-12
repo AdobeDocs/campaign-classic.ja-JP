@@ -2,14 +2,13 @@
 product: campaign
 title: コネクタについて
 description: コネクタについて
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '193'
 ht-degree: 100%
 
 ---

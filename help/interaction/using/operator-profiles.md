@@ -3,14 +3,13 @@ product: campaign
 title: オペレーターのプロファイル
 description: オペレーターのプロファイル
 feature: Interaction, Offers
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '408'
 ht-degree: 98%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 98%
 
 インタラクションを使用するオペレーターには、オファーマネージャーと配信責任者という 2 つのタイプがあります。それぞれが異なる権限を持ち、ツリーやプラットフォームの一部にのみアクセスできます。
 
-* **[!UICONTROL オファーマネージャー]** ：オファーを作成し、管理します。 ワークフローでオファーを使用する場合は、そのワークフローを実行するために、**[!UICONTROL 管理者]**&#x200B;または&#x200B;**[!UICONTROL オファーマネージャー]**&#x200B;のオペレーターグループにオペレーターが属している必要があります。
+* **[!UICONTROL オファーマネージャー]** ：オファーを作成および管理します。 ワークフローでオファーを使用する場合は、そのワークフローを実行するために、**[!UICONTROL 管理者]**&#x200B;または&#x200B;**[!UICONTROL オファーマネージャー]**&#x200B;のオペレーターグループにオペレーターが属している必要があります。
 * **[!UICONTROL 配信責任者]**：オファーの承認と使用
 
 インタラクションに特化したオペレーターを作成する手順は、このプラットフォームの他のすべてのオペレーターを作成する手順と同じです。詳しくは、[この節](../../platform/using/access-management.md)を参照してください。権限は、オペレーターの作成時に設定します。

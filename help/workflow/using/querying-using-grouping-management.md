@@ -2,12 +2,11 @@
 product: campaign
 title: グループ管理を使用したクエリ
 description: グループ管理を使用したクエリの実行方法を学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Query Editor, Workflows
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---

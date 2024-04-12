@@ -1,17 +1,16 @@
 ---
 product: campaign
 title: セキュリティとプライバシーのチェックリスト
-description: セキュリティとプライバシーに関して確認すべき重要な要素の詳細
+description: セキュリティとプライバシーに関して確認する必要がある主な要素について詳しく説明します
 feature: Installation, Privacy, Access Management, Privacy Tools
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 49%
+source-wordcount: '484'
+ht-degree: 48%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 49%
 
 
 
-この節では、セキュリティとプライバシーに関して確認すべき重要な要素について説明します。 一部の設定はオンプレミスのお客様のみ実行できます。
+ここでは、セキュリティとプライバシーに関して確認する必要のある主な要素を紹介します。 一部の設定は、オンプレミスのお客様のみが実行できます。
 
 ## プライバシー
 
@@ -52,11 +51,11 @@ ht-degree: 49%
 
 Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する場合、常に次のガイドラインに従います。
 
-* **スクリプト**:SQL 文を避けるには、文字列連結ではなくパラメーター化関数を使用します。に使用する SQL 関数を追加して、SQL インジェクションを避け許可リストに加えるます。
+* **スクリプティング**:SQL 文を避け、文字列の連結の代わりに、パラメーター化関数を使用し、使用する SQL 関数を許可リストに追加して SQL 挿入を避けます。
 
 * **データモデルの保護**：ネームド権限を使用してオペレーターのアクションを制限し、システムフィルター（sysFilter）を追加します
 
-* **Web アプリケーションに Captcha を追加**：パブリックランディングページとサブスクリプションページに captcha を追加する方法を説明します。
+* **Web アプリケーションへの captcha の追加**：公開ランディングページと購読ページで captcha を追加する方法を説明します。
 
 [詳細情報](../../installation/using/scripting-coding-guidelines.md)
 
@@ -66,29 +65,29 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 オンプレミス型のアーキテクチャをデプロイする際にチェックすべき最も重要な要素は、ネットワーク設定です。
 
-また、データベースエンジンのセキュリティに従う必要があります。
+また、データベースエンジンのセキュリティに従う必要もあります。
 
 [詳細情報](../../installation/using/network-database.md)
 
 >[!CAUTION]
 >
->2021 年 7 月 14 日以降、TLS 1.2 プロトコルをサポートしていないクライアントシステムは、すべてのAdobe製品およびサービスにアクセスできなくなります。 この日より前に、すべてのユーザーおよびクライアントシステムが TLS 1.2 に準拠していることを確認してください。 [詳細情報](https://helpx.adobe.com/x-productkb/multi/eol-tls-support.html)
+>2021 年 7 月 14 日（PT）以降、TLS 1.2 プロトコルをサポートしないクライアントシステムは、すべてのAdobe製品およびサービスにアクセスできなくなります。 この日付までに、すべてのユーザーシステムとクライアントシステムが TLS 1.2 に準拠していることを確認してください。 [詳細情報](https://helpx.adobe.com/x-productkb/multi/eol-tls-support.html)
 
 ## サーバー設定
 
 <img src="assets/do-not-localize/icon_server.svg" width="60px">
 
-設定は、すべてのサーバーで実行する必要があります。 設定ファイルのタイプはです **serverConf.xml** および **`config-<instance>.xml`**. 次に、確認する必要がある重要な要素を示します。
+設定はすべてのサーバーで実行する必要があります。 設定ファイルのタイプはです **serverConf.xml** および **`config-<instance>.xml`**. 次に、確認する必要がある重要な要素を示します。
 
-* **セキュリティゾーン**：プロキシのクライアントの IP アドレスを直接考慮するようにセキュリティゾーンを設定します。
+* **セキュリティゾーン**：セキュリティゾーンを設定して、プロキシのクライアントの IP アドレスを直接考慮するようにします。
 
-* **ファイルのアップロード保護**：新しい uploadAllowList 属性を使用して、Adobe Campaignサーバーにアップロードできるファイルのタイプを制限します。 これは、サーバー設定ファイルで使用できます。
+* **ファイルのアップロード保護**：新しい uploadAllowList 属性を使用して、Adobe Campaign サーバーにアップロードできるファイルのタイプを制限します。 これは、サーバー設定ファイルで使用できます。
 
 * **リレー**：使用していないモジュール／アプリケーションのリレールールを無効にして、リレー設定を微調整します。
 
-* **発信接続の保護** および **コマンドの制限** （サーバー側）
+* **発信接続の保護** および **コマンドの制限** （サーバーサイド）
 
-* また、HTTP ヘッダーの追加、checkIPConsistent の有効化、enableTLS、sessionTimeOutSec などを行うこともできます。 詳しくは、 [Campaign サーバー設定ドキュメント](../../installation/using/configuring-campaign-server.md) そして [サーバー設定ファイルの説明](../../installation/using/the-server-configuration-file.md) を参照してください。
+* また、追加の HTTP ヘッダーを追加したり、checkIPConsistent、enableTLS、sessionTimeOutSec などを有効化することもできます。 を参照してください。 [Campaign サーバー設定ドキュメント](../../installation/using/configuring-campaign-server.md) および [サーバー設定ファイルの説明](../../installation/using/the-server-configuration-file.md) を参照してください。
 
 [詳細情報](../../installation/using/server-configuration.md)
 
@@ -96,11 +95,11 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 <img src="assets/do-not-localize/icon_web.svg" width="60px">
 
-Web サーバー (Apache/IIS) を設定する際は、次のいくつかのベストプラクティスに従う必要があります。
+Web サーバー（Apache/IIS）を設定する際は、次のベストプラクティスに従う必要があります。
 
 * 古い SSL のバージョンと暗号を無効にする
-* メソッドのTRACE
+* TRACE方式を削除する
 * バナーを削除します。
-* 重要なファイルをアップロードしないようにクエリサイズを制限
+* 重要なファイルがアップロードされないようにクエリサイズを制限
 
 [詳細情報](../../installation/using/web-server-configuration.md)

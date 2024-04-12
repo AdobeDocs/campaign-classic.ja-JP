@@ -1,17 +1,16 @@
 ---
 product: campaign
 title: Sybase IQ へのアクセスを設定する
-description: FDA でのSybase IQへのアクセスの設定方法を説明します
+description: FDA でSybase IQへのアクセスを設定する方法を学ぶ
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0fdf8259-5cab-4a9d-adb3-6c55ec5c8851
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 67%
+source-wordcount: '329'
+ht-degree: 66%
 
 ---
 
@@ -19,14 +18,14 @@ ht-degree: 67%
 
 
 
-キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、Sybase IQへのアクセスを設定します。
+Campaign の使用 **連合データアクセス** （FDA）外部データベースに保存された情報を処理するオプション。 sybase IQへのアクセスを設定するには、次の手順に従います。
 
 1. 設定 [Sybase IQデータベース](#configuring-sybase)
 1. sybase IQの設定 [外部アカウント](#sybase-external) Campaign 内
 
 ## Sybase IQ設定 {#configuring-sybase}
 
-FDA で外部Sybase IQベースに接続するには、Adobe Campaignサーバーで追加の設定が必要になります。
+FDA でSybase IQ外部データベースに接続するには、Adobe Campaign サーバー上で以下の追加設定が必要です。
 
 >[!NOTE]
 >
@@ -70,9 +69,9 @@ FDA で外部Sybase IQベースに接続するには、Adobe Campaignサーバ�
 
 ## Sybase IQ外部アカウント {#sybase-external}
 
-sybase IQ外部アカウントを使用すれば、Campaign インスタンスをSybase IQ外部データベースに接続することができます。
+sybase IQ外部アカウントを使用すると、Campaign インスタンスをSybase IQ外部データベースに接続できます。
 
-1. キャンペーンから **[!UICONTROL エクスプローラ]**&#x200B;をクリックし、 **[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL 外部アカウント]**.
+1. Campaign から **[!UICONTROL エクスプローラー]**&#x200B;を選択し、 **[!UICONTROL 管理]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL 外部アカウント]**.
 
 1. 「**[!UICONTROL 新規]**」をクリックし、「**[!UICONTROL タイプ]**」として「**[!UICONTROL 外部データベース]**」を選択します。
 

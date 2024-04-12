@@ -2,12 +2,11 @@
 product: campaign
 title: キャンペーンのトラッキング
 description: Campaign 分散型マーケティングを使用したキャンペーンのトラッキング方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Distributed Marketing
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '440'
 ht-degree: 89%
 
 ---
@@ -27,7 +26,7 @@ ht-degree: 89%
 
 ## パッケージのフィルタリング {#filter-packages}
 
-「**[!UICONTROL キャンペーン]**」タブから、既存のすべての分散型マーケティングキャンペーンを再グループ化した&#x200B;**[!UICONTROL キャンペーンパッケージ]**&#x200B;リストを表示できます。 このリストをフィルタリングして、パブリッシュ済み、遅延、承認待ちなどのキャンペーンのみを表示できます。 これをおこなうには、このビューの上部のセクションにあるリンクをクリックするか、 **[!UICONTROL フィルターリスト]** リンクをクリックし、表示するキャンペーンパッケージのステータスを選択します。
+「**[!UICONTROL キャンペーン]**」タブから、既存のすべての分散型マーケティングキャンペーンを再グループ化した&#x200B;**[!UICONTROL キャンペーンパッケージ]**&#x200B;リストを表示できます。 このリストをフィルタリングすると、公開済み、遅延、承認待ちなどの状態にあるキャンペーンのみを表示できます。 それには、このビューの上部にあるリンクをクリックするか、 **[!UICONTROL フィルターリスト]** 表示するキャンペーンパッケージのステータスをリンクして選択します。
 
 ![](assets/mkg_dist_catalog_filter.png)
 

@@ -3,15 +3,14 @@ product: campaign
 title: IMS の実装
 description: IMS の実装
 feature: Configuration
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823
-source-git-commit: 49271e291953483ee14709b26ec053217a336718
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '77'
 ht-degree: 100%
 
 ---

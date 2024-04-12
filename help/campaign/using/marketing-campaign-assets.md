@@ -3,12 +3,11 @@ product: campaign
 title: マーケティングキャンペーンドキュメントと配信概要
 description: マーケティングキャンペーンドキュメントと配信概要の詳細
 role: User
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '784'
 ht-degree: 100%
 
 ---

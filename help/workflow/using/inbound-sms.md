@@ -2,12 +2,11 @@
 product: campaign
 title: インバウンド SMS
 description: インバウンド SMS ワークフローアクティビティの詳細を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Channels Activity
 exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '118'
 ht-degree: 100%
 
 ---

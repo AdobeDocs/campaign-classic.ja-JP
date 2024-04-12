@@ -1,16 +1,15 @@
 ---
 product: campaign
 title: Hadoop へのアクセスの設定
-description: FDA でHadoopへのアクセスを設定する方法
+description: FDA でHadoopへのアクセスを設定する方法を説明します
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '600'
 ht-degree: 78%
 
 ---
@@ -19,12 +18,12 @@ ht-degree: 78%
 
 
 
-キャンペーンを使用 **Federated Data Access** (FDA) 外部データベースに保存されている情報を処理するオプション。 次の手順に従って、Hadoopへのアクセスを設定します。
+Campaign の使用 **連合データアクセス** （FDA）外部データベースに保存された情報を処理するオプション。 hadoopへのアクセスを設定するには、次の手順に従います。
 
 1. 設定 [Hadoopデータベース](#configuring-hadoop)
-1. hadoop [外部アカウント](#hadoop-external) Campaign 内
+1. hadoopの設定 [外部アカウント](#hadoop-external) Campaign 内
 
-## hadoop3.0 の設定 {#configuring-hadoop}
+## hadoop 3.0 の設定 {#configuring-hadoop}
 
 FDA で Hadoop 外部データベースに接続するには、Adobe Campaign サーバーで次の設定が必要になります。この設定は、Windows と Linux の両方で利用できます。
 
@@ -39,7 +38,7 @@ FDA で Hadoop 外部データベースに接続するには、Adobe Campaign �
    systemctl start nlserver.service
    ```
 
-1. Campaign Classic では、[!DNL Hadoop] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、 [この節](#hadoop-external).
+1. Campaign Classic では、[!DNL Hadoop] 外部アカウントを設定できます。外部アカウントの設定方法について詳しくは、次を参照してください。 [この節](#hadoop-external).
 
 ## Hadoop 外部アカウント {#hadoop-external}
 
@@ -84,14 +83,14 @@ FDA で Hadoop 外部データベースに接続するには、Adobe Campaign �
 | fileFormat | PARQUET | 作業用テーブルのデフォルトのファイル形式です。 |
 
 
-## hadoop2.1 の設定 {#configure-access-hadoop-2}
+## hadoop 2.1 の設定 {#configure-access-hadoop-2}
 
-hadoop2.1 に接続する必要がある場合は、次の手順に従って、 [Windows](#for-windows) または [Linux](#for-linux).
+hadoop 2.1 に接続する必要がある場合は、以下の手順に従ってください。 [Windows](#for-windows) または [Linux](#for-linux).
 
-### Windows 版hadoop2.1 {#for-windows}
+### Hadoop 2.1 （Windows の場合） {#for-windows}
 
 1. Windows 用の ODBC ドライバーと [Azure HD Insight](https://www.microsoft.com/en-us/download/details.aspx?id=40886) ドライバーをインストールします。
-1. ODBC DataSource Administrator ツールを実行して、DSN（データソース名）を作成します。 ユーザーが変更できる Hive 用 System DSN サンプルが提供されています。
+1. ODBC DataSource Administrator ツールを実行して、DSN （データ・ソース名）を作成します。 ユーザーが変更できる Hive 用 System DSN サンプルが提供されています。
 
    ```
    Description: vorac (or any name you like)
@@ -102,9 +101,9 @@ hadoop2.1 に接続する必要がある場合は、次の手順に従って、 
    User/Password: admin/<your password here>
    ```
 
-1. hadoop外部アカウントを作成します ( [この節](#hadoop-external).
+1. の説明に従って、Hadoop外部アカウントを作成します。 [この節](#hadoop-external).
 
-### Linux 用hadoop2.1 {#for-linux}
+### Linux の場合のHadoop 2.1 {#for-linux}
 
 1. Linux 用の unixODBC をインストールします。
 
@@ -189,4 +188,4 @@ hadoop2.1 に接続する必要がある場合は、次の手順に従って、 
    isql vorac -v
    ```
 
-1. hadoop外部アカウントを作成します ( [この節](#hadoop-external).
+1. の説明に従って、Hadoop外部アカウントを作成します。 [この節](#hadoop-external).

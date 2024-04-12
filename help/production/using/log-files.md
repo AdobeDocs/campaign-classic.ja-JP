@@ -3,16 +3,15 @@ product: campaign
 title: ログファイル
 description: ログファイル
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: c9d427da-6965-4945-90f0-d0770701d55e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 6%
+source-wordcount: '444'
+ht-degree: 4%
 
 ---
 
@@ -20,30 +19,30 @@ ht-degree: 6%
 
 
 
-ログファイルは次のように整理されます。
+ログファイルは、次のように整理されます。
 
 ![](assets/d_ncs_directory.png)
 
-各 **nlserver** モジュールは、次のディレクトリに保存されたログファイルを生成します。 **`<installation directory>`/var/`<instance>`/log/`<module>`.log**.
+Each **nlserver** モジュールは、次のディレクトリに保存されるログファイルを生成します。 **`<installation directory>`/var/`<instance>`/log/`<module>`.log**.
 
-The **nlserver syslogd** モジュールは、ログをディスクに保存します。 このモジュールは Unix に似ています。 **syslog デーモン**&#x200B;を使用していますが、UNIX と Windows の互換性を確保するために変更されています。 他のAdobe Campaignモジュールは、ログをディスクに保存しません。このタスクをに委任します **syslogd** モジュールに送信します。
+この **nlserver syslogd** モジュールはログをディスクに保存します。 このモジュールは Unix に似ています **syslog デーモン**&#x200B;ただし、UNIX と Windows の互換性を考慮して設計されています。 その他のAdobe Campaign モジュールは、ログをディスクに保存せず、このタスクを次のユーザーにデリゲートします **syslogd** UDP パケットを送信してモジュール化します。
 
-デフォルトでは、Adobe Campaignプラットフォームには、 **syslogd** モジュールがインストールされていますが、別のモジュールを使用することも可能です。 **syslog デーモン**. このモジュールは、 **ログ** ディレクトリ。
+Adobe Campaign プラットフォームのデフォルトでは、 **syslogd** モジュールはそれにインストールされていますが、別のものを使用することができます **syslog デーモン**. このモジュールは、 **ログ** ディレクトリ。
 
-マルチインスタンスモジュールのログは、次のディレクトリに保存されます。 **`<installation directory>`/var/default/log/**. 同じログファイルがすべてのインスタンスで共有されます ( 例： **web.log**) をクリックします。
+マルチインスタンスモジュールのログは、次のディレクトリに格納されます。 **`<installation directory>`/var/default/log/**. すべてのインスタンスで同じログファイルが共有されます（例： **web.log**）に設定します。
 
-他のモジュールのログは、インスタンスの名前を持つサブフォルダーに保存されます。 各インスタンスには独自のログファイルがあります。
+他のモジュールのログは、インスタンスにちなんで命名されたサブフォルダーに保存されます。 各インスタンスには独自のログファイルがあります。
 
-マルチインスタンスログファイルを次の表に示します。
+次の表に、複数インスタンスのログファイルを示します。
 
 | ファイル | 説明 |
 |---|---|
 | web.log | Web モジュールログ（クライアントコンソール、レポート、SOAP API など） |
 | webmdl.log | リダイレクトモジュールからのログ |
-| watchdog.log | Adobe Campaign Process Monitoring モジュールからのログ |
+| watchdog.log | Adobe Campaign プロセスモニタリングモジュールからのログ |
 | trackinglogd.log | トラッキングログ |
 
-次の表に、モノラルインスタンスログファイルを示します。
+モノインスタンスログファイルを次の表に示します。
 
 | ファイル | 説明 |
 |---|---|
@@ -51,19 +50,19 @@ The **nlserver syslogd** モジュールは、ログをディスクに保存し�
 | mtachild.log | メッセージ配信処理ログ |
 | wfserver.log | ワークフローサーバーモジュールのログ |
 | runwf.log | ワークフロー実行ログ |
-| inMail.log | バウンスメールモジュールのログ |
-| logins.log | Adobe Campaignへのログイン試行をすべて記録します（成功または失敗）。 |
+| inMail.log | バウンスメールモジュールログ |
+| logins.log | Adobe Campaignへのログイン試行をすべて記録します（成功または失敗） |
 
 >[!IMPORTANT]
 >
->The **redir** ディレクトリはリダイレクトサーバー上にのみ存在します。 The **url** サブディレクトリには、リダイレクトする URL とサブディレクトリの一致が含まれます。 **ログ** には、トラッキングログが含まれます。 トラッキングログを生成するには、 **trackinglogd** モジュールを実行する必要があります。
+>この **redir** ディレクトリはリダイレクトサーバーにのみ存在します。 この **url** サブディレクトリには、リダイレクトされる URL とサブディレクトリの一致が含まれます **ログ** トラッキングログが含まれます。 トラッキングログを生成するには、 **trackinglogd** モジュールが実行中である必要があります。
 
-パフォーマンスとストレージを最適化するために、 logins.log ファイルは複数のファイルに分割され、1 日に 1 つ (logins.yy-mm-dd.log)、最大 365 個のファイルが保持されます。 日数は、serverConf.xml の syslogd (**maxNumberOfLoginsFiles** オプション )。 詳しくは、 [サーバー設定ファイル](../../installation/using/the-server-configuration-file.md#syslogd).
+パフォーマンスとストレージの最適化のために、logins.log ファイルは複数のファイルに分割されます。毎日 1 つのファイル（logins.yy-mm-dd.log）が保持され、最大 365 個のファイルが保持されます。 日数は、syslogd （**maxNumberOfLoginsFiles** （オプション）。 のドキュメントを参照してください。 [サーバー設定ファイル](../../installation/using/the-server-configuration-file.md#syslogd).
 
-デフォルトでは、ログはモジュールごととインスタンスごとに 2 つの 10 MB のファイルに制限されます。 2 つ目のファイルの名前は次のようになります。 **`<modulename>`_2.log**. したがって、ログのサイズは 2 に制限されます&#42;1 モジュールあたり 10 MB、1 インスタンスあたり 10 MB。
+デフォルトでは、ログは、モジュールあたり、およびインスタンスあたり 2 つの 10 MB のファイルに制限されます。 2 つ目のファイルは次のとおりです。 **`<modulename>`_2.log**. したがって、ログのサイズは 2 に制限されます&#42;モジュールおよびインスタンスあたり 10 MB。
 
-ただし、大きなファイルを保持することはできます。 これを有効にするには、 **maxFileSizeMb=&quot;10&quot;** 設定を **syslogd** ノード **conf/serverConf.xml** ファイル。 この値は、ログファイルの最大サイズ (MB) を表します。
+ただし、大きなファイルは保持できます。 これを有効にするには、 **maxFileSizeMb=&quot;10&quot;** での設定 **syslogd** のノード **conf/serverConf.xml** ファイル。 この値は、ログファイルの最大サイズ（MB 単位）を表します。
 
-ログの詳細レベルをさらに維持する場合は、Adobe Campaignモジュールを **-verbose** パラメーター：
+ログの詳細レベルを維持する場合は、次のコードを使用してAdobe Campaign モジュールを開始できます。 **-verbose** パラメーター：
 
-**nlserver start `<MODULE>`@`<INSTANCE>` -verbose**
+**nlserver 開始 `<MODULE>`@`<INSTANCE>` -verbose**

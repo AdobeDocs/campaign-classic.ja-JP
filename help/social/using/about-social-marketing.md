@@ -3,14 +3,13 @@ product: campaign
 title: ソーシャルマーケティングについて
 description: Campaign を使用して Twitter 経由で顧客とやり取りする方法を説明します
 feature: Social Marketing
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: social
 content-type: reference
 topic-tags: introduction
 exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '88'
 ht-degree: 100%
 
 ---

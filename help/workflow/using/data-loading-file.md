@@ -2,12 +2,11 @@
 product: campaign
 title: データ読み込み (ファイル)
 description: データ読み込み（ファイル）ワークフローアクティビティの詳細を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 229844437770c460d958724e2dc15941e35939a6
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1249'
 ht-degree: 92%
 
 ---
@@ -28,17 +27,17 @@ ht-degree: 92%
 
 ![](assets/s_advuser_wf_etl_file.png)
 
-## 前処理ステージの適用 {#pre-processing}
+## 前処理ステージを適用 {#pre-processing}
 
-ファイルのインポート中にプリプロセスを実行するように設定できます。例えば、サーバー上でファイルを解凍せずに（これによりファイルの解凍スペースが節約される）、ファイル処理にファイルの解凍を含めることができます。[処理の前にファイルを解凍または復号化する方法を説明します](../../platform/using/unzip-decrypt.md).
+ファイルのインポート中にプリプロセスを実行するように設定できます。例えば、サーバー上でファイルを解凍せずに（これによりファイルの解凍スペースが節約される）、ファイル処理にファイルの解凍を含めることができます。[処理前にファイルを解凍または復号化する方法を説明します](../../platform/using/unzip-decrypt.md).
 
-これをおこなうには、「 **[!UICONTROL ファイルの前処理]** オプションを選択し、次の 3 つのオプションのいずれかを選択します。 **[!UICONTROL なし]**, **[!UICONTROL 解凍]** (zcat) または **[!UICONTROL 復号化]** (gpg) を使用します。
+これを行うには、 **[!UICONTROL ファイルを前処理]** オプションを選択し、次の 3 つのオプションのいずれかを選択します。 **[!UICONTROL なし]**, **[!UICONTROL 解凍]** （zcat）または **[!UICONTROL 復号]** （gpg）。
 
 ![](assets/preprocessing-dataloading.png)
 
 >[!CAUTION]
 >
->ハイブリッドまたはオンプレミスのデプロイメントを使用している場合、事前処理コマンドは、Windows では使用できない「zcat」をデフォルト設定で使用するので、初期設定では動作しない場合があります。 その場合は、 **preProcessCommand** ノードを設定し、必要に応じてサーバー設定ファイル (serverConf.xml) に配置します。 [サーバー設定ファイルで前処理コマンドを設定する方法を説明します。](../../installation/using/the-server-configuration-file.md#preprocesscommand)
+>ハイブリッドまたはオンプレミスのデプロイメントを使用する場合、デフォルトの設定では「zcat」が使用されますが、Windows では使用できないので、前処理コマンドは標準では動作しない場合があります。 その場合、を調整する必要があります **preProcessCommand** サーバー設定ファイル（serverConf.xml）のノードを、必要に応じて変更します。 [サーバー設定ファイルで前処理コマンドを設定する方法を説明します](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 
 ## ファイルフォーマットの定義 {#defining-the-file-format}
 

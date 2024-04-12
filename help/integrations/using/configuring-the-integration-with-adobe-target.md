@@ -3,14 +3,13 @@ product: campaign
 title: Adobe Target との統合の設定
 description: Adobe Target との統合の設定方法を学ぶ
 feature: Target Integration
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '209'
 ht-degree: 100%
 
 ---

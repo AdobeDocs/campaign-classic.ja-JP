@@ -4,12 +4,11 @@ title: フィルタリングスキーマ
 description: フィルタリングスキーマ
 feature: Custom Resources
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 80%
+source-wordcount: '413'
+ht-degree: 79%
 
 ---
 
@@ -102,12 +101,12 @@ ht-degree: 80%
 
 ## 組み込みスキーマのシステムフィルターの変更 {#modifying-system-filters-of-built-in-schemas}
 
-それでも、既製のスキーマのシステムフィルターは、古いバージョンとの互換性の問題が原因でデフォルトで保護されているので、変更できます。
+標準スキーマのシステムフィルターは引き続き変更できます。このフィルターは、古いバージョンとの互換性の問題が原因でデフォルトで保護されています。
 
 >[!NOTE]
 >
 >ただし、Adobeでは、最適なセキュリティを確保するために、デフォルトのパラメーターを変更しないことをお勧めします。
 
-1. 対象のスキーマの拡張を作成するか、既存の拡張を開きます。
-1. 子要素を追加 **`<sysfilter name="<filter name>" _operation="delete"/>`** をメイン要素内に追加し、元のスキーマ内の同じ配下にあるフィルターの適用を削除します。
-1. 必要に応じて、新しいフィルターを追加できます。詳しくは、 [システムフィルター](#system-filters).
+1. 該当するスキーマの拡張機能を作成するか、既存の拡張機能を開きます。
+1. 子要素を追加 **`<sysfilter name="<filter name>" _operation="delete"/>`** メイン要素内の元のスキーマ内の同じ要素の下にあるフィルターの適用を削除します。
+1. 必要に応じて、新しいフィルターを追加できます。詳細については、を参照してください。 [システムフィルター](#system-filters).

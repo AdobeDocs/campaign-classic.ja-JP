@@ -1,44 +1,43 @@
 ---
 product: campaign
-title: Campaign Classic組み込みパッケージのインストール
-description: Campaign の組み込みパッケージのインストール方法を説明します
+title: Campaign Classicのビルトインパッケージのインストール
+description: Campaign ビルトインパッケージのインストール方法を学ぶ
 feature: Installation, Application Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 12%
+source-wordcount: '1299'
+ht-degree: 11%
 
 ---
 
-# Campaign Classic組み込みパッケージのインストール{#installing-campaign-standard-packages}
+# Campaign Classicのビルトインパッケージのインストール{#installing-campaign-standard-packages}
 
 
 
-## 組み込みパッケージについて {#campaign-standard-packages}
+## ビルトインパッケージについて {#campaign-standard-packages}
 
-組み込みパッケージには、必要に応じて、および契約に応じてインストールできる一連の機能が含まれています。 Campaign の組み込みパッケージの完全なリストは、以下で確認できます。
+ビルトインパッケージには、必要に応じて、契約に応じてインストールできる一連の機能が含まれています。 Campaign ビルトインパッケージの完全なリストは、以下で入手できます。
 
 >[!CAUTION]
 >
->使用許諾契約に記載されているオプションに対応するパッケージのみをインストールできます。
+>ライセンス契約に記載されているオプションに対応するパッケージのみをインストールできます。
 >
->新しいパッケージをインストールすると、すべてのプラットフォームに影響を与える可能性があります。最終的なデプロイメントの前に、テストと検証をおこなう必要があります。
+>新しいパッケージをインストールすると、すべてのプラットフォームに影響を与える可能性があります。最終的なデプロイメントの前にテストおよび検証する必要があります。
 >
->インストールしたパッケージはアンインストールできません。
+>パッケージは、インストール後はアンインストールできません。
 >
->ホスト型またはハイブリッド型のお客様は、Adobeに連絡して、新しい組み込みパッケージをデプロイしてもらいます。
+>ホステッド環境またはハイブリッド環境のお客様は、Adobeに連絡して新しいビルトインパッケージをデプロイしてもらってください。
 
-組み込みパッケージをインストールするには：
+ビルトインパッケージをインストールするには：
 
 1. Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL ツール／高度なツール／パッケージをインポート]**&#x200B;から、パッケージインポートウィザードにアクセスします。
 1. 「**[!UICONTROL 標準パッケージをインストール]**」を選択します。
 1. パッケージリストで、インストールするパッケージを確認します。
    >[!NOTE]
    >
-   >パッケージがグレー表示になっている場合は、既にインストールされているか、お使いのインスタンスと互換性がありません。 互換性について詳しくは、次の表を参照してください。
+   >パッケージがグレー表示されている場合は、が既にインストールされているか、インスタンスと互換性がないことを意味します。 互換性について詳しくは、次の表を参照してください。
 1. 「**[!UICONTROL 次へ]**」、「**[!UICONTROL 開始]**」の順にクリックして、パッケージのインストールを開始します。
 
    パッケージがインストールされると、進行状況バーに **100%** と表示され、インストールログに、「**[!UICONTROL パッケージが正常にインストールされました]**」と表示されます。
@@ -47,9 +46,9 @@ ht-degree: 12%
 
 これで、パッケージがインストールされました。
 
-### 標準パッケージのリスト {#list-of-standard-packages}
+### 標準提供のパッケージのリスト {#list-of-standard-packages}
 
-次の表に、すべての Campaign 組み込みパッケージの一覧を示します。
+次の表に、Campaign のすべてのビルトインパッケージを示します。
 
 <table> 
  <thead> 
@@ -62,33 +61,33 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td> 配信<br /> </td> 
-   <td> 配信と、メッセージの送信時に結果として起こる問題を監視します。 <a href="../../delivery/using/about-delivery-monitoring.md">詳細情報</a><br /> </td> 
+   <td> メッセージの送信時に発生する配信と最終的な問題を監視します。 <a href="../../delivery/using/about-delivery-monitoring.md">詳細情報</a><br /> </td> 
    <td> すべて</td> 
   </tr> 
   <tr> 
-   <td> マーケティングキャンペーン (Campaign)<br /> </td> 
-   <td> 通信およびマーケティングキャンペーンを定義、最適化、実行および分析します。 <a href="../../campaign/using/designing-marketing-campaigns.md">詳細情報</a><br /> </td> 
+   <td> マーケティングキャンペーン（Campaign）<br /> </td> 
+   <td> コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行、分析します。 <a href="../../campaign/using/designing-marketing-campaigns.md">詳細情報</a><br /> </td> 
    <td> マーケティング</td>
   </tr> 
   <tr> 
-   <td> マーケティングリソース (MRM)<br /> </td> 
-   <td> タスク、予算およびマーケティングリソースの管理とトラッキングを提供し、マーケティングアクションを協調モードで制御します。 <a href="../../mrm/using/about-marketing-resource-management.md">詳細情報</a> <br /> </td> 
+   <td> マーケティングリソース（MRM）<br /> </td> 
+   <td> タスク、予算およびマーケティングリソースの管理とトラッキングを提供することにより、協調モードでマーケティングアクションを制御します。 <a href="../../mrm/using/about-marketing-resource-management.md">詳細情報</a> <br /> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 
    <td> オファーエンジン（インタラクション）<br /> </td> 
-   <td> 特定の連絡先（顧客またはターゲット）とのインタラクション中に、1 つまたは複数の適応したオファーを作成して、リアルタイムで応答します。  オプション。 <a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">詳細情報</a> <br /> </td> 
+   <td> 特定の連絡先（顧客またはターゲット）とのインタラクション中に、1 つまたは複数の適合するオファーを提供することで、リアルタイムで応答します。  オプション。 <a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">詳細情報</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
-   <td> 実行インスタンスによるオファーエンジンのコントロール。 オプション。<br /> </td> 
-   <td> オファーエンジン（インタラクション）のコントロールインスタンスにインストールするパッケージ。 <a href="../../interaction/using/distributed-architectures.md#packages-configuration">詳細情報</a> </td> 
-   <td> マーケティング<br /> </td>  
+   <td> 実行インスタンスによるオファーエンジンの制御。 オプション。<br /> </td> 
+   <td> オファーエンジン （インタラクション）のコントロールインスタンスにインストールするパッケージ。 <a href="../../interaction/using/distributed-architectures.md#packages-configuration">詳細情報</a> </td> 
+   <td> Marketing<br /> </td>  
   </tr> 
   <tr> 
-   <td> 実行インスタンス用のオファーエンジン。 オプション。<br /> </td> 
-   <td> オファーエンジン（インタラクション）の実行インスタンスにインストールするパッケージ。 <a href="../../interaction/using/distributed-architectures.md">詳細情報</a> </td> 
-   <td> 中間、実行 <br /> </td>  
+   <td> 実行インスタンスのオファーエンジン。 オプション。<br /> </td> 
+   <td> オファーエンジン （インタラクション）の実行インスタンスにインストールするパッケージ。 <a href="../../interaction/using/distributed-architectures.md">詳細情報</a> </td> 
+   <td> ミッド、実行 <br /> </td>  
   </tr> 
   <!--tr> 
    <td> Lead Management (Leads) (deprecated)<br /> </td> 
@@ -98,31 +97,31 @@ ht-degree: 12%
   </tr--> 
   <tr> 
    <td> ソーシャルネットワーク（ソーシャルマーケティング） <br /> </td> 
-   <td> Adobe Campaignを X( 旧称：Twitter) およびFacebookと同期します。 <a href="../../social/using/about-social-marketing.md">詳細情報</a> <br /> </td> 
+   <td> Adobe Campaignを X （旧称：Twitter）およびFacebookと同期します。 <a href="../../social/using/about-social-marketing.md">詳細情報</a> <br /> </td> 
    <td> すべて</td> 
   </tr> 
   <tr> 
-   <td> トランザクションメッセージコントロール（Message Center — コントロール）<br /> </td> 
-   <td> 情報システムからトリガーされたトリガーから生成されたイベントメッセージを管理します。 オプション。 <a href="../../message-center/using/about-transactional-messaging.md">詳細情報</a> <br /> </td> 
-   <td> マーケティング<br /> </td> 
+   <td> トランザクションメッセージコントロール（Message Center - コントロール）<br /> </td> 
+   <td> 情報システムからトリガーされたイベントから生成されたトリガーメッセージを管理します。 オプション。 <a href="../../message-center/using/about-transactional-messaging.md">詳細情報</a> <br /> </td> 
+   <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
-   <td> トランザクションメッセージ実行（Message Center — 実行） <br /> </td> 
-   <td> 高い可用性と優れた負荷管理を確保します。 オプション。 <a href="../../message-center/using/about-transactional-messaging.md">詳細情報</a><br /> </td> 
+   <td> トランザクションメッセージの実行（Message Center – 実行） <br /> </td> 
+   <td> 高可用性と優れた負荷管理を実現します。 オプション。 <a href="../../message-center/using/about-transactional-messaging.md">詳細情報</a><br /> </td> 
    <td> 実行<br /> </td>
   </tr> 
   <tr> 
    <td> LINE チャネル<br /> </td> 
-   <td> Adobe Campaignで LINE チャネルを使用して配信を送信します。 オプション。 トランザクションメッセージ（Message Center パッケージ）が必須です。 <a href="../../delivery/using/line-channel.md">詳細情報</a> <br /> </td> 
+   <td> Adobe Campaignで LINE チャネルを使用して配信を送信します。 オプション。 トランザクションメッセージ （Message Center パッケージ）は必須です。 <a href="../../delivery/using/line-channel.md">詳細情報</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
    <td> ダイレクトメールチャネル<br /> </td> 
-   <td> Adobe Campaignでダイレクトメールチャネルを使用して配信を送信します。 オプション。 <a href="../../delivery/using/about-direct-mail-channel.md">詳細情報</a><br /> </td> 
+   <td> Adobe Campaignのダイレクトメールチャネルを使用して配信を送信します。 オプション。 <a href="../../delivery/using/about-direct-mail-channel.md">詳細情報</a><br /> </td> 
    <td> すべて<br /> </td>
   </tr> 
   <tr> 
-   <td> モバイルチャネル (SMS) <br /> </td> 
+   <td> モバイルチャネル （SMS） <br /> </td> 
    <td> Adobe Campaignでモバイル/SMS チャネルを使用して配信を送信します。 オプション。 <a href="../../delivery/using/sms-channel.md">詳細情報</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
@@ -133,107 +132,107 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td> モバイルアプリチャネル<br /> </td> 
-   <td> Adobe Campaignプラットフォームを使用して、アプリを介してiOSおよび Android の端末にパーソナライズされた通知を送信します。 オプション。 <a href="../../delivery/using/about-mobile-app-channel.md">詳細情報</a> <br /> </td> 
+   <td> は、Adobe Campaign プラットフォームを使用して、パーソナライズされた通知をアプリ経由でiOSおよび Android 端末に送信します。 オプション。 <a href="../../delivery/using/about-mobile-app-channel.md">詳細情報</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
    <td> コンテンツマネージャー<br /> </td> 
-   <td> 定期的なニュースレターや Web サイトを作成し、メッセージを検証して公開します。 <a href="../../delivery/using/about-content-management.md">詳細情報</a> <br /> </td> 
+   <td> 定期的なニュースレターまたは web サイトを作成し、メッセージを検証して公開します。 <a href="../../delivery/using/about-content-management.md">詳細情報</a> <br /> </td> 
    <td> </td>
   </tr> 
   <tr> 
-   <td> オンライン調査（調査マネージャー）<br /> </td> 
-   <td> プロファイル情報の追加や変更、購読、購読解除、競合他社の入力フォームを行うオンラインフォームを作成および管理します。 オプション。 <a href="../../surveys/using/about-surveys.md">詳細情報</a> <br /> </td> 
-   <td> マーケティング<br /> </td> 
+   <td> オンライン調査（調査マネージャ）<br /> </td> 
+   <td> プロファイル情報の追加または変更、購読、購読解除、コンテストにエントリーするためのオンラインフォームを作成および管理します。 オプション。 <a href="../../surveys/using/about-surveys.md">詳細情報</a> <br /> </td> 
+   <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> マーケティング分析<br /> </td> 
-   <td> データの分析と測定、統計の計算、レポートの作成と計算のシンプル化および最適化が可能です。 また、レポートを作成し、ターゲット母集団を作成することもできます。 オプション。 <a href="../../reporting/using/ac-cubes.md">詳細情報</a><br /> </td> 
-   <td> マーケティング<br /> </td> 
+   <td> を使用すると、データの分析と測定、統計の計算、レポートの作成と計算の簡素化および最適化を行うことができます。 また、レポートを作成して、ターゲット母集団を作成できます。 オプション。 <a href="../../reporting/using/ac-cubes.md">詳細情報</a><br /> </td> 
+   <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> Response Manager<br /> </td> 
-   <td> すべての通信チャネルに対するマーケティングキャンペーンまたはオファーの提案の成功と収益性を測定します。  オプション。 <a href="../../response/using/about-response-manager.md">詳細情報</a> <br /> </td> 
-   <td> マーケティング<br /> </td> 
+   <td> マーケティングキャンペーンの成功と収益性を測定したり、すべての通信チャネルのオファーの提案を測定したりします。  オプション。 <a href="../../response/using/about-response-manager.md">詳細情報</a> <br /> </td> 
+   <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
-   <td> 外部データへのアクセス (Federated Data Access)<br /> </td> 
-   <td> 1 つ以上の外部データベースに保存されている情報を処理するために、 Federated Data Access(FDA) オプションが用意されており、Adobe Campaignデータの構造を変更せずに外部データにアクセスできます。  オプション。 <a href="../../workflow/using/accessing-an-external-database-fda.md">詳細情報</a> <br /> </td> 
+   <td> 外部データへのアクセス （Federated Data Access）<br /> </td> 
+   <td> Adobe Campaign データの構造を変更せずに外部データにアクセスできるように、1 つ以上の外部データベースに保存されている情報を処理するための Federated Data Access （FDA） オプションが用意されています。  オプション。 <a href="../../workflow/using/accessing-an-external-database-fda.md">詳細情報</a> <br /> </td> 
    <td> すべて<br /> </td> 
   </tr> 
   <tr> 
    <td> キャンペーンの最適化<br /> </td> 
-   <td> 配信の送信を制御、フィルタリングおよび監視し、会社の通信ポリシーに従って、送信されたメッセージが顧客のニーズと期待に最も合うようにします。 オプション。 <a href="../../campaign-opt/using/about-campaign-typologies.md">詳細情報</a> <br /> </td> 
-   <td> マーケティング<br /> </td> 
+   <td> 会社の通信ポリシーに従って、送信するメッセージが顧客のニーズと期待に最もよく合うように、配信の送信を制御、フィルターおよび監視します。 オプション。 <a href="../../campaign-opt/using/about-campaign-typologies.md">詳細情報</a> <br /> </td> 
+   <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> 配信品質の監視 (メールの配信品質)<br /> </td> 
-   <td> バウンスしたりスパムとしてマークされたりせずに受信者の受信ボックスに到達したかに基づいて、キャンペーンの成功を測定します。 オプション。 <a href="../../delivery/using/about-deliverability.md">詳細情報</a> <br /> </td> 
+   <td> バウンスしたりスパムと見なされたりすることなく、受信者のインボックスに到達するキャンペーンの成否を測定します。 オプション。 <a href="../../delivery/using/about-deliverability.md">詳細情報</a> <br /> </td> 
    <td> すべて </td> 
   </tr> 
   <tr> 
    <td> クーポン管理<br /> </td> 
-   <td> 次回のマーケティングオファーに追加するクーポンのセットを作成します。 オプション。 <a href="../../delivery/using/personalized-coupons.md">詳細情報</a> <br /> </td> 
-   <td> マーケティング<br /> </td> 
+   <td> 今後のマーケティングオファーに追加するクーポンのセットを作成します。 オプション。 <a href="../../delivery/using/personalized-coupons.md">詳細情報</a> <br /> </td> 
+   <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
-   <td> 受信ボックスレンダリング (IR)<br /> </td> 
-   <td> 異なるコンテキストで受信される可能性のある、送信されたメッセージをプレビューし、メジャーなデスクトップおよびアプリケーションの互換性を確認できます。 オプション。 <a href="../../delivery/using/inbox-rendering.md">詳細情報</a><br /> </td> 
-   <td> マーケティング<br /> </td> 
+   <td> 受信ボックスレンダリング（IR）<br /> </td> 
+   <td> 様々なコンテキストで送信され、受信されるメッセージをプレビューし、主要なデスクトップやアプリケーションの互換性を確認できます。 オプション。 <a href="../../delivery/using/inbox-rendering.md">詳細情報</a><br /> </td> 
+   <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
-   <td> セントラル/ローカルマーケティング（分散型マーケティング）<br /> </td> 
-   <td> セントラルエンティティ（本社、マーケティング部門など）間の協調キャンペーンの実装 およびローカルエンティティ（販売店、地域代理店など）との共同作業によるキャンペーンを実装できます。オプション。 <a href="../../distributed/using/about-distributed-marketing.md">詳細情報</a><br /> </td> 
+   <td> セントラルマーケティング/ローカルマーケティング（分散型マーケティング）<br /> </td> 
+   <td> セントラルエンティティ（本社、マーケティング部門など）間で協調キャンペーンを実装します。 およびローカルエンティティ（販売店、地域代理店など）との共同作業によるキャンペーンを実装できます。オプション。 <a href="../../distributed/using/about-distributed-marketing.md">詳細情報</a><br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 
    <td> CRM コネクタ<br /> </td> 
-   <td> Adobe Campaignプラットフォームをサードパーティのシステムにリンクするための様々な CRM コネクタを提供します。  <a href="../../platform/using/crm-connectors.md">詳細情報</a> <br /> </td> 
+   <td> は、Adobe Campaign プラットフォームをサードパーティシステムにリンクするための様々な CRM コネクタを提供します。  <a href="../../platform/using/crm-connectors.md">詳細情報</a> <br /> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 
    <td> Web 分析コネクタ<br /> </td> 
-   <td> Adobe CampaignとAdobe Analyticsが Web 分析コネクタパッケージを介してやり取りできるようにします。 トランザクションメッセージ（Message Center パッケージ）とは互換性がありません。 <a href="../../platform/using/gs-aa.md">詳細情報</a><br /> </td> 
+   <td> Adobe CampaignとAdobe Analyticsが、Web 分析コネクタ パッケージを介してやり取りできるようにします。 トランザクションメッセージ（Message Center パッケージ）との互換性がありません。 <a href="../../platform/using/gs-aa.md">詳細情報</a><br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 
-   <td> AEM統合<br /> </td> 
-   <td> E メール配信とフォームのコンテンツをAdobe Experience Managerで直接管理し、AEMのコンテンツ編集機能やAdobe Campaignの配信能力を活用することができます。 <a href="../../integrations/using/about-adobe-experience-manager.md">詳細情報</a> <br /> </td> 
+   <td> AEMの統合<br /> </td> 
+   <td> では、AEMのコンテンツ編集機能とAdobe Campaignの配信機能を活用するために、メール配信とフォームのコンテンツをAdobe Experience Managerで直接管理できます。 <a href="../../integrations/using/about-adobe-experience-manager.md">詳細情報</a> <br /> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud Shared Audiences の統合<br /> </td> 
-   <td> Adobe Experience Cloudソリューションやコアサービスとオーディエンスやセグメントを交換し、共有できます。 IMS が必要です。 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">詳細情報</a> <br /> </td> 
-   <td> マーケティング<br /> </td> 
+   <td> Adobe Experience Cloud共有オーディエンスの統合<br /> </td> 
+   <td> を使用すると、オーディエンス/セグメントをAdobe Experience Cloud ソリューションおよびコアサービスと交換し、共有できます。 IMS が必要です。 <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">詳細情報</a> <br /> </td> 
+   <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Experience Cloudとの統合<br /> </td> 
-   <td> 別のAdobe Experience Cloudソリューションのオーディエンス/セグメントをAdobe Campaignにインポートおよびエクスポートできます。 オプション。 <a href="../../integrations/using/configuring-ims.md#installing-the-package">詳細情報</a> </td> 
+   <td> 様々なAdobe Experience Cloud ソリューションからAdobe Campaignへのオーディエンス/セグメントの読み込みおよび書き出しが可能です。 オプション。 <a href="../../integrations/using/configuring-ims.md#installing-the-package">詳細情報</a> </td> 
    <td> マーケティング</td> 
   </tr> 
   <tr> 
    <td> プライバシーデータ保護規則<br /> </td> 
-   <td> プライバシーのコンプライアンスに役立つ追加機能がCampaign Classicに含まれています。 <a href="https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html">詳細情報</a> <br /> </td> 
+   <td> Campaign Classicのプライバシーコンプライアンスに役立つ追加機能が含まれます。 <a href="https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html">詳細情報</a> <br /> </td> 
    <td> すべて</td> 
   </tr> 
   <tr> 
    <td> ミッドソーシング転送 <br /> </td> 
-   <td> ミッドソーシングサーバーのインストールと設定の詳細、およびサードパーティがミッドソーシングモードでメッセージを送信できるようにするインスタンスのデプロイメントについて説明します。 オプション。 <a href="../../installation/using/mid-sourcing-server.md">詳細情報</a> <br /> </td> 
+   <td> ミッドソーシングサーバーのインストールと設定、およびサードパーティがミッドソーシングモードでメッセージを送信できるインスタンスのデプロイメントについて詳しく説明します。 オプション。 <a href="../../installation/using/mid-sourcing-server.md">詳細情報</a> <br /> </td> 
    <td> マーケティング </td> 
   </tr> 
   <tr> 
    <td> ミッドソーシングプラットフォーム<br /> </td> 
-   <td> この設定は、ホスト (ASP) 設定と内部化の間の最適な中間ソリューションです。 外向きの実行コンポーネントは、Adobe Campaignでホストされる「ミッドソーシング」サーバーで実行されます。 オプション。 <a href="../../installation/using/mid-sourcing-server.md">詳細情報</a> <br /> </td> 
+   <td> この設定は、ホスト型（ASP）設定と内部化の間の最適な中間ソリューションです。 外部向きの実行コンポーネントは、Adobe Campaignでホストされる「ミッドソーシング」サーバーで実行されます。 オプション。 <a href="../../installation/using/mid-sourcing-server.md">詳細情報</a> <br /> </td> 
    <td> ミッドソーシング </td> 
   </tr> 
   <tr> 
-   <td> AMP のサポート<br /> </td> 
-   <td> 新しいインタラクティブ AMP for e メールフォーマットを使用して、動的な E メールを送信できます。 オプション。 <a href="../../delivery/using/defining-interactive-content.md">詳細情報</a> <br /> </td> 
+   <td> AMP サポート<br /> </td> 
+   <td> を使用すると、新しいインタラクティブ AMP for E メールフォーマットを使用し、動的なメールを送信できます。 オプション。 <a href="../../delivery/using/defining-interactive-content.md">詳細情報</a> <br /> </td> 
    <td> すべて </td> 
   </tr> 
   <tr> 
    <td> ACS コネクタ（非推奨）<br /> </td> 
-   <td> Adobe Campaign v7 とAdobe Campaign Standardを橋渡しします。 Campaign v7 の統合機能で、Campaign Standard にデータを自動的にレプリケートして、両方のアプリケーションの優れた機能を連携させます。オプション。<br /> </td> 
+   <td> Adobe Campaign v7 とAdobe Campaign Standardをブリッジします。 Campaign v7 の統合機能で、Campaign Standard にデータを自動的にレプリケートして、両方のアプリケーションの優れた機能を連携させます。オプション。<br /> </td> 
    <td> マーケティング </td> 
   </tr> 
  </tbody> 
@@ -241,32 +240,32 @@ ht-degree: 12%
 
 ### Message Center パッケージ {#message-center-package}
 
-配信チャネル（E メール、モバイルチャネル、モバイルアプリチャネル、LINE など）を トランザクションメッセージ（Message Center パッケージ）をインストールする前に、 E メールのみの Message Center プロジェクトを開始し、その後新しいチャネルを追加する必要がある場合は、次の手順に従う必要があります。
+配信チャネル（メール、モバイルチャネル、モバイルアプリチャネル、LINE など）をインストールする必要があります トランザクションメッセージをインストールする前に（Message Center パッケージ）。 メールのみの Message Center プロジェクトを開始し、後で新しいチャネルを追加する必要がある場合は、次の手順に従う必要があります。
 
-1. 新しいチャネル（例： ）をインストールします。 **モバイルチャネル**、パッケージインポートウィザード ( **[!UICONTROL ツール/詳細設定/パッケージをインポート/Adobe Campaignパッケージ]**) をクリックします。
-1. ファイルをインポートします ( **[!UICONTROL ツール/詳細設定/パッケージをインポート/ファイル]**) をクリックし、次の項目を選択します。
+1. 新しいチャネル（例：）をインストールします **モバイルチャネル**&#x200B;パッケージインポートウィザード（ **[!UICONTROL ツール /詳細/ パッケージをインポート / Adobe Campaign パッケージ]**）に設定します。
+1. ファイル （ **[!UICONTROL ツール /詳細/ パッケージをインポート / ファイル]**）を選択してから、以下を選択します。
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. Adobe Analytics の **[!UICONTROL インポートする XML データコンテンツ]**&#x200B;関連するチャネルに対応する Message Center の配信テンプレートのみを残します。 例えば、 **モバイルチャネル**&#x200B;を保持する場合は、 **エンティティ** 次に対応する要素 **[!UICONTROL モバイルトランザクションメッセージ]** (smsTriggerMessage) テンプレート。 次の項目を追加した場合、 **モバイルアプリチャネル**&#x200B;を保持する場合は、 **iOSトランザクションメッセージ** テンプレート (iosTriggerMessage) および **Android トランザクションメッセージ** (androidTriggerMessage)。
+1. が含まれる **[!UICONTROL インポートする XML データコンテンツ]**&#x200B;関連するチャネルに対応する Message Center の配信テンプレートのみを保持します。 例えば、 **モバイルチャネル**、のみを保持 **エンティティ** に対応する要素 **[!UICONTROL モバイルトランザクションメッセージ]** （smsTriggerMessage）テンプレート。 を追加している場合 **モバイルアプリチャネル**、のみを保持 **iOS トランザクションメッセージ** テンプレート（iosTriggerMessage）と **Android トランザクションメッセージ** （androidTriggerMessage）。
 
    ![](assets/messagecenter_install_channel.png)
 
 
 ### [!DNL LINE] チャネル設定{#line-package}
 
-次の手順で [!DNL LINE] チャネルに追加する場合は、まず [!DNL LINE] パッケージ。
+を設定するには [!DNL LINE] チャネル。最初にをインストールする必要があります [!DNL LINE] パッケージ。
 
 ミッドソーシング設定のコンテキストでは、次の操作が必要です。
 
-* をインストールします。 [!DNL LINE] マーケティングインスタンスと MID インスタンスの両方にパッケージを作成する
+* のインストール [!DNL LINE] マーケティングインスタンスと MID インスタンスの両方のパッケージ
 
-* のセットアップ [!DNL LINE] 配信モードを変更して、mkt インスタンスの外部アカウントで mid インスタンスを指すようにします。 [詳細情報](../../delivery/using/line-channel.md#configure-line-external)
+* の設定 [!DNL LINE] 配信モードを変更して mid インスタンスを指す、mkt インスタンスの外部アカウント。 [詳細情報](../../delivery/using/line-channel.md#configure-line-external)
 
-* のセットアップ [!DNL LINE] MID インスタンスの外部アカウントの資格情報。
+* の設定 [!DNL LINE] mid インスタンス上の外部アカウントの資格情報。
 
 >[!CAUTION]
 >
->用の Message Center の配信テンプレート [!DNL LINE] 以前に Message Center パッケージがインストールされている場合、チャネルは使用できません。 [!DNL LINE].
+>Message Center 配信テンプレート： [!DNL LINE] message Center パッケージが以前にインストールされている場合、チャネルを使用することはできません [!DNL LINE].

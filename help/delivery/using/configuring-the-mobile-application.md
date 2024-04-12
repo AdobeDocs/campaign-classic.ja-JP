@@ -2,13 +2,12 @@
 product: campaign
 title: Adobe Campaign での iOS モバイルアプリケーションの設定
 description: iOS 用モバイルアプリケーションの設定方法を学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 466f04bce8f4c62b5dbb0e9d15150ab0c3bf2fbd
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '682'
 ht-degree: 96%
 
 ---
@@ -102,7 +101,7 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
 1. 「**[!UICONTROL アプリケーションアイコン]**」フィールドからあらかじめ用意されているアイコンの 1 つを選択して、サービス内のモバイルアプリケーションをパーソナライズします。
 
-1. を選択します。 **[!UICONTROL 認証モード]**.
+1. 「」を選択します **[!UICONTROL 認証モード]**.
 
    ![](assets/nmac_ios_5.png)
 
@@ -114,7 +113,7 @@ iOS では、iOS HTTP/2 コネクタが HTTP/2 APNs に通知を送信します�
 
    >[!NOTE]
    >
-   > Adobeは、 **[!UICONTROL トークンベースの認証]** P8 認証キーの方が新しく安全なので、iOSの設定に応じて変更してください。
+   > Adobeでは、を使用することをお勧めします。 **[!UICONTROL トークンベースの認証]** p8 認証キーが新しく、より安全なので、iOS設定の場合。
 
 1. 「**[!UICONTROL 接続をテスト]**」ボタンを使用して、設定を検証します。
 

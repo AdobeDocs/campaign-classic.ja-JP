@@ -1,14 +1,13 @@
 ---
 product: campaign
 title: パーソナライゼーションとプライバシー
-description: プライバシーとパーソナライゼーションのセキュリティのベストプラクティスについて説明します
+description: プライバシーとパーソナライゼーションに関するセキュリティのベストプラクティスについて説明します
 feature: Installation, Privacy, Privacy Tools, URL Personalization
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: a2106e55617209f28da42c50008d16188563b2da
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 21%
+source-wordcount: '815'
+ht-degree: 20%
 
 ---
 
@@ -26,13 +25,13 @@ ht-degree: 21%
 
 ### レコメンデーション
 
-上記を使用していないことを検証し確認するには、を使用してトラッキング URL テーブルに対してクエリを実行します。 [キャンペーン汎用クエリエディター](../../platform/using/steps-to-create-a-query.md) または、 [クエリアクティビティ](../../workflow/using/query.md).
+上記を使用していないことを検証および確認するには、以下を介してトラッキング URL テーブルに関するクエリを実行します [Campaign 汎用クエリエディター](../../platform/using/steps-to-create-a-query.md) または、でフィルター条件を使用してワークフローを作成します [クエリアクティビティ](../../workflow/using/query.md).
 
 例：
 
-1. ワークフローを作成し、 **クエリ** アクティビティ。 [詳細情報](../../workflow/using/query.md)。
+1. ワークフローを作成して追加 **クエリ** アクティビティ。 [詳細情報](../../workflow/using/query.md)。
 
-1. を開きます。 **クエリ** アクティビティを作成し、 `nmsTrackingUrl` 表を次に示します。
+1. を開きます **クエリ** アクティビティを選択し、 `nmsTrackingUrl` 次の表を参照してください。
 
    `source URL starts with http://<% or source URL starts with https://<%`
 
@@ -45,51 +44,51 @@ ht-degree: 21%
 
 ### URL 署名
 
-セキュリティを強化するために、E メール内のリンクを追跡するための署名メカニズムが導入されました。 これは、ビルド 19.1.4(9032@3a9dc9c) および 20.2 以降で使用できます。この機能は、デフォルトで有効になっています。
+セキュリティを向上させるために、メール内のリンクをトラッキングするための署名メカニズムが導入されました。 ビルド 19.1.4 （9032@3a9dc9c）および 20.2 以降で使用できます。この機能はデフォルトで有効になっています。
 
 >[!NOTE]
 >
->不正な形式の署名済み URL がクリックされると、次のエラーが返されます。 `Requested URL '…' was not found.`
+>不正な形式の署名済み URL をクリックすると、次のエラーが返されます。 `Requested URL '…' was not found.`
 
-また、拡張機能を使用して、以前のビルドで生成された URL を無効にすることができます。 この機能は、デフォルトでは無効になっています。 次の場所に移動して、 [カスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) この機能を有効にするには、をクリックします。
+さらに、機能強化を使用して、以前のビルドで生成された URL を無効にすることができます。 この機能は、デフォルトでは無効になっています。 にお問い合わせください。 [カスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) ：この機能を有効にします。
 
-19.1.4 ビルドで実行している場合、トラッキングリンクを使用したプッシュ通知配信、またはアンカータグを使用した配信で問題が発生する可能性があります。 その場合は、URL 署名を無効にすることをお勧めします。
+ビルド 19.1.4 を実行している場合、トラッキングリンクを使用したプッシュ通知配信や、アンカータグを使用した配信で問題が発生する可能性があります。 その場合は、URL 署名を無効にすることをお勧めします。
 
-Campaign がホストする、管理対象Cloud Service、ハイブリッド顧客は、 [カスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) URL 署名を無効にする。
+Campaign がホストするマネージドCloud Serviceまたはハイブリッドのお客様は、次の URL にアクセスする必要があります。 [カスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) で URL 署名を無効にします。
 
-ハイブリッドアーキテクチャで Campaign を実行している場合は、URL 署名を有効にする前に、ホストされているミッドソーシングインスタンスが次のようにアップグレードされていることを確認します。
+ハイブリッドアーキテクチャで Campaign を実行している場合、URL 署名を有効にする前に、ホストされているミッドソーシングインスタンスが次のようにアップグレードされていることを確認します。
 
-* まず、オンプレミスマーケティングインスタンスを使用します。
-* その後、オンプレミスのマーケティングインスタンスと同じバージョンにアップグレードするか、少し高いバージョンにアップグレードします。
+* 最初に、オンプレミスマーケティングインスタンス
+* その後、オンプレミスマーケティングインスタンスと同じバージョンまたは少し新しいバージョンにアップグレードします
 
-そうしないと、次の問題が発生する場合があります。
+そうしないと、次のような問題が発生する場合があります。
 
-* ミッドソーシングインスタンスがアップグレードされる前は、このインスタンスを通じて URL が署名なしで送信されます。
-* ミッドソーシングインスタンスをアップグレードし、両方のインスタンスで URL 署名が有効になった後、以前に署名なしで送信された URL は拒否されます。 これは、マーケティングインスタンスから提供されたトラッキングファイルによって署名が要求されたためです。
+* ミッドソーシングインスタンスがアップグレードされる前に、このインスタンスを通じて URL が署名なしで送信されます。
+* ミッドソーシングインスタンスがアップグレードされ、両方のインスタンスで URL 署名が有効になると、以前に署名なしで送信された URL は拒否されます。 その理由は、マーケティングインスタンスから提供されたトラッキングファイルによって署名がリクエストされるからです。
 
-以前のビルドで生成された URL を無効にするには、すべての Campaign サーバーで同時に次の手順に従います。
+以前のビルドで生成された URL を無効にするには、すべての Campaign サーバーで次の手順を同時に実行します。
 
-1. サーバー設定ファイル (`serverConf.xml`)、 **blockRedirectForUnsignedTrackingLink** 選択肢 **true**.
-1. を再起動します。 `nlserver` サービス。
-1. 次の日： `tracking` サーバー、再起動 `web` サーバー（Debian では apache2、CentOS/RedHat では httpd、Windows では IIS）。
+1. サーバー設定ファイル（`serverConf.xml`）、を変更します。 **blockRedirectForUnsignedTrackingLink** 対するオプション **true**.
+1. を再起動します `nlserver` サービス。
+1. 日 `tracking` サーバー、を再起動する `web` サーバー（Debian では apache2、CentOS/RedHat では httpd、Windows では IIS）。
 
-URL 署名を有効にするには、すべての Campaign サーバーで同時に次の手順に従います。
+URL 署名を有効にするには、すべての Campaign サーバーで次の手順を同時に実行します。
 
-1. サーバー設定ファイル (`serverConf.xml`)、変更 **signEmailLinks** オプション、 **true**.
+1. サーバー設定ファイル（`serverConf.xml`）、変更 **signEmailLinks** オプション、終了#オプション ツイカ# **true**.
 1. **nlserver** サービスを再起動します。
-1. 次の日： `tracking` サーバー、再起動 `web` サーバー（Debian では apache2、CentOS/RedHat では httpd、Windows では IIS）。
+1. 日 `tracking` サーバー、を再起動する `web` サーバー（Debian では apache2、CentOS/RedHat では httpd、Windows では IIS）。
 
 ## データの制限
 
-権限の低い認証済みユーザーは、暗号化されたパスワードにアクセスできないようにする必要があります。 これをおこなうには、パスワードフィールドのみ、またはエンティティ全体（ビルド >= 8770 が必要）へのアクセスを制限します。
+権限の低い認証ユーザーが、暗号化されたパスワードにアクセスできないようにする必要があります。 それには、パスワードフィールドのみへのアクセス、またはエンティティ全体へのアクセスを制限します（ビルド >= 8770 が必要）。
 
 この制限をおこなうと、パスワードフィールドを削除する一方で、外部アカウントは全ユーザー向けのインターフェイスからアクセス可能にできます。[詳細情報](../../configuration/using/restricting-pii-view.md)。
 
 手順は次のとおりです。
 
-1. 次を参照： **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]** Campaign エクスプローラーのフォルダー。
+1. を参照してください。 **[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL データスキーマ]** campaign エクスプローラーのフォルダー。
 
-1. としてのデータスキーマの作成 **[!UICONTROL スキーマの拡張]**.
+1. データスキーマを **[!UICONTROL スキーマの拡張]**.
 
    ![](assets/privacy-data-restriction.png)
 
@@ -150,20 +149,20 @@ URL 署名を有効にするには、すべての Campaign サーバーで同時
 
    >[!NOTE]
    >
-   >次を置き換えることができます。 `$(loginId) = 0 or $(login) = 'admin'` 次を使用 `hasNamedRight('admin')` 管理者権限を持つすべてのユーザーに対し、これらのパスワードの表示を許可する。
+   >次を置換できます `$(loginId) = 0 or $(login) = 'admin'` （を使用） `hasNamedRight('admin')` 管理者権限を持つすべてのユーザーにこれらのパスワードの表示を許可します。
 
-## PI を持つProtectページ
+## PI を使用したProtectページ
 
-オンプレミス版のお客様には、ミラーページや Web アプリケーションなど、個人情報 (PI) を含む可能性のあるページを保護することを強くお勧めします。
+オンプレミスのお客様には、ミラーページ、web アプリケーションなどの個人情報（PI）を含む可能性のあるページを保護することを強くお勧めします。
 
-この手順の目的は、これらのページのインデックスが作成されるのを防ぎ、セキュリティ上のリスクを回避することです。 以下に、この目的に役立つ記事をいくつか示します。
+この手順の目的は、これらのページのインデックスが作成されないようにすることで、潜在的なセキュリティリスクを回避することです。 以下に、この目的に役立つ記事をいくつか示します。
 
 * [https://developers.google.com/search/reference/robots_txt](https://developers.google.com/search/reference/robots_txt)
 * [https://developers.google.com/search/reference/robots_meta_tag](https://developers.google.com/search/reference/robots_meta_tag)
 
 ページを保護するには、次の手順に従います。
 
-1. を追加します。 `robots.txt` ファイルを Web サーバー（Apache または IIS）のルートに配置します。 このファイルの内容は次のとおりです。
+1. を追加 `robots.txt` web サーバーのルートにあるファイル（Apache または IIS）。 このファイルの内容は次のとおりです。
 
    ```sql
    # Make changes for all web spiders
@@ -171,17 +170,17 @@ URL 署名を有効にするには、すべての Campaign サーバーで同時
    *Disallow: /
    ```
 
-   IIS の場合は、 [このページ](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files).
+   IIS については、次を参照してください [このページ](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files).
 
-   Apache の場合は、にファイルを配置できます。 **/var/www/robots.txt** (Debian)。
+   Apache の場合、ファイルは次の場所に配置できます。 **/var/www/robots.txt** （Debian）。
 
 1. 場合によっては、 **robots.txt** ファイルはセキュリティの点で十分ではありません。 例えば、他の Web サイトに自社ページへのリンクがある場合は、検索結果に自社ページの情報が表示される可能性があります。
 
-   また、 **robots.txt** ファイルに値を入力する場合は、 **X-Robots-Tag** ヘッダー。 Apache または IIS で、および **serverConf.xml** 設定ファイル。
+   に加えて **robots.txt** ファイルの場合は、を追加することをお勧めします **X-Robots-Tag** ヘッダー。 Apache または IIS と、で設定できます。 **serverConf.xml** 設定ファイル。
 
-   詳しくは、 [この記事](https://developers.google.com/search/reference/robots_meta_tag).
+   詳しくは、次を参照してください。 [この記事](https://developers.google.com/search/reference/robots_meta_tag).
 
 
 ## プライバシーリクエスト
 
-参照： [このページ](../../platform/using/privacy-management.md) プライバシー管理の概要とAdobe Campaignの実装手順に関する一般的な情報を参照してください。 また、ベストプラクティスや、ユーザープロセスとペルソナの概要も確認できます。
+こちらを参照してください [このページ](../../platform/using/privacy-management.md) プライバシー管理の概要とAdobe Campaignの実装手順に関する一般的な情報について説明します。 また、ベストプラクティス、ユーザープロセスとペルソナの概要についても説明します。

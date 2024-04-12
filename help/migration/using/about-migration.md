@@ -1,67 +1,66 @@
 ---
 product: campaign
 title: Campaign Classicへの移行
-description: 以前のバージョンの Campaign からCampaign Classicに移行する方法を説明します。
+description: 以前のバージョンの Campaign からCampaign Classicに移行する方法を説明します
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: migration
 content-type: reference
 topic-tags: migration-overview
 hide: true
 hidefromtoc: true
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 3%
+source-wordcount: '446'
+ht-degree: 2%
 
 ---
 
-# 移行の概要{#about-migration}
+# 移行の基本を学ぶ{#about-migration}
 
 
 
-このドキュメントでは、Adobe Campaign Classic v7 への移行の前提条件、および移行の手順について詳しく説明します。 手順とオプションの設定は、設定によって異なります。
+このドキュメントでは、移行の前提条件と、Adobe Campaign Classic v7 に移行する手順を詳しく説明します。 手順とオプションの設定は、設定によって異なります。
 
-移行プロセスは慎重に実行する必要があり、その影響を事前に十分に考慮し、手順は厳密に実行する必要があります。 エキスパートユーザーのみが実行する必要があります。 連絡を取ることを強くお勧めします [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 移行手順を開始する前に、次の手順を実行します。
+移行プロセスは慎重に実行する必要があり、その影響は事前に十分に考慮されなければならず、手順は厳密に実行される必要があります。 エキスパートユーザーのみが実行する必要があります。 に連絡することを強くお勧めします [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 移行手順を開始する前に行います。
 
-移行は、事前にテスト/ステージング環境でテストし、スムーズに実行でき、エラーが発生しないようにする必要があります。 実稼動環境の移行は、移行されたテスト環境が完全に検証された後にのみ実行する必要があります。
+移行は、テスト/ステージング環境で事前にテストして、スムーズにエラーなく実行されていることを確認する必要があります。 実稼動環境の移行は、移行したテスト環境が完全に検証された後にのみ実行する必要があります。
 
 >[!NOTE]
 >
->Adobe Campaign v7 に加わる新機能と改善点について詳しくは、 [リリースノート](../../rn/using/latest-release.md).
+>Adobe Campaign v7 に含まれている新機能および機能強化について詳しくは、こちらを参照してください [リリースノート](../../rn/using/latest-release.md).
 
 
 ## 前提条件
 
-* 移行プロセスは、エキスパートユーザーが実行する必要があります。 少なくともAdobe Campaignのデータベースエキスパート、システム管理者およびアプリケーション開発者が支援する必要があります。
-* 移行を開始する前に、使用するシステムおよびシステムコンポーネントが v7 と互換性があることを確認してください。 [詳細情報](../../rn/using/compatibility-matrix.md)。
-* Adobe Campaign Cloud Messaging（ミッドソーシングデプロイメント）を使用する場合は、開始する前にAdobeカスタマーケアにお問い合わせください。
-* 移行プロセスを開始する前に、次の手順を実行します。 **必須** データをバックアップします。
+* 移行プロセスは、エキスパートユーザーが実行する必要があります。 少なくとも、データベースの専門家、システム管理者、Adobe Campaignのアプリケーション開発者の支援を受ける必要があります。
+* 移行を開始する前に、使用するシステムおよびシステムコンポーネントが v7 と互換性があることを確認します。 [詳細情報](../../rn/using/compatibility-matrix.md)。
+* Adobe Campaign Cloud Messaging （ミッドソーシングデプロイメント）を使用する場合は、開始する前にAdobeカスタマーケアにお問い合わせください。
+* 移行プロセスを開始する前に、以下を行います **が** データをバックアップします。
 * 移行プロセスが完了するまでに数日かかる場合があります。
-* Adobe Campaign v7 は、以前のバージョンよりも安全です。これは、データの破損などの問題を回避し、データベースのデータの整合性を保つための設定ガイドラインに影響します。 お客様は、ワークフローを含むすべての設定をテストする必要があります。
+* Adobe Campaign v7 は、以前のバージョンよりも安全なバージョンです。これは、データ破損などの問題を回避し、データベースのデータ整合性を維持するための設定ガイドラインに影響します。 お客様は、ワークフローを含むすべての設定をテストする責任があります。
 
-その他の前提条件は、 [このページ](../../migration/using/before-starting-migration.md).
+その他の前提条件は次のとおりです。 [このページ](../../migration/using/before-starting-migration.md).
 
 
 ## 最新化された環境 {#modernizing-your-environment}
 
-移行を実行すると、環境（データベースエンジン、オペレーティングシステム）を更新する機会が生じます。 Adobe Campaignでは、実稼動環境を最新バージョンにアップグレードすることを強くお勧めします。
+移行を実行すると、環境（データベースエンジン、オペレーティングシステム）を更新できる可能性があります。 Adobe Campaignでは、実稼動環境を最新バージョンにアップグレードすることを強くお勧めします。
 
 >[!CAUTION]
 >
 >Adobe Campaign v7 でサポートされているバージョンについて詳しくは、 [互換性マトリックス](../../rn/using/compatibility-matrix.md).
 
-## 主要な移行手順 {#key-migration-steps}
+## 主な移行手順 {#key-migration-steps}
 
-Adobe Campaign v7 への移行の一般的な手順について詳しくは、 [このページ](../../migration/using/before-starting-migration.md).
+Adobe Campaign v7 への一般的な移行手順については、以下を参照してください [このページ](../../migration/using/before-starting-migration.md).
 
 
 ## 特定の設定 {#specific-configurations}
 
-また、Adobe Campaign v7 で発生した変更は、以前のバージョンで開発された特定の設定に適応する必要があることを意味する場合もあります。 したがって、移行前に、すべての設定に対して監査を実行する必要が生じる場合があります。詳しくは、Adobe Campaignにお問い合わせください。
+Adobe Campaign v7 による変化は、以前のバージョンで開発された特定の設定を適応させる必要があることも意味する場合があります。 そのため、移行前にすべての設定を監査する必要が生じる場合があります。サポートが必要な場合は、Adobe Campaignにお問い合わせください。
 
-例えば、Web アプリケーション、SQLdata を使用したスキーマ拡張、標準のスキーマクローン作成に関する特定の設定に特に注意する必要があります。 詳しくは、[このページ](../../migration/using/configuring-your-platform.md)を参照してください。
+例えば、web アプリケーションの特定の設定、SQLdata を使用したスキーマ拡張、標準のスキーマクローン作成などに、特に注意が必要です。 詳しくは、[このページ](../../migration/using/configuring-your-platform.md)を参照してください。
 
-同様に、Adobe Campaign内のセキュリティの高まりに対応するために、一部の内部メカニズムが変更されています。これらの設定をそれに応じて変更する必要があります。
+同様に、Adobe Campaign内のセキュリティの高まりに対応するために、内部メカニズムが変更されています。つまり、これらの設定を適切に調整する必要があります。
 

@@ -1,15 +1,14 @@
 ---
 product: campaign
-title: Adobe Campaignでのスキーマの概要
-description: スキーマを使用する方法とAdobe Campaignデータベースの概念的データモデルを拡張する方法について説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
+title: Adobe Campaignのスキーマの基本を学ぶ
+description: Adobe Campaign データベースのスキーマを操作し、概念的データモデルを拡張する方法を説明します
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 50%
+source-wordcount: '369'
+ht-degree: 49%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 50%
 
 ## スキーマとは {#what-is-a-schema}
 
-この章では、Adobe Campaignデータベースの概念的データモデルを拡張するために拡張スキーマを設定する方法について説明します。
+この章では、Adobe Campaign データベースの概念的データモデルを拡張するための拡張スキーマの設定方法について説明します。
 
-Campaign の組み込みテーブルとそのインタラクションについて詳しくは、 [Campaign Classicデータモデル](about-data-model.md).
+Campaign の組み込みテーブルとその連携について詳しくは、 [Campaign Classicデータモデル](about-data-model.md).
 
-Adobe Campaignでは、アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。 A **スキーマ** は、データベーステーブルに関連付けられた XML ドキュメントです。 この中でデータ構造を定義し、表の SQL 定義を記述します。
+Adobe Campaignでは、アプリケーションに格納されるデータの物理的および論理的構造は XML で記述されます。 A **スキーマ** は、データベーステーブルに関連付けられた XML ドキュメントです。 この中でデータ構造を定義し、表の SQL 定義を記述します。
 
 * テーブルの名前
 * フィールド
@@ -38,7 +37,7 @@ Adobe Campaignでは、アプリケーションに格納されるデータの物
 
 スキーマを使用すると、データベース内にエンティティを定義できます。エンティティごとにスキーマがあります。
 
-次の図に、Adobe Campaignデータシステム内のスキーマの場所を示します。
+次の図は、Adobe Campaign データシステムのスキーマの場所を示しています。
 
 ![](assets/reference_schema_intro.png)
 
@@ -74,13 +73,13 @@ Adobe Campaignでは、アプリケーションに格納されるデータの物
 
 名前空間を使用すると、一連のスキーマを目標領域別にグループ化できます。例えば、**cus** 名前空間は、顧客固有の設定（**customers**）に使用します。
 
-スキーマの識別キーは、コロンで区切られた名前空間と名前を使用して作成される文字列です。次に例を示します。 **cus:recipient**.
+スキーマの識別キーは、名前空間と名前をコロンで区切った文字列です。次に例を示します。 **cus：受信者**.
 
 >[!IMPORTANT]
 >
->名前空間の名前は簡潔で、XML 命名規則に従って許可された文字のみを含める必要があります。
+>名前空間の名前は簡潔なものにし、XML 命名規則に従って許可された文字のみを含める必要があります。
 >
 >識別子の先頭を数字にすることはできません。
 >
->次の名前空間は、Adobe Campaignアプリケーションの操作に必要なシステムエンティティの説明用に予約されており、使用しないでください。 **xtk**, **nl**, **nms**, **ncm**, **temp**, **ncl**, **crm**, **xxl**.
+>次の名前空間は、Adobe Campaign アプリケーションの操作に必要なシステムエンティティの説明用に予約されているので、使用しないでください。 **xtk**, **nl**, **nms**, **ncm**, **一時**, **ncl**, **crm**, **xxl**.
 

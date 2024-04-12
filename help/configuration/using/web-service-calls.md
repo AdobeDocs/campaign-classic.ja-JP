@@ -2,14 +2,13 @@
 product: campaign
 title: Web サービスの呼び出し
 description: Web サービスの呼び出し
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: API
 role: Data Engineer, Developer
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 2%
+source-wordcount: '923'
+ht-degree: 1%
 
 ---
 
@@ -17,19 +16,19 @@ ht-degree: 2%
 
 ## 一般情報 {#general-information}
 
-すべての API メソッドは、Web サービスの形式で表示されます。 これにより、Adobe Campaignアプリケーションサーバーのネイティブなエントリポイントである SOAP 呼び出しを介して、すべてのAdobe Campaign関数を管理できます。 Adobe Campaignコンソール自体は SOAP 呼び出しのみを使用します。
+すべての API メソッドは、web サービスの形式で提供されます。 これにより、Adobe Campaign アプリケーションサーバーのネイティブなエントリポイントである SOAP 呼び出しを使用して、すべてのAdobe Campaign関数を管理できます。 Adobe Campaign コンソール自体は、SOAP 呼び出しのみを使用します。
 
-Web サービスを使用すると、サードパーティのシステムから多数のアプリケーションを作成できます。
+Web サービスを使用すると、サードパーティシステムから多くのアプリケーションを作成できます。
 
-* バックオフィスやトランザクションシステムからの同期アラート、通知、リアルタイム配信テンプレートの実行
-* シンプルな機能（Web インターフェイスなど）を備えた特別なインターフェイスの開発
-* 基になる物理モデルから切り離されたままの取引ルールを監視しながら、データベース内のデータのフィードとルックアップをおこないます。
+* バックオフィスまたはトランザクションシステムからの同期アラート、通知、リアルタイム配信テンプレートの実行
+* 機能を簡素化した特別なインターフェイスの開発（Web インターフェイスなど）
+* データベース内のデータのフィードと参照を行いながら、トレードルールを観察し、基礎となる物理モデルから分離したままにする。
 
 ## Web サービスの定義 {#definition-of-web-services}
 
-Adobe Campaignアプリケーションサーバーに実装されている Web サービスの定義は、データスキーマから使用できます。
+Adobe Campaign アプリケーションサーバー上に実装された web サービスの定義は、データスキーマから利用できます。
 
-Web サービスは、データスキーマの文法に従って記述され、 **`<methods>`** 要素を選択します。
+Web サービスは、データスキーマの文法で記述され、から使用できます。 **`<methods>`** 要素。
 
 ```
 <methods>
@@ -44,17 +43,17 @@ Web サービスは、データスキーマの文法に従って記述され、 
 </methods>
 ```
 
-以下に、というメソッドの定義例を示します。 **GenerateForm**.
+以下に、と呼ばれるメソッドの定義の例を示します **GenerateForm**.
 
-サービスの説明は、 `<method>` 要素を選択します。 メソッドのパラメーターのリストは、  `<parameters>` 要素を選択します。 各パラメーターは、名前、型（ブール値、文字列、DOMElement など）で指定します。 と説明。 「inout」属性を「out」値と共に使用すると、「result」パラメーターが SOAP 呼び出し出力にあることを指定できます。
+サービスの説明はで始まります `<method>` 要素。 メソッドのパラメーターのリストは、  `<parameters>` 要素。 各パラメーターは、名前、タイプ（ブール値、文字列、DOMElement など）によって指定されます と説明。 「inout」属性に「out」値を指定すると、「result」パラメーターが SOAP 呼び出し出力にあることを指定できます。
 
-「static」属性（値が「true」の場合）は、このメソッドを静的メソッドとして記述します。つまり、メソッドのすべてのパラメーターを宣言する必要があります。
+「static」属性（値「true」）が存在する場合、このメソッドは静的であると説明されます。つまり、メソッドのすべてのパラメーターを宣言する必要があります。
 
-&quot;const&quot;メソッドは、関連するスキーマの形式の XML ドキュメントを暗黙的に入力として持っています。
+「const」メソッドは、関連するスキーマの形式の XML ドキュメントを入力として暗黙的に持ちます。
 
-詳しい説明 `<method>` Adobe Campaignスキーマの要素は、下の「スキーマ参照」章にあります。 [メソッド](../../configuration/using/schema/method.md)
+の完全な説明 `<method>` Adobe Campaign スキーマの要素は、の「スキーマ参照」の章で利用できます。 [メソッド](../../configuration/using/schema/method.md)
 
-「xtk:queryDef」スキーマの「const」タイプ「ExecuteQuery」メソッドの例：
+「xtk:queryDef」スキーマからの「const」タイプの「ExecuteQuery」メソッドの例：
 
 ```
 <method name="ExecuteQuery" const="true">
@@ -69,30 +68,30 @@ Web サービスは、データスキーマの文法に従って記述され、 
 
 ## Web サービスの説明：WSDL {#web-service-description--wsdl}
 
-各サービスで WSDL(Web Service Description Library) ファイルを使用できます。 この XML ファイルは、メタ言語を使用してサービスを記述し、サービスを実行するために接続するメソッド、パラメータ、およびサーバを指定します。
+WSDL （Web Service Description Library）ファイルは、各サービスで使用できます。 この XML ファイルは、サービスを記述し、サービスの実行に使用できるメソッド、パラメータ、および接続するサーバーを指定するためにメタ言語を使用します。
 
-### WSDL ファイル生成 {#wsdl-file-generation}
+### WSDL ファイルの生成 {#wsdl-file-generation}
 
-WSDL ファイルを生成するには、Web ブラウザから次の URL を入力する必要があります。
+WSDL ファイルを生成するには、web ブラウザーから次の URL を入力する必要があります。
 
 https://`<server>`/nl/jsp/schemawsdl.jsp?schema=`<schema>`
 
-次を使用：
+を使用：
 
-* **`<server>`**:Adobe Campaignアプリケーションサーバー (nlserver web)
+* **`<server>`**:Adobe Campaign アプリケーションサーバー（nlserver web）
 * **`<schema>`**：スキーマ識別キー（名前空間：schema_name）
 
 ### スキーマ「xtk:queryDef」の「ExecuteQuery」メソッドの例 {#example-on-the--executequery--method-of-schema--xtk-querydef-}
 
-WSDL ファイルは次の URL から生成されます。
+WSDL ファイルは、次の URL から生成されます。
 
 `https://localhost/nl/jsp/schemawsdl.jsp?schema=xtk:queryDef`
 
-WSDL の記述は、Web サービスを形成する「bindings」によってプロトコルに接続された「ports」に関連付けられたメッセージを形成するための型を定義することから始まります。
+WSDL の記述は、まず、Web サービスを形成する「バインディング」によってプロトコルに接続された「ポート」に関連付けられた、メッセージを形成するために使用されるタイプを定義します。
 
 #### タイプ {#types}
 
-タイプ定義は XML スキーマに基づいています。 この例では、「ExecuteQuery」メソッドは、「s:string」文字列と XML ドキュメント (`<s:complextype>`) をパラメーターとして使用します。 メソッドの戻り値 (「ExecuteQueryResponse」) は XML ドキュメント (  `<s:complextype>`) をクリックします。
+タイプの定義は、XML スキーマに基づいています。 この例では、「ExecuteQuery」メソッドは「s:string」文字列と XML ドキュメント（`<s:complextype>`）をパラメーターとして使用します。 メソッド（&quot;ExecuteQueryResponse&quot;）の戻り値は XML ドキュメント（  `<s:complextype>`）に設定します。
 
 ```
 <types>
@@ -128,7 +127,7 @@ WSDL の記述は、Web サービスを形成する「bindings」によってプ
 
 #### メッセージ {#messages}
 
-The `<message>` 送信する一連のフィールドの名前とタイプを示します。 このメソッドでは、2 つのメッセージを使用して、パラメーター (「ExecuteQueryIn」) と戻り値 (「ExecuteQueryOut」) として渡します。
+この `<message>` 送信される一連のフィールドの名前とタイプを記述します。 このメソッドは、2 つのメッセージを使用して、をパラメーター（「ExecuteQueryIn」）として渡し、を戻り値（「ExecuteQueryOut」）として渡します。
 
 ```
 <message name="ExecuteQueryIn">
@@ -142,7 +141,7 @@ The `<message>` 送信する一連のフィールドの名前とタイプを示�
 
 #### PortType {#porttype}
 
-The `<porttype>` 応答 (「output」) を生成するクエリ (「input」) によってトリガーされる「ExecuteQuery」操作に対してメッセージを関連付けます。
+この `<porttype>` は、応答（「output」）を生成するクエリ（「input」）によってトリガーされる「ExecuteQuery」操作のメッセージを関連付けます。
 
 ```
 <portType name="queryDefMethodsSoap">
@@ -153,9 +152,9 @@ The `<porttype>` 応答 (「output」) を生成するクエリ (「input」) �
 </portType>
 ```
 
-#### 連結 {#binding}
+#### バインディング {#binding}
 
-The `<binding>` part は、SOAP 通信プロトコルを指定します ( `<soap:binding>` )、HTTP でのデータ転送（「transport」属性の値）および「ExecuteQuery」操作のデータ形式。 SOAP エンベロープの本文には、変換をおこなわずに、直接メッセージセグメントが含まれます。
+この `<binding>` 部分は、SOAP 通信プロトコル （ `<soap:binding>` ）、HTTP でのデータトランスポート（「transport」属性の値）、「ExecuteQuery」操作のデータ形式。 SOAP エンベロープの本文には、変換を行わずにメッセージセグメントが直接含まれます。
 
 ```
 <binding name="queryDefMethodsSoap" type="tns:queryDefMethodsSoap">
@@ -174,7 +173,7 @@ The `<binding>` part は、SOAP 通信プロトコルを指定します ( `<soap
 
 #### サービス {#service}
 
-The `<service>` ここでは、「XtkQueryDef」サービスと、Adobe Campaignアプリケーションサーバーの URL に URI が記述されています。
+この `<service>` パートでは、「XtkQueryDef」サービスと、Adobe Campaign アプリケーションサーバーの URL 上の URI について説明します。
 
 ```
 <service name="XtkQueryDef">
@@ -184,59 +183,59 @@ The `<service>` ここでは、「XtkQueryDef」サービスと、Adobe Campaign
 </service>
 ```
 
-## 接続 {#connectivity}
+## 接続性 {#connectivity}
 
-Adobe Campaignは、 [セキュリティゾーン](../../installation/using/security-zones.md) およびセッション管理設定。
+Adobe Campaignでは、以下を導入することで、認証メカニズムのセキュリティを強化しました [セキュリティゾーン](../../installation/using/security-zones.md) とセッション管理設定。
 
 次の 2 つの認証モードを使用できます。
 
-* **logon method() の呼び出し**. このモードでは、セッショントークンとセキュリティトークンが生成されます。 これは最も安全なモードなので、最も推奨されます。
+* **logon メソッド（）の呼び出しを使用**. このモードは、セッショントークンとセキュリティトークンを生成します。 これは最も安全なモードであるため、最も推奨されます。
 
 または
 
-* **Adobe Campaignログインとパスワード** がセッショントークンを作成します。 セッショントークンは、設定された期間が過ぎると自動的に期限切れになります。 このモードは推奨されません。一部のゾーン設定（allowUserPassword=&quot;true&quot;および sessionTokenOnly=&quot;true&quot;）のアプリケーションセキュリティ設定を減らす必要があります。
+* **Adobe Campaignのログインとパスワードを使用** これにより、セッショントークンが作成されます。 セッショントークンは、設定された期間の後に自動的に期限切れとなります。 このモードはお勧めできません。一部のゾーン設定（allowUserPassword=&quot;true&quot;および sessionTokenOnly=&quot;true&quot;）で、アプリケーションのセキュリティ設定を減らす必要があります。
 
 ### セッショントークンの特性 {#session-token-characteristics}
 
-セッショントークンには次の特性があります。
+セッショントークンには以下の特徴があります。
 
-* X 時間のライフサイクル（ライフサイクルは「serverConf.xml」ファイルで設定できます。デフォルトの期間は 24 時間です）
-* ランダムな構文（ユーザーのログインとパスワードは含まれなくなりました）
-* Web 経由でアクセスした場合：
+* x 時間のライフサイクル（「serverConf.xml」ファイルでライフサイクルを設定できます。デフォルトの期間は 24 時間）
+* ランダムな構造（ユーザーのログインとパスワードは含まれなくなりました）
+* web 経由でアクセスした場合：
 
-   * セッショントークンは永続トークンになり、ブラウザーが閉じても破棄されません。
-   * HTTP のみの Cookie に配置されます（オペレーターに対して Cookie を有効にする必要があります）。
+   * セッショントークンは永続的なトークンになり、ブラウザーが閉じると破棄されません
+   * これは HTTP 専用の cookie に配置されます（オペレーターは cookie を有効にする必要があります）
 
 ### セキュリティトークンの特性 {#security-token-characteristics}
 
-セキュリティトークンには次の特性があります。
+セキュリティトークンには次のような特徴があります。
 
-* セッショントークンから生成されます。
-* 24 時間のライフサイクルがあります（「serverConf.xml」ファイルで設定可能、デフォルトの期間は 24 時間です）。
-* Adobe Campaignコンソールに保存されます。
-* Web 経由でアクセスした場合：
+* セッショントークンから生成されます
+* ライフサイクルは 24 時間です（「serverConf.xml」ファイルで設定可能、デフォルトの期間は 24 時間です）
+* これは、Adobe Campaign コンソールに保存されます
+* web 経由でアクセスした場合：
 
    * ドキュメントに保存されます。__securityToken プロパティ
-   * ページの URL が更新され、セキュリティトークンが更新されます
-   * フォームは、トークンを含む非表示のフィールドでも更新されます
+   * ページ URL が更新され、セキュリティトークンが更新されます
+   * フォームも、トークンを含む非表示フィールドを使用して更新されます
 
 #### セキュリティトークンの移動 {#security-token-movement}
 
-コンソールからアクセスすると、次のようになります。
+コンソールを介してアクセスした場合、次のようになります。
 
-* （HTTP ヘッダー内の）ログオン応答で送信されます。
+* ログオン応答で送信（HTTP ヘッダー）
 * 各クエリで使用（HTTP ヘッダー内）
 
-POSTとGETHTTP から：
+POSTおよびGET HTTP から：
 
-* サーバーがトークンでリンクを完了する
+* サーバーがトークンでリンクを完了します
 * サーバーがフォームに非表示フィールドを追加します
 
 SOAP 呼び出しから：
 
-* 呼び出しヘッダーに追加されます。
+* ヘッダーを呼び出すために追加されます
 
-### 呼び出し例 {#call-examples}
+### 呼び出しの例 {#call-examples}
 
 * 使用 **HttpSoapConnection/SoapService**:
 
@@ -275,9 +274,9 @@ SOAP 呼び出しから：
 
 >[!NOTE]
 >
->次の場合に使用される URL **HttpServletRequest** 呼び出しは、 **serverConf.xml** ファイル。 これは、サーバー自体の URL にも当てはまります。
+>以下で使用される URL **HttpServletRequest** の「url 権限」セクションで、の呼び出しを許可リストにする必要がある **serverConf.xml** ファイル。 これは、サーバー自体の URL にも当てはまります。
 
-ログオン実行 ():
+ログオン実行（）:
 
 ```
 var req = new HttpClientRequest("https://serverURL/nl/jsp/soaprouter.jsp");
@@ -303,7 +302,7 @@ var sessionToken = String(xmlRes..*::pstrSessionToken);;
 var securityToken = String(xmlRes..*::pstrSecurityToken);
 ```
 
-クエリの実行：
+クエリ実行：
 
 ```
 var req2 = new HttpClientRequest("https://serverURL/nl/jsp/soaprouter.jsp");

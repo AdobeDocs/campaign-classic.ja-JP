@@ -2,12 +2,11 @@
 product: campaign
 title: 開始および終了
 description: 「開始および終了」ワークフローアクティビティの詳細を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '138'
 ht-degree: 100%
 
 ---

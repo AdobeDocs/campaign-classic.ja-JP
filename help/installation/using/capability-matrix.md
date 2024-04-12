@@ -1,14 +1,13 @@
 ---
 product: campaign
-title: Campaign オンプレミス、ハイブリッド、ホスト機能マトリックス
-description: ホスト型デプロイメントとオンプレミス型デプロイメントの主な違いについて説明します。
+title: Campaign オンプレミス、ハイブリッドおよびホスト機能のマトリックス
+description: ホストデプロイメントとオンプレミスデプロイメントの主な違いについて説明します
 feature: Installation, Architecture
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 34%
+source-wordcount: '287'
+ht-degree: 32%
 
 ---
 
@@ -16,11 +15,11 @@ ht-degree: 34%
 
 
 
-Adobe Campaign Classic には一連のモジュールとオプションが付属しています。これらのモジュールの使用可否と使い方は、インストール構成のデプロイメントタイプによって異なります。この記事では、完全にホストされている (Managed Services) 機能とオンプレミスデプロイメントの間の特定の機能の主な違いに関する詳細を説明します。
+Adobe Campaign Classic には一連のモジュールとオプションが付属しています。これらのモジュールの使用可否と使い方は、インストール構成のデプロイメントタイプによって異なります。この記事では、完全にホストされる（Managed Services）デプロイメントとオンプレミスデプロイメントの間の特定の機能の主な違いについて詳しく説明します。
 
-このページでは、ホスト型 (Managed Services) デプロイメントとオンプレミスデプロイメントの主な違いについて説明します。 ハイブリッドデプロイメントの特性は、Adobeがホストし、お客様のプレミスでホストする要素によって異なります。
+ここでは、ホスト（Managed Services）デプロイメントとオンプレミスデプロイメントの主な違いについて説明します。 ハイブリッドデプロイメントの特異性は、Adobeがホストし、オンプレミスでホストする要素によって異なります。
 
-様々なホスティングモデルが導入されました [この節](../../installation/using/hosting-models.md).
+様々なホスティングモデルが紹介されています [この節](../../installation/using/hosting-models.md).
 
 ## デプロイメントモデルごとの可用性 {#capability-matrix}
 
@@ -30,11 +29,11 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 | BCC でメールを送信 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../installation/using/email-archiving.md) |
 | Message Center 実行インスタンスの管理 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../message-center/using/about-transactional-messaging.md) |
 | ミッドソーシングプラットフォームの管理 | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../installation/using/mid-sourcing-server.md) |
-| Litmus を使用した受信ボックスレンダリング | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../delivery/using/inbox-rendering.md) |
-| IMS(Adobe ID) との統合 | オンデマンド | オンデマンド | オンデマンド | [詳細情報](../../integrations/using/about-adobe-id.md) |
-| ファイル転送のデータの暗号化/復号化 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../platform/using/unzip-decrypt.md) |
+| Litmus による受信ボックスレンダリング | オンデマンド | オンデマンド | 使用可能 | [詳細情報](../../delivery/using/inbox-rendering.md) |
+| IMS との統合（Adobe ID） | オンデマンド | オンデマンド | オンデマンド | [詳細情報](../../integrations/using/about-adobe-id.md) |
+| ファイル転送のためのデータの暗号化/復号化 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../platform/using/unzip-decrypt.md) |
 | ファイルの圧縮/解凍 | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../platform/using/unzip-decrypt.md) |
-| ドメイン名のデリゲーション | オンデマンド | オンデマンド | 利用できません | [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja) |
+| ドメイン名の委任 | オンデマンド | オンデマンド | 利用できません | [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja) |
 | SpamAssassin のインストール | オンデマンド | 使用可能 | 使用可能 | [詳細情報](../../delivery/using/spamassassin.md) |
 | 配信品質レポートへのアクセス | 使用可能 | オンデマンド | 使用可能 | [詳細情報](../../delivery/using/monitoring-deliverability.md) |
 | LDAP 認証の設定 | なし | 使用可能 | 使用可能 | [詳細情報](../../installation/using/connecting-through-ldap.md) |
@@ -42,11 +41,11 @@ Adobe Campaign Classic には一連のモジュールとオプションが付属
 
 ## Federated Data Access{#fda}
 
-Adobe Campaignが **Federated Data Access** (FDA) オプションを使用します。 [詳細情報](../../installation/using/about-fda.md)
+Adobe Campaignは、次のものを提供します **連合データアクセス** （FDA） 1 つ以上の外部データベースに保存された情報を処理するオプション：Adobe Campaign データの構造を変更せずに外部データにアクセスできます。 [詳細情報](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >
->互換性のある外部データベースシステムは、ホスティングモデルに応じて異なります。 詳しくは、 [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md).
+>互換性のある外部データベースシステムは、ホスティングモデルに応じて異なります。 詳しくは、を参照してください。 [Campaign 互換性マトリックス](../../rn/using/compatibility-matrix.md).
 >
 
 **関連項目**

@@ -3,16 +3,15 @@ product: campaign
 title: メッセージサーバー
 description: メッセージサーバー
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: d9ffa58d-81e3-4291-8502-3cb7c326b666
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 12%
+source-wordcount: '175'
+ht-degree: 9%
 
 ---
 
@@ -20,14 +19,14 @@ ht-degree: 12%
 
 
 
-Adobe Campaignは送信電子メールをネイティブに処理しますが、返された電子メールにリンクされた受信メッセージを（メーラーデーモンから）受信するには、従来の電子メールサーバーが必要です。 このサーバーで構成されたメールボックスは、アプリケーションによって自動的に処理されます。
+Adobe Campaignは送信メールをネイティブに処理しますが、返されたメールにリンクされた受信メッセージ（メーラーデーモンから）を受信するには、従来のメールサーバーが必要です。 このサーバーで構成されたメールボックスは、アプリケーションによって自動的に処理されます。
 
-POP3 アクセス用に設定されたすべてのサーバーは、メールの取得時に SMTP の「Message-ID」ヘッダーを保持している場合、返信メールの受信に使用できます。 例えば、Qmail、SendMail、Microsoft Exchange を使用した実装は、現在実稼動中です。 しかし、Lotus Notes/domino の一部のインストールでは、「Message-Id」ヘッダーの管理に問題が発生していました。
+POP3 アクセス用に設定されたすべてのサーバーは、メールの取得時に SMTP 「Message-ID」ヘッダーを保持している場合、返信メールの受信に使用できます。 例えば、Qmail、SendMail およびMicrosoft Exchange を使用した実装は、現在実稼動中です。 しかし、Lotus Notes/domino の一部のインストールでは、「Message-Id」ヘッダーの維持に関する問題が明らかになりました。
 
 >[!CAUTION]
 >
->このメールサーバーは、大量の負荷を処理する必要がある場合があります。最初の段階では、一般的なリストが最大 10%のバウンス率を生み出す可能性があります（100,000 件のメッセージを送信する場合は、10,000 件のバウンスを受け取ることを想定します）。
+>このメールサーバーは、高負荷に対応しなければならない場合があります。初期フェーズでは、一般的なリストは、最大 10% のバウンス率を生成できます（10 万件のメッセージを送信した場合、10,000 件のバウンスを受信すると予測されます）。
 >
->このタスクに会社のメッセージングサーバーを使用することは、大きな影響を受ける可能性があるので、お勧めしません。
+>そのため、このタスクでは会社のメッセージングサーバーを使用しないことをお勧めします。サーバーが強く影響を受ける可能性があるからです。
 >
->DNS の特定のサブドメインとバウンスメール用の専用サーバーを設定することをお勧めします。
+>DNS の特定のサブドメインと、バウンスメール専用のサーバーを設定することをお勧めします。

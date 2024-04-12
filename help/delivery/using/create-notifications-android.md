@@ -2,13 +2,12 @@
 product: campaign
 title: Android デバイス用のプッシュ通知の作成
 description: Android 用のプッシュ通知を作成する方法を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Push
 role: User, Developer, Data Engineer
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
-source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '750'
 ht-degree: 100%
 
 ---

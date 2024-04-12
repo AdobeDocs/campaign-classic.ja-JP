@@ -1,17 +1,16 @@
 ---
 product: campaign
 title: Campaign FDA のベストプラクティスと制限事項
-description: 外部データベース (FDA) を使用する際のベストプラクティスと制限事項について説明します。
+description: 外部データベースを使用する際のベストプラクティスと制限事項について説明します（FDA）
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 74%
+source-wordcount: '417'
+ht-degree: 73%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 74%
 
 
 
-## 外部データを使用した E メールのパーソナライゼーションの最適化 {#optimizing-email-personalization-with-external-data}
+## 外部データを使用したメールのパーソナライゼーションの最適化 {#optimizing-email-personalization-with-external-data}
 
 専用のワークフローで、メッセージのパーソナライゼーションを事前に処理できます。これを実行するには、配信プロパティの「**[!UICONTROL 分析]**」タブにある「**[!UICONTROL ワークフローを使用してパーソナライズ機能データを準備]**」オプションを使用します。
 
@@ -27,15 +26,15 @@ ht-degree: 74%
 
 このオプションにより、パーソナライゼーション手順を実行する際のパフォーマンスが大幅に向上します。
 
-## ワークフロー内での外部データベースからのデータの使用 {#using-data-from-an-external-database-in-a-workflow}
+## 外部データベースのデータをワークフローで使用する {#using-data-from-an-external-database-in-a-workflow}
 
-複数のAdobe Campaignワークフローアクティビティで、外部データベースに保存されたデータを使用できます。
+複数のAdobe Campaign ワークフローアクティビティでは、外部データベースに保存されたデータを使用できます。
 
-* **外部データのフィルター** - [クエリ](../../workflow/using/targeting-data.md#selecting-data) 「 」アクティビティを使用すると、外部データを追加して、定義したフィルター設定で使用できます。 詳しくは、[このページ](../../workflow/using/targeting-data.md#selecting-data)を参照してください。
+* **外部データに対するフィルター**  – が [クエリ](../../workflow/using/targeting-data.md#selecting-data) アクティビティを使用すると、外部データを追加して、定義したフィルター設定でそのデータを使用できます。 詳しくは、[このページ](../../workflow/using/targeting-data.md#selecting-data)を参照してください。
 
-* **サブセットの作成** - [分割](../../workflow/using/split.md)アクティビティでは、サブセットを作成できます。外部データを使用して、使用するフィルタリング条件を定義できます。 詳しくは、[このページ](../../workflow/using/split.md)を参照してください。
+* **サブセットの作成** - [分割](../../workflow/using/split.md)アクティビティでは、サブセットを作成できます。外部データを使用して、使用するフィルター条件を定義できます。 詳しくは、[このページ](../../workflow/using/split.md)を参照してください。
 
-* **外部データベースを読み込み**  — 外部データは、 [データの読み込み](../../workflow/using/data-loading-rdbms.md) (RDBMS) アクティビティ 詳しくは、[このページ](../../workflow/using/data-loading-rdbms.md)を参照してください。
+* **外部データベースの読み込み**  – 外部データは [データの読み込み](../../workflow/using/data-loading-rdbms.md) （RDBMS）アクティビティ。 詳しくは、[このページ](../../workflow/using/data-loading-rdbms.md)を参照してください。
 
 * **情報とリンクの追加** - [エンリッチメント](../../workflow/using/enrichment.md)アクティビティを使用すると、ワークフローの作業用テーブルにデータを追加し、外部テーブルにリンクできます。このコンテキストでは、外部データベースのデータを使用できます。 詳しくは、[このページ](../../workflow/using/enrichment.md)を参照してください。
 

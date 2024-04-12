@@ -3,16 +3,15 @@ product: campaign
 title: Unicode への切り替え
 description: Unicode への切り替え
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4cfecf2f-cf98-42c1-b979-cdd26d5de48b
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 12%
+source-wordcount: '129'
+ht-degree: 7%
 
 ---
 
@@ -20,9 +19,9 @@ ht-degree: 12%
 
 
 
-既存の **prod** Linux/PostgreSQL のインスタンスでは、unicode に切り替える手順は次のとおりです。
+既存のの **prod** インスタンス Linux/PostgreSQL では、unicode に切り替える手順は次のとおりです。
 
-1. データベースに書き込むプロセスを停止します。
+1. データベースへの書き込みプロセスを停止します。
 
    ```
    su - neolane
@@ -36,7 +35,7 @@ ht-degree: 12%
    pg_dump mydatabase > mydatabase.sql
    ```
 
-1. Unicode データベースの作成：
+1. Unicode データベースを作成します。
 
    ```
    createdb -E UNICODE mydatabase_unicode
@@ -55,7 +54,7 @@ ht-degree: 12%
    update XtkOption set sStringValue = 'u'||sStringValue where sName='XtkDatabaseId' and sStringValue not like 'u%';
    ```
 
-1. トラッキングサーバー上：
+1. トラッキングサーバーで：
 
    ```
    su - neolane
@@ -63,7 +62,7 @@ ht-degree: 12%
    vi config-prod.xml
    ```
 
-   次を追加： **u** データベース識別子に関連する値の前の文字 (**databaseId**):
+   を追加 **u** データベース識別子に関連する値の前の文字（**databaseId**）:
 
    ```
    <web>
@@ -71,7 +70,7 @@ ht-degree: 12%
    </web>
    ```
 
-1. データベースを呼び出すサーバーの場合：
+1. データベースを呼び出すサーバー上：
 
    ```
    su - neolane
@@ -98,7 +97,7 @@ ht-degree: 12%
    /etc/init.d/apache start
    ```
 
-1. スイッチを確認します。 これをおこなうには、Adobe Campaignコンソールから接続し、以下の手順に従います。
+1. 切り替えを確認します。 これを行うには、Adobe Campaign コンソールを使用して接続し、次の手順を実行します。
 
-   * データが正しく表示されること、特にアクセント記号付き文字が表示されていることを確認します。
-   * 配信を開始し、トラッキングの取得が機能することを確認します。
+   * データ、特にアクセント記号が正しく表示されていることを確認します。
+   * 配信を開始し、トラッキング取得が機能することを確認します。

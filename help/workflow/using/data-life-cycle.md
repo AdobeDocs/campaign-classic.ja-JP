@@ -2,12 +2,11 @@
 product: campaign
 title: データのライフサイクル
 description: ワークフローにおけるデータのライフサイクルの詳細について説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Data Management
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '531'
 ht-degree: 100%
 
 ---

@@ -2,13 +2,12 @@
 product: campaign
 title: Adobe Campaign でのモバイルアプリケーションの設定
 description: モバイルアプリケーション設定の開始方法を説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Push
 role: User, Developer
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '306'
 ht-degree: 100%
 
 ---

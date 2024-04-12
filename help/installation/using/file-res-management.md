@@ -2,17 +2,16 @@
 product: campaign
 title: ファイルとリソースの管理
 feature: Installation, Application Settings
-description: Campaign でのファイルおよびリソース管理の設定方法を説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
+description: Campaign でファイルとリソースの管理を設定する方法を学ぶ
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
-source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 3%
+source-wordcount: '652'
+ht-degree: 2%
 
 ---
 
@@ -20,33 +19,33 @@ ht-degree: 3%
 
 
 
-## アップロードファイル形式の制限 {#limiting-uploadable-files}
+## アップロードファイル形式を制限 {#limiting-uploadable-files}
 
-以下を使用します。 **uploadWhiteList** 属性を使用して、Adobe Campaignサーバーでのアップロードに使用できるファイルタイプを制限します。
+の使用 **uploadWhiteList** Adobe Campaign サーバーでアップロードできるファイルタイプを制限する属性。
 
-この属性は、 **dataStore** の要素 **serverConf.xml** ファイル。 次の **serverConf.xml** を [セクション](../../installation/using/the-server-configuration-file.md).
+この属性は、 **dataStore** の要素 **serverConf.xml** ファイル。 で使用できるすべてのパラメーター **serverConf.xml** の一覧はこちら [セクション](../../installation/using/the-server-configuration-file.md).
 
-この属性のデフォルト値は、です。 **.+** およびを使用すると、あらゆるファイルタイプをアップロードできます。
+この属性のデフォルト値はです。 **.+** 任意のファイルタイプをアップロードできます。
 
-使用可能な書式を制限するには、属性値を有効な Java 正規表現で置き換えます。 複数の値を入力する場合は、コンマで区切ります。
+可能な形式を制限するには、属性値を有効な Java 正規表現に置き換えます。 複数の値を入力する場合は、コンマで区切ります。
 
-例： **uploadWhiteList=&quot;.&#42;.png,.&#42;.jpg&quot;** は、サーバーに PNG 形式およびJPG形式をアップロードできます。 他の形式は使用できません。
+例： **uploadWhiteList=&quot;.&#42;.png、&#42;.jpg&quot;** では、PNG およびJPG形式をサーバーにアップロードできます。 その他の形式は受け付けられません。
 
-また、Web サーバーを設定して、重要なファイルがアップロードされないようにすることもできます。 [詳細情報](web-server-configuration.md)
+Web サーバーを設定して、重要なファイルがアップロードされないようにすることもできます。 [詳細情報](web-server-configuration.md)
 
 >[!NOTE]
 >
->The **uploadWhiteList** 属性によって、Adobe Campaignサーバーでのアップロードに使用できるファイルタイプが制限されます。 ただし、パブリッシュモードが **トラッキングサーバー** または **その他のAdobe Campaignサーバー**、 **uploadWhitelist** 属性も、これらのサーバーで更新する必要があります。
+>この **uploadWhiteList** 属性は、Adobe Campaign サーバーでアップロードできるファイルタイプを制限します。 ただし、公開モードがの場合は、 **トラッキングサーバー** または **その他のAdobe Campaign サーバー**, **uploadWhitelist** また、これらのサーバーで属性を更新する必要があります。
 
-## プロキシ接続の設定 {#proxy-connection-configuration}
+## プロキシ接続設定 {#proxy-connection-configuration}
 
-Campaign サーバーをプロキシ経由で外部システムに接続するには、 **ファイル転送** 例えば、ワークフローアクティビティを使用できます。 これをおこなうには、 **proxyConfig** のセクション **serverConf.xml** ファイルを指定します。 で使用可能なすべてのパラメーター **serverConf.xml** を [セクション](../../installation/using/the-server-configuration-file.md).
+プロキシを使用して、Campaign サーバーを外部システムに接続するには、 **ファイル転送** ワークフローアクティビティ（例：）。 これを行うには、 **proxyConfig** の節 **serverConf.xml** 特定のコマンドを使用してファイルに書き込みます。 で使用できるすべてのパラメーター **serverConf.xml** の一覧はこちら [セクション](../../installation/using/the-server-configuration-file.md).
 
-HTTP、HTTPS、FTP、SFTP のプロキシ接続が可能です。 20.2 Campaign リリース以降、HTTP および HTTPS プロトコルパラメーターは次のようになります。 **現在は使用できません**. これらのパラメーターは、9032 を含む以前のビルドで引き続き使用可能なので、以下でも説明されています。
+HTTP、HTTPS、FTP、SFTP などのプロキシ接続が可能です。 20.2 Campaign リリース以降、HTTP および HTTPS プロトコルパラメーターは **公開停止**. これらのパラメーターは、9032 を含む以前のビルドでも引き続き使用できるので、引き続き以下で説明します。
 
 >[!CAUTION]
 >
->基本認証モードのみがサポートされます。 NTLM 認証はサポートされていません。
+>基本認証モードのみがサポートされています。 NTLM 認証はサポートされていません。
 >
 >SOCKS プロキシはサポートされていません。
 >
@@ -57,9 +56,9 @@ HTTP、HTTPS、FTP、SFTP のプロキシ接続が可能です。 20.2 Campaign 
 nlserver config -setproxy:[protocol]/[serverIP]:[port]/[login][:‘https’|'http’]
 ```
 
-プロトコルのパラメーターは、「http」、「https」または「ftp」にすることができます。
+プロトコルパラメーターは、「http」、「https」または「ftp」にすることができます。
 
-HTTP/HTTPS トラフィックと同じポートで FTP を設定している場合は、次を使用できます。
+HTTP/HTTPS トラフィックと同じポートに FTP を設定する場合は、次を使用できます。
 
 ```
 nlserver config -setproxy:http/198.51.100.0:8080/user
@@ -67,7 +66,7 @@ nlserver config -setproxy:http/198.51.100.0:8080/user
 
 「http」および「https」オプションは、プロトコルパラメーターが「ftp」の場合にのみ使用され、指定したポートでのトンネリングが HTTPS または HTTP のどちらで実行されるかを示します。
 
-プロキシサーバー経由で FTP/SFTP と HTTP/HTTPS トラフィックに別のポートを使用する場合は、「ftp」プロトコルパラメーターを設定する必要があります。
+プロキシサーバーを介した FTP/SFTP および HTTP/HTTPS トラフィックに異なるポートを使用する場合は、「ftp」プロトコルパラメーターを設定する必要があります。
 
 
 例：
@@ -102,34 +101,34 @@ FTP/FTPS 接続は、proxyFTP パラメーターで定義されます。
 </proxyConfig>
 ```
 
-複数の接続タイプで同じプロキシを使用する場合、useSingleProxy が&quot;1&quot;または&quot;true&quot;に設定された proxyHTTP のみが定義されます。
+複数の接続タイプに同じプロキシを使用する場合、useSingleProxy を「1」または「true」に設定した proxyHTTP のみが定義されます。
 
-プロキシを経由しない内部接続がある場合は、それらを override パラメーターに追加します。
+プロキシを経由しない内部接続がある場合は、それらをオーバーライドパラメーターに追加します。
 
 プロキシ接続を一時的に無効にする場合は、enabled パラメーターを「false」または「0」に設定します。
 
-プロキシを通じてiOS HTTP/2 コネクタを使用する必要がある場合、次の HTTP プロキシモードがサポートされます。
+プロキシ経由でiOS HTTP/2 コネクタを使用する必要がある場合、次の HTTP プロキシモードがサポートされています。
 
-* HTTP （認証なし）
+* 認証なしの HTTP
 * HTTP 基本認証
 
-プロキシモードを有効にするには、 `serverconf.xml` ファイル：
+プロキシモードを有効にするには、で次の変更を行う必要があります。 `serverconf.xml` ファイル：
 
 ```
 <nmac useHTTPProxy="true">
 ```
 
-このiOS HTTP/2 コネクタについて詳しくは、次を参照してください [ページ](../../delivery/using/about-mobile-app-channel.md).
+このiOS HTTP/2 コネクタについて詳しくは、こちらを参照してください。 [ページ](../../delivery/using/about-mobile-app-channel.md).
 
 ## パブリックリソースの管理 {#managing-public-resources}
 
-キャンペーンに関連する E メールやパブリックリソースで使用される画像を公開するには、外部からアクセス可能なサーバー上に存在する必要があります。 その後、外部の受信者やオペレーターが使用できるようになります。 [詳細情報](../../installation/using/deploying-an-instance.md#managing-public-resources)。
+公開するには、キャンペーンにリンクされたメールや公開リソースで使用される画像が、外部からアクセス可能なサーバー上に存在している必要があります。 その後、外部の受信者やオペレーターがコンテンツフラグメントを使用できるようになります。 [詳細情報](../../installation/using/deploying-an-instance.md#managing-public-resources)。
 
-パブリックリソースは、 **/var/res/instance** Adobe Campaignインストールディレクトリのディレクトリ。
+パブリックリソースはに保存されます。 **/var/res/instance** Adobe Campaign インストールディレクトリのディレクトリ。
 
-一致する URL は次のとおりです。 **http://server/res/instance** 場所 **インスタンス** は、トラッキングインスタンスの名前です。
+一致する URL は次のとおりです。 **http://server/res/instance** ここで、 **instance** は、トラッキングインスタンスの名前です。
 
-別のディレクトリを指定するには、 **conf-`<instance>`.xml** ファイルを使用して、サーバー上のストレージを構成します。 つまり、次の行を追加します。
+ノードをに追加することで、別のディレクトリを指定できます。 **conf-`<instance>`.xml** ファイル：サーバーのストレージを設定します。 つまり、次の行を追加します。
 
 ```
 <serverconf>
@@ -142,4 +141,4 @@ FTP/FTPS 接続は、proxyFTP パラメーターで定義されます。
 </serverconf>
 ```
 
-この場合、デプロイウィザードのウィンドウ上部で指定されたパブリックリソースの新しい URL が、このフォルダーを指しているはずです。
+この場合、デプロイメントウィザードのウィンドウの上部に表示されるパブリックリソースの新しい URL は、このフォルダーを指している必要があります。

@@ -2,11 +2,10 @@
 product: campaign
 title: 配信
 description: デフォルトの配信ワークフローの詳細を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '324'
 ht-degree: 100%
 
 ---

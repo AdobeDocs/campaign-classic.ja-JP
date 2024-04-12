@@ -2,13 +2,12 @@
 product: campaign
 title: フィルターの作成
 description: クエリを実行する際のフィルターの作成方法を学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Query Editor, Workflows
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 94%
+source-wordcount: '231'
+ht-degree: 93%
 
 ---
 
@@ -56,4 +55,4 @@ Adobe Campaign で使用可能なフィルターは、クエリと同じ操作�
 
 ここでは、**$(/tmp/@text)=&#39;代理店&#39;** となっています。
 
-The **$(/tmp/@text)!=&quot;** 式は、入力フィールドが空でない場合に各条件を適用します。
+この **$（/tmp/@text）!=&quot;** 式は、入力フィールドが空でないときに各条件を適用します。

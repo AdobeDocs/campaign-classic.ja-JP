@@ -3,12 +3,11 @@ product: campaign
 title: 承認プロセスの設定と管理
 description: マーケティングキャンペーンの承認を管理する方法を学ぶ
 role: User
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2606'
 ht-degree: 100%
 
 ---

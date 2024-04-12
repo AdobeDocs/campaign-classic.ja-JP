@@ -2,12 +2,11 @@
 product: campaign
 title: ワークフローの開始
 description: ワークフローの開始方法、およびワークフローのアクションツールバーと右クリックメニューへのアクセス方法を学ぶ
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: 1baf424138c95b16add37d9d556e3a2566a869c2
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1202'
 ht-degree: 97%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 97%
 
 ワークフローは、必ず手動で開始します。開始しても、スケジューラー（[スケジューラー](scheduler.md)を参照）経由で指定された情報またはアクティビティのスケジュール設定に基づいて、ワークフローが非アクティブのままになることもあります。
 
-ターゲティングワークフローの実行に関連するアクション（開始、停止、一時停止など） が **非同期** プロセス：オーダーが記録され、サーバーがそのオーダーを適用できるようになるとすぐに有効になります。
+ターゲティングワークフローの実行に関連するアクション（起動、停止、一時停止など） は **非同期** プロセス：注文が記録され、サーバーが適用できるようになるとすぐに有効になります。
 
 ツールバーを使用して、ワークフローの実行を開始およびトラッキングできます。
 

@@ -3,16 +3,15 @@ product: campaign
 title: サーバーのインストール
 description: サーバーのインストール
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 5%
+source-wordcount: '424'
+ht-degree: 3%
 
 ---
 
@@ -22,74 +21,74 @@ ht-degree: 5%
 
 ## インストールプログラムの実行 {#executing-the-installation-program}
 
-Windows 32 ビットプラットフォームの場合、Adobe Campaign 32 ビットをインストールします。 Windows 64 ビットプラットフォームの場合、Adobe Campaign 64 ビットをインストールします。
+Windows 32 ビットプラットフォームの場合は、Adobe Campaign 32 ビットをインストールします。 Windows 64 ビット版のプラットフォームの場合は、Adobe Campaign 64 ビット版をインストールします。
 
-Adobe Campaignサーバーのインストール手順は次のとおりです。
+Adobe Campaign サーバーのインストール手順は次のとおりです。
 
-1. ファイルを実行します。 **setup.exe**.
+1. ファイルを実行します **setup.exe**.
 
    ![](assets/s_ncs_install_installer_01.png)
 
-1. インストールタイプを選択します。
+1. インストールの種類を選択します。
 
    ![](assets/s_ncs_install_installer_01a.png)
 
-   次のインストールタイプを使用できます。
+   次の複数のインストールタイプを使用できます。
 
-   * **[!UICONTROL アプリケーションサーバーのインストール]** :Adobe Campaignアプリケーションサーバーとクライアントコンソールをインストールします。
-   * **[!UICONTROL 最小インストール（ネットワーク）]** ：ネットワークからのクライアントコンピューターのインストール。 必要に応じて、限られた数の DLL のみがコンピュータにインストールされ、その他のすべてのコンポーネントはネットワークドライブから使用されます。
-   * **[!UICONTROL クライアントのインストール]** :Adobe Campaignクライアントに必要なコンポーネントのインストール。
-   * **[!UICONTROL カスタムインストール]** ：ユーザーがインストールする要素を選択します。
+   * **[!UICONTROL アプリケーションサーバーのインストール]** :Adobe Campaign アプリケーションサーバーとクライアントコンソールをインストールします。
+   * **[!UICONTROL 最小インストール（ネットワーク）]** ：ネットワークからのクライアントコンピューターのインストール。 必要に応じて、限られた数の DLL のみがコンピュータにインストールされ、他のすべてのコンポーネントはネットワークドライブから使用されます。
+   * **[!UICONTROL クライアントのインストール]** :Adobe Campaign クライアントに必要なコンポーネントのインストール。
+   * **[!UICONTROL カスタムインストール]** ：インストールする要素をユーザーが選択します。
 
-   選択 **アプリケーションサーバーのインストール**&#x200B;を開き、次に示す様々な手順を実行します。
+   を選択 **アプリケーションサーバーのインストール**&#x200B;をクリックし、次に示すように様々な手順を実行します。
 
    ![](assets/s_ncs_install_installer_02.png)
 
-1. インストールディレクトリを選択します。
+1. インストール ディレクトリの選択：
 
    ![](assets/s_ncs_install_installer_03.png)
 
-1. クリック **[!UICONTROL 完了]** インストールを開始するには：
+1. クリック **[!UICONTROL 終了]** インストールを開始するには：
 
    ![](assets/s_ncs_install_installer_04.png)
 
-   プログレスバーには、インストールの範囲が表示されます。
+   進行状況バーに、インストールの進行状況が表示されます。
 
    ![](assets/s_ncs_install_installer_05.png)
 
-   インストールが完了すると、次の情報を示すメッセージが表示されます。
+   インストールが完了すると、次の内容を知らせるメッセージが表示されます。
 
    ![](assets/s_ncs_install_installer_06.png)
 
    >[!NOTE]
    >
-   >サーバーのインストールが完了したら、ネットワークの問題を回避するために、サーバーを再起動する必要があります。
+   >サーバのインストールが完了したら、ネットワークの問題を回避するためにサーバを再起動する必要があります。
 
-   インストールが完了したら、Adobe Campaignを起動して設定ファイルを作成します。 参照： [サーバーの最初の起動](#first-start-up-of-the-server).
+   インストールが完了したら、Adobe Campaignを起動して設定ファイルを作成します。 こちらを参照してください [サーバーの初回起動](#first-start-up-of-the-server).
 
-## インストールテストの概要 {#summary-installation-testing}
+## 概要インストールテスト {#summary-installation-testing}
 
-次のコマンドを使用して、初期インストールをテストできます。
+最初のインストールをテストするには、次のコマンドを使用します。
 
 ```
 nlserver pdump
 ```
 
-Adobe Campaignが起動していない場合の応答は次のようになります。
+Adobe Campaignが起動されていない場合は、次のように応答します。
 
 ```
 No task
 ```
 
-## サーバーの最初の起動 {#first-start-up-of-the-server}
+## サーバーの初回起動 {#first-start-up-of-the-server}
 
-インストールテストが完了したら、 **[!UICONTROL スタート/プログラム/Adobe Campaign]** メニューを開き、次のコマンドを入力します。
+インストールテストが完了したら、 **[!UICONTROL スタート/プログラム/Adobe Campaign]** メニューをクリックし、次のコマンドを入力します。
 
 ```
 nlserver web
 ```
 
-インストールディレクトリ内のファイルは、Adobe Campaignサーバーモジュールの設定に使用されます。
+インストールディレクトリ内のファイルは、Adobe Campaign サーバーモジュールの設定に使用されます。
 
 次の情報が表示されます。
 
@@ -138,19 +137,19 @@ nlserver stop web
 
 ## 内部識別子のパスワード {#password-for-the-internal-identifier}
 
-Adobe Campaignサーバーは、という名前のテクニカルログインを定義します。 **内部** すべてのインスタンスに対するすべての権限を持つ インストール直後に、ログインにパスワードが含まれていません。 定義する必要があります。
+Adobe Campaign サーバーは、というテクニカルログインを定義します。 **内部** すべてのインスタンスに対してすべての権限を持っています。 インストール直後は、ログインにパスワードがありません。 定義する必要があります。
 
 詳しくは、[こちら](../../installation/using/configuring-campaign-server.md#internal-identifier)を参照してください。
 
-## Adobe Campaign Services の起動 {#starting-adobe-campaign-services}
+## Adobe Campaign サービスの開始 {#starting-adobe-campaign-services}
 
-Adobe Campaignサービスを開始するには、サービスマネージャーを使用するか、（適切な権限を持つ）コマンドラインで次のように入力します。
+Adobe Campaign サービスを開始するには、サービスマネージャーを使用するか、コマンドラインで適切な権限を持つ以下を入力します。
 
 ```
 net start nlserver6
 ```
 
-後でAdobe Campaignプロセスを停止する必要がある場合は、次のコマンドを使用します。
+Adobe Campaign プロセスを後で停止する必要がある場合は、次のコマンドを使用します。
 
 ```
 net stop nlserver6

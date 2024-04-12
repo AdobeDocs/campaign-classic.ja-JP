@@ -1,32 +1,31 @@
 ---
 product: campaign
-title: スキーマを再生成
-description: Campaign スキーマの再生成方法を説明します
+title: スキーマの再生成
+description: Campaign スキーマを再生成する方法を学ぶ
 feature: Custom Resources
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 6%
+source-wordcount: '136'
+ht-degree: 2%
 
 ---
 
-# スキーマを再生成{#regenerating-schemas}
+# スキーマの再生成{#regenerating-schemas}
 
-スキーマを変更して変更を保存すると、拡張スキーマが自動的に生成されます。 ただし、変更を適用するには、スキーマを手動で再生成する必要が生じる場合があります。 手順は次のとおりです。
+スキーマを変更して変更を保存すると、拡張スキーマが自動的に生成されます。 ただし、変更を適用するには、スキーマを手動で再生成する必要がある場合があります。 手順は次のとおりです。
 
-1. 再生成するスキーマを選択します。
-1. 右クリックして「 」を選択します。 **[!UICONTROL アクション/選択したスキーマを再生成…]** .
-1. クリック **[!UICONTROL OK]** をクリックして、プロセスを確定して起動します。
+1. 再生成する必要があるスキーマを選択します。
+1. 右クリックして **[!UICONTROL アクション /選択したスキーマを再生成…]** .
+1. クリック **[!UICONTROL OK]** をクリックして、プロセスを確認して起動します。
 
-「プレビュー」タブと「ドキュメント」タブで、生成されたスキーマの構造を確認できます。 詳しくは、 [原則](../../configuration/using/data-schemas.md#principles) 」セクションに入力します。
+生成されたスキーマの構造を「プレビュー」タブと「ドキュメント」タブで確認できます。 詳しくは、次を参照してください [原則](../../configuration/using/data-schemas.md#principles) セクション。
 
 >[!NOTE]
 >
->例えば、逆リンクでの依存関係の問題を解決するために、すべてのスキーマの再生成を強制する必要がある場合は、Adobe Campaignアプリケーションサーバーから次のコマンドを起動できます。
+>すべてのスキーマを強制的に再生成する必要がある場合（例えば、リバースリンクでの特定の依存関係の問題を解決する場合）は、Adobe Campaign アプリケーションサーバーから次のコマンドを実行できます。
 >
 > `nlserver config -postupgrade -instance:`&lt;instance_name>` -force`
 >
->その後、Adobe Campaignアプリケーションサーバーを再起動し、クライアントコンソールから切断し、再接続する必要があります。
+>次に、Adobe Campaign アプリケーションサーバーを再起動し、クライアントコンソールを切断または再接続する必要があります。

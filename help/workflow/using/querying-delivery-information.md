@@ -2,12 +2,11 @@
 product: campaign
 title: 配信情報に対するクエリ
 description: 配信情報をクエリする方法を説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Query Editor, Workflows
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1552'
 ht-degree: 97%
 
 ---
@@ -156,7 +155,7 @@ ht-degree: 97%
 
 次の例では、過去 2 週間以内に配信を開封したプロファイルをターゲティングする方法を示します。
 
-1. 配信を開封したプロファイルをターゲットにするには、トラッキングログを使用する必要があります。 リンクされたテーブルに格納されます。まず、 **[!UICONTROL フィルタリングディメンション]** フィールドに値を入力する必要があります。
+1. 配信を開いたプロファイルをターゲットにするには、トラッキングログを使用する必要があります。 これらはリンク テーブルに格納されます。まず、のドロップダウン リストでこのテーブルを選択します **[!UICONTROL フィルタリングディメンション]** フィールド（下図を参照）。
 
    ![](assets/s_advuser_query_sample1.0.png)
 

@@ -1,16 +1,15 @@
 ---
 product: campaign
-title: 外部データベースに接続
-description: 外部データベースへの接続方法を説明します
+title: 外部データベースへの接続
+description: 外部データベースに接続する方法を学ぶ
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '688'
 ht-degree: 97%
 
 ---

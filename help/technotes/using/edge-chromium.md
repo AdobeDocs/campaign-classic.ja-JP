@@ -1,13 +1,12 @@
 ---
 product: campaign
 title: テクニカルノート - Campaign 環境での Microsoft Edge Chromium の有効化
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 description: Campaign - Edge Chromium
 feature: Technote, Upgrade
 exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '242'
 ht-degree: 100%
 
 ---

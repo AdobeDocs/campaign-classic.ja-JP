@@ -2,14 +2,13 @@
 product: campaign
 title: アップグレードの概要
 description: Campaign Classic アップグレードの詳細
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '929'
 ht-degree: 97%
 
 ---
@@ -28,9 +27,9 @@ Adobe Campaign Classic は、新機能、バグ修正、パフォーマンス、
 | ステータス | 説明 |
 |---|---|
 | [!BADGE 一般公開]{type=Positive} | 実稼動環境で検証済され、アドビが推奨する、最新の安定したビルド。 |
-| [!BADGE 限定的な可用性]{type=Neutral} | オンデマンドデプロイメントのみ。 |
+| [!BADGE 限定提供（LA）]{type=Neutral} | オンデマンドデプロイメントのみ。 |
 | [!BADGE リリース候補]{type=Informative} | 新機能を備えた最新ビルド。 |
-| [!BADGE 利用できなくなりました]{type=Caution} | デプロイメントなし。バグ修正はありません。 新しいビルドへの更新をお勧めします。 |
+| [!BADGE 公開停止]{type=Caution} | デプロイメントなし。バグ修正はありません。 新しいビルドへの更新をお勧めします。 |
 | [!BADGE 非推奨]{type=negative} | デプロイメントなし。バグ修正はありません。 既存の実装はアップグレードする必要があります。 |
 
 <!--

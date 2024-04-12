@@ -2,14 +2,13 @@
 product: campaign
 title: Adobe Campaign ワークスペース
 description: Campaign ワークスペースの使用方法とカスタマイズ方法を説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '942'
 ht-degree: 97%
 
 ---
@@ -100,7 +99,7 @@ Adobe Campaign Classic インスタンスに選択した言語は、日時フォ
 
 各コア機能のセクションでは、使用可能な各種の要素を参照できます。そのためには、「**[!UICONTROL ブラウジング]**」セクションのショートカットを使用します。「**[!UICONTROL その他]**」リンクを使用すると、環境に関わらず、その他のすべてのページにアクセスできます。
 
-新しい要素（配信、Web アプリケーション、ワークフローなど）を でのショートカットの使用 **[!UICONTROL 作成]** 」セクションをクリックします。 リストの上にある「**[!UICONTROL 作成]**」ボタンを使用すると、リストに新しい要素を追加できます。
+新しい要素（配信、web アプリケーション、ワークフローなど）を作成できます。 のショートカットの使用 **[!UICONTROL 作成]** 画面の左側にあるセクション。 リストの上にある「**[!UICONTROL 作成]**」ボタンを使用すると、リストに新しい要素を追加できます。
 
 例えば、配信ページでは、「**[!UICONTROL 作成]**」ボタンを使用して新しい配信を作成します。
 

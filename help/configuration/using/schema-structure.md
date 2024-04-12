@@ -4,25 +4,24 @@ title: Adobe Campaignのスキーマ構造について
 description: スキーマの構造
 feature: Custom Resources
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 68%
+source-wordcount: '1514'
+ht-degree: 67%
 
 ---
 
-# スキーマ構造を理解する {#schema-structure}
+# スキーマ構造について {#schema-structure}
 
-スキーマの基本的な構造を以下に示します。
+スキーマの基本構造は次のとおりです。
 
 ## データスキーマ  {#data-schema}
 
-の `<srcschema>`の場合、構造は次のようになります。
+の場合 `<srcschema>`の場合、構造は次のようになります。
 
 ```sql
 <srcSchema>
@@ -98,7 +97,7 @@ ht-degree: 68%
 
 ## 説明 {#description}
 
-スキーマのエントリポイントは、スキーマのメイン要素です。 メイン要素はスキーマと同じ名前なので、識別は容易です。また、メイン要素はルート要素の子でなければなりません。コンテンツの記述は、この要素から始まります。
+スキーマのエントリポイントは、スキーマの主な要素です。 メイン要素はスキーマと同じ名前なので、識別は容易です。また、メイン要素はルート要素の子でなければなりません。コンテンツの記述は、この要素から始まります。
 
 この例では、メイン要素を次の行で表しています。
 
@@ -106,7 +105,7 @@ ht-degree: 68%
 <element name="recipient">
 ```
 
-The **`<attribute>`** および **`<element>`** メイン要素に続く要素は、XML 構造内のデータ項目の場所と名前を定義するために使用されます。
+この **`<attribute>`** および **`<element>`** メイン要素の後に続く要素は、XML 構造内のデータ項目の場所と名前を定義するために使用されます。
 
 サンプルスキーマでは、次のようになります。
 
@@ -119,13 +118,13 @@ The **`<attribute>`** および **`<element>`** メイン要素に続く要素�
 </element>
 ```
 
-次の規則が適用されます。
+次のルールが適用されます。
 
 * 各 **`<element>`** と **`<attribute>`** は、**name** 属性を介して名前で識別する必要があります。
 
   >[!IMPORTANT]
   >
-  >要素の名前は簡潔、できれば英語で記述し、XML 命名規則で使用できる文字のみを含める必要があります。
+  >要素名は簡潔なもの（できれば英語）にし、XML 命名規則で許可されている文字のみを含める必要があります。
 
 * XML 構造に **`<attribute>`** 要素と **`<element>`** 要素を含めることができるのは、**`<element>`** 要素のみです。
 * **`<attribute>`** 要素には、**`<element>`** 内で一意の名前が必要です。
@@ -135,7 +134,7 @@ The **`<attribute>`** および **`<element>`** メイン要素に続く要素�
 
 データタイプは、**`<attribute>`** 要素と **`<element>`** 要素の **type** 属性を介して入力されます。
 
-詳細なリストは、 [`<attribute>` 要素](../../configuration/using/schema/attribute.md) そして [`<element>` 要素](../../configuration/using/schema/element.md).
+詳細なリストは、の説明で確認できます [`<attribute>` 要素](../../configuration/using/schema/attribute.md) および [`<element>` 要素](../../configuration/using/schema/element.md).
 
 この属性が空の場合、要素に子要素が含まれていない限り、**string** がデフォルトのデータタイプになります。 子要素が含まれる場合は、要素を階層的に構成するためにのみ使用します（この例では&#x200B;**`<location>`**&#x200B;要素）。
 
@@ -152,11 +151,11 @@ The **`<attribute>`** および **`<element>`** メイン要素に続く要素�
 * **datetimenotz**：タイムゾーンデータを含まない日付＋時刻。
 * **timespan**：継続時間。例：年齢順。
 * **memo**：長いテキストフィールド（複数行）。例：説明、注釈など
-* **uuid**:GUID をサポートする「uniqueidentifier」フィールド (Microsoft SQL Server でのみサポート )。
+* **uuid**:GUID をサポートする「uniqueidentifier」フィールド（Microsoft SQL Server でのみサポート）。
 
   >[!NOTE]
   >
-  >を含めるには **uuid** Microsoft SQL Server 以外の RDBMS のフィールド `the newuuid()` 関数を追加し、デフォルト値で完了する必要があります。
+  >を含めるには **uuid** Microsoft SQL Server 以外の RDBMS のフィールド `the newuuid()` 関数を追加し、デフォルト値を使用して完了する必要があります。
 
 次に、入力したタイプのスキーマ例を示します。
 
@@ -175,7 +174,7 @@ The **`<attribute>`** および **`<element>`** メイン要素に続く要素�
 
 ### Adobe Campaign/DBMS データのタイプのマッピング {#mapping-the-types-of-adobe-campaign-dbms-data}
 
-次の表に、様々なデータベース管理システム用にAdobe Campaignで生成されるデータのタイプのマッピングを示します。
+次の表に、様々なデータベース管理システム向けにAdobe Campaignで生成されるデータのタイプのマッピングを示します。
 
 <table> 
  <tbody> 
@@ -186,38 +185,38 @@ The **`<attribute>`** および **`<element>`** メイン要素に続く要素�
   </tr> 
   <tr> 
    <td> 文字列<br /> </td> 
-   <td> VARCHAR(255)<br /> </td> 
-   <td> VARCHAR2 （unicode の場合は NVARCHAR2）<br /> </td> 
+   <td> VARCHAR （255）<br /> </td> 
+   <td> VARCHAR2 （Unicode の場合は NVARCHAR2）<br /> </td> 
   </tr> 
   <tr> 
-   <td> Boolean<br /> </td> 
+   <td> ブール値<br /> </td> 
    <td> SMALLINT<br /> </td> 
-   <td> NUMBER(3)<br /> </td> 
+   <td> NUMBER （3）<br /> </td> 
   </tr> 
   <tr> 
-   <td> Byte<br /> </td> 
+   <td> バイト<br /> </td> 
    <td> SMALLINT<br /> </td> 
-   <td> NUMBER(3)<br /> </td> 
+   <td> NUMBER （3）<br /> </td> 
   </tr> 
   <tr> 
-   <td> Short<br /> </td> 
+   <td> 短い<br /> </td> 
    <td> SMALLINT<br /> </td> 
-   <td> NUMBER(5)<br /> </td> 
+   <td> NUMBER （5）<br /> </td> 
   </tr> 
   <tr> 
    <td> ダブル<br /> </td> 
    <td> 倍精度<br /> </td> 
-   <td> 浮動小数点<br /> </td> 
+   <td> 浮動小数<br /> </td> 
   </tr> 
   <tr> 
-   <td> Long<br /> </td> 
+   <td> ロング<br /> </td> 
    <td> 整数<br /> </td> 
-   <td> NUMBER(10)<br /> </td> 
+   <td> NUMBER （10）<br /> </td> 
   </tr> 
   <tr> 
    <td> Int64<br /> </td> 
    <td> BIGINT<br /> </td> 
-   <td> NUMBER(20)<br /> </td> 
+   <td> NUMBER （20）<br /> </td> 
   </tr> 
   <tr> 
    <td> 日付<br /> </td> 
@@ -227,22 +226,22 @@ The **`<attribute>`** および **`<element>`** メイン要素に続く要素�
   <tr> 
    <td> 時間<br /> </td> 
    <td> 時間<br /> </td> 
-   <td> 浮動小数点<br /> </td> 
+   <td> 浮動小数<br /> </td> 
   </tr> 
   <tr> 
    <td> 日時<br /> </td> 
-   <td> TIMESTAMPZ<br /> </td> 
+   <td> TIMESTAMP<br /> </td> 
    <td> 日付<br /> </td> 
   </tr> 
   <tr> 
-   <td> Datetimenotz<br /> </td> 
-   <td> TIMESTAMPZ<br /> </td> 
+   <td> 日時の<br /> </td> 
+   <td> TIMESTAMP<br /> </td> 
    <td> 日付<br /> </td> 
   </tr> 
   <tr> 
    <td> 期間<br /> </td> 
    <td> 倍精度<br /> </td> 
-   <td> 浮動小数点<br /> </td> 
+   <td> 浮動小数<br /> </td> 
   </tr> 
   <tr> 
    <td> メモ<br /> </td> 
@@ -259,7 +258,7 @@ The **`<attribute>`** および **`<element>`** メイン要素に続く要素�
 
 ## プロパティ {#properties}
 
-The **`<elements>`** および **`<attributes>`** データスキーマの要素は、様々なプロパティを使用してエンリッチメントできます。 現在の要素を説明するためにラベルを入力できます。
+この **`<elements>`** および **`<attributes>`** データスキーマの要素は、様々なプロパティを使用して強化できます。 現在の要素を説明するためにラベルを入力できます。
 
 ### ラベルと説明 {#labels-and-descriptions}
 
@@ -275,13 +274,13 @@ The **`<elements>`** および **`<attributes>`** データスキーマの要素
   <attribute name="email" type="string" length="80" label="Email"/>
   ```
 
-  ラベルは、Adobe Campaignクライアントコンソールの入力フォームに表示されます。
+  ラベルは、Adobe Campaign クライアントコンソールの入力フォームに表示されます。
 
   ![](assets/d_ncs_integration_schema_label.png)
 
 * **desc** プロパティを使用すると、詳細な説明を入力できます。
 
-  説明は、Adobe Campaignクライアントコンソールのメインウィンドウのステータスバーにある入力フォームに表示されます。
+  説明は、Adobe Campaign クライアントコンソールのメインウィンドウのステータスバーにある入力フォームに表示されます。
 
   >[!NOTE]
   >
@@ -295,9 +294,9 @@ The **`<elements>`** および **`<attributes>`** データスキーマの要素
 
 ### デフォルト値 {#default-values}
 
-以下を使用します。 **デフォルト** プロパティを使用して、コンテンツ作成のデフォルト値を返す式を定義します。
+の使用 **default** コンテンツ作成時にデフォルト値を返す式を定義するプロパティ。
 
-値は、XPath 言語に準拠した式である必要があります。 詳しくは、 [XPath を使用した参照](../../configuration/using/schema-structure.md#referencing-with-xpath).
+値は、XPath 言語に準拠した式である必要があります。 詳しくは、次を参照してください [XPath を使用した参照](../../configuration/using/schema-structure.md#referencing-with-xpath).
 
 **例**：
 
@@ -308,9 +307,9 @@ The **`<elements>`** および **`<attributes>`** データスキーマの要素
 
   >[!NOTE]
   >
-  >Adobe Campaignクライアントコンソールで、 **[!UICONTROL [ 管理 ] > [ カウンタ ]]** カウンタを管理するエクスプローラのフォルダ。
+  >Adobe Campaign クライアントコンソールで、を参照します **[!UICONTROL 管理/ カウンター]** カウンターを管理するエクスプローラーのフォルダー。
 
-デフォルト値をフィールドにリンクするには、 `<default>`  または  `<sqldefault>`   フィールドに入力します。
+フィールドにデフォルト値をリンクするには、を使用できます `<default>`  または  `<sqldefault>`   フィールド。
 
 `<default>`：エンティティを作成時にデフォルト値をフィールドに事前入力できます。値はデフォルトの SQL 値ではありません。
 
@@ -320,7 +319,7 @@ The **`<elements>`** および **`<attributes>`** データスキーマの要素
 
 #### 列挙を開く {#free-enumeration}
 
-The **userEnum** プロパティを使用すると、開いている列挙を定義して、このフィールドに入力した値を保存および表示できます。
+この **userEnum** プロパティを使用すると、開いている列挙を定義して、このフィールドに入力した値を保存および表示できます。
 
 構文は以下のようになります。
 
@@ -332,7 +331,7 @@ The **userEnum** プロパティを使用すると、開いている列挙を定
 
 >[!NOTE]
 >
->Adobe Campaignクライアントコンソールで、 **[!UICONTROL 管理/列挙]** 列挙を管理するエクスプローラーのフォルダー。
+>Adobe Campaign クライアントコンソールで、を参照します **[!UICONTROL 管理/列挙]** 列挙を管理するエクスプローラーのフォルダー。
 
 #### 定義済みリストを設定 {#set-enumeration}
 
@@ -358,19 +357,19 @@ The **userEnum** プロパティを使用すると、開いている列挙を定
 
 定義済みリストのプロパティは次のとおりです。
 
-* **baseType**：値に関連付けられたデータのタイプ
+* **baseType**：値に関連付けられているデータのタイプ
 * **ラベル**：列挙の説明
 * **名前**：列挙の名前
-* **デフォルト**：列挙のデフォルト値
+* **default**：列挙のデフォルト値
 
 定義済みリストの値は、次の属性を持つ **`<value>`** 要素で宣言します。
 
-* **名前**：内部的に保存されている値の名前
+* **名前**：内部的に保存された値の名前
 * **ラベル**：グラフィカルインターフェイスに表示されるラベル
 
 #### dbenum 定義済みリスト {#dbenum-enumeration}
 
-* **dbenum** プロパティを使用すると、 **enum** プロパティ。
+*その **dbenum** プロパティでは、のプロパティに類似したプロパティを持つ定義済みリストを定義できます **列挙** プロパティ。
 
 ただし、**name** 属性は値を内部に格納するのではなく、スキーマを変更せずに関連するテーブルを拡張できるコードを格納します。
 
@@ -434,7 +433,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 * **@email**：メールを選択します。
 * **location/@city**：**`<location>`** 要素の「市区町村」属性を選択します。
-* **../@email**：現在の要素の親要素から E メールアドレスを選択します
+* **../@email**：現在の要素の親要素からメールアドレスを選択します
 * **group`[1]/@label`**：最初の **`<group>`** コレクション要素の子要素である「label」属性を選択します。
 * **group`[@label='test1']`**：**`<group>`** 要素の子で、値「test1」を含む「label」属性を選択します。
 
@@ -449,7 +448,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 次の算術演算のように、複雑な式を定義することもできます。
 
 * **@gender+1**：**gender** 属性の内容に 1 を追加します。
-* **@email + &#39;(&#39;+@created+&#39;)&#39;**:（文字列タイプの場合は）括弧内の作成日に追加された E メールアドレスの値を取り込んで、文字列を作成します。
+* **@email + &#39;（&#39;+@created+&#39;）&#39;**：丸括弧内の作成日に追加されたメールアドレスの値を受け取って、文字列を作成します（文字列型の場合は、定数を引用符で囲みます）。
 
 この言語の可能性を広げるため、式に高レベルの関数が追加されました。
 
@@ -460,8 +459,8 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 **例**：
 
 * **GetDate()**：現在の日付を返します。
-* **Year(@created)**:「created」属性に含まれる日付の年を戻します
-* **GetEmailDomain(@email)**:E メールアドレスのドメインを戻します
+* **年（@created）**:「created」属性に含まれる日付の年を返します。
+* **GetEmailDomain （@email）**：メールアドレスのドメインを返します
 
 ## 文字列計算を使用した文字列の作成 {#building-a-string-via-the-compute-string}
 
@@ -494,5 +493,5 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 * [スキーマの基本を学ぶ](about-schema-reference.md)
 * [データベースマッピング](database-mapping.md)
 * [リンク管理](database-links.md)
-* [鍵の管理](database-keys.md)
+* [キーの管理](database-keys.md)
 * [Campaign データモデル](about-data-model.md)

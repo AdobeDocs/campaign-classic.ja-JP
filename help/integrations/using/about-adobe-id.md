@@ -3,14 +3,13 @@ product: campaign
 title: Adobe ID を使用して Adobe Campaign に接続
 description: Adobe Campaign での Adobe IMS 実装について詳しく説明します
 feature: Configuration
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 に適用されます"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '170'
 ht-degree: 91%
 
 ---
@@ -28,7 +27,7 @@ Campaign ユーザーは、[ネイティブのユーザー／パスワード認�
 
 >[!IMPORTANT]
 >
-> Campaign v8 では、ユーザー/パスワード（ネイティブ認証）との接続は許可されません。 **アドビでは、Campaign v8 にスムーズに移行できるように、Campaign v7.3.5 でこの移行を実行することをお勧めします。**
+> Campaign v8 では、ユーザー/パスワード（ネイティブ認証）を使用して接続することはできません。 **アドビでは、Campaign v8 にスムーズに移行できるように、Campaign v7.3.5 でこの移行を実行することをお勧めします。**
 
 
 <!--

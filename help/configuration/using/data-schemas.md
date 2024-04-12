@@ -1,14 +1,13 @@
 ---
 product: campaign
 title: データスキーマ
-description: Campaign データスキーマの概要
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
+description: Campaign データスキーマの基本を学ぶ
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '411'
 ht-degree: 56%
 
 ---
@@ -25,7 +24,7 @@ ht-degree: 56%
 
 ![](assets/d_ncs_integration_schema_navtree.png)
 
-編集フィールドに、ソーススキーマの XML コンテンツが表示されます。
+編集フィールドには、ソーススキーマの XML コンテンツが表示されます。
 
 ![](assets/d_ncs_integration_schema_edition.png)
 
@@ -33,7 +32,7 @@ ht-degree: 56%
 >
 >「名前」編集コントロールを使用すると、名前と名前空間で構成されるスキーマキーを入力できます。 スキーマのルート要素の「name」属性と「namespace」属性は、スキーマの XML 編集ゾーンで自動的に更新されます。
 
-プレビューは、拡張スキーマを自動的に生成します。
+プレビューでは、次のように拡張スキーマが自動的に生成されます。
 
 ![](assets/d_ncs_integration_schema_edition2.png)
 
@@ -41,16 +40,16 @@ ht-degree: 56%
 >
 >ソーススキーマを保存すると、拡張スキーマの生成が自動的に開始されます。
 
-スキーマの構造を完全に確認する必要がある場合は、「プレビュー」タブを使用できます。 スキーマを拡張すると、そのすべての拡張を視覚化できます。 補集合として、「ドキュメント」タブには、すべてのスキーマ属性と要素とそのプロパティ（SQL フィールド、タイプ/長さ、ラベル、説明）が表示されます。 「ドキュメント」タブは、生成されたスキーマにのみ適用されます。 詳しくは、 [スキーマの再生成](../../configuration/using/regenerating-schemas.md) 」セクションに入力します。
+スキーマの完全な構造を確認する必要がある場合は、「プレビュー」タブを使用します。 スキーマを拡張すると、そのすべての拡張を視覚化できます。 「ドキュメント」タブには、補足情報として、すべてのスキーマ属性と要素、およびそのプロパティ（SQL フィールド、タイプ/長さ、ラベル、説明）が表示されます。 「ドキュメント」タブは、生成されたスキーマにのみ適用されます。 詳しくは、次を参照してください [スキーマの再生成](../../configuration/using/regenerating-schemas.md) セクション。
 
 ## 例：契約テーブルの作成 {#example--creating-a-contract-table}
 
-次の例では、用の新しいテーブルを作成します。 **契約** (Adobe Campaignデータベースのデータベースモデル )。 このテーブルには、契約ごとに、所有者と共同所有者の姓と名およびメールアドレスを格納できます。
+次の例では、に新しいテーブルを作成します **契約** （Adobe Campaign データベースのデータベースモデル）。 このテーブルには、契約ごとに、所有者と共同所有者の姓と名およびメールアドレスを格納できます。
 
 それには、テーブルのスキーマを作成し、対応するテーブルを生成するためのデータベース構造を更新する必要があります。 次のような流れになります。
 
-1. を編集します。 **[!UICONTROL 管理/設定/データスキーマ]** Adobe Campaignツリーのノードをクリックし、 **[!UICONTROL 新規]** .
-1. を選択します。 **[!UICONTROL データモデルで新しいテーブルを作成する]** オプションを選択し、 **[!UICONTROL 次へ]** .
+1. を編集する **[!UICONTROL 管理/設定/データスキーマ]** Adobe Campaignツリーのノードで、 **[!UICONTROL 新規]** .
+1. を選択します。 **[!UICONTROL データモデルに新しいテーブルを作成します]** オプションを選択して、 **[!UICONTROL 次]** .
 
    ![](assets/s_ncs_configuration_create_new_schema.png)
 
@@ -62,7 +61,7 @@ ht-degree: 56%
    >
    >デフォルトでは、ユーザーが作成したスキーマは「cus」名前空間に保存されます。 詳しくは、[スキーマの ID](../../configuration/using/about-schema-reference.md#identification-of-a-schema) を参照してください。
 
-1. テーブルの内容を作成します。 設定が欠落していないことを確認するには、入力ウィザードを使用することをお勧めします。 それには、「**[!UICONTROL 挿入]**」ボタンをクリックし、追加する設定のタイプを選択します。
+1. テーブルの内容を作成します。 エントリウィザードを使用して、設定が失われていないことを確認することをお勧めします。 それには、「**[!UICONTROL 挿入]**」ボタンをクリックし、追加する設定のタイプを選択します。
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 
@@ -118,4 +117,4 @@ ht-degree: 56%
 
    ![](assets/s_ncs_configuration_structure.png)
 
-1. データベース構造を更新して、スキーマのリンク先となるテーブルを作成します。 詳しくは、 [データベース構造の更新](../../configuration/using/updating-the-database-structure.md).
+1. データベース構造を更新して、スキーマのリンク先となるテーブルを作成します。 詳しくは、次を参照してください [データベース構造の更新](../../configuration/using/updating-the-database-structure.md).

@@ -1,17 +1,16 @@
 ---
 product: campaign
 title: スクリプトとコーディングのガイドライン
-description: Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する際に従うガイドラインについて詳しくは、
+description: Adobe Campaign（ワークフロー、JavaScript、JSSP など）での開発時に従うガイドラインの詳細を説明します。
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 36%
+source-wordcount: '758'
+ht-degree: 35%
 
 ---
 
@@ -29,7 +28,7 @@ ht-degree: 36%
 
 * どうしても必要な場合は、文字列連結ではなく、パラメーター化関数（prepare 文）を使用します。
 
-  悪い方法：
+  悪い習慣：
 
   ```
   sqlGetInt( "select iRecipientId from NmsRecipient where sEmail ='" + request.getParameter('email') +  "'  limit 1" )
@@ -43,7 +42,7 @@ ht-degree: 36%
 
   >[!IMPORTANT]
   >
-  >sqlSelect はこの機能をサポートしていないので、DBEngine クラスのクエリ関数を使用する必要があります。
+  >sqlSelect はこの機能をサポートしていないため、DBEngine クラスのクエリ関数を使用する必要があります。
 
   ```
   var cnx = application.getConnection()
@@ -52,13 +51,13 @@ ht-degree: 36%
   cnx.dispose()
   ```
 
-SQL インジェクションを回避するには、Adobe Campaignで使用するに SQL 関数を追加する必要がありま許可リストに加えるす。 オペレーターがに追加許可リストに加えるすると、式エディターに表示されるようになります。 [このページ](../../configuration/using/adding-additional-sql-functions.md)を参照してください。
+SQL の挿入を避けるために、Adobe Campaignで使用する許可リストに SQL 関数を追加する必要があります。 許可リストに追加されると、式エディターで演算子に表示されるようになります。 [このページ](../../configuration/using/adding-additional-sql-functions.md)を参照してください。
 
 >[!IMPORTANT]
 >
->8140 より古いビルドを使用している場合、 **XtkPassUnknownSQLFunctionsToRDBMS** オプションは&#39;1&#39;に設定できます。 データベースを保護する場合は、このオプションを削除します（または「0」に設定します）。
+>8140 より古いビルドを使用している場合、 **XtkPassUnknownSQLFunctionsToRDBMS** オプションは&#39;1&#39;に設定されている可能性があります。 データベースを保護する場合は、このオプションを削除します（または「0」に設定します）。
 
-ユーザー入力を使用してクエリや SQL 文でフィルターを作成する場合は、常にエスケープする必要があります ( [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja)  — データ保護：関数のエスケープ )。 次の関数が該当します。
+ユーザー入力を使用してクエリや SQL 文にフィルターを作成する場合は、常にフィルターをエスケープする必要があります（を参照） [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja) - データ保護：関数のエスケープ）。 次の関数が該当します。
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)
@@ -78,7 +77,7 @@ SQL インジェクションを回避するには、Adobe Campaignで使用す�
 
 フォルダーベースのセキュリティモデルに加えて、ネームド権限を使用してオペレーターの操作を制限できます。
 
-* データの読み取り/書き込みを防ぐために、システムフィルタ (sysFilter) を追加できます ( [このページ](../../configuration/using/filtering-schemas.md)) をクリックします。
+* 一部のシステムフィルター（sysFilter）を追加すると、データの読み取りや書き込みを防ぐことができます（ [このページ](../../configuration/using/filtering-schemas.md)）に設定します。
 
   ```
   <sysFilter name="writeAccess">    
@@ -86,7 +85,7 @@ SQL インジェクションを回避するには、Adobe Campaignで使用す�
   </sysFilter>
   ```
 
-* また、スキーマで定義された一部のアクション（SOAP メソッド）を保護することもできます。 対応するネームド権限を値として、アクセス属性を設定します。
+* また、スキーマで定義された一部のアクション（SOAP メソッド）を保護することもできます。 対応するネームド権限を値として使用して、アクセス属性を設定するだけです。
 
   ```
   <method name="grantVIPAccess" access="myNewRole">
@@ -100,17 +99,17 @@ SQL インジェクションを回避するには、Adobe Campaignで使用す�
 
 >[!IMPORTANT]
 >
->ネームド権限は、ナビゲーションツリーのコマンドノードで使用できます。 より優れたユーザーエクスペリエンスを提供しますが、保護は提供しません（非表示/無効にするには、クライアント側のみを使用します）。 アクセス属性を使用する必要があります。
+>ネームド権限は、navtree のコマンド・ノードで使用できます。 ユーザーエクスペリエンスは向上しますが、保護は提供しません（クライアントサイドのみを使用して非表示/無効にします）。 アクセス属性を使用する必要があります。
 
 ### オーバーフローテーブル
 
 オペレーターのアクセスレベルに応じて機密データ（スキーマの一部）を保護する必要がある場合、フォーム定義で非表示にしないでください（enabledIf／visibleIf 条件）。
 
-エンティティ全体が画面に読み込まれ、列定義で表示することもできます。 これをおこなうには、オーバーフローテーブルを作成する必要があります。 参照 [このページ](../../configuration/using/examples-of-schemas-edition.md#overflow-table).
+エンティティ全体が画面に読み込まれます。また、列定義で表示することもできます。 それには、オーバーフローテーブルを作成する必要があります。 参照 [このページ](../../configuration/using/examples-of-schemas-edition.md#overflow-table).
 
 ## Web アプリケーションへの Captcha の追加
 
-パブリックランディングページ/サブスクリプションページに Captcha を追加することをお勧めします。 残念ながら、DCE（デジタルコンテンツエディター）ページに Captcha を追加することは容易ではありません。 ここでは、Captcha バージョン 5 または Google reCAPTCHA を追加する方法について説明します。
+パブリックのランディングページや購読ページに Captcha を追加することをお勧めします。 残念ながら、DCE （デジタルコンテンツエディター）ページに CAPTCHA を追加することは容易ではありません。 ここでは、Captcha バージョン 5 または Google reCAPTCHA を追加する方法について説明します。
 
 DCE に Captcha を追加する一般的な方法は、パーソナライゼーションブロックを作成して、ページコンテンツ内に簡単に含めることです。 **スクリプト**&#x200B;アクティビティと&#x200B;**テスト**&#x200B;を追加する必要があります。
 
@@ -118,7 +117,7 @@ DCE に Captcha を追加する一般的な方法は、パーソナライゼー�
 
 1. **[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL パーソナライゼーションブロック]**&#x200B;に移動し、新しいパーソナライゼーションブロックを作成します。
 
-1. 以下を使用します。 **[!UICONTROL Web アプリケーション]** コンテンツタイプとチェック **[!UICONTROL カスタマイズメニューに表示]**.
+1. の使用 **[!UICONTROL Web アプリケーション]** コンテンツタイプとチェック **[!UICONTROL カスタマイズメニューに表示]**.
 
    詳しくは、[このページ](../../delivery/using/personalization-blocks.md)を参照してください。
 
@@ -144,12 +143,12 @@ DCE に Captcha を追加する一般的な方法は、パーソナライゼー�
 
    * 1 ～ 6 行目では、必要な入力をすべて生成します。
    * 7 行目から最終行では、エラーを処理します。
-   * 4 行目では、Captcha グレーのボックスサイズ（幅/高さ）と、生成される単語の長さ (minWordSize/maxWordSize) を変更できます。
-   * Google reCAPTCHA を使用する前に、Googleに登録し、新しい reCAPTCHA サイトを作成する必要があります。
+   * 4 行目では、Captcha のグレーボックスのサイズ（幅/高さ）と、生成されるワードの長さ（minWordSize/maxWordSize）を変更できます。
+   * Google reCAPTCHA を使用する前に、Googleに登録して、新しい reCAPTCHA サイトを作成する必要があります。
 
      `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
 
-   検証ボタンを無効にできるはずですが、標準のボタンやリンクはないので、HTML自体でおこなう方が良いです。 その方法については、 [このページ](https://developers.google.com/recaptcha/).
+   「validation」ボタンは無効にできるはずですが、標準のボタンやリンクはないので、HTML自体で行う方が良いでしょう。 その方法については、を参照してください。 [このページ](https://developers.google.com/recaptcha/).
 
 ### Web アプリケーションの更新
 
@@ -159,17 +158,17 @@ DCE に Captcha を追加する一般的な方法は、パーソナライゼー�
 
 1. 最後のページと&#x200B;**[!UICONTROL ストレージ]**&#x200B;アクティビティの間に、**[!UICONTROL スクリプト]**&#x200B;と&#x200B;**[!UICONTROL テスト]**&#x200B;を追加します。
 
-   ブランチをプラグします。 **[!UICONTROL True]** から **[!UICONTROL ストレージ]** もう 1 つは、キャプチャを持つページに対してです。
+   ブランチのプラグ **[!UICONTROL True]** に **[!UICONTROL ストレージ]** もう 1 つは、captcha を持つページへのリンクです。
 
    ![](assets/scripting-captcha2.png)
 
-1. 分岐の条件を次の式で編集： True `"[vars/captchaValid]"` が True と等しい。
+1. 次のようにブランチ True の条件を編集します。 `"[vars/captchaValid]"` が True に等しい。
 
    ![](assets/scripting-captcha3.png)
 
-1. を編集します。 **[!UICONTROL スクリプト]** アクティビティ。 コンテンツは、選択した Captcha エンジンに応じて異なります。
+1. を編集する **[!UICONTROL スクリプト]** アクティビティ。 コンテンツは、選択した captcha エンジンによって異なります。
 
-1. 最後に、パーソナライズされたブロックをページに追加できます。を参照してください。 [このページ](../../web/using/editing-content.md).
+1. 最後に、パーソナライズしたブロックをページに追加できます。詳しくは、以下を参照してください。 [このページ](../../web/using/editing-content.md).
 
    ![](assets/scripting-captcha4.png)
 
@@ -177,11 +176,11 @@ DCE に Captcha を追加する一般的な方法は、パーソナライゼー�
 
 >[!IMPORTANT]
 >
->reCAPTCHA 統合の場合は、クライアント側の JavaScript をHTML( `<head>...</head>`):
+>reCAPTCHA 統合の場合、HTMLにクライアントサイドの JavaScript を追加する必要があります（ `<head>...</head>`）:
 >
 >`<script src="https://www.google.com/recaptcha/api.js" async defer></script>`
 
-### Campaign Captcha
+### キャンペーンのキャプチャ
 
 ```javascript
 var captchaID = request.getParameter("captchaID");
@@ -201,7 +200,7 @@ else
 
 ### Google recaptcha
 
-詳しくは、 [公式文書](https://developers.google.com/recaptcha/docs/verify).
+を参照してください [公式ドキュメント](https://developers.google.com/recaptcha/docs/verify).
 
 ```javascript
 ctx.vars.captchaValid = false
@@ -231,6 +230,6 @@ JSON.parse を使用するには、webApp に「shared/json2.js」を含める�
 
 ![](assets/scripting-captcha6.png)
 
-ビルド 8797 以降では、検証 API URL を使用するには、urlPermission ノードにを追加して、serverConf ファイルの許可リストに加えるに URL を追加する必要があります。
+ビルド 8797 以降、verification API URL を使用するには、urlPermission ノードに次のように追加して、serverConf ファイルの許可リストに追加する必要があります。
 
 `<url dnsSuffix="www.google.com" urlRegEx="https://www.google.com/recaptcha/api/siteverify"/>`

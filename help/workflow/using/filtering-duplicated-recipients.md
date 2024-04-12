@@ -2,12 +2,11 @@
 product: campaign
 title: 重複した受信者のフィルタリング
 description: 重複した受信者をフィルターする方法を説明します。
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: 7cbabbae-375f-4336-9afa-6356f37a79d0
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '156'
 ht-degree: 100%
 
 ---

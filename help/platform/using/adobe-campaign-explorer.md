@@ -3,14 +3,13 @@ product: campaign
 title: Adobe Campaign エクスプローラーの使用
 description: Campaign エクスプローラーの使用方法について説明します
 feature: Overview
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '454'
 ht-degree: 100%
 
 ---

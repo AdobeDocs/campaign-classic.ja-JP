@@ -2,11 +2,10 @@
 product: campaign
 title: Message Center（実行）
 description: Message Center（実行）
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '223'
 ht-degree: 100%
 
 ---

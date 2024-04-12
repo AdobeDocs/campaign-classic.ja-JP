@@ -2,12 +2,11 @@
 product: campaign
 title: サブワークフロー
 description: サブワークフローアクティビティの詳細を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '441'
 ht-degree: 100%
 
 ---

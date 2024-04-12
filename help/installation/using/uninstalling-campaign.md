@@ -1,17 +1,16 @@
 ---
 product: campaign
 title: Campaign のアンインストール
-description: Campaign のアンインストール方法を説明します
+description: Campaign のアンインストール方法を学ぶ
 feature: Installation
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: e2b026ba-aaf3-443d-8c36-c908288a14fd
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 18%
+source-wordcount: '36'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 18%
 
 >[!CAUTION]
 >
->これらの手順を実行すると、Adobe Campaignが永久にアンインストールされます。 すべてのデータが失われます。
+>これらの手順により、Adobe Campaignが完全にアンインストールされます。 すべてのデータが失われます。
 
 **RHEL:**
 
@@ -43,4 +42,4 @@ rm -rf /user/local/neolane
 
 **Windows の場合：**
 
-これを参照してください。 [ページ](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version). Campaign のインストールフォルダーを忘れずに削除してください。
+こちらを参照してください [ページ](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version). 必ず Campaign インストールフォルダーを削除してください。

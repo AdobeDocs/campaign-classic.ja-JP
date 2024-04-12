@@ -3,14 +3,13 @@ product: campaign
 title: ワークフローモード経由でオファーを統合
 description: ワークフローモード経由でオファーを統合
 feature: Interaction, Offers, Workflows
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1094'
 ht-degree: 100%
 
 ---

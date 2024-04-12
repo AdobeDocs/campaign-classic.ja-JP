@@ -3,12 +3,11 @@ product: campaign
 title: プロバイダー、在庫、予算
 description: プロバイダー、在庫、予算
 role: User
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Budget Management, Campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2010'
 ht-degree: 100%
 
 ---

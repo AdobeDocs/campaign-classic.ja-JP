@@ -3,14 +3,13 @@ product: campaign
 title: 自動プライバシーリクエストプロセス
 description: 自動プライバシーリクエストプロセスを設定する方法の説明
 feature: Privacy, Privacy Tools
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: a93bac61-f615-4178-bc12-0f056e48687d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '663'
 ht-degree: 100%
 
 ---

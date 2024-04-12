@@ -3,12 +3,11 @@ product: campaign
 title: 監視のガイドライン
 description: Campaign インスタンスとプロセスを監視するためのガイドラインとベストプラクティスについて説明します
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 24%
+source-wordcount: '744'
+ht-degree: 23%
 
 ---
 
@@ -18,9 +17,9 @@ ht-degree: 24%
 
 ## インスタンス監視ダッシュボード {#instance-monitoring-dashboard}
 
-The **[!UICONTROL 監視]** 「 」タブは、Campaign Classicのホームページからアクセスでき、インスタンスの監視に役立つ主なエントリポイントです。
+この **[!UICONTROL 監視]** Campaign Classicホームページからアクセスできるタブは、インスタンスを監視するための主なエントリポイントです。
 
-インスタンス上で発生しているステータス（ビルドバージョン、インストール済みパッケージなど）、システム指標、ログ、現在実行中のワークフロー、最後に送信された配信の状態などを示すダッシュボードが表示されます。
+インスタンスのステータス（ビルドバージョン、インストール済みパッケージなど）、システムインジケーター、ログ、現在実行中のワークフロー、最後に送信された配信の状態に関するダッシュボードが提供されます。
 
 詳しくは、[こちら](../../production/using/monitoring-processes.md)を参照してください。
 
@@ -35,7 +34,7 @@ The **[!UICONTROL 監視]** 「 」タブは、Campaign Classicのホームペ�
 <td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">データベースの監視</a></p></td></tr>
 </table>
 
-様々なキャンペーンプロセスを監視するその他の方法を使用できます。 インスタンスを監視する方法はいくつかあり、システムの正常性を確認し、ワークフローの設定や配信の送信など時に発生する可能性のある問題のトラブルシューティングをおこなうために使用できます。
+様々なキャンペーンプロセスを監視するその他の方法を利用できます。 インスタンスを監視してシステムが正常であることを確認したり、最終的にワークフローの設定や配信の送信などで発生する可能性のある問題をトラブルシューティングしたりする方法がいくつか用意されています。
 
 ### インスタンスの監視 {#monitoring-instance}
 
@@ -43,15 +42,15 @@ The **[!UICONTROL 監視]** 「 」タブは、Campaign Classicのホームペ�
 
 **自動監視ツール**
 
-いくつかの自動方法を使用できます。 を使用して、インスタンスを監視できます。 例えば、検出された異常値を含む電子メールレポートを設定したり、XML 形式の指標のリストを取得したりできます。 詳しくは、[ここをクリック](../../production/using/monitoring-processes.md#automatic-monitoring)してください。
+いくつかの自動方法が利用できます。 インスタンスの監視に役立ちます。 例えば、異常が検出されたメールレポートの設定や、XML 形式の指標のリストの取得などを行うことができます。 詳しくは、[ここをクリック](../../production/using/monitoring-processes.md#automatic-monitoring)してください。
 
 **監査記録**
 
-監査記録を使用すると、インスタンス内のオプション、ワークフロー、スキーマに関する変更の完全な履歴を視覚化できます。 詳しくは、[ここをクリック](../../production/using/audit-trail.md)してください。
+監査記録を使用すると、インスタンス内のオプション、ワークフロー、スキーマに関連する変更の完全な履歴を視覚化できます。 詳しくは、[ここをクリック](../../production/using/audit-trail.md)してください。
 
 **コントロールパネル**
 
-Campaign コントロールパネルを使用すると、URL 権限の管理、サーバーのビルドバージョンなどのインスタンスの詳細の確認など、インスタンスの複数の設定を管理できます。 また、インスタンスに接続されている SFTP サーバーの使用可能な領域を監視することもできます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)してください。
+Campaign コントロールパネルを使用すると、インスタンスの複数の設定を管理できます。URL 権限の管理、サーバーのビルドバージョンなどのインスタンスの詳細の確認などです。 また、インスタンスに接続されている SFTP サーバーの使用可能な領域を監視することもできます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)してください。
 
 >[!NOTE]
 >
@@ -65,24 +64,24 @@ Campaign コントロールパネルを使用すると、URL 権限の管理、�
 
 **ワークフローヒートマップ**
 
-ワークフローヒートマップは、インスタンス上で実行されているすべてのワークフローを視覚的に表します。 これにより、インスタンスの負荷を簡単に監視し、それに応じてワークフローを計画できます。 詳しくは、[ここをクリック](../../workflow/using/heatmap.md)してください。
+ワークフローヒートマップは、お使いのインスタンスで実行されているすべてのワークフローを視覚的に表現したものです。 これにより、インスタンスの負荷を簡単に監視し、それに応じてワークフローを計画できます。 詳しくは、[ここをクリック](../../workflow/using/heatmap.md)してください。
 
 **監査記録**
 
-監査記録を使用すると、ワークフローでおこなわれたすべての変更と現在の状態を視覚化できます。 [ここをクリック](../../production/using/audit-trail.md).
+監査記録を使用すると、ワークフローで行われたすべての変更とその現在の状態を視覚化できます。 [ここをクリック](../../production/using/audit-trail.md).
 
 **ワークフローのトラブルシューティング**
 
-ワークフローの実行で問題が発生した場合は、特定のアクションを実行できます。 [ここをクリック](../../production/using/workflow-execution.md) 詳細情報
+ワークフローの実行に関する問題が発生した場合は、特定のアクションを実行できます。 [ここをクリック](../../production/using/workflow-execution.md) 詳細情報
 
 **ワークフローステータスの監視**
 
-また、ヒートマップに加えて、一連のワークフローのステータスを監視し、スーパーバイザーに繰り返しメッセージを送信するワークフローを作成できます。 詳しくは、[ここをクリック](../../workflow/using/supervising-workflows.md)してください。
+ヒートマップに加えて、一連のワークフローのステータスを監視し、スーパーバイザーに繰り返しメッセージを送信するワークフローを作成できます。 詳しくは、[ここをクリック](../../workflow/using/supervising-workflows.md)してください。
 
 **一般的なガイドライン**
 
-ワークフローを使用する際には、以下のガイドラインとベストプラクティスに従うことで、パフォーマンスを向上させることができます。 詳しくは、次の節を参照してください。
-* [ワークフローを使用する際のベストプラクティス](../../workflow/using/workflow-best-practices.md)
+ワークフローを使用する際に、ガイドラインとベストプラクティスに従うと、パフォーマンスの向上に役立ちます。 詳しくは、次の節を参照してください。
+* [ワークフロー使用時のベストプラクティス](../../workflow/using/workflow-best-practices.md)
 * [ワークフローの実行の監視](../../workflow/using/monitoring-workflow-execution.md)
 
 ### 配信の監視 {#monitoring-deliveries}
@@ -91,18 +90,18 @@ Campaign コントロールパネルを使用すると、URL 権限の管理、�
 
 **SMTP レポート**
 
-SMTP レポートには、ドメインごとに配信統計と SMTP エラーが表示されます。 [詳細情報](../../production/using/monitoring-processes.md)
+SMTP レポートには、配信統計と SMTP エラーがドメイン別に表示されます。 [詳細情報](../../production/using/monitoring-processes.md)
 
 **ベストプラクティス**
 
-[配信の送信とデザインのベストプラクティス](../../delivery/using/delivery-best-practices.md) は、パフォーマンスの向上に役立ちます。
+[配信の送信とデザインのベストプラクティス](../../delivery/using/delivery-best-practices.md) あなたは彼らのパフォーマンスを向上させるのに役立ちます。
 
 **配信のトラブルシューティング**
 配信に関する問題が発生した場合は、特定のアクションを実行できます。
 * [配信品質の問題](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [画像の表示の問題](../../production/using/image-display-issues.md)
 * [配信パフォーマンスの問題](../../delivery/using/delivery-performances.md)
-* [一時ファイルの問題](../../production/using/temporary-files.md) - *オンプレミスでのホスティングモデルのみ*
+* [一時ファイルの問題](../../production/using/temporary-files.md) - *オンプレミス ホスティングモデルのみ*
 
 ### データベースの監視 {#monitoring-database}
 
@@ -114,25 +113,25 @@ SMTP レポートには、ドメインごとに配信統計と SMTP エラーが
 
 **データベースパフォーマンスのトラブルシューティング**
 
-データベースのパフォーマンスに問題が発生した場合は、特定のアクションを実行できます。 詳しくは、[ここをクリック](../../production/using/database-performances.md)してください。
+データベースのパフォーマンスに関する問題が発生した場合は、特定のアクションを実行できます。 詳しくは、[ここをクリック](../../production/using/database-performances.md)してください。
 
 **データベースのメンテナンス**
 
-*オンプレミスおよびハイブリッドホスティングモデルのみ*
+*オンプレミスホスティングモデルとハイブリッドホスティングモデルのみ*
 
-ディスク容量の過剰消費を避けるために、データベースのメンテナンスを定期的に実行し、データベースアクセスに影響を与えることをお勧めします。 詳しくは、[ここをクリック](../../production/using/recommendations.md)してください。
+データベースへのアクセスに影響を与えるディスク領域の過剰消費を避けるために、定期的にデータベースのメンテナンスを実行することをお勧めします。 詳しくは、[ここをクリック](../../production/using/recommendations.md)してください。
 
 **バックアップと復元**
 
-*オンプレミスおよびハイブリッドホスティングモデルのみ*
+*オンプレミスホスティングモデルとハイブリッドホスティングモデルのみ*
 
-マシン上の問題（物理的な問題でもシステム関連の問題でも）が発生した場合にデータが失われるのを防ぐために、バックアップは不可欠です。 [ここをクリック](../../production/using/backup.md) を参照してください。 復元手順については、 [この節](../../production/using/restoration.md).
+マシン上で（物理またはシステムに関連する）問題が発生した場合にデータが失われないようにするには、バックアップが不可欠です。 [ここをクリック](../../production/using/backup.md) を参照してください。 復元手順については、を参照してください。 [この節](../../production/using/restoration.md).
 
 ## Campaign Classicの技術原則 {#campaign-classic-technical-principles}
 
-技術リソースは、Campaign Classicドキュメントに記載されています。 インスタンスで技術的な操作を実行する前に、これらのトピックについて理解しておくことをお勧めします。
+技術リソースは、Campaign Classicドキュメントで入手できます。 インスタンスに対して技術的な操作を実行する前に、これらのトピックについて理解しておくことをお勧めします。
 
-**モデルと機能のホスティング**
+**ホスティングモデルと機能**
 
 * [Campaign Classicホスティングモデル](../../installation/using/hosting-models.md)
 * [ホスティングモデルの機能](../../installation/using/capability-matrix.md)
@@ -142,15 +141,15 @@ SMTP レポートには、ドメインごとに配信統計と SMTP エラーが
 *オンプレミスおよびハイブリッドホスティングモデルのみ*
 
 * [サーバー設定](../../installation/using/configuring-campaign-server.md)
-* [Serverconf.xml ファイルの設定](../../installation/using/the-server-configuration-file.md)
-* [配信品質のサーバー設定](../../installation/using/email-deliverability.md)
-* [インスタンスを作成し、データベースを宣言するコマンドライン](../../installation/using/command-lines.md)
+* [Serverconf.xml ファイル設定](../../installation/using/the-server-configuration-file.md)
+* [配信品質を考慮したサーバー設定](../../installation/using/email-deliverability.md)
+* [インスタンスを作成しデータベースを宣言するためのコマンドライン](../../installation/using/command-lines.md)
 
 **一般原則**
 
 * [Campaign Classic構造](../../production/using/general-architecture.md)
 * [Campaign Classicモジュール](../../production/using/operating-principle.md)
 * [Campaign Classicオプション](../../installation/using/configuring-campaign-options.md)
-* [モジュールの自動起動を設定する方法](../../production/using/administration.md)
+* [モジュールの自動スタートアップの設定方法](../../production/using/administration.md)
 * [キャンペーン設定の原則](../../production/using/configuration-principle.md)
 * [トラブルシューティング手順](../../production/using/performance-and-throughput-issues.md)

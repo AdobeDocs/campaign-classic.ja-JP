@@ -3,16 +3,15 @@ product: campaign
 title: Campaign Classicデータベースの推奨事項
 description: データベースの推奨事項
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 badge-v7-prem: label="オンプレミスおよびハイブリッド" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=ja" tooltip="オンプレミスデプロイメントとハイブリッドデプロイメントにのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 8a0426c1-9e8d-4053-bc2b-6a550e2eed2f
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 8%
+source-wordcount: '281'
+ht-degree: 6%
 
 ---
 
@@ -20,56 +19,56 @@ ht-degree: 8%
 
 
 
-データベース・サーバは、アプリケーション・サーバが使用するオペレーティング・システムに関係なく、任意のオペレーティング・システム上で実行できます（サーバ間にネットワーク接続がある場合）。
+データベース・サーバは、アプリケーション・サーバまたはサーバが使用するオペレーティング・システムに関係なく、それらの間にネットワーク接続がある限り、特定のオペレーティング・システム上で実行できます。
 
-Adobe Campaignの様々なコンポーネントとの接続が利用できる限り、データベースサーバーのオペレーティングシステムは重要ではありません。
+データベースサーバーのオペレーティングシステムは、Adobe Campaignの様々なコンポーネントとの接続が可能であれば重要ではありません。
 
-また、 [データベースアクセスレイヤー](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers) 」セクションに入力します。
+次も確認します [データベースアクセスレイヤー](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#database-access-layers) セクション。
 
 ## Microsoft SQL Server {#microsoft-sql-server}
 
-ネイティブクライアントは、Adobe Campaignアプリケーションサーバーにインストールする必要があります。
+ネイティブクライアントをAdobe Campaign アプリケーションサーバーにインストールする必要があります。
 
-サーバー上のネイティブクライアントを確認するには、[ODBC ドライバーの設定 ] パネルの [ **SQL Server Native Client 11.0**.
+サーバー上のネイティブ・クライアントは、ODBC ドライバ構成パネルの下で確認できます。 **SQL Server Native Client 11.0**.
 
-次のアクセス DLL が存在する必要があります： **sqlncli11.dll**.
+次のアクセス DLL が必要です： **sqlncli11.dll**.
 
-アクセス DLL がMicrosoftの Web サイトに見つかりました。
+アクセス DLL はMicrosoftの Web サイトにあります。
 
 >[!NOTE]
 >
->Linux で実行されているアプリケーションサーバーからのMicrosoft SQL Server へのアクセスはサポートされていません。
+>Linux で動作しているアプリケーションサーバーからMicrosoft SQL Server へのアクセスはサポートされていません。
 
 ## Oracle {#oracle}
 
 >[!NOTE]
 >
->2 バイト文字を含む列名はサポートされていません。
+>マルチバイト文字を含む列名はサポートされていません。
 
-The **NLS_NCHAR_CHARACTERSET** および **NLS_CHARACTERSET** データベースが Unicode または ANSI で動作するように、パラメータを正しく設定する必要があります。
+この **NLS_NCHAR_CHARACTERSET** および **NLS_CHARACTERSET** データベースを Unicode または ANSI で動作させるには、パラメータを正しく設定する必要があります。
 
-Adobe CampaignはデフォルトのOracleエンコーディングを使用します。 その他のエンコーディングを使用すると、トリガーの互換性の問題が発生する場合があります。この場合は、テクニカルサポートにお問い合わせください。
+Adobe Campaignでは、デフォルトのOracleエンコーディングが使用されます。 他のエンコーディングを使用すると、トリガーの互換性の問題が発生する場合があります。この場合は、テクニカルサポートにお問い合わせください。
 
-使用するエンコーディングを確認するには、次を使用します **sqlplus** コマンド：
+エンコーディングを確認するには、次を使用します **sqlplus** コマンド：
 
 ```
 SELECT * FROM nls_database_parameters ;
 ```
 
-* Unicode インストールの場合、次のエンコードがサポートされます。
+* Unicode インストールの場合、サポートされているエンコードは次のとおりです。
 
   ```
   NLS_NCHAR_CHARACTERSET         AL16UTF16
   NLS_CHARACTERSET         AL32UTF8
   ```
 
-* ANSI インストール（非 Unicode）の場合、次のエンコーディングのみがサポートされます。
+* ANSI インストール （非 Unicode）の場合、次のエンコードのみがサポートされます。
 
 ```
   NLS_CHARACTERSET WE8MSWIN1252
 ```
 
-にログオンするには **sqlplus**&#x200B;を使用する場合は、次のOracleユーザープロファイルを使用します。
+にログオンするには **sqlplus**&#x200B;の場合、Oracleユーザープロファイルを使用します。
 
 ```
 su - oracle 
@@ -77,12 +76,12 @@ sqlplus
 [login] [password]
 ```
 
-また、 [Linux のoracleクライアント](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux).
+以下も参照してください。 [Linux のOracleクライアント](../../installation/using/installing-packages-with-linux.md#oracle-client-in-linux).
 
 ## PostgresSQL {#postgressql}
 
-データベースエンジンをインストールする際には、UTF-8 サポートをインストールすることをお勧めします。 これにより、Unicode データベースを作成できます。
+データベースエンジンをインストールする際は、UTF-8 サポートをインストールすることをお勧めします。 これにより、Unicode データベースを作成できるようになります。
 
 **関連トピック**
 
-* [Adobe Campaign Classicテーブルのログなしオプション](https://helpx.adobe.com/campaign/kb/unlogged-tables-classic.html)
+* [Adobe Campaign Classic テーブルの「ログなし」オプション](https://helpx.adobe.com/campaign/kb/unlogged-tables-classic.html)

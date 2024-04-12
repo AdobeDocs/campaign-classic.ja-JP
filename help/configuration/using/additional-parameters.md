@@ -1,30 +1,29 @@
 ---
 product: campaign
-title: 追加の Web トラッキングパラメーター
-description: Web トラッキングのパラメーターの詳細を説明します
+title: 追加の web トラッキングパラメーター
+description: Web トラッキングのパラメーターの詳細情報
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 2%
+source-wordcount: '352'
+ht-degree: 0%
 
 ---
 
-# 追加の Web トラッキングパラメーター{#additional-parameters}
+# 追加の web トラッキングパラメーター{#additional-parameters}
 
 ## パラメーターの定義 {#definition-of-parameters}
 
-Adobe Campaignプラットフォームでは、標準として 2 つの TRANSACTION タイプの Web トラッキングパラメーターが提供されます。
+Adobe Campaign プラットフォームには、標準として 2 つの TRANSACTION タイプの web トラッキングパラメーターが用意されています。
 
-* **量**：トランザクションの金額を表します。
-* **記事**：トランザクション内の品目数を表します。
+* **量**：トランザクションの量を表し、
+* **記事**：トランザクションの項目数を表します。
 
-これらのパラメーターは、 **nms:webTrackingLog** スキーマとは、レポートで確認できる指標の一部です。
+これらのパラメーターは、 **nms:webTrackingLog** レポートに表示される指標の一部を示します。
 
-追加のパラメーターを定義するには、このスキーマを拡張する必要があります。
+追加パラメーターを定義するには、このスキーマを拡張する必要があります。
 
 **例**：
 
@@ -44,19 +43,19 @@ Adobe Campaignプラットフォームでは、標準として 2 つの TRANSACT
 
 ## リダイレクトサーバーの設定 {#redirection-server-configuration}
 
-サーバーの設定で、Web トラッキングパラメーターで使用する最大文字数を定義できます。
+サーバー設定では、web トラッキングパラメーターに考慮する最大文字数を定義できます。
 
 >[!IMPORTANT]
 >
->考慮する最大文字数を増やすと、プラットフォームの Web トラッキングのパフォーマンスに影響を与える可能性があります。
+>考慮する最大文字数を増やすと、プラットフォームの web トラッキングパフォーマンスに影響を与える可能性があります。
 
-これをおこなうには、 **webTrackingParamSize** の属性 **`<trackinglogd>`** 要素を **serverConf.xml** ファイル。 このファイルは、 **conf** Adobe Campaignインストールディレクトリのサブディレクトリ。
+これを行うには、 **webTrackingParamSize** 属性 **`<trackinglogd>`** 内の要素 **serverConf.xml** ファイル。 このファイルは **conf** Adobe Campaign インストールディレクトリのサブディレクトリ。
 
 **例**：
 
-デフォルト値は 64 文字です。 この値では、 **量** および **記事** (&quot;amount=xxxxxxxxx&amp;article=xxxxxxxxxx&quot;) 標準パラメーター。
+デフォルト値は 64 文字です。 この値を使用すると、 **量** および **記事** （&quot;amount=xxxxxxxx&amp;article=xxxxxxxx&quot;）標準パラメーター。
 
-上記の拡張スキーマの例で示した両方のパラメーター（名前のサイズ+値のサイズ）を考慮することで、100 文字を考慮に入れるように設定を変更できます (「amount=xxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxxxxx&amp;code=xxxxxxxxxx」)。
+上記の拡張スキーマの例で示した両方のパラメーター（名前のサイズ +値のサイズ）を考慮すると、100 文字を考慮するように設定を変更できます（「amount=xxxxxxxxx&amp;article=xxxxxxxx&amp;mode=xxxxxxxxxx&amp;code=xxxxx」）。
 
 ```
 <trackinglogd args="" autoStart="false" initScript="" maxCreateFileRetry="5" maxLogsSizeOnDiskMb="500"
@@ -67,15 +66,15 @@ webTrackingParamSize="64"/>
 
 設定を変更した場合は、次の操作を行う必要があります。
 
-* リダイレクトモジュールをホストする Web サーバー（Apache、IIS など）を停止し、
-* Adobe Campaignサーバーを停止します。 **net stop nlserver6** Windows の場合、 **/etc/init.d/nlserver6 停止** Linux の場合、
+* リダイレクトモジュールをホストする web サーバーを停止します（Apache、IIS など）。
+* Adobe Campaign サーバーを停止します。 **net stop nlserver6** windows の場合、 **/etc/init.d/nlserver6 停止** linux の場合
 
   >[!NOTE]
   >
   >20.1 以降では、代わりに次のコマンドを使用することをお勧めします（Linux の場合）。 **systemctl stop nlserver**
 
-* Linux では、 **ipcrm** コマンド、
-* Adobe Campaignサーバーを再起動します。 **net start nlserver6** Windows の場合、 **/etc/init.d/nlserver6 start** Linux の場合、
+* Linux では、を使用して共有メモリセグメントを削除します。 **ipcrm** コマンド、
+* Adobe Campaign サーバーを再起動します。 **net start nlserver6** windows の場合、 **/etc/init.d/nlserver6 開始** linux の場合
 
   >[!NOTE]
   >
@@ -83,7 +82,7 @@ webTrackingParamSize="64"/>
 
 * Web サーバーを再起動します。
 
-**例**:Linux での設定を考慮します。
+**例**:Linux での設定を考慮
 
 ```
 adobe@selma:~$ systemctl stop nlserver
@@ -109,4 +108,4 @@ adobe@selma:~$ systemctl start apache2
 
 >[!NOTE]
 >
->Linux の場合、 **webTrackingParamSize** または **maxSharedLogs** パラメーターを使用する場合、共有メモリ (SHM) のサイズを増やす必要が生じる場合があります。
+>Linux の場合、のサイズを大きくすると **webTrackingParamSize** または **maxSharedLogs** パラメータを使用する場合は、共有メモリ（SHM）のサイズを大きくする必要があります。

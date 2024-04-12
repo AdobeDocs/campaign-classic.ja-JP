@@ -3,12 +3,11 @@ product: campaign
 title: 一貫性ルール
 description: Adobe Campaign での一貫性ルールの操作方法を説明します。
 role: User, Data Engineer
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Typology Rules, Campaigns
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: a37e67ef3f348737a099dab00a84b6854bd52e57
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '829'
 ht-degree: 100%
 
 ---

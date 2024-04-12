@@ -2,11 +2,10 @@
 product: campaign
 title: Web 分析
 description: Web 分析パッケージの詳細を説明します
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Workflows, Analytics Integration
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '178'
 ht-degree: 92%
 
 ---
@@ -33,7 +32,7 @@ ht-degree: 92%
   <tr> 
    <td> <span class="uicontrol">変換済み連絡先の特定</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsFindConverted</span> <br /> </td> 
-   <td> リマーケティングキャンペーンの後で、購入を完了したサイトの訪問者をインデックス化します。このワークフローで復元されたデータは、 <span class="uicontrol">リマーケティングの効率レポート</span>. <br /> </td> 
+   <td> リマーケティングキャンペーンの後で、購入を完了したサイトの訪問者をインデックス化します。このワークフローで復元されたデータには、 <span class="uicontrol">リマーケティング効率レポート</span>. <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">イベントパージ</span> <br /> </td> 

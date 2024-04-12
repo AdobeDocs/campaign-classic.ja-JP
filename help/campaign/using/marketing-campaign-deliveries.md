@@ -3,12 +3,11 @@ product: campaign
 title: マーケティングキャンペーン配信
 description: マーケティングキャンペーン配信の詳細
 role: User
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1550'
 ht-degree: 100%
 
 ---

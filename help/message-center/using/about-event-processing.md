@@ -3,14 +3,13 @@ product: campaign
 title: イベントの処理
 description: Adobe Campaign Classic でのトランザクションメッセージイベントの処理方法を説明します
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '713'
 ht-degree: 98%
 
 ---
@@ -86,7 +85,7 @@ ht-degree: 98%
 
 * **保留中**：イベントは次のいずれかになります。
 
-   * 収集されたばかりで処理されていないイベント。 **[!UICONTROL エラー数]**&#x200B;列に値 0 が表示されます。メールテンプレートはまだリンクされていません。
+   * 収集されたばかりで、まだ処理されていないイベント。 **[!UICONTROL エラー数]**&#x200B;列に値 0 が表示されます。メールテンプレートはまだリンクされていません。
    * 処理されたが、確認でエラーになったイベント。**[!UICONTROL エラー数]**&#x200B;列に 0 以外の値が表示されます。このイベントが再処理される日付については、**[!UICONTROL 処理リクエスト日]**&#x200B;の列を参照してください。
 
 * **配信保留**：イベントは処理され、配信テンプレートがリンクされています。メールは配信保留となり、標準的な配信処理が適用されます。詳細を確認するには、該当する配信を開きます。

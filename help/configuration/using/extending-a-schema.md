@@ -3,13 +3,12 @@ product: campaign
 title: スキーマの拡張
 description: スキーマの拡張方法を学ぶ
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Schema Extension
 exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 13%
+source-wordcount: '327'
+ht-degree: 11%
 
 ---
 
@@ -17,23 +16,23 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->一部の組み込みスキーマは、拡張できません。主に、次の設定が定義されているスキーマです。\
+>一部のビルトインスキーマは、拡張できません。主に、次の設定が定義されているスキーマです。\
 >**dataSource=&quot;file&quot;** および **mappingType=&quot;xmlFile&quot;**.\
->次のスキーマは拡張できません。 **xtk:entityBackupNew**, **xtk:entityBackupOriginal**, **xtk:entityOriginal**, **xtk:form**, **xtk:srcSchema**, **ncm:publishing**, **nl:monitoring**, **nms:calendar**, **nms:remoteTracking**, **nms:userAgentRules**, **xtk:builder**, **xtk:connections**, **xtk:dbInit**, **xtk:funcList**, **xtk:fusion**, **xtk: jst**, **xtk:navtree**, **xtk:queryDef**, **xtk:resourceMenu**, **xtk:schema**, **xtk:scriptContext**, **xtk:session**, **xtk:sqlSchema**, **xtk:strings**.
->このリストが完全なものではありません。
+>次のスキーマは拡張できません。 **xtk:entityBackupNew**, **xtk:entityBackupOriginal**, **xtk:entityOriginal**, **xtk:form**, **xtk:srcSchema**, **ncm:publishing**, **nl：モニタリング**, **nms:calendar**, **nms:remoteTracking**, **nms:userAgentRules**, **xtk:builder**, **xtk:connections**, **xtk:dbInit**, **xtk:funcList**, **xtk:fusion**, **xtk: jst**, **xtk:navtree**, **xtk:queryDef**, **xtk:resourceMenu**, **xtk:schema**, **xtk:scriptContext**, **xtk:session**, **xtk:sqlSchema**, **xtk:strings**.
+>このリストは網羅的ではありません。
 
 既存のスキーマを拡張するには、次の 2 つの方法があります。
 
-1. ソーススキーマを直接変更する。
-1. 同じ名前で異なる名前空間を持つ別のスキーマを作成する。 利点は、元のスキーマを変更する必要なくテーブルを拡張できることです。
+1. ソーススキーマを直接変更します。
+1. 同じ名前で別の名前空間を持つ別のスキーマを作成します。 この利点は、元のスキーマを変更しなくてもテーブルを拡張できることです。
 
-   スキーマのルート要素には、 **extendedSchema** 属性の値は、拡張するスキーマの名前です。
+   スキーマのルート要素には、次を含める必要があります **extendedSchema** 値として拡張するスキーマの名前を持つ属性。
 
-   拡張スキーマには独自のスキーマがありません。ソーススキーマから生成されたスキーマは、拡張スキーマのフィールドで入力されます。
+   拡張スキーマに独自のスキーマはありません。ソーススキーマから生成されたスキーマは、拡張スキーマのフィールドで入力されます。
 
    >[!IMPORTANT]
    >
-   >アプリケーションの組み込みスキーマではなく、スキーマ拡張メカニズムを変更することはできます。 標準スキーマを変更すると、今後アプリケーションのアップグレード時にスキーマが更新されなくなり、これは、Adobe Campaignの使用に誤作動を引き起こす可能性があります。
+   >アプリケーションのビルトインスキーマではなく、スキーマ拡張メカニズムを変更できます。 標準スキーマを変更すると、今後アプリケーションのアップグレード時にスキーマが更新されなくなり、これは、Adobe Campaignの使用における誤動作の原因となる可能性があります。
 
    **例**：の拡張 **nms:recipient** スキーマ。
 
@@ -45,7 +44,7 @@ ht-degree: 13%
    </srcSchema>
    ```
 
-   The **nms:recipient** 拡張スキーマには、拡張スキーマに入力されたフィールドが入力されます。
+   この **nms:recipient** 拡張スキーマは、拡張スキーマに入力されたフィールドで入力されます。
 
    ```
    <schema dependingSchemas="cus:recipient" name="recipient" namespace="nms">
@@ -55,11 +54,11 @@ ht-degree: 13%
    </schema>
    ```
 
-   The **dependingSchemas** スキーマのルート要素の属性は、拡張スキーマへの依存関係を参照します。
+   この **dependingSchemas** スキーマのルート要素の属性は、拡張スキーマの依存関係を参照します。
 
-   The **belongsTo** 属性をフィールドに設定すると、宣言されたスキーマに値が設定されます。
+   この **belonesTo** フィールドの属性が、宣言されているスキーマに入力されます。
 
 >[!IMPORTANT]
 >
->変更を考慮に入れるには、スキーマを再生成する必要があります。 詳しくは、[このページ](../../configuration/using/regenerating-schemas.md)を参照してください。\
+>変更を考慮するには、スキーマを再生成する必要があります。 詳しくは、[このページ](../../configuration/using/regenerating-schemas.md)を参照してください。\
 >変更がデータベースの構造に影響を与える場合は、更新を実行する必要があります。 詳しくは、[このページ](../../configuration/using/updating-the-database-structure.md)を参照してください。

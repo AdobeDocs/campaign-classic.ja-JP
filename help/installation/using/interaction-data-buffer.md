@@ -1,49 +1,48 @@
 ---
 product: campaign
-title: インタラクション — データバッファ
-description: インタラクション — データバッファ
+title: インタラクション – データバッファー
+description: インタラクション – データバッファー
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 16%
+source-wordcount: '299'
+ht-degree: 14%
 
 ---
 
-# インタラクション — データバッファ{#interaction-data-buffer}
+# インタラクション – データバッファー{#interaction-data-buffer}
 
 
 
 データバッファゾーンを設定すると、オファー提案の計算が非同期化され、インバウンドインタラクションのパフォーマンスを向上できます。この設定は、インスタンス自体の設定ファイル（config-Instance.xml）で実行できます。
 
-Adobe Campaignで、 **データバッファゾーン** は、インタラクションモジュールで導入されました。 次の操作が可能です。 **業績を上げる** インバウンドインタラクションの合計を調整します。
+Adobe Campaignにおいて、 **データバッファーゾーン** インタラクション モジュールに導入されました。 これにより、次のことが可能になります **パフォーマンスの向上** 在庫とオファーの計算の同期解除によるインバウンドインタラクション。
 
-インバウンドインタラクションのみに関係します。呼び出し（呼び出しデータの有無）、またはステータスの更新 (updateStatus) のどちらであるかは関係ありません。
+これは、呼び出し（呼び出しデータの有無）やステータス更新（updateStatus）のいずれを行った場合でも、インバウンドインタラクションにのみ関係します。
 
-受信者に関する提案を書き込む際にキューを避けるため、新しいプロセスで **データバッファゾーン** それは提案を可能にする **非同期で書き込まれる**. このデータバッファゾーンは定期的に読み取られ、空にされます。 デフォルトの期間は約 1 秒のスペースにあります。したがって、提案書の作成はグループ化されます。
+受信者に関連する提案を書き込む際のキューを回避するために、新しいプロセスでは、 **データバッファーゾーン** それは提案が可能になる **非同期で書かれる**. このデータバッファーゾーンは、定期的に読み取られ、空にされる。 デフォルトの期間は約 1 秒のスペースです。したがって、提案書き込みはグループ化されます。
 
 >[!NOTE]
 >
 >インタラクションを分散アーキテクチャで使用する場合、これは必要不可欠なパラメーターです。
 
-データバッファゾーン **設定** は、インスタンスの設定ファイル (config-Instance.xml) で実行できます。
+データバッファーゾーン **設定** インスタンスの設定ファイル（config-Instance.xml）で実行できます。
 
 >[!CAUTION]
 >
->一部の設定は、Adobeがホストするデプロイメントの場合、Adobeが実行できるだけです。 例えば、サーバーおよびインスタンスの設定ファイルにアクセスする場合です。 様々なデプロイメントについて詳しくは、 [ホスティングのモデル](../../installation/using/hosting-models.md) セクションまたは [このページ](../../installation/using/capability-matrix.md).
+>一部の設定は、Adobeがホストするデプロイメントに対してのみAdobeが実行できます。 例えば、サーバーおよびインスタンス設定ファイルにアクセスするには、次の手順を実行します。 様々なデプロイメントの詳細については、 [ホスティングモデル](../../installation/using/hosting-models.md) セクションまたは宛先 [このページ](../../installation/using/capability-matrix.md).
 >
->設定を変更した場合は、Web サーバー (Apache:IIS) とAdobe Campaignプロセスを再起動する必要があります。\
->データバッファゾーンを設定した後、適合したハードウェア設定が使用可能であることを確認してください。 （存在するメモリの量）。
+>設定に変更を加えた場合は、web サーバー（Apache:IIS）とAdobe Campaign プロセスを再起動する必要があります。\
+>データバッファーゾーンを設定したら、適合するハードウェア設定が使用可能であることを確認してください。 （存在するメモリの量）。
 
 
-データバッファゾーンを設定した後、適合したハードウェア設定が使用可能であることを確認してください。 （存在するメモリの量）。
+データバッファーゾーンを設定したら、適合するハードウェア設定が使用可能であることを確認してください。 （存在するメモリの量）。
 
-書き込みデーモン（プロセス名： interaction）の定義は次のとおりです。
+書き込みデーモン （プロセス名：インタラクション）の定義は次のとおりです。
 
 ```
 <interactiond args="" autoStart="false" callDataSize="0" initScript="" maxProcessMemoryAlertMb="1800"
@@ -51,7 +50,7 @@ maxProcessMemoryWarningMb="1600" maxSharedEntries="25000" nextOffersSize="0"
 processRestartTime="06:00:00" runLevel="10" targetKeySize="16"/>
 ```
 
-インバウンドインタラクションを使用する場合、Adobe Campaignサーバーが起動したときにプロセスが自動的に起動されるように、 @autostart属性を「true」に設定する必要があります。
+インバウンドインタラクションを使用する場合、Adobe Campaign サーバーの起動時にプロセスを自動的に起動するには、@autostart 属性を「true」にする必要があります。
 
 引数の詳細：
 

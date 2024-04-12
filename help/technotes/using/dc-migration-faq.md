@@ -2,14 +2,13 @@
 product: campaign
 title: Adobe Managed Services（パブリッククラウド）への移行に関する FAQ
 description: Campaign Classic のパブリッククラウドへの移行に関する FAQ
-badge-v7-only: label="v7" type="Informative" tooltip="Campaign Classic v7 にのみ適用されます"
 feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2204'
 ht-degree: 99%
 
 ---
@@ -30,7 +29,7 @@ ht-degree: 99%
 
 データベースおよびインフラストラクチャに対する全体的な影響を以下に示します。
 
-* **データベースは変更されますか？新しいデータベースのバージョンは何ですか？どのオペレーティングシステムを使用しますか？**
+* **データベースは変更されますか？新しいデータベースのバージョンは何ですか？使用する OS**
 
   アドビは、最適な状態で Adobe Campaign サービスを提供するために最も適したデータベース管理エンジンを選択し、デプロイする権利を有します。
 
